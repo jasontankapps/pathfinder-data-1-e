@@ -2571,100 +2571,100 @@ const _stares = {title: "Mesmerist Stares", topLink: ["Mesmerist","class/mesmeri
 <p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 13</Link><br/>Chelish mesmerists have refined their hypnotic stares to include a suite of gaze attacks useful for negotiating with or undermining outsiders. In the decades since, these secrets have begun to slip beyond the Hell-bound nation's borders, and now can be found throughout the Inner Sea region, especially in areas that interact frequently with outsiders.</p>
 <p>Devilbane gazes (stares that start with "Devilbane" below) can be selected beginning at 3rd level as options for the mesmerist's bold stare improvements. They tend to be more limited in their scope than standard bold stare improvements, but cut to the core of an outsider's being. When a devilbane gaze is used against a creature with the outsider type, double the hypnotic stare penalty applied by the devilbane gaze improvement (but not the Will save penalty the original hypnotic stare imposes). Despite their moniker, devilbane gazes affect all outsiders equally well.</p>
 <hr/>
-<Ability id="stareallure-allure-fn1" icon={["armor-downgrade"]}>
+<Ability id="stareallure-allure-fn1" icon={["lower"]}>
 <Pair single id="stareallure-allure-fn1"><Link to="/stare/allure">⮞</Link> Allure <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-1" id="ability-stares-fake-fn-1" data-hash-target to="ability-stares-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies on initiative checks and Perception checks.</Pair>
 </Ability>
-<Ability id="staredevilbanebinding-devilbane-binding-fn2" icon={["armor-downgrade"]}>
+<Ability id="staredevilbanebinding-devilbane-binding-fn2" icon={["lower"]}>
 <Pair single id="staredevilbanebinding-devilbane-binding-fn2"><Link to="/stare/devilbane_binding">⮞</Link> Devilbane Binding <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-2" id="ability-stares-fake-fn-2" data-hash-target to="ability-stares-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to all Charisma checks to escape <Link to="/spell/planar_binding">planar binding</Link> spells, and applies to the target's spell resistance against a planar binding spell.</Pair>
 </Ability>
-<Ability id="staredevilbanedampening-devilbane-dampening-fn2-2" icon={["armor-downgrade"]}>
+<Ability id="staredevilbanedampening-devilbane-dampening-fn2-2" icon={["lower"]}>
 <Pair single id="staredevilbanedampening-devilbane-dampening-fn2-2"><Link to="/stare/devilbane_dampening">⮞</Link> Devilbane Dampening <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-2.2" id="ability-stares-fake-fn-2.2" data-hash-target to="ability-stares-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to the target's resistance to a single form of energy, chosen by the mesmerist when he initiates the stare. If the mesmerist targets a form of energy to which his target has no resistance, this improvement has no effect.</Pair>
 </Ability>
-<Ability id="staredevilbanedismissal-devilbane-dismissal-fn2-3" icon={["armor-downgrade"]}>
+<Ability id="staredevilbanedismissal-devilbane-dismissal-fn2-3" icon={["lower"]}>
 <Pair single id="staredevilbanedismissal-devilbane-dismissal-fn2-3"><Link to="/stare/devilbane_dismissal">⮞</Link> Devilbane Dismissal <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-2.3" id="ability-stares-fake-fn-2.3" data-hash-target to="ability-stares-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> reduces the duration of any conjuration (summoning) spells the target casts, or that are currently affecting the target, by half.</Pair>
 </Ability>
-<Ability id="staredevilbaneimpediment-devilbane-impediment-fn2-4" icon={["armor-downgrade"]}>
+<Ability id="staredevilbaneimpediment-devilbane-impediment-fn2-4" icon={["lower"]}>
 <Pair single id="staredevilbaneimpediment-devilbane-impediment-fn2-4"><Link to="/stare/devilbane_impediment">⮞</Link> Devilbane Impediment <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-2.4" id="ability-stares-fake-fn-2.4" data-hash-target to="ability-stares-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Info">The target of your <em>hypnotic stare</em> must succeed at a <Link to="/rule/concentration">concentration</Link> check (DC = 15 + the level of the spell) to activate any of its spell-like abilities (but not standard spellcasting). If the target fails the check, the spell-like ability doesn't function but is still expended.</Pair>
 </Ability>
-<Ability id="staredevilbanemundanity-devilbane-mundanity-fn2-5" icon={["armor-downgrade"]}>
+<Ability id="staredevilbanemundanity-devilbane-mundanity-fn2-5" icon={["lower"]}>
 <Pair single id="staredevilbanemundanity-devilbane-mundanity-fn2-5"><Link to="/stare/devilbane_mundanity">⮞</Link> Devilbane Mundanity <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-2.5" id="ability-stares-fake-fn-2.5" data-hash-target to="ability-stares-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to the target's spell resistance. This ability doesn't stack with the <Link to="/stare/sapped_magic">sapped magic</Link> bold stare improvement.</Pair>
 </Ability>
-<Ability id="staredevilbanewithering-devilbane-withering-fn2-6" icon={["armor-downgrade"]}>
+<Ability id="staredevilbanewithering-devilbane-withering-fn2-6" icon={["lower"]}>
 <Pair single id="staredevilbanewithering-devilbane-withering-fn2-6"><Link to="/stare/devilbane_withering">⮞</Link> Devilbane Withering <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-2.6" id="ability-stares-fake-fn-2.6" data-hash-target to="ability-stares-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to attack rolls and damage rolls, but only if the target is an outsider.</Pair>
 <Pair title="Special">Unlike most devilbane gazes, this gaze has no effect on creatures not of the outsider type, and effect's penalty isn't doubled when it targets outsiders.</Pair>
 </Ability>
-<Ability id="staredisorientation-disorientation-fn1-2" icon={["armor-downgrade"]}>
+<Ability id="staredisorientation-disorientation-fn1-2" icon={["lower"]}>
 <Pair single id="staredisorientation-disorientation-fn1-2"><Link to="/stare/disorientation">⮞</Link> Disorientation <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-1.2" id="ability-stares-fake-fn-1.2" data-hash-target to="ability-stares-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies on attack rolls.</Pair>
 </Ability>
-<Ability id="staredisquiet-disquiet-fn3" icon={["armor-downgrade"]}>
+<Ability id="staredisquiet-disquiet-fn3" icon={["lower"]}>
 <Pair single id="staredisquiet-disquiet-fn3"><Link to="/stare/disquiet">⮞</Link> Disquiet <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-3" id="ability-stares-fake-fn-3" data-hash-target to="ability-stares-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Info">The target of the <em>hypnotic stare</em> is <Link to="/misc/shaken">shaken</Link> while in areas of total darkness.</Pair>
 </Ability>
-<Ability id="staredistracted-distracted-fn4" icon={["armor-downgrade"]}>
+<Ability id="staredistracted-distracted-fn4" icon={["lower"]}>
 <Pair single id="staredistracted-distracted-fn4"><Link to="/stare/distracted">⮞</Link> Distracted <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-4" id="ability-stares-fake-fn-4" data-hash-target to="ability-stares-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to <Link to="/rule/concentration">concentration</Link> checks.</Pair>
 </Ability>
-<Ability id="stareinfiltration-infiltration-fn3-2" icon={["armor-downgrade"]}>
+<Ability id="stareinfiltration-infiltration-fn3-2" icon={["lower"]}>
 <Pair single id="stareinfiltration-infiltration-fn3-2"><Link to="/stare/infiltration">⮞</Link> Infiltration <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-3.2" id="ability-stares-fake-fn-3.2" data-hash-target to="ability-stares-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to the target's Perception checks and CMD.</Pair>
 </Ability>
-<Ability id="starelethality-lethality-fn3-3" icon={["armor-downgrade"]}>
+<Ability id="starelethality-lethality-fn3-3" icon={["lower"]}>
 <Pair single id="starelethality-lethality-fn3-3"><Link to="/stare/lethality">⮞</Link> Lethality <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-3.3" id="ability-stares-fake-fn-3.3" data-hash-target to="ability-stares-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to the target's Fortitude saves versus poison and diseases.</Pair>
 </Ability>
-<Ability id="starenightblindness-nightblindness-fn3-4" icon={["armor-downgrade"]}>
+<Ability id="starenightblindness-nightblindness-fn3-4" icon={["lower"]}>
 <Pair single id="starenightblindness-nightblindness-fn3-4"><Link to="/stare/nightblindness">⮞</Link> Nightblindness <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-3.4" id="ability-stares-fake-fn-3.4" data-hash-target to="ability-stares-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Info">The darkvision range of the *hypnotic stare'*s target decreases by 10 feet.</Pair>
 </Ability>
-<Ability id="starenightmare-nightmare-fn3-5" icon={["armor-downgrade","rolling-dices"]}>
+<Ability id="starenightmare-nightmare-fn3-5" icon={["lower","roll"]}>
 <Pair single id="starenightmare-nightmare-fn3-5"><Link to="/stare/nightmare">⮞</Link> Nightmare <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-3.5" id="ability-stares-fake-fn-3.5" data-hash-target to="ability-stares-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Info">The target of the <em>hypnotic stare</em> rolls twice on all Will saves versus fear, taking the lower result.</Pair>
 </Ability>
-<Ability id="stareoscillation-oscillation-fn3-6" icon={["armor-downgrade"]}>
+<Ability id="stareoscillation-oscillation-fn3-6" icon={["lower"]}>
 <Pair single id="stareoscillation-oscillation-fn3-6"><Link to="/stare/oscillation">⮞</Link> Oscillation <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-3.6" id="ability-stares-fake-fn-3.6" data-hash-target to="ability-stares-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Info">The target of the <em>hypnotic stare</em> treats all enemies beyond 30 feet (except the mesmerist) as having <Link to="/rule/concealment">concealment</Link> (20% miss chance).</Pair>
 </Ability>
-<Ability id="starepsychicinception-psychic-inception-fn5" icon={["upgrade"]}>
+<Ability id="starepsychicinception-psychic-inception-fn5" icon={["boost"]}>
 <Pair single id="starepsychicinception-psychic-inception-fn5"><Link to="/stare/psychic_inception">⮞</Link> Psychic Inception <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-5" id="ability-stares-fake-fn-5" data-hash-target to="ability-stares-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> and its penalty can affect creatures that are mindless or immune to mind-affecting effects (such as an undead or vermin). The mesmerist can also partially affect such a creature with his mind-affecting spells and abilities if it's under the effect of his <em>hypnotic stare;</em> it gains a +2 bonus on its saving throw (if any), and if affected, it still has a 50% chance each round of ignoring the effect. Ignoring the effect doesn't end the effect, but does allow the creature to act normally for that round.</Pair>
 </Ability>
-<Ability id="starerestriction-restriction-fn3-7" icon={["armor-downgrade"]}>
+<Ability id="starerestriction-restriction-fn3-7" icon={["lower"]}>
 <Pair single id="starerestriction-restriction-fn3-7"><Link to="/stare/restriction">⮞</Link> Restriction <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-3.7" id="ability-stares-fake-fn-3.7" data-hash-target to="ability-stares-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Info">The target of the <em>hypnotic stare</em> treats all areas of <Link to="/rule/dim_light">dim light</Link> or darker as <Link to="/rule/difficult_terrain">difficult terrain</Link>.</Pair>
 </Ability>
-<Ability id="staresabotage-sabotage-fn3-8" icon={["armor-downgrade"]}>
+<Ability id="staresabotage-sabotage-fn3-8" icon={["lower"]}>
 <Pair single id="staresabotage-sabotage-fn3-8"><Link to="/stare/sabotage">⮞</Link> Sabotage <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-3.8" id="ability-stares-fake-fn-3.8" data-hash-target to="ability-stares-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to Diplomacy and Intimidate checks.</Pair>
 </Ability>
-<Ability id="staresappedmagic-sapped-magic-fn5-2" icon={["armor-downgrade"]}>
+<Ability id="staresappedmagic-sapped-magic-fn5-2" icon={["lower"]}>
 <Pair single id="staresappedmagic-sapped-magic-fn5-2"><Link to="/stare/sapped_magic">⮞</Link> Sapped Magic <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-5.2" id="ability-stares-fake-fn-5.2" data-hash-target to="ability-stares-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to the DCs of spells and spell-like abilities used by the target, and to the target's spell resistance (if any).</Pair>
 </Ability>
-<Ability id="staresensed-sensed-fn4-2" icon={["armor-downgrade"]}>
+<Ability id="staresensed-sensed-fn4-2" icon={["lower"]}>
 <Pair single id="staresensed-sensed-fn4-2"><Link to="/stare/sensed">⮞</Link> Sensed <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-4.2" id="ability-stares-fake-fn-4.2" data-hash-target to="ability-stares-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to Stealth checks.</Pair>
 </Ability>
-<Ability id="staresluggishness-sluggishness-fn5-3" icon={["armor-downgrade"]}>
+<Ability id="staresluggishness-sluggishness-fn5-3" icon={["lower"]}>
 <Pair single id="staresluggishness-sluggishness-fn5-3"><Link to="/stare/sluggishness">⮞</Link> Sluggishness <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-5.3" id="ability-stares-fake-fn-5.3" data-hash-target to="ability-stares-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Info">The target of the <em>hypnotic stare</em> has all of its speeds reduced by 5 feet (to a minimum of 5 feet), and the <em>hypnotic stare</em> penalty also applies to the target's Reflex saving throws.</Pair>
 </Ability>
-<Ability id="staresusceptibility-susceptibility-fn5-4" icon={["armor-downgrade"]}>
+<Ability id="staresusceptibility-susceptibility-fn5-4" icon={["lower"]}>
 <Pair single id="staresusceptibility-susceptibility-fn5-4"><Link to="/stare/susceptibility">⮞</Link> Susceptibility <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-5.4" id="ability-stares-fake-fn-5.4" data-hash-target to="ability-stares-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to the target's Sense Motive checks to oppose Bluff checks, and to the DCs of Diplomacy and Intimidate checks made against the target.</Pair>
 </Ability>
-<Ability id="staretimidity-timidity-fn5-5" icon={["armor-downgrade"]}>
+<Ability id="staretimidity-timidity-fn5-5" icon={["lower"]}>
 <Pair single id="staretimidity-timidity-fn5-5"><Link to="/stare/timidity">⮞</Link> Timidity <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-5.5" id="ability-stares-fake-fn-5.5" data-hash-target to="ability-stares-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to damage rolls.</Pair>
 </Ability>
-<Ability id="stareunaided-unaided-fn4-3" icon={["armor-downgrade"]}>
+<Ability id="stareunaided-unaided-fn4-3" icon={["lower"]}>
 <Pair single id="stareunaided-unaided-fn4-3"><Link to="/stare/unaided">⮞</Link> Unaided <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-4.3" id="ability-stares-fake-fn-4.3" data-hash-target to="ability-stares-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Info">The target of the <em>hypnotic stare</em> is not able to grant or receive <Link to="/rule/flanking">flanking</Link> bonuses.</Pair>
 </Ability>
@@ -2677,75 +2677,75 @@ const _stares = {title: "Mesmerist Stares", topLink: ["Mesmerist","class/mesmeri
 </ol></section></div>};
 const _style_strikes = {title: "Style Strikes", topLink: ["Unchained Monk","class/unchained_monk"], jsx: <div className="compilation"><h2 id="ability-style_strikes-style-strikes-unchained">Style Strikes (Unchained)</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained</Link><br/>At 5th level, a monk can learn one type of style strike. Whenever he makes a flurry of blows, he can designate one of his unarmed strikes as a style strike. This attack is resolved as normal, but it has an additional effect depending on the type of strike chosen. At 9th level, and every 4 levels thereafter, a monk learns an additional style strike. He must choose which style strike to apply before the attack roll is made. At 15th level, he can designate up to two of his unarmed strikes each round as a style strike, and each one can be a different type. The monk can choose from any of the following strikes.</p>
-<Ability id="stylestrikebreak-break-fn1" icon={["mailed-fist"]}>
+<Ability id="stylestrikebreak-break-fn1" icon={["melee"]}>
 <Pair single id="stylestrikebreak-break-fn1" flavor="The monk combines a writhing twist with a violent strike against a foe that is grappling him."><Link to="/stylestrike/break">⮞</Link> Break <sup><InnerLink showBacklink="backlink-ability-style_strikes-fake-fn-1" id="ability-style_strikes-fake-fn-1" data-hash-target to="ability-style_strikes-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">If the monk's attack is successful, he can attempt a <Link to="/rule/grapple">grapple</Link> combat maneuver check or <Link to="/skill/escape_artist">Escape Artist</Link> check as a <strong className="hl">free action</strong> to escape a grapple, adding the strike's damage as a bonus on his check.</Pair>
 </Ability>
-<Ability id="stylestrikedefensivespin-defensive-spin-fn2" icon={["armor-upgrade"]}>
+<Ability id="stylestrikedefensivespin-defensive-spin-fn2" icon={["def"]}>
 <Pair single id="stylestrikedefensivespin-defensive-spin-fn2" flavor="The monk spins about, confounding his foe."><Link to="/stylestrike/defensive_spin">⮞</Link> Defensive Spin <sup><InnerLink showBacklink="backlink-ability-style_strikes-fake-fn-2" id="ability-style_strikes-fake-fn-2" data-hash-target to="ability-style_strikes-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">If the attack hits, the monk gains a +4 dodge bonus to AC against any attacks made by the target of the style strike until the start of his next turn. This bonus does not stack with itself.</Pair>
 <Pair title="Special">The monk must attack with a fist to use this style strike.</Pair>
 </Ability>
-<Ability id="stylestrikedirtystrikes-dirty-strikes-fn3" icon={["mailed-fist"]}>
+<Ability id="stylestrikedirtystrikes-dirty-strikes-fn3" icon={["melee"]}>
 <Pair single id="stylestrikedirtystrikes-dirty-strikes-fn3" flavor="The monk fights dirty with his style strike, attempting to strike in places where his attack will negatively impact his foes' performance in combat."><Link to="/stylestrike/dirty_strikes">⮞</Link> Dirty Strikes <sup><InnerLink showBacklink="backlink-ability-style_strikes-fake-fn-3" id="ability-style_strikes-fake-fn-3" data-hash-target to="ability-style_strikes-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">If the attack hits, the monk can perform a free <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver against the target of this strike (using the base attack bonus of the attack used to hit the foe) with a -5 penalty. This dirty trick combat maneuver does not provoke an attack of opportunity.</Pair>
 </Ability>
-<Ability id="stylestrikeelbowsmash-elbow-smash-fn2-2" icon={["mailed-fist"]}>
+<Ability id="stylestrikeelbowsmash-elbow-smash-fn2-2" icon={["melee"]}>
 <Pair single id="stylestrikeelbowsmash-elbow-smash-fn2-2" flavor="The monk follows up a punch with a strike from his elbow."><Link to="/stylestrike/elbow_smash">⮞</Link> Elbow Smash <sup><InnerLink showBacklink="backlink-ability-style_strikes-fake-fn-2.2" id="ability-style_strikes-fake-fn-2.2" data-hash-target to="ability-style_strikes-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">If the attack hits, the monk can make an additional attack using the same attack bonus as the punch at a -5 penalty. If this second attack hits, it deals damage as normal, but all of the damage is nonlethal.</Pair>
 <Pair title="Special">The monk must attack with a fist to use this style strike.</Pair>
 </Ability>
-<Ability id="stylestrikeflyingkick-flying-kick-fn4" icon={["mailed-fist"]}>
+<Ability id="stylestrikeflyingkick-flying-kick-fn4" icon={["melee"]}>
 <Pair single id="stylestrikeflyingkick-flying-kick-fn4" flavor="The monk leaps through the air to strike a foe with a kick."><Link to="/stylestrike/flying_kick">⮞</Link> Flying Kick <sup><InnerLink showBacklink="backlink-ability-style_strikes-fake-fn-4" id="ability-style_strikes-fake-fn-4" data-hash-target to="ability-style_strikes-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">Before the attack, the monk can move a distance equal to his <em>fast movement</em> bonus. This movement is made as part of the monk's <em>flurry of blows</em> attack and does not require an additional action. At the end of this movement, the monk must make an attack against an adjacent foe.</Pair>
 <Pair title="Special">This movement may be between attacks. This movement provokes an attack of opportunity as normal. The attack made after the movement must be a kick.</Pair>
 </Ability>
-<Ability id="stylestrikefootstomp-foot-stomp-fn4-2" icon={["armor-downgrade"]}>
+<Ability id="stylestrikefootstomp-foot-stomp-fn4-2" icon={["lower"]}>
 <Pair single id="stylestrikefootstomp-foot-stomp-fn4-2" flavor="The monk stomps on a foe's foot, preventing the opponent from escaping."><Link to="/stylestrike/foot_stomp">⮞</Link> Foot Stomp <sup><InnerLink showBacklink="backlink-ability-style_strikes-fake-fn-4.2" id="ability-style_strikes-fake-fn-4.2" data-hash-target to="ability-style_strikes-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">If the attack hits and the monk ends his turn adjacent to that foe, the foe's movement is restricted. Until the start of the monk's next turn, the target of this attack can move only in such a way that the space it occupies is adjacent to the monk. Alternatively, it can attempt a combat maneuver check (against the monk's CMD) as a <strong className="hl">standard action</strong> to break free.</Pair>
 <Pair title="Special">This strike does not work against foes that cannot be tripped. The monk must attack with a kick to use this style strike.</Pair>
 </Ability>
-<Ability id="stylestrikehammerblow-hammerblow-fn4-3" icon={["upgrade"]}>
+<Ability id="stylestrikehammerblow-hammerblow-fn4-3" icon={["boost"]}>
 <Pair single id="stylestrikehammerblow-hammerblow-fn4-3" flavor="The monk links his hands together, swinging both arms like a club and dealing tremendous damage."><Link to="/stylestrike/hammerblow">⮞</Link> Hammerblow <sup><InnerLink showBacklink="backlink-ability-style_strikes-fake-fn-4.3" id="ability-style_strikes-fake-fn-4.3" data-hash-target to="ability-style_strikes-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">If the attack hits, the monk rolls his unarmed strike damage twice, adding both rolls together before applying Strength and other modifiers to the damage. This bonus damage is not multiplied on a critical hit.</Pair>
 <Pair title="Special">The monk must attack with a fist to use this style strike, but must have both hands free.</Pair>
 </Ability>
-<Ability id="stylestrikeheadbutt-head-butt-fn4-4" icon={["mailed-fist"]}>
+<Ability id="stylestrikeheadbutt-head-butt-fn4-4" icon={["melee"]}>
 <Pair single id="stylestrikeheadbutt-head-butt-fn4-4" flavor="The monk slams his head into his enemy's head, leaving his foe reeling."><Link to="/stylestrike/head_butt">⮞</Link> Head-Butt <sup><InnerLink showBacklink="backlink-ability-style_strikes-fake-fn-4.4" id="ability-style_strikes-fake-fn-4.4" data-hash-target to="ability-style_strikes-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">If the attack hits and the foe is of the same size or one size smaller than the monk, the monk can make a free combat maneuver check against the target of this strike (using the base attack bonus of the attack used to hit the foe). If the foe is not of the same creature type as the monk, the monk takes a -8 penalty on this check. If the check is successful, the target is <Link to="/misc/staggered">staggered</Link> for 1 round.</Pair>
 <Pair title="Special">Creatures without a discernible head are not affected by this style strike (subject to GM discretion). The monk must attack with a head-butt to use this style strike.</Pair>
 </Ability>
-<Ability id="stylestrikeknockbackkick-knockback-kick-fn4-5" icon={["mailed-fist"]}>
+<Ability id="stylestrikeknockbackkick-knockback-kick-fn4-5" icon={["melee"]}>
 <Pair single id="stylestrikeknockbackkick-knockback-kick-fn4-5" flavor="The monk attempts to knock his foe back with a powerful kick."><Link to="/stylestrike/knockback_kick">⮞</Link> Knockback Kick <sup><InnerLink showBacklink="backlink-ability-style_strikes-fake-fn-4.5" id="ability-style_strikes-fake-fn-4.5" data-hash-target to="ability-style_strikes-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">If the attack hits, the monk can attempt a free combat maneuver check against the foe (using the base attack bonus of the attack used to hit the foe). If the check is successful, the foe is knocked 10 feet directly away from the monk. This distance increases by 10 feet for every 5 by which the check exceeds the foe's CMD, to a maximum distance equal to the monk's <em>fast movement</em> bonus. This movement does not provoke an attack of opportunity. The foe stops moving if it strikes another creature, barrier, or otherwise solid object. The creature is not knocked prone by this movement.</Pair>
 <Pair title="Special">The monk must attack with a kick to use this style strike.</Pair>
 </Ability>
-<Ability id="stylestrikelegsweep-leg-sweep-fn4-6" icon={["mailed-fist"]}>
+<Ability id="stylestrikelegsweep-leg-sweep-fn4-6" icon={["melee"]}>
 <Pair single id="stylestrikelegsweep-leg-sweep-fn4-6" flavor="The monk attempts to sweep his foe's leg, knocking the opponent down."><Link to="/stylestrike/leg_sweep">⮞</Link> Leg Sweep <sup><InnerLink showBacklink="backlink-ability-style_strikes-fake-fn-4.6" id="ability-style_strikes-fake-fn-4.6" data-hash-target to="ability-style_strikes-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">If the attack hits, the monk can make a free <Link to="/rule/trip">trip</Link> attempt against the target of this strike (using the base attack bonus of the attack used to hit the foe).</Pair>
 <Pair title="Special">This trip attempt does not provoke an attack of opportunity. The monk must attack with a kick to use this style strike.</Pair>
 </Ability>
-<Ability id="stylestrikeoverbearingassault-overbearing-assault-fn3-2" icon={["mailed-fist"]}>
+<Ability id="stylestrikeoverbearingassault-overbearing-assault-fn3-2" icon={["melee"]}>
 <Pair single id="stylestrikeoverbearingassault-overbearing-assault-fn3-2" flavor="The monk attacks relentlessly, backing his foe into a corner."><Link to="/stylestrike/overbearing_assault">⮞</Link> Overbearing Assault <sup><InnerLink showBacklink="backlink-ability-style_strikes-fake-fn-3.2" id="ability-style_strikes-fake-fn-3.2" data-hash-target to="ability-style_strikes-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">If the attack hits, the monk can perform a free <Link to="/rule/reposition">reposition</Link> combat maneuver against the target of the strike (using the base attack bonus of the attack used to hit the foe) with a -5 penalty.</Pair>
 <Pair title="Special">This reposition attempt does not provoke an attack of opportunity.</Pair>
 </Ability>
-<Ability id="stylestrikerabbitpunch-rabbit-punch-fn5" icon={["upgrade"]}>
+<Ability id="stylestrikerabbitpunch-rabbit-punch-fn5" icon={["boost"]}>
 <Pair single id="stylestrikerabbitpunch-rabbit-punch-fn5" flavor="The monk gives a sharp blow to the back of a foe's head."><Link to="/stylestrike/rabbit_punch">⮞</Link> Rabbit Punch <sup><InnerLink showBacklink="backlink-ability-style_strikes-fake-fn-5" id="ability-style_strikes-fake-fn-5" data-hash-target to="ability-style_strikes-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">The critical threat range and critical multiplier of this strike increase by 1, and the monk gains a +2 bonus on attack rolls to confirm a critical hit with this strike.</Pair>
 <Pair title="Special">This increase is not doubled by <Link to="/feat/improved_critical">Improved Critical</Link> or similar effects. Creatures without a discernible head are unaffected by this style strike (subject to GM discretion). The monk must attack with a fist to use this style strike.</Pair>
 </Ability>
-<Ability id="stylestrikeshatteringpunch-shattering-punch-fn4-7" icon={["upgrade"]}>
+<Ability id="stylestrikeshatteringpunch-shattering-punch-fn4-7" icon={["boost"]}>
 <Pair single id="stylestrikeshatteringpunch-shattering-punch-fn4-7" flavor="The monk delivers a brutal punch that can penetrate defenses."><Link to="/stylestrike/shattering_punch">⮞</Link> Shattering Punch <sup><InnerLink showBacklink="backlink-ability-style_strikes-fake-fn-4.7" id="ability-style_strikes-fake-fn-4.7" data-hash-target to="ability-style_strikes-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">If the attack hits, it bypasses any damage reduction or hardness possessed by the target of that attack.</Pair>
 <Pair title="Special">The monk must attack with a fist to use this style strike.</Pair>
 </Ability>
-<Ability id="stylestrikespinkick-spin-kick-fn4-8" icon={["upgrade"]}>
+<Ability id="stylestrikespinkick-spin-kick-fn4-8" icon={["boost"]}>
 <Pair single id="stylestrikespinkick-spin-kick-fn4-8" flavor="The monk spins about, delivering a kick his foe did not expect."><Link to="/stylestrike/spin_kick">⮞</Link> Spin Kick <sup><InnerLink showBacklink="backlink-ability-style_strikes-fake-fn-4.8" id="ability-style_strikes-fake-fn-4.8" data-hash-target to="ability-style_strikes-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">The monk makes his attack against the foe's <Link to="/rule/flat_footed">flat-footed</Link> AC. Creatures with the <Link to="/ability/uncanny_dodge">uncanny dodge</Link> class feature or a similar effect cannot be caught flat-footed by this style strike.</Pair>
 <Pair title="Special">The monk must attack with a kick to use this style strike.</Pair>
 </Ability>
-<Ability id="stylestrikethroatcrush-throat-crush-fn1-2" icon={["mailed-fist"]}>
+<Ability id="stylestrikethroatcrush-throat-crush-fn1-2" icon={["melee"]}>
 <Pair single id="stylestrikethroatcrush-throat-crush-fn1-2"><Link to="/stylestrike/throat_crush">⮞</Link> Throat Crush <sup><InnerLink showBacklink="backlink-ability-style_strikes-fake-fn-1.2" id="ability-style_strikes-fake-fn-1.2" data-hash-target to="ability-style_strikes-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">The monk gives a sharp blow to a foe's throat, hampering its ability to speak for 1 round as if it had the <Link to="/rule/minor_spellblights">caster croak spellblight</Link>.</Pair>
 <Pair title="Special">Creatures without a discernible throat, or with multiple vocal organs, are unaffected (subject to GM discretion).</Pair>
@@ -3041,127 +3041,127 @@ const _vigilante_talents = {hasJL:true,title: "Vigilante Talents", topLink: ["Vi
 <p>If the vigilante uses any of these talents while in his social identity, he must succeed at a Disguise check against the Perception checks of all onlookers (without the +20 circumstance bonus from seamless guise) or the onlookers will realize that he is more than his social identity appears to be and perhaps discover the social and vigilante identities are one and the same. If a talent calls for a saving throw, the DC for that save is equal to 10 + 1/2 the vigilante's level + the vigilante's Charisma modifier, unless stated otherwise.</p>
 <h3 id="ability-vigilante_talents-avenger-talents" data-hash-target>Avenger Talents</h3>
 <p>These talents can only be taken by avenger vigilantes.</p>
-<Ability id="vigtalentcombatskill-combat-skill-ex-fn1" icon={["stairs-goal"]}>
+<Ability id="vigtalentcombatskill-combat-skill-ex-fn1" icon={["power"]}>
 <Pair single id="vigtalentcombatskill-combat-skill-ex-fn1"><Link to="/vigtalent/combat_skill">⮞</Link> Combat Skill (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-1" id="ability-vigilante_talents-fake-fn-1" data-hash-target to="ability-vigilante_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains any one <Link to="/main/combat_feat">combat feat</Link> as a bonus feat. He must meet the prerequisites for this feat, but he is treated as though he had a number of fighter levels equal to half his vigilante level for the purpose of qualifying for this feat.</Pair>
 <Pair title="Special">This talent can be selected more than once, but each time the avenger must select a different feat.</Pair>
 </Ability>
-<Ability id="vigtalentfistoftheavenger-fist-of-the-avenger-ex-fn1-2" icon={["stairs-goal","upgrade"]}>
+<Ability id="vigtalentfistoftheavenger-fist-of-the-avenger-ex-fn1-2" icon={["power","boost"]}>
 <Pair single id="vigtalentfistoftheavenger-fist-of-the-avenger-ex-fn1-2"><Link to="/vigtalent/fist_of_the_avenger">⮞</Link> Fist of the Avenger (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-1.2" id="ability-vigilante_talents-fake-fn-1.2" data-hash-target to="ability-vigilante_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat, if he doesn't have this feat already. In addition, whenever he successfully attacks with his fist or a gauntlet, he gains a bonus on damage rolls equal to half his vigilante level (minimum +1, maximum of +5).</Pair>
 </Ability>
-<Ability id="vigtalentheavytraining-heavy-training-ex-fn1-3" icon={["stairs-goal","upgrade"]}>
+<Ability id="vigtalentheavytraining-heavy-training-ex-fn1-3" icon={["power","boost"]}>
 <Pair single id="vigtalentheavytraining-heavy-training-ex-fn1-3"><Link to="/vigtalent/heavy_training">⮞</Link> Heavy Training (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-1.3" id="ability-vigilante_talents-fake-fn-1.3" data-hash-target to="ability-vigilante_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains <Link to="/feat/heavy_armor_proficiency">Heavy Armor Proficiency</Link> as a bonus feat, if he does not have that feat already. The <Link to="/vigtalent/armor_skin">armor skin</Link> vigilante talent also applies to heavy armor.</Pair>
 <Pair title="At 16th Level">If the vigilante has the <em>armor skin</em> vigilante talent, he can move at full speed in heavy armor.</Pair>
 </Ability>
-<Ability id="vigtalentmadrush-mad-rush-ex-fn2" icon={["mailed-fist","broken-shield"]}>
+<Ability id="vigtalentmadrush-mad-rush-ex-fn2" icon={["melee","down"]}>
 <Pair single id="vigtalentmadrush-mad-rush-ex-fn2"><Link to="/vigtalent/mad_rush">⮞</Link> Mad Rush (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-2" id="ability-vigilante_talents-fake-fn-2" data-hash-target to="ability-vigilante_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level avenger</Pair>
 <Pair title="Ability">Whenever the vigilante <Link to="/rule/charge">charges</Link>, he can make a full attack. Whenever he uses this ability, he takes a -4 penalty to his AC until the start of his next turn (in addition to the AC penalty for charging).</Pair>
 </Ability>
-<Ability id="vigtalentnothingcanstopme-nothing-can-stop-me-ex-fn2-2" icon={["mailed-fist"]}>
+<Ability id="vigtalentnothingcanstopme-nothing-can-stop-me-ex-fn2-2" icon={["melee"]}>
 <Pair single id="vigtalentnothingcanstopme-nothing-can-stop-me-ex-fn2-2"><Link to="/vigtalent/nothing_can_stop_me">⮞</Link> Nothing Can Stop Me (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-2.2" id="ability-vigilante_talents-fake-fn-2.2" data-hash-target to="ability-vigilante_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">Once per round, while the vigilante is moving, he can make one attack as a <strong className="hl">free action</strong> against an unattended object in the way of his path, such as a door or table. If his attack deals enough damage to destroy the object, he can continue to move. If he doesn't destroy the object, his move ends. This attack is made as part of his <strong className="hl">move action</strong> and doesn't count against his attacks this round. If his attack inadvertently targets a creature (such as a <Link to="/monster/mimic">mimic</Link>), it automatically misses and his move ends (although he can still attack the creature as normal at the end of his movement).</Pair>
 </Ability>
-<Ability id="vigtalentsignatureweapon-signature-weapon-ex-fn3" icon={["stairs-goal"]}>
+<Ability id="vigtalentsignatureweapon-signature-weapon-ex-fn3" icon={["power"]}>
 <Pair single id="vigtalentsignatureweapon-signature-weapon-ex-fn3"><Link to="/vigtalent/signature_weapon">⮞</Link> Signature Weapon (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-3" id="ability-vigilante_talents-fake-fn-3" data-hash-target to="ability-vigilante_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante must select one type of weapon (such as longsword or crossbow) when he gains this talent. He gains <Link to="/feat/weapon_focus">Weapon Focus</Link> as a bonus feat for his selected weapon type. If he already has the Weapon Focus feat with the selected weapon, he can immediately swap it for another feat for which he qualified at the level he chose Weapon Focus in the selected weapon.</Pair>
 <Pair title="At 8th Level">He also gains <Link to="/feat/weapon_specialization">Weapon Specialization</Link> as a bonus feat for his selected weapon.</Pair>
 <Pair title="Special">He doesn't have to meet any of the prerequisites for these feats.</Pair>
 </Ability>
-<Ability id="vigtalentsteelsoldier-steel-soldier-ex-fn4" icon={["stairs-goal","armor-upgrade","upgrade"]}>
+<Ability id="vigtalentsteelsoldier-steel-soldier-ex-fn4" icon={["power","def","boost"]}>
 <Pair single id="vigtalentsteelsoldier-steel-soldier-ex-fn4" flavor={<>Some vigilantes ceaselessly tinker with their armor until the two seem inseparable; <Link to="/arc-vigilante/masked_maiden">masked maidens</Link> are particularly prone to developing this obsession.</>}><Link to="/vigtalent/steel_soldier">⮞</Link> Steel Soldier (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-4" id="ability-vigilante_talents-fake-fn-4" data-hash-target to="ability-vigilante_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante can spend 1 day and 100 gp per class level modifying a set of armor with which he is proficient. The vigilante can conceal one set of unworn modified armor on his person as though it were an extraordinarily small object, as per <Link to="/skill/sleight_of_hand">Sleight of Hand</Link>, and can <Link to="/rule/don_armor">don modified armor</Link> without aid.</Pair>
 <Pair title="At 8th Level">The vigilante treats modified armor's enhancement bonus (if any) as a weapon enhancement bonus when making attacks with the armor's gauntlets, if the armor has any.</Pair>
 <Pair title="Special">The <Link to="/vigtalent/armor_skin">armor skin</Link> talent also applies to armor with this ability.</Pair>
 </Ability>
-<Ability id="vigtalentsuckerpunch-sucker-punch-ex-fn3-2" icon={["upgrade"]}>
+<Ability id="vigtalentsuckerpunch-sucker-punch-ex-fn3-2" icon={["boost"]}>
 <Pair single id="vigtalentsuckerpunch-sucker-punch-ex-fn3-2"><Link to="/vigtalent/sucker_punch">⮞</Link> Sucker Punch (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-3.2" id="ability-vigilante_talents-fake-fn-3.2" data-hash-target to="ability-vigilante_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">Whenever the vigilante attacks a foe that is unaware of his presence (or who views him as an ally), and the attack deals nonlethal damage, the attack deals an additional 1d6 points of nonlethal damage.</Pair>
 <Pair title="At 6th Level">This additional damage becomes 2d6.</Pair>
 <Pair title="At 12th Level">This additional damage increases to 3d6.</Pair>
 <Pair title="At 18th Level">This additional damage becomes 4d6.</Pair>
 </Ability>
-<Ability id="vigtalentsweepingstrike-sweeping-strike-ex-fn5" icon={["stairs-goal","upgrade"]}>
+<Ability id="vigtalentsweepingstrike-sweeping-strike-ex-fn5" icon={["power","boost"]}>
 <Pair single id="vigtalentsweepingstrike-sweeping-strike-ex-fn5"><Link to="/vigtalent/sweeping_strike">⮞</Link> Sweeping Strike (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-5" id="ability-vigilante_talents-fake-fn-5" data-hash-target to="ability-vigilante_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains <Link to="/feat/cleave">Cleave</Link> as a bonus feat.</Pair>
 <Pair title="At 6th Level">He gains <Link to="/feat/great_cleave">Great Cleave</Link> as a bonus feat.</Pair>
 <Pair title="At 12th Level">While using Great Cleave, he no longer has to hit a target in order to make an additional attack against a foe that is adjacent to that target.</Pair>
 <Pair title="Special">He does not need to meet the prerequisites for these bonus feats.</Pair>
 </Ability>
-<Ability id="vigtalentunkillable-unkillable-ex-fn3-3" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="vigtalentunkillable-unkillable-ex-fn3-3" icon={["power","def"]}>
 <Pair single id="vigtalentunkillable-unkillable-ex-fn3-3"><Link to="/vigtalent/unkillable">⮞</Link> Unkillable (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-3.3" id="ability-vigilante_talents-fake-fn-3.3" data-hash-target to="ability-vigilante_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains <Link to="/feat/diehard">Diehard</Link> as a bonus feat, though he does not have to meet the prerequisites for this feat.</Pair>
 <Pair title="At 6th Level">He doesn't lose hit points when he takes a standard action while <Link to="/misc/disabled">disabled</Link>.</Pair>
 <Pair title="At 12th Level">When he would die from hit point damage, he remains alive for 1 round before dying (and if his hit points rise above a negative amount equal to his Constitution score before that round is over, he doesn't die).</Pair>
 <Pair title="At 18th Level">He is no longer disabled at negative hit points and can take a full round's worth of actions.</Pair>
 </Ability>
-<Ability id="vigtalentweaponfamiliarity-weapon-familiarity-ex-fn6" icon={["stairs-goal"]}>
+<Ability id="vigtalentweaponfamiliarity-weapon-familiarity-ex-fn6" icon={["power"]}>
 <Pair single id="vigtalentweaponfamiliarity-weapon-familiarity-ex-fn6"><Link to="/vigtalent/weapon_familiarity">⮞</Link> Weapon Familiarity (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-6" id="ability-vigilante_talents-fake-fn-6" data-hash-target to="ability-vigilante_talents-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante selects either two simple or martial weapons or one exotic weapon when he gains this talent. He gains proficiency with his chosen weapon or weapons.</Pair>
 <Pair title="At 8th Level">He also gains <Link to="/feat/weapon_focus">Weapon Focus</Link> as a bonus feat for his selected weapon or weapons.</Pair>
 </Ability>
 <h3 id="ability-vigilante_talents-stalker-talents" data-hash-target>Stalker Talents</h3>
 <p>These talents can only be taken by stalker vigilantes.</p>
-<Ability id="vigtalentblindspot-blind-spot-ex-fn7" icon={["upgrade"]}>
+<Ability id="vigtalentblindspot-blind-spot-ex-fn7" icon={["boost"]}>
 <Pair single id="vigtalentblindspot-blind-spot-ex-fn7"><Link to="/vigtalent/blind_spot">⮞</Link> Blind Spot (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-7" id="ability-vigilante_talents-fake-fn-7" data-hash-target to="ability-vigilante_talents-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level stalker</Pair>
 <Pair title="Ability">The vigilante is so skilled at stealth, he can use the Stealth skill to hide from creatures with unusual senses that normally automatically detect creatures. This includes senses such as <Link to="/umr/blindsense">blindsense</Link>, <Link to="/umr/blindsight">blindsight</Link>, <Link to="/umr/lifesense">lifesense</Link>, <Link to="/umr/scent">scent</Link>, or <Link to="/umr/tremorsense">tremorsense</Link>. For each such ability that the creature possesses, if the vigilante is not bypassing the sense in another way - such as the <Link to="/spell/negate_aroma">negate aroma</Link> spell for scent or flying for tremorsense - the creature gains a stacking +20 circumstance bonus on all Perception checks to notice the vigilante, rather than automatically noticing the vigilante.</Pair>
 </Ability>
-<Ability id="vigtalentevasive-evasive-ex-fn1-4" icon={["armor-upgrade"]}>
+<Ability id="vigtalentevasive-evasive-ex-fn1-4" icon={["def"]}>
 <Pair single id="vigtalentevasive-evasive-ex-fn1-4"><Link to="/vigtalent/evasive">⮞</Link> Evasive (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-1.4" id="ability-vigilante_talents-fake-fn-1.4" data-hash-target to="ability-vigilante_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante is hard to catch with area attacks. He gains the <Link to="/ability/evasion">evasion</Link> ability.</Pair>
 <Pair title="At 12th Level">He gains the <Link to="/talent/improved_evasion">improved evasion</Link> ability</Pair>
 </Ability>
-<Ability id="vigtalenthideinplainsight-hide-in-plain-sight-ex-fn1-5" icon={["stairs-goal"]}>
+<Ability id="vigtalenthideinplainsight-hide-in-plain-sight-ex-fn1-5" icon={["power"]}>
 <Pair single id="vigtalenthideinplainsight-hide-in-plain-sight-ex-fn1-5"><Link to="/vigtalent/hide_in_plain_sight">⮞</Link> Hide in Plain Sight (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-1.5" id="ability-vigilante_talents-fake-fn-1.5" data-hash-target to="ability-vigilante_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level stalker</Pair>
 <Pair title="Ability">The vigilante can use Stealth to hide even when being observed. As long as he is within 10 feet of <Link to="/rule/dim_light">dim light</Link> (his own shadow doesn't count), he can hide without anything to actually hide behind.</Pair>
 </Ability>
-<Ability id="vigtalentroguetalent-rogue-talent-ex-fn2-3" icon={["stairs-goal"]}>
+<Ability id="vigtalentroguetalent-rogue-talent-ex-fn2-3" icon={["power"]}>
 <Pair single id="vigtalentroguetalent-rogue-talent-ex-fn2-3"><Link to="/vigtalent/rogue_talent">⮞</Link> Rogue Talent (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-2.3" id="ability-vigilante_talents-fake-fn-2.3" data-hash-target to="ability-vigilante_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains a single <Link to="/ability/rogue_talent">rogue talent</Link> (not an advanced talent) of his choice. If he selects a rogue talent that modifies sneak attack, that talent applies to his <em>hidden strikes</em> instead of to sneak attacks, and if it has the limitation of only-one-talent-per-attack (a Primary Sneak Attack Talent), it is treated the same as a Hidden Strike Talent (A stalker vigilante can apply only one Hidden Strike Talent to a given <em>hidden strike,</em> and only when that <em>hidden strike</em> is dealt against a foe that is unaware of the stalker vigilante's presence [or who considers him an ally], unless otherwise noted).</Pair>
 </Ability>
-<Ability id="vigtalentsniper-sniper-ex-fn3-4" icon={["upgrade"]}>
+<Ability id="vigtalentsniper-sniper-ex-fn3-4" icon={["boost"]}>
 <Pair single id="vigtalentsniper-sniper-ex-fn3-4"><Link to="/vigtalent/sniper">⮞</Link> Sniper (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-3.4" id="ability-vigilante_talents-fake-fn-3.4" data-hash-target to="ability-vigilante_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level stalker</Pair>
 <Pair title="Ability">The vigilante can deal <em>hidden strike</em> damage with ranged attacks at any distance, rather than within 30 feet.</Pair>
 </Ability>
-<Ability id="vigtalentstalkersense-stalker-sense-ex-fn3-5" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="vigtalentstalkersense-stalker-sense-ex-fn3-5" icon={["power","def"]}>
 <Pair single id="vigtalentstalkersense-stalker-sense-ex-fn3-5"><Link to="/vigtalent/stalker_sense">⮞</Link> Stalker Sense (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-3.5" id="ability-vigilante_talents-fake-fn-3.5" data-hash-target to="ability-vigilante_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante has a sense for danger. He always acts on the surprise round.</Pair>
 <Pair title="At 6th Level">He gains <Link to="/ability/uncanny_dodge">uncanny dodge</Link>.</Pair>
 <Pair title="At 12th Level">He gains <Link to="/ability/improved_uncanny_dodge">improved uncanny dodge</Link>.</Pair>
 </Ability>
-<Ability id="vigtalenttwistingfear-twisting-fear-ex-fn3-6" icon={["armor-downgrade"]}>
+<Ability id="vigtalenttwistingfear-twisting-fear-ex-fn3-6" icon={["lower"]}>
 <Pair single id="vigtalenttwistingfear-twisting-fear-ex-fn3-6"><Link to="/vigtalent/twisting_fear">⮞</Link> Twisting Fear (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-3.6" id="ability-vigilante_talents-fake-fn-3.6" data-hash-target to="ability-vigilante_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">Whenever the vigilante causes an opponent to gain the <Link to="/misc/shaken">shaken</Link>, <Link to="/misc/frightened">frightened</Link>, or <Link to="/misc/panicked">panicked</Link> condition, that opponent takes an amount of nonlethal damage equal to the vigilante's reduced <em>hidden strike</em> damage, as the stress wears upon its body.</Pair>
 <Pair title="Special">A creature can't take damage from <em>twisting fear</em> more than once per round. Panicked creatures that take damage from <em>twisting fear</em> are too winded even to scream as they flee in terror.</Pair>
 </Ability>
-<Ability id="vigtalentupcloseandpersonal-up-close-and-personal-ex-fn8" icon={["mailed-fist"]}>
+<Ability id="vigtalentupcloseandpersonal-up-close-and-personal-ex-fn8" icon={["melee"]}>
 <Pair single id="vigtalentupcloseandpersonal-up-close-and-personal-ex-fn8"><Link to="/vigtalent/up_close_and_personal">⮞</Link> Up Close and Personal (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-8" id="ability-vigilante_talents-fake-fn-8" data-hash-target to="ability-vigilante_talents-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level stalker</Pair>
 <Pair title="Swift Action">When the vigilante attempts an <Link to="/skill/acrobatics">Acrobatics</Link> check to move through an opponent's space during a move action, he can attempt a single melee attack against that opponent. If the Acrobatics check succeeds, this attack applies the vigilante's <em>hidden strike</em> damage as if the foe were unaware of the vigilante. Otherwise, the vigilante applies the <em>hidden strike</em> damage he would deal if the target were denied its Dexterity bonus to AC.</Pair>
 </Ability>
 <h4 id="ability-vigilante_talents-hidden-strike-talents" data-hash-target>Hidden Strike Talents</h4>
 <p>A stalker vigilante can apply only one talent below to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an ally), unless otherwise noted.</p>
-<Ability id="vigtalentfoecollision-foe-collision-ex-fn1-6" icon={["mailed-fist"]}>
+<Ability id="vigtalentfoecollision-foe-collision-ex-fn1-6" icon={["melee"]}>
 <Pair single id="vigtalentfoecollision-foe-collision-ex-fn1-6" flavor="The vigilante can shove one of his foes into another."><Link to="/vigtalent/foe_collision">⮞</Link> Foe Collision (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-1.6" id="ability-vigilante_talents-fake-fn-1.6" data-hash-target to="ability-vigilante_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">When the vigilante deals <em>hidden strike</em> damage to a corporeal foe with a melee attack, he can also deal an amount of nonlethal damage equal to his reduced <em>hidden strike</em> damage to an opponent adjacent to the first (even if the second opponent is out of his reach). The damage is bludgeoning damage, and if the colliding foe has any natural attacks, the damage is also considered magic, evil, or any other type of damage the natural attack deals.</Pair>
 <Pair title="Special">Unlike normal vigilante talents that affect <em>hidden strikes,</em> this vigilante talent applies in all cases when the target is denied its Dexterity bonus to AC.</Pair>
 </Ability>
-<Ability id="vigtalentleaveanopening-leave-an-opening-ex-fn1-7" icon={["armor-downgrade"]}>
+<Ability id="vigtalentleaveanopening-leave-an-opening-ex-fn1-7" icon={["lower"]}>
 <Pair single id="vigtalentleaveanopening-leave-an-opening-ex-fn1-7" flavor={<>The vigilante's <em>hidden strike</em> leaves an unbalancing opening in a foe's defenses, setting up the foe to be attacked again.</>}><Link to="/vigtalent/leave_an_opening">⮞</Link> Leave an Opening (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-1.7" id="ability-vigilante_talents-fake-fn-1.7" data-hash-target to="ability-vigilante_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">At the beginning of the foe's next turn, if the vigilante threatens the foe, the foe provokes an attack of opportunity from the vigilante. Multiple attacks against the same foe don't create multiple attacks of opportunity in the same round (but attacks against several foes can cause each to provoke one attack of opportunity).</Pair>
 </Ability>
-<Ability id="vigtalentmightyambush-mighty-ambush-ex-fn2-4" icon={["armor-downgrade"]}>
+<Ability id="vigtalentmightyambush-mighty-ambush-ex-fn2-4" icon={["lower"]}>
 <Pair single id="vigtalentmightyambush-mighty-ambush-ex-fn2-4"><Link to="/vigtalent/mighty_ambush">⮞</Link> Mighty Ambush (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-2.4" id="ability-vigilante_talents-fake-fn-2.4" data-hash-target to="ability-vigilante_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level stalker</Pair>
 <Pair title="Ability">Once per round, when the vigilante succeeds at a <em>hidden strike,</em> he can instantly drop the damaged enemy <Link to="/misc/unconscious">unconscious</Link> for 1d4 rounds. A successful Fortitude saving throw negates this effect (DC = 10 + 1/2 the vigilante's class level + the higher of the vigilante's Strength and Dexterity modifiers).</Pair>
 <Pair title="Special">Whether or not a creature's saving throw is successful, it can't be affected by that vigilante's <em>mighty ambush</em> again for 24 hours.</Pair>
 </Ability>
-<Ability id="vigtalentthroatjab-throat-jab-ex-fn3-7" icon={["armor-downgrade"]}>
+<Ability id="vigtalentthroatjab-throat-jab-ex-fn3-7" icon={["lower"]}>
 <Pair single id="vigtalentthroatjab-throat-jab-ex-fn3-7"><Link to="/vigtalent/throat_jab">⮞</Link> Throat Jab (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-3.7" id="ability-vigilante_talents-fake-fn-3.7" data-hash-target to="ability-vigilante_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level stalker</Pair>
 <Pair title="Ability">The vigilante's <em>hidden strike</em> jabs his opponent in the throat, preventing that opponent from speaking until the vigilante's next turn. (If the vigilante uses this ability on the surprise round, it lasts until the end of his first full turn after the surprise round.) This prevents the target from calling out for help, using spells with verbal components, or doing anything else that requires speaking.</Pair>
@@ -3169,59 +3169,59 @@ const _vigilante_talents = {hasJL:true,title: "Vigilante Talents", topLink: ["Vi
 </Ability>
 <h3 id="ability-vigilante_talents-other-talents" data-hash-target>Other Talents</h3>
 <p>These talents can do not have an avenger/stalker requirement.</p>
-<Ability id="vigtalentanimalpatron-animal-patron-ex-fn9" icon={["stairs-goal"]}>
+<Ability id="vigtalentanimalpatron-animal-patron-ex-fn9" icon={["power"]}>
 <Pair single id="vigtalentanimalpatron-animal-patron-ex-fn9"><Link to="/vigtalent/animal_patron">⮞</Link> Animal Patron (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-9" id="ability-vigilante_talents-fake-fn-9" data-hash-target to="ability-vigilante_talents-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">5th-level vigilante</Pair>
 <Pair title="Ability">The vigilante gains the benefits of one <Link to="/class/shifter">minor shifter aspect</Link> for a number of minutes per day equal to 1 + half his vigilante level. He can shift into this minor aspect as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="vigtalentanotherday-another-day-ex-su-fn7-2" icon={["armor-upgrade"]}>
+<Ability id="vigtalentanotherday-another-day-ex-su-fn7-2" icon={["def"]}>
 <Pair single id="vigtalentanotherday-another-day-ex-su-fn7-2"><Link to="/vigtalent/another_day">⮞</Link> Another Day (Ex, Su) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-7.2" id="ability-vigilante_talents-fake-fn-7.2" data-hash-target to="ability-vigilante_talents-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Ability">When the vigilante is dropped unconscious due to hit point damage, he automatically <Link to="/misc/stabilize">stabilizes</Link>, but he can also appear to be dead, unless an examining creature succeeds at a Heal check (DC = 20 + the vigilante's class level) or, if using magic such as <Link to="/spell/deathwatch">deathwatch</Link>, a caster level check with the same DC (the ability to affect spells is supernatural; the rest of the ability is extraordinary).</Pair>
 <Pair title="Special">The vigilante counts as having received aid and automatically succeeds at the Constitution check to become conscious after 1 hour (unless he has actually died in the meantime).</Pair>
 </Ability>
-<Ability id="vigtalentaquaticaction-aquatic-action-ex-fn10" icon={["stairs-goal"]}>
+<Ability id="vigtalentaquaticaction-aquatic-action-ex-fn10" icon={["power"]}>
 <Pair single id="vigtalentaquaticaction-aquatic-action-ex-fn10"><Link to="/vigtalent/aquatic_action">⮞</Link> Aquatic Action (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-10" id="ability-vigilante_talents-fake-fn-10" data-hash-target to="ability-vigilante_talents-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level vigilante</Pair>
 <Pair title="Ability">The vigilante uses weapons, natural weapons, and unarmed strikes in aquatic environments as though under the effect of <Link to="/spell/freedom_of_movement">freedom of movement</Link>, including when making melee attacks against targets in the water while the vigilante is on land. The vigilante ignores limitations and penalties on ranged attacks, including thrown weapons, imposed by being underwater for the first 15 feet. (See <Link to="/rule/underwater_combat">Underwater Combat</Link> for more information.)</Pair>
 </Ability>
-<Ability id="vigtalentarmorskin-armor-skin-ex-fn7-3" icon={["upgrade"]}>
+<Ability id="vigtalentarmorskin-armor-skin-ex-fn7-3" icon={["boost"]}>
 <Pair single id="vigtalentarmorskin-armor-skin-ex-fn7-3"><Link to="/vigtalent/armor_skin">⮞</Link> Armor Skin (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-7.3" id="ability-vigilante_talents-fake-fn-7.3" data-hash-target to="ability-vigilante_talents-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante's armor is like a second skin. He doesn't apply the armor check penalty for light and medium armor on Acrobatics, Escape Artist, or Stealth checks. This penalty applies on other skill checks as normal.</Pair>
 <Pair title="At 8th Level">He can move at full speed in medium armor.</Pair>
 </Ability>
-<Ability id="vigtalentbrutalmaneuver-brutal-maneuver-fn11" icon={["mailed-fist"]}>
+<Ability id="vigtalentbrutalmaneuver-brutal-maneuver-fn11" icon={["melee"]}>
 <Pair single id="vigtalentbrutalmaneuver-brutal-maneuver-fn11"><Link to="/vigtalent/brutal_maneuver">⮞</Link> Brutal Maneuver <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-11" id="ability-vigilante_talents-fake-fn-11" data-hash-target to="ability-vigilante_talents-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Ability">The first time each round that the vigilante uses a weapon, including a natural attack or unarmed strike, to perform a combat maneuver in place of making an attack (such as by performing a <Link to="/rule/disarm">disarm</Link>, <Link to="/rule/sunder">sunder</Link>, or <Link to="/rule/trip">trip</Link> combat maneuver in place of making a melee attack), he can choose to take a -5 penalty on all his attack rolls during the round. If he does so and succeeds at his combat maneuver check, the vigilante deals damage to the target of his combat maneuver as if he had hit that target with a normal hit from his weapon.</Pair>
 </Ability>
-<Ability id="vigtalentchasemaster-chase-master-ex-fn1-8" icon={["upgrade"]}>
+<Ability id="vigtalentchasemaster-chase-master-ex-fn1-8" icon={["boost"]}>
 <Pair single id="vigtalentchasemaster-chase-master-ex-fn1-8" flavor="Whether he is the pursuer or the pursued, few can best a vigilante at a chase."><Link to="/vigtalent/chase_master">⮞</Link> Chase Master (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-1.8" id="ability-vigilante_talents-fake-fn-1.8" data-hash-target to="ability-vigilante_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Passive Ability">He receives a bonus on all checks during <Link to="/rule/chases">a chase</Link> equal to <Link to="/misc/half">half</Link> his vigilante level or +4, whichever is greater.</Pair>
 </Ability>
-<Ability id="vigtalentclosethegap-close-the-gap-ex-fn1-9" icon={["armor-upgrade"]}>
+<Ability id="vigtalentclosethegap-close-the-gap-ex-fn1-9" icon={["def"]}>
 <Pair single id="vigtalentclosethegap-close-the-gap-ex-fn1-9"><Link to="/vigtalent/close_the_gap">⮞</Link> Close the Gap (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-1.9" id="ability-vigilante_talents-fake-fn-1.9" data-hash-target to="ability-vigilante_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">Each round, at the start of his turn, the vigilante can designate one foe within 20 feet that isn't adjacent to him. When he moves, he doesn't provoke attacks of opportunity from that foe as long as he ends his move adjacent to that foe. If he <Link to="/rule/charge">charges</Link> that foe, he does not take the -2 penalty to his AC on any attacks made by the designated foe.</Pair>
 </Ability>
-<Ability id="vigtalentcombatexpertise-combat-expertise-ex-fn5-2" icon={["stairs-goal"]}>
+<Ability id="vigtalentcombatexpertise-combat-expertise-ex-fn5-2" icon={["power"]}>
 <Pair single id="vigtalentcombatexpertise-combat-expertise-ex-fn5-2"><Link to="/vigtalent/combat_expertise">⮞</Link> Combat Expertise (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-5.2" id="ability-vigilante_talents-fake-fn-5.2" data-hash-target to="ability-vigilante_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains <Link to="/feat/combat_expertise">Combat Expertise</Link> as a bonus feat, even if he doesn't meet the prerequisites. If he already has Combat Expertise, he instead gains another feat he qualified for at the level when he chose Combat Expertise.</Pair>
 <Pair title="Passive Ability">If the vigilante's Intelligence score is less than 13, it counts as 13 for the purpose of meeting the prerequisites of combat feats.</Pair>
 </Ability>
-<Ability id="vigtalentconcealedstrike-concealed-strike-ex-fn12" icon={["stairs-goal"]}>
+<Ability id="vigtalentconcealedstrike-concealed-strike-ex-fn12" icon={["power"]}>
 <Pair single id="vigtalentconcealedstrike-concealed-strike-ex-fn12"><Link to="/vigtalent/concealed_strike">⮞</Link> Concealed Strike (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-12" id="ability-vigilante_talents-fake-fn-12" data-hash-target to="ability-vigilante_talents-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level vigilante</Pair>
 <Pair title="Ability">Whenever the vigilante attacks an opponent with a concealed weapon that his target wasn't aware of, he can attempt a Bluff check to <Link to="/rule/feint">feint</Link> that opponent as a <strong className="hl">move action</strong>. If he has the <Link to="/feat/improved_feint">Improved Feint</Link> feat, he attempts this check as a <strong className="hl">free action</strong> instead.</Pair>
 </Ability>
-<Ability id="vigtalentcunningfeint-cunning-feint-ex-fn1-10" icon={["stairs-goal","armor-downgrade"]}>
+<Ability id="vigtalentcunningfeint-cunning-feint-ex-fn1-10" icon={["power","lower"]}>
 <Pair single id="vigtalentcunningfeint-cunning-feint-ex-fn1-10"><Link to="/vigtalent/cunning_feint">⮞</Link> Cunning Feint (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-1.10" id="ability-vigilante_talents-fake-fn-1.10" data-hash-target to="ability-vigilante_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante can <Link to="/rule/feint">feint</Link> as a <strong className="hl">move action</strong> or in place of his first attack during a full attack.</Pair>
 <Pair title="At 8th Level">When the vigilante successfully feints, the opponent is denied its Dexterity bonus to AC against all attacks until the vigilante's next turn.</Pair>
 </Ability>
-<Ability id="vigtalentdeceitfultrick-deceitful-trick-fn11-2" icon={["mailed-fist"]}>
+<Ability id="vigtalentdeceitfultrick-deceitful-trick-fn11-2" icon={["melee"]}>
 <Pair single id="vigtalentdeceitfultrick-deceitful-trick-fn11-2"><Link to="/vigtalent/deceitful_trick">⮞</Link> Deceitful Trick <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-11.2" id="ability-vigilante_talents-fake-fn-11.2" data-hash-target to="ability-vigilante_talents-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/feat/greater_dirty_trick">Greater Dirty Trick</Link>, <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link></Pair>
 <Pair title="Ability">The vigilante can perform a <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver in place of his first attack during a full attack. He can take a -4 penalty on his check in order to inflict two different conditions on his foe if he succeeds at his check. If the vigilante is successful, the target can remove both conditions as a <strong className="hl">standard action</strong>.</Pair>
 </Ability>
-<Ability id="vigtalentenvironmentalweapon-environmental-weapon-ex-fn1-11" icon={["stairs-goal"]}>
+<Ability id="vigtalentenvironmentalweapon-environmental-weapon-ex-fn1-11" icon={["power"]}>
 <Pair single id="vigtalentenvironmentalweapon-environmental-weapon-ex-fn1-11"><Link to="/vigtalent/environmental_weapon">⮞</Link> Environmental Weapon (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-1.11" id="ability-vigilante_talents-fake-fn-1.11" data-hash-target to="ability-vigilante_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Choice">When the vigilante gains this talent, he must select one type of terrain from the ranger's list of <Link to="/ability/favored_terrain">favored terrains</Link>.</Pair>
 <Pair title="Swift Action"><p>While in the chosen terrain, the vigilante can find an <Link to="/misc/improvised_weapons">improvised weapon</Link> if there are any loose or moveable objects around (subject to the GM's discretion). He doesn't take a penalty for using these improvised weapons.</p>
@@ -3233,12 +3233,12 @@ const _vigilante_talents = {hasJL:true,title: "Vigilante Talents", topLink: ["Vi
 <Pair title="At 20th Level">The vigilante can select an additional type of terrain.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="vigtalentonewiththewild-one-with-the-wild-ex-fn9-2" icon={["upgrade"]}>
+<Ability id="vigtalentonewiththewild-one-with-the-wild-ex-fn9-2" icon={["boost"]}>
 <Pair single id="vigtalentonewiththewild-one-with-the-wild-ex-fn9-2"><Link to="/vigtalent/one_with_the_wild">⮞</Link> One with the Wild (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-9.2" id="ability-vigilante_talents-fake-fn-9.2" data-hash-target to="ability-vigilante_talents-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/vigtalent/environmental_weapon">Environmental weapon</Link></Pair>
 <Pair title="Passive Ability">In the same terrain for which he selected <em>environmental weapon,</em> he gains a +4 competence bonus on Stealth, Survival, and Perception checks.</Pair>
 </Ability>
-<Ability id="vigtalentswampconcoctions-swamp-concoctions-ex-fn13" icon={["stairs-goal"]}>
+<Ability id="vigtalentswampconcoctions-swamp-concoctions-ex-fn13" icon={["power"]}>
 <Pair single id="vigtalentswampconcoctions-swamp-concoctions-ex-fn13"><Link to="/vigtalent/swamp_concoctions">⮞</Link> Swamp Concoctions (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-13" id="ability-vigilante_talents-fake-fn-13" data-hash-target to="ability-vigilante_talents-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/vigtalent/environmental_weapon">Environmental weapon</Link> (jungle, swamp, or water)</Pair>
 <Pair title="Full-Round Action"><p>Twice per day, the vigilante can use the <em>environmental weapon</em> vigilante talent to improvise an alchemical weapon worth no more than 15 gp per vigilante level. This improvised weapon cannot be sold and must be used within 3 rounds before it becomes inert.</p>
@@ -3246,11 +3246,11 @@ const _vigilante_talents = {hasJL:true,title: "Vigilante Talents", topLink: ["Vi
 </Pair>
 </Ability>
 </div>
-<Ability id="vigtalentexposeweaknesses-expose-weaknesses-ex-fn1-12" icon={["mailed-fist"]}>
+<Ability id="vigtalentexposeweaknesses-expose-weaknesses-ex-fn1-12" icon={["melee"]}>
 <Pair single id="vigtalentexposeweaknesses-expose-weaknesses-ex-fn1-12"><Link to="/vigtalent/expose_weaknesses">⮞</Link> Expose Weaknesses (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-1.12" id="ability-vigilante_talents-fake-fn-1.12" data-hash-target to="ability-vigilante_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante is able to use sneaky tricks to make it easier to damage a foe, whether it is throwing a bit of fine dust of cold iron over a fey creature or melting a glob of silver onto a lycanthrope's hide. The vigilante can add the ability to reduce a creature's damage reduction or hardness by 10 to the list of options when attempting a <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver check. This does not stack with itself, and it does not work against creatures with DR/&mdash;.</Pair>
 </Ability>
-<Ability id="vigtalentfantasticstride-fantastic-stride-ex-fn12-2" icon={["stairs-goal"]}>
+<Ability id="vigtalentfantasticstride-fantastic-stride-ex-fn12-2" icon={["power"]}>
 <Pair single id="vigtalentfantasticstride-fantastic-stride-ex-fn12-2"><Link to="/vigtalent/fantastic_stride">⮞</Link> Fantastic Stride (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-12.2" id="ability-vigilante_talents-fake-fn-12.2" data-hash-target to="ability-vigilante_talents-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level vigilante</Pair>
 <Pair title="Ability">The vigilante gains <Link to="/feat/spring_attack">Spring Attack</Link> as a bonus feat, ignoring its prerequisites.</Pair>
@@ -3258,32 +3258,32 @@ const _vigilante_talents = {hasJL:true,title: "Vigilante Talents", topLink: ["Vi
 <Pair title="At 14th Level">The vigilante can designate one additional creature when he uses Spring Attack; the vigilante's movement this round does not provoke attacks of opportunity from any of the designated secondary creatures.</Pair>
 <Pair title="At 18th Level">The vigilante can designate one additional creature when he uses Spring Attack; the vigilante's movement this round does not provoke attacks of opportunity from any of the designated secondary creatures.</Pair>
 </Ability>
-<Ability id="vigtalentfavoredmaneuver-favored-maneuver-ex-fn1-13" icon={["stairs-goal"]}>
+<Ability id="vigtalentfavoredmaneuver-favored-maneuver-ex-fn1-13" icon={["power"]}>
 <Pair single id="vigtalentfavoredmaneuver-favored-maneuver-ex-fn1-13"><Link to="/vigtalent/favored_maneuver">⮞</Link> Favored Maneuver (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-1.13" id="ability-vigilante_talents-fake-fn-1.13" data-hash-target to="ability-vigilante_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante selects one type of <Link to="/rule/combat_maneuver">combat maneuver</Link> to be a <em>favored maneuver.</em> He gains the Improved feat corresponding to that combat maneuver (if one exists). He gains a +2 circumstance bonus on combat maneuver checks with that combat maneuver against a foe that is unaware of the vigilante's presence at the start of his combat maneuver.</Pair>
 <Pair title="Special">A vigilante can select this talent more than once. Each time, it applies to a different combat maneuver.</Pair>
 </Ability>
-<Ability id="vigtalentgatorwrangle-gator-wrangle-ex-fn10-2" icon={["armor-upgrade","upgrade"]}>
+<Ability id="vigtalentgatorwrangle-gator-wrangle-ex-fn10-2" icon={["def","boost"]}>
 <Pair single id="vigtalentgatorwrangle-gator-wrangle-ex-fn10-2"><Link to="/vigtalent/gator_wrangle">⮞</Link> Gator Wrangle (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-10.2" id="ability-vigilante_talents-fake-fn-10.2" data-hash-target to="ability-vigilante_talents-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains a +8 bonus to his CMD against grapple combat maneuvers when using the <Link to="/umr/grab">grab</Link> ability, and he halves all damage from <Link to="/umr/constrict">constrict</Link> attacks.</Pair>
 <Pair title="Passive Ability">When attacking a creature that is grappling him, an avenger vigilante deals an additional amount of damage equal to half his vigilante level.</Pair>
 </Ability>
-<Ability id="vigtalentinspiredvigilante-inspired-vigilante-ex-fn1-14" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="vigtalentinspiredvigilante-inspired-vigilante-ex-fn1-14" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="vigtalentinspiredvigilante-inspired-vigilante-ex-fn1-14" flavor="The vigilante's powers of deduction are far beyond the norm."><Link to="/vigtalent/inspired_vigilante">⮞</Link> Inspired Vigilante (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-1.14" id="ability-vigilante_talents-fake-fn-1.14" data-hash-target to="ability-vigilante_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">This ability functions similarly to the <Link to="/class/investigator">investigator's</Link> <em>inspiration</em> ability, but the vigilante's <em>inspiration pool</em> is equal to his class level (do not add his Intelligence modifier), the vigilante can never use this ability without expending a use of <em>inspiration,</em> and it doesn't count as <em>inspiration</em> for any effects that interact with or require the <em>inspiration</em> class feature.</Pair>
 </Ability>
-<Ability id="inspiration-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="inspiration-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="inspiration-ex" flavor="Relevant text from the investigator class ability.">Inspiration (Ex)</Pair>
 <Pair title="Ability">You have an inspiration pool equal to <Link to="/misc/half">half</Link> your level. Your inspiration pool refreshes each day, typically after you get a restful night's sleep.</Pair>
 <Pair title="Free Action">You can expend one use of inspiration from your pool to add 1d6 to the result of a check, including any on which you take 10 or 20. This choice is made after the check is rolled and before the results are revealed.</Pair>
 <Pair title="Usage">You can only use inspiration once per check or roll.</Pair>
 <Pair title="Special">Using inspiration on attack rolls and saving throws costs two uses of inspiration each time. In the case of saving throws, using inspiration is an <strong className="hl">immediate action</strong>.</Pair>
 </Ability>
-<Ability id="vigtalentinstantplan-instant-plan-ex-fn14" icon={["armor-upgrade","shield-reflect","upgrade"]}>
+<Ability id="vigtalentinstantplan-instant-plan-ex-fn14" icon={["def","protect","boost"]}>
 <Pair single id="vigtalentinstantplan-instant-plan-ex-fn14" flavor="The vigilante can quickly manage a situation that seems to be spiraling out of control."><Link to="/vigtalent/instant_plan">⮞</Link> Instant Plan (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-14" id="ability-vigilante_talents-fake-fn-14" data-hash-target to="ability-vigilante_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day, the vigilante can state a plan of action. All allies within 30 feet that can hear him gain a +2 morale bonus on saving throws against fear effects and are immune to being demoralized. They also gain a +1 morale bonus on skill checks or combat maneuver checks of the vigilante's choice. The benefits last for 1 round per vigilante level.</Pair>
 </Ability>
-<Ability id="vigtalentleapandbound-leap-and-bound-ex-fn4-2" icon={["upgrade","stairs-goal"]}>
+<Ability id="vigtalentleapandbound-leap-and-bound-ex-fn4-2" icon={["boost","power"]}>
 <Pair single id="vigtalentleapandbound-leap-and-bound-ex-fn4-2"><Link to="/vigtalent/leap_and_bound">⮞</Link> Leap and Bound (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-4.2" id="ability-vigilante_talents-fake-fn-4.2" data-hash-target to="ability-vigilante_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level vigilante</Pair>
 <Pair title="Ability"><p>A vigilante with this talent adds his Strength bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks in addition to his Dexterity modifier. He is always treated as having a running start when jumping, and his high jumps are treated as long jumps when determining the DC.</p>
@@ -3291,17 +3291,17 @@ const _vigilante_talents = {hasJL:true,title: "Vigilante Talents", topLink: ["Vi
 <p>If the vigilante grapples a creature capable of bearing his weight, he does not fall, instead remaining adjacent to the creature as it moves.</p>
 </Pair>
 </Ability>
-<Ability id="vigtalentlethalgrace-lethal-grace-ex-fn2-5" icon={["stairs-goal","upgrade"]}>
+<Ability id="vigtalentlethalgrace-lethal-grace-ex-fn2-5" icon={["power","boost"]}>
 <Pair single id="vigtalentlethalgrace-lethal-grace-ex-fn2-5"><Link to="/vigtalent/lethal_grace">⮞</Link> Lethal Grace (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-2.5" id="ability-vigilante_talents-fake-fn-2.5" data-hash-target to="ability-vigilante_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante combines strength and speed into incredibly deadly attacks. He gains <Link to="/feat/weapon_finesse">Weapon Finesse</Link> as a bonus feat, and if he already has the Weapon Finesse feat, he can immediately swap it for another feat for which he qualified at the level he chose Weapon Finesse.</Pair>
 <Pair title="Passive Ability">When using Weapon Finesse to make a melee attack using his Dexterity bonus on attack rolls and his Strength bonus on damage rolls, he also adds half his vigilante level on damage rolls. This bonus damage is not reduced or increased if the vigilante is wielding a weapon two-handed or in an off-hand.</Pair>
 </Ability>
-<Ability id="vigtalentlivingshield-living-shield-ex-fn2-6" icon={["armor-upgrade"]}>
+<Ability id="vigtalentlivingshield-living-shield-ex-fn2-6" icon={["def"]}>
 <Pair single id="vigtalentlivingshield-living-shield-ex-fn2-6"><Link to="/vigtalent/living_shield">⮞</Link> Living Shield (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-2.6" id="ability-vigilante_talents-fake-fn-2.6" data-hash-target to="ability-vigilante_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Immediate Action">Whenever the vigilante is grappling a creature and is targeted by an attack, he can attempt a combat maneuver check against the target of his <Link to="/rule/grapple">grapple</Link> (this combat maneuver check doesn't count as a grapple combat maneuver check). If he succeeds, the creature he is grappling becomes the new target of the attack. If the check fails, the creature escapes the grapple and the vigilante is the target of the attack as normal.</Pair>
 <Pair title="Special">This ability must be used after the attack is declared against the vigilante, but before the attack is made and the results revealed.</Pair>
 </Ability>
-<Ability id="vigtalentmagicalfamiliarity-magical-familiarity-sp-fn6-2" icon={["magic-swirl"]}>
+<Ability id="vigtalentmagicalfamiliarity-magical-familiarity-sp-fn6-2" icon={["magic"]}>
 <Pair single id="vigtalentmagicalfamiliarity-magical-familiarity-sp-fn6-2" flavor="The vigilante taps into a past life's arcane secrets."><Link to="/vigtalent/magical_familiarity">⮞</Link> Magical Familiarity (Sp) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-6.2" id="ability-vigilante_talents-fake-fn-6.2" data-hash-target to="ability-vigilante_talents-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Intelligence 10+</Pair>
 <Pair title="Ability">He selects a 0-level spell from the <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">wizard</Link> spell list. The vigilante can cast the chosen spell three times per day as a spell-like ability, using his vigilante level as his caster level.</Pair>
@@ -3309,34 +3309,34 @@ const _vigilante_talents = {hasJL:true,title: "Vigilante Talents", topLink: ["Vi
 <Pair title="At 12th Level">In addition to these 0-level spells, he chooses a 1st-level spell that he can cast once per day as a spell-like ability.</Pair>
 <Pair title="At 18th Level">He can cast his 1st-level spell three times per day and his 0-level spells at will.</Pair>
 </Ability>
-<Ability id="vigtalentmalleableflesh-malleable-flesh-su-fn4-3" icon={["stairs-goal","magic-swirl","broken-shield"]}>
+<Ability id="vigtalentmalleableflesh-malleable-flesh-su-fn4-3" icon={["power","magic","down"]}>
 <Pair single id="vigtalentmalleableflesh-malleable-flesh-su-fn4-3" flavor="Whether through mutation or alchemy, some vigilantes have flesh that is as moldable as clay and as fluid as ink."><Link to="/vigtalent/malleable_flesh">⮞</Link> Malleable Flesh (Su) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-4.3" id="ability-vigilante_talents-fake-fn-4.3" data-hash-target to="ability-vigilante_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">A vigilante with this talent gains the <Link to="/subtype/shapechanger">shapechanger</Link> subtype and the <Link to="/umr/compression">compression</Link> universal monster rule. In addition, the vigilante can alter his appearance as <Link to="/spell/disguise_self">disguise self</Link>, except that the changes are physical rather than illusory. However, aspects of the vigilante's aesthetic persist in all forms, halving the bonus on Disguise checks gained from this effect and from <em>seamless guise.</em></Pair>
 <Pair title="At 12th Level">The vigilante can pass through narrow openings, even mere cracks, along with any item he wears or carries (to a maximum of his light load).</Pair>
 </Ability>
-<Ability id="vigtalentminormagic-minor-magic-sp-fn12-3" icon={["magic-swirl"]}>
+<Ability id="vigtalentminormagic-minor-magic-sp-fn12-3" icon={["magic"]}>
 <Pair single id="vigtalentminormagic-minor-magic-sp-fn12-3"><Link to="/vigtalent/minor_magic">⮞</Link> Minor Magic (Sp) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-12.3" id="ability-vigilante_talents-fake-fn-12.3" data-hash-target to="ability-vigilante_talents-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Choice">A vigilante with this talent selects one of the following spells lists: <Link to="/main/spells_bard">bard</Link>, <Link to="/main/spells_cleric">cleric</Link>, <Link to="/main/spells_druid">druid</Link>, <Link to="/main/spells_psychic">psychic</Link>, <Link to="/main/spells_shaman">shaman</Link>, <Link to="/main/spells_wizard">sorcerer/wizard spell list</Link>, or <Link to="/main/spells_witch">witch</Link>. Once this decision is made, the selection cannot be changed.</Pair>
 <Pair title="Ability">The vigilante gains the ability to cast a 0-level spell from the selected spell list. This spell can be cast two times per day as a spell-like ability. The caster level for this ability is equal to the vigilante's level. The save DC for this spell is equal to 10 + the vigilante's Intelligence modifier (for psychic, sorcerer/wizard, and witch spells), Wisdom (for cleric, druid, and shaman spells), or Charisma (for bard spells).</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="vigtalentmajormagic-major-magic-sp-fn12-4" icon={["magic-swirl"]}>
+<Ability id="vigtalentmajormagic-major-magic-sp-fn12-4" icon={["magic"]}>
 <Pair single id="vigtalentmajormagic-major-magic-sp-fn12-4"><Link to="/vigtalent/major_magic">⮞</Link> Major Magic (Sp) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-12.4" id="ability-vigilante_talents-fake-fn-12.4" data-hash-target to="ability-vigilante_talents-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level vigilante, <Link to="/vigtalent/minor_magic">minor magic</Link>, a score of at least 11 in the appropriate ability</Pair>
 <Pair title="Ability">A vigilante with this talent gains the ability to cast a 1st-level spell drawn from the same spell list as the <em>minor magic</em> talent. The vigilante can cast this spell as a spell-like ability a number of times a day equal to <Link to="/misc/one_fourth">one-fourth</Link> of his vigilante level. The caster level for this ability is equal to the vigilante's level. The save DC for this spell is equal to 10 + the vigilante's Intelligence modifier (for psychic, sorcerer/wizard, and witch spells), Wisdom (for cleric, druid, and shaman spells), or Charisma (for bard spells).</Pair>
 </Ability>
 </div>
-<Ability id="vigtalentmockery-mockery-ex-fn12-5" icon={["upgrade"]}>
+<Ability id="vigtalentmockery-mockery-ex-fn12-5" icon={["boost"]}>
 <Pair single id="vigtalentmockery-mockery-ex-fn12-5"><Link to="/vigtalent/mockery">⮞</Link> Mockery (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-12.5" id="ability-vigilante_talents-fake-fn-12.5" data-hash-target to="ability-vigilante_talents-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains <Link to="/feat/antagonize">Antagonize</Link> as a bonus feat. He can target a creature with the Intimidate version of Antagonize twice each day, rather than just once.</Pair>
 <Pair title="At 12th Level">The effects of the Intimidate version of Antagonize last a number of rounds equal to the vigilante's Charisma modifier (minimum 1).</Pair>
 </Ability>
-<Ability id="vigtalentmorphicweaponry-morphic-weaponry-ex-fn4-4" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="vigtalentmorphicweaponry-morphic-weaponry-ex-fn4-4" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="vigtalentmorphicweaponry-morphic-weaponry-ex-fn4-4"><Link to="/vigtalent/morphic_weaponry">⮞</Link> Morphic Weaponry (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-4.4" id="ability-vigilante_talents-fake-fn-4.4" data-hash-target to="ability-vigilante_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">The <Link to="/subtype/shapechanger">shapechanger</Link> subtype</Pair>
 <Pair title="Ability">The vigilante can shape his body into weaponry. This acts as the <Link to="/arc-shifter/oozemorph">oozemorph</Link> shifter's <em>morphic weaponry</em> ability, treating the vigilante's level as his shifter level.</Pair>
 </Ability>
-<Ability id="morphic-weaponry-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="morphic-weaponry-ex" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="morphic-weaponry-ex" flavor="Text from the oozemorph ability.">Morphic Weaponry (Ex)</Pair>
 <Pair title="Move-Equivalent Action">An oozemorph can form two primary natural attacks that each deal 1d6 points of bludgeoning, piercing, or slashing damage, chosen by the oozemorph when she forms them.</Pair>
 <Pair title="Swift Action">An oozemorph can change the damage type of any number of her natural weapons.</Pair>
@@ -3344,27 +3344,27 @@ const _vigilante_talents = {hasJL:true,title: "Vigilante Talents", topLink: ["Vi
 <Pair title="At 15th Level">An oozemorph gains an additional primary natural attack.</Pair>
 <Pair title="Special">The total number of natural attacks an oozemorph has at any given time includes those gained via her current form. For example, an 8th-level oozemorph who has taken the form of a wolf with <em>beast shape I</em> has a bite attack as part of that form; she can create only two additional natural attacks via <em>morphic weaponry,</em> for a total of three attacks available to her at that level. If the oozemorph later reverts to a humanoid form with no natural weapons, she can instead create three <em>morphic weapons.</em></Pair>
 </Ability>
-<Ability id="vigtalentperfectfall-perfect-fall-ex-fn2-7" icon={["armor-upgrade"]}>
+<Ability id="vigtalentperfectfall-perfect-fall-ex-fn2-7" icon={["def"]}>
 <Pair single id="vigtalentperfectfall-perfect-fall-ex-fn2-7"><Link to="/vigtalent/perfect_fall">⮞</Link> Perfect Fall (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-2.7" id="ability-vigilante_talents-fake-fn-2.7" data-hash-target to="ability-vigilante_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">As long as there is a wall or another surface within arm's reach, the vigilante never takes falling damage. Even if no surface is available, he takes only half damage from falling and lands on his feet.</Pair>
 </Ability>
-<Ability id="vigtalentperfectvulnerability-perfect-vulnerability-ex-fn2-8" icon={["upgrade"]}>
+<Ability id="vigtalentperfectvulnerability-perfect-vulnerability-ex-fn2-8" icon={["boost"]}>
 <Pair single id="vigtalentperfectvulnerability-perfect-vulnerability-ex-fn2-8"><Link to="/vigtalent/perfect_vulnerability">⮞</Link> Perfect Vulnerability (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-2.8" id="ability-vigilante_talents-fake-fn-2.8" data-hash-target to="ability-vigilante_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level vigilante</Pair>
 <Pair title="Standard Action">The vigilante can cleverly strike his foe where that foe is weakest. This attack targets the foe's touch AC, and the foe is denied her Dexterity bonus against the attack.</Pair>
 <Pair title="Special">Once a foe has been the target of <em>perfect vulnerability,</em> she can't be the target of the same vigilante's perfect vulnerability for 24 hours.</Pair>
 </Ability>
-<Ability id="vigtalentpoisoner-poisoner-ex-fn5-3" icon={["stairs-goal"]}>
+<Ability id="vigtalentpoisoner-poisoner-ex-fn5-3" icon={["power"]}>
 <Pair single id="vigtalentpoisoner-poisoner-ex-fn5-3"><Link to="/vigtalent/poisoner">⮞</Link> Poisoner (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-5.3" id="ability-vigilante_talents-fake-fn-5.3" data-hash-target to="ability-vigilante_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains the alchemist's <Link to="/ability/poison_use">poison use</Link> class feature.</Pair>
 <Pair title="At 6th Level">When he has 5 doses of a single kind of poison, he can synthesize a dose of that poison once per day at no cost. This process takes 1 minute. It doesn't expend the 5 doses of poison, but the doses must be in the vigilante's possession to perform the synthesis. The poison produced requires careful storage and special skill to use. It becomes inert if it leaves the vigilante's possession and can't be sold. The vigilante can maintain only 1 dose of synthesized poison for every 5 doses of that poison in his possession.</Pair>
 </Ability>
-<Ability id="vigtalentpullintotheshadows-pull-into-the-shadows-ex-fn2-9" icon={["mailed-fist","upgrade","armor-upgrade"]}>
+<Ability id="vigtalentpullintotheshadows-pull-into-the-shadows-ex-fn2-9" icon={["melee","boost","def"]}>
 <Pair single id="vigtalentpullintotheshadows-pull-into-the-shadows-ex-fn2-9"><Link to="/vigtalent/pull_into_the_shadows">⮞</Link> Pull into the Shadows (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-2.9" id="ability-vigilante_talents-fake-fn-2.9" data-hash-target to="ability-vigilante_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Full-Round Action">The vigilante can move up to his speed toward an opponent who is unaware of his presence (or who considers him an ally) and make a single attack against that opponent. If the attack hits, he can attempt a <Link to="/rule/drag">drag</Link> combat maneuver against that enemy with a +4 bonus and without provoking an attack of opportunity. If the drag succeeds, the vigilante doesn't need to have enough movement remaining to move with the enemy.</Pair>
 <Pair title="Special">The vigilante can't use this ability on a true ally or a willing target.</Pair>
 </Ability>
-<Ability id="vigtalentracialparagon-racial-paragon-fn11-3" icon={["stairs-goal"]}>
+<Ability id="vigtalentracialparagon-racial-paragon-fn11-3" icon={["power"]}>
 <Pair single id="vigtalentracialparagon-racial-paragon-fn11-3"><Link to="/vigtalent/racial_paragon">⮞</Link> Racial Paragon <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-11.3" id="ability-vigilante_talents-fake-fn-11.3" data-hash-target to="ability-vigilante_talents-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Usage">3 + half his vigilante level times/day (minimum 4)<ByLevelPop levels={[[1,4],[4,5],[6,6],[8,7],[10,8],[12,9],[14,10],[16,11],[18,12],[20,13]]} unit="time" postText="/day" /></Pair>
 <Pair title="Move-Equivalent Action"><p>The vigilante can gain the benefit of a feat with a racial prerequisite he meets but doesn't have. This effect lasts for 1 minute. The vigilante must meet all the feat's prerequisites. The vigilante can use this ability again before the duration expires to replace a previous racial feat with another choice.</p>
@@ -3374,81 +3374,81 @@ const _vigilante_talents = {hasJL:true,title: "Vigilante Talents", topLink: ["Vi
 <p>If the vigilante chooses to gain the benefits of multiple feats, the feats selected must share the same racial prerequisite. He can use one of these feats to meet a prerequisite of a second feat; doing so means he cannot replace a feat currently fulfilling another's prerequisite without also replacing those feats that require it. Each individual feat selected counts toward his daily uses of this ability.</p>
 </Pair>
 </Ability>
-<Ability id="vigtalentreturningweapon-returning-weapon-ex-fn2-10" icon={["bowman"]}>
+<Ability id="vigtalentreturningweapon-returning-weapon-ex-fn2-10" icon={["ranged"]}>
 <Pair single id="vigtalentreturningweapon-returning-weapon-ex-fn2-10" flavor="The vigilante has a signature type of thrown weapon that returns to him."><Link to="/vigtalent/returning_weapon">⮞</Link> Returning Weapon (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-2.10" id="ability-vigilante_talents-fake-fn-2.10" data-hash-target to="ability-vigilante_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Choice">Choose a type of thrown weapon, such as throwing axes.</Pair>
 <Pair title="Ability">Whenever the vigilante uses the chosen type of weapon, it automatically returns as if it had the <Link to="/magic-enh/returning">returning</Link> property.</Pair>
 <Pair title="At 14th Level">If the vigilante chose a type of thrown weapon that is treated as ammunition, such as <Link to="/eq-weapon/shuriken">shuriken</Link>, and buys a set of 50 magic ammunition of that type, he automatically replenishes them at no cost and never runs out. If he chose a non-ammunition thrown weapon instead, he can apply the magical properties of the first weapon he throws in a round to any nonmagical thrown weapons of that type he throws that round. This allows him to make a full attack with the benefits of his magical thrown weapon, even though it only returns next round.</Pair>
 </Ability>
-<Ability id="vigtalentrooftopinfiltrator-rooftop-infiltrator-ex-fn2-11" icon={["stairs-goal"]}>
+<Ability id="vigtalentrooftopinfiltrator-rooftop-infiltrator-ex-fn2-11" icon={["power"]}>
 <Pair single id="vigtalentrooftopinfiltrator-rooftop-infiltrator-ex-fn2-11"><Link to="/vigtalent/rooftop_infiltrator">⮞</Link> Rooftop Infiltrator (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-2.11" id="ability-vigilante_talents-fake-fn-2.11" data-hash-target to="ability-vigilante_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains a climb speed equal to half his base speed, which increases to his full base speed when climbing a rope.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="vigtalentmonkeyspaws-monkeys-paws-ex-fn9-3" icon={["stairs-goal","upgrade"]}>
+<Ability id="vigtalentmonkeyspaws-monkeys-paws-ex-fn9-3" icon={["power","boost"]}>
 <Pair single id="vigtalentmonkeyspaws-monkeys-paws-ex-fn9-3"><Link to="/vigtalent/monkeys_paws">⮞</Link> Monkey's Paws (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-9.3" id="ability-vigilante_talents-fake-fn-9.3" data-hash-target to="ability-vigilante_talents-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">5th-level vigilante, <Link to="/vigtalent/rooftop_infiltrator">rooftop infiltrator</Link></Pair>
 <Pair title="Ability">The vigilante gains a climb speed equal to his base speed and a +4 competence bonus on <Link to="/skill/escape_artist">Escape Artist</Link> checks.</Pair>
 </Ability>
 </div>
-<Ability id="vigtalentshacklesmash-shackle-smash-ex-fn14-2" icon={["upgrade"]}>
+<Ability id="vigtalentshacklesmash-shackle-smash-ex-fn14-2" icon={["boost"]}>
 <Pair single id="vigtalentshacklesmash-shackle-smash-ex-fn14-2"><Link to="/vigtalent/shackle_smash">⮞</Link> Shackle Smash (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-14.2" id="ability-vigilante_talents-fake-fn-14.2" data-hash-target to="ability-vigilante_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">Perhaps trained to remove or destroy restraints from slaves and prisoners by the Twilight Talons or <Link to="/rule/bellflower_network">Bellflower Network</Link>, a vigilante with this talent can choose to make no more noise than people talking when he attempts a <Link to="/rule/sunder">sunder</Link> combat maneuver check or attempts a Strength check to break an object. He ignores half an object's hardness when attempting sunder combat maneuver checks and when attacking nonmagical objects.</Pair>
 </Ability>
-<Ability id="vigtalentshadowssight-shadows-sight-ex-fn2-12" icon={["stairs-goal"]}>
+<Ability id="vigtalentshadowssight-shadows-sight-ex-fn2-12" icon={["power"]}>
 <Pair single id="vigtalentshadowssight-shadows-sight-ex-fn2-12"><Link to="/vigtalent/shadows_sight">⮞</Link> Shadow's Sight (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-2.12" id="ability-vigilante_talents-fake-fn-2.12" data-hash-target to="ability-vigilante_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains low-light vision and darkvision 60 feet. If he already had darkvision, its range increases by 30 feet.</Pair>
 </Ability>
-<Ability id="vigtalentshadowsspeed-shadows-speed-ex-fn2-13" icon={["upgrade"]}>
+<Ability id="vigtalentshadowsspeed-shadows-speed-ex-fn2-13" icon={["boost"]}>
 <Pair single id="vigtalentshadowsspeed-shadows-speed-ex-fn2-13"><Link to="/vigtalent/shadows_speed">⮞</Link> Shadow's Speed (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-2.13" id="ability-vigilante_talents-fake-fn-2.13" data-hash-target to="ability-vigilante_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante's base speed increases by 10 feet.</Pair>
 <Pair title="At 10th Level">It increases by an additional 10 feet.</Pair>
 </Ability>
-<Ability id="vigtalentshieldofblades-shield-of-blades-ex-fn3-8" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="vigtalentshieldofblades-shield-of-blades-ex-fn3-8" icon={["power","def"]}>
 <Pair single id="vigtalentshieldofblades-shield-of-blades-ex-fn3-8" flavor="The vigilante's wild attacks allow him to block his foes' counterattacks."><Link to="/vigtalent/shield_of_blades">⮞</Link> Shield of Blades (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-3.8" id="ability-vigilante_talents-fake-fn-3.8" data-hash-target to="ability-vigilante_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability"><p>He gains <Link to="/feat/power_attack">Power Attack</Link> as a bonus feat. If he already has the Power Attack feat, he can immediately swap it for another feat for which he qualified at the level he chose Power Attack.</p>
 <p>When he takes an attack or full attack action, if he uses Power Attack on every attack to make melee attacks that use his Strength bonus on attack rolls, he gains a shield bonus to his AC until his next turn equal to his penalty on attack rolls from Power Attack. This bonus applies only if he actually takes that penalty on at least one of the attack rolls.</p>
 </Pair>
 </Ability>
-<Ability id="vigtalentshieldoffury-shield-of-fury-ex-fn3-9" icon={["stairs-goal"]}>
+<Ability id="vigtalentshieldoffury-shield-of-fury-ex-fn3-9" icon={["power"]}>
 <Pair single id="vigtalentshieldoffury-shield-of-fury-ex-fn3-9"><Link to="/vigtalent/shield_of_fury">⮞</Link> Shield of Fury (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-3.9" id="ability-vigilante_talents-fake-fn-3.9" data-hash-target to="ability-vigilante_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains <Link to="/feat/improved_shield_bash">Improved Shield Bash</Link> as a bonus feat. If he already has the Improved Shield Bash feat, he can immediately swap it for another feat for which he qualified at the level he chose Improved Shield Bash.</Pair>
 <Pair title="At 6th Level">He is treated as if he has the <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link> feat as long as one of the weapons used is a shield. This allows him to take feats that require Two-Weapon Fighting as a prerequisite without meeting the Two-Weapon Fighting or Dexterity prerequisites, but these feats only apply while he is wielding a shield as one of his weapons (unless he takes Two-Weapon Fighting as normal, in which case this restriction is lifted).</Pair>
 </Ability>
-<Ability id="vigtalentsignaturearrows-signature-arrows-ex-fn5-4" icon={["upgrade","magic-swirl"]}>
+<Ability id="vigtalentsignaturearrows-signature-arrows-ex-fn5-4" icon={["boost","magic"]}>
 <Pair single id="vigtalentsignaturearrows-signature-arrows-ex-fn5-4"><Link to="/vigtalent/signature_arrows">⮞</Link> Signature Arrows (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-5.4" id="ability-vigilante_talents-fake-fn-5.4" data-hash-target to="ability-vigilante_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites">14th-level vigilante</Pair>
 <Pair title="Choice">The vigilante must select one type of bow or crossbow (such as <Link to="/eq-weapon/shortbow">shortbow</Link> or <Link to="/eq-weapon/heavy_crossbow">heavy crossbow</Link>) when he selects this talent.</Pair>
 <Pair title="Ability">After the first time the vigilante buys a set of 50 pieces of magic ammunition intended for the selected type of bow or crossbow, he can pay the construction cost instead of the purchase price for additional ammunition with identical magical effects for the same weapon, even if he could not normally craft magic ammunition.</Pair>
 <Pair title="Special">This benefit applies only to the first type of magic ammunition that the vigilante buys 50 pieces of for the designated weapon. The vigilante can take this talent more than once; each time he takes it, he can purchase and gain this benefit with either a specific type of magic ammunition for a different type of bow or crossbow or a different type of magic ammunition for the original weapon.</Pair>
 </Ability>
-<Ability id="vigtalentsilentdispatch-silent-dispatch-ex-fn3-10" icon={["stairs-goal"]}>
+<Ability id="vigtalentsilentdispatch-silent-dispatch-ex-fn3-10" icon={["power"]}>
 <Pair single id="vigtalentsilentdispatch-silent-dispatch-ex-fn3-10"><Link to="/vigtalent/silent_dispatch">⮞</Link> Silent Dispatch (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-3.10" id="ability-vigilante_talents-fake-fn-3.10" data-hash-target to="ability-vigilante_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">When the vigilante ambushes an enemy or enemies unaware of his presence, he can attempt a Stealth check at a -5 penalty. The result indicates the DC of Perception checks to hear the vigilante's attacks until an opponent's first action, when the DC returns to the normal -10 for hearing battle. Other enemies present can still see the attack; this talent only prevents the sounds of battle from alerting others.</Pair>
 </Ability>
-<Ability id="vigtalentsteelyresolve-steely-resolve-ex-fn6-3" icon={["stairs-goal"]}>
+<Ability id="vigtalentsteelyresolve-steely-resolve-ex-fn6-3" icon={["power"]}>
 <Pair single id="vigtalentsteelyresolve-steely-resolve-ex-fn6-3"><Link to="/vigtalent/steely_resolve">⮞</Link> Steely Resolve (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-6.3" id="ability-vigilante_talents-fake-fn-6.3" data-hash-target to="ability-vigilante_talents-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Immediate Action">Three times per day, when the vigilante fails a Will saving throw against a mind-affecting effect, the vigilante can delay the effect's onset for a number of rounds equal to <Link to="/misc/half">half</Link> his vigilante level, after which the vigilante is affected as normal by the entire effect. Rounds spent delaying the effect do not count toward the effect's duration.</Pair>
 </Ability>
-<Ability id="vigtalentstriketheunseen-strike-the-unseen-ex-fn3-11" icon={["stairs-goal","upgrade"]}>
+<Ability id="vigtalentstriketheunseen-strike-the-unseen-ex-fn3-11" icon={["power","boost"]}>
 <Pair single id="vigtalentstriketheunseen-strike-the-unseen-ex-fn3-11"><Link to="/vigtalent/strike_the_unseen">⮞</Link> Strike the Unseen (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-3.11" id="ability-vigilante_talents-fake-fn-3.11" data-hash-target to="ability-vigilante_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains <Link to="/feat/blind_fight">Blind-Fight</Link> as a bonus feat. He can also deal <em>hidden strike</em> damage against targets with total concealment.</Pair>
 <Pair title="At 10th Level">He gains <Link to="/feat/improved_blind_fight">Improved Blind-Fight</Link> as a bonus feat and can deal all types of <Link to="/misc/precision_damage">precision damage</Link> against targets with <Link to="/rule/concealment">concealment</Link> or total concealment.</Pair>
 <Pair title="At 16th Level">He gains <Link to="/feat/greater_blind_fight">Greater Blind-Fight</Link> as a bonus feat.</Pair>
 <Pair title="Special">The vigilante does not have to meet the prerequisites for either Improved Blind-Fight or Greater Blind-Fight to gain these feats with this talent.</Pair>
 </Ability>
-<Ability id="vigtalentsurefooted-sure-footed-ex-fn3-12" icon={["stairs-goal"]}>
+<Ability id="vigtalentsurefooted-sure-footed-ex-fn3-12" icon={["power"]}>
 <Pair single id="vigtalentsurefooted-sure-footed-ex-fn3-12"><Link to="/vigtalent/sure_footed">⮞</Link> Sure-Footed (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-3.12" id="ability-vigilante_talents-fake-fn-3.12" data-hash-target to="ability-vigilante_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante can move at full speed while using the Stealth and Acrobatics skills without penalty.</Pair>
 <Pair title="At 8th Level">He can move at full speed across <Link to="/rule/difficult_terrain">difficult terrain</Link>.</Pair>
 </Ability>
-<Ability id="vigtalentsurprisestrike-surprise-strike-ex-fn3-13" icon={["upgrade"]}>
+<Ability id="vigtalentsurprisestrike-surprise-strike-ex-fn3-13" icon={["boost"]}>
 <Pair single id="vigtalentsurprisestrike-surprise-strike-ex-fn3-13" flavor="The vigilante gains a greater advantage when his foe is unable to defend herself."><Link to="/vigtalent/surprise_strike">⮞</Link> Surprise Strike (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-3.13" id="ability-vigilante_talents-fake-fn-3.13" data-hash-target to="ability-vigilante_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">Whenever he makes an attack against a foe that is denied her Dexterity bonus to AC, he gains a +1 bonus on his attack roll.</Pair>
 <Pair title="At 8th Level">This bonus becomes +2.</Pair>
 <Pair title="At 16th Level">This bonus increases to +3.</Pair>
 </Ability>
-<Ability id="vigtalenttakeemalive-take-em-alive-ex-fn12-6" icon={["upgrade"]}>
+<Ability id="vigtalenttakeemalive-take-em-alive-ex-fn12-6" icon={["boost"]}>
 <Pair single id="vigtalenttakeemalive-take-em-alive-ex-fn12-6"><Link to="/vigtalent/take_em_alive">⮞</Link> Take 'Em Alive (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-12.6" id="ability-vigilante_talents-fake-fn-12.6" data-hash-target to="ability-vigilante_talents-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante doesn't take the usual -4 penalty on attack rolls made to deal nonlethal damage with weapons that normally deal lethal damage. In addition, the vigilante gains a +1 bonus on all attack and damage rolls for attacks that deal only nonlethal damage and have no secondary effects (such as poison).</Pair>
 <Pair title="At 5th Level">This bonus becomes +2.</Pair>
@@ -3456,43 +3456,43 @@ const _vigilante_talents = {hasJL:true,title: "Vigilante Talents", topLink: ["Vi
 <Pair title="At 11th Level">This bonus becomes +4.</Pair>
 <Pair title="At 14th Level">This bonus increases to +5.</Pair>
 </Ability>
-<Ability id="vigtalentteamplayer-team-player-ex-fn12-7-fn15" icon={["stairs-goal"]}>
+<Ability id="vigtalentteamplayer-team-player-ex-fn12-7-fn15" icon={["power"]}>
 <Pair single id="vigtalentteamplayer-team-player-ex-fn12-7-fn15"><Link to="/vigtalent/team_player">⮞</Link> Team Player (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-12.7" id="ability-vigilante_talents-fake-fn-12.7" data-hash-target to="ability-vigilante_talents-fake-fn-12-target">12</InnerLink></sup> <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-15" id="ability-vigilante_talents-fake-fn-15" data-hash-target to="ability-vigilante_talents-fake-fn-15-target">15</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains <Link to="/feat/swift_aid">Swift Aid</Link> as a bonus feat, ignoring its prerequisites. Additionally, the vigilante can use the feat as a <strong className="hl">standard action</strong>, in which case it applies to every ally adjacent to the vigilante.</Pair>
 <Pair title="At 10th Level">The vigilante can increase the bonus provided to one ally by this feat to +2 by using the <Link to="/rule/aid_another_2">aid another</Link> action as a <strong className="hl">move action</strong> rather than as a swift action.</Pair>
 </Ability>
-<Ability id="vigtalenttigersclaws-tigers-claws-ex-fn9-4" icon={["mailed-fist"]}>
+<Ability id="vigtalenttigersclaws-tigers-claws-ex-fn9-4" icon={["melee"]}>
 <Pair single id="vigtalenttigersclaws-tigers-claws-ex-fn9-4"><Link to="/vigtalent/tigers_claws">⮞</Link> Tiger's Claws (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-9.4" id="ability-vigilante_talents-fake-fn-9.4" data-hash-target to="ability-vigilante_talents-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains the ability to grow claws similar to a <Link to="/class/shifter">shifter's</Link>. These claws are <Link to="/umr/natural_weapons">natural weapons</Link> that can be extended at will and deal 1d4 points of piercing and slashing damage (1d3 if the vigilante is Small).</Pair>
 <Pair title="At 11th Level">The damage increases to 1d6 (1d4 if Small).</Pair>
 </Ability>
-<Ability id="vigtalentturnabout-turnabout-ex-fn14-3" icon={["mailed-fist"]}>
+<Ability id="vigtalentturnabout-turnabout-ex-fn14-3" icon={["melee"]}>
 <Pair single id="vigtalentturnabout-turnabout-ex-fn14-3" flavor="A vigilante with this talent can capitalize on any opportunities in combat."><Link to="/vigtalent/turnabout">⮞</Link> Turnabout (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-14.3" id="ability-vigilante_talents-fake-fn-14.3" data-hash-target to="ability-vigilante_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">Whenever a foe provokes an attack of opportunity from the vigilante by attacking or casting a spell, the vigilante can attempt a <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver check in place of the attack of opportunity. If he succeeds at the check, in addition to the usual options, the vigilante can redirect the attack or spell to a new target or area the foe could have chosen.</Pair>
 </Ability>
-<Ability id="vigtalentunexpectedstrike-unexpected-strike-ex-fn3-14" icon={["stairs-goal"]}>
+<Ability id="vigtalentunexpectedstrike-unexpected-strike-ex-fn3-14" icon={["power"]}>
 <Pair single id="vigtalentunexpectedstrike-unexpected-strike-ex-fn3-14"><Link to="/vigtalent/unexpected_strike">⮞</Link> Unexpected Strike (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-3.14" id="ability-vigilante_talents-fake-fn-3.14" data-hash-target to="ability-vigilante_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains <Link to="/feat/quick_draw">Quick Draw</Link> as a bonus feat.</Pair>
 <Pair title="At 8th Level">He can draw hidden weapons as a <strong className="hl">swift action</strong> (instead of a move action).</Pair>
 </Ability>
-<Ability id="vigtalentvigilantesreflexes-vigilantes-reflexes-ex-fn16" icon={["stairs-goal"]}>
+<Ability id="vigtalentvigilantesreflexes-vigilantes-reflexes-ex-fn16" icon={["power"]}>
 <Pair single id="vigtalentvigilantesreflexes-vigilantes-reflexes-ex-fn16"><Link to="/vigtalent/vigilantes_reflexes">⮞</Link> Vigilante's Reflexes (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-16" id="ability-vigilante_talents-fake-fn-16" data-hash-target to="ability-vigilante_talents-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains <Link to="/feat/combat_reflexes">Combat Reflexes</Link> as a bonus feat. If he already has the Combat Reflexes feat, he instead gains another feat he qualified for at the level when he chose Combat Reflexes.</Pair>
 <Pair title="At 8th Level">The number of additional attacks of opportunity per round the vigilante can make increases by 1, regardless of the vigilante's Dexterity bonus.</Pair>
 <Pair title="At 16th Level">It increases by 1 again.</Pair>
 </Ability>
-<Ability id="vigtalentvitalpunishment-vital-punishment-ex-fn8-2" icon={["stairs-goal","mailed-fist"]}>
+<Ability id="vigtalentvitalpunishment-vital-punishment-ex-fn8-2" icon={["power","melee"]}>
 <Pair single id="vigtalentvitalpunishment-vital-punishment-ex-fn8-2"><Link to="/vigtalent/vital_punishment">⮞</Link> Vital Punishment (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-8.2" id="ability-vigilante_talents-fake-fn-8.2" data-hash-target to="ability-vigilante_talents-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level vigilante</Pair>
 <Pair title="Ability">Once per round, before he makes an attack of opportunity, he can declare it to be a <em>vital punishment.</em> If the attack hits, the vigilante can apply the Vital Strike feat. The vigilante can apply the <Link to="/feat/improved_vital_strike">Improved Vital Strike</Link> or <Link to="/feat/greater_vital_strike">Greater Vital Strike</Link> feat as his <em>vital punishment</em> instead if he later gains those feats.</Pair>
 </Ability>
-<Ability id="vigtalentvolatilearrows-volatile-arrows-ex-fn4-5" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="vigtalentvolatilearrows-volatile-arrows-ex-fn4-5" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="vigtalentvolatilearrows-volatile-arrows-ex-fn4-5"><Link to="/vigtalent/volatile_arrows">⮞</Link> Volatile Arrows (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-4.5" id="ability-vigilante_talents-fake-fn-4.5" data-hash-target to="ability-vigilante_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Usage">3 + Intelligence modifier times/day</Pair>
 <Pair title="Ability">A vigilante with this talent gains the ability to attach an <Link to="/class/alchemist">alchemist</Link> bomb to a ranged attack he makes with a bow or crossbow as part of firing the attack. If the attack hits, it deals an additional amount of damage equal to that of an alchemist bomb, using the vigilante's level as his alchemist level to determine the bomb's damage.</Pair>
 <Pair title="Special">The vigilante can takes this talent multiple times. Each time he does, he can use the ability one additional time per day and he gains one <Link to="/ability/discovery">alchemist discovery</Link> that can modify bombs, treating his vigilante level as his alchemist level for any prerequisites. He can apply these discoveries to his bombs as normal.</Pair>
 </Ability>
-<Ability id="bomb-su" extraClasses="subAbility" icon={["smoking-finger"]}>
+<Ability id="bomb-su" extraClasses="subAbility" icon={["zap"]}>
 <Pair single id="bomb-su" flavor="Relevant text from the alchemist class ability.">Bomb (Su)</Pair>
 <Pair title="Standard Action">On a direct hit, your bomb inflicts 1d6 points of fire damage + additional damage equal to your Intelligence modifier (this bonus damage is not multiplied on a critical hit or by using feats such as <Link to="/feat/vital_strike">Vital Strike</Link>).</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>Yes</Pair>
@@ -3506,11 +3506,11 @@ const _vigilante_talents = {hasJL:true,title: "Vigilante Talents", topLink: ["Vi
 <Pair title="At 17th Level">The base bomb damage becomes 9d6.</Pair>
 <Pair title="At 19th Level">The base bomb damage becomes 10d6.</Pair>
 </Ability>
-<Ability id="vigtalentvortexsplash-vortex-splash-ex-fn13-2" icon={["mailed-fist"]}>
+<Ability id="vigtalentvortexsplash-vortex-splash-ex-fn13-2" icon={["melee"]}>
 <Pair single id="vigtalentvortexsplash-vortex-splash-ex-fn13-2"><Link to="/vigtalent/vortex_splash">⮞</Link> Vortex Splash (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-13.2" id="ability-vigilante_talents-fake-fn-13.2" data-hash-target to="ability-vigilante_talents-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Full-Round Action">When in rain or waist deep in water, the vigilante can make a whirling splash, allowing him to attempt a single <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver or <Link to="/rule/feint">feint</Link> against each adjacent foe. The vigilante can make a separate choice for each target.</Pair>
 </Ability>
-<Ability id="vigtalentwhipofvengeance-whip-of-vengeance-ex-fn14-4" icon={["stairs-goal"]}>
+<Ability id="vigtalentwhipofvengeance-whip-of-vengeance-ex-fn14-4" icon={["power"]}>
 <Pair single id="vigtalentwhipofvengeance-whip-of-vengeance-ex-fn14-4"><Link to="/vigtalent/whip_of_vengeance">⮞</Link> Whip of Vengeance (Ex) <sup><InnerLink showBacklink="backlink-ability-vigilante_talents-fake-fn-14.4" id="ability-vigilante_talents-fake-fn-14.4" data-hash-target to="ability-vigilante_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">The vigilante gains <Link to="/feat/whip_mastery">Whip Mastery</Link> as a bonus feat. If he already has the Whip Mastery feat, he can immediately swap it for another feat he qualified for at the level when he chose Whip Mastery.</Pair>
 <Pair title="At 6th Level">He also gains the <Link to="/feat/improved_whip_mastery">Improved Whip Mastery</Link> feat.</Pair>
@@ -3538,42 +3538,42 @@ const _vows = {hasJL:true,title: "Monk Vows", topLink: ["Monk","class/monk"], js
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 50</Link><br/>A monk can discipline his body to hold more ki by upholding the strict tenets of a vow. By adhering to his vow's tenets, the monk's ki pool increases by the amount listed in the vow's description. Every vow comes with a penalty or limitation to offset this increase in ki. A monk can take a vow at any level, but it does not add to his ki pool until he gains a ki pool as a class feature. <strong className="hl">A monk who takes a vow never gains the <em>still mind</em> class feature, even if he abandons all his vows.</strong></p>
 <p>If a monk knowingly and willingly breaks his vow, his ki pool is reduced to 0 (as if he had spent all of his ki points) and he cannot replenish his pool or use abilities that require ki or a ki pool until he has redeemed himself. Redemption requires a recommitment to his vow accompanied by an <Link to="/spell/atonement">atonement</Link> spell. After the redemption, the monk's normal ki pool (without the bonus from the vow) returns. If he upholds the previously broken vow for a full month, his ki pool regains the additional points from taking the vow, and he can decide whether to continue with his vow or forgo his vow without penalty. Once a monk forgoes a vow in this fashion, she can never gain a ki point bonus from that vow.</p>
 <p>A monk may have multiple vows. Their effects and increase to his ki pool stack. If a monk violates a vow, he suffers the loss of ki described above; redemption means the monk regains the extra ki from his unbroken vows, but the extra ki from the broken vow does not return until he finishes the month-long commitment (in effect, violating one vow does not have an effect on the other vows once the monk redeems himself).</p>
-<Ability id="celibacy" icon={["broken-shield","upgrade"]}>
+<Ability id="celibacy" icon={["down","boost"]}>
 <Pair single id="celibacy">Celibacy</Pair>
 <Pair title="Info">The monk must abstain from all sexual and intimate physical activity. A monk with this vow takes it to an extreme, refusing to even share a room with another person, or sleeping on the opposite side of a camp from other people in a group. A celibate monk is not allowed to touch others or have others touch him (including touch spells from allies). Striking enemies in battle or being struck by enemies is not prohibited, but the monk shuns all peaceful or pleasurable contact.</Pair>
 <Pair title="Ki Point Increase">A number of points equal to <Link to="/misc/one_fifth">one-fifth</Link> of his monk level (minimum +1).</Pair>
 </Ability>
-<Ability id="chains" icon={["broken-shield","upgrade"]}>
+<Ability id="chains" icon={["down","boost"]}>
 <Pair single id="chains">Chains</Pair>
 <Pair title="Info">Either out of penitence or to bring attention to the suffering of the enslaved, the monk wears shackles on his wrists and legs. This gives the monk a -1 penalty on attack rolls and to AC, and reduces his movement by 10 feet. If temporarily unable to wear his chains, he may carry rocks or some other heavy burden (including medium or heavy armor) to simulate this suffering.</Pair>
 <Pair title="Ki Point Increase">A number of points equal to one-third of his monk level (minimum +1).</Pair>
 </Ability>
-<Ability id="cleanliness" icon={["broken-shield","upgrade"]}>
+<Ability id="cleanliness" icon={["down","boost"]}>
 <Pair single id="cleanliness">Cleanliness</Pair>
 <Pair title="Info">A monk undertaking this vow must wash daily. He must change into fresh clothes daily or shortly after his robes become dirty. His appearance must be kept immaculate, including either neatly braiding or shaving off his hair (and, for male monks, maintaining a clean-shaven face). His vow forbids him from willingly touching the filthy, diseased, dead, or undead (though he may attempt to cleanse or heal those suffering from disease), though using manufactured weapons to attack these creatures is allowed.</Pair>
 <Pair title="Ki Point Increase">A number of points equal to one-fifth of his monk level (minimum +1).</Pair>
 </Ability>
-<Ability id="fasting" icon={["broken-shield","upgrade"]}>
+<Ability id="fasting" icon={["down","boost"]}>
 <Pair single id="fasting">Fasting</Pair>
 <Pair title="Info">The monk eats nothing but rice (or a similar bland, staple food) and drinks nothing but water. On certain days (usually once per month or on a religious holiday), he may eat a small portion of other simple, bland food to maintain proper nutrition. The monk cannot use tobacco, drugs, potions, alchemical items requiring eating or drinking, or any other thing that could be considered a food or beverage.</Pair>
 <Pair title="Ki Point Increase">A number of points equal to one-sixth of his monk level (minimum +1).</Pair>
 </Ability>
-<Ability id="peace" icon={["broken-shield","upgrade"]}>
+<Ability id="peace" icon={["down","boost"]}>
 <Pair single id="peace">Peace</Pair>
 <Pair title="Info">The monk must strive to attain peace and may only use violence as a last resort. He can never strike the first blow in combat. If attacked, he must use the <Link to="/misc/fight_defensively">fight defensively</Link> action or the <Link to="/misc/total_defense">total defense</Link> action for the first 2 rounds. He must always give his opponent the option to surrender, and cannot purposely slay another creature that could reasonably be influenced to flee or join a civilized society as a productive member (obviously this excludes many monsters). Many monks who have taken this vow learn how to grapple and pin opponents, tying them with specialized knots that allow them to work themselves free after sufficient effort. Many monks of peace are vegetarians.</Pair>
 <Pair title="Ki Point Increase">A number of points equal to one-fifth of his monk level (minimum +1).</Pair>
 </Ability>
-<Ability id="poverty" icon={["broken-shield","upgrade"]}>
+<Ability id="poverty" icon={["down","boost"]}>
 <Pair single id="poverty">Poverty</Pair>
 <Pair title="Info">The monk taking a vow of poverty must never own more than six possessions - a simple set of clothing, a pair of sandals or shoes, a bowl, a sack, a blanket, and any one other item. Five of these items must be of plain and simple make, though one can be of some value (often an heirloom of great personal significance to the monk). The monk can never keep more money or wealth on his person than he needs to feed, bathe, and shelter himself for 1 week in modest accommodations. He cannot borrow or carry wealth or items worth more than 50 gp that belong to others. He is allowed to accept and use curative potions (or similar magical items where the item is consumed and is valueless thereafter) from other creatures.</Pair>
 <Pair title="Ki Point Increase">A number of points equal to half of his monk level (minimum +1).</Pair>
 </Ability>
-<Ability id="silence" icon={["broken-shield","upgrade"]}>
+<Ability id="silence" icon={["down","boost"]}>
 <Pair single id="silence">Silence</Pair>
 <Pair title="Info">The monk must speak no words and attempt to be quiet in his actions. Accidental noises and the sounds of battle (such as the sound of a fist or weapon striking an opponent) do not affect his vow, though most monks with this vow choose their weapons and opponents so as to minimize even these sounds. The monk is allowed to make a non-vocal noise to warn another of danger (such as by stomping or clapping). The monk is allowed to use gestures and motions to communicate with others (including sign language) and is allowed to write.</Pair>
 <Pair title="Ki Point Increase">A number of points equal to one-sixth of his monk level (minimum +1).</Pair>
 </Ability>
-<Ability id="truth" icon={["broken-shield","upgrade"]}>
+<Ability id="truth" icon={["down","boost"]}>
 <Pair single id="truth">Truth</Pair>
 <Pair title="Info">The monk is not allowed to deliberately speak any lies, including bluffing, stating half-truths with the intent to deceive, exaggerating, telling white lies, and so on. This applies to all forms of communication. If presented with circumstances where telling the truth would bring harm to another, the monk remains silent. Many monks of this vow also take a vow of silence to show their commitment.</Pair>
 <Pair title="Ki Point Increase">A number of points equal to one-fifth of his monk level (minimum +1).</Pair>
@@ -3998,31 +3998,31 @@ const _ward_aspects = {title: "Ward Aspects", topLink: ["Hunter","class/hunter"]
 <p>If a character with the animal focus class feature spends 30 minutes meditating while within 10 feet per class level of the ward, she attunes herself to that ward. A character attuned to a ward can use the associated ward aspect while within 1 mile per class level. A character can be attuned to only one ward at a time, but depending on her surroundings, she could choose from among multiple wards. A character with the second animal focus class feature can still only use one ward aspect at a time, no matter how many aspects she has available to her.</p>
 <p>The following ward aspects are available to characters who meet the conditions described above.</p>
 <blockquote className="hanging">
-<Ability id="road" icon={["upgrade"]}>
+<Ability id="road" icon={["boost"]}>
 <Pair single id="road">Road</Pair>
 <Pair title="Passive Ability">The creature gains a +10 foot enhancement bonus to its base speed while <Link to="/rule/run">running</Link>, <Link to="/rule/charging">charging</Link>, or <Link to="/rule/withdraw">withdrawing</Link>.</Pair>
 <Pair title="At 8th Level">This bonus becomes +20 feet.</Pair>
 <Pair title="At 15th Level">This bonus increases to +30 feet.</Pair>
 </Ability>
-<Ability id="shrine" icon={["upgrade"]}>
+<Ability id="shrine" icon={["boost"]}>
 <Pair single id="shrine">Shrine</Pair>
 <Pair title="Passive Ability">The creature gains a +2 enhancement bonus to Wisdom.</Pair>
 <Pair title="At 8th Level">This bonus becomes +4.</Pair>
 <Pair title="At 15th Level">This bonus increases to +6.</Pair>
 </Ability>
-<Ability id="tree" icon={["armor-upgrade"]}>
+<Ability id="tree" icon={["def"]}>
 <Pair single id="tree">Tree</Pair>
 <Pair title="Passive Ability">The creature gains a +4 competence bonus on saving throws against death effects and effects that deal negative energy damage.</Pair>
 <Pair title="At 8th Level">This bonus becomes +6.</Pair>
 <Pair title="At 15th Level">This bonus increases to +8.</Pair>
 </Ability>
-<Ability id="waymarker" icon={["upgrade"]}>
+<Ability id="waymarker" icon={["boost"]}>
 <Pair single id="waymarker">Waymarker</Pair>
 <Pair title="Passive Ability">The creature gains a +4 competence bonus on attack rolls with <Link to="/misc/improvised_weapons">improvised weapons</Link>.</Pair>
 <Pair title="At 8th Level">This bonus becomes +6.</Pair>
 <Pair title="At 15th Level">This bonus increases to +8.</Pair>
 </Ability>
-<Ability id="well" icon={["armor-upgrade"]}>
+<Ability id="well" icon={["def"]}>
 <Pair single id="well">Well</Pair>
 <Pair title="Passive Ability">The creature gains a +2 shield bonus to AC.</Pair>
 <Pair title="At 8th Level">This bonus becomes +4.</Pair>

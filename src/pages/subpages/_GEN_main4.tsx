@@ -9,13 +9,13 @@ import InnerLink from '../../components/InnerLink';
 const _traits_campaign = {title: "Campaign Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><MainLink to="/main/traits_campaign_generic" endem="(3 traits)" info="Generic Campaign" /><MainLink to="/main/traits_campaign_carrion_crown" endem="(6 traits)" info="Carrion Crown" /><MainLink to="/main/traits_campaign_council_of_thieves" endem="(7 traits)" info="Council of Thieves" /><MainLink to="/main/traits_campaign_curse_of_the_crimson_throne" endem="(8 traits)" info="Curse of the Crimson Throne" /><MainLink to="/main/traits_campaign_giantslayer" endem="(10 traits)" info="Giantslayer" /><MainLink to="/main/traits_campaign_hells_rebels" endem="(10 traits)" info="Hell's Rebels" /><MainLink to="/main/traits_campaign_hells_vengeance" endem="(12 traits)" info="Hell's Vengeance" /><MainLink to="/main/traits_campaign_iron_gods" endem="(6 traits)" info="Iron Gods" /><MainLink to="/main/traits_campaign_ironfang_invasion" endem="(9 traits)" info="Ironfang Invasion" /><MainLink to="/main/traits_campaign_jade_regent" endem="(11 traits)" info="Jade Regent" /><MainLink to="/main/traits_campaign_kingmaker" endem="(7 traits)" info="Kingmaker" /><MainLink to="/main/traits_campaign_legacy_of_fire" endem="(6 traits)" info="Legacy of Fire" /><MainLink to="/main/traits_campaign_mummys_mask" endem="(10 traits)" info="Mummy's Mask" /><MainLink to="/main/traits_campaign_reign_of_winter" endem="(7 traits)" info="Reign of Winter" /><MainLink to="/main/traits_campaign_return_of_the_runelords" endem="(7 traits)" info="Return of the Runelords" /><MainLink to="/main/traits_campaign_rise_of_the_runelords" endem="(12 traits)" info="Rise of the Runelords" /><MainLink to="/main/traits_campaign_ruins_of_azlant" endem="(12 traits)" info="Ruins of Azlant" /><MainLink to="/main/traits_campaign_second_darkness" endem="(9 traits)" info="Second Darkness" /><MainLink to="/main/traits_campaign_serpents_skull" endem="(10 traits)" info="Serpent's Skull" /><MainLink to="/main/traits_campaign_shattered_star" endem="(7 traits)" info="Shattered Star" /><MainLink to="/main/traits_campaign_skull_and_shackles" endem="(10 traits)" info="Skull and Shackles" /><MainLink to="/main/traits_campaign_strange_aeons" endem="(10 traits)" info="Strange Aeons" /><MainLink to="/main/traits_campaign_tyrants_grasp" endem="(8 traits)" info="Tyrant's Grasp" /><MainLink to="/main/traits_campaign_war_for_the_crown" endem="(7 traits)" info="War for the Crown" /><MainLink to="/main/traits_campaign_wrath_of_the_righteous" endem="(6 traits)" info="Wrath of the Righteous" /></IonList>};
 const _traits_race = {title: "Race Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItem className="mainItem basic"><IonLabel><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link><br/>Race traits are tied to specific races. Your character must be of the specified race to select a race trait.</p>
 </IonLabel></IonItem><IonItemDivider className="mainItem"><IonLabel>Core Races</IonLabel></IonItemDivider><MainLink to="/main/traits_race_generic" endem="(4 traits)" info="Generic Race Traits" /><MainLink to="/main/traits_race_dwarf" endem="(19 traits)" info="Dwarf Traits" /><MainLink to="/main/traits_race_elf" endem="(15 traits)" info="Elf Traits" /><MainLink to="/main/traits_race_gnome" endem="(11 traits)" info="Gnome Traits" /><MainLink to="/main/traits_race_half_elf" endem="(10 traits)" info="Half-elf Traits" /><MainLink to="/main/traits_race_half_orc" endem="(15 traits)" info="Half-orc Traits" /><MainLink to="/main/traits_race_halfling" endem="(14 traits)" info="Halfling Traits" /><MainLink to="/main/traits_race_human" endem="(90 traits)" info="Human Traits" /><IonItemDivider className="mainItem"><IonLabel>Other Races</IonLabel></IonItemDivider><MainLink to="/main/traits_race_aasimar" endem="(24 traits)" info="Aasimar Traits" /><MainLink to="/main/traits_race_android" endem="(4 traits)" info="Android Traits" /><MainLink to="/main/traits_race_catfolk" endem="(3 traits)" info="Catfolk Traits" /><MainLink to="/main/traits_race_changeling" endem="(6 traits)" info="Changeling Traits" /><MainLink to="/main/traits_race_dhampir" endem="(12 traits)" info="Dhampir Traits" /><MainLink to="/main/traits_race_drow" endem="(4 traits)" info="Drow Traits" /><MainLink to="/main/traits_race_fetchling" endem="(4 traits)" info="Fetchling Traits" /><MainLink to="/main/traits_race_geniekin" endem="(27 traits)" info="Geniekin Traits" /><MainLink to="/main/traits_race_goblin" endem="(13 traits)" info="Goblin Traits" /><MainLink to="/main/traits_race_kasatha" endem="(3 traits)" info="Kasatha Traits" /><MainLink to="/main/traits_race_kitsune" endem="(3 traits)" info="Kitsune Traits" /><MainLink to="/main/traits_race_kobold" endem="(24 traits)" info="Kobold Traits" /><MainLink to="/main/traits_race_lashunta" endem="(3 traits)" info="Lashunta Traits" /><MainLink to="/main/traits_race_orc" endem="(14 traits)" info="Orc Traits" /><MainLink to="/main/traits_race_ratfolk" endem="(4 traits)" info="Ratfolk Traits" /><MainLink to="/main/traits_race_skinwalker" endem="(20 traits)" info="Skinwalker Traits" /><MainLink to="/main/traits_race_tiefling" endem="(43 traits)" info="Tiefling Traits" /><MainLink to="/main/traits_race_triaxian" endem="(3 traits)" info="Triaxian Traits" /><MainLink to="/main/traits_race_vampire" endem="(8 traits)" info="Vampire Traits" /><MainLink to="/main/traits_race_other_races" endem="(22 traits)" info="Other Race Traits" /></IonList>};
-const _traits_drawback_all = {title: "Drawback Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitanxious-anxious-fn1" extraClasses="trait" icon={["broken-shield"]}>
+const _traits_drawback_all = {title: "Drawback Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitanxious-anxious-fn1" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitanxious-anxious-fn1"><Link to="/trait/anxious">⮞</Link> Anxious <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1" id="main-traits_drawback_all-fake-fn-1" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitanxious-anxious-fn1-flavor">After suffering terribly for not being tightlipped enough as a child, such as when you accidentally exposed your family to enemy inquisitors, you developed a habit of being overly cautious with your words.</Pair>
 <Pair single="benefit" id="traitanxious-anxious-fn1-benefit">You take a -2 penalty on <Link to="/skill/diplomacy">Diplomacy</Link> checks and must speak slowly due to the concentration required. Unless stated otherwise, you are assumed to not be speaking at a volume above a whisper.</Pair>
 </Ability>
-<Ability id="traitarcanemalignancies-arcane-malignancies-fn2" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitarcanemalignancies-arcane-malignancies-fn2" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitarcanemalignancies-arcane-malignancies-fn2"><Link to="/trait/arcane_malignancies">⮞</Link> Arcane Malignancies <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-2" id="main-traits_drawback_all-fake-fn-2" data-hash-target to="main-traits_drawback_all-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair title="Requirements" hl><Link to="/race/changeling">Changeling</Link></Pair>
@@ -179,43 +179,43 @@ const _traits_drawback_all = {title: "Drawback Traits", jsx: <IonList lines="ful
 </tbody></table></ScrollContainer>
 </Pair>
 </Ability>
-<Ability id="traitattached-attached-fn3" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitattached-attached-fn3" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitattached-attached-fn3"><Link to="/trait/attached">⮞</Link> Attached <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-3" id="main-traits_drawback_all-fake-fn-3" data-hash-target to="main-traits_drawback_all-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitattached-attached-fn3-flavor">You have a strong emotional attachment to a person or object that you're terrified of losing.</Pair>
 <Pair single="benefit" id="traitattached-attached-fn3-benefit">The GM chooses the object of your attachment. Whenever the object of your attachment is either threatened, in danger, or in someone else's possession, you take a -1 penalty on Will saves and a -2 penalty on saves against fear effects. If the person or object to which you're attached is ever lost, killed, or destroyed, exchange this drawback for the <Link to="/trait/doubt">Doubt</Link> drawback.</Pair>
 </Ability>
-<Ability id="traitavarice-avarice-fn3-2" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitavarice-avarice-fn3-2" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitavarice-avarice-fn3-2"><Link to="/trait/avarice">⮞</Link> Avarice <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-3.2" id="main-traits_drawback_all-fake-fn-3.2" data-hash-target to="main-traits_drawback_all-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitavarice-avarice-fn3-2-flavor">Deep, compulsive greed gnaws at you. Whenever monetary treasure is divided, you must end up with a greater share of that treasure than your companions or you're wracked with feelings of jealousy and ill will.</Pair>
 <Pair single="benefit" id="traitavarice-avarice-fn3-2-benefit">When treasure is divided, if you do not end up with at least 10% more treasure than any other individual companion does, you have a hard time being helpful to your allies. You become irritable, and can't take the <Link to="/rule/aid_another">aid another</Link> action for the next week.</Pair>
 </Ability>
-<Ability id="traitbetrayeddrawback-betrayed-drawback-fn4" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitbetrayeddrawback-betrayed-drawback-fn4" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitbetrayeddrawback-betrayed-drawback-fn4"><Link to="/trait/betrayed_drawback">⮞</Link> Betrayed (Drawback) <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-4" id="main-traits_drawback_all-fake-fn-4" data-hash-target to="main-traits_drawback_all-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitbetrayeddrawback-betrayed-drawback-fn4-flavor">You were reported to a dangerous authority such as the Gray Gardeners of Galt, the high inquisitors of Cheliax, or the Council of Mwanyisa of Mzali, and narrowly escaped death. You second-guess your instincts constantly, leaving you never sure whether or not to trust someone and endangered if you encounter that group's agents again.</Pair>
 <Pair single="benefit" id="traitbetrayeddrawback-betrayed-drawback-fn4-benefit">You can roll twice and take the lower result on <Link to="/skill/sense_motive">Sense Motive</Link> checks to get hunches. You cannot reroll this result, even if you have another ability that would normally allow you to do so.</Pair>
 </Ability>
-<Ability id="traitbitter-bitter-fn5" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitbitter-bitter-fn5" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitbitter-bitter-fn5"><Link to="/trait/bitter">⮞</Link> Bitter <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-5" id="main-traits_drawback_all-fake-fn-5" data-hash-target to="main-traits_drawback_all-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitbitter-bitter-fn5-flavor">You have been hurt repeatedly by those you trusted, and it has become difficult for you to accept help.</Pair>
 <Pair single="benefit" id="traitbitter-bitter-fn5-benefit">When you receive healing from an ally's class feature, spell, or spell-like ability, reduce the amount of that healing by 1 hit point.</Pair>
 </Ability>
-<Ability id="traitburned-burned-fn1-2" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitburned-burned-fn1-2" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitburned-burned-fn1-2"><Link to="/trait/burned">⮞</Link> Burned <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.2" id="main-traits_drawback_all-fake-fn-1.2" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitburned-burned-fn1-2-flavor">You were badly burned once by volcanic ash, torch-wielding mobs, or some fiery accident, and the scars pain you terribly you whenever you are too near to fire.</Pair>
 <Pair single="benefit" id="traitburned-burned-fn1-2-benefit">You take a -1 penalty on saving throws against fire effects. In addition, whenever you are adjacent to open flames or are on fire, you take a -1 penalty on all attack rolls, saving throws, and skill checks until you spend an entire round away from fire. These penalties are not cumulative. (An instantaneous fire effect adjacent to you or affecting you causes this penalty to apply until 1 round after it is gone.)</Pair>
 </Ability>
-<Ability id="traitcondescending-condescending-fn1-3" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitcondescending-condescending-fn1-3" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitcondescending-condescending-fn1-3"><Link to="/trait/condescending">⮞</Link> Condescending <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.3" id="main-traits_drawback_all-fake-fn-1.3" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitcondescending-condescending-fn1-3-flavor">Raised with the assurance that only those like you are truly worthy of respect, you have an offputting way of demonstrating that you look down on those not of your race and ethnicity or nationality.</Pair>
 <Pair single="benefit" id="traitcondescending-condescending-fn1-3-benefit">You take a -5 penalty on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks to improve other creatures' attitudes toward you.</Pair>
 </Ability>
-<Ability id="traitcowardly-cowardly-fn5-2" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitcowardly-cowardly-fn5-2" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitcowardly-cowardly-fn5-2"><Link to="/trait/cowardly">⮞</Link> Cowardly <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-5.2" id="main-traits_drawback_all-fake-fn-5.2" data-hash-target to="main-traits_drawback_all-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitcowardly-cowardly-fn5-2-flavor">You might face dangerous situations with bravado, but you are constantly afraid.</Pair>
@@ -223,43 +223,43 @@ const _traits_drawback_all = {title: "Drawback Traits", jsx: <IonList lines="ful
 <p>If you would normally be immune to fear, you do not take these penalties but instead lose your immunity to fear (regardless of its source).</p>
 </Pair>
 </Ability>
-<Ability id="traitcruelty-cruelty-fn1-4" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitcruelty-cruelty-fn1-4" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitcruelty-cruelty-fn1-4"><Link to="/trait/cruelty">⮞</Link> Cruelty <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.4" id="main-traits_drawback_all-fake-fn-1.4" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitcruelty-cruelty-fn1-4-flavor">You were rewarded as a child for flaunting your victory over others as completely as possible, and you discovered you enjoyed the feeling of rubbing your foes' faces in the dirt.</Pair>
 <Pair single="benefit" id="traitcruelty-cruelty-fn1-4-benefit">Whenever you are engaged in combat and there are <Link to="/misc/dying">dying</Link> or <Link to="/misc/helpless">helpless</Link> foes within 30 feet, you take a -2 penalty on attack rolls against foes who are neither dying nor helpless.</Pair>
 </Ability>
-<Ability id="traitdependent-dependent-fn3-3" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitdependent-dependent-fn3-3" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitdependent-dependent-fn3-3"><Link to="/trait/dependent">⮞</Link> Dependent <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-3.3" id="main-traits_drawback_all-fake-fn-3.3" data-hash-target to="main-traits_drawback_all-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitdependent-dependent-fn3-3-flavor">You are dependent upon the acceptance of others.</Pair>
 <Pair single="benefit" id="traitdependent-dependent-fn3-3-benefit">Whenever you fail a <Link to="/skill/diplomacy">Diplomacy</Link> check, you become <Link to="/misc/shaken">shaken</Link> for 1 hour.</Pair>
 </Ability>
-<Ability id="traitdoubt-doubt-fn3-4" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitdoubt-doubt-fn3-4" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitdoubt-doubt-fn3-4"><Link to="/trait/doubt">⮞</Link> Doubt <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-3.4" id="main-traits_drawback_all-fake-fn-3.4" data-hash-target to="main-traits_drawback_all-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitdoubt-doubt-fn3-4-flavor">You lack confidence in your abilities or confidence in the universe at large.</Pair>
 <Pair single="benefit" id="traitdoubt-doubt-fn3-4-benefit">Whenever you fail a skill or ability check, you take a -4 penalty on that type of skill or ability check for the next hour.</Pair>
 </Ability>
-<Ability id="traitemptymask-empty-mask-fn4-2" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitemptymask-empty-mask-fn4-2" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitemptymask-empty-mask-fn4-2"><Link to="/trait/empty_mask">⮞</Link> Empty Mask <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-4.2" id="main-traits_drawback_all-fake-fn-4.2" data-hash-target to="main-traits_drawback_all-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitemptymask-empty-mask-fn4-2-flavor">You have spent so long hiding your true identity to escape political enemies that you have lost much of your sense of self.</Pair>
 <Pair single="benefit" id="traitemptymask-empty-mask-fn4-2-benefit">You take a -1 penalty on Will saving throws against compulsions. This penalty increases to -2 against foes who know your true identity.</Pair>
 </Ability>
-<Ability id="traitentomophobe-entomophobe-fn5-3" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitentomophobe-entomophobe-fn5-3" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitentomophobe-entomophobe-fn5-3"><Link to="/trait/entomophobe">⮞</Link> Entomophobe <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-5.3" id="main-traits_drawback_all-fake-fn-5.3" data-hash-target to="main-traits_drawback_all-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitentomophobe-entomophobe-fn5-3-flavor">A harrowing experience with insects when you were young instilled in you a deep-seated fear of vermin of all description, especially when they swarm together.</Pair>
 <Pair single="benefit" id="traitentomophobe-entomophobe-fn5-3-benefit">You take a -2 penalty on attacks against vermin, and you take a -2 penalty on saving throws against the <Link to="/misc/nauseated">nauseated</Link> condition of a swarm's <em>distraction</em> ability.</Pair>
 </Ability>
-<Ability id="traitenvy-envy-fn1-5" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitenvy-envy-fn1-5" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitenvy-envy-fn1-5"><Link to="/trait/envy">⮞</Link> Envy <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.5" id="main-traits_drawback_all-fake-fn-1.5" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitenvy-envy-fn1-5-flavor">You grew up in or near an opulent, decadent culture that valued nothing more than showing up the material wealth or accomplishments of others, causing the seed of envy to be planted in your heart.</Pair>
 <Pair single="benefit" id="traitenvy-envy-fn1-5-benefit">For each day you spend without stealing at least 10 gp worth of valuables or other wealth, attempt a DC 20 Will save. If you fail, you take a cumulative -1 penalty on Will and Reflex saving throws and <Link to="/rule/concentration">concentration</Link> checks (up to a -5 penalty). If you succeed, the penalty is reset to 0.</Pair>
 </Ability>
-<Ability id="traitfamilytiesdrawback-family-ties-drawback-fn3-5" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitfamilytiesdrawback-family-ties-drawback-fn3-5" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitfamilytiesdrawback-family-ties-drawback-fn3-5"><Link to="/trait/family_ties_drawback">⮞</Link> Family Ties (Drawback) <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-3.5" id="main-traits_drawback_all-fake-fn-3.5" data-hash-target to="main-traits_drawback_all-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitfamilytiesdrawback-family-ties-drawback-fn3-5-flavor">Your family is extremely important to you, and you feel disheartened when you can't do what they ask.</Pair>
@@ -267,297 +267,297 @@ const _traits_drawback_all = {title: "Drawback Traits", jsx: <IonList lines="ful
 <p>You can't take this drawback if you have no family. If you ever lose your family or lose contact with your family, exchange this drawback for the <Link to="/trait/doubt">Doubt</Link> drawback.</p>
 </Pair>
 </Ability>
-<Ability id="traitfeytaken-fey-taken-fn1-6" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitfeytaken-fey-taken-fn1-6" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitfeytaken-fey-taken-fn1-6"><Link to="/trait/fey_taken">⮞</Link> Fey-Taken <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.6" id="main-traits_drawback_all-fake-fn-1.6" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitfeytaken-fey-taken-fn1-6-flavor">As a child, you were whisked away to the First World by mischievous fey for a time. When you returned, you were ever after considered odd and distant. You long to return there, and find the mortal world dull and at times revolting, so you do not eat as you should and do not question strange visions.</Pair>
 <Pair single="benefit" id="traitfeytaken-fey-taken-fn1-6-benefit">You take a -2 penalty on saving throws against disease, illusions, and poison of all kinds, as well as against the spells, spell-like abilities, and supernatural abilities of fey.</Pair>
 </Ability>
-<Ability id="traitforgetful-forgetful-fn1-7" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitforgetful-forgetful-fn1-7" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitforgetful-forgetful-fn1-7"><Link to="/trait/forgetful">⮞</Link> Forgetful <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.7" id="main-traits_drawback_all-fake-fn-1.7" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitforgetful-forgetful-fn1-7-flavor">You are easily distracted and prone to forgetting important things.</Pair>
 <Pair single="benefit" id="traitforgetful-forgetful-fn1-7-benefit">Whenever you leave a location you have been at for longer than 1 hour, you must attempt a DC 10 Wisdom check. If you fail, you leave behind one random mundane item (a purse of money counts as an item).</Pair>
 </Ability>
-<Ability id="traitfoulbrand-foul-brand-fn6" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitfoulbrand-foul-brand-fn6" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitfoulbrand-foul-brand-fn6"><Link to="/trait/foul_brand">⮞</Link> Foul Brand <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-6" id="main-traits_drawback_all-fake-fn-6" data-hash-target to="main-traits_drawback_all-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="benefit" id="traitfoulbrand-foul-brand-fn6-benefit">You have the symbol of an evil deity burned into your flesh. If the symbol is on your hand, you take a -1 penalty on <Link to="/skill/disable_device">Disable Device</Link>, <Link to="/skill/disguise">Disguise</Link>, and <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks. If the symbol is on your face, you take a -2 penalty on <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, and Disguise checks. This does not count as a holy symbol for the purposes of a divine focus for spellcasting.</Pair>
 </Ability>
-<Ability id="traitguiltyfraud-guilty-fraud-fn4-3" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitguiltyfraud-guilty-fraud-fn4-3" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitguiltyfraud-guilty-fraud-fn4-3"><Link to="/trait/guilty_fraud">⮞</Link> Guilty Fraud <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-4.3" id="main-traits_drawback_all-fake-fn-4.3" data-hash-target to="main-traits_drawback_all-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitguiltyfraud-guilty-fraud-fn4-3-flavor">You received something through trickery that you did not deserve, and your guilt for the misdeed distracts you from dangers around you.</Pair>
 <Pair single="benefit" id="traitguiltyfraud-guilty-fraud-fn4-3-benefit">You take a -4 penalty on <Link to="/skill/bluff">Bluff</Link> checks against creatures with an attitude toward you of indifferent or better.</Pair>
 </Ability>
-<Ability id="traithaunted-haunted-fn5-4" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traithaunted-haunted-fn5-4" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traithaunted-haunted-fn5-4"><Link to="/trait/haunted">⮞</Link> Haunted <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-5.4" id="main-traits_drawback_all-fake-fn-5.4" data-hash-target to="main-traits_drawback_all-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traithaunted-haunted-fn5-4-flavor">Something from your past - or a dark secret you presently hold - makes it difficult for you to ever be at peace, and your chronic worry that you might fall to evil influence has become a self-fulfilling prophecy.</Pair>
 <Pair single="benefit" id="traithaunted-haunted-fn5-4-benefit">You take a -2 penalty on saves against spells with the evil descriptor.</Pair>
 </Ability>
-<Ability id="traithauntingregret-haunting-regret-fn1-8" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traithauntingregret-haunting-regret-fn1-8" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traithauntingregret-haunting-regret-fn1-8"><Link to="/trait/haunting_regret">⮞</Link> Haunting Regret <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.8" id="main-traits_drawback_all-fake-fn-1.8" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traithauntingregret-haunting-regret-fn1-8-flavor">When you were young, a relative with whom you had frequently quarreled passed away where his or her soul could not rest. Now, the unquiet spirit appears around you at inconvenient times, distracting you with regret for being unable to help.</Pair>
 <Pair single="benefit" id="traithauntingregret-haunting-regret-fn1-8-benefit">You take a -2 penalty on saving throws against the <em>distraction</em> ability of swarms and mind-affecting effects and on <Link to="/rule/concentration">concentration</Link> checks.</Pair>
 </Ability>
-<Ability id="traitheadstrong-headstrong-fn3-6" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitheadstrong-headstrong-fn3-6" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitheadstrong-headstrong-fn3-6"><Link to="/trait/headstrong">⮞</Link> Headstrong <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-3.6" id="main-traits_drawback_all-fake-fn-3.6" data-hash-target to="main-traits_drawback_all-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitheadstrong-headstrong-fn3-6-flavor">You feel compelled to correct every action and argument that contradicts your worldview.</Pair>
 <Pair single="benefit" id="traitheadstrong-headstrong-fn3-6-benefit">Whenever you witness an action or hear an argument that contradicts your alignment, you must attempt to stop or correct that action or argument. If you either don't try to stop it or fail in your attempt to stop it (as adjudicated by the GM), you are <Link to="/misc/shaken">shaken</Link> for 1 hour.</Pair>
 </Ability>
-<Ability id="traithedonistic-hedonistic-fn3-7" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traithedonistic-hedonistic-fn3-7" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traithedonistic-hedonistic-fn3-7"><Link to="/trait/hedonistic">⮞</Link> Hedonistic <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-3.7" id="main-traits_drawback_all-fake-fn-3.7" data-hash-target to="main-traits_drawback_all-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traithedonistic-hedonistic-fn3-7-flavor">You are a creature of pleasure and comfort.</Pair>
 <Pair single="benefit" id="traithedonistic-hedonistic-fn3-7-benefit">Whenever you spend a day without gaining reward or treasure (at least 10 or more gold pieces) or spending an hour on entertainment or pleasure, attempt a DC 20 Fortitude save at the end of that day. If you fail, you begin the next day <Link to="/misc/fatigued">fatigued</Link>. This fatigue lasts 4 hours, or until you receive a reward or sufficient entertainment or pleasure.</Pair>
 </Ability>
-<Ability id="traithelpless-helpless-fn5-5" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traithelpless-helpless-fn5-5" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traithelpless-helpless-fn5-5"><Link to="/trait/helpless">⮞</Link> Helpless <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-5.5" id="main-traits_drawback_all-fake-fn-5.5" data-hash-target to="main-traits_drawback_all-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traithelpless-helpless-fn5-5-flavor">You once stood helpless as great harm befell a loved one, and that paralysis sometimes returns when an ally is in a dire position.</Pair>
 <Pair single="benefit" id="traithelpless-helpless-fn5-5-benefit">The first time per combat encounter that an ally within 30 feet falls unconscious or dies as the result of an attack, you are <Link to="/misc/dazed">dazed</Link> until the end of your next turn.</Pair>
 </Ability>
-<Ability id="traitimpatient-impatient-fn5-6" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitimpatient-impatient-fn5-6" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitimpatient-impatient-fn5-6"><Link to="/trait/impatient">⮞</Link> Impatient <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-5.6" id="main-traits_drawback_all-fake-fn-5.6" data-hash-target to="main-traits_drawback_all-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitimpatient-impatient-fn5-6-flavor">You love leaping into battle at the earliest opportunity, and it frustrates you to wait for others to act.</Pair>
 <Pair single="benefit" id="traitimpatient-impatient-fn5-6-benefit">You can't <Link to="/rule/delay">delay</Link> or <Link to="/rule/ready">ready</Link> actions, and if you are the last of your allies to act in a round of combat, you take a -1 penalty on ability checks, attack rolls, saving throws, and skill checks.</Pair>
 </Ability>
-<Ability id="traitinfamous-infamous-fn4-4" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitinfamous-infamous-fn4-4" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitinfamous-infamous-fn4-4"><Link to="/trait/infamous">⮞</Link> Infamous <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-4.4" id="main-traits_drawback_all-fake-fn-4.4" data-hash-target to="main-traits_drawback_all-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitinfamous-infamous-fn4-4-flavor">You were publicly linked, truthfully or not, to a crime of significant infamy. You draw attention wherever you go and risk imprisonment or worse in the jurisdiction where the crime was committed.</Pair>
 <Pair single="benefit" id="traitinfamous-infamous-fn4-4-benefit">You and your apparent allies take a -4 penalty on <Link to="/skill/diplomacy">Diplomacy</Link> checks to interact with law-abiding citizens (except enemies of the authority that accused you).</Pair>
 </Ability>
-<Ability id="traitinformationoverload-information-overload-fn4-5" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitinformationoverload-information-overload-fn4-5" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitinformationoverload-information-overload-fn4-5"><Link to="/trait/information_overload">⮞</Link> Information Overload <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-4.5" id="main-traits_drawback_all-fake-fn-4.5" data-hash-target to="main-traits_drawback_all-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitinformationoverload-information-overload-fn4-5-flavor">You have had access to thousands of spy reports, many of which turned out to be based on faulty deductions or even intentionally false stories spread by opposed spy groups. At this point, you have been exposed to false knowledge as much as accurate information, and you can't always remember which is which.</Pair>
 <Pair single="benefit" id="traitinformationoverload-information-overload-fn4-5-benefit">You take a -2 penalty on all <Link to="/skill/knowledge">Knowledge</Link> checks, and if you fail a Knowledge check by 5 or more, you can recall information that is diametrically opposed to the truth.</Pair>
 </Ability>
-<Ability id="traitinsatiable-insatiable-fn5-7" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitinsatiable-insatiable-fn5-7" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitinsatiable-insatiable-fn5-7"><Link to="/trait/insatiable">⮞</Link> Insatiable <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-5.7" id="main-traits_drawback_all-fake-fn-5.7" data-hash-target to="main-traits_drawback_all-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitinsatiable-insatiable-fn5-7-flavor">You have become so accustomed to binging on the finer things in life that you find going without such excess particularly strenuous.</Pair>
 <Pair single="benefit" id="traitinsatiable-insatiable-fn5-7-benefit">Goods and services cost you 10% more (and can't be paid for by allies), and you need twice as much food and liquid as normal for the purposes of preventing <Link to="/rule/starvation_and_thirst">starvation and thirst</Link>.</Pair>
 </Ability>
-<Ability id="traitlonely-lonely-fn4-6" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitlonely-lonely-fn4-6" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitlonely-lonely-fn4-6"><Link to="/trait/lonely">⮞</Link> Lonely <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-4.6" id="main-traits_drawback_all-fake-fn-4.6" data-hash-target to="main-traits_drawback_all-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitlonely-lonely-fn4-6-flavor">You are far too easily convinced of the friendly intentions of others.</Pair>
 <Pair single="benefit" id="traitlonely-lonely-fn4-6-benefit">You take a -2 penalty on <Link to="/skill/sense_motive">Sense Motive</Link> checks and on <Link to="/skill/perception">Perception</Link> checks to see through disguises, and on saving throws against charm spells and spell-like abilities.</Pair>
 </Ability>
-<Ability id="traitloner-loner-fn1-9" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitloner-loner-fn1-9" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitloner-loner-fn1-9"><Link to="/trait/loner">⮞</Link> Loner <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.9" id="main-traits_drawback_all-fake-fn-1.9" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitloner-loner-fn1-9-flavor">Raised by pirates, bandits, or other troublemakers unwilling to stick out their necks for you, you are accustomed to operating on your own. The presence of allies can easily become a distraction to you, and you do your best to keep them out of your space.</Pair>
 <Pair single="benefit" id="traitloner-loner-fn1-9-benefit">You take a -1 penalty to AC and on attack rolls while adjacent to allies or when taking the <Link to="/rule/aid_another_2">aid another</Link> action.</Pair>
 </Ability>
-<Ability id="traitlovesick-lovesick-fn3-8" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitlovesick-lovesick-fn3-8" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitlovesick-lovesick-fn3-8"><Link to="/trait/lovesick">⮞</Link> Lovesick <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-3.8" id="main-traits_drawback_all-fake-fn-3.8" data-hash-target to="main-traits_drawback_all-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitlovesick-lovesick-fn3-8-flavor">Your love for another occupies your every thought, and you become despondent when you are away from that person.</Pair>
 <Pair single="benefit" id="traitlovesick-lovesick-fn3-8-benefit">The person is chosen by your GM (with consideration to your roll on the Romantic Relationships table if you used the <Link to="/rule/background_generator">background generator</Link>). At the start of each day, if you are away from this person you take a -2 penalty on initiative checks and <Link to="/skill/perception">Perception</Link> checks. If you ever lose or fall out of love with this person, exchange this drawback for the <Link to="/trait/doubt">Doubt</Link> drawback.</Pair>
 </Ability>
-<Ability id="traitmagicalklutz-magical-klutz-fn4-7" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitmagicalklutz-magical-klutz-fn4-7" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitmagicalklutz-magical-klutz-fn4-7"><Link to="/trait/magical_klutz">⮞</Link> Magical Klutz <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-4.7" id="main-traits_drawback_all-fake-fn-4.7" data-hash-target to="main-traits_drawback_all-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitmagicalklutz-magical-klutz-fn4-7-flavor">You were born in a place with a plethora of strangely interacting magic, such as Geb, the Mana Wastes, or Nex, and magic is dangerously eager to surge into action around you.</Pair>
 <Pair single="benefit" id="traitmagicalklutz-magical-klutz-fn4-7-benefit">You roll twice and take the lower result on <Link to="/skill/use_magic_device">Use Magic Device</Link> checks to activate items blindly and on Reflex saving throws against effects produced by magic items.</Pair>
 </Ability>
-<Ability id="traitmarkofslavery-mark-of-slavery-fn1-10" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitmarkofslavery-mark-of-slavery-fn1-10" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitmarkofslavery-mark-of-slavery-fn1-10"><Link to="/trait/mark_of_slavery">⮞</Link> Mark of Slavery <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.10" id="main-traits_drawback_all-fake-fn-1.10" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitmarkofslavery-mark-of-slavery-fn1-10-flavor">You were enslaved for part or all of your youth, and marked as such with a brand or tattoo that still reminds you of how you were punished whenever you failed to do what you should.</Pair>
 <Pair single="benefit" id="traitmarkofslavery-mark-of-slavery-fn1-10-benefit">Whenever you fail a skill check, you take a -2 penalty on any skill check or attack roll you attempt before the end of your next turn unless it is a part of retrying the failed skill check.</Pair>
 </Ability>
-<Ability id="traitmeticulous-meticulous-fn3-9" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitmeticulous-meticulous-fn3-9" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitmeticulous-meticulous-fn3-9"><Link to="/trait/meticulous">⮞</Link> Meticulous <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-3.9" id="main-traits_drawback_all-fake-fn-3.9" data-hash-target to="main-traits_drawback_all-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitmeticulous-meticulous-fn3-9-flavor">You plan and prepare everything in detail, and aren't good at improvising when things don't go as planned.</Pair>
 <Pair single="benefit" id="traitmeticulous-meticulous-fn3-9-benefit">You take a -2 penalty on skill checks for skills with which you're untrained.</Pair>
 </Ability>
-<Ability id="traitmisbegotten-misbegotten-fn1-11" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitmisbegotten-misbegotten-fn1-11" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitmisbegotten-misbegotten-fn1-11"><Link to="/trait/misbegotten">⮞</Link> Misbegotten <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.11" id="main-traits_drawback_all-fake-fn-1.11" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitmisbegotten-misbegotten-fn1-11-flavor">Whether due to the influence of malign magic, disease, or the scorn of the gods, you were born with a troublesome deformity that interferes with your movement.</Pair>
 <Pair single="benefit" id="traitmisbegotten-misbegotten-fn1-11-benefit">You take a -2 penalty on all Dexterity-based skill checks.</Pair>
 </Ability>
-<Ability id="traitnaive-naive-fn1-12" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitnaive-naive-fn1-12" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitnaive-naive-fn1-12"><Link to="/trait/naive">⮞</Link> Naive <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.12" id="main-traits_drawback_all-fake-fn-1.12" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitnaive-naive-fn1-12-flavor">Your perception that everyone is innately good does not bode well in the heat of battle, when less scrupulous foes might take advantage of your misguided optimism.</Pair>
 <Pair single="benefit" id="traitnaive-naive-fn1-12-benefit">You take a -2 penalty to AC against attacks with <Link to="/misc/improvised_weapons">improvised weapons</Link> and a -2 penalty to CMD against <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuvers.</Pair>
 </Ability>
-<Ability id="traitnervous-nervous-fn1-13" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitnervous-nervous-fn1-13" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitnervous-nervous-fn1-13"><Link to="/trait/nervous">⮞</Link> Nervous <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.13" id="main-traits_drawback_all-fake-fn-1.13" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitnervous-nervous-fn1-13-flavor">Living under constant threat of death or worse from your oppressive government, your nerves have frayed terribly.</Pair>
 <Pair single="benefit" id="traitnervous-nervous-fn1-13-benefit">Whenever you <Link to="/rule/take_10">take 10</Link> on an ability check or skill check that imparts any penalty for failure (aside from wasted time), you treat your check as if you had rolled an 8 instead of a 10, even if you are able to take your time.</Pair>
 </Ability>
-<Ability id="traitoblivious-oblivious-fn1-14" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitoblivious-oblivious-fn1-14" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitoblivious-oblivious-fn1-14"><Link to="/trait/oblivious">⮞</Link> Oblivious <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.14" id="main-traits_drawback_all-fake-fn-1.14" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitoblivious-oblivious-fn1-14-flavor">Whether because you are an avid daydreamer or you are accustomed to everything being handed to you and spelled out for your benefit, you pay little attention to your surroundings and other people.</Pair>
 <Pair single="benefit" id="traitoblivious-oblivious-fn1-14-benefit">You take a -2 penalty on <Link to="/skill/sense_motive">Sense Motive</Link> and sight-based <Link to="/skill/perception">Perception</Link> checks.</Pair>
 </Ability>
-<Ability id="traitoccultbargain-occult-bargain-fn4-8" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitoccultbargain-occult-bargain-fn4-8" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitoccultbargain-occult-bargain-fn4-8"><Link to="/trait/occult_bargain">⮞</Link> Occult Bargain <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-4.8" id="main-traits_drawback_all-fake-fn-4.8" data-hash-target to="main-traits_drawback_all-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair title="Requirements" hl>Able to cast 0-level and 1st-level spells as a class feature</Pair>
 <Pair single="benefit" id="traitoccultbargain-occult-bargain-fn4-8-benefit">You draw magical power from a source, such as a mysterious eidolon, shame-filled phantom, or First World patron, who insists that its identity remains secret. You take a -1 penalty on <Link to="/rule/concentration">concentration</Link> checks, and you must invoke the entity's name by word or text each day or be unable to regain spell slots that day.</Pair>
 </Ability>
-<Ability id="traitoppressiveexpectations-oppressive-expectations-fn1-15" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitoppressiveexpectations-oppressive-expectations-fn1-15" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitoppressiveexpectations-oppressive-expectations-fn1-15"><Link to="/trait/oppressive_expectations">⮞</Link> Oppressive Expectations <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.15" id="main-traits_drawback_all-fake-fn-1.15" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitoppressiveexpectations-oppressive-expectations-fn1-15-flavor">You were raised with the belief that your family was special, and that those of your status always succeed at whatever they do. Due to your concern about upholding the family name and your memories of the consequences for disappointing them (such as violence or unsettling disapproval), you are easily frustrated.</Pair>
 <Pair single="benefit" id="traitoppressiveexpectations-oppressive-expectations-fn1-15-benefit">When you fail at a skill check, you take a -2 penalty on checks with that skill until you succeed or until you fail at a different skill check, whichever comes first.</Pair>
 </Ability>
-<Ability id="traitoverprotective-overprotective-fn1-16" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitoverprotective-overprotective-fn1-16" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitoverprotective-overprotective-fn1-16"><Link to="/trait/overprotective">⮞</Link> Overprotective <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.16" id="main-traits_drawback_all-fake-fn-1.16" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitoverprotective-overprotective-fn1-16-flavor">In your youth, you saw a younger friend or loved one suffer a grievous injury or die, and you blamed yourself for not having been there to help, even if there was nothing you could have done.</Pair>
 <Pair single="benefit" id="traitoverprotective-overprotective-fn1-16-benefit">If one of your allies should fall unconscious from hit point damage, you take a -2 penalty on attack rolls and skill checks as long as you are farther than 10 feet away from your fallen ally.</Pair>
 </Ability>
-<Ability id="traitparanoid-paranoid-fn3-10" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitparanoid-paranoid-fn3-10" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitparanoid-paranoid-fn3-10"><Link to="/trait/paranoid">⮞</Link> Paranoid <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-3.10" id="main-traits_drawback_all-fake-fn-3.10" data-hash-target to="main-traits_drawback_all-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitparanoid-paranoid-fn3-10-flavor">You believe that someone or something is always out to get you, so you have a hard time truly trusting anyone.</Pair>
 <Pair single="benefit" id="traitparanoid-paranoid-fn3-10-benefit">Anyone who attempts an <Link to="/rule/aid_another_2">aid another</Link> action of any type to assist you must succeed at a DC 15 check instead of the normal DC 10 check.</Pair>
 </Ability>
-<Ability id="traitpowerhungry-power-hungry-fn3-11" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitpowerhungry-power-hungry-fn3-11" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitpowerhungry-power-hungry-fn3-11"><Link to="/trait/power_hungry">⮞</Link> Power-Hungry <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-3.11" id="main-traits_drawback_all-fake-fn-3.11" data-hash-target to="main-traits_drawback_all-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitpowerhungry-power-hungry-fn3-11-flavor">You're addicted to power.</Pair>
 <Pair single="benefit" id="traitpowerhungry-power-hungry-fn3-11-benefit">You take a -2 penalty on Will saving throws against charm and compulsion effects if the creature creating the effect promises wealth or power.</Pair>
 </Ability>
-<Ability id="traitpride-pride-fn3-12" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitpride-pride-fn3-12" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitpride-pride-fn3-12"><Link to="/trait/pride">⮞</Link> Pride <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-3.12" id="main-traits_drawback_all-fake-fn-3.12" data-hash-target to="main-traits_drawback_all-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitpride-pride-fn3-12-flavor">You can't abide challenges to your dignity, authority, or honor.</Pair>
 <Pair single="benefit" id="traitpride-pride-fn3-12-benefit">When someone threatens, accuses, or challenges you, you take a -2 penalty on <Link to="/skill/diplomacy">Diplomacy</Link> checks and <Link to="/skill/sense_motive">Sense Motive</Link> checks involving that creature until the creature apologizes to you.</Pair>
 </Ability>
-<Ability id="traitprovincial-provincial-fn3-13" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitprovincial-provincial-fn3-13" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitprovincial-provincial-fn3-13"><Link to="/trait/provincial">⮞</Link> Provincial <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-3.13" id="main-traits_drawback_all-fake-fn-3.13" data-hash-target to="main-traits_drawback_all-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitprovincial-provincial-fn3-13-flavor">You have only one way of looking at things: the right way.</Pair>
 <Pair single="benefit" id="traitprovincial-provincial-fn3-13-benefit">You take a -2 penalty on <Link to="/skill/diplomacy">Diplomacy</Link> checks and <Link to="/skill/sense_motive">Sense Motive</Link> checks made against all creatures whose religion or alignment differs from your own.</Pair>
 </Ability>
-<Ability id="traitrighteousindignation-righteous-indignation-fn4-9" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitrighteousindignation-righteous-indignation-fn4-9" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitrighteousindignation-righteous-indignation-fn4-9"><Link to="/trait/righteous_indignation">⮞</Link> Righteous Indignation <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-4.9" id="main-traits_drawback_all-fake-fn-4.9" data-hash-target to="main-traits_drawback_all-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitrighteousindignation-righteous-indignation-fn4-9-flavor">You have difficulty controlling your temper after living in inhuman conditions in Cheliax, Geb, Irrisen, Katapesh, or Qadira.</Pair>
 <Pair single="benefit" id="traitrighteousindignation-righteous-indignation-fn4-9-benefit">Whenever a foe provokes an attack of opportunity from you, you must take it unless you succeed at a Will save against a DC equal to 10 + your level. You take a -1 penalty on Will saving throws against spells with the emotion descriptor that do not also have the fear descriptor.</Pair>
 </Ability>
-<Ability id="traitscarred-scarred-fn5-8" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitscarred-scarred-fn5-8" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitscarred-scarred-fn5-8"><Link to="/trait/scarred">⮞</Link> Scarred <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-5.8" id="main-traits_drawback_all-fake-fn-5.8" data-hash-target to="main-traits_drawback_all-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitscarred-scarred-fn5-8-flavor">An injury left you horribly, visibly scarred, making it more difficult for you to hide your true face, and also making most people distrustful of you merely due to your appearance.</Pair>
 <Pair single="benefit" id="traitscarred-scarred-fn5-8-benefit">You take a -5 penalty on <Link to="/skill/disguise">Disguise</Link> checks and a -2 penalty on <Link to="/skill/bluff">Bluff</Link> checks.</Pair>
 </Ability>
-<Ability id="traitsecretshame-secret-shame-fn4-10" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitsecretshame-secret-shame-fn4-10" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitsecretshame-secret-shame-fn4-10"><Link to="/trait/secret_shame">⮞</Link> Secret Shame <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-4.10" id="main-traits_drawback_all-fake-fn-4.10" data-hash-target to="main-traits_drawback_all-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitsecretshame-secret-shame-fn4-10-flavor">You have a terrible fear of the public at large, a group, or an important person (such as your order of knights, your liege lord, your family, or your lover) learning a shameful truth about you.</Pair>
 <Pair single="benefit" id="traitsecretshame-secret-shame-fn4-10-benefit">You take a -1 penalty on saving throws against fear effects, and the DC of any <Link to="/skill/intimidate">Intimidate</Link> check to demoralize you is reduced by 1. If you would normally be immune to fear, you do not take these penalties, but instead lose your immunity to fear (regardless of its source).</Pair>
 </Ability>
-<Ability id="traitselfdoubting-self-doubting-fn5-9" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitselfdoubting-self-doubting-fn5-9" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitselfdoubting-self-doubting-fn5-9"><Link to="/trait/self_doubting">⮞</Link> Self-Doubting <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-5.9" id="main-traits_drawback_all-fake-fn-5.9" data-hash-target to="main-traits_drawback_all-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitselfdoubting-self-doubting-fn5-9-flavor">Your ever-present fear of failure causes a downward spiral.</Pair>
 <Pair single="benefit" id="traitselfdoubting-self-doubting-fn5-9-benefit">The first time each day that you fail a Will saving throw or skill check, you take a -2 penalty on the next Will saving throw or skill check of that kind.</Pair>
 </Ability>
-<Ability id="traitsentimental-sentimental-fn3-14" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitsentimental-sentimental-fn3-14" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitsentimental-sentimental-fn3-14"><Link to="/trait/sentimental">⮞</Link> Sentimental <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-3.14" id="main-traits_drawback_all-fake-fn-3.14" data-hash-target to="main-traits_drawback_all-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitsentimental-sentimental-fn3-14-flavor">You are sentimental, and your thoughts often stray to the past at inappropriate times.</Pair>
 <Pair single="benefit" id="traitsentimental-sentimental-fn3-14-benefit">You take a -2 penalty on <Link to="/skill/perception">Perception</Link> checks to avoid being surprised and on Reflex saving throws to avoid traps or hazards.</Pair>
 </Ability>
-<Ability id="traitshadowscarred-shadow-scarred-fn1-17" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitshadowscarred-shadow-scarred-fn1-17" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitshadowscarred-shadow-scarred-fn1-17"><Link to="/trait/shadow_scarred">⮞</Link> Shadow-Scarred <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.17" id="main-traits_drawback_all-fake-fn-1.17" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitshadowscarred-shadow-scarred-fn1-17-flavor">You were touched by terrible horrors that live in the darkness just outside the human sphere, such as shadow-beasts or aberrations linked to the Dark Tapestry, and feel your life-force ebb away ever so slightly whenever you return to the shadows.</Pair>
 <Pair single="benefit" id="traitshadowscarred-shadow-scarred-fn1-17-benefit">Whenever you are in an area of <Link to="/rule/dim_light">dim light</Link> or darkness, you take a -1 penalty on saving throws.</Pair>
 </Ability>
-<Ability id="traitsheltered-sheltered-fn1-18" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitsheltered-sheltered-fn1-18" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitsheltered-sheltered-fn1-18"><Link to="/trait/sheltered">⮞</Link> Sheltered <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.18" id="main-traits_drawback_all-fake-fn-1.18" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitsheltered-sheltered-fn1-18-flavor">Brought up in courtly environments and knowing little of violence, you have trouble getting accustomed to it.</Pair>
 <Pair single="benefit" id="traitsheltered-sheltered-fn1-18-benefit">Whenever you have less than half your maximum hit points, you are <Link to="/misc/shaken">shaken</Link>.</Pair>
 </Ability>
-<Ability id="traitsleepy-sleepy-fn1-19" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitsleepy-sleepy-fn1-19" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitsleepy-sleepy-fn1-19"><Link to="/trait/sleepy">⮞</Link> Sleepy <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.19" id="main-traits_drawback_all-fake-fn-1.19" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="benefit" id="traitsleepy-sleepy-fn1-19-benefit">You must sleep or rest for at least 12 hours each night to get the benefits of a full night's rest. You take a -2 penalty on saving throws against sleep effects.</Pair>
 </Ability>
-<Ability id="traitspooked-spooked-fn1-20" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitspooked-spooked-fn1-20" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitspooked-spooked-fn1-20"><Link to="/trait/spooked">⮞</Link> Spooked <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.20" id="main-traits_drawback_all-fake-fn-1.20" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitspooked-spooked-fn1-20-flavor">You had a traumatic experience with a spirit at a young age that colors your reactions to such creatures even to this day.</Pair>
 <Pair single="benefit" id="traitspooked-spooked-fn1-20-benefit">Whenever you perceive a fey, outsider, or undead from within 60 feet, you become <Link to="/misc/shaken">shaken</Link> for 1d4 rounds unless you succeed at a Will save with a DC equal to 15 + the creature's Charisma modifier. Immunity to fear effects does not allow you to forgo this saving throw; even if you are immune to fear, you must roll the Will saving throw for this drawback when applicable, albeit with a +4 bonus.</Pair>
 </Ability>
-<Ability id="traitstigmatized-stigmatized-fn5-10" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitstigmatized-stigmatized-fn5-10" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitstigmatized-stigmatized-fn5-10"><Link to="/trait/stigmatized">⮞</Link> Stigmatized <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-5.10" id="main-traits_drawback_all-fake-fn-5.10" data-hash-target to="main-traits_drawback_all-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitstigmatized-stigmatized-fn5-10-flavor">You were kept at the periphery of society for a long period of time, so that even when you are among strangers in a new place, you feel the weight of your missing socialization.</Pair>
 <Pair single="benefit" id="traitstigmatized-stigmatized-fn5-10-benefit">You take a -3 penalty on <Link to="/skill/diplomacy">Diplomacy</Link> checks to gather information or improve a creature's attitude.</Pair>
 </Ability>
-<Ability id="traitsuperstitiousdrawback-superstitious-drawback-fn1-21" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitsuperstitiousdrawback-superstitious-drawback-fn1-21" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitsuperstitiousdrawback-superstitious-drawback-fn1-21"><Link to="/trait/superstitious_drawback">⮞</Link> Superstitious (Drawback) <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.21" id="main-traits_drawback_all-fake-fn-1.21" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitsuperstitiousdrawback-superstitious-drawback-fn1-21-flavor">Raised around those who regarded most magic as innately dangerous, no matter the source, you cannot bring yourself to submit to magic willingly even for your own good.</Pair>
 <Pair single="benefit" id="traitsuperstitiousdrawback-superstitious-drawback-fn1-21-benefit">Whenever you are affected with a harmless spell, there is a 50% chance that you must roll a saving throw to prevent that effect, even if it would benefit you. This does not apply to harmless spells cast by you upon yourself.</Pair>
 </Ability>
-<Ability id="traittaintedspirit-tainted-spirit-fn1-22" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traittaintedspirit-tainted-spirit-fn1-22" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traittaintedspirit-tainted-spirit-fn1-22"><Link to="/trait/tainted_spirit">⮞</Link> Tainted Spirit <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.22" id="main-traits_drawback_all-fake-fn-1.22" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traittaintedspirit-tainted-spirit-fn1-22-flavor">When you were a child, a parent or other person with authority over you made a minor pact with a fiend on your behalf, stealing some of your vitality in exchange for a minor boon.</Pair>
 <Pair single="benefit" id="traittaintedspirit-tainted-spirit-fn1-22-benefit">At the end of any combat, you must attempt a Fortitude saving throw. The DC is 10 + the number of rounds you acted in combat. If you fail this save, you become <Link to="/misc/fatigued">fatigued</Link> for 10 minutes per round you acted during that encounter.</Pair>
 </Ability>
-<Ability id="traittoomanysecrets-too-many-secrets-fn4-11" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traittoomanysecrets-too-many-secrets-fn4-11" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traittoomanysecrets-too-many-secrets-fn4-11"><Link to="/trait/too_many_secrets">⮞</Link> Too Many Secrets <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-4.11" id="main-traits_drawback_all-fake-fn-4.11" data-hash-target to="main-traits_drawback_all-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traittoomanysecrets-too-many-secrets-fn4-11-flavor">You've told too many lies, and made up too many cover stories, and now even you can't keep it all straight. The lies have become reality to you, which makes it difficult to think of a new convincing lie. You hesitate at crucial moments when trying to fool those around you, and likely shouldn't be in the field at all anymore.</Pair>
 <Pair single="benefit" id="traittoomanysecrets-too-many-secrets-fn4-11-benefit">You take a -2 penalty on <Link to="/skill/bluff">Bluff</Link> checks and saving throws against illusions.</Pair>
 </Ability>
-<Ability id="traitumbralunmasking-umbral-unmasking-fn6-2" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitumbralunmasking-umbral-unmasking-fn6-2" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitumbralunmasking-umbral-unmasking-fn6-2"><Link to="/trait/umbral_unmasking">⮞</Link> Umbral Unmasking <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-6.2" id="main-traits_drawback_all-fake-fn-6.2" data-hash-target to="main-traits_drawback_all-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="benefit" id="traitumbralunmasking-umbral-unmasking-fn6-2-benefit">You cast no shadow whatsoever, or the shadow you do have is monstrous. Under normal lighted conditions, this is not hard to observe - but uncommon to notice. Creatures that succeed at a DC 15 Wisdom check notice it plainly (an additional <Link to="/skill/perception">Perception</Link> check may be required based on environmental conditions). This telltale sign of wickedness cannot be concealed by <Link to="/spell/misdirection">misdirection</Link>, <Link to="/spell/nondetection">nondetection</Link>, or illusions, except those that also affect shadows (such as <Link to="/spell/invisibility">invisibility</Link>).</Pair>
 </Ability>
-<Ability id="traitunlearned-unlearned-fn1-23" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitunlearned-unlearned-fn1-23" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitunlearned-unlearned-fn1-23"><Link to="/trait/unlearned">⮞</Link> Unlearned <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-1.23" id="main-traits_drawback_all-fake-fn-1.23" data-hash-target to="main-traits_drawback_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitunlearned-unlearned-fn1-23-flavor">You have always had difficulty learning and retaining information, and know very little about the world beyond the obvious and what pertains to your profession.</Pair>
 <Pair single="benefit" id="traitunlearned-unlearned-fn1-23-benefit">Choose one <Link to="/skill/knowledge">Knowledge</Link> skill. You cannot attempt untrained Knowledge checks with any other Knowledge skills, even if the check's DC is 10 or lower. If you have access to a library that covers a specific Knowledge skill, you may attempt an untrained Knowledge check with a -2 penalty.</Pair>
 </Ability>
-<Ability id="traitvain-vain-fn3-15" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitvain-vain-fn3-15" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitvain-vain-fn3-15"><Link to="/trait/vain">⮞</Link> Vain <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-3.15" id="main-traits_drawback_all-fake-fn-3.15" data-hash-target to="main-traits_drawback_all-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitvain-vain-fn3-15-flavor">You are sensitive about the way others perceive you.</Pair>
 <Pair single="benefit" id="traitvain-vain-fn3-15-benefit">Whenever you fail an opposed Charisma-based check, you take a -2 penalty on all Charisma-based checks for the next 24 hours.</Pair>
 </Ability>
-<Ability id="traitvainglory-vainglory-fn4-12" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitvainglory-vainglory-fn4-12" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitvainglory-vainglory-fn4-12"><Link to="/trait/vainglory">⮞</Link> Vainglory <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-4.12" id="main-traits_drawback_all-fake-fn-4.12" data-hash-target to="main-traits_drawback_all-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitvainglory-vainglory-fn4-12-flavor">You compulsively seek recognition for your deeds, making it hard to act with subtlety.</Pair>
 <Pair single="benefit" id="traitvainglory-vainglory-fn4-12-benefit">You take a -1 penalty on <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/disguise">Disguise</Link>, and <Link to="/skill/stealth">Stealth</Link> checks, and the save DC of any illusion you create is 1 lower than normal.</Pair>
 </Ability>
-<Ability id="traitwardedagainstnature-warded-against-nature-fn6-3" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitwardedagainstnature-warded-against-nature-fn6-3" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitwardedagainstnature-warded-against-nature-fn6-3"><Link to="/trait/warded_against_nature">⮞</Link> Warded Against Nature <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-6.3" id="main-traits_drawback_all-fake-fn-6.3" data-hash-target to="main-traits_drawback_all-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="benefit" id="traitwardedagainstnature-warded-against-nature-fn6-3-benefit">Animals do not willingly approach within 30 feet of you, unless you or the animal's master succeeds at a DC 20 <Link to="/skill/handle_animal">Handle Animal</Link>, <Link to="/skill/ride">Ride</Link>, or <Link to="/ability/wild_empathy">wild empathy</Link> check. Animal companions, familiars, and mounts granted by your class abilities are immune to this effect.</Pair>
 </Ability>
-<Ability id="traitxenophobic-xenophobic-fn3-16" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitxenophobic-xenophobic-fn3-16" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitxenophobic-xenophobic-fn3-16"><Link to="/trait/xenophobic">⮞</Link> Xenophobic <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-3.16" id="main-traits_drawback_all-fake-fn-3.16" data-hash-target to="main-traits_drawback_all-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitxenophobic-xenophobic-fn3-16-flavor">You have a hard time understanding and trusting those with unfamiliar ways and appearances.</Pair>
 <Pair single="benefit" id="traitxenophobic-xenophobic-fn3-16-benefit">You take a -2 penalty on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks made against creatures of a different race or from a different culture.</Pair>
 </Ability>
-<Ability id="traitzealousdrawback-zealous-drawback-fn3-17" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="traitzealousdrawback-zealous-drawback-fn3-17" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="traitzealousdrawback-zealous-drawback-fn3-17"><Link to="/trait/zealous_drawback">⮞</Link> Zealous (Drawback) <sup><InnerLink showBacklink="backlink-main-traits_drawback_all-fake-fn-3.17" id="main-traits_drawback_all-fake-fn-3.17" data-hash-target to="main-traits_drawback_all-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="traitzealousdrawback-zealous-drawback-fn3-17-flavor">You are fanatical in your beliefs, ruled by emotion over reason.</Pair>
@@ -575,13 +575,13 @@ const _traits_drawback = {title: "Drawback Traits", jsx: <IonList lines="full"><
 <p>Not all GMs allow drawbacks, so consult yours before taking one.</p>
 </IonLabel></IonItem><MainLink to="/main/traits_drawback_all" className="reversed" info="View all Drawbacks on One Page" /><IonItem className="mainItem basic"><IonLabel><DisplayTable table={{"id":"drawbacks only table","columns":[{"header":"Trait","size":8.5,"align":"start","link":"trait"},{"header":"Benefit","size":10,"align":"start","unsortable":true},{"header":"Prerequisite","size":8.5,"align":"start"}],"initialColumn":0,"nullValue":"","data":[[["Anxious","anxious"],"-2 Diplomacy; speak slowly and quietly",null],[["Arcane Malignancies","arcane_malignancies"],"Gain a random penalty","Changeling"],[["Attached","attached"],"In certain circumstances: -1 Will, -2 vs fear",null],[["Avarice","avarice"],"In certain circumstances: Can't aid another for a week",null],[["Betrayed (Drawback)","betrayed_drawback"],"Roll twice and take lower on Sense Motive hunches",null],[["Bitter","bitter"],"Magical healing heals -1hp less",null],[["Burned","burned"],"-1 saves vs fire; In certain circumstances: -1 on attacks, saves, skills",null],[["Condescending","condescending"],"-5 Diplomacy and Intimidation to improve creatures' attitudes",null],[["Cowardly","cowardly"],"Fearful movement is -5ft; fear penalties are +1",null],[["Cruelty","cruelty"],"-2 to attack those not dying or helpless",null],[["Dependent","dependent"],"Become shaken for 1 hour after failing Diplomacy check",null],[["Doubt","doubt"],"Fail a skill/*wbr*ability check: take -4 on that check for an hour",null],[["Empty Mask","empty_mask"],"-1/-2 Will vs compulsions",null],[["Entomophobe","entomophobe"],"-2 to attack vermin; -2 saves vs nauseating swarm",null],[["Envy","envy"],"Steal 10gp/day or possibly take Will/*wbr*Reflex penalties",null],[["Family Ties (Drawback)","family_ties_drawback"],"-2 Wis/*wbr*Cha-based checks if you don't help your family",null],[["Fey-Taken","fey_taken"],"-2 vs magical abilities of fey, disease, illusions, and poison",null],[["Forgetful","forgetful"],"Possibly lose items when you linger for 1 hour",null],[["Foul Brand","foul_brand"],"-1 Disable Device, Disguise, Sleight of Hand OR -2 Bluff, Diplomacy, Disguise",null],[["Guilty Fraud","guilty_fraud"],"-4 Bluff vs indifferent or friendly creatures",null],[["Haunted","haunted"],"-2 saves vs evil descriptor.",null],[["Haunting Regret","haunting_regret"],"-2 vs distracting swarms, mind-affecting effects, and concentration checks",null],[["Headstrong","headstrong"],"Counter alignment arguments or be shaken for 1 hour",null],[["Hedonistic","hedonistic"],"Get reward/*wbr*relaxation or possibly be fatigued",null],[["Helpless","helpless"],"1/combat be dazed when ally falls to violence",null],[["Impatient","impatient"],"Cannot delay or ready; -1 to all checks, saves, and attacks if last in combat",null],[["Infamous","infamous"],"You and allies: -4 Diplomacy vs law-abiding people",null],[["Information Overload","information_overload"],"-2 all Knowledge skills; fail by 5 and receive untrue info",null],[["Insatiable","insatiable"],"Goods cost 10% more; you need twice as much food and water",null],[["Lonely","lonely"],"-2 to Sense Motive, Perception vs Disguise, saves vs charm",null],[["Loner","loner"],"-1 to AC and attack rolls while next to ally or aiding another",null],[["Lovesick","lovesick"],"-2 Initiative and Perception if away from your love",null],[["Magical Klutz","magical_klutz"],"Roll twice and take lower on Use Magic Device to activate blindly, and on Reflex saves vs magic items",null],[["Mark of Slavery","mark_of_slavery"],"Fail a skill check: -2 to skill or attacks except retrying the skill",null],[["Meticulous","meticulous"],"-2 on untrained skills",null],[["Misbegotten","misbegotten"],"-2 on Dex-based skills",null],[["Naive","naive"],"-2 AC vs improvised weapons; -2 CMD vs dirty trick",null],[["Nervous","nervous"],"Taking 10 counts as 8 for some skills/*wbr*abilities",null],[["Oblivious","oblivious"],"-2 to Sense Motive and sight-based Perception",null],[["Occult Bargain","occult_bargain"],"-1 concentration checks; must invoke patron's name daily","Class feature grants 0-level and 1st-level spells"],[["Oppressive Expectations","oppressive_expectations"],"Fail skill check: -2 to skill until you succeed at it (or fail different skill)",null],[["Overprotective","overprotective"],"-2 to attack and skills if +10ft from fallen ally",null],[["Paranoid","paranoid"],"Aid another is DC 15 to help you",null],[["Power-Hungry","power_hungry"],"-2 saves vs charm and compulsion if caster promises wealth or power",null],[["Pride","pride"],"-2 Diplomacy and Sense Motive vs those who challenge you",null],[["Provincial","provincial"],"-2 Diplomacy and Sense Motive vs. those of differing religions",null],[["Righteous Indignation","righteous_indignation"],"-1 Will vs emotion (not fear); Will save or always take attacks of opportunity",null],[["Scarred","scarred"],"-5 Disguise; -2 Bluff",null],[["Secret Shame","secret_shame"],"-1 saves vs fear; -1 DC to Intimidate you",null],[["Self-Doubting","self_doubting"],"1/day: fail skill check or Will save: -2 to same check or save",null],[["Sentimental","sentimental"],"-2 Perception to avoid surprise; -2 Reflex vs traps and hazards",null],[["Shadow-Scarred","shadow_scarred"],"-1 to saves in dim light or darkness",null],[["Sheltered","sheltered"],"Shaken when under half hp",null],[["Sleepy","sleepy"],"Rest requires 12 hours sleep; -2 saves vs sleep effects",null],[["Spooked","spooked"],"See a fey, outsider, or undead and become shaken for 1d4 rounds",null],[["Stigmatized","stigmatized"],"-3 Diplomacy (gather info, improve attitude)",null],[["Superstitious (Drawback)","superstitious_drawback"],"50% chance to try to save vs harmless effect",null],[["Tainted Spirit","tainted_spirit"],"Become fatigued after combat if you fail a Fortitude save",null],[["Too Many Secrets","too_many_secrets"],"-2 on Bluff and on saves vs illusions",null],[["Umbral Unmasking","umbral_unmasking"],"You cast no shadow whatsoever",null],[["Unlearned","unlearned"],"Choose one Knowledge skill: you can't try untrained checks with other Knowledge skills",null],[["Vain","vain"],"Fail opposed Cha-based check: -2 on all Cha-based checks for 24 hours",null],[["Vainglory","vainglory"],"-1 Bluff, Disguise, Stealth; -1 DC of your illusions",null],[["Warded Against Nature","warded_against_nature"],"Animals do not willingly approach within 30 feet of you",null],[["Xenophobic","xenophobic"],"-2 on Diplomacy and Sense Motive vs different races, cultures",null],[["Zealous (Drawback)","zealous_drawback"],"-5 to attack, +2 damage on 1st attack vs target of different religion",null]]}} />
 </IonLabel></IonItem></IonList>};
-const _traits_equipment = {title: "Equipment Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItem className="mainItem basic"><IonLabel><div style={{clear:"both"}}></div><Ability id="traitaugmenteddisguise-augmented-disguise-fn1" extraClasses="trait" icon={["battle-gear"]}>
+const _traits_equipment = {title: "Equipment Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItem className="mainItem basic"><IonLabel><div style={{clear:"both"}}></div><Ability id="traitaugmenteddisguise-augmented-disguise-fn1" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="traitaugmenteddisguise-augmented-disguise-fn1"><Link to="/trait/augmented_disguise">⮞</Link> Augmented Disguise <sup><InnerLink showBacklink="backlink-main-traits_equipment-fake-fn-1" id="main-traits_equipment-fake-fn-1" data-hash-target to="main-traits_equipment-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="traitaugmenteddisguise-augmented-disguise-fn1-flavor">You are especially good at disguising yourself when you have props available.</Pair>
 <Pair single="benefit" id="traitaugmenteddisguise-augmented-disguise-fn1-benefit">You gain a +2 trait bonus on <Link to="/skill/disguise">Disguise</Link> checks when wearing a wig, false beard, or similar large prop, or if you are wearing a special costume or eye-catching bauble that reinforces your disguise.</Pair>
 </Ability>
-<Ability id="traitdealmaker-dealmaker-fn1-2" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="traitdealmaker-dealmaker-fn1-2" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="traitdealmaker-dealmaker-fn1-2"><Link to="/trait/dealmaker">⮞</Link> Dealmaker <sup><InnerLink showBacklink="backlink-main-traits_equipment-fake-fn-1.2" id="main-traits_equipment-fake-fn-1.2" data-hash-target to="main-traits_equipment-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="traitdealmaker-dealmaker-fn1-2-flavor">You have the air of a person with money, allowing you to buy and sell valuables that otherwise are too rich for the local community.</Pair>
@@ -589,53 +589,53 @@ const _traits_equipment = {title: "Equipment Traits", jsx: <IonList lines="full"
 <p><strong>Example:</strong> If you're trying to find a +1 <Link to="/magic-wondrous/cloak_of_resistance">cloak of resistance</Link> (1,000 gp), you'd normally need to be in a small town (base value 1,000 gp) or larger to be able to find that item with little trouble. If you're currently in a hamlet, that's two community sizes away from a small town, so the Diplomacy DC is 30. If you went to a village and asked there, the DC would only be 20 because it's only one community size away from a small town.</p>
 </Pair>
 </Ability>
-<Ability id="traitextremelyfashionable-extremely-fashionable-fn1-3" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="traitextremelyfashionable-extremely-fashionable-fn1-3" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="traitextremelyfashionable-extremely-fashionable-fn1-3"><Link to="/trait/extremely_fashionable">⮞</Link> Extremely Fashionable <sup><InnerLink showBacklink="backlink-main-traits_equipment-fake-fn-1.3" id="main-traits_equipment-fake-fn-1.3" data-hash-target to="main-traits_equipment-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="traitextremelyfashionable-extremely-fashionable-fn1-3-flavor">You really know how to make a good impression when you're dressed well.</Pair>
 <Pair single="benefit" id="traitextremelyfashionable-extremely-fashionable-fn1-3-benefit">Whenever you are wearing clothing and/or jewelry worth at least 150 gp (and not otherwise covered in gore, sewage, or other things that mar your overall look), you gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, and <Link to="/skill/intimidate">Intimidate</Link> checks. One of these skills (your choice) is a class skill for you.</Pair>
 </Ability>
-<Ability id="traitheirloomweapon-heirloom-weapon-fn1-4" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="traitheirloomweapon-heirloom-weapon-fn1-4" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="traitheirloomweapon-heirloom-weapon-fn1-4"><Link to="/trait/heirloom_weapon">⮞</Link> Heirloom Weapon <sup><InnerLink showBacklink="backlink-main-traits_equipment-fake-fn-1.4" id="main-traits_equipment-fake-fn-1.4" data-hash-target to="main-traits_equipment-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="benefit" id="traitheirloomweapon-heirloom-weapon-fn1-4-benefit">You carry a non-masterwork simple or martial weapon that has been passed down from generation to generation in your family (pay the standard gp cost for the weapon). When you select this trait, choose one of the following benefits: proficiency with that specific weapon, a +1 trait bonus on attacks of opportunity with that specific weapon, or a +2 trait bonus on one kind of combat maneuver when using that specific weapon.</Pair>
 </Ability>
-<Ability id="traitimprovisationalequipment-improvisational-equipment-fn1-5" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="traitimprovisationalequipment-improvisational-equipment-fn1-5" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="traitimprovisationalequipment-improvisational-equipment-fn1-5"><Link to="/trait/improvisational_equipment">⮞</Link> Improvisational Equipment <sup><InnerLink showBacklink="backlink-main-traits_equipment-fake-fn-1.5" id="main-traits_equipment-fake-fn-1.5" data-hash-target to="main-traits_equipment-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="traitimprovisationalequipment-improvisational-equipment-fn1-5-flavor">You have an uncanny knack for turning equipment to new and unexpected uses.</Pair>
 <Pair single="benefit" id="traitimprovisationalequipment-improvisational-equipment-fn1-5-benefit">When using an item for anything other than its intended purpose - such as using a crowbar as a grappling hook or an old shirt to bandage a deadly wound - reduce the improvisation penalty by 2. This does not apply to improvised weapon penalties. Your GM may rule that some things are just not suitable for use in certain ways; for example, gluing a dead orc's face to your own face won't help you disguise yourself as an orc.</Pair>
 </Ability>
-<Ability id="traitironliver-iron-liver-fn1-6" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="traitironliver-iron-liver-fn1-6" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="traitironliver-iron-liver-fn1-6"><Link to="/trait/iron_liver">⮞</Link> Iron Liver <sup><InnerLink showBacklink="backlink-main-traits_equipment-fake-fn-1.6" id="main-traits_equipment-fake-fn-1.6" data-hash-target to="main-traits_equipment-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="traitironliver-iron-liver-fn1-6-flavor">Due to a lucky constitution or frequent exposure, your body is resistant to poison, including alcohol and drugs.</Pair>
 <Pair single="benefit" id="traitironliver-iron-liver-fn1-6-benefit">You gain a +2 trait bonus on Fortitude saves against poison and drugs, and a +4 trait bonus on Fortitude saves to avoid the effects of alcohol.</Pair>
 </Ability>
-<Ability id="traitpowerofsuggestion-power-of-suggestion-fn1-7" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="traitpowerofsuggestion-power-of-suggestion-fn1-7" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="traitpowerofsuggestion-power-of-suggestion-fn1-7"><Link to="/trait/power_of_suggestion">⮞</Link> Power of Suggestion <sup><InnerLink showBacklink="backlink-main-traits_equipment-fake-fn-1.7" id="main-traits_equipment-fake-fn-1.7" data-hash-target to="main-traits_equipment-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="traitpowerofsuggestion-power-of-suggestion-fn1-7-flavor">People trust your words over their own eyes.</Pair>
 <Pair single="benefit" id="traitpowerofsuggestion-power-of-suggestion-fn1-7-benefit">You may make a <Link to="/skill/bluff">Bluff</Link> check to make observers believe that an object in your possession is actually a different object entirely. The DC for the check is 20 for items of a similar size, shape, and color (such as a glaive and a quarterstaff). Items of a different shape, size, or color raise the DC by 5 for each dissimilar aspect, or more if the dissimilarity is extreme. This deception lasts 1 minute; if the item is still in view, the observers may recognize their error unless you make another bluff check.</Pair>
 </Ability>
-<Ability id="traitprehensilewhip-prehensile-whip-fn1-8" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="traitprehensilewhip-prehensile-whip-fn1-8" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="traitprehensilewhip-prehensile-whip-fn1-8"><Link to="/trait/prehensile_whip">⮞</Link> Prehensile Whip <sup><InnerLink showBacklink="backlink-main-traits_equipment-fake-fn-1.8" id="main-traits_equipment-fake-fn-1.8" data-hash-target to="main-traits_equipment-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="benefit" id="traitprehensilewhip-prehensile-whip-fn1-8-benefit">In your hand a whip has a life of its own, wrapping around pillars and beams with ease. You can use a <Link to="/eq-weapon/whip">whip</Link> as if it were a rope with a <Link to="/eq-weapon/grappling_hook">grappling hook</Link> at the end. Attaching your whip is a <strong className="hl">standard action</strong>, but detaching it is a <strong className="hl">full-round action</strong>.</Pair>
 </Ability>
-<Ability id="traitquicklearner-quick-learner-fn1-9" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="traitquicklearner-quick-learner-fn1-9" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="traitquicklearner-quick-learner-fn1-9"><Link to="/trait/quick_learner">⮞</Link> Quick Learner <sup><InnerLink showBacklink="backlink-main-traits_equipment-fake-fn-1.9" id="main-traits_equipment-fake-fn-1.9" data-hash-target to="main-traits_equipment-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="traitquicklearner-quick-learner-fn1-9-flavor">You're skilled at learning the feel of a particular weapon after a few swings in combat.</Pair>
 <Pair single="benefit" id="traitquicklearner-quick-learner-fn1-9-benefit">After your first attack with a weapon in which you are not proficient, the non-proficiency penalty decreases by 2 (to a -2 penalty). This effect lasts only while you have the weapon in hand; you must "relearn" the weapon each time you pick it up.</Pair>
 </Ability>
-<Ability id="traitroughandready-rough-and-ready-fn1-10" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="traitroughandready-rough-and-ready-fn1-10" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="traitroughandready-rough-and-ready-fn1-10"><Link to="/trait/rough_and_ready">⮞</Link> Rough and Ready <sup><InnerLink showBacklink="backlink-main-traits_equipment-fake-fn-1.10" id="main-traits_equipment-fake-fn-1.10" data-hash-target to="main-traits_equipment-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="traitroughandready-rough-and-ready-fn1-10-flavor">Your intense familiarity with the tools of your trade allows you to use them in combat as if they were actual weapons and makes them more effective for that purpose than they would normally be.</Pair>
 <Pair single="benefit" id="traitroughandready-rough-and-ready-fn1-10-benefit">When you use a tool of your trade (requiring at least 1 rank in the appropriate Craft or Profession skill) as a weapon, you do not take the <Link to="/misc/improvised_weapon">improvised weapon</Link> penalty and instead receive a +1 trait bonus on your attack. This trait is commonly used with shovels, picks, blacksmith hammers, and other sturdy tools - lutes and brooms make terribly fragile weapons.</Pair>
 </Ability>
-<Ability id="traitstagemagic-stage-magic-fn1-11" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="traitstagemagic-stage-magic-fn1-11" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="traitstagemagic-stage-magic-fn1-11"><Link to="/trait/stage_magic">⮞</Link> Stage Magic <sup><InnerLink showBacklink="backlink-main-traits_equipment-fake-fn-1.11" id="main-traits_equipment-fake-fn-1.11" data-hash-target to="main-traits_equipment-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="traitstagemagic-stage-magic-fn1-11-flavor">You have put in many hours practicing with flashy alchemical items that enhance your Perform skill.</Pair>
@@ -643,19 +643,19 @@ const _traits_equipment = {title: "Equipment Traits", jsx: <IonList lines="full"
 <p>The item is expended without its normal effects and only serves to make your performance more impressive; for example, you could pretend to ignite yourself with alchemist's fire as part of a Perform (comedy) check or make a dramatic appearance with a smokestick as part of a Perform (act) check, but you would not actually take fire damage or gain <Link to="/rule/concealment">concealment</Link> from smoke.</p>
 </Pair>
 </Ability>
-<Ability id="traitstealthyescape-stealthy-escape-fn1-12" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="traitstealthyescape-stealthy-escape-fn1-12" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="traitstealthyescape-stealthy-escape-fn1-12"><Link to="/trait/stealthy_escape">⮞</Link> Stealthy Escape <sup><InnerLink showBacklink="backlink-main-traits_equipment-fake-fn-1.12" id="main-traits_equipment-fake-fn-1.12" data-hash-target to="main-traits_equipment-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="traitstealthyescape-stealthy-escape-fn1-12-flavor">You are adept at escaping from confinement in an unobtrusive manner.</Pair>
 <Pair single="benefit" id="traitstealthyescape-stealthy-escape-fn1-12-benefit">When trying to escape manacles, rope, or other similar restraints (but not grapples or similar attacks), you may make a <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check instead of your <Link to="/skill/escape_artist">Escape Artist</Link> modifier. If you free yourself, you gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks to pretend that you are still bound.</Pair>
 </Ability>
-<Ability id="traitthrowntogetherfashion-thrown-together-fashion-fn1-13" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="traitthrowntogetherfashion-thrown-together-fashion-fn1-13" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="traitthrowntogetherfashion-thrown-together-fashion-fn1-13"><Link to="/trait/thrown_together_fashion">⮞</Link> Thrown-Together Fashion <sup><InnerLink showBacklink="backlink-main-traits_equipment-fake-fn-1.13" id="main-traits_equipment-fake-fn-1.13" data-hash-target to="main-traits_equipment-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="traitthrowntogetherfashion-thrown-together-fashion-fn1-13-flavor">You can modify old clothing to make it effective in new circumstances.</Pair>
 <Pair single="benefit" id="traitthrowntogetherfashion-thrown-together-fashion-fn1-13-benefit">With a basic sewing kit or <Link to="/eq-misc/disguise_kit">disguise kit</Link>, you can make a <Link to="/skill/disguise">Disguise</Link> check to change one outfit into another outfit. The DC of this check is equal to 10 + the gp difference between costs of the outfits, as found in the <Link to="/main/equipment_misc">outfits' entries</Link>. The alteration takes 10 minutes per 1-gp difference in the cost of the outfits.</Pair>
 </Ability>
-<div style={{clear:"both"}}></div><Ability id="traitwellprovisionedadventurer-well-provisioned-adventurer-fn2-fn3" extraClasses="trait hasSubs" icon={["battle-gear"]}>
+<div style={{clear:"both"}}></div><Ability id="traitwellprovisionedadventurer-well-provisioned-adventurer-fn2-fn3" extraClasses="trait hasSubs" icon={["Equipment"]}>
 <Pair single id="traitwellprovisionedadventurer-well-provisioned-adventurer-fn2-fn3"><Link to="/trait/well_provisioned_adventurer">⮞</Link> Well-Provisioned Adventurer <sup><InnerLink showBacklink="backlink-main-traits_equipment-fake-fn-2" id="main-traits_equipment-fake-fn-2" data-hash-target to="main-traits_equipment-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_equipment-fake-fn-3" id="main-traits_equipment-fake-fn-3" data-hash-target to="main-traits_equipment-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="traitwellprovisionedadventurer-well-provisioned-adventurer-fn2-fn3-flavor">You always knew that one day you would leave your humble beginnings behind and become an adventurer, so you scrimped and saved, buying the necessary equipment one piece at a time until you had everything you needed. Select one of the equipment packages below.</Pair>
@@ -764,41 +764,41 @@ const _traits_equipment = {title: "Equipment Traits", jsx: <IonList lines="full"
 <li id="main-traits_equipment-fake-fn-2-target"><p><Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_equipment-fake-fn-2" data-hash-target to="main-traits_equipment-fake-fn-2">↩</InnerLink></p></li>
 <li id="main-traits_equipment-fake-fn-3-target"><p><Link to="/source/adventurers_armory_2">Adventurer's Armory 2</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_equipment-fake-fn-3" data-hash-target to="main-traits_equipment-fake-fn-3">↩</InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_family = {title: "Family Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitbetrayaloftrust-betrayal-of-trust-fn1" extraClasses="trait" icon={["relationship-bounds"]}>
+const _traits_family = {title: "Family Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitbetrayaloftrust-betrayal-of-trust-fn1" extraClasses="trait" icon={["Family"]}>
 <Pair single id="traitbetrayaloftrust-betrayal-of-trust-fn1"><Link to="/trait/betrayal_of_trust">⮞</Link> Betrayal of Trust <sup><InnerLink showBacklink="backlink-main-traits_family-fake-fn-1" id="main-traits_family-fake-fn-1" data-hash-target to="main-traits_family-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Family</Pair>
 <Pair single="flavor" id="traitbetrayaloftrust-betrayal-of-trust-fn1-flavor">If you have the trait <Link to="/trait/tight_bonds">Tight Bonds</Link>, you swap it for this trait at the moment you decide to betray the relationship. (You need not wait until you have actually committed an act of betrayal.)</Pair>
 <Pair single="benefit" id="traitbetrayaloftrust-betrayal-of-trust-fn1-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks, increasing to +4 on checks specifically made to conceal or deny your infidelity.</Pair>
 <Pair title="Special">It is possible to regain the Tight Bonds trait, for either the same or a different relationship, but it requires substantial in-character work. The GM decides when this trait reverts back to the original one.</Pair>
 </Ability>
-<Ability id="traitbloodresonance-blood-resonance-fn1-2" extraClasses="trait" icon={["relationship-bounds"]}>
+<Ability id="traitbloodresonance-blood-resonance-fn1-2" extraClasses="trait" icon={["Family"]}>
 <Pair single id="traitbloodresonance-blood-resonance-fn1-2"><Link to="/trait/blood_resonance">⮞</Link> Blood Resonance <sup><InnerLink showBacklink="backlink-main-traits_family-fake-fn-1.2" id="main-traits_family-fake-fn-1.2" data-hash-target to="main-traits_family-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Family</Pair>
 <Pair single="benefit" id="traitbloodresonance-blood-resonance-fn1-2-benefit">Select one racial, inherited template (such as <Link to="/template/half_dragon">half-dragon</Link>), or bloodline ability you can currently use at least three times each day. Once per day when you are within 60 feet of another character with this family trait who shares the race, template, or bloodline, you can use the selected ability without it counting against your normal daily limit.</Pair>
 </Ability>
-<Ability id="traitfamilyresemblance-family-resemblance-fn1-3" extraClasses="trait" icon={["relationship-bounds"]}>
+<Ability id="traitfamilyresemblance-family-resemblance-fn1-3" extraClasses="trait" icon={["Family"]}>
 <Pair single id="traitfamilyresemblance-family-resemblance-fn1-3"><Link to="/trait/family_resemblance">⮞</Link> Family Resemblance <sup><InnerLink showBacklink="backlink-main-traits_family-fake-fn-1.3" id="main-traits_family-fake-fn-1.3" data-hash-target to="main-traits_family-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Family</Pair>
 <Pair single="flavor" id="traitfamilyresemblance-family-resemblance-fn1-3-flavor">You have some of the common, recognizable features of your family.</Pair>
 <Pair single="benefit" id="traitfamilyresemblance-family-resemblance-fn1-3-benefit">You gain a +4 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks made to improve the attitude of a creature that has a friendly or helpful attitude toward another member of your family, and a +2 bonus on <Link to="/skill/disguise">Disguise</Link> checks to look like a specific member of your family. You also take a -2 penalty on Disguise checks to look like anyone who is not a member of your family.</Pair>
 </Ability>
-<Ability id="traitfamilytrade-family-trade-fn1-4" extraClasses="trait" icon={["relationship-bounds"]}>
+<Ability id="traitfamilytrade-family-trade-fn1-4" extraClasses="trait" icon={["Family"]}>
 <Pair single id="traitfamilytrade-family-trade-fn1-4"><Link to="/trait/family_trade">⮞</Link> Family Trade <sup><InnerLink showBacklink="backlink-main-traits_family-fake-fn-1.4" id="main-traits_family-fake-fn-1.4" data-hash-target to="main-traits_family-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Family</Pair>
 <Pair single="benefit" id="traitfamilytrade-family-trade-fn1-4-benefit">Choose one skill. All family members with this trait must choose the same skill and it is always a class skill for you. When you are within 60 feet of a family member with this trait, you gain a +2 trait bonus on checks with this skill.</Pair>
 </Ability>
-<Ability id="traithonorbound-honor-bound-fn1-5" extraClasses="trait" icon={["relationship-bounds"]}>
+<Ability id="traithonorbound-honor-bound-fn1-5" extraClasses="trait" icon={["Family"]}>
 <Pair single id="traithonorbound-honor-bound-fn1-5"><Link to="/trait/honor_bound">⮞</Link> Honor-Bound <sup><InnerLink showBacklink="backlink-main-traits_family-fake-fn-1.5" id="main-traits_family-fake-fn-1.5" data-hash-target to="main-traits_family-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Family</Pair>
 <Pair single="flavor" id="traithonorbound-honor-bound-fn1-5-flavor">The family's honor is tied to a shared goal binding you all together.</Pair>
 <Pair single="benefit" id="traithonorbound-honor-bound-fn1-5-benefit">With the aid of the GM, choose a task that your family is bound to accomplish. Once per day, when you are within 60 feet of another character with this trait, you can gain a +1 trait bonus on a single saving throw or skill check when progress toward the goal is directly at stake (at the GM's discretion).</Pair>
 </Ability>
-<Ability id="traitrivalry-rivalry-fn1-6" extraClasses="trait" icon={["relationship-bounds"]}>
+<Ability id="traitrivalry-rivalry-fn1-6" extraClasses="trait" icon={["Family"]}>
 <Pair single id="traitrivalry-rivalry-fn1-6"><Link to="/trait/rivalry">⮞</Link> Rivalry <sup><InnerLink showBacklink="backlink-main-traits_family-fake-fn-1.6" id="main-traits_family-fake-fn-1.6" data-hash-target to="main-traits_family-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Family</Pair>
 <Pair single="benefit" id="traitrivalry-rivalry-fn1-6-benefit">If you see a family member with this trait within 60 feet of you fail a combat maneuver check or a skill check, you gain a +1 trait bonus on checks to perform the same combat maneuver or use the same skill for 1 round.</Pair>
 </Ability>
-<Ability id="traittightbonds-tight-bonds-fn1-7" extraClasses="trait" icon={["relationship-bounds"]}>
+<Ability id="traittightbonds-tight-bonds-fn1-7" extraClasses="trait" icon={["Family"]}>
 <Pair single id="traittightbonds-tight-bonds-fn1-7"><Link to="/trait/tight_bonds">⮞</Link> Tight Bonds <sup><InnerLink showBacklink="backlink-main-traits_family-fake-fn-1.7" id="main-traits_family-fake-fn-1.7" data-hash-target to="main-traits_family-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Family</Pair>
 <Pair single="flavor" id="traittightbonds-tight-bonds-fn1-7-flavor">Whether siblings, spouses, or dedicated members of the same clan, characters who take this trait are an inseparable pair committed to each other.</Pair>
@@ -807,79 +807,79 @@ const _traits_family = {title: "Family Traits", jsx: <IonList lines="full"><Main
 </IonLabel></IonItem><section data-footnotes><h3 id="main-traits_family-label">Footnotes</h3><ol>
 <li id="main-traits_family-fake-fn-1-target"><p><Link to="/source/cohorts_and_companions">Cohorts and Companions</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_family-fake-fn-1" data-hash-target to="main-traits_family-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_family-fake-fn-1.2" data-hash-target to="main-traits_family-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_family-fake-fn-1.3" data-hash-target to="main-traits_family-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_family-fake-fn-1.4" data-hash-target to="main-traits_family-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_family-fake-fn-1.5" data-hash-target to="main-traits_family-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_family-fake-fn-1.6" data-hash-target to="main-traits_family-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_family-fake-fn-1.7" data-hash-target to="main-traits_family-fake-fn-1.7">↩<sup>7</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_mount = {title: "Mount Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitblackasnight-black-as-night-fn1" extraClasses="trait" icon={["cavalry"]}>
+const _traits_mount = {title: "Mount Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitblackasnight-black-as-night-fn1" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="traitblackasnight-black-as-night-fn1"><Link to="/trait/black_as_night">⮞</Link> Black as Night <sup><InnerLink showBacklink="backlink-main-traits_mount-fake-fn-1" id="main-traits_mount-fake-fn-1" data-hash-target to="main-traits_mount-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a fell pony as a mount</Pair>
 <Pair single="benefit" id="traitblackasnight-black-as-night-fn1-benefit">While astride a fell <Link to="/eq-misc/pony">pony</Link>, you gain a +1 trait bonus on attack rolls against enemies you are flanking.</Pair>
 </Ability>
-<Ability id="traitblessedmutt-blessed-mutt-fn2" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="traitblessedmutt-blessed-mutt-fn2" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="traitblessedmutt-blessed-mutt-fn2"><Link to="/trait/blessed_mutt">⮞</Link> Blessed Mutt <sup><InnerLink showBacklink="backlink-main-traits_mount-fake-fn-2" id="main-traits_mount-fake-fn-2" data-hash-target to="main-traits_mount-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a <Link to="/eq-misc/riding_dog">riding dog</Link> as a mount</Pair>
 <Pair single="benefit" id="traitblessedmutt-blessed-mutt-fn2-benefit">Lucky hounds gain a +1 luck bonus on saves against spells or effects with the evil descriptor or which originate from evil outsiders or undead.</Pair>
 </Ability>
-<Ability id="traitburstofspeed-burst-of-speed-fn1-2" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="traitburstofspeed-burst-of-speed-fn1-2" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="traitburstofspeed-burst-of-speed-fn1-2"><Link to="/trait/burst_of_speed">⮞</Link> Burst of Speed <sup><InnerLink showBacklink="backlink-main-traits_mount-fake-fn-1.2" id="main-traits_mount-fake-fn-1.2" data-hash-target to="main-traits_mount-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a Dort charger as a mount</Pair>
 <Pair single="benefit" id="traitburstofspeed-burst-of-speed-fn1-2-benefit">Three times per day, while riding a <Link to="/eq-misc/horse">Dort charger</Link> and making a charge attack, you can increase your mount's speed by 15 feet as a free action.</Pair>
 </Ability>
-<Ability id="traitclamber-clamber-fn2-2" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="traitclamber-clamber-fn2-2" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="traitclamber-clamber-fn2-2"><Link to="/trait/clamber">⮞</Link> Clamber <sup><InnerLink showBacklink="backlink-main-traits_mount-fake-fn-2.2" id="main-traits_mount-fake-fn-2.2" data-hash-target to="main-traits_mount-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a <Link to="/monster/ram">ram</Link> as a mount</Pair>
 <Pair single="benefit" id="traitclamber-clamber-fn2-2-benefit">Mindspin mountain <Link to="/eq-misc/goat">goats</Link> gain a +2 trait bonus on <Link to="/skill/climb">Climb</Link> checks, and Climb is a class skill for them.</Pair>
 </Ability>
-<Ability id="traitclevermount-clever-mount-fn2-3" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="traitclevermount-clever-mount-fn2-3" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="traitclevermount-clever-mount-fn2-3"><Link to="/trait/clever_mount">⮞</Link> Clever Mount <sup><InnerLink showBacklink="backlink-main-traits_mount-fake-fn-2.3" id="main-traits_mount-fake-fn-2.3" data-hash-target to="main-traits_mount-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a mount</Pair>
 <Pair single="benefit" id="traitclevermount-clever-mount-fn2-3-benefit">This mount can learn four tricks per point of Intelligence, instead of the typical three. Commanding the mount with the Handle an Animal use of the <Link to="/skill/handle_animal">Handle Animal</Link> skill requires a successful DC 15 skill check instead of the usual DC 10, however, as it is willful and easily bored.</Pair>
 </Ability>
-<Ability id="traitcunningbreed-cunning-breed-fn1-3" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="traitcunningbreed-cunning-breed-fn1-3" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="traitcunningbreed-cunning-breed-fn1-3"><Link to="/trait/cunning_breed">⮞</Link> Cunning Breed <sup><InnerLink showBacklink="backlink-main-traits_mount-fake-fn-1.3" id="main-traits_mount-fake-fn-1.3" data-hash-target to="main-traits_mount-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a Taldor jennet as a mount</Pair>
 <Pair single="benefit" id="traitcunningbreed-cunning-breed-fn1-3-benefit">A <Link to="/eq-misc/horse">Taldor jennet</Link> can learn a total of eight tricks when trained using the <Link to="/skill/handle_animal">Handle Animal</Link> skill (as opposed to the standard six for having an Intelligence score of 2).</Pair>
 </Ability>
-<Ability id="traitfleetoffoot-fleet-of-foot-fn1-4" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="traitfleetoffoot-fleet-of-foot-fn1-4" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="traitfleetoffoot-fleet-of-foot-fn1-4"><Link to="/trait/fleet_of_foot">⮞</Link> Fleet of Foot <sup><InnerLink showBacklink="backlink-main-traits_mount-fake-fn-1.4" id="main-traits_mount-fake-fn-1.4" data-hash-target to="main-traits_mount-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a chiardmar as a mount</Pair>
 <Pair single="benefit" id="traitfleetoffoot-fleet-of-foot-fn1-4-benefit">While riding a <Link to="/eq-misc/horse">chiardmar</Link>, you treat your mount's base speed as +10 feet faster for the purpose of using the <Link to="/rule/run">run</Link> or <Link to="/rule/withdraw">withdraw</Link> actions.</Pair>
 </Ability>
-<Ability id="traitnauseatingspit-nauseating-spit-fn2-4" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="traitnauseatingspit-nauseating-spit-fn2-4" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="traitnauseatingspit-nauseating-spit-fn2-4"><Link to="/trait/nauseating_spit">⮞</Link> Nauseating Spit <sup><InnerLink showBacklink="backlink-main-traits_mount-fake-fn-2.4" id="main-traits_mount-fake-fn-2.4" data-hash-target to="main-traits_mount-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a <Link to="/eq-misc/camel">camel</Link> as a mount</Pair>
 <Pair single="benefit" id="traitnauseatingspit-nauseating-spit-fn2-4-benefit">Once per hour, a Keleshite trade camel can regurgitate the contents of its stomach, spitting the foul material at a single target within 10 feet as a ranged touch attack. The target must succeed at a Fortitude save (DC = 10 + half the camel's Hit Dice + the camel's Constitution modifier) or be <Link to="/misc/nauseated">nauseated</Link> for 1 round.</Pair>
 </Ability>
-<Ability id="traitrelentlessfortitude-relentless-fortitude-fn1-5" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="traitrelentlessfortitude-relentless-fortitude-fn1-5" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="traitrelentlessfortitude-relentless-fortitude-fn1-5"><Link to="/trait/relentless_fortitude">⮞</Link> Relentless Fortitude <sup><InnerLink showBacklink="backlink-main-traits_mount-fake-fn-1.5" id="main-traits_mount-fake-fn-1.5" data-hash-target to="main-traits_mount-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a Qadiran dromedary as a mount</Pair>
 <Pair single="benefit" id="traitrelentlessfortitude-relentless-fortitude-fn1-5-benefit"><Link to="/eq-misc/camel">Qadiran dromedaries</Link> heal nonlethal damage at a rate of 2 hit points per hour per Hit Die. This trait does not stack with other effects that increase a creature's rate of healing nonlethal damage.</Pair>
 </Ability>
-<Ability id="traitrunningpig-running-pig-fn2-5" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="traitrunningpig-running-pig-fn2-5" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="traitrunningpig-running-pig-fn2-5"><Link to="/trait/running_pig">⮞</Link> Running Pig <sup><InnerLink showBacklink="backlink-main-traits_mount-fake-fn-2.5" id="main-traits_mount-fake-fn-2.5" data-hash-target to="main-traits_mount-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a <Link to="/monster/boar">boar</Link> as a mount</Pair>
 <Pair single="benefit" id="traitrunningpig-running-pig-fn2-5-benefit">Warthogs are quicker than they look, with a base speed of 45 feet instead of the boar's 40 feet.</Pair>
 </Ability>
-<Ability id="traitstalwartelk-stalwart-elk-fn1-6" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="traitstalwartelk-stalwart-elk-fn1-6" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="traitstalwartelk-stalwart-elk-fn1-6"><Link to="/trait/stalwart_elk">⮞</Link> Stalwart Elk <sup><InnerLink showBacklink="backlink-main-traits_mount-fake-fn-1.6" id="main-traits_mount-fake-fn-1.6" data-hash-target to="main-traits_mount-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a Chernasardo riding elk as a mount</Pair>
 <Pair single="benefit" id="traitstalwartelk-stalwart-elk-fn1-6-benefit">While riding a Chernasardo riding <Link to="/monster/elk">elk</Link>, you gain a +4 trait bonus on <Link to="/skill/handle_animal">Handle Animal</Link>, <Link to="/skill/ride">Ride</Link>, and <Link to="/ability/wild_empathy">wild empathy</Link> checks to resist another creature's unnatural aura.</Pair>
 </Ability>
-<Ability id="traitwatertrained-water-trained-fn1-7" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="traitwatertrained-water-trained-fn1-7" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="traitwatertrained-water-trained-fn1-7"><Link to="/trait/water_trained">⮞</Link> Water-Trained <sup><InnerLink showBacklink="backlink-main-traits_mount-fake-fn-1.7" id="main-traits_mount-fake-fn-1.7" data-hash-target to="main-traits_mount-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a Lastwall jasper as a mount</Pair>
 <Pair single="benefit" id="traitwatertrained-water-trained-fn1-7-benefit"><Link to="/eq-misc/horse">Lastwall jaspers</Link> gain a +2 trait bonus on <Link to="/skill/swim">Swim</Link> checks, and Swim is a class skill for them.</Pair>
 </Ability>
-<Ability id="traitweatherbeaten-weather-beaten-fn1-8" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="traitweatherbeaten-weather-beaten-fn1-8" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="traitweatherbeaten-weather-beaten-fn1-8"><Link to="/trait/weather_beaten">⮞</Link> Weather-Beaten <sup><InnerLink showBacklink="backlink-main-traits_mount-fake-fn-1.8" id="main-traits_mount-fake-fn-1.8" data-hash-target to="main-traits_mount-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have an Erutaki husky as a mount</Pair>
@@ -889,91 +889,91 @@ const _traits_mount = {title: "Mount Traits", jsx: <IonList lines="full"><MainLi
 <li id="main-traits_mount-fake-fn-1-target"><p><Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_mount-fake-fn-1" data-hash-target to="main-traits_mount-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_mount-fake-fn-1.2" data-hash-target to="main-traits_mount-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_mount-fake-fn-1.3" data-hash-target to="main-traits_mount-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_mount-fake-fn-1.4" data-hash-target to="main-traits_mount-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_mount-fake-fn-1.5" data-hash-target to="main-traits_mount-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_mount-fake-fn-1.6" data-hash-target to="main-traits_mount-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_mount-fake-fn-1.7" data-hash-target to="main-traits_mount-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_mount-fake-fn-1.8" data-hash-target to="main-traits_mount-fake-fn-1.8">↩<sup>8</sup></InnerLink></p></li>
 <li id="main-traits_mount-fake-fn-2-target"><p><Link to="/source/wilderness_origins">Wilderness Origins</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_mount-fake-fn-2" data-hash-target to="main-traits_mount-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_mount-fake-fn-2.2" data-hash-target to="main-traits_mount-fake-fn-2.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_mount-fake-fn-2.3" data-hash-target to="main-traits_mount-fake-fn-2.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_mount-fake-fn-2.4" data-hash-target to="main-traits_mount-fake-fn-2.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_mount-fake-fn-2.5" data-hash-target to="main-traits_mount-fake-fn-2.5">↩<sup>5</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_cosmic = {title: "Cosmic Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitthethrush-the-thrush-fn1" extraClasses="trait" icon={["night-sky"]}>
+const _traits_cosmic = {title: "Cosmic Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitthethrush-the-thrush-fn1" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="traitthethrush-the-thrush-fn1"><Link to="/trait/the_thrush">⮞</Link> The Thrush <sup><InnerLink showBacklink="backlink-main-traits_cosmic-fake-fn-1" id="main-traits_cosmic-fake-fn-1" data-hash-target to="main-traits_cosmic-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 18 Kuthona and 20 Abadius</Pair>
 <Pair single="flavor" id="traitthethrush-the-thrush-fn1-flavor">Like the curious songbirds that welcome weary travelers, your voice rings with sweet clarity.</Pair>
 <Pair single="benefit" id="traitthethrush-the-thrush-fn1-benefit">You gain a +1 bonus on <Link to="/skill/perform">Perform</Link> (sing) checks, and Perform (sing) becomes a class skill for you.</Pair>
 </Ability>
-<Ability id="traitthelanternbearer-the-lantern-bearer-fn1-2" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="traitthelanternbearer-the-lantern-bearer-fn1-2" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="traitthelanternbearer-the-lantern-bearer-fn1-2"><Link to="/trait/the_lantern_bearer">⮞</Link> The Lantern Bearer <sup><InnerLink showBacklink="backlink-main-traits_cosmic-fake-fn-1.2" id="main-traits_cosmic-fake-fn-1.2" data-hash-target to="main-traits_cosmic-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 21 Abadius and 16 Calistril</Pair>
 <Pair single="flavor" id="traitthelanternbearer-the-lantern-bearer-fn1-2-flavor">You are bathed in the light of the Lantern Bearer, who guides the Caravan through the darkest nights.</Pair>
 <Pair single="benefit" id="traitthelanternbearer-the-lantern-bearer-fn1-2-benefit">You can cast <Link to="/spell/light">light</Link> three times per day as a spell-like ability, treating your character level as your caster level.</Pair>
 </Ability>
-<Ability id="traitthenewlyweds-the-newlyweds-fn1-3" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="traitthenewlyweds-the-newlyweds-fn1-3" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="traitthenewlyweds-the-newlyweds-fn1-3"><Link to="/trait/the_newlyweds">⮞</Link> The Newlyweds <sup><InnerLink showBacklink="backlink-main-traits_cosmic-fake-fn-1.3" id="main-traits_cosmic-fake-fn-1.3" data-hash-target to="main-traits_cosmic-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 17 Calistril and 11 Pharast</Pair>
 <Pair single="flavor" id="traitthenewlyweds-the-newlyweds-fn1-3-flavor">Your sign is of two lovers, intertwined as one.</Pair>
 <Pair single="benefit" id="traitthenewlyweds-the-newlyweds-fn1-3-benefit">You gain a +2 bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to influence those who might be romantically attracted to you, and Diplomacy becomes a class skill for you.</Pair>
 </Ability>
-<Ability id="traitthebridge-the-bridge-fn1-4" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="traitthebridge-the-bridge-fn1-4" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="traitthebridge-the-bridge-fn1-4"><Link to="/trait/the_bridge">⮞</Link> The Bridge <sup><InnerLink showBacklink="backlink-main-traits_cosmic-fake-fn-1.4" id="main-traits_cosmic-fake-fn-1.4" data-hash-target to="main-traits_cosmic-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 12 Pharast and 18 Gozran</Pair>
 <Pair single="flavor" id="traitthebridge-the-bridge-fn1-4-flavor">The Bridge spans the rushing waters that separate the darkness of winter from the warmth of spring.</Pair>
 <Pair single="benefit" id="traitthebridge-the-bridge-fn1-4-benefit">You gain a +1 trait bonus on saving throws against spells and effects with the cold or darkness descriptors.</Pair>
 </Ability>
-<Ability id="traitthedaughter-the-daughter-fn1-5" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="traitthedaughter-the-daughter-fn1-5" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="traitthedaughter-the-daughter-fn1-5"><Link to="/trait/the_daughter">⮞</Link> The Daughter <sup><InnerLink showBacklink="backlink-main-traits_cosmic-fake-fn-1.5" id="main-traits_cosmic-fake-fn-1.5" data-hash-target to="main-traits_cosmic-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 19 Gozran and 13 Desnus</Pair>
 <Pair single="flavor" id="traitthedaughter-the-daughter-fn1-5-flavor">You are filled with the light-hearted joy of the Daughter, who dances her way into springtime.</Pair>
 <Pair single="benefit" id="traitthedaughter-the-daughter-fn1-5-benefit">Every creature within 10 feet of you adds +2 moral bonuses to the DCs of checks to <Link to="/skill/demoralize">demoralize</Link> them.</Pair>
 </Ability>
-<Ability id="traittherider-the-rider-fn1-6" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="traittherider-the-rider-fn1-6" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="traittherider-the-rider-fn1-6"><Link to="/trait/the_rider">⮞</Link> The Rider <sup><InnerLink showBacklink="backlink-main-traits_cosmic-fake-fn-1.6" id="main-traits_cosmic-fake-fn-1.6" data-hash-target to="main-traits_cosmic-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 14 Desnus and 20 Sarenith</Pair>
 <Pair single="flavor" id="traittherider-the-rider-fn1-6-flavor">You are born under the auspice of the mounted caravan guard, whose very presence deters danger.</Pair>
 <Pair single="benefit" id="traittherider-the-rider-fn1-6-benefit">Once per day, when you succeed at a <Link to="/skill/ride">Ride</Link> check, you can attempt an immediate <Link to="/skill/intimidate">Intimidate</Link> check against the nearest foe. If you fail this check, the DC of your next Intimidate check against that opponent does not increase (as it normally would).</Pair>
 </Ability>
-<Ability id="traitthepatriarch-the-patriarch-fn1-7" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="traitthepatriarch-the-patriarch-fn1-7" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="traitthepatriarch-the-patriarch-fn1-7"><Link to="/trait/the_patriarch">⮞</Link> The Patriarch <sup><InnerLink showBacklink="backlink-main-traits_cosmic-fake-fn-1.7" id="main-traits_cosmic-fake-fn-1.7" data-hash-target to="main-traits_cosmic-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 21 Sarenith and 20 Erastus</Pair>
 <Pair single="flavor" id="traitthepatriarch-the-patriarch-fn1-7-flavor">Like the father of the Cosmic Caravan, you have an innate sense of direction.</Pair>
 <Pair single="benefit" id="traitthepatriarch-the-patriarch-fn1-7-benefit">Three times per day, you can use <Link to="/spell/know_direction">know direction</Link> as a spell-like ability, treating your character level as your caster level.</Pair>
 </Ability>
-<Ability id="traitthewagon-the-wagon-fn1-8" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="traitthewagon-the-wagon-fn1-8" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="traitthewagon-the-wagon-fn1-8"><Link to="/trait/the_wagon">⮞</Link> The Wagon <sup><InnerLink showBacklink="backlink-main-traits_cosmic-fake-fn-1.8" id="main-traits_cosmic-fake-fn-1.8" data-hash-target to="main-traits_cosmic-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 21 Erastus and 10 Arodus</Pair>
 <Pair single="flavor" id="traitthewagon-the-wagon-fn1-8-flavor">Like the vehicle that conveys travelers across the heavens, you are blessed with extraordinary movement capabilities.</Pair>
 <Pair single="benefit" id="traitthewagon-the-wagon-fn1-8-benefit">Once per day as a <strong className="hl">swift action</strong>, you can increase you move speed by 10 feet for 1 round.</Pair>
 </Ability>
-<Ability id="traitthepack-the-pack-fn1-9" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="traitthepack-the-pack-fn1-9" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="traitthepack-the-pack-fn1-9"><Link to="/trait/the_pack">⮞</Link> The Pack <sup><InnerLink showBacklink="backlink-main-traits_cosmic-fake-fn-1.9" id="main-traits_cosmic-fake-fn-1.9" data-hash-target to="main-traits_cosmic-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 11 Arodus and 16 Rova</Pair>
 <Pair single="flavor" id="traitthepack-the-pack-fn1-9-flavor">You are blessed by the beasts that trail the caravan, which represent protection in numbers.</Pair>
 <Pair single="benefit" id="traitthepack-the-pack-fn1-9-benefit">You gain a +2 trait bonus on <Link to="/skill/handle_animal">Handle Animal</Link> checks to teach animals tricks, and Handle Animal becomes a class skill for you.</Pair>
 </Ability>
-<Ability id="traitthemother-the-mother-fn1-10" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="traitthemother-the-mother-fn1-10" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="traitthemother-the-mother-fn1-10"><Link to="/trait/the_mother">⮞</Link> The Mother <sup><InnerLink showBacklink="backlink-main-traits_cosmic-fake-fn-1.10" id="main-traits_cosmic-fake-fn-1.10" data-hash-target to="main-traits_cosmic-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 17 Rova and 30 Lamashan</Pair>
 <Pair single="flavor" id="traitthemother-the-mother-fn1-10-flavor">Granting warmth and comfort against the forbidding cold of the wilderness, the Mother is the heart of the Caravan.</Pair>
 <Pair single="benefit" id="traitthemother-the-mother-fn1-10-benefit">Allies within 10 feet of you gain a +1 morale bonus on saving throws to resist fear effects. This trait functions only while you are conscious.</Pair>
 </Ability>
-<Ability id="traitthestargazer-the-star-gazer-fn1-11" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="traitthestargazer-the-star-gazer-fn1-11" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="traitthestargazer-the-star-gazer-fn1-11"><Link to="/trait/the_star_gazer">⮞</Link> The Star Gazer <sup><InnerLink showBacklink="backlink-main-traits_cosmic-fake-fn-1.11" id="main-traits_cosmic-fake-fn-1.11" data-hash-target to="main-traits_cosmic-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 31 Lamashan and 20 Neth</Pair>
 <Pair single="flavor" id="traitthestargazer-the-star-gazer-fn1-11-flavor">With his head in the clouds, the Stargazer sees far-off events, but misses the pitfalls directly before him.</Pair>
 <Pair single="benefit" id="traitthestargazer-the-star-gazer-fn1-11-benefit">When rolling initiative as part of a surprise round, you take a -2 penalty on initiative checks, but you gain a +2 luck bonus to AC during all surprise rounds.</Pair>
 </Ability>
-<Ability id="traitthestranger-the-stranger-fn1-12" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="traitthestranger-the-stranger-fn1-12" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="traitthestranger-the-stranger-fn1-12"><Link to="/trait/the_stranger">⮞</Link> The Stranger <sup><InnerLink showBacklink="backlink-main-traits_cosmic-fake-fn-1.12" id="main-traits_cosmic-fake-fn-1.12" data-hash-target to="main-traits_cosmic-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 21 Neth and 29 Neth</Pair>
 <Pair single="flavor" id="traitthestranger-the-stranger-fn1-12-flavor">Like the lone traveler that walks alongside the caravan for but a brief while, you have a way with strangers.</Pair>
 <Pair single="benefit" id="traitthestranger-the-stranger-fn1-12-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks to gather information. Additionally, either Diplomacy or Knowledge (local) becomes a class skill for you.</Pair>
 </Ability>
-<Ability id="traitthefollower-the-follower-fn1-13" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="traitthefollower-the-follower-fn1-13" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="traitthefollower-the-follower-fn1-13"><Link to="/trait/the_follower">⮞</Link> The Follower <sup><InnerLink showBacklink="backlink-main-traits_cosmic-fake-fn-1.13" id="main-traits_cosmic-fake-fn-1.13" data-hash-target to="main-traits_cosmic-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 30 Neth and 17 Kuthona</Pair>
@@ -1228,77 +1228,77 @@ const _traits_exemplar = {title: "Exemplar Traits", jsx: <IonList lines="full"><
 <p><strong>Exemplar Type</strong> Regional Exemplar</p>
 <p><strong>Sources</strong> <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 3</Link><br/>You have learned the ways of many lands. Choose any two skills; each of those skills becomes a class skill for you. For every other regional trait you have, select an additional skill to treat as a class skill.</p>
 </IonLabel></IonItem></IonList>};
-const _traits_religion_empyreal_lords = {title: "Religion Traits: Empyreal Lords", jsx: <IonList lines="full"><MainLink to="/main/traits_religion" className="reversed" info="Back to Religion Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitempyrealfocus-empyreal-focus-fn1-fn2" extraClasses="trait" icon={["prayer"]}>
+const _traits_religion_empyreal_lords = {title: "Religion Traits: Empyreal Lords", jsx: <IonList lines="full"><MainLink to="/main/traits_religion" className="reversed" info="Back to Religion Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitempyrealfocus-empyreal-focus-fn1-fn2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitempyrealfocus-empyreal-focus-fn1-fn2"><Link to="/trait/empyreal_focus">⮞</Link> Empyreal Focus <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-1" id="main-traits_religion_empyreal_lords-fake-fn-1" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-2" id="main-traits_religion_empyreal_lords-fake-fn-2" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Empyreal Lords</Pair>
 <Pair single="flavor" id="traitempyrealfocus-empyreal-focus-fn1-fn2-flavor">The empyreal lord you worship rewards your devotion by granting you an occasional boon.</Pair>
 <Pair single="benefit" id="traitempyrealfocus-empyreal-focus-fn1-fn2-benefit">Once per day, before you attempt a skill check, you can use this boon to gain a +2 trait bonus on that skill check.</Pair>
 </Ability>
-<Ability id="traitandolettasconsolation-andolettas-consolation-fn3" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitandolettasconsolation-andolettas-consolation-fn3" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitandolettasconsolation-andolettas-consolation-fn3"><Link to="/trait/andolettas_consolation">⮞</Link> Andoletta's Consolation <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-3" id="main-traits_religion_empyreal_lords-fake-fn-3" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/andoletta">Andoletta</Link></Pair>
 <Pair single="flavor" id="traitandolettasconsolation-andolettas-consolation-fn3-flavor">You had a close encounter with a servant or worshiper of Andoletta who provided you with a memorable, if unconventional, consolation after a loss.</Pair>
 <Pair single="benefit" id="traitandolettasconsolation-andolettas-consolation-fn3-benefit">You gain a +2 trait bonus on saving throws against emotion and fear effects. If you are immune to fear, you instead gain a +4 trait bonus on saves against emotion effects.</Pair>
 </Ability>
-<Ability id="traitenemyofdelusion-enemy-of-delusion-fn3-2" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitenemyofdelusion-enemy-of-delusion-fn3-2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitenemyofdelusion-enemy-of-delusion-fn3-2"><Link to="/trait/enemy_of_delusion">⮞</Link> Enemy of Delusion <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-3.2" id="main-traits_religion_empyreal_lords-fake-fn-3.2" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/andoletta">Andoletta</Link></Pair>
 <Pair single="flavor" id="traitenemyofdelusion-enemy-of-delusion-fn3-2-flavor">You were once faced with a grave injustice committed by an ignorant or delusional person, and righteous indignation moved you to correct the mistaken party.</Pair>
 <Pair single="benefit" id="traitenemyofdelusion-enemy-of-delusion-fn3-2-benefit">Once per day, when you confirm a critical hit against, successfully use a <em>smite</em> attack on, or use <Link to="/ability/lay_on_hands">lay on hands</Link> on a creature that is affected by a charm or compulsion effect, you can invoke Andoletta to open the target's eyes. If the effect originally allowed a saving throw to resist it, the target can attempt a new saving throw against the charm or compulsion; if she's successful, the effect ends immediately.</Pair>
 </Ability>
-<Ability id="traiteyeofarqueros-eye-of-arqueros-fn3-3" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traiteyeofarqueros-eye-of-arqueros-fn3-3" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traiteyeofarqueros-eye-of-arqueros-fn3-3"><Link to="/trait/eye_of_arqueros">⮞</Link> Eye of Arqueros <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-3.3" id="main-traits_religion_empyreal_lords-fake-fn-3.3" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/arqueros">Arqueros</Link></Pair>
 <Pair single="flavor" id="traiteyeofarqueros-eye-of-arqueros-fn3-3-flavor">You once fell asleep during a task that required your attention. A vision of Arqueros awakened you just in time to avoid failing at your task.</Pair>
 <Pair single="benefit" id="traiteyeofarqueros-eye-of-arqueros-fn3-3-benefit">You gain a +3 trait bonus on <Link to="/skill/perception">Perception</Link> checks attempted while you are alone on guard duty.</Pair>
 </Ability>
-<Ability id="traitlivingbulwark-living-bulwark-fn3-4" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitlivingbulwark-living-bulwark-fn3-4" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitlivingbulwark-living-bulwark-fn3-4"><Link to="/trait/living_bulwark">⮞</Link> Living Bulwark <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-3.4" id="main-traits_religion_empyreal_lords-fake-fn-3.4" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/arqueros">Arqueros</Link></Pair>
 <Pair single="flavor" id="traitlivingbulwark-living-bulwark-fn3-4-flavor">The Golden Bulwark inspires you to give your all for those you protect.</Pair>
 <Pair single="benefit" id="traitlivingbulwark-living-bulwark-fn3-4-benefit">Once per day, when an adjacent ally is targeted by an attack but before the attack roll is attempted, you can interpose yourself as an <strong className="hl">immediate action</strong>. You become the target of the attack instead.</Pair>
 </Ability>
-<Ability id="traitscarredbywar-scarred-by-war-fn4" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitscarredbywar-scarred-by-war-fn4" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitscarredbywar-scarred-by-war-fn4"><Link to="/trait/scarred_by_war">⮞</Link> Scarred by War <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-4" id="main-traits_religion_empyreal_lords-fake-fn-4" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/dalenydra">Dalenydra</Link></Pair>
 <Pair single="flavor" id="traitscarredbywar-scarred-by-war-fn4-flavor">You have experienced firsthand the horrors of war, which have left you physically or mentally scarred. Now you have committed yourself to the teachings of the Blessed Attendant, seeking to heal those wounded in combat and to prevent battles from occurring whenever you can.</Pair>
 <Pair single="benefit" id="traitscarredbywar-scarred-by-war-fn4-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks outside of combat. In addition, when you heal creatures other than yourself using class abilities, feats, spells, and spell completion or spell trigger magic items, you restore 1 additional hit point.</Pair>
 </Ability>
-<Ability id="traitavowedinspiration-avowed-inspiration-fn3-5" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitavowedinspiration-avowed-inspiration-fn3-5" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitavowedinspiration-avowed-inspiration-fn3-5"><Link to="/trait/avowed_inspiration">⮞</Link> Avowed Inspiration <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-3.5" id="main-traits_religion_empyreal_lords-fake-fn-3.5" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ragathiel">Ragathiel</Link></Pair>
 <Pair single="flavor" id="traitavowedinspiration-avowed-inspiration-fn3-5-flavor">In emulation of the empyreal lord's intensely channeled rage, you are an inspiration on the battlefield.</Pair>
 <Pair single="benefit" id="traitavowedinspiration-avowed-inspiration-fn3-5-benefit">Once per day, when you attack a foe who injured you during the same combat, you can inspire allies who can see you as a <strong className="hl">move action</strong>. Each other ally within 30 feet who can see you gains a +2 morale bonus on her next attack roll.</Pair>
 </Ability>
-<Ability id="traitredeemedbyragathiel-redeemed-by-ragathiel-fn3-6" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitredeemedbyragathiel-redeemed-by-ragathiel-fn3-6" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitredeemedbyragathiel-redeemed-by-ragathiel-fn3-6"><Link to="/trait/redeemed_by_ragathiel">⮞</Link> Redeemed by Ragathiel <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-3.6" id="main-traits_religion_empyreal_lords-fake-fn-3.6" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ragathiel">Ragathiel</Link></Pair>
 <Pair single="flavor" id="traitredeemedbyragathiel-redeemed-by-ragathiel-fn3-6-flavor">You were born into a family, nation, or other group that tried to impress evil ideals upon you, but you were inspired by Ragathiel to live a moral life despite their influence.</Pair>
 <Pair single="benefit" id="traitredeemedbyragathiel-redeemed-by-ragathiel-fn3-6-benefit">You gain a +2 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks to see through an evil creature's <Link to="/skill/bluff">Bluff</Link> attempts.</Pair>
 </Ability>
-<Ability id="traitblindzeal-blind-zeal-fn3-7" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitblindzeal-blind-zeal-fn3-7" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitblindzeal-blind-zeal-fn3-7"><Link to="/trait/blind_zeal">⮞</Link> Blind Zeal <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-3.7" id="main-traits_religion_empyreal_lords-fake-fn-3.7" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/vildeis">Vildeis</Link></Pair>
 <Pair single="flavor" id="traitblindzeal-blind-zeal-fn3-7-flavor">You are blind but trained by followers of Vildeis to sense your surroundings by sound and touch. You need not attempt a skill check to move at full speed.</Pair>
 <Pair single="benefit" id="traitblindzeal-blind-zeal-fn3-7-benefit">You take a -4 penalty from <Link to="/misc/blindness">blindness</Link> on only <Link to="/skill/acrobatics">Acrobatics</Link>, <Link to="/skill/ride">Ride</Link>, <Link to="/skill/sleight_of_hand">Sleight of Hand</Link>, and <Link to="/skill/stealth">Stealth</Link> checks. You gain <Link to="/feat/blind_fight">Blind-Fight</Link> as a bonus feat. You lose the benefits of this trait whenever you can see, but regain them if you once again become blind.</Pair>
 </Ability>
-<Ability id="traitbloodyvengeance-bloody-vengeance-fn4-2" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitbloodyvengeance-bloody-vengeance-fn4-2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitbloodyvengeance-bloody-vengeance-fn4-2"><Link to="/trait/bloody_vengeance">⮞</Link> Bloody Vengeance <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-4.2" id="main-traits_religion_empyreal_lords-fake-fn-4.2" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/vildeis">Vildeis</Link></Pair>
 <Pair single="flavor" id="traitbloodyvengeance-bloody-vengeance-fn4-2-flavor">You were slain by evil forces as a child, but a follower of Vildeis restored you to life. Now you live on in service to the Cardinal Martyr, battling the forces of evil so no other child will know the icy grip of death.</Pair>
 <Pair single="benefit" id="traitbloodyvengeance-bloody-vengeance-fn4-2-benefit">You gain a +2 trait bonus on attack rolls to confirm critical hits against any creature that has at least a faint evil aura (see <Link to="/spell/detect_evil">detect evil</Link>).</Pair>
 </Ability>
-<Ability id="traitresilientmartyr-resilient-martyr-fn3-8" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitresilientmartyr-resilient-martyr-fn3-8" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitresilientmartyr-resilient-martyr-fn3-8"><Link to="/trait/resilient_martyr">⮞</Link> Resilient Martyr <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-3.8" id="main-traits_religion_empyreal_lords-fake-fn-3.8" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/vildeis">Vildeis</Link></Pair>
@@ -1311,167 +1311,167 @@ const _traits_religion_empyreal_lords = {title: "Religion Traits: Empyreal Lords
 <li id="main-traits_religion_empyreal_lords-fake-fn-3-target"><p><Link to="/source/divine_anthology">Divine Anthology</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_religion_empyreal_lords-fake-fn-3" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3">↩</InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_religion_empyreal_lords-fake-fn-3.2" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_religion_empyreal_lords-fake-fn-3.3" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_religion_empyreal_lords-fake-fn-3.4" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_religion_empyreal_lords-fake-fn-3.5" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_religion_empyreal_lords-fake-fn-3.6" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_religion_empyreal_lords-fake-fn-3.7" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_religion_empyreal_lords-fake-fn-3.8" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3.8">↩<sup>8</sup></InnerLink></p></li>
 <li id="main-traits_religion_empyreal_lords-fake-fn-4-target"><p><Link to="/source/healers_handbook">Healer's Handbook</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_religion_empyreal_lords-fake-fn-4" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-4">↩</InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_religion_empyreal_lords-fake-fn-4.2" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-4.2">↩<sup>2</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_religion_dwarven = {title: "Religion Traits: Dwarven Deities", jsx: <IonList lines="full"><MainLink to="/main/traits_religion" className="reversed" info="Back to Religion Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitpropitiation-propitiation-fn1-fn2" extraClasses="trait" icon={["prayer"]}>
+const _traits_religion_dwarven = {title: "Religion Traits: Dwarven Deities", jsx: <IonList lines="full"><MainLink to="/main/traits_religion" className="reversed" info="Back to Religion Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitpropitiation-propitiation-fn1-fn2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitpropitiation-propitiation-fn1-fn2"><Link to="/trait/propitiation">⮞</Link> Propitiation <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-1" id="main-traits_religion_dwarven-fake-fn-1" data-hash-target to="main-traits_religion_dwarven-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-2" id="main-traits_religion_dwarven-fake-fn-2" data-hash-target to="main-traits_religion_dwarven-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Dwarven Deities</Pair>
 <Pair single="flavor" id="traitpropitiation-propitiation-fn1-fn2-flavor">Your knowledge of the dwarven pantheon tells you precisely which gods have jurisdiction over which aspects of your life, and you can call upon the appropriate deity for help even if that deity is not your patron.</Pair>
 <Pair single="benefit" id="traitpropitiation-propitiation-fn1-fn2-benefit">At the start of each day, pick one of the following skills: <Link to="/skill/appraise">Appraise</Link>, <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/craft">Craft</Link> (pick one craft skill), <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/intimidate">Intimidate</Link>, or <Link to="/skill/knowledge_local">Knowledge (local)</Link>. You gain a +2 trait bonus on that skill until the start of the next day.</Pair>
 </Ability>
-<Ability id="traitangraddsflame-angradds-flame-fn3" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitangraddsflame-angradds-flame-fn3" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitangraddsflame-angradds-flame-fn3"><Link to="/trait/angradds_flame">⮞</Link> Angradd's Flame <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-3" id="main-traits_religion_dwarven-fake-fn-3" data-hash-target to="main-traits_religion_dwarven-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/angradd">Angradd</Link></Pair>
 <Pair single="flavor" id="traitangraddsflame-angradds-flame-fn3-flavor">Your faith in the Forge-Fire fans the passionate flames of war in your heart.</Pair>
 <Pair single="benefit" id="traitangraddsflame-angradds-flame-fn3-benefit">Whenever you confirm a critical hit, you deal 1 additional point of damage to your target. This damage is considered <Link to="/misc/precision_damage">precision damage</Link>.</Pair>
 </Ability>
-<Ability id="traitangraddsvalor-angradds-valor-fn4" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitangraddsvalor-angradds-valor-fn4" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitangraddsvalor-angradds-valor-fn4"><Link to="/trait/angradds_valor">⮞</Link> Angradd's Valor <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-4" id="main-traits_religion_dwarven-fake-fn-4" data-hash-target to="main-traits_religion_dwarven-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/angradd">Angradd</Link></Pair>
 <Pair single="flavor" id="traitangraddsvalor-angradds-valor-fn4-flavor">You hope to earn a place at Angradd's side after death and are inspired to charge with all your might into any righteous battle.</Pair>
 <Pair single="benefit" id="traitangraddsvalor-angradds-valor-fn4-benefit">You gain a +1 trait bonus on all melee attack rolls when you charge.</Pair>
 </Ability>
-<Ability id="traitbattlefieldcaster-battlefield-caster-fn5" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitbattlefieldcaster-battlefield-caster-fn5" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitbattlefieldcaster-battlefield-caster-fn5"><Link to="/trait/battlefield_caster">⮞</Link> Battlefield Caster <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-5" id="main-traits_religion_dwarven-fake-fn-5" data-hash-target to="main-traits_religion_dwarven-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/angradd">Angradd</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/torag">Torag</Link>, or <Link to="/faith/trudd">Trudd</Link></Pair>
 <Pair single="flavor" id="traitbattlefieldcaster-battlefield-caster-fn5-flavor">Your faith protects you even as you unleash spells in the thick of battle.</Pair>
 <Pair single="benefit" id="traitbattlefieldcaster-battlefield-caster-fn5-benefit">You receive a +1 trait bonus on <Link to="/rule/concentration">concentration</Link> checks to cast defensively and a +1 trait bonus to AC against attacks provoked by or readied against spellcasting.</Pair>
 </Ability>
-<Ability id="traitrousingcourage-rousing-courage-fn4-2" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitrousingcourage-rousing-courage-fn4-2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitrousingcourage-rousing-courage-fn4-2"><Link to="/trait/rousing_courage">⮞</Link> Rousing Courage <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-4.2" id="main-traits_religion_dwarven-fake-fn-4.2" data-hash-target to="main-traits_religion_dwarven-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/angradd">Angradd</Link></Pair>
 <Pair single="flavor" id="traitrousingcourage-rousing-courage-fn4-2-flavor">A dwarven warrior's simple act of courage in Angradd's name inspired you during one of your first battles. Now, you strive to be equally inspiring to others.</Pair>
 <Pair single="benefit" id="traitrousingcourage-rousing-courage-fn4-2-benefit">Once per day, when you generate an effect that grants a morale bonus, increase that bonus by 1 for all creatures affected.</Pair>
 </Ability>
-<Ability id="traitwellprepared-well-prepared-fn1-2" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitwellprepared-well-prepared-fn1-2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitwellprepared-well-prepared-fn1-2"><Link to="/trait/well_prepared">⮞</Link> Well-Prepared <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-1.2" id="main-traits_religion_dwarven-fake-fn-1.2" data-hash-target to="main-traits_religion_dwarven-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/angradd">Angradd</Link></Pair>
 <Pair single="flavor" id="traitwellprepared-well-prepared-fn1-2-flavor">Angradd teaches that a good offense can be the best defense.</Pair>
 <Pair single="benefit" id="traitwellprepared-well-prepared-fn1-2-benefit">You gain a +1 trait bonus on attack rolls made as part of a <Link to="/rule/readied_action">readied action</Link>, and a +1 trait bonus on caster level checks when casting a spell as a readied action.</Pair>
 </Ability>
-<Ability id="traitalluring-alluring-fn5-2" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitalluring-alluring-fn5-2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitalluring-alluring-fn5-2"><Link to="/trait/alluring">⮞</Link> Alluring <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-5.2" id="main-traits_religion_dwarven-fake-fn-5.2" data-hash-target to="main-traits_religion_dwarven-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/bolka">Bolka</Link></Pair>
 <Pair single="flavor" id="traitalluring-alluring-fn5-2-flavor">You have the art of turning a passing glance into love.</Pair>
 <Pair single="benefit" id="traitalluring-alluring-fn5-2-benefit">You receive a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks with those who find you attractive. You can use <Link to="/spell/daze">daze</Link> once per day as a spell-like ability, with a caster level equal to your character level.</Pair>
 </Ability>
-<Ability id="traitweddedbliss-wedded-bliss-fn1-3" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitweddedbliss-wedded-bliss-fn1-3" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitweddedbliss-wedded-bliss-fn1-3"><Link to="/trait/wedded_bliss">⮞</Link> Wedded Bliss <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-1.3" id="main-traits_religion_dwarven-fake-fn-1.3" data-hash-target to="main-traits_religion_dwarven-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/bolka">Bolka</Link></Pair>
 <Pair single="benefit" id="traitweddedbliss-wedded-bliss-fn1-3-benefit">Your commitment to your own marriage or your burning desire to be wed grants you a +2 trait bonus on saving throws against charm and compulsion effects.</Pair>
 </Ability>
-<Ability id="traitfuriousvengeance-furious-vengeance-fn1-4" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitfuriousvengeance-furious-vengeance-fn1-4" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitfuriousvengeance-furious-vengeance-fn1-4"><Link to="/trait/furious_vengeance">⮞</Link> Furious Vengeance <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-1.4" id="main-traits_religion_dwarven-fake-fn-1.4" data-hash-target to="main-traits_religion_dwarven-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/dranngvit">Dranngvit</Link></Pair>
 <Pair single="flavor" id="traitfuriousvengeance-furious-vengeance-fn1-4-flavor">Once wronged, your vengeance can be swift and brutal.</Pair>
 <Pair single="benefit" id="traitfuriousvengeance-furious-vengeance-fn1-4-benefit">Once per day as an <strong className="hl">immediate action</strong>, you gain a +1 trait bonus on a single attack roll. In addition, if the target has damaged you within the last round, you deal 1 additional point of damage on a successful hit. You must choose to use this ability before making the attack roll.</Pair>
 </Ability>
-<Ability id="traitextendedtoil-extended-toil-fn1-5" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitextendedtoil-extended-toil-fn1-5" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitextendedtoil-extended-toil-fn1-5"><Link to="/trait/extended_toil">⮞</Link> Extended Toil <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-1.5" id="main-traits_religion_dwarven-fake-fn-1.5" data-hash-target to="main-traits_religion_dwarven-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/droskar">Droskar</Link></Pair>
 <Pair single="flavor" id="traitextendedtoil-extended-toil-fn1-5-flavor">Your faith teaches you to push magical servants to the limit.</Pair>
 <Pair single="benefit" id="traitextendedtoil-extended-toil-fn1-5-benefit">When you cast a spell that creates a loyal servant to fulfill a specific or mindless task (such as <Link to="/spell/unseen_servant">unseen servant</Link>, <Link to="/spell/mount">mount</Link>, or <Link to="/spell/spiritual_weapon">spiritual weapon</Link>, but not <Link to="/spell/summon_monster">summon monster</Link> spells), you may choose to increase its duration by 50%. This does not stack with the <Link to="/feat/extend_spell">Extend Spell</Link> feat. The effect weakens the spell, however; dispel checks against spells you cast in this manner gain a +4 bonus.</Pair>
 </Ability>
-<Ability id="traitresigned-resigned-fn5-3" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitresigned-resigned-fn5-3" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitresigned-resigned-fn5-3"><Link to="/trait/resigned">⮞</Link> Resigned <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-5.3" id="main-traits_religion_dwarven-fake-fn-5.3" data-hash-target to="main-traits_religion_dwarven-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/droskar">Droskar</Link></Pair>
 <Pair single="flavor" id="traitresigned-resigned-fn5-3-flavor">Existence is little more than unending toil. By laboring unto exhaustion, greatness can be achieved.</Pair>
 <Pair single="benefit" id="traitresigned-resigned-fn5-3-benefit">You receive a +1 trait bonus when retrying a previously failed skill check or ability check, as well as when taking 20 on skill checks and ability checks.</Pair>
 </Ability>
-<Ability id="traittoilcrafter-toilcrafter-fn5-4" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traittoilcrafter-toilcrafter-fn5-4" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traittoilcrafter-toilcrafter-fn5-4"><Link to="/trait/toilcrafter">⮞</Link> Toilcrafter <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-5.4" id="main-traits_religion_dwarven-fake-fn-5.4" data-hash-target to="main-traits_religion_dwarven-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/droskar">Droskar</Link></Pair>
 <Pair single="flavor" id="traittoilcrafter-toilcrafter-fn5-4-flavor">You can craft passable if inferior magical weapons, armors, and shields through diligence and toil.</Pair>
 <Pair single="benefit" id="traittoilcrafter-toilcrafter-fn5-4-benefit">Choose one <Link to="/skill/craft">Craft</Link> or <Link to="/skill/profession">Profession</Link> skill in which you have at least 1 rank. Ranks in your chosen skill count as your caster level for the purpose of qualifying for the <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link> feat. You may craft +1 armor, weapons, or shields (with no special qualities), substituting your rank in the chosen skill for your caster level. You must use the chosen skill for the check to create the item. Crafting in this fashion takes twice as long as normal. These items cannot be upgraded with new abilities.</Pair>
 </Ability>
-<Ability id="traitblessedorphan-blessed-orphan-fn1-6" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitblessedorphan-blessed-orphan-fn1-6" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitblessedorphan-blessed-orphan-fn1-6"><Link to="/trait/blessed_orphan">⮞</Link> Blessed Orphan <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-1.6" id="main-traits_religion_dwarven-fake-fn-1.6" data-hash-target to="main-traits_religion_dwarven-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/folgrit">Folgrit</Link></Pair>
 <Pair single="flavor" id="traitblessedorphan-blessed-orphan-fn1-6-flavor">As an orphan, you have always looked to Folgrit for protection.</Pair>
 <Pair single="benefit" id="traitblessedorphan-blessed-orphan-fn1-6-benefit">Once per day, you gain a +1 trait bonus on any saving throw. You must use this ability after the roll is made but before the result is revealed.</Pair>
 </Ability>
-<Ability id="traitfolgritsbounty-folgrits-bounty-fn4-3" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitfolgritsbounty-folgrits-bounty-fn4-3" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitfolgritsbounty-folgrits-bounty-fn4-3"><Link to="/trait/folgrits_bounty">⮞</Link> Folgrit's Bounty <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-4.3" id="main-traits_religion_dwarven-fake-fn-4.3" data-hash-target to="main-traits_religion_dwarven-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/folgrit">Folgrit</Link></Pair>
 <Pair single="flavor" id="traitfolgritsbounty-folgrits-bounty-fn4-3-flavor">You were taught to tend the sacred hearth-fire and cook nourishing meals as a child.</Pair>
 <Pair single="benefit" id="traitfolgritsbounty-folgrits-bounty-fn4-3-benefit">You gain a +1 trait bonus on <Link to="/skill/profession">Profession</Link> (cook) checks and can prepare a nourishing meal of up to eight portions with 1 hour of effort at a cost of 20 gp. Anyone who eats a portion within 1 day (which takes 10 minutes) gains a +1 morale bonus that can be applied to any one skill check or attack roll in the next 8 hours. The bonus must be applied before the roll is made and cannot be renewed by another meal for 1 day.</Pair>
 </Ability>
-<Ability id="traitfolgritsmercy-folgrits-mercy-fn4-4" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitfolgritsmercy-folgrits-mercy-fn4-4" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitfolgritsmercy-folgrits-mercy-fn4-4"><Link to="/trait/folgrits_mercy">⮞</Link> Folgrit's Mercy <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-4.4" id="main-traits_religion_dwarven-fake-fn-4.4" data-hash-target to="main-traits_religion_dwarven-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/folgrit">Folgrit</Link></Pair>
 <Pair single="flavor" id="traitfolgritsmercy-folgrits-mercy-fn4-4-flavor">You were called upon to defend your home or family at a vulnerable time and led with a clarity of mind you did not know you had.</Pair>
 <Pair single="benefit" id="traitfolgritsmercy-folgrits-mercy-fn4-4-benefit">Once per day when you use <Link to="/ability/lay_on_hands">lay on hands</Link>, you also cure the target of 1d4 points of Intelligence, Wisdom, or Charisma damage. You choose which ability score gains the healing effect.</Pair>
 </Ability>
-<Ability id="traithoneyedwords-honeyed-words-fn5-5" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traithoneyedwords-honeyed-words-fn5-5" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traithoneyedwords-honeyed-words-fn5-5"><Link to="/trait/honeyed_words">⮞</Link> Honeyed Words <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-5.5" id="main-traits_religion_dwarven-fake-fn-5.5" data-hash-target to="main-traits_religion_dwarven-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/grundinnar">Grundinnar</Link></Pair>
 <Pair single="flavor" id="traithoneyedwords-honeyed-words-fn5-5-flavor">Your tact soothes bristling tempers and cools heated blood.</Pair>
 <Pair single="benefit" id="traithoneyedwords-honeyed-words-fn5-5-benefit">You receive a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks. In addition, you receive a +1 trait bonus to the DC of any charm or compulsion that does not provide ongoing control and results in peaceful acts, such as <Link to="/spell/calm_emotions">calm emotions</Link>, <Link to="/spell/sleep">sleep</Link>, or a <Link to="/spell/suggestion">suggestion</Link> to lay down arms.</Pair>
 </Ability>
-<Ability id="traitloyalbond-loyal-bond-fn1-7" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitloyalbond-loyal-bond-fn1-7" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitloyalbond-loyal-bond-fn1-7"><Link to="/trait/loyal_bond">⮞</Link> Loyal Bond <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-1.7" id="main-traits_religion_dwarven-fake-fn-1.7" data-hash-target to="main-traits_religion_dwarven-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/grundinnar">Grundinnar</Link></Pair>
 <Pair single="flavor" id="traitloyalbond-loyal-bond-fn1-7-flavor">You are at your best when you serve others.</Pair>
 <Pair single="benefit" id="traitloyalbond-loyal-bond-fn1-7-benefit">When you cast spells that offer protection to an ally at your expense (such as <Link to="/spell/shield_other">shield other</Link>) or spells whose duration is divided when shared among many (such as <Link to="/spell/water_breathing">water breathing</Link> or any of the <em>communal</em> spells), you do so at +1 caster level.</Pair>
 </Ability>
-<Ability id="traitoathkeepersvow-oathkeepers-vow-fn4-5" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitoathkeepersvow-oathkeepers-vow-fn4-5" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitoathkeepersvow-oathkeepers-vow-fn4-5"><Link to="/trait/oathkeepers_vow">⮞</Link> Oathkeeper's Vow <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-4.5" id="main-traits_religion_dwarven-fake-fn-4.5" data-hash-target to="main-traits_religion_dwarven-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/kols">Kols</Link></Pair>
 <Pair single="flavor" id="traitoathkeepersvow-oathkeepers-vow-fn4-5-flavor">The clergy of Kols trained you to make unbreakable vows.</Pair>
 <Pair single="benefit" id="traitoathkeepersvow-oathkeepers-vow-fn4-5-benefit">You add the following spells to the paladin spell list at the indicated levels: <Link to="/spell/command">command</Link> (1st), <Link to="/spell/forbid_action">forbid action</Link> (1st), <Link to="/spell/suggestion">suggestion</Link> (to fulfill a prior promise only; 2nd), <Link to="/spell/lesser_geas">lesser geas</Link> (3rd), <Link to="/spell/geas_quest">geas/quest</Link> (4th).</Pair>
 </Ability>
-<Ability id="traitrelentlessduty-relentless-duty-fn4-6" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitrelentlessduty-relentless-duty-fn4-6" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitrelentlessduty-relentless-duty-fn4-6"><Link to="/trait/relentless_duty">⮞</Link> Relentless Duty <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-4.6" id="main-traits_religion_dwarven-fake-fn-4.6" data-hash-target to="main-traits_religion_dwarven-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/kols">Kols</Link></Pair>
 <Pair single="flavor" id="traitrelentlessduty-relentless-duty-fn4-6-flavor">You were raised with the mantra that fulfilling your duty must always come first. Now living up to a promise comes as easily as breathing.</Pair>
 <Pair single="benefit" id="traitrelentlessduty-relentless-duty-fn4-6-benefit">Once per day, you can take 10 on a skill check attempted as part of fulfilling a prior promise even if you are distracted or in combat.</Pair>
 </Ability>
-<Ability id="traitstrictjudgment-strict-judgment-fn1-8" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitstrictjudgment-strict-judgment-fn1-8" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitstrictjudgment-strict-judgment-fn1-8"><Link to="/trait/strict_judgment">⮞</Link> Strict Judgment <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-1.8" id="main-traits_religion_dwarven-fake-fn-1.8" data-hash-target to="main-traits_religion_dwarven-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/kols">Kols</Link></Pair>
 <Pair single="flavor" id="traitstrictjudgment-strict-judgment-fn1-8-flavor">Your respect for the letter of the law bleeds into your spellcasting.</Pair>
 <Pair single="benefit" id="traitstrictjudgment-strict-judgment-fn1-8-benefit">Any spells you cast that prescribe certain behaviors with a consequence for breaking these directives (such as <Link to="/spell/mark_of_justice">mark of justice</Link> or <Link to="/spell/geas">geas</Link>) have their save DC increased by 1.</Pair>
 </Ability>
-<Ability id="traitgiftedmedium-gifted-medium-fn1-9" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitgiftedmedium-gifted-medium-fn1-9" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitgiftedmedium-gifted-medium-fn1-9"><Link to="/trait/gifted_medium">⮞</Link> Gifted Medium <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-1.9" id="main-traits_religion_dwarven-fake-fn-1.9" data-hash-target to="main-traits_religion_dwarven-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/magrim">Magrim</Link></Pair>
 <Pair single="flavor" id="traitgiftedmedium-gifted-medium-fn1-9-flavor">Your understanding of Magrim's teachings makes you a perfect conduit for mystical forces.</Pair>
 <Pair single="benefit" id="traitgiftedmedium-gifted-medium-fn1-9-benefit">You gain a +1 trait bonus on your caster level when using divinations to reach out to other entities, such as <Link to="/spell/commune">commune</Link> or <Link to="/spell/speak_with_dead">speak with dead</Link>.</Pair>
 </Ability>
-<Ability id="traitguardiansmite-guardian-smite-fn4-7" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitguardiansmite-guardian-smite-fn4-7" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitguardiansmite-guardian-smite-fn4-7"><Link to="/trait/guardian_smite">⮞</Link> Guardian Smite <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-4.7" id="main-traits_religion_dwarven-fake-fn-4.7" data-hash-target to="main-traits_religion_dwarven-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/trudd">Trudd</Link></Pair>
 <Pair single="flavor" id="traitguardiansmite-guardian-smite-fn4-7-flavor">Paladins of Trudd taught you to be a blessed, living barrier against enemies who threaten those you hold dear.</Pair>
 <Pair single="benefit" id="traitguardiansmite-guardian-smite-fn4-7-benefit">Once per day, when you strike a foe with <em>smite evil,</em> you can halve the total damage dealt to the foe to reduce that foe's speed to 5 feet for 1 round.</Pair>
 </Ability>
-<Ability id="traitmightyprotector-mighty-protector-fn4-8" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitmightyprotector-mighty-protector-fn4-8" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitmightyprotector-mighty-protector-fn4-8"><Link to="/trait/mighty_protector">⮞</Link> Mighty Protector <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-4.8" id="main-traits_religion_dwarven-fake-fn-4.8" data-hash-target to="main-traits_religion_dwarven-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/trudd">Trudd</Link></Pair>
 <Pair single="flavor" id="traitmightyprotector-mighty-protector-fn4-8-flavor">When you were too young to fight, you witnessed a great tragedy befall an innocent and you swore to Trudd you'd become strong enough to prevent something like that from happening again.</Pair>
 <Pair single="benefit" id="traitmightyprotector-mighty-protector-fn4-8-benefit">Once per day when you hit a foe with a melee attack, you can attempt an <Link to="/rule/aid_another_2">aid another</Link> action as a <strong className="hl">free action</strong> to increase an adjacent ally's AC against that foe. If you succeed, you grant the ally a +4 bonus to AC instead of a +2 bonus for that round.</Pair>
 </Ability>
-<Ability id="traitsteadystrength-steady-strength-fn1-10" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitsteadystrength-steady-strength-fn1-10" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitsteadystrength-steady-strength-fn1-10"><Link to="/trait/steady_strength">⮞</Link> Steady Strength <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-1.10" id="main-traits_religion_dwarven-fake-fn-1.10" data-hash-target to="main-traits_religion_dwarven-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/trudd">Trudd</Link></Pair>
@@ -1485,14 +1485,14 @@ const _traits_religion_dwarven = {title: "Religion Traits: Dwarven Deities", jsx
 <li id="main-traits_religion_dwarven-fake-fn-4-target"><p><Link to="/source/divine_anthology">Divine Anthology</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_religion_dwarven-fake-fn-4" data-hash-target to="main-traits_religion_dwarven-fake-fn-4">↩</InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_religion_dwarven-fake-fn-4.2" data-hash-target to="main-traits_religion_dwarven-fake-fn-4.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_religion_dwarven-fake-fn-4.3" data-hash-target to="main-traits_religion_dwarven-fake-fn-4.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_religion_dwarven-fake-fn-4.4" data-hash-target to="main-traits_religion_dwarven-fake-fn-4.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_religion_dwarven-fake-fn-4.5" data-hash-target to="main-traits_religion_dwarven-fake-fn-4.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_religion_dwarven-fake-fn-4.6" data-hash-target to="main-traits_religion_dwarven-fake-fn-4.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_religion_dwarven-fake-fn-4.7" data-hash-target to="main-traits_religion_dwarven-fake-fn-4.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_religion_dwarven-fake-fn-4.8" data-hash-target to="main-traits_religion_dwarven-fake-fn-4.8">↩<sup>8</sup></InnerLink></p></li>
 <li id="main-traits_religion_dwarven-fake-fn-5-target"><p><Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_religion_dwarven-fake-fn-5" data-hash-target to="main-traits_religion_dwarven-fake-fn-5">↩</InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_religion_dwarven-fake-fn-5.2" data-hash-target to="main-traits_religion_dwarven-fake-fn-5.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_religion_dwarven-fake-fn-5.3" data-hash-target to="main-traits_religion_dwarven-fake-fn-5.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_religion_dwarven-fake-fn-5.4" data-hash-target to="main-traits_religion_dwarven-fake-fn-5.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_religion_dwarven-fake-fn-5.5" data-hash-target to="main-traits_religion_dwarven-fake-fn-5.5">↩<sup>5</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_religion_elven = {title: "Religion Traits: Elven Deities", jsx: <IonList lines="full"><MainLink to="/main/traits_religion" className="reversed" info="Back to Religion Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitelvenpolytheist-elven-polytheist-fn1-fn2" extraClasses="trait" icon={["prayer"]}>
+const _traits_religion_elven = {title: "Religion Traits: Elven Deities", jsx: <IonList lines="full"><MainLink to="/main/traits_religion" className="reversed" info="Back to Religion Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitelvenpolytheist-elven-polytheist-fn1-fn2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitelvenpolytheist-elven-polytheist-fn1-fn2"><Link to="/trait/elven_polytheist">⮞</Link> Elven Polytheist <sup><InnerLink showBacklink="backlink-main-traits_religion_elven-fake-fn-1" id="main-traits_religion_elven-fake-fn-1" data-hash-target to="main-traits_religion_elven-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_elven-fake-fn-2" id="main-traits_religion_elven-fake-fn-2" data-hash-target to="main-traits_religion_elven-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Elven Deities</Pair>
 <Pair single="benefit" id="traitelvenpolytheist-elven-polytheist-fn1-fn2-benefit">Your knowledge of the elven gods has given you a broad perspective, thus granting you a +1 trait bonus on all <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> skill checks, and Knowledge (religion) is always a class skill for you.</Pair>
 </Ability>
 <aside><p>This trait was published as "Elven Pantheist" in <em>Faiths and Purity</em>.</p>
-</aside><Ability id="traitsovyrianpantheist-sovyrian-pantheist-fn3" extraClasses="trait" icon={["prayer"]}>
+</aside><Ability id="traitsovyrianpantheist-sovyrian-pantheist-fn3" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitsovyrianpantheist-sovyrian-pantheist-fn3"><Link to="/trait/sovyrian_pantheist">⮞</Link> Sovyrian Pantheist <sup><InnerLink showBacklink="backlink-main-traits_religion_elven-fake-fn-3" id="main-traits_religion_elven-fake-fn-3" data-hash-target to="main-traits_religion_elven-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Elven Deities</Pair>
@@ -1500,35 +1500,35 @@ const _traits_religion_elven = {title: "Religion Traits: Elven Deities", jsx: <I
 <Pair single="flavor" id="traitsovyrianpantheist-sovyrian-pantheist-fn3-flavor">Strongly influenced by the elves' mysterious other realm, you embrace obscure elven deities that have little influence on Golarion.</Pair>
 <Pair single="benefit" id="traitsovyrianpantheist-sovyrian-pantheist-fn3-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_history">Knowledge (history)</Link> checks to recognize or evaluate art, <Link to="/skill/knowledge_engineering">Knowledge (architecture and engineering)</Link> checks, <Link to="/skill/survival">Survival</Link> checks to hunt game, Constitution checks to <Link to="/rule/run">run</Link>, and <Link to="/skill/spellcraft">Spellcraft</Link> checks involving crystals or gems.</Pair>
 </Ability>
-<Ability id="traitstructuralknowledge-structural-knowledge-fn2-2" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitstructuralknowledge-structural-knowledge-fn2-2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitstructuralknowledge-structural-knowledge-fn2-2"><Link to="/trait/structural_knowledge">⮞</Link> Structural Knowledge <sup><InnerLink showBacklink="backlink-main-traits_religion_elven-fake-fn-2.2" id="main-traits_religion_elven-fake-fn-2.2" data-hash-target to="main-traits_religion_elven-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/findeladlara">Findeladlara</Link></Pair>
 <Pair single="flavor" id="traitstructuralknowledge-structural-knowledge-fn2-2-flavor">You are blessed with an insight into architecture and artifice.</Pair>
 <Pair single="benefit" id="traitstructuralknowledge-structural-knowledge-fn2-2-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> checks, and Knowledge (engineering) is a class skill for you.</Pair>
 </Ability>
-<Ability id="traitfavoredprey-favored-prey-fn2-3" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitfavoredprey-favored-prey-fn2-3" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitfavoredprey-favored-prey-fn2-3"><Link to="/trait/favored_prey">⮞</Link> Favored Prey <sup><InnerLink showBacklink="backlink-main-traits_religion_elven-fake-fn-2.3" id="main-traits_religion_elven-fake-fn-2.3" data-hash-target to="main-traits_religion_elven-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ketephys">Ketephys</Link></Pair>
 <Pair single="flavor" id="traitfavoredprey-favored-prey-fn2-3-flavor">Those you track feel the sting of your arrows.</Pair>
 <Pair single="benefit" id="traitfavoredprey-favored-prey-fn2-3-benefit">You gain a +1 trait bonus on damage rolls when making bow attacks against a creature whose tracks you have successfully followed in the last hour.</Pair>
 </Ability>
-<Ability id="traitgemstonecollector-gemstone-collector-fn4" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitgemstonecollector-gemstone-collector-fn4" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitgemstonecollector-gemstone-collector-fn4"><Link to="/trait/gemstone_collector">⮞</Link> Gemstone Collector <sup><InnerLink showBacklink="backlink-main-traits_religion_elven-fake-fn-4" id="main-traits_religion_elven-fake-fn-4" data-hash-target to="main-traits_religion_elven-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/yuelral">Yuelral</Link></Pair>
 <Pair single="flavor" id="traitgemstonecollector-gemstone-collector-fn4-flavor">You have long found focus and inspiration in the natural beauty of rare gemstones.</Pair>
 <Pair single="benefit" id="traitgemstonecollector-gemstone-collector-fn4-benefit">As long as you carry bejeweled objects worth a total combined value of 200 gp &times; your character level, you gain a +1 trait bonus on all Will saving throws and a +2 trait bonus on a single Charisma-based skill check of your choice.</Pair>
 </Ability>
-<Ability id="traitmagicsmight-magics-might-fn2-4" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitmagicsmight-magics-might-fn2-4" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitmagicsmight-magics-might-fn2-4"><Link to="/trait/magics_might">⮞</Link> Magic's Might <sup><InnerLink showBacklink="backlink-main-traits_religion_elven-fake-fn-2.4" id="main-traits_religion_elven-fake-fn-2.4" data-hash-target to="main-traits_religion_elven-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/yuelral">Yuelral</Link></Pair>
 <Pair single="flavor" id="traitmagicsmight-magics-might-fn2-4-flavor">Your natural affinity for magic allows you to affect even those who resist it.</Pair>
 <Pair single="benefit" id="traitmagicsmight-magics-might-fn2-4-benefit">You gain a +1 trait bonus on caster level checks to overcome spell resistance.</Pair>
 </Ability>
-<Ability id="traitnaturalmagic-natural-magic-fn4-2" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitnaturalmagic-natural-magic-fn4-2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitnaturalmagic-natural-magic-fn4-2"><Link to="/trait/natural_magic">⮞</Link> Natural Magic <sup><InnerLink showBacklink="backlink-main-traits_religion_elven-fake-fn-4.2" id="main-traits_religion_elven-fake-fn-4.2" data-hash-target to="main-traits_religion_elven-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/yuelral">Yuelral</Link></Pair>
@@ -1541,7 +1541,7 @@ const _traits_religion_elven = {title: "Religion Traits: Elven Deities", jsx: <I
 <li id="main-traits_religion_elven-fake-fn-3-target"><p><Link to="/source/elves_of_golarion">Elves of Golarion</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_religion_elven-fake-fn-3" data-hash-target to="main-traits_religion_elven-fake-fn-3">↩</InnerLink></p></li>
 <li id="main-traits_religion_elven-fake-fn-4-target"><p><Link to="/source/divine_anthology">Divine Anthology</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_religion_elven-fake-fn-4" data-hash-target to="main-traits_religion_elven-fake-fn-4">↩</InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_religion_elven-fake-fn-4.2" data-hash-target to="main-traits_religion_elven-fake-fn-4.2">↩<sup>2</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_religion_azlanti = {title: "Religion Traits: Azlanti Gods", jsx: <IonList lines="full"><MainLink to="/main/traits_religion" className="reversed" info="Back to Religion Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitclockworksurgeon-clockwork-surgeon-fn1" extraClasses="trait" icon={["prayer"]}>
+const _traits_religion_azlanti = {title: "Religion Traits: Azlanti Gods", jsx: <IonList lines="full"><MainLink to="/main/traits_religion" className="reversed" info="Back to Religion Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitclockworksurgeon-clockwork-surgeon-fn1" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitclockworksurgeon-clockwork-surgeon-fn1"><Link to="/trait/clockwork_surgeon">⮞</Link> Clockwork Surgeon <sup><InnerLink showBacklink="backlink-main-traits_religion_azlanti-fake-fn-1" id="main-traits_religion_azlanti-fake-fn-1" data-hash-target to="main-traits_religion_azlanti-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/aesocar">Aesocar</Link></Pair>
@@ -1550,21 +1550,21 @@ const _traits_religion_azlanti = {title: "Religion Traits: Azlanti Gods", jsx: <
 <p>When using this healer's kit to treat deadly wounds, you can either halve the time required to perform the action or add your Intelligence modifier to the number of hit points healed.</p>
 </Pair>
 </Ability>
-<Ability id="traitdevoteeofadeadgod-devotee-of-a-dead-god-fn2" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitdevoteeofadeadgod-devotee-of-a-dead-god-fn2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitdevoteeofadeadgod-devotee-of-a-dead-god-fn2"><Link to="/trait/devotee_of_a_dead_god">⮞</Link> Devotee of a Dead God <sup><InnerLink showBacklink="backlink-main-traits_religion_azlanti-fake-fn-2" id="main-traits_religion_azlanti-fake-fn-2" data-hash-target to="main-traits_religion_azlanti-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/aroden">Aroden</Link></Pair>
 <Pair single="flavor" id="traitdevoteeofadeadgod-devotee-of-a-dead-god-fn2-flavor">You simply cannot and will not accept that Aroden is dead. Your faith in his teachings and religion are stronger than ever.</Pair>
 <Pair single="benefit" id="traitdevoteeofadeadgod-devotee-of-a-dead-god-fn2-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks and <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> checks. One of these skills (your choice) is always a class skill for you.</Pair>
 </Ability>
-<Ability id="traitfaithfularodenite-faithful-arodenite-fn3" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitfaithfularodenite-faithful-arodenite-fn3" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitfaithfularodenite-faithful-arodenite-fn3"><Link to="/trait/faithful_arodenite">⮞</Link> Faithful Arodenite <sup><InnerLink showBacklink="backlink-main-traits_religion_azlanti-fake-fn-3" id="main-traits_religion_azlanti-fake-fn-3" data-hash-target to="main-traits_religion_azlanti-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/aroden">Aroden</Link></Pair>
 <Pair single="flavor" id="traitfaithfularodenite-faithful-arodenite-fn3-flavor">You worship a dead god, and are skilled at making that sound reasonable.</Pair>
 <Pair single="benefit" id="traitfaithfularodenite-faithful-arodenite-fn3-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks; this bonus increases to +3 if you are dealing with a follower of Aroden or <Link to="/faith/iomedae">Iomedae</Link>.</Pair>
 </Ability>
-<Ability id="traitsacredorienteer-sacred-orienteer-fn1-2" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitsacredorienteer-sacred-orienteer-fn1-2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitsacredorienteer-sacred-orienteer-fn1-2"><Link to="/trait/sacred_orienteer">⮞</Link> Sacred Orienteer <sup><InnerLink showBacklink="backlink-main-traits_religion_azlanti-fake-fn-1.2" id="main-traits_religion_azlanti-fake-fn-1.2" data-hash-target to="main-traits_religion_azlanti-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/elion">Elion</Link></Pair>
@@ -1573,7 +1573,7 @@ const _traits_religion_azlanti = {title: "Religion Traits: Azlanti Gods", jsx: <
 <p>Once per day you can consult your compass or wayfinder as a <strong className="hl">full-round action</strong> to gain a +2 trait bonus on one Knowledge (geography) or Survival check.</p>
 </Pair>
 </Ability>
-<Ability id="traitfruitsofyourlabor-fruits-of-your-labor-fn1-3" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitfruitsofyourlabor-fruits-of-your-labor-fn1-3" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitfruitsofyourlabor-fruits-of-your-labor-fn1-3"><Link to="/trait/fruits_of_your_labor">⮞</Link> Fruits of Your Labor <sup><InnerLink showBacklink="backlink-main-traits_religion_azlanti-fake-fn-1.3" id="main-traits_religion_azlanti-fake-fn-1.3" data-hash-target to="main-traits_religion_azlanti-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/jaidi">Jaidi</Link></Pair>
@@ -1582,20 +1582,20 @@ const _traits_religion_azlanti = {title: "Religion Traits: Azlanti Gods", jsx: <
 <p>Each creature regains 1d3 hit points at the end of the meal, and gains a +1 trait bonus on its next d20 roll using the <Link to="/rule/aid_another">aid another</Link> action to assist other creatures who consumed the meal. The +1 trait bonus lasts 24 hours, and a creature can gain that bonus on its next d20 roll to assist other creatures from this trait only once per day.</p>
 </Pair>
 </Ability>
-<Ability id="traitloreseeker-loreseeker-fn4" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitloreseeker-loreseeker-fn4" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitloreseeker-loreseeker-fn4"><Link to="/trait/loreseeker">⮞</Link> Loreseeker <sup><InnerLink showBacklink="backlink-main-traits_religion_azlanti-fake-fn-4" id="main-traits_religion_azlanti-fake-fn-4" data-hash-target to="main-traits_religion_azlanti-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/lissala">Lissala</Link></Pair>
 <Pair single="benefit" id="traitloreseeker-loreseeker-fn4-benefit">You gain a +2 trait bonus on <Link to="/skill/spellcraft">Spellcraft</Link> checks made to identify magical items.</Pair>
 </Ability>
-<Ability id="traitsharedancestors-shared-ancestors-fn1-4" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitsharedancestors-shared-ancestors-fn1-4" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitsharedancestors-shared-ancestors-fn1-4"><Link to="/trait/shared_ancestors">⮞</Link> Shared Ancestors <sup><InnerLink showBacklink="backlink-main-traits_religion_azlanti-fake-fn-1.4" id="main-traits_religion_azlanti-fake-fn-1.4" data-hash-target to="main-traits_religion_azlanti-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/myr">Myr</Link></Pair>
 <Pair single="flavor" id="traitsharedancestors-shared-ancestors-fn1-4-flavor">Through your detailed study of your own lineage, you can better understand and honor even your most distant relatives.</Pair>
 <Pair single="benefit" id="traitsharedancestors-shared-ancestors-fn1-4-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/knowledge_history">Knowledge (history)</Link>, <Link to="/skill/knowledge_local">Knowledge (local)</Link>, <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link>, and <Link to="/skill/sense_motive">Sense Motive</Link> checks associated with any creature who shares your type and at least one of your subtypes. One of these skills becomes a class skill.</Pair>
 </Ability>
-<Ability id="traitplanarwayfarer-planar-wayfarer-fn1-5" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitplanarwayfarer-planar-wayfarer-fn1-5" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitplanarwayfarer-planar-wayfarer-fn1-5"><Link to="/trait/planar_wayfarer">⮞</Link> Planar Wayfarer <sup><InnerLink showBacklink="backlink-main-traits_religion_azlanti-fake-fn-1.5" id="main-traits_religion_azlanti-fake-fn-1.5" data-hash-target to="main-traits_religion_azlanti-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/onos">Onos</Link></Pair>
@@ -1608,73 +1608,73 @@ const _traits_religion_azlanti = {title: "Religion Traits: Azlanti Gods", jsx: <
 <li id="main-traits_religion_azlanti-fake-fn-3-target"><p><Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_religion_azlanti-fake-fn-3" data-hash-target to="main-traits_religion_azlanti-fake-fn-3">↩</InnerLink></p></li>
 <li id="main-traits_religion_azlanti-fake-fn-4-target"><p><Link to="/source/faiths_of_corruption">Faiths of Corruption</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_religion_azlanti-fake-fn-4" data-hash-target to="main-traits_religion_azlanti-fake-fn-4">↩</InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_religion_pantheons = {title: "Religion Traits: Other Groupings", jsx: <IonList lines="full"><MainLink to="/main/traits_religion" className="reversed" info="Back to Religion Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitflamesofhell-flames-of-hell-fn1-fn2" extraClasses="trait" icon={["prayer"]}>
+const _traits_religion_pantheons = {title: "Religion Traits: Other Groupings", jsx: <IonList lines="full"><MainLink to="/main/traits_religion" className="reversed" info="Back to Religion Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitflamesofhell-flames-of-hell-fn1-fn2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitflamesofhell-flames-of-hell-fn1-fn2"><Link to="/trait/flames_of_hell">⮞</Link> Flames of Hell <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-1" id="main-traits_religion_pantheons-fake-fn-1" data-hash-target to="main-traits_religion_pantheons-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-2" id="main-traits_religion_pantheons-fake-fn-2" data-hash-target to="main-traits_religion_pantheons-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Archdevils</Pair>
 <Pair single="flavor" id="traitflamesofhell-flames-of-hell-fn1-fn2-flavor">Your bond with the archdevil you worship strengthens your ability to channel powers of the divine.</Pair>
 <Pair single="benefit" id="traitflamesofhell-flames-of-hell-fn1-fn2-benefit">Add 1 to the DC of saving throws made to resist the effects of your <Link to="/ability/channel_energy">channel energy</Link> ability.</Pair>
 </Ability>
-<Ability id="traitdemonicpersuasion-demonic-persuasion-fn1-2-fn2-2" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitdemonicpersuasion-demonic-persuasion-fn1-2-fn2-2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitdemonicpersuasion-demonic-persuasion-fn1-2-fn2-2"><Link to="/trait/demonic_persuasion">⮞</Link> Demonic Persuasion <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-1.2" id="main-traits_religion_pantheons-fake-fn-1.2" data-hash-target to="main-traits_religion_pantheons-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-2.2" id="main-traits_religion_pantheons-fake-fn-2.2" data-hash-target to="main-traits_religion_pantheons-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Demon Lords</Pair>
 <Pair single="flavor" id="traitdemonicpersuasion-demonic-persuasion-fn1-2-fn2-2-flavor">Your lord's favor aids you in your interactions with demonic creatures.</Pair>
 <Pair single="benefit" id="traitdemonicpersuasion-demonic-persuasion-fn1-2-fn2-2-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks when dealing with creatures of the <Link to="/subtype/demon">demon</Link> subtype.</Pair>
 </Ability>
-<Ability id="traitblessingofthefeast-blessing-of-the-feast-fn3" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitblessingofthefeast-blessing-of-the-feast-fn3" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitblessingofthefeast-blessing-of-the-feast-fn3"><Link to="/trait/blessing_of_the_feast">⮞</Link> Blessing of the Feast <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-3" id="main-traits_religion_pantheons-fake-fn-3" data-hash-target to="main-traits_religion_pantheons-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zura">Zura</Link></Pair>
 <Pair single="flavor" id="traitblessingofthefeast-blessing-of-the-feast-fn3-flavor">You come from a cannibal tribe, and find strength in the flesh of your foes.</Pair>
 <Pair single="benefit" id="traitblessingofthefeast-blessing-of-the-feast-fn3-benefit">Whenever you eat the flesh or drink the blood of another orc - a <strong className="hl">full-round action</strong> that provokes attacks of opportunity - you gain the favor of Zura and receive a +1 natural armor bonus for 1 minute/level. You can only receive this benefit once per day.</Pair>
 </Ability>
-<Ability id="traitshaperofreality-shaper-of-reality-fn1-3" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitshaperofreality-shaper-of-reality-fn1-3" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitshaperofreality-shaper-of-reality-fn1-3"><Link to="/trait/shaper_of_reality">⮞</Link> Shaper of Reality <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-1.3" id="main-traits_religion_pantheons-fake-fn-1.3" data-hash-target to="main-traits_religion_pantheons-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/rule/eldest">Eldest</Link></Pair>
 <Pair single="flavor" id="traitshaperofreality-shaper-of-reality-fn1-3-flavor">You can mimic the Eldest's ability to reshape the world.</Pair>
 <Pair single="benefit" id="traitshaperofreality-shaper-of-reality-fn1-3-benefit">Once per day, you can cast either a conjuration spell or a transmutation spell at +1 caster level.</Pair>
 </Ability>
-<Ability id="traitaffinityfortheelements-affinity-for-the-elements-fn1-4-fn2-3" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitaffinityfortheelements-affinity-for-the-elements-fn1-4-fn2-3" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitaffinityfortheelements-affinity-for-the-elements-fn1-4-fn2-3"><Link to="/trait/affinity_for_the_elements">⮞</Link> Affinity for the Elements <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-1.4" id="main-traits_religion_pantheons-fake-fn-1.4" data-hash-target to="main-traits_religion_pantheons-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-2.3" id="main-traits_religion_pantheons-fake-fn-2.3" data-hash-target to="main-traits_religion_pantheons-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Elemental Lords</Pair>
 <Pair single="benefit" id="traitaffinityfortheelements-affinity-for-the-elements-fn1-4-fn2-3-benefit">Add 1 to the DC of saving throws made to resist the effects of spells cast by you that have either the air, earth, fire, or water descriptor, depending on which elemental lord you worship. You must choose a single elemental lord when you take this trait; once chosen, it cannot be changed.</Pair>
 </Ability>
-<Ability id="traitelementalresilience-elemental-resilience-fn1-5" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitelementalresilience-elemental-resilience-fn1-5" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitelementalresilience-elemental-resilience-fn1-5"><Link to="/trait/elemental_resilience">⮞</Link> Elemental Resilience <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-1.5" id="main-traits_religion_pantheons-fake-fn-1.5" data-hash-target to="main-traits_religion_pantheons-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Elemental Lords</Pair>
 <Pair single="benefit" id="traitelementalresilience-elemental-resilience-fn1-5-benefit">Choose one of the following energy types: acid, cold, electricity, or fire. You gain a +1 trait bonus on saving throws against spells with that descriptor. Once the energy type is chosen, it cannot be changed.</Pair>
 </Ability>
-<Ability id="traittwistedtransformations-twisted-transformations-fn4" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traittwistedtransformations-twisted-transformations-fn4" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traittwistedtransformations-twisted-transformations-fn4"><Link to="/trait/twisted_transformations">⮞</Link> Twisted Transformations <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-4" id="main-traits_religion_pantheons-fake-fn-4" data-hash-target to="main-traits_religion_pantheons-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Great Old Ones</Pair>
 <Pair single="flavor" id="traittwistedtransformations-twisted-transformations-fn4-flavor">Whenever you are affected by a transmutation spell of the polymorph subschool, your new form is always in some way horrific, grotesque, or otherwise marked by the corruption of the Great Old Ones.</Pair>
 <Pair single="benefit" id="traittwistedtransformations-twisted-transformations-fn4-benefit">While polymorphed, you gain a +2 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks and increase the DC of spells you cast with the fear descriptor by 1. However, you also take a -2 penalty on <Link to="/skill/diplomacy">Diplomacy</Link> checks while polymorphed.</Pair>
 </Ability>
-<Ability id="traitunspeakablebond-unspeakable-bond-fn1-6-fn2-4" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitunspeakablebond-unspeakable-bond-fn1-6-fn2-4" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitunspeakablebond-unspeakable-bond-fn1-6-fn2-4"><Link to="/trait/unspeakable_bond">⮞</Link> Unspeakable Bond <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-1.6" id="main-traits_religion_pantheons-fake-fn-1.6" data-hash-target to="main-traits_religion_pantheons-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-2.4" id="main-traits_religion_pantheons-fake-fn-2.4" data-hash-target to="main-traits_religion_pantheons-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Great Old Ones or Outer Gods</Pair>
 <Pair single="benefit" id="traitunspeakablebond-unspeakable-bond-fn1-6-fn2-4-benefit">You are an ally of the unclean creatures of the world, and gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks when dealing with creatures of the aberration type.</Pair>
 </Ability>
-<Ability id="traitworthlesspawn-worthless-pawn-fn1-7" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitworthlesspawn-worthless-pawn-fn1-7" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitworthlesspawn-worthless-pawn-fn1-7"><Link to="/trait/worthless_pawn">⮞</Link> Worthless Pawn <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-1.7" id="main-traits_religion_pantheons-fake-fn-1.7" data-hash-target to="main-traits_religion_pantheons-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Great Old Ones</Pair>
 <Pair single="flavor" id="traitworthlesspawn-worthless-pawn-fn1-7-flavor">Your existence is so meaningless to your chosen patron that it cares nothing for how you wield its power.</Pair>
 <Pair single="benefit" id="traitworthlesspawn-worthless-pawn-fn1-7-benefit">You may prepare and cast spells whose alignment is in opposition to your patron's, but doing so causes you to take 1 point of <Link to="/rule/wisdom_damage">Wisdom damage</Link> per spell level when the spell is cast. This does not permit you to use <Link to="/misc/spell_trigger">spell trigger</Link> or <Link to="/misc/spell_completion">spell completion</Link> items of opposing alignments.</Pair>
 </Ability>
-<Ability id="traitcovenantofabaddon-covenant-of-abaddon-fn1-8-fn2-5" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitcovenantofabaddon-covenant-of-abaddon-fn1-8-fn2-5" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitcovenantofabaddon-covenant-of-abaddon-fn1-8-fn2-5"><Link to="/trait/covenant_of_abaddon">⮞</Link> Covenant of Abaddon <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-1.8" id="main-traits_religion_pantheons-fake-fn-1.8" data-hash-target to="main-traits_religion_pantheons-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-2.5" id="main-traits_religion_pantheons-fake-fn-2.5" data-hash-target to="main-traits_religion_pantheons-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Horsemen</Pair>
 <Pair single="benefit" id="traitcovenantofabaddon-covenant-of-abaddon-fn1-8-fn2-5-benefit">Because your soul is pledged to one of the Horsemen, you gain a +2 trait bonus on Fortitude saving throws against level-draining effects.</Pair>
 </Ability>
-<Ability id="traitstarlithexer-starlit-hexer-fn4-2" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitstarlithexer-starlit-hexer-fn4-2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitstarlithexer-starlit-hexer-fn4-2"><Link to="/trait/starlit_hexer">⮞</Link> Starlit Hexer <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-4.2" id="main-traits_religion_pantheons-fake-fn-4.2" data-hash-target to="main-traits_religion_pantheons-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Outer Gods</Pair>
@@ -1687,7 +1687,7 @@ const _traits_religion_pantheons = {title: "Religion Traits: Other Groupings", j
 <li id="main-traits_religion_pantheons-fake-fn-3-target"><p><Link to="/source/orcs_of_golarion">Orcs of Golarion</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_religion_pantheons-fake-fn-3" data-hash-target to="main-traits_religion_pantheons-fake-fn-3">↩</InnerLink></p></li>
 <li id="main-traits_religion_pantheons-fake-fn-4-target"><p><Link to="/source/people_of_the_stars">People of the Stars</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_religion_pantheons-fake-fn-4" data-hash-target to="main-traits_religion_pantheons-fake-fn-4">↩</InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_religion_pantheons-fake-fn-4.2" data-hash-target to="main-traits_religion_pantheons-fake-fn-4.2">↩<sup>2</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_religion_halfling = {title: "Religion Traits: Halfling Deities", jsx: <IonList lines="full"><MainLink to="/main/traits_religion" className="reversed" info="Back to Religion Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitcallforhelp-call-for-help-fn1" extraClasses="trait" icon={["prayer"]}>
+const _traits_religion_halfling = {title: "Religion Traits: Halfling Deities", jsx: <IonList lines="full"><MainLink to="/main/traits_religion" className="reversed" info="Back to Religion Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitcallforhelp-call-for-help-fn1" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitcallforhelp-call-for-help-fn1"><Link to="/trait/call_for_help">⮞</Link> Call for Help <sup><InnerLink showBacklink="backlink-main-traits_religion_halfling-fake-fn-1" id="main-traits_religion_halfling-fake-fn-1" data-hash-target to="main-traits_religion_halfling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/chaldira_zuzaristan">Chaldira Zuzaristan</Link></Pair>
@@ -1695,42 +1695,42 @@ const _traits_religion_halfling = {title: "Religion Traits: Halfling Deities", j
 <Pair single="flavor" id="traitcallforhelp-call-for-help-fn1-flavor">Offering your devotion to and modeling your life on <Link to="/faith/desna">Desna's</Link> impetuous companion means you frequently find yourself in a jam but also ensures that you can always rely upon your friends to bail you out.</Pair>
 <Pair single="benefit" id="traitcallforhelp-call-for-help-fn1-benefit">When you take the <Link to="/misc/total_defense">total defense</Link> action, allies gain a +1 trait bonus on rolls made against a creature threatening you.</Pair>
 </Ability>
-<Ability id="traitchaldirasluck-chaldiras-luck-fn2" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitchaldirasluck-chaldiras-luck-fn2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitchaldirasluck-chaldiras-luck-fn2"><Link to="/trait/chaldiras_luck">⮞</Link> Chaldira's Luck <sup><InnerLink showBacklink="backlink-main-traits_religion_halfling-fake-fn-2" id="main-traits_religion_halfling-fake-fn-2" data-hash-target to="main-traits_religion_halfling-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/chaldira">Chaldira</Link></Pair>
 <Pair single="flavor" id="traitchaldirasluck-chaldiras-luck-fn2-flavor">You found yourself in deep trouble in your youth but stumbled upon an unlikely way out after praying to Chaldira Zuzaristan for luck.</Pair>
 <Pair single="benefit" id="traitchaldirasluck-chaldiras-luck-fn2-benefit">Once per day, you can roll twice and take the better result on a skill check.</Pair>
 </Ability>
-<Ability id="traitlessonsofchaldira-lessons-of-chaldira-fn3-fn4" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitlessonsofchaldira-lessons-of-chaldira-fn3-fn4" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitlessonsofchaldira-lessons-of-chaldira-fn3-fn4"><Link to="/trait/lessons_of_chaldira">⮞</Link> Lessons of Chaldira <sup><InnerLink showBacklink="backlink-main-traits_religion_halfling-fake-fn-3" id="main-traits_religion_halfling-fake-fn-3" data-hash-target to="main-traits_religion_halfling-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_halfling-fake-fn-4" id="main-traits_religion_halfling-fake-fn-4" data-hash-target to="main-traits_religion_halfling-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/chaldira_zuzaristan">Chaldira Zuzaristan</Link></Pair>
 <Pair single="flavor" id="traitlessonsofchaldira-lessons-of-chaldira-fn3-fn4-flavor">Your studies of Chaldira Zuzaristan's exploits have given you a knack for avoiding trouble.</Pair>
 <Pair single="benefit" id="traitlessonsofchaldira-lessons-of-chaldira-fn3-fn4-benefit">Once per day before the result of a saving throw is known, you can reroll that saving throw. You must take the second result even if it is worse.</Pair>
 </Ability>
-<Ability id="traitmischievoussmile-mischievous-smile-fn2-2" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitmischievoussmile-mischievous-smile-fn2-2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitmischievoussmile-mischievous-smile-fn2-2"><Link to="/trait/mischievous_smile">⮞</Link> Mischievous Smile <sup><InnerLink showBacklink="backlink-main-traits_religion_halfling-fake-fn-2.2" id="main-traits_religion_halfling-fake-fn-2.2" data-hash-target to="main-traits_religion_halfling-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/chaldira">Chaldira</Link></Pair>
 <Pair single="flavor" id="traitmischievoussmile-mischievous-smile-fn2-2-flavor">You consider mischief a sacred rite in humbling enemies.</Pair>
 <Pair single="benefit" id="traitmischievoussmile-mischievous-smile-fn2-2-benefit">You do not provoke attacks of opportunity when performing a <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver while your <em>smite evil</em> bonus applies to combat maneuver checks. If you already do not provoke such attacks of opportunity (such as by having <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link>), you instead gain a +2 trait bonus on dirty trick combat maneuver checks against creatures that are the targets of your <em>smite.</em></Pair>
 </Ability>
-<Ability id="traitrecklessluck-reckless-luck-fn3-2" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitrecklessluck-reckless-luck-fn3-2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitrecklessluck-reckless-luck-fn3-2"><Link to="/trait/reckless_luck">⮞</Link> Reckless Luck <sup><InnerLink showBacklink="backlink-main-traits_religion_halfling-fake-fn-3.2" id="main-traits_religion_halfling-fake-fn-3.2" data-hash-target to="main-traits_religion_halfling-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/chaldira_zuzaristan">Chaldira Zuzaristan</Link></Pair>
 <Pair single="flavor" id="traitrecklessluck-reckless-luck-fn3-2-flavor">Like your deity, you charge in when others fall back.</Pair>
 <Pair single="benefit" id="traitrecklessluck-reckless-luck-fn3-2-benefit">When you make a <Link to="/rule/charge">charge</Link> attack in the surprise round or first round of combat, you gain a +2 trait bonus to your AC for 1 round.</Pair>
 </Ability>
-<Ability id="traitalwaysthreatening-always-threatening-fn3-3" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitalwaysthreatening-always-threatening-fn3-3" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitalwaysthreatening-always-threatening-fn3-3"><Link to="/trait/always_threatening">⮞</Link> Always Threatening <sup><InnerLink showBacklink="backlink-main-traits_religion_halfling-fake-fn-3.3" id="main-traits_religion_halfling-fake-fn-3.3" data-hash-target to="main-traits_religion_halfling-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/thamir_gixx">Thamir Gixx</Link></Pair>
 <Pair single="flavor" id="traitalwaysthreatening-always-threatening-fn3-3-flavor">You are fast on the draw.</Pair>
 <Pair single="benefit" id="traitalwaysthreatening-always-threatening-fn3-3-benefit">As a <strong className="hl">move action</strong>, you can draw a light, concealed weapon for which you have <Link to="/feat/weapon_focus">Weapon Focus</Link>. If you have the <Link to="/feat/quick_draw">Quick Draw</Link> feat, drawing this weapon is a <strong className="hl">free action</strong>.</Pair>
 </Ability>
-<Ability id="traitbackstabber-backstabber-fn1-2" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitbackstabber-backstabber-fn1-2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitbackstabber-backstabber-fn1-2"><Link to="/trait/backstabber">⮞</Link> Backstabber <sup><InnerLink showBacklink="backlink-main-traits_religion_halfling-fake-fn-1.2" id="main-traits_religion_halfling-fake-fn-1.2" data-hash-target to="main-traits_religion_halfling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/thamir_gixx">Thamir Gixx</Link></Pair>
@@ -1744,7 +1744,7 @@ const _traits_religion_halfling = {title: "Religion Traits: Halfling Deities", j
 <li id="main-traits_religion_halfling-fake-fn-3-target"><p><Link to="/source/inner_sea_gods">Inner Sea Gods</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_religion_halfling-fake-fn-3" data-hash-target to="main-traits_religion_halfling-fake-fn-3">↩</InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_religion_halfling-fake-fn-3.2" data-hash-target to="main-traits_religion_halfling-fake-fn-3.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_religion_halfling-fake-fn-3.3" data-hash-target to="main-traits_religion_halfling-fake-fn-3.3">↩<sup>3</sup></InnerLink></p></li>
 <li id="main-traits_religion_halfling-fake-fn-4-target"><p><Link to="/source/faiths_of_purity">Faiths of Purity</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_religion_halfling-fake-fn-4" data-hash-target to="main-traits_religion_halfling-fake-fn-4">↩</InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_religion_goblin = {title: "Religion Traits: Goblin Deities", jsx: <IonList lines="full"><MainLink to="/main/traits_religion" className="reversed" info="Back to Religion Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitstrengthofthebarghest-strength-of-the-barghest-fn1" extraClasses="trait" icon={["prayer"]}>
+const _traits_religion_goblin = {title: "Religion Traits: Goblin Deities", jsx: <IonList lines="full"><MainLink to="/main/traits_religion" className="reversed" info="Back to Religion Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitstrengthofthebarghest-strength-of-the-barghest-fn1" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitstrengthofthebarghest-strength-of-the-barghest-fn1"><Link to="/trait/strength_of_the_barghest">⮞</Link> Strength of the Barghest <sup><InnerLink showBacklink="backlink-main-traits_religion_goblin-fake-fn-1" id="main-traits_religion_goblin-fake-fn-1" data-hash-target to="main-traits_religion_goblin-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/hadregash">Hadregash</Link></Pair>
@@ -1752,14 +1752,14 @@ const _traits_religion_goblin = {title: "Religion Traits: Goblin Deities", jsx: 
 <Pair single="flavor" id="traitstrengthofthebarghest-strength-of-the-barghest-fn1-flavor">The blood of the barghests is strong in you.</Pair>
 <Pair single="benefit" id="traitstrengthofthebarghest-strength-of-the-barghest-fn1-benefit">Once per day as a <strong className="hl">free action</strong>, you can gain a +2 trait bonus on any Strength check or Strength-based skill check.</Pair>
 </Ability>
-<Ability id="traitrestlesshunger-restless-hunger-fn1-2" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitrestlesshunger-restless-hunger-fn1-2" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitrestlesshunger-restless-hunger-fn1-2"><Link to="/trait/restless_hunger">⮞</Link> Restless Hunger <sup><InnerLink showBacklink="backlink-main-traits_religion_goblin-fake-fn-1.2" id="main-traits_religion_goblin-fake-fn-1.2" data-hash-target to="main-traits_religion_goblin-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/venkelvore">Venkelvore</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
 <Pair single="benefit" id="traitrestlesshunger-restless-hunger-fn1-2-benefit">If you have a piece of food (or something a goblin might consider food), you can quickly eat it as part of a <Link to="/rule/charge">charge</Link> attack once per day. Doing so increases your speed by 10 feet for 1 round.</Pair>
 </Ability>
-<Ability id="traitwolfcub-wolf-cub-fn1-3" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitwolfcub-wolf-cub-fn1-3" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitwolfcub-wolf-cub-fn1-3"><Link to="/trait/wolf_cub">⮞</Link> Wolf Cub <sup><InnerLink showBacklink="backlink-main-traits_religion_goblin-fake-fn-1.3" id="main-traits_religion_goblin-fake-fn-1.3" data-hash-target to="main-traits_religion_goblin-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zarongel">Zarongel</Link></Pair>
@@ -1767,7 +1767,7 @@ const _traits_religion_goblin = {title: "Religion Traits: Goblin Deities", jsx: 
 <Pair single="flavor" id="traitwolfcub-wolf-cub-fn1-3-flavor">Your body has clumps of ugly fur, a sure sign of wolf blood! You win!</Pair>
 <Pair single="benefit" id="traitwolfcub-wolf-cub-fn1-3-benefit">Once per day as a <strong className="hl">standard action</strong>, you can take a deep breath through your nose to gain the <Link to="/umr/scent">scent</Link> ability for 1 minute.</Pair>
 </Ability>
-<Ability id="traitflounderer-flounderer-fn1-4" extraClasses="trait" icon={["prayer"]}>
+<Ability id="traitflounderer-flounderer-fn1-4" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="traitflounderer-flounderer-fn1-4"><Link to="/trait/flounderer">⮞</Link> Flounderer <sup><InnerLink showBacklink="backlink-main-traits_religion_goblin-fake-fn-1.4" id="main-traits_religion_goblin-fake-fn-1.4" data-hash-target to="main-traits_religion_goblin-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zogmugot">Zogmugot</Link></Pair>
@@ -1778,49 +1778,49 @@ const _traits_religion_goblin = {title: "Religion Traits: Goblin Deities", jsx: 
 </IonLabel></IonItem><section data-footnotes><h3 id="main-traits_religion_goblin-label">Footnotes</h3><ol>
 <li id="main-traits_religion_goblin-fake-fn-1-target"><p><Link to="/source/goblins_of_golarion">Goblins of Golarion</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_goblin-fake-fn-1" data-hash-target to="main-traits_religion_goblin-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_goblin-fake-fn-1.2" data-hash-target to="main-traits_religion_goblin-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_goblin-fake-fn-1.3" data-hash-target to="main-traits_religion_goblin-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_goblin-fake-fn-1.4" data-hash-target to="main-traits_religion_goblin-fake-fn-1.4">↩<sup>4</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_planet = {title: "Regional Traits: Planets", jsx: <IonList lines="full"><MainLink to="/main/traits_regional" className="reversed" info="Back to Regional Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitaballonianresilience-aballonian-resilience-fn1" extraClasses="trait" icon={["planet-conquest"]}>
+const _traits_planet = {title: "Regional Traits: Planets", jsx: <IonList lines="full"><MainLink to="/main/traits_regional" className="reversed" info="Back to Regional Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitaballonianresilience-aballonian-resilience-fn1" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitaballonianresilience-aballonian-resilience-fn1"><Link to="/trait/aballonian_resilience">⮞</Link> Aballonian Resilience <sup><InnerLink showBacklink="backlink-main-traits_planet-fake-fn-1" id="main-traits_planet-fake-fn-1" data-hash-target to="main-traits_planet-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Aballon</Pair>
 <Pair single="flavor" id="traitaballonianresilience-aballonian-resilience-fn1-flavor">You spent at least part of your youth in Horsethroat and are acclimated to the frigid cold of Aballon's Ice Wells.</Pair>
 <Pair single="benefit" id="traitaballonianresilience-aballonian-resilience-fn1-benefit">You gain a +4 trait bonus on saves to avoid nonlethal damage from <Link to="/rule/cold">cold environments</Link>. In addition, you begin play with a <Link to="/eq-misc/cold_weather_outfit">cold-weather outfit</Link> at no cost.</Pair>
 </Ability>
-<Ability id="traitakitonianferocity-akitonian-ferocity-fn1-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitakitonianferocity-akitonian-ferocity-fn1-2" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitakitonianferocity-akitonian-ferocity-fn1-2"><Link to="/trait/akitonian_ferocity">⮞</Link> Akitonian Ferocity <sup><InnerLink showBacklink="backlink-main-traits_planet-fake-fn-1.2" id="main-traits_planet-fake-fn-1.2" data-hash-target to="main-traits_planet-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Akiton</Pair>
 <Pair single="flavor" id="traitakitonianferocity-akitonian-ferocity-fn1-2-flavor">You were raised on Akiton, where you were hardened against the ravages of battle.</Pair>
 <Pair single="benefit" id="traitakitonianferocity-akitonian-ferocity-fn1-2-benefit">Once per day, the first time you are brought below 0 hit points but not killed, you can fight on for 1 more round as if <Link to="/misc/disabled">disabled</Link>. At the end of your next turn, unless brought to above 0 hit points, you immediately fall unconscious and begin <Link to="/misc/dying">dying</Link>.</Pair>
 </Ability>
-<Ability id="traitawakenedfromstasis-awakened-from-stasis-fn1-3" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitawakenedfromstasis-awakened-from-stasis-fn1-3" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitawakenedfromstasis-awakened-from-stasis-fn1-3"><Link to="/trait/awakened_from_stasis">⮞</Link> Awakened from Stasis <sup><InnerLink showBacklink="backlink-main-traits_planet-fake-fn-1.3" id="main-traits_planet-fake-fn-1.3" data-hash-target to="main-traits_planet-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Apostae</Pair>
 <Pair single="flavor" id="traitawakenedfromstasis-awakened-from-stasis-fn1-3-flavor">Although you were born and lived on Golarion, you recently awakened in a strange vault with no memory of how you got there, surrounded by sleeping creatures of every shape and size in smooth glass eggs, all watched over by uncommunicative crab-like automatons.</Pair>
 <Pair single="benefit" id="traitawakenedfromstasis-awakened-from-stasis-fn1-3-benefit">As a side effect of your stasis, you gain all the benefits of 8 hours of sleep in only 2 hours. This allows a spellcaster who must rest to prepare spells to do so after only 2 hours, but does not allow a spellcaster to prepare spells more than once per day.</Pair>
 </Ability>
-<Ability id="traitbornunderthegreenstar-born-under-the-green-star-fn1-4" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitbornunderthegreenstar-born-under-the-green-star-fn1-4" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitbornunderthegreenstar-born-under-the-green-star-fn1-4"><Link to="/trait/born_under_the_green_star">⮞</Link> Born under the Green Star <sup><InnerLink showBacklink="backlink-main-traits_planet-fake-fn-1.4" id="main-traits_planet-fake-fn-1.4" data-hash-target to="main-traits_planet-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Castrovel</Pair>
 <Pair single="flavor" id="traitbornunderthegreenstar-born-under-the-green-star-fn1-4-flavor">You were born on Castrovel and touched by the planet's profound psychic bounty.</Pair>
 <Pair single="benefit" id="traitbornunderthegreenstar-born-under-the-green-star-fn1-4-benefit">Treat your caster level as 1 higher when casting spells and spell-like abilities with the mind-affecting descriptor.</Pair>
 </Ability>
-<Ability id="traitvoidchild-void-child-fn1-5" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitvoidchild-void-child-fn1-5" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitvoidchild-void-child-fn1-5"><Link to="/trait/void_child">⮞</Link> Void Child <sup><InnerLink showBacklink="backlink-main-traits_planet-fake-fn-1.5" id="main-traits_planet-fake-fn-1.5" data-hash-target to="main-traits_planet-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Diaspora</Pair>
 <Pair single="flavor" id="traitvoidchild-void-child-fn1-5-flavor">You were raised in the Diaspora and are accustomed to being isolated from most other life in the vast void of space.</Pair>
 <Pair single="benefit" id="traitvoidchild-void-child-fn1-5-benefit">You gain a +1 trait bonus on saves against fear; this bonus increases to +2 whenever you are 30 feet or farther from your nearest ally.</Pair>
 </Ability>
-<Ability id="traiteoxianexperiment-eoxian-experiment-fn1-6" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traiteoxianexperiment-eoxian-experiment-fn1-6" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traiteoxianexperiment-eoxian-experiment-fn1-6"><Link to="/trait/eoxian_experiment">⮞</Link> Eoxian Experiment <sup><InnerLink showBacklink="backlink-main-traits_planet-fake-fn-1.6" id="main-traits_planet-fake-fn-1.6" data-hash-target to="main-traits_planet-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Eox</Pair>
 <Pair single="flavor" id="traiteoxianexperiment-eoxian-experiment-fn1-6-flavor">You were raised on Eox, where you were overseen by alien forces and subjected to horrifying experimentation.</Pair>
 <Pair single="benefit" id="traiteoxianexperiment-eoxian-experiment-fn1-6-benefit">You gain a +1 trait bonus on saving throws against pain effects and the spell-like abilities of undead.</Pair>
 </Ability>
-<Ability id="traittriaxiantradition-triaxian-tradition-fn1-7" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traittriaxiantradition-triaxian-tradition-fn1-7" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traittriaxiantradition-triaxian-tradition-fn1-7"><Link to="/trait/triaxian_tradition">⮞</Link> Triaxian Tradition <sup><InnerLink showBacklink="backlink-main-traits_planet-fake-fn-1.7" id="main-traits_planet-fake-fn-1.7" data-hash-target to="main-traits_planet-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Triaxus</Pair>
@@ -1830,34 +1830,34 @@ const _traits_planet = {title: "Regional Traits: Planets", jsx: <IonList lines="
 </IonLabel></IonItem><section data-footnotes><h3 id="main-traits_planet-label">Footnotes</h3><ol>
 <li id="main-traits_planet-fake-fn-1-target"><p><Link to="/source/people_of_the_stars">People of the Stars</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_planet-fake-fn-1" data-hash-target to="main-traits_planet-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_planet-fake-fn-1.2" data-hash-target to="main-traits_planet-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_planet-fake-fn-1.3" data-hash-target to="main-traits_planet-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_planet-fake-fn-1.4" data-hash-target to="main-traits_planet-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_planet-fake-fn-1.5" data-hash-target to="main-traits_planet-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_planet-fake-fn-1.6" data-hash-target to="main-traits_planet-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_planet-fake-fn-1.7" data-hash-target to="main-traits_planet-fake-fn-1.7">↩<sup>7</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_other = {title: "Regional Traits: Other", jsx: <IonList lines="full"><MainLink to="/main/traits_regional" className="reversed" info="Back to Regional Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitanuliengineer-anuli-engineer-fn1" extraClasses="trait" icon={["planet-conquest"]}>
+const _traits_other = {title: "Regional Traits: Other", jsx: <IonList lines="full"><MainLink to="/main/traits_regional" className="reversed" info="Back to Regional Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitanuliengineer-anuli-engineer-fn1" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitanuliengineer-anuli-engineer-fn1"><Link to="/trait/anuli_engineer">⮞</Link> Anuli Engineer <sup><InnerLink showBacklink="backlink-main-traits_other-fake-fn-1" id="main-traits_other-fake-fn-1" data-hash-target to="main-traits_other-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Anuli</Pair>
 <Pair single="flavor" id="traitanuliengineer-anuli-engineer-fn1-flavor">Your family helped to rebuild the ruined city of Anuli, and that tradition runs in your blood.</Pair>
 <Pair single="benefit" id="traitanuliengineer-anuli-engineer-fn1-benefit">You gain a +2 bonus on <Link to="/skill/perception">Perception</Link> checks to notice unusual stonework, traps, and hidden doors in worked stone and artificial constructions. <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> is always a class skill for you.</Pair>
 </Ability>
-<Ability id="traitbalancededucation-balanced-education-fn1-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitbalancededucation-balanced-education-fn1-2" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitbalancededucation-balanced-education-fn1-2"><Link to="/trait/balanced_education">⮞</Link> Balanced Education <sup><InnerLink showBacklink="backlink-main-traits_other-fake-fn-1.2" id="main-traits_other-fake-fn-1.2" data-hash-target to="main-traits_other-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Anuli</Pair>
 <Pair single="benefit" id="traitbalancededucation-balanced-education-fn1-2-benefit">Your upbringing focused on strengthening mind and body in equal measure. Once per day, you can draw on this training to apply a physical ability modifier to a skill check instead of its usual mental ability modifier, or apply a mental ability modifier to a skill check instead of its usual physical ability modifier. You can only exchange ability modifiers between the following pairings: Strength with Intelligence, Dexterity with Wisdom, and Constitution with Charisma.</Pair>
 </Ability>
-<Ability id="traitcliffstrider-cliff-strider-fn2" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitcliffstrider-cliff-strider-fn2" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitcliffstrider-cliff-strider-fn2"><Link to="/trait/cliff_strider">⮞</Link> Cliff Strider <sup><InnerLink showBacklink="backlink-main-traits_other-fake-fn-2" id="main-traits_other-fake-fn-2" data-hash-target to="main-traits_other-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Arcadia</Pair>
 <Pair single="flavor" id="traitcliffstrider-cliff-strider-fn2-flavor">You grew up along the Grinding Coast of Arcadia, scaling perilous cliffs and dealing with the dangerous creatures that live on these rocky surfaces.</Pair>
 <Pair single="benefit" id="traitcliffstrider-cliff-strider-fn2-benefit">As a <strong className="hl">move action</strong> while climbing, you can climb 5 feet without provoking an attack of opportunity, even if you don't have a climb speed.</Pair>
 </Ability>
-<Ability id="traiterutakiskyreader-erutaki-sky-reader-fn3" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traiterutakiskyreader-erutaki-sky-reader-fn3" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traiterutakiskyreader-erutaki-sky-reader-fn3"><Link to="/trait/erutaki_sky_reader">⮞</Link> Erutaki Sky Reader <sup><InnerLink showBacklink="backlink-main-traits_other-fake-fn-3" id="main-traits_other-fake-fn-3" data-hash-target to="main-traits_other-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Crown of the World</Pair>
 <Pair single="flavor" id="traiterutakiskyreader-erutaki-sky-reader-fn3-flavor">Born in the Crown of the World, you learned to read the aurora and the night sky for portents.</Pair>
 <Pair single="benefit" id="traiterutakiskyreader-erutaki-sky-reader-fn3-benefit">Once per day, you gain a +2 luck bonus on a single saving throw. You can apply this bonus after the saving throw is rolled but before the results are revealed.</Pair>
 </Ability>
-<Ability id="traitfootstepsofaganhei-footsteps-of-aganhei-fn4" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitfootstepsofaganhei-footsteps-of-aganhei-fn4" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitfootstepsofaganhei-footsteps-of-aganhei-fn4"><Link to="/trait/footsteps_of_aganhei">⮞</Link> Footsteps of Aganhei <sup><InnerLink showBacklink="backlink-main-traits_other-fake-fn-4" id="main-traits_other-fake-fn-4" data-hash-target to="main-traits_other-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Crown of the World</Pair>

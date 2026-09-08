@@ -41,48 +41,23 @@ const makeTraitBlock = ({
 	//
 	const icon = () => {
 		switch(type) {
-			case "Combat": {
-				return "crossed-sabres";
-			}
-			case "Faith": {
-				return "bolt-eye";
-			}
-			case "Social": {
-				return "village";
-			}
-			case "Magic": {
-				return "magic-swirl";
-			}
-			case "Campaign": {
-				return "treasure-map";
-			}
-			case "Equipment": {
-				return "battle-gear";
-			}
-			case "Family": {
-				return "relationship-bounds";
-			}
-			case "Mount": {
-				return "cavalry";
-			}
-			case "Regional": {
-				return "planet-conquest";
-			}
-			case "Religion": {
-				return "prayer";
-			}
-			case "Drawback": {
-				return "broken-shield";
-			}
-			case "Cosmic": {
-				return "night-sky";
-			}
-			case "Race": {
-				return "person";
-			}
+			case "Combat":
+			case "Faith":
+			case "Social":
+			case "Magic":
+			case "Campaign":
+			case "Equipment":
+			case "Family":
+			case "Mount":
+			case "Regional":
+			case "Religion":
+			case "Drawback":
+			case "Cosmic":
+			case "Race":
+				return type;
 		}
-		logError(`---> Missing or invalid icon [${i}][${text}]`);
-		return "confirmed";
+		logError(`---> Missing or invalid icon [${type}][${text}]`);
+		return "ok";
 	};
 
 	//

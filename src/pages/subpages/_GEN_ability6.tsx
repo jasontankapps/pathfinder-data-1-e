@@ -562,30 +562,30 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook</Link><br/>As a <Link to="/class/barbarian">barbarian</Link> gains levels, she learns to use her rage in new ways. Starting at 2nd level, a barbarian gains a rage power. She gains another rage power for every two levels of barbarian attained after 2nd level. A barbarian gains the benefits of rage powers only while raging, and some of these powers require the barbarian to take an action first. Unless otherwise noted, a barbarian cannot select an individual power more than once.</p>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link><br/>At 3rd level and every 3 levels thereafter, a <Link to="/class/skald">skald</Link> learns a rage power that affects the skald and any allies under the influence of his inspired rage. This cannot be a rage power that requires the creature to spend a standard action or rounds of rage to activate it. For example, the skald cannot choose <Link to="/ragepower/terrifying_howl">terrifying howl</Link> (which requires a standard action to activate), but can choose <Link to="/ragepower/knockback">knockback</Link> (which is made in place of a melee attack).</p>
 <hr/>
-<Ability id="ragepoweranimalfury-animal-fury-ex-fn1" icon={["mailed-fist"]}>
+<Ability id="ragepoweranimalfury-animal-fury-ex-fn1" icon={["melee"]}>
 <Pair single id="ragepoweranimalfury-animal-fury-ex-fn1"><Link to="/ragepower/animal_fury">⮞</Link> Animal Fury (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1" id="ability-rage_powers-fake-fn-1" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian gains a <Link to="/umr/bite_attack">bite attack</Link>. If used as part of a full attack action, the bite attack is made at the barbarian's full base attack bonus -5. If the bite hits, it deals 1d4 points of damage (assuming the barbarian is Medium; 1d3 points of damage if Small) plus half the barbarian's Strength modifier.</Pair>
 <Pair title="Special">A barbarian can make a bite attack as part of the action to maintain or break free from a grapple. This attack is resolved before the grapple check is made. If the bite attack hits, any grapple checks made by the barbarian against the target this round are at a +2 bonus.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreateranimalfury-greater-animal-fury-ex-fn2" icon={["upgrade"]}>
+<Ability id="ragepowergreateranimalfury-greater-animal-fury-ex-fn2" icon={["boost"]}>
 <Pair single id="ragepowergreateranimalfury-greater-animal-fury-ex-fn2"><Link to="/ragepower/greater_animal_fury">⮞</Link> Greater Animal Fury (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-2" id="ability-rage_powers-fake-fn-2" data-hash-target to="ability-rage_powers-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/animal_fury">Animal fury</Link></Pair>
 <Pair title="Ability">This power works as <em>animal fury,</em> but the barbarian's bite attack deals damage as if she were <Link to="/misc/one_size_category_larger">one size category larger</Link>.</Pair>
 </Ability>
-<Ability id="ragepowerbloodybite-bloody-bite-ex-fn3" icon={["upgrade"]}>
+<Ability id="ragepowerbloodybite-bloody-bite-ex-fn3" icon={["boost"]}>
 <Pair single id="ragepowerbloodybite-bloody-bite-ex-fn3"><Link to="/ragepower/bloody_bite">⮞</Link> Bloody Bite (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-3" id="ability-rage_powers-fake-fn-3" data-hash-target to="ability-rage_powers-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/half_orc">Half-orc</Link>, either <Link to="/ragepower/animal_fury">animal fury</Link> or a natural bite attack</Pair>
 <Pair title="Passive Ability">The barbarian's bite attack deals 1d6 points of <Link to="/rule/bleed">bleed</Link> damage in addition to its other effects.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerfeastingbite-feasting-bite-ex-fn3-2" icon={["remedy"]}>
+<Ability id="ragepowerfeastingbite-feasting-bite-ex-fn3-2" icon={["aid"]}>
 <Pair single id="ragepowerfeastingbite-feasting-bite-ex-fn3-2"><Link to="/ragepower/feasting_bite">⮞</Link> Feasting Bite (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-3.2" id="ability-rage_powers-fake-fn-3.2" data-hash-target to="ability-rage_powers-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/half_orc">Half-orc</Link>, <Link to="/ragepower/bloody_bite">bloody bite</Link>, either <Link to="/ragepower/animal_fury">animal fury</Link> or a natural bite attack</Pair>
 <Pair title="Passive Ability">When the barbarian confirms a critical hit with her bite attack, she regains a number of hit points equal to half the damage dealt. Activating this ability consumes 1 round of <em>rage.</em></Pair>
 </Ability>
 </div>
-<Ability id="ragepowerpenetratingbite-penetrating-bite-ex-fn2-2" icon={["upgrade"]}>
+<Ability id="ragepowerpenetratingbite-penetrating-bite-ex-fn2-2" icon={["boost"]}>
 <Pair single id="ragepowerpenetratingbite-penetrating-bite-ex-fn2-2" flavor={<>When using the <em>animal fury</em> rage power while <em>raging,</em> the barbarian's bite is able to pierce most resistances.</>}><Link to="/ragepower/penetrating_bite">⮞</Link> Penetrating Bite (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-2.2" id="ability-rage_powers-fake-fn-2.2" data-hash-target to="ability-rage_powers-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level barbarian, <Link to="/ragepower/animal_fury">animal fury</Link></Pair>
 <Pair title="At 4th Level">Her bite is treated as a magic weapon for the purpose of overcoming damage reduction.</Pair>
@@ -593,13 +593,13 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Pair title="At 10th Level">Her bite is also treated as a chaotic weapon for the purpose of overcoming damage reduction.</Pair>
 <Pair title="At 16th Level">Her bite is treated as an <Link to="/eq-material/adamantine">adamantine</Link> weapon for the purpose of overcoming damage reduction and bypassing hardness.</Pair>
 </Ability>
-<Ability id="ragepowersavagejaw-savage-jaw-ex-fn2-3" icon={["mailed-fist"]}>
+<Ability id="ragepowersavagejaw-savage-jaw-ex-fn2-3" icon={["melee"]}>
 <Pair single id="ragepowersavagejaw-savage-jaw-ex-fn2-3" flavor={<>While <em>raging,</em> the barbarian can open her jaw wide and latch her teeth firmly onto her opponent.</>}><Link to="/ragepower/savage_jaw">⮞</Link> Savage Jaw (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-2.3" id="ability-rage_powers-fake-fn-2.3" data-hash-target to="ability-rage_powers-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/animal_fury">Animal fury</Link></Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
 <Pair title="Free Action">While using the <em>animal fury</em> power, the barbarian can activate this power and gain the <Link to="/umr/grab">grab</Link> ability with her bite attack until the start of her next turn.</Pair>
 </Ability>
-<Ability id="ragepowerviperskiss-vipers-kiss-ex-fn4" icon={["mailed-fist"]}>
+<Ability id="ragepowerviperskiss-vipers-kiss-ex-fn4" icon={["melee"]}>
 <Pair single id="ragepowerviperskiss-vipers-kiss-ex-fn4"><Link to="/ragepower/vipers_kiss">⮞</Link> Viper's Kiss (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-4" id="ability-rage_powers-fake-fn-4" data-hash-target to="ability-rage_powers-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/animal_fury">Animal fury</Link> or a has bite attack while <em>raging</em></Pair>
 <Pair title="Ability"><p>The barbarian can drink 1 dose of an ingested poison as a <strong className="hl">move action</strong> (instead of a standard action) as long as she starts the turn with the poison in her hand. She can hold this dose within her mouth for a number of rounds equal to her Constitution modifier (minimum 1 round) without suffering harmful effects. If the barbarian still holds the poison in her mouth after this time, she consumes the poison.</p>
@@ -607,13 +607,13 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowervipersbreath-vipers-breath-ex-fn4-2" icon={["tornado-discs"]}>
+<Ability id="ragepowervipersbreath-vipers-breath-ex-fn4-2" icon={["cone"]}>
 <Pair single id="ragepowervipersbreath-vipers-breath-ex-fn4-2"><Link to="/ragepower/vipers_breath">⮞</Link> Viper's Breath (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-4.2" id="ability-rage_powers-fake-fn-4.2" data-hash-target to="ability-rage_powers-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/vipers_kiss">Viper's kiss</Link></Pair>
 <Pair title="Ability">While holding a dose of poison in her mouth, the barbarian can exhale a 15-foot cone of inhaled poison. Anyone caught in the spray must succeed at a saving throw against the poison with a DC equal to the poison's DC - 4 or suffer the poison's effects with an immediate onset.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerenhancevenom-enhance-venom-ex-fn4-3" icon={["upgrade"]}>
+<Ability id="ragepowerenhancevenom-enhance-venom-ex-fn4-3" icon={["boost"]}>
 <Pair single id="ragepowerenhancevenom-enhance-venom-ex-fn4-3"><Link to="/ragepower/enhance_venom">⮞</Link> Enhance Venom (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-4.3" id="ability-rage_powers-fake-fn-4.3" data-hash-target to="ability-rage_powers-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/vipers_kiss">Viper's kiss</Link>, <Link to="/ragepower/vipers_breath">viper's breath</Link></Pair>
 <Pair title="Passive Ability">The barbarian adds her Constitution modifier to the DC of any poison she delivers using <em>viper's kiss</em> or <em>viper's breath.</em></Pair>
@@ -621,30 +621,30 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </div>
 </div>
 </div>
-<Ability id="ragepowerarmorripper-armor-ripper-fn5" icon={["upgrade"]}>
+<Ability id="ragepowerarmorripper-armor-ripper-fn5" icon={["boost"]}>
 <Pair single id="ragepowerarmorripper-armor-ripper-fn5"><Link to="/ragepower/armor_ripper">⮞</Link> Armor Ripper <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-5" id="ability-rage_powers-fake-fn-5" data-hash-target to="ability-rage_powers-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/wereboar_kin">Wereboar-kin</Link> or associated with wereboar-kin</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> you gain a +2 bonus on combat maneuver checks made to <Link to="/rule/sunder">sunder</Link> with any of your natural attacks.</Pair>
 </Ability>
-<Ability id="ragepowerauspiciousmark-auspicious-mark-su-fn6" icon={["upgrade"]}>
+<Ability id="ragepowerauspiciousmark-auspicious-mark-su-fn6" icon={["boost"]}>
 <Pair single id="ragepowerauspiciousmark-auspicious-mark-su-fn6" flavor="The barbarian has been marked by the spirits, as indicated by an impressive tattoo, scar, or birthmark she possesses."><Link to="/ragepower/auspicious_mark">⮞</Link> Auspicious Mark (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6" id="ability-rage_powers-fake-fn-6" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
 <Pair title="Swift Action">By spending 2 rounds of <em>rage,</em> the barbarian can call upon the spirits' favor. Using <em>auspicious mark</em> grants her a +1d6 bonus on one d20 roll she has just made.</Pair>
 <Pair title="Special">She can call on the <em>auspicious</em> mark after seeing the result of the d20 roll.</Pair>
 </Ability>
-<Ability id="ragepowerautumnrage-autumn-rage-su-fn7" icon={["upgrade"]}>
+<Ability id="ragepowerautumnrage-autumn-rage-su-fn7" icon={["boost"]}>
 <Pair single id="ragepowerautumnrage-autumn-rage-su-fn7" flavor="The barbarian becomes a servant of the harvest."><Link to="/ragepower/autumn_rage">⮞</Link> Autumn Rage (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-7" id="ability-rage_powers-fake-fn-7" data-hash-target to="ability-rage_powers-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> she gains a +2 bonus on combat maneuver checks to <Link to="/rule/reposition">reposition</Link> or <Link to="/rule/trip">trip</Link>. She also gains this bonus on attack rolls to confirm critical hits.</Pair>
 <Pair title="Special">A barbarian can have only one season-themed rage power, choosing between <Link to="/ragepower/spring_rage">spring</Link>, <Link to="/ragepower/summer_rage">summer</Link>, <em>autumn,</em> or <Link to="/ragepower/winter_rage">winter</Link> rage.</Pair>
 </Ability>
-<Ability id="ragepowerbloodyfist-bloody-fist-ex-fn8" icon={["mailed-fist"]}>
+<Ability id="ragepowerbloodyfist-bloody-fist-ex-fn8" icon={["melee"]}>
 <Pair single id="ragepowerbloodyfist-bloody-fist-ex-fn8"><Link to="/ragepower/bloody_fist">⮞</Link> Bloody Fist (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-8" id="ability-rage_powers-fake-fn-8" data-hash-target to="ability-rage_powers-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level barbarian</Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian may attempt to punch through an opponent's flesh and rip out one of its vital organs. In order to do so, the barbarian must confirm a critical hit against an opponent with a natural attack or unarmed strike. The barbarian deals damage as normal for a critical hit and the opponent must succeed at a Fortitude save (DC = 10 + 1/2 the barbarian's class level + the barbarian's Strength modifier) or take 1d4 points of <Link to="/rule/constitution_damage">Constitution damage</Link> as one of its vital organs is ripped free from its body.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerfeastofblood-feast-of-blood-su-fn8-2" icon={["remedy","armor-upgrade"]}>
+<Ability id="ragepowerfeastofblood-feast-of-blood-su-fn8-2" icon={["aid","def"]}>
 <Pair single id="ragepowerfeastofblood-feast-of-blood-su-fn8-2" flavor={<>While <em>raging,</em> the barbarian may feast on the organs of her foes and absorb their power.</>}><Link to="/ragepower/feast_of_blood">⮞</Link> Feast of Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-8.2" id="ability-rage_powers-fake-fn-8.2" data-hash-target to="ability-rage_powers-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/bloody_fist">Bloody fist</Link>, 14th-level barbarian</Pair>
 <Pair title="Full-Round Action"><p>After successfully ripping out a creature's vital organ, the barbarian may eat the organ within 1 minute of extracting it. Once the organ is consumed, the barbarian recovers a number of hit points equal to the Hit Dice of the organ's owner.</p>
@@ -653,18 +653,18 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>Yes</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerboarscharge-boars-charge-fn5-2" icon={["mailed-fist","upgrade"]}>
+<Ability id="ragepowerboarscharge-boars-charge-fn5-2" icon={["melee","boost"]}>
 <Pair single id="ragepowerboarscharge-boars-charge-fn5-2"><Link to="/ragepower/boars_charge">⮞</Link> Boar's Charge <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-5.2" id="ability-rage_powers-fake-fn-5.2" data-hash-target to="ability-rage_powers-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level barbarian, <Link to="/race/wereboar_kin">wereboar-kin</Link> or associated with wereboar-kin</Pair>
 <Pair title="Ability">While <em>raging,</em> when you hit with a gore attack as part of a <Link to="/rule/charge">charge</Link>, you automatically score a critical threat. You must still confirm the critical hit as normal.</Pair>
 </Ability>
-<Ability id="ragepowerboastingtaunt-boasting-taunt-ex-fn9" icon={["armor-downgrade"]}>
+<Ability id="ragepowerboastingtaunt-boasting-taunt-ex-fn9" icon={["lower"]}>
 <Pair single id="ragepowerboastingtaunt-boasting-taunt-ex-fn9"><Link to="/ragepower/boasting_taunt">⮞</Link> Boasting Taunt (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9" id="ability-rage_powers-fake-fn-9" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian</Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian can incite a creature to attack her by making an <Link to="/skill/intimidate">Intimidate</Link> check to demoralize. If the check succeeds, the target is also <Link to="/misc/shaken">shaken</Link> as long as the barbarian is visible and <em>raging</em> or until it makes a melee attack against the barbarian. The barbarian receives a +2 circumstance bonus on this check for every alcoholic drink she has consumed during this <em>rage.</em></Pair>
 <Pair title="Special">This is a language-dependent mind-affecting effect, and it relies on audible components.</Pair>
 </Ability>
-<Ability id="ragepowerbodybludgeon-body-bludgeon-ex-fn6-2" icon={["mailed-fist"]}>
+<Ability id="ragepowerbodybludgeon-body-bludgeon-ex-fn6-2" icon={["melee"]}>
 <Pair single id="ragepowerbodybludgeon-body-bludgeon-ex-fn6-2"><Link to="/ragepower/body_bludgeon">⮞</Link> Body Bludgeon (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.2" id="ability-rage_powers-fake-fn-6.2" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level barbarian</Pair>
 <Pair title="Ability"><p>While <em>raging,</em> if the barbarian <Link to="/rule/pin">pins</Link> an opponent that is smaller than her, she can then use that opponent as a two-handed <Link to="/misc/improvised_weapon">improvised weapon</Link> that deals 1d8 points of bludgeoning damage, assuming the opponent is sized Small. Larger or smaller creatures used as a bludgeon deal damage based on their size using this base damage. A size Tiny creature deals 1d6 points of damage, a size Medium creature deals 1d10 points of damage, <Link to="/misc/and_so_on">and so on</Link>.</p>
@@ -672,105 +672,105 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </Pair>
 <Pair title="Special">If the pinned opponent is unable to resist being pinned for any reason, the barbarian can use that opponent as an improvised weapon without grappling or pinning the opponent, until the creature is reduced to 0 or fewer hit points, at which point the creature becomes useless as an improvised weapon.</Pair>
 </Ability>
-<Ability id="ragepowerbrawler-brawler-fn9-2" icon={["mailed-fist"]}>
+<Ability id="ragepowerbrawler-brawler-fn9-2" icon={["melee"]}>
 <Pair single id="ragepowerbrawler-brawler-fn9-2"><Link to="/ragepower/brawler">⮞</Link> Brawler <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.2" id="ability-rage_powers-fake-fn-9.2" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian is treated as if she has <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link>. If she already has the feat, her unarmed strikes deal 1d6 points of damage (1d4 if she is Small).</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreaterbrawler-greater-brawler-fn9-3" icon={["mailed-fist"]}>
+<Ability id="ragepowergreaterbrawler-greater-brawler-fn9-3" icon={["melee"]}>
 <Pair single id="ragepowergreaterbrawler-greater-brawler-fn9-3"><Link to="/ragepower/greater_brawler">⮞</Link> Greater Brawler <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.3" id="ability-rage_powers-fake-fn-9.3" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/brawler">Brawler</Link></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian is treated as if she has <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link> when making unarmed strike attacks.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerbreathtaker-breathtaker-ex-fn10" icon={["armor-downgrade"]}>
+<Ability id="ragepowerbreathtaker-breathtaker-ex-fn10" icon={["lower"]}>
 <Pair single id="ragepowerbreathtaker-breathtaker-ex-fn10" flavor="The barbarian's blows take the air from her foes' lungs."><Link to="/ragepower/breathtaker">⮞</Link> Breathtaker (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-10" id="ability-rage_powers-fake-fn-10" data-hash-target to="ability-rage_powers-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Ability">While <em>raging,</em> whenever the barbarian makes a successful melee attack against an opponent that is <Link to="/misc/hold_its_breath">holding its breath</Link>, in addition to any other effects caused by that attack, the opponent loses a number of rounds of breath equal to the barbarian's Strength modifier.</Pair>
 </Ability>
-<Ability id="ragepowerclearmind-clear-mind-ex-fn1-2" icon={["armor-upgrade","rolling-dices"]}>
+<Ability id="ragepowerclearmind-clear-mind-ex-fn1-2" icon={["def","roll"]}>
 <Pair single id="ragepowerclearmind-clear-mind-ex-fn1-2"><Link to="/ragepower/clear_mind">⮞</Link> Clear Mind (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.2" id="ability-rage_powers-fake-fn-1.2" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian</Pair>
 <Pair title="Immediate Action">A barbarian may reroll a failed Will save. This power is used after the first save is attempted, but before the results are revealed by the GM. The barbarian must take the second result, even if it is worse.</Pair>
 <Pair title="Special">This power can only be used once per <em>rage.</em></Pair>
 </Ability>
-<Ability id="ragepowercomeandgetme-come-and-get-me-ex-fn9-4" icon={["broken-shield","mailed-fist"]}>
+<Ability id="ragepowercomeandgetme-come-and-get-me-ex-fn9-4" icon={["down","melee"]}>
 <Pair single id="ragepowercomeandgetme-come-and-get-me-ex-fn9-4"><Link to="/ragepower/come_and_get_me">⮞</Link> Come and Get Me (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.4" id="ability-rage_powers-fake-fn-9.4" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level barbarian</Pair>
 <Pair title="Free Action">While <em>raging,</em> the barbarian may leave herself open to attack while preparing devastating counterattacks. Enemies gain a +4 bonus on attack and damage rolls against the barbarian until the beginning of her next turn, but every attack against the barbarian provokes an attack of opportunity from her, which is resolved prior to resolving each enemy attack.</Pair>
 </Ability>
-<Ability id="ragepowercontagiousrage-contagious-rage-su-fn7-2" icon={["upgrade"]}>
+<Ability id="ragepowercontagiousrage-contagious-rage-su-fn7-2" icon={["boost"]}>
 <Pair single id="ragepowercontagiousrage-contagious-rage-su-fn7-2" flavor="The barbarian howls during combat, agitating nearby fauna."><Link to="/ragepower/contagious_rage">⮞</Link> Contagious Rage (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-7.2" id="ability-rage_powers-fake-fn-7.2" data-hash-target to="ability-rage_powers-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian</Pair>
 <Pair title="Ability">Willing animals and magical beasts within 30 feet of the barbarian gain the benefits of the <Link to="/spell/rage">rage</Link> spell for as long as she maintains her <em>rage.</em> After the barbarian's <em>rage</em> ends, creatures affected by her <em>rage</em> are <Link to="/misc/fatigued">fatigued</Link> for the same number of rounds as the barbarian.</Pair>
 </Ability>
-<Ability id="ragepowerdeathlessfrenzy-deathless-frenzy-fn5-3" icon={["stairs-goal"]}>
+<Ability id="ragepowerdeathlessfrenzy-deathless-frenzy-fn5-3" icon={["power"]}>
 <Pair single id="ragepowerdeathlessfrenzy-deathless-frenzy-fn5-3"><Link to="/ragepower/deathless_frenzy">⮞</Link> Deathless Frenzy <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-5.3" id="ability-rage_powers-fake-fn-5.3" data-hash-target to="ability-rage_powers-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level barbarian, <Link to="/race/wereboar_kin">wereboar-kin</Link> or associated with wereboar-kin</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> you ignore the effects of being at 0 or fewer hit points until you have been at 0 or fewer hit points for 1 round, at which point the appropriate consequences for your current hit point total take effect. Even death can be postponed this way, potentially allowing you to survive if you receive sufficient healing before the round is up.</Pair>
 </Ability>
-<Ability id="ragepowerdisembowelingtusks-disemboweling-tusks-fn5-4" icon={["upgrade"]}>
+<Ability id="ragepowerdisembowelingtusks-disemboweling-tusks-fn5-4" icon={["boost"]}>
 <Pair single id="ragepowerdisembowelingtusks-disemboweling-tusks-fn5-4"><Link to="/ragepower/disemboweling_tusks">⮞</Link> Disemboweling Tusks <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-5.4" id="ability-rage_powers-fake-fn-5.4" data-hash-target to="ability-rage_powers-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/race/wereboar_kin">wereboar-kin</Link> or associated with wereboar-kin</Pair>
 <Pair title="Ability">While <em>raging,</em> when you confirm a critical hit with your gore attack, you deal 1d4 points of <Link to="/rule/constitution_damage">Constitution damage</Link> in addition to the normal damage for the gore attack.</Pair>
 </Ability>
-<Ability id="ragepowerdissipatingrage-dissipating-rage-su-fn7-3" icon={["armor-downgrade"]}>
+<Ability id="ragepowerdissipatingrage-dissipating-rage-su-fn7-3" icon={["lower"]}>
 <Pair single id="ragepowerdissipatingrage-dissipating-rage-su-fn7-3"><Link to="/ragepower/dissipating_rage">⮞</Link> Dissipating Rage (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-7.3" id="ability-rage_powers-fake-fn-7.3" data-hash-target to="ability-rage_powers-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Passive Ability">When the barbarian <em>rages,</em> her feverish frenzy and hot breath burn or blow fog, smoke and similar effects away from her. The barbarian and creatures adjacent to her do not gain <Link to="/rule/concealment">concealment</Link> from obfuscating effects like fog or precipitation.</Pair>
 <Pair title="Special">Magical effects that require more than a strong wind to dissipate are not affected by this rage power.</Pair>
 </Ability>
-<Ability id="ragepowereclipsingrage-eclipsing-rage-su-fn7-4" icon={["magic-swirl"]}>
+<Ability id="ragepowereclipsingrage-eclipsing-rage-su-fn7-4" icon={["magic"]}>
 <Pair single id="ragepowereclipsingrage-eclipsing-rage-su-fn7-4"><Link to="/ragepower/eclipsing_rage">⮞</Link> Eclipsing Rage (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-7.4" id="ability-rage_powers-fake-fn-7.4" data-hash-target to="ability-rage_powers-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian</Pair>
 <Pair title="Passive Ability">While the barbarian is <em>raging,</em> the <Link to="/rule/light_level">light level</Link> within 10 feet of her lowers by one step. She can't decrease the light level below normal darkness with this ability.</Pair>
 <Pair title="Special">Multiple barbarians with this rage power don't further reduce the light level.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreatereclipsingrage-greater-eclipsing-rage-su-fn7-5" icon={["magic-swirl"]}>
+<Ability id="ragepowergreatereclipsingrage-greater-eclipsing-rage-su-fn7-5" icon={["magic"]}>
 <Pair single id="ragepowergreatereclipsingrage-greater-eclipsing-rage-su-fn7-5"><Link to="/ragepower/greater_eclipsing_rage">⮞</Link> Greater Eclipsing Rage (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-7.5" id="ability-rage_powers-fake-fn-7.5" data-hash-target to="ability-rage_powers-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/eclipsing_rage">eclipsing rage</Link></Pair>
 <Pair title="Passive Ability">Whenever the barbarian <em>rages,</em> the <Link to="/rule/light_level">light level</Link> within 20 feet of her lowers by two steps instead of one. She still can't decrease the light level below normal darkness with this ability.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerlesserelementalrage-lesser-elemental-rage-su-fn9-5" icon={["upgrade"]}>
+<Ability id="ragepowerlesserelementalrage-lesser-elemental-rage-su-fn9-5" icon={["boost"]}>
 <Pair single id="ragepowerlesserelementalrage-lesser-elemental-rage-su-fn9-5"><Link to="/ragepower/lesser_elemental_rage">⮞</Link> Lesser Elemental Rage (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.5" id="ability-rage_powers-fake-fn-9.5" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level barbarian</Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
 <Pair title="Swift Action">The barbarian can cause her melee attacks to deal an additional 1d6 points of energy damage (acid, cold, electricity, or fire) for 1 round.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerelementalrage-elemental-rage-su-fn9-6" icon={["upgrade"]}>
+<Ability id="ragepowerelementalrage-elemental-rage-su-fn9-6" icon={["boost"]}>
 <Pair single id="ragepowerelementalrage-elemental-rage-su-fn9-6"><Link to="/ragepower/elemental_rage">⮞</Link> Elemental Rage (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.6" id="ability-rage_powers-fake-fn-9.6" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian,<Link to="/ragepower/lesser_elemental_rage">lesser elemental rage</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> all of the barbarian's melee attacks deal an additional 1d6 points of energy damage (acid, cold, electricity, or fire). The type is chosen when the barbarian begins her <em>rage.</em></Pair>
 <Pair title="Special">The barbarian can still use her <em>lesser elemental rage</em> power while using this rage power, but she must select a different energy type.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreaterelementalrage-greater-elemental-rage-su-fn9-7" icon={["upgrade"]}>
+<Ability id="ragepowergreaterelementalrage-greater-elemental-rage-su-fn9-7" icon={["boost"]}>
 <Pair single id="ragepowergreaterelementalrage-greater-elemental-rage-su-fn9-7"><Link to="/ragepower/greater_elemental_rage">⮞</Link> Greater Elemental Rage (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.7" id="ability-rage_powers-fake-fn-9.7" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level barbarian, <Link to="/ragepower/elemental_rage">elemental rage</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> all of the barbarian's critical hits made with melee weapons deal an additional 1d10 points of energy damage (2d10 if the weapon deals &times;3 damage on a critical hit, 3d10 if the weapon deals &times;4 on a critical hit). The type of this damage is the same as the type chosen for the <em>elemental rage</em> power.</Pair>
 </Ability>
 </div>
 </div>
-<Ability id="ragepowerenergyresistance-energy-resistance-ex-fn9-8" icon={["armor-upgrade"]}>
+<Ability id="ragepowerenergyresistance-energy-resistance-ex-fn9-8" icon={["def"]}>
 <Pair single id="ragepowerenergyresistance-energy-resistance-ex-fn9-8"><Link to="/ragepower/energy_resistance">⮞</Link> Energy Resistance (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.8" id="ability-rage_powers-fake-fn-9.8" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains <Link to="/umr/resistance">resistance</Link> to one energy type (acid, cold, electricity, fire, or sonic) equal to 1/2 her barbarian level (minimum 1).</Pair>
 <Pair title="Special">The energy type is chosen when this rage power is selected and it cannot be changed. This rage power can be selected more than once. Its effects do not stack. Each time is applies to a different energy type.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreaterenergyresistance-greater-energy-resistance-ex-fn9-9" icon={["armor-upgrade"]}>
+<Ability id="ragepowergreaterenergyresistance-greater-energy-resistance-ex-fn9-9" icon={["def"]}>
 <Pair single id="ragepowergreaterenergyresistance-greater-energy-resistance-ex-fn9-9"><Link to="/ragepower/greater_energy_resistance">⮞</Link> Greater Energy Resistance (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.9" id="ability-rage_powers-fake-fn-9.9" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian, <Link to="/ragepower/energy_resistance">energy resistance</Link></Pair>
 <Pair title="Ability">Once per <em>rage,</em> a barbarian can reduce damage by half from a single attack against which she has energy resistance (halve the damage, then apply resistance).</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerenergyabsorption-energy-absorption-su-fn9-10" icon={["armor-upgrade"]}>
+<Ability id="ragepowerenergyabsorption-energy-absorption-su-fn9-10" icon={["def"]}>
 <Pair single id="ragepowerenergyabsorption-energy-absorption-su-fn9-10"><Link to="/ragepower/energy_absorption">⮞</Link> Energy Absorption (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.10" id="ability-rage_powers-fake-fn-9.10" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level barbarian, <Link to="/ragepower/greater_energy_resistance">greater energy resistance</Link></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian can absorb energy from a single attack of her chosen energy type once per <em>rage.</em> She does not make a saving throw against the effect but takes no damage from it, instead gaining 1 temporary hit point per 3 points of damage the attack would have inflicted. These <Link to="/rule/temporary_hit_points">temporary hit points</Link> last until the end of the barbarian's <em>rage.</em></Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerenergyeruption-energy-eruption-su-fn9-11" icon={["armor-upgrade","barbed-arrow","tornado-discs"]}>
+<Ability id="ragepowerenergyeruption-energy-eruption-su-fn9-11" icon={["def","line","cone"]}>
 <Pair single id="ragepowerenergyeruption-energy-eruption-su-fn9-11"><Link to="/ragepower/energy_eruption">⮞</Link> Energy Eruption (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.11" id="ability-rage_powers-fake-fn-9.11" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">16th-level barbarian, <Link to="/ragepower/energy_absorption">energy absorption</Link></Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
@@ -781,44 +781,44 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </div>
 </div>
 </div>
-<Ability id="ragepowererraticcharge-erratic-charge-ex-fn11" icon={["mailed-fist"]}>
+<Ability id="ragepowererraticcharge-erratic-charge-ex-fn11" icon={["melee"]}>
 <Pair single id="ragepowererraticcharge-erratic-charge-ex-fn11"><Link to="/ragepower/erratic_charge">⮞</Link> Erratic Charge (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-11" id="ability-rage_powers-fake-fn-11" data-hash-target to="ability-rage_powers-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Ability">As part of the full-round action to perform a <Link to="/rule/charge">charge</Link> attack against a creature at least 20 feet away, the barbarian can move 5 feet in any direction before making the charge. This movement is not a 5-foot step and provokes attacks of opportunity as normal, and using this option reduces the maximum distance of the charge by 10 feet.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreatererraticcharge-greater-erratic-charge-ex-fn11-2" icon={["mailed-fist"]}>
+<Ability id="ragepowergreatererraticcharge-greater-erratic-charge-ex-fn11-2" icon={["melee"]}>
 <Pair single id="ragepowergreatererraticcharge-greater-erratic-charge-ex-fn11-2"><Link to="/ragepower/greater_erratic_charge">⮞</Link> Greater Erratic Charge (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-11.2" id="ability-rage_powers-fake-fn-11.2" data-hash-target to="ability-rage_powers-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/erratic_charge">Erratic charge</Link></Pair>
 <Pair title="Ability">The barbarian can move 10 feet when using <em>erratic charge.</em> If she does so, the creature she is charging must be at least 20 feet away and the movement reduces the maximum distance of her charge by 20 feet.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerfearlessrage-fearless-rage-ex-fn1-3" icon={["armor-upgrade"]}>
+<Ability id="ragepowerfearlessrage-fearless-rage-ex-fn1-3" icon={["def"]}>
 <Pair single id="ragepowerfearlessrage-fearless-rage-ex-fn1-3"><Link to="/ragepower/fearless_rage">⮞</Link> Fearless Rage (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.3" id="ability-rage_powers-fake-fn-1.3" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level barbarian</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian is immune to the <Link to="/misc/shaken">shaken</Link> and <Link to="/misc/frightened">frightened</Link> conditions.</Pair>
 </Ability>
-<Ability id="ragepowerferociousbeast-ferocious-beast-ex-fn12" icon={["stairs-goal"]}>
+<Ability id="ragepowerferociousbeast-ferocious-beast-ex-fn12" icon={["power"]}>
 <Pair single id="ragepowerferociousbeast-ferocious-beast-ex-fn12"><Link to="/ragepower/ferocious_beast">⮞</Link> Ferocious Beast (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-12" id="ability-rage_powers-fake-fn-12" data-hash-target to="ability-rage_powers-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Passive Ability">While the barbarian is <em>raging,</em> her animal companion also gains the benefits of <em>rage</em> (including <em>greater rage, mighty rage,</em> and <em>tireless rage</em>), though the barbarian must spend 1 additional round of <em>rage</em> per round if her companion begins or ends its turn adjacent to her, and 2 additional rounds of <em>rage</em> per round if not.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreaterferociousbeast-greater-ferocious-beast-ex-fn12-2" icon={["stairs-goal"]}>
+<Ability id="ragepowergreaterferociousbeast-greater-ferocious-beast-ex-fn12-2" icon={["power"]}>
 <Pair single id="ragepowergreaterferociousbeast-greater-ferocious-beast-ex-fn12-2"><Link to="/ragepower/greater_ferocious_beast">⮞</Link> Greater Ferocious Beast (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-12.2" id="ability-rage_powers-fake-fn-12.2" data-hash-target to="ability-rage_powers-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian, <Link to="/ragepower/ferocious_beast">ferocious beast</Link></Pair>
 <Pair title="Passive Ability">While the barbarian is <em>raging,</em> her animal companion shares the benefits of the barbarian's rage powers that are constant in effect. It gains no benefit from rage powers that require actions to activate, even if they are free actions.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerferociousmount-ferocious-mount-ex-fn9-12" icon={["stairs-goal"]}>
+<Ability id="ragepowerferociousmount-ferocious-mount-ex-fn9-12" icon={["power"]}>
 <Pair single id="ragepowerferociousmount-ferocious-mount-ex-fn9-12"><Link to="/ragepower/ferocious_mount">⮞</Link> Ferocious Mount (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.12" id="ability-rage_powers-fake-fn-9.12" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Passive Ability">While <em>raging</em> and mounted, the barbarian's mount also gains the benefits of <em>rage</em> (including <em>greater rage</em> and <em>mighty rage</em>) as long as the barbarian is mounted or adjacent to it. While her mount is <em>raging</em> in this way, she must spend one additional round of <em>rage</em> per round. She can elect not to pay this cost, in which case her mount does not <em>rage.</em></Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreaterferociousmount-greater-ferocious-mount-ex-fn9-13" icon={["stairs-goal"]}>
+<Ability id="ragepowergreaterferociousmount-greater-ferocious-mount-ex-fn9-13" icon={["power"]}>
 <Pair single id="ragepowergreaterferociousmount-greater-ferocious-mount-ex-fn9-13"><Link to="/ragepower/greater_ferocious_mount">⮞</Link> Greater Ferocious Mount (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.13" id="ability-rage_powers-fake-fn-9.13" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian, <Link to="/ragepower/ferocious_mount">ferocious mount</Link></Pair>
 <Pair title="Passive Ability">While <em>raging</em> and mounted, the barbarian's mount gains the benefits of any rage powers that are constant in effect when the barbarian is <em>raging.</em> It does not gain the benefit of any rage powers that require actions to activate, even if they are free actions.</Pair>
 </Ability>
-<Ability id="ragepowerferocioustrample-ferocious-trample-ex-fn9-14" icon={["mailed-fist"]}>
+<Ability id="ragepowerferocioustrample-ferocious-trample-ex-fn9-14" icon={["melee"]}>
 <Pair single id="ragepowerferocioustrample-ferocious-trample-ex-fn9-14"><Link to="/ragepower/ferocious_trample">⮞</Link> Ferocious Trample (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.14" id="ability-rage_powers-fake-fn-9.14" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian, <Link to="/ragepower/ferocious_mount">ferocious mount</Link></Pair>
 <Pair title="Ability"><p>While <em>raging</em> and mounted, the barbarian's mount gains the <Link to="/umr/trample">trample</Link> special attack. This attack inflicts 1d8 points of damage for a Medium mount, 2d6 for a Large mount, or 2d8 for a Huge mount, plus 1-1/2 times the mount's Strength modifier. A successful Reflex save (DC 10 + 1/2 the barbarian's level + the mount's Strength modifier) halves this damage.</p>
@@ -826,124 +826,124 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreaterferocioustrample-greater-ferocious-trample-ex-fn9-15" icon={["upgrade","mailed-fist"]}>
+<Ability id="ragepowergreaterferocioustrample-greater-ferocious-trample-ex-fn9-15" icon={["boost","melee"]}>
 <Pair single id="ragepowergreaterferocioustrample-greater-ferocious-trample-ex-fn9-15"><Link to="/ragepower/greater_ferocious_trample">⮞</Link> Greater Ferocious Trample (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.15" id="ability-rage_powers-fake-fn-9.15" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level barbarian, <Link to="/ragepower/ferocious_trample">ferocious trample</Link></Pair>
 <Pair title="Ability">A barbarian's mount can affect creatures up to its own size with its <em>ferocious trample.</em> In addition, it can make an <Link to="/rule/overrun">overrun</Link> combat maneuver check as a <strong className="hl">free action</strong> against a creature that fails its Reflex save (or chooses not to save in order to take an attack of opportunity) against its trample.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerspiritsteed-spirit-steed-su-fn9-16" icon={["armor-upgrade","upgrade"]}>
+<Ability id="ragepowerspiritsteed-spirit-steed-su-fn9-16" icon={["def","boost"]}>
 <Pair single id="ragepowerspiritsteed-spirit-steed-su-fn9-16"><Link to="/ragepower/spirit_steed">⮞</Link> Spirit Steed (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.16" id="ability-rage_powers-fake-fn-9.16" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/ferocious_mount">ferocious mount</Link></Pair>
 <Pair title="Passive Ability">While <em>raging</em> and mounted, the barbarian's mount gains DR/magic equal to 1/2 the barbarian's level. The mount's natural weapons count as magical for the purpose of overcoming damage reduction.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerfiercefortitude-fierce-fortitude-ex-fn13" icon={["armor-upgrade"]}>
+<Ability id="ragepowerfiercefortitude-fierce-fortitude-ex-fn13" icon={["def"]}>
 <Pair single id="ragepowerfiercefortitude-fierce-fortitude-ex-fn13"><Link to="/ragepower/fierce_fortitude">⮞</Link> Fierce Fortitude (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13" id="ability-rage_powers-fake-fn-13" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Trained in <Link to="/skill/intimidate">Intimidate</Link></Pair>
 <Pair title="Passive Ability">The character gains a +4 bonus on saving throws against diseases and poison.</Pair>
 </Ability>
-<Ability id="ragepowerfleshwound-flesh-wound-ex-fn9-17" icon={["armor-upgrade"]}>
+<Ability id="ragepowerfleshwound-flesh-wound-ex-fn9-17" icon={["def"]}>
 <Pair single id="ragepowerfleshwound-flesh-wound-ex-fn9-17"><Link to="/ragepower/flesh_wound">⮞</Link> Flesh Wound (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.17" id="ability-rage_powers-fake-fn-9.17" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level barbarian</Pair>
 <Pair title="Ability">Once per <em>rage,</em> the barbarian can try to avoid serious harm from an attack. The barbarian must make a Fortitude save with a DC equal to the damage that would be dealt by the attack. The barbarian's armor check penalty applies on this saving throw. If the save succeeds, the barbarian takes half damage from the attack and the damage is nonlethal.</Pair>
 <Pair title="Special">The barbarian must elect to use this ability after the attack roll is made, but before the damage is rolled.</Pair>
 </Ability>
-<Ability id="ragepowerflightresponse-flight-response-fn14" icon={["armor-upgrade"]}>
+<Ability id="ragepowerflightresponse-flight-response-fn14" icon={["def"]}>
 <Pair single id="ragepowerflightresponse-flight-response-fn14"><Link to="/ragepower/flight_response">⮞</Link> Flight Response <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-14" id="ability-rage_powers-fake-fn-14" data-hash-target to="ability-rage_powers-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Immediate Action">When a barbarian attempts a saving throw against a fear effect, she can enter a <em>rage</em> (as long as she would normally be able to enter <em>rage</em>). This consumes 3 rounds of the barbarian's daily allotment of <em>rage</em> rounds, but the barbarian can maintain the <em>rage</em> each round on her turn normally. Any benefits from the barbarian's <em>rage</em> apply immediately, so she gains her bonus on Will saves against the effect that required the initial saving throw.</Pair>
 <Pair title="Special">Unlike most rage powers, this rage power's effects are useful only when the barbarian is not <em>raging,</em> so a skald can't grant this rage power to allies with raging song.</Pair>
 </Ability>
-<Ability id="ragepowerfueledbyvengeance-fueled-by-vengeance-fn5-5" icon={["upgrade"]}>
+<Ability id="ragepowerfueledbyvengeance-fueled-by-vengeance-fn5-5" icon={["boost"]}>
 <Pair single id="ragepowerfueledbyvengeance-fueled-by-vengeance-fn5-5"><Link to="/ragepower/fueled_by_vengeance">⮞</Link> Fueled by Vengeance <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-5.5" id="ability-rage_powers-fake-fn-5.5" data-hash-target to="ability-rage_powers-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/race/wereboar_kin">wereboar-kin</Link> or associated with wereboar-kin</Pair>
 <Pair title="Ability">While <em>raging,</em> whenever you deal weapon damage to a creature that dealt damage to you since the end of your last turn, add 1 round to your remaining number of rounds of <em>rage</em> for the current day.</Pair>
 <Pair title="Special">You can gain no more than 1 extra round of <em>rage</em> each round.</Pair>
 </Ability>
-<Ability id="ragepowerfuriousdraw-furious-draw-fn11-3" icon={["stairs-goal"]}>
+<Ability id="ragepowerfuriousdraw-furious-draw-fn11-3" icon={["power"]}>
 <Pair single id="ragepowerfuriousdraw-furious-draw-fn11-3"><Link to="/ragepower/furious_draw">⮞</Link> Furious Draw <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-11.3" id="ability-rage_powers-fake-fn-11.3" data-hash-target to="ability-rage_powers-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Ability">The barbarian is treated as having the <Link to="/feat/quick_draw">Quick Draw</Link> feat.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerfuriousbarrage-furious-barrage-ex-fn11-4" icon={["stairs-goal","bowman"]}>
+<Ability id="ragepowerfuriousbarrage-furious-barrage-ex-fn11-4" icon={["power","ranged"]}>
 <Pair single id="ragepowerfuriousbarrage-furious-barrage-ex-fn11-4"><Link to="/ragepower/furious_barrage">⮞</Link> Furious Barrage (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-11.4" id="ability-rage_powers-fake-fn-11.4" data-hash-target to="ability-rage_powers-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level barbarian, <Link to="/ragepower/furious_draw">furious draw</Link></Pair>
 <Pair title="Ability">The barbarian is treated as having the <Link to="/feat/rapid_shot">Rapid Shot</Link> feat, but only for the purpose of attacking with thrown weapons. She need not meet the feat's prerequisites.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerghostrager-ghost-rager-su-fn6-3" icon={["upgrade","armor-upgrade"]}>
+<Ability id="ragepowerghostrager-ghost-rager-su-fn6-3" icon={["boost","def"]}>
 <Pair single id="ragepowerghostrager-ghost-rager-su-fn6-3"><Link to="/ragepower/ghost_rager">⮞</Link> Ghost Rager (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.3" id="ability-rage_powers-fake-fn-6.3" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian deals normal damage to incorporeal creatures even when using nonmagical weapons. She also gains a morale bonus to touch AC equal to 2 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level. This can't raise her touch AC above her full AC.</Pair>
 </Ability>
-<Ability id="ragepowergoodforwhatailsyou-good-for-what-ails-you-ex-fn9-18" icon={["armor-upgrade"]}>
+<Ability id="ragepowergoodforwhatailsyou-good-for-what-ails-you-ex-fn9-18" icon={["def"]}>
 <Pair single id="ragepowergoodforwhatailsyou-good-for-what-ails-you-ex-fn9-18"><Link to="/ragepower/good_for_what_ails_you">⮞</Link> Good for What Ails You (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.18" id="ability-rage_powers-fake-fn-9.18" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian who takes a drink of alcohol may attempt a new saving throw against one of the following conditions that may be affecting her: blinded, confused, dazzled, deafened, exhausted, fatigued, frightened, nauseated, panicked, shaken, or sickened. If she succeeds at the save, the effect is suppressed for the duration of the <em>rage.</em></Pair>
 <Pair title="Special">She also may attempt a new saving throw if poisoned; a successful save counts against those required for a cure, but a failed save has no ill effect.</Pair>
 </Ability>
-<Ability id="ragepowergroundbreaker-ground-breaker-ex-fn9-19" icon={["mailed-fist","armor-downgrade"]}>
+<Ability id="ragepowergroundbreaker-ground-breaker-ex-fn9-19" icon={["melee","lower"]}>
 <Pair single id="ragepowergroundbreaker-ground-breaker-ex-fn9-19"><Link to="/ragepower/ground_breaker">⮞</Link> Ground Breaker (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.19" id="ability-rage_powers-fake-fn-9.19" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian</Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
 <Pair title="Standard Action">The barbarian can attack the floor around her. This attack automatically hits and deals damage normally. If the barbarian manages to deal more damage than the floor's hardness, the space she occupies and all of the squares adjacent to her become <Link to="/rule/difficult_terrain">difficult terrain</Link>. Creatures in these squares, except the barbarian, must make a DC 15 Reflex save or be knocked <Link to="/rule/prone">prone</Link>.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreatergroundbreaker-greater-ground-breaker-ex-fn6-4" icon={["upgrade"]}>
+<Ability id="ragepowergreatergroundbreaker-greater-ground-breaker-ex-fn6-4" icon={["boost"]}>
 <Pair single id="ragepowergreatergroundbreaker-greater-ground-breaker-ex-fn6-4"><Link to="/ragepower/greater_ground_breaker">⮞</Link> Greater Ground Breaker (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.4" id="ability-rage_powers-fake-fn-6.4" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian, <Link to="/ragepower/ground_breaker">ground breaker</Link></Pair>
 <Pair title="Ability">When using the <em>ground breaker</em> rage power, the barbarian can extend the radius of the effect by 5 feet.</Pair>
 <Pair title="Special">This rage power can be selected up to three times, and its effects stack.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerguardedlife-guarded-life-ex-fn9-20" icon={["armor-upgrade"]}>
+<Ability id="ragepowerguardedlife-guarded-life-ex-fn9-20" icon={["def"]}>
 <Pair single id="ragepowerguardedlife-guarded-life-ex-fn9-20"><Link to="/ragepower/guarded_life">⮞</Link> Guarded Life (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.20" id="ability-rage_powers-fake-fn-9.20" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> if the barbarian is reduced below 0 hit points, 1 hit point of lethal damage per barbarian level is converted to nonlethal damage. If the barbarian is at negative hit points due to lethal damage, she immediately <Link to="/misc/stabilize">stabilizes</Link>.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreaterguardedlife-greater-guarded-life-ex-fn6-5" icon={["upgrade"]}>
+<Ability id="ragepowergreaterguardedlife-greater-guarded-life-ex-fn6-5" icon={["boost"]}>
 <Pair single id="ragepowergreaterguardedlife-greater-guarded-life-ex-fn6-5"><Link to="/ragepower/greater_guarded_life">⮞</Link> Greater Guarded Life (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.5" id="ability-rage_powers-fake-fn-6.5" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/guarded_life">guarded life</Link></Pair>
 <Pair title="Passive Ability">When using the <em>guarded life</em> rage power, 1 additional hit point of lethal damage per barbarian level is converted to nonlethal damage.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerguardedstance-guarded-stance-ex-fn1-4" icon={["armor-upgrade"]}>
+<Ability id="ragepowerguardedstance-guarded-stance-ex-fn1-4" icon={["def"]}>
 <Pair single id="ragepowerguardedstance-guarded-stance-ex-fn1-4"><Link to="/ragepower/guarded_stance">⮞</Link> Guarded Stance (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.4" id="ability-rage_powers-fake-fn-1.4" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Move-Equivalent Action">The barbarian gains a dodge bonus to her Armor Class against melee attacks for a number of rounds equal to the barbarian's current Constitution modifier (minimum 1). This dodge bonus is equal to 1 + <Link to="/misc/one_sixth">one-sixth</Link> her barbarian level.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
-<Ability id="ragepowerhissingrage-hissing-rage-su-fn7-6" icon={["magic-palm"]}>
+<Ability id="ragepowerhissingrage-hissing-rage-su-fn7-6" icon={["touch"]}>
 <Pair single id="ragepowerhissingrage-hissing-rage-su-fn7-6"><Link to="/ragepower/hissing_rage">⮞</Link> Hissing Rage (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-7.6" id="ability-rage_powers-fake-fn-7.6" data-hash-target to="ability-rage_powers-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Usage">Once per hour</Pair>
 <Pair title="Standard Action"><p>Once per hour, the barbarian can spit venom at an adjacent enemy. She must make a touch attack to successfully spit on a foe in this way, but she can also apply this poison as a <strong className="hl">swift action</strong> when she hits with a bite attack.</p>
 <AffInfo type="Bite-contact or injury" save="Fort 10 + 1/2 the barbarian's level + her Con modifier" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure2c icon="p">Hissing Rage Poison</AffInfo>
 </Pair>
 </Ability>
-<Ability id="ragepowerlesserhurling-lesser-hurling-ex-fn9-21" icon={["smoking-finger"]}>
+<Ability id="ragepowerlesserhurling-lesser-hurling-ex-fn9-21" icon={["zap"]}>
 <Pair single id="ragepowerlesserhurling-lesser-hurling-ex-fn9-21"><Link to="/ragepower/lesser_hurling">⮞</Link> Lesser Hurling (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.21" id="ability-rage_powers-fake-fn-9.21" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Full-Round Action">While <em>raging,</em> the barbarian can lift and hurl an object up to one size category smaller than herself with both hands or two size categories smaller with one hand as an <Link to="/misc/improvised_weapon">improvised weapon</Link> with a range increment of 10 feet. This inflicts damage as a <Link to="/rule/falling_objects">falling object</Link> plus the barbarian's Strength bonus. This damage is halved if the object is not made of stone, metal, or similar material.</Pair>
 <Pair title="Special">This is a ranged touch attack, and the target may attempt a Reflex save (DC 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) for half damage. The barbarian may apply <Link to="/feat/power_attack">Power Attack</Link> to this attack as a one- or two-handed weapon, as appropriate.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerhurling-hurling-ex-fn9-22" icon={["upgrade"]}>
+<Ability id="ragepowerhurling-hurling-ex-fn9-22" icon={["boost"]}>
 <Pair single id="ragepowerhurling-hurling-ex-fn9-22"><Link to="/ragepower/hurling">⮞</Link> Hurling (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.22" id="ability-rage_powers-fake-fn-9.22" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/lesser_hurling">Lesser hurling</Link>, 8th-level barbarian</Pair>
 <Pair title="Ability">As <em>lesser hurling,</em> but the barbarian can increase the range increment to 20 feet or increase the size of a hurled object by one size category.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreaterhurling-greater-hurling-ex-fn9-23" icon={["upgrade"]}>
+<Ability id="ragepowergreaterhurling-greater-hurling-ex-fn9-23" icon={["boost"]}>
 <Pair single id="ragepowergreaterhurling-greater-hurling-ex-fn9-23"><Link to="/ragepower/greater_hurling">⮞</Link> Greater Hurling (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.23" id="ability-rage_powers-fake-fn-9.23" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/hurling">Hurling</Link>, 12th-level barbarian</Pair>
 <Pair title="Ability">As <em>hurling,</em> but the barbarian can increase the range increment to 30 feet or increase the size of a hurled object by two size categories.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerhurlingcharge-hurling-charge-ex-fn9-24" icon={["smoking-finger"]}>
+<Ability id="ragepowerhurlingcharge-hurling-charge-ex-fn9-24" icon={["zap"]}>
 <Pair single id="ragepowerhurlingcharge-hurling-charge-ex-fn9-24"><Link to="/ragepower/hurling_charge">⮞</Link> Hurling Charge (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.24" id="ability-rage_powers-fake-fn-9.24" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/lesser_hurling">Lesser hurling</Link>, 6th-level barbarian</Pair>
 <Pair title="Ability">While <em>raging</em> and making a <Link to="/rule/charge">charge</Link> attack, the barbarian may draw and throw a <em>hurled</em> weapon during her charge, gaining the normal +2 attack roll bonus on the thrown weapon attack as well as on the melee attack at the end of the charge.</Pair>
 <Pair title="Special">The barbarian must move at least 10 feet before using a thrown weapon and at least 10 additional feet before making a melee attack at the end of her charge. The barbarian must have a thrown weapon in hand or have one hand free at the beginning of her charge.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerimpellingdisarm-impelling-disarm-ex-fn15" icon={["mailed-fist","bowman"]}>
+<Ability id="ragepowerimpellingdisarm-impelling-disarm-ex-fn15" icon={["melee","ranged"]}>
 <Pair single id="ragepowerimpellingdisarm-impelling-disarm-ex-fn15"><Link to="/ragepower/impelling_disarm">⮞</Link> Impelling Disarm (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-15" id="ability-rage_powers-fake-fn-15" data-hash-target to="ability-rage_powers-fake-fn-15-target">15</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level barbarian</Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
@@ -952,135 +952,135 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <p>The barbarian makes a ranged attack, which doesn't provoke attacks of opportunity, at either the target of his disarm maneuver or another creature within 20 feet. If the barbarian is aiming for the disarmed creature, the foe doesn't count as being in melee for determining any penalty on the ranged attack from throwing a ranged weapon into melee. If the ranged attack hits, the disarmed weapon deals damage as if the barbarian had thrown it. The barbarian can choose to aim the disarmed weapon at a square rather than at a foe.</p>
 </Pair>
 </Ability>
-<Ability id="ragepowerincreaseddamagereduction-increased-damage-reduction-ex-fn1-5" icon={["armor-upgrade"]}>
+<Ability id="ragepowerincreaseddamagereduction-increased-damage-reduction-ex-fn1-5" icon={["def"]}>
 <Pair single id="ragepowerincreaseddamagereduction-increased-damage-reduction-ex-fn1-5"><Link to="/ragepower/increased_damage_reduction">⮞</Link> Increased Damage Reduction (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.5" id="ability-rage_powers-fake-fn-1.5" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian</Pair>
 <Pair title="Passive Ability">The barbarian's damage reduction increases by 1/-. This increase is always active while the barbarian is <em>raging.</em></Pair>
 <Pair title="Special">A barbarian can select this rage power up to three times. Its effects stack.</Pair>
 </Ability>
-<Ability id="ragepowerinternalfortitude-internal-fortitude-ex-fn1-6" icon={["armor-upgrade"]}>
+<Ability id="ragepowerinternalfortitude-internal-fortitude-ex-fn1-6" icon={["def"]}>
 <Pair single id="ragepowerinternalfortitude-internal-fortitude-ex-fn1-6"><Link to="/ragepower/internal_fortitude">⮞</Link> Internal Fortitude (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.6" id="ability-rage_powers-fake-fn-1.6" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian is immune to the sickened and nauseated conditions.</Pair>
 </Ability>
-<Ability id="ragepowerintimidatingglare-intimidating-glare-ex-fn1-7" icon={["armor-downgrade"]}>
+<Ability id="ragepowerintimidatingglare-intimidating-glare-ex-fn1-7" icon={["lower"]}>
 <Pair single id="ragepowerintimidatingglare-intimidating-glare-ex-fn1-7"><Link to="/ragepower/intimidating_glare">⮞</Link> Intimidating Glare (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.7" id="ability-rage_powers-fake-fn-1.7" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Move-Equivalent Action">The barbarian can make an Intimidate check against one adjacent foe. If the barbarian successfully demoralizes her opponent, the foe is <Link to="/misc/shaken">shaken</Link> for 1d4 rounds + 1 round for every 5 points by which the barbarian's check exceeds the DC.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerbattleroar-battle-roar-su-fn13-2" icon={["smoking-finger"]}>
+<Ability id="ragepowerbattleroar-battle-roar-su-fn13-2" icon={["zap"]}>
 <Pair single id="ragepowerbattleroar-battle-roar-su-fn13-2"><Link to="/ragepower/battle_roar">⮞</Link> Battle Roar (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.2" id="ability-rage_powers-fake-fn-13.2" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/intimidating_glare">intimidating glare</Link></Pair>
 <Pair title="Ability">When the character successfully demoralizes an opponent using <em>intimidating glare,</em> he also deals 1d6 points of sonic damage to that opponent.</Pair>
 </Ability>
-<Ability id="ragepowerterrifyinghowl-terrifying-howl-ex-fn1-8" icon={["armor-downgrade"]}>
+<Ability id="ragepowerterrifyinghowl-terrifying-howl-ex-fn1-8" icon={["lower"]}>
 <Pair single id="ragepowerterrifyinghowl-terrifying-howl-ex-fn1-8"><Link to="/ragepower/terrifying_howl">⮞</Link> Terrifying Howl (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.8" id="ability-rage_powers-fake-fn-1.8" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/intimidating_glare">Intimidating glare</Link>, 8th-level barbarian</Pair>
 <Pair title="Standard Action">The barbarian unleashes a terrifying howl. All <Link to="/misc/shaken">shaken</Link> enemies within 30 feet must make a Will save (DC equal to 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) or be <Link to="/misc/panicked">panicked</Link> for 1d4+1 rounds.</Pair>
 <Pair title="Special">Once an enemy has made a save versus <em>terrifying howl</em> (successful or not), it is immune to this power for 24 hours.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerinuredtothedead-inured-to-the-dead-fn16" icon={["armor-upgrade","rolling-dices"]}>
+<Ability id="ragepowerinuredtothedead-inured-to-the-dead-fn16" icon={["def","roll"]}>
 <Pair single id="ragepowerinuredtothedead-inured-to-the-dead-fn16"><Link to="/ragepower/inured_to_the_dead">⮞</Link> Inured to the Dead <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-16" id="ability-rage_powers-fake-fn-16" data-hash-target to="ability-rage_powers-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level barbarian</Pair>
 <Pair title="Passive Ability">Once per <em>rage,</em> when the barbarian fails a saving throw against an effect created by an undead creature, she can reroll the saving throw. She must use the second result, even if it is worse. This does not require spending an action.</Pair>
 </Ability>
-<Ability id="ragepowerknockback-knockback-ex-fn1-9" icon={["mailed-fist"]}>
+<Ability id="ragepowerknockback-knockback-ex-fn1-9" icon={["melee"]}>
 <Pair single id="ragepowerknockback-knockback-ex-fn1-9"><Link to="/ragepower/knockback">⮞</Link> Knockback (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.9" id="ability-rage_powers-fake-fn-1.9" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">Once per round, the barbarian can make a <Link to="/rule/bull_rush">bull rush</Link> attempt against one target in place of a melee attack. If successful, the target takes damage equal to the barbarian's Strength modifier and is moved back as normal. The barbarian does not need to move with the target if successful.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
-<Ability id="ragepowerknockdown-knockdown-ex-fn9-25" icon={["mailed-fist"]}>
+<Ability id="ragepowerknockdown-knockdown-ex-fn9-25" icon={["melee"]}>
 <Pair single id="ragepowerknockdown-knockdown-ex-fn9-25"><Link to="/ragepower/knockdown">⮞</Link> Knockdown (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.25" id="ability-rage_powers-fake-fn-9.25" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Ability">Once per <em>rage,</em> the barbarian can make a <Link to="/rule/trip">trip</Link> attack against one target in place of a melee attack. If successful, the target takes damage equal to the barbarian's Strength modifier and is knocked <Link to="/rule/prone">prone</Link>.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
-<Ability id="ragepowercairnlinnormdeathcurse-cairn-linnorm-death-curse-su-fn13-3" icon={["upgrade","armor-upgrade"]}>
+<Ability id="ragepowercairnlinnormdeathcurse-cairn-linnorm-death-curse-su-fn13-3" icon={["boost","def"]}>
 <Pair single id="ragepowercairnlinnormdeathcurse-cairn-linnorm-death-curse-su-fn13-3"><Link to="/ragepower/cairn_linnorm_death_curse">⮞</Link> Cairn Linnorm Death Curse (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.3" id="ability-rage_powers-fake-fn-13.3" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The character channels the power of a <Link to="/monster/cairn_linnorm">cairn linnorm</Link>. The character's melee attacks deal an additional 1 point of negative energy damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of decay</em> (Will negates)." prereq="8th-level barbarian"</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff={<>Target takes 1 point of <Link to="/rule/con_damage">Con damage</Link> per day and <Link to="/rule/age">ages</Link> at a rate of 1 year per day (eventually incurring all of the penalties of old age but none of the bonuses)</>} icon="c">Curse of Decay</AffInfo>
 </Pair>
 </Ability>
-<Ability id="ragepowercraglinnormdeathcurse-crag-linnorm-death-curse-su-fn13-4" icon={["upgrade","armor-upgrade"]}>
+<Ability id="ragepowercraglinnormdeathcurse-crag-linnorm-death-curse-su-fn13-4" icon={["boost","def"]}>
 <Pair single id="ragepowercraglinnormdeathcurse-crag-linnorm-death-curse-su-fn13-4"><Link to="/ragepower/crag_linnorm_death_curse">⮞</Link> Crag Linnorm Death Curse (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.4" id="ability-rage_powers-fake-fn-13.4" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The character channels the power of a <Link to="/monster/crag_linnorm">crag linnorm</Link>. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of fire</em> (Will negates)." prereq="4th-level barbarian"</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff={<>Target gains <Link to="/umr/vulnerability">vulnerability</Link> to fire</>} icon="c">Curse of Fire</AffInfo>
 </Pair>
 </Ability>
-<Ability id="ragepowerfjordlinnormdeathcurse-fjord-linnorm-death-curse-su-fn13-5" icon={["upgrade","armor-upgrade"]}>
+<Ability id="ragepowerfjordlinnormdeathcurse-fjord-linnorm-death-curse-su-fn13-5" icon={["boost","def"]}>
 <Pair single id="ragepowerfjordlinnormdeathcurse-fjord-linnorm-death-curse-su-fn13-5"><Link to="/ragepower/fjord_linnorm_death_curse">⮞</Link> Fjord Linnorm Death Curse (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.5" id="ability-rage_powers-fake-fn-13.5" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The character channels the power of a <Link to="/monster/fjord_linnorm">fjord linnorm</Link>. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of drowning</em> (Will negates)." prereq="4th-level barbarian"</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff={<>Target is unable to breathe water (even with magic), can hold its breath only half as long as normal, and is <Link to="/misc/sickened">sickened</Link> whenever it holds its breath</>} icon="c">Curse of Drowning</AffInfo>
 </Pair>
 </Ability>
-<Ability id="ragepowericelinnormdeathcurse-ice-linnorm-death-curse-su-fn13-6" icon={["upgrade","armor-upgrade"]}>
+<Ability id="ragepowericelinnormdeathcurse-ice-linnorm-death-curse-su-fn13-6" icon={["boost","def"]}>
 <Pair single id="ragepowericelinnormdeathcurse-ice-linnorm-death-curse-su-fn13-6"><Link to="/ragepower/ice_linnorm_death_curse">⮞</Link> Ice Linnorm Death Curse (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.6" id="ability-rage_powers-fake-fn-13.6" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The character channels the power of an <Link to="/monster/ice_linnorm">ice linnorm</Link>. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed, the attacker suffers the <em>curse of frost.</em>" prereq="4th-level barbarian"</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff={<>Target gains <Link to="/umr/vulnerability">vulnerability</Link> to cold</>} icon="c">Curse of Frost</AffInfo>
 </Pair>
 </Ability>
-<Ability id="ragepowertaigalinnormdeathcurse-taiga-linnorm-death-curse-su-fn13-7" icon={["upgrade","armor-upgrade"]}>
+<Ability id="ragepowertaigalinnormdeathcurse-taiga-linnorm-death-curse-su-fn13-7" icon={["boost","def"]}>
 <Pair single id="ragepowertaigalinnormdeathcurse-taiga-linnorm-death-curse-su-fn13-7"><Link to="/ragepower/taiga_linnorm_death_curse">⮞</Link> Taiga Linnorm Death Curse (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.7" id="ability-rage_powers-fake-fn-13.7" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The character channels the power of a <Link to="/monster/taiga_linnorm">taiga linnorm</Link>. The character's melee attacks deal an additional 1 point of electricity damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of electricity</em> (Will negates)." prereq="4th-level barbarian"</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff={<>Target gains <Link to="/umr/vulnerability">vulnerability</Link> to electricity</>} icon="c">Curse of Electricity</AffInfo>
 </Pair>
 </Ability>
-<Ability id="ragepowertarnlinnormdeathcurse-tarn-linnorm-death-curse-su-fn13-8" icon={["upgrade","armor-upgrade"]}>
+<Ability id="ragepowertarnlinnormdeathcurse-tarn-linnorm-death-curse-su-fn13-8" icon={["boost","def"]}>
 <Pair single id="ragepowertarnlinnormdeathcurse-tarn-linnorm-death-curse-su-fn13-8"><Link to="/ragepower/tarn_linnorm_death_curse">⮞</Link> Tarn Linnorm Death Curse (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.8" id="ability-rage_powers-fake-fn-13.8" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The character channels the power of a <Link to="/monster/tarn_linnorm">tarn linnorm</Link>. The character's melee attacks deal an additional 1 point of acid damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of death</em> (Will negates)." prereq="4th-level barbarian"</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff="Target is no longer affected by healing spells and can't heal damage naturally by resting" icon="c">Curse of Death</AffInfo>
 </Pair>
 </Ability>
-<Ability id="ragepowertorlinnormdeathcurse-tor-linnorm-death-curse-su-fn13-9" icon={["upgrade","armor-upgrade"]}>
+<Ability id="ragepowertorlinnormdeathcurse-tor-linnorm-death-curse-su-fn13-9" icon={["boost","def"]}>
 <Pair single id="ragepowertorlinnormdeathcurse-tor-linnorm-death-curse-su-fn13-9"><Link to="/ragepower/tor_linnorm_death_curse">⮞</Link> Tor Linnorm Death Curse (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.9" id="ability-rage_powers-fake-fn-13.9" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The character channels the power of a <Link to="/monster/tor_linnorm">tor linnorm</Link>. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of boiling blood</em> (Will negates)." prereq="8th-level barbarian"</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff={<>Target gains <Link to="/umr/vulnerability">vulnerability</Link> to fire and is permanently <Link to="/misc/staggered">staggered</Link> from the pain of its boiling blood (this is a pain effect)</>} icon="c">Curse of Boiling Blood</AffInfo>
 </Pair>
 </Ability>
-<Ability id="ragepowerliquidcourage-liquid-courage-ex-fn9-26" icon={["armor-upgrade"]}>
+<Ability id="ragepowerliquidcourage-liquid-courage-ex-fn9-26" icon={["def"]}>
 <Pair single id="ragepowerliquidcourage-liquid-courage-ex-fn9-26"><Link to="/ragepower/liquid_courage">⮞</Link> Liquid Courage (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.26" id="ability-rage_powers-fake-fn-9.26" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian increases her morale bonus on saving throws against mind-affecting effects by +1 for each alcoholic drink she consumes during her <em>rage,</em> to a maximum of +1 increase per four barbarian levels.</Pair>
 </Ability>
-<Ability id="ragepowerlizardstride-lizard-stride-su-fn7-7" icon={["magic-swirl"]}>
+<Ability id="ragepowerlizardstride-lizard-stride-su-fn7-7" icon={["magic"]}>
 <Pair single id="ragepowerlizardstride-lizard-stride-su-fn7-7"><Link to="/ragepower/lizard_stride">⮞</Link> Lizard Stride (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-7.7" id="ability-rage_powers-fake-fn-7.7" data-hash-target to="ability-rage_powers-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Ability">When the barbarian makes a <Link to="/rule/charge">charge</Link> or <Link to="/rule/run">run</Link> action while <em>raging,</em> she can move across the surface of water without sinking. She sinks immediately if she ends her turn standing on water.</Pair>
 </Ability>
-<Ability id="ragepowerlowlightvision-low-light-vision-ex-fn1-10" icon={["stairs-goal"]}>
+<Ability id="ragepowerlowlightvision-low-light-vision-ex-fn1-10" icon={["power"]}>
 <Pair single id="ragepowerlowlightvision-low-light-vision-ex-fn1-10"><Link to="/ragepower/low_light_vision">⮞</Link> Low-Light Vision (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.10" id="ability-rage_powers-fake-fn-1.10" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">The barbarian's senses sharpen and she gains low-light vision while <em>raging.</em></Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowernightvision-night-vision-ex-fn1-11" icon={["stairs-goal"]}>
+<Ability id="ragepowernightvision-night-vision-ex-fn1-11" icon={["power"]}>
 <Pair single id="ragepowernightvision-night-vision-ex-fn1-11"><Link to="/ragepower/night_vision">⮞</Link> Night Vision (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.11" id="ability-rage_powers-fake-fn-1.11" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/low_light_vision">Low-light vision</Link> rage power or a low-light vision racial trait</Pair>
 <Pair title="Ability">The barbarian's senses grow incredibly sharp while <em>raging</em> and she gains darkvision 60 feet.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowermasterofthedeep-master-of-the-deep-su-fn17" icon={["magic-swirl"]}>
+<Ability id="ragepowermasterofthedeep-master-of-the-deep-su-fn17" icon={["magic"]}>
 <Pair single id="ragepowermasterofthedeep-master-of-the-deep-su-fn17" flavor="The barbarian commands an aquatic creature to do her bidding."><Link to="/ragepower/master_of_the_deep">⮞</Link> Master of the Deep (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-17" id="ability-rage_powers-fake-fn-17" data-hash-target to="ability-rage_powers-fake-fn-17-target">17</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian</Pair>
 <Pair title="Standard Action">The barbarian selects a creature with the aquatic type within 30 feet and gives a terse command from those listed in the <Link to="/spell/command">command</Link> spell. Alternatively, if the creature has an Intelligence of 1 or 2, the barbarian may instead command the creature to attack the closest creature to it. The creature must succeed at a Will save (DC equal to 10 + half the barbarian's level + her Strength modifier) or obey the command to the best of its ability on its next turn.</Pair>
 <Pair title="Special">Once a creature has attempted a saving throw against master of the deep (successful or not), it is immune to this power for 24 hours. This ability is a mind-affecting effect, but it is not language dependent; the creature need not understand the barbarian giving the command.</Pair>
 </Ability>
-<Ability id="ragepowermightyswing-mighty-swing-ex-fn1-12" icon={["upgrade"]}>
+<Ability id="ragepowermightyswing-mighty-swing-ex-fn1-12" icon={["boost"]}>
 <Pair single id="ragepowermightyswing-mighty-swing-ex-fn1-12"><Link to="/ragepower/mighty_swing">⮞</Link> Mighty Swing (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.12" id="ability-rage_powers-fake-fn-1.12" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level barbarian</Pair>
 <Pair title="Immediate Action">The barbarian automatically confirms a critical hit. This power can be used once a critical threat has been determined.</Pair>
 <Pair title="Special">This power can only be used once per <em>rage.</em></Pair>
 </Ability>
-<Ability id="ragepowermomentofclarity-moment-of-clarity-ex-fn1-13" icon={["stairs-goal"]}>
+<Ability id="ragepowermomentofclarity-moment-of-clarity-ex-fn1-13" icon={["power"]}>
 <Pair single id="ragepowermomentofclarity-moment-of-clarity-ex-fn1-13"><Link to="/ragepower/moment_of_clarity">⮞</Link> Moment of Clarity (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.13" id="ability-rage_powers-fake-fn-1.13" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
 <Pair title="Swift Action">The barbarian does not gain any benefits or take any of the penalties from <em>rage</em> for 1 round. This includes the penalty to Armor Class and the restriction on what actions can be performed. This round still counts against her total number of rounds of <em>rage</em> per day.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerperfectclarity-perfect-clarity-ex-fn6-6" icon={["armor-upgrade","rolling-dices"]}>
+<Ability id="ragepowerperfectclarity-perfect-clarity-ex-fn6-6" icon={["def","roll"]}>
 <Pair single id="ragepowerperfectclarity-perfect-clarity-ex-fn6-6"><Link to="/ragepower/perfect_clarity">⮞</Link> Perfect Clarity (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.6" id="ability-rage_powers-fake-fn-6.6" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/moment_of_clarity">Moment of clarity</Link></Pair>
 <Pair title="Ability">While using her <em>moment of clarity</em> rage power, the barbarian can roll twice for any miss chance or Will saving throws to disbelieve illusions, taking the better result.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerultimateclarity-ultimate-clarity-su-fn13-10" icon={["stairs-goal"]}>
+<Ability id="ragepowerultimateclarity-ultimate-clarity-su-fn13-10" icon={["power"]}>
 <Pair single id="ragepowerultimateclarity-ultimate-clarity-su-fn13-10"><Link to="/ragepower/ultimate_clarity">⮞</Link> Ultimate Clarity (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.10" id="ability-rage_powers-fake-fn-13.10" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/moment_of_clarity">moment of clarity</Link>, <Link to="/ragepower/perfect_clarity">perfect clarity</Link></Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
@@ -1089,121 +1089,121 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </Ability>
 </div>
 </div>
-<Ability id="ragepoweroverbearingadvance-overbearing-advance-ex-fn9-27" icon={["upgrade"]}>
+<Ability id="ragepoweroverbearingadvance-overbearing-advance-ex-fn9-27" icon={["boost"]}>
 <Pair single id="ragepoweroverbearingadvance-overbearing-advance-ex-fn9-27"><Link to="/ragepower/overbearing_advance">⮞</Link> Overbearing Advance (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.27" id="ability-rage_powers-fake-fn-9.27" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian inflicts damage equal to her Strength bonus whenever she succeeds at an <Link to="/rule/overrun">overrun</Link> combat maneuver.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepoweroverbearingonslaught-overbearing-onslaught-ex-fn9-28" icon={["upgrade"]}>
+<Ability id="ragepoweroverbearingonslaught-overbearing-onslaught-ex-fn9-28" icon={["boost"]}>
 <Pair single id="ragepoweroverbearingonslaught-overbearing-onslaught-ex-fn9-28"><Link to="/ragepower/overbearing_onslaught">⮞</Link> Overbearing Onslaught (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.28" id="ability-rage_powers-fake-fn-9.28" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/overbearing_advance">Overbearing advance</Link>, 6th-level barbarian</Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian may <Link to="/rule/overrun">overrun</Link> more than one target per round, with a -2 penalty on her CMB for each overrun check after the first.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowernoescape-no-escape-ex-fn1-14" icon={["stairs-goal"]}>
+<Ability id="ragepowernoescape-no-escape-ex-fn1-14" icon={["power"]}>
 <Pair single id="ragepowernoescape-no-escape-ex-fn1-14"><Link to="/ragepower/no_escape">⮞</Link> No Escape (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.14" id="ability-rage_powers-fake-fn-1.14" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
 <Pair title="Immediate Action">When an adjacent foe uses a <Link to="/rule/withdraw">withdraw</Link> action to move away from her, the barbarian can move up to double her normal speed. She must end her movement adjacent to the enemy that used the withdraw action. The barbarian provokes attacks of opportunity as normal during this movement.</Pair>
 </Ability>
-<Ability id="ragepowerpackrage-pack-rage-ex-fn7-8" icon={["stairs-goal"]}>
+<Ability id="ragepowerpackrage-pack-rage-ex-fn7-8" icon={["power"]}>
 <Pair single id="ragepowerpackrage-pack-rage-ex-fn7-8"><Link to="/ragepower/pack_rage">⮞</Link> Pack Rage (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-7.8" id="ability-rage_powers-fake-fn-7.8" data-hash-target to="ability-rage_powers-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian</Pair>
 <Pair title="Ability">When a barbarian with this rage power enters a <em>rage,</em> any barbarian within 30 feet who also has this rage power can enter a <em>rage.</em> A barbarian that enters a <em>rage</em> outside of her turn spends 1 round of <em>rage</em> immediately and then spends another round of <em>rage</em> to maintain her <em>rage</em> at the beginning of her next turn.</Pair>
 </Ability>
-<Ability id="ragepowerpowerfulblow-powerful-blow-ex-fn1-15" icon={["upgrade"]}>
+<Ability id="ragepowerpowerfulblow-powerful-blow-ex-fn1-15" icon={["boost"]}>
 <Pair single id="ragepowerpowerfulblow-powerful-blow-ex-fn1-15"><Link to="/ragepower/powerful_blow">⮞</Link> Powerful Blow (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.15" id="ability-rage_powers-fake-fn-1.15" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
 <Pair title="Swift Action">The barbarian gains a bonus on a single damage roll. This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level. This power is used before the roll to hit is made.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerbleedingblow-bleeding-blow-ex-fn6-7" icon={["upgrade"]}>
+<Ability id="ragepowerbleedingblow-bleeding-blow-ex-fn6-7" icon={["boost"]}>
 <Pair single id="ragepowerbleedingblow-bleeding-blow-ex-fn6-7"><Link to="/ragepower/bleeding_blow">⮞</Link> Bleeding Blow (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.7" id="ability-rage_powers-fake-fn-6.7" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian, <Link to="/ragepower/powerful_blow">powerful blow</Link></Pair>
 <Pair title="Passive Ability">When she uses her <em>powerful blow</em> rage power, the barbarian also deals <Link to="/rule/bleed">bleed</Link> damage equal to her bonus damage with the <em>powerful blow.</em> This bleed damage bypasses damage reduction.</Pair>
 </Ability>
-<Ability id="ragepowercripplingblow-crippling-blow-ex-fn6-8" icon={["upgrade"]}>
+<Ability id="ragepowercripplingblow-crippling-blow-ex-fn6-8" icon={["boost"]}>
 <Pair single id="ragepowercripplingblow-crippling-blow-ex-fn6-8"><Link to="/ragepower/crippling_blow">⮞</Link> Crippling Blow (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.8" id="ability-rage_powers-fake-fn-6.8" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian, <Link to="/ragepower/powerful_blow">powerful blow</Link></Pair>
 <Pair title="Ability">When using her <em>powerful blow</em> rage power, the barbarian can forgo the normal bonus to damage (including any bleed damage granted by the <Link to="/ragepower/bleeding_blow">bleeding blow</Link> rage power or similar boosts to the damage of the <em>powerful blow</em> rage power) and instead deals 1 point of <Link to="/rule/ability_damage">ability damage</Link> to the target's Strength or Dexterity score for every four class levels the barbarian has attained. The target can attempt a Fortitude saving throw (DC 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) to halve this ability damage.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerquickreflexes-quick-reflexes-ex-fn1-16" icon={["mailed-fist"]}>
+<Ability id="ragepowerquickreflexes-quick-reflexes-ex-fn1-16" icon={["melee"]}>
 <Pair single id="ragepowerquickreflexes-quick-reflexes-ex-fn1-16"><Link to="/ragepower/quick_reflexes">⮞</Link> Quick Reflexes (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.16" id="ability-rage_powers-fake-fn-1.16" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian can make one additional attack of opportunity per round.</Pair>
 </Ability>
-<Ability id="ragepowerragingclimber-raging-climber-ex-fn1-17" icon={["upgrade"]}>
+<Ability id="ragepowerragingclimber-raging-climber-ex-fn1-17" icon={["boost"]}>
 <Pair single id="ragepowerragingclimber-raging-climber-ex-fn1-17"><Link to="/ragepower/raging_climber">⮞</Link> Raging Climber (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.17" id="ability-rage_powers-fake-fn-1.17" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Passive Ability">When <em>raging,</em> the barbarian adds her level as an enhancement bonus on all <Link to="/skill/climb">Climb</Link> skill checks.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerbestialclimber-bestial-climber-ex-fn6-9" icon={["stairs-goal"]}>
+<Ability id="ragepowerbestialclimber-bestial-climber-ex-fn6-9" icon={["power"]}>
 <Pair single id="ragepowerbestialclimber-bestial-climber-ex-fn6-9"><Link to="/ragepower/bestial_climber">⮞</Link> Bestial Climber (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.9" id="ability-rage_powers-fake-fn-6.9" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/raging_climber">raging climber</Link></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian gains a natural climb speed equal to her land speed.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerragingflyer-raging-flyer-ex-fn7-9" icon={["upgrade"]}>
+<Ability id="ragepowerragingflyer-raging-flyer-ex-fn7-9" icon={["boost"]}>
 <Pair single id="ragepowerragingflyer-raging-flyer-ex-fn7-9"><Link to="/ragepower/raging_flyer">⮞</Link> Raging Flyer (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-7.9" id="ability-rage_powers-fake-fn-7.9" data-hash-target to="ability-rage_powers-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Passive Ability">When <em>raging,</em> the barbarian adds her level as an enhancement bonus to <Link to="/skill/fly">Fly</Link> checks.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerbestialflyer-bestial-flyer-ex-fn7-10" icon={["upgrade"]}>
+<Ability id="ragepowerbestialflyer-bestial-flyer-ex-fn7-10" icon={["boost"]}>
 <Pair single id="ragepowerbestialflyer-bestial-flyer-ex-fn7-10"><Link to="/ragepower/bestial_flyer">⮞</Link> Bestial Flyer (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-7.10" id="ability-rage_powers-fake-fn-7.10" data-hash-target to="ability-rage_powers-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">A fly speed (before <em>raging,</em>) <Link to="/ragepower/raging_flyer">raging flyer</Link>, 6th-level barbarian</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian's fly speed increases by 10 feet and her maneuverability improves by one category.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerragingleaper-raging-leaper-ex-fn1-18" icon={["upgrade"]}>
+<Ability id="ragepowerragingleaper-raging-leaper-ex-fn1-18" icon={["boost"]}>
 <Pair single id="ragepowerragingleaper-raging-leaper-ex-fn1-18"><Link to="/ragepower/raging_leaper">⮞</Link> Raging Leaper (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.18" id="ability-rage_powers-fake-fn-1.18" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Passive Ability">When <em>raging,</em> the barbarian adds her level as an enhancement bonus on all <Link to="/skill/acrobatics">Acrobatics</Link> skill checks made to jump. When making a jump in this way, the barbarian is always considered to have a running start.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerbestialleaper-bestial-leaper-ex-fn6-10" icon={["stairs-goal"]}>
+<Ability id="ragepowerbestialleaper-bestial-leaper-ex-fn6-10" icon={["power"]}>
 <Pair single id="ragepowerbestialleaper-bestial-leaper-ex-fn6-10"><Link to="/ragepower/bestial_leaper">⮞</Link> Bestial Leaper (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.10" id="ability-rage_powers-fake-fn-6.10" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/raging_leaper">raging leaper</Link></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian can take a <strong className="hl">move action</strong> to move and can take her normal <strong className="hl">standard action</strong> at any point during the move.</Pair>
 </Ability>
-<Ability id="ragepowerragingflier-raging-flier-su-fn13-11" icon={["stairs-goal"]}>
+<Ability id="ragepowerragingflier-raging-flier-su-fn13-11" icon={["power"]}>
 <Pair single id="ragepowerragingflier-raging-flier-su-fn13-11"><Link to="/ragepower/raging_flier">⮞</Link> Raging Flier (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.11" id="ability-rage_powers-fake-fn-13.11" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/raging_leaper">raging leaper</Link></Pair>
 <Pair title="Move-Equivalent Action">Once per <em>rage,</em> the character can fly up to her base speed. If she uses the <Link to="/rule/charge">charge</Link> action, she can use this flight as part of her movement during the charge.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerraginggrappler-raging-grappler-ex-fn10-2" icon={["mailed-fist"]}>
+<Ability id="ragepowerraginggrappler-raging-grappler-ex-fn10-2" icon={["melee"]}>
 <Pair single id="ragepowerraginggrappler-raging-grappler-ex-fn10-2"><Link to="/ragepower/raging_grappler">⮞</Link> Raging Grappler (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-10.2" id="ability-rage_powers-fake-fn-10.2" data-hash-target to="ability-rage_powers-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Ability"><p>While <em>raging,</em> the barbarian grapples her foes with the power and viciousness of a river crocodile. As long as she is <em>raging,</em> whenever the barbarian succeeds at a check to start a <Link to="/rule/grapple">grapple</Link>, she can choose to deal damage as if she had also succeeded at a check to maintain the grapple.</p>
 <p>In addition, while she is <em>raging,</em> whenever the barbarian succeeds at a combat maneuver check to maintain a grapple, she can choose to give herself, the target of her grapple, or both the <Link to="/rule/prone">prone</Link> condition as a <strong className="hl">free action</strong> while continuing to maintain the grapple.</p>
 </Pair>
 </Ability>
-<Ability id="ragepowerragingswimmer-raging-swimmer-ex-fn1-19" icon={["upgrade"]}>
+<Ability id="ragepowerragingswimmer-raging-swimmer-ex-fn1-19" icon={["boost"]}>
 <Pair single id="ragepowerragingswimmer-raging-swimmer-ex-fn1-19"><Link to="/ragepower/raging_swimmer">⮞</Link> Raging Swimmer (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.19" id="ability-rage_powers-fake-fn-1.19" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Passive Ability">When <em>raging,</em> the barbarian adds her level as an enhancement bonus on all <Link to="/skill/swim">Swim</Link> skill checks.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerbestialswimmer-bestial-swimmer-ex-fn6-11" icon={["stairs-goal"]}>
+<Ability id="ragepowerbestialswimmer-bestial-swimmer-ex-fn6-11" icon={["power"]}>
 <Pair single id="ragepowerbestialswimmer-bestial-swimmer-ex-fn6-11"><Link to="/ragepower/bestial_swimmer">⮞</Link> Bestial Swimmer (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.11" id="ability-rage_powers-fake-fn-6.11" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/raging_swimmer">raging swimmer</Link></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian gains a natural swim speed equal to her normal land speed.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerragingwhirlwind-raging-whirlwind-su-fn7-11" icon={["armor-downgrade"]}>
+<Ability id="ragepowerragingwhirlwind-raging-whirlwind-su-fn7-11" icon={["lower"]}>
 <Pair single id="ragepowerragingwhirlwind-raging-whirlwind-su-fn7-11"><Link to="/ragepower/raging_whirlwind">⮞</Link> Raging Whirlwind (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-7.11" id="ability-rage_powers-fake-fn-7.11" data-hash-target to="ability-rage_powers-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level barbarian</Pair>
 <Pair title="Immediate Action">The barbarian can create a whirlwind with a powerful spinning move after she confirms a critical hit with a melee attack. The whirlwind circles the target of her melee attack, lifting it in the air slightly until the end of the barbarian's turn. The creature can attempt a Fortitude save (DC = 10 + half the barbarian's level + the barbarian's Constitution modifier) to negate this effect. If it fails the save, the target loses its Dexterity modifier to AC for the rest of the barbarian's turn and lands <Link to="/rule/prone">prone</Link> on the ground at the end of her turn.</Pair>
 <Pair title="Special">Raging whirlwind has no effect on flying creatures.</Pair>
 </Ability>
-<Ability id="ragepowerrecklessabandon-reckless-abandon-ex-fn9-29" icon={["upgrade","broken-shield"]}>
+<Ability id="ragepowerrecklessabandon-reckless-abandon-ex-fn9-29" icon={["boost","down"]}>
 <Pair single id="ragepowerrecklessabandon-reckless-abandon-ex-fn9-29"><Link to="/ragepower/reckless_abandon">⮞</Link> Reckless Abandon (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.29" id="ability-rage_powers-fake-fn-9.29" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian can take a penalty to AC to gain a bonus on attack rolls. The penalty and bonus are both equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerinspireferocity-inspire-ferocity-ex-fn9-30" icon={["upgrade","broken-shield"]}>
+<Ability id="ragepowerinspireferocity-inspire-ferocity-ex-fn9-30" icon={["boost","down"]}>
 <Pair single id="ragepowerinspireferocity-inspire-ferocity-ex-fn9-30"><Link to="/ragepower/inspire_ferocity">⮞</Link> Inspire Ferocity (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.30" id="ability-rage_powers-fake-fn-9.30" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/reckless_abandon">Reckless abandon</Link></Pair>
 <Pair title="Move-Equivalent Action">While <em>raging,</em> the barbarian can impart her <em>reckless abandon</em> modifier to all willing allies within 30 feet for a number of rounds equal to her Charisma modifier (minimum 1).</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerrenewedvigor-renewed-vigor-ex-fn1-20" icon={["remedy"]}>
+<Ability id="ragepowerrenewedvigor-renewed-vigor-ex-fn1-20" icon={["aid"]}>
 <Pair single id="ragepowerrenewedvigor-renewed-vigor-ex-fn1-20"><Link to="/ragepower/renewed_vigor">⮞</Link> Renewed Vigor (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.20" id="ability-rage_powers-fake-fn-1.20" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level barbarian</Pair>
 <Pair title="Usage">Once per day</Pair>
@@ -1211,19 +1211,19 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Pair title="Special">This power can be used only while <em>raging.</em></Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerregenerativevigor-regenerative-vigor-ex-fn6-12" icon={["remedy"]}>
+<Ability id="ragepowerregenerativevigor-regenerative-vigor-ex-fn6-12" icon={["aid"]}>
 <Pair single id="ragepowerregenerativevigor-regenerative-vigor-ex-fn6-12"><Link to="/ragepower/regenerative_vigor">⮞</Link> Regenerative Vigor (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.12" id="ability-rage_powers-fake-fn-6.12" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/renewed_vigor">renewed vigor</Link></Pair>
 <Pair title="Passive Ability">After using her <em>renewed vigor</em> rage power until her current <em>rage</em> ends, the barbarian gains <Link to="/umr/fast_healing">fast healing</Link> equal to <Link to="/misc/one_sixth">one-sixth</Link> of her barbarian level. She regains hit points from <em>fast healing</em> at the start of each of her turns.</Pair>
 </Ability>
-<Ability id="ragepowerrenewedvitality-renewed-vitality-ex-fn6-13" icon={["upgrade"]}>
+<Ability id="ragepowerrenewedvitality-renewed-vitality-ex-fn6-13" icon={["boost"]}>
 <Pair single id="ragepowerrenewedvitality-renewed-vitality-ex-fn6-13"><Link to="/ragepower/renewed_vitality">⮞</Link> Renewed Vitality (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.13" id="ability-rage_powers-fake-fn-6.13" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level barbarian, <Link to="/ragepower/renewed_vigor">renewed vigor</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian ignores the effect of 1 point of ability penalty or damage per two barbarian levels she has (maximum 10).</Pair>
 <Pair title="Ability">Once per day, when a barbarian with ability penalties or damage ends her <em>rage,</em> she can reroll a saving throw, if any, against an effect that imposed an ability penalty or dealt her ability damage. If successful, she removes an amount of ability penalty or damage equal to the amount she can ignore while <em>raging.</em></Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerrenewedlife-renewed-life-ex-fn6-14" icon={["upgrade"]}>
+<Ability id="ragepowerrenewedlife-renewed-life-ex-fn6-14" icon={["boost"]}>
 <Pair single id="ragepowerrenewedlife-renewed-life-ex-fn6-14"><Link to="/ragepower/renewed_life">⮞</Link> Renewed Life (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.14" id="ability-rage_powers-fake-fn-6.14" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/renewed_vitality">renewed vitality</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian ignores the effect of one temporary <Link to="/rule/negative_level">negative level</Link> per four barbarian levels she has (maximum 5).</Pair>
@@ -1231,27 +1231,27 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </Ability>
 </div>
 </div>
-<Ability id="ragepowerroaringdrunk-roaring-drunk-ex-fn9-31" icon={["upgrade"]}>
+<Ability id="ragepowerroaringdrunk-roaring-drunk-ex-fn9-31" icon={["boost"]}>
 <Pair single id="ragepowerroaringdrunk-roaring-drunk-ex-fn9-31"><Link to="/ragepower/roaring_drunk">⮞</Link> Roaring Drunk (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.31" id="ability-rage_powers-fake-fn-9.31" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a +1 morale bonus on Intimidate checks and to the save DC of any fear effects she creates for each alcoholic drink she has consumed during her <em>rage,</em> to a maximum of +1 per four barbarian levels.</Pair>
 </Ability>
-<Ability id="ragepowerrollingdodge-rolling-dodge-ex-fn1-21" icon={["armor-upgrade"]}>
+<Ability id="ragepowerrollingdodge-rolling-dodge-ex-fn1-21" icon={["def"]}>
 <Pair single id="ragepowerrollingdodge-rolling-dodge-ex-fn1-21"><Link to="/ragepower/rolling_dodge">⮞</Link> Rolling Dodge (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.21" id="ability-rage_powers-fake-fn-1.21" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Move-Equivalent Action">The barbarian gains a dodge bonus to her Armor Class against ranged attacks for a number of rounds equal to the barbarian's current Constitution modifier (minimum 1). This bonus is equal to 1 + <Link to="/misc/one_sixth">one-sixth</Link> of her barbarian level.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerreflexivedodge-reflexive-dodge-ex-fn6-15" icon={["armor-upgrade"]}>
+<Ability id="ragepowerreflexivedodge-reflexive-dodge-ex-fn6-15" icon={["def"]}>
 <Pair single id="ragepowerreflexivedodge-reflexive-dodge-ex-fn6-15"><Link to="/ragepower/reflexive_dodge">⮞</Link> Reflexive Dodge (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.15" id="ability-rage_powers-fake-fn-6.15" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/rolling_dodge">rolling dodge</Link></Pair>
 <Pair title="Passive Ability">While using her <em>rolling dodge</em> rage power, the barbarian may apply her dodge bonus to AC as a bonus on Reflex saving throws.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerrousedanger-roused-anger-ex-fn1-22" icon={["stairs-goal"]}>
+<Ability id="ragepowerrousedanger-roused-anger-ex-fn1-22" icon={["power"]}>
 <Pair single id="ragepowerrousedanger-roused-anger-ex-fn1-22"><Link to="/ragepower/roused_anger">⮞</Link> Roused Anger (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.22" id="ability-rage_powers-fake-fn-1.22" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">The barbarian may enter a <em>rage</em> even if fatigued. While <em>raging</em> after using this ability, the barbarian is immune to the <Link to="/misc/fatigued">fatigued</Link> condition. Once this <em>rage</em> ends, the barbarian is <Link to="/misc/exhausted">exhausted</Link> for 10 minutes per round spent <em>raging.</em></Pair>
 </Ability>
-<Ability id="ragepowersavagedirtytrick-savage-dirty-trick-ex-fn15-2" icon={["mailed-fist","armor-downgrade"]}>
+<Ability id="ragepowersavagedirtytrick-savage-dirty-trick-ex-fn15-2" icon={["melee","lower"]}>
 <Pair single id="ragepowersavagedirtytrick-savage-dirty-trick-ex-fn15-2"><Link to="/ragepower/savage_dirty_trick">⮞</Link> Savage Dirty Trick (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-15.2" id="ability-rage_powers-fake-fn-15.2" data-hash-target to="ability-rage_powers-fake-fn-15-target">15</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian</Pair>
 <Pair title="Usage">Once per opponent per <em>rage</em></Pair>
@@ -1289,24 +1289,24 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
-<Ability id="ragepowersavagehurl-savage-hurl-ex-fn11-5" icon={["upgrade"]}>
+<Ability id="ragepowersavagehurl-savage-hurl-ex-fn11-5" icon={["boost"]}>
 <Pair single id="ragepowersavagehurl-savage-hurl-ex-fn11-5"><Link to="/ragepower/savage_hurl">⮞</Link> Savage Hurl (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-11.5" id="ability-rage_powers-fake-fn-11.5" data-hash-target to="ability-rage_powers-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Passive Ability">The barbarian gains a +1 bonus on ranged attack rolls with thrown weapons that add her Dexterity bonus to the attack roll.</Pair>
 <Pair title="At 4th Level">This bonus increases to +2 if the barbarian's Strength modifier is at least +4.</Pair>
 <Pair title="At 8th Level">It increases to +3 if her Strength modifier is at least +6.</Pair>
 <Pair title="At 12th Level">It becomes +4 at if her Strength modifier is at least +8.</Pair>
 </Ability>
-<Ability id="ragepowersavageintuition-savage-intuition-fn5-6" icon={["stairs-goal"]}>
+<Ability id="ragepowersavageintuition-savage-intuition-fn5-6" icon={["power"]}>
 <Pair single id="ragepowersavageintuition-savage-intuition-fn5-6" flavor="Your bestial senses allow you to sense danger and become enraged before you even have time to consciously react to danger."><Link to="/ragepower/savage_intuition">⮞</Link> Savage Intuition <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-5.6" id="ability-rage_powers-fake-fn-5.6" data-hash-target to="ability-rage_powers-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/wereboar_kin">Wereboar-kin</Link> or associated with wereboar-kin</Pair>
 <Pair title="Ability">sWhen combat begins, if you have rounds of <em>rage</em> remaining, you may automatically enter a <em>rage</em> without using an action at the start of the first round of combat (or at the start of the surprise round, if there is one), even if you are not otherwise aware that combat has begun.</Pair>
 </Ability>
-<Ability id="ragepowerscent-scent-ex-fn1-23" icon={["stairs-goal"]}>
+<Ability id="ragepowerscent-scent-ex-fn1-23" icon={["power"]}>
 <Pair single id="ragepowerscent-scent-ex-fn1-23"><Link to="/ragepower/scent">⮞</Link> Scent (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.23" id="ability-rage_powers-fake-fn-1.23" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">The barbarian gains the <Link to="/umr/scent">scent</Link> ability while <em>raging</em> and can use this ability to locate unseen foes.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerprimalscent-primal-scent-ex-fn6-16" icon={["upgrade"]}>
+<Ability id="ragepowerprimalscent-primal-scent-ex-fn6-16" icon={["boost"]}>
 <Pair single id="ragepowerprimalscent-primal-scent-ex-fn6-16"><Link to="/ragepower/primal_scent">⮞</Link> Primal Scent (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.16" id="ability-rage_powers-fake-fn-6.16" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian, <Link to="/ragepower/scent">scent</Link></Pair>
 <Pair title="Passive Ability"><p>When using her <em>scent</em> rage power, the barbarian adds half her barbarian level on Survival checks made to track by scent and on Perception checks to pinpoint the location of creatures she cannot see.</p>
@@ -1314,82 +1314,82 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </Pair>
 </Ability>
 </div>
-<Ability id="ragepowersmasher-smasher-ex-fn9-32" icon={["upgrade"]}>
+<Ability id="ragepowersmasher-smasher-ex-fn9-32" icon={["boost"]}>
 <Pair single id="ragepowersmasher-smasher-ex-fn9-32"><Link to="/ragepower/smasher">⮞</Link> Smasher (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.32" id="ability-rage_powers-fake-fn-9.32" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Ability">Once per <em>rage,</em> whenever the barbarian makes an attack against an unattended object or a <Link to="/rule/sunder">sunder</Link> combat maneuver, she can ignore the object's hardness. This ability must be used before the attack roll or sunder check is made.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergearbreaker-gearbreaker-ex-fn10-3" icon={["upgrade"]}>
+<Ability id="ragepowergearbreaker-gearbreaker-ex-fn10-3" icon={["boost"]}>
 <Pair single id="ragepowergearbreaker-gearbreaker-ex-fn10-3"><Link to="/ragepower/gearbreaker">⮞</Link> Gearbreaker (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-10.3" id="ability-rage_powers-fake-fn-10.3" data-hash-target to="ability-rage_powers-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/smasher">Smasher</Link></Pair>
 <Pair title="Ability">Once per round while <em>raging,</em> whenever the barbarian makes an attack against a construct, she can ignore an amount of that construct's hardness equal to her barbarian level. This ability must be used before the attack roll is made.</Pair>
 <Pair title="Special">This power stacks with the <em>hard hitter</em> ability from the <Link to="/arc-barbarian/numerian_liberator">Numerian liberator</Link> archetype.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerspiritualawareness-spiritual-awareness-fn16-2" icon={["armor-upgrade"]}>
+<Ability id="ragepowerspiritualawareness-spiritual-awareness-fn16-2" icon={["def"]}>
 <Pair single id="ragepowerspiritualawareness-spiritual-awareness-fn16-2"><Link to="/ragepower/spiritual_awareness">⮞</Link> Spiritual Awareness <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-16.2" id="ability-rage_powers-fake-fn-16.2" data-hash-target to="ability-rage_powers-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ability/trap_sense">Trap sense</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian's dodge bonus to AC from <em>trap sense</em> applies against attacks made by incorporeal creatures.</Pair>
 </Ability>
-<Ability id="ragepowerspringrage-spring-rage-su-fn7-12" icon={["upgrade"]}>
+<Ability id="ragepowerspringrage-spring-rage-su-fn7-12" icon={["boost"]}>
 <Pair single id="ragepowerspringrage-spring-rage-su-fn7-12" flavor={<>The barbarian's <em>rage</em> rejuvenates her physically and spiritually.</>}><Link to="/ragepower/spring_rage">⮞</Link> Spring Rage (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-7.12" id="ability-rage_powers-fake-fn-7.12" data-hash-target to="ability-rage_powers-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> she ignores penalties to her ability scores due to <Link to="/rule/aging">aging</Link>. She also ignores penalties from <Link to="/rule/negative_levels">negative levels</Link>, though she retains any negative levels she has until they are removed normally.</Pair>
 <Pair title="Special">A barbarian can have only one season-themed rage power, choosing between spring, <Link to="/ragepower/summer_rage">summer</Link>, <Link to="/ragepower/autumn_rage">autumn</Link>, or <Link to="/ragepower/winter_rage">winter</Link> rage.</Pair>
 </Ability>
-<Ability id="ragepowerstaggeringdrunk-staggering-drunk-ex-fn9-33" icon={["armor-upgrade"]}>
+<Ability id="ragepowerstaggeringdrunk-staggering-drunk-ex-fn9-33" icon={["def"]}>
 <Pair single id="ragepowerstaggeringdrunk-staggering-drunk-ex-fn9-33"><Link to="/ragepower/staggering_drunk">⮞</Link> Staggering Drunk (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.33" id="ability-rage_powers-fake-fn-9.33" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> a barbarian gains a +1 dodge bonus to AC against attacks of opportunity for each alcoholic drink she has consumed during her <em>rage,</em> to a maximum of +1 per four barbarian levels.</Pair>
 </Ability>
-<Ability id="ragepowerstrengthsurge-strength-surge-ex-fn1-24" icon={["upgrade","armor-upgrade"]}>
+<Ability id="ragepowerstrengthsurge-strength-surge-ex-fn1-24" icon={["boost","def"]}>
 <Pair single id="ragepowerstrengthsurge-strength-surge-ex-fn1-24"><Link to="/ragepower/strength_surge">⮞</Link> Strength Surge (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.24" id="ability-rage_powers-fake-fn-1.24" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
 <Pair title="Immediate Action">The barbarian adds her barbarian level on one Strength check or combat maneuver check, or to her Combat Maneuver Defense when an opponent attempts a maneuver against her.</Pair>
 </Ability>
-<Ability id="ragepowersuffocatinggrip-suffocating-grip-ex-fn17-2" icon={["armor-downgrade"]}>
+<Ability id="ragepowersuffocatinggrip-suffocating-grip-ex-fn17-2" icon={["lower"]}>
 <Pair single id="ragepowersuffocatinggrip-suffocating-grip-ex-fn17-2"><Link to="/ragepower/suffocating_grip">⮞</Link> Suffocating Grip (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-17.2" id="ability-rage_powers-fake-fn-17.2" data-hash-target to="ability-rage_powers-fake-fn-17-target">17</InnerLink></sup></Pair>
 <Pair title="Ability">While <em>raging,</em> when the barbarian successfully maintains a grapple, she can choke her opponent instead of dealing damage to, moving, pinning, or tying up her opponent. The grappled opponent cannot speak or breathe and must <Link to="/misc/hold_its_breath">hold its breath</Link> or begin <Link to="/rule/suffocation">suffocating</Link>.</Pair>
 <Pair title="Special">The grappled opponent can take a breath during any round in which the barbarian does not maintain the grapple. Creatures that do not breathe are not affected by this ability.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreatersuffocatinggrip-greater-suffocating-grip-ex-fn17-3" icon={["armor-downgrade"]}>
+<Ability id="ragepowergreatersuffocatinggrip-greater-suffocating-grip-ex-fn17-3" icon={["lower"]}>
 <Pair single id="ragepowergreatersuffocatinggrip-greater-suffocating-grip-ex-fn17-3"><Link to="/ragepower/greater_suffocating_grip">⮞</Link> Greater Suffocating Grip (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-17.3" id="ability-rage_powers-fake-fn-17.3" data-hash-target to="ability-rage_powers-fake-fn-17-target">17</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level barbarian, <Link to="/ragepower/suffocating_grip">suffocating grip</Link></Pair>
 <Pair title="Ability">When the barbarian is using the <em>suffocating grip</em> rage power, the grappled creature cannot hold its breath and immediately begins <Link to="/rule/suffocation">suffocating</Link>.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowersummerrage-summer-rage-su-fn7-13" icon={["armor-downgrade"]}>
+<Ability id="ragepowersummerrage-summer-rage-su-fn7-13" icon={["lower"]}>
 <Pair single id="ragepowersummerrage-summer-rage-su-fn7-13" flavor="The barbarian channels the heat of late summer, making the air around her hot and oppressive."><Link to="/ragepower/summer_rage">⮞</Link> Summer Rage (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-7.13" id="ability-rage_powers-fake-fn-7.13" data-hash-target to="ability-rage_powers-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Ability">A creature within the barbarian's reach becomes <Link to="/misc/fatigued">fatigued</Link> as long as it remains within the barbarian's reach unless it succeeds at a Fortitude save (DC = 10 + half the barbarian's level + her Constitution modifier) to become immune for 24 hours.</Pair>
 <Pair title="Special">A barbarian can have only one season-themed rage power, choosing between <Link to="/ragepower/spring_rage">spring</Link>, summer, <Link to="/ragepower/autumn_rage">autumn</Link>, or <Link to="/ragepower/winter_rage">winter</Link> rage.</Pair>
 </Ability>
-<Ability id="ragepowersuperstition-superstition-ex-fn1-25" icon={["armor-upgrade","broken-shield"]}>
+<Ability id="ragepowersuperstition-superstition-ex-fn1-25" icon={["def","down"]}>
 <Pair single id="ragepowersuperstition-superstition-ex-fn1-25"><Link to="/ragepower/superstition">⮞</Link> Superstition (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.25" id="ability-rage_powers-fake-fn-1.25" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Passive Ability">The barbarian gains a morale bonus on saving throws made to resist spells, supernatural abilities, and spell-like abilities. This bonus is equal to 2 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level.</Pair>
 <Pair title="Special">While <em>raging,</em> the barbarian cannot be a willing target of any spell and must make saving throws to resist all spells, even those cast by allies.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerdisruptive-disruptive-fn9-34" icon={["stairs-goal"]}>
+<Ability id="ragepowerdisruptive-disruptive-fn9-34" icon={["power"]}>
 <Pair single id="ragepowerdisruptive-disruptive-fn9-34"><Link to="/ragepower/disruptive">⮞</Link> Disruptive <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.34" id="ability-rage_powers-fake-fn-9.34" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian, <Link to="/ragepower/superstition">superstition</Link></Pair>
 <Pair title="Ability">When <em>raging,</em> the barbarian gains <Link to="/feat/disruptive">Disruptive</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="ragepowereaterofmagic-eater-of-magic-su-fn6-17" icon={["armor-upgrade"]}>
+<Ability id="ragepowereaterofmagic-eater-of-magic-su-fn6-17" icon={["def"]}>
 <Pair single id="ragepowereaterofmagic-eater-of-magic-su-fn6-17"><Link to="/ragepower/eater_of_magic">⮞</Link> Eater of Magic (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.17" id="ability-rage_powers-fake-fn-6.17" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/superstition">superstition</Link></Pair>
 <Pair title="Ability">Once per <em>rage,</em> when a barbarian fails a saving throw against a spell, supernatural ability, or spell-like ability, she can reroll the saving throw against the effect (this is not an action). If she succeeds at the second saving throw, she is not affected by the spell, supernatural ability, or spell-like ability and gains a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the effect's caster level (in the case of spell or spell-like abilities) or the CR of the effect's creator (in the case of supernatural abilities). These temporary hit points last until damage is applied to them or 1 minute, whichever occurs first.</Pair>
 </Ability>
-<Ability id="ragepowerspellbreaker-spellbreaker-fn9-35" icon={["stairs-goal"]}>
+<Ability id="ragepowerspellbreaker-spellbreaker-fn9-35" icon={["power"]}>
 <Pair single id="ragepowerspellbreaker-spellbreaker-fn9-35"><Link to="/ragepower/spellbreaker">⮞</Link> Spellbreaker <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.35" id="ability-rage_powers-fake-fn-9.35" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level barbarian, <Link to="/ragepower/disruptive">disruptive</Link></Pair>
 <Pair title="Ability">When <em>raging,</em> the barbarian gains <Link to="/feat/spellbreaker">Spellbreaker</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="ragepowerwitchhunter-witch-hunter-ex-fn9-36" icon={["upgrade"]}>
+<Ability id="ragepowerwitchhunter-witch-hunter-ex-fn9-36" icon={["boost"]}>
 <Pair single id="ragepowerwitchhunter-witch-hunter-ex-fn9-36"><Link to="/ragepower/witch_hunter">⮞</Link> Witch Hunter (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.36" id="ability-rage_powers-fake-fn-9.36" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/superstition">Superstition</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a bonus on damage rolls against creatures possessing spells or spell-like abilities. This damage bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerspellsunder-spell-sunder-su-fn6-18" icon={["magic-swirl"]}>
+<Ability id="ragepowerspellsunder-spell-sunder-su-fn6-18" icon={["magic"]}>
 <Pair single id="ragepowerspellsunder-spell-sunder-su-fn6-18"><Link to="/ragepower/spell_sunder">⮞</Link> Spell Sunder (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.18" id="ability-rage_powers-fake-fn-6.18" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/witch_hunter">witch hunter</Link></Pair>
 <Pair title="Ability"><p>Once per <em>rage,</em> the barbarian can attempt to <Link to="/rule/sunder">sunder</Link> an ongoing spell effect by succeeding at a combat maneuver check.</p>
@@ -1398,7 +1398,7 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowersunderenchantment-sunder-enchantment-su-fn6-19" icon={["magic-swirl"]}>
+<Ability id="ragepowersunderenchantment-sunder-enchantment-su-fn6-19" icon={["magic"]}>
 <Pair single id="ragepowersunderenchantment-sunder-enchantment-su-fn6-19"><Link to="/ragepower/sunder_enchantment">⮞</Link> Sunder Enchantment (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.19" id="ability-rage_powers-fake-fn-6.19" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian, <Link to="/ragepower/spell_sunder">spell sunder</Link></Pair>
 <Pair title="Ability">While <em>raging,</em> whenever the barbarian succeeds at a <Link to="/rule/sunder">sunder</Link> combat maneuver on a magical item, that item's magical abilities are suppressed for 1 round, plus 1 round for every 5 points by which her combat maneuver check exceeded the target's CMD.</Pair>
@@ -1406,64 +1406,64 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </div>
 </div>
 </div>
-<Ability id="ragepowersurpriseaccuracy-surprise-accuracy-ex-fn1-26" icon={["upgrade"]}>
+<Ability id="ragepowersurpriseaccuracy-surprise-accuracy-ex-fn1-26" icon={["boost"]}>
 <Pair single id="ragepowersurpriseaccuracy-surprise-accuracy-ex-fn1-26"><Link to="/ragepower/surprise_accuracy">⮞</Link> Surprise Accuracy (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.26" id="ability-rage_powers-fake-fn-1.26" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
 <Pair title="Swift Action">The barbarian gains a morale bonus on one attack roll equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level. This power must be used before the roll to hit is made.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerdeadlyaccuracy-deadly-accuracy-ex-fn6-20" icon={["upgrade"]}>
+<Ability id="ragepowerdeadlyaccuracy-deadly-accuracy-ex-fn6-20" icon={["boost"]}>
 <Pair single id="ragepowerdeadlyaccuracy-deadly-accuracy-ex-fn6-20"><Link to="/ragepower/deadly_accuracy">⮞</Link> Deadly Accuracy (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.20" id="ability-rage_powers-fake-fn-6.20" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level barbarian, <Link to="/ragepower/surprise_accuracy">surprise accuracy</Link></Pair>
 <Pair title="Ability">If the barbarian scores a critical threat when using her <em>surprise accuracy</em> rage power, she applies double the surprise accuracy bonus when rolling to confirm the critical.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerlethalaccuracy-lethal-accuracy-ex-fn6-21" icon={["upgrade"]}>
+<Ability id="ragepowerlethalaccuracy-lethal-accuracy-ex-fn6-21" icon={["boost"]}>
 <Pair single id="ragepowerlethalaccuracy-lethal-accuracy-ex-fn6-21"><Link to="/ragepower/lethal_accuracy">⮞</Link> Lethal Accuracy (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.21" id="ability-rage_powers-fake-fn-6.21" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">16th-level barbarian, <Link to="/ragepower/surprise_accuracy">surprise accuracy</Link>, <Link to="/ragepower/deadly_accuracy">deadly accuracy</Link></Pair>
 <Pair title="Passive Ability">When using her <em>surprise accuracy</em> rage power, the barbarian's critical multiplier for damage increases by 1 (a &times;2 multiplier becomes &times;3, a 19-20/&times;2 multiplier becomes 19-20/&times;3, a &times;3 multiplier becomes &times;4, and a &times;4 multiplier becomes &times;5).</Pair>
 </Ability>
 </div>
-<Ability id="ragepowersharpenedaccuracy-sharpened-accuracy-ex-fn6-22" icon={["upgrade"]}>
+<Ability id="ragepowersharpenedaccuracy-sharpened-accuracy-ex-fn6-22" icon={["boost"]}>
 <Pair single id="ragepowersharpenedaccuracy-sharpened-accuracy-ex-fn6-22"><Link to="/ragepower/sharpened_accuracy">⮞</Link> Sharpened Accuracy (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.22" id="ability-rage_powers-fake-fn-6.22" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian, <Link to="/ragepower/surprise_accuracy">surprise accuracy</Link></Pair>
 <Pair title="Passive Ability">When using her *surprise accuracy *rage power, the barbarian ignores the miss chance for <Link to="/rule/concealment">concealment</Link> and treats total concealment as concealment. She also ignores cover penalties except those from total cover.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowerswiftfoot-swift-foot-ex-fn1-27" icon={["upgrade"]}>
+<Ability id="ragepowerswiftfoot-swift-foot-ex-fn1-27" icon={["boost"]}>
 <Pair single id="ragepowerswiftfoot-swift-foot-ex-fn1-27"><Link to="/ragepower/swift_foot">⮞</Link> Swift Foot (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.27" id="ability-rage_powers-fake-fn-1.27" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Passive Ability">The barbarian gains a 5-foot enhancement bonus to her speed. This increase is always active while the barbarian is <em>raging.</em></Pair>
 <Pair title="Special">A barbarian can select this rage power up to three times. Its effects stack.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowersprint-sprint-ex-fn6-23" icon={["stairs-goal"]}>
+<Ability id="ragepowersprint-sprint-ex-fn6-23" icon={["power"]}>
 <Pair single id="ragepowersprint-sprint-ex-fn6-23"><Link to="/ragepower/sprint">⮞</Link> Sprint (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.23" id="ability-rage_powers-fake-fn-6.23" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level barbarian, <Link to="/ragepower/swift_foot">swift foot</Link></Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
 <Pair title="Full-Round Action">The barbarian can move up to 6 times her speed or a single full-round <Link to="/rule/charge">charge</Link> action to move up to 3 times her speed.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowertwofangedpounce-two-fanged-pounce-fn11-6" icon={["stairs-goal"]}>
+<Ability id="ragepowertwofangedpounce-two-fanged-pounce-fn11-6" icon={["power"]}>
 <Pair single id="ragepowertwofangedpounce-two-fanged-pounce-fn11-6"><Link to="/ragepower/two_fanged_pounce">⮞</Link> Two-Fanged Pounce <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-11.6" id="ability-rage_powers-fake-fn-11.6" data-hash-target to="ability-rage_powers-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Ability">If the barbarian is wielding a pair of <Link to="/eq-weapon/dagger">daggers</Link>, <Link to="/eq-weapon/kukri">kukris</Link>, or <Link to="/eq-weapon/punching_dagger">punching daggers</Link>, she can attack once with each of the two weapons when she <Link to="/rule/charge">charges</Link>. If she does, she loses the bonus on attack rolls for charging and takes an additional -2 penalty to her AC, and she applies <Link to="/misc/precision_damage">precision damage</Link> or effects that occur on a hit only once, even if she hits with both attacks.</Pair>
 </Ability>
-<Ability id="ragepowerunexpectedstrike-unexpected-strike-ex-fn1-28" icon={["mailed-fist"]}>
+<Ability id="ragepowerunexpectedstrike-unexpected-strike-ex-fn1-28" icon={["melee"]}>
 <Pair single id="ragepowerunexpectedstrike-unexpected-strike-ex-fn1-28"><Link to="/ragepower/unexpected_strike">⮞</Link> Unexpected Strike (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.28" id="ability-rage_powers-fake-fn-1.28" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian</Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
 <Pair title="Ability">The barbarian can make an attack of opportunity against a foe that moves into any square threatened by the barbarian, regardless of whether or not that movement would normally provoke an attack of opportunity.</Pair>
 </Ability>
-<Ability id="ragepowerunrestrainedrage-unrestrained-rage-fn16-3" icon={["armor-upgrade"]}>
+<Ability id="ragepowerunrestrainedrage-unrestrained-rage-fn16-3" icon={["def"]}>
 <Pair single id="ragepowerunrestrainedrage-unrestrained-rage-fn16-3"><Link to="/ragepower/unrestrained_rage">⮞</Link> Unrestrained Rage <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-16.3" id="ability-rage_powers-fake-fn-16.3" data-hash-target to="ability-rage_powers-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level barbarian</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian is immune to paralysis.</Pair>
 <Pair title="Special">If the barbarian is targeted by an effect that would cause her to become <Link to="/rule/paralyzed">paralyzed</Link>, she can enter a <em>rage</em> as an <strong className="hl">immediate action</strong>, as long as she still has rounds of <em>rage</em> remaining.</Pair>
 </Ability>
-<Ability id="ragepowerwatersense-water-sense-ex-fn10-4" icon={["armor-downgrade","upgrade"]}>
+<Ability id="ragepowerwatersense-water-sense-ex-fn10-4" icon={["lower","boost"]}>
 <Pair single id="ragepowerwatersense-water-sense-ex-fn10-4"><Link to="/ragepower/water_sense">⮞</Link> Water Sense (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-10.4" id="ability-rage_powers-fake-fn-10.4" data-hash-target to="ability-rage_powers-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Ability">The barbarian's senses are no longer fooled by the rippling surface and confounding reflections seen in water that is being used as <Link to="/rule/cover">cover</Link> by her foes. While the barbarian is <em>raging</em> and on land, opponents in the water gain only partial cover from her attacks, instead of improved cover. In addition, while on land and targeting an opponent in water, she takes only a -1 penalty on attacks with ranged weapons (including thrown weapons) for every 5 feet of water they pass through (instead of the usual -2 penalty for every 5 feet of water).</Pair>
 </Ability>
-<Ability id="ragepowerwinterrage-winter-rage-su-fn7-14" icon={["tornado-discs"]}>
+<Ability id="ragepowerwinterrage-winter-rage-su-fn7-14" icon={["cone"]}>
 <Pair single id="ragepowerwinterrage-winter-rage-su-fn7-14"><Link to="/ragepower/winter_rage">⮞</Link> Winter Rage (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-7.14" id="ability-rage_powers-fake-fn-7.14" data-hash-target to="ability-rage_powers-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Standard Action">The barbarian can bellow a 20-foot cone of frigid, snowy air. Until the beginning of the barbarian's next turn, creatures moving through the cone move at half speed.</Pair>
 <Pair title="Special">A barbarian can have only one season-themed rage power, choosing between <Link to="/ragepower/spring_rage">spring</Link>, <Link to="/ragepower/summer_rage">summer</Link>, <Link to="/ragepower/autumn_rage">autumn</Link>, or winter rage.</Pair>
@@ -1476,16 +1476,16 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Pair title="Passive Ability">When <em>raging,</em> the barbarian emanates a 5-foot-radius aura of radioactivity. Each round that another creature begins its turn within this aura, it takes a cumulative -2 penalty to Strength (Fortitude negates, DC = 10 + 1/2 the barbarian's level + her Constitution modifier) for the duration of the <em>rage.</em> A creature's Strength penalty from this ability cannot exceed the barbarian's class level.</Pair>
 <Pair title="At 12th Level">The barbarian can choose to create a 10-foot-radius aura of radioactivity when she begins her <em>rage.</em></Pair>
 </Ability>
-<Ability id="ragepowerhshurhasveil-hshurhas-veil-su-fn18-2" icon={["stairs-goal","upgrade"]}>
+<Ability id="ragepowerhshurhasveil-hshurhas-veil-su-fn18-2" icon={["power","boost"]}>
 <Pair single id="ragepowerhshurhasveil-hshurhas-veil-su-fn18-2"><Link to="/ragepower/hshurhas_veil">⮞</Link> Hshurha's Veil (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-18.2" id="ability-rage_powers-fake-fn-18.2" data-hash-target to="ability-rage_powers-fake-fn-18-target">18</InnerLink></sup></Pair>
 <Pair title="Ability">When <em>raging,</em> the barbarian can use Stealth, and she gains a bonus equal to 1/2 her barbarian level on Stealth checks plus the benefits of <Link to="/rule/concealment">concealment</Link> against ranged attacks and attacks of opportunity.</Pair>
 </Ability>
-<Ability id="ragepowerkelizandristide-kelizandris-tide-su-fn18-3" icon={["mailed-fist"]}>
+<Ability id="ragepowerkelizandristide-kelizandris-tide-su-fn18-3" icon={["melee"]}>
 <Pair single id="ragepowerkelizandristide-kelizandris-tide-su-fn18-3"><Link to="/ragepower/kelizandris_tide">⮞</Link> Kelizandri's Tide (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-18.3" id="ability-rage_powers-fake-fn-18.3" data-hash-target to="ability-rage_powers-fake-fn-18-target">18</InnerLink></sup></Pair>
 <Pair title="Full-Round Action">The barbarian can attempt a single combat maneuver check against each creature within 10 feet of her. If her roll equals or exceeds a creature's CMD, she moves that creature 5 feet closer to her.</Pair>
 <Pair title="Free Action">Once per day after attempting this maneuver, she can attack each adjacent creature as if using the <Link to="/feat/whirlwind_attack">Whirlwind Attack</Link> feat. If she has the Whirlwind Attack feat, she can also use it as a free action in this way one additional time per day.</Pair>
 </Ability>
-<Ability id="ragepowerymerispyre-ymeris-pyre-su-fn18-4" icon={["armor-upgrade"]}>
+<Ability id="ragepowerymerispyre-ymeris-pyre-su-fn18-4" icon={["def"]}>
 <Pair single id="ragepowerymerispyre-ymeris-pyre-su-fn18-4" flavor="The barbarian visibly burns with an inner flame that consumes all impurities affecting her."><Link to="/ragepower/ymeris_pyre">⮞</Link> Ymeri's Pyre (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-18.4" id="ability-rage_powers-fake-fn-18.4" data-hash-target to="ability-rage_powers-fake-fn-18-target">18</InnerLink></sup></Pair>
 <Pair title="Ability">Each round that the barbarian <em>rages</em> reduces the duration of negative spells and effects inflicted upon her as if 2 rounds had passed; this has no effect on the duration of such effects against other creatures.</Pair>
 <Pair title="Ability">Once per day, the barbarian can expend 5 rounds of <em>rage</em> to attempt a new saving throw against each non-permanent effect currently affecting her. Each successful saving throw ends the related effect, and she can choose not to make a save against an effect.</Pair>
@@ -1493,131 +1493,131 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <h2 id="ability-rage_powers-blood-rage-powers" data-hash-target>Blood Rage Powers</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link><br/>Blood rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.</p>
 <hr/>
-<Ability id="ragepowerlesserabyssalblood-lesser-abyssal-blood-su-fn13-12" icon={["stairs-goal"]}>
+<Ability id="ragepowerlesserabyssalblood-lesser-abyssal-blood-su-fn13-12" icon={["power"]}>
 <Pair single id="ragepowerlesserabyssalblood-lesser-abyssal-blood-su-fn13-12"><Link to="/ragepower/lesser_abyssal_blood">⮞</Link> Lesser Abyssal Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.12" id="ability-rage_powers-fake-fn-13.12" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian gains two <Link to="/umr/claw_attack">claw attacks</Link>. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerabyssalblood-abyssal-blood-su-fn13-13" icon={["stairs-goal"]}>
+<Ability id="ragepowerabyssalblood-abyssal-blood-su-fn13-13" icon={["power"]}>
 <Pair single id="ragepowerabyssalblood-abyssal-blood-su-fn13-13"><Link to="/ragepower/abyssal_blood">⮞</Link> Abyssal Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.13" id="ability-rage_powers-fake-fn-13.13" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/lesser_abyssal_blood">lesser abyssal blood</Link></Pair>
 <Pair title="Ability">Once per day when the barbarian enters a <em>rage,</em> she can choose to grow one size category larger than her base size (as <Link to="/spell/enlarge_person">enlarge person</Link>, even if the barbarian isn't humanoid).</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreaterabyssalblood-greater-abyssal-blood-su-fn13-14" icon={["armor-upgrade"]}>
+<Ability id="ragepowergreaterabyssalblood-greater-abyssal-blood-su-fn13-14" icon={["def"]}>
 <Pair single id="ragepowergreaterabyssalblood-greater-abyssal-blood-su-fn13-14"><Link to="/ragepower/greater_abyssal_blood">⮞</Link> Greater Abyssal Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.14" id="ability-rage_powers-fake-fn-13.14" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/abyssal_blood">abyssal blood</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains <Link to="/umr/resistance">resistance</Link> 5 to acid, cold, and fire.</Pair>
 </Ability>
 </div>
 </div>
-<Ability id="ragepowerlessercelestialblood-lesser-celestial-blood-su-fn13-15" icon={["upgrade"]}>
+<Ability id="ragepowerlessercelestialblood-lesser-celestial-blood-su-fn13-15" icon={["boost"]}>
 <Pair single id="ragepowerlessercelestialblood-lesser-celestial-blood-su-fn13-15"><Link to="/ragepower/lesser_celestial_blood">⮞</Link> Lesser Celestial Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.15" id="ability-rage_powers-fake-fn-13.15" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian's melee attacks are considered good-aligned weapons for the purpose of bypassing damage reduction. Furthermore, the barbarian deals an additional 1d6 points of damage when she damages an evil outsider with a melee attack.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowercelestialblood-celestial-blood-su-fn13-16" icon={["armor-upgrade"]}>
+<Ability id="ragepowercelestialblood-celestial-blood-su-fn13-16" icon={["def"]}>
 <Pair single id="ragepowercelestialblood-celestial-blood-su-fn13-16"><Link to="/ragepower/celestial_blood">⮞</Link> Celestial Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.16" id="ability-rage_powers-fake-fn-13.16" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/lesser_celestial_blood">lesser celestial blood</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains <Link to="/umr/resistance">resistance</Link> 5 to acid and cold.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreatercelestialblood-greater-celestial-blood-su-fn13-17" icon={["rolling-dices"]}>
+<Ability id="ragepowergreatercelestialblood-greater-celestial-blood-su-fn13-17" icon={["roll"]}>
 <Pair single id="ragepowergreatercelestialblood-greater-celestial-blood-su-fn13-17"><Link to="/ragepower/greater_celestial_blood">⮞</Link> Greater Celestial Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.17" id="ability-rage_powers-fake-fn-13.17" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/celestial_blood">celestial blood</Link></Pair>
 <Pair title="Ability">Once per <em>rage,</em> the barbarian can reroll one ability check, skill check, or saving throw she just made. She must take the second result, even if it's lower. She must decide to use this ability after the die is rolled but before results are revealed.</Pair>
 </Ability>
 </div>
 </div>
-<Ability id="ragepowerlesserdraconicblood-lesser-draconic-blood-su-fn13-18" icon={["stairs-goal"]}>
+<Ability id="ragepowerlesserdraconicblood-lesser-draconic-blood-su-fn13-18" icon={["power"]}>
 <Pair single id="ragepowerlesserdraconicblood-lesser-draconic-blood-su-fn13-18"><Link to="/ragepower/lesser_draconic_blood">⮞</Link> Lesser Draconic Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.18" id="ability-rage_powers-fake-fn-13.18" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian gains two <Link to="/umr/claw_attack">claw attacks</Link>. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerdraconicblood-draconic-blood-su-fn13-19" icon={["armor-upgrade"]}>
+<Ability id="ragepowerdraconicblood-draconic-blood-su-fn13-19" icon={["def"]}>
 <Pair single id="ragepowerdraconicblood-draconic-blood-su-fn13-19"><Link to="/ragepower/draconic_blood">⮞</Link> Draconic Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.19" id="ability-rage_powers-fake-fn-13.19" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/lesser_draconic_blood">lesser draconic blood</Link></Pair>
 <Pair title="Choice">Choose an energy type from the following: acid, cold, fire, or electricity.</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains <Link to="/umr/resistance">resistance</Link> 5 against the chosen energy type and a +1 natural armor bonus.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreaterdraconicblood-greater-draconic-blood-su-fn13-20" icon={["barbed-arrow","tornado-discs"]}>
+<Ability id="ragepowergreaterdraconicblood-greater-draconic-blood-su-fn13-20" icon={["line","cone"]}>
 <Pair single id="ragepowergreaterdraconicblood-greater-draconic-blood-su-fn13-20"><Link to="/ragepower/greater_draconic_blood">⮞</Link> Greater Draconic Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.20" id="ability-rage_powers-fake-fn-13.20" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/draconic_blood">draconic blood</Link></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian gains a breath weapon that she can use once per day. For every 2 barbarian levels, this breath weapon deals 1d6 points of damage of the energy type she choose for the draconic blood power, either in a 30-foot cone (if cold or fire) or a 60-foot line (if acid or electricity). Those caught in the area of the breath can attempt a Reflex saving throw for half damage. The DC of this save is equal to 10 + 1/2 the barbarian's level + her Constitution modifier.</Pair>
 </Ability>
 </div>
 </div>
-<Ability id="ragepowerlesserelementalblood-lesser-elemental-blood-su-fn13-21" icon={["upgrade"]}>
+<Ability id="ragepowerlesserelementalblood-lesser-elemental-blood-su-fn13-21" icon={["boost"]}>
 <Pair single id="ragepowerlesserelementalblood-lesser-elemental-blood-su-fn13-21"><Link to="/ragepower/lesser_elemental_blood">⮞</Link> Lesser Elemental Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.21" id="ability-rage_powers-fake-fn-13.21" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Choice">Choose an energy type: acid, cold, fire, or electricity.</Pair>
 <Pair title="Swift Action">While <em>raging,</em> the barbarian can imbue her melee attacks with elemental energy, dealing an additional 1d6 points of damage of the chosen energy type for 1 round.</Pair>
 <Pair title="Usage">3 times/day</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerelementalblood-elemental-blood-su-fn13-22" icon={["armor-upgrade"]}>
+<Ability id="ragepowerelementalblood-elemental-blood-su-fn13-22" icon={["def"]}>
 <Pair single id="ragepowerelementalblood-elemental-blood-su-fn13-22"><Link to="/ragepower/elemental_blood">⮞</Link> Elemental Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.22" id="ability-rage_powers-fake-fn-13.22" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/lesser_elemental_blood">lesser elemental blood</Link></Pair>
 <Pair title="Passive Ability">While <em>raging</em> the barbarian gains energy <Link to="/umr/resistance">resistance</Link> 10 against the energy type chosen when she took lesser elemental blood.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreaterelementalblood-greater-elemental-blood-su-fn13-23" icon={["stairs-goal","upgrade"]}>
+<Ability id="ragepowergreaterelementalblood-greater-elemental-blood-su-fn13-23" icon={["power","boost"]}>
 <Pair single id="ragepowergreaterelementalblood-greater-elemental-blood-su-fn13-23"><Link to="/ragepower/greater_elemental_blood">⮞</Link> Greater Elemental Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.23" id="ability-rage_powers-fake-fn-13.23" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/elemental_blood">elemental blood</Link></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian gains a special movement type or bonus based on her chosen element: <strong>acid</strong> grants a burrow speed of 30 feet, <strong>cold</strong> grants a swim speed of 60 feet, <strong>fire</strong> grants an increase of 30 feet to her base land speed, and <strong>electricity</strong> grants a fly speed of 60 feet (good maneuverability).</Pair>
 </Ability>
 </div>
 </div>
-<Ability id="ragepowerlesserfeyblood-lesser-fey-blood-su-fn13-24" icon={["armor-downgrade"]}>
+<Ability id="ragepowerlesserfeyblood-lesser-fey-blood-su-fn13-24" icon={["lower"]}>
 <Pair single id="ragepowerlesserfeyblood-lesser-fey-blood-su-fn13-24"><Link to="/ragepower/lesser_fey_blood">⮞</Link> Lesser Fey Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.24" id="ability-rage_powers-fake-fn-13.24" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability">While <em>raging,</em> each time the barbarian confirms a critical hit, the target must succeed at a Will saving throw (DC = 10 + 1/2 the barbarian's level + her Constitution modifier) or be <Link to="/misc/confused">confused</Link> for one round.</Pair>
 <Pair title="Special">This is a mind-affecting compulsion effect.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerfeyblood-fey-blood-su-fn13-25" icon={["stairs-goal"]}>
+<Ability id="ragepowerfeyblood-fey-blood-su-fn13-25" icon={["power"]}>
 <Pair single id="ragepowerfeyblood-fey-blood-su-fn13-25"><Link to="/ragepower/fey_blood">⮞</Link> Fey Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.25" id="ability-rage_powers-fake-fn-13.25" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/lesser_fey_blood">lesser fey blood</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> when the barbarian <Link to="/rule/charge">charges</Link>, she ignores <Link to="/rule/difficult_terrain">difficult terrain</Link> (including magical terrain, but not other creatures).</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreaterfeyblood-greater-fey-blood-su-fn13-26" icon={["armor-upgrade"]}>
+<Ability id="ragepowergreaterfeyblood-greater-fey-blood-su-fn13-26" icon={["def"]}>
 <Pair single id="ragepowergreaterfeyblood-greater-fey-blood-su-fn13-26"><Link to="/ragepower/greater_fey_blood">⮞</Link> Greater Fey Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.26" id="ability-rage_powers-fake-fn-13.26" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/fey_blood">fey blood</Link></Pair>
 <Pair title="Ability">While <em>raging,</em> as long as the barbarian moves at least 10 feet, she gain the effects of <Link to="/spell/blur">blur</Link> for 1 round.</Pair>
 </Ability>
 </div>
 </div>
-<Ability id="ragepowerlesserinfernalblood-lesser-infernal-blood-su-fn13-27" icon={["mailed-fist"]}>
+<Ability id="ragepowerlesserinfernalblood-lesser-infernal-blood-su-fn13-27" icon={["melee"]}>
 <Pair single id="ragepowerlesserinfernalblood-lesser-infernal-blood-su-fn13-27"><Link to="/ragepower/lesser_infernal_blood">⮞</Link> Lesser Infernal Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.27" id="ability-rage_powers-fake-fn-13.27" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Usage">3 times/day</Pair>
 <Pair title="Swift Action">While <em>raging,</em> the barbarian can infuse her attacks with hellfire for 1 round. During this time, all of her melee attacks gain the <Link to="/magic-enh/flaming">flaming</Link> magic weapon special ability.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerinfernalblood-infernal-blood-su-fn13-28" icon={["armor-upgrade"]}>
+<Ability id="ragepowerinfernalblood-infernal-blood-su-fn13-28" icon={["def"]}>
 <Pair single id="ragepowerinfernalblood-infernal-blood-su-fn13-28"><Link to="/ragepower/infernal_blood">⮞</Link> Infernal Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.28" id="ability-rage_powers-fake-fn-13.28" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/lesser_infernal_blood">lesser infernal blood</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains fire <Link to="/umr/resistance">resistance</Link> 5, as well as a +2 bonus on saving throws against poison.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreaterinfernalblood-greater-infernal-blood-su-fn13-29" icon={["armor-upgrade"]}>
+<Ability id="ragepowergreaterinfernalblood-greater-infernal-blood-su-fn13-29" icon={["def"]}>
 <Pair single id="ragepowergreaterinfernalblood-greater-infernal-blood-su-fn13-29"><Link to="/ragepower/greater_infernal_blood">⮞</Link> Greater Infernal Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.29" id="ability-rage_powers-fake-fn-13.29" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/infernal_blood">infernal blood</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a +4 bonus against enchantment and fear effects.</Pair>
 </Ability>
 </div>
 </div>
-<Ability id="ragepowerlesserundeadblood-lesser-undead-blood-su-fn13-30" icon={["armor-downgrade"]}>
+<Ability id="ragepowerlesserundeadblood-lesser-undead-blood-su-fn13-30" icon={["lower"]}>
 <Pair single id="ragepowerlesserundeadblood-lesser-undead-blood-su-fn13-30"><Link to="/ragepower/lesser_undead_blood">⮞</Link> Lesser Undead Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.30" id="ability-rage_powers-fake-fn-13.30" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability">While <em>raging,</em> when the barbarian hits a creature with a <Link to="/rule/charge">charge</Link> attack, the creature she hit becomes <Link to="/misc/shaken">shaken</Link> for a number of rounds equal to 1/2 her barbarian level (minimum 1). This effect does not stack with other fear effects to cause a stronger condition.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerundeadblood-undead-blood-su-fn13-31" icon={["upgrade"]}>
+<Ability id="ragepowerundeadblood-undead-blood-su-fn13-31" icon={["boost"]}>
 <Pair single id="ragepowerundeadblood-undead-blood-su-fn13-31"><Link to="/ragepower/undead_blood">⮞</Link> Undead Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.31" id="ability-rage_powers-fake-fn-13.31" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/lesser_undead_blood">lesser undead blood</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> all of the barbarian's melee attacks are treated as if they were made with a weapon with the <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon special ability.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreaterundeadblood-greater-undead-blood-su-fn13-32" icon={["armor-upgrade"]}>
+<Ability id="ragepowergreaterundeadblood-greater-undead-blood-su-fn13-32" icon={["def"]}>
 <Pair single id="ragepowergreaterundeadblood-greater-undead-blood-su-fn13-32"><Link to="/ragepower/greater_undead_blood">⮞</Link> Greater Undead Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.32" id="ability-rage_powers-fake-fn-13.32" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/undead_blood">undead blood</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains cold <Link to="/umr/resistance">resistance</Link> 10, as well as DR 10/- against nonlethal damage.</Pair>
@@ -1646,163 +1646,163 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </ol></section></div>};
 const _animal_tricks = {hasJL:true,title: "Animal Tricks", jsx: <><div className="jumpList" id="ability-animal_tricks-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="ability-animal_tricks-aid">Aid</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-attack">Attack</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-flank">Flank</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-maneuver">Maneuver</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-bombard">Bombard</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-break-out">Break Out</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-bury">Bury</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-come">Come</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-defend">Defend</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-deliver">Deliver</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-detect">Detect</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-down">Down</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-entertain">Entertain</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-exclusive">Exclusive</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-fetch">Fetch</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-flee">Flee</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-get-help">Get Help</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-guard">Guard</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-heel">Heel</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-hunt">Hunt</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-menace">Menace</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-perform">Perform</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-seek">Seek</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-serve">Serve</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-sneak">Sneak</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-stay">Stay</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-throw-rider">Throw Rider</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-track">Track</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-watch">Watch</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-work">Work</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-animal-training-purposes">Animal Training Purposes</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-air-support">Air Support</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-burglar">Burglar</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-combat-training">Combat Training</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-fighting">Fighting</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-guarding">Guarding</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-heavy-labor">Heavy Labor</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-hunting">Hunting</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-liberator">Liberator</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-servant">Servant</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-performance">Performance</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-riding">Riding</InnerLink></li></ul></div><h2 id="ability-animal_tricks-animal-tricks">Animal Tricks</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook</Link>, <Link to="/source/animal_archive">Animal Archive</Link>, <Link to="/source/ultimate_wilderness">Ultimate Wilderness</Link><br/>This is a list of tricks (and their associated DCs) that can be taught to animals using the <Link to="/skill/handle_animal">Handle Animal</Link> skill.</p>
-<div style={{clear:"both"}}></div><Ability id="aid" icon={["mailed-fist"]}>
+<div style={{clear:"both"}}></div><Ability id="aid" icon={["melee"]}>
 <Pair single id="aid">Aid</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">The animal can use the <Link to="/rule/aid_another_2">aid another</Link> action to aid a specific ally in combat by attacking a specific foe the ally is fighting. You may point to a particular creature that you wish the animal to aid, and another that you want it make an attack roll against, and it will comply if able. The normal creature type restrictions governing the attack trick still apply.</Pair>
 </Ability>
-<Ability id="attack" icon={["mailed-fist"]}>
+<Ability id="attack" icon={["melee"]}>
 <Pair single id="attack">Attack</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">The animal attacks apparent enemies. You may point to a particular creature that you wish the animal to attack, and it will comply if able. Normally, an animal will attack only humanoids, monstrous humanoids, giants, or other animals.</Pair>
 <Pair title="Special">Teaching an animal to attack all creatures (including such unnatural creatures as undead and aberrations) counts as two tricks.</Pair>
 </Ability>
-<Ability id="flank" extraClasses="indent" icon={["mailed-fist"]}>
+<Ability id="flank" extraClasses="indent" icon={["melee"]}>
 <Pair single id="flank">Flank</Pair>
 <Pair title="Prerequisites">The <em>attack</em> trick.</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">You can instruct an animal to attack a foe you point to and always attempt to be adjacent to (and threatening) that foe. If you or an ally is also threatening the foe, the animal attempts to flank the foe, if possible. It always takes attacks of opportunity.</Pair>
 </Ability>
-<Ability id="maneuver" extraClasses="indent" icon={["mailed-fist"]}>
+<Ability id="maneuver" extraClasses="indent" icon={["melee"]}>
 <Pair single id="maneuver">Maneuver</Pair>
 <Pair title="Prerequisites">The <em>attack</em> trick.</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">The animal is trained to use a specific <Link to="/rule/combat_maneuver">combat maneuver</Link> on command. An animal only performs maneuvers against targets it would normally attack.</Pair>
 <Pair title="Special">This trick can be taught to an animal multiple times. Each time it is taught, the animal can be commanded to use a different combat maneuver.</Pair>
 </Ability>
-<Ability id="bombard" icon={["bowman"]}>
+<Ability id="bombard" icon={["ranged"]}>
 <Pair single id="bombard">Bombard</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">A flying animal can deliver projectiles on command, attempting to drop a specified item that it can carry (often <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link> or some other incendiary) on a designated point or opponent, using its base attack bonus to determine its attack roll. The animal cannot throw the object, and must be able to fly directly over the target.</Pair>
 </Ability>
-<Ability id="break-out" icon={["stairs-goal","upgrade"]}>
+<Ability id="break-out" icon={["power","boost"]}>
 <Pair single id="break-out">Break Out</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">On command, the animal attempts to break or gnaw through any bars or bindings restricting itself, its handler, or a person indicated by the handler. If not effective on its own, this trick can grant the target character a +4 circumstance bonus on Escape Artist checks. The animal can also take certain basic actions like lifting a latch or bringing its master an unattended key. Weight and Strength restrictions still apply, and pickpocketing a key or picking any sort of lock is still far beyond the animal's ability.</Pair>
 </Ability>
-<Ability id="bury" icon={["stairs-goal"]}>
+<Ability id="bury" icon={["power"]}>
 <Pair single id="bury">Bury</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">An animal with this trick can be instructed to bury an object in its possession. The animal normally seeks a secluded place to bury its object.</Pair>
 <Pair title="Special">An animal with both <em>bury</em> and <InnerLink toTop to="ability-animal_tricks-fetch">fetch</InnerLink> can be instructed to fetch an item it has buried.</Pair>
 </Ability>
-<Ability id="come" icon={["stairs-goal"]}>
+<Ability id="come" icon={["power"]}>
 <Pair single id="come">Come</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">The animal comes to you, even if it normally would not do so.</Pair>
 </Ability>
-<Ability id="defend" icon={["shield-reflect"]}>
+<Ability id="defend" icon={["protect"]}>
 <Pair single id="defend">Defend</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">The animal defends you (or is ready to defend you if no threat is present), even without any command being given. Alternatively, you can command the animal to defend another specific character.</Pair>
 </Ability>
-<Ability id="deliver" icon={["stairs-goal"]}>
+<Ability id="deliver" icon={["power"]}>
 <Pair single id="deliver">Deliver</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">The animal takes an object (one you or an ally gives it, or that it recovers with the fetch trick) to a place or person you indicate. If you indicate a place, the animal drops the item and returns to you. If you indicate a person, the animal stays adjacent to the person until the item is taken.</Pair>
 <Pair title="Special">Retrieving an item from an animal using the <em>deliver</em> trick is a move action.</Pair>
 </Ability>
-<Ability id="detect" icon={["stairs-goal"]}>
+<Ability id="detect" icon={["power"]}>
 <Pair single id="detect">Detect</Pair>
 <Pair title="DC">25</Pair>
 <Pair title="Trick">The animal is trained to seek out the smells of explosives and poisons, unusual noises or echoes, air currents, and other common elements signifying potential dangers or secret passages. When commanded, the animal uses its <Link to="/skill/perception">Perception</Link> skill to try to pinpoint the source of anything that strikes it as unusual about a room or location.</Pair>
 <Pair title="Special">Note that because the animal is not intelligent, any number of strange mechanisms, doors, scents, or unfamiliar objects may catch the animal's attention, and it cannot attempt the same Perception check more than once in this way.</Pair>
 </Ability>
-<Ability id="down" icon={["mailed-fist"]}>
+<Ability id="down" icon={["melee"]}>
 <Pair single id="down">Down</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">The animal breaks off from combat or otherwise backs down. An animal that doesn't know this trick continues to fight until it must flee (due to injury, a fear effect, or the like) or its opponent is defeated.</Pair>
 </Ability>
-<Ability id="entertain" icon={["stairs-goal"]}>
+<Ability id="entertain" icon={["power"]}>
 <Pair single id="entertain">Entertain</Pair>
 <Pair title="DC">25</Pair>
 <Pair title="Trick">The animal can dance, sing, or perform some other impressive and enjoyable trick to entertain those around it. At the command of its owner, the animal can make a <Link to="/skill/perform">Perform</Link> check (or a Charisma check if it has no ranks in Perform) to show off its talent. Willing onlookers or those who fail an opposed <Link to="/skill/sense_motive">Sense Motive</Link> check take a -2 penalty on Perception checks to notice anything but the animal entertaining them. Tricksters and con artists often teach their animals to perform this trick while they pickpocket viewers or sneak about unnoticed.</Pair>
 </Ability>
-<Ability id="exclusive" icon={["stairs-goal"]}>
+<Ability id="exclusive" icon={["power"]}>
 <Pair single id="exclusive">Exclusive</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">The animal takes directions only from the handler who taught it this trick. If an animal has both the <em>exclusive</em> and <InnerLink toTop to="ability-animal_tricks-serve">serve</InnerLink> tricks, it takes directions only from the handler that taught it the <em>exclusive</em> trick and those creatures indicated by the trainer's <em>serve</em> command.</Pair>
 <Pair title="Special">An animal with the <em>exclusive</em> trick does not take trick commands from others even if it is friendly or helpful toward them (such as through the result of a <Link to="/spell/charm_animal">charm animal</Link> spell), though this does not prevent it from being controlled by other enchantment spells (such as <Link to="/spell/dominate_animal">dominate animal</Link>), and the animal still otherwise acts as a friendly or helpful creature when applicable.</Pair>
 </Ability>
-<Ability id="fetch" icon={["stairs-goal"]}>
+<Ability id="fetch" icon={["power"]}>
 <Pair single id="fetch">Fetch</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">The animal goes and gets something. If you do not point out a specific item, the animal fetches a random object.</Pair>
 </Ability>
-<Ability id="flee" icon={["armor-upgrade"]}>
+<Ability id="flee" icon={["def"]}>
 <Pair single id="flee">Flee</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">The animal attempts to run away or hide as best it can, returning only when its handler commands it to do so. Until such a command is received, the animal does its best to track its handler and any creatures with him or her, remaining hidden but within range of its sight or hearing. This trick is particularly useful for thieves and adventurers in that it allows the animal to evade capture, then return later to help free its friends.</Pair>
 </Ability>
-<Ability id="get-help" icon={["remedy"]}>
+<Ability id="get-help" icon={["aid"]}>
 <Pair single id="get-help">Get Help</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">With this trick, a trainer can designate a number of creatures up to the animal's Intelligence score as "help." When the command is given, the animal attempts to find one of those people and bring her back to the handler, even if that means journeying a long distance to the last place it encountered the target creature.</Pair>
 </Ability>
-<Ability id="guard" icon={["armor-upgrade"]}>
+<Ability id="guard" icon={["def"]}>
 <Pair single id="guard">Guard</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">The animal stays in place and prevents others from approaching.</Pair>
 </Ability>
-<Ability id="heel" icon={["stairs-goal"]}>
+<Ability id="heel" icon={["power"]}>
 <Pair single id="heel">Heel</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">The animal follows you closely, even to places where it normally wouldn't go.</Pair>
 </Ability>
-<Ability id="hunt" icon={["stairs-goal"]}>
+<Ability id="hunt" icon={["power"]}>
 <Pair single id="hunt">Hunt</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">This trick allows an animal to use its natural stalking or foraging instincts to find food and return it to the animal's handler. An animal with this trick may attempt <Link to="/skill/survival">Survival</Link> checks (or Wisdom checks if the animal has no ranks in Survival) to provide food for others or lead them to water and shelter (as the "get along in the wild" use of the Survival skill).</Pair>
 <Pair title="Special">An animal with this trick may use the <Link to="/rule/aid_another">aid another</Link> action to assist Survival checks made by its handler for these purposes.</Pair>
 </Ability>
-<Ability id="menace" icon={["mailed-fist"]}>
+<Ability id="menace" icon={["melee"]}>
 <Pair single id="menace">Menace</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">A menacing animal attempts to keep a creature you indicate from moving. It does its best to intimidate the target, but only attacks if the target attempts to move from its present location or take any significant action (particularly a hostile-seeming one). As soon as the target stops moving, the animal ceases attacking, but continues to menace.</Pair>
 </Ability>
-<Ability id="perform" icon={["stairs-goal"]}>
+<Ability id="perform" icon={["power"]}>
 <Pair single id="perform">Perform</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">The animal performs a variety of simple tricks, such as sitting up, rolling over, roaring or barking, and so on.</Pair>
 </Ability>
-<Ability id="seek" icon={["stairs-goal"]}>
+<Ability id="seek" icon={["power"]}>
 <Pair single id="seek">Seek</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">The animal moves into an area and looks around for anything that is obviously alive or animate.</Pair>
 </Ability>
-<Ability id="serve" icon={["stairs-goal"]}>
+<Ability id="serve" icon={["power"]}>
 <Pair single id="serve">Serve</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">An animal with this trick willingly takes orders from a creature you designate. If the creature you tell the animal to serve knows what tricks the animal has, it can instruct the animal to perform these tricks using your Handle Animal bonus on the check instead of its own. The animal treats the designated ally as friendly.</Pair>
 <Pair title="Special">An animal can unlearn this trick with 1 week of training. This trick can be taught to an animal multiple times. Each time it is taught, the animal can serve an additional creature you designate.</Pair>
 </Ability>
-<Ability id="sneak" icon={["armor-upgrade"]}>
+<Ability id="sneak" icon={["def"]}>
 <Pair single id="sneak">Sneak</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">The animal can be ordered to make Stealth checks in order to stay hidden and to continue using Stealth even when circumstances or its natural instincts would normally cause it to abandon secrecy.</Pair>
 </Ability>
-<Ability id="stay" icon={["stairs-goal"]}>
+<Ability id="stay" icon={["power"]}>
 <Pair single id="stay">Stay</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">The animal stays in place, waiting for you to return. It does not challenge other creatures that come by, though it still defends itself if it needs to.</Pair>
 </Ability>
-<Ability id="throw-rider" icon={["mailed-fist"]}>
+<Ability id="throw-rider" icon={["melee"]}>
 <Pair single id="throw-rider">Throw Rider</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">The animal can attempt to fling a creature riding it to the ground. Treat this as a <Link to="/rule/trip">trip</Link> combat maneuver that applies to all creatures riding the animal, and that does not provoke attacks of opportunity. An animal that knows the <em>throw rider</em> and <InnerLink toTop to="ability-animal_tricks-exclusive">exclusive</InnerLink> tricks can be instructed to attempt to automatically throw anyone other than its trainer who attempts to ride it.</Pair>
 </Ability>
-<Ability id="track" icon={["stairs-goal"]}>
+<Ability id="track" icon={["power"]}>
 <Pair single id="track">Track</Pair>
 <Pair title="Prerequisites">The animal must have the <Link to="/umr/scent">scent</Link> ability</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">The animal tracks the scent presented to it.</Pair>
 </Ability>
-<Ability id="watch" icon={["armor-upgrade"]}>
+<Ability id="watch" icon={["def"]}>
 <Pair single id="watch">Watch</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">The animal can be commanded to keep watch over a particular area, such as a campsite, and raise an alarm if it notices any sizable or dangerous creature entering the area. This trick is often included in the <InnerLink toTop to="ability-animal_tricks-guarding">Guarding</InnerLink> purpose.</Pair>
 </Ability>
-<Ability id="work" icon={["stairs-goal"]}>
+<Ability id="work" icon={["power"]}>
 <Pair single id="work">Work</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">The animal pulls or pushes a medium or heavy load.</Pair>
@@ -1810,68 +1810,68 @@ const _animal_tricks = {hasJL:true,title: "Animal Tricks", jsx: <><div className
 <hr/>
 <h2 id="ability-animal_tricks-animal-training-purposes" data-hash-target>Animal Training Purposes</h2>
 <p>Rather than teaching an animal individual tricks, you can simply train it for a general purpose. Essentially, an animal's purpose represents a preselected set of known tricks that fit into a common scheme, such as guarding or heavy labor. The animal must meet all the normal prerequisites for all tricks included in the training package.</p>
-<Ability id="air-support" icon={["mailed-fist","bowman","stairs-goal"]}>
+<Ability id="air-support" icon={["melee","ranged","power"]}>
 <Pair single id="air-support">Air Support</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">An animal trained in air support knows the <InnerLink toTop to="ability-animal_tricks-attack">attack</InnerLink>, <InnerLink toTop to="ability-animal_tricks-bombard">bombard</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-deliver">deliver</InnerLink> tricks.</Pair>
 <Pair title="Training Time">3 weeks</Pair>
 </Ability>
-<Ability id="burglar" icon={["stairs-goal","mailed-fist","armor-upgrade"]}>
+<Ability id="burglar" icon={["power","melee","def"]}>
 <Pair single id="burglar">Burglar</Pair>
 <Pair title="DC">25</Pair>
 <Pair title="Trick">An animal trained as a burglar knows the <InnerLink toTop to="ability-animal_tricks-come">come</InnerLink>, <InnerLink toTop to="ability-animal_tricks-fetch">fetch</InnerLink>, <InnerLink toTop to="ability-animal_tricks-maneuver">maneuver</InnerLink> (steal), <InnerLink toTop to="ability-animal_tricks-seek">seek</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-sneak">sneak</InnerLink> tricks. You can order it to steal a specific item you point out.</Pair>
 <Pair title="Training Time">5 weeks</Pair>
 </Ability>
-<Ability id="combat-training" icon={["mailed-fist","stairs-goal","shield-reflect","armor-upgrade"]}>
+<Ability id="combat-training" icon={["melee","power","protect","def"]}>
 <Pair single id="combat-training">Combat Training</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">An animal trained to bear a rider into combat knows the tricks <InnerLink toTop to="ability-animal_tricks-attack">attack</InnerLink>, <InnerLink toTop to="ability-animal_tricks-come">come</InnerLink>, <InnerLink toTop to="ability-animal_tricks-defend">defend</InnerLink>, <InnerLink toTop to="ability-animal_tricks-down">down</InnerLink>, <InnerLink toTop to="ability-animal_tricks-guard">guard</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-heel">heel</InnerLink>.</Pair>
 <Pair title="Training Time">6 weeks</Pair>
 <Pair title="Special">You may also "upgrade" an animal trained for riding to one trained for combat by spending 3 weeks and making a successful DC 20 Handle Animal check. The new general purpose and tricks completely replace the animal's previous purpose and any tricks it once knew. Many horses and riding dogs are trained in this way.</Pair>
 </Ability>
-<Ability id="fighting" icon={["mailed-fist","stairs-goal"]}>
+<Ability id="fighting" icon={["melee","power"]}>
 <Pair single id="fighting">Fighting</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">An animal trained to engage in combat knows the tricks <InnerLink toTop to="ability-animal_tricks-attack">attack</InnerLink>, <InnerLink toTop to="ability-animal_tricks-down">down</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-stay">stay</InnerLink>.</Pair>
 <Pair title="Training Time">3 weeks</Pair>
 </Ability>
-<Ability id="guarding" icon={["mailed-fist","armor-upgrade","shield-reflect","stairs-goal"]}>
+<Ability id="guarding" icon={["melee","def","protect","power"]}>
 <Pair single id="guarding">Guarding</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">An animal trained to guard knows the tricks <InnerLink toTop to="ability-animal_tricks-attack">attack</InnerLink>, <InnerLink toTop to="ability-animal_tricks-defend">defend</InnerLink>, <InnerLink toTop to="ability-animal_tricks-down">down</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-guard">guard</InnerLink>.</Pair>
 <Pair title="Training Time">4 weeks</Pair>
 </Ability>
-<Ability id="heavy-labor" icon={["stairs-goal"]}>
+<Ability id="heavy-labor" icon={["power"]}>
 <Pair single id="heavy-labor">Heavy Labor</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">An animal trained for heavy labor knows the tricks <InnerLink toTop to="ability-animal_tricks-come">come</InnerLink> and <InnerLink toTop to="ability-animal_tricks-work">work</InnerLink>.</Pair>
 <Pair title="Training Time">2 weeks</Pair>
 </Ability>
-<Ability id="hunting" icon={["mailed-fist","stairs-goal"]}>
+<Ability id="hunting" icon={["melee","power"]}>
 <Pair single id="hunting">Hunting</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">An animal trained for hunting knows the tricks <InnerLink toTop to="ability-animal_tricks-attack">attack</InnerLink>, <InnerLink toTop to="ability-animal_tricks-down">down</InnerLink>, <InnerLink toTop to="ability-animal_tricks-fetch">fetch</InnerLink>, <InnerLink toTop to="ability-animal_tricks-heel">heel</InnerLink>, <InnerLink toTop to="ability-animal_tricks-seek">seek</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-track">track</InnerLink>.</Pair>
 <Pair title="Training Time">6 weeks</Pair>
 </Ability>
-<Ability id="liberator" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="liberator" icon={["power","def"]}>
 <Pair single id="liberator">Liberator</Pair>
 <Pair title="DC">25</Pair>
 <Pair title="Trick">An animal trained in liberating knows the <InnerLink toTop to="ability-animal_tricks-break-out">break out</InnerLink>, <InnerLink toTop to="ability-animal_tricks-flee">flee</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-get-help">get help</InnerLink> tricks.</Pair>
 <Pair title="Training Time">3 weeks</Pair>
 </Ability>
-<Ability id="servant" icon={["stairs-goal"]}>
+<Ability id="servant" icon={["power"]}>
 <Pair single id="servant">Servant</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">An animal trained as a servant knows the <InnerLink toTop to="ability-animal_tricks-deliver">deliver</InnerLink>, <InnerLink toTop to="ability-animal_tricks-exclusive">exclusive</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-serve">serve</InnerLink> tricks.</Pair>
 <Pair title="Training Time">3 weeks</Pair>
 </Ability>
-<Ability id="performance" icon={["stairs-goal"]}>
+<Ability id="performance" icon={["power"]}>
 <Pair single id="performance">Performance</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">An animal trained for performance knows the tricks <InnerLink toTop to="ability-animal_tricks-come">come</InnerLink>, <InnerLink toTop to="ability-animal_tricks-fetch">fetch</InnerLink>, <InnerLink toTop to="ability-animal_tricks-heel">heel</InnerLink>, <InnerLink toTop to="ability-animal_tricks-perform">perform</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-stay">stay</InnerLink>.</Pair>
 <Pair title="Training Time">5 weeks</Pair>
 </Ability>
-<Ability id="riding" icon={["stairs-goal"]}>
+<Ability id="riding" icon={["power"]}>
 <Pair single id="riding">Riding</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">An animal trained to bear a rider knows the tricks <InnerLink toTop to="ability-animal_tricks-come">come</InnerLink>, <InnerLink toTop to="ability-animal_tricks-heel">heel</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-stay">stay</InnerLink>.</Pair>
@@ -1881,7 +1881,7 @@ const _animal_tricks = {hasJL:true,title: "Animal Tricks", jsx: <><div className
 const _companion_tricks = {hasJL:true,title: "Animal Companion Tricks", jsx: <><div className="jumpList" id="ability-companion_tricks-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="ability-companion_tricks-build-simple-structure">Build Simple Structure</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-demolish">Demolish</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-feint">Feint</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-guide">Guide</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-intimidate">Intimidate</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-mark-territory">Mark Territory</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-milk-venom">Milk Venom</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-receive-spell">Receive Spell</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-rescue">Rescue</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-speak">Speak</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-spin-silk">Spin Silk</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-cocoon">Cocoon</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-subdue">Subdue</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-take-root">Take Root</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-pose-as-scenery">Pose as Scenery</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-withhold-venom">Withhold Venom</InnerLink></li></ul></div><h2 id="ability-companion_tricks-animal-companion-tricks">Animal Companion Tricks</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 214</Link><br/>Certain <Link to="/ability/animal_tricks">animal tricks</Link> can only be taught to <Link to="/sidekick/animal_companion">animal companions</Link>, and often require the animal to have specific characteristics. They otherwise follow the rules for <Link to="/skill/handle_animal">teaching tricks</Link>.</p>
 <hr/>
-<div style={{clear:"both"}}></div><Ability id="build-simple-structure" icon={["stairs-goal"]}>
+<div style={{clear:"both"}}></div><Ability id="build-simple-structure" icon={["power"]}>
 <Pair single id="build-simple-structure">Build Simple Structure</Pair>
 <Pair title="Prerequisites">The companion can naturally build structures</Pair>
 <Pair title="DC">25</Pair>
@@ -1889,20 +1889,20 @@ const _companion_tricks = {hasJL:true,title: "Animal Companion Tricks", jsx: <><
 <p>In general, this process takes 10 minutes for each 5-foot square the structure occupies, but depending on the terrain and the type of structure, it might take as little as 1 minute or as much as 1 hour or more, at the GM's discretion.</p>
 </Pair>
 </Ability>
-<Ability id="demolish" icon={["mailed-fist"]}>
+<Ability id="demolish" icon={["melee"]}>
 <Pair single id="demolish">Demolish</Pair>
 <Pair title="Prerequisites"><em>Attack</em> trick, trained to attack all creatures</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">The companion can be commanded to attack and damage objects and structures. The companion's handler can direct it either to make natural attacks against the object in question or to make a Strength check to attempt to break it (if applicable).</Pair>
 </Ability>
-<Ability id="feint" icon={["mailed-fist"]}>
+<Ability id="feint" icon={["melee"]}>
 <Pair single id="feint">Feint</Pair>
 <Pair title="Prerequisites"><em>Attack</em> trick</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">The companion is trained to <Link to="/rule/feint">feint</Link> against opponents.</Pair>
 <Pair title="Special">A companion performs feints only against targets it would normally attack.</Pair>
 </Ability>
-<Ability id="guide" icon={["shield-reflect","remedy"]}>
+<Ability id="guide" icon={["protect","aid"]}>
 <Pair single id="guide">Guide</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick"><p>The companion can serve as a guide to a character that is blinded or otherwise unable to see. While serving as a guide, the companion remains adjacent to the guided creature at all times, <Link to="/rule/ready">readying an action</Link> each round to move when that creature moves. This allows the guided creature to automatically succeed at Acrobatics checks to move at more than half speed while blinded.</p>
@@ -1911,52 +1911,52 @@ const _companion_tricks = {hasJL:true,title: "Animal Companion Tricks", jsx: <><
 </Pair>
 <Pair title="Special">The companion can serve as a guide only as long as it is able to see in some fashion, and its ability to detect and avoid creatures and obstacles is limited by what it is able to perceive normally.</Pair>
 </Ability>
-<Ability id="intimidate" icon={["mailed-fist"]}>
+<Ability id="intimidate" icon={["melee"]}>
 <Pair single id="intimidate">Intimidate</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">The companion bares its teeth, barks, bristles, growls, or otherwise threatens a creature you designate, or, alternatively, it can be trained to do so when it encounters any creature besides its handler. The companion takes a -4 penalty on <Link to="/skill/intimidate">Intimidate</Link> checks against creatures other than those with the animal or humanoid types unless it has also been trained to attack creatures of any type.</Pair>
 <Pair title="Special">A companion that knows this trick automatically uses the <Link to="/rule/aid_another">aid another</Link> action to assist Intimidate checks attempted by its handler, provided that it is within 15 feet of its handler at the time and has not been ordered to perform another task.</Pair>
 </Ability>
-<Ability id="mark-territory" icon={["stairs-goal","shield-reflect"]}>
+<Ability id="mark-territory" icon={["power","protect"]}>
 <Pair single id="mark-territory">Mark Territory</Pair>
 <Pair title="DC">25</Pair>
 <Pair title="Trick">Whether by spraying musk, rubbing its back against trees and rocks, or simply howling loudly, the companion lets other nearby animals know that it has claimed an area. By spending 1 hour performing this trick, the companion can mark an area of up to half a square mile in this fashion. If it does so, after 24 hours, whenever there would be a random encounter within that area that involves a wild animal or other creature of Intelligence 2 or less (including vermin but not other mindless creatures, such as oozes and mindless undead), there is a 25% chance that the encounter doesn't actually occur, as creatures might be warded off by the markings.</Pair>
 <Pair title="Special">The companion must renew any territorial markings at least once per week, or they lose their effectiveness. There is also a 10% chance per week that the markings attract the attention of a powerful predator, which actively seeks out the companion to challenge it (and its master) for the territory.</Pair>
 </Ability>
-<Ability id="milk-venom" icon={["stairs-goal"]}>
+<Ability id="milk-venom" icon={["power"]}>
 <Pair single id="milk-venom">Milk Venom</Pair>
 <Pair title="Prerequisites">Must have the <Link to="/umr/poison">poison</Link> ability</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">The companion can be coaxed into providing a single dose of venom on command. This process takes 10 minutes, and it requires a vial or similar container in which to store the poison. A companion that has been specifically trained to be milked of its venom never bites, stings, or otherwise poisons its handler when being milked, although the handler must still succeed at a <Link to="/skill/handle_animal">Handle Animal</Link> check to successfully harvest the venom (see <Link to="/rule/harvesting_poisons">Harvesting Poisons</Link>).</Pair>
 </Ability>
-<Ability id="receive-spell" icon={["stairs-goal"]}>
+<Ability id="receive-spell" icon={["power"]}>
 <Pair single id="receive-spell">Receive Spell</Pair>
 <Pair title="DC">25</Pair>
 <Pair title="Trick">The companion has been trained to be the recipient of a specific spell (chosen at the time the animal is taught the trick), allowing it to fully take advantage of the spell's effects. The spell should be one that grants the companion an ability it might not normally be intelligent enough to make use of or one that it might not even realize it has (such as <Link to="/spell/air_walk">air walk</Link>). The companion is able to recognize when it has been affected by this spell and can take full advantage of the spell's effects. At the GM's discretion, a companion can also be trained to receive certain non-spell effects, such as those granted by an <Link to="/magic-wondrous/elixir_of_fire_breath">elixir of fire breathing</Link>.</Pair>
 <Pair title="Special">The companion can be taught this trick multiple times; each time it learns this trick, it becomes trained to utilize a different spell effect.</Pair>
 </Ability>
-<Ability id="rescue" icon={["shield-reflect"]}>
+<Ability id="rescue" icon={["protect"]}>
 <Pair single id="rescue">Rescue</Pair>
 <Pair title="Prerequisites">The <em>deliver</em> and <em>guard</em> tricks</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">The companion has been trained to drag its handler or another creature that the handler designates out of danger and to a safe place in the event that the handler or creature is incapacitated. If a creature that the companion is defending is rendered helpless or is slain, the companion will carry, drag, or otherwise move that creature out of danger.</Pair>
 <Pair title="Special">If the companion knows the <em>get help</em> trick, it will attempt to bring the creature it is rescuing to one of the creatures designated as "help." Otherwise, you can designate a single location in advance as a safe place, and the companion will attempt to bring the creature it is rescuing to that place. If it is unable to do either of these, the companion simply moves the creature to the nearest location of relative safety.</Pair>
 </Ability>
-<Ability id="speak" icon={["stairs-goal"]}>
+<Ability id="speak" icon={["power"]}>
 <Pair single id="speak">Speak</Pair>
 <Pair title="Prerequisites">Intelligence score of 2 or higher</Pair>
 <Pair title="DC">25</Pair>
 <Pair title="Trick">The companion is able to communicate very simple concepts through barks, gestures, whistles, or similar actions. The companion's vocabulary is extremely limited, generally restricted to "yes," "no," and counting up to three. The companion is also able to recognize and respond to up to two specific questions per point of Intelligence. The companion does not so much understand the words as recognize the sound of them, and it responds accordingly.</Pair>
 <Pair title="Special">This trick does not actually increase the companion's capacity to understand concepts and ideas; it can be taught a way to communicate the concept of "food," for example, but it won't distinguish cooked food from raw food, and it might not even recognize as food anything that is not part of its own diet.</Pair>
 </Ability>
-<Ability id="spin-silk" icon={["stairs-goal"]}>
+<Ability id="spin-silk" icon={["power"]}>
 <Pair single id="spin-silk">Spin Silk</Pair>
 <Pair title="Prerequisites">Companion with the <Link to="/umr/web">web</Link> ability</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">The companion can create strands of delicate yet incredibly strong silk. Harvesting the silk takes 10 minutes, and it can be done once per day. This silk functions identically to a <Link to="/eq-misc/silk_rope">silk rope</Link>.</Pair>
 <Pair title="Special">The companion can produce a total number of feet of silk equal to 10 times its Constitution score per day, which can be divided as the handler chooses in 10-foot increments. Silk produced in this way degrades into uselessness after 24 hours.</Pair>
 </Ability>
-<Ability id="cocoon" extraClasses="indent" icon={["stairs-goal","mailed-fist"]}>
+<Ability id="cocoon" extraClasses="indent" icon={["power","melee"]}>
 <Pair single id="cocoon">Cocoon</Pair>
 <Pair title="Prerequisites"><em>Spin silk</em> trick</Pair>
 <Pair title="DC">15</Pair>
@@ -1988,25 +1988,25 @@ const _companion_tricks = {hasJL:true,title: "Animal Companion Tricks", jsx: <><
 <p>The cocoon has hardness 2 and 10 hit points. A creature trapped within the cocoon is effectively <Link to="/rule/pinned">pinned</Link>, and it can attempt an Escape Artist check or combat maneuver check as a full-round action to escape (DC = 20 + the companion's CMD). Alternatively, a DC 25 Strength check can break the cocoon. </p>
 </Pair>
 </Ability>
-<Ability id="subdue" icon={["mailed-fist"]}>
+<Ability id="subdue" icon={["melee"]}>
 <Pair single id="subdue">Subdue</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">The companion can attempt to subdue opponents. Once the command is given, the companion makes all its natural attacks as <Link to="/rule/nonlethal_damage">nonlethal attacks</Link> (taking the typical -4 penalty on attack rolls when using normally lethal attacks) until ordered to do otherwise.</Pair>
 </Ability>
-<Ability id="take-root" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="take-root" icon={["power","def"]}>
 <Pair single id="take-root">Take Root</Pair>
 <Pair title="Prerequisites">Must be a plant companion</Pair>
 <Pair title="DC">15</Pair>
 <Pair title="Trick">The companion extends its roots into the soil beneath it, anchoring itself in place and drawing water and nutrients from the soil. Taking root is a <strong className="hl">full-round action</strong> that provokes attacks of opportunity. While rooted, the companion cannot move, but it can otherwise act normally and gains a +4 bonus to CMD to resist bull rush, drag, overrun, reposition, and trip attempts. If the companion remains rooted for at least 1 hour, it absorbs enough water and nutrients to feed itself for a day. A separate command causes the companion to uproot itself as a full-round action.</Pair>
 <Pair title="Special">The companion can take root only in areas of soft soil.</Pair>
 </Ability>
-<Ability id="pose-as-scenery" extraClasses="indent" icon={["armor-upgrade"]}>
+<Ability id="pose-as-scenery" extraClasses="indent" icon={["def"]}>
 <Pair single id="pose-as-scenery">Pose as Scenery</Pair>
 <Pair title="Prerequisites">Must be a plant companion with the <em>take root</em> trick</Pair>
 <Pair title="DC">20</Pair>
 <Pair title="Trick">The companion freezes in place, seeming to be a mundane plant rather than a plant creature. The companion must have taken root in order to use this trick. It attempts a Disguise check with a +8 circumstance bonus, opposed by the Perception checks of observers. If it succeeds at the opposed check, the observer mistakes it for an ordinary, harmless plant.</Pair>
 </Ability>
-<Ability id="withhold-venom" icon={["mailed-fist"]}>
+<Ability id="withhold-venom" icon={["melee"]}>
 <Pair single id="withhold-venom">Withhold Venom</Pair>
 <Pair title="Prerequisites">The <Link to="/umr/poison">poison</Link> special ability</Pair>
 <Pair title="DC">20</Pair>
@@ -2021,21 +2021,21 @@ const _bardic_performances = {title: "Bardic Performances", topLink: ["Bard","cl
 <p>If a bardic performance has audible components, the targets must be able to hear the bard for the performance to have any effect, and many such performances are language dependent (as noted in the description. A deaf bard has a 20% chance to fail when attempting to use a bardic performance with an audible component. If he fails this check, the attempt still counts against his daily limit. Deaf creatures are immune to bardic performances with audible components.</p>
 <p>If a bardic performance has a visual component, the targets must have line of sight to the bard for the performance to have any effect. A blind bard has a 50% chance to fail when attempting to use a bardic performance with a visual component. If he fails this check, the attempt still counts against his daily limit. Blind creatures are immune to bardic performances with visual components.</p>
 <hr/>
-<Ability id="performancecountersong-countersong-su-fn1" icon={["shield-reflect","armor-upgrade"]}>
+<Ability id="performancecountersong-countersong-su-fn1" icon={["protect","def"]}>
 <Pair single id="performancecountersong-countersong-su-fn1"><Link to="/performance/countersong">⮞</Link> Countersong (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-1" id="ability-bardic_performances-fake-fn-1" data-hash-target to="ability-bardic_performances-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="At 1st Level"><p>A bard learns to counter magic effects that depend on sound (but not spells that have verbal components). Each round of the <em>countersong</em> he makes a <Link to="/skill/perform">Perform</Link> (keyboard, percussion, wind, string, or sing) skill check. Any creature within 30 feet of the bard (including the bard himself) that is affected by a sonic or language-dependent magical attack may use the bard's Perform check result in place of its saving throw if, after the saving throw is rolled, the Perform check result proves to be higher.</p>
 <p>If a creature within range of the <em>countersong</em> is already under the effect of a non-instantaneous sonic or language-dependent magical attack, it gains another saving throw against the effect each round it hears the <em>countersong,</em> but it must use the bard's Perform skill check result for the save.</p>
 </Pair>
 <Pair title="Special"><em>Countersong</em> does not work on effects that don't allow saves. <em>Countersong</em> relies on audible components.</Pair>
 </Ability>
-<Ability id="performancedistraction-distraction-su-fn1-2" icon={["shield-reflect","armor-upgrade"]}>
+<Ability id="performancedistraction-distraction-su-fn1-2" icon={["protect","def"]}>
 <Pair single id="performancedistraction-distraction-su-fn1-2"><Link to="/performance/distraction">⮞</Link> Distraction (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-1.2" id="ability-bardic_performances-fake-fn-1.2" data-hash-target to="ability-bardic_performances-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="At 1st Level"><p>A bard can use his performance to counter magic effects that depend on sight. Each round of the <em>distraction,</em> he makes a <Link to="/skill/perform">Perform</Link> (act, comedy, dance, or oratory) skill check. Any creature within 30 feet of the bard (including the bard himself) that is affected by an illusion (pattern) or illusion (figment) magical attack may use the bard's Perform check result in place of its saving throw if, after the saving throw is rolled, the Perform skill check proves to be higher.</p>
 <p>If a creature within range of the <em>distraction</em> is already under the effect of a non-instantaneous illusion (pattern) or illusion (figment) magical attack, it gains another saving throw against the effect each round it sees the <em>distraction</em>, but it must use the bard's Perform skill check result for the save.</p>
 </Pair>
 <Pair title="Special"><em>Distraction</em> does not work on effects that don't allow saves. <em>Distraction</em> relies on visual components.</Pair>
 </Ability>
-<Ability id="performancefascinate-fascinate-su-fn2" icon={["magic-swirl","armor-downgrade"]}>
+<Ability id="performancefascinate-fascinate-su-fn2" icon={["magic","lower"]}>
 <Pair single id="performancefascinate-fascinate-su-fn2"><Link to="/performance/fascinate">⮞</Link> Fascinate (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-2" id="ability-bardic_performances-fake-fn-2" data-hash-target to="ability-bardic_performances-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="At 1st Level"><p>A bard can use his performance to cause one or more creatures to become <Link to="/misc/fascinated">fascinated</Link> with him. Each creature to be <em>fascinated</em> must be within 90 feet, able to see and hear the bard, and capable of paying attention to him. The bard must also be able to see the creatures affected. The distraction of a nearby combat or other dangers prevents this ability from working.</p>
 <p>Each creature within range receives a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) to negate the effect. If a creature's saving throw succeeds, the bard cannot attempt to <em>fascinate</em> that creature again for 24 hours. If its saving throw fails, the creature sits quietly and observes the performance for as long as the bard continues to maintain it. While <em>fascinated,</em> a target takes a -4 penalty on all skill checks made as reactions, such as Perception checks. Any potential threat to the target allows the target to make a new saving throw against the effect. Any obvious threat, such as someone drawing a weapon, casting a spell, or aiming a weapon at the target, automatically breaks the effect.</p>
@@ -2049,7 +2049,7 @@ const _bardic_performances = {title: "Bardic Performances", topLink: ["Bard","cl
 <Pair title="At 19th Level">The number of creatures the bard can <em>fascinate</em> increases to 7.</Pair>
 <Pair title="Special"><em>Fascinate</em> is an enchantment (compulsion), mind-affecting ability. <em>Fascinate</em> relies on audible and visual components in order to function.</Pair>
 </Ability>
-<Ability id="performanceinspirecourage-inspire-courage-su-fn2-2" icon={["upgrade"]}>
+<Ability id="performanceinspirecourage-inspire-courage-su-fn2-2" icon={["boost"]}>
 <Pair single id="performanceinspirecourage-inspire-courage-su-fn2-2"><Link to="/performance/inspire_courage">⮞</Link> Inspire Courage (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-2.2" id="ability-bardic_performances-fake-fn-2.2" data-hash-target to="ability-bardic_performances-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="At 1st Level">A bard can use his performance to <em>inspire courage</em> in his allies (including himself), bolstering them against fear and improving their combat abilities. To be affected, an ally must be able to perceive the bard's performance. An affected ally receives a +1 morale bonus on saving throws against charm and fear effects and a +1 competence bonus on attack and weapon damage rolls.</Pair>
 <Pair title="At 5th Level">These bonuses become +2.</Pair>
@@ -2057,7 +2057,7 @@ const _bardic_performances = {title: "Bardic Performances", topLink: ["Bard","cl
 <Pair title="At 17th Level">These bonuses become +4.</Pair>
 <Pair title="Special"><em>Inspire courage</em> is a mind-affecting ability. <em>Inspire courage</em> can use audible or visual components. The bard must choose which component to use when starting his performance.</Pair>
 </Ability>
-<Ability id="performanceinspirecompetence-inspire-competence-su-fn2-3" icon={["upgrade"]}>
+<Ability id="performanceinspirecompetence-inspire-competence-su-fn2-3" icon={["boost"]}>
 <Pair single id="performanceinspirecompetence-inspire-competence-su-fn2-3"><Link to="/performance/inspire_competence">⮞</Link> Inspire Competence (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-2.3" id="ability-bardic_performances-fake-fn-2.3" data-hash-target to="ability-bardic_performances-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="At 1st Level">A bard can use his performance to help an ally succeed at a task. That ally must be within 30 feet and be able to hear the bard. The ally gets a +2 competence bonus on skill checks with a particular skill as long as she continues to hear the bard's performance.</Pair>
 <Pair title="At 7th Level">This bonus becomes +3.</Pair>
@@ -2066,17 +2066,17 @@ const _bardic_performances = {title: "Bardic Performances", topLink: ["Bard","cl
 <Pair title="At 19th Level">This bonus increases to +6.</Pair>
 <Pair title="Special">Certain uses of this ability are infeasible, such as Stealth, and may be disallowed at the GM's discretion. A bard can't <em>inspire competence</em> in himself. <em>Inspire competence</em> relies on audible components.</Pair>
 </Ability>
-<Ability id="performancesuggestion-suggestion-sp-fn2-4" icon={["magic-swirl"]}>
+<Ability id="performancesuggestion-suggestion-sp-fn2-4" icon={["magic"]}>
 <Pair single id="performancesuggestion-suggestion-sp-fn2-4"><Link to="/performance/suggestion">⮞</Link> Suggestion (Sp) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-2.4" id="ability-bardic_performances-fake-fn-2.4" data-hash-target to="ability-bardic_performances-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="At 6th Level">A bard can use his performance to make a <Link to="/spell/suggestion">suggestion</Link> (as per the spell) to a creature he has already <Link to="/performance/fascinate">fascinated</Link>. Using this ability does not disrupt the <em>fascinate</em> effect, but it does require a <strong className="hl">standard action</strong> to activate (in addition to the <strong className="hl">free action</strong> to continue the <em>fascinate</em> effect). A bard can use this ability more than once against an individual creature during an individual performance.</Pair>
 <Pair title="Special">Making a <em>suggestion</em> does not count against a bard's daily use of bardic performance. A Will saving throw (DC 10 + 1/2 the bard's level + the bard's Cha modifier) negates the effect. This ability affects only a single creature. <em>Suggestion</em> is an enchantment (compulsion), mind affecting, language-dependent ability and relies on audible components.</Pair>
 </Ability>
-<Ability id="performancedirgeofdoom-dirge-of-doom-su-fn2-5" icon={["armor-downgrade"]}>
+<Ability id="performancedirgeofdoom-dirge-of-doom-su-fn2-5" icon={["lower"]}>
 <Pair single id="performancedirgeofdoom-dirge-of-doom-su-fn2-5"><Link to="/performance/dirge_of_doom">⮞</Link> Dirge of Doom (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-2.5" id="ability-bardic_performances-fake-fn-2.5" data-hash-target to="ability-bardic_performances-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="At 8th Level">A bard can use his performance to foster a sense of growing dread in his enemies, causing them to become <Link to="/misc/shaken">shaken</Link>. To be affected, an enemy must be within 30 feet and able to see and hear the bard's performance. The effect persists for as long as the enemy is within 30 feet and the bard continues his performance.</Pair>
 <Pair title="Special">This performance cannot cause a creature to become <Link to="/misc/frightened">frightened</Link> or <Link to="/misc/panicked">panicked</Link>, even if the targets are already shaken from another effect. <em>Dirge of doom</em> is a mind-affecting fear effect, and it relies on audible and visual components.</Pair>
 </Ability>
-<Ability id="performanceinspiregreatness-inspire-greatness-su-fn2-6" icon={["remedy","upgrade","armor-upgrade"]}>
+<Ability id="performanceinspiregreatness-inspire-greatness-su-fn2-6" icon={["aid","boost","def"]}>
 <Pair single id="performanceinspiregreatness-inspire-greatness-su-fn2-6"><Link to="/performance/inspire_greatness">⮞</Link> Inspire Greatness (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-2.6" id="ability-bardic_performances-fake-fn-2.6" data-hash-target to="ability-bardic_performances-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="At 9th Level">A bard can use his performance to <em>inspire greatness</em> in himself or a single willing ally within 30 feet, granting extra fighting capability. To <em>inspire greatness,</em> all of the targets must be able to see and hear the bard. A creature <em>inspired with greatness</em> gains 2 bonus Hit Dice (d10s), the commensurate number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> (apply the target's Constitution modifier, if any, to these bonus Hit Dice), a +2 competence bonus on attack rolls, and a +1 competence bonus on Fortitude saves. The bonus Hit Dice count as regular Hit Dice for determining the effect of spells that are Hit Dice dependent.</Pair>
 <Pair title="At 12th Level">The number of creatures he can target becomes 2.</Pair>
@@ -2084,28 +2084,28 @@ const _bardic_performances = {title: "Bardic Performances", topLink: ["Bard","cl
 <Pair title="At 18th Level">The number of creatures he can target becomes 4.</Pair>
 <Pair title="Special"><em>Inspire greatness</em> is a mind-affecting ability and it relies on audible and visual components.</Pair>
 </Ability>
-<Ability id="performancesoothingperformance-soothing-performance-su-fn3" icon={["remedy"]}>
+<Ability id="performancesoothingperformance-soothing-performance-su-fn3" icon={["aid"]}>
 <Pair single id="performancesoothingperformance-soothing-performance-su-fn3"><Link to="/performance/soothing_performance">⮞</Link> Soothing Performance (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-3" id="ability-bardic_performances-fake-fn-3" data-hash-target to="ability-bardic_performances-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="At 12th Level">A bard can use his performance to create an effect equivalent to a <Link to="/spell/mass_cure_serious_wounds">mass cure serious wounds</Link>, using the bard's level as the caster level. In addition, this performance removes the fatigued, sickened, and shaken conditions from all those affected.</Pair>
 <Pair title="Special">Using this ability requires 4 rounds of continuous performance, and the targets must be able to see and hear the bard throughout the performance. <em>Soothing performance</em> affects all targets that remain within 30 feet throughout the performance. <em>Soothing performance</em> relies on audible and visual components.</Pair>
 </Ability>
-<Ability id="performancefrighteningtune-frightening-tune-sp-fn3-2" icon={["armor-downgrade"]}>
+<Ability id="performancefrighteningtune-frightening-tune-sp-fn3-2" icon={["lower"]}>
 <Pair single id="performancefrighteningtune-frightening-tune-sp-fn3-2"><Link to="/performance/frightening_tune">⮞</Link> Frightening Tune (Sp) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-3.2" id="ability-bardic_performances-fake-fn-3.2" data-hash-target to="ability-bardic_performances-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="At 14th Level">A bard can use his performance to cause fear in his enemies. To be affected, an enemy must be able to hear the bard perform and be within 30 feet. Each enemy within range receives a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) to negate the effect. If the save succeeds, the creature is immune to this ability for 24 hours. If the save fails, the target becomes <Link to="/misc/frightened">frightened</Link> and flees for as long as the target can hear the bard's performance.</Pair>
 <Pair title="Special"><em>Frightening tune</em> relies on audible components.</Pair>
 </Ability>
-<Ability id="performanceinspireheroics-inspire-heroics-su-fn3-3" icon={["armor-upgrade","shield-reflect"]}>
+<Ability id="performanceinspireheroics-inspire-heroics-su-fn3-3" icon={["def","protect"]}>
 <Pair single id="performanceinspireheroics-inspire-heroics-su-fn3-3"><Link to="/performance/inspire_heroics">⮞</Link> Inspire Heroics (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-3.3" id="ability-bardic_performances-fake-fn-3.3" data-hash-target to="ability-bardic_performances-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="At 15th Level">A bard can inspire tremendous heroism in himself or a single ally within 30 feet. Inspired creatures gain a +4 morale bonus on saving throws and a +4 dodge bonus to AC.</Pair>
 <Pair title="At 18th Level">The number of creatures he can <em>inspire</em> becomes 2.</Pair>
 <Pair title="Special">To <em>inspire heroics,</em> all of the targets must be able to see and hear the bard. This effect lasts for as long as the targets are able to witness the performance. <em>Inspire heroics</em> is a mind-affecting ability that relies on audible and visual components.</Pair>
 </Ability>
-<Ability id="performancemasssuggestion-mass-suggestion-sp-fn3-4" icon={["magic-swirl","upgrade"]}>
+<Ability id="performancemasssuggestion-mass-suggestion-sp-fn3-4" icon={["magic","boost"]}>
 <Pair single id="performancemasssuggestion-mass-suggestion-sp-fn3-4"><Link to="/performance/mass_suggestion">⮞</Link> Mass Suggestion (Sp) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-3.4" id="ability-bardic_performances-fake-fn-3.4" data-hash-target to="ability-bardic_performances-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="At 18th Level">This ability functions just like <Link to="/performance/suggestion">suggestion</Link>, but allows a bard to make a <em>suggestion</em> simultaneously to any number of creatures that he has already <em>fascinated.</em></Pair>
 <Pair title="Special"><em>Mass suggestion</em> is an enchantment (compulsion), mind-affecting, language-dependent ability that relies on audible components.</Pair>
 </Ability>
-<Ability id="performancedeadlyperformance-deadly-performance-su-fn3-5" icon={["armor-downgrade"]}>
+<Ability id="performancedeadlyperformance-deadly-performance-su-fn3-5" icon={["lower"]}>
 <Pair single id="performancedeadlyperformance-deadly-performance-su-fn3-5"><Link to="/performance/deadly_performance">⮞</Link> Deadly Performance (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-3.5" id="ability-bardic_performances-fake-fn-3.5" data-hash-target to="ability-bardic_performances-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="At 20th Level">A bard can use his performance to cause one enemy to die from joy or sorrow. To be affected, the target must be able to see and hear the bard perform for 1 full round and be within 30 feet. The target receives a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) to negate the effect. If a creature's saving throw succeeds, the target is <Link to="/misc/staggered">staggered</Link> for 1d4 rounds, and the bard cannot use <em>deadly performance</em> on that creature again for 24 hours. If a creature's saving throw fails, it dies.</Pair>
 <Pair title="Special"><em>Deadly performance</em> is a mind-affecting death effect that relies on audible and visual components.</Pair>
@@ -2968,34 +2968,34 @@ const _improved_familiars = {hasJL:true,title: "Improved Familiars", topLink: ["
 </>};
 const _judgments = {hasJL:true,title: "Inquisitor Judgments", topLink: ["Inquisitor","class/inquisitor"], jsx: <><div className="jumpList" id="ability-judgments-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="ability-judgments-destruction">Destruction</InnerLink></li><li><InnerLink toTop to="ability-judgments-healing">Healing</InnerLink></li><li><InnerLink toTop to="ability-judgments-justice">Justice</InnerLink></li><li><InnerLink toTop to="ability-judgments-piercing">Piercing</InnerLink></li><li><InnerLink toTop to="ability-judgments-protection">Protection</InnerLink></li><li><InnerLink toTop to="ability-judgments-purity">Purity</InnerLink></li><li><InnerLink toTop to="ability-judgments-resiliency">Resiliency</InnerLink></li><li><InnerLink toTop to="ability-judgments-resistance">Resistance</InnerLink></li><li><InnerLink toTop to="ability-judgments-smiting">Smiting</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 39</Link></p>
 <p>When an inquisitor uses the Judgment ability (as a swift action), she must select one type of judgment to make. As a swift action, she can change this judgment to another type. If the inquisitor is evil, she receives profane bonuses instead of sacred, as appropriate. Neutral inquisitors must select profane or sacred bonuses. Once made, this choice cannot be changed.</p>
-<div style={{clear:"both"}}></div><Ability id="destruction" icon={["upgrade"]}>
+<div style={{clear:"both"}}></div><Ability id="destruction" icon={["boost"]}>
 <Pair single id="destruction">Destruction</Pair>
 <Pair title="Passive Ability">You gain a sacred bonus on all weapon damage rolls. This bonus is equal to 1 + <Link to="/misc/one_third">one-third</Link> of your inquisitor level.</Pair>
 </Ability>
-<Ability id="healing" icon={["armor-upgrade"]}>
+<Ability id="healing" icon={["def"]}>
 <Pair single id="healing">Healing</Pair>
 <Pair title="Passive Ability">You're surrounded by a healing light, gaining <Link to="/umr/fast_healing">fast healing</Link> of an amount equal to 1 + <Link to="/misc/one_third">one-third</Link> of your inquisitor level.</Pair>
 </Ability>
-<Ability id="justice" icon={["upgrade"]}>
+<Ability id="justice" icon={["boost"]}>
 <Pair single id="justice">Justice</Pair>
 <Pair title="Passive Ability">You gain a sacred bonus on all attack rolls. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your inquisitor level.</Pair>
 <Pair title="At 10th Level">The bonus is now doubled on all attack rolls made to confirm critical hits.</Pair>
 </Ability>
-<Ability id="piercing" icon={["armor-upgrade"]}>
+<Ability id="piercing" icon={["def"]}>
 <Pair single id="piercing">Piercing</Pair>
 <Pair title="Passive Ability">You gain a sacred bonus on <Link to="/rule/concentration">concentration</Link> checks and caster level checks made to overcome a target's spell resistance. This bonus is equal to 1 + one-third of your inquisitor level.</Pair>
 </Ability>
-<Ability id="protection" icon={["armor-upgrade"]}>
+<Ability id="protection" icon={["def"]}>
 <Pair single id="protection">Protection</Pair>
 <Pair title="Passive Ability">You're surrounded by a protective aura, granting a sacred bonus to Armor Class. This bonus is equal to 1 + one-fifth of your inquisitor level.</Pair>
 <Pair title="At 10th Level">The bonus is now doubled against attack rolls made to confirm critical hits against you.</Pair>
 </Ability>
-<Ability id="purity" icon={["armor-upgrade"]}>
+<Ability id="purity" icon={["def"]}>
 <Pair single id="purity">Purity</Pair>
 <Pair title="Passive Ability">You gain a sacred bonus on all saving throws. This bonus is equal to 1 + one-fifth of your inquisitor level.</Pair>
 <Pair title="At 10th Level">The bonus is now doubled against curses, diseases, and poisons.</Pair>
 </Ability>
-<Ability id="resiliency" icon={["armor-upgrade"]}>
+<Ability id="resiliency" icon={["def"]}>
 <Pair single id="resiliency">Resiliency</Pair>
 <Pair title="Passive Ability">You gain <Link to="/rule/dr">DR</Link> 1/magic.</Pair>
 <Pair title="At 5th Level">You instead gain DR 2/magic.</Pair>
@@ -3003,7 +3003,7 @@ const _judgments = {hasJL:true,title: "Inquisitor Judgments", topLink: ["Inquisi
 <Pair title="At 15th Level">The DR increases to 4.</Pair>
 <Pair title="At 20th Level">The DR increases to 5.</Pair>
 </Ability>
-<Ability id="resistance" icon={["armor-upgrade"]}>
+<Ability id="resistance" icon={["def"]}>
 <Pair single id="resistance">Resistance</Pair>
 <Pair title="Passive Ability">You gain <Link to="/umr/resistance">resistance</Link> 2 against one energy type (acid, cold, electricity, fire, or sonic) chosen when the judgment is declared.</Pair>
 <Pair title="At 3rd Level">Your resistance becomes 4.</Pair>
@@ -3013,7 +3013,7 @@ const _judgments = {hasJL:true,title: "Inquisitor Judgments", topLink: ["Inquisi
 <Pair title="At 15th Level">Your resistance becomes 12.</Pair>
 <Pair title="At 18th Level">Your resistance increases to 14.</Pair>
 </Ability>
-<Ability id="smiting" icon={["upgrade"]}>
+<Ability id="smiting" icon={["boost"]}>
 <Pair single id="smiting">Smiting</Pair>
 <Pair title="Passive Ability">Your weapons count as magic for the purposes of bypassing <Link to="/rule/damage_reduction">damage reduction</Link>.</Pair>
 <Pair title="At 6th Level">Your weapons also count as one alignment type (chaotic, evil, good, or lawful) for the purpose of bypassing damage reduction. The type selected must match one of your alignments. If you're true neutral, you do not receive this bonus.</Pair>
@@ -3024,62 +3024,62 @@ const _capstones = {hasJL:true,title: "Alternate Capstones", topLink: ["Classes"
 <p>When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides capstones for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class.</p>
 <p>In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with.</p>
 <p>The following does not contain class-specific capstones, just the ones that apply to multiple classes.</p>
-<div style={{clear:"both"}}></div><Ability id="arch-familiar-su" icon={["upgrade"]}>
+<div style={{clear:"both"}}></div><Ability id="arch-familiar-su" icon={["boost"]}>
 <Pair single id="arch-familiar-su">Arch-Familiar (Su)</Pair>
 <Pair title="Prerequisites">Has a familiar</Pair>
 <Pair title="At 20th Level">The character's <Link to="/sidekick/familiar">familiar</Link> is smarter and savvier than plenty of adventurers - and also more dangerous! The familiar's Intelligence increases by 5, and it gains 12 spells levels' worth of spell-like abilities (for example, three daily castings of <Link to="/spell/greater_invisibility">greater invisibility</Link>), drawn from spells its master can cast and using its master's caster levels, DCs, and so forth.</Pair>
 </Ability>
-<Ability id="deep-magics-su" icon={["spell-book"]}>
+<Ability id="deep-magics-su" icon={["learn"]}>
 <Pair single id="deep-magics-su">Deep Magics (Su)</Pair>
 <Pair title="Prerequisites">Has spells known</Pair>
 <Pair title="At 20th Level">The character's repertoire of spells deepens dramatically. She gains an additional spell known for each spell level she can cast.</Pair>
 </Ability>
-<Ability id="great-beast-su" icon={["upgrade"]}>
+<Ability id="great-beast-su" icon={["boost"]}>
 <Pair single id="great-beast-su">Great Beast (Su)</Pair>
 <Pair title="Prerequisites">Has an <Link to="/ability/animal_companion">animal companion</Link></Pair>
 <Pair title="At 20th Level">The character's <Link to="/sidekick/animal_companion">animal companion</Link> is a paragon of its kind - a hero and legend in its own right. The animal companion's Strength, Dexterity, Constitution, and Wisdom scores each increase by 4.</Pair>
 </Ability>
-<Ability id="ki-sage-su" icon={["stairs-goal","upgrade"]}>
+<Ability id="ki-sage-su" icon={["power","boost"]}>
 <Pair single id="ki-sage-su">Ki Sage (Su)</Pair>
 <Pair title="Prerequisites">Has a ki pool</Pair>
 <Pair title="At 20th Level">The character is fully attuned to his own body and the ki that flows within. The character gains two <Link to="/ability/ki_powers">ki powers</Link> from those available to the unchained monk, treating his character level as his monk level for the purpose of any requirements.</Pair>
 <Pair title="Special">In addition, his ki pool increases by four.</Pair>
 </Ability>
-<Ability id="old-dog-new-tricks-ex" icon={["stairs-goal"]}>
+<Ability id="old-dog-new-tricks-ex" icon={["power"]}>
 <Pair single id="old-dog-new-tricks-ex">Old Dog, New Tricks (Ex)</Pair>
 <Pair title="Prerequisites">Is of a class that gains at least four bonus combat feats</Pair>
 <Pair title="At 20th Level">The character shows that a true warrior always has one more surprise the enemy hasn't seen. The character gains four <Link to="/main/combat_feat">combat feats</Link>.</Pair>
 </Ability>
-<Ability id="perfect-body-flawless-mind-ex" icon={["upgrade"]}>
+<Ability id="perfect-body-flawless-mind-ex" icon={["boost"]}>
 <Pair single id="perfect-body-flawless-mind-ex">Perfect Body, Flawless Mind (Ex)</Pair>
 <Pair title="At 20th Level">The character's endless training and study has resulted in an unmatched mastery of the self. The character increases her ability scores by a collective total of 8. For example, she can increase one score by 8, or one score by 5 and another by 3, or four scores by 2, and so on.</Pair>
 </Ability>
-<Ability id="soul-channel-su" icon={["upgrade"]}>
+<Ability id="soul-channel-su" icon={["boost"]}>
 <Pair single id="soul-channel-su">Soul Channel (Su)</Pair>
 <Pair title="Prerequisites">Has the <Link to="/ability/channel_energy">channel energy</Link> class feature</Pair>
 <Pair title="At 20th Level">The character can channel energy six additional times per day, and her channel energy dice increase <Link to="/misc/by_one_step">by one step</Link>.</Pair>
 </Ability>
-<Ability id="the-boss-ex" icon={["stairs-goal"]}>
+<Ability id="the-boss-ex" icon={["power"]}>
 <Pair single id="the-boss-ex">The Boss (Ex)</Pair>
 <Pair title="At 20th Level"><p>The character has become more than just a lone hero - she has become one of the senior figures of her field, with powers and responsibilities to match. The character becomes one of the leading figures in some manner of group or organization, as appropriate to the campaign and the setting. A wizard might become the dean of an arcane university or mages' guild, a fighter could command a mercenary army or a city guard, a cleric might lead a major temple or her own sect, and so forth. The player and the GM should work together to determine the specifics.</p>
 <p>The character gains the <Link to="/feat/leadership">Leadership</Link> feat if she does not already have it, and the number of followers that the feat grants is multiplied by 10 (although depending on the campaign and setting, the position may grant other powers as well). If multiple characters in a party select this capstone, the GM may consider pooling them to grant the players a particularly large and powerful organization, such as a small kingdom.</p>
 </Pair>
 </Ability>
-<Ability id="the-right-spot-ex" icon={["upgrade"]}>
+<Ability id="the-right-spot-ex" icon={["boost"]}>
 <Pair single id="the-right-spot-ex">The Right Spot (Ex)</Pair>
 <Pair title="Prerequisites">Has the <Link to="/ability/sneak_attack">sneak attack</Link> class feature</Pair>
 <Pair title="At 20th Level">The character can hit an opponent's weak spot effortlessly. Once per round, the character can apply her sneak attack damage to an attack, even if the target is not flanked or denied its Dexterity bonus to AC. This does not allow the character to sneak attack targets that are immune to sneak attacks (such as oozes).</Pair>
 </Ability>
-<Ability id="walking-library-ex" icon={["spell-book","upgrade"]}>
+<Ability id="walking-library-ex" icon={["learn","boost"]}>
 <Pair single id="walking-library-ex">Walking Library (Ex)</Pair>
 <Pair title="Prerequisites">Prepares spells from a spellbook or familiar</Pair>
 <Pair title="At 20th Level">The character becomes a small, mobile athenaeum of occult scraps and lore. The character adds 100 spell levels' worth of spells to his spellbook or familiar and gains a +4 insight bonus on all Knowledge skills.</Pair>
 </Ability>
-<Ability id="with-this-sword-ex" icon={["upgrade"]}>
+<Ability id="with-this-sword-ex" icon={["boost"]}>
 <Pair single id="with-this-sword-ex">With This Sword (Ex)</Pair>
 <Pair title="At 20th Level">The character's blade has become as well-known as the character herself. The character selects one item she has - preferably something iconic and significant, such as a weapon or arcane bond. The item becomes a <Link to="/rule/artifacts">minor artifact</Link> and gains 100,000 gp worth of new powers. The player and the GM should work together to select the new powers, with an eye towards making something memorable yet campaign-appropriate.</Pair>
 </Ability>
-<Ability id="wont-stay-dead-ex" icon={["armor-upgrade"]}>
+<Ability id="wont-stay-dead-ex" icon={["def"]}>
 <Pair single id="wont-stay-dead-ex">Won't Stay Dead (Ex)</Pair>
 <Pair title="At 20th Level">The character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely.</Pair>
 </Ability>

@@ -10,120 +10,120 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 <p>At 2nd level, and then again every 2 levels thereafter (up to 18th level), an alchemist makes an incredible alchemical discovery. Unless otherwise noted, an alchemist cannot select an individual discovery more than once. Some discoveries can only be made if the alchemist has met certain prerequisites first, such as uncovering other discoveries. The DC of any saving throw called for by a discovery is equal to 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier.</p>
 <h3 id="ability-discoveries-primary-bomb-discoveries" data-hash-target>Primary Bomb Discoveries</h3>
 <p>These discoveries modify bombs, but do not stack. Only one such discovery can be applied to an individual bomb.</p>
-<Ability id="discoveryacidbomb-acid-bomb-fn1" icon={["stairs-goal"]}>
+<Ability id="discoveryacidbomb-acid-bomb-fn1" icon={["power"]}>
 <Pair single id="discoveryacidbomb-acid-bomb-fn1"><Link to="/discovery/acid_bomb">⮞</Link> Acid Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1" id="ability-discoveries-fake-fn-1" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose to have it inflict acid damage. Creatures that take a direct hit from an <em>acid bomb</em> take an additional 1d6 points of acid damage 1 round later.</Pair>
 </Ability>
-<Ability id="discoveryanarchicbombs-anarchic-bombs-fn2" icon={["stairs-goal"]}>
+<Ability id="discoveryanarchicbombs-anarchic-bombs-fn2" icon={["power"]}>
 <Pair single id="discoveryanarchicbombs-anarchic-bombs-fn2"><Link to="/discovery/anarchic_bombs">⮞</Link> Anarchic Bombs <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-2" id="ability-discoveries-fake-fn-2" data-hash-target to="ability-discoveries-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose to have it deal chaotic divine damage. Lawful creatures that take a direct hit from an <em>anarchic bomb</em> must succeed at a Fortitude save or be <Link to="/misc/staggered">staggered</Link> on their next turn. Against neutral creatures, <em>anarchic bombs</em> deal half damage, and such targets are not affected by their staggering effect. <em>Anarchic bombs</em> have no effect on chaotic-aligned creatures.</Pair>
 </Ability>
-<Ability id="discoveryanguishbomb-anguish-bomb-fn3" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="discoveryanguishbomb-anguish-bomb-fn3" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="discoveryanguishbomb-anguish-bomb-fn3"><Link to="/discovery/anguish_bomb">⮞</Link> Anguish Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-3" id="ability-discoveries-fake-fn-3" data-hash-target to="ability-discoveries-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">You can throw bombs infused with psychic trauma.</Pair>
 <Pair title="Special">This discovery allows other alchemists to duplicate the <em>anguish bombs</em> used by <Link to="/arc-alchemist/mnemostiller">mnemostillers</Link>.</Pair>
 </Ability>
-<Ability id="anguish-bomb-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="anguish-bomb-su" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="anguish-bomb-su" flavor="Text from the mnemostiller archetype ability.">Anguish Bomb (Su)</Pair>
 <Pair title="Ability">An <em>anguish bomb</em> is identical to a bomb except that it deals nonlethal damage, it deals no damage to inanimate objects and creatures immune to mental effects, and creatures caught in the <em>anguish bomb's</em> splash can attempt a Will save for half damage. A mnemostiller uses his Charisma score in place of his Intelligence score to determine the bonus damage of his <em>anguish bomb</em> and the save DC of the <em>anguish bomb's</em> splash damage. He still uses his Intelligence score to determine his number of bombs per day.</Pair>
 <Pair title="Special">If the mnemostiller has taken any hit point damage in the past 24 hours, his <em>anguish bombs</em> inflict 1 additional point of nonlethal damage for every 2 alchemist levels he has.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoverydreadbomb-dread-bomb-fn3-2" icon={["armor-downgrade"]}>
+<Ability id="discoverydreadbomb-dread-bomb-fn3-2" icon={["lower"]}>
 <Pair single id="discoverydreadbomb-dread-bomb-fn3-2" flavor={<>Your <em>anguish bombs</em> are tainted with fear and dread.</>}><Link to="/discovery/dread_bomb">⮞</Link> Dread Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-3.2" id="ability-discoveries-fake-fn-3.2" data-hash-target to="ability-discoveries-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level alchemist, <Link to="/discovery/anguish_bomb">anguish bomb</Link></Pair>
 <Pair title="Ability">Creatures who take damage from your <em>anguish bombs</em> become <Link to="/misc/frightened">frightened</Link> for 1d6 rounds. A target that succeeds at a Will saving throw is instead <Link to="/misc/shaken">shaken</Link> for a single round.</Pair>
 </Ability>
-<Ability id="discoverymelancholybomb-melancholy-bomb-fn3-3" icon={["armor-downgrade"]}>
+<Ability id="discoverymelancholybomb-melancholy-bomb-fn3-3" icon={["lower"]}>
 <Pair single id="discoverymelancholybomb-melancholy-bomb-fn3-3" flavor={<>Your <em>anguish bombs</em> are filled with memories of sadness and regret.</>}><Link to="/discovery/melancholy_bomb">⮞</Link> Melancholy Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-3.3" id="ability-discoveries-fake-fn-3.3" data-hash-target to="ability-discoveries-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level alchemist, <Link to="/discovery/anguish_bomb">anguish bomb</Link></Pair>
 <Pair title="Ability">Creatures who take damage from your <em>anguish bombs</em> are also affected as per <Link to="/spell/crushing_despair">crushing despair</Link> for 1 round per alchemist level, or a single round if the target succeeds at a Will saving throw.</Pair>
 </Ability>
 </div>
-<Ability id="discoveryaxiomaticbombs-axiomatic-bombs-fn2-2" icon={["stairs-goal"]}>
+<Ability id="discoveryaxiomaticbombs-axiomatic-bombs-fn2-2" icon={["power"]}>
 <Pair single id="discoveryaxiomaticbombs-axiomatic-bombs-fn2-2"><Link to="/discovery/axiomatic_bombs">⮞</Link> Axiomatic Bombs <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-2.2" id="ability-discoveries-fake-fn-2.2" data-hash-target to="ability-discoveries-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose to have it deal lawful divine damage. Chaotic creatures that take a direct hit from an <em>axiomatic bomb</em> must succeed at a Fortitude save or be <Link to="/misc/staggered">staggered</Link> on their next turn. Against neutral creatures, <em>axiomatic bombs</em> deal half damage, and such targets are not affected by their staggering effect. <em>Axiomatic bombs</em> have no effect on lawful creatures.</Pair>
 </Ability>
-<Ability id="discoveryblindingbomb-blinding-bomb-fn4" icon={["armor-downgrade"]}>
+<Ability id="discoveryblindingbomb-blinding-bomb-fn4" icon={["lower"]}>
 <Pair single id="discoveryblindingbomb-blinding-bomb-fn4"><Link to="/discovery/blinding_bomb">⮞</Link> Blinding Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4" id="ability-discoveries-fake-fn-4" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose for it to detonate very brightly. Creatures that take a direct hit from a <em>blinding bomb</em> are <Link to="/misc/blinded">blinded</Link> for 1 minute unless they succeed at a Fortitude save. Creatures in the splash area that fail their saves against the bomb are <Link to="/misc/dazzled">dazzled</Link> for 1 minute.</Pair>
 <Pair title="Special">This is a light effect.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoverysunlightbomb-sunlight-bomb-fn4-2" icon={["upgrade"]}>
+<Ability id="discoverysunlightbomb-sunlight-bomb-fn4-2" icon={["boost"]}>
 <Pair single id="discoverysunlightbomb-sunlight-bomb-fn4-2"><Link to="/discovery/sunlight_bomb">⮞</Link> Sunlight Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.2" id="ability-discoveries-fake-fn-4.2" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level alchemist, <Link to="/discovery/blinding_bomb">blinding bomb</Link></Pair>
 <Pair title="Ability">The alchemist can throw bombs that explode with a searing radiance equivalent to that of sunlight and that act as <em>blinding bombs.</em> Undead, fungi, molds, oozes, slimes, and creatures to which sunlight is harmful or unnatural take +2 damage per die from the bomb. Undead that are harmed by sunlight and that fail their saves against the bomb are <Link to="/misc/staggered">staggered</Link> for 1 round.</Pair>
 </Ability>
 </div>
-<Ability id="discoveryboneshardbomb-boneshard-bomb-fn5" icon={["upgrade","magic-swirl"]}>
+<Ability id="discoveryboneshardbomb-boneshard-bomb-fn5" icon={["boost","magic"]}>
 <Pair single id="discoveryboneshardbomb-boneshard-bomb-fn5" flavor="This discovery is popular among necromancers and necrologists alike; aside from its offensive potential, necrologists sometimes use it to turn uncooperative live creatures they wish to question into pliable undead."><Link to="/discovery/boneshard_bomb">⮞</Link> Boneshard Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-5" id="ability-discoveries-fake-fn-5" data-hash-target to="ability-discoveries-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/discovery/alchemical_zombie">Alchemical zombie</Link></Pair>
 <Pair title="Ability">The alchemist's bomb deals piercing damage instead of fire damage, and creatures that take a direct hit from a <em>boneshard bomb</em> must succeed at a Fortitude save or take 1d4 points of <Link to="/rule/bleed">bleed</Link> damage in addition to normal damage.</Pair>
 <Pair title="Special">If a creature is killed by a <em>boneshard bomb</em> or the resulting bleed effect, its corpse immediately reanimates as an undead creature with the <Link to="/template/skeleton">skeleton template</Link>. Skeletons that are created in this manner count as undead created by <Link to="/spell/animate_dead">animate dead</Link> for the purposes of determining how many undead the alchemist can control.</Pair>
 </Ability>
-<Ability id="discoverybreathweaponbomb-breath-weapon-bomb-fn6" icon={["tornado-discs"]}>
+<Ability id="discoverybreathweaponbomb-breath-weapon-bomb-fn6" icon={["cone"]}>
 <Pair single id="discoverybreathweaponbomb-breath-weapon-bomb-fn6"><Link to="/discovery/breath_weapon_bomb">⮞</Link> Breath Weapon Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-6" id="ability-discoveries-fake-fn-6" data-hash-target to="ability-discoveries-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level alchemist</Pair>
 <Pair title="Ability">Instead of drawing the components of, creating, and throwing a bomb, the alchemist can draw the components, drink them, mix them within his body, and then expel them as a breath weapon as a <strong className="hl">standard action</strong>. This breath weapon is a 15-foot cone and has the same DC as the bomb. Each creature within the cone takes damage as if it had suffered a direct hit from the alchemist's bomb, but succeeding at a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligent modifier) halves the damage.</Pair>
 <Pair title="Special">Unlike throwing normal bombs, drawing, drinking, and expelling <em>breath weapon bombs</em> does not provoke attacks of opportunity.</Pair>
 </Ability>
-<Ability id="discoveryconcussivebomb-concussive-bomb-fn1-2" icon={["broken-shield","armor-downgrade"]}>
+<Ability id="discoveryconcussivebomb-concussive-bomb-fn1-2" icon={["down","lower"]}>
 <Pair single id="discoveryconcussivebomb-concussive-bomb-fn1-2"><Link to="/discovery/concussive_bomb">⮞</Link> Concussive Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.2" id="ability-discoveries-fake-fn-1.2" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level alchemist</Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose to have it inflict sonic damage. <em>Concussive bombs</em> deal 1d4 points of sonic damage, plus 1d4 points of sonic damage for every odd-numbered level, instead of 1d6. Creatures that take a direct hit from a <em>concussive bomb</em> are <Link to="/misc/deafened">deafened</Link> for 1 minute unless they succeed at a Fortitude save.</Pair>
 </Ability>
-<Ability id="discoveryconfusionbomb-confusion-bomb-fn4-3" icon={["armor-downgrade","broken-shield"]}>
+<Ability id="discoveryconfusionbomb-confusion-bomb-fn4-3" icon={["lower","down"]}>
 <Pair single id="discoveryconfusionbomb-confusion-bomb-fn4-3" flavor="The alchemist's bombs twist the target's perception of friend and foe."><Link to="/discovery/confusion_bomb">⮞</Link> Confusion Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.3" id="ability-discoveries-fake-fn-4.3" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Ability">A creature that takes a direct hit from a <em>confusion bomb</em> takes damage from the bomb and is under the effect of a <Link to="/spell/confusion">confusion</Link> spell for 1 round per caster level of the alchemist.</Pair>
 <Pair title="Special">Reduce the amount of normal damage dealt by the bomb by 2d6 (so a bomb that would normally deal 6d6+4 points of damage deals 4d6+4 points of damage instead).</Pair>
 </Ability>
-<Ability id="discoverycursedbomb-cursed-bomb-fn7" icon={["magic-swirl"]}>
+<Ability id="discoverycursedbomb-cursed-bomb-fn7" icon={["magic"]}>
 <Pair single id="discoverycursedbomb-cursed-bomb-fn7"><Link to="/discovery/cursed_bomb">⮞</Link> Cursed Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-7" id="ability-discoveries-fake-fn-7" data-hash-target to="ability-discoveries-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level alchemist</Pair>
 <Pair title="Ability">When an alchemist creates a bomb, he can choose to have it deliver a debilitating curse. A creature that takes a direct hit from a <em>cursed bomb</em> must succeed at a Will save or be affected by <Link to="/spell/bestow_curse">bestow curse</Link>.</Pair>
 </Ability>
-<Ability id="discoverycytilleshbomb-cytillesh-bomb-fn8" icon={["broken-shield","armor-downgrade"]}>
+<Ability id="discoverycytilleshbomb-cytillesh-bomb-fn8" icon={["down","lower"]}>
 <Pair single id="discoverycytilleshbomb-cytillesh-bomb-fn8"><Link to="/discovery/cytillesh_bomb">⮞</Link> Cytillesh Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-8" id="ability-discoveries-fake-fn-8" data-hash-target to="ability-discoveries-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can infuse it with <Link to="/eq-poison/cytillesh_extract">cytillesh extract</Link>. <em>Cytillesh bombs</em> deal 1d4 points of damage, plus 1d4 points of damage for every odd-numbered level, instead of 1d6. Creatures that take a direct hit from a <em>cytillesh bomb</em> are <Link to="/misc/sickened">sickened</Link> for 1 round per alchemist level unless they succeed at Fortitude saves.</Pair>
 <Pair title="Special">If a creature is rendered unconscious from this bomb or any other attack before it is able to remove the sickened condition, the victim loses all memory from the last hour and cannot form new memories for 8 hours. The lost and prevented memories might return later as dreams, and can be restored with a <Link to="/spell/restoration">restoration</Link> spell.</Pair>
 </Ability>
-<Ability id="discoverydarknessbomb-darkness-bomb-fn9" icon={["upgrade","magic-swirl"]}>
+<Ability id="discoverydarknessbomb-darkness-bomb-fn9" icon={["boost","magic"]}>
 <Pair single id="discoverydarknessbomb-darkness-bomb-fn9"><Link to="/discovery/darkness_bomb">⮞</Link> Darkness Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-9" id="ability-discoveries-fake-fn-9" data-hash-target to="ability-discoveries-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose to have it suppress light sources on the target. This extinguishes nonmagical light sources carried by the target and dispels magical light sources for 1 round/level as <Link to="/spell/deeper_darkness">deeper darkness</Link>.</Pair>
 </Ability>
-<Ability id="discoverydefoliantbomb-defoliant-bomb-fn9-2" icon={["upgrade"]}>
+<Ability id="discoverydefoliantbomb-defoliant-bomb-fn9-2" icon={["boost"]}>
 <Pair single id="discoverydefoliantbomb-defoliant-bomb-fn9-2" flavor="These poisonous bombs clear away foliage, dealing extra damage to plant creatures."><Link to="/discovery/defoliant_bomb">⮞</Link> Defoliant Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-9.2" id="ability-discoveries-fake-fn-9.2" data-hash-target to="ability-discoveries-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose to have it deal extra damage against plant creatures but less damage against other creatures. Against creatures with the plant type, a <em>defoliant bomb</em> deals 1d8 points of damage, plus 1d8 points of damage for every odd-numbered level the alchemist possesses, instead of 1d6. Against all other creatures, the <em>defoliant bomb</em> only deals 1d4 points of damage, plus 1d4 points of damage for every odd-numbered level, instead of 1d6.</Pair>
 <Pair title="Special">This is a poison effect. A <em>defoliant bomb</em> kills all normal vegetation in the target's square and its splash area; any plant-based <Link to="/rule/difficult_terrain">difficult terrain</Link> in the affected area becomes normal terrain.</Pair>
 </Ability>
-<Ability id="discoverydemolitioncharge-demolition-charge-fn10" icon={["stairs-goal"]}>
+<Ability id="discoverydemolitioncharge-demolition-charge-fn10" icon={["power"]}>
 <Pair single id="discoverydemolitioncharge-demolition-charge-fn10"><Link to="/discovery/demolition_charge">⮞</Link> Demolition Charge <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-10" id="ability-discoveries-fake-fn-10" data-hash-target to="ability-discoveries-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose to have it deal damage to an object as if by a <Link to="/rule/sunder">sunder</Link> combat maneuver. If the item is worn or held by an opponent, the item is considered the direct target, and the wearer/holder takes splash damage from the blast. If the object is unattended, a <em>demolition charge</em> deals an additional 2d6 points of damage on a direct hit. This bonus doesn't affect the bomb's splash damage.</Pair>
 </Ability>
-<Ability id="discoveryectoplasmicbomb-ectoplasmic-bomb-fn5-2" icon={["upgrade","magic-swirl"]}>
+<Ability id="discoveryectoplasmicbomb-ectoplasmic-bomb-fn5-2" icon={["boost","magic"]}>
 <Pair single id="discoveryectoplasmicbomb-ectoplasmic-bomb-fn5-2"><Link to="/discovery/ectoplasmic_bomb">⮞</Link> Ectoplasmic Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-5.2" id="ability-discoveries-fake-fn-5.2" data-hash-target to="ability-discoveries-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The alchemist can infuse her bombs with a special unction that damages incorporeal creatures and reveals the presence of undead creatures hiding in the area. Incorporeal creatures struck by an <em>ectoplasmic bomb</em> take full damage from the bomb.</p>
 <p>In addition, squares in the affected area of the bomb begin to faintly glow in the spaces where undead creatures have traveled in the last minute, including undead benefiting from <Link to="/spell/invisibility">invisibility</Link> or other forms of obscurity (such as <Link to="/spell/ethereal_jaunt">ethereal jaunt</Link>), effectively creating a glowing trail. Any undead creatures in the affected area at the time of the explosion likewise glow faintly. This glowing effect lasts for 1 minute, and is otherwise identical to <Link to="/spell/faerie_fire">faerie fire</Link>.</p>
 </Pair>
 </Ability>
-<Ability id="discoveryexplosivebomb-explosive-bomb-fn1-3" icon={["upgrade"]}>
+<Ability id="discoveryexplosivebomb-explosive-bomb-fn1-3" icon={["boost"]}>
 <Pair single id="discoveryexplosivebomb-explosive-bomb-fn1-3"><Link to="/discovery/explosive_bomb">⮞</Link> Explosive Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.3" id="ability-discoveries-fake-fn-1.3" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">The alchemist's bombs now have a splash radius of 10 feet rather than 5 feet. Creatures that take a direct hit from an <em>explosive bomb</em> catch fire, taking 1d6 points of fire damage each round until the fire is extinguished.</Pair>
 <Pair title="Special">Extinguishing the flames is a <strong className="hl">full-round action</strong> that requires a Reflex save. Rolling on the ground provides the target with a +2 to the save. Dousing the target with at least 2 gallons of water automatically extinguishes the flames.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoveryhellfirebomb-hellfire-bomb-fn11" icon={["stairs-goal"]}>
+<Ability id="discoveryhellfirebomb-hellfire-bomb-fn11" icon={["power"]}>
 <Pair single id="discoveryhellfirebomb-hellfire-bomb-fn11"><Link to="/discovery/hellfire_bomb">⮞</Link> Hellfire Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-11" id="ability-discoveries-fake-fn-11" data-hash-target to="ability-discoveries-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/tiefling">Tiefling</Link>, 9th-level alchemist, <Link to="/discovery/explosive_bomb">explosive bomb</Link></Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can have it act as an <em>explosive bomb,</em> but deal half of its damage as fire damage and half as unholy damage that is not subject to fire resistance or immunity.</Pair>
 </Ability>
-<Ability id="discoverysiegebomb-siege-bomb-fn6-2" icon={["stairs-goal"]}>
+<Ability id="discoverysiegebomb-siege-bomb-fn6-2" icon={["power"]}>
 <Pair single id="discoverysiegebomb-siege-bomb-fn6-2"><Link to="/discovery/siege_bomb">⮞</Link> Siege Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-6.2" id="ability-discoveries-fake-fn-6.2" data-hash-target to="ability-discoveries-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level alchemist, <Link to="/discovery/explosive_bomb">explosive bomb</Link></Pair>
 <Pair title="Standard Action"><p>The alchemist infuses a single piece of ammunition on a loaded siege weapon with the power of his bomb. As long as the siege engine with this ammunition is fired before the start of the alchemist's next turn, the ammunition does damage normally, and also deals the damage of the alchemist's bomb. The splash radius of the bomb effect is 20 feet rather than 5 feet.</p>
@@ -131,45 +131,45 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 </Pair>
 </Ability>
 </div>
-<Ability id="discoveryflesheatingbomb-flesh-eating-bomb-fn12" icon={["upgrade","broken-shield"]}>
+<Ability id="discoveryflesheatingbomb-flesh-eating-bomb-fn12" icon={["boost","down"]}>
 <Pair single id="discoveryflesheatingbomb-flesh-eating-bomb-fn12"><Link to="/discovery/flesh_eating_bomb">⮞</Link> Flesh-Eating Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-12" id="ability-discoveries-fake-fn-12" data-hash-target to="ability-discoveries-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The alchemist can create bombs that devour living matter. The alchemist's bomb deals damage <Link to="/misc/one_die_step">one die step</Link> higher than normal (regular bombs deal d8s, <Link to="/discovery/concussive_bomb">concussive bombs</Link> deal 1d6, and so on), but they have no effect on inorganic matter.</p>
 <p>In addition, a creature with at least a +1 armor bonus to AC is less likely to be harmed; such creatures in the bomb's splash radius take no damage on a successful Reflex save, and the target of a direct hit can attempt a Reflex save against the bomb's save DC to take only half damage.</p>
 </Pair>
 </Ability>
 <aside><p><strong>Note:</strong> Despite what the text seems to indicate, <em>concussive bombs</em> and <em>flesh-eating bombs</em> cannot be combined under the published rules. Consult your GM if you wish to use these two together.</p>
-</aside><Ability id="discoveryforcebomb-force-bomb-fn1-4" icon={["broken-shield","armor-downgrade"]}>
+</aside><Ability id="discoveryforcebomb-force-bomb-fn1-4" icon={["down","lower"]}>
 <Pair single id="discoveryforcebomb-force-bomb-fn1-4"><Link to="/discovery/force_bomb">⮞</Link> Force Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.4" id="ability-discoveries-fake-fn-1.4" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose to have it inflict force damage. <em>Force bombs</em> deal 1d4 points of force damage, plus 1d4 points of force damage for every odd-numbered level, instead of 1d6. Creatures that take a direct hit from a <em>force bomb</em> are knocked <Link to="/rule/prone">prone</Link> unless they succeed on a Reflex save.</Pair>
 </Ability>
-<Ability id="discoveryfrostbomb-frost-bomb-fn1-5" icon={["stairs-goal","armor-downgrade"]}>
+<Ability id="discoveryfrostbomb-frost-bomb-fn1-5" icon={["power","lower"]}>
 <Pair single id="discoveryfrostbomb-frost-bomb-fn1-5"><Link to="/discovery/frost_bomb">⮞</Link> Frost Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.5" id="ability-discoveries-fake-fn-1.5" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose to have it inflict cold damage. Creatures that take a direct hit from a <em>frost bomb</em> are <Link to="/misc/staggered">staggered</Link> on their next turn unless they succeed on a Fortitude save.</Pair>
 </Ability>
-<Ability id="discoveryglassfootbomb-glassfoot-bomb-fn9-3" icon={["stairs-goal"]}>
+<Ability id="discoveryglassfootbomb-glassfoot-bomb-fn9-3" icon={["power"]}>
 <Pair single id="discoveryglassfootbomb-glassfoot-bomb-fn9-3"><Link to="/discovery/glassfoot_bomb">⮞</Link> Glassfoot Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-9.3" id="ability-discoveries-fake-fn-9.3" data-hash-target to="ability-discoveries-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose to have it cover the ground in volatile jagged crystals in addition to its normal effects. These crystals act like <Link to="/eq-misc/caltrops">caltrops</Link>, evaporating into a smelly but harmless gas in 2d6 rounds.</Pair>
 </Ability>
-<Ability id="discoverygreasebomb-grease-bomb-fn10-2" icon={["armor-downgrade"]}>
+<Ability id="discoverygreasebomb-grease-bomb-fn10-2" icon={["lower"]}>
 <Pair single id="discoverygreasebomb-grease-bomb-fn10-2"><Link to="/discovery/grease_bomb">⮞</Link> Grease Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-10.2" id="ability-discoveries-fake-fn-10.2" data-hash-target to="ability-discoveries-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level alchemist</Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose to have it create a grease slick upon detonation. When a <em>grease bomb</em> detonates, it coats an area equal to the bomb's splash radius in grease (as the <Link to="/spell/grease">grease</Link> spell) for 1 round per level. The DC of the Reflex save to avoid falling after a failed Acrobatics check is equal to 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier. A <em>grease bomb</em> can't affect items or armor.</Pair>
 </Ability>
-<Ability id="discoverygroundinggoo-grounding-goo-fn13" icon={["armor-downgrade"]}>
+<Ability id="discoverygroundinggoo-grounding-goo-fn13" icon={["lower"]}>
 <Pair single id="discoverygroundinggoo-grounding-goo-fn13"><Link to="/discovery/grounding_goo">⮞</Link> Grounding Goo <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-13" id="ability-discoveries-fake-fn-13" data-hash-target to="ability-discoveries-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability">The alchemist's bomb applies a sticky residue after any damage from the bomb is resolved. If a creature damaged by the bomb has a nonmagical fly speed, its flight is severely impaired, and it takes a penalty equal to the alchemist's level on Fly checks for 1 minute.</Pair>
 </Ability>
-<Ability id="discoveryhealingbomb-healing-bomb-fn14" icon={["remedy"]}>
+<Ability id="discoveryhealingbomb-healing-bomb-fn14" icon={["aid"]}>
 <Pair single id="discoveryhealingbomb-healing-bomb-fn14" flavor="When the alchemist creates a bomb, he can choose to have it heal damage instead of dealing it."><Link to="/discovery/healing_bomb">⮞</Link> Healing Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-14" id="ability-discoveries-fake-fn-14" data-hash-target to="ability-discoveries-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">Creating a <em>healing bomb</em> requires the alchemist to expend an infused extract or potion containing a <Link to="/main/cure_spells">cure spell</Link>. A creature that takes a direct hit from a <em>healing bomb</em> is healed as if she had imbibed the infusion or potion used to create the bomb. Creatures in the splash radius are healed for the minimum amount of damage the <em>cure</em> spell is capable of healing. A <em>healing bomb</em> damages undead instead of healing them.</Pair>
 </Ability>
-<Ability id="discoveryholybombs-holy-bombs-fn15" icon={["stairs-goal"]}>
+<Ability id="discoveryholybombs-holy-bombs-fn15" icon={["power"]}>
 <Pair single id="discoveryholybombs-holy-bombs-fn15"><Link to="/discovery/holy_bombs">⮞</Link> Holy Bombs <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-15" id="ability-discoveries-fake-fn-15" data-hash-target to="ability-discoveries-fake-fn-15-target">15</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose to have it deal good divine damage. Evil creatures that take a direct hit from a <em>holy bomb</em> must succeed at a Fortitude save or be <Link to="/misc/staggered">staggered</Link> on their next turn. Against neutral creatures, <em>holy bombs</em> deal half damage, and such targets are not affected by their staggering effect. <em>Holy bombs</em> have no effect on good-aligned creatures.</Pair>
 </Ability>
-<Ability id="discoveryimmolationbomb-immolation-bomb-fn6-3" icon={["stairs-goal"]}>
+<Ability id="discoveryimmolationbomb-immolation-bomb-fn6-3" icon={["power"]}>
 <Pair single id="discoveryimmolationbomb-immolation-bomb-fn6-3"><Link to="/discovery/immolation_bomb">⮞</Link> Immolation Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-6.3" id="ability-discoveries-fake-fn-6.3" data-hash-target to="ability-discoveries-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">3rd-level alchemist</Pair>
 <Pair title="Ability"><p>When the alchemist creates a bomb, he can choose to have its substance coat the direct target's body, causing the bomb to deal its damage over time instead of all at once. The bomb's effect lasts for a number of rounds equal to the number of damage dice the bomb would normally deal (for instance, a 5d6 bomb lasts for 5 rounds).</p>
@@ -177,128 +177,128 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 </Pair>
 <Pair title="Special">A creature taking damage from an <em>immolation bomb's</em> direct hit can attempt to extinguish the flames as a full-round action that requires a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligent modifier). Because of the alchemical nature of this bomb, rolling on the ground does not grant a bonus on the saving throw, and dousing a creature with water does not stop it from burning. These bombs can be used underwater.</Pair>
 </Ability>
-<Ability id="discoveryincendiarycharge-incendiary-charge-fn16" icon={["armor-downgrade"]}>
+<Ability id="discoveryincendiarycharge-incendiary-charge-fn16" icon={["lower"]}>
 <Pair single id="discoveryincendiarycharge-incendiary-charge-fn16" flavor={<>An <em>incendiary charge</em> is a bomb specifically designed to overcome the effects of any nonmagical object's hardness.</>}><Link to="/discovery/incendiary_charge">⮞</Link> Incendiary Charge <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-16" id="ability-discoveries-fake-fn-16" data-hash-target to="ability-discoveries-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level alchemist</Pair>
 <Pair title="Full-Round Action">The alchemist can place an <em>incendiary charge</em> that burns and eats away at an object, dealing normal bomb damage to it. (The damage is not halved against an object with hardness, unlike most energy damage.) Furthermore, the <em>incendiary charge</em> ignores the first 5 points of hardness of the material being damaged.</Pair>
 </Ability>
-<Ability id="discoveryjuryriggedbomb-jury-rigged-bomb-fn17" icon={["stairs-goal","broken-shield"]}>
+<Ability id="discoveryjuryriggedbomb-jury-rigged-bomb-fn17" icon={["power","down"]}>
 <Pair single id="discoveryjuryriggedbomb-jury-rigged-bomb-fn17"><Link to="/discovery/jury_rigged_bomb">⮞</Link> Jury-Rigged Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-17" id="ability-discoveries-fake-fn-17" data-hash-target to="ability-discoveries-fake-fn-17-target">17</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level alchemist</Pair>
 <Pair title="Info">Unlike normal bombs, <em>jury-rigged bombs</em> can be created from whatever materials the alchemist has on hand; this makes them particularly handy in situations where the alchemist might find himself imprisoned or stripped of his equipment.</Pair>
 <Pair title="Swift Action"><em>Jury-rigged bombs</em> can be crafted and thrown as a <strong className="hl">swift action</strong> (this counts against the alchemist's daily use of bombs), and they deal only 1d4 points of damage + additional damage equal to half the alchemist's Intelligence modifier on a direct hit. This damage increases by 1d4 at 3rd level and every 2 levels thereafter.</Pair>
 <Pair title="Special">Despite being useful in a pinch, <em>jury-rigged bombs</em> are nonetheless crudely crafted and highly unstable; if the alchemist's attack roll results in a natural 1, the bomb explodes as he is creating it, and he takes damage as if he had taken a direct hit.</Pair>
 </Ability>
-<Ability id="discoveryneutralizingbomb-neutralizing-bomb-fn18" icon={["shield-reflect"]}>
+<Ability id="discoveryneutralizingbomb-neutralizing-bomb-fn18" icon={["protect"]}>
 <Pair single id="discoveryneutralizingbomb-neutralizing-bomb-fn18"><Link to="/discovery/neutralizing_bomb">⮞</Link> Neutralizing Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-18" id="ability-discoveries-fake-fn-18" data-hash-target to="ability-discoveries-fake-fn-18-target">18</InnerLink></sup></Pair>
 <Pair title="Ability"><p>When the alchemist creates a bomb, he can choose to give it the potential to end certain ongoing effects instead of dealing damage.</p>
 <p>Each creature in the splash radius can attempt a new saving throw against any poison afflicting it and any ongoing conditions or ongoing acid, cold, electricity, fire, or sonic damage. (If an effect did not allow a saving throw, this bomb doesn't allow affected creatures to attempt one.) Success counts as one successful save toward ending poison and immediately ends other conditions. Exposed poison in the splash radius is also rendered harmless.</p>
 </Pair>
 <Pair title="Special">A creature with poison abilities that is directly struck by the bomb finds those abilities useless for 1d4 rounds unless it succeeds at a Fortitude saving throw.</Pair>
 </Ability>
-<Ability id="discoveryoozeblight-ooze-blight-fn12-2" icon={["armor-downgrade"]}>
+<Ability id="discoveryoozeblight-ooze-blight-fn12-2" icon={["lower"]}>
 <Pair single id="discoveryoozeblight-ooze-blight-fn12-2"><Link to="/discovery/ooze_blight">⮞</Link> Ooze Blight <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-12.2" id="ability-discoveries-fake-fn-12.2" data-hash-target to="ability-discoveries-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Ability">A target hit by the alchemist's bomb loses the <Link to="/umr/split">split</Link> special quality for 1d4 rounds. In addition, against creatures with the ooze type, this bomb deals untyped damage that bypasses all resistances.</Pair>
 </Ability>
-<Ability id="discoverypenetratingcharge-penetrating-charge-fn16-2" icon={["stairs-goal"]}>
+<Ability id="discoverypenetratingcharge-penetrating-charge-fn16-2" icon={["power"]}>
 <Pair single id="discoverypenetratingcharge-penetrating-charge-fn16-2"><Link to="/discovery/penetrating_charge">⮞</Link> Penetrating Charge <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-16.2" id="ability-discoveries-fake-fn-16.2" data-hash-target to="ability-discoveries-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Info">A <em>penetrating charge</em> is a bomb specifically designed to disable locks and similar mechanisms, though not other means of sealing a door, a container, or other sorts of devices.</Pair>
 <Pair title="Full-Round Action">The alchemist can place a <em>penetrating charge</em> on a lock. Instead of dealing damage, the <em>penetrating charge</em> seeps into the mechanism and eats away at it, granting a +5 circumstance bonus on any subsequent Disable Device checks against the mechanism.</Pair>
 <Pair title="Special">A creature can spend 10 minutes and attempt an appropriate Craft check (DC 15) to fix the lock and remove this bonus.</Pair>
 </Ability>
-<Ability id="discoverypoisonedexplosive-poisoned-explosive-fn19" icon={["stairs-goal"]}>
+<Ability id="discoverypoisonedexplosive-poisoned-explosive-fn19" icon={["power"]}>
 <Pair single id="discoverypoisonedexplosive-poisoned-explosive-fn19"><Link to="/discovery/poisoned_explosive">⮞</Link> Poisoned Explosive <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-19" id="ability-discoveries-fake-fn-19" data-hash-target to="ability-discoveries-fake-fn-19-target">19</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level alchemist, <Link to="/ability/poison_use">Poison use</Link> class feature</Pair>
 <Pair title="Ability">When an alchemist creates a bomb, he can apply a dose of contact or injury poison to it, as if applying poison to a weapon. If the poisoned bomb hits its target, the bomb deals damage as normal, but the target must also succeed at a saving throw against the poison or be affected by that poison. No other creatures are affected by the poison.</Pair>
 </Ability>
-<Ability id="discoveryprofanebomb-profane-bomb-fn7-2" icon={["stairs-goal"]}>
+<Ability id="discoveryprofanebomb-profane-bomb-fn7-2" icon={["power"]}>
 <Pair single id="discoveryprofanebomb-profane-bomb-fn7-2"><Link to="/discovery/profane_bomb">⮞</Link> Profane Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-7.2" id="ability-discoveries-fake-fn-7.2" data-hash-target to="ability-discoveries-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose to have it deal evil divine damage. Good creatures that take a direct hit from a <em>profane bomb</em> must succeed at a Fortitude save or be <Link to="/misc/staggered">staggered</Link> on their next turn. Against a neutral creature, a <em>profane bomb</em> deals half damage, and the target is not affected by the bomb's staggering effect. A <em>profane bomb</em> has no effect against evil-aligned creatures.</Pair>
 </Ability>
-<Ability id="discoverypsychoactivebomb-psychoactive-bomb-fn20" icon={["armor-downgrade","broken-shield"]}>
+<Ability id="discoverypsychoactivebomb-psychoactive-bomb-fn20" icon={["lower","down"]}>
 <Pair single id="discoverypsychoactivebomb-psychoactive-bomb-fn20"><Link to="/discovery/psychoactive_bomb">⮞</Link> Psychoactive Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-20" id="ability-discoveries-fake-fn-20" data-hash-target to="ability-discoveries-fake-fn-20-target">20</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level alchemist</Pair>
 <Pair title="Ability"><em>Psychoactive bombs</em> are mixed with neurotoxic extracts that heighten certain sensations. A creature struck by a <em>psychoactive bomb</em> takes a -1 penalty on saving throws against charm, emotion, fear, and pain effects, and the DC for Intimidate checks against the victim decreases by 2. This effect lasts for 1 hour per alchemist level.</Pair>
 <Pair title="Special">These penalties do not stack, and a creature can only be affected by a single <em>psychoactive bomb</em> at a time. A <em>psychoactive bomb</em> deals 1d6 fewer hit points of damage than normal.</Pair>
 </Ability>
-<Ability id="discoveryrocketbomb-rocket-bomb-fn9-4" icon={["stairs-goal","bowman"]}>
+<Ability id="discoveryrocketbomb-rocket-bomb-fn9-4" icon={["power","ranged"]}>
 <Pair single id="discoveryrocketbomb-rocket-bomb-fn9-4"><Link to="/discovery/rocket_bomb">⮞</Link> Rocket Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-9.4" id="ability-discoveries-fake-fn-9.4" data-hash-target to="ability-discoveries-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/goblin">Goblin</Link>, 6th-level alchemist</Pair>
 <Pair title="Ability">Alchemists with this discovery can prepare special rockets to deliver their bombs. <em>Rocket bombs</em> travel farther and explode bigger than normal bombs, but cannot target individual creatures. <em>Rocket bombs</em> explode in a 20-foot radius, and all creatures in that area take the alchemist's normal splash damage. The range increment on a <em>rocket bomb</em> is 50 feet.</Pair>
 <Pair title="Special"><em>Rocket bombs</em> cannot be used with the <Link to="/discovery/precise_bombs">precise bombs</Link> or <Link to="/discovery/fast_bombs">fast bombs</Link> discoveries.</Pair>
 </Ability>
-<Ability id="discoverysandbomb-sand-bomb-fn17-2" icon={["armor-downgrade"]}>
+<Ability id="discoverysandbomb-sand-bomb-fn17-2" icon={["lower"]}>
 <Pair single id="discoverysandbomb-sand-bomb-fn17-2"><Link to="/discovery/sand_bomb">⮞</Link> Sand Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-17.2" id="ability-discoveries-fake-fn-17.2" data-hash-target to="ability-discoveries-fake-fn-17-target">17</InnerLink></sup></Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can pack the casing full of sand that explodes in an abrasive cloud on impact. A creature that takes a direct hit from a <em>sand bomb</em> is <Link to="/misc/blinded">blinded</Link> for 1 round, as are any creatures in the splash radius that fail a Reflex save (DC = 10 + half the alchemist's level + his Intelligence modifier).</Pair>
 </Ability>
-<Ability id="discoveryscrapbomb-scrap-bomb-fn9-5" icon={["upgrade"]}>
+<Ability id="discoveryscrapbomb-scrap-bomb-fn9-5" icon={["boost"]}>
 <Pair single id="discoveryscrapbomb-scrap-bomb-fn9-5"><Link to="/discovery/scrap_bomb">⮞</Link> Scrap Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-9.5" id="ability-discoveries-fake-fn-9.5" data-hash-target to="ability-discoveries-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/goblin">Goblin</Link></Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose to have it explode into shards of shrapnel that deal piercing damage. A creature that takes a direct hit from a <em>scrap bomb</em> takes 1 point of <Link to="/rule/bleed">bleed</Link> damage per die of bomb damage unless it succeeds at a Reflex save.</Pair>
 </Ability>
-<Ability id="discoveryshockbomb-shock-bomb-fn1-6" icon={["stairs-goal"]}>
+<Ability id="discoveryshockbomb-shock-bomb-fn1-6" icon={["power"]}>
 <Pair single id="discoveryshockbomb-shock-bomb-fn1-6"><Link to="/discovery/shock_bomb">⮞</Link> Shock Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.6" id="ability-discoveries-fake-fn-1.6" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose to have it inflict electricity damage. Creatures that take a direct hit from a <em>shock bomb</em> are <Link to="/misc/dazzled">dazzled</Link> for 1d4 rounds.</Pair>
 </Ability>
-<Ability id="discoverysmokebomb-smoke-bomb-fn1-7" icon={["stairs-goal"]}>
+<Ability id="discoverysmokebomb-smoke-bomb-fn1-7" icon={["power"]}>
 <Pair single id="discoverysmokebomb-smoke-bomb-fn1-7"><Link to="/discovery/smoke_bomb">⮞</Link> Smoke Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.7" id="ability-discoveries-fake-fn-1.7" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose to have it create a cloud of thick smoke when it detonates. The cloud functions as <Link to="/spell/fog_cloud">fog cloud</Link>, filling an area equal to twice the bomb's splash radius for 1 round per level.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoveryinfernobomb-inferno-bomb-fn1-8" icon={["upgrade"]}>
+<Ability id="discoveryinfernobomb-inferno-bomb-fn1-8" icon={["boost"]}>
 <Pair single id="discoveryinfernobomb-inferno-bomb-fn1-8"><Link to="/discovery/inferno_bomb">⮞</Link> Inferno Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.8" id="ability-discoveries-fake-fn-1.8" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">16th-level alchemist, <Link to="/discovery/smoke_bomb">smoke bomb</Link></Pair>
 <Pair title="Ability">The effects of the smoke created by an alchemist's bomb duplicate the effects of <Link to="/spell/incendiary_cloud">incendiary cloud</Link> instead of <Link to="/spell/fog_cloud">fog cloud</Link>, filling an area equal to twice the bomb's splash radius for 1 round per level.</Pair>
 </Ability>
-<Ability id="discoveryplaguebomb-plague-bomb-fn4-4" icon={["armor-downgrade"]}>
+<Ability id="discoveryplaguebomb-plague-bomb-fn4-4" icon={["lower"]}>
 <Pair single id="discoveryplaguebomb-plague-bomb-fn4-4"><Link to="/discovery/plague_bomb">⮞</Link> Plague Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.4" id="ability-discoveries-fake-fn-4.4" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist, <Link to="/discovery/smoke_bomb">smoke bomb</Link></Pair>
 <Pair title="Ability">The effects of the smoke created by an alchemist's bomb duplicates the effects of <Link to="/spell/contagion">contagion</Link> instead of <Link to="/spell/fog_cloud">fog cloud</Link>, filling an area equal to twice the bomb's splash area for 1 round per level.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoverygreaterplaguebomb-greater-plague-bomb-fn9-6" icon={["armor-downgrade"]}>
+<Ability id="discoverygreaterplaguebomb-greater-plague-bomb-fn9-6" icon={["lower"]}>
 <Pair single id="discoverygreaterplaguebomb-greater-plague-bomb-fn9-6"><Link to="/discovery/greater_plague_bomb">⮞</Link> Greater Plague Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-9.6" id="ability-discoveries-fake-fn-9.6" data-hash-target to="ability-discoveries-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">16th-level alchemist, <Link to="/discovery/smoke_bomb">smoke bomb</Link>, <Link to="/discovery/plague_bomb">plague bomb</Link></Pair>
 <Pair title="Ability">The effects of the smoke created by an alchemist's bomb duplicates the effects of <Link to="/spell/greater_contagion">greater contagion</Link> instead of <Link to="/spell/fog_cloud">fog cloud</Link>, filling an area equal to twice the bomb's splash radius for 1 round per level.</Pair>
 </Ability>
-<Ability id="discoveryplaguevector-plague-vector-fn7-3" icon={["armor-downgrade"]}>
+<Ability id="discoveryplaguevector-plague-vector-fn7-3" icon={["lower"]}>
 <Pair single id="discoveryplaguevector-plague-vector-fn7-3"><Link to="/discovery/plague_vector">⮞</Link> Plague Vector <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-7.3" id="ability-discoveries-fake-fn-7.3" data-hash-target to="ability-discoveries-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">14th-level alchemist, <Link to="/discovery/smoke_bomb">smoke bomb</Link>, <Link to="/discovery/plague_bomb">plague bomb</Link></Pair>
 <Pair title="Ability">The effects of the alchemist's <em>plague bomb</em> operate as normal except for the following changes. The chosen disease's save DC is equal to 10 + 1/2 the alchemist's level + his Intelligence modifier. Any creatures affected by the chosen disease become vectors for it, spreading the disease to any creatures they come in physical contact with for a number of days equal to the alchemist's Intelligence modifier (minimum 1). The save DC to avoid contracting the disease from the vector is the same as the DC used for this discovery.</Pair>
 </Ability>
 </div>
-<Ability id="discoverypoisonbomb-poison-bomb-fn1-9" icon={["armor-downgrade"]}>
+<Ability id="discoverypoisonbomb-poison-bomb-fn1-9" icon={["lower"]}>
 <Pair single id="discoverypoisonbomb-poison-bomb-fn1-9"><Link to="/discovery/poison_bomb">⮞</Link> Poison Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.9" id="ability-discoveries-fake-fn-1.9" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level alchemist, <Link to="/discovery/smoke_bomb">smoke bomb</Link></Pair>
 <Pair title="Ability">The effects of the smoke created by an alchemist's bomb duplicates the effects of <Link to="/spell/cloudkill">cloudkill</Link> instead of <Link to="/spell/fog_cloud">fog cloud</Link>, filling an area equal to twice the bomb's splash radius for 1 round per level.</Pair>
 </Ability>
-<Ability id="discoverystinkbomb-stink-bomb-fn1-10" icon={["armor-downgrade"]}>
+<Ability id="discoverystinkbomb-stink-bomb-fn1-10" icon={["lower"]}>
 <Pair single id="discoverystinkbomb-stink-bomb-fn1-10"><Link to="/discovery/stink_bomb">⮞</Link> Stink Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.10" id="ability-discoveries-fake-fn-1.10" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/discovery/smoke_bomb">Smoke bomb</Link></Pair>
 <Pair title="Ability">The effects of the smoke created by an alchemist's bomb can duplicate the effects of <Link to="/spell/stinking_cloud">stinking cloud</Link> instead of <Link to="/spell/fog_cloud">fog cloud</Link>, filling an area equal to twice the bomb's splash radius for 1 round.</Pair>
 </Ability>
 </div>
-<Ability id="discoverysolidground-solid-ground-fn13-2" icon={["stairs-goal"]}>
+<Ability id="discoverysolidground-solid-ground-fn13-2" icon={["power"]}>
 <Pair single id="discoverysolidground-solid-ground-fn13-2"><Link to="/discovery/solid_ground">⮞</Link> Solid Ground <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-13.2" id="ability-discoveries-fake-fn-13.2" data-hash-target to="ability-discoveries-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability">The alchemist launches an explosive paste bomb that bonds with any earthen surface. Each application of this paste deals no damage and affects a 5-foot-cube of dirt, loose soil, or stone, transmuting the earth for a number of minutes equal to the alchemist's level. Creatures cannot use burrow, <Link to="/kinetic/earthmeld">earthmeld</Link>, or similar abilities (such as the <Link to="/spell/meld_into_stone">meld into stone</Link> spell) while the ground remains transmuted in this way.</Pair>
 </Ability>
-<Ability id="discoverysubstantiatingbomb-substantiating-bomb-fn3-4" icon={["stairs-goal","armor-downgrade"]}>
+<Ability id="discoverysubstantiatingbomb-substantiating-bomb-fn3-4" icon={["power","lower"]}>
 <Pair single id="discoverysubstantiatingbomb-substantiating-bomb-fn3-4" flavor="Your bombs are infused with ectoplasm and a longing for life, lending ethereal creatures a measure of substance."><Link to="/discovery/substantiating_bomb">⮞</Link> Substantiating Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-3.4" id="ability-discoveries-fake-fn-3.4" data-hash-target to="ability-discoveries-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level alchemist</Pair>
 <Pair title="Ability"><p>You can throw a bomb that inflicts no damage but instead creates a 10-foot-radius cloud of fog that functions as <Link to="/spell/fog_cloud">fog cloud</Link> and lasts for 1 round per alchemist level. Incorporeal creatures that pass through this cloud become partially solid, taking half damage from nonmagic attacks and full damage from magic weapons, spells, and spell-like abilities. This effect lasts for the duration of the smoke cloud, even if the incorporeal creature moves outside the cloud's area.</p>
 <p>A creature affected by the cloud can attempt a Will saving throw to negate the substantiating effects of this bomb.</p>
 </Pair>
 </Ability>
-<Ability id="discoverytanglefootbomb-tanglefoot-bomb-fn4-5" icon={["stairs-goal","armor-downgrade"]}>
+<Ability id="discoverytanglefootbomb-tanglefoot-bomb-fn4-5" icon={["power","lower"]}>
 <Pair single id="discoverytanglefootbomb-tanglefoot-bomb-fn4-5"><Link to="/discovery/tanglefoot_bomb">⮞</Link> Tanglefoot Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.5" id="ability-discoveries-fake-fn-4.5" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">A creature that takes a direct hit from a <em>tanglefoot bomb</em> must save against the bomb's DC or be <Link to="/rule/entangled">entangled</Link> and glued to the floor as if it had failed its save against a <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bag</Link>. Creatures in the splash area that fail their saves are entangled but not glued to the floor; those who make this save are not entangled at all.</Pair>
 </Ability>
-<Ability id="discoverythornybomb-thorny-bomb-fn13-3" icon={["stairs-goal"]}>
+<Ability id="discoverythornybomb-thorny-bomb-fn13-3" icon={["power"]}>
 <Pair single id="discoverythornybomb-thorny-bomb-fn13-3"><Link to="/discovery/thorny_bomb">⮞</Link> Thorny Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-13.3" id="ability-discoveries-fake-fn-13.3" data-hash-target to="ability-discoveries-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose to have it deal piercing damage. <em>Thorny bombs</em> count as magic weapons for the purpose of overcoming damage reduction.</Pair>
 </Ability>
-<Ability id="discoveryvoidbomb-void-bomb-fn21" icon={["stairs-goal","armor-downgrade"]}>
+<Ability id="discoveryvoidbomb-void-bomb-fn21" icon={["power","lower"]}>
 <Pair single id="discoveryvoidbomb-void-bomb-fn21" flavor="By combining the spores from strange fungi with slivers from extradimensional voids, some drow alchemists create bombs that cause bursts of gravity capable of crushing those inside."><Link to="/discovery/void_bomb">⮞</Link> Void Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-21" id="ability-discoveries-fake-fn-21" data-hash-target to="ability-discoveries-fake-fn-21-target">21</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/drow">Drow</Link>, 6th-level alchemist</Pair>
 <Pair title="Ability"><p><em>Void bombs</em> deals 1d4 points of bludgeoning damage, plus 1d4 points of bludgeoning damage for every 2 alchemist levels beyond 1st, instead of 1d6.</p>
@@ -307,14 +307,14 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 </Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoveryblackstarbomb-blackstar-bomb-su-fn21-2" icon={["upgrade"]}>
+<Ability id="discoveryblackstarbomb-blackstar-bomb-su-fn21-2" icon={["boost"]}>
 <Pair single id="discoveryblackstarbomb-blackstar-bomb-su-fn21-2"><Link to="/discovery/blackstar_bomb">⮞</Link> Blackstar Bomb (Su) <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-21.2" id="ability-discoveries-fake-fn-21.2" data-hash-target to="ability-discoveries-fake-fn-21-target">21</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/discovery/void_bomb">Void bomb</Link></Pair>
 <Pair title="Ability">This bomb crushes the target like a <em>void bomb,</em> then repels nearby creatures with a burst of gravity. The target takes damage as if hit by a <em>void bomb.</em> All other creatures within 5 feet of the target are subject to a <Link to="/rule/bull_rush">bull rush</Link>. The alchemist uses his alchemist class level in place of his Combat Maneuver Bonus, and adds his Intelligence modifier in place of his Strength or Dexterity modifier to resolve the bull rush attempts. Creatures moved by a blackstar bomb are pushed directly away from the target's square.</Pair>
 </Ability>
 </div>
 <h3 id="ability-discoveries-other-bomb-discoveries" data-hash-target>Other Bomb Discoveries</h3>
-<Ability id="discoverydelayedbomb-delayed-bomb-fn1-11" icon={["upgrade"]}>
+<Ability id="discoverydelayedbomb-delayed-bomb-fn1-11" icon={["boost"]}>
 <Pair single id="discoverydelayedbomb-delayed-bomb-fn1-11"><Link to="/discovery/delayed_bomb">⮞</Link> Delayed Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.11" id="ability-discoveries-fake-fn-1.11" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Ability"><p>The alchemist can place a bomb so that it explodes a number of rounds after the alchemist ceases contact with the bomb. This delay can be any number of rounds as chosen by the alchemist, up to a number of rounds equal to his level. If at any point the alchemist reclaims possession of the <em>delayed bomb,</em> he can end the timer and prevent the bomb's detonation. A <em>delayed bomb</em> detonates immediately if any other creature attempts to touch or move it, or if the bomb's contents are removed from the vial (such as if the vial breaks).</p>
@@ -322,41 +322,41 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 </Pair>
 <Pair title="Special">An alchemist cannot have more than one <em>delayed bomb</em> at one time. If he creates another <em>delayed bomb,</em> the previous bomb becomes inert. <Link to="/spell/dispel_magic">Dispel magic</Link> can neutralize a <em>delayed bomb,</em> as can a successful <Link to="/skill/disable_device">Disable Device</Link> check (DC equals 10 + the alchemist's level + the alchemist's Intelligence modifier).</Pair>
 </Ability>
-<Ability id="discoverydirectedbomb-directed-bomb-fn14-2" icon={["tornado-discs"]}>
+<Ability id="discoverydirectedbomb-directed-bomb-fn14-2" icon={["cone"]}>
 <Pair single id="discoverydirectedbomb-directed-bomb-fn14-2"><Link to="/discovery/directed_bomb">⮞</Link> Directed Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-14.2" id="ability-discoveries-fake-fn-14.2" data-hash-target to="ability-discoveries-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">The alchemist can cause his bombs to splash in a 15-foot cone instead of a 5-foot-radius <Link to="/misc/burst">burst</Link>. The alchemist chooses the direction of the cone. If the attack misses, roll an additional 1d8 to determine the direction of the blast from where the bomb lands.</Pair>
 <Pair title="Special">This discovery can't be combined with the <Link to="/discovery/explosive_bomb">explosive bomb</Link> discovery.</Pair>
 </Ability>
-<Ability id="discoverydivineinks-divine-inks-fn22" icon={["magic-swirl"]}>
+<Ability id="discoverydivineinks-divine-inks-fn22" icon={["magic"]}>
 <Pair single id="discoverydivineinks-divine-inks-fn22"><Link to="/discovery/divine_inks">⮞</Link> Divine Inks <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-22" id="ability-discoveries-fake-fn-22" data-hash-target to="ability-discoveries-fake-fn-22-target">22</InnerLink></sup></Pair>
 <Pair title="Ability">The alchemist can develop special pigments and combine them with his alchemical reagents to create unique dyes that cling to the empty space around him, allowing him to paint images in the air to fool his enemies. By expending two daily uses of his bombs, he can use the dyes to create an image in a space adjacent to him, as <Link to="/spell/silent_image">silent image</Link>, using his alchemist level as the spell's caster level. The image he creates remains for a number of minutes equal to his alchemist level. He can dismiss this image as a <strong className="hl">standard action</strong>.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoveryimproveddivineinks-improved-divine-inks-fn22-2" icon={["magic-swirl"]}>
+<Ability id="discoveryimproveddivineinks-improved-divine-inks-fn22-2" icon={["magic"]}>
 <Pair single id="discoveryimproveddivineinks-improved-divine-inks-fn22-2"><Link to="/discovery/improved_divine_inks">⮞</Link> Improved Divine Inks <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-22.2" id="ability-discoveries-fake-fn-22.2" data-hash-target to="ability-discoveries-fake-fn-22-target">22</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level alchemist, <Link to="/discovery/divine_inks">divine inks</Link></Pair>
 <Pair title="Ability">The alchemist's unique dyes allow him to create images accompanied by sound. If he expends an additional daily use of his bombs, the image he creates with the divine inks discovery also produces minor sounds, as <Link to="/spell/minor_image">minor image</Link>.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoverygreaterdivineinks-greater-divine-inks-fn22-3" icon={["magic-swirl"]}>
+<Ability id="discoverygreaterdivineinks-greater-divine-inks-fn22-3" icon={["magic"]}>
 <Pair single id="discoverygreaterdivineinks-greater-divine-inks-fn22-3"><Link to="/discovery/greater_divine_inks">⮞</Link> Greater Divine Inks <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-22.3" id="ability-discoveries-fake-fn-22.3" data-hash-target to="ability-discoveries-fake-fn-22-target">22</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level alchemist, <Link to="/discovery/divine_inks">divine inks</Link>, <Link to="/discovery/improved_divine_inks">improved divine inks</Link></Pair>
 <Pair title="Ability">The alchemist's unique dyes allow him to create lifelike images. If he expends an additional daily use of his bombs, the image he creates with the divine inks discovery also produces sound, smell, and heat, as <Link to="/spell/major_image">major image</Link>.</Pair>
 </Ability>
 </div>
-<Ability id="discoveryconstructivedyes-constructive-dyes-fn22-4" icon={["magic-swirl"]}>
+<Ability id="discoveryconstructivedyes-constructive-dyes-fn22-4" icon={["magic"]}>
 <Pair single id="discoveryconstructivedyes-constructive-dyes-fn22-4"><Link to="/discovery/constructive_dyes">⮞</Link> Constructive Dyes <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-22.4" id="ability-discoveries-fake-fn-22.4" data-hash-target to="ability-discoveries-fake-fn-22-target">22</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist, <Link to="/discovery/divine_inks">divine inks</Link></Pair>
 <Pair title="Ability">The alchemist's dyes congeal and solidify, allowing him to make physical objects from them. The alchemist can expend two uses of his daily bombs to create a nonmagical object, as <Link to="/spell/minor_creation">minor creation</Link>, using his alchemist level as the spell's caster level.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoverygreaterconstructivedyes-greater-constructive-dyes-fn22-5" icon={["magic-swirl"]}>
+<Ability id="discoverygreaterconstructivedyes-greater-constructive-dyes-fn22-5" icon={["magic"]}>
 <Pair single id="discoverygreaterconstructivedyes-greater-constructive-dyes-fn22-5"><Link to="/discovery/greater_constructive_dyes">⮞</Link> Greater Constructive Dyes <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-22.5" id="ability-discoveries-fake-fn-22.5" data-hash-target to="ability-discoveries-fake-fn-22-target">22</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level alchemist, <Link to="/discovery/divine_inks">divine inks</Link>, <Link to="/discovery/constructive_dyes">constructive dyes</Link></Pair>
 <Pair title="Ability">The alchemist expands the set of objects he can create with his constructive dyes. The alchemist can expend one additional use of his daily bombs when using his constructive dyes discovery to create objects, as <Link to="/spell/major_creation">major creation</Link>.</Pair>
 </Ability>
 </div>
-<Ability id="discoverylivingpigment-living-pigment-fn22-6" icon={["magic-swirl"]}>
+<Ability id="discoverylivingpigment-living-pigment-fn22-6" icon={["magic"]}>
 <Pair single id="discoverylivingpigment-living-pigment-fn22-6" flavor="The alchemist infuses his inks and dyes with a spark of animating force."><Link to="/discovery/living_pigment">⮞</Link> Living Pigment <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-22.6" id="ability-discoveries-fake-fn-22.6" data-hash-target to="ability-discoveries-fake-fn-22-target">22</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/discovery/divine_inks">Divine inks</Link></Pair>
 <Pair title="Standard Action">He can expend one daily use of his bombs and a 1st-level extract he has prepared to create a creature, as <Link to="/spell/summon_monster_i">summon monster I</Link>, using his level as the spell's caster level. The extract is expended as if the alchemist had consumed it.</Pair>
@@ -365,64 +365,64 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 </Pair>
 </Ability>
 </div>
-<Ability id="discoverydispellingbomb-dispelling-bomb-fn1-12" icon={["magic-swirl"]}>
+<Ability id="discoverydispellingbomb-dispelling-bomb-fn1-12" icon={["magic"]}>
 <Pair single id="discoverydispellingbomb-dispelling-bomb-fn1-12"><Link to="/discovery/dispelling_bomb">⮞</Link> Dispelling Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.12" id="ability-discoveries-fake-fn-1.12" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level alchemist</Pair>
 <Pair title="Ability">When the alchemist creates a bomb, he can choose to have it dispel magic effects instead of deal damage. Creatures that take a direct hit from a <em>dispelling bomb</em> are subject to a targeted <Link to="/spell/dispel_magic">dispel magic</Link> spell, using the alchemist's level as the caster level. This cannot be used to target a specific spell effect.</Pair>
 </Ability>
-<Ability id="discoveryexplosivecalligraphy-explosive-calligraphy-fn22-7" icon={["magic-swirl"]}>
+<Ability id="discoveryexplosivecalligraphy-explosive-calligraphy-fn22-7" icon={["magic"]}>
 <Pair single id="discoveryexplosivecalligraphy-explosive-calligraphy-fn22-7"><Link to="/discovery/explosive_calligraphy">⮞</Link> Explosive Calligraphy <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-22.7" id="ability-discoveries-fake-fn-22.7" data-hash-target to="ability-discoveries-fake-fn-22-target">22</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level alchemist</Pair>
 <Pair title="Ability">The alchemist can create especially volatile pigments that detonate when agitated. This requires expending one daily use of his bombs, but otherwise functions as <Link to="/spell/explosive_runes">explosive runes</Link> except that it deals damage as one of the alchemist's bombs.</Pair>
 <Pair title="Special">The alchemist can expend an additional daily use of his bombs to apply one discovery that applies to his bombs, such as <Link to="/discovery/acid_bomb">acid bomb</Link> or <Link to="/discovery/dispelling_bomb">dispelling bomb</Link>, to the runes created with this discovery.</Pair>
 </Ability>
-<Ability id="discoveryexplosivemissile-explosive-missile-fn6-4" icon={["bowman"]}>
+<Ability id="discoveryexplosivemissile-explosive-missile-fn6-4" icon={["ranged"]}>
 <Pair single id="discoveryexplosivemissile-explosive-missile-fn6-4"><Link to="/discovery/explosive_missile">⮞</Link> Explosive Missile <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-6.4" id="ability-discoveries-fake-fn-6.4" data-hash-target to="ability-discoveries-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level alchemist</Pair>
 <Pair title="Standard Action"><p>The alchemist can infuse a single arrow, crossbow bolt, or one-handed firearm bullet with the power of his bomb, load the ammunition, and shoot the ranged weapon. He must be proficient with the weapon in order to accomplish this.</p>
 <p>When the infused ammunition hits its target, it deals damage normally and detonates as if the alchemist had thrown the bomb at the target. If the <em>explosive missile</em> misses, it does not detonate.</p>
 </Pair>
 </Ability>
-<Ability id="discoveryfastbombs-fast-bombs-fn1-13" icon={["bowman"]}>
+<Ability id="discoveryfastbombs-fast-bombs-fn1-13" icon={["ranged"]}>
 <Pair single id="discoveryfastbombs-fast-bombs-fn1-13" flavor="An alchemist with this discovery can quickly create enough bombs to throw more than one in a single round."><Link to="/discovery/fast_bombs">⮞</Link> Fast Bombs <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.13" id="ability-discoveries-fake-fn-1.13" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Full-Round Action">The alchemist can prepare and throw additional bombs if his base attack bonus is high enough to grant him additional attacks. This functions just like a full-attack with a ranged weapon.</Pair>
 </Ability>
-<Ability id="discoveryfirebrand-fire-brand-fn9-7" icon={["mailed-fist"]}>
+<Ability id="discoveryfirebrand-fire-brand-fn9-7" icon={["melee"]}>
 <Pair single id="discoveryfirebrand-fire-brand-fn9-7"><Link to="/discovery/fire_brand">⮞</Link> Fire Brand <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-9.7" id="ability-discoveries-fake-fn-9.7" data-hash-target to="ability-discoveries-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/goblin">Goblin</Link></Pair>
 <Pair title="Swift Action">An alchemist with this discovery can expend one daily bomb use to apply the bomb reagents to his weapon. A weapon treated this way deals fire damage as if it had the <Link to="/magic-enh/flaming">flaming</Link> weapon special ability. The bomb reagents continue burning for 1 minute or until extinguished by dousing the weapon in water.</Pair>
 <Pair title="At 10th Level">The weapon is treated as if it had the <Link to="/magic-enh/flaming_burst">flaming burst</Link> weapon special ability.</Pair>
 <Pair title="Special">An alchemist can use this ability with natural weapons, but he takes 1d6 points of fire damage per round for each natural weapon treated.</Pair>
 </Ability>
-<Ability id="discoverymadnessbomb-madness-bomb-fn1-14" icon={["upgrade","broken-shield"]}>
+<Ability id="discoverymadnessbomb-madness-bomb-fn1-14" icon={["boost","down"]}>
 <Pair single id="discoverymadnessbomb-madness-bomb-fn1-14" flavor="The alchemist's bombs do more than sear flesh - they sear the mind."><Link to="/discovery/madness_bomb">⮞</Link> Madness Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.14" id="ability-discoveries-fake-fn-1.14" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level alchemist</Pair>
 <Pair title="Ability">A creature that takes a direct hit from a <em>madness bomb</em> takes damage from the bomb plus 1d4 points of <Link to="/rule/wisdom_damage">Wisdom damage</Link>.</Pair>
 <Pair title="Special">Reduce the amount of normal damage dealt by the bomb by 2d6 (so a bomb that would normally deal 6d6+4 points of damage deals 4d6+4 points of damage instead). The amount of Wisdom damage dealt by a <em>madness bomb</em> is reduced by 1 for each <em>madness bomb</em> that hit the target in the past 24 hours, to a minimum of 1 point of Wisdom damage.</Pair>
 </Ability>
-<Ability id="discoveryinspiredbomb-inspired-bomb-fn23" icon={["upgrade"]}>
+<Ability id="discoveryinspiredbomb-inspired-bomb-fn23" icon={["boost"]}>
 <Pair single id="discoveryinspiredbomb-inspired-bomb-fn23"><Link to="/discovery/inspired_bomb">⮞</Link> Inspired Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-23" id="ability-discoveries-fake-fn-23" data-hash-target to="ability-discoveries-fake-fn-23-target">23</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><em>Inspiration</em> pool</Pair>
 <Pair title="Ability">An alchemist with this discovery can expend two uses of <em>inspiration</em> to increase the bomb's damage by 1d6. The type of damage the bomb deals does not change. This cannot be applied to the same bomb more than once.</Pair>
 </Ability>
-<Ability id="discoveryprecisebombs-precise-bombs-fn1-15" icon={["stairs-goal"]}>
+<Ability id="discoveryprecisebombs-precise-bombs-fn1-15" icon={["power"]}>
 <Pair single id="discoveryprecisebombs-precise-bombs-fn1-15"><Link to="/discovery/precise_bombs">⮞</Link> Precise Bombs <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.15" id="ability-discoveries-fake-fn-1.15" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">Whenever the alchemist throws a bomb, he can select a number of squares equal to his Intelligence modifier that are not affected by the splash damage from his bombs. If the bomb misses, this discovery has no effect.</Pair>
 </Ability>
-<Ability id="discoverystickybomb-sticky-bomb-fn1-16" icon={["upgrade"]}>
+<Ability id="discoverystickybomb-sticky-bomb-fn1-16" icon={["boost"]}>
 <Pair single id="discoverystickybomb-sticky-bomb-fn1-16"><Link to="/discovery/sticky_bomb">⮞</Link> Sticky Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.16" id="ability-discoveries-fake-fn-1.16" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level alchemist</Pair>
 <Pair title="Ability">The effects of the alchemist's bombs are persistent and continue to damage creatures for 1 round after the initial damage. Creatures that take a direct hit from a <em>sticky bomb</em> take the splash damage 1 round later. Bombs that have effects that would normally occur 1 round later instead have those effects occur 2 rounds later.</Pair>
 </Ability>
-<Ability id="discoverystrafebomb-strafe-bomb-fn4-6" icon={["barbed-arrow"]}>
+<Ability id="discoverystrafebomb-strafe-bomb-fn4-6" icon={["line"]}>
 <Pair single id="discoverystrafebomb-strafe-bomb-fn4-6"><Link to="/discovery/strafe_bomb">⮞</Link> Strafe Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.6" id="ability-discoveries-fake-fn-4.6" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The alchemist can throw bombs that splash in a 40-foot line rather than affecting a radius. The line starts at the alchemist and extends away from him in the direction he chooses.</p>
 <p>The alchemist designates one creature in the squares affected by the line to be the target of the bomb and makes his attack roll against that creature; all other squares in the line take splash damage.</p>
 </Pair>
 <Pair title="Special">If the alchemist has the <Link to="/discovery/explosive_bomb">explosive bomb</Link> discovery and throws an <em>explosive strafe bomb,</em> the line of splash damage is 80 feet long instead of 40 feet.</Pair>
 </Ability>
-<Ability id="discoverysyringestirge-syringe-stirge-fn24" icon={["stairs-goal"]}>
+<Ability id="discoverysyringestirge-syringe-stirge-fn24" icon={["power"]}>
 <Pair single id="discoverysyringestirge-syringe-stirge-fn24"><Link to="/discovery/syringe_stirge">⮞</Link> Syringe Stirge <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-24" id="ability-discoveries-fake-fn-24" data-hash-target to="ability-discoveries-fake-fn-24-target">24</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level alchemist</Pair>
 <Pair title="Full-Round Action">You can expend two daily uses of bombs to create a <em>syringe stirge,</em> a tiny construct primed with a bomb (if you have multiple types of bombs, you must select which type the <em>syringe stirge</em> carries when created). Undirected, they take no actions except to flock around you in your square and follow you as best they can. They can be attacked normally, but gain <Link to="/rule/cover">cover</Link> while occupying your square.</Pair>
@@ -430,12 +430,12 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 <Pair title="Info">A <em>syringe stirge</em> has all of the statistics of a <Link to="/monster/stirge">stirge</Link> but lacks the blood drain ability. If it ends its turn attached to an opponent, it injects your bomb into the opponent's bloodstream, dealing damage as a direct hit plus the alchemist's Intelligence modifier (as the <Link to="/feat/throw_anything">Throw Anything</Link> feat - this injection is a direct attack and doesn't deal splash damage).</Pair>
 <Pair title="Special">A <em>syringe stirge</em> dies immediately after injecting its bomb. A <em>syringe stirge</em> lasts for 1 minute per alchemist level or until destroyed; if it has not attached to an enemy before the end of its life span it and its bomb payload fall inert.</Pair>
 </Ability>
-<Ability id="discoveryunderwaterdemolition-underwater-demolition-fn9-8" icon={["stairs-goal"]}>
+<Ability id="discoveryunderwaterdemolition-underwater-demolition-fn9-8" icon={["power"]}>
 <Pair single id="discoveryunderwaterdemolition-underwater-demolition-fn9-8"><Link to="/discovery/underwater_demolition">⮞</Link> Underwater Demolition <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-9.8" id="ability-discoveries-fake-fn-9.8" data-hash-target to="ability-discoveries-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Ability">The alchemist gains the ability to throw bombs underwater (normally, thrown weapons cannot be used underwater), including throwing from the air into the water. If the bomb travels through water, the range increment is reduced to 5 feet.</Pair>
 </Ability>
 <h3 id="ability-discoveries-extract-discoveries" data-hash-target>Extract Discoveries</h3>
-<Ability id="discoverybottledooze-bottled-ooze-fn4-7" icon={["stairs-goal"]}>
+<Ability id="discoverybottledooze-bottled-ooze-fn4-7" icon={["power"]}>
 <Pair single id="discoverybottledooze-bottled-ooze-fn4-7"><Link to="/discovery/bottled_ooze">⮞</Link> Bottled Ooze <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.7" id="ability-discoveries-fake-fn-4.7" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level alchemist</Pair>
 <Pair title="Ability">The alchemist has learned how to preserve a sample of oozes in a sealed bottle, which he can prepare for use as an extract. When the alchemist activates the extract, he actually throws the bottle at a square within 30 feet, releasing the ooze, which reconstitutes and attacks the closest creature. The ooze is not under the alchemist's control, but is otherwise treated as a summoned creature. The ooze remains for 1 round per caster level, and decays into powder when the duration expires.</Pair>
@@ -443,74 +443,74 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 <p>Creating a <em>bottled ooze</em> requires an extract with a level equal to the ooze's CR (so a CR 4 <Link to="/monster/gray_ooze">gray ooze</Link> requires a 4th-level extract).</p>
 </Pair>
 </Ability>
-<Ability id="discoverycombineextracts-combine-extracts-fn1-17" icon={["magic-swirl"]}>
+<Ability id="discoverycombineextracts-combine-extracts-fn1-17" icon={["magic"]}>
 <Pair single id="discoverycombineextracts-combine-extracts-fn1-17"><Link to="/discovery/combine_extracts">⮞</Link> Combine Extracts <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.17" id="ability-discoveries-fake-fn-1.17" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Ability">When the alchemist creates an extract, he can place two formulae into one extract. When the extract is consumed, both formulae take effect. This extract has a level two levels higher than the highest-level formulae placed in the extract.</Pair>
 </Ability>
-<Ability id="discoveryinfusion-infusion-fn1-18" icon={["stairs-goal"]}>
+<Ability id="discoveryinfusion-infusion-fn1-18" icon={["power"]}>
 <Pair single id="discoveryinfusion-infusion-fn1-18"><Link to="/discovery/infusion">⮞</Link> Infusion <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.18" id="ability-discoveries-fake-fn-1.18" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">When the alchemist creates an extract, he can infuse it with an extra bit of his own magical power. The extract created now persists even after the alchemist sets it down. As long as the extract exists, it continues to occupy one of the alchemist's daily extract slots. An infused extract can be imbibed by a non-alchemist to gain its effects.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoveryaromaticextract-aromatic-extract-fn25" icon={["magic-swirl"]}>
+<Ability id="discoveryaromaticextract-aromatic-extract-fn25" icon={["magic"]}>
 <Pair single id="discoveryaromaticextract-aromatic-extract-fn25"><Link to="/discovery/aromatic_extract">⮞</Link> Aromatic Extract <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-25" id="ability-discoveries-fake-fn-25" data-hash-target to="ability-discoveries-fake-fn-25-target">25</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level alchemist, <Link to="/discovery/infusion">infusion</Link></Pair>
 <Pair title="Ability">The alchemist creates an inhaled version of an extract that is shared among multiple creatures. He must decide that an extract is an <em>aromatic extract</em> when he makes it. When used, the extract grants its benefit to all creatures within a 10-foot <Link to="/misc/spread">spread</Link> of the extract. The <em>aromatic extract</em> is treated as having the minimum caster level required for the original extract.</Pair>
 <Pair title="Special">An <em>aromatic extract</em> expends one of the alchemist's daily extracts as if it were an extract 2 levels higher. This discovery can be applied only to extracts with a range of touch.</Pair>
 </Ability>
-<Ability id="discoverychangealignment-change-alignment-fn15-2" icon={["magic-swirl"]}>
+<Ability id="discoverychangealignment-change-alignment-fn15-2" icon={["magic"]}>
 <Pair single id="discoverychangealignment-change-alignment-fn15-2"><Link to="/discovery/change_alignment">⮞</Link> Change Alignment <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-15.2" id="ability-discoveries-fake-fn-15.2" data-hash-target to="ability-discoveries-fake-fn-15-target">15</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level alchemist, <Link to="/discovery/infusion">infusion</Link></Pair>
 <Pair title="Ability">Once per day as part of his preparation of infusions, the alchemist can brew an infusion that shifts the imbiber's alignment to good. This change in alignment lasts for 10 minutes per alchemist level. An unwilling creature receives a Will save to resist this change.</Pair>
 <Pair title="Special">The alchemist may have only one such infusion at any one time. The effects of this infusion may have serious repercussions for a creature suddenly struggling with a new outlook. Many see it as little more than forced insanity, and some good faiths outlaw its use.</Pair>
 </Ability>
-<Ability id="discoveryglimmeringinfusion-glimmering-infusion-fn26" icon={["magic-swirl"]}>
+<Ability id="discoveryglimmeringinfusion-glimmering-infusion-fn26" icon={["magic"]}>
 <Pair single id="discoveryglimmeringinfusion-glimmering-infusion-fn26"><Link to="/discovery/glimmering_infusion">⮞</Link> Glimmering Infusion <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-26" id="ability-discoveries-fake-fn-26" data-hash-target to="ability-discoveries-fake-fn-26-target">26</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/discovery/infusion">Infusion</Link></Pair>
 <Pair title="Ability">The alchemist can expend any prepared extract to produce a cube of glowing motes that act as per <Link to="/spell/glitterdust">glitterdust</Link>. The area must be adjacent to the alchemist and covers one 5-foot square per level of extract sacrificed, and the effect's save DC is calculated using the level of the sacrificed extract.</Pair>
 </Ability>
-<Ability id="discoverynostrum-nostrum-fn25-2" icon={["stairs-goal"]}>
+<Ability id="discoverynostrum-nostrum-fn25-2" icon={["power"]}>
 <Pair single id="discoverynostrum-nostrum-fn25-2"><Link to="/discovery/nostrum">⮞</Link> Nostrum <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-25.2" id="ability-discoveries-fake-fn-25.2" data-hash-target to="ability-discoveries-fake-fn-25-target">25</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/discovery/infusion">Infusion</Link></Pair>
 <Pair title="Ability">When the alchemist creates an infusion, he can mask a delayed poison within the mixture. A <em>nostrum</em> can contain only an ingested poison, and the save DC of the poison is reduced by 2. The poison takes effect a number of hours after being imbibed equal to the alchemist's Intelligence bonus (minimum 0) decided by the alchemist at the creation of the <em>nostrum.</em> The poison within a <em>nostrum</em> can be detected as normal by spells such as <Link to="/spell/detect_poison">detect poison</Link> and similar abilities.</Pair>
 <Pair title="Special">Until the <em>nostrum</em> is consumed or destroyed, it continues to occupy one of the alchemist's daily extract slots.</Pair>
 </Ability>
-<Ability id="discoverytaintedinfusion-tainted-infusion-fn7-4" icon={["stairs-goal","upgrade"]}>
+<Ability id="discoverytaintedinfusion-tainted-infusion-fn7-4" icon={["power","boost"]}>
 <Pair single id="discoverytaintedinfusion-tainted-infusion-fn7-4" flavor="The alchemist can mask murder behind beneficence."><Link to="/discovery/tainted_infusion">⮞</Link> Tainted Infusion <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-7.4" id="ability-discoveries-fake-fn-7.4" data-hash-target to="ability-discoveries-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/discovery/delayed_bomb">Delayed bomb</Link>, <Link to="/discovery/infusion">infusion</Link></Pair>
 <Pair title="Ability">When preparing an extract with the <em>infusion</em> discovery, he can lace the extract with one of his bombs as long as the extract has a duration greater than instantaneous. If he chooses, the alchemist can reduce the duration of the extract to 1 round. As soon as the extract's duration expires, it detonates, dealing 150% of the alchemist's bomb damage to the drinker. This effect does not produce a splash radius.</Pair>
 <Pair title="Special">Producing a tainted extract consumes both an infusion slot and a daily bomb use.</Pair>
 </Ability>
 </div>
-<Ability id="discoveryintuitiveunderstanding-intuitive-understanding-fn2-3" icon={["upgrade","magic-swirl"]}>
+<Ability id="discoveryintuitiveunderstanding-intuitive-understanding-fn2-3" icon={["boost","magic"]}>
 <Pair single id="discoveryintuitiveunderstanding-intuitive-understanding-fn2-3"><Link to="/discovery/intuitive_understanding">⮞</Link> Intuitive Understanding <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-2.3" id="ability-discoveries-fake-fn-2.3" data-hash-target to="ability-discoveries-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level alchemist, <Link to="/discovery/cognatogen">cognatogen</Link></Pair>
 <Pair title="Passive Ability">If the alchemist drinks an extract of the divination school while under the effects of a <em>cognatogen,</em> his effective caster level temporarily increases by 2. In addition, while under the effects of a <em>cognatogen,</em> the alchemist may use <Link to="/spell/augury">augury</Link> once as a spell-like ability (caster level equal to his alchemist level).</Pair>
 <Pair title="At 10th Level">He can use <Link to="/spell/divination">divination</Link> instead.</Pair>
 </Ability>
-<Ability id="discoverylingeringplague-lingering-plague-fn9-9" icon={["armor-downgrade","upgrade"]}>
+<Ability id="discoverylingeringplague-lingering-plague-fn9-9" icon={["lower","boost"]}>
 <Pair single id="discoverylingeringplague-lingering-plague-fn9-9"><Link to="/discovery/lingering_plague">⮞</Link> Lingering Plague <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-9.9" id="ability-discoveries-fake-fn-9.9" data-hash-target to="ability-discoveries-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Passive Ability">Any creature that must make a save against a disease caused by the alchemist's extract or other class ability must make a second save 1 round later to avoid doubling the duration of the disease effect. If the disease doesn't have a duration, this discovery reduces its onset time and frequencies by half.</Pair>
 </Ability>
-<Ability id="discoverypickledquasit-pickled-quasit-fn7-5" icon={["stairs-goal"]}>
+<Ability id="discoverypickledquasit-pickled-quasit-fn7-5" icon={["power"]}>
 <Pair single id="discoverypickledquasit-pickled-quasit-fn7-5"><Link to="/discovery/pickled_quasit">⮞</Link> Pickled Quasit <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-7.5" id="ability-discoveries-fake-fn-7.5" data-hash-target to="ability-discoveries-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level alchemist</Pair>
 <Pair title="Ability">The alchemist has learned how to seal a <Link to="/monster/quasit">quasit</Link> in a bottle, which he can prepare for use as an extract. When the alchemist activates the extract, he throws the bottle at a square within 30 feet, releasing the quasit. The quasit is not under the alchemist's control, but is otherwise treated as a summoned creature. The quasit remains for 1 round per caster level, then collapses into its associated elements.</Pair>
 <Pair title="Special">If the alchemist has the <Link to="/discovery/infusion">infusion</Link> discovery, another character can use the infused specimen. Creating a <em>pickled quasit</em> requires a 4th-level extract.</Pair>
 </Ability>
-<Ability id="discoveryremedyextract-remedy-extract-fn18-2" icon={["stairs-goal"]}>
+<Ability id="discoveryremedyextract-remedy-extract-fn18-2" icon={["power"]}>
 <Pair single id="discoveryremedyextract-remedy-extract-fn18-2"><Link to="/discovery/remedy_extract">⮞</Link> Remedy Extract <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-18.2" id="ability-discoveries-fake-fn-18.2" data-hash-target to="ability-discoveries-fake-fn-18-target">18</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level alchemist</Pair>
 <Pair title="Ability">When the alchemist creates an extract, he can add one nonmagical <Link to="/main/equipment_alchemical">alchemical remedy</Link> (such as an <Link to="/eq-misc/antitoxin">antitoxin</Link>) to it. When the extract is consumed, both the formula and the alchemical remedy take effect.</Pair>
 <Pair title="Special">The extract has a level 1 higher than normal. This discovery cannot be combined with other methods of combining multiple consumed items or extracts into one.</Pair>
 </Ability>
-<Ability id="discoverysandstonesolution-sandstone-solution-fn27" icon={["magic-swirl"]}>
+<Ability id="discoverysandstonesolution-sandstone-solution-fn27" icon={["magic"]}>
 <Pair single id="discoverysandstonesolution-sandstone-solution-fn27"><Link to="/discovery/sandstone_solution">⮞</Link> Sandstone Solution <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-27" id="ability-discoveries-fake-fn-27" data-hash-target to="ability-discoveries-fake-fn-27-target">27</InnerLink></sup></Pair>
 <Pair title="Full-Round Action">The alchemist can convert any potion or extract into a solution that, when thrown or applied, solidifies sand or dirt to the hardness of stone for 1 hour, affecting an area with a radius of 10 feet &times; the level of the potion or extract. If this solution is thrown at or applied to stone, it instead causes a 5-foot cube of stone to become crumbly and soft for 1 minute, reducing its hardness by double the level of the potion or extract.</Pair>
 </Ability>
-<Ability id="discoveryvolumizer-volumizer-fn13-4" icon={["magic-swirl"]}>
+<Ability id="discoveryvolumizer-volumizer-fn13-4" icon={["magic"]}>
 <Pair single id="discoveryvolumizer-volumizer-fn13-4"><Link to="/discovery/volumizer">⮞</Link> Volumizer <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-13.4" id="ability-discoveries-fake-fn-13.4" data-hash-target to="ability-discoveries-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The alchemist can use an extract slot of any level to create a reactive tablet that purifies water and doubles its volume. This works like <Link to="/spell/purify_food_and_drink">purify food and drink</Link> for a maximum volume of water equal to 1 gallon for each level the alchemist has &times; the level of the extract slot the alchemist used to create the tablet.</p>
 <p>Additionally, if the alchemist has a receptacle of sufficient volume to gather the water, the tablet doubles the volume of pure water. The water volume increases over the course of 1 minute, but the effect stops before it can create significant water pressure on a container that's not large enough to hold the entire volume.</p>
@@ -518,13 +518,13 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 <Pair title="Special">An unused tablet remains usable until the next time the alchemist recovers extract slots.</Pair>
 </Ability>
 <h3 id="ability-discoveries-mutagen-discoveries" data-hash-target>Mutagen Discoveries</h3>
-<Ability id="discoverybonespikemutagen-bone-spike-mutagen-fn17-3" icon={["armor-upgrade"]}>
+<Ability id="discoverybonespikemutagen-bone-spike-mutagen-fn17-3" icon={["def"]}>
 <Pair single id="discoverybonespikemutagen-bone-spike-mutagen-fn17-3"><Link to="/discovery/bone_spike_mutagen">⮞</Link> Bone-Spike Mutagen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-17.3" id="ability-discoveries-fake-fn-17.3" data-hash-target to="ability-discoveries-fake-fn-17-target">17</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level alchemist</Pair>
 <Pair title="Passive Ability">When the alchemist imbibes a <em>mutagen,</em> he mutates his skeletal structure, causing the bones on his elbows, knuckles, spine, and shoulder blades to grow massive and pierce his skin, exposing themselves as large spikes. While the <em>mutagen</em> is in effect, the alchemist's natural armor bonus granted by the <em>mutagen</em> increases by 2.</Pair>
 <Pair title="Special">The spikes count as masterwork <Link to="/eq-armorenh/armor_spikes">armor spikes</Link> with which the alchemist is proficient.</Pair>
 </Ability>
-<Ability id="discoverycognatogen-cognatogen-fn4-8" icon={["stairs-goal","broken-shield"]}>
+<Ability id="discoverycognatogen-cognatogen-fn4-8" icon={["power","down"]}>
 <Pair single id="discoverycognatogen-cognatogen-fn4-8"><Link to="/discovery/cognatogen">⮞</Link> Cognatogen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.8" id="ability-discoveries-fake-fn-4.8" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The alchemist gains the ability to create a <em>cognatogen,</em> a <em>mutagen</em>-like mixture that heightens one mental ability score at the expense of a physical ability score. If the <em>cognatogen</em> enhances his Intelligence, it applies a penalty to his Strength. If it enhances his Wisdom, it applies a penalty to his Dexterity. If it enhances his Charisma, it applies a penalty to his Constitution. Otherwise, this ability works just like the <em>mutagen</em> ability (including the natural armor bonus).</p>
 <p>Anytime the alchemist would prepare a <em>mutagen,</em> he may instead prepare a <em>cognatogen.</em> All limitations of <em>mutagens</em> apply to <em>cognatogens</em> as if they were the same substance - an alchemist can only maintain one <em>mutagen</em> or <em>cognatogen</em> at a time, a <em>cognatogen</em> that is not in an alchemist's possession becomes inert, drinking a <em>cognatogen</em> makes a non-alchemist sick, and so on.</p>
@@ -532,26 +532,26 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 <Pair title="Special">When the effect of the <em>cognatogen</em> ends, the alchemist takes 2 points of <Link to="/rule/ability_damage">ability damage</Link> to the ability score penalized by the <em>cognatogen.</em> The <Link to="/discovery/infuse_mutagen">infuse mutagen</Link> discovery and the <em>persistent mutagen</em> class ability apply to <em>cognatogens.</em></Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoverycollectivememory-collective-memory-fn2-4" icon={["upgrade"]}>
+<Ability id="discoverycollectivememory-collective-memory-fn2-4" icon={["boost"]}>
 <Pair single id="discoverycollectivememory-collective-memory-fn2-4"><Link to="/discovery/collective_memory">⮞</Link> Collective Memory <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-2.4" id="ability-discoveries-fake-fn-2.4" data-hash-target to="ability-discoveries-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/discovery/cognatogen">Cognatogen</Link></Pair>
 <Pair title="Ability">While under the effects of a <em>cognatogen,</em> the alchemist adds half his class level on all Knowledge skill checks and may attempt all Knowledge skill checks untrained.</Pair>
 <Pair title="Special">This bonus does not stack with the second Intelligence bonus granted by the <Link to="/arc-alchemist/mindchemist">mindchemist</Link> archetype's <em>perfect recall</em> class feature.</Pair>
 </Ability>
-<Ability id="discoverygreatercognatogen-greater-cognatogen-fn4-9" icon={["armor-upgrade","upgrade","broken-shield"]}>
+<Ability id="discoverygreatercognatogen-greater-cognatogen-fn4-9" icon={["def","boost","down"]}>
 <Pair single id="discoverygreatercognatogen-greater-cognatogen-fn4-9"><Link to="/discovery/greater_cognatogen">⮞</Link> Greater Cognatogen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.9" id="ability-discoveries-fake-fn-4.9" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level alchemist, <Link to="/discovery/cognatogen">cognatogen</Link></Pair>
 <Pair title="Passive Ability">The alchemist's <em>mutagen</em> now grants a +4 natural armor bonus, a +6 alchemical bonus to one mental ability score (Intelligence, Wisdom, or Charisma), and a +4 alchemical bonus to a second mental ability score. The alchemist takes a -2 penalty on both associated physical ability scores as long as the <em>mutagen</em> persists, and takes 2 points of <Link to="/rule/ability_damage">ability damage</Link> to both associated physical ability scores when the <em>cognatogen</em> ends.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoverygrandcognatogen-grand-cognatogen-fn4-10" icon={["armor-upgrade","upgrade","broken-shield"]}>
+<Ability id="discoverygrandcognatogen-grand-cognatogen-fn4-10" icon={["def","boost","down"]}>
 <Pair single id="discoverygrandcognatogen-grand-cognatogen-fn4-10"><Link to="/discovery/grand_cognatogen">⮞</Link> Grand Cognatogen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.10" id="ability-discoveries-fake-fn-4.10" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">16th-level alchemist, <Link to="/discovery/cognatogen">cognatogen</Link>, <Link to="/discovery/greater_cognatogen">greater cognatogen</Link></Pair>
 <Pair title="Passive Ability">The alchemist's <em>cognatogen</em> now grants a +6 natural armor bonus, a +8 alchemical bonus to one mental ability score (Intelligence, Wisdom, or Charisma), a +6 alchemical bonus to a second mental ability score, and a +4 alchemical bonus to a third mental ability score. The alchemist takes a -2 penalty to his Strength, Dexterity, and Constitution as long as the <em>cognatogen</em> persists, and takes 2 points of <Link to="/rule/ability_damage">ability damage</Link> to each physical ability score when the <em>cognatogen</em> ends.</Pair>
 </Ability>
 </div>
 </div>
-<Ability id="discoveryelementalmutagen-elemental-mutagen-fn14-3" icon={["armor-upgrade","upgrade"]}>
+<Ability id="discoveryelementalmutagen-elemental-mutagen-fn14-3" icon={["def","boost"]}>
 <Pair single id="discoveryelementalmutagen-elemental-mutagen-fn14-3"><Link to="/discovery/elemental_mutagen">⮞</Link> Elemental Mutagen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-14.3" id="ability-discoveries-fake-fn-14.3" data-hash-target to="ability-discoveries-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Choice">The alchemist chooses an element (air, earth, fire, or water).</Pair>
 <Pair title="Passive Ability">Whenever the alchemist imbibes a <em>mutagen,</em> he gains <Link to="/umr/resistance">resistance</Link> 5 to the associated energy type and a +2 competence bonus on an associated skill check. This resistance increases by 5 and the competence bonus by 2 for each of the following discoveries the alchemist possesses: <Link to="/discovery/grand_mutagen">grand mutagen</Link>, <Link to="/discovery/greater_mutagen">greater mutagen</Link>, and <Link to="/discovery/true_mutagen">true mutagen</Link>.</Pair>
@@ -559,23 +559,23 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 <p>An alchemist can select this discovery up to four times, but must choose a different element each time. An alchemist can gain the benefits of only one <em>elemental mutagen</em> at a time, selected when he imbibes the <em>mutagen</em>.</p>
 </Pair>
 </Ability>
-<Ability id="discoveryferalmutagen-feral-mutagen-fn1-19" icon={["mailed-fist","upgrade"]}>
+<Ability id="discoveryferalmutagen-feral-mutagen-fn1-19" icon={["melee","boost"]}>
 <Pair single id="discoveryferalmutagen-feral-mutagen-fn1-19"><Link to="/discovery/feral_mutagen">⮞</Link> Feral Mutagen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.19" id="ability-discoveries-fake-fn-1.19" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">Whenever the alchemist imbibes a <em>mutagen,</em> he gains two claw attacks and a bite attack. These are <Link to="/rule/natural_attacks">primary attacks</Link> and are made using the alchemist's full base attack bonus. The claw attacks deal 1d6 points of damage (1d4 if the alchemist is Small) and the bite attack deals 1d8 points of damage (1d6 if the alchemist is Small).</Pair>
 <Pair title="Special">While the <em>mutagen</em> is in effect, the alchemist gains a +2 competence bonus on Intimidate skill checks.</Pair>
 </Ability>
-<Ability id="discoveryfeymutagen-fey-mutagen-fn28" icon={["stairs-goal","upgrade","broken-shield","armor-upgrade"]}>
+<Ability id="discoveryfeymutagen-fey-mutagen-fn28" icon={["power","boost","down","def"]}>
 <Pair single id="discoveryfeymutagen-fey-mutagen-fn28"><Link to="/discovery/fey_mutagen">⮞</Link> Fey Mutagen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-28" id="ability-discoveries-fake-fn-28" data-hash-target to="ability-discoveries-fake-fn-28-target">28</InnerLink></sup></Pair>
 <Pair title="Ability">The alchemist gains the ability to create a <em>fey mutagen,</em> a mixture that lends him some of the grace and power of <Link to="/rule/the_first_world">the First World</Link>. When imbibed, a <em>fey mutagen</em> grants a +2 alchemical bonus to the alchemist's Dexterity and Charisma, a -2 penalty to his Strength, and DR 2/cold iron. This otherwise works like the standard <em>mutagen</em> class feature and interacts with other effects as though it were a <em>mutagen</em>.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoverygreaterfeymutagen-greater-fey-mutagen-fn28-2" icon={["upgrade","broken-shield","armor-upgrade","stairs-goal"]}>
+<Ability id="discoverygreaterfeymutagen-greater-fey-mutagen-fn28-2" icon={["boost","down","def","power"]}>
 <Pair single id="discoverygreaterfeymutagen-greater-fey-mutagen-fn28-2"><Link to="/discovery/greater_fey_mutagen">⮞</Link> Greater Fey Mutagen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-28.2" id="ability-discoveries-fake-fn-28.2" data-hash-target to="ability-discoveries-fake-fn-28-target">28</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level alchemist, <Link to="/discovery/fey_mutagen">fey mutagen</Link></Pair>
 <Pair title="Passive Ability">The alchemist's <em>fey mutagen</em> now grants a +4 alchemical bonus to Dexterity and Charisma, a -2 penalty to his Strength, DR 5/cold iron, and the druid's <Link to="/ability/woodland_stride">woodland stride</Link> class feature.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoverygrandfeymutagen-grand-fey-mutagen-fn28-3" icon={["upgrade","broken-shield","armor-upgrade","stairs-goal"]}>
+<Ability id="discoverygrandfeymutagen-grand-fey-mutagen-fn28-3" icon={["boost","down","def","power"]}>
 <Pair single id="discoverygrandfeymutagen-grand-fey-mutagen-fn28-3"><Link to="/discovery/grand_fey_mutagen">⮞</Link> Grand Fey Mutagen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-28.3" id="ability-discoveries-fake-fn-28.3" data-hash-target to="ability-discoveries-fake-fn-28-target">28</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level alchemist, <Link to="/discovery/fey_mutagen">fey mutagen</Link>, <Link to="/discovery/greater_fey_mutagen">greater fey mutagen</Link></Pair>
 <Pair title="Passive Ability">The alchemist's <em>fey mutagen</em> now grants a +6 alchemical bonus to Dexterity and Charisma, a -2 penalty to his Strength, DR 10/cold iron, and the druid's <Link to="/ability/woodland_stride">woodland stride</Link> class feature.</Pair>
@@ -583,36 +583,36 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 </Ability>
 </div>
 </div>
-<Ability id="discoverygreatermutagen-greater-mutagen-fn1-20" icon={["armor-upgrade","upgrade","broken-shield"]}>
+<Ability id="discoverygreatermutagen-greater-mutagen-fn1-20" icon={["def","boost","down"]}>
 <Pair single id="discoverygreatermutagen-greater-mutagen-fn1-20"><Link to="/discovery/greater_mutagen">⮞</Link> Greater Mutagen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.20" id="ability-discoveries-fake-fn-1.20" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level alchemist</Pair>
 <Pair title="Passive Ability">The alchemist's <em>mutagen</em> now grants a +4 natural armor bonus, a +6 alchemical bonus to one physical ability score (Strength, Dexterity, or Constitution), and a +4 alchemical bonus to a second physical ability score. The alchemist takes a -2 penalty on both associated mental ability scores as long as the <em>mutagen</em> persists.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoverygrandmutagen-grand-mutagen-fn1-21" icon={["armor-upgrade","upgrade","broken-shield"]}>
+<Ability id="discoverygrandmutagen-grand-mutagen-fn1-21" icon={["def","boost","down"]}>
 <Pair single id="discoverygrandmutagen-grand-mutagen-fn1-21"><Link to="/discovery/grand_mutagen">⮞</Link> Grand Mutagen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.21" id="ability-discoveries-fake-fn-1.21" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">16th-level alchemist, <Link to="/discovery/greater_mutagen">greater mutagen</Link></Pair>
 <Pair title="Passive Ability">The alchemist's <em>mutagen</em> now grants a +6 natural armor bonus, a +8 alchemical bonus to one ability score (Strength, Dexterity, or Constitution), a +6 alchemical bonus to a second physical ability score, and a +4 alchemical bonus to a third physical ability score. The alchemist takes a -2 penalty to his Intelligence, Wisdom, and Charisma as long as the <em>mutagen</em> persists.</Pair>
 </Ability>
 </div>
-<Ability id="discoverygreaterrasugen-greater-rasugen-fn3-5" icon={["armor-upgrade","remedy","broken-shield"]}>
+<Ability id="discoverygreaterrasugen-greater-rasugen-fn3-5" icon={["def","aid","down"]}>
 <Pair single id="discoverygreaterrasugen-greater-rasugen-fn3-5"><Link to="/discovery/greater_rasugen">⮞</Link> Greater Rasugen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-3.5" id="ability-discoveries-fake-fn-3.5" data-hash-target to="ability-discoveries-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level alchemist, must be able to <Link to="/arc-alchemist/mnemostiller">brew a rasugen</Link></Pair>
 <Pair title="Passive Ability">The alchemist's rasugen now grants a +4 alchemical bonus on all saving throws, 3 <Link to="/rule/temporary_hit_points">temporary hit points</Link> per alchemist level, and immunity to mind-affecting effects. The alchemist takes a -4 penalty to Intelligence as long as the <em>greater rasugen</em> persists.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoverygrandrasugen-grand-rasugen-fn3-6" icon={["armor-upgrade","remedy","broken-shield"]}>
+<Ability id="discoverygrandrasugen-grand-rasugen-fn3-6" icon={["def","aid","down"]}>
 <Pair single id="discoverygrandrasugen-grand-rasugen-fn3-6"><Link to="/discovery/grand_rasugen">⮞</Link> Grand Rasugen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-3.6" id="ability-discoveries-fake-fn-3.6" data-hash-target to="ability-discoveries-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Prerequisites">16th-level alchemist, <Link to="/discovery/greater_rasugen">greater rasugen</Link></Pair>
 <Pair title="Passive Ability">The alchemist's rasugen now grants a +6 alchemical bonus on all saving throws, 4 <Link to="/rule/temporary_hit_points">temporary hit points</Link> per alchemist level, and immunity to disease, mind-affecting effects, and poison. The alchemist takes a -6 penalty to Intelligence and a -2 penalty to Charisma and Wisdom as long as the <em>grand rasugen</em> persists.</Pair>
 </Ability>
 </div>
-<Ability id="discoveryinfusemutagen-infuse-mutagen-fn1-22" icon={["broken-shield","stairs-goal"]}>
+<Ability id="discoveryinfusemutagen-infuse-mutagen-fn1-22" icon={["down","power"]}>
 <Pair single id="discoveryinfusemutagen-infuse-mutagen-fn1-22"><Link to="/discovery/infuse_mutagen">⮞</Link> Infuse Mutagen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.22" id="ability-discoveries-fake-fn-1.22" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">When the alchemist creates a <em>mutagen,</em> he can infuse it with an extra bit of his own magical power. This inflicts 2 points of <Link to="/rule/intelligence_damage">Intelligence damage</Link> to the alchemist and costs 1,000 gp in rare reagents, but the <em>mutagen</em> created persists on its own and is not rendered inert if the alchemist creates another <em>mutagen.</em> This allows an alchemist to create different types of <em>mutagens</em> and keep them handy for emergencies. This does not allow an alchemist to gain the effects of multiple <em>mutagens</em> - only the most recently imbibed <em>mutagen</em> has any effect.</Pair>
 <Pair title="Special">This can also be used on <Link to="/discovery/cognatogen">cognatogens</Link></Pair>
 </Ability>
-<Ability id="discoveryinspiringcognatogen-inspiring-cognatogen-fn23-2" icon={["stairs-goal","armor-upgrade","broken-shield"]}>
+<Ability id="discoveryinspiringcognatogen-inspiring-cognatogen-fn23-2" icon={["power","def","down"]}>
 <Pair single id="discoveryinspiringcognatogen-inspiring-cognatogen-fn23-2"><Link to="/discovery/inspiring_cognatogen">⮞</Link> Inspiring Cognatogen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-23.2" id="ability-discoveries-fake-fn-23.2" data-hash-target to="ability-discoveries-fake-fn-23-target">23</InnerLink></sup></Pair>
 <Pair title="Ability"><p>An alchemist with this discovery leans how to make an <em>inspiring cognatogen,</em> a <em>mutagen</em>-like mixture that grants him *inspiration *(as the <Link to="/class/investigator">investigator's</Link> class feature) at the expense of Strength and Constitution. Upon drinking the inspiring <em>cognatogen,</em> the alchemist gains a pool of <em>inspiration</em> equal to 1/2 his alchemist level + his Intelligence modifier (minimum 1). He also gains a +2 dodge bonus to AC and takes a -2 penalty to both Strength and Constitution.</p>
 <p>As a <strong className="hl">free action</strong>, the alchemist can add 1d6 to the result of an ability or skill check (including any he takes 10 or 20 on) by expending one use of <em>inspiration.</em> This ability works exactly like the investigator's <em>inspiration</em> ability, except that the alchemist gains the pool of <em>inspiration</em> upon drinking the <em>inspiring cognatogen,</em> and any unspent <em>inspiration</em> is lost at the end of the <em>cognatogen's</em> duration. If the alchemist already has access to <em>inspiration,</em> the *inspiration *added by the <em>inspiring cognatogen</em> is added to his <em>inspiration</em> pool, but each time he expends at least one use of <em>inspiration</em> while this ability is active, he must succeed at a DC 20 Will saving throw or become <Link to="/misc/dazed">dazed</Link> for 1 round. He cannot use <em>inspiration</em> to augment this saving throw.</p>
@@ -620,36 +620,36 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 <Pair title="Special">All limitations of <em>mutagens</em> apply to an <em>inspiring cognatogen</em> as if they were the same substance - an alchemist can only maintain one <em>mutagen</em> or <em>cognatogen</em> (either the standard <Link to="/discovery/cognatogen">cognatogen</Link> or the <em>inspired cognatogen</em>) at a time, a <em>cognatogen</em> not in an alchemist's possession becomes inert, drinking a <em>cognatogen</em> makes non-alchemists sick, and so on. When the effect of an <em>inspiring cognatogen</em> ends, the alchemist takes 2 points of ability damage to Strength and Dexterity. The <Link to="/discovery/infuse_mutagen">infuse mutagen</Link> discovery and the <em>persistent mutagen</em> class ability apply to an <em>inspiring cognatogen.</em></Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoverygreaterinspiringcognatogen-greater-inspiring-cognatogen-fn23-3" icon={["armor-upgrade","broken-shield","stairs-goal"]}>
+<Ability id="discoverygreaterinspiringcognatogen-greater-inspiring-cognatogen-fn23-3" icon={["def","down","power"]}>
 <Pair single id="discoverygreaterinspiringcognatogen-greater-inspiring-cognatogen-fn23-3"><Link to="/discovery/greater_inspiring_cognatogen">⮞</Link> Greater Inspiring Cognatogen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-23.3" id="ability-discoveries-fake-fn-23.3" data-hash-target to="ability-discoveries-fake-fn-23-target">23</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level alchemist, <Link to="/discovery/inspiring_cognatogen">inspiring cognatogen</Link></Pair>
 <Pair title="Passive Ability">The alchemist's <em>inspiring cognatogen</em> now grants a +2 dodge bonus to AC and a +2 bonus to Reflex saving throws; a -4 penalty to Strength and Constitution; and the effects of having the <Link to="/invtalent/amazing_inspiration">amazing inspiration</Link>, <Link to="/invtalent/eidetic_recollection">eidetic recollection</Link>, and <Link to="/invtalent/expanded_inspiration">expanded inspiration</Link> investigator talents.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoverygrandinspiringcognatogen-grand-inspiring-cognatogen-fn23-4" icon={["armor-upgrade","broken-shield","stairs-goal"]}>
+<Ability id="discoverygrandinspiringcognatogen-grand-inspiring-cognatogen-fn23-4" icon={["def","down","power"]}>
 <Pair single id="discoverygrandinspiringcognatogen-grand-inspiring-cognatogen-fn23-4"><Link to="/discovery/grand_inspiring_cognatogen">⮞</Link> Grand Inspiring Cognatogen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-23.4" id="ability-discoveries-fake-fn-23.4" data-hash-target to="ability-discoveries-fake-fn-23-target">23</InnerLink></sup></Pair>
 <Pair title="Prerequisites">16th-level alchemist, <Link to="/discovery/greater_inspiring_cognatogen">greater inspiring cognatogen</Link></Pair>
 <Pair title="Passive Ability">The alchemist's <em>inspiring cognatogen</em> now grants a +4 dodge bonus to AC and a +4 bonus to Reflex saving throws; a -6 penalty to Strength and Constitution; and the effects of having the <Link to="/invtalent/item_lore">item lore</Link>, <Link to="/invtalent/tenacious_inspiration">tenacious inspiration</Link>, and <Link to="/invtalent/underworld_inspiration">underworld inspiration</Link> investigator talents.</Pair>
 </Ability>
 </div>
 </div>
-<Ability id="discoverymutagen-mutagen-fn4-11" icon={["stairs-goal"]}>
+<Ability id="discoverymutagen-mutagen-fn4-11" icon={["power"]}>
 <Pair single id="discoverymutagen-mutagen-fn4-11"><Link to="/discovery/mutagen">⮞</Link> Mutagen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.11" id="ability-discoveries-fake-fn-4.11" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">This discovery gives the alchemist the <em>mutagen</em> class ability.</Pair>
 <Pair title="Special">This discovery exists so alchemist archetypes who have variant <em>mutagens,</em> such as the <Link to="/arc-alchemist/mindchemist">mindchemist</Link>, can learn how to make standard <em>mutagens.</em></Pair>
 </Ability>
-<Ability id="discoverypurgingmutagen-purging-mutagen-fn18-3" icon={["shield-reflect"]}>
+<Ability id="discoverypurgingmutagen-purging-mutagen-fn18-3" icon={["protect"]}>
 <Pair single id="discoverypurgingmutagen-purging-mutagen-fn18-3"><Link to="/discovery/purging_mutagen">⮞</Link> Purging Mutagen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-18.3" id="ability-discoveries-fake-fn-18.3" data-hash-target to="ability-discoveries-fake-fn-18-target">18</InnerLink></sup></Pair>
 <Pair title="Ability">The alchemist's <em>mutagen</em> combines ipecac and other purgative components. A non-alchemist who consumes the <em>mutagen</em> is <Link to="/misc/nauseated">nauseated</Link> for only 1 round, during which time her body rapidly metabolizes or expels all extant toxins, granting her an immediate second saving throw against each ongoing disease and poison currently affecting her. Each successful save counts as two consecutive successful saving throws for the purpose of curing the affliction. Any failed saving throws do not result in additional damage or other effects.</Pair>
 <Pair title="Special">A non-alchemist who consumes a second <em>purging mutagen</em> in a 24-hour period is instead nauseated for 1 hour. When an alchemist drinks the <em>mutagen,</em> he can choose whether or not to also be affected by this discovery in addition to the <em>mutagen's</em> other effects.</Pair>
 </Ability>
-<Ability id="discoveryragdollmutagen-rag-doll-mutagen-fn9-10" icon={["upgrade","armor-upgrade"]}>
+<Ability id="discoveryragdollmutagen-rag-doll-mutagen-fn9-10" icon={["boost","def"]}>
 <Pair single id="discoveryragdollmutagen-rag-doll-mutagen-fn9-10"><Link to="/discovery/rag_doll_mutagen">⮞</Link> Rag Doll Mutagen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-9.10" id="ability-discoveries-fake-fn-9.10" data-hash-target to="ability-discoveries-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/goblin">Goblin</Link></Pair>
 <Pair title="Passive Ability">When the alchemist imbibes a <em>mutagen,</em> his body and bones become rubbery and easy to contort. The alchemist gains a bonus equal to his class level on Escape Artist checks, can <Link to="/misc/squeeze">squeeze</Link> through places as if he were one size category smaller, and can make a Reflex save (DC equal to 15 + 1 for every 10 feet fallen) to take half damage from falling.</Pair>
 <Pair title="At 10th Level">All falling damage is considered nonlethal damage, and the alchemist can squeeze through places as if he were two size categories smaller than his size while under the effects of this <em>mutagen.</em></Pair>
 </Ability>
-<Ability id="discoverysplittingmutagen-splitting-mutagen-fn12-3" icon={["magic-swirl"]}>
+<Ability id="discoverysplittingmutagen-splitting-mutagen-fn12-3" icon={["magic"]}>
 <Pair single id="discoverysplittingmutagen-splitting-mutagen-fn12-3"><Link to="/discovery/splitting_mutagen">⮞</Link> Splitting Mutagen <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-12.3" id="ability-discoveries-fake-fn-12.3" data-hash-target to="ability-discoveries-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level alchemist</Pair>
 <Pair title="Ability"><p>Once per day while under the effects of his <em>mutagen,</em> the alchemist can split into two identical copies of himself as an <strong className="hl">immediate action</strong> after being damaged by a piercing or slashing weapon. Each copy has an ooze-like complexion, most often manifesting as a slimy sheen to his skin.</p>
@@ -658,88 +658,88 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 </Pair>
 </Ability>
 <h3 id="ability-discoveries-poison-discoveries" data-hash-target>Poison Discoveries</h3>
-<Ability id="discoverycelestialpoisons-celestial-poisons-fn15-3" icon={["armor-downgrade"]}>
+<Ability id="discoverycelestialpoisons-celestial-poisons-fn15-3" icon={["lower"]}>
 <Pair single id="discoverycelestialpoisons-celestial-poisons-fn15-3" flavor="The alchemist is able to infuse poisons with celestial power so they can affect evil creatures that are normally immune to poison."><Link to="/discovery/celestial_poisons">⮞</Link> Celestial Poisons <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-15.3" id="ability-discoveries-fake-fn-15.3" data-hash-target to="ability-discoveries-fake-fn-15-target">15</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Passive Ability">Any poison the alchemist administers to a weapon can affect undead and evil outsiders, bypassing their inherent immunities. Magical effects that negate poisons still apply. If a creature fails its save, the poison acts as normal, but may have no effect on the creature, depending on the effect of the poison (such as dealing <Link to="/rule/constitution_damage">Constitution damage</Link> to undead).</Pair>
 </Ability>
-<Ability id="discoveryconcentratepoison-concentrate-poison-fn1-23" icon={["upgrade"]}>
+<Ability id="discoveryconcentratepoison-concentrate-poison-fn1-23" icon={["boost"]}>
 <Pair single id="discoveryconcentratepoison-concentrate-poison-fn1-23"><Link to="/discovery/concentrate_poison">⮞</Link> Concentrate Poison <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.23" id="ability-discoveries-fake-fn-1.23" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">The alchemist can combine two doses of the same poison to increase their effects. This requires two doses of the poison and 1 minute of concentration. When completed, the alchemist has one dose of poison. The poison's frequency is extended by 50% and the save DC increases by +2. This poison must be used within 1 hour of its creation or it is ruined.</Pair>
 </Ability>
-<Ability id="discoverydeadlyexcretions-deadly-excretions-fn9-11" icon={["stairs-goal"]}>
+<Ability id="discoverydeadlyexcretions-deadly-excretions-fn9-11" icon={["power"]}>
 <Pair single id="discoverydeadlyexcretions-deadly-excretions-fn9-11"><Link to="/discovery/deadly_excretions">⮞</Link> Deadly Excretions <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-9.11" id="ability-discoveries-fake-fn-9.11" data-hash-target to="ability-discoveries-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist, <Link to="/race/grippli">grippli</Link> with <em>toxic skin</em> racial trait</Pair>
 <Pair title="Ability">When using his <em>toxic skin</em> ability, the alchemist can choose to excrete a Constitution poison instead of a Dexterity poison. This poison works the same as the normal grippli <em>toxic skin</em> poison except that a failed save deals 1 point of <Link to="/rule/constitution_damage">Constitution damage</Link>.</Pair>
 </Ability>
-<Ability id="discoverydesignerpoison-designer-poison-fn29" icon={["upgrade","broken-shield"]}>
+<Ability id="discoverydesignerpoison-designer-poison-fn29" icon={["boost","down"]}>
 <Pair single id="discoverydesignerpoison-designer-poison-fn29" flavor="The alchemist can create special poisons that are more effective against certain creatures."><Link to="/discovery/designer_poison">⮞</Link> Designer Poison <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-29" id="ability-discoveries-fake-fn-29" data-hash-target to="ability-discoveries-fake-fn-29-target">29</InnerLink></sup></Pair>
 <Pair title="Ability">When crafting a poison, the alchemist can choose a single creature type (and subtype, if appropriate) from the ranger's <Link to="/ability/favored_enemy">favored enemy</Link> list. Against creatures of the chosen type, the poison's saving throw DC is increased by 4. Against all other creatures, it is reduced by 2.</Pair>
 <Pair title="Special">The alchemist must choose the creature type and subtype (if appropriate) while crafting the poison and afterward cannot change this choice.</Pair>
 </Ability>
-<Ability id="discoveryelementaldestabilizers-elemental-destabilizers-fn30" icon={["stairs-goal"]}>
+<Ability id="discoveryelementaldestabilizers-elemental-destabilizers-fn30" icon={["power"]}>
 <Pair single id="discoveryelementaldestabilizers-elemental-destabilizers-fn30" flavor="The alchemist is able to concoct reactive chemical compounds that affect elementals like poisons."><Link to="/discovery/elemental_destabilizers">⮞</Link> Elemental Destabilizers <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-30" id="ability-discoveries-fake-fn-30" data-hash-target to="ability-discoveries-fake-fn-30-target">30</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Ability">The alchemist can craft poisons that affect only outsiders with the elemental subtype, bypassing their inherent immunity. Magical effects that negate poisons still apply. If a creature fails its saving throw, the poison acts as normal, but it may have no effect on the creature depending on the effect of the poison (such as dealing fire damage to a <Link to="/monster/fire_elemental">fire elemental</Link>).</Pair>
 </Ability>
-<Ability id="discoveryenduringtoxin-enduring-toxin-fn29-2" icon={["upgrade"]}>
+<Ability id="discoveryenduringtoxin-enduring-toxin-fn29-2" icon={["boost"]}>
 <Pair single id="discoveryenduringtoxin-enduring-toxin-fn29-2"><Link to="/discovery/enduring_toxin">⮞</Link> Enduring Toxin <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-29.2" id="ability-discoveries-fake-fn-29.2" data-hash-target to="ability-discoveries-fake-fn-29-target">29</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Ability">The alchemist can alter the properties of a poison, causing it to persist longer in the victim's body. Altering a dose of poison in the way takes 1 hour, requires the expenditure of raw materials worth half the poison's market price, and exposes the alchemist to the poison, thereby affecting him if he is not immune. This doubles the poison's maximum duration.</Pair>
 </Ability>
-<Ability id="discoverymalignantpoison-malignant-poison-fn10-3" icon={["upgrade"]}>
+<Ability id="discoverymalignantpoison-malignant-poison-fn10-3" icon={["boost"]}>
 <Pair single id="discoverymalignantpoison-malignant-poison-fn10-3"><Link to="/discovery/malignant_poison">⮞</Link> Malignant Poison <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-10.3" id="ability-discoveries-fake-fn-10.3" data-hash-target to="ability-discoveries-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level alchemist</Pair>
 <Pair title="Full-Round Action">The alchemist can increase the save DC of any poison by 4 and increase its duration by 2 frequency increments (for example, <Link to="/eq-poison/large_scorpion_venom">large scorpion venom</Link> lasts 8 rounds instead of 6 and <Link to="/eq-poison/drow_poison">drow poison</Link> lasts 4 minutes instead of 2). Additionally, <em>malignant poisons</em> take effect immediately and do not have an onset time.</Pair>
 <Pair title="Special">This alchemical change lasts until the poison's extended duration ends or for a number of minutes equal to the alchemist's level, whichever comes first. After that, the poison reverts back to its original state.</Pair>
 </Ability>
-<Ability id="discoverynauseatingflesh-nauseating-flesh-fn6-5" icon={["armor-upgrade"]}>
+<Ability id="discoverynauseatingflesh-nauseating-flesh-fn6-5" icon={["def"]}>
 <Pair single id="discoverynauseatingflesh-nauseating-flesh-fn6-5"><Link to="/discovery/nauseating_flesh">⮞</Link> Nauseating Flesh <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-6.5" id="ability-discoveries-fake-fn-6.5" data-hash-target to="ability-discoveries-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level alchemist</Pair>
 <Pair title="Passive Ability">The alchemist's body is suffused with poison. Any creature that bites, engulfs, or swallows the alchemist must make a Fortitude saving throw or be <Link to="/misc/nauseated">nauseated</Link> for 1d4 rounds. The alchemist with this discovery does not suffer the effect of the poison of his own <em>nauseating flesh.</em></Pair>
 </Ability>
-<Ability id="discoverypoisonconversion-poison-conversion-fn6-6" icon={["stairs-goal"]}>
+<Ability id="discoverypoisonconversion-poison-conversion-fn6-6" icon={["power"]}>
 <Pair single id="discoverypoisonconversion-poison-conversion-fn6-6"><Link to="/discovery/poison_conversion">⮞</Link> Poison Conversion <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-6.6" id="ability-discoveries-fake-fn-6.6" data-hash-target to="ability-discoveries-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level alchemist</Pair>
 <Pair title="Ability">By spending 1 minute, the alchemist can convert 1 dose of poison from its current type (contact, ingested, inhaled, or injury) to another type. For example, the alchemist can convert a dose of <Link to="/eq-poison/small_centipede_poison">Small centipede poison</Link> (an injury poison) to an inhaled poison. This process requires an <Link to="/misc/alchemy_lab">alchemy lab</Link>.</Pair>
 </Ability>
-<Ability id="discoveryprecisepoison-precise-poison-fn8-2" icon={["upgrade"]}>
+<Ability id="discoveryprecisepoison-precise-poison-fn8-2" icon={["boost"]}>
 <Pair single id="discoveryprecisepoison-precise-poison-fn8-2" flavor="The alchemist is adept at delivering poison to the most vulnerable areas of his targets."><Link to="/discovery/precise_poison">⮞</Link> Precise Poison <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-8.2" id="ability-discoveries-fake-fn-8.2" data-hash-target to="ability-discoveries-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Passive Ability">When the alchemist confirms a critical hit with a poisoned weapon, he increases the save DC of the poison by an amount equal to the weapon's critical multiplier.</Pair>
 </Ability>
-<Ability id="discoverystickypoison-sticky-poison-fn1-24" icon={["upgrade"]}>
+<Ability id="discoverystickypoison-sticky-poison-fn1-24" icon={["boost"]}>
 <Pair single id="discoverystickypoison-sticky-poison-fn1-24"><Link to="/discovery/sticky_poison">⮞</Link> Sticky Poison <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.24" id="ability-discoveries-fake-fn-1.24" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level alchemist</Pair>
 <Pair title="Ability">Any poison the alchemist creates is sticky - when the alchemist applies it to a weapon, the weapon remains poisoned for a number of strikes equal to the alchemist's Intelligence modifier.</Pair>
 </Ability>
 <h3 id="ability-discoveries-potionelixir-discoveries" data-hash-target>Potion/Elixir Discoveries</h3>
-<Ability id="discoverydilution-dilution-fn1-25" icon={["upgrade"]}>
+<Ability id="discoverydilution-dilution-fn1-25" icon={["boost"]}>
 <Pair single id="discoverydilution-dilution-fn1-25"><Link to="/discovery/dilution">⮞</Link> Dilution <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.25" id="ability-discoveries-fake-fn-1.25" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level alchemist</Pair>
 <Pair title="Ability">Once per day, the alchemist can dilute any one potion or elixir, creating two doses of the same potion from one. Diluting a potion costs a number of gp equal to one-quarter of the potion's market value. A potion that has been diluted cannot be diluted again.</Pair>
 <Pair title="Special">This discovery cannot be used to dilute extracts or <em>mutagens</em>.</Pair>
 </Ability>
-<Ability id="discoveryelixiroflife-elixir-of-life-fn1-26" icon={["stairs-goal","remedy"]}>
+<Ability id="discoveryelixiroflife-elixir-of-life-fn1-26" icon={["power","aid"]}>
 <Pair single id="discoveryelixiroflife-elixir-of-life-fn1-26"><Link to="/discovery/elixir_of_life">⮞</Link> Elixir of Life <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.26" id="ability-discoveries-fake-fn-1.26" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">16th-level alchemist</Pair>
 <Pair title="Ability"><p>Once per day, the alchemist can brew an <em>elixir of life.</em> This special concoction costs 25,000 gp to create and takes 1 hour of work. An <em>elixir of life,</em> when administered by the alchemist who brewed it, restores life to a dead creature as per the spell <Link to="/spell/true_resurrection">true resurrection</Link>.</p>
 <p>Alternatively, the alchemist himself may drink the <em>elixir of life,</em> after which point he is immediately targeted with a <Link to="/spell/resurrection">resurrection</Link> spell the next time he is killed. Used in this manner, the effects of an <em>elixir of life</em> persist only for a number of days equal to the alchemist's Intelligence modifier; if he does not die before that time expires, the effects of the <em>elixir of life</em> end.</p>
 </Pair>
 </Ability>
-<Ability id="discoveryenhancepotion-enhance-potion-fn1-27" icon={["upgrade"]}>
+<Ability id="discoveryenhancepotion-enhance-potion-fn1-27" icon={["boost"]}>
 <Pair single id="discoveryenhancepotion-enhance-potion-fn1-27"><Link to="/discovery/enhance_potion">⮞</Link> Enhance Potion <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.27" id="ability-discoveries-fake-fn-1.27" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">A number of times per day equal to his Intelligence modifier, the alchemist can cause any potion he drinks to function at a caster level equal to his class level.</Pair>
 </Ability>
-<Ability id="discoveryextendpotion-extend-potion-fn1-28" icon={["upgrade"]}>
+<Ability id="discoveryextendpotion-extend-potion-fn1-28" icon={["boost"]}>
 <Pair single id="discoveryextendpotion-extend-potion-fn1-28"><Link to="/discovery/extend_potion">⮞</Link> Extend Potion <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.28" id="ability-discoveries-fake-fn-1.28" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">A number of times per day equal to his Intelligence modifier, the alchemist can cause any potion he drinks that does not have an instantaneous duration to function at twice its normal duration. This does not apply to extracts.</Pair>
 </Ability>
-<Ability id="discoveryeternalpotion-eternal-potion-fn1-29" icon={["upgrade"]}>
+<Ability id="discoveryeternalpotion-eternal-potion-fn1-29" icon={["boost"]}>
 <Pair single id="discoveryeternalpotion-eternal-potion-fn1-29"><Link to="/discovery/eternal_potion">⮞</Link> Eternal Potion <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-1.29" id="ability-discoveries-fake-fn-1.29" data-hash-target to="ability-discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">16th-level alchemist, <Link to="/discovery/extend_potion">extend potion</Link></Pair>
 <Pair title="Ability">If an alchemist drinks a potion that he extends, the effects of that potion become permanent until he chooses to make another potion effect permanent.</Pair>
 </Ability>
-<Ability id="discoverylastingtinctures-lasting-tinctures-fn29-3" icon={["upgrade"]}>
+<Ability id="discoverylastingtinctures-lasting-tinctures-fn29-3" icon={["boost"]}>
 <Pair single id="discoverylastingtinctures-lasting-tinctures-fn29-3"><Link to="/discovery/lasting_tinctures">⮞</Link> Lasting Tinctures <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-29.3" id="ability-discoveries-fake-fn-29.3" data-hash-target to="ability-discoveries-fake-fn-29-target">29</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The alchemist knows how to make <Link to="/main/equipment_alchemical">tinctures</Link> that last much longer than normal. The durations of the effects of any tinctures the alchemist brews using the <Link to="/skill/craft">Craft</Link> skill are doubled.</p>
 <p>When the alchemist uses this discovery to brew a longer-lasting tincture, the tincture imposes its normal penalties on the alchemist even if the alchemist has an ability that reduces tinctures' penalties (such as the <em>substance tolerance</em> ability of the <Link to="/arc-alchemist/fermenter">fermenter alchemist archetype</Link>).</p>
@@ -747,18 +747,18 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 <Pair title="Special">An alchemist with this discovery can brew tinctures with normal durations.</Pair>
 </Ability>
 <h3 id="ability-discoveries-other-discoveries" data-hash-target>Other Discoveries</h3>
-<Ability id="discoveryairlung-air-lung-fn31" icon={["stairs-goal"]}>
+<Ability id="discoveryairlung-air-lung-fn31" icon={["power"]}>
 <Pair single id="discoveryairlung-air-lung-fn31"><Link to="/discovery/air_lung">⮞</Link> Air Lung <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-31" id="ability-discoveries-fake-fn-31" data-hash-target to="ability-discoveries-fake-fn-31-target">31</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/subtype/aquatic">Aquatic</Link> subtype</Pair>
 <Pair title="Ability">An alchemist with this discovery has conditioned his body to adapt to life above water. He gains the <Link to="/umr/amphibious">amphibious</Link> special quality.</Pair>
 </Ability>
-<Ability id="discoveryalchemicalsimulacrum-alchemical-simulacrum-fn4-12" icon={["stairs-goal"]}>
+<Ability id="discoveryalchemicalsimulacrum-alchemical-simulacrum-fn4-12" icon={["power"]}>
 <Pair single id="discoveryalchemicalsimulacrum-alchemical-simulacrum-fn4-12"><Link to="/discovery/alchemical_simulacrum">⮞</Link> Alchemical Simulacrum <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.12" id="ability-discoveries-fake-fn-4.12" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Ability">The alchemist gains the ability to create a <Link to="/spell/lesser_simulacrum">lesser simulacrum</Link>. This works like the <em>lesser simulacrum</em> spell, except it costs 100 gp in alchemical materials per Hit Die of the simulacrum, requires 24 hours to grow, and decays into inert flesh rather than ice or snow if killed. The created simulacrum is a creature, not a supernatural effect.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoverydoppelgangersimulacrum-doppelganger-simulacrum-fn4-13" icon={["stairs-goal"]}>
+<Ability id="discoverydoppelgangersimulacrum-doppelganger-simulacrum-fn4-13" icon={["power"]}>
 <Pair single id="discoverydoppelgangersimulacrum-doppelganger-simulacrum-fn4-13"><Link to="/discovery/doppelganger_simulacrum">⮞</Link> Doppelganger Simulacrum <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.13" id="ability-discoveries-fake-fn-4.13" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level alchemist, <Link to="/discovery/alchemical_simulacrum">alchemical simulacrum</Link></Pair>
 <Pair title="Ability">The alchemist learns how to create a <Link to="/spell/simulacrum">simulacrum</Link>, a soulless duplicate, into which he can project his consciousness.</Pair>
@@ -767,53 +767,53 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 <p>Creating a duplicate costs 1,000 gp in alchemical materials and requires 1 week to grow. The created simulacrum is a creature, not a supernatural effect.</p>
 </Pair>
 </Ability>
-<Ability id="discoverygreateralchemicalsimulacrum-greater-alchemical-simulacrum-fn4-14" icon={["stairs-goal"]}>
+<Ability id="discoverygreateralchemicalsimulacrum-greater-alchemical-simulacrum-fn4-14" icon={["power"]}>
 <Pair single id="discoverygreateralchemicalsimulacrum-greater-alchemical-simulacrum-fn4-14"><Link to="/discovery/greater_alchemical_simulacrum">⮞</Link> Greater Alchemical Simulacrum <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.14" id="ability-discoveries-fake-fn-4.14" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">14th-level alchemist, <Link to="/discovery/alchemical_simulacrum">alchemical simulacrum</Link></Pair>
 <Pair title="Ability">The alchemist gains the ability to create a simulacrum. This works like the <Link to="/spell/simulacrum">simulacrum</Link> spell, except it costs 100 gp in alchemical materials per Hit Die of the simulacrum, requires 24 hours to grow, and decays into inert flesh rather than ice or snow if killed. The created simulacrum is a creature, not a supernatural effect.</Pair>
 </Ability>
 </div>
-<Ability id="discoveryalchemicalstrike-alchemical-strike-fn32" icon={["stairs-goal"]}>
+<Ability id="discoveryalchemicalstrike-alchemical-strike-fn32" icon={["power"]}>
 <Pair single id="discoveryalchemicalstrike-alchemical-strike-fn32"><Link to="/discovery/alchemical_strike">⮞</Link> Alchemical Strike <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-32" id="ability-discoveries-fake-fn-32" data-hash-target to="ability-discoveries-fake-fn-32-target">32</InnerLink></sup></Pair>
 <Pair title="Ability">Gain <Link to="/feat/alchemical_strike">Alchemical Strike</Link> as a bonus feat. You do not need to meet its prerequisites.</Pair>
 </Ability>
-<Ability id="discoveryalchemicalzombie-alchemical-zombie-fn4-15" icon={["stairs-goal"]}>
+<Ability id="discoveryalchemicalzombie-alchemical-zombie-fn4-15" icon={["power"]}>
 <Pair single id="discoveryalchemicalzombie-alchemical-zombie-fn4-15"><Link to="/discovery/alchemical_zombie">⮞</Link> Alchemical Zombie <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.15" id="ability-discoveries-fake-fn-4.15" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Ability"><p>The alchemist gains the ability to animate a relatively complete corpse as an alchemy-powered zombie. This process takes 1 hour and costs 100 gp in alchemical reagents per HD of the corpse being animated; the dead creature gains the <Link to="/template/zombie">zombie template</Link>.</p>
 <p>Zombies that are created in this manner count as undead created by <Link to="/spell/animate_dead">animate dead</Link> for the purposes of determining how many undead the alchemist can control. The created zombie is a creature, not a supernatural effect.</p>
 </Pair>
 </Ability>
-<Ability id="discoverybitterpill-bitter-pill-fn13-5" icon={["armor-upgrade"]}>
+<Ability id="discoverybitterpill-bitter-pill-fn13-5" icon={["def"]}>
 <Pair single id="discoverybitterpill-bitter-pill-fn13-5"><Link to="/discovery/bitter_pill">⮞</Link> Bitter Pill <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-13.5" id="ability-discoveries-fake-fn-13.5" data-hash-target to="ability-discoveries-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Passive Ability">The alchemist becomes bitter in flavor. Any creature that hits the bitter alchemist with a bite attack gains the <Link to="/misc/sickened">sickened</Link> condition for 1 round unless it succeeds at a Fortitude save (DC = 10 + half the alchemist's level + the alchemist's Constitution modifier). Any creature that swallows the alchemist whole gains the <Link to="/misc/nauseated">nauseated</Link> condition for 1 round unless it succeeds at a Fortitude save (same DC as above).</Pair>
 <Pair title="Special">If the alchemist is trapped in the creature's gullet and it becomes nauseated, the creature vomits him back out immediately as a free action at the start of the creature's turn; the alchemist lands <Link to="/rule/prone">prone</Link> adjacent to the creature.</Pair>
 </Ability>
-<Ability id="discoverychameleon-chameleon-fn9-12" icon={["armor-upgrade"]}>
+<Ability id="discoverychameleon-chameleon-fn9-12" icon={["def"]}>
 <Pair single id="discoverychameleon-chameleon-fn9-12"><Link to="/discovery/chameleon">⮞</Link> Chameleon <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-9.12" id="ability-discoveries-fake-fn-9.12" data-hash-target to="ability-discoveries-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Ability">An alchemist with this discovery can shift the colors of his skin and equipment to blend in with the surrounding terrain. He gains a +4 enhancement bonus on Stealth checks.</Pair>
 <Pair title="At 10th Level">The bonus on Stealth checks increases to +8.</Pair>
 </Ability>
-<Ability id="discoverygills-gills-fn31-2" icon={["stairs-goal"]}>
+<Ability id="discoverygills-gills-fn31-2" icon={["power"]}>
 <Pair single id="discoverygills-gills-fn31-2"><Link to="/discovery/gills">⮞</Link> Gills <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-31.2" id="ability-discoveries-fake-fn-31.2" data-hash-target to="ability-discoveries-fake-fn-31-target">31</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level alchemist</Pair>
 <Pair title="Ability">An alchemist with this discovery grows a set of <em>gills</em> that allow him to breathe water in addition to breathing air. When on land, the alchemist risks his <em>gills</em> drying out and must bathe his <em>gills</em> with 1/2 gallon of water every 24 hours he is out of the water or take 1 point of <Link to="/rule/constitution_damage">Constitution damage</Link> every hour thereafter.</Pair>
 </Ability>
-<Ability id="discoverylingeringspirit-lingering-spirit-fn4-16" icon={["armor-upgrade"]}>
+<Ability id="discoverylingeringspirit-lingering-spirit-fn4-16" icon={["def"]}>
 <Pair single id="discoverylingeringspirit-lingering-spirit-fn4-16" flavor="The alchemist is familiar enough with the ties between his body and spirit that he lingers at death's door far longer than a normal person."><Link to="/discovery/lingering_spirit">⮞</Link> Lingering Spirit <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.16" id="ability-discoveries-fake-fn-4.16" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level alchemist</Pair>
 <Pair title="Passive Ability">The alchemist treats his Constitution as 10 points higher than normal for the purpose of determining when hit point damage kills him (so an alchemist with a Constitution of 10 and this discovery dies at -20 hit points instead of -10). Reducing him to 0 Constitution or its equivalent (from ability damage, ability drain, Constitution penalties, and so on) makes him unconscious and comatose, but he is only killed after taking an additional 5 points of Constitution damage, drain, or penalty (in effect, the alchemist must be brought to -5 Constitution in order to be killed by these attacks).</Pair>
 </Ability>
-<Ability id="discoverymaterialmastery-material-mastery-fn24-2" icon={["upgrade"]}>
+<Ability id="discoverymaterialmastery-material-mastery-fn24-2" icon={["boost"]}>
 <Pair single id="discoverymaterialmastery-material-mastery-fn24-2"><Link to="/discovery/material_mastery">⮞</Link> Material Mastery <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-24.2" id="ability-discoveries-fake-fn-24.2" data-hash-target to="ability-discoveries-fake-fn-24-target">24</InnerLink></sup></Pair>
 <Pair title="Ability">Your superior knowledge of the nature of matter enables you to ignore spell requirements more easily when crafting magic items. By expending an extract of the same school and level as a spell prerequisite when crafting a magic item, you take only a -2 penalty for ignoring that requirement, instead of -5.</Pair>
 </Ability>
-<Ability id="discoverymethodtothemadness-method-to-the-madness-fn8-3" icon={["upgrade"]}>
+<Ability id="discoverymethodtothemadness-method-to-the-madness-fn8-3" icon={["boost"]}>
 <Pair single id="discoverymethodtothemadness-method-to-the-madness-fn8-3"><Link to="/discovery/method_to_the_madness">⮞</Link> Method to the Madness <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-8.3" id="ability-discoveries-fake-fn-8.3" data-hash-target to="ability-discoveries-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Prerequisites">The <Link to="/monster/derro">madness</Link> extraordinary ability</Pair>
 <Pair title="Ability">The alchemist has learned to channel his madness into one of his alchemist class abilities. When the alchemist takes this discovery, he chooses one of either bombs or extracts. If he selects bombs, he uses his Charisma bonus in place of his Intelligence bonus when determining the bonus to damage and the saving throw DCs of his bombs. If the alchemist selects extracts, he uses his Charisma bonus in place of his Intelligence bonus to calculate bonus extracts per day. This discovery can be taken twice, allowing the alchemist to select both bombs and extracts.</Pair>
 </Ability>
-<Ability id="discoverymonstrousgraft-monstrous-graft-fn8-4" icon={["stairs-goal","mailed-fist","upgrade","broken-shield"]}>
+<Ability id="discoverymonstrousgraft-monstrous-graft-fn8-4" icon={["power","melee","boost","down"]}>
 <Pair single id="discoverymonstrousgraft-monstrous-graft-fn8-4"><Link to="/discovery/monstrous_graft">⮞</Link> Monstrous Graft <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-8.4" id="ability-discoveries-fake-fn-8.4" data-hash-target to="ability-discoveries-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The alchemist can replace up to four of his own amputated limbs with those of a monstrous beast of the same size category.</p>
 <p>If the grafted limb is an arm, the alchemist gains either a climb speed of 15 feet or a claw or slam <Link to="/umr/natural_attack">natural attack</Link> that deals 1d6 points of damage (1d4 for a Small alchemist).</p>
@@ -821,36 +821,36 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 </Pair>
 <Pair title="Special">For each limb the alchemist replaces in this manner, he takes a -2 penalty to Wisdom as he loses his sense of self. <Link to="/monster/derro">Derros</Link> are immune to this penalty.</Pair>
 </Ability>
-<Ability id="discoveryphantomlimb-phantom-limb-fn5-3" icon={["stairs-goal","magic-palm"]}>
+<Ability id="discoveryphantomlimb-phantom-limb-fn5-3" icon={["power","touch"]}>
 <Pair single id="discoveryphantomlimb-phantom-limb-fn5-3"><Link to="/discovery/phantom_limb">⮞</Link> Phantom Limb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-5.3" id="ability-discoveries-fake-fn-5.3" data-hash-target to="ability-discoveries-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Ability">The alchemist can manifest a ghostly, incorporeal arm that juts out from his torso. This <em>phantom limb</em> does not grant the alchemist any extra attacks or actions per round, and it cannot hold or grab anything (including incorporeal objects).</Pair>
 <Pair title="Standard Action">The alchemist may use his <em>phantom limb</em> to make a touch attack against a foe, scraping away at the very fibers of the victim's soul. This attack deals 1d4 points of damage per alchemist level (Fortitude half). Creatures that are immune to incorporeal attacks are immune to this damage, but otherwise the damage bypasses all forms of damage reduction except DR/epic.</Pair>
 <Pair title="Special">The alchemist may suppress or activate this ability as a <strong className="hl">free action</strong>, and can use his <em>phantom limb</em> for a number of rounds per day equal to 3 + his Intelligence modifier (these rounds need not be consecutive).</Pair>
 </Ability>
-<Ability id="discoverypheromones-pheromones-fn13-6" icon={["upgrade"]}>
+<Ability id="discoverypheromones-pheromones-fn13-6" icon={["boost"]}>
 <Pair single id="discoverypheromones-pheromones-fn13-6"><Link to="/discovery/pheromones">⮞</Link> Pheromones <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-13.6" id="ability-discoveries-fake-fn-13.6" data-hash-target to="ability-discoveries-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Passive Ability">The alchemist exudes an imperceptible musk that grants him a permanent +3 competence bonus on Bluff, Diplomacy, and Intimidate checks.</Pair>
 </Ability>
-<Ability id="discoverypreserveorgans-preserve-organs-fn4-17" icon={["armor-upgrade"]}>
+<Ability id="discoverypreserveorgans-preserve-organs-fn4-17" icon={["def"]}>
 <Pair single id="discoverypreserveorgans-preserve-organs-fn4-17" flavor="The alchemist learns how to preserve and protect his vital organs, reducing the chance of a mortal wound."><Link to="/discovery/preserve_organs">⮞</Link> Preserve Organs <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.17" id="ability-discoveries-fake-fn-4.17" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Passive Ability">When a critical hit or sneak attack is scored on the alchemist, there is a 25% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. This does not stack with similar abilities that negate critical hits and sneak attacks (such as <Link to="/magic-enh/fortification">fortification</Link> armor).</Pair>
 <Pair title="Special">An alchemist can take this discovery up to three times; the effects stack, increasing this chance to 50% and then 75%.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoverymummification-mummification-fn4-18" icon={["armor-upgrade"]}>
+<Ability id="discoverymummification-mummification-fn4-18" icon={["def"]}>
 <Pair single id="discoverymummification-mummification-fn4-18" flavor="The alchemist has mastered preserving flesh and applied this knowledge to his own body, turning himself into an undead-like creature."><Link to="/discovery/mummification">⮞</Link> Mummification <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.18" id="ability-discoveries-fake-fn-4.18" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level alchemist, <Link to="/discovery/preserve_organs">preserve organs</Link></Pair>
 <Pair title="Ability">After learning this discovery, the alchemist must perform a 30-day regimen of a special diet, rigorous exercise, and drinking a mildly poisonous alchemical tea. At the end of this regimen, he falls unconscious for 24 hours, then awakens as a "living mummy." The alchemist's type does not change, but he becomes immune to cold, nonlethal damage, paralysis, and sleep.</Pair>
 </Ability>
 </div>
-<Ability id="discoveryprometheandisciple-promethean-disciple-fn33" icon={["stairs-goal"]}>
+<Ability id="discoveryprometheandisciple-promethean-disciple-fn33" icon={["power"]}>
 <Pair single id="discoveryprometheandisciple-promethean-disciple-fn33" flavor="An alchemist with this discovery learns how to craft constructs by way of alchemical research rather than arcane magic."><Link to="/discovery/promethean_disciple">⮞</Link> Promethean Disciple <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-33" id="ability-discoveries-fake-fn-33" data-hash-target to="ability-discoveries-fake-fn-33-target">33</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level alchemist</Pair>
 <Pair title="Ability">The alchemist gains <Link to="/feat/craft_construct">Craft Construct</Link> as a bonus feat without needing to meet its requirements. The alchemist substitutes his number of ranks in <Link to="/skill/craft">Craft</Link> (alchemy) for his total caster level and must use Craft (alchemy) to create the construct.</Pair>
 <Pair title="Special">The DC to create the construct still increases for any necessary spells that the alchemist does not have access to. However, the alchemist can use extracts in place of spells as spell prerequisites.</Pair>
 </Ability>
-<Ability id="discoverypsychokinetictincture-psychokinetic-tincture-fn5-4" icon={["armor-upgrade","smoking-finger","armor-downgrade"]}>
+<Ability id="discoverypsychokinetictincture-psychokinetic-tincture-fn5-4" icon={["def","zap","lower"]}>
 <Pair single id="discoverypsychokinetictincture-psychokinetic-tincture-fn5-4" flavor="The alchemist can concoct a foul-tasting tincture that harnesses the power of the spirit."><Link to="/discovery/psychokinetic_tincture">⮞</Link> Psychokinetic Tincture <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-5.4" id="ability-discoveries-fake-fn-5.4" data-hash-target to="ability-discoveries-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level alchemist</Pair>
 <Pair title="Usage">Once per day</Pair>
@@ -858,12 +858,12 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 <Pair title="Standard Action">The alchemist can launch one of these spirits toward a target as a ranged touch attack. Launching a spirit this way reduces this discovery's deflection bonus to AC by 1. As a launched spirit passes through its target's body, it emits a terrible wail heard only in the target's mind, causing the target to become <Link to="/misc/frightened">frightened</Link> for 1 round per alchemist level (Will negates). This is a mind-affecting fear effect. A creature that successfully saves against the wail cannot be affected by this discovery again for 24 hours.</Pair>
 <Pair title="Special">The spirits whirl around the alchemist's body for 10 minutes per alchemist level, or until the alchemist has launched all of the spirits.</Pair>
 </Ability>
-<Ability id="discoveryrangedbaptism-ranged-baptism-fn15-4" icon={["upgrade"]}>
+<Ability id="discoveryrangedbaptism-ranged-baptism-fn15-4" icon={["boost"]}>
 <Pair single id="discoveryrangedbaptism-ranged-baptism-fn15-4"><Link to="/discovery/ranged_baptism">⮞</Link> Ranged Baptism <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-15.4" id="ability-discoveries-fake-fn-15.4" data-hash-target to="ability-discoveries-fake-fn-15-target">15</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level alchemist</Pair>
 <Pair title="Ability">When the alchemist uses <Link to="/eq-weapon/holy_water">holy water</Link> as a splash weapon, any squares subject to its effects (including creatures affected by splash damage) or that contain creatures subject to its effects are also affected as if by <Link to="/spell/consecrate">consecrate</Link>, for a number of rounds equal to the alchemist's Intelligence modifier. Undead struck by holy water remain affected by the <em>consecrate</em> effect even if they leave the affected area.</Pair>
 </Ability>
-<Ability id="discoverysleeperagent-sleeper-agent-fn8-5" icon={["stairs-goal","magic-swirl"]}>
+<Ability id="discoverysleeperagent-sleeper-agent-fn8-5" icon={["power","magic"]}>
 <Pair single id="discoverysleeperagent-sleeper-agent-fn8-5" flavor={<>The alchemist learns how to create a <em>sleeper agent,</em> whom he releases back into its original society none the wiser.</>}><Link to="/discovery/sleeper_agent">⮞</Link> Sleeper Agent <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-8.5" id="ability-discoveries-fake-fn-8.5" data-hash-target to="ability-discoveries-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level alchemist</Pair>
 <Pair title="Ability"><p>The alchemist can create a <em>sleeper agent</em> in a ritual that takes 1 minute; the target must be unconscious for the ritual's duration.</p>
@@ -871,38 +871,38 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 </Pair>
 <Pair title="Special">If the <em>sleeper agent</em> is killed or the <em>dominate person</em> effect's duration expires, the <em>sleeper agent</em> is permanently released from the alchemist's control. The alchemist can also release any <em>sleeper agent</em> as a <strong className="hl">free action</strong>. The alchemist can have one active <em>sleeper agent</em> for every 6 alchemist levels he possesses.</Pair>
 </Ability>
-<Ability id="discoveryspellknowledge-spell-knowledge-fn24-3" icon={["spell-book"]}>
+<Ability id="discoveryspellknowledge-spell-knowledge-fn24-3" icon={["learn"]}>
 <Pair single id="discoveryspellknowledge-spell-knowledge-fn24-3" flavor="Your studies into how all things are interconnected have taught you to cast a very limited number of spells."><Link to="/discovery/spell_knowledge">⮞</Link> Spell Knowledge <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-24.3" id="ability-discoveries-fake-fn-24.3" data-hash-target to="ability-discoveries-fake-fn-24-target">24</InnerLink></sup></Pair>
 <Pair title="Ability"><p>Select a single spell from the <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/wizard_spell">wizard spell list</Link> that is at least 2 levels lower than your highest-level extract known. You can prepare and cast this spell as an arcane spell.</p>
 <p>Preparing the spell uses up an extract slot 1 level higher than the spell's level. Your caster level is equal to your alchemist level, and your save DCs and <Link to="/rule/concentration">concentration</Link> checks are Intelligence-based. You're considered to have this spell on your spell list for purposes of prerequisites, <Link to="/misc/spell_completion">spell completion</Link> items, and <Link to="/misc/spell_trigger">spell trigger</Link> items.</p>
 </Pair>
 <Pair title="Special">You may select this discovery more than once. Each time, it grants you access to another spell from the sorcerer/wizard spell list.</Pair>
 </Ability>
-<Ability id="discoveryspontaneoushealing-spontaneous-healing-fn4-19" icon={["armor-upgrade"]}>
+<Ability id="discoveryspontaneoushealing-spontaneous-healing-fn4-19" icon={["def"]}>
 <Pair single id="discoveryspontaneoushealing-spontaneous-healing-fn4-19" flavor="The alchemist gains the ability to heal from wounds rapidly."><Link to="/discovery/spontaneous_healing">⮞</Link> Spontaneous Healing <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.19" id="ability-discoveries-fake-fn-4.19" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Free Action">Once per round, the alchemist can heal 5 hit points as if he had the <Link to="/umr/fast_healing">fast healing</Link> ability. He can heal 5 hit points per day in this manner for every 2 alchemist levels he possesses.</Pair>
 <Pair title="Special">If the alchemist falls unconscious because of hit point damage and he still has healing available from this ability, the ability activates automatically each round until he is conscious again or the ability is depleted for the day.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoveryhealingtouch-healing-touch-fn4-20" icon={["remedy","armor-upgrade"]}>
+<Ability id="discoveryhealingtouch-healing-touch-fn4-20" icon={["aid","def"]}>
 <Pair single id="discoveryhealingtouch-healing-touch-fn4-20" flavor="The alchemist gains the ability to heal other creatures."><Link to="/discovery/healing_touch">⮞</Link> Healing Touch <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.20" id="ability-discoveries-fake-fn-4.20" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level alchemist, <Link to="/discovery/spontaneous_healing">spontaneous healing</Link></Pair>
 <Pair title="Standard Action">The alchemist may touch a creature and apply 1 round's effect of his <em>spontaneous healing</em> discovery to that creature; this counts toward his <em>spontaneous healing</em> limit for the day.</Pair>
 <Pair title="Special">The alchemist's daily limit for hit points healed by <em>spontaneous healing</em> increases to 5 &times; his alchemist level. This ability only functions if the target is the same type of creature (humanoid, undead, and so on) as the alchemist</Pair>
 </Ability>
 </div>
-<Ability id="discoverysunlightacclimation-sunlight-acclimation-fn8-6" icon={["armor-upgrade"]}>
+<Ability id="discoverysunlightacclimation-sunlight-acclimation-fn8-6" icon={["def"]}>
 <Pair single id="discoverysunlightacclimation-sunlight-acclimation-fn8-6" flavor="Time spent in the bright light of day has partially inured the alchemist to its effects."><Link to="/discovery/sunlight_acclimation">⮞</Link> Sunlight Acclimation <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-8.6" id="ability-discoveries-fake-fn-8.6" data-hash-target to="ability-discoveries-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Passive Ability">When the alchemist would normally take Constitution damage as a result of vulnerability to sunlight, he can attempt a DC 11 Fortitude saving throw to negate the effects. The DC of this saving throw increases by 1 for each hour after the first spent in sunlight within the last 24 hours.</Pair>
 </Ability>
-<Ability id="discoverytentacle-tentacle-fn4-21" icon={["stairs-goal"]}>
+<Ability id="discoverytentacle-tentacle-fn4-21" icon={["power"]}>
 <Pair single id="discoverytentacle-tentacle-fn4-21"><Link to="/discovery/tentacle">⮞</Link> Tentacle <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.21" id="ability-discoveries-fake-fn-4.21" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The alchemist gains a prehensile, arm-length <em>tentacle</em> on his body. The <em>tentacle</em> is fully under his control and cannot be concealed except with magic or bulky clothing.</p>
 <p>The <em>tentacle</em> does not give the alchemist any extra attacks or actions per round, though he can use it to make a <Link to="/umr/tentacle_attack">tentacle attack</Link> (1d4 damage for a Medium alchemist, 1d3 damage for a Small one) with the <Link to="/umr/grab">grab</Link> ability.</p>
 <p>The <em>tentacle</em> can manipulate or hold items as well as the alchemist's original arms can (for example, allowing the alchemist to use one hand to wield a weapon, the <em>tentacle</em> to hold a potion, and the third hand to throw a bomb). Unlike an arm, the <em>tentacle</em> has no magic item slots.</p>
 </Pair>
 </Ability>
-<Ability id="discoverytumorfamiliar-tumor-familiar-fn4-22" icon={["stairs-goal"]}>
+<Ability id="discoverytumorfamiliar-tumor-familiar-fn4-22" icon={["power"]}>
 <Pair single id="discoverytumorfamiliar-tumor-familiar-fn4-22"><Link to="/discovery/tumor_familiar">⮞</Link> Tumor Familiar <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.22" id="ability-discoveries-fake-fn-4.22" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The alchemist creates a Diminutive or Tiny tumor on his body, usually on his back or stomach.</p>
 <p>As a <strong className="hl">standard action</strong>, the alchemist can have the tumor detach itself from his body as a separate creature vaguely resembling a kind of animal suitable for a <Link to="/ability/familiar">familiar</Link> (bat, cat, and so on) and move about as if it were an independent creature. The tumor can reattach itself to the alchemist as a <strong className="hl">standard action</strong>.</p>
@@ -911,7 +911,7 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 </Pair>
 <Pair title="Special">An alchemist's extracts and <em>mutagens</em> are considered spells for the purposes of familiar abilities like <em>share spells</em> and <em>deliver touch spells.</em> If a <em>tumor familiar</em> is lost or dies, it can be replaced 1 week later through a specialized procedure that costs 200 gp per alchemist level. The ritual takes 8 hours to complete.</Pair>
 </Ability>
-<Ability id="discoveryvestigialarm-vestigial-arm-fn4-23" icon={["stairs-goal"]}>
+<Ability id="discoveryvestigialarm-vestigial-arm-fn4-23" icon={["power"]}>
 <Pair single id="discoveryvestigialarm-vestigial-arm-fn4-23"><Link to="/discovery/vestigial_arm">⮞</Link> Vestigial Arm <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.23" id="ability-discoveries-fake-fn-4.23" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The alchemist gains a new arm (left or right) on his torso. The arm is fully under his control and cannot be concealed except with magic or bulky clothing.</p>
 <p>The arm does not give the alchemist any extra attacks or actions per round, though the arm can wield a weapon and make attacks as part of the alchemist's attack routine (using <Link to="/rule/two_weapon_fighting">two-weapon fighting</Link>).</p>
@@ -921,7 +921,7 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 <Pair title="Special">An alchemist may take this discovery up to two times.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoveryparasitictwin-parasitic-twin-fn4-24" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="discoveryparasitictwin-parasitic-twin-fn4-24" icon={["power","def"]}>
 <Pair single id="discoveryparasitictwin-parasitic-twin-fn4-24"><Link to="/discovery/parasitic_twin">⮞</Link> Parasitic Twin <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.24" id="ability-discoveries-fake-fn-4.24" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Taken the <Link to="/discovery/vestigial_arm">vestigial arm</Link> discovery twice</Pair>
 <Pair title="Ability"><p>The alchemist's vestigial limbs are part of a <em>parasitic twin</em> on his torso, consisting of a head, a torso, and two arms (from the <em>vestigial arm</em> discovery).</p>
@@ -930,7 +930,7 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 <Pair title="Passive Ability">Once per day, if the alchemist succumbs to a mental effect that would make him unconscious, helpless, or not in control of his own actions (such as <Link to="/spell/charm_person">charm person</Link>, <Link to="/spell/feeblemind">feeblemind</Link>, or <Link to="/spell/hold_person">hold person</Link>), he can reroll his saving throw; success means the twin absorbs the effect and the alchemist can ignore it. Using this ability <Link to="/misc/sicken">sickens</Link> the alchemist for the duration of the absorbed effect (removing the effect from the twin ends the sickened condition), and he cannot use the twin's limbs during that time, though passive effects (such as from rings worn on the vestigial limbs) continue normally.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoverysubsumedspirit-subsumed-spirit-fn8-7" icon={["upgrade","armor-downgrade"]}>
+<Ability id="discoverysubsumedspirit-subsumed-spirit-fn8-7" icon={["boost","lower"]}>
 <Pair single id="discoverysubsumedspirit-subsumed-spirit-fn8-7" flavor="As the alchemist grows in power, his parasitic twin laps up a portion of his soul, like a dog feeding on its master's scraps."><Link to="/discovery/subsumed_spirit">⮞</Link> Subsumed Spirit <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-8.7" id="ability-discoveries-fake-fn-8.7" data-hash-target to="ability-discoveries-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/discovery/parasitic_twin">Parasitic twin</Link></Pair>
 <Pair title="Ability">The alchemist's parasitic twin can now manifest or hide within the alchemist's torso as a <strong className="hl">move action</strong>.</Pair>
@@ -940,16 +940,16 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 </Ability>
 </div>
 </div>
-<Ability id="discoverywebbedextremities-webbed-extremities-fn31-3" icon={["upgrade"]}>
+<Ability id="discoverywebbedextremities-webbed-extremities-fn31-3" icon={["boost"]}>
 <Pair single id="discoverywebbedextremities-webbed-extremities-fn31-3" flavor="An alchemist with this discovery grows membranes between his fingers and toes, greatly improving his movement underwater."><Link to="/discovery/webbed_extremities">⮞</Link> Webbed Extremities <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-31.3" id="ability-discoveries-fake-fn-31.3" data-hash-target to="ability-discoveries-fake-fn-31-target">31</InnerLink></sup></Pair>
 <Pair title="Passive Ability">The alchemist gains a +4 alchemical bonus on Swim checks and can take 10 on a Swim check even if distracted or endangered while swimming.</Pair>
 </Ability>
-<Ability id="discoverywetcoat-wet-coat-fn31-4" icon={["armor-upgrade"]}>
+<Ability id="discoverywetcoat-wet-coat-fn31-4" icon={["def"]}>
 <Pair single id="discoverywetcoat-wet-coat-fn31-4"><Link to="/discovery/wet_coat">⮞</Link> Wet Coat <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-31.4" id="ability-discoveries-fake-fn-31.4" data-hash-target to="ability-discoveries-fake-fn-31-target">31</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level alchemist, <Link to="/subtype/aquatic">Aquatic</Link> subtype, <Link to="/umr/water_dependency">water dependency</Link> special quality</Pair>
 <Pair title="Passive Ability">An alchemist with this discovery has conditioned his body so that it never completely dries out when on land. He effectively becomes immune to any detrimental effects of his water dependency.</Pair>
 </Ability>
-<Ability id="discoverywings-wings-fn4-25" icon={["stairs-goal"]}>
+<Ability id="discoverywings-wings-fn4-25" icon={["power"]}>
 <Pair single id="discoverywings-wings-fn4-25"><Link to="/discovery/wings">⮞</Link> Wings <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-4.25" id="ability-discoveries-fake-fn-4.25" data-hash-target to="ability-discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level alchemist</Pair>
 <Pair title="Ability">The alchemist gains bat-like, bird-like, or insect-like functional wings, allowing him to fly as the <Link to="/spell/fly">fly</Link> spell for a number of minutes per day equal to his caster level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments.</Pair>
@@ -993,33 +993,33 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 const _grand_discoveries = {title: "Grand Discoveries", topLink: ["Alchemist","class/alchemist"], jsx: <div className="compilation"><h2 id="ability-grand_discoveries-grand-discoveries">Grand Discoveries</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <p>At 20th level, the alchemist makes a grand discovery. He immediately learns two normal discoveries, but also learns a third discovery chosen from the list below, representing a truly astounding alchemical breakthrough of significant import. For many alchemists, the promise of one of these grand discoveries is the primary goal of their experiments and hard work.</p>
-<Ability id="discoveryawakenedintellect-awakened-intellect-fn1" icon={["upgrade"]}>
+<Ability id="discoveryawakenedintellect-awakened-intellect-fn1" icon={["boost"]}>
 <Pair single id="discoveryawakenedintellect-awakened-intellect-fn1"><Link to="/discovery/awakened_intellect">⮞</Link> Awakened Intellect <sup><InnerLink showBacklink="backlink-ability-grand_discoveries-fake-fn-1" id="ability-grand_discoveries-fake-fn-1" data-hash-target to="ability-grand_discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Passive Ability">The alchemist's constant exposure to strange chemicals has expanded his mind. His Intelligence score permanently increases by 2 points.</Pair>
 </Ability>
-<Ability id="discoverygreaterchangealignment-greater-change-alignment-su-fn2" icon={["upgrade"]}>
+<Ability id="discoverygreaterchangealignment-greater-change-alignment-su-fn2" icon={["boost"]}>
 <Pair single id="discoverygreaterchangealignment-greater-change-alignment-su-fn2"><Link to="/discovery/greater_change_alignment">⮞</Link> Greater Change Alignment (Su) <sup><InnerLink showBacklink="backlink-ability-grand_discoveries-fake-fn-2" id="ability-grand_discoveries-fake-fn-2" data-hash-target to="ability-grand_discoveries-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/discovery/change_alignment">Change alignment</Link>, <Link to="/discovery/infusion">infusion</Link></Pair>
 <Pair title="Ability">The effects of the alchemist's <em>change alignment</em> infusion become permanent and can only be reversed by a <Link to="/spell/wish">wish</Link> or <Link to="/spell/miracle">miracle</Link>.</Pair>
 <Pair title="Special">A permanent, forced change of alignment may be devastating, and some believe it is little better than zealous slavery or mind control. Others consider a good alignment brought about by any means but purity of heart an affront to freedom. This discovery remains controversial at best.</Pair>
 </Ability>
-<Ability id="discoveryeternalyouth-eternal-youth-fn1-2" icon={["upgrade"]}>
+<Ability id="discoveryeternalyouth-eternal-youth-fn1-2" icon={["boost"]}>
 <Pair single id="discoveryeternalyouth-eternal-youth-fn1-2"><Link to="/discovery/eternal_youth">⮞</Link> Eternal Youth <sup><InnerLink showBacklink="backlink-ability-grand_discoveries-fake-fn-1.2" id="ability-grand_discoveries-fake-fn-1.2" data-hash-target to="ability-grand_discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Passive Ability">The alchemist has discovered a cure for aging, and from this point forward he takes no penalty to his physical ability scores from <Link to="/rule/age">advanced age</Link>. If the alchemist is already taking such penalties, they are removed at this time.</Pair>
 </Ability>
-<Ability id="discoveryfasthealing-fast-healing-fn1-3" icon={["armor-upgrade"]}>
+<Ability id="discoveryfasthealing-fast-healing-fn1-3" icon={["def"]}>
 <Pair single id="discoveryfasthealing-fast-healing-fn1-3"><Link to="/discovery/fast_healing">⮞</Link> Fast Healing <sup><InnerLink showBacklink="backlink-ability-grand_discoveries-fake-fn-1.3" id="ability-grand_discoveries-fake-fn-1.3" data-hash-target to="ability-grand_discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Passive Ability">The alchemist's flesh responds to damage with shocking speed - he gains <Link to="/umr/fast_healing">fast healing</Link> 5.</Pair>
 </Ability>
-<Ability id="discoveryphilosophersstone-philosophers-stone-fn1-4" icon={["stairs-goal"]}>
+<Ability id="discoveryphilosophersstone-philosophers-stone-fn1-4" icon={["power"]}>
 <Pair single id="discoveryphilosophersstone-philosophers-stone-fn1-4"><Link to="/discovery/philosophers_stone">⮞</Link> Philosopher's Stone <sup><InnerLink showBacklink="backlink-ability-grand_discoveries-fake-fn-1.4" id="ability-grand_discoveries-fake-fn-1.4" data-hash-target to="ability-grand_discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">The alchemist learns how to create a <Link to="/magic-artifact/philosophers_stone">philosopher's stone</Link>, and can do so once per month at no cost. Creating a <em>philosopher's stone</em> takes 1 day of work.</Pair>
 </Ability>
-<Ability id="discoverypoisontouch-poison-touch-fn1-5" icon={["magic-palm"]}>
+<Ability id="discoverypoisontouch-poison-touch-fn1-5" icon={["touch"]}>
 <Pair single id="discoverypoisontouch-poison-touch-fn1-5"><Link to="/discovery/poison_touch">⮞</Link> Poison Touch <sup><InnerLink showBacklink="backlink-ability-grand_discoveries-fake-fn-1.5" id="ability-grand_discoveries-fake-fn-1.5" data-hash-target to="ability-grand_discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">The alchemist gains a poisonous touch, as if under the effects of a <Link to="/spell/poison">poison</Link> spell. He can suppress or activate this ability as a <strong className="hl">free action</strong>. The physical appearance of how the alchemist generates and delivers his poisonous touch varies from alchemist to alchemist.</Pair>
 </Ability>
-<Ability id="discoverytruemutagen-true-mutagen-fn1-6" icon={["armor-upgrade","upgrade","broken-shield"]}>
+<Ability id="discoverytruemutagen-true-mutagen-fn1-6" icon={["def","boost","down"]}>
 <Pair single id="discoverytruemutagen-true-mutagen-fn1-6"><Link to="/discovery/true_mutagen">⮞</Link> True Mutagen <sup><InnerLink showBacklink="backlink-ability-grand_discoveries-fake-fn-1.6" id="ability-grand_discoveries-fake-fn-1.6" data-hash-target to="ability-grand_discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/discovery/grand_mutagen">Grand mutagen</Link></Pair>
 <Pair title="Passive Ability">The alchemist's <em>mutagen</em> now grants a +8 natural armor bonus and a +8 alchemical bonus to Strength, Dexterity, and Constitution. The alchemist takes a -2 penalty to his Intelligence, Wisdom, and Charisma as long as the <em>mutagen</em> persists.</Pair>
@@ -1033,63 +1033,63 @@ const _unchained_rogue_talents = {hasJL:true,title: "Unchained Rogue Talents", t
 <p>Also see: <Link to="/ability/advanced_unchained_rogue_talents">advanced unchained rogue talents</Link>, available starting at 10th level.</p>
 <h3 id="ability-unchained_rogue_talents-primary-sneak-attack-talents" data-hash-target>Primary Sneak Attack Talents</h3>
 <p>These talents add effects to a rogue's <Link to="/ability/sneak_attack">sneak attack</Link>. Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.</p>
-<Ability id="talentarmorpiercer-armor-piercer-ex-fn1" icon={["armor-downgrade"]}>
+<Ability id="talentarmorpiercer-armor-piercer-ex-fn1" icon={["lower"]}>
 <Pair single id="talentarmorpiercer-armor-piercer-ex-fn1" flavor="A rogue with this talent can cause her sneak attacks to pierce through natural armor."><Link to="/talent/armor_piercer">⮞</Link> Armor Piercer (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-1" id="ability-unchained_rogue_talents-fake-fn-1" data-hash-target to="ability-unchained_rogue_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">When she hits with an attack that deals sneak attack damage, she can forgo one or more of her sneak attack dice to reduce the target's natural armor bonus by that amount (minimum natural armor bonus of +0) until the end of her next turn. A creature cannot be affected by this ability again for 1 minute.</Pair>
 </Ability>
-<Ability id="talentbleedingattack-bleeding-attack-ex-fn2" icon={["upgrade"]}>
+<Ability id="talentbleedingattack-bleeding-attack-ex-fn2" icon={["boost"]}>
 <Pair single id="talentbleedingattack-bleeding-attack-ex-fn2"><Link to="/talent/bleeding_attack">⮞</Link> Bleeding Attack (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-2" id="ability-unchained_rogue_talents-fake-fn-2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this ability can cause living opponents to bleed by hitting them with a sneak attack. This attack causes the target to take 1 additional point of damage each round for each die of the rogue's sneak attack (e.g., 4d6 equals 4 points of <Link to="/rule/bleed">bleed</Link>). Bleeding creatures take that amount of damage every round at the start of each of their turns. The bleeding can be stopped by a DC 15 Heal check or the application of any effect that heals hit point damage. Bleeding damage from this ability does not stack with itself. Bleeding damage bypasses any damage reduction the creature might possess.</Pair>
 </Ability>
-<Ability id="talentdistractingattack-distracting-attack-ex-fn3" icon={["armor-downgrade"]}>
+<Ability id="talentdistractingattack-distracting-attack-ex-fn3" icon={["lower"]}>
 <Pair single id="talentdistractingattack-distracting-attack-ex-fn3" flavor="A rogue with this talent can make sneak attacks with subtle flourishes that disorient and distract her enemy."><Link to="/talent/distracting_attack">⮞</Link> Distracting Attack (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-3" id="ability-unchained_rogue_talents-fake-fn-3" data-hash-target to="ability-unchained_rogue_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">When she hits a creature with a melee attack that deals sneak attack damage, she can forgo the additional damage to cause the creature to become <Link to="/rule/flat_footed">flat-footed</Link> against one target of her choosing until the beginning of her next turn. The rogue cannot designate herself as the creature gaining the benefit of this talent.</Pair>
 <Pair title="Special">Creatures with <Link to="/ability/uncanny_dodge">uncanny dodge</Link> are immune to distracting attack.</Pair>
 </Ability>
-<Ability id="talentemboldeningstrike-emboldening-strike-ex-fn4" icon={["armor-upgrade"]}>
+<Ability id="talentemboldeningstrike-emboldening-strike-ex-fn4" icon={["def"]}>
 <Pair single id="talentemboldeningstrike-emboldening-strike-ex-fn4"><Link to="/talent/emboldening_strike">⮞</Link> Emboldening Strike (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-4" id="ability-unchained_rogue_talents-fake-fn-4" data-hash-target to="ability-unchained_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">When a rogue with this talent hits a creature with a melee attack that deals sneak attack damage, she gains a +1 circumstance bonus on saving throws for every 2 sneak attack dice rolled (minimum +1) for 1 round.</Pair>
 </Ability>
-<Ability id="talentextinguishingstrike-extinguishing-strike-ex-fn4-2" icon={["magic-swirl"]}>
+<Ability id="talentextinguishingstrike-extinguishing-strike-ex-fn4-2" icon={["magic"]}>
 <Pair single id="talentextinguishingstrike-extinguishing-strike-ex-fn4-2"><Link to="/talent/extinguishing_strike">⮞</Link> Extinguishing Strike (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-4.2" id="ability-unchained_rogue_talents-fake-fn-4.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">When a rogue with this talent hits a creature with a melee attack that deals sneak attack damage, any nonmagical light sources worn or carried by the creature (such as lit torches, lanterns, or sunrods) are automatically extinguished.</Pair>
 <Pair title="Ability">Once per day, the rogue can use this ability to also attempt a dispel check (as per <Link to="/spell/dispel_magic">dispel magic</Link>) against any magical sources of light a target carries, using her rogue level as the caster level.</Pair>
 </Ability>
-<Ability id="talentfocusingattack-focusing-attack-ex-fn4-3" icon={["armor-upgrade"]}>
+<Ability id="talentfocusingattack-focusing-attack-ex-fn4-3" icon={["def"]}>
 <Pair single id="talentfocusingattack-focusing-attack-ex-fn4-3"><Link to="/talent/focusing_attack">⮞</Link> Focusing Attack (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-4.3" id="ability-unchained_rogue_talents-fake-fn-4.3" data-hash-target to="ability-unchained_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">When a rogue selects this talent, she must choose the <Link to="/misc/confused">confused</Link>, <Link to="/misc/shaken">shaken</Link>, or <Link to="/misc/sickened">sickened</Link> condition. When the rogue has the selected condition and hits a creature with a melee attack that deals sneak attack damage, the rogue no longer has that condition.</Pair>
 <Pair title="Special">A rogue can take this talent up to three times. Each time, she must select a different condition that she is able to remove from herself with a melee attack that deals sneak attack damage. Even if the rogue has taken this talent multiple times, she can remove only a single effect on herself with each melee attack that deals sneak attack damage.</Pair>
 </Ability>
-<Ability id="talentobscuringblow-obscuring-blow-ex-fn4-4" icon={["armor-downgrade"]}>
+<Ability id="talentobscuringblow-obscuring-blow-ex-fn4-4" icon={["lower"]}>
 <Pair single id="talentobscuringblow-obscuring-blow-ex-fn4-4"><Link to="/talent/obscuring_blow">⮞</Link> Obscuring Blow (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-4.4" id="ability-unchained_rogue_talents-fake-fn-4.4" data-hash-target to="ability-unchained_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability"><p>Once per day, the rogue can forgo her potential to deal sneak attack damage to attempt to cloud an opponent's vision. She must declare the use of <em>obscuring blow</em> before she makes the attack.</p>
 <p>If the attack hits, it does normal damage but, instead of dealing sneak attack damage (and any effect that triggers when the rogue deals sneak attack damage), the target treats all other creatures as if they had <Link to="/rule/concealment">concealment</Link>, suffering a 20% miss chance on all attack rolls for a number of rounds equal to half the rogue's level. A successful Fortitude saving throw reduces this effect to 1 round. The DC of this saving throw is equal to 10 + 1/2 the rogue's level + the rogue's Intelligence modifier.</p>
 </Pair>
 </Ability>
-<Ability id="talentpowerfulsneakunchainedrogue-powerful-sneak-unchained-rogue-ex-fn5" icon={["broken-shield","upgrade"]}>
+<Ability id="talentpowerfulsneakunchainedrogue-powerful-sneak-unchained-rogue-ex-fn5" icon={["down","boost"]}>
 <Pair single id="talentpowerfulsneakunchainedrogue-powerful-sneak-unchained-rogue-ex-fn5"><Link to="/talent/powerful_sneak_unchained_rogue">⮞</Link> Powerful Sneak (Unchained Rogue) (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-5" id="ability-unchained_rogue_talents-fake-fn-5" data-hash-target to="ability-unchained_rogue_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">Whenever a rogue with this talent takes a full attack action, she can elect to take a -2 penalty on all attack rolls until the start of her next turn. If an attack during this time is a sneak attack, she treats all 1s on the sneak attack damage dice as 2s. She can reroll multiple dice, but she can't reroll any individual die more than once per attack.</Pair>
 </Ability>
-<Ability id="talentseveralignment-sever-alignment-su-fn6" icon={["armor-downgrade"]}>
+<Ability id="talentseveralignment-sever-alignment-su-fn6" icon={["lower"]}>
 <Pair single id="talentseveralignment-sever-alignment-su-fn6"><Link to="/talent/sever_alignment">⮞</Link> Sever Alignment (Su) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-6" id="ability-unchained_rogue_talents-fake-fn-6" data-hash-target to="ability-unchained_rogue_talents-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/aligned_sneak_attack">Aligned sneak attack</Link></Pair>
 <Pair title="Ability">When making a sneak attack against an opponent with an alignment subtype, a rogue with this talent can forgo her sneak attack damage to scramble the creature's metaphysical nature. If the attack succeeds, the rogue deals weapon damage as normal, and the target must succeed at a Fortitude save (DC = 10 + half the rogue's level + the rogue's Intelligence modifier) or lose all damage reduction overcome by aligned weapons (such as DR 10/good), lose all <Link to="/umr/regeneration">regeneration</Link> overcome by aligned sources (such as regeneration 10 [good]).</Pair>
 </Ability>
-<Ability id="talentshadowschill-shadows-chill-su-fn4-5" icon={["upgrade"]}>
+<Ability id="talentshadowschill-shadows-chill-su-fn4-5" icon={["boost"]}>
 <Pair single id="talentshadowschill-shadows-chill-su-fn4-5"><Link to="/talent/shadows_chill">⮞</Link> Shadow's Chill (Su) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-4.5" id="ability-unchained_rogue_talents-fake-fn-4.5" data-hash-target to="ability-unchained_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Cold <Link to="/umr/resistance">resistance</Link> from a racial trait</Pair>
 <Pair title="Ability">When a rogue with this talent hits a creature with a melee weapon that deals sneak attack damage, a number of points of the damage dealt equal to the number of sneak attack dice rolled is cold damage. The remainder of the sneak attack damage and the normal weapon damage are unaffected.</Pair>
 </Ability>
-<Ability id="talentsilencingstrike-silencing-strike-su-fn7" icon={["armor-downgrade"]}>
+<Ability id="talentsilencingstrike-silencing-strike-su-fn7" icon={["lower"]}>
 <Pair single id="talentsilencingstrike-silencing-strike-su-fn7" flavor={<>Using magic stolen from the <Link to="/rule/hellknights">Hellknights</Link>, Council agents can render foes silent.</>}><Link to="/talent/silencing_strike">⮞</Link> Silencing Strike (Su) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-7" id="ability-unchained_rogue_talents-fake-fn-7" data-hash-target to="ability-unchained_rogue_talents-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Usage">1 time/day per two rogue levels<ByLevelPop levels={[[2,1],[4,2],[6,3],[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="time" postText="/day" /></Pair>
 <Pair title="Ability">When a creature is damaged by the rogue's sneak attack, the rogue magically renders the creature mute for 1 round unless it succeeds at a Will save (DC = 10 + half the rogue's level + the rogue's Charisma modifier).</Pair>
 </Ability>
-<Ability id="talentslowreactions-slow-reactions-ex-fn2-2" icon={["armor-downgrade"]}>
+<Ability id="talentslowreactions-slow-reactions-ex-fn2-2" icon={["lower"]}>
 <Pair single id="talentslowreactions-slow-reactions-ex-fn2-2"><Link to="/talent/slow_reactions">⮞</Link> Slow Reactions (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-2.2" id="ability-unchained_rogue_talents-fake-fn-2.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">Opponents damaged by the rogue's sneak attack can't make attacks of opportunity for 1 round.</Pair>
 </Ability>
-<Ability id="talentunderhanded-underhanded-ex-fn8" icon={["upgrade"]}>
+<Ability id="talentunderhanded-underhanded-ex-fn8" icon={["boost"]}>
 <Pair single id="talentunderhanded-underhanded-ex-fn8"><Link to="/talent/underhanded">⮞</Link> Underhanded (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-8" id="ability-unchained_rogue_talents-fake-fn-8" data-hash-target to="ability-unchained_rogue_talents-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Passive Ability">A rogue with this talent gains a +4 circumstance bonus on all <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks made to conceal a weapon.</Pair>
 <Pair title="Ability">Furthermore, if she makes a sneak attack during the surprise round using a concealed weapon that her opponent didn't know about, she does not have to roll sneak attack damage, and the sneak attack deals maximum damage.</Pair>
@@ -1097,162 +1097,162 @@ const _unchained_rogue_talents = {hasJL:true,title: "Unchained Rogue Talents", t
 </Ability>
 <h3 id="ability-unchained_rogue_talents-other-sneak-attack-talents" data-hash-target>Other Sneak Attack Talents</h3>
 <p>These talents interact with the sneak attact mechanic but do not have the limitation of the Primary talents above.</p>
-<Ability id="talentalignedsneakattack-aligned-sneak-attack-su-fn6-2" icon={["armor-downgrade"]}>
+<Ability id="talentalignedsneakattack-aligned-sneak-attack-su-fn6-2" icon={["lower"]}>
 <Pair single id="talentalignedsneakattack-aligned-sneak-attack-su-fn6-2"><Link to="/talent/aligned_sneak_attack">⮞</Link> Aligned Sneak Attack (Su) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-6.2" id="ability-unchained_rogue_talents-fake-fn-6.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Ability">When making a sneak attack against a creature that has damage reduction that can be overcome by weapons of a particular alignment (such as DR 5/good), the rogue's attack reduces that damage reduction by an amount equal to the number of sneak attack dice rolled until the end of the rogue's turn.</Pair>
 </Ability>
-<Ability id="talentcarefulstab-careful-stab-ex-fn7-2" icon={["stairs-goal"]}>
+<Ability id="talentcarefulstab-careful-stab-ex-fn7-2" icon={["power"]}>
 <Pair single id="talentcarefulstab-careful-stab-ex-fn7-2"><Link to="/talent/careful_stab">⮞</Link> Careful Stab (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-7.2" id="ability-unchained_rogue_talents-fake-fn-7.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Ability">When a rogue with this talent reduces a creature to fewer than 0 hp with <Link to="/misc/precision_damage">precision damage</Link>, she can choose to leave that creature at -1 hp and <Link to="/misc/stable">stable</Link>.</Pair>
 </Ability>
-<Ability id="talentfastgetaway-fast-getaway-ex-fn3-2" icon={["stairs-goal"]}>
+<Ability id="talentfastgetaway-fast-getaway-ex-fn3-2" icon={["power"]}>
 <Pair single id="talentfastgetaway-fast-getaway-ex-fn3-2"><Link to="/talent/fast_getaway">⮞</Link> Fast Getaway (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-3.2" id="ability-unchained_rogue_talents-fake-fn-3.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">After successfully making a sneak attack or <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check, a rogue with this talent can spend a <strong className="hl">move action</strong> to take the <Link to="/rule/withdraw">withdraw</Link> action. She can move no more than her speed during this movement.</Pair>
 </Ability>
-<Ability id="talentsneaktraining-sneak-training-ex-fn9" icon={["upgrade"]}>
+<Ability id="talentsneaktraining-sneak-training-ex-fn9" icon={["boost"]}>
 <Pair single id="talentsneaktraining-sneak-training-ex-fn9"><Link to="/talent/sneak_training">⮞</Link> Sneak Training (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-9" id="ability-unchained_rogue_talents-fake-fn-9" data-hash-target to="ability-unchained_rogue_talents-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Passive Ability">The rogue counts as having the sneak attack class feature of a rogue of her level for the purpose of meeting prestige class requirements, although this talent doesn't improve the rogue's existing sneak attack ability or grant her the sneak attack class feature if she doesn't already have it. This talent is most useful for rogues that lack the sneak attack class feature, such as those with the <Link to="/arc-rogue/phantom_thief">phantom thief</Link> archetype.</Pair>
 </Ability>
-<Ability id="talentsurpriseattackunchainedrogue-surprise-attack-unchained-rogue-ex-fn5-2" icon={["armor-downgrade","upgrade"]}>
+<Ability id="talentsurpriseattackunchainedrogue-surprise-attack-unchained-rogue-ex-fn5-2" icon={["lower","boost"]}>
 <Pair single id="talentsurpriseattackunchainedrogue-surprise-attack-unchained-rogue-ex-fn5-2"><Link to="/talent/surprise_attack_unchained_rogue">⮞</Link> Surprise Attack (Unchained Rogue) (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-5.2" id="ability-unchained_rogue_talents-fake-fn-5.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Passive Ability">During the surprise round, opponents are always considered <Link to="/rule/flat_footed">flat-footed</Link> to a rogue with this ability, even if they have already acted. A rogue with this ability adds 1/2 her rogue level to her <Link to="/ability/sneak_attack">sneak attack</Link> damage rolls made during the surprise round.</Pair>
 </Ability>
 <h3 id="ability-unchained_rogue_talents-poison-talents" data-hash-target>Poison Talents</h3>
-<Ability id="talentaccuratepoisoner-accurate-poisoner-ex-fn10" icon={["upgrade"]}>
+<Ability id="talentaccuratepoisoner-accurate-poisoner-ex-fn10" icon={["boost"]}>
 <Pair single id="talentaccuratepoisoner-accurate-poisoner-ex-fn10" flavor="A rogue with this talent delivers poisons with deadly precision."><Link to="/talent/accurate_poisoner">⮞</Link> Accurate Poisoner (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-10" id="ability-unchained_rogue_talents-fake-fn-10" data-hash-target to="ability-unchained_rogue_talents-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Ability">When the rogue successfully hits an opponent with a poisoned weapon and would deal sneak attack damage, she can forgo the sneak attack damage and increase the poison's potency. If she does, the poison's duration increases by 2 (for example, <Link to="/eq-poison/large_scorpion_venom">large scorpion venom</Link> lasts for 8 rounds instead of 6 rounds, and <Link to="/eq-poison/drow_poison">drow poison</Link> lasts for 4 minutes instead of 2 minutes).</Pair>
 </Ability>
-<Ability id="talentdevelopedpoisonimmunity-developed-poison-immunity-ex-fn11" icon={["armor-upgrade"]}>
+<Ability id="talentdevelopedpoisonimmunity-developed-poison-immunity-ex-fn11" icon={["def"]}>
 <Pair single id="talentdevelopedpoisonimmunity-developed-poison-immunity-ex-fn11"><Link to="/talent/developed_poison_immunity">⮞</Link> Developed Poison Immunity (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-11" id="ability-unchained_rogue_talents-fake-fn-11" data-hash-target to="ability-unchained_rogue_talents-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Choice">When this talent is taken, select a single animal or plant poison that the rogue has been poisoned with but survived.</Pair>
 <Pair title="Passive Ability">The rogue automatically succeeds at all Fortitude saves against exposure to the selected poison.</Pair>
 </Ability>
-<Ability id="talentironguts-iron-guts-ex-fn12" icon={["armor-upgrade"]}>
+<Ability id="talentironguts-iron-guts-ex-fn12" icon={["def"]}>
 <Pair single id="talentironguts-iron-guts-ex-fn12"><Link to="/talent/iron_guts">⮞</Link> Iron Guts (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-12" id="ability-unchained_rogue_talents-fake-fn-12" data-hash-target to="ability-unchained_rogue_talents-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Passive Ability">A rogue with this talent has a cast-iron stomach or has trained herself to withstand poisons, especially ingested ones. She gains a +1 bonus on all saves against ingested poisons as well as a +4 bonus on saves against all spells and effects that cause the rogue to be <Link to="/misc/nauseated">nauseated</Link> or <Link to="/misc/sickened">sickened</Link>.</Pair>
 </Ability>
-<Ability id="talentknockoutqueen-knockout-queen-ex-fn7-3" icon={["stairs-goal"]}>
+<Ability id="talentknockoutqueen-knockout-queen-ex-fn7-3" icon={["power"]}>
 <Pair single id="talentknockoutqueen-knockout-queen-ex-fn7-3" flavor="Sabriune has passed on the secret of swiftly manufacturing drow poison."><Link to="/talent/knockout_queen">⮞</Link> Knockout Queen (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-7.3" id="ability-unchained_rogue_talents-fake-fn-7.3" data-hash-target to="ability-unchained_rogue_talents-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day, the rogue can create 1 or more doses of <Link to="/eq-poison/drow_poison">drow poison</Link> by spending 25 gp per dose; this process takes 30 minutes of work, regardless of the number of doses she creates. She can create no more than 1 dose for every 3 rogue levels she has (minimum 1 dose). Creating drow poison in this way does not require a skill check, but the created poison spoils if not used within 24 hours. (This spoilage means that selling doses of this poison for a profit to unsuspecting merchants might well result in unwanted repercussions and reprisals!)</Pair>
 </Ability>
-<Ability id="talentlastingpoisonunchainedrogue-lasting-poison-unchained-rogue-ex-fn13" icon={["upgrade","broken-shield"]}>
+<Ability id="talentlastingpoisonunchainedrogue-lasting-poison-unchained-rogue-ex-fn13" icon={["boost","down"]}>
 <Pair single id="talentlastingpoisonunchainedrogue-lasting-poison-unchained-rogue-ex-fn13"><Link to="/talent/lasting_poison_unchained_rogue">⮞</Link> Lasting Poison (Unchained Rogue) (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-13" id="ability-unchained_rogue_talents-fake-fn-13" data-hash-target to="ability-unchained_rogue_talents-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent can apply poison to a weapon in such a way that it is effective for a number of successful attacks equal to her Dexterity modifier (minimum two) instead of one. This poison has a reduced effect, however, and saves made against the poison gain a +2 circumstance bonus. Applying poison in this way is a <strong className="hl">full-round action</strong>, or a <strong className="hl">standard action</strong> if the rogue has the <Link to="/talent/swift_poison">swift poison</Link> rogue talent.</Pair>
 </Ability>
-<Ability id="talentlingeringpoison-lingering-poison-ex-fn10-2" icon={["stairs-goal"]}>
+<Ability id="talentlingeringpoison-lingering-poison-ex-fn10-2" icon={["power"]}>
 <Pair single id="talentlingeringpoison-lingering-poison-ex-fn10-2"><Link to="/talent/lingering_poison">⮞</Link> Lingering Poison (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-10.2" id="ability-unchained_rogue_talents-fake-fn-10.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent can have a poison remain inert until a later time. When she delivers a contact or injury poison, instead of the poison's normal onset time, the rogue can delay the poison's effects until up to 1 day from when it is delivered (minimum 1 round). The delayed poison can be detected as normal by spells such as <Link to="/spell/detect_poison">detect poison</Link> and similar abilities.</Pair>
 </Ability>
-<Ability id="talentpoisonuse-poison-use-ex-fn4-6" icon={["armor-upgrade"]}>
+<Ability id="talentpoisonuse-poison-use-ex-fn4-6" icon={["def"]}>
 <Pair single id="talentpoisonuse-poison-use-ex-fn4-6"><Link to="/talent/poison_use">⮞</Link> Poison Use (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-4.6" id="ability-unchained_rogue_talents-fake-fn-4.6" data-hash-target to="ability-unchained_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">The rogue is trained in the use of poison, and can't accidentally poison herself when applying poison to a weapon.</Pair>
 </Ability>
-<Ability id="talentsignaturepoison-signature-poison-ex-fn10-3" icon={["upgrade"]}>
+<Ability id="talentsignaturepoison-signature-poison-ex-fn10-3" icon={["boost"]}>
 <Pair single id="talentsignaturepoison-signature-poison-ex-fn10-3"><Link to="/talent/signature_poison">⮞</Link> Signature Poison (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-10.3" id="ability-unchained_rogue_talents-fake-fn-10.3" data-hash-target to="ability-unchained_rogue_talents-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Choice">A rogue with this talent chooses one poison (such as <Link to="/eq-poison/bloodroot">bloodroot</Link> or <Link to="/eq-poison/oil_of_taggit">oil of taggit</Link>) as her signature poison.</Pair>
 <Pair title="Ability">When she uses the chosen poison, the poison's saving throw DC increases by +2.</Pair>
 <Pair title="Special">A rogue can take this talent multiple times, each time applying it to a new poison.</Pair>
 </Ability>
-<Ability id="talentsuppresspoison-suppress-poison-ex-fn10-4" icon={["armor-upgrade"]}>
+<Ability id="talentsuppresspoison-suppress-poison-ex-fn10-4" icon={["def"]}>
 <Pair single id="talentsuppresspoison-suppress-poison-ex-fn10-4" flavor="A rogue with this talent can stave off the effects of a poison."><Link to="/talent/suppress_poison">⮞</Link> Suppress Poison (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-10.4" id="ability-unchained_rogue_talents-fake-fn-10.4" data-hash-target to="ability-unchained_rogue_talents-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Immediate Action">When she fails a saving throw against a poison, the rogue can attempt the saving throw a second time. If she succeeds at this second saving throw, the poison does not affect her for a number of rounds equal to her Constitution modifier (minimum 1 round), but this time it counts against the poison's duration. This talent has no effect on poisons with an onset longer than immediate.</Pair>
 </Ability>
-<Ability id="talentswiftpoison-swift-poison-ex-fn14" icon={["upgrade"]}>
+<Ability id="talentswiftpoison-swift-poison-ex-fn14" icon={["boost"]}>
 <Pair single id="talentswiftpoison-swift-poison-ex-fn14"><Link to="/talent/swift_poison">⮞</Link> Swift Poison (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-14" id="ability-unchained_rogue_talents-fake-fn-14" data-hash-target to="ability-unchained_rogue_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent can apply poison to a weapon as a <strong className="hl">move action</strong>, instead of a <strong className="hl">standard action</strong>.</Pair>
 </Ability>
-<Ability id="talenttoxicregurgitation-toxic-regurgitation-ex-fn10-5" icon={["smoking-finger"]}>
+<Ability id="talenttoxicregurgitation-toxic-regurgitation-ex-fn10-5" icon={["zap"]}>
 <Pair single id="talenttoxicregurgitation-toxic-regurgitation-ex-fn10-5"><Link to="/talent/toxic_regurgitation">⮞</Link> Toxic Regurgitation (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-10.5" id="ability-unchained_rogue_talents-fake-fn-10.5" data-hash-target to="ability-unchained_rogue_talents-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Standard Action">A rogue with this talent can drink a non-inhaled poison and suspend it within her body. She is not affected by the poison while it is suspended within her, and she doesn't need to attempt saving throws against it. She can suspend a poison within herself in this way for a number of hours equal to her Constitution modifier (minimum 1), after which she must immediately expel the poison or be affected by it as normal.</Pair>
 <Pair title="Ability">At any time while the poison is suspended within her, the rogue can spit up the poison as a ranged touch attack at any creature within 10 feet. This does not provoke attacks of opportunity. On a successful hit, the struck creature is exposed to the poison as if it were a contact poison.</Pair>
 <Pair title="Special">The rogue can maintain only a single suspended poison at a time. If she suspends a new poison, any older suspended poison immediately affects her as normal.</Pair>
 </Ability>
 <h3 id="ability-unchained_rogue_talents-spellcasting-talents" data-hash-target>Spellcasting Talents</h3>
-<Ability id="talentcloyingshades-cloying-shades-su-fn15" icon={["armor-downgrade"]}>
+<Ability id="talentcloyingshades-cloying-shades-su-fn15" icon={["lower"]}>
 <Pair single id="talentcloyingshades-cloying-shades-su-fn15"><Link to="/talent/cloying_shades">⮞</Link> Cloying Shades (Su) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-15" id="ability-unchained_rogue_talents-fake-fn-15" data-hash-target to="ability-unchained_rogue_talents-fake-fn-15-target">15</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Has <em>dimension door</em> as a spell or spell-like ability (including the <em>abundant step</em> or <em>shadow jump</em> class feature)</Pair>
 <Pair title="Ability">When a rogue with this talent uses <Link to="/spell/dimension_door">dimension door</Link> as a spell or spell-like ability, including the <em>abundant step</em> or <em>shadow jump</em> class feature, then all creatures adjacent to the rogue at the start and end of her teleportation are <Link to="/rule/entangled">entangled</Link> by grasping shadows for 1 round (although the creatures are not anchored in place). A successful Reflex saving throw negates this effect. The DC of this saving throw is equal to 10 + 1/2 the rogue's level + the rogue's Intelligence or Charisma modifier (whichever is higher).</Pair>
 </Ability>
-<Ability id="talentextraearthcraft-extra-earthcraft-fn16" icon={["upgrade"]}>
+<Ability id="talentextraearthcraft-extra-earthcraft-fn16" icon={["boost"]}>
 <Pair single id="talentextraearthcraft-extra-earthcraft-fn16"><Link to="/talent/extra_earthcraft">⮞</Link> Extra Earthcraft <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-16" id="ability-unchained_rogue_talents-fake-fn-16" data-hash-target to="ability-unchained_rogue_talents-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Prerequisites">The <Link to="/arc-rogue/earthshadow">earthcraft</Link> ability</Pair>
 <Pair title="Passive Ability">The rogue gains 2 additional earthcraft points each day.</Pair>
 </Ability>
-<Ability id="talentminormagic-minor-magic-sp-fn2-3" icon={["magic-swirl"]}>
+<Ability id="talentminormagic-minor-magic-sp-fn2-3" icon={["magic"]}>
 <Pair single id="talentminormagic-minor-magic-sp-fn2-3"><Link to="/talent/minor_magic">⮞</Link> Minor Magic (Sp) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-2.3" id="ability-unchained_rogue_talents-fake-fn-2.3" data-hash-target to="ability-unchained_rogue_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Intelligence 10+</Pair>
 <Pair title="Ability">A rogue with this talent gains the ability to cast a 0-level spell from the <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">wizard</Link> spell list. This spell can be cast three times a day as a spell-like ability. The caster level for this ability is equal to the rogue's level. The save DC for this spell is 10 + the rogue's Intelligence modifier.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="talentgloommagic-gloom-magic-sp-fn4-7" icon={["magic-swirl"]}>
+<Ability id="talentgloommagic-gloom-magic-sp-fn4-7" icon={["magic"]}>
 <Pair single id="talentgloommagic-gloom-magic-sp-fn4-7"><Link to="/talent/gloom_magic">⮞</Link> Gloom Magic (Sp) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-4.7" id="ability-unchained_rogue_talents-fake-fn-4.7" data-hash-target to="ability-unchained_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Intelligence 12+, <Link to="/talent/minor_magic">minor magic</Link></Pair>
 <Pair title="Ability">A rogue with this talent gains the ability to cast <Link to="/spell/darkness">darkness</Link> two times per day as a spell-like ability. The darkness created by this ability does not impair the rogue's vision. The caster level for this ability is equal to the rogue's level.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="talentgreatergloommagic-greater-gloom-magic-sp-fn4-8" icon={["magic-swirl"]}>
+<Ability id="talentgreatergloommagic-greater-gloom-magic-sp-fn4-8" icon={["magic"]}>
 <Pair single id="talentgreatergloommagic-greater-gloom-magic-sp-fn4-8"><Link to="/talent/greater_gloom_magic">⮞</Link> Greater Gloom Magic (Sp) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-4.8" id="ability-unchained_rogue_talents-fake-fn-4.8" data-hash-target to="ability-unchained_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Intelligence 13+, <Link to="/talent/gloom_magic">gloom magic</Link>, <Link to="/talent/minor_magic">minor magic</Link></Pair>
 <Pair title="Ability">A rogue with this talent gains the ability to cast <Link to="/spell/deeper_darkness">deeper darkness</Link> once each day as a spell-like ability. The darkness created by this ability does not impair the rogue's vision. The caster level for this ability is equal to the rogue's level.</Pair>
 </Ability>
 </div>
-<Ability id="talentinnocentfacade-innocent-facade-sp-fn17" icon={["magic-swirl"]}>
+<Ability id="talentinnocentfacade-innocent-facade-sp-fn17" icon={["magic"]}>
 <Pair single id="talentinnocentfacade-innocent-facade-sp-fn17"><Link to="/talent/innocent_facade">⮞</Link> Innocent Facade (Sp) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-17" id="ability-unchained_rogue_talents-fake-fn-17" data-hash-target to="ability-unchained_rogue_talents-fake-fn-17-target">17</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/minor_magic">Minor magic</Link></Pair>
 <Pair title="Ability">Once per day, a rogue with this talent can use <Link to="/spell/innocence">innocence</Link> as a spell-like ability, using her rogue level as the spell's caster level.</Pair>
 </Ability>
-<Ability id="talentmajormagic-major-magic-sp-fn2-4" icon={["magic-swirl"]}>
+<Ability id="talentmajormagic-major-magic-sp-fn2-4" icon={["magic"]}>
 <Pair single id="talentmajormagic-major-magic-sp-fn2-4"><Link to="/talent/major_magic">⮞</Link> Major Magic (Sp) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-2.4" id="ability-unchained_rogue_talents-fake-fn-2.4" data-hash-target to="ability-unchained_rogue_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Intelligence 11+, <Link to="/talent/minor_magic">minor magic</Link></Pair>
 <Pair title="Ability">A rogue with this talent gains the ability to cast a 1st-level spell from the <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">wizard</Link> spell list two times a day as a spell-like ability. The caster level for this ability is equal to the rogue's level. The save DC for this spell is 11 + the rogue's Intelligence modifier.</Pair>
 </Ability>
 </div>
-<Ability id="talentoneofthosefaces-one-of-those-faces-sp-fn18" icon={["magic-swirl"]}>
+<Ability id="talentoneofthosefaces-one-of-those-faces-sp-fn18" icon={["magic"]}>
 <Pair single id="talentoneofthosefaces-one-of-those-faces-sp-fn18"><Link to="/talent/one_of_those_faces">⮞</Link> One of Those Faces (Sp) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-18" id="ability-unchained_rogue_talents-fake-fn-18" data-hash-target to="ability-unchained_rogue_talents-fake-fn-18-target">18</InnerLink></sup></Pair>
 <Pair title="Ability">Each day, you can use <Link to="/spell/disguise_self">disguise self</Link> as a spell-like ability for up to 10 minutes per character level. This duration need not be continuous, but it must be used in 10-minute increments.</Pair>
 <Pair title="Special">Once you have used this ability, whenever you use it for the next 24 hours you must take the same alternate appearance.</Pair>
 </Ability>
-<Ability id="talentshadowduplicate-shadow-duplicate-sp-fn4-9" icon={["armor-upgrade"]}>
+<Ability id="talentshadowduplicate-shadow-duplicate-sp-fn4-9" icon={["def"]}>
 <Pair single id="talentshadowduplicate-shadow-duplicate-sp-fn4-9"><Link to="/talent/shadow_duplicate">⮞</Link> Shadow Duplicate (Sp) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-4.9" id="ability-unchained_rogue_talents-fake-fn-4.9" data-hash-target to="ability-unchained_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Usage">1 time/day + 1 per five rogue levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
 <Pair title="Immediate Action">When the rogue is hit, the rogue can create a single shadow duplicate of herself, as per <Link to="/spell/mirror_image">mirror image</Link>. The GM randomly determines whether the attack hit the rogue or the shadow duplicate. The shadow duplicate lasts for a number of rounds equal to the rogue's level, or until the shadow duplicate is dispelled or destroyed. This ability does not stack with the <em>mirror image</em> spell. The caster level for this ability is equal to the rogue's level.</Pair>
 </Ability>
-<Ability id="talentwildmagic-wild-magic-sp-fn11-2" icon={["magic-swirl"]}>
+<Ability id="talentwildmagic-wild-magic-sp-fn11-2" icon={["magic"]}>
 <Pair single id="talentwildmagic-wild-magic-sp-fn11-2"><Link to="/talent/wild_magic">⮞</Link> Wild Magic (Sp) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-11.2" id="ability-unchained_rogue_talents-fake-fn-11.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Wisdom 10+</Pair>
 <Pair title="Ability">A rogue with this talent gains the ability to cast a 0-level spell from the <Link to="/main/druid_spell">druid spell list</Link>. This spell can be cast three times per day as a spell-like ability. The caster level for this ability is equal to the rogue's level. The save DC for this spell is 10 + the rogue's Wisdom modifier.</Pair>
 </Ability>
 <h3 id="ability-unchained_rogue_talents-use-magic-device-talents" data-hash-target>Use Magic Device Talents</h3>
-<Ability id="talentexpertcypher-expert-cypher-ex-fn19" icon={["upgrade"]}>
+<Ability id="talentexpertcypher-expert-cypher-ex-fn19" icon={["boost"]}>
 <Pair single id="talentexpertcypher-expert-cypher-ex-fn19"><Link to="/talent/expert_cypher">⮞</Link> Expert Cypher (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-19" id="ability-unchained_rogue_talents-fake-fn-19" data-hash-target to="ability-unchained_rogue_talents-fake-fn-19-target">19</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this ability can attempt a Linguistics check to decipher a single page of text as a <strong className="hl">full-round action</strong> instead of taking 1 minute as normal.</Pair>
 <Pair title="Passive Ability">When the rogue attempts a <Link to="/skill/use_magic_device">Use Magic Device</Link> check to cast a spell from a scroll, she is treated as though she had the minimum score in the appropriate ability score to cast that spell.</Pair>
 <Pair title="Ability">The rogue can choose to add her Intelligence modifier to her Use Magic Device skill checks instead of her Charisma modifier.</Pair>
 </Ability>
-<Ability id="talentoccultdungeoneer-occult-dungeoneer-su-fn20" icon={["magic-swirl","upgrade"]}>
+<Ability id="talentoccultdungeoneer-occult-dungeoneer-su-fn20" icon={["magic","boost"]}>
 <Pair single id="talentoccultdungeoneer-occult-dungeoneer-su-fn20" flavor="Street thieves in Absalom expect wares to be securely locked, and sometimes it takes high-quality tools and magic training to ensure there's a meal at the end of the day."><Link to="/talent/occult_dungeoneer">⮞</Link> Occult Dungeoneer (Su) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-20" id="ability-unchained_rogue_talents-fake-fn-20" data-hash-target to="ability-unchained_rogue_talents-fake-fn-20-target">20</InnerLink></sup></Pair>
 <Pair title="Ability"><p>A rogue with this ability can use <Link to="/misc/spell_trigger">spell trigger</Link> and <Link to="/misc/spell_completion">spell completion</Link> items as if the following spells were on a spell list to which he has access: <Link to="/spell/detect_secret_doors">detect secret doors</Link>, <Link to="/spell/detect_snares_and_pits">detect snares and pits</Link>, <Link to="/spell/knock">knock</Link>, <Link to="/spell/locate_object">locate object</Link>, and <Link to="/spell/obscure_object">obscure object</Link>.</p>
 <p>If the spell-trigger device allows a wielder to apply his own caster level (such as with a staff), the rogue may use his class level as his caster level.</p>
 </Pair>
 <Pair title="Ability">The rogue may also use <em>knock</em> as a supernatural ability once per day, using his rogue level as his caster level.</Pair>
 </Ability>
-<Ability id="talentspellstoring-spell-storing-su-fn20-2" icon={["magic-swirl"]}>
+<Ability id="talentspellstoring-spell-storing-su-fn20-2" icon={["magic"]}>
 <Pair single id="talentspellstoring-spell-storing-su-fn20-2"><Link to="/talent/spell_storing">⮞</Link> Spell Storing (Su) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-20.2" id="ability-unchained_rogue_talents-fake-fn-20.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-20-target">20</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Trained in <Link to="/skill/use_magic_device">Use Magic Device</Link></Pair>
 <Pair title="Ability">The rogue can store within himself a single targeted harmless spell of up to 2nd level. The spell must have a casting time of 1 standard action. Anytime a spell that meets these conditions is cast on the rogue, and he does not already have a spell stored, he can choose to store it rather than have it take effect immediately. Anytime afterward, as a <strong className="hl">standard action</strong>, the rogue can have the spell take effect (acting in all ways as if it had just been cast on him).</Pair>
 </Ability>
-<Ability id="talentthewholetime-the-whole-time-su-fn20-3" icon={["magic-swirl","armor-upgrade"]}>
+<Ability id="talentthewholetime-the-whole-time-su-fn20-3" icon={["magic","def"]}>
 <Pair single id="talentthewholetime-the-whole-time-su-fn20-3" flavor={<>Mercenaries in the employ of the <Link to="/rule/aspis_consortium">Aspis Consortium</Link> often use <em>wands of invisibility</em> to attack protected targets, then blend into the crowd to escape or disguise the source of the next attack.</>}><Link to="/talent/the_whole_time">⮞</Link> The Whole Time (Su) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-20.3" id="ability-unchained_rogue_talents-fake-fn-20.3" data-hash-target to="ability-unchained_rogue_talents-fake-fn-20-target">20</InnerLink></sup></Pair>
 <Pair title="Ability"><p>A rogue with this ability is practiced at attacking from magical concealment. He can use <Link to="/misc/spell_trigger">spell trigger</Link> and <Link to="/misc/spell_completion">spell completion</Link> items as if the following spells were on a spell list to which he has access: <Link to="/spell/greater_invisibility">greater invisibility</Link>, <Link to="/spell/invisibility">invisibility</Link>, and <Link to="/spell/vanish">vanish</Link>.</p>
 <p>Additionally, if the rogue becomes visible as a result of a weapon or spell attack, he can sheathe his weapon as a <strong className="hl">free action</strong> and instantly adopt a neutral posture. With a successful Bluff or Disguise check (opposed by witnesses' Sense Motive or Perception checks, whichever is higher), there is no obvious sign that the rogue is the source of the attack (though a lack of any other reasonable candidate can still lead observers to draw the correct conclusion).</p>
 </Pair>
 </Ability>
 <h3 id="ability-unchained_rogue_talents-other-magic-related-talents" data-hash-target>Other Magic-Related Talents</h3>
-<Ability id="talentaspexiasmysticism-aspexias-mysticism-ex-fn7-4" icon={["stairs-goal"]}>
+<Ability id="talentaspexiasmysticism-aspexias-mysticism-ex-fn7-4" icon={["power"]}>
 <Pair single id="talentaspexiasmysticism-aspexias-mysticism-ex-fn7-4"><Link to="/talent/aspexias_mysticism">⮞</Link> Aspexia's Mysticism (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-7.4" id="ability-unchained_rogue_talents-fake-fn-7.4" data-hash-target to="ability-unchained_rogue_talents-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Ability">The rogue has been trained in a minor occult technique. The rogue gains <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="talentblackmarketconnections-black-market-connection-ex-fn12-2" icon={["upgrade"]}>
+<Ability id="talentblackmarketconnections-black-market-connection-ex-fn12-2" icon={["boost"]}>
 <Pair single id="talentblackmarketconnections-black-market-connection-ex-fn12-2"><Link to="/talent/black_market_connections">⮞</Link> Black Market Connection (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-12.2" id="ability-unchained_rogue_talents-fake-fn-12.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Ability"><p>A rogue with this talent gains better access to magic items from black market connections. She treats every <Link to="/rule/settlements_and_districts">settlement</Link> as one size greater for the purpose of determining the gp limit of the base value of items for sale, as well as the number of minor, medium, and major magic items for sale in the settlement. If the settlement is already a metropolis, all minor and medium magic items are for sale, as well as 3d8 major magic items.</p>
 <p>With a successful Diplomacy check, the rogue can treat the settlement as two sizes larger. If the settlement is already a metropolis and she succeeds at the check, all magic items are for sale. If the settlement is already a large city and she succeeds at the check, all minor and medium magic items are for sale, as well as 3d8 major magic items.</p>
@@ -1299,31 +1299,31 @@ const _unchained_rogue_talents = {hasJL:true,title: "Unchained Rogue Talents", t
 </tbody></table></ScrollContainer>
 </Pair>
 </Ability>
-<Ability id="talenteldritchconduit-eldritch-conduit-su-fn20-4" icon={["magic-swirl"]}>
+<Ability id="talenteldritchconduit-eldritch-conduit-su-fn20-4" icon={["magic"]}>
 <Pair single id="talenteldritchconduit-eldritch-conduit-su-fn20-4" flavor="Survival in the Mana Wastes between the nations of Nex and Geb can depend heavily on locating sufficient magical equipment, which sometimes involves stealing power from a wand or scroll to power a more necessary one."><Link to="/talent/eldritch_conduit">⮞</Link> Eldritch Conduit (Su) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-20.4" id="ability-unchained_rogue_talents-fake-fn-20.4" data-hash-target to="ability-unchained_rogue_talents-fake-fn-20-target">20</InnerLink></sup></Pair>
 <Pair title="Full-Round Action">A rogue with this talent can use two potions, two wands, or two scrolls. Each item is expended or loses a charge as if used normally. The rogue chooses to gain the magical effect of one, but calculates its effects using the caster level of the other. The rogue must still succeed at a <Link to="/skill/use_magic_device">Use Magic Device</Link> check to operate scrolls or wands unless some other ability allows him to do so, but makes only one skill check to operate both items.</Pair>
 </Ability>
-<Ability id="talentfollowalong-follow-along-ex-fn21" icon={["armor-downgrade"]}>
+<Ability id="talentfollowalong-follow-along-ex-fn21" icon={["lower"]}>
 <Pair single id="talentfollowalong-follow-along-ex-fn21" flavor="A rogue with this talent is familiar enough with enchantment magic to fool it, using spellcasters' complacency to set them up for a surprise attack."><Link to="/talent/follow_along">⮞</Link> Follow Along (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-21" id="ability-unchained_rogue_talents-fake-fn-21" data-hash-target to="ability-unchained_rogue_talents-fake-fn-21-target">21</InnerLink></sup></Pair>
 <Pair title="Ability"><p>Whenever she succeeds at a saving throw against an enchantment effect, the rogue learns the spell's effect on a failed save, allowing her to play along and pretend to have failed her save. If she does so, the spellcaster does not learn that she succeeded at her saving throw, even if she was the only target, though she must succeed at an opposed Bluff check against a spellcaster's Sense Motive check to determine whether she is under the enchantment's effects.</p>
 <p>While this ruse is in place, the spellcaster is <Link to="/rule/flat_footed">flat-footed</Link> against the rogue's first attack. If the spellcaster sees the rogue perform (or fail to perform) an action that would be impossible if she were under the enchantment's effect, he automatically discovers her ruse.</p>
 </Pair>
 </Ability>
-<Ability id="talentscryslip-scry-slip-su-fn17-2" icon={["armor-upgrade"]}>
+<Ability id="talentscryslip-scry-slip-su-fn17-2" icon={["def"]}>
 <Pair single id="talentscryslip-scry-slip-su-fn17-2"><Link to="/talent/scry_slip">⮞</Link> Scry Slip (Su) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-17.2" id="ability-unchained_rogue_talents-fake-fn-17.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-17-target">17</InnerLink></sup></Pair>
 <Pair title="Passive Ability">Whenever a rogue with this talent is targeted by a scrying effect that allows a Will save, the caster of the divination must succeed at a caster level check (DC = 15 + the rogue's class level). This talent wards the rogue and any objects she is holding or carrying.</Pair>
 </Ability>
-<Ability id="talentscryingfamiliarity-scrying-familiarity-ex-fn22" icon={["armor-upgrade","rolling-dices"]}>
+<Ability id="talentscryingfamiliarity-scrying-familiarity-ex-fn22" icon={["def","roll"]}>
 <Pair single id="talentscryingfamiliarity-scrying-familiarity-ex-fn22" flavor="You are well acquainted with scrying sensors."><Link to="/talent/scrying_familiarity">⮞</Link> Scrying Familiarity (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-22" id="ability-unchained_rogue_talents-fake-fn-22" data-hash-target to="ability-unchained_rogue_talents-fake-fn-22-target">22</InnerLink></sup></Pair>
 <Pair title="Ability"><p>You can roll twice and take the better result on saving throws against <Link to="/spelldef/scrying">divination (scrying)</Link> spells and effects, on <Link to="/skill/perception">Perception</Link> checks to notice scrying sensors, and on caster level checks to overcome spell resistance when you use a scrying spell or effect.</p>
 <p>If you notice a magical sensor, you can attempt a <Link to="/skill/stealth">Stealth</Link> check opposed by the caster's caster level check to avoid being detected by the sensor.</p>
 </Pair>
 </Ability>
-<Ability id="talentshadesofgray-shades-of-gray-ex-fn21-2" icon={["armor-upgrade"]}>
+<Ability id="talentshadesofgray-shades-of-gray-ex-fn21-2" icon={["def"]}>
 <Pair single id="talentshadesofgray-shades-of-gray-ex-fn21-2"><Link to="/talent/shades_of_gray">⮞</Link> Shades of Gray (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-21.2" id="ability-unchained_rogue_talents-fake-fn-21.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-21-target">21</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent uses mental and emotional tricks to protect herself from attempts to discern her alignment. This offers her the benefits of <Link to="/spell/undetectable_alignment">undetectable alignment</Link> whenever she chooses, though she must be conscious to maintain the effect.</Pair>
 </Ability>
-<Ability id="talentumbralgear-umbral-gear-su-fn4-10" icon={["magic-swirl"]}>
+<Ability id="talentumbralgear-umbral-gear-su-fn4-10" icon={["magic"]}>
 <Pair single id="talentumbralgear-umbral-gear-su-fn4-10"><Link to="/talent/umbral_gear">⮞</Link> Umbral Gear (Su) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-4.10" id="ability-unchained_rogue_talents-fake-fn-4.10" data-hash-target to="ability-unchained_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Standard Action"><p>While in an area of <Link to="/rule/dim_light">dim light</Link> or darkness, a rogue with this talent can coalesce wisps of shadow into a quasi-real, functional item. The rogue must choose whether to make a <Link to="/eq-misc/crowbar">crowbar</Link>, 50 feet of <Link to="/eq-misc/silk_rope">silk rope</Link>, a <Link to="/eq-misc/glass_cutter">glass cutter</Link>, a <Link to="/main/equipment_weapons_light">light</Link> melee weapon with which she is proficient, a <Link to="/eq-misc/reversible_cloak">reversible cloak</Link>, <Link to="/eq-misc/thieves_tools">thieves' tools</Link>, or a <Link to="/eq-misc/wire_saw">wire saw</Link>; the GM may allow other similar items. The rogue can use such items for a number of minutes per day equal to 10 plus her rogue level. This duration does not need to be consecutive, but it must be used in 1-minute increments.</p>
 <p>An item created with this ability remains until the rogue is no longer touching it, or until the rogue runs out of duration for this talent, at which time it dissolves.</p>
@@ -1331,169 +1331,169 @@ const _unchained_rogue_talents = {hasJL:true,title: "Unchained Rogue Talents", t
 <Pair title="Special">A rogue can select this talent more than once, gaining an additional 10 minutes of duration each time this talent is selected. If a rogue has selected this talent at least twice, she adds 50 feet of silk rope with a <Link to="/eq-misc/grappling_hook">grappling hook</Link>, a <Link to="/rule/masterwork_a">masterwork</Link> light melee weapon with which she is proficient, and <Link to="/eq-misc/masterwork_thieves_tools">masterwork thieves' tools</Link> to the list of things she can create.</Pair>
 </Ability>
 <h3 id="ability-unchained_rogue_talents-ally-related-talents" data-hash-target>Ally-Related Talents</h3>
-<Ability id="talentassaultleader-assault-leader-ex-fn3-3" icon={["mailed-fist"]}>
+<Ability id="talentassaultleader-assault-leader-ex-fn3-3" icon={["melee"]}>
 <Pair single id="talentassaultleader-assault-leader-ex-fn3-3"><Link to="/talent/assault_leader">⮞</Link> Assault Leader (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-3.3" id="ability-unchained_rogue_talents-fake-fn-3.3" data-hash-target to="ability-unchained_rogue_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day, when the rogue misses with an attack on a flanked opponent, she can designate a single ally who is also <Link to="/rule/flanking">flanking</Link> the target that her attack missed. That ally can make a single melee attack against the opponent as an immediate action.</Pair>
 </Ability>
 <h3 id="ability-unchained_rogue_talents-combat-talents" data-hash-target>Combat Talents</h3>
-<Ability id="talentambuscadinggrapple-ambuscading-grapple-ex-fn1-2" icon={["mailed-fist"]}>
+<Ability id="talentambuscadinggrapple-ambuscading-grapple-ex-fn1-2" icon={["melee"]}>
 <Pair single id="talentambuscadinggrapple-ambuscading-grapple-ex-fn1-2"><Link to="/talent/ambuscading_grapple">⮞</Link> Ambuscading Grapple (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-1.2" id="ability-unchained_rogue_talents-fake-fn-1.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">When a rogue with this talent succeeds at a combat maneuver check to grapple an unaware opponent, she can immediately deal her sneak attack damage to the target. This counts as having hit with a sneak attack for the purpose of other abilities and talents.</Pair>
 </Ability>
-<Ability id="talentcastling-castling-ex-fn16-2" icon={["armor-upgrade"]}>
+<Ability id="talentcastling-castling-ex-fn16-2" icon={["def"]}>
 <Pair single id="talentcastling-castling-ex-fn16-2"><Link to="/talent/castling">⮞</Link> Castling (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-16.2" id="ability-unchained_rogue_talents-fake-fn-16.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Passive Ability">The rogue treats soft cover granted by creatures of her size or larger as though it were <Link to="/rule/cover">cover</Link> instead. Cover the rogue gains from this talent does not allow her to attempt Stealth checks.</Pair>
 </Ability>
-<Ability id="combat-swipe-unchained-rogue" icon={["stairs-goal"]}>
+<Ability id="combat-swipe-unchained-rogue" icon={["power"]}>
 <Pair single id="combat-swipe-unchained-rogue">Combat Swipe (Unchained Rogue)</Pair>
 <Pair title="Ability">A rogue who selects this talent gains <Link to="/feat/improved_steal">Improved Steal</Link> as a bonus feat.</Pair>
 <Pair title="At 6th Level">She is treated as if she met all the prerequisites for <Link to="/feat/greater_steal">Greater Steal</Link> (although she must take the feat as normal).</Pair>
 </Ability>
 <div className="sideNoteWrap singular optional elephant"><ScrollContainer id="ability-unchained_rogue_talents--table-1"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td><p>This talent does not exist.</p>
-</td></tr></tbody></table></ScrollContainer></div><Ability id="talentcombattrick-combat-trick-fn2-5" icon={["stairs-goal"]}>
+</td></tr></tbody></table></ScrollContainer></div><Ability id="talentcombattrick-combat-trick-fn2-5" icon={["power"]}>
 <Pair single id="talentcombattrick-combat-trick-fn2-5"><Link to="/talent/combat_trick">⮞</Link> Combat Trick <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-2.5" id="ability-unchained_rogue_talents-fake-fn-2.5" data-hash-target to="ability-unchained_rogue_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue that selects this talent gains a bonus <Link to="/main/combat_feat">combat feat</Link>.</Pair>
 </Ability>
-<Ability id="talentdeftpalm-deft-palm-ex-fn12-3" icon={["stairs-goal"]}>
+<Ability id="talentdeftpalm-deft-palm-ex-fn12-3" icon={["power"]}>
 <Pair single id="talentdeftpalm-deft-palm-ex-fn12-3"><Link to="/talent/deft_palm">⮞</Link> Deft Palm (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-12.3" id="ability-unchained_rogue_talents-fake-fn-12.3" data-hash-target to="ability-unchained_rogue_talents-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent can make a <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check to conceal a weapon while holding it in plain sight, even while she is being observed.</Pair>
 </Ability>
-<Ability id="talenteeriedisappearance-eerie-disappearance-ex-fn24" icon={["stairs-goal"]}>
+<Ability id="talenteeriedisappearance-eerie-disappearance-ex-fn24" icon={["power"]}>
 <Pair single id="talenteeriedisappearance-eerie-disappearance-ex-fn24"><Link to="/talent/eerie_disappearance">⮞</Link> Eerie Disappearance (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-24" id="ability-unchained_rogue_talents-fake-fn-24" data-hash-target to="ability-unchained_rogue_talents-fake-fn-24-target">24</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level rogue</Pair>
 <Pair title="Full-Round Action"><p>The rogue can move up to her speed. If she successfully reaches a location that offers her <Link to="/rule/cover">cover</Link> or <Link to="/rule/concealment">concealment</Link>, any creature observing her must attempt a Perception check opposed by the rogue's Stealth check. On a failed check, the observer loses track of the rogue and fails to note where she moved to. The rogue does not take a penalty on this Stealth check for moving up to her speed.</p>
 <p>At the end of her movement, the rogue can attempt an Intimidate check to demoralize all foes within 60 feet who were aware of her at any point during her movement and are unaware of her current location. She rolls the Intimidate check only once and compares her result to the DC for each opponent.</p>
 </Pair>
 </Ability>
-<Ability id="talentfalseattacker-false-attacker-ex-fn24-2" icon={["stairs-goal"]}>
+<Ability id="talentfalseattacker-false-attacker-ex-fn24-2" icon={["power"]}>
 <Pair single id="talentfalseattacker-false-attacker-ex-fn24-2"><Link to="/talent/false_attacker">⮞</Link> False Attacker (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-24.2" id="ability-unchained_rogue_talents-fake-fn-24.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-24-target">24</InnerLink></sup></Pair>
 <Pair title="Immediate Action">Whenever the rogue strikes a foe from hiding, she can attempt a <Link to="/skill/bluff">Bluff</Link> check (opposed by the target's Sense Motive or Perception check, whichever has a higher bonus) before rolling damage to convince the foe that another creature was the attacker. This Bluff check applies the normal modifiers for convincing a creature of a falsehood, but can be accomplished with just physical trickery (a shared language is not required).</Pair>
 <Pair title="Special">If the Bluff is successful, and the rogue maintains concealment or cover, the rogue's stealth does not end.</Pair>
 </Ability>
-<Ability id="talentfeintfromshadows-feint-from-shadows-ex-fn4-11" icon={["armor-downgrade"]}>
+<Ability id="talentfeintfromshadows-feint-from-shadows-ex-fn4-11" icon={["lower"]}>
 <Pair single id="talentfeintfromshadows-feint-from-shadows-ex-fn4-11"><Link to="/talent/feint_from_shadows">⮞</Link> Feint from Shadows (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-4.11" id="ability-unchained_rogue_talents-fake-fn-4.11" data-hash-target to="ability-unchained_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent can <Link to="/skill/feint">feint</Link> in combat using a ranged weapon against a target within 30 feet and cause the opponent to lose his Dexterity modifier against her next melee or ranged attack. The rogue must have <Link to="/rule/concealment">concealment</Link> (but not full concealment) from the target of the feint.</Pair>
 </Ability>
-<Ability id="talentfirearmtraining-firearm-training-ex-fn12-4" icon={["stairs-goal"]}>
+<Ability id="talentfirearmtraining-firearm-training-ex-fn12-4" icon={["power"]}>
 <Pair single id="talentfirearmtraining-firearm-training-ex-fn12-4"><Link to="/talent/firearm_training">⮞</Link> Firearm Training (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-12.4" id="ability-unchained_rogue_talents-fake-fn-12.4" data-hash-target to="ability-unchained_rogue_talents-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent gains <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link> (firearms).</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="talentgrit-grit-ex-fn12-5" icon={["stairs-goal"]}>
+<Ability id="talentgrit-grit-ex-fn12-5" icon={["power"]}>
 <Pair single id="talentgrit-grit-ex-fn12-5"><Link to="/talent/grit">⮞</Link> Grit (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-12.5" id="ability-unchained_rogue_talents-fake-fn-12.5" data-hash-target to="ability-unchained_rogue_talents-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/firearm_training">Firearm training</Link></Pair>
 <Pair title="Ability">A rogue with this talent gains the <Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> feat and one <Link to="/main/grit_feat">grit feat</Link> of her choice. She must fulfill the prerequisites of the grit feat in order to choose it.</Pair>
 </Ability>
 </div>
-<Ability id="talentfortifiedposition-fortified-position-ex-fn16-3" icon={["armor-upgrade"]}>
+<Ability id="talentfortifiedposition-fortified-position-ex-fn16-3" icon={["def"]}>
 <Pair single id="talentfortifiedposition-fortified-position-ex-fn16-3"><Link to="/talent/fortified_position">⮞</Link> Fortified Position (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-16.3" id="ability-unchained_rogue_talents-fake-fn-16.3" data-hash-target to="ability-unchained_rogue_talents-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Passive Ability">Whenever the rogue gains a bonus on Reflex saves due to <Link to="/rule/cover">cover</Link>, she gains an equal bonus on Fortitude saves.</Pair>
 </Ability>
-<Ability id="talentmaneuveringdodge-maneuvering-dodge-ex-fn25" icon={["upgrade"]}>
+<Ability id="talentmaneuveringdodge-maneuvering-dodge-ex-fn25" icon={["boost"]}>
 <Pair single id="talentmaneuveringdodge-maneuvering-dodge-ex-fn25"><Link to="/talent/maneuvering_dodge">⮞</Link> Maneuvering Dodge (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-25" id="ability-unchained_rogue_talents-fake-fn-25" data-hash-target to="ability-unchained_rogue_talents-fake-fn-25-target">25</InnerLink></sup></Pair>
 <Pair title="Passive Ability">Whenever a foe of the rogue's size or larger misses the rogue with a melee attack, the rogue gains a +2 bonus on any Acrobatics, Climb, Fly, and Swim checks she attempts for 1 round.</Pair>
 <Pair title="At 8th Level">This bonus increases to +4.</Pair>
 </Ability>
-<Ability id="talentmienofdespair-mien-of-despair-su-fn4-12" icon={["armor-downgrade"]}>
+<Ability id="talentmienofdespair-mien-of-despair-su-fn4-12" icon={["lower"]}>
 <Pair single id="talentmienofdespair-mien-of-despair-su-fn4-12"><Link to="/talent/mien_of_despair">⮞</Link> Mien of Despair (Su) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-4.12" id="ability-unchained_rogue_talents-fake-fn-4.12" data-hash-target to="ability-unchained_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">When a rogue with this talent successfully demoralizes an opponent using the <Link to="/skill/intimidate">Intimidate</Link> skill or performs a successful <Link to="/rule/feint">feint</Link> against an opponent, the opponent loses any morale bonuses and cannot benefit from any morale bonuses for 1d4+1 rounds.</Pair>
 </Ability>
-<Ability id="talentpositioningattack-positioning-attack-ex-fn14-2" icon={["mailed-fist"]}>
+<Ability id="talentpositioningattack-positioning-attack-ex-fn14-2" icon={["melee"]}>
 <Pair single id="talentpositioningattack-positioning-attack-ex-fn14-2"><Link to="/talent/positioning_attack">⮞</Link> Positioning Attack (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-14.2" id="ability-unchained_rogue_talents-fake-fn-14.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day, when a rogue with this talent hits a creature with a melee attack, she can move up to 30 feet without provoking attacks of opportunity. The movement must end in a space adjacent to the creature hit with the melee attack.</Pair>
 </Ability>
-<Ability id="talentresiliency-resiliency-ex-fn2-6" icon={["remedy"]}>
+<Ability id="talentresiliency-resiliency-ex-fn2-6" icon={["aid"]}>
 <Pair single id="talentresiliency-resiliency-ex-fn2-6"><Link to="/talent/resiliency">⮞</Link> Resiliency (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-2.6" id="ability-unchained_rogue_talents-fake-fn-2.6" data-hash-target to="ability-unchained_rogue_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Immediate Action">Once per day, a rogue with this ability can gain a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the rogue's level. Activating this ability can only be performed when she is brought to below 0 hit points. This ability can be used to prevent her from dying.</Pair>
 <Pair title="Special">These temporary hit points last for 1 minute. If the rogue's hit points drop below 0 due to the loss of these temporary hit points, she falls <Link to="/misc/unconscious">unconscious</Link> and is <Link to="/misc/dying">dying</Link> as normal.</Pair>
 </Ability>
-<Ability id="talentroguecrawlunchainedrogue-rogue-crawl-unchained-rogue-ex-fn5-3" icon={["stairs-goal","upgrade","armor-upgrade"]}>
+<Ability id="talentroguecrawlunchainedrogue-rogue-crawl-unchained-rogue-ex-fn5-3" icon={["power","boost","def"]}>
 <Pair single id="talentroguecrawlunchainedrogue-rogue-crawl-unchained-rogue-ex-fn5-3"><Link to="/talent/rogue_crawl_unchained_rogue">⮞</Link> Rogue Crawl (Unchained Rogue) (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-5.3" id="ability-unchained_rogue_talents-fake-fn-5.3" data-hash-target to="ability-unchained_rogue_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">While <Link to="/rule/prone">prone</Link>, a rogue with this ability can move at half speed. This movement provokes attacks of opportunity as normal. A rogue with this talent can take a 5-foot step while crawling and she reduces her attack roll and AC penalties for being prone by 2.</Pair>
 </Ability>
-<Ability id="talentstandupunchainedrogue-stand-up-unchained-rogue-ex-fn5-4" icon={["stairs-goal"]}>
+<Ability id="talentstandupunchainedrogue-stand-up-unchained-rogue-ex-fn5-4" icon={["power"]}>
 <Pair single id="talentstandupunchainedrogue-stand-up-unchained-rogue-ex-fn5-4"><Link to="/talent/stand_up_unchained_rogue">⮞</Link> Stand Up (Unchained Rogue) (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-5.4" id="ability-unchained_rogue_talents-fake-fn-5.4" data-hash-target to="ability-unchained_rogue_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this ability can stand up from a <Link to="/rule/prone">prone</Link> position as a <strong className="hl">free action</strong>. This still provokes attacks of opportunity for standing up while threatened by a foe.</Pair>
 <Pair title="Special">A rogue with this ability can stand up from a prone position as a <strong className="hl">swift action</strong> without provoking attacks of opportunity.</Pair>
 </Ability>
-<Ability id="talentsuperiorsniper-superior-sniper-fn17-3" icon={["stairs-goal"]}>
+<Ability id="talentsuperiorsniper-superior-sniper-fn17-3" icon={["power"]}>
 <Pair single id="talentsuperiorsniper-superior-sniper-fn17-3"><Link to="/talent/superior_sniper">⮞</Link> Superior Sniper <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-17.3" id="ability-unchained_rogue_talents-fake-fn-17.3" data-hash-target to="ability-unchained_rogue_talents-fake-fn-17-target">17</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue who selects this talent gains <Link to="/feat/expert_sniper">Expert Sniper</Link> as a bonus feat. If she already has this feat, she can instead select any feat that lists Expert Sniper as a prerequisite, as long as she meets the feat's prerequisites.</Pair>
 </Ability>
-<Ability id="talentunbalancingtrick-unbalancing-trick-ex-fn16-4" icon={["stairs-goal"]}>
+<Ability id="talentunbalancingtrick-unbalancing-trick-ex-fn16-4" icon={["power"]}>
 <Pair single id="talentunbalancingtrick-unbalancing-trick-ex-fn16-4"><Link to="/talent/unbalancing_trick">⮞</Link> Unbalancing Trick (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-16.4" id="ability-unchained_rogue_talents-fake-fn-16.4" data-hash-target to="ability-unchained_rogue_talents-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Ability">The rogue gains <Link to="/feat/improved_trip">Improved Trip</Link> as a bonus feat, even if she does not meet the prerequisites.</Pair>
 <Pair title="At 6th Level">She is treated as if she meets all the prerequisites of <Link to="/feat/greater_trip">Greater Trip</Link> (although she must take the feat as normal to gain its benefits).</Pair>
 </Ability>
-<Ability id="talentunderhandedtrick-underhanded-trick-fn4-13" icon={["stairs-goal"]}>
+<Ability id="talentunderhandedtrick-underhanded-trick-fn4-13" icon={["power"]}>
 <Pair single id="talentunderhandedtrick-underhanded-trick-fn4-13"><Link to="/talent/underhanded_trick">⮞</Link> Underhanded Trick <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-4.13" id="ability-unchained_rogue_talents-fake-fn-4.13" data-hash-target to="ability-unchained_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue who selects this talent gains <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link> as a bonus feat, even if she does not meet the prerequisites.</Pair>
 <Pair title="At 6th Level">She is treated as if she meets all the prerequisites for <Link to="/feat/greater_dirty_trick">Greater Dirty Trick</Link> (although she must take the feat as normal).</Pair>
 <Pair title="Special">If she succeeds in giving her target the <Link to="/misc/blinded">blinded</Link> condition, the target cannot remove the condition during the first round of blindness.</Pair>
 </Ability>
-<Ability id="talentweapontraining-weapon-training-fn26" icon={["stairs-goal"]}>
+<Ability id="talentweapontraining-weapon-training-fn26" icon={["power"]}>
 <Pair single id="talentweapontraining-weapon-training-fn26"><Link to="/talent/weapon_training">⮞</Link> Weapon Training <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-26" id="ability-unchained_rogue_talents-fake-fn-26" data-hash-target to="ability-unchained_rogue_talents-fake-fn-26-target">26</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue that selects this talent gains <Link to="/feat/weapon_focus">Weapon Focus</Link> as a bonus feat.</Pair>
 </Ability>
 <h3 id="ability-unchained_rogue_talents-trap-talents" data-hash-target>Trap Talents</h3>
-<Ability id="talentcannyobserver-canny-observer-ex-fn3-4" icon={["upgrade"]}>
+<Ability id="talentcannyobserver-canny-observer-ex-fn3-4" icon={["boost"]}>
 <Pair single id="talentcannyobserver-canny-observer-ex-fn3-4"><Link to="/talent/canny_observer">⮞</Link> Canny Observer (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-3.4" id="ability-unchained_rogue_talents-fake-fn-3.4" data-hash-target to="ability-unchained_rogue_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Passive Ability">When a rogue with this talent makes a Perception check to hear the details of a conversation or to find concealed or secret objects (including doors and traps), she gains a +4 bonus.</Pair>
 </Ability>
-<Ability id="talentcunningtrigger-cunning-trigger-ex-fn3-5" icon={["stairs-goal"]}>
+<Ability id="talentcunningtrigger-cunning-trigger-ex-fn3-5" icon={["power"]}>
 <Pair single id="talentcunningtrigger-cunning-trigger-ex-fn3-5"><Link to="/talent/cunning_trigger">⮞</Link> Cunning Trigger (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-3.5" id="ability-unchained_rogue_talents-fake-fn-3.5" data-hash-target to="ability-unchained_rogue_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Swift Action">A rogue with this talent can set off any trap within 30 feet that she constructed.</Pair>
 </Ability>
-<Ability id="talentquicktrapsmith-quick-trapsmith-ex-fn14-3" icon={["stairs-goal"]}>
+<Ability id="talentquicktrapsmith-quick-trapsmith-ex-fn14-3" icon={["power"]}>
 <Pair single id="talentquicktrapsmith-quick-trapsmith-ex-fn14-3"><Link to="/talent/quick_trapsmith">⮞</Link> Quick Trapsmith (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-14.3" id="ability-unchained_rogue_talents-fake-fn-14.3" data-hash-target to="ability-unchained_rogue_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Full-Round Action">A rogue with this talent can set a simple trap with a CR no greater than 1/2 her rogue level. To do this, she must purchase the components, spend the required time constructing the trap in advance, and have its components at hand. The type of trap that can be constructed in this way is subject to GM discretion.</Pair>
 </Ability>
-<Ability id="talenttrapspotter-trap-spotter-ex-fn26-2" icon={["stairs-goal"]}>
+<Ability id="talenttrapspotter-trap-spotter-ex-fn26-2" icon={["power"]}>
 <Pair single id="talenttrapspotter-trap-spotter-ex-fn26-2"><Link to="/talent/trap_spotter">⮞</Link> Trap Spotter (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-26.2" id="ability-unchained_rogue_talents-fake-fn-26.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-26-target">26</InnerLink></sup></Pair>
 <Pair title="Passive Ability">Whenever a rogue with this talent comes within 10 feet of a trap, she receives an immediate Perception skill check to notice the trap. This check should be made in secret by the GM.</Pair>
 </Ability>
 <h3 id="ability-unchained_rogue_talents-disable-device-talents" data-hash-target>Disable Device Talents</h3>
-<Ability id="talenthairpintrick-hairpin-trick-ex-fn7-5" icon={["upgrade"]}>
+<Ability id="talenthairpintrick-hairpin-trick-ex-fn7-5" icon={["boost"]}>
 <Pair single id="talenthairpintrick-hairpin-trick-ex-fn7-5"><Link to="/talent/hairpin_trick">⮞</Link> Hairpin Trick (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-7.5" id="ability-unchained_rogue_talents-fake-fn-7.5" data-hash-target to="ability-unchained_rogue_talents-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Ability">The rogue is skilled at making do with anything she can find. She takes no penalty on <Link to="/skill/disable_device">Disable Device</Link> checks for using improvised tools, and can attempt such checks without any tools at a -4 penalty. She treats all non-improvised <Link to="/eq-misc/thieves_tools">thieves' tools</Link> as masterwork and doubles the bonus she gets from <Link to="/eq-misc/masterwork_thieves_tools">masterwork thieves' tools</Link> from +2 to +4.</Pair>
 </Ability>
-<Ability id="talentquickdisableunchainedrogue-quick-disable-unchained-rogue-ex-fn5-5" icon={["upgrade"]}>
+<Ability id="talentquickdisableunchainedrogue-quick-disable-unchained-rogue-ex-fn5-5" icon={["boost"]}>
 <Pair single id="talentquickdisableunchainedrogue-quick-disable-unchained-rogue-ex-fn5-5"><Link to="/talent/quick_disable_unchained_rogue">⮞</Link> Quick Disable (Unchained Rogue) (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-5.5" id="ability-unchained_rogue_talents-fake-fn-5.5" data-hash-target to="ability-unchained_rogue_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">It takes a rogue with this ability half the normal amount of time to disable a trap using the <Link to="/skill/disable_device">Disable Device</Link> skill (minimum 1 round). When she uses Disable Device to open a lock that would normally take a full-round action to open, she reduces the duration to a <strong className="hl">standard action</strong>.</Pair>
 </Ability>
 <h3 id="ability-unchained_rogue_talents-deception-talents" data-hash-target>Deception Talents</h3>
-<Ability id="talentcamouflage-camouflage-ex-fn3-6" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="talentcamouflage-camouflage-ex-fn3-6" icon={["power","def"]}>
 <Pair single id="talentcamouflage-camouflage-ex-fn3-6"><Link to="/talent/camouflage">⮞</Link> Camouflage (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-3.6" id="ability-unchained_rogue_talents-fake-fn-3.6" data-hash-target to="ability-unchained_rogue_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day, a rogue with this talent can craft simple but effective camouflage from the surrounding foliage. The rogue needs 1 minute to prepare the camouflage, but once she does, it is good for the rest of the day or until the rogue fails a saving throw against an area effect spell that deals fire, cold, or acid damage, whichever comes first. The rogue gains a +4 bonus on Stealth checks while within terrain that matches the foliage used to make the camouflage. This ability cannot be used in areas without natural foliage.</Pair>
 </Ability>
-<Ability id="talentcoaxinformationunchainedrogue-coax-information-ex-fn13-3" icon={["upgrade"]}>
+<Ability id="talentcoaxinformationunchainedrogue-coax-information-ex-fn13-3" icon={["boost"]}>
 <Pair single id="talentcoaxinformationunchainedrogue-coax-information-ex-fn13-3"><Link to="/talent/coax_information_unchained_rogue">⮞</Link> Coax Information (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-13.3" id="ability-unchained_rogue_talents-fake-fn-13.3" data-hash-target to="ability-unchained_rogue_talents-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent can use <Link to="/skill/bluff">Bluff</Link> or <Link to="/skill/diplomacy">Diplomacy</Link> in place of <Link to="/skill/intimidate">Intimidate</Link> to force an opponent to act friendly toward her. When the duration of the attitude shift ends, that opponents' attitude toward the rogue returns to its previous level, rather than dropping one level.</Pair>
 </Ability>
-<Ability id="talentdampenpresence-dampen-presence-fn17-4" icon={["stairs-goal"]}>
+<Ability id="talentdampenpresence-dampen-presence-fn17-4" icon={["power"]}>
 <Pair single id="talentdampenpresence-dampen-presence-fn17-4"><Link to="/talent/dampen_presence">⮞</Link> Dampen Presence <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-17.4" id="ability-unchained_rogue_talents-fake-fn-17.4" data-hash-target to="ability-unchained_rogue_talents-fake-fn-17-target">17</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue who selects this talent gains <Link to="/feat/dampen_presence">Dampen Presence</Link> as a bonus feat. The rogue does not need to meet the feat's prerequisites. The rogue is also considered to have the <Link to="/feat/skill_focus">Skill Focus</Link> (Stealth) feat for the purpose of satisfying the prerequisites of any feat that lists Dampen Presence as a prerequisite.</Pair>
 </Ability>
-<Ability id="talentfalsefriend-false-friend-ex-fn27" icon={["upgrade"]}>
+<Ability id="talentfalsefriend-false-friend-ex-fn27" icon={["boost"]}>
 <Pair single id="talentfalsefriend-false-friend-ex-fn27"><Link to="/talent/false_friend">⮞</Link> False Friend (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-27" id="ability-unchained_rogue_talents-fake-fn-27" data-hash-target to="ability-unchained_rogue_talents-fake-fn-27-target">27</InnerLink></sup></Pair>
 <Pair title="Passive Ability">A rogue with this talent gains a +4 bonus when making Bluff checks to convince someone she has never met or who doesn't know her well that they are previously acquainted or know each other well.</Pair>
 </Ability>
-<Ability id="talentfaststealth-fast-stealth-ex-fn2-7" icon={["upgrade"]}>
+<Ability id="talentfaststealth-fast-stealth-ex-fn2-7" icon={["boost"]}>
 <Pair single id="talentfaststealth-fast-stealth-ex-fn2-7"><Link to="/talent/fast_stealth">⮞</Link> Fast Stealth (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-2.7" id="ability-unchained_rogue_talents-fake-fn-2.7" data-hash-target to="ability-unchained_rogue_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">This ability allows a rogue to move at full speed using the <Link to="/skill/stealth">Stealth</Link> skill without penalty.</Pair>
 </Ability>
-<Ability id="talentinnocuousservant-innocuous-servant-ex-fn25-2" icon={["upgrade"]}>
+<Ability id="talentinnocuousservant-innocuous-servant-ex-fn25-2" icon={["boost"]}>
 <Pair single id="talentinnocuousservant-innocuous-servant-ex-fn25-2" flavor="The rogue is an expert at appearing to be an unimportant servant, be it an attach&eacute;, bodyguard, driver, maid, kitchen assistant, or similar staff member."><Link to="/talent/innocuous_servant">⮞</Link> Innocuous Servant (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-25.2" id="ability-unchained_rogue_talents-fake-fn-25.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-25-target">25</InnerLink></sup></Pair>
 <Pair title="Passive Ability"><p>The rogue gains a +2 bonus on <Link to="/skill/disguise">Disguise</Link> checks to appear to be a servant, but not to impersonate a particular servant. She also gains a +2 bonus on <Link to="/skill/bluff">Bluff</Link> checks to lie to maintain this guise.</p>
 <p>While disguised as a servant, she gains a +2 bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to gather information among servants. Because she is easily overlooked as a servant, she can gather information from those she serves without asking them questions directly or alerting them to her interest. Doing so takes 1d4 days and requires a successful Bluff check instead of a Diplomacy check.</p>
 </Pair>
 <Pair title="At 8th Level">The bonuses granted by this talent increase to +4.</Pair>
 </Ability>
-<Ability id="talentjustafaceinthecrowd-just-a-face-in-the-crowd-su-fn20-5" icon={["upgrade"]}>
+<Ability id="talentjustafaceinthecrowd-just-a-face-in-the-crowd-su-fn20-5" icon={["boost"]}>
 <Pair single id="talentjustafaceinthecrowd-just-a-face-in-the-crowd-su-fn20-5" flavor="The rabble-rousers of Galt can blend into a crowd and are able to hide and spot others who appear to be hiding."><Link to="/talent/just_a_face_in_the_crowd">⮞</Link> Just a Face in the Crowd (Su) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-20.5" id="ability-unchained_rogue_talents-fake-fn-20.5" data-hash-target to="ability-unchained_rogue_talents-fake-fn-20-target">20</InnerLink></sup></Pair>
 <Pair title="Passive Ability">The rogue gains a bonus equal to <Link to="/misc/half">half</Link> his class level on Disguise and Perception checks when 10 or more creatures of his size are within 30 feet of him.</Pair>
 </Ability>
-<Ability id="talentquickdisguise-quick-disguise-ex-fn14-4" icon={["upgrade"]}>
+<Ability id="talentquickdisguise-quick-disguise-ex-fn14-4" icon={["boost"]}>
 <Pair single id="talentquickdisguise-quick-disguise-ex-fn14-4"><Link to="/talent/quick_disguise">⮞</Link> Quick Disguise (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-14.4" id="ability-unchained_rogue_talents-fake-fn-14.4" data-hash-target to="ability-unchained_rogue_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability"><p>A rogue with this talent can use the items at hand and seemingly innocuous material hidden on her person to create startlingly effective disguises, reducing the amount of time it takes to create a disguise using the <Link to="/skill/disguise">Disguise</Link> skill.</p>
 <p>The time needed for the rogue to alter her appearance in this manner is based on the complexity of the disguise, as noted on the following table. The times are cumulative, so if a female rogue wants to disguise herself as a male of a different race, that takes 2 minutes.</p>
@@ -1527,28 +1527,28 @@ const _unchained_rogue_talents = {hasJL:true,title: "Unchained Rogue Talents", t
 </tbody></table></ScrollContainer>
 </Pair>
 </Ability>
-<Ability id="talentrapidboost-rapid-boost-ex-fn28" icon={["rolling-dices"]}>
+<Ability id="talentrapidboost-rapid-boost-ex-fn28" icon={["roll"]}>
 <Pair single id="talentrapidboost-rapid-boost-ex-fn28"><Link to="/talent/rapid_boost">⮞</Link> Rapid Boost (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-28" id="ability-unchained_rogue_talents-fake-fn-28" data-hash-target to="ability-unchained_rogue_talents-fake-fn-28-target">28</InnerLink></sup></Pair>
 <Pair title="Usage">1 time/day + 1 per five rogue levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
 <Pair title="Ability">The rogue can roll two dice while attempting a <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check and take the better result. She must choose to use this talent before attempting the Sleight of Hand check.</Pair>
 </Ability>
-<Ability id="talentsczarnismuggler-sczarni-smuggler-ex-fn25-3" icon={["stairs-goal","upgrade"]}>
+<Ability id="talentsczarnismuggler-sczarni-smuggler-ex-fn25-3" icon={["power","boost"]}>
 <Pair single id="talentsczarnismuggler-sczarni-smuggler-ex-fn25-3" flavor="The rogue has picked up Sczarni tricks for making masterful forgeries and using bribery to evade trade rules."><Link to="/talent/sczarni_smuggler">⮞</Link> Sczarni Smuggler (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-25.3" id="ability-unchained_rogue_talents-fake-fn-25.3" data-hash-target to="ability-unchained_rogue_talents-fake-fn-25-target">25</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The rogue needs to learn only the approximate appearance of a document that doesn't require a particular person's signature to accurately forge the document with <Link to="/skill/linguistics">Linguistics</Link> (gaining a +8 bonus on the check to create the forgery, as if she had seen a similar document before). The rogue needs only a small sample of a person's handwriting to make a convincing forgery of great length in that person's handwriting.</p>
 <p>The rogue can always take 10 on <Link to="/skill/diplomacy">Diplomacy</Link> checks to offer bribes. In addition, the rogue automatically gains an extra advantage at the start of a <Link to="/rule/pursuit">pursuit</Link> in an urban environment.</p>
 </Pair>
 </Ability>
-<Ability id="talentterrainmastery-terrain-mastery-ex-fn8-2" icon={["stairs-goal"]}>
+<Ability id="talentterrainmastery-terrain-mastery-ex-fn8-2" icon={["power"]}>
 <Pair single id="talentterrainmastery-terrain-mastery-ex-fn8-2"><Link to="/talent/terrain_mastery">⮞</Link> Terrain Mastery (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-8.2" id="ability-unchained_rogue_talents-fake-fn-8.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent gains a <Link to="/ability/favored_terrain">favored terrain</Link> as the ranger ability of the same name, though the favored terrain ability does not increase with her level as the ranger's ability does.</Pair>
 <Pair title="Special">A rogue can take this ability multiple times, each time applying it to a new terrain.</Pair>
 </Ability>
 <h3 id="ability-unchained_rogue_talents-other-talents" data-hash-target>Other Talents</h3>
-<Ability id="talentbardicpretender-bardic-pretender-ex-fn9-2" icon={["stairs-goal"]}>
+<Ability id="talentbardicpretender-bardic-pretender-ex-fn9-2" icon={["power"]}>
 <Pair single id="talentbardicpretender-bardic-pretender-ex-fn9-2"><Link to="/talent/bardic_pretender">⮞</Link> Bardic Pretender (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-9.2" id="ability-unchained_rogue_talents-fake-fn-9.2" data-hash-target to="ability-unchained_rogue_talents-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Ability">The rogue knows enough about music and performance to survive in a bardic college and can fake what she doesn't know. The rogue qualifies as having the <Link to="/performance/inspire_competence">inspire competence</Link> bardic performance class feature for the purpose of meeting prestige class requirements, although this talent doesn't grant her the <em>bardic performance</em> ability.</Pair>
 </Ability>
-<Ability id="talentcertainty-certainty-ex-fn13-4" icon={["rolling-dices"]}>
+<Ability id="talentcertainty-certainty-ex-fn13-4" icon={["roll"]}>
 <Pair single id="talentcertainty-certainty-ex-fn13-4"><Link to="/talent/certainty">⮞</Link> Certainty (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-13.4" id="ability-unchained_rogue_talents-fake-fn-13.4" data-hash-target to="ability-unchained_rogue_talents-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><em>Rogue's edge</em> class feature</Pair>
 <Pair title="Choice">The rogue chooses one of the skills she selected with <em>rogue's edge.</em></Pair>
@@ -1556,91 +1556,91 @@ const _unchained_rogue_talents = {hasJL:true,title: "Unchained Rogue Talents", t
 <Pair title="Usage">1 time/day per five rogue levels (minimum 1)<ByLevelPop levels={[[1,1],[10,2],[15,3],[20,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Special">A rogue can select this talent multiple times. Each time, the rogue must choose a different skill.</Pair>
 </Ability>
-<Ability id="talentclaimedturf-claimed-turf-ex-fn25-4" icon={["stairs-goal"]}>
+<Ability id="talentclaimedturf-claimed-turf-ex-fn25-4" icon={["power"]}>
 <Pair single id="talentclaimedturf-claimed-turf-ex-fn25-4"><Link to="/talent/claimed_turf">⮞</Link> Claimed Turf (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-25.4" id="ability-unchained_rogue_talents-fake-fn-25.4" data-hash-target to="ability-unchained_rogue_talents-fake-fn-25-target">25</InnerLink></sup></Pair>
 <Pair title="Ability"><p>The rogue is well known in a specific community in which she gains the benefits of <em>renown.</em> She gains the <Link to="/soctalent/renown">renown</Link> vigilante social talent. This community can be an entire settlement or portions of a settlement (such as a particular district or neighborhood), depending on the population as allowed by the <em>renown</em> social talent.</p>
 <p>Anytime she could select another rogue talent, the rogue can also select from the following list of social talents, using her rogue level as her vigilante level for the purpose meeting of prerequisites: <Link to="/soctalent/celebrity_discount">celebrity discount</Link>, <Link to="/soctalent/celebrity_perks">celebrity perks</Link>, <Link to="/soctalent/gossip_collector">gossip collector</Link>, <Link to="/soctalent/great_renown">great renown</Link>, <Link to="/soctalent/incredible_renown">incredible renown</Link>, <Link to="/soctalent/loyal_aid">loyal aid</Link>, and <Link to="/soctalent/safe_house">safe house</Link>.</p>
 </Pair>
 <Pair title="Special">For the purposes of vigilante social talents, the rogue does not have a vigilante identity and is always considered to be in her social identity.</Pair>
 </Ability>
-<Ability id="talentesotericscholar-esoteric-scholar-ex-fn12-6" icon={["stairs-goal"]}>
+<Ability id="talentesotericscholar-esoteric-scholar-ex-fn12-6" icon={["power"]}>
 <Pair single id="talentesotericscholar-esoteric-scholar-ex-fn12-6"><Link to="/talent/esoteric_scholar">⮞</Link> Esoteric Scholar (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-12.6" id="ability-unchained_rogue_talents-fake-fn-12.6" data-hash-target to="ability-unchained_rogue_talents-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Ability">Once a day, a rogue with this talent may attempt a <Link to="/skill/knowledge">Knowledge</Link> check, even when she is not trained in that Knowledge skill.</Pair>
 </Ability>
-<Ability id="talentexpertleaperunchainedrogue-expert-leaper-unchained-rogue-ex-fn13-5" icon={["upgrade","armor-upgrade"]}>
+<Ability id="talentexpertleaperunchainedrogue-expert-leaper-unchained-rogue-ex-fn13-5" icon={["boost","def"]}>
 <Pair single id="talentexpertleaperunchainedrogue-expert-leaper-unchained-rogue-ex-fn13-5"><Link to="/talent/expert_leaper_unchained_rogue">⮞</Link> Expert Leaper (Unchained Rogue) (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-13.5" id="ability-unchained_rogue_talents-fake-fn-13.5" data-hash-target to="ability-unchained_rogue_talents-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Passive Ability">When making jump checks, the rogue is always considered to have a running start, and adds her rogue level to the check result. Also, when the rogue deliberately falls, a DC 15 Acrobatics check allows her to ignore the first 20 feet fallen, instead of the first 10 feet. For every 5 by which she exceeds the DC of this check, she can ignore an additional 10 feet of distance fallen.</Pair>
 </Ability>
-<Ability id="talentfavoredterrain-favored-terrain-ex-fn11-3" icon={["stairs-goal"]}>
+<Ability id="talentfavoredterrain-favored-terrain-ex-fn11-3" icon={["power"]}>
 <Pair single id="talentfavoredterrain-favored-terrain-ex-fn11-3"><Link to="/talent/favored_terrain">⮞</Link> Favored Terrain (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-11.3" id="ability-unchained_rogue_talents-fake-fn-11.3" data-hash-target to="ability-unchained_rogue_talents-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Prerequisites">5th-level rogue</Pair>
 <Pair title="Ability">The rogue selects one terrain from the ranger's <Link to="/ability/favored_terrain">favored terrain</Link> list; she gains this as a <em>favored terrain,</em> as the ranger class feature.</Pair>
 <Pair title="Special">If the rogue also has or later takes the <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link> advanced rogue talent, her <em>favored terrain</em> must match a terrain she has selected for that advanced talent. If the rogue has ranger levels, her effective ranger level is equal to her ranger level + 5 for purposes of improving the bonuses from this <em>favored terrain</em> and gaining new <em>favored terrains.</em></Pair>
 </Ability>
-<Ability id="talentfollowclues-follow-clues-ex-fn3-7" icon={["upgrade"]}>
+<Ability id="talentfollowclues-follow-clues-ex-fn3-7" icon={["boost"]}>
 <Pair single id="talentfollowclues-follow-clues-ex-fn3-7"><Link to="/talent/follow_clues">⮞</Link> Follow Clues (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-3.7" id="ability-unchained_rogue_talents-fake-fn-3.7" data-hash-target to="ability-unchained_rogue_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent can use <Link to="/skill/perception">Perception</Link> to follow tracks as per the <Link to="/skill/survival">Survival</Link> skill.</Pair>
 </Ability>
-<Ability id="talentgetawayartist-getaway-artist-ex-fn12-7" icon={["skills","upgrade"]}>
+<Ability id="talentgetawayartist-getaway-artist-ex-fn12-7" icon={["skill","boost"]}>
 <Pair single id="talentgetawayartist-getaway-artist-ex-fn12-7"><Link to="/talent/getaway_artist">⮞</Link> Getaway Artist (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-12.7" id="ability-unchained_rogue_talents-fake-fn-12.7" data-hash-target to="ability-unchained_rogue_talents-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Passive Ability">A rogue with this talent adds <Link to="/skill/fly">Fly</Link>, <Link to="/skill/handle_animal">Handle Animal</Link>, and <Link to="/skill/ride">Ride</Link> to her list of class skills, and gains a +2 bonus on all <Link to="/rule/driving_check">driving checks</Link>.</Pair>
 </Ability>
-<Ability id="talentgracefulathlete-graceful-athlete-fn29" icon={["stairs-goal"]}>
+<Ability id="talentgracefulathlete-graceful-athlete-fn29" icon={["power"]}>
 <Pair single id="talentgracefulathlete-graceful-athlete-fn29"><Link to="/talent/graceful_athlete">⮞</Link> Graceful Athlete <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-29" id="ability-unchained_rogue_talents-fake-fn-29" data-hash-target to="ability-unchained_rogue_talents-fake-fn-29-target">29</InnerLink></sup></Pair>
 <Pair title="Ability">Gain <Link to="/feat/graceful_athlete">Graceful Athlete</Link> as a bonus feat. You must meet the prerequisites for the feat.</Pair>
 </Ability>
-<Ability id="talentgreentongue-green-tongue-ex-fn11-4" icon={["stairs-goal"]}>
+<Ability id="talentgreentongue-green-tongue-ex-fn11-4" icon={["power"]}>
 <Pair single id="talentgreentongue-green-tongue-ex-fn11-4"><Link to="/talent/green_tongue">⮞</Link> Green Tongue (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-11.4" id="ability-unchained_rogue_talents-fake-fn-11.4" data-hash-target to="ability-unchained_rogue_talents-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Ability">The rogue gains Aklo, Aquan, Auran, Giant, Ignan, Sylvan, or Terran as a bonus language. In addition, the rogue can attempt a DC 15 <Link to="/skill/linguistics">Linguistics</Link> check to communicate basic concepts with magical beasts and monstrous humanoids with which she does not share a common language.</Pair>
 </Ability>
-<Ability id="talentledgewalkerunchainedrogue-ledge-walker-unchained-rogue-ex-fn5-6" icon={["upgrade","armor-upgrade"]}>
+<Ability id="talentledgewalkerunchainedrogue-ledge-walker-unchained-rogue-ex-fn5-6" icon={["boost","def"]}>
 <Pair single id="talentledgewalkerunchainedrogue-ledge-walker-unchained-rogue-ex-fn5-6"><Link to="/talent/ledge_walker_unchained_rogue">⮞</Link> Ledge Walker (Unchained Rogue) (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-5.6" id="ability-unchained_rogue_talents-fake-fn-5.6" data-hash-target to="ability-unchained_rogue_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">The rogue can move along narrow surfaces at full speed using the Acrobatics skill without penalty. In addition, a rogue with this talent is not <Link to="/rule/flat_footed">flat-footed</Link> when using Acrobatics to move along narrow surfaces and retains her Dexterity bonus to AC.</Pair>
 </Ability>
-<Ability id="talentmultitalented-multitalented-ex-fn5-7" icon={["stairs-goal"]}>
+<Ability id="talentmultitalented-multitalented-ex-fn5-7" icon={["power"]}>
 <Pair single id="talentmultitalented-multitalented-ex-fn5-7" flavor="The rogue can use her rogue talents more often."><Link to="/talent/multitalented">⮞</Link> Multitalented (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-5.7" id="ability-unchained_rogue_talents-fake-fn-5.7" data-hash-target to="ability-unchained_rogue_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day, she can use a rogue talent that is normally only usable once per day one additional time.</Pair>
 <Pair title="At 10th Level">She can use this talent one additional time per day (for a total of 2).</Pair>
 <Pair title="At 18th Level">She can use this talent one additional time per day (for a total of 3).</Pair>
 <Pair title="Special">The uses of this talent do not have to be spent on the same rogue talent. This ability cannot be used with an <em>advanced talent.</em></Pair>
 </Ability>
-<Ability id="talentnimbleclimber-nimble-climber-ex-fn5-8" icon={["armor-upgrade"]}>
+<Ability id="talentnimbleclimber-nimble-climber-ex-fn5-8" icon={["def"]}>
 <Pair single id="talentnimbleclimber-nimble-climber-ex-fn5-8"><Link to="/talent/nimble_climber">⮞</Link> Nimble Climber (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-5.8" id="ability-unchained_rogue_talents-fake-fn-5.8" data-hash-target to="ability-unchained_rogue_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">Whenever the rogue fails a Climb check by 5 or more, she can attempt a Reflex save (using the same DC as the Climb check) to catch herself and avoid falling.</Pair>
 </Ability>
-<Ability id="talentninjatrick-ninja-trick-ex-fn8-3" icon={["stairs-goal"]}>
+<Ability id="talentninjatrick-ninja-trick-ex-fn8-3" icon={["power"]}>
 <Pair single id="talentninjatrick-ninja-trick-ex-fn8-3"><Link to="/talent/ninja_trick">⮞</Link> Ninja Trick (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-8.3" id="ability-unchained_rogue_talents-fake-fn-8.3" data-hash-target to="ability-unchained_rogue_talents-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent can choose a trick from the <Link to="/ability/ninja_tricks">ninja trick</Link> list. The rogue cannot choose a ninja trick with the same name as a rogue talent.</Pair>
 <Pair title="Special">The rogue can choose but cannot use talents that require ki points, unless she has a ki pool. A rogue can pick this talent more than once.</Pair>
 </Ability>
-<Ability id="talentropemaster-rope-master-ex-fn8-4" icon={["upgrade"]}>
+<Ability id="talentropemaster-rope-master-ex-fn8-4" icon={["boost"]}>
 <Pair single id="talentropemaster-rope-master-ex-fn8-4"><Link to="/talent/rope_master">⮞</Link> Rope Master (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-8.4" id="ability-unchained_rogue_talents-fake-fn-8.4" data-hash-target to="ability-unchained_rogue_talents-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this ability can move at her normal speed when using rope on a <Link to="/skill/climb">Climb</Link> check, can take 10 when using <Link to="/skill/acrobatics">Acrobatics</Link> to move over narrow surfaces even when in danger or distracted, and gains a +4 bonus when determining the DC to escape bonds when she ties up a creature.</Pair>
 </Ability>
-<Ability id="talentstrongimpression-strong-impression-fn14-5" icon={["stairs-goal"]}>
+<Ability id="talentstrongimpression-strong-impression-fn14-5" icon={["power"]}>
 <Pair single id="talentstrongimpression-strong-impression-fn14-5"><Link to="/talent/strong_impression">⮞</Link> Strong Impression <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-14.5" id="ability-unchained_rogue_talents-fake-fn-14.5" data-hash-target to="ability-unchained_rogue_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue who selects this talent gains <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="talentstrongstroke-strong-stroke-ex-fn8-5" icon={["rolling-dices","upgrade"]}>
+<Ability id="talentstrongstroke-strong-stroke-ex-fn8-5" icon={["roll","boost"]}>
 <Pair single id="talentstrongstroke-strong-stroke-ex-fn8-5"><Link to="/talent/strong_stroke">⮞</Link> Strong Stroke (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-8.5" id="ability-unchained_rogue_talents-fake-fn-8.5" data-hash-target to="ability-unchained_rogue_talents-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent rolls twice when making <Link to="/skill/swim">Swim</Link> checks and takes the better result. If she already rolls twice while making a Swim check because of another ability or effect, she gains a +2 insight bonus on both of those rolls instead. If the rogue is under the effect of a spell or ability that forces her to roll two dice and take the worse result, she only needs to roll 1d20 while making Swim checks.</Pair>
 </Ability>
-<Ability id="talentsurvivalist-survivalist-fn14-6" icon={["skills"]}>
+<Ability id="talentsurvivalist-survivalist-fn14-6" icon={["skill"]}>
 <Pair single id="talentsurvivalist-survivalist-fn14-6"><Link to="/talent/survivalist">⮞</Link> Survivalist <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-14.6" id="ability-unchained_rogue_talents-fake-fn-14.6" data-hash-target to="ability-unchained_rogue_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Info">A rogue with this talent adds <Link to="/skill/heal">Heal</Link> and <Link to="/skill/survival">Survival</Link> to her list of class skills.</Pair>
 </Ability>
-<Ability id="talentswifttracker-swift-tracker-ex-fn11-5" icon={["upgrade"]}>
+<Ability id="talentswifttracker-swift-tracker-ex-fn11-5" icon={["boost"]}>
 <Pair single id="talentswifttracker-swift-tracker-ex-fn11-5"><Link to="/talent/swift_tracker">⮞</Link> Swift Tracker (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-11.5" id="ability-unchained_rogue_talents-fake-fn-11.5" data-hash-target to="ability-unchained_rogue_talents-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Ability">While following tracks, the rogue can move at her normal speed without penalty while using the <Link to="/skill/survival">Survival</Link> skill. In addition, the penalty for moving at up to twice her normal speed while following tracks is reduced to -10.</Pair>
 </Ability>
-<Ability id="talentthrillofthechase-thrill-of-the-chase-ex-fn25-5" icon={["rolling-dices","stairs-goal"]}>
+<Ability id="talentthrillofthechase-thrill-of-the-chase-ex-fn25-5" icon={["roll","power"]}>
 <Pair single id="talentthrillofthechase-thrill-of-the-chase-ex-fn25-5" flavor="The rogue revels in the thrill and adrenaline rush of a challenging chase."><Link to="/talent/thrill_of_the_chase">⮞</Link> Thrill of the Chase (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-25.5" id="ability-unchained_rogue_talents-fake-fn-25.5" data-hash-target to="ability-unchained_rogue_talents-fake-fn-25-target">25</InnerLink></sup></Pair>
 <Pair title="Ability"><p>When engaged in <Link to="/rule/chases">a chase</Link> or <Link to="/rule/pursuit">pursuit</Link>, the rogue gains one d20 reroll which she can use at any time after the original roll is made but before the results of the roll are revealed; she must take the second result, even if it is lower.</p>
 <p>She can use this reroll once per chase or once per day during a pursuit.</p>
 </Pair>
 <Pair title="Ability">Additionally, she gains <Link to="/feat/run">Run</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="talentwallscramble-wall-scramble-ex-fn8-6" icon={["rolling-dices","upgrade"]}>
+<Ability id="talentwallscramble-wall-scramble-ex-fn8-6" icon={["roll","boost"]}>
 <Pair single id="talentwallscramble-wall-scramble-ex-fn8-6"><Link to="/talent/wall_scramble">⮞</Link> Wall Scramble (Ex) <sup><InnerLink showBacklink="backlink-ability-unchained_rogue_talents-fake-fn-8.6" id="ability-unchained_rogue_talents-fake-fn-8.6" data-hash-target to="ability-unchained_rogue_talents-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent rolls twice when making <Link to="/skill/climb">Climb</Link> checks and takes the better of the two rolls. If she already rolls twice while making a Climb check because of another ability or effect, she gains a +2 insight bonus on both of those rolls instead. If the rogue is under the effect of a spell or ability that forces her to roll two dice and take the worse result, she only needs to roll 1d20 while making Climb checks.</Pair>
 </Ability>
@@ -1679,174 +1679,174 @@ const _advanced_unchained_rogue_talents = {hasJL:true,title: "Advanced Unchained
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 23</Link><br/>At 10th level, and every two levels thereafter, an unchained rogue can choose an advanced unchained rogue talent in place of an <Link to="/ability/unchained_rogue_talent">unchained rogue talent</Link>.</p>
 <h3 id="ability-advanced_unchained_rogue_talents-primary-sneak-attack-talents" data-hash-target>Primary Sneak Attack Talents</h3>
 <p>These talents add effects to a rogue's <Link to="/ability/sneak_attack">sneak attack</Link>. Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.</p>
-<Ability id="talentconfoundingblades-confounding-blades-ex-fn1" icon={["armor-downgrade"]}>
+<Ability id="talentconfoundingblades-confounding-blades-ex-fn1" icon={["lower"]}>
 <Pair single id="talentconfoundingblades-confounding-blades-ex-fn1"><Link to="/talent/confounding_blades">⮞</Link> Confounding Blades (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-1" id="ability-advanced_unchained_rogue_talents-fake-fn-1" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/slow_reactions">Slow reactions</Link></Pair>
 <Pair title="Ability">When a rogue with this talent hits a creature with a melee weapon that deals sneak attack damage, her target cannot make attacks of opportunity for 1d4+1 rounds.</Pair>
 </Ability>
-<Ability id="talentcripplingstrike-crippling-strike-ex-fn2" icon={["armor-downgrade"]}>
+<Ability id="talentcripplingstrike-crippling-strike-ex-fn2" icon={["lower"]}>
 <Pair single id="talentcripplingstrike-crippling-strike-ex-fn2"><Link to="/talent/crippling_strike">⮞</Link> Crippling Strike (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-2" id="ability-advanced_unchained_rogue_talents-fake-fn-2" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this ability can sneak attack opponents with such precision that her blows weaken and hamper them. An opponent damaged by one of her sneak attacks also takes 2 points of <Link to="/rule/strength_damage">Strength damage</Link>.</Pair>
 </Ability>
-<Ability id="talentdeadlysneakunchainedrogue-deadly-sneak-unchained-rogue-ex-fn3" icon={["rolling-dices"]}>
+<Ability id="talentdeadlysneakunchainedrogue-deadly-sneak-unchained-rogue-ex-fn3" icon={["roll"]}>
 <Pair single id="talentdeadlysneakunchainedrogue-deadly-sneak-unchained-rogue-ex-fn3"><Link to="/talent/deadly_sneak_unchained_rogue">⮞</Link> Deadly Sneak (Unchained Rogue) (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-3" id="ability-advanced_unchained_rogue_talents-fake-fn-3" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/powerful_sneak">Powerful sneak</Link></Pair>
 <Pair title="Ability">When a rogue with this talent uses the <em>powerful sneak</em> talent, she rerolls all sneak attack dice that resulted in 1s or 2s. She can reroll multiple dice, but she can't reroll any individual die more than once per attack.</Pair>
 </Ability>
-<Ability id="talentdispellingattack-dispelling-attack-su-fn4" icon={["armor-downgrade"]}>
+<Ability id="talentdispellingattack-dispelling-attack-su-fn4" icon={["lower"]}>
 <Pair single id="talentdispellingattack-dispelling-attack-su-fn4"><Link to="/talent/dispelling_attack">⮞</Link> Dispelling Attack (Su) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-4" id="ability-advanced_unchained_rogue_talents-fake-fn-4" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/major_magic">Major magic</Link></Pair>
 <Pair title="Ability">Opponents that are dealt sneak attack damage by a rogue with this ability are affected by a targeted <Link to="/spell/dispel_magic">dispel magic</Link>, targeting the lowest-level spell effect active on the target. The caster level for this ability is equal to the rogue's level.</Pair>
 </Ability>
-<Ability id="talentdoubledebilitation-double-debilitation-ex-fn5" icon={["armor-downgrade"]}>
+<Ability id="talentdoubledebilitation-double-debilitation-ex-fn5" icon={["lower"]}>
 <Pair single id="talentdoubledebilitation-double-debilitation-ex-fn5"><Link to="/talent/double_debilitation">⮞</Link> Double Debilitation (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-5" id="ability-advanced_unchained_rogue_talents-fake-fn-5" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">Whenever the rogue inflicts a penalty against a target using the <em>debilitating injury</em> class feature, she can select two penalties to inflict. The target can never be subject to more than two penalties in this way at one time. If any additional penalties are inflicted, any previous penalties immediately end. Any effect that heals damage to the target negates both of the penalties.</Pair>
 </Ability>
-<Ability id="talentimprovedshadowschill-improved-shadows-chill-su-fn6" icon={["upgrade"]}>
+<Ability id="talentimprovedshadowschill-improved-shadows-chill-su-fn6" icon={["boost"]}>
 <Pair single id="talentimprovedshadowschill-improved-shadows-chill-su-fn6"><Link to="/talent/improved_shadows_chill">⮞</Link> Improved Shadow's Chill (Su) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-6" id="ability-advanced_unchained_rogue_talents-fake-fn-6" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Has cold <Link to="/umr/resistance">resistance</Link> from a racial trait, <Link to="/talent/shadows_chill">shadow's chill</Link></Pair>
 <Pair title="Ability">When a rogue with this talent hits a creature with a melee weapon that deals sneak attack damage, the sneak attack damage is cold damage. Normal weapon damage is unaffected.</Pair>
 </Ability>
-<Ability id="talentpetrifyingstrike-petrifying-strike-su-fn7" icon={["armor-downgrade"]}>
+<Ability id="talentpetrifyingstrike-petrifying-strike-su-fn7" icon={["lower"]}>
 <Pair single id="talentpetrifyingstrike-petrifying-strike-su-fn7"><Link to="/talent/petrifying_strike">⮞</Link> Petrifying Strike (Su) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-7" id="ability-advanced_unchained_rogue_talents-fake-fn-7" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Ability">Whenever the rogue damages a creature with one of her sneak attacks, she also deals 2 points of <Link to="/rule/dexterity_damage">Dexterity damage</Link> to that creature as its body petrifies.</Pair>
 </Ability>
-<Ability id="talentresonatingrumbles-resonating-rumbles-su-fn7-2" icon={["armor-downgrade"]}>
+<Ability id="talentresonatingrumbles-resonating-rumbles-su-fn7-2" icon={["lower"]}>
 <Pair single id="talentresonatingrumbles-resonating-rumbles-su-fn7-2"><Link to="/talent/resonating_rumbles">⮞</Link> Resonating Rumbles (Su) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-7.2" id="ability-advanced_unchained_rogue_talents-fake-fn-7.2" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Ability">When a rogue with this talent makes a successful sneak attack against a creature with <Link to="/umr/tremorsense">tremorsense</Link>, the rogue can subtract 3 dice from her sneak attack damage to prevent the target from using tremorsense for a number of rounds equal to half her rogue level.</Pair>
 </Ability>
 <h3 id="ability-advanced_unchained_rogue_talents-magical-talents" data-hash-target>Magical Talents</h3>
-<Ability id="talentaligneddisguise-aligned-disguise-sp-fn8" icon={["armor-upgrade"]}>
+<Ability id="talentaligneddisguise-aligned-disguise-sp-fn8" icon={["def"]}>
 <Pair single id="talentaligneddisguise-aligned-disguise-sp-fn8"><Link to="/talent/aligned_disguise">⮞</Link> Aligned Disguise (Sp) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-8" id="ability-advanced_unchained_rogue_talents-fake-fn-8" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Has <em>disguise self</em> as a spell-like ability</Pair>
 <Pair title="Ability">When a rogue with this talent uses the <Link to="/spell/disguise_self">disguise self</Link> spell-like ability, she can also alter her alignment aura to deceive spells that discern alignment (such as <Link to="/spell/detect_evil">detect evil</Link>) for the duration of the disguise self effect. She can choose to detect as any specific alignment, or to detect as no alignment at all. This ability does not protect against spells or effects that cause harm based on alignment.</Pair>
 </Ability>
-<Ability id="talentfamiliar-familiar-ex-fn1-2" icon={["stairs-goal"]}>
+<Ability id="talentfamiliar-familiar-ex-fn1-2" icon={["power"]}>
 <Pair single id="talentfamiliar-familiar-ex-fn1-2"><Link to="/talent/familiar">⮞</Link> Familiar (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-1.2" id="ability-advanced_unchained_rogue_talents-fake-fn-1.2" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/minor_magic">Minor magic</Link>, <Link to="/talent/major_magic">major magic</Link></Pair>
 <Pair title="Ability">A rogue with this talent gains a <Link to="/sidekick/familiar">familiar</Link> as the <Link to="/ability/familiar">familiar</Link> option of the wizard's <em>arcane bond</em> class feature. This ability functions exactly like that part of the class feature, but the rogue's effective wizard level is her rogue level -4.</Pair>
 </Ability>
-<Ability id="talentfoundersblessing-founders-blessing-fn9" icon={["upgrade"]}>
+<Ability id="talentfoundersblessing-founders-blessing-fn9" icon={["boost"]}>
 <Pair single id="talentfoundersblessing-founders-blessing-fn9" flavor="The rogue can call upon the mystical legacies of the Council."><Link to="/talent/founders_blessing">⮞</Link> Founders' Blessing <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-9" id="ability-advanced_unchained_rogue_talents-fake-fn-9" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day, she can choose a skill in which she has no ranks. After she spends 10 minutes communing with these mystical spirits, they grant her a luck bonus equal to her rogue level with that skill, and she can attempt checks with that skill as if she were trained in its use. The effects of <em>founder's blessing</em> last for 8 hours.</Pair>
 </Ability>
-<Ability id="talentglibfacade-glib-facade-sp-fn10" icon={["magic-swirl"]}>
+<Ability id="talentglibfacade-glib-facade-sp-fn10" icon={["magic"]}>
 <Pair single id="talentglibfacade-glib-facade-sp-fn10"><Link to="/talent/glib_facade">⮞</Link> Glib Facade (Sp) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-10" id="ability-advanced_unchained_rogue_talents-fake-fn-10" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/innocent_facade">Innocent facade</Link></Pair>
 <Pair title="Ability">Once per day, a rogue with this advanced talent can use <Link to="/spell/glibness">glibness</Link> as a spell-like ability, using her rogue level as the spell's caster level.</Pair>
 </Ability>
-<Ability id="talentslipperymind-slippery-mind-ex-fn4-2" icon={["armor-upgrade"]}>
+<Ability id="talentslipperymind-slippery-mind-ex-fn4-2" icon={["def"]}>
 <Pair single id="talentslipperymind-slippery-mind-ex-fn4-2" flavor="This ability represents the rogue's ability to wriggle free from magical effects that would otherwise control or compel her."><Link to="/talent/slippery_mind">⮞</Link> Slippery Mind (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-4.2" id="ability-advanced_unchained_rogue_talents-fake-fn-4.2" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Passive Ability">If a rogue with <em>slippery mind</em> is affected by an enchantment spell or effect and fails her saving throw, she can attempt it again 1 round later at the same DC. She gets only this one extra chance to succeed on her saving throw.</Pair>
 </Ability>
 <h3 id="ability-advanced_unchained_rogue_talents-combat-talents" data-hash-target>Combat Talents</h3>
-<Ability id="talentagainstthewall-against-the-wall-ex-fn7-3" icon={["upgrade"]}>
+<Ability id="talentagainstthewall-against-the-wall-ex-fn7-3" icon={["boost"]}>
 <Pair single id="talentagainstthewall-against-the-wall-ex-fn7-3"><Link to="/talent/against_the_wall">⮞</Link> Against the Wall (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-7.3" id="ability-advanced_unchained_rogue_talents-fake-fn-7.3" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent is considered to be <Link to="/rule/flanking">flanking</Link> any opponent adjacent to a stone wall (whether the stone is worked or unworked).</Pair>
 </Ability>
-<Ability id="talentanotherday-another-day-ex-fn11" icon={["armor-upgrade","broken-shield"]}>
+<Ability id="talentanotherday-another-day-ex-fn11" icon={["def","down"]}>
 <Pair single id="talentanotherday-another-day-ex-fn11"><Link to="/talent/another_day">⮞</Link> Another Day (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-11" id="ability-advanced_unchained_rogue_talents-fake-fn-11" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Immediate Action">Once per day, when the rogue would be reduced to 0 or fewer hit points by a melee attack, she can take a 5-foot step. If the movement takes her out of the reach of the attack, she takes no damage from the attack. The rogue is <Link to="/misc/staggered">staggered</Link> for 1 round on her next turn.</Pair>
 </Ability>
-<Ability id="talentblindingstrike-blinding-strike-fn6-2" icon={["stairs-goal"]}>
+<Ability id="talentblindingstrike-blinding-strike-fn6-2" icon={["power"]}>
 <Pair single id="talentblindingstrike-blinding-strike-fn6-2"><Link to="/talent/blinding_strike">⮞</Link> Blinding Strike <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-6.2" id="ability-advanced_unchained_rogue_talents-fake-fn-6.2" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">15th-level rogue, <Link to="/talent/obscuring_blow">obscuring blow</Link></Pair>
 <Pair title="Ability">A rogue who selects this talent gains <Link to="/feat/blinding_critical">Blinding Critical</Link> as a bonus feat, even if she doesn't meet the prerequisites.</Pair>
 </Ability>
-<Ability id="talentdanceofdisorientingshadows-dance-of-disorienting-shadows-ex-fn6-3" icon={["mailed-fist"]}>
+<Ability id="talentdanceofdisorientingshadows-dance-of-disorienting-shadows-ex-fn6-3" icon={["melee"]}>
 <Pair single id="talentdanceofdisorientingshadows-dance-of-disorienting-shadows-ex-fn6-3"><Link to="/talent/dance_of_disorienting_shadows">⮞</Link> Dance of Disorienting Shadows (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-6.3" id="ability-advanced_unchained_rogue_talents-fake-fn-6.3" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent can attempt a <Link to="/skill/perform">Perform</Link> (dance) check in place of a combat maneuver check when attempting a <Link to="/rule/reposition">reposition</Link> combat maneuver.</Pair>
 </Ability>
-<Ability id="talentdeadlycocktail-deadly-cocktail-ex-fn11-2" icon={["stairs-goal"]}>
+<Ability id="talentdeadlycocktail-deadly-cocktail-ex-fn11-2" icon={["power"]}>
 <Pair single id="talentdeadlycocktail-deadly-cocktail-ex-fn11-2"><Link to="/talent/deadly_cocktail">⮞</Link> Deadly Cocktail (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-11.2" id="ability-advanced_unchained_rogue_talents-fake-fn-11.2" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent can apply two doses of poison to a weapon at once. These can be separate poisons, in which case they both affect the target individually, or two doses of the same toxin, in which case the poisons' frequency is extended by 50% and the save DC increases by +2.</Pair>
 <Pair title="Special">This talent is an exception to the rule that injury poisons can only be delivered one dose at a time.</Pair>
 </Ability>
-<Ability id="talentdefensiveroll-defensive-roll-ex-fn2-2" icon={["armor-upgrade"]}>
+<Ability id="talentdefensiveroll-defensive-roll-ex-fn2-2" icon={["def"]}>
 <Pair single id="talentdefensiveroll-defensive-roll-ex-fn2-2" flavor="With this advanced talent, the rogue can roll with a potentially lethal blow to take less damage from it than she otherwise would."><Link to="/talent/defensive_roll">⮞</Link> Defensive Roll (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-2.2" id="ability-advanced_unchained_rogue_talents-fake-fn-2.2" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day, when she would be reduced to 0 or fewer hit points by damage in combat (from a weapon or other blow, not a spell or special ability), the rogue can attempt to roll with the damage. To use this ability, the rogue must attempt a Reflex saving throw (DC = damage dealt). If the save succeeds, she takes only half damage from the blow; if it fails, she takes full damage. She must be aware of the attack and able to react to it in order to execute her defensive roll&mdash;if she is denied her Dexterity bonus to AC, she can't use this ability.</Pair>
 <Pair title="Special">Since this effect would not normally allow a character to make a Reflex save for half damage, the rogue's <Link to="/ability/evasion">evasion</Link> ability does not apply to the defensive roll.</Pair>
 </Ability>
-<Ability id="talentfasttumble-fast-tumble-ex-fn11-3" icon={["upgrade"]}>
+<Ability id="talentfasttumble-fast-tumble-ex-fn11-3" icon={["boost"]}>
 <Pair single id="talentfasttumble-fast-tumble-ex-fn11-3"><Link to="/talent/fast_tumble">⮞</Link> Fast Tumble (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-11.3" id="ability-advanced_unchained_rogue_talents-fake-fn-11.3" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Ability">When a rogue with this talent uses <Link to="/skill/acrobatics">Acrobatics</Link> to move at full speed through a threatened square without provoking an attack of opportunity, the DC of the Acrobatics check does not increase by 10.</Pair>
 </Ability>
-<Ability id="talentgrazingshot-grazing-shot-ex-fn12" icon={["bowman"]}>
+<Ability id="talentgrazingshot-grazing-shot-ex-fn12" icon={["ranged"]}>
 <Pair single id="talentgrazingshot-grazing-shot-ex-fn12" flavor="Particularly deft rogues can strike two foes with one well-placed shot."><Link to="/talent/grazing_shot">⮞</Link> Grazing Shot (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-12" id="ability-advanced_unchained_rogue_talents-fake-fn-12" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/drow">Drow</Link></Pair>
 <Pair title="Standard Action">A rogue with this talent can fire a <Link to="/eq-weapon/hand_crossbow">hand crossbow</Link> at an enemy who is granted <Link to="/rule/cover">cover</Link> by another opponent. Make one ranged attack roll and compare the result to each opponent's AC. Each hit deals 1 point of damage. Any special weapon properties or <Link to="/misc/precision_damage">precision damage</Link> apply to only a single target, but any poison applied to the bolt affects all targets struck.</Pair>
 </Ability>
-<Ability id="talenthardminded-hard-minded-ex-fn1-3" icon={["armor-upgrade"]}>
+<Ability id="talenthardminded-hard-minded-ex-fn1-3" icon={["def"]}>
 <Pair single id="talenthardminded-hard-minded-ex-fn1-3" flavor="A rogue with this talent is hard to fool with illusions."><Link to="/talent/hard_minded">⮞</Link> Hard Minded (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-1.3" id="ability-advanced_unchained_rogue_talents-fake-fn-1.3" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Passive Ability">She automatically receives a save to disbelieve any illusion she can see each round at the start of her turn, even if she hasn't interacted with it. If she fails a saving throw against an illusion that is not to disbelieve, she can attempt to save again again 1 round later at the same DC. She gets only one extra chance to succeed at her saving throw.</Pair>
 </Ability>
-<Ability id="talenthunterssurprise-hunters-surprise-ex-fn13" icon={["upgrade"]}>
+<Ability id="talenthunterssurprise-hunters-surprise-ex-fn13" icon={["boost"]}>
 <Pair single id="talenthunterssurprise-hunters-surprise-ex-fn13"><Link to="/talent/hunters_surprise">⮞</Link> Hunter's Surprise (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-13" id="ability-advanced_unchained_rogue_talents-fake-fn-13" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day, a rogue with this talent can designate a single enemy she is adjacent to as her prey. Until the end of her next turn, she can add her sneak attack damage to all attacks made against her prey, even if she is not flanking it or it is not flat-footed.</Pair>
 </Ability>
-<Ability id="talentimprovedevasion-improved-evasion-ex-fn4-3" icon={["armor-upgrade"]}>
+<Ability id="talentimprovedevasion-improved-evasion-ex-fn4-3" icon={["def"]}>
 <Pair single id="talentimprovedevasion-improved-evasion-ex-fn4-3"><Link to="/talent/improved_evasion">⮞</Link> Improved Evasion (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-4.3" id="ability-advanced_unchained_rogue_talents-fake-fn-4.3" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">This works like <Link to="/ability/evasion">evasion</Link>, except that while the rogue still takes no damage on a successful Reflex saving throw against attacks, she henceforth takes only half damage on a failed save. A <Link to="/misc/helpless">helpless</Link> rogue does not gain the benefit of <em>improved evasion.</em></Pair>
 </Ability>
-<Ability id="talentknockoutblow-knock-out-blow-ex-fn13-2" icon={["armor-downgrade"]}>
+<Ability id="talentknockoutblow-knock-out-blow-ex-fn13-2" icon={["lower"]}>
 <Pair single id="talentknockoutblow-knock-out-blow-ex-fn13-2"><Link to="/talent/knock_out_blow">⮞</Link> Knock-Out Blow (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-13.2" id="ability-advanced_unchained_rogue_talents-fake-fn-13.2" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day, the rogue can forgo her sneak attack damage to attempt to knock out an opponent. She must declare the use of <em>knock-out blow</em> before she makes the attack. If the attack hits, it does normal damage, but instead of dealing sneak attack damage (and instead of any effect that triggers when the rogue deals sneak attack damage), the target falls <Link to="/misc/unconscious">unconscious</Link> for 1d4 rounds. A successful Fortitude save reduces this effect to <Link to="/misc/staggered">staggered</Link> for 1 round. The DC of this save is equal to 10 + 1/2 the rogue's level + the rogue's Intelligence modifier.</Pair>
 </Ability>
-<Ability id="talentlightwalker-light-walker-ex-fn5-2" icon={["upgrade","stairs-goal"]}>
+<Ability id="talentlightwalker-light-walker-ex-fn5-2" icon={["boost","power"]}>
 <Pair single id="talentlightwalker-light-walker-ex-fn5-2"><Link to="/talent/light_walker">⮞</Link> Light Walker (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-5.2" id="ability-advanced_unchained_rogue_talents-fake-fn-5.2" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/ledge_walker">Ledge walker</Link> rogue</Pair>
 <Pair title="Ability">The rogue can move at full speed through <Link to="/rule/difficult_terrain">difficult terrain</Link> and can take 5-foot steps into difficult terrain.</Pair>
 </Ability>
-<Ability id="talentopportunist-opportunist-ex-fn4-4" icon={["stairs-goal"]}>
+<Ability id="talentopportunist-opportunist-ex-fn4-4" icon={["power"]}>
 <Pair single id="talentopportunist-opportunist-ex-fn4-4"><Link to="/talent/opportunist">⮞</Link> Opportunist (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-4.4" id="ability-advanced_unchained_rogue_talents-fake-fn-4.4" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">Once per round, the rogue can make an attack of opportunity against an opponent who has just been struck for damage in melee by another character. This attack counts as an attack of opportunity for that round.</Pair>
 <Pair title="Special">Even a rogue with the <Link to="/feat/combat_reflexes">Combat Reflexes</Link> feat can't use the <em>opportunist</em> ability more than once per round.</Pair>
 </Ability>
-<Ability id="talentquickshot-quick-shot-ex-fn5-3" icon={["bowman"]}>
+<Ability id="talentquickshot-quick-shot-ex-fn5-3" icon={["ranged"]}>
 <Pair single id="talentquickshot-quick-shot-ex-fn5-3"><Link to="/talent/quick_shot">⮞</Link> Quick Shot (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-5.3" id="ability-advanced_unchained_rogue_talents-fake-fn-5.3" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">Whenever the rogue rolls initiative, she can also make a single attack with a ranged weapon as a <strong className="hl">swift action</strong>. She can use this ability only if she has a weapon in hand and it is loaded (if applicable).</Pair>
 <Pair title="Special">If more than one rogue has this talent, their initiative check results determine the order in which they make their attacks. After these attacks are resolved, the round proceeds as normal.</Pair>
 </Ability>
-<Ability id="talentredirectattack-redirect-attack-ex-fn13-3" icon={["armor-upgrade"]}>
+<Ability id="talentredirectattack-redirect-attack-ex-fn13-3" icon={["def"]}>
 <Pair single id="talentredirectattack-redirect-attack-ex-fn13-3"><Link to="/talent/redirect_attack">⮞</Link> Redirect Attack (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-13.3" id="ability-advanced_unchained_rogue_talents-fake-fn-13.3" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day, when a rogue with this talent is hit with a melee attack, she can redirect the attack to strike at an adjacent creature with a <strong className="hl">free action</strong>. The creature targeted must be within melee reach of the attack that hit the rogue, and the creature that made the attack against the rogue must make a new attack roll against the new target.</Pair>
 </Ability>
-<Ability id="talentreflexiveshadowshield-reflexive-shadow-shield-su-fn6-4" icon={["armor-upgrade"]}>
+<Ability id="talentreflexiveshadowshield-reflexive-shadow-shield-su-fn6-4" icon={["def"]}>
 <Pair single id="talentreflexiveshadowshield-reflexive-shadow-shield-su-fn6-4"><Link to="/talent/reflexive_shadow_shield">⮞</Link> Reflexive Shadow Shield (Su) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-6.4" id="ability-advanced_unchained_rogue_talents-fake-fn-6.4" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/resiliency">Resiliency</Link></Pair>
 <Pair title="Immediate Action">Once per day, the rogue can gain an amount of cold <Link to="/umr/resistance">resistance</Link> or electricity resistance equal to half the rogue's level. This resistance lasts for 1 round.</Pair>
 <Pair title="Special">If the rogue has the <em>shadowy resistance</em> racial trait, the cold or electricity resistance stacks with the resistance that trait grants; otherwise, the energy resistance does not stack with any cold or electricity resistance the rogue has.</Pair>
 </Ability>
-<Ability id="talentshrinewalk-shrinewalk-sp-fn9-2" icon={["stairs-goal","magic-swirl"]}>
+<Ability id="talentshrinewalk-shrinewalk-sp-fn9-2" icon={["power","magic"]}>
 <Pair single id="talentshrinewalk-shrinewalk-sp-fn9-2"><Link to="/talent/shrinewalk">⮞</Link> Shrinewalk (Sp) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-9.2" id="ability-advanced_unchained_rogue_talents-fake-fn-9.2" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Ability">Council agents can walk the mystic paths between Westcrown's shrines. A rogue with <em>shrinewalk</em> can create her own shrine simply by designating an area in any urban region by placing a unique marking or rune on a wall or the ground. This marking is not magical, and if it is defaced or erased, it can no longer be used by the rogue (the marking can be hidden from view without removing its usability, including painting over the marking in question).</Pair>
 <Pair title="Ability">Once placed, the rogue can use <Link to="/spell/word_of_recall">word of recall</Link> once per day to return to the shrine.</Pair>
 <Pair title="Special">A rogue can maintain one shrine at a time; if a new marking is created in a new location, the previous shrine becomes inactive.</Pair>
 </Ability>
-<Ability id="talentstealthysniper-stealthy-sniper-ex-fn13-4" icon={["upgrade"]}>
+<Ability id="talentstealthysniper-stealthy-sniper-ex-fn13-4" icon={["boost"]}>
 <Pair single id="talentstealthysniper-stealthy-sniper-ex-fn13-4"><Link to="/talent/stealthy_sniper">⮞</Link> Stealthy Sniper (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-13.4" id="ability-advanced_unchained_rogue_talents-fake-fn-13.4" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability">When a rogue with this talent uses the <Link to="/skill/stealth">Stealth</Link> skill to snipe, she only suffers a -10 penalty on the Stealth check, instead of -20.</Pair>
 </Ability>
-<Ability id="talentunwittingally-unwitting-ally-ex-fn14" icon={["stairs-goal"]}>
+<Ability id="talentunwittingally-unwitting-ally-ex-fn14" icon={["power"]}>
 <Pair single id="talentunwittingally-unwitting-ally-ex-fn14"><Link to="/talent/unwitting_ally">⮞</Link> Unwitting Ally (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-14" id="ability-advanced_unchained_rogue_talents-fake-fn-14" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent can spend a <strong className="hl">swift action</strong> to attempt to make an opponent act like an ally for purposes of providing a <Link to="/rule/flank">flank</Link> until the beginning of the rogue's next turn. The opponent must be able to hear and see the rogue, and the rogue must succeed at a Bluff check opposed by the opponent's Sense Motive. If the check succeeds, the opponent acts as an ally for the purpose of providing a flank.</Pair>
 <Pair title="Special">Whether or not the check succeeds, the rogue cannot use this trick again on the same opponent for the next 24 hours. If the rogue fails the check by 5 or more, she cannot use the <em>unwitting ally</em> ability on any opponent within line of sight of the failed attempt for 24 hours.</Pair>
 </Ability>
-<Ability id="talentweaponsnatcher-weapon-snatcher-ex-fn14-2" icon={["mailed-fist"]}>
+<Ability id="talentweaponsnatcher-weapon-snatcher-ex-fn14-2" icon={["melee"]}>
 <Pair single id="talentweaponsnatcher-weapon-snatcher-ex-fn14-2"><Link to="/talent/weapon_snatcher">⮞</Link> Weapon Snatcher (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-14.2" id="ability-advanced_unchained_rogue_talents-fake-fn-14.2" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent can make a <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check in place of a combat maneuver check when attempting to <Link to="/rule/disarm">disarm</Link> an opponent.</Pair>
 </Ability>
 <h3 id="ability-advanced_unchained_rogue_talents-other-talents" data-hash-target>Other Talents</h3>
-<Ability id="talentcuttingedge-cutting-edge-ex-fn3-2" icon={["stairs-goal"]}>
+<Ability id="talentcuttingedge-cutting-edge-ex-fn3-2" icon={["power"]}>
 <Pair single id="talentcuttingedge-cutting-edge-ex-fn3-2"><Link to="/talent/cutting_edge">⮞</Link> Cutting Edge (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-3.2" id="ability-advanced_unchained_rogue_talents-fake-fn-3.2" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this ability immediately selects two additional skills with her <em>rogue's edge</em> ability.</Pair>
 <Pair title="Special">She can select this advanced talent multiple times.</Pair>
 </Ability>
-<Ability id="talentfeat-feat-fn4-5" icon={["stairs-goal"]}>
+<Ability id="talentfeat-feat-fn4-5" icon={["power"]}>
 <Pair single id="talentfeat-feat-fn4-5"><Link to="/talent/feat">⮞</Link> Feat <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-4.5" id="ability-advanced_unchained_rogue_talents-fake-fn-4.5" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue may gain any feat that she qualifies for in place of a rogue talent.</Pair>
 </Ability>
-<Ability id="talentfrugaltrapsmith-frugal-trapsmith-ex-fn13-5" icon={["upgrade"]}>
+<Ability id="talentfrugaltrapsmith-frugal-trapsmith-ex-fn13-5" icon={["boost"]}>
 <Pair single id="talentfrugaltrapsmith-frugal-trapsmith-ex-fn13-5"><Link to="/talent/frugal_trapsmith">⮞</Link> Frugal Trapsmith (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-13.5" id="ability-advanced_unchained_rogue_talents-fake-fn-13.5" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability">When a rogue with this talent constructs a mechanical trap, she only pays 75% of the normal cost.</Pair>
 </Ability>
@@ -1855,25 +1855,25 @@ const _advanced_unchained_rogue_talents = {hasJL:true,title: "Advanced Unchained
 <Pair title="Prerequisites"><Link to="/talent/getaway_artist">Getaway artist</Link></Pair>
 <Pair title="Ability">A rogue with this talent gains a +10 bonus on all <Link to="/rule/driving_check">drive checks</Link>.</Pair>
 </Ability>
-<Ability id="talenthideinplainsight-hide-in-plain-sight-ex-fn14-3" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="talenthideinplainsight-hide-in-plain-sight-ex-fn14-3" icon={["power","def"]}>
 <Pair single id="talenthideinplainsight-hide-in-plain-sight-ex-fn14-3"><Link to="/talent/hide_in_plain_sight">⮞</Link> Hide in Plain Sight (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-14.3" id="ability-advanced_unchained_rogue_talents-fake-fn-14.3" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent can select a single terrain from the ranger's <Link to="/ability/favored_terrain">favored terrain</Link> list. She is a master at hiding in that terrain, and while within that terrain, she can use the <Link to="/skill/stealth">Stealth</Link> skill to hide, even while being observed.</Pair>
 <Pair title="Special">A rogue may take this advanced talent more than once, each time selecting a different terrain from the favored terrain list.</Pair>
 </Ability>
-<Ability id="talentmastertricks-master-tricks-fn14-4" icon={["stairs-goal"]}>
+<Ability id="talentmastertricks-master-tricks-fn14-4" icon={["power"]}>
 <Pair single id="talentmastertricks-master-tricks-fn14-4"><Link to="/talent/master_tricks">⮞</Link> Master Tricks <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-14.4" id="ability-advanced_unchained_rogue_talents-fake-fn-14.4" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">The rogue can select a ninja trick from the list of <Link to="/ability/master_tricks">master tricks</Link> in place of a rogue talent. The rogue cannot select a ninja trick that has the same name as a rogue talent. The rogue can choose but cannot use tricks that require ki points, unless she has a ki pool.</Pair>
 </Ability>
-<Ability id="talentgreatermultitalented-greater-multitalented-ex-fn5-4" icon={["stairs-goal"]}>
+<Ability id="talentgreatermultitalented-greater-multitalented-ex-fn5-4" icon={["power"]}>
 <Pair single id="talentgreatermultitalented-greater-multitalented-ex-fn5-4"><Link to="/talent/greater_multitalented">⮞</Link> Greater Multitalented (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-5.4" id="ability-advanced_unchained_rogue_talents-fake-fn-5.4" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/multitalented">Multitalented</Link></Pair>
 <Pair title="Ability">A rogue with this talent can use the <em>multitalented</em> rogue talent to gain additional uses of <em>advanced talents.</em></Pair>
 </Ability>
-<Ability id="talentpiercethedarkness-pierce-the-darkness-ex-fn15" icon={["stairs-goal"]}>
+<Ability id="talentpiercethedarkness-pierce-the-darkness-ex-fn15" icon={["power"]}>
 <Pair single id="talentpiercethedarkness-pierce-the-darkness-ex-fn15" flavor="The rogue can extend her senses of hearing and smell in darkness or when blinded."><Link to="/talent/pierce_the_darkness">⮞</Link> Pierce the Darkness (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-15" id="ability-advanced_unchained_rogue_talents-fake-fn-15" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-15-target">15</InnerLink></sup></Pair>
 <Pair title="Ability">She gains <Link to="/umr/blindsense">blindsense</Link> out to a range of 5 feet, but only against creatures concealed by darkness or her own blindness. She still suffers the normal miss chance for attacking creatures with <Link to="/rule/concealment">concealment</Link>.</Pair>
 </Ability>
-<Ability id="talentrumormonger-rumormonger-ex-fn14-5" icon={["stairs-goal"]}>
+<Ability id="talentrumormonger-rumormonger-ex-fn14-5" icon={["power"]}>
 <Pair single id="talentrumormonger-rumormonger-ex-fn14-5"><Link to="/talent/rumormonger">⮞</Link> Rumormonger (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-14.5" id="ability-advanced_unchained_rogue_talents-fake-fn-14.5" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability"><p>A rogue with this talent can attempt to spread a rumor though a small town or larger settlement by making a <Link to="/skill/bluff">Bluff</Link> check. She can do so a number of times per week equal to her Charisma modifier (minimum 0). The DC is based on the size of the settlement, and it takes a week for the rumor to propagate through the settlement. If the check succeeds, the rumor is practically accepted as fact within the community; succeeding by 5 or more over the DC decreases the time it takes the rumor to propagate by 1d4 days. A failed check means the rumor failed to gain traction, while failing by 5 or more causes the opposite of the rumor or some other competing theory involving the rumor's subject to take hold.</p>
 <ScrollContainer id="ability-advanced_unchained_rogue_talents--table-0"><table>
@@ -1906,34 +1906,34 @@ const _advanced_unchained_rogue_talents = {hasJL:true,title: "Advanced Unchained
 </tbody></table></ScrollContainer>
 </Pair>
 </Ability>
-<Ability id="talentseeindarkness-see-in-darkness-su-fn6-5" icon={["stairs-goal"]}>
+<Ability id="talentseeindarkness-see-in-darkness-su-fn6-5" icon={["power"]}>
 <Pair single id="talentseeindarkness-see-in-darkness-su-fn6-5"><Link to="/talent/see_in_darkness">⮞</Link> See in Darkness (Su) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-6.5" id="ability-advanced_unchained_rogue_talents-fake-fn-6.5" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Darkvision</Pair>
 <Pair title="Ability">The rogue gains the <Link to="/umr/see_in_darkness">see in darkness</Link> ability.</Pair>
 </Ability>
-<Ability id="talentskillmasteryunchainedrogue-skill-mastery-fn5-5" icon={["upgrade"]}>
+<Ability id="talentskillmasteryunchainedrogue-skill-mastery-fn5-5" icon={["boost"]}>
 <Pair single id="talentskillmasteryunchainedrogue-skill-mastery-fn5-5" flavor="The rogue becomes so confident in the use of certain skills that she can use them reliably even under adverse conditions."><Link to="/talent/skill_mastery_unchained_rogue">⮞</Link> Skill Mastery <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-5.5" id="ability-advanced_unchained_rogue_talents-fake-fn-5.5" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Choice">The rogue selects a number of skills equal to her Intelligence modifier.</Pair>
 <Pair title="Ability">When making a skill check with one of the selected skills (or any of the skills selected through the <em>rogue's edge</em> class feature), she can take 10 even if stress and distractions would normally prevent her from doing so.</Pair>
 <Pair title="Special">A rogue can gain this special ability multiple times, selecting additional skills for <em>skill mastery</em> to apply to each time.</Pair>
 </Ability>
-<Ability id="talentstalkertalent-stalker-talent-fn16" icon={["stairs-goal"]}>
+<Ability id="talentstalkertalent-stalker-talent-fn16" icon={["power"]}>
 <Pair single id="talentstalkertalent-stalker-talent-fn16"><Link to="/talent/stalker_talent">⮞</Link> Stalker Talent <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-16" id="ability-advanced_unchained_rogue_talents-fake-fn-16" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Ability">The rogue can select a <Link to="/ability/vigilante_talents">vigilante talent</Link>. For the purposes of selecting and using this talent, she counts as a 10th-level <Link to="/class/vigilante">vigilante</Link> with the <em>stalker</em> specialization, regardless of her actual rogue level. Her sneak attack counts as a <em>hidden strike</em> with reduced damage for the purpose of determining the effects of her vigilante talent, which means, among other things, that she can't apply any of the <em>hidden strike talents</em> to her sneak attacks.</Pair>
 </Ability>
-<Ability id="talentstonyskin-stony-skin-ex-fn7-4" icon={["armor-upgrade"]}>
+<Ability id="talentstonyskin-stony-skin-ex-fn7-4" icon={["def"]}>
 <Pair single id="talentstonyskin-stony-skin-ex-fn7-4"><Link to="/talent/stony_skin">⮞</Link> Stony Skin (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-7.4" id="ability-advanced_unchained_rogue_talents-fake-fn-7.4" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent gains DR 2/adamantine.</Pair>
 <Pair title="Special">A rogue can select this talent up to three times; each additional time the rogue selects this talent, the DR granted by this talent increases by 1.</Pair>
 </Ability>
-<Ability id="talentgreaterterrainmastery-greater-terrain-mastery-ex-fn5-6" icon={["upgrade"]}>
+<Ability id="talentgreaterterrainmastery-greater-terrain-mastery-ex-fn5-6" icon={["boost"]}>
 <Pair single id="talentgreaterterrainmastery-greater-terrain-mastery-ex-fn5-6"><Link to="/talent/greater_terrain_mastery">⮞</Link> Greater Terrain Mastery (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-5.6" id="ability-advanced_unchained_rogue_talents-fake-fn-5.6" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/terrain_mastery">Terrain mastery</Link></Pair>
 <Pair title="Ability">A rogue with this talent can select a single <Link to="/ability/favored_terrain">favored terrain</Link>. Her bonuses in that terrain increase to +4.</Pair>
 <Pair title="At 13th Level">Her bonuses become +6.</Pair>
 <Pair title="At 18th Level">Her bonuses increase to +8.</Pair>
 </Ability>
-<Ability id="talentunlockki-unlock-ki-su-fn10-2" icon={["upgrade"]}>
+<Ability id="talentunlockki-unlock-ki-su-fn10-2" icon={["boost"]}>
 <Pair single id="talentunlockki-unlock-ki-su-fn10-2"><Link to="/talent/unlock_ki">⮞</Link> Unlock Ki (Su) <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-10.2" id="ability-advanced_unchained_rogue_talents-fake-fn-10.2" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Has a ki pool</Pair>
 <Pair title="Ability">A rogue with this advanced talent increases the number of points in the ki pool that she gains from the <Link to="/talent/ki_pool">ki pool</Link> rogue talent to be equal to 1/2 her rogue level + her highest mental ability score modifier (Intelligence, Wisdom, or Charisma).</Pair>

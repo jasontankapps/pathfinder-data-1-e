@@ -4,7 +4,7 @@ import Ability from '../../components/Ability';
 const _not_found = {title: "Unknown", jsx: <><p>Unable to find the requested witch patron.</p>
 </>};
 const _agility = {title: "Agility", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 70</Link></p>
-<Ability id="agility" icon={["spell-book"]}>
+<Ability id="agility" icon={["learn"]}>
 <Pair single id="agility">Agility</Pair>
 <Pair title="Info">The Agility patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/jump">Jump</Link></Pair>
@@ -19,7 +19,7 @@ const _agility = {title: "Agility", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _ancestors = {title: "Ancestors", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 83</Link></p>
-<Ability id="ancestors" icon={["spell-book"]}>
+<Ability id="ancestors" icon={["learn"]}>
 <Pair single id="ancestors">Ancestors</Pair>
 <Pair title="Info">The Ancestors patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/bless">Bless</Link></Pair>
@@ -34,7 +34,7 @@ const _ancestors = {title: "Ancestors", jsx: <><p><strong>Sources</strong> <Link
 </Ability>
 </>};
 const _animals = {title: "Animals", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 70</Link></p>
-<Ability id="animals" icon={["spell-book"]}>
+<Ability id="animals" icon={["learn"]}>
 <Pair single id="animals">Animals</Pair>
 <Pair title="Info">The Animals patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/charm_animal">Charm animal</Link></Pair>
@@ -49,7 +49,7 @@ const _animals = {title: "Animals", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _aurora = {title: "Aurora", jsx: <><p><strong>Sources</strong> <Link to="/source/paths_of_the_righteous">Paths of the Righteous pg. 31</Link></p>
-<Ability id="aurora" icon={["spell-book"]}>
+<Ability id="aurora" icon={["learn"]}>
 <Pair single id="aurora">Aurora</Pair>
 <Pair title="Info">The Aurora patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/color_spray">Color spray</Link></Pair>
@@ -64,7 +64,7 @@ const _aurora = {title: "Aurora", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _autumn = {title: "Autumn", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 88</Link></p>
-<Ability id="autumn" icon={["spell-book"]}>
+<Ability id="autumn" icon={["learn"]}>
 <Pair single id="autumn">Autumn</Pair>
 <Pair title="Info">The Autumn patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/ray_of_enfeeblement">Ray of enfeeblement</Link></Pair>
@@ -79,7 +79,7 @@ const _autumn = {title: "Autumn", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _boundaries = {title: "Boundaries", jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity pg. 27</Link></p>
-<Ability id="boundaries" icon={["spell-book"]}>
+<Ability id="boundaries" icon={["learn"]}>
 <Pair single id="boundaries">Boundaries</Pair>
 <Pair title="Info">The Boundaries patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/protection_from_evil">Protection from evil</Link></Pair>
@@ -94,7 +94,7 @@ const _boundaries = {title: "Boundaries", jsx: <><p><strong>Sources</strong> <Li
 </Ability>
 </>};
 const _conspiracies = {title: "Conspiracies", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 72</Link></p>
-<Ability id="conspiracies" icon={["spell-book"]}>
+<Ability id="conspiracies" icon={["learn"]}>
 <Pair single id="conspiracies">Conspiracies</Pair>
 <Pair title="Info">The Conspiracies patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/lock_gaze">Lock gaze</Link></Pair>
@@ -109,7 +109,7 @@ const _conspiracies = {title: "Conspiracies", jsx: <><p><strong>Sources</strong>
 </Ability>
 </>};
 const _death = {title: "Death", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 83</Link></p>
-<Ability id="death" icon={["spell-book"]}>
+<Ability id="death" icon={["learn"]}>
 <Pair single id="death">Death</Pair>
 <Pair title="Info">The Death patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/deathwatch">Deathwatch</Link></Pair>
@@ -124,7 +124,7 @@ const _death = {title: "Death", jsx: <><p><strong>Sources</strong> <Link to="/so
 </Ability>
 </>};
 const _decadence = {title: "Decadence", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 72</Link></p>
-<Ability id="decadence" icon={["spell-book"]}>
+<Ability id="decadence" icon={["learn"]}>
 <Pair single id="decadence">Decadence</Pair>
 <Pair title="Info">The Decadence patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/negative_reaction">Negative reaction</Link></Pair>
@@ -139,7 +139,7 @@ const _decadence = {title: "Decadence", jsx: <><p><strong>Sources</strong> <Link
 </Ability>
 </>};
 const _deception = {title: "Deception", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 70</Link></p>
-<Ability id="deception" icon={["spell-book"]}>
+<Ability id="deception" icon={["learn"]}>
 <Pair single id="deception">Deception</Pair>
 <Pair title="Info">The Deception patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/ventriloquism">Ventriloquism</Link></Pair>
@@ -154,7 +154,7 @@ const _deception = {title: "Deception", jsx: <><p><strong>Sources</strong> <Link
 </Ability>
 </>};
 const _devotion = {title: "Devotion", jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity pg. 27</Link></p>
-<Ability id="devotion" icon={["spell-book"]}>
+<Ability id="devotion" icon={["learn"]}>
 <Pair single id="devotion">Devotion</Pair>
 <Pair title="Info">The Devotion patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/divine_favor">Divine favor</Link></Pair>
@@ -169,7 +169,7 @@ const _devotion = {title: "Devotion", jsx: <><p><strong>Sources</strong> <Link t
 </Ability>
 </>};
 const _elements = {title: "Elements", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 70</Link></p>
-<Ability id="elements" icon={["spell-book"]}>
+<Ability id="elements" icon={["learn"]}>
 <Pair single id="elements">Elements</Pair>
 <Pair title="Info">The Elements patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/shocking_grasp">Shocking grasp</Link></Pair>
@@ -184,7 +184,7 @@ const _elements = {title: "Elements", jsx: <><p><strong>Sources</strong> <Link t
 </Ability>
 </>};
 const _enchantment = {title: "Enchantment", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 83</Link></p>
-<Ability id="enchantment" icon={["spell-book"]}>
+<Ability id="enchantment" icon={["learn"]}>
 <Pair single id="enchantment">Enchantment</Pair>
 <Pair title="Info">The Enchantment patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/unnatural_lust">Unnatural lust</Link></Pair>
@@ -199,7 +199,7 @@ const _enchantment = {title: "Enchantment", jsx: <><p><strong>Sources</strong> <
 </Ability>
 </>};
 const _endurance = {title: "Endurance", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 70</Link></p>
-<Ability id="endurance" icon={["spell-book"]}>
+<Ability id="endurance" icon={["learn"]}>
 <Pair single id="endurance">Endurance</Pair>
 <Pair title="Info">The Endurance patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/endure_elements">Endure elements</Link></Pair>
@@ -214,7 +214,7 @@ const _endurance = {title: "Endurance", jsx: <><p><strong>Sources</strong> <Link
 </Ability>
 </>};
 const _entropy = {title: "Entropy", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 72</Link></p>
-<Ability id="entropy" icon={["spell-book"]}>
+<Ability id="entropy" icon={["learn"]}>
 <Pair single id="entropy">Entropy</Pair>
 <Pair title="Info">The Entropy patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/lesser_confusion">Lesser confusion</Link></Pair>
@@ -229,7 +229,7 @@ const _entropy = {title: "Entropy", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _ethereal = {title: "Ethereal", jsx: <><p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 125</Link></p>
-<Ability id="ethereal" icon={["spell-book"]}>
+<Ability id="ethereal" icon={["learn"]}>
 <Pair single id="ethereal">Ethereal</Pair>
 <Pair title="Info">The Ethereal patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/detect_undead">Detect undead</Link></Pair>
@@ -244,7 +244,7 @@ const _ethereal = {title: "Ethereal", jsx: <><p><strong>Sources</strong> <Link t
 </Ability>
 </>};
 const _fate = {title: "Fate", jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_72_the_witch_queens_revenge">Pathfinder #72: The Witch Queen's Revenge pg. 75</Link></p>
-<Ability id="fate" icon={["spell-book"]}>
+<Ability id="fate" icon={["learn"]}>
 <Pair single id="fate">Fate</Pair>
 <Pair title="Info">The Fate patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/doom">Doom</Link></Pair>
@@ -259,7 +259,7 @@ const _fate = {title: "Fate", jsx: <><p><strong>Sources</strong> <Link to="/sour
 </Ability>
 </>};
 const _healing = {title: "Healing", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 83</Link></p>
-<Ability id="healing" icon={["spell-book"]}>
+<Ability id="healing" icon={["learn"]}>
 <Pair single id="healing">Healing</Pair>
 <Pair title="Info">The Healing patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/remove_fear">Remove fear</Link></Pair>
@@ -274,7 +274,7 @@ const _healing = {title: "Healing", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _insanity = {title: "Insanity", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 83</Link></p>
-<Ability id="insanity" icon={["spell-book"]}>
+<Ability id="insanity" icon={["learn"]}>
 <Pair single id="insanity">Insanity</Pair>
 <Pair title="Info">The Insanity patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/memory_lapse">Memory lapse</Link></Pair>
@@ -289,7 +289,7 @@ const _insanity = {title: "Insanity", jsx: <><p><strong>Sources</strong> <Link t
 </Ability>
 </>};
 const _jynx = {title: "Jynx", jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven pg. 17</Link></p>
-<Ability id="jynx" icon={["spell-book"]}>
+<Ability id="jynx" icon={["learn"]}>
 <Pair single id="jynx">Jynx</Pair>
 <Pair title="Info">The Jynx patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/ill_omen">Ill omen</Link></Pair>
@@ -304,7 +304,7 @@ const _jynx = {title: "Jynx", jsx: <><p><strong>Sources</strong> <Link to="/sour
 </Ability>
 </>};
 const _light = {title: "Light", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 83</Link></p>
-<Ability id="light" icon={["spell-book"]}>
+<Ability id="light" icon={["learn"]}>
 <Pair single id="light">Light</Pair>
 <Pair title="Info">The Light patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/dancing_lantern">Dancing lantern</Link></Pair>
@@ -319,7 +319,7 @@ const _light = {title: "Light", jsx: <><p><strong>Sources</strong> <Link to="/so
 </Ability>
 </>};
 const _mercy = {title: "Mercy", jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven pg. 17</Link></p>
-<Ability id="mercy" icon={["spell-book"]}>
+<Ability id="mercy" icon={["learn"]}>
 <Pair single id="mercy">Mercy</Pair>
 <Pair title="Info">The Mercy patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/cure_light_wounds">Cure light wounds</Link></Pair>
@@ -334,7 +334,7 @@ const _mercy = {title: "Mercy", jsx: <><p><strong>Sources</strong> <Link to="/so
 </Ability>
 </>};
 const _mind = {title: "Mind", jsx: <><p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 125</Link></p>
-<Ability id="mind" icon={["spell-book"]}>
+<Ability id="mind" icon={["learn"]}>
 <Pair single id="mind">Mind</Pair>
 <Pair title="Info">The Mind patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/mindlink">Mindlink</Link></Pair>
@@ -349,7 +349,7 @@ const _mind = {title: "Mind", jsx: <><p><strong>Sources</strong> <Link to="/sour
 </Ability>
 </>};
 const _moon = {title: "Moon", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 83</Link></p>
-<Ability id="moon" icon={["spell-book"]}>
+<Ability id="moon" icon={["learn"]}>
 <Pair single id="moon">Moon</Pair>
 <Pair title="Info">The Moon patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/darkness">Darkness</Link></Pair>
@@ -364,7 +364,7 @@ const _moon = {title: "Moon", jsx: <><p><strong>Sources</strong> <Link to="/sour
 </Ability>
 </>};
 const _mountain = {title: "Mountain", jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 13</Link></p>
-<Ability id="mountain" icon={["spell-book"]}>
+<Ability id="mountain" icon={["learn"]}>
 <Pair single id="mountain">Mountain</Pair>
 <Pair title="Info">The Mountain patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/stone_fist">Stone fist</Link></Pair>
@@ -379,7 +379,7 @@ const _mountain = {title: "Mountain", jsx: <><p><strong>Sources</strong> <Link t
 </Ability>
 </>};
 const _nightmares = {title: "Nightmares", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 72</Link></p>
-<Ability id="nightmares" icon={["spell-book"]}>
+<Ability id="nightmares" icon={["learn"]}>
 <Pair single id="nightmares">Nightmares</Pair>
 <Pair title="Info">The Nightmares patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/sleep">Sleep</Link></Pair>
@@ -394,7 +394,7 @@ const _nightmares = {title: "Nightmares", jsx: <><p><strong>Sources</strong> <Li
 </Ability>
 </>};
 const _occult = {title: "Occult", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 83</Link></p>
-<Ability id="occult" icon={["spell-book"]}>
+<Ability id="occult" icon={["learn"]}>
 <Pair single id="occult">Occult</Pair>
 <Pair title="Info">The Occult patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/detect_undead">Detect undead</Link></Pair>
@@ -409,7 +409,7 @@ const _occult = {title: "Occult", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _peace = {title: "Peace", jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity pg. 27</Link></p>
-<Ability id="peace" icon={["spell-book"]}>
+<Ability id="peace" icon={["learn"]}>
 <Pair single id="peace">Peace</Pair>
 <Pair title="Info">The Peace patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/sanctuary">Sanctuary</Link></Pair>
@@ -424,7 +424,7 @@ const _peace = {title: "Peace", jsx: <><p><strong>Sources</strong> <Link to="/so
 </Ability>
 </>};
 const _plague = {title: "Plague", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 70</Link></p>
-<Ability id="plague" icon={["spell-book"]}>
+<Ability id="plague" icon={["learn"]}>
 <Pair single id="plague">Plague</Pair>
 <Pair title="Info">The Plague patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/detect_undead">Detect undead</Link></Pair>
@@ -439,7 +439,7 @@ const _plague = {title: "Plague", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _plant = {title: "Plant", jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 11</Link></p>
-<Ability id="plant" icon={["spell-book"]}>
+<Ability id="plant" icon={["learn"]}>
 <Pair single id="plant">Plant</Pair>
 <Pair title="Info">The Plant patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/entangle">Entangle</Link></Pair>
@@ -454,7 +454,7 @@ const _plant = {title: "Plant", jsx: <><p><strong>Sources</strong> <Link to="/so
 </Ability>
 </>};
 const _portents = {title: "Portents", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 83</Link></p>
-<Ability id="portents" icon={["spell-book"]}>
+<Ability id="portents" icon={["learn"]}>
 <Pair single id="portents">Portents</Pair>
 <Pair title="Info">The Portents patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/ill_omen">Ill omen</Link></Pair>
@@ -469,7 +469,7 @@ const _portents = {title: "Portents", jsx: <><p><strong>Sources</strong> <Link t
 </Ability>
 </>};
 const _protection = {title: "Protection", jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 9</Link></p>
-<Ability id="protection" icon={["spell-book"]}>
+<Ability id="protection" icon={["learn"]}>
 <Pair single id="protection">Protection</Pair>
 <Pair title="Info">The Protection patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/sanctuary">Sanctuary</Link></Pair>
@@ -484,7 +484,7 @@ const _protection = {title: "Protection", jsx: <><p><strong>Sources</strong> <Li
 </Ability>
 </>};
 const _recovery = {title: "Recovery", jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 16</Link></p>
-<Ability id="recovery" icon={["spell-book"]}>
+<Ability id="recovery" icon={["learn"]}>
 <Pair single id="recovery">Recovery</Pair>
 <Pair title="Info">The Recovery patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/liberating_command">Liberating command</Link></Pair>
@@ -499,7 +499,7 @@ const _recovery = {title: "Recovery", jsx: <><p><strong>Sources</strong> <Link t
 </Ability>
 </>};
 const _revenge = {title: "Revenge", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 72</Link></p>
-<Ability id="revenge" icon={["spell-book"]}>
+<Ability id="revenge" icon={["learn"]}>
 <Pair single id="revenge">Revenge</Pair>
 <Pair title="Info">The Revenge patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/magic_fang">Magic fang</Link></Pair>
@@ -514,7 +514,7 @@ const _revenge = {title: "Revenge", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _rot = {title: "Rot", jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven pg. 17</Link></p>
-<Ability id="rot" icon={["spell-book"]}>
+<Ability id="rot" icon={["learn"]}>
 <Pair single id="rot">Rot</Pair>
 <Pair title="Info">The Rot patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/decompose_corpse">Decompose corpse</Link></Pair>
@@ -529,7 +529,7 @@ const _rot = {title: "Rot", jsx: <><p><strong>Sources</strong> <Link to="/source
 </Ability>
 </>};
 const _shadow = {title: "Shadow", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 70</Link></p>
-<Ability id="shadow" icon={["spell-book"]}>
+<Ability id="shadow" icon={["learn"]}>
 <Pair single id="shadow">Shadow</Pair>
 <Pair title="Info">The Shadow patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/silent_image">Silent image</Link></Pair>
@@ -544,7 +544,7 @@ const _shadow = {title: "Shadow", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _space = {title: "Space", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 72</Link></p>
-<Ability id="space" icon={["spell-book"]}>
+<Ability id="space" icon={["learn"]}>
 <Pair single id="space">Space</Pair>
 <Pair title="Info">The Space patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/mirror_strike">Mirror strike</Link></Pair>
@@ -559,7 +559,7 @@ const _space = {title: "Space", jsx: <><p><strong>Sources</strong> <Link to="/so
 </Ability>
 </>};
 const _spirits = {title: "Spirits", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 83</Link></p>
-<Ability id="spirits" icon={["spell-book"]}>
+<Ability id="spirits" icon={["learn"]}>
 <Pair single id="spirits">Spirits</Pair>
 <Pair title="Info">The Spirits patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/ghostbane_dirge">Ghostbane dirge</Link></Pair>
@@ -574,7 +574,7 @@ const _spirits = {title: "Spirits", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _spring = {title: "Spring", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 88</Link></p>
-<Ability id="spring" icon={["spell-book"]}>
+<Ability id="spring" icon={["learn"]}>
 <Pair single id="spring">Spring</Pair>
 <Pair title="Info">The Spring patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/feather_fall">Feather fall</Link></Pair>
@@ -589,7 +589,7 @@ const _spring = {title: "Spring", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _stars = {title: "Stars", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 83</Link></p>
-<Ability id="stars" icon={["spell-book"]}>
+<Ability id="stars" icon={["learn"]}>
 <Pair single id="stars">Stars</Pair>
 <Pair title="Info">The Stars patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/faerie_fire">Faerie fire</Link></Pair>
@@ -604,7 +604,7 @@ const _stars = {title: "Stars", jsx: <><p><strong>Sources</strong> <Link to="/so
 </Ability>
 </>};
 const _storms = {title: "Storms", jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 13</Link></p>
-<Ability id="storms" icon={["spell-book"]}>
+<Ability id="storms" icon={["learn"]}>
 <Pair single id="storms">Storms</Pair>
 <Pair title="Info">The Storms patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/obscuring_mist">Obscuring mist</Link></Pair>
@@ -619,7 +619,7 @@ const _storms = {title: "Storms", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _strength = {title: "Strength", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 70</Link></p>
-<Ability id="strength" icon={["spell-book"]}>
+<Ability id="strength" icon={["learn"]}>
 <Pair single id="strength">Strength</Pair>
 <Pair title="Info">The Strength patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/divine_favor">Divine favor</Link></Pair>
@@ -634,7 +634,7 @@ const _strength = {title: "Strength", jsx: <><p><strong>Sources</strong> <Link t
 </Ability>
 </>};
 const _summer = {title: "Summer", jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 13</Link>, <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 88</Link></p>
-<Ability id="summer" icon={["spell-book"]}>
+<Ability id="summer" icon={["learn"]}>
 <Pair single id="summer">Summer</Pair>
 <Pair title="Info">The Summer patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/goodberry">Goodberry</Link></Pair>
@@ -649,7 +649,7 @@ const _summer = {title: "Summer", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _thorns = {title: "Thorns", jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 13</Link>, <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 88</Link></p>
-<Ability id="thorns" icon={["spell-book"]}>
+<Ability id="thorns" icon={["learn"]}>
 <Pair single id="thorns">Thorns</Pair>
 <Pair title="Info">The Thorns patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/thorn_javelin">Thorn javelin</Link></Pair>
@@ -664,7 +664,7 @@ const _thorns = {title: "Thorns", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _time = {title: "Time", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 83</Link></p>
-<Ability id="time" icon={["spell-book"]}>
+<Ability id="time" icon={["learn"]}>
 <Pair single id="time">Time</Pair>
 <Pair title="Info">The Time patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/ventriloquism">Ventriloquism</Link></Pair>
@@ -679,7 +679,7 @@ const _time = {title: "Time", jsx: <><p><strong>Sources</strong> <Link to="/sour
 </Ability>
 </>};
 const _transformation = {title: "Transformation", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 70</Link></p>
-<Ability id="transformation" icon={["spell-book"]}>
+<Ability id="transformation" icon={["learn"]}>
 <Pair single id="transformation">Transformation</Pair>
 <Pair title="Info">The Transformation patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/jump">Jump</Link></Pair>
@@ -695,7 +695,7 @@ const _transformation = {title: "Transformation", jsx: <><p><strong>Sources</str
 </Ability>
 </>};
 const _trickery = {title: "Trickery", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 70</Link></p>
-<Ability id="trickery" icon={["spell-book"]}>
+<Ability id="trickery" icon={["learn"]}>
 <Pair single id="trickery">Trickery</Pair>
 <Pair title="Info">The Trickery patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/animate_rope">Animate rope</Link></Pair>
@@ -710,7 +710,7 @@ const _trickery = {title: "Trickery", jsx: <><p><strong>Sources</strong> <Link t
 </Ability>
 </>};
 const _vengeance = {title: "Vengeance", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 83</Link></p>
-<Ability id="vengeance" icon={["spell-book"]}>
+<Ability id="vengeance" icon={["learn"]}>
 <Pair single id="vengeance">Vengeance</Pair>
 <Pair title="Info">The Vengeance patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/burning_hands">Burning hands</Link></Pair>
@@ -725,7 +725,7 @@ const _vengeance = {title: "Vengeance", jsx: <><p><strong>Sources</strong> <Link
 </Ability>
 </>};
 const _water = {title: "Water", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 70</Link></p>
-<Ability id="water" icon={["spell-book"]}>
+<Ability id="water" icon={["learn"]}>
 <Pair single id="water">Water</Pair>
 <Pair title="Info">The Water patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/bless_water">Bless water</Link> (or <Link to="/spell/curse_water">curse water</Link>)</Pair>
@@ -740,7 +740,7 @@ const _water = {title: "Water", jsx: <><p><strong>Sources</strong> <Link to="/so
 </Ability>
 </>};
 const _winter = {title: "Winter", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 83</Link>, <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 88</Link></p>
-<Ability id="winter" icon={["spell-book"]}>
+<Ability id="winter" icon={["learn"]}>
 <Pair single id="winter">Winter</Pair>
 <Pair title="Info">The Winter patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/unshakable_chill">Unshakable chill</Link></Pair>
@@ -755,7 +755,7 @@ const _winter = {title: "Winter", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _wisdom = {title: "Wisdom", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 70</Link></p>
-<Ability id="wisdom" icon={["spell-book"]}>
+<Ability id="wisdom" icon={["learn"]}>
 <Pair single id="wisdom">Wisdom</Pair>
 <Pair title="Info">The Wisdom patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/shield_of_faith">Shield of faith</Link></Pair>
@@ -770,7 +770,7 @@ const _wisdom = {title: "Wisdom", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _woodlands = {title: "Woodlands", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 89</Link></p>
-<Ability id="woodlands" icon={["spell-book"]}>
+<Ability id="woodlands" icon={["learn"]}>
 <Pair single id="woodlands">Woodlands</Pair>
 <Pair title="Info">The Woodlands patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/entangle">Entangle</Link></Pair>
@@ -785,7 +785,7 @@ const _woodlands = {title: "Woodlands", jsx: <><p><strong>Sources</strong> <Link
 </Ability>
 </>};
 const _celestial_agenda = {title: "Celestial Agenda", addenda: ["uniquepatron"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="celestial-agenda" icon={["stairs-goal","broken-shield","spell-book"]}>
+<Ability id="celestial-agenda" icon={["power","down","learn"]}>
 <Pair single id="celestial-agenda">Celestial Agenda</Pair>
 <Pair title="Info">While good deities and empyreal lords have organized faiths to carry out their wills, powerfully ranked <Link to="/family/agathion">agathions</Link>, <Link to="/family/angel">angels</Link>, and <Link to="/family/archon">archons</Link> - and occasional intersectional councils of good outsiders - sometimes invest white witches with celestial might to defend the weak and heal the sick.</Pair>
 <Pair title="Ability">You gain the <Link to="/hex/ward">ward</Link> hex at 1st level.</Pair>
@@ -798,7 +798,7 @@ const _celestial_agenda = {title: "Celestial Agenda", addenda: ["uniquepatron"],
 </Ability>
 </>};
 const _empath = {title: "Empath", addenda: ["uniquepatron"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="empath" icon={["stairs-goal","broken-shield","spell-book"]}>
+<Ability id="empath" icon={["power","down","learn"]}>
 <Pair single id="empath">Empath</Pair>
 <Pair title="Info">Your patron is a manifestation of the collective living experience - mortal desire and purpose given direction by the beliefs of countless minds and hearts.</Pair>
 <Pair title="Ability">You gain the <Link to="/hex/tongues">tongues</Link> hex at 1st level</Pair>
@@ -811,7 +811,7 @@ const _empath = {title: "Empath", addenda: ["uniquepatron"], jsx: <><p><strong>S
 </Ability>
 </>};
 const _fey_gifts = {title: "Fey Gifts", addenda: ["uniquepatron"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="fey-gifts" icon={["stairs-goal","broken-shield","spell-book"]}>
+<Ability id="fey-gifts" icon={["power","down","learn"]}>
 <Pair single id="fey-gifts">Fey Gifts</Pair>
 <Pair title="Info">A powerful fey or other entity from the First World has offered you magic. You serve as an anchor and scrying focus in the Material Plane for your patron, but you also provide frequent amusement.</Pair>
 <Pair title="Ability">You gain the <Link to="/hex/charm">charm</Link> hex at 1st level.</Pair>
@@ -824,7 +824,7 @@ const _fey_gifts = {title: "Fey Gifts", addenda: ["uniquepatron"], jsx: <><p><st
 </Ability>
 </>};
 const _green_whispers = {title: "Green Whispers", addenda: ["uniquepatron"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="green-whispers" icon={["stairs-goal","broken-shield","spell-book"]}>
+<Ability id="green-whispers" icon={["power","down","learn"]}>
 <Pair single id="green-whispers">Green Whispers</Pair>
 <Pair title="Info">Your witch powers are a manifestation of the <Link to="/faith/green_faith">Green Faith</Link> or bestowed by a representative of natural forces, such as an ancient <Link to="/monster/treant">treant</Link> or nature spirit, who expects you to wield such gifts on its behalf.</Pair>
 <Pair title="Ability">You gain the <Link to="/hex/feral_speech">feral speech</Link> hex at 1st level.</Pair>
@@ -837,7 +837,7 @@ const _green_whispers = {title: "Green Whispers", addenda: ["uniquepatron"], jsx
 </Ability>
 </>};
 const _hags_calling = {title: "Hag's Calling", addenda: ["uniquepatron"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="hags-calling" icon={["stairs-goal","broken-shield","spell-book"]}>
+<Ability id="hags-calling" icon={["power","down","learn"]}>
 <Pair single id="hags-calling">Hag's Calling</Pair>
 <Pair title="Info">Hags of exceptional power - most often <Link to="/monster/mute_hag">mute hags</Link> and <Link to="/monster/dreamthief_hag">dreamthief hags</Link> - sometimes invest mortal agents with the same well of ancient power they have mastered. Hags most often invest their <Link to="/race/changeling">changeling</Link> daughters with such power, either once they have proven loyal or else to tempt them into wickedness.</Pair>
 <Pair title="Ability">You gain the <Link to="/hex/coven">coven</Link> hex at 1st level.</Pair>
@@ -850,7 +850,7 @@ const _hags_calling = {title: "Hag's Calling", addenda: ["uniquepatron"], jsx: <
 </Ability>
 </>};
 const _infernal_contract = {title: "Infernal Contract", addenda: ["uniquepatron"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="infernal-contract" icon={["stairs-goal","broken-shield","spell-book"]}>
+<Ability id="infernal-contract" icon={["power","down","learn"]}>
 <Pair single id="infernal-contract">Infernal Contract</Pair>
 <Pair title="Info">Your power was brokered from a powerful <Link to="/family/daemon">daemon</Link>, <Link to="/family/demon">demon</Link>, or <Link to="/family/devil">devil</Link> to speed the corruption and moral decay of mortals. When you die, your soul goes to Abaddon, the Abyss, or Hell, and you can't be raised or resurrected except by extraordinary means - though bold service may earn you a favored position in damnation.</Pair>
 <Pair title="Ability">You gain the <Link to="/hex/misfortune">misfortune</Link> hex at 1st level.</Pair>
@@ -867,7 +867,7 @@ const _infernal_contract = {title: "Infernal Contract", addenda: ["uniquepatron"
 </Ability>
 </>};
 const _shadowbound = {title: "Shadowbound", addenda: ["uniquepatron"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="shadowbound" icon={["stairs-goal","broken-shield","spell-book"]}>
+<Ability id="shadowbound" icon={["power","down","learn"]}>
 <Pair single id="shadowbound">Shadowbound</Pair>
 <Pair title="Info">Deep exposure to entities from the Plane of Shadow - <Link to="/family/kyton">kytons</Link>, <Link to="/family/nightshade">nightshades</Link>, <Link to="/monster/owb">owbs</Link>, and similar ethereal forces - has infused you with shadow.</Pair>
 <Pair title="Ability">You gain the <Link to="/hex/disguise">disguise</Link> hex at 1st level.</Pair>
@@ -880,7 +880,7 @@ const _shadowbound = {title: "Shadowbound", addenda: ["uniquepatron"], jsx: <><p
 </Ability>
 </>};
 const _the_condition_of_all = {title: "The Condition of All", addenda: ["uniquepatron"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="the-condition-of-all" icon={["stairs-goal","broken-shield","spell-book"]}>
+<Ability id="the-condition-of-all" icon={["power","down","learn"]}>
 <Pair single id="the-condition-of-all">The Condition of All</Pair>
 <Pair title="Info"><Link to="/family/aeon">Aeons</Link> are often patrons to witches, seeking out mortals who share their vested interest in some agenda that helps them promote the cosmic balance.</Pair>
 <Pair title="Ability">You gain the <Link to="/hex/scar">scar</Link> hex at 1st level.</Pair>
@@ -893,7 +893,7 @@ const _the_condition_of_all = {title: "The Condition of All", addenda: ["uniquep
 </Ability>
 </>};
 const _touched_by_the_outer_gods = {title: "Touched by the Outer Gods", addenda: ["uniquepatron"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="touched-by-the-outer-gods" icon={["stairs-goal","broken-shield","spell-book"]}>
+<Ability id="touched-by-the-outer-gods" icon={["power","down","learn"]}>
 <Pair single id="touched-by-the-outer-gods">Touched by the Outer Gods</Pair>
 <Pair title="Info">Your powers hail from an incomprehensible being from beyond the stars, whose motivations and needs erode your psyche.</Pair>
 <Pair title="Ability">You gain the <Link to="/hex/unnerve_beasts">unnerve beasts</Link> hex at 1st level.</Pair>

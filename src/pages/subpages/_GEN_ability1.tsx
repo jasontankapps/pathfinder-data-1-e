@@ -12,19 +12,19 @@ const _not_found = {title: "Unknown", jsx: <><h2 id="ability-not_found-error">Er
 const _advanced_armor_training = {hasJL:true,title: "Advanced Armor Training", topLink: ["Fighter","class/fighter"], jsx: <><div className="jumpList" id="ability-advanced_armor_training-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="ability-advanced_armor_training-adaptable-training-ex">Adaptable Training</InnerLink></li><li><InnerLink toTop to="ability-advanced_armor_training-armor-specialization-ex">Armor Specialization</InnerLink></li><li><InnerLink toTop to="ability-advanced_armor_training-armored-confidence-ex">Armored Confidence</InnerLink></li><li><InnerLink toTop to="ability-advanced_armor_training-armored-juggernaut-ex">Armored Juggernaut</InnerLink></li><li><InnerLink toTop to="ability-advanced_armor_training-armored-master">Armored Master</InnerLink></li><li><InnerLink toTop to="ability-advanced_armor_training-armored-sacrifice-ex">Armored Sacrifice</InnerLink></li><li><InnerLink toTop to="ability-advanced_armor_training-armored-sprint-ex">Armored Sprint</InnerLink></li><li><InnerLink toTop to="ability-advanced_armor_training-critical-deflection-ex">Critical Deflection</InnerLink></li><li><InnerLink toTop to="ability-advanced_armor_training-master-armorer-ex">Master Armorer</InnerLink></li><li><InnerLink toTop to="ability-advanced_armor_training-quick-donning-ex">Quick Donning</InnerLink></li><li><InnerLink toTop to="ability-advanced_armor_training-steel-headbutt-ex">Steel Headbutt</InnerLink></li><li><InnerLink toTop to="ability-advanced_armor_training-unmoving-ex">Unmoving</InnerLink></li></ul></div><h2 id="ability-advanced_armor_training-advanced-armor-training">Advanced Armor Training</h2>
 <p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook pg. 14-15</Link><br/>Highly skilled and tenacious fighters can gain <em>advanced armor training,</em> learning techniques and applications of the <em>armor training</em> class feature that give them special benefits in exchange for reducing their ability to mitigate their armor's armor check penalty and improve its maximum Dexterity bonus. Beginning at 3rd level, instead of increasing the benefits provided by <em>armor training</em> (reducing his armor's check penalty by 1 and increasing its maximum Dexterity bonus by 1), a fighter can choose an <em>advanced armor training</em> option. If the fighter does so, he still gains the ability to move at his normal speed while wearing medium armor at 3rd level, and while wearing heavy armor at 7th level.</p>
 <p><em>Advanced armor training</em> options function only when the fighter is wearing appropriate armor or using a shield, unless otherwise noted. A fighter with an archetype that replaces <em>armor training</em> cannot select <em>advanced armor training</em> options. (However, see the <Link to="/feat/advanced_armor_training">Advanced Armor Training</Link> feat.)</p>
-<Ability id="adaptable-training-ex" icon={["upgrade"]}>
+<Ability id="adaptable-training-ex" icon={["boost"]}>
 <Pair single id="adaptable-training-ex">Adaptable Training (Ex)</Pair>
 <Pair title="Ability"><p>The fighter can use his base attack bonus in place of his ranks in one skill of his choice from the following list: Acrobatics, Climb, Disguise, Escape Artist, Intimidate, Knowledge (engineering), Profession (soldier), Ride, or Swim. The fighter need not be wearing armor or using a shield to use this option.</p>
 <p>When using adaptable training, the fighter substitutes his total base attack bonus (including his base attack bonus gained through levels in other classes) for his ranks in this skill, but adds the skill's usual ability score modifier and any other bonuses or penalties that would modify that skill.</p>
 </Pair>
 <Pair title="Special">Once a skill has been selected, it cannot be changed and the fighter can immediately retrain all of his ranks in the selected skill at no additional cost in money or time. In addition, the fighter adds all skills chosen with this option to his list of class skills. A fighter can choose this option up to four times.</Pair>
 </Ability>
-<Ability id="armor-specialization-ex" icon={["armor-upgrade"]}>
+<Ability id="armor-specialization-ex" icon={["def"]}>
 <Pair single id="armor-specialization-ex">Armor Specialization (Ex)</Pair>
 <Pair title="Ability">The fighter selects one specific type of armor with which he is proficient, such as <Link to="/eq-armor/chain_shirt">chain shirts</Link> or <Link to="/eq-armor/scale_mail">scale mail</Link>. While wearing the selected type of armor, the fighter adds <Link to="/misc/one_quarter">one-quarter</Link> of his fighter level to the armor's armor bonus, up to a maximum bonus of +3 for light armor, +4 for medium armor, or +5 for heavy armor.</Pair>
 <Pair title="Special">This increase to the armor bonus doesn't increase the benefit that the fighter gains from feats, class abilities, or other effects that are determined by his armor's base armor bonus, including other advanced armor training options. A fighter can choose this option multiple times. Each time he chooses it, he applies its benefit to a different type of armor.</Pair>
 </Ability>
-<Ability id="armored-confidence-ex" icon={["upgrade","armor-upgrade"]}>
+<Ability id="armored-confidence-ex" icon={["boost","def"]}>
 <Pair single id="armored-confidence-ex">Armored Confidence (Ex)</Pair>
 <Pair title="Passive Ability"><p>While wearing armor, the fighter gains a bonus on Intimidate checks based upon the type of armor he is wearing: +1 for light armor, +2 for medium armor, or +3 for heavy armor.</p>
 <p>In addition, the fighter adds half his <em>armored confidence</em> bonus to the DC of Intimidate checks to demoralize him.</p>
@@ -34,7 +34,7 @@ const _advanced_armor_training = {hasJL:true,title: "Advanced Armor Training", t
 <Pair title="At 15th Level">This bonus now increases by 3.</Pair>
 <Pair title="At 19th Level">This bonus now increases by 4.</Pair>
 </Ability>
-<Ability id="armored-juggernaut-ex" icon={["armor-upgrade"]}>
+<Ability id="armored-juggernaut-ex" icon={["def"]}>
 <Pair single id="armored-juggernaut-ex">Armored Juggernaut (Ex)</Pair>
 <Pair title="At 3rd Level">When wearing heavy armor, the fighter gains DR 1/-.</Pair>
 <Pair title="At 7th Level">The fighter gains DR 1/- when wearing medium armor, and DR 2/- when wearing heavy armor.</Pair>
@@ -42,20 +42,20 @@ const _advanced_armor_training = {hasJL:true,title: "Advanced Armor Training", t
 <Pair title="At 19th Level">If the fighter has the <em>armor mastery</em> class feature, these DR values increase by 5.</Pair>
 <Pair title="Special">The DR from this ability stacks with that provided by <Link to="/eq-material/adamantine">adamantine</Link> armor, but not with other forms of damage reduction. This damage reduction does not apply if the fighter is <Link to="/misc/helpless">helpless</Link>, <Link to="/misc/stunned">stunned</Link>, or <Link to="/misc/unconscious">unconscious</Link>.</Pair>
 </Ability>
-<Ability id="armored-master" icon={["stairs-goal"]}>
+<Ability id="armored-master" icon={["power"]}>
 <Pair single id="armored-master">Armored Master</Pair>
 <Pair title="Ability">The fighter gains an <Link to="/main/feats_armor_mastery">armor mastery feat</Link> or a <Link to="/main/feats_shield_mastery">shield mastery feat</Link> as a bonus feat. He must meet all of the feat's prerequisites.</Pair>
 </Ability>
-<Ability id="armored-sacrifice-ex" icon={["armor-upgrade","shield-reflect"]}>
+<Ability id="armored-sacrifice-ex" icon={["def","protect"]}>
 <Pair single id="armored-sacrifice-ex">Armored Sacrifice (Ex)</Pair>
 <Pair title="Usage">1 time/day + 1 per eight fighter levels beyond 3rd<ByLevelPop levels={[[3,1],[11,2],[19,3]]} unit="time" postText="/day" /></Pair>
 <Pair title="Ability">When damage would cause the fighter or an adjacent ally to be knocked unconscious or killed, the fighter can instead direct the damage to a suit of armor that he is wearing or a shield he is using as an immediate action. The original target takes no damage, but the armor or shield is treated as if it had only half its normal hardness.</Pair>
 </Ability>
-<Ability id="armored-sprint-ex" icon={["stairs-goal"]}>
+<Ability id="armored-sprint-ex" icon={["power"]}>
 <Pair single id="armored-sprint-ex">Armored Sprint (Ex)</Pair>
 <Pair title="Ability">The fighter gains <Link to="/feat/run">Run</Link> as a bonus feat. If the fighter is proficient with heavy armor, he treats heavy armor as if it were one category lighter for the purpose of determining how fast he can move while running in armor.</Pair>
 </Ability>
-<Ability id="critical-deflection-ex" icon={["armor-upgrade"]}>
+<Ability id="critical-deflection-ex" icon={["def"]}>
 <Pair single id="critical-deflection-ex">Critical Deflection (Ex)</Pair>
 <Pair title="Ability">While wearing armor or using a shield, the fighter gains a +2 bonus to his AC against attack rolls made to confirm a critical hit.</Pair>
 <Pair title="At 7th Level">This bonus becomes +3.</Pair>
@@ -63,13 +63,13 @@ const _advanced_armor_training = {hasJL:true,title: "Advanced Armor Training", t
 <Pair title="At 15th Level">This bonus becomes +5.</Pair>
 <Pair title="At 19th Level">This bonus increases to +6.</Pair>
 </Ability>
-<Ability id="master-armorer-ex" icon={["upgrade"]}>
+<Ability id="master-armorer-ex" icon={["boost"]}>
 <Pair single id="master-armorer-ex">Master Armorer (Ex)</Pair>
 <Pair title="Ability"><p>The fighter can use his base attack bonus in place of his ranks in the Craft (armor) skill. The fighter need not be wearing armor or using a shield to use this option. The fighter substitutes his total base attack bonus (including his base attack bonus gained through levels in other classes) for his ranks in this skill, but adds the skill's usual ability score modifier and any other bonuses or penalties that would modify that skill.</p>
 <p>Additionally the fighter is treated as having the <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link> and <Link to="/feat/master_craftsman">Master Craftsman</Link> feats, but only for the purpose of making magic armor. The fighter does not need to meet these feats' prerequisites.</p>
 </Pair>
 </Ability>
-<Ability id="quick-donning-ex" icon={["upgrade"]}>
+<Ability id="quick-donning-ex" icon={["boost"]}>
 <Pair single id="quick-donning-ex">Quick Donning (Ex)</Pair>
 <Pair title="Ability"><p>The fighter can <Link to="/rule/don_armor">don armor</Link> in a hurry without reducing its effectiveness, and remove it quickly when it becomes a hindrance. When the fighter dons or removes his armor or dons it hastily, the amount of time needed to do so is reduced, as noted on the table below. Other characters can still help the fighter don his armor as normal.</p>
 <ScrollContainer id="ability-advanced_armor_training--table-0"><table>
@@ -104,12 +104,12 @@ const _advanced_armor_training = {hasJL:true,title: "Advanced Armor Training", t
 <p>The fighter can also remove his armor in the same amount of time that it takes him to don his armor hastily. He can even remove sections of armor to escape <Link to="/rule/grapple">grapples</Link> and similar grasping hindrances. Whenever the fighter attempts a combat maneuver check, an Escape Artist check, or a Strength check to escape from an effect that reduces or restricts his ability to move or act, he can reduce the armor bonus of any armor that he is wearing by up to half his armor's base armor bonus. If he does so, he gains a bonus on his check equal to the amount by which he reduced his armor's armor bonus. Multiple uses of this ability cannot reduce the armor's armor bonus below half its base armor bonus, and the reduction to the armor's armor bonus lasts until the fighter recovers and dons the removed pieces of armor.</p>
 </Pair>
 </Ability>
-<Ability id="steel-headbutt-ex" icon={["mailed-fist"]}>
+<Ability id="steel-headbutt-ex" icon={["melee"]}>
 <Pair single id="steel-headbutt-ex">Steel Headbutt (Ex)</Pair>
 <Pair title="Ability">While wearing medium or heavy armor, a fighter can deliver a headbutt with his helm as part of a full attack action. This headbutt is in addition to his normal attacks, and is made using the fighter's base attack bonus - 5. A helmet headbutt deals 1d3 points of damage if the fighter is wearing medium armor, or 1d4 points of damage if he is wearing heavy armor (1d2 and 1d3, respectively, for Small creatures), plus an amount of damage equal to 1/2 the fighter's Strength modifier.</Pair>
 <Pair title="Special">Treat this attack as a weapon attack made using the same special material (if any) as the armor. The armor's enhancement bonus does not modify the headbutt attack, but the helm can be enchanted as a separate weapon.</Pair>
 </Ability>
-<Ability id="unmoving-ex" icon={["armor-upgrade"]}>
+<Ability id="unmoving-ex" icon={["def"]}>
 <Pair single id="unmoving-ex">Unmoving (Ex)</Pair>
 <Pair title="Ability">Select one <Link to="/rule/combat_maneuvers">combat maneuver</Link> (except sunder). Whether using his armor as leverage against a grappling foe or using its weight to help him stop a bull rush, a fighter can use his armor to protect him from the chosen combat maneuver. While wearing armor or wielding a shield, the fighter gains a bonus to his CMD against the chosen combat maneuver. The bonus is +1 if he's wearing light armor, +2 if he's wearing medium armor, and +3 if he's wearing heavy armor.</Pair>
 <Pair title="At 7th Level">This bonus increases by 1.</Pair>
@@ -123,173 +123,173 @@ const _advanced_rogue_talents = {hasJL:true,title: "Advanced Rogue Talents", top
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 69</Link><br/>At 10th level, and every two levels thereafter, a rogue can choose an advanced rogue talent in place of a <Link to="/ability/rogue_talent">rogue talent</Link>.</p>
 <h3 id="ability-advanced_rogue_talents-primary-sneak-attack-talents" data-hash-target>Primary Sneak Attack Talents</h3>
 <p>These talents add effects to a rogue's <Link to="/ability/sneak_attack">sneak attack</Link>. Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.</p>
-<Ability id="talentconfoundingblades-confounding-blades-ex-fn1" icon={["armor-downgrade"]}>
+<Ability id="talentconfoundingblades-confounding-blades-ex-fn1" icon={["lower"]}>
 <Pair single id="talentconfoundingblades-confounding-blades-ex-fn1"><Link to="/talent/confounding_blades">⮞</Link> Confounding Blades (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-1" id="ability-advanced_rogue_talents-fake-fn-1" data-hash-target to="ability-advanced_rogue_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/slow_reactions">Slow reactions</Link></Pair>
 <Pair title="Ability">When a rogue with this talent hits a creature with a melee weapon that deals sneak attack damage, her target cannot make attacks of opportunity for 1d4+1 rounds.</Pair>
 </Ability>
-<Ability id="talentcripplingstrike-crippling-strike-ex-fn2" icon={["armor-downgrade"]}>
+<Ability id="talentcripplingstrike-crippling-strike-ex-fn2" icon={["lower"]}>
 <Pair single id="talentcripplingstrike-crippling-strike-ex-fn2"><Link to="/talent/crippling_strike">⮞</Link> Crippling Strike (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-2" id="ability-advanced_rogue_talents-fake-fn-2" data-hash-target to="ability-advanced_rogue_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this ability can sneak attack opponents with such precision that her blows weaken and hamper them. An opponent damaged by one of her sneak attacks also takes 2 points of <Link to="/rule/strength_damage">Strength damage</Link>.</Pair>
 </Ability>
-<Ability id="talentdeadlysneak-deadly-sneak-ex-fn3" icon={["upgrade"]}>
+<Ability id="talentdeadlysneak-deadly-sneak-ex-fn3" icon={["boost"]}>
 <Pair single id="talentdeadlysneak-deadly-sneak-ex-fn3"><Link to="/talent/deadly_sneak">⮞</Link> Deadly Sneak (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-3" id="ability-advanced_rogue_talents-fake-fn-3" data-hash-target to="ability-advanced_rogue_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/powerful_sneak">Powerful sneak</Link></Pair>
 <Pair title="Passive Ability">Whenever a rogue with this talent uses the <em>powerful sneak</em> rogue talent, she treats all 1s and 2s on the sneak attack damage dice as 3s.</Pair>
 </Ability>
-<Ability id="talentdispellingattack-dispelling-attack-su-fn4" icon={["armor-downgrade"]}>
+<Ability id="talentdispellingattack-dispelling-attack-su-fn4" icon={["lower"]}>
 <Pair single id="talentdispellingattack-dispelling-attack-su-fn4"><Link to="/talent/dispelling_attack">⮞</Link> Dispelling Attack (Su) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-4" id="ability-advanced_rogue_talents-fake-fn-4" data-hash-target to="ability-advanced_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/major_magic">Major magic</Link></Pair>
 <Pair title="Ability">Opponents that are dealt sneak attack damage by a rogue with this ability are affected by a targeted <Link to="/spell/dispel_magic">dispel magic</Link>, targeting the lowest-level spell effect active on the target. The caster level for this ability is equal to the rogue's level.</Pair>
 </Ability>
-<Ability id="talententanglementofblades-entanglement-of-blades-ex-fn3-2" icon={["armor-downgrade"]}>
+<Ability id="talententanglementofblades-entanglement-of-blades-ex-fn3-2" icon={["lower"]}>
 <Pair single id="talententanglementofblades-entanglement-of-blades-ex-fn3-2"><Link to="/talent/entanglement_of_blades">⮞</Link> Entanglement of Blades (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-3.2" id="ability-advanced_rogue_talents-fake-fn-3.2" data-hash-target to="ability-advanced_rogue_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">When a rogue with this talent hits a creature with a melee attack that deals sneak attack damage, the target cannot take a 5-foot step until the beginning of the rogue's next turn.</Pair>
 </Ability>
-<Ability id="talenthamstringstrike-hamstring-strike-ex-fn5" icon={["armor-downgrade"]}>
+<Ability id="talenthamstringstrike-hamstring-strike-ex-fn5" icon={["lower"]}>
 <Pair single id="talenthamstringstrike-hamstring-strike-ex-fn5"><Link to="/talent/hamstring_strike">⮞</Link> Hamstring Strike (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-5" id="ability-advanced_rogue_talents-fake-fn-5" data-hash-target to="ability-advanced_rogue_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">Anytime a rogue with this talent successfully hits an opponent with a sneak attack, she may forgo her sneak attack damage to try to hamstring her opponent. If the attack succeeds, the rogue deals weapon damage as normal, but instead of the rogue dealing sneak attack damage, the target is knocked <Link to="/rule/prone">prone</Link> and is unable to take move actions during its next turn. A successful Fortitude save (DC = 10 + 1/2 the rogue's level + the rogue's Dexterity modifier) negates this effect.</Pair>
 </Ability>
-<Ability id="talentharrowstrike-harrow-strike-ex-fn6" icon={["armor-downgrade"]}>
+<Ability id="talentharrowstrike-harrow-strike-ex-fn6" icon={["lower"]}>
 <Pair single id="talentharrowstrike-harrow-strike-ex-fn6"><Link to="/talent/harrow_strike">⮞</Link> Harrow Strike (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-6" id="ability-advanced_rogue_talents-fake-fn-6" data-hash-target to="ability-advanced_rogue_talents-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day while making a sneak attack against a creature, you can draw a random card from a <Link to="/eq-misc/harrow_deck">harrow deck</Link> you own. If your attack hits, instead of dealing sneak attack damage as normal, you deal a number of points of ability damage equal to your number of sneak attack dice. The ability score damaged is the score affiliated with the suit of the harrow card drawn.</Pair>
 <Pair title="At 15th Level">You can use this 2 times/day.</Pair>
 <Pair title="At 20th Level">You can use this 3 times/day.</Pair>
 </Ability>
-<Ability id="talentimprovedshadowschill-improved-shadows-chill-su-fn7" icon={["upgrade"]}>
+<Ability id="talentimprovedshadowschill-improved-shadows-chill-su-fn7" icon={["boost"]}>
 <Pair single id="talentimprovedshadowschill-improved-shadows-chill-su-fn7"><Link to="/talent/improved_shadows_chill">⮞</Link> Improved Shadow's Chill (Su) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-7" id="ability-advanced_rogue_talents-fake-fn-7" data-hash-target to="ability-advanced_rogue_talents-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Has cold <Link to="/umr/resistance">resistance</Link> from a racial trait, <Link to="/talent/shadows_chill">shadow's chill</Link></Pair>
 <Pair title="Ability">When a rogue with this talent hits a creature with a melee weapon that deals sneak attack damage, the sneak attack damage is cold damage. Normal weapon damage is unaffected.</Pair>
 </Ability>
-<Ability id="talentpetrifyingstrike-petrifying-strike-su-fn8" icon={["armor-downgrade"]}>
+<Ability id="talentpetrifyingstrike-petrifying-strike-su-fn8" icon={["lower"]}>
 <Pair single id="talentpetrifyingstrike-petrifying-strike-su-fn8"><Link to="/talent/petrifying_strike">⮞</Link> Petrifying Strike (Su) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-8" id="ability-advanced_rogue_talents-fake-fn-8" data-hash-target to="ability-advanced_rogue_talents-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Ability">Whenever the rogue damages a creature with one of her sneak attacks, she also deals 2 points of <Link to="/rule/dexterity_damage">Dexterity damage</Link> to that creature as its body petrifies.</Pair>
 </Ability>
-<Ability id="talentresonatingrumbles-resonating-rumbles-su-fn8-2" icon={["armor-downgrade"]}>
+<Ability id="talentresonatingrumbles-resonating-rumbles-su-fn8-2" icon={["lower"]}>
 <Pair single id="talentresonatingrumbles-resonating-rumbles-su-fn8-2"><Link to="/talent/resonating_rumbles">⮞</Link> Resonating Rumbles (Su) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-8.2" id="ability-advanced_rogue_talents-fake-fn-8.2" data-hash-target to="ability-advanced_rogue_talents-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Ability">When a rogue with this talent makes a successful sneak attack against a creature with <Link to="/umr/tremorsense">tremorsense</Link>, the rogue can subtract 3 dice from her sneak attack damage to prevent the target from using tremorsense for a number of rounds equal to half her rogue level.</Pair>
 </Ability>
 <h3 id="ability-advanced_rogue_talents-magical-talents" data-hash-target>Magical Talents</h3>
-<Ability id="talentaligneddisguise-aligned-disguise-sp-fn9" icon={["armor-upgrade"]}>
+<Ability id="talentaligneddisguise-aligned-disguise-sp-fn9" icon={["def"]}>
 <Pair single id="talentaligneddisguise-aligned-disguise-sp-fn9"><Link to="/talent/aligned_disguise">⮞</Link> Aligned Disguise (Sp) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-9" id="ability-advanced_rogue_talents-fake-fn-9" data-hash-target to="ability-advanced_rogue_talents-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Has <em>disguise self</em> as a spell-like ability</Pair>
 <Pair title="Ability">When a rogue with this talent uses the <Link to="/spell/disguise_self">disguise self</Link> spell-like ability, she can also alter her alignment aura to deceive spells that discern alignment (such as <Link to="/spell/detect_evil">detect evil</Link>) for the duration of the disguise self effect. She can choose to detect as any specific alignment, or to detect as no alignment at all. This ability does not protect against spells or effects that cause harm based on alignment.</Pair>
 </Ability>
-<Ability id="talentfamiliar-familiar-ex-fn1-2" icon={["stairs-goal"]}>
+<Ability id="talentfamiliar-familiar-ex-fn1-2" icon={["power"]}>
 <Pair single id="talentfamiliar-familiar-ex-fn1-2"><Link to="/talent/familiar">⮞</Link> Familiar (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-1.2" id="ability-advanced_rogue_talents-fake-fn-1.2" data-hash-target to="ability-advanced_rogue_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/minor_magic">Minor magic</Link>, <Link to="/talent/major_magic">major magic</Link></Pair>
 <Pair title="Ability">A rogue with this talent gains a <Link to="/sidekick/familiar">familiar</Link> as the <Link to="/ability/familiar">familiar</Link> option of the wizard's <em>arcane bond</em> class feature. This ability functions exactly like that part of the class feature, but the rogue's effective wizard level is her rogue level -4.</Pair>
 </Ability>
-<Ability id="talentfoundersblessing-founders-blessing-fn10" icon={["upgrade"]}>
+<Ability id="talentfoundersblessing-founders-blessing-fn10" icon={["boost"]}>
 <Pair single id="talentfoundersblessing-founders-blessing-fn10" flavor="The rogue can call upon the mystical legacies of the Council."><Link to="/talent/founders_blessing">⮞</Link> Founders' Blessing <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-10" id="ability-advanced_rogue_talents-fake-fn-10" data-hash-target to="ability-advanced_rogue_talents-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day, she can choose a skill in which she has no ranks. After she spends 10 minutes communing with these mystical spirits, they grant her a luck bonus equal to her rogue level with that skill, and she can attempt checks with that skill as if she were trained in its use. The effects of <em>founder's blessing</em> last for 8 hours.</Pair>
 </Ability>
-<Ability id="talentglibfacade-glib-facade-sp-fn11" icon={["magic-swirl"]}>
+<Ability id="talentglibfacade-glib-facade-sp-fn11" icon={["magic"]}>
 <Pair single id="talentglibfacade-glib-facade-sp-fn11"><Link to="/talent/glib_facade">⮞</Link> Glib Facade (Sp) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-11" id="ability-advanced_rogue_talents-fake-fn-11" data-hash-target to="ability-advanced_rogue_talents-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/innocent_facade">Innocent facade</Link></Pair>
 <Pair title="Ability">Once per day, a rogue with this advanced talent can use <Link to="/spell/glibness">glibness</Link> as a spell-like ability, using her rogue level as the spell's caster level.</Pair>
 </Ability>
-<Ability id="talenthiddenmind-hidden-mind-ex-fn12" icon={["armor-upgrade"]}>
+<Ability id="talenthiddenmind-hidden-mind-ex-fn12" icon={["def"]}>
 <Pair single id="talenthiddenmind-hidden-mind-ex-fn12"><Link to="/talent/hidden_mind">⮞</Link> Hidden Mind (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-12" id="ability-advanced_rogue_talents-fake-fn-12" data-hash-target to="ability-advanced_rogue_talents-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent uses various devious techniques, including mental exercises and dusting her clothing with a small amount of lead, to protect herself from divinations, with the same benefits as if she cast <Link to="/spell/nondetection">nondetection</Link> on herself with a caster level equal to her rogue level.</Pair>
 </Ability>
-<Ability id="talentslipperymind-slippery-mind-ex-fn4-2" icon={["armor-upgrade"]}>
+<Ability id="talentslipperymind-slippery-mind-ex-fn4-2" icon={["def"]}>
 <Pair single id="talentslipperymind-slippery-mind-ex-fn4-2" flavor="This ability represents the rogue's ability to wriggle free from magical effects that would otherwise control or compel her."><Link to="/talent/slippery_mind">⮞</Link> Slippery Mind (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-4.2" id="ability-advanced_rogue_talents-fake-fn-4.2" data-hash-target to="ability-advanced_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Passive Ability">If a rogue with <em>slippery mind</em> is affected by an enchantment spell or effect and fails her saving throw, she can attempt it again 1 round later at the same DC. She gets only this one extra chance to succeed on her saving throw.</Pair>
 </Ability>
 <h3 id="ability-advanced_rogue_talents-combat-talents" data-hash-target>Combat Talents</h3>
-<Ability id="talentagainstthewall-against-the-wall-ex-fn8-3" icon={["upgrade"]}>
+<Ability id="talentagainstthewall-against-the-wall-ex-fn8-3" icon={["boost"]}>
 <Pair single id="talentagainstthewall-against-the-wall-ex-fn8-3"><Link to="/talent/against_the_wall">⮞</Link> Against the Wall (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-8.3" id="ability-advanced_rogue_talents-fake-fn-8.3" data-hash-target to="ability-advanced_rogue_talents-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent is considered to be <Link to="/rule/flanking">flanking</Link> any opponent adjacent to a stone wall (whether the stone is worked or unworked).</Pair>
 </Ability>
-<Ability id="talentanotherday-another-day-ex-fn3-3" icon={["armor-upgrade","broken-shield"]}>
+<Ability id="talentanotherday-another-day-ex-fn3-3" icon={["def","down"]}>
 <Pair single id="talentanotherday-another-day-ex-fn3-3"><Link to="/talent/another_day">⮞</Link> Another Day (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-3.3" id="ability-advanced_rogue_talents-fake-fn-3.3" data-hash-target to="ability-advanced_rogue_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Immediate Action">Once per day, when the rogue would be reduced to 0 or fewer hit points by a melee attack, she can take a 5-foot step. If the movement takes her out of the reach of the attack, she takes no damage from the attack. The rogue is <Link to="/misc/staggered">staggered</Link> for 1 round on her next turn.</Pair>
 </Ability>
-<Ability id="talentblindingstrike-blinding-strike-fn7-2" icon={["stairs-goal"]}>
+<Ability id="talentblindingstrike-blinding-strike-fn7-2" icon={["power"]}>
 <Pair single id="talentblindingstrike-blinding-strike-fn7-2"><Link to="/talent/blinding_strike">⮞</Link> Blinding Strike <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-7.2" id="ability-advanced_rogue_talents-fake-fn-7.2" data-hash-target to="ability-advanced_rogue_talents-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">15th-level rogue, <Link to="/talent/obscuring_blow">obscuring blow</Link></Pair>
 <Pair title="Ability">A rogue who selects this talent gains <Link to="/feat/blinding_critical">Blinding Critical</Link> as a bonus feat, even if she doesn't meet the prerequisites.</Pair>
 </Ability>
-<Ability id="talentdanceofdisorientingshadows-dance-of-disorienting-shadows-ex-fn7-3" icon={["mailed-fist"]}>
+<Ability id="talentdanceofdisorientingshadows-dance-of-disorienting-shadows-ex-fn7-3" icon={["melee"]}>
 <Pair single id="talentdanceofdisorientingshadows-dance-of-disorienting-shadows-ex-fn7-3"><Link to="/talent/dance_of_disorienting_shadows">⮞</Link> Dance of Disorienting Shadows (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-7.3" id="ability-advanced_rogue_talents-fake-fn-7.3" data-hash-target to="ability-advanced_rogue_talents-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent can attempt a <Link to="/skill/perform">Perform</Link> (dance) check in place of a combat maneuver check when attempting a <Link to="/rule/reposition">reposition</Link> combat maneuver.</Pair>
 </Ability>
-<Ability id="talentdeadlycocktail-deadly-cocktail-ex-fn3-4" icon={["stairs-goal"]}>
+<Ability id="talentdeadlycocktail-deadly-cocktail-ex-fn3-4" icon={["power"]}>
 <Pair single id="talentdeadlycocktail-deadly-cocktail-ex-fn3-4"><Link to="/talent/deadly_cocktail">⮞</Link> Deadly Cocktail (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-3.4" id="ability-advanced_rogue_talents-fake-fn-3.4" data-hash-target to="ability-advanced_rogue_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent can apply two doses of poison to a weapon at once. These can be separate poisons, in which case they both affect the target individually, or two doses of the same toxin, in which case the poisons' frequency is extended by 50% and the save DC increases by +2.</Pair>
 <Pair title="Special">This talent is an exception to the rule that injury poisons can only be delivered one dose at a time.</Pair>
 </Ability>
-<Ability id="talentdefensiveroll-defensive-roll-ex-fn2-2" icon={["armor-upgrade"]}>
+<Ability id="talentdefensiveroll-defensive-roll-ex-fn2-2" icon={["def"]}>
 <Pair single id="talentdefensiveroll-defensive-roll-ex-fn2-2" flavor="With this advanced talent, the rogue can roll with a potentially lethal blow to take less damage from it than she otherwise would."><Link to="/talent/defensive_roll">⮞</Link> Defensive Roll (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-2.2" id="ability-advanced_rogue_talents-fake-fn-2.2" data-hash-target to="ability-advanced_rogue_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day, when she would be reduced to 0 or fewer hit points by damage in combat (from a weapon or other blow, not a spell or special ability), the rogue can attempt to roll with the damage. To use this ability, the rogue must attempt a Reflex saving throw (DC = damage dealt). If the save succeeds, she takes only half damage from the blow; if it fails, she takes full damage. She must be aware of the attack and able to react to it in order to execute her defensive roll&mdash;if she is denied her Dexterity bonus to AC, she can't use this ability.</Pair>
 <Pair title="Special">Since this effect would not normally allow a character to make a Reflex save for half damage, the rogue's <Link to="/ability/evasion">evasion</Link> ability does not apply to the defensive roll.</Pair>
 </Ability>
-<Ability id="talentfasttumble-fast-tumble-ex-fn3-5" icon={["upgrade"]}>
+<Ability id="talentfasttumble-fast-tumble-ex-fn3-5" icon={["boost"]}>
 <Pair single id="talentfasttumble-fast-tumble-ex-fn3-5"><Link to="/talent/fast_tumble">⮞</Link> Fast Tumble (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-3.5" id="ability-advanced_rogue_talents-fake-fn-3.5" data-hash-target to="ability-advanced_rogue_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">When a rogue with this talent uses <Link to="/skill/acrobatics">Acrobatics</Link> to move at full speed through a threatened square without provoking an attack of opportunity, the DC of the Acrobatics check does not increase by 10.</Pair>
 </Ability>
-<Ability id="talentgrazingshot-grazing-shot-ex-fn13" icon={["bowman"]}>
+<Ability id="talentgrazingshot-grazing-shot-ex-fn13" icon={["ranged"]}>
 <Pair single id="talentgrazingshot-grazing-shot-ex-fn13" flavor="Particularly deft rogues can strike two foes with one well-placed shot."><Link to="/talent/grazing_shot">⮞</Link> Grazing Shot (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-13" id="ability-advanced_rogue_talents-fake-fn-13" data-hash-target to="ability-advanced_rogue_talents-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/drow">Drow</Link></Pair>
 <Pair title="Standard Action">A rogue with this talent can fire a <Link to="/eq-weapon/hand_crossbow">hand crossbow</Link> at an enemy who is granted <Link to="/rule/cover">cover</Link> by another opponent. Make one ranged attack roll and compare the result to each opponent's AC. Each hit deals 1 point of damage. Any special weapon properties or <Link to="/misc/precision_damage">precision damage</Link> apply to only a single target, but any poison applied to the bolt affects all targets struck.</Pair>
 </Ability>
-<Ability id="talenthardminded-hard-minded-ex-fn1-3" icon={["armor-upgrade"]}>
+<Ability id="talenthardminded-hard-minded-ex-fn1-3" icon={["def"]}>
 <Pair single id="talenthardminded-hard-minded-ex-fn1-3" flavor="A rogue with this talent is hard to fool with illusions."><Link to="/talent/hard_minded">⮞</Link> Hard Minded (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-1.3" id="ability-advanced_rogue_talents-fake-fn-1.3" data-hash-target to="ability-advanced_rogue_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Passive Ability">She automatically receives a save to disbelieve any illusion she can see each round at the start of her turn, even if she hasn't interacted with it. If she fails a saving throw against an illusion that is not to disbelieve, she can attempt to save again again 1 round later at the same DC. She gets only one extra chance to succeed at her saving throw.</Pair>
 </Ability>
-<Ability id="talenthunterssurprise-hunters-surprise-ex-fn14" icon={["upgrade"]}>
+<Ability id="talenthunterssurprise-hunters-surprise-ex-fn14" icon={["boost"]}>
 <Pair single id="talenthunterssurprise-hunters-surprise-ex-fn14"><Link to="/talent/hunters_surprise">⮞</Link> Hunter's Surprise (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-14" id="ability-advanced_rogue_talents-fake-fn-14" data-hash-target to="ability-advanced_rogue_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day, a rogue with this talent can designate a single enemy she is adjacent to as her prey. Until the end of her next turn, she can add her sneak attack damage to all attacks made against her prey, even if she is not flanking it or it is not flat-footed.</Pair>
 </Ability>
-<Ability id="talentimprovedevasion-improved-evasion-ex-fn4-3" icon={["armor-upgrade"]}>
+<Ability id="talentimprovedevasion-improved-evasion-ex-fn4-3" icon={["def"]}>
 <Pair single id="talentimprovedevasion-improved-evasion-ex-fn4-3"><Link to="/talent/improved_evasion">⮞</Link> Improved Evasion (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-4.3" id="ability-advanced_rogue_talents-fake-fn-4.3" data-hash-target to="ability-advanced_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">This works like <Link to="/ability/evasion">evasion</Link>, except that while the rogue still takes no damage on a successful Reflex saving throw against attacks, she henceforth takes only half damage on a failed save. A <Link to="/misc/helpless">helpless</Link> rogue does not gain the benefit of <em>improved evasion.</em></Pair>
 </Ability>
-<Ability id="talentknockoutblow-knock-out-blow-ex-fn14-2" icon={["armor-downgrade"]}>
+<Ability id="talentknockoutblow-knock-out-blow-ex-fn14-2" icon={["lower"]}>
 <Pair single id="talentknockoutblow-knock-out-blow-ex-fn14-2"><Link to="/talent/knock_out_blow">⮞</Link> Knock-Out Blow (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-14.2" id="ability-advanced_rogue_talents-fake-fn-14.2" data-hash-target to="ability-advanced_rogue_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day, the rogue can forgo her sneak attack damage to attempt to knock out an opponent. She must declare the use of <em>knock-out blow</em> before she makes the attack. If the attack hits, it does normal damage, but instead of dealing sneak attack damage (and instead of any effect that triggers when the rogue deals sneak attack damage), the target falls <Link to="/misc/unconscious">unconscious</Link> for 1d4 rounds. A successful Fortitude save reduces this effect to <Link to="/misc/staggered">staggered</Link> for 1 round. The DC of this save is equal to 10 + 1/2 the rogue's level + the rogue's Intelligence modifier.</Pair>
 </Ability>
-<Ability id="talentopportunist-opportunist-ex-fn4-4" icon={["stairs-goal"]}>
+<Ability id="talentopportunist-opportunist-ex-fn4-4" icon={["power"]}>
 <Pair single id="talentopportunist-opportunist-ex-fn4-4"><Link to="/talent/opportunist">⮞</Link> Opportunist (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-4.4" id="ability-advanced_rogue_talents-fake-fn-4.4" data-hash-target to="ability-advanced_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">Once per round, the rogue can make an attack of opportunity against an opponent who has just been struck for damage in melee by another character. This attack counts as an attack of opportunity for that round.</Pair>
 <Pair title="Special">Even a rogue with the <Link to="/feat/combat_reflexes">Combat Reflexes</Link> feat can't use the <em>opportunist</em> ability more than once per round.</Pair>
 </Ability>
-<Ability id="talentredirectattack-redirect-attack-ex-fn14-3" icon={["armor-upgrade"]}>
+<Ability id="talentredirectattack-redirect-attack-ex-fn14-3" icon={["def"]}>
 <Pair single id="talentredirectattack-redirect-attack-ex-fn14-3"><Link to="/talent/redirect_attack">⮞</Link> Redirect Attack (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-14.3" id="ability-advanced_rogue_talents-fake-fn-14.3" data-hash-target to="ability-advanced_rogue_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day, when a rogue with this talent is hit with a melee attack, she can redirect the attack to strike at an adjacent creature with a <strong className="hl">free action</strong>. The creature targeted must be within melee reach of the attack that hit the rogue, and the creature that made the attack against the rogue must make a new attack roll against the new target.</Pair>
 </Ability>
-<Ability id="talentreflexiveshadowshield-reflexive-shadow-shield-su-fn7-4" icon={["armor-upgrade"]}>
+<Ability id="talentreflexiveshadowshield-reflexive-shadow-shield-su-fn7-4" icon={["def"]}>
 <Pair single id="talentreflexiveshadowshield-reflexive-shadow-shield-su-fn7-4"><Link to="/talent/reflexive_shadow_shield">⮞</Link> Reflexive Shadow Shield (Su) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-7.4" id="ability-advanced_rogue_talents-fake-fn-7.4" data-hash-target to="ability-advanced_rogue_talents-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/resiliency">Resiliency</Link></Pair>
 <Pair title="Immediate Action">Once per day, the rogue can gain an amount of cold <Link to="/umr/resistance">resistance</Link> or electricity resistance equal to half the rogue's level. This resistance lasts for 1 round.</Pair>
 <Pair title="Special">If the rogue has the <em>shadowy resistance</em> racial trait, the cold or electricity resistance stacks with the resistance that trait grants; otherwise, the energy resistance does not stack with any cold or electricity resistance the rogue has.</Pair>
 </Ability>
-<Ability id="talentshrinewalk-shrinewalk-sp-fn10-2" icon={["stairs-goal","magic-swirl"]}>
+<Ability id="talentshrinewalk-shrinewalk-sp-fn10-2" icon={["power","magic"]}>
 <Pair single id="talentshrinewalk-shrinewalk-sp-fn10-2"><Link to="/talent/shrinewalk">⮞</Link> Shrinewalk (Sp) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-10.2" id="ability-advanced_rogue_talents-fake-fn-10.2" data-hash-target to="ability-advanced_rogue_talents-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Ability">Council agents can walk the mystic paths between Westcrown's shrines. A rogue with <em>shrinewalk</em> can create her own shrine simply by designating an area in any urban region by placing a unique marking or rune on a wall or the ground. This marking is not magical, and if it is defaced or erased, it can no longer be used by the rogue (the marking can be hidden from view without removing its usability, including painting over the marking in question).</Pair>
 <Pair title="Ability">Once placed, the rogue can use <Link to="/spell/word_of_recall">word of recall</Link> once per day to return to the shrine.</Pair>
 <Pair title="Special">A rogue can maintain one shrine at a time; if a new marking is created in a new location, the previous shrine becomes inactive.</Pair>
 </Ability>
-<Ability id="talentstealthysniper-stealthy-sniper-ex-fn14-4" icon={["upgrade"]}>
+<Ability id="talentstealthysniper-stealthy-sniper-ex-fn14-4" icon={["boost"]}>
 <Pair single id="talentstealthysniper-stealthy-sniper-ex-fn14-4"><Link to="/talent/stealthy_sniper">⮞</Link> Stealthy Sniper (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-14.4" id="ability-advanced_rogue_talents-fake-fn-14.4" data-hash-target to="ability-advanced_rogue_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">When a rogue with this talent uses the <Link to="/skill/stealth">Stealth</Link> skill to snipe, she only suffers a -10 penalty on the Stealth check, instead of -20.</Pair>
 </Ability>
-<Ability id="talentunwittingally-unwitting-ally-ex-fn15" icon={["stairs-goal"]}>
+<Ability id="talentunwittingally-unwitting-ally-ex-fn15" icon={["power"]}>
 <Pair single id="talentunwittingally-unwitting-ally-ex-fn15"><Link to="/talent/unwitting_ally">⮞</Link> Unwitting Ally (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-15" id="ability-advanced_rogue_talents-fake-fn-15" data-hash-target to="ability-advanced_rogue_talents-fake-fn-15-target">15</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent can spend a <strong className="hl">swift action</strong> to attempt to make an opponent act like an ally for purposes of providing a <Link to="/rule/flank">flank</Link> until the beginning of the rogue's next turn. The opponent must be able to hear and see the rogue, and the rogue must succeed at a Bluff check opposed by the opponent's Sense Motive. If the check succeeds, the opponent acts as an ally for the purpose of providing a flank.</Pair>
 <Pair title="Special">Whether or not the check succeeds, the rogue cannot use this trick again on the same opponent for the next 24 hours. If the rogue fails the check by 5 or more, she cannot use the <em>unwitting ally</em> ability on any opponent within line of sight of the failed attempt for 24 hours.</Pair>
 </Ability>
-<Ability id="talentweaponsnatcher-weapon-snatcher-ex-fn15-2" icon={["mailed-fist"]}>
+<Ability id="talentweaponsnatcher-weapon-snatcher-ex-fn15-2" icon={["melee"]}>
 <Pair single id="talentweaponsnatcher-weapon-snatcher-ex-fn15-2"><Link to="/talent/weapon_snatcher">⮞</Link> Weapon Snatcher (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-15.2" id="ability-advanced_rogue_talents-fake-fn-15.2" data-hash-target to="ability-advanced_rogue_talents-fake-fn-15-target">15</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent can make a <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check in place of a combat maneuver check when attempting to <Link to="/rule/disarm">disarm</Link> an opponent.</Pair>
 </Ability>
 <h3 id="ability-advanced_rogue_talents-other-talents" data-hash-target>Other Talents</h3>
-<Ability id="talentfeat-feat-fn4-5" icon={["stairs-goal"]}>
+<Ability id="talentfeat-feat-fn4-5" icon={["power"]}>
 <Pair single id="talentfeat-feat-fn4-5"><Link to="/talent/feat">⮞</Link> Feat <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-4.5" id="ability-advanced_rogue_talents-fake-fn-4.5" data-hash-target to="ability-advanced_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue may gain any feat that she qualifies for in place of a rogue talent.</Pair>
 </Ability>
-<Ability id="talentfrugaltrapsmith-frugal-trapsmith-ex-fn14-5" icon={["upgrade"]}>
+<Ability id="talentfrugaltrapsmith-frugal-trapsmith-ex-fn14-5" icon={["boost"]}>
 <Pair single id="talentfrugaltrapsmith-frugal-trapsmith-ex-fn14-5"><Link to="/talent/frugal_trapsmith">⮞</Link> Frugal Trapsmith (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-14.5" id="ability-advanced_rogue_talents-fake-fn-14.5" data-hash-target to="ability-advanced_rogue_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">When a rogue with this talent constructs a mechanical trap, she only pays 75% of the normal cost.</Pair>
 </Ability>
@@ -298,24 +298,24 @@ const _advanced_rogue_talents = {hasJL:true,title: "Advanced Rogue Talents", top
 <Pair title="Prerequisites"><Link to="/talent/getaway_artist">Getaway artist</Link></Pair>
 <Pair title="Ability">A rogue with this talent gains a +10 bonus on all <Link to="/rule/driving_check">drive checks</Link>.</Pair>
 </Ability>
-<Ability id="talenthideinplainsight-hide-in-plain-sight-ex-fn15-3" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="talenthideinplainsight-hide-in-plain-sight-ex-fn15-3" icon={["power","def"]}>
 <Pair single id="talenthideinplainsight-hide-in-plain-sight-ex-fn15-3"><Link to="/talent/hide_in_plain_sight">⮞</Link> Hide in Plain Sight (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-15.3" id="ability-advanced_rogue_talents-fake-fn-15.3" data-hash-target to="ability-advanced_rogue_talents-fake-fn-15-target">15</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent can select a single terrain from the ranger's <Link to="/ability/favored_terrain">favored terrain</Link> list. She is a master at hiding in that terrain, and while within that terrain, she can use the <Link to="/skill/stealth">Stealth</Link> skill to hide, even while being observed.</Pair>
 <Pair title="Special">A rogue may take this advanced talent more than once, each time selecting a different terrain from the favored terrain list.</Pair>
 </Ability>
-<Ability id="talentmasterofdisguise-master-of-disguise-ex-fn14-6" icon={["upgrade"]}>
+<Ability id="talentmasterofdisguise-master-of-disguise-ex-fn14-6" icon={["boost"]}>
 <Pair single id="talentmasterofdisguise-master-of-disguise-ex-fn14-6"><Link to="/talent/master_of_disguise">⮞</Link> Master of Disguise (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-14.6" id="ability-advanced_rogue_talents-fake-fn-14.6" data-hash-target to="ability-advanced_rogue_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day, a rogue with this talent gains a +10 bonus on a single <Link to="/skill/disguise">Disguise</Link> check.</Pair>
 </Ability>
-<Ability id="talentmastertricks-master-tricks-fn15-4" icon={["stairs-goal"]}>
+<Ability id="talentmastertricks-master-tricks-fn15-4" icon={["power"]}>
 <Pair single id="talentmastertricks-master-tricks-fn15-4"><Link to="/talent/master_tricks">⮞</Link> Master Tricks <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-15.4" id="ability-advanced_rogue_talents-fake-fn-15.4" data-hash-target to="ability-advanced_rogue_talents-fake-fn-15-target">15</InnerLink></sup></Pair>
 <Pair title="Ability">The rogue can select a ninja trick from the list of <Link to="/ability/master_tricks">master tricks</Link> in place of a rogue talent. The rogue cannot select a ninja trick that has the same name as a rogue talent. The rogue can choose but cannot use tricks that require ki points, unless she has a ki pool.</Pair>
 </Ability>
-<Ability id="talentpiercethedarkness-pierce-the-darkness-ex-fn16" icon={["stairs-goal"]}>
+<Ability id="talentpiercethedarkness-pierce-the-darkness-ex-fn16" icon={["power"]}>
 <Pair single id="talentpiercethedarkness-pierce-the-darkness-ex-fn16" flavor="The rogue can extend her senses of hearing and smell in darkness or when blinded."><Link to="/talent/pierce_the_darkness">⮞</Link> Pierce the Darkness (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-16" id="ability-advanced_rogue_talents-fake-fn-16" data-hash-target to="ability-advanced_rogue_talents-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Ability">She gains <Link to="/umr/blindsense">blindsense</Link> out to a range of 5 feet, but only against creatures concealed by darkness or her own blindness. She still suffers the normal miss chance for attacking creatures with <Link to="/rule/concealment">concealment</Link>.</Pair>
 </Ability>
-<Ability id="talentrumormonger-rumormonger-ex-fn15-5" icon={["stairs-goal"]}>
+<Ability id="talentrumormonger-rumormonger-ex-fn15-5" icon={["power"]}>
 <Pair single id="talentrumormonger-rumormonger-ex-fn15-5"><Link to="/talent/rumormonger">⮞</Link> Rumormonger (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-15.5" id="ability-advanced_rogue_talents-fake-fn-15.5" data-hash-target to="ability-advanced_rogue_talents-fake-fn-15-target">15</InnerLink></sup></Pair>
 <Pair title="Ability"><p>A rogue with this talent can attempt to spread a rumor though a small town or larger settlement by making a <Link to="/skill/bluff">Bluff</Link> check. She can do so a number of times per week equal to her Charisma modifier (minimum 0). The DC is based on the size of the settlement, and it takes a week for the rumor to propagate through the settlement. If the check succeeds, the rumor is practically accepted as fact within the community; succeeding by 5 or more over the DC decreases the time it takes the rumor to propagate by 1d4 days. A failed check means the rumor failed to gain traction, while failing by 5 or more causes the opposite of the rumor or some other competing theory involving the rumor's subject to take hold.</p>
 <ScrollContainer id="ability-advanced_rogue_talents--table-0"><table>
@@ -348,31 +348,31 @@ const _advanced_rogue_talents = {hasJL:true,title: "Advanced Rogue Talents", top
 </tbody></table></ScrollContainer>
 </Pair>
 </Ability>
-<Ability id="talentseeindarkness-see-in-darkness-su-fn7-5" icon={["stairs-goal"]}>
+<Ability id="talentseeindarkness-see-in-darkness-su-fn7-5" icon={["power"]}>
 <Pair single id="talentseeindarkness-see-in-darkness-su-fn7-5"><Link to="/talent/see_in_darkness">⮞</Link> See in Darkness (Su) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-7.5" id="ability-advanced_rogue_talents-fake-fn-7.5" data-hash-target to="ability-advanced_rogue_talents-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Darkvision</Pair>
 <Pair title="Ability">The rogue gains the <Link to="/umr/see_in_darkness">see in darkness</Link> ability.</Pair>
 </Ability>
-<Ability id="talentskillmastery-skill-mastery-fn4-6" icon={["upgrade"]}>
+<Ability id="talentskillmastery-skill-mastery-fn4-6" icon={["boost"]}>
 <Pair single id="talentskillmastery-skill-mastery-fn4-6" flavor="The rogue becomes so confident in the use of certain skills that she can use them reliably even under adverse conditions."><Link to="/talent/skill_mastery">⮞</Link> Skill Mastery <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-4.6" id="ability-advanced_rogue_talents-fake-fn-4.6" data-hash-target to="ability-advanced_rogue_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Choice">Upon gaining this ability, the rogue selects a number of skills equal to 3 + her Intelligence modifier.</Pair>
 <Pair title="Ability">When making a skill check with one of these skills, she may take 10 even if stress and distractions would normally prevent her from doing so.</Pair>
 <Pair title="Special">A rogue may gain this special ability multiple times, selecting additional skills for <em>skill mastery</em> to apply to each time.</Pair>
 </Ability>
-<Ability id="talentstalkertalent-stalker-talent-fn12-2" icon={["stairs-goal"]}>
+<Ability id="talentstalkertalent-stalker-talent-fn12-2" icon={["power"]}>
 <Pair single id="talentstalkertalent-stalker-talent-fn12-2"><Link to="/talent/stalker_talent">⮞</Link> Stalker Talent <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-12.2" id="ability-advanced_rogue_talents-fake-fn-12.2" data-hash-target to="ability-advanced_rogue_talents-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Ability">The rogue can select a <Link to="/ability/vigilante_talents">vigilante talent</Link>. For the purposes of selecting and using this talent, she counts as a 10th-level <Link to="/class/vigilante">vigilante</Link> with the <em>stalker</em> specialization, regardless of her actual rogue level. Her sneak attack counts as a <em>hidden strike</em> with reduced damage for the purpose of determining the effects of her vigilante talent, which means, among other things, that she can't apply any of the <em>hidden strike talents</em> to her sneak attacks.</Pair>
 </Ability>
-<Ability id="talentstonyskin-stony-skin-ex-fn8-4" icon={["armor-upgrade"]}>
+<Ability id="talentstonyskin-stony-skin-ex-fn8-4" icon={["def"]}>
 <Pair single id="talentstonyskin-stony-skin-ex-fn8-4"><Link to="/talent/stony_skin">⮞</Link> Stony Skin (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-8.4" id="ability-advanced_rogue_talents-fake-fn-8.4" data-hash-target to="ability-advanced_rogue_talents-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Ability">A rogue with this talent gains DR 2/adamantine.</Pair>
 <Pair title="Special">A rogue can select this talent up to three times; each additional time the rogue selects this talent, the DR granted by this talent increases by 1.</Pair>
 </Ability>
-<Ability id="talentthoughtfulreexamining-thoughtful-reexamining-ex-fn14-7" icon={["rolling-dices"]}>
+<Ability id="talentthoughtfulreexamining-thoughtful-reexamining-ex-fn14-7" icon={["roll"]}>
 <Pair single id="talentthoughtfulreexamining-thoughtful-reexamining-ex-fn14-7"><Link to="/talent/thoughtful_reexamining">⮞</Link> Thoughtful Reexamining (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-14.7" id="ability-advanced_rogue_talents-fake-fn-14.7" data-hash-target to="ability-advanced_rogue_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Ability">Once per day, a rogue with this talent can reroll a <Link to="/skill/knowledge">Knowledge</Link>, <Link to="/skill/sense_motive">Sense Motive</Link>, or <Link to="/skill/perception">Perception</Link> skill check to try to gain new or better information from the roll. This reroll can be made any time during the same day as the original check.</Pair>
 </Ability>
-<Ability id="talentunlockki-unlock-ki-su-fn11-2" icon={["upgrade"]}>
+<Ability id="talentunlockki-unlock-ki-su-fn11-2" icon={["boost"]}>
 <Pair single id="talentunlockki-unlock-ki-su-fn11-2"><Link to="/talent/unlock_ki">⮞</Link> Unlock Ki (Su) <sup><InnerLink showBacklink="backlink-ability-advanced_rogue_talents-fake-fn-11.2" id="ability-advanced_rogue_talents-fake-fn-11.2" data-hash-target to="ability-advanced_rogue_talents-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Has a ki pool</Pair>
 <Pair title="Ability">A rogue with this advanced talent increases the number of points in the ki pool that she gains from the <Link to="/talent/ki_pool">ki pool</Link> rogue talent to be equal to 1/2 her rogue level + her highest mental ability score modifier (Intelligence, Wisdom, or Charisma).</Pair>
@@ -399,30 +399,30 @@ const _advanced_rogue_talents = {hasJL:true,title: "Advanced Rogue Talents", top
 const _advanced_slayer_talents = {title: "Advanced Slayer Talents", topLink: ["Slayer","class/slayer"], jsx: <div className="compilation"><h2 id="ability-advanced_slayer_talents-advanced-slayer-talents">Advanced Slayer Talents</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link><br/>At 10th level and every 2 levels thereafter, a slayer can select one of the following advanced talents in place of a slayer talent.</p>
 <hr/>
-<Ability id="slayertalentarmoredmarauder-armored-marauder-ex-fn1" icon={["stairs-goal","upgrade"]}>
+<Ability id="slayertalentarmoredmarauder-armored-marauder-ex-fn1" icon={["power","boost"]}>
 <Pair single id="slayertalentarmoredmarauder-armored-marauder-ex-fn1" flavor="Some elite slayers exchange leather and chain for plate when stalking prey."><Link to="/slayertalent/armored_marauder">⮞</Link> Armored Marauder (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_slayer_talents-fake-fn-1" id="ability-advanced_slayer_talents-fake-fn-1" data-hash-target to="ability-advanced_slayer_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">A slayer with this talent gains proficiency with heavy armor. In addition, the armor check penalty of any heavy armor the slayer wears is reduced by 1 for every 6 class levels he has.</Pair>
 </Ability>
-<Ability id="slayertalentarmoredswiftness-armored-swiftness-ex-fn1-2" icon={["upgrade"]}>
+<Ability id="slayertalentarmoredswiftness-armored-swiftness-ex-fn1-2" icon={["boost"]}>
 <Pair single id="slayertalentarmoredswiftness-armored-swiftness-ex-fn1-2" flavor="In time, the heaviest armor can become like a second skin."><Link to="/slayertalent/armored_swiftness">⮞</Link> Armored Swiftness (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_slayer_talents-fake-fn-1.2" id="ability-advanced_slayer_talents-fake-fn-1.2" data-hash-target to="ability-advanced_slayer_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/slayertalent/armored_marauder">Armored marauder</Link></Pair>
 <Pair title="Ability">A slayer with this talent can move at full speed in heavy armor. In addition, the maximum Dexterity bonus of heavy armor the slayer wears increases by 1 for every 6 class levels he has.</Pair>
 </Ability>
-<Ability id="slayertalentassassinate-assassinate-ex-fn2" icon={["stairs-goal"]}>
+<Ability id="slayertalentassassinate-assassinate-ex-fn2" icon={["power"]}>
 <Pair single id="slayertalentassassinate-assassinate-ex-fn2" flavor="A slayer with this advanced talent can kill foes that are unable to defend themselves."><Link to="/slayertalent/assassinate">⮞</Link> Assassinate (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_slayer_talents-fake-fn-2" id="ability-advanced_slayer_talents-fake-fn-2" data-hash-target to="ability-advanced_slayer_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability"><p>To attempt to assassinate a target, the slayer must first study his target for 1 round as a <strong className="hl">standard action</strong>. On the following round, if the slayer makes a sneak attack against the target and that target is denied its Dexterity bonus to AC, the sneak attack has the additional effect of possibly killing the target. This attempt automatically fails if the target recognizes the slayer as an enemy.</p>
 <p>If the sneak attack is successful, the target must attempt a Fortitude saving throw with a DC equal to 10 + 1/2 the slayer's level + the slayer's Intelligence modifier. If the target fails this save, it dies; otherwise, the target takes the sneak attack damage as normal and is then immune to that slayer's <em>assassinate</em> ability for 24 hours.</p>
 </Pair>
 </Ability>
-<Ability id="slayertalentmarksmansshot-marksmans-shot-ex-fn1-3" icon={["upgrade"]}>
+<Ability id="slayertalentmarksmansshot-marksmans-shot-ex-fn1-3" icon={["boost"]}>
 <Pair single id="slayertalentmarksmansshot-marksmans-shot-ex-fn1-3" flavor="Those who seek to slay with a single shot must have keen eyes and perfect poise."><Link to="/slayertalent/marksmans_shot">⮞</Link> Marksman's Shot (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_slayer_talents-fake-fn-1.3" id="ability-advanced_slayer_talents-fake-fn-1.3" data-hash-target to="ability-advanced_slayer_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">As an attack action, the slayer makes a single ranged attack at his highest attack bonus with a ranged weapon he wields. The target of the attack must be the slayer's <em>studied target.</em> On a successful hit, the slayer doubles the number of sneak attack dice applied to the attack; if the attack was not a sneak attack, this benefit does not apply.</Pair>
 </Ability>
-<Ability id="slayertalentreapingstalker-reaping-stalker-ex-fn3" icon={["upgrade"]}>
+<Ability id="slayertalentreapingstalker-reaping-stalker-ex-fn3" icon={["boost"]}>
 <Pair single id="slayertalentreapingstalker-reaping-stalker-ex-fn3" flavor="Some slayers prefer weapons with grim symbolism of lives cut short and can wield such weapons with unparalleled lethality."><Link to="/slayertalent/reaping_stalker">⮞</Link> Reaping Stalker (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_slayer_talents-fake-fn-3" id="ability-advanced_slayer_talents-fake-fn-3" data-hash-target to="ability-advanced_slayer_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Passive Ability">A slayer with this talent treats any <Link to="/eq-weapon/sickle">sickle</Link> or <Link to="/eq-weapon/scythe">scythe</Link> he wields as though it were <Link to="/misc/one_size_category_larger">one size category larger</Link> for the purpose of determining its damage dice. In addition, the slayer increases the critical threat range of any sickle or scythe he wields by 1; this does not stack with other effects that alter a weapon's threat range.</Pair>
 </Ability>
-<Ability id="slayertalentrogueandninjaadvancedtalents-rogue-and-ninja-advanced-talents-fn4" icon={["stairs-goal"]}>
+<Ability id="slayertalentrogueandninjaadvancedtalents-rogue-and-ninja-advanced-talents-fn4" icon={["power"]}>
 <Pair single id="slayertalentrogueandninjaadvancedtalents-rogue-and-ninja-advanced-talents-fn4"><Link to="/slayertalent/rogue_and_ninja_advanced_talents">⮞</Link> Rogue and Ninja Advanced Talents <sup><InnerLink showBacklink="backlink-ability-advanced_slayer_talents-fake-fn-4" id="ability-advanced_slayer_talents-fake-fn-4" data-hash-target to="ability-advanced_slayer_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability"><p>A slayer can select one of the following rogue <em>advanced talents</em> or ninja <em>master tricks</em> in place of a slayer advanced talent.</p>
 <p><strong className="hl">Advanced rogue talents:</strong> <Link to="/talent/aligned_disguise">aligned disguise</Link>, <Link to="/talent/blinding_strike">blinding strike</Link>, <Link to="/talent/dance_of_disorienting_shadows">dance of disorienting shadows</Link>, <Link to="/talent/deadly_sneak">deadly sneak</Link>, <Link to="/talent/feat">feat</Link>, <Link to="/talent/hunters_surprise">hunter's surprise</Link>, <Link to="/talent/improved_shadows_chill">improved shadow's chill</Link>, <Link to="/talent/knock_out_blow">knock-out blow</Link>, <Link to="/talent/master_of_disguise">master of disguise</Link>, <Link to="/talent/opportunist">opportunist</Link>, <Link to="/talent/reflexive_shadow_shield">reflexive shadow shield</Link>, <Link to="/talent/see_in_darkness">see in darkness</Link>, <Link to="/talent/stealthy_sniper">stealthy sniper</Link>.</p>
@@ -430,17 +430,17 @@ const _advanced_slayer_talents = {title: "Advanced Slayer Talents", topLink: ["S
 </Pair>
 <Pair title="Special">A slayer can select multiple rogue advanced talents or ninja master tricks by taking this slayer advanced talent multiple times, but can't select the same one more than once.</Pair>
 </Ability>
-<Ability id="slayertalentslayercamouflage-slayer-camouflage-ex-fn5" icon={["armor-upgrade"]}>
+<Ability id="slayertalentslayercamouflage-slayer-camouflage-ex-fn5" icon={["def"]}>
 <Pair single id="slayertalentslayercamouflage-slayer-camouflage-ex-fn5"><Link to="/slayertalent/slayer_camouflage">⮞</Link> Slayer Camouflage (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_slayer_talents-fake-fn-5" id="ability-advanced_slayer_talents-fake-fn-5" data-hash-target to="ability-advanced_slayer_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/talent/terrain_mastery">Terrain mastery</Link> (rogue talent)</Pair>
 <Pair title="Ability">A slayer can use the Stealth skill to hide in any of his <Link to="/ability/favored_terrain">favored terrains</Link>, even if the terrain doesn't grant cover or concealment.</Pair>
 </Ability>
-<Ability id="slayertalentswallowreversal-swallow-reversal-ex-fn3-2" icon={["mailed-fist","rolling-dices"]}>
+<Ability id="slayertalentswallowreversal-swallow-reversal-ex-fn3-2" icon={["melee","roll"]}>
 <Pair single id="slayertalentswallowreversal-swallow-reversal-ex-fn3-2" flavor="This technique, a creation of a legendary Minkaian duelist, mimics the movement of a bird in flight to pierce an opponent's defenses."><Link to="/slayertalent/swallow_reversal">⮞</Link> Swallow Reversal (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_slayer_talents-fake-fn-3.2" id="ability-advanced_slayer_talents-fake-fn-3.2" data-hash-target to="ability-advanced_slayer_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">As an attack action, the slayer can make a single melee attack against his <em>studied target</em> at his highest base attack bonus. When attempting a <em>swallow reversal,</em> the slayer rolls two attack rolls and uses the highest result. If the attack is a critical threat, the slayer attempts to confirm the critical hit as normal.</Pair>
 <Pair title="Special">The slayer can use <em>swallow reversal</em> at will, but it can only be used against a given target once per day.</Pair>
 </Ability>
-<Ability id="slayertalentwoodlandstride-woodland-stride-ex-fn5-2" icon={["stairs-goal"]}>
+<Ability id="slayertalentwoodlandstride-woodland-stride-ex-fn5-2" icon={["power"]}>
 <Pair single id="slayertalentwoodlandstride-woodland-stride-ex-fn5-2"><Link to="/slayertalent/woodland_stride">⮞</Link> Woodland Stride (Ex) <sup><InnerLink showBacklink="backlink-ability-advanced_slayer_talents-fake-fn-5.2" id="ability-advanced_slayer_talents-fake-fn-5.2" data-hash-target to="ability-advanced_slayer_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">A slayer with this talent may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at his normal speed and without taking damage or suffering any other impairment. Terrain that is enchanted or magically manipulated to impede motion still affects the slayer as normal.</Pair>
 </Ability>
@@ -453,17 +453,17 @@ const _advanced_slayer_talents = {title: "Advanced Slayer Talents", topLink: ["S
 </ol></section></div>};
 const _advanced_versatile_performances = {title: "Advanced Versatile Performances", topLink: ["Bard","class/bard"], jsx: <><h2 id="ability-advanced_versatile_performances-advanced-versatile-performances">Advanced Versatile Performances</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast</Link><br/>The charismatic <Link to="/race/kitsune">kitsune</Link> have developed countless techniques for transforming even the most mundane tasks into stunning and riveting performances. These much-lauded arts have spread like wildfire with bards who perform across Golarion. Beginning at 6th level, instead of selecting an additional skill with versatile performance, a <Link to="/class/bard">bard</Link> or <Link to="/class/skald">skald</Link> can choose an advanced versatile performance for one Perform skill he previously selected with versatile performance. Some advanced versatile performance options can be selected only if the bard or skald meets the option's prerequisites. A bard or skald with an archetype that replaces versatile performance cannot select advanced versatile performance options.</p>
-<Ability id="expanded-versatility-ex" icon={["upgrade"]}>
+<Ability id="expanded-versatility-ex" icon={["boost"]}>
 <Pair single id="expanded-versatility-ex">Expanded Versatility (Ex)</Pair>
 <Pair title="Ability">The bard chooses one Perform skill that he has already selected with versatile performance. He adds one of the following skills to the list of skills that are associated with the chosen Perform skill for the purpose of the versatile performance ability: Bluff, Diplomacy, Disguise, Escape Artist, Handle Animal, Intimidate, Sense Motive, or Use Magic Device.</Pair>
 <Pair title="Special">This option can be selected multiple times, but no skill can be associated with the same Perform skill more than once.</Pair>
 </Ability>
-<Ability id="martial-performance-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="martial-performance-ex" icon={["power","boost"]}>
 <Pair single id="martial-performance-ex">Martial Performance (Ex)</Pair>
 <Pair title="Ability">The bard chooses one weapon belonging to a <Link to="/ability/weapon_groups">fighter weapon group</Link> that is associated with a Perform skill he has selected with versatile performance. He gains proficiency with this weapon. If the bard is already proficient with this weapon or later becomes proficient with it, he gains <Link to="/feat/weapon_focus">Weapon Focus</Link> with that weapon as a bonus feat instead. In addition, the bard's effective fighter level is equal to 1/2 his bard level for the purpose of qualifying for feats that specifically select weapons from those Perform skills' associated fighter weapon groups.</Pair>
 <Pair title="Info">The types of Perform skills and their associated fighter weapon groups are: Act (close, double), Comedy (flails, thrown), Dance (monk, spears), Keyboard Instruments (hammers, siege engines), Oratory (heavy blades, light blades), Percussion (close, hammers), Sing (close, natural), String (axes, bows), and Wind (monk, thrown).</Pair>
 </Ability>
-<Ability id="masterpiece" icon={["stairs-goal"]}>
+<Ability id="masterpiece" icon={["power"]}>
 <Pair single id="masterpiece">Masterpiece</Pair>
 <Pair title="Ability">The bard gains a <Link to="/ability/bardic_masterpieces">bardic masterpiece</Link>, as if he were giving up a feat to learn it. He must meet the masterpiece's prerequisites, and the masterpiece must list ranks in a Perform skill that the bard has chosen with versatile performance as a prerequisite.</Pair>
 <Pair title="Special">This option can be selected multiple times.</Pair>
@@ -472,61 +472,61 @@ const _advanced_versatile_performances = {title: "Advanced Versatile Performance
 const _advanced_weapon_training = {hasJL:true,title: "Advanced Weapon Training", topLink: ["Fighter","class/fighter"], jsx: <><div className="jumpList" id="ability-advanced_weapon_training-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="ability-advanced_weapon_training-abundant-tactics-ex">Abundant Tactics</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-armed-bravery-ex">Armed Bravery</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-combat-competence-ex">Combat Competence</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-combat-maneuver-defense-ex">Combat Maneuver Defense</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-dazzling-intimidation-ex">Dazzling Intimidation</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-defensive-weapon-training-ex">Defensive Weapon Training</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-effortless-dual-wielding-ex">Effortless Dual-Wielding</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-fighters-finesse-ex">Fighter's Finesse</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-fighters-reflexes-ex">Fighter's Reflexes</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-fighters-stamina-ex">Fighter's Stamina</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-fighters-tactics-ex">Fighter's Tactics</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-focused-weapon-ex">Focused Weapon</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-inspiring-confidence-ex">Inspiring Confidence</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-item-mastery">Item Mastery</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-knockout-training-ex">Knockout Training</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-trained-grace-ex">Trained Grace</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-trained-initiative-ex">Trained Initiative</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-trained-throw-ex">Trained Throw</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-versatile-training-ex">Versatile Training</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-warrior-spirit-su">Warrior Spirit</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-weapon-mastery">Weapon Mastery</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-weapon-sacrifice-ex">Weapon Sacrifice</InnerLink></li><li><InnerLink toTop to="ability-advanced_weapon_training-weapon-specialist-ex">Weapon Specialist</InnerLink></li></ul></div><h2 id="ability-advanced_weapon_training-advanced-weapon-training">Advanced Weapon Training</h2>
 <p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook pg. 18-19</Link><br/>Highly skilled and experienced fighters can gain <em>advanced weapon training,</em> learning techniques and applications of the <em>weapon training</em> class feature that give them special benefits in exchange for specializing in a smaller number of <Link to="/ability/weapon_groups">fighter weapon groups</Link>. Beginning at 9th level, instead of selecting an additional fighter weapon group, a fighter can choose an <em>advanced weapon training</em> option for one fighter weapon group that he previously selected with the <em>weapon training</em> class feature. The fighter's <em>weapon training</em> bonus still increases for weapons from all fighter weapon groups he previously selected with <em>weapon training.</em> Some advance weapon training options can be selected only if the fighter meets the option's prerequisites.</p>
 <p><em>Advanced weapon training</em> options function only when the fighter is wielding a weapon from the associated group, unless otherwise noted, and use his <em>weapon training</em> bonus for the associated weapon group. Any bonuses on attack rolls and damage rolls granted by <em>advanced weapon training</em> apply only on attack rolls and damage rolls from weapons in the associated group. A fighter with an archetype that replaces <em>weapon training</em> cannot select <em>advanced weapon training</em> options.</p>
-<Ability id="abundant-tactics-ex" icon={["upgrade"]}>
+<Ability id="abundant-tactics-ex" icon={["boost"]}>
 <Pair single id="abundant-tactics-ex">Abundant Tactics (Ex)</Pair>
 <Pair title="Passive Ability">The fighter adds his <em>weapon training</em> bonus to the number of times per day he can use a combat feat he has that allows a limited number of daily uses, such as the <Link to="/feat/stunning_fist">Stunning Fist</Link> feat.</Pair>
 </Ability>
-<Ability id="armed-bravery-ex" icon={["armor-upgrade"]}>
+<Ability id="armed-bravery-ex" icon={["def"]}>
 <Pair single id="armed-bravery-ex">Armed Bravery (Ex)</Pair>
 <Pair title="Prerequisites"><em>Bravery</em> class feature</Pair>
 <Pair title="Passive Ability">The fighter applies his bonus from <em>bravery</em> to Will saving throws. In addition, the DC of Intimidate checks to demoralize him increases by an amount equal to twice his bonus from <em>bravery.</em></Pair>
 </Ability>
-<Ability id="combat-competence-ex" icon={["upgrade","stairs-goal"]}>
+<Ability id="combat-competence-ex" icon={["boost","power"]}>
 <Pair single id="combat-competence-ex">Combat Competence (Ex)</Pair>
 <Pair title="Passive Ability">For any weapon in the associated weapon group with which the fighter is not proficient, the penalty on attack rolls taken as a result of not being proficient is reduced by an amount equal to the fighter's <em>weapon training</em> bonus with that weapon group.</Pair>
 <Pair title="Special">Once the penalty is reduced to 0, the fighter becomes proficient with such weapons.</Pair>
 </Ability>
-<Ability id="combat-maneuver-defense-ex" icon={["armor-upgrade"]}>
+<Ability id="combat-maneuver-defense-ex" icon={["def"]}>
 <Pair single id="combat-maneuver-defense-ex">Combat Maneuver Defense (Ex)</Pair>
 <Pair title="Passive Ability">When the fighter is wielding weapons from the associated weapon group, his <em>weapon training</em> bonus applies to his CMD against all <Link to="/rule/combat_maneuvers">combat maneuvers</Link> attempted against him, instead of just against disarm and sunder combat maneuvers.</Pair>
 </Ability>
-<Ability id="dazzling-intimidation-ex" icon={["upgrade"]}>
+<Ability id="dazzling-intimidation-ex" icon={["boost"]}>
 <Pair single id="dazzling-intimidation-ex">Dazzling Intimidation (Ex)</Pair>
 <Pair title="Ability">The fighter applies his <em>weapon training</em> bonus to Intimidate checks and can attempt an Intimidate check to demoralize an opponent as a <strong className="hl">move action</strong> instead of a standard action.</Pair>
 <Pair title="Special">If he has the <Link to="/feat/dazzling_display">Dazzling Display</Link> feat, he can use it as a <strong className="hl">standard action</strong> instead of a full-round action.</Pair>
 </Ability>
-<Ability id="defensive-weapon-training-ex" icon={["armor-upgrade"]}>
+<Ability id="defensive-weapon-training-ex" icon={["def"]}>
 <Pair single id="defensive-weapon-training-ex">Defensive Weapon Training (Ex)</Pair>
 <Pair title="Passive Ability">The fighter gains a +1 shield bonus to his Armor Class. The fighter adds <Link to="/misc/half">half</Link> his weapon's enhancement bonus (if any) to this shield bonus. When his <em>weapon training</em> bonus for weapons from the associated fighter weapon group reaches +4, this shield bonus increases to +2. This shield bonus is lost if the fighter is immobilized or helpless.</Pair>
 </Ability>
-<Ability id="effortless-dual-wielding-ex" icon={["upgrade"]}>
+<Ability id="effortless-dual-wielding-ex" icon={["boost"]}>
 <Pair single id="effortless-dual-wielding-ex">Effortless Dual-Wielding (Ex)</Pair>
 <Pair title="Ability">The fighter treats all one-handed weapons that belong to the associated weapon group as though they were light weapons when determining his penalties on attack rolls for <Link to="/rule/fighting_with_two_weapons">fighting with two weapons</Link>. <sup><InnerLink showBacklink="backlink-ability-advanced_weapon_training-fake-fn-1" id="ability-advanced_weapon_training-fake-fn-1" data-hash-target to="ability-advanced_weapon_training-fake-fn-1-target">1</InnerLink></sup></Pair>
 </Ability>
-<Ability id="fighters-finesse-ex" icon={["upgrade"]}>
+<Ability id="fighters-finesse-ex" icon={["boost"]}>
 <Pair single id="fighters-finesse-ex">Fighter's Finesse (Ex)</Pair>
 <Pair title="Prerequisites"><Link to="/feat/weapon_finesse">Weapon Finesse</Link></Pair>
 <Pair title="Ability">The fighter gains the benefits of the Weapon Finesse feat with all melee weapons that belong to the associated fighter weapon group (even if they cannot normally be used with Weapon Finesse).</Pair>
 </Ability>
-<Ability id="fighters-reflexes-ex" icon={["armor-upgrade"]}>
+<Ability id="fighters-reflexes-ex" icon={["def"]}>
 <Pair single id="fighters-reflexes-ex">Fighter's Reflexes (Ex)</Pair>
 <Pair title="Passive Ability">The fighter applies his <em>weapon training</em> bonus to Reflex saving throws. He loses this bonus when he is <Link to="/rule/flat_footed">flat-footed</Link> or denied his Dexterity bonus to AC.</Pair>
 </Ability>
-<Ability id="fighters-stamina-ex" icon={["stairs-goal"]}>
+<Ability id="fighters-stamina-ex" icon={["power"]}>
 <Pair single id="fighters-stamina-ex">Fighter's Stamina (Ex)</Pair>
 <Pair title="Ability">The fighter gains <Link to="/feat/combat_stamina">Combat Stamina</Link> as a bonus feat, even when not wielding a weapon from the appropriate weapon group.</Pair>
 <Pair title="Special">If the fighter already has this feat, he gains <Link to="/feat/extra_stamina">Extra Stamina</Link> as a bonus feat instead. <sup><InnerLink showBacklink="backlink-ability-advanced_weapon_training-fake-fn-1.2" id="ability-advanced_weapon_training-fake-fn-1.2" data-hash-target to="ability-advanced_weapon_training-fake-fn-1-target">1</InnerLink></sup></Pair>
 </Ability>
-<Ability id="fighters-tactics-ex" icon={["upgrade"]}>
+<Ability id="fighters-tactics-ex" icon={["boost"]}>
 <Pair single id="fighters-tactics-ex">Fighter's Tactics (Ex)</Pair>
 <Pair title="Passive Ability">All of the fighter's allies are treated as if they had the same teamwork feats as the fighter for the purpose of determining whether the fighter receives a bonus from his teamwork feats. His allies do not receive any bonuses from these feats unless they actually have the feats themselves. The allies' positioning and actions must still meet the prerequisites listed in the teamwork feat for the fighter to receive the listed bonus.</Pair>
 </Ability>
-<Ability id="focused-weapon-ex" extraClasses="hasSubs" icon={["upgrade"]}>
+<Ability id="focused-weapon-ex" extraClasses="hasSubs" icon={["boost"]}>
 <Pair single id="focused-weapon-ex">Focused Weapon (Ex)</Pair>
 <Pair title="Prerequisites"><Link to="/feat/weapon_focus">Weapon Focus</Link> with the selected weapon</Pair>
 <Pair title="Ability">The fighter selects one weapon for which he has Weapon Focus and that belongs to the associated fighter weapon group. The fighter can deal damage with this weapon based on the damage of the <Link to="/class/warpriest">warpriest's</Link> <em>sacred weapon</em> class feature, treating his fighter level as his warpriest level.</Pair>
 </Ability>
-<Ability id="sacred-weapon-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="sacred-weapon-su" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="sacred-weapon-su" flavor="Relevant text from the warpriest class ability.">Sacred Weapon (Su)</Pair>
 <Pair title="Passive Ability"><p>Whenever you hit with your <em>sacred weapon,</em> the weapon damage is based on your size and level and not the weapon type. You can decide to use the weapon's base damage instead of the <em>sacred weapon</em> damage - this must be declared before the attack roll is made. (If the weapon's base damage exceeds the <em>sacred weapon</em> damage, its damage is unchanged.) This increase in damage does not affect any other aspect of the weapon, and doesn't apply to alchemical items, bombs, or other weapons that only deal energy damage.</p>
 <ScrollContainer id="ability-advanced_weapon_training--table-0"><table>
@@ -589,35 +589,35 @@ const _advanced_weapon_training = {hasJL:true,title: "Advanced Weapon Training",
 </tbody></table></ScrollContainer>
 </Pair>
 </Ability>
-<Ability id="inspiring-confidence-ex" icon={["shield-reflect"]}>
+<Ability id="inspiring-confidence-ex" icon={["protect"]}>
 <Pair single id="inspiring-confidence-ex">Inspiring Confidence (Ex)</Pair>
 <Pair title="Usage">A number of times per day equal to his highest <em>weapon training</em> bonus</Pair>
 <Pair title="Swift Action">The fighter can allow one ally within 30 feet to attempt a new saving throw against an ongoing fear effect that causes the ally to cower or to become <Link to="/misc/frightened">frightened</Link>, <Link to="/misc/panicked">panicked</Link>, or <Link to="/misc/shaken">shaken</Link>. If the ally succeeds at the save, the effect ends. A fighter can use this option even when not wielding a weapon from the associated weapon group.</Pair>
 </Ability>
-<Ability id="item-mastery" icon={["stairs-goal"]}>
+<Ability id="item-mastery" icon={["power"]}>
 <Pair single id="item-mastery">Item Mastery</Pair>
 <Pair title="Ability">The fighter gains an <Link to="/main/feats_item_mastery">item mastery feat</Link> as a bonus feat, which functions with any magic weapon he wields, even if the magic weapon does not meet the feat's normal requirements. He must meet all of the feat's prerequisites.</Pair>
 </Ability>
-<Ability id="knockout-training-ex" icon={["upgrade"]}>
+<Ability id="knockout-training-ex" icon={["boost"]}>
 <Pair single id="knockout-training-ex">Knockout Training (Ex)</Pair>
 <Pair title="Ability">The fighter takes no penalties on attack rolls when attempting to deal nonlethal damage with a weapon from the associated fighter weapon group that normally deals lethal damage. In addition, whenever the fighter deals nonlethal damage with a weapon from the associated fighter weapon group, he doubles his <em>weapon training</em> bonus on the damage roll.</Pair>
 <Pair title="Special">This doesn't stack with other <em>advanced weapon training</em> options that allow the fighter to double his <em>weapon training</em> bonus on damage rolls, such as <em>trained grace</em> or <em>trained throw.</em> <sup><InnerLink showBacklink="backlink-ability-advanced_weapon_training-fake-fn-1.3" id="ability-advanced_weapon_training-fake-fn-1.3" data-hash-target to="ability-advanced_weapon_training-fake-fn-1-target">1</InnerLink></sup></Pair>
 </Ability>
-<Ability id="trained-grace-ex" icon={["upgrade"]}>
+<Ability id="trained-grace-ex" icon={["boost"]}>
 <Pair single id="trained-grace-ex">Trained Grace (Ex)</Pair>
 <Pair title="Prerequisites"><Link to="/feat/weapon_finesse">Weapon Finesse</Link></Pair>
 <Pair title="Ability">When the fighter uses Weapon Finesse to make a melee attack with a weapon, using his Dexterity modifier on attack rolls and his Strength modifier on damage rolls, he doubles his <em>weapon training</em> bonus on damage rolls.</Pair>
 </Ability>
-<Ability id="trained-initiative-ex" icon={["upgrade"]}>
+<Ability id="trained-initiative-ex" icon={["boost"]}>
 <Pair single id="trained-initiative-ex">Trained Initiative (Ex)</Pair>
 <Pair title="Ability">As long as he is wielding a weapon from the associated weapon group or is able to draw such a weapon (even if he is not currently wielding it), the fighter applies his <em>weapon training</em> bonus to initiative checks. In addition, if he has the <Link to="/feat/quick_draw">Quick Draw</Link> feat and has a weapon from the appropriate weapon group that isn't hidden, he can draw that weapon as a <strong className="hl">free action</strong> as part of making an initiative check.</Pair>
 </Ability>
-<Ability id="trained-throw-ex" icon={["upgrade"]}>
+<Ability id="trained-throw-ex" icon={["boost"]}>
 <Pair single id="trained-throw-ex">Trained Throw (Ex)</Pair>
 <Pair title="Ability">When the fighter makes a ranged attack with a thrown weapon and applies his Dexterity modifier on attack rolls and his Strength modifier on damage rolls, he doubles his <em>weapon training</em> bonus on damage rolls.</Pair>
 <Pair title="Special">Unless he has the <Link to="/feat/throw_anything">Throw Anything</Link> feat, the fighter can choose only the <em>thrown</em> fighter weapon group with this option. If he has Throw Anything, the fighter can choose any fighter weapon group with this option and apply this option's benefits to any weapon from that group that he throws.</Pair>
 </Ability>
-<Ability id="versatile-training-ex" icon={["upgrade"]}>
+<Ability id="versatile-training-ex" icon={["boost"]}>
 <Pair single id="versatile-training-ex">Versatile Training (Ex)</Pair>
 <Pair title="Ability"><p>The fighter can use his base attack bonus in place of his ranks in two skills of his choice that are associated with the fighter weapon group he has chosen with this option (see below). The fighter need not be wielding an associated weapon to use this option. When using <em>versatile training,</em> the fighter substitutes his total base attack bonus (including his base attack bonus gained through levels in other classes) for his ranks in these skills, but adds the skill's usual ability score modifier and any other bonuses or penalties that would modify those skills.</p>
 <p>Once the skills have been selected, they cannot be changed and the fighter can immediately retrain all of his skill ranks in the selected skills at no additional cost in money or time. In addition, the fighter adds all skills chosen with this option to his list of class skills.</p>
@@ -645,24 +645,24 @@ const _advanced_weapon_training = {hasJL:true,title: "Advanced Weapon Training",
 </Pair>
 <Pair title="Special">A fighter can choose this option up to two times.</Pair>
 </Ability>
-<Ability id="warrior-spirit-su" icon={["upgrade"]}>
+<Ability id="warrior-spirit-su" icon={["boost"]}>
 <Pair single id="warrior-spirit-su">Warrior Spirit (Su)</Pair>
 <Pair title="Ability"><p>The fighter can forge a spiritual bond with a weapon that belongs to the associated weapon group, allowing him to unlock the weapon's potential. Each day, he designates one such weapon and gains a number of points of spiritual energy equal to 1 + his <em>weapon training</em> bonus. While wielding this weapon, he can spend 1 point of spiritual energy to grant the weapon an enhancement bonus equal to his <em>weapon training</em> bonus. Enhancement bonuses gained by this <em>advanced weapon training</em> option stack with those of the weapon, to a maximum of +5.</p>
 <p>The fighter can also imbue the weapon with any one <Link to="/main/magic_enhancements">weapon special ability</Link> with an equivalent enhancement bonus less than or equal to his maximum bonus by reducing the granted enhancement bonus by the amount of the equivalent enhancement bonus. The item must have an enhancement bonus of at least +1 (from the item itself or from warrior spirit) to gain a weapon special ability.</p>
 <p>In either case, these bonuses last for 1 minute. <sup><InnerLink showBacklink="backlink-ability-advanced_weapon_training-fake-fn-2" id="ability-advanced_weapon_training-fake-fn-2" data-hash-target to="ability-advanced_weapon_training-fake-fn-2-target">2</InnerLink></sup></p>
 </Pair>
 </Ability>
-<Ability id="weapon-mastery" icon={["stairs-goal"]}>
+<Ability id="weapon-mastery" icon={["power"]}>
 <Pair single id="weapon-mastery">Weapon Mastery</Pair>
 <Pair title="Ability">The fighter gains a <Link to="/main/feats_weapon_mastery">weapon mastery feat</Link> as a bonus feat, even when not wielding a weapon from the appropriate weapon group. He must meet all of the feat's prerequisites.</Pair>
 </Ability>
-<Ability id="weapon-sacrifice-ex" icon={["armor-upgrade","shield-reflect"]}>
+<Ability id="weapon-sacrifice-ex" icon={["def","protect"]}>
 <Pair single id="weapon-sacrifice-ex">Weapon Sacrifice (Ex)</Pair>
 <Pair title="Usage">A number of times per day equal to the fighter's <em>weapon training</em> bonus with the associated weapon group</Pair>
 <Pair title="Ability">When damage would cause the fighter or an adjacent ally to be knocked unconscious or killed, as a <strong className="hl">swift</strong> or <strong className="hl">immediate action</strong> the fighter can instead direct the damage to a weapon from the associated weapon group that he is wielding. The original target takes no damage, but the weapon receives only half its normal hardness.</Pair>
 <Pair title="Special">He cannot use this option with unarmed attacks.</Pair>
 </Ability>
-<Ability id="weapon-specialist-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="weapon-specialist-ex" icon={["power","boost"]}>
 <Pair single id="weapon-specialist-ex">Weapon Specialist (Ex)</Pair>
 <Pair title="Ability">The fighter selects a number of combat feats that he knows equal to his <em>weapon training</em> bonus with the associated weapon group. The selected feats must be ones that require the fighter to choose a type of weapon (such as <Link to="/feat/weapon_focus">Weapon Focus</Link> and <Link to="/feat/weapon_specialization">Weapon Specialization</Link>), and the fighter must have chosen weapons that belong to the associated fighter weapon group. The fighter is treated as having the selected feats for all the weapons in the associated weapon group that are legal choices for those feats. The fighter is also considered to have those feats with these weapons for the purpose of meeting prerequisites.</Pair>
 </Ability>
@@ -676,72 +676,72 @@ const _animal_foci = {title: "Animal Focus", topLink: ["Hunter","class/hunter"],
 <p>If the hunter's animal companion is dead, the hunter can apply her companion's animal focus to herself instead of her animal companion. This is in addition to the normal one she can choose, and (as with a companion's focus) remains in effect until the hunter changes it instead of counting against her minutes per day.</p>
 <aside><p>Characters with the <em>animal focus</em> feature can also gain <Link to="/ability/ward_aspects">ward aspects</Link> if they desire.</p>
 </aside><h3 id="ability-animal_foci-animal-foci">Animal Foci</h3>
-<Ability id="bat" icon={["stairs-goal"]}>
+<Ability id="bat" icon={["power"]}>
 <Pair single id="bat">Bat</Pair>
 <Pair title="Ability">The creature gains darkvision to a range of 60 feet.</Pair>
 <Pair title="At 8th Level">The range increases by 30 feet.</Pair>
 <Pair title="At 15th Level">The creature also gains <Link to="/umr/blindsense">blindsense</Link> to a range of 10 feet.</Pair>
 </Ability>
-<Ability id="bear" icon={["upgrade"]}>
+<Ability id="bear" icon={["boost"]}>
 <Pair single id="bear">Bear</Pair>
 <Pair title="Passive Ability">The creature gains a +2 enhancement bonus to Constitution.</Pair>
 <Pair title="At 8th Level">This bonus increases to +4.</Pair>
 <Pair title="At 15th Level">This bonus increases to +6.</Pair>
 </Ability>
-<Ability id="bull" icon={["upgrade"]}>
+<Ability id="bull" icon={["boost"]}>
 <Pair single id="bull">Bull</Pair>
 <Pair title="Passive Ability">The creature gains a +2 enhancement bonus to Strength.</Pair>
 <Pair title="At 8th Level">This bonus increases to +4.</Pair>
 <Pair title="At 15th Level">This bonus increases to +6.</Pair>
 </Ability>
-<Ability id="falcon" icon={["upgrade"]}>
+<Ability id="falcon" icon={["boost"]}>
 <Pair single id="falcon">Falcon</Pair>
 <Pair title="Passive Ability">The creature gains a +4 competence bonus on Perception checks.</Pair>
 <Pair title="At 8th Level">This bonus increases to +6.</Pair>
 <Pair title="At 15th Level">This bonus increases to +8.</Pair>
 </Ability>
-<Ability id="frog" icon={["upgrade"]}>
+<Ability id="frog" icon={["boost"]}>
 <Pair single id="frog">Frog</Pair>
 <Pair title="Passive Ability">The creature gains a +4 competence bonus on Swim checks and on Acrobatics checks to jump.</Pair>
 <Pair title="At 8th Level">This bonus increases to +6.</Pair>
 <Pair title="At 15th Level">This bonus increases to +8.</Pair>
 </Ability>
-<Ability id="monkey" icon={["upgrade"]}>
+<Ability id="monkey" icon={["boost"]}>
 <Pair single id="monkey">Monkey</Pair>
 <Pair title="Passive Ability">The creature gains a +4 competence bonus on Climb checks.</Pair>
 <Pair title="At 8th Level">This bonus increases to +6.</Pair>
 <Pair title="At 15th Level">This bonus increases to +8.</Pair>
 </Ability>
-<Ability id="mouse" icon={["armor-upgrade"]}>
+<Ability id="mouse" icon={["def"]}>
 <Pair single id="mouse">Mouse</Pair>
 <Pair title="Passive Ability">The creature gains <Link to="/ability/evasion">evasion</Link>, as the <Link to="/class/rogue">rogue</Link> class feature.</Pair>
 <Pair title="At 12th Level">This increases to <Link to="/talent/improved_evasion">improved evasion</Link>, as the rogue advanced talent.</Pair>
 </Ability>
-<Ability id="owl" icon={["upgrade"]}>
+<Ability id="owl" icon={["boost"]}>
 <Pair single id="owl">Owl</Pair>
 <Pair title="Passive Ability">The creature gains a +4 competence bonus on Stealth checks.</Pair>
 <Pair title="At 8th Level">This bonus increases to +6.</Pair>
 <Pair title="At 15th Level">This bonus increases to +8.</Pair>
 </Ability>
-<Ability id="snake" icon={["upgrade","armor-upgrade"]}>
+<Ability id="snake" icon={["boost","def"]}>
 <Pair single id="snake">Snake</Pair>
 <Pair title="Passive Ability">The creature gains a +2 bonus on attack rolls when making attacks of opportunity and a +2 dodge bonus to AC against attacks of opportunity.</Pair>
 <Pair title="At 8th Level">These bonuses increase to +4.</Pair>
 <Pair title="At 15th Level">These bonuses increase to +6.</Pair>
 </Ability>
-<Ability id="stag" icon={["upgrade"]}>
+<Ability id="stag" icon={["boost"]}>
 <Pair single id="stag">Stag</Pair>
 <Pair title="Passive Ability">The creature gains a 5-foot enhancement bonus to its base land speed.</Pair>
 <Pair title="At 8th Level">This bonus increases to 10 feet.</Pair>
 <Pair title="At 15th Level">This bonus increases to 20 feet.</Pair>
 </Ability>
-<Ability id="tiger" icon={["upgrade"]}>
+<Ability id="tiger" icon={["boost"]}>
 <Pair single id="tiger">Tiger</Pair>
 <Pair title="Passive Ability">The creature gains a +2 enhancement bonus to Dexterity.</Pair>
 <Pair title="At 8th Level">This bonus increases to +4.</Pair>
 <Pair title="At 15th Level">This bonus increases to +6.</Pair>
 </Ability>
-<Ability id="wolf" icon={["stairs-goal"]}>
+<Ability id="wolf" icon={["power"]}>
 <Pair single id="wolf">Wolf</Pair>
 <Pair title="Ability">The creature gains the <Link to="/umr/scent">scent</Link> ability with a range of 10 feet.</Pair>
 <Pair title="At 8th Level">The range of this sense increases to 20 feet.</Pair>
@@ -753,20 +753,20 @@ const _annointings = {hasJL:true,title: "Annointings", topLink: ["Alchemist","cl
 <p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology</Link></p>
 <p>The power of transmutation is evident in magical oils and pastes that alter the properties of objects when applied. Though the Runes of Wealth is focused primarily on spells, Haphrama included a remarkable appendix of ingenious theories about transmuting the properties of magical armor and weapons, from which the magical process of anointings has been developed over the centuries. Alchemists can choose any of the following anointings in place of a normal discovery. An alchemist can use any of the anointings he knows a total number of times per day equal to 3 + his alchemist level. Unless an anointing specifies otherwise, all anointings require a standard action to apply (this provokes attacks of opportunity) and last for 1 minute per alchemist level.</p>
 <p><Link to="/class/investigator">Investigators</Link> can choose any of these discoveries with the <Link to="/invtalent/alchemist_discovery">alchemist discovery</Link> investigator talent. <Link to="/class/cleric">Clerics</Link> with the <Link to="/domain/artifice">Artifice</Link> domain can select an anointing in place of their 8th-level domain ability. <Link to="/arcaneschool/transmutation">Transmuter</Link> <Link to="/class/wizard">wizards</Link> can gain anointings in place of wizard bonus feats. <Link to="/class/witch">Witches</Link> with <Link to="/patron/transformation">transformation</Link> patrons can gain a single anointing in place of a major hex. In each of these cases, the character treats levels in the class used to select the anointing as his alchemist level for all relevant anointing calculations and prerequisites.</p>
-<Ability id="eldritch-enhancement" icon={["upgrade"]}>
+<Ability id="eldritch-enhancement" icon={["boost"]}>
 <Pair single id="eldritch-enhancement">Eldritch Enhancement</Pair>
 <Pair title="Ability">The alchemist douses a weapon, shield, or suit of armor with a glowing green wash. The caster level of any of the item's magical properties increases by the alchemist's Intelligence modifier for the purposes of effects, including calculations based on level, overcoming spell resistance, or being dispelled.</Pair>
 </Ability>
-<Ability id="essence-booster" icon={["upgrade"]}>
+<Ability id="essence-booster" icon={["boost"]}>
 <Pair single id="essence-booster">Essence Booster</Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Ability">The alchemist applies this golden liniment to a weapon or suit of armor that has a tiered special ability (a special ability available in varying degrees of potency, such as <Link to="/magic-enh/light_fortification">light fortification</Link> or <Link to="/magic-enh/shadow">shadow</Link>). The affected special ability increases by one step (to <Link to="/magic-enh/moderate_fortification">moderate fortification</Link> or <Link to="/magic-enh/greater_shadow">greater shadow</Link>, for example). If the item has multiple tiered special abilities, the alchemist chooses one to affect. The item's enhancement bonus increases by 1 if it has no tiered magical qualities.</Pair>
 </Ability>
-<Ability id="mercurial-oil" icon={["upgrade","armor-upgrade"]}>
+<Ability id="mercurial-oil" icon={["boost","def"]}>
 <Pair single id="mercurial-oil">Mercurial Oil</Pair>
 <Pair title="Ability">This gleaming silver fluid sinks into a magical metal weapon or suit of armor and temporarily liquefies the interior. An affected weapon gains momentum as its center of gravity moves outward during a swing, dealing damage as if it were <Link to="/rule/weapon_descriptions">one size category larger</Link> than it actually is. Affected armor resists impact and provides the wearer DR 2/-.</Pair>
 </Ability>
-<Ability id="orichalcum-dust" icon={["magic-swirl"]}>
+<Ability id="orichalcum-dust" icon={["magic"]}>
 <Pair single id="orichalcum-dust">Orichalcum Dust</Pair>
 <Pair title="Ability">The alchemist sprinkles a small quantity of colorful dust that comprises the essence of all four elements. By favoring one element over another in this mixture, the alchemist temporarily changes the energy type of one weapon into another. For example, the alchemist can choose for a bomb to deal acid damage or a weapon with the <Link to="/magic-enh/shocking_burst">shocking burst</Link> special ability to deal fire damage instead. Once an elemental effect is changed, it cannot be changed again until the anointing's duration expires.</Pair>
 </Ability>
@@ -774,137 +774,137 @@ const _annointings = {hasJL:true,title: "Annointings", topLink: ["Alchemist","cl
 const _arcane_discoveries = {title: "Arcane Discoveries", topLink: ["Wizard","class/wizard"], jsx: <div className="compilation"><h2 id="ability-arcane_discoveries-arcane-discoveries">Arcane Discoveries</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic</Link><br/>Wizards spend much of their lives seeking deeper truths, hunting knowledge as if it were life itself. The wizard's power is not necessarily the spells he wields; spells are merely the outward, most visible manifestation of that power. A wizard's true power is in his fierce intelligence, his dedication to his craft, and his ability to peel back the surface truths of reality to understand the fundamental underpinnings of existence. A wizard spends much of his time researching spells, and would rather find an undiscovered library than a room full of gold. A wizard need not be a reclusive bookworm, but he must have a burning curiosity for the unknown. Arcane discoveries are the results of this obsession with magic. A wizard can learn an arcane discovery in place of a regular feat or wizard bonus feat.</p>
 <hr/>
-<Ability id="arcanediscalchemicalaffinity-alchemical-affinity-fn1" icon={["upgrade","spell-book"]}>
+<Ability id="arcanediscalchemicalaffinity-alchemical-affinity-fn1" icon={["boost","learn"]}>
 <Pair single id="arcanediscalchemicalaffinity-alchemical-affinity-fn1" flavor={<>Having studied alongside <Link to="/class/alchemist">alchemists</Link>, you've learned to use their methodologies to enhance your spellcraft.</>}><Link to="/arcanedisc/alchemical_affinity">⮞</Link> Alchemical Affinity <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-1" id="ability-arcane_discoveries-fake-fn-1" data-hash-target to="ability-arcane_discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">5th-level wizard</Pair>
 <Pair title="Ability">Whenever you cast a spell that appears on both the wizard and alchemist spell lists, you treat your caster level as 1 higher than normal and the save DC of such spells increases by 1.</Pair>
 <Pair title="Special">Additionally, you may copy spells from an alchemist's formula book into your spellbook just as you could with another wizard's spellbook.</Pair>
 </Ability>
-<Ability id="arcanediscarcanebuilder-arcane-builder-fn2" icon={["upgrade"]}>
+<Ability id="arcanediscarcanebuilder-arcane-builder-fn2" icon={["boost"]}>
 <Pair single id="arcanediscarcanebuilder-arcane-builder-fn2" flavor="You have an exceptional understanding of the theory behind creating magical items."><Link to="/arcanedisc/arcane_builder">⮞</Link> Arcane Builder <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-2" id="ability-arcane_discoveries-fake-fn-2" data-hash-target to="ability-arcane_discoveries-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">Select one type of magic item (potions, wondrous items, and so on). You create items of this type 25% faster than normal, and gain a +4 bonus on Spellcraft checks (or other checks, as appropriate) to craft items of this type.</Pair>
 <Pair title="Special">You may select this discovery multiple times; its effects do not stack. Each time you select this discovery, it applies to a different type of magic item.</Pair>
 </Ability>
-<Ability id="arcanediscbalancedsummoning-balanced-summoning-fn3" icon={["upgrade"]}>
+<Ability id="arcanediscbalancedsummoning-balanced-summoning-fn3" icon={["boost"]}>
 <Pair single id="arcanediscbalancedsummoning-balanced-summoning-fn3" flavor="You maintain balance by calling on opposing forces when summoning."><Link to="/arcanedisc/balanced_summoning">⮞</Link> Balanced Summoning <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-3" id="ability-arcane_discoveries-fake-fn-3" data-hash-target to="ability-arcane_discoveries-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">Whenever you cast a <em>summon monster</em> spell, you can summon two creatures from a single list 1 or more levels lower than the level of the spell. The two creatures must have alignments that are opposite along at least one axis (chaotic and lawful or evil and good). For example, if you cast <Link to="/spell/summon_monster_iii">summon monster III</Link>, you could summon a <Link to="/template/celestial">celestial</Link> wolf and a <Link to="/template/fiendish">fiendish</Link> hyena from the 2nd-level list.</Pair>
 </Ability>
-<Ability id="arcanediscbeyondmorality-beyond-morality-su-fn4" icon={["armor-upgrade"]}>
+<Ability id="arcanediscbeyondmorality-beyond-morality-su-fn4" icon={["def"]}>
 <Pair single id="arcanediscbeyondmorality-beyond-morality-su-fn4"><Link to="/arcanedisc/beyond_morality">⮞</Link> Beyond Morality (Su) <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-4" id="ability-arcane_discoveries-fake-fn-4" data-hash-target to="ability-arcane_discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">9th-level wizard</Pair>
 <Pair title="Ability">As long as you are neutral, you may choose to be treated as the most favorable alignment when affected by spells whose effects vary based on alignment (such as <Link to="/spell/holy_word">holy word</Link>). If you are neutral in relation to evil and good, you may choose to be treated as good or evil. If you are neutral in relation to chaos and law, you may choose to be treated as lawful or chaotic.</Pair>
 <Pair title="Special">You may only choose to be treated as one alignment type along a single axis at a time (for instance, if you were within the area of both a <Link to="/spell/magic_circle_against_evil">magic circle against evil</Link> spell and an <Link to="/spell/unholy_blight">unholy blight</Link> spell, you would have to choose to be either evil, good, or neutral for the purpose of determining the spells' effects).</Pair>
 </Ability>
-<Ability id="arcanediscbondedmask-bonded-mask-fn5" icon={["armor-upgrade"]}>
+<Ability id="arcanediscbondedmask-bonded-mask-fn5" icon={["def"]}>
 <Pair single id="arcanediscbondedmask-bonded-mask-fn5"><Link to="/arcanedisc/bonded_mask">⮞</Link> Bonded Mask <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-5" id="ability-arcane_discoveries-fake-fn-5" data-hash-target to="ability-arcane_discoveries-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">Your devotion to the Forgotten Pharaoh enables you to select a mask - typically an Osirian funerary mask - as your bonded item. The mask must be worn to have effect, and occupies the <Link to="/rule/head_slot">head slot</Link>.</Pair>
 <Pair title="Passive Ability">In addition, the mask shields you from notice. While wearing your <em>bonded mask,</em> efforts to use the Diplomacy skill to gather information about you take a -1 penalty, and you gain a +1 competence bonus on all saving throws against scrying and mind-reading effects that allow saving throws.</Pair>
 </Ability>
-<Ability id="arcanedisccreativedestruction-creative-destruction-su-fn4-2" icon={["remedy"]}>
+<Ability id="arcanedisccreativedestruction-creative-destruction-su-fn4-2" icon={["aid"]}>
 <Pair single id="arcanedisccreativedestruction-creative-destruction-su-fn4-2" flavor="You have learned how to use destructive energy to empower yourself."><Link to="/arcanedisc/creative_destruction">⮞</Link> Creative Destruction (Su) <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-4.2" id="ability-arcane_discoveries-fake-fn-4.2" data-hash-target to="ability-arcane_discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Passive Ability">When you cast an evocation spell that deals damage, you gain a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the total number of dice used to determine the damage caused by the spell. Temporary hit points gained from this discovery do not stack and disappear after 1 hour.</Pair>
 </Ability>
-<Ability id="arcanediscdefensivefeedback-defensive-feedback-su-fn4-3" icon={["armor-upgrade","magic-swirl"]}>
+<Ability id="arcanediscdefensivefeedback-defensive-feedback-su-fn4-3" icon={["def","magic"]}>
 <Pair single id="arcanediscdefensivefeedback-defensive-feedback-su-fn4-3" flavor="Rather than dissipate damaging energy, you can redirect some of it back to its source."><Link to="/arcanedisc/defensive_feedback">⮞</Link> Defensive Feedback (Su) <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-4.3" id="ability-arcane_discoveries-fake-fn-4.3" data-hash-target to="ability-arcane_discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Passive Ability">When an abjuration spell you cast prevents damage (with damage reduction or energy resistance), if the attacking creature is within 30 feet of the protected creature, the foe takes 1d6 points of damage for every 10 points of damage prevented.</Pair>
 </Ability>
-<Ability id="arcanediscfaithmagic-faith-magic-fn6" icon={["spell-book"]}>
+<Ability id="arcanediscfaithmagic-faith-magic-fn6" icon={["learn"]}>
 <Pair single id="arcanediscfaithmagic-faith-magic-fn6"><Link to="/arcanedisc/faith_magic">⮞</Link> Faith Magic <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-6" id="ability-arcane_discoveries-fake-fn-6" data-hash-target to="ability-arcane_discoveries-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Worship a deity</Pair>
 <Pair title="Ability">Select one spell granted by a domain belonging to the god you worship. This spell must be at least 2 levels lower than the highest-level wizard spell you can cast. When you first prepare your spells for the day, you can prepare this spell once, using a spell slot 1 level higher than the spell's actual level. This is cast as a divine spell.</Pair>
 </Ability>
-<Ability id="arcanediscfaststudy-fast-study-fn2-2" icon={["upgrade"]}>
+<Ability id="arcanediscfaststudy-fast-study-fn2-2" icon={["boost"]}>
 <Pair single id="arcanediscfaststudy-fast-study-fn2-2"><Link to="/arcanedisc/fast_study">⮞</Link> Fast Study <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-2.2" id="ability-arcane_discoveries-fake-fn-2.2" data-hash-target to="ability-arcane_discoveries-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites">5th-level wizard</Pair>
 <Pair title="Ability">Normally, a wizard spends 1 hour preparing all of his spells for the day, or proportionately less if he only prepares some spells, with a minimum of 15 minutes of preparation. Thanks to mental discipline and clever mnemonics, you can prepare all of your spells in only 15 minutes, and your minimum preparation time is only 1 minute.</Pair>
 </Ability>
-<Ability id="arcanediscferalspeech-feral-speech-su-fn2-3" icon={["stairs-goal"]}>
+<Ability id="arcanediscferalspeech-feral-speech-su-fn2-3" icon={["power"]}>
 <Pair single id="arcanediscferalspeech-feral-speech-su-fn2-3"><Link to="/arcanedisc/feral_speech">⮞</Link> Feral Speech (Su) <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-2.3" id="ability-arcane_discoveries-fake-fn-2.3" data-hash-target to="ability-arcane_discoveries-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites">5th-level wizard</Pair>
 <Pair title="Ability">You gain the ability to speak with and understand the response of any animal as if using <Link to="/spell/speak_with_animals">speak with animals</Link>, though each time you speak to animals, you must decide to communicate with either amphibians, birds, fish, mammals, or reptiles, and can only speak to and understand animals of that type. You can make yourself understood as far as your voice carries. This discovery does not predispose any animal addressed toward you in any way.</Pair>
 <Pair title="At 12th Level">You can also use this ability to communicate with vermin.</Pair>
 </Ability>
-<Ability id="arcanediscgolemconstructor-golem-constructor-fn2-4" icon={["stairs-goal"]}>
+<Ability id="arcanediscgolemconstructor-golem-constructor-fn2-4" icon={["power"]}>
 <Pair single id="arcanediscgolemconstructor-golem-constructor-fn2-4"><Link to="/arcanedisc/golem_constructor">⮞</Link> Golem Constructor <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-2.4" id="ability-arcane_discoveries-fake-fn-2.4" data-hash-target to="ability-arcane_discoveries-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites">9th-level wizard</Pair>
 <Pair title="Ability">You have learned the art and craft of creating a single type of <Link to="/family/golem">golem</Link> (such as <Link to="/monster/stone_golem">stone golems</Link> or <Link to="/monster/iron_golem">iron golems</Link>). When creating a golem of this type, you count as having the <Link to="/feat/craft_wondrous_item">Craft Wondrous Item</Link>, <Link to="/feat/craft_magic_arms_and_armor">Craft_Magic_Arms_and_Armor</Link>, and <Link to="/feat/craft_construct">Craft Construct</Link> feats. You must meet all other construction requirements for the golem as normal.</Pair>
 <Pair title="Special">You may select this discovery multiple times. Each time you select this discovery, it applies to a different kind of golem.</Pair>
 </Ability>
-<Ability id="arcanediscidealize-idealize-su-fn4-4" icon={["upgrade"]}>
+<Ability id="arcanediscidealize-idealize-su-fn4-4" icon={["boost"]}>
 <Pair single id="arcanediscidealize-idealize-su-fn4-4" flavor="In your quest for self-perfection, you have discovered a way to further enhance yourself and others."><Link to="/arcanedisc/idealize">⮞</Link> Idealize (Su) <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-4.4" id="ability-arcane_discoveries-fake-fn-4.4" data-hash-target to="ability-arcane_discoveries-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level wizard</Pair>
 <Pair title="Passive Ability">When a transmutation spell you cast grants an enhancement bonus to an ability score, that bonus increases by 2.</Pair>
 <Pair title="At 20th Level">The bonus increases by 4.</Pair>
 </Ability>
-<Ability id="arcanediscimmortality-immortality-ex-fn2-5" icon={["armor-upgrade"]}>
+<Ability id="arcanediscimmortality-immortality-ex-fn2-5" icon={["def"]}>
 <Pair single id="arcanediscimmortality-immortality-ex-fn2-5"><Link to="/arcanedisc/immortality">⮞</Link> Immortality (Ex) <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-2.5" id="ability-arcane_discoveries-fake-fn-2.5" data-hash-target to="ability-arcane_discoveries-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites">20th-level wizard</Pair>
 <Pair title="Passive Ability">You discover a cure for aging, and from this point forward you take no penalty to your physical ability scores from <Link to="/rule/age">advanced age</Link>. If you are already taking such penalties, they are removed at this time.</Pair>
 </Ability>
-<Ability id="arcanediscinfectiouscharms-infectious-charms-fn1-2" icon={["magic-swirl","upgrade"]}>
+<Ability id="arcanediscinfectiouscharms-infectious-charms-fn1-2" icon={["magic","boost"]}>
 <Pair single id="arcanediscinfectiouscharms-infectious-charms-fn1-2" flavor="Your charms are so smooth that they're contagious."><Link to="/arcanedisc/infectious_charms">⮞</Link> Infectious Charms <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-1.2" id="ability-arcane_discoveries-fake-fn-1.2" data-hash-target to="ability-arcane_discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">11th-level wizard</Pair>
 <Pair title="Ability">Anytime you target and successfully affect a single creature with a charm or compulsion spell and that creature is within 30 feet of another opponent, your spell has a chance of affecting the second creature as well. As a <strong className="hl">swift action</strong> immediately after affecting a creature with a charm or compulsion spell, you can cause the spell to carry over to the nearest creature within 30 feet. The spell behaves in all ways as though its new target were the original target of the spell.</Pair>
 </Ability>
-<Ability id="arcanedisciounbond-ioun-bond-fn7" icon={["magic-swirl"]}>
+<Ability id="arcanedisciounbond-ioun-bond-fn7" icon={["magic"]}>
 <Pair single id="arcanedisciounbond-ioun-bond-fn7"><Link to="/arcanedisc/ioun_bond">⮞</Link> Ioun Bond <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-7" id="ability-arcane_discoveries-fake-fn-7" data-hash-target to="ability-arcane_discoveries-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Has a bonded object from the <em>arcane bond</em> class ability</Pair>
 <Pair title="Ability">You can form an arcane bond with an <Link to="/magic-wondrous/ioun_stone">ioun stone</Link>. If you choose this arcane discovery at 1st level, you gain a <Link to="/magic-ioun/dull_gray">dull gray</Link> ioun stone as a bonded object at no cost. A bonded ioun stone must be orbiting your head to have effect.</Pair>
 <Pair title="At 12th Level">You can turn a bonded dull gray ioun stone into another kind of ioun stone as if you possessed the <Link to="/feat/craft_wondrous_item">Craft Wondrous Item</Link> feat; if you die or replace a bonded ioun stone that has been transformed in this way, the stone reverts to a dull gray ioun stone.</Pair>
 </Ability>
-<Ability id="arcanediscknowledgeispower-knowledge-is-power-ex-fn7-2" icon={["upgrade","armor-upgrade"]}>
+<Ability id="arcanediscknowledgeispower-knowledge-is-power-ex-fn7-2" icon={["boost","def"]}>
 <Pair single id="arcanediscknowledgeispower-knowledge-is-power-ex-fn7-2" flavor="Your understanding of physical forces gives you power over them."><Link to="/arcanedisc/knowledge_is_power">⮞</Link> Knowledge Is Power (Ex) <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-7.2" id="ability-arcane_discoveries-fake-fn-7.2" data-hash-target to="ability-arcane_discoveries-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Passive Ability">You add your Intelligence modifier on combat maneuver checks and to your CMD. You also add your Intelligence modifier on Strength checks to break or lift objects.</Pair>
 </Ability>
-<Ability id="arcanediscmultimorph-multimorph-su-fn2-6" icon={["stairs-goal"]}>
+<Ability id="arcanediscmultimorph-multimorph-su-fn2-6" icon={["power"]}>
 <Pair single id="arcanediscmultimorph-multimorph-su-fn2-6" flavor="Your studies in transmogrification have increased your control over shapechanging spells."><Link to="/arcanedisc/multimorph">⮞</Link> Multimorph (Su) <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-2.6" id="ability-arcane_discoveries-fake-fn-2.6" data-hash-target to="ability-arcane_discoveries-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites">5th-level wizard</Pair>
 <Pair title="Standard Action">When you cast a spell of the polymorph subschool on yourself, you may expend 1 minute of the spell's duration to assume another form allowed by the spell. You can do this as often as you like, subject to the duration of the spell.</Pair>
 </Ability>
-<Ability id="arcanediscobservantillusion-observant-illusion-su-fn8" icon={["stairs-goal"]}>
+<Ability id="arcanediscobservantillusion-observant-illusion-su-fn8" icon={["power"]}>
 <Pair single id="arcanediscobservantillusion-observant-illusion-su-fn8"><Link to="/arcanedisc/observant_illusion">⮞</Link> Observant Illusion (Su) <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-8" id="ability-arcane_discoveries-fake-fn-8" data-hash-target to="ability-arcane_discoveries-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Prerequisites">9th-level wizard</Pair>
 <Pair title="Ability">You can project your senses into any ongoing figment or shadow illusion you create with a spell of at least 3rd level. You can see through its eyes and hear through its ears as if you were standing where it is, and during your turn you can switch from using its senses to using your own, or back again, as a <strong className="hl">swift</strong> or <strong className="hl">move action</strong>.</Pair>
 <Pair title="Special">While you are using its senses, your body is considered <Link to="/misc/blinded">blinded</Link> and <Link to="/misc/deafened">deafened</Link>.</Pair>
 </Ability>
-<Ability id="arcanediscoppositionresearch-opposition-research-fn2-7" icon={["magic-swirl","upgrade"]}>
+<Ability id="arcanediscoppositionresearch-opposition-research-fn2-7" icon={["magic","boost"]}>
 <Pair single id="arcanediscoppositionresearch-opposition-research-fn2-7"><Link to="/arcanedisc/opposition_research">⮞</Link> Opposition Research <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-2.7" id="ability-arcane_discoveries-fake-fn-2.7" data-hash-target to="ability-arcane_discoveries-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites">9th-level wizard, have at least one opposition school</Pair>
 <Pair title="Ability">By completing strenuous studies, you have broken through the mental barriers that made it hard for you to prepare spells from one of your opposition schools. Select one wizard opposition school; preparing spells of this school now only requires one spell slot of the appropriate level instead of two, and you no longer have the -4 Spellcraft penalty for crafting items from that school.</Pair>
 </Ability>
-<Ability id="arcanediscpsychicpreparation-psychic-preparation-fn6-2" icon={["magic-swirl"]}>
+<Ability id="arcanediscpsychicpreparation-psychic-preparation-fn6-2" icon={["magic"]}>
 <Pair single id="arcanediscpsychicpreparation-psychic-preparation-fn6-2"><Link to="/arcanedisc/psychic_preparation">⮞</Link> Psychic Preparation <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-6.2" id="ability-arcane_discoveries-fake-fn-6.2" data-hash-target to="ability-arcane_discoveries-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Ability">You have learned a limited way to access <Link to="/rule/psychic_magic">psychic magic</Link>. When you first prepare your spells for the day, you can prepare one spell as a psychic spell. This spell must be at least 2 levels lower than the highest-level wizard spell you can cast, and takes a slot 1 level higher than the spell's actual level. When you cast this spell, it operates as a psychic spell, including using emotional and thought components in place of somatic and verbal components, and only having expensive material components.</Pair>
 </Ability>
-<Ability id="arcanediscresilientillusions-resilient-illusions-fn1-3" icon={["upgrade"]}>
+<Ability id="arcanediscresilientillusions-resilient-illusions-fn1-3" icon={["boost"]}>
 <Pair single id="arcanediscresilientillusions-resilient-illusions-fn1-3"><Link to="/arcanedisc/resilient_illusions">⮞</Link> Resilient Illusions <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-1.3" id="ability-arcane_discoveries-fake-fn-1.3" data-hash-target to="ability-arcane_discoveries-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level wizard</Pair>
 <Pair title="Passive Ability">You are able to conjure illusions so lifelike that they defy disbelief. Anytime a creature tries to disbelieve one of your illusion effects, make a caster level check. Treat the illusion's save DC as its normal DC or the result of the caster level check, whichever is higher.</Pair>
 </Ability>
-<Ability id="arcanediscsplitslot-split-slot-fn2-8" icon={["magic-swirl"]}>
+<Ability id="arcanediscsplitslot-split-slot-fn2-8" icon={["magic"]}>
 <Pair single id="arcanediscsplitslot-split-slot-fn2-8"><Link to="/arcanedisc/split_slot">⮞</Link> Split Slot <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-2.8" id="ability-arcane_discoveries-fake-fn-2.8" data-hash-target to="ability-arcane_discoveries-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites">5th-level wizard</Pair>
 <Pair title="Ability">Once per day when you prepare spells, you may treat any one of your open spell slots as if it were two spell slots that were two spell levels lower. For example, a 9th-level wizard can split a 5th-level slot into two 3rd-level slots, preparing <Link to="/spell/fireball">fireball</Link> and <Link to="/spell/lightning_bolt">lightning bolt</Link> in those 3rd-level slots. For all purposes, the two lower-level slots are treated as that lower level (so the split 5th-level slot used for a fireball has a DC as if it were in a normal 3rd-level slot). Splitting a 2nd-level slot lets you prepare two additional cantrips (which you can cast over and over, just like normally prepared cantrips).</Pair>
 <Pair title="Special">This discovery has no effect on cantrips or 1st-level spells. You may select this discovery multiple times; each time you select it, you may split another spell slot when you prepare spells. You cannot split a slot that you created by splitting a higher-level slot.</Pair>
 </Ability>
-<Ability id="arcanediscstafflikewand-staff-like-wand-fn9" icon={["upgrade"]}>
+<Ability id="arcanediscstafflikewand-staff-like-wand-fn9" icon={["boost"]}>
 <Pair single id="arcanediscstafflikewand-staff-like-wand-fn9"><Link to="/arcanedisc/staff_like_wand">⮞</Link> Staff-Like Wand <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-9" id="ability-arcane_discoveries-fake-fn-9" data-hash-target to="ability-arcane_discoveries-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">11th-level wizard, <Link to="/feat/craft_staff">Craft Staff</Link></Pair>
 <Pair title="Ability">Your research has unlocked a new power in conjunction with using a wand. Similar to using a magic staff, you use your own Intelligence score and relevant feats to set the DC for saves against spells you cast from a wand, and you can use your caster level when activating the power of a wand if it's higher than the caster level of the wand.</Pair>
 </Ability>
-<Ability id="arcanediscstewardofthegreatbeyond-steward-of-the-great-beyond-fn10" icon={["magic-swirl"]}>
+<Ability id="arcanediscstewardofthegreatbeyond-steward-of-the-great-beyond-fn10" icon={["magic"]}>
 <Pair single id="arcanediscstewardofthegreatbeyond-steward-of-the-great-beyond-fn10"><Link to="/arcanedisc/steward_of_the_great_beyond">⮞</Link> Steward of the Great Beyond <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-10" id="ability-arcane_discoveries-fake-fn-10" data-hash-target to="ability-arcane_discoveries-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Prerequisites">9th-level wizard</Pair>
 <Pair title="Usage">1 time/day + 1 per five wizard levels beyond 10th<ByLevelPop levels={[[10,1],[15,2],[20,3]]} unit="time" postText="/day" /></Pair>
 <Pair title="Immediate Action">Whenever a creature attempts to use a teleportation effect or summon a creature within 30 feet of you, you may attempt to block the effect. Make an opposed caster level check (1d20 + caster level). If the check succeeds, the spell or effect fails and is wasted; otherwise, it is unaffected.</Pair>
 </Ability>
-<Ability id="arcanedisctimestutter-time-stutter-sp-fn7-3" icon={["magic-swirl"]}>
+<Ability id="arcanedisctimestutter-time-stutter-sp-fn7-3" icon={["magic"]}>
 <Pair single id="arcanedisctimestutter-time-stutter-sp-fn7-3"><Link to="/arcanedisc/time_stutter">⮞</Link> Time Stutter (Sp) <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-7.3" id="ability-arcane_discoveries-fake-fn-7.3" data-hash-target to="ability-arcane_discoveries-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level wizard</Pair>
 <Pair title="Usage">1 time/day + 1 per five wizard levels beyond 10th<ByLevelPop levels={[[10,1],[15,2],[20,3]]} unit="time" postText="/day" /></Pair>
 <Pair title="Ability">You can briefly step out of time, pausing the world around you. This ability acts as the <Link to="/spell/time_stop">time stop</Link> spell, except that you gain only 1 round of apparent time.</Pair>
 </Ability>
-<Ability id="arcanedisctruename-true-name-sp-fn9-2" icon={["magic-swirl"]}>
+<Ability id="arcanedisctruename-true-name-sp-fn9-2" icon={["magic"]}>
 <Pair single id="arcanedisctruename-true-name-sp-fn9-2"><Link to="/arcanedisc/true_name">⮞</Link> True Name (Sp) <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-9.2" id="ability-arcane_discoveries-fake-fn-9.2" data-hash-target to="ability-arcane_discoveries-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">11th-level wizard</Pair>
 <Pair title="Ability"><p>Your researches into ancient tomes and your inquisitions of bound spirits have led you to one of the best-hidden secrets of the multiverse: the true name of an outsider - the name that defines the very essence of the creature and that gives the speaker control over the being. This outsider can have no more than 12 Hit Dice. Once per day, you can speak the common name by which the outsider is known, and the outsider travels to you as if you had cast <Link to="/spell/planar_binding">planar binding</Link> upon it. It must obey you to the best of its ability, without pay or bargaining for its services, for its fear that you might release its true name to the wider world is enough to bring even the most recalcitrant of outsiders to bear.</p>
@@ -913,12 +913,12 @@ const _arcane_discoveries = {title: "Arcane Discoveries", topLink: ["Wizard","cl
 </Pair>
 <Pair title="Special">You may select this discovery multiple times. Each time you select this discovery, it applies to a different, specific outsider. If you select this discovery at 15th level or higher, the creature may have up to 18 Hit Dice and the call acts as <Link to="/spell/greater_planar_binding">greater planar binding</Link> instead of <em>planar binding.</em></Pair>
 </Ability>
-<Ability id="arcanediscwerewolfshape-werewolf-shape-fn11" icon={["upgrade"]}>
+<Ability id="arcanediscwerewolfshape-werewolf-shape-fn11" icon={["boost"]}>
 <Pair single id="arcanediscwerewolfshape-werewolf-shape-fn11"><Link to="/arcanedisc/werewolf_shape">⮞</Link> Werewolf Shape <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-11" id="ability-arcane_discoveries-fake-fn-11" data-hash-target to="ability-arcane_discoveries-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Prerequisites">15th-level wizard</Pair>
 <Pair title="Ability">When you cast <Link to="/spell/beast_shape_iv">beast shape IV</Link> or <Link to="/spell/shapechange">shapechange</Link>, you can choose to take the shape of a werewolf in addition to the other shapes available. While in <em>werewolf shape,</em> you gain all the effects of the <Link to="/template/lycanthrope">lycanthrope</Link> template instead of the spell's normal benefits. You act in all respects as a natural lycanthrope for the duration of the spell, including the ability to inflict the <Link to="/umr/curse_of_lycanthropy">curse of lycanthropy</Link> using the spell's save DC.</Pair>
 </Ability>
-<Ability id="arcanediscyuelralsblessing-yuelrals-blessing-fn10-2" icon={["upgrade"]}>
+<Ability id="arcanediscyuelralsblessing-yuelrals-blessing-fn10-2" icon={["boost"]}>
 <Pair single id="arcanediscyuelralsblessing-yuelrals-blessing-fn10-2"><Link to="/arcanedisc/yuelrals_blessing">⮞</Link> Yuelral's Blessing <sup><InnerLink showBacklink="backlink-ability-arcane_discoveries-fake-fn-10.2" id="ability-arcane_discoveries-fake-fn-10.2" data-hash-target to="ability-arcane_discoveries-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Prerequisites">5th-level wizard</Pair>
 <Pair title="Passive Ability">You cast any spells that appear on both the wizard and druid spell lists at +1 caster level and with +1 to the save DC. In addition, you may replace the material component of any arcane spell with gems of the same value.</Pair>
@@ -1084,7 +1084,7 @@ const _aspects = {title: "Aspects", topLink: ["Shifter","class/shifter"], jsx: <
 </>};
 const _banners = {title: "Banners", topLink: ["Cavalier","class/cavalier"], jsx: <><h2 id="ability-banners-cavalier-banners">Cavalier Banners</h2>
 <p><strong>Sources</strong> <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 4</Link><br/>Some knights inspire and direct their allies with specialized tactics. A cavalier or <Link to="/class/samurai">samurai</Link> can select one of the following battle standards upon gaining the banner class feature, and its benefits replace the normal benefits of the banner and greater banner class features. A battle standard functions as the banner or greater banner class feature except where otherwise noted. A cavalier or samurai who replaces the banner or greater banner class feature via an archetype cannot select a battle standard, with the following exception: a standard bearer cavalier can select a battle standard at 1st level, and its effects increase as per the standard bearer's banner.</p>
-<Ability id="fleet-standard-ex" icon={["upgrade","armor-upgrade","stairs-goal"]}>
+<Ability id="fleet-standard-ex" icon={["boost","def","power"]}>
 <Pair single id="fleet-standard-ex">Fleet Standard (Ex)</Pair>
 <Pair title="Passive Ability">An ally who benefits from this standard increases her land speed by 5 feet and gains a +1 dodge bonus to AC during any round in which she moved at least 10 feet. This increase to land speed is an enhancement bonus.</Pair>
 <Pair title="At 10th Level">The bonus to speed becomes +10 feet.</Pair>
@@ -1093,7 +1093,7 @@ const _banners = {title: "Banners", topLink: ["Cavalier","class/cavalier"], jsx:
 <Pair title="At 20th Level">The bonus to speed becomes +20 feet.</Pair>
 <Pair title="Special">When the cavalier or samurai waves this standard, each ally within 60 feet can move up to her speed as an <strong className="hl">immediate action</strong>.</Pair>
 </Ability>
-<Ability id="jinx-standard-ex" icon={["upgrade","stairs-goal"]}>
+<Ability id="jinx-standard-ex" icon={["boost","power"]}>
 <Pair single id="jinx-standard-ex">Jinx Standard (Ex)</Pair>
 <Pair title="Passive Ability">An ally who benefits from this standard gains a +1 bonus on caster level checks to bypass spell resistance and a +1 bonus to the DC of her hexes and necromancy or enchantment spell she casts.</Pair>
 <Pair title="At 10th Level">The bonus on caster level checks becomes +2.</Pair>
@@ -1102,7 +1102,7 @@ const _banners = {title: "Banners", topLink: ["Cavalier","class/cavalier"], jsx:
 <Pair title="At 20th Level">The bonus on caster level checks becomes +4.</Pair>
 <Pair title="Special">When the cavalier or samurai waves this standard, a number of allies equal to the cavalier or samurai's Charisma modifier (minimum 1) within 60 feet can attempt an Intimidate check to demoralize a foe as an <strong className="hl">immediate action</strong>.</Pair>
 </Ability>
-<Ability id="knave-standard-ex" icon={["armor-upgrade","upgrade","stairs-goal"]}>
+<Ability id="knave-standard-ex" icon={["def","boost","power"]}>
 <Pair single id="knave-standard-ex">Knave Standard (Ex)</Pair>
 <Pair title="Passive Ability">An ally who benefits from this standard gains a +2 dodge bonus to AC against attacks of opportunity provoked by movement and a +1 morale bonus on attack rolls that benefit from <Link to="/rule/flanking">flanking</Link>.</Pair>
 <Pair title="At 10th Level">The bonus to AC becomes +3.</Pair>
@@ -1111,7 +1111,7 @@ const _banners = {title: "Banners", topLink: ["Cavalier","class/cavalier"], jsx:
 <Pair title="At 20th Level">The bonus to AC becomes +5.</Pair>
 <Pair title="Special">When the cavalier or samurai waves this standard, a number of allies equal to the cavalier or samurai's Charisma modifier (minimum 1) within 60 feet can each attempt a <Link to="/rule/feint">feint</Link> against a foe she threatens as an <strong className="hl">immediate action</strong>.</Pair>
 </Ability>
-<Ability id="stalwart-standard-ex" icon={["upgrade","upgrade","stairs-goal"]}>
+<Ability id="stalwart-standard-ex" icon={["boost","boost","power"]}>
 <Pair single id="stalwart-standard-ex">Stalwart Standard (Ex)</Pair>
 <Pair title="Passive Ability">An ally who benefits from this standard gains a +2 morale bonus to CMD and a +1 morale bonus on attack rolls to creatures threatening an ally.</Pair>
 <Pair title="At 10th Level">The morale bonus to CMD becomes +3.</Pair>
@@ -1216,18 +1216,18 @@ const _bloodline_mutations = {title: "Bloodline Mutations", topLink: ["Sorcerer"
 <p><strong>Sources</strong> <Link to="/source/magic_tactics_toolbox">Magic Tactics Toolbox pg. 10</Link></p>
 <p>Although heirs to similar arcane bloodlines may share commonalities, the unique circumstances in which a bloodline enters a <Link to="/class/bloodrager">bloodrager</Link> or sorcerer's lineage can result in the manifestation of particularly strange or unusual bloodline powers known as mutations. Whenever a bloodrager or a sorcerer gains a new bloodline power, she can swap her bloodline power for a bloodline mutation whose prerequisites she meets. Once this choice is made, it cannot be changed, and a bloodrager or sorcerer cannot swap a bloodline power that she has altered or replaced with an archetype for a bloodline mutation. A bloodrager need not be in a bloodrage to use her bloodline mutation powers.</p>
 <p>Alternatively, a bloodrager or sorcerer can select a bloodline mutation in place of a bloodline bonus feat, provided her class level is at least equal to the level of the bloodline ability the mutation normally replaces.</p>
-<Ability id="blood-havoc" icon={["upgrade"]}>
+<Ability id="blood-havoc" icon={["boost"]}>
 <Pair single id="blood-havoc">Blood Havoc</Pair>
 <Pair title="Replaces" hl>The sorcerer's 1st-level bloodline power or the bloodrager's 4th-level bloodline power</Pair>
 <Pair title="Ability">Whenever you cast a bloodrager or sorcerer spell that deals damage, add 1 point of damage per die rolled. This benefit applies only to damaging spells that belong to schools you have selected with <Link to="/feat/spell_focus">Spell Focus</Link> or that are bloodline spells for your bloodline.</Pair>
 </Ability>
-<Ability id="blood-intensity" icon={["upgrade"]}>
+<Ability id="blood-intensity" icon={["boost"]}>
 <Pair single id="blood-intensity">Blood Intensity</Pair>
 <Pair title="Replaces" hl>The sorcerer's 3rd-level bloodline power or the bloodrager's 8th-level bloodline power</Pair>
 <Pair title="Ability">Whenever you cast a bloodrager or sorcerer spell that deals damage, you can increase its maximum number of damage dice by an amount equal to your Strength or Charisma modifier, whichever is higher. This otherwise functions as &mdash; and does not stack with &mdash; the <Link to="/feat/intensified_spell">Intensified Spell</Link> feat.</Pair>
 <Pair title="Usage">1 time/day + 1 per four sorcerer or bloodrager levels beyond 3rd<ByLevelPop levels={[[3,1],[7,2],[11,3],[15,4],[19,5]]} unit="time" postText="/day" /></Pair>
 </Ability>
-<Ability id="blood-piercing" icon={["armor-downgrade"]}>
+<Ability id="blood-piercing" icon={["lower"]}>
 <Pair single id="blood-piercing">Blood Piercing</Pair>
 <Pair title="Replaces" hl>The sorcerer's 9th-level bloodline power or the bloodrager's 4th-level bloodline power</Pair>
 <Pair title="Ability">When you cast a bloodrager or sorcerer spell that deals damage, creatures affected by the spell reduce their energy resistance and spell resistance against the spell's effects by an amount equal to your Strength or Charisma modifier, whichever is higher.</Pair>
@@ -1737,19 +1737,19 @@ const _dares = {title: "Dares", topLink: ["Gunslinger","class/gunslinger"], jsx:
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <p>Dares are similar to deeds in that they grant a gunslinger or a swashbuckler extra abilities based on either grit or panache, but unlike deeds, dares become active when a member of these classes runs out of her respective pool, and become inactive when the character regains points of their respective pool. They grant the character a benefit and a new ability to regain or increase the ability to regain either grit or panache.</p>
 <p>A dare can be taken in place of one of the bonus feats one of those classes gains at 4th level and every 4 levels thereafter. A member of those classes can choose to have multiple dares, but can only pick one to be active each time she reaches 0 grit or panache points. Once chosen, the active dare cannot be changed until the gunslinger or swashbuckler reaches 0 grit or panache points again.</p>
-<Ability id="desperate-evasion-ex" icon={["armor-upgrade","rolling-dices"]}>
+<Ability id="desperate-evasion-ex" icon={["def","roll"]}>
 <Pair single id="desperate-evasion-ex">Desperate Evasion (Ex)</Pair>
 <Pair title="Passive Ability">While this dare is active, you gain the <Link to="/ability/evasion">evasion</Link> class feature. If you already have this class feature, while this dare is active you roll twice when making a Reflex saving throw and take the higher result. You regain 1 grit point when you succeed at two Reflex saving throws while using this dare.</Pair>
 </Ability>
-<Ability id="frantically-nimble-ex" icon={["armor-upgrade"]}>
+<Ability id="frantically-nimble-ex" icon={["def"]}>
 <Pair single id="frantically-nimble-ex">Frantically Nimble (Ex)</Pair>
 <Pair title="Passive Ability">While this dare is active, you gain a +2 dodge bonus to AC. You regain 1 grit point when any enemy making a ranged or melee attack against you misses you three consecutive times. The attacks need not come from the same enemy.</Pair>
 </Ability>
-<Ability id="out-for-blood-ex" icon={["upgrade"]}>
+<Ability id="out-for-blood-ex" icon={["boost"]}>
 <Pair single id="out-for-blood-ex">Out for Blood (Ex)</Pair>
 <Pair title="Passive Ability">While this dare is active, your critical threat range with firearms increases by 1 (20/&times;4 becomes 19-20/&times;4, 19-20/&times;2 becomes 18-20/&times;2, and so on). This effect does not stack with similar effects that modify a weapon's critical threat range.</Pair>
 </Ability>
-<Ability id="run-like-hell-ex" icon={["upgrade","armor-upgrade"]}>
+<Ability id="run-like-hell-ex" icon={["boost","def"]}>
 <Pair single id="run-like-hell-ex">Run Like Hell (Ex)</Pair>
 <Pair title="Passive Ability">While this dare is active, your speed increases by 10 feet, and you retain your Dexterity bonus to your AC while running. You regain 1 grit point the first time you are more than 100 feet away from your closest enemy.</Pair>
 </Ability>
@@ -1758,19 +1758,19 @@ const _swashbuckler_dares = {title: "Dares", topLink: ["Swashbuckler","class/swa
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <p>Dares are similar to deeds in that they grant a gunslinger or a swashbuckler extra abilities based on either grit or panache, but unlike deeds, dares become active when a member of these classes runs out of her respective pool, and become inactive when the character regains points of their respective pool. They grant the character a benefit and a new ability to regain or increase the ability to regain either grit or panache.</p>
 <p>A dare can be taken in place of one of the bonus feats one of those classes gains at 4th level and every 4 levels thereafter. A member of those classes can choose to have multiple dares, but can only pick one to be active each time she reaches 0 grit or panache points. Once chosen, the active dare cannot be changed until the gunslinger or swashbuckler reaches 0 grit or panache points again.</p>
-<Ability id="desperate-evasion-ex" icon={["armor-upgrade","rolling-dices"]}>
+<Ability id="desperate-evasion-ex" icon={["def","roll"]}>
 <Pair single id="desperate-evasion-ex">Desperate Evasion (Ex)</Pair>
 <Pair title="Passive Ability">While this dare is active, you gain the <Link to="/ability/evasion">evasion</Link> class feature. If you already have this class feature, while this dare is active you roll twice when making a Reflex saving throw and take the higher result. You regain 1 panache point when you succeed at two Reflex saving throws while using this dare.</Pair>
 </Ability>
-<Ability id="frantically-nimble-ex" icon={["armor-upgrade"]}>
+<Ability id="frantically-nimble-ex" icon={["def"]}>
 <Pair single id="frantically-nimble-ex">Frantically Nimble (Ex)</Pair>
 <Pair title="Passive Ability">While this dare is active, you gain a +2 dodge bonus to AC. You regain 1 panache point when any enemy making a ranged or melee attack against you misses you three consecutive times. The attacks need not come from the same enemy.</Pair>
 </Ability>
-<Ability id="out-for-blood-ex" icon={["upgrade"]}>
+<Ability id="out-for-blood-ex" icon={["boost"]}>
 <Pair single id="out-for-blood-ex">Out for Blood (Ex)</Pair>
 <Pair title="Passive Ability">While this dare is active, your critical threat range with light or one-handed piercing melee weapons increases by 1 (20/&times;4 becomes 19-20/&times;4, 19-20/&times;2 becomes 18-20/&times;2, and so on). This effect does not stack with similar effects that modify a weapon's critical threat range.</Pair>
 </Ability>
-<Ability id="run-like-hell-ex" icon={["upgrade","armor-upgrade"]}>
+<Ability id="run-like-hell-ex" icon={["boost","def"]}>
 <Pair single id="run-like-hell-ex">Run Like Hell (Ex)</Pair>
 <Pair title="Passive Ability">While this dare is active, your speed increases by 10 feet, and you retain your Dexterity bonus to your AC while running. You regain 1 panache point the first time you are more than 100 feet away from your closest enemy.</Pair>
 </Ability>
@@ -1827,103 +1827,103 @@ const _disciplines = {title: "Psychic Disciplines", topLink: ["Psychic","class/p
 </>};
 const _phrenic_amplifications = {title: "Phrenic Amplifications", topLink: ["Psychic","class/psychic"], jsx: <div className="compilation"><p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 60</Link><br/>A psychic develops particular techniques to empower her spellcasting, called phrenic amplifications. The psychic can activate a phrenic amplification only while casting a spell using psychic magic, and the amplification modifies either the spell's effects or the process of casting it. The spell being cast is called the linked spell. The psychic can activate only one amplification each time she casts a spell, and doing so is part of the action used to cast the spell. She can use any amplification she knows with any psychic spell, unless the amplification's description states that it can be linked only to certain types of spells. A psychic learns one phrenic amplification at 1st level, selected from the list below. At 3rd level and every 4 levels thereafter, the psychic learns a new phrenic amplification. A phrenic amplification can't be selected more than once. Once a phrenic amplification has been selected, it can't be changed. Phrenic amplifications require the psychic to expend 1 or more points from her phrenic pool to function.</p>
 <hr/>
-<Ability id="phrenicampbiokinetichealing-biokinetic-healing-su-fn1" icon={["remedy"]}>
+<Ability id="phrenicampbiokinetichealing-biokinetic-healing-su-fn1" icon={["aid"]}>
 <Pair single id="phrenicampbiokinetichealing-biokinetic-healing-su-fn1"><Link to="/phrenicamp/biokinetic_healing">⮞</Link> Biokinetic Healing (Su) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-1" id="ability-phrenic_amplifications-fake-fn-1" data-hash-target to="ability-phrenic_amplifications-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">When the psychic casts a linked spell from the transmutation school, she can spend 1 point from her phrenic pool to regain 2 hit points per level of the linked spell.</Pair>
 </Ability>
-<Ability id="phrenicampcomplexcountermeasures-complex-countermeasures-ex-fn2" icon={["upgrade"]}>
+<Ability id="phrenicampcomplexcountermeasures-complex-countermeasures-ex-fn2" icon={["boost"]}>
 <Pair single id="phrenicampcomplexcountermeasures-complex-countermeasures-ex-fn2"><Link to="/phrenicamp/complex_countermeasures">⮞</Link> Complex Countermeasures (Ex) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-2" id="ability-phrenic_amplifications-fake-fn-2" data-hash-target to="ability-phrenic_amplifications-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">The psychic can spend 1 point from her phrenic pool to increase by 2 the DCs of <Link to="/rule/concentration">concentration</Link> checks or caster level checks the linked spell requires enemies to attempt. For example, if the linked spell were <Link to="/spell/nondetection">nondetection</Link>, the DC of the caster level check for using a divination on the warded creature or item would increase. This increase also applies to checks to dispel, counterspell, or identify the linked spell.</Pair>
 <Pair title="Special">The bonus applies while the spell is cast and lasts for the spell's duration (if appropriate), to a maximum of 24 hours. The psychic can choose to spend 2 points from her phrenic pool to instead increase the linked spell's DCs by 4.</Pair>
 </Ability>
-<Ability id="phrenicampconjuredarmor-conjured-armor-su-fn3" icon={["armor-upgrade"]}>
+<Ability id="phrenicampconjuredarmor-conjured-armor-su-fn3" icon={["def"]}>
 <Pair single id="phrenicampconjuredarmor-conjured-armor-su-fn3"><Link to="/phrenicamp/conjured_armor">⮞</Link> Conjured Armor (Su) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-3" id="ability-phrenic_amplifications-fake-fn-3" data-hash-target to="ability-phrenic_amplifications-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">By spending 1 point from her phrenic pool, the psychic grants any creature she conjures or summons with the linked spell a +2 deflection bonus to AC. This bonus lasts for 1 round per caster level or until the creature disappears, whichever comes first. This amplification can be linked only to conjuration (calling) or conjuration (summoning) spells.</Pair>
 <Pair title="At 8th Level">The bonus becomes +3.</Pair>
 <Pair title="At 15th Level">The bonus increases to +4.</Pair>
 </Ability>
-<Ability id="phrenicampdefensiveprognostication-defensive-prognostication-su-fn3-2" icon={["armor-upgrade"]}>
+<Ability id="phrenicampdefensiveprognostication-defensive-prognostication-su-fn3-2" icon={["def"]}>
 <Pair single id="phrenicampdefensiveprognostication-defensive-prognostication-su-fn3-2" flavor="When casting a divination spell, the psychic sees a glimmer of her future."><Link to="/phrenicamp/defensive_prognostication">⮞</Link> Defensive Prognostication (Su) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-3.2" id="ability-phrenic_amplifications-fake-fn-3.2" data-hash-target to="ability-phrenic_amplifications-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">By spending 1 point from her phrenic pool as she casts a divination spell, she gains a +2 insight bonus to AC for a number of rounds equal to the linked spell's level. She can instead spend 2 points to increase the bonus to +4. This amplification can be linked only to divination spells.</Pair>
 </Ability>
-<Ability id="phrenicampdragonsbreath-dragons-breath-su-fn1-2" icon={["tornado-discs"]}>
+<Ability id="phrenicampdragonsbreath-dragons-breath-su-fn1-2" icon={["cone"]}>
 <Pair single id="phrenicampdragonsbreath-dragons-breath-su-fn1-2"><Link to="/phrenicamp/dragons_breath">⮞</Link> Dragon's Breath (Su) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-1.2" id="ability-phrenic_amplifications-fake-fn-1.2" data-hash-target to="ability-phrenic_amplifications-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">The psychic can spend 2 points from her phrenic pool to change a linked spell that has a line or burst area of effect into a 30-foot cone that emanates from the psychic's mouth as a breath weapon.</Pair>
 </Ability>
-<Ability id="phrenicampfocusedforce-focused-force-su-fn3-3" icon={["upgrade"]}>
+<Ability id="phrenicampfocusedforce-focused-force-su-fn3-3" icon={["boost"]}>
 <Pair single id="phrenicampfocusedforce-focused-force-su-fn3-3"><Link to="/phrenicamp/focused_force">⮞</Link> Focused Force (Su) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-3.3" id="ability-phrenic_amplifications-fake-fn-3.3" data-hash-target to="ability-phrenic_amplifications-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">When casting a <Link to="/spelldef/force">force</Link> spell, the psychic can increase the spell's damage by spending 1 point from her phrenic pool. Increase the die size for the spell's damage by one step (from 1d4 to 1d6, 1d6 to 1d8, 1d8 to 1d10, or 1d10 to 1d12). This increases the size of each die rolled, so a spell that dealt 4d6+3 points of force damage would deal 4d8+3 points of force damage instead.</Pair>
 <Pair title="Special">This amplification can be linked only to spells that deal force damage, and only if that damage includes a die value. A spell that already uses d12s for damage can't be amplified in this way.</Pair>
 </Ability>
-<Ability id="phrenicampintensefocus-intense-focus-ex-fn3-4" icon={["upgrade"]}>
+<Ability id="phrenicampintensefocus-intense-focus-ex-fn3-4" icon={["boost"]}>
 <Pair single id="phrenicampintensefocus-intense-focus-ex-fn3-4"><Link to="/phrenicamp/intense_focus">⮞</Link> Intense Focus (Ex) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-3.4" id="ability-phrenic_amplifications-fake-fn-3.4" data-hash-target to="ability-phrenic_amplifications-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">The psychic can spend 1 point from her phrenic pool to gain a +2 bonus on any concentration check she attempts as part of casting the linked spell. She can choose to spend 2 points from her phrenic pool to instead gain a +4 bonus.</Pair>
 </Ability>
-<Ability id="phrenicampmindseye-minds-eye-su-fn4" icon={["upgrade"]}>
+<Ability id="phrenicampmindseye-minds-eye-su-fn4" icon={["boost"]}>
 <Pair single id="phrenicampmindseye-minds-eye-su-fn4" flavor="Some psychics train their visual and psychic senses, binding them together into a unified focus to better guide their ranged spells and place them with uncanny precision."><Link to="/phrenicamp/minds_eye">⮞</Link> Mind's Eye (Su) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-4" id="ability-phrenic_amplifications-fake-fn-4" data-hash-target to="ability-phrenic_amplifications-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">While casting a spell that requires a ranged attack roll, the psychic can spend 2 points from her phrenic pool and gain a +4 insight bonus on the attack roll.</Pair>
 <Pair title="Special">The psychic can spend 1 additional point to ignore penalties from <Link to="/rule/cover">cover</Link> (but not total cover).</Pair>
 </Ability>
-<Ability id="phrenicampmindshield-mindshield-su-fn3-5" icon={["armor-upgrade"]}>
+<Ability id="phrenicampmindshield-mindshield-su-fn3-5" icon={["def"]}>
 <Pair single id="phrenicampmindshield-mindshield-su-fn3-5"><Link to="/phrenicamp/mindshield">⮞</Link> Mindshield (Su) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-3.5" id="ability-phrenic_amplifications-fake-fn-3.5" data-hash-target to="ability-phrenic_amplifications-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">The psychic can spend 1 point from her phrenic pool to give one target of the linked spell a +2 morale bonus on Will saves for 1 round per psychic level (maximum 10 rounds). The psychic can instead spend 2 points to increase the bonus to +4. If the linked spell affects more than one creature, the psychic can spend the same number of points for each additional creature she wants to affect with this amplification.</Pair>
 <Pair title="Special">She must choose to spend either 1 point for each creature or 2 points for each creature; she can't grant different bonuses to different targets.</Pair>
 </Ability>
-<Ability id="phrenicampmindtouch-mindtouch-su-fn3-6" icon={["magic-swirl"]}>
+<Ability id="phrenicampmindtouch-mindtouch-su-fn3-6" icon={["magic"]}>
 <Pair single id="phrenicampmindtouch-mindtouch-su-fn3-6"><Link to="/phrenicamp/mindtouch">⮞</Link> Mindtouch (Su) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-3.6" id="ability-phrenic_amplifications-fake-fn-3.6" data-hash-target to="ability-phrenic_amplifications-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">The psychic can spend 1 point from her phrenic pool to probe one target's mind if that creature is affected by the linked spell. If the target of the linked spell fails its saving throw or is hit by the spell, the psychic detects its surface thoughts (as the 3rd-round effect of <Link to="/spell/detect_thoughts">detect thoughts</Link>). If the linked spell doesn't already require an attack roll or allow a saving throw, the target can attempt a Will saving throw to avoid the thought-detection effect only; the DC is calculated using the linked spell's level (and all other bonuses that would apply if the linked spell allowed a Will save).</Pair>
 <Pair title="Special">This amplification can be linked only to spells that affect a target or an area. If the linked spell can affect more than one creature, the psychic can attempt to detect more than one target's thoughts by spending 1 additional point per creature beyond the first. She must select these targets when she casts the spell and spends the points. This is a mind-affecting effect.</Pair>
 </Ability>
-<Ability id="phrenicampongoingdefense-ongoing-defense-su-fn3-7" icon={["armor-upgrade"]}>
+<Ability id="phrenicampongoingdefense-ongoing-defense-su-fn3-7" icon={["def"]}>
 <Pair single id="phrenicampongoingdefense-ongoing-defense-su-fn3-7"><Link to="/phrenicamp/ongoing_defense">⮞</Link> Ongoing Defense (Su) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-3.7" id="ability-phrenic_amplifications-fake-fn-3.7" data-hash-target to="ability-phrenic_amplifications-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Ability">The psychic can increase the duration of spells that improve her psychic defenses. She can spend 1 point from her phrenic pool when she casts any <Link to="/spell/intellect_fortress_1">intellect fortress</Link>, <Link to="/spell/mental_barrier_1">mental barrier</Link>, <Link to="/spell/thought_shield_1">thought shield</Link>, or <Link to="/spell/tower_of_iron_will_1">tower of iron will</Link> spell to extend the spell's duration by 1 round.</Pair>
 </Ability>
-<Ability id="phrenicampoverpoweringmind-overpowering-mind-ex-fn5" icon={["upgrade"]}>
+<Ability id="phrenicampoverpoweringmind-overpowering-mind-ex-fn5" icon={["boost"]}>
 <Pair single id="phrenicampoverpoweringmind-overpowering-mind-ex-fn5"><Link to="/phrenicamp/overpowering_mind">⮞</Link> Overpowering Mind (Ex) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-5" id="ability-phrenic_amplifications-fake-fn-5" data-hash-target to="ability-phrenic_amplifications-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">The psychic can spend 2 points from her phrenic pool to increase the Will save DC of the linked spell by 1.</Pair>
 <Pair title="At 8th Level">She can choose to instead spend 4 points to increase the DC by 2.</Pair>
 <Pair title="At 15th Level">She can choose to instead spend 6 points to increase the DC by 3.</Pair>
 <Pair title="Special">This amplification can be linked only to spells that have the mind-affecting descriptor and require a Will saving throw.</Pair>
 </Ability>
-<Ability id="phrenicampperfectbody-perfect-body-ex-fn4-2" icon={["armor-upgrade"]}>
+<Ability id="phrenicampperfectbody-perfect-body-ex-fn4-2" icon={["def"]}>
 <Pair single id="phrenicampperfectbody-perfect-body-ex-fn4-2" flavor="Some practitioners of psychic techniques extend their training to improve their bodies as well as their minds."><Link to="/phrenicamp/perfect_body">⮞</Link> Perfect Body (Ex) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-4.2" id="ability-phrenic_amplifications-fake-fn-4.2" data-hash-target to="ability-phrenic_amplifications-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">When the psychic casts a linked transmutation spell, she can spend 1 point from her phrenic pool to gain a +2 bonus on her next Reflex or Fortitude save.</Pair>
 </Ability>
-<Ability id="phrenicampphrenicstrike-phrenic-strike-su-fn1-3" icon={["mailed-fist","magic-swirl"]}>
+<Ability id="phrenicampphrenicstrike-phrenic-strike-su-fn1-3" icon={["melee","magic"]}>
 <Pair single id="phrenicampphrenicstrike-phrenic-strike-su-fn1-3"><Link to="/phrenicamp/phrenic_strike">⮞</Link> Phrenic Strike (Su) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-1.3" id="ability-phrenic_amplifications-fake-fn-1.3" data-hash-target to="ability-phrenic_amplifications-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">As long as the psychic has at least 1 point in her phrenic pool, she can attempt an unarmed strike in place of a touch attack as part of casting a spell with a range of touch. This unarmed attack still provokes attacks of opportunity as normal unless the psychic can otherwise make unarmed attacks without provoking attacks of opportunity.</Pair>
 </Ability>
-<Ability id="phrenicamppsychicdefense-psychic-defense-su-fn4-3" icon={["upgrade"]}>
+<Ability id="phrenicamppsychicdefense-psychic-defense-su-fn4-3" icon={["boost"]}>
 <Pair single id="phrenicamppsychicdefense-psychic-defense-su-fn4-3" flavor="Reading small, invisible cues allows the psychic to take advantage of social circumstances and subtly influence her target."><Link to="/phrenicamp/psychic_defense">⮞</Link> Psychic Defense (Su) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-4.3" id="ability-phrenic_amplifications-fake-fn-4.3" data-hash-target to="ability-phrenic_amplifications-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">Casting a linked spell during a social encounter and spending 1 point from her phrenic pool allows the psychic to add a +4 bonus on her next Bluff, Diplomacy, Intimidate, or Sense Motive check.</Pair>
 </Ability>
-<Ability id="phrenicamppsychofeedback-psychofeedback-su-fn1-4" icon={["upgrade"]}>
+<Ability id="phrenicamppsychofeedback-psychofeedback-su-fn1-4" icon={["boost"]}>
 <Pair single id="phrenicamppsychofeedback-psychofeedback-su-fn1-4"><Link to="/phrenicamp/psychofeedback">⮞</Link> Psychofeedback (Su) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-1.4" id="ability-phrenic_amplifications-fake-fn-1.4" data-hash-target to="ability-phrenic_amplifications-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">The psychic can spend 2 points from her phrenic pool to sacrifice a linked spell of 2nd level or higher. Doing so grants the psychic a +1 enhancement bonus to Strength, Dexterity, or Constitution per level of the sacrificed spell. This bonus lasts for 1 minute per psychic level.</Pair>
 </Ability>
-<Ability id="phrenicamprelentlesscasting-relentless-casting-su-fn5-2" icon={["rolling-dices","upgrade"]}>
+<Ability id="phrenicamprelentlesscasting-relentless-casting-su-fn5-2" icon={["roll","boost"]}>
 <Pair single id="phrenicamprelentlesscasting-relentless-casting-su-fn5-2"><Link to="/phrenicamp/relentless_casting">⮞</Link> Relentless Casting (Su) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-5.2" id="ability-phrenic_amplifications-fake-fn-5.2" data-hash-target to="ability-phrenic_amplifications-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">The psychic can spend 1 point from her phrenic pool to roll twice on any caster level checks to overcome spell resistance required for the linked spell and take the better result.</Pair>
 <Pair title="Special">Because she must decide to spend points from her phrenic pool when she starts casting a spell, the psychic must decide to use this ability before the GM calls for the caster level check.</Pair>
 </Ability>
-<Ability id="phrenicamptelempathicrestoration-telempathic-restoration-su-fn1-5" icon={["remedy","broken-shield"]}>
+<Ability id="phrenicamptelempathicrestoration-telempathic-restoration-su-fn1-5" icon={["aid","down"]}>
 <Pair single id="phrenicamptelempathicrestoration-telempathic-restoration-su-fn1-5"><Link to="/phrenicamp/telempathic_restoration">⮞</Link> Telempathic Restoration (Su) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-1.5" id="ability-phrenic_amplifications-fake-fn-1.5" data-hash-target to="ability-phrenic_amplifications-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">When the psychic casts <Link to="/spell/telepathic_bond">telepathic bond</Link>, she can spend 1 point from her phrenic pool to remove the <Link to="/misc/dazed">dazed</Link>, <Link to="/misc/frightened">frightened</Link>, <Link to="/misc/panicked">panicked</Link>, <Link to="/misc/shaken">shaken</Link>, or <Link to="/misc/stunned">stunned</Link> condition from one target of the bond. Doing so removes the status from the target of the linked spell, but applies it immediately (with any remaining duration) to the psychic.</Pair>
 </Ability>
-<Ability id="phrenicamptransferfear-transfer-fear-su-fn1-6" icon={["remedy"]}>
+<Ability id="phrenicamptransferfear-transfer-fear-su-fn1-6" icon={["aid"]}>
 <Pair single id="phrenicamptransferfear-transfer-fear-su-fn1-6"><Link to="/phrenicamp/transfer_fear">⮞</Link> Transfer Fear (Su) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-1.6" id="ability-phrenic_amplifications-fake-fn-1.6" data-hash-target to="ability-phrenic_amplifications-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">When the psychic successfully affects a target with a fear effect, she can spend 1 point from her phrenic pool to remove a fear effect from herself or one ally with whom she is in telepathic contact.</Pair>
 </Ability>
-<Ability id="phrenicampundercastsurge-undercast-surge-su-fn5-3" icon={["upgrade"]}>
+<Ability id="phrenicampundercastsurge-undercast-surge-su-fn5-3" icon={["boost"]}>
 <Pair single id="phrenicampundercastsurge-undercast-surge-su-fn5-3"><Link to="/phrenicamp/undercast_surge">⮞</Link> Undercast Surge (Su) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-5.3" id="ability-phrenic_amplifications-fake-fn-5.3" data-hash-target to="ability-phrenic_amplifications-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">When the psychic <Link to="/rule/undercasting_spells">undercasts</Link> a spell, she can spend points from her phrenic pool to increase the spell's effective level, essentially using up a lower-level spell slot to cast a higher-level version of the spell. This costs 2 points per spell level increased.</Pair>
 <Pair title="Special">She can't use this ability to cast a version higher than the version she knows. For instance, a psychic who knows <Link to="/spell/mind_thrust_iii">mind thrust III</Link> but not <Link to="/spell/mind_thrust_iv">mind thrust IV</Link> could cast <Link to="/spell/mind_thrust_ii">mind thrust II</Link> and spend 2 points to treat it as <em>mind thrust III,</em> but couldn't spend 4 points to treat it as <em>mind thrust IV.</em> This amplification can be linked only to spells that can be undercast.</Pair>
 </Ability>
-<Ability id="phrenicampwhisperofancients-whisper-of-ancients-ex-fn4-4" icon={["upgrade"]}>
+<Ability id="phrenicampwhisperofancients-whisper-of-ancients-ex-fn4-4" icon={["boost"]}>
 <Pair single id="phrenicampwhisperofancients-whisper-of-ancients-ex-fn4-4" flavor="The psychic can send her consciousness into the Astral Plane for a glimpse of synchronous information."><Link to="/phrenicamp/whisper_of_ancients">⮞</Link> Whisper of Ancients (Ex) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-4.4" id="ability-phrenic_amplifications-fake-fn-4.4" data-hash-target to="ability-phrenic_amplifications-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">While casting a linked divination spell, the psychic can spend 1 point from her phrenic pool to gain a +2 bonus on any associated skill check. She can spend 2 points from her phrenic pool to instead gain a +4 bonus.</Pair>
 </Ability>
-<Ability id="phrenicampwillofthedead-will-of-the-dead-su-fn5-4" icon={["upgrade"]}>
+<Ability id="phrenicampwillofthedead-will-of-the-dead-su-fn5-4" icon={["boost"]}>
 <Pair single id="phrenicampwillofthedead-will-of-the-dead-su-fn5-4" flavor="Even undead creatures can be affected by the psychic's mind-affecting spells."><Link to="/phrenicamp/will_of_the_dead">⮞</Link> Will of the Dead (Su) <sup><InnerLink showBacklink="backlink-ability-phrenic_amplifications-fake-fn-5.4" id="ability-phrenic_amplifications-fake-fn-5.4" data-hash-target to="ability-phrenic_amplifications-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Ability">The psychic can spend 2 points from her phrenic pool to overcome an undead creature's immunity to mind-affecting effects for the purposes of the linked spell. This ability functions even on mindless undead, but has no effect on creatures that aren't undead.</Pair>
 <Pair title="Special">This amplification can be linked only to spells that have the mind-affecting descriptor.</Pair>

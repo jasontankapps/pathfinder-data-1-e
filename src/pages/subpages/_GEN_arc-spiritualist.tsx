@@ -7,18 +7,18 @@ import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
 const _drowned_channeler = {title: "Drowned Channeler", jsx: <><h2 id="arc-spiritualist-drowned_channeler-drowned-channeler">Drowned Channeler</h2>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 52</Link><br/>When a drowned spirit doomed to a watery grave descends toward the evil of undeath and seeks refuge in a mortal shell, the result is an unusual spiritualist with powers that resonate with the drowned spirit's demise.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/swim">Swim</Link> (STR)</Pair>
 <Pair title="Removed Skills">Fly</Pair></Ability>
-<Ability id="drowned-phantom" icon={["stairs-goal","broken-shield"]}>
+<Ability id="drowned-phantom" icon={["power","down"]}>
 <Pair single id="drowned-phantom">Drowned Phantom</Pair>
 <Pair hl title="Alters">Phantom, shared consciousness, etheric tether, bonded manifestation</Pair>
 <Pair title="Ability"><p>A drowned channeler has a <em>drowned phantom.</em> A <em>drowned phantom's</em> ectoplasmic body drips with water and seems to bleed off watery droplets even its incorporeal form. A <em>drowned phantom</em> gains a swim speed of 30 feet in both forms and gains the <Link to="/subtype/water">water</Link> subtype in addition to the phantom subtype, meaning that it can use its natural slam attacks underwater without taking the penalty for bludgeoning attacks underwater.</p>
 <p>The drowned channeler's <em>etheric tether</em> extends twice as far underwater, but only half as far above water. Additionally, the <em>drowned phantom</em> doesn't grant any of the usual benefits while confined in the drowned channeler's consciousness unless the drowned channeler is within 25 feet of an ocean, sea, lake, or other large body of water. Both forms of <em>bonded manifestation</em> grant the <em>drowned phantom's</em> swim speed of 30 feet to the drowned channeler, and attacks from the ectoplasmic <em>bonded manifestation's</em> tendrils don't take the typical penalties for bludgeoning attacks underwater, as if the phantom itself made them.</p>
 </Pair>
 </Ability>
-<Ability id="drowned-spells" icon={["spell-book"]}>
+<Ability id="drowned-spells" icon={["learn"]}>
 <Pair single id="drowned-spells">Drowned Spells</Pair>
 <Pair hl title="Replaces">Bonded senses</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -30,7 +30,7 @@ const _drowned_channeler = {title: "Drowned Channeler", jsx: <><h2 id="arc-spiri
 <Pair plain title="6th"><Link to="/spell/fluid_form">Fluid form</Link></Pair>
 <Pair title="Special">The drowned channeler must still select them as spells known as normal.</Pair>
 </Ability>
-<Ability id="drowned-powers-sp" icon={["magic-swirl"]}>
+<Ability id="drowned-powers-sp" icon={["magic"]}>
 <Pair single id="drowned-powers-sp">Drowned Powers (Sp)</Pair>
 <Pair hl title="Replaces">Detect undead, calm spirit, see invisibility, call spirit</Pair>
 <Pair title="At 5th Level">A drowned channeler can use <em>hydraulic push</em> as a spell-like ability once per day.</Pair>
@@ -46,7 +46,7 @@ const _drowned_channeler = {title: "Drowned Channeler", jsx: <><h2 id="arc-spiri
 </>};
 const _ectoplasmatist = {title: "Ectoplasmatist", jsx: <><h2 id="arc-spiritualist-ectoplasmatist-ectoplasmatist">Ectoplasmatist</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 108</Link><br/>Instead of calling upon a phantom from the Ethereal Plane, an ectoplasmatist infuses herself with the mysterious substance called ectoplasm.</p>
-<Ability id="ectoplasmic-lash-su" icon={["mailed-fist"]}>
+<Ability id="ectoplasmic-lash-su" icon={["melee"]}>
 <Pair single id="ectoplasmic-lash-su">Ectoplasmic Lash (Su)</Pair>
 <Pair hl title="Replaces">Etheric tether, phantom, shared consciousness, fused consciousness, spiritual bond, empowered consciousness</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -61,14 +61,14 @@ const _ectoplasmatist = {title: "Ectoplasmatist", jsx: <><h2 id="arc-spiritualis
 <Pair title="At 16th Level">The ectoplasmatist chooses a second <em>emotional focus,</em> and her lashes gain the special weapon abilities as if affected by a <em>spirit-bound blade</em> spell with the special weapon ability of both of the ectoplasmatist's chosen <em>emotional foci.</em></Pair>
 <Pair title="At 18th Level">The lashes' enhancement bonus increases to +5.</Pair>
 </Ability>
-<Ability id="spiritual-combat-su" icon={["magic-swirl"]}>
+<Ability id="spiritual-combat-su" icon={["magic"]}>
 <Pair single id="spiritual-combat-su">Spiritual Combat (Su)</Pair>
 <Pair hl title="Replaces">Bonded manifestation, phantom recall, dual bond</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Full-Round Action">An ectoplasmatist can make all of her attacks with a single light or one-handed <em>ectoplasmic lash</em> wielded in one hand, and also cast a single spiritualist spell with a casting time of one standard action as a <strong className="hl">free action</strong> either before or after making the <em>ectoplasmic lash</em> attacks. The ectoplasmatist takes a -2 penalty on her attack rolls when using <em>spiritual combat.</em> If she decides to <Link to="/rule/cast_defensively">cast the spell defensively</Link>, she can choose to take an additional penalty on her attack rolls up to her Wisdom bonus, and add the same amount as a circumstance bonus on her <Link to="/rule/concentration">concentration</Link> check. If the concentration check fails, the spell is wasted, but the attacks still take the penalty.</Pair>
 <Pair title="Ability">Also, when the ectoplasmatist casts a spiritualist spell with a range of touch, she can deliver the spell through one of her <em>ectoplasmic lashes.</em> Instead of making the free melee touch attack she would normally use to deliver the spell, the ectoplasmatist can choose to make a free <em>ectoplasmic lash</em> attack at her highest base attack bonus. A successful lash attack deals damage normally and imparts the spell's effects. The ectoplasmatist can't hold the charge if her lash attack misses.</Pair>
 </Ability>
-<Ability id="ectoplasmic-armor-su" icon={["armor-upgrade"]}>
+<Ability id="ectoplasmic-armor-su" icon={["def"]}>
 <Pair single id="ectoplasmic-armor-su">Ectoplasmic Armor (Su)</Pair>
 <Pair hl title="Replaces">Spiritual interference, greater spiritual interference</Pair>
 <Pair title="At 4th Level">When an ectoplasmatist manifests her <em>ectoplasmic lash</em> ability, tendrils of ectoplasmic material envelop her body, granting her a +4 armor bonus to AC.</Pair>
@@ -77,37 +77,37 @@ const _ectoplasmatist = {title: "Ectoplasmatist", jsx: <><h2 id="arc-spiritualis
 </>};
 const _exciter = {title: "Exciter", jsx: <><h2 id="arc-spiritualist-exciter-exciter">Exciter</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 68</Link><br/>Psychic magic draws upon the twin and sometimes opposed powers of thought and emotion, but an exciter cares little for rationality. The phantom that accompanies him fills him with unbridled exultation, as he lets feeling and passion rule and sharpen his mind and body into a glorious fusion.</p>
-<Ability id="merged-phantom" icon={["broken-shield"]}>
+<Ability id="merged-phantom" icon={["down"]}>
 <Pair single id="merged-phantom">Merged Phantom</Pair>
 <Pair hl title="Replaces">6th-level phantom recall</Pair>
 <Pair hl title="Alters">Phantom, emotional focus</Pair>
 <Pair title="Ability">An exciter internalizes his phantom and merges it completely within his mind. He cannot fully manifest his phantom outside of his own body in incorporeal or ectoplasmic form. <em>Emotional focus</em> abilities that affect or require a manifested phantom are lost, except for any aura gained by the phantom at 7th level; if the phantom gains an aura at 7th level, this aura functions despite the phantom not being manifested, and is centered on the exciter.</Pair>
 </Ability>
-<Ability id="rapture-su" extraClasses="hasSubs" icon={["stairs-goal","upgrade"]}>
+<Ability id="rapture-su" extraClasses="hasSubs" icon={["power","boost"]}>
 <Pair single id="rapture-su" flavor="An exciter gains the ability to enter an ecstatic state in which he's consumed and overwhelmed by his passions and driven into a fighting fury.">Rapture (Su)</Pair>
 <Pair hl title="Replaces">Ability to manifest his phantom, ability to use <em>emotional focus</em> abilities that require a manifested phantom</Pair>
 <Pair title="Ability">This functions similarly to a <Link to="/class/bloodrager">bloodrager's</Link> <em>bloodrage,</em> treating his spiritualist level as his bloodrager level, though he doesn't qualify for feats or other elements that require <em>rage</em> or <em>bloodrage.</em> When entering a rapture, the exciter loses all other benefits from having his phantom confined in his consciousness (such as the <Link to="/feat/skill_focus">Skill Focus</Link> feats and bonus against mind-affecting effects), but he can choose to exchange the normal +4 morale bonus to his Strength and Constitution scores normally gained from <em>bloodrage</em> for a +4 morale bonus to his Dexterity and Charisma scores or a +2 morale bonus to his Strength, Dexterity, Constitution, and Charisma scores. In addition to the fatigue for ending a <em>bloodrage,</em> an exciter can't enter a rapture again for 1 minute after ending his last rapture.</Pair>
 </Ability>
-<Ability id="bloodrage-su" extraClasses="subAbility" icon={["stairs-goal","upgrade","armor-upgrade","broken-shield"]}>
+<Ability id="bloodrage-su" extraClasses="subAbility" icon={["power","boost","def","down"]}>
 <Pair single id="bloodrage-su" flavor="Text from the bloodrager class ability.">Bloodrage (Su)</Pair>
 <Pair title="Usage">You can <em>bloodrage</em> for 2 + twice your level + your Con modifier rounds/day; these rounds need not be consecutive. Temporary increases to Con (such as those gained from <em>bloodraging</em> or spells like <Link to="/spell/bears_endurance">bear's endurance</Link>) don't increase this number.<ByLevelPop levels={[[1,4],[2,6],[3,8],[4,10],[5,12],[6,14],[7,16],[8,18],[9,20],[10,22],[11,24],[12,26],[13,28],[14,30],[15,32],[16,34],[17,36],[18,38],[19,40],[20,42]]} preText="Con modifier + " unit="round" postText="/day" /></Pair>
 <Pair title="Free Action">You can enter or leave a <em>bloodrage</em> as a free action.</Pair>
 <Pair title="Passive Ability">While in a <em>bloodrage,</em> you gain a +4 morale bonus to your Strength and Constitution, as well as a +2 morale bonus on Will saves. In addition, you take a -2 penalty to Armor Class. The increase to Constitution grants you 2 hit points per Hit Die, but these disappear when the <em>bloodrage</em> ends and are not lost first like <Link to="/rule/temporary_hit_points">temporary hit points</Link>. While <em>bloodraging,</em> you cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration.</Pair>
 <Pair title="Special">When the <em>bloodrage</em> ends, you are <Link to="/misc/fatigued">fatigued</Link> for a number of rounds equal to twice the number of rounds spent in the <em>bloodrage.</em> You can't enter a new <em>bloodrage</em> while fatigued or <Link to="/misc/exhausted">exhausted</Link>, but can otherwise enter <em>bloodrage</em> multiple times during a single encounter or combat. If you fall <Link to="/misc/unconscious">unconscious</Link>, your <em>bloodrage</em> immediately ends, placing you in peril of death.</Pair>
 </Ability>
-<Ability id="fast-movement-ex" icon={["upgrade"]}>
+<Ability id="fast-movement-ex" icon={["boost"]}>
 <Pair single id="fast-movement-ex">Fast Movement (Ex)</Pair>
 <Pair hl title="Replaces">Etheric tether</Pair>
 <Pair title="Passive Ability">An exciter's land speed is faster than normal for his race by 10 feet. This benefit applies only when he is wearing light armor, medium armor, or no armor and is not carrying a heavy load. This doesn't stack with the <Link to="/class/barbarian">barbarian</Link> ability of the same name.</Pair>
 </Ability>
-<Ability id="excitation-su" icon={["stairs-goal"]}>
+<Ability id="excitation-su" icon={["power"]}>
 <Pair single id="excitation-su">Excitation (Su)</Pair>
 <Pair hl title="Replaces">Bonded senses</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">When an exciter is in a <em>rapture,</em> each round he can choose to intensify his emotional fury, expending 2 rounds of <em>rapture</em> instead of 1. When he uses <em>excitation,</em> he chooses one of the two abilities that his <em>emotional focus</em> would normally grant to a manifested phantom, such as <em>strength focus</em> and <em>powerful strike</em> for an <Link to="/emotionalfocus/anger">anger</Link> phantom, or <em>power from despair</em> and <em>miserable strike</em> for a <Link to="/emotionalfocus/despair">despair</Link> phantom. He gains these abilities until the beginning of his next turn.</Pair>
 <Pair title="Special">If the ability normally augments only a phantom's slam attacks, it instead applies to the ectoplasmic tendrils that the spiritualist can sprout using his ectoplasmic <em>bonded manifestation.</em></Pair>
 </Ability>
-<Ability id="rapturous-rage" icon={["stairs-goal"]}>
+<Ability id="rapturous-rage" icon={["power"]}>
 <Pair single id="rapturous-rage">Rapturous Rage</Pair>
 <Pair hl title="Replaces">10th-, 14th-, and 18th-level phantom recall, spiritual bond</Pair>
 <Pair title="Gained">At 10th Level</Pair>
@@ -115,20 +115,20 @@ const _exciter = {title: "Exciter", jsx: <><h2 id="arc-spiritualist-exciter-exci
 <Pair title="At 14th Level">He can choose another rage power, following the above restrictions.</Pair>
 <Pair title="At 18th Level">He can choose another rage power, following the above restrictions.</Pair>
 </Ability>
-<Ability id="perfect-passion-su" icon={["magic-swirl"]}>
+<Ability id="perfect-passion-su" icon={["magic"]}>
 <Pair single id="perfect-passion-su">Perfect Passion (Su)</Pair>
 <Pair hl title="Replaces">Spiritual interference</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">An exciter can cast psychic spells with an emotion component even while in his <em>rapture.</em> He can cast these spells defensively and attempt <Link to="/rule/concentration">concentration</Link> checks for these spells without impairment, despite being in a <em>rapture.</em> He also can attempt Charisma- and Intelligence-based skill checks related to psychic spells with an emotion component while in his <em>rapture.</em> He cannot cast arcane or divine spells or psychic spells that have a thought component while in a <em>rapture.</em></Pair>
 </Ability>
-<Ability id="overwhelming-excitment-su" icon={["stairs-goal"]}>
+<Ability id="overwhelming-excitment-su" icon={["power"]}>
 <Pair single id="overwhelming-excitment-su">Overwhelming Excitment (Su)</Pair>
 <Pair hl title="Replaces">Fused consciousness</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Ability">An exciter can share the effects of his <em>rapture</em> with willing allies within 10 feet. He must expend 2 additional rounds of his <em>rapture</em> each round for each ally sharing its effects. The exciter's allies share all effects of the <em>rapture</em> except the rage powers; each ally must end its turn within 10 feet of the exciter, or the effects of the <em>rapture</em> end for that ally and it becomes fatigued.</Pair>
 <Pair title="Special">Whenever he is not sharing the effects of his <em>rapture</em> with an ally, the exciter now retains the benefits of his phantom in his consciousness even during <em>rapture.</em></Pair>
 </Ability>
-<Ability id="greater-rapture-su" icon={["upgrade","armor-upgrade"]}>
+<Ability id="greater-rapture-su" icon={["boost","def"]}>
 <Pair single id="greater-rapture-su">Greater Rapture (Su)</Pair>
 <Pair hl title="Replaces">Greater spiritual interference</Pair>
 <Pair title="Gained">At 12th Level</Pair>
@@ -140,16 +140,16 @@ const _exciter = {title: "Exciter", jsx: <><h2 id="arc-spiritualist-exciter-exci
 </>};
 const _fated_guide = {title: "Fated Guide", jsx: <><h2 id="arc-spiritualist-fated_guide-fated-guide">Fated Guide</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 18</Link><br/>Not all phantoms are restless dead escaping the afterlife. On rare occasions, <Link to="/faith/pharasma">Pharasma</Link> returns a judged soul to the Material Plane - linking the spirit to a devout believer - to complete some final task, make amends for a crime, or grant a sharply divided soul a second chance. Sadly, from a soul's perspective, the journey along the River of Souls and its trials in the Boneyard last eons, and most phantoms return with little, if any, idea of who they were or the nature of their dedicated purposes. The fated guide helps her phantom uncover details about its life and what it can do to finally move on.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-spiritualist-fated_guide--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Phantom must have the <Link to="/emotionalfocus/remorse">remorse</Link> emotional focus</td></tr></tbody></table></ScrollContainer></div><Ability id="shepherd-to-the-dead" icon={["spell-book"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-spiritualist-fated_guide--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Phantom must have the <Link to="/emotionalfocus/remorse">remorse</Link> emotional focus</td></tr></tbody></table></ScrollContainer></div><Ability id="shepherd-to-the-dead" icon={["learn"]}>
 <Pair single id="shepherd-to-the-dead">Shepherd to the Dead</Pair>
 <Pair title="Info">A fated guide adds <Link to="/spell/disrupt_undead">disrupt undead</Link> and <Link to="/spell/sanctify_corpse">sanctify corpse</Link> to her list of spells known.</Pair>
 </Ability>
-<Ability id="divine-purpose" icon={["stairs-goal"]}>
+<Ability id="divine-purpose" icon={["power"]}>
 <Pair single id="divine-purpose">Divine Purpose</Pair>
 <Pair hl title="Replaces">Phantom's antagonistic ability</Pair>
 <Pair title="Ability">A fated guide's phantom gains <Link to="/feat/deific_obedience">Deific Obedience</Link> as a bonus feat, though the spiritualist must obey her god's obedience to gain any benefit.</Pair>
 </Ability>
-<Ability id="thanatopic-bonded-manifestation-su" icon={["stairs-goal","magic-swirl","armor-upgrade","magic-palm"]}>
+<Ability id="thanatopic-bonded-manifestation-su" icon={["power","magic","def","touch"]}>
 <Pair single id="thanatopic-bonded-manifestation-su" flavor="A fated guide can bond with her phantom to channel the influence of Pharasma and her servitors.">Thanatopic Bonded Manifestation (Su)</Pair>
 <Pair hl title="Alters">Bonded manifestation</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -159,13 +159,13 @@ const _fated_guide = {title: "Fated Guide", jsx: <><h2 id="arc-spiritualist-fate
 <Pair title="At 13th Level">While using her <em>thanatopic bonded manifestation,</em> the fated guide can cast <Link to="/spell/antilife_shell">antilife shell</Link> as a spell-like ability. Maintaining this spell quickly exhausts her phantom, and each round she maintains the spell consumes 2 rounds of bonded manifestation's duration.</Pair>
 <Pair title="At 18th Level">The fated guide's touch banishes the unquiet dead. She can deal 10d6 points of positive energy damage (Will half; DC = 10 + 1/2 the fated guide's spiritualist level + her Wisdom modifier) as a touch attack against undead creatures. An undead creature that successfully saves against this touch attack is immune to the same fated guide's positive energy touch for 24 hours.</Pair>
 </Ability>
-<Ability id="iron-bond-ex" icon={["armor-upgrade"]}>
+<Ability id="iron-bond-ex" icon={["def"]}>
 <Pair single id="iron-bond-ex">Iron Bond (Ex)</Pair>
 <Pair hl title="Replaces">See invisibility</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Passive Ability">Her phantom gains a +4 bonus on saving throws against <Link to="/spell/banishment">banishment</Link>, <Link to="/spell/dismissal">dismissal</Link>, or other similar effects.</Pair>
 </Ability>
-<Ability id="undeniable-bond-ex" icon={["armor-upgrade"]}>
+<Ability id="undeniable-bond-ex" icon={["def"]}>
 <Pair single id="undeniable-bond-ex">Undeniable Bond (Ex)</Pair>
 <Pair hl title="Replaces">Call spirit</Pair>
 <Pair title="Gained">At 16th Level</Pair>
@@ -179,7 +179,7 @@ const _fractured_mind = {title: "Fractured Mind", jsx: <><h2 id="arc-spiritualis
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Info">A fractured mind's ability to cast spells is tied to the force of her own spirit rather than her connection to the spirit world. As a result, she uses her Charisma score rather than her Wisdom score to determine the highest spell level she can cast, the saving throw DCs of spells she casts, and her bonus spells per day.</Pair>
 </Ability>
-<Ability id="emotional-power-sp" extraClasses="hasSubs" icon={["magic-swirl"]}>
+<Ability id="emotional-power-sp" extraClasses="hasSubs" icon={["magic"]}>
 <Pair single id="emotional-power-sp">Emotional Power (Sp)</Pair>
 <Pair hl title="Replaces">Detect undead, calm spirit, see invisibility, call spirit</Pair>
 <Pair title="Ability">The fractured mind gains a number of spell-like abilities, which are tied to her phantom's emotional focus. She gains one spell-like ability at 5th level, a second at 7th level, a third at 9th level, and a fourth at 16th level. A fractured mind can use each of these abilities once per day, plus one additional time per day for every 4 spiritualist levels she possesses beyond the level at which she gained the spell-like ability. The saving throw DCs for these spell-like abilities are equal to 10 + 1/2 the fractured mind's spiritualist class level + the fractured mind's Charisma modifier, rather than being based on the spell's level. The spell-like abilities granted by each emotional focus are listed below.</Pair>
@@ -191,70 +191,70 @@ const _fractured_mind = {title: "Fractured Mind", jsx: <><h2 id="arc-spiritualis
 <Pair title="At 19th Level">She can use the 7th-level power 4 times a day.</Pair>
 <Pair title="At 20th Level">She can use the 16th-level power 2 times a day.</Pair>
 </Ability>
-<Ability id="anger" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="anger" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="anger">Anger</Pair>
 <Pair plain title="5th"><Link to="/spell/enlarge_person">Enlarge person</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/rage">Rage</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/longstrider">Longstrider</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/shout">Shout</Link></Pair>
 </Ability>
-<Ability id="dedication" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="dedication" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="dedication">Dedication</Pair>
 <Pair plain title="5th"><Link to="/spell/command">Command</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/spiritual_weapon">Spiritual weapon</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/bless">Bless</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/death_ward">Death ward</Link></Pair>
 </Ability>
-<Ability id="despair" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="despair" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="despair">Despair</Pair>
 <Pair plain title="5th"><Link to="/spell/bungle">Bungle</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/stricken_heart">Stricken heart</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/doom">Doom</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/crushing_despair">Crushing despair</Link></Pair>
 </Ability>
-<Ability id="fear" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="fear" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="fear">Fear</Pair>
 <Pair plain title="5th"><Link to="/spell/bane">Bane</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/mad_hallucination">Mad hallucination</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/doom">Doom</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/phantasmal_killer">Phantasmal killer</Link></Pair>
 </Ability>
-<Ability id="hatred" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="hatred" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="hatred">Hatred</Pair>
 <Pair plain title="5th"><Link to="/spell/doom">Doom</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/inflict_moderate_wounds">Inflict moderate wounds</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/bane">Bane</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/bestow_curse">Bestow curse</Link></Pair>
 </Ability>
-<Ability id="jealousy" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="jealousy" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="jealousy">Jealousy</Pair>
 <Pair plain title="5th"><Link to="/spell/sanctuary">Sanctuary</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/resist_energy">Resist energy</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/entropic_shield">Entropic shield</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/spell_immunity">Spell immunity</Link></Pair>
 </Ability>
-<Ability id="kindnessfn1" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="kindnessfn1" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="kindnessfn1">Kindness<sup><InnerLink showBacklink="backlink-arc-spiritualist-fractured_mind-fake-fn-1" id="arc-spiritualist-fractured_mind-fake-fn-1" data-hash-target to="arc-spiritualist-fractured_mind-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair plain title="5th"><Link to="/spell/bless">Bless</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/calm_emotions">Calm emotions</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/heroism">Heroism</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/good_hope">Good hope</Link></Pair>
 </Ability>
-<Ability id="remorsefn2" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="remorsefn2" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="remorsefn2">Remorse<sup><InnerLink showBacklink="backlink-arc-spiritualist-fractured_mind-fake-fn-2" id="arc-spiritualist-fractured_mind-fake-fn-2" data-hash-target to="arc-spiritualist-fractured_mind-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair plain title="5th"><Link to="/spell/doom">Doom</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/inflict_pain">Inflict pain</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/stricken_heart">Stricken heart</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/mind_fog">Mind fog</Link></Pair>
 </Ability>
-<Ability id="whimseyfn3" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="whimseyfn3" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="whimseyfn3">Whimsey<sup><InnerLink showBacklink="backlink-arc-spiritualist-fractured_mind-fake-fn-3" id="arc-spiritualist-fractured_mind-fake-fn-3" data-hash-target to="arc-spiritualist-fractured_mind-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair plain title="5th"><Link to="/spell/ventriloquism">Ventriloquism</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/absurdity">Absurdity</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/major_image">Major image</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/rainbow_pattern">Rainbow pattern</Link></Pair>
 </Ability>
-<Ability id="zeal" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="zeal" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="zeal">Zeal</Pair>
 <Pair plain title="5th"><Link to="/spell/bless">Bless</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/spiritual_weapon">Spiritual weapon</Link></Pair>
@@ -268,7 +268,7 @@ const _fractured_mind = {title: "Fractured Mind", jsx: <><h2 id="arc-spiritualis
 </ol></section></>};
 const _geist_channeler = {title: "Geist Channeler", jsx: <><h2 id="arc-spiritualist-geist_channeler-geist-channeler">Geist Channeler</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 109</Link><br/>Some phantoms retain less of their personalities and memories than others. Though most phantoms maintain some semblance of their former selves, others of their kind, known as <Link to="/monster/geist">geists</Link>, came close to being lost forever before they became phantoms. Incapable of manifesting in ectoplasmic form and devoid of human emotions, these strange entities are much closer to ghosts than most other phantoms. The spiritualists who work with them, known as geist channelers, are able to call on them in unique ways.</p>
-<Ability id="geistform-phantom-su" icon={["broken-shield","upgrade"]}>
+<Ability id="geistform-phantom-su" icon={["down","boost"]}>
 <Pair single id="geistform-phantom-su">Geistform Phantom (Su)</Pair>
 <Pair hl title="Alters">Phantom</Pair>
 <Pair title="Info">A geist channeler's phantom can't manifest in ectoplasmic form, and is limited to manifesting in incorporeal form. As a result, the phantom has no Strength score, and has a starting Wisdom score of 12. Instead of gaining two slam attacks, it gains only a single slam attack that deals 1d8 points of damage (for a Medium phantom; perform <Link to="/misc/damage_die_adjustments">damage die adjustments</Link> for differently-sized phantoms).</Pair>
@@ -279,24 +279,24 @@ const _geist_channeler = {title: "Geist Channeler", jsx: <><h2 id="arc-spiritual
 <Pair title="At 15th Level">The slam attack's damage increases to 2d8 (Medium).</Pair>
 <Pair title="At 20th Level">The slam attack's damage increases to 2d10 (Medium)</Pair>
 </Ability>
-<Ability id="spiritual-manifestation-su" icon={["broken-shield"]}>
+<Ability id="spiritual-manifestation-su" icon={["down"]}>
 <Pair single id="spiritual-manifestation-su">Spiritual Manifestation (Su)</Pair>
 <Pair hl title="Alters">Bonded manifestation</Pair>
 <Pair title="Ability">Because of the nature of her phantom, a geist channeler can use the <em>bonded manifestation</em> ability to manifest his phantom only in incorporeal form.</Pair>
 </Ability>
-<Ability id="emotionless-su" extraClasses="hasSubs" icon={["broken-shield","upgrade","stairs-goal"]}>
+<Ability id="emotionless-su" extraClasses="hasSubs" icon={["down","boost","power"]}>
 <Pair single id="emotionless-su">Emotionless (Su)</Pair>
 <Pair title="Info">A geist channeler's phantom doesn't have an emotional focus; instead, it is cold and devoid of emotions.</Pair>
 <Pair title="Ability">The phantom gains a number of ranks in Knowledge (arcana) and Knowledge (religion) equal to its Hit Dice. While confined in the geist channeler's consciousness, the phantom grants the geist channeler <Link to="/feat/skill_focus">Skill Focus</Link> in each of these skills.</Pair>
 <Pair title="Special">The phantom has <Link to="/misc/good_saves">good Reflex and Will saves</Link>, and gains <Link to="/feat/iron_will">Iron Will</Link> as a bonus feat, as well as the following abilities.</Pair>
 </Ability>
-<Ability id="unnerving-touch-su" extraClasses="subAbility" icon={["magic-palm"]}>
+<Ability id="unnerving-touch-su" extraClasses="subAbility" icon={["touch"]}>
 <Pair single id="unnerving-touch-su">Unnerving Touch (Su)</Pair>
 <Pair title="Standard Action">A geist channeler's phantom can make a melee touch attack against a living creature, even if that creature is corporeal. If the attack hits, the target is <Link to="/misc/shaken">shaken</Link> for 1d4+1 rounds. A successful Will save (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) negates this effect.</Pair>
 <Pair title="At 5th Level">When the phantom gains the ability to damage corporeal creatures with its slam attack, its slam attacks against living corporeal creatures gain this ability.</Pair>
 <Pair title="Special">Multiple attacks against the same creature don't cause the creature to become <Link to="/misc/frightened">frightened</Link>. This is a mind-affecting fear effect.</Pair>
 </Ability>
-<Ability id="poltergeists-knack-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="poltergeists-knack-sp" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="poltergeists-knack-sp">Poltergeist's Knack (Sp)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Usage">3 times/day + 1 per three phantom HD beyond 7th</Pair>
@@ -308,7 +308,7 @@ const _geist_channeler = {title: "Geist Channeler", jsx: <><h2 id="arc-spiritual
 <Pair title="Usage">1 minute/day per spiritualist level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
 <Pair title="Standard Action">While a geist channeler's phantom is confined within his psyche, he can call upon its power to project an aura of spectral energy that prevents incorporeal creatures from approaching him. This takes the form of a 30-foot-radius <Link to="/misc/emanation">emanation</Link> centered on the geist channeler. Any incorporeal creature attempting to enter this area must succeed at a Will save (DC = 10 + 1/2 the geist channeler's spiritualist class level + the geist channeler's Wisdom modifier) or be unable to do so. This ability can be used only defensively, not aggressively; forcing the aura against an incorporeal creature collapses the aura.</Pair>
 </Ability>
-<Ability id="malevolent-possession-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="malevolent-possession-sp" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="malevolent-possession-sp">Malevolent Possession (Sp)</Pair>
 <Pair hl title="Replaces">The phantom's emotional focus</Pair>
 <Pair hl title="Alters">Phantom</Pair>
@@ -318,14 +318,14 @@ const _geist_channeler = {title: "Geist Channeler", jsx: <><h2 id="arc-spiritual
 </>};
 const _grim_apostle = {hasJL:true,title: "Grim Apostle", jsx: <><div className="jumpList" id="arc-spiritualist-grim_apostle-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arc-spiritualist-grim_apostle-death">Death</InnerLink></li><li><InnerLink toTop to="arc-spiritualist-grim_apostle-famine">Famine</InnerLink></li><li><InnerLink toTop to="arc-spiritualist-grim_apostle-pestilence">Pestilence</InnerLink></li><li><InnerLink toTop to="arc-spiritualist-grim_apostle-war">War</InnerLink></li></ul></div><h2 id="arc-spiritualist-grim_apostle-grim-apostle">Grim Apostle</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_144_midwives_to_death">Pathfinder #144: Midwives to Death pg. 72</Link><br/>Some devotees of the Four Horsemen can form spiritual manifestations of the daemonic demigods.</p>
-<Ability id="grim-phantom-su" icon={["info","broken-shield"]}>
+<Ability id="grim-phantom-su" icon={["info","down"]}>
 <Pair single id="grim-phantom-su">Grim Phantom (Su)</Pair>
 <Pair hl title="Replaces">The phantom's emotional focus</Pair>
 <Pair hl title="Alters">Phantom</Pair>
 <Pair title="Ability">The spirit linked to a grim apostle functions in all respects as a regular spiritualist's phantom, but each day when the grim apostle regains her daily spell slots, she can choose which Horseman focus (see below) is dominant within the grim phantom.</Pair>
 <Pair title="Ability">When the grim phantom is banished to the Ethereal Plane, the grim apostle takes an amount of damage equal to 1d4 &times; the grim phantom's number of Hit Dice.</Pair>
 </Ability>
-<Ability id="hardened-soul-su" icon={["armor-upgrade"]}>
+<Ability id="hardened-soul-su" icon={["def"]}>
 <Pair single id="hardened-soul-su">Hardened Soul (Su)</Pair>
 <Pair hl title="Replaces">Shared consciousness, fused consciousness</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -339,58 +339,58 @@ const _grim_apostle = {hasJL:true,title: "Grim Apostle", jsx: <><div className="
 <p>The DC for a saving throw against any of the grim phantom's abilities is equal to 10 + 1/2 the grim phantom's Hit Dice + the grim phantom's Charisma modifier. For any spell-like abilities a grim phantom receives, it uses its Hit Dice as its caster level.</p>
 <h4 id="arc-spiritualist-grim_apostle-death" data-hash-target>Death</h4>
 <p>Grim phantoms influenced by <Link to="/faith/charon">Charon</Link>, the Horseman of Death, are dark, almost shapeless specters.</p>
-<Ability id="skills-and-saves" icon={["upgrade","armor-upgrade"]}>
+<Ability id="skills-and-saves" icon={["boost","def"]}>
 <Pair single id="skills-and-saves">Skills and Saves</Pair>
 <Pair title="Ability">The grim phantom gains ranks in Knowledge (history) and Stealth equal to its number of Hit Dice. Its good saves are Fortitude and Will.</Pair>
 </Ability>
-<Ability id="fleet" icon={["stairs-goal"]}>
+<Ability id="fleet" icon={["power"]}>
 <Pair single id="fleet">Fleet</Pair>
 <Pair title="Ability">The grim phantom gains <Link to="/feat/fleet">Fleet</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="marked-for-death-su" icon={["upgrade"]}>
+<Ability id="marked-for-death-su" icon={["boost"]}>
 <Pair single id="marked-for-death-su">Marked for Death (Su)</Pair>
 <Pair title="Ability">When manifested in ectoplasmic form, the grim phantom gains a +1 bonus on attack rolls against a creature the grim apostle has hit with a melee or ranged attack since its last turn (the phantom's "marked target"). Additionally, such an attack by the grim phantom deals additional <strong>X</strong>d6 negative energy damage, where <strong>X</strong> is 1 + <Link to="/misc/one_fifth">one-fifth</Link> of his spiritualist level.</Pair>
 </Ability>
-<Ability id="fatal-aura-su" icon={["aura","armor-downgrade"]}>
+<Ability id="fatal-aura-su" icon={["aura","lower"]}>
 <Pair single id="fatal-aura-su">Fatal Aura (Su)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Swift Action">The grim phantom can create a 10-foot-radius aura that makes healing more difficult. The DC of Heal checks to provide first aid and treat deadly wounds within the aura is increased by 5. Any creature within the aura that casts a conjuration (healing) spell, or casts another spell or uses an ability that restores hit points, must succeed at a Will saving throw or lose the spell or use of the ability. Ending the aura is a <strong className="hl">free action</strong>.</Pair>
 </Ability>
-<Ability id="no-escape-su" icon={["stairs-goal"]}>
+<Ability id="no-escape-su" icon={["power"]}>
 <Pair single id="no-escape-su">No Escape (Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">The grim phantom gains the benefits of the <Link to="/feat/following_step">Following Step</Link>, <Link to="/feat/step_up">Step Up</Link>, and <Link to="/feat/step_up_and_strike">Step Up and Strike</Link> feats but only against its <em>marked target</em> (see above).</Pair>
 </Ability>
-<Ability id="killing-word-sp" icon={["magic-swirl"]}>
+<Ability id="killing-word-sp" icon={["magic"]}>
 <Pair single id="killing-word-sp">Killing Word (Sp)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Ability">The grim phantom can cast <Link to="/spell/power_word_kill">power word kill</Link> once per day as a spell-like ability.</Pair>
 </Ability>
 <h4 id="arc-spiritualist-grim_apostle-famine" data-hash-target>Famine</h4>
 <p>Grim phantoms influenced by <Link to="/faith/trelmarixian">Trelmarixian</Link>, the Horseman of Famine, are gaunt with jackal-like features.</p>
-<Ability id="skills-and-saves" icon={["upgrade","armor-upgrade"]}>
+<Ability id="skills-and-saves" icon={["boost","def"]}>
 <Pair single id="skills-and-saves">Skills and Saves</Pair>
 <Pair title="Ability">The grim phantom gains ranks in Perception and Sense Motive equal to its number of Hit Dice. Its good saves are Reflex and Will.</Pair>
 </Ability>
-<Ability id="weapon-finesse" icon={["stairs-goal"]}>
+<Ability id="weapon-finesse" icon={["power"]}>
 <Pair single id="weapon-finesse">Weapon Finesse</Pair>
 <Pair title="Ability">The grim phantom gains <Link to="/feat/weapon_finesse">Weapon Finesse</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="ravenous-bite-ex" icon={["upgrade","stairs-goal"]}>
+<Ability id="ravenous-bite-ex" icon={["boost","power"]}>
 <Pair single id="ravenous-bite-ex">Ravenous Bite (Ex)</Pair>
 <Pair title="Ability">The grim phantom's natural attacks take the form of bites that deal piercing damage as a creature <Link to="/misc/one_size_category_larger">one size category larger</Link> than its current size. It also gains <Link to="/feat/power_attack">Power Attack</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="aura-of-starvation-su" icon={["aura","armor-downgrade"]}>
+<Ability id="aura-of-starvation-su" icon={["aura","lower"]}>
 <Pair single id="aura-of-starvation-su">Aura of Starvation (Su)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Swift Action">The grim phantom can create a 10-foot-radius <em>aura of starvation.</em> Enemies within the aura take a -2 penalty on attack and damage rolls. Ending the aura is a <strong className="hl">free action</strong>.</Pair>
 </Ability>
-<Ability id="wail-of-the-hungry-sp" icon={["magic-swirl"]}>
+<Ability id="wail-of-the-hungry-sp" icon={["magic"]}>
 <Pair single id="wail-of-the-hungry-sp">Wail of the Hungry (Sp)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">The grim phantom can cast <Link to="/spell/waves_of_fatigue">waves of fatigue</Link> once per day as a spell-like ability.</Pair>
 </Ability>
-<Ability id="distended-gullet-su" icon={["mailed-fist"]}>
+<Ability id="distended-gullet-su" icon={["melee"]}>
 <Pair single id="distended-gullet-su">Distended Gullet (Su)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Swift Action">The grim phantom in ectoplasmic form gains the <Link to="/umr/swallow_whole">swallow whole</Link> ability (4d8 negative energy damage, AC 17, one-tenth the phantom's total hit points) for a number of rounds equal to its Charisma modifier. This ability can affect creatures no more than two size categories larger than the phantom. Each creature the grim phantom swallows is shunted into an extradimensional space that can hold any number of creatures. When the duration of this ability ends, any creatures still within the extradimensional space appear adjacent to the grim phantom.</Pair>
@@ -398,15 +398,15 @@ const _grim_apostle = {hasJL:true,title: "Grim Apostle", jsx: <><div className="
 </Ability>
 <h4 id="arc-spiritualist-grim_apostle-pestilence" data-hash-target>Pestilence</h4>
 <p>Grim phantoms influenced by <Link to="/faith/apollyon">Apollyon</Link>, the Horseman of Pestilence, often have rams' skulls for heads.</p>
-<Ability id="skills-and-saves" icon={["upgrade","armor-upgrade"]}>
+<Ability id="skills-and-saves" icon={["boost","def"]}>
 <Pair single id="skills-and-saves">Skills and Saves</Pair>
 <Pair title="Ability">The grim phantom gains ranks in Acrobatics and Heal equal to its number of Hit Dice. Its good saves are Fortitude and Will.</Pair>
 </Ability>
-<Ability id="great-fortitude" icon={["stairs-goal"]}>
+<Ability id="great-fortitude" icon={["power"]}>
 <Pair single id="great-fortitude">Great Fortitude</Pair>
 <Pair title="Ability">The grim phantom gains <Link to="/feat/great_fortitude">Great Fortitude</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="weakening-strike-su" icon={["broken-shield"]}>
+<Ability id="weakening-strike-su" icon={["down"]}>
 <Pair single id="weakening-strike-su">Weakening Strike (Su)</Pair>
 <Pair title="Ability">A creature hit by the grim phantom's slam attack must succeed at a Fortitude saving throw or take a -2 penalty on ability checks, attack rolls, saving throws, and skill checks for 1d4 rounds.</Pair>
 <Pair title="Special">This is a disease effect. Penalties from multiple hits don't stack.</Pair>
@@ -419,42 +419,42 @@ const _grim_apostle = {hasJL:true,title: "Grim Apostle", jsx: <><div className="
 <Pair title="At 15th Level">This damage increases to 3d6.</Pair>
 <Pair title="At 19th Level">This damage becomes 4d6.</Pair>
 </Ability>
-<Ability id="contagious-touch-sp" icon={["magic-swirl"]}>
+<Ability id="contagious-touch-sp" icon={["magic"]}>
 <Pair single id="contagious-touch-sp">Contagious Touch (Sp)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">The grim phantom can cast <Link to="/spell/contagion">contagion</Link> three times per day as a spell-like ability.</Pair>
 </Ability>
-<Ability id="virulent-attack-su" icon={["smoking-finger","armor-downgrade"]}>
+<Ability id="virulent-attack-su" icon={["zap","lower"]}>
 <Pair single id="virulent-attack-su">Virulent Attack (Su)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">Any creature under the effects of the grim phantom's <em>weakening strike</em> becomes a dangerous vector for disease. Any creature that ends its turn adjacent to the target creature is immediately exposed to any diseases the target creature has, no matter the normal method of contracting that disease. The creature must immediately attempt a saving throw against that disease, and the onset period doesn't apply.</Pair>
 </Ability>
 <h4 id="arc-spiritualist-grim_apostle-war" data-hash-target>War</h4>
 <p>Grim phantoms influenced by <Link to="/faith/szuriel">Szuriel</Link>, the Horseman of War, look like sinister, black-winged angels.</p>
-<Ability id="skills-and-saves" icon={["upgrade","armor-upgrade"]}>
+<Ability id="skills-and-saves" icon={["boost","def"]}>
 <Pair single id="skills-and-saves">Skills and Saves</Pair>
 <Pair title="Ability">The grim phantom gains ranks in Intimidate and Survival equal to its number of Hit Dice. Its good saves are Fortitude and Reflex.</Pair>
 </Ability>
-<Ability id="strength-focus" icon={["upgrade","broken-shield"]}>
+<Ability id="strength-focus" icon={["boost","down"]}>
 <Pair single id="strength-focus">Strength Focus</Pair>
 <Pair title="Info">The grim phantom gains a +2 bonus to Strength and a -2 penalty to Dexterity. The phantom gains bonuses to Strength instead of Dexterity as the grim apostle gains spiritualist levels.</Pair>
 </Ability>
-<Ability id="ruthless-combatant-su" icon={["upgrade"]}>
+<Ability id="ruthless-combatant-su" icon={["boost"]}>
 <Pair single id="ruthless-combatant-su">Ruthless Combatant (Su)</Pair>
 <Pair title="Ability">The grim phantom threatens a critical hit with its slam attack on a roll of 19-20.</Pair>
 <Pair title="At 11th Level">The phantom's critical modifier with slam attacks increases to &times;3. This doesn't stack with <Link to="/feat/improved_critical">Improved Critical</Link> or similar effects.</Pair>
 </Ability>
-<Ability id="aura-of-fury-su" icon={["aura","upgrade","armor-downgrade"]}>
+<Ability id="aura-of-fury-su" icon={["aura","boost","lower"]}>
 <Pair single id="aura-of-fury-su">Aura of Fury (Su)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Swift Action">The grim phantom can create a 20-foot-radius aura. Creatures within the aura gain a +2 bonus on melee attack rolls but take a -2 penalty to AC. Ending the aura is a <strong className="hl">free action</strong>.</Pair>
 </Ability>
-<Ability id="bloodlust-su" icon={["remedy"]}>
+<Ability id="bloodlust-su" icon={["aid"]}>
 <Pair single id="bloodlust-su">Bloodlust (Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">The grim phantom regains 1d6 hit points with each successful slam attack it makes.</Pair>
 </Ability>
-<Ability id="juggernaut-su" icon={["armor-upgrade"]}>
+<Ability id="juggernaut-su" icon={["def"]}>
 <Pair single id="juggernaut-su">Juggernaut (Su)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">The grim phantom becomes immune to any effects that would cause it to become cowering, exhausted, fatigued, frightened, panicked, shaken, or slowed (as the <Link to="/spell/slow">slow</Link> spell).</Pair>
@@ -463,7 +463,7 @@ const _grim_apostle = {hasJL:true,title: "Grim Apostle", jsx: <><div className="
 const _hag_haunted = {title: "Hag-Haunted", jsx: <><h2 id="arc-spiritualist-hag_haunted-hag-haunted">Hag-Haunted</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven pg. 23</Link><br/><Link to="/family/hag">Hags</Link> - those of flesh and blood, at any rate - die like any other mortals, and their souls normally depart to the Outer Planes for judgment. A hag who dies with a curse on her breath is often anchored to the Ethereal Plane by the power of her hatred - similar to vile and angry mortal souls - and some even claw their way back to the living world through the souls of those they despised or ruined... or those unfortunate souls they birthed. Hag-haunted spiritualists are tethered to these spiteful spirits, anchoring them once again in the world of the living. While this partnership imparts powerful magic, they run the constant risk of serving as little more than mounts for their overwhelming phantoms.</p>
 <p>Hag-haunted spiritualists are rarely the masters in their relationship with their phantoms, and the only tool at their disposal to control their wicked minion is to dismiss them back to the Ethereal Plane. In the best scenarios, the relationship is one of mutual competition and constant bargaining, but just as often the hag phantom dominates and abuses her spiritualist.</p>
-<Ability id="hag-phantom" icon={["info","stairs-goal"]}>
+<Ability id="hag-phantom" icon={["info","power"]}>
 <Pair single id="hag-phantom">Hag Phantom</Pair>
 <Pair hl title="Replaces">Shared consciousness, fused consciousness</Pair>
 <Pair hl title="Alters">Phantom</Pair>
@@ -477,7 +477,7 @@ const _hag_haunted = {title: "Hag-Haunted", jsx: <><h2 id="arc-spiritualist-hag_
 <Pair single id="hag-spellcasting" flavor="A hag-haunted spiritualist's spells come from her connection to her hag phantom.">Hag Spellcasting</Pair>
 <Pair title="Info">Her spells are considered arcane rather than psychic, and they use verbal and somatic components instead of thought and emotion components. She still selects her spells known from the spiritualist class list.</Pair>
 </Ability>
-<Ability id="death-curse-sp" icon={["magic-swirl","spell-book"]}>
+<Ability id="death-curse-sp" icon={["magic","learn"]}>
 <Pair single id="death-curse-sp" flavor="A hag phantom is partially animated by the power of a hag's dying curse, and this eventually grants her a death curse of her own.">Death Curse (Sp)</Pair>
 <Pair hl title="Replaces">Spiritual interference, greater spiritual interference</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -488,7 +488,7 @@ const _hag_haunted = {title: "Hag-Haunted", jsx: <><h2 id="arc-spiritualist-hag_
 </>};
 const _haunted = {title: "Haunted", jsx: <><h2 id="arc-spiritualist-haunted-haunted">Haunted</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 110</Link><br/>The haunted are a dangerous breed of spellcasters bound to temperamental and unpredictable phantoms that leech power from their spiritualists.</p>
-<Ability id="usurp-manifestation-su" icon={["broken-shield","upgrade","armor-upgrade"]}>
+<Ability id="usurp-manifestation-su" icon={["down","boost","def"]}>
 <Pair single id="usurp-manifestation-su">Usurp Manifestation (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Info">The haunted's phantom begins to subtly subvert the relationship with its master, gaining rather than granting power from the connection. When fully manifested in ectoplasmic form, the phantom can use its <em>usurp manifestation</em> ability to draw upon the haunted's body to strengthen its ectoplasmic might, temporarily weakening the spiritualist in order to increase its own power.</Pair>
@@ -496,13 +496,13 @@ const _haunted = {title: "Haunted", jsx: <><h2 id="arc-spiritualist-haunted-haun
 <Pair title="Immediate Action">The phantom must activate this ability at the start of the spiritualist's turn. The phantom can dismiss the effects of a <em>usurped manifestation</em> as a <strong className="hl">free action</strong> on its turn. While this ability is in effect, the haunted's features become sunken and withdrawn, and she gains the <Link to="/misc/nauseated">nauseated</Link> condition until the effect ends. Conversely, the phantom surges in size and power, becoming one size category larger (as if affected by an <Link to="/spell/enlarge_person">enlarge person</Link> spell) and increasing its natural armor bonus to AC by 2 for the effect's duration.</Pair>
 <Pair title="Special">If the spiritualist prevents or mitigates the nauseated condition, the phantom is unable to siphon energy and doesn't gain the benefits of <em>usurp manifestation.</em></Pair>
 </Ability>
-<Ability id="usurp-spell" icon={["magic-swirl"]}>
+<Ability id="usurp-spell" icon={["magic"]}>
 <Pair single id="usurp-spell" flavor={<>While using <em>usurp manifestation,</em> the phantom can leech spell slots from the haunted to increase its own power.</>}>Usurp Spell</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Swift Action">The phantom can reach through the etheric tether to drain the nauseated haunted's psychic spell energy, effectively taking any touch spell or spell with a target of "you" that the haunted knows and casting it on itself (assuming the haunted has not yet used up her allotment of spells per day for the spell's level).</Pair>
 <Pair title="Special">This ability consumes two of the haunted's spell slots of the appropriate level and otherwise follows the rules for the <em>share spells</em> and <em>deliver touch spells</em> abilities.</Pair>
 </Ability>
-<Ability id="teleplasmic-surge" icon={["upgrade"]}>
+<Ability id="teleplasmic-surge" icon={["boost"]}>
 <Pair single id="teleplasmic-surge">Teleplasmic Surge</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Passive Ability">When using <em>usurp manifestation,</em> the phantom gains a +2 morale bonus on attack rolls, saving throws, and skill checks.</Pair>
@@ -513,7 +513,7 @@ const _haunted = {title: "Haunted", jsx: <><h2 id="arc-spiritualist-haunted-haun
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Info">The haunted's phantom can use <em>usurp manifestation</em> for a number of rounds per day equal to 3 + double the haunted's spiritualist level.</Pair>
 </Ability>
-<Ability id="ferocious-phantom" icon={["armor-upgrade"]}>
+<Ability id="ferocious-phantom" icon={["def"]}>
 <Pair single id="ferocious-phantom">Ferocious Phantom</Pair>
 <Pair hl title="Replaces">Bonded manifestation</Pair>
 <Pair title="Gained">At 18th Level</Pair>
@@ -522,12 +522,12 @@ const _haunted = {title: "Haunted", jsx: <><h2 id="arc-spiritualist-haunted-haun
 </>};
 const _involutionist = {title: "Involutionist", jsx: <><h2 id="arc-spiritualist-involutionist-involutionist">Involutionist</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 167</Link><br/>The <Link to="/rule/rivethun">Rivethun</Link> teach their followers to cultivate a well of inner power and to open themselves to the spiritual world, but on occasion - especially among neophytes who join the cult later in life - these processes overlap, and the acolyte invests her spiritual reservoir into some aspect of the world around her. Rather than bond with an existing spirit as most Rivethun eventually do, the involutionist creates a spirit from a piece of her own soul. The bond is deep, and it creates a powerful minion utterly loyal to her creator, but it also cuts off the involutionist's access to the wider spiritual world.</p>
-<Ability id="divine-spellcasting" icon={["magic-swirl"]}>
+<Ability id="divine-spellcasting" icon={["magic"]}>
 <Pair single id="divine-spellcasting">Divine Spellcasting</Pair>
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Info">An involutionist is a divine spellcaster. Her spells use verbal components instead of thought components and somatic components instead of emotional components. An involutionist's spirit phantom is her conduit to the divine, and it serves as her divine focus; the involutionist must either be within 5 feet on her spirit phantom or absorb her phantom into her consciousness to cast spells that require a divine focus.</Pair>
 </Ability>
-<Ability id="spirit-phantom" icon={["magic-swirl"]}>
+<Ability id="spirit-phantom" icon={["magic"]}>
 <Pair single id="spirit-phantom" flavor="An involutionist's phantom is manifested from her own psyche and invested into the spirit-stuff of the world around her.">Spirit Phantom</Pair>
 <Pair hl title="Replaces">Phantom's emotional focus</Pair>
 <Pair hl title="Alters">Phantom</Pair>
@@ -586,19 +586,19 @@ const _involutionist = {title: "Involutionist", jsx: <><h2 id="arc-spiritualist-
 <Pair title="At 12th Level">The spirit phantom gains one additional hex from their list.</Pair>
 <Pair title="At 17th Level">The spirit phantom gains one additional hex from their list.</Pair>
 </Ability>
-<Ability id="spirit-manifestation-su" icon={["stairs-goal"]}>
+<Ability id="spirit-manifestation-su" icon={["power"]}>
 <Pair single id="spirit-manifestation-su">Spirit Manifestation (Su)</Pair>
 <Pair hl title="Alters">Bonded manifestation</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">When an involutionist uses her <em>bonded manifestation</em> ability, she can instead manifest her spirit phantom's spirit animal special ability and use her spirit phantom's hexes as if they were her own. Hexes used during this manifestation count toward any limited number of uses per day.</Pair>
 </Ability>
-<Ability id="spirit-awareness-sp" icon={["magic-swirl"]}>
+<Ability id="spirit-awareness-sp" icon={["magic"]}>
 <Pair single id="spirit-awareness-sp" flavor="An involutionist gains great insight into the spiritual influence people invest into the world around them.">Spirit Awareness (Sp)</Pair>
 <Pair hl title="Replaces">Detect undead</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">She can cast <Link to="/spell/detect_psychic_significance">detect psychic significance</Link> as a spell-like ability at will and <Link to="/spell/analyze_aura">analyze aura</Link> once per day as a spell-like ability (CL = her character level).</Pair>
 </Ability>
-<Ability id="involuate-sp" icon={["magic-swirl"]}>
+<Ability id="involuate-sp" icon={["magic"]}>
 <Pair single id="involuate-sp" flavor="An involutionist gains the ability to awaken the latent spiritual energy in inanimate objects.">Involuate (Sp)</Pair>
 <Pair hl title="Replaces">Additional uses of calm spirit available at 11th, 15th, and 19th levels</Pair>
 <Pair title="Gained">At 11th Level</Pair>
@@ -608,12 +608,12 @@ const _involutionist = {title: "Involutionist", jsx: <><h2 id="arc-spiritualist-
 </>};
 const _necrologist = {title: "Necrologist", jsx: <><h2 id="arc-spiritualist-necrologist-necrologist">Necrologist</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 69</Link><br/>All spiritualists call upon residual phantoms that cling to the living world through force of will and unresolved passion. The vile spiritualists known as necrologists reach farther toward the Negative Energy Plane, however, and for whatever evil purpose, they bring back malevolent spirits whose passions have turned to vengeance and hate for all life.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-spiritualist-necrologist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Evil alignment</td></tr></tbody></table></ScrollContainer></div><Ability id="alignment" icon={["hazard-sign"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-spiritualist-necrologist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Evil alignment</td></tr></tbody></table></ScrollContainer></div><Ability id="alignment" icon={["warning"]}>
 <Pair single id="alignment">Alignment</Pair>
 <Pair hl title="Alters">Alignment</Pair>
 <Pair title="Info">If a necrologist becomes nonevil, she can continue to take spiritualist levels, but her phantom ceases to give her benefits while in her consciousness, she can't use <em>bonded manifestation,</em> and if she manifests the phantom, it is no longer loyal to her and likely attacks her and her allies.</Pair>
 </Ability>
-<Ability id="spells" icon={["spell-book"]}>
+<Ability id="spells" icon={["learn"]}>
 <Pair single id="spells">Spells</Pair>
 <Pair title="Info">A necrologist adds the following spells to her class list at the listed spell levels.</Pair>
 <Pair plain title="1st"><Link to="/spell/hide_from_undead">Hide from undead</Link></Pair>
@@ -623,12 +623,12 @@ const _necrologist = {title: "Necrologist", jsx: <><h2 id="arc-spiritualist-necr
 <Pair plain title="5th"><Link to="/spell/age_resistance">Age resistance</Link></Pair>
 <Pair plain title="6th"><Link to="/spell/greater_age_resistance">Greater age resistance</Link>, <Link to="/spell/create_greater_undead">create greater undead</Link></Pair>
 </Ability>
-<Ability id="bonded-manifestation" icon={["broken-shield"]}>
+<Ability id="bonded-manifestation" icon={["down"]}>
 <Pair single id="bonded-manifestation">Bonded Manifestation</Pair>
 <Pair hl title="Alters">Bonded manifestation</Pair>
 <Pair title="Info">A necrologist cannot use ectoplasmic bonded manifestation.</Pair>
 </Ability>
-<Ability id="shared-conciousness" icon={["armor-upgrade"]}>
+<Ability id="shared-conciousness" icon={["def"]}>
 <Pair single id="shared-conciousness">Shared Conciousness</Pair>
 <Pair hl title="Alters">Shared consciousness</Pair>
 <Pair title="Passive Ability">A necrologist gains a bonus on saving throws against death effects, energy drain, and negative energy rather than against mind-affecting effects (and can shunt such an effect onto the phantom) when her <em>undead phantom</em> is contained within her consciousness.</Pair>
@@ -637,25 +637,25 @@ const _necrologist = {title: "Necrologist", jsx: <><h2 id="arc-spiritualist-necr
 <Pair single id="undead-phantom">Undead Phantom</Pair>
 <Pair title="Info">A necrologist's phantom is undead, rather than an outsider. It has normal <Link to="/type/undead">undead</Link> immunities and no Constitution score; uses d8 Hit Dice, each of which is modified by the phantom's Charisma modifier as normal; and gains the abilities below at the levels indicated. An undead phantom otherwise follows the standard phantom rules (for instance, its base attack bonus and skills don't change to match undead).</Pair>
 </Ability>
-<Ability id="cling-of-the-grave-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="cling-of-the-grave-su" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="cling-of-the-grave-su">Cling of the Grave (Su)</Pair>
 <Pair hl title="Alters">Share spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An undead phantom can <Link to="/rule/hold_the_charge">hold the charge</Link> on a touch spell of the necromancy school up to a maximum of 1 round per spiritualist level of the necrologist.</Pair>
 </Ability>
-<Ability id="unnatural-aura-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="unnatural-aura-su" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="unnatural-aura-su">Unnatural Aura (Su)</Pair>
 <Pair hl title="Replaces">Slam damage increase gained at 5th level</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">Animals do not willingly approach within 30 feet of a fully manifested undead phantom unless the necrologist succeeds at a Handle Animal, Ride, or wild empathy check (DC = 10 + 1/2 the necrologist's spiritualist level + the phantom's Charisma modifier).</Pair>
 </Ability>
-<Ability id="channel-resistance-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="channel-resistance-su" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="channel-resistance-su">Channel Resistance (Su)</Pair>
 <Pair hl title="Replaces">Devotion</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Passive Ability">A necrologist's phantom gains a +4 bonus on saving throws to resist the effects of <em>channel energy.</em></Pair>
 </Ability>
-<Ability id="lifedrinker-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="lifedrinker-su" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="lifedrinker-su">Lifedrinker (Su)</Pair>
 <Pair hl title="Replaces">Slam damage increase gained at 13th level</Pair>
 <Pair title="Gained">At 13th Level</Pair>
@@ -668,7 +668,7 @@ const _necrologist = {title: "Necrologist", jsx: <><h2 id="arc-spiritualist-necr
 <Pair title="Usage">1 + Charisma modifier times/day</Pair>
 <Pair title="Ability">A necrologist gains the ability to <Link to="/ability/channel_negative_energy">channel negative energy</Link>, with an effective cleric level equal to her spiritualist level - 3.</Pair>
 </Ability>
-<Ability id="channel-energy-su" extraClasses="subAbility" icon={["stairs-goal","aura"]}>
+<Ability id="channel-energy-su" extraClasses="subAbility" icon={["power","aura"]}>
 <Pair single id="channel-energy-su" flavor="Text from the cleric class ability.">Channel Energy (Su)</Pair>
 <Pair title="Standard Action">You must present your unholy symbol to channel energy. This causes a <Link to="/misc/burst">burst</Link> that affects all creatures of one type (either undead or living) in a 30-foot radius centered on you. This deals or heals (see below) 1d6 damage. You can choose whether or not to include yourself in this effect. Creatures that take damage from channeled energy receive a Will save to halve the damage, with a DC equal to 10 + <Link to="/misc/half">half</Link> your cleric level + your Charisma modifier.</Pair>
 <Pair title="Choice">An evil cleric (or one who worships an evil deity) channels <strong className="hl">negative energy</strong> and can choose to deal damage to living creatures or to heal undead creatures.</Pair>
@@ -684,7 +684,7 @@ const _necrologist = {title: "Necrologist", jsx: <><h2 id="arc-spiritualist-necr
 <Pair title="At 19th Level">The damage becomes 10d6.</Pair>
 <Pair title="Special">Creatures healed by channeled energy cannot exceed their maximum hit point total - all excess healing is lost.</Pair>
 </Ability>
-<Ability id="necropsychic-conduit" icon={["stairs-goal"]}>
+<Ability id="necropsychic-conduit" icon={["power"]}>
 <Pair single id="necropsychic-conduit">Necropsychic Conduit</Pair>
 <Pair hl title="Replaces">Greater spiritual interference</Pair>
 <Pair title="Gained">At 12th Level</Pair>
@@ -694,12 +694,12 @@ const _necrologist = {title: "Necrologist", jsx: <><h2 id="arc-spiritualist-necr
 </>};
 const _onmyoji = {title: "Onmyoji", jsx: <><h2 id="arc-spiritualist-onmyoji-onmyoji">Onmyoji</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 111</Link><br/>Though most spiritualists are chosen by their phantoms, others deliberately call phantoms to them through years of careful preparation and study in obscure divine traditions. These spiritualists, known as onmyoji, form close bonds with their phantoms, as any other spiritualist does, but see the phantoms as partners and tools in their work. Onmyoji serve as emissaries between the mundane world and the spiritual one, either working to ensure that troubles in the spiritual world do not spill over into the world of mortals, or stirring up spiritual trouble in order to achieve their ends among the living.</p>
-<Ability id="divine-spellcasting" icon={["magic-swirl"]}>
+<Ability id="divine-spellcasting" icon={["magic"]}>
 <Pair single id="divine-spellcasting">Divine Spellcasting</Pair>
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Info">An onmyoji's spellcasting ability comes from divine rather than psychic power. As a divine caster, the onmyoji's spells use verbal components instead of thought components, and somatic components instead of emotional components, and she uses an ofuda as a divine focus. Ofudas are scrolls with holy writings written on parchment, cloth, or wood (having the same cost as a <Link to="/eq-misc/wooden_holy_symbol">wooden holy symbol</Link>) or metal (having the same cost as a <Link to="/eq-misc/silver_holy_symbol">silver holy symbol</Link>).</Pair>
 </Ability>
-<Ability id="spiritual-resistance-su" icon={["armor-upgrade"]}>
+<Ability id="spiritual-resistance-su" icon={["def"]}>
 <Pair single id="spiritual-resistance-su" flavor="An onmyoji's phantom provides her with protection from supernatural forces.">Spiritual Resistance (Su)</Pair>
 <Pair hl title="Replaces">Shared consciousness, fused consciousness</Pair>
 <Pair title="Passive Ability">While the phantom is confined within the onmyoji's consciousness (not stranded on the Ethereal Plane or fully manifested), it grants her a +2 bonus on saving throws against the spell-like and supernatural abilities of fey, outsiders, and incorporeal undead.</Pair>
@@ -707,7 +707,7 @@ const _onmyoji = {title: "Onmyoji", jsx: <><h2 id="arc-spiritualist-onmyoji-onmy
 <Pair title="At 12th Level">This bonus increases to +4.</Pair>
 <Pair title="At 18th Level">This bonus becomes +5.</Pair>
 </Ability>
-<Ability id="divine-teachings-su" icon={["spell-book"]}>
+<Ability id="divine-teachings-su" icon={["learn"]}>
 <Pair single id="divine-teachings-su" flavor="An onmyoji gains the ability to call upon her phantom to help her cast spells she normally couldn't.">Divine Teachings (Su)</Pair>
 <Pair hl title="Replaces">Spiritual interference, greater spiritual interference</Pair>
 <Pair title="At 4th Level">An onmyoji can choose a single spell from the <Link to="/main/cleric_spell">cleric spell list</Link> with a spell level she is currently able to cast, and add that spell to her list of spells known, at the same spell level as it appears on the cleric spell list.</Pair>
@@ -721,40 +721,40 @@ const _onmyoji = {title: "Onmyoji", jsx: <><h2 id="arc-spiritualist-onmyoji-onmy
 </>};
 const _phantom_blade = {hasJL:true,title: "Phantom Blade", jsx: <><div className="jumpList" id="arc-spiritualist-phantom_blade-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arc-spiritualist-phantom_blade-phantom-weapon-ability-descriptions">Phantom Weapon Ability Descriptions</InnerLink></li><li><InnerLink toTop to="arc-spiritualist-phantom_blade-phantom-weapon-progression">Phantom Weapon Progression</InnerLink></li></ul></div><h2 id="arc-spiritualist-phantom_blade-phantom-blade">Phantom Blade</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 4</Link><br/>A small selection of spiritualists are connected to spirits of combat and warfare, and manifest a weapon instead of a phantom. These spiritualists are known as phantom blades and fight with ectoplasmic weapons. Phantom blades are often found in Mendev and the Worldwound, where spiritualists are baptized in the blood of comrades; the last survivor of an unfortunate squad might return bearing one of these ghostly blades.</p>
-<Ability id="weapon-and-armor-proficiency" icon={["stairs-goal"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["power"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Alters">Weapon, armor proficiency</Pair>
 <Pair title="Info">A phantom blade is proficient with all simple and martial weapons. She is also proficient with light and medium armor.</Pair>
 </Ability>
-<Ability id="phantom-weapon" icon={["stairs-goal"]}>
+<Ability id="phantom-weapon" icon={["power"]}>
 <Pair single id="phantom-weapon">Phantom Weapon</Pair>
 <Pair hl title="Replaces">Phantom, phantom recall, spiritual bond, dual bond</Pair>
 <Pair title="Ability">A phantom blade begins play with an ectoplasmic sentient weapon known as a <em>phantom weapon</em> whose weapon type is chosen by the phantom blade. The weapon type must be one with which the phantom blade is proficient. A <em>phantom weapon</em> functions similarly to the <em>black blade</em> of the <Link to="/arc-magus/bladebound">bladebound</Link> magus archetype except as noted on the Phantom Weapon Progression table below. A phantom blade with this class feature can't have a phantom of any kind, even from another class.</Pair>
 </Ability>
-<Ability id="spell-combat-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="spell-combat-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="spell-combat-ex">Spell Combat (Ex)</Pair>
 <Pair hl title="Replaces">Etheric tether, shared consciousness, fused consciousness, empowered consciousness</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A phantom blade can cast spells and wield her <em>phantom weapon</em> at the same time. This functions as the <Link to="/class/magus">magus's</Link> <em>spell combat</em> class ability.</Pair>
 </Ability>
-<Ability id="spell-combat-ex" extraClasses="subAbility" icon={["stairs-goal","mailed-fist","magic-swirl"]}>
+<Ability id="spell-combat-ex" extraClasses="subAbility" icon={["power","melee","magic"]}>
 <Pair single id="spell-combat-ex" flavor="Text from the magus class ability.">Spell Combat (Ex)</Pair>
 <Pair title="Info">A magus learn to cast spells and wield his weapons at the same time. This functions much like <Link to="/rule/two_weapon_fighting">two-weapon fighting</Link>, but the off-hand weapon is a spell that is being cast.</Pair>
 <Pair title="Full-Round Action">You can make all of your attacks with your melee weapon at a -2 penalty and can also cast any spell from the magus spell list with a casting time of 1 standard action (any attack roll made as part of this spell also takes this penalty). If you cast this spell defensively, you can decide to take an additional penalty on your attack rolls, up to your Intelligence bonus, and add the same amount as a circumstance bonus on your <Link to="/rule/concentration">concentration</Link> check. If the check fails, the spell is wasted, but the attacks still take the penalty. You can choose to cast the spell first or make the weapon attacks first, but if you have more than one attack, you cannot cast the spell between weapon attacks.</Pair>
 <Pair title="Special">To use this ability, you must have one hand free (even if the spell being cast does not have somatic components), while wielding a light or one-handed melee weapon in the other hand.</Pair>
 </Ability>
-<Ability id="spellstrike-su" extraClasses="hasSubs" icon={["mailed-fist"]}>
+<Ability id="spellstrike-su" extraClasses="hasSubs" icon={["melee"]}>
 <Pair single id="spellstrike-su">Spellstrike (Su)</Pair>
 <Pair hl title="Replaces">Bonded senses</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A phantom blade can deliver spells through her <em>phantom weapon.</em> This functions like the magus's <em>spellstrike</em> class ability except the only weapon the spiritualist can use to deliver spells is her <em>phantom weapon.</em></Pair>
 </Ability>
-<Ability id="spellstrike-su" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="spellstrike-su" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="spellstrike-su" flavor="Text from the magus class ability.">Spellstrike (Su)</Pair>
 <Pair title="Ability">Whenever you cast a spell with a range of "touch" from the magus spell list, you can deliver the spell through any weapon you are wielding as part of a melee attack. Instead of the free melee touch attack normally allowed to deliver the spell, you can make one free melee attack with your weapon (at your highest base attack bonus) as part of casting this spell. If successful, this melee attack deals its normal damage as well as the effects of the spell. If you make this attack in concert with <em>spell combat,</em> this melee attack takes all the penalties accrued by spell combat melee attacks.</Pair>
 <Pair title="Special">This attack uses the weapon's critical range (20, 19-20, or 18-20 and modified by the <em>keen</em> weapon property or similar effects), but the spell effect only deals &times;2 damage on a successful critical hit, while the weapon damage uses its own critical modifier.</Pair>
 </Ability>
-<Ability id="spirit-of-war-ex" icon={["stairs-goal"]}>
+<Ability id="spirit-of-war-ex" icon={["power"]}>
 <Pair single id="spirit-of-war-ex">Spirit of War (Ex)</Pair>
 <Pair hl title="Replaces">Bonded manifestation</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -763,7 +763,7 @@ const _phantom_blade = {hasJL:true,title: "Phantom Blade", jsx: <><div className
 <Pair title="At 13th Level">She gains another bonus feat, following the restrictions above.</Pair>
 <Pair title="At 18th Level">She gains another bonus feat, following the restrictions above.</Pair>
 </Ability>
-<Ability id="etheric-focus-ex" icon={["upgrade"]}>
+<Ability id="etheric-focus-ex" icon={["boost"]}>
 <Pair single id="etheric-focus-ex" flavor={<>The phantom blade can use her <em>phantom weapon</em> to aid her in casting spells with <Link to="/rule/components_oa">thought components</Link>.</>}>Etheric Focus (Ex)</Pair>
 <Pair hl title="Replaces">Spiritual interference, greater spiritual interference</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -865,24 +865,24 @@ const _phantom_blade = {hasJL:true,title: "Phantom Blade", jsx: <><div className
 <td>Soul eater</td>
 </tr>
 </tbody></table></ScrollContainer>
-<Ability id="alertness-ex" icon={["stairs-goal"]}>
+<Ability id="alertness-ex" icon={["power"]}>
 <Pair single id="alertness-ex">Alertness (Ex)</Pair>
 <Pair title="Ability">While the phantom blade is wielding or harboring her <em>phantom weapon,</em> she gains the <Link to="/feat/alertness">Alertness</Link> feat.</Pair>
 </Ability>
-<Ability id="phantom-touch-ex" icon={["upgrade"]}>
+<Ability id="phantom-touch-ex" icon={["boost"]}>
 <Pair single id="phantom-touch-ex">Phantom Touch (Ex)</Pair>
 <Pair title="Ability">A <em>phantom weapon</em> is always treated as a <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon, regardless of weapon type or any other abilities modifying the weapon. If the <em>phantom weapon</em> would ever be destroyed, it is instead harbored in the spiritualist's consciousness for 24 hours.</Pair>
 </Ability>
-<Ability id="telepathy-su" icon={["magic-swirl"]}>
+<Ability id="telepathy-su" icon={["magic"]}>
 <Pair single id="telepathy-su">Telepathy (Su)</Pair>
 <Pair title="Ability">While the phantom blade is wielding or carrying her <em>phantom weapon,</em> she can communicate telepathically with the weapon.</Pair>
 </Ability>
-<Ability id="weapon-of-the-mind-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="weapon-of-the-mind-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="weapon-of-the-mind-ex">Weapon of the Mind (Ex)</Pair>
 <Pair title="Ability">The phantom blade can harbor her <em>phantom weapon</em> in her consciousness or manifest it in its ectoplasmic form. The phantom blade can manifest the weapon through a ritual that takes 1 minute to perform. Harboring the <em>phantom weapon</em> requires a <strong className="hl">full-round action</strong>. While the weapon is harbored, the phantom blade gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat and treats her unarmed strike damage as a <Link to="/class/monk">monk</Link> of her level - 2. If the phantom blade already has this feat, she instead gains <Link to="/feat/weapon_focus">Weapon Focus</Link> (unarmed strike).</Pair>
 <Pair title="Special">The phantom blade's unarmed strikes gain the <em>phantom weapon's</em> enhancement bonus and other abilities when the weapon is harbored. The <em>phantom weapon</em> also recovers a number of hit points equal to its ego score every hour that it is harbored.</Pair>
 </Ability>
-<Ability id="unarmed-strike" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="unarmed-strike" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="unarmed-strike" flavor="Relevant text from the monk class ability.">Unarmed Strike</Pair>
 <Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
 <Pair title="At 4th Level">Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.</Pair>
@@ -890,12 +890,12 @@ const _phantom_blade = {hasJL:true,title: "Phantom Blade", jsx: <><div className
 <Pair title="At 12th Level">Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.</Pair>
 <Pair title="At 16th Level">Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.</Pair>
 </Ability>
-<Ability id="quick-manifest-ex" icon={["stairs-goal"]}>
+<Ability id="quick-manifest-ex" icon={["power"]}>
 <Pair single id="quick-manifest-ex">Quick Manifest (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">The phantom blade can manifest her <em>phantom weapon</em> as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="ectoplasmic-pool-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="ectoplasmic-pool-ex" icon={["power","boost"]}>
 <Pair single id="ectoplasmic-pool-ex">Ectoplasmic Pool (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">The phantom blade gains a reservoir of excess ethereal energy and ectoplasm that she can draw upon to improve her <em>phantom weapon.</em> This pool has a number of ectoplasmic points equal to half her spiritualist level + her Wisdom modifier. The pool refreshes once per day when the spiritualist refreshes her daily spells.</Pair>
@@ -905,27 +905,27 @@ const _phantom_blade = {hasJL:true,title: "Phantom Blade", jsx: <><div className
 <Pair title="At 15th Level">She can spend 5 ectoplasmic points to grant the weapon one of the following weapon special abilities for 1 minute: <Link to="/magic-enh/brilliant_energy">brilliant energy</Link>, <Link to="/magic-enh/dancing">dancing</Link>, or <Link to="/magic-enh/speed">speed</Link>.</Pair>
 <Pair title="Special">A phantom blade can spend an appropriate number of points to grant the weapon multiple abilities as one action. A <em>phantom weapon</em> cannot have a modified bonus higher than +10.</Pair>
 </Ability>
-<Ability id="reshape-ex" icon={["magic-swirl"]}>
+<Ability id="reshape-ex" icon={["magic"]}>
 <Pair single id="reshape-ex">Reshape (Ex)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">A phantom blade can change the weapon type of her <em>phantom weapon</em> when she refreshes her daily spells.</Pair>
 </Ability>
-<Ability id="phantom-tether-su" icon={["magic-swirl"]}>
+<Ability id="phantom-tether-su" icon={["magic"]}>
 <Pair single id="phantom-tether-su">Phantom Tether (Su)</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Swift Action">A phantom blade can spend 1 ectoplasmic point to instantly recall her <em>phantom weapon</em> to her hand or consciousness from as far as 1 mile away.</Pair>
 </Ability>
-<Ability id="quick-reshape-ex" icon={["magic-swirl"]}>
+<Ability id="quick-reshape-ex" icon={["magic"]}>
 <Pair single id="quick-reshape-ex">Quick Reshape (Ex)</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Ability">A phantom blade can spend 1 ectoplasmic point to reshape her <em>phantom weapon</em> as a <strong className="hl">full-round action</strong>, 2 ectoplasmic points to reshape her weapon as a <strong className="hl">standard action</strong>, 3 ectoplasmic points to reshape her weapon as a <strong className="hl">move action</strong>, and 4 ectoplasmic points to reshape her weapon as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="etheric-strikes-sp" icon={["armor-downgrade"]}>
+<Ability id="etheric-strikes-sp" icon={["lower"]}>
 <Pair single id="etheric-strikes-sp">Etheric Strikes (Sp)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Swift Action">A phantom blade can spend 1 ectoplasmic point to allow her <em>phantom weapon</em> to ignore a number of points of damage reduction equal to twice her Wisdom modifier or twice the weapon's Charisma modifier, whichever is higher.</Pair>
 </Ability>
-<Ability id="soul-eater-su" icon={["upgrade","magic-swirl","remedy"]}>
+<Ability id="soul-eater-su" icon={["boost","magic","aid"]}>
 <Pair single id="soul-eater-su" flavor="The phantom blade and her weapon can feast on the energy of departing souls.">Soul Eater (Su)</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Ability">Each time she kills a living or incorporeal creature with her <em>phantom weapon,</em> she can pick one of the following effects: she gains a +2 bonus on attack and damage rolls for 1 round, she recovers one 1st- or 2nd-level spell slot, or she gains a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the <em>phantom weapon's</em> ego (these temporary hit points last until lost or 1 minute, whichever is shorter).</Pair>
@@ -934,7 +934,7 @@ const _phantom_blade = {hasJL:true,title: "Phantom Blade", jsx: <><div className
 </>};
 const _plague_eater = {title: "Plague Eater", jsx: <><h2 id="arc-spiritualist-plague_eater-plague-eater">Plague Eater</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 12</Link><br/>Iobaria has been ravaged by plague for centuries, and many of its dead do not rest. These ghosts often flock around specialized spiritualists called plague eaters. Such a spiritualist bears the weight of many souls within her consciousness, spirits that remember the devastation of disease and seek to protect their host from infections, cleanse others of plague, and use disease itself as a weapon.</p>
-<Ability id="plague-ward" icon={["stairs-goal","broken-shield","armor-upgrade"]}>
+<Ability id="plague-ward" icon={["power","down","def"]}>
 <Pair single id="plague-ward">Plague Ward</Pair>
 <Pair hl title="Alters">Phantom, shared consciousness</Pair>
 <Pair title="Ability">A plague eater does not bond with a single spirit, but rather a group of spirits gathered around her psychic presence. The spiritualist can meditate on an emotional focus during her 8-hour rest and bond with a spirit from her community with a matching focus. A spirit associated with the chosen emotion links with the spiritualist and acts as her phantom until the plague eater changes her emotional focus with another 8-hour rest. The changing roster of spirits dilutes the bond between the plague eater and her community, and the manifesting phantom has a level 1 lower than the spiritualist's level (minimum level 1).</Pair>
@@ -942,43 +942,43 @@ const _plague_eater = {title: "Plague Eater", jsx: <><h2 id="arc-spiritualist-pl
 <Pair title="At 12th Level">The saving throw bonus becomes +8.</Pair>
 <Pair title="Special">In addition, the phantom grants the plague eater the <Link to="/feat/skill_focus">Skill Focus</Link> feat in one of the skills determined by the phantom's emotional focus. This skill is chosen by the plague eater the first time she confines the phantom tied to that particular emotional focus. Once this choice is made for a given emotional focus, it cannot be changed.</Pair>
 </Ability>
-<Ability id="spiritual-inoculation-su" icon={["armor-upgrade"]}>
+<Ability id="spiritual-inoculation-su" icon={["def"]}>
 <Pair single id="spiritual-inoculation-su">Spiritual Inoculation (Su)</Pair>
 <Pair hl title="Alters">Spiritual interference</Pair>
 <Pair title="At 4th Level">Whenever a plague eater is within reach of her ectoplasmic manifested phantom, she gains a +4 circumstance bonus on saving throws against disease.</Pair>
 </Ability>
-<Ability id="remove-sickness-sp" icon={["magic-swirl","remedy"]}>
+<Ability id="remove-sickness-sp" icon={["magic","aid"]}>
 <Pair single id="remove-sickness-sp">Remove Sickness (Sp)</Pair>
 <Pair hl title="Replaces">Detect undead</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A plague eater's understanding of disease grows to the point where she can cast <Link to="/spell/remove_sickness">remove sickness</Link> at will as a spell-like ability with a caster level equal to her spiritualist level.</Pair>
 </Ability>
-<Ability id="disfiguring-touch-sp" icon={["magic-swirl"]}>
+<Ability id="disfiguring-touch-sp" icon={["magic"]}>
 <Pair single id="disfiguring-touch-sp">Disfiguring Touch (Sp)</Pair>
 <Pair hl title="Replaces">Calm spirit</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per four spiritualist levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Ability">A plague eater can inflict upon others the superficial disfigurement associated with plague by casting <Link to="/spell/disfiguring_touch">disfiguring touch</Link> as a spell-like ability once per day.</Pair>
 </Ability>
-<Ability id="remove-disease-sp" icon={["magic-swirl","remedy"]}>
+<Ability id="remove-disease-sp" icon={["magic","aid"]}>
 <Pair single id="remove-disease-sp">Remove Disease (Sp)</Pair>
 <Pair hl title="Replaces">See invisibility</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Ability">A plague eater gains the ability to purge disease from herself and others. She gains the ability to cast <Link to="/spell/remove_disease">remove disease</Link> as a spell-like ability three times per day.</Pair>
 </Ability>
-<Ability id="fused-well-being-su" icon={["upgrade","armor-upgrade"]}>
+<Ability id="fused-well-being-su" icon={["boost","def"]}>
 <Pair single id="fused-well-being-su">Fused Well-Being (Su)</Pair>
 <Pair hl title="Replaces">Fused consciousness</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Passive Ability">A plague eater always gains the benefits of <em>bonded senses</em> when her phantom is manifested. She also gains the skill ranks and bonus to resist disease granted by the spirit's emotional focus, even when her phantom is manifested.</Pair>
 </Ability>
-<Ability id="greater-spiritual-inoculation-su" icon={["armor-upgrade"]}>
+<Ability id="greater-spiritual-inoculation-su" icon={["def"]}>
 <Pair single id="greater-spiritual-inoculation-su">Greater Spiritual Inoculation (Su)</Pair>
 <Pair hl title="Alters">Greater spiritual interference</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Passive Ability">The plague eater becomes immune to disease, including supernatural and magical diseases. In addition, whenever a manifested phantom is in ectoplasmic form, each of the plague eater's allies within the phantom's reach gains a +4 circumstance bonus on saving throws against disease.</Pair>
 </Ability>
-<Ability id="withdraw-affliction-sp" icon={["magic-swirl"]}>
+<Ability id="withdraw-affliction-sp" icon={["magic"]}>
 <Pair single id="withdraw-affliction-sp">Withdraw Affliction (Sp)</Pair>
 <Pair hl title="Replaces">Call spirit</Pair>
 <Pair title="Gained">At 16th Level</Pair>
@@ -987,38 +987,38 @@ const _plague_eater = {title: "Plague Eater", jsx: <><h2 id="arc-spiritualist-pl
 </>};
 const _priest_of_the_fallen = {title: "Priest of the Fallen", jsx: <><h2 id="arc-spiritualist-priest_of_the_fallen-priest-of-the-fallen">Priest of the Fallen</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 17</Link><br/>Countless hero-gods have risen and fallen through Iblydos's long history, leaving behind mighty spirits. Those attuned to these fallen hero-gods can become conduits for their restless souls and agents acting out their divine will. The result is a priest of the fallen, a spiritualist who channels her land's legends and provides a vessel for mighty heroes to perform heroic acts once more.</p>
-<Ability id="mythmaker-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="mythmaker-su" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="mythmaker-su">Mythmaker (Su)</Pair>
 <Pair title="Ability">A priest of the fallen can channel many different hero-god phantoms, though only one at a time. These spirits will not suffer being confined in a mortal's consciousness and must be manifested in ectoplasmic or incorporeal form or they return to the Ethereal Plane. They each have an emotional focus depending on their personality and retain some of their hero-god powers, determined by their mythic archetype.</Pair>
 <Pair title="Usage">A priest of the fallen can channel a hero-god phantom with a ritual that takes 1 minute to perform. A priest of the fallen can channel only one hero-god phantom per 24 hours, but once channeled, a hero-god phantom remains until a new one is channeled.</Pair>
 </Ability>
-<Ability id="archmage" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="archmage" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="archmage">Archmage</Pair>
 <Pair title="Ability">The phantom gains <Link to="/spell/magic_missile">magic missile</Link> and <Link to="/spell/sleep">sleep</Link> as spell-like abilities. It can use each spell-like ability a number of times per day equal to its Hit Dice, which it uses in place of a caster level.</Pair>
 <Pair title="At 12th Level">It can also cast <Link to="/spell/fireball">fireball</Link> and <Link to="/spell/hold_person">hold person</Link> each once per day.</Pair>
 </Ability>
-<Ability id="champion" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="champion" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="champion">Champion</Pair>
 <Pair title="Ability">The phantom gains <Link to="/feat/weapon_focus">Weapon Focus</Link> (slam) as a bonus feat.</Pair>
 <Pair title="At 12th Level">It gains <Link to="/feat/greater_weapon_focus">Greater Weapon Focus</Link> (slam) and <Link to="/feat/weapon_specialization">Weapon Specialization</Link> (slam) as bonus feats.</Pair>
 </Ability>
-<Ability id="guardian" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="guardian" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="guardian">Guardian</Pair>
 <Pair title="Passive Ability">The phantom gains a +2 natural armor bonus when it manifests in its ectoplasmic form, and a +2 deflection bonus to AC when it manifests in its incorporeal form.</Pair>
 <Pair title="At 12th Level">The phantom increases its maximum hit points by twice its number of Hit Dice.</Pair>
 </Ability>
-<Ability id="hierophant" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="hierophant" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="hierophant">Hierophant</Pair>
 <Pair title="Ability">The phantom gains <Link to="/spell/bane">bane</Link> and <Link to="/spell/bless">bless</Link> as spell-like abilities. It can use each spell-like ability a number of times per day equal to its Hit Dice, which it uses in place of a caster level.</Pair>
 <Pair title="At 12th Level">It can also cast <Link to="/spell/prayer">prayer</Link> and <Link to="/spell/searing_light">searing light</Link> each once per day.</Pair>
 </Ability>
-<Ability id="marshal" extraClasses="subAbility" icon={["armor-upgrade","upgrade"]}>
+<Ability id="marshal" extraClasses="subAbility" icon={["def","boost"]}>
 <Pair single id="marshal">Marshal</Pair>
 <Pair title="Usage">2 + Charisma modifier rounds/day; these rounds need not be consecutive</Pair>
 <Pair title="Standard Action">The phantom can fill its allies with its triumphant spirit, granting them a +1 morale bonus on saving throws against charm and fear effects and a +1 competence bonus on attack and weapon damage rolls.</Pair>
 <Pair title="At 12th Level">If the phantom is hit by an attack of opportunity, it can use an <strong className="hl">immediate action</strong> to allow an ally to make an attack of opportunity against the creature that attacked the phantom if it's within the ally's melee reach.</Pair>
 </Ability>
-<Ability id="trickster" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Ability id="trickster" extraClasses="subAbility" icon={["power","boost"]}>
 <Pair single id="trickster">Trickster</Pair>
 <Pair hl title="Replaces">Shared consciousness</Pair>
 <Pair hl title="Alters">Phantom</Pair>
@@ -1026,7 +1026,7 @@ const _priest_of_the_fallen = {title: "Priest of the Fallen", jsx: <><h2 id="arc
 <Pair title="Ability">The phantom gains the <Link to="/ability/sneak_attack">sneak attack</Link> rogue class feature as a rogue of a level equal to the phantom's Hit Dice.</Pair>
 <Pair title="At 12th Level">Whenever the phantom is in darkness or <Link to="/rule/dim_light">dim light</Link>, it can move at full speed without taking a penalty on Stealth checks.</Pair>
 </Ability>
-<Ability id="channel-energy-su" extraClasses="hasSubs" icon={["stairs-goal","aura"]}>
+<Ability id="channel-energy-su" extraClasses="hasSubs" icon={["power","aura"]}>
 <Pair single id="channel-energy-su" flavor="A priest of the fallen can channel her phantom's divine energy.">Channel Energy (Su)</Pair>
 <Pair hl title="Replaces">Bonded manifestation</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -1034,7 +1034,7 @@ const _priest_of_the_fallen = {title: "Priest of the Fallen", jsx: <><h2 id="arc
 <Pair title="Ability">This functions as the cleric's <Link to="/ability/channel_energy">channel energy</Link> class feature, except she heals or deals damage using her spiritualist level - 2 as her cleric level. (1d6 at 3rd level, 2d6 at 5th level, and so on.)</Pair>
 <Pair title="Special">The priest of the fallen decides to channel positive or negative energy based on her alignment. A neutral priest of the fallen can channel either positive or negative energy, but once this choice is made, it cannot be changed.</Pair>
 </Ability>
-<Ability id="channel-energy-su" extraClasses="subAbility" icon={["stairs-goal","aura"]}>
+<Ability id="channel-energy-su" extraClasses="subAbility" icon={["power","aura"]}>
 <Pair single id="channel-energy-su" flavor="Text from the cleric class ability.">Channel Energy (Su)</Pair>
 <Pair title="Usage">3 + Cha modifier times/day</Pair>
 <Pair title="Standard Action">You must present your holy symbol to channel energy. This causes a <Link to="/misc/burst">burst</Link> that affects all creatures of one type (either undead or living) in a 30-foot radius centered on you. This deals or heals (see below) 1d6 damage. You can choose whether or not to include yourself in this effect. Creatures that take damage from channeled energy receive a Will save to halve the damage, with a DC equal to 10 + <Link to="/misc/half">half</Link> your cleric level + your Charisma modifier.</Pair>
@@ -1051,7 +1051,7 @@ const _priest_of_the_fallen = {title: "Priest of the Fallen", jsx: <><h2 id="arc
 <Pair title="At 19th Level">The damage becomes 10d6.</Pair>
 <Pair title="Special">Creatures healed by channeled energy cannot exceed their maximum hit point total - all excess healing is lost.</Pair>
 </Ability>
-<Ability id="phantom-call-su" icon={["stairs-goal"]}>
+<Ability id="phantom-call-su" icon={["power"]}>
 <Pair single id="phantom-call-su">Phantom Call (Su)</Pair>
 <Pair hl title="Replaces">Phantom recall</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -1063,13 +1063,13 @@ const _priest_of_the_fallen = {title: "Priest of the Fallen", jsx: <><h2 id="arc
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Info">The <em>fused consciousness</em> ability functions as usual, except the phantom retreats to the Ethereal Plane rather than the priest's consciousness.</Pair>
 </Ability>
-<Ability id="masterful-faith-su" icon={["magic-swirl","spell-book"]}>
+<Ability id="masterful-faith-su" icon={["magic","learn"]}>
 <Pair single id="masterful-faith-su">Masterful Faith (Su)</Pair>
 <Pair hl title="Replaces">Dual bond</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Ability">A priest of the fallen chooses any two <Link to="/ability/domains">cleric domains</Link> and receives their full benefits, treating her spiritualist level as her cleric level. She adds the domain spells to her spells known.</Pair>
 </Ability>
-<Ability id="true-legend-su" icon={["stairs-goal"]}>
+<Ability id="true-legend-su" icon={["power"]}>
 <Pair single id="true-legend-su" flavor="A priest of the fallen becomes strong enough to confine a phantom in her consciousness.">True Legend (Su)</Pair>
 <Pair hl title="Alters">Empowered consciousness</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -1079,11 +1079,11 @@ const _priest_of_the_fallen = {title: "Priest of the Fallen", jsx: <><h2 id="arc
 </>};
 const _quintessentialist = {title: "Quintessentialist", jsx: <><h2 id="arc-spiritualist-quintessentialist-quintessentialist">Quintessentialist</h2>
 <p><strong>Sources</strong> <Link to="/source/distant_realms">Distant Realms pg. 53</Link><br/>When the pressure to grow wars with a personal need for simplicity, a mortal soul can split between extremes, creating two half-beings that rely on one another to survive. The quintessentialist learns to project her best self - her <em>exemplar</em> - as an independent being, but in doing so leaves only the weakest and basest aspects behind in her body.</p>
-<Ability id="unfocused-spellcasting" icon={["broken-shield"]}>
+<Ability id="unfocused-spellcasting" icon={["down"]}>
 <Pair single id="unfocused-spellcasting">Unfocused Spellcasting</Pair>
 <Pair title="Ability">A quintessentialist's sheared mind has difficulty focusing on even the simplest spells. All of her spells have a minimum casting time of 1 round, even if casting a spell would normally take less time, such as a standard action.</Pair>
 </Ability>
-<Ability id="exemplar" icon={["stairs-goal","broken-shield"]}>
+<Ability id="exemplar" icon={["power","down"]}>
 <Pair single id="exemplar">Exemplar</Pair>
 <Pair hl title="Alters">Phantom</Pair>
 <Pair title="Info">Instead of bonding to the phantom of a dead soul, a quintessentialist forges her best qualities into a spiritual aspect called an <em>exemplar,</em> which resides in her subconscious mind at all times rather than on the Ethereal Plane. An <em>exemplar</em> uses the quintessentialist's ability scores when fully manifested rather than those of a standard phantom, but otherwise advances as a phantom.</Pair>
@@ -1094,27 +1094,27 @@ const _quintessentialist = {title: "Quintessentialist", jsx: <><h2 id="arc-spiri
 </>};
 const _scourge = {title: "Scourge", jsx: <><h2 id="arc-spiritualist-scourge-scourge">Scourge</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 22</Link><br/>Scourges are students of pain and have a rare connection to tormented and wracked spirits. Most are worshipers of <Link to="/faith/zon_kuthon">Zon-Kuthon</Link> who are more attracted to his mastery of pain than his lordship over darkness. As a result, scourges are found not only in Nidal, but also in Cheliax, Geb, and Irrisen. Faithful of the Midnight Lord often claim the spirits bound to scourges are tortured souls who begged to be given some boon by their deity, and that having their torment extend into death is a reward, rather than a punishment. Scourges seek to share their phantoms' miseries with all around them, using the spirit's pain as a weapon. A scourge's phantom is a broken and wretched creature, and the torments it suffered in life are reflected in its ghostly or ectoplasmic appearance as wounds, scars, grotesque malformations, and tattered garments.</p>
-<Ability id="spell-scourge-su" icon={["armor-downgrade","upgrade"]}>
+<Ability id="spell-scourge-su" icon={["lower","boost"]}>
 <Pair single id="spell-scourge-su">Spell Scourge (Su)</Pair>
 <Pair hl title="Replaces">Spiritual interference</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">When a scourge's phantom damages a creature, it causes severe pain, requiring that creature to succeed at a <Link to="/rule/concentration">concentration</Link> check (DC = 20 + spell level) to use spells, spell-like abilities, and other abilities that require concentration for 1 round.</Pair>
 <Pair title="Passive Ability">The phantom gains a +2 bonus on attack and damage rolls when making attacks of opportunity. Any creature threatened by the scourge's phantom takes a -2 penalty on concentration checks.</Pair>
 </Ability>
-<Ability id="endure-torment-ex" icon={["armor-upgrade"]}>
+<Ability id="endure-torment-ex" icon={["def"]}>
 <Pair single id="endure-torment-ex">Endure Torment (Ex)</Pair>
 <Pair hl title="Replaces">Devotion</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Passive Ability">A scourge's phantom gains immunity to pain effects and gains a +4 bonus on saving throws against effects that could cause it to become <Link to="/misc/staggered">staggered</Link> or <Link to="/misc/stunned">stunned</Link>.</Pair>
 </Ability>
-<Ability id="inflict-pain-sp" icon={["magic-swirl"]}>
+<Ability id="inflict-pain-sp" icon={["magic"]}>
 <Pair single id="inflict-pain-sp">Inflict Pain (Sp)</Pair>
 <Pair hl title="Replaces">Calm spirit</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per four spiritualist levels beyond 7th</Pair>
 <Pair title="Ability">A scourge can use <Link to="/spell/inflict_pain">inflict pain</Link> as a spell-like ability. If her phantom is fully manifested, it can also use this ability, though doing so takes the phantom a <strong className="hl">full-round action</strong>, and it still counts against the scourge's daily uses of this ability.</Pair>
 </Ability>
-<Ability id="ectoplasmic-swarm-su" icon={["stairs-goal"]}>
+<Ability id="ectoplasmic-swarm-su" icon={["power"]}>
 <Pair single id="ectoplasmic-swarm-su">Ectoplasmic Swarm (Su)</Pair>
 <Pair hl title="Replaces">Greater spiritual interference</Pair>
 <Pair title="Gained">At 12th Level</Pair>
@@ -1124,39 +1124,39 @@ const _scourge = {title: "Scourge", jsx: <><h2 id="arc-spiritualist-scourge-scou
 </>};
 const _seeker_of_enlightenment = {title: "Seeker of Enlightenment", jsx: <><h2 id="arc-spiritualist-seeker_of_enlightenment-seeker-of-enlightenment">Seeker of Enlightenment</h2>
 <p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine pg. 22</Link><br/>Sometimes a spiritualist is so haunted by a past life's failure to reach enlightenment that the past life is reborn not as a new creature but as a phantom in a spiritualist's consciousness. The spiritualist and phantom work in tandem to reach enlightenment and atone for the past life's failures.</p>
-<Ability id="echoes-of-expertise-ex" icon={["upgrade","armor-upgrade"]}>
+<Ability id="echoes-of-expertise-ex" icon={["boost","def"]}>
 <Pair single id="echoes-of-expertise-ex">Echoes of Expertise (Ex)</Pair>
 <Pair hl title="Replaces">Shared consciousness</Pair>
 <Pair title="Free Action">Once per day, the seeker of enlightenment can attempt a check with any Knowledge skill, including one in which she is not trained, and add her spiritualist level as a bonus on the check.</Pair>
 <Pair title="Passive Ability">A seeker of enlightenment gains a bonus equal to her spiritualist level on checks attempted with the two skills determined by her phantom's emotional focus. When the phantom is confined to the seeker of enlightenment's consciousness, it grants a +2 bonus on saving throws against mind-affecting effects.</Pair>
 <Pair title="At 12th Level">The bonus to saving throws increases to +4.</Pair>
 </Ability>
-<Ability id="words-of-the-past-sp" icon={["magic-swirl"]}>
+<Ability id="words-of-the-past-sp" icon={["magic"]}>
 <Pair single id="words-of-the-past-sp">Words of the Past (Sp)</Pair>
 <Pair hl title="Replaces">Detect undead</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A seeker of enlightenment's connection with her past lives becomes so strong that she can cast <Link to="/spell/comprehend_languages">comprehend languages</Link> at will as a spell-like ability, with a caster level equal to her spiritualist level.</Pair>
 </Ability>
-<Ability id="karmic-insight-sp" icon={["magic-swirl"]}>
+<Ability id="karmic-insight-sp" icon={["magic"]}>
 <Pair single id="karmic-insight-sp" flavor="A seeker of enlightenment gains the ability to understand which actions will push her toward ultimate understanding.">Karmic Insight (Sp)</Pair>
 <Pair hl title="Replaces">Calm spirit</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per four spiritualist levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Ability">She can cast <Link to="/spell/augury">augury</Link> as a spell-like ability.</Pair>
 </Ability>
-<Ability id="pinpoint-influence-sp" icon={["magic-swirl"]}>
+<Ability id="pinpoint-influence-sp" icon={["magic"]}>
 <Pair single id="pinpoint-influence-sp" flavor="A seeker of enlightenment gains the ability to track objects that are important to her goal of enlightenment.">Pinpoint Influence (Sp)</Pair>
 <Pair hl title="Replaces">See invisibility</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Ability">She can cast <Link to="/spell/locate_object">locate object</Link> as a spell-like ability once per day, with a duration of 10 minutes.</Pair>
 </Ability>
-<Ability id="echoes-of-mastery-ex" icon={["armor-upgrade","upgrade"]}>
+<Ability id="echoes-of-mastery-ex" icon={["def","boost"]}>
 <Pair single id="echoes-of-mastery-ex">Echoes of Mastery (Ex)</Pair>
 <Pair hl title="Replaces">Fused consciousness</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Ability">A seeker of enlightenment gains the bonus on saving throws from <em>echoes of expertise</em> even when her phantom is manifested. Additionally, once per day, she can take 20 on any Knowledge check, including one in which she is not trained.</Pair>
 </Ability>
-<Ability id="knowledge-of-the-ancestors-sp" icon={["magic-swirl"]}>
+<Ability id="knowledge-of-the-ancestors-sp" icon={["magic"]}>
 <Pair single id="knowledge-of-the-ancestors-sp" flavor="A seeker of enlightenment learns how to tap into the knowledge of her past lives.">Knowledge of the Ancestors (Sp)</Pair>
 <Pair hl title="Replaces">Call spirit</Pair>
 <Pair title="Gained">At 16th Level</Pair>
@@ -1165,80 +1165,80 @@ const _seeker_of_enlightenment = {title: "Seeker of Enlightenment", jsx: <><h2 i
 </>};
 const _shadow_caller = {title: "Shadow Caller", jsx: <><h2 id="arc-spiritualist-shadow_caller-shadow-caller">Shadow Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 50</Link><br/>While most spiritualists form a bond with the remnants of a creature's soul, some explore ways to bind ephemeral shadows to their own souls in exchange for power.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-spiritualist-shadow_caller--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Creatures that don't normally cast shadows (such as vampires) cannot be shadow callers</td></tr></tbody></table></ScrollContainer></div><Ability id="shadowcaster" icon={["spell-book","upgrade"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-spiritualist-shadow_caller--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Creatures that don't normally cast shadows (such as vampires) cannot be shadow callers</td></tr></tbody></table></ScrollContainer></div><Ability id="shadowcaster" icon={["learn","boost"]}>
 <Pair single id="shadowcaster">Shadowcaster</Pair>
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Info">A shadow caller adds <Link to="/spell/darkness">darkness</Link> and <Link to="/spell/deeper_darkness">deeper darkness</Link> to their class spell list as 2nd- and 3rd-level spells, respectively.</Pair>
 <Pair title="Passive Ability">When her shade (see below) inhabits her shadow, the shadow caller's effective caster level is one higher when she casts all spells with the shadow or darkness descriptor.</Pair>
 </Ability>
-<Ability id="shade" icon={["stairs-goal"]}>
+<Ability id="shade" icon={["power"]}>
 <Pair single id="shade">Shade</Pair>
 <Pair hl title="Alters">Phantom</Pair>
 <Pair title="Ability">A shadow caller gains a special kind of phantom known as a shade. A shade functions as a phantom, except as noted below. A shade is from the Shadow Plane instead of the Ethereal Plane. A shade is not confined to the shadow caller's consciousness, but instead inhabits her shadow.</Pair>
 </Ability>
-<Ability id="emotionless-su" extraClasses="hasSubs" icon={["upgrade","info"]}>
+<Ability id="emotionless-su" extraClasses="hasSubs" icon={["boost","info"]}>
 <Pair single id="emotionless-su" flavor="A shadow caller's shade lacks an emotional focus; it is cold and devoid of all emotions.">Emotionless (Su)</Pair>
 <Pair title="Ability">The shade gains a number of ranks in Intimidate and Stealth equal to its Hit Dice. The shadow caller gains <Link to="/feat/skill_focus">Skill Focus</Link> in each of these skills while the shade inhabits her shadow.</Pair>
 <Pair title="Info">The shade has <Link to="/misc/good_saves">good Reflex and Will saves</Link>, gains <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link> as a bonus feat, and gains the following abilities.</Pair>
 </Ability>
-<Ability id="weakening-touch-su" extraClasses="subAbility" icon={["armor-downgrade","magic-palm"]}>
+<Ability id="weakening-touch-su" extraClasses="subAbility" icon={["lower","touch"]}>
 <Pair single id="weakening-touch-su">Weakening Touch (Su)</Pair>
 <Pair title="Ability">A shade's slam attack causes its victim to take a -2 penalty to Strength for 1 round.</Pair>
 <Pair title="Standard Action">A shade in incorporeal form can deliver the penalty as a touch attack.</Pair>
 <Pair title="Special">This penalty does not stack with itself. This is a negative energy effect.</Pair>
 </Ability>
-<Ability id="umbral-shroud-su" extraClasses="subAbility" icon={["aura","upgrade"]}>
+<Ability id="umbral-shroud-su" extraClasses="subAbility" icon={["aura","boost"]}>
 <Pair single id="umbral-shroud-su">Umbral Shroud (Su)</Pair>
 <Pair title="At 7th Level">The the shadow caller's shade can emit a 10-foot aura of swirling shadows that grants all allies 20% <Link to="/rule/concealment">concealment</Link> against creatures without darkvision or the <Link to="/umr/see_in_darkness">see in darkness</Link> ability, and a +4 bonus on Stealth checks.</Pair>
 </Ability>
-<Ability id="shadow-caster-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="shadow-caster-sp" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="shadow-caster-sp">Shadow Caster (Sp)</Pair>
 <Pair title="At 12th Level">Her shade gains the ability to cast either <Link to="/spell/shadow_conjuration">shadow conjuration</Link> or <Link to="/spell/shadow_evocation">shadow evocation</Link> once per day. It uses its Hit Dice as its caster level, and the DC for these spells equals 10 + 1/2 the shade's Hit Dice + its Charisma modifier. Instead of the normal spell level and percentage of reality for the two spells, the maximum spell level of the duplicated spell is 4th level, and the effects are 40% real.</Pair>
 <Pair title="At 18th Level">The maximum spell level improves to 6th level and effects are 60% real.</Pair>
 </Ability>
-<Ability id="midnight-shroud-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="midnight-shroud-su" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="midnight-shroud-su">Midnight Shroud (Su)</Pair>
 <Pair title="At 17th Level">Her shade's <em>umbral shroud</em> also lowers the <Link to="/rule/light_level">light level</Link> in its range to darkness, regardless of the prevailing conditions; this counts as a 7th-level <em>darkness</em> spell for the purpose of adjudicating light and darkness effects.</Pair>
 </Ability>
-<Ability id="inhabit-shadow-su" icon={["info","upgrade"]}>
+<Ability id="inhabit-shadow-su" icon={["info","boost"]}>
 <Pair single id="inhabit-shadow-su">Inhabit Shadow (Su)</Pair>
 <Pair hl title="Replaces">Shared consciousness</Pair>
 <Pair title="Info">A shade resides within a shadow caller's own shadow. When the shade is summoned, the shadow caller does not cast a shadow under any circumstances.</Pair>
 <Pair title="Passive Ability">While the shade inhabits its master's shadow, the shadow caller gains darkvision 60 feet. If the shadow caller already has darkvision, its range increases by 30 feet. Additionally, the shadow caller gains a +4 circumstance bonus on Stealth checks against creatures without darkvision or the <em>see in darkness</em> ability.</Pair>
 <Pair title="At 12th Level">This bonus increases to +8.</Pair>
 </Ability>
-<Ability id="shadow-bound-su" icon={["broken-shield","info"]}>
+<Ability id="shadow-bound-su" icon={["down","info"]}>
 <Pair single id="shadow-bound-su">Shadow Bound (Su)</Pair>
 <Pair hl title="Replaces">Etheric tether</Pair>
 <Pair title="Ability">A shadow caller's shade remains stable while adjacent to the shadow caller, or while up to 5 feet away from the shadow caller for every 5 levels the shadow caller possesses. If the shade moves beyond this distance, it is automatically dismissed back to the Shadow Plane (preventing the shade from being summoned back for 24 hours) unless the shadow caller concentrates as per the <em>etheric tether</em> ability. However, if both the shadow caller and shade are in areas of total darkness, the shade can move any distance from the shadow caller.</Pair>
 <Pair title="Special">If the shade is beyond its maximum distance and enters an area of dim or brighter illumination, it immediately returns to the Shadow Plane and cannot be summoned for 24 hours.</Pair>
 </Ability>
-<Ability id="shadow-jump-su" extraClasses="hasSubs" icon={["magic-swirl"]}>
+<Ability id="shadow-jump-su" extraClasses="hasSubs" icon={["magic"]}>
 <Pair single id="shadow-jump-su">Shadow Jump (Su)</Pair>
 <Pair hl title="Replaces">Phantom recall</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">When a shadow caller's shade inhabits her shadow, she can travel between shadows as per the <Link to="/pclass/shadowdancer">shadowdancer's</Link> <em>shadow jump</em> ability. Each day, she can travel a total of 40 feet per spiritualist level in this way and, as with a shadowdancer, the distance is rounded to the nearest 10-foot increment.</Pair>
 </Ability>
-<Ability id="shadow-jump-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="shadow-jump-su" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="shadow-jump-su" flavor="Relevant text from the shadowdancer class ability.">Shadow Jump (Su)</Pair>
 <Pair title="Ability">A shadowdancer gains the ability to travel between shadows as if by means of a <Link to="/spell/dimension_door">dimension door</Link> spell. The limitation is that the magical transport must begin and end in an area with at least some dim light.</Pair>
 <Pair title="Usage">A shadowdancer can jump up to a total of 40 feet each day in this way. This amount can be split among many jumps, but each one, no matter how small, counts as a 10-foot increment.</Pair>
 </Ability>
-<Ability id="see-in-darkness-su" icon={["stairs-goal"]}>
+<Ability id="see-in-darkness-su" icon={["power"]}>
 <Pair single id="see-in-darkness-su">See in Darkness (Su)</Pair>
 <Pair hl title="Replaces">See invisibility</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Usage">1 round/day per spiritualist level; these rounds need not be consecutive</Pair>
 <Pair title="Standard Action">A shadow caller can gain the <Link to="/umr/see_in_darkness">see in darkness</Link> universal monster ability.</Pair>
 </Ability>
-<Ability id="umbral-aura-su-sp" icon={["armor-upgrade","stairs-goal"]}>
+<Ability id="umbral-aura-su-sp" icon={["def","power"]}>
 <Pair single id="umbral-aura-su-sp">Umbral Aura (Su, Sp)</Pair>
 <Pair hl title="Replaces">Fused consciousness</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Passive Ability">A shadow caller is wreathed in an aura of darkness while her shade inhabits her shadow, gaining 50% <Link to="/rule/concealment">concealment</Link> against creatures without darkvision or the <em>see in darkness</em> ability. Additionally, the shadow caller's square and all adjacent squares are treated as areas of dim illumination while she benefits from this ability; this second effect counts as a 4th-level <em>darkness</em> spell for the purpose of adjudicating light and darkness effects.</Pair>
 <Pair title="Ability">While her shade inhabits her shadow, the shadow caller can <em>hide in plain sight</em> (the ability to use <Link to="/skill/stealth">Stealth</Link> to hide, even while being observed), even if an observing creature has darkvision or <em>see in darkness.</em></Pair>
 </Ability>
-<Ability id="living-darkness-su" icon={["armor-upgrade","magic-palm","remedy"]}>
+<Ability id="living-darkness-su" icon={["def","touch","aid"]}>
 <Pair single id="living-darkness-su" flavor="A shadow caller becomes a creature of absolute darkness.">Living Darkness (Su)</Pair>
 <Pair hl title="Replaces">Empowered consciousness</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -1248,7 +1248,7 @@ const _shadow_caller = {title: "Shadow Caller", jsx: <><h2 id="arc-spiritualist-
 </>};
 const _soul_warden = {title: "Soul Warden", jsx: <><h2 id="arc-spiritualist-soul_warden-soul-warden">Soul Warden</h2>
 <p><strong>Sources</strong> <Link to="/source/planar_adventures">Planar Adventures pg. 20</Link><br/>Normally, the bond a spiritualist shares with his phantom persists for the duration of the spiritualist's life, but in certain rare instances, a spiritualist can guide the phantom hiding within her on to the afterlife, choosing to release the phantom and abandoning many of the classic powers her class normally grants her. When this unusual circumstance happens, the spiritualist retains all the psychic potential from her time serving as a conduit and a vessel, even though she is no longer accompanied by her phantom. While some who would have otherwise become adventuring spiritualists take this as an opportunity to instead choose a normal life, others are galvanized to become wardens of the soulstream, serving <Link to="/faith/pharasma">Pharasma</Link> and working with <Link to="/family/psychopomp">psychopomps</Link> to protect vulnerable souls from those who seek to capture, corrupt, or devour them. At the GM's discretion, a spiritualist might help her phantom move on during play, and if the attempt is successful, she can apply this archetype retroactively, making the appropriate modifications to her class choices as if she had been a soul warden from first level.</p>
-<Ability id="nosoi-scribe" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="nosoi-scribe" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="nosoi-scribe">Nosoi Scribe</Pair>
 <Pair hl title="Replaces">Phantom, etheric tether, shared consciousness, spiritual interference, fused consciousness, greater spiritual interference</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -1257,18 +1257,18 @@ const _soul_warden = {title: "Soul Warden", jsx: <><h2 id="arc-spiritualist-soul
 <Pair title="At 10th Level">The nosoi scribe gains the ability to use its <em>touch the spirit world</em> ability three times per day, instead of once per day.</Pair>
 <Pair title="At 12th Level">It also gains the <Link to="/domain/repose">Repose</Link> domain's <em>ward against death</em> ability.</Pair>
 </Ability>
-<Ability id="ward-against-death-su" extraClasses="subAbility" icon={["shield-reflect"]}>
+<Ability id="ward-against-death-su" extraClasses="subAbility" icon={["protect"]}>
 <Pair single id="ward-against-death-su" flavor="Text from the Respose domain ability.">Ward Against Death (Su)</Pair>
 <Pair title="Usage">1 round/day per cleric level; these rounds need not be consecutive</Pair>
 <Pair title="Standard Action">You can emit a 30-foot aura that wards against death. Living creatures in this area are immune to all death effects, energy drain, and effects that cause <Link to="/rule/negative_levels">negative levels</Link>. This ward does not remove negative levels that a creature has already gained, but the negative levels have no effect while the creature is inside the warded area.</Pair>
 </Ability>
-<Ability id="psychopomps-bond-su" icon={["stairs-goal"]}>
+<Ability id="psychopomps-bond-su" icon={["power"]}>
 <Pair single id="psychopomps-bond-su" flavor="A soul warden's bond with her nosoi scribe is stronger than usual for a master and familiar.">Psychopomp's Bond (Su)</Pair>
 <Pair hl title="Alters">Bonded senses, phantom recall</Pair>
 <Pair title="At 2nd Level">She can use <em>bonded senses</em> with her nosoi scribe.</Pair>
 <Pair title="At 6th Level">She can use <em>phantom recall</em> to recall her nosoi scribe to her side.</Pair>
 </Ability>
-<Ability id="warding-vessel-su" icon={["shield-reflect"]}>
+<Ability id="warding-vessel-su" icon={["protect"]}>
 <Pair single id="warding-vessel-su">Warding Vessel (Su)</Pair>
 <Pair hl title="Replaces">Bonded manifestation</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -1281,7 +1281,7 @@ const _soul_warden = {title: "Soul Warden", jsx: <><h2 id="arc-spiritualist-soul
 <Pair title="At 8th Level">A soul warden's nosoi scribe learns to sing elegies that build on the soul warden's conduit to her former phantom. This allows it to create an effect identical to the 7th-level <em>aura</em> ability of an <Link to="/emotionalfocus/anger">anger</Link>, <Link to="/emotionalfocus/dedication">dedication</Link>, <Link to="/emotionalfocus/despair">despair</Link>, <Link to="/emotionalfocus/fear">fear</Link>, <Link to="/emotionalfocus/hatred">hatred</Link>, <Link to="/emotionalfocus/jealousy">jealousy</Link>, or <Link to="/emotionalfocus/zeal">zeal</Link> phantom, except that the <em>phantom elegy</em> is also a sonic effect and continues only as long as the nosoi scribe sings. Each round of <em>phantom elegy</em> uses 1 round of the nosoi scribe's <em>haunting melody.</em></Pair>
 <Pair title="At 17th Level">The nosoi scribe can blend any two of the phantom aura abilities into a single <em>phantom elegy,</em> although it uses 3 rounds of its <em>haunting melody</em> for each round it does so.</Pair>
 </Ability>
-<Ability id="algea-call-su" icon={["magic-swirl"]}>
+<Ability id="algea-call-su" icon={["magic"]}>
 <Pair single id="algea-call-su">Algea Call (Su)</Pair>
 <Pair hl title="Replaces">Empowered consciousness</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -1290,7 +1290,7 @@ const _soul_warden = {title: "Soul Warden", jsx: <><h2 id="arc-spiritualist-soul
 </>};
 const _totem_spiritualist = {title: "Totem Spiritualist", jsx: <><h2 id="arc-spiritualist-totem_spiritualist-totem-spiritualist">Totem Spiritualist</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 6</Link><br/>The god callers of Sarkoris had numerous traditions mixing naturalism with the arcane and occult arts. One of the few traditions to survive to the present day is that of the totem spiritualists. These specialized spiritualists call upon phantoms that are manifestations of animals and personifications of nature.</p>
-<Ability id="phantom-animal" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="phantom-animal" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="phantom-animal">Phantom Animal</Pair>
 <Pair hl title="Replaces">Phantom</Pair>
 <Pair title="Ability"><p>A totem spiritualist calls upon spirits of nature known as phantom animals to assist her in her journeys. A phantom animal functions like an <Link to="/sidekick/animal_companion">animal companion</Link> except as noted in the descriptions below.</p>
@@ -1303,27 +1303,27 @@ const _totem_spiritualist = {title: "Totem Spiritualist", jsx: <><h2 id="arc-spi
 <p>A totem spiritualist treats any druid levels she has as effective spiritualist levels to determine the abilities of her phantom animals, but does not treat her spiritualist levels as effective druid levels to determine the abilities of animal companions.</p>
 </Pair>
 </Ability>
-<Ability id="gain-an-additional-phantom-animal" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Ability id="gain-an-additional-phantom-animal" extraClasses="subAbility numbered" icon={["power"]}>
 <Pair single id="gain-an-additional-phantom-animal">Gain an Additional Phantom Animal</Pair>
 <Pair title="Ability">This additional phantom animal uses the appropriate statistics for a phantom animal of its level.</Pair>
 <Pair title="Special">A totem spiritualist can have only one active phantom animal at a time. Dismissing an active phantom animal to call another requires a ritual that takes 1 minute to perform.</Pair>
 </Ability>
-<Ability id="empower-a-phantom-animal" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Ability id="empower-a-phantom-animal" extraClasses="subAbility numbered" icon={["boost"]}>
 <Pair single id="empower-a-phantom-animal">Empower a Phantom Animal</Pair>
 <Pair title="Ability">The first time the phantom animal is empowered, it gains two bonus tricks. The second time it is empowered, the phantom animal gains the hunter's <Link to="/ability/animal_focus">animal focus</Link> class ability, treating the totem spiritualist's spiritualist level as her effective <Link to="/class/hunter">hunter</Link> level. The third time it is empowered, the damage dice of the phantom animal's natural attacks increase <Link to="/misc/by_one_step">by one step</Link>.</Pair>
 </Ability>
-<Ability id="shared-instincts-su" icon={["upgrade"]}>
+<Ability id="shared-instincts-su" icon={["boost"]}>
 <Pair single id="shared-instincts-su">Shared Instincts (Su)</Pair>
 <Pair hl title="Alters">Shared consciousness</Pair>
 <Pair title="Passive Ability">A totem spiritualist doesn't gain Skill Focus feats while a phantom animal is confined in her consciousness. She instead gains a number of bonus ranks in Knowledge (nature) equal to the phantom animal's Hit Dice.</Pair>
 </Ability>
-<Ability id="animal-senses-su" icon={["stairs-goal"]}>
+<Ability id="animal-senses-su" icon={["power"]}>
 <Pair single id="animal-senses-su" flavor="A totem spiritualist shares her phantom animal's senses.">Animal Senses (Su)</Pair>
 <Pair hl title="Replaces">See invisibility</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Ability">If her phantom animal has any of the following abilities, she gains them whenever the phantom animal is harbored in her consciousness: <Link to="/umr/blindsense">blindsense</Link>, darkvision, low-light vision, and <Link to="/umr/scent">scent</Link>.</Pair>
 </Ability>
-<Ability id="twin-phantoms-su" icon={["upgrade"]}>
+<Ability id="twin-phantoms-su" icon={["boost"]}>
 <Pair single id="twin-phantoms-su" flavor="The totem spiritualist can call upon two of her phantom animals at once.">Twin Phantoms (Su)</Pair>
 <Pair hl title="Replaces">Dual bond</Pair>
 <Pair title="Gained">At 17th Level</Pair>
@@ -1351,26 +1351,26 @@ const _usher_of_lost_souls = {title: "Usher of Lost Souls", jsx: <><h2 id="arc-s
 <Pair title="At 17th Level">The damage increases to 9d6.</Pair>
 <Pair title="At 19th Level">The damage becomes 10d6.</Pair>
 </Ability>
-<Ability id="spirit-senses-ex" icon={["upgrade"]}>
+<Ability id="spirit-senses-ex" icon={["boost"]}>
 <Pair single id="spirit-senses-ex">Spirit Senses (Ex)</Pair>
 <Pair hl title="Replaces">Bonded senses</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">An usher of lost souls gains a bonus equal to half her spiritualist level on Perception checks to detect haunts and incorporeal creatures and on Sense Motive checks to determine whether a creature is possessed, under the effects of an enchantment or curse, or otherwise magically controlled.</Pair>
 </Ability>
-<Ability id="disrupting-phantom-ex" icon={["mailed-fist"]}>
+<Ability id="disrupting-phantom-ex" icon={["melee"]}>
 <Pair single id="disrupting-phantom-ex">Disrupting Phantom (Ex)</Pair>
 <Pair hl title="Replaces">Spiritual interference, greater spiritual interference</Pair>
 <Pair title="At 4th Level">An usher of lost souls's phantom gains the ability to directly harm haunts. The phantom can make an attack while within a haunt's area against an AC equal to 10 + the haunt's caster level. On a hit, the phantom deals its slam damage to the haunt; the haunt is immune to critical hits from the phantom.</Pair>
 <Pair title="At 12th Level">Her phantom can deal critical hits to a haunt, and the critical threat range for its slam attacks against haunts increases to 19-20.</Pair>
 </Ability>
-<Ability id="locate-haunts-su" icon={["stairs-goal"]}>
+<Ability id="locate-haunts-su" icon={["power"]}>
 <Pair single id="locate-haunts-su" flavor="An usher of lost souls can locate inactive haunts.">Locate Haunts (Su)</Pair>
 <Pair hl title="Replaces">See invisibility</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Usage">10 minutes/day per spiritualist level; these minutes need not be consecutive, but they must be spent in 10-minute increments</Pair>
 <Pair title="Standard Action">She can enhance her vision to detect haunts within 60 feet of her. A haunt's area glows with a bright light for an untriggered haunt or dim light for a haunt that is waiting to reset.</Pair>
 </Ability>
-<Ability id="disruptive-influence-su" icon={["magic-swirl"]}>
+<Ability id="disruptive-influence-su" icon={["magic"]}>
 <Pair single id="disruptive-influence-su" flavor="The usher of lost souls can put spirits to rest.">Disruptive Influence (Su)</Pair>
 <Pair hl title="Replaces">Spiritual bond</Pair>
 <Pair title="Gained">At 14th Level</Pair>
@@ -1379,12 +1379,12 @@ const _usher_of_lost_souls = {title: "Usher of Lost Souls", jsx: <><h2 id="arc-s
 </>};
 const _ward_spiritualist = {title: "Ward Spiritualist", jsx: <><h2 id="arc-spiritualist-ward_spiritualist-ward-spiritualist">Ward Spiritualist</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 18</Link><br/>While many spiritualists are bound to a departed spirit, a condition more likely to be the result of chance or tragedy than a career choice, there are some individuals who seek out this life. A ward spiritualist ventures into the wilderness and petitions a <Link to="/family/kami">kami</Link> to help her in her travels, either taking an existing ward with her or becoming the kami's new ward.</p>
-<Ability id="kami-phantom-su" icon={["broken-shield"]}>
+<Ability id="kami-phantom-su" icon={["down"]}>
 <Pair single id="kami-phantom-su">Kami Phantom (Su)</Pair>
 <Pair hl title="Alters">Phantom</Pair>
 <Pair title="Info">The ward spiritualist's phantom is less powerful than most, but it has an innate connection to its ward. The ward spiritualist's phantom is a kami phantom, functioning as normal for a <Link to="/sidekick/phantom">phantom</Link>, except that its base attack bonus is equal to three-quarters its Hit Dice (as a <Link to="/class/rogue">rogue</Link>) and its Hit Dice are d8s instead of d10s. Additionally, a kami phantom cannot manifest as incorporeal, only ectoplasmic.</Pair>
 </Ability>
-<Ability id="ward-implement-su" icon={["stairs-goal"]}>
+<Ability id="ward-implement-su" icon={["power"]}>
 <Pair single id="ward-implement-su">Ward Implement (Su)</Pair>
 <Pair hl title="Replaces">Bonded senses, phantom recall, greater spiritual interference</Pair>
 <Pair hl title="Alters">Spellcasting</Pair>
@@ -1397,26 +1397,26 @@ const _ward_spiritualist = {title: "Ward Spiritualist", jsx: <><h2 id="arc-spiri
 <Pair title="At 10th Level">She gains a focus power for her implement school.</Pair>
 <Pair title="Special">She must meet the prerequisites of these focus powers, treating her spiritualist level as her occultist level for focus power prerequisites. She also treats her spiritualist level as her occultist level for feat prerequisites.</Pair>
 </Ability>
-<Ability id="merged-manifestation-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="merged-manifestation-su" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="merged-manifestation-su">Merged Manifestation (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">The ward spiritualist learns how to merge her kami phantom with her ward implement. This functions as <em>bonded manifestation,</em> except that she does not choose ectoplasmic or incorporeal. Instead, she gains different benefits depending on whether she has a physical implement or is her own implement.</Pair>
 </Ability>
-<Ability id="physical-implement" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Ability id="physical-implement" extraClasses="subAbility numbered" icon={["boost"]}>
 <Pair single id="physical-implement">Physical Implement</Pair>
 <Pair title="Ability">If she has a physical implement, when using her <em>merged manifestation,</em> her implement functions as a one-handed <Link to="/misc/improvised_weapon">improvised weapon</Link> of appropriate size, and she does not take the usual penalties associated with wielding an improvised weapon. Additionally, it is considered to have a +1 enhancement bonus for the duration of the <em>merged manifestation.</em></Pair>
 <Pair title="At 8th Level">The enchantment bonus becomes +2. It deals damage as a weapon <Link to="/misc/one_size_category_larger">one size category larger</Link>.</Pair>
 <Pair title="At 13th Level">The enchantment bonus increases to +3. Her implement also gains the benefits of <Link to="/spell/spirit_bound_blade">spirit-bound blade</Link> for the duration of the <em>merged manifestation.</em></Pair>
 <Pair title="At 18th Level">The enchantment bonus becomes +4. It now deals damage as a weapon two size categories larger.</Pair>
 </Ability>
-<Ability id="is-her-own-implement" extraClasses="subAbility numbered" icon={["mailed-fist"]}>
+<Ability id="is-her-own-implement" extraClasses="subAbility numbered" icon={["melee"]}>
 <Pair single id="is-her-own-implement">Is Her Own Implement</Pair>
 <Pair title="Ability">If she is her own implement, when using her <em>merged manifestation,</em> she gains the <em>unarmed strike</em> class feature as a 1st level <Link to="/class/unchained_monk">unchained monk</Link>.</Pair>
 <Pair title="At 8th Level">Her unarmed strike damage is that of a 4th-level unchained monk, and she gains <em>flurry of blows</em> as a 1st-level unchained monk.</Pair>
 <Pair title="At 13th Level">Her unarmed damage is that of an 8th-level unchained monk, and her unarmed strikes gain the benefits of <em>spirit-bound blade</em> for the duration of the <em>merged manifestation.</em></Pair>
 <Pair title="At 18th Level">Her unarmed damage is that of a 12th level unchained monk, and she can use <em>flurry of blows</em> as an 11th-level unchained monk.</Pair>
 </Ability>
-<Ability id="unarmed-strike-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="unarmed-strike-ex" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="unarmed-strike-ex" flavor="Text from the unchained monk class ability.">Unarmed Strike (Ex)</Pair>
 <Pair title="Ability"><p>You gain <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat. Your attacks can be with fists, elbows, knees, and feet. This means that you can make unarmed strikes with your hands full. There is no such thing as an off-hand attack when you're striking unarmed. You can apply your full Strength bonus on damage rolls for all your unarmed strikes. Your unarmed strikes deal lethal damage, although you can choose to deal nonlethal damage with no penalty on the attack roll. You can make this choice while grappling as well.</p>
 </Pair>
@@ -1428,7 +1428,7 @@ const _ward_spiritualist = {title: "Ward Spiritualist", jsx: <><h2 id="arc-spiri
 <Pair title="At 20th Level">Your unarmed strike now deals 2d8 (Small), 2d10 (Medium), or 4d8 (Large) damage.</Pair>
 <Pair title="Special">Your unarmed strike is treated as both a manufactured weapon and a natural weapon for the purpose of spells and effects that enhance or improve either manufactured weapons or natural weapons.</Pair>
 </Ability>
-<Ability id="flurry-of-blows-ex" icon={["mailed-fist"]}>
+<Ability id="flurry-of-blows-ex" icon={["melee"]}>
 <Pair single id="flurry-of-blows-ex" flavor="Text from the unchained monk class ability.">Flurry of Blows (Ex)</Pair>
 <Pair title="Full-Round Action">You can make a flurry of blows as a full-attack action. When doing this, you can make one additional attack at your highest base attack bonus. This additional attack stacks with the bonus attacks from <Link to="/spell/haste">haste</Link> and other similar effects. When using this ability, you can make these attacks with any combination of your unarmed strikes and weapons that have the monk special weapon quality. You take no penalty for using multiple weapons when making a flurry of blows, but you do not gain any additional attacks beyond what's already granted by the flurry for doing so. (You can still gain additional attacks from a high base attack bonus, from this ability, and from <em>haste</em> and similar effects).</Pair>
 <Pair title="At 11th Level">You can now make two additional attacks at your highest base attack bonus during your flurry of blows. This still stacks with <em>haste</em> and similar effects.</Pair>
@@ -1441,54 +1441,54 @@ const _zeitgeist_binder = {title: "Zeitgeist Binder", jsx: <><h2 id="arc-spiritu
 <Pair hl title="Alters">Phantom</Pair>
 <Pair title="Info">A zeitgeist binder's phantom is called a zeitgeist. In addition to an emotion, a zeitgeist is tied to one <Link to="/rule/the_settlement_stat_block">aspect of its settlement</Link>: corruption, crime, economy, law, lore, or society. In order to select an aspect, that aspect of the settlement must have a positive modifier (for instance, a settlement with a negative lore modifier or a modifier of 0 could not manifest a lore zeitgeist). Although a zeitgeist personifies a single chosen settlement, a zeitgeist binder can call it anywhere, but outside the bounds of its settlement, it loses the benefits of its <em>settlement aspect</em> and <em>settlement avatar</em> abilities.</Pair>
 </Ability>
-<Ability id="settlement-aspect-sp" extraClasses="hasSubs" icon={["magic-swirl"]}>
+<Ability id="settlement-aspect-sp" extraClasses="hasSubs" icon={["magic"]}>
 <Pair single id="settlement-aspect-sp">Settlement Aspect (Sp)</Pair>
 <Pair hl title="Replaces">Detect undead, calm spirit, see invisibility, call spirit</Pair>
 <Pair title="Ability">A zeitgeist binder gains a number of spell-like abilities tied to her zeitgeist's settlement aspect. Other than being based on Wisdom instead of Charisma, these work the same way as the <Link to="/arc-spiritualist/fractured_mind">fractured mind's</Link> emotional power ability. The <em>masterwork transformation</em> spell-like ability does not ignore the material component.</Pair>
 </Ability>
-<Ability id="corruption" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="corruption" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="corruption">Corruption</Pair>
 <Pair plain title="5th"><Link to="/spell/conditional_favor">Conditional favor</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/false_belief">False belief</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/charm_person">Charm person</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/mass_suggestion">Mass suggestion</Link></Pair>
 </Ability>
-<Ability id="crime" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="crime" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="crime">Crime</Pair>
 <Pair plain title="5th"><Link to="/spell/crime_of_opportunity">Crime of opportunity</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/pilfering_hand">Pilfering hand</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/demand_offering">Demand offering</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/crime_wave">Crime wave</Link></Pair>
 </Ability>
-<Ability id="economy" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="economy" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="economy">Economy</Pair>
 <Pair plain title="5th"><Link to="/spell/crafters_fortune">Crafter's fortune</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/masterwork_transformation">Masterwork transformation</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/beguiling_gift">Beguiling gift</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/major_creation">Major creation</Link></Pair>
 </Ability>
-<Ability id="law" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="law" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="law">Law</Pair>
 <Pair plain title="5th"><Link to="/spell/detect_chaos">Detect chaos</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/arrow_of_law">Arrow of law</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/peacebond">Peacebond</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/mark_of_justice">Mark of justice</Link></Pair>
 </Ability>
-<Ability id="lore" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="lore" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="lore">Lore</Pair>
 <Pair plain title="5th"><Link to="/spell/object_reading">Object reading</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/hypercognition">Hypercognition</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/heightened_awareness">Heightened awareness</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/legend_lore">Legend lore</Link></Pair>
 </Ability>
-<Ability id="society" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="society" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="society">Society</Pair>
 <Pair plain title="5th"><Link to="/spell/cultural_adaptation">Cultural adaptation</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/rumormonger">Rumormonger</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/share_language">Share language</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/coordinated_effort">Coordinated effort</Link></Pair>
 </Ability>
-<Ability id="settlement-avatar-su" icon={["magic-swirl","stairs-goal"]}>
+<Ability id="settlement-avatar-su" icon={["magic","power"]}>
 <Pair single id="settlement-avatar-su" flavor="The zeitgeist becomes a living avatar of the settlement.">Settlement Avatar (Su)</Pair>
 <Pair hl title="Replaces">Bonded senses, fused consciousness</Pair>
 <Pair title="Gained">At 2nd Level</Pair>

@@ -10,7 +10,7 @@ const _aberrant = {title: "Aberrant", jsx: <><p><strong>Sources</strong> <Link t
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Chaotic evil, chaotic neutral, neutral, or neutral evil.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Aberrant (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/grab">grab</Link> [tentacle mass], <Link to="/unchevolution/tentacle_mass">tentacle mass</Link>), biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>), quadruped (bite, limbs [legs, 2]), or serpentine (bite, grab [bite], <Link to="/unchevolution/reach">reach</Link> [bite], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["skills","armor-upgrade","upgrade","stairs-goal","magic-swirl"]}>
+<Ability id="base-evolutions" icon={["skill","def","boost","power","magic"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Aberrant eidolons gain the following class skills in place of those normally gained by eidolons: <Link to="/skill/escape_artist">Escape Artist</Link>; <Link to="/skill/intimidate">Intimidate</Link>; <Link to="/skill/knowledge">Knowledge</Link> (pick one); <Link to="/skill/perception">Perception</Link>; <Link to="/skill/stealth">Stealth</Link>; and <Link to="/skill/climb">Climb</Link>, <Link to="/skill/fly">Fly</Link>, or <Link to="/skill/swim">Swim</Link> (pick one). The summoner can choose four additional skills to be class skills for his eidolon. Aberrant eidolons count as both aberrations and outsiders for spells and effects. They gain a +4 racial bonus on saving throws against mind-affecting effects.</Pair>
 <Pair title="At 4th Level">Aberrant eidolons add 1 point to their evolution pools.</Pair>
@@ -26,7 +26,7 @@ const _aeon = {title: "Aeon", jsx: <><p><strong>Sources</strong> <Link to="/sour
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/claws">claws</Link>, <Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]) or serpentine (limbs [arms], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/slam">slam</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["stairs-goal","armor-upgrade","magic-swirl"]}>
+<Ability id="base-evolutions" icon={["power","def","magic"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Aeon eidolons gain the <em>envisaging</em> ability of other <Link to="/family/aeon">aeons</Link>. Aeon eidolons halve the armor and natural armor bonuses they gain per level, but gain an equal deflection bonus to their AC. They also gain a +4 bonus on saving throws against poison.</Pair>
 <Pair title="At 4th Level">Aeon eidolons gain the benefits of the <Link to="/magic-enh/moderate_fortification">moderate fortification</Link> armor special ability and cannot be tripped.</Pair>
@@ -46,7 +46,7 @@ const _agathion = {title: "Agathion", jsx: <><p><strong>Sources</strong> <Link t
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral good.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/claws">claws</Link>, <Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]) or quadruped (limbs [legs, 2], <Link to="/unchevolution/bite">bite</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","remedy","stairs-goal","magic-swirl"]}>
+<Ability id="base-evolutions" icon={["def","aid","power","magic"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Agathion eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (electricity) evolution. They also gain a +4 bonus on saving throws against poison and petrification.</Pair>
 <Pair title="At 4th Level">Agathion eidolons gain cold <em>resistance</em> 10 and sonic <em>resistance</em> 10.</Pair>
@@ -62,7 +62,7 @@ const _ancestor = {title: "Ancestor", jsx: <><p><strong>Sources</strong> <Link t
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Any. Ancestor eidolons don't have any alignment subtypes.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["stairs-goal"]}>
+<Ability id="base-evolutions" icon={["power"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">An ancestor eidolon gains all of the racial traits associated with its summoner's race; a summoner who isn't a 0-Hit Die creature must choose one 0-Hit Die race of his choice. For any effect dependent on class level, an ancestor eidolon uses its total Hit Dice instead (such as with the human's skilled racial trait). An ancestor eidolon counts as a creature of its chosen race's type and subtype for all effects, except for the purpose of meeting feat prerequisite requirements. An ancestor eidolon gains only the standard racial traits of its race; it cannot select alternate racial traits.</Pair>
 <Pair title="At 4th Level">The ancestor eidolon chooses one of the following simple class templates: <Link to="/template/fighter">fighter</Link>, <Link to="/template/rogue">rogue</Link>, or <Link to="/template/sorcerer">sorcerer</Link>. It gains the abilities noted under the template's quick rules as if it were a creature with 1 Hit Die. The eidolon does not gain any abilities that a character with 1 level in the class associated with the chosen template wouldn't have. For instance, a 1-HD creature with the rogue simple template would normally gain the <em>evasion</em> and <em>uncanny dodge</em> abilities, but an ancestor eidolon that chooses the rogue simple template does not gain these abilities since a 1st-level rogue would not have <em>evasion</em> or <em>uncanny dodge.</em></Pair>
@@ -78,7 +78,7 @@ const _angel = {title: "Angel", jsx: <><p><strong>Sources</strong> <Link to="/so
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Any good.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], slam).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","stairs-goal","aura"]}>
+<Ability id="base-evolutions" icon={["def","power","aura"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Angel eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (acid) and <em>resistance</em> (cold) evolutions. They also gain a +4 bonus on saving throws against poison.</Pair>
 <Pair title="At 4th Level">Angel eidolons gain electricity <em>resistance</em> 10 and fire <em>resistance</em> 10.</Pair>
@@ -94,7 +94,7 @@ const _archon = {title: "Archon", jsx: <><p><strong>Sources</strong> <Link to="/
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Lawful good.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","upgrade","aura","magic-swirl"]}>
+<Ability id="base-evolutions" icon={["def","boost","aura","magic"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Archon eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (electricity) evolution and the <Link to="/unchevolution/skilled">skilled</Link> (Intimidate) evolution. They also gain a +4 bonus on saving throws against poison.</Pair>
 <Pair title="At 4th Level">Archon eidolons add 1 point to their evolution pools.</Pair>
@@ -110,7 +110,7 @@ const _astral = {title: "Astral", jsx: <><p><strong>Sources</strong> <Link to="/
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>) or serpentine (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/magic_attacks">magic attacks</Link>, <Link to="/unchevolution/reach">reach</Link> [bite], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","broken-shield","upgrade","magic-swirl"]}>
+<Ability id="base-evolutions" icon={["def","down","boost","magic"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Astral eidolons gain immunity to aging as well as a +4 bonus on saving throws against curses, diseases, and poisons. A summoner's class level is halved for the purpose of determining the rate at which his astral eidolon's Strength and Dexterity increase.</Pair>
 <Pair title="At 4th Level"><p>Astral eidolons gain the ability to augment their masters' summoning abilities three times per day.</p>
@@ -134,7 +134,7 @@ const _azata = {title: "Azata", jsx: <><p><strong>Sources</strong> <Link to="/so
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Chaotic good.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]) or serpentine (limbs [arms], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","stairs-goal","upgrade","magic-swirl"]}>
+<Ability id="base-evolutions" icon={["def","power","boost","magic"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Azata eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (electricity) evolution and the 4-point <Link to="/unchevolution/weapon_training">weapon training</Link> evolution (proficiency in martial weapons).</Pair>
 <Pair title="At 4th Level">Azata eidolons gain cold <em>resistance</em> 10 and fire <em>resistance</em> 10.</Pair>
@@ -150,7 +150,7 @@ const _daemon = {title: "Daemon", jsx: <><p><strong>Sources</strong> <Link to="/
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral evil.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Aberrant (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/tentacle_mass">tentacle mass</Link>), Biped (<Link to="/unchevolution/claws">claws</Link>, <Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]), quadruped (limbs [legs, 2], bite), or serpentine (bite, <Link to="/unchevolution/reach">reach</Link> [bite], reach [sting], <Link to="/unchevolution/sting">sting</Link>, <Link to="/unchevolution/tail">tail</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","upgrade","stairs-goal"]}>
+<Ability id="base-evolutions" icon={["def","boost","power"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Daemon eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (acid) evolution as well as a +4 bonus on saving throws against death effects, disease, and poison.</Pair>
 <Pair title="At 4th Level">Daemon eidolons gain cold <em>resistance</em> 10, electricity <em>resistance</em> 10, and fire <em>resistance</em> 10.</Pair>
@@ -166,7 +166,7 @@ const _deepwater = {title: "Deepwater", jsx: <><p><strong>Sources</strong> <Link
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Chaotic evil, chaotic neutral, neutral, or neutral evil.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Serpentine (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/grab">grab</Link> [tail slap], <Link to="/unchevolution/reach">reach</Link> [tail slap], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["stairs-goal","armor-upgrade","upgrade","mailed-fist"]}>
+<Ability id="base-evolutions" icon={["power","def","boost","melee"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Deepwater eidolons gain the <Link to="/unchevolution/gills">gills</Link>, <Link to="/unchevolution/resistance">resistance</Link> (cold), and <Link to="/unchevolution/swim">swim</Link> evolutions.</Pair>
 <Pair title="At 4th Level">Deepwater eidolons gain the <Link to="/umr/jet">jet</Link> ability at a speed of 200 feet and increase the range of their darkvision to 120 feet.</Pair>
@@ -182,7 +182,7 @@ const _demon = {title: "Demon", jsx: <><p><strong>Sources</strong> <Link to="/so
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Chaotic evil.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Aberrant (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/tentacle_mass">tentacle mass</Link>), Biped (<Link to="/unchevolution/claws">claws</Link>, <Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]), quadruped (limbs [legs, 2], bite), or serpentine (bite, <Link to="/unchevolution/improved_damage">improved damage</Link> [bite], <Link to="/unchevolution/reach">reach</Link> [bite], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","stairs-goal","upgrade"]}>
+<Ability id="base-evolutions" icon={["def","power","boost"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Demon eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (electricity) and <em>resistance</em> (fire) evolutions as well as a +4 bonus on saving throws against poison.</Pair>
 <Pair title="At 4th Level">Demon eidolons gain acid <em>resistance</em> 10 and cold <em>resistance</em> 10.</Pair>
@@ -198,7 +198,7 @@ const _devil = {title: "Devil", jsx: <><p><strong>Sources</strong> <Link to="/so
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Lawful evil.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/claws">claws</Link>, <Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","upgrade","stairs-goal"]}>
+<Ability id="base-evolutions" icon={["def","boost","power"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Devil eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (fire) evolution and the <Link to="/unchevolution/skilled">skilled</Link> (Bluff) evolution. They also gain a +4 bonus on saving throws against poison.</Pair>
 <Pair title="At 4th Level">Devil eidolons gain acid <em>resistance</em> 10 and cold <em>resistance</em> 10.</Pair>
@@ -214,7 +214,7 @@ const _div = {title: "Div", jsx: <><p><strong>Sources</strong> <Link to="/source
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral evil.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/claws">claws</Link>, <Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","upgrade","stairs-goal","magic-swirl"]}>
+<Ability id="base-evolutions" icon={["def","boost","power","magic"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Div eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (fire) evolution. They also gain a +4 bonus on saving throws against poison.</Pair>
 <Pair title="At 4th Level">Div eidolons gain acid <em>resistance</em> 10 and electricity <em>resistance</em> 10.</Pair>
@@ -230,7 +230,7 @@ const _elemental = {title: "Elemental", jsx: <><p><strong>Sources</strong> <Link
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Aberrant (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/tentacle_mass">tentacle mass</Link>), Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>), quadruped (limbs [legs, 2], bite), or serpentine (bite, <Link to="/unchevolution/improved_natural_armor">improved natural armor</Link>, <Link to="/unchevolution/reach">reach</Link> [bite], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","upgrade","stairs-goal"]}>
+<Ability id="base-evolutions" icon={["def","boost","power"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="Choice">The base evolutions of an elemental eidolon depend entirely on its chosen element. When first summoning an elemental eidolon, the summoner must select air, earth, fire, or water. Once made, this choice cannot be changed. The eidolon gains the following evolutions and abilities, which can vary depending on its element.</Pair>
 <Pair title="At 1st Level">All elemental eidolons gain immunity to paralysis and sleep. In addition, air elemental eidolons gain the <Link to="/unchevolution/immunity">immunity</Link> (electricity) evolution. Earth elemental eidolons gain the <em>immunity</em> (acid) evolution. Fire elemental eidolons gain the <em>immunity</em> (fire) evolution. Water elemental eidolons gain the <em>immunity</em> (cold) evolution.</Pair>
@@ -247,7 +247,7 @@ const _genie = {title: "Genie", jsx: <><p><strong>Sources</strong> <Link to="/so
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Chaotic good, chaotic neutral, lawful evil, lawful neutral, or neutral.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["stairs-goal","armor-upgrade","magic-swirl","upgrade"]}>
+<Ability id="base-evolutions" icon={["power","def","magic","boost"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Genie eidolons gain the 4-point <Link to="/unchevolution/weapon_training">weapon training</Link> evolution as well as the <Link to="/unchevolution/resistance">resistance</Link> evolution for any one energy type.</Pair>
 <Pair title="At 4th Level">Genie eidolons gain the ability to grow in size twice per day as a <strong className="hl">full-round action</strong>. This grants them the <Link to="/unchevolution/large">large</Link> evolution for 1 round per Hit Die they have, increases the size of their equipment for the duration, and does not stack with other size-changing effects. Genie eidolons who later purchase the <em>large</em> evolution lose this ability, but they add 1 point to their evolution pools.</Pair>
@@ -263,7 +263,7 @@ const _inevitable = {title: "Inevitable", jsx: <><p><strong>Sources</strong> <Li
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Lawful neutral.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","stairs-goal"]}>
+<Ability id="base-evolutions" icon={["def","power"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Inevitable eidolons count as both constructs and outsiders for the purpose of effects such as the <Link to="/magic-enh/bane">bane</Link> weapon special ability and the <Link to="/ability/favored_enemy">favored enemy</Link> class feature. They gain a +4 bonus on saving throws against death effects, disease, necromancy effects, paralysis, poison, sleep, and stun.</Pair>
 <Pair title="At 4th Level">Inevitable eidolons gain a +4 bonus on saving throws against mind-affecting effects and immunity to nonlethal damage, fatigue, and exhaustion.</Pair>
@@ -279,7 +279,7 @@ const _kami = {title: "Kami", jsx: <><p><strong>Sources</strong> <Link to="/sour
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Any non-evil. Kami eidolons do not have an alignment subtype, instead having the <Link to="/subtype/native">native</Link> subtype.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","shield-reflect","remedy"]}>
+<Ability id="base-evolutions" icon={["def","protect","aid"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">A kami eidolon gains the <Link to="/unchevolution/resistance">resistance</Link> (fire) evolution and the 4-point <Link to="/unchevolution/weapon_training">weapon training</Link> evolution (proficiency in martial weapons).</Pair>
 <Pair title="At 4th Level">A kami eidolon gains acid <em>resistance</em> 10 and cold <em>resistance</em> 10.</Pair>
@@ -295,7 +295,7 @@ const _kyton = {title: "Kyton", jsx: <><p><strong>Sources</strong> <Link to="/so
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Lawful evil.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/improved_natural_armor">improved natural armor</Link>, <Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","stairs-goal","upgrade","armor-downgrade"]}>
+<Ability id="base-evolutions" icon={["def","power","boost","lower"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Kyton eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (cold) and skilled (Heal) evolutions. They also gain proficiency with the <Link to="/eq-weapon/spiked_chain">spiked chain</Link>.</Pair>
 <Pair title="At 4th Level">A kyton eidolon adds 1 point to its evolution pool.</Pair>
@@ -313,7 +313,7 @@ const _plant = {title: "Plant", jsx: <><p><strong>Sources</strong> <Link to="/so
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Any. Plant eidolons don't have alignment subtypes.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Cactus (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/sting">sting</Link>), conifer (<Link to="/unchevolution/claws">claws</Link>, limbs [arms], limbs [legs]), fungus (<Link to="/unchevolution/bite">bite</Link>, limbs [arms], limbs [legs]), leaf (limbs [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>), seaweed (limbs [arms], slam, <Link to="/unchevolution/swim">swim</Link> [2]).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["stairs-goal","armor-upgrade","magic-swirl"]}>
+<Ability id="base-evolutions" icon={["power","def","magic"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Plant eidolons gain low-light vision as well as the <Link to="/unchevolution/resistance">resistance</Link> (electricity) and <em>resistance</em> (sonic) evolutions.</Pair>
 <Pair title="At 4th Level">Plant eidolons gain constant <Link to="/spell/pass_without_trace">pass without trace</Link> and they can change shape into plants of the size category corresponding to their base form with results similar to <Link to="/spell/tree_shape">tree shape</Link>.</Pair>
@@ -329,7 +329,7 @@ const _protean = {title: "Protean", jsx: <><p><strong>Sources</strong> <Link to=
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Chaotic neutral.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Serpentine (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/grab">grab</Link> [tail slap], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","mailed-fist","stairs-goal"]}>
+<Ability id="base-evolutions" icon={["def","melee","power"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Protean eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (acid) evolution as well as the <em>grab</em> evolution, tied to an attack type of the summoner's choice. Whenever the summoner changes the protean eidolon's evolutions, he can also change the attack type for <em>grab.</em></Pair>
 <Pair title="At 4th Level">Protean eidolons gain electricity <em>resistance</em> 10 and sonic <em>resistance</em> 10.</Pair>
@@ -345,7 +345,7 @@ const _psychopomp = {title: "Psychopomp", jsx: <><p><strong>Sources</strong> <Li
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>), quadruped (<Link to="/unchevolution/bite">bite</Link>, limbs [legs, 2]), or serpentine (bite, <Link to="/unchevolution/pull">pull</Link> [bite], <Link to="/unchevolution/reach">reach</Link> [bite], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","stairs-goal","upgrade","magic-swirl"]}>
+<Ability id="base-evolutions" icon={["def","power","boost","magic"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Psychopomp eidolons gain immunity to death effects, disease, and poison.</Pair>
 <Pair title="At 4th Level">Psychopomp eidolons gain cold <Link to="/unchevolution/resistance">resistance</Link> 10 and electricity <em>resistance</em> 10.</Pair>
@@ -361,7 +361,7 @@ const _radiant = {title: "Radiant", jsx: <><p><strong>Sources</strong> <Link to=
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]) or quadruped (<Link to="/unchevolution/claws">claws</Link>, limbs [legs, 2]).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","remedy","mailed-fist","stairs-goal","magic-swirl","upgrade"]}>
+<Ability id="base-evolutions" icon={["def","aid","melee","power","magic","boost"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Radiant eidolons are immune to death effects and energy drain. They can exist comfortably on the Positive Energy Plane and do not benefit or suffer from the <Link to="/rule/elemental_and_energy_traits">positive-dominant planar trait</Link>. Whenever radiant eidolons are subjected to a magical healing effect, they regain 1 additional hit point per die rolled.</Pair>
 <Pair title="At 4th Level">Radiant eidolons' natural attacks can strike incorporeal targets as though they were <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapons. Radiant eidolons glow as <Link to="/spell/light">light</Link> with an effective spell level equal to half their Hit Dice (round down); they can suppress or resume this effect as a <strong className="hl">standard action</strong>.</Pair>
@@ -377,7 +377,7 @@ const _shadow = {title: "Shadow", jsx: <><p><strong>Sources</strong> <Link to="/
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Any nongood.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/claws">claws</Link>, <Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]), quadruped (limbs [legs, 2], <Link to="/unchevolution/bite">bite</Link>), or serpentine (bite, <Link to="/unchevolution/improved_natural_armor">improved natural armor</Link>, <Link to="/unchevolution/reach">reach</Link> [bite], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","magic-swirl","upgrade"]}>
+<Ability id="base-evolutions" icon={["def","magic","boost"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Shadow eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (cold) and <em>resistance</em> (electricity) evolutions. They also gain the ability to cast <Link to="/spell/darkness">darkness</Link> as a spell-like ability three times per day. The caster level for this spell-like ability is equal to the eidolon's Hit Dice.</Pair>
 <Pair title="At 4th Level">Shadow eidolons effortlessly blend into the shadows, giving them <Link to="/rule/concealment">concealment</Link> (20% miss chance) in any illumination other than bright light. In <Link to="/rule/dim_light">dim light</Link> or darkness, shadow eidolons have a 50% miss chance instead of the normal 20% miss chance; this doesn't grant the eidolons total concealment. A shadow eidolon can suspend or resume this ability as a <strong className="hl">free action</strong>.</Pair>
@@ -395,7 +395,7 @@ const _storykin = {title: "Storykin", jsx: <><p><strong>Sources</strong> <Link t
 <Row><Cell>Special</Cell><Cell>The first time a summoner summons a storykin eidolon, he must select a specific harrow card, typically one that features a creature, such as the Paladin, the Rabbit Prince, or the Tyrant. This choice determines the eidolon's base form, alignment, and overall appearance, as the eidolon resembles the creature from the chosen card. Harrow cards without an obvious creature instead manifest as a generic humanoid creature made of colorful patchwork cloth.<br/><br/>The suit of the chosen harrow card determines the abilities of the storykin eidolon as it evolves. When the summoner gains a level, he can choose a different harrow card and thus a different base form, alignment, and appearance.</Cell></Row>
 <Row><Cell>Alignment</Cell><Cell>A storykin eidolon's alignment matches the alignment of the chosen harrow card and still must be within one step of the summoner's alignment.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Bipedal (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>), quadruped (limbs [legs, 2], slam), or serpentine (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/grab">grab</Link> [tail slap], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","upgrade","stairs-goal"]}>
+<Ability id="base-evolutions" icon={["def","boost","power"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">A storykin eidolon gains the <Link to="/unchevolution/resistance">resistance</Link> (sonic) evolution. In addition, storykin eidolons of the suit of hammers and suit of shields gain a +2 bonus on Fortitude saving throws. Storykin eidolons of the suit of books and suit of keys gain a +2 bonus on Reflex saving throws. Storykin eidolons of the suit of crowns and suit of stars gain a +2 bonus on Will saving throws.</Pair>
 <Pair title="At 4th Level">A storykin eidolon gains cold <em>resistance</em> 10 and electricity <em>resistance</em> 10.</Pair>
@@ -411,7 +411,7 @@ const _twinned = {title: "Twinned", jsx: <><p><strong>Sources</strong> <Link to=
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Any.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["stairs-goal","upgrade","magic-swirl","armor-upgrade"]}>
+<Ability id="base-evolutions" icon={["power","boost","magic","def"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">A twinned eidolon gains the <Link to="/unchevolution/weapon_training">weapon training</Link> evolution. The twinned eidolon also gains the <Link to="/unchevolution/skilled">skilled</Link> (Disguise) evolution. The racial bonus provided by this evolution is doubled when the eidolon is impersonating the twinned summoner.</Pair>
 <Pair title="At 4th Level">A twinned eidolon can cast a summoner spell once per day as a spell-like ability. The spell must be one known by the eidolon's summoner and must be at least 1 level lower than the highest-level spell the summoner can cast. The eidolon must have a Charisma score of at least 10 + the spell level. The caster level for this spell-like ability is equal to the eidolon's Hit Dice minus 2. The save DC is 10 + half the eidolon's HD + the eidolon's Charisma modifier.</Pair>
@@ -427,7 +427,7 @@ const _void = {title: "Void", jsx: <><p><strong>Sources</strong> <Link to="/sour
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral or neutral evil.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/limbs">limbs</Link> [legs], <Link to="/unchevolution/skilled">skilled</Link> [Stealth], <Link to="/unchevolution/wing_buffet">wing buffet</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","broken-shield","mailed-fist","stairs-goal"]}>
+<Ability id="base-evolutions" icon={["def","down","melee","power"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Void eidolons have <Link to="/umr/negative_energy_affinity">negative energy affinity</Link> and are immune to death effects, disease, energy drain, and poison.</Pair>
 <Pair title="At 4th Level">Void eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (cold) evolution. Their natural attacks can strike incorporeal targets as though they were <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapons.</Pair>

@@ -271,7 +271,7 @@ const _ranger = {hasJL:true,title: "Ranger", jsx: <><div className="jumpList" id
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">Yes, except tower shields</td></tr></tbody></table>
-<Ability id="favored-enemy-ex" icon={["upgrade"]}>
+<Ability id="favored-enemy-ex" icon={["boost"]}>
 <Pair single id="favored-enemy-ex">Favored Enemy (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You select a creature type (and, if applicable, subtype) from the ranger favored enemies list below. You gain a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against creatures of your selected type. Likewise, you get a +2 bonus on weapon attack and damage rolls against them. You may make Knowledge skill checks untrained when attempting to identify these creatures.</Pair>
@@ -317,30 +317,30 @@ const _ranger = {hasJL:true,title: "Ranger", jsx: <><div className="jumpList" id
 <li>Vermin</li>
 </ul>
 </div>
-<Ability id="track-ex" icon={["upgrade"]}>
+<Ability id="track-ex" icon={["boost"]}>
 <Pair single id="track-ex">Track (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You add <Link to="/misc/half">half</Link> your level (minimum 1) to Survival skill checks made to follow or identify tracks.</Pair>
 </Ability>
-<Ability id="wild-empathy-ex" icon={["stairs-goal"]}>
+<Ability id="wild-empathy-ex" icon={["power"]}>
 <Pair single id="wild-empathy-ex" flavor="A ranger can improve the initial attitude of an animal.">Wild Empathy (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">This ability functions just like a <Link to="/skill/diplomacy">Diplomacy</Link> check to improve the attitude of a person. You roll 1d20 and add your ranger level and your Charisma bonus to determine the wild empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly. You can also use this ability to influence a magical beast with an Intelligence score of 1 or 2, but you take a -4 penalty on the check.</Pair>
 <Pair title="Special">To use wild empathy, you and the animal must be within 30 feet of one another under normal visibility conditions. Generally, influencing an animal in this way takes 1 minute, but, as with influencing people, it might take more or less time.</Pair>
 </Ability>
-<Ability id="combat-style-feat-ex" icon={["stairs-goal"]}>
+<Ability id="combat-style-feat-ex" icon={["power"]}>
 <Pair single id="combat-style-feat-ex">Combat Style Feat (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">You must select a <Link to="/ability/combat_styles">combat style</Link> to pursue. Once you select a combat style, it cannot be changed. Your expertise manifests in the form of bonus feats at 2nd, 6th, 10th, 14th, and 18th level. You can choose feats from your selected combat style, even if you do not have the normal prerequisites.</Pair>
 <Pair title="Special">The benefits of your chosen style feats apply only when you wear light, medium, or no armor. You loses all benefits of your combat style feats when wearing heavy armor.</Pair>
 </Ability>
 <div className="sideNoteWrap singular optional elephant"><ScrollContainer id="class-ranger--table-1"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td><p><strong>Sources</strong> <Link to="/source/the_elephant_in_the_room_feat_taxes_in_pathfinder">The Elephant in the Room: Feat Taxes in Pathfinder</Link><br/>You can pick archery or two-weapon combat as a combat style, <Link to="/rule/teitr_ranger">as described here</Link>.</p>
-</td></tr></tbody></table></ScrollContainer></div><Ability id="endurance" icon={["stairs-goal"]}>
+</td></tr></tbody></table></ScrollContainer></div><Ability id="endurance" icon={["power"]}>
 <Pair single id="endurance">Endurance</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">You gain <Link to="/feat/endurance">Endurance</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="favored-terrain-ex" icon={["upgrade"]}>
+<Ability id="favored-terrain-ex" icon={["boost"]}>
 <Pair single id="favored-terrain-ex">Favored Terrain (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability"><p>You may select a type of terrain from the list below. You gain a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival skill checks when you are in this terrain. When traveling through your favored terrain, you leave no trail and cannot be tracked (though you may leave a trail if you so choose).</p>
@@ -363,23 +363,23 @@ const _ranger = {hasJL:true,title: "Ranger", jsx: <><div className="jumpList" id
 <Pair title="At 18th Level">You may select a new favorite terrain. The bonuses in any one favored terrain (including the one just selected, if so desired) increase by +2.</Pair>
 <Pair title="Special">If a specific terrain falls into more than one category of favored terrain, the ranger's bonuses do not stack; he simply uses whichever bonus is higher.</Pair>
 </Ability>
-<Ability id="hunters-bond-ex" extraClasses="hasSubs" icon={["upgrade"]}>
+<Ability id="hunters-bond-ex" extraClasses="hasSubs" icon={["boost"]}>
 <Pair single id="hunters-bond-ex">Hunter's Bond (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">You form a bond with your hunting companions. This bond can take one of two forms. Once the form is chosen, it cannot be changed.</Pair>
 </Ability>
-<Ability id="companions-bond" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Ability id="companions-bond" extraClasses="subAbility numbered" icon={["boost"]}>
 <Pair single id="companions-bond">Companions Bond</Pair>
 <Pair title="Move-Equivalent Action">You grant half your favored enemy bonus against a single target of the appropriate type to all allies within 30 feet who can see or hear you. This bonus lasts for a number of rounds equal to your Wisdom modifier (minimum 1). This bonus does not stack with any favored enemy bonuses possessed by your allies; they use whichever bonus is higher.</Pair>
 </Ability>
-<Ability id="animal-companion" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Ability id="animal-companion" extraClasses="subAbility numbered" icon={["power"]}>
 <Pair single id="animal-companion">Animal Companion</Pair>
 <Pair title="Ability"><p>You select an <Link to="/sidekick/animal_companion">animal companion</Link> from the list below. This animal is a loyal companion that accompanies you on your adventures as appropriate for its kind. Your animal companion shares your favored enemy and favored terrain bonuses.</p>
 <p><strong className="hl">List of possible companions:</strong> <Link to="/companion/antelope">Antelope</Link>, <Link to="/companion/armorfish">Armorfish</Link>, <Link to="/companion/baboon">Baboon</Link>, <Link to="/companion/badger">Badger</Link>, <Link to="/companion/bird">Bird (Eagle, Hawk, or Owl)</Link>, <Link to="/companion/bustard">Bustard</Link>, <Link to="/companion/camel">Camel</Link>, <Link to="/companion/capybara">Capybara</Link>, <Link to="/companion/cheetah">Cheetah</Link>, <Link to="/companion/constrictor_snake">Constrictor Snake</Link>, <Link to="/companion/dire_rat">Dire Rat</Link>, <Link to="/companion/dog">Dog</Link>, <Link to="/companion/elk">Elk</Link>, <Link to="/companion/falcon">Falcon</Link>, <Link to="/companion/giant_gecko">Giant Gecko</Link>, <Link to="/companion/hobbe_hound">Hobbe Hound</Link>, <Link to="/companion/horse">Horse</Link>, <Link to="/companion/kangaroo">Kangaroo</Link>, <Link to="/companion/leopard">Leopard</Link>, <Link to="/companion/marsupial_devil">Marsupial Devil</Link>, <Link to="/companion/pony">Pony</Link>, <Link to="/companion/ram">Ram</Link>, <Link to="/companion/reef_snake">Reef Snake</Link>, <Link to="/companion/reindeer">Reindeer</Link>, <Link to="/companion/shark">Shark</Link>, <Link to="/companion/spitting_cobra">Spitting Cobra</Link>, <Link to="/companion/stag">Stag</Link>, <Link to="/companion/stingray">Stingray</Link>, <Link to="/companion/trumpeter_swan">Swan, Trumpeter</Link>, <Link to="/companion/thylacine">Thylacine</Link>, <Link to="/companion/viper">Viper</Link>, <Link to="/companion/wolf">Wolf</Link>, <Link to="/companion/wolfdog">Wolfdog</Link>, <Link to="/companion/yak">Yak</Link>, <Link to="/companion/zebra">Zebra</Link>.</p><p>If the campaign takes place wholly or partly in an aquatic environment, you may choose from <strong className="hl">this list</strong> instead: <Link to="/companion/armorfish">Armorfish</Link>, <Link to="/companion/reef_snake">Reef Snake</Link>, <Link to="/companion/shark">Shark</Link>, <Link to="/companion/stingray">Stingray</Link>.</p>
 </Pair>
 <Pair title="Special">This ability functions like the druid <Link to="/ability/animal_companion">animal companion</Link> ability (which is part of the Nature Bond class feature), except that your effective druid level is equal to your ranger level - 3.</Pair>
 </Ability>
-<Ability id="spells" icon={["magic-swirl"]}>
+<Ability id="spells" icon={["magic"]}>
 <Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">You gain the ability to cast a small number of divine spells which are drawn from the <Link to="/main/ranger_spell">ranger spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Wisdom modifier. You must choose and prepare your spells in advance. Like other spellcasters, you can cast only a certain number of spells of each spell level per day. In addition, you receive <Link to="/rule/bonus_spells">bonus spells per day</Link> if you have a high Wisdom score.</Pair>
@@ -389,53 +389,53 @@ const _ranger = {hasJL:true,title: "Ranger", jsx: <><div className="jumpList" id
 </Pair>
 <Pair title="Special">When it is indicated that you get 0 spells per day of a given spell level, you gain only the bonus spells you would be entitled to based on your Wisdom score for that spell level.</Pair>
 </Ability>
-<Ability id="woodland-stride-ex" icon={["upgrade"]}>
+<Ability id="woodland-stride-ex" icon={["boost"]}>
 <Pair single id="woodland-stride-ex">Woodland Stride (Ex)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">You may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at your normal speed and without taking damage or suffering any other impairment.</Pair>
 <Pair title="Special">Thorns, briars, and overgrown areas that are enchanted or magically manipulated to impede motion, however, still affect you.</Pair>
 </Ability>
-<Ability id="swift-tracker-ex" icon={["upgrade"]}>
+<Ability id="swift-tracker-ex" icon={["boost"]}>
 <Pair single id="swift-tracker-ex">Swift Tracker (Ex)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">You can move at your normal speed while using Survival to follow tracks without taking the normal -5 penalty. You take only a -10 penalty (instead of the normal -20) when moving at up to twice normal speed while tracking.</Pair>
 </Ability>
-<Ability id="evasion-ex" icon={["armor-upgrade"]}>
+<Ability id="evasion-ex" icon={["def"]}>
 <Pair single id="evasion-ex">Evasion (Ex)</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Passive Ability">You can avoid even magical and unusual attacks with great agility. If you make a successful Reflex saving throw against an attack that normally deals half damage on a successful save, you instead take no damage.</Pair>
 <Pair title="Special">Evasion can be used only if you are wearing light armor, medium armor, or no armor. A <Link to="/misc/helpless">helpless</Link> ranger does not gain the benefit of <em>evasion.</em></Pair>
 </Ability>
-<Ability id="quarry-ex" icon={["upgrade"]}>
+<Ability id="quarry-ex" icon={["boost"]}>
 <Pair single id="quarry-ex">Quarry (Ex)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Standard Action">You can denote one target within your line of sight as your quarry.</Pair>
 <Pair title="Passive Ability">Whenever you are following the tracks of your quarry, you can take 10 on your Survival skill checks while moving at normal speed, without penalty. In addition, you receive a +2 insight bonus on attack rolls made against your quarry, and all critical threats are automatically confirmed.</Pair>
 <Pair title="Special">You can have no more than one quarry at a time and the creature's type must correspond to one of your favored enemy types. You can dismiss this effect at any time as a <strong className="hl">free action</strong>, but you cannot select a new quarry for 24 hours. If you see proof that your quarry is dead, you can select a new quarry after waiting 1 hour.</Pair>
 </Ability>
-<Ability id="camouflage-ex" icon={["stairs-goal"]}>
+<Ability id="camouflage-ex" icon={["power"]}>
 <Pair single id="camouflage-ex">Camouflage (Ex)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">You can use the Stealth skill to hide in any of your favored terrains, even if the terrain doesn't grant <Link to="/rule/cover">cover</Link> or <Link to="/rule/concealment">concealment</Link>.</Pair>
 </Ability>
-<Ability id="improved-evasion-ex" icon={["armor-upgrade"]}>
+<Ability id="improved-evasion-ex" icon={["def"]}>
 <Pair single id="improved-evasion-ex">Improved Evasion (Ex)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Passive Ability">This ability works like evasion, except that while you still take no damage on a successful Reflex saving throw against attacks, you henceforth take only half damage on a failed save. A helpless ranger does not gain the benefit of <em>improved evasion.</em></Pair>
 </Ability>
-<Ability id="hide-in-plain-sight-ex" icon={["upgrade"]}>
+<Ability id="hide-in-plain-sight-ex" icon={["boost"]}>
 <Pair single id="hide-in-plain-sight-ex">Hide in Plain Sight (Ex)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Ability">While in any of your favored terrains, you can use the Stealth skill even while being observed.</Pair>
 </Ability>
-<Ability id="improved-quarry-ex" icon={["upgrade"]}>
+<Ability id="improved-quarry-ex" icon={["boost"]}>
 <Pair single id="improved-quarry-ex">Improved Quarry (Ex)</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Free Action">You can now select a quarry as a free action.</Pair>
 <Pair title="Passive Ability">You can take 20 while using Survival to track your quarry, while moving at normal speed without penalty. Your insight bonus to attack your quarry increases to +4.</Pair>
 <Pair title="Special">If your quarry is killed or dismissed, you can select a new one after 10 minutes have passed.</Pair>
 </Ability>
-<Ability id="master-hunter-ex" icon={["upgrade"]}>
+<Ability id="master-hunter-ex" icon={["boost"]}>
 <Pair single id="master-hunter-ex">Master Hunter (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">You can always move at full speed while using Survival to follow tracks without penalty.</Pair>
@@ -703,13 +703,13 @@ const _shifter = {hasJL:true,title: "Shifter", jsx: <><div className="jumpList" 
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={6}>Weapons</th><td><Link to="/eq-weapon/club">club</Link></td><td><Link to="/eq-weapon/dagger">dagger</Link></td></tr><tr><td><Link to="/eq-weapon/dart">dart</Link></td><td><Link to="/eq-weapon/quarterstaff">quarterstaff</Link></td></tr><tr><td><Link to="/eq-weapon/scimitar">scimitar</Link></td><td><Link to="/eq-weapon/scythe">scythe</Link></td></tr><tr><td><Link to="/eq-weapon/sickle">sickle</Link></td><td><Link to="/eq-weapon/shortspear">shortspear</Link></td></tr><tr><td><Link to="/eq-weapon/sling">sling</Link></td><td><Link to="/eq-weapon/spear">spear</Link></td></tr><tr><td colSpan={2}>The natural attacks (claw, bite, and so forth) from the <em>shifter claws</em> class feature and of forms you assume with wild shape.</td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th>Shields?</th><td colSpan={2}>Yes, except tower shields</td></tr><tr><th>Armor</th><td colSpan={2}>You are prohibited from wearing metal armor or using metal shields. You can wear wooden armor and use wooden shields that have been altered by the <Link to="/spell/ironwood">ironwood</Link> spell so that it functions as if it were steel.</td></tr><tr><td colSpan={3} className="sw se">A shifter who wears prohibited armor or uses a prohibited shield is unable to use her shifter aspect, shifter claws, wild shape, and other shifter supernatural or spell-like abilities while doing so and for 24 hours thereafter.</td></tr></tbody></table>
-<Ability id="bonus-languages" icon={["stairs-goal"]}>
+<Ability id="bonus-languages" icon={["power"]}>
 <Pair single id="bonus-languages">Bonus Languages</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">Your bonus language options include Sylvan, the language of woodland creatures, and Aklo, the tongue spoken by certain sinister fey or otherworldly denizens of reaches of the wild rarely explored by humanity. These choices are in addition to the bonus languages available to you because of your race. You also know Druidic, a secret language known only to druids and shifters, which you learn upon becoming a 1st-level shifter.</Pair>
 <Pair title="Special">Druidic is a free language; that is, you know it in addition to your regular allotment of languages and it doesn't take up a language slot. Shifters are forbidden to teach this language to non-druids or non-shifters.</Pair>
 </Ability>
-<Ability id="shifter-aspect-su" icon={["stairs-goal"]}>
+<Ability id="shifter-aspect-su" icon={["power"]}>
 <Pair single id="shifter-aspect-su">Shifter Aspect (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain your first <Link to="/ability/aspects">aspect</Link> - a category of animal to which your body and soul have become supernaturally attuned.</Pair>
@@ -721,7 +721,7 @@ const _shifter = {hasJL:true,title: "Shifter", jsx: <><div className="jumpList" 
 <Pair title="At 15th Level">You gain a fourth aspect.</Pair>
 <Pair title="Special">The minor forms of aspects are not polymorph effects, and you do not lose the benefits of a minor form while affected by polymorph effects.</Pair>
 </Ability>
-<Ability id="shifter-claws-su" icon={["mailed-fist"]}>
+<Ability id="shifter-claws-su" icon={["melee"]}>
 <Pair single id="shifter-claws-su">Shifter Claws (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Swift Action">In your natural form, you can extend your claws to use as a weapon. This magical transformation is fueled as much by your faith in the natural world as it is by inborn talent.</Pair>
@@ -734,30 +734,30 @@ const _shifter = {hasJL:true,title: "Shifter", jsx: <><div className="jumpList" 
 <Pair title="Special">While you use <em>wild shape</em> to assume your aspect's major form, your natural attacks gain the same benefits granted by your <em>shifter claws</em> ability. If the form you take has claw attacks, you can use either the base damage of your <em>shifter claws</em> or the damage of the form's claws, whichever is greater. If the form does not have claw attacks, you can choose up to two natural attacks that would deal less damage than your shifter claw damage and have those attacks instead deal the same damage as your <em>shifter claws.</em></Pair>
 </Ability>
 <aside><p>Optionally, each time the shifter activates her shifter's claws ability in her natural form, she can manifest one of the <strong className="hl">alternate natural attacks</strong> listed in any of her chosen aspects, or those aspects that relate to her archetype. Each alternate natural attack replaces one of the shifter's claw attacks. The shifter can gain up to two different alternate natural attacks with this method. These alternate natural attacks modify only the damage type of the shifter's natural attacks and otherwise function exactly as above. For example, the <Link to="/aspect/bat">bat</Link> provides a bite (bludgeoning, piercing, and slashing) and tail slap (bludgeoning) options, while the <Link to="/aspect/elephant">elephant</Link> offers gore (piercing) and slam (bludgeoning) attacks.</p>
-</aside><Ability id="wild-empathy-ex" icon={["upgrade"]}>
+</aside><Ability id="wild-empathy-ex" icon={["boost"]}>
 <Pair single id="wild-empathy-ex" flavor="A shifter can improve the attitude of an animal.">Wild Empathy (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">This ability functions just like a <Link to="/skill/diplomacy">Diplomacy</Link> check made to improve the attitude of a person. You roll 1d20 and add your shifter level and your Charisma modifier to determine the wild empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly. You can also use this ability to influence a magical beast with an Intelligence score of 1 or 2, but you take a -4 penalty on the check.</Pair>
 <Pair title="Special">To use wild empathy, you and the animal must be within 30 feet of one another under normal conditions. Generally, influencing an animal in this way takes 1 minute but, as with influencing people, it might take more or less time.</Pair>
 </Ability>
-<Ability id="defensive-instinct-ex" icon={["armor-upgrade"]}>
+<Ability id="defensive-instinct-ex" icon={["def"]}>
 <Pair single id="defensive-instinct-ex">Defensive Instinct (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">When unarmored, not using a shield, unencumbered, and conscious, you add your Wisdom bonus (if any) to your AC and CMD. If you are wearing nonmetal armor or using a nonmetal shield, you instead add <Link to="/misc/half">half</Link> your Wisdom bonus to her AC (minimum 0).</Pair>
 <Pair title="At 4th Level">You gain an additional bonus to AC and CMD equal to one-fourth of your shifter level.</Pair>
 <Pair title="Special">These bonuses to AC apply even against touch attacks or when you're <Link to="/rule/flat_footed">flat-footed</Link>. You lose these bonuses when immobilized or helpless. These bonuses do not stack with the monk AC bonus class feature.</Pair>
 </Ability>
-<Ability id="track-ex" icon={["upgrade"]}>
+<Ability id="track-ex" icon={["boost"]}>
 <Pair single id="track-ex">Track (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You add half your level as a bonus on Survival checks to follow tracks.</Pair>
 </Ability>
-<Ability id="woodland-stride-ex" icon={["upgrade"]}>
+<Ability id="woodland-stride-ex" icon={["boost"]}>
 <Pair single id="woodland-stride-ex">Woodland Stride (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You can move through any sort of undergrowth (such as briars, natural thorns, overgrown areas, and similar terrain) at your normal speed and without taking damage or suffering any other impairment. Briars, thorns, and overgrown areas that are enchanted or magically manipulated to impede motion still affect you.</Pair>
 </Ability>
-<Ability id="wild-shape-su" icon={["stairs-goal"]}>
+<Ability id="wild-shape-su" icon={["power"]}>
 <Pair single id="wild-shape-su">Wild Shape (Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Usage">Shifter level + Wisdom modifier hours/day; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
@@ -765,39 +765,39 @@ const _shifter = {hasJL:true,title: "Shifter", jsx: <><div className="jumpList" 
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="Special">You lose your ability to speak while in animal form because you are limited to the sounds that a normal, untrained animal can make, but you can communicate normally with other animals of the same general grouping as your new form. You can take feats and other abilities that require wild shape; for the purpose of qualifying for prerequisites, your effective druid level is equal to your shifter level.</Pair>
 </Ability>
-<Ability id="trackless-step-ex" icon={["upgrade"]}>
+<Ability id="trackless-step-ex" icon={["boost"]}>
 <Pair single id="trackless-step-ex">Trackless Step (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">You leave no trail in natural surroundings and cannot be tracked. You can choose to leave a trail if you so desire.</Pair>
 </Ability>
-<Ability id="shifters-fury-ex" icon={["mailed-fist"]}>
+<Ability id="shifters-fury-ex" icon={["melee"]}>
 <Pair single id="shifters-fury-ex">Shifter's Fury (Ex)</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Full-Round Action">You gain the ability to make several ferocious attacks with the same natural weapon. Instead of attacking with all your natural weapons, you can choose a single natural weapon and make a full attack with that natural weapon, gaining a second iterative attack at -5 as if it was a manufactured weapon. When you do so, all your other natural attacks count as secondary attacks and don't benefit from <em>shifter's claws.</em></Pair>
 <Pair title="At 11th Level">You gain a third iterative attack at -10.</Pair>
 <Pair title="At 16th Level">You gain a fourth iterative attack at -15.</Pair>
 </Ability>
-<Ability id="chimeric-aspect-su" icon={["upgrade"]}>
+<Ability id="chimeric-aspect-su" icon={["boost"]}>
 <Pair single id="chimeric-aspect-su">Chimeric Aspect (Su)</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Ability">When you use your shifter aspect ability to take on a minor form, you can choose two aspects and assume the minor form of each aspect.</Pair>
 </Ability>
-<Ability id="greater-chimeric-aspect-su" icon={["upgrade"]}>
+<Ability id="greater-chimeric-aspect-su" icon={["boost"]}>
 <Pair single id="greater-chimeric-aspect-su">Greater Chimeric Aspect (Su)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Ability">When you use your shifter aspect ability to take on a minor form, you can choose up to three aspects and assume the minor form of each aspect.</Pair>
 </Ability>
-<Ability id="a-thousand-faces-su" icon={["magic-swirl"]}>
+<Ability id="a-thousand-faces-su" icon={["magic"]}>
 <Pair single id="a-thousand-faces-su">A Thousand Faces (Su)</Pair>
 <Pair title="Gained">At 18th Level</Pair>
 <Pair title="Standard Action">You gain the ability to change your appearance at will, as if using the <Link to="/spell/alter_self">alter self</Link> spell, but only while in your normal form.</Pair>
 </Ability>
-<Ability id="timeless-body-ex" icon={["upgrade","armor-upgrade"]}>
+<Ability id="timeless-body-ex" icon={["boost","def"]}>
 <Pair single id="timeless-body-ex">Timeless Body (Ex)</Pair>
 <Pair title="Gained">At 18th Level</Pair>
 <Pair title="Passive Ability">You no longer take ability score penalties for aging and cannot be magically <Link to="/rule/age">aged</Link>. Any penalties you may have already incurred, however, remain in place. Bonuses still accrue, and you still die of old age when your time is up.</Pair>
 </Ability>
-<Ability id="final-aspect-su" icon={["upgrade"]}>
+<Ability id="final-aspect-su" icon={["boost"]}>
 <Pair single id="final-aspect-su">Final Aspect (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">You gain access to a fifth aspect, and when you use <em>shifter's aspect</em>, you can assume the minor forms of all your aspects and you can use your major and minor forms at will.</Pair>
@@ -1161,21 +1161,21 @@ const _magus = {hasJL:true,title: "Magus", jsx: <><div className="jumpList" id="
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light armor</td></tr><tr><th>Shields?</th><td colSpan={2}>No</td></tr><tr><td colSpan={3} className="sw se">You can cast magus spells while wearing light armor without incurring the normal arcane spell failure chance. Like any other arcane spellcaster, a magus wearing medium armor, heavy armor, or a shield incurs a chance of arcane spell failure if the spell in question has a somatic component. A multiclass magus still incurs the normal arcane spell failure chance for arcane spells received from other classes.</td></tr></tbody></table>
-<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
+<Ability id="spells" icon={["magic"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To learn, prepare, or cast a spell, you must have a Intelligence score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Intelligence score.</Pair>
-<Pair title="Ability">You gain the ability to cast arcane spells which are drawn from the <Link to="/main/spells_magus">magus spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Intelligence modifier. You must choose and prepare your spells in advance.</Pair><Pair title="Special">You may know any number of spells. You must choose and prepare your spells ahead of time by getting 8 hours of sleep and spending 1 hour studying your spellbook and deciding which spells to prepare.</Pair></Ability><Ability id="cantrips" icon={["magic-swirl"]}>
+<Pair title="Ability">You gain the ability to cast arcane spells which are drawn from the <Link to="/main/spells_magus">magus spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Intelligence modifier. You must choose and prepare your spells in advance.</Pair><Pair title="Special">You may know any number of spells. You must choose and prepare your spells ahead of time by getting 8 hours of sleep and spending 1 hour studying your spellbook and deciding which spells to prepare.</Pair></Ability><Ability id="cantrips" icon={["magic"]}>
 <Pair single id="cantrips">Cantrips</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of cantrips, or 0-level arcane spells. These spells are prepared like any other spell, but they are not expended when cast and may be used again. Cantrips prepared using other spell slots, such as those due to metamagic feats, are expended normally.</Pair>
 </Ability>
-<Ability id="spellbooks" icon={["stairs-goal"]}>
+<Ability id="spellbooks" icon={["power"]}>
 <Pair single id="spellbooks">Spellbooks</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You must study your spellbook each day to prepare your spells. You cannot prepare any spell not recorded in your spellbook except for <Link to="/spell/read_magic">read magic</Link>, which all magi can prepare from memory.</Pair>
 <Pair title="Special">You begin play with a spellbook containing all 0-level magus spells plus three 1st-level magus spells of your choice. You also select a number of additional 1st-level magus spells equal to your Intelligence modifier to add to your spellbook. At each new magus level, you gain two new magus spells of any spell level or levels that you can cast (based on your new magus level) for your spellbook. At any time, you can also add spells found in other spellbooks to your own (see <Link to="/rule/arcane_magical_writing">Arcane Magical Writing</Link>).</Pair>
 </Ability>
-<Ability id="arcane-pool-su" icon={["magic-swirl"]}>
+<Ability id="arcane-pool-su" icon={["magic"]}>
 <Pair single id="arcane-pool-su">Arcane Pool (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You gain a reservoir of mystical arcane energy that you can draw upon to fuel your powers and enhance your weapon. This <em>arcane pool</em> has a number of points equal to <Link to="/misc/half">half</Link> your magus level (minimum 1) + your Intelligence modifier. The pool refreshes once per day when you prepare your spells.</Pair>
@@ -1183,19 +1183,19 @@ const _magus = {hasJL:true,title: "Magus", jsx: <><div className="jumpList" id="
 <Pair title="At 5th Level">These bonuses can be used to add any of the following weapon properties: <Link to="/magic-enh/dancing">dancing</Link>, <Link to="/magic-enh/flaming">flaming</Link>, <Link to="/magic-enh/flaming_burst">flaming burst</Link>, <Link to="/magic-enh/frost">frost</Link>, <Link to="/magic-enh/icy_burst">icy burst</Link>, <Link to="/magic-enh/keen">keen</Link>, <Link to="/magic-enh/shock">shock</Link>, <Link to="/magic-enh/shocking_burst">shocking burst</Link>, <Link to="/magic-enh/speed">speed</Link>, or <Link to="/magic-enh/vorpal">vorpal</Link>. Adding these properties consumes an amount of bonus equal to the property's base price modifier. These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. These bonuses and properties are decided when the arcane pool point is spent and cannot be changed until the next time you use this ability. These bonuses do not function if the weapon is wielded by anyone other than you.</Pair>
 <Pair title="Special">You can only enhance one weapon in this way at one time. If you use this ability again, the first use immediately ends.</Pair>
 </Ability>
-<Ability id="spell-combat-ex" icon={["stairs-goal","mailed-fist","magic-swirl"]}>
+<Ability id="spell-combat-ex" icon={["power","melee","magic"]}>
 <Pair single id="spell-combat-ex" flavor="A magus learn to cast spells and wield his weapons at the same time. This functions much like two-weapon fighting, but the off-hand weapon is a spell that is being cast.">Spell Combat (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Full-Round Action">You can make all of your attacks with your melee weapon at a -2 penalty and can also cast any spell from the magus spell list with a casting time of 1 standard action (any attack roll made as part of this spell also takes this penalty). If you cast this spell defensively, you can decide to take an additional penalty on your attack rolls, up to your Intelligence bonus, and add the same amount as a circumstance bonus on your <Link to="/rule/concentration">concentration</Link> check. If the check fails, the spell is wasted, but the attacks still take the penalty. You can choose to cast the spell first or make the weapon attacks first, but if you have more than one attack, you cannot cast the spell between weapon attacks.</Pair>
 <Pair title="Special">To use this ability, you must have one hand free (even if the spell being cast does not have somatic components), while wielding a light or one-handed melee weapon in the other hand.</Pair>
 </Ability>
-<Ability id="spellstrike-su" icon={["mailed-fist"]}>
+<Ability id="spellstrike-su" icon={["melee"]}>
 <Pair single id="spellstrike-su">Spellstrike (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">Whenever you cast a spell with a range of "touch" from the magus spell list, you can deliver the spell through any weapon you are wielding as part of a melee attack. Instead of the free melee touch attack normally allowed to deliver the spell, you can make one free melee attack with your weapon (at your highest base attack bonus) as part of casting this spell. If successful, this melee attack deals its normal damage as well as the effects of the spell. If you make this attack in concert with <em>spell combat,</em> this melee attack takes all the penalties accrued by spell combat melee attacks.</Pair>
 <Pair title="Special">This attack uses the weapon's critical range (20, 19-20, or 18-20 and modified by the <em>keen</em> weapon property or similar effects), but the spell effect only deals &times;2 damage on a successful critical hit, while the weapon damage uses its own critical modifier.</Pair>
 </Ability>
-<Ability id="magus-arcana" icon={["stairs-goal","magic-swirl"]}>
+<Ability id="magus-arcana" icon={["power","magic"]}>
 <Pair single id="magus-arcana" flavor="As a magus gain levels, he learns arcane secrets tailored to his specific way of blending martial puissance and magical skill.">Magus Arcana</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">You gain one <Link to="/ability/magus_arcana">magus arcana</Link>.</Pair>
@@ -1206,68 +1206,68 @@ const _magus = {hasJL:true,title: "Magus", jsx: <><div className="jumpList" id="
 <Pair title="At 18th Level">You gain a new magus arcana.</Pair>
 <Pair title="Special">Unless specifically noted in a magus arcana's description, you cannot select a particular magus arcana more than once. Magus arcana that affect spells can only be used to modify spells from the magus spell list unless otherwise noted.</Pair>
 </Ability>
-<Ability id="spell-recall-su" icon={["magic-swirl"]}>
+<Ability id="spell-recall-su" icon={["magic"]}>
 <Pair single id="spell-recall-su">Spell Recall (Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Swift Action">You can recall any single magus spell that you have already prepared and cast that day by expending a number of points from your <em>arcane pool</em> equal to the spell's level (minimum 1). The spell is prepared again, just as if it had not been cast.</Pair>
 </Ability>
-<Ability id="bonus-feats" icon={["stairs-goal"]}>
+<Ability id="bonus-feats" icon={["power"]}>
 <Pair single id="bonus-feats">Bonus Feats</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">You gain a bonus feat in addition to those gained from normal advancement. These bonus feats must be selected from those listed as <Link to="/main/combat_feat">combat</Link>, <Link to="/main/item_creation_feat">item creation</Link>, or <Link to="/main/metamagic_feat">metamagic</Link> feats. You must meet the prerequisites for this feat as normal.</Pair>
 <Pair title="At 11th Level">You gain another bonus feat, following the restrictions above.</Pair>
 <Pair title="At 17th Level">You gain another bonus feat, following the restrictions above.</Pair>
 </Ability>
-<Ability id="knowledge-pool-su" icon={["magic-swirl"]}>
+<Ability id="knowledge-pool-su" icon={["magic"]}>
 <Pair single id="knowledge-pool-su">Knowledge Pool (Su)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">When you prepare your magus spells, you can decide to expend 1 or more points from your <em>arcane pool,</em> up to your Intelligence bonus. For each point you expend, you can treat any one spell from the magus spell list as if it were in your spellbook and can prepare that spell as normal that day. If you do not cast spells prepared in this way before the next time you prepare spells, you lose those spells.</Pair>
 <Pair title="Special">You can also cast spells added in this way using your <em>spell recall</em> ability, but only until you prepare spells again.</Pair>
 </Ability>
-<Ability id="medium-armor-ex" icon={["armor-upgrade"]}>
+<Ability id="medium-armor-ex" icon={["def"]}>
 <Pair single id="medium-armor-ex">Medium Armor (Ex)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">You gain proficiency with medium armor. You can cast magus spells while wearing medium armor without incurring the normal arcane spell failure chance.</Pair>
 <Pair title="Special">Like any other arcane spellcaster, a magus wearing heavy armor or using a shield incurs a chance of arcane spell failure if the spell in question has a somatic component.</Pair>
 </Ability>
-<Ability id="improved-spell-combat-ex" icon={["armor-upgrade"]}>
+<Ability id="improved-spell-combat-ex" icon={["def"]}>
 <Pair single id="improved-spell-combat-ex">Improved Spell Combat/ (Ex)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">When using the <em>spell combat</em> ability, you receive a +2 circumstance bonus on concentration checks, in addition to any bonus granted by taking an additional penalty on the attack roll.</Pair>
 </Ability>
-<Ability id="fighter-training-ex" icon={["upgrade"]}>
+<Ability id="fighter-training-ex" icon={["boost"]}>
 <Pair single id="fighter-training-ex">Fighter Training (Ex)</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Ability">You count 1/2 your total magus level as your fighter level for the purpose of qualifying for feats. If you have levels in fighter, these levels stack.</Pair>
 </Ability>
-<Ability id="improved-spell-recall-su" icon={["upgrade"]}>
+<Ability id="improved-spell-recall-su" icon={["boost"]}>
 <Pair single id="improved-spell-recall-su">Improved Spell Recall (Su)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Passive Ability">Whenever you recall a spell with <em>spell recall,</em> you expend a number of points from your arcane pool equal to 1/2 the spell's level (minimum 1).</Pair>
 <Pair title="Swift Action">Instead of recalling a used spell, you can prepare a spell of the same level that you have in your spellbook. You do so by expending a number of points from your arcane pool equal to the spell's level (minimum 1). You cannot apply metamagic feats to a spell prepared in this way, and you do not need to reference your spellbook to prepare a spell in this way.</Pair>
 </Ability>
-<Ability id="heavy-armor-ex" icon={["armor-upgrade"]}>
+<Ability id="heavy-armor-ex" icon={["def"]}>
 <Pair single id="heavy-armor-ex">Heavy Armor (Ex)</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Passive Ability">You gain proficiency with heavy armor. You can cast magus spells while wearing heavy armor without incurring the normal arcane spell failure chance.</Pair>
 <Pair title="Special">Like any other arcane spellcaster, a magus using a shield incurs a chance of arcane spell failure if the spell in question has a somatic component.</Pair>
 </Ability>
-<Ability id="greater-spell-combat-ex" icon={["armor-upgrade"]}>
+<Ability id="greater-spell-combat-ex" icon={["def"]}>
 <Pair single id="greater-spell-combat-ex">Greater Spell Combat (Ex)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Passive Ability">Whenever you use the <em>spell combat</em> ability, your concentration check bonus equals double the amount of the attack penalty taken.</Pair>
 </Ability>
-<Ability id="counterstrike-ex" icon={["mailed-fist"]}>
+<Ability id="counterstrike-ex" icon={["melee"]}>
 <Pair single id="counterstrike-ex">Counterstrike (Ex)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Passive Ability">Whenever an enemy within reach of you successfully casts a spell defensively, that enemy provokes an attack of opportunity from you after the spell is complete. This attack of opportunity cannot disrupt the spell.</Pair>
 </Ability>
-<Ability id="greater-spell-access-su" icon={["magic-swirl"]}>
+<Ability id="greater-spell-access-su" icon={["magic"]}>
 <Pair single id="greater-spell-access-su">Greater Spell Access (Su)</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Ability">You gain access to an expanded spell list. You learn and place 14 spells from the <Link to="/main/spells_wizard">wizard's spell list</Link> into your spellbook as magus spells of their wizard level. You gain two of each of the following wizard spells not on the magus spell list: 0-level, 1st-level, 2nd-level, 3rd-level, 4th-level, 5th-level, and 6th-level. You can ignore the somatic component of these spells, casting them without the normal chance of spell failure.</Pair>
 </Ability>
-<Ability id="true-magus-su" icon={["upgrade","mailed-fist"]}>
+<Ability id="true-magus-su" icon={["boost","melee"]}>
 <Pair single id="true-magus-su">True Magus (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">Whenever you use your <em>spell combat</em> ability, you do not need to make a concentration check to cast the spell defensively. Whenever you use <em>spell combat</em> and your spell targets the same creature as your melee attacks, you can choose to either increase the DC to resist the spell by +2, grant yourself a +2 circumstance bonus on any checks made to overcome spell resistance, or grant yourself a +2 circumstance bonus on all attack rolls made against the target during your turn.</Pair>
@@ -1499,22 +1499,22 @@ const _gunslinger = {hasJL:true,title: "Gunslinger", jsx: <><div className="jump
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={3}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><td colSpan={2}>all <Link to="/main/equipment_firearms">firearms</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light armor</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">No</td></tr></tbody></table>
-<Ability id="gunsmith" icon={["stairs-goal"]}>
+<Ability id="gunsmith" icon={["power"]}>
 <Pair single id="gunsmith">Gunsmith</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain <Link to="/feat/gunsmithing">Gunsmithing</Link> as a bonus feat, and one of the following firearms of your choice: <Link to="/eq-weapon/blunderbuss">blunderbuss</Link>, <Link to="/eq-weapon/musket">musket</Link>, or <Link to="/eq-weapon/pistol">pistol</Link>. Your starting weapon is battered, and only you know how to use it properly. All other creatures treat your gun as if it had the <Link to="/misc/broken">broken</Link> condition. If the weapon already has the broken condition, it does not work at all for anyone else trying to use it.</Pair>
 <Pair title="Special">This starting weapon can only be sold for scrap (it's worth 4d10 gp when sold).</Pair>
 </Ability>
-<Ability id="grit-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="grit-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="grit-ex" flavor="Some gunslingers claim they belong to a mystical way of the gun, but it's more likely that the volatile nature of firearms simply prunes the unlucky and careless from their ranks. Whatever the reason, all gunslingers have grit.">Grit (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">In game terms, grit is a fluctuating measure of your ability to perform amazing actions in combat. At the start of each day, you gain a number of grit points equal to your Wisdom modifier (minimum 1). Your grit goes up or down throughout the day, but usually cannot go higher than your Wisdom modifier (minimum 1), though some feats and magic items may affect this maximum. You spend grit to accomplish deeds, and regain grit in the following ways.</Pair>
 </Ability>
-<Ability id="critical-hit-with-a-firearm" extraClasses="subAbility numbered" icon={["stairs-goal","bowman"]}>
+<Ability id="critical-hit-with-a-firearm" extraClasses="subAbility numbered" icon={["power","ranged"]}>
 <Pair single id="critical-hit-with-a-firearm">Critical Hit with a Firearm</Pair>
 <Pair title="Passive Ability">Each time you confirm a critical hit with a firearm attack while in the heat of combat, you regain 1 grit point. Confirming a critical hit on a <Link to="/misc/helpless">helpless</Link> or unaware creature or on a creature that has fewer Hit Dice than <Link to="/misc/half">half</Link> your character level does not restore grit.</Pair>
 </Ability>
-<Ability id="killing-blow-with-a-firearm" extraClasses="subAbility numbered" icon={["stairs-goal","bowman"]}>
+<Ability id="killing-blow-with-a-firearm" extraClasses="subAbility numbered" icon={["power","ranged"]}>
 <Pair single id="killing-blow-with-a-firearm">Killing Blow with a Firearm</Pair>
 <Pair title="Passive Ability">When you reduce a creature to 0 or fewer hit points with a firearm attack while in the heat of combat, you regain 1 grit point. Destroying an unattended object, reducing a helpless or unaware creature to 0 or fewer hit points, or reducing a creature that has fewer Hit Dice than half your character level to 0 or fewer hit points does not restore any grit.</Pair>
 </Ability>
@@ -1522,13 +1522,13 @@ const _gunslinger = {hasJL:true,title: "Gunslinger", jsx: <><div className="jump
 <p>The following method for regaining grit points requires a measure of GM judgment, so it is an optional rule.</p>
 <p><strong>Daring Act:</strong> Each time a gunslinger performs a daring act, she can regain grit. As a general guideline, a daring act should be risky and dramatic. It should take a good deal of guts, and its outcome should have a low probability of success. If it is successful, the gunslinger regains 1 grit point.</p>
 <p>Before attempting a daring act, the player should ask the GM whether the act qualifies. The GM is the final arbiter of what's considered a daring act, and can grant a regained grit point for a daring act even if the player does not ask beforehand whether the act qualifies.</p>
-</aside><Ability id="deeds" icon={["stairs-goal"]}>
+</aside><Ability id="deeds" icon={["power"]}>
 <Pair single id="deeds">Deeds</Pair>
 <Pair title="Ability">You spend grit points to accomplish deeds. Most deeds grant you some momentary bonus or effect, but there are some that provide longer-lasting effects. Some deeds stay in effect as long as you have at least 1 grit point. Here is the list of base <Link to="/ability/gunslinger_deeds">gunslinger deeds</Link>.</Pair>
 <Pair title="Special">You can only perform deeds of your level or lower. Unless otherwise noted, a deed can be performed multiple successive times, as long as the appropriate amount of grit is spent to perform the deed.</Pair>
 </Ability>
 <aside><p>Gunslingers may optionally select a <Link to="/ability/gunslinger_renowned_deeds">renowned deed</Link> at 1st, 7th and 15th level. Each of these deeds replace two other deeds.</p>
-</aside><Ability id="nimble-ex" icon={["armor-upgrade"]}>
+</aside><Ability id="nimble-ex" icon={["def"]}>
 <Pair single id="nimble-ex">Nimble (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You gain a +1 dodge bonus to AC while wearing light or no armor. Anything that causes you to lose your Dexterity bonus to AC also causes you to lose this dodge bonus.</Pair>
@@ -1537,7 +1537,7 @@ const _gunslinger = {hasJL:true,title: "Gunslinger", jsx: <><div className="jump
 <Pair title="At 14th Level">The dodge bonus becomes +4.</Pair>
 <Pair title="At 18th Level">The dodge bonus increases to +5.</Pair>
 </Ability>
-<Ability id="bonus-feats" icon={["stairs-goal"]}>
+<Ability id="bonus-feats" icon={["power"]}>
 <Pair single id="bonus-feats">Bonus Feats</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">You gain a bonus feat in addition to those gained by normal advancement. These bonus feats must be <Link to="/main/combat_feat">combat</Link> or <Link to="/main/feats_grit">grit</Link> feats.</Pair>
@@ -1547,7 +1547,7 @@ const _gunslinger = {hasJL:true,title: "Gunslinger", jsx: <><div className="jump
 <Pair title="At 20th Level">You gain another bonus combat or grit feat.</Pair>
 </Ability>
 <aside><p>Optionally, a gunslinger can pick a <Link to="/ability/dares">dare</Link> instead of a bonus feat. These special abilities only activate when a gunslinger goes down to 0 grit.</p>
-</aside><Ability id="gun-training-ex" icon={["upgrade","bowman"]}>
+</aside><Ability id="gun-training-ex" icon={["boost","ranged"]}>
 <Pair single id="gun-training-ex">Gun Training (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">You select one specific type of firearm (such as an <Link to="/eq-weapon/axe_musket">axe musket</Link>, blunderbuss, musket, or pistol). You gain a bonus equal to your Dexterity modifier on damage rolls when firing that type of firearm. Furthermore, when you misfire with that type of firearm, the misfire value of that firearm increases by 2 instead of 4.</Pair>
@@ -1555,7 +1555,7 @@ const _gunslinger = {hasJL:true,title: "Gunslinger", jsx: <><div className="jump
 <Pair title="At 13th Level">You select a third type of firearm, gaining these same bonuses for it.</Pair>
 <Pair title="At 17th Level">You select a fourth type of firearm, gaining these same bonuses for it.</Pair>
 </Ability>
-<Ability id="true-grit-ex" icon={["upgrade"]}>
+<Ability id="true-grit-ex" icon={["boost"]}>
 <Pair single id="true-grit-ex">True Grit (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">You pick two deeds that you have access to and that you must spend grit to perform. You can perform these deeds for 1 grit point fewer (minimum 0) than usual. If the number of grit points to perform a deed is reduced to 0, you can perform this deed as long as you have at least 1 grit point. If a deed could already be performed as long as you had at least 1 grit point, you can now perform that deed even when you have no grit points.</Pair>
@@ -1782,13 +1782,13 @@ const _barbarian = {hasJL:true,title: "Barbarian", jsx: <><div className="jumpLi
 </tbody></table></ScrollContainer>
 <p><strong>Weapon and Armor Proficiency:</strong> A barbarian is proficient with all simple and martial weapons, light armor, medium armor, and shields (except tower shields).</p>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">Yes, except tower shields</td></tr></tbody></table>
-<Ability id="fast-movement-ex" icon={["upgrade"]}>
+<Ability id="fast-movement-ex" icon={["boost"]}>
 <Pair single id="fast-movement-ex">Fast Movement (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">Your land speed is faster than the norm for your race by +10 feet.</Pair>
 <Pair title="Special">This benefit applies only when you are wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this bonus before modifying your speed because of any load carried or armor worn. This bonus stacks with any other bonuses to your land speed.</Pair>
 </Ability>
-<Ability id="rage-ex" icon={["upgrade","broken-shield"]}>
+<Ability id="rage-ex" icon={["boost","down"]}>
 <Pair single id="rage-ex" flavor="A barbarian can call upon inner reserves of strength and ferocity, granting her additional combat prowess.">Rage (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">2 rounds/day + double your barbarian level + your Constitution modifier<ByLevelPop levels={[[1,4],[2,6],[3,8],[4,10],[5,12],[6,14],[7,16],[8,18],[9,20],[10,22],[11,24],[12,26],[13,28],[14,30],[15,32],[16,34],[17,36],[18,38],[19,40],[20,42]]} preText="Con modifier + " unit="round" postText="/day" /></Pair>
@@ -1796,31 +1796,31 @@ const _barbarian = {hasJL:true,title: "Barbarian", jsx: <><div className="jumpLi
 <Pair title="Passive Ability">While in <em>rage,</em> you take a -2 penalty to Armor Class, and you cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration. You are <Link to="/misc/fatigued">fatigued</Link> after <em>rage</em> for a number of rounds equal to 2 times the number of rounds spent in the <em>rage.</em> You cannot enter a new <em>rage</em> while fatigued or <Link to="/misc/exhausted">exhausted</Link> but can otherwise enter <em>rage</em> multiple times during a single encounter or combat. If you fall unconscious, your <em>rage</em> immediately ends, placing you in peril of death.</Pair>
 <Pair title="Special">Temporary increases to Constitution, such as those gained from <em>rage</em> and spells like <Link to="/spell/bears_endurance">bear's endurance</Link>, do not increase the total number of rounds that a barbarian can <em>rage</em> per day. The total number of rounds of <em>rage</em> per day is renewed after resting for 8 hours, although these hours do not need to be consecutive.</Pair>
 </Ability>
-<Ability id="rage-powers-ex" icon={["stairs-goal","upgrade","armor-upgrade"]}>
+<Ability id="rage-powers-ex" icon={["power","boost","def"]}>
 <Pair single id="rage-powers-ex" flavor={<>As a barbarian gains levels, she learns to use her <em>rage</em> in new ways.</>}>Rage Powers (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">You gain a <Link to="/ability/rage_powers">rage power</Link>. You gain another rage power at every even-numbered level of barbarian after this (4th, 6th, 8th, and so on).</Pair>
 <Pair title="Special">You gain the benefits of rage powers only while <em>raging,</em> and some of these powers require you to take an action first. Unless otherwise noted, you cannot select an individual power more than once.</Pair>
 </Ability>
-<Ability id="uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Ability id="uncanny-dodge-ex" icon={["def"]}>
 <Pair single id="uncanny-dodge-ex">Uncanny Dodge (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You cannot be caught <Link to="/rule/flat_footed">flat-footed</Link>, nor do you lose your Dex bonus to AC if the attacker is invisible.</Pair>
 <Pair title="Special">You still lose your Dexterity bonus to AC if immobilized, or if an opponent successfully uses the feint action against you. If you have <em>uncanny dodge</em> from a different class, you automatically gain <em>improved uncanny dodge</em> instead.</Pair>
 </Ability>
-<Ability id="trap-sense-ex" icon={["armor-upgrade"]}>
+<Ability id="trap-sense-ex" icon={["def"]}>
 <Pair single id="trap-sense-ex">Trap Sense (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You gain a bonus on Reflex saves made to avoid traps and a dodge bonus to AC against attacks made by traps. Both of these bonuses are equal to <Link to="/misc/one_third">one-third</Link> of your barbarian level.</Pair>
 <Pair title="Special"><em>Trap sense</em> bonuses gained from multiple classes stack.</Pair>
 </Ability>
-<Ability id="improved-uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Ability id="improved-uncanny-dodge-ex" icon={["def"]}>
 <Pair single id="improved-uncanny-dodge-ex">Improved Uncanny Dodge (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">You can no longer be <Link to="/rule/flanked">flanked</Link>. This defense denies a rogue the ability to <Link to="/ability/sneak_attack">sneak attack</Link> you by flanking you, unless the attacker has at least four more rogue levels than you have barbarian levels.</Pair>
 <Pair title="Special">If you already have <em>uncanny dodge</em> from another class, the levels from the classes that grant <em>uncanny dodge</em> stack to determine the minimum rogue level required to flank you.</Pair>
 </Ability>
-<Ability id="damage-reduction-ex" icon={["armor-upgrade"]}>
+<Ability id="damage-reduction-ex" icon={["def"]}>
 <Pair single id="damage-reduction-ex">Damage Reduction (Ex)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">You gain <Link to="/rule/damage_reduction">damage reduction</Link> of DR 1/-.</Pair>
@@ -1829,22 +1829,22 @@ const _barbarian = {hasJL:true,title: "Barbarian", jsx: <><div className="jumpLi
 <Pair title="At 16th Level">You now have DR 4/-.</Pair>
 <Pair title="At 19th Level">You now have DR 5/-.</Pair>
 </Ability>
-<Ability id="greater-rage-ex" icon={["upgrade","armor-upgrade"]}>
+<Ability id="greater-rage-ex" icon={["boost","def"]}>
 <Pair single id="greater-rage-ex">Greater Rage (Ex)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Free Action">When you enter a <em>rage,</em> the morale bonus to your Strength and Constitution increase to +6 and the morale bonus on your Will saves increases to +3.</Pair>
 </Ability>
-<Ability id="indomitable-will-ex" icon={["armor-upgrade"]}>
+<Ability id="indomitable-will-ex" icon={["def"]}>
 <Pair single id="indomitable-will-ex">Indomitable Will (Ex)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Passive Ability">You gain a +4 bonus on Will saves to resist enchantment spells. This bonus stacks with all other modifiers, including the morale bonus on Will saves you also receive during your <em>rage.</em></Pair>
 </Ability>
-<Ability id="tireless-rage-ex" icon={["upgrade"]}>
+<Ability id="tireless-rage-ex" icon={["boost"]}>
 <Pair single id="tireless-rage-ex">Tireless Rage (Ex)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">You no longer become fatigued at the end of your <em>rage.</em></Pair>
 </Ability>
-<Ability id="mighty-rage-ex" icon={["upgrade","armor-upgrade"]}>
+<Ability id="mighty-rage-ex" icon={["boost","def"]}>
 <Pair single id="mighty-rage-ex">Mighty Rage (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Free Action">When you enter a <em>rage,</em> the morale bonus to your Strength and Constitution increase to +8 and the morale bonus on your Will saves increases to +4.</Pair>
@@ -2087,13 +2087,13 @@ const _unchained_barbarian = {hasJL:true,title: "Unchained Barbarian", jsx: <><d
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">Yes, except tower shields</td></tr></tbody></table>
-<Ability id="fast-movement-ex" icon={["upgrade"]}>
+<Ability id="fast-movement-ex" icon={["boost"]}>
 <Pair single id="fast-movement-ex">Fast Movement (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">Your land speed is faster than the norm for your race by +10 feet.</Pair>
 <Pair title="Special">This benefit applies only when you are wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this bonus before modifying your speed because of any load carried or armor worn. This bonus stacks with any other bonuses to your land speed.</Pair>
 </Ability>
-<Ability id="rage-ex" icon={["stairs-goal","upgrade","armor-upgrade"]}>
+<Ability id="rage-ex" icon={["power","boost","def"]}>
 <Pair single id="rage-ex" flavor="A barbarian can call upon inner reserves of strength and ferocity, granting her additional combat prowess.">Rage (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">2 rounds/day + double your barbarian level + your Constitution modifier<ByLevelPop levels={[[1,4],[2,6],[3,8],[4,10],[5,12],[6,14],[7,16],[8,18],[9,20],[10,22],[11,24],[12,26],[13,28],[14,30],[15,32],[16,34],[17,36],[18,38],[19,40],[20,42]]} preText="Con modifier + " unit="round" postText="/day" /></Pair>
@@ -2101,37 +2101,37 @@ const _unchained_barbarian = {hasJL:true,title: "Unchained Barbarian", jsx: <><d
 <Pair title="Passive Ability">While in <em>rage,</em> you take a -2 penalty to Armor Class, and you cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration. You are <Link to="/misc/fatigued">fatigued</Link> for 1 minute after the <em>rage</em> ends. You cannot enter a new <em>rage</em> while fatigued or <Link to="/misc/exhausted">exhausted</Link> but can otherwise enter <em>rage</em> multiple times during a single encounter or combat. If you fall unconscious, your <em>rage</em> immediately ends.</Pair>
 <Pair title="Special">Temporary increases to Constitution, such as those gained from <em>rage</em> and spells like <Link to="/spell/bears_endurance">bear's endurance</Link>, do not increase the total number of rounds that a barbarian can <em>rage</em> per day. The total number of rounds of <em>rage</em> per day is renewed after resting for 8 hours, although these hours do not need to be consecutive.</Pair>
 </Ability>
-<Ability id="rage-powers-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="rage-powers-ex" icon={["power","boost"]}>
 <Pair single id="rage-powers-ex" flavor={<>As a barbarian gains levels, she learns to use her <em>rage</em> in new ways.</>}>Rage Powers (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">You gain a <Link to="/ability/rage_powers">rage power</Link>. You gain another rage power at every even-numbered level of barbarian after this (4th, 6th, 8th, and so on). You gain the benefits of rage powers only while <em>raging,</em> and some of these powers require you to take an action first. Unless otherwise noted, you cannot select an individual power more than once.</Pair>
 <Pair title="Special">Some rage powers are <strong className="hl">stances</strong>. Activating a <Link to="/ability/stance_rage_powers">stance rage power</Link> is a <strong className="hl">move action</strong>. You can't have more than one stance rage power active at a time. If you activate a stance rage power while another one is active, the current stance immediately ends. The stance can be intentionally ended at the beginning of your turn as a <strong className="hl">free action</strong>; otherwise, it lasts until the <em>rage</em> ends.</Pair>
 </Ability>
-<Ability id="uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Ability id="uncanny-dodge-ex" icon={["def"]}>
 <Pair single id="uncanny-dodge-ex">Uncanny Dodge (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You cannot be caught <Link to="/rule/flat_footed">flat-footed</Link>, nor do you lose your Dex bonus to AC if the attacker is invisible.</Pair>
 <Pair title="Special">You still lose your Dexterity bonus to AC if immobilized, or if an opponent successfully uses the feint action against you. If you have <em>uncanny dodge</em> from a different class, you automatically gain <em>improved uncanny dodge</em> instead.</Pair>
 </Ability>
-<Ability id="trap-sense-ex" icon={["armor-upgrade"]}>
+<Ability id="trap-sense-ex" icon={["def"]}>
 <Pair single id="trap-sense-ex">Trap Sense (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You gain a bonus on Reflex saves made to avoid traps and a dodge bonus to AC against attacks made by traps. Both of these bonuses are equal to <Link to="/misc/one_third">one-third</Link> of your barbarian level.</Pair>
 <Pair title="Special"><em>Trap sense</em> bonuses gained from multiple classes stack.</Pair>
 </Ability>
-<Ability id="danger-sense-ex" icon={["armor-upgrade"]}>
+<Ability id="danger-sense-ex" icon={["def"]}>
 <Pair single id="danger-sense-ex">Danger Sense (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You gain a bonus on Reflex saves made to avoid traps, a dodge bonus to AC against attacks made by traps, and a bonus on Perception checks to avoid being surprised by a foe. These bonuses are equal to one-third of your barbarian level.</Pair>
 <Pair title="Special">This ability counts as <em>trap sense</em> for any feat or class prerequisite, and can be replaced by any archetype class feature that replaces <em>trap sense.</em> The bonuses gained from this ability stack with those gained from <em>trap sense</em> (if you have <em>trap sense</em> from another class).</Pair>
 </Ability>
-<Ability id="improved-uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Ability id="improved-uncanny-dodge-ex" icon={["def"]}>
 <Pair single id="improved-uncanny-dodge-ex">Improved Uncanny Dodge (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">You can no longer be <Link to="/rule/flanked">flanked</Link>. This defense denies enemies the ability to <Link to="/ability/sneak_attack">sneak attack</Link> you by flanking you, unless the attacker has at least four more levels in a class that provides <em>sneak attack</em> than you have barbarian levels.</Pair>
 <Pair title="Special">If you already have <em>uncanny dodge</em> from another class, the levels from the classes that grant <em>uncanny dodge</em> stack to determine the minimum rogue level required to flank you.</Pair>
 </Ability>
-<Ability id="damage-reduction-ex" icon={["armor-upgrade"]}>
+<Ability id="damage-reduction-ex" icon={["def"]}>
 <Pair single id="damage-reduction-ex">Damage Reduction (Ex)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">You gain <Link to="/rule/damage_reduction">damage reduction</Link> of DR 1/-.</Pair>
@@ -2140,22 +2140,22 @@ const _unchained_barbarian = {hasJL:true,title: "Unchained Barbarian", jsx: <><d
 <Pair title="At 16th Level">You now have DR 4/-.</Pair>
 <Pair title="At 19th Level">You now have DR 5/-.</Pair>
 </Ability>
-<Ability id="greater-rage-ex" icon={["upgrade","armor-upgrade"]}>
+<Ability id="greater-rage-ex" icon={["boost","def"]}>
 <Pair single id="greater-rage-ex">Greater Rage (Ex)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Free Action">The bonus on melee attack rolls, melee damage rolls, thrown weapon damage rolls, and Will saves while <em>raging</em> increases to +3. In addition, the amount of temporary hit points gained when entering a <em>rage</em> increases to 3 per Hit Die.</Pair>
 </Ability>
-<Ability id="indomitable-will-ex" icon={["armor-upgrade"]}>
+<Ability id="indomitable-will-ex" icon={["def"]}>
 <Pair single id="indomitable-will-ex">Indomitable Will (Ex)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Passive Ability">You gain a +4 bonus on Will saves to resist enchantment spells. This bonus stacks with all other modifiers, including the morale bonus on Will saves you also receive during your <em>rage.</em></Pair>
 </Ability>
-<Ability id="tireless-rage-ex" icon={["upgrade"]}>
+<Ability id="tireless-rage-ex" icon={["boost"]}>
 <Pair single id="tireless-rage-ex">Tireless Rage (Ex)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">You no longer become fatigued at the end of your <em>rage.</em> If you enter a <em>rage</em> again within 1 minute of ending a <em>rage,</em> you don't gain any temporary hit points from your <em>rage.</em></Pair>
 </Ability>
-<Ability id="mighty-rage-ex" icon={["upgrade","armor-upgrade"]}>
+<Ability id="mighty-rage-ex" icon={["boost","def"]}>
 <Pair single id="mighty-rage-ex">Mighty Rage (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Free Action">When you enter a <em>rage,</em> the bonus on melee attack rolls, melee damage rolls, thrown weapon damage rolls, and Will saves while <em>raging</em> increases to +4. In addition, the amount of temporary hit points gained when entering a <em>rage</em> increases to 4 per Hit Die.</Pair>

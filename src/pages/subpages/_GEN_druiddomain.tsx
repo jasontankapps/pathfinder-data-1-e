@@ -10,12 +10,12 @@ const _not_found = {title: "Unknown", jsx: <><h2 id="druiddomain-not_found-error
 const _aquatic = {title: "Aquatic", jsx: <><h2 id="druiddomain-aquatic-aquatic-domain">Aquatic Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 33</Link></p>
 <p><strong className="hl">Granted Powers:</strong> You master the deeps of the sea, raging rivers, flowing falls, and relentless tides.</p>
-<Ability id="sealord-su" icon={["aura","stairs-goal"]}>
+<Ability id="sealord-su" icon={["aura","power"]}>
 <Pair single id="sealord-su">Sealord (Su)</Pair>
 <Pair title="Usage">3 + Charisma modifier times/day</Pair>
 <Pair title="Ability">You can <Link to="/ability/channel_energy">channel energy</Link> (as a cleric of your druid level), but only to heal creatures with the aquatic or water subtype or to command them (similar to using the <Link to="/feat/command_undead">Command Undead</Link> feat against undead). You can take other feats to add to this ability, such as <Link to="/feat/extra_channel">Extra Channel</Link> and <Link to="/feat/improved_channel">Improved Channel</Link>, but not feats that alter this ability, such as <Link to="/feat/elemental_channel">Elemental Channel</Link> and <Link to="/feat/alignment_channel">Alignment Channel</Link>. The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.</Pair>
 </Ability>
-<Ability id="seastrike-su" icon={["stairs-goal","upgrade","bowman"]}>
+<Ability id="seastrike-su" icon={["power","boost","ranged"]}>
 <Pair single id="seastrike-su">Seastrike (Su)</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Free Action">You may use natural and manufactured weapons in water as if you had continuous <em>freedom of movement.</em></Pair>
@@ -26,7 +26,7 @@ const _aquatic = {title: "Aquatic", jsx: <><h2 id="druiddomain-aquatic-aquatic-d
 const _arctic = {title: "Arctic", jsx: <><h2 id="druiddomain-arctic-arctic-domain">Arctic Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 33</Link></p>
 <p><strong className="hl">Granted Powers:</strong> You master the might of the endless, snow-covered wastes beneath the midnight sun, where icy polar winds blow.</p>
-<Ability id="call-cold-su" icon={["aura","stairs-goal"]}>
+<Ability id="call-cold-su" icon={["aura","power"]}>
 <Pair single id="call-cold-su">Call Cold (Su)</Pair>
 <Pair title="Usage">3 + Charisma modifier times/day</Pair>
 <Pair title="Ability">You can <Link to="/ability/channel_energy">channel energy</Link> (as a cleric of your druid level), but only to heal creatures with the cold subtype or to command them (similar to using the <Link to="/feat/command_undead">Command Undead</Link> feat against undead). You can take other feats that add to this ability, such as <Link to="/feat/extra_channel">Extra Channel</Link> and <Link to="/feat/improved_channel">Improved Channel</Link>, but not feats that alter this ability, such as <Link to="/feat/elemental_channel">Elemental Channel</Link> and <Link to="/feat/alignment_channel">Alignment Channel</Link>. The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.</Pair>
@@ -42,17 +42,17 @@ const _arctic = {title: "Arctic", jsx: <><h2 id="druiddomain-arctic-arctic-domai
 const _badlands = {title: "Badlands", jsx: <><h2 id="druiddomain-badlands-badlands-domain">Badlands Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies pg. 24</Link></p>
 <p><strong className="hl">Granted Powers:</strong> Your spirit knows both the harshness of the drying wind and the raw beauty of painted canyons.</p>
-<Ability id="subsistence-ex" icon={["armor-upgrade","upgrade"]}>
+<Ability id="subsistence-ex" icon={["def","boost"]}>
 <Pair single id="subsistence-ex" flavor="You can survive on very little food or water while helping others survive in harsh climates.">Subsistence (Ex)</Pair>
 <Pair title="Passive Ability">When determining how long you can withstand starvation and thirst, including checks to avoid nonlethal damage, treat your Constitution score as though it were 10 points higher. Additionally, you gain a bonus equal to one half your druid level (minimum 1) on <Link to="/skill/survival">Survival</Link> checks in dry hills or desert terrain.</Pair>
 </Ability>
-<Ability id="wasteland-stride-ex" icon={["stairs-goal"]}>
+<Ability id="wasteland-stride-ex" icon={["power"]}>
 <Pair single id="wasteland-stride-ex">Wasteland Stride (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">You may move through light or dense rubble, as well as up or down steep slopes, at your normal speed without suffering any impairment. Areas that have been magically manipulated to impede motion still affect you, however.</Pair>
 </Ability>
-<Ability id="badlands-spirit-su" icon={["magic-swirl"]}>
+<Ability id="badlands-spirit-su" icon={["magic"]}>
 <Pair single id="badlands-spirit-su">Badlands Spirit (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">Whenever you use <em>wild shape</em> to take on the form of an earth elemental, you also gain <Link to="/spell/geyser">geyser</Link> as a spell-like ability.</Pair>
@@ -65,12 +65,12 @@ const _badlands = {title: "Badlands", jsx: <><h2 id="druiddomain-badlands-badlan
 const _cave = {title: "Cave", jsx: <><h2 id="druiddomain-cave-cave-domain">Cave Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 33</Link></p>
 <p><strong className="hl">Granted Powers:</strong> The wonders and dark secrets of the deepest caves give you strength.</p>
-<Ability id="cavesight-sp" icon={["stairs-goal"]}>
+<Ability id="cavesight-sp" icon={["power"]}>
 <Pair single id="cavesight-sp">Cavesight (Sp)</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
 <Pair title="Ability">You can grant darkvision 60 feet to a willing creature you touch. This effect lasts 1 minute, or 1 hour if used on yourself.</Pair>
 </Ability>
-<Ability id="tremorsense-ex" icon={["stairs-goal"]}>
+<Ability id="tremorsense-ex" icon={["power"]}>
 <Pair single id="tremorsense-ex">Tremorsense (Ex)</Pair>
 <Pair title="At 6th Level">You gain <Link to="/umr/tremorsense">tremorsense</Link> 30 feet.</Pair>
 <Pair title="At 12th Level">You gain tremorsense 60 feet.</Pair>
@@ -80,16 +80,16 @@ const _cave = {title: "Cave", jsx: <><h2 id="druiddomain-cave-cave-domain">Cave 
 const _crocodile = {title: "Crocodile", jsx: <><h2 id="druiddomain-crocodile-crocodile-domain">Crocodile Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies pg. 24</Link></p>
 <p><strong className="hl">Granted Powers:</strong> You are connected with the primal forces of creation and destruction and with the crocodile spirit's ancient wisdom.</p>
-<Ability id="familiar" icon={["stairs-goal"]}>
+<Ability id="familiar" icon={["power"]}>
 <Pair single id="familiar">Familiar</Pair>
 <Pair title="Ability">You gain a <Link to="/monster/dwarf_caiman">dwarf caiman</Link> <Link to="/sidekick/familiar">familiar</Link>. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.</Pair>
 </Ability>
-<Ability id="death-roll-ex" icon={["mailed-fist","upgrade"]}>
+<Ability id="death-roll-ex" icon={["melee","boost"]}>
 <Pair single id="death-roll-ex">Death Roll (Ex)</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
 <Pair title="Ability">While grappling an enemy up to one size category larger than you, you may make a grapple check to roll wildly, knocking your enemy <Link to="/rule/prone">prone</Link> and dealing 1d8 points of damage. When using this ability, you gain a bonus to your CMB equal to one half your druid level (minimum 1).</Pair>
 </Ability>
-<Ability id="ambush-ex" icon={["stairs-goal"]}>
+<Ability id="ambush-ex" icon={["power"]}>
 <Pair single id="ambush-ex">Ambush (Ex)</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">You gain <Link to="/ability/sneak_attack">sneak attack</Link> +1d6. This increase to sneak attack damage stacks with sneak attack damage you may have from other sources.</Pair>
@@ -101,12 +101,12 @@ const _crocodile = {title: "Crocodile", jsx: <><h2 id="druiddomain-crocodile-cro
 const _desert = {title: "Desert", jsx: <><h2 id="druiddomain-desert-desert-domain">Desert Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 34</Link></p>
 <p><strong className="hl">Granted Powers:</strong> The spirits and secrets of the endless wastes are yours to command.</p>
-<Ability id="heat-shimmer-su" icon={["armor-upgrade"]}>
+<Ability id="heat-shimmer-su" icon={["def"]}>
 <Pair single id="heat-shimmer-su">Heat Shimmer (Su)</Pair>
 <Pair title="Usage">3 + Wisdom modifier rounds/day; these rounds need not be consecutive</Pair>
 <Pair title="Free Action">You can surround yourself with heat distortion that acts as the <Link to="/spell/blur">blur</Link> spell. Creatures that strike you in melee while you're using this ability are <Link to="/misc/dazzled">dazzled</Link> for 1 round (Fortitude negates).</Pair>
 </Ability>
-<Ability id="servant-of-the-sands-sp" icon={["magic-swirl"]}>
+<Ability id="servant-of-the-sands-sp" icon={["magic"]}>
 <Pair single id="servant-of-the-sands-sp">Servant of the Sands (Sp)</Pair>
 <Pair title="At 8th Level">Once per day, you may call upon the aid of a <Link to="/monster/janni">janni</Link> as if using <Link to="/spell/lesser_planar_ally">lesser planar ally</Link>.</Pair>
 <Pair title="At 12th Level">You may call upon the aid of any type of common (non-noble) <Link to="/family/genie">genie</Link> as if using <Link to="/spell/planar_ally">planar ally</Link>.</Pair>
@@ -118,16 +118,16 @@ const _desert = {title: "Desert", jsx: <><h2 id="druiddomain-desert-desert-domai
 const _eagle = {title: "Eagle", jsx: <><h2 id="druiddomain-eagle-eagle-domain">Eagle Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 34</Link></p>
 <p><strong className="hl">Granted Powers:</strong> Your spirit soars with the mightiest and noblest of all winged creatures.</p>
-<Ability id="familiar" icon={["stairs-goal"]}>
+<Ability id="familiar" icon={["power"]}>
 <Pair single id="familiar">Familiar</Pair>
 <Pair title="Ability">You gain a <Link to="/monster/hawk">hawk</Link> <Link to="/sidekick/familiar">familiar</Link>. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.</Pair>
 </Ability>
-<Ability id="hawkeye-su" icon={["upgrade"]}>
+<Ability id="hawkeye-su" icon={["boost"]}>
 <Pair single id="hawkeye-su">Hawkeye (Su)</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
 <Pair title="Swift Action">You may add a bonus equal to <Link to="/misc/half">half</Link> your druid level (minimum +1) on one ranged attack or on one <Link to="/skill/perception">Perception</Link> check.</Pair>
 </Ability>
-<Ability id="aerial-evasion-ex" icon={["armor-upgrade"]}>
+<Ability id="aerial-evasion-ex" icon={["def"]}>
 <Pair single id="aerial-evasion-ex">Aerial evasion (Ex)</Pair>
 <Pair title="At 6th Level">You gain the <Link to="/ability/evasion">evasion</Link> ability (as a rogue) when you are flying.</Pair>
 <Pair title="At 12th Level">You gain <Link to="/talent/improved_evasion">improved evasion</Link> while flying.</Pair>
@@ -137,7 +137,7 @@ const _eagle = {title: "Eagle", jsx: <><h2 id="druiddomain-eagle-eagle-domain">E
 const _erosion = {title: "Erosion", jsx: <><h2 id="druiddomain-erosion-erosion-domain">Erosion Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 46</Link></p>
 <p><strong className="hl">Granted Powers:</strong> You command the crumbling of stone and revel in rust; the decay and destruction of metal and stone over time appeals to and delights you.</p>
-<Ability id="rusting-touch-su" icon={["magic-palm"]}>
+<Ability id="rusting-touch-su" icon={["touch"]}>
 <Pair single id="rusting-touch-su" flavor="You can cause an opponent's metal armor or weapon to become dry and brittle as it magically corrodes and rusts.">Rusting Touch (Su)</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
 <Pair title="Ability">You make a melee touch attack against a creature wearing metal armor or wielding a metal weapon. If you hit, choose a metal weapon, suit of metal armor, or metal shield carried or worn by that creature. The object takes an amount of hit point damage equal to 1d6 + <Link to="/misc/half">half</Link> your druid level. If the item is not magical, or if your caster level is greater than the item's caster level, this damage bypasses the item's hardness.</Pair>
@@ -153,18 +153,18 @@ const _erosion = {title: "Erosion", jsx: <><h2 id="druiddomain-erosion-erosion-d
 const _frog = {title: "Frog", jsx: <><h2 id="druiddomain-frog-frog-domain">Frog Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 34</Link></p>
 <p><strong className="hl">Granted Powers:</strong> You venerate the elder amphibians that first brought life to land.</p>
-<Ability id="familiar" icon={["stairs-goal"]}>
+<Ability id="familiar" icon={["power"]}>
 <Pair single id="familiar">Familiar</Pair>
 <Pair title="Ability">You may gain a <Link to="/monster/toad">toad</Link> <Link to="/sidekick/familiar">familiar</Link>. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant <Link to="/ability/familiar">familiars</Link> when determining the powers of your familiar.</Pair>
 </Ability>
-<Ability id="sticky-strike-su" icon={["smoking-finger"]}>
+<Ability id="sticky-strike-su" icon={["zap"]}>
 <Pair single id="sticky-strike-su">Sticky Strike (Su)</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
 <Pair title="Standard Action"><p>You can attempt a ranged touch attack with a sticky tendril against a target up to 15 feet away, then use the <Link to="/umr/pull">pull</Link> universal monster ability to pull the target 5 feet toward you. You gain a bonus on the pull's combat maneuver check equal to 1/2 your druid level. If the target is larger than you, you may pull yourself 5 feet toward the target without making a check.</p>
 <p>The target can remove the tendril by making an opposed Strength check as a standard action, or by dealing enough slashing damage to the tendril (hit points equal to your druid level, Armor Class equal to your touch Armor Class). You can dissolve the tendril as a <strong className="hl">free action</strong>.</p>
 </Pair>
 </Ability>
-<Ability id="webfoot-ex" icon={["stairs-goal"]}>
+<Ability id="webfoot-ex" icon={["power"]}>
 <Pair single id="webfoot-ex">Webfoot (Ex)</Pair>
 <Pair title="At 6th Level">You gain the <Link to="/umr/amphibious">amphibious</Link> special quality and a swim speed equal to your land speed.</Pair>
 <Pair title="At 12th Level">You gain a climb speed equal to your land speed.</Pair>
@@ -174,12 +174,12 @@ const _frog = {title: "Frog", jsx: <><h2 id="druiddomain-frog-frog-domain">Frog 
 const _jungle = {title: "Jungle", jsx: <><h2 id="druiddomain-jungle-jungle-domain">Jungle Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 34</Link></p>
 <p><strong className="hl">Granted Powers:</strong> The spirits of the jungle, both of natural guardians and lost civilizations, whisper in your heart.</p>
-<Ability id="brachiation-ex" icon={["stairs-goal"]}>
+<Ability id="brachiation-ex" icon={["power"]}>
 <Pair single id="brachiation-ex">Brachiation (Ex)</Pair>
 <Pair title="Usage">1 round/day per druid level; these rounds need not be consecutive</Pair>
 <Pair title="Free Action">You may climb with a climb speed equal to your land speed, and gain a bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks equal to your druid level.</Pair>
 </Ability>
-<Ability id="trap-sense-ex" icon={["armor-upgrade"]}>
+<Ability id="trap-sense-ex" icon={["def"]}>
 <Pair single id="trap-sense-ex">Trap Sense (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">You gain the <Link to="/ability/trap_sense">trap sense</Link> ability. This is identical to the rogue class ability. Your effective rogue level is equal to your druid level for the purpose of determining your trap sense bonus. Trap sense bonuses gained from multiple classes stack.</Pair>
@@ -189,16 +189,16 @@ const _jungle = {title: "Jungle", jsx: <><h2 id="druiddomain-jungle-jungle-domai
 const _monkey = {title: "Monkey", jsx: <><h2 id="druiddomain-monkey-monkey-domain">Monkey Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 34</Link></p>
 <p><strong className="hl">Granted Powers:</strong> The balanced wisdom, skill, agility, and playfulness of the monkey are the model for your spiritual discipline.</p>
-<Ability id="familiar" icon={["stairs-goal"]}>
+<Ability id="familiar" icon={["power"]}>
 <Pair single id="familiar">Familiar</Pair>
 <Pair title="Ability">You gain a <Link to="/monster/monkey">monkey</Link> <Link to="/sidekick/familiar">familiar</Link>. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant <Link to="/ability/familiar">familiars</Link> when determining the powers of your familiar.</Pair>
 </Ability>
-<Ability id="monkey-athletics-su" icon={["upgrade"]}>
+<Ability id="monkey-athletics-su" icon={["boost"]}>
 <Pair single id="monkey-athletics-su">Monkey Athletics (Su)</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
 <Pair title="Free Action">You may add a competence bonus equal to half your druid level (minimum of +1) on one <Link to="/skill/acrobatics">Acrobatics</Link>, <Link to="/skill/climb">Climb</Link>, <Link to="/skill/disable_device">Disable Device</Link>, or <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check.</Pair>
 </Ability>
-<Ability id="ranged-legerdemain-su" icon={["bowman"]}>
+<Ability id="ranged-legerdemain-su" icon={["ranged"]}>
 <Pair single id="ranged-legerdemain-su">Ranged Legerdemain (Su)</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">You can use the Disable Device and Sleight of Hand skills at a range of 30 feet. Working at a distance increases the normal skill check DC by 5, and you cannot take 10 on this check. Any object to be manipulated must weigh 5 pounds or less. You can only use this ability if you have at least 1 rank in the skill being used.</Pair>
@@ -208,12 +208,12 @@ const _monkey = {title: "Monkey", jsx: <><h2 id="druiddomain-monkey-monkey-domai
 const _mountain = {title: "Mountain", jsx: <><h2 id="druiddomain-mountain-mountain-domain">Mountain Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 35</Link></p>
 <p><strong className="hl">Granted Powers:</strong> You have mastered the mighty powers of the great mountains that pierce the sky and stand aloof above the lowlands.</p>
-<Ability id="foothold-su" icon={["upgrade"]}>
+<Ability id="foothold-su" icon={["boost"]}>
 <Pair single id="foothold-su">Foothold (Su)</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
 <Pair title="Standard Action">You can cause an adjacent stone surface up to 10 feet square to mold itself into ridges and creases. A foothold that is created on a horizontal surface is treated as <Link to="/rule/difficult_terrain">difficult terrain</Link>, and a Medium or smaller creature standing in the area or moving through it takes a -2 penalty on <Link to="/skill/acrobatics">Acrobatics</Link> checks and to CMD due to poor footing. A foothold that is created on a vertical surface grants a +10 bonus on <Link to="/skill/climb">Climb</Link> checks to climb it. The stone remains altered for 1 hour.</Pair>
 </Ability>
-<Ability id="thin-air-su" icon={["armor-downgrade","aura"]}>
+<Ability id="thin-air-su" icon={["lower","aura"]}>
 <Pair single id="thin-air-su">Thin Air (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per druid level; these rounds need not be consecutive</Pair>
@@ -226,12 +226,12 @@ const _mountain = {title: "Mountain", jsx: <><h2 id="druiddomain-mountain-mounta
 const _panther = {title: "Panther", jsx: <><h2 id="druiddomain-panther-panther-domain">Panther Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies pg. 25</Link></p>
 <p><strong className="hl">Granted Powers:</strong> You share the power of the Hunter in Darkness. The potent magic of an ancient predator spirit flows through you.</p>
-<Ability id="hunters-senses-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="hunters-senses-ex" icon={["power","boost"]}>
 <Pair single id="hunters-senses-ex" flavor="You gain the ability to augment your senses on command.">Hunter's Senses (Ex)</Pair>
 <Pair title="Usage">1 minute/day per druid level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
 <Pair title="Standard Action">You grant yourself the <Link to="/umr/scent">scent</Link> special ability and improved vision. If you have normal vision, you gain low-light vision. If you have low-light vision, you gain darkvision out to a range of 30 feet. If you have darkvision, the range of your darkvision increases by 30 feet. Dismissing these augmented senses is a <strong className="hl">free action</strong>.</Pair>
 </Ability>
-<Ability id="move-in-darkness-ex" icon={["upgrade"]}>
+<Ability id="move-in-darkness-ex" icon={["boost"]}>
 <Pair single id="move-in-darkness-ex">Move in Darkness (Ex)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">In areas of normal or magical darkness, you gain a +4 bonus on Stealth skill checks and initiative checks.</Pair>
@@ -244,11 +244,11 @@ const _panther = {title: "Panther", jsx: <><h2 id="druiddomain-panther-panther-d
 const _plains = {title: "Plains", jsx: <><h2 id="druiddomain-plains-plains-domain">Plains Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 35</Link></p>
 <p><strong className="hl">Granted Powers:</strong> The wide open spaces of the prairie, savanna, and steppe are yours to master.</p>
-<Ability id="migrating-herd-su" icon={["magic-swirl","upgrade"]}>
+<Ability id="migrating-herd-su" icon={["magic","boost"]}>
 <Pair single id="migrating-herd-su">Migrating Herd (Su)</Pair>
 <Pair title="Ability">When you summon an <Link to="/monster/aurochs">aurochs, bison</Link>, <Link to="/monster/elephant">elephant, mastodon</Link>, <Link to="/monster/horse">horse</Link>, <Link to="/monster/pony">pony</Link>, or similar quadruped herbivore with a summoning spell, the duration of the spell is increased by 100% (this does not stack with <Link to="/feat/extend_spell">Extend Spell</Link>). The creature's land speed is increased by 10 feet.</Pair>
 </Ability>
-<Ability id="pounce-ex" icon={["stairs-goal"]}>
+<Ability id="pounce-ex" icon={["power"]}>
 <Pair single id="pounce-ex">Pounce (Ex)</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">You may use the <Link to="/umr/pounce">pounce</Link> special attack once per day.</Pair>
@@ -262,31 +262,31 @@ const _plains = {title: "Plains", jsx: <><h2 id="druiddomain-plains-plains-domai
 const _plane_of_air = {title: "Plane of Air", jsx: <><h2 id="druiddomain-plane_of_air-plane-of-air-domain">Plane of Air Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/planes_of_power">Planes of Power pg. 6</Link></p>
 <p><strong className="hl">Granted Powers:</strong> You draw your power from the <Link to="/rule/plane_of_air">boundless expanse of air and clouds</Link>.</p>
-<Ability id="fly" icon={["skills"]}>
+<Ability id="fly" icon={["skill"]}>
 <Pair single id="fly">Fly</Pair>
 <Pair title="Info"><Link to="/skill/fly">Fly</Link> is a class skill for you, and you can take ranks in the skill even without first having a reliable means to fly or glide.</Pair>
 </Ability>
-<Ability id="wild-empathy" icon={["upgrade"]}>
+<Ability id="wild-empathy" icon={["boost"]}>
 <Pair single id="wild-empathy">Wild Empathy</Pair>
 <Pair title="Info">You can use <Link to="/ability/wild_empathy">wild empathy</Link> to influence a creature with the air subtype if its Intelligence score is 1 or 2.</Pair>
 </Ability>
-<Ability id="aerial-agility-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="aerial-agility-ex" icon={["power","boost"]}>
 <Pair single id="aerial-agility-ex" flavor="You can navigate the air unhindered.">Aerial Agility (Ex)</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
 <Pair title="Free Action"><p>You automatically succeed at your Wisdom check to change your direction in an area of subjective gravity, and you can increase or decrease your falling speed by 10 feet per druid level during the first round after you change the direction of gravity.</p>
 <p>When you are in areas of light, normal, or heavy gravity, activating this ability instead grants you a bonus equal to your druid level on Fly checks and <Link to="/skill/acrobatics">Acrobatics</Link> checks to jump for a number of rounds equal to your Wisdom modifier.</p>
 </Pair>
 </Ability>
-<Ability id="wind-savant-su" extraClasses="hasSubs" icon={["upgrade","armor-upgrade","stairs-goal"]}>
+<Ability id="wind-savant-su" extraClasses="hasSubs" icon={["boost","def","power"]}>
 <Pair single id="wind-savant-su">Wind Savant (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Choice">You can choose between one of two options.</Pair>
 </Ability>
-<Ability id="wind-benefits" extraClasses="subAbility numbered" icon={["upgrade","armor-upgrade"]}>
+<Ability id="wind-benefits" extraClasses="subAbility numbered" icon={["boost","def"]}>
 <Pair single id="wind-benefits">Wind Benefits</Pair>
 <Pair title="Passive Ability">You treat the penalties from natural or magical <Link to="/rule/wind">wind</Link> effects as two steps less severe. In addition, you are surrounded by a cushion of air that grants you a bonus equal to 1/2 your druid level on saving throws against gases, gaseous breath weapons, inhaled poisons, and similar effects.</Pair>
 </Ability>
-<Ability id="familiar" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Ability id="familiar" extraClasses="subAbility numbered" icon={["power"]}>
 <Pair single id="familiar">Familiar</Pair>
 <Pair title="Ability">You can choose to gain a <Link to="/monster/small_air_elemental">Small air elemental</Link> as a <Link to="/sidekick/familiar">familiar</Link> as if you possessed the <Link to="/feat/improved_familiar">Improved Familiar</Link> feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a <Link to="/ability/familiar">familiar</Link>.</Pair>
 </Ability>
@@ -295,26 +295,26 @@ const _plane_of_air = {title: "Plane of Air", jsx: <><h2 id="druiddomain-plane_o
 const _plane_of_earth = {title: "Plane of Earth", jsx: <><h2 id="druiddomain-plane_of_earth-plane-of-earth-domain">Plane of Earth Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/planes_of_power">Planes of Power pg. 6</Link></p>
 <p><strong className="hl">Granted Powers:</strong> You can navigate the untold wonders of the <Link to="/rule/plane_of_earth">Plane of Earth</Link> with ease.</p>
-<Ability id="wild-empathy" icon={["upgrade"]}>
+<Ability id="wild-empathy" icon={["boost"]}>
 <Pair single id="wild-empathy">Wild Empathy</Pair>
 <Pair title="Info">You can use <Link to="/ability/wild_empathy">wild empathy</Link> to influence a creature with the earth subtype if its Intelligence score is 1 or 2.</Pair>
 </Ability>
-<Ability id="spelunker-su" icon={["stairs-goal","upgrade","armor-upgrade"]}>
+<Ability id="spelunker-su" icon={["power","boost","def"]}>
 <Pair single id="spelunker-su" flavor="You ably clamber through underground areas.">Spelunker (Su)</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
 <Pair title="Free Action">You can ignore <Link to="/rule/difficult_terrain">difficult terrain</Link> from stony surfaces, you take no penalties for squeezing through rocky areas, and you gain damage reduction 5/- against rocky hazards such as <Link to="/spell/spike_growth">spike growth</Link>. This effect lasts for 1 round.</Pair>
 </Ability>
-<Ability id="one-with-the-stone-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="one-with-the-stone-su" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="one-with-the-stone-su">One with the Stone (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Choice">You can choose between one of two options.</Pair>
 </Ability>
-<Ability id="earth-glide" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Ability id="earth-glide" extraClasses="subAbility numbered" icon={["power"]}>
 <Pair single id="earth-glide">Earth Glide</Pair>
 <Pair title="Usage">1 round/day per druid level; these rounds need not be consecutive</Pair>
 <Pair title="Swift Action">You gain the <Link to="/umr/earth_glide">earth glide</Link> universal monster ability with a speed equal to your base speed. You can breathe normally while using this ability.</Pair>
 </Ability>
-<Ability id="familiar" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Ability id="familiar" extraClasses="subAbility numbered" icon={["power"]}>
 <Pair single id="familiar">Familiar</Pair>
 <Pair title="Ability">You can choose to gain a <Link to="/monster/small_earth_elemental">Small earth elemental</Link> as a <Link to="/sidekick/familiar">familiar</Link> as if you possessed the <Link to="/feat/improved_familiar">Improved Familiar</Link> feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a <Link to="/ability/familiar">familiar</Link>.</Pair>
 </Ability>
@@ -323,27 +323,27 @@ const _plane_of_earth = {title: "Plane of Earth", jsx: <><h2 id="druiddomain-pla
 const _plane_of_fire = {title: "Plane of Fire", jsx: <><h2 id="druiddomain-plane_of_fire-plane-of-fire-domain">Plane of Fire Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/planes_of_power">Planes of Power pg. 7</Link></p>
 <p><strong className="hl">Granted Powers:</strong> You embrace the destructive flames and ever-roaring volcanoes of the <Link to="/rule/plane_of_fire">Plane of Fire</Link>, having proven yourself impervious to its heat.</p>
-<Ability id="wild-empathy" icon={["upgrade"]}>
+<Ability id="wild-empathy" icon={["boost"]}>
 <Pair single id="wild-empathy">Wild Empathy</Pair>
 <Pair title="Info">You can use <Link to="/ability/wild_empathy">wild empathy</Link> to influence a creature with the fire subtype if its Intelligence score is 1 or 2.</Pair>
 </Ability>
-<Ability id="fire-hardened-ex" icon={["armor-upgrade"]}>
+<Ability id="fire-hardened-ex" icon={["def"]}>
 <Pair single id="fire-hardened-ex">Fire Hardened (Ex)</Pair>
 <Pair title="Passive Ability">You ignore fire damage from the fire-dominant planar trait, and you gain fire resistance 5. If you have natural fire resistance, it increases by 5 instead, and if you are naturally immune to fire, you heal hit points and <Link to="/rule/ability_damage">ability damage</Link> at twice the normal rate when resting on a fire-dominant plane.</Pair>
 <Pair title="Ability">You can touch a willing creature to grant these benefits for 1 hour.</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
 </Ability>
-<Ability id="all-consuming-flames-su" extraClasses="hasSubs" icon={["upgrade","armor-upgrade","stairs-goal"]}>
+<Ability id="all-consuming-flames-su" extraClasses="hasSubs" icon={["boost","def","power"]}>
 <Pair single id="all-consuming-flames-su">All-Consuming Flames (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Choice">You can choose between one of two options.</Pair>
 </Ability>
-<Ability id="flaming-benefits" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Ability id="flaming-benefits" extraClasses="subAbility numbered" icon={["boost"]}>
 <Pair single id="flaming-benefits">Flaming Benefits</Pair>
 <Pair title="Usage">1 time/day + 1 per four druid levels beyond 8th</Pair>
 <Pair title="Standard Action">You can channel the extraplanar heat into your allies' weapons within 30 feet. For 1 minute, the affected weapons gain the cold-outsider-<Link to="/magic-enh/bane">bane</Link>, fire-outsider-bane, or <Link to="/magic-enh/flaming">flaming</Link> weapon special abilities. You must grant each weapon the same ability, and this ability affects no more than two of any ally's weapons.</Pair>
 </Ability>
-<Ability id="familiar" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Ability id="familiar" extraClasses="subAbility numbered" icon={["power"]}>
 <Pair single id="familiar">Familiar</Pair>
 <Pair title="Ability">You can choose to gain a <Link to="/monster/small_fire_elemental">Small fire elemental</Link> as a <Link to="/sidekick/familiar">familiar</Link>. as if you possessed the <Link to="/feat/improved_familiar">Improved Familiar</Link> feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a <Link to="/ability/familiar">familiar</Link>.</Pair>
 </Ability>
@@ -352,21 +352,21 @@ const _plane_of_fire = {title: "Plane of Fire", jsx: <><h2 id="druiddomain-plane
 const _plane_of_water = {title: "Plane of Water", jsx: <><h2 id="druiddomain-plane_of_water-plane-of-water-domain">Plane of Water Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/planes_of_power">Planes of Power pg. 7</Link></p>
 <p><strong className="hl">Granted Powers:</strong> You are at one with the Plane of Water, able to navigate it and weaponize it at will.</p>
-<Ability id="wild-empathy" icon={["upgrade"]}>
+<Ability id="wild-empathy" icon={["boost"]}>
 <Pair single id="wild-empathy">Wild Empathy</Pair>
 <Pair title="Info">You can use <Link to="/ability/wild_empathy">wild empathy</Link> to influence a creature with the water subtype if its Intelligence score is 1 or 2.</Pair>
 </Ability>
-<Ability id="aquatic-veil-su" icon={["upgrade"]}>
+<Ability id="aquatic-veil-su" icon={["boost"]}>
 <Pair single id="aquatic-veil-su">Aquatic Veil (Su)</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
 <Pair title="Standard Action">You can sheathe your body in a thin layer of water for a number of rounds equal to your Wisdom modifier. This grants you a bonus on <Link to="/skill/swim">Swim</Link> checks equal to 1/2 your druid level and allows you to breathe normally underwater. You can end the effect when delivering a touch spell to create a pseudopod of water that extends your effective reach by 5 feet for that attack. When used underwater, the pseudopod instead increases your reach by 10 feet.</Pair>
 </Ability>
-<Ability id="hydraulic-crush-su" extraClasses="hasSubs" icon={["upgrade","armor-upgrade","stairs-goal"]}>
+<Ability id="hydraulic-crush-su" extraClasses="hasSubs" icon={["boost","def","power"]}>
 <Pair single id="hydraulic-crush-su">Hydraulic Crush (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Choice">You can choose between one of two options.</Pair>
 </Ability>
-<Ability id="crushing-strike" extraClasses="subAbility numbered" icon={["bowman","armor-downgrade"]}>
+<Ability id="crushing-strike" extraClasses="subAbility numbered" icon={["ranged","lower"]}>
 <Pair single id="crushing-strike">Crushing Strike</Pair>
 <Pair title="Usage">1 time/day + 1 per six druid levels beyond 8th</Pair>
 <Pair title="Passive Ability"><p>You can strike an area with a pressurized blast of water in a 5-foot-radius column 30 feet tall with a range of 60 feet. Creatures in the area take 1d6 bludgeoning damage per druid level and are knocked <Link to="/rule/prone">prone</Link>.</p>
@@ -374,7 +374,7 @@ const _plane_of_water = {title: "Plane of Water", jsx: <><h2 id="druiddomain-pla
 <p>A successful Reflex save halves the damage and prevents the secondary effect.</p>
 </Pair>
 </Ability>
-<Ability id="familiar" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Ability id="familiar" extraClasses="subAbility numbered" icon={["power"]}>
 <Pair single id="familiar">Familiar</Pair>
 <Pair title="Ability">You can choose to gain a <Link to="/monster/small_water_elemental">Small water elemental</Link> as a <Link to="/sidekick/familiar">familiar</Link>. as if you possessed the <Link to="/feat/improved_familiar">Improved Familiar</Link> feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a <Link to="/ability/familiar">familiar</Link>.</Pair>
 </Ability>
@@ -383,19 +383,19 @@ const _plane_of_water = {title: "Plane of Water", jsx: <><h2 id="druiddomain-pla
 const _ruins = {title: "Ruins", jsx: <><h2 id="druiddomain-ruins-ruins-domain">Ruins Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_monster_codex">Inner Sea Monster Codex pg. 35</Link></p>
 <p><strong className="hl">Granted Powers:</strong> You sense nature's creeping reclamation of what once belonged to the civilized world and understand how to ensure ruins that hold power or significance will persist.</p>
-<Ability id="ruin-touch-su" icon={["magic-palm"]}>
+<Ability id="ruin-touch-su" icon={["touch"]}>
 <Pair single id="ruin-touch-su" flavor="You can strengthen or weaken objects with your touch.">Ruin Touch (Su)</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
 <Pair title="Ability">With a melee touch attack, you can increase or decrease the hardness of an object (up to a 10-foot cube) or construct by an amount equal to half your druid level (minimum 1) for 1 minute. You cannot reduce an object's hardness below 0, and the same target cannot be affected by this ability more than once.</Pair>
 </Ability>
-<Ability id="remembrance-sp" icon={["magic-swirl"]}>
+<Ability id="remembrance-sp" icon={["magic"]}>
 <Pair single id="remembrance-sp" flavor="When within a ruin or other structure that is no longer claimed by civilization, you can call upon the wisdom of the land and its long-dead residents.">Remembrance (Sp)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Usage">1 time/day per four druid levels</Pair>
 <Pair title="Ability">You can cast <Link to="/spell/divination">divination</Link> as a spell-like ability.</Pair>
 <Pair title="Special">Additionally, if you are within ruins when you cast <em>commune with nature,</em> you gain information about the crumbling structures around you as though they were part of nature.</Pair>
 </Ability>
-<Ability id="surefooted-ex" icon={["stairs-goal"]}>
+<Ability id="surefooted-ex" icon={["power"]}>
 <Pair single id="surefooted-ex">Surefooted (Ex)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">Your speed is not reduced by <Link to="/rule/difficult_terrain">difficult terrain</Link> unless the terrain has been magically manipulated to impede motion.</Pair>
@@ -405,16 +405,16 @@ const _ruins = {title: "Ruins", jsx: <><h2 id="druiddomain-ruins-ruins-domain">R
 const _serpent = {title: "Serpent", jsx: <><h2 id="druiddomain-serpent-serpent-domain">Serpent Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 35</Link></p>
 <p><strong className="hl">Granted Powers:</strong> You serve ancient serpentine mysteries whose coils still encircle the world.</p>
-<Ability id="familiar" icon={["stairs-goal"]}>
+<Ability id="familiar" icon={["power"]}>
 <Pair single id="familiar">Familiar</Pair>
 <Pair title="Ability">You gain a <Link to="/monster/viper">viper</Link> <Link to="/sidekick/familiar">familiar</Link>. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.</Pair>
 </Ability>
-<Ability id="slither-ex" icon={["stairs-goal","armor-upgrade","upgrade"]}>
+<Ability id="slither-ex" icon={["power","def","boost"]}>
 <Pair single id="slither-ex">Slither (Ex)</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
 <Pair title="Free Action">You can distend and stretch your body to fit easily through narrow spaces for 1 round. You can move freely through a tight space that would normally require a creature of your size to <Link to="/misc/squeeze">squeeze</Link> through. While slithering, you gain a +2 dodge bonus to Armor Class against attacks of opportunity provoked by your movement and a +2 bonus on CMB and on <Link to="/skill/escape_artist">Escape Artist</Link> checks made to escape from a <Link to="/rule/grapple">grapple</Link>.</Pair>
 </Ability>
-<Ability id="venom-immunity-ex" icon={["armor-upgrade"]}>
+<Ability id="venom-immunity-ex" icon={["def"]}>
 <Pair single id="venom-immunity-ex">Venom Immunity (Ex)</Pair>
 <Pair hl title="Replaces">Venom immunity</Pair>
 <Pair title="At 6th Level">You gain immunity to poisons from snakes, reptiles, and creatures with the reptilian subtype.</Pair>
@@ -431,7 +431,7 @@ const _swamp = {title: "Swamp", jsx: <><h2 id="druiddomain-swamp-swamp-domain">S
 <Pair title="Ability">You can <Link to="/ability/channel_energy">channel energy</Link> (as a cleric of your druid level), but only to heal animals, plants, and vermin. You may reduce the number of dice healed to cure <Link to="/rule/ability_damage">ability damage</Link> (your choice) to all affected creatures, curing 1 point of ability damage for each d6 that the channel energy is reduced.</Pair>
 <Pair title="Special">You can take other feats to add to this ability, such as <Link to="/feat/extra_channel">Extra Channel</Link>, but not feats that alter this ability, such as <Link to="/feat/elemental_channel">Elemental Channel</Link> and <Link to="/feat/alignment_channel">Alignment Channel</Link>.</Pair>
 </Ability>
-<Ability id="reed-hunter-ex" icon={["stairs-goal"]}>
+<Ability id="reed-hunter-ex" icon={["power"]}>
 <Pair single id="reed-hunter-ex">Reed Hunter (Ex)</Pair>
 <Pair title="At 6th Level">You gain <Link to="/umr/blindsense">blindsense</Link> 30 feet with respect to <Link to="/rule/concealment">concealment</Link> and <Link to="/rule/cover">cover</Link> from fog, vegetation, or water.</Pair>
 <Pair title="At 12th Level">This improves to <Link to="/umr/blindsight">blindsight</Link> 30 feet with respect to these conditions.</Pair>
@@ -441,12 +441,12 @@ const _swamp = {title: "Swamp", jsx: <><h2 id="druiddomain-swamp-swamp-domain">S
 const _the_uskbond = {title: "The Uskbond", jsx: <><h2 id="druiddomain-the_uskbond-the-uskbond-domain">The Uskbond Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms pg. 45</Link></p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="druiddomain-the_uskbond--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must be neutral evil, worship <Link to="/faith/zon_kuthon">Zon-Kuthon</Link>, and have the <em>nature bond</em> class feature.</td></tr></tbody></table></ScrollContainer></div><p><strong className="hl">Granted Powers:</strong> The Uskbond functions as a unique domain with the granted powers and domain spells below.</p>
-<Ability id="absorb-pain-su" icon={["armor-upgrade"]}>
+<Ability id="absorb-pain-su" icon={["def"]}>
 <Pair single id="absorb-pain-su">Absorb Pain (Su)</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
 <Pair title="Immediate Action">Whenever you take lethal damage, you can choose to convert a number of points of this damage equal to 1d6 + your Wisdom modifier into nonlethal damage. When you use this ability, you gain a +4 profane bonus on all saving throws versus pain effects during the following round.</Pair>
 </Ability>
-<Ability id="gruesome-display-ex" icon={["armor-downgrade"]}>
+<Ability id="gruesome-display-ex" icon={["lower"]}>
 <Pair single id="gruesome-display-ex">Gruesome Display (Ex)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Standard Action">You can alter your appearance in such intense, horrific ways that onlookers become <Link to="/misc/nauseated">nauseated</Link>. One creature you select within 30 feet who can see you must succeed at a Will save (DC = 10 + 1/2 your druid level + your Wisdom modifier) or be nauseated for a number of rounds equal to 1/2 your druid level.</Pair>
@@ -463,11 +463,11 @@ const _the_uskbond = {title: "The Uskbond", jsx: <><h2 id="druiddomain-the_uskbo
 const _vermin = {title: "Vermin", jsx: <><h2 id="druiddomain-vermin-vermin-domain">Vermin Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 46</Link>, <Link to="/source/inner_sea_monster_codex">Inner Sea Monster Codex pg. 35</Link></p>
 <p><strong className="hl">Granted Powers:</strong> You see the perfection of nature in the spindly limbs and strange forms of all vermin, great and small alike.</p>
-<Ability id="vermin-whisperer-su" icon={["stairs-goal"]}>
+<Ability id="vermin-whisperer-su" icon={["power"]}>
 <Pair single id="vermin-whisperer-su">Vermin Whisperer (Su)</Pair>
 <Pair title="Ability">You can use your <Link to="/ability/wild_empathy">wild empathy</Link> ability on vermin. When you do so, you impart a modicum of implanted intelligence on the vermin, allowing you to interact with vermin as if they were animals. <em>Vermin whisperer</em> functions only on vermin that are mindless or have an Intelligence score of 2 or lower.</Pair>
 </Ability>
-<Ability id="sudden-sting-su" icon={["magic-palm"]}>
+<Ability id="sudden-sting-su" icon={["touch"]}>
 <Pair single id="sudden-sting-su">Sudden Sting (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
@@ -478,7 +478,7 @@ const _vermin = {title: "Vermin", jsx: <><h2 id="druiddomain-vermin-vermin-domai
 const _vulture = {title: "Vulture", jsx: <><h2 id="druiddomain-vulture-vulture-domain">Vulture Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies pg. 25</Link></p>
 <p><strong className="hl">Granted Powers:</strong> Yours is the power of death and rebirth. Your spirit soars above all and moves with the flow of unseen currents.</p>
-<Ability id="deaths-companion-ex" icon={["armor-upgrade"]}>
+<Ability id="deaths-companion-ex" icon={["def"]}>
 <Pair single id="deaths-companion-ex" flavor="Your totem grants you protection from the harbingers of death.">Death's Companion (Ex)</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
 <Pair title="Immediate Action">You gain a +2 bonus on saving throws against disease, death spells, and death effects that lasts a number of rounds equal to your druid level.</Pair>
@@ -486,7 +486,7 @@ const _vulture = {title: "Vulture", jsx: <><h2 id="druiddomain-vulture-vulture-d
 <Pair title="At 11th Level">This bonus increases to +6.</Pair>
 <Pair title="At 16th Level">This bonus becomes +8.</Pair>
 </Ability>
-<Ability id="agent-of-rebirth-sp" icon={["magic-swirl"]}>
+<Ability id="agent-of-rebirth-sp" icon={["magic"]}>
 <Pair single id="agent-of-rebirth-sp">Agent of Rebirth (Sp)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability"><p>You may expend a quantity of special oils worth 1,000 gp to cast <Link to="/spell/reincarnate">reincarnate</Link> as a spell-like ability usable once per day.</p>
@@ -498,11 +498,11 @@ const _vulture = {title: "Vulture", jsx: <><h2 id="druiddomain-vulture-vulture-d
 const _wolf = {title: "Wolf", jsx: <><h2 id="druiddomain-wolf-wolf-domain">Wolf Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 36</Link></p>
 <p><strong className="hl">Granted Powers:</strong> You run with the pack and are the master of the cold hunt of your spirit totem.</p>
-<Ability id="improved-trip" icon={["stairs-goal"]}>
+<Ability id="improved-trip" icon={["power"]}>
 <Pair single id="improved-trip">Improved Trip</Pair>
 <Pair title="Ability">You gain <Link to="/feat/improved_trip">Improved Trip</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="pack-tactics-ex" icon={["mailed-fist","upgrade"]}>
+<Ability id="pack-tactics-ex" icon={["melee","boost"]}>
 <Pair single id="pack-tactics-ex">Pack Tactics (Ex)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>

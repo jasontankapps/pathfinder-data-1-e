@@ -4,14 +4,14 @@ import Ability from '../../components/Ability';
 const _not_found = {title: "Unknown", jsx: <><p>Unable to find the requested Hellknight discipline.</p>
 </>};
 const _brand = {title: "Brand", jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 278</Link></p>
-<Ability id="brand-sp" icon={["magic-swirl"]}>
+<Ability id="brand-sp" icon={["magic"]}>
 <Pair single id="brand-sp">Brand (Sp)</Pair>
 <Pair title="Order" hl><Link to="/hkorder/order_of_the_pyre">Order of the Pyre</Link></Pair>
 <Pair title="Ability">The Hellknight can use <Link to="/spell/mark_of_justice">mark of justice</Link> as a spell-like ability.</Pair>
 </Ability>
 </>};
 const _call_armor = {title: "Call Armor", jsx: <><p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 59</Link></p>
-<Ability id="call-armor-su" icon={["armor-upgrade"]}>
+<Ability id="call-armor-su" icon={["def"]}>
 <Pair single id="call-armor-su">Call Armor (Su)</Pair>
 <Pair title="Order" hl>Any order</Pair>
 <Pair title="Move-Equivalent Action"><p>The Hellknight can cause her armor to instantly appear on her body. Alternatively, she can dismiss it as a move action, causing it to vanish. (Doing either of these counts as one use of this discipline.)</p>
@@ -21,28 +21,28 @@ const _call_armor = {title: "Call Armor", jsx: <><p><strong>Sources</strong> <Li
 </Ability>
 </>};
 const _censor = {title: "Censor", jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 278</Link></p>
-<Ability id="censor-su" icon={["armor-downgrade"]}>
+<Ability id="censor-su" icon={["lower"]}>
 <Pair single id="censor-su">Censor (Su)</Pair>
 <Pair title="Order" hl><Link to="/hkorder/order_of_the_rack">Order of the Rack</Link></Pair>
 <Pair title="Ability">When the Hellknight uses <em>smite chaos</em> on a creature, he can strike the creature mute for 1d4 rounds unless it makes a successful Will save. A mute creature cannot speak, nor can it cast spells that have verbal components or use language-dependant effects.</Pair>
 </Ability>
 </>};
 const _command = {title: "Command", jsx: <><p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 59</Link></p>
-<Ability id="command-sp" icon={["magic-swirl"]}>
+<Ability id="command-sp" icon={["magic"]}>
 <Pair single id="command-sp">Command (Sp)</Pair>
 <Pair title="Order" hl>Any order</Pair>
 <Pair title="Ability">The Hellknight can use <Link to="/spell/greater_command">greater command</Link> as a spell-like ability, using her character level as her caster level.</Pair>
 </Ability>
 </>};
 const _dispel_chaos = {title: "Dispel Chaos", jsx: <><p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 59</Link></p>
-<Ability id="dispel-chaos-sp" icon={["magic-swirl"]}>
+<Ability id="dispel-chaos-sp" icon={["magic"]}>
 <Pair single id="dispel-chaos-sp">Dispel Chaos (Sp)</Pair>
 <Pair title="Order" hl>Any order</Pair>
 <Pair title="Ability">The Hellknight can use <Link to="/spell/dispel_chaos">dispel chaos</Link> as a spell-like ability, using her character level as her caster level.</Pair>
 </Ability>
 </>};
 const _favored_quarry = {title: "Favored Quarry", jsx: <><p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 59</Link></p>
-<Ability id="favored-quarry-ex" icon={["upgrade"]}>
+<Ability id="favored-quarry-ex" icon={["boost"]}>
 <Pair single id="favored-quarry-ex">Favored Quarry (Ex)</Pair>
 <Pair title="Order" hl>Any order</Pair>
 <Pair title="Choice">The Hellknight chooses a creature type from the ranger <Link to="/ability/favored_enemy">favored enemy</Link> table (usually humanoid with a specific subtype, but this is not required).</Pair>
@@ -51,14 +51,14 @@ const _favored_quarry = {title: "Favored Quarry", jsx: <><p><strong>Sources</str
 </Ability>
 </>};
 const _fearsomeness = {title: "Fearsomeness", jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 279</Link></p>
-<Ability id="fearsomeness-ex" icon={["armor-downgrade"]}>
+<Ability id="fearsomeness-ex" icon={["lower"]}>
 <Pair single id="fearsomeness-ex">Fearsomeness (Ex)</Pair>
 <Pair title="Order" hl>Any order</Pair>
 <Pair title="Ability">A Hellknight who uses the Intimidate skill to cause a creature within 10 feet to become <Link to="/misc/shaken">shaken</Link> can instead cause that creature to become <Link to="/misc/frightened">frightened</Link>.</Pair>
 </Ability>
 </>};
 const _invoke_glyph = {title: "Invoke Glyph", jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_107_scourge_of_the_godclaw">Pathfinder #107: Scourge of the Godclaw pg. 47</Link></p>
-<Ability id="invoke-glyph-sp-and-ex" icon={["magic-swirl","armor-upgrade"]}>
+<Ability id="invoke-glyph-sp-and-ex" icon={["magic","def"]}>
 <Pair single id="invoke-glyph-sp-and-ex">Invoke Glyph (Sp and Ex)</Pair>
 <Pair title="Order" hl><Link to="/hkorder/order_of_the_glyph">Order of the Glyph</Link></Pair>
 <Pair title="Ability">The Hellknight can use <Link to="/spell/glyph_of_warding">glyph of warding</Link> as a spell-like ability. While this ability does not require an expensive material component, a single Hellknight can maintain only one <em>glyph of warding</em> at a time; if he uses this spell-like ability a second time, the previously created <em>glyph of warding</em> vanishes.</Pair>
@@ -66,21 +66,21 @@ const _invoke_glyph = {title: "Invoke Glyph", jsx: <><p><strong>Sources</strong>
 </Ability>
 </>};
 const _mental_intrusion = {title: "Mental Intrusion", jsx: <><p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 59</Link></p>
-<Ability id="mental-intrusion-sp" icon={["magic-swirl"]}>
+<Ability id="mental-intrusion-sp" icon={["magic"]}>
 <Pair single id="mental-intrusion-sp">Mental Intrusion (Sp)</Pair>
 <Pair title="Order" hl>Any order</Pair>
 <Pair title="Ability">The Hellknight can use <Link to="/spell/telepathy">telepathy</Link> as a spell-like ability, using her character level as her caster level.</Pair>
 </Ability>
 </>};
 const _onslaught = {title: "Onslaught", jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 279</Link></p>
-<Ability id="onslaught-su" icon={["upgrade"]}>
+<Ability id="onslaught-su" icon={["boost"]}>
 <Pair single id="onslaught-su">Onslaught (Su)</Pair>
 <Pair title="Order" hl><Link to="/hkorder/order_of_the_nail">Order of the Nail</Link></Pair>
 <Pair title="Free Action">Once per day, a Hellknight increases his base speed by +10 feet and gains a +4 bonus to his Strength for 1 round. If the Hellknight is mounted, these bonuses also apply to his mount.</Pair>
 </Ability>
 </>};
 const _pentamic_faith = {title: "Pentamic Faith", jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 279</Link></p>
-<Ability id="pentamic-faith-ex" icon={["upgrade"]}>
+<Ability id="pentamic-faith-ex" icon={["boost"]}>
 <Pair single id="pentamic-faith-ex">Pentamic Faith (Ex)</Pair>
 <Pair title="Prerequisites">Must be of the <em>Order of the Godclaw.</em></Pair>
 <Pair title="Order" hl><Link to="/hkorder/order_of_the_godclaw">Order of the Godclaw</Link></Pair>
@@ -89,7 +89,7 @@ const _pentamic_faith = {title: "Pentamic Faith", jsx: <><p><strong>Sources</str
 </Ability>
 </>};
 const _seek_the_taken = {title: "Seek the Taken", jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_98_turn_of_the_torrent">Pathfinder #98: Turn of the Torrent pg. 67</Link></p>
-<Ability id="seek-the-taken" icon={["magic-swirl"]}>
+<Ability id="seek-the-taken" icon={["magic"]}>
 <Pair single id="seek-the-taken">Seek the Taken</Pair>
 <Pair title="Order" hl><Link to="/hkorder/order_of_the_torrent">Order of the Torrent</Link></Pair>
 <Pair title="Ability" hl>When a member of the <em>Order of the Torrent</em> becomes a 3rd-level Hellknight, he gains his first discipline: <em>seek the taken.</em> This enables the Hellknight to use an <Link to="/feat/enlarged">enlarged</Link> <Link to="/spell/locate_creature">locate creature</Link> as a spell-like ability with a caster level equal to his total character level.</Pair>
@@ -97,21 +97,21 @@ const _seek_the_taken = {title: "Seek the Taken", jsx: <><p><strong>Sources</str
 </Ability>
 </>};
 const _shackle = {title: "Shackle", jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 279</Link></p>
-<Ability id="shackle-su" icon={["armor-downgrade"]}>
+<Ability id="shackle-su" icon={["lower"]}>
 <Pair single id="shackle-su">Shackle (Su)</Pair>
 <Pair title="Order" hl><Link to="/hkorder/order_of_the_chain">Order of the Chain</Link></Pair>
 <Pair title="Ability">When the Hellknight uses <em>smite chaos</em> on a creature, he can impede its mobility. The creature can negate this effect with a Will save; otherwise, it is affected as if by a <Link to="/spell/slow">slow</Link> spell for 1d4 rounds.</Pair>
 </Ability>
 </>};
 const _shadow_step = {title: "Shadow Step", jsx: <><p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 59</Link></p>
-<Ability id="shadow-step-sp" icon={["magic-swirl"]}>
+<Ability id="shadow-step-sp" icon={["magic"]}>
 <Pair single id="shadow-step-sp">Shadow Step (Sp)</Pair>
 <Pair title="Order" hl>Any order</Pair>
 <Pair title="Ability">The Hellknight can use <Link to="/feat/enlarged">enlarged</Link> <Link to="/spell/shadow_step">shadow step</Link> as a spell-like ability, as if the Enlarge Spell metamagic feat were applied to the spell, using her character level as her caster level.</Pair>
 </Ability>
 </>};
 const _summon_devil = {title: "Summon Devil", jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 279</Link></p>
-<Ability id="summon-devil-sp" icon={["magic-swirl"]}>
+<Ability id="summon-devil-sp" icon={["magic"]}>
 <Pair single id="summon-devil-sp">Summon Devil (Sp)</Pair>
 <Pair title="Prerequisites">Cannot be in the <Link to="/hkorder/order_of_the_torrent">Order of the Torrent</Link></Pair>
 <Pair title="Order" hl><Link to="/hkorder/order_of_the_gate">Order of the Gate</Link></Pair>
@@ -121,7 +121,7 @@ const _summon_devil = {title: "Summon Devil", jsx: <><p><strong>Sources</strong>
 </Ability>
 </>};
 const _summon_servant_of_law = {title: "Summon Servant of Law", jsx: <><p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 59</Link></p>
-<Ability id="summon-servant-of-law-sp" icon={["magic-swirl"]}>
+<Ability id="summon-servant-of-law-sp" icon={["magic"]}>
 <Pair single id="summon-servant-of-law-sp">Summon Servant of Law (Sp)</Pair>
 <Pair title="Order" hl>Any order</Pair>
 <Pair title="Ability">The Hellknight can summon a creature or creatures to help her, as if using a <Link to="/spell/summon_monster">summon monster</Link> spell.</Pair>
@@ -131,7 +131,7 @@ const _summon_servant_of_law = {title: "Summon Servant of Law", jsx: <><p><stron
 </Ability>
 </>};
 const _trace = {title: "Trace", jsx: <><p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 59</Link></p>
-<Ability id="trace-su" icon={["magic-swirl"]}>
+<Ability id="trace-su" icon={["magic"]}>
 <Pair single id="trace-su">Trace (Su)</Pair>
 <Pair title="Order" hl>Any order</Pair>
 <Pair title="Ability">The Hellknight can study a single personal belonging of a creature for 1 minute, after which she knows the general direction of the creature's current location as long as it is within 1 mile and on the same plane. She also learns the direction the creature is currently moving, if any. This effect lasts for 10 minutes per character level.</Pair>
@@ -141,7 +141,7 @@ const _trace = {title: "Trace", jsx: <><p><strong>Sources</strong> <Link to="/so
 </Ability>
 </>};
 const _tracker = {title: "Tracker", jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 279</Link></p>
-<Ability id="tracker-sp" icon={["magic-swirl"]}>
+<Ability id="tracker-sp" icon={["magic"]}>
 <Pair single id="tracker-sp">Tracker (Sp)</Pair>
 <Pair title="Order" hl>Any order</Pair>
 <Pair title="Ability">The Hellknight can summon a creature to aid him, either in battle or to track an enemy, as if using a <Link to="/spell/summon_monster">summon monster</Link> spell, save that the summoned creature lingers for 1 hour before vanishing.</Pair>
@@ -150,7 +150,7 @@ const _tracker = {title: "Tracker", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _versatile_intimidation = {title: "Versatile Intimidation", jsx: <><p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 59</Link></p>
-<Ability id="versatile-intimidation-ex" icon={["upgrade"]}>
+<Ability id="versatile-intimidation-ex" icon={["boost"]}>
 <Pair single id="versatile-intimidation-ex">Versatile Intimidation (Ex)</Pair>
 <Pair title="Order" hl>Any order</Pair>
 <Pair title="Ability">The Hellknight can use Intimidate to reproduce the effects of another Charisma-based skill. Choose one of the following: Bluff, Diplomacy, Handle Animal, or Perform (oratory). Each time the Hellknight wishes to use that skill, she can attempt an Intimidate check and treat it as if it were a check of the desired type.</Pair>
@@ -158,7 +158,7 @@ const _versatile_intimidation = {title: "Versatile Intimidation", jsx: <><p><str
 </Ability>
 </>};
 const _vigilance = {title: "Vigilance", jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 279</Link></p>
-<Ability id="vigilance-su" icon={["stairs-goal"]}>
+<Ability id="vigilance-su" icon={["power"]}>
 <Pair single id="vigilance-su">Vigilance (Su)</Pair>
 <Pair title="Order" hl><Link to="/hkorder/order_of_the_scourge">Order of the Scourge</Link></Pair>
 <Pair title="Ability">The Hellknight gains low-light vision (this effect is constant).</Pair>
@@ -166,7 +166,7 @@ const _vigilance = {title: "Vigilance", jsx: <><p><strong>Sources</strong> <Link
 </Ability>
 </>};
 const _wrack = {title: "Wrack", jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 279</Link></p>
-<Ability id="wrack-su" icon={["magic-palm"]}>
+<Ability id="wrack-su" icon={["touch"]}>
 <Pair single id="wrack-su">Wrack (Su)</Pair>
 <Pair title="Order" hl>Any order</Pair>
 <Pair title="Standard Action">The Hellknight may make a touch attack to cause a creature to suffer incredible pain. The creature touched takes 1d6 points of damage + the Hellknight's Charisma modifier, and must make a Will save to avoid being <Link to="/misc/staggered">staggered</Link> for 1d4 rounds.</Pair>

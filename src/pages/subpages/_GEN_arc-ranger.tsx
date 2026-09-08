@@ -9,12 +9,12 @@ import AffInfo from '../../components/AfflictionInfo';
 import TrapInfo from '../../components/TrapInfo';
 const _abendego_diver = {title: "Abendego Diver", jsx: <><h2 id="arc-ranger-abendego_diver-abendego-diver">Abendego Diver</h2>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 12</Link><br/>Named for the vicious and unending storm in the southern Arcadian Ocean, Abendego divers have pushed their bodies to their limits, holding their breath to expand their lung capacity and swimming until ocean travel is second nature to them.</p>
-<Ability id="weapon-and-armor-proficiency" icon={["broken-shield","stairs-goal"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["down","power"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Alters">Weapon and armor proficiencies</Pair>
 <Pair title="Info">An Abendego diver is not proficient with shields but is proficient with <Link to="/eq-weapon/harpoon">harpoons</Link> and <Link to="/eq-weapon/net">nets</Link>.</Pair>
 </Ability>
-<Ability id="oceans-blessing" icon={["spell-book"]}>
+<Ability id="oceans-blessing" icon={["learn"]}>
 <Pair single id="oceans-blessing">Ocean's Blessing</Pair>
 <Pair hl title="Replaces">Track</Pair>
 <Pair title="Ability">An Abendego diver adds the following spells to his ranger spell list at the listed spell level. He still must select them as spells known, as normal.</Pair>
@@ -23,13 +23,13 @@ const _abendego_diver = {title: "Abendego Diver", jsx: <><h2 id="arc-ranger-aben
 <Pair plain title="3rd"><Link to="/spell/hydraulic_torrent">Hydraulic torrent</Link>, <Link to="/spell/water_breathing">water breathing</Link></Pair>
 <Pair plain title="4th"><Link to="/spell/control_water">Control water</Link>, <Link to="/spell/ride_the_waves">ride the waves</Link></Pair>
 </Ability>
-<Ability id="deep-diver-ex" icon={["upgrade"]}>
+<Ability id="deep-diver-ex" icon={["boost"]}>
 <Pair single id="deep-diver-ex">Deep Diver (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An Abendego diver can <Link to="/misc/hold_his_breath">hold his breath</Link> for twice as long as usual (4 rounds &times; his Constitution score instead of the normal &times;2).</Pair>
 </Ability>
-<Ability id="aquatic-terrain-ex" icon={["upgrade"]}>
+<Ability id="aquatic-terrain-ex" icon={["boost"]}>
 <Pair single id="aquatic-terrain-ex">Aquatic Terrain (Ex)</Pair>
 <Pair hl title="Replaces">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -38,20 +38,20 @@ const _abendego_diver = {title: "Abendego Diver", jsx: <><h2 id="arc-ranger-aben
 <Pair title="At 13th Level">These bonuses increase to +6.</Pair>
 <Pair title="At 18th Level">These bonuses become +8.</Pair>
 </Ability>
-<Ability id="aquatic-adaptation-ex" icon={["stairs-goal"]}>
+<Ability id="aquatic-adaptation-ex" icon={["power"]}>
 <Pair single id="aquatic-adaptation-ex">Aquatic Adaptation (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">An Abendego diver gains a swim speed equal to his unmodified base speed. If he already has a swim speed, his swim speed increases by 10 feet.</Pair>
 <Pair title="Special">Because he has a swim speed, he gains the standard +8 bonus on Swim checks to perform a special action or evade a hazard, the ability to take 10 on a Swim check even if distracted or threatened, and the ability to use the run action while swimming if he swims in a straight line.</Pair>
 </Ability>
-<Ability id="shark-sense-ex" icon={["stairs-goal"]}>
+<Ability id="shark-sense-ex" icon={["power"]}>
 <Pair single id="shark-sense-ex">Shark Sense (Ex)</Pair>
 <Pair hl title="Replaces">Swift tracker</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">An Abendego diver gains the <Link to="/umr/scent">scent</Link> ability while underwater.</Pair>
 </Ability>
-<Ability id="killer-of-the-deep-ex" icon={["stairs-goal"]}>
+<Ability id="killer-of-the-deep-ex" icon={["power"]}>
 <Pair single id="killer-of-the-deep-ex" flavor="An Abendego diver is peerless at detecting prey underwater and delivering killing blows.">Killer of the Deep (Ex)</Pair>
 <Pair hl title="Replaces">Master hunter</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -61,43 +61,43 @@ const _abendego_diver = {title: "Abendego Diver", jsx: <><h2 id="arc-ranger-aben
 </>};
 const _battle_scout = {title: "Battle Scout", jsx: <><h2 id="arc-ranger-battle_scout-battle-scout">Battle Scout</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 66</Link><br/>Armies need clean water, safe routes, and intelligence about their enemies. Though regular outdoorsmen might suffice in many cases, some large forces look to battle scouts to keep the body of their troops safe and prepared for the terrain and whatever dangers that terrain hides.</p>
-<Ability id="hunters-bond-ex" icon={["broken-shield"]}>
+<Ability id="hunters-bond-ex" icon={["down"]}>
 <Pair single id="hunters-bond-ex">Hunter's Bond (Ex)</Pair>
 <Pair hl title="Alters">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Info">When a battle scout gains the <em>hunter's bond</em> ability, he must choose to bond with his companions. Battle scouts do not have animal companions.</Pair>
 </Ability>
-<Ability id="advantageous-terrain-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="advantageous-terrain-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="advantageous-terrain-ex">Advantageous Terrain (Ex)</Pair>
 <Pair hl title="Replaces">2nd favored enemy</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">When a battle scout is within one of his <em>favored terrains,</em> he can spend up to 3 consecutive rounds studying an area of terrain to gain the benefits below. Each round of studying terrain is a <strong className="hl">standard action</strong>. During the first round of studying terrain, the battle scout designates a 60-foot-radius-<Link to="/misc/burst">burst</Link> area from a single square within line of sight. Depending on how many rounds the battle scout spends studying the area, he or his allies gain the following benefits for 10 minutes per ranger level he possesses. (For example, if he spends 2 rounds, he or his allies gain the first two benefits.)</Pair>
 </Ability>
-<Ability id="1st-round" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="1st-round" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="1st-round">1st Round</Pair>
 <Pair title="Passive Ability">Allies within line of sight and that can hear the battle scout gain a +2 bonus on initiative checks while within the <em>advantageous terrain</em> area.</Pair>
 </Ability>
-<Ability id="2nd-round" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="2nd-round" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="2nd-round">2nd Round</Pair>
 <Pair title="Passive Ability">Allies within line of sight and that can hear the battle scout gain a +2 on Perception, Stealth, and Survival checks while within the <em>advantageous terrain</em> area.</Pair>
 </Ability>
-<Ability id="3rd-round" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="3rd-round" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="3rd-round">3rd Round</Pair>
 <Pair title="Ability">The battle scout's movement is not hampered by <Link to="/rule/difficult_terrain">difficult terrain</Link> while within the <em>advantageous terrain</em> area. Furthermore, the battle scout can take 10 on Climb and Swim checks and checks to jump while within the area, even when in immediate danger or distracted.</Pair>
 </Ability>
-<Ability id="infiltration-ex" icon={["upgrade"]}>
+<Ability id="infiltration-ex" icon={["boost"]}>
 <Pair single id="infiltration-ex">Infiltration (Ex)</Pair>
 <Pair hl title="Replaces">3rd favored enemy</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Ability">Once per day, a battle scout can choose a single terrain type that is not his <em>favored terrain.</em> For the next hour per ranger level, he treats that terrain as if it were one of his <em>favored terrains.</em></Pair>
 </Ability>
-<Ability id="superior-tactics-ex" icon={["rolling-dices"]}>
+<Ability id="superior-tactics-ex" icon={["roll"]}>
 <Pair single id="superior-tactics-ex">Superior Tactics (Ex)</Pair>
 <Pair hl title="Replaces">4th favored enemy</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Ability">Once per day, after a battle scout and his allies roll initiative, the battle scout can arrange his and his allies' initiative rolls any way he wishes. If he has already taken 3 rounds to scout out the terrain with his <em>advantageous terrain</em> ability and both he and his allies are within the effect area, they gain a +2 bonus to initiative checks. Using this ability is not an action.</Pair>
 </Ability>
-<Ability id="perfect-advantage-ex" icon={["upgrade"]}>
+<Ability id="perfect-advantage-ex" icon={["boost"]}>
 <Pair single id="perfect-advantage-ex">Perfect Advantage (Ex)</Pair>
 <Pair hl title="Replaces">Master hunter</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -106,11 +106,11 @@ const _battle_scout = {title: "Battle Scout", jsx: <><h2 id="arc-ranger-battle_s
 </>};
 const _beast_master = {title: "Beast Master", jsx: <><h2 id="arc-ranger-beast_master-beast-master">Beast Master</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 124</Link><br/>Some rangers, particularly those in primitive lands or who were raised by animals, have unusually strong bonds with animals. Unique among rangers, they can bond with multiple animals of any kind, creating a menagerie of wild yet loyal creatures, like a strange family. A beast master has the following class features.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (geography), Profession, Spellcraft</Pair></Ability>
-<Ability id="animal-companion-ex" icon={["stairs-goal"]}>
+<Ability id="animal-companion-ex" icon={["power"]}>
 <Pair single id="animal-companion-ex">Animal Companion (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -119,14 +119,14 @@ const _beast_master = {title: "Beast Master", jsx: <><h2 id="arc-ranger-beast_ma
 <Pair title="Ability">Each time a beast master's effective druid level increases, he must decide how to allocate the increase among his animal companions (including the option of adding a new 1st-level companion). Once an effective druid level is allocated to a particular companion, it cannot be redistributed while that companion is in the ranger's service (he must release a companion or wait until a companion dies to allocate its levels to another companion).</Pair>
 <Pair title="Special">The <em>share spells</em> animal companion ability does not give the ranger the ability to cast a single spell so that it affects all of his animal companions.</Pair>
 </Ability>
-<Ability id="improved-empathic-link-su" icon={["stairs-goal"]}>
+<Ability id="improved-empathic-link-su" icon={["power"]}>
 <Pair single id="improved-empathic-link-su">Improved Empathic Link (Su)</Pair>
 <Pair hl title="Replaces">6th-level combat style feat</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">The beast master gains<sup><InnerLink showBacklink="backlink-arc-ranger-beast_master-fake-fn-1.2" id="arc-ranger-beast_master-fake-fn-1.2" data-hash-target to="arc-ranger-beast_master-fake-fn-1-target">1</InnerLink></sup> an empathic link with all of his animal companions. This functions like an empathic link with a <Link to="/sidekick/familiar">familiar</Link>, except the ranger can also see through a companion's eyes as a <strong className="hl">swift action</strong>, maintaining this connection as long as he likes (as long as the companion is within 1 mile) and ending it as a <strong className="hl">free action</strong>.</Pair>
 <Pair title="Special">The ranger can only see through the eyes of one companion at a time, and is <Link to="/misc/blinded">blinded</Link> while maintaining this connection.</Pair>
 </Ability>
-<Ability id="strong-bond-ex" icon={["upgrade"]}>
+<Ability id="strong-bond-ex" icon={["boost"]}>
 <Pair single id="strong-bond-ex">Strong Bond (Ex)</Pair>
 <Pair hl title="Replaces">Camouflage</Pair>
 <Pair title="Gained">At 12th Level</Pair>
@@ -137,13 +137,13 @@ const _beast_master = {title: "Beast Master", jsx: <><h2 id="arc-ranger-beast_ma
 </ol></section></>};
 const _blightwarden = {title: "Blightwarden", jsx: <><h2 id="arc-ranger-blightwarden-blightwarden">Blightwarden</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes pg. 17</Link><br/>Some rangers feel so closely connected to their homelands that they stand as guardians against pervasive corruptions that pervert those lands beyond the point of recognition.</p>
-<Ability id="hunt-the-blighted-ex" icon={["broken-shield"]}>
+<Ability id="hunt-the-blighted-ex" icon={["down"]}>
 <Pair single id="hunt-the-blighted-ex">Hunt the Blighted (Ex)</Pair>
 <Pair hl title="Alters">Favored enemy</Pair>
 <Pair title="Info">A blightwarden's first <em>favored enemy</em> is always a special type of creature: <em>blighted.</em> His bonuses from his first <em>favored enemy</em> apply to creatures with one or more of the following templates: <Link to="/template/blighted_fey">blighted fey</Link>, <Link to="/template/fungal_creature">fungal creature</Link>, <Link to="/template/fungoid">fungoid</Link>, <Link to="/template/mana_wastes_mutant">Mana Wastes mutant</Link>, <Link to="/template/mutant">mutant</Link>, <Link to="/template/mutant_goblin">mutant goblin</Link>, and <Link to="/template/plagued_beast">plagued beast</Link>. Additionally, the bonuses apply against creatures with the <Link to="/subtype/blight">blight</Link> subtype.</Pair>
 <Pair title="Special">Each time the blightwarden gains a new <em>favored enemy,</em> his additional +2 bonus always applies to this first <em>favored enemy.</em></Pair>
 </Ability>
-<Ability id="emulate-taint-ex-su-or-sp" icon={["stairs-goal"]}>
+<Ability id="emulate-taint-ex-su-or-sp" icon={["power"]}>
 <Pair single id="emulate-taint-ex-su-or-sp">Emulate Taint (Ex, Su, or Sp)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Standard Action"><p>Once per day, a blightwarden can examine visible evidence of a creature that has been affected by a natural or supernatural blight. This might include visible tracks left by a creature with the <em>fungal creature</em> template, or a dead creature with the <em>blighted fey</em> template, or any similar evidence left by any creature as described in the <em>hunt the blighted</em> ability.</p>
@@ -151,7 +151,7 @@ const _blightwarden = {title: "Blightwarden", jsx: <><h2 id="arc-ranger-blightwa
 <p>For example, the blightwarden cannot use a blighted ooze's <em>cursed domain</em> ability to create a <em>domain of evil.</em> However, the blightwarden could gain a <em>blighted fey's thorn throw</em> ability for a number of minutes equal to his ranger level (in this case, the blightwarden would gain a thorn attack for that duration).</p>
 </Pair>
 </Ability>
-<Ability id="blightwalker-ex" icon={["upgrade","armor-upgrade"]}>
+<Ability id="blightwalker-ex" icon={["boost","def"]}>
 <Pair single id="blightwalker-ex">Blightwalker (Ex)</Pair>
 <Pair hl title="Replaces">1st favored terrain</Pair>
 <Pair hl title="Alters">Favored terrain</Pair>
@@ -160,7 +160,7 @@ const _blightwarden = {title: "Blightwarden", jsx: <><h2 id="arc-ranger-blightwa
 <Pair title="Choice">The blightwarden can choose to improve this bonus in place of improving a <em>favored terrain</em> bonus.</Pair>
 <Pair title="Special">Blighted areas include <Link to="/rule/cursed_land">cursed lands</Link>, <Link to="/rule/domains_of_evil">domains of evil</Link>, regions negatively affected by a spell or ability that affects at least a 300-square-foot area, or regions where a specific <Link to="/rule/afflictions">affliction</Link> is prevalent.</Pair>
 </Ability>
-<Ability id="resist-corruption-ex" icon={["armor-upgrade"]}>
+<Ability id="resist-corruption-ex" icon={["def"]}>
 <Pair single id="resist-corruption-ex">Resist Corruption (Ex)</Pair>
 <Pair hl title="Replaces">Endurance</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -169,52 +169,52 @@ const _blightwarden = {title: "Blightwarden", jsx: <><h2 id="arc-ranger-blightwa
 </>};
 const _bow_nomad = {title: "Bow Nomad", jsx: <><h2 id="arc-ranger-bow_nomad-bow-nomad">Bow Nomad</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars pg. 8</Link><br/>Thanks to their four arms, kasathas can master a combat form native to their home world and rarely witnessed on Golarion - wielding two bows at once. This archetype is available to kasathas (and to other races with four or more arms at the GM's discretion).</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-bow_nomad--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/kasatha">Kasatha</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="twin-bows-ex" icon={["bowman"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-bow_nomad--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/kasatha">Kasatha</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="twin-bows-ex" icon={["ranged"]}>
 <Pair single id="twin-bows-ex">Twin Bows (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A bow nomad can simultaneously wield a combination of two of any of the following ranged weapons: <Link to="/eq-weapon/shortbow">shortbow</Link>, <Link to="/eq-weapon/longbow">longbow</Link>, and their <Link to="/eq-weapon/composite_bow">composite versions</Link>.</Pair>
 <Pair title="Special">When a bow nomad makes a full attack with two bows, two-weapon penalties apply and can be offset with Two-Weapon Fighting feats. Since bows aren't light weapons, a bow nomad with <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link> takes a -4 penalty on attacks with each of her bows. Extra attacks from other sources, such as those granted by <Link to="/feat/manyshot">Manyshot</Link> or <Link to="/feat/rapid_shot">Rapid Shot</Link>, can be applied to only one of the wielded bows per round.</Pair>
 </Ability>
-<Ability id="combat-style-ex" icon={["broken-shield"]}>
+<Ability id="combat-style-ex" icon={["down"]}>
 <Pair single id="combat-style-ex">Combat Style (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Choice">A bow nomad must select archery as her <Link to="/ability/combat_styles">combat style</Link>.</Pair>
 </Ability>
-<Ability id="agile-maneuvers" icon={["stairs-goal"]}>
+<Ability id="agile-maneuvers" icon={["power"]}>
 <Pair single id="agile-maneuvers">Agile Maneuvers</Pair>
 <Pair hl title="Replaces">Endurance</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A bow nomad gains <Link to="/feat/agile_maneuvers">Agile Maneuvers</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="trick-shot-ex" extraClasses="hasSubs" icon={["bowman"]}>
+<Ability id="trick-shot-ex" extraClasses="hasSubs" icon={["ranged"]}>
 <Pair single id="trick-shot-ex">Trick Shot (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A bow nomad can make a number of <em>trick shots</em> per day equal to 1/2 her ranger level + her Dexterity modifier. Unless otherwise noted, making a <em>trick shot</em> is a <strong className="hl">standard action</strong> that provokes attacks of opportunity.</Pair>
 </Ability>
-<Ability id="deflecting-arrow" extraClasses="subAbility" icon={["armor-upgrade","shield-reflect"]}>
+<Ability id="deflecting-arrow" extraClasses="subAbility" icon={["def","protect"]}>
 <Pair single id="deflecting-arrow">Deflecting Arrow</Pair>
 <Pair title="Immediate Action">A bow nomad can deflect a single ranged attack. This ability functions as the <Link to="/feat/deflect_arrows">Deflect Arrows</Link> feat, except the bow nomad need not have a hand free and can deflect an attack targeting any creature within 30 feet.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
-<Ability id="hampering-strike" extraClasses="subAbility" icon={["bowman"]}>
+<Ability id="hampering-strike" extraClasses="subAbility" icon={["ranged"]}>
 <Pair single id="hampering-strike">Hampering Strike</Pair>
 <Pair title="Prerequisites">8th-level ranger</Pair>
 <Pair title="Ability">A bow nomad can attempt to <Link to="/rule/disarm">disarm</Link> or <Link to="/rule/trip">trip</Link> an opponent within 30 feet in place of a ranged attack, with a -4 penalty on the combat maneuver check.</Pair>
 </Ability>
-<Ability id="pinning-strike" extraClasses="subAbility" icon={["bowman"]}>
+<Ability id="pinning-strike" extraClasses="subAbility" icon={["ranged"]}>
 <Pair single id="pinning-strike">Pinning Strike</Pair>
 <Pair title="Prerequisites">13th-level ranger</Pair>
 <Pair title="Ability">A bow nomad can attempt to pin a Large or smaller opponent's limb or clothing to the ground or a wall in place of an attack. If the bow nomad's attack roll exceeds her opponent's CMD, the opponent is pinned and cannot move from its current position. As a <strong className="hl">move action</strong>, the opponent can attempt a Strength check to free itself (DC = 10 + 1/2 the bow nomad's ranger level + her Strength modifier).</Pair>
 <Pair title="Special">Only creatures adjacent to a solid, anchored, penetrable surface can be affected by this ability.</Pair>
 </Ability>
-<Ability id="exploit-the-gap" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Ability id="exploit-the-gap" extraClasses="subAbility" icon={["lower"]}>
 <Pair single id="exploit-the-gap" flavor="A bow nomad can exploit the natural weaknesses of her foes.">Exploit the Gap</Pair>
 <Pair title="Prerequisites">18th-level ranger</Pair>
 <Pair hl title="Replaces">Favored terrain</Pair>
 <Pair title="Ability">When a bow nomad makes a full attack with her twin bows, each arrow that deals damage in that attack also reduces the target's natural armor bonus (if any) by 1 (to a minimum of 0) for 1 round.</Pair>
 </Ability>
-<Ability id="focused-fire-ex" icon={["broken-shield"]}>
+<Ability id="focused-fire-ex" icon={["down"]}>
 <Pair single id="focused-fire-ex">Focused Fire (Ex)</Pair>
 <Pair hl title="Replaces">Camouflage, hide in plain sight</Pair>
 <Pair hl title="Alters">6th-level combat style feat</Pair>
@@ -226,14 +226,14 @@ const _bow_nomad = {title: "Bow Nomad", jsx: <><h2 id="arc-ranger-bow_nomad-bow-
 </>};
 const _cinderwalker = {title: "Cinderwalker", jsx: <><h2 id="arc-ranger-cinderwalker-cinderwalker">Cinderwalker</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_95_anvil_of_fire">Pathfinder #95: Anvil of Fire pg. 72</Link><br/>Cinderwalkers traverse burning wastelands and restless mountains, thriving in lands most creatures avoid.</p>
-<Ability id="born-to-the-fire-ex" icon={["upgrade","armor-upgrade"]}>
+<Ability id="born-to-the-fire-ex" icon={["boost","def"]}>
 <Pair single id="born-to-the-fire-ex">Born to the Fire (Ex)</Pair>
 <Pair hl title="Replaces">1st favored terrain, wild empathy</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A cinderwalker gains a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks when in volcanic or geothermally active areas. Such areas include calderas, hot springs, lava plains, and volcanically formed hills or mountains. In addition, the cinderwalker adds this bonus on any ability checks, saving throws, or skill checks to avoid geothermal or volcanic hazards. A cinderwalker traveling through volcanic or geothermally active areas leaves no trail and cannot be tracked (though he can leave a trail if he chooses).</Pair>
 <Pair title="Special">The cinderwalker can choose to improve this bonus in place of improving a <em>favored terrain</em> bonus.</Pair>
 </Ability>
-<Ability id="inured-ex" icon={["armor-upgrade"]}>
+<Ability id="inured-ex" icon={["def"]}>
 <Pair single id="inured-ex">Inured (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -243,7 +243,7 @@ const _cinderwalker = {title: "Cinderwalker", jsx: <><h2 id="arc-ranger-cinderwa
 <Pair title="At 16th Level">The fire resistance increases to 30.</Pair>
 <Pair title="At 20th Level">He gains immunity to fire.</Pair>
 </Ability>
-<Ability id="cinderwalk-ex" icon={["upgrade","armor-upgrade"]}>
+<Ability id="cinderwalk-ex" icon={["boost","def"]}>
 <Pair single id="cinderwalk-ex">Cinderwalk (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 7th Level</Pair>
@@ -253,17 +253,17 @@ const _cinderwalker = {title: "Cinderwalker", jsx: <><h2 id="arc-ranger-cinderwa
 </>};
 const _code_runner = {title: "Code Runner", jsx: <><h2 id="arc-ranger-code_runner-code-runner">Code Runner</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 40</Link><br/>A code runner specializes in the subtle and speedy transfer of secret messages. He performs long runs between distant lands, sometimes spanning continents and often traversing difficult terrain. He trains his mind both to memorize long messages and to resist any attempts to steal his covert communiques.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair>
 <Pair title="Removed Skills">Handle Animal, Heal</Pair></Ability>
-<Ability id="mnemonic-genius-ex" icon={["stairs-goal"]}>
+<Ability id="mnemonic-genius-ex" icon={["power"]}>
 <Pair single id="mnemonic-genius-ex" flavor="A code runner learns to memorize and accurately recall information, even if he does not speak or understand the language in which the information was presented.">Mnemonic Genius (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Ability">The code runner can spend 1 hour and attempt a DC 15 Linguistics check to memorize a single passage of up to 150 words of information in a language he speaks. For every 5 by which he exceeds the DC, he can memorize 150 additional words. The DC is increased by 10 if the message is encoded or in a language he doesn't understand.</Pair>
 <Pair title="Special">A code runner can memorize one such message at any given time. If he fails to memorize a message, he can retry as many times as he wants, as long as he spends 1 hour each time. Once a message has been memorized, he can recall it with perfect accuracy until he memorizes a different message.</Pair>
 </Ability>
-<Ability id="resist-interrogation-ex" icon={["armor-upgrade"]}>
+<Ability id="resist-interrogation-ex" icon={["def"]}>
 <Pair single id="resist-interrogation-ex">Resist Interrogation (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="At 4th Level">A code runner gains a bonus equal to half his ranger level on saving throws against divination effects.</Pair>
@@ -272,11 +272,11 @@ const _code_runner = {title: "Code Runner", jsx: <><h2 id="arc-ranger-code_runne
 </>};
 const _corpse_hunter = {title: "Corpse Hunter", jsx: <><h2 id="arc-ranger-corpse_hunter-corpse-hunter">Corpse Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 24</Link><br/>Many rangers count the undead among their <em>favored enemies,</em> but some make a full-time job out of hunting down and destroying these walking corpses. A corpse hunter has the following class features.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (nature)</Pair></Ability>
-<Ability id="spells" icon={["spell-book"]}>
+<Ability id="spells" icon={["learn"]}>
 <Pair single id="spells">Spells</Pair>
 <Pair title="Info">In addition to the default spells on the ranger spell list, a corpse hunter adds the following to his list of spells at the indicated spell levels.</Pair>
 <Pair plain title="1st"><Link to="/spell/bless_water">Bless water</Link>, <Link to="/spell/detect_undead">detect undead</Link>, <Link to="/spell/hide_from_undead">hide from undead</Link>, <Link to="/spell/sanctify_corpse">sanctify corpse</Link></Pair>
@@ -284,7 +284,7 @@ const _corpse_hunter = {title: "Corpse Hunter", jsx: <><h2 id="arc-ranger-corpse
 <Pair plain title="3rd"><Link to="/spell/speak_with_dead">Speak with dead</Link></Pair>
 <Pair plain title="4th"><Link to="/spell/searing_light">Searing light</Link></Pair>
 </Ability>
-<Ability id="undead-exterminator" icon={["broken-shield"]}>
+<Ability id="undead-exterminator" icon={["down"]}>
 <Pair single id="undead-exterminator">Undead Exterminator</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Info">A corpse hunter must select undead as his first and only <em>favored enemy,</em> granting him a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks when dealing with creatures of the undead type and a +2 bonus on weapon attack and damage rolls against undead.</Pair>
@@ -293,7 +293,7 @@ const _corpse_hunter = {title: "Corpse Hunter", jsx: <><h2 id="arc-ranger-corpse
 <Pair title="At 15th Level">He does not gain an additional <em>favored enemy,</em> but his bonuses against undead become +8.</Pair>
 <Pair title="At 20th Level">He does not gain an additional <em>favored enemy,</em> but his bonuses against undead increase to +10.</Pair>
 </Ability>
-<Ability id="disrupt-control-su" icon={["mailed-fist","smoking-finger"]}>
+<Ability id="disrupt-control-su" icon={["melee","zap"]}>
 <Pair single id="disrupt-control-su" flavor="A corpse hunter can infuse his attacks with divine power capable of harming an undead creature as well as its controller.">Disrupt Control (Su)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Usage">1 time/day per five ranger levels<ByLevelPop levels={[[5,1],[10,2],[15,3],[20,4]]} unit="time" postText="/day" /></Pair>
@@ -302,13 +302,13 @@ const _corpse_hunter = {title: "Corpse Hunter", jsx: <><h2 id="arc-ranger-corpse
 <Pair title="At 15th Level">The amount of Charisma damage dealt increases to 1d8.</Pair>
 <Pair title="At 20th Level">The amount of Charisma damage dealt increases to 2d4.</Pair>
 </Ability>
-<Ability id="graveyard-stride-ex" icon={["upgrade"]}>
+<Ability id="graveyard-stride-ex" icon={["boost"]}>
 <Pair single id="graveyard-stride-ex">Graveyard Stride (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">A corpse hunter may move easily through <Link to="/rule/difficult_terrain">difficult terrain</Link> in areas where corpses are interred, such as graveyards, catacombs, crypts, or necropolises. When in such an environment, the corpse hunter may move at his normal speed without taking damage or suffering any impairment, although any magical effects and enchantments that impair movement still affect him.</Pair>
 </Ability>
-<Ability id="incorporeal-armament-su" icon={["upgrade"]}>
+<Ability id="incorporeal-armament-su" icon={["boost"]}>
 <Pair single id="incorporeal-armament-su" flavor="A corpse hunter can channel his will into any weapon he wields, making it effective against incorporeal undead.">Incorporeal Armament (Su)</Pair>
 <Pair hl title="Replaces">Swift tracker</Pair>
 <Pair title="Gained">At 8th Level</Pair>
@@ -319,18 +319,18 @@ const _corpse_hunter = {title: "Corpse Hunter", jsx: <><h2 id="arc-ranger-corpse
 </>};
 const _dandy = {title: "Dandy", jsx: <><h2 id="arc-ranger-dandy-dandy">Dandy</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 41</Link><br/>The antithesis of the gruff and wild woodsmen, a dandy takes effort to master the subtle etiquette of noble courts, the whispers of dark rumors, and the customs of the cultured world. Nonetheless, he is still a ranger at heart, and he hunts for rumors and gossip throughout the grand ballrooms of the wealthy and powerful just as most rangers hunt for enemies in the wilderness.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (dungeoneering), Knowledge (geography), Knowledge (nature), Survival</Pair></Ability>
-<Ability id="favored-nation-ex" icon={["stairs-goal"]}>
+<Ability id="favored-nation-ex" icon={["power"]}>
 <Pair single id="favored-nation-ex">Favored Nation (Ex)</Pair>
 <Pair hl title="Replaces">Favored enemy</Pair>
 <Pair title="Choice">Each time he would select a <em>favored enemy,</em> a dandy instead selects a country with whose courtly graces he is wholly versed and studied. He gains a +2 bonus on Bluff, Diplomacy, Knowledge, Perception, Sense Motive, and Survival checks against courtiers, officials, nobles, and gentry from that nation. Likewise, he gains a +2 bonus on weapon attack and damage rolls against them.</Pair>
 <Pair title="Ability">A dandy can attempt the appropriate Knowledge checks untrained to identify such people from the selected country.</Pair>
 <Pair title="Special">A dandy gains additional favored nations, and can increase the bonuses of one of his current favored nations, in the same way he would with a normal ranger's <em>favored enemy.</em></Pair>
 </Ability>
-<Ability id="rumor-empathy-ex" icon={["stairs-goal"]}>
+<Ability id="rumor-empathy-ex" icon={["power"]}>
 <Pair single id="rumor-empathy-ex">Rumor Empathy (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Ability"><p>A dandy can alter the flow and spread of <Link to="/rule/rumors">rumors</Link> in his favor. This functions similarly to <em>wild empathy,</em> except that it takes 1 day (8 hours of work), instead of 1 minute, and it affects the general tenor of a rumor instead of a wild animal.</p>
@@ -339,27 +339,27 @@ const _dandy = {title: "Dandy", jsx: <><h2 id="arc-ranger-dandy-dandy">Dandy</h2
 <p>If the rumor is only spreading through a smaller segment of the population, such as the elven district in a larger metropolis, use the population of that smaller segment to determine the DC and number of days of work required to use <em>rumor empathy.</em> The DC also increases by 10 if the rumor is about the dandy himself, since the dandy is obviously a biased source with respects to rumors about his own person.</p>
 </Pair>
 </Ability>
-<Ability id="favored-terrain-ex" icon={["broken-shield"]}>
+<Ability id="favored-terrain-ex" icon={["down"]}>
 <Pair single id="favored-terrain-ex">Favored Terrain (Ex)</Pair>
 <Pair hl title="Alters">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A dandy gains <em>favored terrain (urban),</em> and though the ability continues to increase at the same levels, he doesn't add additional terrains.</Pair>
 <Pair title="At 8th Level">Whenever he is at a courtly function or party, his <em>favored terrain</em> bonuses increase by an additional 2.</Pair>
 </Ability>
-<Ability id="hobnob-ex" icon={["broken-shield","upgrade"]}>
+<Ability id="hobnob-ex" icon={["down","boost"]}>
 <Pair single id="hobnob-ex">Hobnob (Ex)</Pair>
 <Pair hl title="Alters">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Info">A dandy must choose his allies as his <em>hunter's bond,</em> not an animal companion.</Pair>
 <Pair title="Ability">In addition to the usual <em>hunter's bond</em> ability, the dandy can spend 10 minutes at a particular event or party hobnobbing and introducing his allies to the right people in order to provide them with half the skill bonuses of his favored nation (though not the bonuses on attack and damage rolls) for the duration of the event.</Pair>
 </Ability>
-<Ability id="dandy-spells-su" icon={["magic-swirl"]}>
+<Ability id="dandy-spells-su" icon={["magic"]}>
 <Pair single id="dandy-spells-su" flavor="The dandy gains a different sort of spellcasting than most rangers.">Dandy Spells (Su)</Pair>
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Info">A dandy uses his Charisma instead of his Wisdom to determine spells per day, DCs, and other factors related to spellcasting. He casts spells spontaneously from the <Link to="/main/bard_spell">bard spell list</Link> (rather than the ranger spell list) with the same number of spells known and spells per day as a <Link to="/class/medium">medium</Link> of his ranger level.</Pair>
 </Ability>
-<Ability id="party-crasher-ex" icon={["stairs-goal"]}>
+<Ability id="party-crasher-ex" icon={["power"]}>
 <Pair single id="party-crasher-ex">Party Crasher (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 7th Level</Pair>
@@ -368,12 +368,12 @@ const _dandy = {title: "Dandy", jsx: <><h2 id="arc-ranger-dandy-dandy">Dandy</h2
 </>};
 const _darklands_sailor = {title: "Darklands Sailor", jsx: <><h2 id="arc-ranger-darklands_sailor-darklands-sailor">Darklands Sailor</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 27</Link><br/>Those plying the lightless waters of the Darklands learn to use sound to augment their compromised vision, providing insight into the hazards lurking below the surface. A Darklands sailor has the following class features.</p>
-<Ability id="skilled-pilot-ex" icon={["upgrade"]}>
+<Ability id="skilled-pilot-ex" icon={["boost"]}>
 <Pair single id="skilled-pilot-ex">Skilled Pilot (Ex)</Pair>
 <Pair hl title="Replaces">Track</Pair>
 <Pair title="Ability">A Darklands sailor adds half his level (minimum 1) to Profession (sailor) and Survival checks to navigate or avoid natural hazards in subterranean waterways.</Pair>
 </Ability>
-<Ability id="keen-ear-ex" icon={["armor-upgrade","stairs-goal","hazard-sign"]}>
+<Ability id="keen-ear-ex" icon={["def","power","warning"]}>
 <Pair single id="keen-ear-ex" flavor="A Darklands sailor learns how to use sound to compensate for poor visibility when facing threats above and below the water.">Keen Ear (Ex)</Pair>
 <Pair hl title="Replaces">Favored terrain</Pair>
 <Pair title="At 3rd Level">He gains the <Link to="/ability/uncanny_dodge">uncanny dodge</Link> rogue ability when underground and either swimming or aboard a boat.</Pair>
@@ -382,13 +382,13 @@ const _darklands_sailor = {title: "Darklands Sailor", jsx: <><h2 id="arc-ranger-
 <Pair title="At 18th Level">His blindsense range increases to 60 feet or equal to the range of his darkvision, whichever is greater.</Pair>
 <Pair title="Special">If the Darklands sailor becomes <Link to="/misc/deafened">deafened</Link>, he loses all benefits of this ability until his hearing is restored.</Pair>
 </Ability>
-<Ability id="quick-swim-ex" icon={["upgrade"]}>
+<Ability id="quick-swim-ex" icon={["boost"]}>
 <Pair single id="quick-swim-ex">Quick Swim (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Move-Equivalent Action">A Darklands sailor can swim at his full speed without penalty.</Pair>
 </Ability>
-<Ability id="subsonic-warning-ex" icon={["shield-reflect","upgrade"]}>
+<Ability id="subsonic-warning-ex" icon={["protect","boost"]}>
 <Pair single id="subsonic-warning-ex">Subsonic Warning (Ex)</Pair>
 <Pair hl title="Replaces">Swift tracker</Pair>
 <Pair title="Gained">At 8th Level</Pair>
@@ -396,7 +396,7 @@ const _darklands_sailor = {title: "Darklands Sailor", jsx: <><h2 id="arc-ranger-
 <Pair title="Swift Action">A Darklands sailor can provide the benefits of his <em>keen ear</em> ability to the subjects of his <em>hunter's bond.</em></Pair>
 <Pair title="Special">A deafened creature can't benefit from a Darklands sailor's subsonic warning.</Pair>
 </Ability>
-<Ability id="hidden-depths-ex" icon={["stairs-goal"]}>
+<Ability id="hidden-depths-ex" icon={["power"]}>
 <Pair single id="hidden-depths-ex">Hidden Depths (Ex)</Pair>
 <Pair hl title="Replaces">Camouflage, hide in plain sight</Pair>
 <Pair title="At 12th Level">A Darklands sailor can use the Stealth skill to hide while underground or underwater, even if he doesn't have cover or concealment.</Pair>
@@ -405,7 +405,7 @@ const _darklands_sailor = {title: "Darklands Sailor", jsx: <><h2 id="arc-ranger-
 </>};
 const _deep_walker = {title: "Deep Walker", jsx: <><h2 id="arc-ranger-deep_walker-deep-walker">Deep Walker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 66</Link><br/>Some rangers devote their lives to the woods, becoming hunters, protectors, and wilderness guides among its diverse terrain types. The deep walker is instead a master of the strange terrain of the deep earth, exploring its caverns and caves, becoming a master of the dark corridors most surface dwellers fear to explore - and perhaps the reason they fear to explore them.</p>
-<Ability id="deep-knowledge-ex" icon={["upgrade"]}>
+<Ability id="deep-knowledge-ex" icon={["boost"]}>
 <Pair single id="deep-knowledge-ex">Deep Knowledge (Ex)</Pair>
 <Pair hl title="Replaces">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -414,19 +414,19 @@ const _deep_walker = {title: "Deep Walker", jsx: <><h2 id="arc-ranger-deep_walke
 <Pair title="At 13th Level">The bonus increases to +8.</Pair>
 <Pair title="At 18th Level">The bonus becomes +11.</Pair>
 </Ability>
-<Ability id="rock-hopper-ex" icon={["upgrade"]}>
+<Ability id="rock-hopper-ex" icon={["boost"]}>
 <Pair single id="rock-hopper-ex" flavor="A deep walker instinctively grasps for the most stable surfaces and holds on tighter while moving over underground rock and stone.">Rock Hopper (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">The deep walker gains a +5 bonus on all Acrobatics and Climb checks made to traverse underground terrain. Furthermore, the deep walker ignores <Link to="/rule/difficult_terrain">difficult terrain</Link> created by underground terrain and subterranean flora.</Pair>
 </Ability>
-<Ability id="deep-walker-camouflage-ex" icon={["stairs-goal"]}>
+<Ability id="deep-walker-camouflage-ex" icon={["power"]}>
 <Pair single id="deep-walker-camouflage-ex">Deep Walker Camouflage (Ex)</Pair>
 <Pair hl title="Replaces">Camouflage</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">A deep walker can use the Stealth skill to hide in underground environments, even if the terrain does not grant cover or concealment.</Pair>
 </Ability>
-<Ability id="one-with-the-stone-ex" icon={["stairs-goal"]}>
+<Ability id="one-with-the-stone-ex" icon={["power"]}>
 <Pair single id="one-with-the-stone-ex">One with the Stone (Ex)</Pair>
 <Pair hl title="Replaces">Hide in plain sight</Pair>
 <Pair title="Gained">At 17th Level</Pair>
@@ -435,13 +435,13 @@ const _deep_walker = {title: "Deep Walker", jsx: <><h2 id="arc-ranger-deep_walke
 </>};
 const _divine_tracker = {title: "Divine Tracker", jsx: <><h2 id="arc-ranger-divine_tracker-divine-tracker">Divine Tracker</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 108</Link><br/>Blessed by his deity, a divine tracker hunts down those he deems deserving of his retribution. His weapon is likely to find purchase in his <em>favored enemy.</em></p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-divine_tracker--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>A divine tracker's alignment must be within one step of his deity's, along either the law/chaos axis or the good/evil axis</td></tr></tbody></table></ScrollContainer></div><Ability id="favored-weapon" icon={["stairs-goal"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-divine_tracker--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>A divine tracker's alignment must be within one step of his deity's, along either the law/chaos axis or the good/evil axis</td></tr></tbody></table></ScrollContainer></div><Ability id="favored-weapon" icon={["power"]}>
 <Pair single id="favored-weapon">Favored Weapon</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A divine tracker becomes proficient with the favored weapon of his deity. If his deity's favored weapon is unarmed strike, he instead gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="blessings-su" icon={["stairs-goal"]}>
+<Ability id="blessings-su" icon={["power"]}>
 <Pair single id="blessings-su" flavor="A divine tracker forms a close bond with his deity's ethos.">Blessings (Su)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -452,10 +452,10 @@ const _divine_tracker = {title: "Divine Tracker", jsx: <><h2 id="arc-ranger-divi
 </>};
 const _dragon_hunter = {title: "Dragon Hunter", jsx: <><h2 id="arc-ranger-dragon_hunter-dragon-hunter">Dragon Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 22</Link><br/>The quintessential dragonslayers, dragon hunters are experts at forging through the wilds in search of great wyrms. Dragon hunters have the following class features.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT)</Pair></Ability>
-<Ability id="predatory-deduction-ex" icon={["stairs-goal"]}>
+<Ability id="predatory-deduction-ex" icon={["power"]}>
 <Pair single id="predatory-deduction-ex">Predatory Deduction (Ex)</Pair>
 <Pair hl title="Replaces">Track</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -471,22 +471,22 @@ const _dragon_hunter = {title: "Dragon Hunter", jsx: <><h2 id="arc-ranger-dragon
 <Pair title="At 15th Level">These bonuses become +8.</Pair>
 <Pair title="At 20th Level">These bonuses increase to +10.</Pair>
 </Ability>
-<Ability id="dragoncrafting-ex" icon={["stairs-goal"]}>
+<Ability id="dragoncrafting-ex" icon={["power"]}>
 <Pair single id="dragoncrafting-ex">Dragoncrafting (Ex)</Pair>
 <Pair hl title="Replaces">5th-level favored enemy</Pair>
 <Pair title="At 5th Level">Dragon hunters are experts not only at tracking and killing dragons, but also at using dragon bodies to craft unique equipment. A dragon hunter gains <Link to="/feat/dragoncrafting">Dragoncrafting</Link> as a bonus feat, even if she does not meet the prerequisites.</Pair>
 </Ability>
-<Ability id="undaunted-ex" icon={["armor-upgrade"]}>
+<Ability id="undaunted-ex" icon={["def"]}>
 <Pair single id="undaunted-ex">Undaunted (Ex)</Pair>
 <Pair hl title="Replaces">10th-level favored enemy</Pair>
 <Pair title="At 10th Level">A dragon hunter gains a +4 bonus on Will saves made to resist mind-affecting fear effects, Reflex saves made to avoid damage from breath weapons, Reflex saves made to avoid crush attacks, and Reflex saves made to avoid damage from tail sweep attacks.</Pair>
 </Ability>
-<Ability id="expert-dragoncrafter-ex" icon={["upgrade"]}>
+<Ability id="expert-dragoncrafter-ex" icon={["boost"]}>
 <Pair single id="expert-dragoncrafter-ex">Expert Dragoncrafter (Ex)</Pair>
 <Pair hl title="Replaces">15th-level favored enemy</Pair>
 <Pair title="At 15th Level">A dragon hunter may take 10 on Heal and Craft skill checks to harvest dragoncraft materials and to create dragoncraft items. Additionally, the amount of time required to create a dragoncraft item is reduced by half.</Pair>
 </Ability>
-<Ability id="elemental-resilience-su" icon={["armor-upgrade"]}>
+<Ability id="elemental-resilience-su" icon={["def"]}>
 <Pair single id="elemental-resilience-su">Elemental Resilience (Su)</Pair>
 <Pair hl title="Replaces">20th-level favored enemy</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -496,7 +496,7 @@ const _dragon_hunter = {title: "Dragon Hunter", jsx: <><h2 id="arc-ranger-dragon
 </>};
 const _drake_warden = {title: "Drake Warden", jsx: <><h2 id="arc-ranger-drake_warden-drake-warden">Drake Warden</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons pg. 24</Link><br/>Some rangers specialize in dealing with rambunctious younger drakes, protecting them and teaching them to tolerate, and even trust, humanoid creatures. These drake wardens follow and pass along secret techniques for raising drakes effectively, and thanks to their methods, their drakes are both fiercely loyal and extremely useful for scouting and stealth missions.</p>
-<Ability id="young-drake" icon={["stairs-goal","broken-shield"]}>
+<Ability id="young-drake" icon={["power","down"]}>
 <Pair single id="young-drake">Young Drake</Pair>
 <Pair hl title="Replaces">Hunter's bond, 2nd favored enemy, swift tracker</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -510,33 +510,33 @@ const _drake_warden = {title: "Drake Warden", jsx: <><h2 id="arc-ranger-drake_wa
 </>};
 const _dungeon_rover = {title: "Dungeon Rover", jsx: <><h2 id="arc-ranger-dungeon_rover-dungeon-rover">Dungeon Rover</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 22</Link><br/>These rangers specialize in surviving hostile subterranean environs. They are well equipped to avoid traps, spot secret passages, and deal with inimical dungeon tenants.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Ride</Pair></Ability>
-<Ability id="stone-scouting-ex" icon={["armor-upgrade"]}>
+<Ability id="stone-scouting-ex" icon={["def"]}>
 <Pair single id="stone-scouting-ex">Stone Scouting (Ex)</Pair>
 <Pair hl title="Replaces">Track</Pair>
 <Pair title="Passive Ability">A dungeon rover gains a +2 bonus on Perception checks to notice underground environmental hazards, including traps, potential cave-ins, and dangerous flora. A dungeon rover receives a check to notice these hazards whenever he passes within 10 feet of them, whether or not he is actively looking.</Pair>
 </Ability>
-<Ability id="vermin-affinity-ex" icon={["stairs-goal"]}>
+<Ability id="vermin-affinity-ex" icon={["power"]}>
 <Pair single id="vermin-affinity-ex">Vermin Affinity (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Ability">A dungeon rover gains the ability to improve the attitude of mindless subterranean creatures. This ability functions as the <Link to="/ability/wild_empathy">wild empathy</Link> class feature, except a dungeon rover can influence any vermin (even those without Intelligence scores) instead of animals. Additionally, a dungeon rover can influence oozes with a -4 penalty on his vermin affinity check.</Pair>
 </Ability>
-<Ability id="dungeon-ally-ex" icon={["stairs-goal"]}>
+<Ability id="dungeon-ally-ex" icon={["power"]}>
 <Pair single id="dungeon-ally-ex">Dungeon Ally (Ex)</Pair>
 <Pair hl title="Alters">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A dungeon rover may select a <Link to="/companion/giant_slug">giant slug</Link>, a <Link to="/companion/giant_centipede">giant centipede</Link>, a <Link to="/companion/goblin_dog">goblin dog</Link>, a <Link to="/companion/giant_scorpion">giant scorpion</Link>, or any poisonous snake (<Link to="/companion/reef_snake">reef snake</Link>, <Link to="/companion/riding_python">riding python</Link>, <Link to="/companion/spitting_cobra">spitting cobra</Link>, or <Link to="/companion/viper">viper</Link>) as his <Link to="/sidekick/animal_companion">animal companion</Link>, in addition to the usual animal companion options available to rangers with the <em>hunter's bond</em> class feature.</Pair>
 </Ability>
-<Ability id="subterranean-stride-ex" icon={["upgrade"]}>
+<Ability id="subterranean-stride-ex" icon={["boost"]}>
 <Pair single id="subterranean-stride-ex">Subterranean Stride (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">A dungeon rover is never slowed by <Link to="/rule/difficult_terrain">difficult terrain</Link> while underground. However, areas that are enchanted or magically manipulated to impede motion still affect him.</Pair>
 </Ability>
-<Ability id="improved-stone-scouting-ex" icon={["upgrade"]}>
+<Ability id="improved-stone-scouting-ex" icon={["boost"]}>
 <Pair single id="improved-stone-scouting-ex">Improved Stone Scouting (Ex)</Pair>
 <Pair hl title="Replaces">Swift tracker</Pair>
 <Pair title="Gained">At 8th Level</Pair>
@@ -545,11 +545,11 @@ const _dungeon_rover = {title: "Dungeon Rover", jsx: <><h2 id="arc-ranger-dungeo
 </>};
 const _dusk_stalker = {title: "Dusk Stalker", jsx: <><h2 id="arc-ranger-dusk_stalker-dusk-stalker">Dusk Stalker</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 110</Link><br/>Hunters and guides through the Shadow Plane, dusk stalkers are rangers that thrive in shadow. Adept at hunting in dusk, darkness, and twilight, these rangers excel at manipulating shadows.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-dusk_stalker--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/fetchling">Fetchling</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-dusk_stalker--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/fetchling">Fetchling</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (nature)</Pair></Ability>
-<Ability id="shadow-guide" icon={["broken-shield","upgrade"]}>
+<Ability id="shadow-guide" icon={["down","boost"]}>
 <Pair single id="shadow-guide">Shadow Guide</Pair>
 <Pair hl title="Alters">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -557,7 +557,7 @@ const _dusk_stalker = {title: "Dusk Stalker", jsx: <><h2 id="arc-ranger-dusk_sta
 <Pair title="Ability">A dusk stalker picks his primary terrain normally, but only gains a +1 bonus on those checks while on a plane other than the Shadow Plane, and gains a +3 bonus on those checks while on the Shadow Plane.</Pair>
 <Pair title="Special">Each time he chooses to add a bonus in a <em>favored terrain,</em> he gains a +1 bonus on those checks while on a plane other than the Shadow Plane, and gains a +3 bonus on those checks while on the Shadow Plane.</Pair>
 </Ability>
-<Ability id="shadow-bond-su" icon={["armor-upgrade","armor-downgrade"]}>
+<Ability id="shadow-bond-su" icon={["def","lower"]}>
 <Pair single id="shadow-bond-su" flavor="A dusk stalker creates a mystical bond with shadows.">Shadow Bond (Su)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -565,7 +565,7 @@ const _dusk_stalker = {title: "Dusk Stalker", jsx: <><h2 id="arc-ranger-dusk_sta
 <Pair title="Ability">The dusk stalker can manipulate shadows in a 5-foot square within 30 feet. That square must be in an area of dim light or darkness (magical or otherwise). Enemies with an Intelligence score within or adjacent to that 5-foot square take a -2 penalty to AC and on Reflex saving throws. The harassing shadows last for 1 round. This is a mind-affecting fear effect.</Pair>
 <Pair title="Usage">Wisdom modifier times/day</Pair>
 </Ability>
-<Ability id="dark-sight-su" icon={["stairs-goal"]}>
+<Ability id="dark-sight-su" icon={["power"]}>
 <Pair single id="dark-sight-su">Dark Sight (Su)</Pair>
 <Pair hl title="Replaces">Camouflage</Pair>
 <Pair title="Gained">At 12th Level</Pair>
@@ -574,19 +574,19 @@ const _dusk_stalker = {title: "Dusk Stalker", jsx: <><h2 id="arc-ranger-dusk_sta
 </>};
 const _elemental_envoy = {title: "Elemental Envoy", jsx: <><h2 id="arc-ranger-elemental_envoy-elemental-envoy">Elemental Envoy</h2>
 <p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine pg. 5</Link><br/>An elemental envoy travels the Elemental Planes. He has learned to protect himself from their many dangers, and he models his fighting style after their teachings.</p>
-<Ability id="planar-combatant-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="planar-combatant-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="planar-combatant-ex">Planar Combatant (Ex)</Pair>
 <Pair hl title="Alters">Combat style feats</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">An elemental envoy must choose the elemental combat style of the <Link to="/arc-monk/elemental_monk">elemental monk</Link> archetype, choosing his combat style feats from those mentioned in the <em>Genie Style</em> ability of that archetype.</Pair>
 </Ability>
-<Ability id="genie-style-ex-sp" icon={["stairs-goal"]}>
+<Ability id="genie-style-ex-sp" icon={["power"]}>
 <Pair single id="genie-style-ex-sp" flavor="Relevant text from the elemental monk archetype">Genie Style (Ex, Sp)</Pair>
 <Pair title="At 2nd Level">As a <strong className="hl">swift action</strong> an elemental monk can gain the benefits of one of the following style feats, based on one of the five types of genies. When she does so, she automatically enters that feat's stance: <Link to="/feat/djinni_style">Djinni Style</Link>, <Link to="/feat/efreeti_style">Efreeti Style</Link>, <Link to="/feat/janni_style">Janni Style</Link>, <Link to="/feat/marid_style">Marid Style</Link>, or <Link to="/feat/shaitan_style">Shaitan Style</Link>.</Pair>
 <Pair title="At 6th Level">While the elemental monk is using a genie style feat, she also gains the benefits of a feat from the following list, as appropriate for that style's feat path: <Link to="/feat/djinni_spirit">Djinni Spirit</Link>, <Link to="/feat/efreeti_stance">Efreeti Stance</Link>, <Link to="/feat/janni_tempest">Janni Tempest</Link>, <Link to="/feat/marid_spirit">Marid Spirit</Link>, and <Link to="/feat/shaitan_skin">Shaitan Skin</Link>.</Pair>
 <Pair title="At 10th Level">While the elemental monk is using a genie style feat, she also gains the benefits of a feat from the following list, as appropriate for that style's feat path: <Link to="/feat/djinni_spin">Djinni Spin</Link>, <Link to="/feat/efreeti_touch">Efreeti Touch</Link>, <Link to="/feat/janni_rush">Janni Rush</Link>, <Link to="/feat/marid_coldsnap">Marid Coldsnap</Link>, and <Link to="/feat/shaitan_earthblast">Shaitan Earthblast</Link>.</Pair>
 </Ability>
-<Ability id="elemental-explorer-ex" icon={["upgrade","broken-shield"]}>
+<Ability id="elemental-explorer-ex" icon={["boost","down"]}>
 <Pair single id="elemental-explorer-ex">Elemental Explorer (Ex)</Pair>
 <Pair hl title="Alters">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -598,40 +598,40 @@ const _elemental_envoy = {title: "Elemental Envoy", jsx: <><h2 id="arc-ranger-el
 </>};
 const _falconer = {title: "Falconer", jsx: <><h2 id="arc-ranger-falconer-falconer">Falconer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 67</Link><br/>Rangers have always enjoyed a special bond with a specific animal, but the falconer takes this bond to a deeper level. Falconers begin with their companion earlier than other rangers, and have the ability to teach their companions special tricks.</p>
-<Ability id="feathered-companion-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="feathered-companion-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="feathered-companion-ex">Feathered Companion (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A falconer earns the trust and companionship of a bird of prey. The bird can be of any type of large hunting or scavenging bird (even a vulture). This ability functions like the druid <Link to="/ability/animal_companion">animal companion</Link> ability (which is part of the <em>nature bond</em> class feature), but the falconer must take the <Link to="/companion/bird">bird</Link> (or <Link to="/companion/falcon">falcon</Link>) <Link to="/sidekick/animal_companion">animal companion</Link>, and that companion has only half the normal hit points.</Pair>
 <Pair title="Special">The falconer cannot teach the bird of prey the <em>work</em> trick, but can teach it either the <em>roam</em> or <em>distract</em> trick for free. Whichever trick the falconer does not pick then can be picked as a trick later.</Pair>
 </Ability>
-<Ability id="roam-dc-15" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="roam-dc-15" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="roam-dc-15">Roam (DC 15)</Pair>
 <Pair title="Ability">The falconer can let his animal companion loose to roam and forage. He must let it roam for no more than a week. When the falconer lets it roam, it agrees to return to the place he let it loose within the time period he designates.</Pair>
 </Ability>
-<Ability id="distract-dc-20-bird-only" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="distract-dc-20-bird-only" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="distract-dc-20-bird-only">Distract (DC 20; bird only)</Pair>
 <Pair title="Ability">The animal companion flutters wildly around any enemy it would normally attack with the <em>attack</em> trick. It makes an attack roll against that enemy. On a hit, the enemy is <Link to="/misc/shaken">shaken</Link> for 1 round.</Pair>
 </Ability>
-<Ability id="hunters-bond-ex" icon={["broken-shield","upgrade"]}>
+<Ability id="hunters-bond-ex" icon={["down","boost"]}>
 <Pair single id="hunters-bond-ex">Hunter's Bond (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A falconer must select an animal companion when he gains <em>hunter's bond.</em> He does not gain a new companion at 4th level; rather, his feathered companion gains full hit points.</Pair>
 </Ability>
-<Ability id="swoop-for-the-kill-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="swoop-for-the-kill-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="swoop-for-the-kill-ex">Swoop for the Kill (Ex)</Pair>
 <Pair hl title="Replaces">6th-level combat style feat</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">When outdoors, a falconer can direct his feathered companion to strike an enemy from high above. His feathered companion gains the following trick as a bonus trick.</Pair>
 </Ability>
-<Ability id="swooping-charge-dc-20-bird" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="swooping-charge-dc-20-bird" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="swooping-charge-dc-20-bird">Swooping Charge (DC 20; bird)</Pair>
 <Pair title="Ability">The falconer's bird companion flies up and then swoops down into a charge. To perform this trick, the companion must be able to fly, and it must be outdoors or someplace with enough room for the bird to fly great distances in (a grand cathedral may have enough room, but dungeons usually do not). It spends a <strong className="hl">full-round action</strong> flying to a high vantage point, and on the next round makes a <Link to="/rule/charge">charge</Link> attack upon an enemy the falconer designates. If that charge attack hits, the bird deals 2d4 points of damage instead of 1d4 with its bite and gains a &times;4 critical modifier when making the attack. If the bird hits, the target is <Link to="/misc/staggered">staggered</Link> for 1 round.</Pair>
 </Ability>
 </>};
 const _flamewarden = {title: "Flamewarden", jsx: <><h2 id="arc-ranger-flamewarden-flamewarden">Flamewarden</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 72</Link><br/>Emulating the blazing phoenix, flamewardens sweep through the world like a selective forest fire, burning away corruption, evil, and those who cling to decay.</p>
-<Ability id="touch-of-flame-su" icon={["upgrade"]}>
+<Ability id="touch-of-flame-su" icon={["boost"]}>
 <Pair single id="touch-of-flame-su" flavor="A flamewarden can cause his weapons to burst into flame.">Touch of Flame (Su)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -639,18 +639,18 @@ const _flamewarden = {title: "Flamewarden", jsx: <><h2 id="arc-ranger-flamewarde
 <Pair title="Standard Action">The ranger can grant a single weapon he holds the <Link to="/magic-enh/flaming">flaming</Link> special ability for 1 minute; while under this effect, the weapon counts as magic for the purpose of overcoming damage reduction.</Pair>
 <Pair title="At 12th Level">Weapons affected by this ability gain the <Link to="/magic-enh/flaming_burst">flaming burst</Link> special ability instead.</Pair>
 </Ability>
-<Ability id="spells" icon={["spell-book"]}>
+<Ability id="spells" icon={["learn"]}>
 <Pair single id="spells">Spells</Pair>
 <Pair hl title="Alters">Spells</Pair>
 <Pair title="Info">A flamewarden can prepare spells from the <Link to="/main/spells_druid">druid list</Link> that have the fire descriptor.</Pair>
 </Ability>
-<Ability id="stoking-the-embers-sp" icon={["remedy"]}>
+<Ability id="stoking-the-embers-sp" icon={["aid"]}>
 <Pair single id="stoking-the-embers-sp" flavor="A flamewarden can fan the last spark of a recently slain creature's life force back into a full flame.">Stoking the Embers (Sp)</Pair>
 <Pair hl title="Replaces">Evasion</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Standard Action">Once per day, a flamewarden can touch the corpse of a creature that has died within 1 round to grant it the effects of <Link to="/spell/breath_of_life">breath of life</Link>.</Pair>
 </Ability>
-<Ability id="burning-renewal-su" icon={["armor-upgrade"]}>
+<Ability id="burning-renewal-su" icon={["def"]}>
 <Pair single id="burning-renewal-su" flavor="A flamewarden can use the cleansing power of fire to remove afflictions from his body, mind, and soul.">Burning Renewal (Su)</Pair>
 <Pair hl title="Replaces">Camouflage</Pair>
 <Pair title="Gained">At 12th Level</Pair>
@@ -659,7 +659,7 @@ const _flamewarden = {title: "Flamewarden", jsx: <><h2 id="arc-ranger-flamewarde
 <Pair title="Ability">If the flamewarden takes 10 or more points of fire damage, he can remove one of the following conditions: exhausted, frightened, or nauseated. Alternatively, he can remove 1d6 points of ability damage or drain from an ability score of his choice.</Pair>
 <Pair title="Special">The ranger can use this ability only once each time he takes fire damage, regardless of how much damage it deals over the required amount. If the flamewarden has fire <Link to="/umr/resistance">resistance</Link> or <Link to="/umr/immunity">immunity</Link> to fire, fire damage he would have otherwise taken still counts toward activating <em>burning renewal.</em></Pair>
 </Ability>
-<Ability id="phoenix-rising-su" icon={["aura","magic-swirl","remedy"]}>
+<Ability id="phoenix-rising-su" icon={["aura","magic","aid"]}>
 <Pair single id="phoenix-rising-su">Phoenix Rising (Su)</Pair>
 <Pair hl title="Replaces">Improved evasion, master hunter</Pair>
 <Pair title="Gained">At 16th Level</Pair>
@@ -669,12 +669,12 @@ const _flamewarden = {title: "Flamewarden", jsx: <><h2 id="arc-ranger-flamewarde
 </>};
 const _fortune_finder = {title: "Fortune-Finder", jsx: <><h2 id="arc-ranger-fortune_finder-fortune-finder">Fortune-Finder</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 29</Link><br/>Vanaras often leave home to seek fortune and sate their curiosity regarding the mysterious lands that lie beyond their native territories. The most skilled of these thrillseekers are called ba-sadhaks, or fortune-finders. So successful have these canny explorers been at exploring Golarion at large that the secrets of their success are closely guarded, resulting in only extremely rare non-vanaran fortune-finders.</p>
-<Ability id="hinterlander-ex" icon={["upgrade"]}>
+<Ability id="hinterlander-ex" icon={["boost"]}>
 <Pair single id="hinterlander-ex">Hinterlander (Ex)</Pair>
 <Pair hl title="Replaces">Track</Pair>
 <Pair title="Passive Ability">A fortune-finder adds 1/2 his level (minimum 1) on all Climb and Swim checks.</Pair>
 </Ability>
-<Ability id="adaptable-study-ex" icon={["upgrade"]}>
+<Ability id="adaptable-study-ex" icon={["boost"]}>
 <Pair single id="adaptable-study-ex" flavor="A fortune-finder can adapt and orient himself to new environments and new enemies.">Adaptable Study (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -682,19 +682,19 @@ const _fortune_finder = {title: "Fortune-Finder", jsx: <><h2 id="arc-ranger-fort
 <Pair title="Move-Equivalent Action">The fortune-finder can study an opponent he can see. He then gains a bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks attempted against that opponent, as well as on weapon attack and damage rolls against it. The bonus is equal to half the fortune-finder's highest <em>favored enemy</em> bonus.</Pair>
 <Pair title="Special">A fortune-finder can't attempt Knowledge checks untrained to identify an opponent he has studied with <em>adaptable study.</em> Bonuses from <em>adaptable study</em> don't stack with those from the <em>favored enemy</em> ability. The ranger can study only a single target at a time.</Pair>
 </Ability>
-<Ability id="trailblazer-ex" icon={["upgrade"]}>
+<Ability id="trailblazer-ex" icon={["boost"]}>
 <Pair single id="trailblazer-ex">Trailblazer (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">A fortune-finder can move through any sort of <Link to="/rule/difficult_terrain">difficult terrain</Link> at his normal speed. Terrain that is enchanted or magically manipulated to impede movement, however, still affects the fortune-finder.</Pair>
 </Ability>
-<Ability id="fast-study-ex" icon={["upgrade"]}>
+<Ability id="fast-study-ex" icon={["boost"]}>
 <Pair single id="fast-study-ex">Fast Study (Ex)</Pair>
 <Pair hl title="Replaces">Quarry, improved quarry</Pair>
 <Pair title="At 11th Level">A fortune-finder can study an opponent using <em>adaptable study</em> as a <strong className="hl">swift</strong> or <strong className="hl">move action</strong>. In addition to this, he can maintain bonuses from <em>adaptable study</em> against one additional opponent.</Pair>
 <Pair title="At 19th Level">He can study an opponent using <em>adaptable study</em> as an <strong className="hl">immediate</strong>, <strong className="hl">swift</strong>, or <strong className="hl">move</strong> action and can maintain the bonuses from <em>adaptable study</em> against a total of three opponents.</Pair>
 </Ability>
-<Ability id="master-explorer-ex" icon={["upgrade"]}>
+<Ability id="master-explorer-ex" icon={["boost"]}>
 <Pair single id="master-explorer-ex" flavor="A fortune-finder becomes a master explorer.">Master Explorer (Ex)</Pair>
 <Pair hl title="Replaces">Master hunter</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -704,7 +704,7 @@ const _fortune_finder = {title: "Fortune-Finder", jsx: <><h2 id="arc-ranger-fort
 </>};
 const _freebooter = {title: "Freebooter", jsx: <><h2 id="arc-ranger-freebooter-freebooter">Freebooter</h2>
 <p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 23</Link><br/>A freebooter is a natural leader, a pirate who works well with a variety of people and in a variety of roles. Her specialized combat tactics help organize and direct a crew, and freebooters' talents are in high demand. Most freebooters work as independent agents. A freebooter signs on with a crew when she feels the urge to travel, and often moves to a new ship when her contract ends.</p>
-<Ability id="freebooters-bane-ex" icon={["upgrade"]}>
+<Ability id="freebooters-bane-ex" icon={["boost"]}>
 <Pair single id="freebooters-bane-ex">Freebooter's Bane (Ex)</Pair>
 <Pair hl title="Replaces">Favored enemy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -715,13 +715,13 @@ const _freebooter = {title: "Freebooter", jsx: <><h2 id="arc-ranger-freebooter-f
 <Pair title="At 20th Level">The bonus increases to +5.</Pair>
 <Pair title="Special">The <em>freebooter's bane</em> lasts until the target dies or the freebooter selects a new target.</Pair>
 </Ability>
-<Ability id="freebooters-bond-ex" icon={["upgrade"]}>
+<Ability id="freebooters-bond-ex" icon={["boost"]}>
 <Pair single id="freebooters-bond-ex">Freebooter's Bond (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A freebooter forms a bond with her crewmates. This bond allows her to spend a <strong className="hl">move action</strong> to grant her allies extra combat prowess when they work as a team. All allies within 30 feet who can see or hear the freebooter gain an additional +2 bonus on attack rolls when <Link to="/rule/flanking">flanking</Link> with the freebooter or with another ally affected by this ability.</Pair>
 </Ability>
-<Ability id="fast-swimmer-ex" icon={["stairs-goal"]}>
+<Ability id="fast-swimmer-ex" icon={["power"]}>
 <Pair single id="fast-swimmer-ex">Fast Swimmer (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 7th Level</Pair>
@@ -731,23 +731,23 @@ const _freebooter = {title: "Freebooter", jsx: <><h2 id="arc-ranger-freebooter-f
 </>};
 const _galvanic_saboteur = {title: "Galvanic Saboteur", jsx: <><h2 id="arc-ranger-galvanic_saboteur-galvanic-saboteur">Galvanic Saboteur</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River pg. 25</Link><br/>The transformation of the great warlord Kevoth-Kul into the hedonistic Black Sovereign a few decades ago was difficult for the people of Numeria to accept. Many Kellid locals blame Kevoth-Kul's change on the influence of the Technic League and view both the League and their mechanical minions with a mix of fear and distrust. Some Kellid rangers have since developed skills to defeat the League's robotic enforcers and devious arcanists.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (dungeoneering)</Pair></Ability>
-<Ability id="favored-enemy-ex" icon={["broken-shield"]}>
+<Ability id="favored-enemy-ex" icon={["down"]}>
 <Pair single id="favored-enemy-ex">Favored Enemy (Ex)</Pair>
 <Pair hl title="Alters">Favored enemy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Choice">A galvanic saboteur must select construct creatures as his first <em>favored enemy.</em></Pair>
 </Ability>
-<Ability id="reprogram-ex" icon={["stairs-goal"]}>
+<Ability id="reprogram-ex" icon={["power"]}>
 <Pair single id="reprogram-ex">Reprogram (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A galvanic saboteur can improve the initial attitude of a mindless construct. This ability functions as <Link to="/ability/wild_empathy">wild empathy</Link>, except only against mindless constructs. The ranger can use this ability against constructs with an Intelligence score, but he takes a -4 penalty on the check.</Pair>
 </Ability>
-<Ability id="lucky-dodge-ex" icon={["armor-upgrade"]}>
+<Ability id="lucky-dodge-ex" icon={["def"]}>
 <Pair single id="lucky-dodge-ex" flavor="A galvanic saboteur can dodge the precise attacks of even the most technologically advanced foes.">Lucky Dodge (Ex)</Pair>
 <Pair hl title="Replaces">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -757,7 +757,7 @@ const _galvanic_saboteur = {title: "Galvanic Saboteur", jsx: <><h2 id="arc-range
 <Pair title="At 18th Level">The ranger gains this luck bonus to AC against attacks that target his touch AC as long as his opponent's type matches his 4th <em>favored enemy.</em></Pair>
 <Pair title="Special">A galvanic saboteur's animal companion (if he chose one for his <em>hunter's bond</em>) also gains this luck bonus.</Pair>
 </Ability>
-<Ability id="technological-trapsmith-ex" icon={["stairs-goal"]}>
+<Ability id="technological-trapsmith-ex" icon={["power"]}>
 <Pair single id="technological-trapsmith-ex">Technological Trapsmith (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 7th Level</Pair>
@@ -766,7 +766,7 @@ const _galvanic_saboteur = {title: "Galvanic Saboteur", jsx: <><h2 id="arc-range
 <p>Other types of destroyed constructs can serve as suitable materials for a rigged construct trap (at the GM's discretion). Constructs destroyed by <Link to="/spell/disintegrate">disintegrate</Link> or similar effects that leave no intact remains cannot be used to create a rigged construct trap.</p>
 </Pair>
 </Ability>
-<Ability id="static-strike-ex" icon={["mailed-fist"]}>
+<Ability id="static-strike-ex" icon={["melee"]}>
 <Pair single id="static-strike-ex" flavor="The galvanic saboteur has gathered enough parts and scrap from his constructed enemies that he can infuse some of his attacks with a bit of their alien energy.">Static Strike (Ex)</Pair>
 <Pair hl title="Replaces">Swift tracker, camouflage</Pair>
 <Pair title="Gained">At 8th Level</Pair>
@@ -775,7 +775,7 @@ const _galvanic_saboteur = {title: "Galvanic Saboteur", jsx: <><h2 id="arc-range
 <Pair title="At 14th Level">The ranger can use this ability 2 times/day.</Pair>
 <Pair title="At 20th Level">The ranger can use this ability 3 times/day.</Pair>
 </Ability>
-<Ability id="sensor-evasion-su" icon={["armor-upgrade"]}>
+<Ability id="sensor-evasion-su" icon={["def"]}>
 <Pair single id="sensor-evasion-su" flavor="A galvanic saboteur has mastered the art of evading technological and magical observation.">Sensor Evasion (Su)</Pair>
 <Pair hl title="Replaces">Hide in plain sight</Pair>
 <Pair title="Gained">At 17th Level</Pair>
@@ -784,18 +784,18 @@ const _galvanic_saboteur = {title: "Galvanic Saboteur", jsx: <><h2 id="arc-range
 </>};
 const _groom = {title: "Groom", jsx: <><h2 id="arc-ranger-groom-groom">Groom</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 21</Link><br/>The groom attends to the needs of the party's mounts and beasts of burden during their adventures, and guards these animals while the party goes underground.</p>
-<Ability id="hide-the-horses-ex" icon={["upgrade"]}>
+<Ability id="hide-the-horses-ex" icon={["boost"]}>
 <Pair single id="hide-the-horses-ex" flavor="A groom finds the best place to stable and conceal a party's mounts while the group explores a dungeon.">Hide the Horses (Ex)</Pair>
 <Pair hl title="Replaces">Track</Pair>
 <Pair title="Passive Ability">A groom adds half her level (minimum 1) on Stealth skill checks for both herself and the mounts she's hiding while she is concealing a party's mounts.</Pair>
 </Ability>
-<Ability id="horse-whisperer-su" icon={["magic-swirl"]}>
+<Ability id="horse-whisperer-su" icon={["magic"]}>
 <Pair single id="horse-whisperer-su">Horse Whisperer (Su)</Pair>
 <Pair hl title="Replaces">Endurance</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A groom can use <Link to="/spell/speak_with_animals">speak with animals</Link> at will, but can use this power only on horses, riding dogs, and other mounts of the animal type.</Pair>
 </Ability>
-<Ability id="scout-the-area-ex" icon={["upgrade","stairs-goal"]}>
+<Ability id="scout-the-area-ex" icon={["boost","power"]}>
 <Pair single id="scout-the-area-ex">Scout the Area (Ex)</Pair>
 <Pair hl title="Replaces">1st favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -805,7 +805,7 @@ const _groom = {title: "Groom", jsx: <><h2 id="arc-ranger-groom-groom">Groom</h2
 </>};
 const _guide = {title: "Guide", jsx: <><h2 id="arc-ranger-guide-guide">Guide</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 125</Link><br/>Many rangers are loners, but some choose to use their familiarity with the land to guide others safely through the wilderness. The guide forgoes a <em>favored enemy</em> to focus on the task or foe at hand, and can pass his knowledge and luck on to his charges. A guide has the following class features.</p>
-<Ability id="rangers-focus-ex" icon={["upgrade"]}>
+<Ability id="rangers-focus-ex" icon={["boost"]}>
 <Pair single id="rangers-focus-ex">Ranger's Focus (Ex)</Pair>
 <Pair hl title="Replaces">Favored enemy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -816,27 +816,27 @@ const _guide = {title: "Guide", jsx: <><h2 id="arc-ranger-guide-guide">Guide</h2
 <Pair title="At 15th Level">This bonus becomes +8.</Pair>
 <Pair title="At 20th Level">This bonus increases to +10.</Pair>
 </Ability>
-<Ability id="terrain-bond-ex" icon={["upgrade","stairs-goal"]}>
+<Ability id="terrain-bond-ex" icon={["boost","power"]}>
 <Pair single id="terrain-bond-ex" flavor="The guide forms a bond with the land itself, enabling him to direct others in such terrain.">Terrain Bond (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">When in his <em>favored terrain,</em> the ranger grants all allies within line of sight and that can hear him a +2 bonus on initiative checks and Perception, Stealth, and Survival skill checks.</Pair>
 <Pair title="Ability">As long as they travel with him, the ranger's allies leave no trail and can't be tracked. The ranger can choose for the group to leave a trail, or even specific members of the group to leave a trail if he so desires.</Pair>
 </Ability>
-<Ability id="rangers-luck-ex" icon={["rolling-dices"]}>
+<Ability id="rangers-luck-ex" icon={["roll"]}>
 <Pair single id="rangers-luck-ex">Ranger's Luck (Ex)</Pair>
 <Pair hl title="Replaces">Evasion</Pair>
 <Pair title="At 9th Level">The guide can either reroll one of his attack rolls or force an enemy who just hit him with an attack to reroll the attack roll. The ranger must take the result of the second roll even if it is worse.</Pair>
 <Pair title="Usage">1 time/day + 1 per five ranger levels beyond 9th<ByLevelPop levels={[[9,1],[14,2],[19,3]]} unit="time" postText="/day" /></Pair>
 </Ability>
-<Ability id="inspired-moment-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="inspired-moment-ex" icon={["power","boost"]}>
 <Pair single id="inspired-moment-ex">Inspired Moment (Ex)</Pair>
 <Pair hl title="Replaces">Quarry, improved quarry</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Free Action">The guide can have an inspired moment once per day. The ranger gains the following benefits until the end of his next turn. His speed increases by 10 feet. He can take an extra <strong className="hl">move</strong> or <strong className="hl">swift action</strong> on his turn. He gains a +4 bonus to AC and on attack rolls, skill checks, or ability checks. Finally, he automatically confirms any critical threat he scores.</Pair>
 <Pair title="At 19th Level">He can use this ability twice a day.</Pair>
 </Ability>
-<Ability id="improved-rangers-luck-ex" icon={["rolling-dices","upgrade"]}>
+<Ability id="improved-rangers-luck-ex" icon={["roll","boost"]}>
 <Pair single id="improved-rangers-luck-ex">Improved Ranger's Luck (Ex)</Pair>
 <Pair hl title="Replaces">Improved evasion</Pair>
 <Pair title="At 16th Level">The ranger's luck increases. He gains a +4 bonus on his rerolls made with the <em>ranger's luck</em> ability, or if he forces an enemy to reroll an attack, that enemy takes a -4 penalty on the roll. This bonus or penalty is also applied on any roll to confirm critical hits.</Pair>
@@ -844,22 +844,22 @@ const _guide = {title: "Guide", jsx: <><h2 id="arc-ranger-guide-guide">Guide</h2
 </>};
 const _guildbreaker = {title: "Guildbreaker", jsx: <><h2 id="arc-ranger-guildbreaker-guildbreaker">Guildbreaker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 41</Link><br/>Some rangers aren't the type to put their steel and sweat behind fighting particular kinds of creatures. Instead, these shrewd warriors alter their focus and dedicate their efforts to dismantling enemy organizations. Guildbreakers stoke their enmity for their foes, and they train to track the movements of rival organizations, and even to infiltrate these groups to gather secret intelligence.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Handle Animal, Heal, Knowledge (geography)</Pair></Ability>
-<Ability id="favored-organization-ex" icon={["broken-shield","stairs-goal"]}>
+<Ability id="favored-organization-ex" icon={["down","power"]}>
 <Pair single id="favored-organization-ex">Favored Organization (Ex)</Pair>
 <Pair hl title="Alters">Favored enemy</Pair>
 <Pair title="Ability">When a guildbreaker selects a <em>favored enemy,</em> he can opt to select a specific organization, such as a particular thieves' guild, in lieu of a specific creature type. The guildbreaker must select this option for his first <em>favored enemy,</em> but he can choose either option for his later <em>favored enemies.</em></Pair>
 <Pair title="Special">The guildbreaker's bonuses from <em>favored enemy</em> apply against official members of this organization regardless of their creature type, but not against the organization's allies, paid mercenaries, or forced labor. This ability only applies if the guildbreaker knows that the target is a member of the organization.</Pair>
 </Ability>
-<Ability id="read-the-city-ex" icon={["stairs-goal"]}>
+<Ability id="read-the-city-ex" icon={["power"]}>
 <Pair single id="read-the-city-ex" flavor="A guildbreaker spends most of his time in cities and large population centers. As a result, he gains an innate sense of comings and goings in the hustle around him.">Read the City (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Ability">When in an urban environment, a guildbreaker can use the Survival skill to gather information, but only about the movements of creatures and what sort of people (races, social classes, predominant professions, and the like) occupy the community. Unlike with the normal way to gather information, the guildbreaker studies the signs of the city instead of asking around, so it doesn't spread word about the nature of his questions to others.</Pair>
 </Ability>
-<Ability id="deep-cover-ex-su" icon={["upgrade","armor-upgrade"]}>
+<Ability id="deep-cover-ex-su" icon={["boost","def"]}>
 <Pair single id="deep-cover-ex-su" flavor="Guildbreakers may work to dismantle their enemies' power structures from within, and they know how to gather resources and the necessary trappings in order to masquerade as a member of those organizations.">Deep Cover (Ex, Su)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -868,7 +868,7 @@ const _guildbreaker = {title: "Guildbreaker", jsx: <><h2 id="arc-ranger-guildbre
 <p>A guildbreaker posing as a member of one of his <em>favored enemy</em> organizations automatically defeats truth-telling magic (as if under the effects of <Link to="/spell/glibness">glibness</Link>), but only for the purpose of claiming to be a member of the organization. Truth-telling magic can still expose him with a more indirect question, such as a member of a non-religious evil organization asking the guildbreaker for the identity of his patron deity.</p>
 </Pair>
 </Ability>
-<Ability id="crowd-stride-ex" icon={["upgrade"]}>
+<Ability id="crowd-stride-ex" icon={["boost"]}>
 <Pair single id="crowd-stride-ex">Crowd Stride (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="At 7th Level">A guildbreaker can slip through crowded streets with ease. His movement speed is not reduced when moving through a crowd.</Pair>
@@ -876,35 +876,35 @@ const _guildbreaker = {title: "Guildbreaker", jsx: <><h2 id="arc-ranger-guildbre
 </>};
 const _hooded_champion = {title: "Hooded Champion", jsx: <><h2 id="arc-ranger-hooded_champion-hooded-champion">Hooded Champion</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 108</Link><br/>The hooded champion lives on the periphery of civilized lands, and is often at odds with the forces of law and order. He is frequently a hero of oppressed peoples, lurking in the woods near their homes and trying to right the injustices inflicted upon them by the wealthy and powerful.</p>
-<Ability id="panache-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="panache-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="panache-ex">Panache (Ex)</Pair>
 <Pair hl title="Replaces">Favored enemy at 1st level</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">The hooded champion gains the <Link to="/class/swashbuckler">swashbuckler's</Link> panache class feature. He regains panache through critical hits and killing blows when using a bow of any kind, rather than when using a light or one-handed piercing melee weapon.</Pair>
 <Pair title="Special">If the hooded champion has this ability and the panache ability from another class or archetype, the panache points from the two sources do not stack, but the hooded champion regains panache in any way either class feature allows him to. For example, a character with a Charisma score of 16 who has both the hooded champion's and the swashbuckler's panache has a base of 3 panache points, and regains panache from critical hits and killing blows from both bows and light or one-handed piercing melee weapons.</Pair>
 </Ability>
-<Ability id="panache-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="panache-ex" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="panache-ex" flavor="Text from the swashbuckler ability">Panache (Ex)</Pair>
 <Pair title="Ability"><p>At the start of each day, you gain a number of panache points equal to your Charisma modifier (minimum 1). Your panache goes up or down throughout the day, but usually cannot go higher than your Charisma modifier (minimum 1), though feats and magic items can affect this maximum. You spend panache to accomplish deeds, and regain panache in the following ways.</p>
 <p>Each time you confirm a critical hit, you regain 1 panache point. Confirming a critical hit on a <Link to="/misc/helpless">helpless</Link> or unaware creature or a creature that has fewer Hit Dice than <Link to="/misc/half">half</Link> your character level doesn't restore panache.</p>
 <p>When you reduce a creature to 0 or fewer hit points while in combat, you regain 1 panache point. Destroying an unattended object, reducing a helpless or unaware creature to 0 or fewer hit points, or reducing a creature that has fewer Hit Dice than half your character level to 0 or fewer hit points doesn't restore any panache.</p>
 </Pair>
 </Ability>
-<Ability id="deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="deeds" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="deeds">Deeds</Pair>
 <Pair title="At 1st Level">The hooded champion gains the swashbuckler's <Link to="/swashdeed/derring_do">derring-do</Link> and <Link to="/swashdeed/dodging_panache">dodging panache</Link> deeds, as well as the <em>dead aim</em> deed, below.</Pair>
 <Pair title="At 3rd Level">The hooded champion gains the swashbuckler's <Link to="/swashdeed/kip_up">kip-up</Link> deed, as well as the <em>hooded champion's initiative</em> deed below.</Pair>
 <Pair title="Special">For all deeds, treat the hooded champion's ranger level as his swashbuckler level.</Pair>
 </Ability>
-<Ability id="dead-aim-ex" extraClasses="subAbility" icon={["smoking-finger"]}>
+<Ability id="dead-aim-ex" extraClasses="subAbility" icon={["zap"]}>
 <Pair single id="dead-aim-ex">Dead Aim (Ex)</Pair>
 <Pair title="At 1st Level">The hooded champion's can spend 1 panache point when making a single ranged attack (not a full attack) with a bow to make a ranged touch attack instead. The target must be in the bow's first range increment.</Pair>
 </Ability>
-<Ability id="hooded-champions-initiative-ex" extraClasses="subAbility" icon={["upgrade","stairs-goal"]}>
+<Ability id="hooded-champions-initiative-ex" extraClasses="subAbility" icon={["boost","power"]}>
 <Pair single id="hooded-champions-initiative-ex">Hooded Champion's Initiative (Ex)</Pair>
 <Pair title="At 3rd Level">While the hooded champion has at least 1 panache point, he gains a +2 bonus on initiative checks. In addition, if he has the <Link to="/feat/quick_draw">Quick Draw</Link> feat, his hands are free and unrestrained, and his weapon isn't hidden, he can draw a single bow as part of the initiative check.</Pair>
 </Ability>
-<Ability id="combat-style" icon={["broken-shield","stairs-goal"]}>
+<Ability id="combat-style" icon={["down","power"]}>
 <Pair single id="combat-style">Combat Style</Pair>
 <Pair hl title="Replaces">Wild empathy, endurance, evasion, improved evasion</Pair>
 <Pair title="At 2nd Level">The hooded champion must select the archery <Link to="/ability/combat_styles">combat style</Link>.</Pair>
@@ -914,25 +914,25 @@ const _hooded_champion = {title: "Hooded Champion", jsx: <><h2 id="arc-ranger-ho
 </>};
 const _horse_lord = {title: "Horse Lord", jsx: <><h2 id="arc-ranger-horse_lord-horse-lord">Horse Lord</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 125</Link><br/>Rangers of the plains use horses or other riding beasts to hunt their lands, forging a near-mystical relationship with their mounts. Horse lords are unparalleled mounted combatants, the envy of even the most dedicated cavalier. Though called "horse lords" as a generic term, these rangers are not restricted to horses for their animal companions - any creature the ranger can ride is included in these abilities. A horse lord has the following class features.</p>
-<Ability id="combat-style-feat-ex" icon={["broken-shield"]}>
+<Ability id="combat-style-feat-ex" icon={["down"]}>
 <Pair single id="combat-style-feat-ex">Combat Style Feat (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Choice">A horse lord must choose the mounted <Link to="/ability/combat_styles">combat style</Link>.</Pair>
 </Ability>
-<Ability id="mounted-bond-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="mounted-bond-ex" icon={["power","boost"]}>
 <Pair single id="mounted-bond-ex">Mounted Bond (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">The horse lord forms a bond with an animal he can use as a mount, which becomes his <Link to="/sidekick/animal_companion">animal companion</Link>. A Medium ranger can select a <Link to="/companion/camel">camel</Link> or a <Link to="/companion/horse">horse</Link>. A small ranger can select a <Link to="/companion/pony">pony</Link> or <Link to="/companion/wolf">wolf</Link>, but can also select a <Link to="/companion/boar">boar</Link> or <Link to="/companion/dog">dog</Link> if he is at least 7th level. This ability functions like the druid <Link to="/ability/animal_companion">animal companion</Link> ability except that the ranger's effective druid level is equal to his ranger level - 3.</Pair>
 <Pair title="Passive Ability">The ranger gains a +2 bonus on Handle Animal and Ride checks with his animal companion mount.</Pair>
 </Ability>
-<Ability id="strong-bond-ex" icon={["upgrade"]}>
+<Ability id="strong-bond-ex" icon={["boost"]}>
 <Pair single id="strong-bond-ex" flavor="The horse lord strengthens his bond with his mount.">Strong Bond (Ex)</Pair>
 <Pair hl title="Replaces">Camouflage</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">The ranger's effective druid level for his mount is now equal to his ranger level.</Pair>
 </Ability>
-<Ability id="spiritual-bond-su" icon={["upgrade","shield-reflect"]}>
+<Ability id="spiritual-bond-su" icon={["boost","protect"]}>
 <Pair single id="spiritual-bond-su">Spiritual Bond (Su)</Pair>
 <Pair hl title="Replaces">Hide in plain sight</Pair>
 <Pair title="Gained">At 17th Level</Pair>
@@ -941,37 +941,37 @@ const _horse_lord = {title: "Horse Lord", jsx: <><h2 id="arc-ranger-horse_lord-h
 </>};
 const _ilsurian_archer = {title: "Ilsurian Archer", jsx: <><h2 id="arc-ranger-ilsurian_archer-ilsurian-archer">Ilsurian Archer</h2>
 <p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook pg. 6</Link><br/>Ilsurian archers maintain the strong tradition of archery first developed by soldiers in the service of Ilsur, who raised a small army with which he intended to overthrow the monarch of Korvosa after the fall of the Chelish Empire. Though Ilsur's Arena teaches only the basics of these techniques, a few dedicated students strive toward true mastery in each generation.</p>
-<Ability id="bullseye-shot-ex" icon={["stairs-goal"]}>
+<Ability id="bullseye-shot-ex" icon={["power"]}>
 <Pair single id="bullseye-shot-ex">Bullseye Shot (Ex)</Pair>
 <Pair hl title="Replaces">Track, wild empathy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An Ilsurian archer gains <Link to="/feat/bullseye_shot">Bullseye Shot</Link> as a bonus feat. He need not meet its prerequisites.</Pair>
 </Ability>
-<Ability id="archery-style-ex" icon={["broken-shield"]}>
+<Ability id="archery-style-ex" icon={["down"]}>
 <Pair single id="archery-style-ex">Archery Style (Ex)</Pair>
 <Pair hl title="Alters">Combat style</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Choice">An Ilsurian archer must select the archery <Link to="/ability/combat_styles">combat style</Link>.</Pair>
 </Ability>
-<Ability id="vicious-aim-ex" icon={["upgrade"]}>
+<Ability id="vicious-aim-ex" icon={["boost"]}>
 <Pair single id="vicious-aim-ex">Vicious Aim (Ex)</Pair>
 <Pair hl title="Replaces">Spellcasting ability</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">An Ilsurian archer adds half his highest <em>favored enemy</em> bonus to all attack rolls and damage rolls for attacks made with ranged weapons. This does not stack with his normal <em>favored enemy</em> bonus when targeting a creature that qualifies as a <em>favored enemy.</em></Pair>
 </Ability>
-<Ability id="iomedaes-influence-ex" icon={["stairs-goal"]}>
+<Ability id="iomedaes-influence-ex" icon={["power"]}>
 <Pair single id="iomedaes-influence-ex">Iomedae's Influence (Ex)</Pair>
 <Pair hl title="Replaces">Swift tracking</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">An Ilsurian archer gains <Link to="/feat/weapon_focus">Weapon Focus</Link> (longsword) as a bonus feat, due to the influence the church of <Link to="/faith/iomedae">Iomedae</Link> has over Ilsurian causes.</Pair>
 </Ability>
-<Ability id="pinpoint-targeting-ex" icon={["stairs-goal"]}>
+<Ability id="pinpoint-targeting-ex" icon={["power"]}>
 <Pair single id="pinpoint-targeting-ex">Pinpoint Targeting (Ex)</Pair>
 <Pair hl title="Replaces">Quarry</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">An Ilsurian ranger gains <Link to="/feat/pinpoint_targeting">Pinpoint Targeting</Link> as a bonus feat, even if he does not meet its prerequisites.</Pair>
 </Ability>
-<Ability id="quarry-ex" icon={["stairs-goal"]}>
+<Ability id="quarry-ex" icon={["power"]}>
 <Pair single id="quarry-ex">Quarry (Ex)</Pair>
 <Pair hl title="Replaces">Improved quarry</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -980,7 +980,7 @@ const _ilsurian_archer = {title: "Ilsurian Archer", jsx: <><h2 id="arc-ranger-il
 </>};
 const _infiltrator = {title: "Infiltrator", jsx: <><h2 id="arc-ranger-infiltrator-infiltrator">Infiltrator</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 125</Link><br/>Some rangers study their <em>favored enemies</em> and learn their ways, applying this knowledge to their own abilities and using their foes' strengths against them. Infiltrators are willing to walk a mile in an enemy's shoes so as to learn eveything there is to know about their foes in order to more effectively hunt and kill them.</p>
-<Ability id="adaptation-ex" extraClasses="hasSubs" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="adaptation-ex" extraClasses="hasSubs" icon={["power","def"]}>
 <Pair single id="adaptation-ex" flavor="An infiltrator learns how to copy the unusual abilities of his prey.">Adaptation (Ex)</Pair>
 <Pair hl title="Replaces">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -991,95 +991,95 @@ const _infiltrator = {title: "Infiltrator", jsx: <><h2 id="arc-ranger-infiltrato
 <Pair title="At 15th Level">The ranger chooses another one of his <em>favored enemy</em> types and selects one adaptation from that type's list, as well as an additional adaptation from any one list of a creature type he's selected (including the one just chosen, if so desired).</Pair>
 <Pair title="Special">The infiltrator can only use one adaptation at a time. The ranger can use the <em>camouflage</em> and <em>hide in plain sight</em> class features whenever he is using adaptations.</Pair>
 </Ability>
-<Ability id="aberration" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="aberration" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="aberration">Aberration</Pair>
 <Pair title="Choice"><Link to="/umr/amphibious">amphibious</Link>, darkvision 60 ft., <Link to="/feat/iron_will">Iron Will</Link>, natural armor +2.</Pair>
 </Ability>
-<Ability id="animal" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="animal" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="animal">Animal</Pair>
 <Pair title="Choice">climb 15 ft., darkvision 60 ft., <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, low-light vision, natural armor (+2), swim 15 ft.</Pair>
 </Ability>
-<Ability id="construct" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="construct" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="construct">Construct</Pair>
 <Pair title="Choice">darkvision 60 ft., Great Fortitude, Lightning Reflexes, low-light vision.</Pair>
 </Ability>
-<Ability id="dragon" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="dragon" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="dragon">Dragon</Pair>
 <Pair title="Choice">darkvision 60 ft., Great Fortitude, Iron Will, Lightning Reflexes, low-light vision, <Link to="/feat/lunge">Lunge</Link>.</Pair>
 </Ability>
-<Ability id="fey" extraClasses="subAbility" icon={["armor-upgrade","stairs-goal"]}>
+<Ability id="fey" extraClasses="subAbility" icon={["def","power"]}>
 <Pair single id="fey">Fey</Pair>
 <Pair title="Choice">Iron Will, Lightning Reflexes, low-light vision.</Pair>
 </Ability>
-<Ability id="humanoid-aquatic" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="humanoid-aquatic" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="humanoid-aquatic">Humanoid (aquatic)</Pair>
 <Pair title="Choice">low-light vision, natural armor +2, darkvision, swim 15 ft.</Pair>
 </Ability>
-<Ability id="humanoid-dwarf" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="humanoid-dwarf" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="humanoid-dwarf">Humanoid (dwarf)</Pair>
 <Pair title="Choice">darkvision 60 ft., <em><Link to="/race/dwarf">defensive training</Link>, greed, hatred, hardy, slow and steady, stability, stonecunning, weapon familiarity.</em></Pair>
 </Ability>
-<Ability id="humanoid-elf" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="humanoid-elf" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="humanoid-elf">Humanoid (elf)</Pair>
 <Pair title="Choice"><em><Link to="/race/half_elf">elf</Link> blood,</em> low-light vision, <em><Link to="/race/elven">elven</Link> immunities, elven magic, keen senses,</em> Skill Focus (choose one skill), <em>weapon familiarity.</em></Pair>
 </Ability>
-<Ability id="humanoid-giant" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="humanoid-giant" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="humanoid-giant">Humanoid (giant)</Pair>
 <Pair title="Choice">low-light vision, Lunge, natural armor +2, <Link to="/umr/resist">resist</Link> energy 10 (choose cold, electricity, or fire), <Link to="/feat/throw_anything">Throw Anything</Link>.</Pair>
 </Ability>
-<Ability id="humanoid-gnoll" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="humanoid-gnoll" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="humanoid-gnoll">Humanoid (gnoll)</Pair>
 <Pair title="Choice">darkvision 60 ft., <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link> (<Link to="/eq-weapon/dire_flail">dire flail</Link>), natural armor +2.</Pair>
 </Ability>
-<Ability id="humanoid-gnome" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="humanoid-gnome" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="humanoid-gnome">Humanoid (gnome)</Pair>
 <Pair title="Choice">defensive training, <em><Link to="/race/gnome">gnome</Link> magic, hatred, illusion resistance, keen senses, low-light vision, obsessive, weapon familiarity.</em></Pair>
 </Ability>
-<Ability id="humanoid-goblinoid" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="humanoid-goblinoid" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="humanoid-goblinoid">Humanoid (goblinoid)</Pair>
 <Pair title="Choice">darkvision 60 ft., goblin fast,<sup><InnerLink showBacklink="backlink-arc-ranger-infiltrator-fake-fn-1" id="arc-ranger-infiltrator-fake-fn-1" data-hash-target to="arc-ranger-infiltrator-fake-fn-1-target">1</InnerLink></sup> Skill Focus (Stealth), natural armor (+2).</Pair>
 </Ability>
-<Ability id="humanoid-halfling" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="humanoid-halfling" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="humanoid-halfling">Humanoid (halfling)</Pair>
 <Pair title="Choice"><em>fearless, <Link to="/race/halfling">halfling</Link> luck, keen senses, sure-footed, weapon familiarity.</em></Pair>
 </Ability>
-<Ability id="humanoid-human" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="humanoid-human" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="humanoid-human">Humanoid (human)</Pair>
 <Pair title="Choice">Great Fortitude, Iron Will, Lightning Reflexes, Skill Focus (choose one skill).</Pair>
 </Ability>
-<Ability id="humanoid-orc" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="humanoid-orc" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="humanoid-orc">Humanoid (orc)</Pair>
 <Pair title="Choice">darkvision 60 ft., <Link to="/umr/ferocity">ferocity</Link>, <em><Link to="/race/half_orc">intimidating</Link>, orc blood, weapon familiarity.</em></Pair>
 </Ability>
-<Ability id="humanoid-reptilian" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="humanoid-reptilian" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="humanoid-reptilian">Humanoid (reptilian)</Pair>
 <Pair title="Choice">darkvision 60 ft., <em>kobold fast</em> (as goblin fast<sup><InnerLink showBacklink="backlink-arc-ranger-infiltrator-fake-fn-1.2" id="arc-ranger-infiltrator-fake-fn-1.2" data-hash-target to="arc-ranger-infiltrator-fake-fn-1-target">1</InnerLink></sup>), <Link to="/monster/lizardfolk">lizardfolk</Link> <em>hold breath,</em> natural armor +2, Skill Focus (choose Acrobatics, Perception, or Stealth).</Pair>
 </Ability>
-<Ability id="magical-beast" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="magical-beast" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="magical-beast">Magical Beast</Pair>
 <Pair title="Choice">darkvision 60 ft., Great Fortitude, low-light vision, natural armor +2.</Pair>
 </Ability>
-<Ability id="monstrous-humanoid" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="monstrous-humanoid" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="monstrous-humanoid">Monstrous Humanoid</Pair>
 <Pair title="Choice">darkvision 60 ft., Lightning Reflexes, low-light vision, natural armor +2.</Pair>
 </Ability>
-<Ability id="ooze" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="ooze" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="ooze">Ooze</Pair>
 <Pair title="Choice">acid resistance 10, Great Fortitude, Iron Will, Skill Focus (choose Climb, Escape Artist, or Perception).</Pair>
 </Ability>
-<Ability id="outsider" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="outsider" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="outsider">Outsider</Pair>
 <Pair title="Choice">darkvision 60 ft., energy resistance 5 (choose one type of energy from acid, cold, electricity, or fire), Great Fortitude, Iron Will, Lightning Reflexes.</Pair>
 </Ability>
-<Ability id="plant" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="plant" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="plant">Plant</Pair>
 <Pair title="Choice">low-light vision, Great Fortitude, Iron Will.</Pair>
 </Ability>
-<Ability id="undead" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="undead" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="undead">Undead</Pair>
 <Pair title="Choice">darkvision 60 ft., Great Fortitude, Iron Will, natural armor (+2). Skill Focus (Stealth).</Pair>
 </Ability>
-<Ability id="vermin" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="vermin" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="vermin">Vermin</Pair>
 <Pair title="Choice">climb 15 ft., darkvision 60 ft., Great Fortitude, Iron Will, swim 15 ft.</Pair>
 </Ability>
@@ -1088,11 +1088,11 @@ const _infiltrator = {title: "Infiltrator", jsx: <><h2 id="arc-ranger-infiltrato
 </ol></section></>};
 const _jungle_lord = {title: "Jungle Lord", jsx: <><h2 id="arc-ranger-jungle_lord-jungle-lord">Jungle Lord</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_worldscape_4">Pathfinder Worldscape #4 pg. 25</Link><br/>Whether raised from birth under the jungle canopy in a native tribe or settlement, marooned as a child and reared by animals, or simply an ordinary person lost in the trackless tangle and forced to thrive in the wilderness or die, jungle lords are tempered by their harsh and unforgiving environments into something more than ordinary men and women. Their ordeals and experiences combine the physical prowess gained as a result of life hunting dangerous beasts with the wisdom gained from surviving countless natural dangers to earn them the respect of the jungle's denizens, man and animal alike.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Spellcraft</Pair></Ability>
-<Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["down"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Replaces">Weapon and armor proficiencies</Pair>
 <Pair title="Ability">A jungle lord is proficient with the <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/battleaxe">battleaxe</Link>, <Link to="/eq-weapon/blowgun">blowgun</Link>, <Link to="/eq-weapon/bolas">bolas</Link>, <Link to="/eq-weapon/club">club</Link>, <Link to="/eq-weapon/greatclub">greatclub</Link>, <Link to="/eq-weapon/handaxe">handaxe</Link>, <Link to="/eq-weapon/kukri">kukri</Link>, <Link to="/eq-weapon/lasso">lasso</Link>, <Link to="/eq-weapon/longbow">longbow</Link>, <Link to="/eq-weapon/longspear">longspear</Link>, <Link to="/eq-weapon/net">net</Link>, <Link to="/eq-weapon/quarterstaff">quarterstaff</Link>, <Link to="/eq-weapon/shortbow">shortbow</Link>, <Link to="/eq-weapon/shortspear">shortspear</Link>, <Link to="/eq-weapon/sling">sling</Link>, <Link to="/eq-weapon/spear">spear</Link>, and <Link to="/eq-weapon/whip">whip</Link>. Jungle Lords are not proficient with armor and shields.</Pair>
@@ -1101,20 +1101,20 @@ const _jungle_lord = {title: "Jungle Lord", jsx: <><h2 id="arc-ranger-jungle_lor
 <Pair single id="bonus-language">Bonus Language</Pair>
 <Pair title="Info">A jungle lord's language options include Sylvan, the language of woodland creatures.</Pair>
 </Ability>
-<Ability id="animal-focus-su" icon={["stairs-goal"]}>
+<Ability id="animal-focus-su" icon={["power"]}>
 <Pair single id="animal-focus-su">Animal Focus (Su)</Pair>
 <Pair hl title="Replaces">Favored enemy</Pair>
 <Pair title="Usage">1 minute/day per ranger level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
 <Pair title="Swift Action">A jungle lord can take on the aspect of an animal, gaining a bonus or a special ability based on the type of animal emulated. This ability functions as the hunter's <Link to="/ability/animal_focus">animal focus</Link> class feature, though it applies only to the jungle lord and not an animal companion.</Pair>
 <Pair title="Special">He can emulate only one animal at a time.</Pair>
 </Ability>
-<Ability id="favored-terrain-ex" icon={["broken-shield"]}>
+<Ability id="favored-terrain-ex" icon={["down"]}>
 <Pair single id="favored-terrain-ex">Favored Terrain (Ex)</Pair>
 <Pair hl title="Alters">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Choice">A jungle lord must select jungle as his first <em>favored terrain.</em></Pair>
 </Ability>
-<Ability id="hunters-bond-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="hunters-bond-ex" icon={["power","boost"]}>
 <Pair single id="hunters-bond-ex">Hunter's Bond (Ex)</Pair>
 <Pair hl title="Alters">Hunter's bond</Pair>
 <Pair title="Ability">A jungle lord forms a close bond with an <Link to="/sidekick/animal_companion">animal companion</Link>. This ability functions like the druid <Link to="/ability/animal_companion">animal companion</Link> ability except that the jungle lord's effective druid level is equal to his ranger level - 3.</Pair>
@@ -1122,7 +1122,7 @@ const _jungle_lord = {title: "Jungle Lord", jsx: <><h2 id="arc-ranger-jungle_lor
 <Pair title="Choice">A jungle lord can choose his companion from the following list: <Link to="/companion/ape">ape</Link>, <Link to="/companion/axe_beak">axe beak</Link>, <Link to="/companion/baboon">baboon</Link>, <Link to="/companion/bear">bear</Link>, <Link to="/companion/big_cat">big cat</Link> (lion, tiger), <Link to="/companion/bird">bird</Link>, <Link to="/companion/boar">boar</Link>, <Link to="/companion/crocodile">crocodile</Link> (alligator), dinosaur (<Link to="/companion/deinonychus">deinonychus</Link>, <Link to="/companion/pteranodon">pteranodon</Link>, <Link to="/companion/velociraptor">velociraptor</Link>), <Link to="/companion/dog">dog</Link>, <Link to="/companion/elephant">elephant</Link>, <Link to="/companion/giant_chameleon">giant chameleon</Link>, <Link to="/companion/giant_gecko">giant gecko</Link>, <Link to="/companion/giant_vulture">giant vulture</Link>, <Link to="/companion/giraffe">giraffe</Link>, <Link to="/companion/hippopotamus">hippopotamus</Link>, <Link to="/companion/moa">moa</Link>, <Link to="/companion/monitor_lizard">monitor lizard</Link>, <Link to="/companion/rhinoceros">rhinoceros</Link>, <Link to="/companion/small_cat">small cat</Link> (cheetah, leopard), snake (<Link to="/companion/constrictor">constrictor</Link>, <Link to="/companion/viper">viper</Link>), or <Link to="/companion/wolf">wolf</Link></Pair>
 <Pair title="Special">The jungle lord can have up to four animal companions, but he must divide up his efiective druid level between his companions to determine the abilities of each companion. For example, a jungle lord with an effective druid level of 4 can have one 4th-level companion, two 2nd-level companions, or one lst-level and one 3rd-level companion. Each time a jungle lord's effective druid level increases, he must decide how to allocate the increase among his animal companions (including the option of adding a new 1st-level companion). Once an effective druid level is allocated to a particular companion, it cannot be redistributed while that companion is in the jungle lord's service (he must release a companion or wait until a companion dies to allocate its levels to another companion).</Pair>
 </Ability>
-<Ability id="hardened-by-nature-ex" icon={["armor-upgrade"]}>
+<Ability id="hardened-by-nature-ex" icon={["def"]}>
 <Pair single id="hardened-by-nature-ex" flavor="The jungle lord's keen senses make him harder to hit and more able to withstand those blows that manage to sneak by his defenses.">Hardened by Nature (Ex)</Pair>
 <Pair hl title="Replaces">Spellcasting ability</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -1134,27 +1134,27 @@ const _jungle_lord = {title: "Jungle Lord", jsx: <><h2 id="arc-ranger-jungle_lor
 <Pair title="At 18th Level">The dodge bonus increases to +5.</Pair>
 <Pair title="Special">He loses these bonuses when he wears any armor, when he carries a shield, or when he carries a medium or heavy load.</Pair>
 </Ability>
-<Ability id="brachiation-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="brachiation-ex" icon={["power","boost"]}>
 <Pair single id="brachiation-ex">Brachiation (Ex)</Pair>
 <Pair hl title="Replaces">Favored terrain gained at 5th level</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Usage">1 round/day per ranger level; these rounds need not be consecutive</Pair>
 <Pair title="Free Action">A jungle lord can climb with a climb speed equal to his land speed, and gains a bonus on Acrobatics checks equal to his ranger level.</Pair>
 </Ability>
-<Ability id="inspired-moment-ex" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="inspired-moment-ex" icon={["power","def"]}>
 <Pair single id="inspired-moment-ex">Inspired Moment (Ex)</Pair>
 <Pair hl title="Replaces">Quarry, improved quarry</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Free Action">The jungle lord can have an <em>inspired moment</em> once per day. The jungle lord gains the following benefits until the end of his next turn. His speed increases by 10 feet. He can take an extra <strong className="hl">move</strong> or <strong className="hl">swift action</strong> on his turn. He gains a +4 bonus to AC and on attack rolls, skill checks, or ability checks. Finally, he automatically confirms any critical threat he scores.</Pair>
 <Pair title="At 19th Level">He can use this ability one additional time per day.</Pair>
 </Ability>
-<Ability id="strong-bond-ex" icon={["upgrade"]}>
+<Ability id="strong-bond-ex" icon={["boost"]}>
 <Pair single id="strong-bond-ex" flavor="The jungle lord strengthens his bond with his animal companions.">Strong Bond (Ex)</Pair>
 <Pair hl title="Replaces">Camouflage</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">The jungle lord's effective druid level for his animal companions is now equal to his ranger level; he can immediately allocate these additional levels to his companions as he sees fit.</Pair>
 </Ability>
-<Ability id="victory-cry-ex" icon={["upgrade","shield-reflect"]}>
+<Ability id="victory-cry-ex" icon={["boost","protect"]}>
 <Pair single id="victory-cry-ex" flavor="The jungle lord's signature battle cry rallies his animal friends to greater combat prowess and hardiness.">Victory Cry (Ex)</Pair>
 <Pair hl title="Replaces">Master hunter</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -1165,23 +1165,23 @@ const _jungle_lord = {title: "Jungle Lord", jsx: <><h2 id="arc-ranger-jungle_lor
 const _lantern_lighter = {title: "Lantern Lighter", jsx: <><h2 id="arc-ranger-lantern_lighter-lantern-lighter">Lantern Lighter</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 113</Link>, <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 42</Link><br/>Lantern lighters were originally entrusted with secretly eliminating the drow and quarantining any knowledge of their existence, but in the new <Link to="/rule/lantern_bearers">Lantern Bearer</Link> era, the lantern lighters have refocused their efforts on helping to rescue those imprisoned by the drow, or even to help individual drow who seek to escape the cruelties of their society for a chance at redemption on the surface. Of course, escape from drow society is only the beginning of a drow's long and fraught path to redemption, and even the kindest or most repentant drow are likely to face prejudice from most of those who recognize her origins. In addition to their rescue efforts, lantern lighters often serve as sponsors for escapees and work to create pockets of civilization where redeemed drow can live in relative peace and safety by encouraging surface dwellers to cast aside the lurking shadows of prejudice and fear.</p>
 <p>While the vast majority of lantern lighters are <Link to="/race/elves">elves</Link> from Kyonin, a few non-elven members of the organization have proven themselves trustworthy and dedicated enough to join their ranks. As their efforts to spread the light to other regions beyond Kyonin grow, lantern lighters of other races are beginning to round out the order's numbers, particularly in areas and regions that suffer under oppressive regimes.</p>
-<Ability id="daylight" icon={["spell-book"]}>
+<Ability id="daylight" icon={["learn"]}>
 <Pair single id="daylight">Daylight</Pair>
 <Pair hl title="Alters">Spells</Pair>
 <Pair title="Ability">A lantern lighter treats <Link to="/spell/daylight">daylight</Link> as a 3rd-level ranger spell.</Pair>
 </Ability>
-<Ability id="enhanced-vision-ex" icon={["stairs-goal"]}>
+<Ability id="enhanced-vision-ex" icon={["power"]}>
 <Pair single id="enhanced-vision-ex" flavor="A lantern lighter hones his senses to better combat subterranean enemies.">Enhanced Vision (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Ability">He gains low-light vision. If the lantern lighter already has low-light vision, he can instead see three times as far as humans in areas of dim light.</Pair>
 </Ability>
-<Ability id="poison-resistance-ex" icon={["armor-upgrade"]}>
+<Ability id="poison-resistance-ex" icon={["def"]}>
 <Pair single id="poison-resistance-ex">Poison Resistance (Ex)</Pair>
 <Pair hl title="Replaces">Endurance</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A lantern lighter gains a +4 bonus on saving throws against poison.</Pair>
 </Ability>
-<Ability id="favored-terrain-ex" icon={["broken-shield"]}>
+<Ability id="favored-terrain-ex" icon={["down"]}>
 <Pair single id="favored-terrain-ex">Favored Terrain (Ex)</Pair>
 <Pair hl title="Alters">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -1190,37 +1190,37 @@ const _lantern_lighter = {title: "Lantern Lighter", jsx: <><h2 id="arc-ranger-la
 <Pair title="At 13th Level">The skill bonus and initiative bonus granted in this <em>favored terrain</em> increase by 2.</Pair>
 <Pair title="At 18th Level">The skill bonus and initiative bonus granted in this <em>favored terrain</em> increase by 2.</Pair>
 </Ability>
-<Ability id="cavern-stride-ex" icon={["upgrade"]}>
+<Ability id="cavern-stride-ex" icon={["boost"]}>
 <Pair single id="cavern-stride-ex">Cavern Stride (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">A lantern lighter's movement is unimpeded by nonmagical <Link to="/rule/difficult_terrain">difficult terrain</Link> underground and nonmagical webs.</Pair>
 </Ability>
-<Ability id="darkvision-ex" icon={["stairs-goal"]}>
+<Ability id="darkvision-ex" icon={["power"]}>
 <Pair single id="darkvision-ex">Darkvision (Ex)</Pair>
 <Pair hl title="Replaces">8th-level favored terrain</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">A lantern lighter's senses fully attune to the darkness, granting him darkvision to a distance of 60 feet. If the lantern lighter already has darkvision, its range increases by 30 feet.</Pair>
 </Ability>
-<Ability id="poison-immunity-ex" icon={["armor-upgrade"]}>
+<Ability id="poison-immunity-ex" icon={["def"]}>
 <Pair single id="poison-immunity-ex">Poison Immunity (Ex)</Pair>
 <Pair hl title="Replaces">Camouflage</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Passive Ability">A lantern lighter gains immunity to poison.</Pair>
 </Ability>
-<Ability id="stunning-light-su" icon={["armor-downgrade"]}>
+<Ability id="stunning-light-su" icon={["lower"]}>
 <Pair single id="stunning-light-su" flavor="A lantern lighter learns to increase the effectiveness of bright light on creatures with light blindness.">Stunning Light (Su)</Pair>
 <Pair hl title="Replaces">Favored terrain gained at 13th level</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Ability"><em>Daylight</em> spells cast by the lantern lighter or other sources of bright light he wields cause creatures with <Link to="/umr/light_blindness">light blindness</Link> within the area of bright light to become <Link to="/misc/stunned">stunned</Link> for 1 round in addition to being blinded.</Pair>
 </Ability>
-<Ability id="camouflage-ex" icon={["stairs-goal"]}>
+<Ability id="camouflage-ex" icon={["power"]}>
 <Pair single id="camouflage-ex">Camouflage (Ex)</Pair>
 <Pair hl title="Replaces">Hide in plain sight</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Ability">A lantern lighter gains <em>camouflage,</em> as the ranger class feature.</Pair>
 </Ability>
-<Ability id="paralyzing-light-su" icon={["armor-downgrade"]}>
+<Ability id="paralyzing-light-su" icon={["lower"]}>
 <Pair single id="paralyzing-light-su" flavor="A lantern lighter can stop light-blind enemies in their tracks, often gaining a great edge in battle.">Paralyzing Light (Su)</Pair>
 <Pair hl title="Replaces">Favored terrain gained at 18th level</Pair>
 <Pair title="Gained">At 18th Level</Pair>
@@ -1229,12 +1229,12 @@ const _lantern_lighter = {title: "Lantern Lighter", jsx: <><h2 id="arc-ranger-la
 </>};
 const _nirmathi_irregular = {title: "Nirmathi Irregular", jsx: <><h2 id="arc-ranger-nirmathi_irregular-nirmathi-irregular">Nirmathi Irregular</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 37</Link><br/>The forested country of Nirmathas is known for its rangers - skilled trackers, marksmen, and silent stalkers under the leafy canopy. Nirmathas has no formal military, for her people love their freedom and are reluctant to take orders from anyone, so her defense falls to individual scouts and small groups of allied commandos. Many of Nirmathas's rangers take the <Link to="/arc-ranger/guide">guide</Link> or <Link to="/arc-ranger/skirmisher">skirmisher</Link> archetypes, but some focus on the magic of stealth. These irregular troops fight against the frequent invasions by Molthuni soldiers, striking quickly and melting into the green shadows as soon as their opponents rally themselves for a counterattack. A Nirmathi irregular has the following class features.</p>
-<Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["down"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Replaces">Armor and weapon proficiency</Pair>
 <Pair title="Ability">A Nirmathi irregular is proficient with all simple and martial weapons and with light armor.</Pair>
 </Ability>
-<Ability id="focused-enemy-ex" icon={["broken-shield"]}>
+<Ability id="focused-enemy-ex" icon={["down"]}>
 <Pair single id="focused-enemy-ex">Focused Enemy (Ex)</Pair>
 <Pair hl title="Alters">Favored enemy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -1245,13 +1245,13 @@ const _nirmathi_irregular = {title: "Nirmathi Irregular", jsx: <><h2 id="arc-ran
 <Pair title="At 20th Level">The <em>favored enemy</em> bonus increases to +10.</Pair>
 <Pair title="Special">This otherwise acts as and replaces the standard <em>favored enemy</em> ability.</Pair>
 </Ability>
-<Ability id="forest-ghost-ex" icon={["upgrade"]}>
+<Ability id="forest-ghost-ex" icon={["boost"]}>
 <Pair single id="forest-ghost-ex">Forest Ghost (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">A Nirmathi irregular adds a bonus equal to 1/2 his level on all Perception and Survival skill checks he makes while located in forest terrain.<sup><InnerLink showBacklink="backlink-arc-ranger-nirmathi_irregular-fake-fn-1" id="arc-ranger-nirmathi_irregular-fake-fn-1" data-hash-target to="arc-ranger-nirmathi_irregular-fake-fn-1-target">1</InnerLink></sup></Pair>
 </Ability>
-<Ability id="focused-terrain" icon={["broken-shield"]}>
+<Ability id="focused-terrain" icon={["down"]}>
 <Pair single id="focused-terrain">Focused Terrain</Pair>
 <Pair hl title="Alters">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -1261,7 +1261,7 @@ const _nirmathi_irregular = {title: "Nirmathi Irregular", jsx: <><h2 id="arc-ran
 <Pair title="At 18th Level">The <em>favored terrain</em> bonus becomes +8.</Pair>
 <Pair title="Special">This otherwise acts as and replaces the standard <em>favored enemy</em> ability.</Pair>
 </Ability>
-<Ability id="spells" icon={["spell-book"]}>
+<Ability id="spells" icon={["learn"]}>
 <Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A Nirmathi irregular increases his number of spells per day by +1 for every spell level. This means the irregular gets at least 1 spell per day as soon as he gains access to a level of spells, even if the ranger's spell table lists 0 under spells per day.</Pair>
@@ -1272,62 +1272,62 @@ const _nirmathi_irregular = {title: "Nirmathi Irregular", jsx: <><h2 id="arc-ran
 </ol></section></>};
 const _planar_scout = {title: "Planar Scout", jsx: <><h2 id="arc-ranger-planar_scout-planar-scout">Planar Scout</h2>
 <p><strong>Sources</strong> <Link to="/source/planar_adventures">Planar Adventures pg. 17</Link><br/>Planar scouts are rangers specializing in traversing the planes - and surviving their journeys.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
-<Ability id="planar-empathy-ex" icon={["broken-shield","stairs-goal"]}>
+<Ability id="planar-empathy-ex" icon={["down","power"]}>
 <Pair single id="planar-empathy-ex">Planar Empathy (Ex)</Pair>
 <Pair hl title="Alters">Wild empathy</Pair>
 <Pair title="Ability">A planar scout can use <em>wild empathy</em> only on animals with the <Link to="/subtype/extraplanar">extraplanar</Link> subtype. He can use this ability to influence outsiders with an Intelligence score of 1 or 2, but he takes a -4 penalty on the check.</Pair>
 </Ability>
-<Ability id="planar-terrains-ex" icon={["stairs-goal"]}>
+<Ability id="planar-terrains-ex" icon={["power"]}>
 <Pair single id="planar-terrains-ex">Planar Terrains (Ex)</Pair>
 <Pair hl title="Alters">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A planar scout gains a planar terrain. <em>Planar terrains</em> function in all ways like a ranger's <em>favored terrain;</em> he must select a new plane each time he gains a <em>favored terrain.</em></Pair>
 </Ability>
-<Ability id="planar-bond-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="planar-bond-su" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="planar-bond-su">Planar Bond (Su)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">Rather than forge a bond with an animal or his allies, a planar scout forms a bond with a specific plane. The planar scout becomes infused with the essence of his plane of choice, taking on physical characteristics of denizens native to his chosen plane as well as the abilities listed below.</Pair>
 </Ability>
-<Ability id="aligned-plane" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="aligned-plane" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="aligned-plane">Aligned Plane</Pair>
 <Pair title="Ability">If the planar scout selects a plane with an alignment trait, he gains a bonus on attack and damage rolls against outsiders and creatures with the extraplanar subtype whose alignments oppose this alignment trait. This bonus is equal to <Link to="/misc/one_fourth">one-fourth</Link> of his ranger level.</Pair>
 </Ability>
-<Ability id="astral-plane" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="astral-plane" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="astral-plane">Astral Plane</Pair>
 <Pair title="Move-Equivalent Action">Each day, the planar scout can teleport up to 5 feet per ranger level. This must be used in 5-foot increments.</Pair>
 <Pair title="At 10th Level">He can do so as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="ethereal-plane" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="ethereal-plane" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="ethereal-plane">Ethereal Plane</Pair>
 <Pair title="Ability">The planar scout can damage incorporeal creatures with mundane weapons as if they were <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapons.</Pair>
 <Pair title="At 10th Level">He can inflict critical hits and deal <Link to="/misc/precision_damage">precision damage</Link> to incorporeal creatures.</Pair>
 </Ability>
-<Ability id="first-world" extraClasses="subAbility" icon={["remedy"]}>
+<Ability id="first-world" extraClasses="subAbility" icon={["aid"]}>
 <Pair single id="first-world">First World</Pair>
 <Pair title="Usage">Wisdom modifier times/day</Pair>
 <Pair title="Swift Action">A planar scout can gain <Link to="/umr/fast_healing">fast healing</Link> 2 for a number of rounds equal to his ranger level.</Pair>
 </Ability>
-<Ability id="plane-of-air" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="plane-of-air" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="plane-of-air">Plane of Air</Pair>
 <Pair title="Swift Action">The planar scout can gain a fly speed (average) equal to his base speed for a number of minutes equal to his ranger level (minimum 1 minute). This duration need not be used consecutively.</Pair>
 </Ability>
-<Ability id="plane-of-earth" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="plane-of-earth" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="plane-of-earth">Plane of Earth</Pair>
 <Pair title="Ability">The planar scout gains a bonus to his natural armor. This bonus is equal to one-fourth of his ranger level.</Pair>
 </Ability>
-<Ability id="plane-of-fire" extraClasses="subAbility" icon={["armor-upgrade","upgrade"]}>
+<Ability id="plane-of-fire" extraClasses="subAbility" icon={["def","boost"]}>
 <Pair single id="plane-of-fire">Plane of Fire</Pair>
 <Pair title="Usage">1 round/day per ranger level; these rounds need not be consecutive</Pair>
 <Pair title="Swift Action">The planar scout can wreathe his body in flames. This grants the planar scout fire resistance 5 and causes his melee attacks to each deal 1d4 additional points of fire damage.</Pair>
 <Pair title="At 9th Level">The scout's fire resistance becomes 10.</Pair>
 <Pair title="At 14th Level">The scout's fire resistance increases to 15.</Pair>
 </Ability>
-<Ability id="plane-of-shadow" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Ability id="plane-of-shadow" extraClasses="subAbility" icon={["power","boost"]}>
 <Pair single id="plane-of-shadow">Plane of Shadow</Pair>
 <Pair title="Ability">The planar scout gains darkvision 60 feet and a +4 bonus on Stealth checks.</Pair>
 <Pair title="At 8th Level">The bonus on Stealth checks becomes +4.</Pair>
@@ -1335,11 +1335,11 @@ const _planar_scout = {title: "Planar Scout", jsx: <><h2 id="arc-ranger-planar_s
 <Pair title="At 16th Level">The bonus on Stealth checks becomes +8.</Pair>
 <Pair title="At 20th Level">The bonus on Stealth checks increases to +10.</Pair>
 </Ability>
-<Ability id="plane-of-water" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="plane-of-water" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="plane-of-water">Plane of Water</Pair>
 <Pair title="Ability">The planar scout gains the <Link to="/umr/amphibious">amphibious</Link> subtype and a swim speed equal to base speed.</Pair>
 </Ability>
-<Ability id="planar-adaptation-su" icon={["armor-upgrade","shield-reflect"]}>
+<Ability id="planar-adaptation-su" icon={["def","protect"]}>
 <Pair single id="planar-adaptation-su">Planar Adaptation (Su)</Pair>
 <Pair hl title="Replaces">Evasion, improved evasion</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -1351,7 +1351,7 @@ const _planar_scout = {title: "Planar Scout", jsx: <><h2 id="arc-ranger-planar_s
 </>};
 const _poison_darter = {title: "Poison Darter", jsx: <><h2 id="arc-ranger-poison_darter-poison-darter">Poison Darter</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 9</Link><br/>In dense jungles, foliage and tight spaces hinder all but the most deceptively humble weapons: <Link to="/eq-weapon/blowgun">blowguns</Link> and poison.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-poison_darter--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/grippli">Grippli</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="debilitating-venom-ex" icon={["stairs-goal"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-poison_darter--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/grippli">Grippli</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="debilitating-venom-ex" icon={["power"]}>
 <Pair single id="debilitating-venom-ex" flavor="A poison darter can concoct potent toxins that he can apply to his weapons.">Debilitating Venom (Ex)</Pair>
 <Pair hl title="Replaces">Favored enemy, master hunter</Pair>
 <Pair title="Usage">A number of times/day equal to <Link to="/misc/half">half</Link> his ranger level + his Wisdom modifier</Pair>
@@ -1364,18 +1364,18 @@ const _poison_darter = {title: "Poison Darter", jsx: <><h2 id="arc-ranger-poison
 <Pair title="At 15th Level">The poison dart can choose to deal Strength, Dexterity, or Constitution damage with the <em>debilitating venom,</em> selected when he creates the toxin.</Pair>
 <Pair title="At 20th Level">The poison's damage die increases to 1d6.</Pair>
 </Ability>
-<Ability id="poison-use-ex" icon={["armor-upgrade"]}>
+<Ability id="poison-use-ex" icon={["def"]}>
 <Pair single id="poison-use-ex">Poison Use (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Ability">A poison darter is trained in the use of poison and cannot accidentally poison himself when applying poison to a weapon.</Pair>
 </Ability>
-<Ability id="poison-style-ex" icon={["stairs-goal"]}>
+<Ability id="poison-style-ex" icon={["power"]}>
 <Pair single id="poison-style-ex">Poison Style (Ex)</Pair>
 <Pair hl title="Alters">Combat style feat</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">In place of a combat style feat, a poison darter can select any <Link to="/ability/rogue_talents">rogue talent</Link> that modifies sneak attacks or any alchemist <Link to="/ability/discovery">discovery</Link> that modifies poisons he creates and applies, using his Wisdom modifier in place of his Intelligence modifier and his ranger level in place of his alchemist or rogue level for the purpose of meeting prerequisites. He can use the <Link to="/discovery/sticky_poison">sticky poison</Link> discovery to apply a single dose of poison to two blowgun darts without reducing its potency.</Pair>
 </Ability>
-<Ability id="precise-dart-ex" icon={["stairs-goal"]}>
+<Ability id="precise-dart-ex" icon={["power"]}>
 <Pair single id="precise-dart-ex">Precise Dart (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -1393,37 +1393,37 @@ const _poison_darter = {title: "Poison Darter", jsx: <><h2 id="arc-ranger-poison
 const _raven_master = {title: "Raven Master", jsx: <><h2 id="arc-ranger-raven_master-raven-master">Raven Master</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 175</Link><br/>While the <Link to="/rule/silver_ravens">Silver Ravens</Link> adopted their name as a way to honor the group of adventurers who defended Kintargo during the Chelish Civil War, some Silver Ravens have gone even farther, breeding and training actual ravens to serve both as living symbols of the organization and as fearsome weapons against House Thrune and its diabolic servants. These rangers, known as raven masters, eschew a ranger's usual connection to the natural world to form a mystic bond with their birds and to grant both animal and master a number of specialized abilities. Over time, the feathers of these raven companions take on a silvery sheen, causing them to resemble the birds produced by the figurines of wondrous power, which served as the original Silver Ravens' namesake.</p>
 <p>Raven masters serve as messengers and spies for the Silver Ravens, using their ravens to scout the border between Ravounel and Cheliax and report any suspicious Thrune troop movements. Outside of Cheliax, raven companions alight on the rooftops and window ledges of palaces and keeps to eavesdrop on tyrants and dictators, feeding these precious secrets to the raven master so that she can more efficiently foment and organize rebellion.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Climb, Heal, Intimidate, Ride, Swim</Pair></Ability>
-<Ability id="avian-empathy-ex" icon={["broken-shield"]}>
+<Ability id="avian-empathy-ex" icon={["down"]}>
 <Pair single id="avian-empathy-ex">Avian Empathy (Ex)</Pair>
 <Pair hl title="Alters">Wild empathy</Pair>
 <Pair title="Info">A raven master's <em>wild empathy</em> affects only birds.</Pair>
 </Ability>
-<Ability id="raven-companion-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="raven-companion-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="raven-companion-ex">Raven Companion (Ex)</Pair>
 <Pair hl title="Alters">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A raven master earns the trust and companionship of a particularly large, powerful, and intelligent raven. This ability functions like the druid <Link to="/ability/animal_companion">animal companion</Link> ability, except that the raven master's effective druid level is equal to her ranger level - 3. The raven master must select a <Link to="/companion/bird">bird</Link> as her animal companion. The raven companion starts with an Intelligence score of 3 and can speak one language known by the raven master. In addition to the normal abilities an <Link to="/sidekick/animal_companion">animal companion</Link> gains as the raven master increases in level, the raven companion gains the following abilities.</Pair>
 </Ability>
-<Ability id="silver-champion-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="silver-champion-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="silver-champion-ex">Silver Champion (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="At 7th Level">The raven companion takes on a silvery, metallic appearance. It treats all of its natural attacks as though they were magic and silver for the purpose of bypassing damage reduction.</Pair>
 </Ability>
-<Ability id="mimic-figurine-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="mimic-figurine-su" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="mimic-figurine-su">Mimic Figurine (Su)</Pair>
 <Pair hl title="Replaces">Swift tracker</Pair>
 <Pair title="At 8th Level">Once per day as a <strong className="hl">standard action</strong>, the raven master can transform her raven companion into a token similar to a <Link to="/magic-wondrous/figurine_of_wondrous_power">figurine of wondrous power</Link>. Any gear worn by the raven melds into its body as part of this transformation, but held items do not. The raven can remain in this form indefinitely, or until the raven master spends a standard action to activate the statuette as though it were a <em>figurine of wondrous power.</em></Pair>
 </Ability>
-<Ability id="cheat-death-sp" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="cheat-death-sp" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="cheat-death-sp">Cheat Death (Sp)</Pair>
 <Pair hl title="Replaces">Camouflage</Pair>
 <Pair title="At 12th Level">Once per week, when a raven companion would otherwise be slain by an attack, spell, or effect, it can turn into a <em>figurine of wondrous power</em> as per its <em>mimic figurine</em> ability as an <strong className="hl">immediate action</strong>. Once transformed this way, the raven companion cannot transform back into a raven until the raven master next prepares spells.</Pair>
 </Ability>
-<Ability id="argent-magic" icon={["spell-book"]}>
+<Ability id="argent-magic" icon={["learn"]}>
 <Pair single id="argent-magic">Argent Magic</Pair>
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Ability">A raven master casts spells as do most rangers, but her spell list is somewhat expanded from the normal options most rangers can choose from, for her association with the bards and other talented performers among the Silver Ravens allows her to add a limited number of <Link to="/main/bard_spell">bard spells</Link> to her spell list. These spells function as divine spells, and are cast and prepared in the same manner as her other ranger spells.</Pair>
@@ -1435,16 +1435,16 @@ const _raven_master = {title: "Raven Master", jsx: <><h2 id="arc-ranger-raven_ma
 </>};
 const _realm_wanderer = {title: "Realm Wanderer", jsx: <><h2 id="arc-ranger-realm_wanderer-realm-wanderer">Realm Wanderer</h2>
 <p><strong>Sources</strong> <Link to="/source/distant_realms">Distant Realms pg. 22</Link><br/>Some of the most free-roaming rangers are those who tread between locales so varied that they may as well be separate worlds altogether - and quite often these disparate places are literally <Link to="/rule/hell">Hell</Link> and the Material Plane. Like the Queen of Dis, whom many of them admire, these rangers take to heart the lessons they've learned from their vastly contrasting experiences and know that creatively embracing this wisdom is sometimes the difference between life and death.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/bluff">Bluff</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Intimidate, Stealth</Pair></Ability>
-<Ability id="deceptive-subtlety-ex" icon={["upgrade"]}>
+<Ability id="deceptive-subtlety-ex" icon={["boost"]}>
 <Pair single id="deceptive-subtlety-ex">Deceptive Subtlety (Ex)</Pair>
 <Pair hl title="Replaces">Track</Pair>
 <Pair title="Ability">A realm wanderer adds half his level (minimum 1) to Diplomacy checks to influence a creature's attitude, to make requests of creatures, and for similar uses of the skill. He also adds half his level (minimum 1) to Bluff checks to deceive, lie, or convey secret messages.</Pair>
 </Ability>
-<Ability id="queens-bond-ex" icon={["broken-shield"]}>
+<Ability id="queens-bond-ex" icon={["down"]}>
 <Pair single id="queens-bond-ex">Queen's Bond (Ex)</Pair>
 <Pair hl title="Alters">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -1452,13 +1452,13 @@ const _realm_wanderer = {title: "Realm Wanderer", jsx: <><h2 id="arc-ranger-real
 <p>If the realm wanderer releases his animal companion from service or it perishes, he can gain a new fiendish animal companion by completing the required ceremony. Alternatively, when the realm wanderer releases his animal companion or it dies in his service, he can use his influence over its fiendish nature to cause the animal to lose the fiendish template. If the animal companion is then raised or otherwise brought back from the dead after the realm wanderer removes its fiendish template, the animal companion no longer takes the penalty on attacks described above. (He cannot, however, gain a new non-fiendish animal companion by completing the ceremony to replace an animal companion.)</p>
 </Pair>
 </Ability>
-<Ability id="dual-master-ex" icon={["upgrade"]}>
+<Ability id="dual-master-ex" icon={["boost"]}>
 <Pair single id="dual-master-ex">Dual Master (Ex)</Pair>
 <Pair hl title="Replaces">Swift tracker</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">The realm wanderer's bonuses from <em>deceptive subtlety</em> are doubled when he is in either of his two <em>favored terrain</em> types. However, this benefit applies only to the first two <em>favored terrain</em> types he selected; as he gains additional <em>favored terrains</em> at higher levels, this benefit does not apply in those additional terrain types.</Pair>
 </Ability>
-<Ability id="shrewdest-monarch-su" icon={["stairs-goal","upgrade"]}>
+<Ability id="shrewdest-monarch-su" icon={["power","boost"]}>
 <Pair single id="shrewdest-monarch-su" flavor="The realm wanderer has become a true master of the territories with which he is familiar.">Shrewdest Monarch (Su)</Pair>
 <Pair hl title="Replaces">Master hunter</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -1469,7 +1469,7 @@ const _realm_wanderer = {title: "Realm Wanderer", jsx: <><h2 id="arc-ranger-real
 </>};
 const _sable_company_marine = {title: "Sable Company Marine", jsx: <><h2 id="arc-ranger-sable_company_marine-sable-company-marine">Sable Company Marine</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_combat">Inner Sea Combat pg. 43</Link>, <Link to="/source/paizo_blog___sable_company_marine">Paizo Blog - Sable Company Marine</Link><br/>Sable Company marines receive their training at the elite Endrin Military Academy in Korvosa. A large portion of their education is the handling and riding of hippogriffs, the iconic mounts of members of the company.</p>
-<Ability id="hippogriff-companion" icon={["stairs-goal"]}>
+<Ability id="hippogriff-companion" icon={["power"]}>
 <Pair single id="hippogriff-companion">Hippogriff Companion</Pair>
 <Pair hl title="Replaces">Hunter's bond (but see text)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -1479,13 +1479,13 @@ const _sable_company_marine = {title: "Sable Company Marine", jsx: <><h2 id="arc
 </>};
 const _sentinel = {title: "Sentinel", jsx: <><h2 id="arc-ranger-sentinel-sentinel">Sentinel</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 42</Link><br/>A sentinel specializes in heightening all of her senses to expose spies and those who work for opposing factions, rooting out all who attempt to slip past her evervigilant watch. Her uncanny skills are in ready demand by city guards, business owners, and even criminal organizations that desire to keep the authorities out of their disreputable affairs.</p>
-<Ability id="mugshot-sp" icon={["upgrade"]}>
+<Ability id="mugshot-sp" icon={["boost"]}>
 <Pair single id="mugshot-sp">Mugshot (Sp)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Ability">A sentinel can spend 1 minute studying the appearance of a target or a likeness of the target in the form of a picture, carving, or visual illusion and memorize it with perfect recall. From that point on, the sentinel gains a +4 bonus on Perception checks to notice the target in disguise or pick him out of a crowd. The sentinel is automatically allowed a Perception check against the target's Disguise check whenever she sees the target, even if the individual isn't doing anything to draw attention to himself.</Pair>
 <Pair title="Special">A sentinel can memorize the appearance of a number of targets equal to her Wisdom modifier (minimum 1) at any given time. Once a sentinel has reached her maximum number of memorized appearances, she must forget one of the memorized faces before gaining a new one.</Pair>
 </Ability>
-<Ability id="uncanny-alertness-ex" icon={["armor-upgrade","stairs-goal"]}>
+<Ability id="uncanny-alertness-ex" icon={["def","power"]}>
 <Pair single id="uncanny-alertness-ex" flavor="A sentinel is always ready to defend against incoming attacks.">Uncanny Alertness (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond, woodland stride</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -1501,7 +1501,7 @@ const _sentinel = {title: "Sentinel", jsx: <><h2 id="arc-ranger-sentinel-sentine
 <Pair title="At 10th Level">Starting at 10th level, whenever the sentinel gains a combat style feat, she can choose to trade it for a 10-foot increase in the radius of this ability.</Pair>
 <Pair title="Special">This sort of heightened analysis of sensory stimuli is taxing, as much so as <Link to="/rule/hustling">hustling</Link> overland for an equivalent period of time, despite not moving from a single spot. The sentinel can use this ability for 1 hour without penalty. Using <em>sense intruder</em> for a second hour in between sleep cycles deals 1 point of nonlethal damage to the sentinel, and each additional hour deals twice the damage taken during the previous hour. A sentinel who takes any nonlethal damage from using this ability becomes <Link to="/misc/fatigued">fatigued</Link>. Each hour the sentinel uses <em>sense intruder</em> also counts as 1 hour of hustling overland for the purpose of determining how much nonlethal damage the sentinel takes in a single day.</Pair>
 </Ability>
-<Ability id="mugshot-quarry-ex" icon={["stairs-goal"]}>
+<Ability id="mugshot-quarry-ex" icon={["power"]}>
 <Pair single id="mugshot-quarry-ex">Mugshot Quarry (Ex)</Pair>
 <Pair hl title="Alters">Quarry, improved quarry</Pair>
 <Pair title="Gained">At 11th Level</Pair>
@@ -1510,12 +1510,12 @@ const _sentinel = {title: "Sentinel", jsx: <><h2 id="arc-ranger-sentinel-sentine
 </>};
 const _shapeshifter = {title: "Shapeshifter", jsx: <><h2 id="arc-ranger-shapeshifter-shapeshifter">Shapeshifter</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 126</Link><br/>Most rangers venture into the wilderness, but there are some who let the wilderness seep into them. Whether by curse, disease, ancient rite, a slight lycanthropic influence in the blood, or the corrupting influence of chaos, these rangers embrace the wild to transform themselves into something untamed and feral. Shapeshifters are often held in awe, but are even more often feared. A shapeshifter has the following class features.</p>
-<Ability id="combat-style-feat-ex" icon={["broken-shield"]}>
+<Ability id="combat-style-feat-ex" icon={["down"]}>
 <Pair single id="combat-style-feat-ex">Combat Style Feat (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A shapeshifter ranger must choose the natural weapon <Link to="/ability/combat_styles">combat style</Link>.</Pair>
 </Ability>
-<Ability id="shifters-blessing-su" extraClasses="hasSubs" icon={["magic-swirl"]}>
+<Ability id="shifters-blessing-su" extraClasses="hasSubs" icon={["magic"]}>
 <Pair single id="shifters-blessing-su">Shifter's Blessing (Su)</Pair>
 <Pair hl title="Replaces">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -1526,70 +1526,70 @@ const _shapeshifter = {title: "Shapeshifter", jsx: <><h2 id="arc-ranger-shapeshi
 <Pair title="At 18th Level">The ranger may select an additional form for his <em>shifter's blessing</em> and can use this ability 4 times/day.</Pair>
 <Pair title="Special">This is not a polymorph ability; a ranger with <em>shifter's blessing</em> in one of his shifted forms can be affected by a polymorph ability and retain his bonus and traits gained by the class feature.</Pair>
 </Ability>
-<Ability id="form-of-the-bear" extraClasses="subAbility" icon={["upgrade","broken-shield"]}>
+<Ability id="form-of-the-bear" extraClasses="subAbility" icon={["boost","down"]}>
 <Pair single id="form-of-the-bear">Form of the Bear</Pair>
 <Pair title="Ability">The ranger's muscles enlarge and tighten, and his facial features become more ursine. While in this form, the ranger gains a +4 enhancement bonus to Strength, but his base speed becomes 20 feet.</Pair>
 </Ability>
-<Ability id="form-of-the-cat" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="form-of-the-cat" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="form-of-the-cat">Form of the Cat</Pair>
 <Pair title="Ability">The ranger's muscles become lean and defined, and his gait more deliberate and graceful. While in this form, the ranger increases his base speed by 10 feet, and he gains a +4 bonus on Acrobatics and Climb checks.</Pair>
 </Ability>
-<Ability id="form-of-the-dragon" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="form-of-the-dragon" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="form-of-the-dragon">Form of the Dragon</Pair>
 <Pair title="Ability">The ranger's skin becomes rough and scaly. While in this form, the ranger gains a +2 natural armor bonus to AC.</Pair>
 </Ability>
-<Ability id="form-of-the-eagle" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="form-of-the-eagle" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="form-of-the-eagle">Form of the Eagle</Pair>
 <Pair title="Ability">The ranger's skin stretches, his nose becomes hooked, and his eyes enlarge. While in this form, the ranger gains a +10 bonus on Perception checks.</Pair>
 </Ability>
-<Ability id="form-of-the-jackal" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="form-of-the-jackal" extraClasses="subAbility" icon={["power","def"]}>
 <Pair single id="form-of-the-jackal">Form of the Jackal</Pair>
 <Pair title="Ability">The ranger becomes thin and hyperactive, his movements taking on a nervous spryness. While in this form, the ranger can spend a <strong className="hl">move action</strong> to move up to 1/2 his speed without provoking attacks of opportunity.</Pair>
 </Ability>
-<Ability id="form-of-the-otter" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Ability id="form-of-the-otter" extraClasses="subAbility" icon={["power","boost"]}>
 <Pair single id="form-of-the-otter">Form of the Otter</Pair>
 <Pair title="Ability">The ranger's hands and feet grow webs, and his body grows an oily fur that is water resistant. While in this form, the ranger gains a swim speed of 30 feet and a +8 bonus on Swim checks.</Pair>
 </Ability>
-<Ability id="dual-form-shifter-ex" icon={["upgrade"]}>
+<Ability id="dual-form-shifter-ex" icon={["boost"]}>
 <Pair single id="dual-form-shifter-ex">Dual Form Shifter (Ex)</Pair>
 <Pair hl title="Replaces">Camouflage</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">When the shapeshifter takes on a <em>shifter's blessing</em> form, he can take on a hybrid of two of his forms. He gains the bonuses for both forms.</Pair>
 </Ability>
-<Ability id="master-shifter-su" extraClasses="hasSubs" icon={["upgrade"]}>
+<Ability id="master-shifter-su" extraClasses="hasSubs" icon={["boost"]}>
 <Pair single id="master-shifter-su">Master Shifter (Su)</Pair>
 <Pair hl title="Replaces">Master hunter </Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">The ranger's <em>shifter's blessing</em> forms improve, and he can take on true forms of beasts. The ranger can use <em>dual form shifter</em> with this ability, although he cannot use more than one polymorph effect at any one time. The ranger's forms from <em>shifter's blessing</em> improve to the following.</Pair>
 </Ability>
-<Ability id="form-of-the-bear" extraClasses="subAbility" icon={["upgrade","magic-swirl"]}>
+<Ability id="form-of-the-bear" extraClasses="subAbility" icon={["boost","magic"]}>
 <Pair single id="form-of-the-bear">Form of the Bear</Pair>
 <Pair title="Ability">The ranger's muscles enlarge and tighten, and his facial features become more ursine. While in this form, the ranger gains a +8 enhancement bonus to Strength and he does not suffer any reduction of speed. Alternatively, the ranger can polymorph into the form of a bear as if the caster of <Link to="/spell/beast_shape_iv">beast shape IV</Link>.</Pair>
 </Ability>
-<Ability id="form-of-the-cat" extraClasses="subAbility" icon={["upgrade","magic-swirl"]}>
+<Ability id="form-of-the-cat" extraClasses="subAbility" icon={["boost","magic"]}>
 <Pair single id="form-of-the-cat">Form of the Cat</Pair>
 <Pair title="Ability">The ranger's muscles become lean and defined, and his gait more deliberate and graceful. While in this form, the ranger increases his base speed by 20 feet and he gains a +10 bonus on Acrobatics and Climb checks. Alternatively, the ranger can polymorph into the form of a cat of any size as if the caster of <em>beast shape IV.</em></Pair>
 </Ability>
-<Ability id="form-of-the-dragon" extraClasses="subAbility" icon={["armor-upgrade","stairs-goal","magic-swirl"]}>
+<Ability id="form-of-the-dragon" extraClasses="subAbility" icon={["def","power","magic"]}>
 <Pair single id="form-of-the-dragon">Form of the Dragon</Pair>
 <Pair title="Ability">The ranger's skin becomes rough and scaly. While in this form, the ranger gains a +4 natural armor bonus to AC and a fly speed of 30 feet with average maneuverability. Alternately, the ranger can polymorph into the form of a dragon as if the caster of <Link to="/spell/form_of_the_dragon_i">form of the dragon I</Link>.</Pair>
 </Ability>
-<Ability id="form-of-the-eagle" extraClasses="subAbility" icon={["upgrade","stairs-goal","magic-swirl"]}>
+<Ability id="form-of-the-eagle" extraClasses="subAbility" icon={["boost","power","magic"]}>
 <Pair single id="form-of-the-eagle">Form of the Eagle</Pair>
 <Pair title="Ability">The ranger's skin stretches, his nose becomes hooked, and his eyes enlarge. While in this form, the ranger gains a +10 bonus on Perception checks and a fly speed of 40 feet with good maneuverability. Alternatively, the ranger can polymorph into the form of an eagle or similar raptor as if the caster of <em>beast shape IV.</em></Pair>
 </Ability>
-<Ability id="form-of-the-jackal" extraClasses="subAbility" icon={["armor-upgrade","magic-swirl"]}>
+<Ability id="form-of-the-jackal" extraClasses="subAbility" icon={["def","magic"]}>
 <Pair single id="form-of-the-jackal">Form of the Jackal</Pair>
 <Pair title="Ability">The ranger becomes thin and hyperactive, his movements taking on a nervous spryness. While in this form, the ranger does not provoke attacks of opportunity due to movement. Alternatively, the ranger can polymorph into the form of a jackal or other canine creature as if the caster of <em>beast shape IV.</em></Pair>
 </Ability>
-<Ability id="form-of-the-otter" extraClasses="subAbility" icon={["stairs-goal","upgrade","magic-swirl"]}>
+<Ability id="form-of-the-otter" extraClasses="subAbility" icon={["power","boost","magic"]}>
 <Pair single id="form-of-the-otter">Form of the Otter</Pair>
 <Pair title="Ability">The ranger's hands and feet grow webs, and his body grows an oily fur that is water resistant. While in this form, the ranger gains a swim speed of 60 feet and a +5 bonus on Swim checks. Alternatively, the ranger can polymorph into the form of an otter or similar river mammal as if the caster of <em>beast shape IV.</em></Pair>
 </Ability>
 </>};
 const _skirmisher = {title: "Skirmisher", jsx: <><h2 id="arc-ranger-skirmisher-skirmisher">Skirmisher</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 128</Link><br/>Many rangers rely on spells, but there are some who eschew aid from divine powers for their own reasons. Skirmishers rely on their wits, their wisdom, and sometimes even instinct to aid in their quests. A skirmisher has the following class features.</p>
-<Ability id="hunters-tricks" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="hunters-tricks" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="hunters-tricks" flavor={<>A skirmisher ranger learns the use of <em>hunter's tricks,</em> which typically grant a boon or bonus to the ranger or a nearby ally.</>}>Hunter's Tricks</Pair>
 <Pair hl title="Replaces">Spellcasting ability</Pair>
 <Pair title="At 5th Level">The ranger learns one trick, selected from the list below.</Pair>
@@ -1602,115 +1602,115 @@ const _skirmisher = {title: "Skirmisher", jsx: <><h2 id="arc-ranger-skirmisher-s
 <Pair title="At 19th Level">He learns his 7th trick.</Pair>
 <Pair title="Special">Tricks are usually <strong className="hl">swift actions</strong>, but sometimes <strong className="hl">move</strong> or <strong className="hl">free</strong> actions that modify a <strong className="hl">standard action</strong>, usually an attack action. Once a trick is chosen, it can't be retrained. A ranger cannot select an individual trick more than once.</Pair>
 </Ability>
-<Ability id="aiding-attack-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="aiding-attack-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="aiding-attack-ex">Aiding Attack (Ex)</Pair>
 <Pair title="Free Action">The ranger can use this trick when he hits a creature with an attack. The next ally who makes an attack against the target creature before the start of the ranger's next turn gains a +2 circumstance bonus on that attack roll.</Pair>
 </Ability>
-<Ability id="bolster-companion-ex" extraClasses="subAbility" icon={["shield-reflect"]}>
+<Ability id="bolster-companion-ex" extraClasses="subAbility" icon={["protect"]}>
 <Pair single id="bolster-companion-ex">Bolster Companion (Ex)</Pair>
 <Pair title="Immediate Action">The ranger can use this trick when his animal companion is hit with an attack or a combat maneuver. The companion's AC and combat maneuver defense increase by +4 for the purposes of that attack. If the attack still hits, the animal companion only takes half damage (if any). The animal companion must be able to see and hear the ranger to benefit from this trick.</Pair>
 </Ability>
-<Ability id="catfall-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="catfall-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="catfall-ex">Catfall (Ex)</Pair>
 <Pair title="Immediate Action">The ranger can use this trick when he falls 20 or more feet, ignoring the first 20 feet of the fall when calculating the <Link to="/rule/falling">falling damage</Link>. If the ranger takes no damage from the fall, he does not fall prone.</Pair>
 </Ability>
-<Ability id="chameleon-step-ex" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Ability id="chameleon-step-ex" extraClasses="subAbility" icon={["power","boost"]}>
 <Pair single id="chameleon-step-ex">Chameleon Step (Ex)</Pair>
 <Pair title="Move-Equivalent Action">The ranger can move up to twice his speed. The ranger does not take any penalty on Stealth checks for movement during this move. This move provokes attacks of opportunity as normal.</Pair>
 </Ability>
-<Ability id="cunning-pantomime-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="cunning-pantomime-ex" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="cunning-pantomime-ex">Cunning Pantomime (Ex)</Pair>
 <Pair title="Standard Action">The ranger can communicate with a single creature as if using the <Link to="/spell/tongues">tongues</Link> spell for 10 minutes. Because the communication is slow and lacks subtlety, the ranger suffers a -4 penalty on all Bluff and Diplomacy checks relating to the creature he is communicating with when using this trick.</Pair>
 </Ability>
-<Ability id="defensive-bow-stance-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="defensive-bow-stance-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="defensive-bow-stance-ex">Defensive Bow Stance (Ex)</Pair>
 <Pair title="Swift Action">Until the start of his next turn, the ranger's ranged attacks do not provoke attacks of opportunity.</Pair>
 </Ability>
-<Ability id="deft-stand-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="deft-stand-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="deft-stand-ex">Deft Stand (Ex)</Pair>
 <Pair title="Move-Equivalent Action">The ranger can spend a move action to stand up without provoking attacks of opportunity.</Pair>
 </Ability>
-<Ability id="distracting-attack-ex" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Ability id="distracting-attack-ex" extraClasses="subAbility" icon={["lower"]}>
 <Pair single id="distracting-attack-ex">Distracting Attack (Ex)</Pair>
 <Pair title="Free Action">The ranger can use this trick before he makes an attack. If the attack hits, the target takes a -2 penalty on all attack rolls for 1 round.</Pair>
 </Ability>
-<Ability id="hateful-attack-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="hateful-attack-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="hateful-attack-ex">Hateful Attack (Ex)</Pair>
 <Pair title="Free Action">The ranger can use this trick when he makes an attack against one of his <em>favored enemies.</em> The ranger doubles the threat range of his weapon for this attack. This does not stack with other abilities that increase a weapon's threat range.</Pair>
 </Ability>
-<Ability id="heel-ex" extraClasses="subAbility" icon={["shield-reflect"]}>
+<Ability id="heel-ex" extraClasses="subAbility" icon={["protect"]}>
 <Pair single id="heel-ex">Heel (Ex)</Pair>
 <Pair title="Immediate Action">The ranger can use this trick when his animal companion moves. When the companion moves, the square it starts out in is not considered threatened by any opponent it can see, and therefore visible enemies do not get attacks of opportunity against it when it moves from that square. The companion must end this movement in a square adjacent to the ranger. The animal companion must be able to see and hear the ranger to take this movement.</Pair>
 </Ability>
-<Ability id="hobbling-attack-ex" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Ability id="hobbling-attack-ex" extraClasses="subAbility" icon={["lower"]}>
 <Pair single id="hobbling-attack-ex">Hobbling Attack (Ex)</Pair>
 <Pair title="Free Action">The ranger can use this trick when he hits with an attack. The target of the attack's land speed is reduced by 1/2 for 1d4 rounds.</Pair>
 </Ability>
-<Ability id="quick-climb-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="quick-climb-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="quick-climb-ex">Quick Climb (Ex)</Pair>
 <Pair title="Move-Equivalent Action">The ranger can climb at his full speed without penalty.</Pair>
 </Ability>
-<Ability id="quick-healing-ex" extraClasses="subAbility" icon={["remedy"]}>
+<Ability id="quick-healing-ex" extraClasses="subAbility" icon={["aid"]}>
 <Pair single id="quick-healing-ex">Quick Healing (Ex)</Pair>
 <Pair title="Swift Action">The ranger can make a Heal check to administer first aid on an adjacent dying character.</Pair>
 <Pair title="Move-Equivalent Action">Alternatively, the ranger can administer a potion to an unconscious character.</Pair>
 </Ability>
-<Ability id="quick-swim-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="quick-swim-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="quick-swim-ex">Quick Swim (Ex)</Pair>
 <Pair title="Move-Equivalent Action">The ranger can swim at his full speed without penalty.</Pair>
 </Ability>
-<Ability id="rangers-counsel-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="rangers-counsel-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="rangers-counsel-ex">Ranger's Counsel (Ex)</Pair>
 <Pair title="Swift Action">The ranger can grant all allies within 30 feet that are within line of sight and can hear him a +2 bonus on skill checks with a single skill of his choice. The ranger must have at least one rank in the chosen skill. This bonus lasts for 1 round.</Pair>
 </Ability>
-<Ability id="rattling-strike-ex" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Ability id="rattling-strike-ex" extraClasses="subAbility" icon={["lower"]}>
 <Pair single id="rattling-strike-ex">Rattling Strike (Ex)</Pair>
 <Pair title="Free Action">The ranger can use this trick before he makes a melee attack. If the attack hits, the target is shaken for 1d4 rounds.</Pair>
 </Ability>
-<Ability id="second-chance-strike-ex" extraClasses="subAbility" icon={["rolling-dices"]}>
+<Ability id="second-chance-strike-ex" extraClasses="subAbility" icon={["roll"]}>
 <Pair single id="second-chance-strike-ex">Second Chance Strike (Ex)</Pair>
 <Pair title="Immediate Action">When he misses with a melee attack, the ranger may reroll his attack at a -5 penalty.</Pair>
 </Ability>
-<Ability id="sic-em-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="sic-em-ex" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="sic-em-ex">Sic-Em (Ex)</Pair>
 <Pair title="Swift Action">The ranger's animal companion makes one melee attack against an adjacent creature. The animal companion must be able to see and hear the ranger to make this attack.</Pair>
 </Ability>
-<Ability id="skill-sage-ex" extraClasses="subAbility" icon={["rolling-dices"]}>
+<Ability id="skill-sage-ex" extraClasses="subAbility" icon={["roll"]}>
 <Pair single id="skill-sage-ex">Skill Sage (Ex)</Pair>
 <Pair title="Free Action">The ranger can roll twice on any one skill check and take the better result. He must have at least 1 rank in that skill to use this ability.</Pair>
 </Ability>
-<Ability id="stags-leap-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="stags-leap-ex" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="stags-leap-ex">Stag's Leap (Ex)</Pair>
 <Pair title="Free Action">The ranger can attempt a running jump without moving 10 feet before the jump.</Pair>
 </Ability>
-<Ability id="surprise-shift-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="surprise-shift-ex" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="surprise-shift-ex">Surprise Shift (Ex)</Pair>
 <Pair title="Swift Action">The ranger can move 5 feet. This movement does not provoke attacks of opportunity and does not count as a 5-foot step.</Pair>
 </Ability>
-<Ability id="tangling-attack-ex" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Ability id="tangling-attack-ex" extraClasses="subAbility" icon={["lower"]}>
 <Pair single id="tangling-attack-ex">Tangling Attack (Ex)</Pair>
 <Pair title="Free Action">The ranger can use this attack when he makes an attack. If the attack hits, the target is entangled for 1 round.</Pair>
 </Ability>
-<Ability id="trick-shot-ex" extraClasses="subAbility" icon={["bowman"]}>
+<Ability id="trick-shot-ex" extraClasses="subAbility" icon={["ranged"]}>
 <Pair single id="trick-shot-ex">Trick Shot (Ex)</Pair>
 <Pair title="Standard Action">The ranger can make a ranged attack that ignores <Link to="/rule/concealment">concealment</Link> (but not total concealment), soft <Link to="/rule/cover">cover</Link>, and partial cover.</Pair>
 </Ability>
-<Ability id="uncanny-senses-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="uncanny-senses-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="uncanny-senses-ex">Uncanny Senses (Ex)</Pair>
 <Pair title="Immediate Action">The ranger gains a +10 insight bonus on Perception checks for 1 round.</Pair>
 </Ability>
-<Ability id="upending-strike-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="upending-strike-ex" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="upending-strike-ex">Upending Strike (Ex)</Pair>
 <Pair title="Free Action">The ranger can use this trick just before he makes a melee attack. If the attack hits, he may make a free <Link to="/rule/trip">trip</Link> combat maneuver against the target.</Pair>
 </Ability>
-<Ability id="vengeance-strike-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="vengeance-strike-ex" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="vengeance-strike-ex">Vengeance Strike (Ex)</Pair>
 <Pair title="Immediate Action">The ranger can use this trick when an enemy adjacent to him hits an ally with a melee or ranged attack. The ranger can make a single melee attack at his highest base attack bonus against the creature who attacked his ally.</Pair>
 </Ability>
 </>};
 const _spirit_ranger = {title: "Spirit Ranger", jsx: <><h2 id="arc-ranger-spirit_ranger-spirit-ranger">Spirit Ranger</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 129</Link><br/>Some rangers nurture a connection with the spirits that reside in all things. By communing with these spirits, the spirit ranger can gain glimpses of things to come. A spirit ranger has the following class features.</p>
-<Ability id="spirit-bond-ex" icon={["magic-swirl"]}>
+<Ability id="spirit-bond-ex" icon={["magic"]}>
 <Pair single id="spirit-bond-ex">Spirit Bond (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -1720,7 +1720,7 @@ const _spirit_ranger = {title: "Spirit Ranger", jsx: <><h2 id="arc-ranger-spirit
 <Pair title="At 16th Level">He can cast a 3rd additional spell in this way.</Pair>
 <Pair title="At 20th Level">He can cast a 4th additional spell in this way.</Pair>
 </Ability>
-<Ability id="wisdom-of-the-spirits-sp" icon={["upgrade"]}>
+<Ability id="wisdom-of-the-spirits-sp" icon={["boost"]}>
 <Pair single id="wisdom-of-the-spirits-sp">Wisdom of the Spirits (Sp)</Pair>
 <Pair hl title="Replaces">Camouflage</Pair>
 <Pair title="Gained">At 12th Level</Pair>
@@ -1729,13 +1729,13 @@ const _spirit_ranger = {title: "Spirit Ranger", jsx: <><h2 id="arc-ranger-spirit
 </>};
 const _stormwalker = {title: "Stormwalker", jsx: <><h2 id="arc-ranger-stormwalker-stormwalker">Stormwalker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 72</Link><br/>Rangers who walk in the tempest unafraid draw the power of the storm into themselves and become stormwalkers.</p>
-<Ability id="combat-style-feat-ex" icon={["broken-shield"]}>
+<Ability id="combat-style-feat-ex" icon={["down"]}>
 <Pair single id="combat-style-feat-ex">Combat Style Feat (Ex)</Pair>
 <Pair hl title="Alters">Combat style</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A stormwalker must choose the archery <Link to="/ability/combat_styles">combat style</Link>.</Pair>
 </Ability>
-<Ability id="thundershot-su" icon={["upgrade"]}>
+<Ability id="thundershot-su" icon={["boost"]}>
 <Pair single id="thundershot-su" flavor="A stormwalker can wreathe his weapon in lightning.">Thundershot (Su)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -1743,25 +1743,25 @@ const _stormwalker = {title: "Stormwalker", jsx: <><h2 id="arc-ranger-stormwalke
 <Pair title="Standard Action">He can grant a single weapon he holds the <Link to="/magic-enh/shock">shock</Link> special ability for 1 minute; while under this effect, the weapon counts as magic for the purpose of overcoming damage reduction.</Pair>
 <Pair title="At 12th Level">Weapons affected by this ability gain the <Link to="/magic-enh/shocking_burst">shocking burst</Link> special ability, instead.</Pair>
 </Ability>
-<Ability id="wind-treader-ex" icon={["armor-upgrade","upgrade"]}>
+<Ability id="wind-treader-ex" icon={["def","boost"]}>
 <Pair single id="wind-treader-ex">Wind Treader (Ex)</Pair>
 <Pair hl title="Replaces">Swift tracker</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">A stormwalker becomes immune to the effects of strong <Link to="/rule/winds">wind</Link>. He can move without hindrance in windy conditions, and his ranged attacks take no penalties from nonmagical wind.</Pair>
 </Ability>
-<Ability id="flash-step-su" icon={["stairs-goal","bowman"]}>
+<Ability id="flash-step-su" icon={["power","ranged"]}>
 <Pair single id="flash-step-su" flavor="A stormwalker can move across the battlefield like a bolt of lightning.">Flash Step (Su)</Pair>
 <Pair hl title="Replaces">Quarry</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Full-Round Action">He can transform into lightning and move to any unoccupied square within 60 feet without provoking attacks of opportunity. He can make a single ranged attack before or after this movement.</Pair>
 </Ability>
-<Ability id="control-weather-sp" icon={["magic-swirl"]}>
+<Ability id="control-weather-sp" icon={["magic"]}>
 <Pair single id="control-weather-sp">Control Weather (Sp)</Pair>
 <Pair hl title="Replaces">Improved evasion</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Ability">A stormwalker can cast <Link to="/spell/control_weather">control weather</Link> as a spell-like ability once per day.</Pair>
 </Ability>
-<Ability id="flash-shot-su" icon={["bowman"]}>
+<Ability id="flash-shot-su" icon={["ranged"]}>
 <Pair single id="flash-shot-su">Flash Shot (Su)</Pair>
 <Pair hl title="Replaces">Improved quarry</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -1770,7 +1770,7 @@ const _stormwalker = {title: "Stormwalker", jsx: <><h2 id="arc-ranger-stormwalke
 </>};
 const _summit_sentinel = {title: "Summit Sentinel", jsx: <><h2 id="arc-ranger-summit_sentinel-summit-sentinel">Summit Sentinel</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 72</Link><br/>Some rangers eschew the path of the swift skirmisher and embrace the implacable strength of the mountain.</p>
-<Ability id="roots-of-the-mountain-su" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="roots-of-the-mountain-su" icon={["power","def"]}>
 <Pair single id="roots-of-the-mountain-su">Roots of the Mountain (Su)</Pair>
 <Pair hl title="Replaces">Combat style feats</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -1782,7 +1782,7 @@ const _summit_sentinel = {title: "Summit Sentinel", jsx: <><h2 id="arc-ranger-su
 <Pair title="At 14th Level">The enhancement bonus to natural armor increases to +5 and the bonus to CMD becomes +8.</Pair>
 <Pair title="At 18th Level">The enhancement bonus to natural armor increases to +6 and the bonus to CMD becomes +10.</Pair>
 </Ability>
-<Ability id="mountain-mastery-ex" icon={["broken-shield"]}>
+<Ability id="mountain-mastery-ex" icon={["down"]}>
 <Pair single id="mountain-mastery-ex">Mountain Mastery (Ex)</Pair>
 <Pair hl title="Alters">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -1793,18 +1793,18 @@ const _summit_sentinel = {title: "Summit Sentinel", jsx: <><h2 id="arc-ranger-su
 <Pair title="At 18th Level">The bonus on attack and damage rolls increases to +2.</Pair>
 <Pair title="At 20th Level">The bonus from this <em>favored terrain</em> becomes +8.</Pair>
 </Ability>
-<Ability id="spells" icon={["spell-book"]}>
+<Ability id="spells" icon={["learn"]}>
 <Pair single id="spells">Spells</Pair>
 <Pair hl title="Alters">Spells</Pair>
 <Pair title="Ability">A summit sentinel adds <Link to="/spell/stoneskin">stoneskin</Link> to the ranger spell list as a 4th-level spell.</Pair>
 </Ability>
-<Ability id="rockslide-su" icon={["tornado-discs"]}>
+<Ability id="rockslide-su" icon={["cone"]}>
 <Pair single id="rockslide-su">Rockslide (Su)</Pair>
 <Pair hl title="Replaces">Swift tracker</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Standard Action">Once per day, a summit sentinel can create a rushing wave of earth and stone. The summit sentinel chooses a point on the ground or floor within 30 feet. Rippling waves of earth and stone emanate from the chosen point in a 25-foot cone in a direction of the summit sentinel's choice. Each creature in the area takes 4d6 points of bludgeoning damage and is pushed to the end of the cone. A target that succeeds at a Reflex save (DC = 10 + half the ranger's level + the ranger's Wisdom modifier) takes half damage and is not pushed.</Pair>
 </Ability>
-<Ability id="invincible-su" icon={["armor-upgrade"]}>
+<Ability id="invincible-su" icon={["def"]}>
 <Pair single id="invincible-su" flavor="A summit sentinel takes on the unyielding hardness of the mountains.">Invincible (Su)</Pair>
 <Pair hl title="Replaces">Hide in plain sight</Pair>
 <Pair title="Gained">At 17th Level</Pair>
@@ -1813,18 +1813,18 @@ const _summit_sentinel = {title: "Summit Sentinel", jsx: <><h2 id="arc-ranger-su
 </>};
 const _sword_devil = {title: "Sword-Devil", jsx: <><h2 id="arc-ranger-sword_devil-sword-devil">Sword-Devil</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_worldscape_1">Pathfinder Worldscape #1 pg. 27</Link><br/>Agile, vengeful, and deadly, a sword-devil fights with precision and grace, channeling the difficult lessons of a star-crossed life into unparalleled battle prowess. Favoring speed and evasive techniques over brute force, sword-devils choose precision over power and acrobatics over armor. Charismatic and carefree, a sword-devil makes fast friends and inspires her companions to greatness, even while vowing a swift death upon her enemies.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Spellcraft</Pair></Ability>
-<Ability id="death-vow-ex" icon={["upgrade"]}>
+<Ability id="death-vow-ex" icon={["boost"]}>
 <Pair single id="death-vow-ex">Death Vow (Ex)</Pair>
 <Pair hl title="Replaces">Favored enemy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">1 time/day + 1 per three ranger levels beyond 1st<ByLevelPop levels={[[1,1],[4,2],[7,3],[10,4],[13,5],[16,6],[19,7]]} unit="time" postText="/day" /></Pair>
 <Pair title="Swift Action">A sword-devil may focus all her fury and determination on a single foe she swears to slay. The sword-devil gains a bonus on weapon attack and damage rolls against her sworn target equal to half her sword-devil level (minimum +1). The <em>death vow</em> effect remains until the target of the <em>death vow</em> is dead, or the next time the sword-devil rests and regains use of this ability.</Pair>
 </Ability>
-<Ability id="slashing-fury-ex" icon={["upgrade"]}>
+<Ability id="slashing-fury-ex" icon={["boost"]}>
 <Pair single id="slashing-fury-ex">Slashing Fury (Ex)</Pair>
 <Pair hl title="Replaces">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -1835,14 +1835,14 @@ const _sword_devil = {title: "Sword-Devil", jsx: <><h2 id="arc-ranger-sword_devi
 <Pair title="At 18th Level">The sword-devil may select an additional type of light or one-handed slashing weapon she may use with this ability.</Pair>
 <Pair title="Special">This ability counts as having the <Link to="/feat/weapon_finesse">Weapon Finesse</Link> feat for the purpose of meeting feat prerequisites.</Pair>
 </Ability>
-<Ability id="inspiring-example-ex" icon={["upgrade"]}>
+<Ability id="inspiring-example-ex" icon={["boost"]}>
 <Pair single id="inspiring-example-ex" flavor="The sword-devil forms a bond with her companions, inspiring them to greater zeal in combat by the example of her weaponcraft.">Inspiring Example (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Standard Action">The sword-devil may grant half her <em>death vow</em> bonus against a single victim of her <em>death vow</em> to all allies within 30 feet who can see and hear her. This bonus lasts for a number of rounds equal to the sword-devil's Charisma modifier (minimum 1).</Pair>
 <Pair title="Special">This bonus does not stack with any <em>death vow</em> bonuses possessed by the sword-devil's allies; they use whichever bonus is higher.</Pair>
 </Ability>
-<Ability id="untouchable-ex" icon={["armor-upgrade","hazard-sign"]}>
+<Ability id="untouchable-ex" icon={["def","warning"]}>
 <Pair single id="untouchable-ex" flavor="The sword-devil's confidence and personality distract her foes in combat, making her more difficult to hit.">Untouchable (Ex)</Pair>
 <Pair hl title="Replaces">Spellcasting ability</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -1854,19 +1854,19 @@ const _sword_devil = {title: "Sword-Devil", jsx: <><h2 id="arc-ranger-sword_devi
 <Pair title="At 18th Level">The dodge bonus increases to +5.</Pair>
 <Pair title="Special">She loses these bonuses when she wears any armor, when she carries a shield, or when she carries a medium or heavy load.</Pair>
 </Ability>
-<Ability id="second-combat-style-ex" icon={["stairs-goal"]}>
+<Ability id="second-combat-style-ex" icon={["power"]}>
 <Pair single id="second-combat-style-ex">Second Combat Style (Ex)</Pair>
 <Pair hl title="Replaces">Quarry</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">The sword-devil chooses a second ranger <Link to="/ability/combat_styles">combat style</Link>. When she recieves a bonus combat feat, she may select any feat from either combat style's list.</Pair>
 </Ability>
-<Ability id="seething-fury-ex" icon={["upgrade"]}>
+<Ability id="seething-fury-ex" icon={["boost"]}>
 <Pair single id="seething-fury-ex" flavor={<>The sword-devil's countless battles harden her soul and make her lose touch with her humanity. Her growing lack of control over her wrath fuels the potency of her <em>death vow.</em></>}>Seething Fury (Ex)</Pair>
 <Pair hl title="Replaces">Improved quarry</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Ability">She adds her Charisma bonus on weapon attack and damage rolls against targets of her <em>death vow,</em> and automatically confirms threatened critical hits against them.</Pair>
 </Ability>
-<Ability id="avatar-of-vengeance-su" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="avatar-of-vengeance-su" icon={["power","def"]}>
 <Pair single id="avatar-of-vengeance-su" flavor="A sword-devil becomes a living avatar of vengeance, infused with supernatural powers that push her beyond the mortal, and recognized for her battle prowess and unparalleled skill at killing by a potent otherworldly entity.">Avatar of Vengeance (Su)</Pair>
 <Pair hl title="Replaces">Master hunter</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -1877,10 +1877,10 @@ const _sword_devil = {title: "Sword-Devil", jsx: <><h2 id="arc-ranger-sword_devi
 </>};
 const _tanglebriar_demonslayer = {title: "Tanglebriar Demonslayer", jsx: <><h2 id="arc-ranger-tanglebriar_demonslayer-tanglebriar-demonslayer">Tanglebriar Demonslayer</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_combat">Inner Sea Combat pg. 46</Link><br/>During the elves' long absence from Golarion, the nascent demon lord <Link to="/monster/treerazer">Treerazer</Link> took up residence in the Fierani Forest in what is now the Elven kingdom of Kyonin. Eventually, the demon's presence in the forest drew the elves back to Golarion, who sought to purge the fiendish blight from this once-sacred land. They defeated Treerazer but could not destroy him, forcing him instead into the southern reaches of the Fierani, a corrupted region of twisted plants and fiendish denizens called Tanglebriar. Even today, the <Link to="/race/elves">elves</Link> constantly battle to keep the corruption in the Tanglebriar from spreading to the rest of the Fierani Forest and beyond. Though they are sworn foes of Treerazer and his kin, Tanglebriar demonslayers are known to venture forth from Kyonin to broaden their expertise in the destruction of demons.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair></Ability>
-<Ability id="favored-enemy-ex" icon={["broken-shield","armor-upgrade"]}>
+<Ability id="favored-enemy-ex" icon={["down","def"]}>
 <Pair single id="favored-enemy-ex">Favored Enemy (Ex)</Pair>
 <Pair hl title="Replaces">Favored enemy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -1889,27 +1889,27 @@ const _tanglebriar_demonslayer = {title: "Tanglebriar Demonslayer", jsx: <><h2 i
 <Pair title="Passive Ability">In addition to the normal benefits of <em>favored enemy,</em> a Tanglebriar demonslayer gains a bonus equal to 1/2 his <em>favored enemy</em> bonus on saving throws against spells, spell-like abilities, and supernatural abilities of evil outsiders.</Pair>
 <Pair title="Special">This ability is otherwise identical to and replaces the <em>favored enemy</em> ranger class ability.</Pair>
 </Ability>
-<Ability id="demonologist-ex" icon={["upgrade"]}>
+<Ability id="demonologist-ex" icon={["boost"]}>
 <Pair single id="demonologist-ex" flavor="A Tanglebriar demonslayer gains insight into his Abyssal enemies.">Demonologist (Ex)</Pair>
 <Pair hl title="Replaces">Endurance</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">The demonslayer gains a bonus equal to 1/2 his class level on Knowledge (planes) checks that relate to demons, Perception checks to pierce a demon's disguise, and Survival checks while tracking demons. This bonus stacks with any bonuses from <em>favored enemy.</em></Pair>
 </Ability>
-<Ability id="expanded-spell-list" icon={["spell-book"]}>
+<Ability id="expanded-spell-list" icon={["learn"]}>
 <Pair single id="expanded-spell-list">Expanded Spell List</Pair>
 <Pair title="Ability">A Tanglebriar demonslayer adds the following spells to his spell list at the listed spell level.</Pair>
 <Pair plain title="1st"><Link to="/spell/protection_from_evil">Protection from evil</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/align_weapon">Align weapon</Link>, <Link to="/spell/magic_circle_against_evil">magic circle against evil</Link></Pair>
 <Pair plain title="4th"><Link to="/spell/dimensional_anchor">Dimensional anchor</Link>, <Link to="/spell/dismissal">dismissal</Link></Pair>
 </Ability>
-<Ability id="fiendish-quarry-su" icon={["upgrade"]}>
+<Ability id="fiendish-quarry-su" icon={["boost"]}>
 <Pair single id="fiendish-quarry-su">Fiendish Quarry (Su)</Pair>
 <Pair hl title="Replaces">Quarry</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">When a Tanglebriar demonslayer chooses an evil outsider as his <em>quarry,</em> he can the forgo the normal +2 attack bonus and instead treat his weapon as if it were good-aligned versus his <em>quarry.</em></Pair>
 <Pair title="Special">This ability is otherwise identical to <em>quarry</em> and replaces that ability.</Pair>
 </Ability>
-<Ability id="improved-fiendish-quarry-su" icon={["upgrade"]}>
+<Ability id="improved-fiendish-quarry-su" icon={["boost"]}>
 <Pair single id="improved-fiendish-quarry-su">Improved Fiendish Quarry (Su)</Pair>
 <Pair hl title="Replaces">Improved quarry</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -1919,19 +1919,19 @@ const _tanglebriar_demonslayer = {title: "Tanglebriar Demonslayer", jsx: <><h2 i
 </>};
 const _tidal_hunter = {title: "Tidal Hunter", jsx: <><h2 id="arc-ranger-tidal_hunter-tidal-hunter">Tidal Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 73</Link><br/>The tidal hunter draws strength from the fish and other wildlife of the deep.</p>
-<Ability id="waterborn-su" icon={["stairs-goal"]}>
+<Ability id="waterborn-su" icon={["power"]}>
 <Pair single id="waterborn-su">Waterborn (Su)</Pair>
 <Pair hl title="Replaces">Wild empathy, 6th-level combat style feat</Pair>
 <Pair title="Ability">A tidal hunter can breathe water for up to 10 minutes per ranger level each day.</Pair>
 <Pair title="At 6th Level">He can breathe underwater indefinitely.</Pair>
 </Ability>
-<Ability id="keen-scent-ex" icon={["stairs-goal"]}>
+<Ability id="keen-scent-ex" icon={["power"]}>
 <Pair single id="keen-scent-ex">Keen Scent (Ex)</Pair>
 <Pair hl title="Replaces">Track, camouflage</Pair>
 <Pair title="Ability">A tidal hunter gains <Link to="/umr/scent">scent</Link> as per the universal monster rule.</Pair>
 <Pair title="At 12th Level">While in water, the tidal hunter can detect particularly strong or distinct odors (such as blood) up to 1 mile away.</Pair>
 </Ability>
-<Ability id="aquatic-mastery-ex" icon={["broken-shield"]}>
+<Ability id="aquatic-mastery-ex" icon={["down"]}>
 <Pair single id="aquatic-mastery-ex">Aquatic Mastery (Ex)</Pair>
 <Pair hl title="Alters">Favored terrain</Pair>
 <Pair title="At 3rd Level">A tidal hunter must select water as his <em>favored terrain,</em> and he doesn't gain additional <em>favored terrains.</em></Pair>
@@ -1939,13 +1939,13 @@ const _tidal_hunter = {title: "Tidal Hunter", jsx: <><h2 id="arc-ranger-tidal_hu
 <Pair title="At 13th Level">The bonus from this <em>favored terrain</em> increases by 2.</Pair>
 <Pair title="At 18th Level">The bonus from this <em>favored terrain</em> increases by 2.</Pair>
 </Ability>
-<Ability id="wave-rush-ex" icon={["stairs-goal"]}>
+<Ability id="wave-rush-ex" icon={["power"]}>
 <Pair single id="wave-rush-ex">Wave Rush (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">A tidal hunter gains a swim speed equal to his base speed. If he already has a swim speed, it increases by 10 feet.</Pair>
 </Ability>
-<Ability id="tidal-surge-sp" icon={["magic-swirl"]}>
+<Ability id="tidal-surge-sp" icon={["magic"]}>
 <Pair single id="tidal-surge-sp" flavor="A tidal hunter gains control over water, and he can use the tides to attack his foes.">Tidal Surge (Sp)</Pair>
 <Pair hl title="Replaces">Improved evasion</Pair>
 <Pair title="Gained">At 16th Level</Pair>
@@ -1954,12 +1954,12 @@ const _tidal_hunter = {title: "Tidal Hunter", jsx: <><h2 id="arc-ranger-tidal_hu
 </>};
 const _toxic_herbalist = {title: "Toxic Herbalist", jsx: <><h2 id="arc-ranger-toxic_herbalist-toxic-herbalist">Toxic Herbalist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 74</Link><br/>Saviors and destroyers in equal measure, toxic herbalists use nature's bounty to craft remedies and poisons.</p>
-<Ability id="toxic-touch-ex" icon={["armor-upgrade"]}>
+<Ability id="toxic-touch-ex" icon={["def"]}>
 <Pair single id="toxic-touch-ex">Toxic Touch (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Passive Ability">A toxic herbalist studies the safe handling of deadly substances. He cannot accidentally poison himself when he applies poison to a weapon.</Pair>
 </Ability>
-<Ability id="natures-mercy-ex-and-su" icon={["stairs-goal","remedy"]}>
+<Ability id="natures-mercy-ex-and-su" icon={["power","aid"]}>
 <Pair single id="natures-mercy-ex-and-su" flavor="A toxic herbalist's knowledge of the natural world offers respite from wounds and illness.">Nature's Mercy (Ex and Su)</Pair>
 <Pair hl title="Replaces">Endurance</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -1971,7 +1971,7 @@ const _toxic_herbalist = {title: "Toxic Herbalist", jsx: <><h2 id="arc-ranger-to
 <Pair title="At 19th Level">The ranger can now create 3 poultices per day.</Pair>
 <Pair title="Special">The caster level of the neutralizing/curing effects is equal to the toxic herbalist's level. These additional effects are supernatural effects.</Pair>
 </Ability>
-<Ability id="sudden-onset-ex" icon={["upgrade","spell-book"]}>
+<Ability id="sudden-onset-ex" icon={["boost","learn"]}>
 <Pair single id="sudden-onset-ex">Sudden Onset (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -1982,20 +1982,20 @@ const _toxic_herbalist = {title: "Toxic Herbalist", jsx: <><h2 id="arc-ranger-to
 <Pair plain title="3rd"><Link to="/spell/poison">Poison</Link>, <Link to="/spell/toxic_gift">toxic gift</Link></Pair>
 <Pair plain title="4th"><Link to="/spell/absorb_toxicity">Absorb toxicity</Link>, <Link to="/spell/cloudkill">cloudkill</Link></Pair>
 </Ability>
-<Ability id="grim-harvest-ex" icon={["stairs-goal"]}>
+<Ability id="grim-harvest-ex" icon={["power"]}>
 <Pair single id="grim-harvest-ex">Grim Harvest (Ex)</Pair>
 <Pair hl title="Replaces">Swift tracker</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">A toxic herbalist can spend 1 hour foraging for poisonous substances to create a dose of poison (this hour can be integrated with the hour required to prepare spells or poultices). The toxic herbalist rolls 1d20 and adds his ranger level and his Intelligence modifier. The DC of this check is equal to the Craft DC of the poison he wishes to create. If he succeeds at this check, the ranger creates 1 dose of the chosen poison. The poison remains potent for a number of hours equal to the toxic herbalist's level, regardless of the means used in attempts to preserve it, and it can't be sold.</Pair>
 <Pair title="Special">This ability functions only while the toxic herbalist is within one of his <em>favored terrains.</em></Pair>
 </Ability>
-<Ability id="potent-venom-ex" icon={["upgrade"]}>
+<Ability id="potent-venom-ex" icon={["boost"]}>
 <Pair single id="potent-venom-ex" flavor="A toxic herbalist's poisons become even deadlier.">Potent Venom (Ex)</Pair>
 <Pair hl title="Replaces">Quarry</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">When he poisons a <em>favored enemy,</em> the DC of the poison's saving throw increases by half the toxic herbalist's <em>favored enemy</em> bonus against that target.</Pair>
 </Ability>
-<Ability id="poisonous-reaper-ex" icon={["upgrade"]}>
+<Ability id="poisonous-reaper-ex" icon={["boost"]}>
 <Pair single id="poisonous-reaper-ex">Poisonous Reaper (Ex)</Pair>
 <Pair hl title="Replaces">Improved quarry</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -2004,30 +2004,30 @@ const _toxic_herbalist = {title: "Toxic Herbalist", jsx: <><h2 id="arc-ranger-to
 </>};
 const _toxophilite = {title: "Toxophilite", jsx: <><h2 id="arc-ranger-toxophilite-toxophilite">Toxophilite</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 11</Link><br/>While many rangers use bows and arrows, the toxophilite takes special pride in her skill at archery. The toxophilite emulates the sharpshooting rangers of legend, who could pin a fly to the wall with a single shot or split one arrow with another. A truly talented toxophilite can even shoot down an enemy's arrow while it's still in flight.</p>
-<Ability id="arrow-splitter-ex" icon={["upgrade"]}>
+<Ability id="arrow-splitter-ex" icon={["boost"]}>
 <Pair single id="arrow-splitter-ex">Arrow-Splitter (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Ability">A toxophilite gains a +1 bonus on ranged attack rolls against creatures or objects two or more size categories smaller than her. The toxophilite's ranged attacks also deal full damage to objects instead of half damage.</Pair>
 </Ability>
-<Ability id="combat-style-feat-ex" icon={["broken-shield"]}>
+<Ability id="combat-style-feat-ex" icon={["down"]}>
 <Pair single id="combat-style-feat-ex">Combat Style Feat (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Choice">A toxophilite must select one of two ranged <Link to="/ability/combat_styles">combat styles</Link> to pursue: archery or crossbow.</Pair>
 </Ability>
-<Ability id="intercept-arrow-ex" icon={["shield-reflect"]}>
+<Ability id="intercept-arrow-ex" icon={["protect"]}>
 <Pair single id="intercept-arrow-ex">Intercept Arrow (Ex)</Pair>
 <Pair hl title="Replaces">Endurance</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A toxophilite can <Link to="/rule/ready">ready</Link> a ranged attack to deflect a ranged weapon attack against her or an ally within 30 feet. To deflect the attack, the toxophilite makes an attack with a ranged weapon. If her attack roll is greater than the attacking opponent's roll, the opponent's initial attack automatically misses. For each size category the attacking creature is larger than the toxophilite, the toxophilite takes a -4 penalty on her attack roll.</Pair>
 <Pair title="Special">The toxophilite must declare the use of this ability after the attack is announced, but before the roll is made. Unusually massive ranged weapons, such as boulders or ballista bolts, and ranged attacks by firearms or generated by natural attacks or spell effects can't be deflected.</Pair>
 </Ability>
-<Ability id="improved-intercept-ex" icon={["upgrade"]}>
+<Ability id="improved-intercept-ex" icon={["boost"]}>
 <Pair single id="improved-intercept-ex">Improved Intercept (Ex)</Pair>
 <Pair hl title="Replaces">Quarry</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">When the toxophilite takes a full-attack action with a ranged weapon, she can choose to forgo one of her attacks. If she does so, she can use her <em>intercept arrow</em> ability as an <strong className="hl">immediate action</strong> instead of a readied action at any time before her next turn. Her attack roll to intercept uses the same bonuses as the attack she chose to forgo during her previous action.</Pair>
 </Ability>
-<Ability id="greater-intercept-ex" icon={["bowman"]}>
+<Ability id="greater-intercept-ex" icon={["ranged"]}>
 <Pair single id="greater-intercept-ex">Greater Intercept (Ex)</Pair>
 <Pair hl title="Replaces">Improved quarry</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -2036,12 +2036,12 @@ const _toxophilite = {title: "Toxophilite", jsx: <><h2 id="arc-ranger-toxophilit
 </>};
 const _transporter = {title: "Transporter", jsx: <><h2 id="arc-ranger-transporter-transporter">Transporter</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 43</Link><br/>Transporters specialize in smuggling people as efficiently as possible through harsh and difficult environments. Individuals such as escaped political exiles, refugees fleeing danger, and various criminals all seek the transporter's services. While some transporters actively work to serve justice or a political cause, others are wily opportunists filling a need and profiting from the high price that desperate people are willing to pay for safe, discrete passage.</p>
-<Ability id="trailbreaker-ex" icon={["upgrade"]}>
+<Ability id="trailbreaker-ex" icon={["boost"]}>
 <Pair single id="trailbreaker-ex" flavor="A transporter constantly works to obscure his trail.">Trailbreaker (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Passive Ability">He increases the Survival DC to track him, or a group of which he is a part, by an amount equal to half his ranger level (minimum 1). This does not stack with similar abilities, such as a <Link to="/arc-inquisitor/traceless_operative">traceless operative's</Link> <em>trackless</em> ability.</Pair>
 </Ability>
-<Ability id="plot-course-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="plot-course-ex" icon={["power","boost"]}>
 <Pair single id="plot-course-ex">Plot Course (Ex)</Pair>
 <Pair hl title="Replaces">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -2051,14 +2051,14 @@ const _transporter = {title: "Transporter", jsx: <><h2 id="arc-ranger-transporte
 <Pair title="At 18th Level">If the transporter's Knowledge (geography) check exceeds the DC by 30, the bonuses increase to +8.</Pair>
 <Pair title="Special">A transporter can gain the benefits of only a single plotted course at any given time. If the transporter ever strays from the course or attempts to plot a new course for any reason, he loses the benefits of his current course immediately. A transporter can retry his Knowledge (geography) check to plot a course as long as he spends 1d4 hours each time.</Pair>
 </Ability>
-<Ability id="smugglers-bond-ex" icon={["broken-shield","upgrade"]}>
+<Ability id="smugglers-bond-ex" icon={["down","boost"]}>
 <Pair single id="smugglers-bond-ex">Smuggler's Bond (Ex)</Pair>
 <Pair hl title="Alters">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Info">A transporter must choose his allies as his <em>hunter's bond,</em> not an animal companion.</Pair>
 <Pair title="Passive Ability">Instead of granting the transporter's <em>favored enemy</em> bonus to his allies as a move action, he instead grants his <em>plot course</em> bonus to his allies constantly.</Pair>
 </Ability>
-<Ability id="hideaway-ex" icon={["stairs-goal"]}>
+<Ability id="hideaway-ex" icon={["power"]}>
 <Pair single id="hideaway-ex">Hideaway (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Ability">A transporter<sup><InnerLink showBacklink="backlink-arc-ranger-transporter-fake-fn-1" id="arc-ranger-transporter-fake-fn-1" data-hash-target to="arc-ranger-transporter-fake-fn-1-target">1</InnerLink></sup> can spend 1 hour and attempt a DC 20 Survival check to create a hidden shelter, useful for staying unseen by patrols of enemy creatures. The transporter's shelter can hold the transporter and one additional creature for every 2 by which the transporter exceeds the DC. The created shelter incorporates scents from the local area, preventing creatures on the inside from being detected by the <Link to="/umr/scent">scent</Link> ability of creatures outside of the shelter, and vice versa. Additionally, its floor is either elevated or constructed of a different substance than the nearby ground, preventing creatures outside of the shelter from using <Link to="/umr/tremorsense">tremorsense</Link> to detect creatures inside, and vice versa. Finally, the clever structure of the hideaway causes creatures outside of the shelter to take a -10 penalty on Perception checks to notice creatures inside, as if through a 1-foot-thick wall, while only causing creatures inside to take a -2 penalty on Perception checks to notice creatures outside.</Pair>
@@ -2069,15 +2069,15 @@ const _transporter = {title: "Transporter", jsx: <><h2 id="arc-ranger-transporte
 </ol></section></>};
 const _trapper = {title: "Trapper", jsx: <><h2 id="arc-ranger-trapper-trapper">Trapper</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 65</Link><br/>A trapper is a ranger who focuses exclusively on traps, rather than learning conventional magic. A trapper has the following class features.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX)</Pair></Ability>
-<Ability id="trapfinding" icon={["upgrade","stairs-goal"]}>
+<Ability id="trapfinding" icon={["boost","power"]}>
 <Pair single id="trapfinding">Trapfinding</Pair>
 <Pair title="Passive Ability">A trapper adds 1/2 her ranger level on Perception skill checks made to locate traps and on Disable Device skill checks (minimum +1).</Pair>
 <Pair title="Ability">A trapper can use Disable Device to disarm magic traps.</Pair>
 </Ability>
-<Ability id="trap" icon={["stairs-goal"]}>
+<Ability id="trap" icon={["power"]}>
 <Pair single id="trap">Trap</Pair>
 <Pair hl title="Replaces">Spellcasting ability</Pair>
 <Pair title="At 5th Level">A trapper learns how to create a <Link to="/rangertrap/snare_trap">snare trap</Link> and one other <Link to="/ability/ranger_traps">ranger trap</Link> of her choice.</Pair>
@@ -2090,7 +2090,7 @@ const _trapper = {title: "Trapper", jsx: <><h2 id="arc-ranger-trapper-trapper">T
 <Pair title="At 19th Level">She learns another trap.</Pair>
 <Pair title="Special">The trapper can use these traps a total number of times per day equal to 1/2 her ranger level + her Wisdom modifier. Once a trap is learned, it can't be unlearned and replaced with a different type of trap. The trapper cannot select an individual trap more than once.</Pair>
 </Ability>
-<Ability id="launch-trap" icon={["bowman"]}>
+<Ability id="launch-trap" icon={["ranged"]}>
 <Pair single id="launch-trap">Launch Trap</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Ability">A trapper can affix a magical ranger trap to an arrow, crossbow bolt, or thrown weapon, allowing her to set the trap remotely or use it as a direct attack. Attaching the trap to the projectile is part of the <strong className="hl">full-round action</strong> of creating a new trap. The trapped projectile is fired or thrown in the normal manner. If fired at a square, the trap is treated as if the ranger had set the trap in that square, except the DC is 5 lower than normal. If fired at a creature, the target takes damage from the ranged weapon and is treated as if it had triggered the trap (saving throw applies, if any). The attack has a maximum range of 60 feet, and range increments apply to the attack roll.</Pair>
@@ -2099,13 +2099,13 @@ const _trapper = {title: "Trapper", jsx: <><h2 id="arc-ranger-trapper-trapper">T
 </>};
 const _trophy_hunter = {title: "Trophy Hunter", jsx: <><h2 id="arc-ranger-trophy_hunter-trophy-hunter">Trophy Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 67</Link><br/>Some rangers have taken up the mysteries of black powder in order to become big game hunters. Finding firearms useful for taking down large and dangerous prey, they enter the fight with the crack of black powder fire, often ranging far and wide in their safaris and searches for ever-more-dangerous denizens of the wild to track, study, appreciate - and kill. While this might strike some as going against the ranger's usual respect for nature and the creatures of the wild, trophy hunters understand that they are just more pieces in nature's grand puzzle, and that the laws of the jungle - the right to kill and feed on those weaker than you, and the need to establish dominance through cunning and bloodshed - are both their rights and their duty as the current top of the food chain.</p>
-<Ability id="improved-tracking-ex" icon={["upgrade","stairs-goal"]}>
+<Ability id="improved-tracking-ex" icon={["boost","power"]}>
 <Pair single id="improved-tracking-ex">Improved Tracking (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A trophy hunter gains a +2 bonus on Survival skill checks when following or identifying tracks. When he tracks, he can also attempt a Knowledge (nature) check at DC 15. On a success, the trophy hunter can discern the type and condition of any animals or magical beasts he tracks. By studying their tracks, the trophy hunter is able to identify a rough approximation of their health, maneuverability, and their general behavior as compared to the norm.</Pair>
 </Ability>
-<Ability id="firearm-style" icon={["stairs-goal"]}>
+<Ability id="firearm-style" icon={["power"]}>
 <Pair single id="firearm-style">Firearm Style</Pair>
 <Pair hl title="Replaces">All combat style feats</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -2115,7 +2115,7 @@ const _trophy_hunter = {title: "Trophy Hunter", jsx: <><h2 id="arc-ranger-trophy
 <Pair title="At 14th Level">The trophy hunter can take a <Link to="/main/grit_feat">grit feat</Link> or select a gunslinger deed of his level or lower, ranger's choice.</Pair>
 <Pair title="At 18th Level">The trophy hunter can take a <Link to="/main/grit_feat">grit feat</Link> or select a gunslinger deed of his level or lower, ranger's choice.</Pair>
 </Ability>
-<Ability id="hunters-aim-ex" icon={["smoking-finger"]}>
+<Ability id="hunters-aim-ex" icon={["zap"]}>
 <Pair single id="hunters-aim-ex" flavor={<>A trophy hunter gains a specific understanding of the weaknesses and vulnerabilities of his <em>favored enemies,</em> and his careful study of these enemies reveals the best way to hurt them.</>}>Hunter's Aim (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -2125,11 +2125,11 @@ const _trophy_hunter = {title: "Trophy Hunter", jsx: <><h2 id="arc-ranger-trophy
 </>};
 const _urban_ranger = {title: "Urban Ranger", jsx: <><h2 id="arc-ranger-urban_ranger-urban-ranger">Urban Ranger</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 130</Link><br/>For the urban ranger, the streets and sewers of the city are just as dangerous as the barren wastelands or the deep forests. An urban ranger has the following class features.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (nature)</Pair></Ability>
-<Ability id="favored-community-ex" icon={["upgrade"]}>
+<Ability id="favored-community-ex" icon={["boost"]}>
 <Pair single id="favored-community-ex">Favored Community (Ex)</Pair>
 <Pair hl title="Replaces">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -2139,24 +2139,24 @@ const _urban_ranger = {title: "Urban Ranger", jsx: <><h2 id="arc-ranger-urban_ra
 <Pair title="At 18th Level">An urban ranger may select an additional favored community. In addition, the skill bonus and initiative bonus in any one favored community (including the one just selected, if so desired) increases by +2.</Pair>
 <Pair title="Special">For the purposes of this ability, a community is any settlement consisting of 100 or more individuals. The community may be larger than this minimum. Outlying farms, fields, and houses are not considered part of a community.</Pair>
 </Ability>
-<Ability id="trapfinding-ex" icon={["stairs-goal"]}>
+<Ability id="trapfinding-ex" icon={["power"]}>
 <Pair single id="trapfinding-ex">Trapfinding (Ex)</Pair>
 <Pair hl title="Replaces">Endurance</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">An urban ranger can find and disable traps, as the rogue class feature of the <Link to="/ability/trapfinding">same name</Link>.</Pair>
 </Ability>
-<Ability id="push-through-ex" icon={["upgrade"]}>
+<Ability id="push-through-ex" icon={["boost"]}>
 <Pair single id="push-through-ex">Push Through (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">An urban ranger is never slowed by <Link to="/rule/difficult_terrain">difficult terrain</Link> in his favored communities. In addition, he can move through the space occupied by local citizens as if they were allies. This does not apply to creatures intent on harming the ranger. Areas that are enchanted or magically manipulated to impede motion, however, still affect him.</Pair>
 </Ability>
-<Ability id="blend-in-ex" icon={["upgrade","stairs-goal"]}>
+<Ability id="blend-in-ex" icon={["boost","power"]}>
 <Pair single id="blend-in-ex">Blend In (Ex)</Pair>
 <Pair hl title="Replaces">Camouflage</Pair>
 <Pair title="At 12th Level">An urban ranger can use his Stealth bonus in place of a Disguise skill check in any of his favored communities. This disguise does not take an action to don. He must make a check whenever someone attempts to pick him out from the local citizens. If his check is successful, he blends into the crowd. While not invisible, enemies do not notice his presence and take no actions against him unless they are taking actions against the local citizens in general.</Pair>
 </Ability>
-<Ability id="invisibility-trick-sp" icon={["magic-swirl"]}>
+<Ability id="invisibility-trick-sp" icon={["magic"]}>
 <Pair single id="invisibility-trick-sp">Invisibility Trick (Sp)</Pair>
 <Pair hl title="Replaces">Hide in plain sight</Pair>
 <Pair title="Gained">At 17th Level</Pair>
@@ -2166,7 +2166,7 @@ const _urban_ranger = {title: "Urban Ranger", jsx: <><h2 id="arc-ranger-urban_ra
 </>};
 const _warden = {title: "Warden", jsx: <><h2 id="arc-ranger-warden-warden">Warden</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 68</Link><br/>All rangers have a bond with the wilderness, but the warden may have the strongest. This protector sits guard in the middle of the wilderness, keeping a lookout for any dangers that might spill from the deeper wilderness beyond, and protecting civilization from the savagery of nature - and vice versa. His long weeks, months, and sometimes years of isolation cause him to "hear" what the land is saying. Not all are crazy.</p>
-<Ability id="master-of-terrain-ex" icon={["stairs-goal"]}>
+<Ability id="master-of-terrain-ex" icon={["power"]}>
 <Pair single id="master-of-terrain-ex">Master of Terrain (Ex)</Pair>
 <Pair hl title="Replaces">1st favored enemy</Pair>
 <Pair title="At 1st Level">A warden selects his first <em>favored terrain.</em></Pair>
@@ -2175,26 +2175,26 @@ const _warden = {title: "Warden", jsx: <><h2 id="arc-ranger-warden-warden">Warde
 <Pair title="At 13th Level">He gains another favored terrain.</Pair>
 <Pair title="At 18th Level">He gains another favored terrain.</Pair>
 </Ability>
-<Ability id="live-in-comfort-ex" icon={["stairs-goal"]}>
+<Ability id="live-in-comfort-ex" icon={["power"]}>
 <Pair single id="live-in-comfort-ex">Live in Comfort (Ex)</Pair>
 <Pair hl title="Replaces">All combat style feats</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Info">A warden is truly at home within his <em>favored terrains.</em> He knows all the signs of the wilderness. He rarely gets lost. He can easily live off the land in comfort, and can provide for companions.</Pair>
 <Pair title="Ability">The warden can take 10 on any Survival check involving any of his <em>favored terrains,</em> even when in immediate danger and distracted. If the warden is not in immediate danger and distracted, he can take 20 even if the check has a penalty for failure.</Pair>
 </Ability>
-<Ability id="terrain-bond-ex" icon={["upgrade","armor-upgrade"]}>
+<Ability id="terrain-bond-ex" icon={["boost","def"]}>
 <Pair single id="terrain-bond-ex" flavor="A warden forms a bond with the land itself, enabling him to direct others in such terrain.">Terrain Bond (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">When in his <em>favored terrain,</em> the warden grants all allies within line of sight and that can hear him a +2 bonus on initiative checks and Perception, Stealth, and Survival skill checks. Also, as long as they travel with him, the warden's allies leave no trail and can't be tracked. The warden can choose for the group to leave a trail, or even for specific members of the group to leave a trail if he so desires.</Pair>
 </Ability>
-<Ability id="able-explorer-ex" icon={["rolling-dices"]}>
+<Ability id="able-explorer-ex" icon={["roll"]}>
 <Pair single id="able-explorer-ex">Able Explorer (Ex)</Pair>
 <Pair hl title="Replaces">2nd, 3rd, and 4th favored enemies</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">When making an Acrobatics, Climb, Fly, Ride, or Swim check in any of his <em>favored terrains,</em> a warden can make two skill checks and take the higher.</Pair>
 </Ability>
-<Ability id="wilderness-whispers-su" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="wilderness-whispers-su" icon={["power","def"]}>
 <Pair single id="wilderness-whispers-su">Wilderness Whispers (Su)</Pair>
 <Pair hl title="Replaces">5th favored enemy, master hunter</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -2203,12 +2203,12 @@ const _warden = {title: "Warden", jsx: <><h2 id="arc-ranger-warden-warden">Warde
 </>};
 const _wave_warden = {title: "Wave Warden", jsx: <><h2 id="arc-ranger-wave_warden-wave-warden">Wave Warden</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 194</Link><br/>The wave warden patrols beneath the sea, preserving the safety and secrets of merfolk communities. Though he fares best beneath the water, dry land is no haven to his quarry.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-wave_warden--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/merfolk">Merfolk</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="deep-sentinel-ex" icon={["upgrade"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-wave_warden--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/merfolk">Merfolk</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="deep-sentinel-ex" icon={["boost"]}>
 <Pair single id="deep-sentinel-ex">Deep Sentinel (Ex)</Pair>
 <Pair hl title="Replaces">Track</Pair>
 <Pair title="Passive Ability">A wave warden adds half his level (minimum +1) on Perception checks made to notice creatures underwater.</Pair>
 </Ability>
-<Ability id="aquatic-prowess-feat-ex" icon={["stairs-goal"]}>
+<Ability id="aquatic-prowess-feat-ex" icon={["power"]}>
 <Pair single id="aquatic-prowess-feat-ex">Aquatic Prowess Feat (Ex)</Pair>
 <Pair hl title="Replaces">All combat style bonus feats</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -2219,7 +2219,7 @@ const _wave_warden = {title: "Wave Warden", jsx: <><h2 id="arc-ranger-wave_warde
 <Pair title="At 18th Level">He can select another bonus feat, following the rules above.</Pair>
 <Pair title="Special">This ability otherwise functions like and replaces the standard ranger's combat style bonus feats, including the limitations on armor worn.</Pair>
 </Ability>
-<Ability id="favored-terrain-ex" icon={["broken-shield"]}>
+<Ability id="favored-terrain-ex" icon={["down"]}>
 <Pair single id="favored-terrain-ex">Favored Terrain (Ex)</Pair>
 <Pair hl title="Replaces">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -2228,13 +2228,13 @@ const _wave_warden = {title: "Wave Warden", jsx: <><h2 id="arc-ranger-wave_warde
 <Pair title="At 13th Level">His bonus in aquatic terrain increases by +2.</Pair>
 <Pair title="At 18th Level">His bonus in aquatic terrain increases by +2.</Pair>
 </Ability>
-<Ability id="seaborn-ex" icon={["stairs-goal"]}>
+<Ability id="seaborn-ex" icon={["power"]}>
 <Pair single id="seaborn-ex">Seaborn (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">A wave warden may move through any sort of aquatic growth (such as coral or seaweed) or across a wet surface at his normal speed and without taking damage or suffering any other impairment. Obstacles that are enchanted or magically manipulated to impede motion still affect him.</Pair>
 </Ability>
-<Ability id="watery-summons-sp" icon={["magic-swirl"]}>
+<Ability id="watery-summons-sp" icon={["magic"]}>
 <Pair single id="watery-summons-sp">Watery Summons (Sp)</Pair>
 <Pair hl title="Replaces">Swift tracker</Pair>
 <Pair title="Gained">At 8th Level</Pair>
@@ -2246,7 +2246,7 @@ const _wave_warden = {title: "Wave Warden", jsx: <><h2 id="arc-ranger-wave_warde
 </>};
 const _wild_hunter = {title: "Wild Hunter", jsx: <><h2 id="arc-ranger-wild_hunter-wild-hunter">Wild Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 108</Link><br/>A wild hunter seeks to emulate the animals around him to keep him safe while he tracks his prey. Instead of studying the traits and behaviors of a <em>favored enemy,</em> a wild hunter studies those of various animals, incorporating those attributes into his hunting strategy.</p>
-<Ability id="animal-focus-su" icon={["stairs-goal"]}>
+<Ability id="animal-focus-su" icon={["power"]}>
 <Pair single id="animal-focus-su">Animal Focus (Su)</Pair>
 <Pair hl title="Replaces">Favored enemy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -2254,7 +2254,7 @@ const _wild_hunter = {title: "Wild Hunter", jsx: <><h2 id="arc-ranger-wild_hunte
 <Pair title="Swift Action">A wild hunter can take on the <Link to="/ability/animal_foci">aspect of an animal</Link>, gaining a bonus or special ability based on the type of animal emulated. This functions as the hunter's <em>animal focus</em> class feature, though this only applies to the wild hunter and not an animal companion (see <em>shared focus,</em> below).</Pair>
 <Pair title="Special">He can only emulate one animal at a time.</Pair>
 </Ability>
-<Ability id="shared-focus-su" icon={["upgrade"]}>
+<Ability id="shared-focus-su" icon={["boost"]}>
 <Pair single id="shared-focus-su">Shared Focus (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride, swift tracker</Pair>
 <Pair title="Gained">At 7th Level</Pair>
@@ -2263,37 +2263,37 @@ const _wild_hunter = {title: "Wild Hunter", jsx: <><h2 id="arc-ranger-wild_hunte
 </>};
 const _wild_shadow = {title: "Wild Shadow", jsx: <><h2 id="arc-ranger-wild_shadow-wild-shadow">Wild Shadow</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 45</Link><br/>The isolation that some <Link to="/race/half_elves">half-elves</Link> feel leads them to live a life of isolation amid the wild places of the world. Such rangers stalk the wild like shadows, creating close bonds with the wild itself instead of seeking the solace and aid of companions. While ill at ease within cities and other urban areas, they are adept at using the terrain to tactical advantage; they dart through brambles and rough terrain with uncommon grace and use the land itself to lock down enemies. A wild shadow has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-wild_shadow--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/half_elf">Half-elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="wild-at-heart-ex" icon={["broken-shield","upgrade"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-wild_shadow--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/half_elf">Half-elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="wild-at-heart-ex" icon={["down","boost"]}>
 <Pair single id="wild-at-heart-ex">Wild at Heart (Ex)</Pair>
 <Pair hl title="Alters">Track, wild empathy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">A wild shadow adds only 1/2 his class level when making <em>wild empathy</em> checks while in urban areas, and adds only 1/4 his class level to follow or identify tracks in such areas. In non-urban settings, he is considered two levels higher when determining the bonuses for such checks.</Pair>
 </Ability>
-<Ability id="favored-terrain-ex" icon={["broken-shield"]}>
+<Ability id="favored-terrain-ex" icon={["down"]}>
 <Pair single id="favored-terrain-ex">Favored Terrain (Ex)</Pair>
 <Pair hl title="Alters">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Info">When a wild shadow chooses a <em>favored terrain,</em> he cannot choose urban as the terrain type. Furthermore, when he chooses a new <em>favored terrain</em> type, he cannot choose the urban terrain type.</Pair>
 </Ability>
-<Ability id="woodland-stride-ex" icon={["stairs-goal"]}>
+<Ability id="woodland-stride-ex" icon={["power"]}>
 <Pair single id="woodland-stride-ex">Woodland Stride (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="At 4th Level">This ability functions as the 7th-level ranger class feature <Link to="/ability/woodland_stride">of the same name</Link>, but the wild shadow gains it at 4th level instead.</Pair>
 </Ability>
-<Ability id="unfettered-step-ex" icon={["stairs-goal"]}>
+<Ability id="unfettered-step-ex" icon={["power"]}>
 <Pair single id="unfettered-step-ex">Unfettered Step (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">A wild shadow's <em>woodland stride</em> class feature functions in any <Link to="/rule/difficult_terrain">difficult terrain</Link> within any of his <em>favored terrains,</em> even in areas that are enchanted or magically manipulated to impede motion.</Pair>
 </Ability>
-<Ability id="harrying-attack-ex" icon={["stairs-goal","armor-downgrade"]}>
+<Ability id="harrying-attack-ex" icon={["power","lower"]}>
 <Pair single id="harrying-attack-ex" flavor={<>A wild shadow can use his knowledge of terrain to make shrewd attacks in combat. Such attacks can make foes fumble or cause them to become entangled within areas of the wild shadow's <em>favored terrain.</em></>}>Harrying Attack (Ex)</Pair>
 <Pair hl title="Replaces">Quarry</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Standard Action">The wild shadow denotes one target within line of sight and within one of his <em>favored terrains</em> as his <em>harried prey.</em> Once the foe is so designated, every time the wild shadow hits this <em>harried prey</em> with a melee or ranged weapon attack (either manufactured or natural), that creature is <Link to="/rule/entangled">entangled</Link> for 1 round. A wild shadow can have no more than one <em>harried prey</em> at a time and that creature must correspond to one of his <em>favored enemy</em> types.</Pair>
 <Pair title="Special">He can dismiss this effect at any time as a <strong className="hl">free action</strong>, but he cannot select a new <em>harried prey</em> for 24 hours. If the wild shadow sees proof that his <em>harried prey</em> is dead, he can select a new <em>harried prey</em> after waiting 1 hour.</Pair>
 </Ability>
-<Ability id="wild-stalker-ex" icon={["armor-upgrade"]}>
+<Ability id="wild-stalker-ex" icon={["def"]}>
 <Pair single id="wild-stalker-ex" flavor="A wild shadow learns to better use natural surroundings to obscure his position in combat.">Wild Stalker (Ex)</Pair>
 <Pair hl title="Replaces">Camouflage</Pair>
 <Pair title="Gained">At 14th Level</Pair>
@@ -2301,7 +2301,7 @@ const _wild_shadow = {title: "Wild Shadow", jsx: <><h2 id="arc-ranger-wild_shado
 <Pair title="At 16th Level">The bonuses granted by cover increase by 1 and the miss chance increases by another 10%.</Pair>
 <Pair title="At 19th Level">The bonuses granted by cover increase by 1 and the miss chance increases by another 10%.</Pair>
 </Ability>
-<Ability id="master-of-terrain-ex" icon={["upgrade"]}>
+<Ability id="master-of-terrain-ex" icon={["boost"]}>
 <Pair single id="master-of-terrain-ex">Master of Terrain (Ex)</Pair>
 <Pair hl title="Replaces">Improved quarry</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -2310,11 +2310,11 @@ const _wild_shadow = {title: "Wild Shadow", jsx: <><h2 id="arc-ranger-wild_shado
 </>};
 const _wild_soul = {title: "Wild Soul", jsx: <><h2 id="arc-ranger-wild_soul-wild-soul">Wild Soul</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 75</Link><br/>Hailing from primitive roots in the wild, some rangers venture to more civilized lands and learn their ways. Wild souls carry these more refined teachings back to the frontier lands of their birth, and they employ that knowledge in defense of their homes.</p>
-<Ability id="unfettered-soul" icon={["hazard-sign"]}>
+<Ability id="unfettered-soul" icon={["warning"]}>
 <Pair single id="unfettered-soul">Unfettered Soul</Pair>
 <Pair title="Info">A wild soul swears to himself never to make use of advanced technology, alchemy, arcane magic, or firearms. He also must oppose their use on his person, refusing to be a willing target and attempting a saving throw if possible (even if the effect is harmless or beneficial). Violating this oath causes a wild soul to lose the abilities granted by this archetype until he <Link to="/spell/atonement">atones</Link>.</Pair>
 </Ability>
-<Ability id="nemesis-ex" icon={["upgrade"]}>
+<Ability id="nemesis-ex" icon={["boost"]}>
 <Pair single id="nemesis-ex">Nemesis (Ex)</Pair>
 <Pair hl title="Replaces">Favored enemy</Pair>
 <Pair title="Passive Ability">A wild soul gains a +2 bonus on Intimidate, Knowledge, Perception, Sense Motive, Spellcraft, and Survival checks against creatures that wield advanced technology, alchemical weapons (including an alchemist's bombs), or firearms and against those that cast arcane spells (this does not apply to creatures that use spell-like abilities). Likewise, he gains a +2 bonus on weapon attack and damage rolls against such opponents.</Pair>
@@ -2324,26 +2324,26 @@ const _wild_soul = {title: "Wild Soul", jsx: <><h2 id="arc-ranger-wild_soul-wild
 <Pair title="At 15th Level">These bonuses become +5.</Pair>
 <Pair title="At 20th Level">These bonuses increase to +6.</Pair>
 </Ability>
-<Ability id="nemesis-defense-ex" icon={["armor-upgrade"]}>
+<Ability id="nemesis-defense-ex" icon={["def"]}>
 <Pair single id="nemesis-defense-ex">Nemesis Defense (Ex)</Pair>
 <Pair hl title="Replaces">Swift tracker</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">A wild soul adds his <em>nemesis</em> bonus on saving throws against advanced technology, alchemical items (including an alchemist's bombs and extracts), and arcane spells. He also adds this bonus to his AC against advanced technological items, alchemical items (including alchemist bombs), arcane spells that require attack rolls, and firearms.</Pair>
 </Ability>
-<Ability id="break-the-interloper-su" icon={["armor-downgrade","remedy"]}>
+<Ability id="break-the-interloper-su" icon={["lower","aid"]}>
 <Pair single id="break-the-interloper-su">Break the Interloper (Su)</Pair>
 <Pair hl title="Replaces">Quarry</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">When a wild soul hits an arcane spellcaster, a creature with <em>extract</em> slots, or a creature with <em>grit</em> (but not grit-like pools such as <em>panache</em>) with a weapon attack, the target either loses its highest-level available spell or extract slot or loses 1 point of grit, and the wild soul gains 5 <Link to="/rule/temporary_hit_points">temporary hit points</Link>.</Pair>
 <Pair title="Special">A target of this ability can negate this effect with a successful Fortitude save (DC = 10 + half the ranger's level + his Wisdom modifier). Regardless of the outcome of the saving throw, the target is immune to this ability for 24 hours.</Pair>
 </Ability>
-<Ability id="dizzying-onslaught-ex" icon={["armor-downgrade"]}>
+<Ability id="dizzying-onslaught-ex" icon={["lower"]}>
 <Pair single id="dizzying-onslaught-ex" flavor="A wild soul lands punishing blows that devastate his nemeses' ability to focus.">Dizzying Onslaught (Ex)</Pair>
 <Pair hl title="Replaces">Improved quarry</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Ability">When he confirms a critical hit against a creature against whom his <em>nemesis</em> bonus applies, for 1 minute the target must succeed at a <Link to="/rule/concentration">concentration</Link> check (DC = 20 + the wild soul's Wisdom modifier + twice the spell's level) to cast an arcane spell, create an <em>extract,</em> or use an alchemist's bomb, and the target can't spend or gain <em>grit.</em></Pair>
 </Ability>
-<Ability id="nemesis-slayer-ex" icon={["stairs-goal"]}>
+<Ability id="nemesis-slayer-ex" icon={["power"]}>
 <Pair single id="nemesis-slayer-ex" flavor="A wild soul becomes death incarnate to his nemeses.">Nemesis Slayer (Ex)</Pair>
 <Pair hl title="Replaces">Master hunter</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -2353,32 +2353,32 @@ const _wild_soul = {title: "Wild Soul", jsx: <><h2 id="arc-ranger-wild_soul-wild
 </>};
 const _wild_stalker = {title: "Wild Stalker", jsx: <><h2 id="arc-ranger-wild_stalker-wild-stalker">Wild Stalker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 68</Link><br/>Civilization grows stronger and more decadent with each passing year. It tears into unclaimed wilderness and destroys the fragile ecology in its constant push for expansion and exploitation. The wild stalker forsakes the bonds of community and lives in the trackless wilds far from others of his kind, or perhaps grew up there, never knowing of civilization as anything more than his enemy. He drives pioneers back to civilization and strives to keep the land unspoiled.</p>
-<Ability id="strong-senses-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="strong-senses-ex" icon={["power","boost"]}>
 <Pair single id="strong-senses-ex" flavor="A wild stalker's life among the wild has sharpened his senses.">Strong Senses (Ex)</Pair>
 <Pair hl title="Replaces">1st favored enemy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">He gains low-light vision and a bonus on Perception checks equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of his ranger level. If he already has low-light vision, the bonus becomes 2 + one-fourth of his ranger level.<sup><InnerLink showBacklink="backlink-arc-ranger-wild_stalker-fake-fn-1" id="arc-ranger-wild_stalker-fake-fn-1" data-hash-target to="arc-ranger-wild_stalker-fake-fn-1-target">1</InnerLink></sup></Pair>
 </Ability>
-<Ability id="uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Ability id="uncanny-dodge-ex" icon={["def"]}>
 <Pair single id="uncanny-dodge-ex">Uncanny Dodge (Ex)</Pair>
 <Pair hl title="Replaces">2nd-level combat style feat</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A wild stalker gains <Link to="/ability/uncanny_dodge">uncanny dodge</Link> as the barbarian class feature.</Pair>
 </Ability>
-<Ability id="rage-of-the-wild-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="rage-of-the-wild-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="rage-of-the-wild-ex">Rage of the Wild (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A wild stalker gains the <em>rage</em> ability as the <Link to="/class/barbarian">barbarian</Link> class feature, but its barbarian level is considered to be his ranger level - 3.</Pair>
 </Ability>
-<Ability id="rage-ex" extraClasses="subAbility" icon={["upgrade","broken-shield"]}>
+<Ability id="rage-ex" extraClasses="subAbility" icon={["boost","down"]}>
 <Pair single id="rage-ex" flavor="Text from the barbarian class.">Rage (Ex)</Pair>
 <Pair title="Usage">2 rounds/day + double your barbarian level + your Constitution modifier</Pair>
 <Pair title="Free Action">You can enter (or end) a <em>rage.</em> You gain a +4 morale bonus to your Strength and Constitution, as well as a +2 morale bonus on Will saves. The increase to Constitution grants you 2 hit points per Hit Dice, but these disappear when the <em>rage</em> ends and are not lost first like <Link to="/rule/temporary_hit_points">temporary hit points</Link>.</Pair>
 <Pair title="Passive Ability">While in <em>rage,</em> you take a -2 penalty to Armor Class, and you cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration. You are <Link to="/misc/fatigued">fatigued</Link> after <em>rage</em> for a number of rounds equal to 2 times the number of rounds spent in the <em>rage.</em> You cannot enter a new <em>rage</em> while fatigued or <Link to="/misc/exhausted">exhausted</Link> but can otherwise enter <em>rage</em> multiple times during a single encounter or combat. If you fall unconscious, your <em>rage</em> immediately ends, placing you in peril of death.</Pair>
 <Pair title="Special">Temporary increases to Constitution, such as those gained from <em>rage</em> and spells like <Link to="/spell/bears_endurance">bear's endurance</Link>, do not increase the total number of rounds that a barbarian can <em>rage</em> per day. The total number of rounds of <em>rage</em> per day is renewed after resting for 8 hours, although these hours do not need to be consecutive.</Pair>
 </Ability>
-<Ability id="rage-powers" icon={["stairs-goal"]}>
+<Ability id="rage-powers" icon={["power"]}>
 <Pair single id="rage-powers">Rage Powers</Pair>
 <Pair hl title="Replaces">2nd, 3rd, 4th, and 5th favored enemy</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -2387,7 +2387,7 @@ const _wild_stalker = {title: "Wild Stalker", jsx: <><h2 id="arc-ranger-wild_sta
 <Pair title="At 15th Level">He gains another rage power.</Pair>
 <Pair title="At 20th Level">He gains another rage power.</Pair>
 </Ability>
-<Ability id="wild-talents-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="wild-talents-ex" icon={["power","boost"]}>
 <Pair single id="wild-talents-ex">Wild Talents (Ex)</Pair>
 <Pair hl title="Replaces">6th-, 10th-, 14th-, and 18th-level combat style feat</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -2402,37 +2402,37 @@ const _wild_stalker = {title: "Wild Stalker", jsx: <><h2 id="arc-ranger-wild_sta
 </ol></section></>};
 const _wilderness_explorer = {title: "Wilderness Explorer", jsx: <><h2 id="arc-ranger-wilderness_explorer-wilderness-explorer">Wilderness Explorer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 74</Link><br/>Wilderness explorers are adept at making peaceful contact with remote societies.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Intimidate, Knowledge (dungeoneering)</Pair></Ability>
-<Ability id="cultural-contact-ex" icon={["stairs-goal"]}>
+<Ability id="cultural-contact-ex" icon={["power"]}>
 <Pair single id="cultural-contact-ex">Cultural Contact (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Passive Ability">A wilderness explorer gains the ability to communicate with creatures with which he doesn't share a common language. Only basic concepts can be conveyed or understood, such as "I need help," "I come in peace," "Come over here," "Go over there," and the like. This allows the wilderness explorer to ignore the common language requirement of social interaction and language-dependent spells and effects, but he can do so only when the information being shared is relatively simple. The creature with which the wilderness explorer communicates must understand at least one language for this ability to function.</Pair>
 <Pair title="Ability">Additionally, a wilderness explorer can peacefully influence the initial attitude of humanoids that have Intelligence scores of 2 or lower. This ability functions just like <em>wild empathy,</em> but it works on humanoids instead of on animals. The wilderness explorer can also use this ability to influence a monstrous humanoid with 2 or lower Intelligence, but the wilderness explorer takes a -4 penalty on the check.</Pair>
 </Ability>
-<Ability id="hazard-sense-ex" icon={["armor-upgrade"]}>
+<Ability id="hazard-sense-ex" icon={["def"]}>
 <Pair single id="hazard-sense-ex" flavor="A wilderness explorer gains an intuitive understanding of natural hazards and traps fashioned from a natural environment.">Hazard Sense (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">He gains a bonus on Reflex saves against natural hazards and wilderness traps and a dodge bonus to AC against attacks from wilderness traps. Both of these bonuses are equal to <Link to="/misc/one_fourth">one-fourth</Link> of his ranger level.</Pair>
 </Ability>
-<Ability id="indigenous-spirit-su" icon={["armor-upgrade"]}>
+<Ability id="indigenous-spirit-su" icon={["def"]}>
 <Pair single id="indigenous-spirit-su" flavor="A wilderness explorer attracts the aid of native spirits, which reward his appreciation of their home with whispered warnings.">Indigenous Spirit (Su)</Pair>
 <Pair hl title="Replaces">Swift tracker</Pair>
 <Pair hl title="Alters">Favored terrain</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">The wilderness explorer gains <Link to="/ability/uncanny_dodge">uncanny dodge</Link> as long as he remains within one of his chosen <em>favored terrains.</em> This works like the barbarian ability of the same name.</Pair>
 </Ability>
-<Ability id="guardian-spirit-su" icon={["armor-upgrade"]}>
+<Ability id="guardian-spirit-su" icon={["def"]}>
 <Pair single id="guardian-spirit-su" flavor="A wilderness explorer gains the aid of indigenous spirits, which favor him when he is defending himself against multiple foes that surround him.">Guardian Spirit (Su)</Pair>
 <Pair hl title="Replaces">Quarry</Pair>
 <Pair hl title="Alters">Favored terrain</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">He gains <Link to="/ability/improved_uncanny_dodge">improved uncanny dodge</Link>; this ability functions only while the ranger is within one of his <em>favored terrains.</em></Pair>
 </Ability>
-<Ability id="manifest-spirit-su" icon={["armor-upgrade"]}>
+<Ability id="manifest-spirit-su" icon={["def"]}>
 <Pair single id="manifest-spirit-su" flavor="A wilderness explorer is shielded from magic by those guardian spirits that favor him.">Manifest Spirit (Su)</Pair>
 <Pair hl title="Replaces">Improved quarry</Pair>
 <Pair hl title="Alters">Favored terrain</Pair>
@@ -2442,13 +2442,13 @@ const _wilderness_explorer = {title: "Wilderness Explorer", jsx: <><h2 id="arc-r
 </>};
 const _wilderness_medic = {title: "Wilderness Medic", jsx: <><h2 id="arc-ranger-wilderness_medic-wilderness-medic">Wilderness Medic</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 5</Link><br/>Wilderness medics know a variety of ways they can supply and preserve a rebellion or similar movement without requiring any resources that might make them easier to track down.</p>
-<Ability id="herbalist-training-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="herbalist-training-ex" icon={["power","boost"]}>
 <Pair single id="herbalist-training-ex">Herbalist Training (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A wilderness medic can attempt Profession (herbalism) checks untrained and the wilderness medic gains a bonus equal to 1/2 his ranger level (minimum +1) on Heal checks and Profession (herbalism) checks. When he successfully <Link to="/rule/foraging">forages</Link> for herbs, he finds twice as many doses of any herb he would normally.</Pair>
 </Ability>
-<Ability id="herbal-medicine-ex" icon={["remedy"]}>
+<Ability id="herbal-medicine-ex" icon={["aid"]}>
 <Pair single id="herbal-medicine-ex">Herbal Medicine (Ex)</Pair>
 <Pair hl title="Replaces">Endurance, evasion</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -2458,7 +2458,7 @@ const _wilderness_medic = {title: "Wilderness Medic", jsx: <><h2 id="arc-ranger-
 <Pair title="At 9th Level">The wilderness medic can lessen the severity of additional conditions for the target and cure other conditions that the target suffers. If the target creature is <Link to="/misc/blinded">blinded</Link>, it becomes <Link to="/misc/dazzled">dazzled</Link> instead. If the target is <Link to="/misc/panicked">panicked</Link>, it becomes shaken instead. If it has any of the following conditions, they are cured: <Link to="/misc/deafened">deafened</Link>, fatigued, shaken, and sickened.</Pair>
 <Pair title="Special">The wilderness medic is able to use the non-<em>stabilize</em> ability on a given touched target once every 24 hours.</Pair>
 </Ability>
-<Ability id="rallying-bond-sp" icon={["broken-shield","remedy","upgrade"]}>
+<Ability id="rallying-bond-sp" icon={["down","aid","boost"]}>
 <Pair single id="rallying-bond-sp">Rallying Bond (Sp)</Pair>
 <Pair hl title="Replaces">Improved evasion</Pair>
 <Pair hl title="Alters">Hunter's bond</Pair>
@@ -2470,11 +2470,11 @@ const _wilderness_medic = {title: "Wilderness Medic", jsx: <><h2 id="arc-ranger-
 </>};
 const _witchguard = {title: "Witchguard", jsx: <><h2 id="arc-ranger-witchguard-witchguard">Witchguard</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North pg. 25</Link><br/>Witchguards are the sworn defenders of the White Witches of Irrisen. Although the White Witches are spellcasters of immense power, even they cannot defend themselves against every attack. Witchguards dedicate their lives to protecting their charges, and they gain some arcane knowledge in return. They are trained to work closely with witches and defend their charges from harm. Witchguards learn magical abilities from the same patrons that grant witches their powers, though they can use their abilities to protect any kind of spellcaster, not just a witch. A witchguard is ready to face any foe that might threaten his charge, and he is ever prepared to lay down his life to protect the life of the person he is sworn to defend.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (dungeoneering)</Pair></Ability>
-<Ability id="defend-charge-ex" icon={["shield-reflect"]}>
+<Ability id="defend-charge-ex" icon={["protect"]}>
 <Pair single id="defend-charge-ex">Defend Charge (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -2485,17 +2485,17 @@ const _witchguard = {title: "Witchguard", jsx: <><h2 id="arc-ranger-witchguard-w
 <Pair title="At 15th Level">These bonuses become +8.</Pair>
 <Pair title="At 20th Level">These bonuses increase to +10.</Pair>
 </Ability>
-<Ability id="bodyguard-ex" icon={["stairs-goal"]}>
+<Ability id="bodyguard-ex" icon={["power"]}>
 <Pair single id="bodyguard-ex">Bodyguard (Ex)</Pair>
 <Pair hl title="Replaces">Endurance</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A witchguard gains <Link to="/feat/bodyguard">Bodyguard</Link> as a bonus feat, even if he doesn't meet the prerequisite.</Pair>
 </Ability>
-<Ability id="patron-su" icon={["spell-book"]}>
+<Ability id="patron-su" icon={["learn"]}>
 <Pair single id="patron-su" flavor="A witchguard learns something of arcane magic from the witches he defends.">Patron (Su)</Pair>
 <Pair title="At 4th Level">When a witchguard gains the ability to cast spells, he must also select a <Link to="/ability/patrons">patron</Link>, as the witch class feature. This patron is usually the same as the patron of the witch he is sworn to protect, but the witchguard may choose any patron. The witchguard adds the first four spells from his patron's spell list to his ranger spell list. The witchguard cannot cast patron spells of a level he is unable to cast.</Pair>
 </Ability>
-<Ability id="sworn-defender-ex" icon={["stairs-goal"]}>
+<Ability id="sworn-defender-ex" icon={["power"]}>
 <Pair single id="sworn-defender-ex">Sworn Defender (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 7th Level</Pair>
@@ -2504,7 +2504,7 @@ const _witchguard = {title: "Witchguard", jsx: <><h2 id="arc-ranger-witchguard-w
 </>};
 const _yokai_hunter = {title: "Yokai Hunter", jsx: <><h2 id="arc-ranger-yokai_hunter-yokai-hunter">Yokai Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer pg. 23</Link><br/>Yokai hunters possess a supernatural tether to the spirit worlds that shroud mortal existence. They use their powers to peer into the realm of the dead, and are adept at hunting those who dwell in the realm between the Material Plane and the Great Beyond, the supernatural beings Tians refer to as yokai. The yokai hunter is an archetype of the ranger class.</p>
-<Ability id="favored-yokai-su" icon={["upgrade","stairs-goal"]}>
+<Ability id="favored-yokai-su" icon={["boost","power"]}>
 <Pair single id="favored-yokai-su" flavor={<>A yokai hunter possesses a supernatural ability to sense beings connected to the spirit world, such as <Link to="/family/kami">kami</Link>, <Link to="/family/oni">oni</Link>, and <Link to="/template/ghost">ghosts</Link>, and is formidable at fighting them.</>}>Favored Yokai (Su)</Pair>
 <Pair hl title="Replaces">Favored enemy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -2516,13 +2516,13 @@ const _yokai_hunter = {title: "Yokai Hunter", jsx: <><h2 id="arc-ranger-yokai_hu
 <Pair title="At 20th Level">A yokai hunter may select another <em>favored yokai</em> from the list above, gaining a +2 bonus on weapon attacks and damage rolls against that yokai.</Pair>
 <Pair title="Special">Ranger abilities that rely on a <em>favored enemy</em> instead rely on this ability.</Pair>
 </Ability>
-<Ability id="yokai-sense-su" icon={["stairs-goal"]}>
+<Ability id="yokai-sense-su" icon={["power"]}>
 <Pair single id="yokai-sense-su">Yokai Sense (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">A yokai hunter can sense yokai he has identified with his <em>favored yokai</em> ability as though he had <Link to="/umr/blindsense">blindsense</Link> out to a range of 60 feet.</Pair>
 </Ability>
-<Ability id="resist-yokai-su" icon={["armor-upgrade"]}>
+<Ability id="resist-yokai-su" icon={["def"]}>
 <Pair single id="resist-yokai-su">Resist Yokai (Su)</Pair>
 <Pair hl title="Replaces">Camouflage</Pair>
 <Pair title="Gained">At 12th Level</Pair>

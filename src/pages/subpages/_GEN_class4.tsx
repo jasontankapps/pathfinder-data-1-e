@@ -527,26 +527,26 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th>Shields?</th><td colSpan={2}>Yes, except tower shields</td></tr><tr><td colSpan={3} className="sw se">A skald can cast skald spells while wearing light or medium armor and even using a shield without incurring the normal arcane spell failure chance. This does not affect the arcane spell failure chance for arcane spells received from other classes. Like other arcane spellcasters, a skald wearing heavy armor incurs a chance of arcane spell failure if the spell in question has somatic components.</td></tr></tbody></table>
-<Ability id="bardic-knowledge-ex" icon={["upgrade"]}>
+<Ability id="bardic-knowledge-ex" icon={["boost"]}>
 <Pair single id="bardic-knowledge-ex">Bardic Knowledge (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You add <Link to="/misc/half">half</Link> your class level (minimum 1) on all Knowledge skill checks, and may make all Knowledge skill checks untrained.</Pair>
 </Ability>
-<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
+<Ability id="spells" icon={["magic"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To learn or cast a spell, you must have a Charisma score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Charisma score.</Pair>
 <Pair title="Ability">You gain the ability to cast arcane spells which are drawn from the <Link to="/main/spells_skald">skald spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Charisma modifier. You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level.</Pair><Pair title="Info"><p>A skald's selection of spells is limited. You begin play knowing four 0-level spells and two 1st-level spells of your choice. At each new skald level you gain one or more new spells as indicated on the table above. Unlike spells per day, the number of spells you know is not affected by your Charisma score.</p>
-<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair><Pair title="Special">Every skald spell has a verbal component - these verbal components can take the form of song, recitation, or even non-verbal music like percussion.</Pair></Ability><Ability id="cantrips" icon={["magic-swirl"]}>
+<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair><Pair title="Special">Every skald spell has a verbal component - these verbal components can take the form of song, recitation, or even non-verbal music like percussion.</Pair></Ability><Ability id="cantrips" icon={["magic"]}>
 <Pair single id="cantrips">Cantrips</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of cantrips, or 0-level arcane spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Cantrips cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
 </Ability>
-<Ability id="scribe-scroll" icon={["stairs-goal"]}>
+<Ability id="scribe-scroll" icon={["power"]}>
 <Pair single id="scribe-scroll">Scribe Scroll</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain <Link to="/feat/scribe_scroll">Scribe Scroll</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="raging-song-su" extraClasses="hasSubs" icon={["stairs-goal","aura"]}>
+<Ability id="raging-song-su" extraClasses="hasSubs" icon={["power","aura"]}>
 <Pair single id="raging-song-su" flavor="A skald is trained to use music, oration, and similar performances to inspire his allies to feats of strength and ferocity.">Raging Song (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">1 + twice your skald level + your Cha modifier rounds/day.</Pair>
@@ -558,7 +558,7 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="At 7th Level">You can begin a raging song as a <strong className="hl">move-equivalent action</strong>.</Pair>
 <Pair title="At 13th Level">You can begin a raging song as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="inspired-rage-su" extraClasses="subAbility" icon={["upgrade","broken-shield","aura"]}>
+<Ability id="inspired-rage-su" extraClasses="subAbility" icon={["boost","down","aura"]}>
 <Pair single id="inspired-rage-su">Inspired Rage (Su)</Pair>
 <Pair title="At 1st Level"><p>Affected allies gain a +2 morale bonus to Strength and Constitution and a +1 morale bonus on Will saving throws, but also take a -1 penalty to AC. The bonuses increase as you gain levels.</p>
 <p>While under the effects of <em>inspired rage,</em> allies other than you cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration. (Unlike the barbarian's <em>rage</em> ability, those affected are not fatigued after the song ends.)</p>
@@ -569,25 +569,25 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="At 12th Level">The bonus to Will becomes +4.</Pair>
 <Pair title="At 16th Level">The bonus to Will becomes +5, and the bonus to Str and Con becomes +6.</Pair>
 </Ability>
-<Ability id="song-of-marching-su" extraClasses="subAbility" icon={["upgrade","aura"]}>
+<Ability id="song-of-marching-su" extraClasses="subAbility" icon={["boost","aura"]}>
 <Pair single id="song-of-marching-su">Song of Marching (Su)</Pair>
 <Pair title="At 3rd Level">You can use <em>raging song</em> to inspire your allies to move faster without suffering from fatigue. By expending 1 round of <em>raging song,</em> you invigorate allies within 60 feet, who may <Link to="/rule/hustle">hustle</Link> for the next hour; this movement counts as a walk (not a hustle) for the purpose of accruing nonlethal damage and fatigue. You must continue to perform the song for the remainder of the hour, otherwise its effects end, but only 1 round of <em>raging song</em> is expended for that hour.</Pair>
 </Ability>
-<Ability id="song-of-strength-su" extraClasses="subAbility" icon={["upgrade","aura"]}>
+<Ability id="song-of-strength-su" extraClasses="subAbility" icon={["boost","aura"]}>
 <Pair single id="song-of-strength-su">Song of Strength (Su)</Pair>
 <Pair title="At 6th Level">You can use <em>raging song</em> to inspire your allies to superhuman feats of strength. Once each round while you use this performance, allies within 60 feet who can hear you may add 1/2 your level to a Strength check or Strength-based skill check.</Pair>
 </Ability>
-<Ability id="dirge-of-doom-su" extraClasses="subAbility" icon={["armor-downgrade","aura"]}>
+<Ability id="dirge-of-doom-su" extraClasses="subAbility" icon={["lower","aura"]}>
 <Pair single id="dirge-of-doom-su">Dirge of Doom (Su)</Pair>
 <Pair title="At 10th Level">You can create a sense of growing dread in your enemies, causing them to become <Link to="/misc/shaken">shaken</Link>. This only affects enemies that are within 30 feet and able to hear your performance. The effect persists for as long as the enemy is within 30 feet and you continue your performance. This cannot cause a creature to become frightened or panicked, even if the targets are already shaken from another effect.</Pair>
 <Pair title="Special">This is a sonic mind-affecting fear effect, and relies on audible components.</Pair>
 </Ability>
-<Ability id="song-of-the-fallen-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="song-of-the-fallen-su" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="song-of-the-fallen-su">Song of the Fallen (Su)</Pair>
 <Pair title="At 14th Level">You can temporarily revive dead allies to continue fighting, with the same limitations as <Link to="/spell/raise_dead">raise dead</Link>. You select a dead ally within 60 feet and expend 1 round of <em>raging song</em> to bring that ally back to life. The revived ally is alive but <Link to="/misc/staggered">staggered</Link>. Each round, you may expend another 1 round of <em>raging song</em> to keep that ally alive for another round. The ally automatically dies if you end this performance or are interrupted. You may revive multiple allies with this ability (either at the same time or over successive rounds) but must expend 1 round of <em>raging song</em> per revived ally per round to maintain the effect.</Pair>
 </Ability>
 <aside><p>A skald may learn <Link to="/ability/bardic_masterpieces">bardic masterpieces</Link> and <Link to="/ability/sagas">sagas</Link>.</p>
-</aside><Ability id="versatile-performance-ex" icon={["upgrade"]}>
+</aside><Ability id="versatile-performance-ex" icon={["boost"]}>
 <Pair single id="versatile-performance-ex">Versatile Performance (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability"><p>You choose one type of Perform skill associated with the skald class. You can use your bonus in that skill in place of your bonus in the associated skills listed below. When substituting in this way, you skald use your total Perform skill bonus, including class skill bonus, in place of the associated skill's bonus, whether or not you have ranks in that skill or if it is a class skill.</p>
@@ -604,12 +604,12 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="At 12th Level">You can select an additional type of Perform to substitute.</Pair>
 <Pair title="At 17th Level">You can select an additional type of Perform to substitute.</Pair>
 </Ability>
-<Ability id="well-versed-ex" icon={["armor-upgrade"]}>
+<Ability id="well-versed-ex" icon={["def"]}>
 <Pair single id="well-versed-ex">Well-Versed (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You gain a +4 bonus on saving throws made against bardic performance, as well as all sonic or language-dependent effects.</Pair>
 </Ability>
-<Ability id="rage-powers-ex" icon={["stairs-goal"]}>
+<Ability id="rage-powers-ex" icon={["power"]}>
 <Pair single id="rage-powers-ex">Rage Powers (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">You learn a <Link to="/ability/rage_powers">rage power</Link> that affects you and any allies under the influence of your <em>inspired rage.</em></Pair>
@@ -626,13 +626,13 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="At 18th Level">You gain a new rage power.</Pair>
 <Pair title="Special">You cannot select a rage power that requires the creature to spend a standard action or rounds of <em>rage</em> to activate it. For example, you cannot choose <Link to="/ragepower/terrifying_howl">terrifying howl</Link> (which requires a standard action to activate), but can choose <Link to="/ragepower/knockback">knockback</Link> (which is made in place of a melee attack). Unless otherwise noted, you cannot select an individual rage power more than once.</Pair>
 </Ability>
-<Ability id="uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Ability id="uncanny-dodge-ex" icon={["def"]}>
 <Pair single id="uncanny-dodge-ex" flavor="A skald gains the ability to react to danger before his senses would normally allow him to do so.">Uncanny Dodge (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">You cannot be caught <Link to="/rule/flat_footed">flat-footed</Link>, nor do you lose your Dex bonus to AC if the attacker is invisible. You still lose your Dexterity bonus to AC if immobilized, or if an opponent successfully uses the <Link to="/skill/bluff">feint</Link> action against you.</Pair>
 <Pair title="Special">If you have <em>uncanny dodge</em> from a different class, you automatically gain <em>improved uncanny dodge</em> instead.</Pair>
 </Ability>
-<Ability id="spell-kenning-su" icon={["magic-swirl"]}>
+<Ability id="spell-kenning-su" icon={["magic"]}>
 <Pair single id="spell-kenning-su" flavor="A skald is learned in the magic of other spellcasters, and can use his own magic to duplicate those classes' spells.">Spell Kenning (Su)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Usage">Once per day.</Pair>
@@ -640,7 +640,7 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="At 11th Level">You can use this twice a day.</Pair>
 <Pair title="At 17th Level">You can use this three times a day.</Pair>
 </Ability>
-<Ability id="lore-master-ex" icon={["upgrade","rolling-dices"]}>
+<Ability id="lore-master-ex" icon={["boost","roll"]}>
 <Pair single id="lore-master-ex" flavor="The skald becomes a master of many different types of lore.">Lore Master (Ex)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">You can take 10 on any Knowledge skill check that you have ranks in.</Pair>
@@ -649,13 +649,13 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="At 13th Level">You can Take 20 twice a day.</Pair>
 <Pair title="At 19th Level">You can Take 20 three times a day.</Pair>
 </Ability>
-<Ability id="improved-uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Ability id="improved-uncanny-dodge-ex" icon={["def"]}>
 <Pair single id="improved-uncanny-dodge-ex">Improved Uncanny Dodge (Ex)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">You can no longer be flanked. This defense denies enemies the ability to <Link to="/ability/sneak_attack">sneak attack</Link> you by flanking you, unless the attacker has at least four more levels in a class that grants sneak attack than you have skald levels.</Pair>
 <Pair title="Special">If you already have uncanny dodge from another class, the levels from the classes that grant uncanny dodge stack to determine the minimum level required to flank you.</Pair>
 </Ability>
-<Ability id="damage-reduction-ex" icon={["armor-upgrade"]}>
+<Ability id="damage-reduction-ex" icon={["def"]}>
 <Pair single id="damage-reduction-ex">Damage Reduction (Ex)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">You gain <Link to="/rule/damage_reduction">damage reduction</Link> DR 1/-. Subtract 1 from the damage you take each time you're dealt damage from a weapon or a natural attack. Damage reduction can reduce damage to 0, but not below 0.</Pair>
@@ -663,7 +663,7 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="At 19th Level">Your DR becomes 3/-.</Pair>
 <Pair title="Special">You grant this DR to all allies affected by your <em>inspired rage.</em></Pair>
 </Ability>
-<Ability id="master-skald-su" icon={["upgrade"]}>
+<Ability id="master-skald-su" icon={["boost"]}>
 <Pair single id="master-skald-su">Master Skald (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">Your <em>inspired rage</em> no longer gives allies a penalty to AC, nor limits what skills or abilities you can use. Allies with <em>rage</em> class abilities may use features dependent on those abilities without restriction, such as a barbarian's rage powers and a bloodrager's blood casting and bloodline abilities. Finally, when making a full attack, affected allies may make an additional attack each round (as if using a <Link to="/spell/haste">haste</Link> effect).</Pair>
@@ -889,7 +889,7 @@ const _slayer = {hasJL:true,title: "Slayer", jsx: <><div className="jumpList" id
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">Yes, except tower shields</td></tr></tbody></table>
-<Ability id="studied-target-ex" icon={["upgrade"]}>
+<Ability id="studied-target-ex" icon={["boost"]}>
 <Pair single id="studied-target-ex">Studied Target (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Move-Equivalent Action">You can study an opponent you can see. You then gain a bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks attempted against that opponent, and a bonus on weapon attack and damage rolls against it; these bonuses are equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your slayer level. The DCs of slayer class abilities against that opponent increase by 1 + one-fifth of your slayer level. You can only maintain these bonuses against a certain number of opponents at a time (equal to 1 + one-fifth of your slayer level); these bonuses remain in effect until either the opponent is dead or you study a new target.</Pair>
@@ -897,17 +897,17 @@ const _slayer = {hasJL:true,title: "Slayer", jsx: <><div className="jumpList" id
 <Pair title="Free Action">You can discard this connection to a studied target, allowing you to study another target in its place.</Pair>
 <Pair title="At 7th Level">You can now choose to study a target as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="track-ex" icon={["upgrade"]}>
+<Ability id="track-ex" icon={["boost"]}>
 <Pair single id="track-ex">Track (Ex)</Pair>
 <Pair title="Passive Ability">You add 1/2 your level (minimum 1) to Survival skill checks made to follow tracks</Pair>
 </Ability>
-<Ability id="slayer-talents" icon={["stairs-goal"]}>
+<Ability id="slayer-talents" icon={["power"]}>
 <Pair single id="slayer-talents" flavor="As a slayer gains experience, he learns a number of talents that aid him and confound his foes.">Slayer Talents</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">You gain one <Link to="/ability/slayer_talents">slayer talent</Link> at <strong>every even-numbered level</strong> (2nd, 4th, 6th, and so on). Unless otherwise noted, you cannot select an individual talent more than once.</Pair>
 <Pair title="Special">Talents labeled as Primary Sneak Attack Talents add effects to your sneak attack. Only one of these talents can be applied to an individual attack, and the decision of which to use must be made before the attack roll is made.</Pair>
 </Ability>
-<Ability id="sneak-attack" icon={["upgrade","mailed-fist","bowman"]}>
+<Ability id="sneak-attack" icon={["boost","melee","ranged"]}>
 <Pair single id="sneak-attack">Sneak Attack</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">You gain the ability to make a <Link to="/ability/sneak_attack">sneak attack</Link>, as a rogue can. Your attack deals +1d6 extra damage anytime your target would be denied a Dexterity bonus to AC (whether the target actually has a Dex bonus or not), or when you <Link to="/rule/flank">flank</Link> your target. This additional damage is not multiplied on a critical hit. Ranged attacks can count as sneak attacks only if the target is within 30 feet. You cannot use sneak attack while striking a creature with <Link to="/rule/concealment">concealment</Link>.</Pair>
@@ -918,42 +918,42 @@ const _slayer = {hasJL:true,title: "Slayer", jsx: <><div className="jumpList" id
 <Pair title="At 18th Level">Your extra damage becomes +6d6 damage.</Pair>
 <Pair title="Special">With a weapon that deals nonlethal damage (like a <Link to="/eq-weapon/sap">sap</Link>, <Link to="/eq-weapon/whip">whip</Link>, or unarmed strike), you can make a sneak attack that deals nonlethal damage instead of lethal damage. You can't use a weapon that deals lethal damage to deal nonlethal damage in a sneak attack, not even with the usual -4 penalty.</Pair>
 </Ability>
-<Ability id="stalker-ex" icon={["upgrade"]}>
+<Ability id="stalker-ex" icon={["boost"]}>
 <Pair single id="stalker-ex">Stalker (Ex)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">You gain your <em>studied target</em> bonus on Disguise, Intimidate, and Stealth checks against your studied opponent.</Pair>
 </Ability>
-<Ability id="advanced-talents" icon={["stairs-goal"]}>
+<Ability id="advanced-talents" icon={["power"]}>
 <Pair single id="advanced-talents">Advanced Talents</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Ability">When you would select a <em>slayer talent</em> from gaining a level, you can now select an <Link to="/ability/advanced_slayer_talents">advanced_slayer_talent</Link> instead.</Pair>
 </Ability>
-<Ability id="swift-tracker-ex" icon={["upgrade"]}>
+<Ability id="swift-tracker-ex" icon={["boost"]}>
 <Pair single id="swift-tracker-ex">Swift Tracker (Ex)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Passive Ability">You can move at your normal speed while using Survival to follow tracks without taking the normal -5 penalty. When moving at up to twice your normal speed while tracking, you take only a -10 penalty instead of the normal -20.</Pair>
 </Ability>
-<Ability id="slayers-advance-ex" icon={["upgrade"]}>
+<Ability id="slayers-advance-ex" icon={["boost"]}>
 <Pair single id="slayers-advance-ex">Slayer's Advance (Ex)</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Usage">Once a day.</Pair>
 <Pair title="Move-Equivalent Action">You can move up to twice your base speed. You may use Stealth as part of this movement, but take a -10 penalty to your check for doing so.</Pair>
 <Pair title="At 17th Level">You can do this twice a day.</Pair>
 </Ability>
-<Ability id="quarry-ex" icon={["upgrade"]}>
+<Ability id="quarry-ex" icon={["boost"]}>
 <Pair single id="quarry-ex">Quarry (Ex)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Standard Action">You can denote one target within your line of sight as your <em>quarry.</em> Whenever you are following the tracks of your <em>quarry,</em> you can take 10 on your Survival skill checks while moving at normal speed, without penalty. In addition, you gain a +2 insight bonus on attack rolls made against your <em>quarry,</em> and all critical threats against your <em>quarry</em> are automatically confirmed.</Pair>
 <Pair title="Special">You can have no more than one <em>quarry</em> at a time, and the target must be selected as a <em>studied target.</em> You can dismiss this effect at any time as a <strong className="hl">free action</strong>, but you cannot select a new <em>quarry</em> target for 24 hours. If you see proof that your <em>quarry</em> is dead, you can select a new <em>quarry</em> target after 1 hour.</Pair>
 </Ability>
-<Ability id="improved-quarry-ex" icon={["upgrade"]}>
+<Ability id="improved-quarry-ex" icon={["boost"]}>
 <Pair single id="improved-quarry-ex">Improved Quarry (Ex)</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Free Action">You can now select a <em>quarry</em> as a <strong className="hl">free action</strong>.</Pair>
 <Pair title="Ability">You can now take 20 while using Survival to track your <em>quarry</em> while moving at normal speed without penalty. Your insight bonus to attack your <em>quarry</em> increases to +4.</Pair>
 <Pair title="Special">If your <em>quarry</em> is killed or dismissed, you can select a new one after 10 minutes have passed.</Pair>
 </Ability>
-<Ability id="master-slayer-ex" icon={["upgrade"]}>
+<Ability id="master-slayer-ex" icon={["boost"]}>
 <Pair single id="master-slayer-ex">Master Slayer (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Standard Action">You can make a single attack against a studied target at your full attack bonus, choosing one of the following effects: kill, knock <Link to="/misc/unconscious">unconscious</Link> for 1d4 hours, or <Link to="/rule/paralyze">paralyze</Link> for 2d6 rounds. If the attack succeeds, the target takes damage normally and must succeed at a Fortitude saving throw or suffer the additional effect. The DC for this save is 10 + 1/2 your level + your Intelligence modifier. Whether or not the target succeeds, it cannot be targeted by this ability again (by any slayer) for 24 hours.</Pair>
@@ -1646,16 +1646,16 @@ const _sorcerer = {hasJL:true,title: "Sorcerer", jsx: <><div className="jumpList
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={1}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>No</td></tr><tr><th>Shields?</th><td colSpan={2}>No</td></tr><tr><td colSpan={3} className="sw se">Armor interferes with a sorcerer's gestures, which can cause her spells with somatic components to fail.</td></tr></tbody></table>
-<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
+<Ability id="spells" icon={["magic"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To learn or cast a spell, you must have a Charisma score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Charisma score.</Pair>
 <Pair title="Ability">You gain the ability to cast arcane spells which are drawn from the <Link to="/main/spells_sorcerer">sorcerer spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Charisma modifier. You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level.</Pair><Pair title="Info"><p>A sorcerer's selection of spells is extremely limited. You begin play knowing four 0-level spells and two 1st-level spells of your choice. At each new sorcerer level you gain one or more new spells as indicated on the table above. Unlike spells per day, the number of spells you know is not affected by your Charisma score.</p>
-<p>At 4th level, and every two levels thereafter (6th, 8th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="cantrips" icon={["magic-swirl"]}>
+<p>At 4th level, and every two levels thereafter (6th, 8th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="cantrips" icon={["magic"]}>
 <Pair single id="cantrips">Cantrips</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of cantrips, or 0-level arcane spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Cantrips cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
 </Ability>
-<Ability id="bloodline" icon={["stairs-goal","magic-swirl","skills"]}>
+<Ability id="bloodline" icon={["power","magic","skill"]}>
 <Pair single id="bloodline" flavor="Each sorcerer has a source of magic somewhere in her heritage that grants her special abilities. This source can represent a blood relation or an extreme event involving a creature somewhere in the family's past. For example, a sorcerer might have a dragon as a distant relative or her grandfather might have signed a terrible contract with a devil. Regardless of the source, this influence manifests in a number of ways as the sorcerer gains levels.">Bloodline</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You must pick one <Link to="/ability/sorcerer_bloodlines">bloodline</Link> upon taking your first level of sorcerer. Once made, this choice cannot be changed. This bloodline grants you a bonus class skill, as well as additional abilities as you gain levels.</Pair>
@@ -1671,7 +1671,7 @@ const _sorcerer = {hasJL:true,title: "Sorcerer", jsx: <><div className="jumpList
 <Pair title="Special">Spells gained from your bloodline are in addition to the number of spells you gain every level. They cannot be exchanged for different spells at higher levels.</Pair>
 </Ability>
 <aside><p>Optionally, when a sorcerer gains a new bloodline power or bonus feat, she can swap it for a specific <Link to="/ability/bloodline_mutations">bloodline mutation</Link> whose prerequisites she meets.</p>
-</aside><Ability id="eschew-materials" icon={["stairs-goal"]}>
+</aside><Ability id="eschew-materials" icon={["power"]}>
 <Pair single id="eschew-materials">Eschew Materials</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain <Link to="/feat/eschew_materials">Eschew Materials</Link> as a bonus feat at 1st level.</Pair>
@@ -2225,16 +2225,16 @@ const _spiritualist = {hasJL:true,title: "Spiritualist", jsx: <><div className="
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={3}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td><Link to="/eq-weapon/kukri">kukri</Link></td><td><Link to="/eq-weapon/sap">sap</Link></td></tr><tr><td colSpan={2}><Link to="/eq-weapon/scythe">scythe</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light armor</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">No</td></tr></tbody></table>
-<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
+<Ability id="spells" icon={["magic"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To cast a spell, you must have a Wisdom score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Wisdom score.</Pair>
 <Pair title="Ability">You gain the ability to cast psychic spells which are drawn from the <Link to="/main/spells_spiritualist">spiritualist spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Wisdom modifier. You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level.</Pair><Pair title="Info"><p>A spiritualist's selection of spells is limited. You begin play knowing four 0-level spells and two 1st-level spells of your choice. At each new spiritualist level you gain one or more new spells as indicated on the table above. Unlike spells per day, the number of spells you know is not affected by your Wisdom score.</p>
-<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level spiritualist spell you can cast. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="knacks" icon={["magic-swirl"]}>
+<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level spiritualist spell you can cast. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="knacks" icon={["magic"]}>
 <Pair single id="knacks">Knacks</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of knacks, or 0-level psychic spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Knacks cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
 </Ability>
-<Ability id="phantom" icon={["stairs-goal"]}>
+<Ability id="phantom" icon={["power"]}>
 <Pair single id="phantom">Phantom</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You begin play with the aid of a powerful and versatile spirit entity called a <Link to="/sidekick/phantom">phantom</Link>. The phantom forms a link with you; forever after, you can either harbor the creature within your consciousness or manifest it as an ectoplasmic or incorporeal entity. A phantom has the same alignment as you, and it can speak all the languages you can.</p>
@@ -2248,7 +2248,7 @@ const _spiritualist = {hasJL:true,title: "Spiritualist", jsx: <><div className="
 </Pair>
 <Pair title="Special">You can harbor your phantom in your consciousness, manifest it partially, or fully manifest it. A fully manifested phantom is treated as a summoned creature from the <Link to="/rule/ethereal_plane">Ethereal Plane</Link>, except it is not sent back to the Ethereal Plane until it is reduced to a negative amount of hit points equal to or greater than its Constitution score.</Pair>
 </Ability>
-<Ability id="shared-consciousness-su" icon={["upgrade","armor-upgrade"]}>
+<Ability id="shared-consciousness-su" icon={["boost","def"]}>
 <Pair single id="shared-consciousness-su">Shared Consciousness (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">While a phantom is confined in your consciousness (but not while it's fully manifested or banished to the Ethereal Plane), it grants you the <Link to="/feat/skill_focus">Skill Focus</Link> feat in two skills determined by the phantom's emotional focus, unless you already have Skill Focus in those skills. It also grants a +4 bonus on saving throws against all mind-affecting effects.</Pair>
@@ -2257,7 +2257,7 @@ const _spiritualist = {hasJL:true,title: "Spiritualist", jsx: <><div className="
 <Pair title="At 12th Level">The bonus on saving throws becomes +8.</Pair>
 <Pair title="Special">When a mind-affecting effect is shunted into the phantom's consciousness, spells such as <em>dispel magic</em> and <Link to="/spell/break_enchantment">break enchantment</Link> can be cast on you to end the effect's duration as if you were affected by the mind-affecting effect.</Pair>
 </Ability>
-<Ability id="etheric-tether-su" icon={["stairs-goal"]}>
+<Ability id="etheric-tether-su" icon={["power"]}>
 <Pair single id="etheric-tether-su">Etheric Tether (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You can force the phantom to manifest in an area around you by pushing the phantom's consciousness though the veil of ethereal essence, allowing it to fully manifest in either ectoplasmic or incorporeal form.</p>
@@ -2266,14 +2266,14 @@ const _spiritualist = {hasJL:true,title: "Spiritualist", jsx: <><div className="
 </Pair>
 <Pair title="Passive Ability">Whenever your manifested phantom takes enough damage to send it back to the Ethereal Plane, as a reaction to the damage, you can sacrifice any number of your hit points without using an action. Each hit point sacrificed in this way prevents 1 point of damage dealt to the phantom. This can prevent the phantom from being sent back to the Ethereal Plane.</Pair>
 </Ability>
-<Ability id="bonded-senses-su" icon={["stairs-goal"]}>
+<Ability id="bonded-senses-su" icon={["power"]}>
 <Pair single id="bonded-senses-su">Bonded Senses (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 round/day per spiritualist level; these rounds need not be consecutive</Pair>
 <Pair title="Standard Action">You can share the senses of your manifested phantom, hearing, seeing, smelling, tasting, and feeling everything your phantom does. There is no maximum range for this effect, but you and the phantom must be on the same plane.</Pair>
 <Pair title="Free Action">You can end this effect.</Pair>
 </Ability>
-<Ability id="bonded-manifestation-su" extraClasses="hasSubs" icon={["upgrade"]}>
+<Ability id="bonded-manifestation-su" extraClasses="hasSubs" icon={["boost"]}>
 <Pair single id="bonded-manifestation-su">Bonded Manifestation (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Usage">3 rounds/day + 1 round per spiritualist level; these rounds need not be consecutive</Pair>
@@ -2281,7 +2281,7 @@ const _spiritualist = {hasJL:true,title: "Spiritualist", jsx: <><div className="
 <Pair title="Free Action">You can dismiss the effects of a <em>bonded manifestation</em> as a free action, but if you do so the same round that you activated it, it still counts as 1 round of use.</Pair>
 <Pair title="Special">You must choose either ectoplasmic or incorporeal form. When you make this choice, youe gain all of the abilities based on the form you choose and your spiritualist level.</Pair>
 </Ability>
-<Ability id="ectoplasmic-bonded-manifestation" extraClasses="subAbility numbered" icon={["armor-upgrade","mailed-fist"]}>
+<Ability id="ectoplasmic-bonded-manifestation" extraClasses="subAbility numbered" icon={["def","melee"]}>
 <Pair single id="ectoplasmic-bonded-manifestation" flavor="The spiritualist gains an ectoplasmic shield that protects her without restricting her movement or actions.">Ectoplasmic Bonded Manifestation</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You gain a +4 shield bonus to Armor Class; this bonus applies to incorporeal touch attacks. The ectoplasmic shield has no armor check penalty or arcane spell failure chance.</Pair>
@@ -2289,7 +2289,7 @@ const _spiritualist = {hasJL:true,title: "Spiritualist", jsx: <><div className="
 <Pair title="At 13th Level">The phantom's ectoplasm clings to you like a suit of armor, granting you a +6 armor bonus to AC without imposing an armor check penalty, an arcane spell failure chance, or any reduction in speed.</Pair>
 <Pair title="At 18th Level">You can take a <strong className="hl">full-round action</strong> to attack all creatures within your melee reach with your tendrils (using the attack bonus and damage dice of your ectoplasmic manifested phantom). When you do, you roll the attack roll twice, take the better of the two results, and use that as your attack roll result against all creatures within your melee reach. If the better attack roll threatens a critical hit, you choose one target that you hit to confirm the critical hit against. The other attacks that hit are considered normal hits rather than critical threats.</Pair>
 </Ability>
-<Ability id="incorporeal-bonded-manifestation" extraClasses="subAbility numbered" icon={["armor-upgrade","mailed-fist","stairs-goal"]}>
+<Ability id="incorporeal-bonded-manifestation" extraClasses="subAbility numbered" icon={["def","melee","power"]}>
 <Pair single id="incorporeal-bonded-manifestation">Incorporeal Bonded Manifestation</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You become shrouded in a haze of insubstantial mist, granting you <Link to="/rule/concealment">concealment</Link> against ranged attacks.</Pair>
@@ -2297,63 +2297,63 @@ const _spiritualist = {hasJL:true,title: "Spiritualist", jsx: <><div className="
 <Pair title="At 13th Level">You can take a <strong className="hl">standard action</strong> to become invisible (as the <Link to="/spell/invisibility">invisibility</Link> spell) until the start of your next turn.</Pair>
 <Pair title="At 18th Level">You gain the <Link to="/subtype/incorporeal">incorporeal</Link> subtype and a fly speed of 30 feet (good) while using this form of bonded manifestation.</Pair>
 </Ability>
-<Ability id="spiritual-interference-ex-or-su" icon={["armor-upgrade"]}>
+<Ability id="spiritual-interference-ex-or-su" icon={["def"]}>
 <Pair single id="spiritual-interference-ex-or-su">Spiritual Interference (Ex or Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">Whenever you are within the reach of your ectoplasmic manifested phantom, you gain a +2 shield bonus to your Armor Class and a +2 circumstance bonus on your saving throws. You don't gain these bonuses when the ectoplasmic manifested phantom is <Link to="/rule/grappled">grappled</Link>, <Link to="/misc/helpless">helpless</Link>, or <Link to="/misc/unconscious">unconscious</Link>.</Pair>
 <Pair title="Special">While within 30 feet of your incorporeally manifested phantom, you receive a +2 circumstance bonus on saving throws against mind-affecting effects. This bonus is a supernatural ability and does not apply if the phantom is unconscious.</Pair>
 </Ability>
-<Ability id="detect-undead-sp" icon={["stairs-goal"]}>
+<Ability id="detect-undead-sp" icon={["power"]}>
 <Pair single id="detect-undead-sp">Detect Undead (Sp)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Standard Action">Your connection with the Ethereal Plane becomes so strong that you can use <Link to="/spell/detect_undead">detect undead</Link> at will as a spell-like ability with a caster level equal to your spiritualist level.</Pair>
 </Ability>
-<Ability id="phantom-recall-su" icon={["magic-swirl"]}>
+<Ability id="phantom-recall-su" icon={["magic"]}>
 <Pair single id="phantom-recall-su">Phantom Recall (Su)</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per four spiritualist levels beyond 6th<ByLevelPop levels={[[6,1],[10,2],[14,3],[18,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Ability">As either a <strong className="hl">swift</strong> or an <strong className="hl">immediate action</strong>, you can call your manifested phantom to your side or back into your consciousness. This ability functions as <Link to="/spell/dimension_door">dimension door</Link>, using your class level as the caster level. When you call the phantom in this way, the phantom appears adjacent to you (or as close as possible, if all adjacent spaces are occupied).</Pair>
 <Pair title="Special">When you use this ability to call the phantom back to your consciousness, you can activate <em>bonded manifestation</em> as part of that action, but doing so costs 1 extra round of <em>bonded manifestation.</em></Pair>
 </Ability>
-<Ability id="calm-spirit-sp" icon={["stairs-goal"]}>
+<Ability id="calm-spirit-sp" icon={["power"]}>
 <Pair single id="calm-spirit-sp">Calm Spirit (Sp)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per four spiritualist levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Standard Action">You gain the ability to use <Link to="/spell/calm_spirit">calm spirit</Link> as a spell-like ability.</Pair>
 </Ability>
-<Ability id="see-invisibility-sp" icon={["stairs-goal"]}>
+<Ability id="see-invisibility-sp" icon={["power"]}>
 <Pair single id="see-invisibility-sp">See Invisibility (Sp)</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Standard Action">You gain the ability to use <Link to="/spell/see_invisibility">see invisibility</Link> as a spell-like ability once per day, with a duration of 10 minutes.</Pair>
 </Ability>
-<Ability id="fused-consciousness-su" icon={["upgrade"]}>
+<Ability id="fused-consciousness-su" icon={["boost"]}>
 <Pair single id="fused-consciousness-su">Fused Consciousness (Su)</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Passive Ability">You always gain the benefits of <em>bonded senses</em> when your phantom is manifested. You also gain the skill ranks and bonus to mind-affecting spells granted by the spirit's emotional focus, even when your phantom is manifested.</Pair>
 <Pair title="Ability">Lastly, you can shunt the effect of a mind-affecting effect into the consciousness of your phantom as the <em>shared consciousness</em> ability even when the phantom is manifested, but doing so causes the phantom to immediately retreat back into your consciousness.</Pair>
 </Ability>
-<Ability id="greater-spiritual-interference-ex-or-su" icon={["armor-upgrade"]}>
+<Ability id="greater-spiritual-interference-ex-or-su" icon={["def"]}>
 <Pair single id="greater-spiritual-interference-ex-or-su">Greater Spiritual Interference (Ex or Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Passive Ability">Whenever allies are within your manifested phantom's reach, as long as it is in ectoplasmic form, each ally gains a +2 shield bonus to its Armor Class and a +2 circumstance bonus on its saving throws. For you, these bonuses increase to +4. You and allies within range don't gain this bonus if the manifested phantom is grappled, helpless, or unconscious.</Pair>
 <Pair title="Special">While the phantom is incorporeally manifested, allies within 30 feet of the phantom receive a +2 circumstance bonus on saving throws against mind-affecting effects. For you, this bonus increases to +4. This bonus doesn't apply if the phantom is unconscious.</Pair>
 </Ability>
-<Ability id="spiritual-bond-su" icon={["armor-upgrade"]}>
+<Ability id="spiritual-bond-su" icon={["def"]}>
 <Pair single id="spiritual-bond-su" flavor="A spiritualist's life force becomes intrinsically linked with the phantom's spiritual essence.">Spiritual Bond (Su)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Passive Ability">As long as the phantom has 1 or more hit points, when you take damage that would reduce you to fewer than 0 hit points, those points of damage are transferred to the phantom instead. This transfer stops after the phantom takes all the points of damage or the phantom is reduced to a negative amount of hit points equal to its Constitution score. In the latter case, points of damage dealt in excess of this limit are dealt to you. This ability affects only effects that deal hit point damage.</Pair>
 </Ability>
-<Ability id="call-spirit-sp" icon={["stairs-goal"]}>
+<Ability id="call-spirit-sp" icon={["power"]}>
 <Pair single id="call-spirit-sp">Call Spirit (Sp)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Ability">You gain the ability to use <Link to="/spell/call_spirit">call spirit</Link> as a spell-like ability once per day.</Pair>
 </Ability>
-<Ability id="dual-bond-su" icon={["upgrade"]}>
+<Ability id="dual-bond-su" icon={["boost"]}>
 <Pair single id="dual-bond-su">Dual Bond (Su)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">You can use your <em>bonded manifestation</em> ability a number of rounds per day equal to 3 + twice your spiritualist level.</Pair>
 </Ability>
-<Ability id="empowered-consciousness-su" icon={["armor-upgrade"]}>
+<Ability id="empowered-consciousness-su" icon={["def"]}>
 <Pair single id="empowered-consciousness-su">Empowered Consciousness (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">While your phantom is confined in your consciousness, you are immune to mind-affecting effects and spells and effects that involve possession, such as <Link to="/spell/magic_jar">magic jar</Link> and <Link to="/spell/possession">possession</Link>.</Pair>
@@ -2577,32 +2577,32 @@ const _swashbuckler = {hasJL:true,title: "Swashbuckler", jsx: <><div className="
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light armor</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se"><Link to="/eq-armor/buckler">Bucklers</Link> only</td></tr></tbody></table>
-<Ability id="panache-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="panache-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="panache-ex" flavor="More than just a lightly armored warrior, a swashbuckler is a daring combatant. She fights with panache: a fluctuating measure of a swashbuckler's ability to perform amazing actions in combat.">Panache (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">At the start of each day, you gain a number of panache points equal to your Charisma modifier (minimum 1). Your panache goes up or down throughout the day, but usually cannot go higher than your Charisma modifier (minimum 1), though feats and magic items can affect this maximum. You spend panache to accomplish deeds, and regain panache in the following ways.</Pair>
 </Ability>
-<Ability id="critical-hit-with-a-light-or-one-handed-piercing-melee-weapon" extraClasses="subAbility numbered" icon={["mailed-fist"]}>
+<Ability id="critical-hit-with-a-light-or-one-handed-piercing-melee-weapon" extraClasses="subAbility numbered" icon={["melee"]}>
 <Pair single id="critical-hit-with-a-light-or-one-handed-piercing-melee-weapon">Critical Hit with a Light or One-Handed Piercing Melee Weapon</Pair>
 <Pair title="Passive Ability">Each time you confirm a critical hit with a light or one-handed piercing melee weapon, you regain 1 panache point. Confirming a critical hit on a <Link to="/misc/helpless">helpless</Link> or unaware creature or a creature that has fewer Hit Dice than <Link to="/misc/half">half</Link> your character level doesn't restore panache.</Pair>
 </Ability>
-<Ability id="killing-blow-with-a-light-or-one-handed-piercing-melee-weapon" extraClasses="subAbility numbered" icon={["mailed-fist"]}>
+<Ability id="killing-blow-with-a-light-or-one-handed-piercing-melee-weapon" extraClasses="subAbility numbered" icon={["melee"]}>
 <Pair single id="killing-blow-with-a-light-or-one-handed-piercing-melee-weapon">Killing Blow with a Light or One-Handed Piercing Melee Weapon</Pair>
 <Pair title="Passive Ability">When you reduce a creature to 0 or fewer hit points with a light or one-handed piercing melee weapon attack while in combat, you regain 1 panache point. Destroying an unattended object, reducing a helpless or unaware creature to 0 or fewer hit points, or reducing a creature that has fewer Hit Dice than half your character level to 0 or fewer hit points doesn't restore any panache.</Pair>
 </Ability>
-<Ability id="deeds" icon={["stairs-goal"]}>
+<Ability id="deeds" icon={["power"]}>
 <Pair single id="deeds" flavor="Swashbucklers spend panache points to accomplish deeds.">Deeds</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">Most <Link to="/ability/swashbuckler_deeds">deeds</Link> grant you a momentary bonus or effect, but some provide longer-lasting effects. Some deeds remain in effect while you have at least 1 panache point, but do not require expending panache to be maintained. You can only perform deeds of your level or lower. Unless otherwise noted, a deed can be performed multiple successive times, as long as you have or spend the required number of panache points to perform the deed.</Pair>
 </Ability>
 <aside><p>Swashbucklers may optionally select a <Link to="/ability/swashbuckler_renowned_deeds">renowned deed</Link> at 1st, 3rd, 7th and 11th level. Each of these deeds replace two other deeds.</p>
-</aside><Ability id="swashbuckler-finesse-ex" icon={["stairs-goal"]}>
+</aside><Ability id="swashbuckler-finesse-ex" icon={["power"]}>
 <Pair single id="swashbuckler-finesse-ex">Swashbuckler Finesse (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain the benefits of the <Link to="/feat/weapon_finesse">Weapon Finesse</Link> feat with light or one-handed piercing melee weapons. This ability counts as having the Weapon Finesse feat for purposes of meeting feat prerequisites.</Pair>
 <Pair title="Passive Ability">You can use your Charisma score in place of Intelligence as a prerequisite for combat feats.</Pair>
 </Ability>
-<Ability id="charmed-life-ex" icon={["armor-upgrade"]}>
+<Ability id="charmed-life-ex" icon={["def"]}>
 <Pair single id="charmed-life-ex" flavor="A swashbuckler gains a knack for getting out of trouble.">Charmed Life (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">3 times a day.</Pair>
@@ -2612,7 +2612,7 @@ const _swashbuckler = {hasJL:true,title: "Swashbuckler", jsx: <><div className="
 <Pair title="At 14th Level">You can use this 6 times a day.</Pair>
 <Pair title="At 18th Level">You can use this 7 times a day.</Pair>
 </Ability>
-<Ability id="nimble-ex" icon={["armor-upgrade"]}>
+<Ability id="nimble-ex" icon={["def"]}>
 <Pair single id="nimble-ex">Nimble (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You gain a +1 dodge bonus to AC while wearing light or no armor. Anything that causes you to lose your Dexterity bonus to AC also causes you to lose this dodge bonus.</Pair>
@@ -2621,7 +2621,7 @@ const _swashbuckler = {hasJL:true,title: "Swashbuckler", jsx: <><div className="
 <Pair title="At 15th Level">The bonus becomes +4.</Pair>
 <Pair title="At 19th Level">The bonus increases to +5.</Pair>
 </Ability>
-<Ability id="bonus-feats" icon={["stairs-goal"]}>
+<Ability id="bonus-feats" icon={["power"]}>
 <Pair single id="bonus-feats">Bonus Feats:</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">You gain a bonus feat in addition to those gained from normal advancement. These bonus feats must be selected from those listed as <Link to="/main/combat_feat">combat feats</Link>. Swashbuckler levels are considered fighter levels for the purpose of meeting combat feat prerequisites.</Pair>
@@ -2633,7 +2633,7 @@ const _swashbuckler = {hasJL:true,title: "Swashbuckler", jsx: <><div className="
 <Pair title="Special">You can only change one feat at any given level, and must choose whether or not to swap the feat at the time you gain a new bonus feat for the level.</Pair>
 </Ability>
 <aside><p>Optionally, you can pick a <Link to="/ability/swashbuckler_dares">dare</Link> instead of a bonus feat. These special abilities only activate when you have 0 panache points.</p>
-</aside><Ability id="swashbuckler-weapon-training-ex" icon={["mailed-fist"]}>
+</aside><Ability id="swashbuckler-weapon-training-ex" icon={["melee"]}>
 <Pair single id="swashbuckler-weapon-training-ex">Swashbuckler Weapon Training (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">You gain a +1 bonus on attack and damage rolls with one-handed or light piercing melee weapons. While wielding such a weapon, you gain the benefit of the <Link to="/feat/improved_critical">Improved Critical</Link> feat.</Pair>
@@ -2641,7 +2641,7 @@ const _swashbuckler = {hasJL:true,title: "Swashbuckler", jsx: <><div className="
 <Pair title="At 13th Level">This bonus increases to +3.</Pair>
 <Pair title="At 17th Level">This bonus becomes +4.</Pair>
 </Ability>
-<Ability id="swashbuckler-weapon-mastery-ex" icon={["mailed-fist"]}>
+<Ability id="swashbuckler-weapon-mastery-ex" icon={["melee"]}>
 <Pair single id="swashbuckler-weapon-mastery-ex">Swashbuckler Weapon Mastery (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">When you threaten a critical hit with a light or one-handed piercing melee weapon, that critical is automatically confirmed. Furthermore, the critical modifiers of such weapons increase by 1 (&times;2 becomes &times;3, and so on).</Pair>
@@ -2865,7 +2865,7 @@ const _vigilante = {hasJL:true,title: "Vigilante", jsx: <><div className="jumpLi
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">Yes, except tower shields</td></tr></tbody></table>
-<Ability id="dual-identity-ex" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="dual-identity-ex" icon={["power","def"]}>
 <Pair single id="dual-identity-ex">Dual Identity (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You hide your true identity, allowing you to move about social circles and nobility without carrying the stigma of your ruthless actions. In effect, you have two identities: one is a polite member of society while the other is a skilled and cunning warrior. To keep up this charade, you usually have two names: your true name, used in polite company, and your vigilante name, used to strike fear in the hearts of those who oppose you. Knowledge checks about one do not reveal information about the other, unless your true identity is revealed to the world at large.</p>
@@ -2874,27 +2874,27 @@ const _vigilante = {hasJL:true,title: "Vigilante", jsx: <><div className="jumpLi
 <p>Any attempts to scry or otherwise locate you work only if you are currently in the identity the creature is attempting to locate (or if the creature knows that the two identities are the same individual). Otherwise, the spell or effect has no effect, revealing nothing but darkness, as if the target were invalid or did not exist.</p>
 </Pair>
 </Ability>
-<Ability id="seamless-guise-ex" icon={["armor-upgrade"]}>
+<Ability id="seamless-guise-ex" icon={["def"]}>
 <Pair single id="seamless-guise-ex" flavor="A vigilante knows how to behave in a way that appears perfectly proper and normal for his current identity.">Seamless Guise (Ex)</Pair>
 <Pair title="Ability">Should anyone suspect you of being anything other than what you appear to be while either in your social or vigilante identity, you can attempt a Disguise check with a +20 circumstance bonus to appear as your current identity, and not as your other identity.</Pair>
 </Ability>
-<Ability id="social-talent" icon={["stairs-goal"]}>
+<Ability id="social-talent" icon={["power"]}>
 <Pair single id="social-talent">Social Talent</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain a <Link to="/ability/social_talents">social talent</Link>. Unless otherwise noted, a talent can be selected only once. Some talents require you to meet other prerequisites before they can be chosen, such as having another social talent or attaining a minimum vigilante level. Once a talent has been chosen, it cannot be changed.</Pair>
 <Pair title="Special">You gain a new <em>social talent</em> at every odd-numbered level (1st, 3rd, 5th, 7th, and so on).</Pair>
 </Ability>
-<Ability id="vigilante-specialization-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="vigilante-specialization-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="vigilante-specialization-ex">Vigilante Specialization (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You must choose to be either an avenger or a stalker. Once this choice is made, it can't be changed.</Pair>
 <Pair title="Special">While many <em>vigilante talents</em> are usable by both specializations, some are unique to each specialization.</Pair>
 </Ability>
-<Ability id="avenger" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Ability id="avenger" extraClasses="subAbility numbered" icon={["boost"]}>
 <Pair single id="avenger">Avenger</Pair>
 <Pair title="Passive Ability">You gain a base attack bonus equal to your vigilante level instead of using those listed above. You add this value to any other base attack bonus gained from other classes or racial Hit Dice as normal.</Pair>
 </Ability>
-<Ability id="stalker" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Ability id="stalker" extraClasses="subAbility numbered" icon={["boost"]}>
 <Pair single id="stalker">Stalker</Pair>
 <Pair title="Ability">You gain an ability called <em>hidden strike,</em> which allows you to deal an extra 1d8 points of <Link to="/misc/precision_damage">precision damage</Link> on melee attacks (or ranged attacks from within 30 feet) against foes who are unaware of your presence, who consider you an ally, or who are made <Link to="/rule/flat_footed">flat-footed</Link> by <em>startling appearance.</em></Pair>
 <Pair title="At 3rd Level">The damage becomes +2d8.</Pair>
@@ -2908,35 +2908,35 @@ const _vigilante = {hasJL:true,title: "Vigilante", jsx: <><div className="jumpLi
 <Pair title="At 19th Level">The damage becomes +10d8.</Pair>
 <Pair title="Special">You can also deal hidden strike damage to a target that you are <Link to="/rule/flanking">flanking</Link> or that is denied its Dexterity bonus to AC, but in these cases, the damage dice are reduced to d4s. You can deal hidden strike damage against targets with <Link to="/rule/concealment">concealment</Link> (but not total concealment).</Pair>
 </Ability>
-<Ability id="vigilante-talent" icon={["stairs-goal"]}>
+<Ability id="vigilante-talent" icon={["power"]}>
 <Pair single id="vigilante-talent">Vigilante Talent</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">You gain a <Link to="/ability/vigilante_talents">vigilante talent</Link>. Unless otherwise noted, a talent can be selected only once. If a talent calls for a saving throw, the DC for that save is equal to 10 + <Link to="/misc/half">half</Link> your vigilante level + your Charisma modifier, unless stated otherwise. Some talents require you to meet prerequisites before they can be chosen, such as possessing another vigilante talent, possessing a particular specialization, or attaining a minimum level. Once a talent has been selected, it can't be changed.</Pair>
 <Pair title="Special">You gain a new <em>vigilante talent</em> at every even-numbered level (2nd, 4th, 6th, 8th, and so on). If you use any of these talents while in your social identity, you must succeed at a Disguise check against the Perception checks of all onlookers (without the +20 circumstance bonus from <em>seamless guise</em>) or the onlookers will realize that you are more than your social identity appears to be and perhaps discover the social and vigilante identities are one and the same.</Pair>
 </Ability>
-<Ability id="unshakable-ex" icon={["armor-upgrade"]}>
+<Ability id="unshakable-ex" icon={["def"]}>
 <Pair single id="unshakable-ex">Unshakable (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You add your class level to the DC of any attempts to Intimidate you.</Pair>
 </Ability>
-<Ability id="startling-appearance-ex" icon={["armor-downgrade","armor-upgrade"]}>
+<Ability id="startling-appearance-ex" icon={["lower","def"]}>
 <Pair single id="startling-appearance-ex" flavor="A vigilante learns to use the element of surprise to his advantage, startling foes that are unaware of his presence.">Startling Appearance (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">Whenever you attempt an attack against a foe that is completely unaware of your presence (usually due to Stealth or invisibility), the foe is treated as flat-footed for the rest of your turn (<Link to="/ability/uncanny_dodge">uncanny dodge</Link> or a similar ability prevents this effect unless you are at least 4 levels higher than the foe with uncanny dodge). The foe also takes a -4 penalty on attacks made against you until the start of your next turn.</Pair>
 </Ability>
-<Ability id="frightening-appearance-ex" icon={["armor-downgrade"]}>
+<Ability id="frightening-appearance-ex" icon={["lower"]}>
 <Pair single id="frightening-appearance-ex">Frightening Appearance (Ex)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Free Action">Whenever you make an attack against a foe that is unaware of your presence, you can attempt an <Link to="/skill/intimidate">Intimidate</Link> check to demoralize the target of your attack and any enemies within 10 feet who can see the attack. This check is attempted before the attack roll against the foe is made and resolved. You roll only one Intimidate check and applies the result to all the targets. If the check succeeds against the target of your attack, that foe is also <Link to="/misc/frightened">frightened</Link> for 1 round, in addition to being <Link to="/misc/shaken">shaken</Link> as normal, unless the foe succeeds at a Will save (DC = 10 + 1/2 your class level + your Charisma modifier). This effect is in addition to the bonuses gained from the <em>startling appearance</em> ability.</Pair>
 <Pair title="Special">Once a creature has been the target of this ability (either as the target of the attack or as a nearby creature, regardless of whether or not it was successful), it is immune to your <em>frightening appearance</em> for 24 hours. This is a mind-affecting fear effect.</Pair>
 </Ability>
-<Ability id="stunning-appearance-ex" icon={["armor-downgrade"]}>
+<Ability id="stunning-appearance-ex" icon={["lower"]}>
 <Pair single id="stunning-appearance-ex">Stunning Appearance (Ex)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">Whenever you make a successful attack against a foe that is unaware of your presence, the foe must make a successful Will save (DC = 10 + 1/2 your class level + your Charisma modifier) or be <Link to="/misc/stunned">stunned</Link> until the end of your next turn. If the creature has more HD than your class level, it receives a +4 circumstance bonus on this save. This ability is in addition to the effects of <em>startling appearance</em> and <em>frightening appearance.</em></Pair>
 <Pair title="Special">Once a creature has been the target of this ability (regardless of whether or not the saving throw is successful), it is immune to your <em>stunning appearance</em> for 24 hours. This is a mind-affecting fear effect.</Pair>
 </Ability>
-<Ability id="vengeance-strike-ex" icon={["upgrade"]}>
+<Ability id="vengeance-strike-ex" icon={["boost"]}>
 <Pair single id="vengeance-strike-ex">Vengeance Strike (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">You can spend up to 5 <strong className="hl">standard actions</strong>, which all must be in consecutive rounds. On the following round, you can make a <em>vengeance strike</em> against the studied creature. The target must remain unaware of your presence (or not see you as a threat) until the attack. For each round spent studying the target, you grant yourself one of the following benefits on your <em>vengeance strike:</em> gain a +4 circumstance bonus on the attack roll, deal an additional 3d6 points of <Link to="/misc/precision_damage">precision damage</Link> if you hit, or treat the attack roll as if it were 2 higher for the purposes of determining whether the attack hit or threatens a critical hit (to maximum effective roll of 20). Each round of study can be spent in a different way or the same way (they stack with each other), but each round of study must be allocated before the attack roll is made.</Pair>

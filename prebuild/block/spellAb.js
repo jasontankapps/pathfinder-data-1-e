@@ -241,7 +241,7 @@ export const makeSpellAbilityBlock = ({
 		+ "spells that list divine focus (DF) as part of the components."
 	);
 
-	return `${maybeClear}<Ability id="${jlid}" icon={["magic-swirl"]}>`
+	return `${maybeClear}<Ability id="${jlid}" icon={["magic"]}>`
 		+ output.join("\n")
 		+ (block.length ?
 			`<Pair title="Info">`

@@ -8,7 +8,7 @@ import ByLevelPop from '../../components/ByLevelPop';
 import AffInfo from '../../components/AfflictionInfo';
 const _naga_aspirant = {title: "Naga Aspirant", jsx: <><h2 id="arc-druid-naga_aspirant-naga-aspirant">Naga Aspirant</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 196</Link><br/>The naga aspirant follows the ancient beliefs and engages in the rituals of a druidic sect dedicated to the transcendence of her nagaji form through absolute devotion to nagas and naga gods. Through acting as a herald to the naga deities, the aspirant is rewarded with the ability to unlock her ultimate spirit form and become a true naga. A naga aspirant has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-naga_aspirant--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/nagaji">Nagaji</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="aspirants-bond-ex" icon={["spell-book"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-naga_aspirant--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/nagaji">Nagaji</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="aspirants-bond-ex" icon={["learn"]}>
 <Pair single id="aspirants-bond-ex" flavor="A naga aspirant gains a spiritual connection to the serpentine deities worshiped by the nagas.">Aspirant's Bond (Ex)</Pair>
 <Pair hl title="Replaces">Spontaneous casting</Pair>
 <Pair title="Passive Ability">At 1st level, and <strong className="hl">each time she gains a druid level</strong>, she may add one of the following spells to her druid spell list.</Pair>
@@ -18,78 +18,78 @@ const _naga_aspirant = {title: "Naga Aspirant", jsx: <><h2 id="arc-druid-naga_as
 <Pair plain title="3rd"><Link to="/spell/dispel_magic">Dispel magic</Link>, <Link to="/spell/displacement">displacement</Link>, <Link to="/spell/fireball">fireball</Link>, <Link to="/spell/lightning_bolt">lightning bolt</Link>, <Link to="/spell/suggestion">suggestion</Link></Pair>
 <Pair plain title="4th"><Link to="/spell/divine_power">Divine power</Link>, <Link to="/spell/greater_invisibility">greater invisibility</Link></Pair>
 </Ability>
-<Ability id="aspirants-enlightenment-ex" icon={["armor-upgrade"]}>
+<Ability id="aspirants-enlightenment-ex" icon={["def"]}>
 <Pair single id="aspirants-enlightenment-ex">Aspirant's Enlightenment (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">A naga aspirant gains a +4 bonus on saving throws against the spell-like abilities, supernatural abilities, and poison of <Link to="/family/naga">nagas</Link>.</Pair>
 </Ability>
-<Ability id="naga-shape-su" icon={["upgrade"]}>
+<Ability id="naga-shape-su" icon={["boost"]}>
 <Pair single id="naga-shape-su">Naga Shape (Su)</Pair>
 <Pair hl title="Replaces">Wild Shape</Pair>
 <Pair title="At 4th Level">The naga aspirant gains the <em>wild shape</em> ability, as a normal druid.</Pair>
 <Pair title="At 6th Level">The naga aspirant can use her <em>wild shape</em> ability to assume the form of a true naga. This effect functions in a similar manner to a <Link to="/spell/shapechange">shapechange</Link> spell with the following exception. The druid's true naga form is unique, representing her personal evolution. When taking naga form, the nagaji's body transforms into that of a large serpent, though she keeps her own head. The naga aspirant loses her limbs and her size increases by one category, granting her a +4 size bonus to Strength and Constitution, a -2 penalty to Dexterity, and a +2 enhancement bonus to her natural armor bonus. She gains a +10 enhancement bonus to land speed and a <Link to="/umr/bite_attack">bite attack</Link> that deals 1d6 points of damage. She can cast verbal spells in this form, but cannot cast spells with other components without metamagic or feats such as <Link to="/feat/natural_spell">Natural Spell</Link>. This otherwise works like and replaces <em>wild shape.</em></Pair>
 </Ability>
-<Ability id="augmented-form-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="augmented-form-su" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="augmented-form-su">Augmented Form (Su)</Pair>
 <Pair hl title="Replaces">Venom immunity, a thousand faces, timeless body</Pair>
 <Pair title="At 9th Level">A naga aspirant can choose one of the following abilities to enhance her naga form. Once chosen, this augmentation cannot be changed and always applies to her naga form. The caster level for these abilities is equal to her druid level, and unless otherwise stated, the DC is equal to 10 + <Link to="/misc/half">half</Link> the druid's class level + the druid's Charisma bonus.</Pair>
 <Pair title="At 13th Level">The aspirant gains another ability from the list below.</Pair>
 <Pair title="At 17th Level">The aspirant gains a third ability from the list below.</Pair>
 </Ability>
-<Ability id="charming-gaze-sp" extraClasses="subAbility" icon={["smoking-finger"]}>
+<Ability id="charming-gaze-sp" extraClasses="subAbility" icon={["zap"]}>
 <Pair single id="charming-gaze-sp">Charming Gaze (Sp)</Pair>
 <Pair title="Ability">The druid gains a <Link to="/umr/gaze">gaze</Link> attack that affects creatures within 30 feet as a <Link to="/spell/charm_person">charm person</Link> spell.</Pair>
 </Ability>
-<Ability id="darkvision-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="darkvision-su" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="darkvision-su">Darkvision (Su)</Pair>
 <Pair title="Passive Ability">The druid gains darkvision with a range of 60 feet.</Pair>
 </Ability>
-<Ability id="detect-thoughts-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="detect-thoughts-su" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="detect-thoughts-su">Detect Thoughts (Su)</Pair>
 <Pair title="Ability">The druid can use <em>detect thoughts</em> at will.</Pair>
 </Ability>
-<Ability id="guarded-thoughts-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="guarded-thoughts-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="guarded-thoughts-ex">Guarded Thoughts (Ex)</Pair>
 <Pair title="Passive Ability">The druid gains a +2 racial bonus on saves against charm effects and immunity to any form of mind reading (such as <em>detect thoughts</em>).</Pair>
 </Ability>
-<Ability id="poison-immunity-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="poison-immunity-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="poison-immunity-ex">Poison Immunity (Ex)</Pair>
 <Pair title="Prerequisites">The druid's naga form must have at least one poison-based natural attack.</Pair>
 <Pair title="Passive Ability">The druid gains immunity to all poisons.</Pair>
 </Ability>
-<Ability id="poisonous-sting-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="poisonous-sting-ex" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="poisonous-sting-ex">Poisonous Sting (Ex)</Pair>
 <Pair title="Prerequisites">The naga form's tail must have a <em>sting.</em></Pair>
 <Pair title="Passive Ability"><p>The druid's stinger becomes venomous.</p>
 <AffInfo type="Sting-injury" save="Fort 10 + 1/2 the druid's level + her Con modifier" freq="1 round" eff="sleep for 2d4 minutes" cure1 icon="p" />
 </Pair>
 </Ability>
-<Ability id="spit-venom-ex" extraClasses="subAbility" icon={["smoking-finger"]}>
+<Ability id="spit-venom-ex" extraClasses="subAbility" icon={["zap"]}>
 <Pair single id="spit-venom-ex">Spit Venom (Ex)</Pair>
 <Pair title="Prerequisites">The naga form must have a <em>venomous bite.</em></Pair>
 <Pair title="Standard Action">The naga form can spit her venom up to 30 feet. This is a ranged touch attack with no range increment. Any opponent hit by this attack must make a successful save (see Venemous Bite poison below) to avoid the effect.</Pair>
 </Ability>
-<Ability id="sting-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="sting-ex" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="sting-ex">Sting (Ex)</Pair>
 <Pair title="Passive Ability">The naga form grows a stinger on the end of her tail, granting her a sting natural attack that deals 1d6 points of piercing damage.</Pair>
 </Ability>
-<Ability id="swim-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="swim-ex" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="swim-ex">Swim (Ex)</Pair>
 <Pair title="Passive Ability">The naga form gains a swim speed equal to her base speed.</Pair>
 </Ability>
-<Ability id="tough-scales-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="tough-scales-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="tough-scales-ex">Tough Scales (Ex)</Pair>
 <Pair title="Passive Ability">The druid's enhancement bonus to her natural armor increases by +2.</Pair>
 <Pair title="Special">The druid may select this ability more than once. Its effects stack.</Pair>
 </Ability>
-<Ability id="venomous-bite-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="venomous-bite-ex" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="venomous-bite-ex">Venomous Bite (Ex)</Pair>
 <Pair title="Passive Ability"><p>The naga form's bite attack becomes poisonous.</p>
 <AffInfo type="Bite-injury" save="Fort 10 + 1/2 the druid's level + her Con modifier" freq="1/round for 6 rounds" eff={<>1 <Link to="/rule/con_damage">Con damage</Link></>} cure1 icon="p" />
 </Pair>
 </Ability>
-<Ability id="true-naga-su" icon={["magic-swirl"]}>
+<Ability id="true-naga-su" icon={["magic"]}>
 <Pair single id="true-naga-su">True Naga (Su)</Pair>
 <Pair hl title="Replaces">Wildshape (at will)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -98,19 +98,19 @@ const _naga_aspirant = {title: "Naga Aspirant", jsx: <><h2 id="arc-druid-naga_as
 </>};
 const _nature_fang = {title: "Nature Fang", jsx: <><h2 id="arc-druid-nature_fang-nature-fang">Nature Fang</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 92</Link><br/>A nature fang is a druid who stalks and slays those who despoil nature, kill scarce animals, or introduce diseases to unprotected habitats. She gives up a close empathic connection with the natural world to become its deadly champion and avenger.</p>
-<Ability id="studied-target-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="studied-target-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="studied-target-ex">Studied Target (Ex)</Pair>
 <Pair hl title="Replaces">Nature sense, wild empathy, woodland stride</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A nature fang gains the <Link to="/class/slayer">slayer's</Link> <em>studied target</em> class feature. Unlike a slayer, a nature fang does not gain the ability to maintain more than one studied target at the same time.</Pair>
 </Ability>
-<Ability id="studied-target-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="studied-target-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="studied-target-ex" flavor="Text from the slayer class">Studied Target (Ex)</Pair>
 <Pair title="Move-Equivalent Action">You can study an opponent you can see. You then gain a bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks attempted against that opponent, and a bonus on weapon attack and damage rolls against it; these bonuses are equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your slayer level. The DCs of slayer class abilities against that opponent increase by 1 + one-fifth of your slayer level. These bonuses remain in effect until either the opponent is dead or you study a new target.</Pair>
 <Pair title="Immediate Action">If you deal sneak attack damage to a target, you can study that target immediately, allowing you to apply your studied target bonuses against that target (including to the normal weapon damage roll).</Pair>
 <Pair title="Free Action">You can discard this connection to a studied target, allowing you to study another target in its place.</Pair>
 </Ability>
-<Ability id="slayer-talent" icon={["stairs-goal"]}>
+<Ability id="slayer-talent" icon={["power"]}>
 <Pair single id="slayer-talent">Slayer Talent</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -118,13 +118,13 @@ const _nature_fang = {title: "Nature Fang", jsx: <><h2 id="arc-druid-nature_fang
 <Pair title="At 12th Level">She can select an <Link to="/ability/advanced_slayer_talents">advanced slayer talent</Link> in place of a slayer talent.</Pair>
 <Pair title="Special">The following slayer talents complement the nature fang archetype: <Link to="/slayertalent/foil_scrutiny">foil scrutiny</Link>, <Link to="/slayertalent/poison_use">poison use</Link>, <Link to="/slayertalent/ranger_combat_style">ranger combat style</Link>. Additionally, the following <Link to="/ability/rogue_talent">rogue talents</Link>, which are also available to slayers, complement the archetype: <Link to="/talent/bleeding_attack">bleeding attack</Link>, <Link to="/talent/camouflage">camouflage</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/finesse_rogue">finesse rogue</Link>, <Link to="/talent/lasting_poison">lasting poison</Link>, <Link to="/talent/rogue_crawl">rogue crawl</Link>, <Link to="/talent/slow_reactions">slow reactions</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/swift_poison">swift poison</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link>. The following advanced talents complement the nature fang archetype: <Link to="/slayertalent/assassinate">assassinate</Link>, <Link to="/slayertalent/slayer_camouflage">slayer camouflage</Link>, <Link to="/slayertalent/woodland_stride">woodland stride</Link>. The advanced rogue talent <Link to="/talent/master_of_disguise">master of disguise</Link> also fits the archetype.</Pair>
 </Ability>
-<Ability id="sneak-attack-ex" icon={["stairs-goal"]}>
+<Ability id="sneak-attack-ex" icon={["power"]}>
 <Pair single id="sneak-attack-ex">Sneak Attack (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A nature fang gains <Link to="/ability/sneak_attack">sneak attack</Link> +1d6. This functions as the <Link to="/class/rogue">rogue</Link> sneak attack ability. If the nature fang gets a sneak attack bonus from another source, the bonuses on damage stack.</Pair>
 </Ability>
-<Ability id="swift-studied-target" icon={["upgrade"]}>
+<Ability id="swift-studied-target" icon={["boost"]}>
 <Pair single id="swift-studied-target">Swift Studied Target</Pair>
 <Pair hl title="Replaces">Venom immunity</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -133,16 +133,16 @@ const _nature_fang = {title: "Nature Fang", jsx: <><h2 id="arc-druid-nature_fang
 </>};
 const _nature_priest = {title: "Nature Priest", jsx: <><h2 id="arc-druid-nature_priest-nature-priest">Nature Priest</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 23</Link><br/>Nature priests serve two masters: their deities and nature itself, and can call upon the power of both to fuel their divine abilities.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-nature_priest--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Like a cleric, a nature priest must worship a deity and her alignment must be within one step of her deity's.</td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-nature_priest--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Like a cleric, a nature priest must worship a deity and her alignment must be within one step of her deity's.</td></tr></tbody></table></ScrollContainer></div><Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (geography)</Pair></Ability>
-<Ability id="weapon-proficiencies" icon={["stairs-goal"]}>
+<Ability id="weapon-proficiencies" icon={["power"]}>
 <Pair single id="weapon-proficiencies">Weapon Proficiencies</Pair>
 <Pair hl title="Alters">Weapon proficiencies</Pair>
 <Pair title="Info">A nature priest is proficient with her deity's favored weapon in addition to a druid's typical weapon proficiencies.</Pair>
 </Ability>
-<Ability id="studious-piety-ex" icon={["upgrade"]}>
+<Ability id="studious-piety-ex" icon={["boost"]}>
 <Pair single id="studious-piety-ex">Studious Piety (Ex)</Pair>
 <Pair hl title="Replaces">Nature sense</Pair>
 <Pair title="Passive Ability">A nature priest gains a +1 bonus on Knowledge (religion) checks. This bonus increases to +2 when attempting checks that involve knowledge of her deity or her faith.</Pair>
@@ -152,13 +152,13 @@ const _nature_priest = {title: "Nature Priest", jsx: <><h2 id="arc-druid-nature_
 <Pair hl title="Alters">Nature bond</Pair>
 <Pair title="Choice">If a nature priest chooses a domain for her <em>nature bond,</em> she must choose one of her deity's domains (or subdomains) in place of those typically available to a druid.</Pair>
 </Ability>
-<Ability id="shepherd-of-the-faithful-su" icon={["armor-upgrade","aura"]}>
+<Ability id="shepherd-of-the-faithful-su" icon={["def","aura"]}>
 <Pair single id="shepherd-of-the-faithful-su">Shepherd of the Faithful (Su)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">A nature priest and all allies within 60 feet that can see or hear her gain a +2 insight bonus on skill checks to notice or avoid natural hazards, difficult terrain, and rough winds or water, as well as on saving throws against natural hazards. This ability offers no protection against the abilities of creatures or the effects of spells or items.</Pair>
 </Ability>
-<Ability id="divine-servants-su" icon={["spell-book","upgrade"]}>
+<Ability id="divine-servants-su" icon={["learn","boost"]}>
 <Pair single id="divine-servants-su">Divine Servants (Su)</Pair>
 <Pair hl title="Replaces">Venom immunity</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -167,29 +167,29 @@ const _nature_priest = {title: "Nature Priest", jsx: <><h2 id="arc-druid-nature_
 </>};
 const _nithveil_adept = {title: "Nithveil Adept", jsx: <><h2 id="arc-druid-nithveil_adept-nithveil-adept">Nithveil Adept</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 44</Link><br/>Nithveil adepts learn the secret magic of the First World fey in the moving, reality-phasing city of Nithveil, which appears on the new moon at seemingly random locations in the Grungir Forest in the Lands of the Linnorm Kings. The most common deities worshiped by these druids are the Green Mother and the Lantern King, Eldest patrons of intrigue and trickery.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS), <Link to="/skill/perform">Perform</Link> (CHA), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Info">This also replaces the Nature Sense ability</Pair></Ability>
-<Ability id="nature-bond-su" icon={["broken-shield","upgrade"]}>
+<Ability id="nature-bond-su" icon={["down","boost"]}>
 <Pair single id="nature-bond-su">Nature Bond (Su)</Pair>
 <Pair hl title="Alters">Nature bond</Pair>
 <Pair title="Choice">A Nithveil adept cannot select an animal companion, and can take only a domain. If she worships an <Link to="/rule/eldest">Eldest</Link>, the Nithveil trickster can choose any of the domains or subdomains granted by that Eldest in addition to those normally available to druids.</Pair>
 </Ability>
-<Ability id="animal-speech-su" icon={["magic-swirl"]}>
+<Ability id="animal-speech-su" icon={["magic"]}>
 <Pair single id="animal-speech-su" flavor="A Nithveil adept can imbue normal animals with the ability to speak for a brief period.">Animal Speech (Su)</Pair>
 <Pair hl title="Replaces">Spontaneous casting</Pair>
 <Pair title="Usage">1 time/day + 1 per four druid levels</Pair>
 <Pair title="Standard Action">The Nithveil adept can touch an animal to grant it the ability to speak any language the druid knows for 1 minute per druid level. This does not increase the animal's Intelligence or improve its attitude, and the animal behaves as though communicating with someone under the effects of a <Link to="/spell/speak_with_animals">speak with animals</Link> spell, save that it can speak with anyone who understands the language the Nithveil adept grants it.</Pair>
 </Ability>
-<Ability id="resist-fey-influence-ex" icon={["armor-upgrade","rolling-dices"]}>
+<Ability id="resist-fey-influence-ex" icon={["def","roll"]}>
 <Pair single id="resist-fey-influence-ex">Resist Fey Influence (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">A Nithveil adept gains a +4 bonus on saving throws against the spell-like and supernatural abilities of fey.</Pair>
 <Pair title="Ability">Once per day before attempting such a saving throw, the Nithveil adept can choose to roll two dice and take the better result, applying the +4 bonus as normal.</Pair>
 </Ability>
-<Ability id="locate-nithveil-sp" icon={["magic-swirl"]}>
+<Ability id="locate-nithveil-sp" icon={["magic"]}>
 <Pair single id="locate-nithveil-sp">Locate Nithveil (Sp)</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Usage">This ability can be used only once per month, during the new moon.</Pair>
@@ -198,7 +198,7 @@ const _nithveil_adept = {title: "Nithveil Adept", jsx: <><h2 id="arc-druid-nithv
 </>};
 const _pack_lord = {title: "Pack Lord", jsx: <><h2 id="arc-druid-pack_lord-pack-lord">Pack Lord</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 38</Link><br/>Some druids bond with many animal companions rather than just one, achieving a level of communion rare even in druidic circles and leading their pack brothers and pack sisters with total authority.</p>
-<Ability id="pack-bond-ex" icon={["broken-shield"]}>
+<Ability id="pack-bond-ex" icon={["down"]}>
 <Pair single id="pack-bond-ex">Pack Bond (Ex)</Pair>
 <Pair hl title="Replaces">Nature bond</Pair>
 <Pair title="Choice">A pack lord druid may not select a domain and must choose an animal companion.</Pair>
@@ -207,7 +207,7 @@ const _pack_lord = {title: "Pack Lord", jsx: <><h2 id="arc-druid-pack_lord-pack-
 <p>Each time a pack lord's druid level increases, she must decide how to allocate the increase among her animal companions (including the option of adding a new 1st-level companion). Once a druid level is allocated to a particular companion, it cannot be redistributed while that companion is in the pack lord's service (she must release the companion or wait until the companion dies to allocate its levels to another companion, which she can do the next time she prepares spells). The <em>share spells</em> animal companion ability only applies to one animal companion at a time - the pack lord cannot use it to cast a one-target spell and have it affect all of her animal companions.</p>
 </Pair>
 </Ability>
-<Ability id="improved-empathic-link-su" icon={["stairs-goal"]}>
+<Ability id="improved-empathic-link-su" icon={["power"]}>
 <Pair single id="improved-empathic-link-su">Improved Empathic Link (Su)</Pair>
 <Pair hl title="Replaces">The 6th-level additional use of <em>wild shape</em></Pair>
 <Pair title="Ability">The pack lord gains an <em>empathic link</em> with all of her animal companions. This functions like an empathic link with a <Link to="/sidekick/familiar">familiar</Link>.</Pair>
@@ -216,13 +216,13 @@ const _pack_lord = {title: "Pack Lord", jsx: <><h2 id="arc-druid-pack_lord-pack-
 </>};
 const _plains_druid = {title: "Plains Druid", jsx: <><h2 id="arc-druid-plains_druid-plains-druid">Plains Druid</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 100</Link><br/>Out upon the wide and rolling prairies and savannahs, plains druids stand guard over the grasslands. These druids range far and wide, watching over nomadic tribes and wandering herds and preserving the sometimes fragile ecosystem of the wide open spaces.</p>
-<Ability id="plains-traveler-ex" icon={["upgrade","stairs-goal"]}>
+<Ability id="plains-traveler-ex" icon={["boost","power"]}>
 <Pair single id="plains-traveler-ex">Plains Traveler (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A plains druid gains a bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks equal to <Link to="/misc/half">half</Link> her druid level in plains terrain, and she cannot be tracked in such an environment.</Pair>
 </Ability>
-<Ability id="run-like-the-wind-ex" icon={["upgrade","stairs-goal"]}>
+<Ability id="run-like-the-wind-ex" icon={["boost","power"]}>
 <Pair single id="run-like-the-wind-ex">Run Like the Wind (Ex)</Pair>
 <Pair hl title="Replaces">Trackless step</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -230,27 +230,27 @@ const _plains_druid = {title: "Plains Druid", jsx: <><h2 id="arc-druid-plains_dr
 <Pair title="Ability">Once per hour, she may <Link to="/rule/run">run</Link> or <Link to="/rule/charge">charge</Link> at double the normal speed for 1 round.</Pair>
 <Pair title="Special">If riding her animal companion, it gains this ability instead.</Pair>
 </Ability>
-<Ability id="savanna-ambush-ex" icon={["upgrade"]}>
+<Ability id="savanna-ambush-ex" icon={["boost"]}>
 <Pair single id="savanna-ambush-ex">Savanna Ambush (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">A plains druid gains <Link to="/rule/concealment">concealment</Link> whenever she is <Link to="/rule/prone">prone</Link> in natural surroundings, and can make Stealth checks at no penalty when prone and not moving or at -5 when crawling.</Pair>
 <Pair title="Immediate Action">A plains druid can stand up from prone during a surprise round.</Pair>
 </Ability>
-<Ability id="wild-shape-su" icon={["broken-shield"]}>
+<Ability id="wild-shape-su" icon={["down"]}>
 <Pair single id="wild-shape-su">Wild Shape (Su)</Pair>
 <Pair hl title="Alters">Wild shape</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">A plains druid gains <em>wild shape,</em> except that her effective druid level for this ability is equal to her druid level - 2.</Pair>
 </Ability>
-<Ability id="canny-charger-ex" icon={["stairs-goal","armor-upgrade","upgrade"]}>
+<Ability id="canny-charger-ex" icon={["power","def","boost"]}>
 <Pair single id="canny-charger-ex">Canny Charger (Ex)</Pair>
 <Pair hl title="Replaces">Venom immunity</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Ability">A plains druid can charge through allies' squares without difficulty (whether mounted or afoot) and can turn up to 90 degrees once during a charge, provided the last 10 feet toward the target are in a straight line.</Pair>
 <Pair title="Passive Ability">She also gains a +4 dodge bonus to AC against enemy charge attacks and a +4 bonus to damage with a <Link to="/rule/readied_action">readied action</Link> against a charging foe.</Pair>
 </Ability>
-<Ability id="evasion-ex" icon={["armor-upgrade"]}>
+<Ability id="evasion-ex" icon={["def"]}>
 <Pair single id="evasion-ex">Evasion (Ex)</Pair>
 <Pair hl title="Replaces">A thousand faces</Pair>
 <Pair title="Gained">At 13th Level</Pair>
@@ -264,38 +264,38 @@ const _planar_extremist = {title: "Planar Extremist", jsx: <><h2 id="arc-druid-p
 <Pair single id="aura-ex">Aura (Ex)</Pair>
 <Pair title="Passive Ability">The planar extremist radiates an aura matching her alignment as if she were a <Link to="/class/cleric">cleric</Link> of her druid level.</Pair>
 </Ability>
-<Ability id="spells" icon={["broken-shield"]}>
+<Ability id="spells" icon={["down"]}>
 <Pair single id="spells">Spells</Pair>
 <Pair hl title="Alters">Spells</Pair>
 <Pair title="Ability">A planar extremist gains one fewer spell slot per spell level than normal in which to prepare spells. The planar extremist removes all <em>summon nature's ally</em> spells from her spell list and replaces them with the <Link to="/spell/summon_monster">summon monster</Link> spells of the same levels. The druid can otherwise cast spells as normal for a druid of her level.</Pair>
 </Ability>
-<Ability id="planar-bond" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="planar-bond" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="planar-bond">Planar Bond</Pair>
 <Pair hl title="Replaces">Nature's bond</Pair>
 <Pair title="Choice">A planar extremist forms a bond with a manifestation of the Outer Plane with which she is aligned. This bond can take one of two forms.</Pair>
 </Ability>
-<Ability id="domain-option" extraClasses="subAbility numbered" icon={["magic-swirl"]}>
+<Ability id="domain-option" extraClasses="subAbility numbered" icon={["magic"]}>
 <Pair single id="domain-option">Domain Option</Pair>
 <Pair title="Ability">The first is a close tie to the plane to which she is aligned, granting the planar extremist one of the domains of her alignment (for example, a lawful good planar extremist could take either the <Link to="/domain/law">Law</Link> or <Link to="/domain/good">Good</Link> domain). This option otherwise functions as a druid's <em>nature bond</em> if she chose a close tie to the natural world.</Pair>
 </Ability>
-<Ability id="outsider-option" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Ability id="outsider-option" extraClasses="subAbility numbered" icon={["power"]}>
 <Pair single id="outsider-option">Outsider Option</Pair>
 <Pair title="Ability"><p>The second option is to form a close bond with an outsider from an Outer Plane. The abilities of this outsider companion are determined using the rules for <Link to="/sidekick/unchained_eidolon">eidolons</Link> for the <Link to="/class/unchained_summoner">unchained summoner</Link> class, as if the planar extremist were a summoner of her druid level, except the outsider companion gains no additional evolution pool (only the evolutions from its base form and base evolutions for its subtype), and it must be of a <Link to="/ability/unchained_eidolon_subtypes">subtype</Link> whose alignment exactly matches the alignment of the planar extremist. The planar extremist can summon her outsider companion with the same 1-minute ritual a summoner normally uses to do so, but she can't cast <em>summon monster</em> spells if she currently has her outsider companion summoned, and she can't summon her companion if she already has a creature summoned through other means.</p>
 <p>As the planar ally gains class levels, her eidolon's base statistics and base evolutions increase as if her druid level were her summoner level. The eidolon gains the <em>darkvision, link, share spells, evasion, ability score increase, devotion, multiattack,</em> and <em>improved evasion</em> abilities at the appropriate levels, but never gains an evolution pool. Abilities and spells that grant additional evolution points to eidolons do not function for her outsider companion, though any abilities that would grant evolution points to an animal companion do work. The planar extremist does not gain life link or any other class features a summoner gains in relation to her eidolon.</p>
 </Pair>
 </Ability>
-<Ability id="spontaneous-casting" icon={["magic-swirl"]}>
+<Ability id="spontaneous-casting" icon={["magic"]}>
 <Pair single id="spontaneous-casting">Spontaneous Casting</Pair>
 <Pair hl title="Alters">A druid's spontaneous casting</Pair>
 <Pair title="Ability">A planar extremist can channel stored spell energy into summoning spells that she hasn't prepared ahead of time. She can lose a prepared spell in order to cast a <em>summon monster</em> spell of the same level or lower, but only to summon creatures whose alignment matches hers.</Pair>
 </Ability>
-<Ability id="resist-the-opposite-ex" icon={["armor-upgrade"]}>
+<Ability id="resist-the-opposite-ex" icon={["def"]}>
 <Pair single id="resist-the-opposite-ex">Resist the Opposite (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">A planar extremist gains a +2 bonus on saving throws against the spell-like and supernatural abilities of creatures whose alignment is diametrically opposed to her own.</Pair>
 </Ability>
-<Ability id="planar-aspect-su" icon={["stairs-goal"]}>
+<Ability id="planar-aspect-su" icon={["power"]}>
 <Pair single id="planar-aspect-su">Planar Aspect (Su)</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -309,29 +309,29 @@ const _planar_extremist = {title: "Planar Extremist", jsx: <><h2 id="arc-druid-p
 </>};
 const _progenitor = {title: "Progenitor", jsx: <><h2 id="arc-druid-progenitor-progenitor">Progenitor</h2>
 <p><strong>Sources</strong> <Link to="/source/planar_adventures">Planar Adventures pg. 19</Link><br/>Some druids forge powerful bonds with the raw, natural power of the First World. Progenitors are druids who tap into the vibrant power of the First World to propagate natural and supernatural wonders.</p>
-<Ability id="infused-summoning-ex" icon={["upgrade"]}>
+<Ability id="infused-summoning-ex" icon={["boost"]}>
 <Pair single id="infused-summoning-ex">Infused Summoning (Ex)</Pair>
 <Pair hl title="Alters">Spontaneous casting</Pair>
 <Pair title="Passive Ability">When a progenitor casts <em>summon nature's ally</em> to summon a creature, the summoned creature gains <Link to="/umr/fast_healing">fast healing</Link> equal to the progenitor's level (maximum equal to the progenitor's Wisdom modifier).</Pair>
 </Ability>
-<Ability id="primal-bond-ex" extraClasses="hasSubs" icon={["magic-swirl"]}>
+<Ability id="primal-bond-ex" extraClasses="hasSubs" icon={["magic"]}>
 <Pair single id="primal-bond-ex">Primal Bond (Ex)</Pair>
 <Pair hl title="Replaces">Nature bond</Pair>
 <Pair title="Choice">A progenitor infuses herself with fey magic so that she is treated as either her original creature type or the fey type for the purposes of spells or effects that target a creature by type, whichever is more beneficial to her. Additionally, the progenitor chooses one of two forms through which this bond expresses itself: magic or nature.</Pair>
 </Ability>
-<Ability id="magic" extraClasses="subAbility numbered" icon={["magic-swirl"]}>
+<Ability id="magic" extraClasses="subAbility numbered" icon={["magic"]}>
 <Pair single id="magic">Magic</Pair>
 <Pair title="Info">A progenitor who chooses magic as her primal bond can draw upon wild magic to attempt to cast a prepared spell without losing that spell from its spell slot.</Pair>
 <Pair title="Swift Action">To use this ability, she casts the spell as she would normally, but as the spell's effects take place, she must use a <strong className="hl">swift action</strong> to attempt a <Link to="/rule/concentration">concentration</Link> check (DC = 20 + twice the spell's level). If she fails, she expends the spell normally as if she had cast it, but its effects are replaced by <Link to="/rule/magic_traits_pa">a wild magic effect</Link> with a CR equal to her caster level and she is <Link to="/misc/staggered">staggered</Link> until the end of her next turn. If she succeeds, she casts the spell normally and it is not expended from her prepared spell slot, allowing her to cast that spell again at a later point.</Pair>
 <Pair title="Usage">1 time/day + 1 per five druid levels</Pair>
 </Ability>
-<Ability id="nature" extraClasses="subAbility numbered" icon={["magic-swirl","armor-upgrade","armor-downgrade"]}>
+<Ability id="nature" extraClasses="subAbility numbered" icon={["magic","def","lower"]}>
 <Pair single id="nature">Nature</Pair>
 <Pair title="Info">A progenitor who chooses nature as her primal bond can create plants.</Pair>
 <Pair title="Full-Round Action">At the start of her next turn, so long as she is touching a solid surface underfoot, a 5-foot radius of mobile undergrowth springs to life around the progenitor for a number of rounds equal to 3 plus the progenitor's Wisdom bonus. Upon activating this ability, the progenitor chooses whether the undergrowth provides <Link to="/rule/cover">cover</Link> or <Link to="/rule/difficult_terrain">difficult terrain</Link>. If the progenitor chooses cover, her undergrowth provides a cover bonus to AC to the progenitor and allies within the radius. If she chooses difficult terrain, enemies who enter the radius of undergrowth treat it as difficult terrain. A progenitor's undergrowth is treated as forest terrain if it provides cover and plains terrain if it provides difficult terrain. This radius increases by 5 feet at 5th level and every 5 levels thereafter.</Pair>
 <Pair title="Usage">1 time/day + 1 per five druid levels</Pair>
 </Ability>
-<Ability id="fey-shape-su" icon={["broken-shield","upgrade"]}>
+<Ability id="fey-shape-su" icon={["down","boost"]}>
 <Pair single id="fey-shape-su">Fey Shape (Su)</Pair>
 <Pair hl title="Alters">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -344,37 +344,37 @@ const _progenitor = {title: "Progenitor", jsx: <><h2 id="arc-druid-progenitor-pr
 </>};
 const _reincarnated_druid = {title: "Reincarnated Druid", jsx: <><h2 id="arc-druid-reincarnated_druid-reincarnated-druid">Reincarnated Druid</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 39</Link><br/>Spun off into the endless circle of life, an incarnate druid is an embodiment of nature's eternal renewal. She lives many lives and wanders the world devoid of attachments, a stranger to all yet one with all life.</p>
-<Ability id="mysterious-stranger-ex" icon={["armor-upgrade"]}>
+<Ability id="mysterious-stranger-ex" icon={["def"]}>
 <Pair single id="mysterious-stranger-ex">Mysterious Stranger (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A reincarnated druids adds <Link to="/misc/half">half</Link> her druid level to the DC of Sense Motive, Diplomacy, and Knowledge checks to learn about her.</Pair>
 </Ability>
-<Ability id="resist-deaths-touch-ex" icon={["armor-upgrade"]}>
+<Ability id="resist-deaths-touch-ex" icon={["def"]}>
 <Pair single id="resist-deaths-touch-ex">Resist Death's Touch (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">A reincarnated druid gains a +4 bonus on saving throws against death effects, energy drain, and necromancy effects, and on stabilization checks when dying.</Pair>
 </Ability>
-<Ability id="many-lives-ex" icon={["magic-swirl"]}>
+<Ability id="many-lives-ex" icon={["magic"]}>
 <Pair single id="many-lives-ex">Many Lives (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">If a reincarnated druid is killed, she may automatically <Link to="/spell/reincarnate">reincarnate</Link> (as the spell) 1 day later. The reincarnated druid appears in a safe location within 1 mile of her previous body. At will for the next 7 days, she can sense the presence of her remains as if using <Link to="/spell/locate_object">locate object</Link> as a spell-like ability. If she is killed during these 7 days, she remains dead and does not reincarnate.</Pair>
 <Pair title="Special">The many lives ability does not function if the reincarnated druid is slain by a death effect. A reincarnated druid cannot be <Link to="/spell/raise_dead">raised from the dead</Link> or <Link to="/spell/resurrection">resurrected</Link>, though she can be reincarnated.</Pair>
 </Ability>
-<Ability id="wild-shape-su" icon={["broken-shield"]}>
+<Ability id="wild-shape-su" icon={["down"]}>
 <Pair single id="wild-shape-su">Wild Shape (Su)</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">A reincarnated druid gains <em>wild shape,</em> but it functions at her druid level - 2.</Pair>
 </Ability>
-<Ability id="cheat-death-ex" icon={["rolling-dices"]}>
+<Ability id="cheat-death-ex" icon={["roll"]}>
 <Pair single id="cheat-death-ex">Cheat Death (Ex)</Pair>
 <Pair hl title="Replaces">Venom immunity</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Ability">Once per day, a reincarnated druid may reroll a save against a death effect, energy drain, or necromancy effect before the result of the roll is revealed, or reroll a failed stabilization check while dying. She must take the result of the second roll, even if it is worse than the original roll.</Pair>
 </Ability>
-<Ability id="tongue-of-the-sun-and-moon-ex" icon={["stairs-goal"]}>
+<Ability id="tongue-of-the-sun-and-moon-ex" icon={["power"]}>
 <Pair single id="tongue-of-the-sun-and-moon-ex">Tongue of the Sun and Moon (Ex)</Pair>
 <Pair hl title="Replaces">Timeless body</Pair>
 <Pair title="Gained">At 15th Level</Pair>
@@ -383,24 +383,24 @@ const _reincarnated_druid = {title: "Reincarnated Druid", jsx: <><h2 id="arc-dru
 </>};
 const _restorer = {title: "Restorer", jsx: <><h2 id="arc-druid-restorer-restorer">Restorer</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 22</Link><br/>Restorers carefully tend to the health of both the environment and creatures in it. Restorers in the most remote places often choose druidic herbalism as their nature bond option.</p>
-<Ability id="healing-touch-ex" icon={["upgrade"]}>
+<Ability id="healing-touch-ex" icon={["boost"]}>
 <Pair single id="healing-touch-ex">Healing Touch (Ex)</Pair>
 <Pair hl title="Replaces">Nature sense</Pair>
 <Pair title="Passive Ability">A restorer gains a +2 bonus on Heal checks. When a restorer uses Heal to provide first aid, the bonus increases to +3.</Pair>
 </Ability>
-<Ability id="natural-medic" icon={["magic-swirl"]}>
+<Ability id="natural-medic" icon={["magic"]}>
 <Pair single id="natural-medic">Natural Medic</Pair>
 <Pair hl title="Replaces">Spontaneous casting</Pair>
 <Pair title="Ability">A restorer can channel stored spell energy into healing spells that she did not prepare ahead of time. The restorer can "lose" any prepared spell in order to cast any <Link to="/main/cure_spells">cure spell</Link> she can cast of the same spell level or lower (a <em>cure</em> spell is any spell with "cure" in its name).</Pair>
 </Ability>
-<Ability id="enemy-of-blight-ex" icon={["stairs-goal"]}>
+<Ability id="enemy-of-blight-ex" icon={["power"]}>
 <Pair single id="enemy-of-blight-ex">Enemy of Blight (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Usage">She can ignore these effects for a number of rounds per day equal to double her Wisdom bonus. These rounds don't have to be used consecutively.</Pair>
 <Pair title="Ability">A restorer can ignore the effects of an overgrown area that has been magically manipulated to impede motion.</Pair>
 </Ability>
-<Ability id="guide-across-lifetimes-sp" icon={["magic-swirl"]}>
+<Ability id="guide-across-lifetimes-sp" icon={["magic"]}>
 <Pair single id="guide-across-lifetimes-sp">Guide across Lifetimes (Sp)</Pair>
 <Pair hl title="Replaces">A thousand faces</Pair>
 <Pair title="Gained">At 13th Level</Pair>
@@ -409,37 +409,37 @@ const _restorer = {title: "Restorer", jsx: <><h2 id="arc-druid-restorer-restorer
 </>};
 const _river_druid = {title: "River Druid", jsx: <><h2 id="arc-druid-river_druid-river-druid">River Druid</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 48</Link>, <Link to="/source/people_of_the_river">People of the River pg. 14</Link><br/>These druids are the guardians of rivers and the creatures that depend on them. Just as rivers pour from mountains to seas, river druids adapt to many environments and cultures. They can be found wherever water flows, even among underground rivers or sewer systems.</p>
-<Ability id="ferrier-ex" icon={["skills","upgrade"]}>
+<Ability id="ferrier-ex" icon={["skill","boost"]}>
 <Pair single id="ferrier-ex">Ferrier (Ex)</Pair>
 <Pair hl title="Replaces">Nature sense</Pair>
 <Pair hl title="Alters">Class skills</Pair>
 <Pair title="Info">A river druid adds <Link to="/skill/diplomacy">Diplomacy</Link> (CHA) to her list of class skills and gains a +2 bonus on Diplomacy and Knowledge (nature) skill checks.</Pair>
 </Ability>
-<Ability id="read-the-currents-ex" icon={["upgrade"]}>
+<Ability id="read-the-currents-ex" icon={["boost"]}>
 <Pair single id="read-the-currents-ex">Read the Currents (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A river druid gains a bonus equal to <Link to="/misc/half">half</Link> her druid level on initiative checks and Acrobatics, Knowledge (geography), Perception, Stealth, Survival, and Swim checks when she is in, on, or adjacent to flowing water.</Pair>
 </Ability>
-<Ability id="countercurrent-ex" icon={["upgrade"]}>
+<Ability id="countercurrent-ex" icon={["boost"]}>
 <Pair single id="countercurrent-ex">Countercurrent (Ex)</Pair>
 <Pair hl title="Replaces">Trackless step</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A river druid takes no penalty to speed or on Acrobatics or Stealth checks in shallow water up to 2 feet deep (1 foot deep for Small characters) such as shallow bogs, shorelines, streams, and partially flooded areas. A river druid (and any vehicle she pilots) isn't moved by flowing water unless she allows it. Water that has been magically manipulated to impede or boost motion still affects her.</Pair>
 </Ability>
-<Ability id="deep-breath-ex" icon={["stairs-goal"]}>
+<Ability id="deep-breath-ex" icon={["power"]}>
 <Pair single id="deep-breath-ex">Deep Breath (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A river druid can <Link to="/misc/hold_her_breath">hold her breath</Link> for a number of minutes equal to her Constitution score (after this, she must begin attempting Constitution checks to avoid suffocation as normal).</Pair>
 </Ability>
-<Ability id="wild-shape-su" icon={["broken-shield"]}>
+<Ability id="wild-shape-su" icon={["down"]}>
 <Pair single id="wild-shape-su">Wild Shape (Su)</Pair>
 <Pair hl title="Alters">Wild shape</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">A river druid gains <em>wild shape,</em> except her effective druid level for the ability is equal to her druid level - 2.</Pair>
 </Ability>
-<Ability id="tongue-of-the-sun-and-moon-ex" icon={["stairs-goal"]}>
+<Ability id="tongue-of-the-sun-and-moon-ex" icon={["power"]}>
 <Pair single id="tongue-of-the-sun-and-moon-ex">Tongue of the Sun and Moon (Ex)</Pair>
 <Pair hl title="Replaces">Timeless body</Pair>
 <Pair title="Gained">At 15th Level</Pair>
@@ -448,7 +448,7 @@ const _river_druid = {title: "River Druid", jsx: <><h2 id="arc-druid-river_druid
 </>};
 const _road_keeper = {title: "Road Keeper", jsx: <><h2 id="arc-druid-road_keeper-road-keeper">Road Keeper</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 48</Link><br/>Guardians of the lonely paths between cities, road keepers protect the wild from travelers, and travelers from the wild.</p>
-<Ability id="one-with-the-road-su" icon={["upgrade"]}>
+<Ability id="one-with-the-road-su" icon={["boost"]}>
 <Pair single id="one-with-the-road-su">One with the Road (Su)</Pair>
 <Pair hl title="Replaces">Spontaneous casting</Pair>
 <Pair title="Info">A road keeper casts the following spells as though her caster level were 1 higher.</Pair>
@@ -469,19 +469,19 @@ const _road_keeper = {title: "Road Keeper", jsx: <><h2 id="arc-druid-road_keeper
 <Pair hl title="Alters">Nature bond</Pair>
 <Pair title="Choice">If the road keeper chooses a cleric domain as her nature bond, she must choose from the <Link to="/domain/community">Community</Link>, <Link to="/domain/liberation">Liberation</Link>, <Link to="/domain/protection">Protection</Link>, <Link to="/domain/travel">Travel</Link>, or <Link to="/domain/weather">Weather</Link> domains. The road keeper can also choose any subdomain associated with these domains.</Pair>
 </Ability>
-<Ability id="take-the-high-road-ex" icon={["upgrade"]}>
+<Ability id="take-the-high-road-ex" icon={["boost"]}>
 <Pair single id="take-the-high-road-ex">Take the High Road (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A road keeper travels over roads and paths at an accelerated rate. She and her allies can <Link to="/rule/hustle">hustle</Link> for 2 hours without taking nonlethal damage, instead of 1, provided they travel along a road or path. Additionally, as long as they travel on a road or path, the road keeper and her allies count as traveling along a highway regardless of the quality of the road or path on which they travel. Allies must remain within 30 feet of the road keeper to benefit from this ability.</Pair>
 </Ability>
-<Ability id="trodden-path-ex" icon={["upgrade","armor-upgrade"]}>
+<Ability id="trodden-path-ex" icon={["boost","def"]}>
 <Pair single id="trodden-path-ex">Trodden Path (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">A road keeper gains a +4 bonus on Survival checks to follow or identify tracks. She also gains this bonus on saving throws against severe weather effects.</Pair>
 </Ability>
-<Ability id="road-less-traveled-su" icon={["armor-downgrade"]}>
+<Ability id="road-less-traveled-su" icon={["lower"]}>
 <Pair single id="road-less-traveled-su" flavor="A road keeper can discourage creatures from entering or exiting the wild.">Road Less Traveled (Su)</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -499,7 +499,7 @@ const _road_keeper = {title: "Road Keeper", jsx: <><h2 id="arc-druid-road_keeper
 </>};
 const _rot_warden = {title: "Rot Warden", jsx: <><h2 id="arc-druid-rot_warden-rot-warden">Rot Warden</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 49</Link><br/>Harbingers of decay, rot wardens live in damp lands where insects and rot break down the dead to feed the living. They see in the process of rot the beauty of nature's capacity to recycle and repurpose material into something wondrous and new.</p>
-<Ability id="invoke-decay-su" icon={["magic-swirl"]}>
+<Ability id="invoke-decay-su" icon={["magic"]}>
 <Pair single id="invoke-decay-su">Invoke Decay (Su)</Pair>
 <Pair hl title="Alters">Spontaneous casting</Pair>
 <Pair title="Ability">A rot warden can channel stored spell energy into specific spells he hasn't prepared ahead of time. He can "lose" a prepared spell in order to cast the following spells at the indicated spell levels.</Pair>
@@ -518,25 +518,25 @@ const _rot_warden = {title: "Rot Warden", jsx: <><h2 id="arc-druid-rot_warden-ro
 <Pair hl title="Alters">Nature bond</Pair>
 <Pair title="Choice">A rot warden who chooses a cleric domain as his nature bond must choose from the <Link to="/domain/destruction">Destruction</Link>, <Link to="/druiddomain/erosion">Erosion</Link>, <Link to="/domain/repose">Repose</Link>, or <Link to="/druiddomain/vermin">Vermin</Link> domains.</Pair>
 </Ability>
-<Ability id="vermin-empathy-su" icon={["stairs-goal"]}>
+<Ability id="vermin-empathy-su" icon={["power"]}>
 <Pair single id="vermin-empathy-su">Vermin Empathy (Su)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Ability">A rot warden can improve the attitude of vermin as a normal druid can with animals. Vermin have a starting attitude of unfriendly. The rot warden can also improve the attitude of vermin swarms, but he takes a -4 penalty on the check unless the swarm consists of the same kind of vermin as his vermin companion or his current <em>wild shape.</em></Pair>
 </Ability>
-<Ability id="swarmcaller-sp" icon={["magic-swirl"]}>
+<Ability id="swarmcaller-sp" icon={["magic"]}>
 <Pair single id="swarmcaller-sp">Swarmcaller (Sp)</Pair>
 <Pair hl title="Replaces">Trackless step, venom immunity</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Standard Action">A rot warden can summon a swarm of vermin once per day. This functions like <Link to="/spell/summon_swarm">summon swarm</Link>, except the swarm the rot warden summons must be a <Link to="/monster/cockroach_swarm">cockroach</Link>, <Link to="/monster/locust_swarm">locust</Link>, or <Link to="/monster/spider_swarm">spider swarm</Link>. If he uses this ability during the surprise round of combat, nearby animals and vermin become hushed until the first round of combat ends; during this surprise round and first round of combat, <Link to="/rule/flat_footed">flat-footed</Link> creatures also gain the <Link to="/misc/shaken">shaken</Link> condition (this doesn't stack with other fear effects).</Pair>
 <Pair title="At 9th Level">He adds <Link to="/monster/army_ant_swarm">army ant</Link>, <Link to="/monster/centipede_swarm">centipede</Link>, and <Link to="/monster/wasp_swarm">wasp swarms</Link> to the list of swarms he can call with this ability.</Pair>
 </Ability>
-<Ability id="enduring-druid-su" icon={["armor-upgrade"]}>
+<Ability id="enduring-druid-su" icon={["def"]}>
 <Pair single id="enduring-druid-su">Enduring Druid (Su)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">A rot warden gains a +4 bonus on saving throws against attacks and special abilities of vermin and swarms with the vermin type. This bonus also applies on saving throws against effects that would age or decay the rot warden or his equipment.</Pair>
 </Ability>
-<Ability id="wild-shape" icon={["broken-shield","upgrade"]}>
+<Ability id="wild-shape" icon={["down","boost"]}>
 <Pair single id="wild-shape">Wild Shape</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -555,12 +555,12 @@ const _saurian_shaman = {title: "Saurian Shaman", jsx: <><h2 id="arc-druid-sauri
 <Pair hl title="Alters">Nature bond</Pair>
 <Pair title="Choice">A saurian shaman who chooses an animal companion must select a dinosaur. If choosing a domain, a saurian shaman must choose from the <Link to="/domain/animal">Animal</Link>, <Link to="/domain/destruction">Destruction</Link>, <Link to="/domain/strength">Strength</Link>, and <Link to="/domain/war">War</Link> domains.</Pair>
 </Ability>
-<Ability id="wild-empathy-ex" icon={["upgrade"]}>
+<Ability id="wild-empathy-ex" icon={["boost"]}>
 <Pair single id="wild-empathy-ex">Wild Empathy (Ex)</Pair>
 <Pair hl title="Alters">Wild empathy</Pair>
 <Pair title="Ability">A saurian shaman can use <em>wild empathy</em> with dinosaurs and reptiles as a <strong className="hl">full-round action</strong> with a +4 bonus.</Pair>
 </Ability>
-<Ability id="totem-transformation-su" icon={["upgrade","magic-swirl"]}>
+<Ability id="totem-transformation-su" icon={["boost","magic"]}>
 <Pair single id="totem-transformation-su">Totem Transformation (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -578,18 +578,18 @@ const _saurian_shaman = {title: "Saurian Shaman", jsx: <><h2 id="arc-druid-sauri
 <Pair title="At 12th Level">This becomes a <strong className="hl">swift action</strong>.</Pair>
 <Pair title="Special">This is a polymorph effect and cannot be used while the druid is using another polymorph effect, such as <em>wild shape.</em></Pair>
 </Ability>
-<Ability id="totemic-summons-su" icon={["upgrade"]}>
+<Ability id="totemic-summons-su" icon={["boost"]}>
 <Pair single id="totemic-summons-su">Totemic Summons (Su)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Standard Action">A saurian shaman may cast <Link to="/spell/summon_natures_ally">summon nature's ally</Link> to summon reptiles and dinosaurs, and these summoned creatures gain <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to her druid level. She can apply the <Link to="/template/young">young</Link> template to such summons to reduce the level of the summoning spell required by one. She can also increase the level of summoning required by one in order to apply either the <Link to="/template/advanced">advanced</Link> or the <Link to="/template/giant">giant</Link> template, or increase it by two to apply both the advanced and giant templates.</Pair>
 </Ability>
-<Ability id="wild-shape-su" icon={["broken-shield","upgrade"]}>
+<Ability id="wild-shape-su" icon={["down","boost"]}>
 <Pair single id="wild-shape-su">Wild Shape (Su)</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">A saurian shaman gains <em>wild shape,</em> but the ability functions at her druid level - 2. If she takes on the form of a reptile or a dinosaur, she instead uses her druid level +2.</Pair>
 </Ability>
-<Ability id="bonus-feat" icon={["stairs-goal"]}>
+<Ability id="bonus-feat" icon={["power"]}>
 <Pair single id="bonus-feat">Bonus Feat</Pair>
 <Pair hl title="Replaces">Venom immunity</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -606,19 +606,19 @@ const _season_keeper = {title: "Season Keeper", jsx: <><h2 id="arc-druid-season_
 <Pair single id="nature-bond-ex">Nature Bond (Ex)</Pair>
 <Pair title="Choice">A season keeper must select an animal companion for her nature bond.</Pair>
 </Ability>
-<Ability id="seasonal-spirits-su" extraClasses="hasSubs" icon={["magic-swirl"]}>
+<Ability id="seasonal-spirits-su" extraClasses="hasSubs" icon={["magic"]}>
 <Pair single id="seasonal-spirits-su">Seasonal Spirits (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">Each day when she prepares spells, a season keeper can imbue her animal companion with the spirit of summer or the spirit of winter.</Pair>
 </Ability>
-<Ability id="spirit-of-summer" extraClasses="subAbility" icon={["aura","upgrade"]}>
+<Ability id="spirit-of-summer" extraClasses="subAbility" icon={["aura","boost"]}>
 <Pair single id="spirit-of-summer">Spirit of Summer</Pair>
 <Pair title="Passive Ability">The season keeper's animal companion projects a 15-foot-radius aura of cooling and vigor. Allies in the aura can exist comfortably in hot conditions as if they each had the <em>seasoned</em> racial ability of a Summerborn Triaxian.</Pair>
 <Pair title="At 3rd Level">The aura increases the power of the season keeper's healing magic - whenever the season keeper targets an ally with a spell that has the healing descriptor, the target also gains <Link to="/umr/fast_healing">fast healing</Link> 2 for a number of rounds equal to the spell's level.</Pair>
 <Pair title="At 9th Level">Allies within the aura leave no trails in natural grassy or forest environments, thus can't be tracked in such terrain.</Pair>
 <Pair title="At 15th Level">The duration of the fast healing effect increases to 2 rounds per spell level and affected allies can ignore <Link to="/rule/difficult_terrain">difficult terrain</Link> caused by natural undergrowth such as nonmagical thorns, briars, overgrowth, and similar terrain.</Pair>
 </Ability>
-<Ability id="spirit-of-winter" extraClasses="subAbility" icon={["aura","armor-upgrade"]}>
+<Ability id="spirit-of-winter" extraClasses="subAbility" icon={["aura","def"]}>
 <Pair single id="spirit-of-winter">Spirit of Winter</Pair>
 <Pair hl title="Replaces">Trackless step, venom immunity, timeless body</Pair>
 <Pair hl title="Alters">Nature bond</Pair>
@@ -627,7 +627,7 @@ const _season_keeper = {title: "Season Keeper", jsx: <><h2 id="arc-druid-season_
 <Pair title="At 9th Level">Affected allies leave no trails in natural snow or ice, thus can't be tracked in such terrain.</Pair>
 <Pair title="At 15th Level">Affected allies gain resistance 20 to cold and can ignore difficult terrain caused by ice or snow.</Pair>
 </Ability>
-<Ability id="wild-shape-su" icon={["broken-shield"]}>
+<Ability id="wild-shape-su" icon={["down"]}>
 <Pair single id="wild-shape-su">Wild Shape (Su)</Pair>
 <Pair hl title="Alters">Wild shape</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -637,26 +637,26 @@ const _season_keeper = {title: "Season Keeper", jsx: <><h2 id="arc-druid-season_
 </>};
 const _season_sage = {title: "Season Sage", jsx: <><h2 id="arc-druid-season_sage-season-sage">Season Sage</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 11</Link><br/>Season sages wander as the seasons change, turning the leaves and transforming nature as they pass and taking pleasure in the transition between seasons.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-season_sage--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/gathlain">Gathlain</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="seasons-touch-su" extraClasses="hasSubs" icon={["magic-palm"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-season_sage--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/gathlain">Gathlain</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="seasons-touch-su" extraClasses="hasSubs" icon={["touch"]}>
 <Pair single id="seasons-touch-su">Season's Touch (Su)</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A season sage can infuse living things with the essence of a season with a touch, causing them to manifest the changes associated with that season - for example, a touch of winter can make some animals grow a thick winter coat, while a touch of summer can make them shed. A touch of autumn would make a deciduous tree's leaves change colors, a touch of winter would make its leaves fall, and a touch of spring would make it put forth new leaves.</Pair>
 <Pair title="Info">In addition, a season sage can use the following abilities (in any combination) a total number of times per day equal to 1 + his Wisdom modifier.</Pair>
 </Ability>
-<Ability id="vernal-growth" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="vernal-growth" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="vernal-growth">Vernal Growth</Pair>
 <Pair title="Ability">A touched living creature gains the effects of <Link to="/spell/enlarge_person">enlarge person</Link> (even if it is not a humanoid) for 1 minute per druid level. A touched non-creature plant likewise doubles in all dimensions for the same duration.</Pair>
 </Ability>
-<Ability id="summer-might" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="summer-might" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="summer-might">Summer Might</Pair>
 <Pair title="Ability">A touched creature gains a +4 enhancement bonus to Constitution for 1 minute per druid level.</Pair>
 </Ability>
-<Ability id="autumn-rot" extraClasses="subAbility" icon={["magic-palm"]}>
+<Ability id="autumn-rot" extraClasses="subAbility" icon={["touch"]}>
 <Pair single id="autumn-rot">Autumn Rot</Pair>
 <Pair title="Ability">A touched creature or object made of plant matter takes 1d6 points of acid damage per 2 druid levels.</Pair>
 </Ability>
-<Ability id="winter-frost" extraClasses="subAbility" icon={["magic-palm"]}>
+<Ability id="winter-frost" extraClasses="subAbility" icon={["touch"]}>
 <Pair single id="winter-frost">Winter Frost</Pair>
 <Pair title="Ability">A touched creature or object takes 1d6 points of cold damage per 2 druid levels.</Pair>
 </Ability>
@@ -667,27 +667,27 @@ const _season_sage = {title: "Season Sage", jsx: <><h2 id="arc-druid-season_sage
 <Pair title="Standard Action">A season sage can radiate an aura of seasonal power. This affects a 20-foot-radius <Link to="/misc/burst">burst</Link> centered on the season sage and lasts in that area for 10 minutes, regardless of where the season sage moves afterward.</Pair>
 <Pair title="At 10th Level">The radius increases to 40 feet.</Pair>
 </Ability>
-<Ability id="vernal-bloom" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="vernal-bloom" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="vernal-bloom">Vernal Bloom</Pair>
 <Pair title="Ability">The area surges with life. Plants form vibrant, <Link to="/rule/forest_terrain">heavy undergrowth</Link> while in the aura. If the area can support plants, a circle of minor plants lingers afterward.</Pair>
 <Pair title="At 8th Level">The season sage can affect the area with <Link to="/spell/plant_growth">plant growth</Link> as a <strong className="hl">swift action</strong> at will, which can linger after the aura passes.</Pair>
 </Ability>
-<Ability id="summer-heat" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="summer-heat" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="summer-heat">Summer Heat</Pair>
 <Pair title="Ability">The area of effect is treated as if it were under the effects of <Link to="/rule/heat_dangers">extreme heat</Link>.</Pair>
 <Pair title="At 8th Level">As a <strong className="hl">swift action</strong> the season sage can have the area deal 1d6 points of fire damage each round to other creatures in the area.</Pair>
 </Ability>
-<Ability id="autumn-squall" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="autumn-squall" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="autumn-squall">Autumn Squall</Pair>
 <Pair title="Ability">The area is filled with fog, rain, and blown leaves. All creatures in the area gain <Link to="/rule/concealment">concealment</Link> (abilities to specifically see through fog or rain don't apply).</Pair>
 <Pair title="At 8th Level">The season sage can affect the area with <Link to="/spell/diminish_plants">diminish plants</Link> as a <strong className="hl">swift action</strong> at will, which also lingers after the aura passes.</Pair>
 </Ability>
-<Ability id="winter-chill" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="winter-chill" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="winter-chill">Winter Chill</Pair>
 <Pair title="Ability">The area of effect is treated as if it were under the effects of <Link to="/rule/cold_dangers">extreme cold</Link>.</Pair>
 <Pair title="At 8th Level">As a <strong className="hl">swift action</strong> the season sage can have the area deal 1d6 points of cold damage each round to other creatures in the area.</Pair>
 </Ability>
-<Ability id="season-mastery-sp" icon={["magic-swirl"]}>
+<Ability id="season-mastery-sp" icon={["magic"]}>
 <Pair single id="season-mastery-sp">Season Mastery (Sp)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">A season sage can cast <Link to="/spell/control_weather">control weather</Link> as a spell-like ability once per day; his choice of effects is not limited by the season.</Pair>
@@ -700,12 +700,12 @@ const _serpent_shaman = {title: "Serpent Shaman", jsx: <><h2 id="arc-druid-serpe
 <Pair hl title="Alters">Nature bond</Pair>
 <Pair title="Choice">A serpent shaman who chooses an animal companion must select a snake. If choosing a domain, the serpent shaman must choose from the <Link to="/domain/animal">Animal</Link>, <Link to="/domain/charm">Charm</Link>, <Link to="/domain/trickery">Trickery</Link>, and <Link to="/domain/water">Water</Link> domains.</Pair>
 </Ability>
-<Ability id="wild-empathy-ex" icon={["upgrade"]}>
+<Ability id="wild-empathy-ex" icon={["boost"]}>
 <Pair single id="wild-empathy-ex">Wild Empathy (Ex)</Pair>
 <Pair hl title="Alters">Wild empathy</Pair>
 <Pair title="Ability">A serpent shaman can use <em>wild empathy</em> with reptiles as a <strong className="hl">full-round action</strong> with a +4 bonus.</Pair>
 </Ability>
-<Ability id="totem-transformation-su" icon={["upgrade","magic-swirl"]}>
+<Ability id="totem-transformation-su" icon={["boost","magic"]}>
 <Pair single id="totem-transformation-su">Totem Transformation (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -724,18 +724,18 @@ const _serpent_shaman = {title: "Serpent Shaman", jsx: <><h2 id="arc-druid-serpe
 <Pair title="At 12th Level">This becomes a <strong className="hl">swift action</strong>.</Pair>
 <Pair title="Special">This is a polymorph effect and cannot be used while the druid is using another polymorph effect, such as <em>wild shape.</em></Pair>
 </Ability>
-<Ability id="totemic-summons-su" icon={["upgrade"]}>
+<Ability id="totemic-summons-su" icon={["boost"]}>
 <Pair single id="totemic-summons-su">Totemic Summons (Su)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Standard Action">A serpent shaman may cast <Link to="/spell/summon_natures_ally">summon nature's ally</Link> to summon snakes, and these summoned creatures gain <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to her druid level. She can apply the <Link to="/template/young">young</Link> template to any snake to reduce the level of the summoning spell required by one. She can also increase the level of summoning required by one in order to apply either the <Link to="/template/advanced">advanced</Link> or the <Link to="/template/giant">giant</Link> template, or increase it by two to apply both the advanced and giant templates.</Pair>
 </Ability>
-<Ability id="wild-shape-su" icon={["broken-shield","upgrade"]}>
+<Ability id="wild-shape-su" icon={["down","boost"]}>
 <Pair single id="wild-shape-su">Wild Shape (Su)</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Passive Ability">A serpent shaman gains <em>wild shape,</em> but the ability functions at her druid level - 2. If she takes on the form of a snake, she instead uses her druid level + 2.</Pair>
 </Ability>
-<Ability id="bonus-feat" icon={["stairs-goal"]}>
+<Ability id="bonus-feat" icon={["power"]}>
 <Pair single id="bonus-feat">Bonus Feat</Pair>
 <Pair hl title="Replaces">Venom immunity</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -752,12 +752,12 @@ const _shark_shaman = {title: "Shark Shaman", jsx: <><h2 id="arc-druid-shark_sha
 <Pair hl title="Alters">Nature bond</Pair>
 <Pair title="Choice">A shark shaman who chooses an animal companion must select a <Link to="/companion/shark">shark</Link>. If choosing a domain, a shark shaman may choose the <Link to="/domain/animal">Animal</Link>, <Link to="/domain/death">Death</Link>, <Link to="/domain/war">War</Link>, or <Link to="/domain/water">Water</Link> domain.</Pair>
 </Ability>
-<Ability id="wild-empathy-ex" icon={["upgrade"]}>
+<Ability id="wild-empathy-ex" icon={["boost"]}>
 <Pair single id="wild-empathy-ex">Wild Empathy (Ex)</Pair>
 <Pair hl title="Alters">Wild empathy</Pair>
 <Pair title="Ability">A shark shaman can use <em>wild empathy</em> with fish as a <strong className="hl">full-round action</strong> with a +4 bonus.</Pair>
 </Ability>
-<Ability id="totem-transformation-su" icon={["upgrade","magic-swirl"]}>
+<Ability id="totem-transformation-su" icon={["boost","magic"]}>
 <Pair single id="totem-transformation-su">Totem Transformation (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -775,18 +775,18 @@ const _shark_shaman = {title: "Shark Shaman", jsx: <><h2 id="arc-druid-shark_sha
 <Pair title="At 12th Level">This becomes a <strong className="hl">swift action</strong>.</Pair>
 <Pair title="Special">This is a polymorph effect and cannot be used while the druid is using another polymorph effect, such as <em>wild shape.</em></Pair>
 </Ability>
-<Ability id="totemic-summons-su" icon={["upgrade"]}>
+<Ability id="totemic-summons-su" icon={["boost"]}>
 <Pair single id="totemic-summons-su">Totemic Summons (Su)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Standard Action">A shark shaman may cast <Link to="/spell/summon_natures_ally_i">summon nature's ally I</Link> to summon a <Link to="/monster/stingray">stingray</Link> and <Link to="/spell/summon_natures_ally_ii">summon nature's ally II</Link> to summon a <Link to="/monster/manta_ray">manta ray</Link>. Summoned rays and sharks gain a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to her druid level. She can apply the <Link to="/template/young">young</Link> template to any such summon to reduce the level of the summoning spell required by one. She can also increase the level of summoning required by one in order to apply either the <Link to="/template/advanced">advanced</Link> or the <Link to="/template/giant">giant</Link> template, or increase it by two to apply both the advanced and giant templates.</Pair>
 </Ability>
-<Ability id="wild-shape-su" icon={["broken-shield","upgrade"]}>
+<Ability id="wild-shape-su" icon={["down","boost"]}>
 <Pair single id="wild-shape-su">Wild Shape (Su)</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Passive Ability">A shark shaman gains <em>wild shape,</em> but the ability functions at her druid level - 2. If she takes on the form of a shark, she instead uses her druid level +2.</Pair>
 </Ability>
-<Ability id="bonus-feat" icon={["stairs-goal"]}>
+<Ability id="bonus-feat" icon={["power"]}>
 <Pair single id="bonus-feat">Bonus Feat</Pair>
 <Pair hl title="Replaces">Venom immunity</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -798,11 +798,11 @@ const _shark_shaman = {title: "Shark Shaman", jsx: <><h2 id="arc-druid-shark_sha
 </>};
 const _skinshaper = {title: "Skinshaper", jsx: <><h2 id="arc-druid-skinshaper-skinshaper">Skinshaper</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 26</Link><br/>Using the same primal energy with which other druids assume animal forms, skinshapers can imitate some of the most dangerous beasts of all: humans and other humanoids. Rather than merely copying humanoids' shapes and abilities, skinshapers unlock brutal energies that push their borrowed bodies far beyond the capabilities of normal humanoid creatures. Their connection to humanoids bring skinshapers into settlements more often than typical druids, and their penchant for disguise allows them to excel at intrigue.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disguise">Disguise</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Ride</Pair></Ability>
-<Ability id="skinshaping-su" extraClasses="hasSubs" icon={["magic-swirl"]}>
+<Ability id="skinshaping-su" extraClasses="hasSubs" icon={["magic"]}>
 <Pair single id="skinshaping-su">Skinshaping (Su)</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -811,11 +811,11 @@ const _skinshaper = {title: "Skinshaper", jsx: <><h2 id="arc-druid-skinshaper-sk
 <Pair title="At 20th Level">She can use <em>skinshaping</em> at will.</Pair>
 <Pair title="Special">She also gains other benefits while <em>skinshaping,</em> as described below.</Pair>
 </Ability>
-<Ability id="unarmed-strike" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="unarmed-strike" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="unarmed-strike">Unarmed Strike</Pair>
 <Pair title="At 4th Level">The skinshaper learns to intuitively use her body as a weapon. While <em>skinshaping,</em> she gains the benefit of the <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> feat, and her unarmed strike deals damage as if she were a <Link to="/class/monk">monk</Link> with a monk level equal to her druid level - 3.</Pair>
 </Ability>
-<Ability id="unarmed-strike" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="unarmed-strike" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="unarmed-strike" flavor="Relevant text from the monk class ability.">Unarmed Strike</Pair>
 <Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
 <Pair title="At 4th Level">Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.</Pair>
@@ -823,26 +823,26 @@ const _skinshaper = {title: "Skinshaper", jsx: <><h2 id="arc-druid-skinshaper-sk
 <Pair title="At 12th Level">Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.</Pair>
 <Pair title="At 16th Level">Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.</Pair>
 </Ability>
-<Ability id="enhancement-bonus" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="enhancement-bonus" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="enhancement-bonus">Enhancement Bonus</Pair>
 <Pair title="At 6th Level">A skinshaper gains the ability to channel the versatile nature of humanoids to enhance her body and mind. Whenever she uses <em>skinshaping</em> to assume a humanoid shape other than her own, she gains a +2 enhancement bonus to any one ability score. The bonus persists as long as she remains in that form.</Pair>
 <Pair title="At 10th Level">She gains an additional +2 enhancement bonus to one ability score, or can stack them as a +4 bonus to one score.</Pair>
 <Pair title="At 14th Level">She gains a third +2 enhancement bonus to one ability score. She can distribute these bonuses as she wishes in increments of +2, but the enhancement bonus on any single ability score cannot exceed +4.</Pair>
 <Pair title="At 18th Level">She gains a fourth +2 enhancement bonus to one ability score, with the same restrictions as above.</Pair>
 </Ability>
-<Ability id="advanced-form" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="advanced-form" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="advanced-form">Advanced Form</Pair>
 <Pair title="At 8th Level">A skinshaper can imitate humanoid creatures even more accurately. She gains any of the following abilities that the form she assumes has: darkvision 90 feet, low-light vision, <Link to="/umr/scent">scent</Link>, climb 60 feet, fly 60 feet (good maneuverability), swim 60 feet, <Link to="/umr/ferocity">ferocity</Link>, <Link to="/race/half_orc">orc ferocity</Link>, and <Link to="/umr/hold_breath">hold breath</Link>. If the form she assumes has the <Link to="/subtype/aquatic">aquatic</Link> subtype, she gains the aquatic subtype and the <Link to="/umr/amphibious">amphibious</Link> special quality.</Pair>
 </Ability>
-<Ability id="racial-memory" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="racial-memory" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="racial-memory">Racial Memory</Pair>
 <Pair title="At 12th Level">A skinshaper can access the racial memory of the humanoid she is imitating. If the form she assumes has any of the following racial abilities, she gains those abilities: defensive training, hatred, <Link to="/ability/poison_use">poison use</Link>, <Link to="/ability/sneak_attack">sneak attack</Link> +2d6, stability, and weapon familiarity. Additionally, she can speak any racial languages of the chosen form.</Pair>
 </Ability>
-<Ability id="skill-bonuses" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="skill-bonuses" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="skill-bonuses">Skill Bonuses</Pair>
 <Pair title="At 16th Level">A skinshaper gains the racial skill bonuses of the imitated humanoid, to a maximum of a +4 bonus on a given skill. The skinshaper cannot benefit from any variable racial skill bonuses associated with the chosen form (such as gnomes' racial bonus on any one Craft or Profession skill).</Pair>
 </Ability>
-<Ability id="flashmorph-su" icon={["upgrade"]}>
+<Ability id="flashmorph-su" icon={["boost"]}>
 <Pair single id="flashmorph-su">Flashmorph (Su)</Pair>
 <Pair hl title="Replaces">A thousand faces</Pair>
 <Pair title="Gained">At 13th Level</Pair>
@@ -851,7 +851,7 @@ const _skinshaper = {title: "Skinshaper", jsx: <><h2 id="arc-druid-skinshaper-sk
 </>};
 const _sky_druid = {title: "Sky Druid", jsx: <><h2 id="arc-druid-sky_druid-sky-druid">Sky Druid</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 158</Link><br/>Some druids develop ties not to a particular landscape, but instead to the endless blue expanse of the skies. Such are the sky druids, who are more at home soaring through air than standing on the ground. A sky druid has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-sky_druid--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/sylph">Sylph</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-sky_druid--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/sylph">Sylph</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="weapon-and-armor-proficiency" icon={["down"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Info">A sky druid loses medium armor proficiency.</Pair>
 </Ability>
@@ -861,38 +861,38 @@ const _sky_druid = {title: "Sky Druid", jsx: <><h2 id="arc-druid-sky_druid-sky-d
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Choice">A sky druid who chooses an animal companion must select one with a fly speed. If choosing a domain, the sky druid must choose from the <Link to="/domain/air">Air</Link>, <Link to="/domain/animal">Animal</Link>, <Link to="/domain/liberation">Liberation</Link>, and <Link to="/domain/weather">Weather</Link> domains, or subdomains appropriate to those domains.</Pair>
 </Ability>
-<Ability id="skys-embrace-su" icon={["armor-upgrade","stairs-goal"]}>
+<Ability id="skys-embrace-su" icon={["def","power"]}>
 <Pair single id="skys-embrace-su">Sky's Embrace (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A sky druid no longer takes falling damage, as though she were constantly under the effect of <Link to="/spell/feather_fall">feather fall</Link>.</Pair>
 <Pair title="Ability">Additionally, she may take ranks in the Fly skill regardless of whether she has a natural fly speed, and may use her Fly skill in place of Acrobatics when making jump checks.</Pair>
 </Ability>
-<Ability id="resist-storm-ex" icon={["armor-upgrade"]}>
+<Ability id="resist-storm-ex" icon={["def"]}>
 <Pair single id="resist-storm-ex">Resist Storm (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">A sky druid gains a +4 bonus on saving throws against spells with the air or electricity descriptors and against effects that control or modify the weather (such as <Link to="/spell/sleet_storm">sleet storm</Link>).</Pair>
 </Ability>
-<Ability id="skymaster-su" icon={["magic-swirl"]}>
+<Ability id="skymaster-su" icon={["magic"]}>
 <Pair single id="skymaster-su">Skymaster (Su)</Pair>
 <Pair hl title="Replaces">Trackless step</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A sky druid can use the <Link to="/spell/fly">fly</Link> spell (self only) for a number of minutes per day equal to her druid level. These minutes do not need to be consecutive.</Pair>
 </Ability>
-<Ability id="wild-shape-su" icon={["stairs-goal","upgrade"]}>
+<Ability id="wild-shape-su" icon={["power","boost"]}>
 <Pair single id="wild-shape-su">Wild Shape (Su)</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">A sky druid gains the ability to use <em>wild shape.</em> When a sky druid takes the form of a creature with a fly speed, this ability functions at her class level + 1. For all other forms, her effective druid level for the ability is equal to her actual sky druid level. This ability otherwise functions as <em>wild shape.</em></Pair>
 </Ability>
-<Ability id="soaring-form-ex" icon={["armor-upgrade"]}>
+<Ability id="soaring-form-ex" icon={["def"]}>
 <Pair single id="soaring-form-ex">Soaring Form (Ex)</Pair>
 <Pair hl title="Replaces">Venom immunity</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Passive Ability">A sky druid is no longer affected by <Link to="/rule/altitude_sickness">altitude sickness</Link> or natural or magical wind.</Pair>
 </Ability>
-<Ability id="into-the-wild-blue-su" icon={["stairs-goal"]}>
+<Ability id="into-the-wild-blue-su" icon={["power"]}>
 <Pair single id="into-the-wild-blue-su">Into the Wild Blue (Su)</Pair>
 <Pair hl title="Replaces">A thousand faces</Pair>
 <Pair title="Gained">At 13th Level</Pair>
@@ -901,28 +901,28 @@ const _sky_druid = {title: "Sky Druid", jsx: <><h2 id="arc-druid-sky_druid-sky-d
 </>};
 const _storm_druid = {title: "Storm Druid", jsx: <><h2 id="arc-druid-storm_druid-storm-druid">Storm Druid</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 40</Link><br/>While most druids focus their attention upon the rich earth and the bounty of nature that springs forth from it, the storm druid's eyes have ever been cast to the skies and the endless expanse of blue, channeling the most raw and untamed aspects of nature.</p>
-<Ability id="spontaneous-domain-casting" icon={["magic-swirl"]}>
+<Ability id="spontaneous-domain-casting" icon={["magic"]}>
 <Pair single id="spontaneous-domain-casting">Spontaneous Domain Casting</Pair>
 <Pair hl title="Replaces">Spontaneous casting</Pair>
 <Pair title="Ability">A storm druid can channel stored spell energy into domain spells that she has not prepared ahead of time. She can "lose" a prepared spell in order to cast any domain spell of the same level or lower.</Pair>
 </Ability>
-<Ability id="nature-bond-ex" icon={["broken-shield"]}>
+<Ability id="nature-bond-ex" icon={["down"]}>
 <Pair single id="nature-bond-ex">Nature Bond (Ex)</Pair>
 <Pair title="Choice">A storm druid may not choose an animal companion. A storm druid must choose the <Link to="/domain/air">Air</Link> or <Link to="/domain/weather">Weather</Link> domain, or the Cloud, Storm, or Wind subdomain.</Pair>
 </Ability>
-<Ability id="windwalker-ex" icon={["armor-upgrade"]}>
+<Ability id="windwalker-ex" icon={["def"]}>
 <Pair single id="windwalker-ex">Windwalker (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">The penalties from natural or magical wind effects are treated as one step less severe for a storm druid.</Pair>
 </Ability>
-<Ability id="stormvoice-ex" icon={["upgrade"]}>
+<Ability id="stormvoice-ex" icon={["boost"]}>
 <Pair single id="stormvoice-ex">Stormvoice (Ex)</Pair>
 <Pair hl title="Replaces">Trackless step</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A storm druid's voice can magically carry over howling winds and peals of thunder. Whenever a Perception check is needed to hear the druid's voice, the DC is reduced by an amount equal to the druid's level.</Pair>
 </Ability>
-<Ability id="eyes-of-the-storm-ex" icon={["stairs-goal"]}>
+<Ability id="eyes-of-the-storm-ex" icon={["power"]}>
 <Pair single id="eyes-of-the-storm-ex">Eyes of the Storm (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -932,13 +932,13 @@ const _storm_druid = {title: "Storm Druid", jsx: <><h2 id="arc-druid-storm_druid
 <Pair title="At 16th Level">Her sight can penetrate 25 feet.</Pair>
 <Pair title="At 20th Level">Her sight increases to 30 feet.</Pair>
 </Ability>
-<Ability id="windlord" icon={["stairs-goal"]}>
+<Ability id="windlord" icon={["power"]}>
 <Pair single id="windlord">Windlord</Pair>
 <Pair hl title="Replaces">Venom immunity</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Choice">A storm druid can select another domain or subdomain from those available to her through her nature bond.</Pair>
 </Ability>
-<Ability id="storm-lord-ex" icon={["armor-upgrade"]}>
+<Ability id="storm-lord-ex" icon={["def"]}>
 <Pair single id="storm-lord-ex">Storm Lord (Ex)</Pair>
 <Pair hl title="Replaces">A thousand faces</Pair>
 <Pair title="Gained">At 13th Level</Pair>
@@ -947,39 +947,39 @@ const _storm_druid = {title: "Storm Druid", jsx: <><h2 id="arc-druid-storm_druid
 </>};
 const _sunrider = {title: "Sunrider", jsx: <><h2 id="arc-druid-sunrider-sunrider">Sunrider</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 13</Link><br/>Sunriders help their allies, be they fellow tribe members or fellow adventurers, to survive in harsh desert terrain, while simultaneously making it even harsher for their foes. They seem to share a single mind with their loyal steeds, and companions who ride with them become an eerily well-coordinated cavalry unit that traverses the treacherous desert sands with ease to wreak havoc upon invaders. Sunriders almost never leave their tribal homelands; those found outside Al-Zabrit are usually either exiles or emissaries sent to deal with issues that can't be addressed from their holds.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Profession</Pair></Ability>
-<Ability id="weapon-and-armor-proficiencies" icon={["stairs-goal","broken-shield"]}>
+<Ability id="weapon-and-armor-proficiencies" icon={["power","down"]}>
 <Pair single id="weapon-and-armor-proficiencies">Weapon and Armor Proficiencies</Pair>
 <Pair hl title="Alters">Weapon and armor proficiencies</Pair>
 <Pair title="Ability">A sunrider gains proficiency with the <Link to="/eq-weapon/shortbow">shortbow</Link>, but not with the scythe, sickle, or quarterstaff.</Pair>
 </Ability>
-<Ability id="nature-bond-ex" icon={["broken-shield"]}>
+<Ability id="nature-bond-ex" icon={["down"]}>
 <Pair single id="nature-bond-ex">Nature Bond (Ex)</Pair>
 <Pair hl title="Alters">Nature bond</Pair>
 <Pair title="Choice">A sunrider must use this ability to bond with a <Link to="/companion/horse">horse</Link> or a <Link to="/companion/pony">pony</Link> as an animal companion; she cannot choose a different animal or choose a domain instead of an animal companion.</Pair>
 </Ability>
-<Ability id="born-to-the-saddle-ex" icon={["upgrade"]}>
+<Ability id="born-to-the-saddle-ex" icon={["boost"]}>
 <Pair single id="born-to-the-saddle-ex">Born to the Saddle (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">While wearing light or no armor, a sunrider does not need to attempt Ride checks for any task listed in the Ride skill with a DC of 15 or lower. She does not take an armor check penalty on Ride checks while riding her mount.</Pair>
 </Ability>
-<Ability id="mounted-advantage-su" icon={["upgrade","aura"]}>
+<Ability id="mounted-advantage-su" icon={["boost","aura"]}>
 <Pair single id="mounted-advantage-su">Mounted Advantage (Su)</Pair>
 <Pair hl title="Replaces">Trackless step</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">Any allied mount within 30 feet of a sunrider can ignore the effects of rocky or sandy <Link to="/rule/difficult_terrain">difficult terrain</Link>.</Pair>
 </Ability>
-<Ability id="desert-born-ex" icon={["upgrade","aura"]}>
+<Ability id="desert-born-ex" icon={["boost","aura"]}>
 <Pair single id="desert-born-ex" flavor="A sunrider is at home in the desert.">Desert Born (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">She gains a +2 bonus on initiative checks and on Knowledge (geography), Perception, Stealth, and Survival checks while she is in desert terrain. Mounted allies traveling with her likewise gain a +1 bonus on initiative checks and Perception and Survival checks while in desert terrain, as long as they are within 30 feet of the sunrider.</Pair>
 </Ability>
-<Ability id="concerted-effort-ex" icon={["stairs-goal","aura","armor-upgrade","upgrade"]}>
+<Ability id="concerted-effort-ex" icon={["power","aura","def","boost"]}>
 <Pair single id="concerted-effort-ex" flavor="A sunrider can extend the bond she shares with her horse to other nearby mounted companions, forming them into a fighting force that seems to share a single mind.">Concerted Effort (Ex)</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -997,33 +997,33 @@ const _sunrider = {title: "Sunrider", jsx: <><h2 id="arc-druid-sunrider-sunrider
 </>};
 const _supernaturalist = {hasJL:true,title: "Supernaturalist", jsx: <><div className="jumpList" id="arc-druid-supernaturalist-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arc-druid-supernaturalist-optional-abilities">Optional Abilities</InnerLink></li></ul></div><h2 id="arc-druid-supernaturalist-supernaturalist">Supernaturalist</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 21</Link><br/>Supernaturalists wholly embrace paranormal phenomena as extensions of nature.</p>
-<Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["down"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Alters">Weapon and armor proficiencies</Pair>
 <Pair title="Info">A supernaturalist is not proficient with any type of armor.</Pair>
 </Ability>
-<Ability id="eldritch-botanist-ex" icon={["upgrade"]}>
+<Ability id="eldritch-botanist-ex" icon={["boost"]}>
 <Pair single id="eldritch-botanist-ex">Eldritch Botanist (Ex)</Pair>
 <Pair title="Ability">A supernaturalist can affect plants with mind-affecting effects she creates and with spells that normally affect animals. Any such spell that allows a Will save can instead be negated by the target plant with a successful Fortitude save at the same DC.</Pair>
 </Ability>
-<Ability id="paranormal-scholar-ex" icon={["stairs-goal","skills","spell-book"]}>
+<Ability id="paranormal-scholar-ex" icon={["power","skill","learn"]}>
 <Pair single id="paranormal-scholar-ex">Paranormal Scholar (Ex)</Pair>
 <Pair hl title="Replaces">Nature sense, trackless step, resist nature's lure</Pair>
 <Pair title="Ability">A supernaturalist gains <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> as a bonus feat and adds <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), and <Link to="/skill/sense_motive">Sense Motive</Link> (WIS) as class skills.</Pair>
 <Pair title="Special">At 3rd level and every 3 levels thereafter, she can select a spell from the <Link to="/main/spells_psychic">psychic class's spell list</Link> and add it to her druid spell list, and is able to prepare and cast it as a druid spell.</Pair>
 </Ability>
-<Ability id="animal-spirit-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="animal-spirit-su" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="animal-spirit-su">Animal Spirit (Su)</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A supernaturalist can perform a seance to call an animal spirit of any animal with which she is familiar to serve as her companion and guide. The supernaturalist gains <em>spirit, spirit bonus, spirit surge,</em> and <em>taboo</em> abilities as a <Link to="/class/medium">medium</Link> 3 levels lower than her druid level. The supernaturalist's allies cannot participate in this seance.</Pair>
 <Pair title="Special">The spirit abilities of the animal spirit are given below.</Pair>
 </Ability>
-<Ability id="spirit-bonus" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="spirit-bonus" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="spirit-bonus">Spirit Bonus</Pair>
 <Pair title="Info">Your spirit bonus applies on attack and damage rolls with natural weapons and on skill checks relating to animals and plants.</Pair>
 </Ability>
-<Ability id="seance-boon" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="seance-boon" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="seance-boon">Seance Boon</Pair>
 <Pair title="Passive Ability">Your natural armor bonus to AC increases by 1.</Pair>
 </Ability>
@@ -1031,11 +1031,11 @@ const _supernaturalist = {hasJL:true,title: "Supernaturalist", jsx: <><div class
 <Pair single id="favored-location">Favored Location</Pair>
 <Pair title="Info">Native terrain of the animal type being invoked.</Pair>
 </Ability>
-<Ability id="influence-penalty" extraClasses="subAbility" icon={["broken-shield"]}>
+<Ability id="influence-penalty" extraClasses="subAbility" icon={["down"]}>
 <Pair single id="influence-penalty">Influence Penalty</Pair>
 <Pair title="Passive Ability">You become wild and savage, taking a penalty equal to your spirit bonus on caster level checks, Charisma- and Intelligence-based ability checks, and skill checks.</Pair>
 </Ability>
-<Ability id="taboos" extraClasses="subAbility" icon={["broken-shield"]}>
+<Ability id="taboos" extraClasses="subAbility" icon={["down"]}>
 <Pair single id="taboos">Taboos</Pair>
 <Pair title="Choice"><p>Choose one:</p>
 <ul>
@@ -1045,7 +1045,7 @@ const _supernaturalist = {hasJL:true,title: "Supernaturalist", jsx: <><div class
 </ul>
 </Pair>
 </Ability>
-<Ability id="totem-transformation-lesser-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="totem-transformation-lesser-su" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="totem-transformation-lesser-su">Totem Transformation (Lesser, Su)</Pair>
 <Pair title="Ability"><p>You gain any of the following abilities possessed by the animal you select as your animal spirit:</p>
 <ul>
@@ -1059,36 +1059,36 @@ const _supernaturalist = {hasJL:true,title: "Supernaturalist", jsx: <><div class
 </ul>
 </Pair>
 </Ability>
-<Ability id="pack-leader-intermediate-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="pack-leader-intermediate-su" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="pack-leader-intermediate-su">Pack Leader (Intermediate, Su)</Pair>
 <Pair title="Passive Ability">When you summon animals that match your animal spirit, they gain a +2 bonus on attack rolls, damage rolls, and saving throws.</Pair>
 </Ability>
-<Ability id="wildstrike-greater-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="wildstrike-greater-su" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="wildstrike-greater-su">Wildstrike (Greater, Su)</Pair>
 <Pair title="Swift Action">You can allow your animal spirit to gain 1 point of influence over you to allow an animal or plant (including your companion) within 30 feet that can see or hear you to immediately take an additional standard action.</Pair>
 </Ability>
-<Ability id="wild-heart-supreme-ex" icon={["armor-upgrade","magic-swirl"]}>
+<Ability id="wild-heart-supreme-ex" icon={["def","magic"]}>
 <Pair single id="wild-heart-supreme-ex">Wild Heart (Supreme, Ex)</Pair>
 <Pair title="Passive Ability">You gain a +4 bonus on saves against enchantment and mind-affecting effects, and immunity to effects that affect only humanoids.</Pair>
 <Pair title="Ability">Once per day, you can cast any <Link to="/spell/summon_natures_ally">summon nature's ally</Link> spell you can cast spontaneously as a <strong className="hl">standard action</strong> without expending a spell slot.</Pair>
 </Ability>
 <h3 id="arc-druid-supernaturalist-optional-abilities" data-hash-target>Optional Abilities</h3>
 <p>A supernaturalist can choose <em>plant bond</em> and <em>green empathy</em> in place of <em>nature bond</em> and <em>wild empathy.</em> This choice must be made when the druid takes this archetype.</p>
-<Ability id="plant-bond-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="plant-bond-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="plant-bond-ex">Plant Bond (Ex)</Pair>
 <Pair hl title="Replaces">Nature bond</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Choice">A supernaturalist forms a mystic bond with plant life. This bond can take one of two forms.</Pair>
 </Ability>
-<Ability id="domain" extraClasses="subAbility numbered" icon={["spell-book","magic-swirl"]}>
+<Ability id="domain" extraClasses="subAbility numbered" icon={["learn","magic"]}>
 <Pair single id="domain">Domain</Pair>
 <Pair title="Ability">This grants the supernaturalist one of the following domains: <Link to="/domain/plant">Plant</Link>, <Link to="/domain/growth">Growth</Link>, <Link to="/druiddomain/jungle">Jungle</Link>, <Link to="/druiddomain/swamp">Swamp</Link>. When determining the powers and bonus spells granted by this domain, the supernaturalist's effective cleric level is equal to her druid level. A supernaturalist who selects this option also receives additional domain spell slots, just like a cleric. She must prepare the spell from her domain in this slot, and this spell cannot be used to cast a spell spontaneously.</Pair>
 </Ability>
-<Ability id="plant-companion" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Ability id="plant-companion" extraClasses="subAbility numbered" icon={["power"]}>
 <Pair single id="plant-companion">Plant companion</Pair>
 <Pair title="Ability">A supernaturalist can form a close bond with a plant companion. A supernaturalist may begin play with any of the plants listed under <strong>Plant Companions</strong> in the <Link to="/arc-druid/treesinger">treesinger</Link> archetype. This plant is a loyal companion that accompanies the supernaturalist on her adventures. Except for the companion being a creature of the plant type, drawn from the list of plant companions, this ability otherwise works like the standard druid's animal companion ability.</Pair>
 </Ability>
-<Ability id="green-empathy-ex" icon={["stairs-goal"]}>
+<Ability id="green-empathy-ex" icon={["power"]}>
 <Pair single id="green-empathy-ex">Green Empathy (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -1100,37 +1100,37 @@ const _supernaturalist = {hasJL:true,title: "Supernaturalist", jsx: <><div class
 </>};
 const _survivor = {title: "Survivor", jsx: <><h2 id="arc-druid-survivor-survivor">Survivor</h2>
 <p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance pg. 24</Link><br/>The survivor embodies the neutral aspect of the natural world and eschews druidic magic in favor of more pragmatic and worldly survival methods.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair></Ability>
-<Ability id="weapon-proficiencies" icon={["stairs-goal"]}>
+<Ability id="weapon-proficiencies" icon={["power"]}>
 <Pair single id="weapon-proficiencies">Weapon Proficiencies</Pair>
 <Pair title="Ability">In addition to the normal druid weapon proficiencies, a survivor is proficient with the <Link to="/eq-weapon/shortbow">shortbow</Link> and <Link to="/eq-weapon/longbow">longbow</Link>.</Pair>
 </Ability>
-<Ability id="diminished-spellcasting" icon={["broken-shield"]}>
+<Ability id="diminished-spellcasting" icon={["down"]}>
 <Pair single id="diminished-spellcasting">Diminished Spellcasting</Pair>
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Info">A survivor's number of spells per day for each spell level is one less than normal (for example, a 4th-level survivor can cast three cantrips, two 2nd-level spells, and one 1st-level spell per day). If this reduces the number of spells for a level to 0, she gains only the bonus spells for that level she would be entitled to based on her Wisdom score.</Pair>
 </Ability>
-<Ability id="nature-bond-ex" icon={["broken-shield"]}>
+<Ability id="nature-bond-ex" icon={["down"]}>
 <Pair single id="nature-bond-ex">Nature Bond (Ex)</Pair>
 <Pair hl title="Alters">Nature bond</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Choice">A survivor must select an animal companion as her <em>nature bond.</em></Pair>
 </Ability>
-<Ability id="element-of-surprise-ex" icon={["armor-downgrade"]}>
+<Ability id="element-of-surprise-ex" icon={["lower"]}>
 <Pair single id="element-of-surprise-ex">Element of Surprise (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">If a survivor makes a successful attack during a surprise round against a target that is unaware of her, her victim takes a penalty on its initiative check during the following round equal to half the damage dealt by the survivor's attack (minimum 0, maximum equal to the survivor's class level). This cannot reduce an initiative result below 1.</Pair>
 </Ability>
-<Ability id="trap" icon={["stairs-goal"]}>
+<Ability id="trap" icon={["power"]}>
 <Pair single id="trap">Trap</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A survivor learns how to create a snare trap and one other <Link to="/ability/ranger_traps">ranger trap</Link> of her choice. At 6th level and every 2 levels thereafter, she learns another trap. The survivor can use these traps a total number of times per day equal to <Link to="/misc/half">half</Link> her druid level + her Wisdom modifier. Once a trap is learned, it can't be unlearned and replaced with a different type of trap. The survivor cannot select an individual trap more than once.</Pair>
 </Ability>
-<Ability id="launch-trap" icon={["bowman"]}>
+<Ability id="launch-trap" icon={["ranged"]}>
 <Pair single id="launch-trap">Launch Trap</Pair>
 <Pair hl title="Replaces">Venom immunity</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -1140,31 +1140,31 @@ const _survivor = {title: "Survivor", jsx: <><h2 id="arc-druid-survivor-survivor
 </>};
 const _swamp_druid = {title: "Swamp Druid", jsx: <><h2 id="arc-druid-swamp_druid-swamp-druid">Swamp Druid</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 100</Link><br/>Some druids eschew pleasant glades and groves and instead seek out dank marshes, misty bogs and heaths, and trackless swamps as the place they call home and watch over with care, finding beauty and life in abundance in places few others would willingly enter.</p>
-<Ability id="marshwight-ex" icon={["upgrade","stairs-goal"]}>
+<Ability id="marshwight-ex" icon={["boost","power"]}>
 <Pair single id="marshwight-ex">Marshwight (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A swamp druid gains a bonus on Initiative checks and Knowledge (geography), Perception, Stealth, Swim, and Survival checks equal to <Link to="/misc/half">half</Link> her druid level in swamp terrain, and she cannot be tracked in such an environment.</Pair>
 </Ability>
-<Ability id="swamp-strider-ex" icon={["upgrade"]}>
+<Ability id="swamp-strider-ex" icon={["boost"]}>
 <Pair single id="swamp-strider-ex">Swamp Strider (Ex)</Pair>
 <Pair hl title="Replaces">Trackless step</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A swamp druid suffers no penalty to speed or on Acrobatics or Stealth checks in bogs and undergrowth.</Pair>
 </Ability>
-<Ability id="pond-scum-ex" icon={["armor-upgrade"]}>
+<Ability id="pond-scum-ex" icon={["def"]}>
 <Pair single id="pond-scum-ex">Pond Scum (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">A swamp druid gains a +4 bonus on saves against disease and the exceptional, supernatural, and spell-like abilities of monstrous humanoids. A swamp druid also gains DR/- equal to half her druid level against attacks by swarms. If this damage resistance prevents damage, the druid is unaffected by distraction or other special attacks of the swarm.</Pair>
 </Ability>
-<Ability id="wild-shape-su" icon={["broken-shield"]}>
+<Ability id="wild-shape-su" icon={["down"]}>
 <Pair single id="wild-shape-su">Wild Shape (Su)</Pair>
 <Pair hl title="Alters">Wild shape</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">A swamp druid gains <em>wild shape,</em> except that her effective druid level for this ability is equal to her druid level - 2.</Pair>
 </Ability>
-<Ability id="slippery-ex" icon={["armor-upgrade","upgrade"]}>
+<Ability id="slippery-ex" icon={["def","boost"]}>
 <Pair single id="slippery-ex">Slippery (Ex)</Pair>
 <Pair hl title="Replaces">A thousand faces</Pair>
 <Pair title="Gained">At 13th Level</Pair>
@@ -1173,7 +1173,7 @@ const _swamp_druid = {title: "Swamp Druid", jsx: <><h2 id="arc-druid-swamp_druid
 </>};
 const _swarm_monger = {title: "Swarm Monger", jsx: <><h2 id="arc-druid-swarm_monger-swarm-monger">Swarm Monger</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 21</Link><br/>Swarm mongers are unparalleled survivors, thriving on the filthy fringes of society. Whereas other druids commune with nature or even the spirit of a city, swarm mongers find beauty and strength in decay, and they draw their power from fungus, disease, and their own singular will to survive.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-swarm_monger--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ratfolk">Ratfolk</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="fecund-familiar-ex" icon={["stairs-goal"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-swarm_monger--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ratfolk">Ratfolk</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="fecund-familiar-ex" icon={["power"]}>
 <Pair single id="fecund-familiar-ex">Fecund Familiar (Ex)</Pair>
 <Pair hl title="Replaces">Nature bond</Pair>
 <Pair title="Choice">A swarm monger bonds with an urban <Link to="/sidekick/familiar">familiar</Link>, treating her druid level as her <Link to="/class/wizard">wizard</Link> level for the purposes of determining her familiar's abilities. The swarm monger must select her familiar from the <Link to="/ability/familiars">following options</Link>: cat, house centipede, rat, raven, or scarlet spider.</Pair>
@@ -1184,25 +1184,25 @@ const _swarm_monger = {title: "Swarm Monger", jsx: <><h2 id="arc-druid-swarm_mon
 <Pair title="At 12th Level">Creatures that fail their Fortitude saving throws instead become <Link to="/misc/nauseated">nauseated</Link>.</Pair>
 <Pair title="Special">The swarm monger is immune to her own familiar's swarm attack. A fecund familiar cannot be reduced in size to Diminutive or smaller when in swarm form.</Pair>
 </Ability>
-<Ability id="low-friends-ex" icon={["stairs-goal"]}>
+<Ability id="low-friends-ex" icon={["power"]}>
 <Pair single id="low-friends-ex">Low Friends (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A swarm monger gains <Link to="/feat/vermin_heart">Vermin Heart</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="shadowy-opportunist-ex" icon={["upgrade"]}>
+<Ability id="shadowy-opportunist-ex" icon={["boost"]}>
 <Pair single id="shadowy-opportunist-ex">Shadowy Opportunist (Ex)</Pair>
 <Pair hl title="Replaces">Nature sense</Pair>
 <Pair title="Passive Ability">A swarm monger gains a +2 bonus on Knowledge (local) and Stealth checks.</Pair>
 </Ability>
-<Ability id="child-of-pollution-su" icon={["armor-upgrade","upgrade"]}>
+<Ability id="child-of-pollution-su" icon={["def","boost"]}>
 <Pair single id="child-of-pollution-su">Child of Pollution (Su)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">A swarm monger gains a +4 bonus on saving throws against disease and poisons, and she can eat spoiled or rotting food and drink without ill effect.</Pair>
 <Pair title="Standard Action">A swarm monger can devour a handful of rotting food to gain a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to 1d8 + her druid level that last for 1 hour. She can use this ability a number of times a day equal to one-fourth of her druid level.</Pair>
 </Ability>
-<Ability id="swarm-shape-su" icon={["stairs-goal"]}>
+<Ability id="swarm-shape-su" icon={["power"]}>
 <Pair single id="swarm-shape-su">Swarm Shape (Su)</Pair>
 <Pair hl title="Replaces">The normal <em>wild shape</em> options gained at 12th level</Pair>
 <Pair title="Gained">At 12th Level</Pair>
@@ -1211,34 +1211,34 @@ const _swarm_monger = {title: "Swarm Monger", jsx: <><h2 id="arc-druid-swarm_mon
 </>};
 const _tempest_druid = {title: "Tempest Druid", jsx: <><h2 id="arc-druid-tempest_druid-tempest-druid">Tempest Druid</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 183</Link>, <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 41</Link><br/>Many of the druids who train under the aegis of the <Link to="/rule/storm_kindlers">Storm Kindlers</Link> focus on different areas of nature than those classically paid homage to by their kind. These so-called tempest druids see the personification of nature in the fury of the storm alone and to some extent eschew the veneration of plant or animal life, and the nature of their powers shifts accordingly. They still understand the place of plants and animals in the natural order, however; they simply view such entities - and indeed, all forms of life - as subservient to the true power found in the storms that lash the world.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-tempest_druid--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>The beliefs held by tempest druids are inherently more chaotic than those held by most druids, and as a result, tempest druids must be chaotic neutral.</td></tr></tbody></table></ScrollContainer></div><Ability id="armor-and-weapon-proficiencies" icon={["stairs-goal"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-tempest_druid--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>The beliefs held by tempest druids are inherently more chaotic than those held by most druids, and as a result, tempest druids must be chaotic neutral.</td></tr></tbody></table></ScrollContainer></div><Ability id="armor-and-weapon-proficiencies" icon={["power"]}>
 <Pair single id="armor-and-weapon-proficiencies">Armor and Weapon Proficiencies</Pair>
 <Pair hl title="Alters">Armor and weapon proficiencies</Pair>
 <Pair title="Ability">A tempest druid is proficient with the <Link to="/eq-weapon/trident">trident</Link>, in addition to the druid's normal armor and weapon proficiencies.</Pair>
 </Ability>
-<Ability id="spontaneous-domain-casting" icon={["magic-swirl"]}>
+<Ability id="spontaneous-domain-casting" icon={["magic"]}>
 <Pair single id="spontaneous-domain-casting">Spontaneous Domain Casting</Pair>
 <Pair hl title="Replaces">Spontaneous casting</Pair>
 <Pair title="Ability">A tempest druid can channel stored spell energy into domain spells that he has not prepared ahead of time. He can "lose" a prepared spell to cast any domain spell of the same level or lower.</Pair>
 </Ability>
-<Ability id="nature-bond-ex" icon={["broken-shield"]}>
+<Ability id="nature-bond-ex" icon={["down"]}>
 <Pair single id="nature-bond-ex" flavor="As a result of his beliefs, a tempest druid has little connection to the spirituality of animals or plants.">Nature Bond (Ex)</Pair>
 <Pair hl title="Alters">Nature bond</Pair>
 <Pair title="Choice">He can't choose an animal companion, and must instead select a domain or subdomain from the following list when he gains the <em>nature bond</em> ability: <Link to="/domain/air">Air</Link>, <Link to="/druiddomain/aquatic">Aquatic</Link>, <Link to="/domain/cloud">Cloud</Link>, <Link to="/domain/storms">Storms</Link>, <Link to="/druiddomain/swamp">Swamp</Link>, <Link to="/domain/weather">Weather</Link>, or <Link to="/domain/wind">Wind</Link>.</Pair>
 </Ability>
-<Ability id="sodden-shore-sense-ex" icon={["upgrade"]}>
+<Ability id="sodden-shore-sense-ex" icon={["boost"]}>
 <Pair single id="sodden-shore-sense-ex">Sodden Shore Sense (Ex)</Pair>
 <Pair hl title="Replaces">Nature sense</Pair>
 <Pair title="Passive Ability">A tempest druid gains a +4 bonus on Knowledge (nature) and Survival checks in coastal or marshy lands.</Pair>
 </Ability>
-<Ability id="electrical-resistance-ex" icon={["armor-upgrade"]}>
+<Ability id="electrical-resistance-ex" icon={["def"]}>
 <Pair single id="electrical-resistance-ex">Electrical Resistance (Ex)</Pair>
 <Pair hl title="Replaces">Trackless step</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A tempest druid gains electricity resistance 5.</Pair>
 <Pair title="Standard Action">He can transfer this resistance to another creature for 1 hour, after which time it reverts to him.</Pair>
 </Ability>
-<Ability id="eyes-of-the-storm-ex" icon={["stairs-goal"]}>
+<Ability id="eyes-of-the-storm-ex" icon={["power"]}>
 <Pair single id="eyes-of-the-storm-ex">Eyes of the Storm (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -1248,7 +1248,7 @@ const _tempest_druid = {title: "Tempest Druid", jsx: <><h2 id="arc-druid-tempest
 <Pair title="At 16th Level">His sight increases to 25 feet.</Pair>
 <Pair title="At 20th Level">His sight increases to 30 feet.</Pair>
 </Ability>
-<Ability id="bend-bolt-su" icon={["stairs-goal"]}>
+<Ability id="bend-bolt-su" icon={["power"]}>
 <Pair single id="bend-bolt-su" flavor="A tempest druid can redirect nearby electrical attacks.">Bend Bolt (Su)</Pair>
 <Pair hl title="Replaces">Venom immunity</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -1259,18 +1259,18 @@ const _tempest_druid = {title: "Tempest Druid", jsx: <><h2 id="arc-druid-tempest
 </>};
 const _tempest_tamer = {title: "Tempest Tamer", jsx: <><h2 id="arc-druid-tempest_tamer-tempest-tamer">Tempest Tamer</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 25</Link><br/>Druids draw upon the fiercest powers of nature, and tsunamis, typhoons, and whirlpools are among the most powerful forces in the ocean. Tempest tamers are at one with the water and gain the ability to soothe these dangerous phenomena. Tempest tamers can be found in many of Golarion's oceans, but all avoid the spectacular Eye of Abendego - they are all keenly aware of the supernatural origin of that massive hurricane, and they know they cannot quell its fury without first acquiring extraordinary power.</p>
-<Ability id="speech-of-the-sea" icon={["stairs-goal","broken-shield"]}>
+<Ability id="speech-of-the-sea" icon={["power","down"]}>
 <Pair single id="speech-of-the-sea">Speech of the Sea</Pair>
 <Pair hl title="Alters">Bonus languages</Pair>
 <Pair title="Info">A tempest tamer's bonus language options include Aquan and Auran, in addition to the bonus languages available to the character from her race. However, the tempest tamer does not gain Sylvan as a bonus language option.</Pair>
 </Ability>
-<Ability id="whirlpool-walker-ex" icon={["armor-upgrade"]}>
+<Ability id="whirlpool-walker-ex" icon={["def"]}>
 <Pair single id="whirlpool-walker-ex" flavor="A tempest tamer can resist winds and the unnatural powers of sea creatures.">Whirlpool Walker (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">The tempest tamer gains a +4 bonus on saving throws against spells with the air or water descriptor and the spell-like and supernatural abilities of creatures with the air, aquatic, or water subtype. This bonus also applies to saving throws to avoid damage from a vortex, whirlpool, or similar effects, as well as to saving throws to prevent being pulled into or moved by such effects.</Pair>
 </Ability>
-<Ability id="tempest-wild-shape-su" icon={["magic-swirl"]}>
+<Ability id="tempest-wild-shape-su" icon={["magic"]}>
 <Pair single id="tempest-wild-shape-su">Tempest Wild Shape (Su)</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -1285,7 +1285,7 @@ const _tempest_tamer = {title: "Tempest Tamer", jsx: <><h2 id="arc-druid-tempest
 </>};
 const _toxicologist = {title: "Toxicologist", jsx: <><h2 id="arc-druid-toxicologist-toxicologist">Toxicologist</h2>
 <p><strong>Sources</strong> <Link to="/source/magic_tactics_toolbox">Magic Tactics Toolbox pg. 23</Link><br/>Druids protect the natural environs of the world, and sometimes that requires forcibly expelling those who would pollute, despoil, or otherwise harm such areas. Single battles may not be enough to win the war, so some druids specialize in the stealthy application of insidious poisons to their targets. In the verdant depths of the Mwangi Expanse or the Valashmai Jungle of Tian Xia, many druids work to root out their enemies by means of powerful toxins, believing word of their foes' horrifying deaths will deter others from attempting similar desecrations of the natural world.</p>
-<Ability id="expanded-repertoire-ex" icon={["broken-shield","spell-book"]}>
+<Ability id="expanded-repertoire-ex" icon={["down","learn"]}>
 <Pair single id="expanded-repertoire-ex">Expanded Repertoire (Ex)</Pair>
 <Pair hl title="Replaces">Spontaneous casting</Pair>
 <Pair hl title="Alters">Spells</Pair>
@@ -1297,19 +1297,19 @@ const _toxicologist = {title: "Toxicologist", jsx: <><h2 id="arc-druid-toxicolog
 <Pair plain title="4th"><Link to="/spell/toxic_gift">Toxic gift</Link></Pair>
 <Pair plain title="5th"><Link to="/spell/cloudkill">Cloudkill</Link></Pair>
 </Ability>
-<Ability id="natural-poison-lore-ex" icon={["stairs-goal"]}>
+<Ability id="natural-poison-lore-ex" icon={["power"]}>
 <Pair single id="natural-poison-lore-ex" flavor="A toxicologist has a deep understanding of and appreciation for poisons.">Natural Poison Lore (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy, woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">She cannot accidentally poison herself when applying poison to a weapon and cannot accidentally poison an animal companion or summoned creature when applying poison to its claws (though poison obviously should not be applied to a creature's bite).</Pair>
 </Ability>
-<Ability id="expert-poisoner-su" icon={["upgrade"]}>
+<Ability id="expert-poisoner-su" icon={["boost"]}>
 <Pair single id="expert-poisoner-su">Expert Poisoner (Su)</Pair>
 <Pair hl title="Replaces">Trackless step, resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">A toxicologist increases the DCs of any spells she casts with the poison descriptor by 1.</Pair>
 </Ability>
-<Ability id="toxic-shaper-su" icon={["broken-shield"]}>
+<Ability id="toxic-shaper-su" icon={["down"]}>
 <Pair single id="toxic-shaper-su">Toxic Shaper (Su)</Pair>
 <Pair hl title="Alters">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -1320,21 +1320,21 @@ const _toxicologist = {title: "Toxicologist", jsx: <><h2 id="arc-druid-toxicolog
 </>};
 const _treesinger = {title: "Treesinger", jsx: <><h2 id="arc-druid-treesinger-treesinger">Treesinger</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 25</Link><br/>Elves live far longer than other common races, and a single elf may see whole empires rise and fall. Given the impermanence of the cultures around them, it's small wonder that some elves turn to the timeless growth of nature for solace, finding allies among the great trees themselves, and even leading the forest's plants into combat. A treesinger has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-treesinger--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/elf">Elf</Link> or <Link to="/race/vine_leshy">Vine Leshy</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="plant-bond-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-treesinger--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/elf">Elf</Link> or <Link to="/race/vine_leshy">Vine Leshy</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="plant-bond-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="plant-bond-ex">Plant Bond (Ex)</Pair>
 <Pair hl title="Replaces">Nature bond</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Choice">A treesinger forms a mystic bond with plant life. This bond can take one of two forms.</Pair>
 </Ability>
-<Ability id="domain" extraClasses="subAbility numbered" icon={["spell-book","magic-swirl"]}>
+<Ability id="domain" extraClasses="subAbility numbered" icon={["learn","magic"]}>
 <Pair single id="domain">Domain</Pair>
 <Pair title="Ability">This grants the treesinger one of the following domains: <Link to="/domain/plant">Plant</Link>, <Link to="/domain/growth">Growth</Link>, <Link to="/druiddomain/jungle">Jungle</Link>, <Link to="/druiddomain/swamp">Swamp</Link>. When determining the powers and bonus spells granted by this domain, the treesinger's effective cleric level is equal to her druid level. A treesinger who selects this option also receives additional domain spell slots, just like a cleric. She must prepare the spell from her domain in this slot, and this spell cannot be used to cast a spell spontaneously.</Pair>
 </Ability>
-<Ability id="plant-companion" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Ability id="plant-companion" extraClasses="subAbility numbered" icon={["power"]}>
 <Pair single id="plant-companion">Plant companion</Pair>
 <Pair title="Ability">A treesinger can form a close bond with a plant companion. A treesinger may begin play with any of the plants listed below in <InnerLink toTop to="arc-druid-treesinger-plant-companions">Plant Companions</InnerLink>. This plant is a loyal companion that accompanies the treesinger on her adventures. Except for the companion being a creature of the plant type, drawn from the list of plant companions, this ability otherwise works like the standard druid's animal companion ability.</Pair>
 </Ability>
-<Ability id="green-empathy-ex" icon={["stairs-goal"]}>
+<Ability id="green-empathy-ex" icon={["power"]}>
 <Pair single id="green-empathy-ex">Green Empathy (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -1343,7 +1343,7 @@ const _treesinger = {title: "Treesinger", jsx: <><h2 id="arc-druid-treesinger-tr
 <p>A treesinger can also use this ability to influence an animal, but she takes a -4 penalty on the check.</p>
 </Pair>
 </Ability>
-<Ability id="wild-shape-su" icon={["broken-shield","upgrade"]}>
+<Ability id="wild-shape-su" icon={["down","boost"]}>
 <Pair single id="wild-shape-su">Wild Shape (Su)</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -1380,13 +1380,13 @@ const _treesinger = {title: "Treesinger", jsx: <><h2 id="arc-druid-treesinger-tr
 const _troll_fury = {title: "Troll Fury", jsx: <><h2 id="arc-druid-troll_fury-troll-fury">Troll Fury</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 224</Link><br/>Troll furies combine a druid's love of natural balance with a single-minded devotion to the welfare of the <Link to="/family/troll">troll</Link> tribe. Trolls require a lot of prey to keep fed, and if their hunting grounds are upset by incursions of other monsters, civilized deforestation, or careless trolls who eat more than they need, a troll tribe can find itself without a sustainable food source.</p>
 <p>Troll furies take the long view on sustainability, protecting the trolls' territory from gluttonous trolls and outsiders alike, and even hunting down tribal enemies when necessary. Holding themselves aloof from the rest of troll society, troll furies command great respect and can rally a region's trolls quickly to deal with threats to their existence and the health of their environment.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-troll_fury--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/monster/troll">Troll</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="inspire-fervor-ex" icon={["armor-upgrade"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-troll_fury--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/monster/troll">Troll</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="inspire-fervor-ex" icon={["def"]}>
 <Pair single id="inspire-fervor-ex">Inspire Fervor (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Standard Action">Once per day, a troll fury can chant over another troll within 30 feet, bolstering it against fear and improving its combat abilities. This works like the <Link to="/performance/inspire_courage">inspire courage</Link> bard ability, but affects only one troll and lasts 1 minute. The troll fury uses her druid level as her bard level to determine the effects of this ability.</Pair>
 </Ability>
-<Ability id="chosen-prey-ex" icon={["upgrade"]}>
+<Ability id="chosen-prey-ex" icon={["boost"]}>
 <Pair single id="chosen-prey-ex">Chosen Prey (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -1394,7 +1394,7 @@ const _troll_fury = {title: "Troll Fury", jsx: <><h2 id="arc-druid-troll_fury-tr
 <Pair title="Ability">A troll fury can change her favored enemy type once per week by performing a ritual that takes 1 hour to perform.</Pair>
 <Pair title="Special">If a troll fury already has a favored enemy from another class, the levels from the classes that grant favored enemies stack with this one to determine the favored enemy bonuses, and in this case she can gain other favored enemy creature types.</Pair>
 </Ability>
-<Ability id="troll-furys-mark-su" icon={["upgrade"]}>
+<Ability id="troll-furys-mark-su" icon={["boost"]}>
 <Pair single id="troll-furys-mark-su">Troll Fury's Mark (Su)</Pair>
 <Pair hl title="Replaces">Venom immunity</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -1407,31 +1407,31 @@ const _undine_adept = {title: "Undine Adept", jsx: <><h2 id="arc-druid-undine_ad
 <Pair single id="domains">Domains</Pair>
 <Pair title="Choice">An undine adept who chooses a domain must choose the <Link to="/domain/community">Community</Link> or <Link to="/domain/water">Water</Link> domain, or any subdomain of those domains.</Pair>
 </Ability>
-<Ability id="amphibious-su" icon={["stairs-goal"]}>
+<Ability id="amphibious-su" icon={["power"]}>
 <Pair single id="amphibious-su">Amphibious (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">The undine adept gains the <Link to="/subtype/aquatic">aquatic</Link> subtype and the <Link to="/umr/amphibious">amphibious</Link> universal monster ability, allowing her to breathe water or air.</Pair>
 </Ability>
-<Ability id="augment-summoning-su" icon={["upgrade"]}>
+<Ability id="augment-summoning-su" icon={["boost"]}>
 <Pair single id="augment-summoning-su">Augment Summoning (Su)</Pair>
 <Pair hl title="Replaces">Trackless step</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">Any creature with the water subtype the undine adept summons with either <Link to="/spell/summon_monster">summon monster</Link> or <Link to="/spell/summon_natures_ally">summon nature's ally</Link> gains the benefits of the <Link to="/feat/augment_summoning">Augment Summoning</Link> feat.</Pair>
 </Ability>
-<Ability id="resist-waters-call-su" icon={["armor-upgrade"]}>
+<Ability id="resist-waters-call-su" icon={["def"]}>
 <Pair single id="resist-waters-call-su">Resist Water's Call (Su)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">An undine adept gains a +4 bonus on saving throws against the spell-like and supernatural abilities of outsiders with the aquatic or water subtype, fey with the aquatic or water subtype, and spells and effects with the water descriptor.</Pair>
 </Ability>
-<Ability id="wild-shape-su" icon={["stairs-goal","upgrade"]}>
+<Ability id="wild-shape-su" icon={["power","boost"]}>
 <Pair single id="wild-shape-su">Wild Shape (Su)</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">An undine adept gains the ability to use <em>wild shape.</em> When an undine takes the form of a creature with the aquatic or water subtype, this ability functions at her class level + 1. For all other forms, her effective druid level for the ability is equal to her actual undine adept level. This ability otherwise functions as <em>wild shape.</em></Pair>
 </Ability>
-<Ability id="commune-with-water-spirits" icon={["spell-book"]}>
+<Ability id="commune-with-water-spirits" icon={["learn"]}>
 <Pair single id="commune-with-water-spirits">Commune with Water Spirits</Pair>
 <Pair hl title="Replaces">Venom immunity</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -1440,38 +1440,38 @@ const _undine_adept = {title: "Undine Adept", jsx: <><h2 id="arc-druid-undine_ad
 </>};
 const _urban_druid = {title: "Urban Druid", jsx: <><h2 id="arc-druid-urban_druid-urban-druid">Urban Druid</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 101</Link><br/>While many druids keep to the wilderness, some make their way within settlements, communing with the animals and vermin who live there and speaking for the nature that runs rampant in civilization's very cradle.</p>
-<Ability id="spontaneous-casting" icon={["stairs-goal"]}>
+<Ability id="spontaneous-casting" icon={["power"]}>
 <Pair single id="spontaneous-casting">Spontaneous Casting</Pair>
 <Pair hl title="Replaces">Spontaneous casting</Pair>
 <Pair title="Ability">An urban druid can channel stored spell energy into domain spells that she has not prepared ahead of time. She can "lose" a prepared spell in order to cast any domain spell of the same level or lower.</Pair>
 </Ability>
-<Ability id="nature-bond-ex" icon={["broken-shield","upgrade"]}>
+<Ability id="nature-bond-ex" icon={["down","boost"]}>
 <Pair single id="nature-bond-ex">Nature Bond (Ex)</Pair>
 <Pair title="Choice">An urban druid may not select an animal companion. Instead, she must choose from the following domains, rather than those usually available to druids: <Link to="/domain/charm">Charm</Link>, <Link to="/domain/community">Community</Link>, <Link to="/domain/knowledge">Knowledge</Link>, <Link to="/domain/nobility">Nobility</Link>, <Link to="/domain/protection">Protection</Link>, <Link to="/domain/repose">Repose</Link>, <Link to="/domain/rune">Rune</Link>, or <Link to="/domain/weather">Weather</Link>.</Pair>
 </Ability>
-<Ability id="lorekeeper-ex" icon={["skills","upgrade"]}>
+<Ability id="lorekeeper-ex" icon={["skill","boost"]}>
 <Pair single id="lorekeeper-ex">Lorekeeper (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride, trackless step</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">An urban druid adds <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), and <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT) skills to her list of class skills. She also receives a +2 bonus on these skill checks.</Pair>
 </Ability>
-<Ability id="resist-temptation-ex" icon={["armor-upgrade"]}>
+<Ability id="resist-temptation-ex" icon={["def"]}>
 <Pair single id="resist-temptation-ex">Resist Temptation (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">An urban druid gains a +2 bonus on saves vs. divinations and enchantments.</Pair>
 </Ability>
-<Ability id="a-thousand-faces-su" icon={["upgrade"]}>
+<Ability id="a-thousand-faces-su" icon={["boost"]}>
 <Pair single id="a-thousand-faces-su">A Thousand Faces (Su)</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">An urban druid gains this ability now instead of at 13th level.</Pair>
 </Ability>
-<Ability id="wild-shape-su" icon={["broken-shield"]}>
+<Ability id="wild-shape-su" icon={["down"]}>
 <Pair single id="wild-shape-su">Wild Shape (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">An urban druid gains <em>wild shape,</em> except that her effective druid level for the ability is equal to her druid level - 4.</Pair>
 </Ability>
-<Ability id="mental-strength-ex" icon={["armor-upgrade"]}>
+<Ability id="mental-strength-ex" icon={["def"]}>
 <Pair single id="mental-strength-ex">Mental Strength (Ex)</Pair>
 <Pair hl title="Replaces">Venom immunity</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -1480,7 +1480,7 @@ const _urban_druid = {title: "Urban Druid", jsx: <><h2 id="arc-druid-urban_druid
 </>};
 const _urushiol = {title: "Urushiol", jsx: <><h2 id="arc-druid-urushiol-urushiol">Urushiol</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 27</Link><br/>When an urushiol druid forms a bond with nature, it takes a vastly different form than for most druids. His body becomes increasingly toxic, allowing him to secrete a deadly poison through his pores.</p>
-<Ability id="toxic-secretions-su" icon={["stairs-goal"]}>
+<Ability id="toxic-secretions-su" icon={["power"]}>
 <Pair single id="toxic-secretions-su">Toxic Secretions (Su)</Pair>
 <Pair hl title="Replaces">Nature bond, resist nature's lure</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -1501,7 +1501,7 @@ const _urushiol = {title: "Urushiol", jsx: <><h2 id="arc-druid-urushiol-urushiol
 <Pair title="At 19th Level">The urushiol can produce 10 doses of poison per day.</Pair>
 <Pair title="Special">The urushiol's daily doses are replenished when he regains his spells, but any of his weapons that are still poisoned with urushiol venom count against his daily limit.</Pair>
 </Ability>
-<Ability id="venom-immunity-ex" icon={["upgrade"]}>
+<Ability id="venom-immunity-ex" icon={["boost"]}>
 <Pair single id="venom-immunity-ex">Venom Immunity (Ex)</Pair>
 <Pair hl title="Alters">Venom immunity</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -1510,25 +1510,25 @@ const _urushiol = {title: "Urushiol", jsx: <><h2 id="arc-druid-urushiol-urushiol
 </>};
 const _wild_whisperer = {title: "Wild Whisperer", jsx: <><h2 id="arc-druid-wild_whisperer-wild-whisperer">Wild Whisperer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 92</Link><br/>A wild whisperer is an expert at studying, predicting, and explaining animal behavior. She is less interested in plants, fey, and other aspects of the natural world, and uses her gifts to tame or relocate dangerous beasts and soothe the hurts of wounded and sickly creatures.</p>
-<Ability id="inspiration-ex" icon={["stairs-goal"]}>
+<Ability id="inspiration-ex" icon={["power"]}>
 <Pair single id="inspiration-ex">Inspiration (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride, trackless step, resist nature's lure</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A wild whisperer gains an inspiration pool as the <Link to="/class/investigator">investigator</Link> class ability. A wild whisperer uses her druid level as her investigator level when determining the effects of this ability. Instead of free uses of inspiration on Knowledge, Linguistics, or Spellcraft skill checks, the wild whisperer can use inspiration on Handle Animal, Heal, Knowledge (geography), Knowledge (nature), Ride, Sense Motive, and Survival skill checks without expending a use of inspiration, provided she's trained in the relevant skill. She can also use inspiration on any <em>wild empathy</em> check without expending a use of inspiration. A wild whisperer's inspiration pool refreshes each day when she prepares spells.</Pair>
 </Ability>
-<Ability id="wild-shape-ex" icon={["broken-shield"]}>
+<Ability id="wild-shape-ex" icon={["down"]}>
 <Pair single id="wild-shape-ex">Wild Shape (Ex)</Pair>
 <Pair hl title="Alters">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A wild whisperer gains the <em>wild shape</em> ability, but she never gains access to any forms beyond Small and Medium animal forms, as <Link to="/spell/beast_shape_i">beast shape I</Link>.</Pair>
 </Ability>
-<Ability id="natural-expertise-ex" icon={["upgrade"]}>
+<Ability id="natural-expertise-ex" icon={["boost"]}>
 <Pair single id="natural-expertise-ex">Natural Expertise (Ex)</Pair>
 <Pair hl title="Replaces">The additional use of <em>wild shape</em> at 6th level</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Passive Ability">A wild whisperer's powers of observation give her an advantage when she's fighting natural creatures. When using inspiration on an attack roll against an animal or a vermin or on a saving throw against an effect from an animal or a vermin, a wild whisperer has to expend only one use of inspiration instead of two.</Pair>
 </Ability>
-<Ability id="investigator-talent" icon={["stairs-goal"]}>
+<Ability id="investigator-talent" icon={["power"]}>
 <Pair single id="investigator-talent">Investigator Talent</Pair>
 <Pair hl title="Replaces">The additional use of <em>wild shape</em> at 8th level</Pair>
 <Pair title="Gained">At 8th Level</Pair>
@@ -1543,12 +1543,12 @@ const _wolf_shaman = {title: "Wolf Shaman", jsx: <><h2 id="arc-druid-wolf_shaman
 <Pair hl title="Alters">Nature bond</Pair>
 <Pair title="Choice">A wolf shaman who chooses an animal companion must select a <Link to="/companion/wolf">wolf</Link>. If choosing a domain, the wolf shaman must choose from the <Link to="/domain/animal">Animal</Link>, <Link to="/domain/community">Community</Link>, <Link to="/domain/liberation">Liberation</Link>, and <Link to="/domain/travel">Travel</Link> domains.</Pair>
 </Ability>
-<Ability id="wild-empathy-ex" icon={["upgrade"]}>
+<Ability id="wild-empathy-ex" icon={["boost"]}>
 <Pair single id="wild-empathy-ex">Wild Empathy (Ex)</Pair>
 <Pair hl title="Alters">Wild empathy</Pair>
 <Pair title="Ability">A wolf shaman can use <em>wild empathy</em> with canines as a <strong className="hl">full-round action</strong> with a +4 bonus.</Pair>
 </Ability>
-<Ability id="totem-transformation-su" icon={["upgrade","magic-swirl"]}>
+<Ability id="totem-transformation-su" icon={["boost","magic"]}>
 <Pair single id="totem-transformation-su">Totem Transformation (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -1565,18 +1565,18 @@ const _wolf_shaman = {title: "Wolf Shaman", jsx: <><h2 id="arc-druid-wolf_shaman
 <Pair title="At 12th Level">This becomes a <strong className="hl">swift action</strong>.</Pair>
 <Pair title="Special">This is a polymorph effect and cannot be used while the druid is using another polymorph effect, such as <em>wild shape.</em></Pair>
 </Ability>
-<Ability id="totemic-summons-su" icon={["upgrade","magic-swirl"]}>
+<Ability id="totemic-summons-su" icon={["boost","magic"]}>
 <Pair single id="totemic-summons-su">Totemic Summons (Su)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Standard Action">A wolf shaman may cast <Link to="/spell/summon_natures_ally">summon nature's ally</Link> to summon canines, and these summoned creatures gain <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to her druid level. She can apply the <Link to="/template/young">young</Link> template to any canine to reduce the level of the summoning spell required by one. She can also increase the level of summoning required by one in order to apply either the <Link to="/template/advanced">advanced</Link> or the <Link to="/template/giant">giant</Link> template, or increase it by two to apply both the advanced and giant templates.</Pair>
 </Ability>
-<Ability id="wild-shape-su" icon={["broken-shield","upgrade"]}>
+<Ability id="wild-shape-su" icon={["down","boost"]}>
 <Pair single id="wild-shape-su">Wild Shape (Su)</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Passive Ability">A wolf shaman gains <em>wild shape,</em> but the ability functions at her druid level - 2. If she takes on the form of a canine, she instead uses her druid level + 2.</Pair>
 </Ability>
-<Ability id="bonus-feat" icon={["stairs-goal"]}>
+<Ability id="bonus-feat" icon={["power"]}>
 <Pair single id="bonus-feat">Bonus Feat</Pair>
 <Pair hl title="Replaces">Venom immunity</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -1588,13 +1588,13 @@ const _wolf_shaman = {title: "Wolf Shaman", jsx: <><h2 id="arc-druid-wolf_shaman
 </>};
 const _world_walker = {title: "World Walker", jsx: <><h2 id="arc-druid-world_walker-world-walker">World Walker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 43</Link><br/>While all druids traverse the wilderness with ease, the world walkers take it upon themselves to travel the entire world. Some act as messengers and scouts for druidic circles, while others have a seemingly unquenchable wanderlust; each new land provides new mysteries to discover and new wisdom to be gained from mastering those mysteries.</p>
-<Ability id="favored-terrain-ex" icon={["stairs-goal"]}>
+<Ability id="favored-terrain-ex" icon={["power"]}>
 <Pair single id="favored-terrain-ex">Favored Terrain (Ex)</Pair>
 <Pair hl title="Replaces">Trackless step, resist nature's lure</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">The world walker gains the ranger's <Link to="/ability/favored_terrain">favored terrain</Link> ability. She treats her druid level as her ranger level for this ability. If she has levels in both classes, both class's levels stack for determining the effect of this ability.</Pair>
 </Ability>
-<Ability id="path-of-trees-su" icon={["magic-swirl"]}>
+<Ability id="path-of-trees-su" icon={["magic"]}>
 <Pair single id="path-of-trees-su">Path of Trees (Su)</Pair>
 <Pair hl title="Replaces">Venom immunity, timeless body</Pair>
 <Pair title="Gained">At 9th Level</Pair>

@@ -16,7 +16,7 @@ const _order_of_the_chain = {title: "Order of the Chain", jsx: <><h2 id="hkorder
 <Row><Cell>Members</Cell><Cell>Guards, sleuths, trackers, victims of outlaws</Cell></Row>
 <Row><Cell>Armor Features</Cell><Cell>Lock-and-chain design, manacle-like gauntlets, helms reminiscent of iron prisoners' masks</Cell></Row>
 <Row><Cell>Favored Weapon</Cell><Cell><Link to="/eq-weapon/flail">Flail</Link></Cell></Row></Block>
-<Ability id="reckoning" icon={["upgrade"]}>
+<Ability id="reckoning" icon={["boost"]}>
 <Pair single id="reckoning">Reckoning</Pair>
 <Pair title="Reckoning" hl>Crush your limbs with tightened chains.</Pair>
 <Pair title="Benefit">Gain a +2 bonus on combat maneuver checks when attempting to <Link to="/rule/disarm">disarm</Link>, <Link to="/rule/grapple">grapple</Link>, or <Link to="/rule/trip">trip</Link> opponents.</Pair>
@@ -32,17 +32,17 @@ const _order_of_the_chain = {title: "Order of the Chain", jsx: <><h2 id="hkorder
 <li>I will warden first and judge second. I will uphold the law, no matter the cost.</li>
 </ul>
 <h3 id="hkorder-order_of_the_chain-hellknight-obedience-boons"><Link to="/feat/hellknight_obedience">Hellknight Obedience</Link> Boons</h3>
-<Ability id="1-taken-alive-ex" icon={["upgrade"]}>
+<Ability id="1-taken-alive-ex" icon={["boost"]}>
 <Pair single id="1-taken-alive-ex" flavor="You are an expert in hunting your quarry and capturing it alive.">1: Taken Alive (Ex)</Pair>
 <Pair title="Passive Ability">You take no penalty on attack rolls for using a flail to deal nonlethal damage.</Pair>
 <Pair title="Ability">Additionally, while performing your reckoning, you can focus on understanding one specific individual. For the next 24 hours, you gain a +4 bonus on <Link to="/skill/perception">Perception</Link>, <Link to="/skill/sense_motive">Sense Motive</Link>, and <Link to="/skill/survival">Survival</Link> checks that relate to noticing, seeing through the disguises of, interrogating others about the location of, or tracking that individual, or any activity directly related to doing so.</Pair>
 </Ability>
-<Ability id="2-pierce-disguise-sp" icon={["stairs-goal"]}>
+<Ability id="2-pierce-disguise-sp" icon={["power"]}>
 <Pair single id="2-pierce-disguise-sp" flavor="You are suspicious of everyone, and your wariness grants you senses others do not have.">2: Pierce Disguise (Sp)</Pair>
 <Pair title="Usage">1 minute/day per two character levels; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
 <Pair title="Ability">You can use <Link to="/spell/true_seeing">true seeing</Link> as a spell-like ability.</Pair>
 </Ability>
-<Ability id="3-true-identities-su" icon={["armor-upgrade"]}>
+<Ability id="3-true-identities-su" icon={["def"]}>
 <Pair single id="3-true-identities-su" flavor="You are not easily fooled by those who would hide their true natures.">3: True Identities (Su)</Pair>
 <Pair title="Passive Ability">You gain a +4 bonus on Will saving throws to disbelieve illusions.</Pair>
 <Pair title="Free Action">Three times per day, when you successfully disbelieve an illusion that has a duration of longer than instantaneous (normally or using <em>true seeing</em>), you can attempt to dispel the illusion. Treat this as a targeted dispel, as per the spell <Link to="/spell/dispel_magic">dispel magic</Link>, but targeting only illusions and with your caster level equal to your character level.</Pair>
@@ -57,7 +57,7 @@ const _order_of_the_gate = {title: "Order of the Gate", jsx: <><h2 id="hkorder-o
 <Row><Cell>Members</Cell><Cell>Devil worshipers, intellectuals, planar-blooded outcasts, spellcasters</Cell></Row>
 <Row><Cell>Armor Features</Cell><Cell>Helm with a vortex-like pattern, crimson robes</Cell></Row>
 <Row><Cell>Favored Weapon</Cell><Cell><Link to="/eq-weapon/dagger">Dagger</Link></Cell></Row></Block>
-<Ability id="reckoning" icon={["armor-upgrade"]}>
+<Ability id="reckoning" icon={["def"]}>
 <Pair single id="reckoning">Reckoning</Pair>
 <Pair title="Reckoning" hl>Etch complex symbols of penitence into your flesh with a dagger.</Pair>
 <Pair title="Benefit">Gain a +4 bonus on Will saving throws to resist divination spells and spell-like abilities.</Pair>
@@ -73,16 +73,16 @@ const _order_of_the_gate = {title: "Order of the Gate", jsx: <><h2 id="hkorder-o
 <li>My face must be forged of iron. It must never crack, regardless of the circumstance.</li>
 </ul>
 <h3 id="hkorder-order_of_the_gate-hellknight-obedience-boons"><Link to="/feat/hellknight_obedience">Hellknight Obedience</Link> Boons</h3>
-<Ability id="1-focus-of-mind-su" icon={["stairs-goal"]}>
+<Ability id="1-focus-of-mind-su" icon={["power"]}>
 <Pair single id="1-focus-of-mind-su">1: Focus of Mind (Su)</Pair>
 <Pair title="Ability">You gain one gaze ability from the list detailed as part of the <em>assiduous gaze</em> class feature of the <Link to="/pclass/hellknight_signifer">Hellknight signifer</Link> prestige class. You can choose only a gaze that a Hellknight signifer could choose at 4th level. If you already have the <em>assiduous gaze</em> ability, you can select one additional gaze.</Pair>
 <Pair title="Special">Additionally, if you do not already have one, you receive the mask described in the prestige class's <em>signifer mask</em> class feature, as well as the benefits of the Hellknight signifer prestige class's <em>signifer mask</em> supernatural ability; you must be wearing a <Link to="/eq-misc/signifer_mask">signifer mask</Link> to use this ability.</Pair>
 </Ability>
-<Ability id="2-armored-spellcasting-ex" icon={["upgrade"]}>
+<Ability id="2-armored-spellcasting-ex" icon={["boost"]}>
 <Pair single id="2-armored-spellcasting-ex" flavor="You have mastered the delicate and yet taxing art of casting spells in your Hellknight armor.">2: Armored Spellcasting (Ex)</Pair>
 <Pair title="Passive Ability">You can ignore the spell failure chance of any armor with "Hellknight" in the name.</Pair>
 </Ability>
-<Ability id="3-unfathomable-gaze-sp" icon={["magic-swirl"]}>
+<Ability id="3-unfathomable-gaze-sp" icon={["magic"]}>
 <Pair single id="3-unfathomable-gaze-sp" flavor="You are able to focus your staunch Hellknight training into a spell-like ritual that allows you to glean information that could be vital to your mission of enforcing the law.">3: Unfathomable Gaze (Sp)</Pair>
 <Pair title="Ability">Once per day, while wearing a signifer mask, you can use <Link to="/spell/vision">vision</Link> as a spell-like ability, treating your total character level as your caster level. Unlike casting the spell normally, you are not fatigued after this ability is complete, as your training allows you to shake off what might tire lesser individuals.</Pair>
 </Ability>
@@ -96,7 +96,7 @@ const _order_of_the_godclaw = {title: "Order of the Godclaw", jsx: <><h2 id="hko
 <Row><Cell>Members</Cell><Cell>Crusaders, religious zealots</Cell></Row>
 <Row><Cell>Armor Features</Cell><Cell>Breastplate with claw-like vambraces, claw-like helm</Cell></Row>
 <Row><Cell>Favored Weapon</Cell><Cell><Link to="/eq-weapon/morningstar">Morningstar</Link></Cell></Row></Block>
-<Ability id="reckoning" icon={["remedy"]}>
+<Ability id="reckoning" icon={["aid"]}>
 <Pair single id="reckoning">Reckoning</Pair>
 <Pair title="Reckoning" hl>Flagellate yourself with a five-tailed lash.</Pair>
 <Pair title="Benefit">Whenever you are the target of a lawful divine caster's spell that heals hit point damage, you heal 1 additional point per die rolled.</Pair>
@@ -113,17 +113,17 @@ const _order_of_the_godclaw = {title: "Order of the Godclaw", jsx: <><h2 id="hko
 <li>I will commit what I don't know or can't understand to the judgment of the five.</li>
 </ul>
 <h3 id="hkorder-order_of_the_godclaw-hellknight-obedience-boons"><Link to="/feat/hellknight_obedience">Hellknight Obedience</Link> Boons</h3>
-<Ability id="1-pentamic-zeal-sp" icon={["magic-swirl"]}>
+<Ability id="1-pentamic-zeal-sp" icon={["magic"]}>
 <Pair single id="1-pentamic-zeal-sp">1: Pentamic Zeal (Sp)</Pair>
 <Pair title="Ability">You can cast <Link to="/spell/bane">bane</Link>, <Link to="/spell/bless">bless</Link>, <Link to="/spell/tireless_pursuit">tireless pursuit</Link>, or <Link to="/spell/wrath">wrath</Link> as a spell-like ability three times per day, with your effective caster level equal to your character level.</Pair>
 </Ability>
-<Ability id="2-tireless-judgment-su" icon={["upgrade"]}>
+<Ability id="2-tireless-judgment-su" icon={["boost"]}>
 <Pair single id="2-tireless-judgment-su">2: Tireless Judgment (Su)</Pair>
 <Pair title="Swift Action">Three times per day, you can gain a +3 sacred bonus on attack rolls, and a +6 sacred bonus to confirm critical hits. Otherwise, this functions as the <Link to="/class/inquisitor">inquisitor's</Link> <em>justice</em> judgment.</Pair>
 <Pair title="At 20th Level">You can use this ability four times per day, and the bonuses increase to +4 and +8.</Pair>
 <Pair title="Special">If you already have access to <Link to="/ability/judgments">judgments</Link>, you can use the <em>justice</em> judgment three times per day (four times at 20th level) without it counting toward your daily uses, or you can add the <em>justice</em> judgment's effects to another judgment without it counting as a second or third judgment.</Pair>
 </Ability>
-<Ability id="3-blessing-of-the-five-su" icon={["remedy"]}>
+<Ability id="3-blessing-of-the-five-su" icon={["aid"]}>
 <Pair single id="3-blessing-of-the-five-su">3: Blessing of the Five (Su)</Pair>
 <Pair title="Standard Action">Once per day, you can brandish a holy symbol to heal all living creatures in a 30-foot-radius <Link to="/misc/burst">burst</Link> centered on you. Creatures in the area heal 10d6 points of damage. You can choose up to three creatures in the area that are not healed. Additionally, if a creature in the area has died within 1 round and this brings its hit point total to a negative amount less than its Constitution score, the creature returns to life and <Link to="/misc/stabilize">stabilizes</Link>.</Pair>
 <Pair title="Special">This ability can only revive one creature per use, and a revived creature gains a temporary <Link to="/rule/negative_level">negative level</Link> that lasts for 1 day. This ability cannot be modified using any feats or other abilities that affect channeled energy.</Pair>
@@ -138,7 +138,7 @@ const _order_of_the_nail = {title: "Order of the Nail", jsx: <><h2 id="hkorder-o
 <Row><Cell>Members</Cell><Cell>Frontiersmen, settlers, victims of barbarian and monster attacks</Cell></Row>
 <Row><Cell>Armor Features</Cell><Cell>Breastplate emblazoned with a fiendish face, horned helm</Cell></Row>
 <Row><Cell>Favored Weapon</Cell><Cell><Link to="/eq-weapon/lance">Lance</Link> or <Link to="/eq-weapon/halberd">halberd</Link></Cell></Row></Block>
-<Ability id="reckoning" icon={["armor-upgrade"]}>
+<Ability id="reckoning" icon={["def"]}>
 <Pair single id="reckoning">Reckoning</Pair>
 <Pair title="Reckoning" hl>Pierce your flesh with sharp metal.</Pair>
 <Pair title="Benefit">Gain a +4 bonus on <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> checks. Additionally, if you are trained in Knowledge (geography), you automatically succeed at attempts to use that skill to identify a creature's ethnicity or accent, as long as you are familiar with that ethnicity or accent.</Pair>
@@ -154,16 +154,16 @@ const _order_of_the_nail = {title: "Order of the Nail", jsx: <><h2 id="hkorder-o
 <li>I will be the face that monsters dread: fierce, sharp, and unflinching.</li>
 </ul>
 <h3 id="hkorder-order_of_the_nail-hellknight-obedience-boons"><Link to="/feat/hellknight_obedience">Hellknight Obedience</Link> Boons</h3>
-<Ability id="1-domination-ex" icon={["upgrade"]}>
+<Ability id="1-domination-ex" icon={["boost"]}>
 <Pair single id="1-domination-ex">1: Domination (Ex)</Pair>
 <Pair title="Ability">Select a creature type from the ranger <Link to="/ability/favored_enemies">favored enemies</Link> table. You treat that creature type as your favored enemy, as per the ranger ability. If you choose humanoid (human), you can select one of the following ethnicities Kellid, Mwangi, Shoanti, or Ulfen (or another clannish or tribal ethnicity, at the GM's discretion). If you choose an ethnicity, the bonuses on skill checks, weapon attack, and weapon damage rolls increase to +4, but you do not gain any bonuses against other humans. These bonuses stack with any favored enemy bonuses gained from other classes.</Pair>
 </Ability>
-<Ability id="2-identification-su" icon={["stairs-goal","magic-swirl"]}>
+<Ability id="2-identification-su" icon={["power","magic"]}>
 <Pair single id="2-identification-su">2: Identification (Su)</Pair>
 <Pair title="Swift Action">Three times per day, you can choose a living creature within sight and know its creature type, ethnicity (if any), and alignment. Additionally, for a number of hours equal to your character level, that creature is treated as though you had cast the spell <Link to="/spell/status">status</Link> upon it.</Pair>
 <Pair title="Special">Though unaware of your probing, the target can attempt a Will saving throw to negate this ability (DC = 10 + 1/2 your Hit Dice + your Charisma modifier). Spells such as <Link to="/spell/undetectable_alignment">undetectable alignment</Link> may prevent a portion of this information from being gleaned, while spells such as <Link to="/spell/nondetection">nondetection</Link> stymie this effect entirely. This is a divination effect.</Pair>
 </Ability>
-<Ability id="3-end-superstition-sp" icon={["magic-swirl"]}>
+<Ability id="3-end-superstition-sp" icon={["magic"]}>
 <Pair single id="3-end-superstition-sp">3: End Superstition (Sp)</Pair>
 <Pair title="Ability">Once per day, you can cast <Link to="/spell/mages_disjunction">mage's disjunction</Link>, using your character level as your caster level.</Pair>
 </Ability>
@@ -177,7 +177,7 @@ const _order_of_the_pyre = {title: "Order of the Pyre", jsx: <><h2 id="hkorder-o
 <Row><Cell>Members</Cell><Cell>Atheists, former cultists, members of mainstream religions, victims of dangerous radicals</Cell></Row>
 <Row><Cell>Armor Features</Cell><Cell>Bladed armor, horned and skull-like helm</Cell></Row>
 <Row><Cell>Favored Weapon</Cell><Cell><Link to="/eq-weapon/glaive">Glaive</Link></Cell></Row></Block>
-<Ability id="reckoning" icon={["armor-upgrade"]}>
+<Ability id="reckoning" icon={["def"]}>
 <Pair single id="reckoning">Reckoning</Pair>
 <Pair title="Reckoning" hl>Burn yourself over an open flame.</Pair>
 <Pair title="Immediate Action">Once per day, you can gain fire <Link to="/umr/resistance">resistance</Link> 10 for 10 minutes. This does not stack with <em>resist energy</em> or any other abilities that provide fire resistance and overlaps with protection from energy.</Pair>
@@ -194,16 +194,16 @@ const _order_of_the_pyre = {title: "Order of the Pyre", jsx: <><h2 id="hkorder-o
 <li>I will focus my iron scrutiny on any faith I find appealing. Whatever I worship must be worthy of me.</li>
 </ul>
 <h3 id="hkorder-order_of_the_pyre-hellknight-obedience-boons"><Link to="/feat/hellknight_obedience">Hellknight Obedience</Link> Boons</h3>
-<Ability id="1-favored-cult-ex" icon={["upgrade"]}>
+<Ability id="1-favored-cult-ex" icon={["boost"]}>
 <Pair single id="1-favored-cult-ex" flavor="You can hone your skills to become a bane to those who worship a divinity you hate.">1: Favored Cult (Ex)</Pair>
 <Pair title="Choice">Each day while performing your obedience, choose a <Link to="/main/faiths">divine power</Link> that grants four or fewer domains.</Pair>
 <Pair title="Passive Ability">You gain +2 bonus on <Link to="/skill/intimidate">Intimidate</Link>, <Link to="/skill/knowledge">Knowledge</Link>, <Link to="/skill/sense_motive">Sense Motive</Link>, and <Link to="/skill/survival">Survival</Link> checks against those who worship that power. Additionally, you get a +1 bonus on weapon attack rolls and weapon damage rolls against the worshipers of that deity.</Pair>
 </Ability>
-<Ability id="2-immolation-sp" icon={["magic-swirl"]}>
+<Ability id="2-immolation-sp" icon={["magic"]}>
 <Pair single id="2-immolation-sp" flavor="You can channel your wrath into power that can scorch your foes.">2: Immolation (Sp)</Pair>
 <Pair title="Ability">Once per day, you can cast <Link to="/spell/delayed_blast_fireball">delayed blast fireball</Link> using your character level as your caster level.</Pair>
 </Ability>
-<Ability id="3-quell-zealotry-su" icon={["armor-downgrade"]}>
+<Ability id="3-quell-zealotry-su" icon={["lower"]}>
 <Pair single id="3-quell-zealotry-su" flavor="You can tear the divine power from the grasp of those who would use it to stand against you.">3: Quell Zealotry (Su)</Pair>
 <Pair title="Standard Action"><p>Once per day, you can target a divine spellcaster within 100 feet. If your target fails a Will saving throw (DC = 10 + 1/2 your Hit Dice + your Charisma bonus), it loses access to any spellcasting and all the supernatural and spell-like abilities it gains from any of its divine spellcasting classes for a number of rounds equal to <Link to="/misc/half">half</Link> your character level.</p>
 <p>When a creature under the effects of this ability tries to use an ability to which it no longer has access, instead of its god's favor, it feels only a profound, black emptiness, as if its deity no longer existed.</p>
@@ -219,7 +219,7 @@ const _order_of_the_rack = {title: "Order of the Rack", jsx: <><h2 id="hkorder-o
 <Row><Cell>Members</Cell><Cell>Denigrators of art and poetry, patriots, technology-haters, traditionalists</Cell></Row>
 <Row><Cell>Armor Features</Cell><Cell>Muscular design, sleek helm, flayed cloak</Cell></Row>
 <Row><Cell>Favored Weapon</Cell><Cell><Link to="/eq-weapon/longsword">Longsword</Link> or <Link to="/eq-weapon/whip">whip</Link></Cell></Row></Block>
-<Ability id="reckoning" icon={["armor-upgrade"]}>
+<Ability id="reckoning" icon={["def"]}>
 <Pair single id="reckoning">Reckoning</Pair>
 <Pair title="Reckoning" hl>Endure internal burns.</Pair>
 <Pair title="Benefit">Gain a +4 bonus on Fortitude saving throws to resist poison. This increases to +6 against ingested poisons.</Pair>
@@ -236,19 +236,19 @@ const _order_of_the_rack = {title: "Order of the Rack", jsx: <><h2 id="hkorder-o
 <li>I will not allow the shedding of tears to rust the wheels of progress.</li>
 </ul>
 <h3 id="hkorder-order_of_the_rack-hellknight-obedience-boons"><Link to="/feat/hellknight_obedience">Hellknight Obedience</Link> Boons</h3>
-<Ability id="1-mute-su" icon={["armor-downgrade"]}>
+<Ability id="1-mute-su" icon={["lower"]}>
 <Pair single id="1-mute-su">1: Mute (Su)</Pair>
 <Pair title="Standard Action">Three times per day, you can target a single creature within 100 feet. If the creature fails a Will saving throw (DC = 10 + 1/2 your Hit Dice + your Charisma modifier), the creature cannot make any sounds for a number of rounds equal to your character level. This prevents the target from speaking, otherwise making noise, casting spells with verbal components, and using similar abilities with auditory effects.</Pair>
 <Pair title="Special">Each round on its turn, the target can attempt a new saving throw to end the effect. This effect is <Link to="/misc/dismissible">dismissible</Link>. It does not make the target immune to sonic or language-based attacks, spells, or effects.</Pair>
 </Ability>
-<Ability id="2-dismantle-su" icon={["magic-swirl"]}>
+<Ability id="2-dismantle-su" icon={["magic"]}>
 <Pair single id="2-dismantle-su">2: Dismantle (Su)</Pair>
 <Pair title="Standard Action"><p>Once per day, you can cause a cloud of thick, brown fog to arise from a chosen point within 200 feet. This cloud functions as per <Link to="/spell/fog_cloud">fog cloud</Link>, using your character level as your caster level, except the fog <Link to="/misc/spread">spreads</Link> in a 10-foot radius, and every creature or object within is affected as per <Link to="/spell/rusting_grasp">rusting grasp</Link>, without any touch attacks required.</p>
 <p>Attended metal objects, including weapons and armor, receive a Fortitude saving throw to negate this effect using their wielder's Fortitude saving throw bonus (DC = 10 + 1/2 your Hit Dice + your Charisma modifier). Creatures within the cloud are affected by the rusting effect only once, not every round, but creatures that move back into the area are exposed again.</p>
 </Pair>
 <Pair title="Special">You and your possessions can enter the cloud and not be affected. This effect is dismissible.</Pair>
 </Ability>
-<Ability id="3-ruin-sp" icon={["magic-swirl"]}>
+<Ability id="3-ruin-sp" icon={["magic"]}>
 <Pair single id="3-ruin-sp">3: Ruin (Sp)</Pair>
 <Pair title="Standard Action">Once per day, you can use <Link to="/spell/greater_shout">greater shout</Link> as a spell-like ability (DC = 18 + your Charisma modifier).</Pair>
 </Ability>
@@ -262,7 +262,7 @@ const _order_of_the_scourge = {title: "Order of the Scourge", jsx: <><h2 id="hko
 <Row><Cell>Members</Cell><Cell>Constables, informants, the poor, victims of organized crime</Cell></Row>
 <Row><Cell>Armor Features</Cell><Cell>Serrated breastplate, horned helm</Cell></Row>
 <Row><Cell>Favored Weapon</Cell><Cell><Link to="/eq-weapon/heavy_mace">Heavy mace</Link>, scourge<sup><InnerLink showBacklink="backlink-hkorder-order_of_the_scourge-fake-fn-1" id="hkorder-order_of_the_scourge-fake-fn-1" data-hash-target to="hkorder-order_of_the_scourge-fake-fn-1-target">1</InnerLink></sup>, or <Link to="/eq-weapon/whip">whip</Link></Cell></Row></Block>
-<Ability id="reckoning" icon={["armor-upgrade"]}>
+<Ability id="reckoning" icon={["def"]}>
 <Pair single id="reckoning">Reckoning</Pair>
 <Pair title="Reckoning" hl>Lash yourself with a scourge or whip.</Pair>
 <Pair title="Benefit">Take 1 fewer point of bleed damage per round when you are affected by an ability or effect that causes <Link to="/rule/bleed">bleed</Link> damage and gain a +4 bonus on <Link to="/skill/heal">Heal</Link> checks to stop bleeding.</Pair>
@@ -279,16 +279,16 @@ const _order_of_the_scourge = {title: "Order of the Scourge", jsx: <><h2 id="hko
 <li>In my armor or without it, I am first and always a Hellknight.</li>
 </ul>
 <h3 id="hkorder-order_of_the_scourge-hellknight-obedience-boons"><Link to="/feat/hellknight_obedience">Hellknight Obedience</Link> Boons</h3>
-<Ability id="1-spill-guilty-blood-sp" icon={["magic-swirl","upgrade"]}>
+<Ability id="1-spill-guilty-blood-sp" icon={["magic","boost"]}>
 <Pair single id="1-spill-guilty-blood-sp" flavor="The end of a lawbreaker invigorates you like nothing else.">1: Spill Guilty Blood (Sp)</Pair>
 <Pair title="Ability">Twice per day, you can cast <Link to="/spell/death_knell">death knell</Link> as a spell-like ability, using your character level as your caster level (DC = 12 + your Charisma modifier).</Pair>
 <Pair title="Special">If you do not have a caster level, instead of a +1 increase in effective caster level, this ability provides you a +1 bonus on attack and damage rolls for 10 minutes per Hit Die of the target. If you have a caster level, you can choose to gain this bonus on attack and damage rolls instead of to your effective caster level.</Pair>
 </Ability>
-<Ability id="2-terrible-justice-sp" icon={["armor-downgrade"]}>
+<Ability id="2-terrible-justice-sp" icon={["lower"]}>
 <Pair single id="2-terrible-justice-sp" flavor="You end a foe's life with a brutal display of force.">2: Terrible Justice (Sp)</Pair>
 <Pair title="Ability">Three times per day, when you perform a <em>coup de grace,</em> all foes within 30 feet must succeed at a Will saving throw or be affected as per the spell <Link to="/spell/fear">fear</Link> (DC = 14 + your Charisma modifier).</Pair>
 </Ability>
-<Ability id="3-reason-to-fear-su" icon={["armor-upgrade","magic-swirl"]}>
+<Ability id="3-reason-to-fear-su" icon={["def","magic"]}>
 <Pair single id="3-reason-to-fear-su" flavor="You fear nothing, as you know you are a source of nightmares.">3: Reason to Fear (Su)</Pair>
 <Pair title="Passive Ability">You are immune to fear (magical or otherwise).</Pair>
 <Pair title="Free Action"><p>Three times per day, when you are the target of a fear effect or within a fear effect's area, you can target the creature from which the fear effect originated with a <Link to="/spell/phantasmal_killer">phantasmal killer</Link> spell effect (DC = 14 + your Charisma modifier) when you strike it with a weapon. You must deal at least 1 point of damage to use this ability.</p>

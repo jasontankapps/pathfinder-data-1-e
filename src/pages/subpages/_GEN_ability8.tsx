@@ -22,7 +22,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Chaotic evil, chaotic neutral, neutral, or neutral evil.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Aberrant (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/grab">grab</Link> [tentacle mass], <Link to="/unchevolution/tentacle_mass">tentacle mass</Link>), biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>), quadruped (bite, limbs [legs, 2]), or serpentine (bite, grab [bite], <Link to="/unchevolution/reach">reach</Link> [bite], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["skills","armor-upgrade","upgrade","stairs-goal","magic-swirl"]}>
+<Ability id="base-evolutions" icon={["skill","def","boost","power","magic"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Aberrant eidolons gain the following class skills in place of those normally gained by eidolons: <Link to="/skill/escape_artist">Escape Artist</Link>; <Link to="/skill/intimidate">Intimidate</Link>; <Link to="/skill/knowledge">Knowledge</Link> (pick one); <Link to="/skill/perception">Perception</Link>; <Link to="/skill/stealth">Stealth</Link>; and <Link to="/skill/climb">Climb</Link>, <Link to="/skill/fly">Fly</Link>, or <Link to="/skill/swim">Swim</Link> (pick one). The summoner can choose four additional skills to be class skills for his eidolon. Aberrant eidolons count as both aberrations and outsiders for spells and effects. They gain a +4 racial bonus on saving throws against mind-affecting effects.</Pair>
 <Pair title="At 4th Level">Aberrant eidolons add 1 point to their evolution pools.</Pair>
@@ -36,7 +36,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/claws">claws</Link>, <Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]) or serpentine (limbs [arms], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/slam">slam</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["stairs-goal","armor-upgrade","magic-swirl"]}>
+<Ability id="base-evolutions" icon={["power","def","magic"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Aeon eidolons gain the <em>envisaging</em> ability of other <Link to="/family/aeon">aeons</Link>. Aeon eidolons halve the armor and natural armor bonuses they gain per level, but gain an equal deflection bonus to their AC. They also gain a +4 bonus on saving throws against poison.</Pair>
 <Pair title="At 4th Level">Aeon eidolons gain the benefits of the <Link to="/magic-enh/moderate_fortification">moderate fortification</Link> armor special ability and cannot be tripped.</Pair>
@@ -54,7 +54,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral good.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/claws">claws</Link>, <Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]) or quadruped (limbs [legs, 2], <Link to="/unchevolution/bite">bite</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","remedy","stairs-goal","magic-swirl"]}>
+<Ability id="base-evolutions" icon={["def","aid","power","magic"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Agathion eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (electricity) evolution. They also gain a +4 bonus on saving throws against poison and petrification.</Pair>
 <Pair title="At 4th Level">Agathion eidolons gain cold <em>resistance</em> 10 and sonic <em>resistance</em> 10.</Pair>
@@ -68,7 +68,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Any. Ancestor eidolons don't have any alignment subtypes.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["stairs-goal"]}>
+<Ability id="base-evolutions" icon={["power"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">An ancestor eidolon gains all of the racial traits associated with its summoner's race; a summoner who isn't a 0-Hit Die creature must choose one 0-Hit Die race of his choice. For any effect dependent on class level, an ancestor eidolon uses its total Hit Dice instead (such as with the human's skilled racial trait). An ancestor eidolon counts as a creature of its chosen race's type and subtype for all effects, except for the purpose of meeting feat prerequisite requirements. An ancestor eidolon gains only the standard racial traits of its race; it cannot select alternate racial traits.</Pair>
 <Pair title="At 4th Level">The ancestor eidolon chooses one of the following simple class templates: <Link to="/template/fighter">fighter</Link>, <Link to="/template/rogue">rogue</Link>, or <Link to="/template/sorcerer">sorcerer</Link>. It gains the abilities noted under the template's quick rules as if it were a creature with 1 Hit Die. The eidolon does not gain any abilities that a character with 1 level in the class associated with the chosen template wouldn't have. For instance, a 1-HD creature with the rogue simple template would normally gain the <em>evasion</em> and <em>uncanny dodge</em> abilities, but an ancestor eidolon that chooses the rogue simple template does not gain these abilities since a 1st-level rogue would not have <em>evasion</em> or <em>uncanny dodge.</em></Pair>
@@ -82,7 +82,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Any good.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], slam).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","stairs-goal","aura"]}>
+<Ability id="base-evolutions" icon={["def","power","aura"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Angel eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (acid) and <em>resistance</em> (cold) evolutions. They also gain a +4 bonus on saving throws against poison.</Pair>
 <Pair title="At 4th Level">Angel eidolons gain electricity <em>resistance</em> 10 and fire <em>resistance</em> 10.</Pair>
@@ -96,7 +96,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Lawful good.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","upgrade","aura","magic-swirl"]}>
+<Ability id="base-evolutions" icon={["def","boost","aura","magic"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Archon eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (electricity) evolution and the <Link to="/unchevolution/skilled">skilled</Link> (Intimidate) evolution. They also gain a +4 bonus on saving throws against poison.</Pair>
 <Pair title="At 4th Level">Archon eidolons add 1 point to their evolution pools.</Pair>
@@ -110,7 +110,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>) or serpentine (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/magic_attacks">magic attacks</Link>, <Link to="/unchevolution/reach">reach</Link> [bite], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","broken-shield","upgrade","magic-swirl"]}>
+<Ability id="base-evolutions" icon={["def","down","boost","magic"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Astral eidolons gain immunity to aging as well as a +4 bonus on saving throws against curses, diseases, and poisons. A summoner's class level is halved for the purpose of determining the rate at which his astral eidolon's Strength and Dexterity increase.</Pair>
 <Pair title="At 4th Level"><p>Astral eidolons gain the ability to augment their masters' summoning abilities three times per day.</p>
@@ -132,7 +132,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Chaotic good.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]) or serpentine (limbs [arms], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","stairs-goal","upgrade","magic-swirl"]}>
+<Ability id="base-evolutions" icon={["def","power","boost","magic"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Azata eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (electricity) evolution and the 4-point <Link to="/unchevolution/weapon_training">weapon training</Link> evolution (proficiency in martial weapons).</Pair>
 <Pair title="At 4th Level">Azata eidolons gain cold <em>resistance</em> 10 and fire <em>resistance</em> 10.</Pair>
@@ -146,7 +146,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral evil.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Aberrant (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/tentacle_mass">tentacle mass</Link>), Biped (<Link to="/unchevolution/claws">claws</Link>, <Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]), quadruped (limbs [legs, 2], bite), or serpentine (bite, <Link to="/unchevolution/reach">reach</Link> [bite], reach [sting], <Link to="/unchevolution/sting">sting</Link>, <Link to="/unchevolution/tail">tail</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","upgrade","stairs-goal"]}>
+<Ability id="base-evolutions" icon={["def","boost","power"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Daemon eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (acid) evolution as well as a +4 bonus on saving throws against death effects, disease, and poison.</Pair>
 <Pair title="At 4th Level">Daemon eidolons gain cold <em>resistance</em> 10, electricity <em>resistance</em> 10, and fire <em>resistance</em> 10.</Pair>
@@ -160,7 +160,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Chaotic evil, chaotic neutral, neutral, or neutral evil.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Serpentine (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/grab">grab</Link> [tail slap], <Link to="/unchevolution/reach">reach</Link> [tail slap], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["stairs-goal","armor-upgrade","upgrade","mailed-fist"]}>
+<Ability id="base-evolutions" icon={["power","def","boost","melee"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Deepwater eidolons gain the <Link to="/unchevolution/gills">gills</Link>, <Link to="/unchevolution/resistance">resistance</Link> (cold), and <Link to="/unchevolution/swim">swim</Link> evolutions.</Pair>
 <Pair title="At 4th Level">Deepwater eidolons gain the <Link to="/umr/jet">jet</Link> ability at a speed of 200 feet and increase the range of their darkvision to 120 feet.</Pair>
@@ -174,7 +174,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Chaotic evil.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Aberrant (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/tentacle_mass">tentacle mass</Link>), Biped (<Link to="/unchevolution/claws">claws</Link>, <Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]), quadruped (limbs [legs, 2], bite), or serpentine (bite, <Link to="/unchevolution/improved_damage">improved damage</Link> [bite], <Link to="/unchevolution/reach">reach</Link> [bite], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","stairs-goal","upgrade"]}>
+<Ability id="base-evolutions" icon={["def","power","boost"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Demon eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (electricity) and <em>resistance</em> (fire) evolutions as well as a +4 bonus on saving throws against poison.</Pair>
 <Pair title="At 4th Level">Demon eidolons gain acid <em>resistance</em> 10 and cold <em>resistance</em> 10.</Pair>
@@ -188,7 +188,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Lawful evil.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/claws">claws</Link>, <Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","upgrade","stairs-goal"]}>
+<Ability id="base-evolutions" icon={["def","boost","power"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Devil eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (fire) evolution and the <Link to="/unchevolution/skilled">skilled</Link> (Bluff) evolution. They also gain a +4 bonus on saving throws against poison.</Pair>
 <Pair title="At 4th Level">Devil eidolons gain acid <em>resistance</em> 10 and cold <em>resistance</em> 10.</Pair>
@@ -202,7 +202,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral evil.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/claws">claws</Link>, <Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","upgrade","stairs-goal","magic-swirl"]}>
+<Ability id="base-evolutions" icon={["def","boost","power","magic"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Div eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (fire) evolution. They also gain a +4 bonus on saving throws against poison.</Pair>
 <Pair title="At 4th Level">Div eidolons gain acid <em>resistance</em> 10 and electricity <em>resistance</em> 10.</Pair>
@@ -216,7 +216,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Aberrant (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/tentacle_mass">tentacle mass</Link>), Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>), quadruped (limbs [legs, 2], bite), or serpentine (bite, <Link to="/unchevolution/improved_natural_armor">improved natural armor</Link>, <Link to="/unchevolution/reach">reach</Link> [bite], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","upgrade","stairs-goal"]}>
+<Ability id="base-evolutions" icon={["def","boost","power"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="Choice">The base evolutions of an elemental eidolon depend entirely on its chosen element. When first summoning an elemental eidolon, the summoner must select air, earth, fire, or water. Once made, this choice cannot be changed. The eidolon gains the following evolutions and abilities, which can vary depending on its element.</Pair>
 <Pair title="At 1st Level">All elemental eidolons gain immunity to paralysis and sleep. In addition, air elemental eidolons gain the <Link to="/unchevolution/immunity">immunity</Link> (electricity) evolution. Earth elemental eidolons gain the <em>immunity</em> (acid) evolution. Fire elemental eidolons gain the <em>immunity</em> (fire) evolution. Water elemental eidolons gain the <em>immunity</em> (cold) evolution.</Pair>
@@ -231,7 +231,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Chaotic good, chaotic neutral, lawful evil, lawful neutral, or neutral.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["stairs-goal","armor-upgrade","magic-swirl","upgrade"]}>
+<Ability id="base-evolutions" icon={["power","def","magic","boost"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Genie eidolons gain the 4-point <Link to="/unchevolution/weapon_training">weapon training</Link> evolution as well as the <Link to="/unchevolution/resistance">resistance</Link> evolution for any one energy type.</Pair>
 <Pair title="At 4th Level">Genie eidolons gain the ability to grow in size twice per day as a <strong className="hl">full-round action</strong>. This grants them the <Link to="/unchevolution/large">large</Link> evolution for 1 round per Hit Die they have, increases the size of their equipment for the duration, and does not stack with other size-changing effects. Genie eidolons who later purchase the <em>large</em> evolution lose this ability, but they add 1 point to their evolution pools.</Pair>
@@ -245,7 +245,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Lawful neutral.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","stairs-goal"]}>
+<Ability id="base-evolutions" icon={["def","power"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Inevitable eidolons count as both constructs and outsiders for the purpose of effects such as the <Link to="/magic-enh/bane">bane</Link> weapon special ability and the <Link to="/ability/favored_enemy">favored enemy</Link> class feature. They gain a +4 bonus on saving throws against death effects, disease, necromancy effects, paralysis, poison, sleep, and stun.</Pair>
 <Pair title="At 4th Level">Inevitable eidolons gain a +4 bonus on saving throws against mind-affecting effects and immunity to nonlethal damage, fatigue, and exhaustion.</Pair>
@@ -259,7 +259,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Any non-evil. Kami eidolons do not have an alignment subtype, instead having the <Link to="/subtype/native">native</Link> subtype.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","shield-reflect","remedy"]}>
+<Ability id="base-evolutions" icon={["def","protect","aid"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">A kami eidolon gains the <Link to="/unchevolution/resistance">resistance</Link> (fire) evolution and the 4-point <Link to="/unchevolution/weapon_training">weapon training</Link> evolution (proficiency in martial weapons).</Pair>
 <Pair title="At 4th Level">A kami eidolon gains acid <em>resistance</em> 10 and cold <em>resistance</em> 10.</Pair>
@@ -273,7 +273,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Lawful evil.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/improved_natural_armor">improved natural armor</Link>, <Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","stairs-goal","upgrade","armor-downgrade"]}>
+<Ability id="base-evolutions" icon={["def","power","boost","lower"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Kyton eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (cold) and skilled (Heal) evolutions. They also gain proficiency with the <Link to="/eq-weapon/spiked_chain">spiked chain</Link>.</Pair>
 <Pair title="At 4th Level">A kyton eidolon adds 1 point to its evolution pool.</Pair>
@@ -289,7 +289,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Any. Plant eidolons don't have alignment subtypes.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Cactus (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/sting">sting</Link>), conifer (<Link to="/unchevolution/claws">claws</Link>, limbs [arms], limbs [legs]), fungus (<Link to="/unchevolution/bite">bite</Link>, limbs [arms], limbs [legs]), leaf (limbs [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>), seaweed (limbs [arms], slam, <Link to="/unchevolution/swim">swim</Link> [2]).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["stairs-goal","armor-upgrade","magic-swirl"]}>
+<Ability id="base-evolutions" icon={["power","def","magic"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Plant eidolons gain low-light vision as well as the <Link to="/unchevolution/resistance">resistance</Link> (electricity) and <em>resistance</em> (sonic) evolutions.</Pair>
 <Pair title="At 4th Level">Plant eidolons gain constant <Link to="/spell/pass_without_trace">pass without trace</Link> and they can change shape into plants of the size category corresponding to their base form with results similar to <Link to="/spell/tree_shape">tree shape</Link>.</Pair>
@@ -303,7 +303,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Chaotic neutral.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Serpentine (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/grab">grab</Link> [tail slap], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","mailed-fist","stairs-goal"]}>
+<Ability id="base-evolutions" icon={["def","melee","power"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Protean eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (acid) evolution as well as the <em>grab</em> evolution, tied to an attack type of the summoner's choice. Whenever the summoner changes the protean eidolon's evolutions, he can also change the attack type for <em>grab.</em></Pair>
 <Pair title="At 4th Level">Protean eidolons gain electricity <em>resistance</em> 10 and sonic <em>resistance</em> 10.</Pair>
@@ -317,7 +317,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>), quadruped (<Link to="/unchevolution/bite">bite</Link>, limbs [legs, 2]), or serpentine (bite, <Link to="/unchevolution/pull">pull</Link> [bite], <Link to="/unchevolution/reach">reach</Link> [bite], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","stairs-goal","upgrade","magic-swirl"]}>
+<Ability id="base-evolutions" icon={["def","power","boost","magic"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Psychopomp eidolons gain immunity to death effects, disease, and poison.</Pair>
 <Pair title="At 4th Level">Psychopomp eidolons gain cold <Link to="/unchevolution/resistance">resistance</Link> 10 and electricity <em>resistance</em> 10.</Pair>
@@ -331,7 +331,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]) or quadruped (<Link to="/unchevolution/claws">claws</Link>, limbs [legs, 2]).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","remedy","mailed-fist","stairs-goal","magic-swirl","upgrade"]}>
+<Ability id="base-evolutions" icon={["def","aid","melee","power","magic","boost"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Radiant eidolons are immune to death effects and energy drain. They can exist comfortably on the Positive Energy Plane and do not benefit or suffer from the <Link to="/rule/elemental_and_energy_traits">positive-dominant planar trait</Link>. Whenever radiant eidolons are subjected to a magical healing effect, they regain 1 additional hit point per die rolled.</Pair>
 <Pair title="At 4th Level">Radiant eidolons' natural attacks can strike incorporeal targets as though they were <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapons. Radiant eidolons glow as <Link to="/spell/light">light</Link> with an effective spell level equal to half their Hit Dice (round down); they can suppress or resume this effect as a <strong className="hl">standard action</strong>.</Pair>
@@ -345,7 +345,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Any nongood.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/claws">claws</Link>, <Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]), quadruped (limbs [legs, 2], <Link to="/unchevolution/bite">bite</Link>), or serpentine (bite, <Link to="/unchevolution/improved_natural_armor">improved natural armor</Link>, <Link to="/unchevolution/reach">reach</Link> [bite], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","magic-swirl","upgrade"]}>
+<Ability id="base-evolutions" icon={["def","magic","boost"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Shadow eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (cold) and <em>resistance</em> (electricity) evolutions. They also gain the ability to cast <Link to="/spell/darkness">darkness</Link> as a spell-like ability three times per day. The caster level for this spell-like ability is equal to the eidolon's Hit Dice.</Pair>
 <Pair title="At 4th Level">Shadow eidolons effortlessly blend into the shadows, giving them <Link to="/rule/concealment">concealment</Link> (20% miss chance) in any illumination other than bright light. In <Link to="/rule/dim_light">dim light</Link> or darkness, shadow eidolons have a 50% miss chance instead of the normal 20% miss chance; this doesn't grant the eidolons total concealment. A shadow eidolon can suspend or resume this ability as a <strong className="hl">free action</strong>.</Pair>
@@ -361,7 +361,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Row><Cell>Special</Cell><Cell>The first time a summoner summons a storykin eidolon, he must select a specific harrow card, typically one that features a creature, such as the Paladin, the Rabbit Prince, or the Tyrant. This choice determines the eidolon's base form, alignment, and overall appearance, as the eidolon resembles the creature from the chosen card. Harrow cards without an obvious creature instead manifest as a generic humanoid creature made of colorful patchwork cloth.<br/><br/>The suit of the chosen harrow card determines the abilities of the storykin eidolon as it evolves. When the summoner gains a level, he can choose a different harrow card and thus a different base form, alignment, and appearance.</Cell></Row>
 <Row><Cell>Alignment</Cell><Cell>A storykin eidolon's alignment matches the alignment of the chosen harrow card and still must be within one step of the summoner's alignment.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Bipedal (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs], <Link to="/unchevolution/slam">slam</Link>), quadruped (limbs [legs, 2], slam), or serpentine (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/grab">grab</Link> [tail slap], <Link to="/unchevolution/tail">tail</Link>, <Link to="/unchevolution/tail_slap">tail slap</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","upgrade","stairs-goal"]}>
+<Ability id="base-evolutions" icon={["def","boost","power"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">A storykin eidolon gains the <Link to="/unchevolution/resistance">resistance</Link> (sonic) evolution. In addition, storykin eidolons of the suit of hammers and suit of shields gain a +2 bonus on Fortitude saving throws. Storykin eidolons of the suit of books and suit of keys gain a +2 bonus on Reflex saving throws. Storykin eidolons of the suit of crowns and suit of stars gain a +2 bonus on Will saving throws.</Pair>
 <Pair title="At 4th Level">A storykin eidolon gains cold <em>resistance</em> 10 and electricity <em>resistance</em> 10.</Pair>
@@ -375,7 +375,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Any.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/limbs">limbs</Link> [arms], limbs [legs]).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["stairs-goal","upgrade","magic-swirl","armor-upgrade"]}>
+<Ability id="base-evolutions" icon={["power","boost","magic","def"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">A twinned eidolon gains the <Link to="/unchevolution/weapon_training">weapon training</Link> evolution. The twinned eidolon also gains the <Link to="/unchevolution/skilled">skilled</Link> (Disguise) evolution. The racial bonus provided by this evolution is doubled when the eidolon is impersonating the twinned summoner.</Pair>
 <Pair title="At 4th Level">A twinned eidolon can cast a summoner spell once per day as a spell-like ability. The spell must be one known by the eidolon's summoner and must be at least 1 level lower than the highest-level spell the summoner can cast. The eidolon must have a Charisma score of at least 10 + the spell level. The caster level for this spell-like ability is equal to the eidolon's Hit Dice minus 2. The save DC is 10 + half the eidolon's HD + the eidolon's Charisma modifier.</Pair>
@@ -389,7 +389,7 @@ const _unchained_eidolon_subtypes = {hasJL:true,title: "Unchained Eidolon Subtyp
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral or neutral evil.</Cell></Row>
 <Row><Cell>Base Form</Cell><Cell>Biped (<Link to="/unchevolution/bite">bite</Link>, <Link to="/unchevolution/limbs">limbs</Link> [legs], <Link to="/unchevolution/skilled">skilled</Link> [Stealth], <Link to="/unchevolution/wing_buffet">wing buffet</Link>).</Cell></Row></Block>
-<Ability id="base-evolutions" icon={["armor-upgrade","broken-shield","mailed-fist","stairs-goal"]}>
+<Ability id="base-evolutions" icon={["def","down","melee","power"]}>
 <Pair single id="base-evolutions">Base Evolutions</Pair>
 <Pair title="At 1st Level">Void eidolons have <Link to="/umr/negative_energy_affinity">negative energy affinity</Link> and are immune to death effects, disease, energy drain, and poison.</Pair>
 <Pair title="At 4th Level">Void eidolons gain the <Link to="/unchevolution/resistance">resistance</Link> (cold) evolution. Their natural attacks can strike incorporeal targets as though they were <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapons.</Pair>
@@ -641,18 +641,18 @@ const _outer_rifts_exploits = {hasJL:true,title: "Exploits of the Outer Rifts", 
 <p>Not all arcanists who choose this route are necessarily evil - they justify these <Link to="/ability/exploits">exploits</Link> by claiming to be in control of their actions and to use the tools of their enemies against them. Nevertheless, those who bend magic using exploits from the Outer Rifts should be wary of attracting the wrong attention or enabling a greater evil than that which they seek to defeat.</p>
 <p>All of the following exploits can be learned by arcanists of any alignment, but these exploits come with a risk. If you use an Outer Rift exploit and in doing so reduce your arcane reservoir to 0, you immediately gain the stain of one manifestation from the <Link to="/corruption/accursed">accursed</Link>, <Link to="/corruption/demonic">demonic</Link>, <Link to="/corruption/hellbound">hellbound</Link>, or <Link to="/corruption/possessed">possessed</Link> corruption. The GM chooses which corruption, manifestation, and stain you receive; this stain persists for 24 hours. Reducing your arcane reservoir to 0 in this way multiple times within a 24-hour period results in a new stain for each such instance, and each time you do so you reset the timer for all stains gained in this manner to 24 hours. At the GM's option, multiple instances of abusing exploits in this manner could result in a permanent <Link to="/rule/corruption">corruption</Link>, but otherwise these corruptions are temporary and do not progress. You can never gain a gift from a corruption in this way.</p>
 <p>Unless otherwise noted, the saving throw DC for an arcanist's exploit equals 10 + 1/2 the arcanist's class level + the arcanist's Charisma modifier.</p>
-<Ability id="blood-tears-su" icon={["armor-upgrade","broken-shield","tornado-discs"]}>
+<Ability id="blood-tears-su" icon={["def","down","cone"]}>
 <Pair single id="blood-tears-su">Blood Tears (Su)</Pair>
 <Pair title="Move-Equivalent Action">The arcanist can expend 1 point from his arcane reservoir to cause his eyes to turn red and weep tears of blood. During this time, the arcanist's vision is blurred by blood, and he treats all <Link to="/umr/gaze">gaze</Link> attacks as if he were averting his eyes from a creature, but that creature does not gain <Link to="/rule/concealment">concealment</Link> against him. At a distance of greater than 30 feet, all creatures or objects viewed by the arcanist gain concealment.</Pair>
 <Pair title="Standard Action">The arcanist can wipe the tears from his face and flick them with a free hand, splattering all creatures in a 15-foot cone. Creatures in this area must succeed at a Will save to avoid becoming <Link to="/misc/staggered">staggered</Link> with extreme pain and anguish for 1 round. This ends the <em>blood tears</em> exploit's effects.</Pair>
 <Pair title="Special">If the arcanist doesn't wipe his bleeding tears away, the effects of this exploit can persist for a maximum duration of 1 minute per arcanist level.</Pair>
 </Ability>
-<Ability id="damnation-susurrus-su" icon={["armor-downgrade"]}>
+<Ability id="damnation-susurrus-su" icon={["lower"]}>
 <Pair single id="damnation-susurrus-su">Damnation Susurrus (Su)</Pair>
 <Pair title="Standard Action">The arcanist chooses a number of targets within 30 feet, up to 1 + <Link to="/misc/one_third">one-third</Link> of his arcanist level. He can spend 1 point from his arcane reservoir to manifest a choir of insidious whispers echoing in their minds, urging each of them to harm themselves. A creature that fails a Will save to resist this effect becomes overwhelmed by the voices and succumbs to their suggestions. On its turn, it drops any objects it holds and harms itself, inflicting 1d6 points of damage.</Pair>
 <Pair title="Special">This is a mind-affecting effect.</Pair>
 </Ability>
-<Ability id="fiendish-proboscis-su" icon={["smoking-finger","armor-downgrade","upgrade","remedy"]}>
+<Ability id="fiendish-proboscis-su" icon={["zap","lower","boost","aid"]}>
 <Pair single id="fiendish-proboscis-su">Fiendish Proboscis (Su)</Pair>
 <Pair title="Standard Action"><p>The arcanist can spend 1 point from his arcane reservoir to grow a long, articulated proboscis covered with small spiky hairs. The appendage grows from the arcanist's face and houses a highly flexible, muscular tongue tipped with a cartilaginous barbed quill. The proboscis lasts for 1 round per arcanist level, during which time the arcanist cannot speak or use verbal components. The arcanist can end this exploit's effects early as a <strong className="hl">swift action</strong>.</p>
 <p>As another standard action, the arcanist can attack a target with the proboscis's tongue. This is a primary <Link to="/rule/natural_weapon">natural weapon</Link> with a 10-foot reach. Attacks with the tongue resolve as a touch attack.</p>
@@ -660,13 +660,13 @@ const _outer_rifts_exploits = {hasJL:true,title: "Exploits of the Outer Rifts", 
 <p>Regardless of the target's ability to use magic, the tongue's unnerving siphoning of magical or life energy causes the struck creature to become <Link to="/misc/sickened">sickened</Link> for 1 round.</p>
 </Pair>
 </Ability>
-<Ability id="rift-fog-su" icon={["magic-swirl"]}>
+<Ability id="rift-fog-su" icon={["magic"]}>
 <Pair single id="rift-fog-su">Rift Fog (Su)</Pair>
 <Pair title="Standard Action">The arcanist can spend 1 point from his arcane reservoir to create a 5-foot-radius vortex of chilling fog adjacent to him. Hints of leering, fiendish faces whirl within the mist.</Pair>
 <Pair title="Move-Equivalent Action">The arcanist can direct the cloud of rift fog to move in any direction at a speed of 30 feet to a maximum range of 60 feet from the arcanist. The fog may ascend or jump up to 30 feet to strike a target. Once the fog ends its movement, coils of its otherworldly mist surround any targets that are wholly or partially in its area. The fog's supernaturally cold temperature causes 1d6 points of cold damage to affected creatures. A creature damaged by rift fog becomes slowed (as per the <Link to="/spell/slow">slow</Link> spell) for the following round if it fails a Will save.</Pair>
 <Pair title="Special">Once created, rift fog persists for 1 round per 2 arcanist levels (minimum of 1 round), or until the arcanist activates a new exploit.</Pair>
 </Ability>
-<Ability id="shadows-out-of-light-su" icon={["armor-upgrade","magic-palm"]}>
+<Ability id="shadows-out-of-light-su" icon={["def","touch"]}>
 <Pair single id="shadows-out-of-light-su">Shadows out of Light (Su)</Pair>
 <Pair title="Ability"><p>The arcanist can spend 1 point from his arcane reservoir to pull fiendish essence from the Outer Rifts into his own shadow. Malformed and nearly amorphous, the shadow-things swarm across his body, turning his eyes completely black and distorting his physical form.</p>
 <p>These shadows persist for 1 round per 2 arcanist levels (minimum of 1 round) and grant the arcanist a +2 deflection bonus to his Armor Class.</p>
@@ -674,7 +674,7 @@ const _outer_rifts_exploits = {hasJL:true,title: "Exploits of the Outer Rifts", 
 <Pair title="Ability">The shadows are threatening, and as long as they persist the arcanist is considered armed for the purpose of <Link to="/rule/flanking">flanking</Link> or threatening an attack of opportunity. Whenever a creature provokes an attack of opportunity from the arcanist, he may make the attack of opportunity with his shadow, striking as a touch attack that deals a number of points of cold damage equal to 1d6 + the arcanist's Charisma modifier plus 1 point of <Link to="/rule/strength_damage">Strength damage</Link>. A successful Fortitude saving throw negates the Strength damage.</Pair>
 <Pair title="Special">This ability does not itself increase the number of attacks of opportunity the arcanist can make in a round, but feats like <Link to="/feat/combat_reflexes">Combat Reflexes</Link> do allow him to make multiple attacks of opportunity with his shadow. The shadows cannot be compelled to make normal attacks - they lash out in this way only as a reaction to being provoked.</Pair>
 </Ability>
-<Ability id="soulrider-su" icon={["magic-swirl"]}>
+<Ability id="soulrider-su" icon={["magic"]}>
 <Pair single id="soulrider-su">Soulrider (Su)</Pair>
 <Pair title="Swift Action"><p>The arcanist can, while he casts a spell that targets one living creature, spend 1 point from his arcane reservoir to infuse his spell with a manifestation of fiendish energy called a "soulrider."</p>
 <p>The soulrider attaches to the target of the spell and buries itself in the target's subconscious mind, persisting there as long as the arcanist maintains at least 1 point in his arcane reservoir, until the arcanist dismisses the soulrider (this requires a <strong className="hl">standard action</strong>), or until the arcanist successfully infects another creature with a soulrider.</p>
@@ -684,7 +684,7 @@ const _outer_rifts_exploits = {hasJL:true,title: "Exploits of the Outer Rifts", 
 <Pair title="Ability">While the soulrider remains bonded to the target, the arcanist can spend 1 point from his arcane reservoir to communicate with the target as per <Link to="/spell/sending">sending</Link>.</Pair>
 <Pair title="Special"><Link to="/spell/detect_magic">Detect magic</Link> and <Link to="/spell/detect_evil">detect evil</Link> can uncover the presence of a soulrider. Soulrider is a mind-affecting effect.</Pair>
 </Ability>
-<Ability id="tentacles-su" icon={["mailed-fist","broken-shield"]}>
+<Ability id="tentacles-su" icon={["melee","down"]}>
 <Pair single id="tentacles-su">Tentacles (Su)</Pair>
 <Pair title="Swift Action">The arcanist can spend 2 points from his arcane pool to sprout a pair of rubbery tentacles that grow from his upper chest. At the same time, his arms shrink into sickly, malformed stubs, capable of only rudimentary actions such as lifting small objects or making somatic gestures. Rings, bracers, and other items worn on the atrophied arms and hands remain in place, but magic items that require hands to activate cannot be used while the arcanist's arms are in this state. Likewise, the use of weapons or shields is impossible during this time.</Pair>
 <Pair title="Special">The arcanist has full control over his hideous tentacles and can use them to deliver touch spells, or as secondary <Link to="/umr/natural_weapons">natural weapons</Link> that deal tentacle damage as appropriate for a creature of the arcanist's size (1d4 for Medium arcanists, or 1d3 for Small ones) modified by 1/2 the arcanist's Strength score. The arcanist's reach with these tentacles is 5 feet longer than his normal reach.</Pair>
@@ -1112,12 +1112,12 @@ const _slayer_talents = {hasJL:true,title: "Slayer Talents", topLink: ["Slayer",
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 53</Link><br/>As a slayer gains experience, he learns a number of talents that aid him and confound his foes. Starting at 2nd level and every 2 levels thereafter, a slayer gains one slayer talent. Unless otherwise noted, a slayer cannot select an individual talent more than once.</p>
 <h3 id="ability-slayer_talents-primary-sneak-attack-talents" data-hash-target>Primary Sneak Attack Talents</h3>
 <p>These talents add effects to a slayer's <Link to="/ability/sneak_attack">sneak attack</Link>. Only one of these talents can be applied to an individual attack, and the decision of which to use must be made before the attack roll is made.</p>
-<Ability id="slayertalentseveralignment-sever-alignment-su-fn1" icon={["armor-downgrade"]}>
+<Ability id="slayertalentseveralignment-sever-alignment-su-fn1" icon={["lower"]}>
 <Pair single id="slayertalentseveralignment-sever-alignment-su-fn1"><Link to="/slayertalent/sever_alignment">⮞</Link> Sever Alignment (Su) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-1" id="ability-slayer_talents-fake-fn-1" data-hash-target to="ability-slayer_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/slayertalent/aligned_sneak_attack">Aligned sneak attack</Link></Pair>
 <Pair title="Ability">When making a sneak attack against an opponent with an alignment subtype, a slayer with this talent can forgo her sneak attack damage to scramble the creature's metaphysical nature. If the attack succeeds, the slayer deals weapon damage as normal, and the target must succeed at a Fortitude save (DC = 10 + half the slayer's level + the slayer's Intelligence modifier) or lose all damage reduction overcome by aligned weapons (such as DR 10/good), lose all <Link to="/umr/regeneration">regeneration</Link> overcome by aligned sources (such as regeneration 10 [good]).</Pair>
 </Ability>
-<Ability id="slayertalentslowingstrike-slowing-strike-ex-fn2" icon={["armor-downgrade"]}>
+<Ability id="slayertalentslowingstrike-slowing-strike-ex-fn2" icon={["lower"]}>
 <Pair single id="slayertalentslowingstrike-slowing-strike-ex-fn2"><Link to="/slayertalent/slowing_strike">⮞</Link> Slowing Strike (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-2" id="ability-slayer_talents-fake-fn-2" data-hash-target to="ability-slayer_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability"><p>An opponent damaged by the slayer's sneak attack has its speed halved for 1d4 rounds. A successful Fortitude saving throw negates this effect (DC = 10 + 1/2 of the slayer's level + the slayer's Intelligence modifier).</p>
 <p>Against creatures with multiple types of movement, the slayer must choose which movement type to affect. If the slayer affects a creature's flight movement, its maneuverability is reduced by one step; if it's airborne at the time, it falls unless it succeeds at a DC 10 Fly check.</p>
@@ -1126,140 +1126,140 @@ const _slayer_talents = {hasJL:true,title: "Slayer Talents", topLink: ["Slayer",
 </Ability>
 <h3 id="ability-slayer_talents-other-sneak-attack-talents" data-hash-target>Other Sneak Attack Talents</h3>
 <p>These talents add effects to a slayer's sneak attack, but do not have the limitations of the Primary Sneak Attack Talents above.</p>
-<Ability id="slayertalentalignedsneakattack-aligned-sneak-attack-su-fn1-2" icon={["armor-downgrade"]}>
+<Ability id="slayertalentalignedsneakattack-aligned-sneak-attack-su-fn1-2" icon={["lower"]}>
 <Pair single id="slayertalentalignedsneakattack-aligned-sneak-attack-su-fn1-2"><Link to="/slayertalent/aligned_sneak_attack">⮞</Link> Aligned Sneak Attack (Su) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-1.2" id="ability-slayer_talents-fake-fn-1.2" data-hash-target to="ability-slayer_talents-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Ability">When making a sneak attack against a creature that has damage reduction that can be overcome by weapons of a particular alignment (such as DR 5/good), the slayer's attack reduces that damage reduction by an amount equal to the number of sneak attack dice rolled until the end of the slayer's turn.</Pair>
 </Ability>
-<Ability id="slayertalentdeadlyrange-deadly-range-ex-fn2-2" icon={["upgrade"]}>
+<Ability id="slayertalentdeadlyrange-deadly-range-ex-fn2-2" icon={["boost"]}>
 <Pair single id="slayertalentdeadlyrange-deadly-range-ex-fn2-2"><Link to="/slayertalent/deadly_range">⮞</Link> Deadly Range (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-2.2" id="ability-slayer_talents-fake-fn-2.2" data-hash-target to="ability-slayer_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level slayer</Pair>
 <Pair title="Passive Ability">A slayer with this talent increases the range at which he can deal sneak attack damage by 10 feet.</Pair>
 <Pair title="Special">A slayer can select this talent more than once; its effects stack.</Pair>
 </Ability>
-<Ability id="slayertalentjaguarsgrace-jaguars-grace-ex-fn3" icon={["upgrade"]}>
+<Ability id="slayertalentjaguarsgrace-jaguars-grace-ex-fn3" icon={["boost"]}>
 <Pair single id="slayertalentjaguarsgrace-jaguars-grace-ex-fn3"><Link to="/slayertalent/jaguars_grace">⮞</Link> Jaguar's Grace (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-3" id="ability-slayer_talents-fake-fn-3" data-hash-target to="ability-slayer_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level slayer</Pair>
 <Pair title="Passive Ability">A slayer with this talent does not take the normal -4 penalty when dealing nonlethal damage using a weapon that normally deals lethal damage. Attacks made this way can apply nonlethal sneak attack damage.</Pair>
 </Ability>
 <h3 id="ability-slayer_talents-studied-target-talents" data-hash-target>Studied Target Talents</h3>
 <p>These talents operate using the Studied Target ability of the slayer.</p>
-<Ability id="slayertalentbloodreader-blood-reader-ex-fn4" icon={["stairs-goal"]}>
+<Ability id="slayertalentbloodreader-blood-reader-ex-fn4" icon={["power"]}>
 <Pair single id="slayertalentbloodreader-blood-reader-ex-fn4"><Link to="/slayertalent/blood_reader">⮞</Link> Blood Reader (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-4" id="ability-slayer_talents-fake-fn-4" data-hash-target to="ability-slayer_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Ability">While able to see a <em>studied target,</em> a slayer with this talent knows exactly how many hit points his opponent has remaining. This only works against living targets.</Pair>
 </Ability>
-<Ability id="slayertalenteternalopposition-eternal-opposition-ex-fn5" icon={["armor-upgrade"]}>
+<Ability id="slayertalenteternalopposition-eternal-opposition-ex-fn5" icon={["def"]}>
 <Pair single id="slayertalenteternalopposition-eternal-opposition-ex-fn5"><Link to="/slayertalent/eternal_opposition">⮞</Link> Eternal Opposition (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-5" id="ability-slayer_talents-fake-fn-5" data-hash-target to="ability-slayer_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/samsaran">Samsaran</Link></Pair>
 <Pair title="Passive Ability">While most imperial dragons, undead, and other long-enduring foes can count on outlasting their mortal adversaries, the samsaran slayer has pledged to oppose their machinations across all his lifetimes. When his <em>studied target</em> is of the dragon, fey, outsider, or undead type, the slayer gains a +2 insight bonus to his AC against its attacks and on saving throws against its abilities.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="slayertalentjaguarspounce-jaguars-pounce-ex-fn3-2" icon={["mailed-fist"]}>
+<Ability id="slayertalentjaguarspounce-jaguars-pounce-ex-fn3-2" icon={["melee"]}>
 <Pair single id="slayertalentjaguarspounce-jaguars-pounce-ex-fn3-2"><Link to="/slayertalent/jaguars_pounce">⮞</Link> Jaguar's Pounce (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-3.2" id="ability-slayer_talents-fake-fn-3.2" data-hash-target to="ability-slayer_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/slayertalent/jaguars_grace">Jaguar's grace</Link></Pair>
 <Pair title="Immediate Action">When a slayer with this talent deals sneak attack damage, he can attempt a <Link to="/rule/disarm">disarm</Link> or <Link to="/rule/trip">trip</Link> combat maneuver as if the target were <Link to="/rule/flat_footed">flat-footed</Link> (losing its Dexterity bonus to CMD). This combat maneuver does not provoke attacks of opportunity.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="slayertalentjaguarsprotection-jaguars-protection-ex-fn3-3" icon={["shield-reflect"]}>
+<Ability id="slayertalentjaguarsprotection-jaguars-protection-ex-fn3-3" icon={["protect"]}>
 <Pair single id="slayertalentjaguarsprotection-jaguars-protection-ex-fn3-3"><Link to="/slayertalent/jaguars_protection">⮞</Link> Jaguar's Protection (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-3.3" id="ability-slayer_talents-fake-fn-3.3" data-hash-target to="ability-slayer_talents-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/slayertalent/jaguars_pounce">Jaguar's pounce</Link></Pair>
 <Pair title="Ability">When a slayer with this talent deals sneak attack damage, he draws the target's attention away from his allies. The affected enemy takes a -2 penalty on attack rolls made against anyone other than the slayer for 1 minute.</Pair>
 </Ability>
 </div>
 </div>
-<Ability id="slayertalentmountainsideambush-mountainside-ambush-ex-fn5-2" icon={["upgrade"]}>
+<Ability id="slayertalentmountainsideambush-mountainside-ambush-ex-fn5-2" icon={["boost"]}>
 <Pair single id="slayertalentmountainsideambush-mountainside-ambush-ex-fn5-2" flavor="Fighting in the mountains of Zi Ha has trained samsaran slayers to strike the unwary with deadly attacks from above."><Link to="/slayertalent/mountainside_ambush">⮞</Link> Mountainside Ambush (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-5.2" id="ability-slayer_talents-fake-fn-5.2" data-hash-target to="ability-slayer_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/samsaran">Samsaran</Link></Pair>
 <Pair title="Ability">If a slayer deals sneak attack damage to a creature that is unaware of his presence while he is standing on higher ground than his target, he does not have to roll sneak attack damage; instead, the sneak attack deals maximum damage. The samsaran must be standing on solid ground to use this ability.</Pair>
 </Ability>
-<Ability id="slayertalentstudiedally-studied-ally-ex-fn4-2" icon={["upgrade","shield-reflect"]}>
+<Ability id="slayertalentstudiedally-studied-ally-ex-fn4-2" icon={["boost","protect"]}>
 <Pair single id="slayertalentstudiedally-studied-ally-ex-fn4-2"><Link to="/slayertalent/studied_ally">⮞</Link> Studied Ally (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-4.2" id="ability-slayer_talents-fake-fn-4.2" data-hash-target to="ability-slayer_talents-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Move-Equivalent Action">The slayer can study an ally or friendly creature he can see. The slayer gains a +1 bonus on checks and attack rolls to use the <Link to="/rule/aid_another_2">aid another</Link> action to help with that ally's skill checks, attacks, or AC. This bonus increases at the same rate as a slayer's <em>studied target</em> bonus.</Pair>
 <Pair title="At 7th Level">A slayer can study an ally as a move or <strong className="hl">swift action</strong>.</Pair>
 <Pair title="Special">A slayer's <em>studied ally</em> counts against the number of <em>studied targets</em> he can have active at once.</Pair>
 </Ability>
 <h3 id="ability-slayer_talents-other-talents" data-hash-target>Other Talents</h3>
-<Ability id="slayertalentcastling-castling-ex-fn6" icon={["armor-upgrade"]}>
+<Ability id="slayertalentcastling-castling-ex-fn6" icon={["def"]}>
 <Pair single id="slayertalentcastling-castling-ex-fn6"><Link to="/slayertalent/castling">⮞</Link> Castling (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-6" id="ability-slayer_talents-fake-fn-6" data-hash-target to="ability-slayer_talents-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Passive Ability">The slayer treats soft cover granted by creatures of her size or larger as though it were <Link to="/rule/cover">cover</Link> instead. Cover the slayer gains from this talent does not allow her to attempt Stealth checks.</Pair>
 </Ability>
-<Ability id="slayertalentcatfolkroguetalent-catfolk-rogue-talent-fn7" icon={["stairs-goal"]}>
+<Ability id="slayertalentcatfolkroguetalent-catfolk-rogue-talent-fn7" icon={["power"]}>
 <Pair single id="slayertalentcatfolkroguetalent-catfolk-rogue-talent-fn7"><Link to="/slayertalent/catfolk_rogue_talent">⮞</Link> Catfolk Rogue Talent <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-7" id="ability-slayer_talents-fake-fn-7" data-hash-target to="ability-slayer_talents-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/catfolk">Catfolk</Link></Pair>
 <Pair title="Ability">A catfolk slayer can select one of the following catfolk <Link to="/ability/rogue_talents">rogue talents</Link> in place of a slayer talent: <Link to="/talent/deadly_scratch">deadly scratch</Link>, <Link to="/talent/graceful_faller">graceful faller</Link>, <Link to="/talent/nimble_climber">nimble climber</Link>, or <Link to="/talent/vicious_claws">vicious claws</Link>. Any talent effects based on rogue level use the slayer's class level. The slayer must fulfill any prerequisites.</Pair>
 </Ability>
-<Ability id="slayertalentexperienceacrossages-experience-across-ages-ex-fn5-3" icon={["stairs-goal"]}>
+<Ability id="slayertalentexperienceacrossages-experience-across-ages-ex-fn5-3" icon={["power"]}>
 <Pair single id="slayertalentexperienceacrossages-experience-across-ages-ex-fn5-3" flavor="A samsaran slayer can draw upon insights from his previous lifetimes to help identify a foe or recall a key piece of information."><Link to="/slayertalent/experience_across_ages">⮞</Link> Experience Across Ages (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-5.3" id="ability-slayer_talents-fake-fn-5.3" data-hash-target to="ability-slayer_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/samsaran">Samsaran</Link></Pair>
 <Pair title="Usage">1 time/day + 1 per five slayer levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
 <Pair title="Swift Action">The slayer can attempt a <Link to="/skill/knowledge">Knowledge</Link> check as if he had a number of ranks in the appropriate Knowledge skill equal to his slayer level.</Pair>
 </Ability>
-<Ability id="slayertalentextraearthcraft-extra-earthcraft-fn6-2" icon={["upgrade"]}>
+<Ability id="slayertalentextraearthcraft-extra-earthcraft-fn6-2" icon={["boost"]}>
 <Pair single id="slayertalentextraearthcraft-extra-earthcraft-fn6-2"><Link to="/slayertalent/extra_earthcraft">⮞</Link> Extra Earthcraft <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-6.2" id="ability-slayer_talents-fake-fn-6.2" data-hash-target to="ability-slayer_talents-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/arc-rogue/earthshadow">Earthcraft</Link> ability</Pair>
 <Pair title="Ability">The slayer gains 2 additional earthcraft points each day.</Pair>
 </Ability>
-<Ability id="slayertalentfoilscrutiny-foil-scrutiny-fn2-3" icon={["upgrade","armor-upgrade"]}>
+<Ability id="slayertalentfoilscrutiny-foil-scrutiny-fn2-3" icon={["boost","def"]}>
 <Pair single id="slayertalentfoilscrutiny-foil-scrutiny-fn2-3"><Link to="/slayertalent/foil_scrutiny">⮞</Link> Foil Scrutiny <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-2.3" id="ability-slayer_talents-fake-fn-2.3" data-hash-target to="ability-slayer_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Passive Ability">A slayer with this talent is able to obscure his thoughts and intentions. He gains a +2 bonus on all Bluff and Disguise checks, as well as on Will saving throws to resist mind-reading spells and effects (such as <Link to="/spell/detect_thoughts">detect thoughts</Link> and <Link to="/spell/discern_lies">discern lies</Link>).</Pair>
 </Ability>
-<Ability id="slayertalentfortifiedposition-fortified-position-ex-fn6-3" icon={["armor-upgrade"]}>
+<Ability id="slayertalentfortifiedposition-fortified-position-ex-fn6-3" icon={["def"]}>
 <Pair single id="slayertalentfortifiedposition-fortified-position-ex-fn6-3"><Link to="/slayertalent/fortified_position">⮞</Link> Fortified Position (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-6.3" id="ability-slayer_talents-fake-fn-6.3" data-hash-target to="ability-slayer_talents-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Passive Ability">Whenever the slayer gains a bonus on Reflex saves due to cover, she gains an equal bonus on Fortitude saves.</Pair>
 </Ability>
-<Ability id="slayertalentgracefulathlete-graceful-athlete-fn8" icon={["stairs-goal"]}>
+<Ability id="slayertalentgracefulathlete-graceful-athlete-fn8" icon={["power"]}>
 <Pair single id="slayertalentgracefulathlete-graceful-athlete-fn8"><Link to="/slayertalent/graceful_athlete">⮞</Link> Graceful Athlete <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-8" id="ability-slayer_talents-fake-fn-8" data-hash-target to="ability-slayer_talents-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Ability">Gain <Link to="/feat/graceful_athlete">Graceful Athlete</Link> as a bonus feat. You must meet the prerequisites for the feat.</Pair>
 </Ability>
-<Ability id="slayertalentinuredtoterror-inured-to-terror-ex-fn5-4" icon={["armor-upgrade"]}>
+<Ability id="slayertalentinuredtoterror-inured-to-terror-ex-fn5-4" icon={["def"]}>
 <Pair single id="slayertalentinuredtoterror-inured-to-terror-ex-fn5-4" flavor="With their knowledge of the cyclical nature of existence, there are few experiences that can daunt samsaran slayers for long."><Link to="/slayertalent/inured_to_terror">⮞</Link> Inured to Terror (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-5.4" id="ability-slayer_talents-fake-fn-5.4" data-hash-target to="ability-slayer_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/samsaran">Samsaran</Link></Pair>
 <Pair title="Immediate Action">When a slayer fails a saving throw against a fear effect, he can attempt the saving throw a second time to reduce the severity of the effect from <Link to="/misc/panicked">panicked</Link> to <Link to="/misc/frightened">frightened</Link>, frightened to <Link to="/misc/shaken">shaken</Link>, or shaken to unaffected. Additionally, the DC of Intimidate checks to demoralize him increases by 2.</Pair>
 </Ability>
-<Ability id="slayertalentmysticveil-mystic-veil-sp-fn5-5" icon={["magic-swirl"]}>
+<Ability id="slayertalentmysticveil-mystic-veil-sp-fn5-5" icon={["magic"]}>
 <Pair single id="slayertalentmysticveil-mystic-veil-sp-fn5-5" flavor="Samsaran slayers are adept at obscuring the passes of their mountain homes from intruders."><Link to="/slayertalent/mystic_veil">⮞</Link> Mystic Veil (Sp) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-5.5" id="ability-slayer_talents-fake-fn-5.5" data-hash-target to="ability-slayer_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/samsaran">Samsaran</Link>, Intelligence 11+</Pair>
 <Pair title="Usage">1 time/day per two slayer levels<ByLevelPop levels={[[2,1],[4,2],[6,3],[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="time" postText="/day" /></Pair>
 <Pair title="Ability">The slayer can cast <Link to="/spell/silent_image">silent image</Link> as a spell-like ability, using his slayer level as his caster level. The slayer uses his Intelligence modifier on <Link to="/rule/concentration">concentration</Link> checks when using this ability, and the DC to disbelieve the illusion is equal to 11 + the slayer's Intelligence modifier.</Pair>
 </Ability>
-<Ability id="slayertalentoneofthosefaces-one-of-those-faces-sp-fn9" icon={["magic-swirl"]}>
+<Ability id="slayertalentoneofthosefaces-one-of-those-faces-sp-fn9" icon={["magic"]}>
 <Pair single id="slayertalentoneofthosefaces-one-of-those-faces-sp-fn9"><Link to="/slayertalent/one_of_those_faces">⮞</Link> One of Those Faces (Sp) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-9" id="ability-slayer_talents-fake-fn-9" data-hash-target to="ability-slayer_talents-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Ability">Each day, you can use <Link to="/spell/disguise_self">disguise self</Link> as a spell-like ability for up to 10 minutes per character level. This duration need not be continuous, but it must be used in 10-minute increments.</Pair>
 <Pair title="Special">Once you have used this ability, whenever you use it for the next 24 hours you must take the same alternate appearance.</Pair>
 </Ability>
-<Ability id="slayertalentpoisonuse-poison-use-ex-fn10" icon={["armor-upgrade"]}>
+<Ability id="slayertalentpoisonuse-poison-use-ex-fn10" icon={["def"]}>
 <Pair single id="slayertalentpoisonuse-poison-use-ex-fn10"><Link to="/slayertalent/poison_use">⮞</Link> Poison Use (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-10" id="ability-slayer_talents-fake-fn-10" data-hash-target to="ability-slayer_talents-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Ability">The slayer is trained in the use of poison, and can't accidentally poison herself when applying poison to a weapon.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="slayertalenttoxintraining-toxin-training-ex-fn11" icon={["armor-upgrade"]}>
+<Ability id="slayertalenttoxintraining-toxin-training-ex-fn11" icon={["def"]}>
 <Pair single id="slayertalenttoxintraining-toxin-training-ex-fn11"><Link to="/slayertalent/toxin_training">⮞</Link> Toxin Training (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-11" id="ability-slayer_talents-fake-fn-11" data-hash-target to="ability-slayer_talents-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Prerequisites">4th-level slayer, <Link to="/slayertalent/poison_use">poison use</Link></Pair>
 <Pair title="Passive Ability">The slayer builds resistance to certain poisons over time. Each time he chooses this talent, he chooses one ability score. He gains a +4 bonus on saving throws against poisons that deal damage to the chosen ability score.</Pair>
 <Pair title="Special">The slayer can choose this talent multiple times. Each time he does, he chooses a new ability score and gains the bonus on saves against poisons that target that ability.</Pair>
 </Ability>
-<Ability id="slayertalentfocusedpoison-focused-poison-ex-fn12" icon={["upgrade"]}>
+<Ability id="slayertalentfocusedpoison-focused-poison-ex-fn12" icon={["boost"]}>
 <Pair single id="slayertalentfocusedpoison-focused-poison-ex-fn12" flavor={<>The slayer can focus his poison delivery to be especially deadly to his <em>studied target.</em></>}><Link to="/slayertalent/focused_poison">⮞</Link> Focused Poison (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-12" id="ability-slayer_talents-fake-fn-12" data-hash-target to="ability-slayer_talents-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level slayer, <Link to="/slayertalent/poison_use">poison use</Link></Pair>
 <Pair title="Ability">When the slayer studies a target, he can immediately reduce the number of additional <em>studied targets</em> he can maintain. Reducing this number does not require an action. For each target reduced in this way, the DC of poisons used against his <em>studied target</em> increases by 1.</Pair>
 </Ability>
 </div>
-<Ability id="slayertalentrangercombatstyle-ranger-combat-style-ex-fn2-4" icon={["stairs-goal"]}>
+<Ability id="slayertalentrangercombatstyle-ranger-combat-style-ex-fn2-4" icon={["power"]}>
 <Pair single id="slayertalentrangercombatstyle-ranger-combat-style-ex-fn2-4"><Link to="/slayertalent/ranger_combat_style">⮞</Link> Ranger Combat Style (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-2.4" id="ability-slayer_talents-fake-fn-2.4" data-hash-target to="ability-slayer_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability">The slayer selects a ranger <Link to="/ability/combat_styles">combat style</Link> (such as archery or two-weapon combat) and gains a combat feat from the first feat list of that style. He can choose feats from his selected combat style, even if he does not have the normal prerequisites.</Pair>
 <Pair title="At 6th Level">He may select this talent again and add the 6th-level ranger combat feats from his chosen style to the list.</Pair>
 <Pair title="At 10th Level">He may select this talent again and add the 10th-level ranger combat feats from his chosen style to the list.</Pair>
 </Ability>
-<Ability id="slayertalentrecalltraining-recall-training-ex-fn5-6" icon={["stairs-goal"]}>
+<Ability id="slayertalentrecalltraining-recall-training-ex-fn5-6" icon={["power"]}>
 <Pair single id="slayertalentrecalltraining-recall-training-ex-fn5-6" flavor="By calling on the memories of previous incarnations, a samsaran slayer can use martial techniques that transcend his usual capabilities."><Link to="/slayertalent/recall_training">⮞</Link> Recall Training (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-5.6" id="ability-slayer_talents-fake-fn-5.6" data-hash-target to="ability-slayer_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/samsaran">Samsaran</Link></Pair>
 <Pair title="Move-Equivalent Action">Once per day, the slayer can gain the benefit of a <Link to="/main/combat_feat">combat feat</Link> he doesn't have. This effect lasts for 1 minute per slayer level he has. The slayer must meet all the feat's prerequisites.</Pair>
 </Ability>
-<Ability id="slayertalentredirectpoison-redirect-poison-ex-fn12-2" icon={["armor-upgrade","mailed-fist"]}>
+<Ability id="slayertalentredirectpoison-redirect-poison-ex-fn12-2" icon={["def","melee"]}>
 <Pair single id="slayertalentredirectpoison-redirect-poison-ex-fn12-2" flavor="The slayer can divert poisoned attacks against him."><Link to="/slayertalent/redirect_poison">⮞</Link> Redirect Poison (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-12.2" id="ability-slayer_talents-fake-fn-12.2" data-hash-target to="ability-slayer_talents-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Immediate Action">When a creature unsuccessfully attacks the slayer with a poisoned weapon or a natural weapon that would poison him, the slayer can attempt to redirect the attack to a creature within his reach (including, possibly, the creature that unsuccessfully attacked the slayer). The slayer can make an attack roll against the creature to which he would redirect the poison. On a success, the poison is redirected to the target, and the target must attempt a saving throw against the poison as normal.</Pair>
 <Pair title="Special">This attack only redirects the poison and does not otherwise damage the targeted creature. This ability cannot affect a creature that attacked the slayer with a poisoned natural weapon, but it can affect a creature that attacked him with a poisoned manufactured weapon.</Pair>
 </Ability>
-<Ability id="slayertalentroguetalent-rogue-talent-fn2-5" icon={["stairs-goal"]}>
+<Ability id="slayertalentroguetalent-rogue-talent-fn2-5" icon={["power"]}>
 <Pair single id="slayertalentroguetalent-rogue-talent-fn2-5"><Link to="/slayertalent/rogue_talent">⮞</Link> Rogue Talent <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-2.5" id="ability-slayer_talents-fake-fn-2.5" data-hash-target to="ability-slayer_talents-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Ability"><p>A slayer can select one of the following <Link to="/ability/rogue_talents">rogue talents</Link> in place of a slayer talent: <Link to="/talent/bleeding_attack">bleeding attack</Link>&#42;, <Link to="/talent/camouflage">camouflage</Link>, <Link to="/talent/cloying_shades">cloying shades</Link>, <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/demand_attention">demand attention</Link>, <Link to="/talent/emboldening_strike">emboldening strike</Link>, <Link to="/talent/extinguishing_strike">extinguishing strike</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/feint_from_shadows">feint from shadows</Link>, <Link to="/talent/finesse_rogue">finesse rogue</Link>, <Link to="/talent/firearm_training">firearm training</Link>, <Link to="/talent/focusing_attack">focusing attack</Link>, <Link to="/talent/gloom_magic">gloom magic</Link>, <Link to="/talent/greater_gloom_magic">greater gloom magic</Link>, <Link to="/talent/grit">grit</Link>, <Link to="/talent/hard_to_fool">hard to fool</Link>, <Link to="/talent/lasting_poison">lasting poison</Link>, <Link to="/talent/mien_of_despair">mien of despair</Link>, <Link to="/talent/obscuring_blow">obscuring blow</Link>, <Link to="/talent/poison_use">poison use</Link>, <Link to="/talent/powerful_sneak">powerful sneak</Link>, <Link to="/talent/rogue_crawl">rogue crawl</Link>, <Link to="/talent/shadow_duplicate">shadow duplicate</Link>, <Link to="/talent/shadows_chill">shadow's chill</Link>, <Link to="/talent/slow_reactions">slow reactions</Link>&#42;, <Link to="/talent/snap_shot">snap shot</Link>, <Link to="/talent/snipers_eye">sniper's eye</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/swift_poison">swift poison</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link>, <Link to="/talent/trap_spotter">trap spotter</Link>, <Link to="/talent/umbral_gear">umbral gear</Link>, <Link to="/talent/underhanded_trick">underhanded trick</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link>, or <Link to="/talent/weapon_training">weapon training</Link>.</p>
 <p>Any talent effects based on rogue level use the slayer's class level. If the rogue talent has a prerequisite, the slayer must meet the prerequisite before taking that rogue talent.</p>
@@ -1267,29 +1267,29 @@ const _slayer_talents = {hasJL:true,title: "Slayer Talents", topLink: ["Slayer",
 </Pair>
 <Pair title="Special">This talent can be selected multiple times; each time, it grants the slayer a new rogue talent.</Pair>
 </Ability>
-<Ability id="slayertalentscryingfamiliarity-scrying-familiarity-ex-fn13" icon={["armor-upgrade","upgrade","rolling-dices"]}>
+<Ability id="slayertalentscryingfamiliarity-scrying-familiarity-ex-fn13" icon={["def","boost","roll"]}>
 <Pair single id="slayertalentscryingfamiliarity-scrying-familiarity-ex-fn13" flavor="You are well acquainted with scrying sensors."><Link to="/slayertalent/scrying_familiarity">⮞</Link> Scrying Familiarity (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-13" id="ability-slayer_talents-fake-fn-13" data-hash-target to="ability-slayer_talents-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Passive Ability">You can roll twice and take the better result on saving throws against divination (scrying) spells and effects, on Perception checks to notice scrying sensors, and on caster level checks to overcome spell resistance when you use a scrying spell or effect.</Pair>
 <Pair title="Ability">If you notice a magical sensor, you can attempt a Stealth check opposed by the caster's caster level check to avoid being detected by the sensor.</Pair>
 </Ability>
-<Ability id="slayertalentsticksandstones-sticks-and-stones-ex-fn11-2" icon={["stairs-goal"]}>
+<Ability id="slayertalentsticksandstones-sticks-and-stones-ex-fn11-2" icon={["power"]}>
 <Pair single id="slayertalentsticksandstones-sticks-and-stones-ex-fn11-2"><Link to="/slayertalent/sticks_and_stones">⮞</Link> Sticks and Stones (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-11.2" id="ability-slayer_talents-fake-fn-11.2" data-hash-target to="ability-slayer_talents-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Ability">The slayer gains <Link to="/feat/catch_off_guard">Catch Off-Guard</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="slayertalentsunlightstrike-sunlight-strike-ex-fn11-3" icon={["armor-downgrade"]}>
+<Ability id="slayertalentsunlightstrike-sunlight-strike-ex-fn11-3" icon={["lower"]}>
 <Pair single id="slayertalentsunlightstrike-sunlight-strike-ex-fn11-3"><Link to="/slayertalent/sunlight_strike">⮞</Link> Sunlight Strike (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-11.3" id="ability-slayer_talents-fake-fn-11.3" data-hash-target to="ability-slayer_talents-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Swift Action">The slayer can reflect sunlight (or other sources of bright light) into the eyes of an adjacent target, causing it to gain the <Link to="/misc/dazzled">dazzled</Link> condition for 1 round.</Pair>
 </Ability>
-<Ability id="slayertalentsurefooting-sure-footing-ex-fn11-4" icon={["upgrade"]}>
+<Ability id="slayertalentsurefooting-sure-footing-ex-fn11-4" icon={["boost"]}>
 <Pair single id="slayertalentsurefooting-sure-footing-ex-fn11-4"><Link to="/slayertalent/sure_footing">⮞</Link> Sure Footing (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-11.4" id="ability-slayer_talents-fake-fn-11.4" data-hash-target to="ability-slayer_talents-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Passive Ability">The slayer gains a +5 bonus on Acrobatics checks to move on narrow surfaces and loose or uneven ground.</Pair>
 </Ability>
-<Ability id="slayertalenttrapfinding-trapfinding-fn14" icon={["skills","stairs-goal"]}>
+<Ability id="slayertalenttrapfinding-trapfinding-fn14" icon={["skill","power"]}>
 <Pair single id="slayertalenttrapfinding-trapfinding-fn14"><Link to="/slayertalent/trapfinding">⮞</Link> Trapfinding <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-14" id="ability-slayer_talents-fake-fn-14" data-hash-target to="ability-slayer_talents-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Info">The slayer gains <Link to="/skill/disable_device">Disable Device</Link> as a class skill.</Pair>
 <Pair title="Ability">The slayer also gains the <Link to="/ability/trapfinding">trapfinding</Link> and <Link to="/ability/trap_sense">trap sense</Link> <Link to="/class/rogue">rogue</Link> abilities, using his slayer level as his effective rogue level.</Pair>
 </Ability>
-<Ability id="slayertalentunbalancingtrick-unbalancing-trick-ex-fn6-4" icon={["stairs-goal"]}>
+<Ability id="slayertalentunbalancingtrick-unbalancing-trick-ex-fn6-4" icon={["power"]}>
 <Pair single id="slayertalentunbalancingtrick-unbalancing-trick-ex-fn6-4"><Link to="/slayertalent/unbalancing_trick">⮞</Link> Unbalancing Trick (Ex) <sup><InnerLink showBacklink="backlink-ability-slayer_talents-fake-fn-6.4" id="ability-slayer_talents-fake-fn-6.4" data-hash-target to="ability-slayer_talents-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Ability">The slayer gains <Link to="/feat/improved_trip">Improved Trip</Link> as a bonus feat, even if she does not meet the prerequisites.</Pair>
 <Pair title="At 6th Level">She is treated as if she meets all the prerequisites of <Link to="/feat/greater_trip">Greater Trip</Link> (although she must take the feat as normal to gain its benefits).</Pair>

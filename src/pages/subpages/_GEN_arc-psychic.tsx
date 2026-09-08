@@ -5,11 +5,11 @@ import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 const _amnesiac = {title: "Amnesiac", jsx: <><h2 id="arc-psychic-amnesiac-amnesiac">Amnesiac</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 104</Link><br/>The amnesiac once possessed great psychic power, but mental blocks - resulting from either a traumatic event or intentional implantation - have caused her to forget what she knew before. The amnesiac's struggle to control her psychic magic leads to wild and unpredictable results.</p>
-<Ability id="repressed-memories" icon={["info","hazard-sign"]}>
+<Ability id="repressed-memories" icon={["info","warning"]}>
 <Pair single id="repressed-memories">Repressed Memories</Pair>
 <Pair title="Info">All the amnesiac's older memories have been deeply hidden, as though she had been affected by multiple <Link to="/spell/repress_memory">repress memory</Link> spells. She isn't prevented from remembering things that happen over the course of a game, but might be forgetful. If the amnesiac's memories are ever restored, she loses this archetype and reverts to a standard psychic.</Pair>
 </Ability>
-<Ability id="spells" icon={["magic-swirl","info"]}>
+<Ability id="spells" icon={["magic","info"]}>
 <Pair single id="spells">Spells</Pair>
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Ability"><p>An amnesiac's ability to cast psychic spells is the same as that of the psychic class, with the following exceptions.</p>
@@ -17,7 +17,7 @@ const _amnesiac = {title: "Amnesiac", jsx: <><h2 id="arc-psychic-amnesiac-amnesi
 <p>This change to spells doesn't apply to knacks (0-level spells) or discipline spells, which function the same way they do for a normal psychic. When the amnesiac gains access to 3rd-level spells, she gains full recall of her 1st-level spells and no longer gains 1st-level amnesia slots, instead gaining the full number of 1st-level spells known from the Spells Known table and casting them as a normal psychic. When this happens, the amnesiac can select any level-appropriate spells from the psychic spell list as her spells known, even if they were never among the spells she prepared or recalled; once selected, these spells can no longer be changed, as with a normal psychic. Each time the psychic gains access to a new level of spells, she gains full memory of spells 2 levels lower in the same way (gaining full memory and permanently selecting her 2nd-level spells when she gains access to 4th-level spells, and so on).</p>
 </Pair>
 </Ability>
-<Ability id="spell-recollection-ex" icon={["spell-book"]}>
+<Ability id="spell-recollection-ex" icon={["learn"]}>
 <Pair single id="spell-recollection-ex">Spell Recollection (Ex)</Pair>
 <Pair title="Usage">Once per hour</Pair>
 <Pair title="Swift Action"><p>An amnesiac can attempt to remember any spell from the psychic spell list of her choice from either of the 2 highest spell levels she can cast. When she does, she rolls on the table below to determine the result. Because the mental stress of combat brings memories to the surface more easily, the amnesiac adds 1d10 to this roll's result if she's in combat when she attempts to recall a spell. Regardless of the result, the amnesiac expends an amnesia slot of the appropriate level for the spell she is attempting to remember; she must cast the spell remembered (if any) using that amnesia slot during the same round, or the spell slot is lost without effect. Once a spell has been remembered in this way, the amnesiac can cast it as one of her spells known for the rest of the day (even if she failed to cast the spell during the round in which she remembered it), unless <em>spell recollection</em> allowed her to cast a spell of a higher level than she would normally be able to cast.</p>
@@ -50,7 +50,7 @@ const _amnesiac = {title: "Amnesiac", jsx: <><h2 id="arc-psychic-amnesiac-amnesi
 </>};
 const _esoteric_starseeker = {title: "Esoteric Starseeker", jsx: <><h2 id="arc-psychic-esoteric_starseeker-esoteric-starseeker">Esoteric Starseeker</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 30</Link><br/>The celestial bodies travel through the sky in fixed patterns, and knowledgeable astrologers rely on these stellar constants to make accurate predictions, but the constellations can also be a source of power. An esoteric starseeker is a psychic who focuses her studies on uncovering the secrets of the sky and the constellations of the Cosmic Caravan, able to read the stars as well as she can read minds.</p>
-<Ability id="written-in-the-stars" extraClasses="hasSubs" icon={["spell-book","broken-shield"]}>
+<Ability id="written-in-the-stars" extraClasses="hasSubs" icon={["learn","down"]}>
 <Pair single id="written-in-the-stars">Written in the Stars</Pair>
 <Pair hl title="Replaces">Discipline spells, 1st- and 11th-level phrenic amplifications</Pair>
 <Pair title="Ability">An esoteric starseeker can spend 1 hour each night in quiet contemplation of the stars to attune herself to a constellation of the Cosmic Caravan, gaining knowledge of new spells from it. She gains one bonus constellation spell slot for each spell level she can cast, and she can prepare a spell associated with her attuned constellation into that slot.</Pair>
@@ -58,7 +58,7 @@ const _esoteric_starseeker = {title: "Esoteric Starseeker", jsx: <><h2 id="arc-p
 <Pair title="At 11th Level">She can attune herself to two constellations, choosing between the spells offered by both constellations when she prepares her constellation spells.</Pair>
 <Pair title="Special">She can change her attuned constellations and her weakened school each day when she prepares her constellation spells. The Cosmic Caravan and their associated spells (listed by spell level) are listed below.</Pair>
 </Ability>
-<Ability id="the-thrush" extraClasses="subAbility" icon={["spell-book"]}>
+<Ability id="the-thrush" extraClasses="subAbility" icon={["learn"]}>
 <Pair single id="the-thrush">The Thrush</Pair>
 <Pair plain title="1st"><Link to="/spell/comprehend_languages">Comprehend languages</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/magic_mouth">Magic mouth</Link></Pair>
@@ -70,7 +70,7 @@ const _esoteric_starseeker = {title: "Esoteric Starseeker", jsx: <><h2 id="arc-p
 <Pair plain title="8th"><Link to="/spell/discern_location">Discern location</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/wish">Wish</Link></Pair>
 </Ability>
-<Ability id="the-lantern-bearer" extraClasses="subAbility" icon={["spell-book"]}>
+<Ability id="the-lantern-bearer" extraClasses="subAbility" icon={["learn"]}>
 <Pair single id="the-lantern-bearer">The Lantern Bearer</Pair>
 <Pair plain title="1st"><Link to="/spell/liberating_command">Liberating command</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/glitterdust">Glitterdust</Link></Pair>
@@ -82,7 +82,7 @@ const _esoteric_starseeker = {title: "Esoteric Starseeker", jsx: <><h2 id="arc-p
 <Pair plain title="8th"><Link to="/spell/sunburst">Sunburst</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/meteor_swarm">Meteor swarm</Link></Pair>
 </Ability>
-<Ability id="the-newlyweds" extraClasses="subAbility" icon={["spell-book"]}>
+<Ability id="the-newlyweds" extraClasses="subAbility" icon={["learn"]}>
 <Pair single id="the-newlyweds">The Newlyweds</Pair>
 <Pair plain title="1st"><Link to="/spell/charm_person">Charm person</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/enthrall">Enthrall</Link></Pair>
@@ -94,7 +94,7 @@ const _esoteric_starseeker = {title: "Esoteric Starseeker", jsx: <><h2 id="arc-p
 <Pair plain title="8th"><Link to="/spell/bilocation">Bilocation</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/overwhelming_presence">Overwhelming presence</Link></Pair>
 </Ability>
-<Ability id="the-bridge" extraClasses="subAbility" icon={["spell-book"]}>
+<Ability id="the-bridge" extraClasses="subAbility" icon={["learn"]}>
 <Pair single id="the-bridge">The Bridge</Pair>
 <Pair plain title="1st"><Link to="/spell/endure_elements">Endure elements</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/resist_energy">Resist energy</Link></Pair>
@@ -106,7 +106,7 @@ const _esoteric_starseeker = {title: "Esoteric Starseeker", jsx: <><h2 id="arc-p
 <Pair plain title="8th"><Link to="/spell/create_demiplane">Create demiplane</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/world_wave">World wave</Link></Pair>
 </Ability>
-<Ability id="the-daughter" extraClasses="subAbility" icon={["spell-book"]}>
+<Ability id="the-daughter" extraClasses="subAbility" icon={["learn"]}>
 <Pair single id="the-daughter">The Daughter</Pair>
 <Pair plain title="1st"><Link to="/spell/bless">Bless</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/hypnotic_pattern">Hypnotic pattern</Link></Pair>
@@ -118,7 +118,7 @@ const _esoteric_starseeker = {title: "Esoteric Starseeker", jsx: <><h2 id="arc-p
 <Pair plain title="8th"><Link to="/spell/irresistible_dance">Irresistible dance</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/freedom">Freedom</Link></Pair>
 </Ability>
-<Ability id="the-rider" extraClasses="subAbility" icon={["spell-book"]}>
+<Ability id="the-rider" extraClasses="subAbility" icon={["learn"]}>
 <Pair single id="the-rider">The Rider</Pair>
 <Pair plain title="1st"><Link to="/spell/anticipate_peril">Anticipate peril</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/acute_senses">Acute senses</Link></Pair>
@@ -130,7 +130,7 @@ const _esoteric_starseeker = {title: "Esoteric Starseeker", jsx: <><h2 id="arc-p
 <Pair plain title="8th"><Link to="/spell/frightful_aspect">Frightful aspect</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/ride_the_lightning">Ride the lightning</Link></Pair>
 </Ability>
-<Ability id="the-patriarch" extraClasses="subAbility" icon={["spell-book"]}>
+<Ability id="the-patriarch" extraClasses="subAbility" icon={["learn"]}>
 <Pair single id="the-patriarch">The Patriarch</Pair>
 <Pair plain title="1st"><Link to="/spell/command">Command</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/spiritual_weapon">Spiritual weapon</Link></Pair>
@@ -142,7 +142,7 @@ const _esoteric_starseeker = {title: "Esoteric Starseeker", jsx: <><h2 id="arc-p
 <Pair plain title="8th"><Link to="/spell/brilliant_inspiration">Brilliant inspiration</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/gate">Gate</Link></Pair>
 </Ability>
-<Ability id="the-wagon" extraClasses="subAbility" icon={["spell-book"]}>
+<Ability id="the-wagon" extraClasses="subAbility" icon={["learn"]}>
 <Pair single id="the-wagon">The Wagon</Pair>
 <Pair plain title="1st"><Link to="/spell/expeditious_retreat">Expeditious retreat</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/twisted_space">Twisted space</Link></Pair>
@@ -154,7 +154,7 @@ const _esoteric_starseeker = {title: "Esoteric Starseeker", jsx: <><h2 id="arc-p
 <Pair plain title="8th"><Link to="/spell/etherealness">Etherealness</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/time_stop">Time stop</Link></Pair>
 </Ability>
-<Ability id="the-pack" extraClasses="subAbility" icon={["spell-book"]}>
+<Ability id="the-pack" extraClasses="subAbility" icon={["learn"]}>
 <Pair single id="the-pack">The Pack</Pair>
 <Pair plain title="1st"><Link to="/spell/calm_animals">Calm animals</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/animal_aspect">Animal aspect</Link></Pair>
@@ -166,7 +166,7 @@ const _esoteric_starseeker = {title: "Esoteric Starseeker", jsx: <><h2 id="arc-p
 <Pair plain title="8th"><Link to="/spell/animal_shapes">Animal shapes</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/shapechange">Shapechange</Link></Pair>
 </Ability>
-<Ability id="the-mother" extraClasses="subAbility" icon={["spell-book"]}>
+<Ability id="the-mother" extraClasses="subAbility" icon={["learn"]}>
 <Pair single id="the-mother">The Mother</Pair>
 <Pair plain title="1st"><Link to="/spell/identify">Identify</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/aid">Aid</Link></Pair>
@@ -178,7 +178,7 @@ const _esoteric_starseeker = {title: "Esoteric Starseeker", jsx: <><h2 id="arc-p
 <Pair plain title="8th"><Link to="/spell/refuge">Refuge</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/wall_of_suppression">Wall of suppression</Link></Pair>
 </Ability>
-<Ability id="the-stargazer" extraClasses="subAbility" icon={["spell-book"]}>
+<Ability id="the-stargazer" extraClasses="subAbility" icon={["learn"]}>
 <Pair single id="the-stargazer">The Stargazer</Pair>
 <Pair plain title="1st"><Link to="/spell/know_the_enemy">Know the enemy</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/augury">Augury</Link></Pair>
@@ -190,7 +190,7 @@ const _esoteric_starseeker = {title: "Esoteric Starseeker", jsx: <><h2 id="arc-p
 <Pair plain title="8th"><Link to="/spell/moment_of_prescience">Moment of prescience</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/dream_voyage">Dream voyage</Link></Pair>
 </Ability>
-<Ability id="the-stranger" extraClasses="subAbility" icon={["spell-book"]}>
+<Ability id="the-stranger" extraClasses="subAbility" icon={["learn"]}>
 <Pair single id="the-stranger">The Stranger</Pair>
 <Pair plain title="1st"><Link to="/spell/disguise_self">Disguise self</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/invisibility">Invisibility</Link></Pair>
@@ -202,7 +202,7 @@ const _esoteric_starseeker = {title: "Esoteric Starseeker", jsx: <><h2 id="arc-p
 <Pair plain title="8th"><Link to="/spell/maze">Maze</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/divide_mind">Divide mind</Link></Pair>
 </Ability>
-<Ability id="the-follower" extraClasses="subAbility" icon={["spell-book"]}>
+<Ability id="the-follower" extraClasses="subAbility" icon={["learn"]}>
 <Pair single id="the-follower">The Follower</Pair>
 <Pair plain title="1st"><Link to="/spell/forced_quiet">Forced quiet</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/darkness">Darkness</Link></Pair>
@@ -214,7 +214,7 @@ const _esoteric_starseeker = {title: "Esoteric Starseeker", jsx: <><h2 id="arc-p
 <Pair plain title="8th"><Link to="/spell/destruction">Destruction</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/energy_drain">Energy drain</Link></Pair>
 </Ability>
-<Ability id="major-amplifications" icon={["broken-shield"]}>
+<Ability id="major-amplifications" icon={["down"]}>
 <Pair single id="major-amplifications">Major Amplifications</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Ability">An esoteric starseeker gains this ability at 15th level.</Pair>
@@ -227,37 +227,37 @@ const _formless_adept = {title: "Formless Adept", jsx: <><h2 id="arc-psychic-for
 <Pair hl title="Alters">Phrenic pool</Pair>
 <Pair title="Info">A formless adept uses his Charisma modifier to determine the number of points in his phrenic pool.</Pair>
 </Ability>
-<Ability id="formless-body" extraClasses="hasSubs" icon={["magic-swirl"]}>
+<Ability id="formless-body" extraClasses="hasSubs" icon={["magic"]}>
 <Pair single id="formless-body" flavor="A formless adept gradually sheds his body, taking on increasingly nebulous forms.">Formless Body</Pair>
 <Pair hl title="Replaces">Psychic discipline, discipline powers</Pair>
 <Pair title="Usage">3 + Charisma modifier rounds/day; these rounds need not be consecutive, but they must be spent in 1-round increments</Pair>
 <Pair title="Standard Action">A formless adept can assume a <em>formless body.</em> Resuming his physical form takes another standard action; otherwise, the formless adept continues spending rounds of <em>formless body</em> until he runs out of them. The formless adept must return to his physical form before assuming a different <em>formless body.</em></Pair>
 <Pair title="Special">The types of <em>formless body</em> are listed below.</Pair>
 </Ability>
-<Ability id="blurred-body-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="blurred-body-su" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="blurred-body-su">Blurred Body (Su)</Pair>
 <Pair title="Prerequisites">1st level psychic</Pair>
 <Pair title="Ability">A formless adept can act under the effect of a <Link to="/spell/blur">blur</Link> spell.</Pair>
 <Pair title="At 5th Level">The formless adept can use this ability for a number of minutes per day instead of rounds per day. These minutes don't have to be used consecutively, but must be used in 1-minute increments.</Pair>
 </Ability>
-<Ability id="gaseous-body-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="gaseous-body-su" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="gaseous-body-su">Gaseous Body (Su)</Pair>
 <Pair title="Prerequisites">5th level psychic</Pair>
 <Pair title="Ability">A formless adept can become gaseous as <Link to="/spell/gaseous_form">gaseous form</Link>.</Pair>
 <Pair title="At 13th Level">The formless adept can use this ability for a number of minutes per day instead of rounds per day. These minutes don't have to be used consecutively, but must be used in 1-minute increments.</Pair>
 </Ability>
-<Ability id="incorporeal-body-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="incorporeal-body-su" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="incorporeal-body-su">Incorporeal Body (Su)</Pair>
 <Pair title="Prerequisites">13th level psychic</Pair>
 <Pair title="Ability">A formless adept can become <Link to="/umr/incorporeal">incorporeal</Link>.</Pair>
 </Ability>
-<Ability id="formless-spell" icon={["magic-swirl"]}>
+<Ability id="formless-spell" icon={["magic"]}>
 <Pair single id="formless-spell">Formless Spell</Pair>
 <Pair hl title="Replaces">1st-level phrenic amplification</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">This is a phrenic amplification. The formless adept can spend 1 point from his phrenic pool to cast a spell with a standard-action casting time as part of the action he uses to assume his <em>formless body,</em> expending the spell slot as normal.</Pair>
 </Ability>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">Discipline spells</Pair>
 <Pair title="Ability">The formless adept adds extra spells to his list of spells known while he's in a <em>formless body</em> (including when he uses the <em>formless spell</em> phrenic amplification). Spells with a duration last for their full duration, even if the psychic reverts to his physical form. The formless adept gains the following spells below at the given psychic level.</Pair>
@@ -272,14 +272,14 @@ const _formless_adept = {title: "Formless Adept", jsx: <><h2 id="arc-psychic-for
 <Pair plain title="18th"><Link to="/spell/dominate_monster">Dominate monster</Link>, <Link to="/spell/telekinetic_storm">telekinetic storm</Link></Pair>
 <Pair title="Special">For feats and other abilities that require these spells as prerequisites, the psychic counts as knowing the spells but can benefit from the feats and abilities only while in a <em>formless body.</em></Pair>
 </Ability>
-<Ability id="psychic-possession-su" icon={["magic-swirl"]}>
+<Ability id="psychic-possession-su" icon={["magic"]}>
 <Pair single id="psychic-possession-su">Psychic Possession (Su)</Pair>
 <Pair hl title="Replaces">15th-level phrenic amplification</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Ability">While using his <em>incorporeal body</em> ability, a formless adept can attempt to psychically possess another living creature. To use this ability, the formless adept must be adjacent to the target. This effect works as the <Link to="/spell/greater_possession">greater possession</Link> spell and can be maintained only as long as the formless adept maintains his <em>incorporeal body</em> form.</Pair>
 <Pair title="Special">The target can attempt a Will save with a DC equal to 10 + 1/2 the formless adept's class level + the formless adept's Intelligence modifier to resist the effect. A creature that successfully saves is immune to the formless adept's psychic possession for 24 hours.</Pair>
 </Ability>
-<Ability id="formless-master-su" icon={["upgrade","armor-upgrade"]}>
+<Ability id="formless-master-su" icon={["boost","def"]}>
 <Pair single id="formless-master-su">Formless Master (Su)</Pair>
 <Pair hl title="Replaces">Remade self</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -289,24 +289,24 @@ const _formless_adept = {title: "Formless Adept", jsx: <><h2 id="arc-psychic-for
 </>};
 const _magaambyan_telepath = {title: "Magaambyan Telepath", jsx: <><h2 id="arc-psychic-magaambyan_telepath-magaambyan-telepath">Magaambyan Telepath</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 27</Link><br/>While most students of the <Link to="/rule/magaambya">Magaambya</Link> in the Mwangi Expanse focus on the blending of arcane and divine magic, followers of Old-Mage Jatembe's more esoteric wisdom instead focus on the occult connection between all living creatures and the resonance between the natural and supernatural world. These Magaambyan telepaths hone their mental abilities to detect such spiritual and eldritch bonds, and attempt to commune with the mind of the jungle or the hearts of its wild inhabitants. Whether seeking information that only nature knows or attempting to impose their will upon the natural world, these psychics employ techniques that few outside of the Magaambya understand.</p>
-<Ability id="primal-spells" icon={["spell-book"]}>
+<Ability id="primal-spells" icon={["learn"]}>
 <Pair single id="primal-spells">Primal Spells</Pair>
 <Pair hl title="Replaces">Discipline spells</Pair>
 <Pair title="Ability">A Magaambyan telepath adds one 1st-level spell from the <Link to="/main/druid_spell">druid spell list</Link> to the psychic spell list and her spells known. Each time a Magaambyan telepath gains the ability to cast a new level of spell, she can add one spell of that level from the druid spell list to both the psychic spell list and her spells known. She casts these spells as psychic spells, and once the spells are selected these choices cannot be changed.</Pair>
 </Ability>
-<Ability id="natures-command-ex" icon={["upgrade"]}>
+<Ability id="natures-command-ex" icon={["boost"]}>
 <Pair single id="natures-command-ex" flavor="The Magaambyan telepath's mind-affecting spells can affect even plant creatures.">Nature's Command (Ex)</Pair>
 <Pair hl title="Replaces">1st- and 11th-level phrenic amplifications</Pair>
 <Pair title="Ability">When she casts a mind-affecting spell, the Magaambyan telepath can spend 2 points from her phrenic pool to overcome a plant creature's immunity to mind-affecting effects for the purposes of that spell. This ability functions even on mindless plant creatures, but it has no effect on creatures that aren't plants.</Pair>
 <Pair title="At 11th Level">When the Magaambyan telepath casts a mind-affecting or language-dependent spell, the psychic can spend 2 points from her phrenic pool to cause the spell to affect creatures of the plant and animal types as if they were humanoids that understood her language.</Pair>
 </Ability>
-<Ability id="know-the-land-sp" icon={["magic-swirl"]}>
+<Ability id="know-the-land-sp" icon={["magic"]}>
 <Pair single id="know-the-land-sp">Know the Land (Sp)</Pair>
 <Pair hl title="Replaces">Telepathic bond</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Ability">The Magaambyan telepath can cast <Link to="/spell/commune_with_nature">commune with nature</Link> as a spell-like ability once per day, using her psychic level as her caster level. She can also expend any unused spell slot of 5th level or higher to cast <em>commune with nature.</em></Pair>
 </Ability>
-<Ability id="wild-mind-su" icon={["upgrade"]}>
+<Ability id="wild-mind-su" icon={["boost"]}>
 <Pair single id="wild-mind-su">Wild Mind (Su)</Pair>
 <Pair hl title="Alters">Telepathy</Pair>
 <Pair title="Gained">At 17th Level</Pair>
@@ -315,7 +315,7 @@ const _magaambyan_telepath = {title: "Magaambyan Telepath", jsx: <><h2 id="arc-p
 </>};
 const _mutation_mind = {title: "Mutation Mind", jsx: <><h2 id="arc-psychic-mutation_mind-mutation-mind">Mutation Mind</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 105</Link><br/>Exposure to unintended spell effects, curses, or sources of radiation cause some to manifest psychic powers. When a mutation mind uses her psychic abilities, her physical body changes under the stress, and she risks losing control if she pushes too far.</p>
-<Ability id="physical-mutation-su" icon={["upgrade"]}>
+<Ability id="physical-mutation-su" icon={["boost"]}>
 <Pair single id="physical-mutation-su">Physical Mutation (Su)</Pair>
 <Pair hl title="Replaces">1st-level phrenic amplification</Pair>
 <Pair title="Swift Action">A mutation mind's psychic powers warp her body, allowing her to physically mutate herself, which grants her a +4 enhancement bonus to Strength and a -2 penalty to Intelligence.</Pair>
@@ -324,93 +324,93 @@ const _mutation_mind = {title: "Mutation Mind", jsx: <><h2 id="arc-psychic-mutat
 <Pair title="At 12th Level">The bonus to Strength increases to +6.</Pair>
 <Pair title="Special">After the mutation ends, the mutation mind is fatigued and can't activate a <em>physical mutation</em> again for 1 round. Turning back to normal before the end of a 1-minute increment takes a <strong className="hl">standard action</strong>.</Pair>
 </Ability>
-<Ability id="bodily-mutations" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="bodily-mutations" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="bodily-mutations">Bodily Mutations</Pair>
 <Pair hl title="Alters">Phrenic amplifications</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">Whenever a mutation mind gains a phrenic amplification, she can select either a phrenic amplification or a <em>bodily mutation.</em> A <em>bodily mutation</em> grants its benefit only when the mutation mind is affected by her <em>physical mutation.</em> Each time she activates her <em>physical mutation,</em> she can activate any number of <em>bodily mutations</em> she possesses.</Pair>
 </Ability>
-<Ability id="adhesive-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="adhesive-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="adhesive-ex">Adhesive (Ex)</Pair>
 <Pair title="Passive Ability">The mutation mind's skin becomes sticky, granting her a +4 bonus on <Link to="/rule/disarm">disarm</Link> and <Link to="/rule/grapple">grapple</Link> combat maneuver checks.</Pair>
 </Ability>
-<Ability id="bite-attack-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="bite-attack-ex" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="bite-attack-ex">Bite Attack (Ex)</Pair>
 <Pair title="Ability">The mutation mind's mouth fills with sharp teeth, allowing her to make a <Link to="/umr/bite_attack">bite attack</Link> as part of a full-attack action at her highest base attack bonus. This attack deals 1d4 points of damage (1d3 if Small) and counts as a primary attack unless combined with manufactured weapon attacks, as normal.</Pair>
 </Ability>
-<Ability id="bulging-eyes-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="bulging-eyes-ex" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="bulging-eyes-ex">Bulging Eyes (Ex)</Pair>
 <Pair title="Ability">The mutation mind's eyes grow large and round, granting her darkvision with a range of 60 feet.</Pair>
 </Ability>
-<Ability id="claws-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="claws-ex" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="claws-ex">Claws (Ex)</Pair>
 <Pair title="Ability">The mutation mind's hands turn into claws, allowing her to make two claw attacks as a full-attack action at her highest base attack bonus. Each of these attacks deals 1d4 points of damage (1d3 if Small) and counts as a primary attack unless combined with manufactured weapon attacks, as normal.</Pair>
 </Ability>
-<Ability id="elongated-fingers-ex" extraClasses="subAbility" icon={["upgrade","magic-palm"]}>
+<Ability id="elongated-fingers-ex" extraClasses="subAbility" icon={["boost","touch"]}>
 <Pair single id="elongated-fingers-ex">Elongated Fingers (Ex)</Pair>
 <Pair title="Ability">The mutation mind's fingers grow long and supple, increasing her reach by 5 feet when she's making melee touch attacks.</Pair>
 </Ability>
-<Ability id="elongated-legs-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="elongated-legs-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="elongated-legs-ex">Elongated Legs (Ex)</Pair>
 <Pair title="Ability">The mutation mind's legs become long and spindly, increasing her base movement by 10 feet.</Pair>
 </Ability>
-<Ability id="energy-resistance-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="energy-resistance-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="energy-resistance-ex">Energy Resistance (Ex)</Pair>
 <Pair title="Passive Ability">The mutation mind's body changes in color and texture, and gains energy resistance 5 to one energy type (acid, cold, electricity, fire, or sonic), chosen when this mutation is selected.</Pair>
 <Pair title="Special">This mutation can be selected multiple times. Each time it is selected, the mutation mind either chooses an additional energy type to gain energy resistance 5 against or increases the resistance granted to one existing type by 5.</Pair>
 </Ability>
-<Ability id="enlarged-torso-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="enlarged-torso-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="enlarged-torso-ex">Enlarged Torso (Ex)</Pair>
 <Pair title="Passive Ability">The mutation mind's torso enlarges disproportionately with the rest of her body, granting her a +2 natural armor bonus to AC.</Pair>
 </Ability>
-<Ability id="rubbery-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="rubbery-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="rubbery-ex">Rubbery (Ex)</Pair>
 <Pair title="Passive Ability">The mutation mind's body becomes soft and rubbery, granting her DR 2/-.</Pair>
 </Ability>
-<Ability id="slimy-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="slimy-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="slimy-ex">Slimy (Ex)</Pair>
 <Pair title="Passive Ability">The mutation mind exudes a thin layer of oily slime over her body, granting her a +4 bonus to CMD.</Pair>
 </Ability>
-<Ability id="phrenic-empowerment-su" icon={["upgrade","broken-shield"]}>
+<Ability id="phrenic-empowerment-su" icon={["boost","down"]}>
 <Pair single id="phrenic-empowerment-su" flavor={<>A mutation mind's phrenic amplifications empower her <em>physical mutation.</em></>}>Phrenic Empowerment (Su)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">Whenever a mutation mind modifies a spell with a phrenic amplification while affected by her <em>physical mutation,</em> she can increase the bonus to her Strength score from her <em>physical mutation</em> by 2 for a number of rounds equal to the level of the spell she cast. This bonus doesn't stack; if the mutation mind activates it again, she uses the longer duration but doesn't increase the bonus.</Pair>
 <Pair title="Special">While under the effect of phrenic empowerment, whenever the mutation mind takes damage, she risks losing control of her powers. At the end of each turn that she takes hit point damage, the mutation mind must succeed at a Will save (DC = 15 + 1/2 her character level) or take a -2 penalty on Will saving throws and to Intelligence. These penalties last for 1 hour after the <em>physical mutation</em> ends and stack with themselves. If the penalty lowers her Intelligence score to 0, the mutation mind is comatose until 1 hour after <em>physical mutation</em> ends.</Pair>
 </Ability>
-<Ability id="improved-bodily-mutations" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="improved-bodily-mutations" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="improved-bodily-mutations">Improved Bodily Mutations</Pair>
 <Pair hl title="Alters">Major amplifications</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">A mutation mind can select one of the following <em>improved bodily mutations</em> instead of a phrenic amplification.</Pair>
 </Ability>
-<Ability id="aquatic-form-ex" extraClasses="subAbility" icon={["stairs-goal","broken-shield"]}>
+<Ability id="aquatic-form-ex" extraClasses="subAbility" icon={["power","down"]}>
 <Pair single id="aquatic-form-ex">Aquatic Form (Ex)</Pair>
 <Pair title="Ability">The mutation mind's legs fuse into a tail and fins to sprout from her back and side, granting her a swim speed of 30 feet, <Link to="/umr/tremorsense">tremorsense</Link> with a range of 30 feet (affecting other creatures in contact with the same body of water), and the <Link to="/subtype/aquatic">aquatic</Link> subtype. Her base land speed is reduced to 10 feet.</Pair>
 </Ability>
-<Ability id="enlarged-body-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="enlarged-body-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="enlarged-body-ex">Enlarged Body (Ex)</Pair>
 <Pair title="Passive Ability">The mutation mind's body swells and stretches, enlarging her as the <Link to="/spell/enlarge_person">enlarge person</Link> spell but up to two size categories larger (maximum Huge).</Pair>
 </Ability>
-<Ability id="multiple-eyes-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="multiple-eyes-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="multiple-eyes-ex">Multiple Eyes (Ex)</Pair>
 <Pair title="Passive Ability">Multiple eyes erupt all over the mutation mind's body. She can't be <Link to="/rule/flanked">flanked</Link> and gains a +4 bonus on Perception checks.</Pair>
 </Ability>
-<Ability id="recuperation-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="recuperation-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="recuperation-ex">Recuperation (Ex)</Pair>
 <Pair title="Passive Ability">The mutation mind heals quickly from physical wounds, gaining <Link to="/umr/fast_healing">fast healing</Link> 5.</Pair>
 </Ability>
-<Ability id="toppling-fists-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="toppling-fists-ex" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="toppling-fists-ex">Toppling Fists (Ex)</Pair>
 <Pair title="Ability">The mutation mind's fists become large masses of flesh, allowing her to attempt a <Link to="/rule/bull_rush">bull rush</Link> combat maneuver check against one creature within 10 feet of her as a <strong className="hl">standard action</strong>.</Pair>
 </Ability>
-<Ability id="wings-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="wings-ex" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="wings-ex">Wings (Ex)</Pair>
 <Pair title="Ability">The mutation mind sprouts a pair of fleshy, bat-like wings, giving her a fly speed of 60 feet with average maneuverability.</Pair>
 </Ability>
 </>};
 const _psychic_duelist = {title: "Psychic Duelist", jsx: <><h2 id="arc-psychic-psychic_duelist-psychic-duelist">Psychic Duelist</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 107</Link><br/>Psychic duelists hone their mental powers for combat, much as warriors do with their blades. They specialize in <Link to="/rule/psychic_duels">psychic duels</Link>, perfecting their thought-form creatures into mighty weapons.</p>
-<Ability id="psychic-duel-acumen-ex" icon={["spell-book","magic-swirl","upgrade"]}>
+<Ability id="psychic-duel-acumen-ex" icon={["learn","magic","boost"]}>
 <Pair single id="psychic-duel-acumen-ex">Psychic Duel Acumen (Ex)</Pair>
 <Pair hl title="Replaces">4th-level discipline spell</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -418,7 +418,7 @@ const _psychic_duelist = {title: "Psychic Duelist", jsx: <><h2 id="arc-psychic-p
 <Pair title="At 6th Level">She can also expend any unused psychic spell slot of 3rd level or higher to cast <em>instigate psychic duel.</em> If she does so, she uses the level of the spell slot expended to determine the Will save DC.</Pair>
 <Pair title="At 7th Level">When the psychic duelist sacrifices points from her phrenic pool to generate <em>manifestation points</em> (see below) for an offensive manifestation, she uses d8s for damage dice instead of d4s.</Pair>
 </Ability>
-<Ability id="manifestation-amplifications" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="manifestation-amplifications" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="manifestation-amplifications">Manifestation Amplifications</Pair>
 <Pair hl title="Replaces">7th-level phrenic amplification</Pair>
 <Pair hl title="Alters">Phrenic amplifications</Pair>
@@ -426,7 +426,7 @@ const _psychic_duelist = {title: "Psychic Duelist", jsx: <><h2 id="arc-psychic-p
 <Pair title="Ability">A psychic duelist gains a <em>manifestation amplification</em> instead of a phrenic amplification; thereafter, whenever the psychic duelist gains a phrenic amplification, she can select either a phrenic amplification or a <em>manifestation amplification.</em></Pair>
 <Pair title="Info">A <em>manifestation amplification</em> functions for a manifestation as a phrenic amplification does for a spell, with the same restrictions. The manifestation being amplified is called the linked manifestation. Phrenic pool points spent toward <em>manifestation amplifications</em> are separate from points sacrificed to generate <em>manifestation points.</em> For example, a psychic duelist capable of casting 4th-level spells (with a maximum of 4 <em>MP</em> per manifestation) could turn 4 points from her phrenic pool into <em>MP</em> and spend 2 points on a <em>manifestation amplification,</em> expending a total of 6 points from her phrenic pool.</Pair>
 </Ability>
-<Ability id="extended-effect-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="extended-effect-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="extended-effect-ex">Extended Effect (Ex)</Pair>
 <Pair title="Ability">The psychic duelist can spend points from her phrenic pool to increase the duration of a condition by 1 round per point spent. She can spend a maximum of 1 phrenic pool point in this way.</Pair>
 <Pair title="At 11th Level">This maximum becomes 2.</Pair>
@@ -434,31 +434,31 @@ const _psychic_duelist = {title: "Psychic Duelist", jsx: <><h2 id="arc-psychic-p
 <Pair title="At 19th Level">This maximum becomes 4.</Pair>
 <Pair title="Special">If the target succeeds at its saving throw, this amplification has no effect (though the points are still lost). This amplification can be linked only to offensive manifestations that impose conditions.</Pair>
 </Ability>
-<Ability id="faithful-creature-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="faithful-creature-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="faithful-creature-ex">Faithful Creature (Ex)</Pair>
 <Pair title="Ability">When she manifests a thought-form creature, the psychic duelist can spend 1 point from her phrenic pool to give that creature the ability to persist even if it doesn't attack. She can concentrate to maintain the creature as a <strong className="hl">swift action</strong> instead of as a full-round action, but the creature can attack only if the psychic duelist concentrates as a <strong className="hl">full-round action</strong>. In addition, the psychic backlash damage from that thought-form creature is halved.</Pair>
 <Pair title="Special">This amplification can be linked only to thought-form creature manifestations.</Pair>
 </Ability>
-<Ability id="punishing-thought-form-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="punishing-thought-form-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="punishing-thought-form-ex">Punishing Thought-form (Ex)</Pair>
 <Pair title="Ability">The psychic duelist can spend 1 point from her phrenic pool to increase the damage die size of an offensive manifestation by one step (d4 to d6, d6 to d8, or d8 to d10).</Pair>
 <Pair title="Special">This amplification can be linked only to offensive manifestations.</Pair>
 </Ability>
-<Ability id="reciprocal-defense-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="reciprocal-defense-su" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="reciprocal-defense-su">Reciprocal Defense (Su)</Pair>
 <Pair title="Ability">The psychic duelist can spend 1 point from her phrenic pool when using a defensive manifestation to improve her defenses in the real world as well. Her physical body gains a +2 insight bonus to AC for the number of rounds the defensive manifestation lasts, or for 1 round if the manifestation doesn't have a duration.</Pair>
 <Pair title="At 11th Level">This bonus becomes +3.</Pair>
 <Pair title="At 15th Level">This bonus increases to +4.</Pair>
 <Pair title="Special">This amplification can be linked only to defensive manifestations.</Pair>
 </Ability>
-<Ability id="thought-made-real-su" icon={["stairs-goal"]}>
+<Ability id="thought-made-real-su" icon={["power"]}>
 <Pair single id="thought-made-real-su">Thought Made Real (Su)</Pair>
 <Pair hl title="Replaces">Telepathic bond</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Ability">A psychic duelist can bring offensive manifestations directly into her foes' minds, attacking with them without entering a psychic duel. When doing so, she can generate <em>manifestation points</em> only by sacrificing a spell, not through any other methods. Using an offensive manifestation in this way functions as casting a spell with a <strong className="hl">full-round action</strong> casting time. Conditions imposed by these offensive manifestations last for their full duration, even though the target isn't in a psychic duel. The psychic duelist can use <em>manifestation amplifications</em> on offensive manifestations created this way. Such offensive manifestations can't affect thought-form creatures.</Pair>
 <Pair title="Special">This is a mind-affecting illusion (phantasm) effect. A thought-form creature manifested in this way is visible only to its target.</Pair>
 </Ability>
-<Ability id="expert-manifester-ex" icon={["upgrade"]}>
+<Ability id="expert-manifester-ex" icon={["boost"]}>
 <Pair single id="expert-manifester-ex">Expert Manifester (Ex)</Pair>
 <Pair hl title="Replaces">Telepathy</Pair>
 <Pair title="Gained">At 17th Level</Pair>
@@ -468,17 +468,17 @@ const _psychic_duelist = {title: "Psychic Duelist", jsx: <><h2 id="arc-psychic-p
 const _psychic_marauder = {title: "Psychic Marauder", jsx: <><h2 id="arc-psychic-psychic_marauder-psychic-marauder">Psychic Marauder</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 22</Link><br/>When one encounters aberrant creatures, it can unlock psychic potential within a person, though this experience is traumatic for those who endure it. The psychic marauder's powers come hand in hand with madness, either from exposure to alien psyches or from terrifying glimpses into the cosmos that the psychic can't suppress. But she does not crumble under the strain of this insanity; instead, she cordons it off to use as a shield against other psychic intrusions and harnesses it to unleash it upon the world around her.</p>
 <p>Psychic marauders in Orv have often been corrupted by the influence of <Link to="/monster/aboleth">aboleths</Link> or <Link to="/monster/neothelid">neothelids</Link>.</p>
-<Ability id="alignment" icon={["hazard-sign"]}>
+<Ability id="alignment" icon={["warning"]}>
 <Pair single id="alignment">Alignment</Pair>
 <Pair title="Info">A psychic marauder must be of nonlawful alignment. A psychic marauder that becomes lawful loses her <em>aura of insanity.</em> However, she retains all other benefits of this archetype.</Pair>
 </Ability>
-<Ability id="skewed-mentality-ex" icon={["armor-upgrade"]}>
+<Ability id="skewed-mentality-ex" icon={["def"]}>
 <Pair single id="skewed-mentality-ex">Skewed Mentality (Ex)</Pair>
 <Pair hl title="Replaces">Detect thoughts</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A psychic marauder becomes alienated from reality as others perceive it. The psychic marauder uses her Charisma modifier on Will saves instead of her Wisdom modifier.</Pair>
 </Ability>
-<Ability id="aura-of-insanity-su" icon={["aura","armor-downgrade","rolling-dices"]}>
+<Ability id="aura-of-insanity-su" icon={["aura","lower","roll"]}>
 <Pair single id="aura-of-insanity-su" flavor="A psychic marauder's madness begins to leak out.">Aura of Insanity (Su)</Pair>
 <Pair hl title="Replaces">3rd-, 11th-, and 19th-level phrenic amplifications</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -492,13 +492,13 @@ const _psychic_marauder = {title: "Psychic Marauder", jsx: <><h2 id="arc-psychic
 <Pair title="At 19th Level">When a creature would roll to determine the effects of a confusion effect while within the <em>aura of insanity,</em> the psychic marauder can spend 2 points from her phrenic pool to select the result of the affected creature's confused condition without rolling. This does not allow the psychic marauder to control how that result is applied.</Pair>
 <Pair title="Special">The <em>aura of insanity</em> lasts for a number of rounds equal to the psychic marauder's Charisma modifier. This is a mind-affecting effect.</Pair>
 </Ability>
-<Ability id="cracked-perspectives-ex" icon={["armor-upgrade"]}>
+<Ability id="cracked-perspectives-ex" icon={["def"]}>
 <Pair single id="cracked-perspectives-ex">Cracked Perspectives (Ex)</Pair>
 <Pair hl title="Replaces">Telepathic bond</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Passive Ability">A psychic marauder's growing madness renders her immune to confusion and insanity effects.</Pair>
 </Ability>
-<Ability id="unreal-understanding-ex" icon={["armor-upgrade"]}>
+<Ability id="unreal-understanding-ex" icon={["def"]}>
 <Pair single id="unreal-understanding-ex">Unreal Understanding (Ex)</Pair>
 <Pair hl title="Replaces">Remade self</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -507,21 +507,21 @@ const _psychic_marauder = {title: "Psychic Marauder", jsx: <><h2 id="arc-psychic
 </>};
 const _terror_weaver = {title: "Terror Weaver", jsx: <><h2 id="arc-psychic-terror_weaver-terror-weaver">Terror Weaver</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 26</Link><br/>A number of exceptional Darklands half-orcs have developed potent psychic abilities, unlocked by generations of exposure to a specific combination of mind-altering fungi and radiation. Powerful half-orc manipulators often rule smaller Darklands tribes from the shadows, but with few orcs able to match their mental acuity, their only limit is their own ambition.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-psychic-terror_weaver--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/half_orc">Half-orc (Gloomkin)</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="manipulation-sp" icon={["magic-swirl","spell-book"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-psychic-terror_weaver--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/half_orc">Half-orc (Gloomkin)</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="manipulation-sp" icon={["magic","learn"]}>
 <Pair single id="manipulation-sp">Manipulation (Sp)</Pair>
 <Pair hl title="Replaces">Detect thoughts</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A terror weaver can cast <Link to="/spell/charm_person">charm person</Link> once per day as a spell-like ability. He can also expend any unused spell slot of 1st level or higher to cast <em>charm person.</em> If he does so, he uses the level of the spell slot expended to determine the save DC.</Pair>
 <Pair title="Special">When a terror weaver gains this ability, if he already knows <em>charm person,</em> he can learn a different 1st-level spell in place of <em>charm person,</em> losing the old spell in exchange for the new one.</Pair>
 </Ability>
-<Ability id="aura-of-intimidation-sp" icon={["magic-swirl"]}>
+<Ability id="aura-of-intimidation-sp" icon={["magic"]}>
 <Pair single id="aura-of-intimidation-sp" flavor="Because he lacks the physical prowess of most orcs, a terror weaver seeks to end fights before they start.">Aura of Intimidation (Sp)</Pair>
 <Pair hl title="Replaces">Telepathic bond, 11th- and 19th-level phrenic amplifications</Pair>
 <Pair title="At 9th Level">He can cast <Link to="/spell/aura_of_doom">aura of doom</Link> as a spell-like ability once per day. He can also expend any unused spell slot of 4th level or higher to cast <em>aura of doom.</em> Casting the spell using a higher-level spell slot gives no benefit on its own, but the terror weaver can apply metamagic feats that would increase the spell level to the appropriate level.</Pair>
 <Pair title="At 11th Level">A terror weaver's <em>aura of doom</em> causes enemies to become <Link to="/misc/frightened">frightened</Link> instead of <Link to="/misc/shaken">shaken</Link>.</Pair>
 <Pair title="At 19th Level">It causes enemies to become <Link to="/misc/panicked">panicked</Link>.</Pair>
 </Ability>
-<Ability id="persistent-nightmare-sp" icon={["magic-swirl","armor-downgrade"]}>
+<Ability id="persistent-nightmare-sp" icon={["magic","lower"]}>
 <Pair single id="persistent-nightmare-sp" flavor="Gloomkin often suffer from lifetimes of cruelty and abuse, and a terror weaver repays that suffering back onto his tormentors.">Persistent Nightmare (Sp)</Pair>
 <Pair hl title="Replaces">15th-level phrenic amplification</Pair>
 <Pair title="At 15th Level">When he successfully casts a mind-affecting spell on a target, he can spend 2 points from his phrenic pool to afflict the target with a <Link to="/spell/nightmare">nightmare</Link> spell the next time it goes to sleep. The day after <em>nightmare</em> has taken effect, regardless of the victim's saving throw, the target takes a -2 penalty on Will saves against the terror weaver's mind-affecting spells and abilities for 24 hours.</Pair>

@@ -2,7 +2,7 @@ import Link from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 const _aballonian_resilience = {title: "Aballonian Resilience", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="aballonian-resilience" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="aballonian-resilience" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="aballonian-resilience">Aballonian Resilience</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Aballon</Pair>
@@ -11,7 +11,7 @@ const _aballonian_resilience = {title: "Aballonian Resilience", topLink: ["Regio
 </Ability>
 </>};
 const _abendego_pilot = {title: "Abendego Pilot", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="abendego-pilot" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="abendego-pilot" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="abendego-pilot">Abendego Pilot</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Eye of Abendego</Pair>
@@ -21,7 +21,7 @@ const _abendego_pilot = {title: "Abendego Pilot", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _abendego_spellpiercer = {title: "Abendego Spellpiercer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="abendego-spellpiercer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="abendego-spellpiercer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="abendego-spellpiercer">Abendego Spellpiercer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Sodden Lands</Pair>
@@ -30,7 +30,7 @@ const _abendego_spellpiercer = {title: "Abendego Spellpiercer", topLink: ["Regio
 </Ability>
 </>};
 const _aberration_hunter = {title: "Aberration Hunter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="aberration-hunter" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="aberration-hunter" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="aberration-hunter">Aberration Hunter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Shenmen</Pair>
@@ -39,7 +39,7 @@ const _aberration_hunter = {title: "Aberration Hunter", topLink: ["Regional Trai
 </Ability>
 </>};
 const _abolitionist_hunter = {title: "Abolitionist Hunter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="abolitionist-hunter" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="abolitionist-hunter" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="abolitionist-hunter">Abolitionist Hunter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Okeno</Pair>
@@ -48,7 +48,7 @@ const _abolitionist_hunter = {title: "Abolitionist Hunter", topLink: ["Regional 
 </Ability>
 </>};
 const _absalom_hotspur = {title: "Absalom Hotspur", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="absalom-hotspur" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="absalom-hotspur" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="absalom-hotspur">Absalom Hotspur</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Absalom</Pair>
@@ -57,7 +57,7 @@ const _absalom_hotspur = {title: "Absalom Hotspur", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _abyssal_eavesdropper = {title: "Abyssal Eavesdropper", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
-<Ability id="abyssal-eavesdropper" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="abyssal-eavesdropper" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="abyssal-eavesdropper">Abyssal Eavesdropper</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Sarkoris or The Worldwound</Pair>
@@ -68,7 +68,7 @@ const _abyssal_eavesdropper = {title: "Abyssal Eavesdropper", topLink: ["Regiona
 </Ability>
 </>};
 const _accustomed_to_trickery = {title: "Accustomed to Trickery", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World</Link></p>
-<Ability id="accustomed-to-trickery" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="accustomed-to-trickery" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="accustomed-to-trickery">Accustomed to Trickery</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darkmoon Wood</Pair>
@@ -77,7 +77,7 @@ const _accustomed_to_trickery = {title: "Accustomed to Trickery", topLink: ["Reg
 </Ability>
 </>};
 const _acolyte_of_razmir = {title: "Acolyte of Razmir", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="acolyte-of-razmir" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="acolyte-of-razmir" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="acolyte-of-razmir">Acolyte of Razmir</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Razmiran</Pair>
@@ -86,7 +86,7 @@ const _acolyte_of_razmir = {title: "Acolyte of Razmir", topLink: ["Regional Trai
 </Ability>
 </>};
 const _acupuncturist = {title: "Acupuncturist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="acupuncturist" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="acupuncturist" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="acupuncturist">Acupuncturist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Chu Ye</Pair>
@@ -95,7 +95,7 @@ const _acupuncturist = {title: "Acupuncturist", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _agent_of_the_sultana = {title: "Agent of the Sultana", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="agent-of-the-sultana" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="agent-of-the-sultana" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="agent-of-the-sultana">Agent of the Sultana</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Plane of Earth</Pair>
@@ -104,7 +104,7 @@ const _agent_of_the_sultana = {title: "Agent of the Sultana", topLink: ["Regiona
 </Ability>
 </>};
 const _airship_captain = {title: "Airship Captain", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="airship-captain" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="airship-captain" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="airship-captain">Airship Captain</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Plane of Air</Pair>
@@ -113,7 +113,7 @@ const _airship_captain = {title: "Airship Captain", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _akitonian_ferocity = {title: "Akitonian Ferocity", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="akitonian-ferocity" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="akitonian-ferocity" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="akitonian-ferocity">Akitonian Ferocity</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Akiton</Pair>
@@ -122,7 +122,7 @@ const _akitonian_ferocity = {title: "Akitonian Ferocity", topLink: ["Regional Tr
 </Ability>
 </>};
 const _alabaster_odalisque = {title: "Alabaster Odalisque", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="alabaster-odalisque" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="alabaster-odalisque" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="alabaster-odalisque">Alabaster Odalisque</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Jalmeray</Pair>
@@ -134,7 +134,7 @@ const _alabaster_odalisque = {title: "Alabaster Odalisque", topLink: ["Regional 
 </Ability>
 </>};
 const _alchemical_fence = {title: "Alchemical Fence", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons</Link></p>
-<Ability id="alchemical-fence" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="alchemical-fence" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="alchemical-fence">Alchemical Fence</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
@@ -143,7 +143,7 @@ const _alchemical_fence = {title: "Alchemical Fence", topLink: ["Regional Traits
 </Ability>
 </>};
 const _alchemical_prodigy = {title: "Alchemical Prodigy", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link>, <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link></p>
-<Ability id="alchemical-prodigy" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="alchemical-prodigy" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="alchemical-prodigy">Alchemical Prodigy</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
@@ -152,7 +152,7 @@ const _alchemical_prodigy = {title: "Alchemical Prodigy", topLink: ["Regional Tr
 </Ability>
 </>};
 const _alien_origins = {title: "Alien Origins", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook</Link></p>
-<Ability id="alien-origins" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="alien-origins" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="alien-origins">Alien Origins</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Silver Mount</Pair>
@@ -163,7 +163,7 @@ const _alien_origins = {title: "Alien Origins", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _alkenstar_defender = {title: "Alkenstar Defender", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="alkenstar-defender" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="alkenstar-defender" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="alkenstar-defender">Alkenstar Defender</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mana Wastes</Pair>
@@ -172,7 +172,7 @@ const _alkenstar_defender = {title: "Alkenstar Defender", topLink: ["Regional Tr
 </Ability>
 </>};
 const _alkenstar_engineer = {title: "Alkenstar Engineer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="alkenstar-engineer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="alkenstar-engineer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="alkenstar-engineer">Alkenstar Engineer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mana Wastes</Pair>
@@ -181,7 +181,7 @@ const _alkenstar_engineer = {title: "Alkenstar Engineer", topLink: ["Regional Tr
 </Ability>
 </>};
 const _altruistic_diplomat = {title: "Altruistic Diplomat", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="altruistic-diplomat" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="altruistic-diplomat" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="altruistic-diplomat">Altruistic Diplomat</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Hwanggot</Pair>
@@ -190,7 +190,7 @@ const _altruistic_diplomat = {title: "Altruistic Diplomat", topLink: ["Regional 
 </Ability>
 </>};
 const _analytical = {title: "Analytical", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="analytical" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="analytical" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="analytical">Analytical</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
@@ -199,7 +199,7 @@ const _analytical = {title: "Analytical", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _ancestral_weapon = {title: "Ancestral Weapon", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="ancestral-weapon" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="ancestral-weapon" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="ancestral-weapon">Ancestral Weapon</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Numeria</Pair>
@@ -207,7 +207,7 @@ const _ancestral_weapon = {title: "Ancestral Weapon", topLink: ["Regional Traits
 </Ability>
 </>};
 const _andoren_freedom_fighter = {title: "Andoren Freedom Fighter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="andoren-freedom-fighter" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="andoren-freedom-fighter" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="andoren-freedom-fighter">Andoren Freedom Fighter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
@@ -216,7 +216,7 @@ const _andoren_freedom_fighter = {title: "Andoren Freedom Fighter", topLink: ["R
 </Ability>
 </>};
 const _animal_spirit_vitality = {title: "Animal-Spirit Vitality", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="animal-spirit-vitality" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="animal-spirit-vitality" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="animal-spirit-vitality">Animal-Spirit Vitality</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kyonin</Pair>
@@ -225,7 +225,7 @@ const _animal_spirit_vitality = {title: "Animal-Spirit Vitality", topLink: ["Reg
 </Ability>
 </>};
 const _antiquities_smuggler = {title: "Antiquities Smuggler", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="antiquities-smuggler" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="antiquities-smuggler" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="antiquities-smuggler">Antiquities Smuggler</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
@@ -234,7 +234,7 @@ const _antiquities_smuggler = {title: "Antiquities Smuggler", topLink: ["Regiona
 </Ability>
 </>};
 const _anuli_engineer = {title: "Anuli Engineer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/distant_shores">Distant Shores</Link></p>
-<Ability id="anuli-engineer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="anuli-engineer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="anuli-engineer">Anuli Engineer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Anuli</Pair>
@@ -243,7 +243,7 @@ const _anuli_engineer = {title: "Anuli Engineer", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _aquatic_survivalist = {title: "Aquatic Survivalist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="aquatic-survivalist" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="aquatic-survivalist" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="aquatic-survivalist">Aquatic Survivalist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Plane of Water</Pair>
@@ -252,7 +252,7 @@ const _aquatic_survivalist = {title: "Aquatic Survivalist", topLink: ["Regional 
 </Ability>
 </>};
 const _armun_kelisk_scholar = {title: "Armun Kelisk Scholar", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="armun-kelisk-scholar" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="armun-kelisk-scholar" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="armun-kelisk-scholar">Armun Kelisk Scholar</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Plane of Air</Pair>
@@ -261,7 +261,7 @@ const _armun_kelisk_scholar = {title: "Armun Kelisk Scholar", topLink: ["Regiona
 </Ability>
 </>};
 const _artifact_hunter_isp = {title: "Artifact Hunter (ISP)", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="artifact-hunter-isp" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="artifact-hunter-isp" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="artifact-hunter-isp">Artifact Hunter (ISP)</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mwangi Expanse</Pair>
@@ -270,7 +270,7 @@ const _artifact_hunter_isp = {title: "Artifact Hunter (ISP)", topLink: ["Regiona
 </Ability>
 </>};
 const _ash_bane = {title: "Ash Bane", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="ash-bane" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="ash-bane" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="ash-bane">Ash Bane</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>wasteland</Pair>
@@ -279,7 +279,7 @@ const _ash_bane = {title: "Ash Bane", topLink: ["Regional Traits","main/traits_r
 </Ability>
 </>};
 const _aspiring_hellknight = {title: "Aspiring Hellknight", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="aspiring-hellknight" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="aspiring-hellknight" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="aspiring-hellknight">Aspiring Hellknight</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Cheliax</Pair>
@@ -288,7 +288,7 @@ const _aspiring_hellknight = {title: "Aspiring Hellknight", topLink: ["Regional 
 </Ability>
 </>};
 const _awakened_from_stasis = {title: "Awakened from Stasis", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="awakened-from-stasis" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="awakened-from-stasis" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="awakened-from-stasis">Awakened from Stasis</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Apostae</Pair>
@@ -297,7 +297,7 @@ const _awakened_from_stasis = {title: "Awakened from Stasis", topLink: ["Regiona
 </Ability>
 </>};
 const _azlanti_scholar_hftf = {title: "Azlanti Scholar (HFtF)", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe</Link></p>
-<Ability id="azlanti-scholar-hftf" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="azlanti-scholar-hftf" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="azlanti-scholar-hftf">Azlanti Scholar (HFtF)</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ironbound Archipelago</Pair>
@@ -307,7 +307,7 @@ const _azlanti_scholar_hftf = {title: "Azlanti Scholar (HFtF)", topLink: ["Regio
 </Ability>
 </>};
 const _balanced_education = {title: "Balanced Education", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/distant_shores">Distant Shores</Link></p>
-<Ability id="balanced-education" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="balanced-education" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="balanced-education">Balanced Education</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Anuli</Pair>
@@ -315,7 +315,7 @@ const _balanced_education = {title: "Balanced Education", topLink: ["Regional Tr
 </Ability>
 </>};
 const _bandit = {title: "Bandit", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="bandit" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="bandit" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="bandit">Bandit</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
@@ -324,7 +324,7 @@ const _bandit = {title: "Bandit", topLink: ["Regional Traits","main/traits_regio
 </Ability>
 </>};
 const _beachcomber = {title: "Beachcomber", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
-<Ability id="beachcomber" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="beachcomber" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="beachcomber">Beachcomber</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>coastal or river</Pair>
@@ -333,7 +333,7 @@ const _beachcomber = {title: "Beachcomber", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _belem_pirate = {title: "Belem Pirate", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="belem-pirate" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="belem-pirate" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="belem-pirate">Belem Pirate</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Minata</Pair>
@@ -342,7 +342,7 @@ const _belem_pirate = {title: "Belem Pirate", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _bellflower_tiller = {title: "Bellflower Tiller", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="bellflower-tiller" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="bellflower-tiller" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="bellflower-tiller">Bellflower Tiller</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Cheliax</Pair>
@@ -351,7 +351,7 @@ const _bellflower_tiller = {title: "Bellflower Tiller", topLink: ["Regional Trai
 </Ability>
 </>};
 const _bellis_axe_master = {title: "Bellis Axe Master", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/andoran_spirit_of_liberty">Andoran, Spirit of Liberty</Link></p>
-<Ability id="bellis-axe-master" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="bellis-axe-master" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="bellis-axe-master">Bellis Axe Master</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Bellis</Pair>
@@ -360,7 +360,7 @@ const _bellis_axe_master = {title: "Bellis Axe Master", topLink: ["Regional Trai
 </Ability>
 </>};
 const _bellis_honey_harvester = {title: "Bellis Honey Harvester", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/andoran_spirit_of_liberty">Andoran, Spirit of Liberty</Link></p>
-<Ability id="bellis-honey-harvester" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="bellis-honey-harvester" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="bellis-honey-harvester">Bellis Honey Harvester</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Bellis</Pair>
@@ -369,7 +369,7 @@ const _bellis_honey_harvester = {title: "Bellis Honey Harvester", topLink: ["Reg
 </Ability>
 </>};
 const _bellis_log_roller = {title: "Bellis Log Roller", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/andoran_spirit_of_liberty">Andoran, Spirit of Liberty</Link></p>
-<Ability id="bellis-log-roller" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="bellis-log-roller" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="bellis-log-roller">Bellis Log Roller</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Bellis</Pair>
@@ -378,7 +378,7 @@ const _bellis_log_roller = {title: "Bellis Log Roller", topLink: ["Regional Trai
 </Ability>
 </>};
 const _betrayed_ex_noble = {title: "Betrayed Ex-Noble", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="betrayed-ex-noble" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="betrayed-ex-noble" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="betrayed-ex-noble">Betrayed Ex-Noble</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>City of Brass</Pair>
@@ -387,7 +387,7 @@ const _betrayed_ex_noble = {title: "Betrayed Ex-Noble", topLink: ["Regional Trai
 </Ability>
 </>};
 const _big_game_hunter = {title: "Big Game Hunter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="big-game-hunter" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="big-game-hunter" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="big-game-hunter">Big Game Hunter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Realm of the Mammoth Lords</Pair>
@@ -396,7 +396,7 @@ const _big_game_hunter = {title: "Big Game Hunter", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _black_eagle_recruit = {title: "Black Eagle Recruit", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="black-eagle-recruit" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="black-eagle-recruit" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="black-eagle-recruit">Black Eagle Recruit</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lambreth</Pair>
@@ -405,7 +405,7 @@ const _black_eagle_recruit = {title: "Black Eagle Recruit", topLink: ["Regional 
 </Ability>
 </>};
 const _blackthorn_rancher = {title: "Blackthorn Rancher", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="blackthorn-rancher" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="blackthorn-rancher" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="blackthorn-rancher">Blackthorn Rancher</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lambreth</Pair>
@@ -414,7 +414,7 @@ const _blackthorn_rancher = {title: "Blackthorn Rancher", topLink: ["Regional Tr
 </Ability>
 </>};
 const _blessed_of_the_norns = {title: "Blessed of the Norns", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="blessed-of-the-norns" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="blessed-of-the-norns" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="blessed-of-the-norns">Blessed of the Norns</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lands of the Linnorm Kings</Pair>
@@ -423,7 +423,7 @@ const _blessed_of_the_norns = {title: "Blessed of the Norns", topLink: ["Regiona
 </Ability>
 </>};
 const _blighted_physiology = {title: "Blighted Physiology", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="blighted-physiology" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="blighted-physiology" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="blighted-physiology">Blighted Physiology</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Numeria</Pair>
@@ -432,7 +432,7 @@ const _blighted_physiology = {title: "Blighted Physiology", topLink: ["Regional 
 </Ability>
 </>};
 const _blood_potion_brewer = {title: "Blood Potion Brewer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons</Link></p>
-<Ability id="blood-potion-brewer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="blood-potion-brewer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="blood-potion-brewer">Blood Potion Brewer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Belkzen</Pair>
@@ -443,7 +443,7 @@ const _blood_potion_brewer = {title: "Blood Potion Brewer", topLink: ["Regional 
 </Ability>
 </>};
 const _blooded = {title: "Blooded", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="blooded" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="blooded" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="blooded">Blooded</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mindspin Mountains</Pair>
@@ -452,7 +452,7 @@ const _blooded = {title: "Blooded", topLink: ["Regional Traits","main/traits_reg
 </Ability>
 </>};
 const _border_guard = {title: "Border Guard", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="border-guard" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="border-guard" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="border-guard">Border Guard</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kwanlai</Pair>
@@ -461,7 +461,7 @@ const _border_guard = {title: "Border Guard", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _born_under_the_green_star = {title: "Born under the Green Star", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="born-under-the-green-star" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="born-under-the-green-star" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="born-under-the-green-star">Born under the Green Star</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Castrovel</Pair>
@@ -470,7 +470,7 @@ const _born_under_the_green_star = {title: "Born under the Green Star", topLink:
 </Ability>
 </>};
 const _bounty_hunter = {title: "Bounty Hunter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="bounty-hunter" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="bounty-hunter" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="bounty-hunter">Bounty Hunter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Isger</Pair>
@@ -479,7 +479,7 @@ const _bounty_hunter = {title: "Bounty Hunter", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _brave_words = {title: "Brave Words", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 25</Link></p>
-<Ability id="brave-words" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="brave-words" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="brave-words">Brave Words</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ninshaburian</Pair>
@@ -490,7 +490,7 @@ const _brave_words = {title: "Brave Words", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _brevoy_bandit = {title: "Brevoy Bandit", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="brevoy-bandit" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="brevoy-bandit" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="brevoy-bandit">Brevoy Bandit</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mivon</Pair>
@@ -499,7 +499,7 @@ const _brevoy_bandit = {title: "Brevoy Bandit", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _briar_bandit = {title: "Briar Bandit", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="briar-bandit" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="briar-bandit" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="briar-bandit">Briar Bandit</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>forest</Pair>
@@ -508,7 +508,7 @@ const _briar_bandit = {title: "Briar Bandit", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _call_of_the_longships = {title: "Call of the Longships", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="call-of-the-longships" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="call-of-the-longships" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="call-of-the-longships">Call of the Longships</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lands of the Linnorm Kings</Pair>
@@ -517,7 +517,7 @@ const _call_of_the_longships = {title: "Call of the Longships", topLink: ["Regio
 </Ability>
 </>};
 const _candidate_for_perfection = {title: "Candidate for Perfection", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="candidate-for-perfection" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="candidate-for-perfection" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="candidate-for-perfection">Candidate for Perfection</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Jalmeray</Pair>
@@ -526,7 +526,7 @@ const _candidate_for_perfection = {title: "Candidate for Perfection", topLink: [
 </Ability>
 </>};
 const _caravan_nomad = {title: "Caravan Nomad", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast</Link></p>
-<Ability id="caravan-nomad" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="caravan-nomad" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="caravan-nomad">Caravan Nomad</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
@@ -536,7 +536,7 @@ const _caravan_nomad = {title: "Caravan Nomad", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _carpenden_lobber = {title: "Carpenden Lobber", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/andoran_spirit_of_liberty">Andoran, Spirit of Liberty</Link></p>
-<Ability id="carpenden-lobber" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="carpenden-lobber" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="carpenden-lobber">Carpenden Lobber</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Carpenden</Pair>
@@ -545,7 +545,7 @@ const _carpenden_lobber = {title: "Carpenden Lobber", topLink: ["Regional Traits
 </Ability>
 </>};
 const _carpenden_roof_runner = {title: "Carpenden Roof Runner", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/andoran_spirit_of_liberty">Andoran, Spirit of Liberty</Link></p>
-<Ability id="carpenden-roof-runner" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="carpenden-roof-runner" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="carpenden-roof-runner">Carpenden Roof Runner</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Carpenden</Pair>
@@ -554,7 +554,7 @@ const _carpenden_roof_runner = {title: "Carpenden Roof Runner", topLink: ["Regio
 </Ability>
 </>};
 const _cavern_survivor = {title: "Cavern Survivor", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
-<Ability id="cavern-survivor" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="cavern-survivor" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="cavern-survivor">Cavern Survivor</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nar-Voth</Pair>
@@ -563,7 +563,7 @@ const _cavern_survivor = {title: "Cavern Survivor", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _centaur_vengeance = {title: "Centaur Vengeance", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook</Link></p>
-<Ability id="centaur-vengeance" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="centaur-vengeance" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="centaur-vengeance">Centaur Vengeance</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Iobaria</Pair>
@@ -572,7 +572,7 @@ const _centaur_vengeance = {title: "Centaur Vengeance", topLink: ["Regional Trai
 </Ability>
 </>};
 const _chainbreaker = {title: "Chainbreaker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="chainbreaker" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="chainbreaker" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="chainbreaker">Chainbreaker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
@@ -581,7 +581,7 @@ const _chainbreaker = {title: "Chainbreaker", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _channel_the_earth = {title: "Channel the Earth", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="channel-the-earth" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="channel-the-earth" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="channel-the-earth">Channel the Earth</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Plane of Earth</Pair>
@@ -590,7 +590,7 @@ const _channel_the_earth = {title: "Channel the Earth", topLink: ["Regional Trai
 </Ability>
 </>};
 const _charau_ka_slayer = {title: "Charau-Ka Slayer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
-<Ability id="charau-ka-slayer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="charau-ka-slayer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="charau-ka-slayer">Charau-Ka Slayer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mwangi Expanse</Pair>
@@ -599,7 +599,7 @@ const _charau_ka_slayer = {title: "Charau-Ka Slayer", topLink: ["Regional Traits
 </Ability>
 </>};
 const _charmed_innocent = {title: "Charmed Innocent", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
-<Ability id="charmed-innocent" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="charmed-innocent" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="charmed-innocent">Charmed Innocent</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>urban</Pair>
@@ -608,7 +608,7 @@ const _charmed_innocent = {title: "Charmed Innocent", topLink: ["Regional Traits
 </Ability>
 </>};
 const _cheap_to_feed = {title: "Cheap to Feed", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="cheap-to-feed" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="cheap-to-feed" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="cheap-to-feed">Cheap to Feed</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion or Varisia</Pair>
@@ -618,7 +618,7 @@ const _cheap_to_feed = {title: "Cheap to Feed", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _chelish_guerrilla = {title: "Chelish Guerrilla", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link></p>
-<Ability id="chelish-guerrilla" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="chelish-guerrilla" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="chelish-guerrilla">Chelish Guerrilla</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Cheliax</Pair>
@@ -627,7 +627,7 @@ const _chelish_guerrilla = {title: "Chelish Guerrilla", topLink: ["Regional Trai
 </Ability>
 </>};
 const _child_of_mumia = {title: "Child of Mumia", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="child-of-mumia" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="child-of-mumia" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="child-of-mumia">Child of Mumia</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
@@ -635,7 +635,7 @@ const _child_of_mumia = {title: "Child of Mumia", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _child_of_wati = {title: "Child of Wati", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook</Link></p>
-<Ability id="child-of-wati" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="child-of-wati" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="child-of-wati">Child of Wati</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
@@ -644,7 +644,7 @@ const _child_of_wati = {title: "Child of Wati", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _child_of_the_crusades_isp = {title: "Child of the Crusades (ISP)", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="child-of-the-crusades-isp" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="child-of-the-crusades-isp" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="child-of-the-crusades-isp">Child of the Crusades (ISP)</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mendev</Pair>
@@ -653,7 +653,7 @@ const _child_of_the_crusades_isp = {title: "Child of the Crusades (ISP)", topLin
 </Ability>
 </>};
 const _chillblight_emissary = {title: "Chillblight Emissary", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="chillblight-emissary" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="chillblight-emissary" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="chillblight-emissary">Chillblight Emissary</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Irrisen</Pair>
@@ -662,7 +662,7 @@ const _chillblight_emissary = {title: "Chillblight Emissary", topLink: ["Regiona
 </Ability>
 </>};
 const _chilled_by_brutality = {title: "Chilled by Brutality", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
-<Ability id="chilled-by-brutality" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="chilled-by-brutality" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="chilled-by-brutality">Chilled by Brutality</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>tundra</Pair>
@@ -674,7 +674,7 @@ const _chilled_by_brutality = {title: "Chilled by Brutality", topLink: ["Regiona
 </Ability>
 </>};
 const _chivalrous = {title: "Chivalrous", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link>, <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
-<Ability id="chivalrous" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="chivalrous" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="chivalrous">Chivalrous</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Taldor</Pair>
@@ -683,7 +683,7 @@ const _chivalrous = {title: "Chivalrous", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _chosen_child = {title: "Chosen Child", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="chosen-child" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="chosen-child" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="chosen-child">Chosen Child</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Po Li</Pair>
@@ -692,7 +692,7 @@ const _chosen_child = {title: "Chosen Child", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _citizen_of_eleder = {title: "Citizen of Eleder", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
-<Ability id="citizen-of-eleder" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="citizen-of-eleder" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="citizen-of-eleder">Citizen of Eleder</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Eleder</Pair>
@@ -701,7 +701,7 @@ const _citizen_of_eleder = {title: "Citizen of Eleder", topLink: ["Regional Trai
 </Ability>
 </>};
 const _citizen_of_kalabuto = {title: "Citizen of Kalabuto", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
-<Ability id="citizen-of-kalabuto" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="citizen-of-kalabuto" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="citizen-of-kalabuto">Citizen of Kalabuto</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kalabuto</Pair>
@@ -710,7 +710,7 @@ const _citizen_of_kalabuto = {title: "Citizen of Kalabuto", topLink: ["Regional 
 </Ability>
 </>};
 const _clan_artisan = {title: "Clan Artisan", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="clan-artisan" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="clan-artisan" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="clan-artisan">Clan Artisan</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Xa Hoi</Pair>
@@ -719,7 +719,7 @@ const _clan_artisan = {title: "Clan Artisan", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _cliff_jumper = {title: "Cliff Jumper", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="cliff-jumper" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="cliff-jumper" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="cliff-jumper">Cliff Jumper</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Cliffs of Fury</Pair>
@@ -728,7 +728,7 @@ const _cliff_jumper = {title: "Cliff Jumper", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _cliff_strider = {title: "Cliff Strider", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe</Link></p>
-<Ability id="cliff-strider" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="cliff-strider" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="cliff-strider">Cliff Strider</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Arcadia</Pair>
@@ -737,7 +737,7 @@ const _cliff_strider = {title: "Cliff Strider", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _cliff_master = {title: "Cliff-Master", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
-<Ability id="cliff-master" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="cliff-master" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="cliff-master">Cliff-Master</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
@@ -747,7 +747,7 @@ const _cliff_master = {title: "Cliff-Master", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _cloistered_upbringing = {title: "Cloistered Upbringing", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
-<Ability id="cloistered-upbringing" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="cloistered-upbringing" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="cloistered-upbringing">Cloistered Upbringing</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>urban</Pair>
@@ -756,7 +756,7 @@ const _cloistered_upbringing = {title: "Cloistered Upbringing", topLink: ["Regio
 </Ability>
 </>};
 const _clumsy_slave = {title: "Clumsy Slave", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="clumsy-slave" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="clumsy-slave" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="clumsy-slave">Clumsy Slave</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Cheliax or Katapesh</Pair>
@@ -766,7 +766,7 @@ const _clumsy_slave = {title: "Clumsy Slave", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _coin_hoarder = {title: "Coin Hoarder", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="coin-hoarder" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="coin-hoarder" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="coin-hoarder">Coin Hoarder</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mindspin Mountains</Pair>
@@ -775,7 +775,7 @@ const _coin_hoarder = {title: "Coin Hoarder", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _coincunning = {title: "Coincunning", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
-<Ability id="coincunning" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="coincunning" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="coincunning">Coincunning</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Janderhoff</Pair>
@@ -784,7 +784,7 @@ const _coincunning = {title: "Coincunning", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _cold_heart = {title: "Cold Heart", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="cold-heart" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="cold-heart" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="cold-heart">Cold Heart</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Cheliax</Pair>
@@ -792,7 +792,7 @@ const _cold_heart = {title: "Cold Heart", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _commercial_savvy = {title: "Commercial Savvy", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance</Link></p>
-<Ability id="commercial-savvy" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="commercial-savvy" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="commercial-savvy">Commercial Savvy</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
@@ -801,7 +801,7 @@ const _commercial_savvy = {title: "Commercial Savvy", topLink: ["Regional Traits
 </Ability>
 </>};
 const _community_minded = {title: "Community-Minded", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="community-minded" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="community-minded" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="community-minded">Community-Minded</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
@@ -810,7 +810,7 @@ const _community_minded = {title: "Community-Minded", topLink: ["Regional Traits
 </Ability>
 </>};
 const _confidante_to_the_oppressed = {title: "Confidante to the Oppressed", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="confidante-to-the-oppressed" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="confidante-to-the-oppressed" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="confidante-to-the-oppressed">Confidante to the Oppressed</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
@@ -819,7 +819,7 @@ const _confidante_to_the_oppressed = {title: "Confidante to the Oppressed", topL
 </Ability>
 </>};
 const _conscientious_miner = {title: "Conscientious Miner", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="conscientious-miner" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="conscientious-miner" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="conscientious-miner">Conscientious Miner</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Jinin</Pair>
@@ -828,7 +828,7 @@ const _conscientious_miner = {title: "Conscientious Miner", topLink: ["Regional 
 </Ability>
 </>};
 const _corpse_dodger = {title: "Corpse Dodger", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook</Link></p>
-<Ability id="corpse-dodger" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="corpse-dodger" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="corpse-dodger">Corpse Dodger</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
@@ -837,7 +837,7 @@ const _corpse_dodger = {title: "Corpse Dodger", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _cosmopolitan = {title: "Cosmopolitan", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link>, <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="cosmopolitan" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="cosmopolitan" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="cosmopolitan">Cosmopolitan</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Goka</Pair>
@@ -846,7 +846,7 @@ const _cosmopolitan = {title: "Cosmopolitan", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _cruel_master = {title: "Cruel Master", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="cruel-master" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="cruel-master" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="cruel-master">Cruel Master</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Okeno</Pair>
@@ -855,7 +855,7 @@ const _cruel_master = {title: "Cruel Master", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _crusader_road_acolyte = {title: "Crusader Road Acolyte", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="crusader-road-acolyte" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="crusader-road-acolyte" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="crusader-road-acolyte">Crusader Road Acolyte</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Echo Wood or Thornkeep</Pair>
@@ -863,7 +863,7 @@ const _crusader_road_acolyte = {title: "Crusader Road Acolyte", topLink: ["Regio
 </Ability>
 </>};
 const _crusader_tactician = {title: "Crusader Tactician", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="crusader-tactician" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="crusader-tactician" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="crusader-tactician">Crusader Tactician</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lastwall</Pair>
@@ -872,7 +872,7 @@ const _crusader_tactician = {title: "Crusader Tactician", topLink: ["Regional Tr
 </Ability>
 </>};
 const _cultist_lineage = {title: "Cultist Lineage", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="cultist-lineage" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="cultist-lineage" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="cultist-lineage">Cultist Lineage</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mediogalti</Pair>
@@ -881,7 +881,7 @@ const _cultist_lineage = {title: "Cultist Lineage", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _cultivated = {title: "Cultivated", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
-<Ability id="cultivated" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="cultivated" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="cultivated">Cultivated</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>urban</Pair>
@@ -890,7 +890,7 @@ const _cultivated = {title: "Cultivated", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _cunning_liar = {title: "Cunning Liar", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
-<Ability id="cunning-liar" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="cunning-liar" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="cunning-liar">Cunning Liar</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>urban</Pair>
@@ -899,7 +899,7 @@ const _cunning_liar = {title: "Cunning Liar", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _curse_queller = {title: "Curse Queller", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="curse-queller" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="curse-queller" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="curse-queller">Curse Queller</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
@@ -907,7 +907,7 @@ const _curse_queller = {title: "Curse Queller", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _cynic = {title: "Cynic", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="cynic" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="cynic" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="cynic">Cynic</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mendev</Pair>
@@ -916,7 +916,7 @@ const _cynic = {title: "Cynic", topLink: ["Regional Traits","main/traits_regiona
 </Ability>
 </>};
 const _cypher_resistance = {title: "Cypher Resistance", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
-<Ability id="cypher-resistance" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="cypher-resistance" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="cypher-resistance">Cypher Resistance</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Riddleport</Pair>
@@ -925,7 +925,7 @@ const _cypher_resistance = {title: "Cypher Resistance", topLink: ["Regional Trai
 </Ability>
 </>};
 const _cyphermage_backer = {title: "Cyphermage Backer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="cyphermage-backer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="cyphermage-backer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="cyphermage-backer">Cyphermage Backer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Riddleport</Pair>
@@ -933,7 +933,7 @@ const _cyphermage_backer = {title: "Cyphermage Backer", topLink: ["Regional Trai
 </Ability>
 </>};
 const _darkblight_survivor = {title: "Darkblight Survivor", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="darkblight-survivor" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="darkblight-survivor" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="darkblight-survivor">Darkblight Survivor</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nirmathas</Pair>
@@ -942,7 +942,7 @@ const _darkblight_survivor = {title: "Darkblight Survivor", topLink: ["Regional 
 </Ability>
 </>};
 const _darklands_delver = {title: "Darklands Delver", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="darklands-delver" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="darklands-delver" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="darklands-delver">Darklands Delver</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands beneath Tian Xia</Pair>
@@ -951,7 +951,7 @@ const _darklands_delver = {title: "Darklands Delver", topLink: ["Regional Traits
 </Ability>
 </>};
 const _debt_to_a_witch = {title: "Debt to a Witch", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="debt-to-a-witch" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="debt-to-a-witch" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="debt-to-a-witch">Debt to a Witch</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Irrisen</Pair>
@@ -960,7 +960,7 @@ const _debt_to_a_witch = {title: "Debt to a Witch", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _demon_eradicator = {title: "Demon Eradicator", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="demon-eradicator" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="demon-eradicator" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="demon-eradicator">Demon Eradicator</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mendev</Pair>
@@ -968,7 +968,7 @@ const _demon_eradicator = {title: "Demon Eradicator", topLink: ["Regional Traits
 </Ability>
 </>};
 const _demon_proof_mind = {title: "Demon-Proof Mind", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
-<Ability id="demon-proof-mind" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="demon-proof-mind" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="demon-proof-mind">Demon-Proof Mind</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Sarkoris or The Worldwound</Pair>
@@ -977,7 +977,7 @@ const _demon_proof_mind = {title: "Demon-Proof Mind", topLink: ["Regional Traits
 </Ability>
 </>};
 const _demonbane_summoner = {title: "Demonbane Summoner", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link></p>
-<Ability id="demonbane-summoner" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="demonbane-summoner" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="demonbane-summoner">Demonbane Summoner</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Worldwound</Pair>
@@ -986,7 +986,7 @@ const _demonbane_summoner = {title: "Demonbane Summoner", topLink: ["Regional Tr
 </Ability>
 </>};
 const _desert_child = {title: "Desert Child", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link>, <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="desert-child" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="desert-child" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="desert-child">Desert Child</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia, desert</Pair>
@@ -995,7 +995,7 @@ const _desert_child = {title: "Desert Child", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _destined_for_greatness = {title: "Destined for Greatness", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook</Link></p>
-<Ability id="destined-for-greatness" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="destined-for-greatness" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="destined-for-greatness">Destined for Greatness</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Absalom</Pair>
@@ -1006,7 +1006,7 @@ const _destined_for_greatness = {title: "Destined for Greatness", topLink: ["Reg
 </Ability>
 </>};
 const _devilfish_diver = {title: "Devilfish Diver", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="devilfish-diver" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="devilfish-diver" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="devilfish-diver">Devilfish Diver</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mediogalti</Pair>
@@ -1015,7 +1015,7 @@ const _devilfish_diver = {title: "Devilfish Diver", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _devotee_of_kalistrade = {title: "Devotee of Kalistrade", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="devotee-of-kalistrade" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="devotee-of-kalistrade" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="devotee-of-kalistrade">Devotee of Kalistrade</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Druma</Pair>
@@ -1024,7 +1024,7 @@ const _devotee_of_kalistrade = {title: "Devotee of Kalistrade", topLink: ["Regio
 </Ability>
 </>};
 const _diligence = {title: "Diligence", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
-<Ability id="diligence" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="diligence" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="diligence">Diligence</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>urban</Pair>
@@ -1033,7 +1033,7 @@ const _diligence = {title: "Diligence", topLink: ["Regional Traits","main/traits
 </Ability>
 </>};
 const _dinosaur_whisperer = {title: "Dinosaur Whisperer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="dinosaur-whisperer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="dinosaur-whisperer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="dinosaur-whisperer">Dinosaur Whisperer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mediogalti</Pair>
@@ -1042,7 +1042,7 @@ const _dinosaur_whisperer = {title: "Dinosaur Whisperer", topLink: ["Regional Tr
 </Ability>
 </>};
 const _discerning_beliefs = {title: "Discerning Beliefs", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="discerning-beliefs" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="discerning-beliefs" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="discerning-beliefs">Discerning Beliefs</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Zi Ha</Pair>
@@ -1051,7 +1051,7 @@ const _discerning_beliefs = {title: "Discerning Beliefs", topLink: ["Regional Tr
 </Ability>
 </>};
 const _div_hunter = {title: "Div Hunter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link></p>
-<Ability id="div-hunter" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="div-hunter" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="div-hunter">Div Hunter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
@@ -1060,7 +1060,7 @@ const _div_hunter = {title: "Div Hunter", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _divine_deceiver = {title: "Divine Deceiver", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
-<Ability id="divine-deceiver" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="divine-deceiver" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="divine-deceiver">Divine Deceiver</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Razmiran</Pair>
@@ -1069,7 +1069,7 @@ const _divine_deceiver = {title: "Divine Deceiver", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _dominator = {title: "Dominator", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link>, <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="dominator" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="dominator" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="dominator">Dominator</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Belkzen</Pair>
@@ -1078,7 +1078,7 @@ const _dominator = {title: "Dominator", topLink: ["Regional Traits","main/traits
 </Ability>
 </>};
 const _draconic_vigil = {title: "Draconic Vigil", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook</Link></p>
-<Ability id="draconic-vigil" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="draconic-vigil" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="draconic-vigil">Draconic Vigil</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lastwall</Pair>
@@ -1087,7 +1087,7 @@ const _draconic_vigil = {title: "Draconic Vigil", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _dreadful_forethought = {title: "Dreadful Forethought", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
-<Ability id="dreadful-forethought" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="dreadful-forethought" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="dreadful-forethought">Dreadful Forethought</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
@@ -1096,7 +1096,7 @@ const _dreadful_forethought = {title: "Dreadful Forethought", topLink: ["Regiona
 </Ability>
 </>};
 const _dtang_ma_bloodline = {title: "Dtang Ma Bloodline", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="dtang-ma-bloodline" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="dtang-ma-bloodline" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="dtang-ma-bloodline">Dtang Ma Bloodline</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Dtang Ma</Pair>
@@ -1105,7 +1105,7 @@ const _dtang_ma_bloodline = {title: "Dtang Ma Bloodline", topLink: ["Regional Tr
 </Ability>
 </>};
 const _dump_salvager = {title: "Dump Salvager", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="dump-salvager" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="dump-salvager" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="dump-salvager">Dump Salvager</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Westcrown</Pair>
@@ -1114,7 +1114,7 @@ const _dump_salvager = {title: "Dump Salvager", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _dungeon_dweller = {title: "Dungeon Dweller", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook</Link></p>
-<Ability id="dungeon-dweller" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="dungeon-dweller" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="dungeon-dweller">Dungeon Dweller</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>underground</Pair>
@@ -1125,7 +1125,7 @@ const _dungeon_dweller = {title: "Dungeon Dweller", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _dusk_dancer = {title: "Dusk Dancer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="dusk-dancer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="dusk-dancer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="dusk-dancer">Dusk Dancer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nidal</Pair>
@@ -1135,7 +1135,7 @@ const _dusk_dancer = {title: "Dusk Dancer", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _duskwalker_agent = {title: "Duskwalker Agent", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="duskwalker-agent" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="duskwalker-agent" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="duskwalker-agent">Duskwalker Agent</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
@@ -1145,7 +1145,7 @@ const _duskwalker_agent = {title: "Duskwalker Agent", topLink: ["Regional Traits
 </Ability>
 </>};
 const _eager_combatant = {title: "Eager Combatant", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="eager-combatant" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="eager-combatant" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="eager-combatant">Eager Combatant</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Riddleport</Pair>
@@ -1154,7 +1154,7 @@ const _eager_combatant = {title: "Eager Combatant", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _educated_druggist = {title: "Educated Druggist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="educated-druggist" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="educated-druggist" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="educated-druggist">Educated Druggist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osibu, Thuvia, Tian Xia, or Ustalav</Pair>
@@ -1162,7 +1162,7 @@ const _educated_druggist = {title: "Educated Druggist", topLink: ["Regional Trai
 </Ability>
 </>};
 const _egorian_school_apprentice = {title: "Egorian School Apprentice", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="egorian-school-apprentice" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="egorian-school-apprentice" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="egorian-school-apprentice">Egorian School Apprentice</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Egorian</Pair>
@@ -1171,7 +1171,7 @@ const _egorian_school_apprentice = {title: "Egorian School Apprentice", topLink:
 </Ability>
 </>};
 const _elemental_endowment = {title: "Elemental Endowment", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance</Link></p>
-<Ability id="elemental-endowment" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="elemental-endowment" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="elemental-endowment">Elemental Endowment</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
@@ -1180,7 +1180,7 @@ const _elemental_endowment = {title: "Elemental Endowment", topLink: ["Regional 
 </Ability>
 </>};
 const _elemental_pupil = {title: "Elemental Pupil", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link></p>
-<Ability id="elemental-pupil" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="elemental-pupil" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="elemental-pupil">Elemental Pupil</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
@@ -1189,7 +1189,7 @@ const _elemental_pupil = {title: "Elemental Pupil", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _elemental_ties = {title: "Elemental Ties", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link></p>
-<Ability id="elemental-ties" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="elemental-ties" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="elemental-ties">Elemental Ties</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
@@ -1198,7 +1198,7 @@ const _elemental_ties = {title: "Elemental Ties", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _elven_bitterness = {title: "Elven Bitterness", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
-<Ability id="elven-bitterness" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="elven-bitterness" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="elven-bitterness">Elven Bitterness</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kyonin</Pair>
@@ -1207,7 +1207,7 @@ const _elven_bitterness = {title: "Elven Bitterness", topLink: ["Regional Traits
 </Ability>
 </>};
 const _emberkin_imposter = {title: "Emberkin Imposter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East</Link></p>
-<Ability id="emberkin-imposter" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="emberkin-imposter" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="emberkin-imposter">Emberkin Imposter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
@@ -1216,7 +1216,7 @@ const _emberkin_imposter = {title: "Emberkin Imposter", topLink: ["Regional Trai
 </Ability>
 </>};
 const _emissary = {title: "Emissary", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
-<Ability id="emissary" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="emissary" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="emissary">Emissary</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kaer Maga</Pair>
@@ -1225,7 +1225,7 @@ const _emissary = {title: "Emissary", topLink: ["Regional Traits","main/traits_r
 </Ability>
 </>};
 const _empathic_diplomat = {title: "Empathic Diplomat", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East</Link></p>
-<Ability id="empathic-diplomat" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="empathic-diplomat" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="empathic-diplomat">Empathic Diplomat</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira or Osirion</Pair>
@@ -1234,7 +1234,7 @@ const _empathic_diplomat = {title: "Empathic Diplomat", topLink: ["Regional Trai
 </Ability>
 </>};
 const _empyreal_cultist = {title: "Empyreal Cultist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
-<Ability id="empyreal-cultist" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="empyreal-cultist" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="empyreal-cultist">Empyreal Cultist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Magnimar</Pair>
@@ -1243,7 +1243,7 @@ const _empyreal_cultist = {title: "Empyreal Cultist", topLink: ["Regional Traits
 </Ability>
 </>};
 const _enchanted_by_giants = {title: "Enchanted by Giants", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
-<Ability id="enchanted-by-giants" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="enchanted-by-giants" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="enchanted-by-giants">Enchanted by Giants</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>forest, jungle, or taiga</Pair>
@@ -1254,7 +1254,7 @@ const _enchanted_by_giants = {title: "Enchanted by Giants", topLink: ["Regional 
 </Ability>
 </>};
 const _enemy_of_the_undead = {title: "Enemy of the Undead", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="enemy-of-the-undead" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="enemy-of-the-undead" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="enemy-of-the-undead">Enemy of the Undead</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Geb</Pair>
@@ -1263,7 +1263,7 @@ const _enemy_of_the_undead = {title: "Enemy of the Undead", topLink: ["Regional 
 </Ability>
 </>};
 const _eoxian_experiment = {title: "Eoxian Experiment", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="eoxian-experiment" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="eoxian-experiment" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="eoxian-experiment">Eoxian Experiment</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Eox</Pair>
@@ -1272,7 +1272,7 @@ const _eoxian_experiment = {title: "Eoxian Experiment", topLink: ["Regional Trai
 </Ability>
 </>};
 const _equality_for_all = {title: "Equality for All", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="equality-for-all" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="equality-for-all" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="equality-for-all">Equality for All</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
@@ -1282,7 +1282,7 @@ const _equality_for_all = {title: "Equality for All", topLink: ["Regional Traits
 </Ability>
 </>};
 const _erutaki_sky_reader = {title: "Erutaki Sky Reader", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="erutaki-sky-reader" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="erutaki-sky-reader" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="erutaki-sky-reader">Erutaki Sky Reader</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Crown of the World</Pair>
@@ -1291,7 +1291,7 @@ const _erutaki_sky_reader = {title: "Erutaki Sky Reader", topLink: ["Regional Tr
 </Ability>
 </>};
 const _evident_supporter = {title: "Evident Supporter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance</Link></p>
-<Ability id="evident-supporter" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="evident-supporter" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="evident-supporter">Evident Supporter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Galt</Pair>
@@ -1300,7 +1300,7 @@ const _evident_supporter = {title: "Evident Supporter", topLink: ["Regional Trai
 </Ability>
 </>};
 const _exhibition_fighter = {title: "Exhibition Fighter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 23</Link></p>
-<Ability id="exhibition-fighter" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="exhibition-fighter" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="exhibition-fighter">Exhibition Fighter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lung Wa</Pair>
@@ -1309,7 +1309,7 @@ const _exhibition_fighter = {title: "Exhibition Fighter", topLink: ["Regional Tr
 </Ability>
 </>};
 const _exiled_scholar = {title: "Exiled Scholar", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook</Link></p>
-<Ability id="exiled-scholar" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="exiled-scholar" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="exiled-scholar">Exiled Scholar</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nex</Pair>
@@ -1318,7 +1318,7 @@ const _exiled_scholar = {title: "Exiled Scholar", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _expert_smuggler = {title: "Expert Smuggler", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="expert-smuggler" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="expert-smuggler" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="expert-smuggler">Expert Smuggler</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Erages</Pair>
@@ -1327,7 +1327,7 @@ const _expert_smuggler = {title: "Expert Smuggler", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _expert_swimmer = {title: "Expert Swimmer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="expert-swimmer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="expert-swimmer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="expert-swimmer">Expert Swimmer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
@@ -1336,7 +1336,7 @@ const _expert_swimmer = {title: "Expert Swimmer", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _eye_of_the_falcon = {title: "Eye of the Falcon", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="eye-of-the-falcon" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="eye-of-the-falcon" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="eye-of-the-falcon">Eye of the Falcon</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
@@ -1345,7 +1345,7 @@ const _eye_of_the_falcon = {title: "Eye of the Falcon", topLink: ["Regional Trai
 </Ability>
 </>};
 const _fangwood_diplomat = {title: "Fangwood Diplomat", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="fangwood-diplomat" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="fangwood-diplomat" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="fangwood-diplomat">Fangwood Diplomat</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nirmathas</Pair>
@@ -1354,7 +1354,7 @@ const _fangwood_diplomat = {title: "Fangwood Diplomat", topLink: ["Regional Trai
 </Ability>
 </>};
 const _fangwood_insurgent = {title: "Fangwood Insurgent", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="fangwood-insurgent" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="fangwood-insurgent" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="fangwood-insurgent">Fangwood Insurgent</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nirmathas</Pair>
@@ -1363,7 +1363,7 @@ const _fangwood_insurgent = {title: "Fangwood Insurgent", topLink: ["Regional Tr
 </Ability>
 </>};
 const _fey_hex = {title: "Fey Hex", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World</Link></p>
-<Ability id="fey-hex" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="fey-hex" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="fey-hex">Fey Hex</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Irrisen</Pair>
@@ -1372,7 +1372,7 @@ const _fey_hex = {title: "Fey Hex", topLink: ["Regional Traits","main/traits_reg
 </Ability>
 </>};
 const _fey_mediator = {title: "Fey Mediator", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World</Link></p>
-<Ability id="fey-mediator" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="fey-mediator" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="fey-mediator">Fey Mediator</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Grungir Forest</Pair>
@@ -1380,7 +1380,7 @@ const _fey_mediator = {title: "Fey Mediator", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _fey_wise = {title: "Fey-Wise", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="fey-wise" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="fey-wise" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="fey-wise">Fey-Wise</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Sevenarches</Pair>
@@ -1389,7 +1389,7 @@ const _fey_wise = {title: "Fey-Wise", topLink: ["Regional Traits","main/traits_r
 </Ability>
 </>};
 const _fiery_dominance = {title: "Fiery Dominance", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="fiery-dominance" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="fiery-dominance" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="fiery-dominance">Fiery Dominance</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Plane of Fire</Pair>
@@ -1398,7 +1398,7 @@ const _fiery_dominance = {title: "Fiery Dominance", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _fight_for_liberty = {title: "Fight for Liberty", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="fight-for-liberty" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="fight-for-liberty" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="fight-for-liberty">Fight for Liberty</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
@@ -1407,7 +1407,7 @@ const _fight_for_liberty = {title: "Fight for Liberty", topLink: ["Regional Trai
 </Ability>
 </>};
 const _flotsam = {title: "Flotsam", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook</Link></p>
-<Ability id="flotsam" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="flotsam" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="flotsam">Flotsam</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
@@ -1416,7 +1416,7 @@ const _flotsam = {title: "Flotsam", topLink: ["Regional Traits","main/traits_reg
 </Ability>
 </>};
 const _footsteps_of_aganhei = {title: "Footsteps of Aganhei", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest</Link></p>
-<Ability id="footsteps-of-aganhei" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="footsteps-of-aganhei" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="footsteps-of-aganhei">Footsteps of Aganhei</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Crown of the World</Pair>
@@ -1425,7 +1425,7 @@ const _footsteps_of_aganhei = {title: "Footsteps of Aganhei", topLink: ["Regiona
 </Ability>
 </>};
 const _forbidden_knowledge = {title: "Forbidden Knowledge", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook</Link></p>
-<Ability id="forbidden-knowledge" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="forbidden-knowledge" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="forbidden-knowledge">Forbidden Knowledge</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Geb</Pair>
@@ -1434,7 +1434,7 @@ const _forbidden_knowledge = {title: "Forbidden Knowledge", topLink: ["Regional 
 </Ability>
 </>};
 const _fortune_found = {title: "Fortune Found", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast</Link></p>
-<Ability id="fortune-found" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="fortune-found" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="fortune-found">Fortune Found</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
@@ -1444,7 +1444,7 @@ const _fortune_found = {title: "Fortune Found", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _free_agent = {title: "Free Agent", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="free-agent" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="free-agent" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="free-agent">Free Agent</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
@@ -1453,7 +1453,7 @@ const _free_agent = {title: "Free Agent", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _free_people = {title: "Free People", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe</Link></p>
-<Ability id="free-people" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="free-people" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="free-people">Free People</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Realm of the Mammoth Lords</Pair>
@@ -1463,7 +1463,7 @@ const _free_people = {title: "Free People", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _freed_slave_andoran = {title: "Freed Slave (Andoran)", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="freed-slave-andoran" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="freed-slave-andoran" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="freed-slave-andoran">Freed Slave (Andoran)</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
@@ -1472,7 +1472,7 @@ const _freed_slave_andoran = {title: "Freed Slave (Andoran)", topLink: ["Regiona
 </Ability>
 </>};
 const _freed_slave_katapesh = {title: "Freed Slave (Katapesh)", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="freed-slave-katapesh" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="freed-slave-katapesh" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="freed-slave-katapesh">Freed Slave (Katapesh)</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
@@ -1481,7 +1481,7 @@ const _freed_slave_katapesh = {title: "Freed Slave (Katapesh)", topLink: ["Regio
 </Ability>
 </>};
 const _freedom_fighter_andoran = {title: "Freedom Fighter (Andoran)", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="freedom-fighter-andoran" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="freedom-fighter-andoran" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="freedom-fighter-andoran">Freedom Fighter (Andoran)</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
@@ -1490,7 +1490,7 @@ const _freedom_fighter_andoran = {title: "Freedom Fighter (Andoran)", topLink: [
 </Ability>
 </>};
 const _freedom_fighter_shokuro = {title: "Freedom Fighter (Shokuro)", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="freedom-fighter-shokuro" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="freedom-fighter-shokuro" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="freedom-fighter-shokuro">Freedom Fighter (Shokuro)</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Shokuro</Pair>
@@ -1499,7 +1499,7 @@ const _freedom_fighter_shokuro = {title: "Freedom Fighter (Shokuro)", topLink: [
 </Ability>
 </>};
 const _friend_of_the_dead = {title: "Friend of the Dead", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="friend-of-the-dead" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="friend-of-the-dead" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="friend-of-the-dead">Friend of the Dead</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Geb</Pair>
@@ -1508,7 +1508,7 @@ const _friend_of_the_dead = {title: "Friend of the Dead", topLink: ["Regional Tr
 </Ability>
 </>};
 const _friend_of_the_fey = {title: "Friend of the Fey", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="friend-of-the-fey" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="friend-of-the-fey" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="friend-of-the-fey">Friend of the Fey</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lands of the Linnorm Kings</Pair>
@@ -1517,7 +1517,7 @@ const _friend_of_the_fey = {title: "Friend of the Fey", topLink: ["Regional Trai
 </Ability>
 </>};
 const _frontier_forged = {title: "Frontier-Forged", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="frontier-forged" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="frontier-forged" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="frontier-forged">Frontier-Forged</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>frontier</Pair>
@@ -1526,7 +1526,7 @@ const _frontier_forged = {title: "Frontier-Forged", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _frostborn = {title: "Frostborn", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="frostborn" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="frostborn" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="frostborn">Frostborn</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lands of the Linnorm Kings</Pair>
@@ -1535,7 +1535,7 @@ const _frostborn = {title: "Frostborn", topLink: ["Regional Traits","main/traits
 </Ability>
 </>};
 const _fruit_merchant = {title: "Fruit Merchant", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
-<Ability id="fruit-merchant" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="fruit-merchant" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="fruit-merchant">Fruit Merchant</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>jungle</Pair>
@@ -1543,7 +1543,7 @@ const _fruit_merchant = {title: "Fruit Merchant", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _gallant_imposter = {title: "Gallant Imposter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="gallant-imposter" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="gallant-imposter" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="gallant-imposter">Gallant Imposter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mendev</Pair>
@@ -1551,7 +1551,7 @@ const _gallant_imposter = {title: "Gallant Imposter", topLink: ["Regional Traits
 </Ability>
 </>};
 const _genie_caller = {title: "Genie-Caller", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link>, <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link></p>
-<Ability id="genie-caller" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="genie-caller" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="genie-caller">Genie-Caller</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
@@ -1560,7 +1560,7 @@ const _genie_caller = {title: "Genie-Caller", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _ghost_survivor = {title: "Ghost Survivor", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook</Link></p>
-<Ability id="ghost-survivor" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="ghost-survivor" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="ghost-survivor">Ghost Survivor</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
@@ -1569,7 +1569,7 @@ const _ghost_survivor = {title: "Ghost Survivor", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _ghoulish_affinity = {title: "Ghoulish Affinity", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook</Link></p>
-<Ability id="ghoulish-affinity" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="ghoulish-affinity" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="ghoulish-affinity">Ghoulish Affinity</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands</Pair>
@@ -1578,7 +1578,7 @@ const _ghoulish_affinity = {title: "Ghoulish Affinity", topLink: ["Regional Trai
 </Ability>
 </>};
 const _giant_ambivalence = {title: "Giant Ambivalence", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
-<Ability id="giant-ambivalence" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="giant-ambivalence" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="giant-ambivalence">Giant Ambivalence</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>temperate highlands</Pair>
@@ -1590,7 +1590,7 @@ const _giant_ambivalence = {title: "Giant Ambivalence", topLink: ["Regional Trai
 </Ability>
 </>};
 const _giant_dodger = {title: "Giant Dodger", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
-<Ability id="giant-dodger" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="giant-dodger" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="giant-dodger">Giant Dodger</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>desert</Pair>
@@ -1602,7 +1602,7 @@ const _giant_dodger = {title: "Giant Dodger", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _giant_investigator = {title: "Giant Investigator", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
-<Ability id="giant-investigator" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="giant-investigator" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="giant-investigator">Giant Investigator</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>coastal</Pair>
@@ -1614,7 +1614,7 @@ const _giant_investigator = {title: "Giant Investigator", topLink: ["Regional Tr
 </Ability>
 </>};
 const _giant_harried = {title: "Giant-Harried", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
-<Ability id="giant-harried" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="giant-harried" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="giant-harried">Giant-Harried</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>wasteland</Pair>
@@ -1626,7 +1626,7 @@ const _giant_harried = {title: "Giant-Harried", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _glory_of_old = {title: "Glory of Old", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="glory-of-old" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="glory-of-old" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="glory-of-old">Glory of Old</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Five Kings Mountains</Pair>
@@ -1635,7 +1635,7 @@ const _glory_of_old = {title: "Glory of Old", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _goblin_pirate = {title: "Goblin Pirate", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
-<Ability id="goblin-pirate" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="goblin-pirate" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="goblin-pirate">Goblin Pirate</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
@@ -1645,7 +1645,7 @@ const _goblin_pirate = {title: "Goblin Pirate", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _godless_resolve = {title: "Godless Resolve", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="godless-resolve" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="godless-resolve" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="godless-resolve">Godless Resolve</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Bachuan, Rahadoum or Touvette</Pair>
@@ -1653,7 +1653,7 @@ const _godless_resolve = {title: "Godless Resolve", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _gold_goblin_regular = {title: "Gold Goblin Regular", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="gold-goblin-regular" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="gold-goblin-regular" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="gold-goblin-regular">Gold Goblin Regular</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Riddleport</Pair>
@@ -1662,7 +1662,7 @@ const _gold_goblin_regular = {title: "Gold Goblin Regular", topLink: ["Regional 
 </Ability>
 </>};
 const _good_folk = {title: "Good Folk", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
-<Ability id="good-folk" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="good-folk" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="good-folk">Good Folk</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>urban</Pair>
@@ -1671,7 +1671,7 @@ const _good_folk = {title: "Good Folk", topLink: ["Regional Traits","main/traits
 </Ability>
 </>};
 const _gravelwalker = {title: "Gravelwalker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="gravelwalker" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="gravelwalker" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="gravelwalker">Gravelwalker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands</Pair>
@@ -1679,7 +1679,7 @@ const _gravelwalker = {title: "Gravelwalker", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _greenskin_stalker = {title: "Greenskin Stalker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="greenskin-stalker" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="greenskin-stalker" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="greenskin-stalker">Greenskin Stalker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Isger, River Kingdoms, or Varisia</Pair>
@@ -1688,7 +1688,7 @@ const _greenskin_stalker = {title: "Greenskin Stalker", topLink: ["Regional Trai
 </Ability>
 </>};
 const _grit_goggles = {title: "Grit Goggles", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="grit-goggles" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="grit-goggles" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="grit-goggles">Grit Goggles</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands</Pair>
@@ -1697,7 +1697,7 @@ const _grit_goggles = {title: "Grit Goggles", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _guerilla = {title: "Guerilla", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="guerilla" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="guerilla" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="guerilla">Guerilla</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Dtang Ma</Pair>
@@ -1706,7 +1706,7 @@ const _guerilla = {title: "Guerilla", topLink: ["Regional Traits","main/traits_r
 </Ability>
 </>};
 const _guerrilla_mender = {title: "Guerrilla Mender", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="guerrilla-mender" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="guerrilla-mender" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="guerrilla-mender">Guerrilla Mender</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nirmathas</Pair>
@@ -1715,7 +1715,7 @@ const _guerrilla_mender = {title: "Guerrilla Mender", topLink: ["Regional Traits
 </Ability>
 </>};
 const _heart_of_clay = {title: "Heart of Clay", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="heart-of-clay" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="heart-of-clay" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="heart-of-clay">Heart of Clay</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lingshen</Pair>
@@ -1724,7 +1724,7 @@ const _heart_of_clay = {title: "Heart of Clay", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _heavenly_touch = {title: "Heavenly Touch", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="heavenly-touch" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="heavenly-touch" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="heavenly-touch">Heavenly Touch</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Tianjing</Pair>
@@ -1733,7 +1733,7 @@ const _heavenly_touch = {title: "Heavenly Touch", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _heir_of_chu_ye = {title: "Heir of Chu Ye", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="heir-of-chu-ye" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="heir-of-chu-ye" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="heir-of-chu-ye">Heir of Chu Ye</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Tian Xia</Pair>
@@ -1741,7 +1741,7 @@ const _heir_of_chu_ye = {title: "Heir of Chu Ye", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _hermean_paragon = {title: "Hermean Paragon", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="hermean-paragon" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="hermean-paragon" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="hermean-paragon">Hermean Paragon</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Steaming Sea</Pair>
@@ -1749,7 +1749,7 @@ const _hermean_paragon = {title: "Hermean Paragon", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _highlander = {title: "Highlander", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="highlander" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="highlander" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="highlander">Highlander</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>hills or mountains</Pair>
@@ -1758,7 +1758,7 @@ const _highlander = {title: "Highlander", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _holy_tattoo = {title: "Holy Tattoo", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook</Link></p>
-<Ability id="holy-tattoo" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="holy-tattoo" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="holy-tattoo">Holy Tattoo</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
@@ -1766,7 +1766,7 @@ const _holy_tattoo = {title: "Holy Tattoo", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _home_port = {title: "Home Port", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="home-port" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="home-port" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="home-port">Home Port</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
@@ -1775,7 +1775,7 @@ const _home_port = {title: "Home Port", topLink: ["Regional Traits","main/traits
 </Ability>
 </>};
 const _honeyed_tongue = {title: "Honeyed Tongue", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="honeyed-tongue" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="honeyed-tongue" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="honeyed-tongue">Honeyed Tongue</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Amanandar</Pair>
@@ -1784,7 +1784,7 @@ const _honeyed_tongue = {title: "Honeyed Tongue", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _hongal_bloodrider = {title: "Hongal Bloodrider", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="hongal-bloodrider" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="hongal-bloodrider" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="hongal-bloodrider">Hongal Bloodrider</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Hongal</Pair>
@@ -1793,7 +1793,7 @@ const _hongal_bloodrider = {title: "Hongal Bloodrider", topLink: ["Regional Trai
 </Ability>
 </>};
 const _huldras_luck = {title: "Huldra's Luck", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="huldras-luck" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="huldras-luck" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="huldras-luck">Huldra's Luck</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lands of the Linnorm Kings</Pair>
@@ -1802,7 +1802,7 @@ const _huldras_luck = {title: "Huldra's Luck", topLink: ["Regional Traits","main
 </Ability>
 </>};
 const _humble_beginnings = {title: "Humble Beginnings", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
-<Ability id="humble-beginnings" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="humble-beginnings" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="humble-beginnings">Humble Beginnings</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
@@ -1811,7 +1811,7 @@ const _humble_beginnings = {title: "Humble Beginnings", topLink: ["Regional Trai
 </Ability>
 </>};
 const _hurricane_savvy = {title: "Hurricane Savvy", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="hurricane-savvy" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="hurricane-savvy" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="hurricane-savvy">Hurricane Savvy</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
@@ -1820,7 +1820,7 @@ const _hurricane_savvy = {title: "Hurricane Savvy", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _hwan_artist = {title: "Hwan Artist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="hwan-artist" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="hwan-artist" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="hwan-artist">Hwan Artist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Hwanggot</Pair>
@@ -1829,7 +1829,7 @@ const _hwan_artist = {title: "Hwan Artist", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _iadaran_illusionist = {title: "Iadaran Illusionist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link>, <Link to="/source/elves_of_golarion">Elves of Golarion</Link></p>
-<Ability id="iadaran-illusionist" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="iadaran-illusionist" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="iadaran-illusionist">Iadaran Illusionist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kyonin</Pair>
@@ -1838,7 +1838,7 @@ const _iadaran_illusionist = {title: "Iadaran Illusionist", topLink: ["Regional 
 </Ability>
 </>};
 const _imperial_soldier = {title: "Imperial Soldier", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="imperial-soldier" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="imperial-soldier" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="imperial-soldier">Imperial Soldier</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Molthune</Pair>
@@ -1847,7 +1847,7 @@ const _imperial_soldier = {title: "Imperial Soldier", topLink: ["Regional Traits
 </Ability>
 </>};
 const _indentured_blacksmith = {title: "Indentured Blacksmith", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="indentured-blacksmith" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="indentured-blacksmith" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="indentured-blacksmith">Indentured Blacksmith</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kaoling</Pair>
@@ -1856,7 +1856,7 @@ const _indentured_blacksmith = {title: "Indentured Blacksmith", topLink: ["Regio
 </Ability>
 </>};
 const _inspiring_speaker = {title: "Inspiring Speaker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="inspiring-speaker" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="inspiring-speaker" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="inspiring-speaker">Inspiring Speaker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Galt</Pair>
@@ -1865,7 +1865,7 @@ const _inspiring_speaker = {title: "Inspiring Speaker", topLink: ["Regional Trai
 </Ability>
 </>};
 const _instigator_of_rebellion = {title: "Instigator of Rebellion", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="instigator-of-rebellion" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="instigator-of-rebellion" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="instigator-of-rebellion">Instigator of Rebellion</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Minkai</Pair>
@@ -1874,7 +1874,7 @@ const _instigator_of_rebellion = {title: "Instigator of Rebellion", topLink: ["R
 </Ability>
 </>};
 const _intrepid_delver = {title: "Intrepid Delver", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="intrepid-delver" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="intrepid-delver" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="intrepid-delver">Intrepid Delver</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Jinin</Pair>
@@ -1883,7 +1883,7 @@ const _intrepid_delver = {title: "Intrepid Delver", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _iobarian_survivor = {title: "Iobarian Survivor", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="iobarian-survivor" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="iobarian-survivor" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="iobarian-survivor">Iobarian Survivor</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Iobaria</Pair>
@@ -1891,7 +1891,7 @@ const _iobarian_survivor = {title: "Iobarian Survivor", topLink: ["Regional Trai
 </Ability>
 </>};
 const _iron_lungs = {title: "Iron Lungs", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="iron-lungs" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="iron-lungs" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="iron-lungs">Iron Lungs</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands</Pair>
@@ -1899,7 +1899,7 @@ const _iron_lungs = {title: "Iron Lungs", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _iron_mind = {title: "Iron Mind", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="iron-mind" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="iron-mind" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="iron-mind">Iron Mind</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Cheliax</Pair>
@@ -1907,7 +1907,7 @@ const _iron_mind = {title: "Iron Mind", topLink: ["Regional Traits","main/traits
 </Ability>
 </>};
 const _isger_fixer = {title: "Isger Fixer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="isger-fixer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="isger-fixer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="isger-fixer">Isger Fixer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Isger</Pair>
@@ -1917,7 +1917,7 @@ const _isger_fixer = {title: "Isger Fixer", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _isgeri_orphan = {title: "Isgeri Orphan", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="isgeri-orphan" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="isgeri-orphan" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="isgeri-orphan">Isgeri Orphan</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Isger</Pair>
@@ -1926,7 +1926,7 @@ const _isgeri_orphan = {title: "Isgeri Orphan", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _issian_noble = {title: "Issian Noble", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="issian-noble" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="issian-noble" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="issian-noble">Issian Noble</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Brevoy</Pair>
@@ -1935,7 +1935,7 @@ const _issian_noble = {title: "Issian Noble", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _jadwiga_medicine = {title: "Jadwiga Medicine", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="jadwiga-medicine" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="jadwiga-medicine" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="jadwiga-medicine">Jadwiga Medicine</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Irrisen</Pair>
@@ -1943,7 +1943,7 @@ const _jadwiga_medicine = {title: "Jadwiga Medicine", topLink: ["Regional Traits
 </Ability>
 </>};
 const _jungle_diplomat = {title: "Jungle Diplomat", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="jungle-diplomat" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="jungle-diplomat" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="jungle-diplomat">Jungle Diplomat</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Valashmai Jungle</Pair>
@@ -1952,7 +1952,7 @@ const _jungle_diplomat = {title: "Jungle Diplomat", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _jungle_guide = {title: "Jungle Guide", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="jungle-guide" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="jungle-guide" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="jungle-guide">Jungle Guide</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Sargava</Pair>
@@ -1961,7 +1961,7 @@ const _jungle_guide = {title: "Jungle Guide", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _jungle_native = {title: "Jungle Native", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast</Link></p>
-<Ability id="jungle-native" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="jungle-native" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="jungle-native">Jungle Native</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mwangi Expanse</Pair>
@@ -1971,7 +1971,7 @@ const _jungle_native = {title: "Jungle Native", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _jungle_resilience = {title: "Jungle Resilience", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="jungle-resilience" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="jungle-resilience" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="jungle-resilience">Jungle Resilience</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nagajor</Pair>
@@ -1980,7 +1980,7 @@ const _jungle_resilience = {title: "Jungle Resilience", topLink: ["Regional Trai
 </Ability>
 </>};
 const _jungle_walker = {title: "Jungle Walker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="jungle-walker" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="jungle-walker" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="jungle-walker">Jungle Walker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mwangi Expanse</Pair>
@@ -1989,7 +1989,7 @@ const _jungle_walker = {title: "Jungle Walker", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _justiciar = {title: "Justiciar", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance</Link></p>
-<Ability id="justiciar" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="justiciar" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="justiciar">Justiciar</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
@@ -2000,7 +2000,7 @@ const _justiciar = {title: "Justiciar", topLink: ["Regional Traits","main/traits
 </Ability>
 </>};
 const _kami_talker = {title: "Kami Talker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="kami-talker" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="kami-talker" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="kami-talker">Kami Talker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Forest of Spirits</Pair>
@@ -2009,7 +2009,7 @@ const _kami_talker = {title: "Kami Talker", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _keeper_of_the_veil = {title: "Keeper of the Veil", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link></p>
-<Ability id="keeper-of-the-veil" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="keeper-of-the-veil" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="keeper-of-the-veil">Keeper of the Veil</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
@@ -2018,7 +2018,7 @@ const _keeper_of_the_veil = {title: "Keeper of the Veil", topLink: ["Regional Tr
 </Ability>
 </>};
 const _keleshite_trader = {title: "Keleshite Trader", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East</Link></p>
-<Ability id="keleshite-trader" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="keleshite-trader" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="keleshite-trader">Keleshite Trader</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kelesh or Qadira</Pair>
@@ -2027,7 +2027,7 @@ const _keleshite_trader = {title: "Keleshite Trader", topLink: ["Regional Traits
 </Ability>
 </>};
 const _kobolds_neighbor = {title: "Kobold's Neighbor", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/andoran_spirit_of_liberty">Andoran, Spirit of Liberty</Link></p>
-<Ability id="kobolds-neighbor" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="kobolds-neighbor" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="kobolds-neighbor">Kobold's Neighbor</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
@@ -2036,7 +2036,7 @@ const _kobolds_neighbor = {title: "Kobold's Neighbor", topLink: ["Regional Trait
 </Ability>
 </>};
 const _kwanlai_believer = {title: "Kwanlai Believer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="kwanlai-believer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="kwanlai-believer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="kwanlai-believer">Kwanlai Believer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kwanlai</Pair>
@@ -2045,7 +2045,7 @@ const _kwanlai_believer = {title: "Kwanlai Believer", topLink: ["Regional Traits
 </Ability>
 </>};
 const _kyonin_gatekeeper = {title: "Kyonin Gatekeeper", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/elves_of_golarion">Elves of Golarion</Link></p>
-<Ability id="kyonin-gatekeeper" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="kyonin-gatekeeper" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="kyonin-gatekeeper">Kyonin Gatekeeper</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kyonin</Pair>
@@ -2055,7 +2055,7 @@ const _kyonin_gatekeeper = {title: "Kyonin Gatekeeper", topLink: ["Regional Trai
 </Ability>
 </>};
 const _lair_snake = {title: "Lair Snake", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="lair-snake" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="lair-snake" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="lair-snake">Lair Snake</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>dragon's lair</Pair>
@@ -2064,7 +2064,7 @@ const _lair_snake = {title: "Lair Snake", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _lamasaran_performer = {title: "Lamasaran Performer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="lamasaran-performer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="lamasaran-performer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="lamasaran-performer">Lamasaran Performer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
@@ -2073,7 +2073,7 @@ const _lamasaran_performer = {title: "Lamasaran Performer", topLink: ["Regional 
 </Ability>
 </>};
 const _lastwall_cavalry_rider = {title: "Lastwall Cavalry Rider", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="lastwall-cavalry-rider" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="lastwall-cavalry-rider" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="lastwall-cavalry-rider">Lastwall Cavalry Rider</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lastwall</Pair>
@@ -2082,7 +2082,7 @@ const _lastwall_cavalry_rider = {title: "Lastwall Cavalry Rider", topLink: ["Reg
 </Ability>
 </>};
 const _left_behind = {title: "Left Behind", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/elves_of_golarion">Elves of Golarion</Link></p>
-<Ability id="left-behind" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="left-behind" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="left-behind">Left Behind</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mwangi Expanse or Varisia</Pair>
@@ -2092,7 +2092,7 @@ const _left_behind = {title: "Left Behind", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _legalistic_liberation = {title: "Legalistic Liberation", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="legalistic-liberation" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="legalistic-liberation" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="legalistic-liberation">Legalistic Liberation</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Molthune or Osirion</Pair>
@@ -2102,7 +2102,7 @@ const _legalistic_liberation = {title: "Legalistic Liberation", topLink: ["Regio
 </Ability>
 </>};
 const _lepidstadt_scar = {title: "Lepidstadt Scar", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="lepidstadt-scar" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="lepidstadt-scar" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="lepidstadt-scar">Lepidstadt Scar</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
@@ -2111,7 +2111,7 @@ const _lepidstadt_scar = {title: "Lepidstadt Scar", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _lichblood = {title: "Lichblood", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="lichblood" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="lichblood" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="lichblood">Lichblood</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Belkzen</Pair>
@@ -2121,7 +2121,7 @@ const _lichblood = {title: "Lichblood", topLink: ["Regional Traits","main/traits
 </Ability>
 </>};
 const _linebreaker = {title: "Linebreaker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link>, <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="linebreaker" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="linebreaker" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="linebreaker">Linebreaker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Belkzen</Pair>
@@ -2130,7 +2130,7 @@ const _linebreaker = {title: "Linebreaker", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _lingshens_finest = {title: "Lingshen's Finest", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="lingshens-finest" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="lingshens-finest" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="lingshens-finest">Lingshen's Finest</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lingshen</Pair>
@@ -2139,7 +2139,7 @@ const _lingshens_finest = {title: "Lingshen's Finest", topLink: ["Regional Trait
 </Ability>
 </>};
 const _lions_audacity = {title: "Lion's Audacity", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="lions-audacity" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="lions-audacity" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="lions-audacity">Lion's Audacity</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Taldor</Pair>
@@ -2148,7 +2148,7 @@ const _lions_audacity = {title: "Lion's Audacity", topLink: ["Regional Traits","
 </Ability>
 </>};
 const _liquid_healing = {title: "Liquid Healing", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons</Link></p>
-<Ability id="liquid-healing" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="liquid-healing" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="liquid-healing">Liquid Healing</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
@@ -2157,7 +2157,7 @@ const _liquid_healing = {title: "Liquid Healing", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _local_know_it_all = {title: "Local Know-It-All", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
-<Ability id="local-know-it-all" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="local-know-it-all" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="local-know-it-all">Local Know-It-All</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
@@ -2165,7 +2165,7 @@ const _local_know_it_all = {title: "Local Know-It-All", topLink: ["Regional Trai
 </Ability>
 </>};
 const _log_roller = {title: "Log Roller", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="log-roller" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="log-roller" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="log-roller">Log Roller</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>forest</Pair>
@@ -2174,7 +2174,7 @@ const _log_roller = {title: "Log Roller", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _lost_origins = {title: "Lost Origins", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
-<Ability id="lost-origins" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="lost-origins" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="lost-origins">Lost Origins</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>urban</Pair>
@@ -2183,7 +2183,7 @@ const _lost_origins = {title: "Lost Origins", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _lost_role_model = {title: "Lost Role Model", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook</Link></p>
-<Ability id="lost-role-model" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="lost-role-model" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="lost-role-model">Lost Role Model</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>settlement near a famous dungeon</Pair>
@@ -2193,7 +2193,7 @@ const _lost_role_model = {title: "Lost Role Model", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _mammoth_master = {title: "Mammoth Master", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link>, <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="mammoth-master" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="mammoth-master" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="mammoth-master">Mammoth Master</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Realm of the Mammoth Lords</Pair>
@@ -2202,7 +2202,7 @@ const _mammoth_master = {title: "Mammoth Master", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _mana_wastes_medic = {title: "Mana Wastes Medic", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="mana-wastes-medic" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="mana-wastes-medic" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="mana-wastes-medic">Mana Wastes Medic</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mana Wastes</Pair>
@@ -2211,7 +2211,7 @@ const _mana_wastes_medic = {title: "Mana Wastes Medic", topLink: ["Regional Trai
 </Ability>
 </>};
 const _mana_wastes_survivalist = {title: "Mana Wastes Survivalist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="mana-wastes-survivalist" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="mana-wastes-survivalist" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="mana-wastes-survivalist">Mana Wastes Survivalist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mana Wastes</Pair>
@@ -2220,7 +2220,7 @@ const _mana_wastes_survivalist = {title: "Mana Wastes Survivalist", topLink: ["R
 </Ability>
 </>};
 const _master_of_peaks = {title: "Master of Peaks", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="master-of-peaks" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="master-of-peaks" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="master-of-peaks">Master of Peaks</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Wall of Heaven</Pair>
@@ -2229,7 +2229,7 @@ const _master_of_peaks = {title: "Master of Peaks", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _mechanical_expertise = {title: "Mechanical Expertise", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe</Link></p>
-<Ability id="mechanical-expertise" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="mechanical-expertise" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="mechanical-expertise">Mechanical Expertise</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Alkenstar</Pair>
@@ -2238,7 +2238,7 @@ const _mechanical_expertise = {title: "Mechanical Expertise", topLink: ["Regiona
 </Ability>
 </>};
 const _merabian_mentorship = {title: "Merabian Mentorship", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="merabian-mentorship" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="merabian-mentorship" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="merabian-mentorship">Merabian Mentorship</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
@@ -2248,7 +2248,7 @@ const _merabian_mentorship = {title: "Merabian Mentorship", topLink: ["Regional 
 </Ability>
 </>};
 const _merchant_of_katheer = {title: "Merchant of Katheer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link></p>
-<Ability id="merchant-of-katheer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="merchant-of-katheer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="merchant-of-katheer">Merchant of Katheer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
@@ -2257,7 +2257,7 @@ const _merchant_of_katheer = {title: "Merchant of Katheer", topLink: ["Regional 
 </Ability>
 </>};
 const _merchants_child = {title: "Merchant's Child", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="merchants-child" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="merchants-child" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="merchants-child">Merchant's Child</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
@@ -2266,7 +2266,7 @@ const _merchants_child = {title: "Merchant's Child", topLink: ["Regional Traits"
 </Ability>
 </>};
 const _militia = {title: "Militia", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="militia" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="militia" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="militia">Militia</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Amanandar</Pair>
@@ -2275,7 +2275,7 @@ const _militia = {title: "Militia", topLink: ["Regional Traits","main/traits_reg
 </Ability>
 </>};
 const _militia_veteran = {title: "Militia Veteran", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
-<Ability id="militia-veteran" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="militia-veteran" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="militia-veteran">Militia Veteran</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Taldor or any town or village</Pair>
@@ -2284,7 +2284,7 @@ const _militia_veteran = {title: "Militia Veteran", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _minkai_advocate = {title: "Minkai Advocate", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="minkai-advocate" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="minkai-advocate" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="minkai-advocate">Minkai Advocate</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Minkai</Pair>
@@ -2293,7 +2293,7 @@ const _minkai_advocate = {title: "Minkai Advocate", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _mivoni_duelist = {title: "Mivoni Duelist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="mivoni-duelist" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="mivoni-duelist" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="mivoni-duelist">Mivoni Duelist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mivon</Pair>
@@ -2302,7 +2302,7 @@ const _mivoni_duelist = {title: "Mivoni Duelist", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _mizu_ki_hikari_rebel = {title: "Mizu Ki Hikari Rebel", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="mizu-ki-hikari-rebel" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="mizu-ki-hikari-rebel" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="mizu-ki-hikari-rebel">Mizu Ki Hikari Rebel</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Chu Ye</Pair>
@@ -2311,7 +2311,7 @@ const _mizu_ki_hikari_rebel = {title: "Mizu Ki Hikari Rebel", topLink: ["Regiona
 </Ability>
 </>};
 const _monkey_goblin = {title: "Monkey Goblin", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
-<Ability id="monkey-goblin" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="monkey-goblin" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="monkey-goblin">Monkey Goblin</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mediogalti</Pair>
@@ -2321,7 +2321,7 @@ const _monkey_goblin = {title: "Monkey Goblin", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _mordant_heritage = {title: "Mordant Heritage", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link>, <Link to="/source/elves_of_golarion">Elves of Golarion</Link></p>
-<Ability id="mordant-heritage" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="mordant-heritage" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="mordant-heritage">Mordant Heritage</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Steaming Sea</Pair>
@@ -2330,7 +2330,7 @@ const _mordant_heritage = {title: "Mordant Heritage", topLink: ["Regional Traits
 </Ability>
 </>};
 const _mountain_guide = {title: "Mountain Guide", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="mountain-guide" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="mountain-guide" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="mountain-guide">Mountain Guide</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Five Kings Mountains</Pair>
@@ -2339,7 +2339,7 @@ const _mountain_guide = {title: "Mountain Guide", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _mutabi_qi_explorer = {title: "Mutabi-qi Explorer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="mutabi-qi-explorer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="mutabi-qi-explorer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="mutabi-qi-explorer">Mutabi-qi Explorer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Shanguang</Pair>
@@ -2348,7 +2348,7 @@ const _mutabi_qi_explorer = {title: "Mutabi-qi Explorer", topLink: ["Regional Tr
 </Ability>
 </>};
 const _mwangi_herbal_tradition = {title: "Mwangi Herbal Tradition", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="mwangi-herbal-tradition" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="mwangi-herbal-tradition" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="mwangi-herbal-tradition">Mwangi Herbal Tradition</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mwangi Expanse</Pair>
@@ -2357,7 +2357,7 @@ const _mwangi_herbal_tradition = {title: "Mwangi Herbal Tradition", topLink: ["R
 </Ability>
 </>};
 const _mwangi_linguist = {title: "Mwangi Linguist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe</Link></p>
-<Ability id="mwangi-linguist" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="mwangi-linguist" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="mwangi-linguist">Mwangi Linguist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mwangi Expanse</Pair>
@@ -2366,7 +2366,7 @@ const _mwangi_linguist = {title: "Mwangi Linguist", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _naga_emissary = {title: "Naga Emissary", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast</Link></p>
-<Ability id="naga-emissary" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="naga-emissary" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="naga-emissary">Naga Emissary</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Jalmeray</Pair>
@@ -2376,7 +2376,7 @@ const _naga_emissary = {title: "Naga Emissary", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _narrow_escape = {title: "Narrow Escape", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="narrow-escape" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="narrow-escape" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="narrow-escape">Narrow Escape</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
@@ -2385,7 +2385,7 @@ const _narrow_escape = {title: "Narrow Escape", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _narrows_survivor = {title: "Narrows Survivor", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
-<Ability id="narrows-survivor" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="narrows-survivor" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="narrows-survivor">Narrows Survivor</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Taldor</Pair>
@@ -2394,7 +2394,7 @@ const _narrows_survivor = {title: "Narrows Survivor", topLink: ["Regional Traits
 </Ability>
 </>};
 const _naturalist = {title: "Naturalist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 11</Link></p>
-<Ability id="naturalist" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="naturalist" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="naturalist">Naturalist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Yamasa</Pair>
@@ -2403,7 +2403,7 @@ const _naturalist = {title: "Naturalist", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _near_death_experience = {title: "Near-Death Experience", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="near-death-experience" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="near-death-experience" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="near-death-experience">Near-Death Experience</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Belkzen</Pair>
@@ -2412,7 +2412,7 @@ const _near_death_experience = {title: "Near-Death Experience", topLink: ["Regio
 </Ability>
 </>};
 const _necrotoxin_resistance = {title: "Necrotoxin Resistance", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons</Link></p>
-<Ability id="necrotoxin-resistance" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="necrotoxin-resistance" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="necrotoxin-resistance">Necrotoxin Resistance</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Geb</Pair>
@@ -2421,7 +2421,7 @@ const _necrotoxin_resistance = {title: "Necrotoxin Resistance", topLink: ["Regio
 </Ability>
 </>};
 const _nexian_corpse_hunter = {title: "Nexian Corpse Hunter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="nexian-corpse-hunter" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="nexian-corpse-hunter" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="nexian-corpse-hunter">Nexian Corpse Hunter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nex</Pair>
@@ -2430,7 +2430,7 @@ const _nexian_corpse_hunter = {title: "Nexian Corpse Hunter", topLink: ["Regiona
 </Ability>
 </>};
 const _nidalese_shadowcaster = {title: "Nidalese Shadowcaster", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="nidalese-shadowcaster" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="nidalese-shadowcaster" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="nidalese-shadowcaster">Nidalese Shadowcaster</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nidal</Pair>
@@ -2439,7 +2439,7 @@ const _nidalese_shadowcaster = {title: "Nidalese Shadowcaster", topLink: ["Regio
 </Ability>
 </>};
 const _nightstall_urchin = {title: "Nightstall Urchin", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="nightstall-urchin" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="nightstall-urchin" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="nightstall-urchin">Nightstall Urchin</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
@@ -2448,7 +2448,7 @@ const _nightstall_urchin = {title: "Nightstall Urchin", topLink: ["Regional Trai
 </Ability>
 </>};
 const _nightstalls_escapee = {title: "Nightstalls Escapee", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="nightstalls-escapee" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="nightstalls-escapee" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="nightstalls-escapee">Nightstalls Escapee</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
@@ -2458,7 +2458,7 @@ const _nightstalls_escapee = {title: "Nightstalls Escapee", topLink: ["Regional 
 </Ability>
 </>};
 const _nirmathi_militia = {title: "Nirmathi Militia", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="nirmathi-militia" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="nirmathi-militia" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="nirmathi-militia">Nirmathi Militia</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nirmathas</Pair>
@@ -2467,7 +2467,7 @@ const _nirmathi_militia = {title: "Nirmathi Militia", topLink: ["Regional Traits
 </Ability>
 </>};
 const _noble_in_exile = {title: "Noble-in-Exile", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="noble-in-exile" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="noble-in-exile" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="noble-in-exile">Noble-in-Exile</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Gralton</Pair>
@@ -2476,7 +2476,7 @@ const _noble_in_exile = {title: "Noble-in-Exile", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _numerologist = {title: "Numerologist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="numerologist" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="numerologist" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="numerologist">Numerologist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
@@ -2485,7 +2485,7 @@ const _numerologist = {title: "Numerologist", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _oagan_diver = {title: "Oagan Diver", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="oagan-diver" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="oagan-diver" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="oagan-diver">Oagan Diver</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Sodden Lands</Pair>
@@ -2494,7 +2494,7 @@ const _oagan_diver = {title: "Oagan Diver", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _obsequious_morsel = {title: "Obsequious Morsel", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
-<Ability id="obsequious-morsel" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="obsequious-morsel" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="obsequious-morsel">Obsequious Morsel</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Geb</Pair>
@@ -2503,7 +2503,7 @@ const _obsequious_morsel = {title: "Obsequious Morsel", topLink: ["Regional Trai
 </Ability>
 </>};
 const _observant_archer = {title: "Observant Archer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe</Link></p>
-<Ability id="observant-archer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="observant-archer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="observant-archer">Observant Archer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>aquatic</Pair>
@@ -2512,7 +2512,7 @@ const _observant_archer = {title: "Observant Archer", topLink: ["Regional Traits
 </Ability>
 </>};
 const _oenopion_alchemist = {title: "Oenopion Alchemist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="oenopion-alchemist" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="oenopion-alchemist" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="oenopion-alchemist">Oenopion Alchemist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nex</Pair>
@@ -2521,7 +2521,7 @@ const _oenopion_alchemist = {title: "Oenopion Alchemist", topLink: ["Regional Tr
 </Ability>
 </>};
 const _offspring_of_the_ascension = {title: "Offspring of the Ascension", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="offspring-of-the-ascension" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="offspring-of-the-ascension" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="offspring-of-the-ascension">Offspring of the Ascension</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
@@ -2530,7 +2530,7 @@ const _offspring_of_the_ascension = {title: "Offspring of the Ascension", topLin
 </Ability>
 </>};
 const _open_minded_explorer = {title: "Open-Minded Explorer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="open-minded-explorer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="open-minded-explorer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="open-minded-explorer">Open-Minded Explorer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Averaka</Pair>
@@ -2539,7 +2539,7 @@ const _open_minded_explorer = {title: "Open-Minded Explorer", topLink: ["Regiona
 </Ability>
 </>};
 const _orc_impaler = {title: "Orc Impaler", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="orc-impaler" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="orc-impaler" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="orc-impaler">Orc Impaler</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lastwall</Pair>
@@ -2548,7 +2548,7 @@ const _orc_impaler = {title: "Orc Impaler", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _oregent_desperation = {title: "Oregent Desperation", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/andoran_spirit_of_liberty">Andoran, Spirit of Liberty</Link></p>
-<Ability id="oregent-desperation" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="oregent-desperation" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="oregent-desperation">Oregent Desperation</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Oregent</Pair>
@@ -2557,7 +2557,7 @@ const _oregent_desperation = {title: "Oregent Desperation", topLink: ["Regional 
 </Ability>
 </>};
 const _oregent_timing = {title: "Oregent Timing", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/andoran_spirit_of_liberty">Andoran, Spirit of Liberty</Link></p>
-<Ability id="oregent-timing" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="oregent-timing" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="oregent-timing">Oregent Timing</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Oregent</Pair>
@@ -2566,7 +2566,7 @@ const _oregent_timing = {title: "Oregent Timing", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _oregent_vandal = {title: "Oregent Vandal", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/andoran_spirit_of_liberty">Andoran, Spirit of Liberty</Link></p>
-<Ability id="oregent-vandal" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="oregent-vandal" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="oregent-vandal">Oregent Vandal</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Oregent</Pair>
@@ -2575,7 +2575,7 @@ const _oregent_vandal = {title: "Oregent Vandal", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _osirionologist = {title: "Osirionologist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="osirionologist" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="osirionologist" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="osirionologist">Osirionologist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
@@ -2584,7 +2584,7 @@ const _osirionologist = {title: "Osirionologist", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _outsea_native = {title: "Outsea Native", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="outsea-native" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="outsea-native" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="outsea-native">Outsea Native</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
@@ -2594,7 +2594,7 @@ const _outsea_native = {title: "Outsea Native", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _palm_potion = {title: "Palm Potion", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons</Link></p>
-<Ability id="palm-potion" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="palm-potion" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="palm-potion">Palm Potion</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Razmiran</Pair>
@@ -2603,7 +2603,7 @@ const _palm_potion = {title: "Palm Potion", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _paraheen_weaponsmith = {title: "Paraheen Weaponsmith", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East</Link></p>
-<Ability id="paraheen-weaponsmith" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="paraheen-weaponsmith" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="paraheen-weaponsmith">Paraheen Weaponsmith</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
@@ -2612,7 +2612,7 @@ const _paraheen_weaponsmith = {title: "Paraheen Weaponsmith", topLink: ["Regiona
 </Ability>
 </>};
 const _passionate_believer = {title: "Passionate Believer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="passionate-believer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="passionate-believer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="passionate-believer">Passionate Believer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Po Li</Pair>
@@ -2621,7 +2621,7 @@ const _passionate_believer = {title: "Passionate Believer", topLink: ["Regional 
 </Ability>
 </>};
 const _patrons_boon = {title: "Patron's Boon", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="patrons-boon" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="patrons-boon" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="patrons-boon">Patron's Boon</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
@@ -2630,7 +2630,7 @@ const _patrons_boon = {title: "Patron's Boon", topLink: ["Regional Traits","main
 </Ability>
 </>};
 const _pearl_diver_xidao = {title: "Pearl Diver (Xidao)", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="pearl-diver-xidao" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="pearl-diver-xidao" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="pearl-diver-xidao">Pearl Diver (Xidao)</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Xidao</Pair>
@@ -2639,7 +2639,7 @@ const _pearl_diver_xidao = {title: "Pearl Diver (Xidao)", topLink: ["Regional Tr
 </Ability>
 </>};
 const _perseverance = {title: "Perseverance", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link>, <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="perseverance" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="perseverance" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="perseverance">Perseverance</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Five Kings Mountains</Pair>
@@ -2648,7 +2648,7 @@ const _perseverance = {title: "Perseverance", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _pesh_addict = {title: "Pesh Addict", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="pesh-addict" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="pesh-addict" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="pesh-addict">Pesh Addict</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
@@ -2657,7 +2657,7 @@ const _pesh_addict = {title: "Pesh Addict", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _pesh_dealer = {title: "Pesh Dealer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="pesh-dealer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="pesh-dealer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="pesh-dealer">Pesh Dealer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
@@ -2666,7 +2666,7 @@ const _pesh_dealer = {title: "Pesh Dealer", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _pirate_duelist = {title: "Pirate Duelist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="pirate-duelist" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="pirate-duelist" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="pirate-duelist">Pirate Duelist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mediogalti</Pair>
@@ -2675,7 +2675,7 @@ const _pirate_duelist = {title: "Pirate Duelist", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _pitaxian_improvisation = {title: "Pitaxian Improvisation", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="pitaxian-improvisation" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="pitaxian-improvisation" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="pitaxian-improvisation">Pitaxian Improvisation</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Pitax</Pair>
@@ -2684,7 +2684,7 @@ const _pitaxian_improvisation = {title: "Pitaxian Improvisation", topLink: ["Reg
 </Ability>
 </>};
 const _plainsman = {title: "Plainsman", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
-<Ability id="plainsman" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="plainsman" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="plainsman">Plainsman</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>M'neri Plains</Pair>
@@ -2693,7 +2693,7 @@ const _plainsman = {title: "Plainsman", topLink: ["Regional Traits","main/traits
 </Ability>
 </>};
 const _planar_negotiator_dhh = {title: "Planar Negotiator (DHH)", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
-<Ability id="planar-negotiator-dhh" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="planar-negotiator-dhh" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="planar-negotiator-dhh">Planar Negotiator (DHH)</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Abyss</Pair>
@@ -2702,7 +2702,7 @@ const _planar_negotiator_dhh = {title: "Planar Negotiator (DHH)", topLink: ["Reg
 </Ability>
 </>};
 const _poison_connoisseur = {title: "Poison Connoisseur", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons</Link></p>
-<Ability id="poison-connoisseur" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="poison-connoisseur" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="poison-connoisseur">Poison Connoisseur</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Taldor</Pair>
@@ -2711,7 +2711,7 @@ const _poison_connoisseur = {title: "Poison Connoisseur", topLink: ["Regional Tr
 </Ability>
 </>};
 const _poisoned_blade_resistance = {title: "Poisoned Blade Resistance", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons</Link></p>
-<Ability id="poisoned-blade-resistance" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="poisoned-blade-resistance" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="poisoned-blade-resistance">Poisoned Blade Resistance</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
@@ -2720,7 +2720,7 @@ const _poisoned_blade_resistance = {title: "Poisoned Blade Resistance", topLink:
 </Ability>
 </>};
 const _pomp_and_pageantry = {title: "Pomp and Pageantry", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="pomp-and-pageantry" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="pomp-and-pageantry" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="pomp-and-pageantry">Pomp and Pageantry</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Taldor</Pair>
@@ -2730,7 +2730,7 @@ const _pomp_and_pageantry = {title: "Pomp and Pageantry", topLink: ["Regional Tr
 </Ability>
 </>};
 const _precocious_spellcaster = {title: "Precocious Spellcaster", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
-<Ability id="precocious-spellcaster" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="precocious-spellcaster" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="precocious-spellcaster">Precocious Spellcaster</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Taldor</Pair>
@@ -2739,7 +2739,7 @@ const _precocious_spellcaster = {title: "Precocious Spellcaster", topLink: ["Reg
 </Ability>
 </>};
 const _prestigious_healer = {title: "Prestigious Healer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="prestigious-healer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="prestigious-healer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="prestigious-healer">Prestigious Healer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Cheliax</Pair>
@@ -2747,7 +2747,7 @@ const _prestigious_healer = {title: "Prestigious Healer", topLink: ["Regional Tr
 </Ability>
 </>};
 const _pretend_pirate = {title: "Pretend Pirate", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="pretend-pirate" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="pretend-pirate" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="pretend-pirate">Pretend Pirate</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
@@ -2756,7 +2756,7 @@ const _pretend_pirate = {title: "Pretend Pirate", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _prismati_player = {title: "Prismati Player", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/andoran_spirit_of_liberty">Andoran, Spirit of Liberty</Link></p>
-<Ability id="prismati-player" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="prismati-player" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="prismati-player">Prismati Player</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
@@ -2765,7 +2765,7 @@ const _prismati_player = {title: "Prismati Player", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _privileged_slave = {title: "Privileged Slave", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="privileged-slave" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="privileged-slave" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="privileged-slave">Privileged Slave</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kaoling</Pair>
@@ -2774,7 +2774,7 @@ const _privileged_slave = {title: "Privileged Slave", topLink: ["Regional Traits
 </Ability>
 </>};
 const _prophet_of_burrows = {title: "Prophet of Burrows", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast</Link></p>
-<Ability id="prophet-of-burrows" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="prophet-of-burrows" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="prophet-of-burrows">Prophet of Burrows</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Druma</Pair>
@@ -2784,7 +2784,7 @@ const _prophet_of_burrows = {title: "Prophet of Burrows", topLink: ["Regional Tr
 </Ability>
 </>};
 const _purchased_loyalty = {title: "Purchased Loyalty", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="purchased-loyalty" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="purchased-loyalty" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="purchased-loyalty">Purchased Loyalty</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Druma</Pair>
@@ -2793,7 +2793,7 @@ const _purchased_loyalty = {title: "Purchased Loyalty", topLink: ["Regional Trai
 </Ability>
 </>};
 const _pure_legion_recruit = {title: "Pure Legion Recruit", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="pure-legion-recruit" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="pure-legion-recruit" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="pure-legion-recruit">Pure Legion Recruit</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
@@ -2802,7 +2802,7 @@ const _pure_legion_recruit = {title: "Pure Legion Recruit", topLink: ["Regional 
 </Ability>
 </>};
 const _quain_martial_artist = {title: "Quain Martial Artist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="quain-martial-artist" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="quain-martial-artist" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="quain-martial-artist">Quain Martial Artist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Quain</Pair>
@@ -2811,7 +2811,7 @@ const _quain_martial_artist = {title: "Quain Martial Artist", topLink: ["Regiona
 </Ability>
 </>};
 const _quantium_university_graduate = {title: "Quantium University Graduate", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="quantium-university-graduate" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="quantium-university-graduate" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="quantium-university-graduate">Quantium University Graduate</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nex</Pair>
@@ -2820,7 +2820,7 @@ const _quantium_university_graduate = {title: "Quantium University Graduate", to
 </Ability>
 </>};
 const _rabble_rebel = {title: "Rabble Rebel", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="rabble-rebel" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="rabble-rebel" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="rabble-rebel">Rabble Rebel</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Galt</Pair>
@@ -2830,7 +2830,7 @@ const _rabble_rebel = {title: "Rabble Rebel", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _rahadoumi_cultist = {title: "Rahadoumi Cultist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="rahadoumi-cultist" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="rahadoumi-cultist" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="rahadoumi-cultist">Rahadoumi Cultist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
@@ -2839,7 +2839,7 @@ const _rahadoumi_cultist = {title: "Rahadoumi Cultist", topLink: ["Regional Trai
 </Ability>
 </>};
 const _rahadoumi_disbeliever = {title: "Rahadoumi Disbeliever", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="rahadoumi-disbeliever" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="rahadoumi-disbeliever" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="rahadoumi-disbeliever">Rahadoumi Disbeliever</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
@@ -2848,7 +2848,7 @@ const _rahadoumi_disbeliever = {title: "Rahadoumi Disbeliever", topLink: ["Regio
 </Ability>
 </>};
 const _rebel_leader = {title: "Rebel Leader", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="rebel-leader" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="rebel-leader" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="rebel-leader">Rebel Leader</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Shokuro</Pair>
@@ -2857,7 +2857,7 @@ const _rebel_leader = {title: "Rebel Leader", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _regional_influence = {title: "Regional Influence", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
-<Ability id="regional-influence" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="regional-influence" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="regional-influence">Regional Influence</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
@@ -2872,7 +2872,7 @@ const _regional_influence = {title: "Regional Influence", topLink: ["Regional Tr
 </Ability>
 </>};
 const _regional_recluse = {title: "Regional Recluse", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
-<Ability id="regional-recluse" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="regional-recluse" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="regional-recluse">Regional Recluse</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
@@ -2889,7 +2889,7 @@ const _regional_recluse = {title: "Regional Recluse", topLink: ["Regional Traits
 </Ability>
 </>};
 const _resourceful_alchemy = {title: "Resourceful Alchemy", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons</Link></p>
-<Ability id="resourceful-alchemy" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="resourceful-alchemy" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="resourceful-alchemy">Resourceful Alchemy</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
@@ -2898,7 +2898,7 @@ const _resourceful_alchemy = {title: "Resourceful Alchemy", topLink: ["Regional 
 </Ability>
 </>};
 const _resourceful_scavenger = {title: "Resourceful Scavenger", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe</Link></p>
-<Ability id="resourceful-scavenger" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="resourceful-scavenger" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="resourceful-scavenger">Resourceful Scavenger</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Numeria</Pair>
@@ -2907,7 +2907,7 @@ const _resourceful_scavenger = {title: "Resourceful Scavenger", topLink: ["Regio
 </Ability>
 </>};
 const _rice_runner = {title: "Rice Runner", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="rice-runner" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="rice-runner" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="rice-runner">Rice Runner</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Wanshou</Pair>
@@ -2916,7 +2916,7 @@ const _rice_runner = {title: "Rice Runner", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _rider_of_paresh = {title: "Rider of Paresh", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link>, <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link></p>
-<Ability id="rider-of-paresh" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="rider-of-paresh" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="rider-of-paresh">Rider of Paresh</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
@@ -2926,7 +2926,7 @@ const _rider_of_paresh = {title: "Rider of Paresh", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _river_navigator = {title: "River Navigator", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="river-navigator" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="river-navigator" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="river-navigator">River Navigator</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
@@ -2935,7 +2935,7 @@ const _river_navigator = {title: "River Navigator", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _river_rat = {title: "River Rat", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
-<Ability id="river-rat" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="river-rat" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="river-rat">River Rat</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>swamp or river</Pair>
@@ -2944,7 +2944,7 @@ const _river_rat = {title: "River Rat", topLink: ["Regional Traits","main/traits
 </Ability>
 </>};
 const _river_sniper = {title: "River Sniper", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="river-sniper" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="river-sniper" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="river-sniper">River Sniper</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
@@ -2953,7 +2953,7 @@ const _river_sniper = {title: "River Sniper", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _riverfolk = {title: "Riverfolk", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="riverfolk" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="riverfolk" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="riverfolk">Riverfolk</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
@@ -2962,7 +2962,7 @@ const _riverfolk = {title: "Riverfolk", topLink: ["Regional Traits","main/traits
 </Ability>
 </>};
 const _roof_racer = {title: "Roof Racer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
-<Ability id="roof-racer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="roof-racer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="roof-racer">Roof Racer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Korvosa</Pair>
@@ -2971,7 +2971,7 @@ const _roof_racer = {title: "Roof Racer", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _runaway_slave = {title: "Runaway Slave", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
-<Ability id="runaway-slave" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="runaway-slave" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="runaway-slave">Runaway Slave</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion, Thuvia, or Darklands-adjacent</Pair>
@@ -2980,7 +2980,7 @@ const _runaway_slave = {title: "Runaway Slave", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _sargavan_guard = {title: "Sargavan Guard", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="sargavan-guard" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="sargavan-guard" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="sargavan-guard">Sargavan Guard</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Sargava</Pair>
@@ -2989,7 +2989,7 @@ const _sargavan_guard = {title: "Sargavan Guard", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _savage_breaker = {title: "Savage Breaker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment</Link></p>
-<Ability id="savage-breaker" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="savage-breaker" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="savage-breaker">Savage Breaker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Korvosa</Pair>
@@ -2998,7 +2998,7 @@ const _savage_breaker = {title: "Savage Breaker", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _savanna_child = {title: "Savanna Child", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="savanna-child" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="savanna-child" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="savanna-child">Savanna Child</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh, plains</Pair>
@@ -3007,7 +3007,7 @@ const _savanna_child = {title: "Savanna Child", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _scion_of_goblinblood = {title: "Scion of Goblinblood", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
-<Ability id="scion-of-goblinblood" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="scion-of-goblinblood" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="scion-of-goblinblood">Scion of Goblinblood</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Isger</Pair>
@@ -3017,7 +3017,7 @@ const _scion_of_goblinblood = {title: "Scion of Goblinblood", topLink: ["Regiona
 </Ability>
 </>};
 const _scion_of_the_shory = {title: "Scion of the Shory", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="scion-of-the-shory" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="scion-of-the-shory" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="scion-of-the-shory">Scion of the Shory</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mwangi Expanse</Pair>
@@ -3026,7 +3026,7 @@ const _scion_of_the_shory = {title: "Scion of the Shory", topLink: ["Regional Tr
 </Ability>
 </>};
 const _scourge_of_the_seas = {title: "Scourge of the Seas", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link>, <Link to="/source/inner_sea_npc_codex">Inner Sea NPC Codex pg. 20</Link></p>
-<Ability id="scourge-of-the-seas" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="scourge-of-the-seas" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="scourge-of-the-seas">Scourge of the Seas</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
@@ -3036,7 +3036,7 @@ const _scourge_of_the_seas = {title: "Scourge of the Seas", topLink: ["Regional 
 <aside><p>There are no official stats for a scourge, but the <Link to="/npc/duergar_slaver">Duergar Slaver</Link> describes a scourge as "a <Link to="/eq-weapon/cat_o_nine_tails">cat-o'-nine-tails</Link> that deals lethal damage."</p>
 </aside></>};
 const _scrambling_servant = {title: "Scrambling Servant", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
-<Ability id="scrambling-servant" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="scrambling-servant" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="scrambling-servant">Scrambling Servant</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>mountains</Pair>
@@ -3048,7 +3048,7 @@ const _scrambling_servant = {title: "Scrambling Servant", topLink: ["Regional Tr
 </Ability>
 </>};
 const _screaming_leap = {title: "Screaming Leap", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="screaming-leap" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="screaming-leap" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="screaming-leap">Screaming Leap</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Realm of the Mammoth Lords</Pair>
@@ -3057,7 +3057,7 @@ const _screaming_leap = {title: "Screaming Leap", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _sea_souled = {title: "Sea-Souled", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="sea-souled" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="sea-souled" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="sea-souled">Sea-Souled</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>coastal or island</Pair>
@@ -3066,7 +3066,7 @@ const _sea_souled = {title: "Sea-Souled", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _seasoned_climber = {title: "Seasoned Climber", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="seasoned-climber" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="seasoned-climber" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="seasoned-climber">Seasoned Climber</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Wall of Heaven</Pair>
@@ -3075,7 +3075,7 @@ const _seasoned_climber = {title: "Seasoned Climber", topLink: ["Regional Traits
 </Ability>
 </>};
 const _secret_revolutionary = {title: "Secret Revolutionary", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="secret-revolutionary" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="secret-revolutionary" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="secret-revolutionary">Secret Revolutionary</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Cheliax</Pair>
@@ -3084,7 +3084,7 @@ const _secret_revolutionary = {title: "Secret Revolutionary", topLink: ["Regiona
 </Ability>
 </>};
 const _secret_of_the_impossible_kingdom = {title: "Secret of the Impossible Kingdom", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="secret-of-the-impossible-kingdom" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="secret-of-the-impossible-kingdom" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="secret-of-the-impossible-kingdom">Secret of the Impossible Kingdom</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Jalmeray</Pair>
@@ -3093,7 +3093,7 @@ const _secret_of_the_impossible_kingdom = {title: "Secret of the Impossible King
 </Ability>
 </>};
 const _servitor_of_spirits = {title: "Servitor of Spirits", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="servitor-of-spirits" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="servitor-of-spirits" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="servitor-of-spirits">Servitor of Spirits</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Tian Xia</Pair>
@@ -3104,7 +3104,7 @@ const _servitor_of_spirits = {title: "Servitor of Spirits", topLink: ["Regional 
 </Ability>
 </>};
 const _sevenarches_seeker = {title: "Sevenarches Seeker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="sevenarches-seeker" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="sevenarches-seeker" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="sevenarches-seeker">Sevenarches Seeker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Sevenarches</Pair>
@@ -3113,7 +3113,7 @@ const _sevenarches_seeker = {title: "Sevenarches Seeker", topLink: ["Regional Tr
 </Ability>
 </>};
 const _shackles_seafarer = {title: "Shackles Seafarer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="shackles-seafarer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="shackles-seafarer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="shackles-seafarer">Shackles Seafarer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
@@ -3122,7 +3122,7 @@ const _shackles_seafarer = {title: "Shackles Seafarer", topLink: ["Regional Trai
 </Ability>
 </>};
 const _shadow_dealer = {title: "Shadow Dealer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="shadow-dealer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="shadow-dealer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="shadow-dealer">Shadow Dealer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
@@ -3131,7 +3131,7 @@ const _shadow_dealer = {title: "Shadow Dealer", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _shadow_dissident = {title: "Shadow Dissident", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link></p>
-<Ability id="shadow-dissident" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="shadow-dissident" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="shadow-dissident">Shadow Dissident</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nidal</Pair>
@@ -3140,7 +3140,7 @@ const _shadow_dissident = {title: "Shadow Dissident", topLink: ["Regional Traits
 </Ability>
 </>};
 const _shadow_shaman = {title: "Shadow Shaman", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="shadow-shaman" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="shadow-shaman" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="shadow-shaman">Shadow Shaman</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nidal</Pair>
@@ -3149,7 +3149,7 @@ const _shadow_shaman = {title: "Shadow Shaman", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _shadowsight = {title: "Shadowsight", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
-<Ability id="shadowsight" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="shadowsight" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="shadowsight">Shadowsight</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nidal</Pair>
@@ -3158,7 +3158,7 @@ const _shadowsight = {title: "Shadowsight", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _shaer = {title: "Shaer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe</Link></p>
-<Ability id="shaer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="shaer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="shaer">Shaer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
@@ -3168,7 +3168,7 @@ const _shaer = {title: "Shaer", topLink: ["Regional Traits","main/traits_regiona
 </Ability>
 </>};
 const _sharp_eyes = {title: "Sharp Eyes", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
-<Ability id="sharp-eyes" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="sharp-eyes" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="sharp-eyes">Sharp Eyes</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>tundra</Pair>
@@ -3176,7 +3176,7 @@ const _sharp_eyes = {title: "Sharp Eyes", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _shenmen_prospector = {title: "Shenmen Prospector", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="shenmen-prospector" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="shenmen-prospector" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="shenmen-prospector">Shenmen Prospector</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Shenmen</Pair>
@@ -3185,7 +3185,7 @@ const _shenmen_prospector = {title: "Shenmen Prospector", topLink: ["Regional Tr
 </Ability>
 </>};
 const _ship_aptitude = {title: "Ship Aptitude", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="ship-aptitude" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="ship-aptitude" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="ship-aptitude">Ship Aptitude</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
@@ -3194,7 +3194,7 @@ const _ship_aptitude = {title: "Ship Aptitude", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _shipboard_caster = {title: "Shipboard Caster", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="shipboard-caster" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="shipboard-caster" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="shipboard-caster">Shipboard Caster</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Riddleport</Pair>
@@ -3203,7 +3203,7 @@ const _shipboard_caster = {title: "Shipboard Caster", topLink: ["Regional Traits
 </Ability>
 </>};
 const _shoanti_tribesman = {title: "Shoanti Tribesman", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="shoanti-tribesman" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="shoanti-tribesman" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="shoanti-tribesman">Shoanti Tribesman</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
@@ -3212,7 +3212,7 @@ const _shoanti_tribesman = {title: "Shoanti Tribesman", topLink: ["Regional Trai
 </Ability>
 </>};
 const _signaler = {title: "Signaler", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="signaler" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="signaler" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="signaler">Signaler</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Molthune</Pair>
@@ -3220,7 +3220,7 @@ const _signaler = {title: "Signaler", topLink: ["Regional Traits","main/traits_r
 </Ability>
 </>};
 const _silent_watcher = {title: "Silent Watcher", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="silent-watcher" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="silent-watcher" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="silent-watcher">Silent Watcher</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Galt</Pair>
@@ -3229,7 +3229,7 @@ const _silent_watcher = {title: "Silent Watcher", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _silvertongued_eunuch = {title: "Silvertongued Eunuch", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="silvertongued-eunuch" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="silvertongued-eunuch" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="silvertongued-eunuch">Silvertongued Eunuch</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Quain</Pair>
@@ -3238,7 +3238,7 @@ const _silvertongued_eunuch = {title: "Silvertongued Eunuch", topLink: ["Regiona
 </Ability>
 </>};
 const _skilled_surgeon = {title: "Skilled Surgeon", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="skilled-surgeon" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="skilled-surgeon" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="skilled-surgeon">Skilled Surgeon</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira or Ustalav</Pair>
@@ -3247,7 +3247,7 @@ const _skilled_surgeon = {title: "Skilled Surgeon", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _sky_spirit_worshipper = {title: "Sky Spirit Worshipper", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="sky-spirit-worshipper" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="sky-spirit-worshipper" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="sky-spirit-worshipper">Sky Spirit Worshipper</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mutabi-qi</Pair>
@@ -3256,7 +3256,7 @@ const _sky_spirit_worshipper = {title: "Sky Spirit Worshipper", topLink: ["Regio
 </Ability>
 </>};
 const _skymetal_affinity = {title: "Skymetal Affinity", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="skymetal-affinity" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="skymetal-affinity" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="skymetal-affinity">Skymetal Affinity</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Numeria</Pair>
@@ -3264,7 +3264,7 @@ const _skymetal_affinity = {title: "Skymetal Affinity", topLink: ["Regional Trai
 </Ability>
 </>};
 const _slave_taker = {title: "Slave Taker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="slave-taker" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="slave-taker" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="slave-taker">Slave Taker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Okeno</Pair>
@@ -3273,7 +3273,7 @@ const _slave_taker = {title: "Slave Taker", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _slayer_of_the_deep = {title: "Slayer of the Deep", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="slayer-of-the-deep" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="slayer-of-the-deep" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="slayer-of-the-deep">Slayer of the Deep</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands beneath Tian Xia</Pair>
@@ -3282,7 +3282,7 @@ const _slayer_of_the_deep = {title: "Slayer of the Deep", topLink: ["Regional Tr
 </Ability>
 </>};
 const _snake_bleeder = {title: "Snake Bleeder", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="snake-bleeder" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="snake-bleeder" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="snake-bleeder">Snake Bleeder</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nagajor</Pair>
@@ -3291,7 +3291,7 @@ const _snake_bleeder = {title: "Snake Bleeder", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _snake_handler = {title: "Snake Handler", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe</Link></p>
-<Ability id="snake-handler" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="snake-handler" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="snake-handler">Snake Handler</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Religion" hl><Link to="/faith/apep">Apep</Link> or <Link to="/faith/wadjet">Wadjet</Link></Pair>
@@ -3301,7 +3301,7 @@ const _snake_handler = {title: "Snake Handler", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _snowstride = {title: "Snowstride", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="snowstride" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="snowstride" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="snowstride">Snowstride</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands</Pair>
@@ -3309,7 +3309,7 @@ const _snowstride = {title: "Snowstride", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _social_slaver = {title: "Social Slaver", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
-<Ability id="social-slaver" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="social-slaver" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="social-slaver">Social Slaver</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Cheliax</Pair>
@@ -3318,7 +3318,7 @@ const _social_slaver = {title: "Social Slaver", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _sodden_chld = {title: "Sodden Chld", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="sodden-chld" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="sodden-chld" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="sodden-chld">Sodden Chld</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Sodden Lands</Pair>
@@ -3327,7 +3327,7 @@ const _sodden_chld = {title: "Sodden Chld", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _soldier_of_the_faith = {title: "Soldier of the Faith", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="soldier-of-the-faith" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="soldier-of-the-faith" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="soldier-of-the-faith">Soldier of the Faith</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Razmiran</Pair>
@@ -3336,7 +3336,7 @@ const _soldier_of_the_faith = {title: "Soldier of the Faith", topLink: ["Regiona
 </Ability>
 </>};
 const _solidarity = {title: "Solidarity", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="solidarity" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="solidarity" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="solidarity">Solidarity</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>City of Brass</Pair>
@@ -3345,7 +3345,7 @@ const _solidarity = {title: "Solidarity", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _sophisticated_citizen = {title: "Sophisticated Citizen", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest</Link></p>
-<Ability id="sophisticated-citizen" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="sophisticated-citizen" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="sophisticated-citizen">Sophisticated Citizen</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Absalom</Pair>
@@ -3354,7 +3354,7 @@ const _sophisticated_citizen = {title: "Sophisticated Citizen", topLink: ["Regio
 </Ability>
 </>};
 const _sound_of_mind = {title: "Sound of Mind", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="sound-of-mind" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="sound-of-mind" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="sound-of-mind">Sound of Mind</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Zi Ha</Pair>
@@ -3363,7 +3363,7 @@ const _sound_of_mind = {title: "Sound of Mind", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _spell_duel_prodigy = {title: "Spell Duel Prodigy", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="spell-duel-prodigy" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="spell-duel-prodigy" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="spell-duel-prodigy">Spell Duel Prodigy</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Erages</Pair>
@@ -3372,7 +3372,7 @@ const _spell_duel_prodigy = {title: "Spell Duel Prodigy", topLink: ["Regional Tr
 </Ability>
 </>};
 const _spirit_animal = {title: "Spirit Animal", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="spirit-animal" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="spirit-animal" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="spirit-animal">Spirit Animal</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Realm of the Mammoth Lords</Pair>
@@ -3387,7 +3387,7 @@ const _spirit_animal = {title: "Spirit Animal", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _spiritual_forester = {title: "Spiritual Forester", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="spiritual-forester" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="spiritual-forester" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="spiritual-forester">Spiritual Forester</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Forest of Spirits</Pair>
@@ -3396,7 +3396,7 @@ const _spiritual_forester = {title: "Spiritual Forester", topLink: ["Regional Tr
 </Ability>
 </>};
 const _star_reader = {title: "Star Reader", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
-<Ability id="star-reader" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="star-reader" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="star-reader">Star Reader</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Sodden Lands</Pair>
@@ -3405,7 +3405,7 @@ const _star_reader = {title: "Star Reader", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _stargazer_region = {title: "Stargazer (Region)", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 11</Link></p>
-<Ability id="stargazer-region" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="stargazer-region" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="stargazer-region">Stargazer (Region)</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lirgen</Pair>
@@ -3413,7 +3413,7 @@ const _stargazer_region = {title: "Stargazer (Region)", topLink: ["Regional Trai
 </Ability>
 </>};
 const _storm_hunter = {title: "Storm Hunter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="storm-hunter" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="storm-hunter" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="storm-hunter">Storm Hunter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Hongal</Pair>
@@ -3422,7 +3422,7 @@ const _storm_hunter = {title: "Storm Hunter", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _stormrunner = {title: "Stormrunner", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="stormrunner" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="stormrunner" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="stormrunner">Stormrunner</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
@@ -3430,7 +3430,7 @@ const _stormrunner = {title: "Stormrunner", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _stream_nomad = {title: "Stream Nomad", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="stream-nomad" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="stream-nomad" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="stream-nomad">Stream Nomad</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands</Pair>
@@ -3439,7 +3439,7 @@ const _stream_nomad = {title: "Stream Nomad", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _street_wary = {title: "Street Wary", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
-<Ability id="street-wary" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="street-wary" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="street-wary">Street Wary</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>urban</Pair>
@@ -3448,7 +3448,7 @@ const _street_wary = {title: "Street Wary", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _suck_in_your_gut = {title: "Suck in Your Gut", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="suck-in-your-gut" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="suck-in-your-gut" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="suck-in-your-gut">Suck in Your Gut</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands</Pair>
@@ -3456,7 +3456,7 @@ const _suck_in_your_gut = {title: "Suck in Your Gut", topLink: ["Regional Traits
 </Ability>
 </>};
 const _sun_orchid_harvester = {title: "Sun Orchid Harvester", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook</Link></p>
-<Ability id="sun-orchid-harvester" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="sun-orchid-harvester" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="sun-orchid-harvester">Sun Orchid Harvester</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
@@ -3465,7 +3465,7 @@ const _sun_orchid_harvester = {title: "Sun Orchid Harvester", topLink: ["Regiona
 </Ability>
 </>};
 const _sun_blasted = {title: "Sun-Blasted", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="sun-blasted" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="sun-blasted" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="sun-blasted">Sun-Blasted</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>desert</Pair>
@@ -3474,7 +3474,7 @@ const _sun_blasted = {title: "Sun-Blasted", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _superstitious_isp = {title: "Superstitious (ISP)", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="superstitious-isp" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="superstitious-isp" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="superstitious-isp">Superstitious (ISP)</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Realm of the Mammoth Lords</Pair>
@@ -3483,7 +3483,7 @@ const _superstitious_isp = {title: "Superstitious (ISP)", topLink: ["Regional Tr
 </Ability>
 </>};
 const _superstitious_ward = {title: "Superstitious Ward", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="superstitious-ward" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="superstitious-ward" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="superstitious-ward">Superstitious Ward</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
@@ -3492,7 +3492,7 @@ const _superstitious_ward = {title: "Superstitious Ward", topLink: ["Regional Tr
 </Ability>
 </>};
 const _surefooted_ascent = {title: "Surefooted Ascent", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
-<Ability id="surefooted-ascent" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="surefooted-ascent" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="surefooted-ascent">Surefooted Ascent</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>hills or mountains</Pair>
@@ -3500,7 +3500,7 @@ const _surefooted_ascent = {title: "Surefooted Ascent", topLink: ["Regional Trai
 </Ability>
 </>};
 const _surface_stranger = {title: "Surface Stranger", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="surface-stranger" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="surface-stranger" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="surface-stranger">Surface Stranger</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>underground</Pair>
@@ -3509,7 +3509,7 @@ const _surface_stranger = {title: "Surface Stranger", topLink: ["Regional Traits
 </Ability>
 </>};
 const _sustaining_performance = {title: "Sustaining Performance", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="sustaining-performance" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="sustaining-performance" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="sustaining-performance">Sustaining Performance</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
@@ -3518,7 +3518,7 @@ const _sustaining_performance = {title: "Sustaining Performance", topLink: ["Reg
 </Ability>
 </>};
 const _swamp_rebel = {title: "Swamp Rebel", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="swamp-rebel" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="swamp-rebel" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="swamp-rebel">Swamp Rebel</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Wanshou</Pair>
@@ -3527,7 +3527,7 @@ const _swamp_rebel = {title: "Swamp Rebel", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _swamp_recluse = {title: "Swamp Recluse", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
-<Ability id="swamp-recluse" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="swamp-recluse" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="swamp-recluse">Swamp Recluse</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>swamp</Pair>
@@ -3535,7 +3535,7 @@ const _swamp_recluse = {title: "Swamp Recluse", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _swamp_skulker = {title: "Swamp Skulker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="swamp-skulker" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="swamp-skulker" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="swamp-skulker">Swamp Skulker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
@@ -3544,7 +3544,7 @@ const _swamp_skulker = {title: "Swamp Skulker", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _swamp_survivor = {title: "Swamp Survivor", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook</Link></p>
-<Ability id="swamp-survivor" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="swamp-survivor" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="swamp-survivor">Swamp Survivor</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
@@ -3553,7 +3553,7 @@ const _swamp_survivor = {title: "Swamp Survivor", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _swordlords_page = {title: "Swordlord's Page", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="swordlords-page" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="swordlords-page" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="swordlords-page">Swordlord's Page</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Brevoy</Pair>
@@ -3562,7 +3562,7 @@ const _swordlords_page = {title: "Swordlord's Page", topLink: ["Regional Traits"
 </Ability>
 </>};
 const _szaezan_crags_miner = {title: "Szaezan Crags Miner", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="szaezan-crags-miner" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="szaezan-crags-miner" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="szaezan-crags-miner">Szaezan Crags Miner</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Bachuan</Pair>
@@ -3571,7 +3571,7 @@ const _szaezan_crags_miner = {title: "Szaezan Crags Miner", topLink: ["Regional 
 </Ability>
 </>};
 const _tanglebriar_guerrilla = {title: "Tanglebriar Guerrilla", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="tanglebriar-guerrilla" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="tanglebriar-guerrilla" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="tanglebriar-guerrilla">Tanglebriar Guerrilla</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kyonin</Pair>
@@ -3580,7 +3580,7 @@ const _tanglebriar_guerrilla = {title: "Tanglebriar Guerrilla", topLink: ["Regio
 </Ability>
 </>};
 const _technic_tinkerer = {title: "Technic Tinkerer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="technic-tinkerer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="technic-tinkerer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="technic-tinkerer">Technic Tinkerer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Numeria</Pair>
@@ -3589,7 +3589,7 @@ const _technic_tinkerer = {title: "Technic Tinkerer", topLink: ["Regional Traits
 </Ability>
 </>};
 const _technological_brewmaster = {title: "Technological Brewmaster", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons</Link></p>
-<Ability id="technological-brewmaster" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="technological-brewmaster" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="technological-brewmaster">Technological Brewmaster</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Numeria</Pair>
@@ -3598,7 +3598,7 @@ const _technological_brewmaster = {title: "Technological Brewmaster", topLink: [
 </Ability>
 </>};
 const _the_vessel_between = {title: "The Vessel Between", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="the-vessel-between" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="the-vessel-between" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="the-vessel-between">The Vessel Between</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Daggermark</Pair>
@@ -3607,7 +3607,7 @@ const _the_vessel_between = {title: "The Vessel Between", topLink: ["Regional Tr
 </Ability>
 </>};
 const _thoughtful_wish_maker = {title: "Thoughtful Wish-Maker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="thoughtful-wish-maker" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="thoughtful-wish-maker" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="thoughtful-wish-maker">Thoughtful Wish-Maker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Plane of Fire</Pair>
@@ -3616,7 +3616,7 @@ const _thoughtful_wish_maker = {title: "Thoughtful Wish-Maker", topLink: ["Regio
 </Ability>
 </>};
 const _thuvian_merchant = {title: "Thuvian Merchant", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="thuvian-merchant" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="thuvian-merchant" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="thuvian-merchant">Thuvian Merchant</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
@@ -3625,7 +3625,7 @@ const _thuvian_merchant = {title: "Thuvian Merchant", topLink: ["Regional Traits
 </Ability>
 </>};
 const _tianjing_temple_guard = {title: "Tianjing Temple Guard", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="tianjing-temple-guard" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="tianjing-temple-guard" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="tianjing-temple-guard">Tianjing Temple Guard</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Tianjing</Pair>
@@ -3634,7 +3634,7 @@ const _tianjing_temple_guard = {title: "Tianjing Temple Guard", topLink: ["Regio
 </Ability>
 </>};
 const _tiger_brigadier = {title: "Tiger Brigadier", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="tiger-brigadier" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="tiger-brigadier" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="tiger-brigadier">Tiger Brigadier</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Bachuan</Pair>
@@ -3643,7 +3643,7 @@ const _tiger_brigadier = {title: "Tiger Brigadier", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _touched_by_the_sky = {title: "Touched by the Sky", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="touched-by-the-sky" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="touched-by-the-sky" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="touched-by-the-sky">Touched by the Sky</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Numeria</Pair>
@@ -3652,7 +3652,7 @@ const _touched_by_the_sky = {title: "Touched by the Sky", topLink: ["Regional Tr
 </Ability>
 </>};
 const _town_gossip = {title: "Town Gossip", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
-<Ability id="town-gossip" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="town-gossip" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="town-gossip">Town Gossip</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
@@ -3661,7 +3661,7 @@ const _town_gossip = {title: "Town Gossip", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _trap_savvy = {title: "Trap Savvy", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="trap-savvy" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="trap-savvy" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="trap-savvy">Trap Savvy</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands</Pair>
@@ -3670,7 +3670,7 @@ const _trap_savvy = {title: "Trap Savvy", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _treasure_mapper = {title: "Treasure Mapper", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="treasure-mapper" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="treasure-mapper" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="treasure-mapper">Treasure Mapper</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mediogalti</Pair>
@@ -3679,7 +3679,7 @@ const _treasure_mapper = {title: "Treasure Mapper", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _treerazers_bane = {title: "Treerazer's Bane", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link>, <Link to="/source/elves_of_golarion">Elves of Golarion</Link></p>
-<Ability id="treerazers-bane" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="treerazers-bane" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="treerazers-bane">Treerazer's Bane</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kyonin</Pair>
@@ -3688,7 +3688,7 @@ const _treerazers_bane = {title: "Treerazer's Bane", topLink: ["Regional Traits"
 </Ability>
 </>};
 const _trench_navigator = {title: "Trench Navigator", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="trench-navigator" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="trench-navigator" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="trench-navigator">Trench Navigator</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Xidao</Pair>
@@ -3697,7 +3697,7 @@ const _trench_navigator = {title: "Trench Navigator", topLink: ["Regional Traits
 </Ability>
 </>};
 const _triaxian_tradition = {title: "Triaxian Tradition", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="triaxian-tradition" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="triaxian-tradition" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="triaxian-tradition">Triaxian Tradition</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Triaxus</Pair>
@@ -3706,7 +3706,7 @@ const _triaxian_tradition = {title: "Triaxian Tradition", topLink: ["Regional Tr
 </Ability>
 </>};
 const _true_name_caller = {title: "True Name Caller", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
-<Ability id="true-name-caller" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="true-name-caller" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="true-name-caller">True Name Caller</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Abyss</Pair>
@@ -3714,7 +3714,7 @@ const _true_name_caller = {title: "True Name Caller", topLink: ["Regional Traits
 </Ability>
 </>};
 const _tundra_child = {title: "Tundra Child", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="tundra-child" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="tundra-child" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="tundra-child">Tundra Child</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>tundra or other cold regions</Pair>
@@ -3723,7 +3723,7 @@ const _tundra_child = {title: "Tundra Child", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _unafraid = {title: "Unafraid", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="unafraid" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="unafraid" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="unafraid">Unafraid</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
@@ -3732,7 +3732,7 @@ const _unafraid = {title: "Unafraid", topLink: ["Regional Traits","main/traits_r
 </Ability>
 </>};
 const _underbridge_dweller = {title: "Underbridge Dweller", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
-<Ability id="underbridge-dweller" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="underbridge-dweller" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="underbridge-dweller">Underbridge Dweller</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Magnimar</Pair>
@@ -3740,7 +3740,7 @@ const _underbridge_dweller = {title: "Underbridge Dweller", topLink: ["Regional 
 </Ability>
 </>};
 const _undermarket_smuggler = {title: "Undermarket Smuggler", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="undermarket-smuggler" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="undermarket-smuggler" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="undermarket-smuggler">Undermarket Smuggler</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Goka</Pair>
@@ -3749,7 +3749,7 @@ const _undermarket_smuggler = {title: "Undermarket Smuggler", topLink: ["Regiona
 </Ability>
 </>};
 const _unflinching_faith = {title: "Unflinching Faith", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook</Link></p>
-<Ability id="unflinching-faith" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="unflinching-faith" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="unflinching-faith">Unflinching Faith</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nidal</Pair>
@@ -3758,7 +3758,7 @@ const _unflinching_faith = {title: "Unflinching Faith", topLink: ["Regional Trai
 </Ability>
 </>};
 const _unstuck = {title: "Unstuck", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World</Link></p>
-<Ability id="unstuck" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="unstuck" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="unstuck">Unstuck</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Uringen</Pair>
@@ -3767,7 +3767,7 @@ const _unstuck = {title: "Unstuck", topLink: ["Regional Traits","main/traits_reg
 </Ability>
 </>};
 const _uskwood_hunter = {title: "Uskwood Hunter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="uskwood-hunter" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="uskwood-hunter" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="uskwood-hunter">Uskwood Hunter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nidal</Pair>
@@ -3776,7 +3776,7 @@ const _uskwood_hunter = {title: "Uskwood Hunter", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _ustalavic_noble = {title: "Ustalavic Noble", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="ustalavic-noble" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="ustalavic-noble" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="ustalavic-noble">Ustalavic Noble</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
@@ -3785,7 +3785,7 @@ const _ustalavic_noble = {title: "Ustalavic Noble", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _uwaga_highlander = {title: "Uwaga Highlander", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="uwaga-highlander" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="uwaga-highlander" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="uwaga-highlander">Uwaga Highlander</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
@@ -3794,7 +3794,7 @@ const _uwaga_highlander = {title: "Uwaga Highlander", topLink: ["Regional Traits
 </Ability>
 </>};
 const _vagabond_child = {title: "Vagabond Child", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="vagabond-child" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="vagabond-child" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="vagabond-child">Vagabond Child</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>urban</Pair>
@@ -3803,7 +3803,7 @@ const _vagabond_child = {title: "Vagabond Child", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _valashmai_veteran = {title: "Valashmai Veteran", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="valashmai-veteran" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="valashmai-veteran" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="valashmai-veteran">Valashmai Veteran</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Valashmai Jungle</Pair>
@@ -3812,7 +3812,7 @@ const _valashmai_veteran = {title: "Valashmai Veteran", topLink: ["Regional Trai
 </Ability>
 </>};
 const _valknar_alumnus = {title: "Valknar Alumnus", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="valknar-alumnus" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="valknar-alumnus" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="valknar-alumnus">Valknar Alumnus</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Tymon</Pair>
@@ -3821,7 +3821,7 @@ const _valknar_alumnus = {title: "Valknar Alumnus", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _varisian_wanderer = {title: "Varisian Wanderer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="varisian-wanderer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="varisian-wanderer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="varisian-wanderer">Varisian Wanderer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
@@ -3830,7 +3830,7 @@ const _varisian_wanderer = {title: "Varisian Wanderer", topLink: ["Regional Trai
 </Ability>
 </>};
 const _venicaan_medic = {title: "Venicaan Medic", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link></p>
-<Ability id="venicaan-medic" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="venicaan-medic" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="venicaan-medic">Venicaan Medic</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
@@ -3839,7 +3839,7 @@ const _venicaan_medic = {title: "Venicaan Medic", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _vialesk_historian = {title: "Vialesk Historian", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="vialesk-historian" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="vialesk-historian" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="vialesk-historian">Vialesk Historian</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Plane of Water</Pair>
@@ -3848,7 +3848,7 @@ const _vialesk_historian = {title: "Vialesk Historian", topLink: ["Regional Trai
 </Ability>
 </>};
 const _viking_blood = {title: "Viking Blood", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="viking-blood" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="viking-blood" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="viking-blood">Viking Blood</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lands of the Linnorm Kings</Pair>
@@ -3857,7 +3857,7 @@ const _viking_blood = {title: "Viking Blood", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _voices_of_solid_things = {title: "Voices of Solid Things", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World</Link></p>
-<Ability id="voices-of-solid-things" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="voices-of-solid-things" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="voices-of-solid-things">Voices of Solid Things</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Witchmarket</Pair>
@@ -3866,7 +3866,7 @@ const _voices_of_solid_things = {title: "Voices of Solid Things", topLink: ["Reg
 </Ability>
 </>};
 const _void_child = {title: "Void Child", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="void-child" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="void-child" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="void-child">Void Child</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Diaspora</Pair>
@@ -3875,7 +3875,7 @@ const _void_child = {title: "Void Child", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _walking_ward = {title: "Walking Ward", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link></p>
-<Ability id="walking-ward" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="walking-ward" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="walking-ward">Walking Ward</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
@@ -3884,7 +3884,7 @@ const _walking_ward = {title: "Walking Ward", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _wardbreaker = {title: "Wardbreaker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
-<Ability id="wardbreaker" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="wardbreaker" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="wardbreaker">Wardbreaker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Worldwound</Pair>
@@ -3895,7 +3895,7 @@ const _wardbreaker = {title: "Wardbreaker", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _warrior_poet = {title: "Warrior Poet", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="warrior-poet" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="warrior-poet" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="warrior-poet">Warrior Poet</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lands of the Linnorm Kings</Pair>
@@ -3904,7 +3904,7 @@ const _warrior_poet = {title: "Warrior Poet", topLink: ["Regional Traits","main/
 </Ability>
 </>};
 const _wary_potr = {title: "Wary (PotR)", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="wary-potr" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="wary-potr" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="wary-potr">Wary (PotR)</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Daggermark</Pair>
@@ -3913,7 +3913,7 @@ const _wary_potr = {title: "Wary (PotR)", topLink: ["Regional Traits","main/trai
 </Ability>
 </>};
 const _watching_taldor = {title: "Watching Taldor", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East</Link>, <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link></p>
-<Ability id="watching-taldor" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="watching-taldor" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="watching-taldor">Watching Taldor</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
@@ -3923,7 +3923,7 @@ const _watching_taldor = {title: "Watching Taldor", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _water_brave = {title: "Water Brave", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="water-brave" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="water-brave" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="water-brave">Water Brave</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
@@ -3932,7 +3932,7 @@ const _water_brave = {title: "Water Brave", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _wayang_spellhunter = {title: "Wayang Spellhunter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="wayang-spellhunter" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="wayang-spellhunter" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="wayang-spellhunter">Wayang Spellhunter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Minata</Pair>
@@ -3941,7 +3941,7 @@ const _wayang_spellhunter = {title: "Wayang Spellhunter", topLink: ["Regional Tr
 </Ability>
 </>};
 const _wealthy_dabbler = {title: "Wealthy Dabbler", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link>, <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
-<Ability id="wealthy-dabbler" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="wealthy-dabbler" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="wealthy-dabbler">Wealthy Dabbler</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Taldor</Pair>
@@ -3950,7 +3950,7 @@ const _wealthy_dabbler = {title: "Wealthy Dabbler", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _weed_resistance = {title: "Weed Resistance", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons</Link></p>
-<Ability id="weed-resistance" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="weed-resistance" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="weed-resistance">Weed Resistance</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kyonin</Pair>
@@ -3959,7 +3959,7 @@ const _weed_resistance = {title: "Weed Resistance", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _well_bred = {title: "Well Bred", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook</Link></p>
-<Ability id="well-bred" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="well-bred" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="well-bred">Well Bred</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Hermea</Pair>
@@ -3968,7 +3968,7 @@ const _well_bred = {title: "Well Bred", topLink: ["Regional Traits","main/traits
 </Ability>
 </>};
 const _wharf_rat = {title: "Wharf Rat", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="wharf-rat" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="wharf-rat" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="wharf-rat">Wharf Rat</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ostenso</Pair>
@@ -3977,7 +3977,7 @@ const _wharf_rat = {title: "Wharf Rat", topLink: ["Regional Traits","main/traits
 </Ability>
 </>};
 const _whip_specialist = {title: "Whip Specialist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="whip-specialist" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="whip-specialist" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="whip-specialist">Whip Specialist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Okeno</Pair>
@@ -3986,7 +3986,7 @@ const _whip_specialist = {title: "Whip Specialist", topLink: ["Regional Traits",
 </Ability>
 </>};
 const _whisper_woods_hunter = {title: "Whisper Woods Hunter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="whisper-woods-hunter" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="whisper-woods-hunter" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="whisper-woods-hunter">Whisper Woods Hunter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Whisper Woods</Pair>
@@ -3995,7 +3995,7 @@ const _whisper_woods_hunter = {title: "Whisper Woods Hunter", topLink: ["Regiona
 </Ability>
 </>};
 const _whitethrone_gourmand = {title: "Whitethrone Gourmand", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="whitethrone-gourmand" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="whitethrone-gourmand" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="whitethrone-gourmand">Whitethrone Gourmand</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Irrisen</Pair>
@@ -4004,7 +4004,7 @@ const _whitethrone_gourmand = {title: "Whitethrone Gourmand", topLink: ["Regiona
 </Ability>
 </>};
 const _whole_hearted = {title: "Whole-Hearted", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="whole-hearted" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="whole-hearted" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="whole-hearted">Whole-Hearted</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Averaka</Pair>
@@ -4013,7 +4013,7 @@ const _whole_hearted = {title: "Whole-Hearted", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _wild_wanderer = {title: "Wild Wanderer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="wild-wanderer" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="wild-wanderer" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="wild-wanderer">Wild Wanderer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mwangi Expanse</Pair>
@@ -4022,7 +4022,7 @@ const _wild_wanderer = {title: "Wild Wanderer", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _windspeaker = {title: "Windspeaker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
-<Ability id="windspeaker" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="windspeaker" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="windspeaker">Windspeaker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>desert</Pair>
@@ -4030,7 +4030,7 @@ const _windspeaker = {title: "Windspeaker", topLink: ["Regional Traits","main/tr
 </Ability>
 </>};
 const _winners_luck = {title: "Winner's Luck", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
-<Ability id="winners-luck" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="winners-luck" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="winners-luck">Winner's Luck</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Riddleport</Pair>
@@ -4039,7 +4039,7 @@ const _winners_luck = {title: "Winner's Luck", topLink: ["Regional Traits","main
 </Ability>
 </>};
 const _winter_warrior = {title: "Winter Warrior", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="winter-warrior" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="winter-warrior" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="winter-warrior">Winter Warrior</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Irrisen</Pair>
@@ -4048,7 +4048,7 @@ const _winter_warrior = {title: "Winter Warrior", topLink: ["Regional Traits","m
 </Ability>
 </>};
 const _winters_soul = {title: "Winter's Soul", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
-<Ability id="winters-soul" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="winters-soul" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="winters-soul">Winter's Soul</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Irrisen</Pair>
@@ -4057,7 +4057,7 @@ const _winters_soul = {title: "Winter's Soul", topLink: ["Regional Traits","main
 </Ability>
 </>};
 const _witch_tongued = {title: "Witch-Tongued", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="witch-tongued" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="witch-tongued" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="witch-tongued">Witch-Tongued</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Irrisen</Pair>
@@ -4066,7 +4066,7 @@ const _witch_tongued = {title: "Witch-Tongued", topLink: ["Regional Traits","mai
 </Ability>
 </>};
 const _xa_hoi_soldier = {title: "Xa Hoi Soldier", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
-<Ability id="xa-hoi-soldier" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="xa-hoi-soldier" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="xa-hoi-soldier">Xa Hoi Soldier</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Xa Hoi</Pair>

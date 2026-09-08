@@ -382,75 +382,35 @@ const makeAbilityBlock = ({
 	//
 	// CONSTRUCT ICON
 	//
-	const svg = () => {
+	const getIcons = () => {
 		return (icon || "").split("-").map(i => {
 			switch(i) {
-				case "melee": { // melee attack, combat maneuver
-					return "mailed-fist";
-				}
-				case "touch": { // touch attack
-					return "magic-palm";
-				}
-				case "magic": { // cast a spell
-					return "magic-swirl";
-				}
-				case "zap": { // ranged touch attack
-					return "smoking-finger";
-				}
-				case "line": { // line attack
-					return "barbed-arrow";
-				}
-				case "cone": { // cone-shaped attack
-					return "tornado-discs";
-				}
-				case "ranged": { // ranged physical attack
-					return "bowman";
-				}
-				case "def": { // defensive ability
-					return "armor-upgrade";
-				}
-				case "learn": { // gain a spell
-					return "spell-book";
-				}
-				case "aura": { // aura
-					return "aura";
-				}
-				case "power": { // gain a new ability or companion
-					return "stairs-goal";
-				}
-				case "boost": { // boost your own abilities, or an ally's
-					return "upgrade";
-				}
-				case "aid": { // aid another
-					return "remedy";
-				}
-				case "protect": { // protect another
-					return "shield-reflect";
-				}
-				case "lower": { // lower another's defenses
-					return "armor-downgrade";
-				}
-				case "roll": { // change to how you roll dice
-					return "rolling-dices";
-				}
-				case "down": { // a strict downgrade of your own abilities
-					return "broken-shield";
-				}
-				case "skill": { // modifying class skills
-					return "skills";
-				}
-				case "info": { // just a simple note
-					return "info";
-				}
-				case "warning": {
-					return "hazard-sign";
-				}
+				case "melee":
+				case "touch":
+				case "magic":
+				case "zap":
+				case "line":
+				case "cone":
+				case "ranged":
+				case "def":
+				case "learn":
+				case "aura":
+				case "power":
+				case "boost":
+				case "aid":
+				case "protect":
+				case "lower":
+				case "roll":
+				case "down":
+				case "skill":
+				case "info":
+				case "warning":
+					return i;
 			}
 			logError(`---> Missing or invalid icon [${i}][${text}]`);
-			return "confirmed";
+			return "ok";
 		});
 	};
-	const iconBox = svg();
 	//
 	// TITLE
 	//
@@ -1045,7 +1005,7 @@ const makeAbilityBlock = ({
 
 	return `${maybeClear}<Ability id="${abId}" ${
 			extraClasses ? `extraClasses="${extraClasses}" ` : ""
-		}icon={${JSON.stringify(iconBox)}}>\n`
+		}icon={${JSON.stringify(getIcons())}}>\n`
 		+ `${output.join("\n")}\n</Ability>\n`;
 };
 

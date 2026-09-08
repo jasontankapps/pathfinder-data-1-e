@@ -8,7 +8,7 @@ const _not_found = {title: "Unknown", jsx: <><h2 id="oraclecurse-not_found-error
 <p>Unable to find the requested oracle curse.</p>
 </>};
 const _aboleth = {title: "Aboleth", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms</Link></p>
-<Ability id="aboleth" icon={["broken-shield","spell-book"]}>
+<Ability id="aboleth" icon={["down","learn"]}>
 <Pair single id="aboleth" flavor={<>Your mind is marked by <Link to="/monster/aboleth">aboleth</Link> tampering, either as a result of a close encounter with one of these creatures while you were a child, or even through an ancestor, close family member, or one of your sisters or brothers in faith - this associate's interaction with the aboleths may be all that it takes to infect you.</>}>Aboleth</Pair>
 <Pair title="Penalty">You take a -2 penalty on saving throws against mind-affecting effects.</Pair>
 <Pair title="Benefit">Add <Link to="/spell/charm_person">charm person</Link> and <Link to="/spell/hypnotism">hypnotism</Link> to your list of 1st-level oracle spells known.</Pair>
@@ -18,7 +18,7 @@ const _aboleth = {title: "Aboleth", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _acursed = {title: "Acursed", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms</Link></p>
-<Ability id="acursed" icon={["broken-shield","armor-upgrade","spell-book"]}>
+<Ability id="acursed" icon={["down","def","learn"]}>
 <Pair single id="acursed" flavor="You are cursed with misfortune and sorrow.">Acursed</Pair>
 <Pair title="Penalty">You cannot gain benefit from morale bonuses.</Pair>
 <Pair title="Benefit">You gain a +4 bonus to all saving throws against <Link to="/spelldef/curse">curse</Link> effects.</Pair>
@@ -28,7 +28,7 @@ const _acursed = {title: "Acursed", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _blackened = {title: "Blackened", jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="blackened" icon={["broken-shield","spell-book"]}>
+<Ability id="blackened" icon={["down","learn"]}>
 <Pair single id="blackened" flavor="Your hands and forearms are shriveled and blackened, as if you had plunged your arms into a blazing fire, and your thin, papery skin is sensitive to the touch.">Blackened</Pair>
 <Pair title="Penalty">You take a -4 penalty on weapon attack rolls.</Pair>
 <Pair title="Benefit">Add <Link to="/spell/burning_hands">burning hands</Link> to your list of spells known.</Pair>
@@ -38,7 +38,7 @@ const _blackened = {title: "Blackened", jsx: <><p><strong>Sources</strong> <Link
 </Ability>
 </>};
 const _clouded_vision = {title: "Clouded Vision", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="clouded-vision" icon={["broken-shield","stairs-goal"]}>
+<Ability id="clouded-vision" icon={["down","power"]}>
 <Pair single id="clouded-vision" flavor="Your eyes are obscured, making it difficult for you to see.">Clouded Vision</Pair>
 <Pair title="Penalty">You cannot see anything beyond 30 feet.</Pair>
 <Pair title="Benefit">You can see as if you had darkvision 30 ft.</Pair>
@@ -48,7 +48,7 @@ const _clouded_vision = {title: "Clouded Vision", jsx: <><p><strong>Sources</str
 </Ability>
 </>};
 const _cold_blooded = {title: "Cold-Blooded", jsx: <><p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex</Link></p>
-<Ability id="cold-blooded" icon={["broken-shield","armor-upgrade","stairs-goal"]}>
+<Ability id="cold-blooded" icon={["down","def","power"]}>
 <Pair single id="cold-blooded" flavor="Your blood turns sluggish without sufficient heat, and you must seek warmth and shelter earlier than most.">Cold-Blooded</Pair>
 <Pair title="Penalty">You take a -4 penalty on saves against cold spells and effects, and whenever you fail such a saving throw, you are <Link to="/misc/staggered">staggered</Link> for 1 round.</Pair>
 <Pair title="Benefit">You can survive without food four times longer than a typical creature of your species before you begin to starve.</Pair>
@@ -59,7 +59,7 @@ const _cold_blooded = {title: "Cold-Blooded", jsx: <><p><strong>Sources</strong>
 </Ability>
 </>};
 const _consumed = {title: "Consumed", jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="consumed" icon={["broken-shield","armor-upgrade","rolling-dices","remedy"]}>
+<Ability id="consumed" icon={["down","def","roll","aid"]}>
 <Pair single id="consumed" flavor={<>Your connection to Abaddon and the <Link to="/family/daemon">daemons</Link> that call it home has left you diminished but still able to scorn many mortal frailties.</>}>Consumed</Pair>
 <Pair title="Penalty">Whenever you take lethal hit point damage, you take an additional number of points of nonlethal damage equal to 1/2 the lethal damage you took.</Pair>
 <Pair title="Benefit">You automatically <Link to="/misc/stabilize">stabilize</Link> when brought below 0 hit points.</Pair>
@@ -69,7 +69,7 @@ const _consumed = {title: "Consumed", jsx: <><p><strong>Sources</strong> <Link t
 </Ability>
 </>};
 const _covetous = {title: "Covetous", jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
-<Ability id="covetous" icon={["broken-shield","skills","upgrade","spell-book","armor-upgrade"]}>
+<Ability id="covetous" icon={["down","skill","boost","learn","def"]}>
 <Pair single id="covetous" flavor="You find yourself drawn to the luster of wealthy living.">Covetous</Pair>
 <Pair title="Penalty">You must wear fine nonmagical clothing and jewelry worth at least 50 gp + 100 gp per character level you have beyond 1st. If you do not have sufficient wealth to purchase this additional equipment, you feel a strong desire (but are not compelled) to sell existing items or steal from others to obtain it. You are <Link to="/misc/sickened">sickened</Link> whenever you do not meet this requirement; you are also sickened for 24 hours after anything worth 25 gp &times; your character level or more is taken from you against your will.</Pair>
 <Pair title="Benefit"><Link to="/skill/use_magic_device">Use Magic Device</Link> becomes a class skill for you.</Pair>
@@ -79,7 +79,7 @@ const _covetous = {title: "Covetous", jsx: <><p><strong>Sources</strong> <Link t
 </Ability>
 </>};
 const _deaf = {title: "Deaf", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="deaf" icon={["broken-shield","upgrade","stairs-goal"]}>
+<Ability id="deaf" icon={["down","boost","power"]}>
 <Pair single id="deaf" flavor="You cannot hear.">Deaf</Pair>
 <Pair title="Penalty">You suffer all of the usual penalties for being <Link to="/misc/deafened">deafened</Link>.</Pair>
 <Pair title="Benefit">You cast all of your spells as if they were modified by the <Link to="/feat/silent_spell">Silent Spell</Link> feat. This does not increase their level or casting time.</Pair>
@@ -89,7 +89,7 @@ const _deaf = {title: "Deaf", jsx: <><p><strong>Sources</strong> <Link to="/sour
 </Ability>
 </>};
 const _deep_one = {title: "Deep One", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms</Link></p>
-<Ability id="deep-one" icon={["broken-shield","stairs-goal","armor-upgrade","upgrade","magic-swirl"]}>
+<Ability id="deep-one" icon={["down","power","def","boost","magic"]}>
 <Pair single id="deep-one" flavor="The lure of the ocean tugs at your soul.">Deep One</Pair>
 <Pair title="Penalty">You reduce your base land speed by 5 feet.</Pair>
 <Pair title="Benefit">You gain a swim speed equal to your land speed, and if you already have a swim speed, you increase it by 10 feet.</Pair>
@@ -99,7 +99,7 @@ const _deep_one = {title: "Deep One", jsx: <><p><strong>Sources</strong> <Link t
 </Ability>
 </>};
 const _demonic = {title: "Demonic", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms</Link></p>
-<Ability id="demonic" icon={["broken-shield","upgrade","armor-upgrade"]}>
+<Ability id="demonic" icon={["down","boost","def"]}>
 <Pair single id="demonic" flavor="Your heart is cursed with the pull of the Abyss.">Demonic</Pair>
 <Pair title="Penalty">You cannot cast spells with the good or lawful descriptors, nor can you summon good or lawful creatures. Good and lawful creatures instinctively distrust you, and you take a -4 penalty on all <Link to="/skill/diplomacy">Diplomacy</Link> checks against such creatures. Diplomacy is not a class skill for you.</Pair>
 <Pair title="Benefit">You gain a +2 bonus on all <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks. You gain Bluff or Intimidate (choose one) as a class skill.</Pair>
@@ -109,7 +109,7 @@ const _demonic = {title: "Demonic", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _elemental_imbalance = {title: "Elemental Imbalance", jsx: <><p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook</Link></p>
-<Ability id="elemental-imbalance" icon={["broken-shield","spell-book"]}>
+<Ability id="elemental-imbalance" icon={["down","learn"]}>
 <Pair single id="elemental-imbalance" flavor="You wield an element's might, but you are vulnerable to its opposite.">Elemental Imbalance</Pair>
 <Pair title="Penalty"><p>Choose air, earth, fire, or water.</p>
 <p>If you select air, you gain <Link to="/umr/vulnerability">vulnerability</Link> to acid, cannot benefit from any acid <Link to="/umr/resistance">resistance</Link> or <Link to="/umr/immunity">immunity</Link>, and cannot cast spells with the acid or earth descriptors.</p>
@@ -161,7 +161,7 @@ const _elemental_imbalance = {title: "Elemental Imbalance", jsx: <><p><strong>So
 </Ability>
 </>};
 const _ghoul = {title: "Ghoul", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms</Link></p>
-<Ability id="ghoul" icon={["broken-shield","armor-upgrade","spell-book","magic-swirl"]}>
+<Ability id="ghoul" icon={["down","def","learn","magic"]}>
 <Pair single id="ghoul" flavor="While your actual dietary needs don't change, you crave the flesh of sentient creatures.">Ghoul</Pair>
 <Pair title="Penalty">You can only go without food for 12 hours before you begin to <Link to="/rule/starve">starve</Link>, and when you do starve, the DC of the Constitution check to avoid taking damage increases by 5.</Pair>
 <Pair title="Benefit">If you feed on fresh, raw flesh (no older than 1 hour) from a creature of your own race, you gain a +1 morale bonus on all saving throws for 24 hours.</Pair>
@@ -171,7 +171,7 @@ const _ghoul = {title: "Ghoul", jsx: <><p><strong>Sources</strong> <Link to="/so
 </Ability>
 </>};
 const _god_meddled = {title: "God-Meddled", jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion</Link></p>
-<Ability id="god-meddled" icon={["broken-shield","armor-upgrade"]}>
+<Ability id="god-meddled" icon={["down","def"]}>
 <Pair single id="god-meddled" flavor="The isle of Iblydos is populated and watched over by hero-gods, some of whom are known for entangling mortals in their own affairs. The gods' interference in your life has left you with strange, unpredictable powers dependent on divine whim. Bizarre side effects occur whenever you are affected by a spell from a divine caster - for better or for worse.">God-Meddled</Pair>
 <Pair title="Effects">Once per round, when a creature casts a divine spell including you as a target, roll 1d20 and consult the God-Meddled Effects table below. The effect resulting from this roll begins at the end of that enemy's turn. This effect targets only you, even if other creatures were included as targets of the triggering spell.</Pair>
 <Pair title="At 5th Level">You gain a +2 competence bonus on saving throws to resist divine spells.</Pair>
@@ -229,7 +229,7 @@ const _god_meddled = {title: "God-Meddled", jsx: <><p><strong>Sources</strong> <
 </tbody></table></ScrollContainer>
 </>};
 const _haunted = {title: "Haunted", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="haunted" icon={["broken-shield","spell-book"]}>
+<Ability id="haunted" icon={["down","learn"]}>
 <Pair single id="haunted" flavor="Malevolent spirits follow you wherever you go, causing minor mishaps and strange occurrences (such as unexpected breezes, small objects moving on their own, and faint noises).">Haunted</Pair>
 <Pair title="Penalty">Retrieving any stored item from your gear requires a <strong className="hl">standard action</strong>, unless it would normally take longer. Any item you drop lands 10 feet away from you in a random direction.</Pair>
 <Pair title="Benefit">Add <Link to="/spell/mage_hand">mage hand</Link> and <Link to="/spell/ghost_sound">ghost sound</Link> to your list of spells known.</Pair>
@@ -239,7 +239,7 @@ const _haunted = {title: "Haunted", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _hellbound = {title: "Hellbound", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms</Link></p>
-<Ability id="hellbound" icon={["broken-shield","upgrade","armor-upgrade"]}>
+<Ability id="hellbound" icon={["down","boost","def"]}>
 <Pair single id="hellbound" flavor="Infernal influence grants you profane insight and weighs on your soul.">Hellbound</Pair>
 <Pair title="Penalty">You cannot cast spells with the good or chaotic descriptors, and you can't summon good or chaotic creatures. Good and chaotic creatures instinctively distrust you, and you take a -4 penalty on all <Link to="/skill/diplomacy">Diplomacy</Link> checks against such creatures.</Pair>
 <Pair title="Benefit">You gain a +2 bonus on all <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks.</Pair>
@@ -249,7 +249,7 @@ const _hellbound = {title: "Hellbound", jsx: <><p><strong>Sources</strong> <Link
 </Ability>
 </>};
 const _hive = {title: "Hive", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms</Link></p>
-<Ability id="hive" icon={["broken-shield","bowman","armor-upgrade"]}>
+<Ability id="hive" icon={["down","ranged","def"]}>
 <Pair single id="hive" flavor={<>You were exposed at a young age (perhaps even before you were born) to the alien species known as the <Link to="/family/hive">hive</Link>, but this exposure did not result in a full-blown infestation by these otherworldly monsters.</>}>Hive</Pair>
 <Pair title="Penalty">Others (including animals) find the unsightly spines and rough growths that periodically emerge from your flesh to be disturbing and distracting, and you take a -4 penalty on Bluff, Diplomacy, Handle Animal, and Ride checks.</Pair>
 <Pair title="Benefit">Once per day as a <strong className="hl">standard action</strong>, you can cough up an ovoid, leathery sphere that can be hurled as a flask of <Link to="/eq-weapon/acid">acid</Link>, though it becomes inert after 24 hours.</Pair>
@@ -259,7 +259,7 @@ const _hive = {title: "Hive", jsx: <><p><strong>Sources</strong> <Link to="/sour
 </Ability>
 </>};
 const _hunger = {title: "Hunger", jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_monster_codex">Inner Sea Monster Codex</Link></p>
-<Ability id="hunger" icon={["broken-shield","mailed-fist","upgrade","stairs-goal"]}>
+<Ability id="hunger" icon={["down","melee","boost","power"]}>
 <Pair single id="hunger" flavor="Ravenous hunger wracks your body in stressful situations.">Hunger</Pair>
 <Pair title="Penalty">You gain none of the benefits from spells or magic items that provide nourishment, such as <Link to="/spell/goodberry">goodberry</Link>, <Link to="/spell/heroes_feast">heroes' feast</Link>, or a <Link to="/magic-ring/ring_of_sustenance">ring of sustenance</Link>. You begin each combat with the <Link to="/misc/sickened">sickened</Link> condition until you deal damage with your bite attack (see below).</Pair>
 <Pair title="Benefit">You gain a <Link to="/umr/bite_attack">bite attack</Link> that deals an amount of piercing damage appropriate for your size (1d8 for a Large creature, 1d6 for Medium, 1d4 for Small) as a secondary natural attack.</Pair>
@@ -269,7 +269,7 @@ const _hunger = {title: "Hunger", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _infested = {title: "Infested", jsx: <><p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex</Link></p>
-<Ability id="infested" icon={["broken-shield","armor-upgrade","spell-book"]}>
+<Ability id="infested" icon={["down","def","learn"]}>
 <Pair single id="infested" flavor="Insects, spiders, grubs, and other vermin plague you constantly. They crawl in your hair, fill your clothes, and fly or crawl into your mouth, nose, and ears.">Infested</Pair>
 <Pair title="Penalty">You take a -4 penalty on <Link to="/skill/diplomacy">Diplomacy</Link> checks, and when you first meet someone, the person's initial attitude toward you starts one level lower than normal. Animals shy away from you - you take a -4 penalty on <Link to="/skill/handle_animal">Handle Animal</Link> checks.</Pair>
 <Pair title="Benefit">You gain a +2 bonus on Fortitude saves versus poisons from insects, scorpions, and spiders, as well as the distraction ability of swarms of such creatures.</Pair>
@@ -280,7 +280,7 @@ const _infested = {title: "Infested", jsx: <><p><strong>Sources</strong> <Link t
 </Ability>
 </>};
 const _lame = {title: "Lame", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="lame" icon={["broken-shield","upgrade","armor-upgrade"]}>
+<Ability id="lame" icon={["down","boost","def"]}>
 <Pair single id="lame" flavor="One of your legs is permanently wounded.">Lame</Pair>
 <Pair title="Penalty">You reduce your base land speed by 10 feet if your base speed is 30 feet or more. If your base speed is less than 30 feet, your speed is reduced by 5 feet.</Pair>
 <Pair title="Benefit">Your speed is never reduced due to encumbrance.</Pair>
@@ -290,7 +290,7 @@ const _lame = {title: "Lame", jsx: <><p><strong>Sources</strong> <Link to="/sour
 </Ability>
 </>};
 const _legalistic = {title: "Legalistic", jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="legalistic" icon={["broken-shield","upgrade","armor-upgrade","armor-downgrade"]}>
+<Ability id="legalistic" icon={["down","boost","def","lower"]}>
 <Pair single id="legalistic" flavor="The shackles of Hell impose savage consequences should you violate a covenant, but also imbue you with remarkable guile.">Legalistic</Pair>
 <Pair title="Penalty">Whenever you break your word (either purposefully or unintentionally), you become <Link to="/misc/sickened">sickened</Link> for 24 hours or until you meet your obligation, whichever comes first.</Pair>
 <Pair title="Benefit">Once per day, you can make a vow to yourself that grants a +4 morale bonus on any one roll you make while trying to fulfill a promise made to another individual.</Pair>
@@ -300,7 +300,7 @@ const _legalistic = {title: "Legalistic", jsx: <><p><strong>Sources</strong> <Li
 </Ability>
 </>};
 const _lich = {title: "Lich", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms</Link></p>
-<Ability id="lich" icon={["broken-shield","spell-book","armor-upgrade"]}>
+<Ability id="lich" icon={["down","learn","def"]}>
 <Pair single id="lich" flavor={<>Every living spellcaster hides a secret in their flesh - a unique, personalized set of conditions that, when all are fulfilled in the correct order, can trigger the transformation into a <Link to="/template/lich">lich</Link>. Normally, one must expend years and tens of thousands of gold pieces to research this deeply personalized method of attaining immortality. Yet, in a rare few cases, chance and ill fortune can conspire against an unsuspecting spellcaster. You have (unknowingly) fulfilled most (but not all) of the ritualistic components to achieve lichdom. You have yet to turn into an undead creature, but you are close.</>}>Lich</Pair>
 <Pair title="Effects">You take damage from positive energy and heal from negative energy as if you were undead.</Pair>
 <Pair title="At 5th Level">Add <Link to="/spell/control_undead">control undead</Link> to your list of 2nd-level oracle spells known.</Pair>
@@ -309,7 +309,7 @@ const _lich = {title: "Lich", jsx: <><p><strong>Sources</strong> <Link to="/sour
 </Ability>
 </>};
 const _lycanthropy = {title: "Lycanthropy", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms</Link></p>
-<Ability id="lycanthropy" icon={["broken-shield","upgrade","spell-book","armor-upgrade"]}>
+<Ability id="lycanthropy" icon={["down","boost","learn","def"]}>
 <Pair single id="lycanthropy" flavor="You suffer from a minor form of lycanthropy. The exact animal your body and mind are aligned with can vary, but you should choose an animal that matches your faith thematically.">Lycanthropy</Pair>
 <Pair title="Penalty">In times of stress or unease, you cannot speak - only growl and snarl like an animal. This ability works similarly to the <Link to="/oraclecurse/tongues">tongues</Link> curse, but whenever you are in combat, you cannot speak at all. This does not interfere with spellcasting but does apply to spells that are language dependent. A character under the effects of <Link to="/spell/speak_with_animals">speak with animals</Link> can understand you, and you can communicate with such characters normally. You can speak with animals when in this condition.</Pair>
 <Pair title="Benefit">Choose one type of animal commonly associated with lycanthropy (such as rats, wolves, or bears); you gain a +4 bonus on <Link to="/skill/handle_animal">Handle Animal</Link> checks with these creatures.</Pair>
@@ -319,7 +319,7 @@ const _lycanthropy = {title: "Lycanthropy", jsx: <><p><strong>Sources</strong> <
 </Ability>
 </>};
 const _plagued = {title: "Plagued", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms</Link></p>
-<Ability id="plagued" icon={["broken-shield","armor-upgrade","spell-book","upgrade"]}>
+<Ability id="plagued" icon={["down","def","learn","boost"]}>
 <Pair single id="plagued" flavor="You suffer from minor ailments and sicknesses. While you struggle to resist new diseases, you have grown accustomed to the many inconveniences of sickness.">Plagued</Pair>
 <Pair title="Penalty">You take a -1 penalty on all saving throws against disease or infestation effects.</Pair>
 <Pair title="Benefit">You are immune to the <Link to="/misc/sickened">sickened</Link> condition.</Pair>
@@ -329,7 +329,7 @@ const _plagued = {title: "Plagued", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _possessed = {title: "Possessed", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms</Link></p>
-<Ability id="possessed" icon={["broken-shield","rolling-dices","armor-upgrade","spell-book"]}>
+<Ability id="possessed" icon={["down","roll","def","learn"]}>
 <Pair single id="possessed" flavor="Another mind shares your body, interfering with your control, and it's more difficult for you to concentrate as a result.">Possessed</Pair>
 <Pair title="Penalty">You take a -2 penalty on all <Link to="/rule/concentration">concentration</Link> checks, and concentrating to maintain a spell duration provokes attacks of opportunity.</Pair>
 <Pair title="Benefit">Whenever a foe attempts to use an effect to possess or dominate you and the effect allows a saving throw to negate, you may roll twice and take the better of the two results.</Pair>
@@ -339,7 +339,7 @@ const _possessed = {title: "Possessed", jsx: <><p><strong>Sources</strong> <Link
 </Ability>
 </>};
 const _powerless_prophecy = {title: "Powerless Prophecy", jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_monster_codex">Inner Sea Monster Codex</Link></p>
-<Ability id="powerless-prophecy" icon={["broken-shield","armor-upgrade","upgrade"]}>
+<Ability id="powerless-prophecy" icon={["down","def","boost"]}>
 <Pair single id="powerless-prophecy" flavor="You are forewarned of danger but can't act to prevent it.">Powerless Prophecy</Pair>
 <Pair title="Penalty">You can't take any actions in a surprise round, including free actions, except for <Link to="/arc-oracle/cyclopean_seer">flash of insight</Link>. In the absence of a surprise round, you are <Link to="/misc/staggered">staggered</Link> for the entire first round of combat.</Pair>
 <Pair title="Benefit">You gain <Link to="/ability/uncanny_dodge">uncanny dodge</Link>, as the rogue class feature.</Pair>
@@ -349,7 +349,7 @@ const _powerless_prophecy = {title: "Powerless Prophecy", jsx: <><p><strong>Sour
 </Ability>
 </>};
 const _pranked = {title: "Pranked", jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World</Link></p>
-<Ability id="pranked" icon={["broken-shield","spell-book"]}>
+<Ability id="pranked" icon={["down","learn"]}>
 <Pair single id="pranked" flavor="Capricious fey constantly bedevil you, playing pranks on you such as tying your shoelaces together, hiding your gear, making inappropriate noises or smells at formal events, and mimicking your voice to tell embarrassing lies.">Pranked</Pair>
 <Pair title="Penalty">You take a -4 penalty on initiative checks, in addition to any social consequences the fey mischief may cause for you. Furthermore, whenever you attempt to retrieve a stored item from your gear, there's a 25% chance that you fail to find it with that action.</Pair>
 <Pair title="Benefit">Add <Link to="/spell/faerie_fire">faerie fire</Link> and <Link to="/spell/ghost_sound">ghost sound</Link> to your list of spells known.</Pair>
@@ -359,7 +359,7 @@ const _pranked = {title: "Pranked", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _promethean = {title: "Promethean", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms</Link></p>
-<Ability id="promethean" icon={["broken-shield","armor-upgrade"]}>
+<Ability id="promethean" icon={["down","def"]}>
 <Pair single id="promethean" flavor="Your body is falling apart, forcing you to rely on mechanical augmentations or replacements to keep yourself alive.">Promethean</Pair>
 <Pair title="Penalty">You take 1 point of <Link to="/rule/constitution_damage">Constitution damage</Link> each day.</Pair>
 <Pair title="Benefit">After taking your Constitution damage, you ignore the first point of Strength, Dexterity, or Constitution damage you take for the remainder of that day.</Pair>
@@ -369,7 +369,7 @@ const _promethean = {title: "Promethean", jsx: <><p><strong>Sources</strong> <Li
 </Ability>
 </>};
 const _putrid = {title: "Putrid", jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
-<Ability id="putrid" icon={["broken-shield","armor-upgrade"]}>
+<Ability id="putrid" icon={["down","def"]}>
 <Pair single id="putrid" flavor="Your presence causes liquids to spoil.">Putrid</Pair>
 <Pair title="Penalty">Your presence stagnates water and befouls all liquids carried on your person, including magical items such as potions, and unattended sources of still water within 10 feet. Creatures who drink such a liquid are <Link to="/misc/nauseated">nauseated</Link> for 1 round (though potions and similar liquids still convey their usual benefits as well). Affected liquids remain stagnant for 1 hour after leaving your presence. <Link to="/spell/purify_food_and_drink">Purify food and drink</Link> can cleanse a stagnant potion or water with a successful caster level check (DC = 15 + double the potion's caster level).</Pair>
 <Pair title="Benefit">None.</Pair>
@@ -379,7 +379,7 @@ const _putrid = {title: "Putrid", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _reclusive = {title: "Reclusive", jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World</Link></p>
-<Ability id="reclusive" icon={["broken-shield","upgrade","armor-upgrade"]}>
+<Ability id="reclusive" icon={["down","boost","def"]}>
 <Pair single id="reclusive" flavor="You are reclusive and paranoid to the point that your allies cannot easily help you in times of stress or unease.">Reclusive</Pair>
 <Pair title="Penalty">Whenever you are in combat, your allies must succeed at a melee touch attack to affect you with touch spells, and you must attempt saving throws to resist all spells cast by anyone other than yourself, even those cast by allies.</Pair>
 <Pair title="Benefit">Instantaneous spells you cast only on yourself affect you as though your caster level were 1 higher.</Pair>
@@ -389,7 +389,7 @@ const _reclusive = {title: "Reclusive", jsx: <><p><strong>Sources</strong> <Link
 </Ability>
 </>};
 const _scourge = {title: "Scourge", jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
-<Ability id="scourge" icon={["broken-shield","stairs-goal","spell-book"]}>
+<Ability id="scourge" icon={["down","power","learn"]}>
 <Pair single id="scourge" flavor="You are a blight on the natural world.">Scourge</Pair>
 <Pair title="Penalty">Bizarre natural hazards develop within a 300-foot radius around you whenever you linger in a natural area for more than 10 minutes, as <Link to="/spell/lesser_curse_terrain">lesser curse terrain</Link>. You cannot choose the hazards or their locations.</Pair>
 <Pair title="Benefit">Your movement is unimpeded by undergrowth, as a druid's <Link to="/ability/woodland_stride">woodland stride</Link> ability, as plants wither away in your footsteps.</Pair>
@@ -399,7 +399,7 @@ const _scourge = {title: "Scourge", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _shadowbound = {title: "Shadowbound", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms</Link></p>
-<Ability id="shadowbound" icon={["broken-shield","stairs-goal","spell-book"]}>
+<Ability id="shadowbound" icon={["down","power","learn"]}>
 <Pair single id="shadowbound" flavor="Your pigmentation is oddly colorless, and your eyes are highly sensitive to light.">Shadowbound</Pair>
 <Pair title="Penalty">You are <Link to="/misc/blinded">blinded</Link> for 1 round when exposed to normal or bright light and <Link to="/misc/dazzled">dazzled</Link> while in such a lit area.</Pair>
 <Pair title="Benefit">You gain darkvision to a range of 30 feet.</Pair>
@@ -409,7 +409,7 @@ const _shadowbound = {title: "Shadowbound", jsx: <><p><strong>Sources</strong> <
 </Ability>
 </>};
 const _shattered_psyche = {title: "Shattered Psyche", jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_88_valley_of_the_brain_collectors">Pathfinder #88: Valley of the Brain Collectors</Link></p>
-<Ability id="shattered-psyche" icon={["broken-shield","armor-upgrade"]}>
+<Ability id="shattered-psyche" icon={["down","def"]}>
 <Pair single id="shattered-psyche" flavor="Your mind is crowded with dozens of voices, fragmented snippets of your past lives.">Shattered Psyche</Pair>
 <Pair title="Penalty">You take a -2 penalty on all Intelligence-based skill checks, Wisdom-based skill checks, and <Link to="/rule/concentration">concentration</Link> checks.</Pair>
 <Pair title="Benefit">You gain a +4 competence bonus on saving throws made against mind-affecting effects.</Pair>
@@ -419,7 +419,7 @@ const _shattered_psyche = {title: "Shattered Psyche", jsx: <><p><strong>Sources<
 </Ability>
 </>};
 const _site_bound = {title: "Site-Bound", jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_monster_codex">Inner Sea Monster Codex</Link></p>
-<Ability id="site-bound" icon={["broken-shield","upgrade"]}>
+<Ability id="site-bound" icon={["down","boost"]}>
 <Pair single id="site-bound" flavor="You are bound to a particular place.">Site-Bound</Pair>
 <Pair title="Penalty">You form a bond with a particular 10-foot square, and must remain within 1,500 feet of that site or immediately become <Link to="/misc/sickened">sickened</Link>. You must succeed at a DC 15 Fortitude save each minute you spend outside of the boundary or become <Link to="/misc/nauseated">nauseated</Link>. For every hour spent outside of the boundary, you also take 1d4 points of <Link to="/rule/constitution_damage">Constitution damage</Link> (no save).</Pair>
 <Pair title="Benefit">When within range of your bonded site, you gain a +1 bonus to your caster level when casting oracle spells.</Pair>
@@ -429,7 +429,7 @@ const _site_bound = {title: "Site-Bound", jsx: <><p><strong>Sources</strong> <Li
 </Ability>
 </>};
 const _song_bound = {title: "Song-Bound", jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea</Link></p>
-<Ability id="song-bound" icon={["broken-shield","stairs-goal","spell-book","upgrade"]}>
+<Ability id="song-bound" icon={["down","power","learn","boost"]}>
 <Pair single id="song-bound" flavor="Whenever you speak, you are compelled to sing loudly, and you draw out even short utterances with vocal scales or simple melodies.">Song-Bound</Pair>
 <Pair title="Prerequisites"><Link to="/race/merfolk">Merfolk</Link></Pair>
 <Pair title="Penalty">You cannot speak in less than a loud voice, although you may choose not to speak.</Pair>
@@ -440,7 +440,7 @@ const _song_bound = {title: "Song-Bound", jsx: <><p><strong>Sources</strong> <Li
 </Ability>
 </>};
 const _tongues = {title: "Tongues", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="tongues" icon={["broken-shield","stairs-goal","magic-swirl"]}>
+<Ability id="tongues" icon={["down","power","magic"]}>
 <Pair single id="tongues" flavor="In times of stress or unease, you speak in tongues.">Tongues</Pair>
 <Pair title="Penalty">Pick one of the following languages: Abyssal, Aklo, Aquan, Auran, Celestial, Ignan, Infernal, or Terran. Whenever you are in combat, you can only speak and understand the selected language. This does not interfere with spellcasting, but it does apply to spells that are <Link to="/spelldef/language_dependent">language dependent</Link>.</Pair>
 <Pair title="Benefit">You gain the selected language as a bonus language.</Pair>
@@ -450,7 +450,7 @@ const _tongues = {title: "Tongues", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _toxic_blood = {title: "Toxic Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex</Link></p>
-<Ability id="toxic-blood" icon={["broken-shield","armor-upgrade","magic-palm"]}>
+<Ability id="toxic-blood" icon={["down","def","touch"]}>
 <Pair single id="toxic-blood" flavor="Your body is ravaged by a potent, slow-acting poison that resists all treatment.">Toxic Blood</Pair>
 <Pair title="Penalty">Whenever you must attempt a Fortitude save to resist a poison effect, roll twice and take the lowest result. Additionally, you need one more consecutive successful save to end an ongoing poison. You lose any immunity to poison you have upon receiving this curse, and you become immune to <Link to="/spell/delay_poison">delay poison</Link> and <Link to="/spell/neutralize_poison">neutralize poison</Link>, as well as other attempts to suppress or remove the poison from which you are suffering.</Pair>
 <Pair title="Benefit">You gain the <Link to="/ability/poison_use">poison use</Link> ability.</Pair>
@@ -462,7 +462,7 @@ const _toxic_blood = {title: "Toxic Blood", jsx: <><p><strong>Sources</strong> <
 </Ability>
 </>};
 const _vampirism = {title: "Vampirism", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms</Link></p>
-<Ability id="vampirism" icon={["broken-shield","armor-upgrade","spell-book"]}>
+<Ability id="vampirism" icon={["down","def","learn"]}>
 <Pair single id="vampirism" flavor="You crave the taste of fresh, warm blood.">Vampirism</Pair>
 <Pair title="Effects">You take damage from positive energy and heal from negative energy as if you were undead.</Pair>
 <Pair title="At 5th Level">You gain <Link to="/umr/channel_resistance">channel resistance</Link> +4.</Pair>
@@ -471,7 +471,7 @@ const _vampirism = {title: "Vampirism", jsx: <><p><strong>Sources</strong> <Link
 </Ability>
 </>};
 const _wasting = {title: "Wasting", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="wasting" icon={["broken-shield","armor-upgrade"]}>
+<Ability id="wasting" icon={["down","def"]}>
 <Pair single id="wasting" flavor="Your body is slowly rotting away.">Wasting</Pair>
 <Pair title="Penalty">You take a -4 penalty on Charisma-based skill checks, except for <Link to="/skill/intimidate">Intimidate</Link>.</Pair>
 <Pair title="Benefit">You gain a +4 competence bonus on saves made against disease.</Pair>
@@ -481,7 +481,7 @@ const _wasting = {title: "Wasting", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _wolfscarred_face = {title: "Wolfscarred Face", jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="wolfscarred-face" icon={["broken-shield","mailed-fist","spell-book","upgrade"]}>
+<Ability id="wolfscarred-face" icon={["down","melee","learn","boost"]}>
 <Pair single id="wolfscarred-face" flavor="Your face is deformed, as though you were born with a wolf's muzzle instead of an ordinary nose and jaw. Many mistake you for a werewolf, and in areas plagued by lycanthropes, you must take pains to hide your face.">Wolfscarred Face</Pair>
 <Pair title="Penalty">You have a severe speech impediment, and any spells you cast with a verbal component have a 20% chance of failing, wasting your action but not expending the spell.</Pair>
 <Pair title="Benefit">You gain a <Link to="/umr/natural_attack">natural bite attack</Link> that deals 1d4 points of damage if you are a Medium creature or 1d3 points of damage if you are Small.</Pair>
@@ -491,7 +491,7 @@ const _wolfscarred_face = {title: "Wolfscarred Face", jsx: <><p><strong>Sources<
 </Ability>
 </>};
 const _wrecker = {title: "Wrecker", jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="wrecker" icon={["broken-shield","skills","armor-downgrade","upgrade"]}>
+<Ability id="wrecker" icon={["down","skill","lower","boost"]}>
 <Pair single id="wrecker" flavor={<>The destructive power of <Link to="/rule/the_abyss">the Abyss</Link> and its teeming hordes of <Link to="/family/demon">demons</Link> seeps from your very pores and into your belongings and surroundings.</>}>Wrecker</Pair>
 <Pair title="Penalty">Held objects gain the <Link to="/misc/broken">broken</Link> condition when you use or equip them but regain their actual condition if employed by anyone else. If a held item is restored to unbroken condition, it becomes broken again the following round.</Pair>
 <Pair title="Benefit"><Link to="/skill/disable_device">Disable Device</Link> becomes a class skill for you and you can make Disable Device checks to destroy nonmagical traps as a <strong className="hl">move action</strong> without the need to use tools or take any action beyond simply touching it.</Pair>
@@ -501,7 +501,7 @@ const _wrecker = {title: "Wrecker", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _wrecking_mysticism = {title: "Wrecking Mysticism", jsx: <><p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox</Link></p>
-<Ability id="wrecking-mysticism" icon={["broken-shield","stairs-goal","spell-book"]}>
+<Ability id="wrecking-mysticism" icon={["down","power","learn"]}>
 <Pair single id="wrecking-mysticism" flavor="A divine entity has blessed you with a source of eldritch power.">Wrecking Mysticism</Pair>
 <Pair title="Prerequisites"><Link to="/race/kitsune">Kitsune</Link></Pair>
 <Pair title="Penalty">This power erodes your fortitude, increasing by 50% the duration of any poison, <Link to="/misc/sickened">sickened</Link> condition, or <Link to="/misc/nauseated">nauseated</Link> condition affecting you.</Pair>

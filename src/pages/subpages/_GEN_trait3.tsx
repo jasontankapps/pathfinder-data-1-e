@@ -4,7 +4,7 @@ import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 const _ancient_explorer = {title: "Ancient Explorer", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide</Link></p>
-<Ability id="ancient-explorer" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="ancient-explorer" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="ancient-explorer">Ancient Explorer</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
@@ -13,7 +13,7 @@ const _ancient_explorer = {title: "Ancient Explorer", topLink: ["Campaign Traits
 </Ability>
 </>};
 const _barroom_talespinner = {title: "Barroom Talespinner", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide</Link></p>
-<Ability id="barroom-talespinner" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="barroom-talespinner" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="barroom-talespinner">Barroom Talespinner</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
@@ -22,7 +22,7 @@ const _barroom_talespinner = {title: "Barroom Talespinner", topLink: ["Campaign 
 </Ability>
 </>};
 const _besmaras_blessing = {title: "Besmara's Blessing", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide</Link></p>
-<Ability id="besmaras-blessing" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="besmaras-blessing" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="besmaras-blessing">Besmara's Blessing</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
@@ -31,7 +31,7 @@ const _besmaras_blessing = {title: "Besmara's Blessing", topLink: ["Campaign Tra
 </Ability>
 </>};
 const _buccaneers_blood = {title: "Buccaneer's Blood", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide</Link></p>
-<Ability id="buccaneers-blood" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="buccaneers-blood" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="buccaneers-blood">Buccaneer's Blood</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
@@ -40,7 +40,7 @@ const _buccaneers_blood = {title: "Buccaneer's Blood", topLink: ["Campaign Trait
 </Ability>
 </>};
 const _dockside_brawler = {title: "Dockside Brawler", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide</Link></p>
-<Ability id="dockside-brawler" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="dockside-brawler" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="dockside-brawler">Dockside Brawler</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
@@ -49,7 +49,7 @@ const _dockside_brawler = {title: "Dockside Brawler", topLink: ["Campaign Traits
 </Ability>
 </>};
 const _eye_for_plunder = {title: "Eye for Plunder", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide</Link></p>
-<Ability id="eye-for-plunder" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="eye-for-plunder" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="eye-for-plunder">Eye for Plunder</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
@@ -58,7 +58,7 @@ const _eye_for_plunder = {title: "Eye for Plunder", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _ilizmagorti_native = {title: "Ilizmagorti Native", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide</Link></p>
-<Ability id="ilizmagorti-native" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="ilizmagorti-native" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="ilizmagorti-native">Ilizmagorti Native</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
@@ -67,7 +67,7 @@ const _ilizmagorti_native = {title: "Ilizmagorti Native", topLink: ["Campaign Tr
 </Ability>
 </>};
 const _peg_leg = {title: "Peg Leg", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide</Link></p>
-<Ability id="peg-leg" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="peg-leg" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="peg-leg">Peg Leg</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
@@ -76,7 +76,7 @@ const _peg_leg = {title: "Peg Leg", topLink: ["Campaign Traits","main/traits_cam
 </Ability>
 </>};
 const _ships_surgeon = {title: "Ship's Surgeon", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide</Link></p>
-<Ability id="ships-surgeon" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="ships-surgeon" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="ships-surgeon">Ship's Surgeon</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
@@ -85,7 +85,7 @@ const _ships_surgeon = {title: "Ship's Surgeon", topLink: ["Campaign Traits","ma
 </Ability>
 </>};
 const _touched_by_the_sea = {title: "Touched by the Sea", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide</Link></p>
-<Ability id="touched-by-the-sea" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="touched-by-the-sea" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="touched-by-the-sea">Touched by the Sea</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
@@ -94,7 +94,7 @@ const _touched_by_the_sea = {title: "Touched by the Sea", topLink: ["Campaign Tr
 </Ability>
 </>};
 const _driven_by_guilt = {title: "Driven By Guilt", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/strange_aeons_players_guide">Strange Aeons Player's Guide</Link></p>
-<Ability id="driven-by-guilt" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="driven-by-guilt" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="driven-by-guilt">Driven By Guilt</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
@@ -103,7 +103,7 @@ const _driven_by_guilt = {title: "Driven By Guilt", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _enduring_stoicism = {title: "Enduring Stoicism", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/strange_aeons_players_guide">Strange Aeons Player's Guide</Link></p>
-<Ability id="enduring-stoicism" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="enduring-stoicism" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="enduring-stoicism">Enduring Stoicism</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
@@ -112,7 +112,7 @@ const _enduring_stoicism = {title: "Enduring Stoicism", topLink: ["Campaign Trai
 </Ability>
 </>};
 const _foe_of_the_strange = {title: "Foe of the Strange", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/strange_aeons_players_guide">Strange Aeons Player's Guide</Link></p>
-<Ability id="foe-of-the-strange" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="foe-of-the-strange" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="foe-of-the-strange">Foe of the Strange</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
@@ -121,7 +121,7 @@ const _foe_of_the_strange = {title: "Foe of the Strange", topLink: ["Campaign Tr
 </Ability>
 </>};
 const _formerly_mind_swapped = {title: "Formerly Mind-Swapped", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/strange_aeons_players_guide">Strange Aeons Player's Guide</Link></p>
-<Ability id="formerly-mind-swapped" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="formerly-mind-swapped" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="formerly-mind-swapped">Formerly Mind-Swapped</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
@@ -130,7 +130,7 @@ const _formerly_mind_swapped = {title: "Formerly Mind-Swapped", topLink: ["Campa
 </Ability>
 </>};
 const _methodical_mind = {title: "Methodical Mind", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/strange_aeons_players_guide">Strange Aeons Player's Guide</Link></p>
-<Ability id="methodical-mind" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="methodical-mind" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="methodical-mind">Methodical Mind</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
@@ -139,7 +139,7 @@ const _methodical_mind = {title: "Methodical Mind", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _pugnacious = {title: "Pugnacious", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/strange_aeons_players_guide">Strange Aeons Player's Guide</Link></p>
-<Ability id="pugnacious" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="pugnacious" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="pugnacious">Pugnacious</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
@@ -148,7 +148,7 @@ const _pugnacious = {title: "Pugnacious", topLink: ["Campaign Traits","main/trai
 </Ability>
 </>};
 const _ritualistic = {title: "Ritualistic", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/strange_aeons_players_guide">Strange Aeons Player's Guide</Link></p>
-<Ability id="ritualistic" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="ritualistic" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="ritualistic">Ritualistic</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
@@ -157,7 +157,7 @@ const _ritualistic = {title: "Ritualistic", topLink: ["Campaign Traits","main/tr
 </Ability>
 </>};
 const _sensitive_mind = {title: "Sensitive Mind", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/strange_aeons_players_guide">Strange Aeons Player's Guide</Link></p>
-<Ability id="sensitive-mind" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="sensitive-mind" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="sensitive-mind">Sensitive Mind</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
@@ -166,7 +166,7 @@ const _sensitive_mind = {title: "Sensitive Mind", topLink: ["Campaign Traits","m
 </Ability>
 </>};
 const _true_devotion = {title: "True Devotion", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/strange_aeons_players_guide">Strange Aeons Player's Guide</Link></p>
-<Ability id="true-devotion" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="true-devotion" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="true-devotion">True Devotion</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
@@ -175,7 +175,7 @@ const _true_devotion = {title: "True Devotion", topLink: ["Campaign Traits","mai
 </Ability>
 </>};
 const _twitchy = {title: "Twitchy", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/strange_aeons_players_guide">Strange Aeons Player's Guide</Link></p>
-<Ability id="twitchy" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="twitchy" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="twitchy">Twitchy</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
@@ -184,7 +184,7 @@ const _twitchy = {title: "Twitchy", topLink: ["Campaign Traits","main/traits_cam
 </Ability>
 </>};
 const _the_artisan = {title: "The Artisan", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/tyrants_grasp_players_guide">Tyrant's Grasp Player's Guide</Link></p>
-<Ability id="the-artisan" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="the-artisan" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="the-artisan">The Artisan</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Tyrant's Grasp</Pair>
@@ -195,7 +195,7 @@ const _the_artisan = {title: "The Artisan", topLink: ["Campaign Traits","main/tr
 </Ability>
 </>};
 const _the_lawbringer = {title: "The Lawbringer", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/tyrants_grasp_players_guide">Tyrant's Grasp Player's Guide</Link></p>
-<Ability id="the-lawbringer" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="the-lawbringer" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="the-lawbringer">The Lawbringer</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Tyrant's Grasp</Pair>
@@ -206,7 +206,7 @@ const _the_lawbringer = {title: "The Lawbringer", topLink: ["Campaign Traits","m
 </Ability>
 </>};
 const _the_optimist = {title: "The Optimist", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/tyrants_grasp_players_guide">Tyrant's Grasp Player's Guide</Link></p>
-<Ability id="the-optimist" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="the-optimist" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="the-optimist">The Optimist</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Tyrant's Grasp</Pair>
@@ -215,7 +215,7 @@ const _the_optimist = {title: "The Optimist", topLink: ["Campaign Traits","main/
 </Ability>
 </>};
 const _the_outsider = {title: "The Outsider", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/tyrants_grasp_players_guide">Tyrant's Grasp Player's Guide</Link></p>
-<Ability id="the-outsider" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="the-outsider" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="the-outsider">The Outsider</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Tyrant's Grasp</Pair>
@@ -226,7 +226,7 @@ const _the_outsider = {title: "The Outsider", topLink: ["Campaign Traits","main/
 </Ability>
 </>};
 const _the_pessimist = {title: "The Pessimist", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/tyrants_grasp_players_guide">Tyrant's Grasp Player's Guide</Link></p>
-<Ability id="the-pessimist" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="the-pessimist" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="the-pessimist">The Pessimist</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Tyrant's Grasp</Pair>
@@ -237,7 +237,7 @@ const _the_pessimist = {title: "The Pessimist", topLink: ["Campaign Traits","mai
 </Ability>
 </>};
 const _the_reclaimer = {title: "The Reclaimer", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/tyrants_grasp_players_guide">Tyrant's Grasp Player's Guide</Link></p>
-<Ability id="the-reclaimer" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="the-reclaimer" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="the-reclaimer">The Reclaimer</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Tyrant's Grasp</Pair>
@@ -246,7 +246,7 @@ const _the_reclaimer = {title: "The Reclaimer", topLink: ["Campaign Traits","mai
 </Ability>
 </>};
 const _the_snoop = {title: "The Snoop", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/tyrants_grasp_players_guide">Tyrant's Grasp Player's Guide</Link></p>
-<Ability id="the-snoop" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="the-snoop" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="the-snoop">The Snoop</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Tyrant's Grasp</Pair>
@@ -255,7 +255,7 @@ const _the_snoop = {title: "The Snoop", topLink: ["Campaign Traits","main/traits
 </Ability>
 </>};
 const _the_word = {title: "The Word", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/tyrants_grasp_players_guide">Tyrant's Grasp Player's Guide</Link></p>
-<Ability id="the-word" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="the-word" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="the-word">The Word</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Tyrant's Grasp</Pair>
@@ -264,7 +264,7 @@ const _the_word = {title: "The Word", topLink: ["Campaign Traits","main/traits_c
 </Ability>
 </>};
 const _athletic_champion = {title: "Athletic Champion", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/war_for_the_crown_players_guide">War for the Crown Player's Guide</Link></p>
-<Ability id="athletic-champion" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="athletic-champion" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="athletic-champion">Athletic Champion</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>War for the Crown</Pair>
@@ -273,7 +273,7 @@ const _athletic_champion = {title: "Athletic Champion", topLink: ["Campaign Trai
 </Ability>
 </>};
 const _child_of_oppara = {title: "Child of Oppara", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/war_for_the_crown_players_guide">War for the Crown Player's Guide</Link></p>
-<Ability id="child-of-oppara" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="child-of-oppara" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="child-of-oppara">Child of Oppara</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>War for the Crown</Pair>
@@ -282,7 +282,7 @@ const _child_of_oppara = {title: "Child of Oppara", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _disgraced_noble = {title: "Disgraced Noble", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/war_for_the_crown_players_guide">War for the Crown Player's Guide</Link></p>
-<Ability id="disgraced-noble" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="disgraced-noble" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="disgraced-noble">Disgraced Noble</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>War for the Crown</Pair>
@@ -293,7 +293,7 @@ const _disgraced_noble = {title: "Disgraced Noble", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _rising_star = {title: "Rising Star", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/war_for_the_crown_players_guide">War for the Crown Player's Guide</Link></p>
-<Ability id="rising-star" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="rising-star" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="rising-star">Rising Star</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>War for the Crown</Pair>
@@ -305,7 +305,7 @@ const _rising_star = {title: "Rising Star", topLink: ["Campaign Traits","main/tr
 </Ability>
 </>};
 const _senatorial_hopeful = {title: "Senatorial Hopeful", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/war_for_the_crown_players_guide">War for the Crown Player's Guide</Link></p>
-<Ability id="senatorial-hopeful" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="senatorial-hopeful" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="senatorial-hopeful">Senatorial Hopeful</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>War for the Crown</Pair>
@@ -317,7 +317,7 @@ const _senatorial_hopeful = {title: "Senatorial Hopeful", topLink: ["Campaign Tr
 </Ability>
 </>};
 const _taldan_patriot = {title: "Taldan Patriot", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/war_for_the_crown_players_guide">War for the Crown Player's Guide</Link></p>
-<Ability id="taldan-patriot" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="taldan-patriot" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="taldan-patriot">Taldan Patriot</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>War for the Crown</Pair>
@@ -326,7 +326,7 @@ const _taldan_patriot = {title: "Taldan Patriot", topLink: ["Campaign Traits","m
 </Ability>
 </>};
 const _young_reformer = {title: "Young Reformer", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/war_for_the_crown_players_guide">War for the Crown Player's Guide</Link></p>
-<Ability id="young-reformer" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="young-reformer" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="young-reformer">Young Reformer</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>War for the Crown</Pair>
@@ -339,7 +339,7 @@ const _young_reformer = {title: "Young Reformer", topLink: ["Campaign Traits","m
 </Ability>
 </>};
 const _chance_encounter = {title: "Chance Encounter", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/wrath_of_the_righteous_players_guide">Wrath of the Righteous Player's Guide</Link>, <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
-<Ability id="chance-encounter" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="chance-encounter" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="chance-encounter">Chance Encounter</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Wrath of the Righteous</Pair>
@@ -351,7 +351,7 @@ const _chance_encounter = {title: "Chance Encounter", topLink: ["Campaign Traits
 </Ability>
 </>};
 const _child_of_the_crusades_wotr = {title: "Child of the Crusades (WotR)", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/wrath_of_the_righteous_players_guide">Wrath of the Righteous Player's Guide</Link>, <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
-<Ability id="child-of-the-crusades-wotr" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="child-of-the-crusades-wotr" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="child-of-the-crusades-wotr">Child of the Crusades (WotR)</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Wrath of the Righteous</Pair>
@@ -363,7 +363,7 @@ const _child_of_the_crusades_wotr = {title: "Child of the Crusades (WotR)", topL
 </Ability>
 </>};
 const _exposed_to_awfulness = {title: "Exposed to Awfulness", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/wrath_of_the_righteous_players_guide">Wrath of the Righteous Player's Guide</Link>, <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
-<Ability id="exposed-to-awfulness" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="exposed-to-awfulness" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="exposed-to-awfulness">Exposed to Awfulness</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Wrath of the Righteous</Pair>
@@ -375,7 +375,7 @@ const _exposed_to_awfulness = {title: "Exposed to Awfulness", topLink: ["Campaig
 </Ability>
 </>};
 const _riftwarden_orphan = {title: "Riftwarden Orphan", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/wrath_of_the_righteous_players_guide">Wrath of the Righteous Player's Guide</Link>, <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
-<Ability id="riftwarden-orphan" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="riftwarden-orphan" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="riftwarden-orphan">Riftwarden Orphan</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Wrath of the Righteous</Pair>
@@ -387,7 +387,7 @@ const _riftwarden_orphan = {title: "Riftwarden Orphan", topLink: ["Campaign Trai
 </Ability>
 </>};
 const _stolen_fury = {title: "Stolen Fury", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/wrath_of_the_righteous_players_guide">Wrath of the Righteous Player's Guide</Link>, <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
-<Ability id="stolen-fury" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="stolen-fury" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="stolen-fury">Stolen Fury</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Wrath of the Righteous</Pair>
@@ -399,7 +399,7 @@ const _stolen_fury = {title: "Stolen Fury", topLink: ["Campaign Traits","main/tr
 </Ability>
 </>};
 const _touched_by_divinity = {title: "Touched by Divinity", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/wrath_of_the_righteous_players_guide">Wrath of the Righteous Player's Guide</Link>, <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
-<Ability id="touched-by-divinity" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="touched-by-divinity" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="touched-by-divinity">Touched by Divinity</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Wrath of the Righteous</Pair>
@@ -411,7 +411,7 @@ const _touched_by_divinity = {title: "Touched by Divinity", topLink: ["Campaign 
 </Ability>
 </>};
 const _black_sheep = {title: "Black Sheep", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="black-sheep" extraClasses="trait hasSubs" icon={["treasure-map"]}>
+<Ability id="black-sheep" extraClasses="trait hasSubs" icon={["Campaign"]}>
 <Pair single id="black-sheep">Black Sheep</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair single="flavor" id="black-sheep-flavor">You were born and raised in town. You know many of the region's secrets and the locals already know who you are. You aren't quite hated in town, but folk seem to think you're a troublemaker and a bastard and not to be trusted. The town's tougher folk respect you, but the law-abiding citizens don't.</Pair>
@@ -429,7 +429,7 @@ const _black_sheep = {title: "Black Sheep", topLink: ["Campaign Traits","main/tr
 </Ability>
 </>};
 const _favored_son_or_daughter = {title: "Favored Son or Daughter", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="favored-son-or-daughter" extraClasses="trait hasSubs" icon={["treasure-map"]}>
+<Ability id="favored-son-or-daughter" extraClasses="trait hasSubs" icon={["Campaign"]}>
 <Pair single id="favored-son-or-daughter">Favored Son or Daughter</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair single="flavor" id="favored-son-or-daughter-flavor">You were born and raised in a small town or its surrounding farms. You know many of the region's secrets, and the locals already know who you are. You are well liked in town, and you'll have lots of friends in the region, but the town's tougher side sees you as a snitch or a pansy.</Pair>
@@ -445,7 +445,7 @@ const _favored_son_or_daughter = {title: "Favored Son or Daughter", topLink: ["C
 </Ability>
 </>};
 const _outlander = {title: "Outlander", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="outlander" extraClasses="trait hasSubs" icon={["treasure-map"]}>
+<Ability id="outlander" extraClasses="trait hasSubs" icon={["Campaign"]}>
 <Pair single id="outlander">Outlander</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair single="flavor" id="outlander-flavor">You are not from town; you've recently come from somewhere else and are hoping to make your fortune here.</Pair>
@@ -472,7 +472,7 @@ const _outlander = {title: "Outlander", topLink: ["Campaign Traits","main/traits
 </Ability>
 </>};
 const _augmented_disguise = {title: "Augmented Disguise", topLink: ["Equipment Traits","main/traits_equipment"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory</Link></p>
-<div style={{clear:"both"}}></div><Ability id="augmented-disguise" extraClasses="trait" icon={["battle-gear"]}>
+<div style={{clear:"both"}}></div><Ability id="augmented-disguise" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="augmented-disguise">Augmented Disguise</Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="augmented-disguise-flavor">You are especially good at disguising yourself when you have props available.</Pair>
@@ -480,7 +480,7 @@ const _augmented_disguise = {title: "Augmented Disguise", topLink: ["Equipment T
 </Ability>
 </>};
 const _dealmaker = {title: "Dealmaker", topLink: ["Equipment Traits","main/traits_equipment"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory</Link></p>
-<Ability id="dealmaker" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="dealmaker" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="dealmaker">Dealmaker</Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="dealmaker-flavor">You have the air of a person with money, allowing you to buy and sell valuables that otherwise are too rich for the local community.</Pair>
@@ -490,7 +490,7 @@ const _dealmaker = {title: "Dealmaker", topLink: ["Equipment Traits","main/trait
 </Ability>
 </>};
 const _extremely_fashionable = {title: "Extremely Fashionable", topLink: ["Equipment Traits","main/traits_equipment"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory</Link></p>
-<Ability id="extremely-fashionable" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="extremely-fashionable" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="extremely-fashionable">Extremely Fashionable</Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="extremely-fashionable-flavor">You really know how to make a good impression when you're dressed well.</Pair>
@@ -498,14 +498,14 @@ const _extremely_fashionable = {title: "Extremely Fashionable", topLink: ["Equip
 </Ability>
 </>};
 const _heirloom_weapon = {title: "Heirloom Weapon", topLink: ["Equipment Traits","main/traits_equipment"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory</Link></p>
-<Ability id="heirloom-weapon" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="heirloom-weapon" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="heirloom-weapon">Heirloom Weapon</Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="benefit" id="heirloom-weapon-benefit">You carry a non-masterwork simple or martial weapon that has been passed down from generation to generation in your family (pay the standard gp cost for the weapon). When you select this trait, choose one of the following benefits: proficiency with that specific weapon, a +1 trait bonus on attacks of opportunity with that specific weapon, or a +2 trait bonus on one kind of combat maneuver when using that specific weapon.</Pair>
 </Ability>
 </>};
 const _improvisational_equipment = {title: "Improvisational Equipment", topLink: ["Equipment Traits","main/traits_equipment"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory</Link></p>
-<Ability id="improvisational-equipment" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="improvisational-equipment" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="improvisational-equipment">Improvisational Equipment</Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="improvisational-equipment-flavor">You have an uncanny knack for turning equipment to new and unexpected uses.</Pair>
@@ -513,7 +513,7 @@ const _improvisational_equipment = {title: "Improvisational Equipment", topLink:
 </Ability>
 </>};
 const _iron_liver = {title: "Iron Liver", topLink: ["Equipment Traits","main/traits_equipment"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory</Link></p>
-<Ability id="iron-liver" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="iron-liver" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="iron-liver">Iron Liver</Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="iron-liver-flavor">Due to a lucky constitution or frequent exposure, your body is resistant to poison, including alcohol and drugs.</Pair>
@@ -521,7 +521,7 @@ const _iron_liver = {title: "Iron Liver", topLink: ["Equipment Traits","main/tra
 </Ability>
 </>};
 const _power_of_suggestion = {title: "Power of Suggestion", topLink: ["Equipment Traits","main/traits_equipment"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory</Link></p>
-<Ability id="power-of-suggestion" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="power-of-suggestion" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="power-of-suggestion">Power of Suggestion</Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="power-of-suggestion-flavor">People trust your words over their own eyes.</Pair>
@@ -529,14 +529,14 @@ const _power_of_suggestion = {title: "Power of Suggestion", topLink: ["Equipment
 </Ability>
 </>};
 const _prehensile_whip = {title: "Prehensile Whip", topLink: ["Equipment Traits","main/traits_equipment"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory</Link></p>
-<Ability id="prehensile-whip" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="prehensile-whip" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="prehensile-whip">Prehensile Whip</Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="benefit" id="prehensile-whip-benefit">In your hand a whip has a life of its own, wrapping around pillars and beams with ease. You can use a <Link to="/eq-weapon/whip">whip</Link> as if it were a rope with a <Link to="/eq-weapon/grappling_hook">grappling hook</Link> at the end. Attaching your whip is a <strong className="hl">standard action</strong>, but detaching it is a <strong className="hl">full-round action</strong>.</Pair>
 </Ability>
 </>};
 const _quick_learner = {title: "Quick Learner", topLink: ["Equipment Traits","main/traits_equipment"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory</Link></p>
-<Ability id="quick-learner" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="quick-learner" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="quick-learner">Quick Learner</Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="quick-learner-flavor">You're skilled at learning the feel of a particular weapon after a few swings in combat.</Pair>
@@ -544,7 +544,7 @@ const _quick_learner = {title: "Quick Learner", topLink: ["Equipment Traits","ma
 </Ability>
 </>};
 const _rough_and_ready = {title: "Rough and Ready", topLink: ["Equipment Traits","main/traits_equipment"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory</Link></p>
-<Ability id="rough-and-ready" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="rough-and-ready" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="rough-and-ready">Rough and Ready</Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="rough-and-ready-flavor">Your intense familiarity with the tools of your trade allows you to use them in combat as if they were actual weapons and makes them more effective for that purpose than they would normally be.</Pair>
@@ -552,7 +552,7 @@ const _rough_and_ready = {title: "Rough and Ready", topLink: ["Equipment Traits"
 </Ability>
 </>};
 const _stage_magic = {title: "Stage Magic", topLink: ["Equipment Traits","main/traits_equipment"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory</Link></p>
-<Ability id="stage-magic" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="stage-magic" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="stage-magic">Stage Magic</Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="stage-magic-flavor">You have put in many hours practicing with flashy alchemical items that enhance your Perform skill.</Pair>
@@ -562,7 +562,7 @@ const _stage_magic = {title: "Stage Magic", topLink: ["Equipment Traits","main/t
 </Ability>
 </>};
 const _stealthy_escape = {title: "Stealthy Escape", topLink: ["Equipment Traits","main/traits_equipment"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory</Link></p>
-<Ability id="stealthy-escape" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="stealthy-escape" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="stealthy-escape">Stealthy Escape</Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="stealthy-escape-flavor">You are adept at escaping from confinement in an unobtrusive manner.</Pair>
@@ -570,7 +570,7 @@ const _stealthy_escape = {title: "Stealthy Escape", topLink: ["Equipment Traits"
 </Ability>
 </>};
 const _thrown_together_fashion = {title: "Thrown-Together Fashion", topLink: ["Equipment Traits","main/traits_equipment"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory</Link></p>
-<Ability id="thrown-together-fashion" extraClasses="trait" icon={["battle-gear"]}>
+<Ability id="thrown-together-fashion" extraClasses="trait" icon={["Equipment"]}>
 <Pair single id="thrown-together-fashion">Thrown-Together Fashion</Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="thrown-together-fashion-flavor">You can modify old clothing to make it effective in new circumstances.</Pair>
@@ -578,7 +578,7 @@ const _thrown_together_fashion = {title: "Thrown-Together Fashion", topLink: ["E
 </Ability>
 </>};
 const _well_provisioned_adventurer = {hasJL:true,title: "Well-Provisioned Adventurer", topLink: ["Equipment Traits","main/traits_equipment"], jsx: <><div className="jumpList" id="trait-well_provisioned_adventurer-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="trait-well_provisioned_adventurer-arcane-adept-package">Arcane Adept Package</InnerLink></li><li><InnerLink toTop to="trait-well_provisioned_adventurer-blessed-warden-package">Blessed Warden Package</InnerLink></li><li><InnerLink toTop to="trait-well_provisioned_adventurer-corporeal-warrior-package">Corporeal Warrior Package</InnerLink></li><li><InnerLink toTop to="trait-well_provisioned_adventurer-daring-bravo-package">Daring Bravo Package</InnerLink></li><li><InnerLink toTop to="trait-well_provisioned_adventurer-holy-warrior-package">Holy Warrior Package</InnerLink></li><li><InnerLink toTop to="trait-well_provisioned_adventurer-lore-seeker-package">Lore Seeker Package</InnerLink></li><li><InnerLink toTop to="trait-well_provisioned_adventurer-mystic-guide-package">Mystic Guide Package</InnerLink></li><li><InnerLink toTop to="trait-well_provisioned_adventurer-planar-traveler-package">Planar Traveler Package</InnerLink></li><li><InnerLink toTop to="trait-well_provisioned_adventurer-questing-knight-package">Questing Knight Package</InnerLink></li><li><InnerLink toTop to="trait-well_provisioned_adventurer-shadowy-stalker-package">Shadowy Stalker Package</InnerLink></li><li><InnerLink toTop to="trait-well_provisioned_adventurer-wilderness-wanderer-package">Wilderness Wanderer Package</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook</Link>, <Link to="/source/adventurers_armory_2">Adventurer's Armory 2</Link></p>
-<div style={{clear:"both"}}></div><Ability id="well-provisioned-adventurer" extraClasses="trait hasSubs" icon={["battle-gear"]}>
+<div style={{clear:"both"}}></div><Ability id="well-provisioned-adventurer" extraClasses="trait hasSubs" icon={["Equipment"]}>
 <Pair single id="well-provisioned-adventurer">Well-Provisioned Adventurer</Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="flavor" id="well-provisioned-adventurer-flavor">You always knew that one day you would leave your humble beginnings behind and become an adventurer, so you scrimped and saved, buying the necessary equipment one piece at a time until you had everything you needed. Select one of the equipment packages below.</Pair>
@@ -684,7 +684,7 @@ const _well_provisioned_adventurer = {hasJL:true,title: "Well-Provisioned Advent
 </Ability>
 </>};
 const _betrayal_of_trust = {title: "Betrayal of Trust", topLink: ["Family Traits","main/traits_family"], jsx: <><p><strong>Sources</strong> <Link to="/source/cohorts_and_companions">Cohorts and Companions</Link></p>
-<Ability id="betrayal-of-trust" extraClasses="trait" icon={["relationship-bounds"]}>
+<Ability id="betrayal-of-trust" extraClasses="trait" icon={["Family"]}>
 <Pair single id="betrayal-of-trust">Betrayal of Trust</Pair>
 <Pair title="Type">Family</Pair>
 <Pair single="flavor" id="betrayal-of-trust-flavor">If you have the trait <Link to="/trait/tight_bonds">Tight Bonds</Link>, you swap it for this trait at the moment you decide to betray the relationship. (You need not wait until you have actually committed an act of betrayal.)</Pair>
@@ -693,14 +693,14 @@ const _betrayal_of_trust = {title: "Betrayal of Trust", topLink: ["Family Traits
 </Ability>
 </>};
 const _blood_resonance = {title: "Blood Resonance", topLink: ["Family Traits","main/traits_family"], jsx: <><p><strong>Sources</strong> <Link to="/source/cohorts_and_companions">Cohorts and Companions</Link></p>
-<Ability id="blood-resonance" extraClasses="trait" icon={["relationship-bounds"]}>
+<Ability id="blood-resonance" extraClasses="trait" icon={["Family"]}>
 <Pair single id="blood-resonance">Blood Resonance</Pair>
 <Pair title="Type">Family</Pair>
 <Pair single="benefit" id="blood-resonance-benefit">Select one racial, inherited template (such as <Link to="/template/half_dragon">half-dragon</Link>), or bloodline ability you can currently use at least three times each day. Once per day when you are within 60 feet of another character with this family trait who shares the race, template, or bloodline, you can use the selected ability without it counting against your normal daily limit.</Pair>
 </Ability>
 </>};
 const _family_resemblance = {title: "Family Resemblance", topLink: ["Family Traits","main/traits_family"], jsx: <><p><strong>Sources</strong> <Link to="/source/cohorts_and_companions">Cohorts and Companions</Link></p>
-<Ability id="family-resemblance" extraClasses="trait" icon={["relationship-bounds"]}>
+<Ability id="family-resemblance" extraClasses="trait" icon={["Family"]}>
 <Pair single id="family-resemblance">Family Resemblance</Pair>
 <Pair title="Type">Family</Pair>
 <Pair single="flavor" id="family-resemblance-flavor">You have some of the common, recognizable features of your family.</Pair>
@@ -708,14 +708,14 @@ const _family_resemblance = {title: "Family Resemblance", topLink: ["Family Trai
 </Ability>
 </>};
 const _family_trade = {title: "Family Trade", topLink: ["Family Traits","main/traits_family"], jsx: <><p><strong>Sources</strong> <Link to="/source/cohorts_and_companions">Cohorts and Companions</Link></p>
-<Ability id="family-trade" extraClasses="trait" icon={["relationship-bounds"]}>
+<Ability id="family-trade" extraClasses="trait" icon={["Family"]}>
 <Pair single id="family-trade">Family Trade</Pair>
 <Pair title="Type">Family</Pair>
 <Pair single="benefit" id="family-trade-benefit">Choose one skill. All family members with this trait must choose the same skill and it is always a class skill for you. When you are within 60 feet of a family member with this trait, you gain a +2 trait bonus on checks with this skill.</Pair>
 </Ability>
 </>};
 const _honor_bound = {title: "Honor-Bound", topLink: ["Family Traits","main/traits_family"], jsx: <><p><strong>Sources</strong> <Link to="/source/cohorts_and_companions">Cohorts and Companions</Link></p>
-<Ability id="honor-bound" extraClasses="trait" icon={["relationship-bounds"]}>
+<Ability id="honor-bound" extraClasses="trait" icon={["Family"]}>
 <Pair single id="honor-bound">Honor-Bound</Pair>
 <Pair title="Type">Family</Pair>
 <Pair single="flavor" id="honor-bound-flavor">The family's honor is tied to a shared goal binding you all together.</Pair>
@@ -723,14 +723,14 @@ const _honor_bound = {title: "Honor-Bound", topLink: ["Family Traits","main/trai
 </Ability>
 </>};
 const _rivalry = {title: "Rivalry", topLink: ["Family Traits","main/traits_family"], jsx: <><p><strong>Sources</strong> <Link to="/source/cohorts_and_companions">Cohorts and Companions</Link></p>
-<Ability id="rivalry" extraClasses="trait" icon={["relationship-bounds"]}>
+<Ability id="rivalry" extraClasses="trait" icon={["Family"]}>
 <Pair single id="rivalry">Rivalry</Pair>
 <Pair title="Type">Family</Pair>
 <Pair single="benefit" id="rivalry-benefit">If you see a family member with this trait within 60 feet of you fail a combat maneuver check or a skill check, you gain a +1 trait bonus on checks to perform the same combat maneuver or use the same skill for 1 round.</Pair>
 </Ability>
 </>};
 const _tight_bonds = {title: "Tight Bonds", topLink: ["Family Traits","main/traits_family"], jsx: <><p><strong>Sources</strong> <Link to="/source/cohorts_and_companions">Cohorts and Companions</Link></p>
-<Ability id="tight-bonds" extraClasses="trait" icon={["relationship-bounds"]}>
+<Ability id="tight-bonds" extraClasses="trait" icon={["Family"]}>
 <Pair single id="tight-bonds">Tight Bonds</Pair>
 <Pair title="Type">Family</Pair>
 <Pair single="flavor" id="tight-bonds-flavor">Whether siblings, spouses, or dedicated members of the same clan, characters who take this trait are an inseparable pair committed to each other.</Pair>
@@ -738,7 +738,7 @@ const _tight_bonds = {title: "Tight Bonds", topLink: ["Family Traits","main/trai
 </Ability>
 </>};
 const _black_as_night = {title: "Black as Night", topLink: ["Mount Traits","main/traits_mount"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="black-as-night" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="black-as-night" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="black-as-night">Black as Night</Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a fell pony as a mount</Pair>
@@ -746,7 +746,7 @@ const _black_as_night = {title: "Black as Night", topLink: ["Mount Traits","main
 </Ability>
 </>};
 const _blessed_mutt = {title: "Blessed Mutt", topLink: ["Mount Traits","main/traits_mount"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
-<Ability id="blessed-mutt" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="blessed-mutt" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="blessed-mutt">Blessed Mutt</Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a <Link to="/eq-misc/riding_dog">riding dog</Link> as a mount</Pair>
@@ -754,7 +754,7 @@ const _blessed_mutt = {title: "Blessed Mutt", topLink: ["Mount Traits","main/tra
 </Ability>
 </>};
 const _burst_of_speed = {title: "Burst of Speed", topLink: ["Mount Traits","main/traits_mount"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="burst-of-speed" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="burst-of-speed" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="burst-of-speed">Burst of Speed</Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a Dort charger as a mount</Pair>
@@ -762,7 +762,7 @@ const _burst_of_speed = {title: "Burst of Speed", topLink: ["Mount Traits","main
 </Ability>
 </>};
 const _clamber = {title: "Clamber", topLink: ["Mount Traits","main/traits_mount"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
-<Ability id="clamber" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="clamber" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="clamber">Clamber</Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a <Link to="/monster/ram">ram</Link> as a mount</Pair>
@@ -770,7 +770,7 @@ const _clamber = {title: "Clamber", topLink: ["Mount Traits","main/traits_mount"
 </Ability>
 </>};
 const _clever_mount = {title: "Clever Mount", topLink: ["Mount Traits","main/traits_mount"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
-<Ability id="clever-mount" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="clever-mount" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="clever-mount">Clever Mount</Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a mount</Pair>
@@ -778,7 +778,7 @@ const _clever_mount = {title: "Clever Mount", topLink: ["Mount Traits","main/tra
 </Ability>
 </>};
 const _cunning_breed = {title: "Cunning Breed", topLink: ["Mount Traits","main/traits_mount"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="cunning-breed" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="cunning-breed" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="cunning-breed">Cunning Breed</Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a Taldor jennet as a mount</Pair>
@@ -786,7 +786,7 @@ const _cunning_breed = {title: "Cunning Breed", topLink: ["Mount Traits","main/t
 </Ability>
 </>};
 const _fleet_of_foot = {title: "Fleet of Foot", topLink: ["Mount Traits","main/traits_mount"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="fleet-of-foot" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="fleet-of-foot" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="fleet-of-foot">Fleet of Foot</Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a chiardmar as a mount</Pair>
@@ -794,7 +794,7 @@ const _fleet_of_foot = {title: "Fleet of Foot", topLink: ["Mount Traits","main/t
 </Ability>
 </>};
 const _nauseating_spit = {title: "Nauseating Spit", topLink: ["Mount Traits","main/traits_mount"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
-<Ability id="nauseating-spit" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="nauseating-spit" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="nauseating-spit">Nauseating Spit</Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a <Link to="/eq-misc/camel">camel</Link> as a mount</Pair>
@@ -802,7 +802,7 @@ const _nauseating_spit = {title: "Nauseating Spit", topLink: ["Mount Traits","ma
 </Ability>
 </>};
 const _relentless_fortitude = {title: "Relentless Fortitude", topLink: ["Mount Traits","main/traits_mount"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="relentless-fortitude" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="relentless-fortitude" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="relentless-fortitude">Relentless Fortitude</Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a Qadiran dromedary as a mount</Pair>
@@ -810,7 +810,7 @@ const _relentless_fortitude = {title: "Relentless Fortitude", topLink: ["Mount T
 </Ability>
 </>};
 const _running_pig = {title: "Running Pig", topLink: ["Mount Traits","main/traits_mount"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
-<Ability id="running-pig" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="running-pig" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="running-pig">Running Pig</Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a <Link to="/monster/boar">boar</Link> as a mount</Pair>
@@ -818,7 +818,7 @@ const _running_pig = {title: "Running Pig", topLink: ["Mount Traits","main/trait
 </Ability>
 </>};
 const _stalwart_elk = {title: "Stalwart Elk", topLink: ["Mount Traits","main/traits_mount"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="stalwart-elk" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="stalwart-elk" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="stalwart-elk">Stalwart Elk</Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a Chernasardo riding elk as a mount</Pair>
@@ -826,7 +826,7 @@ const _stalwart_elk = {title: "Stalwart Elk", topLink: ["Mount Traits","main/tra
 </Ability>
 </>};
 const _water_trained = {title: "Water-Trained", topLink: ["Mount Traits","main/traits_mount"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="water-trained" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="water-trained" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="water-trained">Water-Trained</Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have a Lastwall jasper as a mount</Pair>
@@ -834,7 +834,7 @@ const _water_trained = {title: "Water-Trained", topLink: ["Mount Traits","main/t
 </Ability>
 </>};
 const _weather_beaten = {title: "Weather-Beaten", topLink: ["Mount Traits","main/traits_mount"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="weather-beaten" extraClasses="trait" icon={["cavalry"]}>
+<Ability id="weather-beaten" extraClasses="trait" icon={["Mount"]}>
 <Pair single id="weather-beaten">Weather-Beaten</Pair>
 <Pair title="Type">Mount</Pair>
 <Pair title="Requirements" hl>Have an Erutaki husky as a mount</Pair>
@@ -842,7 +842,7 @@ const _weather_beaten = {title: "Weather-Beaten", topLink: ["Mount Traits","main
 </Ability>
 </>};
 const _a_shining_beacon = {title: "A Shining Beacon", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="a-shining-beacon" extraClasses="trait" icon={["prayer"]}>
+<Ability id="a-shining-beacon" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="a-shining-beacon">A Shining Beacon</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/iomedae">Iomedae</Link></Pair>
@@ -851,7 +851,7 @@ const _a_shining_beacon = {title: "A Shining Beacon", topLink: ["Religion Traits
 </Ability>
 </>};
 const _accident_resistant = {title: "Accident Resistant", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="accident-resistant" extraClasses="trait" icon={["prayer"]}>
+<Ability id="accident-resistant" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="accident-resistant">Accident Resistant</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zyphus">Zyphus</Link></Pair>
@@ -860,7 +860,7 @@ const _accident_resistant = {title: "Accident Resistant", topLink: ["Religion Tr
 </Ability>
 </>};
 const _adherent_of_ancient_osirion = {title: "Adherent of Ancient Osirion", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast</Link></p>
-<Ability id="adherent-of-ancient-osirion" extraClasses="trait" icon={["prayer"]}>
+<Ability id="adherent-of-ancient-osirion" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="adherent-of-ancient-osirion">Adherent of Ancient Osirion</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/bastet">Bastet</Link></Pair>
@@ -871,7 +871,7 @@ const _adherent_of_ancient_osirion = {title: "Adherent of Ancient Osirion", topL
 </Ability>
 </>};
 const _adventurous_imbiber = {title: "Adventurous Imbiber", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="adventurous-imbiber" extraClasses="trait" icon={["prayer"]}>
+<Ability id="adventurous-imbiber" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="adventurous-imbiber">Adventurous Imbiber</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/cayden_cailean">Cayden Cailean</Link></Pair>
@@ -880,7 +880,7 @@ const _adventurous_imbiber = {title: "Adventurous Imbiber", topLink: ["Religion 
 </Ability>
 </>};
 const _affinity_for_the_elements = {title: "Affinity for the Elements", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="affinity-for-the-elements" extraClasses="trait" icon={["prayer"]}>
+<Ability id="affinity-for-the-elements" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="affinity-for-the-elements">Affinity for the Elements</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Elemental Lords</Pair>
@@ -888,7 +888,7 @@ const _affinity_for_the_elements = {title: "Affinity for the Elements", topLink:
 </Ability>
 </>};
 const _agent_of_chance = {title: "Agent of Chance", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="agent-of-chance" extraClasses="trait" icon={["prayer"]}>
+<Ability id="agent-of-chance" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="agent-of-chance">Agent of Chance</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/nivi_rhombodazzle">Nivi Rhombodazzle</Link></Pair>
@@ -897,7 +897,7 @@ const _agent_of_chance = {title: "Agent of Chance", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _alluring = {title: "Alluring", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="alluring" extraClasses="trait" icon={["prayer"]}>
+<Ability id="alluring" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="alluring">Alluring</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/bolka">Bolka</Link></Pair>
@@ -906,7 +906,7 @@ const _alluring = {title: "Alluring", topLink: ["Religion Traits","main/traits_r
 </Ability>
 </>};
 const _always_threatening = {title: "Always Threatening", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="always-threatening" extraClasses="trait" icon={["prayer"]}>
+<Ability id="always-threatening" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="always-threatening">Always Threatening</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/thamir_gixx">Thamir Gixx</Link></Pair>
@@ -915,7 +915,7 @@ const _always_threatening = {title: "Always Threatening", topLink: ["Religion Tr
 </Ability>
 </>};
 const _ambassador = {title: "Ambassador", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
-<Ability id="ambassador" extraClasses="trait" icon={["prayer"]}>
+<Ability id="ambassador" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="ambassador">Ambassador</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
@@ -924,7 +924,7 @@ const _ambassador = {title: "Ambassador", topLink: ["Religion Traits","main/trai
 </Ability>
 </>};
 const _ancestors_blade = {title: "Ancestor's Blade", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="ancestors-blade" extraClasses="trait" icon={["prayer"]}>
+<Ability id="ancestors-blade" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="ancestors-blade">Ancestor's Blade</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shizuru">Shizuru</Link></Pair>
@@ -933,7 +933,7 @@ const _ancestors_blade = {title: "Ancestor's Blade", topLink: ["Religion Traits"
 </Ability>
 </>};
 const _andolettas_consolation = {title: "Andoletta's Consolation", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="andolettas-consolation" extraClasses="trait" icon={["prayer"]}>
+<Ability id="andolettas-consolation" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="andolettas-consolation">Andoletta's Consolation</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/andoletta">Andoletta</Link></Pair>
@@ -942,7 +942,7 @@ const _andolettas_consolation = {title: "Andoletta's Consolation", topLink: ["Re
 </Ability>
 </>};
 const _angradds_flame = {title: "Angradd's Flame", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="angradds-flame" extraClasses="trait" icon={["prayer"]}>
+<Ability id="angradds-flame" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="angradds-flame">Angradd's Flame</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/angradd">Angradd</Link></Pair>
@@ -951,7 +951,7 @@ const _angradds_flame = {title: "Angradd's Flame", topLink: ["Religion Traits","
 </Ability>
 </>};
 const _angradds_valor = {title: "Angradd's Valor", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="angradds-valor" extraClasses="trait" icon={["prayer"]}>
+<Ability id="angradds-valor" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="angradds-valor">Angradd's Valor</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/angradd">Angradd</Link></Pair>
@@ -960,7 +960,7 @@ const _angradds_valor = {title: "Angradd's Valor", topLink: ["Religion Traits","
 </Ability>
 </>};
 const _arcane_depth = {title: "Arcane Depth", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="arcane-depth" extraClasses="trait" icon={["prayer"]}>
+<Ability id="arcane-depth" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="arcane-depth">Arcane Depth</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/nethys">Nethys</Link></Pair>
@@ -969,7 +969,7 @@ const _arcane_depth = {title: "Arcane Depth", topLink: ["Religion Traits","main/
 </Ability>
 </>};
 const _avowed_inspiration = {title: "Avowed Inspiration", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="avowed-inspiration" extraClasses="trait" icon={["prayer"]}>
+<Ability id="avowed-inspiration" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="avowed-inspiration">Avowed Inspiration</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ragathiel">Ragathiel</Link></Pair>
@@ -978,7 +978,7 @@ const _avowed_inspiration = {title: "Avowed Inspiration", topLink: ["Religion Tr
 </Ability>
 </>};
 const _backstabber = {title: "Backstabber", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="backstabber" extraClasses="trait" icon={["prayer"]}>
+<Ability id="backstabber" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="backstabber">Backstabber</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/thamir_gixx">Thamir Gixx</Link></Pair>
@@ -988,7 +988,7 @@ const _backstabber = {title: "Backstabber", topLink: ["Religion Traits","main/tr
 </Ability>
 </>};
 const _battlefield_caster = {title: "Battlefield Caster", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="battlefield-caster" extraClasses="trait" icon={["prayer"]}>
+<Ability id="battlefield-caster" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="battlefield-caster">Battlefield Caster</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/angradd">Angradd</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/torag">Torag</Link>, or <Link to="/faith/trudd">Trudd</Link></Pair>
@@ -997,7 +997,7 @@ const _battlefield_caster = {title: "Battlefield Caster", topLink: ["Religion Tr
 </Ability>
 </>};
 const _battlefield_surgeon = {title: "Battlefield Surgeon", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="battlefield-surgeon" extraClasses="trait" icon={["prayer"]}>
+<Ability id="battlefield-surgeon" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="battlefield-surgeon">Battlefield Surgeon</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zon_kuthon">Zon-Kuthon</Link></Pair>
@@ -1006,7 +1006,7 @@ const _battlefield_surgeon = {title: "Battlefield Surgeon", topLink: ["Religion 
 </Ability>
 </>};
 const _besmaras_name = {title: "Besmara's Name", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="besmaras-name" extraClasses="trait" icon={["prayer"]}>
+<Ability id="besmaras-name" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="besmaras-name">Besmara's Name</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/besmara">Besmara</Link></Pair>
@@ -1015,7 +1015,7 @@ const _besmaras_name = {title: "Besmara's Name", topLink: ["Religion Traits","ma
 </Ability>
 </>};
 const _besmaras_strength = {title: "Besmara's Strength", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="besmaras-strength" extraClasses="trait" icon={["prayer"]}>
+<Ability id="besmaras-strength" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="besmaras-strength">Besmara's Strength</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/besmara">Besmara</Link></Pair>
@@ -1024,7 +1024,7 @@ const _besmaras_strength = {title: "Besmara's Strength", topLink: ["Religion Tra
 </Ability>
 </>};
 const _bestial_wrath = {title: "Bestial Wrath", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="bestial-wrath" extraClasses="trait" icon={["prayer"]}>
+<Ability id="bestial-wrath" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="bestial-wrath">Bestial Wrath</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/rovagug">Rovagug</Link></Pair>
@@ -1033,7 +1033,7 @@ const _bestial_wrath = {title: "Bestial Wrath", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _blade_of_mercy = {title: "Blade of Mercy", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="blade-of-mercy" extraClasses="trait" icon={["prayer"]}>
+<Ability id="blade-of-mercy" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="blade-of-mercy">Blade of Mercy</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
@@ -1042,7 +1042,7 @@ const _blade_of_mercy = {title: "Blade of Mercy", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _blessed_orphan = {title: "Blessed Orphan", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="blessed-orphan" extraClasses="trait" icon={["prayer"]}>
+<Ability id="blessed-orphan" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="blessed-orphan">Blessed Orphan</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/folgrit">Folgrit</Link></Pair>
@@ -1051,7 +1051,7 @@ const _blessed_orphan = {title: "Blessed Orphan", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _blessing_of_the_feast = {title: "Blessing of the Feast", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="blessing-of-the-feast" extraClasses="trait" icon={["prayer"]}>
+<Ability id="blessing-of-the-feast" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="blessing-of-the-feast">Blessing of the Feast</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zura">Zura</Link></Pair>
@@ -1060,7 +1060,7 @@ const _blessing_of_the_feast = {title: "Blessing of the Feast", topLink: ["Relig
 </Ability>
 </>};
 const _blind_zeal = {title: "Blind Zeal", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="blind-zeal" extraClasses="trait" icon={["prayer"]}>
+<Ability id="blind-zeal" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="blind-zeal">Blind Zeal</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/vildeis">Vildeis</Link></Pair>
@@ -1069,7 +1069,7 @@ const _blind_zeal = {title: "Blind Zeal", topLink: ["Religion Traits","main/trai
 </Ability>
 </>};
 const _bloody_vengeance = {title: "Bloody Vengeance", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="bloody-vengeance" extraClasses="trait" icon={["prayer"]}>
+<Ability id="bloody-vengeance" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="bloody-vengeance">Bloody Vengeance</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/vildeis">Vildeis</Link></Pair>
@@ -1078,7 +1078,7 @@ const _bloody_vengeance = {title: "Bloody Vengeance", topLink: ["Religion Traits
 </Ability>
 </>};
 const _brighs_insight = {title: "Brigh's Insight", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="brighs-insight" extraClasses="trait" icon={["prayer"]}>
+<Ability id="brighs-insight" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="brighs-insight">Brigh's Insight</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/brigh">Brigh</Link></Pair>
@@ -1087,7 +1087,7 @@ const _brighs_insight = {title: "Brigh's Insight", topLink: ["Religion Traits","
 </Ability>
 </>};
 const _broken_mind = {title: "Broken Mind", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="broken-mind" extraClasses="trait" icon={["prayer"]}>
+<Ability id="broken-mind" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="broken-mind">Broken Mind</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/groetus">Groetus</Link></Pair>
@@ -1095,7 +1095,7 @@ const _broken_mind = {title: "Broken Mind", topLink: ["Religion Traits","main/tr
 </Ability>
 </>};
 const _calistrian_courtesan = {title: "Calistrian Courtesan", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/elves_of_golarion">Elves of Golarion</Link></p>
-<Ability id="calistrian-courtesan" extraClasses="trait" icon={["prayer"]}>
+<Ability id="calistrian-courtesan" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="calistrian-courtesan">Calistrian Courtesan</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/calistria">Calistria</Link></Pair>
@@ -1104,7 +1104,7 @@ const _calistrian_courtesan = {title: "Calistrian Courtesan", topLink: ["Religio
 </Ability>
 </>};
 const _call_for_help = {title: "Call for Help", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="call-for-help" extraClasses="trait" icon={["prayer"]}>
+<Ability id="call-for-help" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="call-for-help">Call for Help</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/chaldira_zuzaristan">Chaldira Zuzaristan</Link></Pair>
@@ -1114,7 +1114,7 @@ const _call_for_help = {title: "Call for Help", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _centered = {title: "Centered", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="centered" extraClasses="trait" icon={["prayer"]}>
+<Ability id="centered" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="centered">Centered</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/irori">Irori</Link></Pair>
@@ -1123,7 +1123,7 @@ const _centered = {title: "Centered", topLink: ["Religion Traits","main/traits_r
 </Ability>
 </>};
 const _chaldiras_luck = {title: "Chaldira's Luck", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="chaldiras-luck" extraClasses="trait" icon={["prayer"]}>
+<Ability id="chaldiras-luck" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="chaldiras-luck">Chaldira's Luck</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/chaldira">Chaldira</Link></Pair>
@@ -1132,7 +1132,7 @@ const _chaldiras_luck = {title: "Chaldira's Luck", topLink: ["Religion Traits","
 </Ability>
 </>};
 const _cheat_death = {title: "Cheat Death", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="cheat-death" extraClasses="trait" icon={["prayer"]}>
+<Ability id="cheat-death" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="cheat-death">Cheat Death</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/besmara">Besmara</Link></Pair>
@@ -1141,7 +1141,7 @@ const _cheat_death = {title: "Cheat Death", topLink: ["Religion Traits","main/tr
 </Ability>
 </>};
 const _child_of_nature = {title: "Child of Nature", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link>, <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="child-of-nature" extraClasses="trait" icon={["prayer"]}>
+<Ability id="child-of-nature" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="child-of-nature">Child of Nature</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gozreh">Gozreh</Link></Pair>
@@ -1150,7 +1150,7 @@ const _child_of_nature = {title: "Child of Nature", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _cleansing_light = {title: "Cleansing Light", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="cleansing-light" extraClasses="trait" icon={["prayer"]}>
+<Ability id="cleansing-light" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="cleansing-light">Cleansing Light</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
@@ -1159,7 +1159,7 @@ const _cleansing_light = {title: "Cleansing Light", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _cleansing_the_twisted = {title: "Cleansing the Twisted", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="cleansing-the-twisted" extraClasses="trait" icon={["prayer"]}>
+<Ability id="cleansing-the-twisted" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="cleansing-the-twisted">Cleansing the Twisted</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
@@ -1168,7 +1168,7 @@ const _cleansing_the_twisted = {title: "Cleansing the Twisted", topLink: ["Relig
 </Ability>
 </>};
 const _clockwork_surgeon = {title: "Clockwork Surgeon", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 13</Link></p>
-<Ability id="clockwork-surgeon" extraClasses="trait" icon={["prayer"]}>
+<Ability id="clockwork-surgeon" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="clockwork-surgeon">Clockwork Surgeon</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/aesocar">Aesocar</Link></Pair>
@@ -1179,7 +1179,7 @@ const _clockwork_surgeon = {title: "Clockwork Surgeon", topLink: ["Religion Trai
 </Ability>
 </>};
 const _contract_master = {title: "Contract Master", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="contract-master" extraClasses="trait" icon={["prayer"]}>
+<Ability id="contract-master" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="contract-master">Contract Master</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/asmodeus">Asmodeus</Link></Pair>
@@ -1188,7 +1188,7 @@ const _contract_master = {title: "Contract Master", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _corpse_cannibal = {title: "Corpse Cannibal", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="corpse-cannibal" extraClasses="trait" icon={["prayer"]}>
+<Ability id="corpse-cannibal" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="corpse-cannibal">Corpse Cannibal</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/urgathoa">Urgathoa</Link></Pair>
@@ -1197,7 +1197,7 @@ const _corpse_cannibal = {title: "Corpse Cannibal", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _corpse_hunter = {title: "Corpse Hunter", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="corpse-hunter" extraClasses="trait" icon={["prayer"]}>
+<Ability id="corpse-hunter" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="corpse-hunter">Corpse Hunter</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/pharasma">Pharasma</Link></Pair>
@@ -1205,7 +1205,7 @@ const _corpse_hunter = {title: "Corpse Hunter", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _covenant_of_abaddon = {title: "Covenant of Abaddon", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="covenant-of-abaddon" extraClasses="trait" icon={["prayer"]}>
+<Ability id="covenant-of-abaddon" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="covenant-of-abaddon">Covenant of Abaddon</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Horsemen</Pair>
@@ -1213,7 +1213,7 @@ const _covenant_of_abaddon = {title: "Covenant of Abaddon", topLink: ["Religion 
 </Ability>
 </>};
 const _dawn_renewal = {title: "Dawn Renewal", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="dawn-renewal" extraClasses="trait" icon={["prayer"]}>
+<Ability id="dawn-renewal" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="dawn-renewal">Dawn Renewal</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
@@ -1223,7 +1223,7 @@ const _dawn_renewal = {title: "Dawn Renewal", topLink: ["Religion Traits","main/
 </Ability>
 </>};
 const _deadeye_bowman = {title: "Deadeye Bowman", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="deadeye-bowman" extraClasses="trait" icon={["prayer"]}>
+<Ability id="deadeye-bowman" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="deadeye-bowman">Deadeye Bowman</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/erastil">Erastil</Link></Pair>
@@ -1231,7 +1231,7 @@ const _deadeye_bowman = {title: "Deadeye Bowman", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _deathspeaker = {title: "Deathspeaker", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="deathspeaker" extraClasses="trait" icon={["prayer"]}>
+<Ability id="deathspeaker" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="deathspeaker">Deathspeaker</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/urgathoa">Urgathoa</Link></Pair>
@@ -1239,7 +1239,7 @@ const _deathspeaker = {title: "Deathspeaker", topLink: ["Religion Traits","main/
 </Ability>
 </>};
 const _deck_fighter = {title: "Deck Fighter", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="deck-fighter" extraClasses="trait" icon={["prayer"]}>
+<Ability id="deck-fighter" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="deck-fighter">Deck Fighter</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/besmara">Besmara</Link></Pair>
@@ -1247,7 +1247,7 @@ const _deck_fighter = {title: "Deck Fighter", topLink: ["Religion Traits","main/
 </Ability>
 </>};
 const _deep_wounding = {title: "Deep Wounding", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="deep-wounding" extraClasses="trait" icon={["prayer"]}>
+<Ability id="deep-wounding" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="deep-wounding">Deep Wounding</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/achaekek">Achaekek</Link></Pair>
@@ -1256,7 +1256,7 @@ const _deep_wounding = {title: "Deep Wounding", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _defensive_strategist = {title: "Defensive Strategist", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="defensive-strategist" extraClasses="trait" icon={["prayer"]}>
+<Ability id="defensive-strategist" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="defensive-strategist">Defensive Strategist</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/torag">Torag</Link></Pair>
@@ -1265,7 +1265,7 @@ const _defensive_strategist = {title: "Defensive Strategist", topLink: ["Religio
 </Ability>
 </>};
 const _deformed = {title: "Deformed", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="deformed" extraClasses="trait" icon={["prayer"]}>
+<Ability id="deformed" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="deformed">Deformed</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/lamashtu">Lamashtu</Link></Pair>
@@ -1273,7 +1273,7 @@ const _deformed = {title: "Deformed", topLink: ["Religion Traits","main/traits_r
 </Ability>
 </>};
 const _demon_hunter = {title: "Demon Hunter", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link>, <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="demon-hunter" extraClasses="trait" icon={["prayer"]}>
+<Ability id="demon-hunter" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="demon-hunter">Demon Hunter</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/asmodeus">Asmodeus</Link></Pair>
@@ -1282,7 +1282,7 @@ const _demon_hunter = {title: "Demon Hunter", topLink: ["Religion Traits","main/
 </Ability>
 </>};
 const _demonic_persuasion = {title: "Demonic Persuasion", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="demonic-persuasion" extraClasses="trait" icon={["prayer"]}>
+<Ability id="demonic-persuasion" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="demonic-persuasion">Demonic Persuasion</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Demon Lords</Pair>
@@ -1291,7 +1291,7 @@ const _demonic_persuasion = {title: "Demonic Persuasion", topLink: ["Religion Tr
 </Ability>
 </>};
 const _demoralizing_presence = {title: "Demoralizing Presence", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="demoralizing-presence" extraClasses="trait" icon={["prayer"]}>
+<Ability id="demoralizing-presence" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="demoralizing-presence">Demoralizing Presence</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zon_kuthon">Zon-Kuthon</Link></Pair>
@@ -1300,7 +1300,7 @@ const _demoralizing_presence = {title: "Demoralizing Presence", topLink: ["Relig
 </Ability>
 </>};
 const _denial_of_fate = {title: "Denial of Fate", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="denial-of-fate" extraClasses="trait" icon={["prayer"]}>
+<Ability id="denial-of-fate" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="denial-of-fate">Denial of Fate</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/urgathoa">Urgathoa</Link></Pair>
@@ -1309,7 +1309,7 @@ const _denial_of_fate = {title: "Denial of Fate", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _destructive_blows = {title: "Destructive Blows", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="destructive-blows" extraClasses="trait" icon={["prayer"]}>
+<Ability id="destructive-blows" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="destructive-blows">Destructive Blows</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/rovagug">Rovagug</Link></Pair>
@@ -1318,7 +1318,7 @@ const _destructive_blows = {title: "Destructive Blows", topLink: ["Religion Trai
 </Ability>
 </>};
 const _devotee_of_a_dead_god = {title: "Devotee of a Dead God", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
-<Ability id="devotee-of-a-dead-god" extraClasses="trait" icon={["prayer"]}>
+<Ability id="devotee-of-a-dead-god" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="devotee-of-a-dead-god">Devotee of a Dead God</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/aroden">Aroden</Link></Pair>
@@ -1327,7 +1327,7 @@ const _devotee_of_a_dead_god = {title: "Devotee of a Dead God", topLink: ["Relig
 </Ability>
 </>};
 const _diseased_heart = {title: "Diseased Heart", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="diseased-heart" extraClasses="trait" icon={["prayer"]}>
+<Ability id="diseased-heart" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="diseased-heart">Diseased Heart</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ghlaunder">Ghlaunder</Link></Pair>
@@ -1336,7 +1336,7 @@ const _diseased_heart = {title: "Diseased Heart", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _divine_warrior = {title: "Divine Warrior", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="divine-warrior" extraClasses="trait" icon={["prayer"]}>
+<Ability id="divine-warrior" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="divine-warrior">Divine Warrior</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/iomedae">Iomedae</Link></Pair>
@@ -1345,7 +1345,7 @@ const _divine_warrior = {title: "Divine Warrior", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _dragon_tracker = {title: "Dragon Tracker", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="dragon-tracker" extraClasses="trait" icon={["prayer"]}>
+<Ability id="dragon-tracker" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="dragon-tracker">Dragon Tracker</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/dahak">Dahak</Link></Pair>
@@ -1354,7 +1354,7 @@ const _dragon_tracker = {title: "Dragon Tracker", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _dragonslayer = {title: "Dragonslayer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="dragonslayer" extraClasses="trait" icon={["prayer"]}>
+<Ability id="dragonslayer" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="dragonslayer">Dragonslayer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/dahak">Dahak</Link></Pair>
@@ -1363,7 +1363,7 @@ const _dragonslayer = {title: "Dragonslayer", topLink: ["Religion Traits","main/
 </Ability>
 </>};
 const _ear_for_music = {title: "Ear for Music", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="ear-for-music" extraClasses="trait" icon={["prayer"]}>
+<Ability id="ear-for-music" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="ear-for-music">Ear for Music</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shelyn">Shelyn</Link></Pair>
@@ -1372,7 +1372,7 @@ const _ear_for_music = {title: "Ear for Music", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _elemental_resilience = {title: "Elemental Resilience", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="elemental-resilience" extraClasses="trait" icon={["prayer"]}>
+<Ability id="elemental-resilience" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="elemental-resilience">Elemental Resilience</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Elemental Lords</Pair>
@@ -1380,7 +1380,7 @@ const _elemental_resilience = {title: "Elemental Resilience", topLink: ["Religio
 </Ability>
 </>};
 const _elven_polytheist = {title: "Elven Polytheist", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_of_purity">Faiths of Purity</Link>, <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="elven-polytheist" extraClasses="trait" icon={["prayer"]}>
+<Ability id="elven-polytheist" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="elven-polytheist">Elven Polytheist</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Elven Deities</Pair>
@@ -1389,7 +1389,7 @@ const _elven_polytheist = {title: "Elven Polytheist", topLink: ["Religion Traits
 <aside><p>This trait was published as "Elven Pantheist" in <em>Faiths and Purity</em>.</p>
 </aside></>};
 const _empty_heart_full_heart = {title: "Empty Heart, Full Heart", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="empty-heart-full-heart" extraClasses="trait" icon={["prayer"]}>
+<Ability id="empty-heart-full-heart" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="empty-heart-full-heart">Empty Heart, Full Heart</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/naderi">Naderi</Link></Pair>
@@ -1397,7 +1397,7 @@ const _empty_heart_full_heart = {title: "Empty Heart, Full Heart", topLink: ["Re
 </Ability>
 </>};
 const _empyreal_focus = {title: "Empyreal Focus", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="empyreal-focus" extraClasses="trait" icon={["prayer"]}>
+<Ability id="empyreal-focus" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="empyreal-focus">Empyreal Focus</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Empyreal Lords</Pair>
@@ -1406,7 +1406,7 @@ const _empyreal_focus = {title: "Empyreal Focus", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _enchanting_conniver = {title: "Enchanting Conniver", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="enchanting-conniver" extraClasses="trait" icon={["prayer"]}>
+<Ability id="enchanting-conniver" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="enchanting-conniver">Enchanting Conniver</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/calistria">Calistria</Link></Pair>
@@ -1414,7 +1414,7 @@ const _enchanting_conniver = {title: "Enchanting Conniver", topLink: ["Religion 
 </Ability>
 </>};
 const _enemy_of_delusion = {title: "Enemy of Delusion", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="enemy-of-delusion" extraClasses="trait" icon={["prayer"]}>
+<Ability id="enemy-of-delusion" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="enemy-of-delusion">Enemy of Delusion</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/andoletta">Andoletta</Link></Pair>
@@ -1423,7 +1423,7 @@ const _enemy_of_delusion = {title: "Enemy of Delusion", topLink: ["Religion Trai
 </Ability>
 </>};
 const _envoy_of_healing = {title: "Envoy of Healing", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="envoy-of-healing" extraClasses="trait" icon={["prayer"]}>
+<Ability id="envoy-of-healing" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="envoy-of-healing">Envoy of Healing</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
@@ -1432,7 +1432,7 @@ const _envoy_of_healing = {title: "Envoy of Healing", topLink: ["Religion Traits
 </Ability>
 </>};
 const _erastils_speaker = {title: "Erastil's Speaker", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="erastils-speaker" extraClasses="trait" icon={["prayer"]}>
+<Ability id="erastils-speaker" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="erastils-speaker">Erastil's Speaker</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/erastil">Erastil</Link></Pair>
@@ -1441,7 +1441,7 @@ const _erastils_speaker = {title: "Erastil's Speaker", topLink: ["Religion Trait
 </Ability>
 </>};
 const _eternal_understanding = {title: "Eternal Understanding", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="eternal-understanding" extraClasses="trait" icon={["prayer"]}>
+<Ability id="eternal-understanding" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="eternal-understanding">Eternal Understanding</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/irori">Irori</Link></Pair>
@@ -1450,7 +1450,7 @@ const _eternal_understanding = {title: "Eternal Understanding", topLink: ["Relig
 </Ability>
 </>};
 const _expert_boarder = {title: "Expert Boarder", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
-<Ability id="expert-boarder" extraClasses="trait" icon={["prayer"]}>
+<Ability id="expert-boarder" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="expert-boarder">Expert Boarder</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/besmara">Besmara</Link></Pair>
@@ -1459,7 +1459,7 @@ const _expert_boarder = {title: "Expert Boarder", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _extended_toil = {title: "Extended Toil", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="extended-toil" extraClasses="trait" icon={["prayer"]}>
+<Ability id="extended-toil" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="extended-toil">Extended Toil</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/droskar">Droskar</Link></Pair>
@@ -1468,7 +1468,7 @@ const _extended_toil = {title: "Extended Toil", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _eye_for_quality = {title: "Eye for Quality", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="eye-for-quality" extraClasses="trait" icon={["prayer"]}>
+<Ability id="eye-for-quality" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="eye-for-quality">Eye for Quality</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/abadar">Abadar</Link></Pair>
@@ -1477,7 +1477,7 @@ const _eye_for_quality = {title: "Eye for Quality", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _eye_of_arqueros = {title: "Eye of Arqueros", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="eye-of-arqueros" extraClasses="trait" icon={["prayer"]}>
+<Ability id="eye-of-arqueros" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="eye-of-arqueros">Eye of Arqueros</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/arqueros">Arqueros</Link></Pair>
@@ -1486,7 +1486,7 @@ const _eye_of_arqueros = {title: "Eye of Arqueros", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _eye_of_the_father = {title: "Eye of the Father", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="eye-of-the-father" extraClasses="trait" icon={["prayer"]}>
+<Ability id="eye-of-the-father" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="eye-of-the-father">Eye of the Father</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/torag">Torag</Link></Pair>
@@ -1495,7 +1495,7 @@ const _eye_of_the_father = {title: "Eye of the Father", topLink: ["Religion Trai
 </Ability>
 </>};
 const _eyes_and_ears_of_the_city = {title: "Eyes and Ears of the City", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="eyes-and-ears-of-the-city" extraClasses="trait" icon={["prayer"]}>
+<Ability id="eyes-and-ears-of-the-city" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="eyes-and-ears-of-the-city">Eyes and Ears of the City</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/abadar">Abadar</Link></Pair>
@@ -1504,7 +1504,7 @@ const _eyes_and_ears_of_the_city = {title: "Eyes and Ears of the City", topLink:
 </Ability>
 </>};
 const _eyes_of_the_wild = {title: "Eyes of the Wild", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="eyes-of-the-wild" extraClasses="trait" icon={["prayer"]}>
+<Ability id="eyes-of-the-wild" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="eyes-of-the-wild">Eyes of the Wild</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/green_faith">Green Faith</Link></Pair>
@@ -1513,7 +1513,7 @@ const _eyes_of_the_wild = {title: "Eyes of the Wild", topLink: ["Religion Traits
 </Ability>
 </>};
 const _faithful_arodenite = {title: "Faithful Arodenite", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
-<Ability id="faithful-arodenite" extraClasses="trait" icon={["prayer"]}>
+<Ability id="faithful-arodenite" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="faithful-arodenite">Faithful Arodenite</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/aroden">Aroden</Link></Pair>
@@ -1522,7 +1522,7 @@ const _faithful_arodenite = {title: "Faithful Arodenite", topLink: ["Religion Tr
 </Ability>
 </>};
 const _faithful_artist = {title: "Faithful Artist", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="faithful-artist" extraClasses="trait" icon={["prayer"]}>
+<Ability id="faithful-artist" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="faithful-artist">Faithful Artist</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/desna">Desna</Link></Pair>
@@ -1531,7 +1531,7 @@ const _faithful_artist = {title: "Faithful Artist", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _fatal_trapper = {title: "Fatal Trapper", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="fatal-trapper" extraClasses="trait" icon={["prayer"]}>
+<Ability id="fatal-trapper" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="fatal-trapper">Fatal Trapper</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zyphus">Zyphus</Link></Pair>
@@ -1540,7 +1540,7 @@ const _fatal_trapper = {title: "Fatal Trapper", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _favored_prey = {title: "Favored Prey", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="favored-prey" extraClasses="trait" icon={["prayer"]}>
+<Ability id="favored-prey" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="favored-prey">Favored Prey</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ketephys">Ketephys</Link></Pair>
@@ -1549,7 +1549,7 @@ const _favored_prey = {title: "Favored Prey", topLink: ["Religion Traits","main/
 </Ability>
 </>};
 const _fiendish_confidence = {title: "Fiendish Confidence", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="fiendish-confidence" extraClasses="trait" icon={["prayer"]}>
+<Ability id="fiendish-confidence" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="fiendish-confidence">Fiendish Confidence</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/asmodeus">Asmodeus</Link></Pair>
@@ -1558,7 +1558,7 @@ const _fiendish_confidence = {title: "Fiendish Confidence", topLink: ["Religion 
 </Ability>
 </>};
 const _flame_of_the_dawnflower = {title: "Flame of the Dawnflower", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="flame-of-the-dawnflower" extraClasses="trait" icon={["prayer"]}>
+<Ability id="flame-of-the-dawnflower" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="flame-of-the-dawnflower">Flame of the Dawnflower</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
@@ -1567,7 +1567,7 @@ const _flame_of_the_dawnflower = {title: "Flame of the Dawnflower", topLink: ["R
 </Ability>
 </>};
 const _flames_of_hell = {title: "Flames of Hell", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="flames-of-hell" extraClasses="trait" icon={["prayer"]}>
+<Ability id="flames-of-hell" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="flames-of-hell">Flames of Hell</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Archdevils</Pair>
@@ -1576,7 +1576,7 @@ const _flames_of_hell = {title: "Flames of Hell", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _flounderer = {title: "Flounderer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
-<Ability id="flounderer" extraClasses="trait" icon={["prayer"]}>
+<Ability id="flounderer" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="flounderer">Flounderer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zogmugot">Zogmugot</Link></Pair>
@@ -1586,7 +1586,7 @@ const _flounderer = {title: "Flounderer", topLink: ["Religion Traits","main/trai
 </Ability>
 </>};
 const _folgrits_bounty = {title: "Folgrit's Bounty", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="folgrits-bounty" extraClasses="trait" icon={["prayer"]}>
+<Ability id="folgrits-bounty" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="folgrits-bounty">Folgrit's Bounty</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/folgrit">Folgrit</Link></Pair>
@@ -1595,7 +1595,7 @@ const _folgrits_bounty = {title: "Folgrit's Bounty", topLink: ["Religion Traits"
 </Ability>
 </>};
 const _folgrits_mercy = {title: "Folgrit's Mercy", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="folgrits-mercy" extraClasses="trait" icon={["prayer"]}>
+<Ability id="folgrits-mercy" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="folgrits-mercy">Folgrit's Mercy</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/folgrit">Folgrit</Link></Pair>
@@ -1604,7 +1604,7 @@ const _folgrits_mercy = {title: "Folgrit's Mercy", topLink: ["Religion Traits","
 </Ability>
 </>};
 const _follower_of_the_stars = {title: "Follower of the Stars", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
-<Ability id="follower-of-the-stars" extraClasses="trait" icon={["prayer"]}>
+<Ability id="follower-of-the-stars" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="follower-of-the-stars">Follower of the Stars</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/desna">Desna</Link></Pair>
@@ -1612,7 +1612,7 @@ const _follower_of_the_stars = {title: "Follower of the Stars", topLink: ["Relig
 </Ability>
 </>};
 const _fortified_drinker = {title: "Fortified Drinker", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="fortified-drinker" extraClasses="trait" icon={["prayer"]}>
+<Ability id="fortified-drinker" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="fortified-drinker">Fortified Drinker</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/cayden_cailean">Cayden Cailean</Link></Pair>
@@ -1621,7 +1621,7 @@ const _fortified_drinker = {title: "Fortified Drinker", topLink: ["Religion Trai
 </Ability>
 </>};
 const _frightening_speed = {title: "Frightening Speed", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="frightening-speed" extraClasses="trait" icon={["prayer"]}>
+<Ability id="frightening-speed" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="frightening-speed">Frightening Speed</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/achaekek">Achaekek</Link></Pair>
@@ -1630,7 +1630,7 @@ const _frightening_speed = {title: "Frightening Speed", topLink: ["Religion Trai
 </Ability>
 </>};
 const _fruits_of_your_labor = {title: "Fruits of Your Labor", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 13</Link></p>
-<Ability id="fruits-of-your-labor" extraClasses="trait" icon={["prayer"]}>
+<Ability id="fruits-of-your-labor" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="fruits-of-your-labor">Fruits of Your Labor</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/jaidi">Jaidi</Link></Pair>
@@ -1641,7 +1641,7 @@ const _fruits_of_your_labor = {title: "Fruits of Your Labor", topLink: ["Religio
 </Ability>
 </>};
 const _furious_vengeance = {title: "Furious Vengeance", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="furious-vengeance" extraClasses="trait" icon={["prayer"]}>
+<Ability id="furious-vengeance" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="furious-vengeance">Furious Vengeance</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/dranngvit">Dranngvit</Link></Pair>
@@ -1650,7 +1650,7 @@ const _furious_vengeance = {title: "Furious Vengeance", topLink: ["Religion Trai
 </Ability>
 </>};
 const _fury = {title: "Fury", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="fury" extraClasses="trait" icon={["prayer"]}>
+<Ability id="fury" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="fury">Fury</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/rovagug">Rovagug</Link></Pair>
@@ -1659,7 +1659,7 @@ const _fury = {title: "Fury", topLink: ["Religion Traits","main/traits_religion"
 </Ability>
 </>};
 const _gemstone_collector = {title: "Gemstone Collector", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="gemstone-collector" extraClasses="trait" icon={["prayer"]}>
+<Ability id="gemstone-collector" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="gemstone-collector">Gemstone Collector</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/yuelral">Yuelral</Link></Pair>
@@ -1668,7 +1668,7 @@ const _gemstone_collector = {title: "Gemstone Collector", topLink: ["Religion Tr
 </Ability>
 </>};
 const _gifted_medium = {title: "Gifted Medium", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="gifted-medium" extraClasses="trait" icon={["prayer"]}>
+<Ability id="gifted-medium" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="gifted-medium">Gifted Medium</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/magrim">Magrim</Link></Pair>
@@ -1677,7 +1677,7 @@ const _gifted_medium = {title: "Gifted Medium", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _good_dreams = {title: "Good Dreams", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="good-dreams" extraClasses="trait" icon={["prayer"]}>
+<Ability id="good-dreams" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="good-dreams">Good Dreams</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/desna">Desna</Link></Pair>
@@ -1689,7 +1689,7 @@ const _good_dreams = {title: "Good Dreams", topLink: ["Religion Traits","main/tr
 </Ability>
 </>};
 const _good_natured = {title: "Good-Natured", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="good-natured" extraClasses="trait" icon={["prayer"]}>
+<Ability id="good-natured" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="good-natured">Good-Natured</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/cayden_cailean">Cayden Cailean</Link></Pair>
@@ -1698,7 +1698,7 @@ const _good_natured = {title: "Good-Natured", topLink: ["Religion Traits","main/
 </Ability>
 </>};
 const _gozrehs_sight = {title: "Gozreh's Sight", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="gozrehs-sight" extraClasses="trait" icon={["prayer"]}>
+<Ability id="gozrehs-sight" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="gozrehs-sight">Gozreh's Sight</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gozreh">Gozreh</Link></Pair>
@@ -1707,7 +1707,7 @@ const _gozrehs_sight = {title: "Gozreh's Sight", topLink: ["Religion Traits","ma
 </Ability>
 </>};
 const _guardian_smite = {title: "Guardian Smite", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="guardian-smite" extraClasses="trait" icon={["prayer"]}>
+<Ability id="guardian-smite" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="guardian-smite">Guardian Smite</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/trudd">Trudd</Link></Pair>
@@ -1716,7 +1716,7 @@ const _guardian_smite = {title: "Guardian Smite", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _guardian_of_the_forge = {title: "Guardian of the Forge", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="guardian-of-the-forge" extraClasses="trait" icon={["prayer"]}>
+<Ability id="guardian-of-the-forge" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="guardian-of-the-forge">Guardian of the Forge</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/torag">Torag</Link></Pair>
@@ -1725,7 +1725,7 @@ const _guardian_of_the_forge = {title: "Guardian of the Forge", topLink: ["Relig
 </Ability>
 </>};
 const _hatred_of_the_gods = {title: "Hatred of the Gods", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="hatred-of-the-gods" extraClasses="trait" icon={["prayer"]}>
+<Ability id="hatred-of-the-gods" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="hatred-of-the-gods">Hatred of the Gods</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/rovagug">Rovagug</Link></Pair>
@@ -1734,7 +1734,7 @@ const _hatred_of_the_gods = {title: "Hatred of the Gods", topLink: ["Religion Tr
 </Ability>
 </>};
 const _holy_schemer = {title: "Holy Schemer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="holy-schemer" extraClasses="trait" icon={["prayer"]}>
+<Ability id="holy-schemer" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="holy-schemer">Holy Schemer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/calistria">Calistria</Link></Pair>
@@ -1743,7 +1743,7 @@ const _holy_schemer = {title: "Holy Schemer", topLink: ["Religion Traits","main/
 </Ability>
 </>};
 const _honey_tongued = {title: "Honey-Tongued", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="honey-tongued" extraClasses="trait" icon={["prayer"]}>
+<Ability id="honey-tongued" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="honey-tongued">Honey-Tongued</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/abadar">Abadar</Link></Pair>
@@ -1751,7 +1751,7 @@ const _honey_tongued = {title: "Honey-Tongued", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _honeyed_words = {title: "Honeyed Words", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="honeyed-words" extraClasses="trait" icon={["prayer"]}>
+<Ability id="honeyed-words" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="honeyed-words">Honeyed Words</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/grundinnar">Grundinnar</Link></Pair>
@@ -1760,7 +1760,7 @@ const _honeyed_words = {title: "Honeyed Words", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _illuminator = {title: "Illuminator", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="illuminator" extraClasses="trait" icon={["prayer"]}>
+<Ability id="illuminator" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="illuminator">Illuminator</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
@@ -1769,7 +1769,7 @@ const _illuminator = {title: "Illuminator", topLink: ["Religion Traits","main/tr
 </Ability>
 </>};
 const _inheritors_immunity = {title: "Inheritor's Immunity", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="inheritors-immunity" extraClasses="trait" icon={["prayer"]}>
+<Ability id="inheritors-immunity" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="inheritors-immunity">Inheritor's Immunity</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/iomedae">Iomedae</Link></Pair>
@@ -1778,7 +1778,7 @@ const _inheritors_immunity = {title: "Inheritor's Immunity", topLink: ["Religion
 </Ability>
 </>};
 const _inner_beauty = {title: "Inner Beauty", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="inner-beauty" extraClasses="trait" icon={["prayer"]}>
+<Ability id="inner-beauty" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="inner-beauty">Inner Beauty</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shelyn">Shelyn</Link></Pair>
@@ -1786,7 +1786,7 @@ const _inner_beauty = {title: "Inner Beauty", topLink: ["Religion Traits","main/
 </Ability>
 </>};
 const _inoculated = {title: "Inoculated", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="inoculated" extraClasses="trait" icon={["prayer"]}>
+<Ability id="inoculated" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="inoculated">Inoculated</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/urgathoa">Urgathoa</Link></Pair>
@@ -1794,7 +1794,7 @@ const _inoculated = {title: "Inoculated", topLink: ["Religion Traits","main/trai
 </Ability>
 </>};
 const _inspiring_leader = {title: "Inspiring Leader", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="inspiring-leader" extraClasses="trait" icon={["prayer"]}>
+<Ability id="inspiring-leader" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="inspiring-leader">Inspiring Leader</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/apsu">Apsu</Link></Pair>
@@ -1803,7 +1803,7 @@ const _inspiring_leader = {title: "Inspiring Leader", topLink: ["Religion Traits
 </Ability>
 </>};
 const _intense_artist = {title: "Intense Artist", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="intense-artist" extraClasses="trait" icon={["prayer"]}>
+<Ability id="intense-artist" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="intense-artist">Intense Artist</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shelyn">Shelyn</Link></Pair>
@@ -1812,7 +1812,7 @@ const _intense_artist = {title: "Intense Artist", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _iron_grip = {title: "Iron Grip", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="iron-grip" extraClasses="trait" icon={["prayer"]}>
+<Ability id="iron-grip" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="iron-grip">Iron Grip</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gorum">Gorum</Link></Pair>
@@ -1821,7 +1821,7 @@ const _iron_grip = {title: "Iron Grip", topLink: ["Religion Traits","main/traits
 </Ability>
 </>};
 const _know_the_land = {title: "Know the Land", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="know-the-land" extraClasses="trait" icon={["prayer"]}>
+<Ability id="know-the-land" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="know-the-land">Know the Land</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/green_faith">Green Faith</Link></Pair>
@@ -1829,7 +1829,7 @@ const _know_the_land = {title: "Know the Land", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _kuthite_caster = {title: "Kuthite Caster", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="kuthite-caster" extraClasses="trait" icon={["prayer"]}>
+<Ability id="kuthite-caster" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="kuthite-caster">Kuthite Caster</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zon_kuthon">Zon-Kuthon</Link></Pair>
@@ -1837,7 +1837,7 @@ const _kuthite_caster = {title: "Kuthite Caster", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _lessons_of_chaldira = {title: "Lessons of Chaldira", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="lessons-of-chaldira" extraClasses="trait" icon={["prayer"]}>
+<Ability id="lessons-of-chaldira" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="lessons-of-chaldira">Lessons of Chaldira</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/chaldira_zuzaristan">Chaldira Zuzaristan</Link></Pair>
@@ -1846,7 +1846,7 @@ const _lessons_of_chaldira = {title: "Lessons of Chaldira", topLink: ["Religion 
 </Ability>
 </>};
 const _liars_tongue = {title: "Liar's Tongue", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="liars-tongue" extraClasses="trait" icon={["prayer"]}>
+<Ability id="liars-tongue" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="liars-tongue">Liar's Tongue</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/asmodeus">Asmodeus</Link></Pair>
@@ -1855,7 +1855,7 @@ const _liars_tongue = {title: "Liar's Tongue", topLink: ["Religion Traits","main
 </Ability>
 </>};
 const _light_sleeper = {title: "Light Sleeper", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="light-sleeper" extraClasses="trait" icon={["prayer"]}>
+<Ability id="light-sleeper" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="light-sleeper">Light Sleeper</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/hanspur">Hanspur</Link></Pair>
@@ -1864,7 +1864,7 @@ const _light_sleeper = {title: "Light Sleeper", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _light_bringer = {title: "Light-Bringer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="light-bringer" extraClasses="trait" icon={["prayer"]}>
+<Ability id="light-bringer" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="light-bringer">Light-Bringer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
@@ -1873,7 +1873,7 @@ const _light_bringer = {title: "Light-Bringer", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _living_bulwark = {title: "Living Bulwark", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="living-bulwark" extraClasses="trait" icon={["prayer"]}>
+<Ability id="living-bulwark" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="living-bulwark">Living Bulwark</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/arqueros">Arqueros</Link></Pair>
@@ -1882,7 +1882,7 @@ const _living_bulwark = {title: "Living Bulwark", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _loreseeker = {title: "Loreseeker", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="loreseeker" extraClasses="trait" icon={["prayer"]}>
+<Ability id="loreseeker" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="loreseeker">Loreseeker</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/lissala">Lissala</Link></Pair>
@@ -1890,7 +1890,7 @@ const _loreseeker = {title: "Loreseeker", topLink: ["Religion Traits","main/trai
 </Ability>
 </>};
 const _lover_of_the_law = {title: "Lover of the Law", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="lover-of-the-law" extraClasses="trait" icon={["prayer"]}>
+<Ability id="lover-of-the-law" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="lover-of-the-law">Lover of the Law</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/abadar">Abadar</Link></Pair>
@@ -1899,7 +1899,7 @@ const _lover_of_the_law = {title: "Lover of the Law", topLink: ["Religion Traits
 </Ability>
 </>};
 const _loyal_bond = {title: "Loyal Bond", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="loyal-bond" extraClasses="trait" icon={["prayer"]}>
+<Ability id="loyal-bond" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="loyal-bond">Loyal Bond</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/grundinnar">Grundinnar</Link></Pair>
@@ -1908,7 +1908,7 @@ const _loyal_bond = {title: "Loyal Bond", topLink: ["Religion Traits","main/trai
 </Ability>
 </>};
 const _magic_is_life = {title: "Magic Is Life", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="magic-is-life" extraClasses="trait" icon={["prayer"]}>
+<Ability id="magic-is-life" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="magic-is-life">Magic Is Life</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/nethys">Nethys</Link></Pair>
@@ -1917,7 +1917,7 @@ const _magic_is_life = {title: "Magic Is Life", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _magics_might = {title: "Magic's Might", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="magics-might" extraClasses="trait" icon={["prayer"]}>
+<Ability id="magics-might" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="magics-might">Magic's Might</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/yuelral">Yuelral</Link></Pair>
@@ -1926,7 +1926,7 @@ const _magics_might = {title: "Magic's Might", topLink: ["Religion Traits","main
 </Ability>
 </>};
 const _mighty_protector = {title: "Mighty Protector", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="mighty-protector" extraClasses="trait" icon={["prayer"]}>
+<Ability id="mighty-protector" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="mighty-protector">Mighty Protector</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/trudd">Trudd</Link></Pair>
@@ -1935,7 +1935,7 @@ const _mighty_protector = {title: "Mighty Protector", topLink: ["Religion Traits
 </Ability>
 </>};
 const _mischievous_smile = {title: "Mischievous Smile", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="mischievous-smile" extraClasses="trait" icon={["prayer"]}>
+<Ability id="mischievous-smile" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="mischievous-smile">Mischievous Smile</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/chaldira">Chaldira</Link></Pair>
@@ -1944,7 +1944,7 @@ const _mischievous_smile = {title: "Mischievous Smile", topLink: ["Religion Trai
 </Ability>
 </>};
 const _mothers_rage = {title: "Mother's Rage", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="mothers-rage" extraClasses="trait" icon={["prayer"]}>
+<Ability id="mothers-rage" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="mothers-rage">Mother's Rage</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/lamashtu">Lamashtu</Link></Pair>
@@ -1953,7 +1953,7 @@ const _mothers_rage = {title: "Mother's Rage", topLink: ["Religion Traits","main
 </Ability>
 </>};
 const _mothers_teeth = {title: "Mother's Teeth", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
-<Ability id="mothers-teeth" extraClasses="trait" icon={["prayer"]}>
+<Ability id="mothers-teeth" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="mothers-teeth">Mother's Teeth</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/lamashtu">Lamashtu</Link></Pair>
@@ -1963,7 +1963,7 @@ const _mothers_teeth = {title: "Mother's Teeth", topLink: ["Religion Traits","ma
 </Ability>
 </>};
 const _natural_magic = {title: "Natural Magic", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="natural-magic" extraClasses="trait" icon={["prayer"]}>
+<Ability id="natural-magic" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="natural-magic">Natural Magic</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/yuelral">Yuelral</Link></Pair>
@@ -1972,7 +1972,7 @@ const _natural_magic = {title: "Natural Magic", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _natural_philosopher = {title: "Natural Philosopher", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="natural-philosopher" extraClasses="trait" icon={["prayer"]}>
+<Ability id="natural-philosopher" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="natural-philosopher">Natural Philosopher</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gozreh">Gozreh</Link></Pair>
@@ -1981,7 +1981,7 @@ const _natural_philosopher = {title: "Natural Philosopher", topLink: ["Religion 
 </Ability>
 </>};
 const _nimble_fingers_keen_mind = {title: "Nimble Fingers, Keen Mind", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="nimble-fingers-keen-mind" extraClasses="trait" icon={["prayer"]}>
+<Ability id="nimble-fingers-keen-mind" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="nimble-fingers-keen-mind">Nimble Fingers, Keen Mind</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/brigh">Brigh</Link></Pair>
@@ -1989,7 +1989,7 @@ const _nimble_fingers_keen_mind = {title: "Nimble Fingers, Keen Mind", topLink: 
 </Ability>
 </>};
 const _oathkeepers_vow = {title: "Oathkeeper's Vow", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="oathkeepers-vow" extraClasses="trait" icon={["prayer"]}>
+<Ability id="oathkeepers-vow" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="oathkeepers-vow">Oathkeeper's Vow</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/kols">Kols</Link></Pair>
@@ -1998,7 +1998,7 @@ const _oathkeepers_vow = {title: "Oathkeeper's Vow", topLink: ["Religion Traits"
 </Ability>
 </>};
 const _opener_of_doors = {title: "Opener of Doors", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="opener-of-doors" extraClasses="trait" icon={["prayer"]}>
+<Ability id="opener-of-doors" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="opener-of-doors">Opener of Doors</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/alseta">Alseta</Link></Pair>
@@ -2007,7 +2007,7 @@ const _opener_of_doors = {title: "Opener of Doors", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _opportune_slayer = {title: "Opportune Slayer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="opportune-slayer" extraClasses="trait" icon={["prayer"]}>
+<Ability id="opportune-slayer" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="opportune-slayer">Opportune Slayer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/lamashtu">Lamashtu</Link></Pair>
@@ -2016,7 +2016,7 @@ const _opportune_slayer = {title: "Opportune Slayer", topLink: ["Religion Traits
 </Ability>
 </>};
 const _opportunistic = {title: "Opportunistic", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="opportunistic" extraClasses="trait" icon={["prayer"]}>
+<Ability id="opportunistic" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="opportunistic">Opportunistic</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/calistria">Calistria</Link></Pair>
@@ -2025,7 +2025,7 @@ const _opportunistic = {title: "Opportunistic", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _pain_is_pleasure = {title: "Pain Is Pleasure", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="pain-is-pleasure" extraClasses="trait" icon={["prayer"]}>
+<Ability id="pain-is-pleasure" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="pain-is-pleasure">Pain Is Pleasure</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zon_kuthon">Zon-Kuthon</Link></Pair>
@@ -2034,7 +2034,7 @@ const _pain_is_pleasure = {title: "Pain Is Pleasure", topLink: ["Religion Traits
 </Ability>
 </>};
 const _patient_optimist = {title: "Patient Optimist", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="patient-optimist" extraClasses="trait" icon={["prayer"]}>
+<Ability id="patient-optimist" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="patient-optimist">Patient Optimist</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/erastil">Erastil</Link></Pair>
@@ -2043,7 +2043,7 @@ const _patient_optimist = {title: "Patient Optimist", topLink: ["Religion Traits
 </Ability>
 </>};
 const _planar_wayfarer = {title: "Planar Wayfarer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 13</Link></p>
-<Ability id="planar-wayfarer" extraClasses="trait" icon={["prayer"]}>
+<Ability id="planar-wayfarer" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="planar-wayfarer">Planar Wayfarer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/onos">Onos</Link></Pair>
@@ -2052,7 +2052,7 @@ const _planar_wayfarer = {title: "Planar Wayfarer", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _poisonous_slayer = {title: "Poisonous Slayer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="poisonous-slayer" extraClasses="trait" icon={["prayer"]}>
+<Ability id="poisonous-slayer" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="poisonous-slayer">Poisonous Slayer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/norgorber">Norgorber</Link></Pair>
@@ -2061,7 +2061,7 @@ const _poisonous_slayer = {title: "Poisonous Slayer", topLink: ["Religion Traits
 </Ability>
 </>};
 const _potent_concoctions = {title: "Potent Concoctions", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="potent-concoctions" extraClasses="trait" icon={["prayer"]}>
+<Ability id="potent-concoctions" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="potent-concoctions">Potent Concoctions</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ghlaunder">Ghlaunder</Link></Pair>
@@ -2070,7 +2070,7 @@ const _potent_concoctions = {title: "Potent Concoctions", topLink: ["Religion Tr
 </Ability>
 </>};
 const _practiced_deception = {title: "Practiced Deception", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="practiced-deception" extraClasses="trait" icon={["prayer"]}>
+<Ability id="practiced-deception" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="practiced-deception">Practiced Deception</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/norgorber">Norgorber</Link></Pair>
@@ -2078,7 +2078,7 @@ const _practiced_deception = {title: "Practiced Deception", topLink: ["Religion 
 </Ability>
 </>};
 const _pristine_reputation = {title: "Pristine Reputation", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="pristine-reputation" extraClasses="trait" icon={["prayer"]}>
+<Ability id="pristine-reputation" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="pristine-reputation">Pristine Reputation</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shizuru">Shizuru</Link></Pair>
@@ -2087,7 +2087,7 @@ const _pristine_reputation = {title: "Pristine Reputation", topLink: ["Religion 
 </Ability>
 </>};
 const _propitiation = {title: "Propitiation", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="propitiation" extraClasses="trait" icon={["prayer"]}>
+<Ability id="propitiation" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="propitiation">Propitiation</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Dwarven Deities</Pair>
@@ -2096,7 +2096,7 @@ const _propitiation = {title: "Propitiation", topLink: ["Religion Traits","main/
 </Ability>
 </>};
 const _protective_faith = {title: "Protective Faith", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="protective-faith" extraClasses="trait" icon={["prayer"]}>
+<Ability id="protective-faith" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="protective-faith">Protective Faith</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/torag">Torag</Link></Pair>
@@ -2105,7 +2105,7 @@ const _protective_faith = {title: "Protective Faith", topLink: ["Religion Traits
 </Ability>
 </>};
 const _provider = {title: "Provider", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="provider" extraClasses="trait" icon={["prayer"]}>
+<Ability id="provider" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="provider">Provider</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/erastil">Erastil</Link></Pair>
@@ -2115,7 +2115,7 @@ const _provider = {title: "Provider", topLink: ["Religion Traits","main/traits_r
 </Ability>
 </>};
 const _purity_of_faith = {title: "Purity of Faith", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="purity-of-faith" extraClasses="trait" icon={["prayer"]}>
+<Ability id="purity-of-faith" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="purity-of-faith">Purity of Faith</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/iomedae">Iomedae</Link></Pair>
@@ -2124,7 +2124,7 @@ const _purity_of_faith = {title: "Purity of Faith", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _reckless_luck = {title: "Reckless Luck", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="reckless-luck" extraClasses="trait" icon={["prayer"]}>
+<Ability id="reckless-luck" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="reckless-luck">Reckless Luck</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/chaldira_zuzaristan">Chaldira Zuzaristan</Link></Pair>
@@ -2133,7 +2133,7 @@ const _reckless_luck = {title: "Reckless Luck", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _redeemed_by_ragathiel = {title: "Redeemed by Ragathiel", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="redeemed-by-ragathiel" extraClasses="trait" icon={["prayer"]}>
+<Ability id="redeemed-by-ragathiel" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="redeemed-by-ragathiel">Redeemed by Ragathiel</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ragathiel">Ragathiel</Link></Pair>
@@ -2142,7 +2142,7 @@ const _redeemed_by_ragathiel = {title: "Redeemed by Ragathiel", topLink: ["Relig
 </Ability>
 </>};
 const _regal_presence = {title: "Regal Presence", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="regal-presence" extraClasses="trait" icon={["prayer"]}>
+<Ability id="regal-presence" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="regal-presence">Regal Presence</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/iomedae">Iomedae</Link></Pair>
@@ -2151,7 +2151,7 @@ const _regal_presence = {title: "Regal Presence", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _rejected_emperor = {title: "Rejected Emperor", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 23</Link></p>
-<Ability id="rejected-emperor" extraClasses="trait" icon={["prayer"]}>
+<Ability id="rejected-emperor" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="rejected-emperor">Rejected Emperor</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>The Eternal Emperor</Pair>
@@ -2160,7 +2160,7 @@ const _rejected_emperor = {title: "Rejected Emperor", topLink: ["Religion Traits
 </Ability>
 </>};
 const _relentless_duty = {title: "Relentless Duty", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="relentless-duty" extraClasses="trait" icon={["prayer"]}>
+<Ability id="relentless-duty" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="relentless-duty">Relentless Duty</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/kols">Kols</Link></Pair>
@@ -2169,7 +2169,7 @@ const _relentless_duty = {title: "Relentless Duty", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _resigned = {title: "Resigned", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="resigned" extraClasses="trait" icon={["prayer"]}>
+<Ability id="resigned" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="resigned">Resigned</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/droskar">Droskar</Link></Pair>
@@ -2178,7 +2178,7 @@ const _resigned = {title: "Resigned", topLink: ["Religion Traits","main/traits_r
 </Ability>
 </>};
 const _resilient_martyr = {title: "Resilient Martyr", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="resilient-martyr" extraClasses="trait" icon={["prayer"]}>
+<Ability id="resilient-martyr" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="resilient-martyr">Resilient Martyr</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/vildeis">Vildeis</Link></Pair>
@@ -2187,7 +2187,7 @@ const _resilient_martyr = {title: "Resilient Martyr", topLink: ["Religion Traits
 </Ability>
 </>};
 const _restless_hunger = {title: "Restless Hunger", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
-<Ability id="restless-hunger" extraClasses="trait" icon={["prayer"]}>
+<Ability id="restless-hunger" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="restless-hunger">Restless Hunger</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/venkelvore">Venkelvore</Link></Pair>
@@ -2196,7 +2196,7 @@ const _restless_hunger = {title: "Restless Hunger", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _river_freedom = {title: "River Freedom", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="river-freedom" extraClasses="trait" icon={["prayer"]}>
+<Ability id="river-freedom" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="river-freedom">River Freedom</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/hanspur">Hanspur</Link></Pair>
@@ -2205,7 +2205,7 @@ const _river_freedom = {title: "River Freedom", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _rousing_courage = {title: "Rousing Courage", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="rousing-courage" extraClasses="trait" icon={["prayer"]}>
+<Ability id="rousing-courage" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="rousing-courage">Rousing Courage</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/angradd">Angradd</Link></Pair>
@@ -2214,7 +2214,7 @@ const _rousing_courage = {title: "Rousing Courage", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _sacred_avenger = {title: "Sacred Avenger", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/elves_of_golarion">Elves of Golarion</Link></p>
-<Ability id="sacred-avenger" extraClasses="trait" icon={["prayer"]}>
+<Ability id="sacred-avenger" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="sacred-avenger">Sacred Avenger</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/calistria">Calistria</Link></Pair>
@@ -2224,7 +2224,7 @@ const _sacred_avenger = {title: "Sacred Avenger", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _sacred_orienteer = {title: "Sacred Orienteer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 13</Link></p>
-<Ability id="sacred-orienteer" extraClasses="trait" icon={["prayer"]}>
+<Ability id="sacred-orienteer" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="sacred-orienteer">Sacred Orienteer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/elion">Elion</Link></Pair>
@@ -2235,7 +2235,7 @@ const _sacred_orienteer = {title: "Sacred Orienteer", topLink: ["Religion Traits
 </Ability>
 </>};
 const _sacred_smasher = {title: "Sacred Smasher", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="sacred-smasher" extraClasses="trait" icon={["prayer"]}>
+<Ability id="sacred-smasher" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="sacred-smasher">Sacred Smasher</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/rovagug">Rovagug</Link></Pair>
@@ -2244,7 +2244,7 @@ const _sacred_smasher = {title: "Sacred Smasher", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _scaly_ally = {title: "Scaly Ally", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="scaly-ally" extraClasses="trait" icon={["prayer"]}>
+<Ability id="scaly-ally" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="scaly-ally">Scaly Ally</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/apsu">Apsu</Link></Pair>
@@ -2252,7 +2252,7 @@ const _scaly_ally = {title: "Scaly Ally", topLink: ["Religion Traits","main/trai
 </Ability>
 </>};
 const _scarred_by_war = {title: "Scarred by War", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="scarred-by-war" extraClasses="trait" icon={["prayer"]}>
+<Ability id="scarred-by-war" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="scarred-by-war">Scarred by War</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/dalenydra">Dalenydra</Link></Pair>
@@ -2261,7 +2261,7 @@ const _scarred_by_war = {title: "Scarred by War", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _searing_beacon = {title: "Searing Beacon", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="searing-beacon" extraClasses="trait" icon={["prayer"]}>
+<Ability id="searing-beacon" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="searing-beacon">Searing Beacon</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/iomedae">Iomedae</Link></Pair>
@@ -2270,7 +2270,7 @@ const _searing_beacon = {title: "Searing Beacon", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _secret_knowledge = {title: "Secret Knowledge", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="secret-knowledge" extraClasses="trait" icon={["prayer"]}>
+<Ability id="secret-knowledge" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="secret-knowledge">Secret Knowledge</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/norgorber">Norgorber</Link></Pair>
@@ -2278,7 +2278,7 @@ const _secret_knowledge = {title: "Secret Knowledge", topLink: ["Religion Traits
 </Ability>
 </>};
 const _seer_of_reality = {title: "Seer of Reality", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="seer-of-reality" extraClasses="trait" icon={["prayer"]}>
+<Ability id="seer-of-reality" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="seer-of-reality">Seer of Reality</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/irori">Irori</Link></Pair>
@@ -2287,7 +2287,7 @@ const _seer_of_reality = {title: "Seer of Reality", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _self_sacrifice = {title: "Self-Sacrifice", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="self-sacrifice" extraClasses="trait" icon={["prayer"]}>
+<Ability id="self-sacrifice" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="self-sacrifice">Self-Sacrifice</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shelyn">Shelyn</Link></Pair>
@@ -2297,7 +2297,7 @@ const _self_sacrifice = {title: "Self-Sacrifice", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _sense_of_order = {title: "Sense of Order", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="sense-of-order" extraClasses="trait" icon={["prayer"]}>
+<Ability id="sense-of-order" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="sense-of-order">Sense of Order</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/abadar">Abadar</Link></Pair>
@@ -2307,7 +2307,7 @@ const _sense_of_order = {title: "Sense of Order", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _sensing_imperfection = {title: "Sensing Imperfection", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="sensing-imperfection" extraClasses="trait" icon={["prayer"]}>
+<Ability id="sensing-imperfection" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="sensing-imperfection">Sensing Imperfection</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/irori">Irori</Link></Pair>
@@ -2317,7 +2317,7 @@ const _sensing_imperfection = {title: "Sensing Imperfection", topLink: ["Religio
 </Ability>
 </>};
 const _serpentine_squeeze = {title: "Serpentine Squeeze", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="serpentine-squeeze" extraClasses="trait" icon={["prayer"]}>
+<Ability id="serpentine-squeeze" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="serpentine-squeeze">Serpentine Squeeze</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ydersius">Ydersius</Link></Pair>
@@ -2325,7 +2325,7 @@ const _serpentine_squeeze = {title: "Serpentine Squeeze", topLink: ["Religion Tr
 </Ability>
 </>};
 const _shadow_whispers = {title: "Shadow Whispers", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="shadow-whispers" extraClasses="trait" icon={["prayer"]}>
+<Ability id="shadow-whispers" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="shadow-whispers">Shadow Whispers</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/norgorber">Norgorber</Link></Pair>
@@ -2334,7 +2334,7 @@ const _shadow_whispers = {title: "Shadow Whispers", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _shaper_of_reality = {title: "Shaper of Reality", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="shaper-of-reality" extraClasses="trait" icon={["prayer"]}>
+<Ability id="shaper-of-reality" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="shaper-of-reality">Shaper of Reality</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/rule/eldest">Eldest</Link></Pair>
@@ -2343,7 +2343,7 @@ const _shaper_of_reality = {title: "Shaper of Reality", topLink: ["Religion Trai
 </Ability>
 </>};
 const _shared_ancestors = {title: "Shared Ancestors", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 13</Link></p>
-<Ability id="shared-ancestors" extraClasses="trait" icon={["prayer"]}>
+<Ability id="shared-ancestors" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="shared-ancestors">Shared Ancestors</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/myr">Myr</Link></Pair>
@@ -2352,7 +2352,7 @@ const _shared_ancestors = {title: "Shared Ancestors", topLink: ["Religion Traits
 </Ability>
 </>};
 const _shield_trained = {title: "Shield-Trained", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="shield-trained" extraClasses="trait" icon={["prayer"]}>
+<Ability id="shield-trained" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="shield-trained">Shield-Trained</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gorum">Gorum</Link></Pair>
@@ -2361,7 +2361,7 @@ const _shield_trained = {title: "Shield-Trained", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _sovyrian_pantheist = {title: "Sovyrian Pantheist", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/elves_of_golarion">Elves of Golarion</Link></p>
-<Ability id="sovyrian-pantheist" extraClasses="trait" icon={["prayer"]}>
+<Ability id="sovyrian-pantheist" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="sovyrian-pantheist">Sovyrian Pantheist</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Elven Deities</Pair>
@@ -2371,7 +2371,7 @@ const _sovyrian_pantheist = {title: "Sovyrian Pantheist", topLink: ["Religion Tr
 </Ability>
 </>};
 const _spirit_guide = {title: "Spirit Guide", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="spirit-guide" extraClasses="trait" icon={["prayer"]}>
+<Ability id="spirit-guide" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="spirit-guide">Spirit Guide</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/pharasma">Pharasma</Link></Pair>
@@ -2380,7 +2380,7 @@ const _spirit_guide = {title: "Spirit Guide", topLink: ["Religion Traits","main/
 </Ability>
 </>};
 const _spirit_talker = {title: "Spirit Talker", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
-<Ability id="spirit-talker" extraClasses="trait" icon={["prayer"]}>
+<Ability id="spirit-talker" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="spirit-talker">Spirit Talker</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Mwangi shamanistic faith</Pair>
@@ -2389,7 +2389,7 @@ const _spirit_talker = {title: "Spirit Talker", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _split_second_defense = {title: "Split-Second Defense", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="split-second-defense" extraClasses="trait" icon={["prayer"]}>
+<Ability id="split-second-defense" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="split-second-defense">Split-Second Defense</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/milani">Milani</Link></Pair>
@@ -2397,7 +2397,7 @@ const _split_second_defense = {title: "Split-Second Defense", topLink: ["Religio
 </Ability>
 </>};
 const _stabilizing_touch = {title: "Stabilizing Touch", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="stabilizing-touch" extraClasses="trait" icon={["prayer"]}>
+<Ability id="stabilizing-touch" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="stabilizing-touch">Stabilizing Touch</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/pharasma">Pharasma</Link></Pair>
@@ -2406,7 +2406,7 @@ const _stabilizing_touch = {title: "Stabilizing Touch", topLink: ["Religion Trai
 </Ability>
 </>};
 const _starchild = {title: "Starchild", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/elves_of_golarion">Elves of Golarion</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="starchild" extraClasses="trait" icon={["prayer"]}>
+<Ability id="starchild" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="starchild">Starchild</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/desna">Desna</Link></Pair>
@@ -2415,7 +2415,7 @@ const _starchild = {title: "Starchild", topLink: ["Religion Traits","main/traits
 </Ability>
 </>};
 const _starlit_hexer = {title: "Starlit Hexer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="starlit-hexer" extraClasses="trait" icon={["prayer"]}>
+<Ability id="starlit-hexer" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="starlit-hexer">Starlit Hexer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Outer Gods</Pair>
@@ -2424,7 +2424,7 @@ const _starlit_hexer = {title: "Starlit Hexer", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _steady_strength = {title: "Steady Strength", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="steady-strength" extraClasses="trait" icon={["prayer"]}>
+<Ability id="steady-strength" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="steady-strength">Steady Strength</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/trudd">Trudd</Link></Pair>
@@ -2433,7 +2433,7 @@ const _steady_strength = {title: "Steady Strength", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _stoic_optimism = {title: "Stoic Optimism", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="stoic-optimism" extraClasses="trait" icon={["prayer"]}>
+<Ability id="stoic-optimism" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="stoic-optimism">Stoic Optimism</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/desna">Desna</Link></Pair>
@@ -2442,7 +2442,7 @@ const _stoic_optimism = {title: "Stoic Optimism", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _strength_of_the_barghest = {title: "Strength of the Barghest", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
-<Ability id="strength-of-the-barghest" extraClasses="trait" icon={["prayer"]}>
+<Ability id="strength-of-the-barghest" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="strength-of-the-barghest">Strength of the Barghest</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/hadregash">Hadregash</Link></Pair>
@@ -2452,7 +2452,7 @@ const _strength_of_the_barghest = {title: "Strength of the Barghest", topLink: [
 </Ability>
 </>};
 const _strength_of_the_sun = {title: "Strength of the Sun", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="strength-of-the-sun" extraClasses="trait" icon={["prayer"]}>
+<Ability id="strength-of-the-sun" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="strength-of-the-sun">Strength of the Sun</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
@@ -2461,7 +2461,7 @@ const _strength_of_the_sun = {title: "Strength of the Sun", topLink: ["Religion 
 </Ability>
 </>};
 const _strengths_fanfare = {title: "Strength's Fanfare", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="strengths-fanfare" extraClasses="trait" icon={["prayer"]}>
+<Ability id="strengths-fanfare" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="strengths-fanfare">Strength's Fanfare</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/kurgess">Kurgess</Link></Pair>
@@ -2470,7 +2470,7 @@ const _strengths_fanfare = {title: "Strength's Fanfare", topLink: ["Religion Tra
 </Ability>
 </>};
 const _strict_judgment = {title: "Strict Judgment", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="strict-judgment" extraClasses="trait" icon={["prayer"]}>
+<Ability id="strict-judgment" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="strict-judgment">Strict Judgment</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/kols">Kols</Link></Pair>
@@ -2479,7 +2479,7 @@ const _strict_judgment = {title: "Strict Judgment", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _strip_the_veils = {title: "Strip the Veils", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="strip-the-veils" extraClasses="trait" icon={["prayer"]}>
+<Ability id="strip-the-veils" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="strip-the-veils">Strip the Veils</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sivanah">Sivanah</Link></Pair>
@@ -2488,7 +2488,7 @@ const _strip_the_veils = {title: "Strip the Veils", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _strong_heart = {title: "Strong Heart", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="strong-heart" extraClasses="trait" icon={["prayer"]}>
+<Ability id="strong-heart" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="strong-heart">Strong Heart</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gorum">Gorum</Link></Pair>
@@ -2497,7 +2497,7 @@ const _strong_heart = {title: "Strong Heart", topLink: ["Religion Traits","main/
 </Ability>
 </>};
 const _strong_swimmer = {title: "Strong Swimmer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="strong-swimmer" extraClasses="trait" icon={["prayer"]}>
+<Ability id="strong-swimmer" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="strong-swimmer">Strong Swimmer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gozreh">Gozreh</Link></Pair>
@@ -2506,7 +2506,7 @@ const _strong_swimmer = {title: "Strong Swimmer", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _strong_willed = {title: "Strong-Willed", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_of_purity">Faiths of Purity</Link>, <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="strong-willed" extraClasses="trait" icon={["prayer"]}>
+<Ability id="strong-willed" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="strong-willed">Strong-Willed</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/cayden_cailean">Cayden Cailean</Link></Pair>
@@ -2515,7 +2515,7 @@ const _strong_willed = {title: "Strong-Willed", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _structural_knowledge = {title: "Structural Knowledge", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="structural-knowledge" extraClasses="trait" icon={["prayer"]}>
+<Ability id="structural-knowledge" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="structural-knowledge">Structural Knowledge</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/findeladlara">Findeladlara</Link></Pair>
@@ -2524,7 +2524,7 @@ const _structural_knowledge = {title: "Structural Knowledge", topLink: ["Religio
 </Ability>
 </>};
 const _talented_organizer = {title: "Talented Organizer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="talented-organizer" extraClasses="trait" icon={["prayer"]}>
+<Ability id="talented-organizer" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="talented-organizer">Talented Organizer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/milani">Milani</Link></Pair>
@@ -2533,7 +2533,7 @@ const _talented_organizer = {title: "Talented Organizer", topLink: ["Religion Tr
 </Ability>
 </>};
 const _the_city_protects = {title: "The City Protects", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="the-city-protects" extraClasses="trait" icon={["prayer"]}>
+<Ability id="the-city-protects" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="the-city-protects">The City Protects</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/abadar">Abadar</Link></Pair>
@@ -2544,7 +2544,7 @@ const _the_city_protects = {title: "The City Protects", topLink: ["Religion Trai
 </Ability>
 </>};
 const _the_flexing_arm = {title: "The Flexing Arm", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="the-flexing-arm" extraClasses="trait" icon={["prayer"]}>
+<Ability id="the-flexing-arm" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="the-flexing-arm">The Flexing Arm</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/kurgess">Kurgess</Link></Pair>
@@ -2553,7 +2553,7 @@ const _the_flexing_arm = {title: "The Flexing Arm", topLink: ["Religion Traits",
 </Ability>
 </>};
 const _thirst_for_knowledge = {title: "Thirst for Knowledge", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="thirst-for-knowledge" extraClasses="trait" icon={["prayer"]}>
+<Ability id="thirst-for-knowledge" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="thirst-for-knowledge">Thirst for Knowledge</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/nethys">Nethys</Link></Pair>
@@ -2562,7 +2562,7 @@ const _thirst_for_knowledge = {title: "Thirst for Knowledge", topLink: ["Religio
 </Ability>
 </>};
 const _thrill_seeker_isg = {title: "Thrill-Seeker (ISG)", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="thrill-seeker-isg" extraClasses="trait" icon={["prayer"]}>
+<Ability id="thrill-seeker-isg" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="thrill-seeker-isg">Thrill-Seeker (ISG)</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/desna">Desna</Link></Pair>
@@ -2571,7 +2571,7 @@ const _thrill_seeker_isg = {title: "Thrill-Seeker (ISG)", topLink: ["Religion Tr
 </Ability>
 </>};
 const _toilcrafter = {title: "Toilcrafter", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="toilcrafter" extraClasses="trait" icon={["prayer"]}>
+<Ability id="toilcrafter" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="toilcrafter">Toilcrafter</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/droskar">Droskar</Link></Pair>
@@ -2580,7 +2580,7 @@ const _toilcrafter = {title: "Toilcrafter", topLink: ["Religion Traits","main/tr
 </Ability>
 </>};
 const _twisted_transformations = {title: "Twisted Transformations", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="twisted-transformations" extraClasses="trait" icon={["prayer"]}>
+<Ability id="twisted-transformations" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="twisted-transformations">Twisted Transformations</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Great Old Ones</Pair>
@@ -2589,7 +2589,7 @@ const _twisted_transformations = {title: "Twisted Transformations", topLink: ["R
 </Ability>
 </>};
 const _undead_slayer_pharasma = {title: "Undead Slayer (Pharasma)", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="undead-slayer-pharasma" extraClasses="trait" icon={["prayer"]}>
+<Ability id="undead-slayer-pharasma" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="undead-slayer-pharasma">Undead Slayer (Pharasma)</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/pharasma">Pharasma</Link></Pair>
@@ -2598,7 +2598,7 @@ const _undead_slayer_pharasma = {title: "Undead Slayer (Pharasma)", topLink: ["R
 </Ability>
 </>};
 const _under_siege = {title: "Under Siege", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
-<Ability id="under-siege" extraClasses="trait" icon={["prayer"]}>
+<Ability id="under-siege" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="under-siege">Under Siege</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
@@ -2607,7 +2607,7 @@ const _under_siege = {title: "Under Siege", topLink: ["Religion Traits","main/tr
 </Ability>
 </>};
 const _underlying_principles = {title: "Underlying Principles", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
-<Ability id="underlying-principles" extraClasses="trait" icon={["prayer"]}>
+<Ability id="underlying-principles" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="underlying-principles">Underlying Principles</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/nethys">Nethys</Link></Pair>
@@ -2616,7 +2616,7 @@ const _underlying_principles = {title: "Underlying Principles", topLink: ["Relig
 </Ability>
 </>};
 const _unhinged_mentality = {title: "Unhinged Mentality", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="unhinged-mentality" extraClasses="trait" icon={["prayer"]}>
+<Ability id="unhinged-mentality" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="unhinged-mentality">Unhinged Mentality</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/lamashtu">Lamashtu</Link></Pair>
@@ -2624,7 +2624,7 @@ const _unhinged_mentality = {title: "Unhinged Mentality", topLink: ["Religion Tr
 </Ability>
 </>};
 const _unspeakable_bond = {title: "Unspeakable Bond", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="unspeakable-bond" extraClasses="trait" icon={["prayer"]}>
+<Ability id="unspeakable-bond" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="unspeakable-bond">Unspeakable Bond</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Great Old Ones or Outer Gods</Pair>
@@ -2632,7 +2632,7 @@ const _unspeakable_bond = {title: "Unspeakable Bond", topLink: ["Religion Traits
 </Ability>
 </>};
 const _unswaying_love = {title: "Unswaying Love", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="unswaying-love" extraClasses="trait" icon={["prayer"]}>
+<Ability id="unswaying-love" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="unswaying-love">Unswaying Love</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shelyn">Shelyn</Link></Pair>
@@ -2641,7 +2641,7 @@ const _unswaying_love = {title: "Unswaying Love", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _veils_upon_veils = {title: "Veils upon Veils", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="veils-upon-veils" extraClasses="trait" icon={["prayer"]}>
+<Ability id="veils-upon-veils" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="veils-upon-veils">Veils upon Veils</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sivanah">Sivanah</Link></Pair>
@@ -2650,7 +2650,7 @@ const _veils_upon_veils = {title: "Veils upon Veils", topLink: ["Religion Traits
 </Ability>
 </>};
 const _venom_drenched = {title: "Venom-Drenched", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="venom-drenched" extraClasses="trait" icon={["prayer"]}>
+<Ability id="venom-drenched" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="venom-drenched">Venom-Drenched</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/norgorber">Norgorber</Link></Pair>
@@ -2660,7 +2660,7 @@ const _venom_drenched = {title: "Venom-Drenched", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _veteran_of_battle = {title: "Veteran of Battle", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="veteran-of-battle" extraClasses="trait" icon={["prayer"]}>
+<Ability id="veteran-of-battle" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="veteran-of-battle">Veteran of Battle</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gorum">Gorum</Link></Pair>
@@ -2669,7 +2669,7 @@ const _veteran_of_battle = {title: "Veteran of Battle", topLink: ["Religion Trai
 </Ability>
 </>};
 const _vindictive_strike = {title: "Vindictive Strike", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
-<Ability id="vindictive-strike" extraClasses="trait" icon={["prayer"]}>
+<Ability id="vindictive-strike" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="vindictive-strike">Vindictive Strike</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gyronna">Gyronna</Link></Pair>
@@ -2677,7 +2677,7 @@ const _vindictive_strike = {title: "Vindictive Strike", topLink: ["Religion Trai
 </Ability>
 </>};
 const _voice_of_monsters = {title: "Voice of Monsters", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="voice-of-monsters" extraClasses="trait" icon={["prayer"]}>
+<Ability id="voice-of-monsters" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="voice-of-monsters">Voice of Monsters</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/lamashtu">Lamashtu</Link></Pair>
@@ -2686,7 +2686,7 @@ const _voice_of_monsters = {title: "Voice of Monsters", topLink: ["Religion Trai
 </Ability>
 </>};
 const _wasp_whisperer = {title: "Wasp Whisperer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/elves_of_golarion">Elves of Golarion</Link></p>
-<Ability id="wasp-whisperer" extraClasses="trait" icon={["prayer"]}>
+<Ability id="wasp-whisperer" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="wasp-whisperer">Wasp Whisperer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/calistria">Calistria</Link></Pair>
@@ -2696,7 +2696,7 @@ const _wasp_whisperer = {title: "Wasp Whisperer", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _wedded_bliss = {title: "Wedded Bliss", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="wedded-bliss" extraClasses="trait" icon={["prayer"]}>
+<Ability id="wedded-bliss" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="wedded-bliss">Wedded Bliss</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/bolka">Bolka</Link></Pair>
@@ -2704,7 +2704,7 @@ const _wedded_bliss = {title: "Wedded Bliss", topLink: ["Religion Traits","main/
 </Ability>
 </>};
 const _well_prepared = {title: "Well-Prepared", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="well-prepared" extraClasses="trait" icon={["prayer"]}>
+<Ability id="well-prepared" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="well-prepared">Well-Prepared</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/angradd">Angradd</Link></Pair>
@@ -2713,7 +2713,7 @@ const _well_prepared = {title: "Well-Prepared", topLink: ["Religion Traits","mai
 </Ability>
 </>};
 const _wisdom_in_the_flesh = {title: "Wisdom in the Flesh", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="wisdom-in-the-flesh" extraClasses="trait" icon={["prayer"]}>
+<Ability id="wisdom-in-the-flesh" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="wisdom-in-the-flesh">Wisdom in the Flesh</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/irori">Irori</Link></Pair>
@@ -2722,7 +2722,7 @@ const _wisdom_in_the_flesh = {title: "Wisdom in the Flesh", topLink: ["Religion 
 </Ability>
 </>};
 const _wise_teacher = {title: "Wise Teacher", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
-<Ability id="wise-teacher" extraClasses="trait" icon={["prayer"]}>
+<Ability id="wise-teacher" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="wise-teacher">Wise Teacher</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/erastil">Erastil</Link></Pair>
@@ -2731,7 +2731,7 @@ const _wise_teacher = {title: "Wise Teacher", topLink: ["Religion Traits","main/
 </Ability>
 </>};
 const _wolf_cub = {title: "Wolf Cub", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
-<Ability id="wolf-cub" extraClasses="trait" icon={["prayer"]}>
+<Ability id="wolf-cub" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="wolf-cub">Wolf Cub</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zarongel">Zarongel</Link></Pair>
@@ -2741,7 +2741,7 @@ const _wolf_cub = {title: "Wolf Cub", topLink: ["Religion Traits","main/traits_r
 </Ability>
 </>};
 const _worthless_pawn = {title: "Worthless Pawn", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="worthless-pawn" extraClasses="trait" icon={["prayer"]}>
+<Ability id="worthless-pawn" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="worthless-pawn">Worthless Pawn</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Great Old Ones</Pair>
@@ -2750,7 +2750,7 @@ const _worthless_pawn = {title: "Worthless Pawn", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _wrecking_wrath = {title: "Wrecking Wrath", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="wrecking-wrath" extraClasses="trait" icon={["prayer"]}>
+<Ability id="wrecking-wrath" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="wrecking-wrath">Wrecking Wrath</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/rovagug">Rovagug</Link></Pair>
@@ -2759,7 +2759,7 @@ const _wrecking_wrath = {title: "Wrecking Wrath", topLink: ["Religion Traits","m
 </Ability>
 </>};
 const _wronged = {title: "Wronged", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
-<Ability id="wronged" extraClasses="trait" icon={["prayer"]}>
+<Ability id="wronged" extraClasses="trait" icon={["Religion"]}>
 <Pair single id="wronged">Wronged</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gyronna">Gyronna</Link></Pair>
@@ -2768,7 +2768,7 @@ const _wronged = {title: "Wronged", topLink: ["Religion Traits","main/traits_rel
 </Ability>
 </>};
 const _anxious = {title: "Anxious", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="anxious" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="anxious" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="anxious">Anxious</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="anxious-flavor">After suffering terribly for not being tightlipped enough as a child, such as when you accidentally exposed your family to enemy inquisitors, you developed a habit of being overly cautious with your words.</Pair>
@@ -2776,7 +2776,7 @@ const _anxious = {title: "Anxious", topLink: ["Drawback Traits","main/traits_dra
 </Ability>
 </>};
 const _arcane_malignancies = {title: "Arcane Malignancies", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="arcane-malignancies" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="arcane-malignancies" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="arcane-malignancies">Arcane Malignancies</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair title="Requirements" hl><Link to="/race/changeling">Changeling</Link></Pair>
@@ -2942,7 +2942,7 @@ const _arcane_malignancies = {title: "Arcane Malignancies", topLink: ["Drawback 
 </Ability>
 </>};
 const _attached = {title: "Attached", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="attached" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="attached" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="attached">Attached</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="attached-flavor">You have a strong emotional attachment to a person or object that you're terrified of losing.</Pair>
@@ -2950,7 +2950,7 @@ const _attached = {title: "Attached", topLink: ["Drawback Traits","main/traits_d
 </Ability>
 </>};
 const _avarice = {title: "Avarice", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="avarice" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="avarice" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="avarice">Avarice</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="avarice-flavor">Deep, compulsive greed gnaws at you. Whenever monetary treasure is divided, you must end up with a greater share of that treasure than your companions or you're wracked with feelings of jealousy and ill will.</Pair>
@@ -2958,7 +2958,7 @@ const _avarice = {title: "Avarice", topLink: ["Drawback Traits","main/traits_dra
 </Ability>
 </>};
 const _betrayed_drawback = {title: "Betrayed (Drawback)", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="betrayed-drawback" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="betrayed-drawback" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="betrayed-drawback">Betrayed (Drawback)</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="betrayed-drawback-flavor">You were reported to a dangerous authority such as the Gray Gardeners of Galt, the high inquisitors of Cheliax, or the Council of Mwanyisa of Mzali, and narrowly escaped death. You second-guess your instincts constantly, leaving you never sure whether or not to trust someone and endangered if you encounter that group's agents again.</Pair>
@@ -2966,7 +2966,7 @@ const _betrayed_drawback = {title: "Betrayed (Drawback)", topLink: ["Drawback Tr
 </Ability>
 </>};
 const _bitter = {title: "Bitter", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="bitter" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="bitter" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="bitter">Bitter</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="bitter-flavor">You have been hurt repeatedly by those you trusted, and it has become difficult for you to accept help.</Pair>
@@ -2974,7 +2974,7 @@ const _bitter = {title: "Bitter", topLink: ["Drawback Traits","main/traits_drawb
 </Ability>
 </>};
 const _burned = {title: "Burned", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="burned" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="burned" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="burned">Burned</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="burned-flavor">You were badly burned once by volcanic ash, torch-wielding mobs, or some fiery accident, and the scars pain you terribly you whenever you are too near to fire.</Pair>
@@ -2982,7 +2982,7 @@ const _burned = {title: "Burned", topLink: ["Drawback Traits","main/traits_drawb
 </Ability>
 </>};
 const _condescending = {title: "Condescending", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="condescending" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="condescending" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="condescending">Condescending</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="condescending-flavor">Raised with the assurance that only those like you are truly worthy of respect, you have an offputting way of demonstrating that you look down on those not of your race and ethnicity or nationality.</Pair>
@@ -2990,7 +2990,7 @@ const _condescending = {title: "Condescending", topLink: ["Drawback Traits","mai
 </Ability>
 </>};
 const _cowardly = {title: "Cowardly", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="cowardly" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="cowardly" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="cowardly">Cowardly</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="cowardly-flavor">You might face dangerous situations with bravado, but you are constantly afraid.</Pair>
@@ -3000,7 +3000,7 @@ const _cowardly = {title: "Cowardly", topLink: ["Drawback Traits","main/traits_d
 </Ability>
 </>};
 const _cruelty = {title: "Cruelty", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="cruelty" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="cruelty" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="cruelty">Cruelty</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="cruelty-flavor">You were rewarded as a child for flaunting your victory over others as completely as possible, and you discovered you enjoyed the feeling of rubbing your foes' faces in the dirt.</Pair>
@@ -3008,7 +3008,7 @@ const _cruelty = {title: "Cruelty", topLink: ["Drawback Traits","main/traits_dra
 </Ability>
 </>};
 const _dependent = {title: "Dependent", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="dependent" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="dependent" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="dependent">Dependent</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="dependent-flavor">You are dependent upon the acceptance of others.</Pair>
@@ -3016,7 +3016,7 @@ const _dependent = {title: "Dependent", topLink: ["Drawback Traits","main/traits
 </Ability>
 </>};
 const _doubt = {title: "Doubt", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="doubt" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="doubt" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="doubt">Doubt</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="doubt-flavor">You lack confidence in your abilities or confidence in the universe at large.</Pair>
@@ -3024,7 +3024,7 @@ const _doubt = {title: "Doubt", topLink: ["Drawback Traits","main/traits_drawbac
 </Ability>
 </>};
 const _empty_mask = {title: "Empty Mask", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="empty-mask" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="empty-mask" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="empty-mask">Empty Mask</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="empty-mask-flavor">You have spent so long hiding your true identity to escape political enemies that you have lost much of your sense of self.</Pair>
@@ -3032,7 +3032,7 @@ const _empty_mask = {title: "Empty Mask", topLink: ["Drawback Traits","main/trai
 </Ability>
 </>};
 const _entomophobe = {title: "Entomophobe", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="entomophobe" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="entomophobe" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="entomophobe">Entomophobe</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="entomophobe-flavor">A harrowing experience with insects when you were young instilled in you a deep-seated fear of vermin of all description, especially when they swarm together.</Pair>
@@ -3040,7 +3040,7 @@ const _entomophobe = {title: "Entomophobe", topLink: ["Drawback Traits","main/tr
 </Ability>
 </>};
 const _envy = {title: "Envy", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="envy" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="envy" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="envy">Envy</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="envy-flavor">You grew up in or near an opulent, decadent culture that valued nothing more than showing up the material wealth or accomplishments of others, causing the seed of envy to be planted in your heart.</Pair>
@@ -3048,7 +3048,7 @@ const _envy = {title: "Envy", topLink: ["Drawback Traits","main/traits_drawback"
 </Ability>
 </>};
 const _family_ties_drawback = {title: "Family Ties (Drawback)", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="family-ties-drawback" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="family-ties-drawback" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="family-ties-drawback">Family Ties (Drawback)</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="family-ties-drawback-flavor">Your family is extremely important to you, and you feel disheartened when you can't do what they ask.</Pair>
@@ -3058,7 +3058,7 @@ const _family_ties_drawback = {title: "Family Ties (Drawback)", topLink: ["Drawb
 </Ability>
 </>};
 const _fey_taken = {title: "Fey-Taken", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="fey-taken" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="fey-taken" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="fey-taken">Fey-Taken</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="fey-taken-flavor">As a child, you were whisked away to the First World by mischievous fey for a time. When you returned, you were ever after considered odd and distant. You long to return there, and find the mortal world dull and at times revolting, so you do not eat as you should and do not question strange visions.</Pair>
@@ -3066,7 +3066,7 @@ const _fey_taken = {title: "Fey-Taken", topLink: ["Drawback Traits","main/traits
 </Ability>
 </>};
 const _forgetful = {title: "Forgetful", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="forgetful" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="forgetful" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="forgetful">Forgetful</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="forgetful-flavor">You are easily distracted and prone to forgetting important things.</Pair>
@@ -3074,14 +3074,14 @@ const _forgetful = {title: "Forgetful", topLink: ["Drawback Traits","main/traits
 </Ability>
 </>};
 const _foul_brand = {title: "Foul Brand", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
-<Ability id="foul-brand" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="foul-brand" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="foul-brand">Foul Brand</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="benefit" id="foul-brand-benefit">You have the symbol of an evil deity burned into your flesh. If the symbol is on your hand, you take a -1 penalty on <Link to="/skill/disable_device">Disable Device</Link>, <Link to="/skill/disguise">Disguise</Link>, and <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks. If the symbol is on your face, you take a -2 penalty on <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, and Disguise checks. This does not count as a holy symbol for the purposes of a divine focus for spellcasting.</Pair>
 </Ability>
 </>};
 const _guilty_fraud = {title: "Guilty Fraud", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="guilty-fraud" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="guilty-fraud" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="guilty-fraud">Guilty Fraud</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="guilty-fraud-flavor">You received something through trickery that you did not deserve, and your guilt for the misdeed distracts you from dangers around you.</Pair>
@@ -3089,7 +3089,7 @@ const _guilty_fraud = {title: "Guilty Fraud", topLink: ["Drawback Traits","main/
 </Ability>
 </>};
 const _haunted = {title: "Haunted", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="haunted" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="haunted" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="haunted">Haunted</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="haunted-flavor">Something from your past - or a dark secret you presently hold - makes it difficult for you to ever be at peace, and your chronic worry that you might fall to evil influence has become a self-fulfilling prophecy.</Pair>
@@ -3097,7 +3097,7 @@ const _haunted = {title: "Haunted", topLink: ["Drawback Traits","main/traits_dra
 </Ability>
 </>};
 const _haunting_regret = {title: "Haunting Regret", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="haunting-regret" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="haunting-regret" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="haunting-regret">Haunting Regret</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="haunting-regret-flavor">When you were young, a relative with whom you had frequently quarreled passed away where his or her soul could not rest. Now, the unquiet spirit appears around you at inconvenient times, distracting you with regret for being unable to help.</Pair>
@@ -3105,7 +3105,7 @@ const _haunting_regret = {title: "Haunting Regret", topLink: ["Drawback Traits",
 </Ability>
 </>};
 const _headstrong = {title: "Headstrong", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="headstrong" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="headstrong" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="headstrong">Headstrong</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="headstrong-flavor">You feel compelled to correct every action and argument that contradicts your worldview.</Pair>
@@ -3113,7 +3113,7 @@ const _headstrong = {title: "Headstrong", topLink: ["Drawback Traits","main/trai
 </Ability>
 </>};
 const _hedonistic = {title: "Hedonistic", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="hedonistic" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="hedonistic" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="hedonistic">Hedonistic</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="hedonistic-flavor">You are a creature of pleasure and comfort.</Pair>
@@ -3121,7 +3121,7 @@ const _hedonistic = {title: "Hedonistic", topLink: ["Drawback Traits","main/trai
 </Ability>
 </>};
 const _helpless = {title: "Helpless", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="helpless" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="helpless" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="helpless">Helpless</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="helpless-flavor">You once stood helpless as great harm befell a loved one, and that paralysis sometimes returns when an ally is in a dire position.</Pair>
@@ -3129,7 +3129,7 @@ const _helpless = {title: "Helpless", topLink: ["Drawback Traits","main/traits_d
 </Ability>
 </>};
 const _impatient = {title: "Impatient", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="impatient" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="impatient" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="impatient">Impatient</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="impatient-flavor">You love leaping into battle at the earliest opportunity, and it frustrates you to wait for others to act.</Pair>
@@ -3137,7 +3137,7 @@ const _impatient = {title: "Impatient", topLink: ["Drawback Traits","main/traits
 </Ability>
 </>};
 const _infamous = {title: "Infamous", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="infamous" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="infamous" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="infamous">Infamous</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="infamous-flavor">You were publicly linked, truthfully or not, to a crime of significant infamy. You draw attention wherever you go and risk imprisonment or worse in the jurisdiction where the crime was committed.</Pair>
@@ -3145,7 +3145,7 @@ const _infamous = {title: "Infamous", topLink: ["Drawback Traits","main/traits_d
 </Ability>
 </>};
 const _information_overload = {title: "Information Overload", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="information-overload" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="information-overload" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="information-overload">Information Overload</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="information-overload-flavor">You have had access to thousands of spy reports, many of which turned out to be based on faulty deductions or even intentionally false stories spread by opposed spy groups. At this point, you have been exposed to false knowledge as much as accurate information, and you can't always remember which is which.</Pair>
@@ -3153,7 +3153,7 @@ const _information_overload = {title: "Information Overload", topLink: ["Drawbac
 </Ability>
 </>};
 const _insatiable = {title: "Insatiable", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="insatiable" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="insatiable" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="insatiable">Insatiable</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="insatiable-flavor">You have become so accustomed to binging on the finer things in life that you find going without such excess particularly strenuous.</Pair>
@@ -3161,7 +3161,7 @@ const _insatiable = {title: "Insatiable", topLink: ["Drawback Traits","main/trai
 </Ability>
 </>};
 const _lonely = {title: "Lonely", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="lonely" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="lonely" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="lonely">Lonely</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="lonely-flavor">You are far too easily convinced of the friendly intentions of others.</Pair>
@@ -3169,7 +3169,7 @@ const _lonely = {title: "Lonely", topLink: ["Drawback Traits","main/traits_drawb
 </Ability>
 </>};
 const _loner = {title: "Loner", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="loner" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="loner" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="loner">Loner</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="loner-flavor">Raised by pirates, bandits, or other troublemakers unwilling to stick out their necks for you, you are accustomed to operating on your own. The presence of allies can easily become a distraction to you, and you do your best to keep them out of your space.</Pair>
@@ -3177,7 +3177,7 @@ const _loner = {title: "Loner", topLink: ["Drawback Traits","main/traits_drawbac
 </Ability>
 </>};
 const _lovesick = {title: "Lovesick", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="lovesick" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="lovesick" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="lovesick">Lovesick</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="lovesick-flavor">Your love for another occupies your every thought, and you become despondent when you are away from that person.</Pair>
@@ -3185,7 +3185,7 @@ const _lovesick = {title: "Lovesick", topLink: ["Drawback Traits","main/traits_d
 </Ability>
 </>};
 const _magical_klutz = {title: "Magical Klutz", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="magical-klutz" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="magical-klutz" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="magical-klutz">Magical Klutz</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="magical-klutz-flavor">You were born in a place with a plethora of strangely interacting magic, such as Geb, the Mana Wastes, or Nex, and magic is dangerously eager to surge into action around you.</Pair>
@@ -3193,7 +3193,7 @@ const _magical_klutz = {title: "Magical Klutz", topLink: ["Drawback Traits","mai
 </Ability>
 </>};
 const _mark_of_slavery = {title: "Mark of Slavery", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="mark-of-slavery" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="mark-of-slavery" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="mark-of-slavery">Mark of Slavery</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="mark-of-slavery-flavor">You were enslaved for part or all of your youth, and marked as such with a brand or tattoo that still reminds you of how you were punished whenever you failed to do what you should.</Pair>
@@ -3201,7 +3201,7 @@ const _mark_of_slavery = {title: "Mark of Slavery", topLink: ["Drawback Traits",
 </Ability>
 </>};
 const _meticulous = {title: "Meticulous", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="meticulous" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="meticulous" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="meticulous">Meticulous</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="meticulous-flavor">You plan and prepare everything in detail, and aren't good at improvising when things don't go as planned.</Pair>
@@ -3209,7 +3209,7 @@ const _meticulous = {title: "Meticulous", topLink: ["Drawback Traits","main/trai
 </Ability>
 </>};
 const _misbegotten = {title: "Misbegotten", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="misbegotten" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="misbegotten" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="misbegotten">Misbegotten</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="misbegotten-flavor">Whether due to the influence of malign magic, disease, or the scorn of the gods, you were born with a troublesome deformity that interferes with your movement.</Pair>
@@ -3217,7 +3217,7 @@ const _misbegotten = {title: "Misbegotten", topLink: ["Drawback Traits","main/tr
 </Ability>
 </>};
 const _naive = {title: "Naive", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="naive" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="naive" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="naive">Naive</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="naive-flavor">Your perception that everyone is innately good does not bode well in the heat of battle, when less scrupulous foes might take advantage of your misguided optimism.</Pair>
@@ -3225,7 +3225,7 @@ const _naive = {title: "Naive", topLink: ["Drawback Traits","main/traits_drawbac
 </Ability>
 </>};
 const _nervous = {title: "Nervous", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="nervous" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="nervous" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="nervous">Nervous</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="nervous-flavor">Living under constant threat of death or worse from your oppressive government, your nerves have frayed terribly.</Pair>
@@ -3233,7 +3233,7 @@ const _nervous = {title: "Nervous", topLink: ["Drawback Traits","main/traits_dra
 </Ability>
 </>};
 const _oblivious = {title: "Oblivious", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="oblivious" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="oblivious" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="oblivious">Oblivious</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="oblivious-flavor">Whether because you are an avid daydreamer or you are accustomed to everything being handed to you and spelled out for your benefit, you pay little attention to your surroundings and other people.</Pair>
@@ -3241,7 +3241,7 @@ const _oblivious = {title: "Oblivious", topLink: ["Drawback Traits","main/traits
 </Ability>
 </>};
 const _occult_bargain = {title: "Occult Bargain", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="occult-bargain" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="occult-bargain" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="occult-bargain">Occult Bargain</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair title="Requirements" hl>Able to cast 0-level and 1st-level spells as a class feature</Pair>
@@ -3249,7 +3249,7 @@ const _occult_bargain = {title: "Occult Bargain", topLink: ["Drawback Traits","m
 </Ability>
 </>};
 const _oppressive_expectations = {title: "Oppressive Expectations", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="oppressive-expectations" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="oppressive-expectations" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="oppressive-expectations">Oppressive Expectations</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="oppressive-expectations-flavor">You were raised with the belief that your family was special, and that those of your status always succeed at whatever they do. Due to your concern about upholding the family name and your memories of the consequences for disappointing them (such as violence or unsettling disapproval), you are easily frustrated.</Pair>
@@ -3257,7 +3257,7 @@ const _oppressive_expectations = {title: "Oppressive Expectations", topLink: ["D
 </Ability>
 </>};
 const _overprotective = {title: "Overprotective", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="overprotective" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="overprotective" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="overprotective">Overprotective</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="overprotective-flavor">In your youth, you saw a younger friend or loved one suffer a grievous injury or die, and you blamed yourself for not having been there to help, even if there was nothing you could have done.</Pair>
@@ -3265,7 +3265,7 @@ const _overprotective = {title: "Overprotective", topLink: ["Drawback Traits","m
 </Ability>
 </>};
 const _paranoid = {title: "Paranoid", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="paranoid" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="paranoid" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="paranoid">Paranoid</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="paranoid-flavor">You believe that someone or something is always out to get you, so you have a hard time truly trusting anyone.</Pair>
@@ -3273,7 +3273,7 @@ const _paranoid = {title: "Paranoid", topLink: ["Drawback Traits","main/traits_d
 </Ability>
 </>};
 const _power_hungry = {title: "Power-Hungry", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="power-hungry" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="power-hungry" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="power-hungry">Power-Hungry</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="power-hungry-flavor">You're addicted to power.</Pair>
@@ -3281,7 +3281,7 @@ const _power_hungry = {title: "Power-Hungry", topLink: ["Drawback Traits","main/
 </Ability>
 </>};
 const _pride = {title: "Pride", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="pride" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="pride" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="pride">Pride</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="pride-flavor">You can't abide challenges to your dignity, authority, or honor.</Pair>
@@ -3289,7 +3289,7 @@ const _pride = {title: "Pride", topLink: ["Drawback Traits","main/traits_drawbac
 </Ability>
 </>};
 const _provincial = {title: "Provincial", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="provincial" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="provincial" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="provincial">Provincial</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="provincial-flavor">You have only one way of looking at things: the right way.</Pair>
@@ -3297,7 +3297,7 @@ const _provincial = {title: "Provincial", topLink: ["Drawback Traits","main/trai
 </Ability>
 </>};
 const _righteous_indignation = {title: "Righteous Indignation", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="righteous-indignation" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="righteous-indignation" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="righteous-indignation">Righteous Indignation</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="righteous-indignation-flavor">You have difficulty controlling your temper after living in inhuman conditions in Cheliax, Geb, Irrisen, Katapesh, or Qadira.</Pair>
@@ -3305,7 +3305,7 @@ const _righteous_indignation = {title: "Righteous Indignation", topLink: ["Drawb
 </Ability>
 </>};
 const _scarred = {title: "Scarred", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="scarred" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="scarred" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="scarred">Scarred</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="scarred-flavor">An injury left you horribly, visibly scarred, making it more difficult for you to hide your true face, and also making most people distrustful of you merely due to your appearance.</Pair>
@@ -3313,7 +3313,7 @@ const _scarred = {title: "Scarred", topLink: ["Drawback Traits","main/traits_dra
 </Ability>
 </>};
 const _secret_shame = {title: "Secret Shame", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="secret-shame" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="secret-shame" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="secret-shame">Secret Shame</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="secret-shame-flavor">You have a terrible fear of the public at large, a group, or an important person (such as your order of knights, your liege lord, your family, or your lover) learning a shameful truth about you.</Pair>
@@ -3321,7 +3321,7 @@ const _secret_shame = {title: "Secret Shame", topLink: ["Drawback Traits","main/
 </Ability>
 </>};
 const _self_doubting = {title: "Self-Doubting", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="self-doubting" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="self-doubting" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="self-doubting">Self-Doubting</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="self-doubting-flavor">Your ever-present fear of failure causes a downward spiral.</Pair>
@@ -3329,7 +3329,7 @@ const _self_doubting = {title: "Self-Doubting", topLink: ["Drawback Traits","mai
 </Ability>
 </>};
 const _sentimental = {title: "Sentimental", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="sentimental" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="sentimental" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="sentimental">Sentimental</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="sentimental-flavor">You are sentimental, and your thoughts often stray to the past at inappropriate times.</Pair>
@@ -3337,7 +3337,7 @@ const _sentimental = {title: "Sentimental", topLink: ["Drawback Traits","main/tr
 </Ability>
 </>};
 const _shadow_scarred = {title: "Shadow-Scarred", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="shadow-scarred" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="shadow-scarred" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="shadow-scarred">Shadow-Scarred</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="shadow-scarred-flavor">You were touched by terrible horrors that live in the darkness just outside the human sphere, such as shadow-beasts or aberrations linked to the Dark Tapestry, and feel your life-force ebb away ever so slightly whenever you return to the shadows.</Pair>
@@ -3345,7 +3345,7 @@ const _shadow_scarred = {title: "Shadow-Scarred", topLink: ["Drawback Traits","m
 </Ability>
 </>};
 const _sheltered = {title: "Sheltered", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="sheltered" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="sheltered" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="sheltered">Sheltered</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="sheltered-flavor">Brought up in courtly environments and knowing little of violence, you have trouble getting accustomed to it.</Pair>
@@ -3353,14 +3353,14 @@ const _sheltered = {title: "Sheltered", topLink: ["Drawback Traits","main/traits
 </Ability>
 </>};
 const _sleepy = {title: "Sleepy", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="sleepy" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="sleepy" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="sleepy">Sleepy</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="benefit" id="sleepy-benefit">You must sleep or rest for at least 12 hours each night to get the benefits of a full night's rest. You take a -2 penalty on saving throws against sleep effects.</Pair>
 </Ability>
 </>};
 const _spooked = {title: "Spooked", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="spooked" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="spooked" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="spooked">Spooked</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="spooked-flavor">You had a traumatic experience with a spirit at a young age that colors your reactions to such creatures even to this day.</Pair>
@@ -3368,7 +3368,7 @@ const _spooked = {title: "Spooked", topLink: ["Drawback Traits","main/traits_dra
 </Ability>
 </>};
 const _stigmatized = {title: "Stigmatized", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="stigmatized" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="stigmatized" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="stigmatized">Stigmatized</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="stigmatized-flavor">You were kept at the periphery of society for a long period of time, so that even when you are among strangers in a new place, you feel the weight of your missing socialization.</Pair>
@@ -3376,7 +3376,7 @@ const _stigmatized = {title: "Stigmatized", topLink: ["Drawback Traits","main/tr
 </Ability>
 </>};
 const _superstitious_drawback = {title: "Superstitious (Drawback)", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="superstitious-drawback" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="superstitious-drawback" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="superstitious-drawback">Superstitious (Drawback)</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="superstitious-drawback-flavor">Raised around those who regarded most magic as innately dangerous, no matter the source, you cannot bring yourself to submit to magic willingly even for your own good.</Pair>
@@ -3384,7 +3384,7 @@ const _superstitious_drawback = {title: "Superstitious (Drawback)", topLink: ["D
 </Ability>
 </>};
 const _tainted_spirit = {title: "Tainted Spirit", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="tainted-spirit" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="tainted-spirit" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="tainted-spirit">Tainted Spirit</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="tainted-spirit-flavor">When you were a child, a parent or other person with authority over you made a minor pact with a fiend on your behalf, stealing some of your vitality in exchange for a minor boon.</Pair>
@@ -3392,7 +3392,7 @@ const _tainted_spirit = {title: "Tainted Spirit", topLink: ["Drawback Traits","m
 </Ability>
 </>};
 const _too_many_secrets = {title: "Too Many Secrets", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="too-many-secrets" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="too-many-secrets" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="too-many-secrets">Too Many Secrets</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="too-many-secrets-flavor">You've told too many lies, and made up too many cover stories, and now even you can't keep it all straight. The lies have become reality to you, which makes it difficult to think of a new convincing lie. You hesitate at crucial moments when trying to fool those around you, and likely shouldn't be in the field at all anymore.</Pair>
@@ -3400,14 +3400,14 @@ const _too_many_secrets = {title: "Too Many Secrets", topLink: ["Drawback Traits
 </Ability>
 </>};
 const _umbral_unmasking = {title: "Umbral Unmasking", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
-<Ability id="umbral-unmasking" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="umbral-unmasking" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="umbral-unmasking">Umbral Unmasking</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="benefit" id="umbral-unmasking-benefit">You cast no shadow whatsoever, or the shadow you do have is monstrous. Under normal lighted conditions, this is not hard to observe - but uncommon to notice. Creatures that succeed at a DC 15 Wisdom check notice it plainly (an additional <Link to="/skill/perception">Perception</Link> check may be required based on environmental conditions). This telltale sign of wickedness cannot be concealed by <Link to="/spell/misdirection">misdirection</Link>, <Link to="/spell/nondetection">nondetection</Link>, or illusions, except those that also affect shadows (such as <Link to="/spell/invisibility">invisibility</Link>).</Pair>
 </Ability>
 </>};
 const _unlearned = {title: "Unlearned", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="unlearned" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="unlearned" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="unlearned">Unlearned</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="unlearned-flavor">You have always had difficulty learning and retaining information, and know very little about the world beyond the obvious and what pertains to your profession.</Pair>
@@ -3415,7 +3415,7 @@ const _unlearned = {title: "Unlearned", topLink: ["Drawback Traits","main/traits
 </Ability>
 </>};
 const _vain = {title: "Vain", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="vain" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="vain" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="vain">Vain</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="vain-flavor">You are sensitive about the way others perceive you.</Pair>
@@ -3423,7 +3423,7 @@ const _vain = {title: "Vain", topLink: ["Drawback Traits","main/traits_drawback"
 </Ability>
 </>};
 const _vainglory = {title: "Vainglory", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="vainglory" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="vainglory" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="vainglory">Vainglory</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="vainglory-flavor">You compulsively seek recognition for your deeds, making it hard to act with subtlety.</Pair>
@@ -3431,14 +3431,14 @@ const _vainglory = {title: "Vainglory", topLink: ["Drawback Traits","main/traits
 </Ability>
 </>};
 const _warded_against_nature = {title: "Warded Against Nature", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
-<Ability id="warded-against-nature" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="warded-against-nature" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="warded-against-nature">Warded Against Nature</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="benefit" id="warded-against-nature-benefit">Animals do not willingly approach within 30 feet of you, unless you or the animal's master succeeds at a DC 20 <Link to="/skill/handle_animal">Handle Animal</Link>, <Link to="/skill/ride">Ride</Link>, or <Link to="/ability/wild_empathy">wild empathy</Link> check. Animal companions, familiars, and mounts granted by your class abilities are immune to this effect.</Pair>
 </Ability>
 </>};
 const _xenophobic = {title: "Xenophobic", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="xenophobic" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="xenophobic" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="xenophobic">Xenophobic</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="xenophobic-flavor">You have a hard time understanding and trusting those with unfamiliar ways and appearances.</Pair>
@@ -3446,7 +3446,7 @@ const _xenophobic = {title: "Xenophobic", topLink: ["Drawback Traits","main/trai
 </Ability>
 </>};
 const _zealous_drawback = {title: "Zealous (Drawback)", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="zealous-drawback" extraClasses="trait" icon={["broken-shield"]}>
+<Ability id="zealous-drawback" extraClasses="trait" icon={["Drawback"]}>
 <Pair single id="zealous-drawback">Zealous (Drawback)</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="zealous-drawback-flavor">You are fanatical in your beliefs, ruled by emotion over reason.</Pair>
@@ -3454,7 +3454,7 @@ const _zealous_drawback = {title: "Zealous (Drawback)", topLink: ["Drawback Trai
 </Ability>
 </>};
 const _the_thrush = {title: "The Thrush", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
-<Ability id="the-thrush" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="the-thrush" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="the-thrush">The Thrush</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 18 Kuthona and 20 Abadius</Pair>
@@ -3463,7 +3463,7 @@ const _the_thrush = {title: "The Thrush", topLink: ["Cosmic Traits","main/traits
 </Ability>
 </>};
 const _the_lantern_bearer = {title: "The Lantern Bearer", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
-<Ability id="the-lantern-bearer" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="the-lantern-bearer" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="the-lantern-bearer">The Lantern Bearer</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 21 Abadius and 16 Calistril</Pair>
@@ -3472,7 +3472,7 @@ const _the_lantern_bearer = {title: "The Lantern Bearer", topLink: ["Cosmic Trai
 </Ability>
 </>};
 const _the_newlyweds = {title: "The Newlyweds", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
-<Ability id="the-newlyweds" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="the-newlyweds" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="the-newlyweds">The Newlyweds</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 17 Calistril and 11 Pharast</Pair>
@@ -3481,7 +3481,7 @@ const _the_newlyweds = {title: "The Newlyweds", topLink: ["Cosmic Traits","main/
 </Ability>
 </>};
 const _the_bridge = {title: "The Bridge", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
-<Ability id="the-bridge" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="the-bridge" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="the-bridge">The Bridge</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 12 Pharast and 18 Gozran</Pair>
@@ -3490,7 +3490,7 @@ const _the_bridge = {title: "The Bridge", topLink: ["Cosmic Traits","main/traits
 </Ability>
 </>};
 const _the_daughter = {title: "The Daughter", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
-<Ability id="the-daughter" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="the-daughter" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="the-daughter">The Daughter</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 19 Gozran and 13 Desnus</Pair>
@@ -3499,7 +3499,7 @@ const _the_daughter = {title: "The Daughter", topLink: ["Cosmic Traits","main/tr
 </Ability>
 </>};
 const _the_rider = {title: "The Rider", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
-<Ability id="the-rider" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="the-rider" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="the-rider">The Rider</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 14 Desnus and 20 Sarenith</Pair>
@@ -3508,7 +3508,7 @@ const _the_rider = {title: "The Rider", topLink: ["Cosmic Traits","main/traits_c
 </Ability>
 </>};
 const _the_patriarch = {title: "The Patriarch", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
-<Ability id="the-patriarch" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="the-patriarch" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="the-patriarch">The Patriarch</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 21 Sarenith and 20 Erastus</Pair>
@@ -3517,7 +3517,7 @@ const _the_patriarch = {title: "The Patriarch", topLink: ["Cosmic Traits","main/
 </Ability>
 </>};
 const _the_wagon = {title: "The Wagon", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
-<Ability id="the-wagon" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="the-wagon" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="the-wagon">The Wagon</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 21 Erastus and 10 Arodus</Pair>
@@ -3526,7 +3526,7 @@ const _the_wagon = {title: "The Wagon", topLink: ["Cosmic Traits","main/traits_c
 </Ability>
 </>};
 const _the_pack = {title: "The Pack", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
-<Ability id="the-pack" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="the-pack" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="the-pack">The Pack</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 11 Arodus and 16 Rova</Pair>
@@ -3535,7 +3535,7 @@ const _the_pack = {title: "The Pack", topLink: ["Cosmic Traits","main/traits_cos
 </Ability>
 </>};
 const _the_mother = {title: "The Mother", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
-<Ability id="the-mother" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="the-mother" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="the-mother">The Mother</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 17 Rova and 30 Lamashan</Pair>
@@ -3544,7 +3544,7 @@ const _the_mother = {title: "The Mother", topLink: ["Cosmic Traits","main/traits
 </Ability>
 </>};
 const _the_star_gazer = {title: "The Star Gazer", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
-<Ability id="the-star-gazer" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="the-star-gazer" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="the-star-gazer">The Star Gazer</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 31 Lamashan and 20 Neth</Pair>
@@ -3553,7 +3553,7 @@ const _the_star_gazer = {title: "The Star Gazer", topLink: ["Cosmic Traits","mai
 </Ability>
 </>};
 const _the_stranger = {title: "The Stranger", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
-<Ability id="the-stranger" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="the-stranger" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="the-stranger">The Stranger</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 21 Neth and 29 Neth</Pair>
@@ -3562,7 +3562,7 @@ const _the_stranger = {title: "The Stranger", topLink: ["Cosmic Traits","main/tr
 </Ability>
 </>};
 const _the_follower = {title: "The Follower", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
-<Ability id="the-follower" extraClasses="trait" icon={["night-sky"]}>
+<Ability id="the-follower" extraClasses="trait" icon={["Cosmic"]}>
 <Pair single id="the-follower">The Follower</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 30 Neth and 17 Kuthona</Pair>

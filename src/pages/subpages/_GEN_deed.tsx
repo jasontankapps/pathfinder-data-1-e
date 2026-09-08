@@ -4,14 +4,14 @@ import Ability from '../../components/Ability';
 const _not_found = {title: "Unknown", jsx: <><p>Unable to find the requested gunslinger deed.</p>
 </>};
 const _deadeye = {title: "Deadeye", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 10</Link></p>
-<Ability id="deadeye-ex" icon={["smoking-finger","upgrade"]}>
+<Ability id="deadeye-ex" icon={["zap","boost"]}>
 <Pair single id="deadeye-ex">Deadeye (Ex)</Pair>
 <Pair title="Prerequisites">1st-level gunslinger</Pair>
 <Pair title="Ability">The gunslinger can resolve an attack against touch AC instead of normal AC when firing beyond her firearm's first range increment. Performing this deed costs 1 grit point per range increment beyond the first. The gunslinger still takes the -2 penalty on attack rolls for each range increment beyond the first when she performs this deed.</Pair>
 </Ability>
 </>};
 const _gunslingers_dodge = {title: "Gunslinger's Dodge", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 10</Link></p>
-<Ability id="gunslingers-dodge-ex" icon={["armor-upgrade"]}>
+<Ability id="gunslingers-dodge-ex" icon={["def"]}>
 <Pair single id="gunslingers-dodge-ex" flavor="The gunslinger gains an uncanny knack for getting out of the way of ranged attacks.">Gunslinger's Dodge (Ex)</Pair>
 <Pair title="Prerequisites">1st-level gunslinger</Pair>
 <Pair title="Immediate Action"><p>When a ranged attack is made against the gunslinger, she can spend 1 grit point to move 5 feet; doing so grants the gunslinger a +2 bonus to AC against the triggering attack. This movement is not a 5-foot step, and provokes attacks of opportunity.</p>
@@ -21,7 +21,7 @@ const _gunslingers_dodge = {title: "Gunslinger's Dodge", jsx: <><p><strong>Sourc
 </Ability>
 </>};
 const _quick_clear = {title: "Quick Clear", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 10</Link></p>
-<Ability id="quick-clear-ex" icon={["stairs-goal"]}>
+<Ability id="quick-clear-ex" icon={["power"]}>
 <Pair single id="quick-clear-ex">Quick Clear (Ex)</Pair>
 <Pair title="Prerequisites">1st-level gunslinger</Pair>
 <Pair title="Standard Action">The gunslinger can remove the broken condition from a single firearm she is currently wielding, as long as that condition was gained by a firearm misfire. The gunslinger must have at least 1 grit point to perform this deed.</Pair>
@@ -29,14 +29,14 @@ const _quick_clear = {title: "Quick Clear", jsx: <><p><strong>Sources</strong> <
 </Ability>
 </>};
 const _gunslinger_initiative = {title: "Gunslinger Initiative", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 10</Link></p>
-<Ability id="gunslinger-initiative-ex" icon={["upgrade","stairs-goal"]}>
+<Ability id="gunslinger-initiative-ex" icon={["boost","power"]}>
 <Pair single id="gunslinger-initiative-ex">Gunslinger Initiative (Ex)</Pair>
 <Pair title="Prerequisites">3rd-level gunslinger</Pair>
 <Pair title="Passive Ability">As long as the gunslinger has at least 1 grit point, she gains the following benefits. First, she gains a +2 bonus on initiative checks. Furthermore, if she has the <Link to="/feat/quick_draw">Quick Draw</Link> feat, her hands are free and unrestrained, and the firearm is not hidden, she can draw a single firearm as part of the initiative check.</Pair>
 </Ability>
 </>};
 const _pistol_whip = {title: "Pistol-Whip", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 11</Link></p>
-<Ability id="pistol-whip-ex" icon={["mailed-fist"]}>
+<Ability id="pistol-whip-ex" icon={["melee"]}>
 <Pair single id="pistol-whip-ex">Pistol-Whip (Ex)</Pair>
 <Pair title="Prerequisites">3rd-level gunslinger</Pair>
 <Pair title="Standard Action"><p>The gunslinger can make a surprise melee attack with the butt or handle of her firearm. When she does, she is considered to be proficient with the firearm as a melee weapon and gains a bonus on the attack and damage rolls equal to the enhancement bonus of the firearm.</p>
@@ -46,12 +46,12 @@ const _pistol_whip = {title: "Pistol-Whip", jsx: <><p><strong>Sources</strong> <
 </Ability>
 </>};
 const _utility_shot = {title: "Utility Shot", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 11</Link></p>
-<Ability id="utility-shot-ex" extraClasses="hasSubs" icon={["bowman","remedy"]}>
+<Ability id="utility-shot-ex" extraClasses="hasSubs" icon={["ranged","aid"]}>
 <Pair single id="utility-shot-ex">Utility Shot (Ex)</Pair>
 <Pair title="Prerequisites">3rd-level gunslinger</Pair>
 <Pair title="Ability">If the gunslinger has at least 1 grit point, she can perform all of the following utility shots. Each utility shot can be applied to any single attack with a firearm, but the gunslinger must declare the utility shot she is using before firing the shot.</Pair>
 </Ability>
-<Ability id="blast-lock" extraClasses="subAbility" icon={["bowman"]}>
+<Ability id="blast-lock" extraClasses="subAbility" icon={["ranged"]}>
 <Pair single id="blast-lock">Blast Lock:</Pair>
 <Pair title="Ability"><p>The gunslinger makes an attack roll against a lock within the first range increment of her firearm. A Diminutive lock usually has AC 7, and larger locks have a lower AC.</p>
 <p>The lock gains a bonus to its AC against this attack based on its quality. A simple lock has a +10 bonus to AC, an average lock has a +15 bonus to AC, a good lock has a +20 bonus to AC, and a superior lock has a +30 bonus to AC. <Link to="/spell/arcane_lock">Arcane lock</Link> grants a +10 bonus to the AC of a lock against this attack.</p>
@@ -59,17 +59,17 @@ const _utility_shot = {title: "Utility Shot", jsx: <><p><strong>Sources</strong>
 <p>A key, combination, or similar mechanical method of unlocking the lock no longer works, though <Link to="/spell/knock">knock</Link> can still be employed to bypass the lock, and the creator of an <em>arcane lock</em> can still bypass the wards of that spell.</p>
 </Pair>
 </Ability>
-<Ability id="scoot-unattended-object" extraClasses="subAbility" icon={["bowman"]}>
+<Ability id="scoot-unattended-object" extraClasses="subAbility" icon={["ranged"]}>
 <Pair single id="scoot-unattended-object">Scoot Unattended Object:</Pair>
 <Pair title="Ability">The gunslinger makes an attack roll against a Tiny or smaller unattended object within the first range increment of her firearm. A Tiny unattended object has an AC of 5, a Diminutive unattended object has an AC of 7, and a Fine unattended object has an AC of 11. On a hit, the gunslinger does not damage the object with the shot, but can move it up to 15 feet farther away from the shot's origin. On a miss, she damages the object normally.</Pair>
 </Ability>
-<Ability id="stop-bleeding" extraClasses="subAbility" icon={["remedy"]}>
+<Ability id="stop-bleeding" extraClasses="subAbility" icon={["aid"]}>
 <Pair single id="stop-bleeding">Stop Bleeding:</Pair>
 <Pair title="Ability">The gunslinger makes a firearm attack and then presses the hot barrel against herself or an adjacent creature to staunch a bleeding wound. Instead of dealing damage, the shot ends a single <Link to="/rule/bleed">bleed</Link> condition affecting the creature. The gunslinger does not have to make an attack roll when performing the deed in this way; she can instead shoot the firearm into the air, but that shot still uses up ammunition normally.</Pair>
 </Ability>
 </>};
 const _dead_shot = {title: "Dead Shot", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 11</Link></p>
-<Ability id="dead-shot-ex" icon={["bowman"]}>
+<Ability id="dead-shot-ex" icon={["ranged"]}>
 <Pair single id="dead-shot-ex">Dead Shot (Ex)</Pair>
 <Pair title="Prerequisites">7th-level gunslinger</Pair>
 <Pair title="Full-Round Action"><p>The gunslinger can take careful aim and pool all of her attack potential into a single, deadly shot. When she does this, she shoots the firearm at a single target, but makes as many attack rolls as she can, based on her base attack bonus. She makes the attack rolls in order from highest bonus to lowest, as if she were making a full attack.</p>
@@ -80,14 +80,14 @@ const _dead_shot = {title: "Dead Shot", jsx: <><p><strong>Sources</strong> <Link
 </Ability>
 </>};
 const _startling_shot = {title: "Startling Shot", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 11</Link></p>
-<Ability id="startling-shot-ex" icon={["armor-downgrade"]}>
+<Ability id="startling-shot-ex" icon={["lower"]}>
 <Pair single id="startling-shot-ex">Startling Shot (Ex)</Pair>
 <Pair title="Prerequisites">7th-level gunslinger</Pair>
 <Pair title="Standard Action">A gunslinger with least 1 grit point can purposely miss a creature that she could normally hit with a firearm attack. When she does, that creature becomes <Link to="/rule/flat_footed">flat-footed</Link> until the start of its next turn.</Pair>
 </Ability>
 </>};
 const _targeting = {title: "Targeting", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 11</Link></p>
-<Ability id="targeting-ex" icon={["bowman","armor-downgrade"]}>
+<Ability id="targeting-ex" icon={["ranged","lower"]}>
 <Pair single id="targeting-ex">Targeting (Ex)</Pair>
 <Pair title="Prerequisites">7th-level gunslinger</Pair>
 <Pair title="Full-Round Action">The gunslinger can make a single firearm attack and choose part of the body to target. She gains the following effects depending on the part of the body targeted. If a creature does not have one of the listed body locations, that part cannot be targeted.</Pair>
@@ -100,7 +100,7 @@ const _targeting = {title: "Targeting", jsx: <><p><strong>Sources</strong> <Link
 </Ability>
 </>};
 const _bleeding_wound = {title: "Bleeding Wound", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 12</Link></p>
-<Ability id="bleeding-wound-ex" icon={["broken-shield"]}>
+<Ability id="bleeding-wound-ex" icon={["down"]}>
 <Pair single id="bleeding-wound-ex">Bleeding Wound (Ex)</Pair>
 <Pair title="Prerequisites">11th-level gunslinger</Pair>
 <Pair title="Free Action"><p>When the gunslinger hits a living creature with a firearm attack, she can spend 1 grit point to have that attack deal extra <Link to="/rule/bleed">bleed</Link> damage. The amount of bleed damage is equal to the gunslinger's Dexterity modifier.</p>
@@ -110,14 +110,14 @@ const _bleeding_wound = {title: "Bleeding Wound", jsx: <><p><strong>Sources</str
 </Ability>
 </>};
 const _expert_loading = {title: "Expert Loading", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 12</Link></p>
-<Ability id="expert-loading-ex" icon={["armor-upgrade"]}>
+<Ability id="expert-loading-ex" icon={["def"]}>
 <Pair single id="expert-loading-ex">Expert Loading (Ex)</Pair>
 <Pair title="Prerequisites">11th-level gunslinger</Pair>
 <Pair title="Ability">Whenever the gunslinger rolls a misfire with a gun that has the broken condition, she can spend 1 grit point to keep the gun from exploding, though it retains the broken condition.</Pair>
 </Ability>
 </>};
 const _lightning_reload = {title: "Lightning Reload", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 12</Link></p>
-<Ability id="lightning-reload-ex" icon={["upgrade"]}>
+<Ability id="lightning-reload-ex" icon={["boost"]}>
 <Pair single id="lightning-reload-ex">Lightning Reload (Ex)</Pair>
 <Pair title="Prerequisites">11th-level gunslinger</Pair>
 <Pair title="Ability">As long as the gunslinger has at least 1 grit point, she can reload a single barrel of a one-handed or two-handed firearm as a <strong className="hl">swift action</strong> once per round. If she has the <Link to="/feat/rapid_reload">Rapid Reload</Link> feat or is using an alchemical cartridge (or both), she can reload a single barrel of the weapon as a <strong className="hl">free action</strong> each round instead.</Pair>
@@ -125,21 +125,21 @@ const _lightning_reload = {title: "Lightning Reload", jsx: <><p><strong>Sources<
 </Ability>
 </>};
 const _evasive = {title: "Evasive", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 12</Link></p>
-<Ability id="evasive-ex" icon={["armor-upgrade"]}>
+<Ability id="evasive-ex" icon={["def"]}>
 <Pair single id="evasive-ex">Evasive (Ex)</Pair>
 <Pair title="Prerequisites">15th-level gunslinger</Pair>
 <Pair title="Passive Ability">When the gunslinger has at least 1 grit point, she gains the benefit of the <Link to="/ability/evasion">evasion</Link>, <Link to="/ability/uncanny_dodge">uncanny dodge</Link>, and <Link to="/ability/improved_uncanny_dodge">improved uncanny dodge</Link> rogue class features. She uses her gunslinger level as her rogue level for <em>improved uncanny dodge.</em></Pair>
 </Ability>
 </>};
 const _menacing_shot = {title: "Menacing Shot", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 12</Link></p>
-<Ability id="menacing-shot-ex" icon={["aura","armor-downgrade"]}>
+<Ability id="menacing-shot-ex" icon={["aura","lower"]}>
 <Pair single id="menacing-shot-ex">Menacing Shot (Ex)</Pair>
 <Pair title="Prerequisites">15th-level gunslinger</Pair>
 <Pair title="Ability">The gunslinger can spend 1 grit point, shoot a firearm into the air, and affect all living creatures within a 30-foot-radius <Link to="/misc/burst">burst</Link> as if they were subject to the <Link to="/spell/fear">fear</Link> spell. The DC of this effect is equal to 10 + 1/2 the gunslinger's level + the gunslinger's Wisdom modifier.</Pair>
 </Ability>
 </>};
 const _slingers_luck = {title: "Slinger's Luck", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 12</Link></p>
-<Ability id="slingers-luck-ex" icon={["armor-upgrade","upgrade","rolling-dices"]}>
+<Ability id="slingers-luck-ex" icon={["def","boost","roll"]}>
 <Pair single id="slingers-luck-ex">Slinger's Luck (Ex)</Pair>
 <Pair title="Prerequisites">15th-level gunslinger</Pair>
 <Pair title="Ability">The gunslinger can spend grit to reroll a saving throw or a skill check. It costs 2 grit points to reroll a saving throw, and 1 grit point to reroll a skill check. The gunslinger must take the result of the second roll, even if it is lower.</Pair>
@@ -147,14 +147,14 @@ const _slingers_luck = {title: "Slinger's Luck", jsx: <><p><strong>Sources</stro
 </Ability>
 </>};
 const _cheat_death = {title: "Cheat Death", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 12</Link></p>
-<Ability id="cheat-death-ex" icon={["armor-upgrade"]}>
+<Ability id="cheat-death-ex" icon={["def"]}>
 <Pair single id="cheat-death-ex">Cheat Death (Ex)</Pair>
 <Pair title="Prerequisites">19th-level gunslinger</Pair>
 <Pair title="Ability">Whenever the gunslinger is reduced to 0 or fewer hit points, she can spend all of her remaining grit points (minimum 1) to instead be reduced to 1 hit point.</Pair>
 </Ability>
 </>};
 const _deaths_shot = {title: "Death's Shot", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 12</Link></p>
-<Ability id="deaths-shot-ex" icon={["armor-downgrade"]}>
+<Ability id="deaths-shot-ex" icon={["lower"]}>
 <Pair single id="deaths-shot-ex">Death's Shot (Ex)</Pair>
 <Pair title="Prerequisites">19th-level gunslinger</Pair>
 <Pair title="Ability">When the gunslinger scores a critical hit, she can spend 1 grit point to deal normal damage, and the target must succeed at a Fortitude saving throw with a DC equal to 10 + 1/2 the gunslinger's level + the gunslinger's Dexterity modifier. On a failed saving throw, the target dies. This is a death attack.</Pair>
@@ -162,7 +162,7 @@ const _deaths_shot = {title: "Death's Shot", jsx: <><p><strong>Sources</strong> 
 </Ability>
 </>};
 const _stunning_shot = {title: "Stunning Shot", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 12</Link></p>
-<Ability id="stunning-shot-ex" icon={["armor-downgrade"]}>
+<Ability id="stunning-shot-ex" icon={["lower"]}>
 <Pair single id="stunning-shot-ex">Stunning Shot (Ex)</Pair>
 <Pair title="Prerequisites">19th-level gunslinger</Pair>
 <Pair title="Ability">When a gunslinger hits a creature, she can spend 2 grit points to <Link to="/misc/stun">stun</Link> the creature for 1 round. The creature must make a Fortitude saving throw (the DC = 10 + 1/2 the gunslinger's level + the gunslinger's Wisdom modifier). If the creature fails, it is stunned for 1 round.</Pair>

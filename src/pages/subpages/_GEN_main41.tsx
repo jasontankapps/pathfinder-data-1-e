@@ -4,49 +4,49 @@ import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import MainLink from '../../components/MainLink';
 import InnerLink from '../../components/InnerLink';
-const _traits_campaign_reign_of_winter = {title: "Campaign Traits: Reign of Winter", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitadaptivemagic-adaptive-magic-fn1-fn2" extraClasses="trait" icon={["treasure-map"]}>
+const _traits_campaign_reign_of_winter = {title: "Campaign Traits: Reign of Winter", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitadaptivemagic-adaptive-magic-fn1-fn2" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitadaptivemagic-adaptive-magic-fn1-fn2"><Link to="/trait/adaptive_magic">⮞</Link> Adaptive Magic <sup><InnerLink showBacklink="backlink-main-traits_campaign_reign_of_winter-fake-fn-1" id="main-traits_campaign_reign_of_winter-fake-fn-1" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_reign_of_winter-fake-fn-2" id="main-traits_campaign_reign_of_winter-fake-fn-2" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Reign of Winter</Pair>
 <Pair single="flavor" id="traitadaptivemagic-adaptive-magic-fn1-fn2-flavor">The wonders of magic have always fascinated you, and you find the urge to tinker and experiment with magic almost irresistible. You could be the child of an alchemist, wizard, or witch; a member of the <Link to="/rule/pathfinder_society">Pathfinder Society</Link>; or maybe someone with a touch of fey or dragon blood. You may not be trained in magic, and you've had your share of accidental mishaps, but you possess a natural knack for activating magic items. you've always been intrigued by the cold magic of the winter witches and ice mages of the North, and would love to get your hands on some of their magic items.</Pair>
 <Pair single="benefit" id="traitadaptivemagic-adaptive-magic-fn1-fn2-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> and <Link to="/skill/use_magic_device">Use Magic Device</Link> checks, and Use Magic Device is a class skill for you.</Pair>
 </Ability>
-<Ability id="traitbloodofgiants-blood-of-giants-fn1-2-fn2-2" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitbloodofgiants-blood-of-giants-fn1-2-fn2-2" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitbloodofgiants-blood-of-giants-fn1-2-fn2-2"><Link to="/trait/blood_of_giants">⮞</Link> Blood of Giants <sup><InnerLink showBacklink="backlink-main-traits_campaign_reign_of_winter-fake-fn-1.2" id="main-traits_campaign_reign_of_winter-fake-fn-1.2" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_reign_of_winter-fake-fn-2.2" id="main-traits_campaign_reign_of_winter-fake-fn-2.2" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Reign of Winter</Pair>
 <Pair single="flavor" id="traitbloodofgiants-blood-of-giants-fn1-2-fn2-2-flavor">You're a big person, and people have always said you've got some giant blood in you. Even as a child, you towered over your friends, and as you grew older, you grew even taller and stronger. Maybe your hair has a tint of blue as well, or your skin is as pale as snow. Perhaps someday you'll get the opportunity to travel to the North and meet some real giants, and see whether the rumors about you are true.</Pair>
 <Pair single="benefit" id="traitbloodofgiants-blood-of-giants-fn1-2-fn2-2-benefit">You gain a +1 trait bonus on combat maneuver checks to <Link to="/rule/sunder">sunder</Link>, and a +1 trait bonus to your CMD against <Link to="/rule/bull_rush">bull rush</Link> and <Link to="/rule/overrun">overrun</Link> combat maneuvers.</Pair>
 </Ability>
-<Ability id="traitfailedwinterwitchapprentice-failed-winter-witch-apprentice-fn1-3-fn2-3" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitfailedwinterwitchapprentice-failed-winter-witch-apprentice-fn1-3-fn2-3" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitfailedwinterwitchapprentice-failed-winter-witch-apprentice-fn1-3-fn2-3"><Link to="/trait/failed_winter_witch_apprentice">⮞</Link> Failed Winter Witch Apprentice <sup><InnerLink showBacklink="backlink-main-traits_campaign_reign_of_winter-fake-fn-1.3" id="main-traits_campaign_reign_of_winter-fake-fn-1.3" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_reign_of_winter-fake-fn-2.3" id="main-traits_campaign_reign_of_winter-fake-fn-2.3" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Reign of Winter</Pair>
 <Pair single="flavor" id="traitfailedwinterwitchapprentice-failed-winter-witch-apprentice-fn1-3-fn2-3-flavor">As a child, you were apprenticed as a winter witch in the frozen land of Irrisen, but you did not complete your training. Perhaps you disagreed with the politics of Irrisen's White Witches, or you had an altercation with one of your teachers, or maybe you were just ill-suited to the practice of witchcraft. Whatever the reason, you left the ranks of the winter witches and left Irrisen. Whether or not you have continued your training on your own, you still retain some small knowledge of witchery and the magic of the icy north.</Pair>
 <Pair single="benefit" id="traitfailedwinterwitchapprentice-failed-winter-witch-apprentice-fn1-3-fn2-3-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> and <Link to="/skill/spellcraft">Spellcraft</Link> checks to identify spells or magical effects with the cold descriptor, and one of these skills (your choice) is a class skill for you. In addition, you learn Hallit or Skald (this does not count toward your number of languages).</Pair>
 </Ability>
-<Ability id="traitnorthernancestry-northern-ancestry-fn1-4-fn2-4" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitnorthernancestry-northern-ancestry-fn1-4-fn2-4" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitnorthernancestry-northern-ancestry-fn1-4-fn2-4"><Link to="/trait/northern_ancestry">⮞</Link> Northern Ancestry <sup><InnerLink showBacklink="backlink-main-traits_campaign_reign_of_winter-fake-fn-1.4" id="main-traits_campaign_reign_of_winter-fake-fn-1.4" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_reign_of_winter-fake-fn-2.4" id="main-traits_campaign_reign_of_winter-fake-fn-2.4" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Reign of Winter</Pair>
 <Pair single="flavor" id="traitnorthernancestry-northern-ancestry-fn1-4-fn2-4-flavor">One of your parents came from the North, and the tales of the frozen lands at the top of the world that you grew up listening to excited your imagination. Alternatively, maybe one of your ancestors passed on the blood of some frost-rimed creature. You feel most alive during the chill of winter, and as a child, you spent hours playing in the snow. You rarely feel the cold, and you've always had a restless longing to travel north.</Pair>
 <Pair single="benefit" id="traitnorthernancestry-northern-ancestry-fn1-4-fn2-4-benefit">You gain a +1 trait bonus on Fortitude saves, as well as cold <Link to="/umr/resistance">resistance</Link> 2; this resistance does not stack with cold resistance gained from any other source.</Pair>
 </Ability>
-<Ability id="traitrestlesswayfarer-restless-wayfarer-fn1-5-fn2-5" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitrestlesswayfarer-restless-wayfarer-fn1-5-fn2-5" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitrestlesswayfarer-restless-wayfarer-fn1-5-fn2-5"><Link to="/trait/restless_wayfarer">⮞</Link> Restless Wayfarer <sup><InnerLink showBacklink="backlink-main-traits_campaign_reign_of_winter-fake-fn-1.5" id="main-traits_campaign_reign_of_winter-fake-fn-1.5" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_reign_of_winter-fake-fn-2.5" id="main-traits_campaign_reign_of_winter-fake-fn-2.5" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Reign of Winter</Pair>
 <Pair single="flavor" id="traitrestlesswayfarer-restless-wayfarer-fn1-5-fn2-5-flavor">You have long led a nomadic life - perhaps because your parents were travelers (whether roaming Varisian caravaneers or traveling merchants who traded far and wide), you belonged to a nomadic tribe, or you ran away from home to discover the world at a young age. Some call it wanderlust, but to you the thought of new places and experiences is truly what makes life worth living, and no region catches your imagination like the windswept wilderness of the North. You are used to getting along in unfamiliar lands and interacting with interesting new people.</Pair>
 <Pair single="benefit" id="traitrestlesswayfarer-restless-wayfarer-fn1-5-fn2-5-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> and <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks, and one of these skills (your choice) is a class skill for you. You can also speak one additional language (this does not count toward your number of languages).</Pair>
 </Ability>
-<Ability id="traitvigilantewitchhunter-vigilante-witch-hunter-fn1-6-fn2-6" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitvigilantewitchhunter-vigilante-witch-hunter-fn1-6-fn2-6" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitvigilantewitchhunter-vigilante-witch-hunter-fn1-6-fn2-6"><Link to="/trait/vigilante_witch_hunter">⮞</Link> Vigilante Witch Hunter <sup><InnerLink showBacklink="backlink-main-traits_campaign_reign_of_winter-fake-fn-1.6" id="main-traits_campaign_reign_of_winter-fake-fn-1.6" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_reign_of_winter-fake-fn-2.6" id="main-traits_campaign_reign_of_winter-fake-fn-2.6" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Reign of Winter</Pair>
 <Pair single="flavor" id="traitvigilantewitchhunter-vigilante-witch-hunter-fn1-6-fn2-6-flavor">You don't trust witches. They deal with otherworldly beings, consort with beasts, and brew vile poisons in their cauldrons. As a child, perhaps you barely escaped some horrid fate at the hands of an evil witch, or maybe a loved one was stolen from you by a witch's charms. Perhaps you wanted to be a witch yourself, but the local witch refused to take you on as an apprentice. Whatever the reason, you now hate witches, and have dedicated your life to ferreting them out and exposing their wickedness for all to see. You know that the North is full of winter witches, and should you ever find yourself there, you'll relish bringing your justice to them as well.</Pair>
 <Pair single="benefit" id="traitvigilantewitchhunter-vigilante-witch-hunter-fn1-6-fn2-6-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks, and Sense Motive is a class skill for you. In addition, you begin the campaign with 1d4 <Link to="/magic-wondrous/hex_nail">hex nails</Link>.</Pair>
 </Ability>
-<Ability id="traitwardedagainstwitchery-warded-against-witchery-fn1-7-fn2-7" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitwardedagainstwitchery-warded-against-witchery-fn1-7-fn2-7" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitwardedagainstwitchery-warded-against-witchery-fn1-7-fn2-7"><Link to="/trait/warded_against_witchery">⮞</Link> Warded against Witchery <sup><InnerLink showBacklink="backlink-main-traits_campaign_reign_of_winter-fake-fn-1.7" id="main-traits_campaign_reign_of_winter-fake-fn-1.7" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_reign_of_winter-fake-fn-2.7" id="main-traits_campaign_reign_of_winter-fake-fn-2.7" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Reign of Winter</Pair>
@@ -57,7 +57,7 @@ const _traits_campaign_reign_of_winter = {title: "Campaign Traits: Reign of Wint
 <li id="main-traits_campaign_reign_of_winter-fake-fn-1-target"><p><Link to="/source/reign_of_winter_players_guide">Reign of Winter Player's Guide</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_reign_of_winter-fake-fn-1" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_reign_of_winter-fake-fn-1.2" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_reign_of_winter-fake-fn-1.3" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_reign_of_winter-fake-fn-1.4" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_reign_of_winter-fake-fn-1.5" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_reign_of_winter-fake-fn-1.6" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_reign_of_winter-fake-fn-1.7" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-1.7">↩<sup>7</sup></InnerLink></p></li>
 <li id="main-traits_campaign_reign_of_winter-fake-fn-2-target"><p><Link to="/source/people_of_the_north">People of the North</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_reign_of_winter-fake-fn-2" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_reign_of_winter-fake-fn-2.2" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-2.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_reign_of_winter-fake-fn-2.3" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-2.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_reign_of_winter-fake-fn-2.4" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-2.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_reign_of_winter-fake-fn-2.5" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-2.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_reign_of_winter-fake-fn-2.6" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-2.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_reign_of_winter-fake-fn-2.7" data-hash-target to="main-traits_campaign_reign_of_winter-fake-fn-2.7">↩<sup>7</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_campaign_return_of_the_runelords = {title: "Campaign Traits: Return of the Runelords", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitaccidentalclone-accidental-clone-fn1" extraClasses="trait" icon={["treasure-map"]}>
+const _traits_campaign_return_of_the_runelords = {title: "Campaign Traits: Return of the Runelords", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitaccidentalclone-accidental-clone-fn1" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitaccidentalclone-accidental-clone-fn1"><Link to="/trait/accidental_clone">⮞</Link> Accidental Clone <sup><InnerLink showBacklink="backlink-main-traits_campaign_return_of_the_runelords-fake-fn-1" id="main-traits_campaign_return_of_the_runelords-fake-fn-1" data-hash-target to="main-traits_campaign_return_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Return of the Runelords</Pair>
@@ -68,7 +68,7 @@ const _traits_campaign_return_of_the_runelords = {title: "Campaign Traits: Retur
 <p>Unless the GM approves, only one PC in the group can have the Accidental Clone trait.</p>
 </Pair>
 </Ability>
-<Ability id="traitaudrahnisally-audrahnis-ally-fn1-2" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitaudrahnisally-audrahnis-ally-fn1-2" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitaudrahnisally-audrahnis-ally-fn1-2"><Link to="/trait/audrahnis_ally">⮞</Link> Audrahni's Ally <sup><InnerLink showBacklink="backlink-main-traits_campaign_return_of_the_runelords-fake-fn-1.2" id="main-traits_campaign_return_of_the_runelords-fake-fn-1.2" data-hash-target to="main-traits_campaign_return_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Return of the Runelords</Pair>
@@ -82,7 +82,7 @@ const _traits_campaign_return_of_the_runelords = {title: "Campaign Traits: Retur
 <p>Once per adventure as a <strong className="hl">standard action</strong>, you may concentrate on the bond you and Audrahni share. The strong emotions brought on by these memories bolster your desire to forge ahead and remain alive, granting you the effects of one of the following spells at a caster level equal to your character level: <Link to="/spell/calm_emotions">calm emotions</Link>, <Link to="/spell/cure_moderate_wounds">cure moderate wounds</Link>, or <Link to="/spell/lesser_restoration">lesser restoration</Link>.</p>
 </Pair>
 </Ability>
-<Ability id="traitcloseallies-close-allies-fn1-3" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitcloseallies-close-allies-fn1-3" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitcloseallies-close-allies-fn1-3"><Link to="/trait/close_allies">⮞</Link> Close Allies <sup><InnerLink showBacklink="backlink-main-traits_campaign_return_of_the_runelords-fake-fn-1.3" id="main-traits_campaign_return_of_the_runelords-fake-fn-1.3" data-hash-target to="main-traits_campaign_return_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Return of the Runelords</Pair>
@@ -91,7 +91,7 @@ const _traits_campaign_return_of_the_runelords = {title: "Campaign Traits: Retur
 <p>Once per adventure as an <strong className="hl">immediate action</strong>, you may grant your close ally a bonus equal to the result of 1d6 to a single d20 roll. You must have line of sight to your ally to use this ability. You may choose to grant this bonus after your ally has rolled, but must do so before the result of the roll is known.</p>
 </Pair>
 </Ability>
-<Ability id="traitintriguedbythassilon-intrigued-by-thassilon-fn1-4" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitintriguedbythassilon-intrigued-by-thassilon-fn1-4" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitintriguedbythassilon-intrigued-by-thassilon-fn1-4"><Link to="/trait/intrigued_by_thassilon">⮞</Link> Intrigued by Thassilon <sup><InnerLink showBacklink="backlink-main-traits_campaign_return_of_the_runelords-fake-fn-1.4" id="main-traits_campaign_return_of_the_runelords-fake-fn-1.4" data-hash-target to="main-traits_campaign_return_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Return of the Runelords</Pair>
@@ -100,7 +100,7 @@ const _traits_campaign_return_of_the_runelords = {title: "Campaign Traits: Retur
 <p>Once per adventure, you may either take 20 on a Use Magic Device check or activate a charged magic item without expending any charges.</p>
 </Pair>
 </Ability>
-<Ability id="traitscionoflegend-scion-of-legend-fn1-5" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitscionoflegend-scion-of-legend-fn1-5" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitscionoflegend-scion-of-legend-fn1-5"><Link to="/trait/scion_of_legend">⮞</Link> Scion of Legend <sup><InnerLink showBacklink="backlink-main-traits_campaign_return_of_the_runelords-fake-fn-1.5" id="main-traits_campaign_return_of_the_runelords-fake-fn-1.5" data-hash-target to="main-traits_campaign_return_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Return of the Runelords</Pair>
@@ -109,7 +109,7 @@ const _traits_campaign_return_of_the_runelords = {title: "Campaign Traits: Retur
 <p>Once per adventure as a <strong className="hl">free action</strong>, you can call upon a previously forgotten bit of advice or lore imparted to you by the hero to gain an insight bonus equal to your class level (minimum +10) to a skill check. You may choose to apply this bonus after you roll the skill check, but must do so before the result of the roll is known.</p>
 </Pair>
 </Ability>
-<Ability id="traitspirittouched-spirit-touched-fn1-6" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitspirittouched-spirit-touched-fn1-6" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitspirittouched-spirit-touched-fn1-6"><Link to="/trait/spirit_touched">⮞</Link> Spirit Touched <sup><InnerLink showBacklink="backlink-main-traits_campaign_return_of_the_runelords-fake-fn-1.6" id="main-traits_campaign_return_of_the_runelords-fake-fn-1.6" data-hash-target to="main-traits_campaign_return_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Return of the Runelords</Pair>
@@ -118,7 +118,7 @@ const _traits_campaign_return_of_the_runelords = {title: "Campaign Traits: Retur
 <p>Once per adventure, you may automatically succeed at a Constitution check to stabilize or a saving throw to remove a negative level.</p>
 </Pair>
 </Ability>
-<Ability id="traittimelost-time-lost-fn1-7" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traittimelost-time-lost-fn1-7" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traittimelost-time-lost-fn1-7"><Link to="/trait/time_lost">⮞</Link> Time Lost <sup><InnerLink showBacklink="backlink-main-traits_campaign_return_of_the_runelords-fake-fn-1.7" id="main-traits_campaign_return_of_the_runelords-fake-fn-1.7" data-hash-target to="main-traits_campaign_return_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Return of the Runelords</Pair>
@@ -130,84 +130,84 @@ const _traits_campaign_return_of_the_runelords = {title: "Campaign Traits: Retur
 </IonLabel></IonItem><section data-footnotes><h3 id="main-traits_campaign_return_of_the_runelords-label">Footnotes</h3><ol>
 <li id="main-traits_campaign_return_of_the_runelords-fake-fn-1-target"><p><Link to="/source/return_of_the_runelords_players_guide">Return of the Runelords Players Guide</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_return_of_the_runelords-fake-fn-1" data-hash-target to="main-traits_campaign_return_of_the_runelords-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_return_of_the_runelords-fake-fn-1.2" data-hash-target to="main-traits_campaign_return_of_the_runelords-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_return_of_the_runelords-fake-fn-1.3" data-hash-target to="main-traits_campaign_return_of_the_runelords-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_return_of_the_runelords-fake-fn-1.4" data-hash-target to="main-traits_campaign_return_of_the_runelords-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_return_of_the_runelords-fake-fn-1.5" data-hash-target to="main-traits_campaign_return_of_the_runelords-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_return_of_the_runelords-fake-fn-1.6" data-hash-target to="main-traits_campaign_return_of_the_runelords-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_return_of_the_runelords-fake-fn-1.7" data-hash-target to="main-traits_campaign_return_of_the_runelords-fake-fn-1.7">↩<sup>7</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_campaign_rise_of_the_runelords = {title: "Campaign Traits: Rise of the Runelords", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traiteagerperformer-eager-performer-fn1" extraClasses="trait" icon={["treasure-map"]}>
+const _traits_campaign_rise_of_the_runelords = {title: "Campaign Traits: Rise of the Runelords", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traiteagerperformer-eager-performer-fn1" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traiteagerperformer-eager-performer-fn1"><Link to="/trait/eager_performer">⮞</Link> Eager Performer <sup><InnerLink showBacklink="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1" id="main-traits_campaign_rise_of_the_runelords-fake-fn-1" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
 <Pair single="flavor" id="traiteagerperformer-eager-performer-fn1-flavor">Hearing that Sandpoint had a theater rivaling those found in large cities like Magnimar and Korvosa, you decided to try your luck getting stage time there. After sending a letter to Cyrdak Drokkus requesting an audition and not hearing back, you've taken it upon yourself to travel to Sandpoint and meet him in person, trusting your force of will and charming influence will get you what you want.</Pair>
 <Pair single="benefit" id="traiteagerperformer-eager-performer-fn1-benefit">You gain a +1 trait bonus on checks for any one <Link to="/skill/perform">Perform</Link> skill. Additionally, choose any one spell of the enchantment school; its save DC increases by +1.</Pair>
 </Ability>
-<Ability id="traitfamilytiesrotrl-family-ties-rotrl-fn1-2" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitfamilytiesrotrl-family-ties-rotrl-fn1-2" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitfamilytiesrotrl-family-ties-rotrl-fn1-2"><Link to="/trait/family_ties_rotrl">⮞</Link> Family Ties (RotRL) <sup><InnerLink showBacklink="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.2" id="main-traits_campaign_rise_of_the_runelords-fake-fn-1.2" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
 <Pair single="flavor" id="traitfamilytiesrotrl-family-ties-rotrl-fn1-2-flavor">While not ethnically a Varisian, you have been raised among Varisians and they consider you one of their own. Furthermore, you managed to get in good with a group of Sczarni and consider them your new family. After being run out of the last place your Sczarni family camped, you tracked down a friend of the family in Sandpoint - a ruthless thug named Jubrayl Vhiski at the Fatman's Feedbag. During your time with the Sczarni, you learned a few tricks of the trade.</Pair>
 <Pair single="benefit" id="traitfamilytiesrotrl-family-ties-rotrl-fn1-2-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks and Knowledge (local) is always a class skill for you. In addition, you begin play able to speak and read Varisian.</Pair>
 </Ability>
-<Ability id="traitfriendsandenemies-friends-and-enemies-fn1-3" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitfriendsandenemies-friends-and-enemies-fn1-3" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitfriendsandenemies-friends-and-enemies-fn1-3"><Link to="/trait/friends_and_enemies">⮞</Link> Friends and Enemies <sup><InnerLink showBacklink="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.3" id="main-traits_campaign_rise_of_the_runelords-fake-fn-1.3" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
 <Pair single="flavor" id="traitfriendsandenemies-friends-and-enemies-fn1-3-flavor">One of your family members, perhaps a parent, cousin, aunt, or uncle, helped Daviren Hosk put down a group of goblins near Sandpoint. Since then, your family member passed away, but not before telling you about that day and the offer Daviren made her should she ever be in need.</Pair>
 <Pair single="benefit" id="traitfriendsandenemies-friends-and-enemies-fn1-3-benefit">Once you make it to Sandpoint and meet up with Daviren Hosk at the Goblin Squash Stables, he gives you one of his best steeds and all the necessary accoutrements as gratitude for your family member's help: a <Link to="/eq-misc/heavy_combat_trained_horse">heavy combat trained horse</Link>, a <Link to="/eq-misc/military_saddle">military saddle</Link>, <Link to="/eq-misc/saddlebags">saddlebags</Link>, <Link to="/eq-misc/bit_and_bridle">bit and bridle</Link>, a month's worth of <Link to="/eq-misc/animal_feed">feed</Link>, and lifetime stabling at the Goblin Squash Stables.</Pair>
 </Ability>
-<Ability id="traitgiantslayer-giant-slayer-fn1-4" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitgiantslayer-giant-slayer-fn1-4" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitgiantslayer-giant-slayer-fn1-4"><Link to="/trait/giant_slayer">⮞</Link> Giant Slayer <sup><InnerLink showBacklink="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.4" id="main-traits_campaign_rise_of_the_runelords-fake-fn-1.4" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
 <Pair single="flavor" id="traitgiantslayer-giant-slayer-fn1-4-flavor">Your family's village was plundered by giants in the wilds of Varisia, leaving nothing but a smoldering ruin. After the destruction of your village, your family trained for combat against giants to prevent such a tragedy from ever happening again. Since hearing of giants mobilizing throughout the countryside, you ventured to Sandpoint to help the town prepare for a possible incursion.</Pair>
 <Pair single="benefit" id="traitgiantslayer-giant-slayer-fn1-4-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/perception">Perception</Link>, and <Link to="/skill/sense_motive">Sense Motive</Link> checks and +1 trait bonus on attack rolls and damage rolls against creatures of the giant subtype.</Pair>
 </Ability>
-<Ability id="traitgoblinwatcher-goblin-watcher-fn1-5" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitgoblinwatcher-goblin-watcher-fn1-5" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitgoblinwatcher-goblin-watcher-fn1-5"><Link to="/trait/goblin_watcher">⮞</Link> Goblin Watcher <sup><InnerLink showBacklink="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.5" id="main-traits_campaign_rise_of_the_runelords-fake-fn-1.5" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
 <Pair single="flavor" id="traitgoblinwatcher-goblin-watcher-fn1-5-flavor">You grew up in Sandpoint staring off the cliff across the Varisian Gulf. Spending so much time there at Junker's Edge watching the goblins below as they scrounged through the discarded junk and seeing what they made out of the garbage, you developed an eye for spotting the most useful and valuable discarded items.</Pair>
 <Pair single="benefit" id="traitgoblinwatcher-goblin-watcher-fn1-5-benefit">You gain a +1 trait bonus on <Link to="/skill/perception">Perception</Link> and <Link to="/skill/appraise">Appraise</Link> checks, and a +5 trait bonus on Appraise checks to determine the most valuable item visible in a treasure hoard.</Pair>
 </Ability>
-<Ability id="traithagfishhopeful-hagfish-hopeful-fn1-6" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traithagfishhopeful-hagfish-hopeful-fn1-6" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traithagfishhopeful-hagfish-hopeful-fn1-6"><Link to="/trait/hagfish_hopeful">⮞</Link> Hagfish Hopeful <sup><InnerLink showBacklink="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.6" id="main-traits_campaign_rise_of_the_runelords-fake-fn-1.6" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
 <Pair single="flavor" id="traithagfishhopeful-hagfish-hopeful-fn1-6-flavor">Ever since passing through Sandpoint when you were a child and hearing about the contest at the popular tavern known as the Hagfish, you wanted to take that coin purse as your own and carve your name on the ceiling beam above the bar. Training yourself to choke down indigestible food and drink water a pig would refuse, you've built up quite a strong resistance to all things putrid and gross.</Pair>
 <Pair single="benefit" id="traithagfishhopeful-hagfish-hopeful-fn1-6-benefit">You gain a +2 trait bonus on Fortitude saves against disease and poison.</Pair>
 </Ability>
-<Ability id="traitmerchantfamily-merchant-family-fn1-7" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitmerchantfamily-merchant-family-fn1-7" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitmerchantfamily-merchant-family-fn1-7"><Link to="/trait/merchant_family">⮞</Link> Merchant Family <sup><InnerLink showBacklink="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.7" id="main-traits_campaign_rise_of_the_runelords-fake-fn-1.7" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
 <Pair single="flavor" id="traitmerchantfamily-merchant-family-fn1-7-flavor">You are related to one of the four noble families from Magnimar who founded the Mercantile League of Sandpoint. You either grew up in Magnimar as a cousin in the Valdemar or Deverin family or were born and raised in Sandpoint. Education in running a business and years of looking after the family enterprise have given you a knack for trade.</Pair>
 <Pair single="benefit" id="traitmerchantfamily-merchant-family-fn1-7-benefit">You increase the <Link to="/rule/purchasing_magic_items">gp limit of any settlement</Link> by 20% and can resell items at an additional 10% over the amount of gp you normally would get from selling off treasure.</Pair>
 </Ability>
-<Ability id="traitmonsterhunter-monster-hunter-fn1-8" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitmonsterhunter-monster-hunter-fn1-8" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitmonsterhunter-monster-hunter-fn1-8"><Link to="/trait/monster_hunter">⮞</Link> Monster Hunter <sup><InnerLink showBacklink="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.8" id="main-traits_campaign_rise_of_the_runelords-fake-fn-1.8" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
 <Pair single="flavor" id="traitmonsterhunter-monster-hunter-fn1-8-flavor">Perhaps you came to the Varisian Gulf in search of the Sandpoint Devil, or maybe you followed fisherman's tales of Old Murdermaw; regardless, you've ventured through Varisia to hunt down famous monsters. While they have all eluded you so far, you made it to Sandpoint to research and restock before heading back out into the wilderness.</Pair>
 <Pair single="benefit" id="traitmonsterhunter-monster-hunter-fn1-8-benefit">Because of your training, you gain a +1 trait bonus on attack rolls and weapon damage rolls against aberrations and magical beasts.</Pair>
 </Ability>
-<Ability id="traitsandpointfaithful-sandpoint-faithful-fn2-fn1-9" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitsandpointfaithful-sandpoint-faithful-fn2-fn1-9" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitsandpointfaithful-sandpoint-faithful-fn2-fn1-9"><Link to="/trait/sandpoint_faithful">⮞</Link> Sandpoint Faithful <sup><InnerLink showBacklink="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-2" id="main-traits_campaign_rise_of_the_runelords-fake-fn-2" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.9" id="main-traits_campaign_rise_of_the_runelords-fake-fn-1.9" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
 <Pair single="flavor" id="traitsandpointfaithful-sandpoint-faithful-fn2-fn1-9-flavor">As a faithful adherent of Abadar, Desna, Erastil, Gozreh, Sarenrae, or Shelyn, you've come to the Swallowtail Festival to celebrate the consecration of Sandpoint Cathedral.</Pair>
 <Pair single="benefit" id="traitsandpointfaithful-sandpoint-faithful-fn2-fn1-9-benefit">You gain a <Link to="/eq-misc/silver_holy_symbol">silver holy symbol</Link> of your chosen deity, and so long as you worship that deity and openly wear his or her symbol, you regain +1 additional hit point every time you receive magical healing.</Pair>
 </Ability>
-<Ability id="traitscholaroftheancients-scholar-of-the-ancients-fn1-10" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitscholaroftheancients-scholar-of-the-ancients-fn1-10" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitscholaroftheancients-scholar-of-the-ancients-fn1-10"><Link to="/trait/scholar_of_the_ancients">⮞</Link> Scholar of the Ancients <sup><InnerLink showBacklink="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.10" id="main-traits_campaign_rise_of_the_runelords-fake-fn-1.10" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
 <Pair single="flavor" id="traitscholaroftheancients-scholar-of-the-ancients-fn1-10-flavor">Growing up with your nose in books, you've had a great interest in past cultures and ancient history. Furthermore, having grown up in Varisia, you know the monuments dotting the landscape belong to an ancient civilization known as Thassilon. From your life of study and dogged research, you've pieced together the language and partial history of this once-great empire.</Pair>
 <Pair single="benefit" id="traitscholaroftheancients-scholar-of-the-ancients-fn1-10-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> and <Link to="/skill/knowledge_history">Knowledge (history)</Link> checks, and begin play able to speak and read Thassilonian.</Pair>
 </Ability>
-<Ability id="traitstudentoffaith-student-of-faith-fn1-11" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitstudentoffaith-student-of-faith-fn1-11" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitstudentoffaith-student-of-faith-fn1-11"><Link to="/trait/student_of_faith">⮞</Link> Student of Faith <sup><InnerLink showBacklink="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.11" id="main-traits_campaign_rise_of_the_runelords-fake-fn-1.11" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
 <Pair single="flavor" id="traitstudentoffaith-student-of-faith-fn1-11-flavor">While you have personally dedicated your life to a single deity, you study all religions and mortal faiths. Upon hearing that the town of Sandpoint recently completed a cathedral dedicated to the six deities most popular in the area, you had to see the place for yourself, and have arrived in time for the consecration of this holy edifice.</Pair>
 <Pair single="benefit" id="traitstudentoffaith-student-of-faith-fn1-11-benefit">Because of your strong faith and broad range of study, you cast all <Link to="/main/cure_spells">cure spells</Link> at +1 caster level, and whenever you <Link to="/ability/channel_energy">channel energy</Link>, you gain a +1 trait bonus to the save DC of your channeled energy.</Pair>
 </Ability>
-<Ability id="traitthrillseekerrotr-thrill-seeker-rotr-fn2-2-fn1-12" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitthrillseekerrotr-thrill-seeker-rotr-fn2-2-fn1-12" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitthrillseekerrotr-thrill-seeker-rotr-fn2-2-fn1-12"><Link to="/trait/thrill_seeker_rotr">⮞</Link> Thrill Seeker (RotR) <sup><InnerLink showBacklink="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-2.2" id="main-traits_campaign_rise_of_the_runelords-fake-fn-2.2" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.12" id="main-traits_campaign_rise_of_the_runelords-fake-fn-1.12" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
@@ -218,28 +218,28 @@ const _traits_campaign_rise_of_the_runelords = {title: "Campaign Traits: Rise of
 <li id="main-traits_campaign_rise_of_the_runelords-fake-fn-1-target"><p><Link to="/source/rise_of_the_runelords_anniversary_edition_players_guide">Rise of the Runelords Anniversary Edition Player's Guide</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.2" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.3" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.4" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.5" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.6" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.7" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.8" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.9" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.10" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1.10">↩<sup>10</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.11" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1.11">↩<sup>11</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-1.12" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-1.12">↩<sup>12</sup></InnerLink></p></li>
 <li id="main-traits_campaign_rise_of_the_runelords-fake-fn-2-target"><p><Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-2" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_rise_of_the_runelords-fake-fn-2.2" data-hash-target to="main-traits_campaign_rise_of_the_runelords-fake-fn-2.2">↩<sup>2</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_campaign_ruins_of_azlant = {title: "Campaign Traits: Ruins of Azlant", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitathletic-athletic-fn1" extraClasses="trait" icon={["treasure-map"]}>
+const _traits_campaign_ruins_of_azlant = {title: "Campaign Traits: Ruins of Azlant", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitathletic-athletic-fn1" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitathletic-athletic-fn1"><Link to="/trait/athletic">⮞</Link> Athletic <sup><InnerLink showBacklink="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1" id="main-traits_campaign_ruins_of_azlant-fake-fn-1" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
 <Pair single="flavor" id="traitathletic-athletic-fn1-flavor">You have always had a knack for physical activity. You either grew up in a rural area and had an active childhood where you were always climbing trees, swimming in lakes and rivers, and clambering up rocky hillsides, or you competed in and excelled at contests or sports while growing up in a larger settlement. Due to this background, little can slow you down or inhibit your movements. When the Bountiful Venture Company interviewed you, they noticed your stature and physicality, and they chose you for the colonial expedition knowing that a strong back is always helpful in a growing colony.</Pair>
 <Pair single="benefit" id="traitathletic-athletic-fn1-benefit">You reduce your armor check penalty by a number equal to one-third your character level (minimum 1) for purposes of <Link to="/skill/acrobatics">Acrobatics</Link>, <Link to="/skill/climb">Climb</Link>, and <Link to="/skill/swim">Swim</Link> checks, and you gain a +1 trait bonus to one of these three skills, chosen when you take this trait.</Pair>
 </Ability>
-<Ability id="traitazlantischolarroapg-azlanti-scholar-roapg-fn1-2" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitazlantischolarroapg-azlanti-scholar-roapg-fn1-2" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitazlantischolarroapg-azlanti-scholar-roapg-fn1-2"><Link to="/trait/azlanti_scholar_roapg">⮞</Link> Azlanti Scholar (RoAPG) <sup><InnerLink showBacklink="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.2" id="main-traits_campaign_ruins_of_azlant-fake-fn-1.2" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
 <Pair single="flavor" id="traitazlantischolarroapg-azlanti-scholar-roapg-fn1-2-flavor">You are familiar with an aspect of Azlanti lore. Maybe you first became enamored with this ancient culture after stumbling across a copy of the first volume of the Pathfinder Chronicles or after learning about Azlant in a university or another type of formal education. Perhaps your parents or guardians were scholars and you've grown up hearing about and reading about the ancient Azlanti. For years you dreamed about visiting the continent's ruins and returning with a discovery that could propel your career. Due to this scholarly bent, the Bountiful Venture Company selected you to join the colony at Talmandor's Bounty.</Pair>
 <Pair single="benefit" id="traitazlantischolarroapg-azlanti-scholar-roapg-fn1-2-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_history">Knowledge (history)</Link>, <Link to="/skill/knowledge_local">Knowledge (local)</Link>, and <Link to="/skill/use_magic_device">Use Magic Device</Link> checks, and one of these skills is a class skill for you. In addition, you gain Azlanti as a bonus language.</Pair>
 </Ability>
-<Ability id="traiteagleknightrecruit-eagle-knight-recruit-fn1-3" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traiteagleknightrecruit-eagle-knight-recruit-fn1-3" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traiteagleknightrecruit-eagle-knight-recruit-fn1-3"><Link to="/trait/eagle_knight_recruit">⮞</Link> Eagle Knight Recruit <sup><InnerLink showBacklink="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.3" id="main-traits_campaign_ruins_of_azlant-fake-fn-1.3" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
 <Pair single="flavor" id="traiteagleknightrecruit-eagle-knight-recruit-fn1-3-flavor">Since Talmandor's Bounty is an Andoren colony and is unlikely to see the threat of slavery, the presence of the <Link to="/rule/eagle_knights">Eagle Knights</Link> isn't strongly needed, and the Bountiful Venture Company would prefer to not have that organization immediately associated with the colony (despite the colony's name having been derived from the Eagle Knights' patron, Talmandor). However, the need for safety can't be overlooked. You were a soldier in the Andoren army or you were a civilian who showed great promise in military matters. The Eagle Knights recruited you and offered unofficial Eagle Knight status if you managed to make it into the ranks of the colonists. There, you would see to the safety of the colony and send back reports with each supply ship regarding the general state of the colony and any threats you notice. The Bountiful Venture Company admired your military prowess and selected you for the second wave of colonists to arrive at Talmandor's Bounty.</Pair>
 <Pair single="benefit" id="traiteagleknightrecruit-eagle-knight-recruit-fn1-3-benefit">You begin play with a <Link to="/eq-armor/breastplate">breastplate</Link>, a <Link to="/eq-weapon/longsword">longsword</Link> (or some other martial or simple weapon), and an additional 100 gp of gear. In addition, you gain a +1 trait bonus on saving throws against mind-affecting effects.</Pair>
 </Ability>
-<Ability id="traitemployee-employee-fn1-4" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitemployee-employee-fn1-4" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitemployee-employee-fn1-4"><Link to="/trait/employee">⮞</Link> Employee <sup><InnerLink showBacklink="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.4" id="main-traits_campaign_ruins_of_azlant-fake-fn-1.4" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
@@ -248,35 +248,35 @@ const _traits_campaign_ruins_of_azlant = {title: "Campaign Traits: Ruins of Azla
 <p>Due to your association with the Bountiful Venture Company, your words and ideas may carry additional weight with the other employees of the company. (Your GM can grant a +1 circumstance bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks in regards to these people in certain situations.) In addition, you gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks, and Bluff is always a class skill for you.</p>
 </Pair>
 </Ability>
-<Ability id="traitexpertexplorer-expert-explorer-fn1-5" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitexpertexplorer-expert-explorer-fn1-5" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitexpertexplorer-expert-explorer-fn1-5"><Link to="/trait/expert_explorer">⮞</Link> Expert Explorer <sup><InnerLink showBacklink="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.5" id="main-traits_campaign_ruins_of_azlant-fake-fn-1.5" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
 <Pair single="flavor" id="traitexpertexplorer-expert-explorer-fn1-5-flavor">Adventurous scholars raised you, or perhaps you were born during an expedition and haven't known any other life. You get fidgety and impatient when you become too familiar with a certain place. You are used to having excitement and the quest for knowledge guides your path in life, and you picked up a number of skills along the way that relate to this lifestyle. During your interview with the Bountiful Venture Company, they were impressed with the diverse locations you've visited in your life and selected you because of your skills in maneuvering uncharted territory.</Pair>
 <Pair single="benefit" id="traitexpertexplorer-expert-explorer-fn1-5-benefit">Choose one <Link to="/skill/knowledge">Knowledge</Link> skill when you gain this trait. You gain a +1 trait bonus to check with that Knowledge skill and <Link to="/skill/survival">Survival</Link> checks, and either that Knowledge skill or Survival is a class skill for you. In addition, you treat the <Link to="/eq-weapon/machete">machete</Link> as a simple weapon.</Pair>
 </Ability>
-<Ability id="traitfollowinginthefootsteps-following-in-the-footsteps-fn1-6" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitfollowinginthefootsteps-following-in-the-footsteps-fn1-6" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitfollowinginthefootsteps-following-in-the-footsteps-fn1-6"><Link to="/trait/following_in_the_footsteps">⮞</Link> Following in the Footsteps <sup><InnerLink showBacklink="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.6" id="main-traits_campaign_ruins_of_azlant-fake-fn-1.6" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
 <Pair single="flavor" id="traitfollowinginthefootsteps-following-in-the-footsteps-fn1-6-flavor">One of your dear friends or family members was part of the first wave of colonists to be selected by the Bountiful Venture Company to establish Talmandor's Bounty. You applied for the first wave as well, but weren't selected. Now that you've made your way into the second wave, you can't wait to be reunited with your family member. Your devotion to your family or friends is important to you, and it shows not only in how you feel about that friend or family member you are soon to reunite with, but also in how you treat other people with respect.</Pair>
 <Pair single="benefit" id="traitfollowinginthefootsteps-following-in-the-footsteps-fn1-6-benefit">Whenever you use the <Link to="/rule/aid_another">aid another</Link> action to aid an adjacent ally, increase the bonus you grant your ally by 1. In addition, due to your positive and helpful nature, you gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks.</Pair>
 </Ability>
-<Ability id="traithealthy-healthy-fn1-7" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traithealthy-healthy-fn1-7" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traithealthy-healthy-fn1-7"><Link to="/trait/healthy">⮞</Link> Healthy <sup><InnerLink showBacklink="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.7" id="main-traits_campaign_ruins_of_azlant-fake-fn-1.7" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
 <Pair single="flavor" id="traithealthy-healthy-fn1-7-flavor">You come from a long line of hale and long-lived people. Growing up, you rarely got sick and had enough energy to run all day if it suited you. You don't get as tired as other people and repeated physical activities don't seem to bother you much. You were selected as part of the expedition because the Bountiful Venture Company saw great importance and promise in your robust health.</Pair>
 <Pair single="benefit" id="traithealthy-healthy-fn1-7-benefit">You gain a +1 trait bonus on Fortitude saves, <Link to="/skill/swim">Swim</Link> checks to prevent nonlethal damage from fatigue after swimming for more than an hour at a time, and Constitution checks to prevent fatigue. In addition, you can <Link to="/misc/hold_your_breath">hold your breath</Link> for a number of rounds equal to 3 times your Constitution score.</Pair>
 </Ability>
-<Ability id="traitpathfinderrecruit-pathfinder-recruit-fn1-8" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitpathfinderrecruit-pathfinder-recruit-fn1-8" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitpathfinderrecruit-pathfinder-recruit-fn1-8"><Link to="/trait/pathfinder_recruit">⮞</Link> Pathfinder Recruit <sup><InnerLink showBacklink="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.8" id="main-traits_campaign_ruins_of_azlant-fake-fn-1.8" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
 <Pair single="flavor" id="traitpathfinderrecruit-pathfinder-recruit-fn1-8-flavor">Explore, report, and cooperate. This is the credo you've lived by since you've joined the <Link to="/rule/pathfinder_society">Pathfinder Society</Link>, and after hearing about the expedition to found Talmandor's Bounty you applied, eager to see the remains of Azlant. However, you quickly learned that the Bountiful Venture Company wasn't interested in involving the Pathfinder Society in the formation of the colony. This struck you as strange, because who else has as keen an understanding of some of the elements of ancient Azlant as the Pathfinder Society? Regardless, you went through the application process, making sure to highlight all of your applicable skills and experience while keeping your involvement in the Society to yourself. You were elated to receive notice that you were selected for the second wave of colonists bound for the broken continent of Azlant.</Pair>
 <Pair single="benefit" id="traitpathfinderrecruit-pathfinder-recruit-fn1-8-benefit">You begin play with a standard <Link to="/magic-wondrous/wayfinder">wayfinder</Link> and you gain a +1 trait bonus on initiative checks.</Pair>
 </Ability>
-<Ability id="traitresourceful-resourceful-fn1-9" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitresourceful-resourceful-fn1-9" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitresourceful-resourceful-fn1-9"><Link to="/trait/resourceful">⮞</Link> Resourceful <sup><InnerLink showBacklink="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.9" id="main-traits_campaign_ruins_of_azlant-fake-fn-1.9" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
@@ -285,21 +285,21 @@ const _traits_campaign_ruins_of_azlant = {title: "Campaign Traits: Ruins of Azla
 <p>In addition, the time required for you to create a magic item is decreased. You require only 8 hours for every 1,500 gp in the item's base price (instead of the normal 8 hours per 1,000 gp). You can create potions and scrolls whose base price is 375 gp in just 2 hours; potions and scrolls with a base price more than 375 gp but less than 1,500 gp take 8 hours to create, just like any other magic item.</p>
 </Pair>
 </Ability>
-<Ability id="traitseasonedhunter-seasoned-hunter-fn1-10" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitseasonedhunter-seasoned-hunter-fn1-10" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitseasonedhunter-seasoned-hunter-fn1-10"><Link to="/trait/seasoned_hunter">⮞</Link> Seasoned Hunter <sup><InnerLink showBacklink="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.10" id="main-traits_campaign_ruins_of_azlant-fake-fn-1.10" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
 <Pair single="flavor" id="traitseasonedhunter-seasoned-hunter-fn1-10-flavor">You grew up hunting every season, any season. Maybe you grew up in a rural area and hunted to put food on the table, or perhaps you come from a comfortable lifestyle where hunting for sport is an excellent excuse to camp in the wilderness and hone your skills. After sharing stories of your most exciting hunts and proving to them that you can hit a bull's eye at 100 feet, the Bountiful Venture Company selected you for the expedition assured that you can provide food and security to the young colony.</Pair>
 <Pair single="benefit" id="traitseasonedhunter-seasoned-hunter-fn1-10-benefit">Pick one of the following creature types: aberration, animal, magical beast, or vermin. You gain a +1 trait bonus on attack rolls or damage rolls (choose one; once chosen it can't be changed) against creatures of that type.</Pair>
 </Ability>
-<Ability id="traitsetmind-set-mind-fn1-11" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitsetmind-set-mind-fn1-11" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitsetmind-set-mind-fn1-11"><Link to="/trait/set_mind">⮞</Link> Set Mind <sup><InnerLink showBacklink="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.11" id="main-traits_campaign_ruins_of_azlant-fake-fn-1.11" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
 <Pair single="flavor" id="traitsetmind-set-mind-fn1-11-flavor">Every time that you've said you'd do something, you've made sure to follow through. You can't remember a time when you weren't this way. People have a hard time making you change your mind once you've set yourself on a certain path. You might be exceptionally stubborn or you may just have a particular determination. Either way, you're going to keep doing what you set your mind to. The Bountiful Venture Company recognized this useful trait of yours and selected you for the second wave of colonists because of your great resolve and unswerving dedication to what you set your mind upon.</Pair>
 <Pair single="benefit" id="traitsetmind-set-mind-fn1-11-benefit">Once per day when you fail a saving throw against a charm or compulsion effect that would cause you to act differently than you normally would, you can immediately reroll that saving throw as a <strong className="hl">free action</strong>. You must take the second result, even if it's worse.</Pair>
 </Ability>
-<Ability id="traitskillful-skillful-fn1-12" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitskillful-skillful-fn1-12" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitskillful-skillful-fn1-12"><Link to="/trait/skillful">⮞</Link> Skillful <sup><InnerLink showBacklink="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.12" id="main-traits_campaign_ruins_of_azlant-fake-fn-1.12" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
@@ -309,63 +309,63 @@ const _traits_campaign_ruins_of_azlant = {title: "Campaign Traits: Ruins of Azla
 </IonLabel></IonItem><section data-footnotes><h3 id="main-traits_campaign_ruins_of_azlant-label">Footnotes</h3><ol>
 <li id="main-traits_campaign_ruins_of_azlant-fake-fn-1-target"><p><Link to="/source/ruins_of_azlant_players_guide">Ruins of Azlant Player's Guide</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.2" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.3" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.4" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.5" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.6" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.7" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.8" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.9" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.10" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1.10">↩<sup>10</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.11" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1.11">↩<sup>11</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_ruins_of_azlant-fake-fn-1.12" data-hash-target to="main-traits_campaign_ruins_of_azlant-fake-fn-1.12">↩<sup>12</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_campaign_second_darkness = {title: "Campaign Traits: Second Darkness", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitdaringdoomsayer-daring-doomsayer-fn1-fn2" extraClasses="trait" icon={["treasure-map"]}>
+const _traits_campaign_second_darkness = {title: "Campaign Traits: Second Darkness", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitdaringdoomsayer-daring-doomsayer-fn1-fn2" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitdaringdoomsayer-daring-doomsayer-fn1-fn2"><Link to="/trait/daring_doomsayer">⮞</Link> Daring Doomsayer <sup><InnerLink showBacklink="backlink-main-traits_campaign_second_darkness-fake-fn-1" id="main-traits_campaign_second_darkness-fake-fn-1" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_second_darkness-fake-fn-2" id="main-traits_campaign_second_darkness-fake-fn-2" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Second Darkness</Pair>
 <Pair single="flavor" id="traitdaringdoomsayer-daring-doomsayer-fn1-fn2-flavor">The end times are coming, and the shadow in the sky over Riddleport is just the first piece of proof. Convinced that the end of the world is nigh, you've decided to take part in the Golden Goblin's gambling tournament - after all, what do you have to lose?</Pair>
 <Pair single="benefit" id="traitdaringdoomsayer-daring-doomsayer-fn1-fn2-benefit">Whenever you roll a 1 on an attack roll, you gain a +1 trait bonus on your next attack roll so long as it is made within 1 minute. You also begin play with a placard bearing an apocalyptic slogan of your choice; this wooden sign can be used as a <Link to="/eq-weapon/club">club</Link>.</Pair>
 </Ability>
-<Ability id="traitfixerofodds-fixer-of-odds-fn1-2-fn2-2" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitfixerofodds-fixer-of-odds-fn1-2-fn2-2" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitfixerofodds-fixer-of-odds-fn1-2-fn2-2"><Link to="/trait/fixer_of_odds">⮞</Link> Fixer of Odds <sup><InnerLink showBacklink="backlink-main-traits_campaign_second_darkness-fake-fn-1.2" id="main-traits_campaign_second_darkness-fake-fn-1.2" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_second_darkness-fake-fn-2.2" id="main-traits_campaign_second_darkness-fake-fn-2.2" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Second Darkness</Pair>
 <Pair single="flavor" id="traitfixerofodds-fixer-of-odds-fn1-2-fn2-2-flavor">You're going to win the Golden Goblin's upcoming "Cheat the Devil and Take His Gold" tournament one way or the other.</Pair>
 <Pair single="benefit" id="traitfixerofodds-fixer-of-odds-fn1-2-fn2-2-benefit">You gain a +1 trait bonus on <Link to="/skill/profession">Profession</Link> (gambling) checks, and creatures searching you for objects hidden on your body don't gain the usual +4 bonus on their Perception checks. Additionally, you begin play with a "fixed" six-sided die (it has two 6s and no 1) and a <Link to="/eq-weapon/dagger">dagger</Link>.</Pair>
 </Ability>
-<Ability id="traitfoolsforfriends-fools-for-friends-fn2-3" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitfoolsforfriends-fools-for-friends-fn2-3" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitfoolsforfriends-fools-for-friends-fn2-3"><Link to="/trait/fools_for_friends">⮞</Link> Fools for Friends <sup><InnerLink showBacklink="backlink-main-traits_campaign_second_darkness-fake-fn-2.3" id="main-traits_campaign_second_darkness-fake-fn-2.3" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Second Darkness</Pair>
 <Pair single="flavor" id="traitfoolsforfriends-fools-for-friends-fn2-3-flavor">You don't think of yourself as a gambler. In fact, you rather detest the whole thing. Unfortunately, one or more of your friends (pick one or more of the other players' characters) doesn't think so, and you've recently learned that friend - or friends - have decided to go to the Gold Goblin's "Cheat the Devil and Take his Gold" tournament. Which pretty much means you have to go as well, since if no one's there to watch out for them, they'll lose all their money and respect. Again. Sometimes it's hard being the responsible one. Your devotion to your friendships (even when said friends seem, at times, to be trying to test that devotion) is a point of pride to you.</Pair>
 <Pair single="benefit" id="traitfoolsforfriends-fools-for-friends-fn2-3-benefit">Whenever you take the <Link to="/rule/aid_another">aid another</Link> action to help an ally, or whenever an ally <Link to="/rule/aid_another_2">aids you</Link> in this manner, a successful check grants an additional +1 trait bonus to the check for which aid was being rendered. Additionally, as long as one of your friends is within 30 feet, you gain a +1 trait bonus on all saving throws against charm and compulsion effects.</Pair>
 </Ability>
-<Ability id="traitintoenemyterritory-into-enemy-territory-fn2-4" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitintoenemyterritory-into-enemy-territory-fn2-4" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitintoenemyterritory-into-enemy-territory-fn2-4"><Link to="/trait/into_enemy_territory">⮞</Link> Into Enemy Territory <sup><InnerLink showBacklink="backlink-main-traits_campaign_second_darkness-fake-fn-2.4" id="main-traits_campaign_second_darkness-fake-fn-2.4" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Second Darkness</Pair>
 <Pair single="flavor" id="traitintoenemyterritory-into-enemy-territory-fn2-4-flavor">The shadow in the sky is visible from all around Riddleport, not just in town. It's certainly come to the attention of several druids, rangers, and other rural folk who dwell in the nearby mountains, forests, and swamps - among them, yourself. You've consulted with several seers and Harrowers, and may even have performed some simple auguries yourself, and all the signs point the same way - something or someone in Riddleport is connected to the blot, and it means bad news for the region. You've avoided the sleazy, dirty town for most of your life, traveling there only when absolutely necessary, and although you don't relish the prospect of going there now, you see little other choice (especially if one of your superiors is ordering you to go investigate).~~~Fortunately, an eccentric friend of yours (pick another PC) is in town, and You've heard this friend will be taking part in some gambling thing at a place called the Gold Goblin. Your friend's always had better luck interacting with the cityfolk, so You've decided to accompany your friend to this gambling tournament and plan on letting him find a safe place for you to stay while you're in town. Your long life of self-sustenance has toughened you and made you more resistant to hardship, in any event.</Pair>
 <Pair single="benefit" id="traitintoenemyterritory-into-enemy-territory-fn2-4-benefit">Pick one of the three categories of saving throw. You gain a +1 trait bonus on all saving throws of that type.</Pair>
 </Ability>
-<Ability id="traitlookingforwork-looking-for-work-fn2-5" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitlookingforwork-looking-for-work-fn2-5" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitlookingforwork-looking-for-work-fn2-5"><Link to="/trait/looking_for_work">⮞</Link> Looking for Work <sup><InnerLink showBacklink="backlink-main-traits_campaign_second_darkness-fake-fn-2.5" id="main-traits_campaign_second_darkness-fake-fn-2.5" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Second Darkness</Pair>
 <Pair single="flavor" id="traitlookingforwork-looking-for-work-fn2-5-flavor">Although out of work, you aren't particularly keen on the prospect of gambling away your last remaining coins simply for a chance at riches. That said, if the Gold Goblin's fortunes reverse after this big gambling tournament, you're relatively certain its owner, Saul Vancaskerkin, will be needing to hire on some new staff members. You've secured payment for the tournament, and intend on attending mostly to check the place out, to decide if it's a place you'd want to work at (as a bouncer, bartender, croupier, server, entertainer, spotter, or cook), and hopefully get a chance to catch Saul's eye and make an impression. You've long worked at honing your skills, and are quite accomplished and certain that you have something to offer.</Pair>
 <Pair single="benefit" id="traitlookingforwork-looking-for-work-fn2-5-benefit">Pick one of the following skills: <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/craft">Craft</Link> (any), <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/intimidate">Intimidate</Link>, <Link to="/skill/perform">Perform</Link> (any), <Link to="/skill/profession">Profession</Link> (gambler), or <Link to="/skill/perception">Perception</Link>. You gain a +1 trait bonus in that skill, and that skill is always considered a class skill for you.</Pair>
 </Ability>
-<Ability id="traitoptimisticgambler-optimistic-gambler-fn2-6" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitoptimisticgambler-optimistic-gambler-fn2-6" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitoptimisticgambler-optimistic-gambler-fn2-6"><Link to="/trait/optimistic_gambler">⮞</Link> Optimistic Gambler <sup><InnerLink showBacklink="backlink-main-traits_campaign_second_darkness-fake-fn-2.6" id="main-traits_campaign_second_darkness-fake-fn-2.6" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Second Darkness</Pair>
 <Pair single="flavor" id="traitoptimisticgambler-optimistic-gambler-fn2-6-flavor">You've always seemed to have trouble keeping money. Worse, you always seem to have debts looming over your head. When you heard about the "Cheat the Devil and Take His Gold" gambling tournament, you felt in your gut that your luck was about to change. You've always been optimistic, in fact, and even though right now is one of those rare times where you don't owe anyone any money (you just paid off a recent loan from local moneylender Lymas Smeed), you know that'll change soon enough. Better to start amassing money now when you're at one of those rare windfall times! You've set aside a gold coin for the entrance fee, and look forward to making it big - you can feel it in your bones! This time's gonna be the big one! Your boundless optimism, even in the face of crushing situations, has always bolstered your spirit.</Pair>
 <Pair single="benefit" id="traitoptimisticgambler-optimistic-gambler-fn2-6-benefit">Effects that grant you morale bonuses persist 1d4 rounds longer than they normally would.</Pair>
 </Ability>
-<Ability id="traitportentousperception-portentous-perception-fn1-3-fn2-7" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitportentousperception-portentous-perception-fn1-3-fn2-7" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitportentousperception-portentous-perception-fn1-3-fn2-7"><Link to="/trait/portentous_perception">⮞</Link> Portentous Perception <sup><InnerLink showBacklink="backlink-main-traits_campaign_second_darkness-fake-fn-1.3" id="main-traits_campaign_second_darkness-fake-fn-1.3" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_second_darkness-fake-fn-2.7" id="main-traits_campaign_second_darkness-fake-fn-2.7" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Second Darkness</Pair>
 <Pair single="flavor" id="traitportentousperception-portentous-perception-fn1-3-fn2-7-flavor">You've come (or been sent) to Riddleport to observe the strange Blot that has appeared in the city's sky. You've decided to put your keen senses to the test at the Golden Goblin's upcoming gambling competition while you're here. Your sharp eyesight makes it easier for you to notice things at a distance.</Pair>
 <Pair single="benefit" id="traitportentousperception-portentous-perception-fn1-3-fn2-7-benefit">For you, <Link to="/skill/perception">Perception</Link> checks only start increasing in difficulty at a range of 20 feet or farther, as opposed to the normal 10. This has no effect on checks made to perceive things within 10 feet.</Pair>
 </Ability>
-<Ability id="traitresearchingtheblot-researching-the-blot-fn2-8" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitresearchingtheblot-researching-the-blot-fn2-8" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitresearchingtheblot-researching-the-blot-fn2-8"><Link to="/trait/researching_the_blot">⮞</Link> Researching the Blot <sup><InnerLink showBacklink="backlink-main-traits_campaign_second_darkness-fake-fn-2.8" id="main-traits_campaign_second_darkness-fake-fn-2.8" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Second Darkness</Pair>
 <Pair single="flavor" id="traitresearchingtheblot-researching-the-blot-fn2-8-flavor">You may or may not be seeking membership into Riddleport's most prestigious magical guild, the Order of Cyphers, but you certainly have heard their call for aid in determining the nature of the strange shadow in the sky above Riddleport. You arrived in town several days ago and had some issues with security and safety at several inns before you finally settled on the Gold Goblin; you've been staying there as a guest for several days now, and the owner, Saul Vancaskerkin, seems like a nice guy. He's even given you a pass to attend the gambling tournament he's about to throw - you're not sure how into gambling you'll be, but perhaps there'll be some visitors from out of town you can talk to about the strange shadow in the sky. At the very least, you're hoping someone at the tourney will be into magic - there's not really enough folk in this town who seem all that interested in magic, you've found. Your interest in magic dates back quite far, and as a result, you've developed a knack for identifying common magical items at a glance.</Pair>
 <Pair single="benefit" id="traitresearchingtheblot-researching-the-blot-fn2-8-benefit">You can use <Link to="/skill/spellcraft">Spellcraft</Link> to identify magic items in the same way you can use Spellcraft to identify a potion. The DC to identify a magic item is equal to 20 + the item's caster level.</Pair>
 </Ability>
-<Ability id="traitscoutingforfiends-scouting-for-fiends-fn2-9" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitscoutingforfiends-scouting-for-fiends-fn2-9" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitscoutingforfiends-scouting-for-fiends-fn2-9"><Link to="/trait/scouting_for_fiends">⮞</Link> Scouting for Fiends <sup><InnerLink showBacklink="backlink-main-traits_campaign_second_darkness-fake-fn-2.9" id="main-traits_campaign_second_darkness-fake-fn-2.9" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Second Darkness</Pair>
@@ -376,70 +376,70 @@ const _traits_campaign_second_darkness = {title: "Campaign Traits: Second Darkne
 <li id="main-traits_campaign_second_darkness-fake-fn-1-target"><p><Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_second_darkness-fake-fn-1" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_second_darkness-fake-fn-1.2" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_second_darkness-fake-fn-1.3" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-1.3">↩<sup>3</sup></InnerLink></p></li>
 <li id="main-traits_campaign_second_darkness-fake-fn-2-target"><p><Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_second_darkness-fake-fn-2" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_second_darkness-fake-fn-2.2" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-2.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_second_darkness-fake-fn-2.3" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-2.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_second_darkness-fake-fn-2.4" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-2.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_second_darkness-fake-fn-2.5" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-2.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_second_darkness-fake-fn-2.6" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-2.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_second_darkness-fake-fn-2.7" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-2.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_second_darkness-fake-fn-2.8" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-2.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_second_darkness-fake-fn-2.9" data-hash-target to="main-traits_campaign_second_darkness-fake-fn-2.9">↩<sup>9</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_campaign_serpents_skull = {title: "Campaign Traits: Serpent's Skull", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitboardedincheliax-boarded-in-cheliax-fn1" extraClasses="trait" icon={["treasure-map"]}>
+const _traits_campaign_serpents_skull = {title: "Campaign Traits: Serpent's Skull", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitboardedincheliax-boarded-in-cheliax-fn1" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitboardedincheliax-boarded-in-cheliax-fn1"><Link to="/trait/boarded_in_cheliax">⮞</Link> Boarded in Cheliax <sup><InnerLink showBacklink="backlink-main-traits_campaign_serpents_skull-fake-fn-1" id="main-traits_campaign_serpents_skull-fake-fn-1" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
 <Pair single="flavor" id="traitboardedincheliax-boarded-in-cheliax-fn1-flavor">While you aren't necessarily a native of Cheliax, you boarded the Jenivere at one of that country's port cities. As the people of Cheliax generally know the Mwangi Expanse as a near legendary land home to strange beasts and exotic treasures, your views of the region have a distinctly romantic tinge, and the desire for fame, wealth, and adventure likely motivate your travels.</Pair>
 <Pair single="benefit" id="traitboardedincheliax-boarded-in-cheliax-fn1-benefit">You begin the campaign with a detailed map of the Mwangi Expanse (this grants +2 competence bonus on all <Link to="/skill/knowledge_geography">Knowledge [geography]</Link> checks made regarding this region) and 200 gp worth of mundane equipment to aid your exploration of the jungle.</Pair>
 </Ability>
-<Ability id="traitboardedinmediogalti-boarded-in-mediogalti-fn1-2" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitboardedinmediogalti-boarded-in-mediogalti-fn1-2" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitboardedinmediogalti-boarded-in-mediogalti-fn1-2"><Link to="/trait/boarded_in_mediogalti">⮞</Link> Boarded in Mediogalti <sup><InnerLink showBacklink="backlink-main-traits_campaign_serpents_skull-fake-fn-1.2" id="main-traits_campaign_serpents_skull-fake-fn-1.2" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
 <Pair single="flavor" id="traitboardedinmediogalti-boarded-in-mediogalti-fn1-2-flavor">Your travels have brought you to the Jenivere through the dangerous port of Ilizmagorti, home to both pirates and assassins. Perhaps you're fleeing a price on your head, perhaps you've jumped ship from another vessel, or perhaps you're merely looking for a new start in a land where the dangers make themselves more obvious.</Pair>
 <Pair single="benefit" id="traitboardedinmediogalti-boarded-in-mediogalti-fn1-2-benefit">Your familiarity with subtle slayings and toxins grants you a +2 trait bonus on all saves against poison. In addition, you can pick one type of poison listed below to be immune to, having undergone a long and painful process of building up an immunity to its effects: <Link to="/eq-poison/blue_whinnis">blue whinnis</Link>, <Link to="/eq-poison/giant_wasp_poison">giant wasp poison</Link>, <Link to="/eq-poison/medium_spider_venom">medium spider venom</Link>, <Link to="/eq-poison/small_centipede_poison">small centipede poison</Link>, or <em>spider vine poison</em> (a poison derived from a toxic plant native to the Mwangi Expanse).</Pair>
 </Ability>
-<Ability id="traitboardedinmwangiexpanse-boarded-in-mwangi-expanse-fn1-3" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitboardedinmwangiexpanse-boarded-in-mwangi-expanse-fn1-3" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitboardedinmwangiexpanse-boarded-in-mwangi-expanse-fn1-3"><Link to="/trait/boarded_in_mwangi_expanse">⮞</Link> Boarded in Mwangi Expanse <sup><InnerLink showBacklink="backlink-main-traits_campaign_serpents_skull-fake-fn-1.3" id="main-traits_campaign_serpents_skull-fake-fn-1.3" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
 <Pair single="flavor" id="traitboardedinmwangiexpanse-boarded-in-mwangi-expanse-fn1-3-flavor">You boarded the Jenivere in the Mwangi Expanse, where you've lived or recently traveled through. You harbor no illusions regarding the deadliness of the jungles, the creatures that inhabit it, or the peoples that make their home therein.</Pair>
 <Pair single="benefit" id="traitboardedinmwangiexpanse-boarded-in-mwangi-expanse-fn1-3-benefit">You gain Polyglot as a bonus language and receive a +1 trait bonus on all <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> checks regarding the jungle.</Pair>
 </Ability>
-<Ability id="traitboardedinvarisia-boarded-in-varisia-fn1-4" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitboardedinvarisia-boarded-in-varisia-fn1-4" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitboardedinvarisia-boarded-in-varisia-fn1-4"><Link to="/trait/boarded_in_varisia">⮞</Link> Boarded in Varisia <sup><InnerLink showBacklink="backlink-main-traits_campaign_serpents_skull-fake-fn-1.4" id="main-traits_campaign_serpents_skull-fake-fn-1.4" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
 <Pair single="flavor" id="traitboardedinvarisia-boarded-in-varisia-fn1-4-flavor">Traveling from lands far to the north, you likely have little experience with the jungle, its denizens, or its strange forces. Just as the lands of Garund are wild and exotic to you, so are you to them. This unusualness manifests in one of two ways.</Pair>
 <Pair single="benefit" id="traitboardedinvarisia-boarded-in-varisia-fn1-4-benefit">Choose to gain either a +2 trait bonus on all <Link to="/skill/bluff">Bluff</Link> checks made against inhabitants of the jungle, or treat your spells with the mind-affecting descriptor as being +1 caster level higher when cast against creatures and natives of the jungle.</Pair>
 </Ability>
-<Ability id="traitboardedintheshackles-boarded-in-the-shackles-fn1-5" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitboardedintheshackles-boarded-in-the-shackles-fn1-5" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitboardedintheshackles-boarded-in-the-shackles-fn1-5"><Link to="/trait/boarded_in_the_shackles">⮞</Link> Boarded in the Shackles <sup><InnerLink showBacklink="backlink-main-traits_campaign_serpents_skull-fake-fn-1.5" id="main-traits_campaign_serpents_skull-fake-fn-1.5" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
 <Pair single="flavor" id="traitboardedintheshackles-boarded-in-the-shackles-fn1-5-flavor">Your last home was in the Shackles, a dangerous land of pirates and treachery, but also of fantastic opportunity. A life of weal and woe on the sea and amid the pirate controlled lands has toughened you to a variety of hardships.</Pair>
 <Pair single="benefit" id="traitboardedintheshackles-boarded-in-the-shackles-fn1-5-benefit">Pick one of the three categories of saving throws - you gain a +1 trait bonus on all saving throws of that type.</Pair>
 </Ability>
-<Ability id="traitcolonial-colonial-fn1-6" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitcolonial-colonial-fn1-6" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitcolonial-colonial-fn1-6"><Link to="/trait/colonial">⮞</Link> Colonial <sup><InnerLink showBacklink="backlink-main-traits_campaign_serpents_skull-fake-fn-1.6" id="main-traits_campaign_serpents_skull-fake-fn-1.6" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
 <Pair single="flavor" id="traitcolonial-colonial-fn1-6-flavor">You come from a long line of Sargavan colonists, stretching back to Cheliax's original expansion into the land during the Everwar. While your people's control of Sargava wanes every day, and Eleder has functioned independently from Cheliax since House Thrune brought diabolism to the political forefront, you nevertheless maintain a hardy Chelish constitution and natural sense of survival. What took you away from home is up to you, but you return to the land of your birth on the Jenivere in the hope of putting Sargava back on the map.~~~Characters with this trait are Sargavan natives and might be returning via any city, but especially from the Chelish ports of Kintargo, Pezzack, or Corentyn.</Pair>
 <Pair single="benefit" id="traitcolonial-colonial-fn1-6-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks relating to Sargavan settlements and politics and a +1 trait bonus on saving throws against disease.</Pair>
 </Ability>
-<Ability id="traitgetthecargothrough-get-the-cargo-through-fn1-7" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitgetthecargothrough-get-the-cargo-through-fn1-7" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitgetthecargothrough-get-the-cargo-through-fn1-7"><Link to="/trait/get_the_cargo_through">⮞</Link> Get the Cargo Through <sup><InnerLink showBacklink="backlink-main-traits_campaign_serpents_skull-fake-fn-1.7" id="main-traits_campaign_serpents_skull-fake-fn-1.7" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
 <Pair single="flavor" id="traitgetthecargothrough-get-the-cargo-through-fn1-7-flavor">Sea trade is never safe, even on the highly trafficked waters of the Inner Sea, but the way to Eleder is more perilous still. The ever-present hurricane known as the Eye of Abendego blows hundreds of ships each year off course, into jagged rocks, or directly to the sea floor. Pirates operating out of the Shackles Isles wait on the other side to take cargo from ships lucky enough to traverse or bypass the storm. Your job is to ensure a precious cargo aboard the Jenivere arrives safely in Eleder - what form this cargo takes and the nature of your relationship to it are up to you and your GM.~~~Characters with this trait likely boarded in Magnimar, Corentyn, Ilizmagorti, Port Peril, or Bloodcove.</Pair>
 <Pair single="benefit" id="traitgetthecargothrough-get-the-cargo-through-fn1-7-benefit">Your character's history as a merchant or mercenary has earned her a respectable living, and you begin the campaign with an additional 300 gp in starting wealth.</Pair>
 </Ability>
-<Ability id="traitjeniverecrew-jenivere-crew-fn1-8" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitjeniverecrew-jenivere-crew-fn1-8" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitjeniverecrew-jenivere-crew-fn1-8"><Link to="/trait/jenivere_crew">⮞</Link> Jenivere Crew <sup><InnerLink showBacklink="backlink-main-traits_campaign_serpents_skull-fake-fn-1.8" id="main-traits_campaign_serpents_skull-fake-fn-1.8" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
 <Pair single="flavor" id="traitjeniverecrew-jenivere-crew-fn1-8-flavor">This trip to Eleder is just one of many in a long career as a sailor aboard the Jenivere and other cargo vessels. Whether you joined the crew with the hope of one day captaining your own ship, as the means of paying your way to a foreign port with sweat and blood, or as a slave or indentured servant, you now call the ship home.~~~Characters with this trait have likely been on the Jenivere since it departed Magnimar.</Pair>
 <Pair single="benefit" id="traitjeniverecrew-jenivere-crew-fn1-8-benefit">Pick one of the following skills: <Link to="/skill/acrobatics">Acrobatics</Link>, <Link to="/skill/climb">Climb</Link>, <Link to="/skill/knowledge_nature">Knowledge (nature)</Link>, <Link to="/skill/knowledge_geography">Knowledge (geography)</Link>, <Link to="/skill/swim">Swim</Link>, or <Link to="/skill/survival">Survival</Link>. You gain a +1 trait bonus on that skill, and that skill is always treated as a class skill for you.</Pair>
 </Ability>
-<Ability id="traitmwangischolar-mwangi-scholar-fn1-9" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitmwangischolar-mwangi-scholar-fn1-9" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitmwangischolar-mwangi-scholar-fn1-9"><Link to="/trait/mwangi_scholar">⮞</Link> Mwangi Scholar <sup><InnerLink showBacklink="backlink-main-traits_campaign_serpents_skull-fake-fn-1.9" id="main-traits_campaign_serpents_skull-fake-fn-1.9" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
 <Pair single="flavor" id="traitmwangischolar-mwangi-scholar-fn1-9-flavor">The Mwangi Expanse is one of the richest regions in all of Golarion, and also one of the most mysterious. Despite its history of countless years and its fostering of nameless empires, very little is known of the Mwangi Expanse by outsiders or even natives of the primeval, jungle-covered land. You have long studied the region and its lore, and count yourself among a small handful of genuine experts throughout the Inner Sea. The Jenivere promises to take you to the very subject of your fascination, and you eagerly await firsthand investigation of the deep jungles and cyclopean ruins of Garund's interior.~~~Characters with this trait likely boarded the Jenivere in Ilizmagorti or one of the cities of the Shackles or the Mwangi Expanse.</Pair>
 <Pair single="benefit" id="traitmwangischolar-mwangi-scholar-fn1-9-benefit">You gain Polyglot as a bonus language and receive a +1 trait bonus on all <Link to="/skill/knowledge_history">Knowledge (history)</Link> checks regarding the Mwangi Expanse.</Pair>
 </Ability>
-<Ability id="traitstowaway-stowaway-fn1-10" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitstowaway-stowaway-fn1-10" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitstowaway-stowaway-fn1-10"><Link to="/trait/stowaway">⮞</Link> Stowaway <sup><InnerLink showBacklink="backlink-main-traits_campaign_serpents_skull-fake-fn-1.10" id="main-traits_campaign_serpents_skull-fake-fn-1.10" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
@@ -449,21 +449,21 @@ const _traits_campaign_serpents_skull = {title: "Campaign Traits: Serpent's Skul
 </IonLabel></IonItem><section data-footnotes><h3 id="main-traits_campaign_serpents_skull-label">Footnotes</h3><ol>
 <li id="main-traits_campaign_serpents_skull-fake-fn-1-target"><p><Link to="/source/serpents_skull_players_guide">Serpent's Skull Player's Guide</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_serpents_skull-fake-fn-1" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_serpents_skull-fake-fn-1.2" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_serpents_skull-fake-fn-1.3" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_serpents_skull-fake-fn-1.4" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_serpents_skull-fake-fn-1.5" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_serpents_skull-fake-fn-1.6" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_serpents_skull-fake-fn-1.7" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_serpents_skull-fake-fn-1.8" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_serpents_skull-fake-fn-1.9" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_serpents_skull-fake-fn-1.10" data-hash-target to="main-traits_campaign_serpents_skull-fake-fn-1.10">↩<sup>10</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_campaign_shattered_star = {title: "Campaign Traits: Shattered Star", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitalabasteroutcast-alabaster-outcast-fn1-fn2" extraClasses="trait" icon={["treasure-map"]}>
+const _traits_campaign_shattered_star = {title: "Campaign Traits: Shattered Star", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitalabasteroutcast-alabaster-outcast-fn1-fn2" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitalabasteroutcast-alabaster-outcast-fn1-fn2"><Link to="/trait/alabaster_outcast">⮞</Link> Alabaster Outcast <sup><InnerLink showBacklink="backlink-main-traits_campaign_shattered_star-fake-fn-1" id="main-traits_campaign_shattered_star-fake-fn-1" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_shattered_star-fake-fn-2" id="main-traits_campaign_shattered_star-fake-fn-2" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Shattered Star</Pair>
 <Pair single="flavor" id="traitalabasteroutcast-alabaster-outcast-fn1-fn2-flavor">You are a member of one of Magnimar's wealthiest families - or rather, you used to be. A falling-out left you disowned and disinherited. Now you hope to get away from the city and find fortune enough to shame your former kinsfolk - goals which led you to the <Link to="/rule/pathfinder_society">Pathfinder Society</Link>.</Pair>
 <Pair single="benefit" id="traitalabasteroutcast-alabaster-outcast-fn1-fn2-benefit">Despite your exile, your name still carries considerable weight in Magnimar, and you gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks made within the city. Additionally, you start play with a <Link to="/eq-misc/nobles_outfit">noble's outfit</Link>, a <Link to="/eq-misc/signet_ring">signet ring</Link>, and a single additional nonmagical item worth no more than 200 gp. Your last name is probably Derexhi, Kaddren, Mindurian, Niroden, Scarnetti, Valdemar, Vanderale, or Versade (but may be another of your choosing).</Pair>
 </Ability>
-<Ability id="traitexsczarni-ex-sczarni-fn1-2-fn2-2" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitexsczarni-ex-sczarni-fn1-2-fn2-2" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitexsczarni-ex-sczarni-fn1-2-fn2-2"><Link to="/trait/ex_sczarni">⮞</Link> Ex-Sczarni <sup><InnerLink showBacklink="backlink-main-traits_campaign_shattered_star-fake-fn-1.2" id="main-traits_campaign_shattered_star-fake-fn-1.2" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_shattered_star-fake-fn-2.2" id="main-traits_campaign_shattered_star-fake-fn-2.2" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Shattered Star</Pair>
 <Pair single="flavor" id="traitexsczarni-ex-sczarni-fn1-2-fn2-2-flavor">Though you were raised as a member of one of Magnimar's various Sczarni gangs, you never fit in with the rest of your settled, metropolitan brethren. The <Link to="/rule/pathfinder_society">Pathfinder Society</Link> in particular recognized your wanderlust and potential as an agent, and on more than one occasion you impressed or bamboozled their agents with your street smarts and finesse. Over the years, you fell out of favor with the Sczarni, and eventually left to pursue interests outside of simple banditry, though you still remember the lessons your criminal relations taught you.</Pair>
 <Pair single="benefit" id="traitexsczarni-ex-sczarni-fn1-2-fn2-2-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks to pass hidden messages. Also, anytime you deliver a <Link to="/misc/coup_de_grace">coup de grace</Link>, you deal an additional 1d6 points of damage.</Pair>
 </Ability>
-<Ability id="traitexchangeagent-exchange-agent-fn1-3-fn2-3" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitexchangeagent-exchange-agent-fn1-3-fn2-3" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitexchangeagent-exchange-agent-fn1-3-fn2-3"><Link to="/trait/exchange_agent">⮞</Link> Exchange Agent <sup><InnerLink showBacklink="backlink-main-traits_campaign_shattered_star-fake-fn-1.3" id="main-traits_campaign_shattered_star-fake-fn-1.3" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_shattered_star-fake-fn-2.3" id="main-traits_campaign_shattered_star-fake-fn-2.3" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Shattered Star</Pair>
@@ -472,14 +472,14 @@ const _traits_campaign_shattered_star = {title: "Campaign Traits: Shattered Star
 <p>Additionally, choose one of the following skills: <Link to="/skill/handle_animal">Handle Animal</Link>, <Link to="/skill/knowledge_geography">Knowledge (geography)</Link>, <Link to="/skill/linguistics">Linguistics</Link>, or <Link to="/skill/survival">Survival</Link>. You gain a +1 trait bonus on checks made with this skill and it is always a class skill for you.</p>
 </Pair>
 </Ability>
-<Ability id="traitmonumentscholar-monument-scholar-fn1-4-fn2-4" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitmonumentscholar-monument-scholar-fn1-4-fn2-4" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitmonumentscholar-monument-scholar-fn1-4-fn2-4"><Link to="/trait/monument_scholar">⮞</Link> Monument Scholar <sup><InnerLink showBacklink="backlink-main-traits_campaign_shattered_star-fake-fn-1.4" id="main-traits_campaign_shattered_star-fake-fn-1.4" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_shattered_star-fake-fn-2.4" id="main-traits_campaign_shattered_star-fake-fn-2.4" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Shattered Star</Pair>
 <Pair single="flavor" id="traitmonumentscholar-monument-scholar-fn1-4-fn2-4-flavor">As a child in Magnimar, the city's ancient monuments inspired you with wonder. Your fascination with these relics has only grown in the years since, encouraging you to join the ranks of the <Link to="/rule/pathfinder_society">Pathfinder Society</Link> so you can further quench your thirst for knowledge. Though you know little about the actual lore of the monuments, you've studied these colossal works extensively, developing an in-depth knowledge of some of the city's most famous landmarks.</Pair>
 <Pair single="benefit" id="traitmonumentscholar-monument-scholar-fn1-4-fn2-4-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_history">Knowledge (history)</Link> checks made in Varisia due to your familiarity with its historical remnants. This bonus increases to +2 if the check relates to the city of Magnimar. Additionally, you gain a +2 trait bonus on any skill check made to receive a boon from one of Magnimar's magically imbued monuments.</Pair>
 </Ability>
-<Ability id="traitnontraditionalnative-nontraditional-native-fn1-5-fn2-5" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitnontraditionalnative-nontraditional-native-fn1-5-fn2-5" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitnontraditionalnative-nontraditional-native-fn1-5-fn2-5"><Link to="/trait/nontraditional_native">⮞</Link> Nontraditional Native <sup><InnerLink showBacklink="backlink-main-traits_campaign_shattered_star-fake-fn-1.5" id="main-traits_campaign_shattered_star-fake-fn-1.5" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_shattered_star-fake-fn-2.5" id="main-traits_campaign_shattered_star-fake-fn-2.5" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Shattered Star</Pair>
@@ -488,14 +488,14 @@ const _traits_campaign_shattered_star = {title: "Campaign Traits: Shattered Star
 <p>If you are a Shoanti, you gain a +1 trait bonus on <Link to="/skill/survival">Survival</Link> checks made while in Varisia and gain a +1 trait bonus on rolls to confirm critical hits made using an <Link to="/eq-weapon/earth_breaker">earth breaker</Link> or a <Link to="/eq-armor/klar">klar</Link>.</p>
 </Pair>
 </Ability>
-<Ability id="traitruinraider-ruin-raider-fn1-6-fn2-6" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitruinraider-ruin-raider-fn1-6-fn2-6" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitruinraider-ruin-raider-fn1-6-fn2-6"><Link to="/trait/ruin_raider">⮞</Link> Ruin Raider <sup><InnerLink showBacklink="backlink-main-traits_campaign_shattered_star-fake-fn-1.6" id="main-traits_campaign_shattered_star-fake-fn-1.6" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_shattered_star-fake-fn-2.6" id="main-traits_campaign_shattered_star-fake-fn-2.6" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Shattered Star</Pair>
 <Pair single="flavor" id="traitruinraider-ruin-raider-fn1-6-fn2-6-flavor">While the mercantile industries of Magnimar appeal to your keen eye for monetary gain, you know that the boldest route to true fortune lays in hunting down rare relics and selling them to the highest bidder. Becoming a Pathfinder seemed like an obvious decision, allowing you to travel throughout Varisia in your search for wealth, so you signed up right away. You brought with you a sharp eye and keen ability to distinguish fakes from the genuine article.</Pair>
 <Pair single="benefit" id="traitruinraider-ruin-raider-fn1-6-fn2-6-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> checks. Additionally, you gain a +4 bonus on <Link to="/skill/perception">Perception</Link> checks made to distinguish statue-like creatures (like <Link to="/monster/caryatid_column">caryatid columns</Link> and <Link to="/monster/gargoyle">gargoyles</Link>) from actual sculptures.</Pair>
 </Ability>
-<Ability id="traitserpentrunner-serpent-runner-fn1-7-fn2-7" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitserpentrunner-serpent-runner-fn1-7-fn2-7" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitserpentrunner-serpent-runner-fn1-7-fn2-7"><Link to="/trait/serpent_runner">⮞</Link> Serpent Runner <sup><InnerLink showBacklink="backlink-main-traits_campaign_shattered_star-fake-fn-1.7" id="main-traits_campaign_shattered_star-fake-fn-1.7" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_shattered_star-fake-fn-2.7" id="main-traits_campaign_shattered_star-fake-fn-2.7" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Shattered Star</Pair>
@@ -512,70 +512,70 @@ const _traits_campaign_shattered_star = {title: "Campaign Traits: Shattered Star
 <li id="main-traits_campaign_shattered_star-fake-fn-1-target"><p><Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_shattered_star-fake-fn-1" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_shattered_star-fake-fn-1.2" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_shattered_star-fake-fn-1.3" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_shattered_star-fake-fn-1.4" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_shattered_star-fake-fn-1.5" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_shattered_star-fake-fn-1.6" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_shattered_star-fake-fn-1.7" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-1.7">↩<sup>7</sup></InnerLink></p></li>
 <li id="main-traits_campaign_shattered_star-fake-fn-2-target"><p><Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_shattered_star-fake-fn-2" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_shattered_star-fake-fn-2.2" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-2.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_shattered_star-fake-fn-2.3" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-2.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_shattered_star-fake-fn-2.4" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-2.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_shattered_star-fake-fn-2.5" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-2.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_shattered_star-fake-fn-2.6" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-2.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_shattered_star-fake-fn-2.7" data-hash-target to="main-traits_campaign_shattered_star-fake-fn-2.7">↩<sup>7</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_campaign_skull_and_shackles = {title: "Campaign Traits: Skull and Shackles", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitancientexplorer-ancient-explorer-fn1" extraClasses="trait" icon={["treasure-map"]}>
+const _traits_campaign_skull_and_shackles = {title: "Campaign Traits: Skull and Shackles", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitancientexplorer-ancient-explorer-fn1" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitancientexplorer-ancient-explorer-fn1"><Link to="/trait/ancient_explorer">⮞</Link> Ancient Explorer <sup><InnerLink showBacklink="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1" id="main-traits_campaign_skull_and_shackles-fake-fn-1" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
 <Pair single="flavor" id="traitancientexplorer-ancient-explorer-fn1-flavor">You are a student of the ancient history of Golarion, and you've come to the Shackles to explore the crumbling and vine-choked ruins of the cyclops empire of Ghol-Gan, which have lain abandoned among the isles of the Shackles for thousands of years.~~~You went to a tavern called the Formidably Maid in Port Peril last night to meet a contact who supposedly had an old map of lost cyclops ruins to sell, but the drink was stronger than you had expected and you passed out before making the deal.</Pair>
 <Pair single="benefit" id="traitancientexplorer-ancient-explorer-fn1-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_history">Knowledge (history)</Link> and <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks, and one of these skills is a class skill for you. In addition, you gain Cyclops or Polyglot as a bonus language.</Pair>
 </Ability>
-<Ability id="traitbarroomtalespinner-barroom-talespinner-fn1-2" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitbarroomtalespinner-barroom-talespinner-fn1-2" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitbarroomtalespinner-barroom-talespinner-fn1-2"><Link to="/trait/barroom_talespinner">⮞</Link> Barroom Talespinner <sup><InnerLink showBacklink="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1.2" id="main-traits_campaign_skull_and_shackles-fake-fn-1.2" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
 <Pair single="flavor" id="traitbarroomtalespinner-barroom-talespinner-fn1-2-flavor">You grew up listening to tales of adventure and piracy on the high seas and the sea chanteys of old salts in dockside dives. You learned all about what it's like to be a pirate by talking with the sailors on shore leave, and learned how to tell a tale (or perform some other pirate entertainment) yourself.~~~You went to a tavern called the Formidably Maid in Port Peril to earn a few coins with your tales of the sea. The patrons seemed pleased with your performance and bought you a few drinks. You had just remembered a tale of an unfortunate sailor who found himself press-ganged on a pirate ship after his drink was drugged when suddenly everything went black.</Pair>
 <Pair single="benefit" id="traitbarroomtalespinner-barroom-talespinner-fn1-2-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks and one category of <Link to="/skill/perform">Perform</Link> checks, and one of these skills is a class skill for you. In addition, once per week you can make a DC 15 <Link to="/skill/knowledge_local">Knowledge (local)</Link> or Intelligence check to see if you know a popular legendary pirate tale, the telling of which grants you a +1 trait bonus on checks made to influence NPCs on the Wormwood.</Pair>
 </Ability>
-<Ability id="traitbesmarasblessing-besmaras-blessing-fn1-3" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitbesmarasblessing-besmaras-blessing-fn1-3" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitbesmarasblessing-besmaras-blessing-fn1-3"><Link to="/trait/besmaras_blessing">⮞</Link> Besmara's Blessing <sup><InnerLink showBacklink="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1.3" id="main-traits_campaign_skull_and_shackles-fake-fn-1.3" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
 <Pair single="flavor" id="traitbesmarasblessing-besmaras-blessing-fn1-3-flavor">You were born aboard a ship at sea or down by the docks in a port city on an auspicious day. Old salts and sea dogs nod knowingly and say that <Link to="/faith/besmara">Besmara</Link> the Pirate Queen, goddess of piracy, sea monsters, and strife, has marked you for a greater destiny. You don't know anything about that, but you've always felt more at home on the sea than on land, and your keen eyes can easily pick out a sail on the distant horizon.~~~You came to a tavern in Port Peril called the Formidably Maid in search of your fate. You're not sure how many drinks you had, but they quickly went to your head and you passed out on the table before you found your destiny - unless it lay in the bottom of a bottle. Then again, maybe you found your destiny after all...</Pair>
 <Pair single="benefit" id="traitbesmarasblessing-besmaras-blessing-fn1-3-benefit">You gain a +1 trait bonus on <Link to="/skill/perception">Perception</Link> and <Link to="/skill/profession">Profession</Link> (sailor) checks. In addition, once per week you can reroll a Profession (sailor) check and take the higher result (you must announce that you are using this ability before the results of the check are known).</Pair>
 </Ability>
-<Ability id="traitbuccaneersblood-buccaneers-blood-fn1-4" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitbuccaneersblood-buccaneers-blood-fn1-4" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitbuccaneersblood-buccaneers-blood-fn1-4"><Link to="/trait/buccaneers_blood">⮞</Link> Buccaneer's Blood <sup><InnerLink showBacklink="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1.4" id="main-traits_campaign_skull_and_shackles-fake-fn-1.4" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
 <Pair single="flavor" id="traitbuccaneersblood-buccaneers-blood-fn1-4-flavor">One of your ancestors was an infamous Free Captain of the Shackles, whose very name struck fear in the hearts of those who sailed the seas in search of an honest living. Piracy is in your blood, and you've always longed to follow in your forebear's footsteps and plunder the shipping lanes.~~~You went to a tavern called the Formidably Maid, a notorious pirate hangout in Port Peril, eager to start your career as a buccaneer. While you were there, however, a dashing and flirtatious corsair caught your eye, and after a whirlwind night of booze and romance, you found yourself beaten senseless and stuffed in a sack, carried off to who knows where.</Pair>
 <Pair single="benefit" id="traitbuccaneersblood-buccaneers-blood-fn1-4-benefit">You gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> and <Link to="/skill/profession">Profession</Link> (sailor) checks. In addition, you gain a one-time +1 trait bonus to your <Link to="/rule/fame">Disrepute and Infamy</Link> scores.</Pair>
 </Ability>
-<Ability id="traitdocksidebrawler-dockside-brawler-fn1-5" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitdocksidebrawler-dockside-brawler-fn1-5" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitdocksidebrawler-dockside-brawler-fn1-5"><Link to="/trait/dockside_brawler">⮞</Link> Dockside Brawler <sup><InnerLink showBacklink="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1.5" id="main-traits_campaign_skull_and_shackles-fake-fn-1.5" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
 <Pair single="flavor" id="traitdocksidebrawler-dockside-brawler-fn1-5-flavor">You grew up on the dangerous docks of one of the Shackles' numerous ports or anchorages, and quickly learned that fists often make a better point than fancy words, especially when used the right way. You've always preferred action to talk, anyway.~~~While drinking at a tavern called the Formidably Maid in Port Peril last night, you got into a brawl with some of the other patrons. You handled yourself well, but a group of rough-looking characters ganged up on you and overwhelmed you, knocking you unconscious.</Pair>
 <Pair single="benefit" id="traitdocksidebrawler-dockside-brawler-fn1-5-benefit">You gain a +1 trait bonus on damage rolls with <Link to="/eq-weapon/brass_knuckles">brass knuckles</Link> and <Link to="/misc/improvised_weapons">improvised weapons</Link>. Fortunately, you were able to conceal your brass knuckles when you were press-ganged, and you begin the campaign with them, regardless of your starting circumstances.</Pair>
 </Ability>
-<Ability id="traiteyeforplunder-eye-for-plunder-fn1-6" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traiteyeforplunder-eye-for-plunder-fn1-6" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traiteyeforplunder-eye-for-plunder-fn1-6"><Link to="/trait/eye_for_plunder">⮞</Link> Eye for Plunder <sup><InnerLink showBacklink="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1.6" id="main-traits_campaign_skull_and_shackles-fake-fn-1.6" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
 <Pair single="flavor" id="traiteyeforplunder-eye-for-plunder-fn1-6-flavor">You've always had a keen eye for the glitter of gold or silver, and You've robbed enough rich merchants and raided enough ships to have a feel for where the most valuable plunder is hidden.~~~You found yourself relatively well off when you got your share of your last voyage's plunder, and decided to spend a few of your hard-won coins at the Formidably Maid, a popular pirate tavern in Port Peril. Maybe the shine of your new wealth distracted you, however, because you never saw the miscreants who slipped something into your drink, knocking you out cold.</Pair>
 <Pair single="benefit" id="traiteyeforplunder-eye-for-plunder-fn1-6-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> and <Link to="/skill/perception">Perception</Link> checks to find concealed or secret objects (including doors and traps). In addition, you begin the campaign with a selection mundane trade goods worth 50 gp that you were able to scrounge together during your first day on the Wormwood.</Pair>
 </Ability>
-<Ability id="traitilizmagortinative-ilizmagorti-native-fn1-7" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitilizmagortinative-ilizmagorti-native-fn1-7" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitilizmagortinative-ilizmagorti-native-fn1-7"><Link to="/trait/ilizmagorti_native">⮞</Link> Ilizmagorti Native <sup><InnerLink showBacklink="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1.7" id="main-traits_campaign_skull_and_shackles-fake-fn-1.7" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
 <Pair single="flavor" id="traitilizmagortinative-ilizmagorti-native-fn1-7-flavor">You grew up in the city of Ilizmagorti on Mediogalti Island, a pirate port infamous for both the scoundrels who visit it and the feared Red Mantis assassins who run it. You've been around pirates all your life, but You've learned to be wary in your dealings with people, as there's no telling who might be a Red Mantis in disguise.~~~Looking to make your fortune, you hopped aboard a pirate ship in Ilizmagorti, and decided to celebrate your safe arrival in Port Peril with a few drinks at a tavern called the Formidably Maid. There were some suspicious-looking characters there, to be sure, and you decided to give them a wide berth, but as you left, feeling a bit woozy from drink, you were set upon by thugs in a dark alley and knocked unconscious.</Pair>
 <Pair single="benefit" id="traitilizmagortinative-ilizmagorti-native-fn1-7-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks, and Sense Motive is a class skill for you. In addition, your familiarity with the pirate's life allows you to make untrained <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks regarding pirates or the region of the Shackles.</Pair>
 </Ability>
-<Ability id="traitpegleg-peg-leg-fn1-8" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitpegleg-peg-leg-fn1-8" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitpegleg-peg-leg-fn1-8"><Link to="/trait/peg_leg">⮞</Link> Peg Leg <sup><InnerLink showBacklink="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1.8" id="main-traits_campaign_skull_and_shackles-fake-fn-1.8" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
 <Pair single="flavor" id="traitpegleg-peg-leg-fn1-8-flavor">One of your legs was bitten off below the knee by a shark when you were just a child, and was replaced with a wooden peg leg. You've long since gotten used to your prosthesis, however, and take none of the normal penalties from having a peg leg. You've had to learn to deal with the pain of your injury as well.~~~Your balance always gets a bit shaky after a few drinks, and last night at the Formidably Maid - a tavern in Port Peril - was no exception. That must be why you fell to the floor as soon as you tried to stand up. What happened next is hazy, but you're pretty sure you were dragged out of the bar and onto a ship at the docks. At least they didn't throw you to the sharks...</Pair>
 <Pair single="benefit" id="traitpegleg-peg-leg-fn1-8-benefit">You gain a +1 trait bonus on Fortitude saves. Ever since your accident You've hated sharks, and you also gain a +1 trait bonus on damage rolls against sharks and other animals with the aquatic subtype.</Pair>
 </Ability>
-<Ability id="traitshipssurgeon-ships-surgeon-fn1-9" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitshipssurgeon-ships-surgeon-fn1-9" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitshipssurgeon-ships-surgeon-fn1-9"><Link to="/trait/ships_surgeon">⮞</Link> Ship's Surgeon <sup><InnerLink showBacklink="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1.9" id="main-traits_campaign_skull_and_shackles-fake-fn-1.9" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
 <Pair single="flavor" id="traitshipssurgeon-ships-surgeon-fn1-9-flavor">On a ship, a sailor often has to learn multiple skills, and this rule certainly applies to you. Your father was a woodworker, and you learned your first trade from him. But on your first voyage at sea you quickly found out that a carpenter is often a ship's doctor as well - after all, who knows more about sawing off limbs than someone who saws wood for a living? People are a lot bloodier than wood, that's for sure, but you haven't had many complaints - those sailors who have enjoyed your services are either happy to be alive or dead, and there's old salts who swear the peg legs you for made them are better than the real legs they used to have.~~~You were between ships in Port Peril, and after stopping for a drink at a tavern called the Formidably Maid, you happened upon a damsel in distress in the alleyway outside. Thinking you could help, you didn't notice the thugs hiding nearby, and they caught you unawares. You've been on enough ships to know a press gang by the blow of the sap on the back of your neck - you just hope whatever ship you end up on needs a surgeon.</Pair>
 <Pair single="benefit" id="traitshipssurgeon-ships-surgeon-fn1-9-benefit">You gain a +1 trait bonus on <Link to="/skill/craft">Craft</Link> (carpentry) and <Link to="/skill/heal">Heal</Link> checks, and Heal is a class skill for you. Although the majority of your equipment was taken away when you were press-ganged, you managed to hang on to a fully stocked <Link to="/eq-misc/healers_kit">healer's kit</Link>, and you begin the campaign with it, regardless of your starting circumstances.</Pair>
 </Ability>
-<Ability id="traittouchedbythesea-touched-by-the-sea-fn1-10" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traittouchedbythesea-touched-by-the-sea-fn1-10" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traittouchedbythesea-touched-by-the-sea-fn1-10"><Link to="/trait/touched_by_the_sea">⮞</Link> Touched by the Sea <sup><InnerLink showBacklink="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1.10" id="main-traits_campaign_skull_and_shackles-fake-fn-1.10" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Skull and Shackles</Pair>
@@ -585,70 +585,70 @@ const _traits_campaign_skull_and_shackles = {title: "Campaign Traits: Skull and 
 </IonLabel></IonItem><section data-footnotes><h3 id="main-traits_campaign_skull_and_shackles-label">Footnotes</h3><ol>
 <li id="main-traits_campaign_skull_and_shackles-fake-fn-1-target"><p><Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1.2" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1.3" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1.4" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1.5" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1.6" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1.7" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1.8" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1.9" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_skull_and_shackles-fake-fn-1.10" data-hash-target to="main-traits_campaign_skull_and_shackles-fake-fn-1.10">↩<sup>10</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_campaign_strange_aeons = {title: "Campaign Traits: Strange Aeons", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitdrivenbyguilt-driven-by-guilt-fn1" extraClasses="trait" icon={["treasure-map"]}>
+const _traits_campaign_strange_aeons = {title: "Campaign Traits: Strange Aeons", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitdrivenbyguilt-driven-by-guilt-fn1" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitdrivenbyguilt-driven-by-guilt-fn1"><Link to="/trait/driven_by_guilt">⮞</Link> Driven By Guilt <sup><InnerLink showBacklink="backlink-main-traits_campaign_strange_aeons-fake-fn-1" id="main-traits_campaign_strange_aeons-fake-fn-1" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
 <Pair single="flavor" id="traitdrivenbyguilt-driven-by-guilt-fn1-flavor">You awake after your ordeal with a lingering feeling that you have taken part in something outside the normal bounds of your morals. Whether you were corrupted at one point or compelled to perform some forgotten actions, this guilt drives you to fight against those forces in the world that prey upon the good. You see your present condition as a chance to redeem yourself and banish this unsettling emotion.</Pair>
 <Pair single="benefit" id="traitdrivenbyguilt-driven-by-guilt-fn1-benefit">You gain a +1 trait bonus on saving throws against any spells or spell-like abilities cast by evil creatures. In addition, once per day as a <strong className="hl">swift action</strong>, you can add your Charisma bonus to your attack rolls and deal 1 additional point of damage for each class level you have against evil creatures for 1 round.</Pair>
 </Ability>
-<Ability id="traitenduringstoicism-enduring-stoicism-fn1-2" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitenduringstoicism-enduring-stoicism-fn1-2" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitenduringstoicism-enduring-stoicism-fn1-2"><Link to="/trait/enduring_stoicism">⮞</Link> Enduring Stoicism <sup><InnerLink showBacklink="backlink-main-traits_campaign_strange_aeons-fake-fn-1.2" id="main-traits_campaign_strange_aeons-fake-fn-1.2" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
 <Pair single="flavor" id="traitenduringstoicism-enduring-stoicism-fn1-2-flavor">Even though your pulse is pounding in your ears when you awake in the asylum, you feel strangely nonplussed. You can recognize that the situation you find yourself in is horrific, but you refuse to let that fear control you. It doesn't feel like it's worth worrying over too much. You know that when you face unspeakable forces, keeping your cool will keep you alive.</Pair>
 <Pair single="benefit" id="traitenduringstoicism-enduring-stoicism-fn1-2-benefit">You gain a +2 trait bonus on all saving throws against spells or effects with the fear or emotion descriptors. In addition, you gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks due to your intimidating presence, as people don't know what to expect from you.</Pair>
 </Ability>
-<Ability id="traitfoeofthestrange-foe-of-the-strange-fn1-3" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitfoeofthestrange-foe-of-the-strange-fn1-3" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitfoeofthestrange-foe-of-the-strange-fn1-3"><Link to="/trait/foe_of_the_strange">⮞</Link> Foe of the Strange <sup><InnerLink showBacklink="backlink-main-traits_campaign_strange_aeons-fake-fn-1.3" id="main-traits_campaign_strange_aeons-fake-fn-1.3" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
 <Pair single="flavor" id="traitfoeofthestrange-foe-of-the-strange-fn1-3-flavor">You awake feeling emboldened after a terrifying nightmare. Instead of being frightened by the bizarre creatures from your nightmares, these experiences have steeled you against these startling alien beings. You know that you fell victim to strange circumstances and loathsome forces, but you refuse to give in to a creeping sense of helplessness. Instead, you vow to fight back against whoever or whatever is responsible for your current situation. The creatures of your nightmares won't hold fear over your head. You'll take the fight to them.</Pair>
 <Pair single="benefit" id="traitfoeofthestrange-foe-of-the-strange-fn1-3-benefit">You gain a +1 trait bonus on saving throws against extraordinary, spell-like, and supernatural abilities of aberrations (for example, a <Link to="/monster/gibbering_mouther">gibbering mouther's gibbering</Link> or an <Link to="/monster/intellect_devourer">intellect devourer's confusion</Link>). In addition, whenever you're <Link to="/misc/confused">confused</Link> and roll to determine behavior in a given round, subtract 10 from the result.</Pair>
 </Ability>
-<Ability id="traitformerlymindswapped-formerly-mind-swapped-fn1-4" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitformerlymindswapped-formerly-mind-swapped-fn1-4" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitformerlymindswapped-formerly-mind-swapped-fn1-4"><Link to="/trait/formerly_mind_swapped">⮞</Link> Formerly Mind-Swapped <sup><InnerLink showBacklink="backlink-main-traits_campaign_strange_aeons-fake-fn-1.4" id="main-traits_campaign_strange_aeons-fake-fn-1.4" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
 <Pair single="flavor" id="traitformerlymindswapped-formerly-mind-swapped-fn1-4-flavor">You awake with a strange sensation beyond the frightening experience of extensive memory loss. Full recollections of the experience - like so many others - have been wiped from your mind, but at some point in your past your mind was swapped with that of a yithian, an alien being from beyond time and space. You don't remember details of your experiences wandering the yithians' peculiar city in a foreign body - and even worry whether this might be some strange hallucination - but every so often, a flash of insight strikes you as a result of this experience. You know that you can rely on these alien flashbacks during your investigation into your current situation, as it gives you greater perspective into an otherwise confusing world.</Pair>
 <Pair single="benefit" id="traitformerlymindswapped-formerly-mind-swapped-fn1-4-benefit">Once per day, you can reroll one <Link to="/skill/knowledge">Knowledge</Link> check that you have just failed. In addition, you can attempt untrained Knowledge checks with DCs up to 20 instead of 10.</Pair>
 </Ability>
-<Ability id="traitmethodicalmind-methodical-mind-fn1-5" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitmethodicalmind-methodical-mind-fn1-5" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitmethodicalmind-methodical-mind-fn1-5"><Link to="/trait/methodical_mind">⮞</Link> Methodical Mind <sup><InnerLink showBacklink="backlink-main-traits_campaign_strange_aeons-fake-fn-1.5" id="main-traits_campaign_strange_aeons-fake-fn-1.5" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
 <Pair single="flavor" id="traitmethodicalmind-methodical-mind-fn1-5-flavor">When you awake with nothing but hazy memories, you begin carefully cataloging your thoughts to determine the reasons for your condition and where you might be. This comforts you, and you know deep down that you have always relied on your ordered mind and pragmatic approach to face challenges. You use this focus and sensibility to your advantage as you investigate your current dire situation.</Pair>
 <Pair single="benefit" id="traitmethodicalmind-methodical-mind-fn1-5-benefit">Choose three <Link to="/skill/knowledge">Knowledge</Link> skills. You gain a +1 trait bonus on Knowledge checks of these kinds and on <Link to="/rule/concentration">concentration</Link> checks. In addition, choose one Knowledge skill. When <Link to="/rule/research">researching</Link>, you are considered to have <Link to="/feat/skill_focus">Skill Focus</Link> for that Knowledge skill when determining what die you roll to reduce a library's knowledge points (kp).</Pair>
 </Ability>
-<Ability id="traitpugnacious-pugnacious-fn1-6" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitpugnacious-pugnacious-fn1-6" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitpugnacious-pugnacious-fn1-6"><Link to="/trait/pugnacious">⮞</Link> Pugnacious <sup><InnerLink showBacklink="backlink-main-traits_campaign_strange_aeons-fake-fn-1.6" id="main-traits_campaign_strange_aeons-fake-fn-1.6" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
 <Pair single="flavor" id="traitpugnacious-pugnacious-fn1-6-flavor">You awake in the asylum with sore muscles and bloody knuckles, as if you were recently in a fight. You even have a vague feeling that you won. You can't explain it, but you know that you've always been easy to set off, and your first instinct when pressed into a corner is to lash out. Stuck in the asylum sets you on edge, and you not only want to figure out what happened to you, you want to free yourself and find whoever did this to you - and make them pay.</Pair>
 <Pair single="benefit" id="traitpugnacious-pugnacious-fn1-6-benefit">You gain a +1 trait bonus on attack rolls when threatened by two or more enemies. In addition, once per day you can gain one of the following effects as an <strong className="hl">immediate action</strong>: You can increase the <Link to="/misc/reach">reach</Link> of your melee attacks by 5 feet for 1 round, or you can treat your weapon as <Link to="/misc/one_size_category_larger">one size category larger</Link> than it actually is for purposes of determining damage for 1 round.</Pair>
 </Ability>
-<Ability id="traitritualistic-ritualistic-fn1-7" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitritualistic-ritualistic-fn1-7" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitritualistic-ritualistic-fn1-7"><Link to="/trait/ritualistic">⮞</Link> Ritualistic <sup><InnerLink showBacklink="backlink-main-traits_campaign_strange_aeons-fake-fn-1.7" id="main-traits_campaign_strange_aeons-fake-fn-1.7" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
 <Pair single="flavor" id="traitritualistic-ritualistic-fn1-7-flavor">You awake with a sense of purpose and a tingle of magical power. Though it's unsettling that you can't recall your past, you have a hunch that if you and your companions do everything just right - follow the correct steps and order - the answers will reveal themselves and you will be free of your condition. You get the feeling that you've always fallen back on careful planning and time-tested evidence in the past, but a nagging sensation also tells you that you used these skills in less-than-kind ways all too recently.</Pair>
 <Pair single="benefit" id="traitritualistic-ritualistic-fn1-7-benefit">Choose one 0-level spell. You can cast this spell once per day as a spell-like ability with a caster level equal to your character level. The spell-like ability's save DC is Charisma-based. In addition, you gain a +2 trait bonus on all skill checks when performing <Link to="/rule/occult_rituals">occult rituals</Link>.</Pair>
 </Ability>
-<Ability id="traitsensitivemind-sensitive-mind-fn1-8" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitsensitivemind-sensitive-mind-fn1-8" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitsensitivemind-sensitive-mind-fn1-8"><Link to="/trait/sensitive_mind">⮞</Link> Sensitive Mind <sup><InnerLink showBacklink="backlink-main-traits_campaign_strange_aeons-fake-fn-1.8" id="main-traits_campaign_strange_aeons-fake-fn-1.8" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
 <Pair single="flavor" id="traitsensitivemind-sensitive-mind-fn1-8-flavor">You awake in the asylum horribly aware of dangers lurking nearby. While your memories are hazy and indistinct, everything around you looks vibrant and clear. You have an inkling that you have always been perceptive and can tell a lot about a person even in a quick meeting. This sensitivity can overwhelm you at times, especially in your current situation.</Pair>
 <Pair single="benefit" id="traitsensitivemind-sensitive-mind-fn1-8-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link>, <Link to="/skill/perception">Perception</Link>, and <Link to="/skill/sense_motive">Sense Motive</Link> checks, and one of these (your choice) is a class skill for you. In addition, once per week you can use the <Link to="/skill/psychometry">psychometry</Link> occult skill unlock even if you are not capable of casting psychic spells or have the <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> feat.</Pair>
 </Ability>
-<Ability id="traittruedevotion-true-devotion-fn1-9" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traittruedevotion-true-devotion-fn1-9" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traittruedevotion-true-devotion-fn1-9"><Link to="/trait/true_devotion">⮞</Link> True Devotion <sup><InnerLink showBacklink="backlink-main-traits_campaign_strange_aeons-fake-fn-1.9" id="main-traits_campaign_strange_aeons-fake-fn-1.9" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
 <Pair single="flavor" id="traittruedevotion-true-devotion-fn1-9-flavor">You wake from your recent ordeal with a sense of shame, as if you had sinned deeply against your morals and beliefs. However, you feel a bit of relief as well, as if your god had granted you a second chance. You not only have a drive to figure out what happened to you, but an urge to fight back against the unspeakable forces of evil. If, during the course of your investigation, you discover that you took part in unsavory activities that would normally be opposed to your faith or alignment, this event no longer has any impact with your standing in the eyes of your god due to your renewed righteous convictions.</Pair>
 <Pair single="benefit" id="traittruedevotion-true-devotion-fn1-9-benefit">Once per day when casting a divine spell, you can attempt to cast the spell without losing the spell from its spell slot or using one of your allotted spells per day. There is a 20% chance that this attempt is successful. In addition, select one domain or inquisition you have. You can use the first granted power of that domain or inquisition one additional time per day. You must have a good alignment and be class capable of casting divine spells in order to select this trait.</Pair>
 </Ability>
-<Ability id="traittwitchy-twitchy-fn1-10" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traittwitchy-twitchy-fn1-10" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traittwitchy-twitchy-fn1-10"><Link to="/trait/twitchy">⮞</Link> Twitchy <sup><InnerLink showBacklink="backlink-main-traits_campaign_strange_aeons-fake-fn-1.10" id="main-traits_campaign_strange_aeons-fake-fn-1.10" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Strange Aeons</Pair>
@@ -658,7 +658,7 @@ const _traits_campaign_strange_aeons = {title: "Campaign Traits: Strange Aeons",
 </IonLabel></IonItem><section data-footnotes><h3 id="main-traits_campaign_strange_aeons-label">Footnotes</h3><ol>
 <li id="main-traits_campaign_strange_aeons-fake-fn-1-target"><p><Link to="/source/strange_aeons_players_guide">Strange Aeons Player's Guide</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_strange_aeons-fake-fn-1" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_strange_aeons-fake-fn-1.2" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_strange_aeons-fake-fn-1.3" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_strange_aeons-fake-fn-1.4" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_strange_aeons-fake-fn-1.5" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_strange_aeons-fake-fn-1.6" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_strange_aeons-fake-fn-1.7" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_strange_aeons-fake-fn-1.8" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_strange_aeons-fake-fn-1.9" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_strange_aeons-fake-fn-1.10" data-hash-target to="main-traits_campaign_strange_aeons-fake-fn-1.10">↩<sup>10</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_campaign_tyrants_grasp = {title: "Campaign Traits: Tyrant's Grasp", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traittheartisan-the-artisan-fn1" extraClasses="trait" icon={["treasure-map"]}>
+const _traits_campaign_tyrants_grasp = {title: "Campaign Traits: Tyrant's Grasp", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traittheartisan-the-artisan-fn1" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traittheartisan-the-artisan-fn1"><Link to="/trait/the_artisan">⮞</Link> The Artisan <sup><InnerLink showBacklink="backlink-main-traits_campaign_tyrants_grasp-fake-fn-1" id="main-traits_campaign_tyrants_grasp-fake-fn-1" data-hash-target to="main-traits_campaign_tyrants_grasp-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Tyrant's Grasp</Pair>
@@ -667,7 +667,7 @@ const _traits_campaign_tyrants_grasp = {title: "Campaign Traits: Tyrant's Grasp"
 <p>Once per day, you can spend a full round casting a spell you can cast that has a normal casting time of 1 standard action to increase your effective caster level for that spell by 1. This ability has no affect on spells with a casting time other than 1 standard action.</p>
 </Pair>
 </Ability>
-<Ability id="traitthelawbringer-the-lawbringer-fn1-2" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitthelawbringer-the-lawbringer-fn1-2" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitthelawbringer-the-lawbringer-fn1-2"><Link to="/trait/the_lawbringer">⮞</Link> The Lawbringer <sup><InnerLink showBacklink="backlink-main-traits_campaign_tyrants_grasp-fake-fn-1.2" id="main-traits_campaign_tyrants_grasp-fake-fn-1.2" data-hash-target to="main-traits_campaign_tyrants_grasp-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Tyrant's Grasp</Pair>
@@ -676,14 +676,14 @@ const _traits_campaign_tyrants_grasp = {title: "Campaign Traits: Tyrant's Grasp"
 <p>Your courage is inspiring; the first time each day you are knocked unconscious or killed, all allies within 30 feet of you immediately gain a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to your level plus your Charisma modifier, as they rally to your defense. These temporary hit points last for 1 minute.</p>
 </Pair>
 </Ability>
-<Ability id="traittheoptimist-the-optimist-fn1-3" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traittheoptimist-the-optimist-fn1-3" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traittheoptimist-the-optimist-fn1-3"><Link to="/trait/the_optimist">⮞</Link> The Optimist <sup><InnerLink showBacklink="backlink-main-traits_campaign_tyrants_grasp-fake-fn-1.3" id="main-traits_campaign_tyrants_grasp-fake-fn-1.3" data-hash-target to="main-traits_campaign_tyrants_grasp-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Tyrant's Grasp</Pair>
 <Pair single="flavor" id="traittheoptimist-the-optimist-fn1-3-flavor">People don't need to take your word that things are getting better; they only need to look around and see the proof before their eyes. The town's recovery from the orc occupation more than a decade ago is all but complete, and the monster in the Sarenite temple outside of town has finally been bested. Your irrepressible sense of optimism seems to fly in the face of the hard life that most residents of Roslar's Coffer face, but you're convinced that your positive attitude lifts up your community.</Pair>
 <Pair single="benefit" id="traittheoptimist-the-optimist-fn1-3-benefit">You gain a +1 trait bonus on saving throws against mind-affecting effects. Further, your optimism can be infectious. As a <strong className="hl">swift action</strong> a number of times per day equal to your Charisma modifier (minimum 1), you can grant this bonus to an ally within 10 feet. This bonus lasts for 1 minute.</Pair>
 </Ability>
-<Ability id="traittheoutsider-the-outsider-fn1-4" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traittheoutsider-the-outsider-fn1-4" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traittheoutsider-the-outsider-fn1-4"><Link to="/trait/the_outsider">⮞</Link> The Outsider <sup><InnerLink showBacklink="backlink-main-traits_campaign_tyrants_grasp-fake-fn-1.4" id="main-traits_campaign_tyrants_grasp-fake-fn-1.4" data-hash-target to="main-traits_campaign_tyrants_grasp-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Tyrant's Grasp</Pair>
@@ -692,7 +692,7 @@ const _traits_campaign_tyrants_grasp = {title: "Campaign Traits: Tyrant's Grasp"
 <p>Accustomed to working alone, you gain only half the benefit (+1) from <Link to="/rule/aid_another">aid another</Link> actions, but you're accustomed to doing the job right the first time and so increase the bonus you provide by 1 when aiding another character.</p>
 </Pair>
 </Ability>
-<Ability id="traitthepessimist-the-pessimist-fn1-5" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitthepessimist-the-pessimist-fn1-5" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitthepessimist-the-pessimist-fn1-5"><Link to="/trait/the_pessimist">⮞</Link> The Pessimist <sup><InnerLink showBacklink="backlink-main-traits_campaign_tyrants_grasp-fake-fn-1.5" id="main-traits_campaign_tyrants_grasp-fake-fn-1.5" data-hash-target to="main-traits_campaign_tyrants_grasp-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Tyrant's Grasp</Pair>
@@ -701,21 +701,21 @@ const _traits_campaign_tyrants_grasp = {title: "Campaign Traits: Tyrant's Grasp"
 <p>Your frustrating pessimism can spur friends to succeed just to spite you; once per day as a <strong className="hl">free action</strong>, you can force an ally within 30 feet to reroll a saving throw she just failed, using the better of the two results.</p>
 </Pair>
 </Ability>
-<Ability id="traitthereclaimer-the-reclaimer-fn1-6" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitthereclaimer-the-reclaimer-fn1-6" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitthereclaimer-the-reclaimer-fn1-6"><Link to="/trait/the_reclaimer">⮞</Link> The Reclaimer <sup><InnerLink showBacklink="backlink-main-traits_campaign_tyrants_grasp-fake-fn-1.6" id="main-traits_campaign_tyrants_grasp-fake-fn-1.6" data-hash-target to="main-traits_campaign_tyrants_grasp-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Tyrant's Grasp</Pair>
 <Pair single="flavor" id="traitthereclaimer-the-reclaimer-fn1-6-flavor">You lost something precious in the destruction of Roslar's Coffer 12 years ago - a home, a legacy, perhaps even family - but returned because a soul shouldn't run from pain, but heal from it. Rebuilding your life and preventing that same hurt from dragging down others drives you to serve and protect, perhaps as a politician, charity worker, healer, or soldier, but that same loss fills you with an uncharitable anger that is often difficult to reconcile.</Pair>
 <Pair single="benefit" id="traitthereclaimer-the-reclaimer-fn1-6-benefit">Your wary eyes grant you a +1 trait bonus on <Link to="/skill/perception">Perception</Link> checks. You gain a +1 trait bonus on attack and damage rolls against any opponent that dealt hit point damage to one of your allies in the previous round.</Pair>
 </Ability>
-<Ability id="traitthesnoop-the-snoop-fn1-7" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitthesnoop-the-snoop-fn1-7" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitthesnoop-the-snoop-fn1-7"><Link to="/trait/the_snoop">⮞</Link> The Snoop <sup><InnerLink showBacklink="backlink-main-traits_campaign_tyrants_grasp-fake-fn-1.7" id="main-traits_campaign_tyrants_grasp-fake-fn-1.7" data-hash-target to="main-traits_campaign_tyrants_grasp-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Tyrant's Grasp</Pair>
 <Pair single="flavor" id="traitthesnoop-the-snoop-fn1-7-flavor">You know a little bit about most everything and everyone in Roslar's Coffer. It may be your profession, as you could be an archivist, crier, or librarian - or you simply make a hobby of gossip. Either way, you have a gift for recall and reading others.</Pair>
 <Pair single="benefit" id="traitthesnoop-the-snoop-fn1-7-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_history">Knowledge (history)</Link> and <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks, and these both become class skills for you. Once each day you can reroll a single <Link to="/skill/bluff">Bluff</Link> or <Link to="/skill/sense_motive">Sense Motive</Link> check against a creature you have known for at least 24 hours, using the better result.</Pair>
 </Ability>
-<Ability id="traittheword-the-word-fn1-8" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traittheword-the-word-fn1-8" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traittheword-the-word-fn1-8"><Link to="/trait/the_word">⮞</Link> The Word <sup><InnerLink showBacklink="backlink-main-traits_campaign_tyrants_grasp-fake-fn-1.8" id="main-traits_campaign_tyrants_grasp-fake-fn-1.8" data-hash-target to="main-traits_campaign_tyrants_grasp-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Tyrant's Grasp</Pair>
@@ -725,21 +725,21 @@ const _traits_campaign_tyrants_grasp = {title: "Campaign Traits: Tyrant's Grasp"
 </IonLabel></IonItem><section data-footnotes><h3 id="main-traits_campaign_tyrants_grasp-label">Footnotes</h3><ol>
 <li id="main-traits_campaign_tyrants_grasp-fake-fn-1-target"><p><Link to="/source/tyrants_grasp_players_guide">Tyrant's Grasp Player's Guide</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_tyrants_grasp-fake-fn-1" data-hash-target to="main-traits_campaign_tyrants_grasp-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_tyrants_grasp-fake-fn-1.2" data-hash-target to="main-traits_campaign_tyrants_grasp-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_tyrants_grasp-fake-fn-1.3" data-hash-target to="main-traits_campaign_tyrants_grasp-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_tyrants_grasp-fake-fn-1.4" data-hash-target to="main-traits_campaign_tyrants_grasp-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_tyrants_grasp-fake-fn-1.5" data-hash-target to="main-traits_campaign_tyrants_grasp-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_tyrants_grasp-fake-fn-1.6" data-hash-target to="main-traits_campaign_tyrants_grasp-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_tyrants_grasp-fake-fn-1.7" data-hash-target to="main-traits_campaign_tyrants_grasp-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_tyrants_grasp-fake-fn-1.8" data-hash-target to="main-traits_campaign_tyrants_grasp-fake-fn-1.8">↩<sup>8</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_campaign_war_for_the_crown = {title: "Campaign Traits: War for the Crown", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitathleticchampion-athletic-champion-fn1" extraClasses="trait" icon={["treasure-map"]}>
+const _traits_campaign_war_for_the_crown = {title: "Campaign Traits: War for the Crown", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitathleticchampion-athletic-champion-fn1" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitathleticchampion-athletic-champion-fn1"><Link to="/trait/athletic_champion">⮞</Link> Athletic Champion <sup><InnerLink showBacklink="backlink-main-traits_campaign_war_for_the_crown-fake-fn-1" id="main-traits_campaign_war_for_the_crown-fake-fn-1" data-hash-target to="main-traits_campaign_war_for_the_crown-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>War for the Crown</Pair>
 <Pair single="flavor" id="traitathleticchampion-athletic-champion-fn1-flavor">Your physique and skill brought you into the public eye, and a winning smile helps you stay there. Taldor honors its extraordinary athletes, celebrating them as cultural heroes. Whether you were a gladiator, a runner, a wrestler, or any other competitor, your most recent victory caused someone important to sit up and take notice. You may never have a political career in front of you, but for now your name is helping to bring a little extra money in, and maybe that's good enough.</Pair>
 <Pair single="benefit" id="traitathleticchampion-athletic-champion-fn1-benefit">Select two of the following skills: <Link to="/skill/climb">Climb</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/perception">Perception</Link>, and <Link to="/skill/swim">Swim</Link>. You gain a +1 trait bonus on checks with those skills, and they are always class skills for you. In addition, you are accustomed to maneuvering through crowds; you gain a +2 trait bonus on checks to navigate through a crowd or resist being moved against your will, including spells and <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/drag">drag</Link>, and <Link to="/rule/reposition">reposition</Link> combat maneuvers.</Pair>
 </Ability>
-<Ability id="traitchildofoppara-child-of-oppara-fn1-2" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitchildofoppara-child-of-oppara-fn1-2" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitchildofoppara-child-of-oppara-fn1-2"><Link to="/trait/child_of_oppara">⮞</Link> Child of Oppara <sup><InnerLink showBacklink="backlink-main-traits_campaign_war_for_the_crown-fake-fn-1.2" id="main-traits_campaign_war_for_the_crown-fake-fn-1.2" data-hash-target to="main-traits_campaign_war_for_the_crown-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>War for the Crown</Pair>
 <Pair single="flavor" id="traitchildofoppara-child-of-oppara-fn1-2-flavor">You belong to a noble family that matters in Taldor, though as the story begins you may or may not be on good terms with your relatives. Your upbringing among the city's well-to-do gives you an upper hand when it comes to knowledge of high society, and you start the game with a modest inheritance. With Princess Eutropia's efforts to provide for Taldor's common citizens and overturn years of tradition, new lines are being quietly drawn in the sand, and you have found yourself embroiled in these intrigues whether you intended to be or not.~~~With this trait, the assumption is that you belong to a minor noble family (and can make up your family name). In this case, your family keeps a small manor in Aroden's View or Senate's Hill. If you want to be a member of one of Oppara's major noble families, you must take the <Link to="/feat/noble_scion">Noble Scion</Link> feat at 1st level.</Pair>
 <Pair single="benefit" id="traitchildofoppara-child-of-oppara-fn1-2-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> and <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> checks, and one of these skills is always a class skill for you. The Noble Scion feat does not have a Charisma prerequisite for you. In addition, you start play with a <Link to="/eq-misc/nobles_outfit">noble's outfit</Link>, a <Link to="/eq-misc/signet_ring">signet ring</Link>, and a single additional nonmagical item worth no more than 200 gp.</Pair>
 </Ability>
-<Ability id="traitdisgracednoble-disgraced-noble-fn1-3" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitdisgracednoble-disgraced-noble-fn1-3" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitdisgracednoble-disgraced-noble-fn1-3"><Link to="/trait/disgraced_noble">⮞</Link> Disgraced Noble <sup><InnerLink showBacklink="backlink-main-traits_campaign_war_for_the_crown-fake-fn-1.3" id="main-traits_campaign_war_for_the_crown-fake-fn-1.3" data-hash-target to="main-traits_campaign_war_for_the_crown-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>War for the Crown</Pair>
@@ -748,7 +748,7 @@ const _traits_campaign_war_for_the_crown = {title: "Campaign Traits: War for the
 <p>Once each day, you can choose a single humanoid you believe to have been involved in the conspiracy to destroy your family; you gain a +1 morale bonus on attack and damage rolls against that NPC for a number of rounds equal to your character level. At 10th level, this bonus increases to +2.</p>
 </Pair>
 </Ability>
-<Ability id="traitrisingstar-rising-star-fn1-4" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitrisingstar-rising-star-fn1-4" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitrisingstar-rising-star-fn1-4"><Link to="/trait/rising_star">⮞</Link> Rising Star <sup><InnerLink showBacklink="backlink-main-traits_campaign_war_for_the_crown-fake-fn-1.4" id="main-traits_campaign_war_for_the_crown-fake-fn-1.4" data-hash-target to="main-traits_campaign_war_for_the_crown-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>War for the Crown</Pair>
@@ -758,7 +758,7 @@ const _traits_campaign_war_for_the_crown = {title: "Campaign Traits: War for the
 <p>You begin the game with a <Link to="/eq-misc/masterwork_musical_instrument">masterwork musical instrument</Link> or <Link to="/eq-misc/masterwork_tool">tool</Link> appropriate to the Craft or Perform skill you selected, a gift from your patron.</p>
 </Pair>
 </Ability>
-<Ability id="traitsenatorialhopeful-senatorial-hopeful-fn1-5" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitsenatorialhopeful-senatorial-hopeful-fn1-5" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitsenatorialhopeful-senatorial-hopeful-fn1-5"><Link to="/trait/senatorial_hopeful">⮞</Link> Senatorial Hopeful <sup><InnerLink showBacklink="backlink-main-traits_campaign_war_for_the_crown-fake-fn-1.5" id="main-traits_campaign_war_for_the_crown-fake-fn-1.5" data-hash-target to="main-traits_campaign_war_for_the_crown-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>War for the Crown</Pair>
@@ -768,14 +768,14 @@ const _traits_campaign_war_for_the_crown = {title: "Campaign Traits: War for the
 <p>At 10th level, the potential value of a magical item increases to your character level &times; 50 gp, and your requests can also include spellcasting services and wands.</p>
 </Pair>
 </Ability>
-<Ability id="traittaldanpatriot-taldan-patriot-fn1-6" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traittaldanpatriot-taldan-patriot-fn1-6" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traittaldanpatriot-taldan-patriot-fn1-6"><Link to="/trait/taldan_patriot">⮞</Link> Taldan Patriot <sup><InnerLink showBacklink="backlink-main-traits_campaign_war_for_the_crown-fake-fn-1.6" id="main-traits_campaign_war_for_the_crown-fake-fn-1.6" data-hash-target to="main-traits_campaign_war_for_the_crown-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>War for the Crown</Pair>
 <Pair single="flavor" id="traittaldanpatriot-taldan-patriot-fn1-6-flavor">You love your country, its history, and its people... even though they may not love you back. Whether you're a bureaucrat, a minor noble, or a soldier, you want your community to be the best it can be and you channel that love into a position in service to the people of Taldor.</Pair>
 <Pair single="benefit" id="traittaldanpatriot-taldan-patriot-fn1-6-benefit">You gain a +1 bonus on all <Link to="/skill/sense_motive">Sense Motive</Link> and <Link to="/skill/knowledge_history">Knowledge (history)</Link> checks, and these skills are always class skills for you. In addition, once per day you can recall a specific fact about a Taldan noble's personality - quirks such as a hobby or pet peeve - including information you would normally learn as a <Link to="/rule/discovery_check">discovery check</Link> in social combat.</Pair>
 </Ability>
-<Ability id="traityoungreformer-young-reformer-fn1-7" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traityoungreformer-young-reformer-fn1-7" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traityoungreformer-young-reformer-fn1-7"><Link to="/trait/young_reformer">⮞</Link> Young Reformer <sup><InnerLink showBacklink="backlink-main-traits_campaign_war_for_the_crown-fake-fn-1.7" id="main-traits_campaign_war_for_the_crown-fake-fn-1.7" data-hash-target to="main-traits_campaign_war_for_the_crown-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>War for the Crown</Pair>
@@ -789,7 +789,7 @@ const _traits_campaign_war_for_the_crown = {title: "Campaign Traits: War for the
 </IonLabel></IonItem><section data-footnotes><h3 id="main-traits_campaign_war_for_the_crown-label">Footnotes</h3><ol>
 <li id="main-traits_campaign_war_for_the_crown-fake-fn-1-target"><p><Link to="/source/war_for_the_crown_players_guide">War for the Crown Player's Guide</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_war_for_the_crown-fake-fn-1" data-hash-target to="main-traits_campaign_war_for_the_crown-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_war_for_the_crown-fake-fn-1.2" data-hash-target to="main-traits_campaign_war_for_the_crown-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_war_for_the_crown-fake-fn-1.3" data-hash-target to="main-traits_campaign_war_for_the_crown-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_war_for_the_crown-fake-fn-1.4" data-hash-target to="main-traits_campaign_war_for_the_crown-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_war_for_the_crown-fake-fn-1.5" data-hash-target to="main-traits_campaign_war_for_the_crown-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_war_for_the_crown-fake-fn-1.6" data-hash-target to="main-traits_campaign_war_for_the_crown-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_war_for_the_crown-fake-fn-1.7" data-hash-target to="main-traits_campaign_war_for_the_crown-fake-fn-1.7">↩<sup>7</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_campaign_wrath_of_the_righteous = {title: "Campaign Traits: Wrath of the Righteous", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitchanceencounter-chance-encounter-fn1-fn2" extraClasses="trait" icon={["treasure-map"]}>
+const _traits_campaign_wrath_of_the_righteous = {title: "Campaign Traits: Wrath of the Righteous", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitchanceencounter-chance-encounter-fn1-fn2" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitchanceencounter-chance-encounter-fn1-fn2"><Link to="/trait/chance_encounter">⮞</Link> Chance Encounter <sup><InnerLink showBacklink="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-1" id="main-traits_campaign_wrath_of_the_righteous-fake-fn-1" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-2" id="main-traits_campaign_wrath_of_the_righteous-fake-fn-2" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Wrath of the Righteous</Pair>
@@ -799,7 +799,7 @@ const _traits_campaign_wrath_of_the_righteous = {title: "Campaign Traits: Wrath 
 <p><strong>Multiple Characters:</strong> You and other characters were all saved by the same mysterious woman in your childhood. This could have been the same event, or she could have saved you on separate occasions - the discovery that someone else was saved by the mysterious stranger has resulted in a long friendship (or perhaps friendly rivalry) with the others she rescued.</p>
 </Pair>
 </Ability>
-<Ability id="traitchildofthecrusadeswotr-child-of-the-crusades-wotr-fn1-2-fn2-2" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitchildofthecrusadeswotr-child-of-the-crusades-wotr-fn1-2-fn2-2" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitchildofthecrusadeswotr-child-of-the-crusades-wotr-fn1-2-fn2-2"><Link to="/trait/child_of_the_crusades_wotr">⮞</Link> Child of the Crusades (WotR) <sup><InnerLink showBacklink="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-1.2" id="main-traits_campaign_wrath_of_the_righteous-fake-fn-1.2" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-2.2" id="main-traits_campaign_wrath_of_the_righteous-fake-fn-2.2" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Wrath of the Righteous</Pair>
@@ -809,7 +809,7 @@ const _traits_campaign_wrath_of_the_righteous = {title: "Campaign Traits: Wrath 
 <p><strong>Multiple Characters:</strong> If other characters take this trait, you should all be related - you can be siblings, cousins, or even more distant relations, but you should all be aware of this shared lineage.</p>
 </Pair>
 </Ability>
-<Ability id="traitexposedtoawfulness-exposed-to-awfulness-fn1-3-fn2-3" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitexposedtoawfulness-exposed-to-awfulness-fn1-3-fn2-3" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitexposedtoawfulness-exposed-to-awfulness-fn1-3-fn2-3"><Link to="/trait/exposed_to_awfulness">⮞</Link> Exposed to Awfulness <sup><InnerLink showBacklink="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-1.3" id="main-traits_campaign_wrath_of_the_righteous-fake-fn-1.3" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-2.3" id="main-traits_campaign_wrath_of_the_righteous-fake-fn-2.3" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Wrath of the Righteous</Pair>
@@ -819,7 +819,7 @@ const _traits_campaign_wrath_of_the_righteous = {title: "Campaign Traits: Wrath 
 <p><strong>Multiple Characters:</strong> You and any others with this trait are related, if only distantly. You could be siblings or cousins - a condition that perhaps lends some credence to the theory that all of you share more than just a common bloodline.</p>
 </Pair>
 </Ability>
-<Ability id="traitriftwardenorphan-riftwarden-orphan-fn1-4-fn2-4" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitriftwardenorphan-riftwarden-orphan-fn1-4-fn2-4" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitriftwardenorphan-riftwarden-orphan-fn1-4-fn2-4"><Link to="/trait/riftwarden_orphan">⮞</Link> Riftwarden Orphan <sup><InnerLink showBacklink="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-1.4" id="main-traits_campaign_wrath_of_the_righteous-fake-fn-1.4" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-2.4" id="main-traits_campaign_wrath_of_the_righteous-fake-fn-2.4" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Wrath of the Righteous</Pair>
@@ -829,7 +829,7 @@ const _traits_campaign_wrath_of_the_righteous = {title: "Campaign Traits: Wrath 
 <p><strong>Multiple Characters:</strong> You should be siblings with any other character that takes this trait, so that you share the same missing parents. Your parents could even be foster parents.</p>
 </Pair>
 </Ability>
-<Ability id="traitstolenfury-stolen-fury-fn1-5-fn2-5" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traitstolenfury-stolen-fury-fn1-5-fn2-5" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traitstolenfury-stolen-fury-fn1-5-fn2-5"><Link to="/trait/stolen_fury">⮞</Link> Stolen Fury <sup><InnerLink showBacklink="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-1.5" id="main-traits_campaign_wrath_of_the_righteous-fake-fn-1.5" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-2.5" id="main-traits_campaign_wrath_of_the_righteous-fake-fn-2.5" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Wrath of the Righteous</Pair>
@@ -839,7 +839,7 @@ const _traits_campaign_wrath_of_the_righteous = {title: "Campaign Traits: Wrath 
 <p><strong>Multiple Characters:</strong> You and any other PC who takes this trait were all part of the same ritual, and it was only by working together that you managed to escape - further, the support of your fellow ritual survivors has played a key role in your coming to terms with it, and you retain a close bond of friendship (or perhaps a friendly rivalry) to this day.</p>
 </Pair>
 </Ability>
-<Ability id="traittouchedbydivinity-touched-by-divinity-fn1-6-fn2-6" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="traittouchedbydivinity-touched-by-divinity-fn1-6-fn2-6" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="traittouchedbydivinity-touched-by-divinity-fn1-6-fn2-6"><Link to="/trait/touched_by_divinity">⮞</Link> Touched by Divinity <sup><InnerLink showBacklink="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-1.6" id="main-traits_campaign_wrath_of_the_righteous-fake-fn-1.6" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-2.6" id="main-traits_campaign_wrath_of_the_righteous-fake-fn-2.6" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Wrath of the Righteous</Pair>
@@ -853,20 +853,20 @@ const _traits_campaign_wrath_of_the_righteous = {title: "Campaign Traits: Wrath 
 <li id="main-traits_campaign_wrath_of_the_righteous-fake-fn-1-target"><p><Link to="/source/wrath_of_the_righteous_players_guide">Wrath of the Righteous Player's Guide</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-1" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-1.2" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-1.3" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-1.4" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-1.5" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-1.6" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-1.6">↩<sup>6</sup></InnerLink></p></li>
 <li id="main-traits_campaign_wrath_of_the_righteous-fake-fn-2-target"><p><Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-2" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-2.2" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-2.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-2.3" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-2.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-2.4" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-2.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-2.5" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-2.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-2.6" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-2.6">↩<sup>6</sup></InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_northwest_garund = {title: "Regional Traits: Northwestern Garund", jsx: <IonList lines="full"><MainLink to="/main/traits_regional" className="reversed" info="Back to Regional Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitcommunityminded-community-minded-fn1" extraClasses="trait" icon={["planet-conquest"]}>
+const _traits_northwest_garund = {title: "Regional Traits: Northwestern Garund", jsx: <IonList lines="full"><MainLink to="/main/traits_regional" className="reversed" info="Back to Regional Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitcommunityminded-community-minded-fn1" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitcommunityminded-community-minded-fn1"><Link to="/trait/community_minded">⮞</Link> Community-Minded <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-1" id="main-traits_northwest_garund-fake-fn-1" data-hash-target to="main-traits_northwest_garund-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
 <Pair single="flavor" id="traitcommunityminded-community-minded-fn1-flavor">While some pray to the gods for mercy or prosperity, you follow a different tack - you believe in improving the lives of those around you through earnest labor and the efforts of you and your community. Your hard-earned discipline and the candor of your words affect all who bear witness.</Pair>
 <Pair single="benefit" id="traitcommunityminded-community-minded-fn1-benefit">Any morale bonuses you confer upon your allies through your own abilities or spells last 2 additional rounds.</Pair>
 </Ability>
-<Ability id="traitgodlessresolve-godless-resolve-fn2" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitgodlessresolve-godless-resolve-fn2" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitgodlessresolve-godless-resolve-fn2"><Link to="/trait/godless_resolve">⮞</Link> Godless Resolve <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-2" id="main-traits_northwest_garund-fake-fn-2" data-hash-target to="main-traits_northwest_garund-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Bachuan, Rahadoum or Touvette</Pair>
 <Pair single="benefit" id="traitgodlessresolve-godless-resolve-fn2-benefit">Some brilliant and earnest speech or other performance inspired you to take charge of your own health rather than begging indifferent or outlawed deities for deliverance. <Link to="/skill/heal">Heal</Link> is a class skill for you, and you gain a +2 trait bonus on Heal checks to stabilize dying creatures and stop bleeding.</Pair>
 </Ability>
-<Ability id="traitjusticiar-justiciar-fn3" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitjusticiar-justiciar-fn3" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitjusticiar-justiciar-fn3"><Link to="/trait/justiciar">⮞</Link> Justiciar <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-3" id="main-traits_northwest_garund-fake-fn-3" data-hash-target to="main-traits_northwest_garund-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
@@ -875,76 +875,76 @@ const _traits_northwest_garund = {title: "Regional Traits: Northwestern Garund",
 <p>Once per day if you succeed at an <Link to="/skill/intimidate">Intimidate</Link> check to demoralize a foe who has repudiated or ignored a pronounced judgment you've made, you may choose to cause the creature to be <Link to="/misc/sickened">sickened</Link> instead of <Link to="/misc/shaken">shaken</Link>. The duration of the effect remains the same.</p>
 </Pair>
 </Ability>
-<Ability id="traitliquidhealing-liquid-healing-fn4" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitliquidhealing-liquid-healing-fn4" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitliquidhealing-liquid-healing-fn4"><Link to="/trait/liquid_healing">⮞</Link> Liquid Healing <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-4" id="main-traits_northwest_garund-fake-fn-4" data-hash-target to="main-traits_northwest_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
 <Pair single="flavor" id="traitliquidhealing-liquid-healing-fn4-flavor">Growing up in Rahadoum, you did not have access to clerics and other divine magic for healing, so you relied heavily on potions to cure your wounds. As a result, potions heal you more effectively.</Pair>
 <Pair single="benefit" id="traitliquidhealing-liquid-healing-fn4-benefit">Whenever you consume a potion that heals any number of hit points, you heal 2 additional hit points.</Pair>
 </Ability>
-<Ability id="traitpatronsboon-patrons-boon-fn2-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitpatronsboon-patrons-boon-fn2-2" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitpatronsboon-patrons-boon-fn2-2"><Link to="/trait/patrons_boon">⮞</Link> Patron's Boon <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-2.2" id="main-traits_northwest_garund-fake-fn-2.2" data-hash-target to="main-traits_northwest_garund-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
 <Pair single="flavor" id="traitpatronsboon-patrons-boon-fn2-2-flavor">In your youth, a Rahadoumi witch granted you a boon promoting your continued health and long life.</Pair>
 <Pair single="benefit" id="traitpatronsboon-patrons-boon-fn2-2-benefit">The DCs of any <Link to="/skill/heal">Heal</Link> checks to stop <Link to="/rule/bleed">bleed</Link> damage you are suffering are reduced by 4.</Pair>
 </Ability>
-<Ability id="traitpurelegionrecruit-pure-legion-recruit-fn1-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitpurelegionrecruit-pure-legion-recruit-fn1-2" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitpurelegionrecruit-pure-legion-recruit-fn1-2"><Link to="/trait/pure_legion_recruit">⮞</Link> Pure Legion Recruit <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-1.2" id="main-traits_northwest_garund-fake-fn-1.2" data-hash-target to="main-traits_northwest_garund-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
 <Pair single="flavor" id="traitpurelegionrecruit-pure-legion-recruit-fn1-2-flavor">You have spent time among the famed Pure Legion and understand some of their techniques for spotting signs of religion and the faithful.</Pair>
 <Pair single="benefit" id="traitpurelegionrecruit-pure-legion-recruit-fn1-2-benefit">You gain a +2 trait bonus on <Link to="/skill/perception">Perception</Link> checks to see through disguises and mundane attempts to conceal religious iconography or dress. You also gain a +2 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks to see through lies about a target's religious beliefs and to understand secret messages relating to the gods.</Pair>
 </Ability>
-<Ability id="traitrahadoumicultist-rahadoumi-cultist-fn5" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitrahadoumicultist-rahadoumi-cultist-fn5" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitrahadoumicultist-rahadoumi-cultist-fn5"><Link to="/trait/rahadoumi_cultist">⮞</Link> Rahadoumi Cultist <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-5" id="main-traits_northwest_garund-fake-fn-5" data-hash-target to="main-traits_northwest_garund-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
 <Pair single="flavor" id="traitrahadoumicultist-rahadoumi-cultist-fn5-flavor">You're a secret member of a forbidden faith in Rahadoum. You have learned to hide your beliefs and how to identify others of your faith.</Pair>
 <Pair single="benefit" id="traitrahadoumicultist-rahadoumi-cultist-fn5-benefit">You gain a +5 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks to receive secret messages, and a +5 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks to intercept secret messages from others of your faith.</Pair>
 </Ability>
-<Ability id="traitrahadoumidisbeliever-rahadoumi-disbeliever-fn5-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitrahadoumidisbeliever-rahadoumi-disbeliever-fn5-2" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitrahadoumidisbeliever-rahadoumi-disbeliever-fn5-2"><Link to="/trait/rahadoumi_disbeliever">⮞</Link> Rahadoumi Disbeliever <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-5.2" id="main-traits_northwest_garund-fake-fn-5.2" data-hash-target to="main-traits_northwest_garund-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
 <Pair single="flavor" id="traitrahadoumidisbeliever-rahadoumi-disbeliever-fn5-2-flavor">As a Rahadoumi who rejects covenants with gods, your belief is strong enough to repel divine spells.</Pair>
 <Pair single="benefit" id="traitrahadoumidisbeliever-rahadoumi-disbeliever-fn5-2-benefit">You gain a +2 trait bonus on saving throws against divine spells, but you must make a saving throw even when that magic is beneficial to you.</Pair>
 </Ability>
-<Ability id="traitalchemicalprodigy-alchemical-prodigy-fn1-3-fn6" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitalchemicalprodigy-alchemical-prodigy-fn1-3-fn6" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitalchemicalprodigy-alchemical-prodigy-fn1-3-fn6"><Link to="/trait/alchemical_prodigy">⮞</Link> Alchemical Prodigy <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-1.3" id="main-traits_northwest_garund-fake-fn-1.3" data-hash-target to="main-traits_northwest_garund-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-6" id="main-traits_northwest_garund-fake-fn-6" data-hash-target to="main-traits_northwest_garund-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
 <Pair single="flavor" id="traitalchemicalprodigy-alchemical-prodigy-fn1-3-fn6-flavor">Early on in your life, you showed significant promise in the sciences and alchemical arts, and received extensive tutoring from those seeking to maximize your potential.</Pair>
 <Pair single="benefit" id="traitalchemicalprodigy-alchemical-prodigy-fn1-3-fn6-benefit">If you have the <em>alchemy</em> class feature, your alchemist level is considered 1 higher when calculating the duration of your extracts.</Pair>
 </Ability>
-<Ability id="traitdesertchild-desert-child-fn7-fn8-fn9-fn5-3" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitdesertchild-desert-child-fn7-fn8-fn9-fn5-3" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitdesertchild-desert-child-fn7-fn8-fn9-fn5-3"><Link to="/trait/desert_child">⮞</Link> Desert Child <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-7" id="main-traits_northwest_garund-fake-fn-7" data-hash-target to="main-traits_northwest_garund-fake-fn-7-target">7</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-8" id="main-traits_northwest_garund-fake-fn-8" data-hash-target to="main-traits_northwest_garund-fake-fn-8-target">8</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-9" id="main-traits_northwest_garund-fake-fn-9" data-hash-target to="main-traits_northwest_garund-fake-fn-9-target">9</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-5.3" id="main-traits_northwest_garund-fake-fn-5.3" data-hash-target to="main-traits_northwest_garund-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia, desert</Pair>
 <Pair single="flavor" id="traitdesertchild-desert-child-fn7-fn8-fn9-fn5-3-flavor">You were born and raised in rocky deserts, and are accustomed to high temperatures.</Pair>
 <Pair single="benefit" id="traitdesertchild-desert-child-fn7-fn8-fn9-fn5-3-benefit">You gain a +4 trait bonus on saving throws made to resist the effects of being in <Link to="/rule/heat">hot conditions</Link> and a +1 trait bonus on saving throws against fire effects.</Pair>
 </Ability>
-<Ability id="traitdivhunter-div-hunter-fn10" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitdivhunter-div-hunter-fn10" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitdivhunter-div-hunter-fn10"><Link to="/trait/div_hunter">⮞</Link> Div Hunter <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-10" id="main-traits_northwest_garund-fake-fn-10" data-hash-target to="main-traits_northwest_garund-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
 <Pair single="flavor" id="traitdivhunter-div-hunter-fn10-flavor">Divs have tormented you and your loved ones for as long as you can remember. You've improved your skills to better oppose the creatures.</Pair>
 <Pair single="benefit" id="traitdivhunter-div-hunter-fn10-benefit">You gain a +2 trait bonus on Knowledge checks to identify <Link to="/family/div">divs</Link> (and their special powers and weaknesses) and a +1 trait bonus on weapon damage rolls against divs.</Pair>
 </Ability>
-<Ability id="traiteducateddruggist-educated-druggist-fn2-3" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traiteducateddruggist-educated-druggist-fn2-3" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traiteducateddruggist-educated-druggist-fn2-3"><Link to="/trait/educated_druggist">⮞</Link> Educated Druggist <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-2.3" id="main-traits_northwest_garund-fake-fn-2.3" data-hash-target to="main-traits_northwest_garund-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osibu, Thuvia, Tian Xia, or Ustalav</Pair>
 <Pair single="benefit" id="traiteducateddruggist-educated-druggist-fn2-3-benefit">Any <Link to="/main/equipment_alchemical">alchemical remedies</Link> you administer that provide an alchemical bonus have that bonus increased by 1. These remedies also restore 1 hit point to the target in addition to their usual effects.</Pair>
 </Ability>
-<Ability id="traitlamasaranperformer-lamasaran-performer-fn1-4" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitlamasaranperformer-lamasaran-performer-fn1-4" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitlamasaranperformer-lamasaran-performer-fn1-4"><Link to="/trait/lamasaran_performer">⮞</Link> Lamasaran Performer <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-1.4" id="main-traits_northwest_garund-fake-fn-1.4" data-hash-target to="main-traits_northwest_garund-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
 <Pair single="flavor" id="traitlamasaranperformer-lamasaran-performer-fn1-4-flavor">You are one of the famed performers of Lamasara, and your skill is known throughout Thuvia.</Pair>
 <Pair single="benefit" id="traitlamasaranperformer-lamasaran-performer-fn1-4-benefit">Once per day when you start a <Link to="/ability/bardic_performance">bardic performance</Link>, you can increase the DC of the saving throw to resist your performance's effects by 1. This effect lasts until you switch performances or end your performance.</Pair>
 </Ability>
-<Ability id="traitmerabianmentorship-merabian-mentorship-fn11" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitmerabianmentorship-merabian-mentorship-fn11" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitmerabianmentorship-merabian-mentorship-fn11"><Link to="/trait/merabian_mentorship">⮞</Link> Merabian Mentorship <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-11" id="main-traits_northwest_garund-fake-fn-11" data-hash-target to="main-traits_northwest_garund-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
@@ -952,28 +952,28 @@ const _traits_northwest_garund = {title: "Regional Traits: Northwestern Garund",
 <Pair single="flavor" id="traitmerabianmentorship-merabian-mentorship-fn11-flavor">You were apprenticed to a renowned alchemist of Merab, and she taught you how to recognize elemental reagents by taste.</Pair>
 <Pair single="benefit" id="traitmerabianmentorship-merabian-mentorship-fn11-benefit">Upon imbibing a potion containing a spell on your formula list of a spell level you are capable of casting, you can attempt a <Link to="/skill/spellcraft">Spellcraft</Link> check (DC 15 + extract level). On a success, you can immediately add the spell to your formula book.</Pair>
 </Ability>
-<Ability id="traitresourcefulalchemy-resourceful-alchemy-fn4-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitresourcefulalchemy-resourceful-alchemy-fn4-2" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitresourcefulalchemy-resourceful-alchemy-fn4-2"><Link to="/trait/resourceful_alchemy">⮞</Link> Resourceful Alchemy <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-4.2" id="main-traits_northwest_garund-fake-fn-4.2" data-hash-target to="main-traits_northwest_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
 <Pair single="flavor" id="traitresourcefulalchemy-resourceful-alchemy-fn4-2-flavor">Alchemy is a point of national pride in Thuvia, home of the famous <Link to="/magic-artifact/sun_orchid_elixir">sun orchid elixir</Link>. But resources are often hard to come by in the blasted desert landscape, so you have found creative ways to create many of the tools you need to survive.</Pair>
 <Pair single="benefit" id="traitresourcefulalchemy-resourceful-alchemy-fn4-2-benefit">You gain a +2 trait bonus on <Link to="/skill/craft">Craft</Link> (alchemy) skill checks. This bonus increases to +3 when you are using Craft (alchemy) to craft an alchemical item.</Pair>
 </Ability>
-<Ability id="traitrunawayslave-runaway-slave-fn12" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitrunawayslave-runaway-slave-fn12" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitrunawayslave-runaway-slave-fn12"><Link to="/trait/runaway_slave">⮞</Link> Runaway Slave <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-12" id="main-traits_northwest_garund-fake-fn-12" data-hash-target to="main-traits_northwest_garund-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion, Thuvia, or Darklands-adjacent</Pair>
 <Pair single="flavor" id="traitrunawayslave-runaway-slave-fn12-flavor">Though the ghouls of Nemret Noktoria and the drow of Zirnakaynin seldom darken the surface of Golarion, both have pacts with influential slavers and warlords who periodically provide the demon worshipers with kidnapped slaves. You were once one of these unfortunate victims and were destined to become a sacrifice to a dreadful demon lord, but you managed to slip your bonds and escape back to the surface. The horrors you witnessed were beyond fathoming, and though visions of imprisoned loved ones and friends plague your dreams, you are stronger for the experience.</Pair>
 <Pair single="benefit" id="traitrunawayslave-runaway-slave-fn12-benefit">You gain a +1 trait bonus on saves against fear effects and gain low-light vision 10 feet. If you already have low-light vision, its range extends by 10 feet.</Pair>
 </Ability>
-<Ability id="traitsunorchidharvester-sun-orchid-harvester-fn13" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitsunorchidharvester-sun-orchid-harvester-fn13" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitsunorchidharvester-sun-orchid-harvester-fn13"><Link to="/trait/sun_orchid_harvester">⮞</Link> Sun Orchid Harvester <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-13" id="main-traits_northwest_garund-fake-fn-13" data-hash-target to="main-traits_northwest_garund-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
 <Pair single="flavor" id="traitsunorchidharvester-sun-orchid-harvester-fn13-flavor">You were employed briefly by the blue dragon Deyrubrujuan's alchemist cabal to harvest sun orchids deep in the Thuvian desert. Though you never worked your way deeper into the cabal, you retain the knowledge gained during your employment.</Pair>
 <Pair single="benefit" id="traitsunorchidharvester-sun-orchid-harvester-fn13-benefit">You gain a +1 bonus on <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> and <Link to="/skill/survival">Survival</Link> checks made in desert environments.</Pair>
 </Ability>
-<Ability id="traitthuvianmerchant-thuvian-merchant-fn5-4" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitthuvianmerchant-thuvian-merchant-fn5-4" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitthuvianmerchant-thuvian-merchant-fn5-4"><Link to="/trait/thuvian_merchant">⮞</Link> Thuvian Merchant <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-5.4" id="main-traits_northwest_garund-fake-fn-5.4" data-hash-target to="main-traits_northwest_garund-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
@@ -995,14 +995,14 @@ const _traits_northwest_garund = {title: "Regional Traits: Northwestern Garund",
 <li id="main-traits_northwest_garund-fake-fn-12-target"><p><Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link> <InnerLink aria-label="Back to reference 12" id="backlink-main-traits_northwest_garund-fake-fn-12" data-hash-target to="main-traits_northwest_garund-fake-fn-12">↩</InnerLink></p></li>
 <li id="main-traits_northwest_garund-fake-fn-13-target"><p><Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook</Link> <InnerLink aria-label="Back to reference 13" id="backlink-main-traits_northwest_garund-fake-fn-13" data-hash-target to="main-traits_northwest_garund-fake-fn-13">↩</InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_northeast_garund = {title: "Regional Traits: Northeastern Garund", jsx: <IonList lines="full"><MainLink to="/main/traits_regional" className="reversed" info="Back to Regional Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitalchemicalfence-alchemical-fence-fn1" extraClasses="trait" icon={["planet-conquest"]}>
+const _traits_northeast_garund = {title: "Regional Traits: Northeastern Garund", jsx: <IonList lines="full"><MainLink to="/main/traits_regional" className="reversed" info="Back to Regional Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitalchemicalfence-alchemical-fence-fn1" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitalchemicalfence-alchemical-fence-fn1"><Link to="/trait/alchemical_fence">⮞</Link> Alchemical Fence <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-1" id="main-traits_northeast_garund-fake-fn-1" data-hash-target to="main-traits_northeast_garund-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
 <Pair single="flavor" id="traitalchemicalfence-alchemical-fence-fn1-flavor">Growing up in the vast markets of Katapesh, you developed connections to a great many alchemists and poisoners all over the world. You know many of the right people in any given locale as well as how to get in touch with useful contacts.</Pair>
 <Pair single="benefit" id="traitalchemicalfence-alchemical-fence-fn1-benefit">When determining whether a given potion is available in a settlement, there is a 90% chance that it is available if it is within the settlement's base value for available magic items rather than a 75% chance. Additionally, when you use <Link to="/skill/diplomacy">Diplomacy</Link> to gather information about a topic related to alchemy or poisons (including making poisons), you gain a +3 trait bonus on the check.</Pair>
 </Ability>
-<Ability id="traitclumsyslave-clumsy-slave-fn2" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitclumsyslave-clumsy-slave-fn2" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitclumsyslave-clumsy-slave-fn2"><Link to="/trait/clumsy_slave">⮞</Link> Clumsy Slave <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-2" id="main-traits_northeast_garund-fake-fn-2" data-hash-target to="main-traits_northeast_garund-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Cheliax or Katapesh</Pair>
@@ -1010,14 +1010,14 @@ const _traits_northeast_garund = {title: "Regional Traits: Northeastern Garund",
 <Pair single="flavor" id="traitclumsyslave-clumsy-slave-fn2-flavor">As a former slave, you learned how to conceal your malice toward your owner behind a facade of clumsiness.</Pair>
 <Pair single="benefit" id="traitclumsyslave-clumsy-slave-fn2-benefit">The first time you attack someone with an attack that deals nonlethal damage, your target must make a <Link to="/skill/sense_motive">Sense Motive</Link> opposed by your <Link to="/skill/bluff">Bluff</Link> check minus the damage dealt to realize you actually intended to harm him; failure means he believe the injury was an accident on your part instead (though he may still want to punish you for it).</Pair>
 </Ability>
-<Ability id="traitcommercialsavvy-commercial-savvy-fn3" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitcommercialsavvy-commercial-savvy-fn3" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitcommercialsavvy-commercial-savvy-fn3"><Link to="/trait/commercial_savvy">⮞</Link> Commercial Savvy <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-3" id="main-traits_northeast_garund-fake-fn-3" data-hash-target to="main-traits_northeast_garund-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
 <Pair single="flavor" id="traitcommercialsavvy-commercial-savvy-fn3-flavor">You excel at maximizing mercantile contacts and convincing merchants to dig just a bit deeper into their pockets for you.</Pair>
 <Pair single="benefit" id="traitcommercialsavvy-commercial-savvy-fn3-benefit">Whenever you buy from or sell to a merchant, you treat a settlement's <Link to="/rule/base_value_and_purchase_limit">Base Value and Purchase Limit</Link> as 10% higher.</Pair>
 </Ability>
-<Ability id="traitduskwalkeragent-duskwalker-agent-fn4" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitduskwalkeragent-duskwalker-agent-fn4" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitduskwalkeragent-duskwalker-agent-fn4"><Link to="/trait/duskwalker_agent">⮞</Link> Duskwalker Agent <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4" id="main-traits_northeast_garund-fake-fn-4" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
@@ -1025,7 +1025,7 @@ const _traits_northeast_garund = {title: "Regional Traits: Northeastern Garund",
 <p>In addition, your reputation remains strong in the Nightstalls, and any transactions you make there are always beneficial to you; items you sell net you an additional 10% profit, and items you purchase there are 10% cheaper than normal. This discount also applies to your starting gear.</p>
 </Pair>
 </Ability>
-<Ability id="traitfortunefound-fortune-found-fn5" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitfortunefound-fortune-found-fn5" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitfortunefound-fortune-found-fn5"><Link to="/trait/fortune_found">⮞</Link> Fortune Found <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-5" id="main-traits_northeast_garund-fake-fn-5" data-hash-target to="main-traits_northeast_garund-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
@@ -1033,28 +1033,28 @@ const _traits_northeast_garund = {title: "Regional Traits: Northeastern Garund",
 <Pair single="flavor" id="traitfortunefound-fortune-found-fn5-flavor">You have learned a great many tricks and techniques for bartering with humans.</Pair>
 <Pair single="benefit" id="traitfortunefound-fortune-found-fn5-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> and <Link to="/skill/diplomacy">Diplomacy</Link> checks, and one of these skills (your choice) is a class skill for you.</Pair>
 </Ability>
-<Ability id="traitfreedslavekatapesh-freed-slave-katapesh-fn4-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitfreedslavekatapesh-freed-slave-katapesh-fn4-2" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitfreedslavekatapesh-freed-slave-katapesh-fn4-2"><Link to="/trait/freed_slave_katapesh">⮞</Link> Freed Slave (Katapesh) <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4.2" id="main-traits_northeast_garund-fake-fn-4.2" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
 <Pair single="flavor" id="traitfreedslavekatapesh-freed-slave-katapesh-fn4-2-flavor">You spent a significant portion of your childhood as a slave, but were freed from slavery several years ago by a benevolent master who purchased you from an auction after your previous master's death. Yet while the memories of your difficult childhood still haunt you, the hard life did toughen you.</Pair>
 <Pair single="benefit" id="traitfreedslavekatapesh-freed-slave-katapesh-fn4-2-benefit">You gain a +1 trait bonus on Fortitude saves.</Pair>
 </Ability>
-<Ability id="traitmerchantschild-merchants-child-fn6-fn4-3" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitmerchantschild-merchants-child-fn6-fn4-3" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitmerchantschild-merchants-child-fn6-fn4-3"><Link to="/trait/merchants_child">⮞</Link> Merchant's Child <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-6" id="main-traits_northeast_garund-fake-fn-6" data-hash-target to="main-traits_northeast_garund-fake-fn-6-target">6</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4.3" id="main-traits_northeast_garund-fake-fn-4.3" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
 <Pair single="flavor" id="traitmerchantschild-merchants-child-fn6-fn4-3-flavor">One of your close relatives was a gifted merchant in the bustling bazaars of Katapesh, and taught you early in life how to see the innate value in any object.</Pair>
 <Pair single="benefit" id="traitmerchantschild-merchants-child-fn6-fn4-3-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> checks, and Appraise is always a class skill for you.</Pair>
 </Ability>
-<Ability id="traitnightstallurchin-nightstall-urchin-fn4-4" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitnightstallurchin-nightstall-urchin-fn4-4" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitnightstallurchin-nightstall-urchin-fn4-4"><Link to="/trait/nightstall_urchin">⮞</Link> Nightstall Urchin <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4.4" id="main-traits_northeast_garund-fake-fn-4.4" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
 <Pair single="flavor" id="traitnightstallurchin-nightstall-urchin-fn4-4-flavor">You grew up an orphan on the streets of Katapesh, and spent many years of childhood in the Nightstalls, Katapesh's most infamous market. The strange and often horrific sights you saw there forced you to grow up fast - there's little that can shock or unsettle you.</Pair>
 <Pair single="benefit" id="traitnightstallurchin-nightstall-urchin-fn4-4-benefit">You gain a +2 trait bonus on saves against fear effects, and when you do make a successful save against a fear effect, the resulting rush of bravado grants you a +1 trait bonus on attack rolls and all skill checks for the next minute.</Pair>
 </Ability>
-<Ability id="traitnightstallsescapee-nightstalls-escapee-fn7" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitnightstallsescapee-nightstalls-escapee-fn7" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitnightstallsescapee-nightstalls-escapee-fn7"><Link to="/trait/nightstalls_escapee">⮞</Link> Nightstalls Escapee <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-7" id="main-traits_northeast_garund-fake-fn-7" data-hash-target to="main-traits_northeast_garund-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
@@ -1062,70 +1062,70 @@ const _traits_northeast_garund = {title: "Regional Traits: Northeastern Garund",
 <Pair single="flavor" id="traitnightstallsescapee-nightstalls-escapee-fn7-flavor">The slavers of Katapesh were determined to sell you as living property, but you had other plans. You know not whether your slavers hunt you still, but you are careful about whom you trust and you always sleep with one eye open.</Pair>
 <Pair single="benefit" id="traitnightstallsescapee-nightstalls-escapee-fn7-benefit">You need to sleep only 4 hours to get <Link to="/rule/healing">a full night's rest</Link> (restoring 1 hit point per character level). You do not receive extra benefits for sleeping additional hours, and you must still rest for 24 hours to receive the benefits of complete bed rest.</Pair>
 </Ability>
-<Ability id="traitpeshaddict-pesh-addict-fn6-2-fn4-5" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitpeshaddict-pesh-addict-fn6-2-fn4-5" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitpeshaddict-pesh-addict-fn6-2-fn4-5"><Link to="/trait/pesh_addict">⮞</Link> Pesh Addict <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-6.2" id="main-traits_northeast_garund-fake-fn-6.2" data-hash-target to="main-traits_northeast_garund-fake-fn-6-target">6</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4.5" id="main-traits_northeast_garund-fake-fn-4.5" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
 <Pair single="flavor" id="traitpeshaddict-pesh-addict-fn6-2-fn4-5-flavor">You spent several years addicted to <Link to="/drug/pesh">pesh</Link>, a habit that you may or may not have kicked.</Pair>
 <Pair single="benefit" id="traitpeshaddict-pesh-addict-fn6-2-fn4-5-benefit">You start with only half of the normal starting cash, but your knowledge of the pesh lifestyle grants you a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/knowledge_local">Knowledge (local)</Link>, and <Link to="/skill/sense_motive">Sense Motive</Link> checks. One of these skills (your choice) is always a class skill for you.</Pair>
 </Ability>
-<Ability id="traitpeshdealer-pesh-dealer-fn4-6" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitpeshdealer-pesh-dealer-fn4-6" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitpeshdealer-pesh-dealer-fn4-6"><Link to="/trait/pesh_dealer">⮞</Link> Pesh Dealer <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4.6" id="main-traits_northeast_garund-fake-fn-4.6" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
 <Pair single="flavor" id="traitpeshdealer-pesh-dealer-fn4-6-flavor">You worked for a <Link to="/drug/pesh">pesh</Link> dealer, either by selling the drug on the street or helping to organize shipments to other regions, which involved a certain amount of smuggling.</Pair>
 <Pair single="benefit" id="traitpeshdealer-pesh-dealer-fn4-6-benefit">You gain a +1 trait bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks, and Sleight of Hand is always a class skill for you.</Pair>
 </Ability>
-<Ability id="traitsavannachild-savanna-child-fn8-fn9-fn4-7" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitsavannachild-savanna-child-fn8-fn9-fn4-7" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitsavannachild-savanna-child-fn8-fn9-fn4-7"><Link to="/trait/savanna_child">⮞</Link> Savanna Child <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-8" id="main-traits_northeast_garund-fake-fn-8" data-hash-target to="main-traits_northeast_garund-fake-fn-8-target">8</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-9" id="main-traits_northeast_garund-fake-fn-9" data-hash-target to="main-traits_northeast_garund-fake-fn-9-target">9</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4.7" id="main-traits_northeast_garund-fake-fn-4.7" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh, plains</Pair>
 <Pair single="flavor" id="traitsavannachild-savanna-child-fn8-fn9-fn4-7-flavor">You were born and raised in central Katapesh, among the rolling savannahs that dominate the nation's interior. You spent many of your youth exploring these vast reaches, and know much of the savannah's secrets.</Pair>
 <Pair single="benefit" id="traitsavannachild-savanna-child-fn8-fn9-fn4-7-benefit">Pick one of the following skills: <Link to="/skill/handle_animal">Handle Animal</Link>, <Link to="/skill/knowledge_nature">Knowledge (nature)</Link>, or <Link to="/skill/ride">Ride</Link>. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</Pair>
 </Ability>
-<Ability id="traituwagahighlander-uwaga-highlander-fn4-8" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traituwagahighlander-uwaga-highlander-fn4-8" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traituwagahighlander-uwaga-highlander-fn4-8"><Link to="/trait/uwaga_highlander">⮞</Link> Uwaga Highlander <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4.8" id="main-traits_northeast_garund-fake-fn-4.8" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
 <Pair single="flavor" id="traituwagahighlander-uwaga-highlander-fn4-8-flavor">You were born and raised in western Katapesh, in the rugged badlands and hills of the Uwaga Highlands. Even if you were born in a city like Solku, you often had to travel the dangerous trails with your family. Predators, gnolls, and worse haunt the Uwaga Highlands, and you've become something of an expert at evading them.</Pair>
 <Pair single="benefit" id="traituwagahighlander-uwaga-highlander-fn4-8-benefit">You gain a +1 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks. This trait bonus increases to +2 in hilly or rocky areas.</Pair>
 </Ability>
-<Ability id="traitabolitionisthunter-abolitionist-hunter-fn10" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitabolitionisthunter-abolitionist-hunter-fn10" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitabolitionisthunter-abolitionist-hunter-fn10"><Link to="/trait/abolitionist_hunter">⮞</Link> Abolitionist Hunter <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-10" id="main-traits_northeast_garund-fake-fn-10" data-hash-target to="main-traits_northeast_garund-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Okeno</Pair>
 <Pair single="flavor" id="traitabolitionisthunter-abolitionist-hunter-fn10-flavor">You hunt those who hunt slavers, whether as one of Captain Bhey's special task forces, or independently.</Pair>
 <Pair single="benefit" id="traitabolitionisthunter-abolitionist-hunter-fn10-benefit">You gain a +1 trait bonus on attack rolls when fighting abolitionists or those you have good reason to believe targeted you because of your slaver activities.</Pair>
 </Ability>
-<Ability id="traitcruelmaster-cruel-master-fn10-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitcruelmaster-cruel-master-fn10-2" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitcruelmaster-cruel-master-fn10-2"><Link to="/trait/cruel_master">⮞</Link> Cruel Master <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-10.2" id="main-traits_northeast_garund-fake-fn-10.2" data-hash-target to="main-traits_northeast_garund-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Okeno</Pair>
 <Pair single="flavor" id="traitcruelmaster-cruel-master-fn10-2-flavor">You're a master of dominating slaves through body language and inflection, and this ability carries over into other lines of work as well.</Pair>
 <Pair single="benefit" id="traitcruelmaster-cruel-master-fn10-2-benefit">You gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks, and it becomes a class skill for you.</Pair>
 </Ability>
-<Ability id="traitslavetaker-slave-taker-fn10-3" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitslavetaker-slave-taker-fn10-3" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitslavetaker-slave-taker-fn10-3"><Link to="/trait/slave_taker">⮞</Link> Slave Taker <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-10.3" id="main-traits_northeast_garund-fake-fn-10.3" data-hash-target to="main-traits_northeast_garund-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Okeno</Pair>
 <Pair single="flavor" id="traitslavetaker-slave-taker-fn10-3-flavor">You specialize in disabling foes without wounding them, preserving their value as slaves.</Pair>
 <Pair single="benefit" id="traitslavetaker-slave-taker-fn10-3-benefit">Whenever you deal nonlethal damage in combat, that damage increases by +1.</Pair>
 </Ability>
-<Ability id="traitwhipspecialist-whip-specialist-fn10-4" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitwhipspecialist-whip-specialist-fn10-4" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitwhipspecialist-whip-specialist-fn10-4"><Link to="/trait/whip_specialist">⮞</Link> Whip Specialist <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-10.4" id="main-traits_northeast_garund-fake-fn-10.4" data-hash-target to="main-traits_northeast_garund-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Okeno</Pair>
 <Pair single="flavor" id="traitwhipspecialist-whip-specialist-fn10-4-flavor">Your time spent lashing slaves has taught you how to get the most out of a whip.</Pair>
 <Pair single="benefit" id="traitwhipspecialist-whip-specialist-fn10-4-benefit">You deal +1 point of damage on all attacks made with a <Link to="/eq-weapon/whip">whip</Link>.</Pair>
 </Ability>
-<Ability id="traitantiquitiessmuggler-antiquities-smuggler-fn6-3" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitantiquitiessmuggler-antiquities-smuggler-fn6-3" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitantiquitiessmuggler-antiquities-smuggler-fn6-3"><Link to="/trait/antiquities_smuggler">⮞</Link> Antiquities Smuggler <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-6.3" id="main-traits_northeast_garund-fake-fn-6.3" data-hash-target to="main-traits_northeast_garund-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
 <Pair single="flavor" id="traitantiquitiessmuggler-antiquities-smuggler-fn6-3-flavor">You have moved contraband relics from Osirion's elder days for years, and have learned some tricks.</Pair>
 <Pair single="benefit" id="traitantiquitiessmuggler-antiquities-smuggler-fn6-3-benefit">Choose one of the following skills: <Link to="/skill/appraise">Appraise</Link>, <Link to="/skill/bluff">Bluff</Link>, or <Link to="/skill/sleight_of_hand">Sleight of Hand</Link>. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</Pair>
 </Ability>
-<Ability id="traitcheaptofeed-cheap-to-feed-fn2-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitcheaptofeed-cheap-to-feed-fn2-2" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitcheaptofeed-cheap-to-feed-fn2-2"><Link to="/trait/cheap_to_feed">⮞</Link> Cheap to Feed <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-2.2" id="main-traits_northeast_garund-fake-fn-2.2" data-hash-target to="main-traits_northeast_garund-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion or Varisia</Pair>
@@ -1133,47 +1133,47 @@ const _traits_northeast_garund = {title: "Regional Traits: Northeastern Garund",
 <Pair single="flavor" id="traitcheaptofeed-cheap-to-feed-fn2-2-flavor">Life in a big city taught the consequences of pride. Now you have no qualms about pointing out how little of a burden your upkeep would prove to potential employers, captors, innkeepers, or anyone else able to provide you with the necessities of life.</Pair>
 <Pair single="benefit" id="traitcheaptofeed-cheap-to-feed-fn2-2-benefit">You gain a +3 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks made in order to gain food, water, or shelter.</Pair>
 </Ability>
-<Ability id="traitchildofmumia-child-of-mumia-fn11" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitchildofmumia-child-of-mumia-fn11" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitchildofmumia-child-of-mumia-fn11"><Link to="/trait/child_of_mumia">⮞</Link> Child of Mumia <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-11" id="main-traits_northeast_garund-fake-fn-11" data-hash-target to="main-traits_northeast_garund-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
 <Pair single="benefit" id="traitchildofmumia-child-of-mumia-fn11-benefit">During your childhood, you knew someone who was addicted to <Link to="/drug/mumia">mumia</Link>, a drug made from the flesh of the dead, whether that was a drug-addled parent, an unsavory employer, or a libertine childhood friend. Although you did not indulge in the ghoulish narcotic yourself, your exposure to it grants you a +1 trait bonus on saving throws against curses and diseases, including magical diseases.</Pair>
 </Ability>
-<Ability id="traitchildofwati-child-of-wati-fn12" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitchildofwati-child-of-wati-fn12" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitchildofwati-child-of-wati-fn12"><Link to="/trait/child_of_wati">⮞</Link> Child of Wati <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-12" id="main-traits_northeast_garund-fake-fn-12" data-hash-target to="main-traits_northeast_garund-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
 <Pair single="flavor" id="traitchildofwati-child-of-wati-fn12-flavor">You were raised near the infamous necropolis of Wati, and even managed to sneak into these hallowed grounds on occasion. Entering the clergy of the Voices of the Spire in Wati was a natural choice as you grew older, and your past experiences made you a particularly well-informed disciple of the church.</Pair>
 <Pair single="benefit" id="traitchildofwati-child-of-wati-fn12-benefit">Your effective cleric level is 1 higher for the purposes of <Link to="/ability/channel_positive_energy">channeling positive energy</Link> to damage undead. Your effective cleric level cannot exceed your character level.</Pair>
 </Ability>
-<Ability id="traitcursequeller-curse-queller-fn13" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitcursequeller-curse-queller-fn13" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitcursequeller-curse-queller-fn13"><Link to="/trait/curse_queller">⮞</Link> Curse Queller <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-13" id="main-traits_northeast_garund-fake-fn-13" data-hash-target to="main-traits_northeast_garund-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
 <Pair single="benefit" id="traitcursequeller-curse-queller-fn13-benefit">Whenever a caster level check is required to treat an affliction with magic (such as when casting <Link to="/spell/remove_curse">remove curse</Link> on a cursed creature or object), you gain a +2 trait bonus on your caster level check. Additionally, you gain a +1 trait bonus on your saving throws against curses.</Pair>
 </Ability>
-<Ability id="traitelementalendowment-elemental-endowment-fn3-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitelementalendowment-elemental-endowment-fn3-2" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitelementalendowment-elemental-endowment-fn3-2"><Link to="/trait/elemental_endowment">⮞</Link> Elemental Endowment <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-3.2" id="main-traits_northeast_garund-fake-fn-3.2" data-hash-target to="main-traits_northeast_garund-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
 <Pair single="flavor" id="traitelementalendowment-elemental-endowment-fn3-2-flavor">You see the interactions between elementals as the epitome of balance; you've studied the traditional elemental bindings of Ancient Osirion and can draw upon their power.</Pair>
 <Pair single="benefit" id="traitelementalendowment-elemental-endowment-fn3-2-benefit">As an <strong className="hl">immediate action</strong>, once per day when you cast a spell with the air, earth, fire, or water descriptor, you can gain a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the spell's level. This effect lasts for 1 minute.</Pair>
 </Ability>
-<Ability id="traitelementalties-elemental-ties-fn14" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitelementalties-elemental-ties-fn14" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitelementalties-elemental-ties-fn14"><Link to="/trait/elemental_ties">⮞</Link> Elemental Ties <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-14" id="main-traits_northeast_garund-fake-fn-14" data-hash-target to="main-traits_northeast_garund-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
 <Pair single="flavor" id="traitelementalties-elemental-ties-fn14-flavor">Interactions with elementals are commonplace for you.</Pair>
 <Pair single="benefit" id="traitelementalties-elemental-ties-fn14-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks when dealing with creatures of the elemental type, and you begin play knowing one of the following languages as an additional bonus language: Aquan, Auran, Ignan, or Terran.</Pair>
 </Ability>
-<Ability id="traitempathicdiplomat-empathic-diplomat-fn15" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitempathicdiplomat-empathic-diplomat-fn15" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitempathicdiplomat-empathic-diplomat-fn15"><Link to="/trait/empathic_diplomat">⮞</Link> Empathic Diplomat <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-15" id="main-traits_northeast_garund-fake-fn-15" data-hash-target to="main-traits_northeast_garund-fake-fn-15-target">15</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira or Osirion</Pair>
 <Pair single="flavor" id="traitempathicdiplomat-empathic-diplomat-fn15-flavor">You have long followed the path of common sense and empathic insight when using diplomacy.</Pair>
 <Pair single="benefit" id="traitempathicdiplomat-empathic-diplomat-fn15-benefit">You modify your <Link to="/skill/diplomacy">Diplomacy</Link> checks using your Wisdom modifier, not your Charisma modifier.</Pair>
 </Ability>
-<Ability id="traitlegalisticliberation-legalistic-liberation-fn2-3" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitlegalisticliberation-legalistic-liberation-fn2-3" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitlegalisticliberation-legalistic-liberation-fn2-3"><Link to="/trait/legalistic_liberation">⮞</Link> Legalistic Liberation <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-2.3" id="main-traits_northeast_garund-fake-fn-2.3" data-hash-target to="main-traits_northeast_garund-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Molthune or Osirion</Pair>
@@ -1181,35 +1181,35 @@ const _traits_northeast_garund = {title: "Regional Traits: Northeastern Garund",
 <Pair single="flavor" id="traitlegalisticliberation-legalistic-liberation-fn2-3-flavor">You followed - or some might say exploited - the rules and earned your freedom by finding the loopholes within your homeland's labyrinthine codes regulating slavery and indentured servitude.</Pair>
 <Pair single="benefit" id="traitlegalisticliberation-legalistic-liberation-fn2-3-benefit">You gain a +1 bonus on all <Link to="/skill/knowledge">Knowledge</Link> checks to find a legitimate way to avoid, negate, or escape an existing obligation.</Pair>
 </Ability>
-<Ability id="traitnumerologist-numerologist-fn11-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitnumerologist-numerologist-fn11-2" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitnumerologist-numerologist-fn11-2"><Link to="/trait/numerologist">⮞</Link> Numerologist <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-11.2" id="main-traits_northeast_garund-fake-fn-11.2" data-hash-target to="main-traits_northeast_garund-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
 <Pair single="flavor" id="traitnumerologist-numerologist-fn11-2-flavor">Having studied the sciences and other formal academics in your formative years, you swiftly became interested in the esoteric numerological practices of the ancient Osirian mathematicians, and know how to apply this science to dungeons.</Pair>
 <Pair single="benefit" id="traitnumerologist-numerologist-fn11-2-benefit">Once per day, you can attempt a <Link to="/skill/perception">Perception</Link> check while studying a trap (a <strong className="hl">standard action</strong>). The DC of this check is equal to the <Link to="/skill/disable_device">Disable Device</Link> DC of the trap - 5. If you succeed, you identify the DC necessary to disable the trap, as well as the DC of the Reflex save (if any) to avoid its effects.</Pair>
 </Ability>
-<Ability id="traitoffspringoftheascension-offspring-of-the-ascension-fn16" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitoffspringoftheascension-offspring-of-the-ascension-fn16" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitoffspringoftheascension-offspring-of-the-ascension-fn16"><Link to="/trait/offspring_of_the_ascension">⮞</Link> Offspring of the Ascension <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-16" id="main-traits_northeast_garund-fake-fn-16" data-hash-target to="main-traits_northeast_garund-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
 <Pair single="flavor" id="traitoffspringoftheascension-offspring-of-the-ascension-fn16-flavor">You are descended from one of Ancient Osirion's pharaohs, and a sliver of her otherworldly power has been passed onto you.</Pair>
 <Pair single="benefit" id="traitoffspringoftheascension-offspring-of-the-ascension-fn16-benefit">You gain a +1 trait bonus on Will saves against fear effects. Any time you become <Link to="/misc/confused">confused</Link>, reduce the duration of the effect by a number of rounds equal to your Wisdom modifier (to a minimum of 1 round of confusion).</Pair>
 </Ability>
-<Ability id="traitosirionologist-osirionologist-fn6-4" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitosirionologist-osirionologist-fn6-4" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitosirionologist-osirionologist-fn6-4"><Link to="/trait/osirionologist">⮞</Link> Osirionologist <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-6.4" id="main-traits_northeast_garund-fake-fn-6.4" data-hash-target to="main-traits_northeast_garund-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
 <Pair single="flavor" id="traitosirionologist-osirionologist-fn6-4-flavor">You have studied the history of ancient Osirion, and may have even ventured inside one of the great pyramids.</Pair>
 <Pair single="benefit" id="traitosirionologist-osirionologist-fn6-4-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> and <Link to="/skill/knowledge_history">Knowledge (history)</Link> checks, and one of them is always a class skill for you. In addition, you may choose Ancient Osiriani as one of your bonus languages.</Pair>
 </Ability>
-<Ability id="traitrunawayslave-runaway-slave-fn17" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitrunawayslave-runaway-slave-fn17" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitrunawayslave-runaway-slave-fn17"><Link to="/trait/runaway_slave">⮞</Link> Runaway Slave <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-17" id="main-traits_northeast_garund-fake-fn-17" data-hash-target to="main-traits_northeast_garund-fake-fn-17-target">17</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion, Thuvia, or Darklands-adjacent</Pair>
 <Pair single="flavor" id="traitrunawayslave-runaway-slave-fn17-flavor">Though the ghouls of Nemret Noktoria and the drow of Zirnakaynin seldom darken the surface of Golarion, both have pacts with influential slavers and warlords who periodically provide the demon worshipers with kidnapped slaves. You were once one of these unfortunate victims and were destined to become a sacrifice to a dreadful demon lord, but you managed to slip your bonds and escape back to the surface. The horrors you witnessed were beyond fathoming, and though visions of imprisoned loved ones and friends plague your dreams, you are stronger for the experience.</Pair>
 <Pair single="benefit" id="traitrunawayslave-runaway-slave-fn17-benefit">You gain a +1 trait bonus on saves against fear effects and gain low-light vision 10 feet. If you already have low-light vision, its range extends by 10 feet.</Pair>
 </Ability>
-<Ability id="traitsnakehandler-snake-handler-fn18" extraClasses="trait" icon={["planet-conquest"]}>
+<Ability id="traitsnakehandler-snake-handler-fn18" extraClasses="trait" icon={["Regional"]}>
 <Pair single id="traitsnakehandler-snake-handler-fn18"><Link to="/trait/snake_handler">⮞</Link> Snake Handler <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-18" id="main-traits_northeast_garund-fake-fn-18" data-hash-target to="main-traits_northeast_garund-fake-fn-18-target">18</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Religion" hl><Link to="/faith/apep">Apep</Link> or <Link to="/faith/wadjet">Wadjet</Link></Pair>
@@ -1237,20 +1237,20 @@ const _traits_northeast_garund = {title: "Regional Traits: Northeastern Garund",
 <li id="main-traits_northeast_garund-fake-fn-17-target"><p><Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link> <InnerLink aria-label="Back to reference 17" id="backlink-main-traits_northeast_garund-fake-fn-17" data-hash-target to="main-traits_northeast_garund-fake-fn-17">↩</InnerLink></p></li>
 <li id="main-traits_northeast_garund-fake-fn-18-target"><p><Link to="/source/heroes_from_the_fringe">Heroes from the Fringe</Link> <InnerLink aria-label="Back to reference 18" id="backlink-main-traits_northeast_garund-fake-fn-18" data-hash-target to="main-traits_northeast_garund-fake-fn-18">↩</InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_social_prod = {title: "Productive Skill Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitartisan-artisan-fn1" extraClasses="trait" icon={["village"]}>
+const _traits_social_prod = {title: "Productive Skill Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitartisan-artisan-fn1" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitartisan-artisan-fn1"><Link to="/trait/artisan">⮞</Link> Artisan <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-1" id="main-traits_social_prod-fake-fn-1" data-hash-target to="main-traits_social_prod-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traitartisan-artisan-fn1-flavor">You spent time working under artisans, or your parents were artisans who were particularly skilled at their trade.</Pair>
 <Pair single="benefit" id="traitartisan-artisan-fn1-benefit">You gain a +2 trait bonus on a single <Link to="/skill/craft">Craft</Link> skill (your choice).</Pair>
 </Ability>
-<Ability id="traitbrastlewarkbusinessmangog-brastlewark-businessman-gog-fn2" extraClasses="trait" icon={["village"]}>
+<Ability id="traitbrastlewarkbusinessmangog-brastlewark-businessman-gog-fn2" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitbrastlewarkbusinessmangog-brastlewark-businessman-gog-fn2"><Link to="/trait/brastlewark_businessman_gog">⮞</Link> Brastlewark Businessman (GoG) <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-2" id="main-traits_social_prod-fake-fn-2" data-hash-target to="main-traits_social_prod-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
 <Pair single="flavor" id="traitbrastlewarkbusinessmangog-brastlewark-businessman-gog-fn2-flavor">Your time among the gnome elite of Brastlewark in Cheliax has led to an extensive knowledge of alchemy and ready connections in the business.</Pair>
 <Pair single="benefit" id="traitbrastlewarkbusinessmangog-brastlewark-businessman-gog-fn2-benefit">You gain a +2 trait bonus on all <Link to="/skill/craft">Craft</Link> (alchemy) checks.</Pair>
 </Ability>
-<Ability id="traitcollector-collector-fn2-2" extraClasses="trait" icon={["village"]}>
+<Ability id="traitcollector-collector-fn2-2" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitcollector-collector-fn2-2"><Link to="/trait/collector">⮞</Link> Collector <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-2.2" id="main-traits_social_prod-fake-fn-2.2" data-hash-target to="main-traits_social_prod-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -1259,51 +1259,51 @@ const _traits_social_prod = {title: "Productive Skill Social Traits", jsx: <IonL
 <p>Once this skill has been selected, it cannot be changed, nor can you gain it for any other collection you begin amassing.</p>
 </Pair>
 </Ability>
-<Ability id="traitharvester-harvester-fn1-2" extraClasses="trait" icon={["village"]}>
+<Ability id="traitharvester-harvester-fn1-2" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitharvester-harvester-fn1-2"><Link to="/trait/harvester">⮞</Link> Harvester <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-1.2" id="main-traits_social_prod-fake-fn-1.2" data-hash-target to="main-traits_social_prod-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traitharvester-harvester-fn1-2-flavor">You were trained to harvest all parts of an animal with care and precision.</Pair>
 <Pair single="benefit" id="traitharvester-harvester-fn1-2-benefit">You gain a +1 trait bonus on <Link to="/skill/profession">Profession</Link> (tanner) or Profession (trapper) checks, and you may make these checks as if you were trained in the skill even if you have no ranks. Additionally, you do not risk poisoning yourself whenever you handle or apply poison taken from a venomous creature.</Pair>
 </Ability>
-<Ability id="traitmentored-mentored-fn1-3" extraClasses="trait" icon={["village"]}>
+<Ability id="traitmentored-mentored-fn1-3" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitmentored-mentored-fn1-3"><Link to="/trait/mentored">⮞</Link> Mentored <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-1.3" id="main-traits_social_prod-fake-fn-1.3" data-hash-target to="main-traits_social_prod-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traitmentored-mentored-fn1-3-flavor">A tutor or private instructor guided you in learning your art, profession, or trade, and through your education, you became capable of teaching and guiding others.</Pair>
 <Pair single="benefit" id="traitmentored-mentored-fn1-3-benefit">Choose a single <Link to="/skill/craft">Craft</Link>, <Link to="/skill/perform">Perform</Link>, or <Link to="/skill/profession">Profession</Link> skill. You gain a +1 trait bonus on checks with that skill. You also gain a +1 trait bonus when you <Link to="/rule/aid_another">aid another's</Link> skill check with any skill.</Pair>
 </Ability>
-<Ability id="traitnoblesavage-noble-savage-fn3" extraClasses="trait" icon={["village"]}>
+<Ability id="traitnoblesavage-noble-savage-fn3" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitnoblesavage-noble-savage-fn3"><Link to="/trait/noble_savage">⮞</Link> Noble Savage <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-3" id="main-traits_social_prod-fake-fn-3" data-hash-target to="main-traits_social_prod-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl>Associated with the <Link to="/rule/ulfen_guard">Ulfen Guard</Link></Pair>
 <Pair single="flavor" id="traitnoblesavage-noble-savage-fn3-flavor">You hail from the fringes of civilization or the bottommost strata of society, but something in your character makes that seem endearing.</Pair>
 <Pair single="benefit" id="traitnoblesavage-noble-savage-fn3-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/perform">Perform</Link> checks when dealing with people of high social standing.</Pair>
 </Ability>
-<Ability id="traitobnoxious-obnoxious-fn4" extraClasses="trait" icon={["village"]}>
+<Ability id="traitobnoxious-obnoxious-fn4" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitobnoxious-obnoxious-fn4"><Link to="/trait/obnoxious">⮞</Link> Obnoxious <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-4" id="main-traits_social_prod-fake-fn-4" data-hash-target to="main-traits_social_prod-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traitobnoxious-obnoxious-fn4-flavor">You have long since forgotten to care what people think about you - though your interactions are always memorable, at the very least.</Pair>
 <Pair single="benefit" id="traitobnoxious-obnoxious-fn4-benefit">Choose <Link to="/skill/perform">Perform</Link> (act), Perform (comedy), Perform (oratory), or Perform (sing); you gain a +1 trait bonus on checks with the chosen skill and gain it as a class skill.</Pair>
 </Ability>
-<Ability id="traitsavant-savant-fn3-2" extraClasses="trait" icon={["village"]}>
+<Ability id="traitsavant-savant-fn3-2" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitsavant-savant-fn3-2"><Link to="/trait/savant">⮞</Link> Savant <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-3.2" id="main-traits_social_prod-fake-fn-3.2" data-hash-target to="main-traits_social_prod-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl><Link to="/rule/kitharodian_academy">Kitharodian Academy</Link></Pair>
 <Pair single="flavor" id="traitsavant-savant-fn3-2-flavor">From a very young age, the ability to master performance types has come quite naturally to you.</Pair>
 <Pair single="benefit" id="traitsavant-savant-fn3-2-benefit">Choose a performance type. You gain a +2 trait bonus on all <Link to="/skill/perform">Perform</Link> checks made using that performance type. Perform is always a class skill for you.</Pair>
 </Ability>
-<Ability id="traitselfreliant-self-reliant-fn5" extraClasses="trait" icon={["village"]}>
+<Ability id="traitselfreliant-self-reliant-fn5" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitselfreliant-self-reliant-fn5"><Link to="/trait/self_reliant">⮞</Link> Self-Reliant <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-5" id="main-traits_social_prod-fake-fn-5" data-hash-target to="main-traits_social_prod-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traitselfreliant-self-reliant-fn5-flavor">You know how to work with your hands and aren't dependent on complex tools.</Pair>
 <Pair single="benefit" id="traitselfreliant-self-reliant-fn5-benefit">When attempting <Link to="/skill/craft">Craft</Link> checks, you take no penalty when using improvised tools. At the GM's discretion, you can attempt certain Craft checks even when no tools are available, though you take a -2 penalty.</Pair>
 </Ability>
-<Ability id="traitsimpledisciple-simple-disciple-fn1-4" extraClasses="trait" icon={["village"]}>
+<Ability id="traitsimpledisciple-simple-disciple-fn1-4" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitsimpledisciple-simple-disciple-fn1-4"><Link to="/trait/simple_disciple">⮞</Link> Simple Disciple <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-1.4" id="main-traits_social_prod-fake-fn-1.4" data-hash-target to="main-traits_social_prod-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traitsimpledisciple-simple-disciple-fn1-4-flavor">You picked up skill in a craft or a profession during your time at a monastery.</Pair>
 <Pair single="benefit" id="traitsimpledisciple-simple-disciple-fn1-4-benefit">You gain a +1 trait bonus on checks with a <Link to="/skill/profession">Profession</Link> or <Link to="/skill/craft">Craft</Link> skill of your choice.</Pair>
 </Ability>
-<Ability id="traittalented-talented-fn1-5" extraClasses="trait" icon={["village"]}>
+<Ability id="traittalented-talented-fn1-5" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traittalented-talented-fn1-5"><Link to="/trait/talented">⮞</Link> Talented <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-1.5" id="main-traits_social_prod-fake-fn-1.5" data-hash-target to="main-traits_social_prod-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traittalented-talented-fn1-5-flavor">You are a virtuoso musician, actor, or storyteller.</Pair>
@@ -1316,18 +1316,18 @@ const _traits_social_prod = {title: "Productive Skill Social Traits", jsx: <IonL
 <li id="main-traits_social_prod-fake-fn-4-target"><p><Link to="/source/antiheros_handbook">Antihero's Handbook</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_social_prod-fake-fn-4" data-hash-target to="main-traits_social_prod-fake-fn-4">↩</InnerLink></p></li>
 <li id="main-traits_social_prod-fake-fn-5-target"><p><Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_social_prod-fake-fn-5" data-hash-target to="main-traits_social_prod-fake-fn-5">↩</InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_social_other = {title: "Other Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitadopted-adopted-fn1-fn2-fn3" extraClasses="trait" icon={["village"]}>
+const _traits_social_other = {title: "Other Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitadopted-adopted-fn1-fn2-fn3" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitadopted-adopted-fn1-fn2-fn3"><Link to="/trait/adopted">⮞</Link> Adopted <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-1" id="main-traits_social_other-fake-fn-1" data-hash-target to="main-traits_social_other-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-2" id="main-traits_social_other-fake-fn-2" data-hash-target to="main-traits_social_other-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-3" id="main-traits_social_other-fake-fn-3" data-hash-target to="main-traits_social_other-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="benefit" id="traitadopted-adopted-fn1-fn2-fn3-benefit">You were adopted and raised by someone not of your race, and raised in a society not your own. As a result, you picked up a race trait from your adoptive parents and society, and may immediately select a <Link to="/main/traits_race">race trait</Link> from your adoptive parents' race.</Pair>
 </Ability>
-<Ability id="traitancestralarmor-ancestral-armor-fn4" extraClasses="trait" icon={["village"]}>
+<Ability id="traitancestralarmor-ancestral-armor-fn4" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitancestralarmor-ancestral-armor-fn4"><Link to="/trait/ancestral_armor">⮞</Link> Ancestral Armor <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-4" id="main-traits_social_other-fake-fn-4" data-hash-target to="main-traits_social_other-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traitancestralarmor-ancestral-armor-fn4-flavor">You inherited an ancient set of Tar Taargadth armor.</Pair>
 <Pair single="benefit" id="traitancestralarmor-ancestral-armor-fn4-benefit">You begin play with a set of <Link to="/rule/masterwork_armor">masterwork armor</Link> of your choice. You must be proficient in wearing this armor, and the armor's total cost cannot exceed 300 gp.</Pair>
 </Ability>
-<Ability id="traitcompetitive-competitive-fn5" extraClasses="trait" icon={["village"]}>
+<Ability id="traitcompetitive-competitive-fn5" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitcompetitive-competitive-fn5"><Link to="/trait/competitive">⮞</Link> Competitive <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-5" id="main-traits_social_other-fake-fn-5" data-hash-target to="main-traits_social_other-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traitcompetitive-competitive-fn5-flavor">You grew up and were raised around fabulous sporting events, and your youth was consumed with a driving need to be better than everyone else. Any hint of a contest spurs you to your greatest heights of potential.</Pair>
@@ -1335,31 +1335,31 @@ const _traits_social_other = {title: "Other Social Traits", jsx: <IonList lines=
 <p><strong>Suggested Characters:</strong> Brevans, Kurgess worshipers, Sargavans.</p>
 </Pair>
 </Ability>
-<Ability id="traitduskmarketbribery-dusk-market-bribery-fn6" extraClasses="trait" icon={["village"]}>
+<Ability id="traitduskmarketbribery-dusk-market-bribery-fn6" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitduskmarketbribery-dusk-market-bribery-fn6"><Link to="/trait/dusk_market_bribery">⮞</Link> Dusk Market Bribery <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-6" id="main-traits_social_other-fake-fn-6" data-hash-target to="main-traits_social_other-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traitduskmarketbribery-dusk-market-bribery-fn6-flavor">You learned how to bribe by watching <Link to="/rule/dusk_market">Dusk Market</Link> merchants interact with Westcrown's dottari guards.</Pair>
 <Pair single="benefit" id="traitduskmarketbribery-dusk-market-bribery-fn6-benefit">Reduce the amount of gold you must spend to bribe a guard or official or compensate a conjured creature by 5%.</Pair>
 </Ability>
-<Ability id="traitmentored-mentored-fn1-2" extraClasses="trait" icon={["village"]}>
+<Ability id="traitmentored-mentored-fn1-2" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitmentored-mentored-fn1-2"><Link to="/trait/mentored">⮞</Link> Mentored <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-1.2" id="main-traits_social_other-fake-fn-1.2" data-hash-target to="main-traits_social_other-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traitmentored-mentored-fn1-2-flavor">A tutor or private instructor guided you in learning your art, profession, or trade, and through your education, you became capable of teaching and guiding others.</Pair>
 <Pair single="benefit" id="traitmentored-mentored-fn1-2-benefit">Choose a single <Link to="/skill/craft">Craft</Link>, <Link to="/skill/perform">Perform</Link>, or <Link to="/skill/profession">Profession</Link> skill. You gain a +1 trait bonus on checks with that skill. You also gain a +1 trait bonus when you <Link to="/rule/aid_another">aid another's</Link> skill check with any skill.</Pair>
 </Ability>
-<Ability id="traitmonsterstalker-monster-stalker-fn7" extraClasses="trait" icon={["village"]}>
+<Ability id="traitmonsterstalker-monster-stalker-fn7" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitmonsterstalker-monster-stalker-fn7"><Link to="/trait/monster_stalker">⮞</Link> Monster Stalker <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-7" id="main-traits_social_other-fake-fn-7" data-hash-target to="main-traits_social_other-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traitmonsterstalker-monster-stalker-fn7-flavor">You've been raised to hunt certain beasts.</Pair>
 <Pair single="benefit" id="traitmonsterstalker-monster-stalker-fn7-benefit">Choose either aberrations, animals, dragons, fey, magical beasts, oozes, or vermin. You gain a limited version of the <Link to="/umr/scent">scent</Link> ability (15 feet normal, 30 feet upwind, 5 feet downwind) that detects only your chosen creature type.</Pair>
 </Ability>
-<Ability id="traitnaturalbornleadersocial-natural-born-leader-social-fn1-3-fn3-2-fn2-2" extraClasses="trait" icon={["village"]}>
+<Ability id="traitnaturalbornleadersocial-natural-born-leader-social-fn1-3-fn3-2-fn2-2" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitnaturalbornleadersocial-natural-born-leader-social-fn1-3-fn3-2-fn2-2"><Link to="/trait/natural_born_leader_social">⮞</Link> Natural-Born Leader (Social) <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-1.3" id="main-traits_social_other-fake-fn-1.3" data-hash-target to="main-traits_social_other-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-3.2" id="main-traits_social_other-fake-fn-3.2" data-hash-target to="main-traits_social_other-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-2.2" id="main-traits_social_other-fake-fn-2.2" data-hash-target to="main-traits_social_other-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traitnaturalbornleadersocial-natural-born-leader-social-fn1-3-fn3-2-fn2-2-flavor">You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not.</Pair>
 <Pair single="benefit" id="traitnaturalbornleadersocial-natural-born-leader-social-fn1-3-fn3-2-fn2-2-benefit">All cohorts, followers, or summoned creatures under your leadership gain a +1 morale bonus on Will saves to avoid mind-affecting effects. If you ever take the <Link to="/feat/leadership">Leadership</Link> feat, you gain a +1 trait bonus to your Leadership score.</Pair>
 </Ability>
-<Ability id="traitnumerianfluidindulger-numerian-fluid-indulger-fn8" extraClasses="trait" icon={["village"]}>
+<Ability id="traitnumerianfluidindulger-numerian-fluid-indulger-fn8" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitnumerianfluidindulger-numerian-fluid-indulger-fn8"><Link to="/trait/numerian_fluid_indulger">⮞</Link> Numerian Fluid Indulger <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-8" id="main-traits_social_other-fake-fn-8" data-hash-target to="main-traits_social_other-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Region" hl>Numeria</Pair>
@@ -1367,24 +1367,24 @@ const _traits_social_other = {title: "Other Social Traits", jsx: <IonList lines=
 <Pair single="flavor" id="traitnumerianfluidindulger-numerian-fluid-indulger-fn8-flavor">You have tasted <Link to="/drug/numerian_fluids">Numerian fluids</Link> many times.</Pair>
 <Pair single="benefit" id="traitnumerianfluidindulger-numerian-fluid-indulger-fn8-benefit">Once per day after rolling to determine the side effects of consuming a Numerian fluid, you can roll on the table again, but you must take the second result.</Pair>
 </Ability>
-<Ability id="traitreassuringadvice-reassuring-advice-fn9" extraClasses="trait" icon={["village"]}>
+<Ability id="traitreassuringadvice-reassuring-advice-fn9" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitreassuringadvice-reassuring-advice-fn9"><Link to="/trait/reassuring_advice">⮞</Link> Reassuring Advice <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-9" id="main-traits_social_other-fake-fn-9" data-hash-target to="main-traits_social_other-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traitreassuringadvice-reassuring-advice-fn9-flavor">You've studied the speeches and writings of a leader or thinker who served as a reassuring voice in her community in the turbulent times after Aroden died, painfully learning which portions of Aroden's advice no longer applied and what of his writings could still be usefully applied.</Pair>
 <Pair single="benefit" id="traitreassuringadvice-reassuring-advice-fn9-benefit">Once per day, you can speak Aroden's words of encouragement to grant any human a +1 insight bonus on any attack roll, saving throw, or skill check of his choice within the following hour. The choice to use the insight bonus must be made before the related roll is made.</Pair>
 </Ability>
-<Ability id="traitrichparents-rich-parents-fn1-4-fn3-3-fn2-3" extraClasses="trait" icon={["village"]}>
+<Ability id="traitrichparents-rich-parents-fn1-4-fn3-3-fn2-3" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitrichparents-rich-parents-fn1-4-fn3-3-fn2-3"><Link to="/trait/rich_parents">⮞</Link> Rich Parents <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-1.4" id="main-traits_social_other-fake-fn-1.4" data-hash-target to="main-traits_social_other-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-3.3" id="main-traits_social_other-fake-fn-3.3" data-hash-target to="main-traits_social_other-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-2.3" id="main-traits_social_other-fake-fn-2.3" data-hash-target to="main-traits_social_other-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="benefit" id="traitrichparents-rich-parents-fn1-4-fn3-3-fn2-3-benefit">You were born into a rich family, perhaps even the nobility, and even though you turned to a life of adventure, you enjoy a one-time benefit to your initial finances: your starting wealth increases to 900 gp.</Pair>
 </Ability>
-<Ability id="traitslaverunner-slave-runner-fn10" extraClasses="trait" icon={["village"]}>
+<Ability id="traitslaverunner-slave-runner-fn10" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitslaverunner-slave-runner-fn10"><Link to="/trait/slave_runner">⮞</Link> Slave Runner <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-10" id="main-traits_social_other-fake-fn-10" data-hash-target to="main-traits_social_other-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traitslaverunner-slave-runner-fn10-flavor">You witnessed or were party to the rescue of a halfling from Chelish slavery by the <Link to="/rule/bellflower_network">Bellflower Network</Link> or <Link to="/rule/eagle_knights">Eagle Knights</Link>.</Pair>
 <Pair single="benefit" id="traitslaverunner-slave-runner-fn10-benefit">Once per day when attempting to directly free a slave, you gain a +2 trait bonus on your choice of an <Link to="/skill/acrobatics">Acrobatics</Link> check, an <Link to="/skill/escape_artist">Escape Artist</Link> check, a <Link to="/skill/stealth">Stealth</Link> check, or a skill check attempted as part of a <Link to="/rule/heists">heist</Link> or <Link to="/rule/pursuit">pursuit</Link></Pair>
 </Ability>
-<Ability id="traitsupportive-supportive-fn5-2" extraClasses="trait" icon={["village"]}>
+<Ability id="traitsupportive-supportive-fn5-2" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitsupportive-supportive-fn5-2"><Link to="/trait/supportive">⮞</Link> Supportive <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-5.2" id="main-traits_social_other-fake-fn-5.2" data-hash-target to="main-traits_social_other-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traitsupportive-supportive-fn5-2-flavor">You were forced to get by in an isolated enclave, whether surrounded by a community that feared and suspected you or in a remote locale far from other people, and you became practiced at assisting your friends.</Pair>
@@ -1392,13 +1392,13 @@ const _traits_social_other = {title: "Other Social Traits", jsx: <IonList lines=
 <p><strong>Suggested Characters:</strong> Halflings, Mwangi, Tians.</p>
 </Pair>
 </Ability>
-<Ability id="traitvoicesinyourhead-voices-in-your-head-fn11" extraClasses="trait" icon={["village"]}>
+<Ability id="traitvoicesinyourhead-voices-in-your-head-fn11" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitvoicesinyourhead-voices-in-your-head-fn11"><Link to="/trait/voices_in_your_head">⮞</Link> Voices in your Head <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-11" id="main-traits_social_other-fake-fn-11" data-hash-target to="main-traits_social_other-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traitvoicesinyourhead-voices-in-your-head-fn11-flavor">Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness.</Pair>
 <Pair single="benefit" id="traitvoicesinyourhead-voices-in-your-head-fn11-benefit">Once per day as an <strong className="hl">immediate action</strong>, you can issue a command to a <Link to="/misc/confused">confused</Link> creature within 30 feet. This allows the creature to immediately reroll on the <Link to="/misc/confused">confused condition table</Link>, and you can pick which of the two actions - the action of its initial roll or that of the reroll - the creature takes. Confused creatures do not need to understand you for this trait to take effect.</Pair>
 </Ability>
-<Ability id="traitwanderlust-wanderlust-fn5-3" extraClasses="trait" icon={["village"]}>
+<Ability id="traitwanderlust-wanderlust-fn5-3" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitwanderlust-wanderlust-fn5-3"><Link to="/trait/wanderlust">⮞</Link> Wanderlust <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-5.3" id="main-traits_social_other-fake-fn-5.3" data-hash-target to="main-traits_social_other-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traitwanderlust-wanderlust-fn5-3-flavor">Your childhood was brightened by the new places you constantly saw as you traveled with your parents, who were merchants. Still excited by travel, you gain great energy when traveling overland.</Pair>
@@ -1406,12 +1406,12 @@ const _traits_social_other = {title: "Other Social Traits", jsx: <IonList lines=
 <p><strong>Suggested Characters:</strong> Desnans, halflings, Varisians.</p>
 </Pair>
 </Ability>
-<Ability id="traitwickedleader-wicked-leader-fn12" extraClasses="trait" icon={["village"]}>
+<Ability id="traitwickedleader-wicked-leader-fn12" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitwickedleader-wicked-leader-fn12"><Link to="/trait/wicked_leader">⮞</Link> Wicked Leader <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-12" id="main-traits_social_other-fake-fn-12" data-hash-target to="main-traits_social_other-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="benefit" id="traitwickedleader-wicked-leader-fn12-benefit">You gain a +1 trait bonus on Charisma checks against evil creatures. If you select the <Link to="/feat/leadership">Leadership</Link> feat or the <Link to="/feat/vile_leadership">Vile Leadership</Link> feat at any point when you meet the prerequisites for that feat, you can recruit a cohort who is up to 1 level lower than you (instead of the normal requirement that your cohort must be 2 or more levels lower than you are) as long as your cohort is evil.</Pair>
 </Ability>
-<Ability id="traitworldly-worldly-fn1-5" extraClasses="trait" icon={["village"]}>
+<Ability id="traitworldly-worldly-fn1-5" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitworldly-worldly-fn1-5"><Link to="/trait/worldly">⮞</Link> Worldly <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-1.5" id="main-traits_social_other-fake-fn-1.5" data-hash-target to="main-traits_social_other-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="traitworldly-worldly-fn1-5-flavor">You have acquired an unusual breadth of life experience - more than others of your age, race, or culture.</Pair>
@@ -1431,7 +1431,7 @@ const _traits_social_other = {title: "Other Social Traits", jsx: <IonList lines=
 <li id="main-traits_social_other-fake-fn-11-target"><p><Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link> <InnerLink aria-label="Back to reference 11" id="backlink-main-traits_social_other-fake-fn-11" data-hash-target to="main-traits_social_other-fake-fn-11">↩</InnerLink></p></li>
 <li id="main-traits_social_other-fake-fn-12-target"><p><Link to="/source/champions_of_corruption">Champions of Corruption</Link> <InnerLink aria-label="Back to reference 12" id="backlink-main-traits_social_other-fake-fn-12" data-hash-target to="main-traits_social_other-fake-fn-12">↩</InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_social_code = {title: "Knightly Code Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitcalculatedbribe-calculated-bribe-fn1" extraClasses="trait" icon={["village"]}>
+const _traits_social_code = {title: "Knightly Code Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitcalculatedbribe-calculated-bribe-fn1" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitcalculatedbribe-calculated-bribe-fn1"><Link to="/trait/calculated_bribe">⮞</Link> Calculated Bribe <sup><InnerLink showBacklink="backlink-main-traits_social_code-fake-fn-1" id="main-traits_social_code-fake-fn-1" data-hash-target to="main-traits_social_code-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Code of Perseverance" hl><p>Knights who follow the code of perseverance believe that to truly serve a purpose, an organization or group of individuals must first look to its own survival. Deeds are temporary and forgotten with time. For an organization to be influential, it must persist. These knights collect power and wealth, always looking to the future. Their vows are as follows.</p>
@@ -1449,7 +1449,7 @@ const _traits_social_code = {title: "Knightly Code Social Traits", jsx: <IonList
 </Pair>
 <Pair title="Penance" hl>Knights who violate this code must perform penance by placing money into a fund to guard against their order's future poverty. The amount required for a knight to set aside is 100 gold &times; the knight's current level.</Pair>
 </Ability>
-<Ability id="traitcontagiousmettle-contagious-mettle-fn1-2" extraClasses="trait" icon={["village"]}>
+<Ability id="traitcontagiousmettle-contagious-mettle-fn1-2" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitcontagiousmettle-contagious-mettle-fn1-2"><Link to="/trait/contagious_mettle">⮞</Link> Contagious Mettle <sup><InnerLink showBacklink="backlink-main-traits_social_code-fake-fn-1.2" id="main-traits_social_code-fake-fn-1.2" data-hash-target to="main-traits_social_code-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Code of Valor" hl><p>Knights who follow the code of valor believe that nothing is more important than courage in battle. The strength of knights is determined by their willingness to stand in the face of overwhelming odds. Without valor, knighthood is merely a title. Their vows are as follows.</p>
@@ -1464,7 +1464,7 @@ const _traits_social_code = {title: "Knightly Code Social Traits", jsx: <IonList
 <Pair single="benefit" id="traitcontagiousmettle-contagious-mettle-fn1-2-benefit">If you follow this code, you gain a +1 trait bonus on Will saves against fear. In addition, any allies adjacent to you receive a +1 morale bonus on Will saves against fear.</Pair>
 <Pair title="Penance" hl>Knights who violate this code must perform penance by volunteering their service to a local militia, army, or fighting company for at least 1 week, whether by performing unusual missions, leading troops into battle, or assisting in the training of soldiers.</Pair>
 </Ability>
-<Ability id="traitdismantleorder-dismantle-order-fn1-3" extraClasses="trait" icon={["village"]}>
+<Ability id="traitdismantleorder-dismantle-order-fn1-3" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitdismantleorder-dismantle-order-fn1-3"><Link to="/trait/dismantle_order">⮞</Link> Dismantle Order <sup><InnerLink showBacklink="backlink-main-traits_social_code-fake-fn-1.3" id="main-traits_social_code-fake-fn-1.3" data-hash-target to="main-traits_social_code-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Code of Revolution" hl><p>Knights who follow the code of revolution believe that strict laws are an unnecessary bulwark standing in the way of social progress. According to these knights, intelligent and civilized people are inherently good-natured, and if left to their own devices, individuals would prove more wholesome and attuned to the natural order of things than when tainted by the unnatural strictures of organized society. Their vows are as follows.</p>
@@ -1487,7 +1487,7 @@ const _traits_social_code = {title: "Knightly Code Social Traits", jsx: <IonList
 <Pair single="benefit" id="traitdismantleorder-dismantle-order-fn1-3-benefit">Once per day, you can use <Link to="/spell/detect_law">detect law</Link> as a spell-like ability (caster level 1st). If you have levels in a class that can cast <em>detect law,</em> your caster level for this spell-like ability is equal to that class level.</Pair>
 <Pair title="Penance" hl>Knights who follow this code and violate one of its tenets must separate themselves from society in order to atone for their misdoing. The minimum amount of time spent wholly isolated from civilization is 1 week, though this time might be increased to up to 1 month, depending on the transgression.</Pair>
 </Ability>
-<Ability id="traitenemyofslavers-enemy-of-slavers-fn1-4" extraClasses="trait" icon={["village"]}>
+<Ability id="traitenemyofslavers-enemy-of-slavers-fn1-4" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitenemyofslavers-enemy-of-slavers-fn1-4"><Link to="/trait/enemy_of_slavers">⮞</Link> Enemy of Slavers <sup><InnerLink showBacklink="backlink-main-traits_social_code-fake-fn-1.4" id="main-traits_social_code-fake-fn-1.4" data-hash-target to="main-traits_social_code-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Code of Freedom" hl><p>Knights who follow the code of freedom believe that no man, woman, or child should be owned by another individual. They believe that all of the humanoid races, even those of monstrous descent, deserve to be given a chance to make their own decisions in life. Their vows are as follows.</p>
@@ -1505,7 +1505,7 @@ You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <L
 </Pair>
 <Pair title="Penance" hl>Knights who violate any of this code's tenets must perform penance by placing themselves in servitude to the individual who was wronged. If the exact individual cannot be found, a person of equivalent social class is sufficient. The length of servitude is dependent on the severity of the transgression. Minor transgressions require a day. If an entire family was enslaved as a result of the knight's actions (or inaction), up to a month of servitude might be required.</Pair>
 </Ability>
-<Ability id="traitlawenforcer-law-enforcer-fn1-5" extraClasses="trait" icon={["village"]}>
+<Ability id="traitlawenforcer-law-enforcer-fn1-5" extraClasses="trait" icon={["Social"]}>
 <Pair single id="traitlawenforcer-law-enforcer-fn1-5"><Link to="/trait/law_enforcer">⮞</Link> Law Enforcer <sup><InnerLink showBacklink="backlink-main-traits_social_code-fake-fn-1.5" id="main-traits_social_code-fake-fn-1.5" data-hash-target to="main-traits_social_code-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Code of Vigilance" hl><p>Knights who follow the code of vigilance believe that people are prone to chaos and society will eventually devolve into anarchy if given the opportunity. In order for society to continue, these knights must constantly remind people of the law, and take it upon themselves to enforce it in the absence of other authority figures. Their vows are as follows.</p>

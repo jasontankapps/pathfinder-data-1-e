@@ -6,19 +6,19 @@ import ScrollContainer from '../../components/ScrollContainer';
 import ByLevelPop from '../../components/ByLevelPop';
 const _opportunist = {title: "Opportunist", jsx: <><h2 id="arc-fighter-opportunist-opportunist">Opportunist</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 20</Link><br/>Opportunists believe every battle is one of wits rather than arms. The ratfolk enforcers who protect Goka's infamous Deepmarket embrace this philosophy, unleashing a disorienting mix of martial skill and alchemical weaponry.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-fighter-opportunist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ratfolk">Ratfolk</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="duplicitous-ex" icon={["skills"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-fighter-opportunist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ratfolk">Ratfolk</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="duplicitous-ex" icon={["skill"]}>
 <Pair single id="duplicitous-ex">Duplicitous (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair hl title="Alters">Class skills</Pair>
 <Pair title="Info">An opportunist adds <Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX), and <Link to="/skill/stealth">Stealth</Link> (DEX) to his list of class skills. He gains 2 bonus skill ranks at each level, which must be allocated among these skills.</Pair>
 </Ability>
-<Ability id="underhanded-ex" icon={["stairs-goal"]}>
+<Ability id="underhanded-ex" icon={["power"]}>
 <Pair single id="underhanded-ex">Underhanded (Ex)</Pair>
 <Pair hl title="Replaces">The bonus feat gained at 1st level</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An opportunist gains <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link> as a bonus feat even if he does not meet the prerequisites.</Pair>
 </Ability>
-<Ability id="cunning-edge-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="cunning-edge-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="cunning-edge-ex">Cunning Edge (Ex)</Pair>
 <Pair hl title="Replaces">Bonus feats gained at 4th, 8th, 12th, 16th, and 20th levels</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -28,17 +28,17 @@ const _opportunist = {title: "Opportunist", jsx: <><h2 id="arc-fighter-opportuni
 <Pair title="At 16th Level">He can select a fourth edge.</Pair>
 <Pair title="At 20th Level">He can select a fifth edge.</Pair>
 </Ability>
-<Ability id="alchemical-admixture-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="alchemical-admixture-ex" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="alchemical-admixture-ex">Alchemical Admixture (Ex)</Pair>
 <Pair title="Usage">1 time/day per four fighter levels<ByLevelPop levels={[[4,1],[8,2],[12,3],[16,4],[20,5]]} unit="time" postText="/day" /></Pair>
 <Pair title="Full-Round Action">The opportunist can combine two alchemical weapons into a single vial. When thrown as a splash weapon, the mixture has the effects of both component substances and targets are affected as if hit by both. The mixture becomes inert after 1 hour. Combining identical alchemical weapons has no effect.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>Yes</Pair>
 </Ability>
-<Ability id="alchemical-refinement-ex" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Ability id="alchemical-refinement-ex" extraClasses="subAbility" icon={["lower"]}>
 <Pair single id="alchemical-refinement-ex">Alchemical Refinement (Ex)</Pair>
 <Pair title="Ability">The opportunist increases the save DC of any alchemical item he crafts by an amount equal to <Link to="/misc/one_third">one-third</Link> of his fighter level. Doing so increases the raw material cost to craft that item by 10 gp for every +1 increase. This bonus applies only when the opportunist uses the crafted alchemical item himself; it functions as a normal item of its type for all other users.</Pair>
 </Ability>
-<Ability id="bombs-ex" extraClasses="subAbility" icon={["stairs-goal","smoking-finger"]}>
+<Ability id="bombs-ex" extraClasses="subAbility" icon={["power","zap"]}>
 <Pair single id="bombs-ex">Bombs (Ex)</Pair>
 <Pair title="Ability"><p>The opportunist can make a number of bombs per day equal to his Intelligence modifier (minimum 1). These bombs act as <Link to="/class/alchemist">alchemist's</Link> bombs and deal 1d6 points of fire damage, plus an additional 1d6 points for every 3 fighter levels the opportunist has.</p>
 <blockquote>
@@ -48,20 +48,20 @@ const _opportunist = {title: "Opportunist", jsx: <><h2 id="arc-fighter-opportuni
 </blockquote>
 </Pair>
 </Ability>
-<Ability id="clouded-shift-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="clouded-shift-ex" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="clouded-shift-ex">Clouded Shift (Ex)</Pair>
 <Pair title="Ability">As part of the standard action to ignite a <Link to="/eq-misc/smokestick">smokestick</Link> or <Link to="/eq-misc/smoke_pellet">smoke pellet</Link>, the opportunist can take a 5-foot step, even if he has already moved this round. He can use this ability only if he has not already taken a 5-foot step this round, and only if the smoke from his alchemical tool conceals his starting location.</Pair>
 </Ability>
-<Ability id="poison-use-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="poison-use-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="poison-use-ex">Poison Use (Ex)</Pair>
 <Pair title="Ability">The opportunist no longer risks poisoning himself when applying poison to a weapon.</Pair>
 </Ability>
-<Ability id="rogue-talent-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="rogue-talent-ex" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="rogue-talent-ex">Rogue Talent (Ex)</Pair>
 <Pair title="Choice">The opportunist can select one of the following rogue talents for which he qualifies, treating his fighter level as his rogue level: <Link to="/talent/deft_palm">deft palm</Link>, <Link to="/talent/fast_fingers">fast fingers</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/lasting_poison">lasting poison</Link>, <Link to="/talent/minor_magic">minor magic</Link>, or <Link to="/talent/quick_trapsmith">quick trapsmith</Link>.</Pair>
 <Pair title="Special">The opportunist can select this edge multiple times.</Pair>
 </Ability>
-<Ability id="alchemical-onslaught-ex" icon={["upgrade"]}>
+<Ability id="alchemical-onslaught-ex" icon={["boost"]}>
 <Pair single id="alchemical-onslaught-ex">Alchemical Onslaught (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 1</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -71,23 +71,23 @@ const _opportunist = {title: "Opportunist", jsx: <><h2 id="arc-fighter-opportuni
 </>};
 const _pack_mule = {title: "Pack Mule", jsx: <><h2 id="arc-fighter-pack_mule-pack-mule">Pack Mule</h2>
 <p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets pg. 26</Link><br/>Pack mules carry heavy loads with ease and small packages with discretion. Unlike most couriers or porters, pack mules are also trained combatants able to defend their charges should the need arise. Many are willing to transport illegal goods, serving as runners for smugglers or muscle for bandits. Pack mules seeking legitimate work prove useful additions to merchant caravans and adventuring parties.</p>
-<Ability id="skill-ranks-per-level" icon={["skills"]}>
+<Ability id="skill-ranks-per-level" icon={["skill"]}>
 <Pair single id="skill-ranks-per-level">Skill Ranks per Level</Pair>
 <Pair hl title="Alters">The fighter's skill ranks per level</Pair>
 <Pair title="Info">He gains 4 + Int modifier skill ranks every level.</Pair>
 </Ability>
-<Ability id="unobtrusive" icon={["skills"]}>
+<Ability id="unobtrusive" icon={["skill"]}>
 <Pair single id="unobtrusive">Unobtrusive</Pair>
 <Pair hl title="Replaces">The bonus feat gained at 1st level</Pair>
 <Pair title="Info">A pack mule gains <Link to="/skill/bluff">Bluff</Link> (Cha), <Link to="/skill/disguise">Disguise</Link> (Cha), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (Dex), and <Link to="/skill/stealth">Stealth</Link> (Dex) as class skills.</Pair>
 </Ability>
-<Ability id="efficient-packer-ex" icon={["upgrade"]}>
+<Ability id="efficient-packer-ex" icon={["boost"]}>
 <Pair single id="efficient-packer-ex">Efficient Packer (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A pack mule adds a bonus equal to <Link to="/misc/half">half</Link> his fighter level on Sleight of Hand checks to conceal objects on his body. He also adds a bonus equal to 1/2 his class level to his Strength score for the purpose of determining his <Link to="/rule/carrying_capacity">carrying capacity</Link>.</Pair>
 </Ability>
-<Ability id="weight-training-ex" icon={["upgrade"]}>
+<Ability id="weight-training-ex" icon={["boost"]}>
 <Pair single id="weight-training-ex">Weight Training (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 1 through 4</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -96,7 +96,7 @@ const _pack_mule = {title: "Pack Mule", jsx: <><h2 id="arc-fighter-pack_mule-pac
 <Pair title="At 7th Level">The check penalty is now reduced by 2, the max Dex bonus is increased by 2, and the pack mule can now move at his normal speed while carrying a heavy load.</Pair>
 <Pair title="At 11th Level">The check penalty is now reduced by 4, the max Dex bonus is increased by 4.</Pair>
 </Ability>
-<Ability id="healthy-as-a-mule-ex" icon={["armor-upgrade"]}>
+<Ability id="healthy-as-a-mule-ex" icon={["def"]}>
 <Pair single id="healthy-as-a-mule-ex">Healthy as a Mule (Ex)</Pair>
 <Pair hl title="Replaces">Armor mastery</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -105,7 +105,7 @@ const _pack_mule = {title: "Pack Mule", jsx: <><h2 id="arc-fighter-pack_mule-pac
 </>};
 const _phalanx_soldier = {title: "Phalanx Soldier", jsx: <><h2 id="arc-fighter-phalanx_soldier-phalanx-soldier">Phalanx Soldier</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 105</Link><br/>The phalanx soldier specializes in defensive tactics, using his shield to guard himself and his allies and forming a shield wall like an unbreakable anvil against which his enemies break.</p>
-<Ability id="stand-firm-ex" icon={["armor-upgrade"]}>
+<Ability id="stand-firm-ex" icon={["def"]}>
 <Pair single id="stand-firm-ex">Stand Firm (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -115,13 +115,13 @@ const _phalanx_soldier = {title: "Phalanx Soldier", jsx: <><h2 id="arc-fighter-p
 <Pair title="At 14th Level">The bonus becomes +4.</Pair>
 <Pair title="At 18th Level">The bonus increases to +5.</Pair>
 </Ability>
-<Ability id="phalanx-fighting-ex" icon={["mailed-fist"]}>
+<Ability id="phalanx-fighting-ex" icon={["melee"]}>
 <Pair single id="phalanx-fighting-ex">Phalanx Fighting (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 1</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">When a phalanx soldier wields a shield, he can use any polearm or spear of his size as a one-handed weapon.</Pair>
 </Ability>
-<Ability id="ready-pike-ex" icon={["mailed-fist","upgrade"]}>
+<Ability id="ready-pike-ex" icon={["melee","boost"]}>
 <Pair single id="ready-pike-ex">Ready Pike (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 1</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -132,14 +132,14 @@ const _phalanx_soldier = {title: "Phalanx Soldier", jsx: <><h2 id="arc-fighter-p
 <Pair title="At 17th Level">This bonus becomes +4.</Pair>
 <Pair title="Special">He cannot use this ability when <Link to="/rule/flat_footed">flat-footed</Link>.</Pair>
 </Ability>
-<Ability id="deft-shield-ex" icon={["armor-upgrade","upgrade"]}>
+<Ability id="deft-shield-ex" icon={["def","boost"]}>
 <Pair single id="deft-shield-ex">Deft Shield (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 2 and 3</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">The armor check penalty from a shield and the attack roll penalty are reduced by 1 for a phalanx soldier using a <Link to="/eq-armor/tower_shield">tower shield</Link>.</Pair>
 <Pair title="At 11th Level">These penalties are reduced by 2.</Pair>
 </Ability>
-<Ability id="shield-ally-ex" icon={["armor-upgrade","shield-reflect"]}>
+<Ability id="shield-ally-ex" icon={["def","protect"]}>
 <Pair single id="shield-ally-ex">Shield Ally (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 2, 3, and 4</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -147,13 +147,13 @@ const _phalanx_soldier = {title: "Phalanx Soldier", jsx: <><h2 id="arc-fighter-p
 <Pair title="At 13th Level">He can instead provide cover (+4 cover bonus to AC, +2 bonus on Reflex saves) and <Link to="/ability/evasion">evasion</Link> (as a <Link to="/class/rogue">rogue</Link>) to one adjacent ally until the beginning of his next turn. This cover does not allow Stealth checks.</Pair>
 <Pair title="At 17th Level">He can provide cover to himself and all adjacent allies, or he can provide improved cover (+8 cover bonus to AC, +4 bonus on Reflex saves, <Link to="/ability/improved_evasion">improved evasion</Link>) to a single adjacent ally.</Pair>
 </Ability>
-<Ability id="irresistible-advance-ex" icon={["upgrade"]}>
+<Ability id="irresistible-advance-ex" icon={["boost"]}>
 <Pair single id="irresistible-advance-ex">Irresistible Advance (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 4</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Passive Ability">A phalanx fighter gains a bonus on bull rush and overrun CMB checks. This bonus depends on the type of shield used: +1 with a buckler, +2 with a light shield, +3 with a heavy shield, or +4 with a tower shield.</Pair>
 </Ability>
-<Ability id="shielded-fortress-ex" icon={["armor-upgrade","shield-reflect"]}>
+<Ability id="shielded-fortress-ex" icon={["def","protect"]}>
 <Pair single id="shielded-fortress-ex">Shielded Fortress (Ex)</Pair>
 <Pair hl title="Replaces">Weapon mastery</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -164,7 +164,7 @@ const _phalanx_soldier = {title: "Phalanx Soldier", jsx: <><h2 id="arc-fighter-p
 </>};
 const _polearm_master = {title: "Polearm Master", jsx: <><h2 id="arc-fighter-polearm_master-polearm-master">Polearm Master</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 106</Link><br/>The polearm master is schooled in the ancient wisdom that enemies are best faced at the end of long striking pole, lashing like a serpent before clumsy swords and axes can even be brought to bear.</p>
-<Ability id="pole-fighting-ex" icon={["mailed-fist"]}>
+<Ability id="pole-fighting-ex" icon={["melee"]}>
 <Pair single id="pole-fighting-ex">Pole Fighting (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -174,7 +174,7 @@ const _polearm_master = {title: "Polearm Master", jsx: <><h2 id="arc-fighter-pol
 <Pair title="At 14th Level">The penalty on attack rolls becomes -5.</Pair>
 <Pair title="At 18th Level">The penalty on attack rolls increases to -6.</Pair>
 </Ability>
-<Ability id="steadfast-pike-ex" icon={["upgrade"]}>
+<Ability id="steadfast-pike-ex" icon={["boost"]}>
 <Pair single id="steadfast-pike-ex">Steadfast Pike (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 1, 2, 3, and 4</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -184,7 +184,7 @@ const _polearm_master = {title: "Polearm Master", jsx: <><h2 id="arc-fighter-pol
 <Pair title="At 15th Level">The bonus becomes +4.</Pair>
 <Pair title="At 19th Level">The bonus increases to +5.</Pair>
 </Ability>
-<Ability id="polearm-training-ex" icon={["upgrade"]}>
+<Ability id="polearm-training-ex" icon={["boost"]}>
 <Pair single id="polearm-training-ex">Polearm Training (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 1</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -193,25 +193,25 @@ const _polearm_master = {title: "Polearm Master", jsx: <><h2 id="arc-fighter-pol
 <Pair title="At 13th Level">The bonus increases to +3.</Pair>
 <Pair title="At 17th Level">The bonus becomes +4.</Pair>
 </Ability>
-<Ability id="flexible-flanker-ex" icon={["stairs-goal"]}>
+<Ability id="flexible-flanker-ex" icon={["power"]}>
 <Pair single id="flexible-flanker-ex">Flexible Flanker (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 2</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Ability">A polearm master may choose any square adjacent to him and treat that square as his location for determining who he is <Link to="/rule/flanking">flanking</Link>, even if that square is occupied by a creature, object, or solid barrier.</Pair>
 </Ability>
-<Ability id="sweeping-fend-ex" icon={["stairs-goal"]}>
+<Ability id="sweeping-fend-ex" icon={["power"]}>
 <Pair single id="sweeping-fend-ex">Sweeping Fend (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 3</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Ability">A polearm master can use any spear or polearm to make <Link to="/rule/bull_rush">bull rush</Link> maneuvers, though he takes a -4 penalty on combat maneuver checks when making such attempts. When using a spear or polearm to make a <Link to="/rule/trip">trip</Link> maneuver, he treats these weapons as if they had the <Link to="/misc/trip">trip</Link> weapon feature. Weapons with the trip property do not incur this penalty on trip maneuvers.</Pair>
 </Ability>
-<Ability id="step-aside-ex" icon={["armor-upgrade"]}>
+<Ability id="step-aside-ex" icon={["def"]}>
 <Pair single id="step-aside-ex">Step Aside (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 4</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Immediate Action">When a creature threatened by a polearm master takes <Link to="/rule/a_5_foot_step">a 5-foot step</Link> into a square adjacent to him, he can take a 5-foot step. This 5-foot step must be subtracted from his movement on the next turn. He also gains a +2 dodge bonus to his AC against that opponent until the end of his next turn.</Pair>
 </Ability>
-<Ability id="polearm-parry-ex" icon={["shield-reflect","armor-upgrade"]}>
+<Ability id="polearm-parry-ex" icon={["protect","def"]}>
 <Pair single id="polearm-parry-ex">Polearm Parry (Ex)</Pair>
 <Pair hl title="Replaces">Armor mastery</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -226,26 +226,26 @@ const _polearm_master = {title: "Polearm Master", jsx: <><h2 id="arc-fighter-pol
 </>};
 const _qadira_dawnflower_dervish = {title: "Qadira: Dawnflower Dervish", jsx: <><h2 id="arc-fighter-qadira_dawnflower_dervish-qadira-dawnflower-dervish">Qadira: Dawnflower Dervish</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer pg. 25</Link><br/>In Qadira, home of the whirlwind, the <Link to="/monster/giant_scorpion">scorpion</Link>, and the <Link to="/monster/djinni">djinni</Link>, no enemy is as feared as the dervishes of <Link to="/faith/sarenrae">Sarenrae</Link>. While dervishes can be clerics, paladins, or rangers, zealous fighters join their ranks as well. These spinning warriors prefer light or no armor and wield <Link to="/eq-weapon/scimitar">scimitars</Link> with devastating consequences, moving swiftly over the treacherous desert sands to attack with lightning-fast strikes. They maneuver quickly among their enemies, relying on their speed and their skill to see them through the battle.</p>
-<Ability id="burst-of-speed-ex" icon={["armor-upgrade"]}>
+<Ability id="burst-of-speed-ex" icon={["def"]}>
 <Pair single id="burst-of-speed-ex">Burst of Speed (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 1</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A Dawnflower dervish takes only a -1 penalty to her AC after <Link to="/rule/charging">charging</Link>.</Pair>
 <Pair title="At 7th Level">The Dawnflower dervish can charge with no penalty.</Pair>
 </Ability>
-<Ability id="desert-stride-ex" icon={["stairs-goal"]}>
+<Ability id="desert-stride-ex" icon={["power"]}>
 <Pair single id="desert-stride-ex">Desert Stride (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 2</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">A Dawnflower dervish can move through 10 feet of <Link to="/rule/difficult_terrain">difficult terrain</Link> each round as if it were normal terrain. This benefit stacks with the benefits provided by the <Link to="/feat/acrobatic_steps">Acrobatic Steps</Link> and <Link to="/feat/nimble_moves">Nimble Moves</Link> feats.</Pair>
 </Ability>
-<Ability id="rapid-attack-ex" icon={["stairs-goal"]}>
+<Ability id="rapid-attack-ex" icon={["power"]}>
 <Pair single id="rapid-attack-ex">Rapid Attack (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 3</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">A Dawnflower dervish can combine a <Link to="/rule/full_attack">full attack</Link> with a single move. She must forgo the attack at her highest bonus but may take the remaining attacks at any point during her movement. This movement provokes attacks of opportunity as normal.</Pair>
 </Ability>
-<Ability id="lightning-strike-ex" icon={["stairs-goal"]}>
+<Ability id="lightning-strike-ex" icon={["power"]}>
 <Pair single id="lightning-strike-ex">Lightning Strike (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 4</Pair>
 <Pair title="Gained">At 15th Level</Pair>
@@ -255,25 +255,25 @@ const _qadira_dawnflower_dervish = {title: "Qadira: Dawnflower Dervish", jsx: <>
 </>};
 const _relic_master = {title: "Relic Master", jsx: <><h2 id="arc-fighter-relic_master-relic-master">Relic Master</h2>
 <p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook pg. 27</Link><br/>Commonly trained in the well-funded temples of Osirion or Qadira, the relic master is skilled in magic item mastery.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Handle Animal, Ride</Pair></Ability>
-<Ability id="improved-item-mastery-su" icon={["stairs-goal"]}>
+<Ability id="improved-item-mastery-su" icon={["power"]}>
 <Pair single id="improved-item-mastery-su">Improved Item Mastery (Su)</Pair>
 <Pair hl title="Replaces">Armor training</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Usage">1 time/day + 1 per four fighter levels beyond 3rd<ByLevelPop levels={[[3,1],[7,2],[11,3],[15,4],[19,5]]} unit="time" postText="/day" /></Pair>
 <Pair title="Ability">A relic master can use an <Link to="/main/feats_item_mastery">item mastery feat</Link> she knows with a magic item that doesn't have an appropriate spell in its construction requirements. The magic item must meet all other requirements of the item mastery feat. Alternatively, if she is using a magic item with an appropriate spell in its construction requirements, she can use an item mastery feat without it counting against the feat's total uses per day.</Pair>
 </Ability>
-<Ability id="relic-channeler-su" icon={["upgrade"]}>
+<Ability id="relic-channeler-su" icon={["boost"]}>
 <Pair single id="relic-channeler-su">Relic Channeler (Su)</Pair>
 <Pair hl title="Replaces">Weapon training</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Usage">1 + Con modifier minutes/day (minimum 1); these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
 <Pair title="Swift Action">A relic master can increase the potency of a magic item she wields by investing it with a bit of her vitality. If the item is armor, a shield, or a weapon, its enhancement bonus increases by 1 to a maximum of +5. If the magic item creates a spell or has a save DC, its effective caster level increases by 1.</Pair>
 </Ability>
-<Ability id="improvised-item-mastery-su" icon={["stairs-goal"]}>
+<Ability id="improvised-item-mastery-su" icon={["power"]}>
 <Pair single id="improvised-item-mastery-su">Improvised Item Mastery (Su)</Pair>
 <Pair hl title="Replaces">Armor mastery</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -282,7 +282,7 @@ const _relic_master = {title: "Relic Master", jsx: <><h2 id="arc-fighter-relic_m
 </>};
 const _roughrider = {title: "Roughrider", jsx: <><h2 id="arc-fighter-roughrider-roughrider">Roughrider</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 106</Link><br/>Roughriders study and practice the fine points of mounted combat, drilling endlessly with warbeasts - from noble thoroughbreds to trained monsters - to form a perfect synergy between rider and steed.</p>
-<Ability id="steadfast-mount-ex" icon={["armor-upgrade"]}>
+<Ability id="steadfast-mount-ex" icon={["def"]}>
 <Pair single id="steadfast-mount-ex">Steadfast Mount (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -292,13 +292,13 @@ const _roughrider = {title: "Roughrider", jsx: <><h2 id="arc-fighter-roughrider-
 <Pair title="At 14th Level">This bonus becomes +4.</Pair>
 <Pair title="At 18th Level">This bonus increases to +5.</Pair>
 </Ability>
-<Ability id="armored-charger-ex" icon={["upgrade"]}>
+<Ability id="armored-charger-ex" icon={["boost"]}>
 <Pair single id="armored-charger-ex">Armored Charger (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 1</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A roughrider no longer suffers armor check penalties on Ride skill checks. His mount's speed is not reduced when carrying a medium load or wearing medium barding.</Pair>
 </Ability>
-<Ability id="mounted-mettle-ex" icon={["upgrade"]}>
+<Ability id="mounted-mettle-ex" icon={["boost"]}>
 <Pair single id="mounted-mettle-ex">Mounted Mettle (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 1, 2, 3, and 4</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -307,13 +307,13 @@ const _roughrider = {title: "Roughrider", jsx: <><h2 id="arc-fighter-roughrider-
 <Pair title="At 13th Level">This bonus increases to +3.</Pair>
 <Pair title="At 17th Level">This bonus becomes +4.</Pair>
 </Ability>
-<Ability id="leap-from-the-saddle-ex" icon={["stairs-goal"]}>
+<Ability id="leap-from-the-saddle-ex" icon={["power"]}>
 <Pair single id="leap-from-the-saddle-ex">Leap from the Saddle (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 2</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">After a roughrider's mount takes a single move, he may attempt a fast dismount (DC 20 Ride check). If he succeeds, he can take a <Link to="/rule/full_attack">full attack</Link> action.</Pair>
 </Ability>
-<Ability id="relentless-steed-ex" icon={["stairs-goal","rolling-dices"]}>
+<Ability id="relentless-steed-ex" icon={["power","roll"]}>
 <Pair single id="relentless-steed-ex">Relentless Steed (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 3</Pair>
 <Pair title="Gained">At 11th Level</Pair>
@@ -321,19 +321,19 @@ const _roughrider = {title: "Roughrider", jsx: <><h2 id="arc-fighter-roughrider-
 <Pair title="Ability">The roughrider may reroll a Ride skill check or a saving throw made by the mount, but must use the second roll even if it is worse.</Pair>
 <Pair title="Usage">1 time/day + 1 per four fighter levels beyond 11th<ByLevelPop levels={[[11,1],[15,2],[19,3]]} unit="time" postText="/day" /></Pair>
 </Ability>
-<Ability id="ride-them-down-ex" icon={["mailed-fist"]}>
+<Ability id="ride-them-down-ex" icon={["melee"]}>
 <Pair single id="ride-them-down-ex">Ride Them Down (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 4</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Ability">A roughrider can spur his mount on while readying an attack. If a roughrider's mount takes a single move, the roughrider can make a full attack, taking his attacks at any point during his mount's movement. If he has the <Link to="/feat/trample">Trample</Link> feat, he may substitute an <Link to="/rule/overrun">overrun</Link> combat maneuver for each of his attacks. This movement provokes attacks of opportunity against the roughrider but not his mount.</Pair>
 </Ability>
-<Ability id="unavoidable-onslaught-ex" icon={["stairs-goal"]}>
+<Ability id="unavoidable-onslaught-ex" icon={["power"]}>
 <Pair single id="unavoidable-onslaught-ex">Unavoidable Onslaught (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 4</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Passive Ability">A roughrider's mounted charge is not blocked by friendly creatures or <Link to="/rule/difficult_terrain">difficult terrain</Link>.</Pair>
 </Ability>
-<Ability id="indomitable-steed-ex" icon={["armor-upgrade"]}>
+<Ability id="indomitable-steed-ex" icon={["def"]}>
 <Pair single id="indomitable-steed-ex">Indomitable Steed (Ex)</Pair>
 <Pair hl title="Replaces">Armor mastery</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -342,7 +342,7 @@ const _roughrider = {title: "Roughrider", jsx: <><h2 id="arc-fighter-roughrider-
 </>};
 const _savage_warrior = {title: "Savage Warrior", jsx: <><h2 id="arc-fighter-savage_warrior-savage-warrior">Savage Warrior</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 107</Link><br/>Warriors' might is not measured only by their skill with steel, but also by their ability to inflict death with fang and claw, horn and hoof, and every exotic appendage the natural and unnatural world has to offer.</p>
-<Ability id="spark-of-life-ex" icon={["armor-upgrade"]}>
+<Ability id="spark-of-life-ex" icon={["def"]}>
 <Pair single id="spark-of-life-ex">Spark of Life (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -352,7 +352,7 @@ const _savage_warrior = {title: "Savage Warrior", jsx: <><h2 id="arc-fighter-sav
 <Pair title="At 14th Level">The bonus becomes +4.</Pair>
 <Pair title="At 18th Level">The bonus increases to +5.</Pair>
 </Ability>
-<Ability id="natural-savagery-ex" icon={["upgrade"]}>
+<Ability id="natural-savagery-ex" icon={["boost"]}>
 <Pair single id="natural-savagery-ex">Natural Savagery (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 1</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -361,19 +361,19 @@ const _savage_warrior = {title: "Savage Warrior", jsx: <><h2 id="arc-fighter-sav
 <Pair title="At 13th Level">This bonus increases to +3.</Pair>
 <Pair title="At 17th Level">This bonus becomes +4.</Pair>
 </Ability>
-<Ability id="savage-charge-ex" icon={["upgrade","broken-shield"]}>
+<Ability id="savage-charge-ex" icon={["boost","down"]}>
 <Pair single id="savage-charge-ex">Savage Charge (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 2</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Passive Ability">When a savage warrior attacks with a natural weapon at the end of a <Link to="/rule/charge">charge</Link>, he gains a bonus on his natural weapon attack rolls equal to <Link to="/misc/half">half</Link> his fighter level, while suffering a penalty to his AC equal to <Link to="/misc/half">half</Link> his fighter level. These replace the normal attack roll bonus and AC penalty for charging. This bonus also applies to his CMB for a <Link to="/rule/bull_rush">bull rush</Link> or <Link to="/rule/overrun">overrun</Link> combat maneuvers made when charging.</Pair>
 </Ability>
-<Ability id="careful-claw-ex" icon={["armor-upgrade"]}>
+<Ability id="careful-claw-ex" icon={["def"]}>
 <Pair single id="careful-claw-ex">Careful Claw (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 3</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Passive Ability">When using a natural weapon to attack a creature using <Link to="/spell/fire_shield">fire shield</Link> or a similar effect that damages creatures attacking it (such as a <Link to="/monster/barbed_devil">barbed devil's</Link> barbed defense), a savage warrior reduces the damage from such effects by an amount equal to 1/2 his fighter level.</Pair>
 </Ability>
-<Ability id="greater-savage-charge-ex" icon={["armor-upgrade","mailed-fist"]}>
+<Ability id="greater-savage-charge-ex" icon={["def","melee"]}>
 <Pair single id="greater-savage-charge-ex">Greater Savage Charge (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 4</Pair>
 <Pair title="Gained">At 17th Level</Pair>
@@ -388,14 +388,14 @@ const _savage_warrior = {title: "Savage Warrior", jsx: <><h2 id="arc-fighter-sav
 </>};
 const _scrapper = {title: "Scrapper", jsx: <><h2 id="arc-fighter-scrapper-scrapper">Scrapper</h2>
 <p><strong>Sources</strong> <Link to="/source/construct_handbook">Construct Handbook pg. 14</Link><br/>Scrappers are adept at collecting the leftovers from their enemy's armor and using these scraps to improve their own armor.</p>
-<Ability id="scrap-armor-ex" icon={["armor-upgrade"]}>
+<Ability id="scrap-armor-ex" icon={["def"]}>
 <Pair single id="scrap-armor-ex" flavor="A scrapper learns to salvage scrap from constructs or other pieces of armor and attach them to his own armor.">Scrap Armor (Ex)</Pair>
 <Pair hl title="Replaces">Armor training</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">Salvaging scrap from a destroyed construct or from another creature's armor takes 1 minute. Scrap from a construct grants the scrapper a natural armor bonus to AC equal to one-quarter the construct's Hit Dice (minimum +1). If the scrap is salvaged from a piece of armor, it instead grants a natural armor bonus to AC equal to 1 + the armor's enhancement bonus (if any). The salvaged armor piece is flimsy and prone to breaking. Scrap is immediately destroyed by any <Link to="/rule/sunder">sunder</Link> combat maneuver that targets the armor to which the scrap is attached. Otherwise, scrap crumbles and falls away after a number of days equal to the natural armor bonus that it grants.</Pair>
 <Pair title="At 11th Level">Scrap salvaged from a construct also grants DR/adamantine equal to one-quarter of the construct's Hit Dice.</Pair>
 </Ability>
-<Ability id="scrapper-training-ex" icon={["upgrade"]}>
+<Ability id="scrapper-training-ex" icon={["boost"]}>
 <Pair single id="scrapper-training-ex">Scrapper Training (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 1</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -406,25 +406,25 @@ const _scrapper = {title: "Scrapper", jsx: <><h2 id="arc-fighter-scrapper-scrapp
 </>};
 const _seasoned_commander = {title: "Seasoned Commander", jsx: <><h2 id="arc-fighter-seasoned_commander-seasoned-commander">Seasoned Commander</h2>
 <p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 164</Link><br/>The seasoned commander excels at leading troops through inspiration and the use of unit tactics.</p>
-<Ability id="strategic-training-ex" icon={["skills"]}>
+<Ability id="strategic-training-ex" icon={["skill"]}>
 <Pair single id="strategic-training-ex">Strategic Training (Ex)</Pair>
 <Pair hl title="Replaces">Bonus fighter combat feat gained at 1st level, proficiency with heavy armor and tower shields</Pair>
 <Pair hl title="Alters">Skill ranks per level, class skills</Pair>
 <Pair title="Info">A seasoned commander gains 4 skill ranks + a number of skill ranks equal to his Intelligence modifier at each level instead of the normal 2 skill ranks + Intelligence modifier at each level. A seasoned commander adds <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), and <Link to="/skill/sense_motive">Sense Motive</Link> (WIS) to his list of class skills.</Pair>
 </Ability>
-<Ability id="tactician-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="tactician-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="tactician-ex">Tactician (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 1</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A seasoned commander gains the <Link to="/class/cavalier">cavalier's</Link> <em>tactician</em> class feature, treating his fighter level as his cavalier level for the purposes of this ability.</Pair>
 </Ability>
-<Ability id="tactician-ex" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Ability id="tactician-ex" extraClasses="subAbility" icon={["power","boost"]}>
 <Pair single id="tactician-ex" flavor="Text from the cavalier class">Tactician (Ex)</Pair>
 <Pair title="Ability">You receive a <Link to="/main/teamwork_feat">teamwork feat</Link> as a bonus feat. You must meet the prerequisites for this feat.</Pair>
 <Pair title="Standard Action">You can grant this feat to all allies within 30 feet who can see and hear you. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every two levels you possess. Allies do not need to meet the prerequisites of these bonus feats.</Pair>
 <Pair title="Usage">1 time/day + 1 per five fighter levels<ByLevelPop levels={[[3,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
 </Ability>
-<Ability id="inspiring-speech-ex" icon={["upgrade"]}>
+<Ability id="inspiring-speech-ex" icon={["boost"]}>
 <Pair single id="inspiring-speech-ex">Inspiring Speech (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 1 and 3</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -434,7 +434,7 @@ const _seasoned_commander = {title: "Seasoned Commander", jsx: <><h2 id="arc-fig
 <Pair title="At 13th Level">He can perform the speech as a <strong className="hl">swift action</strong>.</Pair>
 <Pair title="At 15th Level">He can use this ability three times a day.</Pair>
 </Ability>
-<Ability id="inspire-greatness-ex" icon={["upgrade"]}>
+<Ability id="inspire-greatness-ex" icon={["boost"]}>
 <Pair single id="inspire-greatness-ex">Inspire Greatness (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 2</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -446,18 +446,18 @@ const _seasoned_commander = {title: "Seasoned Commander", jsx: <><h2 id="arc-fig
 <Pair title="At 19th Level">He can target up to six allies.</Pair>
 <Pair title="Special">This ability functions in all other respects like the seasoned commander's <em>inspire courage</em> ability. Whichever <em>inspiring speech</em> he chooses to use, if the seasoned commander uses an <em>inspiring speech</em> before the duration of his previous <em>inspiring speech</em> ends, the new <em>inspiring speech</em> replaces the old <em>speech.</em></Pair>
 </Ability>
-<Ability id="greater-tactician-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="greater-tactician-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="greater-tactician-ex">Greater Tactician (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 3</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">The seasoned commander gains the <Link to="/class/cavalier">cavalier's</Link> <em>greater tactician</em> class feature, treating his fighter level as his cavalier level for the purposes of this ability.</Pair>
 </Ability>
-<Ability id="greater-tactician-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="greater-tactician-ex" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="greater-tactician-ex" flavor="Text from the cavalier class">Greater Tactician (Ex)</Pair>
 <Pair title="Ability">You receive an additional teamwork feat as a bonus feat. You must meet the prerequisites for this feat. You can grant this feat to your allies using the <em>tactician</em> ability.</Pair>
 <Pair title="Swift Action">Using the <em>tactician</em> ability becomes a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="inspire-heroics-ex" icon={["upgrade"]}>
+<Ability id="inspire-heroics-ex" icon={["boost"]}>
 <Pair single id="inspire-heroics-ex">Inspire Heroics (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 4</Pair>
 <Pair title="Gained">At 15th Level</Pair>
@@ -466,13 +466,13 @@ const _seasoned_commander = {title: "Seasoned Commander", jsx: <><h2 id="arc-fig
 <Pair title="At 19th Level">He can target up to three allies with this ability.</Pair>
 <Pair title="Special">This ability functions in all other respects like the seasoned commander's <em>inspire courage</em> ability.</Pair>
 </Ability>
-<Ability id="master-tactician-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="master-tactician-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="master-tactician-ex">Master Tactician (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 4</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Ability">The seasoned commander gains the cavalier's <em>master tactician</em> class feature, treating his fighter level as his cavalier level for the purposes of this ability.</Pair>
 </Ability>
-<Ability id="master-tactician-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="master-tactician-ex" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="master-tactician-ex" flavor="Text from the cavalier ability">Master Tactician (Ex)</Pair>
 <Pair title="Ability">You receive an additional teamwork feat as a bonus feat. You must meet the prerequisites for this feat. You can grant this feat to your allies using the <em>tactician</em> ability.</Pair>
 <Pair title="Special">Whenever you use the <em>tactician</em> ability, you grant any two teamwork feats that you know. You can select from <strong>any</strong> of your teamwork feats, not just your bonus feats.</Pair>
@@ -480,16 +480,16 @@ const _seasoned_commander = {title: "Seasoned Commander", jsx: <><h2 id="arc-fig
 </>};
 const _sensate = {title: "Sensate", jsx: <><h2 id="arc-fighter-sensate-sensate">Sensate</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 118</Link><br/>A sensate perceives battle through senses beyond mortal ken, anticipating his opponents' movements before they even begin to act. As long as he keeps his focus about him, he fights with a skill rivaling that of the finest masters-at-arms.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Handle Animal, Intimidate, Knowledge (dungeoneering), Knowledge (engineering)</Pair></Ability>
-<Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["down"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Replaces">Weapon and armor proficiency</Pair>
 <Pair title="Info">Sensates are proficient with all simple and martial weapons, light armor, medium armor, and shields (except tower shields).</Pair>
 </Ability>
-<Ability id="guarded-senses-su" icon={["armor-upgrade"]}>
+<Ability id="guarded-senses-su" icon={["def"]}>
 <Pair single id="guarded-senses-su">Guarded Senses (Su)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -499,13 +499,13 @@ const _sensate = {title: "Sensate", jsx: <><h2 id="arc-fighter-sensate-sensate">
 <Pair title="At 14th Level">This bonus becomes +4.</Pair>
 <Pair title="At 18th Level">This bonus increases to +5.</Pair>
 </Ability>
-<Ability id="uncanny-dodge-su" icon={["armor-upgrade"]}>
+<Ability id="uncanny-dodge-su" icon={["def"]}>
 <Pair single id="uncanny-dodge-su">Uncanny Dodge (Su)</Pair>
 <Pair hl title="Replaces">Armor training 1</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A sensate gains <Link to="/ability/uncanny_dodge">uncanny dodge</Link> as the <Link to="/class/barbarian">barbarian</Link> ability of the same name, except supernatural in nature.</Pair>
 </Ability>
-<Ability id="centered-senses-su" icon={["upgrade","armor-upgrade"]}>
+<Ability id="centered-senses-su" icon={["boost","def"]}>
 <Pair single id="centered-senses-su">Centered Senses (Su)</Pair>
 <Pair hl title="Replaces">Weapon training 2, 3, and 4</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -515,31 +515,31 @@ const _sensate = {title: "Sensate", jsx: <><h2 id="arc-fighter-sensate-sensate">
 <Pair title="At 17th Level">This bonus becomes +4.</Pair>
 <Pair title="Special">A sensate loses his centered state if he gains the confused, dazed, fascinated, staggered, or stunned condition; falls unconscious; or fails a Will save.</Pair>
 </Ability>
-<Ability id="improved-uncanny-dodge-su" icon={["armor-upgrade"]}>
+<Ability id="improved-uncanny-dodge-su" icon={["def"]}>
 <Pair single id="improved-uncanny-dodge-su">Improved Uncanny Dodge (Su)</Pair>
 <Pair hl title="Replaces">Armor training 2</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">A sensate gains <Link to="/ability/improved_uncanny_dodge">improved uncanny dodge</Link> as the barbarian ability of the same name, except supernatural in nature.</Pair>
 </Ability>
-<Ability id="evasion-su" icon={["armor-upgrade"]}>
+<Ability id="evasion-su" icon={["def"]}>
 <Pair single id="evasion-su">Evasion (Su)</Pair>
 <Pair hl title="Replaces">Armor training 3</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Passive Ability">A sensate gains <Link to="/ability/evasion">evasion</Link> while using centered senses. This functions as the rogue ability of the same name, except that it is supernatural in nature and works regardless of the sensate's armor and encumbrance.</Pair>
 </Ability>
-<Ability id="steady-su" icon={["upgrade"]}>
+<Ability id="steady-su" icon={["boost"]}>
 <Pair single id="steady-su">Steady (Su)</Pair>
 <Pair hl title="Replaces">Armor training 4</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Swift Action">A sensate can center himself as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="perfect-senses-su" icon={["stairs-goal"]}>
+<Ability id="perfect-senses-su" icon={["power"]}>
 <Pair single id="perfect-senses-su">Perfect Senses (Su)</Pair>
 <Pair hl title="Replaces">Armor mastery</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Passive Ability">A sensate's senses reach perfection, and he can easily notice illusions and unseen foes by combining his senses. While centered, he gains the effects of <Link to="/spell/true_seeing">true seeing</Link> as well as <Link to="/umr/blindsense">blindsense</Link> 60 feet. An unseen creature that makes no sound and leaves no scent (such as a creature under the effects of <Link to="/spell/invisibility">invisibility</Link>, <Link to="/spell/silence">silence</Link>, and <Link to="/spell/negate_aroma">negate aroma</Link>) can still avoid both the <em>true seeing</em> and the <em>blindsense.</em></Pair>
 </Ability>
-<Ability id="precision-su" icon={["upgrade","armor-upgrade","rolling-dices"]}>
+<Ability id="precision-su" icon={["boost","def","roll"]}>
 <Pair single id="precision-su">Precision (Su)</Pair>
 <Pair hl title="Replaces">Weapon mastery</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -548,7 +548,7 @@ const _sensate = {title: "Sensate", jsx: <><h2 id="arc-fighter-sensate-sensate">
 </>};
 const _shielded_fighter = {title: "Shielded Fighter", jsx: <><h2 id="arc-fighter-shielded_fighter-shielded-fighter">Shielded Fighter</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 108</Link><br/>A shielded fighter focuses on both offense and defense, blending weapon and shield in perfect balance to impede his enemies while delivering deadly blows, and even turning the shield itself into a formidable weapon. These fighting school benefits apply when wielding a weapon and a shield simultaneously.</p>
-<Ability id="active-defense-ex" icon={["armor-upgrade"]}>
+<Ability id="active-defense-ex" icon={["def"]}>
 <Pair single id="active-defense-ex">Active Defense (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 1, 2, 3, and 4</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -559,7 +559,7 @@ const _shielded_fighter = {title: "Shielded Fighter", jsx: <><h2 id="arc-fighter
 <Pair title="At 15th Level">The dodge bonus becomes +4.</Pair>
 <Pair title="At 19th Level">The dodge bonus increases to +5.</Pair>
 </Ability>
-<Ability id="shield-fighter-ex" icon={["upgrade","armor-upgrade"]}>
+<Ability id="shield-fighter-ex" icon={["boost","def"]}>
 <Pair single id="shield-fighter-ex">Shield Fighter (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 1</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -569,26 +569,26 @@ const _shielded_fighter = {title: "Shielded Fighter", jsx: <><h2 id="arc-fighter
 <Pair title="At 17th Level">The bonus becomes +4.</Pair>
 <Pair title="Special">With a <Link to="/rule/full_attack">full attack</Link> action, a shielded fighter may alternate between using his weapon or his shield for each attack. This action does not grant additional attacks or incur penalties as two-weapon fighting does.</Pair>
 </Ability>
-<Ability id="shield-buffet-ex" icon={["armor-downgrade"]}>
+<Ability id="shield-buffet-ex" icon={["lower"]}>
 <Pair single id="shield-buffet-ex">Shield Buffet (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 2 and 3</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Move-Equivalent Action">A shielded fighter may make a combat maneuver check to use his shield to impede an adjacent enemy. If successful, the target suffers a -2 penalty on its attack rolls against the shielded fighter and a -2 penalty to AC on attacks made by the shielded fighter until the beginning of his next turn.</Pair>
 <Pair title="At 13th Level">A shielded fighter may use this ability as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="shield-guard-ex" icon={["armor-upgrade"]}>
+<Ability id="shield-guard-ex" icon={["def"]}>
 <Pair single id="shield-guard-ex">Shield Guard (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 4</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Swift Action">A shielded fighter may designate one square adjacent to him. He may designate two squares if using a heavy shield or three squares if using a tower shield, but these squares must be contiguous. Enemies in these squares cannot <Link to="/rule/flank">flank</Link> the shielded fighter and do not count for flanking with other creatures. This effect lasts until he moves from his position or uses another swift action to change the affected squares.</Pair>
 </Ability>
-<Ability id="shield-mastery-ex" icon={["armor-upgrade"]}>
+<Ability id="shield-mastery-ex" icon={["def"]}>
 <Pair single id="shield-mastery-ex">Shield Mastery (Ex)</Pair>
 <Pair hl title="Replaces">Armor mastery</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Passive Ability">A shielded fighter gains DR 5/- when wielding a shield.</Pair>
 </Ability>
-<Ability id="shield-ward-ex" icon={["armor-upgrade"]}>
+<Ability id="shield-ward-ex" icon={["def"]}>
 <Pair single id="shield-ward-ex">Shield Ward (Ex)</Pair>
 <Pair hl title="Replaces">Weapon mastery</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -597,13 +597,13 @@ const _shielded_fighter = {title: "Shielded Fighter", jsx: <><h2 id="arc-fighter
 </>};
 const _siegebreaker = {title: "Siegebreaker", jsx: <><h2 id="arc-fighter-siegebreaker-siegebreaker">Siegebreaker</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 11</Link><br/>The siegebreaker is trained to break through lines of enemy soldiers.</p>
-<Ability id="breaker-rush-ex" icon={["armor-upgrade","upgrade"]}>
+<Ability id="breaker-rush-ex" icon={["def","boost"]}>
 <Pair single id="breaker-rush-ex">Breaker Rush (Ex)</Pair>
 <Pair hl title="Replaces">The feat gained at 1st level</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A siegebreaker can attempt <Link to="/rule/bull_rush">bull rush</Link> or <Link to="/rule/overrun">overrun</Link> combat maneuvers without provoking attacks of opportunity. When he performs either combat maneuver, he deals an amount of bludgeoning damage equal to his Strength bonus (minimum 1). If he has <Link to="/feat/improved_bull_rush">Improved Bull Rush</Link> or <Link to="/feat/improved_overrun">Improved Overrun</Link>, the damage dealt by the appropriate maneuver increases by 2 and he adds any enhancement bonus from his armor or shield (though such enhancement bonuses do not stack, if both armor and shield are magic).</Pair>
 </Ability>
-<Ability id="armored-vigor-ex" icon={["armor-upgrade"]}>
+<Ability id="armored-vigor-ex" icon={["def"]}>
 <Pair single id="armored-vigor-ex">Armored Vigor (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -614,7 +614,7 @@ const _siegebreaker = {title: "Siegebreaker", jsx: <><h2 id="arc-fighter-siegebr
 <Pair title="At 20th Level">The amount of temporary hit points becomes 8.</Pair>
 <Pair title="Special">He can use this ability only while wearing armor.</Pair>
 </Ability>
-<Ability id="breaker-momentum-ex" icon={["stairs-goal"]}>
+<Ability id="breaker-momentum-ex" icon={["power"]}>
 <Pair single id="breaker-momentum-ex">Breaker Momentum (Ex)</Pair>
 <Pair hl title="Replaces">The feat gained at 2nd level</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -626,14 +626,14 @@ const _siegebreaker = {title: "Siegebreaker", jsx: <><h2 id="arc-fighter-siegebr
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Choice">A siegebreaker must choose either <Link to="/feat/step_up">Step Up</Link> or <Link to="/feat/disruptive">Disruptive</Link> as his bonus feat, but need not meet the prerequisites.</Pair>
 </Ability>
-<Ability id="disorienting-blow-ex" icon={["armor-downgrade"]}>
+<Ability id="disorienting-blow-ex" icon={["lower"]}>
 <Pair single id="disorienting-blow-ex">Disorienting Blow (Ex)</Pair>
 <Pair hl title="Replaces">The bonus feat gained at 8th level</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Immediate Action">A siegebreaker can distract a foe he just hit with an attack or combat maneuver, imposing a -2 penalty on the foe's attack rolls, caster level checks, or skill checks for 1 round. The foe can negate this penalty with a successful Fortitude save (DC = 10 + <Link to="/misc/half">half</Link> the siegebreaker's fighter level + his Strength modifier).</Pair>
 <Pair title="At 14th Level">The penalty increases to -4.</Pair>
 </Ability>
-<Ability id="masterful-distraction-ex" icon={["armor-downgrade"]}>
+<Ability id="masterful-distraction-ex" icon={["lower"]}>
 <Pair single id="masterful-distraction-ex">Masterful Distraction (Ex)</Pair>
 <Pair hl title="Replaces">Weapon mastery</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -643,17 +643,17 @@ const _siegebreaker = {title: "Siegebreaker", jsx: <><h2 id="arc-fighter-siegebr
 const _skirmisher = {title: "Skirmisher", jsx: <><h2 id="arc-fighter-skirmisher-skirmisher">Skirmisher</h2>
 <p><strong>Source</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 50</Link>, <a href="https://paizo.com/paizo/faq/v5748nruor1hj#v5748eaic9wc9" data-outgoing>errata</a></p>
 <p>Not all battles are fought between armies; sometimes, a settlement or nation faces a threat too dire to fight in the open. In order to repel a much larger enemy force, some soldiers must abandon equipment and tactics designed for open-field warfare and instead rely on ambushes, hit-and-run tactics, and sabotage to whittle down their enemies' strength and morale. Skirmishers use harsh weather and unforgiving terrain to their advantage, attacking isolated groups of enemies that cannot flee or fight back effectively. Many tribal warriors also employ small-unit tactics because it is part of their warrior culture, because they cannot field a large army, or simply because they refuse to fight on the enemy's terms.</p>
-<Ability id="armor-proficiency" icon={["broken-shield"]}>
+<Ability id="armor-proficiency" icon={["down"]}>
 <Pair single id="armor-proficiency">Armor Proficiency</Pair>
 <Pair hl title="Replaces">The fighter's armor proficiency</Pair>
 <Pair title="Info">A skirmisher is proficient with light armor and shields but not with medium armor, heavy armor, or tower shields.</Pair>
 </Ability>
-<Ability id="wilderness-training-ex" icon={["skills"]}>
+<Ability id="wilderness-training-ex" icon={["skill"]}>
 <Pair single id="wilderness-training-ex">Wilderness Training (Ex)</Pair>
 <Pair hl title="Alters">Class skills, skill ranks per level</Pair>
 <Pair title="Info">A skirmisher relies on his skills and the element of surprise rather than the heaviest shields and armor. He gains <Link to="/skill/acrobatics">Acrobatics</Link> (DEX) and <Link to="/skill/stealth">Stealth</Link> (DEX) as class skills. In addition, the skirmisher gains a number of skill ranks at each level equal to 4 + his Intelligence modifier, instead of 2 + his Intelligence modifier.</Pair>
 </Ability>
-<Ability id="conditioning-ex" extraClasses="hasSubs" icon={["armor-upgrade"]}>
+<Ability id="conditioning-ex" extraClasses="hasSubs" icon={["def"]}>
 <Pair single id="conditioning-ex">Conditioning (Ex)</Pair>
 <Pair hl title="Replaces">2nd level fighter bonus feat</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -663,23 +663,23 @@ const _skirmisher = {title: "Skirmisher", jsx: <><h2 id="arc-fighter-skirmisher-
 <Pair title="At 14th Level">The saving throw bonus becomes +4.</Pair>
 <Pair title="At 18th Level">The saving throw bonus increases to +5.</Pair>
 </Ability>
-<Ability id="alpine-training-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="alpine-training-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="alpine-training-ex">Alpine Training (Ex)</Pair>
 <Pair title="Passive Ability">A skirmisher operating in mountainous terrain becomes resistant to cold climates and the rigors of long treks at high altitudes. He gains a bonus on Fortitude saving throws against <Link to="/rule/altitude_sickness">altitude sickness</Link>, exposure to <Link to="/rule/cold">cold weather</Link>, and other effects that cause <Link to="/misc/fatigue">fatigue</Link> or <Link to="/misc/exhaustion">exhaustion</Link>.</Pair>
 </Ability>
-<Ability id="counter-interrogation-training-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="counter-interrogation-training-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="counter-interrogation-training-ex">Counter-Interrogation Training (Ex)</Pair>
 <Pair title="Passive Ability">A skirmisher undertaking infiltration missions learns to resist interrogation and persuasion. The skirmisher gains a bonus on Will saving throws against charms and divinations.</Pair>
 </Ability>
-<Ability id="jungle-training-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="jungle-training-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="jungle-training-ex">Jungle Training (Ex)</Pair>
 <Pair title="Passive Ability">Through repeated exposure, a skirmisher operating in jungles and wetlands builds up a tolerance against pathogens and toxins. He gains a bonus on Fortitude saving throws against disease and poison.</Pair>
 </Ability>
-<Ability id="light-infantry-training-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="light-infantry-training-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="light-infantry-training-ex">Light Infantry Training (Ex)</Pair>
 <Pair title="Passive Ability">A skirmisher fighting in a light infantry unit learns to avoid fire from enemy artillery, siege weapons, and spellcasters. He gains a bonus on Reflex saving throws against attacks that deal half damage on a successful save (such as the <Link to="/spell/fireball">fireball</Link> spell) but not against traps, natural hazards, or environmental effects.</Pair>
 </Ability>
-<Ability id="reconnaissance-training-ex" icon={["armor-upgrade"]}>
+<Ability id="reconnaissance-training-ex" icon={["def"]}>
 <Pair single id="reconnaissance-training-ex" flavor="A skirmisher operating in heavily trapped or naturally hazardous areas learns to expertly avoid them.">Reconnaissance Training (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -689,7 +689,7 @@ const _skirmisher = {title: "Skirmisher", jsx: <><h2 id="arc-fighter-skirmisher-
 <Pair title="At 14th Level">This bonus becomes +4.</Pair>
 <Pair title="At 18th Level">This bonus increases to +5.</Pair>
 </Ability>
-<Ability id="mobility-training-ex" icon={["armor-upgrade","upgrade"]}>
+<Ability id="mobility-training-ex" icon={["def","boost"]}>
 <Pair single id="mobility-training-ex">Mobility Training (Ex)</Pair>
 <Pair hl title="Replaces">Armor training</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -698,7 +698,7 @@ const _skirmisher = {title: "Skirmisher", jsx: <><h2 id="arc-fighter-skirmisher-
 <Pair title="At 11th Level">The dodge bonus becomes +3.</Pair>
 <Pair title="At 15th Level">The dodge bonus increases to +4.</Pair>
 </Ability>
-<Ability id="mobile-mastery-ex" icon={["armor-upgrade"]}>
+<Ability id="mobile-mastery-ex" icon={["def"]}>
 <Pair single id="mobile-mastery-ex">Mobile Mastery (Ex)</Pair>
 <Pair hl title="Replaces">Armor mastery</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -707,17 +707,17 @@ const _skirmisher = {title: "Skirmisher", jsx: <><h2 id="arc-fighter-skirmisher-
 </>};
 const _spear_fighter = {title: "Spear Fighter", jsx: <><h2 id="arc-fighter-spear_fighter-spear-fighter">Spear Fighter</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 11</Link><br/>The spear is one of the oldest weapons known to most humanoid races, and no weapon has seen as much use across the different continents of Golarion. One of the oldest spear-fighting styles originates in Vudra, where many martial arts traditions consider the spear to be the ultimate weapon.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Ride</Pair></Ability>
-<Ability id="armor-proficiency" icon={["broken-shield","stairs-goal"]}>
+<Ability id="armor-proficiency" icon={["down","power"]}>
 <Pair single id="armor-proficiency">Armor Proficiency</Pair>
 <Pair hl title="Alters">The fighter's armor proficiencies</Pair>
 <Pair title="Info">A spear fighter is not proficient with heavy armor or tower shields.</Pair>
 <Pair title="Ability">He gains <Link to="/feat/dodge">Dodge</Link> as a bonus feat, even if he doesn't fulfill the prerequisites, but he can't use this feat while wearing heavy armor or using a shield.</Pair>
 </Ability>
-<Ability id="balanced-stride-ex" icon={["armor-upgrade"]}>
+<Ability id="balanced-stride-ex" icon={["def"]}>
 <Pair single id="balanced-stride-ex">Balanced Stride (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -727,7 +727,7 @@ const _spear_fighter = {title: "Spear Fighter", jsx: <><h2 id="arc-fighter-spear
 <Pair title="At 14th Level">This bonus becomes +4.</Pair>
 <Pair title="At 18th Level">This bonus increases to +5.</Pair>
 </Ability>
-<Ability id="spear-parry-ex" icon={["armor-upgrade","broken-shield"]}>
+<Ability id="spear-parry-ex" icon={["def","down"]}>
 <Pair single id="spear-parry-ex">Spear Parry (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 1, 2, 3, and 4, armor mastery</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -752,13 +752,13 @@ const _spear_fighter = {title: "Spear Fighter", jsx: <><h2 id="arc-fighter-spear
 </>};
 const _steelbound_fighter = {title: "Steelbound Fighter", jsx: <><h2 id="arc-fighter-steelbound_fighter-steelbound-fighter">Steelbound Fighter</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 22</Link><br/>Whenever a particularly imposing intelligent weapon controls the mind of its wielder for long enough, spiritual echoes of this dominance can have strange resonances throughout that wielder's bloodline for generations to come. The steelbound fighter is sometimes the result of such a legacy: a fighter who has impressive martial resolve and technique with a specific weapon as the result of a powerful relationship a similar weapon had with one of his ancestors.</p>
-<Ability id="steelbound-weapon-ex" icon={["broken-shield"]}>
+<Ability id="steelbound-weapon-ex" icon={["down"]}>
 <Pair single id="steelbound-weapon-ex">Steelbound Weapon (Ex)</Pair>
 <Pair hl title="Replaces">The fighter's 1st-level bonus feat</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Choice">A steelbound fighter selects one type of weapon (such as <Link to="/eq-weapon/short_sword">short swords</Link>, <Link to="/eq-weapon/longbow">longbows</Link>, or <Link to="/eq-weapon/heavy_flail">heavy flails</Link>). He gains <Link to="/feat/weapon_focus">Weapon Focus</Link> with that specific weapon. Whenever he isn't wielding or carrying at least one weapon of this type (the weapon can be broken but not destroyed), a steelbound fighter takes a -2 penalty to his Wisdom score and can't benefit from his fighter class abilities (excluding bonus feats gained from fighter levels). Once the steelbound fighter's weapon awakens (see <em>steelbound awakening</em> below), these penalties apply whenever the fighter isn't carrying or wielding that particular weapon.</Pair>
 </Ability>
-<Ability id="steelbound-awakening-su" icon={["stairs-goal"]}>
+<Ability id="steelbound-awakening-su" icon={["power"]}>
 <Pair single id="steelbound-awakening-su">Steelbound Awakening (Su)</Pair>
 <Pair hl title="Replaces">Weapon training</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -774,27 +774,27 @@ const _steelbound_fighter = {title: "Steelbound Fighter", jsx: <><h2 id="arc-fig
 </>};
 const _swarm_fighter = {title: "Swarm Fighter", jsx: <><h2 id="arc-fighter-swarm_fighter-swarm-fighter">Swarm Fighter</h2>
 <p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion pg. 23</Link><br/>Kobolds know there's strength in numbers, and they rarely send fewer than two kobolds out on patrol. This reliance on one another extends to combat tactics too - overwhelming numbers and tight quarters are the <Link to="/race/kobold">kobold</Link> fighter's friends. Scuttling between the legs of friend and foe alike, the swarm fighter is an unshakable combatant.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-fighter-swarm_fighter--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/kobold">Kobold</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-fighter-swarm_fighter--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/kobold">Kobold</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="weapon-and-armor-proficiency" icon={["down"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Alters">Weapon and armor proficiencies</Pair>
 <Pair title="Info">A swarm fighter is proficient with all simple and martial weapons. She is proficient with light and medium armor, but not with shields.</Pair>
 </Ability>
-<Ability id="athletic-prowess-ex" icon={["skills","upgrade"]}>
+<Ability id="athletic-prowess-ex" icon={["skill","boost"]}>
 <Pair single id="athletic-prowess-ex">Athletic Prowess (Ex)</Pair>
 <Pair title="Info">A swarm fighter adds <Link to="/skill/acrobatics">Acrobatics</Link> (DEX) and <Link to="/skill/climb">Climb</Link> (STR) to her class skills, and gains a bonus on checks with these skills equal to <Link to="/misc/half">half</Link> her swarm fighter level.</Pair>
 </Ability>
-<Ability id="mobility-ex" icon={["stairs-goal"]}>
+<Ability id="mobility-ex" icon={["power"]}>
 <Pair single id="mobility-ex">Mobility (Ex)</Pair>
 <Pair hl title="Replaces">The bonus feat a fighter gains at first level</Pair>
 <Pair title="Ability">The swarm fighter gains <Link to="/feat/mobility">Mobility</Link> as a bonus feat, even if she does not meet the prerequisites.</Pair>
 <Pair title="Special">This feat can't be replaced at a later level.</Pair>
 </Ability>
-<Ability id="safety-in-numbers-ex" icon={["armor-upgrade"]}>
+<Ability id="safety-in-numbers-ex" icon={["def"]}>
 <Pair single id="safety-in-numbers-ex" flavor="A swarm fighter benefits greatly from the proximity of her allies.">Safety in Numbers (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair title="Passive Ability">She gains a morale bonus on saves against fear effects equal to the number of allies within 20 feet of her. This bonus can't exceed half her level.</Pair>
 </Ability>
-<Ability id="bonus-teamwork-feats-ex" icon={["stairs-goal"]}>
+<Ability id="bonus-teamwork-feats-ex" icon={["power"]}>
 <Pair single id="bonus-teamwork-feats-ex">Bonus Teamwork Feats (Ex)</Pair>
 <Pair hl title="Replaces">The bonus combat feats the fighter normally receives at 2nd, 6th, 10th, 14th, and 18th levels</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -805,26 +805,26 @@ const _swarm_fighter = {title: "Swarm Fighter", jsx: <><h2 id="arc-fighter-swarm
 <Pair title="At 18th Level">She gains a 5th teamwork feat.</Pair>
 <Pair title="Special">She gains the other bonus combat feats as normal.</Pair>
 </Ability>
-<Ability id="share-space-ex" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="share-space-ex" icon={["power","def"]}>
 <Pair single id="share-space-ex">Share Space (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 1</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">The swarm fighter can move into the space of another creature at least one size category larger than she is. She may end her movement in, and make attacks from, that space. She must succeed at the Acrobatics check for moving through an occupied square to move into a space occupied by an enemy. While sharing the space of another creature, she gains a +2 shield bonus to AC and a +1 circumstance bonus on Reflex saves.</Pair>
 </Ability>
-<Ability id="strike-the-underbelly-ex" icon={["armor-downgrade"]}>
+<Ability id="strike-the-underbelly-ex" icon={["lower"]}>
 <Pair single id="strike-the-underbelly-ex">Strike the Underbelly (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 2</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Passive Ability">Creatures with which the swarm fighter shares a space are denied their Dexterity bonus to Armor Class against the swam fighter's attacks.</Pair>
 </Ability>
-<Ability id="always-underfoot-ex" icon={["stairs-goal"]}>
+<Ability id="always-underfoot-ex" icon={["power"]}>
 <Pair single id="always-underfoot-ex">Always Underfoot (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 3 and 4</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Ability">The swarm fighter gains <Link to="/feat/step_up">Step Up</Link> as a bonus feat. A creature sharing a square with the swarm fighter is considered adjacent for the purposes of this feat.</Pair>
 <Pair title="At 17th Level">The swarm fighter gains <Link to="/feat/following_step">Following Step</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="soft-underbelly-ex" icon={["upgrade"]}>
+<Ability id="soft-underbelly-ex" icon={["boost"]}>
 <Pair single id="soft-underbelly-ex">Soft Underbelly (Ex)</Pair>
 <Pair hl title="Replaces">Weapon mastery</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -833,21 +833,21 @@ const _swarm_fighter = {title: "Swarm Fighter", jsx: <><h2 id="arc-fighter-swarm
 </>};
 const _tactician = {title: "Tactician", jsx: <><h2 id="arc-fighter-tactician-tactician">Tactician</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 47</Link><br/>While many fighters focus on the fundamentals of melee and ranged combat, there are those who are trained to view the bigger picture on the battlefield. These fighters use their training and tactical acumen to overcome challenges that would overwhelm mere brute strength and skill at arms.</p>
-<Ability id="armor-proficiency" icon={["broken-shield"]}>
+<Ability id="armor-proficiency" icon={["down"]}>
 <Pair single id="armor-proficiency">Armor Proficiency</Pair>
 <Pair hl title="Alters">Armor proficiencies</Pair>
 <Pair title="Info">A tactician is not proficient with heavy armor or tower shields.</Pair>
 </Ability>
-<Ability id="strategic-training-ex" icon={["skills"]}>
+<Ability id="strategic-training-ex" icon={["skill"]}>
 <Pair single id="strategic-training-ex">Strategic Training (Ex)</Pair>
 <Pair hl title="Replaces">The bonus fighter combat feat gained at 1st level</Pair>
 <Pair title="Info">A tactician gains 4 skill points + a number of skill points equal to his Intelligence modifier at each level, instead of the normal 2 skill points + Intelligence modifier at each level. Furthermore, <Link to="/skill/diplomacy">Diplomacy</Link> (Cha), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (Int), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (Int), <Link to="/skill/linguistics">Linguistics</Link> (Int), and <Link to="/skill/sense_motive">Sense Motive</Link> (Wis) are all class skills for the tactician.</Pair>
 </Ability>
-<Ability id="bonus-feats" icon={["stairs-goal"]}>
+<Ability id="bonus-feats" icon={["power"]}>
 <Pair single id="bonus-feats">Bonus Feats</Pair>
 <Pair title="Info">A tactician may choose <Link to="/feat/skill_focus">Skill Focus</Link> or any <Link to="/main/teamwork_feat">teamwork feat</Link>, in addition to combat feats, as bonus feats.</Pair>
 </Ability>
-<Ability id="tactical-awareness-ex" icon={["upgrade"]}>
+<Ability id="tactical-awareness-ex" icon={["boost"]}>
 <Pair single id="tactical-awareness-ex">Tactical Awareness (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -857,7 +857,7 @@ const _tactician = {title: "Tactician", jsx: <><h2 id="arc-fighter-tactician-tac
 <Pair title="At 14th Level">This bonus becomes +4.</Pair>
 <Pair title="At 18th Level">This bonus increases to +5.</Pair>
 </Ability>
-<Ability id="tactician-ex" icon={["stairs-goal"]}>
+<Ability id="tactician-ex" icon={["power"]}>
 <Pair single id="tactician-ex">Tactician (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 1</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -865,13 +865,13 @@ const _tactician = {title: "Tactician", jsx: <><h2 id="arc-fighter-tactician-tac
 <Pair title="Usage">1 time/day per fighter level</Pair>
 <Pair title="Special">If the tactician also has cavalier levels, these levels stack for determining the number of uses per day, and he can take the better progression.</Pair>
 </Ability>
-<Ability id="cooperative-combatant-ex" icon={["stairs-goal"]}>
+<Ability id="cooperative-combatant-ex" icon={["power"]}>
 <Pair single id="cooperative-combatant-ex">Cooperative Combatant (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 3</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">When a tactician uses the <Link to="/rule/aid_another_2">aid another</Link> special attack, he may affect one additional ally per point of Intelligence bonus. For each ally that a tactician aids, he can pick whether to grant that ally the +2 bonus on its next attack against the opponent or the +2 bonus to AC against the opponent's next attack on that ally, and can grant different allies different bonuses.</Pair>
 </Ability>
-<Ability id="battle-insight-ex" icon={["upgrade"]}>
+<Ability id="battle-insight-ex" icon={["boost"]}>
 <Pair single id="battle-insight-ex">Battle Insight (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 4</Pair>
 <Pair title="Gained">At 15th Level</Pair>
@@ -881,19 +881,19 @@ const _tactician = {title: "Tactician", jsx: <><h2 id="arc-fighter-tactician-tac
 </>};
 const _taldor_rondelero_duelist = {title: "Taldor: Rondelero Duelist", jsx: <><h2 id="arc-fighter-taldor_rondelero_duelist-taldor-rondelero-duelist">Taldor: Rondelero Duelist</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer pg. 25</Link><br/>Taldor's warriors have perfected the art of fighting with the <Link to="/eq-weapon/falcata">falcata</Link> and <Link to="/eq-armor/buckler">buckler</Link> in an art they call rondelero. They use their bucklers both to defend themselves and to launch unexpected strikes while chopping and hewing at their foes' unprotected bodies and heads with their falcatas. Rondeleros wear any type of armor, but favor bucklers, and are comfortable using both hands for offense and defense.</p>
-<Ability id="buckler-bash-ex" icon={["stairs-goal"]}>
+<Ability id="buckler-bash-ex" icon={["power"]}>
 <Pair single id="buckler-bash-ex">Buckler Bash (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A rondelero can perform a <Link to="/misc/shield_bash">shield bash</Link> with a buckler (use the same damage and critical modifier as for a <Link to="/eq-armor/light_shield">light shield</Link>).</Pair>
 </Ability>
-<Ability id="buckler-catch-ex" icon={["mailed-fist","broken-shield"]}>
+<Ability id="buckler-catch-ex" icon={["melee","down"]}>
 <Pair single id="buckler-catch-ex">Buckler Catch (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 1</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A rondelero can catch his opponent's weapon between his buckler and his forearm, effectively wedging the hafts of polearms and hammers or the flats of blades. This functions as a <Link to="/rule/disarm">disarm</Link> combat maneuver, and the rondelero gains a +4 bonus on the roll. If the rondelero's attack fails by 10 or more, he suffers a -2 penalty to his AC until the start of his next turn.</Pair>
 </Ability>
-<Ability id="strong-swing-ex" icon={["upgrade","mailed-fist"]}>
+<Ability id="strong-swing-ex" icon={["boost","melee"]}>
 <Pair single id="strong-swing-ex">Strong Swing (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 1</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -903,14 +903,14 @@ const _taldor_rondelero_duelist = {title: "Taldor: Rondelero Duelist", jsx: <><h
 <Pair title="At 13th Level">These bonuses increase to +3.</Pair>
 <Pair title="At 17th Level">These bonuses become +4.</Pair>
 </Ability>
-<Ability id="armor-training-ex" icon={["stairs-goal"]}>
+<Ability id="armor-training-ex" icon={["power"]}>
 <Pair single id="armor-training-ex">Armor Training (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 2</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">A rondelero gains <em>armor training 1,</em> and can move at his normal speed in medium armor.</Pair>
 <Pair title="At 15th Level">The rondelero gains <em>armor training 2,</em> and can move at his normal speed in heavy armor.</Pair>
 </Ability>
-<Ability id="chopping-blow-ex" icon={["mailed-fist"]}>
+<Ability id="chopping-blow-ex" icon={["melee"]}>
 <Pair single id="chopping-blow-ex">Chopping Blow (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 3</Pair>
 <Pair title="Gained">At 11th Level</Pair>
@@ -920,43 +920,43 @@ const _taldor_rondelero_duelist = {title: "Taldor: Rondelero Duelist", jsx: <><h
 </>};
 const _thunderstriker = {title: "Thunderstriker", jsx: <><h2 id="arc-fighter-thunderstriker-thunderstriker">Thunderstriker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 48</Link><br/>The thunderstriker adopts an unusual fighting style, gripping a heavy weapon with both hands and switching to a defensive posture with weapon and buckler, lashing out with the shield with surprising speed and power.</p>
-<Ability id="strapped-shield-ex" icon={["armor-upgrade"]}>
+<Ability id="strapped-shield-ex" icon={["def"]}>
 <Pair single id="strapped-shield-ex">Strapped Shield (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 1</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A thunderstriker takes no penalty on attack rolls when using a weapon in two hands while wearing a <Link to="/eq-armor/buckler">buckler</Link>.</Pair>
 </Ability>
-<Ability id="hardbuckler-ex" icon={["mailed-fist"]}>
+<Ability id="hardbuckler-ex" icon={["melee"]}>
 <Pair single id="hardbuckler-ex">Hardbuckler (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 2</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">A thunderstriker may make <Link to="/misc/shield_bash">shield bash</Link> attacks with a buckler as if it were a <Link to="/eq-armor/light_shield">light shield</Link>.</Pair>
 </Ability>
-<Ability id="knockback-smash-ex" icon={["upgrade"]}>
+<Ability id="knockback-smash-ex" icon={["boost"]}>
 <Pair single id="knockback-smash-ex">Knockback Smash (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 3</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Passive Ability">When a thunderstriker uses his buckler to attack, he gains a bonus equal to the enhancement bonus of the buckler on both attack and damage rolls.</Pair>
 </Ability>
-<Ability id="hammer-and-anvil-ex" icon={["upgrade"]}>
+<Ability id="hammer-and-anvil-ex" icon={["boost"]}>
 <Pair single id="hammer-and-anvil-ex">Hammer and Anvil (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 3</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Passive Ability">A thunderstriker suffers only half the normal penalties for two-weapon fighting when using a buckler as his off-hand weapon.</Pair>
 </Ability>
-<Ability id="buckler-defense-ex" icon={["armor-upgrade"]}>
+<Ability id="buckler-defense-ex" icon={["def"]}>
 <Pair single id="buckler-defense-ex">Buckler Defense (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 4</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Passive Ability">A thunderstriker retains partial use of his buckler even when using a weapon in both hands or in each hand (rather than losing his shield bonus until the beginning of his next turn). He gains a +1 shield bonus to AC and may apply the benefits of any feats he knows that require the use of a shield, but does not benefit from any magical properties his shield may possess.</Pair>
 </Ability>
-<Ability id="balanced-bashing-ex" icon={["upgrade"]}>
+<Ability id="balanced-bashing-ex" icon={["boost"]}>
 <Pair single id="balanced-bashing-ex">Balanced Bashing (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 4</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">A thunderstriker no longer suffers two-weapon fighting penalties when using a buckler as his off-hand weapon.</Pair>
 </Ability>
-<Ability id="improved-buckler-defense-ex" icon={["armor-upgrade"]}>
+<Ability id="improved-buckler-defense-ex" icon={["def"]}>
 <Pair single id="improved-buckler-defense-ex">Improved Buckler Defense (Ex)</Pair>
 <Pair hl title="Replaces">Armor mastery</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -965,13 +965,13 @@ const _thunderstriker = {title: "Thunderstriker", jsx: <><h2 id="arc-fighter-thu
 </>};
 const _titan_fighter = {title: "Titan Fighter", jsx: <><h2 id="arc-fighter-titan_fighter-titan-fighter">Titan Fighter</h2>
 <p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook pg. 21</Link><br/>Titan fighters make use of enormous weapons others can barely lift. Titan fighters have the following class features.</p>
-<Ability id="giant-weapon-wielder-ex" icon={["stairs-goal"]}>
+<Ability id="giant-weapon-wielder-ex" icon={["power"]}>
 <Pair single id="giant-weapon-wielder-ex">Giant Weapon Wielder (Ex)</Pair>
 <Pair hl title="Replaces">The fighter's 1st level bonus feat</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A titan fighter can wield two-handed melee weapons intended for creatures one size category larger than himself, treating them as two-handed weapons. He takes an additional -2 penalty on attack rolls when using an oversized two-handed weapon.</Pair>
 </Ability>
-<Ability id="incredible-heft-ex" icon={["upgrade"]}>
+<Ability id="incredible-heft-ex" icon={["boost"]}>
 <Pair single id="incredible-heft-ex">Incredible Heft (Ex)</Pair>
 <Pair hl title="Replaces">Armor training</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -981,7 +981,7 @@ const _titan_fighter = {title: "Titan Fighter", jsx: <><h2 id="arc-fighter-titan
 <Pair title="At 15th Level">This penalty is now reduced by 4 (minimum 0).</Pair>
 <Pair title="At 19th Level">This penalty is now reduced by 5 (minimum 0).</Pair>
 </Ability>
-<Ability id="unstoppable-momentum-ex" icon={["upgrade","armor-upgrade","stairs-goal"]}>
+<Ability id="unstoppable-momentum-ex" icon={["boost","def","power"]}>
 <Pair single id="unstoppable-momentum-ex">Unstoppable Momentum (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -994,7 +994,7 @@ const _titan_fighter = {title: "Titan Fighter", jsx: <><h2 id="arc-fighter-titan
 </>};
 const _tower_shield_specialist = {title: "Tower Shield Specialist", jsx: <><h2 id="arc-fighter-tower_shield_specialist-tower-shield-specialist">Tower Shield Specialist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 48</Link><br/>Many fighters believe the <Link to="/eq-armor/tower_shield">tower shield</Link> is a tool suitable only for troops on the battlefield, claiming it is too large and bulky to use in skirmishes or within dungeon corridors. Tower shield specialists defy those notions, using their massive shields with startling skill and incredible effect. They use these seemingly clumsy shields to perform deft maneuvers that confound their enemies.</p>
-<Ability id="burst-barrier-ex" icon={["armor-upgrade"]}>
+<Ability id="burst-barrier-ex" icon={["def"]}>
 <Pair single id="burst-barrier-ex">Burst Barrier (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -1004,30 +1004,30 @@ const _tower_shield_specialist = {title: "Tower Shield Specialist", jsx: <><h2 i
 <Pair title="At 14th Level">This bonus becomes +4.</Pair>
 <Pair title="At 18th Level">This bonus increases to +5.</Pair>
 </Ability>
-<Ability id="tower-shield-training-ex" icon={["upgrade"]}>
+<Ability id="tower-shield-training-ex" icon={["boost"]}>
 <Pair single id="tower-shield-training-ex">Tower Shield Training (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A tower shield specialist gains <em>armor training</em> as normal, but while he employs a tower shield, the armor penalty is reduced by 3 and the maximum Dexterity bonus allowed by his armor increases by 2. The benefit increases every four levels thereafter as per standard <em>armor training;</em> if the tower shield specialist is not employing a tower shield, the benefits to <em>armor training</em> revert to the normal bonuses.</Pair>
 </Ability>
-<Ability id="tower-shield-specialist-ex" icon={["upgrade"]}>
+<Ability id="tower-shield-specialist-ex" icon={["boost"]}>
 <Pair single id="tower-shield-specialist-ex">Tower Shield Specialist (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 1</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">When a tower shield specialist employs a tower shield in combat, he does not take the -2 penalty on attack rolls because of the shield's encumbrance.</Pair>
 </Ability>
-<Ability id="tower-shield-defense-ex" icon={["armor-upgrade"]}>
+<Ability id="tower-shield-defense-ex" icon={["def"]}>
 <Pair single id="tower-shield-defense-ex">Tower Shield Defense (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 2</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Passive Ability">While using a tower shield, a tower shield specialist gains his shield bonus against touch attacks.</Pair>
 </Ability>
-<Ability id="immediate-repositioning-ex" icon={["stairs-goal"]}>
+<Ability id="immediate-repositioning-ex" icon={["power"]}>
 <Pair single id="immediate-repositioning-ex">Immediate Repositioning (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 3</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Immediate Action">A tower shield specialist can reposition his tower shield to another facing, but he cannot use this ability to interrupt an attack.</Pair>
 </Ability>
-<Ability id="tower-shield-evasion-ex" icon={["armor-upgrade"]}>
+<Ability id="tower-shield-evasion-ex" icon={["def"]}>
 <Pair single id="tower-shield-evasion-ex">Tower Shield Evasion (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 4, weapon mastery</Pair>
 <Pair title="Gained">At 16th Level</Pair>
@@ -1038,7 +1038,7 @@ const _tower_shield_specialist = {title: "Tower Shield Specialist", jsx: <><h2 i
 const _trench_fighter = {title: "Trench Fighter", jsx: <><h2 id="arc-fighter-trench_fighter-trench-fighter">Trench Fighter</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_71_rasputin_must_die">Pathfinder #71: Rasputin Must Die! pg. 67</Link></p>
 <p>Advances in technology have made archaic armors obsolete by the twentieth century, and modern soldiers concentrate training on firearms and swift feet.</p>
-<Ability id="trench-warfare-ex" icon={["upgrade","armor-upgrade"]}>
+<Ability id="trench-warfare-ex" icon={["boost","def"]}>
 <Pair single id="trench-warfare-ex">Trench Warfare (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 1, 2, 3, and 4</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -1051,17 +1051,17 @@ const _trench_fighter = {title: "Trench Fighter", jsx: <><h2 id="arc-fighter-tre
 </>};
 const _tribal_fighter = {title: "Tribal Fighter", jsx: <><h2 id="arc-fighter-tribal_fighter-tribal-fighter">Tribal Fighter</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 50</Link><br/>A tribal fighter knows that it is not the weapon that matters but the hand that wields it. Instead of encasing himself in metal armor like the soldiers fighting and dying for the so-called civilized lands do, he prefers to wear something he or his ancestors have killed. These relics and trophies help the tribal fighter attain a battle focus that allows him to perform incredible feats of violence with the simplest of weapons.</p>
-<Ability id="forbidden-armor" icon={["broken-shield"]}>
+<Ability id="forbidden-armor" icon={["down"]}>
 <Pair single id="forbidden-armor">Forbidden Armor</Pair>
 <Pair hl title="Alters">Armor proficiency</Pair>
 <Pair title="Info">A tribal fighter favors traditional armor and shields, avoiding other types out of spiritual devotion, superstitious suspicion, or respect for tradition. He can attain his <em>battle focus</em> only while using armaments of the appropriate types. Like a <Link to="/class/druid">druid</Link>, a tribal fighter is prohibited from wearing metal armor and using metal shields. A tribal fighter who wears prohibited armor or uses a prohibited shield loses the benefits of the <em>battle focus</em> and <em>tribal weapon training</em> abilities while doing so and for 24 hours after removing the prohibited armor or shield.</Pair>
 </Ability>
-<Ability id="battle-focus-ex" icon={["stairs-goal"]}>
+<Ability id="battle-focus-ex" icon={["power"]}>
 <Pair single id="battle-focus-ex">Battle Focus (Ex)</Pair>
 <Pair hl title="Replaces">The fighter feat gained at 1st level</Pair>
 <Pair title="Ability">A tribal fighter learns to fight with his bare hands and wield traditional tribal weapons so effortlessly that they are almost extensions of his arms. He gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat. For the purpose of meeting the prerequisites of <Link to="/main/style_feat">style feats</Link> and feats that have style feats as prerequisites, the tribal fighter counts as having a number of skill ranks equal to his fighter level in all skills in which he is trained.</Pair>
 </Ability>
-<Ability id="tribal-weapon-training-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="tribal-weapon-training-ex" icon={["power","boost"]}>
 <Pair single id="tribal-weapon-training-ex">Tribal Weapon Training (Ex)</Pair>
 <Pair hl title="Alters">Weapon training</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -1070,7 +1070,7 @@ const _tribal_fighter = {title: "Tribal Fighter", jsx: <><h2 id="arc-fighter-tri
 </>};
 const _two_handed_fighter = {title: "Two-Handed Fighter", jsx: <><h2 id="arc-fighter-two_handed_fighter-two-handed-fighter">Two-Handed Fighter</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 108</Link><br/>Some fighters focus their efforts on finding the biggest, heaviest, most imposing weapon they can find and training to manage and harness the weight of their massive weapons for maximum impact. These fighting school benefits only apply when using two-handed weapons.</p>
-<Ability id="shattering-strike-ex" icon={["upgrade"]}>
+<Ability id="shattering-strike-ex" icon={["boost"]}>
 <Pair single id="shattering-strike-ex">Shattering Strike (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -1080,36 +1080,36 @@ const _two_handed_fighter = {title: "Two-Handed Fighter", jsx: <><h2 id="arc-fig
 <Pair title="At 14th Level">These bonuses become +4.</Pair>
 <Pair title="At 18th Level">These bonuses increase to +5.</Pair>
 </Ability>
-<Ability id="overhand-chop-ex" icon={["upgrade"]}>
+<Ability id="overhand-chop-ex" icon={["boost"]}>
 <Pair single id="overhand-chop-ex">Overhand Chop (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 1</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">When a two-handed fighter makes a single attack (with the attack action or a <Link to="/rule/charge">charge</Link>) with a two-handed weapon, he adds double his Strength bonus on damage rolls.</Pair>
 </Ability>
-<Ability id="weapon-training-ex" icon={["broken-shield"]}>
+<Ability id="weapon-training-ex" icon={["down"]}>
 <Pair single id="weapon-training-ex">Weapon Training (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">As the fighter class feature, but the bonuses only apply when wielding two-handed melee weapons.</Pair>
 </Ability>
-<Ability id="backswing-ex" icon={["mailed-fist"]}>
+<Ability id="backswing-ex" icon={["melee"]}>
 <Pair single id="backswing-ex">Backswing (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 2</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">When a two-handed fighter makes a <Link to="/rule/full_attack">full attack</Link> with a two-handed weapon, he adds double his Strength bonus on damage rolls for all attacks after the first.</Pair>
 </Ability>
-<Ability id="piledriver-ex" icon={["mailed-fist"]}>
+<Ability id="piledriver-ex" icon={["melee"]}>
 <Pair single id="piledriver-ex">Piledriver (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 3</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Standard Action">A two-handed fighter can make a single melee attack with a two-handed weapon. If the attack hits, he may make a <Link to="/rule/bull_rush">bull rush</Link> or <Link to="/rule/trip">trip</Link> combat maneuver against the target of his attack as a <strong className="hl">free action</strong> that does not provoke an attack of opportunity.</Pair>
 </Ability>
-<Ability id="greater-power-attack-ex" icon={["upgrade"]}>
+<Ability id="greater-power-attack-ex" icon={["boost"]}>
 <Pair single id="greater-power-attack-ex">Greater Power Attack (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 4</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Passive Ability">When using <Link to="/feat/power_attack">Power Attack</Link> with a two-handed melee weapon, the bonus damage from Power Attack is doubled (+100%) instead of increased by half (+50%).</Pair>
 </Ability>
-<Ability id="devastating-blow-ex" icon={["mailed-fist"]}>
+<Ability id="devastating-blow-ex" icon={["melee"]}>
 <Pair single id="devastating-blow-ex">Devastating Blow (Ex)</Pair>
 <Pair hl title="Replaces">Armor mastery</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -1119,7 +1119,7 @@ const _two_handed_fighter = {title: "Two-Handed Fighter", jsx: <><h2 id="arc-fig
 </>};
 const _two_weapon_warrior = {title: "Two-Weapon Warrior", jsx: <><h2 id="arc-fighter-two_weapon_warrior-two-weapon-warrior">Two-Weapon Warrior</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 109</Link><br/>Trained under great masters who preached the simple truth that two are better than one when it comes to weapons, the two-weapon warrior is a terror when his hands are full. From paired daggers to exotic double weapons, all combinations come equally alive in his skilled hands.</p>
-<Ability id="defensive-flurry-ex" icon={["armor-upgrade"]}>
+<Ability id="defensive-flurry-ex" icon={["def"]}>
 <Pair single id="defensive-flurry-ex">Defensive Flurry (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 1 and 2</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -1129,7 +1129,7 @@ const _two_weapon_warrior = {title: "Two-Weapon Warrior", jsx: <><h2 id="arc-fig
 <Pair title="At 15th Level">This bonus becomes +4.</Pair>
 <Pair title="At 19th Level">This bonus increases to +5.</Pair>
 </Ability>
-<Ability id="twin-blades-ex" icon={["upgrade"]}>
+<Ability id="twin-blades-ex" icon={["boost"]}>
 <Pair single id="twin-blades-ex">Twin Blades (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 1</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -1138,37 +1138,37 @@ const _two_weapon_warrior = {title: "Two-Weapon Warrior", jsx: <><h2 id="arc-fig
 <Pair title="At 13th Level">This bonus increases to +3.</Pair>
 <Pair title="At 17th Level">This bonus becomes +4.</Pair>
 </Ability>
-<Ability id="doublestrike-ex" icon={["mailed-fist"]}>
+<Ability id="doublestrike-ex" icon={["melee"]}>
 <Pair single id="doublestrike-ex">Doublestrike (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 2</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Standard Action">A two-weapon warrior may make one attack with both his primary and secondary weapons. The penalties for <Link to="/rule/two_weapon_fighting">attacking with two weapons</Link> apply normally.</Pair>
 </Ability>
-<Ability id="improved-balance-ex" icon={["upgrade"]}>
+<Ability id="improved-balance-ex" icon={["boost"]}>
 <Pair single id="improved-balance-ex">Improved Balance (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 3</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Passive Ability">The attack penalties for fighting with two weapons are reduced by -1 for a two-weapon warrior. Alternatively, he may use a one-handed weapon in his off-hand, treating it as if it were a light weapon with the normal light weapon penalties.</Pair>
 </Ability>
-<Ability id="equal-opportunity-ex" icon={["stairs-goal"]}>
+<Ability id="equal-opportunity-ex" icon={["power"]}>
 <Pair single id="equal-opportunity-ex">Equal Opportunity (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 3</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Ability">When a two-weapon warrior makes an attack of opportunity, he may attack once with both his primary and secondary weapons. The penalties for attacking with two weapons apply normally.</Pair>
 </Ability>
-<Ability id="perfect-balance-ex" icon={["upgrade"]}>
+<Ability id="perfect-balance-ex" icon={["boost"]}>
 <Pair single id="perfect-balance-ex">Perfect Balance (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 4</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Passive Ability">The penalties for fighting with two weapons are reduced by an additional -1 for a two-weapon warrior. This benefit stacks with <em>improved balance.</em> If he is using a one-handed weapon in his off hand, treating it as a light weapon, he uses the normal light weapon penalties.</Pair>
 </Ability>
-<Ability id="deft-doublestrike-ex" icon={["mailed-fist"]}>
+<Ability id="deft-doublestrike-ex" icon={["melee"]}>
 <Pair single id="deft-doublestrike-ex">Deft Doublestrike (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 4</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Immediate Action">When a two-weapon warrior hits an opponent with both weapons, he can make a <Link to="/rule/disarm">disarm</Link> or <Link to="/rule/sunder">sunder</Link> attempt (or <Link to="/rule/trip">trip</Link>, if one or both weapons can be used to trip) against that opponent, and it does not provoke attacks of opportunity.</Pair>
 </Ability>
-<Ability id="deadly-defense-ex" icon={["stairs-goal"]}>
+<Ability id="deadly-defense-ex" icon={["power"]}>
 <Pair single id="deadly-defense-ex">Deadly Defense (Ex)</Pair>
 <Pair hl title="Replaces">Armor mastery</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -1177,17 +1177,17 @@ const _two_weapon_warrior = {title: "Two-Weapon Warrior", jsx: <><h2 id="arc-fig
 </>};
 const _unarmed_fighter = {title: "Unarmed Fighter", jsx: <><h2 id="arc-fighter-unarmed_fighter-unarmed-fighter">Unarmed Fighter</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 48</Link><br/>Not all fighters need weapons to make their mark on the world. The unarmed fighter picks up a weapon only rarely, and when he does, he prefers the weapons of the monk. There are even those who mistake them for monks, but these fighters enter the fight without ki, and instead have a tough perseverance that few can rival.</p>
-<Ability id="weapon-and-armor-proficiency" icon={["broken-shield","stairs-goal"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["down","power"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Info">An unarmed fighter is not proficient with medium armor, heavy armor, or shields. An unarmed fighter is proficient with all <Link to="/class/monk">monk</Link> weapons, including exotic monk weapons.</Pair>
 </Ability>
-<Ability id="unarmed-style" icon={["stairs-goal"]}>
+<Ability id="unarmed-style" icon={["power"]}>
 <Pair single id="unarmed-style">Unarmed Style</Pair>
 <Pair hl title="Replaces">The bonus feat at 1st level</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An unarmed fighter gains the <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> feat and any single <Link to="/main/style_feat">style feat</Link> as a bonus feat. The unarmed fighter need not meet all the prerequisites of the style feat he chooses, but style feats that grant additional uses of the <Link to="/feat/elemental_fist">Elemental Fist</Link> feat cannot be taken until the unarmed fighter has that feat.</Pair>
 </Ability>
-<Ability id="harsh-training-ex" icon={["armor-upgrade"]}>
+<Ability id="harsh-training-ex" icon={["def"]}>
 <Pair single id="harsh-training-ex">Harsh Training (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -1197,13 +1197,13 @@ const _unarmed_fighter = {title: "Unarmed Fighter", jsx: <><h2 id="arc-fighter-u
 <Pair title="At 14th Level">This bonus becomes +4.</Pair>
 <Pair title="At 18th Level">This bonus increases to +5.</Pair>
 </Ability>
-<Ability id="tough-guy-ex" icon={["armor-upgrade"]}>
+<Ability id="tough-guy-ex" icon={["def"]}>
 <Pair single id="tough-guy-ex">Tough Guy (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 1</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">An unarmed fighter gains DR/- equal to <Link to="/misc/half">half</Link> his fighter level against nonlethal damage or damage taken while he is <Link to="/rule/grappled">grappled</Link>.</Pair>
 </Ability>
-<Ability id="weapon-training-ex" icon={["upgrade"]}>
+<Ability id="weapon-training-ex" icon={["boost"]}>
 <Pair single id="weapon-training-ex">Weapon Training (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 1, 2, 3, and 4</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -1212,21 +1212,21 @@ const _unarmed_fighter = {title: "Unarmed Fighter", jsx: <><h2 id="arc-fighter-u
 <Pair title="At 13th Level">This bonus increases to +3.</Pair>
 <Pair title="At 17th Level">This bonus becomes +4.</Pair>
 </Ability>
-<Ability id="clever-wrestler-ex" icon={["armor-upgrade","stairs-goal"]}>
+<Ability id="clever-wrestler-ex" icon={["def","power"]}>
 <Pair single id="clever-wrestler-ex">Clever Wrestler (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 2</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">An unarmed fighter takes no penalties to Dexterity or on attack rolls while grappled, and retains his Dexterity bonus to AC while pinning an opponent.</Pair>
 <Pair title="Ability">The unarmed fighter can make attacks of opportunity even when grappled and even against creatures attempting to <Link to="/rule/grapple">grapple</Link> him if the opponent has the <Link to="/feat/improved_grapple">Improved Grapple</Link> feat or the <Link to="/umr/grab">grab</Link> ability.</Pair>
 </Ability>
-<Ability id="trick-throw-ex" icon={["mailed-fist"]}>
+<Ability id="trick-throw-ex" icon={["melee"]}>
 <Pair single id="trick-throw-ex">Trick Throw (Ex)</Pair>
 <Pair hl title="Replaces">The 8th-level bonus feat</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Immediate Action">When an unarmed fighter successfully <Link to="/rule/trip">trips</Link> an opponent with an unarmed attack, he can attempt a <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver against that creature (before the opponent becomes prone).</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
-<Ability id="takedown-ex" icon={["mailed-fist"]}>
+<Ability id="takedown-ex" icon={["melee"]}>
 <Pair single id="takedown-ex">Takedown (Ex)</Pair>
 <Pair hl title="Replaces">The 12th-level bonus feat</Pair>
 <Pair title="Gained">At 12th Level</Pair>
@@ -1234,7 +1234,7 @@ const _unarmed_fighter = {title: "Unarmed Fighter", jsx: <><h2 id="arc-fighter-u
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="At 15th Level">He may do so after a successful grapple check.</Pair>
 </Ability>
-<Ability id="eye-gouge-ex" icon={["mailed-fist"]}>
+<Ability id="eye-gouge-ex" icon={["melee"]}>
 <Pair single id="eye-gouge-ex">Eye Gouge (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 3</Pair>
 <Pair title="Gained">At 13th Level</Pair>
@@ -1242,13 +1242,13 @@ const _unarmed_fighter = {title: "Unarmed Fighter", jsx: <><h2 id="arc-fighter-u
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="Special">A target more than one size category larger is unaffected.</Pair>
 </Ability>
-<Ability id="sucker-punch-ex" icon={["mailed-fist"]}>
+<Ability id="sucker-punch-ex" icon={["melee"]}>
 <Pair single id="sucker-punch-ex">Sucker Punch (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 4</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Swift Action">When an unarmed fighter strikes a creature that is denied its Dexterity bonus to AC, or that he has successfully pinned with a grapple check, he can attempt a dirty trick or trip combat maneuver against that target.</Pair>
 </Ability>
-<Ability id="sheer-toughness-ex" icon={["armor-upgrade"]}>
+<Ability id="sheer-toughness-ex" icon={["def"]}>
 <Pair single id="sheer-toughness-ex">Sheer Toughness (Ex)</Pair>
 <Pair hl title="Replaces">Armor mastery</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -1263,16 +1263,16 @@ const _unarmed_fighter = {title: "Unarmed Fighter", jsx: <><h2 id="arc-fighter-u
 </>};
 const _unbreakable = {title: "Unbreakable", jsx: <><h2 id="arc-fighter-unbreakable-unbreakable">Unbreakable</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 49</Link><br/>The unbreakable is a warrior of indomitable will, unstoppable and implacable once he has set his mind upon a course of action. The unbreakable endures any trial to do what must be done, and when his mind is set toward a goal, nothing can stop him from achieving it, though many may try. He is a juggernaut and a zealot, supremely confident in his own abilities.</p>
-<Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["down"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Info">An unbreakable is not proficient with tower shields.</Pair>
 </Ability>
-<Ability id="tough-as-nails" icon={["stairs-goal"]}>
+<Ability id="tough-as-nails" icon={["power"]}>
 <Pair single id="tough-as-nails">Tough as Nails</Pair>
 <Pair hl title="Replaces">The fighter's 1st-level bonus feat</Pair>
 <Pair title="Ability">An unbreakable gains <Link to="/feat/endurance">Endurance</Link> and <Link to="/feat/diehard">Diehard</Link> as bonus feats.</Pair>
 </Ability>
-<Ability id="unflinching-ex" icon={["armor-upgrade"]}>
+<Ability id="unflinching-ex" icon={["def"]}>
 <Pair single id="unflinching-ex">Unflinching (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -1282,7 +1282,7 @@ const _unbreakable = {title: "Unbreakable", jsx: <><h2 id="arc-fighter-unbreakab
 <Pair title="At 14th Level">This bonus becomes +4.</Pair>
 <Pair title="At 18th Level">This bonus increases to +5.</Pair>
 </Ability>
-<Ability id="heroic-recovery-ex" icon={["stairs-goal"]}>
+<Ability id="heroic-recovery-ex" icon={["power"]}>
 <Pair single id="heroic-recovery-ex">Heroic Recovery (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 1</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -1291,7 +1291,7 @@ const _unbreakable = {title: "Unbreakable", jsx: <><h2 id="arc-fighter-unbreakab
 <Pair title="At 13th Level">He may use this feat 3 times/day.</Pair>
 <Pair title="At 17th Level">He may use this feat 4 times/day.</Pair>
 </Ability>
-<Ability id="heroic-defiance-ex" icon={["stairs-goal"]}>
+<Ability id="heroic-defiance-ex" icon={["power"]}>
 <Pair single id="heroic-defiance-ex">Heroic Defiance (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 2</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -1299,31 +1299,31 @@ const _unbreakable = {title: "Unbreakable", jsx: <><h2 id="arc-fighter-unbreakab
 <Pair title="At 13th Level">He may use this feat 2 times/day.</Pair>
 <Pair title="At 17th Level">He may use this feat 3 times/day.</Pair>
 </Ability>
-<Ability id="quick-recovery-ex" icon={["upgrade"]}>
+<Ability id="quick-recovery-ex" icon={["boost"]}>
 <Pair single id="quick-recovery-ex">Quick Recovery (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 3</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Passive Ability">An unbreakable needs only 15 minutes of rest or to be subject to a healing spell or effect to recover from the <Link to="/misc/fatigued">fatigued</Link> condition.</Pair>
 </Ability>
-<Ability id="stalwart-ex" icon={["armor-upgrade"]}>
+<Ability id="stalwart-ex" icon={["def"]}>
 <Pair single id="stalwart-ex">Stalwart (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 3</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Passive Ability">When an unbreakable succeeds on a Fortitude or Will save against a spell or spell-like ability that has a partial effect even on a successful save, he is completely unaffected by it.</Pair>
 </Ability>
-<Ability id="unlimited-endurance-ex" icon={["upgrade"]}>
+<Ability id="unlimited-endurance-ex" icon={["boost"]}>
 <Pair single id="unlimited-endurance-ex">Unlimited Endurance (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 4</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Passive Ability">When an unbreakable is <Link to="/misc/exhausted">exhausted</Link>, he only suffers the effects of the fatigued condition instead, but does require 1 hour of rest to reduce this condition to the actual fatigued condition.</Pair>
 </Ability>
-<Ability id="miraculous-recovery-ex" icon={["armor-upgrade","rolling-dices"]}>
+<Ability id="miraculous-recovery-ex" icon={["def","roll"]}>
 <Pair single id="miraculous-recovery-ex">Miraculous Recovery (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 4</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">When an unbreakable makes a saving throw to recover from an ongoing effect, he may roll twice and choose the better roll.</Pair>
 </Ability>
-<Ability id="unbreakable-mind-ex" icon={["armor-upgrade"]}>
+<Ability id="unbreakable-mind-ex" icon={["def"]}>
 <Pair single id="unbreakable-mind-ex">Unbreakable Mind (Ex)</Pair>
 <Pair hl title="Replaces">Weapon mastery</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -1337,13 +1337,13 @@ const _ustalavic_duelist = {title: "Ustalavic Duelist", jsx: <><h2 id="arc-fight
 <Pair hl title="Replaces">Weapon and armor proficiencies</Pair>
 <Pair title="Info">An Ustalavic duelist is proficient with all simple and martial weapons and with all light and medium armor and shields (except tower shields).</Pair>
 </Ability>
-<Ability id="duelist-stance-ex" icon={["armor-upgrade"]}>
+<Ability id="duelist-stance-ex" icon={["def"]}>
 <Pair single id="duelist-stance-ex">Duelist Stance (Ex)</Pair>
 <Pair hl title="Replaces">The fighter's 1st-level bonus feat</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">An Ustalavic duelist gains a dodge bonus to AC as long as he is wearing no armor or light armor, wields a melee weapon in one hand, and his other hand is empty. This dodge bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of his fighter level.</Pair>
 </Ability>
-<Ability id="duelist-training-ex" icon={["upgrade"]}>
+<Ability id="duelist-training-ex" icon={["boost"]}>
 <Pair single id="duelist-training-ex">Duelist Training (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 1</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -1351,19 +1351,19 @@ const _ustalavic_duelist = {title: "Ustalavic Duelist", jsx: <><h2 id="arc-fight
 <Pair title="Passive Ability">The Ustalavic duelist's weapon training bonus with light blades increases by 1 on attack and damage rolls for every 4 levels he possesses beyond 5th (to a maximum of +4 on attack and damage rolls at 17th level). If he is using his <em>duelist stance,</em> this damage bonus increases by 2.</Pair>
 <Pair title="Special">The Ustalavic duelist does not gain weapon training in any other groups as he increases in level.</Pair>
 </Ability>
-<Ability id="lepidstadt-thrust-ex" icon={["upgrade"]}>
+<Ability id="lepidstadt-thrust-ex" icon={["boost"]}>
 <Pair single id="lepidstadt-thrust-ex">Lepidstadt Thrust (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 2</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Passive Ability">When using <Link to="/feat/vital_strike">Vital Strike</Link>, <Link to="/feat/improved_vital_strike">Improved Vital Strike</Link>, or <Link to="/feat/greater_vital_strike">Greater Vital Strike</Link>, an Ustalavic duelist adds his Intelligence modifier to damage rolls (this bonus to damage is not multiplied on a critical hit). If the duelist confirms a critical hit while using one of these feats, he automatically deals maximum damage.</Pair>
 </Ability>
-<Ability id="science-of-the-blade-ex" icon={["mailed-fist"]}>
+<Ability id="science-of-the-blade-ex" icon={["melee"]}>
 <Pair single id="science-of-the-blade-ex">Science of the Blade (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 3</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Ability">An Ustalavic duelist is able to apply his specialized knowledge of anatomy and physiology to his bladework. The duelist can make <Link to="/rule/dirty_trick">dirty trick</Link>, <Link to="/rule/disarm">disarm</Link>, and <Link to="/rule/trip">trip</Link> combat maneuvers using any one-handed piercing or slashing weapon.</Pair>
 </Ability>
-<Ability id="surgical-strike-ex" icon={["mailed-fist"]}>
+<Ability id="surgical-strike-ex" icon={["melee"]}>
 <Pair single id="surgical-strike-ex">Surgical Strike (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 4</Pair>
 <Pair title="Gained">At 17th Level</Pair>
@@ -1372,17 +1372,17 @@ const _ustalavic_duelist = {title: "Ustalavic Duelist", jsx: <><h2 id="arc-fight
 </>};
 const _varisian_free_style_fighter = {title: "Varisian Free-Style Fighter", jsx: <><h2 id="arc-fighter-varisian_free_style_fighter-varisian-free-style-fighter">Varisian Free-Style Fighter</h2>
 <p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook pg. 7</Link><br/>Free-style fighters are most common in Varisia, where their training - with multiple teachers, or perhaps instruction in the anything-goes mentality of the Price of Freedom school in Kaer Maga - allows them to blend fighting styles into a greater whole.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Ride</Pair></Ability>
-<Ability id="martial-flexibility-ex" icon={["stairs-goal"]}>
+<Ability id="martial-flexibility-ex" icon={["power"]}>
 <Pair single id="martial-flexibility-ex">Martial Flexibility (Ex)</Pair>
 <Pair hl title="Replaces">Bonus feats gained at 1st level, 6th level, 10th level, and 12th level, weapon training, weapon mastery</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A Varisian free-style fighter gains <em>martial flexibility</em> as per the <Link to="/class/brawler">brawler</Link> class feature, treating his fighter level as his brawler level for the purposes of this ability.</Pair>
 </Ability>
-<Ability id="free-fighting-style-ex" icon={["stairs-goal"]}>
+<Ability id="free-fighting-style-ex" icon={["power"]}>
 <Pair single id="free-fighting-style-ex">Free Fighting Style (Ex)</Pair>
 <Pair hl title="Replaces">Armor training</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -1393,7 +1393,7 @@ const _varisian_free_style_fighter = {title: "Varisian Free-Style Fighter", jsx:
 </>};
 const _venomblade = {title: "Venomblade", jsx: <><h2 id="arc-fighter-venomblade-venomblade">Venomblade</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 5</Link><br/>The venomblade has learned to take full advantage of his toxic spittle, blinding his targets and then rushing in to cut them down where they stand.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-fighter-venomblade--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/nagaji">Nagaji</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="venom-projection-ex" icon={["stairs-goal"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-fighter-venomblade--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/nagaji">Nagaji</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="venom-projection-ex" icon={["power"]}>
 <Pair single id="venom-projection-ex">Venom Projection (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair hl title="Alters">Bonus feat gained at 1st level</Pair>
@@ -1403,7 +1403,7 @@ const _venomblade = {title: "Venomblade", jsx: <><h2 id="arc-fighter-venomblade-
 <Pair title="At 8th Level">He can use it as a <strong className="hl">move action</strong>.</Pair>
 <Pair title="At 12th Level">He can use it as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="sneak-attack-ex" icon={["upgrade"]}>
+<Ability id="sneak-attack-ex" icon={["boost"]}>
 <Pair single id="sneak-attack-ex">Sneak Attack (Ex)</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 6th level</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -1412,7 +1412,7 @@ const _venomblade = {title: "Venomblade", jsx: <><h2 id="arc-fighter-venomblade-
 <Pair title="At 14th Level">This additional damage increases to 3d6.</Pair>
 <Pair title="At 18th Level">This additional damage becomes 4d6.</Pair>
 </Ability>
-<Ability id="viper-strike-ex" icon={["armor-downgrade"]}>
+<Ability id="viper-strike-ex" icon={["lower"]}>
 <Pair single id="viper-strike-ex">Viper Strike (Ex)</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 12th level</Pair>
 <Pair title="Gained">At 12th Level</Pair>
@@ -1421,19 +1421,19 @@ const _venomblade = {title: "Venomblade", jsx: <><h2 id="arc-fighter-venomblade-
 </>};
 const _viking = {title: "Viking", jsx: <><h2 id="arc-fighter-viking-viking">Viking</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 51</Link>, <Link to="/source/people_of_the_north">People of the North pg. 24</Link><br/>Vikings seek to raid "softer societies" and return with their longships filled with plunder. A viking strikes fear into the heart of her foes, and in battle she can fly into a terrible rage. Many vikings wear the pelts of bears or wolves, drawing on the strength and ferocity of these beasts in battle. Vikings do not wear heavy armor, but they are skilled at fighting with an axe or spear in conjunction with a shield.</p>
-<Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["down"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Alters">Weapon and armor proficiencies</Pair>
 <Pair title="Info">A viking is not proficient with heavy armor or tower shields.</Pair>
 </Ability>
-<Ability id="fearsome-ex" icon={["stairs-goal"]}>
+<Ability id="fearsome-ex" icon={["power"]}>
 <Pair single id="fearsome-ex">Fearsome (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair title="At 2nd Level">A viking can attempt an Intimidate check to demoralize an opponent as a <strong className="hl">move action</strong>.</Pair>
 <Pair title="At 10th Level">She can do so as a <strong className="hl">swift action</strong>.</Pair>
 <Pair title="At 18th Level">She can attempt to demoralize a foe as a <strong className="hl">free action</strong> once per round.</Pair>
 </Ability>
-<Ability id="shield-defense-ex" icon={["armor-upgrade"]}>
+<Ability id="shield-defense-ex" icon={["def"]}>
 <Pair single id="shield-defense-ex" flavor="A viking learns the art of fighting with a shield.">Shield Defense (Ex)</Pair>
 <Pair hl title="Replaces">Armor training</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -1442,13 +1442,13 @@ const _viking = {title: "Viking", jsx: <><h2 id="arc-fighter-viking-viking">Viki
 <Pair title="At 11th Level">The shield bonus to AC now increases by 3.</Pair>
 <Pair title="At 15th Level">The shield bonus to AC now increases by 4.</Pair>
 </Ability>
-<Ability id="berserker-ex" icon={["stairs-goal"]}>
+<Ability id="berserker-ex" icon={["power"]}>
 <Pair single id="berserker-ex">Berserker (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A viking gains the <em>rage</em> ability as per the <Link to="/class/barbarian">barbarian</Link> class feature, and she uses her fighter level as her barbarian level for the purposes of determining her rounds of rage, qualifying for rage powers, and determining the effects of rage powers.</Pair>
 </Ability>
-<Ability id="rage-powers-ex" icon={["stairs-goal"]}>
+<Ability id="rage-powers-ex" icon={["power"]}>
 <Pair single id="rage-powers-ex">Rage Powers (Ex)</Pair>
 <Pair hl title="Alters">The fighter's bonus feats</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -1457,21 +1457,21 @@ const _viking = {title: "Viking", jsx: <><h2 id="arc-fighter-viking-viking">Viki
 </>};
 const _warlord = {title: "Warlord", jsx: <><h2 id="arc-fighter-warlord-warlord">Warlord</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_worldscape_3">Pathfinder Worldscape #3 pg. 26</Link><br/>Honorable, fearless experts in gun and blade, warlords roam the dried seabeds of time-worn Mars, warring in great tribes for supremacy over a dying planet. Capable of relentless brutality and quick to flare into open hostilities, warlords cloak their violent ways with paens to great noble houses or honored ancient traditions, bringing an air of respectability and etiquette to the butchery of brazen blades against bare skin. Warlords eschew armor as impractical to their harsh and often desert-like environment, preferring the free movement of near-nakedness. Warlords tend to specialize in the traditional weapons of Barsoom, leaving them ignorant of even simple Weapons common on other worlds. The same impulse that guides a warlord to stick to the traditional garb and gear of his culture can lead to a single-mindedness of purpose that can propel him far within his tribe or noble house. Even warlords of low status in Martian society claim a connection, no matter how ancient, with some great chieftain or emperor, seeing in the glorious past a path to a more hopeful future. Barsoom confers noble status upon its warlords through ritual combat in the case of green Martians or on merit and upon great achievement or heroics in the case of red Martians, so climbing the ladder of status is an important part of a warlord's journey through life.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Swim</Pair></Ability>
-<Ability id="weapon-and-armor-proficiency" icon={["stairs-goal","broken-shield"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["power","down"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Replaces">Weapon and armor proficiencies</Pair>
 <Pair title="Info">A warlord is proficient with the <Link to="/eq-weapon/halberd">halberd</Link>, <Link to="/eq-weapon/radium_pistol">radium pistol</Link>, <Link to="/eq-weapon/rapier">rapier</Link>, <Link to="/eq-weapon/radium_rifle">radium rifle</Link>, <Link to="/eq-weapon/longspear">longspear</Link>, <Link to="/eq-weapon/longsword">longsword</Link>, <Link to="/eq-weapon/shortspear">shortspear</Link>, <Link to="/eq-weapon/spear">spear</Link>, <Link to="/eq-weapon/thark_rifle">Thark rifle</Link>, <Link to="/eq-weapon/trident">trident</Link>, and <Link to="/eq-weapon/whip">whip</Link>. Warlords are not proficient with armor or shields.</Pair>
 </Ability>
-<Ability id="evasive-dueling-ex" icon={["armor-upgrade"]}>
+<Ability id="evasive-dueling-ex" icon={["def"]}>
 <Pair single id="evasive-dueling-ex">Evasive Dueling (Ex)</Pair>
 <Pair hl title="Alters">Bonus combat feats</Pair>
 <Pair title="Choice">Whenever he would gain a bonus combat feat, a warlord can instead add a +1 dodge bonus to his Armor Class. The dodge bonus does not apply when wearing any armor, when using a shield, or when carrying a medium or heavier load.</Pair>
 </Ability>
-<Ability id="battle-bravado-ex" icon={["armor-upgrade"]}>
+<Ability id="battle-bravado-ex" icon={["def"]}>
 <Pair single id="battle-bravado-ex" flavor="The warlord's self confidence and force of will make him more difficult to hit.">Battle Bravado (Ex)</Pair>
 <Pair hl title="Replaces">Armor training</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -1481,14 +1481,14 @@ const _warlord = {title: "Warlord", jsx: <><h2 id="arc-fighter-warlord-warlord">
 <Pair title="At 15th Level">The warlord again gains a +1 dodge bonus.</Pair>
 <Pair title="Special">He loses these bonuses when he wears any armor, when he carries a shield, or when he carries a medium or heavy load.</Pair>
 </Ability>
-<Ability id="weapon-training-ex" icon={["stairs-goal"]}>
+<Ability id="weapon-training-ex" icon={["power"]}>
 <Pair single id="weapon-training-ex">Weapon Training (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability"><p>A warlord adds the following <Link to="/ability/weapon_groups">weapon group</Link> to those he can choose from when using weapon training.</p>
 <p><strong className="hl">Barsoomian:</strong> Halberd, radium pistol, rapier, radium rifle, longspear, longsword, shortspear, spear, Thark rifle, trident, whip.</p>
 </Pair>
 </Ability>
-<Ability id="sun-bronzed-skin-ex" icon={["armor-upgrade"]}>
+<Ability id="sun-bronzed-skin-ex" icon={["def"]}>
 <Pair single id="sun-bronzed-skin-ex">Sun-Bronzed Skin (Ex)</Pair>
 <Pair hl title="Replaces">Armor mastery</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -1497,7 +1497,7 @@ const _warlord = {title: "Warlord", jsx: <><h2 id="arc-fighter-warlord-warlord">
 </>};
 const _weapon_bearer_squire = {title: "Weapon Bearer Squire", jsx: <><h2 id="arc-fighter-weapon_bearer_squire-weapon-bearer-squire">Weapon Bearer Squire</h2>
 <p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea pg. 21</Link><br/>With myriad weapons, armor, and useful gear always on hand, the weapon bearer squire ensures her knight is equipped for any task.</p>
-<Ability id="weapon-rack-ex" icon={["stairs-goal"]}>
+<Ability id="weapon-rack-ex" icon={["power"]}>
 <Pair single id="weapon-rack-ex">Weapon Rack (Ex)</Pair>
 <Pair hl title="Replaces">The 1st-level fighter bonus combat feat</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -1505,14 +1505,14 @@ const _weapon_bearer_squire = {title: "Weapon Bearer Squire", jsx: <><h2 id="arc
 <Pair title="Immediate Action">A weapon bearer squire can pick up items dropped by her knight.</Pair>
 <Pair title="Special">These abilities do not provoke attacks of opportunity. The knight and the weapon bearer squire must be adjacent to each other and must both be able to move and communicate to use these abilities.</Pair>
 </Ability>
-<Ability id="swift-sharpening-ex" icon={["stairs-goal"]}>
+<Ability id="swift-sharpening-ex" icon={["power"]}>
 <Pair single id="swift-sharpening-ex" flavor="A weapon bearer squire can quickly hone her lord's weapons to make them more effective in combat.">Swift Sharpening (Ex)</Pair>
 <Pair hl title="Replaces">The 2nd-level fighter bonus combat feat</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Full-Round Action">A weapon bearer squire can use a <Link to="/eq-misc/whetstone">whetstone</Link> to sharpen a weapon she is holding, granting whoever wields the weapon a +1 circumstance bonus on his next attack roll with that weapon.</Pair>
 <Pair title="Standard Action">She can apply a <Link to="/eq-misc/weapon_blanch_adamantine">weapon blanch</Link> to a weapon she is holding. (This is normally a full-round action.)</Pair>
 </Ability>
-<Ability id="combat-repairs-ex" icon={["stairs-goal"]}>
+<Ability id="combat-repairs-ex" icon={["power"]}>
 <Pair single id="combat-repairs-ex" flavor="A weapon bearer squire can ensure her liege never goes unarmed, even if his weapon has all but shattered.">Combat Repairs (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 1</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -1525,7 +1525,7 @@ const _weapon_master = {title: "Weapon Master", jsx: <><h2 id="arc-fighter-weapo
 <Pair single id="chosen-weapon">Chosen Weapon</Pair>
 <Pair title="Choice">The weapon master must select a single type of weapon (such as longsword or shortbow). All of his abilities apply to that weapon type.</Pair>
 </Ability>
-<Ability id="weapon-guard-ex" icon={["armor-upgrade"]}>
+<Ability id="weapon-guard-ex" icon={["def"]}>
 <Pair single id="weapon-guard-ex">Weapon Guard (Ex)</Pair>
 <Pair hl title="Replaces">Bravery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -1535,7 +1535,7 @@ const _weapon_master = {title: "Weapon Master", jsx: <><h2 id="arc-fighter-weapo
 <Pair title="At 14th Level">The bonus becomes +4.</Pair>
 <Pair title="At 18th Level">The bonus increases to +5.</Pair>
 </Ability>
-<Ability id="weapon-training-ex" icon={["upgrade"]}>
+<Ability id="weapon-training-ex" icon={["boost"]}>
 <Pair single id="weapon-training-ex">Weapon Training (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 1, 2, 3, and 4</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -1545,33 +1545,33 @@ const _weapon_master = {title: "Weapon Master", jsx: <><h2 id="arc-fighter-weapo
 <Pair title="At 15th Level">The bonus becomes +4.</Pair>
 <Pair title="At 19th Level">The bonus increases to +5.</Pair>
 </Ability>
-<Ability id="reliable-strike-ex" icon={["rolling-dices"]}>
+<Ability id="reliable-strike-ex" icon={["roll"]}>
 <Pair single id="reliable-strike-ex">Reliable Strike (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 1</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Usage">1 time/day per five fighter levels<ByLevelPop levels={[[5,1],[10,2],[15,3],[20,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Immediate Action">A weapon master may reroll an attack roll, critical hit confirmation roll, miss chance check, or damage roll. He must accept the second roll even if it is worse.</Pair>
 </Ability>
-<Ability id="mirror-move-ex" icon={["armor-upgrade"]}>
+<Ability id="mirror-move-ex" icon={["def"]}>
 <Pair single id="mirror-move-ex">Mirror Move (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 2</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Passive Ability">A weapon master gains his weapon training bonus as an insight bonus to AC when attacked by his chosen weapon.</Pair>
 </Ability>
-<Ability id="deadly-critical-ex" icon={["upgrade"]}>
+<Ability id="deadly-critical-ex" icon={["boost"]}>
 <Pair single id="deadly-critical-ex">Deadly Critical (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 3</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per three fighter levels beyond 13th<ByLevelPop levels={[[13,1],[16,2],[19,3]]} unit="time" postText="/day" /></Pair>
 <Pair title="Immediate Action">When a weapon master confirms a critical hit with his chosen weapon, he can increase the weapon's damage multiplier by +1.</Pair>
 </Ability>
-<Ability id="critical-specialist-ex" icon={["upgrade"]}>
+<Ability id="critical-specialist-ex" icon={["boost"]}>
 <Pair single id="critical-specialist-ex">Critical Specialist (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 4</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">The save DCs of any effects caused by a critical hit with a weapon master's chosen weapon increase by +4.</Pair>
 </Ability>
-<Ability id="unstoppable-strike-ex" icon={["armor-downgrade"]}>
+<Ability id="unstoppable-strike-ex" icon={["lower"]}>
 <Pair single id="unstoppable-strike-ex">Unstoppable Strike (Ex)</Pair>
 <Pair hl title="Replaces">Armor mastery</Pair>
 <Pair title="Gained">At 19th Level</Pair>

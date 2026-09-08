@@ -5,13 +5,13 @@ import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 const _armored_battlemage = {title: "Armored Battlemage", jsx: <><h2 id="arc-magus-armored_battlemage-armored-battlemage">Armored Battlemage</h2>
 <p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook pg. 4</Link><br/>Though it hasn't been at war with its southern neighbor for centuries, Nex continues to train battlemages at its arcane schools in Ecanus. Many battlemages focus purely on destructive evocations, but some extend their tactical studies to include use of the tried-and-true protection of steel. These armored battlemages learn to move and cast spells in even the most restrictive armors, and have developed new methods to magically enhance their armor. Most armored battlemages strongly support the Arclords of Nex. Many travel beyond their homelands seeking some method of contacting the archmage Nex, and hope for some excuse to convince the Council of Three and Nine to renew hostilities with the nation of Geb.</p>
-<Ability id="medium-armor-ex" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="medium-armor-ex" icon={["power","def"]}>
 <Pair single id="medium-armor-ex">Medium Armor (Ex)</Pair>
 <Pair hl title="Replaces">Spell combat</Pair>
 <Pair hl title="Alters">Medium armor</Pair>
 <Pair title="Ability">An armored battlemage gains this ability at 1st level instead of 7th. When wearing medium or heavy armor, the armored battlemage gains a +4 bonus on <Link to="/rule/concentration">concentration</Link> checks to cast defensively. This stacks with the bonus from the <Link to="/feat/combat_casting">Combat Casting</Link> feat.</Pair>
 </Ability>
-<Ability id="arcane-pool-su" icon={["broken-shield","armor-upgrade"]}>
+<Ability id="arcane-pool-su" icon={["down","def"]}>
 <Pair single id="arcane-pool-su">Arcane Pool (Su)</Pair>
 <Pair hl title="Alters">Arcane pool</Pair>
 <Pair title="Ability">An armored battlemage cannot spend points from his <em>arcane pool</em> to enhance weapons. Instead, he can expend 1 point from his <em>arcane pool</em> as a <strong className="hl">swift action</strong> to grant armor he is wearing a +1 enhancement bonus for 1 minute.</Pair>
@@ -21,24 +21,24 @@ const _armored_battlemage = {title: "Armored Battlemage", jsx: <><h2 id="arc-mag
 <Pair title="At 17th Level">The enhancement bonus increases to +5.</Pair>
 <Pair title="Special">These bonuses stack with existing armor enhancement bonuses to a maximum of +5. If the armor is not magical, at least a +1 enhancement bonus must be added before any other special abilities can be added. These bonuses and special abilities are decided when the <em>arcane pool</em> point is spent and cannot be changed until the next time the armored battlemage uses this ability. These bonuses do not function if the armor is worn by anyone other than the magus. Multiple uses of this ability do not stack with themselves. An armored battlemage can enhance only one suit of armor in this way at one time. If he uses this ability again, the first use immediately ends.</Pair>
 </Ability>
-<Ability id="armor-training-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="armor-training-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="armor-training-ex">Armor Training (Ex)</Pair>
 <Pair hl title="Replaces">Magus arcana gained at 3rd and 18th levels, improved spell combat</Pair>
 <Pair title="At 3rd Level">An armored battlemage gains <em>armor training,</em> as per the <Link to="/class/fighter">fighter</Link> ability, although some of its benefits are delayed (see below).</Pair>
 </Ability>
-<Ability id="armor-training-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="armor-training-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="armor-training-ex" flavor="Text from the fighter class ability, with levels adjusted.">Armor Training (Ex)</Pair>
 <Pair title="At 3rd Level">Whenever you wear armor, you reduce the armor check penalty by 1 (to a minimum of 0) and increase the maximum Dexterity bonus allowed by the armor by 1. You can also move at your normal speed while wearing medium armor.</Pair>
 <Pair title="At 8th Level">The penalty is now reduced by 2 (minimum 0) and the maximum Dex bonus is now increased by +2. You can also move at your normal speed while wearing heavy armor.</Pair>
 <Pair title="At 13th Level">The penalty is now reduced by 3 (minimum 0) and the maximum Dex bonus is now increased by +3.</Pair>
 <Pair title="At 18th Level">The penalty is now reduced by 4 (minimum 0) and the maximum Dex bonus is now increased by +4.</Pair>
 </Ability>
-<Ability id="heavy-armor-ex" icon={["stairs-goal"]}>
+<Ability id="heavy-armor-ex" icon={["power"]}>
 <Pair single id="heavy-armor-ex">Heavy Armor (Ex)</Pair>
 <Pair hl title="Alters">Heavy armor</Pair>
 <Pair title="Ability">An armored battlemage gains this ability at 7th level instead of 13th.</Pair>
 </Ability>
-<Ability id="expanded-arcane-pool-su" icon={["upgrade"]}>
+<Ability id="expanded-arcane-pool-su" icon={["boost"]}>
 <Pair single id="expanded-arcane-pool-su">Expanded Arcane Pool (Su)</Pair>
 <Pair hl title="Replaces">Greater spell combat</Pair>
 <Pair title="Gained">At 14th Level</Pair>
@@ -47,25 +47,25 @@ const _armored_battlemage = {title: "Armored Battlemage", jsx: <><h2 id="arc-mag
 </>};
 const _beastblade = {title: "Beastblade", jsx: <><h2 id="arc-magus-beastblade-beastblade">Beastblade</h2>
 <p><strong>Sources</strong> <Link to="/source/familiar_folio">Familiar Folio pg. 8</Link><br/>Beastblade magi work in tandem with their familiars, using spell, steel, and claw to clear the battlefield of foes.</p>
-<Ability id="familiar-ex" icon={["stairs-goal"]}>
+<Ability id="familiar-ex" icon={["power"]}>
 <Pair single id="familiar-ex">Familiar (Ex)</Pair>
 <Pair hl title="Replaces">Magus arcana gained at 3rd level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">The beastblade gains the <Link to="/arcana/familiar">familiar</Link> magus arcana.</Pair>
 </Ability>
-<Ability id="tandem-touch-su" icon={["magic-swirl"]}>
+<Ability id="tandem-touch-su" icon={["magic"]}>
 <Pair single id="tandem-touch-su">Tandem Touch (Su)</Pair>
 <Pair hl title="Replaces">Spell recall</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">While the beastblade's familiar is holding the charge for a touch spell, the beastblade can cast another spell without discharging the familiar's held charge.</Pair>
 </Ability>
-<Ability id="familiar-pool-su" icon={["magic-swirl"]}>
+<Ability id="familiar-pool-su" icon={["magic"]}>
 <Pair single id="familiar-pool-su">Familiar Pool (Su)</Pair>
 <Pair hl title="Replaces">Knowledge pool</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">When a beastblade prepares his magus spells, he can expend points from his <em>arcane pool</em> (up to a maximum number of points equal to his Intelligence modifier) to empower his familiar. For each point expended in this way, the familiar can cast one magus spell as a spell-like ability once that day. Each spell selected must be 3 spell levels lower than the highest spell level the beastblade can cast, and can't require a material component that costs more than 1 gp.</Pair>
 </Ability>
-<Ability id="familiar-spellstrike-su" icon={["armor-downgrade"]}>
+<Ability id="familiar-spellstrike-su" icon={["lower"]}>
 <Pair single id="familiar-spellstrike-su">Familiar Spellstrike (Su)</Pair>
 <Pair hl title="Replaces">Improved spell recall</Pair>
 <Pair title="Gained">At 11th Level</Pair>
@@ -160,7 +160,7 @@ const _bladebound = {title: "Bladebound", jsx: <><h2 id="arc-magus-bladebound-bl
 <td>Life drinker</td>
 </tr>
 </tbody></table></ScrollContainer>
-<Ability id="black-blade-ex" icon={["stairs-goal","mailed-fist","broken-shield"]}>
+<Ability id="black-blade-ex" icon={["power","melee","down"]}>
 <Pair single id="black-blade-ex">Black Blade (Ex)</Pair>
 <Pair hl title="Replaces">Magus arcana gained at 3rd level</Pair>
 <Pair hl title="Alters">Arcane Pool</Pair>
@@ -181,15 +181,15 @@ const _bladebound = {title: "Bladebound", jsx: <><h2 id="arc-magus-bladebound-bl
 </blockquote>
 </Pair>
 </Ability>
-<Ability id="black-blade-ability-descriptions" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="black-blade-ability-descriptions" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="black-blade-ability-descriptions">Black Blade Ability Descriptions</Pair>
 <Pair title="Ability">A <em>black blade</em> has special abilities (or imparts abilities to its wielder) depending on the wielder's magus level. The abilities are cumulative. A <em>black blade</em> normally refuses to use any of its abilities when wielded by anyone other than its magus, and acts as a <Link to="/rule/masterwork_w">masterwork weapon</Link> of its type.</Pair>
 </Ability>
-<Ability id="alertness-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="alertness-ex" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="alertness-ex">Alertness (Ex)</Pair>
 <Pair title="Ability">While a magus is wielding his <em>black blade,</em> he gains the <Link to="/feat/alertness">Alertness</Link> feat.</Pair>
 </Ability>
-<Ability id="black-blade-strike-sp" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="black-blade-strike-sp" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="black-blade-strike-sp">Black Blade Strike (Sp)</Pair>
 <Pair title="Free Action">The magus can spend a point from the <em>black blade's arcane pool</em> to grant the <em>black blade</em> a +1 bonus on damage rolls for 1 minute.</Pair>
 <Pair title="At 5th Level">The bonus becomes +2.</Pair>
@@ -197,36 +197,36 @@ const _bladebound = {title: "Bladebound", jsx: <><h2 id="arc-magus-bladebound-bl
 <Pair title="At 13th Level">The bonus becomes +4.</Pair>
 <Pair title="At 17th Level">The bonus increases to +5.</Pair>
 </Ability>
-<Ability id="telepathy-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="telepathy-su" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="telepathy-su">Telepathy (Su)</Pair>
 <Pair title="Ability">While a magus is wielding or carrying his <em>black blade,</em> he can communicate telepathically with the blade in a language that the magus and the <em>black blade</em> share.</Pair>
 </Ability>
-<Ability id="unbreakable-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="unbreakable-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="unbreakable-ex">Unbreakable (Ex)</Pair>
 <Pair title="Ability">As long as it has at least 1 point in its <em>arcane pool,</em> a <em>black blade</em> is immune to the <Link to="/misc/broken">broken</Link> condition. If broken, the <em>black blade</em> is unconscious and powerless until repaired.</Pair>
 <Pair title="Special">If destroyed, the <em>black blade</em> can be reforged 1 week later through a special ritual that costs 200 gp per magus level. The ritual takes 24 hours to complete.</Pair>
 </Ability>
-<Ability id="energy-attunement-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="energy-attunement-su" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="energy-attunement-su">Energy Attunement (Su)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Free Action">A magus can spend a point of his <em>black blade's arcane pool</em> to have it deal one of the following types of damage instead of weapon damage: cold, electricity, or fire. He can spend 2 points from the <em>black blade's arcane pool</em> to deal sonic or force damage instead of weapon damage. This effect lasts until the start of the magus's next turn.</Pair>
 </Ability>
-<Ability id="teleport-blade-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="teleport-blade-sp" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="teleport-blade-sp">Teleport Blade (Sp)</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Standard Action">A magus can expend an arcane point from his or his <em>black blade's arcane pool,</em> and can call his <em>black blade</em> from as far as 1 mile away, causing it to instantaneously teleport to his hand.</Pair>
 </Ability>
-<Ability id="transfer-arcana-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="transfer-arcana-su" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="transfer-arcana-su">Transfer Arcana (Su)</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Full-Round Action">Once per day, a magus can attempt to siphon points from his <em>black blade's arcane pool</em> into his own <em>arcane pool.</em> The magus must succeed at a Will saving throw with a DC equal to the <em>black blade's</em> ego. If the magus succeeds, he regains 1 point to his <em>arcane pool</em> for every 2 points he saps from his <em>black blade.</em> If he fails the saving throw, the magus becomes <Link to="/misc/fatigued">fatigued</Link> (but can try again). If he is fatigued, he becomes <Link to="/misc/exhausted">exhausted</Link> instead. He cannot use this ability if he is exhausted.</Pair>
 </Ability>
-<Ability id="spell-defense-sp" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="spell-defense-sp" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="spell-defense-sp">Spell Defense (Sp)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Free Action">A magus can expend an arcane point from his weapon's <em>arcane pool;</em> he then gains SR equal to his <em>black blade's</em> ego until the start of his next turn.</Pair>
 </Ability>
-<Ability id="life-drinker-su" extraClasses="subAbility" icon={["stairs-goal","remedy"]}>
+<Ability id="life-drinker-su" extraClasses="subAbility" icon={["power","aid"]}>
 <Pair single id="life-drinker-su">Life Drinker (Su)</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Ability"><p>Each time the magus kills a living creature with the <em>black blade,</em> he can pick one of the following effects:</p>
@@ -242,24 +242,24 @@ const _bladebound = {title: "Bladebound", jsx: <><h2 id="arc-magus-bladebound-bl
 </>};
 const _card_caster = {title: "Card Caster", jsx: <><h2 id="arc-magus-card_caster-card-caster">Card Caster</h2>
 <p><strong>Sources</strong> <Link to="/source/the_harrow_handbook">The Harrow Handbook pg. 24</Link><br/>Though it is known primarily as a tool of knowledge, the harrow is also an instrument of defense and even war. The card caster is an ancient, martial offshoot of the traditional harrower, learning to not only draw power from the harrow, but also to invest each card with deadly power.</p>
-<Ability id="deadly-dealer-su" icon={["stairs-goal"]}>
+<Ability id="deadly-dealer-su" icon={["power"]}>
 <Pair single id="deadly-dealer-su">Deadly Dealer (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">The card caster gains <Link to="/feat/deadly_dealer">Deadly Dealer</Link> as a bonus feat, even if he does not meet the prerequisites. A card caster can invest cards with enough magic to deal lethal damage even without the <Link to="/feat/arcane_strike">Arcane Strike</Link> feat so long as he has at least 1 point in his <em>arcane pool.</em></Pair>
 </Ability>
-<Ability id="arcane-pool-focus-su" icon={["broken-shield"]}>
+<Ability id="arcane-pool-focus-su" icon={["down"]}>
 <Pair single id="arcane-pool-focus-su">Arcane Pool Focus (Su)</Pair>
 <Pair hl title="Alters">Arcane pool</Pair>
 <Pair title="Ability">A card caster's <em>arcane pool</em> can be used to augment only ranged weapons.</Pair>
 <Pair title="At 5th Level">A card caster can use his <em>arcane pool</em> to add the following weapon special abilities to ranged weapons: <Link to="/magic-enh/brilliant_energy">brilliant energy</Link>, <Link to="/magic-enh/distance">distance</Link>, <Link to="/magic-enh/flaming">flaming</Link>, <Link to="/magic-enh/flaming_burst">flaming burst</Link>, <Link to="/magic-enh/frost">frost</Link>, <Link to="/magic-enh/icy_burst">icy burst</Link>, <Link to="/magic-enh/returning">returning</Link>, <Link to="/magic-enh/seeking">seeking</Link>, <Link to="/magic-enh/shock">shock</Link>, <Link to="/magic-enh/shocking_burst">shocking burst</Link>, and <Link to="/magic-enh/speed">speed</Link>. He can use his <em>arcane pool</em> to augment an entire <Link to="/eq-misc/harrow_deck">harrow deck</Link> as if it were ammunition. All cards from a deck enhanced with a special ability, such as flaming, must share the same bonus.</Pair>
 </Ability>
-<Ability id="harrowed-spellstrike-su" icon={["bowman","magic-swirl"]}>
+<Ability id="harrowed-spellstrike-su" icon={["ranged","magic"]}>
 <Pair single id="harrowed-spellstrike-su">Harrowed Spellstrike (Su)</Pair>
 <Pair hl title="Replaces">Spellstrike</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A card caster can invest a single thrown weapon with a single touch or ranged spell as part of the spell's normal casting time. The spell must target a single creature, and the spell's range changes to match the thrown weapon's range increment. This ability otherwise functions identically to <em>spellstrike,</em> except it can only be applied to thrown ranged weapons instead of melee attacks.</Pair>
 </Ability>
-<Ability id="role-dealer-su" icon={["upgrade"]}>
+<Ability id="role-dealer-su" icon={["boost"]}>
 <Pair single id="role-dealer-su">Role Dealer (Su)</Pair>
 <Pair hl title="Replaces">Magus arcana gained at 3rd level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -268,25 +268,25 @@ const _card_caster = {title: "Card Caster", jsx: <><h2 id="arc-magus-card_caster
 </>};
 const _deep_marshal = {title: "Deep Marshal", jsx: <><h2 id="arc-magus-deep_marshal-deep-marshal">Deep Marshal</h2>
 <p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology pg. 28</Link><br/>According to dwarven legend, the first deep marshals were handpicked by King Taargick himself to create massive tunnels to aid in the dwarven exodus to Golarion's surface during the Quest for Sky. Largely unseen by visitors, the deep marshals have survived into the modern era as keepers, protectors, and repairers of the myriad of stony passages that travel around, through, and under the Five Kings Mountains. Although the vast majority of deep marshals are <Link to="/race/dwarves">dwarves</Link>, a few non-dwarves have earned enough trust to be trained as deep marshals, or have learned the same techniques from studying old dwarven spellbooks.</p>
-<Ability id="weapon-and-armor-proficiency" icon={["upgrade"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["boost"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Alters">Armor proficiencies, medium armor, heavy armor</Pair>
 <Pair title="Ability">A deep marshal is proficient with light armor, medium armor, and shields (except tower shields). A deep marshal can cast magus spells while wearing light armor or medium armor without incurring the normal spell failure chance.</Pair>
 <Pair title="At 9th Level">A deep marshal gains the heavy armor magus ability at 9th level.</Pair>
 </Ability>
-<Ability id="deep-spellcasting" icon={["spell-book","broken-shield"]}>
+<Ability id="deep-spellcasting" icon={["learn","down"]}>
 <Pair single id="deep-spellcasting">Deep Spellcasting</Pair>
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Ability">A deep marshal learns numerous arcane secrets involving the shaping and warding of earth and stone. She adds the following <Link to="/main/spells_wizard">sorcerer/wizard spells</Link> to her magus spell list as magus spells of the same level: <Link to="/spell/crafters_curse">crafter's curse</Link>, <Link to="/spell/crafters_fortune">crafter's fortune</Link>, <Link to="/spell/erase">erase</Link>, <Link to="/spell/expeditious_excavation">expeditious excavation</Link>, <Link to="/spell/fabricate">fabricate</Link>, <Link to="/spell/greater_make_whole">greater make whole</Link>, <Link to="/spell/knock">knock</Link>, <Link to="/spell/major_creation">major creation</Link>, <Link to="/spell/make_whole">make whole</Link>, <Link to="/spell/mending">mending</Link>, <Link to="/spell/minor_creation">minor creation</Link>, <Link to="/spell/move_earth">move earth</Link>, <Link to="/spell/passwall">passwall</Link>, <Link to="/spell/stone_shape">stone shape</Link>, <Link to="/spell/transmute_mud_to_rock">transmute mud to rock</Link>, <Link to="/spell/transmute_rock_to_mud">transmute rock to mud</Link>, and all 0- through 6th-level sorcerer/wizard spells of the <Link to="/main/spells_abjuration">abjuration school</Link>. She must still add such spells to her spellbook to prepare them.</Pair>
 <Pair title="Info">If a spell appears on both the magus and sorcerer/wizard spell lists, the magus uses the lower of the two spell levels listed for the spell.</Pair>
 <Pair title="Special">A deep marshal cannot cast spells from the enchantment, illusion, or necromancy school and she cannot activate spell completion or spell trigger magic items that use spells from those schools (without making a successful <Link to="/skill/use_magic_device">Use Magic Device</Link> check).</Pair>
 </Ability>
-<Ability id="bound-by-tradition" icon={["broken-shield"]}>
+<Ability id="bound-by-tradition" icon={["down"]}>
 <Pair single id="bound-by-tradition">Bound by Tradition</Pair>
 <Pair hl title="Alters">Arcane pool, spell combat, spellstrike</Pair>
 <Pair title="Info">A deep marshal is limited in how she can use her arcane powers. Her <em>arcane pool</em> has a number of points equal to 1/3 her magus level (minimum 1) + her Intelligence modifier. Furthermore, she cannot use her <em>arcane pool</em> to grant an enhancement bonus or weapon special ability to a weapon she is holding unless it is a <Link to="/eq-weapon/battleaxe">battleaxe</Link>, <Link to="/eq-weapon/heavy_pick">heavy pick</Link>, <Link to="/eq-weapon/warhammer">warhammer</Link>, or weapon with the word "dwarven" in its name. She can use her <em>spell combat</em> or <em>spellstrike</em> abilities only with such weapons.</Pair>
 </Ability>
-<Ability id="miners-focus-suex" icon={["upgrade"]}>
+<Ability id="miners-focus-suex" icon={["boost"]}>
 <Pair single id="miners-focus-suex">Miner's Focus (Su/Ex)</Pair>
 <Pair hl title="Replaces">Magus arcana gained at 3rd level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -296,41 +296,41 @@ const _deep_marshal = {title: "Deep Marshal", jsx: <><h2 id="arc-magus-deep_mars
 </>};
 const _eldritch_archer = {title: "Eldritch Archer", jsx: <><h2 id="arc-magus-eldritch_archer-eldritch-archer">Eldritch Archer</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 11</Link><br/>The eldritch archer rains magical attacks down on her foes from the city walls.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perception">Perception</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Use Magic Device</Pair></Ability>
-<Ability id="arcane-pool-su" icon={["stairs-goal","broken-shield"]}>
+<Ability id="arcane-pool-su" icon={["power","down"]}>
 <Pair single id="arcane-pool-su">Arcane Pool (Su)</Pair>
 <Pair hl title="Alters">Arcane pool</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Info">An eldritch archer's choices of weapon special abilities to apply with <em>arcane pool</em> include <Link to="/magic-enh/distance">distance</Link>, <Link to="/magic-enh/nimble_shot">nimble shot</Link>, and <Link to="/magic-enh/returning">returning</Link> but not dancing, keen, or vorpal.</Pair>
 </Ability>
-<Ability id="ranged-weapon-bond-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="ranged-weapon-bond-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="ranged-weapon-bond-ex">Ranged Weapon Bond (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An eldritch archer gains a <em>bonded object</em> as per the <Link to="/class/wizard">wizard's</Link> <em>arcane bonded object;</em> it must be a ranged weapon, and it can't be used to cast a spell once per day. Holding her bonded item does not prevent the eldritch archer from providing somatic components for her spells.</Pair>
 </Ability>
-<Ability id="bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="bonded-object" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="bonded-object" flavor="Text from the wizard class">Bonded Object</Pair>
 <Pair title="Ability"><p>If you select a bonded object, you begin play with one at no cost. These objects are always masterwork quality. Weapons acquired at 1st level are not made of any special material. If you attempt to cast a spell without your bonded object wielded, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level.</p>
 <p>You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>). The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.</p>
 <p>If a bonded object is damaged, it is restored to full hit points the next time you prepare your spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. You can designate an existing magic item as his bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.</p>
 </Pair>
 </Ability>
-<Ability id="ranged-spell-combat-ex" icon={["stairs-goal","bowman"]}>
+<Ability id="ranged-spell-combat-ex" icon={["power","ranged"]}>
 <Pair single id="ranged-spell-combat-ex">Ranged Spell Combat (Ex)</Pair>
 <Pair hl title="Alters">Spell combat</Pair>
 <Pair title="Ability">Instead of a light or one-handed melee weapon, an eldritch archer must use a ranged weapon for <em>spell combat.</em> She doesn't need a free hand for ranged <em>spell combat.</em> The eldritch archer cannot accept an attack penalty to gain a bonus on <Link to="/rule/concentration">concentration</Link> checks to cast a spell defensively.</Pair>
 </Ability>
-<Ability id="ranged-spellstrike-su" icon={["bowman","smoking-finger"]}>
+<Ability id="ranged-spellstrike-su" icon={["ranged","zap"]}>
 <Pair single id="ranged-spellstrike-su">Ranged Spellstrike (Su)</Pair>
 <Pair hl title="Alters">Spellstrike</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">Whenever an eldritch archer casts a spell that calls for a ranged attack, she can deliver the spell through a ranged weapon she wields as part of a ranged attack. Instead of the free ranged attack normally allowed to deliver the spell, an eldritch archer can make one free ranged attack with a ranged weapon (at her highest base attack bonus) as part of casting this spell. The attack does not increase the spell's range.</Pair>
 <Pair title="Special">If the spell can normally affect multiple targets, only a single missile, ray, or effect accompanies each attack; if the spell allows multiple attacks and the eldritch archer can make additional ranged attacks as part of a full-round action with <em>spell combat,</em> one additional ray, missile, or effect from the spell accompanies each subsequent ranged attack the eldritch archer makes in the same round until all attacks allowed by the spell are made. Unused missiles, rays, or effects remaining at the end of the eldritch archer's turn are wasted.</Pair>
 </Ability>
-<Ability id="focusing-spellstrike-su" icon={["magic-swirl"]}>
+<Ability id="focusing-spellstrike-su" icon={["magic"]}>
 <Pair single id="focusing-spellstrike-su">Focusing Spellstrike (Su)</Pair>
 <Pair hl title="Replaces">Counterstrike</Pair>
 <Pair title="Gained">At 16th Level</Pair>
@@ -339,20 +339,20 @@ const _eldritch_archer = {title: "Eldritch Archer", jsx: <><h2 id="arc-magus-eld
 </>};
 const _eldritch_scion = {title: "Eldritch Scion", jsx: <><h2 id="arc-magus-eldritch_scion-eldritch-scion">Eldritch Scion</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 104</Link><br/>Unlike typical magi, eldritch scions do not study tomes of magic or spend time learning to combine martial and magical skills. Rather, eldritch scions find that their spells and abilities come to them instinctively.</p>
-<Ability id="spells" icon={["magic-swirl"]}>
+<Ability id="spells" icon={["magic"]}>
 <Pair single id="spells">Spells</Pair>
 <Pair hl title="Replaces">Spells</Pair>
 <Pair title="Ability"><p>An eldritch scion casts arcane spells drawn from the magus spell list. He can cast any spell he knows without preparing it ahead of time. To learn or cast a spell, an eldritch scion must have a Charisma score equal to at least 10 + the spell's level. The DC for a saving throw against an eldritch scion's spell is 10 + the spell's level + the eldritch scion's Charisma modifier. An eldritch scion can cast only a certain number of spells of each spell level per day. His base daily spell allotment is the same as a bard of the same level. In addition, he receives bonus spells per day if he has a high Charisma score.</p>
 <p>An eldritch scion's selection of spells is limited. He has the same number of spells known as a bard of the same level, and can choose new spells to replace old ones at 5th level and every 3 class levels after that, just as a bard does. See the <Link to="/class/bard">bard</Link> for more information on swapping spells known.</p>
 </Pair>
 </Ability>
-<Ability id="bloodline" icon={["stairs-goal"]}>
+<Ability id="bloodline" icon={["power"]}>
 <Pair single id="bloodline">Bloodline</Pair>
 <Pair hl title="Replaces">Spell recall</Pair>
 <Pair title="Ability">An eldritch scion gains a <Link to="/ability/bloodrager_bloodlines">bloodrager bloodline</Link>. The bloodline is selected at 1st level, and this choice cannot be changed. An eldritch scion's effective bloodrager level for his bloodline abilities is equal to his eldritch scion level. He does not gain any bonus feats, and he gains bonus spells from his bloodline at different levels (see the <em>bonus spells</em> class feature below). To use any ability that normally functions when in a bloodrage, an eldritch scion must spend a point from his <em>eldritch pool</em> (see below).</Pair>
 <Pair title="Special">If an eldritch scion takes levels in another class that grant a bloodline, the bloodlines must be the same type, even if that means that the bloodline of one of the classes must change. Subject to GM discretion, an eldritch scion can change his former bloodline to make them conform.</Pair>
 </Ability>
-<Ability id="eldritch-pool-su" icon={["magic-swirl"]}>
+<Ability id="eldritch-pool-su" icon={["magic"]}>
 <Pair single id="eldritch-pool-su">Eldritch Pool (Su)</Pair>
 <Pair hl title="Replaces">Arcane pool</Pair>
 <Pair title="Ability"><p>An eldritch scion gains an <em>eldritch pool</em> of personal magical energy, equal to 1/2 his magus level (minimum 1) + his Charisma modifier. As a <strong className="hl">swift action</strong>, he can spend a point of eldritch energy to enter a state of mystical focus for 2 rounds. This allows him to use abilities from his bloodrager bloodline as though he were in a bloodrage, though he gains none of the other benefits or drawbacks of bloodraging.</p>
@@ -361,25 +361,25 @@ const _eldritch_scion = {title: "Eldritch Scion", jsx: <><h2 id="arc-magus-eldri
 <Pair title="At 4th Level">An eldritch scion can also use his <em>eldritch pool</em> as an <em>arcane pool,</em> gaining all the benefits listed with the magus's <em>arcane pool</em> class feature.</Pair>
 <Pair title="Special">Abilities that modify <em>arcane pool</em> also modify <em>eldritch pool.</em></Pair>
 </Ability>
-<Ability id="spell-combat-ex" icon={["broken-shield"]}>
+<Ability id="spell-combat-ex" icon={["down"]}>
 <Pair single id="spell-combat-ex">Spell Combat (Ex)</Pair>
 <Pair hl title="Alters">Spell combat</Pair>
 <Pair title="Ability">An eldritch scion can only use <em>spell combat</em> while in a state of mystic focus (see <em>eldritch pool,</em> above).</Pair>
 <Pair title="At 8th Level">An eldritch scion can use <em>spell combat</em> at any time.</Pair>
 </Ability>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">Knowledge pool</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">An eldritch scion gains the bonus spell from his bloodrager bloodline that is normally gained at 10th level.</Pair>
 </Ability>
-<Ability id="improved-spell-combat-ex" icon={["stairs-goal"]}>
+<Ability id="improved-spell-combat-ex" icon={["power"]}>
 <Pair single id="improved-spell-combat-ex">Improved Spell Combat (Ex)</Pair>
 <Pair hl title="Alters">Improved spell combat</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Ability">An eldritch scion gains the <em>improved spell combat</em> class feature.</Pair>
 </Ability>
-<Ability id="greater-spell-combat-ex" icon={["stairs-goal"]}>
+<Ability id="greater-spell-combat-ex" icon={["power"]}>
 <Pair single id="greater-spell-combat-ex">Greater Spell Combat (Ex)</Pair>
 <Pair hl title="Alters">Greater spell combat</Pair>
 <Pair title="Gained">At 18th Level</Pair>
@@ -388,26 +388,26 @@ const _eldritch_scion = {title: "Eldritch Scion", jsx: <><h2 id="arc-magus-eldri
 </>};
 const _elemental_knight = {title: "Elemental Knight", jsx: <><h2 id="arc-magus-elemental_knight-elemental-knight">Elemental Knight</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 203</Link><br/>Elemental knights are born with elemental energies surging through their blood and discover the secret of reconciling and focusing this primal power into the arcane. An elemental knight has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-magus-elemental_knight--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/suli">Suli</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="elemental-arcana-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-magus-elemental_knight--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/suli">Suli</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="elemental-arcana-su" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="elemental-arcana-su">Elemental Arcana (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">Elemental knights may select the following magus arcana available only to them.</Pair>
 </Ability>
-<Ability id="assault-synergy-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="assault-synergy-su" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="assault-synergy-su">Assault Synergy (Su)</Pair>
 <Pair title="Swift Action">The elemental knight can expend 1 round of duration from <em>elemental assault</em> to add +1d6 points of energy damage to an offensive spell he casts that round. The spell must have the acid, cold, electricity or fire descriptor. This extra energy damage matches the energy damage of the spell.</Pair>
 <Pair title="At 10th Level">He may expend 2 rounds instead of 1 to add +2d6 points of energy damage to the spell.</Pair>
 </Ability>
-<Ability id="energy-reflection-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="energy-reflection-su" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="energy-reflection-su">Energy Reflection (Su)</Pair>
 <Pair title="Prerequisites">12th-level magus</Pair>
 <Pair title="Ability">This functions like the <Link to="/arcana/reflection">reflection</Link> magus arcana, except it only works on spells that deal acid, cold, electricity, or fire damage. As long as the elemental knight spends at least 1 point from his <em>arcane pool</em> to activate this arcana, he may expend rounds of <em>elemental assault</em> as if they were <em>arcane pool</em> points. For example, the knight could spend 1 <em>arcane pool</em> point and 3 rounds of <em>elemental assault</em> to reflect a spell of 4th-level or lower.</Pair>
 </Ability>
-<Ability id="energy-resistance-boost-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="energy-resistance-boost-su" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="energy-resistance-boost-su">Energy Resistance Boost (Su)</Pair>
 <Pair title="Swift Action">The elemental knight can expend 1 point from his <em>arcane pool</em> or 1 round of <em>elemental assault</em> to increase all of his racial energy resistances by +5 for 1 round.</Pair>
 </Ability>
-<Ability id="elemental-matrix-su" icon={["stairs-goal"]}>
+<Ability id="elemental-matrix-su" icon={["power"]}>
 <Pair single id="elemental-matrix-su">Elemental Matrix (Su)</Pair>
 <Pair hl title="Replaces">Spell recall</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -418,29 +418,29 @@ const _elemental_knight = {title: "Elemental Knight", jsx: <><h2 id="arc-magus-e
 </>};
 const _esoteric = {title: "Esoteric", jsx: <><h2 id="arc-magus-esoteric-esoteric">Esoteric</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 120</Link><br/>Esoterics are drawn to the mysticism of the occult and spend their lives delving into forgotten texts and forbidden tomes. Each esoteric learns to inscribe his spells on his flesh in a complex series of occult symbols and arcane equations.</p>
-<Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["down"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Alters">Weapon and armor proficiency</Pair>
 <Pair title="Info">An esoteric is proficient with simple weapons only.</Pair>
 </Ability>
-<Ability id="diminished-spellcasting" icon={["broken-shield","magic-swirl"]}>
+<Ability id="diminished-spellcasting" icon={["down","magic"]}>
 <Pair single id="diminished-spellcasting">Diminished Spellcasting</Pair>
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Ability">An esoteric has one fewer spell slot of each level than a regular magus. If this reduces his number of spell slots of a particular level to zero, he can cast spells of that level only if his Intelligence allows <Link to="/rule/bonus_spells">bonus spells</Link> of that level.</Pair>
 </Ability>
-<Ability id="arcane-pool-su" icon={["mailed-fist"]}>
+<Ability id="arcane-pool-su" icon={["melee"]}>
 <Pair single id="arcane-pool-su">Arcane Pool (Su)</Pair>
 <Pair hl title="Alters">Arcane pool</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An esoteric can use his <em>arcane pool</em> to enhance his unarmed strikes as if they were manufactured weapons.</Pair>
 <Pair title="At 5th Level">He can use these bonuses to add any of the following weapon special abilities to his weapons or unarmed strikes: <Link to="/magic-enh/defending">defending</Link>, <Link to="/magic-enh/flaming">flaming</Link>, <Link to="/magic-enh/flaming_burst">flaming burst</Link>, <Link to="/magic-enh/frost">frost</Link>, <Link to="/magic-enh/icy_burst">icy burst</Link>, <Link to="/magic-enh/impact">impact</Link>, <Link to="/magic-enh/shock">shock</Link>, <Link to="/magic-enh/shocking_burst">shocking burst</Link>, <Link to="/magic-enh/speed">speed</Link>, or <Link to="/magic-enh/thundering">thundering</Link>.</Pair>
 </Ability>
-<Ability id="unarmed-strike" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="unarmed-strike" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="unarmed-strike">Unarmed Strike</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An esoteric gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat. He also treats his magus levels as <Link to="/class/monk">monk</Link> levels when determining the amount of damage he deals with his unarmed strikes.</Pair>
 </Ability>
-<Ability id="unarmed-strike" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="unarmed-strike" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="unarmed-strike" flavor="Relevant text from the monk class ability.">Unarmed Strike</Pair>
 <Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
 <Pair title="At 4th Level">Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.</Pair>
@@ -449,19 +449,19 @@ const _esoteric = {title: "Esoteric", jsx: <><h2 id="arc-magus-esoteric-esoteric
 <Pair title="At 16th Level">Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.</Pair>
 <Pair title="At 20th Level">Your unarmed strike now deals 2d8 (Small), 2d10 (Medium), or 4d8 (Large) damage.</Pair>
 </Ability>
-<Ability id="unarmed-spellstrike-su" icon={["broken-shield"]}>
+<Ability id="unarmed-spellstrike-su" icon={["down"]}>
 <Pair single id="unarmed-spellstrike-su">Unarmed Spellstrike (Su)</Pair>
 <Pair hl title="Alters">Spellstrike</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An esoteric gains the magus <em>spellstrike</em> class feature. However, an esoteric can deliver spells with <em>spellstrike</em> only with his unarmed strikes.</Pair>
 </Ability>
-<Ability id="ki-arcana-su" icon={["stairs-goal"]}>
+<Ability id="ki-arcana-su" icon={["power"]}>
 <Pair single id="ki-arcana-su">Ki Arcana (Su)</Pair>
 <Pair hl title="Replaces">Spell recall</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">An esoteric's <em>arcane pool</em> is also considered a <em>ki pool</em> for the purposes of meeting feat and ability requirements. Points from an esoteric's <em>arcane pool</em> can be used for abilities that normally require ki. If an esoteric gains a <em>ki pool,</em> he can use points from his <em>arcane pool</em> and <em>ki pool</em> interchangeably (though not special points such as <em>drunken ki</em>).</Pair>
 </Ability>
-<Ability id="tattooed-spell-sp" icon={["magic-swirl"]}>
+<Ability id="tattooed-spell-sp" icon={["magic"]}>
 <Pair single id="tattooed-spell-sp">Tattooed Spell (Sp)</Pair>
 <Pair hl title="Replaces">Bonus feats</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -470,14 +470,14 @@ const _esoteric = {title: "Esoteric", jsx: <><h2 id="arc-magus-esoteric-esoteric
 <Pair title="At 17th Level">He can tattoo a third spell following the restrictions above, except the spell can be of any level.</Pair>
 <Pair title="Special">The esoteric can prepare any tattooed spell without needing his spellbook. Additionally, he can cast each of his tattooed spells as a spell-like ability once per day. When the esoteric uses these spell-like abilities, the tattoo associated with the spell-like ability glows as <Link to="/spell/light">light</Link> for a number of rounds equal to the spell's level.</Pair>
 </Ability>
-<Ability id="ac-bonus-ex" icon={["armor-upgrade"]}>
+<Ability id="ac-bonus-ex" icon={["def"]}>
 <Pair single id="ac-bonus-ex">AC Bonus (Ex)</Pair>
 <Pair hl title="Replaces">Medium armor, heavy armor</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">When an esoteric wears light or no armor, he gains a +1 dodge bonus to AC and CMD. He loses these bonuses while immobilized or helpless, or while wearing medium or heavy armor, using a shield, or carrying a medium or heavy load.</Pair>
 <Pair title="At 13th Level">The bonus increases to +2.</Pair>
 </Ability>
-<Ability id="improved-tattooed-spell-sp" icon={["upgrade"]}>
+<Ability id="improved-tattooed-spell-sp" icon={["boost"]}>
 <Pair single id="improved-tattooed-spell-sp">Improved Tattooed Spell (Sp)</Pair>
 <Pair hl title="Replaces">Improved spell recall</Pair>
 <Pair title="Gained">At 11th Level</Pair>
@@ -486,17 +486,17 @@ const _esoteric = {title: "Esoteric", jsx: <><h2 id="arc-magus-esoteric-esoteric
 </>};
 const _fiend_flayer = {title: "Fiend Flayer", jsx: <><h2 id="arc-magus-fiend_flayer-fiend-flayer">Fiend Flayer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 170</Link><br/>Some tiefling magi can tap the dark energy of their fiendish blood to enhance their arcane and combat talents. By physically carving away their tainted flesh, they can use its dark energies to enhance their powers, call forth weapons from thin air, and bypass enemies' strongest defenses. A fiend flayer has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-magus-fiend_flayer--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/tiefling">Tiefling</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="infernal-mortification-su" icon={["stairs-goal","broken-shield"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-magus-fiend_flayer--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/tiefling">Tiefling</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="infernal-mortification-su" icon={["power","down"]}>
 <Pair single id="infernal-mortification-su">Infernal Mortification (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Standard Action">A fiend flayer can sacrifice some of his own infernal blood to add to his <em>arcane pool.</em> For every 2 points of <Link to="/rule/constitution_damage">Constitution damage</Link> the fiend flayer takes in this way, his <em>arcane pool</em> increases by 1 point. Any <em>arcane pool</em> points gained in this way and not spent disappear the next time the magus prepares his spells.</Pair>
 <Pair title="Special">Unlike normal ability score damage, this damage cannot be healed by way of <Link to="/spell/lesser_restoration">lesser restoration</Link>. Only time can heal the Constitution damage taken by way of <em>infernal mortification.</em> This ability cannot be used if the fiend flayer's Constitution damage is equal to or greater than 1/2 his Constitution score.</Pair>
 </Ability>
-<Ability id="magus-arcana" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="magus-arcana" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="magus-arcana">Magus Arcana</Pair>
 <Pair title="Ability">A fiend flayer gains access to the following magus arcana. He cannot select any arcana more than once.</Pair>
 </Ability>
-<Ability id="fiendblade-su" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="fiendblade-su" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="fiendblade-su">Fiendblade (Su)</Pair>
 <Pair title="Swift Action">As long as the fiend flayer used <em>infernal mortification</em> that day to increase his <em>arcane pool,</em> he can conjure forth a weapon using this arcana. Doing so costs 2 points from his <em>arcane pool.</em> The weapon can take the form of any single one-handed melee weapon the fiend flayer is proficient with. This weapon has a +1 enhancement bonus. This summoned weapon lasts for 1 minute.</Pair>
 <Pair title="At 5th Level">These bonuses can be used to add any of the following weapon properties to the <em>fiendblade:</em> <Link to="/magic-enh/anarchic">anarchic</Link>, <Link to="/magic-enh/axiomatic">axiomatic</Link>, <Link to="/magic-enh/dancing">dancing</Link>, <Link to="/magic-enh/flaming">flaming</Link>, <Link to="/magic-enh/flaming_burst">flaming burst</Link>, <Link to="/magic-enh/frost">frost</Link>, <Link to="/magic-enh/icy_burst">icy burst</Link>, <Link to="/magic-enh/keen">keen</Link>, <Link to="/magic-enh/shock">shock</Link>, <Link to="/magic-enh/shocking_burst">shocking burst</Link>, <Link to="/magic-enh/speed">speed</Link>, or <Link to="/magic-enh/unholy">unholy</Link>. These bonuses and properties are decided when the <em>arcane pool</em> points are spent and cannot be changed until the next time the fiend flayer uses this arcana.</Pair>
@@ -506,14 +506,14 @@ const _fiend_flayer = {title: "Fiend Flayer", jsx: <><h2 id="arc-magus-fiend_fla
 <Pair title="At 19th Level">The weapon's bonus increases to +5.</Pair>
 <Pair title="Special">Another creature cannot wield the <em>fiendblade;</em> if it leaves the hand of the fiend flayer, it dissipates in a wisp of red smoke that smells of burning blood. A fiend flayer can only have one <em>fiendblade</em> in existence at a time. If he uses this ability again, the first <em>fiendblade</em> disappears.</Pair>
 </Ability>
-<Ability id="bypassing-strike-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Ability id="bypassing-strike-su" extraClasses="subAbility" icon={["lower"]}>
 <Pair single id="bypassing-strike-su">Bypassing Strike (Su)</Pair>
 <Pair title="Swift Action">The fiend flayer can expend 1 point from his <em>arcane pool</em> to allow one melee or <em>spellstrike</em> attack he makes before the end of his turn to ignore an evil outsider target's damage reduction.</Pair>
 </Ability>
 </>};
 const _greensting_slayer = {title: "Greensting Slayer", jsx: <><h2 id="arc-magus-greensting_slayer-greensting-slayer">Greensting Slayer</h2>
 <p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion pg. 9</Link><br/>The blending of martial prowess with elven magic has long been a staple of the Blackash Training Grounds in Erages. More than a few who study at Erages Academy follow this path because of the promises of wealth that the city's criminal element makes toward practiced brawlers and smugglers. Greensting slayers have the following class features.</p>
-<Ability id="arcane-pool" icon={["stairs-goal","broken-shield"]}>
+<Ability id="arcane-pool" icon={["power","down"]}>
 <Pair single id="arcane-pool">Arcane Pool</Pair>
 <Pair hl title="Alters">Arcane pool</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -524,23 +524,23 @@ const _greensting_slayer = {title: "Greensting Slayer", jsx: <><h2 id="arc-magus
 <Pair title="At 17th Level">The amount of sneak attack damage increases to +5d6.</Pair>
 <Pair title="Special">If a greensting slayer gets a sneak attack from another source, the bonuses on damage stack. A greensting slayer cannot use his <em>arcane pool</em> to enhance his weapon.</Pair>
 </Ability>
-<Ability id="evasion-ex" icon={["armor-upgrade"]}>
+<Ability id="evasion-ex" icon={["def"]}>
 <Pair single id="evasion-ex">Evasion (Ex)</Pair>
 <Pair hl title="Replaces">Medium armor</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">The greensting slayer gains <Link to="/ability/evasion">evasion</Link>, as the rogue class feature.</Pair>
 </Ability>
-<Ability id="improved-evasion-ex" icon={["armor-upgrade"]}>
+<Ability id="improved-evasion-ex" icon={["def"]}>
 <Pair single id="improved-evasion-ex">Improved Evasion (Ex)</Pair>
 <Pair hl title="Replaces">Heavy armor</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Passive Ability">The greensting slayer gains <Link to="/talent/improved_evasion">improved evasion</Link>, as the advanced rogue talent of the same name.</Pair>
 </Ability>
-<Ability id="magus-arcana" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="magus-arcana" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="magus-arcana">Magus Arcana</Pair>
 <Pair title="Info">In addition to the new magus arcana presented below, the following magus arcana complement the greensting slayer archetype: <Link to="/arcana/close_range">close range</Link>, <Link to="/arcana/hasted_assault">hasted assault</Link>, <Link to="/arcana/maneuver_mastery">maneuver mastery</Link>, <Link to="/arcana/pool_strike">pool strike</Link>, and <Link to="/arcana/silent_magic">silent magic</Link>.</Pair>
 </Ability>
-<Ability id="dark-shifter-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="dark-shifter-su" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="dark-shifter-su">Dark Shifter (Su)</Pair>
 <Pair title="Prerequisites">6th-level magus</Pair>
 <Pair title="Move-Equivalent Action">The magus can expend 1 point from his <em>arcane pool</em> to change the target of an ongoing spell effect with the <Link to="/spelldef/darkness">darkness</Link> descriptor within 60 feet. The new target must be within the spell's range, using the magus's level as the effective caster level for the purpose of determining the maximum range the effect can be moved from the magus.</Pair>
@@ -549,28 +549,28 @@ const _greensting_slayer = {title: "Greensting Slayer", jsx: <><h2 id="arc-magus
 </>};
 const _hexbreaker = {title: "Hexbreaker", jsx: <><h2 id="arc-magus-hexbreaker-hexbreaker">Hexbreaker</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven pg. 27</Link><br/>Hexbreakers - sometimes called witch-hammers for their proclivity toward warhammers - have borne witness to the damage of unrestrained arcane power and hone their own arcane arts to battle such abuse. They train themselves to shatter the curses and dark transformations that can haunt others for a lifetime.</p>
-<Ability id="repel-curse-su" icon={["shield-reflect","spell-book"]}>
+<Ability id="repel-curse-su" icon={["protect","learn"]}>
 <Pair single id="repel-curse-su" flavor="A hexbreaker has the chance to protect others from being cursed.">Repel Curse (Su)</Pair>
 <Pair hl title="Replaces">Spell recall</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Immediate Action">When a spell with the curse descriptor or a curse-style effect (such as a witch's <Link to="/hex/evil_eye">evil eye</Link> or <Link to="/hex/misfortune">misfortune</Link> hex or a <Link to="/monster/sea_hag">sea hag's</Link> evil eye) targets a creature within 30 feet of him, a hexbreaker can spend 1 point from his <em>arcane pool</em> to attempt to dispel that effect, as if he had cast <Link to="/spell/remove_curse">remove curse</Link>. This ability has no effect on ongoing effects, such as a sea hag's horrific appearance or a <Link to="/monster/pugwampi">pugwampi's</Link> unluck aura.</Pair>
 <Pair title="Ability">The magus adds <em>remove curse</em> to his spell list as a 3rd-level spell and adds <Link to="/spell/break_enchantment">break enchantment</Link> as a 4th-level spell.</Pair>
 </Ability>
-<Ability id="counter-curse-su" icon={["shield-reflect"]}>
+<Ability id="counter-curse-su" icon={["protect"]}>
 <Pair single id="counter-curse-su">Counter Curse (Su)</Pair>
 <Pair hl title="Replaces">Improved spell recall</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">Whenever a hexbreaker successfully dispels a curse effect or spell with the curse descriptor using his <em>repel curse</em> ability, he can immediately spend 2 points from his <em>arcane pool</em> to reflect the spell back on the original caster. This otherwise functions as <Link to="/spell/spell_turning">spell turning</Link>.</Pair>
 </Ability>
-<Ability id="hexbreaker-arcana" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="hexbreaker-arcana" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="hexbreaker-arcana">Hexbreaker Arcana</Pair>
 <Pair title="Info">A hexbreaker can select from the following arcana in addition to those normally available.</Pair>
 </Ability>
-<Ability id="improved-remove-curse-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="improved-remove-curse-su" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="improved-remove-curse-su">Improved Remove Curse (Su)</Pair>
 <Pair title="Ability">The hexbreaker can spend additional points from his <em>arcane pool</em> to improve his ability to remove a curse. Each point spent while casting <em>remove curse</em> or <em>break enchantment</em> grants a +2 bonus to his caster level check. He can use this arcana after rolling the caster level check, but only before the results are revealed. This can be used with the hexbreaker's <em>repel curse</em> and <em>counter curse</em> abilities.</Pair>
 </Ability>
-<Ability id="wracking-dispel-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="wracking-dispel-su" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="wracking-dispel-su">Wracking Dispel (Su)</Pair>
 <Pair title="Ability">Whenever the hexbreaker successfully dispels a spell using <em>break enchantment,</em> <Link to="/spell/dispel_magic">dispel magic</Link>, or <em>remove curse,</em> he can expend 1 point from his <em>arcane pool</em> to wrack the original caster with pain, dealing 1d4 points of damage per spell level of the effect dispelled. If the target succeeds at a Will save (DC = 15 + the level of the spell dispelled + the hexbreaker's Intelligence modifier) it takes only 1 point of damage per spell level. The hexbreaker cannot target the same caster more than once per round with this ability, regardless of how many effects he dispels.</Pair>
 </Ability>
@@ -578,24 +578,24 @@ const _hexbreaker = {title: "Hexbreaker", jsx: <><h2 id="arc-magus-hexbreaker-he
 </>};
 const _hexcrafter = {title: "Hexcrafter", jsx: <><h2 id="arc-magus-hexcrafter-hexcrafter">Hexcrafter</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 48</Link><br/>A hexcrafter magus has uncovered the secret of using his <em>arcane pool</em> to recreate <Link to="/class/witch">witch</Link> hexes. These magi can hex friend and foe, curse those they strike, and expand their spell selection to include many curses and harmful spells.</p>
-<Ability id="hex-magus-su" icon={["stairs-goal"]}>
+<Ability id="hex-magus-su" icon={["power"]}>
 <Pair single id="hex-magus-su">Hex Magus (Su)</Pair>
 <Pair hl title="Replaces">Spell recall</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">The hexcrafter magus gains access to a small number of witch <Link to="/ability/hexes">hexes</Link>. The hexcrafter magus picks one hex from the witch's <em>hex</em> class feature. He gains the benefit of or uses that hex as if he were a witch of a level equal to his magus level.</Pair>
 </Ability>
-<Ability id="hex-arcana" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="hex-arcana" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="hex-arcana">Hex Arcana</Pair>
 <Pair title="Ability">A hexcrafter gains access to the following magus arcana, or may select any witch hex in place of a magus arcana.</Pair>
 <Pair title="At 12th Level">The hexcrafter may select a hex or <Link to="/ability/major_hexes">major hex</Link> in place of a magus arcana.</Pair>
 <Pair title="At 18th Level">A hexcrafter can select a hex, major hex, or <Link to="/ability/grand_hexes">grand hex</Link> in place of a magus arcana.</Pair>
 <Pair title="Special">He cannot select any hex or arcana more than once.</Pair>
 </Ability>
-<Ability id="accursed-strike-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="accursed-strike-sp" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="accursed-strike-sp">Accursed Strike (Sp)</Pair>
 <Pair title="Ability">A hexcrafter magus who can cast <Link to="/spell/bestow_curse">bestow curse</Link>, <Link to="/spell/major_curse">major curse</Link>, or any spell with the <Link to="/spelldef/curse">curse</Link> descriptor can deliver these prepared spells using the <em>spellstrike</em> ability, even if the spells are not touch attack spells.</Pair>
 </Ability>
-<Ability id="spells" icon={["spell-book"]}>
+<Ability id="spells" icon={["learn"]}>
 <Pair single id="spells">Spells</Pair>
 <Pair title="Info">A hexcrafter magus adds the following spells to his magus spell list: <em>bestow curse, major curse,</em> and all other spells of 6th level or lower that have the curse descriptor.</Pair>
 </Ability>
@@ -603,32 +603,32 @@ const _hexcrafter = {title: "Hexcrafter", jsx: <><h2 id="arc-magus-hexcrafter-he
 </>};
 const _iron_ring_striker = {title: "Iron-Ring Striker", jsx: <><h2 id="arc-magus-iron_ring_striker-iron-ring-striker">Iron-Ring Striker</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 5</Link><br/>Practitioners of this martial art, powered by arcane magic, wear an iron ring on the finger of one hand. This legacy has been handed down from the tradition's Vudrani founders.</p>
-<Ability id="weapon-proficiency" icon={["broken-shield"]}>
+<Ability id="weapon-proficiency" icon={["down"]}>
 <Pair single id="weapon-proficiency">Weapon Proficiency</Pair>
 <Pair hl title="Alters">Weapon proficiency</Pair>
 <Pair title="Info">An iron-ring striker is not proficient with martial weapons.</Pair>
 </Ability>
-<Ability id="diminished-spellcasting" icon={["broken-shield"]}>
+<Ability id="diminished-spellcasting" icon={["down"]}>
 <Pair single id="diminished-spellcasting">Diminished Spellcasting</Pair>
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Ability">An iron-ring striker has one fewer spell slot of each level than a regular magus. If this reduces his number of spell slots of a particular level to 0, he can cast spells of that level only if his Intelligence allows <Link to="/rule/bonus_spells">bonus spells</Link> of that level.</Pair>
 </Ability>
-<Ability id="arcane-pool-su" icon={["mailed-fist"]}>
+<Ability id="arcane-pool-su" icon={["melee"]}>
 <Pair single id="arcane-pool-su">Arcane Pool (Su)</Pair>
 <Pair hl title="Alters">Arcane pool</Pair>
 <Pair title="Ability">An iron-ring striker can use his <em>arcane pool</em> to enhance his unarmed strikes as if they were manufactured weapons.</Pair>
 <Pair title="At 5th Level">He can use these bonuses to add any of the following weapon special abilities to his weapons or unarmed strikes: <Link to="/magic-enh/advancing">advancing</Link>, <Link to="/magic-enh/cruel">cruel</Link>, <Link to="/magic-enh/defending">defending</Link>, <Link to="/magic-enh/guardian">guardian</Link>, <Link to="/magic-enh/impact">impact</Link>, <Link to="/magic-enh/invigorating">invigorating</Link>, <Link to="/magic-enh/mimetic">mimetic</Link>, <Link to="/magic-enh/negating">negating</Link>, <Link to="/magic-enh/speed">speed</Link>, and <Link to="/magic-enh/vicious">vicious</Link>.</Pair>
 </Ability>
-<Ability id="unarmed-spellstrike-su" icon={["broken-shield"]}>
+<Ability id="unarmed-spellstrike-su" icon={["down"]}>
 <Pair single id="unarmed-spellstrike-su">Unarmed Spellstrike (Su)</Pair>
 <Pair hl title="Alters">Spellstrike</Pair>
 <Pair title="Ability">An iron-ring striker gains the magus <em>spellstrike</em> class feature. However, an iron-ring striker can deliver spells with <em>spellstrike</em> with only unarmed strikes.</Pair>
 </Ability>
-<Ability id="unarmed-strike" extraClasses="hasSubs" icon={["stairs-goal","mailed-fist"]}>
+<Ability id="unarmed-strike" extraClasses="hasSubs" icon={["power","melee"]}>
 <Pair single id="unarmed-strike">Unarmed Strike</Pair>
 <Pair title="Ability">An iron-ring striker gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat. He deals unarmed strike damage as per a <Link to="/class/monk">monk</Link> of his level. For the purpose of determining damage, these levels stack with levels from any other class that grants increased damage to unarmed strikes.</Pair>
 </Ability>
-<Ability id="unarmed-strike" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="unarmed-strike" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="unarmed-strike" flavor="Relevant text from the monk class ability.">Unarmed Strike</Pair>
 <Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
 <Pair title="At 4th Level">Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.</Pair>
@@ -637,25 +637,25 @@ const _iron_ring_striker = {title: "Iron-Ring Striker", jsx: <><h2 id="arc-magus
 <Pair title="At 16th Level">Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.</Pair>
 <Pair title="At 20th Level">Your unarmed strike now deals 2d8 (Small), 2d10 (Medium), or 4d8 (Large) damage.</Pair>
 </Ability>
-<Ability id="bonus-feat" icon={["broken-shield"]}>
+<Ability id="bonus-feat" icon={["down"]}>
 <Pair single id="bonus-feat">Bonus Feat</Pair>
 <Pair hl title="Alters">5th-level bonus feat</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">An iron-ring striker must select his bonus feat from this list: <Link to="/feat/improved_bull_rush">Improved Bull Rush</Link>, <Link to="/feat/improved_disarm">Improved Disarm</Link>, <Link to="/feat/improved_sunder">Improved Sunder</Link>, or <Link to="/feat/improved_trip">Improved Trip</Link>. He doesn't need to meet the prerequisites normally required for these feats.</Pair>
 </Ability>
-<Ability id="empower-combat-su" icon={["upgrade"]}>
+<Ability id="empower-combat-su" icon={["boost"]}>
 <Pair single id="empower-combat-su" flavor="An iron-ring striker learns to use magic to grant himself the power of a larger creature.">Empower Combat (Su)</Pair>
 <Pair hl title="Replaces">Medium armor, heavy armor</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Standard Action">He can expend one non-cantrip prepared magus spell to treat his size as if it were larger for the purposes of determining the <Link to="/rule/combat_maneuvers">size modifier to his CMB and CMD</Link>, as well as which creatures he can affect with combat maneuvers. For every level of the spell he sacrifices, his effective size increases by one step, up to a maximum of Colossal. For every two effective size increments he increases, he gains a +2 size bonus to Strength, to a maximum of +6. This does not change the iron-ring striker's actual size. This effect lasts for 1 minute per level of the spell sacrificed.</Pair>
 </Ability>
-<Ability id="spell-maneuvers-su" icon={["mailed-fist"]}>
+<Ability id="spell-maneuvers-su" icon={["melee"]}>
 <Pair single id="spell-maneuvers-su">Spell Maneuvers (Su)</Pair>
 <Pair hl title="Replaces">Knowledge pool</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">As long as an iron-ring striker is wearing light armor or no armor, he can use his <em>unarmed spellstrike</em> ability as part of a combat maneuver check to <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/disarm">disarm</Link>, <Link to="/rule/sunder">sunder</Link>, or <Link to="/rule/trip">trip</Link> an opponent.</Pair>
 </Ability>
-<Ability id="reflexive-spell-maneuver-ex" icon={["armor-upgrade","magic-swirl"]}>
+<Ability id="reflexive-spell-maneuver-ex" icon={["def","magic"]}>
 <Pair single id="reflexive-spell-maneuver-ex">Reflexive Spell Maneuver (Ex)</Pair>
 <Pair hl title="Replaces">Counterstrike</Pair>
 <Pair title="Gained">At 16th Level</Pair>
@@ -665,12 +665,12 @@ const _iron_ring_striker = {title: "Iron-Ring Striker", jsx: <><h2 id="arc-magus
 </>};
 const _jistkan_artificer = {title: "Jistkan Artificer", jsx: <><h2 id="arc-magus-jistkan_artificer-jistkan-artificer">Jistkan Artificer</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 17</Link><br/>As part of studying the secret methods the original Jistkan artificers used to build golems, these magi graft construct parts onto their own arms.</p>
-<Ability id="diminished-spellcasting" icon={["broken-shield"]}>
+<Ability id="diminished-spellcasting" icon={["down"]}>
 <Pair single id="diminished-spellcasting">Diminished Spellcasting</Pair>
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Info">A Jistkan artificer has one fewer spell slot of each level than a regular magus. If this reduces his number of spell slots of a particular level to zero, he can cast spells of that level only if his Intelligence allows <Link to="/rule/bonus_spells">bonus spells</Link> of that level.</Pair>
 </Ability>
-<Ability id="golem-arm-ex" extraClasses="hasSubs" icon={["mailed-fist","upgrade"]}>
+<Ability id="golem-arm-ex" extraClasses="hasSubs" icon={["melee","boost"]}>
 <Pair single id="golem-arm-ex">Golem Arm (Ex)</Pair>
 <Pair hl title="Alters">Arcane pool</Pair>
 <Pair title="Ability">A Jistkan artificer begins play with a <em>golem arm</em> grafted in place of one of his arms. The <em>golem arm</em> is a <Link to="/rule/masterwork_w">masterwork weapon</Link> that is treated as an unarmed strike and deals damage as if he were a <Link to="/class/monk">monk</Link> 2 levels lower than his class level (minimum 1st level). The <em>golem arm</em> is made from basic parts and mundane materials that grant no additional benefits. A Jistkan artificer can recreate his <em>golem arm</em> from other materials by spending 1 day and paying an additional +50% of the normal cost of the special material used in the creation of this new <em>golem arm.</em> For the purposes of determining the weapon type and weight for special materials, the <em>golem arm</em> is treated as a <Link to="/eq-weapon/heavy_mace">heavy mace</Link>.</Pair>
@@ -679,7 +679,7 @@ const _jistkan_artificer = {title: "Jistkan Artificer", jsx: <><h2 id="arc-magus
 <Pair title="At 11th Level">He he gains access to the following special abilities: <Link to="/magic-enh/brilliant_energy">brilliant energy</Link> and <Link to="/magic-enh/speed">speed</Link>.</Pair>
 <Pair title="Special">If a Jistkan artificer recreates his <em>golem arm,</em> any previously used special materials are destroyed. The arm gains no benefits from items that enhance unarmed strikes, such as an <Link to="/magic-wondrous/amulet_of_mighty_fists">amulet of mighty fists</Link>.</Pair>
 </Ability>
-<Ability id="unarmed-strike" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="unarmed-strike" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="unarmed-strike" flavor="Relevant text from the monk class ability.">Unarmed Strike</Pair>
 <Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
 <Pair title="At 4th Level">Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.</Pair>
@@ -687,13 +687,13 @@ const _jistkan_artificer = {title: "Jistkan Artificer", jsx: <><h2 id="arc-magus
 <Pair title="At 12th Level">Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.</Pair>
 <Pair title="At 16th Level">Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.</Pair>
 </Ability>
-<Ability id="improved-unarmed-strike" icon={["stairs-goal","broken-shield"]}>
+<Ability id="improved-unarmed-strike" icon={["power","down"]}>
 <Pair single id="improved-unarmed-strike">Improved Unarmed Strike</Pair>
 <Pair hl title="Alters">Cantrips</Pair>
 <Pair title="Ability">A Jistkan artificer gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat.</Pair>
 <Pair title="Special">He prepares one fewer cantrip per day than normal.</Pair>
 </Ability>
-<Ability id="empowered-arm-ex" icon={["upgrade"]}>
+<Ability id="empowered-arm-ex" icon={["boost"]}>
 <Pair single id="empowered-arm-ex">Empowered Arm (Ex)</Pair>
 <Pair hl title="Replaces">The magus arcana gained at 3rd level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -703,78 +703,78 @@ const _jistkan_artificer = {title: "Jistkan Artificer", jsx: <><h2 id="arc-magus
 <Pair title="At 15th Level">This bonus becomes +4.</Pair>
 <Pair title="At 19th Level">This bonus increases to +5.</Pair>
 </Ability>
-<Ability id="unarmed-spellstrike-su" icon={["broken-shield"]}>
+<Ability id="unarmed-spellstrike-su" icon={["down"]}>
 <Pair single id="unarmed-spellstrike-su">Unarmed Spellstrike (Su)</Pair>
 <Pair hl title="Alters">Spellstrike</Pair>
 <Pair title="Info">A Jistkan artificer can use <em>spellstrike</em> to deliver spells only when attacking with his unarmed strikes.</Pair>
 </Ability>
-<Ability id="magus-arcana" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="magus-arcana" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="magus-arcana">Magus Arcana</Pair>
 <Pair title="Ability">A Jistkan artificer gains access to the following arcana in addition to those normally available to the magus. He cannot select any arcana more than once.</Pair>
 </Ability>
-<Ability id="break-spell-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="break-spell-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="break-spell-ex">Break Spell (Ex)</Pair>
 <Pair title="Prerequisites">13th-level magus and the <em>shielding arm</em> magus arcana.</Pair>
 <Pair title="Ability">A Jistkan artificer can use his arm to disrupt spells targeted at him. When a ranged attack generated by a spell effect targets the Jistkan artificer, he can spend a point from his <em>arcane pool</em> to attempt a melee attack roll as an attack of opportunity. If the result is greater than the total attack roll of the ranged attack, the attack is negated. Spell effects that do not require attack rolls cannot be deflected.</Pair>
 </Ability>
-<Ability id="flurrying-arm-ex" extraClasses="subAbility" icon={["stairs-goal","mailed-fist"]}>
+<Ability id="flurrying-arm-ex" extraClasses="subAbility" icon={["power","melee"]}>
 <Pair single id="flurrying-arm-ex">Flurrying Arm (Ex)</Pair>
 <Pair title="Prerequisites">11th-level magus</Pair>
 <Pair title="Ability">A Jistkan artificer can improve his <em>golem arm</em> to attack faster. He gains the flurry of blows monk class ability, treating his class level as his monk level. A Jistkan artificer makes only one additional attack when he uses flurry of blows.</Pair>
 </Ability>
-<Ability id="sharpened-arm-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="sharpened-arm-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="sharpened-arm-ex">Sharpened Arm (Ex)</Pair>
 <Pair title="Ability">A Jistkan artificer can rework his arm to more closely resemble a blade. He can choose to deal piercing or slashing damage with his <em>golem arm.</em> When he does so, the <em>golem arm</em> threatens a critical hit on 19-20. The artificer also adds <Link to="/magic-enh/keen">keen</Link> and <Link to="/magic-enh/wounding">wounding</Link> to his list of <em>arcane pool</em> weapon abilities.</Pair>
 </Ability>
-<Ability id="shielding-arm-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="shielding-arm-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="shielding-arm-ex">Shielding Arm (Ex)</Pair>
 <Pair title="Passive Ability">A Jistkan artificer learns to deflect blows with his arm. If he is not wielding any other weapons, he gains a shield bonus to his AC equal to his <em>golem arm's</em> enhancement bonus.</Pair>
 </Ability>
 </>};
 const _kapenia_dancer = {title: "Kapenia Dancer", jsx: <><h2 id="arc-magus-kapenia_dancer-kapenia-dancer">Kapenia Dancer</h2>
 <p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends pg. 10</Link><br/>For some Varisians, their traditional dances pulse with the power of their ancestors. These dancers incorporate their kapenias - scarves embroidered with the history of the bearer's clan - into their dances, weaving deadly whirling steps with the power of their ancestors.</p>
-<Ability id="weapon-and-armor-proficiency" icon={["stairs-goal","broken-shield"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["power","down"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Info">A kapenia dancer is proficient in simple weapons and <Link to="/eq-weapon/bladed_scarves">bladed scarves</Link>. Additionally, a kapenia dancer can wield a bladed scarf as a one-handed melee weapon. A kapenia dancer is not proficient with armor or shields and suffers the normal arcane spell failure chance when casting magus spells while armored.</Pair>
 </Ability>
-<Ability id="diminished-spellcasting" icon={["broken-shield"]}>
+<Ability id="diminished-spellcasting" icon={["down"]}>
 <Pair single id="diminished-spellcasting">Diminished Spellcasting</Pair>
 <Pair title="Info">A kapenia dancer can cast one fewer spell of each level than normal. If this reduces the number to 0, he can cast spells of that level only if his Intelligence allows <Link to="/rule/bonus_spells">bonus spells</Link> of that level.</Pair>
 </Ability>
-<Ability id="canny-defense-ex" extraClasses="hasSubs" icon={["armor-upgrade"]}>
+<Ability id="canny-defense-ex" extraClasses="hasSubs" icon={["def"]}>
 <Pair single id="canny-defense-ex">Canny Defense (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">When a kapenia dancer is wielding a bladed scarf, he gains the <em>canny defense</em> ability. This is identical to the <Link to="/pclass/duelist">duelist prestige class</Link> ability of the same name, save that his magus level (rather than his duelist level) affects his Armor Class.</Pair>
 </Ability>
-<Ability id="from-the-duelist-class" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="from-the-duelist-class" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="from-the-duelist-class">From the Duelist class</Pair>
 <Pair title="Passive Ability">When wearing light or no armor and not using a shield, a duelist adds 1 point of Intelligence bonus (if any) per duelist class level as a dodge bonus to her Armor Class while wielding a melee weapon. If a duelist is caught <Link to="/rule/flat_footed">flat-footed</Link> or otherwise denied her Dexterity bonus, she also loses this bonus.</Pair>
 </Ability>
-<Ability id="weapon-focus-ex" icon={["stairs-goal"]}>
+<Ability id="weapon-focus-ex" icon={["power"]}>
 <Pair single id="weapon-focus-ex">Weapon Focus (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A kapenia dancer gains <Link to="/feat/weapon_focus">Weapon Focus</Link> (bladed scarf) as a bonus feat.</Pair>
 </Ability>
-<Ability id="kapenia-dancer-arcana" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="kapenia-dancer-arcana" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="kapenia-dancer-arcana">Kapenia Dancer Arcana</Pair>
 <Pair title="Ability">A kapenia dancer gains access to the following magus arcana. He cannot select any arcana more than once.</Pair>
 </Ability>
-<Ability id="elasticity-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="elasticity-su" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="elasticity-su">Elasticity (Su)</Pair>
 <Pair title="Free Action">The kapenia dancer can spend 1 point from his <em>arcane pool</em> in order to grant a bladed scarf he's wielding reach until the end of his turn. A kapenia dancer can use this arcana in tandem with other magus arcana.</Pair>
 </Ability>
-<Ability id="kapenia-curse-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Ability id="kapenia-curse-su" extraClasses="subAbility" icon={["lower"]}>
 <Pair single id="kapenia-curse-su">Kapenia Curse (Su)</Pair>
 <Pair title="Prerequisites">9th-level magus</Pair>
 <Pair title="Choice">Choose an ability score upon taking this arcana.</Pair>
 <Pair title="Ability">Whenever the kapenia dancer scores a critical hit with a bladed scarf, he may expend 1 point from his <em>arcane pool</em> to deal 1d4 points of <Link to="/rule/ability_damage">damage</Link> to that ability score of the creature struck.</Pair>
 <Pair title="Special">This arcana can be selected multiple times, but a different ability score must be chosen each time.</Pair>
 </Ability>
-<Ability id="spirit-fingers-su" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="spirit-fingers-su" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="spirit-fingers-su">Spirit Fingers (Su)</Pair>
 <Pair title="Swift Action">Whenever the kapenia dancer scores a hit with a melee weapon, he can spend 1 point from his <em>arcane pool</em> to immediately attempt a <Link to="/rule/steal">steal</Link> combat maneuver.</Pair>
 </Ability>
-<Ability id="spirit-step-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="spirit-step-su" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="spirit-step-su">Spirit Step (Su)</Pair>
 <Pair title="Prerequisites">12th-level magus</Pair>
 <Pair title="Ability">Whenever the kapenia dancer scores a critical hit with a bladed scarf, he may expend 1 point from his <em>arcane pool</em> to teleport to any point within 30 feet. The kapenia dancer's turn ends after being teleported.</Pair>
@@ -783,73 +783,73 @@ const _kapenia_dancer = {title: "Kapenia Dancer", jsx: <><h2 id="arc-magus-kapen
 </>};
 const _kensai = {title: "Kensai", jsx: <><h2 id="arc-magus-kensai-kensai">Kensai</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 55</Link>, <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 11</Link><br/>A kensai spends his life focusing his training and meditation into a rapturous perfection of the use of a single weapon, which is usually but not always a sword, channeling his arcane might through it in a dizzying and deadly dance beyond the abilities of even the greatest of mundane warriors.</p>
-<Ability id="weapon-and-armor-proficiency" icon={["stairs-goal","broken-shield"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["power","down"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Info">A kensai is proficient in simple weapons and in a single martial or exotic melee weapon of his choice. A kensai is not proficient with armor or shields and suffers normal arcane spell failure chance when casting magus spells while armored.</Pair>
 </Ability>
-<Ability id="diminished-spellcasting" icon={["broken-shield"]}>
+<Ability id="diminished-spellcasting" icon={["down"]}>
 <Pair single id="diminished-spellcasting">Diminished Spellcasting</Pair>
 <Pair title="Info">A kensai may cast one fewer spell of each level than normal. If this reduces the number to 0, he may cast spells of that level only if his Intelligence allows <Link to="/rule/bonus_spells">bonus spells</Link> of that level.</Pair>
 </Ability>
-<Ability id="canny-defense-ex" extraClasses="hasSubs" icon={["armor-upgrade"]}>
+<Ability id="canny-defense-ex" extraClasses="hasSubs" icon={["def"]}>
 <Pair single id="canny-defense-ex">Canny Defense (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">When a kensai is wielding his chosen weapon, he gains the <em>canny defense</em> ability. This is identical to the <Link to="/pclass/duelist">duelist prestige class</Link> ability of the same name, save that his chosen weapon may be of any type</Pair>
 </Ability>
-<Ability id="from-the-duelist-class" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="from-the-duelist-class" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="from-the-duelist-class">From the Duelist class</Pair>
 <Pair title="Passive Ability">When wearing light or no armor and not using a shield, a duelist adds 1 point of Intelligence bonus (if any) per duelist class level as a dodge bonus to her Armor Class while wielding a melee weapon. If a duelist is caught <Link to="/rule/flat_footed">flat-footed</Link> or otherwise denied her Dexterity bonus, she also loses this bonus.</Pair>
 </Ability>
-<Ability id="weapon-focus-ex" icon={["stairs-goal"]}>
+<Ability id="weapon-focus-ex" icon={["power"]}>
 <Pair single id="weapon-focus-ex">Weapon Focus (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A kensai gains either <Link to="/feat/weapon_focus">Weapon Focus</Link> or <Link to="/feat/modified_weapon_proficiency">Modified Weapon Proficiency</Link> with his chosen weapon as a bonus feat.</Pair>
 </Ability>
-<Ability id="perfect-strike-ex" icon={["mailed-fist","upgrade"]}>
+<Ability id="perfect-strike-ex" icon={["melee","boost"]}>
 <Pair single id="perfect-strike-ex">Perfect Strike (Ex)</Pair>
 <Pair hl title="Replaces">Spell recall</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">When a kensai hits with his chosen weapon, he can spend 1 point from his <em>arcane pool</em> in order to maximize his weapon damage. Don't roll for damage: the weapon deals maximum damage. This affects only the weapon's base damage dice, not additional damage from <Link to="/ability/sneak_attack">sneak attack</Link>, magical weapon properties, <em>spellstrike,</em> or critical hits.</Pair>
 <Pair title="Special">If the kensai confirms a critical hit, he can instead spend 2 points from his <em>arcane pool</em> to increase his weapon's critical multiplier by 1.</Pair>
 </Ability>
-<Ability id="fighter-training-ex" icon={["stairs-goal"]}>
+<Ability id="fighter-training-ex" icon={["power"]}>
 <Pair single id="fighter-training-ex">Fighter Training (Ex)</Pair>
 <Pair hl title="Replaces">Knowledge pool</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">A kensai counts his magus level - 3 as his fighter level for the purpose of qualifying for feats (if he has levels in fighter, these levels stack), but forfeits the benefit of such feats with weapons other than his favored weapon.</Pair>
 </Ability>
-<Ability id="iaijutsu-ex" icon={["upgrade"]}>
+<Ability id="iaijutsu-ex" icon={["boost"]}>
 <Pair single id="iaijutsu-ex">Iaijutsu (Ex)</Pair>
 <Pair hl title="Replaces">Medium armor</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">A kensai applies his Intelligence modifier as well as his Dexterity modifier on initiative rolls (minimum 0).</Pair>
 <Pair title="Ability">A kensai may make attacks of opportunity when flat-footed, and may draw his favored weapon as a <strong className="hl">free action</strong> as part of taking an attack of opportunity.</Pair>
 </Ability>
-<Ability id="critical-perfection-ex" icon={["upgrade","stairs-goal"]}>
+<Ability id="critical-perfection-ex" icon={["boost","power"]}>
 <Pair single id="critical-perfection-ex">Critical Perfection (Ex)</Pair>
 <Pair hl title="Replaces">Magus arcana gained at 9th level</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Ability">A kensai adds his Intelligence bonus (minimum 0) on critical hit confirmation rolls with his favored weapon. In addition, the kensai may use his magus levels in place of his base attack bonuses to qualify for <Link to="/feat/critical_focus">Critical Focus</Link> and any feat for which it is a prerequisite; these feats apply only with a kensai's favored weapon.</Pair>
 </Ability>
-<Ability id="superior-reflexes-ex" icon={["stairs-goal"]}>
+<Ability id="superior-reflexes-ex" icon={["power"]}>
 <Pair single id="superior-reflexes-ex">Superior Reflexes (Ex)</Pair>
 <Pair hl title="Replaces">Improved spell recall</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">Kensai can make a number of attacks of opportunity in a round equal to his Intelligence modifier (minimum 1). This effect stacks with the <Link to="/feat/combat_reflexes">Combat Reflexes</Link> feat.</Pair>
 </Ability>
-<Ability id="iaijutsu-focus-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="iaijutsu-focus-ex" icon={["power","boost"]}>
 <Pair single id="iaijutsu-focus-ex">Iaijutsu Focus (Ex)</Pair>
 <Pair hl title="Replaces">Heavy armor</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Ability">A kensai may always act and may draw his weapon as a <strong className="hl">swift action</strong> during a surprise round, though he is considered flat-footed until he acts. During a surprise round or when attacking a flat-footed opponent, he adds his Intelligence modifier on damage with his chosen weapon (minimum 0).</Pair>
 </Ability>
-<Ability id="iaijutsu-master-ex" icon={["upgrade","rolling-dices"]}>
+<Ability id="iaijutsu-master-ex" icon={["boost","roll"]}>
 <Pair single id="iaijutsu-master-ex">Iaijutsu Master (Ex)</Pair>
 <Pair hl title="Replaces">Greater spell access</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Ability">A kensai's initiative roll is automatically a natural 20 and he is never surprised.</Pair>
 </Ability>
-<Ability id="weapon-mastery-ex" icon={["stairs-goal"]}>
+<Ability id="weapon-mastery-ex" icon={["power"]}>
 <Pair single id="weapon-mastery-ex">Weapon Mastery (Ex)</Pair>
 <Pair hl title="Replaces">True magus</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -860,22 +860,22 @@ const _kensai = {title: "Kensai", jsx: <><h2 id="arc-magus-kensai-kensai">Kensai
 const _magic_warrior = {title: "Magic Warrior", jsx: <><h2 id="arc-magus-magic_warrior-magic-warrior">Magic Warrior</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 123</Link>, <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 42</Link><br/>Trained in a tradition stretching back to Old-Mage Jatembe's Ten Magic Warriors, Magic Warriors renounce their identities to master magical might and serve as champions of culture and learning across the Mwangi Expanse and beyond. The original Ten Magic Warriors each directly served Old-Mage Jatembe as guardians, bodyguards, allies, and friends. Tales of their deeds are still told today in the <Link to="/rule/magaambya">Magaambya</Link>, and while they are long gone, the traditions that rose from these tales live on.</p>
 <p>While the original Ten Magic Warriors championed unusual skills drawn from various arcane spellcasting classes, often combined with martial classes or even prestige classes, the tradition today has been standardized over the course of the intervening centuries into an archetype followed strictly by magi. Even then, it's not uncommon for a Magic Warrior to multiclass with a martial class for a few levels or to become an <Link to="/pclass/eldritch_knight">eldritch knight</Link> to further bolster her combat powers. No one path is regarded as canonical for the magi of the Magic Warriors, and they value their diversity, looking to their brothers and sisters constantly for inspiration regarding new ways to defend the Magaambya and the people of the Mwangi Expanse from the multitude of dangers the world has to offer.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (planes)</Pair></Ability>
-<Ability id="nameless-mask-ex" icon={["armor-upgrade","broken-shield","hazard-sign"]}>
+<Ability id="nameless-mask-ex" icon={["def","down","warning"]}>
 <Pair single id="nameless-mask-ex">Nameless Mask (Ex)</Pair>
 <Pair title="Ability">A Magic Warrior gains strength by hiding her identity behind a mask that represents an animal, but also suffers drawbacks from doing so. While wearing her mask, a Magic Warrior gains a +2 bonus on saving throws against divinations in the scrying subschool. However, NPCs who are unfamiliar with or have a poor opinion of the Magic Warrior tradition have a starting attitude of unfriendly toward the Magic Warrior while she wears her mask. If using the <Link to="/rule/influence">influence system</Link>, she requires one additional success to increase her influence level over such an NPC.</Pair>
 <Pair title="Special">The Magic Warrior cannot ever reveal her name or remove her mask in front of anyone who she has never met before. If she violates this important taboo, she must discard her mask and create or obtain a new mask and wear it before she can gain any benefits that result from wearing her mask.</Pair>
 </Ability>
-<Ability id="magic-warriors-aspect-su" icon={["stairs-goal"]}>
+<Ability id="magic-warriors-aspect-su" icon={["power"]}>
 <Pair single id="magic-warriors-aspect-su">Magic Warrior's Aspect (Su)</Pair>
 <Pair hl title="Replaces">Magus arcana gained at 3rd level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Standard Action">A Magic Warrior can gain an aspect of an animal's might by expending 1 point from her <em>arcane pool.</em> The animal must be the same one that the Magic Warrior's mask represents (the animal can change if the Magic Warrior creates or obtains a new mask). The Magic Warrior gains one ability the animal has from the list of abilities given in <Link to="/spell/beast_shape_i">beast shape I</Link> (this ability doesn't allow her to change her size). The ability lasts for 1 minute per class level.</Pair>
 </Ability>
-<Ability id="nameless-anonymity-su" icon={["armor-upgrade","broken-shield"]}>
+<Ability id="nameless-anonymity-su" icon={["def","down"]}>
 <Pair single id="nameless-anonymity-su" flavor="A Magic Warrior's masked identity further protects her from divinations.">Nameless Anonymity (Su)</Pair>
 <Pair hl title="Replaces">Greater spell combat</Pair>
 <Pair hl title="Alters">Improved spell combat</Pair>
@@ -883,7 +883,7 @@ const _magic_warrior = {title: "Magic Warrior", jsx: <><h2 id="arc-magus-magic_w
 <Pair title="Ability">Once per day, as long as she is in her masked identity, she can cast <Link to="/spell/nondetection">nondetection</Link> on herself, using her masked warrior level as her caster level.</Pair>
 <Pair title="Special">A Magic Warrior gains <em>improved spell combat</em> at 14th level instead of at 8th level.</Pair>
 </Ability>
-<Ability id="magaambya-spell-access-su" icon={["spell-book"]}>
+<Ability id="magaambya-spell-access-su" icon={["learn"]}>
 <Pair single id="magaambya-spell-access-su">Magaambya Spell Access (Su)</Pair>
 <Pair hl title="Replaces">Greater spell access</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -893,7 +893,7 @@ const _magic_warrior = {title: "Magic Warrior", jsx: <><h2 id="arc-magus-magic_w
 </>};
 const _mindblade = {title: "Mindblade", jsx: <><h2 id="arc-magus-mindblade-mindblade">Mindblade</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 121</Link><br/>A mindblade blends psychic talent and martial skill to lethal effect. By forming weapons with her mind, she always has the right tool for any situation.</p>
-<Ability id="spells" icon={["magic-swirl"]}>
+<Ability id="spells" icon={["magic"]}>
 <Pair single id="spells">Spells</Pair>
 <Pair hl title="Replaces">Spellcasting</Pair>
 <Pair title="Ability"><p>A mindblade casts spells from the magus spell list as psychic spells. She can cast any spell she knows without preparing it ahead of time. To learn or cast a spell, a mindblade must have an Intelligence score equal to at least 10 + the spell's level. The saving throw DC to resist a mindblade's spell is equal to 10 + the spell's level + the mindblade's Intelligence modifier.</p>
@@ -902,7 +902,7 @@ const _mindblade = {title: "Mindblade", jsx: <><h2 id="arc-magus-mindblade-mindb
 <p>A mindblade need not prepare her spells in advance. She can cast any magus spell she knows at any time, assuming she has not yet used up her allotment of spells per day for the spell's level.</p>
 </Pair>
 </Ability>
-<Ability id="psychic-pool-su" icon={["magic-swirl","mailed-fist"]}>
+<Ability id="psychic-pool-su" icon={["magic","melee"]}>
 <Pair single id="psychic-pool-su">Psychic Pool (Su)</Pair>
 <Pair hl title="Replaces">Arcane pool</Pair>
 <Pair title="Ability">A mindblade gains a <em>psychic pool,</em> similar to a normal magus's <em>arcane pool.</em></Pair>
@@ -910,7 +910,7 @@ const _mindblade = {title: "Mindblade", jsx: <><h2 id="arc-magus-mindblade-mindb
 <Pair title="At 5th Level">The mindblade can add any of the weapon special abilities listed in the <em>arcane pool</em> class feature in place of these bonuses, although the weapon must maintain at least a +1 bonus to benefit from any weapon special abilities.</Pair>
 <Pair title="Special">This ability counts as <em>arcane pool</em> for the purpose of feats, abilities, and class features.</Pair>
 </Ability>
-<Ability id="psychic-access-su" icon={["spell-book"]}>
+<Ability id="psychic-access-su" icon={["learn"]}>
 <Pair single id="psychic-access-su">Psychic Access (Su)</Pair>
 <Pair hl title="Replaces">Spell recall, knowledge pool, improved spell recall, greater spell combat, greater spell access</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -921,19 +921,19 @@ const _mindblade = {title: "Mindblade", jsx: <><h2 id="arc-magus-mindblade-mindb
 <Pair title="At 19th Level">She adds two more psychic class spells to her spell list, following the same restrictions.</Pair>
 <Pair title="Special">When a mindblade takes the <Link to="/arcana/spell_blending">spell blending</Link> arcana, she gains spells from the psychic class spell list instead of the wizard spell list.</Pair>
 </Ability>
-<Ability id="dual-weapons-su" icon={["stairs-goal","mailed-fist"]}>
+<Ability id="dual-weapons-su" icon={["power","melee"]}>
 <Pair single id="dual-weapons-su">Dual Weapons (Su)</Pair>
 <Pair hl title="Replaces">Medium armor</Pair>
 <Pair title="At 7th Level">A mindblade can maintain two psychic weapons at a time or a psychic double weapon, though each weapon (or each end of a double weapon) has an enhancement bonus 1 lower than normal.</Pair>
 <Pair title="At 12th Level">Each of the two psychic weapons (or each end of a double weapon) instead has an enhancement bonus 2 lower than normal. When using two-weapon fighting with two psychic weapons or a psychic double weapon, the mindblade can use her <em>spell combat</em> ability as though she had a hand free.</Pair>
 </Ability>
-<Ability id="rapid-manifest-su" icon={["upgrade"]}>
+<Ability id="rapid-manifest-su" icon={["boost"]}>
 <Pair single id="rapid-manifest-su">Rapid Manifest (Su)</Pair>
 <Pair hl title="Replaces">Improved spell combat</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Swift Action">A mindblade can manifest a psychic weapon as a swift action.</Pair>
 </Ability>
-<Ability id="dual-manifest-su" icon={["upgrade"]}>
+<Ability id="dual-manifest-su" icon={["boost"]}>
 <Pair single id="dual-manifest-su">Dual Manifest (Su)</Pair>
 <Pair hl title="Replaces">Heavy armor</Pair>
 <Pair title="Gained">At 13th Level</Pair>
@@ -942,49 +942,49 @@ const _mindblade = {title: "Mindblade", jsx: <><h2 id="arc-magus-mindblade-mindb
 </>};
 const _myrmidarch = {title: "Myrmidarch", jsx: <><h2 id="arc-magus-myrmidarch-myrmidarch">Myrmidarch</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 56</Link><br/>The myrmidarch is a skilled specialist, using magic to supplement and augment his martial mastery. Less inclined to mix the two than a typical magus, the myrmidarch seeks supremacy with blade, bow, and armor.</p>
-<Ability id="diminished-spellcasting" icon={["broken-shield"]}>
+<Ability id="diminished-spellcasting" icon={["down"]}>
 <Pair single id="diminished-spellcasting">Diminished Spellcasting</Pair>
 <Pair title="Ability">Myrmidarchs cast one fewer spell of each level than normal. If this reduces the number to 0, he may cast spells of that level only if his Intelligence allows <Link to="/rule/bonus_spells">bonus spells</Link> of that level.</Pair>
 </Ability>
-<Ability id="ranged-spellstrike-su" icon={["bowman"]}>
+<Ability id="ranged-spellstrike-su" icon={["ranged"]}>
 <Pair single id="ranged-spellstrike-su">Ranged Spellstrike (Su)</Pair>
 <Pair hl title="Replaces">Spell recall, improved spell recall</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A myrmidarch can use <em>spellstrike</em> to cast a single-target touch attack ranged spell and deliver it through a ranged weapon attack. Even if the spell can normally affect multiple targets, only a single missile, ray, or effect accompanies the attack.</Pair>
 <Pair title="At 11th Level">A myrmidarch can spend a <strong className="hl">full-round action</strong> to cast a spell that includes multiple ranged touch attacks and deliver more than one using ranged attacks. The spell must have a casting time of 1 full-round action or less. This functions similarly to the base ability of <em>ranged spellstrike,</em> but the myrmidarch can deliver a number of missiles, rays, or effect up to the number of attacks he could make with a full attack. Attacks beyond the first take penalties as if the myrmidarch were making a full attack. Any effects not used in the round the spell is cast are lost, as are any additional ranged touch attacks the spell would allow beyond the myrmidarch's maximum number of attacks.</Pair>
 </Ability>
-<Ability id="weapon-training-ex" extraClasses="hasSubs" icon={["stairs-goal","upgrade"]}>
+<Ability id="weapon-training-ex" extraClasses="hasSubs" icon={["power","boost"]}>
 <Pair single id="weapon-training-ex">Weapon Training (Ex)</Pair>
 <Pair hl title="Replaces">Magus arcana gained at 6th, 12th, and 18th levels</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">A myrmidarch gains <em>weapon training,</em> as the <Link to="/class/fighter">fighter</Link> ability, adding an additional weapon group every six levels after 6th (to a maximum of three groups at 18th level) and increasing the bonus on attack and damage rolls for weapon groups already chosen by +1.</Pair>
 </Ability>
-<Ability id="weapon-training-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="weapon-training-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="weapon-training-ex" flavor="Text from the fighter class ability, with levels adjusted.">Weapon Training (Ex)</Pair>
 <Pair title="At 6th Level">Select one <Link to="/ability/weapon_groups">weapon group</Link>. Whenever you attack with a weapon from this group, you gain a +1 bonus on attack and damage rolls. You also add this bonus to any combat maneuver checks made with weapons from this group. This bonus also applies to your <Link to="/rule/cmd">CMD</Link> when defending against <Link to="/rule/disarm">disarm</Link> and <Link to="/rule/sunder">sunder</Link> attempts made against weapons from this group.</Pair>
 <Pair title="At 12th Level">You select a new weapon group and gain the +1 bonus when using weapons from that group. Your previously selected group's bonus increases to +2.</Pair>
 <Pair title="At 18th Level">You select a new weapon group and gain the +1 bonus when using weapons from that group. Your previously selected groups' bonuses increase to +2 and +3.</Pair>
 <Pair title="Special">Bonuses granted from overlapping groups do not stack. Take the highest bonus granted for a weapon if it resides in two or more groups.</Pair>
 </Ability>
-<Ability id="fighter-training-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="fighter-training-ex" icon={["power","boost"]}>
 <Pair single id="fighter-training-ex">Fighter Training (Ex)</Pair>
 <Pair hl title="Replaces">Knowledge pool, 10th-level fighter training</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">A myrmidarch counts his magus level - 3 as his fighter level for the purpose of qualifying for feats (if he has levels in fighter, these levels stack).</Pair>
 <Pair title="At 10th Level">The myrmidarch treats his magus levels as fighter levels for the purposes of <em>fighter training.</em></Pair>
 </Ability>
-<Ability id="armor-training-ex" extraClasses="hasSubs" icon={["armor-upgrade"]}>
+<Ability id="armor-training-ex" extraClasses="hasSubs" icon={["def"]}>
 <Pair single id="armor-training-ex">Armor Training (Ex)</Pair>
 <Pair hl title="Replaces">Improved spell combat, greater spell combat</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">A myrmidarch gains <em>armor training,</em> as the fighter ability, but he only receives the first two benefits, and at a slower rate (see below).</Pair>
 </Ability>
-<Ability id="armor-training-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="armor-training-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="armor-training-ex" flavor="Text from the fighter class ability, with levels adjusted.">Armor Training (Ex)</Pair>
 <Pair title="At 8th Level">Whenever you wear armor, you reduce the armor check penalty by 1 (to a minimum of 0) and increase the maximum Dexterity bonus allowed by the armor by 1. You can also move at your normal speed while wearing medium armor.</Pair>
 <Pair title="At 14th Level">The penalty is now reduced by 2 (minimum 0) and the maximum Dex bonus is now increased by +2. You can also move at your normal speed while wearing heavy armor.</Pair>
 </Ability>
-<Ability id="armor-mastery-ex" icon={["armor-upgrade"]}>
+<Ability id="armor-mastery-ex" icon={["def"]}>
 <Pair single id="armor-mastery-ex">Armor Mastery (Ex)</Pair>
 <Pair hl title="Replaces">True magus</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -994,30 +994,30 @@ const _myrmidarch = {title: "Myrmidarch", jsx: <><h2 id="arc-magus-myrmidarch-my
 </>};
 const _nature_bonded_magus = {title: "Nature-Bonded Magus", jsx: <><h2 id="arc-magus-nature_bonded_magus-nature-bonded-magus">Nature-Bonded Magus</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 92</Link><br/>A nature-bonded magus synergizes arcane magic and the divine magic traditions of druids into a deadly synthesis.</p>
-<Ability id="natural-magic" icon={["spell-book"]}>
+<Ability id="natural-magic" icon={["learn"]}>
 <Pair single id="natural-magic">Natural Magic</Pair>
 <Pair title="Ability">A nature-bonded magus adds one 0-level and one 1st-level spell from the <Link to="/main/druid_spell">druid spell list</Link> to the magus spell list and his spellbook. Each time a nature-bonded magus gains the ability to cast a new level of spells, he can add one spell of that level from the druid spell list to both the magus spell list and his spellbook.</Pair>
 </Ability>
-<Ability id="plant-familiar" icon={["stairs-goal"]}>
+<Ability id="plant-familiar" icon={["power"]}>
 <Pair single id="plant-familiar">Plant Familiar</Pair>
 <Pair hl title="Replaces">Arcane pool</Pair>
 <Pair title="Ability">A nature-bonded magus gains the <Link to="/arcana/familiar">familiar</Link> magus arcana. A nature-bonded magus must choose a plant familiar as his familiar.</Pair>
 <Pair title="Special">Plant <Link to="/ability/familiars">familiars</Link> include the creeper ivy, dweomer cap, flowering lattice, petrifern, ravenous tumbleweed, razor fern, and suture vine.</Pair>
 </Ability>
-<Ability id="familiar-symbiosis-su" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="familiar-symbiosis-su" icon={["power","def"]}>
 <Pair single id="familiar-symbiosis-su">Familiar Symbiosis (Su)</Pair>
 <Pair hl title="Replaces">Spell recall</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Standard Action">When a nature-bonded magus is adjacent to his familiar, he can merge with his familiar; both the nature-bonded magus and the familiar provoke attacks of opportunity with this action. Doing so causes the plant familiar to bond with a part of the nature-bonded magus's body as though it were growing on him. While merged, the nature-bonded magus's familiar can take no actions (but can still attempt Perception checks and communicate with the nature-bonded magus), and it can't be targeted or harmed by effects.</Pair>
 <Pair title="Special">As long as his familiar is merged, the nature-bonded magus gains half his plant familiar's natural armor adjustment to AC. The nature-bonded magus can separate from his plant familiar as a <strong className="hl">standard action</strong> that provokes attacks of opportunity for both of them. Once they have separated, the familiar appears in an adjacent square of the nature-bonded magus' choosing.</Pair>
 </Ability>
-<Ability id="woodland-stride-ex" icon={["stairs-goal"]}>
+<Ability id="woodland-stride-ex" icon={["power"]}>
 <Pair single id="woodland-stride-ex">Woodland Stride (Ex)</Pair>
 <Pair hl title="Replaces">Knowledge pool</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">A nature-bonded magus can move through any sort of undergrowth (such as natural briars, overgrown areas, thorns, and similar terrain) at his normal speed and without taking damage or suffering any other impairment. Briars, overgrown areas, and thorns that are enchanted or magically manipulated to impede motion, however, still affect him.</Pair>
 </Ability>
-<Ability id="improved-familiar-symbiosis-su" icon={["upgrade"]}>
+<Ability id="improved-familiar-symbiosis-su" icon={["boost"]}>
 <Pair single id="improved-familiar-symbiosis-su">Improved Familiar Symbiosis (Su)</Pair>
 <Pair hl title="Replaces">Improved spell recall</Pair>
 <Pair title="Gained">At 11th Level</Pair>
@@ -1026,7 +1026,7 @@ const _nature_bonded_magus = {title: "Nature-Bonded Magus", jsx: <><h2 id="arc-m
 </>};
 const _puppetmaster = {title: "Puppetmaster", jsx: <><h2 id="arc-magus-puppetmaster-puppetmaster">Puppetmaster</h2>
 <p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology pg. 27</Link><br/>Puppetmasters focus on using charm and illusion spells to control the senses of those for whom they perform.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT), <Link to="/skill/perform">Perform</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Climb, Ride, Swim</Pair></Ability>
@@ -1035,12 +1035,12 @@ const _puppetmaster = {title: "Puppetmaster", jsx: <><h2 id="arc-magus-puppetmas
 <Pair hl title="Alters">Skills</Pair>
 <Pair title="Info">A puppetmaster gains 4 skill points per level.</Pair>
 </Ability>
-<Ability id="spells" icon={["spell-book"]}>
+<Ability id="spells" icon={["learn"]}>
 <Pair single id="spells">Spells</Pair>
 <Pair hl title="Replaces">Knowledge pool, greater spell access</Pair>
 <Pair title="Ability">A puppetmaster can cast spells from the bard and magus spell lists, and treats <Link to="/main/bard_spell">bard spells</Link> as magus spells. Because he does not have a bardic performance ability, some bard spells (which modify or require bardic performance) are poor choices for a puppetmaster. He must add bard spells to his spellbook prior to preparing them as normal. A puppetmaster can learn bard spells from a formula book or spellbook (if they are also alchemist extracts or wizard spells) or a scroll (as if learning a wizard spell from a scroll), or can select them to be one or more of the two magus spells he adds to his spellbook at each magus level.</Pair>
 </Ability>
-<Ability id="arcane-pool" icon={["upgrade"]}>
+<Ability id="arcane-pool" icon={["boost"]}>
 <Pair single id="arcane-pool" flavor={<>A puppetmaster cannot expend points from his <em>arcane pool</em> to grant enhancement bonuses or weapon special abilities to a weapon he is holding.</>}>Arcane Pool</Pair>
 <Pair hl title="Alters">Arcane pool</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -1049,12 +1049,12 @@ const _puppetmaster = {title: "Puppetmaster", jsx: <><h2 id="arc-magus-puppetmas
 <Pair title="At 13th Level">The increase to the spell's save DC or caster level changes to 3.</Pair>
 <Pair title="At 19th Level">The increase to the spell's save DC or caster level changes to 4.</Pair>
 </Ability>
-<Ability id="puppet-combat-ex" icon={["broken-shield"]}>
+<Ability id="puppet-combat-ex" icon={["down"]}>
 <Pair single id="puppet-combat-ex">Puppet Combat (Ex)</Pair>
 <Pair hl title="Alters">Spell combat, improved spell combat, greater spell combat</Pair>
 <Pair title="Info">A puppetmaster can use <em>spell combat, improved spell combat,</em> and <em>greater spell combat</em> only with spells of the enchantment and illusion schools of magic.</Pair>
 </Ability>
-<Ability id="charmstrike-su" icon={["magic-swirl"]}>
+<Ability id="charmstrike-su" icon={["magic"]}>
 <Pair single id="charmstrike-su">Charmstrike (Su)</Pair>
 <Pair hl title="Replaces">Spellstrike, fighter training, counterstrike</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -1063,13 +1063,13 @@ const _puppetmaster = {title: "Puppetmaster", jsx: <><h2 id="arc-magus-puppetmas
 <Pair title="At 16th Level">He can cast a 3rd-level enchantment spell on the foe.</Pair>
 <Pair title="Special">The prepared spell is expended, as if cast normally.</Pair>
 </Ability>
-<Ability id="the-show-must-go-on-su" icon={["magic-swirl"]}>
+<Ability id="the-show-must-go-on-su" icon={["magic"]}>
 <Pair single id="the-show-must-go-on-su">The Show Must Go On (Su)</Pair>
 <Pair hl title="Replaces">Medium armor, heavy armor</Pair>
 <Pair title="Ability">When a puppetmaster has a creature under the effects of an enchantment spell and that creature has line of sight to an illusion spell the puppetmaster has cast with a duration of concentration, the puppetmaster can link the illusion spell to the enchanted target. As long as the target has line of sight to the illusion and is enchanted, and the puppetmaster has line of sight to both the target and the illusion, the puppetmaster can maintain the illusion as a <strong className="hl">free action</strong> each round. The puppetmaster can maintain only one illusion spell in this way.</Pair>
 <Pair title="At 13th Level">The puppetmaster can maintain two illusion spells in this way, requiring a separate enchanted target for each illusion.</Pair>
 </Ability>
-<Ability id="scene-stealer-su" icon={["magic-swirl"]}>
+<Ability id="scene-stealer-su" icon={["magic"]}>
 <Pair single id="scene-stealer-su">Scene Stealer (Su)</Pair>
 <Pair hl title="Replaces">True magus</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -1080,7 +1080,7 @@ const _sigilus = {title: "Sigilus", jsx: <><h2 id="arc-magus-sigilus-sigilus">Si
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 59</Link><br/>Traditionally, the <Link to="/rule/cyphermages">Cyphermages</Link> have harbored something of a resistance toward physical combat, preferring to rely upon the power of magic to solve problems and defeat foes. Many of the organization's traditionalists hold prejudices against those who rely upon martial skills, and this prejudice has bled over to those who mix magic with combat, such as <Link to="/pclass/eldritch_knight">eldritch knights</Link> and magi. With the organization's recent change to its traditions, though, its numbers have grown more welcoming of these traditions, and magi in particular, have developed a unique method of incorporating their lore.</p>
 <p>When a magus joins the ranks of the Cyphermages, she can learn the art of infusing her <em>arcane pool</em> with the secrets of ancient Thassilonian magic. Such an individual becomes known as a sigilus. While the mysteries of ancient Thassilon drive her spellcraft, the sigilus makes little effort to understand the academic and philosophic aspects of runes. Instead, she focuses almost entirely upon their practical application.</p>
 <p>A sigilus manipulates the discoveries of wizards and other more sagacious Cyphermages, using those findings to create special sigils that allow her to transfer spell effects into different objects for later use. Her craft builds upon traditions founded by the runelords that allowed them to infuse magic into their flesh, but rather than infusing magic into her body, the sigilus infuses it into a weapon. More interested in the exploration of Thassilonian ruins than academic research, sigiluses serve the Cyphermages by engaging in fieldwork and recovering artifacts. They work alongside more studious Cyphermages, sometimes serving as bodyguards or as regulatory agents who make sure no member gains too much power through the acquisition of potent Thassilonian secrets.</p>
-<Ability id="inscribe-rune-su" icon={["upgrade","broken-shield"]}>
+<Ability id="inscribe-rune-su" icon={["boost","down"]}>
 <Pair single id="inscribe-rune-su">Inscribe Rune (Su)</Pair>
 <Pair hl title="Replaces">Spellstrike</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -1089,7 +1089,7 @@ const _sigilus = {title: "Sigilus", jsx: <><h2 id="arc-magus-sigilus-sigilus">Si
 <p>The sigilus can maintain only a single inscribed rune on a weapon at any time; if she inscribes a new rune on a weapon, the previously inscribed rune fades.</p>
 </Pair>
 </Ability>
-<Ability id="inscribe-sihedron-su" icon={["armor-upgrade"]}>
+<Ability id="inscribe-sihedron-su" icon={["def"]}>
 <Pair single id="inscribe-sihedron-su">Inscribe Sihedron (Su)</Pair>
 <Pair hl title="Replaces">Medium armor, heavy armor</Pair>
 <Pair title="Gained">At 7th Level</Pair>
@@ -1100,16 +1100,16 @@ const _sigilus = {title: "Sigilus", jsx: <><h2 id="arc-magus-sigilus-sigilus">Si
 </>};
 const _skirnir = {title: "Skirnir", jsx: <><h2 id="arc-magus-skirnir-skirnir">Skirnir</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 56</Link><br/>Sometimes called a shield-vassal or shieldmaiden, the skirnir has learned to infuse his power into his shield.</p>
-<Ability id="diminished-spellcasting" icon={["broken-shield"]}>
+<Ability id="diminished-spellcasting" icon={["down"]}>
 <Pair single id="diminished-spellcasting">Diminished Spellcasting</Pair>
 <Pair title="Ability">A skirnir casts one fewer spell of each level than normal. If this reduces the number to 0, he may cast spells of that level only if his Intelligence allows <Link to="/rule/bonus_spells">bonus spells</Link> of that level.</Pair>
 </Ability>
-<Ability id="arcane-bond-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="arcane-bond-su" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="arcane-bond-su">Arcane Bond (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A skirnir gains a shield (except for a tower shield) as an <em>arcane bond</em> item. This is identical to the <Link to="/class/wizard">wizard</Link> class ability, but the skirnir may only bond with a shield, not a familiar or other item.</Pair>
 </Ability>
-<Ability id="bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="bonded-object" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="bonded-object" flavor="Relevant text from the wizard ability.">Bonded Object</Pair>
 <Pair title="Ability"><p>You begin play with a bonded object at no cost. This object is always masterwork quality. Weapons acquired at 1st level are not made of any special material. If the object is an amulet or ring, it must be worn to have effect, while staves, wands, and weapons must be wielded. If you attempt to cast a spell without your bonded object in hand, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level.</p>
 <p>A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities.</p>
@@ -1117,37 +1117,37 @@ const _skirnir = {title: "Skirnir", jsx: <><h2 id="arc-magus-skirnir-skirnir">Sk
 <p>If a bonded object is damaged, it is restored to full hit points the next time you prepare your spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. You can designate an existing magic item as your bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.</p>
 </Pair>
 </Ability>
-<Ability id="arcane-pool" icon={["upgrade"]}>
+<Ability id="arcane-pool" icon={["boost"]}>
 <Pair single id="arcane-pool">Arcane Pool</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A skirnir can use his <em>arcane pool</em> to grant an enhancement bonus to a weapon as normal, as well as to his shield, paying the <em>arcane pool</em> cost separately for each.</Pair>
 <Pair title="At 5th Level">He can also add the following shield special abilities: <Link to="/magic-enh/animated">animated</Link>, <Link to="/magic-enh/arrow_catching">arrow catching</Link>, <Link to="/magic-enh/arrow_deflection">arrow deflection</Link>, <Link to="/magic-enh/bashing">bashing</Link>, <Link to="/magic-enh/blinding">blinding</Link>, <Link to="/magic-enh/fortification">fortification</Link> (any), <Link to="/magic-enh/reflecting">reflecting</Link>, <Link to="/magic-enh/spell_resistance">spell resistance</Link> (any).</Pair>
 </Ability>
-<Ability id="sorcerous-shield-ex" icon={["stairs-goal"]}>
+<Ability id="sorcerous-shield-ex" icon={["power"]}>
 <Pair single id="sorcerous-shield-ex">Sorcerous Shield (Ex)</Pair>
 <Pair hl title="Replaces">Spell combat</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">Skirnirs are proficient with all types of shields, including tower shields, and do not suffer an arcane spell failure chance when casting magus spells while using a shield. They treat their magus levels as their fighter levels for the purpose of qualifying for shield-related feats.</Pair>
 </Ability>
-<Ability id="spellstrike-su" icon={["stairs-goal"]}>
+<Ability id="spellstrike-su" icon={["power"]}>
 <Pair single id="spellstrike-su">Spellstrike (Su)</Pair>
 <Pair hl title="Alters">Spellstrike</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A skirnir may use this ability with a weapon or <Link to="/misc/shield_bash">shield bash</Link> attack.</Pair>
 </Ability>
-<Ability id="shield-pool-ex" icon={["armor-upgrade"]}>
+<Ability id="shield-pool-ex" icon={["def"]}>
 <Pair single id="shield-pool-ex">Shield Pool (Ex)</Pair>
 <Pair hl title="Replaces">Spell recall</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Free Action">A skirnir may spend 1 point from his <em>arcane pool</em> to add his shield bonus to AC (not including enhancement bonuses) on a <Link to="/rule/concentration">concentration</Link> check to cast defensively. He may also use a touch attack or shield bash with his shield in conjunction with any <em>pool strike</em> magus arcana.</Pair>
 </Ability>
-<Ability id="spellshield-su" icon={["magic-swirl"]}>
+<Ability id="spellshield-su" icon={["magic"]}>
 <Pair single id="spellshield-su">Spellshield (Su)</Pair>
 <Pair hl title="Replaces">Knowledge pool</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Standard Action">A skirnir may store a magus spell in his shield by spending 1 point from his <em>arcane pool</em> per level of the spell. This functions as the <Link to="/magic-enh/spell_storing">spell storing</Link> weapon special ability, but activates only on a successful shield bash by the skirnir and is not limited to spells of 3rd level or less.</Pair>
 </Ability>
-<Ability id="shielded-spell-combat-su" icon={["stairs-goal"]}>
+<Ability id="shielded-spell-combat-su" icon={["power"]}>
 <Pair single id="shielded-spell-combat-su">Shielded Spell Combat (Su)</Pair>
 <Pair hl title="Replaces">Improved spell combat, greater spell combat, greater spell access</Pair>
 <Pair hl title="Alters">Spell combat</Pair>
@@ -1156,7 +1156,7 @@ const _skirnir = {title: "Skirnir", jsx: <><h2 id="arc-magus-skirnir-skirnir">Sk
 <Pair title="At 14th Level">He gains the benefits of <em>improved spell combat.</em></Pair>
 <Pair title="At 19th Level">He retains his shield's bonus to AC when using any type of shield with <em>spell combat.</em></Pair>
 </Ability>
-<Ability id="greater-spellshield-su" icon={["magic-swirl"]}>
+<Ability id="greater-spellshield-su" icon={["magic"]}>
 <Pair single id="greater-spellshield-su">Greater Spellshield (Su)</Pair>
 <Pair hl title="Replaces">Counterstrike</Pair>
 <Pair title="Gained">At 16th Level</Pair>
@@ -1166,18 +1166,18 @@ const _skirnir = {title: "Skirnir", jsx: <><h2 id="arc-magus-skirnir-skirnir">Sk
 </>};
 const _sorrowblade = {title: "Sorrowblade", jsx: <><h2 id="arc-magus-sorrowblade-sorrowblade">Sorrowblade</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_spiral_of_bones_4">Pathfinder Spiral of Bones #4 pg. 29</Link><br/>A magus who has suffered greatly over the course of her life can learn to channel that misery into her weapon and inflict it on others.</p>
-<Ability id="despairing-strike-su" icon={["armor-downgrade"]}>
+<Ability id="despairing-strike-su" icon={["lower"]}>
 <Pair single id="despairing-strike-su" flavor="The sorrowblade can wield the power of despair.">Despairing Strike (Su)</Pair>
 <Pair hl title="Replaces">Magus arcana gained at 3rd level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Swift Action">By spending 1 point from her <em>arcane pool,</em> she can imbue the weapon she is wielding with pure anguish. The first creature she strikes with this weapon within the next minute must succeed at a Will saving throw (DC = 10 + 1/2 the sorrowblade's magus level + her intelligence modifier) or become <Link to="/misc/shaken">shaken</Link> for 1 minute. Multiple despairing strikes can't make a creature <Link to="/misc/frightened">frightened</Link>.</Pair>
 </Ability>
-<Ability id="cruel-weapon-su" icon={["stairs-goal","broken-shield"]}>
+<Ability id="cruel-weapon-su" icon={["power","down"]}>
 <Pair single id="cruel-weapon-su">Cruel Weapon (Su)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">The sorrowblade adds <Link to="/magic-enh/cruel">cruel</Link> to the list of magic weapon properties she can infuse with her <em>arcane pool,</em> but removes <em>speed</em> from that list.</Pair>
 </Ability>
-<Ability id="wretched-strike-su" icon={["armor-downgrade"]}>
+<Ability id="wretched-strike-su" icon={["lower"]}>
 <Pair single id="wretched-strike-su" flavor="The sorrowblade can cause foes to lose all hope.">Wretched Strike (Su)</Pair>
 <Pair hl title="Replaces">Magus arcana gained at 12th level</Pair>
 <Pair title="Gained">At 12th Level</Pair>
@@ -1187,16 +1187,16 @@ const _sorrowblade = {title: "Sorrowblade", jsx: <><h2 id="arc-magus-sorrowblade
 </>};
 const _soul_forger = {title: "Soul Forger", jsx: <><h2 id="arc-magus-soul_forger-soul-forger">Soul Forger</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 57</Link><br/>The soul forger has learned the skill of infusing the raw magical essence of his soul into armaments of surpassing power, combining the mystic arts with the arts of war in a unity of steely perfection.</p>
-<Ability id="diminished-spellcasting" icon={["broken-shield"]}>
+<Ability id="diminished-spellcasting" icon={["down"]}>
 <Pair single id="diminished-spellcasting">Diminished Spellcasting</Pair>
 <Pair title="Ability">A soul forger casts one fewer spell of each level than normal. If this reduces the number to 0, he may cast spells of that level only if his Intelligence allows <Link to="/rule/bonus_spells">bonus spells</Link> of that level.</Pair>
 </Ability>
-<Ability id="arcane-bond-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="arcane-bond-su" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="arcane-bond-su">Arcane Bond (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A soul forger gains a weapon as an <em>arcane bond</em> item. This is identical to the <Link to="/class/wizard">wizard</Link> class ability, but the soul forger must select a weapon.</Pair>
 </Ability>
-<Ability id="bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="bonded-object" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="bonded-object" flavor="Relevant text from the wizard ability.">Bonded Object</Pair>
 <Pair title="Ability"><p>You begin play with a bonded object at no cost. This object is always masterwork quality. Weapons acquired at 1st level are not made of any special material. Weapons must be wielded to have an effect. If you attempt to cast a spell without your bonded object in hand, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level.</p>
 <p>A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities.</p>
@@ -1204,42 +1204,42 @@ const _soul_forger = {title: "Soul Forger", jsx: <><h2 id="arc-magus-soul_forger
 <p>If a bonded object is damaged, it is restored to full hit points the next time you prepare your spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. You can designate an existing magic item as your bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.</p>
 </Pair>
 </Ability>
-<Ability id="spell-combat-su" icon={["broken-shield"]}>
+<Ability id="spell-combat-su" icon={["down"]}>
 <Pair single id="spell-combat-su">Spell Combat (Su)</Pair>
 <Pair hl title="Alters">Spell combat</Pair>
 <Pair title="Ability">A soul forger may use this ability only when wielding his <em>bonded weapon.</em></Pair>
 </Ability>
-<Ability id="spellstrike-su" icon={["broken-shield"]}>
+<Ability id="spellstrike-su" icon={["down"]}>
 <Pair single id="spellstrike-su">Spellstrike (Su)</Pair>
 <Pair hl title="Alters">Spellstrike</Pair>
 <Pair title="Ability">A soul forger may use this ability only when wielding his <em>bonded weapon.</em></Pair>
 </Ability>
-<Ability id="master-smith-ex" icon={["upgrade"]}>
+<Ability id="master-smith-ex" icon={["boost"]}>
 <Pair single id="master-smith-ex">Master Smith (Ex)</Pair>
 <Pair hl title="Replaces">Knowledge pool</Pair>
 <Pair title="Passive Ability">A soul forger adds his magus class level on <Link to="/skill/craft">Craft</Link> checks to manufacture armor, shields, and weapons. This bonus applies on skill checks required when using <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>.</Pair>
 <Pair title="At 7th Level">A soul forger uses the 1/10 gp value of armor, shields, and weapons to determine how much time it takes to craft mundane items, and he requires only half the normal amount of time to enchant magical arms and armor.</Pair>
 </Ability>
-<Ability id="fortify-bond-su" icon={["upgrade"]}>
+<Ability id="fortify-bond-su" icon={["boost"]}>
 <Pair single id="fortify-bond-su">Fortify Bond (Su)</Pair>
 <Pair hl title="Replaces">Spell recall</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A soul forger may spend 1 point from his <em>arcane pool</em> to increase the hardness and hit points of his <em>bonded item</em> by an amount equal to his magus level. These hit points last until expended or until the soul forger next prepares spells. Multiple uses of this ability overlap and do not stack.</Pair>
 </Ability>
-<Ability id="reforge-su" icon={["remedy"]}>
+<Ability id="reforge-su" icon={["aid"]}>
 <Pair single id="reforge-su">Reforge (Su)</Pair>
 <Pair hl title="Replaces">Improved spell recall</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Standard Action">A soul forger can restore a number of hit points equal to his magus level to a damaged object by touching it and spending 1 point from his <em>arcane pool.</em> Repairing a destroyed object takes 1 minute and materials equal to 1/4 the item's sale value, and restores the object to 1 hit point.</Pair>
 <Pair title="Special">Restoring the enchantments of a destroyed magical item requires additional points from the soul forger's <em>arcane pool</em> equal to the item's caster level. The soul forger gains one temporary <Link to="/rule/negative_level">negative level</Link> if the item's caster level is lower than his own, two negative levels if equal or greater (or none if the item is his <em>bonded weapon</em>); the save DC to remove these negative levels is equal to 10 + the item's caster level.</Pair>
 </Ability>
-<Ability id="destructive-counterstrike-su" icon={["armor-downgrade"]}>
+<Ability id="destructive-counterstrike-su" icon={["lower"]}>
 <Pair single id="destructive-counterstrike-su">Destructive Counterstrike (Su)</Pair>
 <Pair hl title="Replaces">Counterstrike</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Passive Ability">An opponent who activates a magical item while threatened by a soul forger provokes an attack of opportunity, either against the target or to <Link to="/rule/sunder">sunder</Link> the item. If the item is destroyed, its effects are negated.</Pair>
 </Ability>
-<Ability id="instantaneous-reconstruction-su" icon={["remedy"]}>
+<Ability id="instantaneous-reconstruction-su" icon={["aid"]}>
 <Pair single id="instantaneous-reconstruction-su">Instantaneous Reconstruction (Su)</Pair>
 <Pair hl title="Replaces">Greater spell access</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -1250,11 +1250,11 @@ const _soul_forger = {title: "Soul Forger", jsx: <><h2 id="arc-magus-soul_forger
 </>};
 const _spell_dancer = {title: "Spell Dancer", jsx: <><h2 id="arc-magus-spell_dancer-spell-dancer">Spell Dancer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 24</Link><br/>The strong emphasis on wizards within elven culture influences how even non-wizard elves see themselves. Many elven magi do not consider themselves masters of a blend of martial and magical talents, but rather a sub-category of wizards who study the effect of physical movement and techniques upon spellcasting ability. They believe their ability to cast spells while fighting is an outgrowth of the concept of the "spell dance," which itself is just another kind of wizardry. A spell dancer has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-magus-spell_dancer--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/elf">Elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-magus-spell_dancer--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/elf">Elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/perform">Perform (dance)</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Intimidate, Ride</Pair></Ability>
-<Ability id="spell-dance-su" icon={["upgrade","armor-upgrade"]}>
+<Ability id="spell-dance-su" icon={["boost","def"]}>
 <Pair single id="spell-dance-su">Spell Dance (Su)</Pair>
 <Pair hl title="Replaces">The magus's ability to expend points from his <em>arcane pool</em> as a swift action to grant any weapon he is holding magic bonuses for 1 minute</Pair>
 <Pair title="At 1st Level">A spell dancer gains the ability to expend 1 point from his <em>arcane pool</em> as a <strong className="hl">swift action</strong> to gain a +10 enhancement bonus to his movement rate and a +2 dodge bonus to Armor Class against attacks of opportunity provoked by moving through threatened spaces for 1 minute.</Pair>
@@ -1263,19 +1263,19 @@ const _spell_dancer = {title: "Spell Dancer", jsx: <><h2 id="arc-magus-spell_dan
 <Pair title="At 13th Level">These bonuses increase to a +40 enhancement to movement and a +8 dodge bonus. The spell dancer now has the option to gain <Link to="/spell/freedom_of_movement">freedom of movement</Link> for 1d4 rounds, instead of the 5th- and 9th-level options.</Pair>
 <Pair title="At 17th Level">These bonuses increase to a +50 enhancement to movement and a +10 dodge bonus.</Pair>
 </Ability>
-<Ability id="arcane-movement-su" icon={["upgrade"]}>
+<Ability id="arcane-movement-su" icon={["boost"]}>
 <Pair single id="arcane-movement-su">Arcane Movement (Su)</Pair>
 <Pair hl title="Replaces">5th-level bonus feat</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">Whenever a spell dancer casts a magus spell, he gains a competence bonus on Acrobatics, Climb, Escape Artist, and Stealth checks equal to the spell's level until the beginning of his next turn.</Pair>
 </Ability>
-<Ability id="dance-of-avoidance-su" icon={["armor-upgrade"]}>
+<Ability id="dance-of-avoidance-su" icon={["def"]}>
 <Pair single id="dance-of-avoidance-su">Dance of Avoidance (Su)</Pair>
 <Pair hl title="Replaces">Medium armor</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">While wearing light armor or no armor, a spell dancer gains a +2 insight bonus to Armor Class.</Pair>
 </Ability>
-<Ability id="greater-dance-of-avoidance-su" icon={["armor-upgrade"]}>
+<Ability id="greater-dance-of-avoidance-su" icon={["def"]}>
 <Pair single id="greater-dance-of-avoidance-su">Greater Dance of Avoidance (Su)</Pair>
 <Pair hl title="Replaces">Heavy armor</Pair>
 <Pair title="Gained">At 13th Level</Pair>
@@ -1285,23 +1285,23 @@ const _spell_dancer = {title: "Spell Dancer", jsx: <><h2 id="arc-magus-spell_dan
 </>};
 const _spell_trapper = {title: "Spell Trapper", jsx: <><h2 id="arc-magus-spell_trapper-spell-trapper">Spell Trapper</h2>
 <p><strong>Sources</strong> <Link to="/source/magic_tactics_toolbox">Magic Tactics Toolbox pg. 15</Link><br/>Spell trappers are found in lands where hunting and magic are abundant, particularly the deserts of Thuvia and the harsh lands of Geb and Nex. They forsake much of their arcane skill and martial knowledge in exchange for the ability to conjure magical traps to hinder their foes.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Knowledge (planes)</Pair></Ability>
-<Ability id="diminished-arcana" icon={["broken-shield","stairs-goal"]}>
+<Ability id="diminished-arcana" icon={["down","power"]}>
 <Pair single id="diminished-arcana">Diminished Arcana</Pair>
 <Pair hl title="Alters">Magus arcana</Pair>
 <Pair title="Info">A spell trapper treats his effective magus level as 3 lower when determining which arcana he can select. A spell trapper can choose to learn a new trap (see <em>Spell Traps</em> below) in place of learning a new magus arcana.</Pair>
 </Ability>
-<Ability id="spell-traps-sp" icon={["stairs-goal"]}>
+<Ability id="spell-traps-sp" icon={["power"]}>
 <Pair single id="spell-traps-sp">Spell Traps (Sp)</Pair>
 <Pair hl title="Replaces">Spell recall</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A spell trapper learns how to craft magical traps in exchange for the use of spell slots. These <Link to="/rule/traps">traps</Link> work as <Link to="/ability/ranger_traps">ranger traps</Link>, except they always count as spell-like abilities. A spell trap is always considered magical, and is treated as a spell with a spell level equal to 1/3 the spell trapper's class level. A magical trap lasts only 1 hour per level or until triggered, whichever comes first. A trap's DC decreases by 1 for each full hour that passes after it is set. Upon gaining this ability, the spell trapper automatically knows the <Link to="/rangertrap/snare_trap">snare trap</Link>.</Pair>
 <Pair title="Special">Setting a spell trap is a <strong className="hl">full-round action</strong> that provokes attacks of opportunity. If attacked during the course of conjuring a trap, the spell trapper must attempt a <Link to="/rule/concentration">concentration</Link> check, as though damaged while casting a spell. A trap fills a single 5-foot square, and cannot be placed in the same area as another spell trapper trap or a magical trap such as a <Link to="/spell/glyph_of_warding">glyph of warding</Link>. Spell trappers need access to a material component pouch to craft spell traps (unless they have the <Link to="/feat/eschew_materials">Eschew Materials</Link> feat) and must sacrifice a spell slot to create the trap. The DCs for Perception checks to notice the trap, Disable Device checks to disable it, and saving throws to avoid it are equal to 10 + 1/2 the spell trapper's magus level + the spell slot level sacrificed to create the trap. All spell traps are <Link to="/rule/trigger">Trigger</Link> location, and <Link to="/rule/reset">Reset</Link> none.</Pair>
 </Ability>
-<Ability id="distant-trapping-sp" icon={["stairs-goal"]}>
+<Ability id="distant-trapping-sp" icon={["power"]}>
 <Pair single id="distant-trapping-sp" flavor="A spell trapper can create spell traps at a distance.">Distant Trapping (Sp)</Pair>
 <Pair hl title="Replaces">Fighter training</Pair>
 <Pair title="Gained">At 10th Level</Pair>
@@ -1310,26 +1310,26 @@ const _spell_trapper = {title: "Spell Trapper", jsx: <><h2 id="arc-magus-spell_t
 </>};
 const _spellblade = {title: "Spellblade", jsx: <><h2 id="arc-magus-spellblade-spellblade">Spellblade</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 49</Link><br/>A spellblade magus can manifest a ghostly blade of force that can be used as an off-hand weapon.</p>
-<Ability id="force-athame-sp" icon={["stairs-goal","mailed-fist"]}>
+<Ability id="force-athame-sp" icon={["power","melee"]}>
 <Pair single id="force-athame-sp">Force Athame (Sp)</Pair>
 <Pair hl title="Replaces">Spellstrike</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Swift Action">A spellblade magus can sacrifice a prepared magus spell of 1st level or higher to create a dagger of force in his off hand. The <em>athame</em> lasts for 1 minute or until dismissed, has an enhancement bonus on attack and damage rolls equal to the level of the spell sacrificed (maximum +5), and is considered a weapon the spellblade is holding for purposes of his <em>arcane pool</em> feature (using the pool to add abilities to a held weapon applies to the magus's physical weapon and to the <em>athame</em> for no additional cost).</Pair>
 <Pair title="Special">The <em>athame</em> acts as a <Link to="/eq-weapon/dagger">dagger</Link>, but the hand holding it is still considered free for the purpose of casting spells and delivering touch attacks. The magus can use the <em>athame</em> as if he were <Link to="/rule/fighting_with_two_weapons">fighting with two weapons</Link>, or can use that hand to cast spells as part of the <em>spell combat</em> class ability (but not both in the same round). Attacks with the <em>athame</em> are <Link to="/spelldef/force">force</Link> attacks and deal force damage.</Pair>
 </Ability>
-<Ability id="spellblade-arcana" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="spellblade-arcana" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="spellblade-arcana">Spellblade Arcana</Pair>
 <Pair title="Ability">A spellblade gains access to the following magus arcana. He cannot select any arcana more than once.</Pair>
 </Ability>
-<Ability id="pool-sourced-athame-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="pool-sourced-athame-su" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="pool-sourced-athame-su">Pool-Sourced Athame (Su)</Pair>
 <Pair title="Ability">Instead of sacrificing a prepared spell to create the <em>force athame,</em> the magus can spend points from his <em>arcane pool</em> to do so. An <em>athame</em> created this way has an enhancement bonus equal to the number of <em>arcane pool</em> points spent.</Pair>
 </Ability>
-<Ability id="spellblade-parry-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="spellblade-parry-su" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="spellblade-parry-su">Spellblade Parry (Su)</Pair>
 <Pair title="Immediate Action">When an enemy makes a melee attack roll against the magus, he can end the <em>athame's</em> duration to gain a deflection bonus to his Armor Class until the end of his next turn. This bonus is equal to the level of the spell sacrificed to create the <em>athame</em> (maximum +5).</Pair>
 </Ability>
-<Ability id="throw-athame-su" extraClasses="subAbility" icon={["bowman"]}>
+<Ability id="throw-athame-su" extraClasses="subAbility" icon={["ranged"]}>
 <Pair single id="throw-athame-su">Throw Athame (Su)</Pair>
 <Pair title="Standard Action">A spellblade magus can throw his <em>athame</em> up to 60 feet as a ranged attack (no range penalty). If the <em>athame</em> misses, it returns automatically to the magus' hand just before his next turn. If the <em>athame</em> hits, it deals damage and its duration ends; the magus can choose to spend up to 2 points from his <em>arcane pool</em> to increase the thrown <em>athame's</em> damage by +1d6 for each point spent.</Pair>
 </Ability>
@@ -1337,19 +1337,19 @@ const _spellblade = {title: "Spellblade", jsx: <><h2 id="arc-magus-spellblade-sp
 </>};
 const _spire_defender = {title: "Spire Defender", jsx: <><h2 id="arc-magus-spire_defender-spire-defender">Spire Defender</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 39</Link><br/>Spire defenders are magi who train themselves to accompany sages and archaeologists who venture from the Mordant Spire, acting as aids and bodyguards. Because they often operate in <Link to="/rule/difficult_terrain">difficult terrain</Link> - narrow trenches in dig sites, flooded dungeons, and tight corridors in ancient ruins' spire defenders place mobility and agility at a premium. As a result, they eschew armor entirely. A spire defender has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-magus-spire_defender--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>It's exceptionally rare for a non-<Link to="/race/elf">elf</Link> to be granted access to the training required to take this archetype (non-elves need GM approval to take this archetype).</td></tr></tbody></table></ScrollContainer></div><Ability id="weapon-proficiency" icon={["stairs-goal"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-magus-spire_defender--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>It's exceptionally rare for a non-<Link to="/race/elf">elf</Link> to be granted access to the training required to take this archetype (non-elves need GM approval to take this archetype).</td></tr></tbody></table></ScrollContainer></div><Ability id="weapon-proficiency" icon={["power"]}>
 <Pair single id="weapon-proficiency">Weapon Proficiency</Pair>
 <Pair hl title="Replaces">Weapon proficiencies</Pair>
 <Pair title="Ability">A spire defender is proficient with all light and one-handed simple and martial weapons, as well as one exotic light or one-handed melee weapon that has the <Link to="/misc/disarm">disarm</Link> or <Link to="/misc/trip">trip</Link> special feature.</Pair>
 </Ability>
-<Ability id="bonus-feats-ex" icon={["stairs-goal","broken-shield"]}>
+<Ability id="bonus-feats-ex" icon={["power","down"]}>
 <Pair single id="bonus-feats-ex">Bonus Feats (Ex)</Pair>
 <Pair hl title="Replaces">Armor proficiencies</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">The spire defender gains <Link to="/feat/combat_expertise">Combat Expertise</Link> and <Link to="/feat/dodge">Dodge</Link> as bonus feats, even if he doesn't meet the prerequisites. The spire defender is not proficient in any kind of armor or shield. The spire defender does not have the magus' ability to ignore arcane spell failure from armor; however, if the spire defender becomes proficient in light armor, he automatically gains the magus's ability to ignore the arcane spell failure chance of light armor.</Pair>
 <Pair title="Special">If he becomes proficient in medium armor, at 7th level he ignores medium armor's chance of arcane spell failure. If he becomes proficient in heavy armor, at 13th level he ignores heavy armor's chance of arcane spell failure.</Pair>
 </Ability>
-<Ability id="arcane-augmentation-su" icon={["upgrade"]}>
+<Ability id="arcane-augmentation-su" icon={["boost"]}>
 <Pair single id="arcane-augmentation-su">Arcane Augmentation (Su)</Pair>
 <Pair hl title="Replaces">Spell recall</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -1363,24 +1363,24 @@ const _spire_defender = {title: "Spire Defender", jsx: <><h2 id="arc-magus-spire
 </>};
 const _staff_magus = {title: "Staff Magus", jsx: <><h2 id="arc-magus-staff_magus-staff-magus">Staff Magus</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 49</Link><br/>While most magi use a one-handed weapon as their melee implement of choice, one group of magi uses the quarterstaff instead. These lightly armored magi use staves for both defense and inflicting their spells upon enemies. Skilled in manipulating these weapons with one hand or two, they eventually learn how to use arcane staves as well, and are just as formidable in combat as their sword-swinging brethren.</p>
-<Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["down"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Replaces">Weapon and armor proficiencies</Pair>
 <Pair title="Info">A staff magus is proficient with simple weapons only. He can cast magus spells while wearing light armor without incurring the normal arcane spell failure chance. Like any other arcane spellcaster, a magus wearing medium armor or heavy armor or using a shield incurs a chance of arcane spell failure if the spell in question has a somatic component. A multiclass magus still incurs the normal arcane spell failure chance for arcane spells received from other classes.</Pair>
 </Ability>
-<Ability id="quarterstaff-master-ex" icon={["stairs-goal"]}>
+<Ability id="quarterstaff-master-ex" icon={["power"]}>
 <Pair single id="quarterstaff-master-ex">Quarterstaff Master (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">The staff magus gains the <Link to="/feat/quarterstaff_master">Quarterstaff Master</Link> feat as a bonus feat, even if he does not meet the normal prerequisites. He only gains the benefit of this feat when wearing no armor or light armor.</Pair>
 </Ability>
-<Ability id="quarterstaff-defense-ex" icon={["armor-upgrade"]}>
+<Ability id="quarterstaff-defense-ex" icon={["def"]}>
 <Pair single id="quarterstaff-defense-ex">Quarterstaff Defense (Ex)</Pair>
 <Pair hl title="Replaces">Medium armor, heavy armor</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">While wielding a quarterstaff, the staff magus gains a shield bonus to his Armor Class equal to the enhancement bonus of the quarterstaff, including any enhancement bonus on that staff from his <em>arcane pool</em> class feature.</Pair>
 <Pair title="At 13th Level">This bonus increases by +3.</Pair>
 </Ability>
-<Ability id="staff-weapon-su" icon={["mailed-fist"]}>
+<Ability id="staff-weapon-su" icon={["melee"]}>
 <Pair single id="staff-weapon-su">Staff Weapon (Su)</Pair>
 <Pair hl title="Replaces">Fighter training</Pair>
 <Pair title="Gained">At 10th Level</Pair>

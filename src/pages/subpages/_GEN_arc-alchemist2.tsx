@@ -7,20 +7,20 @@ import AffInfo from '../../components/AfflictionInfo';
 import TrapInfo from '../../components/TrapInfo';
 const _herbalist = {title: "Herbalist", jsx: <><h2 id="arc-alchemist-herbalist-herbalist">Herbalist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 22</Link><br/>Vine leshys who study the physical and spiritual composition of their own bodies have discovered a strange herbal alchemy all their own.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-herbalist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/vine_leshy">Vine Leshy</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="herbalism-su" icon={["stairs-goal"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-herbalist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/vine_leshy">Vine Leshy</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="herbalism-su" icon={["power"]}>
 <Pair single id="herbalism-su">Herbalism (Su)</Pair>
 <Pair hl title="Alters">Alchemy, the alchemist's key ability score</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An herbalist's studies allow him a unique method of creating alchemical discoveries. He can attempt Profession (herbalist) checks in place of Craft (alchemy) checks for all purposes, and he gains a competence bonus equal to <Link to="/misc/half">half</Link> his alchemist level on Profession (herbalist) checks to create alchemical items and to forage for and process herbs. An herbalist uses his <strong className="hl">Wisdom</strong> score instead of his Intelligence score for all alchemist class abilities.</Pair>
 </Ability>
-<Ability id="natural-magic" icon={["spell-book"]}>
+<Ability id="natural-magic" icon={["learn"]}>
 <Pair single id="natural-magic">Natural Magic</Pair>
 <Pair hl title="Replaces">Throw Anything</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">An herbalist's study of the leshy spirit grants him access to natural magic that eludes other alchemists. Each time he gains access to a new level of extracts (including 1st level), he can add two spells from that spell level on the <Link to="/main/druid_spell">druid spell list</Link> to his alchemist class spell list; these spells must target a creature or creatures or have a range of "you," and he must still add them to his formula book as normal before he can prepare them.</Pair>
 <Pair title="Special">As always, the extracts affect the drinker as if she were the target, so offensive touch spells are a nasty trap for the drinker.</Pair>
 </Ability>
-<Ability id="seedpods-su" icon={["smoking-finger"]}>
+<Ability id="seedpods-su" icon={["zap"]}>
 <Pair single id="seedpods-su">Seedpods (Su)</Pair>
 <Pair hl title="Replaces">Bombs, poison use, poison resistance, poison immunity</Pair>
 <Pair title="Ability">An herbalist can produce and throw seedpods as ranged touch attacks, similar to the ranged attacks of other leshys. He can create a number of seedpods each day equal to his alchemist level + his Wisdom modifier and can throw them as a standard action with a range increment of 20 feet. A seedpod deals 1d6 points of bludgeoning damage, plus an additional 1d6 points of damage at 3rd level and every 2 levels thereafter (this additional damage isn't multiplied on a critical hit or from effects like <Link to="/feat/vital_strike">Vital Strike</Link>). Seedpods are considered weapons and can be selected for feats like <Link to="/feat/weapon_focus">Weapon Focus</Link>, and the herbalist can take the <Link to="/feat/extra_bombs">Extra Bombs</Link> feat to gain additional daily uses of his seedpods. His seedpods also gain one of the following additional effects unless the target succeeds at a Fortitude save (DC = 10 + half the herbalist's alchemist level + his Wisdom modifier).</Pair>
@@ -33,16 +33,16 @@ const _herbalist = {title: "Herbalist", jsx: <><h2 id="arc-alchemist-herbalist-h
 </>};
 const _homunculist = {title: "Homunculist", jsx: <><h2 id="arc-alchemist-homunculist-homunculist">Homunculist</h2>
 <p><strong>Sources</strong> <Link to="/source/familiar_folio">Familiar Folio pg. 8</Link><br/>One of the grand goals of alchemy is the ability to create new life. A homunculist has made this dream a reality, growing and modifying a familiar in his own laboratory.</p>
-<Ability id="diminished-poisoning" icon={["broken-shield"]}>
+<Ability id="diminished-poisoning" icon={["down"]}>
 <Pair single id="diminished-poisoning">Diminished Poisoning</Pair>
 <Pair title="Passive Ability">A homunculist doesn't gain the <em>poison use, poison resistance, poison immunity,</em> or <em>swift poisoning</em> class features.</Pair>
 </Ability>
-<Ability id="homunculus-familiar-ex" icon={["stairs-goal"]}>
+<Ability id="homunculus-familiar-ex" icon={["power"]}>
 <Pair single id="homunculus-familiar-ex">Homunculus Familiar (Ex)</Pair>
 <Pair hl title="Replaces">Mutagen</Pair>
 <Pair title="Ability">The homunculist has created a living <Link to="/monster/homunculus">homunculus</Link> in the shape of an animal or vermin. It functions in all ways as a <Link to="/ability/familiar">familiar</Link>, treating the homunculist's alchemist level as his effective wizard level.</Pair>
 </Ability>
-<Ability id="experimentation-ex" icon={["stairs-goal"]}>
+<Ability id="experimentation-ex" icon={["power"]}>
 <Pair single id="experimentation-ex">Experimentation (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A homunculist is constantly experimenting on his <Link to="/sidekick/familiar">familiar</Link> to give it new and unusual features and abilities. The homunculist can grant his familiar 1 evolution point worth of eidolon <Link to="/ability/evolutions">evolutions</Link> for every 4 alchemist levels he possesses, though he can't select any evolutions that require a particular base form. Each time the homunculist gains a level, he can change his familiar's evolutions. These evolutions stack with those from the <Link to="/feat/evolved_familiar">Evolved Familiar</Link> feat.</Pair>
@@ -51,34 +51,34 @@ const _homunculist = {title: "Homunculist", jsx: <><h2 id="arc-alchemist-homuncu
 </>};
 const _horticulturist = {title: "Horticulturist", jsx: <><h2 id="arc-alchemist-horticulturist-horticulturist">Horticulturist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 35</Link>, <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 24</Link><br/>A horticulturist spends his time cultivating plants and plant creatures, allowing him to experiment with strange and wondrous herbal concoctions.</p>
-<Ability id="seed-extract" icon={["spell-book"]}>
+<Ability id="seed-extract" icon={["learn"]}>
 <Pair single id="seed-extract">Seed Extract</Pair>
 <Pair hl title="Replaces">Mutagen, 2nd-level discovery</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">A horticulturist adds <em>summon nature's ally I-VI</em> as 1st- through 6th-level extracts, respectively, to his class extract list. For example, he automatically adds <Link to="/spell/summon_natures_ally_i">summon nature's ally I</Link> to his formula book at 1st level and adds the next higher-level spell to his formula book each time he gains the ability to use extracts of that level. The horticulturist uses these special extracts to plant a seed that grows into a creature, bypassing the restriction for single target or personal effects. Using these extracts takes 1 round (as the spell's normal casting time), and the creature summoned must be placed in a space adjacent to the horticulturist. The horticulturist can use these extracts to summon only animals and plants on the appropriate summon nature's ally list.</Pair>
 <Pair title="Special">Creatures the horticulturist summons with these extracts become creatures with the plant type (gaining low-light vision and immunity to mind-affecting, paralysis, poison, polymorph, sleep, and stunning effects) rather than their normal type, but their attack bonuses, Hit Dice, saving throws, and skills don't change. A horticulturist can't choose mutagen discoveries.</Pair>
 </Ability>
-<Ability id="herbal-bombs-su" icon={["broken-shield","upgrade"]}>
+<Ability id="herbal-bombs-su" icon={["down","boost"]}>
 <Pair single id="herbal-bombs-su">Herbal Bombs (Su)</Pair>
 <Pair hl title="Alters">Bombs</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A horticulturist's bombs lack the power of a traditional alchemist's but can be fine-tuned in ways normal alchemist explosives cannot. The horticulturist's bombs deal 1d4 points of damage (instead of 1d6), plus 1d4 points of damage for every 2 alchemist levels beyond 1st. When the horticulturist creates a bomb, he can formulate it to affect plants and other creatures normally, affect only plant creatures, or affect only creatures not of the plant type.</Pair>
 </Ability>
-<Ability id="plant-voice-ex-su" icon={["upgrade","stairs-goal"]}>
+<Ability id="plant-voice-ex-su" icon={["boost","power"]}>
 <Pair single id="plant-voice-ex-su">Plant Voice (Ex, Su)</Pair>
 <Pair hl title="Replaces">Poison resistance, poison use, poison immunity</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A horticulturist gains a +2 bonus on Knowledge (nature) and Survival checks.</Pair>
 <Pair title="At 10th Level">He can speak to plants as a constant <Link to="/spell/speak_with_plants">speak with plants</Link> spell (this ability is supernatural).</Pair>
 </Ability>
-<Ability id="plant-familiar-ex" icon={["stairs-goal"]}>
+<Ability id="plant-familiar-ex" icon={["power"]}>
 <Pair single id="plant-familiar-ex">Plant Familiar (Ex)</Pair>
 <Pair hl title="Replaces">The discovery gained at 4th level</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A horticulturist creates a Diminutive or Tiny alchemical plant creature that vaguely resembles a kind of animal suitable for a familiar (such as a cat) and acts as his <Link to="/ability/familiar">familiar</Link>, granting the horticulturist a skill bonus, the <Link to="/feat/alertness">Alertness</Link> feat, and so on. The plant familiar has all the abilities of the animal it resembles (for example, a bat-like plant familiar can fly) but is treated as a creature of the plant type and has familiar abilities based on the horticulturist's alchemist level (though some familiar abilities may be useless to the horticulturist).</Pair>
 <Pair title="Special">An alchemist's extracts and mutagens are considered spells for the purposes of familiar abilities like <em>share spells</em> or <em>deliver touch spells.</em> If a plant familiar is lost or dies, it can be replaced 1 week later through a specialized procedure that costs 200 gp per alchemist level the horticulturist has. The ritual takes 8 hours to complete.</Pair>
 </Ability>
-<Ability id="fury-of-nature-sp" icon={["magic-swirl"]}>
+<Ability id="fury-of-nature-sp" icon={["magic"]}>
 <Pair single id="fury-of-nature-sp">Fury of Nature (Sp)</Pair>
 <Pair hl title="Replaces">Persistent mutagen</Pair>
 <Pair title="Gained">At 14th Level</Pair>
@@ -87,19 +87,19 @@ const _horticulturist = {title: "Horticulturist", jsx: <><h2 id="arc-alchemist-h
 </>};
 const _ice_chemist = {title: "Ice Chemist", jsx: <><h2 id="arc-alchemist-ice_chemist-ice-chemist">Ice Chemist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 35</Link><br/>Reclusive alchemists who dwell in the highest mountains or on the frozen tundra devote their skills to mastering the cold.</p>
-<Ability id="icy-bombs-su" icon={["stairs-goal"]}>
+<Ability id="icy-bombs-su" icon={["power"]}>
 <Pair single id="icy-bombs-su">Icy Bombs (Su)</Pair>
 <Pair hl title="Alters">Bombs</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An ice chemist's bombs deal cold damage instead of fire damage. In place of an alchemist discovery, she can learn to create bombs that deal fire damage like normal alchemist bombs do, though she can't apply discoveries that modify bombs to such fire bombs that she creates. An ice alchemist's icy bombs can still be poisonous or create thick vapors similar to smoke, but she cannot apply the <Link to="/discovery/explosive_bomb">explosive</Link> or <Link to="/discovery/inferno_bomb">inferno bomb</Link> discoveries to them.</Pair>
 </Ability>
-<Ability id="cold-sweat-su" icon={["armor-upgrade"]}>
+<Ability id="cold-sweat-su" icon={["def"]}>
 <Pair single id="cold-sweat-su" flavor="An ice chemist channels her affinity for cold energy into her personal space, keeping herself and her gear cool.">Cold Sweat (Su)</Pair>
 <Pair hl title="Replaces">Poison resistance, poison immunity</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">She gains cold <Link to="/umr/resistance">resistance</Link> equal to her alchemist level and can survive comfortably in temperatures as low as -50&deg; Fahrenheit.</Pair>
 </Ability>
-<Ability id="frost-bomb-su" icon={["stairs-goal"]}>
+<Ability id="frost-bomb-su" icon={["power"]}>
 <Pair single id="frost-bomb-su">Frost Bomb (Su)</Pair>
 <Pair hl title="Replaces">2nd-level discovery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -108,22 +108,22 @@ const _ice_chemist = {title: "Ice Chemist", jsx: <><h2 id="arc-alchemist-ice_che
 </>};
 const _inspired_chemist = {title: "Inspired Chemist", jsx: <><h2 id="arc-alchemist-inspired_chemist-inspired-chemist">Inspired Chemist</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 75</Link><br/>Akin to a mindchemist, inspired chemists use a type of cognatogen that instead of increasing their mental ability scores grants them inspiration like an investigator. This inspiration also grants an inspired chemist amazing powers to avoid danger, but takes a toll on both physical power and health.</p>
-<Ability id="inspiring-cognatogen" icon={["stairs-goal"]}>
+<Ability id="inspiring-cognatogen" icon={["power"]}>
 <Pair single id="inspiring-cognatogen">Inspiring Cognatogen</Pair>
 <Pair hl title="Replaces">Mutagen</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An inspired chemist learns how to create an inspiring cognatogen, as the <Link to="/discovery/inspiring_cognatogen">inspiring cognatogen</Link> discovery.</Pair>
 <Pair title="Special">An inspired chemist can learn to create mutagens if he selects the <Link to="/discovery/mutagen">mutagen</Link> discovery.</Pair>
 </Ability>
-<Ability id="bonus-feats" icon={["stairs-goal"]}>
+<Ability id="bonus-feats" icon={["power"]}>
 <Pair single id="bonus-feats">Bonus Feats</Pair>
 <Pair title="Passive Ability">An inspired chemist can select <Link to="/feat/skill_focus">Skill Focus</Link> (Disable Device, Disguise, Heal, any Knowledge skill, Sense Motive, Spellcraft, or Use Magic Device) in place of a discovery.</Pair>
 </Ability>
-<Ability id="bonus-investigator-talents" icon={["stairs-goal"]}>
+<Ability id="bonus-investigator-talents" icon={["power"]}>
 <Pair single id="bonus-investigator-talents">Bonus Investigator Talents</Pair>
 <Pair title="Passive Ability">An inspired chemist can select any two <Link to="/ability/investigator_talents">investigator talents</Link> in place of a discovery, but can only use these talents while under the effect of an inspiring cognatogen.</Pair>
 </Ability>
-<Ability id="languages" icon={["stairs-goal"]}>
+<Ability id="languages" icon={["power"]}>
 <Pair single id="languages">Languages</Pair>
 <Pair title="Passive Ability">An inspired chemist can learn three <Link to="/misc/languages">languages</Link> in place of a discovery.</Pair>
 </Ability>
@@ -131,7 +131,7 @@ const _inspired_chemist = {title: "Inspired Chemist", jsx: <><h2 id="arc-alchemi
 </>};
 const _internal_alchemist = {title: "Internal Alchemist", jsx: <><h2 id="arc-alchemist-internal_alchemist-internal-alchemist">Internal Alchemist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 18</Link><br/>An internal alchemist studies medicine, diet, and the living body to purify the self in the hope of gaining immortality by means of alchemical concoctions and controlling vital energy. Internal alchemists develop unusual physical abilities from heightened knowledge of how their bodies work. An internal alchemist has the following class features.</p>
-<Ability id="breath-mastery" icon={["stairs-goal","armor-upgrade","magic-swirl"]}>
+<Ability id="breath-mastery" icon={["power","def","magic"]}>
 <Pair single id="breath-mastery" flavor="The internal alchemist can control his breath and the flow of vital energy within his body.">Breath Mastery</Pair>
 <Pair hl title="Replaces">Throw Anything</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -140,18 +140,18 @@ const _internal_alchemist = {title: "Internal Alchemist", jsx: <><h2 id="arc-alc
 <Pair title="Passive Ability">The alchemist can survive twice as long as normal without food or water before he starts to take penalties.</Pair>
 <Pair title="Move-Equivalent Action">He can put himself into a state of suspended animation as a <strong className="hl">move action</strong>, and is then unconscious and appears completely dead; he awakens at a preset time or in response to a condition set by him when he enters this state.</Pair>
 </Ability>
-<Ability id="bonus-feats" icon={["stairs-goal"]}>
+<Ability id="bonus-feats" icon={["power"]}>
 <Pair single id="bonus-feats">Bonus Feats</Pair>
 <Pair title="Passive Ability">An internal alchemist can select <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/extra_ki">Extra Ki</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_critical">Improved Critical</Link> (unarmed strike), <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/stunning_fist">Stunning Fist</Link>, or <Link to="/feat/weapon_focus">Weapon Focus</Link> (unarmed strike) in place of an alchemical discovery.</Pair>
 </Ability>
-<Ability id="disease-resistance" icon={["armor-upgrade"]}>
+<Ability id="disease-resistance" icon={["def"]}>
 <Pair single id="disease-resistance">Disease Resistance</Pair>
 <Pair hl title="Replaces">Swift alchemy</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">An internal alchemist gains a bonus on all saving throws against disease equal to his alchemist class bonus against poison.</Pair>
 <Pair title="Special">When he gains the <em>poison immunity</em> alchemist class ability, he becomes immune to disease as well.</Pair>
 </Ability>
-<Ability id="uncanny-dodge" icon={["armor-upgrade"]}>
+<Ability id="uncanny-dodge" icon={["def"]}>
 <Pair single id="uncanny-dodge" flavor="An internal alchemist can react to danger before his senses would normally allow him to do so.">Uncanny Dodge</Pair>
 <Pair hl title="Replaces">Swift poisoning</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -162,10 +162,10 @@ const _internal_alchemist = {title: "Internal Alchemist", jsx: <><h2 id="arc-alc
 </>};
 const _interrogator = {title: "Interrogator", jsx: <><h2 id="arc-alchemist-interrogator-interrogator">Interrogator</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 18</Link><br/>An interrogator extracts vital information from reluctant individuals using alchemical and traditional methods.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair></Ability>
-<Ability id="injections-su" icon={["magic-palm"]}>
+<Ability id="injections-su" icon={["touch"]}>
 <Pair single id="injections-su">Injections (Su)</Pair>
 <Pair hl title="Replaces">Bomb</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -173,7 +173,7 @@ const _interrogator = {title: "Interrogator", jsx: <><h2 id="arc-alchemist-inter
 <Pair title="Standard Action">Using an injection is a standard action that requires a melee touch attack. If the attack hits, the target of an injection takes a -2 penalty on its Will saving throws for a number of minutes equal to half the interrogator's class level (minimum 1). If the interrogator is also using a <em>serum</em> with this injection, the penalty on Will saves applies to any save against the <em>serum.</em> If the melee touch attack fails, the injection isn't delivered but can still be used again - once activated, it remains potent for 1 day.</Pair>
 <Pair title="Special">An injection that hasn't been administered becomes inert if it leaves the interrogator's possession, reactivating as soon as it returns to his possession. The penalties from multiple injections don't stack, nor do the penalties from injections stack with penalties from a <Link to="/class/mesmerist">mesmerist's</Link> stare or a witch's <Link to="/hex/evil_eye">evil eye</Link> hex. Injections are mind-affecting poison effects.</Pair>
 </Ability>
-<Ability id="serums-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="serums-su" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="serums-su" flavor="An interrogator augments his ability to influence others through supplemental serums.">Serums (Su)</Pair>
 <Pair hl title="Replaces">Mutagen, persistent mutagen</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -181,43 +181,43 @@ const _interrogator = {title: "Interrogator", jsx: <><h2 id="arc-alchemist-inter
 <Pair title="Ability">An interrogator knows one serum at 1st level and can learn another serum in place of a discovery. A creature can be under the effect of only a single serum at a time - with the exception of <em>memory modification</em> serum - with any further serums on the same creature replacing the old serum.</Pair>
 <Pair title="Special">The save DCs of serums are equal to 10 + <Link to="/misc/half">half</Link> the interrogator's alchemist level + his Intelligence modifier. Unless otherwise noted, a creature that succeeds on its saving throw against a serum is immune to that serum's effects for 24 hours. An interrogator can never gain any sort of mutagen or cognatogen, even from a discovery or another class.</Pair>
 </Ability>
-<Ability id="charming" extraClasses="subAbility numbered" icon={["magic-swirl"]}>
+<Ability id="charming" extraClasses="subAbility numbered" icon={["magic"]}>
 <Pair single id="charming">Charming</Pair>
 <Pair title="Ability">The injected creature must succeed at a Will save or treat the interrogator favorably, as if affected by <Link to="/spell/charm_person">charm person</Link> with a caster level equal to the interrogator's alchemist level.</Pair>
 <Pair title="At 8th Level">This serum acts as <Link to="/spell/charm_monster">charm monster</Link>.</Pair>
 </Ability>
-<Ability id="compliance" extraClasses="subAbility numbered" icon={["magic-swirl"]}>
+<Ability id="compliance" extraClasses="subAbility numbered" icon={["magic"]}>
 <Pair single id="compliance">Compliance</Pair>
 <Pair title="Prerequisites">8th-level interrogator</Pair>
 <Pair title="Passive Ability">On a failed Will save, the subject of this injection is affected by a <Link to="/spell/suggestion">suggestion</Link> with a caster level equal to the interrogator's alchemist level.</Pair>
 </Ability>
-<Ability id="confusion" extraClasses="subAbility numbered" icon={["armor-downgrade"]}>
+<Ability id="confusion" extraClasses="subAbility numbered" icon={["lower"]}>
 <Pair single id="confusion">Confusion</Pair>
 <Pair title="Prerequisites">6th-level interrogator</Pair>
 <Pair title="Passive Ability">On a failed Will save, the injected creature is <Link to="/misc/confused">confused</Link> for 1 round per alchemist level the interrogator has.</Pair>
 </Ability>
-<Ability id="hypnosis" extraClasses="subAbility numbered" icon={["armor-downgrade"]}>
+<Ability id="hypnosis" extraClasses="subAbility numbered" icon={["lower"]}>
 <Pair single id="hypnosis">Hypnosis</Pair>
 <Pair title="Passive Ability">The injected creature must succeed at a Will save or become <Link to="/misc/fascinated">fascinated</Link> for 1 round per alchemist level the interrogator has.</Pair>
 </Ability>
-<Ability id="memory-modification" extraClasses="subAbility numbered" icon={["magic-swirl"]}>
+<Ability id="memory-modification" extraClasses="subAbility numbered" icon={["magic"]}>
 <Pair single id="memory-modification">Memory Modification</Pair>
 <Pair title="Prerequisites">12th-level interrogator</Pair>
 <Pair title="Passive Ability">On a failed Will save, the target of this serum is affected by <Link to="/spell/modify_memory">modify memory</Link> at a caster level equal to the interrogator's alchemist level.</Pair>
 </Ability>
-<Ability id="paralytic" extraClasses="subAbility numbered" icon={["magic-swirl"]}>
+<Ability id="paralytic" extraClasses="subAbility numbered" icon={["magic"]}>
 <Pair single id="paralytic">Paralytic</Pair>
 <Pair title="Prerequisites">8th-level interrogator</Pair>
 <Pair title="Passive Ability">On a failed Will save, the injected creature is affected by <Link to="/spell/hold_person">hold person</Link> with a caster level equal to the interrogator's alchemist level.</Pair>
 </Ability>
-<Ability id="truth" extraClasses="subAbility numbered" icon={["magic-swirl"]}>
+<Ability id="truth" extraClasses="subAbility numbered" icon={["magic"]}>
 <Pair single id="truth">Truth</Pair>
 <Pair title="Passive Ability">A creature injected with a truth serum must succeed at a Will save or be compelled to answer the interrogator's questions truthfully. The interrogator can ask one question per 2 alchemist levels (minimum 1). Answers might be brief, cryptic, or repetitive, especially if the injected creature is unfriendly, but they aren't false. If a creature has been subjected to a truth serum within the past week, whether it succeeded at or failed its save, any new serum fails.</Pair>
 </Ability>
 </>};
 const _mad_scientist = {title: "Mad Scientist", jsx: <><h2 id="arc-alchemist-mad_scientist-mad-scientist">Mad Scientist</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 45</Link><br/>The mad scientist's colleagues laughed at her insights, mocked her theories, and hounded her from the halls of academia, simply because they were too weak and frightened to understand her work. They thought she was finished. They were wrong.</p>
-<Ability id="mad-genius-su" icon={["magic-swirl","broken-shield"]}>
+<Ability id="mad-genius-su" icon={["magic","down"]}>
 <Pair single id="mad-genius-su">Mad Genius (Su)</Pair>
 <Pair hl title="Replaces">2nd-level discovery</Pair>
 <Pair hl title="Alters">Alchemy</Pair>
@@ -226,7 +226,7 @@ const _mad_scientist = {title: "Mad Scientist", jsx: <><h2 id="arc-alchemist-mad
 <Pair title="Passive Ability">There is no way to predict which effect a genius extract will produce before drinking it. A genius extract's minimum caster level is equal to the minimum caster level of the extract used, not the effect produced. So, for instance, a genius extract that produced a <Link to="/spell/foxs_cunning">fox's cunning</Link> effect would have a minimum caster level of 1 (for the 1st-level extract used) rather than 4 (for the 2nd-level effect).</Pair>
 <Pair title="Special">There are 111 potential 2nd-level extracts, 89 potential 3rd-level extracts, 63 potential 4th-level extracts, 39 potential 5th-level extracts, and 33 potential 6th-level extracts.</Pair>
 </Ability>
-<Ability id="mad-mutagen-su" icon={["upgrade","broken-shield"]}>
+<Ability id="mad-mutagen-su" icon={["boost","down"]}>
 <Pair single id="mad-mutagen-su">Mad Mutagen (Su)</Pair>
 <Pair hl title="Replaces">4th-level discovery</Pair>
 <Pair hl title="Alters">Mutagen</Pair>
@@ -236,10 +236,10 @@ const _mad_scientist = {title: "Mad Scientist", jsx: <><h2 id="arc-alchemist-mad
 </>};
 const _metamorph = {title: "Metamorph", jsx: <><h2 id="arc-alchemist-metamorph-metamorph">Metamorph</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 19</Link><br/>Metamorphs eschew traditional alchemy, focusing on internal chemistry and the transfiguration of living forms.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disguise">Disguise</Link> (CHA)</Pair></Ability>
-<Ability id="shapechanger-su" icon={["stairs-goal","magic-swirl"]}>
+<Ability id="shapechanger-su" icon={["power","magic"]}>
 <Pair single id="shapechanger-su">Shapechanger (Su)</Pair>
 <Pair hl title="Replaces">Alchemy, bombs, extracts, mutagen, Throw Anything</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -253,12 +253,12 @@ const _metamorph = {title: "Metamorph", jsx: <><h2 id="arc-alchemist-metamorph-m
 <Pair title="At 20th Level">A metamorph can use <em>shapechanger</em> as a <strong className="hl">free action</strong> once per round, either before or after all her other actions, with no daily limit.</Pair>
 <Pair title="Special">A metamorph can use this ability once per day at 1st level, and an additional time per day at 4th level, and every 2 alchemist levels thereafter, for a total of nine times at 18th level.</Pair>
 </Ability>
-<Ability id="mutagen-ex" icon={["stairs-goal"]}>
+<Ability id="mutagen-ex" icon={["power"]}>
 <Pair single id="mutagen-ex">Mutagen (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A metamorph gains <em>mutagen</em> as a normal alchemist. She can take <em>mutagen</em> and <em>cognatogen</em> discoveries despite not possessing the alchemy class feature that normally grants mutagen.</Pair>
 </Ability>
-<Ability id="adaptive-physiology-ex" icon={["armor-upgrade"]}>
+<Ability id="adaptive-physiology-ex" icon={["def"]}>
 <Pair single id="adaptive-physiology-ex">Adaptive Physiology (Ex)</Pair>
 <Pair hl title="Replaces">Swift alchemy, swift poisoning, instant alchemy</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -269,23 +269,23 @@ const _metamorph = {title: "Metamorph", jsx: <><h2 id="arc-alchemist-metamorph-m
 </>};
 const _mindchemist = {title: "Mindchemist", jsx: <><h2 id="arc-alchemist-mindchemist-mindchemist">Mindchemist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 19</Link><br/>While most alchemists use mutagens to boost their physical ability at the cost of mental ability, some use alchemy for the opposite purpose - to boost the power of the mind and memory. A mindchemist can reach incredible levels of mental acuity, but suffers lingering debilitating effects to his physique. A mindchemist has the following class features.</p>
-<Ability id="cognatogen" icon={["stairs-goal"]}>
+<Ability id="cognatogen" icon={["power"]}>
 <Pair single id="cognatogen">Cognatogen</Pair>
 <Pair hl title="Replaces">Mutagen</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A mindchemist learns how to create a cognatogen, as per the <Link to="/discovery/cognatogen">cognatogen</Link> discovery. (A mindchemist cannot create mutagens unless he selects <Link to="/discovery/mutagen">mutagen</Link> as a discovery.)</Pair>
 </Ability>
-<Ability id="perfect-recall" icon={["upgrade"]}>
+<Ability id="perfect-recall" icon={["boost"]}>
 <Pair single id="perfect-recall">Perfect Recall</Pair>
 <Pair hl title="Replaces">Poison use</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">When making a Knowledge check, he may add his Intelligence bonus on the check a second time. Thus, a mindchemist with 5 ranks in Knowledge (history) and a +2 Intelligence bonus has a total skill bonus of +9 (5 + 2 + 2) using this ability. The mindchemist can also use this ability when making an Intelligence check to remember something.</Pair>
 </Ability>
-<Ability id="bonus-feats" icon={["stairs-goal"]}>
+<Ability id="bonus-feats" icon={["power"]}>
 <Pair single id="bonus-feats">Bonus Feats</Pair>
 <Pair title="Passive Ability">A mindchemist may select <Link to="/feat/skill_focus">Skill Focus</Link> (Disable Device, Disguise, Heal, any Knowledge skill, Sense Motive, or Spellcraft) in place of a discovery.</Pair>
 </Ability>
-<Ability id="languages" icon={["stairs-goal"]}>
+<Ability id="languages" icon={["power"]}>
 <Pair single id="languages">Languages</Pair>
 <Pair title="Passive Ability">A mindchemist may learn three <Link to="/misc/languages">languages</Link> in place of a discovery.</Pair>
 </Ability>
@@ -294,7 +294,7 @@ const _mindchemist = {title: "Mindchemist", jsx: <><h2 id="arc-alchemist-mindche
 const _mixologist = {title: "Mixologist", jsx: <><h2 id="arc-alchemist-mixologist-mixologist">Mixologist</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_taverns">Inner Sea Taverns pg. 57</Link><br/>Certain alchemists focus on mastering the chemical reactions between alcohol and the physical body. Though the powerful potions they brew can have drawbacks, they are at least pleasurable.</p>
 <p><strong className="hl">Note:</strong> This archetype makes heavy use of the alternate <Link to="/rule/drunkenness">drunkenness</Link> rules.</p>
-<Ability id="alcoholic-alchemy-su" icon={["stairs-goal","upgrade"]}>
+<Ability id="alcoholic-alchemy-su" icon={["power","boost"]}>
 <Pair single id="alcoholic-alchemy-su" flavor="A mixologist can infuse potions and extracts he creates with alcohol, increasing their potency.">Alcoholic Alchemy (Su)</Pair>
 <Pair hl title="Replaces">Mutagen</Pair>
 <Pair hl title="Alters">Alchemy, brew potion</Pair>
@@ -302,20 +302,20 @@ const _mixologist = {title: "Mixologist", jsx: <><h2 id="arc-alchemist-mixologis
 <Pair title="Ability">When a mixologist brews a potion, he can spend an additional 10 gp in raw materials to increase his caster level by 1 for the purpose of the potion's effects, but the potion counts as a <strong>strong alcoholic drink.</strong> When a mixologist creates his extracts, he can spend 1 extra minute doing so to increase his caster level by 1 for the purpose of that extract's effects, but the extract counts as a <strong>strong alcoholic drink.</strong> A mixologist can prepare one alcoholic extract for each level of extracts he can prepare.</Pair>
 <Pair title="Special">A mixologist can't ever gain a mutagen or discoveries that alter mutagens.</Pair>
 </Ability>
-<Ability id="alcoholic-bombs-su" icon={["upgrade"]}>
+<Ability id="alcoholic-bombs-su" icon={["boost"]}>
 <Pair single id="alcoholic-bombs-su">Alcoholic Bombs (Su)</Pair>
 <Pair hl title="Replaces">The discovery gained at 2nd level</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">When the mixologist creates a bomb, he can cause the detonation to produce intoxicating fumes. A creature that takes a direct hit from an alcoholic bomb becomes <strong className="hl">tipsy</strong> if it fails a Fortitude saving throw. If the creature is already tipsy, it becomes <strong className="hl">drunk</strong> instead. If the creature is already drunk, it becomes <strong className="hl">soused</strong> instead. A soused creature that fails its Fortitude saving throw passes out for 1d3 hours and wakes up with a <strong className="hl">hangover</strong>.</Pair>
 <Pair title="Special">This ability counts as a discovery that modifies bombs (Primary Bomb Discovery), so it doesn't stack with other discoveries that modify bombs.</Pair>
 </Ability>
-<Ability id="alcoholic-resistance-ex" icon={["armor-upgrade"]}>
+<Ability id="alcoholic-resistance-ex" icon={["def"]}>
 <Pair single id="alcoholic-resistance-ex">Alcoholic Resistance (Ex)</Pair>
 <Pair hl title="Alters">Poison resistance</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A mixologist's bonus on saving throws against poison also applies on saving throws to become less drunk and to avoid passing out. This doesn't allow a mixologist to become immune to alcohol.</Pair>
 </Ability>
-<Ability id="mixologist-master-su" icon={["upgrade"]}>
+<Ability id="mixologist-master-su" icon={["boost"]}>
 <Pair single id="mixologist-master-su">Mixologist Master (Su)</Pair>
 <Pair hl title="Replaces">Persistent mutagen</Pair>
 <Pair title="Gained">At 14th Level</Pair>
@@ -324,7 +324,7 @@ const _mixologist = {title: "Mixologist", jsx: <><h2 id="arc-alchemist-mixologis
 </>};
 const _mnemostiller = {title: "Mnemostiller", jsx: <><h2 id="arc-alchemist-mnemostiller-mnemostiller">Mnemostiller</h2>
 <p><strong>Sources</strong> <Link to="/source/distant_realms">Distant Realms pg. 52</Link><br/>Mnemostillers extract memories, storing them as a thick vapor called mnemos. They can return memories as easily as administering a potion, and experienced mnemostillers create a variety of effects through the careful administration of past traumas or victories.</p>
-<Ability id="mental-ambix" icon={["stairs-goal","magic-swirl"]}>
+<Ability id="mental-ambix" icon={["power","magic"]}>
 <Pair single id="mental-ambix" flavor="A mnemostiller's alchemy relies on force of personality, using his own mind as an alchemy lab to draw and purify the mnemos collected from others.">Mental Ambix</Pair>
 <Pair hl title="Replaces">Throw anything</Pair>
 <Pair hl title="Alters">Alchemy</Pair>
@@ -332,21 +332,21 @@ const _mnemostiller = {title: "Mnemostiller", jsx: <><h2 id="arc-alchemist-mnemo
 <Pair title="Passive Ability">A mnemostiller uses his Charisma score in place of his Intelligence score for the purpose of extracts and bonus extracts. A mnemostiller still uses his Intelligence score to learn new formulae.</Pair>
 <Pair title="Standard Action">The mnemostiller can cast <Link to="/spell/detect_thoughts">detect thoughts</Link> as a spell-like ability a number of times per day equal to his Charisma modifier (minimum 1).</Pair>
 </Ability>
-<Ability id="rasugen-su" icon={["armor-upgrade","upgrade","broken-shield"]}>
+<Ability id="rasugen-su" icon={["def","boost","down"]}>
 <Pair single id="rasugen-su" flavor="A mnemostiller learns to brew a unique type of mutagen, called a rasugen, that suppresses his mind to enter a state of sublime purity. In this state, a mnemostiller becomes incredibly resilient, but cannot perform complex skills.">Rasugen (Su)</Pair>
 <Pair hl title="Replaces">Mutagen</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">Once imbibed, a rasugen grants a +2 alchemical bonus on all saving throws and 2 <Link to="/rule/temporary_hit_points">temporary hit points</Link> per alchemist level for 10 minutes per alchemist level.</Pair>
 <Pair title="Special">In addition, while the rasugen is in effect, a mnemostiller takes a -2 penalty to his Intelligence score and can't attempt checks using Appraise, Craft, Disable Device, Heal, Knowledge (any), Profession, Sleight of Hand, or Spellcraft. This acts in all other ways like a mutagen. A mnemostiller can never gain the <em>mutagen, cognatogen,</em> or <em>inspiring cognatogen</em> ability, even from a discovery or another class.</Pair>
 </Ability>
-<Ability id="anguish-bomb-su" icon={["stairs-goal"]}>
+<Ability id="anguish-bomb-su" icon={["power"]}>
 <Pair single id="anguish-bomb-su" flavor="A mnemostiller crafts his bombs from mnemos of pain and discomfort, inflicting psychic damage.">Anguish Bomb (Su)</Pair>
 <Pair hl title="Replaces">Bombs</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An anguish bomb is identical to a bomb except that it deals nonlethal damage, it deals no damage to inanimate objects and creatures immune to mental effects, and creatures caught in the anguish bomb's splash can attempt a Will save for half damage. A mnemostiller uses his Charisma score in place of his Intelligence score to determine the bonus damage of his anguish bomb and the save DC of the anguish bomb's splash damage. He still uses his Intelligence score to determine his number of bombs per day.</Pair>
 <Pair title="Special">If the mnemostiller has taken any hit point damage in the past 24 hours, his anguish bombs inflict 1 additional point of nonlethal damage for every 2 alchemist levels he has.</Pair>
 </Ability>
-<Ability id="brewed-memories" icon={["spell-book"]}>
+<Ability id="brewed-memories" icon={["learn"]}>
 <Pair single id="brewed-memories" flavor="A mnemostiller can create several unique extracts from the mnemos he pulls from the minds of others.">Brewed Memories</Pair>
 <Pair hl title="Replaces">Poison resistance</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -354,13 +354,13 @@ const _mnemostiller = {title: "Mnemostiller", jsx: <><h2 id="arc-alchemist-mnemo
 <Pair title="At 5th Level">He adds <Link to="/spell/aura_alteration">aura alteration</Link>, <Link to="/spell/detect_mindscape">detect mindscape</Link>, and <Link to="/spell/mindscape_door">mindscape door</Link> to his formula book as 2nd-level extracts.</Pair>
 <Pair title="At 8th Level">He adds <Link to="/spell/mindwipe">mindwipe</Link> and <Link to="/spell/thoughtsense">thoughtsense</Link> to his formula book as 3rd-level extracts; the range for a <em>mindwipe</em> extract becomes creature touched, and it can be applied only to a helpless or willing creature.</Pair>
 </Ability>
-<Ability id="natural-empath-ex" icon={["stairs-goal"]}>
+<Ability id="natural-empath-ex" icon={["power"]}>
 <Pair single id="natural-empath-ex" flavor="A mnemostiller's studies naturally focus on others.">Natural Empath (Ex)</Pair>
 <Pair hl title="Replaces">Poison use</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">He gains <Link to="/discovery/infusion">infusion</Link> as a bonus discovery at 2nd level.</Pair>
 </Ability>
-<Ability id="mind-delver-su" icon={["stairs-goal","magic-swirl"]}>
+<Ability id="mind-delver-su" icon={["power","magic"]}>
 <Pair single id="mind-delver-su">Mind-Delver (Su)</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Ability">A mnemostiller can use <Link to="/spell/mind_probe">mind probe</Link> as a spell-like ability a number of times per day equal to his Charisma modifier (minimum 1).</Pair>
@@ -372,14 +372,14 @@ const _mnemostiller = {title: "Mnemostiller", jsx: <><h2 id="arc-alchemist-mnemo
 </>};
 const _oenopion_researcher = {title: "Oenopion Researcher", jsx: <><h2 id="arc-alchemist-oenopion_researcher-oenopion-researcher">Oenopion Researcher</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 37</Link><br/>Nex is known for its advanced magical lore, and the alchemists of Oenopion are incredibly skilled at making potions, elixirs, and other materials crucial to the country's economy and its monster-creating fleshforges. A Oenopion researcher has the following class features.</p>
-<Ability id="experimental-mutagen-su" icon={["stairs-goal"]}>
+<Ability id="experimental-mutagen-su" icon={["power"]}>
 <Pair single id="experimental-mutagen-su">Experimental Mutagen (Su)</Pair>
 <Pair hl title="Replaces">Poison use</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">An Oenopion researcher learns how to create an experimental mutagen that benefits others, though not as well as his normal mutagen. The experimental mutagen works just like a standard mutagen, except the natural armor bonus and the alchemical bonus to the ability score are half normal (+1 natural armor bonus and +2 to one ability score). The experimental mutagen has no risk of nauseating a creature who drinks it. The researcher decides when he creates the mutagen if it is a standard mutagen (which gives no benefit if another creature drinks it) or an experimental mutagen (which does); there is no difference in the cost, time to create, or any other aspect of the mutagen.</Pair>
 <Pair title="Special">If the researcher has discoveries or other abilities that alter or increase the benefits of the mutagen, these apply to the experimental mutagen (though the drinker only gets <Link to="/misc/half">half</Link> the numerical bonus of the mutagen).</Pair>
 </Ability>
-<Ability id="acid-resistance-ex" icon={["armor-upgrade"]}>
+<Ability id="acid-resistance-ex" icon={["def"]}>
 <Pair single id="acid-resistance-ex">Acid Resistance (Ex)</Pair>
 <Pair hl title="Replaces">Swift alchemy</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -389,17 +389,17 @@ const _oenopion_researcher = {title: "Oenopion Researcher", jsx: <><h2 id="arc-a
 </>};
 const _oozemaster = {title: "Oozemaster", jsx: <><h2 id="arc-alchemist-oozemaster-oozemaster">Oozemaster</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 17</Link><br/>The oozemaster is a specialized alchemist who fights and ensnares oozes. An oozemaster carefully studies the characteristics of the oozes he hunts to help him create new and more effective mutagens and bombs.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (nature)</Pair></Ability>
-<Ability id="ooze-bomb-su" icon={["stairs-goal"]}>
+<Ability id="ooze-bomb-su" icon={["power"]}>
 <Pair single id="ooze-bomb-su">Ooze Bomb (Su)</Pair>
 <Pair hl title="Replaces">Brew Potion</Pair>
 <Pair title="Ability">An oozemaster's bombs deal acid damage instead of fire damage, and they deal damage only on a direct hit; they do not splash. A creature damaged by an ooze bomb takes additional acid damage equal to the oozemaster's Intelligence modifier at the start of the oozemaster's next turn. A creature can take this delayed damage only once per round; additional hits extend the duration of the ongoing damage by 1 round each.</Pair>
 <Pair title="Special">An oozemaster cannot select discoveries that change the type of damage dealt by his bombs, nor those that affect the bomb's splash radius. An oozemaster can still select <Link to="/feat/brew_potion">Brew Potion</Link> without meeting the feat's prerequisites, but he doesn't gain it as a bonus feat.</Pair>
 </Ability>
-<Ability id="ooze-resistance" icon={["armor-upgrade"]}>
+<Ability id="ooze-resistance" icon={["def"]}>
 <Pair single id="ooze-resistance">Ooze Resistance</Pair>
 <Pair hl title="Replaces">Poison resistance, poison immunity</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -415,26 +415,26 @@ const _oozemaster = {title: "Oozemaster", jsx: <><h2 id="arc-alchemist-oozemaste
 </>};
 const _perfumer = {title: "Perfumer", jsx: <><h2 id="arc-alchemist-perfumer-perfumer">Perfumer</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 17</Link><br/>While most alchemists focus on the flash of loud explosions, full-bodied potions, and dramatically transformative mutagens, others prefer subtlety and elegance. A perfumer alchemist refines extracts to their most pure and rarefied forms to spread on the wind, and would rather share a head-turning aroma at a social than drink a bone-twisting mutagen before a brawl.</p>
-<Ability id="atomized-extracts-su" icon={["stairs-goal","magic-swirl"]}>
+<Ability id="atomized-extracts-su" icon={["power","magic"]}>
 <Pair single id="atomized-extracts-su">Atomized Extracts (Su)</Pair>
 <Pair hl title="Replaces">Brew potion</Pair>
 <Pair hl title="Alters">Extracts</Pair>
 <Pair title="Ability">A perfumer's extracts are stored in atomizers, rather than bottles or vials, allowing him to spray them at himself or an adjacent ally. The target is considered the imbiber, as if she had drunk an extract prepared with the <Link to="/discovery/infusion">infusion</Link> discovery. As the contents of an atomizer are inhaled, the target must be able to breathe. Atomized extracts are considered extracts for purposes of other abilities, and become inert when not in the alchemist's possession.</Pair>
 </Ability>
-<Ability id="effervescent-bombs-su" icon={["stairs-goal","smoking-finger"]}>
+<Ability id="effervescent-bombs-su" icon={["power","zap"]}>
 <Pair single id="effervescent-bombs-su">Effervescent Bombs (Su)</Pair>
 <Pair hl title="Alters">Bomb</Pair>
 <Pair title="Ability">Rather than deal direct damage, a perfumer's bombs create an effervescent puddle in a 5-foot radius for a number of rounds equal to the alchemist's intelligence bonus (minimum 1). Each creature within this area takes 1d4 points of fire damage immediately and again each round it remains within or enters the puddle. A creature caught in the puddle when it is first created can attempt a Reflex save (DC = 10 + <Link to="/misc/half">half</Link> the perfumer's level + the perfumer's Intelligence modifier) for half damage.</Pair>
 <Pair title="Special">The effervescent bombs' damage increases by 1d4 at 3rd level and every odd level thereafter. Effervescent bombs otherwise functions as bombs, and discoveries that apply to bombs apply to effervescent bombs.</Pair>
 </Ability>
-<Ability id="pheromones-su" icon={["stairs-goal","upgrade","broken-shield"]}>
+<Ability id="pheromones-su" icon={["power","boost","down"]}>
 <Pair single id="pheromones-su">Pheromones (Su)</Pair>
 <Pair hl title="Replaces">Mutagen</Pair>
 <Pair title="Ability">A perfumer can spend 1 hour to distill a special mixture of exotic pheromones and alchemical reagents and store it in an atomizer. The mixture remains potent until used or until the perfumer distills another pheromone mixture, at which point the first becomes inert and the duration of its effects immediately end.</Pair>
 <Pair title="Standard Action">Spraying this mixture on a willing creature grants the target a +4 alchemical bonus to Charisma and a -2 penalty to Constitution for 10 minutes per alchemist level. Additionally, the target creature gains a +2 alchemical bonus on Diplomacy and Bluff checks.</Pair>
 <Pair title="Special">A perfumer can never gain the <em>mutagen, cognatogen,</em> or <em>inspired cognatogen</em> ability, even from a discovery or another class.</Pair>
 </Ability>
-<Ability id="persistent-pheromones" icon={["upgrade"]}>
+<Ability id="persistent-pheromones" icon={["boost"]}>
 <Pair single id="persistent-pheromones">Persistent Pheromones</Pair>
 <Pair hl title="Replaces">Persistent mutagen</Pair>
 <Pair title="Gained">At 14th Level</Pair>
@@ -443,7 +443,7 @@ const _perfumer = {title: "Perfumer", jsx: <><h2 id="arc-alchemist-perfumer-perf
 </>};
 const _plague_bringer = {title: "Plague Bringer", jsx: <><h2 id="arc-alchemist-plague_bringer-plague-bringer">Plague Bringer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 153</Link><br/>The plague bringer sees disease as the ultimate weapon, and has worked tirelessly to master new diseases and disease-delivery systems. A plague bringer feels no more remorse at unleashing his armaments on his enemies than an archer does when firing an arrow in the heat of battle. Disease is a tool, and the plague bringer is its master. A plague bringer has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-plague_bringer--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ratfolk">Ratfolk</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="plague-vial-su" icon={["stairs-goal","mailed-fist"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-plague_bringer--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ratfolk">Ratfolk</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="plague-vial-su" icon={["power","melee"]}>
 <Pair single id="plague-vial-su" flavor="A plague bringer can create a plague vial, an alchemically grown and concentrated disease sample.">Plague Vial (Su)</Pair>
 <Pair hl title="Replaces">Mutagen</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -452,7 +452,7 @@ const _plague_bringer = {title: "Plague Bringer", jsx: <><h2 id="arc-alchemist-p
 <Pair title="Ability">As a <strong className="hl">standard action</strong>, the plague bringer can infect a weapon with this sickness (typically by licking it or wiping his blood or pus on it). The disease on the weapon works like a poisoned weapon, except the source is a disease instead of a poison (so a dwarf's resistance to poison does not apply).</Pair>
 <Pair title="Special">The plague bringer is immune to the effect of his own plague vial, but not that of another's plague vial. The effects of multiple plague vials do not stack. Unless he learns how to brew a mutagen by taking the <Link to="/discovery/mutagen">mutagen</Link> discovery, he can never benefit from a mutagen and reacts to it as if he were a non-alchemist. At any particular time, a plague bringer can only be under the effect of either a plague vial or a mutagen (not both); drinking another immediately ends the effects of any ongoing plague vial or mutagen. All limitations to mutagens apply to plague vials as if they were the same substance. The <Link to="/discovery/infuse_mutagen">infuse mutagen</Link> discovery and <em>persistent mutagen</em> class ability apply to plague vials. The <Link to="/discovery/sticky_poison">sticky poison</Link> discovery applies to a weapon infected with a plague vial. The plague vial is a disease effect.</Pair>
 </Ability>
-<Ability id="disease-resistance-ex" icon={["armor-upgrade"]}>
+<Ability id="disease-resistance-ex" icon={["def"]}>
 <Pair single id="disease-resistance-ex">Disease Resistance (Ex)</Pair>
 <Pair hl title="Replaces">Poison resistance, poison immunity</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -465,7 +465,7 @@ const _plague_bringer = {title: "Plague Bringer", jsx: <><h2 id="arc-alchemist-p
 </>};
 const _preservationist = {title: "Preservationist", jsx: <><h2 id="arc-alchemist-preservationist-preservationist">Preservationist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 19</Link><br/>Some alchemists are obsessed with collecting and preserving exotic creatures. These preservationists may use bottled animals and monsters as teaching tools, but some learn how to reanimate them for short periods to battle on the alchemist's behalf. A preservationist has the following class features.</p>
-<Ability id="bottled-ally-i" icon={["skills","spell-book"]}>
+<Ability id="bottled-ally-i" icon={["skill","learn"]}>
 <Pair single id="bottled-ally-i">Bottled Ally I</Pair>
 <Pair hl title="Replaces">Poison use</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -473,31 +473,31 @@ const _preservationist = {title: "Preservationist", jsx: <><h2 id="arc-alchemist
 <Pair title="Ability">He adds <Link to="/spell/summon_natures_ally_i">summon nature's ally I</Link> to his formula book as a 1st-level extract. When he prepares that extract, he actually prepares a tiny, preserved specimen in a bottle (as with a caster casting the spell, the preservationist doesn't have to choose the creature until he uses the extract). When the alchemist opens the bottle, the specimen animates and grows to normal size, serving the preservationist as per the spell and otherwise being treated as a summoned creature. When the duration expires, the preserved creature decays into powder.</Pair>
 <Pair title="Special">If the preservationist has the <Link to="/discovery/infusion">infusion</Link> discovery, another character can use the infused specimen. The <Link to="/feat/augment_summoning">Augment Summoning</Link> feat can be applied to these specimens.</Pair>
 </Ability>
-<Ability id="bottled-ally-ii" icon={["spell-book"]}>
+<Ability id="bottled-ally-ii" icon={["learn"]}>
 <Pair single id="bottled-ally-ii">Bottled Ally II</Pair>
 <Pair hl title="Replaces">Poison resistance +4</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">A preservationist adds <Link to="/spell/summon_natures_ally_ii">summon nature's ally II</Link> to his formula book as a 2nd-level extract.</Pair>
 </Ability>
-<Ability id="bottled-ally-iii" icon={["spell-book"]}>
+<Ability id="bottled-ally-iii" icon={["learn"]}>
 <Pair single id="bottled-ally-iii">Bottled Ally III</Pair>
 <Pair hl title="Replaces">Poison resistance +6</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">A preservationist adds <Link to="/spell/summon_natures_ally_iv">summon nature's ally IV</Link> to his formula book as a 3rd-level extract.</Pair>
 </Ability>
-<Ability id="bottled-ally-iv" icon={["spell-book"]}>
+<Ability id="bottled-ally-iv" icon={["learn"]}>
 <Pair single id="bottled-ally-iv">Bottled Ally IV</Pair>
 <Pair hl title="Replaces">Poison immunity</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Passive Ability">A preservationist adds <Link to="/spell/summon_natures_ally_v">summon nature's ally V</Link> to his formula book as a 4th-level extract.</Pair>
 </Ability>
-<Ability id="bottled-ally-v" icon={["spell-book"]}>
+<Ability id="bottled-ally-v" icon={["learn"]}>
 <Pair single id="bottled-ally-v">Bottled Ally V</Pair>
 <Pair hl title="Replaces">Persistent mutagen</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Passive Ability">A preservationist adds <Link to="/spell/summon_natures_ally_vii">summon nature's ally VII</Link> to his formula book as a 5th-level extract.</Pair>
 </Ability>
-<Ability id="bottled-ally-vi" icon={["spell-book"]}>
+<Ability id="bottled-ally-vi" icon={["learn"]}>
 <Pair single id="bottled-ally-vi">Bottled Ally VI</Pair>
 <Pair hl title="Replaces">18th-level discovery</Pair>
 <Pair title="Gained">At 18th Level</Pair>
@@ -508,13 +508,13 @@ const _preservationist = {title: "Preservationist", jsx: <><h2 id="arc-alchemist
 </>};
 const _promethean_alchemist = {title: "Promethean Alchemist", jsx: <><h2 id="arc-alchemist-promethean_alchemist-promethean-alchemist">Promethean Alchemist</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 112</Link><br/>Obsessed with discovering the origins of life, promethean alchemists build constructs they gradually endow with life.</p>
-<Ability id="craft-construct" icon={["stairs-goal"]}>
+<Ability id="craft-construct" icon={["power"]}>
 <Pair single id="craft-construct">Craft Construct</Pair>
 <Pair hl title="Replaces">Brew Potion, Throw Anything</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A promethean alchemist gains the <Link to="/discovery/promethean_disciple">promethean disciple</Link> discovery.</Pair>
 </Ability>
-<Ability id="homunculus-companion-ex" icon={["stairs-goal"]}>
+<Ability id="homunculus-companion-ex" icon={["power"]}>
 <Pair single id="homunculus-companion-ex">Homunculus Companion (Ex)</Pair>
 <Pair hl title="Replaces">Bombs, mutagen</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -747,47 +747,47 @@ const _promethean_alchemist = {title: "Promethean Alchemist", jsx: <><h2 id="arc
 <p><strong className="hl">Feats</strong> This is the total number of feats the homunculus has. A homunculus can select any feats it qualifies for, but must possess the appropriate appendages in order to use some feats.</p>
 <p><strong className="hl">Str/Dex Bonus</strong> Add this modifier to the homunculus's Strength and Dexterity.</p>
 <p><strong className="hl">Special</strong> As the homunculus increases in power, it gains the special abilities described below.</p>
-<Ability id="darkvision-ex" icon={["stairs-goal"]}>
+<Ability id="darkvision-ex" icon={["power"]}>
 <Pair single id="darkvision-ex">Darkvision (Ex)</Pair>
 <Pair title="Passive Ability">The homunculus has darkvision out to a range of 60 feet.</Pair>
 </Ability>
-<Ability id="low-light-vision-ex" icon={["stairs-goal"]}>
+<Ability id="low-light-vision-ex" icon={["power"]}>
 <Pair single id="low-light-vision-ex">Low-Light Vision (Ex)</Pair>
 <Pair title="Passive Ability">Homunculi see twice as far as humans in <Link to="/rule/dim_light">dim light</Link>.</Pair>
 </Ability>
-<Ability id="sympathetic-alchemy-su" icon={["upgrade","magic-swirl"]}>
+<Ability id="sympathetic-alchemy-su" icon={["boost","magic"]}>
 <Pair single id="sympathetic-alchemy-su">Sympathetic Alchemy (Su)</Pair>
 <Pair title="Passive Ability">The bond between a promethean alchemist and his homunculus is so close that the alchemist's extracts function for the homunculus as if it were the alchemist, allowing the homunculus companion to benefit from extracts without the alchemist needing the infusion discovery. The homunculus is treated as a humanoid or a construct - whichever is more beneficial - for the purposes of what extracts can affect it. Additionally, the homunculus can prepare its master's extracts from his formula book for him each day, as long as it's within the range of its telepathic link.</Pair>
 </Ability>
-<Ability id="telepathic-link-su" icon={["stairs-goal"]}>
+<Ability id="telepathic-link-su" icon={["power"]}>
 <Pair single id="telepathic-link-su">Telepathic Link (Su)</Pair>
 <Pair title="Passive Ability">A homunculus can't initially speak, but shares a telepathic link with its creator. It knows what its master knows and can convey to him everything it sees and hears, out to a range of 1,500 feet.</Pair>
 </Ability>
-<Ability id="weapon-and-armor-proficiency-ex" icon={["stairs-goal"]}>
+<Ability id="weapon-and-armor-proficiency-ex" icon={["power"]}>
 <Pair single id="weapon-and-armor-proficiency-ex">Weapon and Armor Proficiency (Ex)</Pair>
 <Pair title="Passive Ability">A homunculus is proficient with simple weapons, but not armor or shields.</Pair>
 </Ability>
-<Ability id="evasion-ex" icon={["armor-upgrade"]}>
+<Ability id="evasion-ex" icon={["def"]}>
 <Pair single id="evasion-ex">Evasion (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">If a homunculus is subjected to an attack that normally allows a Reflex save for half damage, it takes no damage if it succeeds at its saving throw.</Pair>
 </Ability>
-<Ability id="ability-score-increase-ex" icon={["upgrade"]}>
+<Ability id="ability-score-increase-ex" icon={["boost"]}>
 <Pair single id="ability-score-increase-ex">Ability Score Increase (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">The homunculus adds 1 to one of its ability scores at 5th level and every 5 levels thereafter.</Pair>
 </Ability>
-<Ability id="speech-ex" icon={["stairs-goal"]}>
+<Ability id="speech-ex" icon={["power"]}>
 <Pair single id="speech-ex">Speech (Ex)</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Passive Ability">The homunculus gains the ability to speak any languages it knows.</Pair>
 </Ability>
-<Ability id="spell-resistance-su" icon={["armor-upgrade"]}>
+<Ability id="spell-resistance-su" icon={["def"]}>
 <Pair single id="spell-resistance-su">Spell Resistance (Su)</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Passive Ability">The homunculus gains spell resistance equal to 11 + its master's alchemist level.</Pair>
 </Ability>
-<Ability id="improved-evasion-ex" icon={["armor-upgrade"]}>
+<Ability id="improved-evasion-ex" icon={["def"]}>
 <Pair single id="improved-evasion-ex">Improved Evasion (Ex)</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Passive Ability">When subjected to an attack that allows a Reflex save for half damage, the homunculus takes no damage if it succeeds at the saving throw and only half damage if it fails the saving throw.</Pair>
@@ -800,37 +800,37 @@ const _promethean_alchemist = {title: "Promethean Alchemist", jsx: <><h2 id="arc
 </>};
 const _psychonaut = {title: "Psychonaut", jsx: <><h2 id="arc-alchemist-psychonaut-psychonaut">Psychonaut</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 19</Link><br/>A psychonaut uses his knowledge to explore altered states of consciousness and even other planes of existence. A psychonaut has the following class features.</p>
-<Ability id="bomb" icon={["broken-shield"]}>
+<Ability id="bomb" icon={["down"]}>
 <Pair single id="bomb">Bomb</Pair>
 <Pair hl title="Replaces">Bombs</Pair>
 <Pair title="Ability">A psychonaut's bombs deal damage <Link to="/misc/one_die_step">one die step</Link> lower than normal (regular bombs deal d4s, <Link to="/discovery/concussive_bomb">concussive bombs</Link> deal 1d3s, and so on). This ability otherwise functions as and replaces the standard alchemist bomb class feature.</Pair>
 </Ability>
-<Ability id="precognition" icon={["spell-book"]}>
+<Ability id="precognition" icon={["learn"]}>
 <Pair single id="precognition">Precognition</Pair>
 <Pair hl title="Replaces">Poison resistance +4</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">A psychonaut adds <Link to="/spell/augury">augury</Link> to his formula book as a 2nd-level extract (this extract does not require a divine focus component).</Pair>
 </Ability>
-<Ability id="psychic-senses" icon={["spell-book"]}>
+<Ability id="psychic-senses" icon={["learn"]}>
 <Pair single id="psychic-senses">Psychic Senses</Pair>
 <Pair hl title="Replaces">Poison resistance +6</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">A psychonaut adds <Link to="/spell/clairaudience_clairvoyance">clairaudience/clairvoyance</Link>, <Link to="/spell/detect_scrying">detect scrying</Link>, <Link to="/spell/scrying">scrying</Link>, and <Link to="/spell/speak_with_dead">speak with dead</Link> to his formula book as 3rd-level extracts (a <em>scrying</em> extract does not require a focus or divine focus component).</Pair>
 <Pair title="Special">When a psychonaut uses a <em>speak with dead</em> extract, he gains the power to hear the lingering spirit within a corpse rather than enabling the corpse to audibly speak, but the extract otherwise works as the spell.</Pair>
 </Ability>
-<Ability id="remote-consciousness" icon={["spell-book"]}>
+<Ability id="remote-consciousness" icon={["learn"]}>
 <Pair single id="remote-consciousness">Remote Consciousness</Pair>
 <Pair hl title="Replaces">Poison immunity</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Passive Ability">A psychonaut adds <Link to="/spell/dream">dream</Link>, <Link to="/spell/lesser_astral_projection">lesser astral projection</Link>, <Link to="/spell/nightmare">nightmare</Link>, <Link to="/spell/plane_shift">plane shift</Link>, <Link to="/spell/sending">sending</Link>, and <Link to="/spell/telepathic_bond">telepathic bond</Link> to his formula book as 4th-level extracts (a <em>plane shift</em> extract does not require a focus component).</Pair>
 </Ability>
-<Ability id="greater-precognition" icon={["spell-book"]}>
+<Ability id="greater-precognition" icon={["learn"]}>
 <Pair single id="greater-precognition">Greater Precognition</Pair>
 <Pair hl title="Replaces">15th-level bomb damage increase</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Passive Ability">A psychonaut adds <Link to="/spell/moment_of_prescience">moment of prescience</Link> to his formula book as a 5th-level extract.</Pair>
 </Ability>
-<Ability id="master-precognition" icon={["spell-book"]}>
+<Ability id="master-precognition" icon={["learn"]}>
 <Pair single id="master-precognition">Master Precognition</Pair>
 <Pair hl title="Replaces">17th-level bomb damage increase</Pair>
 <Pair title="Gained">At 17th Level</Pair>
@@ -840,7 +840,7 @@ const _psychonaut = {title: "Psychonaut", jsx: <><h2 id="arc-alchemist-psychonau
 </>};
 const _ragechemist = {title: "Ragechemist", jsx: <><h2 id="arc-alchemist-ragechemist-ragechemist">Ragechemist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 25</Link><br/>Some alchemists create mutagens that tap into a primal anger that fuels their physical transformation. These alchemists have little control over their altered selves.</p>
-<Ability id="rage-mutagen" icon={["stairs-goal","upgrade","broken-shield"]}>
+<Ability id="rage-mutagen" icon={["power","boost","down"]}>
 <Pair single id="rage-mutagen">Rage Mutagen</Pair>
 <Pair hl title="Replaces">Poison use</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -848,13 +848,13 @@ const _ragechemist = {title: "Ragechemist", jsx: <><h2 id="arc-alchemist-rageche
 <Pair title="Passive Ability">While under the effects of this mutagen, whenever the alchemist takes damage, his rage grows, with detrimental effects. At the end of each turn that he takes hit point damage, the ragechemist must succeed at a Will saving throw (DC 15, or DC 20 if any of the damage came from a critical hit that turn) or take a -2 penalty on Will saving throws and to Intelligence. These penalties end 1 hour after the mutagen ends and stack with themselves.</Pair>
 <Pair title="Special">If the penalty lowers the ragechemist's Intelligence score to 0, the ragechemist is comatose until 1 hour after the mutagen expires.</Pair>
 </Ability>
-<Ability id="sturdy-rage" icon={["armor-upgrade","broken-shield"]}>
+<Ability id="sturdy-rage" icon={["def","down"]}>
 <Pair single id="sturdy-rage">Sturdy Rage</Pair>
 <Pair hl title="Replaces">Swift poisoning</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Passive Ability">Whenever a ragechemist uses his rage mutagen, he also gains a +4 bonus to natural armor, but the penalty on Will saving throws and to Intelligence for taking damage increases to -4.</Pair>
 </Ability>
-<Ability id="lumbering-rage" icon={["upgrade","broken-shield"]}>
+<Ability id="lumbering-rage" icon={["boost","down"]}>
 <Pair single id="lumbering-rage">Lumbering Rage</Pair>
 <Pair hl title="Replaces">Poison immunity</Pair>
 <Pair title="Gained">At 10th Level</Pair>
@@ -864,25 +864,25 @@ const _ragechemist = {title: "Ragechemist", jsx: <><h2 id="arc-alchemist-rageche
 </>};
 const _reanimator = {title: "Reanimator", jsx: <><h2 id="arc-alchemist-reanimator-reanimator">Reanimator</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 20</Link><br/>A reanimator is an alchemist who has discovered how to infuse a corpse with a semblance of life. Many work in tandem with necromancers to explore the fine border between the worlds of the living and the dead. A reanimator has the following class features.</p>
-<Ability id="bomb" icon={["broken-shield"]}>
+<Ability id="bomb" icon={["down"]}>
 <Pair single id="bomb">Bomb</Pair>
 <Pair hl title="Alters">Bombs</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A reanimator's bombs deal damage <Link to="/misc/one_die_step">one die step</Link> lower than normal (regular bombs deal d4s, <Link to="/discovery/concussive_bomb">concussive bombs</Link> deal 1d3s, and so on). This ability otherwise functions as and replaces the standard alchemist bomb class feature.</Pair>
 </Ability>
-<Ability id="simple-reanimation" icon={["spell-book"]}>
+<Ability id="simple-reanimation" icon={["learn"]}>
 <Pair single id="simple-reanimation">Simple Reanimation</Pair>
 <Pair hl title="Replaces">7th-level bomb damage increase</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">A reanimator adds <Link to="/spell/lesser_animate_dead">lesser animate dead</Link> to his formula book as a 3rd-level extract. When he uses that extract, rather than drinking it, he injects it into the corpse he intends to animate, which rises as an undead creature under his control 1 hour later. The extract can only create <Link to="/template/zombie">zombies</Link> (including variant zombies).</Pair>
 </Ability>
-<Ability id="create-undead" icon={["spell-book"]}>
+<Ability id="create-undead" icon={["learn"]}>
 <Pair single id="create-undead">Create Undead</Pair>
 <Pair hl title="Replaces">13th-level bomb damage increase</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Ability">A reanimator adds <Link to="/spell/create_undead">create undead</Link> to his formula book as a 4th-level extract. When he uses that extract, rather than drinking it, he injects it into the corpse he intends to animate, which rises as an uncontrolled undead 1 hour later. The extract can only create corporeal undead.</Pair>
 </Ability>
-<Ability id="create-greater-undead" icon={["spell-book"]}>
+<Ability id="create-greater-undead" icon={["learn"]}>
 <Pair single id="create-greater-undead">Create Greater Undead</Pair>
 <Pair hl title="Replaces">15th-level bomb damage increase</Pair>
 <Pair title="Gained">At 15th Level</Pair>
@@ -892,11 +892,11 @@ const _reanimator = {title: "Reanimator", jsx: <><h2 id="arc-alchemist-reanimato
 </>};
 const _royal_alchemist = {title: "Royal Alchemist", jsx: <><h2 id="arc-alchemist-royal_alchemist-royal-alchemist">Royal Alchemist</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 11</Link><br/>Paranoia runs rampant among the noble courts of the Inner Sea. On account of this distrust, many rulers often hire specialized alchemists capable of concocting protections from both poisons and diseases for the nobles and their guests. The royal alchemist tradition began in the nation of Rahadoum shortly after the Oath Wars as a replacement for the protection once offered by the clerics and priests of the region. Today, royal alchemists are found in the courts of Cheliax, Galt, Taldor, and, surprisingly, Geb, where living visitors to the Blood Lords are offered protection from the death around them.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (nature), Survival</Pair></Ability>
-<Ability id="alchemical-antidote" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="alchemical-antidote" icon={["power","def"]}>
 <Pair single id="alchemical-antidote" flavor="A royal alchemist can blend special mixes of antitoxin, medicine, and other remedies into alchemical antidotes that can be imbibed by anyone.">Alchemical Antidote</Pair>
 <Pair hl title="Replaces">Poison use, swift poisoning</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -908,46 +908,46 @@ const _royal_alchemist = {title: "Royal Alchemist", jsx: <><h2 id="arc-alchemist
 </>};
 const _saboteur = {title: "Saboteur", jsx: <><h2 id="arc-alchemist-saboteur-saboteur">Saboteur</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 36</Link><br/>The saboteur is an alchemist who specializes in destroying the plans, materials, and allies of his enemies. A saboteur has focused his alchemical research toward new ways to conceal his presence, sow confusion, and blow up large structures.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-saboteur--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/gnome">Gnome</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-saboteur--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/gnome">Gnome</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (nature)</Pair></Ability>
-<Ability id="chameleon-mutagen-su" icon={["upgrade","broken-shield"]}>
+<Ability id="chameleon-mutagen-su" icon={["boost","down"]}>
 <Pair single id="chameleon-mutagen-su">Chameleon Mutagen (Su)</Pair>
 <Pair hl title="Replaces">Mutagen</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A saboteur discovers how to create a special elixir that he can imbibe in order to heighten his ability to move undetected and his mobility at the cost of his physical might. When consumed, the elixir causes the saboteur's skin to change color to match the background and causes his hands and feet to secrete a sticky residue. This grants him a circumstance bonus on Stealth checks equal to half his alchemist level (minimum +1), as well as granting him a climb speed equal to half his base speed, for 10 minutes per saboteur level. In addition, while the chameleon extract is in effect, the saboteur takes a -2 penalty to his Strength.</Pair>
 <Pair title="Special">A saboteur who drinks an alchemist's mutagen is treated as a non-alchemist. All limitations to mutagens apply to chameleon mutagen as if it were the same ability. The <Link to="/discovery/infuse_mutagen">infuse mutagen</Link> discovery and <em>persistent mutagen</em> class ability apply to the chameleon mutagen.</Pair>
 </Ability>
-<Ability id="saboteur-discoveries" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="saboteur-discoveries" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="saboteur-discoveries">Saboteur Discoveries</Pair>
 <Pair title="Ability">The following four new options may be taken as discoveries by a saboteur.</Pair>
 </Ability>
-<Ability id="bore-bomb" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Ability id="bore-bomb" extraClasses="subAbility numbered" icon={["power"]}>
 <Pair single id="bore-bomb">Bore Bomb</Pair>
 <Pair title="Ability">When the saboteur creates a bomb, he may choose to make it a bore bomb. If a bore bomb strikes a wall, gate, siege engine, or similar large, solid, inanimate structure, it ignores <Link to="/misc/half">half</Link> the target's hardness and deals 1 point of damage per saboteur level. If a bore bomb reduces an inanimate target to half its hit points or fewer, it blows a hole 5 feet wide and 5 feet deep in the target.</Pair>
 <Pair title="Special">This discovery cannot be used with other discoveries that modify bombs and have this same restriction (Primary Bomb Discoveries).</Pair>
 </Ability>
-<Ability id="complex-bomb" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Ability id="complex-bomb" extraClasses="subAbility numbered" icon={["power"]}>
 <Pair single id="complex-bomb">Complex Bomb</Pair>
 <Pair title="Ability">When the saboteur creates a bomb, he can choose to have it modified by two different discoveries that modify a bomb's damage (that normally cannot be used together). Each discovery modifies half the bomb's damage dice, rounding down. For example, a <Link to="/discovery/concussive_bomb">concussive</Link>/<Link to="/discovery/frost_bomb">frost</Link> bomb from a 9th-level saboteur deals 2d4 points of sonic damage + 2d6 points of frost damage.</Pair>
 <Pair title="Special">Creating a complex bomb counts as 2 daily uses of the bomb ability.</Pair>
 </Ability>
-<Ability id="greater-chameleon-mutagen" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Ability id="greater-chameleon-mutagen" extraClasses="subAbility numbered" icon={["boost"]}>
 <Pair single id="greater-chameleon-mutagen">Greater Chameleon Mutagen</Pair>
 <Pair title="Prerequisites">12th-level alchemist.</Pair>
 <Pair title="Ability">The saboteur's chameleon mutagen now also grants the saboteur the <em>hide in plain sight</em> ability, as the <Link to="/class/ranger">ranger</Link> ability of the same name, but it functions in any terrain.</Pair>
 </Ability>
-<Ability id="grand-chameleon-mutagen" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Ability id="grand-chameleon-mutagen" extraClasses="subAbility numbered" icon={["boost"]}>
 <Pair single id="grand-chameleon-mutagen">Grand Chameleon Mutagen</Pair>
 <Pair title="Prerequisites">16th-level alchemist and the <em>greater chameleon mutagen</em> discovery.</Pair>
 <Pair title="Ability">The saboteur's chameleon mutagen now grants him a circumstance bonus on Stealth checks equal to his alchemist level, as well as granting him a climb speed equal to his normal movement speed.</Pair>
 </Ability>
-<Ability id="grand-discoveries" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="grand-discoveries" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="grand-discoveries">Grand Discoveries</Pair>
 <Pair title="Ability">A saboteur may select the following grand discovery.</Pair>
 </Ability>
-<Ability id="true-chameleon-mutagen" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Ability id="true-chameleon-mutagen" extraClasses="subAbility numbered" icon={["boost"]}>
 <Pair single id="true-chameleon-mutagen">True Chameleon Mutagen</Pair>
 <Pair title="Prerequisites">The <em>grand chamelon mutagen</em> discovery.</Pair>
 <Pair title="Ability">The saboteur's chameleon mutagen now acts as if he was under the effects of the <Link to="/spell/greater_invisibility">greater invisibility</Link> and <Link to="/spell/spider_climb">spider climb</Link> spells, using his alchemist level as the caster level, for the duration of the mutagen.</Pair>
@@ -956,14 +956,14 @@ const _saboteur = {title: "Saboteur", jsx: <><h2 id="arc-alchemist-saboteur-sabo
 </>};
 const _sacrament_alchemist = {title: "Sacrament Alchemist", jsx: <><h2 id="arc-alchemist-sacrament_alchemist-sacrament-alchemist">Sacrament Alchemist</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 11</Link><br/>Sacrament alchemists serve in a great variety of priestly roles for their deities. A sacrament alchemist is often invaluable even to like-minded allies who are not adherents of the alchemist's religion but who nonetheless rely on his divine abilities.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-sacrament_alchemist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Like a cleric, a sacrament alchemist must worship a deity, and must be within one step of his deity's alignment.</td></tr></tbody></table></ScrollContainer></div><Ability id="sacramental-cognatogen-su" icon={["magic-swirl","broken-shield"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-sacrament_alchemist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Like a cleric, a sacrament alchemist must worship a deity, and must be within one step of his deity's alignment.</td></tr></tbody></table></ScrollContainer></div><Ability id="sacramental-cognatogen-su" icon={["magic","down"]}>
 <Pair single id="sacramental-cognatogen-su">Sacramental Cognatogen (Su)</Pair>
 <Pair hl title="Replaces">Mutagen</Pair>
 <Pair title="Info">A sacrament alchemist can anoint himself as his deity's servant using his own special version of a mutagen called a sacramental cognatogen. This is brewed, imbibed, maintained, and can nauseate non-alchemists in the same way as a mutagen. While a sacramental cognatogen is in effect, the sacrament alchemist takes a -2 penalty to Dexterity.</Pair>
 <Pair title="Ability">Instead of providing physical benefits, the sacramental cognatogen grants the sacrament alchemist access to the domain powers of one domain or subdomain belonging to his deity as if he were a <Link to="/class/cleric">cleric</Link> of his alchemist level. The sacrament alchemist must choose the domain or subdomain when he brews the sacramental cognatogen. A sacrament alchemist can select an alignment domain only if his alignment matches that domain. He treats his alchemist level as his cleric level for purposes of using these domain powers, and treats his Intelligence modifier as his Wisdom modifier for purposes of variable effects. The effects of the sacramental cognatogen last for 10 minutes per alchemist level.</Pair>
 <Pair title="Special">A sacrament alchemist doesn't gain the bonus spells listed for each domain, nor does he gain any bonus spell slots. Levels of classes that normally provide access to domains stack with the sacrament alchemist's alchemist level for purposes of determining domain powers and abilities, but not for purposes of determining bonus spells. Discoveries, feats, and effects that interact with the mutagen class feature do not affect sacramental cognatogen. A sacrament alchemist cannot take the <em>cognatogen</em> or <em>mutagen</em> discoveries.</Pair>
 </Ability>
-<Ability id="divinely-inspired-alchemy-su" icon={["stairs-goal"]}>
+<Ability id="divinely-inspired-alchemy-su" icon={["power"]}>
 <Pair single id="divinely-inspired-alchemy-su" flavor="A sacrament alchemist's faith inspires him with ideas for novel alchemical achievements, although the mental strain means that he can't reliably repeat them.">Divinely Inspired Alchemy (Su)</Pair>
 <Pair hl title="Replaces">Swift alchemy</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -973,7 +973,7 @@ const _sacrament_alchemist = {title: "Sacrament Alchemist", jsx: <><h2 id="arc-a
 </>};
 const _tinkerer = {title: "Tinkerer", jsx: <><h2 id="arc-alchemist-tinkerer-tinkerer">Tinkerer</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 46</Link><br/>Tinkerers constantly dabble in clockworking, creating special familiars that they regularly upgrade and with which they form bizarre bonds. Many worship <Link to="/faith/brigh">Brigh</Link> and can be found throughout Golarion, especially in dwarven and gnome communities.</p>
-<Ability id="clockwork-bond-ex" icon={["stairs-goal"]}>
+<Ability id="clockwork-bond-ex" icon={["power"]}>
 <Pair single id="clockwork-bond-ex">Clockwork Bond (Ex)</Pair>
 <Pair hl title="Replaces">Mutagen</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -989,7 +989,7 @@ const _tinkerer = {title: "Tinkerer", jsx: <><h2 id="arc-alchemist-tinkerer-tink
 <Pair title="At 20th Level">The tinkerer can now heal 5d6 hit points.</Pair>
 <Pair title="Special">A tinkerer cannot choose the <em>cognatogen</em> or <em>mutagen</em> discoveries.</Pair>
 </Ability>
-<Ability id="tinkering-ex" icon={["upgrade","armor-upgrade","mailed-fist"]}>
+<Ability id="tinkering-ex" icon={["boost","def","melee"]}>
 <Pair single id="tinkering-ex">Tinkering (Ex)</Pair>
 <Pair hl title="Replaces">Poison resistance +2, poison use, poison resistance +4</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -1010,13 +1010,13 @@ const _tinkerer = {title: "Tinkerer", jsx: <><h2 id="arc-alchemist-tinkerer-tink
 <Pair title="At 5th Level">The tinkerer can choose a second option from the list. The same option cannot be chosen twice.</Pair>
 <Pair title="Special">A tinkerer can change the enhancements applied to her familiar, but doing so takes 1 hour of work per enhancement she wishes to change.</Pair>
 </Ability>
-<Ability id="clockwork-familiar-ex" icon={["stairs-goal"]}>
+<Ability id="clockwork-familiar-ex" icon={["power"]}>
 <Pair single id="clockwork-familiar-ex">Clockwork Familiar (Ex)</Pair>
 <Pair hl title="Replaces">Swift poisoning</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">The tinkerer turns her familiar into a <Link to="/monster/clockwork_familiar">clockwork familiar</Link> that takes any form she wishes. She must choose which type of item is installed in the clockwork familiar. She gains the clockwork familiar at no cost, as if she were a 7th-level spellcaster with the <Link to="/feat/improved_familiar">Improved Familiar</Link> feat.</Pair>
 </Ability>
-<Ability id="greater-tinkering-ex" icon={["mailed-fist","armor-upgrade","stairs-goal"]}>
+<Ability id="greater-tinkering-ex" icon={["melee","def","power"]}>
 <Pair single id="greater-tinkering-ex">Greater Tinkering (Ex)</Pair>
 <Pair hl title="Replaces">Poison resistance +6</Pair>
 <Pair title="Gained">At 8th Level</Pair>
@@ -1029,14 +1029,14 @@ const _tinkerer = {title: "Tinkerer", jsx: <><h2 id="arc-alchemist-tinkerer-tink
 </ul>
 </Pair>
 </Ability>
-<Ability id="clockwork-upgrade-ex" icon={["stairs-goal"]}>
+<Ability id="clockwork-upgrade-ex" icon={["power"]}>
 <Pair single id="clockwork-upgrade-ex">Clockwork Upgrade (Ex)</Pair>
 <Pair hl title="Replaces">Poison immunity</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Ability">A tinkerer has learned how to change the type of magic item her clockwork familiar can carry. This requires 1 hour of uninterrupted work. A tinkerer can change the type of item her clockwork familiar carries only once every 24 hours.</Pair>
 <Pair title="Move-Equivalent Action">A tinkerer can remove a spent item and install a new one.</Pair>
 </Ability>
-<Ability id="clockwork-mimicries-ex" icon={["magic-swirl"]}>
+<Ability id="clockwork-mimicries-ex" icon={["magic"]}>
 <Pair single id="clockwork-mimicries-ex">Clockwork Mimicries (Ex)</Pair>
 <Pair hl title="Replaces">Persistent mutagen</Pair>
 <Pair title="Gained">At 14th Level</Pair>
@@ -1047,7 +1047,7 @@ const _tinkerer = {title: "Tinkerer", jsx: <><h2 id="arc-alchemist-tinkerer-tink
 </>};
 const _toxicant = {title: "Toxicant", jsx: <><h2 id="arc-alchemist-toxicant-toxicant">Toxicant</h2>
 <p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox pg. 7</Link><br/>In lands such as Daggermark and Katapesh where poisons are legal and may be openly studied and sold, some alchemists obsess over the myriad ways that poisons and venoms can be applied and delivered. Known as toxicants, these deadly artists induce the production of deadly secretions within their own bodies in order to better inflict crippling conditions upon their foes.</p>
-<Ability id="toxic-secretion-ex" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="toxic-secretion-ex" icon={["power","def"]}>
 <Pair single id="toxic-secretion-ex" flavor="A toxicant has learned to mimic creatures with the ability to secrete harmful toxins through the skin.">Toxic Secretion (Ex)</Pair>
 <Pair hl title="Replaces">Mutagen</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -1062,7 +1062,7 @@ const _toxicant = {title: "Toxicant", jsx: <><h2 id="arc-alchemist-toxicant-toxi
 <Pair title="At 15th Level">The toxicant chooses a fifth choice from the previous options.</Pair>
 <Pair title="At 18th Level">The toxicant chooses a sixth choice from the previous options, or can replace <em>exhausted <strong>and</strong> staggered</em> with <Link to="/misc/stunned">stunned</Link>.</Pair>
 </Ability>
-<Ability id="toxic-digestion-ex" icon={["stairs-goal"]}>
+<Ability id="toxic-digestion-ex" icon={["power"]}>
 <Pair single id="toxic-digestion-ex">Toxic Digestion (Ex)</Pair>
 <Pair hl title="Replaces">Persistent mutagen</Pair>
 <Pair title="Gained">At 14th Level</Pair>
@@ -1072,20 +1072,20 @@ const _toxicant = {title: "Toxicant", jsx: <><h2 id="arc-alchemist-toxicant-toxi
 </>};
 const _trap_breaker = {title: "Trap Breaker", jsx: <><h2 id="arc-alchemist-trap_breaker-trap-breaker">Trap Breaker</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 23</Link><br/>Trap breakers forgo the study of poison to instead master the construction and deployment of traps, using their nimble fingers to disable dangerous devices and their alchemical knowledge to create devastating land mines.</p>
-<Ability id="trapfinding-ex" icon={["upgrade","stairs-goal"]}>
+<Ability id="trapfinding-ex" icon={["boost","power"]}>
 <Pair single id="trapfinding-ex">Trapfinding (Ex)</Pair>
 <Pair hl title="Replaces">Poison use, poison resistance +2</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A trap breaker adds <Link to="/misc/half">half</Link> his alchemist level on Perception checks made to locate traps and on Disable Device checks. A trap breaker can use Disable Device to disarm magic traps.</Pair>
 </Ability>
-<Ability id="explosive-disarm-ex" icon={["stairs-goal"]}>
+<Ability id="explosive-disarm-ex" icon={["power"]}>
 <Pair single id="explosive-disarm-ex" flavor="A trap breaker can attempt to disarm a mechanical trap by detonating it rather than disarming it with a Disable Device check.">Explosive Disarm (Ex)</Pair>
 <Pair hl title="Replaces">Poison resistance +4, poison resistance +6</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Full-Round Action">A trap breaker may expend one of his bombs to make a ranged touch attack against a trap, using the trap's Disable Device DC as its AC. If the attack misses, the bomb's splash damage activates the trap. If the attack hits, the bomb deactivates the trap without setting it off. The trap breaker must both know the location of the trap and be able to reach the trap's trigger with a ranged touch attack in order to use this ability.</Pair>
 <Pair title="At 8th Level">A trap breaker can disarm magic traps with this ability.</Pair>
 </Ability>
-<Ability id="land-mine-ex" icon={["stairs-goal"]}>
+<Ability id="land-mine-ex" icon={["power"]}>
 <Pair single id="land-mine-ex" flavor="A trap breaker can turn his bombs into land mines.">Land Mine (Ex)</Pair>
 <Pair hl title="Replaces">Swift poisoning</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -1094,7 +1094,7 @@ const _trap_breaker = {title: "Trap Breaker", jsx: <><h2 id="arc-alchemist-trap_
 <Pair title="Special">Creating a land mine uses up two of the alchemist's bombs per day. The DCs for Perception checks to notice the land mine, Disable Device checks to disable it, and saving throws to avoid its effects are equal to 10 + 1/2 the alchemist's level + his Intelligence modifier. Land mines last for 1 day per alchemist level or until they are triggered, whichever comes first. All alchemist land mines share the qualities listed in the trap block below.</Pair>
 </Ability>
 <TrapInfo id="alchemist-land-minds-trap" cr="variable" pdc="See above" dddc="See above" trigger="location" eff="See above">Alchemist Land Minds</TrapInfo>
-<Ability id="mine-engineering-ex" icon={["upgrade"]}>
+<Ability id="mine-engineering-ex" icon={["boost"]}>
 <Pair single id="mine-engineering-ex" flavor="A trap breaker's expertise in improving explosives allows him to create land mines with minimal expense.">Mine Engineering (Ex)</Pair>
 <Pair hl title="Replaces">Poison immunity</Pair>
 <Pair title="Gained">At 10th Level</Pair>
@@ -1103,17 +1103,17 @@ const _trap_breaker = {title: "Trap Breaker", jsx: <><h2 id="arc-alchemist-trap_
 </>};
 const _vaultbreaker = {title: "Vaultbreaker", jsx: <><h2 id="arc-alchemist-vaultbreaker-vaultbreaker">Vaultbreaker</h2>
 <p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 236</Link><br/>The vaultbreaker combines stealth with his bomb-making talents to construct special focused charges that can disable or destroy hinges, locks, and similar mechanisms.</p>
-<Ability id="breaking-and-entering-ex" icon={["skills","stairs-goal"]}>
+<Ability id="breaking-and-entering-ex" icon={["skill","power"]}>
 <Pair single id="breaking-and-entering-ex">Breaking and Entering (Ex)</Pair>
 <Pair hl title="Replaces">Brew Potion</Pair>
 <Pair title="Passive Ability">A vaultbreaker gains <Link to="/skill/stealth">Stealth</Link> (DEX) as a class skill and can disarm magical traps as if he were a <Link to="/class/rogue">rogue</Link> with the <Link to="/ability/trapfinding">trapfinding</Link> ability.</Pair>
 </Ability>
-<Ability id="rogue-talents" icon={["stairs-goal"]}>
+<Ability id="rogue-talents" icon={["power"]}>
 <Pair single id="rogue-talents">Rogue Talents</Pair>
 <Pair hl title="Alters">Discoveries</Pair>
 <Pair title="Passive Ability">A vaultbreaker can choose any of the following rogue talents in place of a discovery: <Link to="/talent/expert_leaper">expert leaper</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/ledge_walker">ledge walker</Link>, <Link to="/talent/nimble_climber">nimble climber</Link>, or <Link to="/talent/wall_scramble">wall scramble</Link>.</Pair>
 </Ability>
-<Ability id="safecracking-ex" icon={["stairs-goal"]}>
+<Ability id="safecracking-ex" icon={["power"]}>
 <Pair single id="safecracking-ex" flavor="A vaultbreaker's bombs can help him disable locks.">Safecracking (Ex)</Pair>
 <Pair hl title="Replaces">Throw Anything</Pair>
 <Pair hl title="Alters">Bombs</Pair>
@@ -1121,7 +1121,7 @@ const _vaultbreaker = {title: "Vaultbreaker", jsx: <><h2 id="arc-alchemist-vault
 <Pair title="Ability">He gains <Link to="/discovery/penetrating_charge">penetrating charge</Link> as a bonus discovery.</Pair>
 <Pair title="Special">Because this ability replaces Throw Anything, the vaultbreaker's bombs do not add his Intelligence bonus to damage rolls.</Pair>
 </Ability>
-<Ability id="enhanced-safecracking-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="enhanced-safecracking-ex" icon={["power","boost"]}>
 <Pair single id="enhanced-safecracking-ex">Enhanced Safecracking (Ex)</Pair>
 <Pair hl title="Replaces">Poison use</Pair>
 <Pair hl title="Alters">Bombs</Pair>
@@ -1131,34 +1131,34 @@ const _vaultbreaker = {title: "Vaultbreaker", jsx: <><h2 id="arc-alchemist-vault
 </>};
 const _vivisectionist = {title: "Vivisectionist", jsx: <><h2 id="arc-alchemist-vivisectionist-vivisectionist">Vivisectionist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 20</Link><br/>A vivisectionist studies bodies to better understand their function. Unlike a <Link to="/arc-alchemist/chirurgeon">chirurgeon</Link>, a vivisectionist's goals are not related to healing, but rather to experimentation and knowledge that most people would consider evil. A vivisectionist has the following class features.</p>
-<Ability id="sneak-attack" icon={["stairs-goal"]}>
+<Ability id="sneak-attack" icon={["power"]}>
 <Pair single id="sneak-attack">Sneak Attack</Pair>
 <Pair hl title="Replaces">Bomb</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A vivisectionist gains the <Link to="/ability/sneak_attack">sneak attack</Link> ability as a rogue of the same level. If a character already has sneak attack from another class, the levels from the classes that grant sneak attack stack to determine the effective rogue level for the sneak attack's extra damage dice (so an alchemist 1/rogue 1 has a +1d6 sneak attack like a 2nd-level rogue, an alchemist 2/rogue 1 has a +2d6 sneak attack like a 3rd-level rogue, and so on).</Pair>
 </Ability>
-<Ability id="bleeding-attack" icon={["stairs-goal"]}>
+<Ability id="bleeding-attack" icon={["power"]}>
 <Pair single id="bleeding-attack">Bleeding Attack</Pair>
 <Pair title="Ability">A vivisectionist may select the <Link to="/talent/bleeding_attack">bleeding attack</Link> rogue talent in place of a discovery.</Pair>
 </Ability>
-<Ability id="torturers-eye" icon={["spell-book"]}>
+<Ability id="torturers-eye" icon={["learn"]}>
 <Pair single id="torturers-eye">Torturer's Eye</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A vivisectionist adds <Link to="/spell/deathwatch">deathwatch</Link> to his formula book as a 1st-level extract.</Pair>
 </Ability>
-<Ability id="cruel-anatomist" icon={["upgrade"]}>
+<Ability id="cruel-anatomist" icon={["boost"]}>
 <Pair single id="cruel-anatomist">Cruel Anatomist</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A vivisectionist may use his Knowledge (nature) skill bonus in place of his Heal skill bonus.</Pair>
 </Ability>
-<Ability id="torturous-transformation" icon={["spell-book"]}>
+<Ability id="torturous-transformation" icon={["learn"]}>
 <Pair single id="torturous-transformation">Torturous Transformation</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">A vivisectionist adds <Link to="/spell/anthropomorphic_animal">anthropomorphic animal</Link> to his formula book as a 2nd-level extract. When he uses this extract, he injects it into an animal as part of a 2-hour surgical procedure. By using multiple doses of this extract as part of the surgery, he multiplies the duration by the number of extracts used.</Pair>
 <Pair title="At 9th Level">A vivisectionist adds <Link to="/spell/awaken">awaken</Link> and <Link to="/spell/baleful_polymorph">baleful polymorph</Link> to his formula book as 3rd-level extracts. When he uses the <em>awaken</em> or <em>baleful polymorph</em> extract, he injects it into the target (not a plant) as part of a 24-hour surgical procedure. He can make <em>anthropomorphic animal</em> <Link to="/spell/permanency">permanent</Link> on a creature by spending 7,500 gp.</Pair>
 <Pair title="At 15th Level">A vivisectionist adds <Link to="/spell/regenerate">regenerate</Link> to his formula book as a 5th-level extract.</Pair>
 </Ability>
-<Ability id="crippling-strike" icon={["stairs-goal"]}>
+<Ability id="crippling-strike" icon={["power"]}>
 <Pair single id="crippling-strike">Crippling Strike</Pair>
 <Pair title="At 10th Level">A vivisectionist may select the <Link to="/talent/crippling_strike">crippling strike</Link> rogue talent in place of a discovery.</Pair>
 </Ability>
@@ -1166,21 +1166,21 @@ const _vivisectionist = {title: "Vivisectionist", jsx: <><h2 id="arc-alchemist-v
 </>};
 const _wasteland_blightbreaker = {title: "Wasteland Blightbreaker", jsx: <><h2 id="arc-alchemist-wasteland_blightbreaker-wasteland-blightbreaker">Wasteland Blightbreaker</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 10</Link><br/>The deleterious effects of the weird hazards of the Mana Wastes require special skill to remedy. Many wasteland blightbreakers are also <Link to="/arc-alchemist/chirurgeon">chirurgeons</Link>.</p>
-<Ability id="healing-infusion-sp-su" icon={["stairs-goal"]}>
+<Ability id="healing-infusion-sp-su" icon={["power"]}>
 <Pair single id="healing-infusion-sp-su">Healing Infusion (Sp, Su)</Pair>
 <Pair hl title="Replaces">Poison resistance +2</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">The blightbreaker can prepare extracts of the <Link to="/spelldef/healing">healing</Link> subschool as if he had the <Link to="/discovery/infusion">infusion</Link> discovery and can choose to render any such extracts inert and prepare other extracts to replace them (unlike infusions, which continue to occupy the alchemist's daily extract slots until consumed or used).</Pair>
 <Pair title="Standard Action">If the blightbreaker has the infusion discovery, or if he is also a chirurgeon, he can use <Link to="/spell/touch_injection">touch injection</Link> as a spell-like ability once per day, but only to absorb an infusion of the healing subschool.</Pair>
 </Ability>
-<Ability id="swift-healing-infusions-sp" icon={["remedy"]}>
+<Ability id="swift-healing-infusions-sp" icon={["aid"]}>
 <Pair single id="swift-healing-infusions-sp">Swift Healing Infusions (Sp)</Pair>
 <Pair hl title="Replaces">Swift poisoning</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Standard Action">The blightbreaker can absorb an infusion of the healing subschool as if with <em>touch injection</em> an unlimited number of times per day.</Pair>
 <Pair title="Swift Action">While he has a healing extract absorbed in this fashion, he can deliver it.</Pair>
 </Ability>
-<Ability id="banish-blights-su" icon={["shield-reflect"]}>
+<Ability id="banish-blights-su" icon={["protect"]}>
 <Pair single id="banish-blights-su">Banish Blights (Su)</Pair>
 <Pair hl title="Replaces">Poison resistance +6, the discovery gained at 8th level</Pair>
 <Pair title="Gained">At 8th Level</Pair>
@@ -1191,22 +1191,22 @@ const _wasteland_blightbreaker = {title: "Wasteland Blightbreaker", jsx: <><h2 i
 </>};
 const _winged_marauder = {title: "Winged Marauder", jsx: <><h2 id="arc-alchemist-winged_marauder-winged-marauder">Winged Marauder</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 104</Link><br/>Goblin alchemists have created a mixture of pheromones that they use to manipulate and entice giant vultures or dire bats to do their bidding. These goblins strap harnesses to the chests of these flying animals and hang beneath them, dropping flaming alchemical solutions on the helpless folks below.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-winged_marauder--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/goblin">Goblin</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-winged_marauder--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/goblin">Goblin</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/handle_animal">Handle Animal</Link> (CHA), <Link to="/skill/ride">Ride</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Disable Device, Sleight of Hand, Use Magic Device</Pair></Ability>
-<Ability id="flying-beast-tamer-ex" icon={["stairs-goal"]}>
+<Ability id="flying-beast-tamer-ex" icon={["power"]}>
 <Pair single id="flying-beast-tamer-ex">Flying Beast Tamer (Ex)</Pair>
 <Pair hl title="Replaces">Mutagen, persistent mutagen</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A winged marauder acquires a flying mount as an <Link to="/sidekick/animal_companion">animal companion</Link>. This works as the druid <Link to="/ability/animal_companion">animal companion</Link> class feature, except the marauder must select a <Link to="/companion/dire_bat">dire bat</Link> or <Link to="/companion/giant_vulture">giant vulture</Link>. The marauder's effective druid level is equal to his alchemist level.</Pair>
 <Pair title="Special">A marauder and his companion don't gain the <em>share spells</em> ability.</Pair>
 </Ability>
-<Ability id="discovery" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="discovery" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="discovery">Discovery</Pair>
 <Pair title="Passive Ability">A winged marauder can select the following additional discovery.</Pair>
 </Ability>
-<Ability id="sipping-pet-ex" extraClasses="subAbility numbered" icon={["remedy"]}>
+<Ability id="sipping-pet-ex" extraClasses="subAbility numbered" icon={["aid"]}>
 <Pair single id="sipping-pet-ex">Sipping Pet (Ex)</Pair>
 <Pair title="Prerequisites">The <Link to="/discovery/infusion">infusion</Link> discovery.</Pair>
 <Pair title="Standard Action">The marauder can administer a dose of a liquid (such as an extract, infusion, potion, or an alchemical liquid like <Link to="/eq-misc/antitoxin">antitoxin</Link>) to his animal companion, even if the companion is unconscious. The alchemist must be adjacent to or riding the companion to use this ability.</Pair>

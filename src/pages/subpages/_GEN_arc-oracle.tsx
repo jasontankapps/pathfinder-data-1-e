@@ -7,12 +7,12 @@ import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
 const _ancient_lorekeeper = {title: "Ancient Lorekeeper", jsx: <><h2 id="arc-oracle-ancient_lorekeeper-ancient-lorekeeper">Ancient Lorekeeper</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 24</Link><br/>The ancient lorekeeper is a repository for all the beliefs and vast knowledge of an <Link to="/race/elves">elven</Link> people. She shows a strong interest in and understanding of histories and creation legends at a young age, and as she matures her calling to serve as the memory of her long-lived people becomes clear to all who know her. An ancient lorekeeper has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-oracle-ancient_lorekeeper--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/elf">Elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-oracle-ancient_lorekeeper--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/elf">Elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
 <Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
 <Pair title="Passive Ability">Whenever she makes a Knowledge check of any kind about a question regarding elves (creatures of the elf subtype), the ancient lorekeeper adds half her class level on her check.</Pair></Ability>
-<Ability id="elven-arcana-ex" icon={["spell-book","upgrade"]}>
+<Ability id="elven-arcana-ex" icon={["learn","boost"]}>
 <Pair single id="elven-arcana-ex">Elven Arcana (Ex)</Pair>
 <Pair hl title="Replaces">Bonus spells gained from the oracle's mystery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -31,7 +31,7 @@ const _ancient_lorekeeper = {title: "Ancient Lorekeeper", jsx: <><h2 id="arc-ora
 const _black_blooded_oracle = {title: "Black-Blooded Oracle", jsx: <><h2 id="arc-oracle-black_blooded_oracle-black-blooded-oracle">Black-Blooded Oracle</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 32</Link><br/>The black-blooded oracle has been infused with the eerie influence of strange fluids that seep from the rock in the deepest pits of the Darklands, the so-called "<Link to="/magic-artifact/black_blood_of_orv">Black Blood of Orv</Link>." Often, the eerie taint of the black blood can lie dormant in a lineage for generations before manifesting. It even seems capable of reaching out to touch those destined to become oracles through other strange methods. However an oracle becomes black-blooded, her divine powers carry within them the weird power of this chilling magical substance. A black-blooded oracle has the following class features.</p>
 <p>See the link above for rules on the black blood itself, but note that a black-blooded oracle does not require access to this eldritch substance to function.</p>
-<Ability id="curse-of-black-blood-su" icon={["broken-shield","magic-swirl","armor-upgrade"]}>
+<Ability id="curse-of-black-blood-su" icon={["down","magic","def"]}>
 <Pair single id="curse-of-black-blood-su">Curse of Black Blood (Su)</Pair>
 <Pair hl title="Replaces">Oracle's curse</Pair>
 <Pair title="Info">All black-blooded oracles effectively share the same curse: the curse of black blood. The material affects these oracles physically and mentally, altering both physiology and mystic powers. The blood of a black-blooded oracle actually runs black, and wounds she suffers are infected by her own power and are difficult to heal.</Pair>
@@ -40,22 +40,22 @@ const _black_blooded_oracle = {title: "Black-Blooded Oracle", jsx: <><h2 id="arc
 <Pair title="At 10th Level">This increases to cold resistance 10.</Pair>
 <Pair title="At 15th Level">She gains immunity to cold.</Pair>
 </Ability>
-<Ability id="black-blood-revelations" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="black-blood-revelations" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="black-blood-revelations">Black Blood Revelations</Pair>
 <Pair title="Info">All black-blooded oracles have access to the following revelations, regardless of what mystery they choose.</Pair>
 </Ability>
-<Ability id="black-blood-spray-su" extraClasses="subAbility" icon={["armor-upgrade","magic-palm"]}>
+<Ability id="black-blood-spray-su" extraClasses="subAbility" icon={["def","touch"]}>
 <Pair single id="black-blood-spray-su">Black Blood Spray (Su)</Pair>
 <Pair title="Usage">1 time/day per two oracle levels (minimum 1)<ByLevelPop levels={[[2,1],[4,2],[6,3],[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="time" postText="/day" /></Pair>
 <Pair title="Immediate Action">Whenever a black-blooded oracle takes piercing or slashing damage, she can cause some of her black blood to spray from the wound to strike any adjacent target. She must make a touch attack to hit the target (if she's attacking the creature that caused the wound, she gains a +4 circumstance bonus on her attack roll). If she hits, she deals 1d8 points of cold damage + an additional number of points equal to <Link to="/misc/half">half</Link> her oracle level.</Pair>
 </Ability>
-<Ability id="dark-resilience-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="dark-resilience-su" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="dark-resilience-su" flavor="The black blood flowing through a black-blooded oracle's veins gives her resistance to many effects to which undead are immune.">Dark Resilience (Su)</Pair>
 <Pair title="Immediate Action">Once per day whenever she fails a saving throw against an <Link to="/rule/ability_drain">ability drain</Link>, a death effect, disease, <Link to="/rule/energy_drain">energy drain</Link>, paralysis, or poison, she may attempt that saving throw again with a +4 circumstance bonus. She must take the second result, even if it is worse.</Pair>
 <Pair title="At 7th Level">She can use this ability 2 times/day.</Pair>
 <Pair title="At 15th Level">She can use this ability 3 times/day.</Pair>
 </Ability>
-<Ability id="darkvision-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="darkvision-ex" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="darkvision-ex">Darkvision (Ex)</Pair>
 <Pair title="Ability">A black-blooded oracle gains darkvision with a range of 60 feet.</Pair>
 <Pair title="At 15th Level">The range increases to 90 feet.</Pair>
@@ -64,11 +64,11 @@ const _black_blooded_oracle = {title: "Black-Blooded Oracle", jsx: <><h2 id="arc
 const _community_guardian = {title: "Community Guardian", jsx: <><h2 id="arc-oracle-community_guardian-community-guardian">Community Guardian</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 63</Link><br/>The community guardian is chosen to protect and succor the weak and innocent within her community. Her calling also allows her to draw upon and focus the collective will in order to achieve those goals. A community guardian has the following class features.</p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-oracle-community_guardian--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><ul><li><Link to="/race/halfling">Halfling</Link></li><li>Alignment must be good.</li></ul></td></tr></tbody></table></ScrollContainer></div><p><strong className="hl">Recommended Mysteries:</strong> <Link to="/mystery/ancestor">ancestor</Link>, <Link to="/mystery/life">life</Link>, <Link to="/mystery/lore">lore</Link>, <Link to="/mystery/nature">nature</Link>.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
 <Pair title="New Class Skills"><Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">The bonus spells gained at 2nd, 4th, 6th, 10th, and 12th levels from the oracle's mystery</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -82,13 +82,13 @@ const _community_guardian = {title: "Community Guardian", jsx: <><h2 id="arc-ora
 <Pair single id="revelations">Revelations</Pair>
 <Pair title="Info">A community guardian must take the following revelations at the listed levels.</Pair>
 </Ability>
-<Ability id="spirit-of-community-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="spirit-of-community-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="spirit-of-community-ex">Spirit of Community (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Charisma modifier times/day</Pair>
 <Pair title="Move-Equivalent Action">You call upon the spirits of community. For the next round, you grant every ally within 30 feet a +1 competence bonus on a single skill check (of the ally's choice) that it makes before the end of this revelation's duration. Furthermore, allies within 30 feet can, as a <strong className="hl">free action</strong>, choose to forgo this bonus, and instead grant a single ally a +1 increase to its competence bonus granted by this ability (maximum +5).</Pair>
 </Ability>
-<Ability id="renewing-radiance-su" extraClasses="subAbility" icon={["shield-reflect","remedy"]}>
+<Ability id="renewing-radiance-su" extraClasses="subAbility" icon={["protect","aid"]}>
 <Pair single id="renewing-radiance-su">Renewing Radiance (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">Once per day you can produce a <Link to="/misc/burst">burst</Link> of swirling white light that provides a measure of protection and renewal to allies within 30 feet for 1 round. On their turn, the allies can choose either to gain a +1 sacred bonus to AC for 1 round or to heal a number of hit points equal to 1d6 + your Charisma bonus (their choice). If an ally is <Link to="/misc/dying">dying</Link>, it is <Link to="/misc/stabilize">stabilized</Link> instead.</Pair>
@@ -99,7 +99,7 @@ const _community_guardian = {title: "Community Guardian", jsx: <><h2 id="arc-ora
 const _cyclopean_seer = {title: "Cyclopean Seer", jsx: <><h2 id="arc-oracle-cyclopean_seer-cyclopean-seer">Cyclopean Seer</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_monster_codex">Inner Sea Monster Codex pg. 17</Link><br/>A cyclopean seer draws power from the mysterious prophetic abilities of ancient giants.</p>
 <p><strong className="hl">Recommended Mysteries:</strong> <Link to="/mystery/ancestor">Ancestor</Link>, <Link to="/mystery/lore">lore</Link>, <Link to="/mystery/nature">nature</Link>, <Link to="/mystery/occult">occult</Link>, <Link to="/mystery/time">time</Link>.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
 <Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair></Ability>
@@ -107,43 +107,43 @@ const _cyclopean_seer = {title: "Cyclopean Seer", jsx: <><h2 id="arc-oracle-cycl
 <Pair single id="oracles-curse">Oracle's Curse</Pair>
 <Pair title="Info">A cyclopean seer must choose the <Link to="/oraclecurse/haunted">haunted</Link>, <Link to="/oraclecurse/hunger">hunger</Link>, <Link to="/oraclecurse/powerless_prophecy">powerless prophecy</Link>, or <Link to="/oraclecurse/tongues">tongues</Link> curse.</Pair>
 </Ability>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Alters">Bonus spells granted by the oracle's mystery</Pair>
 <Pair title="Ability">Each time a cyclopean seer would gain a bonus spell from her mystery, she instead selects a <Link to="/main/spells_divination">divination</Link> spell from any class's spell list. If the spell is not on the cleric/oracle spell list, it must be at least 1 level lower than the highest-level oracle spell the cyclopean seer can cast.</Pair>
 </Ability>
-<Ability id="assume-fate-su" icon={["armor-downgrade","armor-upgrade"]}>
+<Ability id="assume-fate-su" icon={["lower","def"]}>
 <Pair single id="assume-fate-su">Assume Fate (Su)</Pair>
 <Pair hl title="Replaces">Revelation gained at 1st level</Pair>
 <Pair title="Usage">Charisma modifier times/day</Pair>
 <Pair title="Immediate Action">When targeted by an effect that requires a saving throw, you can choose another creature within line of sight that is attempting a save against the same effect. The target takes a penalty on its saving throw equal to 1d4 + 1 for every 4 levels you possess. You gain the value of their penalty as a luck bonus on your saving throw.</Pair>
 </Ability>
-<Ability id="brutal-trance-su" icon={["magic-swirl"]}>
+<Ability id="brutal-trance-su" icon={["magic"]}>
 <Pair single id="brutal-trance-su">Brutal Trance (Su)</Pair>
 <Pair hl title="Replaces">Revelation gained at 7th level</Pair>
 <Pair title="Standard Action">You can enter a trance that lasts 1 round per oracle level you possess. While in this trance, you are <Link to="/misc/confused">confused</Link>, but each round that you can act normally, you can ask a single question as if using <Link to="/spell/commune">commune</Link>.</Pair>
 </Ability>
-<Ability id="revelations" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="revelations" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="revelations">Revelations</Pair>
 <Pair hl title="Alters">Revelations</Pair>
 <Pair title="Info">All cyclopean seers have access to the following revelations, regardless of their chosen mysteries.</Pair>
 </Ability>
-<Ability id="doomsaying-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Ability id="doomsaying-su" extraClasses="subAbility" icon={["lower"]}>
 <Pair single id="doomsaying-su">Doomsaying (Su)</Pair>
 <Pair title="Usage">Charisma modifier times/day</Pair>
 <Pair title="Standard Action">You can pronounce doom on a creature within 30 feet. The target takes a penalty equal to your oracle level on either all skill checks, all savings throws, or all attack rolls (your choice) for 1 minute or until he fails one such roll.</Pair>
 <Pair title="Special">This is a curse effect.</Pair>
 </Ability>
-<Ability id="flash-of-insight-su" extraClasses="subAbility" icon={["rolling-dices"]}>
+<Ability id="flash-of-insight-su" extraClasses="subAbility" icon={["roll"]}>
 <Pair single id="flash-of-insight-su">Flash of Insight (Su)</Pair>
 <Pair title="Ability">You gain the <Link to="/monster/cyclops">cyclops</Link> racial ability of the same name. If you already possess this ability, you gain an additional daily use.</Pair>
 <Pair title="Immediate Action"><em>Text from the</em> cyclops <em>entry:</em> Once per day, a cyclops can peer into an occluded visual spectrum of possible futures, gaining insight that allows it to select the exact result of one die roll before the roll is made. This effect can alter an action taken by the cyclops only, and cannot be applied to the rolls of others.</Pair>
 </Ability>
-<Ability id="prescience-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="prescience-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="prescience-ex">Prescience (Ex)</Pair>
 <Pair title="Passive Ability">You gain a bonus to your Armor Class against attacks of opportunity and a bonus on <Link to="/rule/concentration">concentration</Link> checks. These bonuses are equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your oracle level.</Pair>
 </Ability>
-<Ability id="final-revelation" icon={["magic-swirl","rolling-dices"]}>
+<Ability id="final-revelation" icon={["magic","roll"]}>
 <Pair single id="final-revelation">Final Revelation</Pair>
 <Pair hl title="Replaces">Final revelation</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -154,7 +154,7 @@ const _cyclopean_seer = {title: "Cyclopean Seer", jsx: <><h2 id="arc-oracle-cycl
 const _divine_numerologist = {title: "Divine Numerologist", jsx: <><h2 id="arc-oracle-divine_numerologist-divine-numerologist">Divine Numerologist</h2>
 <p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine pg. 17</Link><br/>The Oracular Council of Po Li and those trained in their sacred methods often include divine numerologists, who use esoteric mathematics and numbers traditions to peer into the past and future and extract meaningful portents. The divine numerologist's ultimate goal is to learn and understand the patterns in the equations and algorithms that underscore even the most chaotic forms of reality and use them to their personal advantage.</p>
 <p><strong className="hl">Recommended Mysteries:</strong> Any.</p>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">The bonus spells gained at 10th, 12th, 14th, 16th, and 18th levels from the oracle's mystery</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -164,12 +164,12 @@ const _divine_numerologist = {title: "Divine Numerologist", jsx: <><h2 id="arc-o
 <Pair plain title="16th"><Link to="/spell/moment_of_prescience">Moment of prescience</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/foresight">Foresight</Link></Pair>
 </Ability>
-<Ability id="revelations" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="revelations" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="revelations">Revelations</Pair>
 <Pair hl title="Replaces">1st- and 7th-level revelations</Pair>
 <Pair title="Ability">A divine numerologist must take the following revelations at the listed levels.</Pair>
 </Ability>
-<Ability id="calculate-the-odds-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="calculate-the-odds-su" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="calculate-the-odds-su">Calculate the Odds (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Swift Action">Once per day, the divine numerologist can quickly tabulate the variables affecting the current situation. This grants the divine numerologist a circumstance bonus equal to her Charisma modifier (minimum +1) to her next d20 roll within 1 round. If the divine numerologist does not use this bonus within 1 round, the use of this ability is wasted.</Pair>
@@ -177,7 +177,7 @@ const _divine_numerologist = {title: "Divine Numerologist", jsx: <><h2 id="arc-o
 <Pair title="At 7th Level">The divine numerologist can use this ability 2 times/day.</Pair>
 <Pair title="At 15th Level">The divine numerologist can use this ability 3 times/day.</Pair>
 </Ability>
-<Ability id="program-the-divine-algorithm-su" extraClasses="subAbility" icon={["rolling-dices"]}>
+<Ability id="program-the-divine-algorithm-su" extraClasses="subAbility" icon={["roll"]}>
 <Pair single id="program-the-divine-algorithm-su" flavor="The divine numerologist's mastery of the divine mathematics allows her to set specific parameters in the divine equation to adjust the outcome of an event right as it is about to occur.">Program the Divine Algorithm (Su)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Immediate Action">Once per day, the divine numerologist can take the average of a single roll of one or more dice, averaging each die separately (for example, the average of a d20 roll is 10, the average of 3d6 is 9, and so on). When using this ability, the divine numerologist can add any modifiers to the roll as normal.</Pair>
@@ -186,7 +186,7 @@ const _divine_numerologist = {title: "Divine Numerologist", jsx: <><h2 id="arc-o
 <Pair title="At 15th Level">She can use this three times a day, and instead of treating a roll as its average, she can instead treat the roll as its maximum result (for example, the divine numerologist can treat a d20 roll as if the result were 20).</Pair>
 <Pair title="Special">The divine numerologist must decide to use this ability immediately before the roll she chooses to affect, and the divine numerologist cannot reroll this roll, even if she has a feat or another ability that would normally allow her to do so.</Pair>
 </Ability>
-<Ability id="final-revelation" icon={["armor-upgrade","upgrade"]}>
+<Ability id="final-revelation" icon={["def","boost"]}>
 <Pair single id="final-revelation">Final Revelation</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">A divine numerologist understands the math behind the entirety of existence well enough to significantly tweak her own personal fate. The divine numerologist ceases aging. She no longer suffers age-related penalties to ability scores and cannot be magically aged.</Pair>
@@ -201,11 +201,11 @@ const _dual_cursed_oracle = {title: "Dual-Cursed Oracle", jsx: <><h2 id="arc-ora
 <Pair hl title="Alters">Oracle's curse</Pair>
 <Pair title="Info">A dual-cursed oracle must choose two curses at 1st level. One of these curses (oracle's choice) never changes its abilities as the oracle gains levels; for example, an oracle with <Link to="/oraclecurse/clouded_vision">clouded vision</Link> never gains darkvision 60 feet, blindsense, or blindsight. The other curse comes with its normal benefits.</Pair>
 </Ability>
-<Ability id="class-skills" icon={["broken-shield"]}>
+<Ability id="class-skills" icon={["down"]}>
 <Pair single id="class-skills">Class Skills</Pair>
 <Pair title="Info">A dual-cursed oracle gains no additional class skills from her mystery.</Pair>
 </Ability>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">The bonus spells gained at 2nd, 4th, and 6th levels from the oracle's mystery</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -213,18 +213,18 @@ const _dual_cursed_oracle = {title: "Dual-Cursed Oracle", jsx: <><h2 id="arc-ora
 <Pair plain title="4th"><Link to="/spell/oracles_burden">Oracle's burden</Link></Pair>
 <Pair plain title="6th"><Link to="/spell/bestow_curse">Bestow curse</Link></Pair>
 </Ability>
-<Ability id="revelations" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="revelations" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="revelations">Revelations</Pair>
 <Pair title="At 5th Level">A dual-cursed oracle gains a bonus revelation.</Pair>
 <Pair title="At 13th Level">A dual-cursed oracle gains a bonus revelation.</Pair>
 <Pair title="Special">The cursed oracle may select the following revelations in place of a mystery revelation.</Pair>
 </Ability>
-<Ability id="misfortune-ex" extraClasses="subAbility" icon={["rolling-dices"]}>
+<Ability id="misfortune-ex" extraClasses="subAbility" icon={["roll"]}>
 <Pair single id="misfortune-ex">Misfortune (Ex)</Pair>
 <Pair title="Immediate Action">You can force a creature within 30 feet to reroll any one d20 roll that it has just made before the results of the roll are revealed. The creature must take the result of the reroll, even if it's worse than the original roll.</Pair>
 <Pair title="Special">Once a creature has suffered from your misfortune, it cannot be the target of this revelation again for 1 day.</Pair>
 </Ability>
-<Ability id="fortune-ex" extraClasses="subAbility" icon={["rolling-dices"]}>
+<Ability id="fortune-ex" extraClasses="subAbility" icon={["roll"]}>
 <Pair single id="fortune-ex">Fortune (Ex)</Pair>
 <Pair title="Prerequisites">5th-level oracle</Pair>
 <Pair title="Usage">1 time/day + 1 per six oracle levels beyond 5th<ByLevelPop levels={[[5,1],[11,2],[17,3]]} unit="time" postText="/day" /></Pair>
@@ -234,7 +234,7 @@ const _dual_cursed_oracle = {title: "Dual-Cursed Oracle", jsx: <><h2 id="arc-ora
 const _elementalist_oracle = {title: "Elementalist Oracle", jsx: <><h2 id="arc-oracle-elementalist_oracle-elementalist-oracle">Elementalist Oracle</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 68</Link>, <Link to="/source/people_of_the_sands">People of the Sands pg. 15</Link><br/>An elementalist oracle shares an affinity with the elements and elemental creatures. She can communicate with elemental creatures and can eventually become an elemental herself. She sees perfection in manifestations of elemental fury in the natural world, be they the thunderous wrath of the storm, the churning waters of the ocean's tides or a flooding river, the terrain-shaping power of a landslide or earthquake, or the apocalyptic fury of a volcanic eruption.</p>
 <p><strong className="hl">Recommended Mysteries:</strong> <Link to="/mystery/flame">Flame</Link>, <Link to="/mystery/stone">stone</Link>, <Link to="/mystery/waves">waves</Link>, <Link to="/mystery/wind">wind</Link>.</p>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">The bonus spells gained at 4th, 6th, 8th, 10th, 12th and 18th levels from the oracle's mystery</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -249,7 +249,7 @@ const _elementalist_oracle = {title: "Elementalist Oracle", jsx: <><h2 id="arc-o
 <Pair single id="revelations">Revelations</Pair>
 <Pair title="Info">An elementalist oracle must take the following revelations at the listed levels.</Pair>
 </Ability>
-<Ability id="elemental-linguist-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="elemental-linguist-su" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="elemental-linguist-su">Elemental Linguist (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain a bonus language of your choice from the following list: Aquan, Auran, Ignan, or Terran.</Pair>
@@ -257,7 +257,7 @@ const _elementalist_oracle = {title: "Elementalist Oracle", jsx: <><h2 id="arc-o
 <Pair title="At 10th Level">You gain another language chosen from this list.</Pair>
 <Pair title="At 15th Level">You gain another language chosen from this list.</Pair>
 </Ability>
-<Ability id="elemental-form-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="elemental-form-su" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="elemental-form-su">Elemental Form (Su)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability"><p>You gain the <Link to="/subtype/air">air</Link>, <Link to="/subtype/earth">earth</Link>, <Link to="/subtype/fire">fire</Link>, or <Link to="/subtype/water">water</Link> subtype and an associated ability:</p>
@@ -269,7 +269,7 @@ const _elementalist_oracle = {title: "Elementalist Oracle", jsx: <><h2 id="arc-o
 </ul>
 </Pair>
 </Ability>
-<Ability id="elemental-revelation-su" extraClasses="subAbility" icon={["magic-swirl","armor-downgrade"]}>
+<Ability id="elemental-revelation-su" extraClasses="subAbility" icon={["magic","lower"]}>
 <Pair single id="elemental-revelation-su">Elemental Revelation (Su)</Pair>
 <Pair hl title="Replaces">Final revelation</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -280,11 +280,11 @@ const _elementalist_oracle = {title: "Elementalist Oracle", jsx: <><h2 id="arc-o
 const _enlightened_philosopher = {title: "Enlightened Philosopher", jsx: <><h2 id="arc-oracle-enlightened_philosopher-enlightened-philosopher">Enlightened Philosopher</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 58</Link><br/>The enlightened philosopher seeks enlightenment through compassion, moderation, and humility. By following her philosophy's teachings, the enlightened philosopher seeks to reach enlightenment and become one with the universe.</p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-oracle-enlightened_philosopher--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Alignment must be lawful</td></tr></tbody></table></ScrollContainer></div><p><strong className="hl">Recommended Mysteries:</strong> <Link to="/mystery/ancestor">ancestor</Link>, <Link to="/mystery/flame">flame</Link>, <Link to="/mystery/heavens">heavens</Link>, <Link to="/mystery/lore">lore</Link>, <Link to="/mystery/metal">metal</Link>, <Link to="/mystery/nature">nature</Link>, <Link to="/mystery/stone">stone</Link>, <Link to="/mystery/time">time</Link>, <Link to="/mystery/waves">waves</Link>, <Link to="/mystery/wood">wood</Link>.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
 <Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair></Ability>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">All bonus spells gained from the oracle's mystery after 2nd level</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -297,11 +297,11 @@ const _enlightened_philosopher = {title: "Enlightened Philosopher", jsx: <><h2 i
 <Pair plain title="16th"><Link to="/spell/moment_of_prescience">Moment of prescience</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/astral_projection">Astral projection</Link></Pair>
 </Ability>
-<Ability id="revelations" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="revelations" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="revelations">Revelations</Pair>
 <Pair title="At 7th Level">An enlightened philosopher must take the following revelation.</Pair>
 </Ability>
-<Ability id="mental-acuity-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="mental-acuity-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="mental-acuity-ex" flavor="Your explorations into the secret mysteries of the world have granted you a preternatural understanding of all things - and you just keep getting smarter.">Mental Acuity (Ex)</Pair>
 <Pair title="Info">This is the same as the <Link to="/mystery/lore">lore</Link> mystery revelation of the same name.</Pair>
 <Pair title="Passive Ability">You gain a +1 inherent bonus to Intelligence upon taking this revelation.</Pair>
@@ -310,7 +310,7 @@ const _enlightened_philosopher = {title: "Enlightened Philosopher", jsx: <><h2 i
 <Pair title="At 16th Level">The bonus to Intelligence becomes +4.</Pair>
 <Pair title="At 19th Level">The bonus to Intelligence increases to +5.</Pair>
 </Ability>
-<Ability id="final-revelation" icon={["armor-upgrade","stairs-goal","magic-swirl"]}>
+<Ability id="final-revelation" icon={["def","power","magic"]}>
 <Pair single id="final-revelation" flavor="You achieve true enlightenment and become one with the universe.">Final Revelation</Pair>
 <Pair hl title="Replaces">Final revelation</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -321,7 +321,7 @@ const _enlightened_philosopher = {title: "Enlightened Philosopher", jsx: <><h2 i
 </>};
 const _hermit = {title: "Hermit", jsx: <><h2 id="arc-oracle-hermit-hermit">Hermit</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 22</Link><br/>A hermit is a recluse who gained her oracular powers from isolation in a deep desert, on a mountain peak, or in another secluded location. A connection to untraveled places gives the hermit powers to evade his enemies.</p>
-<Ability id="mystery" icon={["broken-shield"]}>
+<Ability id="mystery" icon={["down"]}>
 <Pair single id="mystery">Mystery</Pair>
 <Pair title="Choice">A hermit must choose a mystery that adds Survival to his list of class skills: <Link to="/mystery/apocalypse">apocalypse</Link>, <Link to="/mystery/heavens">heavens</Link>&#42;, <Link to="/mystery/juju">juju</Link>, <Link to="/mystery/life">life</Link>&#42;, <Link to="/mystery/lunar">lunar</Link>, <Link to="/mystery/nature">nature</Link>&#42;, <Link to="/mystery/outer_rifts">outer rifts</Link>, <Link to="/mystery/reaper">reaper</Link>, <Link to="/mystery/solar">solar</Link>, <Link to="/mystery/spellscar">spellscar</Link>, <Link to="/mystery/stone">stone</Link>&#42;, <Link to="/mystery/succor">succor</Link>, <Link to="/mystery/volcano">volcano</Link>, <Link to="/mystery/winter">winter</Link>, or <Link to="/mystery/wood">wood</Link>.</Pair>
 <Pair title="Info">Mysteries marked with an asterisk (&#42;) are recommended.</Pair>
@@ -330,7 +330,7 @@ const _hermit = {title: "Hermit", jsx: <><h2 id="arc-oracle-hermit-hermit">Hermi
 <Pair single id="oracles-curse">Oracle's Curse</Pair>
 <Pair title="Info">A hermit must choose the <Link to="/oraclecurse/reclusive">reclusive</Link> curse at 1st level.</Pair>
 </Ability>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">The bonus spells gained at 4th, 8th, 12th, and 16th levels from the oracle's mystery</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -343,14 +343,14 @@ const _hermit = {title: "Hermit", jsx: <><h2 id="arc-oracle-hermit-hermit">Hermi
 <Pair single id="revelations">Revelations</Pair>
 <Pair title="Info">A hermit must take the following revelations at the listed levels.</Pair>
 </Ability>
-<Ability id="recluses-stride-su" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade","magic-swirl"]}>
+<Ability id="recluses-stride-su" extraClasses="subAbility" icon={["power","def","magic"]}>
 <Pair single id="recluses-stride-su">Recluse's Stride (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">Your base speed increases by 10 feet.</Pair>
 <Pair title="At 5th Level">Once per round when leaving a square, you can treat the square as though it isn't threatened by any opponents that you can see.</Pair>
 <Pair title="At 10th Level">You can teleport a distance equal to your base land speed (as per <Link to="/spell/dimension_door">dimension door</Link>) as a <strong className="hl">move action</strong>, provided that there are no other creatures within 10 feet of you when you use this ability and no other creatures within 10 feet of your destination. You can teleport a number of times per day equal to 3 + your Charisma modifier.</Pair>
 </Ability>
-<Ability id="fade-from-memory-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="fade-from-memory-su" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="fade-from-memory-su">Fade from Memory (Su)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Usage">1 time/day per oracle level</Pair>
@@ -361,7 +361,7 @@ const _hermit = {title: "Hermit", jsx: <><h2 id="arc-oracle-hermit-hermit">Hermi
 const _inerrant_voice = {title: "Inerrant Voice", jsx: <><h2 id="arc-oracle-inerrant_voice-inerrant-voice">Inerrant Voice</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 17</Link><br/>An inerrant voice serves as a spiritual advisor to either a monarch or noble. Most Qadiran nobles retain one's services, for both guidance and protection.</p>
 <p><strong className="hl">Recommended Mysteries:</strong> <Link to="/mystery/ancestor">Ancestor</Link>, <Link to="/mystery/intrigue">intrigue</Link>, <Link to="/mystery/life">life</Link>, <Link to="/mystery/lore">lore</Link>.</p>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">The bonus spells gained at 2nd, 4th, 8th, and 14th levels from the oracle's mystery</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -374,7 +374,7 @@ const _inerrant_voice = {title: "Inerrant Voice", jsx: <><h2 id="arc-oracle-iner
 <Pair single id="revelations">Revelations</Pair>
 <Pair title="At 3rd Level">An inerrant voice must take the following revelation.</Pair>
 </Ability>
-<Ability id="vigilant-protector-su" extraClasses="subAbility" icon={["shield-reflect"]}>
+<Ability id="vigilant-protector-su" extraClasses="subAbility" icon={["protect"]}>
 <Pair single id="vigilant-protector-su">Vigilant Protector (Su)</Pair>
 <Pair title="Choice">Each day when you recover your spells, you can select a specific person you know other than yourself as your ward.</Pair>
 <Pair title="Usage">1 time/day + 1 per four oracle levels beyond 3rd<ByLevelPop levels={[[3,1],[7,2],[11,3],[15,4],[19,5]]} unit="time" postText="/day" /></Pair>
@@ -385,11 +385,11 @@ const _inerrant_voice = {title: "Inerrant Voice", jsx: <><h2 id="arc-oracle-iner
 const _keleshite_prophet = {title: "Keleshite Prophet", jsx: <><h2 id="arc-oracle-keleshite_prophet-keleshite-prophet">Keleshite Prophet</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 42</Link><br/>Keleshite prophets help guide and serve the vast Padishah Empire of Kelesh and its interests across Golarion.</p>
 <p><strong className="hl">Recommended Mysteries:</strong> Any.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
 <Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/perform">Perform</Link> (CHA)</Pair></Ability>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">The bonus spells gained at 6th, 10th, 12th, 16th, and 18th levels from the oracle's mystery</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -403,7 +403,7 @@ const _keleshite_prophet = {title: "Keleshite Prophet", jsx: <><h2 id="arc-oracl
 <Pair single id="revelations">Revelations</Pair>
 <Pair title="Info">A Keleshite prophet must take the following revelation at 1st level.</Pair>
 </Ability>
-<Ability id="divining-dance-su" extraClasses="subAbility" icon={["upgrade","magic-swirl"]}>
+<Ability id="divining-dance-su" extraClasses="subAbility" icon={["boost","magic"]}>
 <Pair single id="divining-dance-su">Divining Dance (Su)</Pair>
 <Pair title="Ability"><p>Once per day, you can perform a sacred meditative dance that gives you great clarity of mind and prepares you for what lies ahead. This dance must last for at least 1 minute, uninterrupted, and you can take no other actions during the dance.</p>
 <p>When you dance, attempt a Perform (dance) check; the results of the check determine the benefits you gain for the next 24 hours, as listed below. You can always choose the benefit from a lower result, if you wish (for example, if your Perform [dance] result is 15, you can choose to gain a +1 bonus on your divinations' saving throws instead of choosing to use <em>augury</em> once as a spell-like ability).</p>
@@ -440,11 +440,11 @@ const _keleshite_prophet = {title: "Keleshite Prophet", jsx: <><h2 id="arc-oracl
 </>};
 const _oceans_echo = {title: "Ocean's Echo", jsx: <><h2 id="arc-oracle-oceans_echo-oceans-echo">Ocean's Echo</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 12</Link><br/>Although many <Link to="/race/merfolk">merfolk</Link> claim deep connections to both art and the natural world, a rare few merfolk can manipulate the forces of nature and weave them into song. An ocean's echo is a merfolk gifted with the powers of an oracle and a singing voice that evokes the legendary tales of merfolk virtuosos.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
 <Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/perform">Perform</Link> (CHA)</Pair></Ability>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">The bonus spells gained at 4th, 8th, 10th, 12th, and 14th levels from the oracle's mystery</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -454,7 +454,7 @@ const _oceans_echo = {title: "Ocean's Echo", jsx: <><h2 id="arc-oracle-oceans_ec
 <Pair plain title="12th"><Link to="/spell/greater_shout">Greater shout</Link></Pair>
 <Pair plain title="14th"><Link to="/spell/pied_piping">Pied piping</Link></Pair>
 </Ability>
-<Ability id="inspiring-song-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="inspiring-song-ex" icon={["power","boost"]}>
 <Pair single id="inspiring-song-ex" flavor="The voice of an ocean's echo provides inspiration to allies.">Inspiring Song (Ex)</Pair>
 <Pair hl title="Replaces">Revelations gained at 1st, 3rd, and 15th level</Pair>
 <Pair title="Usage">Oracle level + Charisma modifier rounds/day (minimum 1)</Pair>
@@ -468,39 +468,39 @@ const _oceans_echo = {title: "Ocean's Echo", jsx: <><h2 id="arc-oracle-oceans_ec
 const _pei_zin_practitioner = {title: "Pei Zin Practitioner", jsx: <><h2 id="arc-oracle-pei_zin_practitioner-pei-zin-practitioner">Pei Zin Practitioner</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 20</Link><br/>In distant Tian Xia, herbalists practice an obscure alchemical art known as <Link to="/rule/pei_zin_herbalism">Pei Zin herbalism</Link>, which involves medicinal and restorative techniques that are used throughout much of that continent. A few practitioners develop a talent for Pei Zin that transcends ordinary alchemy, allowing them to blur the line between applying alchemical medicine and coaxing divine miracles.</p>
 <p>Like other masters of the art, Pei Zin practitioners can use the <Link to="/skill/profession">Profession (herbalist)</Link> skill in place of Craft (alchemy) to create alchemical remedies with recipes that include certain plant-derived reagents.</p>
-<Ability id="master-herbalist-su" icon={["upgrade","magic-swirl"]}>
+<Ability id="master-herbalist-su" icon={["boost","magic"]}>
 <Pair single id="master-herbalist-su">Master Herbalist (Su)</Pair>
 <Pair hl title="Replaces">Class skills gained from the oracle's mystery</Pair>
 <Pair title="Passive Ability">A Pei Zin practitioner has mastered countless alchemical techniques that supplement her divine powers and greatly aid her when she heals the sick and wounded. She gains a competence bonus on Profession (herbalist) checks equal to 1/2 her oracle level (minimum 1), and uses her Charisma modifier in place of her Wisdom modifier when attempting Profession (herbalist) checks.</Pair>
 <Pair title="Special">Additionally, a Pei Zin practitioner can identify potions as if via <Link to="/spell/detect_magic">detect magic</Link> using Profession (herbalist) instead of Spellcraft, and she can attempt such a check after holding a potion for 1 round.</Pair>
 </Ability>
-<Ability id="healers-way-su" icon={["remedy"]}>
+<Ability id="healers-way-su" icon={["aid"]}>
 <Pair single id="healers-way-su" flavor="A Pei Zin practitioner combines alchemy, acupuncture, and divine magic to heal wounds by touch.">Healer's Way (Su)</Pair>
 <Pair hl title="Replaces">Revelation gained at 1st level</Pair>
 <Pair title="Usage">1 + Charisma modifier times/day</Pair>
 <Pair title="Standard Action">With one use of this ability, she uses positive energy to heal the target of 1d6 hit points for every 2 oracle levels she has. Using this ability is a standard action unless the oracle targets herself, in which case it is a <strong className="hl">swift action</strong>. Using this ability requires only one free hand.</Pair>
 <Pair title="Special">This ability counts as a paladin's <Link to="/ability/lay_on_hands">lay on hands</Link> ability for the purposes of feats, spells, and effects that work with that class feature when it is used for healing purposes. Unlike <em>lay on hands,</em> this ability cannot be used to harm undead.</Pair>
 </Ability>
-<Ability id="master-healing-technique-su" extraClasses="hasSubs" icon={["remedy"]}>
+<Ability id="master-healing-technique-su" extraClasses="hasSubs" icon={["aid"]}>
 <Pair single id="master-healing-technique-su">Master Healing Technique (Su)</Pair>
 <Pair hl title="Replaces">Revelation gained at 7th level</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Free Action">Whenever a Pei Zin practitioner heals a living creature with her <em>healer's way</em> ability, she can attempt a Profession (herbalist) check to remove a condition from the target, with each condition having an accompanying Profession (herbalist) DC (see the list below). She cannot take 10 or 20 on this check, nor can she receive aid from any creature except another Pei Zin practitioner (though the practitioner need not be an oracle).</Pair>
 <Pair title="Special">Failure by 5 or more causes the target to become <Link to="/misc/sickened">sickened</Link> for 1 round (if the Pei Zin practitioner is attempting to remove the sickened condition, this extends it by 1 round). Similarly, failure by 10 or more instead causes the target to become <Link to="/misc/nauseated">nauseated</Link> for 1 round or to have its existing nauseated condition extended by 1 round. A creature that cannot be sickened or nauseated cannot have conditions removed by this ability.</Pair>
 </Ability>
-<Ability id="minor-conditions-dc-20" extraClasses="subAbility" icon={["remedy"]}>
+<Ability id="minor-conditions-dc-20" extraClasses="subAbility" icon={["aid"]}>
 <Pair single id="minor-conditions-dc-20">Minor Conditions (DC 20)</Pair>
 <Pair title="Ability">She can remove the fatigued, shaken, and sickened conditions.</Pair>
 </Ability>
-<Ability id="major-conditions-dc-25" extraClasses="subAbility" icon={["remedy"]}>
+<Ability id="major-conditions-dc-25" extraClasses="subAbility" icon={["aid"]}>
 <Pair single id="major-conditions-dc-25">Major Conditions (DC 25)</Pair>
 <Pair title="Ability">She can remove the dazed and staggered conditions.</Pair>
 </Ability>
-<Ability id="severe-conditions-dc-30" extraClasses="subAbility" icon={["remedy"]}>
+<Ability id="severe-conditions-dc-30" extraClasses="subAbility" icon={["aid"]}>
 <Pair single id="severe-conditions-dc-30">Severe Conditions (DC 30)</Pair>
 <Pair title="Ability">She can remove the confused, exhausted, frightened, and nauseated conditions.</Pair>
 </Ability>
-<Ability id="dire-conditions-dc-35" extraClasses="subAbility" icon={["remedy"]}>
+<Ability id="dire-conditions-dc-35" extraClasses="subAbility" icon={["aid"]}>
 <Pair single id="dire-conditions-dc-35">Dire Conditions (DC 35)</Pair>
 <Pair title="Ability">She can remove the blinded, deafened, paralyzed, and stunned conditions.</Pair>
 </Ability>
@@ -509,7 +509,7 @@ const _pei_zin_practitioner = {title: "Pei Zin Practitioner", jsx: <><h2 id="arc
 const _planar_oracle = {title: "Planar Oracle", jsx: <><h2 id="arc-oracle-planar_oracle-planar-oracle">Planar Oracle</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 59</Link><br/>A planar oracle has an affinity with one of the Outer Planes. She is at home on the multiple planes of the Great Beyond, and can eventually become an outsider herself.</p>
 <p><strong className="hl">Recommended Mysteries:</strong> <Link to="/mystery/dark_tapestry">dark tapestry</Link>, <Link to="/mystery/flame">flame</Link>, <Link to="/mystery/heavens">heavens</Link>, <Link to="/mystery/stone">stone</Link>, <Link to="/mystery/waves">waves</Link>, <Link to="/mystery/wind">wind</Link>.</p>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">All  bonus spells from the oracle's mystery</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -529,13 +529,13 @@ const _planar_oracle = {title: "Planar Oracle", jsx: <><h2 id="arc-oracle-planar
 <Pair title="At 1st Level">You must choose one Outer Plane with which you have an affinity. This choice cannot be changed.</Pair>
 <Pair title="At 3rd Level">A planar oracle must take the following revelation.</Pair>
 </Ability>
-<Ability id="planar-resistance-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="planar-resistance-su" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="planar-resistance-su">Planar Resistance (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">You gain energy resistance 10 against one energy type associated with your chosen plane.</Pair>
 <Pair title="At 11th Level">Your energy resistance increases to 20.</Pair>
 </Ability>
-<Ability id="final-revelation" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="final-revelation" icon={["power","def"]}>
 <Pair single id="final-revelation">Final Revelation</Pair>
 <Pair hl title="Replaces">Final revelation</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -550,7 +550,7 @@ const _possessed_oracle = {title: "Possessed Oracle", jsx: <><h2 id="arc-oracle-
 <Pair single id="oracles-curse">Oracle's Curse</Pair>
 <Pair title="Info">A possessed oracle must choose the <Link to="/oraclecurse/haunted">haunted</Link>, <Link to="/oraclecurse/pranked">pranked</Link>, or <Link to="/oraclecurse/tongues">tongues</Link> curse at 1st level.</Pair>
 </Ability>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">The bonus spells gained at 1st,<sup><InnerLink showBacklink="backlink-arc-oracle-possessed_oracle-fake-fn-1" id="arc-oracle-possessed_oracle-fake-fn-1" data-hash-target to="arc-oracle-possessed_oracle-fake-fn-1-target">1</InnerLink></sup> 4th, 6th, 8th, 10th, 12th, and 16th levels from the oracle's mystery</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -566,7 +566,7 @@ const _possessed_oracle = {title: "Possessed Oracle", jsx: <><h2 id="arc-oracle-
 <Pair single id="revelations">Revelations</Pair>
 <Pair title="At 1st Level">A possessed oracle must take the following revelation.</Pair>
 </Ability>
-<Ability id="two-minds-su" extraClasses="subAbility" icon={["armor-upgrade","rolling-dices"]}>
+<Ability id="two-minds-su" extraClasses="subAbility" icon={["def","roll"]}>
 <Pair single id="two-minds-su">Two Minds (Su)</Pair>
 <Pair title="Passive Ability">You gain a +2 bonus on Will saves against enchantment spells or effects.</Pair>
 <Pair title="At 7th Level">You may reroll a failed Will save once per day as an <strong className="hl">immediate action</strong>. You must take the second result, even if it is worse.</Pair>
@@ -576,7 +576,7 @@ const _possessed_oracle = {title: "Possessed Oracle", jsx: <><h2 id="arc-oracle-
 </ol></section></>};
 const _psychic_searcher = {title: "Psychic Searcher", jsx: <><h2 id="arc-oracle-psychic_searcher-psychic-searcher">Psychic Searcher</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 106</Link><br/>A psychic searcher is devoted to revealing the hidden within the world around her by sensing and communing with residual mental energy, haunts, and fragments of living spirits that can dwell in objects or rooms.</p>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">The bonus spells gained at 4th, 6th, 8th, 12th, 16th, and 18th levels from the oracle's mystery</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -587,13 +587,13 @@ const _psychic_searcher = {title: "Psychic Searcher", jsx: <><h2 id="arc-oracle-
 <Pair plain title="16th"><Link to="/spell/discern_location">Discern location</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/foresight">Foresight</Link></Pair>
 </Ability>
-<Ability id="inspiration-ex" icon={["stairs-goal"]}>
+<Ability id="inspiration-ex" icon={["power"]}>
 <Pair single id="inspiration-ex">Inspiration (Ex)</Pair>
 <Pair hl title="Replaces">Mystery spell gained at 2nd level</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A psychic searcher gains an inspiration pool, as the <Link to="/class/investigator">investigator</Link> class ability. A psychic searcher uses her oracle level as her investigator level to determine the effects of this ability. She gains free uses of inspiration on Diplomacy, Knowledge (arcana, history, local, nobility, planes, religion), and Sense Motive skill checks without spending a use of inspiration, provided she's trained in that skill. A psychic searcher's inspiration pool refreshes each day, usually when she refreshes her spells. A psychic searcher's inspiration pool is based on her Charisma modifier, not her Intelligence modifier.</Pair>
 </Ability>
-<Ability id="psychic-talent-su" icon={["stairs-goal"]}>
+<Ability id="psychic-talent-su" icon={["power"]}>
 <Pair single id="psychic-talent-su">Psychic Talent (Su)</Pair>
 <Pair hl title="Replaces">Revelation gained at 3rd level</Pair>
 <Pair hl title="Alters">Revelations gained after 3rd level</Pair>
@@ -606,7 +606,7 @@ const _psychic_searcher = {title: "Psychic Searcher", jsx: <><h2 id="arc-oracle-
 const _purifier = {title: "Purifier", jsx: <><h2 id="arc-oracle-purifier-purifier">Purifier</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 86</Link><br/>The purifier seeks out signs of possession or mind control that manifest from unwilling (and often unwitting) servants for fiendish corruptors and their mortal minions. A purifier seeks liberation of mind, body, and spirit from the bondage of sin and the taint of the unholy. A purifier gains the following class features.</p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-oracle-purifier--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/aasimar">Aasimar</Link></td></tr></tbody></table></ScrollContainer></div><p><strong className="hl">Recommended Mysteries:</strong> <Link to="/mystery/ancestor">ancestor</Link>, <Link to="/mystery/battle">battle</Link>, <Link to="/mystery/heavens">heavens</Link>, <Link to="/mystery/lore">lore</Link>.</p>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">All bonus spells from the oracle's mystery</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -620,7 +620,7 @@ const _purifier = {title: "Purifier", jsx: <><h2 id="arc-oracle-purifier-purifie
 <Pair plain title="16th"><Link to="/spell/mind_blank">Mind blank</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/freedom">Freedom</Link></Pair>
 </Ability>
-<Ability id="diminished-spellcasting" icon={["broken-shield"]}>
+<Ability id="diminished-spellcasting" icon={["down"]}>
 <Pair single id="diminished-spellcasting">Diminished Spellcasting</Pair>
 <Pair title="Info">A purifier can use one fewer spell per day of each level and does not automatically learn cure or inflict spells. Her number of oracle spells known is unchanged.</Pair>
 </Ability>
@@ -629,16 +629,16 @@ const _purifier = {title: "Purifier", jsx: <><h2 id="arc-oracle-purifier-purifie
 <Pair hl title="Replaces">Revelations from her mystery gained at 3rd, 7th, and 11th levels</Pair>
 <Pair title="Info">A purifier must take the following revelations at the listed levels.</Pair>
 </Ability>
-<Ability id="see-sin-sp" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="see-sin-sp" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="see-sin-sp">See Sin (Sp)</Pair>
 <Pair title="At 3rd Level">A purifier gains a bonus equal to 1/2 her oracle level on Sense Motive checks to sense enchantments, which she can make as a <strong className="hl">full-round action</strong>. She also gains a bonus equal to 1/2 her oracle level on Spellcraft checks to identify enchantment school spells and spells with the curse or emotion descriptor.</Pair>
 </Ability>
-<Ability id="celestial-armor-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="celestial-armor-su" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="celestial-armor-su">Celestial Armor (Su)</Pair>
 <Pair title="At 7th Level">A purifier's armor takes on a golden or silvery sheen and becomes light as a feather. Her armor weighs half as much as long as she wears it, and she also gains <em>armor training</em> as a <Link to="/class/fighter">fighter</Link> 4 levels lower than her oracle level.</Pair>
 <Pair title="At 11th Level">A purifier gains <Link to="/feat/heavy_armor_proficiency">heavy armor proficiency</Link>.</Pair>
 </Ability>
-<Ability id="sin-eater-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="sin-eater-su" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="sin-eater-su">Sin Eater (Su)</Pair>
 <Pair title="At 11th Level">A purifier can consume a curse, enchantment, or emotion effect by touch as a <strong className="hl">full-round action</strong>. She must make a Charisma check with a bonus equal to her oracle level against a DC of 11 + the caster level of the effect (or the Hit Dice of the creator for a supernatural effect). If the check succeeds, the effect is negated; however, the purifier is <Link to="/misc/sickened">sickened</Link> for 1d4 rounds.</Pair>
 <Pair title="Usage">Charisma modifier times/day</Pair>
@@ -649,11 +649,11 @@ const _purifier = {title: "Purifier", jsx: <><h2 id="arc-oracle-purifier-purifie
 <Pair title="At 5th Level">A purifier may channel holy power to harm evil outsiders as a cleric of her level using the <Link to="/feat/alignment_channel">Alignment Channel</Link> feat.</Pair>
 <Pair title="Usage">1 + Charisma modifier times/day</Pair>
 </Ability>
-<Ability id="holy-terror-su" icon={["upgrade"]}>
+<Ability id="holy-terror-su" icon={["boost"]}>
 <Pair single id="holy-terror-su">Holy Terror (Su)</Pair>
 <Pair title="At 9th Level">A purifier may use her <em>sacred scourge</em> to panic evil outsiders as if using the <Link to="/feat/turn_undead">Turn Undead</Link> feat against undead.</Pair>
 </Ability>
-<Ability id="celestial-master-su" icon={["upgrade"]}>
+<Ability id="celestial-master-su" icon={["boost"]}>
 <Pair single id="celestial-master-su">Celestial Master (Su)</Pair>
 <Pair title="At 13th Level">A purifier may use her <em>sacred scourge</em> to compel good outsiders to serve her, as if using the <Link to="/feat/command_undead">Command Undead</Link> feat against undead.</Pair>
 </Ability>
@@ -665,7 +665,7 @@ const _reincarnated_oracle = {title: "Reincarnated Oracle", jsx: <><h2 id="arc-o
 <Pair single id="oracles-curse">Oracle's Curse</Pair>
 <Pair title="At 1st Level">A reincarnated oracle must choose the <Link to="/oraclecurse/haunted">haunted</Link> or <Link to="/oraclecurse/tongues">tongues</Link> curse.</Pair>
 </Ability>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">The bonus spells gained at 2nd, 4th, 10th, 16th, and 18th levels from the oracle's mystery</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -679,13 +679,13 @@ const _reincarnated_oracle = {title: "Reincarnated Oracle", jsx: <><h2 id="arc-o
 <Pair single id="revelations">Revelations</Pair>
 <Pair title="Info">A reincarnated oracle must take the following revelations at one of the listed levels.</Pair>
 </Ability>
-<Ability id="location-memories-su" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Ability id="location-memories-su" extraClasses="subAbility" icon={["power","boost"]}>
 <Pair single id="location-memories-su">Location Memories (Su)</Pair>
 <Pair title="Usage">3 + Charisma modifier times/day</Pair>
 <Pair title="Swift Action">You may search your past lives for memories of or insight about your current location. This grants you the <Link to="/umr/scent">scent</Link> ability, low-light vision, and a +2 insight bonus on Perception and Survival checks for 1 minute.</Pair>
 <Pair title="Special">You must take this revelation at 1st level or 3rd level.</Pair>
 </Ability>
-<Ability id="spirit-memories-su" extraClasses="subAbility" icon={["smoking-finger","armor-downgrade"]}>
+<Ability id="spirit-memories-su" extraClasses="subAbility" icon={["zap","lower"]}>
 <Pair single id="spirit-memories-su">Spirit Memories (Su)</Pair>
 <Pair title="Usage">3 + Charisma modifier times/day</Pair>
 <Pair title="Ability">Once per day, you call upon the unfulfilled desires and goals of your past lives and project their frustration and despair through your eyes at a target. This is a <Link to="/umr/gaze">gaze</Link> attack affecting one creature. The target must make a Will save (DC 10 + 1/2 your oracle level + your Charisma modifier) or be <Link to="/misc/sickened">sickened</Link> and <Link to="/misc/staggered">staggered</Link> for 1 round. This is a mind-affecting compulsion effect.</Pair>
@@ -694,12 +694,12 @@ const _reincarnated_oracle = {title: "Reincarnated Oracle", jsx: <><h2 id="arc-o
 </>};
 const _river_soul = {title: "River Soul", jsx: <><h2 id="arc-oracle-river_soul-river-soul">River Soul</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 68</Link><br/>River soul oracles derive their powers from their bonds with rivers, whether these waterways are rapid cascades or lazy channels plied by boats. The powerful bond formed with a river is also the river soul oracle's curse, as he must always carry water from the river with him, and his fate is bound to it. River soul oracles can be gentle and still when calm, but they're raging torrents when angered.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
 <Pair title="New Class Skills"><Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/swim">Swim</Link> (STR)</Pair></Ability>
 <p><strong className="hl">Recommended Mysteries:</strong> <Link to="/mystery/life">Life</Link>, <Link to="/mystery/nature">nature</Link>, <Link to="/mystery/stone">stone</Link>, <Link to="/mystery/waves">waves</Link>.</p>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">The bonus spells gained at 2nd, 6th, 8th, 10th, and 18th levels from the oracle's mystery</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -709,7 +709,7 @@ const _river_soul = {title: "River Soul", jsx: <><h2 id="arc-oracle-river_soul-r
 <Pair plain title="10th"><Link to="/spell/cone_of_cold">Cone of cold</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/world_wave">World wave</Link></Pair>
 </Ability>
-<Ability id="river-bound-curse-su" icon={["info","hazard-sign"]}>
+<Ability id="river-bound-curse-su" icon={["info","warning"]}>
 <Pair single id="river-bound-curse-su">River Bound Curse (Su)</Pair>
 <Pair hl title="Replaces">Oracle's curse</Pair>
 <Pair title="Info">You bind your power to one particular river, which is the source of your spells and class abilities. You must carry a small vessel containing water from the river you are bound to at all times. If the vessel is destroyed or travels more than 10 feet away from you, you are unable to cast oracle spells or use your supernatural or spell-like class abilities until you recover the vessel or fill a new one with water from the river to which you are bound.</Pair>
@@ -720,20 +720,20 @@ const _river_soul = {title: "River Soul", jsx: <><h2 id="arc-oracle-river_soul-r
 <Pair hl title="Replaces">Revelations gained at 1st and 11th levels</Pair>
 <Pair title="Info">A river soul oracle must take the following revelations at the listed levels.</Pair>
 </Ability>
-<Ability id="river-flow-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="river-flow-su" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="river-flow-su">River Flow (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">1 + Charisma modifier times/day (minimum 1); these times need not be consecutive</Pair>
 <Pair title="Free Action">While you are underwater, you can negate the <Link to="/rule/underwater_combat">penalties you take</Link> for making bludgeoning, piercing, and slashing melee attacks underwater.</Pair>
 </Ability>
-<Ability id="river-form-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="river-form-su" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="river-form-su" flavor="You can become one with a river.">River Form (Su)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Usage">3 + Charisma modifier hours/day</Pair>
 <Pair title="Standard Action">Once a day, while immersed in a river, you can completely merge with it. Your body and all your gear meld into the water, as per <Link to="/spell/meld_into_stone">meld into stone</Link>, except abilities that control or shape water expel you and deal you 5d6 damage rather than abilities that control or shape stone. You travel along with the river at the rate it is currently moving.</Pair>
 <Pair title="Special">Transforming back to your normal form is a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="river-soul-revelation-su" icon={["armor-upgrade","magic-swirl"]}>
+<Ability id="river-soul-revelation-su" icon={["def","magic"]}>
 <Pair single id="river-soul-revelation-su" flavor="You strengthen your ties to the river with which you bonded.">River Soul Revelation (Su)</Pair>
 <Pair hl title="Replaces">Final revelation</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -743,23 +743,23 @@ const _river_soul = {title: "River Soul", jsx: <><h2 id="arc-oracle-river_soul-r
 </>};
 const _seeker = {title: "Seeker", jsx: <><h2 id="arc-oracle-seeker-seeker">Seeker</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 29</Link><br/>Oracles and sorcerers gain their magical powers through strange and mysterious ways, be they chosen by fate or blood. While most might be content with their strange powers, some oracles and sorcerers join the Pathfinders specifically to find out more about their mysteries and bloodlines and determine the genesis and history of their eldritch talents. These spellcasters are known among the Spells as seekers, after their obsession with researching ancient texts and obscure ruins for any clues they can find about their heritage and histories. A seeker has the following class features.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
 <Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX)</Pair></Ability>
-<Ability id="tinkering-ex" icon={["upgrade","stairs-goal"]}>
+<Ability id="tinkering-ex" icon={["boost","power"]}>
 <Pair single id="tinkering-ex" flavor="Seekers often look to ancient devices, old tomes, and strange magical items in order to learn more about their oracle mysteries.">Tinkering (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">A seeker adds half his oracle level on Perception checks made to locate traps and on all Disable Device skill checks (minimum +1).</Pair>
 <Pair title="Ability">A seeker can use Disable Device to disarm magical traps. If the seeker also possesses levels in <Link to="/class/rogue">rogue</Link> or another class that provides the <Link to="/ability/trapfinding">trapfinding</Link> ability, those levels stack with his oracle levels for determining his overall bonus on these skill checks.</Pair>
 </Ability>
-<Ability id="seeker-lore-ex" icon={["upgrade"]}>
+<Ability id="seeker-lore-ex" icon={["boost"]}>
 <Pair single id="seeker-lore-ex" flavor="A seeker has already learned much about his mystery, and is more comfortable using the bonus spells gained by that mystery.">Seeker Lore (Ex)</Pair>
 <Pair hl title="Replaces">Revelation gained at 3rd level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">He gains a +4 bonus on all <Link to="/rule/concentration">concentration</Link> checks, on caster level checks made to overcome spell resistance, and on all Knowledge (arcana) and Spellcraft checks made on topics associated with his bonus spells.</Pair>
 </Ability>
-<Ability id="seeker-magic-su" icon={["magic-swirl","upgrade"]}>
+<Ability id="seeker-magic-su" icon={["magic","boost"]}>
 <Pair single id="seeker-magic-su">Seeker Magic (Su)</Pair>
 <Pair hl title="Replaces">Revelation gained at 15th level</Pair>
 <Pair title="Gained">At 15th Level</Pair>
@@ -770,7 +770,7 @@ const _seeker = {title: "Seeker", jsx: <><h2 id="arc-oracle-seeker-seeker">Seeke
 const _seer = {title: "Seer", jsx: <><h2 id="arc-oracle-seer-seer">Seer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 59</Link><br/>While all oracles possess some ability at divination, the seer is a true prophet, able to see things as they really are, or will be.</p>
 <p><strong className="hl">Recommended Mysteries:</strong> <Link to="/mystery/lore">lore</Link>, <Link to="/mystery/nature">nature</Link>, <Link to="/mystery/time">time</Link>.</p>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">Bonus spells granted by the oracle's mystery after 2nd level</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -787,7 +787,7 @@ const _seer = {title: "Seer", jsx: <><h2 id="arc-oracle-seer-seer">Seer</h2>
 <Pair single id="revelations">Revelations</Pair>
 <Pair title="Info">A seer must take the following revelations at the listed levels.</Pair>
 </Ability>
-<Ability id="natural-divination-ex" extraClasses="subAbility" icon={["armor-upgrade","upgrade"]}>
+<Ability id="natural-divination-ex" extraClasses="subAbility" icon={["def","boost"]}>
 <Pair single id="natural-divination-ex">Natural Divination (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Info">This is the same as the <Link to="/mystery/nature">nature</Link> mystery revelation of the same name.</Pair>
@@ -797,7 +797,7 @@ const _seer = {title: "Seer", jsx: <><h2 id="arc-oracle-seer-seer">Seer</h2>
 <Pair title="Usage">Making a natural divination takes 10 minutes. You may use natural divination (in any combination) once per day plus a number of additional times per day equal to <Link to="/misc/one_fourth">one-fourth</Link> of your oracle level.</Pair>
 <Pair title="Special">These bonuses must be used during the next 24 hours and you must declare you are using the bonus before the check or save is made.</Pair>
 </Ability>
-<Ability id="gift-of-prophecy-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="gift-of-prophecy-su" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="gift-of-prophecy-su">Gift of Prophecy (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">Once per day, you can enter a trance to gain a glimpse of the future. This trance lasts for 1 minute, which must be uninterrupted and during which you can take no other actions. You gain the benefits of an <Link to="/spell/augury">augury</Link> spell with 90% effectiveness.</Pair>
@@ -808,12 +808,12 @@ const _seer = {title: "Seer", jsx: <><h2 id="arc-oracle-seer-seer">Seer</h2>
 </>};
 const _shigenjo = {title: "Shigenjo", jsx: <><h2 id="arc-oracle-shigenjo-shigenjo">Shigenjo</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 164</Link><br/>The shigenjo walks the path of enlightenment and transcendence by seeking oneness with the celestial spirits. In doing so, she unlocks the martial potential of her own spiritual power. A shigenjo has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-oracle-shigenjo--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><ul><li><Link to="/race/tengu">Tengu</Link></li><li>Alignment must have a neutral component</li></ul></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-oracle-shigenjo--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><ul><li><Link to="/race/tengu">Tengu</Link></li><li>Alignment must have a neutral component</li></ul></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Diplomacy</Pair></Ability>
 <p><strong className="hl">Recommended Mysteries:</strong> <Link to="/mystery/ancestor">ancestor</Link>, <Link to="/mystery/battle">battle</Link>, <Link to="/mystery/flame">flame</Link>, <Link to="/mystery/heavens">heavens</Link>, <Link to="/mystery/lore">lore</Link>, <Link to="/mystery/metal">metal</Link>, <Link to="/mystery/nature">nature</Link>, <Link to="/mystery/stone">stone</Link>, <Link to="/mystery/time">time</Link>, <Link to="/mystery/waves">waves</Link>, <Link to="/mystery/wood">wood</Link>.</p>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">The bonus spells gained at 2nd, 4th, 8th, 12th, 14th, and 16th levels from the oracle's mystery</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -824,7 +824,7 @@ const _shigenjo = {title: "Shigenjo", jsx: <><h2 id="arc-oracle-shigenjo-shigenj
 <Pair plain title="14th"><Link to="/spell/ki_shout">Ki shout</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/moment_of_prescience">Moment of prescience</Link></Pair>
 </Ability>
-<Ability id="ki-pool-su" icon={["magic-swirl"]}>
+<Ability id="ki-pool-su" icon={["magic"]}>
 <Pair single id="ki-pool-su">Ki Pool (Su)</Pair>
 <Pair hl title="Replaces">7th-level revelation</Pair>
 <Pair title="Gained">At 7th Level</Pair>
@@ -832,29 +832,29 @@ const _shigenjo = {title: "Shigenjo", jsx: <><h2 id="arc-oracle-shigenjo-shigenj
 <Pair title="Info">If the shigenjo possesses levels in another class that grants points to a <em>ki pool,</em> ki points gained from the shigenjo class stack with those gained from the other class to determine the total number of ki points in the combined <em>pool,</em> but only one ability score modifier is added to the total. The choice of which score to use is made when the second class ability is gained, and once made, the choice is permanent.</Pair>
 <Pair title="Special">The shigenjo can use ki points from this <em>pool</em> to power the abilities of every class she possesses that grants a <em>ki pool.</em></Pair>
 </Ability>
-<Ability id="ki-abilities" extraClasses="hasSubs" icon={["mailed-fist","stairs-goal"]}>
+<Ability id="ki-abilities" extraClasses="hasSubs" icon={["melee","power"]}>
 <Pair single id="ki-abilities">Ki Abilities</Pair>
 <Pair title="Ability">As long as she has at least 1 point in her <em>ki pool,</em> a shigenjo can make a <em>ki strike</em> as an <Link to="/class/unchained_monk">unchained monk</Link> whose level is equal to her oracle level - 3.</Pair>
 <Pair title="Swift Action">She may spend 1 point of ki to gain one of the following benefits.</Pair>
 </Ability>
-<Ability id="ki-magic" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="ki-magic" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="ki-magic">Ki Magic</Pair>
 <Pair title="Passive Ability">Add +1 to the DC of the next spell she casts on her turn.</Pair>
 </Ability>
-<Ability id="ki-curse" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="ki-curse" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="ki-curse">Ki Curse</Pair>
 <Pair title="Passive Ability">Treat her oracle level as 5 higher for the purpose of determining the effects of her <em>curse</em> for the next round.</Pair>
 </Ability>
-<Ability id="ki-insight" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="ki-insight" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="ki-insight">Ki Insight</Pair>
 <Pair title="Passive Ability">Gain a +4 insight bonus on Spellcraft checks for 1 round.</Pair>
 </Ability>
-<Ability id="quivering-palm-su" icon={["stairs-goal"]}>
+<Ability id="quivering-palm-su" icon={["power"]}>
 <Pair single id="quivering-palm-su">Quivering Palm (Su)</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Ability">A shigenjo may learn quivering palm as the <Link to="/class/monk">monk</Link> ability of the same name in place of a revelation. She treats her oracle level as her monk level for this ability, and the DC is based on her Charisma bonus instead of her Wisdom bonus.</Pair>
 </Ability>
-<Ability id="final-revelation" icon={["stairs-goal","armor-upgrade","magic-swirl"]}>
+<Ability id="final-revelation" icon={["power","def","magic"]}>
 <Pair single id="final-revelation" flavor="You achieve true enlightenment and becomes one with the celestial spirits.">Final Revelation</Pair>
 <Pair hl title="Replaces">Final revelation</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -863,11 +863,11 @@ const _shigenjo = {title: "Shigenjo", jsx: <><h2 id="arc-oracle-shigenjo-shigenj
 </>};
 const _spirit_guide = {title: "Spirit Guide", jsx: <><h2 id="arc-oracle-spirit_guide-spirit-guide">Spirit Guide</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 106</Link><br/>Through her exploration of the universe's mysteries, a spirit guide opens connections to the spirit world and forms bonds with the entities that inhabit it.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
 <Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair></Ability>
-<Ability id="bonded-spirit-su" icon={["magic-swirl"]}>
+<Ability id="bonded-spirit-su" icon={["magic"]}>
 <Pair single id="bonded-spirit-su">Bonded Spirit (Su)</Pair>
 <Pair hl title="Replaces">Revelations gained at 3rd, 7th, and 15th levels</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -882,11 +882,11 @@ const _spirit_guide = {title: "Spirit Guide", jsx: <><h2 id="arc-oracle-spirit_g
 const _stargazer = {title: "Stargazer", jsx: <><h2 id="arc-oracle-stargazer-stargazer">Stargazer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 59</Link><br/>Some oracles seek meaning in the pattern of the stars across the night sky, the trails of comets, and the eternal orbits of the planets.</p>
 <p><strong className="hl">Recommended Mysteries:</strong> <Link to="/mystery/dark_tapestry">dark tapestry</Link>, <Link to="/mystery/heavens">heavens</Link>, <Link to="/mystery/lore">lore</Link>, <Link to="/mystery/nature">nature</Link>, <Link to="/mystery/time">time</Link>.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
 <Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/perform">Perform</Link> (CHA), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">The bonus spells gained at 2nd, 4th, 6th, 8th, and 18th levels from the oracle's mystery</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -900,7 +900,7 @@ const _stargazer = {title: "Stargazer", jsx: <><h2 id="arc-oracle-stargazer-star
 <Pair single id="revelations">Revelations</Pair>
 <Pair title="Info">A stargazer must take the following revelations at the listed levels.</Pair>
 </Ability>
-<Ability id="guiding-star-su" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Ability id="guiding-star-su" extraClasses="subAbility" icon={["power","boost"]}>
 <Pair single id="guiding-star-su">Guiding Star (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Info">This is the same as the <Link to="/mystery/heavens">heavens</Link> mystery revelation of the same name.</Pair>
@@ -908,7 +908,7 @@ const _stargazer = {title: "Stargazer", jsx: <><h2 id="arc-oracle-stargazer-star
 <Pair title="Passive Ability">When the night sky is visible to you, you may also add your Charisma modifier to your Wisdom modifier on all Wisdom-based checks.</Pair>
 <Pair title="Ability">Once per night while outdoors, you can cast one spell as if it were modified by the <Link to="/feat/empower_spell">Empower Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link> feat without increasing the spell's casting time or level.</Pair>
 </Ability>
-<Ability id="star-chart-ex" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="star-chart-ex" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="star-chart-ex">Star Chart (Ex)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Info">This is the same as the <em>heavens</em> mystery revelation of the same name.</Pair>
@@ -917,17 +917,17 @@ const _stargazer = {title: "Stargazer", jsx: <><h2 id="arc-oracle-stargazer-star
 </>};
 const _tree_soul = {title: "Tree Soul", jsx: <><h2 id="arc-oracle-tree_soul-tree-soul">Tree Soul</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 69</Link><br/>Tree souls develop an affinity not just with trees but also with objects carved from them, feeling the essence of the tree's spirit living within. By bonding to trees, they learn to manipulate the trees' power to produce divine energy. The type of tree a tree soul oracle bonds to often seems to influence the oracle's personality. A tree soul who is bound to a towering redwood may value traditions and be slow to anger, while a tree soul bound to a smaller pine tree might be quick to react and have a somewhat prickly personality. Regardless of the trees they form their metaphysical attachment to, tree soul oracles tend to be steadfast and stubborn, having an aura of timelessness even as the world changes around them.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
 <Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
-<Ability id="weapon-and-armor-proficiency" icon={["broken-shield","hazard-sign"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["down","warning"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Ability">Tree souls are proficient with light and medium armor but are prohibited from wearing metal armor. A tree soul can also wear wooden armor that has been altered by the <Link to="/spell/ironwood">ironwood</Link> spell so that it functions as though it were steel. Tree souls are proficient with shields (except tower shields) but can use only those crafted from wood.</Pair>
 <Pair title="Info">A tree soul who wears prohibited armor or uses a prohibited shield is unable to cast oracle spells or use any of her supernatural or spell-like class abilities while doing so and for 24 hours thereafter.</Pair>
 </Ability>
 <p><strong className="hl">Recommended Mysteries:</strong> <Link to="/mystery/ancestor">Ancestor</Link>, <Link to="/mystery/lore">lore</Link>, <Link to="/mystery/nature">nature</Link>, <Link to="/mystery/wood">wood</Link>.</p>
-<Ability id="bonus-spells" icon={["spell-book"]}>
+<Ability id="bonus-spells" icon={["learn"]}>
 <Pair single id="bonus-spells">Bonus Spells</Pair>
 <Pair hl title="Replaces">The bonus spells gained at 2nd, 10th, 12th, 14th, 16th, and 18th levels from the oracle's mystery</Pair>
 <Pair title="Info">The oracle gains these bonus spells at the listed levels.</Pair>
@@ -938,7 +938,7 @@ const _tree_soul = {title: "Tree Soul", jsx: <><h2 id="arc-oracle-tree_soul-tree
 <Pair plain title="16th"><Link to="/spell/repel_metal_or_stone">Repel metal or stone</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/greater_siege_of_trees">Greater siege of trees</Link></Pair>
 </Ability>
-<Ability id="tree-bound-curse-su" icon={["broken-shield"]}>
+<Ability id="tree-bound-curse-su" icon={["down"]}>
 <Pair single id="tree-bound-curse-su">Tree Bound Curse (Su)</Pair>
 <Pair hl title="Replaces">Oracle's curse</Pair>
 <Pair title="Ability">You bind your power to a specific tree. Any damage to the tree deals the same amount of damage to you, overcoming DR, energy resistance, and immunities. Damage you take in this way cannot be healed by normal or magical means until your bonded tree is healed or destroyed. The damage can reduce you to 0 hit points but not below. If the tree is destroyed, you are considered to be <Link to="/misc/staggered">staggered</Link> and are unable to cast oracle spells or use supernatural or spell-like class abilities until you bond with a new tree in a ceremony that takes 12 hours to complete.</Pair>
@@ -948,18 +948,18 @@ const _tree_soul = {title: "Tree Soul", jsx: <><h2 id="arc-oracle-tree_soul-tree
 <Pair single id="revelations">Revelations</Pair>
 <Pair title="Info">A tree soul oracle must take the following revelations at the listed levels.</Pair>
 </Ability>
-<Ability id="transform-wood-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Ability id="transform-wood-su" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="transform-wood-su">Transform Wood (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Standard Action">You can temporarily transform a number of 5-foot cubes of wood each day equal to 1 + your Charisma modifier. The wood takes on the quality of <Link to="/eq-material/darkwood">darkwood</Link> for 1 minute per oracle level.</Pair>
 <Pair title="At 11th Level">You can have it instead take on the quality of <Link to="/eq-material/living_steel">living steel</Link> for the same duration.</Pair>
 </Ability>
-<Ability id="living-steel-dolls-ex" extraClasses="subAbility" icon={["spell-book","upgrade"]}>
+<Ability id="living-steel-dolls-ex" extraClasses="subAbility" icon={["learn","boost"]}>
 <Pair single id="living-steel-dolls-ex">Living Steel Dolls (Ex)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">You add <Link to="/spell/animate_objects">animate objects</Link> to your list of spells known. When you cast this spell on wooden objects, the objects' wooden parts immediately transform into living steel. If the objects are destroyed or the duration ends, the wooden parts revert back to their original material.</Pair>
 </Ability>
-<Ability id="tree-soul-revelation-su" extraClasses="subAbility" icon={["armor-upgrade","magic-swirl"]}>
+<Ability id="tree-soul-revelation-su" extraClasses="subAbility" icon={["def","magic"]}>
 <Pair single id="tree-soul-revelation-su">Tree Soul Revelation (Su)</Pair>
 <Pair hl title="Replaces">Final revelation</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -969,7 +969,7 @@ const _tree_soul = {title: "Tree Soul", jsx: <><h2 id="arc-oracle-tree_soul-tree
 </>};
 const _warsighted = {title: "Warsighted", jsx: <><h2 id="arc-oracle-warsighted-warsighted">Warsighted</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 106</Link><br/>A warsighted's unique gifts are not in strange magical revelations, but in her ability to adapt in the midst of a battle with new fighting techniques. The warsighted is a master of combat, as dedicated as a fighter and as flexible as a brawler.</p>
-<Ability id="martial-flexibility-ex" icon={["stairs-goal"]}>
+<Ability id="martial-flexibility-ex" icon={["power"]}>
 <Pair single id="martial-flexibility-ex">Martial Flexibility (Ex)</Pair>
 <Pair hl title="Replaces">Revelations gained at 1st, 7th, 11th, and 15th levels</Pair>
 <Pair title="Gained">At 1st Level</Pair>

@@ -5,7 +5,7 @@ const _not_found = {title: "Unknown", jsx: <><h2 id="trait-not_found-error">Erro
 <p>Unable to find the requested trait.</p>
 </>};
 const _absalom_bouncer = {title: "Absalom Bouncer", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="absalom-bouncer" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="absalom-bouncer" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="absalom-bouncer">Absalom Bouncer</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="absalom-bouncer-flavor">You learned to fight while serving as a bodyguard in the taverns of Absalom, where keeping the patrons alive through bloody bar brawls was just part of your job.</Pair>
@@ -13,14 +13,14 @@ const _absalom_bouncer = {title: "Absalom Bouncer", topLink: ["Combat Traits","m
 </Ability>
 </>};
 const _absolute_loyalty = {title: "Absolute Loyalty", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="absolute-loyalty" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="absolute-loyalty" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="absolute-loyalty">Absolute Loyalty</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="benefit" id="absolute-loyalty-benefit">You gain the one-time ability to immediately cast <Link to="/spell/atonement">atonement</Link> upon yourself as a spell-like ability upon performing an act or being subjected to an effect that spell affects. This ability can only be used while you are acting in the service of your liege (an individual of higher social standing chosen when you take this feat).</Pair>
 </Ability>
 </>};
 const _accelerated_drinker = {title: "Accelerated Drinker", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="accelerated-drinker" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="accelerated-drinker" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="accelerated-drinker">Accelerated Drinker</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="accelerated-drinker-flavor">You know how to drink a potion efficiently, such as by not using your hands, tossing it in the air and catching it in your mouth, or opening it with your teeth.</Pair>
@@ -28,7 +28,7 @@ const _accelerated_drinker = {title: "Accelerated Drinker", topLink: ["Combat Tr
 </Ability>
 </>};
 const _aldori_caution = {title: "Aldori Caution", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
-<Ability id="aldori-caution" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="aldori-caution" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="aldori-caution">Aldori Caution</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="aldori-caution-flavor">You learned defensive moves from Aldori trainers.</Pair>
@@ -36,7 +36,7 @@ const _aldori_caution = {title: "Aldori Caution", topLink: ["Combat Traits","mai
 </Ability>
 </>};
 const _ambush_training = {title: "Ambush Training", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_society_primer">Pathfinder Society Primer</Link></p>
-<Ability id="ambush-training" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="ambush-training" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="ambush-training">Ambush Training</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="ambush-training-flavor">You've learned that taking an enemy by surprise can end a combat before it begins.</Pair>
@@ -44,7 +44,7 @@ const _ambush_training = {title: "Ambush Training", topLink: ["Combat Traits","m
 </Ability>
 </>};
 const _anatomist = {title: "Anatomist", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="anatomist" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="anatomist" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="anatomist">Anatomist</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="anatomist-flavor">You have studied the workings of anatomy, either as a student at university or as an apprentice mortician or necromancer. You know where to aim your blows to strike vital organs.</Pair>
@@ -52,7 +52,7 @@ const _anatomist = {title: "Anatomist", topLink: ["Combat Traits","main/traits_c
 </Ability>
 </>};
 const _armed_grit = {title: "Armed Grit", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
-<Ability id="armed-grit" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="armed-grit" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="armed-grit">Armed Grit</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="armed-grit-flavor">You make an impression during a standoff.</Pair>
@@ -60,7 +60,7 @@ const _armed_grit = {title: "Armed Grit", topLink: ["Combat Traits","main/traits
 </Ability>
 </>};
 const _armor_expert = {title: "Armor Expert", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="armor-expert" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="armor-expert" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="armor-expert">Armor Expert</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="armor-expert-flavor">You have worn armor as long as you can remember, either as part of your training to become a knight's squire or simply because you were seeking to emulate a hero. Your childhood armor wasn't the real thing as far as protection, but it did encumber you as much as real armor would have, and you've grown used to moving in such suits with relative grace.</Pair>
@@ -68,21 +68,21 @@ const _armor_expert = {title: "Armor Expert", topLink: ["Combat Traits","main/tr
 </Ability>
 </>};
 const _armored_rider = {title: "Armored Rider", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook</Link></p>
-<Ability id="armored-rider" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="armored-rider" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="armored-rider">Armored Rider</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="benefit" id="armored-rider-benefit">You gain a +1 trait bonus on <Link to="/skill/ride">Ride</Link> checks, and Ride is a class skill for you. You don't take an armor check penalty on Ride checks while wearing light or medium armor.</Pair>
 </Ability>
 </>};
 const _armored_soul = {title: "Armored Soul", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook</Link></p>
-<Ability id="armored-soul" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="armored-soul" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="armored-soul">Armored Soul</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="benefit" id="armored-soul-benefit">When wearing armor or using a shield, you gain a +1 trait bonus on saving throws against divine spells that deal damage.</Pair>
 </Ability>
 </>};
 const _arodenite_sword_training = {title: "Arodenite Sword Training", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology</Link></p>
-<Ability id="arodenite-sword-training" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="arodenite-sword-training" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="arodenite-sword-training">Arodenite Sword Training</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="arodenite-sword-training-flavor">Your family has passed down training in <Link to="/faith/aroden">Aroden's</Link> favored weapon, even though the god no longer answers their prayers.</Pair>
@@ -90,7 +90,7 @@ const _arodenite_sword_training = {title: "Arodenite Sword Training", topLink: [
 </Ability>
 </>};
 const _axe_to_grind = {title: "Axe to Grind", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="axe-to-grind" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="axe-to-grind" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="axe-to-grind">Axe to Grind</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="axe-to-grind-flavor">There is a fire in your heart that can't be quenched.</Pair>
@@ -98,14 +98,14 @@ const _axe_to_grind = {title: "Axe to Grind", topLink: ["Combat Traits","main/tr
 </Ability>
 </>};
 const _back_for_more = {title: "Back for More", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
-<Ability id="back-for-more" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="back-for-more" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="back-for-more">Back for More</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="benefit" id="back-for-more-benefit">Anytime an opponent confirms a critical hit against you, you gain a +2 morale bonus on attack rolls and damage rolls against that foe until the end of your next turn.</Pair>
 </Ability>
 </>};
 const _battlefield_disciple = {title: "Battlefield Disciple", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="battlefield-disciple" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="battlefield-disciple" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="battlefield-disciple">Battlefield Disciple</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="battlefield-disciple-flavor">You are skilled at supporting your allies in the heat of battle.</Pair>
@@ -113,7 +113,7 @@ const _battlefield_disciple = {title: "Battlefield Disciple", topLink: ["Combat 
 </Ability>
 </>};
 const _berserker_of_the_society = {title: "Berserker of the Society", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="berserker-of-the-society" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="berserker-of-the-society" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="berserker-of-the-society">Berserker of the Society</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
@@ -122,7 +122,7 @@ const _berserker_of_the_society = {title: "Berserker of the Society", topLink: [
 </Ability>
 </>};
 const _black_powder_bravado = {title: "Black Powder Bravado", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="black-powder-bravado" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="black-powder-bravado" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="black-powder-bravado">Black Powder Bravado</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="black-powder-bravado-flavor">You are particularly successful when using deeds.</Pair>
@@ -130,7 +130,7 @@ const _black_powder_bravado = {title: "Black Powder Bravado", topLink: ["Combat 
 </Ability>
 </>};
 const _black_powder_fortune = {title: "Black Powder Fortune", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="black-powder-fortune" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="black-powder-fortune" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="black-powder-fortune">Black Powder Fortune</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="black-powder-fortune-flavor">You have little to fear when there's a gun in your hand.</Pair>
@@ -138,7 +138,7 @@ const _black_powder_fortune = {title: "Black Powder Fortune", topLink: ["Combat 
 </Ability>
 </>};
 const _black_powder_interjection = {title: "Black Powder Interjection", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="black-powder-interjection" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="black-powder-interjection" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="black-powder-interjection">Black Powder Interjection</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="black-powder-interjection-flavor">Your confidence rises when you foil spellcasting.</Pair>
@@ -146,7 +146,7 @@ const _black_powder_interjection = {title: "Black Powder Interjection", topLink:
 </Ability>
 </>};
 const _blackjacket_weapon_flair = {title: "Blackjacket Weapon Flair", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
-<Ability id="blackjacket-weapon-flair" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="blackjacket-weapon-flair" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="blackjacket-weapon-flair">Blackjacket Weapon Flair</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="blackjacket-weapon-flair-flavor">You trained with the Blackjackets of Druma to make optimal use of magic weapons.</Pair>
@@ -154,7 +154,7 @@ const _blackjacket_weapon_flair = {title: "Blackjacket Weapon Flair", topLink: [
 </Ability>
 </>};
 const _blade_of_the_society = {title: "Blade of the Society", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="blade-of-the-society" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="blade-of-the-society" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="blade-of-the-society">Blade of the Society</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
@@ -163,7 +163,7 @@ const _blade_of_the_society = {title: "Blade of the Society", topLink: ["Combat 
 </Ability>
 </>};
 const _blights_bane = {title: "Blight's Bane", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="blights-bane" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="blights-bane" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="blights-bane">Blight's Bane</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="blights-bane-flavor">You are trained in the destruction of blights.</Pair>
@@ -171,7 +171,7 @@ const _blights_bane = {title: "Blight's Bane", topLink: ["Combat Traits","main/t
 </Ability>
 </>};
 const _bloodthirsty = {title: "Bloodthirsty", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="bloodthirsty" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="bloodthirsty" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="bloodthirsty">Bloodthirsty</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="bloodthirsty-flavor">You have a vicious streak, and nothing satisfies you more than warm blood on your hands and blade.</Pair>
@@ -179,7 +179,7 @@ const _bloodthirsty = {title: "Bloodthirsty", topLink: ["Combat Traits","main/tr
 </Ability>
 </>};
 const _bloody_minded = {title: "Bloody-Minded", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
-<Ability id="bloody-minded" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="bloody-minded" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="bloody-minded">Bloody-Minded</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="bloody-minded-flavor">You are always ready for bloodshed.</Pair>
@@ -187,7 +187,7 @@ const _bloody_minded = {title: "Bloody-Minded", topLink: ["Combat Traits","main/
 </Ability>
 </>};
 const _born_under_the_cradle = {title: "Born under the Cradle", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="born-under-the-cradle" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="born-under-the-cradle" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="born-under-the-cradle">Born under the Cradle</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="born-under-the-cradle-flavor">Your birth sign aligned significantly with Bretheda on the day you were born, granting you a knack for cooperation in the heat of battle.</Pair>
@@ -195,7 +195,7 @@ const _born_under_the_cradle = {title: "Born under the Cradle", topLink: ["Comba
 </Ability>
 </>};
 const _born_under_the_dreamer = {title: "Born under the Dreamer", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="born-under-the-dreamer" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="born-under-the-dreamer" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="born-under-the-dreamer">Born under the Dreamer</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="born-under-the-dreamer-flavor">Your birth sign aligned significantly with Liavara on the day you were born, and you are touched by the instinctual dreaming spirit of that planet, making you naturally poised and hard to surprise.</Pair>
@@ -203,7 +203,7 @@ const _born_under_the_dreamer = {title: "Born under the Dreamer", topLink: ["Com
 </Ability>
 </>};
 const _born_under_the_stranger = {title: "Born under the Stranger", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="born-under-the-stranger" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="born-under-the-stranger" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="born-under-the-stranger">Born under the Stranger</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="born-under-the-stranger-flavor">Your birth was marked by the alignment of Aucturn with your birth sign and by strange happenings, giving you a link to alien beings.</Pair>
@@ -211,14 +211,14 @@ const _born_under_the_stranger = {title: "Born under the Stranger", topLink: ["C
 </Ability>
 </>};
 const _broken_not_beaten = {title: "Broken, Not Beaten", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
-<Ability id="broken-not-beaten" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="broken-not-beaten" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="broken-not-beaten">Broken, Not Beaten</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="benefit" id="broken-not-beaten-benefit">You automatically <Link to="/misc/stabilize">stabilize</Link> when reduced below 0 hit points. Once per day when brought below 0 hit points, you can accept 1 point of damage to regain consciousness for 1 round, though you remain staggered and only able to take a single move or standard action.</Pair>
 </Ability>
 </>};
 const _bullied = {title: "Bullied", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="bullied" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="bullied" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="bullied">Bullied</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="bullied-flavor">You were bullied often as a child, and you are now constantly ready to defend yourself with your fists when an enemy comes near.</Pair>
@@ -228,7 +228,7 @@ const _bullied = {title: "Bullied", topLink: ["Combat Traits","main/traits_comba
 </Ability>
 </>};
 const _careful_combatant = {title: "Careful Combatant", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
-<Ability id="careful-combatant" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="careful-combatant" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="careful-combatant">Careful Combatant</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="careful-combatant-flavor">You have a strong sense of self-preservation, believing it is more important to safely extract yourself from a fight that has turned hopeless than to stubbornly stand your ground and risk death - for when you're dead, you can't protect the innocent.</Pair>
@@ -236,7 +236,7 @@ const _careful_combatant = {title: "Careful Combatant", topLink: ["Combat Traits
 </Ability>
 </>};
 const _clockwork_engineer = {title: "Clockwork Engineer", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="clockwork-engineer" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="clockwork-engineer" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="clockwork-engineer">Clockwork Engineer</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="clockwork-engineer-flavor">You have experience with the ancient clockwork constructs that roam certain wastelands, and this has granted you an understanding of these guardians.</Pair>
@@ -244,7 +244,7 @@ const _clockwork_engineer = {title: "Clockwork Engineer", topLink: ["Combat Trai
 </Ability>
 </>};
 const _coherent_rage = {title: "Coherent Rage", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="coherent-rage" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="coherent-rage" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="coherent-rage">Coherent Rage</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl>Associated with the <Link to="/rule/ulfen_guard">Ulfen Guard</Link></Pair>
@@ -253,7 +253,7 @@ const _coherent_rage = {title: "Coherent Rage", topLink: ["Combat Traits","main/
 </Ability>
 </>};
 const _cold_and_calculating = {title: "Cold and Calculating", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="cold-and-calculating" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="cold-and-calculating" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="cold-and-calculating">Cold and Calculating</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="cold-and-calculating-flavor">You are adept at tricking <Link to="/ability/favored_enemies">favored enemies</Link> of your race or those related to your race.</Pair>
@@ -261,7 +261,7 @@ const _cold_and_calculating = {title: "Cold and Calculating", topLink: ["Combat 
 </Ability>
 </>};
 const _courageous = {title: "Courageous", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="courageous" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="courageous" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="courageous">Courageous</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="courageous-flavor">Your childhood was brutal, but you persevered through force of will and faith. No matter how hard things got, you knew you'd make it through as long as you kept a level head.</Pair>
@@ -269,7 +269,7 @@ const _courageous = {title: "Courageous", topLink: ["Combat Traits","main/traits
 </Ability>
 </>};
 const _crimson_carapace = {title: "Crimson Carapace", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook</Link></p>
-<Ability id="crimson-carapace" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="crimson-carapace" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="crimson-carapace">Crimson Carapace</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="crimson-carapace-flavor">A combination of armor and agility protects you from deadly attacks.</Pair>
@@ -277,7 +277,7 @@ const _crimson_carapace = {title: "Crimson Carapace", topLink: ["Combat Traits",
 </Ability>
 </>};
 const _crowd_dodger = {title: "Crowd Dodger", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="crowd-dodger" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="crowd-dodger" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="crowd-dodger">Crowd Dodger</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="crowd-dodger-flavor">You spent much of your youth on crowded streets, dodging quickly around and under others.</Pair>
@@ -287,7 +287,7 @@ const _crowd_dodger = {title: "Crowd Dodger", topLink: ["Combat Traits","main/tr
 </Ability>
 </>};
 const _dedicated_defender = {title: "Dedicated Defender", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="dedicated-defender" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="dedicated-defender" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="dedicated-defender">Dedicated Defender</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="dedicated-defender-flavor">When a companion is down, you fight harder.</Pair>
@@ -295,7 +295,7 @@ const _dedicated_defender = {title: "Dedicated Defender", topLink: ["Combat Trai
 </Ability>
 </>};
 const _defender_of_the_society = {title: "Defender of the Society", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="defender-of-the-society" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="defender-of-the-society" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="defender-of-the-society">Defender of the Society</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
@@ -304,7 +304,7 @@ const _defender_of_the_society = {title: "Defender of the Society", topLink: ["C
 </Ability>
 </>};
 const _deft_dodger = {title: "Deft Dodger", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="deft-dodger" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="deft-dodger" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="deft-dodger">Deft Dodger</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="deft-dodger-flavor">Growing up in a rough neighborhood or a dangerous environment has honed your senses.</Pair>
@@ -312,7 +312,7 @@ const _deft_dodger = {title: "Deft Dodger", topLink: ["Combat Traits","main/trai
 </Ability>
 </>};
 const _demon_slayer = {title: "Demon Slayer", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="demon-slayer" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="demon-slayer" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="demon-slayer">Demon Slayer</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl>Mendev Crusaders</Pair>
@@ -321,7 +321,7 @@ const _demon_slayer = {title: "Demon Slayer", topLink: ["Combat Traits","main/tr
 </Ability>
 </>};
 const _demon_smiter = {title: "Demon Smiter", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
-<Ability id="demon-smiter" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="demon-smiter" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="demon-smiter">Demon Smiter</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="demon-smiter-flavor">You grew up around those who fight the demons streaming out of the Worldwound, and from their stories you learned about the demons' weaknesses. You are likely from Mendev or have joined that nation's cause as a crusader.</Pair>
@@ -329,7 +329,7 @@ const _demon_smiter = {title: "Demon Smiter", topLink: ["Combat Traits","main/tr
 </Ability>
 </>};
 const _devil_fighter = {title: "Devil Fighter", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook</Link></p>
-<Ability id="devil-fighter" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="devil-fighter" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="devil-fighter">Devil Fighter</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="devil-fighter-flavor">Learning how devils think helps you resist their trickery.</Pair>
@@ -337,7 +337,7 @@ const _devil_fighter = {title: "Devil Fighter", topLink: ["Combat Traits","main/
 </Ability>
 </>};
 const _dirty_fighter_apg = {title: "Dirty Fighter (APG)", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="dirty-fighter-apg" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="dirty-fighter-apg" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="dirty-fighter-apg">Dirty Fighter (APG)</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="dirty-fighter-apg-flavor">You wouldn't have lived to make it out of childhood without the aid of a sibling, friend, or companion you could always count on to distract your enemies long enough for you to do a little bit more damage than normal. That companion may be another PC or an NPC (who may even be recently departed from your side).</Pair>
@@ -345,7 +345,7 @@ const _dirty_fighter_apg = {title: "Dirty Fighter (APG)", topLink: ["Combat Trai
 </Ability>
 </>};
 const _dirty_trickster = {title: "Dirty Trickster", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="dirty-trickster" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="dirty-trickster" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="dirty-trickster">Dirty Trickster</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="dirty-trickster-flavor">You learned early that there's no point in fighting fair when you're fighting for your life. Others may look down their noses at your tactics, but you know you wouldn't have survived this long without breaking a few conventions of fair play.</Pair>
@@ -353,7 +353,7 @@ const _dirty_trickster = {title: "Dirty Trickster", topLink: ["Combat Traits","m
 </Ability>
 </>};
 const _disillusioned = {title: "Disillusioned", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="disillusioned" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="disillusioned" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="disillusioned">Disillusioned</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="disillusioned-flavor">Your childhood was ended by a great disaster or atrocity that you witnessed. To cope with the horror, you have learned to reflexively suppress all emotion.</Pair>
@@ -363,7 +363,7 @@ const _disillusioned = {title: "Disillusioned", topLink: ["Combat Traits","main/
 </Ability>
 </>};
 const _dispelled_battler = {title: "Dispelled Battler", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="dispelled-battler" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="dispelled-battler" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="dispelled-battler">Dispelled Battler</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="dispelled-battler-flavor">When deprived of magic, you fight harder.</Pair>
@@ -371,7 +371,7 @@ const _dispelled_battler = {title: "Dispelled Battler", topLink: ["Combat Traits
 </Ability>
 </>};
 const _dormant_defense = {title: "Dormant Defense", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="dormant-defense" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="dormant-defense" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="dormant-defense">Dormant Defense</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="dormant-defense-flavor">Your body never lets down its defenses, even when you rest.</Pair>
@@ -381,7 +381,7 @@ const _dormant_defense = {title: "Dormant Defense", topLink: ["Combat Traits","m
 </Ability>
 </>};
 const _dragon_armor = {title: "Dragon Armor", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook</Link></p>
-<Ability id="dragon-armor" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="dragon-armor" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="dragon-armor">Dragon Armor</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="dragon-armor-flavor">Xa Hoi's elite warriors are trained to deflect energy attacks.</Pair>
@@ -389,7 +389,7 @@ const _dragon_armor = {title: "Dragon Armor", topLink: ["Combat Traits","main/tr
 </Ability>
 </>};
 const _dueling_cloak_adept = {title: "Dueling Cloak Adept", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="dueling-cloak-adept" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="dueling-cloak-adept" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="dueling-cloak-adept">Dueling Cloak Adept</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="dueling-cloak-adept-flavor">You are trained in using your cloak to disguise your body and deceive your enemies.</Pair>
@@ -397,7 +397,7 @@ const _dueling_cloak_adept = {title: "Dueling Cloak Adept", topLink: ["Combat Tr
 </Ability>
 </>};
 const _easy_way_or_the_hard_way = {title: "Easy Way or the Hard Way", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="easy-way-or-the-hard-way" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="easy-way-or-the-hard-way" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="easy-way-or-the-hard-way">Easy Way or the Hard Way</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="easy-way-or-the-hard-way-flavor">You are skilled at subduing your enemies.</Pair>
@@ -405,7 +405,7 @@ const _easy_way_or_the_hard_way = {title: "Easy Way or the Hard Way", topLink: [
 </Ability>
 </>};
 const _elemental_apprentice = {title: "Elemental Apprentice", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook</Link></p>
-<Ability id="elemental-apprentice" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="elemental-apprentice" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="elemental-apprentice">Elemental Apprentice</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="elemental-apprentice-flavor">You spent your childhood in a region of Golarion where the use of elemental magic is commonplace or the environment is heavily infused with elemental energies, such as the volcano Asuulek's Mouth or the hurricane-lashed Sodden Lands. Your time near raw elemental energies has inured you to taking damage from them.</Pair>
@@ -413,7 +413,7 @@ const _elemental_apprentice = {title: "Elemental Apprentice", topLink: ["Combat 
 </Ability>
 </>};
 const _evasive_sting = {title: "Evasive Sting", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="evasive-sting" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="evasive-sting" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="evasive-sting">Evasive Sting</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="evasive-sting-flavor">Larger enemies have a hard time striking you.</Pair>
@@ -421,7 +421,7 @@ const _evasive_sting = {title: "Evasive Sting", topLink: ["Combat Traits","main/
 </Ability>
 </>};
 const _excitable = {title: "Excitable", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
-<Ability id="excitable" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="excitable" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="excitable">Excitable</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -430,7 +430,7 @@ const _excitable = {title: "Excitable", topLink: ["Combat Traits","main/traits_c
 </Ability>
 </>};
 const _failed_aspirant = {title: "Failed Aspirant", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="failed-aspirant" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="failed-aspirant" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="failed-aspirant">Failed Aspirant</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="failed-aspirant-flavor">You've failed the trials to gain entry to one of the <Link to="/rule/houses_of_perfection">Houses of Perfection</Link>. Though you are disappointed, you were able to pick up one trick from the monks.</Pair>
@@ -438,7 +438,7 @@ const _failed_aspirant = {title: "Failed Aspirant", topLink: ["Combat Traits","m
 </Ability>
 </>};
 const _faiths_hunter = {title: "Faith's Hunter", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="faiths-hunter" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="faiths-hunter" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="faiths-hunter">Faith's Hunter</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="faiths-hunter-flavor">Divine powers smile upon you each time you grievously wound a favored enemy.</Pair>
@@ -446,7 +446,7 @@ const _faiths_hunter = {title: "Faith's Hunter", topLink: ["Combat Traits","main
 </Ability>
 </>};
 const _fencer = {title: "Fencer", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="fencer" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="fencer" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="fencer">Fencer</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="fencer-flavor">You trained with blades for long hours as a youth, either taking lessons in the genteel art of fencing from tutors paid for by your parents or being taken under the wing of a disenfranchised fencer who may have turned to a life of crime.</Pair>
@@ -454,7 +454,7 @@ const _fencer = {title: "Fencer", topLink: ["Combat Traits","main/traits_combat"
 </Ability>
 </>};
 const _firebug_qac = {title: "Firebug (QaC)", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="firebug-qac" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="firebug-qac" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="firebug-qac">Firebug (QaC)</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="firebug-qac-flavor">You were the child of a gunsmith or alchemist and always enjoyed experimenting with fiery alchemical items and minor explosives.</Pair>
@@ -464,7 +464,7 @@ const _firebug_qac = {title: "Firebug (QaC)", topLink: ["Combat Traits","main/tr
 </Ability>
 </>};
 const _fugitive = {title: "Fugitive", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="fugitive" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="fugitive" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="fugitive">Fugitive</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="fugitive-flavor">You crossed the law (or those in charge thought you did), and you are now a wanted criminal. As such, you have grown used to looking over your shoulder wherever you go.</Pair>
@@ -472,14 +472,14 @@ const _fugitive = {title: "Fugitive", topLink: ["Combat Traits","main/traits_com
 </Ability>
 </>};
 const _guerrilla_tactics = {title: "Guerrilla Tactics", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
-<Ability id="guerrilla-tactics" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="guerrilla-tactics" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="guerrilla-tactics">Guerrilla Tactics</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="benefit" id="guerrilla-tactics-benefit">You gain a +2 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks and Initiative checks in forests.</Pair>
 </Ability>
 </>};
 const _hard_to_kill = {title: "Hard to Kill", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
-<Ability id="hard-to-kill" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="hard-to-kill" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="hard-to-kill">Hard to Kill</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="hard-to-kill-flavor">Your strong will to live and spread good combined with your pure physicality makes you a tough opponent to take down. You may have discovered this as a child after a tragic accident or during the course of your first battle.</Pair>
@@ -487,7 +487,7 @@ const _hard_to_kill = {title: "Hard to Kill", topLink: ["Combat Traits","main/tr
 </Ability>
 </>};
 const _hellknight_devotion = {title: "Hellknight Devotion", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="hellknight-devotion" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="hellknight-devotion" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="hellknight-devotion">Hellknight Devotion</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="hellknight-devotion-flavor">Your family has strong ties to a <Link to="/rule/hellknights">Hellknight</Link> order, and you harness this belief as a weapon.</Pair>
@@ -495,7 +495,7 @@ const _hellknight_devotion = {title: "Hellknight Devotion", topLink: ["Combat Tr
 </Ability>
 </>};
 const _hellknight_initiate = {title: "Hellknight Initiate", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link></p>
-<Ability id="hellknight-initiate" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="hellknight-initiate" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="hellknight-initiate">Hellknight Initiate</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="hellknight-initiate-flavor">You have laboriously studied the training rites of various <Link to="/rule/hellknights">Hellknight</Link> orders with the intent of joining one yourself.</Pair>
@@ -503,7 +503,7 @@ const _hellknight_initiate = {title: "Hellknight Initiate", topLink: ["Combat Tr
 </Ability>
 </>};
 const _helpful_cop = {title: "Helpful (CoP)", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
-<Ability id="helpful-cop" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="helpful-cop" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="helpful-cop">Helpful (CoP)</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="helpful-cop-flavor">You always know the best way to assist your companions, be it assisting them with a task, defending them in battle, or helping them place a well-aimed strike.</Pair>
@@ -511,7 +511,7 @@ const _helpful_cop = {title: "Helpful (CoP)", topLink: ["Combat Traits","main/tr
 </Ability>
 </>};
 const _hidden_hand = {title: "Hidden Hand", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="hidden-hand" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="hidden-hand" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="hidden-hand">Hidden Hand</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="hidden-hand-flavor">Your concealed weapons strike fast and true.</Pair>
@@ -519,7 +519,7 @@ const _hidden_hand = {title: "Hidden Hand", topLink: ["Combat Traits","main/trai
 </Ability>
 </>};
 const _hill_fighter = {title: "Hill Fighter", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
-<Ability id="hill-fighter" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="hill-fighter" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="hill-fighter">Hill Fighter</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Region" hl>Sargava</Pair>
@@ -528,7 +528,7 @@ const _hill_fighter = {title: "Hill Fighter", topLink: ["Combat Traits","main/tr
 </Ability>
 </>};
 const _holdout = {title: "Holdout", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="holdout" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="holdout" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="holdout">Holdout</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="holdout-flavor">You were robbed at a young age by bullies, an experience that impressed upon you the importance of being able to hold on to whatever you cared to keep.</Pair>
@@ -538,7 +538,7 @@ const _holdout = {title: "Holdout", topLink: ["Combat Traits","main/traits_comba
 </Ability>
 </>};
 const _honored_fist_of_the_society = {title: "Honored Fist of the Society", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="honored-fist-of-the-society" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="honored-fist-of-the-society" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="honored-fist-of-the-society">Honored Fist of the Society</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
@@ -547,7 +547,7 @@ const _honored_fist_of_the_society = {title: "Honored Fist of the Society", topL
 </Ability>
 </>};
 const _hunters_knack = {title: "Hunter's Knack", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="hunters-knack" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="hunters-knack" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="hunters-knack">Hunter's Knack</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="hunters-knack-flavor">When you watch and wait before attacking, your strike is true.</Pair>
@@ -555,7 +555,7 @@ const _hunters_knack = {title: "Hunter's Knack", topLink: ["Combat Traits","main
 </Ability>
 </>};
 const _ichimeiyo_champion = {title: "Ichimeiyo Champion", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
-<Ability id="ichimeiyo-champion" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="ichimeiyo-champion" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="ichimeiyo-champion">Ichimeiyo Champion</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="ichimeiyo-champion-flavor">You draw strength from adhering to the Ichimeiyo honor code in combat.</Pair>
@@ -563,7 +563,7 @@ const _ichimeiyo_champion = {title: "Ichimeiyo Champion", topLink: ["Combat Trai
 </Ability>
 </>};
 const _improvised_defense = {title: "Improvised Defense", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="improvised-defense" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="improvised-defense" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="improvised-defense">Improvised Defense</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="improvised-defense-flavor">You're never defenseless, even when you are caught off guard.</Pair>
@@ -571,7 +571,7 @@ const _improvised_defense = {title: "Improvised Defense", topLink: ["Combat Trai
 </Ability>
 </>};
 const _indelible_ire = {title: "Indelible Ire", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="indelible-ire" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="indelible-ire" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="indelible-ire">Indelible Ire</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="indelible-ire-flavor">When you are gravely wounded, you're stirred to greater combat focus.</Pair>
@@ -579,7 +579,7 @@ const _indelible_ire = {title: "Indelible Ire", topLink: ["Combat Traits","main/
 </Ability>
 </>};
 const _inspiring = {title: "Inspiring", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="inspiring" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="inspiring" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="inspiring">Inspiring</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="inspiring-flavor">As a child, you learned the power of a simple expression of faith in another when you gave a hero the inspiration to fight on in the face of terrible odds and save you from danger.</Pair>
@@ -589,7 +589,7 @@ const _inspiring = {title: "Inspiring", topLink: ["Combat Traits","main/traits_c
 </Ability>
 </>};
 const _inspiring_rush = {title: "Inspiring Rush", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="inspiring-rush" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="inspiring-rush" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="inspiring-rush">Inspiring Rush</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="inspiring-rush-flavor">Your charge inspires nearby companions to new heights of daring.</Pair>
@@ -597,14 +597,14 @@ const _inspiring_rush = {title: "Inspiring Rush", topLink: ["Combat Traits","mai
 </Ability>
 </>};
 const _jacket_training = {title: "Jacket Training", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook</Link></p>
-<Ability id="jacket-training" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="jacket-training" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="jacket-training">Jacket Training</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="benefit" id="jacket-training-benefit">You can treat an armored coat as light armor. This choice must be made when you don the armor, and can't be changed until you remove and redon the armor. You must still be proficient in wearing medium armor to avoid adding the armor's check penalty on all attack rolls and skill checks that involve moving.</Pair>
 </Ability>
 </>};
 const _jungle_fighter = {title: "Jungle Fighter", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
-<Ability id="jungle-fighter" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="jungle-fighter" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="jungle-fighter">Jungle Fighter</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Region" hl>Sargava</Pair>
@@ -612,7 +612,7 @@ const _jungle_fighter = {title: "Jungle Fighter", topLink: ["Combat Traits","mai
 </Ability>
 </>};
 const _just_like_new = {title: "Just Like New", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="just-like-new" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="just-like-new" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="just-like-new">Just Like New</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="just-like-new-flavor">Broken firearms are not problems: they are challenges.</Pair>
@@ -620,7 +620,7 @@ const _just_like_new = {title: "Just Like New", topLink: ["Combat Traits","main/
 </Ability>
 </>};
 const _killer = {title: "Killer", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="killer" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="killer" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="killer">Killer</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="killer-flavor">You made your first kill at a very young age and found the task of war or murder to your liking. You either take particular pride in a well-placed blow, or find vile pleasure in twisting the blade to maximize your target's pain.</Pair>
@@ -628,7 +628,7 @@ const _killer = {title: "Killer", topLink: ["Combat Traits","main/traits_combat"
 </Ability>
 </>};
 const _kin_guardian = {title: "Kin Guardian", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="kin-guardian" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="kin-guardian" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="kin-guardian">Kin Guardian</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="kin-guardian-flavor">You are dedicated to defending members of your family.</Pair>
@@ -636,7 +636,7 @@ const _kin_guardian = {title: "Kin Guardian", topLink: ["Combat Traits","main/tr
 </Ability>
 </>};
 const _larger_than_life = {title: "Larger Than Life", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="larger-than-life" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="larger-than-life" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="larger-than-life">Larger Than Life</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="larger-than-life-flavor">You wield firearms with truly terrifying menace.</Pair>
@@ -644,7 +644,7 @@ const _larger_than_life = {title: "Larger Than Life", topLink: ["Combat Traits",
 </Ability>
 </>};
 const _lastwall_defender = {title: "Lastwall Defender", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="lastwall-defender" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="lastwall-defender" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="lastwall-defender">Lastwall Defender</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="lastwall-defender-flavor">Your military service in Lastwall taught you how to identify undead creatures, changing them in your mind from mysterious terrors to concrete foes you know how to deal with.</Pair>
@@ -652,7 +652,7 @@ const _lastwall_defender = {title: "Lastwall Defender", topLink: ["Combat Traits
 </Ability>
 </>};
 const _martial_performer = {title: "Martial Performer", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="martial-performer" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="martial-performer" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="martial-performer">Martial Performer</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="martial-performer-flavor">Your training has made you a martial performer.</Pair>
@@ -660,7 +660,7 @@ const _martial_performer = {title: "Martial Performer", topLink: ["Combat Traits
 </Ability>
 </>};
 const _merciful_scimitar = {title: "Merciful Scimitar", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
-<Ability id="merciful-scimitar" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="merciful-scimitar" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="merciful-scimitar">Merciful Scimitar</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="merciful-scimitar-flavor">You learned from worshipers of <Link to="/faith/sarenrae">Sarenrae</Link> to cut foes with a scimitar without killing them.</Pair>
@@ -668,7 +668,7 @@ const _merciful_scimitar = {title: "Merciful Scimitar", topLink: ["Combat Traits
 </Ability>
 </>};
 const _monk_weapon_skill = {title: "Monk Weapon Skill", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
-<Ability id="monk-weapon-skill" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="monk-weapon-skill" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="monk-weapon-skill">Monk Weapon Skill</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="monk-weapon-skill-flavor">Your exposure to teaching from the <Link to="/rule/houses_of_perfection">Houses of Perfection</Link> makes your attacks with monk weapons even more deadly.</Pair>
@@ -676,7 +676,7 @@ const _monk_weapon_skill = {title: "Monk Weapon Skill", topLink: ["Combat Traits
 </Ability>
 </>};
 const _monster_challenger = {title: "Monster Challenger", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook</Link></p>
-<Ability id="monster-challenger" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="monster-challenger" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="monster-challenger">Monster Challenger</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="monster-challenger-flavor">You have made it your mission to bring down a fearsome beast.</Pair>
@@ -684,7 +684,7 @@ const _monster_challenger = {title: "Monster Challenger", topLink: ["Combat Trai
 </Ability>
 </>};
 const _monster_survivor = {title: "Monster Survivor", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook</Link></p>
-<Ability id="monster-survivor" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="monster-survivor" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="monster-survivor">Monster Survivor</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="monster-survivor-flavor">You've escaped with your life after a terrible monster attack.</Pair>
@@ -692,7 +692,7 @@ const _monster_survivor = {title: "Monster Survivor", topLink: ["Combat Traits",
 </Ability>
 </>};
 const _muscle_of_the_society = {title: "Muscle of the Society", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_society_primer">Pathfinder Society Primer</Link></p>
-<Ability id="muscle-of-the-society" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="muscle-of-the-society" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="muscle-of-the-society">Muscle of the Society</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="muscle-of-the-society-flavor">Your intense training with the Swords has taught you how to infiltrate otherwise inaccessible ruins and extract their treasures without too much exertion.</Pair>
@@ -700,7 +700,7 @@ const _muscle_of_the_society = {title: "Muscle of the Society", topLink: ["Comba
 </Ability>
 </>};
 const _natural_flyer = {title: "Natural Flyer", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 29</Link></p>
-<Ability id="natural-flyer" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="natural-flyer" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="natural-flyer">Natural Flyer</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="natural-flyer-flavor">All your life, the sky has beckoned to you, and you have dreamed of reveling in the freedom and bliss of flight.</Pair>
@@ -708,7 +708,7 @@ const _natural_flyer = {title: "Natural Flyer", topLink: ["Combat Traits","main/
 </Ability>
 </>};
 const _natures_mimic = {title: "Nature's Mimic", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="natures-mimic" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="natures-mimic" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="natures-mimic">Nature's Mimic</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="natures-mimic-flavor">Your knowledge of nature informs your fighting style, and that style gives you insight into related aspects of the natural world.</Pair>
@@ -716,7 +716,7 @@ const _natures_mimic = {title: "Nature's Mimic", topLink: ["Combat Traits","main
 </Ability>
 </>};
 const _never_stop_shooting = {title: "Never Stop Shooting", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="never-stop-shooting" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="never-stop-shooting" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="never-stop-shooting">Never Stop Shooting</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="never-stop-shooting-flavor">Even when the chips are down, you keep on shooting.</Pair>
@@ -726,7 +726,7 @@ const _never_stop_shooting = {title: "Never Stop Shooting", topLink: ["Combat Tr
 </Ability>
 </>};
 const _no_escape = {title: "No Escape", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance</Link></p>
-<Ability id="no-escape" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="no-escape" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="no-escape">No Escape</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="no-escape-flavor">Struggle as they might, ne'er-do-wells and vagrants are hard pressed to evade the law once in your clutches.</Pair>
@@ -734,7 +734,7 @@ const _no_escape = {title: "No Escape", topLink: ["Combat Traits","main/traits_c
 </Ability>
 </>};
 const _obari_veteran = {title: "Obari Veteran", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest</Link></p>
-<Ability id="obari-veteran" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="obari-veteran" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="obari-veteran">Obari Veteran</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="obari-veteran-flavor">You've spent years aboard ships traveling the lucrative Obari Crossing, transporting Garundi and Vudrani goods.</Pair>
@@ -742,7 +742,7 @@ const _obari_veteran = {title: "Obari Veteran", topLink: ["Combat Traits","main/
 </Ability>
 </>};
 const _ogre_avoidance = {title: "Ogre Avoidance", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="ogre-avoidance" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="ogre-avoidance" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="ogre-avoidance">Ogre Avoidance</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="ogre-avoidance-flavor">You have practiced defensive maneuvers to avoid being caught by <Link to="/monster/ogre">ogres</Link>, whose grasps you know are tight and unforgiving.</Pair>
@@ -750,7 +750,7 @@ const _ogre_avoidance = {title: "Ogre Avoidance", topLink: ["Combat Traits","mai
 </Ability>
 </>};
 const _ozem_inspired = {title: "Ozem-Inspired", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
-<Ability id="ozem-inspired" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="ozem-inspired" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="ozem-inspired">Ozem-Inspired</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="ozem-inspired-flavor">Tales of the Knights of Ozem have inspired you since childhood to lash out reflexively against the undead.</Pair>
@@ -758,7 +758,7 @@ const _ozem_inspired = {title: "Ozem-Inspired", topLink: ["Combat Traits","main/
 </Ability>
 </>};
 const _performers_surprise = {title: "Performer's Surprise", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
-<Ability id="performers-surprise" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="performers-surprise" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="performers-surprise">Performer's Surprise</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="performers-surprise-flavor">You are practiced at the surprising combat tricks of Varisian wanderers.</Pair>
@@ -766,7 +766,7 @@ const _performers_surprise = {title: "Performer's Surprise", topLink: ["Combat T
 </Ability>
 </>};
 const _permanent_scars = {title: "Permanent Scars", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook</Link></p>
-<Ability id="permanent-scars" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="permanent-scars" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="permanent-scars">Permanent Scars</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="permanent-scars-flavor">You carry the physical and emotional scars of your <Link to="/rule/gray_maidens">Gray Maiden</Link> initiation as mental armor.</Pair>
@@ -774,7 +774,7 @@ const _permanent_scars = {title: "Permanent Scars", topLink: ["Combat Traits","m
 </Ability>
 </>};
 const _pillager = {title: "Pillager", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="pillager" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="pillager" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="pillager">Pillager</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="pillager-flavor">Growing up in a place where authorities, if there were any, rarely enforced property laws, you learned quickly that you have only what you can hold - but you gain whatever you can take.</Pair>
@@ -784,7 +784,7 @@ const _pillager = {title: "Pillager", topLink: ["Combat Traits","main/traits_com
 </Ability>
 </>};
 const _promising = {title: "Promising", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook</Link></p>
-<Ability id="promising" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="promising" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="promising">Promising</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="promising-flavor">Your superiors have identified you as an <Link to="/rule/eagle_knights">Eagle Knights</Link> candidate, and their praise encourages you to strive to meet their expectations.</Pair>
@@ -792,7 +792,7 @@ const _promising = {title: "Promising", topLink: ["Combat Traits","main/traits_c
 </Ability>
 </>};
 const _punish_insurrection = {title: "Punish Insurrection", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
-<Ability id="punish-insurrection" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="punish-insurrection" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="punish-insurrection">Punish Insurrection</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="punish-insurrection-flavor">You relish reminding people who's in charge.</Pair>
@@ -802,7 +802,7 @@ const _punish_insurrection = {title: "Punish Insurrection", topLink: ["Combat Tr
 </Ability>
 </>};
 const _reactionary = {title: "Reactionary", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="reactionary" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="reactionary" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="reactionary">Reactionary</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="reactionary-flavor">You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly.</Pair>
@@ -810,7 +810,7 @@ const _reactionary = {title: "Reactionary", topLink: ["Combat Traits","main/trai
 </Ability>
 </>};
 const _reckless = {title: "Reckless", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="reckless" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="reckless" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="reckless">Reckless</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="reckless-flavor">You have a tendency for rash behavior, often disregarding your own safety as you move across the battlefield.</Pair>
@@ -818,7 +818,7 @@ const _reckless = {title: "Reckless", topLink: ["Combat Traits","main/traits_com
 </Ability>
 </>};
 const _reckless_contempt = {title: "Reckless Contempt", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="reckless-contempt" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="reckless-contempt" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="reckless-contempt">Reckless Contempt</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="reckless-contempt-flavor">You do not fear the threat of lesser weapons.</Pair>
@@ -826,7 +826,7 @@ const _reckless_contempt = {title: "Reckless Contempt", topLink: ["Combat Traits
 </Ability>
 </>};
 const _red_mantis_bleeding = {title: "Red Mantis Bleeding", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
-<Ability id="red-mantis-bleeding" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="red-mantis-bleeding" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="red-mantis-bleeding">Red Mantis Bleeding</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="red-mantis-bleeding-flavor">You witnessed the training of <Link to="/rule/red_mantis">Red Mantis</Link> assassins, either as a child on Mediogalti Island or as an aspirant, and learned to leave bleeding wounds.</Pair>
@@ -834,7 +834,7 @@ const _red_mantis_bleeding = {title: "Red Mantis Bleeding", topLink: ["Combat Tr
 </Ability>
 </>};
 const _resilient = {title: "Resilient", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="resilient" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="resilient" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="resilient">Resilient</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="resilient-flavor">Growing up in a poor neighborhood or in the unforgiving wilds often forced you to subsist on food and water from doubtful sources.</Pair>
@@ -842,7 +842,7 @@ const _resilient = {title: "Resilient", topLink: ["Combat Traits","main/traits_c
 </Ability>
 </>};
 const _resolve_of_the_rejected = {title: "Resolve of the Rejected", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="resolve-of-the-rejected" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="resolve-of-the-rejected" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="resolve-of-the-rejected">Resolve of the Rejected</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="resolve-of-the-rejected-flavor">Some disagree with your choice to wield a firearm, and their scorn has only hardened your resolve in battle.</Pair>
@@ -850,7 +850,7 @@ const _resolve_of_the_rejected = {title: "Resolve of the Rejected", topLink: ["C
 </Ability>
 </>};
 const _riders_bond = {title: "Rider's Bond", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court</Link></p>
-<Ability id="riders-bond" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="riders-bond" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="riders-bond">Rider's Bond</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Region" hl>Lastwall</Pair>
@@ -860,7 +860,7 @@ const _riders_bond = {title: "Rider's Bond", topLink: ["Combat Traits","main/tra
 </Ability>
 </>};
 const _river_fighter = {title: "River Fighter", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
-<Ability id="river-fighter" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="river-fighter" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="river-fighter">River Fighter</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Region" hl>Sargava</Pair>
@@ -869,7 +869,7 @@ const _river_fighter = {title: "River Fighter", topLink: ["Combat Traits","main/
 </Ability>
 </>};
 const _roving_range = {title: "Roving Range", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
-<Ability id="roving-range" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="roving-range" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="roving-range">Roving Range</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="roving-range-flavor">You learned from pirates to make the most of ranged attacks as you close with targets.</Pair>
@@ -877,7 +877,7 @@ const _roving_range = {title: "Roving Range", topLink: ["Combat Traits","main/tr
 </Ability>
 </>};
 const _savanna_hunter = {title: "Savanna Hunter", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
-<Ability id="savanna-hunter" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="savanna-hunter" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="savanna-hunter">Savanna Hunter</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="savanna-hunter-flavor">You have been trained to hunt and fight on the open plains since birth.</Pair>
@@ -885,7 +885,7 @@ const _savanna_hunter = {title: "Savanna Hunter", topLink: ["Combat Traits","mai
 </Ability>
 </>};
 const _scarred_by_space_pirates = {title: "Scarred by Space Pirates", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="scarred-by-space-pirates" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="scarred-by-space-pirates" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="scarred-by-space-pirates">Scarred by Space Pirates</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="scarred-by-space-pirates-flavor">You were attacked by Vercite space pirates in your youth, inspiring you to find ways to deal with the alien interlopers should they return.</Pair>
@@ -893,7 +893,7 @@ const _scarred_by_space_pirates = {title: "Scarred by Space Pirates", topLink: [
 </Ability>
 </>};
 const _scarred_descendant = {title: "Scarred Descendant", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="scarred-descendant" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="scarred-descendant" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="scarred-descendant">Scarred Descendant</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="scarred-descendant-flavor">Your own people are your <Link to="/ability/favored_enemy">favored enemy</Link>.</Pair>
@@ -901,7 +901,7 @@ const _scarred_descendant = {title: "Scarred Descendant", topLink: ["Combat Trai
 </Ability>
 </>};
 const _shadow_trained = {title: "Shadow Trained", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court</Link></p>
-<Ability id="shadow-trained" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="shadow-trained" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="shadow-trained">Shadow Trained</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Region" hl>Nidal</Pair>
@@ -911,7 +911,7 @@ const _shadow_trained = {title: "Shadow Trained", topLink: ["Combat Traits","mai
 </Ability>
 </>};
 const _siege_defender = {title: "Siege Defender", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology</Link></p>
-<Ability id="siege-defender" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="siege-defender" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="siege-defender">Siege Defender</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="siege-defender-flavor">Aroden taught the people of Absalom to survive any siege with proper preparation and cooperation, and those teachings were passed on to you.</Pair>
@@ -919,7 +919,7 @@ const _siege_defender = {title: "Siege Defender", topLink: ["Combat Traits","mai
 </Ability>
 </>};
 const _slippery = {title: "Slippery", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="slippery" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="slippery" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="slippery">Slippery</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/bellflower_network">Bellflower Network</Link></Pair>
@@ -928,7 +928,7 @@ const _slippery = {title: "Slippery", topLink: ["Combat Traits","main/traits_com
 </Ability>
 </>};
 const _soaring_sprinter = {title: "Soaring Sprinter", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="soaring-sprinter" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="soaring-sprinter" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="soaring-sprinter">Soaring Sprinter</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="soaring-sprinter-flavor">As a youth, you often leaped and ran at treacherous heights, either because it was the only place with enough freedom for you to play or because it was not a good idea to play any lower.</Pair>
@@ -938,7 +938,7 @@ const _soaring_sprinter = {title: "Soaring Sprinter", topLink: ["Combat Traits",
 </Ability>
 </>};
 const _solitary = {title: "Solitary", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="solitary" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="solitary" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="solitary">Solitary</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="solitary-flavor">You are skilled at slipping away from crowds.</Pair>
@@ -946,7 +946,7 @@ const _solitary = {title: "Solitary", topLink: ["Combat Traits","main/traits_com
 </Ability>
 </>};
 const _spirit_of_the_law = {title: "Spirit of the Law", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="spirit-of-the-law" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="spirit-of-the-law" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="spirit-of-the-law">Spirit of the Law</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="spirit-of-the-law-flavor">You have seen the rules of society endlessly twisted in their implementation, and as such, you are especially wary of those who exploit the law to impose their own will.</Pair>
@@ -954,7 +954,7 @@ const _spirit_of_the_law = {title: "Spirit of the Law", topLink: ["Combat Traits
 </Ability>
 </>};
 const _splash_attack = {title: "Splash Attack", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="splash-attack" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="splash-attack" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="splash-attack">Splash Attack</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="splash-attack-flavor">You catch others off-guard when a confrontation escalates.</Pair>
@@ -964,7 +964,7 @@ const _splash_attack = {title: "Splash Attack", topLink: ["Combat Traits","main/
 </Ability>
 </>};
 const _sprint = {title: "Sprint", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
-<Ability id="sprint" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="sprint" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="sprint">Sprint</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -973,7 +973,7 @@ const _sprint = {title: "Sprint", topLink: ["Combat Traits","main/traits_combat"
 </Ability>
 </>};
 const _startling_report = {title: "Startling Report", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="startling-report" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="startling-report" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="startling-report">Startling Report</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="startling-report-flavor">Through either perfect timing or the determination of your action, the sound of your firearm going off sets your enemies on edge.</Pair>
@@ -981,7 +981,7 @@ const _startling_report = {title: "Startling Report", topLink: ["Combat Traits",
 </Ability>
 </>};
 const _steel_skin = {title: "Steel Skin", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="steel-skin" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="steel-skin" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="steel-skin">Steel Skin</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="benefit" id="steel-skin-benefit"><p>You gain the ability to <Link to="/rule/don_armor">don or remove</Link> heavy armor in half the normal time.</p>
@@ -990,7 +990,7 @@ const _steel_skin = {title: "Steel Skin", topLink: ["Combat Traits","main/traits
 </Ability>
 </>};
 const _strong_arm_supple_wrist = {title: "Strong Arm, Supple Wrist", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East</Link>, <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link></p>
-<Ability id="strong-arm-supple-wrist" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="strong-arm-supple-wrist" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="strong-arm-supple-wrist">Strong Arm, Supple Wrist</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="strong-arm-supple-wrist-flavor">You have been trained in the javelin and the spear, and you know how to make the best use of your momentum.</Pair>
@@ -998,7 +998,7 @@ const _strong_arm_supple_wrist = {title: "Strong Arm, Supple Wrist", topLink: ["
 </Ability>
 </>};
 const _subjective_equilibrium = {title: "Subjective Equilibrium", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook</Link></p>
-<Ability id="subjective-equilibrium" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="subjective-equilibrium" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="subjective-equilibrium">Subjective Equilibrium</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="subjective-equilibrium-flavor">You understand that gravity is far from constant when traversing the Great Beyond.</Pair>
@@ -1006,7 +1006,7 @@ const _subjective_equilibrium = {title: "Subjective Equilibrium", topLink: ["Com
 </Ability>
 </>};
 const _surprise_weapon = {title: "Surprise Weapon", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="surprise-weapon" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="surprise-weapon" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="surprise-weapon">Surprise Weapon</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="surprise-weapon-flavor">You are skilled at fighting with objects not traditionally considered weapons.</Pair>
@@ -1014,7 +1014,7 @@ const _surprise_weapon = {title: "Surprise Weapon", topLink: ["Combat Traits","m
 </Ability>
 </>};
 const _sworn_enemy = {title: "Sworn Enemy", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="sworn-enemy" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="sworn-enemy" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="sworn-enemy">Sworn Enemy</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="sworn-enemy-flavor">You were raised with defiance, fear, or hatred of a particular sort of foe. To make you ready to resist such foes, you were trained for long hours in the proper ways to defeat them.</Pair>
@@ -1024,7 +1024,7 @@ const _sworn_enemy = {title: "Sworn Enemy", topLink: ["Combat Traits","main/trai
 </Ability>
 </>};
 const _tactician = {title: "Tactician", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="tactician" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="tactician" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="tactician">Tactician</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="tactician-flavor">You know how to take advantage of enemies who are unprepared for your assault.</Pair>
@@ -1032,7 +1032,7 @@ const _tactician = {title: "Tactician", topLink: ["Combat Traits","main/traits_c
 </Ability>
 </>};
 const _tar_taargadth_trained = {title: "Tar Taargadth Trained", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 31</Link></p>
-<Ability id="tar-taargadth-trained" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="tar-taargadth-trained" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="tar-taargadth-trained">Tar Taargadth Trained</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="tar-taargadth-trained-flavor">You know the ancient fighting techniques of the Tar Taargadth Empire.</Pair>
@@ -1040,7 +1040,7 @@ const _tar_taargadth_trained = {title: "Tar Taargadth Trained", topLink: ["Comba
 </Ability>
 </>};
 const _tarnished_halls_runner = {title: "Tarnished Halls Runner", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets</Link></p>
-<Ability id="tarnished-halls-runner" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="tarnished-halls-runner" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="tarnished-halls-runner">Tarnished Halls Runner</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="tarnished-halls-runner-flavor">You evaded Technic League patrols with the <Link to="/rule/tarnished_halls">Blood Gar pirates</Link>.</Pair>
@@ -1048,7 +1048,7 @@ const _tarnished_halls_runner = {title: "Tarnished Halls Runner", topLink: ["Com
 </Ability>
 </>};
 const _threatening_defender = {title: "Threatening Defender", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="threatening-defender" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="threatening-defender" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="threatening-defender">Threatening Defender</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="threatening-defender-flavor">You know how to avoid a blow while still maintaining your offensive posture.</Pair>
@@ -1056,7 +1056,7 @@ const _threatening_defender = {title: "Threatening Defender", topLink: ["Combat 
 </Ability>
 </>};
 const _thunder_and_fang_performer = {title: "Thunder and Fang Performer", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
-<Ability id="thunder-and-fang-performer" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="thunder-and-fang-performer" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="thunder-and-fang-performer">Thunder and Fang Performer</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="thunder-and-fang-performer-flavor">You learned from Shoanti champions to take advantage of the dramatic swings required by heavy weapons like the <Link to="/eq-weapon/earth_breaker">earth breaker</Link>.</Pair>
@@ -1064,14 +1064,14 @@ const _thunder_and_fang_performer = {title: "Thunder and Fang Performer", topLin
 </Ability>
 </>};
 const _to_the_last = {title: "To The Last", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook</Link></p>
-<Ability id="to-the-last" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="to-the-last" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="to-the-last">To The Last</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="benefit" id="to-the-last-benefit">Choose one type of medium or heavy armor (such as <Link to="/eq-armor/chainmail">chainmail</Link> or <Link to="/eq-armor/half_plate">half-plate</Link>). If you have no allies within 60 feet when you are wearing that type of armor, you gain DR 1/-. This stacks with any one other source of damage resistance you have.</Pair>
 </Ability>
 </>};
 const _tracker_of_the_society = {title: "Tracker of the Society", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="tracker-of-the-society" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="tracker-of-the-society" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="tracker-of-the-society">Tracker of the Society</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
@@ -1080,7 +1080,7 @@ const _tracker_of_the_society = {title: "Tracker of the Society", topLink: ["Com
 </Ability>
 </>};
 const _unblemished_barrel = {title: "Unblemished Barrel", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="unblemished-barrel" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="unblemished-barrel" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="unblemished-barrel">Unblemished Barrel</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="unblemished-barrel-flavor">Your skill with firearms speeds your repair of such weapons.</Pair>
@@ -1088,7 +1088,7 @@ const _unblemished_barrel = {title: "Unblemished Barrel", topLink: ["Combat Trai
 </Ability>
 </>};
 const _undergrowth_specialist = {title: "Undergrowth Specialist", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="undergrowth-specialist" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="undergrowth-specialist" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="undergrowth-specialist">Undergrowth Specialist</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="undergrowth-specialist-flavor">You've trained yourself to move in and out of undergrowth with ease.</Pair>
@@ -1096,7 +1096,7 @@ const _undergrowth_specialist = {title: "Undergrowth Specialist", topLink: ["Com
 </Ability>
 </>};
 const _unpredictable_reactions = {title: "Unpredictable Reactions", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance</Link></p>
-<Ability id="unpredictable-reactions" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="unpredictable-reactions" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="unpredictable-reactions">Unpredictable Reactions</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="unpredictable-reactions-flavor">Your reactions to combat beginning aren't what people expect.</Pair>
@@ -1104,14 +1104,14 @@ const _unpredictable_reactions = {title: "Unpredictable Reactions", topLink: ["C
 </Ability>
 </>};
 const _vandal = {title: "Vandal", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link></p>
-<Ability id="vandal" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="vandal" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="vandal">Vandal</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="benefit" id="vandal-benefit">You gain a +2 bonus on Strength checks to break objects, and when damaging an object with a weapon, natural weapon, or unarmed attack, you ignore 2 points of its hardness.</Pair>
 </Ability>
 </>};
 const _vengeful_combat = {title: "Vengeful (Combat)", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="vengeful-combat" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="vengeful-combat" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="vengeful-combat">Vengeful (Combat)</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="vengeful-combat-flavor">During your childhood, you suffered occasional or frequent abuse from those too powerful for you to resist. Now you thrill at the chance to get back at those who wronged you.</Pair>
@@ -1121,7 +1121,7 @@ const _vengeful_combat = {title: "Vengeful (Combat)", topLink: ["Combat Traits",
 </Ability>
 </>};
 const _venom_resistance = {title: "Venom Resistance", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="venom-resistance" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="venom-resistance" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="venom-resistance">Venom Resistance</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="venom-resistance-flavor">You have spent considerable time in arid wastelands where girtablilus and other venomous creatures are common, and you have built up a resistance to poison.</Pair>
@@ -1129,7 +1129,7 @@ const _venom_resistance = {title: "Venom Resistance", topLink: ["Combat Traits",
 </Ability>
 </>};
 const _vigilant_battler = {title: "Vigilant Battler", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="vigilant-battler" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="vigilant-battler" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="vigilant-battler">Vigilant Battler</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="vigilant-battler-flavor">You are hard to fool and harder to trick with a feint.</Pair>
@@ -1137,7 +1137,7 @@ const _vigilant_battler = {title: "Vigilant Battler", topLink: ["Combat Traits",
 </Ability>
 </>};
 const _volatile_fuse = {title: "Volatile Fuse", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="volatile-fuse" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="volatile-fuse" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="volatile-fuse">Volatile Fuse</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="volatile-fuse-flavor">Firearms you wield are especially dangerous to you and everyone nearby.</Pair>
@@ -1147,7 +1147,7 @@ const _volatile_fuse = {title: "Volatile Fuse", topLink: ["Combat Traits","main/
 </Ability>
 </>};
 const _wary_eye = {title: "Wary Eye", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="wary-eye" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="wary-eye" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="wary-eye">Wary Eye</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="wary-eye-flavor">You know that you could be exposed at any time. Even your closest friends could someday become enemies, and so you have trained yourself to never be surprised by a betrayal.</Pair>
@@ -1157,7 +1157,7 @@ const _wary_eye = {title: "Wary Eye", topLink: ["Combat Traits","main/traits_com
 </Ability>
 </>};
 const _weapon_of_peace = {title: "Weapon of Peace", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
-<Ability id="weapon-of-peace" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="weapon-of-peace" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="weapon-of-peace">Weapon of Peace</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="weapon-of-peace-flavor">Even though you are a trained combatant, proficient with any number of weapons, you don't relish killing your enemies. It's not that you're afraid of seeing blood, but rather that disabling a foe is superior to killing someone capable of admitting defeat.</Pair>
@@ -1165,7 +1165,7 @@ const _weapon_of_peace = {title: "Weapon of Peace", topLink: ["Combat Traits","m
 </Ability>
 </>};
 const _witty_repartee = {title: "Witty Repartee", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="witty-repartee" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="witty-repartee" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="witty-repartee">Witty Repartee</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl><Link to="/rule/kitharodian_academy">Kitharodian Academy</Link></Pair>
@@ -1174,7 +1174,7 @@ const _witty_repartee = {title: "Witty Repartee", topLink: ["Combat Traits","mai
 </Ability>
 </>};
 const _youthful_infiltrator = {title: "Youthful Infiltrator", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="youthful-infiltrator" extraClasses="trait" icon={["crossed-sabres"]}>
+<Ability id="youthful-infiltrator" extraClasses="trait" icon={["Combat"]}>
 <Pair single id="youthful-infiltrator">Youthful Infiltrator</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="youthful-infiltrator-flavor">You were trained from a young age to ambush the enemies of your order or organization, which makes you hard to trust for most outside your organization if they learn your affiliation.</Pair>
@@ -1182,7 +1182,7 @@ const _youthful_infiltrator = {title: "Youthful Infiltrator", topLink: ["Combat 
 </Ability>
 </>};
 const _abject_belief = {title: "Abject Belief", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
-<Ability id="abject-belief" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="abject-belief" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="abject-belief">Abject Belief</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="abject-belief-flavor">You cling tenaciously to a faith that is doubted by many, perhaps based around a god who has vanished, or was never a god in the first place. You refuse to forsake your beliefs despite all evidence, perhaps due to a need to belong, respect for tradition, or a religious experience. As a result, it is nearly impossible to convince you of your deity's absence.</Pair>
@@ -1190,7 +1190,7 @@ const _abject_belief = {title: "Abject Belief", topLink: ["Faith Traits","main/t
 </Ability>
 </>};
 const _acclimatize_alignment = {title: "Acclimatize Alignment", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook</Link></p>
-<Ability id="acclimatize-alignment" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="acclimatize-alignment" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="acclimatize-alignment">Acclimatize Alignment</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="acclimatize-alignment-flavor">Like a climber ascending a mountain, you gradually grow acclimatized to an opposing planar alignment.</Pair>
@@ -1198,7 +1198,7 @@ const _acclimatize_alignment = {title: "Acclimatize Alignment", topLink: ["Faith
 </Ability>
 </>};
 const _acolyte_of_apocrypha = {title: "Acolyte of Apocrypha", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="acolyte-of-apocrypha" extraClasses="trait hasSubs" icon={["bolt-eye"]}>
+<Ability id="acolyte-of-apocrypha" extraClasses="trait hasSubs" icon={["Faith"]}>
 <Pair single id="acolyte-of-apocrypha">Acolyte of Apocrypha</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="acolyte-of-apocrypha-flavor">Your religious studies hinged on teachings rarely recognized by your faith.</Pair>
@@ -1268,7 +1268,7 @@ const _acolyte_of_apocrypha = {title: "Acolyte of Apocrypha", topLink: ["Faith T
 </Ability>
 </>};
 const _apprentice = {title: "Apprentice", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="apprentice" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="apprentice" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="apprentice">Apprentice</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="apprentice-flavor">During your studies of The Majestic Book of the Prime Ascended, you learned some minor magical tricks.</Pair>
@@ -1276,7 +1276,7 @@ const _apprentice = {title: "Apprentice", topLink: ["Faith Traits","main/traits_
 </Ability>
 </>};
 const _arcane_scholar = {title: "Arcane Scholar", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="arcane-scholar" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="arcane-scholar" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="arcane-scholar">Arcane Scholar</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="arcane-scholar-flavor">Study of the "Prime Archmage" chapter has broadened your magical knowledge.</Pair>
@@ -1284,7 +1284,7 @@ const _arcane_scholar = {title: "Arcane Scholar", topLink: ["Faith Traits","main
 </Ability>
 </>};
 const _aspect_of_the_quah = {title: "Aspect of the Quah", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine</Link></p>
-<Ability id="aspect-of-the-quah" extraClasses="trait hasSubs" icon={["bolt-eye"]}>
+<Ability id="aspect-of-the-quah" extraClasses="trait hasSubs" icon={["Faith"]}>
 <Pair single id="aspect-of-the-quah">Aspect of the Quah</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/class/hunter">Hunter</Link> or have access to the <em>animal aspect</em> class feature; Shoanti</Pair>
@@ -1321,7 +1321,7 @@ const _aspect_of_the_quah = {title: "Aspect of the Quah", topLink: ["Faith Trait
 </Ability>
 </>};
 const _authoritarian = {title: "Authoritarian", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="authoritarian" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="authoritarian" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="authoritarian">Authoritarian</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="authoritarian-flavor">You spent much of your youth helping the clergy of your chosen faith perform their duties, and learned from them respect for authority.</Pair>
@@ -1331,7 +1331,7 @@ const _authoritarian = {title: "Authoritarian", topLink: ["Faith Traits","main/t
 </Ability>
 </>};
 const _beacon_of_faith = {title: "Beacon of Faith", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="beacon-of-faith" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="beacon-of-faith" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="beacon-of-faith">Beacon of Faith</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="beacon-of-faith-flavor">You wield the might of your faith with power and clarity.</Pair>
@@ -1339,14 +1339,14 @@ const _beacon_of_faith = {title: "Beacon of Faith", topLink: ["Faith Traits","ma
 </Ability>
 </>};
 const _birthmark = {title: "Birthmark", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="birthmark" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="birthmark" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="birthmark">Birthmark</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="benefit" id="birthmark-benefit">You were born with a strange birthmark that looks very similar to the holy symbol of the god you chose to worship later in life. This birthmark can serve you as a divine focus for casting spells, and as a physical manifestation of your faith, and it increases your devotion to your god. You gain a +2 trait bonus on all saving throws against charm and compulsion effects.</Pair>
 </Ability>
 </>};
 const _blessed = {title: "Blessed", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="blessed" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="blessed" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="blessed">Blessed</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="blessed-flavor">Some divine agent watches over you and heeds your call.</Pair>
@@ -1354,7 +1354,7 @@ const _blessed = {title: "Blessed", topLink: ["Faith Traits","main/traits_faith"
 </Ability>
 </>};
 const _blessed_touch = {title: "Blessed Touch", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
-<Ability id="blessed-touch" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="blessed-touch" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="blessed-touch">Blessed Touch</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="blessed-touch-flavor">You may have been raised in a devout family, studied the divine in a formal church environment, or even learned how to combine traditional healing techniques with those of divine casters. In so doing, you have focused yourself into being the perfect vessel for your deity. Divine power flows through you like a mountain stream, making your healing touch more potent than that of others.</Pair>
@@ -1362,7 +1362,7 @@ const _blessed_touch = {title: "Blessed Touch", topLink: ["Faith Traits","main/t
 </Ability>
 </>};
 const _born_free = {title: "Born Free", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
-<Ability id="born-free" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="born-free" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="born-free">Born Free</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="born-free-flavor">You were introduced to an individualistic belief as a youth. Thriving under the promise of control of your own destiny, you soon began to demonstrate the truth of this ideal. Though others may mock you for your unwillingness to go along with a group or accept the easy security and comfort promised by more ecclesiastical faiths, you know that the revelations and destiny you seek can only be brought about through your own actions and individual search for meaning.</Pair>
@@ -1370,7 +1370,7 @@ const _born_free = {title: "Born Free", topLink: ["Faith Traits","main/traits_fa
 </Ability>
 </>};
 const _bound_by_honor = {title: "Bound by Honor", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
-<Ability id="bound-by-honor" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="bound-by-honor" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="bound-by-honor">Bound by Honor</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="bound-by-honor-flavor">Your code of honor, obligations, and taboos stem from the shame of a misspent youth. Now, a personal code reminds you how to live, and you have an impressive ability to resist temptation.</Pair>
@@ -1378,7 +1378,7 @@ const _bound_by_honor = {title: "Bound by Honor", topLink: ["Faith Traits","main
 </Ability>
 </>};
 const _called = {title: "Called", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="called" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="called" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="called">Called</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="called-flavor">Your deity or a powerful spirit spoke to you when you were young, dropping cryptic hints about the important destiny that lay before you and how you must win your fights if you are to achieve your predetermined greatness.</Pair>
@@ -1388,7 +1388,7 @@ const _called = {title: "Called", topLink: ["Faith Traits","main/traits_faith"],
 </Ability>
 </>};
 const _canon_of_coin = {title: "Canon of Coin", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest</Link></p>
-<Ability id="canon-of-coin" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="canon-of-coin" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="canon-of-coin">Canon of Coin</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="canon-of-coin-flavor">You find the pursuit of earning money to be a religious experience.</Pair>
@@ -1396,7 +1396,7 @@ const _canon_of_coin = {title: "Canon of Coin", topLink: ["Faith Traits","main/t
 </Ability>
 </>};
 const _caretaker = {title: "Caretaker", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="caretaker" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="caretaker" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="caretaker">Caretaker</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="caretaker-flavor">As the child of an herbalist or an assistant in a temple infirmary, you often had to assist in tending to the sick and wounded.</Pair>
@@ -1404,7 +1404,7 @@ const _caretaker = {title: "Caretaker", topLink: ["Faith Traits","main/traits_fa
 </Ability>
 </>};
 const _child_of_the_temple = {title: "Child of the Temple", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="child-of-the-temple" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="child-of-the-temple" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="child-of-the-temple">Child of the Temple</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="child-of-the-temple-flavor">You have long served at a temple in a city, where you picked up on many of the nobility's customs in addition to spending much time in the temple libraries studying your faith.</Pair>
@@ -1412,7 +1412,7 @@ const _child_of_the_temple = {title: "Child of the Temple", topLink: ["Faith Tra
 </Ability>
 </>};
 const _chosen_of_iomedae = {title: "Chosen of Iomedae", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
-<Ability id="chosen-of-iomedae" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="chosen-of-iomedae" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="chosen-of-iomedae">Chosen of Iomedae</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="chosen-of-iomedae-flavor">At your birth, your parents dedicated your soul to <Link to="/faith/iomedae">Iomedae</Link> to mold into a sword of her light. The goddess blessed you, granting you a gift of light to brighten your path through darkness and a fine sword with which to spread her will.</Pair>
@@ -1420,7 +1420,7 @@ const _chosen_of_iomedae = {title: "Chosen of Iomedae", topLink: ["Faith Traits"
 </Ability>
 </>};
 const _covert_channeler = {title: "Covert Channeler", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets</Link></p>
-<Ability id="covert-channeler" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="covert-channeler" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="covert-channeler">Covert Channeler</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="covert-channeler-flavor">Your mentor in the <Link to="/rule/wagons_of_light">Wagons of Light</Link> taught you to hide holy symbols quickly.</Pair>
@@ -1428,7 +1428,7 @@ const _covert_channeler = {title: "Covert Channeler", topLink: ["Faith Traits","
 </Ability>
 </>};
 const _crisis_of_faith = {title: "Crisis of Faith", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
-<Ability id="crisis-of-faith" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="crisis-of-faith" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="crisis-of-faith">Crisis of Faith</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="crisis-of-faith-flavor">You were raised to uphold a specific set of tenets, and you never had reason to doubt their veracity. Recent events, however, have undermined that certainty, and you now find yourself wondering if any of the universal truths you once believed in can actually hold up to scrutiny. Perhaps you witnessed a mentor or church official fall from grace or violate your shared tenets. Maybe you watched a friend injured terribly despite (or because of) her pure faith. Whatever the case, your confidence was shaken.</Pair>
@@ -1438,7 +1438,7 @@ const _crisis_of_faith = {title: "Crisis of Faith", topLink: ["Faith Traits","ma
 </Ability>
 </>};
 const _crusader = {title: "Crusader", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="crusader" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="crusader" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="crusader">Crusader</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="crusader-flavor">From studying "Prime Commander" and reading accounts of the battles in the Worldwound, you have trained to be a crusader against demonic forces.</Pair>
@@ -1446,7 +1446,7 @@ const _crusader = {title: "Crusader", topLink: ["Faith Traits","main/traits_fait
 </Ability>
 </>};
 const _darkest_before_dawn = {title: "Darkest Before Dawn", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="darkest-before-dawn" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="darkest-before-dawn" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="darkest-before-dawn">Darkest Before Dawn</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="darkest-before-dawn-flavor">Your devotion sustains you when others would fall to despair.</Pair>
@@ -1454,7 +1454,7 @@ const _darkest_before_dawn = {title: "Darkest Before Dawn", topLink: ["Faith Tra
 </Ability>
 </>};
 const _deep_faith = {title: "Deep Faith", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
-<Ability id="deep-faith" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="deep-faith" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="deep-faith">Deep Faith</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="deep-faith-flavor">Your deity was born of the depths, and you're a child of such realms.</Pair>
@@ -1462,7 +1462,7 @@ const _deep_faith = {title: "Deep Faith", topLink: ["Faith Traits","main/traits_
 </Ability>
 </>};
 const _defy_madness = {title: "Defy Madness", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="defy-madness" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="defy-madness" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="defy-madness">Defy Madness</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/rule/old_cults">Old Cults</Link></Pair>
@@ -1471,7 +1471,7 @@ const _defy_madness = {title: "Defy Madness", topLink: ["Faith Traits","main/tra
 </Ability>
 </>};
 const _devoted_healer = {title: "Devoted Healer", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="devoted-healer" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="devoted-healer" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="devoted-healer">Devoted Healer</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="devoted-healer-flavor">Raised in the company of skilled healers, you were always encouraged to devote your time and energy to the welfare of others.</Pair>
@@ -1481,7 +1481,7 @@ const _devoted_healer = {title: "Devoted Healer", topLink: ["Faith Traits","main
 </Ability>
 </>};
 const _devotee_of_the_green = {title: "Devotee of the Green", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="devotee-of-the-green" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="devotee-of-the-green" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="devotee-of-the-green">Devotee of the Green</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="devotee-of-the-green-flavor">Your faith in the natural world or one of the gods of nature makes it easy for you to pick up on related concepts.</Pair>
@@ -1489,7 +1489,7 @@ const _devotee_of_the_green = {title: "Devotee of the Green", topLink: ["Faith T
 </Ability>
 </>};
 const _devout_visionary = {title: "Devout Visionary", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
-<Ability id="devout-visionary" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="devout-visionary" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="devout-visionary">Devout Visionary</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="devout-visionary-flavor">As a child, you had a strange vision while suffering from a terrible illness, and only found your way back to the mundane world by following the call of a spiritual leader - perhaps a shaman's drum or a druid's lilting poetry. Since then, you have studied symbolism and dreams in the hope that you might understand your own vision, though your lessons prove just as helpful to others.</Pair>
@@ -1497,7 +1497,7 @@ const _devout_visionary = {title: "Devout Visionary", topLink: ["Faith Traits","
 </Ability>
 </>};
 const _disdainful_defender = {title: "Disdainful Defender", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="disdainful-defender" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="disdainful-defender" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="disdainful-defender">Disdainful Defender</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="disdainful-defender-flavor">You are resistant to the magic of other faiths.</Pair>
@@ -1505,7 +1505,7 @@ const _disdainful_defender = {title: "Disdainful Defender", topLink: ["Faith Tra
 </Ability>
 </>};
 const _divine_confidante = {title: "Divine Confidante", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="divine-confidante" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="divine-confidante" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="divine-confidante">Divine Confidante</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="divine-confidante-flavor">You were inspired with the reverence offered by worshipers to priests and other spiritual leaders, so you assisted them.</Pair>
@@ -1513,7 +1513,7 @@ const _divine_confidante = {title: "Divine Confidante", topLink: ["Faith Traits"
 </Ability>
 </>};
 const _divine_denier = {title: "Divine Denier", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
-<Ability id="divine-denier" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="divine-denier" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="divine-denier">Divine Denier</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="divine-denier-flavor">You can't bring yourself to accept the authority of the gods, even though friends might hound you relentlessly to change your ways. Perhaps you're a Rahadoumi objecting on ideological grounds, or perhaps you just want to be left alone. Your doubt causes you to shrug off divine magic more quickly than others.</Pair>
@@ -1521,7 +1521,7 @@ const _divine_denier = {title: "Divine Denier", topLink: ["Faith Traits","main/t
 </Ability>
 </>};
 const _dogged = {title: "Dogged", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine</Link></p>
-<Ability id="dogged" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="dogged" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="dogged">Dogged</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="dogged-flavor">Drawing inspiration from the Cult of the Failed, you refuse to let setbacks stop you, no matter how disastrous.</Pair>
@@ -1529,7 +1529,7 @@ const _dogged = {title: "Dogged", topLink: ["Faith Traits","main/traits_faith"],
 </Ability>
 </>};
 const _earthbound = {title: "Earthbound", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="earthbound" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="earthbound" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="earthbound">Earthbound</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -1537,7 +1537,7 @@ const _earthbound = {title: "Earthbound", topLink: ["Faith Traits","main/traits_
 </Ability>
 </>};
 const _ease_of_faith = {title: "Ease of Faith", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="ease-of-faith" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="ease-of-faith" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="ease-of-faith">Ease of Faith</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="ease-of-faith-flavor">Your mentor, the person who invested your faith in you from an early age, took steps to ensure you understood that what powers your divine magic is no different from that which powers the magic of other religions. This philosophy makes it easier for you to interact with others who may not share your views.</Pair>
@@ -1545,7 +1545,7 @@ const _ease_of_faith = {title: "Ease of Faith", topLink: ["Faith Traits","main/t
 </Ability>
 </>};
 const _eldritch_smith = {title: "Eldritch Smith", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="eldritch-smith" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="eldritch-smith" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="eldritch-smith">Eldritch Smith</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -1554,7 +1554,7 @@ const _eldritch_smith = {title: "Eldritch Smith", topLink: ["Faith Traits","main
 </Ability>
 </>};
 const _empyreal_pantheon = {title: "Empyreal Pantheon", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/distant_shores">Distant Shores</Link></p>
-<Ability id="empyreal-pantheon" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="empyreal-pantheon" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="empyreal-pantheon">Empyreal Pantheon</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="empyreal-pantheon-flavor">Your faith in the empyreal lords accommodates numerous gods, and you are gifted at adapting their wide variety of focuses and lessons to your own life.</Pair>
@@ -1562,7 +1562,7 @@ const _empyreal_pantheon = {title: "Empyreal Pantheon", topLink: ["Faith Traits"
 </Ability>
 </>};
 const _exalted_of_the_society = {title: "Exalted of the Society", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="exalted-of-the-society" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="exalted-of-the-society" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="exalted-of-the-society">Exalted of the Society</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
@@ -1571,7 +1571,7 @@ const _exalted_of_the_society = {title: "Exalted of the Society", topLink: ["Fai
 </Ability>
 </>};
 const _eye_for_the_wondrous = {title: "Eye for the Wondrous", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2</Link></p>
-<Ability id="eye-for-the-wondrous" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="eye-for-the-wondrous" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="eye-for-the-wondrous">Eye for the Wondrous</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
@@ -1580,7 +1580,7 @@ const _eye_for_the_wondrous = {title: "Eye for the Wondrous", topLink: ["Faith T
 </Ability>
 </>};
 const _faithful_feedback = {title: "Faithful Feedback", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="faithful-feedback" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="faithful-feedback" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="faithful-feedback">Faithful Feedback</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl>Must have a religion</Pair>
@@ -1589,7 +1589,7 @@ const _faithful_feedback = {title: "Faithful Feedback", topLink: ["Faith Traits"
 </Ability>
 </>};
 const _fates_favored = {title: "Fate's Favored", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="fates-favored" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="fates-favored" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="fates-favored">Fate's Favored</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="fates-favored-flavor">The fates watch over you.</Pair>
@@ -1597,7 +1597,7 @@ const _fates_favored = {title: "Fate's Favored", topLink: ["Faith Traits","main/
 </Ability>
 </>};
 const _fearless_defiance = {title: "Fearless Defiance", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="fearless-defiance" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="fearless-defiance" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="fearless-defiance">Fearless Defiance</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="fearless-defiance-flavor">Upon overcoming your fear, you become a scourge to your enemies.</Pair>
@@ -1605,7 +1605,7 @@ const _fearless_defiance = {title: "Fearless Defiance", topLink: ["Faith Traits"
 </Ability>
 </>};
 const _first_memories = {title: "First Memories", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
-<Ability id="first-memories" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="first-memories" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="first-memories">First Memories</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link> with the <em>gnome magic</em> racial trait</Pair>
@@ -1614,7 +1614,7 @@ const _first_memories = {title: "First Memories", topLink: ["Faith Traits","main
 </Ability>
 </>};
 const _focused_disciple = {title: "Focused Disciple", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="focused-disciple" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="focused-disciple" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="focused-disciple">Focused Disciple</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="focused-disciple-flavor">When weaker wills falter, you keep a clear mind.</Pair>
@@ -1622,7 +1622,7 @@ const _focused_disciple = {title: "Focused Disciple", topLink: ["Faith Traits","
 </Ability>
 </>};
 const _godclaw_disciple = {title: "Godclaw Disciple", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight</Link></p>
-<Ability id="godclaw-disciple" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="godclaw-disciple" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="godclaw-disciple">Godclaw Disciple</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="godclaw-disciple-flavor">You worship the amalgamation of lawful deities known as <Link to="/main/faiths_pantheons">the Godclaw</Link>.</Pair>
@@ -1630,7 +1630,7 @@ const _godclaw_disciple = {title: "Godclaw Disciple", topLink: ["Faith Traits","
 </Ability>
 </>};
 const _greater_adept_of_the_society = {title: "Greater Adept of the Society", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="greater-adept-of-the-society" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="greater-adept-of-the-society" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="greater-adept-of-the-society">Greater Adept of the Society</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
@@ -1639,7 +1639,7 @@ const _greater_adept_of_the_society = {title: "Greater Adept of the Society", to
 </Ability>
 </>};
 const _havoc_of_the_society = {title: "Havoc of the Society", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="havoc-of-the-society" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="havoc-of-the-society" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="havoc-of-the-society">Havoc of the Society</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
@@ -1648,7 +1648,7 @@ const _havoc_of_the_society = {title: "Havoc of the Society", topLink: ["Faith T
 </Ability>
 </>};
 const _heedful_readiness = {title: "Heedful Readiness", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="heedful-readiness" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="heedful-readiness" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="heedful-readiness">Heedful Readiness</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="heedful-readiness-flavor">Your years of meditation and mindfulness allow you to act correctly on a moment's notice.</Pair>
@@ -1656,14 +1656,14 @@ const _heedful_readiness = {title: "Heedful Readiness", topLink: ["Faith Traits"
 </Ability>
 </>};
 const _hellknight_inquisitor = {title: "Hellknight Inquisitor", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight</Link></p>
-<Ability id="hellknight-inquisitor" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="hellknight-inquisitor" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="hellknight-inquisitor">Hellknight Inquisitor</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="benefit" id="hellknight-inquisitor-benefit">If you are an inquisitor, you can select any <Link to="/ability/inquisitions">inquisition</Link> associated with your preferred <Link to="/rule/hellknights">Hellknight</Link> order, as long as you and your patron deity are of a lawful alignment. Additionally, you gain a +1 trait bonus on saving throws against spells and effects with the chaos descriptor.</Pair>
 </Ability>
 </>};
 const _heretics_caution = {title: "Heretic's Caution", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine</Link></p>
-<Ability id="heretics-caution" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="heretics-caution" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="heretics-caution">Heretic's Caution</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="heretics-caution-flavor">You were raised in a faith that did not center on a traditional god or that followed a heretical interpretation of a traditional deity. You learned to deflect attention, especially from ecclesiastical figures.</Pair>
@@ -1671,7 +1671,7 @@ const _heretics_caution = {title: "Heretic's Caution", topLink: ["Faith Traits",
 </Ability>
 </>};
 const _hidden_faith = {title: "Hidden Faith", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="hidden-faith" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="hidden-faith" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="hidden-faith">Hidden Faith</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="hidden-faith-flavor">You were raised in a religion forbidden by your government, and draw strength from your hidden faith.</Pair>
@@ -1679,7 +1679,7 @@ const _hidden_faith = {title: "Hidden Faith", topLink: ["Faith Traits","main/tra
 </Ability>
 </>};
 const _history_of_heresy = {title: "History of Heresy", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="history-of-heresy" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="history-of-heresy" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="history-of-heresy">History of Heresy</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="history-of-heresy-flavor">You were raised with heretical views that have made it difficult for you to accept most religious beliefs and often caused you or those you love to be treated as pariahs. As a result, you have turned your back on religious teachings.</Pair>
@@ -1687,7 +1687,7 @@ const _history_of_heresy = {title: "History of Heresy", topLink: ["Faith Traits"
 </Ability>
 </>};
 const _honest = {title: "Honest", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="honest" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="honest" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="honest">Honest</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="honest-flavor">A religious mentor instilled in you a sense of uncompromising integrity. You often speak your mind in defiance of any fear or hatred it might earn you, a habit that inspires others to trust you.</Pair>
@@ -1697,7 +1697,7 @@ const _honest = {title: "Honest", topLink: ["Faith Traits","main/traits_faith"],
 </Ability>
 </>};
 const _imperfect_recall = {title: "Imperfect Recall", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine</Link></p>
-<Ability id="imperfect-recall" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="imperfect-recall" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="imperfect-recall">Imperfect Recall</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="imperfect-recall-flavor">Your belief in reincarnation, as taught by the Sangpotshi philosophy and in lands that were once Imperial Lung Wa, has been reinforced by personal experience. In moments of great stress, you sometimes experience flashes of deja vu in which you recall information you don't remember ever having known.</Pair>
@@ -1705,7 +1705,7 @@ const _imperfect_recall = {title: "Imperfect Recall", topLink: ["Faith Traits","
 </Ability>
 </>};
 const _indomitable_faith = {title: "Indomitable Faith", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="indomitable-faith" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="indomitable-faith" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="indomitable-faith">Indomitable Faith</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="indomitable-faith-flavor">You were born in a region where your faith was not popular, but you still have never abandoned it. Your constant struggle to maintain your own faith has bolstered your drive.</Pair>
@@ -1713,7 +1713,7 @@ const _indomitable_faith = {title: "Indomitable Faith", topLink: ["Faith Traits"
 </Ability>
 </>};
 const _inhabitant_of_illusion = {title: "Inhabitant of Illusion", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court</Link></p>
-<Ability id="inhabitant-of-illusion" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="inhabitant-of-illusion" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="inhabitant-of-illusion">Inhabitant of Illusion</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Region" hl>Kyonin</Pair>
@@ -1723,7 +1723,7 @@ const _inhabitant_of_illusion = {title: "Inhabitant of Illusion", topLink: ["Fai
 </Ability>
 </>};
 const _inspired = {title: "Inspired", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="inspired" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="inspired" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="inspired">Inspired</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="inspired-flavor">A positive force, philosophy, or divine presence fills you with hope, and is a guiding force of inspiration.</Pair>
@@ -1731,7 +1731,7 @@ const _inspired = {title: "Inspired", topLink: ["Faith Traits","main/traits_fait
 </Ability>
 </>};
 const _irrepressible = {title: "Irrepressible", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="irrepressible" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="irrepressible" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="irrepressible">Irrepressible</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="irrepressible-flavor">Your hope for a brighter future blessed by the gods, combined with your powerful personality, allows you to force your way free of spells that cloud the mind.</Pair>
@@ -1741,7 +1741,7 @@ const _irrepressible = {title: "Irrepressible", topLink: ["Faith Traits","main/t
 </Ability>
 </>};
 const _irreverent = {title: "Irreverent", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="irreverent" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="irreverent" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="irreverent">Irreverent</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="irreverent-flavor">You are suspicious of those who lead spiritual lives and are quick to seek out the smallest hypocrisy in even the most pious individuals. Of course, you are also keenly aware of the power the faithful can draw from their worship, and you are stubbornly resistant to it.</Pair>
@@ -1749,7 +1749,7 @@ const _irreverent = {title: "Irreverent", topLink: ["Faith Traits","main/traits_
 </Ability>
 </>};
 const _jinx_eater = {title: "Jinx Eater", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast</Link></p>
-<Ability id="jinx-eater" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="jinx-eater" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="jinx-eater">Jinx Eater</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
@@ -1759,14 +1759,14 @@ const _jinx_eater = {title: "Jinx Eater", topLink: ["Faith Traits","main/traits_
 </Ability>
 </>};
 const _kalistocratic_prophecy = {title: "Kalistocratic Prophecy", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="kalistocratic-prophecy" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="kalistocratic-prophecy" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="kalistocratic-prophecy">Kalistocratic Prophecy</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="benefit" id="kalistocratic-prophecy-benefit">You were raised under the <Link to="/rule/prophecies_of_kalistrade">Prophecies of Kalistrade</Link>, and were inspired to seize upon an untapped business opportunity. Up to once per week, when you work to advance this opportunity with at least 1 day of effort, you can attempt an appropriate <Link to="/skill/profession">Profession</Link> check to <Link to="/rule/gaining_capital">earn money or gain capital</Link> using the downtime rules with a +2 trait bonus. In the event of a failed check, your opportunity is discovered by rivals and you cannot employ this trait for 1 month while you look for a new opportunity.</Pair>
 </Ability>
 </>};
 const _light_in_the_darkness = {title: "Light in the Darkness", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
-<Ability id="light-in-the-darkness" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="light-in-the-darkness" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="light-in-the-darkness">Light in the Darkness</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="light-in-the-darkness-flavor">You're destined to bring light to the darkness and expunge the faithless from the deep.</Pair>
@@ -1774,7 +1774,7 @@ const _light_in_the_darkness = {title: "Light in the Darkness", topLink: ["Faith
 </Ability>
 </>};
 const _loyalty_across_lifetimes = {title: "Loyalty across Lifetimes", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="loyalty-across-lifetimes" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="loyalty-across-lifetimes" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="loyalty-across-lifetimes">Loyalty across Lifetimes</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="loyalty-across-lifetimes-flavor">You and your eidolon share a link that seems to span multiple lifetimes.</Pair>
@@ -1782,7 +1782,7 @@ const _loyalty_across_lifetimes = {title: "Loyalty across Lifetimes", topLink: [
 </Ability>
 </>};
 const _lucid_dreamer = {title: "Lucid Dreamer", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="lucid-dreamer" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="lucid-dreamer" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="lucid-dreamer">Lucid Dreamer</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl>Varisian wanderers or Wonderseekers</Pair>
@@ -1791,7 +1791,7 @@ const _lucid_dreamer = {title: "Lucid Dreamer", topLink: ["Faith Traits","main/t
 </Ability>
 </>};
 const _martial_manuscript = {title: "Martial Manuscript", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="martial-manuscript" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="martial-manuscript" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="martial-manuscript">Martial Manuscript</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="martial-manuscript-flavor">You either carry or have memorized a sacred text from your school, temple, or monastery, and its wisdom gives you insight that makes your attacks more devastating.</Pair>
@@ -1799,7 +1799,7 @@ const _martial_manuscript = {title: "Martial Manuscript", topLink: ["Faith Trait
 </Ability>
 </>};
 const _masked = {title: "Masked", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="masked" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="masked" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="masked">Masked</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="masked-flavor">You learned from "Prime Conspirator" that keeping secrets often means hiding your true identity.</Pair>
@@ -1807,14 +1807,14 @@ const _masked = {title: "Masked", topLink: ["Faith Traits","main/traits_faith"],
 </Ability>
 </>};
 const _meditative_rest = {title: "Meditative Rest", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="meditative-rest" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="meditative-rest" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="meditative-rest">Meditative Rest</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="benefit" id="meditative-rest-benefit">When you rest, you ignore the first time you are interrupted during that rest for the purposes of determining how long you need to rest in full to regain the capacity to regain spells, provided the interruption lasts no more than 15 minutes. If you cast spells during this interruption, you don't count these against your daily limit of spells when you wake and prepare spells.</Pair>
 </Ability>
 </>};
 const _monastic = {title: "Monastic", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
-<Ability id="monastic" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="monastic" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="monastic">Monastic</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="monastic-flavor">Either your parents sent you to be raised in a monastery, or you traveled there yourself later in life in order to escape the conflict and distractions of the greater world. There you learned to eschew the material concerns that plague so many and cloud their minds, instead embracing an ascetic lifestyle. You readily let go and step away from trouble, free from any tie or baggage that might slow your path to enlightenment - figuratively or literally.</Pair>
@@ -1822,7 +1822,7 @@ const _monastic = {title: "Monastic", topLink: ["Faith Traits","main/traits_fait
 </Ability>
 </>};
 const _mystery_initiate = {title: "Mystery Initiate", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="mystery-initiate" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="mystery-initiate" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="mystery-initiate">Mystery Initiate</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="mystery-initiate-flavor">You were initiated into a mystery cult in your youth, and learned secrets that turned your understanding of your faith and the world on its head. This experience has given you a knack for lateral thinking.</Pair>
@@ -1832,7 +1832,7 @@ const _mystery_initiate = {title: "Mystery Initiate", topLink: ["Faith Traits","
 </Ability>
 </>};
 const _natural_ritualist = {title: "Natural Ritualist", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine</Link></p>
-<Ability id="natural-ritualist" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="natural-ritualist" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="natural-ritualist">Natural Ritualist</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="natural-ritualist-flavor">You venerate nature, either by paying homage to your Shoanti totem spirit or by appeasing the <Link to="/family/kami">kami</Link> around you in accordance with Tamashigo. In return, the spirits bless your path.</Pair>
@@ -1840,7 +1840,7 @@ const _natural_ritualist = {title: "Natural Ritualist", topLink: ["Faith Traits"
 </Ability>
 </>};
 const _naturally_gifted = {title: "Naturally Gifted", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
-<Ability id="naturally-gifted" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="naturally-gifted" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="naturally-gifted">Naturally Gifted</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link> with the <em>gnome magic</em> racial trait</Pair>
@@ -1849,7 +1849,7 @@ const _naturally_gifted = {title: "Naturally Gifted", topLink: ["Faith Traits","
 </Ability>
 </>};
 const _nature_worshiper = {title: "Nature Worshiper", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
-<Ability id="nature-worshiper" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="nature-worshiper" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="nature-worshiper">Nature Worshiper</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="nature-worshiper-flavor">When you were young, you saw a dead creature's body fertilize a field. Witnessing the connection between life and death moved you to recognize your own connection with the world, and ever since you have revered nature and feared death less.</Pair>
@@ -1857,7 +1857,7 @@ const _nature_worshiper = {title: "Nature Worshiper", topLink: ["Faith Traits","
 </Ability>
 </>};
 const _necrotic_aura = {title: "Necrotic Aura", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="necrotic-aura" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="necrotic-aura" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="necrotic-aura">Necrotic Aura</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/rule/whispering_way">Whispering Way</Link></Pair>
@@ -1866,7 +1866,7 @@ const _necrotic_aura = {title: "Necrotic Aura", topLink: ["Faith Traits","main/t
 </Ability>
 </>};
 const _oathbound = {title: "Oathbound", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="oathbound" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="oathbound" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="oathbound">Oathbound</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="oathbound-flavor">You have made a solemn oath, and you pursue that oath with headstrong determination.</Pair>
@@ -1874,7 +1874,7 @@ const _oathbound = {title: "Oathbound", topLink: ["Faith Traits","main/traits_fa
 </Ability>
 </>};
 const _omen = {title: "Omen", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="omen" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="omen" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="omen">Omen</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="omen-flavor">You are the harbinger of some future event. Whether this event bodes good or ill, you exude an ominous presence.</Pair>
@@ -1882,7 +1882,7 @@ const _omen = {title: "Omen", topLink: ["Faith Traits","main/traits_faith"], jsx
 </Ability>
 </>};
 const _pact_servant = {title: "Pact Servant", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/distant_shores">Distant Shores</Link></p>
-<Ability id="pact-servant" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="pact-servant" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="pact-servant">Pact Servant</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="pact-servant-flavor">The faith of Holomog focuses on finding the good in unusual places and appreciating the nuances of virtue in the world.</Pair>
@@ -1890,7 +1890,7 @@ const _pact_servant = {title: "Pact Servant", topLink: ["Faith Traits","main/tra
 </Ability>
 </>};
 const _patient_calm = {title: "Patient Calm", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="patient-calm" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="patient-calm" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="patient-calm">Patient Calm</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="patient-calm-flavor">As a child, you struggled to suppress a sharp temper, but the care and patient respect of a trusted community leader rubbed off on you. As you grew older, you developed a remarkable ability to keep calm and collected when performing a task you are familiar with.</Pair>
@@ -1900,7 +1900,7 @@ const _patient_calm = {title: "Patient Calm", topLink: ["Faith Traits","main/tra
 </Ability>
 </>};
 const _perpetual_companion = {title: "Perpetual Companion", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="perpetual-companion" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="perpetual-companion" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="perpetual-companion">Perpetual Companion</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="perpetual-companion-flavor">You are bolstered against fear when your eidolon is near.</Pair>
@@ -1908,7 +1908,7 @@ const _perpetual_companion = {title: "Perpetual Companion", topLink: ["Faith Tra
 </Ability>
 </>};
 const _persuasive_insight = {title: "Persuasive Insight", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="persuasive-insight" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="persuasive-insight" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="persuasive-insight">Persuasive Insight</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="persuasive-insight-flavor">You were converted to your faith or taught to bargain with spirits for magic by a figure of inspiring insight who taught you to use keen observation in all dealings.</Pair>
@@ -1916,7 +1916,7 @@ const _persuasive_insight = {title: "Persuasive Insight", topLink: ["Faith Trait
 </Ability>
 </>};
 const _planar_savant = {title: "Planar Savant", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="planar-savant" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="planar-savant" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="planar-savant">Planar Savant</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="planar-savant-flavor">You have always had an innate sense of the workings of the planes and their denizens.</Pair>
@@ -1924,7 +1924,7 @@ const _planar_savant = {title: "Planar Savant", topLink: ["Faith Traits","main/t
 </Ability>
 </>};
 const _priest_blessed = {title: "Priest-Blessed", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
-<Ability id="priest-blessed" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="priest-blessed" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="priest-blessed">Priest-Blessed</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="priest-blessed-flavor">You were guided to maturity by a trusted priest of an ecclesiastical tradition, who inspired you and made you understand that the authority exerted by a religious hierarchy is a blessing rather than a restriction, allowing the faithful to always feel confident in their direction and the righteousness of the guided actions. Now, your faith wells up whenever you are aided by divine magic, and you find it easy to open up to the magic and succor of any faith, seeing the similarities between all such traditions.</Pair>
@@ -1932,7 +1932,7 @@ const _priest_blessed = {title: "Priest-Blessed", topLink: ["Faith Traits","main
 </Ability>
 </>};
 const _principled = {title: "Principled", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="principled" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="principled" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="principled">Principled</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="principled-flavor">You hold yourself to a strict code of behavior that guides all of your decisions and actions.</Pair>
@@ -1940,7 +1940,7 @@ const _principled = {title: "Principled", topLink: ["Faith Traits","main/traits_
 </Ability>
 </>};
 const _prophesied = {title: "Prophesied", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="prophesied" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="prophesied" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="prophesied">Prophesied</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="prophesied-flavor">Your coming was foretold in prophecy, and people familiar with your legend regard you with awe and fear.</Pair>
@@ -1948,7 +1948,7 @@ const _prophesied = {title: "Prophesied", topLink: ["Faith Traits","main/traits_
 </Ability>
 </>};
 const _proxy_of_many = {title: "Proxy of Many", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
-<Ability id="proxy-of-many" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="proxy-of-many" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="proxy-of-many">Proxy of Many</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="proxy-of-many-flavor">As a pantheist, you are accustomed to calling on aid from a variety of sources, and have a pragmatic sense for how to best make use of any ally.</Pair>
@@ -1956,7 +1956,7 @@ const _proxy_of_many = {title: "Proxy of Many", topLink: ["Faith Traits","main/t
 </Ability>
 </>};
 const _rebuke_the_curse = {title: "Rebuke the Curse", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="rebuke-the-curse" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="rebuke-the-curse" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="rebuke-the-curse">Rebuke the Curse</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="benefit" id="rebuke-the-curse-benefit"><p>Once per day, you can attempt to suppress the effects of a curse on a single creature with a touch. This functions as a <Link to="/spell/remove_curse">remove curse</Link> spell, treating your character level as your caster level. If you succeed at your caster level check against the curse, the curse's effects are negated for 1 minute.</p>
@@ -1965,7 +1965,7 @@ const _rebuke_the_curse = {title: "Rebuke the Curse", topLink: ["Faith Traits","
 </Ability>
 </>};
 const _redeemer = {title: "Redeemer", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
-<Ability id="redeemer" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="redeemer" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="redeemer">Redeemer</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="redeemer-flavor">You've always held the strong belief that morality is everyone's choice, and that those who act in wicked ways have simply never been shown how their actions truly affect others. If they could be shown their errors, then they would accept a more positive course of action - and you have just enough patience to see this through.</Pair>
@@ -1973,7 +1973,7 @@ const _redeemer = {title: "Redeemer", topLink: ["Faith Traits","main/traits_fait
 </Ability>
 </>};
 const _reincarnated = {title: "Reincarnated", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="reincarnated" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="reincarnated" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="reincarnated">Reincarnated</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="reincarnated-flavor">You lived a previous life as someone - or something - else. For you, life and death are a cycle, and you have no fear of death.</Pair>
@@ -1981,7 +1981,7 @@ const _reincarnated = {title: "Reincarnated", topLink: ["Faith Traits","main/tra
 </Ability>
 </>};
 const _religious_reformer = {title: "Religious Reformer", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
-<Ability id="religious-reformer" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="religious-reformer" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="religious-reformer">Religious Reformer</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="religious-reformer-flavor">You have spent many years studying the tenets of your faith, and now believe that the dominant factions within the church have deviated from its true meaning and purpose. Rather than breaking with your misguided church, you've decided to stand up and fight to reform the organization you love. You have fervently studied scripture and steeled your will to combat the divergent beliefs of your peers.</Pair>
@@ -1989,7 +1989,7 @@ const _religious_reformer = {title: "Religious Reformer", topLink: ["Faith Trait
 </Ability>
 </>};
 const _river_acumen = {title: "River Acumen", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="river-acumen" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="river-acumen" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="river-acumen">River Acumen</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="river-acumen-flavor">Your connection with the river and its tributaries has blended with your reverence for the gods of the river passages so much so that you seem divinely blessed while plying river waters.</Pair>
@@ -1997,7 +1997,7 @@ const _river_acumen = {title: "River Acumen", topLink: ["Faith Traits","main/tra
 </Ability>
 </>};
 const _sacred_conduit = {title: "Sacred Conduit", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="sacred-conduit" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="sacred-conduit" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="sacred-conduit">Sacred Conduit</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="sacred-conduit-flavor">Your birth was particularly painful and difficult for your mother, who needed potent divine magic to ensure that you survived (your mother may or may not have survived). In any event, that magic infused you from an early age, and you now channel divine energy with greater ease than most.</Pair>
@@ -2005,7 +2005,7 @@ const _sacred_conduit = {title: "Sacred Conduit", topLink: ["Faith Traits","main
 </Ability>
 </>};
 const _sacred_touch = {title: "Sacred Touch", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="sacred-touch" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="sacred-touch" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="sacred-touch">Sacred Touch</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="sacred-touch-flavor">You were exposed to a potent source of positive energy as a child, perhaps by being born under the right cosmic sign, or maybe because one of your parents was a gifted healer.</Pair>
@@ -2013,7 +2013,7 @@ const _sacred_touch = {title: "Sacred Touch", topLink: ["Faith Traits","main/tra
 </Ability>
 </>};
 const _scholar_of_the_great_beyond = {title: "Scholar of the Great Beyond", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="scholar-of-the-great-beyond" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="scholar-of-the-great-beyond" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="scholar-of-the-great-beyond">Scholar of the Great Beyond</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="scholar-of-the-great-beyond-flavor">Your greatest interests as a child did not lie with current events or the mundane; you have always felt out of place, as if you were born in the wrong era. You take to philosophical discussions of the Great Beyond and of historical events with ease.</Pair>
@@ -2021,7 +2021,7 @@ const _scholar_of_the_great_beyond = {title: "Scholar of the Great Beyond", topL
 </Ability>
 </>};
 const _schooled_inquisitor = {title: "Schooled Inquisitor", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="schooled-inquisitor" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="schooled-inquisitor" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="schooled-inquisitor">Schooled Inquisitor</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="schooled-inquisitor-flavor">Your additional training aids in identifying the wiles of your faith's enemies.</Pair>
@@ -2029,7 +2029,7 @@ const _schooled_inquisitor = {title: "Schooled Inquisitor", topLink: ["Faith Tra
 </Ability>
 </>};
 const _scourge_of_the_darkness = {title: "Scourge of the Darkness", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
-<Ability id="scourge-of-the-darkness" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="scourge-of-the-darkness" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="scourge-of-the-darkness">Scourge of the Darkness</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="scourge-of-the-darkness-flavor">Stories of the depredations present in the Darklands drive you to explore its shadowy depths and purge the corruption from within.</Pair>
@@ -2037,7 +2037,7 @@ const _scourge_of_the_darkness = {title: "Scourge of the Darkness", topLink: ["F
 </Ability>
 </>};
 const _second_tongue = {title: "Second Tongue", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="second-tongue" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="second-tongue" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="second-tongue">Second Tongue</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/rule/old_cults">Old Cults</Link></Pair>
@@ -2046,7 +2046,7 @@ const _second_tongue = {title: "Second Tongue", topLink: ["Faith Traits","main/t
 </Ability>
 </>};
 const _secret_keeper = {title: "Secret Keeper", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="secret-keeper" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="secret-keeper" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="secret-keeper">Secret Keeper</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="secret-keeper-flavor">Avoiding inquisitors and agents of your enemies has required you to become a practiced liar.</Pair>
@@ -2054,7 +2054,7 @@ const _secret_keeper = {title: "Secret Keeper", topLink: ["Faith Traits","main/t
 </Ability>
 </>};
 const _self_actualization = {title: "Self-Actualization", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
-<Ability id="self-actualization" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="self-actualization" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="self-actualization">Self-Actualization</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="self-actualization-flavor">Inspired by stories of mortals ascending to godhood, you're certain that you can do the same, and do all you can to hone your talents and reach your utmost potential.</Pair>
@@ -2062,7 +2062,7 @@ const _self_actualization = {title: "Self-Actualization", topLink: ["Faith Trait
 </Ability>
 </>};
 const _self_sustaining = {title: "Self-Sustaining", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine</Link></p>
-<Ability id="self-sustaining" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="self-sustaining" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="self-sustaining">Self-Sustaining</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl>See text</Pair>
@@ -2071,7 +2071,7 @@ const _self_sustaining = {title: "Self-Sustaining", topLink: ["Faith Traits","ma
 </Ability>
 </>};
 const _soul_searchers_strength = {title: "Soul-Searcher's Strength", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
-<Ability id="soul-searchers-strength" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="soul-searchers-strength" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="soul-searchers-strength">Soul-Searcher's Strength</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl>Must follow the traditions of the <Link to="/rule/rivethun">Rivethun</Link></Pair>
@@ -2080,7 +2080,7 @@ const _soul_searchers_strength = {title: "Soul-Searcher's Strength", topLink: ["
 </Ability>
 </>};
 const _spell_intuition = {title: "Spell Intuition", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="spell-intuition" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="spell-intuition" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="spell-intuition">Spell Intuition</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="spell-intuition-flavor">Blessed by a priest of a deity of magic at birth, you demonstrated a remarkable knack for guessing the nature of spells without the schooling of your instructors.</Pair>
@@ -2090,7 +2090,7 @@ const _spell_intuition = {title: "Spell Intuition", topLink: ["Faith Traits","ma
 </Ability>
 </>};
 const _spirit_sense = {title: "Spirit Sense", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="spirit-sense" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="spirit-sense" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="spirit-sense">Spirit Sense</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="spirit-sense-flavor">You are so attuned to the spiritual world that it is hard to get the jump on you.</Pair>
@@ -2098,7 +2098,7 @@ const _spirit_sense = {title: "Spirit Sense", topLink: ["Faith Traits","main/tra
 </Ability>
 </>};
 const _st_clydwells_ward = {title: "St. Clydwell's Ward", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="st-clydwells-ward" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="st-clydwells-ward" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="st-clydwells-ward">St. Clydwell's Ward</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl>Mendev Crusaders</Pair>
@@ -2107,7 +2107,7 @@ const _st_clydwells_ward = {title: "St. Clydwell's Ward", topLink: ["Faith Trait
 </Ability>
 </>};
 const _stalwart_of_the_society = {title: "Stalwart of the Society", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="stalwart-of-the-society" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="stalwart-of-the-society" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="stalwart-of-the-society">Stalwart of the Society</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
@@ -2116,7 +2116,7 @@ const _stalwart_of_the_society = {title: "Stalwart of the Society", topLink: ["F
 </Ability>
 </>};
 const _strength_of_submission = {title: "Strength of Submission", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="strength-of-submission" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="strength-of-submission" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="strength-of-submission">Strength of Submission</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="strength-of-submission-flavor">Your faith in the church of Razmir and willingness to surrender yourself to him lend you strength and clarity.</Pair>
@@ -2124,7 +2124,7 @@ const _strength_of_submission = {title: "Strength of Submission", topLink: ["Fai
 </Ability>
 </>};
 const _strength_of_the_land = {title: "Strength of the Land", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="strength-of-the-land" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="strength-of-the-land" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="strength-of-the-land">Strength of the Land</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -2133,7 +2133,7 @@ const _strength_of_the_land = {title: "Strength of the Land", topLink: ["Faith T
 </Ability>
 </>};
 const _student_of_history = {title: "Student of History", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="student-of-history" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="student-of-history" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="student-of-history">Student of History</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="student-of-history-flavor">One can move toward enlightenment by understanding the mistakes of past generations.</Pair>
@@ -2141,7 +2141,7 @@ const _student_of_history = {title: "Student of History", topLink: ["Faith Trait
 </Ability>
 </>};
 const _tar_baphons_whisper = {title: "Tar-Baphon's Whisper", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="tar-baphons-whisper" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="tar-baphons-whisper" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="tar-baphons-whisper">Tar-Baphon's Whisper</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/rule/whispering_way">Whispering Way</Link></Pair>
@@ -2150,7 +2150,7 @@ const _tar_baphons_whisper = {title: "Tar-Baphon's Whisper", topLink: ["Faith Tr
 </Ability>
 </>};
 const _tireless_avenger = {title: "Tireless Avenger", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="tireless-avenger" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="tireless-avenger" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="tireless-avenger">Tireless Avenger</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="tireless-avenger-flavor">You restlessly pursue your enemies.</Pair>
@@ -2158,7 +2158,7 @@ const _tireless_avenger = {title: "Tireless Avenger", topLink: ["Faith Traits","
 </Ability>
 </>};
 const _totemist = {title: "Totemist", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
-<Ability id="totemist" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="totemist" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="totemist">Totemist</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="totemist-flavor">You grew up in a culture where the touch of totem spirits was felt in everyday life, their subtle urgings constantly guiding you and keeping you safe. As a result, you learned quickly to ask for their help when trouble arises.</Pair>
@@ -2166,7 +2166,7 @@ const _totemist = {title: "Totemist", topLink: ["Faith Traits","main/traits_fait
 </Ability>
 </>};
 const _traditionalist = {title: "Traditionalist", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link>, <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
-<Ability id="traditionalist" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="traditionalist" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="traditionalist">Traditionalist</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="traditionalist-flavor">You attempt to maintain older traditions despite changing social norms, and find great value in the trappings and codes of the aristocracy.</Pair>
@@ -2174,7 +2174,7 @@ const _traditionalist = {title: "Traditionalist", topLink: ["Faith Traits","main
 </Ability>
 </>};
 const _trickster_gnome = {title: "Trickster (Gnome)", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
-<Ability id="trickster-gnome" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="trickster-gnome" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="trickster-gnome">Trickster (Gnome)</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -2183,7 +2183,7 @@ const _trickster_gnome = {title: "Trickster (Gnome)", topLink: ["Faith Traits","
 </Ability>
 </>};
 const _two_world_magic = {title: "Two-World Magic", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
-<Ability id="two-world-magic" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="two-world-magic" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="two-world-magic">Two-World Magic</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Region" hl>Sargava</Pair>
@@ -2192,7 +2192,7 @@ const _two_world_magic = {title: "Two-World Magic", topLink: ["Faith Traits","ma
 </Ability>
 </>};
 const _undaunted = {title: "Undaunted", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="undaunted" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="undaunted" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="undaunted">Undaunted</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="undaunted-flavor">Following the path of freedom has resulted in you being threatened by ruffians and bullies throughout your childhood, and it now takes a lot to rattle you.</Pair>
@@ -2200,7 +2200,7 @@ const _undaunted = {title: "Undaunted", topLink: ["Faith Traits","main/traits_fa
 </Ability>
 </>};
 const _unnatural_presence = {title: "Unnatural Presence", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="unnatural-presence" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="unnatural-presence" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="unnatural-presence">Unnatural Presence</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/rule/old_cults">Old Cults</Link></Pair>
@@ -2209,7 +2209,7 @@ const _unnatural_presence = {title: "Unnatural Presence", topLink: ["Faith Trait
 </Ability>
 </>};
 const _unshackled = {title: "Unshackled", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="unshackled" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="unshackled" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="unshackled">Unshackled</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="unshackled-flavor">You have escaped slavery or other imprisonment and have vowed never to be shackled again.</Pair>
@@ -2217,7 +2217,7 @@ const _unshackled = {title: "Unshackled", topLink: ["Faith Traits","main/traits_
 </Ability>
 </>};
 const _untrained_scholar = {title: "Untrained Scholar", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
-<Ability id="untrained-scholar" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="untrained-scholar" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="untrained-scholar">Untrained Scholar</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="untrained-scholar-flavor">While scholarship is not your primary focus, you have spent enough time in classrooms and libraries to learn a few things.</Pair>
@@ -2225,7 +2225,7 @@ const _untrained_scholar = {title: "Untrained Scholar", topLink: ["Faith Traits"
 </Ability>
 </>};
 const _urban_acolyte = {title: "Urban Acolyte", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
-<Ability id="urban-acolyte" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="urban-acolyte" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="urban-acolyte">Urban Acolyte</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="urban-acolyte-flavor">Growing up in a city has broadened your philosophy, and helped you interpret your patron's divine will in a novel way.</Pair>
@@ -2233,7 +2233,7 @@ const _urban_acolyte = {title: "Urban Acolyte", topLink: ["Faith Traits","main/t
 </Ability>
 </>};
 const _vile_domain = {title: "Vile Domain", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link></p>
-<Ability id="vile-domain" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="vile-domain" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="vile-domain">Vile Domain</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="vile-domain-flavor">Your connection with a malignant force has granted you great power.</Pair>
@@ -2241,7 +2241,7 @@ const _vile_domain = {title: "Vile Domain", topLink: ["Faith Traits","main/trait
 </Ability>
 </>};
 const _wanderers_shroud = {title: "Wanderer's Shroud", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="wanderers-shroud" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="wanderers-shroud" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="wanderers-shroud">Wanderer's Shroud</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="wanderers-shroud-flavor">Your wanderings often go unnoticed.</Pair>
@@ -2249,7 +2249,7 @@ const _wanderers_shroud = {title: "Wanderer's Shroud", topLink: ["Faith Traits",
 </Ability>
 </>};
 const _wendifa_apprentice = {title: "Wendifa Apprentice", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
-<Ability id="wendifa-apprentice" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="wendifa-apprentice" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="wendifa-apprentice">Wendifa Apprentice</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="wendifa-apprentice-flavor">For a time during your childhood, you were left in the care of a juju oracle or wendifa, who saw your potential and taught you simple juju magic to influence the weakminded for brief periods of time.</Pair>
@@ -2257,7 +2257,7 @@ const _wendifa_apprentice = {title: "Wendifa Apprentice", topLink: ["Faith Trait
 </Ability>
 </>};
 const _zealot = {title: "Zealot", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
-<Ability id="zealot" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="zealot" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="zealot">Zealot</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link>, you must match the alignment of your chosen deity exactly</Pair>
@@ -2266,7 +2266,7 @@ const _zealot = {title: "Zealot", topLink: ["Faith Traits","main/traits_faith"],
 </Ability>
 </>};
 const _zealots_bearing = {title: "Zealot's Bearing", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
-<Ability id="zealots-bearing" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="zealots-bearing" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="zealots-bearing">Zealot's Bearing</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="zealots-bearing-flavor">Your fiery passion for your faith or philosophy is obvious to everyone around you. Those who share your convictions automatically find themselves wanting to defer to your zealous authority, making you a natural leader of your faith. Unfortunately, your scorn for those who haven't yet seen the wisdom of converting is equally obvious, and makes you a poor ambassador or missionary to the "ignorant masses" (as you not-so secretly think of them).</Pair>
@@ -2274,7 +2274,7 @@ const _zealots_bearing = {title: "Zealot's Bearing", topLink: ["Faith Traits","m
 </Ability>
 </>};
 const _zealous_striker = {title: "Zealous Striker", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="zealous-striker" extraClasses="trait" icon={["bolt-eye"]}>
+<Ability id="zealous-striker" extraClasses="trait" icon={["Faith"]}>
 <Pair single id="zealous-striker">Zealous Striker</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="zealous-striker-flavor">Your zeal is a danger to those of "lesser" faiths.</Pair>
@@ -2282,7 +2282,7 @@ const _zealous_striker = {title: "Zealous Striker", topLink: ["Faith Traits","ma
 </Ability>
 </>};
 const _acrobat = {title: "Acrobat", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="acrobat" extraClasses="trait" icon={["village"]}>
+<Ability id="acrobat" extraClasses="trait" icon={["Social"]}>
 <Pair single id="acrobat">Acrobat</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="acrobat-flavor">Having trained from a young age, you're capable of amazing feats of daring.</Pair>
@@ -2290,14 +2290,14 @@ const _acrobat = {title: "Acrobat", topLink: ["Social Traits","main/traits_socia
 </Ability>
 </>};
 const _adopted = {title: "Adopted", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="adopted" extraClasses="trait" icon={["village"]}>
+<Ability id="adopted" extraClasses="trait" icon={["Social"]}>
 <Pair single id="adopted">Adopted</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="benefit" id="adopted-benefit">You were adopted and raised by someone not of your race, and raised in a society not your own. As a result, you picked up a race trait from your adoptive parents and society, and may immediately select a <Link to="/main/traits_race">race trait</Link> from your adoptive parents' race.</Pair>
 </Ability>
 </>};
 const _affable = {title: "Affable", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
-<Ability id="affable" extraClasses="trait" icon={["village"]}>
+<Ability id="affable" extraClasses="trait" icon={["Social"]}>
 <Pair single id="affable">Affable</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="affable-flavor">You have a genial personality and make it a point to befriend and help people wherever you go. In your travels, you stop to aid others, tell interesting stories, and often buy rounds of drinks for patrons at the local taverns. You bring good cheer to those you encounter, and for this reason, you often find yourself attending important events or fruitful gatherings, and have even become an honorary member of many families. People find you trustworthy, and they are willing to share information with you.</Pair>
@@ -2305,7 +2305,7 @@ const _affable = {title: "Affable", topLink: ["Social Traits","main/traits_socia
 </Ability>
 </>};
 const _allies_in_the_deep = {title: "Allies in the Deep", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
-<Ability id="allies-in-the-deep" extraClasses="trait" icon={["village"]}>
+<Ability id="allies-in-the-deep" extraClasses="trait" icon={["Social"]}>
 <Pair single id="allies-in-the-deep">Allies in the Deep</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="allies-in-the-deep-flavor">You've learned to deal amicably with individuals of questionable morals when necessary.</Pair>
@@ -2313,7 +2313,7 @@ const _allies_in_the_deep = {title: "Allies in the Deep", topLink: ["Social Trai
 </Ability>
 </>};
 const _ambitious = {title: "Ambitious", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="ambitious" extraClasses="trait" icon={["village"]}>
+<Ability id="ambitious" extraClasses="trait" icon={["Social"]}>
 <Pair single id="ambitious">Ambitious</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="ambitious-flavor">You exude confidence in the presence of those more powerful than you - sometimes unreasonably so.</Pair>
@@ -2321,7 +2321,7 @@ const _ambitious = {title: "Ambitious", topLink: ["Social Traits","main/traits_s
 </Ability>
 </>};
 const _amiable_blunder = {title: "Amiable Blunder", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance</Link></p>
-<Ability id="amiable-blunder" extraClasses="trait" icon={["village"]}>
+<Ability id="amiable-blunder" extraClasses="trait" icon={["Social"]}>
 <Pair single id="amiable-blunder">Amiable Blunder</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="amiable-blunder-flavor">Your easy-going demeanor allows you to sometimes recover from potentially awkward social situations or even condemnatory faux pas.</Pair>
@@ -2329,7 +2329,7 @@ const _amiable_blunder = {title: "Amiable Blunder", topLink: ["Social Traits","m
 </Ability>
 </>};
 const _amiable_briber = {title: "Amiable Briber", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2</Link></p>
-<Ability id="amiable-briber" extraClasses="trait" icon={["village"]}>
+<Ability id="amiable-briber" extraClasses="trait" icon={["Social"]}>
 <Pair single id="amiable-briber">Amiable Briber</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Region" hl>Absalom</Pair>
@@ -2338,7 +2338,7 @@ const _amiable_briber = {title: "Amiable Briber", topLink: ["Social Traits","mai
 </Ability>
 </>};
 const _ancestral_armor = {title: "Ancestral Armor", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 31</Link></p>
-<Ability id="ancestral-armor" extraClasses="trait" icon={["village"]}>
+<Ability id="ancestral-armor" extraClasses="trait" icon={["Social"]}>
 <Pair single id="ancestral-armor">Ancestral Armor</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="ancestral-armor-flavor">You inherited an ancient set of Tar Taargadth armor.</Pair>
@@ -2346,7 +2346,7 @@ const _ancestral_armor = {title: "Ancestral Armor", topLink: ["Social Traits","m
 </Ability>
 </>};
 const _arodenite_historian = {title: "Arodenite Historian", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology</Link></p>
-<Ability id="arodenite-historian" extraClasses="trait" icon={["village"]}>
+<Ability id="arodenite-historian" extraClasses="trait" icon={["Social"]}>
 <Pair single id="arodenite-historian">Arodenite Historian</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="arodenite-historian-flavor">You believe there is much useful information to glean from the mark Aroden left on history, and learn all you can about his exploits and teachings. This has given you significant insights on how different kinds of information are interconnected.</Pair>
@@ -2354,7 +2354,7 @@ const _arodenite_historian = {title: "Arodenite Historian", topLink: ["Social Tr
 </Ability>
 </>};
 const _artisan = {title: "Artisan", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="artisan" extraClasses="trait" icon={["village"]}>
+<Ability id="artisan" extraClasses="trait" icon={["Social"]}>
 <Pair single id="artisan">Artisan</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="artisan-flavor">You spent time working under artisans, or your parents were artisans who were particularly skilled at their trade.</Pair>
@@ -2362,7 +2362,7 @@ const _artisan = {title: "Artisan", topLink: ["Social Traits","main/traits_socia
 </Ability>
 </>};
 const _avid_reader = {title: "Avid Reader", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="avid-reader" extraClasses="trait" icon={["village"]}>
+<Ability id="avid-reader" extraClasses="trait" icon={["Social"]}>
 <Pair single id="avid-reader">Avid Reader</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="avid-reader-flavor">As a youth, you voraciously consumed books and scrolls provided by a member of an adventurer's guild or a learned organization like the <Link to="/rule/pathfinder_society">Pathfinder Society</Link>, and you have internalized these stories of bold adventurers.</Pair>
@@ -2372,7 +2372,7 @@ const _avid_reader = {title: "Avid Reader", topLink: ["Social Traits","main/trai
 </Ability>
 </>};
 const _balanced_determination = {title: "Balanced Determination", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
-<Ability id="balanced-determination" extraClasses="trait" icon={["village"]}>
+<Ability id="balanced-determination" extraClasses="trait" icon={["Social"]}>
 <Pair single id="balanced-determination">Balanced Determination</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="balanced-determination-flavor">You've come to appreciate the balanced approach taken by sovereign dragons.</Pair>
@@ -2380,7 +2380,7 @@ const _balanced_determination = {title: "Balanced Determination", topLink: ["Soc
 </Ability>
 </>};
 const _bastard_uc = {title: "Bastard (UC)", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="bastard-uc" extraClasses="trait" icon={["village"]}>
+<Ability id="bastard-uc" extraClasses="trait" icon={["Social"]}>
 <Pair single id="bastard-uc">Bastard (UC)</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="bastard-uc-flavor">You were born out of wedlock. You have always been an outsider in society, and in your own family. This perspective has sharpened your insight.</Pair>
@@ -2388,7 +2388,7 @@ const _bastard_uc = {title: "Bastard (UC)", topLink: ["Social Traits","main/trai
 </Ability>
 </>};
 const _beast_bond = {title: "Beast Bond", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="beast-bond" extraClasses="trait" icon={["village"]}>
+<Ability id="beast-bond" extraClasses="trait" icon={["Social"]}>
 <Pair single id="beast-bond">Beast Bond</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="beast-bond-flavor">You share a close bond with animals.</Pair>
@@ -2396,7 +2396,7 @@ const _beast_bond = {title: "Beast Bond", topLink: ["Social Traits","main/traits
 </Ability>
 </>};
 const _beastkin = {title: "Beastkin", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link></p>
-<Ability id="beastkin" extraClasses="trait" icon={["village"]}>
+<Ability id="beastkin" extraClasses="trait" icon={["Social"]}>
 <Pair single id="beastkin">Beastkin</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="benefit" id="beastkin-benefit"><p>Select one specific type of animal (such as wolves or apes). You were raised from infancy by an animal or pack of animals of that type. You learned their ways and have more in common with your beastly kin than members of any humanoid race.</p>
@@ -2405,7 +2405,7 @@ const _beastkin = {title: "Beastkin", topLink: ["Social Traits","main/traits_soc
 </Ability>
 </>};
 const _binders_blood = {title: "Binder's Blood", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link></p>
-<Ability id="binders-blood" extraClasses="trait" icon={["village"]}>
+<Ability id="binders-blood" extraClasses="trait" icon={["Social"]}>
 <Pair single id="binders-blood">Binder's Blood</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="binders-blood-flavor">Your lineage features a large number of genie callers, granting you insight into the intricacies of genie binding.</Pair>
@@ -2413,7 +2413,7 @@ const _binders_blood = {title: "Binder's Blood", topLink: ["Social Traits","main
 </Ability>
 </>};
 const _brastlewark_businessman_gog = {title: "Brastlewark Businessman (GoG)", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
-<Ability id="brastlewark-businessman-gog" extraClasses="trait" icon={["village"]}>
+<Ability id="brastlewark-businessman-gog" extraClasses="trait" icon={["Social"]}>
 <Pair single id="brastlewark-businessman-gog">Brastlewark Businessman (GoG)</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -2422,7 +2422,7 @@ const _brastlewark_businessman_gog = {title: "Brastlewark Businessman (GoG)", to
 </Ability>
 </>};
 const _bruising_intellect = {title: "Bruising Intellect", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="bruising-intellect" extraClasses="trait" icon={["village"]}>
+<Ability id="bruising-intellect" extraClasses="trait" icon={["Social"]}>
 <Pair single id="bruising-intellect">Bruising Intellect</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="bruising-intellect-flavor">Your sharp intellect and rapier-like wit bruise egos.</Pair>
@@ -2430,7 +2430,7 @@ const _bruising_intellect = {title: "Bruising Intellect", topLink: ["Social Trai
 </Ability>
 </>};
 const _bully = {title: "Bully", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="bully" extraClasses="trait" icon={["village"]}>
+<Ability id="bully" extraClasses="trait" icon={["Social"]}>
 <Pair single id="bully">Bully</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="bully-flavor">You grew up in an environment where the meek were ignored and you often had to resort to threats or violence to be heard.</Pair>
@@ -2438,7 +2438,7 @@ const _bully = {title: "Bully", topLink: ["Social Traits","main/traits_social"],
 </Ability>
 </>};
 const _bureaucrats_favored = {title: "Bureaucrat's Favored", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court</Link></p>
-<Ability id="bureaucrats-favored" extraClasses="trait" icon={["village"]}>
+<Ability id="bureaucrats-favored" extraClasses="trait" icon={["Social"]}>
 <Pair single id="bureaucrats-favored">Bureaucrat's Favored</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Region" hl>Osirion</Pair>
@@ -2448,7 +2448,7 @@ const _bureaucrats_favored = {title: "Bureaucrat's Favored", topLink: ["Social T
 </Ability>
 </>};
 const _calculated_bribe = {title: "Calculated Bribe", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="calculated-bribe" extraClasses="trait" icon={["village"]}>
+<Ability id="calculated-bribe" extraClasses="trait" icon={["Social"]}>
 <Pair single id="calculated-bribe">Calculated Bribe</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Code of Perseverance" hl><p>Knights who follow the code of perseverance believe that to truly serve a purpose, an organization or group of individuals must first look to its own survival. Deeds are temporary and forgotten with time. For an organization to be influential, it must persist. These knights collect power and wealth, always looking to the future. Their vows are as follows.</p>
@@ -2468,7 +2468,7 @@ const _calculated_bribe = {title: "Calculated Bribe", topLink: ["Social Traits",
 </Ability>
 </>};
 const _callous = {title: "Callous", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="callous" extraClasses="trait" icon={["village"]}>
+<Ability id="callous" extraClasses="trait" icon={["Social"]}>
 <Pair single id="callous">Callous</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="callous-flavor">You have endured many hardships throughout your life, and this has hardened you to the suffering of others to the point that you are not easily swayed by a sad story.</Pair>
@@ -2476,7 +2476,7 @@ const _callous = {title: "Callous", topLink: ["Social Traits","main/traits_socia
 </Ability>
 </>};
 const _canter = {title: "Canter", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="canter" extraClasses="trait" icon={["village"]}>
+<Ability id="canter" extraClasses="trait" icon={["Social"]}>
 <Pair single id="canter">Canter</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="canter-flavor">You grew up among thieves and scoundrels, and their unusual speech patterns and turns of phrase don't faze you in the slightest.</Pair>
@@ -2484,14 +2484,14 @@ const _canter = {title: "Canter", topLink: ["Social Traits","main/traits_social"
 </Ability>
 </>};
 const _carnal_attraction = {title: "Carnal Attraction", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
-<Ability id="carnal-attraction" extraClasses="trait" icon={["village"]}>
+<Ability id="carnal-attraction" extraClasses="trait" icon={["Social"]}>
 <Pair single id="carnal-attraction">Carnal Attraction</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="benefit" id="carnal-attraction-benefit">You know how to ask the wrong questions the right way, granting you a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> (gather information) and <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks regarding whichever vice fascinates you: drugs, forbidden lore, gambling, illegal fighting, or a similar debauchery or indecency.</Pair>
 </Ability>
 </>};
 const _charming = {title: "Charming", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="charming" extraClasses="trait" icon={["village"]}>
+<Ability id="charming" extraClasses="trait" icon={["Social"]}>
 <Pair single id="charming">Charming</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="charming-flavor">Blessed with good looks, you've come to depend on the fact that others find you attractive.</Pair>
@@ -2499,7 +2499,7 @@ const _charming = {title: "Charming", topLink: ["Social Traits","main/traits_soc
 </Ability>
 </>};
 const _chelish_sympathizer = {title: "Chelish Sympathizer", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="chelish-sympathizer" extraClasses="trait" icon={["village"]}>
+<Ability id="chelish-sympathizer" extraClasses="trait" icon={["Social"]}>
 <Pair single id="chelish-sympathizer">Chelish Sympathizer</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="chelish-sympathizer-flavor">You feed intelligence to the Thrice-Damned House of Thrune for your own gain or ideological reasons and are given valuable clues gathered by other Chelish spies in exchange.</Pair>
@@ -2507,7 +2507,7 @@ const _chelish_sympathizer = {title: "Chelish Sympathizer", topLink: ["Social Tr
 </Ability>
 </>};
 const _child_of_the_streets = {title: "Child of the Streets", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="child-of-the-streets" extraClasses="trait" icon={["village"]}>
+<Ability id="child-of-the-streets" extraClasses="trait" icon={["Social"]}>
 <Pair single id="child-of-the-streets">Child of the Streets</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="child-of-the-streets-flavor">You grew up on the streets of a large city, and as a result you have developed a knack for picking pockets and hiding small objects on your person.</Pair>
@@ -2515,7 +2515,7 @@ const _child_of_the_streets = {title: "Child of the Streets", topLink: ["Social 
 </Ability>
 </>};
 const _chip_on_the_shoulder = {title: "Chip on the Shoulder", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="chip-on-the-shoulder" extraClasses="trait" icon={["village"]}>
+<Ability id="chip-on-the-shoulder" extraClasses="trait" icon={["Social"]}>
 <Pair single id="chip-on-the-shoulder">Chip on the Shoulder</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="chip-on-the-shoulder-flavor">When someone pushes you, you push back.</Pair>
@@ -2523,7 +2523,7 @@ const _chip_on_the_shoulder = {title: "Chip on the Shoulder", topLink: ["Social 
 </Ability>
 </>};
 const _civilized = {title: "Civilized", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="civilized" extraClasses="trait" icon={["village"]}>
+<Ability id="civilized" extraClasses="trait" icon={["Social"]}>
 <Pair single id="civilized">Civilized</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="civilized-flavor">You are well versed in the local laws, customs, and politics.</Pair>
@@ -2531,7 +2531,7 @@ const _civilized = {title: "Civilized", topLink: ["Social Traits","main/traits_s
 </Ability>
 </>};
 const _clever_wordplay = {title: "Clever Wordplay", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_society_primer">Pathfinder Society Primer</Link></p>
-<Ability id="clever-wordplay" extraClasses="trait" icon={["village"]}>
+<Ability id="clever-wordplay" extraClasses="trait" icon={["Social"]}>
 <Pair single id="clever-wordplay">Clever Wordplay</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="clever-wordplay-flavor">Your cunning and logic are more than a match for another's confidence and poise.</Pair>
@@ -2539,7 +2539,7 @@ const _clever_wordplay = {title: "Clever Wordplay", topLink: ["Social Traits","m
 </Ability>
 </>};
 const _collector = {title: "Collector", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
-<Ability id="collector" extraClasses="trait" icon={["village"]}>
+<Ability id="collector" extraClasses="trait" icon={["Social"]}>
 <Pair single id="collector">Collector</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -2550,7 +2550,7 @@ const _collector = {title: "Collector", topLink: ["Social Traits","main/traits_s
 </Ability>
 </>};
 const _competitive = {title: "Competitive", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="competitive" extraClasses="trait" icon={["village"]}>
+<Ability id="competitive" extraClasses="trait" icon={["Social"]}>
 <Pair single id="competitive">Competitive</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="competitive-flavor">You grew up and were raised around fabulous sporting events, and your youth was consumed with a driving need to be better than everyone else. Any hint of a contest spurs you to your greatest heights of potential.</Pair>
@@ -2560,7 +2560,7 @@ const _competitive = {title: "Competitive", topLink: ["Social Traits","main/trai
 </Ability>
 </>};
 const _contagious_mettle = {title: "Contagious Mettle", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="contagious-mettle" extraClasses="trait" icon={["village"]}>
+<Ability id="contagious-mettle" extraClasses="trait" icon={["Social"]}>
 <Pair single id="contagious-mettle">Contagious Mettle</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Code of Valor" hl><p>Knights who follow the code of valor believe that nothing is more important than courage in battle. The strength of knights is determined by their willingness to stand in the face of overwhelming odds. Without valor, knighthood is merely a title. Their vows are as follows.</p>
@@ -2577,7 +2577,7 @@ const _contagious_mettle = {title: "Contagious Mettle", topLink: ["Social Traits
 </Ability>
 </>};
 const _contemptuous = {title: "Contemptuous", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="contemptuous" extraClasses="trait" icon={["village"]}>
+<Ability id="contemptuous" extraClasses="trait" icon={["Social"]}>
 <Pair single id="contemptuous">Contemptuous</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="contemptuous-flavor">Whether you are a commoner who has come to despise the haughty upper crust or a holier-than-thou noble who can't stand being around the unwashed masses, your contempt drives you to study carefully, making sure you always have the upper hand in social exchanges with them.</Pair>
@@ -2585,7 +2585,7 @@ const _contemptuous = {title: "Contemptuous", topLink: ["Social Traits","main/tr
 </Ability>
 </>};
 const _convincing_liar = {title: "Convincing Liar", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="convincing-liar" extraClasses="trait" icon={["village"]}>
+<Ability id="convincing-liar" extraClasses="trait" icon={["Social"]}>
 <Pair single id="convincing-liar">Convincing Liar</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/bellflower_network">Bellflower Network</Link></Pair>
@@ -2594,7 +2594,7 @@ const _convincing_liar = {title: "Convincing Liar", topLink: ["Social Traits","m
 </Ability>
 </>};
 const _criminal = {title: "Criminal", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="criminal" extraClasses="trait" icon={["village"]}>
+<Ability id="criminal" extraClasses="trait" icon={["Social"]}>
 <Pair single id="criminal">Criminal</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="criminal-flavor">You spent your early life robbing and stealing to get by.</Pair>
@@ -2602,7 +2602,7 @@ const _criminal = {title: "Criminal", topLink: ["Social Traits","main/traits_soc
 </Ability>
 </>};
 const _criminal_roots = {title: "Criminal Roots", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="criminal-roots" extraClasses="trait" icon={["village"]}>
+<Ability id="criminal-roots" extraClasses="trait" icon={["Social"]}>
 <Pair single id="criminal-roots">Criminal Roots</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="criminal-roots-flavor">Your family has long operated outside the law.</Pair>
@@ -2610,7 +2610,7 @@ const _criminal_roots = {title: "Criminal Roots", topLink: ["Social Traits","mai
 </Ability>
 </>};
 const _criminally_connected = {title: "Criminally Connected", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="criminally-connected" extraClasses="trait" icon={["village"]}>
+<Ability id="criminally-connected" extraClasses="trait" icon={["Social"]}>
 <Pair single id="criminally-connected">Criminally Connected</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="criminally-connected-flavor">You have spent a lot of time dealing with the criminal underworld - so much that it might be hard for observers to see you as distinct from it. However, this familiarity gives you a leg up on heroes who refuse to muddy their reputation.</Pair>
@@ -2618,7 +2618,7 @@ const _criminally_connected = {title: "Criminally Connected", topLink: ["Social 
 </Ability>
 </>};
 const _cutting_condescension = {title: "Cutting Condescension", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
-<Ability id="cutting-condescension" extraClasses="trait" icon={["village"]}>
+<Ability id="cutting-condescension" extraClasses="trait" icon={["Social"]}>
 <Pair single id="cutting-condescension">Cutting Condescension</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="cutting-condescension-flavor">The Sable Company has taught you to quickly get compliance from those in your way.</Pair>
@@ -2626,7 +2626,7 @@ const _cutting_condescension = {title: "Cutting Condescension", topLink: ["Socia
 </Ability>
 </>};
 const _cynical = {title: "Cynical", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="cynical" extraClasses="trait" icon={["village"]}>
+<Ability id="cynical" extraClasses="trait" icon={["Social"]}>
 <Pair single id="cynical">Cynical</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="cynical-flavor">You have seen many heroes in your time, but you see only their capacity for failure and the ways they fall short of being truly good. This practice in looking past facades has proven a useful skill.</Pair>
@@ -2634,7 +2634,7 @@ const _cynical = {title: "Cynical", topLink: ["Social Traits","main/traits_socia
 </Ability>
 </>};
 const _cynical_ear = {title: "Cynical Ear", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="cynical-ear" extraClasses="trait" icon={["village"]}>
+<Ability id="cynical-ear" extraClasses="trait" icon={["Social"]}>
 <Pair single id="cynical-ear">Cynical Ear</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="cynical-ear-flavor">Neither honeyed tongues or righteous wrath move you much.</Pair>
@@ -2642,7 +2642,7 @@ const _cynical_ear = {title: "Cynical Ear", topLink: ["Social Traits","main/trai
 </Ability>
 </>};
 const _darklands_scholar = {title: "Darklands Scholar", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
-<Ability id="darklands-scholar" extraClasses="trait" icon={["village"]}>
+<Ability id="darklands-scholar" extraClasses="trait" icon={["Social"]}>
 <Pair single id="darklands-scholar">Darklands Scholar</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="darklands-scholar-flavor">Unsatisfied with mere stories, you have spent years researching journals and firsthand accounts of those who explored the Darklands before you.</Pair>
@@ -2650,7 +2650,7 @@ const _darklands_scholar = {title: "Darklands Scholar", topLink: ["Social Traits
 </Ability>
 </>};
 const _darklands_trader = {title: "Darklands Trader", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
-<Ability id="darklands-trader" extraClasses="trait" icon={["village"]}>
+<Ability id="darklands-trader" extraClasses="trait" icon={["Social"]}>
 <Pair single id="darklands-trader">Darklands Trader</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="darklands-trader-flavor">You're familiar with Nar-Voth's trade routes and negotiation involving the denizens of the Darklands.</Pair>
@@ -2658,7 +2658,7 @@ const _darklands_trader = {title: "Darklands Trader", topLink: ["Social Traits",
 </Ability>
 </>};
 const _debauchery_defier = {title: "Debauchery Defier", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court</Link></p>
-<Ability id="debauchery-defier" extraClasses="trait" icon={["village"]}>
+<Ability id="debauchery-defier" extraClasses="trait" icon={["Social"]}>
 <Pair single id="debauchery-defier">Debauchery Defier</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Region" hl>Taldor</Pair>
@@ -2668,7 +2668,7 @@ const _debauchery_defier = {title: "Debauchery Defier", topLink: ["Social Traits
 </Ability>
 </>};
 const _deep_cover = {title: "Deep Cover", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="deep-cover" extraClasses="trait" icon={["village"]}>
+<Ability id="deep-cover" extraClasses="trait" icon={["Social"]}>
 <Pair single id="deep-cover">Deep Cover</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="deep-cover-flavor">You have lived a double life since your youth, perhaps to avoid persecution for your true identity or in service to an enemy of the people or group associated with your cover identity.</Pair>
@@ -2676,7 +2676,7 @@ const _deep_cover = {title: "Deep Cover", topLink: ["Social Traits","main/traits
 </Ability>
 </>};
 const _destined_diplomat = {title: "Destined Diplomat", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="destined-diplomat" extraClasses="trait" icon={["village"]}>
+<Ability id="destined-diplomat" extraClasses="trait" icon={["Social"]}>
 <Pair single id="destined-diplomat">Destined Diplomat</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="destined-diplomat-flavor">Your relationship with your eidolon gives you some clout with other outsiders.</Pair>
@@ -2684,7 +2684,7 @@ const _destined_diplomat = {title: "Destined Diplomat", topLink: ["Social Traits
 </Ability>
 </>};
 const _detect_disobedience = {title: "Detect Disobedience", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
-<Ability id="detect-disobedience" extraClasses="trait" icon={["village"]}>
+<Ability id="detect-disobedience" extraClasses="trait" icon={["Social"]}>
 <Pair single id="detect-disobedience">Detect Disobedience</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="detect-disobedience-flavor">You have an uncanny ability to spot a mutiny brewing.</Pair>
@@ -2692,7 +2692,7 @@ const _detect_disobedience = {title: "Detect Disobedience", topLink: ["Social Tr
 </Ability>
 </>};
 const _dismantle_order = {title: "Dismantle Order", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="dismantle-order" extraClasses="trait" icon={["village"]}>
+<Ability id="dismantle-order" extraClasses="trait" icon={["Social"]}>
 <Pair single id="dismantle-order">Dismantle Order</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Code of Revolution" hl><p>Knights who follow the code of revolution believe that strict laws are an unnecessary bulwark standing in the way of social progress. According to these knights, intelligent and civilized people are inherently good-natured, and if left to their own devices, individuals would prove more wholesome and attuned to the natural order of things than when tainted by the unnatural strictures of organized society. Their vows are as follows.</p>
@@ -2717,7 +2717,7 @@ const _dismantle_order = {title: "Dismantle Order", topLink: ["Social Traits","m
 </Ability>
 </>};
 const _doublespeak = {title: "Doublespeak", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="doublespeak" extraClasses="trait" icon={["village"]}>
+<Ability id="doublespeak" extraClasses="trait" icon={["Social"]}>
 <Pair single id="doublespeak">Doublespeak</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="doublespeak-flavor">It isn't what you say - it's how you say it.</Pair>
@@ -2725,7 +2725,7 @@ const _doublespeak = {title: "Doublespeak", topLink: ["Social Traits","main/trai
 </Ability>
 </>};
 const _draconic_destiny = {title: "Draconic Destiny", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
-<Ability id="draconic-destiny" extraClasses="trait" icon={["village"]}>
+<Ability id="draconic-destiny" extraClasses="trait" icon={["Social"]}>
 <Pair single id="draconic-destiny">Draconic Destiny</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="draconic-destiny-flavor">Whether you are aware of it or not, the moment of your birth was but one part of a far-reaching machination in a dragon's grand design, and the influence of that mysterious plan makes you a little harder to kill.</Pair>
@@ -2733,7 +2733,7 @@ const _draconic_destiny = {title: "Draconic Destiny", topLink: ["Social Traits",
 </Ability>
 </>};
 const _dragon_hunted = {title: "Dragon-Hunted", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
-<Ability id="dragon-hunted" extraClasses="trait" icon={["village"]}>
+<Ability id="dragon-hunted" extraClasses="trait" icon={["Social"]}>
 <Pair single id="dragon-hunted">Dragon-Hunted</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="dragon-hunted-flavor">You've survived being hunted by the draconic nightmares on the Shackles islands of Dahak's Fang, Dahak's Horn, or Dahak's Tooth.</Pair>
@@ -2741,7 +2741,7 @@ const _dragon_hunted = {title: "Dragon-Hunted", topLink: ["Social Traits","main/
 </Ability>
 </>};
 const _dragon_pact = {title: "Dragon Pact", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
-<Ability id="dragon-pact" extraClasses="trait" icon={["village"]}>
+<Ability id="dragon-pact" extraClasses="trait" icon={["Social"]}>
 <Pair single id="dragon-pact">Dragon Pact</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="dragon-pact-flavor">At some point your family served a dragon, and acted as its emissary to others. Some members of your family have benefited from this arrangement, gaining some small fraction of that dragon's noble bearing.</Pair>
@@ -2749,14 +2749,14 @@ const _dragon_pact = {title: "Dragon Pact", topLink: ["Social Traits","main/trai
 </Ability>
 </>};
 const _drake_anatomist = {title: "Drake Anatomist", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
-<Ability id="drake-anatomist" extraClasses="trait" icon={["village"]}>
+<Ability id="drake-anatomist" extraClasses="trait" icon={["Social"]}>
 <Pair single id="drake-anatomist">Drake Anatomist</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="benefit" id="drake-anatomist-benefit">You gain a +1 trait bonus on damage rolls against creatures with the dragon creature type, and a +2 trait bonus on <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> checks to identify dragons and their special powers and vulnerabilities.</Pair>
 </Ability>
 </>};
 const _dusk_market_bribery = {title: "Dusk Market Bribery", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets</Link></p>
-<Ability id="dusk-market-bribery" extraClasses="trait" icon={["village"]}>
+<Ability id="dusk-market-bribery" extraClasses="trait" icon={["Social"]}>
 <Pair single id="dusk-market-bribery">Dusk Market Bribery</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="dusk-market-bribery-flavor">You learned how to bribe by watching <Link to="/rule/dusk_market">Dusk Market</Link> merchants interact with Westcrown's dottari guards.</Pair>
@@ -2764,7 +2764,7 @@ const _dusk_market_bribery = {title: "Dusk Market Bribery", topLink: ["Social Tr
 </Ability>
 </>};
 const _ecumenical = {title: "Ecumenical", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine</Link></p>
-<Ability id="ecumenical" extraClasses="trait" icon={["village"]}>
+<Ability id="ecumenical" extraClasses="trait" icon={["Social"]}>
 <Pair single id="ecumenical">Ecumenical</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="ecumenical-flavor">Your childhood in Magnimar (or in a similar cosmopolitan city) taught you to recognize signs of worship of demigods such as empyreal lords.</Pair>
@@ -2772,7 +2772,7 @@ const _ecumenical = {title: "Ecumenical", topLink: ["Social Traits","main/traits
 </Ability>
 </>};
 const _elemental_negotiator = {title: "Elemental Negotiator", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook</Link></p>
-<Ability id="elemental-negotiator" extraClasses="trait" icon={["village"]}>
+<Ability id="elemental-negotiator" extraClasses="trait" icon={["Social"]}>
 <Pair single id="elemental-negotiator">Elemental Negotiator</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="elemental-negotiator-flavor">You have traveled to the Elemental Planes under the protection of a powerful group of merchants or spellcasters.</Pair>
@@ -2782,7 +2782,7 @@ const _elemental_negotiator = {title: "Elemental Negotiator", topLink: ["Social 
 </Ability>
 </>};
 const _enemy_of_slavers = {title: "Enemy of Slavers", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="enemy-of-slavers" extraClasses="trait" icon={["village"]}>
+<Ability id="enemy-of-slavers" extraClasses="trait" icon={["Social"]}>
 <Pair single id="enemy-of-slavers">Enemy of Slavers</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Code of Freedom" hl><p>Knights who follow the code of freedom believe that no man, woman, or child should be owned by another individual. They believe that all of the humanoid races, even those of monstrous descent, deserve to be given a chance to make their own decisions in life. Their vows are as follows.</p>
@@ -2802,7 +2802,7 @@ You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <L
 </Ability>
 </>};
 const _escaped_captive = {title: "Escaped Captive", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
-<Ability id="escaped-captive" extraClasses="trait" icon={["village"]}>
+<Ability id="escaped-captive" extraClasses="trait" icon={["Social"]}>
 <Pair single id="escaped-captive">Escaped Captive</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="escaped-captive-flavor">Whether you were on your way to becoming a drow slave or slated for the ghoul chattel pits, you very narrowly avoided a life of miserable captivity.</Pair>
@@ -2810,7 +2810,7 @@ const _escaped_captive = {title: "Escaped Captive", topLink: ["Social Traits","m
 </Ability>
 </>};
 const _etymologist = {title: "Etymologist", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
-<Ability id="etymologist" extraClasses="trait" icon={["village"]}>
+<Ability id="etymologist" extraClasses="trait" icon={["Social"]}>
 <Pair single id="etymologist">Etymologist</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -2819,7 +2819,7 @@ const _etymologist = {title: "Etymologist", topLink: ["Social Traits","main/trai
 </Ability>
 </>};
 const _excellent_penmanship = {title: "Excellent Penmanship", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 23</Link></p>
-<Ability id="excellent-penmanship" extraClasses="trait" icon={["village"]}>
+<Ability id="excellent-penmanship" extraClasses="trait" icon={["Social"]}>
 <Pair single id="excellent-penmanship">Excellent Penmanship</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="excellent-penmanship-flavor">You are a master of calligraphy, an art once highly valued in Lung Wa and still held in high esteem in Lingshen.</Pair>
@@ -2827,7 +2827,7 @@ const _excellent_penmanship = {title: "Excellent Penmanship", topLink: ["Social 
 </Ability>
 </>};
 const _explorer = {title: "Explorer", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
-<Ability id="explorer" extraClasses="trait" icon={["village"]}>
+<Ability id="explorer" extraClasses="trait" icon={["Social"]}>
 <Pair single id="explorer">Explorer</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -2838,7 +2838,7 @@ const _explorer = {title: "Explorer", topLink: ["Social Traits","main/traits_soc
 </Ability>
 </>};
 const _expressive_pantomime = {title: "Expressive Pantomime", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link></p>
-<Ability id="expressive-pantomime" extraClasses="trait" icon={["village"]}>
+<Ability id="expressive-pantomime" extraClasses="trait" icon={["Social"]}>
 <Pair single id="expressive-pantomime">Expressive Pantomime</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="expressive-pantomime-flavor">You have learned to express yourself without having to depend on words.</Pair>
@@ -2846,7 +2846,7 @@ const _expressive_pantomime = {title: "Expressive Pantomime", topLink: ["Social 
 </Ability>
 </>};
 const _fast_talker = {title: "Fast Talker", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="fast-talker" extraClasses="trait" icon={["village"]}>
+<Ability id="fast-talker" extraClasses="trait" icon={["Social"]}>
 <Pair single id="fast-talker">Fast Talker</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="fast-talker-flavor">You had a knack for getting yourself into trouble as a child, and as a result developed a silver tongue at an early age.</Pair>
@@ -2854,7 +2854,7 @@ const _fast_talker = {title: "Fast Talker", topLink: ["Social Traits","main/trai
 </Ability>
 </>};
 const _feral_speech = {title: "Feral Speech", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link></p>
-<Ability id="feral-speech" extraClasses="trait" icon={["village"]}>
+<Ability id="feral-speech" extraClasses="trait" icon={["Social"]}>
 <Pair single id="feral-speech">Feral Speech</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="feral-speech-flavor">You were raised in a community that included numerous individuals who spoke with creatures of the wild.</Pair>
@@ -2862,14 +2862,14 @@ const _feral_speech = {title: "Feral Speech", topLink: ["Social Traits","main/tr
 </Ability>
 </>};
 const _for_the_money = {title: "For the Money", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
-<Ability id="for-the-money" extraClasses="trait" icon={["village"]}>
+<Ability id="for-the-money" extraClasses="trait" icon={["Social"]}>
 <Pair single id="for-the-money">For the Money</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="benefit" id="for-the-money-benefit">You gain a +2 trait bonus on skill checks to haggle prices or negotiate payment; this bonus increases to +4 if you are in a position of military or economic power over your target. You also gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> checks and Appraise is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _founders_heritage = {title: "Founders' Heritage", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology</Link></p>
-<Ability id="founders-heritage" extraClasses="trait" icon={["village"]}>
+<Ability id="founders-heritage" extraClasses="trait" icon={["Social"]}>
 <Pair single id="founders-heritage">Founders' Heritage</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="founders-heritage-flavor">You can trace your family line back to one of the founding families of Absalom that was called by Aroden to aid him in establishing the city because of their vision and potential.</Pair>
@@ -2877,7 +2877,7 @@ const _founders_heritage = {title: "Founders' Heritage", topLink: ["Social Trait
 </Ability>
 </>};
 const _free_spirit = {title: "Free Spirit", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="free-spirit" extraClasses="trait" icon={["village"]}>
+<Ability id="free-spirit" extraClasses="trait" icon={["Social"]}>
 <Pair single id="free-spirit">Free Spirit</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="free-spirit-flavor">You respect the freedom of others to speak as they will. Your rough-and-tumble youth taught you that everyone deserves a chance to say her piece. After all, you can always simply choose to ignore the speaker.</Pair>
@@ -2887,7 +2887,7 @@ const _free_spirit = {title: "Free Spirit", topLink: ["Social Traits","main/trai
 </Ability>
 </>};
 const _friend_in_every_town = {title: "Friend in Every Town", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="friend-in-every-town" extraClasses="trait" icon={["village"]}>
+<Ability id="friend-in-every-town" extraClasses="trait" icon={["Social"]}>
 <Pair single id="friend-in-every-town">Friend in Every Town</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="friend-in-every-town-flavor">You have no problem making friends and learning information from them wherever you go.</Pair>
@@ -2895,7 +2895,7 @@ const _friend_in_every_town = {title: "Friend in Every Town", topLink: ["Social 
 </Ability>
 </>};
 const _friends_in_high_places = {title: "Friends in High Places", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="friends-in-high-places" extraClasses="trait" icon={["village"]}>
+<Ability id="friends-in-high-places" extraClasses="trait" icon={["Social"]}>
 <Pair single id="friends-in-high-places">Friends in High Places</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="friends-in-high-places-flavor">You have often seen lawbreakers go free when they demonstrate they have friends in high places, and so you put special effort into befriending powerful people yourself.</Pair>
@@ -2905,7 +2905,7 @@ const _friends_in_high_places = {title: "Friends in High Places", topLink: ["Soc
 </Ability>
 </>};
 const _friends_in_low_places = {title: "Friends in Low Places", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="friends-in-low-places" extraClasses="trait" icon={["village"]}>
+<Ability id="friends-in-low-places" extraClasses="trait" icon={["Social"]}>
 <Pair single id="friends-in-low-places">Friends in Low Places</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="friends-in-low-places-flavor">Outcasts know their own, and that knowledge opens doors and loosens tongues.</Pair>
@@ -2913,7 +2913,7 @@ const _friends_in_low_places = {title: "Friends in Low Places", topLink: ["Socia
 </Ability>
 </>};
 const _fury_of_the_red = {title: "Fury of the Red", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
-<Ability id="fury-of-the-red" extraClasses="trait" icon={["village"]}>
+<Ability id="fury-of-the-red" extraClasses="trait" icon={["Social"]}>
 <Pair single id="fury-of-the-red">Fury of the Red</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="fury-of-the-red-flavor">Somewhere in your family line, the mystic power of red dragons was infused into one of your relatives.</Pair>
@@ -2921,7 +2921,7 @@ const _fury_of_the_red = {title: "Fury of the Red", topLink: ["Social Traits","m
 </Ability>
 </>};
 const _gesture_expertise = {title: "Gesture Expertise", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets</Link></p>
-<Ability id="gesture-expertise" extraClasses="trait" icon={["village"]}>
+<Ability id="gesture-expertise" extraClasses="trait" icon={["Social"]}>
 <Pair single id="gesture-expertise">Gesture Expertise</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="gesture-expertise-flavor">You are adept at nonverbal communication.</Pair>
@@ -2929,7 +2929,7 @@ const _gesture_expertise = {title: "Gesture Expertise", topLink: ["Social Traits
 </Ability>
 </>};
 const _gifted_smuggler = {title: "Gifted Smuggler", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2</Link></p>
-<Ability id="gifted-smuggler" extraClasses="trait" icon={["village"]}>
+<Ability id="gifted-smuggler" extraClasses="trait" icon={["Social"]}>
 <Pair single id="gifted-smuggler">Gifted Smuggler</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Region" hl>Ostenso</Pair>
@@ -2938,7 +2938,7 @@ const _gifted_smuggler = {title: "Gifted Smuggler", topLink: ["Social Traits","m
 </Ability>
 </>};
 const _gregarious = {title: "Gregarious", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="gregarious" extraClasses="trait" icon={["village"]}>
+<Ability id="gregarious" extraClasses="trait" icon={["Social"]}>
 <Pair single id="gregarious">Gregarious</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="gregarious-flavor">At least once in your childhood, your family moved for a reason you didn't understand and you were forced to leave behind your old friends and make new ones. Ever since, you have always been the first to meet strangers, make new friends, and welcome travelers. You learned that first impressions are the most important, and have a knack for making a good one.</Pair>
@@ -2948,7 +2948,7 @@ const _gregarious = {title: "Gregarious", topLink: ["Social Traits","main/traits
 </Ability>
 </>};
 const _grief_filled = {title: "Grief-Filled", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="grief-filled" extraClasses="trait" icon={["village"]}>
+<Ability id="grief-filled" extraClasses="trait" icon={["Social"]}>
 <Pair single id="grief-filled">Grief-Filled</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="grief-filled-flavor">You are no stranger to loss and intense emotions.</Pair>
@@ -2956,7 +2956,7 @@ const _grief_filled = {title: "Grief-Filled", topLink: ["Social Traits","main/tr
 </Ability>
 </>};
 const _grim_optimism = {title: "Grim Optimism", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="grim-optimism" extraClasses="trait" icon={["village"]}>
+<Ability id="grim-optimism" extraClasses="trait" icon={["Social"]}>
 <Pair single id="grim-optimism">Grim Optimism</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="grim-optimism-flavor">Growing up with no one to rely on but yourself, you learned to keep a realistic view of your situation and avoid falling into the trap of cynicism with a healthy dose of wit.</Pair>
@@ -2966,7 +2966,7 @@ const _grim_optimism = {title: "Grim Optimism", topLink: ["Social Traits","main/
 </Ability>
 </>};
 const _hardly_a_fool = {title: "Hardly a Fool", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
-<Ability id="hardly-a-fool" extraClasses="trait" icon={["village"]}>
+<Ability id="hardly-a-fool" extraClasses="trait" icon={["Social"]}>
 <Pair single id="hardly-a-fool">Hardly a Fool</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="hardly-a-fool-flavor">You have always been able to ferret out lies and deception. Maybe you worked as an investigator for a time, you came from a place rife with lies, or you've studied the human condition long enough to read a person's face and get to the heart of his message.</Pair>
@@ -2974,7 +2974,7 @@ const _hardly_a_fool = {title: "Hardly a Fool", topLink: ["Social Traits","main/
 </Ability>
 </>};
 const _harvester = {title: "Harvester", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="harvester" extraClasses="trait" icon={["village"]}>
+<Ability id="harvester" extraClasses="trait" icon={["Social"]}>
 <Pair single id="harvester">Harvester</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="harvester-flavor">You were trained to harvest all parts of an animal with care and precision.</Pair>
@@ -2982,7 +2982,7 @@ const _harvester = {title: "Harvester", topLink: ["Social Traits","main/traits_s
 </Ability>
 </>};
 const _heart_of_two_worlds = {title: "Heart of Two Worlds", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="heart-of-two-worlds" extraClasses="trait" icon={["village"]}>
+<Ability id="heart-of-two-worlds" extraClasses="trait" icon={["Social"]}>
 <Pair single id="heart-of-two-worlds">Heart of Two Worlds</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="heart-of-two-worlds-flavor">Born into a world split in twain, you are particularly skilled at understanding and empathizing with those around you.</Pair>
@@ -2990,7 +2990,7 @@ const _heart_of_two_worlds = {title: "Heart of Two Worlds", topLink: ["Social Tr
 </Ability>
 </>};
 const _hellknight_ancestry = {title: "Hellknight Ancestry", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="hellknight-ancestry" extraClasses="trait" icon={["village"]}>
+<Ability id="hellknight-ancestry" extraClasses="trait" icon={["Social"]}>
 <Pair single id="hellknight-ancestry">Hellknight Ancestry</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="hellknight-ancestry-flavor">At least one of your parents was a <Link to="/rule/hellknights">Hellknight</Link>, and you see the orders as the embodiment of civic virtue.</Pair>
@@ -2998,7 +2998,7 @@ const _hellknight_ancestry = {title: "Hellknight Ancestry", topLink: ["Social Tr
 </Ability>
 </>};
 const _imposing_scion = {title: "Imposing Scion", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="imposing-scion" extraClasses="trait" icon={["village"]}>
+<Ability id="imposing-scion" extraClasses="trait" icon={["Social"]}>
 <Pair single id="imposing-scion">Imposing Scion</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="imposing-scion-flavor">The reputation of your bloodline grants you a degree of fearful respect.</Pair>
@@ -3006,7 +3006,7 @@ const _imposing_scion = {title: "Imposing Scion", topLink: ["Social Traits","mai
 </Ability>
 </>};
 const _inexorable_authority = {title: "Inexorable Authority", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance</Link></p>
-<Ability id="inexorable-authority" extraClasses="trait" icon={["village"]}>
+<Ability id="inexorable-authority" extraClasses="trait" icon={["Social"]}>
 <Pair single id="inexorable-authority">Inexorable Authority</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="inexorable-authority-flavor">When you speak with the full weight of law, your conviction lends you a terrible presence.</Pair>
@@ -3014,7 +3014,7 @@ const _inexorable_authority = {title: "Inexorable Authority", topLink: ["Social 
 </Ability>
 </>};
 const _infernal_colleague = {title: "Infernal Colleague", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court</Link></p>
-<Ability id="infernal-colleague" extraClasses="trait" icon={["village"]}>
+<Ability id="infernal-colleague" extraClasses="trait" icon={["Social"]}>
 <Pair single id="infernal-colleague">Infernal Colleague</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Region" hl>Cheliax</Pair>
@@ -3024,7 +3024,7 @@ const _infernal_colleague = {title: "Infernal Colleague", topLink: ["Social Trai
 </Ability>
 </>};
 const _influence = {title: "Influence", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="influence" extraClasses="trait" icon={["village"]}>
+<Ability id="influence" extraClasses="trait" icon={["Social"]}>
 <Pair single id="influence">Influence</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="influence-flavor">Your position in society grants you special insight into others, and special consideration or outright awe from others.</Pair>
@@ -3032,7 +3032,7 @@ const _influence = {title: "Influence", topLink: ["Social Traits","main/traits_s
 </Ability>
 </>};
 const _jistkan_scholar = {title: "Jistkan Scholar", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 19</Link></p>
-<Ability id="jistkan-scholar" extraClasses="trait" icon={["village"]}>
+<Ability id="jistkan-scholar" extraClasses="trait" icon={["Social"]}>
 <Pair single id="jistkan-scholar">Jistkan Scholar</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="jistkan-scholar-flavor">You have specialized in studying Jistkan history and culture.</Pair>
@@ -3040,7 +3040,7 @@ const _jistkan_scholar = {title: "Jistkan Scholar", topLink: ["Social Traits","m
 </Ability>
 </>};
 const _keleshite_princess = {title: "Keleshite Princess", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link></p>
-<Ability id="keleshite-princess" extraClasses="trait" icon={["village"]}>
+<Ability id="keleshite-princess" extraClasses="trait" icon={["Social"]}>
 <Pair single id="keleshite-princess">Keleshite Princess</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Region" hl>Qadira</Pair>
@@ -3050,7 +3050,7 @@ const _keleshite_princess = {title: "Keleshite Princess", topLink: ["Social Trai
 </Ability>
 </>};
 const _king_in_waiting = {title: "King in Waiting", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
-<Ability id="king-in-waiting" extraClasses="trait" icon={["village"]}>
+<Ability id="king-in-waiting" extraClasses="trait" icon={["Social"]}>
 <Pair single id="king-in-waiting">King in Waiting</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="king-in-waiting-flavor">You've been raised with tales of the great linnorms, and taught that the death curses of these vile dragons cannot stop the truly mighty.</Pair>
@@ -3058,7 +3058,7 @@ const _king_in_waiting = {title: "King in Waiting", topLink: ["Social Traits","m
 </Ability>
 </>};
 const _knowing_the_enemy = {title: "Knowing the Enemy", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="knowing-the-enemy" extraClasses="trait" icon={["village"]}>
+<Ability id="knowing-the-enemy" extraClasses="trait" icon={["Social"]}>
 <Pair single id="knowing-the-enemy">Knowing the Enemy</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="knowing-the-enemy-flavor">You know a good deal about your most dire enemies.</Pair>
@@ -3066,7 +3066,7 @@ const _knowing_the_enemy = {title: "Knowing the Enemy", topLink: ["Social Traits
 </Ability>
 </>};
 const _law_enforcer = {title: "Law Enforcer", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
-<Ability id="law-enforcer" extraClasses="trait" icon={["village"]}>
+<Ability id="law-enforcer" extraClasses="trait" icon={["Social"]}>
 <Pair single id="law-enforcer">Law Enforcer</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Code of Vigilance" hl><p>Knights who follow the code of vigilance believe that people are prone to chaos and society will eventually devolve into anarchy if given the opportunity. In order for society to continue, these knights must constantly remind people of the law, and take it upon themselves to enforce it in the absence of other authority figures. Their vows are as follows.</p>
@@ -3088,7 +3088,7 @@ const _law_enforcer = {title: "Law Enforcer", topLink: ["Social Traits","main/tr
 </Ability>
 </>};
 const _life_of_toil = {title: "Life of Toil", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="life-of-toil" extraClasses="trait" icon={["village"]}>
+<Ability id="life-of-toil" extraClasses="trait" icon={["Social"]}>
 <Pair single id="life-of-toil">Life of Toil</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="life-of-toil-flavor">You have lived a physically taxing life, working long hours for a master or to support a trade. Hard physical labor has toughened your body and mind.</Pair>
@@ -3096,7 +3096,7 @@ const _life_of_toil = {title: "Life of Toil", topLink: ["Social Traits","main/tr
 </Ability>
 </>};
 const _lost_nobility = {title: "Lost Nobility", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="lost-nobility" extraClasses="trait" icon={["village"]}>
+<Ability id="lost-nobility" extraClasses="trait" icon={["Social"]}>
 <Pair single id="lost-nobility">Lost Nobility</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="lost-nobility-flavor">Your family was prominent before the rise of Thrune, but that legacy is now forgotten by all but you.</Pair>
@@ -3104,7 +3104,7 @@ const _lost_nobility = {title: "Lost Nobility", topLink: ["Social Traits","main/
 </Ability>
 </>};
 const _maestro_of_the_society = {title: "Maestro of the Society", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="maestro-of-the-society" extraClasses="trait" icon={["village"]}>
+<Ability id="maestro-of-the-society" extraClasses="trait" icon={["Social"]}>
 <Pair single id="maestro-of-the-society">Maestro of the Society</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
@@ -3112,7 +3112,7 @@ const _maestro_of_the_society = {title: "Maestro of the Society", topLink: ["Soc
 </Ability>
 </>};
 const _malevolent_temptations = {title: "Malevolent Temptations", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="malevolent-temptations" extraClasses="trait" icon={["village"]}>
+<Ability id="malevolent-temptations" extraClasses="trait" icon={["Social"]}>
 <Pair single id="malevolent-temptations">Malevolent Temptations</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="malevolent-temptations-flavor">You have resisted or escaped the temptations of a disguised <Link to="/family/hag">hag</Link>, and you learned much from your encounter.</Pair>
@@ -3120,7 +3120,7 @@ const _malevolent_temptations = {title: "Malevolent Temptations", topLink: ["Soc
 </Ability>
 </>};
 const _marked_by_unknown_forces = {title: "Marked by Unknown Forces", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="marked-by-unknown-forces" extraClasses="trait" icon={["village"]}>
+<Ability id="marked-by-unknown-forces" extraClasses="trait" icon={["Social"]}>
 <Pair single id="marked-by-unknown-forces">Marked by Unknown Forces</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="marked-by-unknown-forces-flavor">That which has marked you for power has also given you proof to show others.</Pair>
@@ -3128,7 +3128,7 @@ const _marked_by_unknown_forces = {title: "Marked by Unknown Forces", topLink: [
 </Ability>
 </>};
 const _master_messenger = {title: "Master Messenger", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2</Link></p>
-<Ability id="master-messenger" extraClasses="trait" icon={["village"]}>
+<Ability id="master-messenger" extraClasses="trait" icon={["Social"]}>
 <Pair single id="master-messenger">Master Messenger</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Region" hl>Riddleport</Pair>
@@ -3137,7 +3137,7 @@ const _master_messenger = {title: "Master Messenger", topLink: ["Social Traits",
 </Ability>
 </>};
 const _mediator = {title: "Mediator", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
-<Ability id="mediator" extraClasses="trait" icon={["village"]}>
+<Ability id="mediator" extraClasses="trait" icon={["Social"]}>
 <Pair single id="mediator">Mediator</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="mediator-flavor">You have a way with calming tempers, using cool logic to sooth heated disagreements, and you were always the one to settle arguments among your friends, family, and community.</Pair>
@@ -3145,7 +3145,7 @@ const _mediator = {title: "Mediator", topLink: ["Social Traits","main/traits_soc
 </Ability>
 </>};
 const _memorable = {title: "Memorable", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="memorable" extraClasses="trait" icon={["village"]}>
+<Ability id="memorable" extraClasses="trait" icon={["Social"]}>
 <Pair single id="memorable">Memorable</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="memorable-flavor">Growing up amid a large number of children, you learned quickly how to get others' attention and keep it.</Pair>
@@ -3155,7 +3155,7 @@ const _memorable = {title: "Memorable", topLink: ["Social Traits","main/traits_s
 </Ability>
 </>};
 const _mentored = {title: "Mentored", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="mentored" extraClasses="trait" icon={["village"]}>
+<Ability id="mentored" extraClasses="trait" icon={["Social"]}>
 <Pair single id="mentored">Mentored</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="mentored-flavor">A tutor or private instructor guided you in learning your art, profession, or trade, and through your education, you became capable of teaching and guiding others.</Pair>
@@ -3163,7 +3163,7 @@ const _mentored = {title: "Mentored", topLink: ["Social Traits","main/traits_soc
 </Ability>
 </>};
 const _mercenary = {title: "Mercenary", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="mercenary" extraClasses="trait" icon={["village"]}>
+<Ability id="mercenary" extraClasses="trait" icon={["Social"]}>
 <Pair single id="mercenary">Mercenary</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="mercenary-flavor">For everything there is a price, and you are a negotiator at heart.</Pair>
@@ -3171,7 +3171,7 @@ const _mercenary = {title: "Mercenary", topLink: ["Social Traits","main/traits_s
 </Ability>
 </>};
 const _merchant = {title: "Merchant", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="merchant" extraClasses="trait" icon={["village"]}>
+<Ability id="merchant" extraClasses="trait" icon={["Social"]}>
 <Pair single id="merchant">Merchant</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="merchant-flavor">You lived your life as a merchant, buying and selling goods.</Pair>
@@ -3179,7 +3179,7 @@ const _merchant = {title: "Merchant", topLink: ["Social Traits","main/traits_soc
 </Ability>
 </>};
 const _mock_gladiator = {title: "Mock Gladiator", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
-<Ability id="mock-gladiator" extraClasses="trait" icon={["village"]}>
+<Ability id="mock-gladiator" extraClasses="trait" icon={["Social"]}>
 <Pair single id="mock-gladiator">Mock Gladiator</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="mock-gladiator-flavor">You have learned how to work a crowd in Magnimar's mock-gladiator fights.</Pair>
@@ -3187,7 +3187,7 @@ const _mock_gladiator = {title: "Mock Gladiator", topLink: ["Social Traits","mai
 </Ability>
 </>};
 const _monster_scholar = {title: "Monster Scholar", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook</Link></p>
-<Ability id="monster-scholar" extraClasses="trait" icon={["village"]}>
+<Ability id="monster-scholar" extraClasses="trait" icon={["Social"]}>
 <Pair single id="monster-scholar">Monster Scholar</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="monster-scholar-flavor">Your study of monsters keeps you well informed.</Pair>
@@ -3195,7 +3195,7 @@ const _monster_scholar = {title: "Monster Scholar", topLink: ["Social Traits","m
 </Ability>
 </>};
 const _monster_stalker = {title: "Monster Stalker", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook</Link></p>
-<Ability id="monster-stalker" extraClasses="trait" icon={["village"]}>
+<Ability id="monster-stalker" extraClasses="trait" icon={["Social"]}>
 <Pair single id="monster-stalker">Monster Stalker</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="monster-stalker-flavor">You've been raised to hunt certain beasts.</Pair>
@@ -3203,7 +3203,7 @@ const _monster_stalker = {title: "Monster Stalker", topLink: ["Social Traits","m
 </Ability>
 </>};
 const _natural_born_leader_social = {title: "Natural-Born Leader (Social)", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="natural-born-leader-social" extraClasses="trait" icon={["village"]}>
+<Ability id="natural-born-leader-social" extraClasses="trait" icon={["Social"]}>
 <Pair single id="natural-born-leader-social">Natural-Born Leader (Social)</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="natural-born-leader-social-flavor">You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not.</Pair>
@@ -3211,14 +3211,14 @@ const _natural_born_leader_social = {title: "Natural-Born Leader (Social)", topL
 </Ability>
 </>};
 const _nightstalls_navigator = {title: "Nightstalls Navigator", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets</Link></p>
-<Ability id="nightstalls-navigator" extraClasses="trait" icon={["village"]}>
+<Ability id="nightstalls-navigator" extraClasses="trait" icon={["Social"]}>
 <Pair single id="nightstalls-navigator">Nightstalls Navigator</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="benefit" id="nightstalls-navigator-benefit">Long exposure to the endless variety of the <Link to="/rule/nightstalls">Nightstalls</Link> grants you a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to gather information and on <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks to recall information about criminal activities. One of these (your choice) is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _noble_savage = {title: "Noble Savage", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="noble-savage" extraClasses="trait" icon={["village"]}>
+<Ability id="noble-savage" extraClasses="trait" icon={["Social"]}>
 <Pair single id="noble-savage">Noble Savage</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl>Associated with the <Link to="/rule/ulfen_guard">Ulfen Guard</Link></Pair>
@@ -3227,7 +3227,7 @@ const _noble_savage = {title: "Noble Savage", topLink: ["Social Traits","main/tr
 </Ability>
 </>};
 const _nonchalant_thuggery = {title: "Nonchalant Thuggery", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="nonchalant-thuggery" extraClasses="trait" icon={["village"]}>
+<Ability id="nonchalant-thuggery" extraClasses="trait" icon={["Social"]}>
 <Pair single id="nonchalant-thuggery">Nonchalant Thuggery</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="nonchalant-thuggery-flavor">You are adept at keeping witnesses from noticing that anything is wrong.</Pair>
@@ -3235,7 +3235,7 @@ const _nonchalant_thuggery = {title: "Nonchalant Thuggery", topLink: ["Social Tr
 </Ability>
 </>};
 const _numerian_fluid_indulger = {title: "Numerian Fluid Indulger", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court</Link></p>
-<Ability id="numerian-fluid-indulger" extraClasses="trait" icon={["village"]}>
+<Ability id="numerian-fluid-indulger" extraClasses="trait" icon={["Social"]}>
 <Pair single id="numerian-fluid-indulger">Numerian Fluid Indulger</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Region" hl>Numeria</Pair>
@@ -3245,7 +3245,7 @@ const _numerian_fluid_indulger = {title: "Numerian Fluid Indulger", topLink: ["S
 </Ability>
 </>};
 const _obnoxious = {title: "Obnoxious", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="obnoxious" extraClasses="trait" icon={["village"]}>
+<Ability id="obnoxious" extraClasses="trait" icon={["Social"]}>
 <Pair single id="obnoxious">Obnoxious</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="obnoxious-flavor">You have long since forgotten to care what people think about you - though your interactions are always memorable, at the very least.</Pair>
@@ -3253,7 +3253,7 @@ const _obnoxious = {title: "Obnoxious", topLink: ["Social Traits","main/traits_s
 </Ability>
 </>};
 const _official_ties = {title: "Official Ties", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="official-ties" extraClasses="trait" icon={["village"]}>
+<Ability id="official-ties" extraClasses="trait" icon={["Social"]}>
 <Pair single id="official-ties">Official Ties</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="official-ties-flavor">You maintain a friendship with one or more figures of authority. You have minor sway with one of these figures if your game uses <Link to="/rule/individual_influence">individual influence</Link>.</Pair>
@@ -3263,7 +3263,7 @@ const _official_ties = {title: "Official Ties", topLink: ["Social Traits","main/
 </Ability>
 </>};
 const _ordinary = {title: "Ordinary", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="ordinary" extraClasses="trait" icon={["village"]}>
+<Ability id="ordinary" extraClasses="trait" icon={["Social"]}>
 <Pair single id="ordinary">Ordinary</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="ordinary-flavor">The only thing extraordinary about your appearance is its ordinariness. You carry yourself in an understated way, and many people who see your face soon forget it.</Pair>
@@ -3271,7 +3271,7 @@ const _ordinary = {title: "Ordinary", topLink: ["Social Traits","main/traits_soc
 </Ability>
 </>};
 const _orphaned = {title: "Orphaned", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="orphaned" extraClasses="trait" icon={["village"]}>
+<Ability id="orphaned" extraClasses="trait" icon={["Social"]}>
 <Pair single id="orphaned">Orphaned</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="orphaned-flavor">You grew up separated from your birth parents, and had to learn to watch out for yourself.</Pair>
@@ -3279,7 +3279,7 @@ const _orphaned = {title: "Orphaned", topLink: ["Social Traits","main/traits_soc
 </Ability>
 </>};
 const _outsider_enemy = {title: "Outsider Enemy", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 29</Link></p>
-<Ability id="outsider-enemy" extraClasses="trait" icon={["village"]}>
+<Ability id="outsider-enemy" extraClasses="trait" icon={["Social"]}>
 <Pair single id="outsider-enemy">Outsider Enemy</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="outsider-enemy-flavor">One of your ancestors was a conjurer who specialized in binding outsiders of a particular type. You have inherited some of his skills, but also some of his enemies. Choose a single outsider subtype.</Pair>
@@ -3287,7 +3287,7 @@ const _outsider_enemy = {title: "Outsider Enemy", topLink: ["Social Traits","mai
 </Ability>
 </>};
 const _pack_savvy = {title: "Pack Savvy", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="pack-savvy" extraClasses="trait" icon={["village"]}>
+<Ability id="pack-savvy" extraClasses="trait" icon={["Social"]}>
 <Pair single id="pack-savvy">Pack Savvy</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="pack-savvy-flavor">You have learned how to gain the respect of gnolls in your region, and you know something of their social structure.</Pair>
@@ -3295,7 +3295,7 @@ const _pack_savvy = {title: "Pack Savvy", topLink: ["Social Traits","main/traits
 </Ability>
 </>};
 const _passionate_inertia = {title: "Passionate Inertia", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
-<Ability id="passionate-inertia" extraClasses="trait" icon={["village"]}>
+<Ability id="passionate-inertia" extraClasses="trait" icon={["Social"]}>
 <Pair single id="passionate-inertia">Passionate Inertia</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="passionate-inertia-flavor">Your passions drive your thinking so irresistibly that even magic struggles to change your mind.</Pair>
@@ -3303,7 +3303,7 @@ const _passionate_inertia = {title: "Passionate Inertia", topLink: ["Social Trai
 </Ability>
 </>};
 const _poverty_stricken = {title: "Poverty-Stricken", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="poverty-stricken" extraClasses="trait" icon={["village"]}>
+<Ability id="poverty-stricken" extraClasses="trait" icon={["Social"]}>
 <Pair single id="poverty-stricken">Poverty-Stricken</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="poverty-stricken-flavor">Your childhood was tough, and your parents always had to make every copper piece count. Hunger was your constant companion, and you often had to live off the land or sleep in the wild.</Pair>
@@ -3311,7 +3311,7 @@ const _poverty_stricken = {title: "Poverty-Stricken", topLink: ["Social Traits",
 </Ability>
 </>};
 const _practiced_disruptor = {title: "Practiced Disruptor", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
-<Ability id="practiced-disruptor" extraClasses="trait" icon={["village"]}>
+<Ability id="practiced-disruptor" extraClasses="trait" icon={["Social"]}>
 <Pair single id="practiced-disruptor">Practiced Disruptor</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="practiced-disruptor-flavor">You are experienced at facing off against spellcasters.</Pair>
@@ -3319,7 +3319,7 @@ const _practiced_disruptor = {title: "Practiced Disruptor", topLink: ["Social Tr
 </Ability>
 </>};
 const _preternatural_awareness = {title: "Preternatural Awareness", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="preternatural-awareness" extraClasses="trait" icon={["village"]}>
+<Ability id="preternatural-awareness" extraClasses="trait" icon={["Social"]}>
 <Pair single id="preternatural-awareness">Preternatural Awareness</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="preternatural-awareness-flavor">Multiple encounters with fell magic have left you wary.</Pair>
@@ -3327,7 +3327,7 @@ const _preternatural_awareness = {title: "Preternatural Awareness", topLink: ["S
 </Ability>
 </>};
 const _questing_hellknight = {title: "Questing Hellknight", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight</Link></p>
-<Ability id="questing-hellknight" extraClasses="trait" icon={["village"]}>
+<Ability id="questing-hellknight" extraClasses="trait" icon={["Social"]}>
 <Pair single id="questing-hellknight">Questing Hellknight</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="questing-hellknight-flavor">You are a quick study when it comes to local laws.</Pair>
@@ -3335,7 +3335,7 @@ const _questing_hellknight = {title: "Questing Hellknight", topLink: ["Social Tr
 </Ability>
 </>};
 const _reassuring_advice = {title: "Reassuring Advice", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology</Link></p>
-<Ability id="reassuring-advice" extraClasses="trait" icon={["village"]}>
+<Ability id="reassuring-advice" extraClasses="trait" icon={["Social"]}>
 <Pair single id="reassuring-advice">Reassuring Advice</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="reassuring-advice-flavor">You've studied the speeches and writings of a leader or thinker who served as a reassuring voice in her community in the turbulent times after Aroden died, painfully learning which portions of Aroden's advice no longer applied and what of his writings could still be usefully applied.</Pair>
@@ -3343,7 +3343,7 @@ const _reassuring_advice = {title: "Reassuring Advice", topLink: ["Social Traits
 </Ability>
 </>};
 const _red_silk_frankness = {title: "Red Silk Frankness", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets</Link></p>
-<Ability id="red-silk-frankness" extraClasses="trait" icon={["village"]}>
+<Ability id="red-silk-frankness" extraClasses="trait" icon={["Social"]}>
 <Pair single id="red-silk-frankness">Red Silk Frankness</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="red-silk-frankness-flavor">You learned from the <Link to="/rule/red_silk_route">Forthright Men</Link>, the Coins' peace-keeping thieves' guild, to use candor to avoid trouble.</Pair>
@@ -3351,7 +3351,7 @@ const _red_silk_frankness = {title: "Red Silk Frankness", topLink: ["Social Trai
 </Ability>
 </>};
 const _relic_proof = {title: "Relic-Proof", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_society_primer">Pathfinder Society Primer</Link></p>
-<Ability id="relic-proof" extraClasses="trait" icon={["village"]}>
+<Ability id="relic-proof" extraClasses="trait" icon={["Social"]}>
 <Pair single id="relic-proof">Relic-Proof</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="relic-proof-flavor">Your experiments - both your successes and failures - have inured you to the effects of stored magic.</Pair>
@@ -3359,7 +3359,7 @@ const _relic_proof = {title: "Relic-Proof", topLink: ["Social Traits","main/trai
 </Ability>
 </>};
 const _rest_for_the_wicked = {title: "Rest for the Wicked", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="rest-for-the-wicked" extraClasses="trait" icon={["village"]}>
+<Ability id="rest-for-the-wicked" extraClasses="trait" icon={["Social"]}>
 <Pair single id="rest-for-the-wicked">Rest for the Wicked</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="rest-for-the-wicked-flavor">Often forced to go without food or stimulation for days at a time, you have learned to use prolonged sleep as a means of escape and a way to heal your wounds.</Pair>
@@ -3367,21 +3367,21 @@ const _rest_for_the_wicked = {title: "Rest for the Wicked", topLink: ["Social Tr
 </Ability>
 </>};
 const _rich_parents = {title: "Rich Parents", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="rich-parents" extraClasses="trait" icon={["village"]}>
+<Ability id="rich-parents" extraClasses="trait" icon={["Social"]}>
 <Pair single id="rich-parents">Rich Parents</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="benefit" id="rich-parents-benefit">You were born into a rich family, perhaps even the nobility, and even though you turned to a life of adventure, you enjoy a one-time benefit to your initial finances: your starting wealth increases to 900 gp.</Pair>
 </Ability>
 </>};
 const _rugged_dragon_hunter = {title: "Rugged Dragon Hunter", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
-<Ability id="rugged-dragon-hunter" extraClasses="trait" icon={["village"]}>
+<Ability id="rugged-dragon-hunter" extraClasses="trait" icon={["Social"]}>
 <Pair single id="rugged-dragon-hunter">Rugged Dragon Hunter</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="benefit" id="rugged-dragon-hunter-benefit">You gain a +2 trait bonus on <Link to="/skill/survival">Survival</Link> checks to track dragons. If you have the <Link to="/ability/favored_terrain">favored terrain</Link> class ability, add a +1 bonus to check for skills affected by this ability, as long as you're using these skills in regards to a dragon.</Pair>
 </Ability>
 </>};
 const _savage = {title: "Savage", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="savage" extraClasses="trait" icon={["village"]}>
+<Ability id="savage" extraClasses="trait" icon={["Social"]}>
 <Pair single id="savage">Savage</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="savage-flavor">You were born and raised in untamed lands far from civilization. You learned to survive in the elements among brutal humanoids and beasts.</Pair>
@@ -3389,7 +3389,7 @@ const _savage = {title: "Savage", topLink: ["Social Traits","main/traits_social"
 </Ability>
 </>};
 const _savant = {title: "Savant", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="savant" extraClasses="trait" icon={["village"]}>
+<Ability id="savant" extraClasses="trait" icon={["Social"]}>
 <Pair single id="savant">Savant</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl><Link to="/rule/kitharodian_academy">Kitharodian Academy</Link></Pair>
@@ -3398,7 +3398,7 @@ const _savant = {title: "Savant", topLink: ["Social Traits","main/traits_social"
 </Ability>
 </>};
 const _seafaring_reputation = {title: "Seafaring Reputation", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
-<Ability id="seafaring-reputation" extraClasses="trait" icon={["village"]}>
+<Ability id="seafaring-reputation" extraClasses="trait" icon={["Social"]}>
 <Pair single id="seafaring-reputation">Seafaring Reputation</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="seafaring-reputation-flavor">The Wave Riders' fame helps you convince seafarers to cooperate.</Pair>
@@ -3406,7 +3406,7 @@ const _seafaring_reputation = {title: "Seafaring Reputation", topLink: ["Social 
 </Ability>
 </>};
 const _secret_keeper_qac = {title: "Secret-Keeper (QaC)", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="secret-keeper-qac" extraClasses="trait" icon={["village"]}>
+<Ability id="secret-keeper-qac" extraClasses="trait" icon={["Social"]}>
 <Pair single id="secret-keeper-qac">Secret-Keeper (QaC)</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="secret-keeper-qac-flavor">Growing up in a land where paranoia fills the air and any accusation of heresy or dissent can spell doom for whole families, you learned very quickly to keep a secret.</Pair>
@@ -3416,7 +3416,7 @@ const _secret_keeper_qac = {title: "Secret-Keeper (QaC)", topLink: ["Social Trai
 </Ability>
 </>};
 const _seeker = {title: "Seeker", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="seeker" extraClasses="trait" icon={["village"]}>
+<Ability id="seeker" extraClasses="trait" icon={["Social"]}>
 <Pair single id="seeker">Seeker</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="seeker-flavor">You are always on the lookout for reward and danger.</Pair>
@@ -3424,7 +3424,7 @@ const _seeker = {title: "Seeker", topLink: ["Social Traits","main/traits_social"
 </Ability>
 </>};
 const _self_reliant = {title: "Self-Reliant", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link></p>
-<Ability id="self-reliant" extraClasses="trait" icon={["village"]}>
+<Ability id="self-reliant" extraClasses="trait" icon={["Social"]}>
 <Pair single id="self-reliant">Self-Reliant</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="self-reliant-flavor">You know how to work with your hands and aren't dependent on complex tools.</Pair>
@@ -3432,7 +3432,7 @@ const _self_reliant = {title: "Self-Reliant", topLink: ["Social Traits","main/tr
 </Ability>
 </>};
 const _signature_moves = {title: "Signature Moves", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="signature-moves" extraClasses="trait" icon={["village"]}>
+<Ability id="signature-moves" extraClasses="trait" icon={["Social"]}>
 <Pair single id="signature-moves">Signature Moves</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="signature-moves-flavor">You're known for some unique item that has become your trademark.</Pair>
@@ -3440,7 +3440,7 @@ const _signature_moves = {title: "Signature Moves", topLink: ["Social Traits","m
 </Ability>
 </>};
 const _simple_disciple = {title: "Simple Disciple", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="simple-disciple" extraClasses="trait" icon={["village"]}>
+<Ability id="simple-disciple" extraClasses="trait" icon={["Social"]}>
 <Pair single id="simple-disciple">Simple Disciple</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="simple-disciple-flavor">You picked up skill in a craft or a profession during your time at a monastery.</Pair>
@@ -3448,7 +3448,7 @@ const _simple_disciple = {title: "Simple Disciple", topLink: ["Social Traits","m
 </Ability>
 </>};
 const _slave_runner = {title: "Slave Runner", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="slave-runner" extraClasses="trait" icon={["village"]}>
+<Ability id="slave-runner" extraClasses="trait" icon={["Social"]}>
 <Pair single id="slave-runner">Slave Runner</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="slave-runner-flavor">You witnessed or were party to the rescue of a halfling from Chelish slavery by the <Link to="/rule/bellflower_network">Bellflower Network</Link> or <Link to="/rule/eagle_knights">Eagle Knights</Link>.</Pair>
@@ -3456,7 +3456,7 @@ const _slave_runner = {title: "Slave Runner", topLink: ["Social Traits","main/tr
 </Ability>
 </>};
 const _snowbound = {title: "Snowbound", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="snowbound" extraClasses="trait" icon={["village"]}>
+<Ability id="snowbound" extraClasses="trait" icon={["Social"]}>
 <Pair single id="snowbound">Snowbound</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="snowbound-flavor">You came of age in a place with harsh winters amid a culture that rewarded you for testing your limits in the cold.</Pair>
@@ -3466,7 +3466,7 @@ const _snowbound = {title: "Snowbound", topLink: ["Social Traits","main/traits_s
 </Ability>
 </>};
 const _student_of_philosophy = {title: "Student of Philosophy", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="student-of-philosophy" extraClasses="trait" icon={["village"]}>
+<Ability id="student-of-philosophy" extraClasses="trait" icon={["Social"]}>
 <Pair single id="student-of-philosophy">Student of Philosophy</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="student-of-philosophy-flavor">You were trained in a now-defunct philosophical tradition - such as that of the now-destroyed Galtan universities or Lirgeni astrologers - and learned to use logic and reason to persuade others.</Pair>
@@ -3474,7 +3474,7 @@ const _student_of_philosophy = {title: "Student of Philosophy", topLink: ["Socia
 </Ability>
 </>};
 const _style_sage = {title: "Style Sage", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="style-sage" extraClasses="trait" icon={["village"]}>
+<Ability id="style-sage" extraClasses="trait" icon={["Social"]}>
 <Pair single id="style-sage">Style Sage</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="style-sage-flavor">You have a passion for history and news concerning monastic disciplines.</Pair>
@@ -3484,7 +3484,7 @@ const _style_sage = {title: "Style Sage", topLink: ["Social Traits","main/traits
 </Ability>
 </>};
 const _subjective_truth = {title: "Subjective Truth", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
-<Ability id="subjective-truth" extraClasses="trait" icon={["village"]}>
+<Ability id="subjective-truth" extraClasses="trait" icon={["Social"]}>
 <Pair single id="subjective-truth">Subjective Truth</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="subjective-truth-flavor">You are able to divorce your knowledge of the facts from your beliefs about the truth, and thus from your facial expressions and body language.</Pair>
@@ -3492,7 +3492,7 @@ const _subjective_truth = {title: "Subjective Truth", topLink: ["Social Traits",
 </Ability>
 </>};
 const _supportive = {title: "Supportive", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="supportive" extraClasses="trait" icon={["village"]}>
+<Ability id="supportive" extraClasses="trait" icon={["Social"]}>
 <Pair single id="supportive">Supportive</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="supportive-flavor">You were forced to get by in an isolated enclave, whether surrounded by a community that feared and suspected you or in a remote locale far from other people, and you became practiced at assisting your friends.</Pair>
@@ -3502,7 +3502,7 @@ const _supportive = {title: "Supportive", topLink: ["Social Traits","main/traits
 </Ability>
 </>};
 const _suspicious = {title: "Suspicious", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="suspicious" extraClasses="trait" icon={["village"]}>
+<Ability id="suspicious" extraClasses="trait" icon={["Social"]}>
 <Pair single id="suspicious">Suspicious</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="suspicious-flavor">You discovered at an early age that someone you trusted, perhaps an older sibling or a parent, had lied to you, and lied often, about something you had taken for granted, leaving you quick to question the claims of others.</Pair>
@@ -3510,7 +3510,7 @@ const _suspicious = {title: "Suspicious", topLink: ["Social Traits","main/traits
 </Ability>
 </>};
 const _talented = {title: "Talented", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="talented" extraClasses="trait" icon={["village"]}>
+<Ability id="talented" extraClasses="trait" icon={["Social"]}>
 <Pair single id="talented">Talented</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="talented-flavor">You are a virtuoso musician, actor, or storyteller.</Pair>
@@ -3518,7 +3518,7 @@ const _talented = {title: "Talented", topLink: ["Social Traits","main/traits_soc
 </Ability>
 </>};
 const _tireless_logic = {title: "Tireless Logic", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="tireless-logic" extraClasses="trait" icon={["village"]}>
+<Ability id="tireless-logic" extraClasses="trait" icon={["Social"]}>
 <Pair single id="tireless-logic">Tireless Logic</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="tireless-logic-flavor">Your curious mind figures out even the most complex problems.</Pair>
@@ -3526,7 +3526,7 @@ const _tireless_logic = {title: "Tireless Logic", topLink: ["Social Traits","mai
 </Ability>
 </>};
 const _triaxus_trained = {title: "Triaxus-Trained", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
-<Ability id="triaxus-trained" extraClasses="trait" icon={["village"]}>
+<Ability id="triaxus-trained" extraClasses="trait" icon={["Social"]}>
 <Pair single id="triaxus-trained">Triaxus-Trained</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="triaxus-trained-flavor">You have been trained in intricate dragon-handling techniques that originated on Triaxus.</Pair>
@@ -3534,7 +3534,7 @@ const _triaxus_trained = {title: "Triaxus-Trained", topLink: ["Social Traits","m
 </Ability>
 </>};
 const _tropical_upbringing = {title: "Tropical Upbringing", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="tropical-upbringing" extraClasses="trait" icon={["village"]}>
+<Ability id="tropical-upbringing" extraClasses="trait" icon={["Social"]}>
 <Pair single id="tropical-upbringing">Tropical Upbringing</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="tropical-upbringing-flavor">You were raised in searing-hot deserts, plains, jungles, or other areas, and developed an impressive resistance to heat.</Pair>
@@ -3544,7 +3544,7 @@ const _tropical_upbringing = {title: "Tropical Upbringing", topLink: ["Social Tr
 </Ability>
 </>};
 const _trustworthy = {title: "Trustworthy", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="trustworthy" extraClasses="trait" icon={["village"]}>
+<Ability id="trustworthy" extraClasses="trait" icon={["Social"]}>
 <Pair single id="trustworthy">Trustworthy</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="trustworthy-flavor">People find it easy to put their faith in you.</Pair>
@@ -3552,7 +3552,7 @@ const _trustworthy = {title: "Trustworthy", topLink: ["Social Traits","main/trai
 </Ability>
 </>};
 const _truths_agent = {title: "Truth's Agent", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="truths-agent" extraClasses="trait" icon={["village"]}>
+<Ability id="truths-agent" extraClasses="trait" icon={["Social"]}>
 <Pair single id="truths-agent">Truth's Agent</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="truths-agent-flavor">You are skilled at weeding out information.</Pair>
@@ -3560,7 +3560,7 @@ const _truths_agent = {title: "Truth's Agent", topLink: ["Social Traits","main/t
 </Ability>
 </>};
 const _unabashed_gall = {title: "Unabashed Gall", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance</Link></p>
-<Ability id="unabashed-gall" extraClasses="trait" icon={["village"]}>
+<Ability id="unabashed-gall" extraClasses="trait" icon={["Social"]}>
 <Pair single id="unabashed-gall">Unabashed Gall</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="unabashed-gall-flavor">Your total indifference to the law even as you're breaking it is such that those watching you are stunned.</Pair>
@@ -3570,14 +3570,14 @@ const _unabashed_gall = {title: "Unabashed Gall", topLink: ["Social Traits","mai
 </Ability>
 </>};
 const _unbalanced_insight = {title: "Unbalanced Insight", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
-<Ability id="unbalanced-insight" extraClasses="trait" icon={["village"]}>
+<Ability id="unbalanced-insight" extraClasses="trait" icon={["Social"]}>
 <Pair single id="unbalanced-insight">Unbalanced Insight</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="benefit" id="unbalanced-insight-benefit">You gain Aklo as a bonus language, and gain a +2 trait bonus on all saving throws to resist any effects or spells originating from aberrations that cause confusion or fear.</Pair>
 </Ability>
 </>};
 const _unintentional_linguist = {title: "Unintentional Linguist", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="unintentional-linguist" extraClasses="trait" icon={["village"]}>
+<Ability id="unintentional-linguist" extraClasses="trait" icon={["Social"]}>
 <Pair single id="unintentional-linguist">Unintentional Linguist</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="unintentional-linguist-flavor">You can speak with outsiders.</Pair>
@@ -3585,14 +3585,14 @@ const _unintentional_linguist = {title: "Unintentional Linguist", topLink: ["Soc
 </Ability>
 </>};
 const _unnatural_revenge = {title: "Unnatural Revenge", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="unnatural-revenge" extraClasses="trait" icon={["village"]}>
+<Ability id="unnatural-revenge" extraClasses="trait" icon={["Social"]}>
 <Pair single id="unnatural-revenge">Unnatural Revenge</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="benefit" id="unnatural-revenge-benefit">You gain a +2 trait bonus on all <Link to="/skill/intimidate">Intimidate</Link> checks against creatures of the animal, fey, or plant type, and Intimidate is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _unpredictable = {title: "Unpredictable", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="unpredictable" extraClasses="trait" icon={["village"]}>
+<Ability id="unpredictable" extraClasses="trait" icon={["Social"]}>
 <Pair single id="unpredictable">Unpredictable</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="unpredictable-flavor">Your actions often seem random and chaotic to others, but there is a method to your madness.</Pair>
@@ -3600,7 +3600,7 @@ const _unpredictable = {title: "Unpredictable", topLink: ["Social Traits","main/
 </Ability>
 </>};
 const _untapped_potential = {title: "Untapped Potential", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
-<Ability id="untapped-potential" extraClasses="trait" icon={["village"]}>
+<Ability id="untapped-potential" extraClasses="trait" icon={["Social"]}>
 <Pair single id="untapped-potential">Untapped Potential</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="untapped-potential-flavor">You've been part of one of Mengkare's minor experiments.</Pair>
@@ -3608,7 +3608,7 @@ const _untapped_potential = {title: "Untapped Potential", topLink: ["Social Trai
 </Ability>
 </>};
 const _unwelcome_business = {title: "Unwelcome Business", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest</Link></p>
-<Ability id="unwelcome-business" extraClasses="trait" icon={["village"]}>
+<Ability id="unwelcome-business" extraClasses="trait" icon={["Social"]}>
 <Pair single id="unwelcome-business">Unwelcome Business</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="unwelcome-business-flavor">You specialize in delivering or procuring shipments where those commodities are not allowed or where your identity would elicit negative bias.</Pair>
@@ -3616,7 +3616,7 @@ const _unwelcome_business = {title: "Unwelcome Business", topLink: ["Social Trai
 </Ability>
 </>};
 const _veiled_disciple = {title: "Veiled Disciple", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="veiled-disciple" extraClasses="trait" icon={["village"]}>
+<Ability id="veiled-disciple" extraClasses="trait" icon={["Social"]}>
 <Pair single id="veiled-disciple">Veiled Disciple</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="veiled-disciple-flavor">Trained in espionage, you're skilled at passing messages and staying on task.</Pair>
@@ -3624,7 +3624,7 @@ const _veiled_disciple = {title: "Veiled Disciple", topLink: ["Social Traits","m
 </Ability>
 </>};
 const _vengeful_social = {title: "Vengeful (Social)", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
-<Ability id="vengeful-social" extraClasses="trait" icon={["village"]}>
+<Ability id="vengeful-social" extraClasses="trait" icon={["Social"]}>
 <Pair single id="vengeful-social">Vengeful (Social)</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="vengeful-social-flavor">You were brutally betrayed, and you have dedicated yourself to pursuing revenge.</Pair>
@@ -3632,7 +3632,7 @@ const _vengeful_social = {title: "Vengeful (Social)", topLink: ["Social Traits",
 </Ability>
 </>};
 const _vigilant_spycatcher = {title: "Vigilant Spycatcher", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
-<Ability id="vigilant-spycatcher" extraClasses="trait" icon={["village"]}>
+<Ability id="vigilant-spycatcher" extraClasses="trait" icon={["Social"]}>
 <Pair single id="vigilant-spycatcher">Vigilant Spycatcher</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="vigilant-spycatcher-flavor">Paranoid parents or a military trainer taught you to keep vigilant for spies.</Pair>
@@ -3640,7 +3640,7 @@ const _vigilant_spycatcher = {title: "Vigilant Spycatcher", topLink: ["Social Tr
 </Ability>
 </>};
 const _voices_in_your_head = {title: "Voices in your Head", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
-<Ability id="voices-in-your-head" extraClasses="trait" icon={["village"]}>
+<Ability id="voices-in-your-head" extraClasses="trait" icon={["Social"]}>
 <Pair single id="voices-in-your-head">Voices in your Head</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="voices-in-your-head-flavor">Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness.</Pair>
@@ -3648,7 +3648,7 @@ const _voices_in_your_head = {title: "Voices in your Head", topLink: ["Social Tr
 </Ability>
 </>};
 const _wanderlust = {title: "Wanderlust", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="wanderlust" extraClasses="trait" icon={["village"]}>
+<Ability id="wanderlust" extraClasses="trait" icon={["Social"]}>
 <Pair single id="wanderlust">Wanderlust</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="wanderlust-flavor">Your childhood was brightened by the new places you constantly saw as you traveled with your parents, who were merchants. Still excited by travel, you gain great energy when traveling overland.</Pair>
@@ -3658,7 +3658,7 @@ const _wanderlust = {title: "Wanderlust", topLink: ["Social Traits","main/traits
 </Ability>
 </>};
 const _wasteland_vargrant = {title: "Wasteland Vargrant", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="wasteland-vargrant" extraClasses="trait" icon={["village"]}>
+<Ability id="wasteland-vargrant" extraClasses="trait" icon={["Social"]}>
 <Pair single id="wasteland-vargrant">Wasteland Vargrant</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="wasteland-vargrant-flavor">You have spent most of your life learning how to survive in wastelands, and a lack of normal survival resources apparent in the environment is not a problem for you.</Pair>
@@ -3666,7 +3666,7 @@ const _wasteland_vargrant = {title: "Wasteland Vargrant", topLink: ["Social Trai
 </Ability>
 </>};
 const _weathered_emissary = {title: "Weathered Emissary", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="weathered-emissary" extraClasses="trait" icon={["village"]}>
+<Ability id="weathered-emissary" extraClasses="trait" icon={["Social"]}>
 <Pair single id="weathered-emissary">Weathered Emissary</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="weathered-emissary-flavor">Your travels in the wildlands gave you insight into how to survive their dangers and communicate with their inhabitants.</Pair>
@@ -3674,14 +3674,14 @@ const _weathered_emissary = {title: "Weathered Emissary", topLink: ["Social Trai
 </Ability>
 </>};
 const _wicked_leader = {title: "Wicked Leader", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
-<Ability id="wicked-leader" extraClasses="trait" icon={["village"]}>
+<Ability id="wicked-leader" extraClasses="trait" icon={["Social"]}>
 <Pair single id="wicked-leader">Wicked Leader</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="benefit" id="wicked-leader-benefit">You gain a +1 trait bonus on Charisma checks against evil creatures. If you select the <Link to="/feat/leadership">Leadership</Link> feat or the <Link to="/feat/vile_leadership">Vile Leadership</Link> feat at any point when you meet the prerequisites for that feat, you can recruit a cohort who is up to 1 level lower than you (instead of the normal requirement that your cohort must be 2 or more levels lower than you are) as long as your cohort is evil.</Pair>
 </Ability>
 </>};
 const _wiscrani_ear = {title: "Wiscrani Ear", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
-<Ability id="wiscrani-ear" extraClasses="trait" icon={["village"]}>
+<Ability id="wiscrani-ear" extraClasses="trait" icon={["Social"]}>
 <Pair single id="wiscrani-ear">Wiscrani Ear</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="wiscrani-ear-flavor">You have a keen ear for the movements of thieves and monsters.</Pair>
@@ -3689,7 +3689,7 @@ const _wiscrani_ear = {title: "Wiscrani Ear", topLink: ["Social Traits","main/tr
 </Ability>
 </>};
 const _worldly = {title: "Worldly", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="worldly" extraClasses="trait" icon={["village"]}>
+<Ability id="worldly" extraClasses="trait" icon={["Social"]}>
 <Pair single id="worldly">Worldly</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="worldly-flavor">You have acquired an unusual breadth of life experience - more than others of your age, race, or culture.</Pair>

@@ -1,28 +1,12 @@
-import { IonIcon } from '@ionic/react';
 import { FC, PropsWithChildren, useContext } from 'react';
-import Link from './Link';
 import { IdContext } from './contexts';
+import Icons from './Icons';
 
 interface AbilityProps {
 	id: string
 	icon: string[]
 	extraClasses?: string
 }
-
-interface IconProps {
-	id: string
-	icon: string[]
-}
-
-const Icon: FC<IconProps> = ({icon, id}) => {
-	return icon.map(
-		(ic, i) => (
-			<Link to={"/icons/" + ic} key={`${id} icon ${ic} ${i}`}>
-				<IonIcon icon={`/icons/${ic}.svg`} />
-			</Link>
-		)
-	);
-};
 
 const Ability: FC<PropsWithChildren<AbilityProps>> = (props) => {
 	const {id, icon = [], extraClasses, children} = props;
@@ -32,7 +16,7 @@ const Ability: FC<PropsWithChildren<AbilityProps>> = (props) => {
 		<div className={className}>
 			{icon.length ? (
 				<div className="abIcon">
-					<Icon icon={icon} id={cId} />
+					<Icons list={icon} id={cId} />
 				</div>
 			) : ""}
 			{children}

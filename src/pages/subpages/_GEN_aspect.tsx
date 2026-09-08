@@ -8,13 +8,13 @@ const _not_found = {title: "Unknown", jsx: <><h2 id="aspect-not_found-error">Err
 </>};
 const _bat = {title: "Bat", jsx: <><h2 id="aspect-bat-bat">Bat</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 28</Link><br/>The aspect of the bat imparts mastery over darkness and the night. Though not as powerful in battle as some other aspects, those who take this aspect become adept at skirmishing and spying.</p>
-<Ability id="minor-form" icon={["stairs-goal"]}>
+<Ability id="minor-form" icon={["power"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Ability">You gain darkvision with a range of 60 feet. If you already have darkvision with this range or greater, the range of your darkvision increases by 30 feet.</Pair>
 <Pair title="At 8th Level">You gain darkvision with a range of 90 feet instead. If you already have darkvision with this range or greater, your darkvision increases by 30 feet.</Pair>
 <Pair title="At 15th Level">You gain the 8th-level benefit and gain <Link to="/umr/blindsense">blindsense</Link> with a range of 15 feet or, if you already have blindsense with a range of 15 feet or more, you increase its range by 10 feet.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a <Link to="/monster/dire_bat">dire bat</Link>. While in this form, you gain a base speed of 30 feet, a fly speed of 40 feet (clumsy), blindsense with a range of 10 feet, and a <Link to="/umr/bite_attack">bite attack</Link> (1d8 damage).</Pair>
@@ -26,13 +26,13 @@ const _bat = {title: "Bat", jsx: <><h2 id="aspect-bat-bat">Bat</h2>
 </>};
 const _bear = {title: "Bear", jsx: <><h2 id="aspect-bear-bear">Bear</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 29</Link><br/>The aspect of the bear invokes a juggernaut of tireless endurance and furious power. Those who take this aspect are known for surviving severe wounds and delivering punishing blows in return.</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +2 enhancement bonus to your Constitution score.</Pair>
 <Pair title="At 8th Level">The bonus becomes +4.</Pair>
 <Pair title="At 15th Level">The bonus increases to +6.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a <Link to="/monster/dire_bear">dire bear</Link>. While in this form, you gain a base speed of 40 feet, low-light vision, <Link to="/umr/scent">scent</Link> (30 feet), a <Link to="/umr/bite_attack">bite attack</Link> (1d8 damage), and two claw attacks (1d6 damage) with the <Link to="/umr/grab">grab</Link> ability.</Pair>
@@ -44,12 +44,12 @@ const _bear = {title: "Bear", jsx: <><h2 id="aspect-bear-bear">Bear</h2>
 </>};
 const _boar = {title: "Boar", jsx: <><h2 id="aspect-boar-boar">Boar</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 4</Link><br/>Those with the aspect of the boar are famously stubborn.</p>
-<Ability id="minor-form" icon={["stairs-goal"]}>
+<Ability id="minor-form" icon={["power"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Ability">You gain <Link to="/feat/diehard">Diehard</Link> as a bonus feat.</Pair>
 <Pair title="At 8th Level">You add your Hit Dice to your Constitution when determining the negative number of hit points at which you die.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal","upgrade"]}>
+<Ability id="major-form" icon={["magic","melee","power","boost"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a <Link to="/monster/dire_boar">dire boar</Link>. While in this form, you gain low-light vision, the <Link to="/umr/scent">scent</Link> ability, a <Link to="/umr/gore_attack">gore attack</Link> (1d8), and a base speed of 40 feet.</Pair>
@@ -61,13 +61,13 @@ const _boar = {title: "Boar", jsx: <><h2 id="aspect-boar-boar">Boar</h2>
 </>};
 const _bull = {title: "Bull", jsx: <><h2 id="aspect-bull-bull">Bull</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 29</Link><br/>The bull is a fierce charger and is adept at trampling its foes, pounding them to a bloody pulp.</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +2 enhancement bonus to your Strength score.</Pair>
 <Pair title="At 8th Level">The bonus becomes +4.</Pair>
 <Pair title="At 15th Level">The bonus increases to +6.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a Large bull (use <Link to="/monster/aurochs">aurochs</Link> stats). While in this form, you gain a base speed of 40 feet, low-light vision, <Link to="/umr/scent">scent</Link>, and a <Link to="/umr/gore_attack">gore attack</Link> (1d8 damage) with <Link to="/umr/powerful_charge">powerful charge</Link> (+1d8 on your gore attack).</Pair>
@@ -79,13 +79,13 @@ const _bull = {title: "Bull", jsx: <><h2 id="aspect-bull-bull">Bull</h2>
 </>};
 const _crocodile = {title: "Crocodile", jsx: <><h2 id="aspect-crocodile-crocodile">Crocodile</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 4</Link><br/>The crocodile lurks in the water, unseen until it lunges forth with its powerful jaws.</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +2 competence bonus on Swim checks and <Link to="/rule/grapple">grapple</Link> combat maneuver checks.</Pair>
 <Pair title="At 8th Level">This bonus becomes +4.</Pair>
 <Pair title="At 15th Level">This bonus increases to +6.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a <Link to="/monster/crocodile">crocodile</Link>. While in this form, you gain a swim speed of 30 feet, low-light vision, a <Link to="/umr/bite_attack">bite attack</Link> (1d8) with the <Link to="/umr/grab">grab</Link> ability, and a tail slap attack (a secondary natural attack that deals 1d12 points of damage).</Pair>
@@ -97,13 +97,13 @@ const _crocodile = {title: "Crocodile", jsx: <><h2 id="aspect-crocodile-crocodil
 </>};
 const _deinonychus = {title: "Deinonychus", jsx: <><h2 id="aspect-deinonychus-deinonychus">Deinonychus</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 29</Link><br/>The deinonychus is adept at racing from ambush to deliver grievous wounds with its talons. This aspect infuses the shifter with an enhanced ability to surprise foes and strike first in battle.</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +2 bonus on Initiative checks.</Pair>
 <Pair title="At 8th Level">This bonus becomes +4.</Pair>
 <Pair title="At 15th Level">This bonus increases to +6.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a <Link to="/monster/deinonychus">deinonychus</Link>. While in this form, you gain a base speed of 60 feet, low-light vision, <Link to="/umr/scent">scent</Link> (30 feet), a <Link to="/umr/bite_attack">bite attack</Link> (1d8 damage), and two talon attacks (1d8 damage; your talon attacks can use your <em>shifter claws</em> damage), and <Link to="/umr/pounce">pounce</Link>.</Pair>
@@ -115,13 +115,13 @@ const _deinonychus = {title: "Deinonychus", jsx: <><h2 id="aspect-deinonychus-de
 </>};
 const _dolphin = {title: "Dolphin", jsx: <><h2 id="aspect-dolphin-dolphin">Dolphin</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 4</Link><br/>The aspect of the dolphin imparts clever mastery of the seas. Shifters with this aspect also embody the size and ferociousness of large dolphins, such as orcas.</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +4 competence bonus on Knowledge checks to identify creatures' abilities and weaknesses.</Pair>
 <Pair title="At 8th Level">The bonus becomes +6.</Pair>
 <Pair title="At 15th Level">The bonus increases to +8.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a Large <Link to="/monster/dolphin">dolphin</Link>, but your space is 10 feet instead of 5 feet. While in this form, you gain a swim speed of 60 feet, <Link to="/umr/blindsense">blindsense</Link> with a range of 10 feet, low-light vision, a <Link to="/umr/bite_attack">bite attack</Link> (1d8), and the ability to <Link to="/misc/hold_your_breath">hold your breath</Link> for a number of minutes equal to 6 times your Constitution score before you risk drowning.</Pair>
@@ -133,13 +133,13 @@ const _dolphin = {title: "Dolphin", jsx: <><h2 id="aspect-dolphin-dolphin">Dolph
 </>};
 const _dragonfly = {title: "Dragonfly", jsx: <><h2 id="aspect-dragonfly-dragonfly">Dragonfly</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 4</Link><br/>The aspect of the dragonfly offers the ability to make quick, darting attacks at foes.</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain an enhancement bonus of +10 feet to your base speed when <Link to="/rule/charging">charging</Link>.</Pair>
 <Pair title="At 8th Level">This bonus increases to +20 feet.</Pair>
 <Pair title="At 15th Level">The bonus becomes +30 feet.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/vermin_shape_ii">Vermin Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a <Link to="/monster/giant_dragonfly">giant dragonfly</Link>. While in this form, you gain a fly speed of 60 feet (average), darkvision with a range of 60 feet, and a <Link to="/umr/bite_attack">bite attack</Link> (2d6) with the <Link to="/umr/grab">grab</Link> ability.</Pair>
@@ -151,13 +151,13 @@ const _dragonfly = {title: "Dragonfly", jsx: <><h2 id="aspect-dragonfly-dragonfl
 </>};
 const _electric_eel = {title: "Electric Eel", jsx: <><h2 id="aspect-electric_eel-electric-eel">Electric Eel</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 4</Link><br/>The aspect of the electric eel imparts the ability to charge attacks with electricity and to slip effortlessly out of danger.</p>
-<Ability id="minor-form" icon={["mailed-fist"]}>
+<Ability id="minor-form" icon={["melee"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Ability">Your attacks deal 1 point of electricity damage in addition to their normal damage.</Pair>
 <Pair title="At 8th Level">The extra damage becomes 1d3.</Pair>
 <Pair title="At 15th Level">The extra damage increases to 1d6.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of an <Link to="/monster/electric_eel">electric eel</Link>. While in this form, you gain a swim speed of 30 feet, low-light vision, electricity <Link to="/umr/resistance">resistance</Link> 5, a <Link to="/umr/bite_attack">bite attack</Link> (1d6), and a tail attack (a secondary natural touch attack that deals 1d6 points of electricity damage).</Pair>
@@ -169,13 +169,13 @@ const _electric_eel = {title: "Electric Eel", jsx: <><h2 id="aspect-electric_eel
 </>};
 const _elephant = {title: "Elephant", jsx: <><h2 id="aspect-elephant-elephant">Elephant</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 22</Link><br/>The elephant is a symbol of both power and wisdom in Garund and Vudra. Shifters who take this aspect learn the value of applying their strength with precision. An elephant's alternate attacks are gore (P) and slam (B).</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +4 enhancement bonus on <Link to="/rule/bull_rush">bull rush</Link> and <Link to="/rule/overrun">overrun</Link> combat maneuver checks.</Pair>
 <Pair title="At 8th Level">The bonus becomes +6.</Pair>
 <Pair title="At 15th Level">The bonus increases to +8.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a Large adolescent <Link to="/monster/elephant">elephant</Link> (as an elephant, but with a space of 10 feet). While in this form, you gain low-light vision, <Link to="/umr/scent">scent</Link>, a <Link to="/umr/gore_attack">gore attack</Link> (1d6 damage), and a slam attack (1d8 damage) with a 5-foot reach. You also gain a +2 racial bonus to Strength and to natural armor. While in this form, you can carry a Medium bipedal creature on your back, allowing you to act as the creature's mount.</Pair>
@@ -187,13 +187,13 @@ const _elephant = {title: "Elephant", jsx: <><h2 id="aspect-elephant-elephant">E
 </>};
 const _falcon = {title: "Falcon", jsx: <><h2 id="aspect-falcon-falcon">Falcon</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 29</Link><br/>The falcon senses all and has the speed to hunt down even the most elusive prey. Those who take this aspect gain enhanced abilities to perceive and reconnoiter the wilderness - little escapes this shifter's attention.</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +4 competence bonus on Perception checks.</Pair>
 <Pair title="At 8th Level">The bonus becomes +6.</Pair>
 <Pair title="At 15th Level">The bonus increases to +8.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a Small <Link to="/monster/falcon">falcon</Link>. While in this form, you gain a base speed of 30 feet, a <Link to="/umr/bite_attack">bite attack</Link> (1d4 damage), two claw attacks (1d3 damage), a fly speed of 60 feet (good), low-light vision, and a +4 racial bonus on vision-based Perception checks.</Pair>
@@ -205,13 +205,13 @@ const _falcon = {title: "Falcon", jsx: <><h2 id="aspect-falcon-falcon">Falcon</h
 </>};
 const _frog = {title: "Frog", jsx: <><h2 id="aspect-frog-frog">Frog</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 29</Link><br/>The aspect of the frog grants great mobility in leaping through the air and swimming in water, as well surprising tactics in combat.</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +4 competence bonus on Acrobatics checks when jumping and on Swim checks.</Pair>
 <Pair title="At 8th Level">These bonuses become +6.</Pair>
 <Pair title="At 15th Level">These bonuses increase to +8.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a Large frog (as per the <Link to="/monster/giant_frog">giant frog</Link> but with a space of 10 feet). While in this form, you gain a base speed of 30 feet, a swim speed of 30 feet, low-light vision, <Link to="/umr/scent">scent</Link> (30 feet), a <Link to="/umr/bite_attack">bite attack</Link> (1d6 damage) with the <Link to="/umr/grab">grab</Link> ability, and the ability to treat all <Link to="/skill/acrobatics">jumps</Link> as if you had a running start.</Pair>
@@ -223,13 +223,13 @@ const _frog = {title: "Frog", jsx: <><h2 id="aspect-frog-frog">Frog</h2>
 </>};
 const _giant_wasp = {title: "Giant Wasp", jsx: <><h2 id="aspect-giant_wasp-giant-wasp">Giant Wasp</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 22</Link><br/>The aspect of the wasp grants flight and a venomous sting, as well as great mental resistance. A giant wasp's alternate attack is sting (P).</p>
-<Ability id="minor-form" icon={["armor-upgrade"]}>
+<Ability id="minor-form" icon={["def"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +4 bonus on Will saves against mind-affecting affects.</Pair>
 <Pair title="At 8th Level">The bonus becomes +6.</Pair>
 <Pair title="At 15th Level">The bonus increases to +8.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/vermin_shape_ii">Vermin Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a <Link to="/monster/giant_wasp">giant wasp</Link>. This ability uses the <Link to="/spell/vermin_shape_1">vermin shape</Link> spell, rather than <Link to="/spell/beast_shape_1">beast shape</Link>, for the purposes of wild shape. While in this form, you gain a fly speed of 40 feet (clumsy), and swarms and vermin do not attack you unless magically commanded to do so.</Pair>
@@ -243,13 +243,13 @@ const _giant_wasp = {title: "Giant Wasp", jsx: <><h2 id="aspect-giant_wasp-giant
 </>};
 const _horse = {title: "Horse", jsx: <><h2 id="aspect-horse-horse">Horse</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 22</Link><br/>The aspect of the horse grants speed and maneuverability. A horse's alternate attack is hoof (B).</p>
-<Ability id="minor-form" icon={["stairs-goal","upgrade"]}>
+<Ability id="minor-form" icon={["power","boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Ability">You gain the <Link to="/feat/endurance">Endurance</Link> feat as well as an enhancement bonus of +5 feet to your base speed.</Pair>
 <Pair title="At 8th Level">You gain the <Link to="/feat/run">Run</Link> feat. If you already have the Run feat, you instead can run at 6 times your base speed when using the Run feat.</Pair>
 <Pair title="At 15th Level">Your enhancement bonus to your base speed increases to +15.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a <Link to="/monster/horse">horse</Link>. While in this form, you gain a base speed of 50 feet, low-light vision, <Link to="/umr/scent">scent</Link> (30 feet), and the ability to move before and after an attack, as if you had the <Link to="/feat/ride_by_attack">Ride-By Attack</Link> feat.</Pair>
@@ -261,13 +261,13 @@ const _horse = {title: "Horse", jsx: <><h2 id="aspect-horse-horse">Horse</h2>
 </>};
 const _lion = {title: "Lion", jsx: <><h2 id="aspect-lion-lion">Lion</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 22</Link><br/>Lions hunt in prides, cooperating to bring down large opponents and defend their territory. A lion's alternate attack is bite (B, P, S).</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +4 competence bonus on Intimidate checks.</Pair>
 <Pair title="At 8th Level">The bonus becomes +6.</Pair>
 <Pair title="At 15th Level">The bonus increases to +8.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a <Link to="/monster/dire_lion">dire lion</Link>. While in this form, you gain a base speed of 40 feet, low-light vision, and <Link to="/umr/scent">scent</Link> (30 feet). Once per day for every 2 shifter levels you have, you can utter a mighty roar, allowing you to attempt an <Link to="/skill/intimidate">Intimidate</Link> check with a +5 circumstance bonus to demoralize enemies within 30 feet. Allies gain a +1 morale bonus on attack and damage rolls against creatures affected by this ability.</Pair>
@@ -279,13 +279,13 @@ const _lion = {title: "Lion", jsx: <><h2 id="aspect-lion-lion">Lion</h2>
 </>};
 const _lizard = {title: "Lizard", jsx: <><h2 id="aspect-lizard-lizard">Lizard</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 29</Link><br/>The aspect of the lizard is one of swift, graceful movement, granting the ability to dart and scurry with an astounding agility and balance.</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +4 competence bonus on Acrobatics checks.</Pair>
 <Pair title="At 8th Level">The bonus becomes +6.</Pair>
 <Pair title="At 15th Level">The bonus increases to +8.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of an agile and brightly colored giant lizard (as per the <Link to="/monster/giant_frilled_lizard">giant frilled lizard</Link>, but with the following changes). While in this form, you gain a base speed of 40 feet, low-light vision, <Link to="/umr/scent">scent</Link> (30 feet), a primary <Link to="/umr/bite_attack">bite attack</Link> (1d8 damage) with the <Link to="/umr/grab">grab</Link> ability and a secondary tail attack (1d6 damage) with the <Link to="/umr/trip">trip</Link> ability.</Pair>
@@ -297,12 +297,12 @@ const _lizard = {title: "Lizard", jsx: <><h2 id="aspect-lizard-lizard">Lizard</h
 </>};
 const _mantis = {title: "Mantis", jsx: <><h2 id="aspect-mantis-mantis">Mantis</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 4</Link><br/>The aspect of the mantis imparts uncanny patience and unsettling speed.</p>
-<Ability id="minor-form" icon={["stairs-goal","upgrade"]}>
+<Ability id="minor-form" icon={["power","boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Ability">You gain <Link to="/feat/lunge">Lunge</Link> as a bonus feat.</Pair>
 <Pair title="At 12th Level">Your reach increases by 5 feet.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/vermin_shape_ii">Vermin Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a <Link to="/monster/giant_mantis">giant mantis</Link>. While in this form, you gain darkvision with a range of 60 feet, a +2 racial bonus on initiative checks, and two primary <Link to="/umr/claw_attack">claw attacks</Link> (1d6) with the <Link to="/umr/grab">grab</Link> ability.</Pair>
@@ -314,13 +314,13 @@ const _mantis = {title: "Mantis", jsx: <><h2 id="aspect-mantis-mantis">Mantis</h
 </>};
 const _monkey = {title: "Monkey", jsx: <><h2 id="aspect-monkey-monkey">Monkey</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 30</Link><br/>The monkey is a climbing trickster who specializes in mobility and manual agility.</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +4 competence bonus on Climb checks.</Pair>
 <Pair title="At 8th Level">The bonus becomes +6.</Pair>
 <Pair title="At 15th Level">The bonus increases to +8.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a Large monkey (as per the <Link to="/monster/dire_ape">dire ape</Link>). While in this form, you gain a base speed of 30 feet, a climb speed of 30 feet, low-light vision, <Link to="/umr/scent">scent</Link> (30 feet), a <Link to="/umr/bite_attack">bite attack</Link> (1d6 damage), and two claw attacks (1d6 damage), and you can still use your hands to wield weapons, hold objects, and manipulate objects normally.</Pair>
@@ -332,12 +332,12 @@ const _monkey = {title: "Monkey", jsx: <><h2 id="aspect-monkey-monkey">Monkey</h
 </>};
 const _mouse = {title: "Mouse", jsx: <><h2 id="aspect-mouse-mouse">Mouse</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 30</Link><br/>The aspect of the mouse offers the ability to gain access to hard-to-reach places while avoiding many attacks and effects.</p>
-<Ability id="minor-form" icon={["armor-upgrade"]}>
+<Ability id="minor-form" icon={["def"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain <Link to="/ability/evasion">evasion</Link>, as per the rogue class feature.</Pair>
 <Pair title="At 12th Level">This benefit becomes <Link to="/talent/improved_evasion">improved evasion</Link>, as per the rogue advanced talent.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal","armor-upgrade"]}>
+<Ability id="major-form" icon={["magic","melee","power","def"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a Tiny mouse (as per the <Link to="/monster/dire_rat">dire rat</Link>, but with a space of 2-1/2 feet and a reach of 0 feet). While in this form, you gain a base speed of 30 feet, a climb speed of 20 feet, a swim speed of 20 feet, low-light vision, <Link to="/umr/scent">scent</Link> (30 feet), and a <Link to="/umr/bite_attack">bite attack</Link> (1d4 damage), and you use your Dexterity modifier instead of your Strength modifier on Climb and Swim checks.</Pair>
@@ -349,13 +349,13 @@ const _mouse = {title: "Mouse", jsx: <><h2 id="aspect-mouse-mouse">Mouse</h2>
 </>};
 const _octopus = {title: "Octopus", jsx: <><h2 id="aspect-octopus-octopus">Octopus</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 5</Link><br/>The octopus is a cunning hunter, able to contort its malleable body with ease.</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +4 competence bonus on Escape Artist checks.</Pair>
 <Pair title="At 8th Level">This bonus becomes +6.</Pair>
 <Pair title="At 15th Level">This bonus increases to +8.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of an <Link to="/monster/octopus">octopus</Link>. While in this form, you gain the <Link to="/subtype/aquatic">aquatic</Link> subtype, a swim speed of 30 feet, low-light vision, a <Link to="/umr/bite_attack">bite attack</Link> (1d3), a tentacles attack (no damage) with the <Link to="/umr/grab">grab</Link> ability, and <Link to="/feat/multiattack">Multiattack</Link> as a bonus feat.</Pair>
@@ -367,13 +367,13 @@ const _octopus = {title: "Octopus", jsx: <><h2 id="aspect-octopus-octopus">Octop
 </>};
 const _owl = {title: "Owl", jsx: <><h2 id="aspect-owl-owl">Owl</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 30</Link><br/>The aspect of the owl is one of silence. This predator glides through the night unheard, a master of stealthy attacks.</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +4 competence bonus on Stealth checks.</Pair>
 <Pair title="At 8th Level">The bonus becomes +6.</Pair>
 <Pair title="At 15th Level">The bonus increases to +8.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal","upgrade"]}>
+<Ability id="major-form" icon={["magic","melee","power","boost"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a Medium <Link to="/monster/owl">owl</Link>. While in this form, you gain a base speed of 30 feet, a fly speed of 60 feet (average), two talon attacks (1d6 damage), darkvision with a range of 60 feet, and a +2 racial bonus on Stealth checks.</Pair>
@@ -385,13 +385,13 @@ const _owl = {title: "Owl", jsx: <><h2 id="aspect-owl-owl">Owl</h2>
 </>};
 const _peafowl = {title: "Peafowl", jsx: <><h2 id="aspect-peafowl-peafowl">Peafowl</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 13</Link><br/>Peafowl are popular ornamental birds due to their spectacular colors, and they are often symbols of royalty or the divine.</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +2 enhancement bonus to your Charisma score.</Pair>
 <Pair title="At 8th Level">The bonus becomes +4.</Pair>
 <Pair title="At 15th Level">The bonus increases to +6.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal","tornado-discs"]}>
+<Ability id="major-form" icon={["magic","melee","power","cone"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability"><p>Your shape changes to that of a Small <Link to="/monster/peafowl">peafowl</Link>. While in this form you gain low-light vision, a fly speed of 40 feet (clumsy), two <Link to="/umr/talon_attack">talon attacks</Link> (1d3 damage), and a +4 racial bonus on Stealth checks.</p>
@@ -407,13 +407,13 @@ const _peafowl = {title: "Peafowl", jsx: <><h2 id="aspect-peafowl-peafowl">Peafo
 </>};
 const _scorpion = {title: "Scorpion", jsx: <><h2 id="aspect-scorpion-scorpion">Scorpion</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 5</Link><br/>The aspect of the scorpion invokes a hidden menace with a poisonous sting.</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +2 competence bonus on Stealth checks and <Link to="/rule/grapple">grapple</Link> combat maneuver checks.</Pair>
 <Pair title="At 8th Level">This bonus becomes +4.</Pair>
 <Pair title="At 15th Level">This bonus increases to +6.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/vermin_shape_ii">Vermin Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a <Link to="/monster/giant_scorpion">giant scorpion</Link>. While in this form, you gain darkvision with a range of 60 feet, <Link to="/umr/tremorsense">tremorsense</Link> with a range of 10 feet, two primary <Link to="/umr/claw_attack">claw attacks</Link> (1d6) with the <Link to="/umr/grab">grab</Link> ability, and a secondary sting attack (1d6).</Pair>
@@ -427,13 +427,13 @@ const _scorpion = {title: "Scorpion", jsx: <><h2 id="aspect-scorpion-scorpion">S
 </>};
 const _snake = {title: "Snake", jsx: <><h2 id="aspect-snake-snake">Snake</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 30</Link><br/>The snake is a sneaky and lethal foe who strikes unexpectedly with deadly effect, while avoiding opportune strikes made in return.</p>
-<Ability id="minor-form" icon={["upgrade","armor-upgrade"]}>
+<Ability id="minor-form" icon={["boost","def"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Ability">You gain a +2 bonus on attack rolls when making attacks of opportunity and a +2 dodge bonus to your AC against attacks of opportunity.</Pair>
 <Pair title="At 8th Level">These bonuses become +4.</Pair>
 <Pair title="At 15th Level">These bonuses increase to +6.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal","upgrade"]}>
+<Ability id="major-form" icon={["magic","melee","power","boost"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of an <Link to="/monster/emperor_cobra">emperor cobra</Link>. While in this form, you gain a base speed of 30 feet, a climb speed of 30 feet, a swim speed of 30 feet, low-light vision, <Link to="/umr/scent">scent</Link> (30 feet), a <Link to="/umr/bite_attack">bite attack</Link> (2d6 damage), and the <Link to="/feat/combat_reflexes">Combat Reflexes</Link> feat. If you already have Combat Reflexes or your Dexterity score is not high enough to gain more attacks of opportunity from Combat Reflexes, you can instead make one additional attack of opportunity each round.</Pair>
@@ -447,13 +447,13 @@ const _snake = {title: "Snake", jsx: <><h2 id="aspect-snake-snake">Snake</h2>
 </>};
 const _snapping_turtle = {title: "Snapping Turtle", jsx: <><h2 id="aspect-snapping_turtle-snapping-turtle">Snapping Turtle</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 23</Link><br/>Long-lived and resilient, turtles embody wisdom and endurance in many cultures. Those who take this aspect gain profound insight as well as remarkable resilience.</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +2 enhancement bonus to Wisdom.</Pair>
 <Pair title="At 8th Level">The bonus becomes +4.</Pair>
 <Pair title="At 15th Level">The bonus increases to +6.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal","armor-upgrade"]}>
+<Ability id="major-form" icon={["magic","melee","power","def"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a Large <Link to="/monster/giant_snapping_turtle">giant snapping turtle</Link>. While in this form, you gain low-light vision, <Link to="/umr/scent">scent</Link> (30 feet), a swim speed of 20 feet, and a <Link to="/umr/bite_attack">bite attack</Link> (1d8 + 1-1/2 your Strength modifier damage).</Pair>
@@ -465,13 +465,13 @@ const _snapping_turtle = {title: "Snapping Turtle", jsx: <><h2 id="aspect-snappi
 </>};
 const _spider = {title: "Spider", jsx: <><h2 id="aspect-spider-spider">Spider</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 5</Link><br/>The spider is a patient hunter, sensing foes that struggle in its webs.</p>
-<Ability id="minor-form" icon={["upgrade","armor-upgrade"]}>
+<Ability id="minor-form" icon={["boost","def"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +2 competence bonus on Climb checks, Stealth checks, saving throws against <Link to="/spell/web">web</Link> effects (magical or otherwise), and checks to break free of webs.</Pair>
 <Pair title="At 8th Level">This bonus becomes +4.</Pair>
 <Pair title="At 15th Level">This bonus increases to +6.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/vermin_shape_ii">Vermin Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a <Link to="/monster/giant_spider">giant spider</Link>. While in this form, you gain darkvision with a range of 60 feet, <Link to="/umr/tremorsense">tremorsense</Link> with a range of 10 feet, a climb speed of 30 feet, the <Link to="/umr/web">web</Link> special attack, and a <Link to="/umr/bite_attack">bite attack</Link> (1d6).</Pair>
@@ -483,13 +483,13 @@ const _spider = {title: "Spider", jsx: <><h2 id="aspect-spider-spider">Spider</h
 </>};
 const _stag = {title: "Stag", jsx: <><h2 id="aspect-stag-stag">Stag</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 30</Link><br/>The stag can outrun or stand its ground against almost any foe. This aspect offers majestic grace and swift speed.</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain an enhancement bonus of +5 feet to your base speed.</Pair>
 <Pair title="At 8th Level">This bonus increases to +10 feet.</Pair>
 <Pair title="At 15th Level">The bonus becomes +20 feet.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a Large <Link to="/monster/stag">stag</Link>, but its space changes to 10 feet. While in this form, you gain a base speed of 50 feet, low-light vision, <Link to="/umr/scent">scent</Link> (30 feet), a <Link to="/umr/gore_attack">gore attack</Link> (1d6 damage), and two hoove attacks (1d4 damage).</Pair>
@@ -501,13 +501,13 @@ const _stag = {title: "Stag", jsx: <><h2 id="aspect-stag-stag">Stag</h2>
 </>};
 const _tiger = {title: "Tiger", jsx: <><h2 id="aspect-tiger-tiger">Tiger</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 31</Link><br/>The tiger is a powerful but graceful hunter of the wild, quietly stalking its prey and then taking it down with ruthless efficiency.</p>
-<Ability id="minor-form" icon={["upgrade"]}>
+<Ability id="minor-form" icon={["boost"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +2 enhancement bonus to your Dexterity score.</Pair>
 <Pair title="At 8th Level">This bonus becomes +4.</Pair>
 <Pair title="At 15th Level">This bonus increases to +6.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a <Link to="/monster/dire_tiger">dire tiger</Link>. While in this form, you gain a base speed of 40 feet, low-light vision, <Link to="/umr/scent">scent</Link> (30 feet), a <Link to="/umr/bite_attack">bite attack</Link> (2d6 damage), two claw attacks (2d4 damage), the <Link to="/umr/grab">grab</Link> ability with both your bite and claw attacks, and <Link to="/umr/pounce">pounce</Link>.</Pair>
@@ -519,14 +519,14 @@ const _tiger = {title: "Tiger", jsx: <><h2 id="aspect-tiger-tiger">Tiger</h2>
 </>};
 const _wolf = {title: "Wolf", jsx: <><h2 id="aspect-wolf-wolf">Wolf</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 31</Link><br/>The aspect of the wolf provides the senses and the attacks of the mighty wolf, whose instincts are honed to track and take down its prey.</p>
-<Ability id="minor-form" icon={["stairs-goal"]}>
+<Ability id="minor-form" icon={["power"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Ability">You gain the <Link to="/umr/scent">scent</Link> ability with a range of 10 feet, or, if you have the scent ability, the range increases by 10 feet.</Pair>
 <Pair title="At 8th Level">The range of this scent or the increase to your scent increases to 20 feet.</Pair>
 <Pair title="At 15th Level">It becomes 30 feet.</Pair>
 <Pair title="Special">The range doubles if the opponent is upwind and is halved if the opponent is downwind.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a <Link to="/monster/dire_wolf">dire wolf</Link>. While in this form, you gain a base speed of 50 feet, low-light vision, scent (30 feet), a <Link to="/umr/bite_attack">bite attack</Link> (1d8 damage), and you can make a <Link to="/rule/trip">trip</Link> attempt with your bite attack.</Pair>
@@ -538,13 +538,13 @@ const _wolf = {title: "Wolf", jsx: <><h2 id="aspect-wolf-wolf">Wolf</h2>
 </>};
 const _wolverine = {title: "Wolverine", jsx: <><h2 id="aspect-wolverine-wolverine">Wolverine</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 31</Link><br/>This aspect unlocks the brutal ferocity and tenacious fury of the wolverine. The wolverine's lust for battle invigorates its will to live, and it can press on in battle longer than its enemies expect.</p>
-<Ability id="minor-form" icon={["upgrade","armor-upgrade"]}>
+<Ability id="minor-form" icon={["boost","def"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain 1 additional hit point per Hit Die you have, and treat your Constitution score as 4 points higher than it is for the purpose of determining when you die at negative hit points.</Pair>
 <Pair title="At 8th Level">You gain <Link to="/feat/diehard">Diehard</Link> as a bonus feat.</Pair>
 <Pair title="At 15th Level">You treat your Constitution as being 8 points higher for the purpose of determining when you die at negative hit points.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic-swirl","mailed-fist","stairs-goal"]}>
+<Ability id="major-form" icon={["magic","melee","power"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/beast_shape_ii">Beast Shape II</Link></Pair>
 <Pair title="Ability"><p>Your shape changes to that of a <Link to="/monster/dire_wolverine">dire wolverine</Link>. While in this form, you gain a base speed of 30 feet, a climb speed of 10 feet, low-light vision, <Link to="/umr/scent">scent</Link> (30 feet), a <Link to="/umr/bite_attack">bite attack</Link> (1d6 damage), and two claw attacks (1d8 damage).</p>

@@ -3,7 +3,7 @@ import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 const _acadamae_neophyte = {title: "Acadamae Neophyte", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link></p>
-<Ability id="acadamae-neophyte" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="acadamae-neophyte" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="acadamae-neophyte">Acadamae Neophyte</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="acadamae-neophyte-flavor">You have shown a significant talent for the magical arts, gaining the attention of the famed Acadamae of Korvosa.</Pair>
@@ -11,7 +11,7 @@ const _acadamae_neophyte = {title: "Acadamae Neophyte", topLink: ["Magic Traits"
 </Ability>
 </>};
 const _aeromantic_affinity = {title: "Aeromantic Affinity", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 29</Link></p>
-<Ability id="aeromantic-affinity" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="aeromantic-affinity" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="aeromantic-affinity">Aeromantic Affinity</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="aeromantic-affinity-flavor">One of your distant ancestors was either a powerful aeromancer or a creature of elemental air, granting you greater skill with air magic.</Pair>
@@ -19,7 +19,7 @@ const _aeromantic_affinity = {title: "Aeromantic Affinity", topLink: ["Magic Tra
 </Ability>
 </>};
 const _air_touched = {title: "Air-Touched", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="air-touched" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="air-touched" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="air-touched">Air-Touched</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="air-touched-flavor">You share an affinity with elemental air.</Pair>
@@ -27,7 +27,7 @@ const _air_touched = {title: "Air-Touched", topLink: ["Magic Traits","main/trait
 </Ability>
 </>};
 const _alchemical_adept = {title: "Alchemical Adept", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="alchemical-adept" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="alchemical-adept" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="alchemical-adept">Alchemical Adept</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="alchemical-adept-flavor">You are skilled in creating alchemical items.</Pair>
@@ -35,7 +35,7 @@ const _alchemical_adept = {title: "Alchemical Adept", topLink: ["Magic Traits","
 </Ability>
 </>};
 const _alchemical_intuition = {title: "Alchemical Intuition", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="alchemical-intuition" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="alchemical-intuition" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="alchemical-intuition">Alchemical Intuition</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="alchemical-intuition-flavor">You are often struck with epiphanies about alchemical processes and substances.</Pair>
@@ -43,7 +43,7 @@ const _alchemical_intuition = {title: "Alchemical Intuition", topLink: ["Magic T
 </Ability>
 </>};
 const _arcane_researcher = {title: "Arcane Researcher", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 29</Link></p>
-<Ability id="arcane-researcher" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="arcane-researcher" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="arcane-researcher">Arcane Researcher</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="arcane-researcher-flavor">Your curiosity and ingenuity have driven you to experiment and push new boundaries, and you have a knack for tampering with magic.</Pair>
@@ -51,7 +51,7 @@ const _arcane_researcher = {title: "Arcane Researcher", topLink: ["Magic Traits"
 </Ability>
 </>};
 const _arcane_revitalization = {title: "Arcane Revitalization", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="arcane-revitalization" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="arcane-revitalization" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="arcane-revitalization">Arcane Revitalization</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="arcane-revitalization-flavor">Your martial prowess can feed your arcane power.</Pair>
@@ -59,7 +59,7 @@ const _arcane_revitalization = {title: "Arcane Revitalization", topLink: ["Magic
 </Ability>
 </>};
 const _arcane_temper = {title: "Arcane Temper", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="arcane-temper" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="arcane-temper" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="arcane-temper">Arcane Temper</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="arcane-temper-flavor">You have quick reactions and fierce concentration.</Pair>
@@ -67,7 +67,7 @@ const _arcane_temper = {title: "Arcane Temper", topLink: ["Magic Traits","main/t
 </Ability>
 </>};
 const _ascendant_recollection = {title: "Ascendant Recollection", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="ascendant-recollection" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="ascendant-recollection" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="ascendant-recollection">Ascendant Recollection</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="ascendant-recollection-flavor">Your first bloodline power is particularly strong.</Pair>
@@ -75,7 +75,7 @@ const _ascendant_recollection = {title: "Ascendant Recollection", topLink: ["Mag
 </Ability>
 </>};
 const _balancers_banishing = {title: "Balancer's Banishing", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance</Link></p>
-<Ability id="balancers-banishing" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="balancers-banishing" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="balancers-banishing">Balancer's Banishing</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="balancers-banishing-flavor">The interference of the Outer Planes in mortal affairs angers you to no end and invigorates the potency of your magic.</Pair>
@@ -83,7 +83,7 @@ const _balancers_banishing = {title: "Balancer's Banishing", topLink: ["Magic Tr
 </Ability>
 </>};
 const _beast_of_the_society = {title: "Beast of the Society", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="beast-of-the-society" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="beast-of-the-society" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="beast-of-the-society">Beast of the Society</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
@@ -92,7 +92,7 @@ const _beast_of_the_society = {title: "Beast of the Society", topLink: ["Magic T
 </Ability>
 </>};
 const _black_blood_heritage = {title: "Black Blood Heritage", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
-<Ability id="black-blood-heritage" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="black-blood-heritage" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="black-blood-heritage">Black Blood Heritage</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="black-blood-heritage-flavor">One of your ancestors came in contact with the mystical black blood, granting you an affinity for the substance.</Pair>
@@ -102,7 +102,7 @@ const _black_blood_heritage = {title: "Black Blood Heritage", topLink: ["Magic T
 </Ability>
 </>};
 const _bladed_magic = {title: "Bladed Magic", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="bladed-magic" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="bladed-magic" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="bladed-magic">Bladed Magic</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="bladed-magic-flavor">You have an innate talent for using magical weaponry and those weapons capable of becoming magical.</Pair>
@@ -110,7 +110,7 @@ const _bladed_magic = {title: "Bladed Magic", topLink: ["Magic Traits","main/tra
 </Ability>
 </>};
 const _bountiful_herb_lore = {title: "Bountiful Herb-Lore", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2</Link></p>
-<Ability id="bountiful-herb-lore" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="bountiful-herb-lore" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="bountiful-herb-lore">Bountiful Herb-Lore</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair title="Region" hl>Cassomir</Pair>
@@ -118,7 +118,7 @@ const _bountiful_herb_lore = {title: "Bountiful Herb-Lore", topLink: ["Magic Tra
 </Ability>
 </>};
 const _charlatan = {title: "Charlatan", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
-<Ability id="charlatan" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="charlatan" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="charlatan">Charlatan</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -129,7 +129,7 @@ const _charlatan = {title: "Charlatan", topLink: ["Magic Traits","main/traits_ma
 </Ability>
 </>};
 const _child_of_the_moon = {title: "Child of the Moon", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="child-of-the-moon" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="child-of-the-moon" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="child-of-the-moon">Child of the Moon</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="child-of-the-moon-flavor">Your lunar gift becomes much more powerful when the moon is full.</Pair>
@@ -137,7 +137,7 @@ const _child_of_the_moon = {title: "Child of the Moon", topLink: ["Magic Traits"
 </Ability>
 </>};
 const _classically_schooled = {title: "Classically Schooled", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="classically-schooled" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="classically-schooled" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="classically-schooled">Classically Schooled</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="classically-schooled-flavor">Your apprenticeship or early education was particularly focused on the direct application of magic.</Pair>
@@ -145,7 +145,7 @@ const _classically_schooled = {title: "Classically Schooled", topLink: ["Magic T
 </Ability>
 </>};
 const _coven_casting = {title: "Coven Casting", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="coven-casting" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="coven-casting" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="coven-casting">Coven Casting</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair title="Requirements" hl>Belong to a coven or magical cabal</Pair>
@@ -154,7 +154,7 @@ const _coven_casting = {title: "Coven Casting", topLink: ["Magic Traits","main/t
 </Ability>
 </>};
 const _cross_disciplined = {title: "Cross-Disciplined", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="cross-disciplined" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="cross-disciplined" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="cross-disciplined">Cross-Disciplined</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="cross-disciplined-flavor">Your dabbling has granted you greater insight into the proper casting of certain spells.</Pair>
@@ -162,14 +162,14 @@ const _cross_disciplined = {title: "Cross-Disciplined", topLink: ["Magic Traits"
 </Ability>
 </>};
 const _cross_knowledge = {title: "Cross-Knowledge", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="cross-knowledge" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="cross-knowledge" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="cross-knowledge">Cross-Knowledge</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="benefit" id="cross-knowledge-benefit">Once per day, you may treat an extract you drink as if your caster level were 1 level higher as long as that extract appears on the wizard spell list and the alchemist list of formulae.</Pair>
 </Ability>
 </>};
 const _dangerously_curious = {title: "Dangerously Curious", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="dangerously-curious" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="dangerously-curious" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="dangerously-curious">Dangerously Curious</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="dangerously-curious-flavor">You have always been intrigued by magic, possibly because you were the child of a magician or priest. You often snuck into your parent's laboratory or shrine to tinker with spell components and magic devices, and frequently caused quite a bit of damage and headaches for your parent as a result.</Pair>
@@ -177,7 +177,7 @@ const _dangerously_curious = {title: "Dangerously Curious", topLink: ["Magic Tra
 </Ability>
 </>};
 const _deep_guardian = {title: "Deep Guardian", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="deep-guardian" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="deep-guardian" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="deep-guardian">Deep Guardian</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -186,7 +186,7 @@ const _deep_guardian = {title: "Deep Guardian", topLink: ["Magic Traits","main/t
 </Ability>
 </>};
 const _demonblight_reistance = {title: "Demonblight Reistance", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="demonblight-reistance" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="demonblight-reistance" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="demonblight-reistance">Demonblight Reistance</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="demonblight-reistance-flavor">Your exposure to powerful energies instilled in you a supernatural resistance to diseases, particularly those of a demonic bent.</Pair>
@@ -194,7 +194,7 @@ const _demonblight_reistance = {title: "Demonblight Reistance", topLink: ["Magic
 </Ability>
 </>};
 const _desperate_focus = {title: "Desperate Focus", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="desperate-focus" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="desperate-focus" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="desperate-focus">Desperate Focus</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="desperate-focus-flavor">You've often found yourself in situations where a lack of focus can lead to worse than a lost spell.</Pair>
@@ -202,7 +202,7 @@ const _desperate_focus = {title: "Desperate Focus", topLink: ["Magic Traits","ma
 </Ability>
 </>};
 const _desperate_resolve = {title: "Desperate Resolve", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="desperate-resolve" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="desperate-resolve" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="desperate-resolve">Desperate Resolve</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="desperate-resolve-flavor">You are adept at casting spells even in the most precarious situations.</Pair>
@@ -210,7 +210,7 @@ const _desperate_resolve = {title: "Desperate Resolve", topLink: ["Magic Traits"
 </Ability>
 </>};
 const _desperate_speed = {title: "Desperate Speed", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="desperate-speed" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="desperate-speed" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="desperate-speed">Desperate Speed</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="desperate-speed-flavor">Your eidolon excels at a movement type you do not possess.</Pair>
@@ -218,14 +218,14 @@ const _desperate_speed = {title: "Desperate Speed", topLink: ["Magic Traits","ma
 </Ability>
 </>};
 const _diabolical_dabbler = {title: "Diabolical Dabbler", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="diabolical-dabbler" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="diabolical-dabbler" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="diabolical-dabbler">Diabolical Dabbler</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="benefit" id="diabolical-dabbler-benefit">Each <Link to="/template/fiendish">fiendish</Link> animal you conjure with any summon spell gains +1 hit point per hit die for the duration of the spell that summoned it.</Pair>
 </Ability>
 </>};
 const _distance_aptitude = {title: "Distance Aptitude", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="distance-aptitude" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="distance-aptitude" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="distance-aptitude">Distance Aptitude</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="distance-aptitude-flavor">You were exposed to the magic of an <Link to="/magic-artifact/elf_gate">elf gate</Link>, portal, or some other form of distance-spanning magic when you were young. This contact with ancient world-spanning magic has granted you insight into means to extend the range of your own spells.</Pair>
@@ -235,7 +235,7 @@ const _distance_aptitude = {title: "Distance Aptitude", topLink: ["Magic Traits"
 </Ability>
 </>};
 const _domineering = {title: "Domineering", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="domineering" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="domineering" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="domineering">Domineering</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="domineering-flavor">When you were young, you attracted a group of devoted companions thanks to your impressive talent, and the experience inspired in you a powerful self-assurance and air of superiority. Your confidence is so strong that others feel naturally compelled to follow your commands.</Pair>
@@ -245,7 +245,7 @@ const _domineering = {title: "Domineering", topLink: ["Magic Traits","main/trait
 </Ability>
 </>};
 const _draconic_infusion = {title: "Draconic Infusion", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
-<Ability id="draconic-infusion" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="draconic-infusion" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="draconic-infusion">Draconic Infusion</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="draconic-infusion-flavor">You were exposed to an artifact or other powerful magic that infused you with the power of dragons.</Pair>
@@ -253,7 +253,7 @@ const _draconic_infusion = {title: "Draconic Infusion", topLink: ["Magic Traits"
 </Ability>
 </>};
 const _earth_touched = {title: "Earth-Touched", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="earth-touched" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="earth-touched" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="earth-touched">Earth-Touched</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="earth-touched-flavor">You share an affinity with elemental earth.</Pair>
@@ -261,7 +261,7 @@ const _earth_touched = {title: "Earth-Touched", topLink: ["Magic Traits","main/t
 </Ability>
 </>};
 const _eldritch_auditor = {title: "Eldritch Auditor", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest</Link></p>
-<Ability id="eldritch-auditor" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="eldritch-auditor" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="eldritch-auditor">Eldritch Auditor</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="eldritch-auditor-flavor">You are a magically adept merchant who has learned tricks to protect your own goods, or you serve a city as an impartial auditor who guards against arcane trickery in the bazaars.</Pair>
@@ -269,7 +269,7 @@ const _eldritch_auditor = {title: "Eldritch Auditor", topLink: ["Magic Traits","
 </Ability>
 </>};
 const _eldritch_delver = {title: "Eldritch Delver", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="eldritch-delver" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="eldritch-delver" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="eldritch-delver">Eldritch Delver</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="eldritch-delver-flavor">You have an unquenchable thirst for knowledge about the world and desire to obtain it firsthand.</Pair>
@@ -277,7 +277,7 @@ const _eldritch_delver = {title: "Eldritch Delver", topLink: ["Magic Traits","ma
 </Ability>
 </>};
 const _elemental_accident = {title: "Elemental Accident", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook</Link></p>
-<Ability id="elemental-accident" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="elemental-accident" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="elemental-accident">Elemental Accident</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="elemental-accident-flavor">A traumatic experience in your childhood, such as surviving a violent earthquake, fleeing a shipwreck, escaping a devastating fire, or getting struck by lightning, caused you to develop a fear of the corresponding element. You can instinctively shield yourself against elemental dangers of that type.</Pair>
@@ -285,7 +285,7 @@ const _elemental_accident = {title: "Elemental Accident", topLink: ["Magic Trait
 </Ability>
 </>};
 const _enduring_mutagen = {title: "Enduring Mutagen", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="enduring-mutagen" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="enduring-mutagen" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="enduring-mutagen">Enduring Mutagen</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="enduring-mutagen-flavor">Because of special training, your unique body chemistry, or the uncovering of an alchemical secret, your mutagens last longer.</Pair>
@@ -293,7 +293,7 @@ const _enduring_mutagen = {title: "Enduring Mutagen", topLink: ["Magic Traits","
 </Ability>
 </>};
 const _fey_protection = {title: "Fey Protection", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="fey-protection" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="fey-protection" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="fey-protection">Fey Protection</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="fey-protection-flavor">Your birth brought an unexpected guest to your parents' home: a helpful fey who prophesied about your future and gave you a magical gift in exchange for your parents' hospitality, a cup of milk, and a drop of your blood.</Pair>
@@ -303,14 +303,14 @@ const _fey_protection = {title: "Fey Protection", topLink: ["Magic Traits","main
 </Ability>
 </>};
 const _flame_touched = {title: "Flame-Touched", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="flame-touched" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="flame-touched" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="flame-touched">Flame-Touched</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="benefit" id="flame-touched-benefit">You share an affinity with elemental fire. You gain DR 1/- against creatures and attacks with the fire type.</Pair>
 </Ability>
 </>};
 const _focused_burn = {title: "Focused Burn", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="focused-burn" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="focused-burn" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="focused-burn">Focused Burn</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="focused-burn-flavor">You know the secret of making punishing fire bombs.</Pair>
@@ -318,7 +318,7 @@ const _focused_burn = {title: "Focused Burn", topLink: ["Magic Traits","main/tra
 </Ability>
 </>};
 const _focused_mind = {title: "Focused Mind", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="focused-mind" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="focused-mind" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="focused-mind">Focused Mind</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="focused-mind-flavor">Your childhood was dominated either by lessons of some sort (whether musical, academic, or other) or by a horrible home life that encouraged your ability to block out distractions and focus on the immediate task at hand.</Pair>
@@ -326,7 +326,7 @@ const _focused_mind = {title: "Focused Mind", topLink: ["Magic Traits","main/tra
 </Ability>
 </>};
 const _fortunate = {title: "Fortunate", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="fortunate" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="fortunate" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="fortunate">Fortunate</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="fortunate-flavor">You are blessed by fate.</Pair>
@@ -336,7 +336,7 @@ const _fortunate = {title: "Fortunate", topLink: ["Magic Traits","main/traits_ma
 </Ability>
 </>};
 const _gifted_adept = {title: "Gifted Adept", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="gifted-adept" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="gifted-adept" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="gifted-adept">Gifted Adept</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="gifted-adept-flavor">Your interest in magic was inspired by witnessing a spell being cast in a particularly dramatic method, perhaps even one that affected you physically or spiritually. This early exposure to magic has made it easier for you to work similar magic on your own.</Pair>
@@ -344,7 +344,7 @@ const _gifted_adept = {title: "Gifted Adept", topLink: ["Magic Traits","main/tra
 </Ability>
 </>};
 const _greater_link = {title: "Greater Link", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="greater-link" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="greater-link" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="greater-link">Greater Link</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="greater-link-flavor">The link between you and your eidolon is stronger than most.</Pair>
@@ -352,7 +352,7 @@ const _greater_link = {title: "Greater Link", topLink: ["Magic Traits","main/tra
 </Ability>
 </>};
 const _greater_purpose = {title: "Greater Purpose", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="greater-purpose" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="greater-purpose" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="greater-purpose">Greater Purpose</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="greater-purpose-flavor">You are convinced you're alive to achieve a great purpose.</Pair>
@@ -360,7 +360,7 @@ const _greater_purpose = {title: "Greater Purpose", topLink: ["Magic Traits","ma
 </Ability>
 </>};
 const _green_blooded = {title: "Green-Blooded", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link></p>
-<Ability id="green-blooded" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="green-blooded" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="green-blooded">Green-Blooded</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="green-blooded-flavor">You are touched by the supernatural essence of nature, marking you since birth as something other than purely mortal.</Pair>
@@ -368,7 +368,7 @@ const _green_blooded = {title: "Green-Blooded", topLink: ["Magic Traits","main/t
 </Ability>
 </>};
 const _guiding_spirit = {title: "Guiding Spirit", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook</Link></p>
-<Ability id="guiding-spirit" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="guiding-spirit" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="guiding-spirit">Guiding Spirit</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="guiding-spirit-flavor">Few understand the medium's willingness to harbor powerful spirits, but even if you aren't one of these talented few, you've always identified with their abilities. you've always felt that you were not alone in this world and that a mysterious guiding spirit watches over you with singular focus. You may have briefly glimpsed this strange spirit - or maybe you simply feel its presence in times of need.</Pair>
@@ -376,7 +376,7 @@ const _guiding_spirit = {title: "Guiding Spirit", topLink: ["Magic Traits","main
 </Ability>
 </>};
 const _hedge_magician = {title: "Hedge Magician", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="hedge-magician" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="hedge-magician" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="hedge-magician">Hedge Magician</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="hedge-magician-flavor">You apprenticed for a time to an artisan who often built magic items, and he taught you many handy shortcuts and cost-saving techniques.</Pair>
@@ -384,21 +384,21 @@ const _hedge_magician = {title: "Hedge Magician", topLink: ["Magic Traits","main
 </Ability>
 </>};
 const _hex_proof = {title: "Hex-Proof", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets</Link></p>
-<Ability id="hex-proof" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="hex-proof" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="hex-proof">Hex-Proof</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="benefit" id="hex-proof-benefit">You've dealt too often with <Link to="/rule/witchmarket">cruel fey magic</Link> and so gain a +2 bonus on Will saves against hexes and fey creatures' spells and spell-like abilities.</Pair>
 </Ability>
 </>};
 const _horrifying_mind = {title: "Horrifying Mind", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
-<Ability id="horrifying-mind" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="horrifying-mind" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="horrifying-mind">Horrifying Mind</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="benefit" id="horrifying-mind-benefit">When a nonevil humanoid attempts to read your mind via a magical effect, the reader must attempt a Will save opposed by your Wisdom or Charisma check (your choice). If the reader fails this save, she is <Link to="/misc/shaken">shaken</Link> for 1 round. If she fails by 10 or more, she is instead frightened for 1 round, then shaken for 1 round.</Pair>
 </Ability>
 </>};
 const _house_of_green_mothers_pupil = {title: "House of Green Mothers Pupil", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/distant_shores">Distant Shores</Link></p>
-<Ability id="house-of-green-mothers-pupil" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="house-of-green-mothers-pupil" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="house-of-green-mothers-pupil">House of Green Mothers Pupil</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="house-of-green-mothers-pupil-flavor">You studied at Anuli's center for druidic magic long enough to begin bonding with a familiar.</Pair>
@@ -406,7 +406,7 @@ const _house_of_green_mothers_pupil = {title: "House of Green Mothers Pupil", to
 </Ability>
 </>};
 const _insistent_benefactor = {title: "Insistent Benefactor", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_society_primer">Pathfinder Society Primer</Link></p>
-<Ability id="insistent-benefactor" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="insistent-benefactor" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="insistent-benefactor">Insistent Benefactor</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="insistent-benefactor-flavor">Pathfinders of different backgrounds don't always realize what's best for them, and you have perfected the art of forcing your magical boons on your allies.</Pair>
@@ -414,14 +414,14 @@ const _insistent_benefactor = {title: "Insistent Benefactor", topLink: ["Magic T
 </Ability>
 </>};
 const _internal_compass = {title: "Internal Compass", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook</Link></p>
-<Ability id="internal-compass" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="internal-compass" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="internal-compass">Internal Compass</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="benefit" id="internal-compass-benefit">You maintain a sense of direction, even on planes where direction is relative. If you are on a plane that has no analogue to north, you automatically know the direction toward the plane's major dominating feature (for instance, Pharasma's Spire in the Boneyard, or the sun in Nirvana). If there is no such dominating feature, you instead know the direction of the closest feature significant to one of the plane's divinities or demigods.</Pair>
 </Ability>
 </>};
 const _inured_to_death = {title: "Inured to Death", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="inured-to-death" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="inured-to-death" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="inured-to-death">Inured to Death</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="inured-to-death-flavor">You have been around death or the undead all of your life; you have become accustomed to its shadowy presence, and are no longer overwhelmed by it.</Pair>
@@ -431,7 +431,7 @@ const _inured_to_death = {title: "Inured to Death", topLink: ["Magic Traits","ma
 </Ability>
 </>};
 const _keen_appraiser = {title: "Keen Appraiser", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="keen-appraiser" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="keen-appraiser" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="keen-appraiser">Keen Appraiser</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="keen-appraiser-flavor">Your frequent handling of magic items, artifacts, and other enchanted goods has made you an expert at determining when something has magical properties.</Pair>
@@ -441,7 +441,7 @@ const _keen_appraiser = {title: "Keen Appraiser", topLink: ["Magic Traits","main
 </Ability>
 </>};
 const _kin_bond = {title: "Kin Bond", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="kin-bond" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="kin-bond" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="kin-bond">Kin Bond</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="kin-bond-flavor">The bond between you and a close sibling is nearly mystical.</Pair>
@@ -449,14 +449,14 @@ const _kin_bond = {title: "Kin Bond", topLink: ["Magic Traits","main/traits_magi
 </Ability>
 </>};
 const _knowledgeable_caster = {title: "Knowledgeable Caster", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="knowledgeable-caster" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="knowledgeable-caster" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="knowledgeable-caster">Knowledgeable Caster</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="benefit" id="knowledgeable-caster-benefit">Once per day when you cast a divination spell, you can cast that spell as if your caster level were 1 level higher in the appropriate class. You also gain a +1 trait bonus on any <Link to="/skill/knowledge">Knowledge</Link> checks associated with your sorcerer bloodline, if any.</Pair>
 </Ability>
 </>};
 const _lamias_bane = {title: "Lamia's Bane", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="lamias-bane" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="lamias-bane" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="lamias-bane">Lamia's Bane</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="lamias-bane-flavor">You have been exposed to the magical energies of lamias in your past, or you have heard innumerable stories about your family's dealings with lamias, and you have built up a resistance to their charms.</Pair>
@@ -464,28 +464,28 @@ const _lamias_bane = {title: "Lamia's Bane", topLink: ["Magic Traits","main/trai
 </Ability>
 </>};
 const _less_effort = {title: "Less Effort", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
-<Ability id="less-effort" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="less-effort" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="less-effort">Less Effort</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="benefit" id="less-effort-benefit">Select one spell belonging to the abjuration or transmutation school on your spell list. When you cast that spell or it is cast on you, treat the caster level as 2 higher for the purpose of determining the duration.</Pair>
 </Ability>
 </>};
 const _linked_surge = {title: "Linked Surge", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="linked-surge" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="linked-surge" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="linked-surge">Linked Surge</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="benefit" id="linked-surge-benefit">Once per day, you may make a Strength- or Constitution-based ability check or skill check using you eidolon's ability score in place of your own. Your eidolon must be summoned and with 30 feet for you to use this trait.</Pair>
 </Ability>
 </>};
 const _low_blow = {title: "Low Blow", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
-<Ability id="low-blow" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="low-blow" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="low-blow">Low Blow</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="benefit" id="low-blow-benefit">When targeting a good-aligned creature with a spell or spell-like ability with the pain descriptor or that imposes a morale penalty, increase its effective caster level by 1. If you are of an evil alignment, increase the save DC of the effect by 1 as well.</Pair>
 </Ability>
 </>};
 const _lunar_birth = {title: "Lunar Birth", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="lunar-birth" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="lunar-birth" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="lunar-birth">Lunar Birth</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="lunar-birth-flavor">Born during a lunar eclipse, you were forever marked by the moon's mysterious and ancient magic.</Pair>
@@ -493,7 +493,7 @@ const _lunar_birth = {title: "Lunar Birth", topLink: ["Magic Traits","main/trait
 </Ability>
 </>};
 const _magic_crafter = {title: "Magic Crafter", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="magic-crafter" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="magic-crafter" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="magic-crafter">Magic Crafter</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="magic-crafter-flavor">Your early magical training involved study of the properties and creation of magic items.</Pair>
@@ -501,7 +501,7 @@ const _magic_crafter = {title: "Magic Crafter", topLink: ["Magic Traits","main/t
 </Ability>
 </>};
 const _magical_flair = {title: "Magical Flair", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="magical-flair" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="magical-flair" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="magical-flair">Magical Flair</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="magical-flair-flavor">At a young age, you saw a witch burned by fearful peasants, druids falsely punished for demon worship, or another sort of spellcaster persecuted for merely practicing her dubious craft. Intent on not suffering the same fate, you approach spellcasting with a powerful desire to control how your magic is perceived by others.</Pair>
@@ -511,7 +511,7 @@ const _magical_flair = {title: "Magical Flair", topLink: ["Magic Traits","main/t
 </Ability>
 </>};
 const _magical_knack = {title: "Magical Knack", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="magical-knack" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="magical-knack" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="magical-knack">Magical Knack</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="magical-knack-flavor">You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks.</Pair>
@@ -519,7 +519,7 @@ const _magical_knack = {title: "Magical Knack", topLink: ["Magic Traits","main/t
 </Ability>
 </>};
 const _magical_lineage = {title: "Magical Lineage", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="magical-lineage" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="magical-lineage" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="magical-lineage">Magical Lineage</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="magical-lineage-flavor">One of your parents was a gifted spellcaster who not only used metamagic often, but also developed many magical items and perhaps even a new spell or two - and you have inherited a fragment of this greatness.</Pair>
@@ -527,7 +527,7 @@ const _magical_lineage = {title: "Magical Lineage", topLink: ["Magic Traits","ma
 </Ability>
 </>};
 const _magical_talent = {title: "Magical Talent", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="magical-talent" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="magical-talent" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="magical-talent">Magical Talent</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="magical-talent-flavor">Either from inborn talent, the whimsy of the gods, or obsessive study of strange tomes, you have mastered the use of a cantrip.</Pair>
@@ -535,14 +535,14 @@ const _magical_talent = {title: "Magical Talent", topLink: ["Magic Traits","main
 </Ability>
 </>};
 const _malleable_magic = {title: "Malleable Magic", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="malleable-magic" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="malleable-magic" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="malleable-magic">Malleable Magic</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="benefit" id="malleable-magic-benefit">Once per day as a <strong className="hl">swift action</strong>, you can lose a single 1st-, 2nd- or 3rd-level magus spell to regain 1 <em>arcane pool</em> point. You can't exceed the maximum number of <em>arcane pool</em> points in your <em>arcane pool</em> by using this trait.</Pair>
 </Ability>
 </>};
 const _mathematical_prodigy = {title: "Mathematical Prodigy", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="mathematical-prodigy" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="mathematical-prodigy" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="mathematical-prodigy">Mathematical Prodigy</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="mathematical-prodigy-flavor">Mathematics has always come easily for you, and you have always been able to "see the math" in the physical and magical world.</Pair>
@@ -550,7 +550,7 @@ const _mathematical_prodigy = {title: "Mathematical Prodigy", topLink: ["Magic T
 </Ability>
 </>};
 const _mechanical_aptitude = {title: "Mechanical Aptitude", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 19</Link></p>
-<Ability id="mechanical-aptitude" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="mechanical-aptitude" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="mechanical-aptitude">Mechanical Aptitude</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="mechanical-aptitude-flavor">You have learned much from tinkering with ancient technology from the Jistka Imperium.</Pair>
@@ -558,7 +558,7 @@ const _mechanical_aptitude = {title: "Mechanical Aptitude", topLink: ["Magic Tra
 </Ability>
 </>};
 const _meticulous_concoction = {title: "Meticulous Concoction", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="meticulous-concoction" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="meticulous-concoction" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="meticulous-concoction">Meticulous Concoction</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="meticulous-concoction-flavor">Your meticulous carefulness makes your bombs and extracts more potent.</Pair>
@@ -566,7 +566,7 @@ const _meticulous_concoction = {title: "Meticulous Concoction", topLink: ["Magic
 </Ability>
 </>};
 const _mutant_eye = {title: "Mutant Eye", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="mutant-eye" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="mutant-eye" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="mutant-eye">Mutant Eye</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="mutant-eye-flavor">One of your parents was exposed to uncontrolled magic or arcane pollution before you were born, causing you to develop a minor mutation that has marked you as different all your life.</Pair>
@@ -576,7 +576,7 @@ const _mutant_eye = {title: "Mutant Eye", topLink: ["Magic Traits","main/traits_
 </Ability>
 </>};
 const _outcasts_intuition = {title: "Outcast's Intuition", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="outcasts-intuition" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="outcasts-intuition" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="outcasts-intuition">Outcast's Intuition</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="outcasts-intuition-flavor">You are able to sense the motives of others and use that sense to bolster your magic against dispelling.</Pair>
@@ -584,7 +584,7 @@ const _outcasts_intuition = {title: "Outcast's Intuition", topLink: ["Magic Trai
 </Ability>
 </>};
 const _outer_dragon_blood = {title: "Outer Dragon Blood", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="outer-dragon-blood" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="outer-dragon-blood" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="outer-dragon-blood">Outer Dragon Blood</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="outer-dragon-blood-flavor">The blood of outer dragons courses through your veins, and you've inherited a portion of their magic.</Pair>
@@ -600,7 +600,7 @@ const _outer_dragon_blood = {title: "Outer Dragon Blood", topLink: ["Magic Trait
 </Ability>
 </>};
 const _outsider_ties = {title: "Outsider Ties", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link></p>
-<Ability id="outsider-ties" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="outsider-ties" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="outsider-ties">Outsider Ties</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="outsider-ties-flavor">An outsider visited you at a young age, and you have had a significant affinity with that type of outsider ever since.</Pair>
@@ -608,7 +608,7 @@ const _outsider_ties = {title: "Outsider Ties", topLink: ["Magic Traits","main/t
 </Ability>
 </>};
 const _overwhelming_beauty = {title: "Overwhelming Beauty", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="overwhelming-beauty" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="overwhelming-beauty" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="overwhelming-beauty">Overwhelming Beauty</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="overwhelming-beauty-flavor">Your wiles are particularly potent against people who share a race with you, as your beauty is often held up as a symbol of perfection.</Pair>
@@ -616,7 +616,7 @@ const _overwhelming_beauty = {title: "Overwhelming Beauty", topLink: ["Magic Tra
 </Ability>
 </>};
 const _partial_protege = {title: "Partial Protege", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="partial-protege" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="partial-protege" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="partial-protege">Partial Protege</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="partial-protege-flavor">You are adept at disguising your true talents.</Pair>
@@ -624,14 +624,14 @@ const _partial_protege = {title: "Partial Protege", topLink: ["Magic Traits","ma
 </Ability>
 </>};
 const _pathfinders_focus = {title: "Pathfinder's Focus", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_society_primer">Pathfinder Society Primer</Link></p>
-<Ability id="pathfinders-focus" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="pathfinders-focus" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="pathfinders-focus">Pathfinder's Focus</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="benefit" id="pathfinders-focus-benefit">You can select a magnetic compass for your <em>arcane bond</em> class feature; this compass is nonmagical, but you can later spend 250 gp to upgrade it into a <Link to="/magic-wondrous/wayfinder">wayfinder</Link>. Choosing this trait allows you to upgrade this wayfinder to a variant or unique wayfinder per the normal rules for <Link to="/rule/adding_new_abilities">improving magic items</Link>. A bonded wayfinder must be held in your hand to grant the benefits of being a <em>bonded object.</em></Pair>
 </Ability>
 </>};
 const _perfectionists_brew = {title: "Perfectionist's Brew", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="perfectionists-brew" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="perfectionists-brew" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="perfectionists-brew">Perfectionist's Brew</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="perfectionists-brew-flavor">You know that potion recipes should be followed with exact precision.</Pair>
@@ -639,7 +639,7 @@ const _perfectionists_brew = {title: "Perfectionist's Brew", topLink: ["Magic Tr
 </Ability>
 </>};
 const _planar_escapee = {title: "Planar Escapee", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook</Link></p>
-<Ability id="planar-escapee" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="planar-escapee" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="planar-escapee">Planar Escapee</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="planar-escapee-flavor">You were a prisoner or slave in a city on the Elemental Planes, such as the cruel efreet's City of Brass on the Plane of Fire or the dwarven city of Urgashaz on the Plane of Earth. When you escaped that city, you had to use your captors' weapons and magic against them in addition to your sheer wits, and you learned how to find weaknesses in their natural resistances.</Pair>
@@ -647,7 +647,7 @@ const _planar_escapee = {title: "Planar Escapee", topLink: ["Magic Traits","main
 </Ability>
 </>};
 const _possessed = {title: "Possessed", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="possessed" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="possessed" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="possessed">Possessed</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="possessed-flavor">You were, or are, possessed in some way by another entity that grants you occasional access to its knowledge.</Pair>
@@ -655,7 +655,7 @@ const _possessed = {title: "Possessed", topLink: ["Magic Traits","main/traits_ma
 </Ability>
 </>};
 const _pragmatic_activator = {title: "Pragmatic Activator", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="pragmatic-activator" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="pragmatic-activator" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="pragmatic-activator">Pragmatic Activator</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="pragmatic-activator-flavor">While some figure out how to use magical devices with stubborn resolve, your approach is more pragmatic.</Pair>
@@ -663,7 +663,7 @@ const _pragmatic_activator = {title: "Pragmatic Activator", topLink: ["Magic Tra
 </Ability>
 </>};
 const _precise_treatment = {title: "Precise Treatment", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="precise-treatment" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="precise-treatment" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="precise-treatment">Precise Treatment</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="precise-treatment-flavor">You treat others with a clear and calculating intellect.</Pair>
@@ -671,7 +671,7 @@ const _precise_treatment = {title: "Precise Treatment", topLink: ["Magic Traits"
 </Ability>
 </>};
 const _radiant_healing = {title: "Radiant Healing", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
-<Ability id="radiant-healing" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="radiant-healing" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="radiant-healing">Radiant Healing</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="radiant-healing-flavor">You've learned how to infuse your healing magic with lingering traces of light.</Pair>
@@ -679,7 +679,7 @@ const _radiant_healing = {title: "Radiant Healing", topLink: ["Magic Traits","ma
 </Ability>
 </>};
 const _reluctant_apprentice = {title: "Reluctant Apprentice", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="reluctant-apprentice" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="reluctant-apprentice" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="reluctant-apprentice">Reluctant Apprentice</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="reluctant-apprentice-flavor">Your early training grants you knowledge of the arcane.</Pair>
@@ -687,7 +687,7 @@ const _reluctant_apprentice = {title: "Reluctant Apprentice", topLink: ["Magic T
 </Ability>
 </>};
 const _resilient_caster = {title: "Resilient Caster", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="resilient-caster" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="resilient-caster" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="resilient-caster">Resilient Caster</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="resilient-caster-flavor">Your great force of will makes your magic harder to dispel.</Pair>
@@ -695,7 +695,7 @@ const _resilient_caster = {title: "Resilient Caster", topLink: ["Magic Traits","
 </Ability>
 </>};
 const _rivethun_adherent = {title: "Rivethun Adherent", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook</Link></p>
-<Ability id="rivethun-adherent" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="rivethun-adherent" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="rivethun-adherent">Rivethun Adherent</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="rivethun-adherent-flavor"><Link to="/rule/rivethun">Rivethun</Link> is an ancient tradition of dwarven shamans who learned to listen to and affect the world around them by reflecting on the friction between body and spirit. As someone who feels a similar friction between your inner spirit and physical body, you have picked up some old rivethun meditation techniques, even if you aren't a dwarf.</Pair>
@@ -703,7 +703,7 @@ const _rivethun_adherent = {title: "Rivethun Adherent", topLink: ["Magic Traits"
 </Ability>
 </>};
 const _scholar_of_the_analects = {title: "Scholar of the Analects", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology</Link></p>
-<Ability id="scholar-of-the-analects" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="scholar-of-the-analects" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="scholar-of-the-analects">Scholar of the Analects</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="scholar-of-the-analects-flavor">You studied various Analects of Aroden from a young age and became skilled at using magic written by others.</Pair>
@@ -711,7 +711,7 @@ const _scholar_of_the_analects = {title: "Scholar of the Analects", topLink: ["M
 </Ability>
 </>};
 const _scorned_by_magic = {title: "Scorned by Magic", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="scorned-by-magic" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="scorned-by-magic" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="scorned-by-magic">Scorned by Magic</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="scorned-by-magic-flavor">As a youth, you assisted a wise woman or witch doctor who removed magical maladies from the needy and was present for the breaking of many spells - or perhaps you passed through a dead magic zone. Whatever the cause, magic seems a little more reluctant to affect you than others.</Pair>
@@ -721,7 +721,7 @@ const _scorned_by_magic = {title: "Scorned by Magic", topLink: ["Magic Traits","
 </Ability>
 </>};
 const _secret_scrolls = {title: "Secret Scrolls", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="secret-scrolls" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="secret-scrolls" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="secret-scrolls">Secret Scrolls</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="secret-scrolls-flavor">You were inducted into a secret magical tradition such as the Esoteric Order of the Palatine Eye.</Pair>
@@ -729,7 +729,7 @@ const _secret_scrolls = {title: "Secret Scrolls", topLink: ["Magic Traits","main
 </Ability>
 </>};
 const _self_taught_scholar = {title: "Self-Taught Scholar", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="self-taught-scholar" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="self-taught-scholar" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="self-taught-scholar">Self-Taught Scholar</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="self-taught-scholar-flavor">Being self-taught has made it necessary for you to scour all documentation you can get your hands on.</Pair>
@@ -737,7 +737,7 @@ const _self_taught_scholar = {title: "Self-Taught Scholar", topLink: ["Magic Tra
 </Ability>
 </>};
 const _shrouded_casting = {title: "Shrouded Casting", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="shrouded-casting" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="shrouded-casting" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="shrouded-casting">Shrouded Casting</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="shrouded-casting-flavor">You have learned the secret to casting some spells without lesser material components.</Pair>
@@ -745,7 +745,7 @@ const _shrouded_casting = {title: "Shrouded Casting", topLink: ["Magic Traits","
 </Ability>
 </>};
 const _skeptic = {title: "Skeptic", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="skeptic" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="skeptic" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="skeptic">Skeptic</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="skeptic-flavor">Growing up, you were always around magical effects to the extent that you realized much of it was mere smoke and mirrors.</Pair>
@@ -753,7 +753,7 @@ const _skeptic = {title: "Skeptic", topLink: ["Magic Traits","main/traits_magic"
 </Ability>
 </>};
 const _spark_of_creation = {title: "Spark of Creation", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
-<Ability id="spark-of-creation" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="spark-of-creation" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="spark-of-creation">Spark of Creation</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="spark-of-creation-flavor">You have always had a knack for making useful things, and your talent as an artisan was evident even at an early age.</Pair>
@@ -761,7 +761,7 @@ const _spark_of_creation = {title: "Spark of Creation", topLink: ["Magic Traits"
 </Ability>
 </>};
 const _spiritual_attachment = {title: "Spiritual Attachment", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook</Link></p>
-<Ability id="spiritual-attachment" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="spiritual-attachment" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="spiritual-attachment">Spiritual Attachment</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="spiritual-attachment-flavor">The union between spirits and spiritualists is one of the strongest (and strangest) bonds shared between the mortal realm and the spirit world. Spiritualists can use the knowledge of their linked phantoms to better negotiate with other spirits. Whether you're a spiritualist or not, you've always had a similar knack when it comes to interactions with the spirit world.</Pair>
@@ -769,7 +769,7 @@ const _spiritual_attachment = {title: "Spiritual Attachment", topLink: ["Magic T
 </Ability>
 </>};
 const _stabbing_spells = {title: "Stabbing Spells", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology</Link></p>
-<Ability id="stabbing-spells" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="stabbing-spells" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="stabbing-spells">Stabbing Spells</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="stabbing-spells-flavor">Aroden wrote much about ways to use weapons to enhance magic's effectiveness, and you have taken to heart the insights gleaned from his words.</Pair>
@@ -777,7 +777,7 @@ const _stabbing_spells = {title: "Stabbing Spells", topLink: ["Magic Traits","ma
 </Ability>
 </>};
 const _storm_touched = {title: "Storm-Touched", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="storm-touched" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="storm-touched" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="storm-touched">Storm-Touched</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="storm-touched-flavor">You share an affinity with elemental lightning.</Pair>
@@ -785,7 +785,7 @@ const _storm_touched = {title: "Storm-Touched", topLink: ["Magic Traits","main/t
 </Ability>
 </>};
 const _strength_foretold = {title: "Strength Foretold", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="strength-foretold" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="strength-foretold" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="strength-foretold">Strength Foretold</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="strength-foretold-flavor">You can channel extra power into one of your bloodline spells.</Pair>
@@ -793,7 +793,7 @@ const _strength_foretold = {title: "Strength Foretold", topLink: ["Magic Traits"
 </Ability>
 </>};
 const _sun_blessed = {title: "Sun-Blessed", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="sun-blessed" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="sun-blessed" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="sun-blessed">Sun-Blessed</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="sun-blessed-flavor">Your birth came at a time when the sun was auspiciously aligned with your birth sign. As a result, you have a natural affinity for light and life.</Pair>
@@ -801,7 +801,7 @@ const _sun_blessed = {title: "Sun-Blessed", topLink: ["Magic Traits","main/trait
 </Ability>
 </>};
 const _tenacious_shifting = {title: "Tenacious Shifting", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="tenacious-shifting" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="tenacious-shifting" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="tenacious-shifting">Tenacious Shifting</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="tenacious-shifting-flavor">You've discovered the secret of stable transmutations.</Pair>
@@ -809,7 +809,7 @@ const _tenacious_shifting = {title: "Tenacious Shifting", topLink: ["Magic Trait
 </Ability>
 </>};
 const _theoretical_magician = {title: "Theoretical Magician", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="theoretical-magician" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="theoretical-magician" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="theoretical-magician">Theoretical Magician</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="theoretical-magician-flavor">You've studied more magic than what you can actually perform.</Pair>
@@ -817,7 +817,7 @@ const _theoretical_magician = {title: "Theoretical Magician", topLink: ["Magic T
 </Ability>
 </>};
 const _transmuter_of_korada = {title: "Transmuter of Korada", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
-<Ability id="transmuter-of-korada" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="transmuter-of-korada" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="transmuter-of-korada">Transmuter of Korada</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="transmuter-of-korada-flavor">You learned the secrets of transmutation from a follower of the empyreal lord <Link to="/faith/korada">Korada</Link>.</Pair>
@@ -827,7 +827,7 @@ const _transmuter_of_korada = {title: "Transmuter of Korada", topLink: ["Magic T
 </Ability>
 </>};
 const _twinned_presence = {title: "Twinned Presence", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="twinned-presence" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="twinned-presence" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="twinned-presence">Twinned Presence</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="twinned-presence-flavor">Your eidolon - and your connection to it - makes others ill at ease.</Pair>
@@ -835,7 +835,7 @@ const _twinned_presence = {title: "Twinned Presence", topLink: ["Magic Traits","
 </Ability>
 </>};
 const _twisted_tattoo = {title: "Twisted Tattoo", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="twisted-tattoo" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="twisted-tattoo" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="twisted-tattoo">Twisted Tattoo</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="twisted-tattoo-flavor">Your exposure to eldritch phenomena has caused your skin to develop a strange pattern.</Pair>
@@ -843,7 +843,7 @@ const _twisted_tattoo = {title: "Twisted Tattoo", topLink: ["Magic Traits","main
 </Ability>
 </>};
 const _unscathed = {title: "Unscathed", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="unscathed" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="unscathed" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="unscathed">Unscathed</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="unscathed-flavor">You are amazingly resistant to energy attacks because of either your upbringing or magical experimentation.</Pair>
@@ -851,7 +851,7 @@ const _unscathed = {title: "Unscathed", topLink: ["Magic Traits","main/traits_ma
 </Ability>
 </>};
 const _unseen_but_not_undone = {title: "Unseen but Not Undone", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="unseen-but-not-undone" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="unseen-but-not-undone" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="unseen-but-not-undone">Unseen but Not Undone</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="unseen-but-not-undone-flavor">Without a single gesture, you can unleash a bloodline spell.</Pair>
@@ -859,7 +859,7 @@ const _unseen_but_not_undone = {title: "Unseen but Not Undone", topLink: ["Magic
 </Ability>
 </>};
 const _unstable_mutagen = {title: "Unstable Mutagen", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="unstable-mutagen" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="unstable-mutagen" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="unstable-mutagen">Unstable Mutagen</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="unstable-mutagen-flavor">You discovered or were given a secret to make your mutagens more unstable - but also more potent.</Pair>
@@ -900,7 +900,7 @@ const _unstable_mutagen = {title: "Unstable Mutagen", topLink: ["Magic Traits","
 </Ability>
 </>};
 const _volatile_conduit = {title: "Volatile Conduit", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="volatile-conduit" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="volatile-conduit" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="volatile-conduit">Volatile Conduit</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="volatile-conduit-flavor">You discovered a secret that enhances the energy of some spells.</Pair>
@@ -908,7 +908,7 @@ const _volatile_conduit = {title: "Volatile Conduit", topLink: ["Magic Traits","
 </Ability>
 </>};
 const _water_touched = {title: "Water-Touched", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="water-touched" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="water-touched" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="water-touched">Water-Touched</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="water-touched-flavor">You share an affinity with elemental water.</Pair>
@@ -916,7 +916,7 @@ const _water_touched = {title: "Water-Touched", topLink: ["Magic Traits","main/t
 </Ability>
 </>};
 const _winter_witchcraft_survivor = {title: "Winter Witchcraft Survivor", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
-<Ability id="winter-witchcraft-survivor" extraClasses="trait" icon={["magic-swirl"]}>
+<Ability id="winter-witchcraft-survivor" extraClasses="trait" icon={["Magic"]}>
 <Pair single id="winter-witchcraft-survivor">Winter Witchcraft Survivor</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="flavor" id="winter-witchcraft-survivor-flavor">You narrowly escaped death when a Winter Witch punished you for supporting the Heralds.</Pair>
@@ -924,7 +924,7 @@ const _winter_witchcraft_survivor = {title: "Winter Witchcraft Survivor", topLin
 </Ability>
 </>};
 const _chance_savior = {title: "Chance Savior", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/carrion_crown_players_guide">Carrion Crown Player's Guide</Link></p>
-<Ability id="chance-savior" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="chance-savior" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="chance-savior">Chance Savior</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Carrion Crown</Pair>
@@ -933,7 +933,7 @@ const _chance_savior = {title: "Chance Savior", topLink: ["Campaign Traits","mai
 </Ability>
 </>};
 const _inspired_by_greatness = {title: "Inspired by Greatness", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/carrion_crown_players_guide">Carrion Crown Player's Guide</Link></p>
-<Ability id="inspired-by-greatness" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="inspired-by-greatness" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="inspired-by-greatness">Inspired by Greatness</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Carrion Crown</Pair>
@@ -942,7 +942,7 @@ const _inspired_by_greatness = {title: "Inspired by Greatness", topLink: ["Campa
 </Ability>
 </>};
 const _making_good_on_promises = {title: "Making Good on Promises", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/carrion_crown_players_guide">Carrion Crown Player's Guide</Link></p>
-<Ability id="making-good-on-promises" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="making-good-on-promises" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="making-good-on-promises">Making Good on Promises</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Carrion Crown</Pair>
@@ -951,7 +951,7 @@ const _making_good_on_promises = {title: "Making Good on Promises", topLink: ["C
 </Ability>
 </>};
 const _on_the_payroll = {title: "On the Payroll", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/carrion_crown_players_guide">Carrion Crown Player's Guide</Link></p>
-<Ability id="on-the-payroll" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="on-the-payroll" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="on-the-payroll">On the Payroll</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Carrion Crown</Pair>
@@ -960,7 +960,7 @@ const _on_the_payroll = {title: "On the Payroll", topLink: ["Campaign Traits","m
 </Ability>
 </>};
 const _subject_of_study = {title: "Subject of Study", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/carrion_crown_players_guide">Carrion Crown Player's Guide</Link></p>
-<Ability id="subject-of-study" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="subject-of-study" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="subject-of-study">Subject of Study</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Carrion Crown</Pair>
@@ -969,7 +969,7 @@ const _subject_of_study = {title: "Subject of Study", topLink: ["Campaign Traits
 </Ability>
 </>};
 const _teachers_pet = {title: "Teacher's Pet", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/carrion_crown_players_guide">Carrion Crown Player's Guide</Link></p>
-<Ability id="teachers-pet" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="teachers-pet" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="teachers-pet">Teacher's Pet</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Carrion Crown</Pair>
@@ -978,7 +978,7 @@ const _teachers_pet = {title: "Teacher's Pet", topLink: ["Campaign Traits","main
 </Ability>
 </>};
 const _child_of_infamy = {title: "Child of Infamy", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/council_of_thieves_players_guide">Council of Thieves Player's Guide</Link></p>
-<Ability id="child-of-infamy" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="child-of-infamy" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="child-of-infamy">Child of Infamy</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Council of Thieves</Pair>
@@ -987,7 +987,7 @@ const _child_of_infamy = {title: "Child of Infamy", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _conspiracy_hunter = {title: "Conspiracy Hunter", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/council_of_thieves_players_guide">Council of Thieves Player's Guide</Link></p>
-<Ability id="conspiracy-hunter" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="conspiracy-hunter" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="conspiracy-hunter">Conspiracy Hunter</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Council of Thieves</Pair>
@@ -996,7 +996,7 @@ const _conspiracy_hunter = {title: "Conspiracy Hunter", topLink: ["Campaign Trai
 </Ability>
 </>};
 const _diabolist_raised = {title: "Diabolist Raised", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/council_of_thieves_players_guide">Council of Thieves Player's Guide</Link></p>
-<Ability id="diabolist-raised" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="diabolist-raised" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="diabolist-raised">Diabolist Raised</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Council of Thieves</Pair>
@@ -1005,7 +1005,7 @@ const _diabolist_raised = {title: "Diabolist Raised", topLink: ["Campaign Traits
 </Ability>
 </>};
 const _infernal_bastard = {title: "Infernal Bastard", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/council_of_thieves_players_guide">Council of Thieves Player's Guide</Link></p>
-<Ability id="infernal-bastard" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="infernal-bastard" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="infernal-bastard">Infernal Bastard</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Council of Thieves</Pair>
@@ -1015,7 +1015,7 @@ const _infernal_bastard = {title: "Infernal Bastard", topLink: ["Campaign Traits
 </Ability>
 </>};
 const _shadow_child = {title: "Shadow Child", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/council_of_thieves_players_guide">Council of Thieves Player's Guide</Link></p>
-<Ability id="shadow-child" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="shadow-child" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="shadow-child">Shadow Child</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Council of Thieves</Pair>
@@ -1024,7 +1024,7 @@ const _shadow_child = {title: "Shadow Child", topLink: ["Campaign Traits","main/
 </Ability>
 </>};
 const _the_pathfinders_exile = {title: "The Pathfinder's Exile", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/council_of_thieves_players_guide">Council of Thieves Player's Guide</Link></p>
-<Ability id="the-pathfinders-exile" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="the-pathfinders-exile" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="the-pathfinders-exile">The Pathfinder's Exile</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Council of Thieves</Pair>
@@ -1033,7 +1033,7 @@ const _the_pathfinders_exile = {title: "The Pathfinder's Exile", topLink: ["Camp
 </Ability>
 </>};
 const _westcrown_firebrand = {title: "Westcrown Firebrand", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/council_of_thieves_players_guide">Council of Thieves Player's Guide</Link></p>
-<Ability id="westcrown-firebrand" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="westcrown-firebrand" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="westcrown-firebrand">Westcrown Firebrand</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Council of Thieves</Pair>
@@ -1042,7 +1042,7 @@ const _westcrown_firebrand = {title: "Westcrown Firebrand", topLink: ["Campaign 
 </Ability>
 </>};
 const _betrayed_cotct = {title: "Betrayed (CotCT)", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/curse_of_the_crimson_throne">Curse of the Crimson Throne</Link></p>
-<Ability id="betrayed-cotct" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="betrayed-cotct" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="betrayed-cotct">Betrayed (CotCT)</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Curse of the Crimson Throne</Pair>
@@ -1056,7 +1056,7 @@ const _betrayed_cotct = {title: "Betrayed (CotCT)", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _dockside_avenger = {title: "Dockside Avenger", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide</Link></p>
-<Ability id="dockside-avenger" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="dockside-avenger" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="dockside-avenger">Dockside Avenger</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Curse of the Crimson Throne</Pair>
@@ -1065,7 +1065,7 @@ const _dockside_avenger = {title: "Dockside Avenger", topLink: ["Campaign Traits
 </Ability>
 </>};
 const _drug_addict = {title: "Drug Addict", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/curse_of_the_crimson_throne">Curse of the Crimson Throne</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide</Link></p>
-<Ability id="drug-addict" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="drug-addict" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="drug-addict">Drug Addict</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Curse of the Crimson Throne</Pair>
@@ -1079,7 +1079,7 @@ const _drug_addict = {title: "Drug Addict", topLink: ["Campaign Traits","main/tr
 </Ability>
 </>};
 const _framed = {title: "Framed", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/curse_of_the_crimson_throne">Curse of the Crimson Throne</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide</Link></p>
-<Ability id="framed" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="framed" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="framed">Framed</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Curse of the Crimson Throne</Pair>
@@ -1093,7 +1093,7 @@ const _framed = {title: "Framed", topLink: ["Campaign Traits","main/traits_campa
 </Ability>
 </>};
 const _love_lost = {title: "Love Lost", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/curse_of_the_crimson_throne">Curse of the Crimson Throne</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide</Link></p>
-<Ability id="love-lost" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="love-lost" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="love-lost">Love Lost</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Curse of the Crimson Throne</Pair>
@@ -1107,7 +1107,7 @@ const _love_lost = {title: "Love Lost", topLink: ["Campaign Traits","main/traits
 </Ability>
 </>};
 const _missing_child = {title: "Missing Child", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/curse_of_the_crimson_throne">Curse of the Crimson Throne</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide</Link></p>
-<Ability id="missing-child" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="missing-child" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="missing-child">Missing Child</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Curse of the Crimson Throne</Pair>
@@ -1121,7 +1121,7 @@ const _missing_child = {title: "Missing Child", topLink: ["Campaign Traits","mai
 </Ability>
 </>};
 const _unhappy_childhood = {title: "Unhappy Childhood", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/curse_of_the_crimson_throne">Curse of the Crimson Throne</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide</Link></p>
-<Ability id="unhappy-childhood" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="unhappy-childhood" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="unhappy-childhood">Unhappy Childhood</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Curse of the Crimson Throne</Pair>
@@ -1135,7 +1135,7 @@ const _unhappy_childhood = {title: "Unhappy Childhood", topLink: ["Campaign Trai
 </Ability>
 </>};
 const _varisian_immunity = {title: "Varisian Immunity", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide</Link></p>
-<Ability id="varisian-immunity" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="varisian-immunity" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="varisian-immunity">Varisian Immunity</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Curse of the Crimson Throne</Pair>
@@ -1146,7 +1146,7 @@ const _varisian_immunity = {title: "Varisian Immunity", topLink: ["Campaign Trai
 </Ability>
 </>};
 const _artifact_hunter_gs = {title: "Artifact Hunter (GS)", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/giantslayer_players_guide">Giantslayer Player's Guide</Link>, <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
-<Ability id="artifact-hunter-gs" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="artifact-hunter-gs" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="artifact-hunter-gs">Artifact Hunter (GS)</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Giantslayer</Pair>
@@ -1157,7 +1157,7 @@ const _artifact_hunter_gs = {title: "Artifact Hunter (GS)", topLink: ["Campaign 
 </Ability>
 </>};
 const _dragonfoe = {title: "Dragonfoe", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/giantslayer_players_guide">Giantslayer Player's Guide</Link>, <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
-<Ability id="dragonfoe" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="dragonfoe" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="dragonfoe">Dragonfoe</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Giantslayer</Pair>
@@ -1166,7 +1166,7 @@ const _dragonfoe = {title: "Dragonfoe", topLink: ["Campaign Traits","main/traits
 </Ability>
 </>};
 const _dwarf_trained = {title: "Dwarf-Trained", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/giantslayer_players_guide">Giantslayer Player's Guide</Link>, <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
-<Ability id="dwarf-trained" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="dwarf-trained" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="dwarf-trained">Dwarf-Trained</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Giantslayer</Pair>
@@ -1176,7 +1176,7 @@ const _dwarf_trained = {title: "Dwarf-Trained", topLink: ["Campaign Traits","mai
 </Ability>
 </>};
 const _giant_blooded = {title: "Giant-Blooded", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/giantslayer_players_guide">Giantslayer Player's Guide</Link>, <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
-<Ability id="giant-blooded" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="giant-blooded" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="giant-blooded">Giant-Blooded</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Giantslayer</Pair>
@@ -1185,7 +1185,7 @@ const _giant_blooded = {title: "Giant-Blooded", topLink: ["Campaign Traits","mai
 </Ability>
 </>};
 const _giantslayer_scion = {title: "Giantslayer Scion", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/giantslayer_players_guide">Giantslayer Player's Guide</Link>, <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
-<Ability id="giantslayer-scion" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="giantslayer-scion" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="giantslayer-scion">Giantslayer Scion</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Giantslayer</Pair>
@@ -1194,7 +1194,7 @@ const _giantslayer_scion = {title: "Giantslayer Scion", topLink: ["Campaign Trai
 </Ability>
 </>};
 const _orphaned_by_giants = {title: "Orphaned by Giants", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/giantslayer_players_guide">Giantslayer Player's Guide</Link>, <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
-<Ability id="orphaned-by-giants" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="orphaned-by-giants" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="orphaned-by-giants">Orphaned by Giants</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Giantslayer</Pair>
@@ -1203,7 +1203,7 @@ const _orphaned_by_giants = {title: "Orphaned by Giants", topLink: ["Campaign Tr
 </Ability>
 </>};
 const _roll_with_it = {title: "Roll With It", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/giantslayer_players_guide">Giantslayer Player's Guide</Link>, <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
-<Ability id="roll-with-it" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="roll-with-it" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="roll-with-it">Roll With It</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Giantslayer</Pair>
@@ -1214,7 +1214,7 @@ const _roll_with_it = {title: "Roll With It", topLink: ["Campaign Traits","main/
 </Ability>
 </>};
 const _student_of_giantkind = {title: "Student of Giantkind", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/giantslayer_players_guide">Giantslayer Player's Guide</Link>, <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
-<Ability id="student-of-giantkind" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="student-of-giantkind" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="student-of-giantkind">Student of Giantkind</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Giantslayer</Pair>
@@ -1223,7 +1223,7 @@ const _student_of_giantkind = {title: "Student of Giantkind", topLink: ["Campaig
 </Ability>
 </>};
 const _trunau_native = {title: "Trunau Native", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/giantslayer_players_guide">Giantslayer Player's Guide</Link>, <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
-<Ability id="trunau-native" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="trunau-native" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="trunau-native">Trunau Native</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Giantslayer</Pair>
@@ -1232,7 +1232,7 @@ const _trunau_native = {title: "Trunau Native", topLink: ["Campaign Traits","mai
 </Ability>
 </>};
 const _vexing_defender = {title: "Vexing Defender", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/giantslayer_players_guide">Giantslayer Player's Guide</Link>, <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
-<Ability id="vexing-defender" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="vexing-defender" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="vexing-defender">Vexing Defender</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Giantslayer</Pair>
@@ -1241,7 +1241,7 @@ const _vexing_defender = {title: "Vexing Defender", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _child_of_kintargo = {title: "Child of Kintargo", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_rebels_players_guide">Hell's Rebels Player's Guide</Link></p>
-<Ability id="child-of-kintargo" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="child-of-kintargo" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="child-of-kintargo">Child of Kintargo</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Rebels</Pair>
@@ -1252,7 +1252,7 @@ const _child_of_kintargo = {title: "Child of Kintargo", topLink: ["Campaign Trai
 </Ability>
 </>};
 const _diva_in_training = {title: "Diva in Training", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_rebels_players_guide">Hell's Rebels Player's Guide</Link></p>
-<Ability id="diva-in-training" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="diva-in-training" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="diva-in-training">Diva in Training</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Rebels</Pair>
@@ -1261,7 +1261,7 @@ const _diva_in_training = {title: "Diva in Training", topLink: ["Campaign Traits
 </Ability>
 </>};
 const _ex_asmodean = {title: "Ex-Asmodean", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_rebels_players_guide">Hell's Rebels Player's Guide</Link></p>
-<Ability id="ex-asmodean" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="ex-asmodean" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="ex-asmodean">Ex-Asmodean</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Rebels</Pair>
@@ -1270,7 +1270,7 @@ const _ex_asmodean = {title: "Ex-Asmodean", topLink: ["Campaign Traits","main/tr
 </Ability>
 </>};
 const _fed_up_citizen = {title: "Fed-Up Citizen", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_rebels_players_guide">Hell's Rebels Player's Guide</Link></p>
-<Ability id="fed-up-citizen" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="fed-up-citizen" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="fed-up-citizen">Fed-Up Citizen</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Rebels</Pair>
@@ -1282,7 +1282,7 @@ const _fed_up_citizen = {title: "Fed-Up Citizen", topLink: ["Campaign Traits","m
 </Ability>
 </>};
 const _gifted_satirist = {title: "Gifted Satirist", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_rebels_players_guide">Hell's Rebels Player's Guide</Link></p>
-<Ability id="gifted-satirist" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="gifted-satirist" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="gifted-satirist">Gifted Satirist</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Rebels</Pair>
@@ -1291,7 +1291,7 @@ const _gifted_satirist = {title: "Gifted Satirist", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _historian_of_the_rebellion = {title: "Historian of the Rebellion", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_rebels_players_guide">Hell's Rebels Player's Guide</Link></p>
-<Ability id="historian-of-the-rebellion" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="historian-of-the-rebellion" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="historian-of-the-rebellion">Historian of the Rebellion</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Rebels</Pair>
@@ -1302,7 +1302,7 @@ const _historian_of_the_rebellion = {title: "Historian of the Rebellion", topLin
 </Ability>
 </>};
 const _natural_born_leader_hr = {title: "Natural Born Leader (HR)", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_rebels_players_guide">Hell's Rebels Player's Guide</Link></p>
-<Ability id="natural-born-leader-hr" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="natural-born-leader-hr" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="natural-born-leader-hr">Natural Born Leader (HR)</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Rebels</Pair>
@@ -1311,7 +1311,7 @@ const _natural_born_leader_hr = {title: "Natural Born Leader (HR)", topLink: ["C
 </Ability>
 </>};
 const _pattern_seeker = {title: "Pattern Seeker", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_rebels_players_guide">Hell's Rebels Player's Guide</Link></p>
-<Ability id="pattern-seeker" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="pattern-seeker" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="pattern-seeker">Pattern Seeker</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Rebels</Pair>
@@ -1320,7 +1320,7 @@ const _pattern_seeker = {title: "Pattern Seeker", topLink: ["Campaign Traits","m
 </Ability>
 </>};
 const _star_struck = {title: "Star Struck", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_rebels_players_guide">Hell's Rebels Player's Guide</Link></p>
-<Ability id="star-struck" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="star-struck" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="star-struck">Star Struck</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Rebels</Pair>
@@ -1337,7 +1337,7 @@ const _star_struck = {title: "Star Struck", topLink: ["Campaign Traits","main/tr
 </Ability>
 </>};
 const _urban_sleuth = {title: "Urban Sleuth", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_rebels_players_guide">Hell's Rebels Player's Guide</Link></p>
-<Ability id="urban-sleuth" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="urban-sleuth" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="urban-sleuth">Urban Sleuth</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Rebels</Pair>
@@ -1353,7 +1353,7 @@ const _urban_sleuth = {title: "Urban Sleuth", topLink: ["Campaign Traits","main/
 </Ability>
 </>};
 const _amoral_mercenary = {title: "Amoral Mercenary", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_vengeance_players_guide">Hell's Vengeance Player's Guide</Link></p>
-<Ability id="amoral-mercenary" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="amoral-mercenary" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="amoral-mercenary">Amoral Mercenary</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Vengeance</Pair>
@@ -1362,7 +1362,7 @@ const _amoral_mercenary = {title: "Amoral Mercenary", topLink: ["Campaign Traits
 </Ability>
 </>};
 const _apprentice_devilbinder = {title: "Apprentice Devilbinder", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_vengeance_players_guide">Hell's Vengeance Player's Guide</Link></p>
-<Ability id="apprentice-devilbinder" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="apprentice-devilbinder" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="apprentice-devilbinder">Apprentice Devilbinder</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Vengeance</Pair>
@@ -1371,7 +1371,7 @@ const _apprentice_devilbinder = {title: "Apprentice Devilbinder", topLink: ["Cam
 </Ability>
 </>};
 const _asmodean_acolyte = {title: "Asmodean Acolyte", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_vengeance_players_guide">Hell's Vengeance Player's Guide</Link></p>
-<Ability id="asmodean-acolyte" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="asmodean-acolyte" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="asmodean-acolyte">Asmodean Acolyte</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Vengeance</Pair>
@@ -1380,7 +1380,7 @@ const _asmodean_acolyte = {title: "Asmodean Acolyte", topLink: ["Campaign Traits
 </Ability>
 </>};
 const _chelish_noble = {title: "Chelish Noble", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_vengeance_players_guide">Hell's Vengeance Player's Guide</Link></p>
-<Ability id="chelish-noble" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="chelish-noble" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="chelish-noble">Chelish Noble</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Vengeance</Pair>
@@ -1389,7 +1389,7 @@ const _chelish_noble = {title: "Chelish Noble", topLink: ["Campaign Traits","mai
 </Ability>
 </>};
 const _erratic_malefactor = {title: "Erratic Malefactor", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_vengeance_players_guide">Hell's Vengeance Player's Guide</Link></p>
-<Ability id="erratic-malefactor" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="erratic-malefactor" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="erratic-malefactor">Erratic Malefactor</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Vengeance</Pair>
@@ -1398,7 +1398,7 @@ const _erratic_malefactor = {title: "Erratic Malefactor", topLink: ["Campaign Tr
 </Ability>
 </>};
 const _ex_iomedaean = {title: "Ex-Iomedaean", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_vengeance_players_guide">Hell's Vengeance Player's Guide</Link></p>
-<Ability id="ex-iomedaean" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="ex-iomedaean" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="ex-iomedaean">Ex-Iomedaean</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Vengeance</Pair>
@@ -1407,7 +1407,7 @@ const _ex_iomedaean = {title: "Ex-Iomedaean", topLink: ["Campaign Traits","main/
 </Ability>
 </>};
 const _good_slip = {title: "Good Slip", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_vengeance_players_guide">Hell's Vengeance Player's Guide</Link></p>
-<Ability id="good-slip" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="good-slip" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="good-slip">Good Slip</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Vengeance</Pair>
@@ -1417,7 +1417,7 @@ const _good_slip = {title: "Good Slip", topLink: ["Campaign Traits","main/traits
 </Ability>
 </>};
 const _hellknight_aspirant = {title: "Hellknight Aspirant", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_vengeance_players_guide">Hell's Vengeance Player's Guide</Link></p>
-<Ability id="hellknight-aspirant" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="hellknight-aspirant" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="hellknight-aspirant">Hellknight Aspirant</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Vengeance</Pair>
@@ -1437,7 +1437,7 @@ const _hellknight_aspirant = {title: "Hellknight Aspirant", topLink: ["Campaign 
 </Ability>
 </>};
 const _local_tough = {title: "Local Tough", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_vengeance_players_guide">Hell's Vengeance Player's Guide</Link></p>
-<Ability id="local-tough" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="local-tough" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="local-tough">Local Tough</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Vengeance</Pair>
@@ -1446,7 +1446,7 @@ const _local_tough = {title: "Local Tough", topLink: ["Campaign Traits","main/tr
 </Ability>
 </>};
 const _scion_of_the_nine_circles = {title: "Scion of the Nine Circles", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_vengeance_players_guide">Hell's Vengeance Player's Guide</Link></p>
-<Ability id="scion-of-the-nine-circles" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="scion-of-the-nine-circles" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="scion-of-the-nine-circles">Scion of the Nine Circles</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Vengeance</Pair>
@@ -1455,7 +1455,7 @@ const _scion_of_the_nine_circles = {title: "Scion of the Nine Circles", topLink:
 </Ability>
 </>};
 const _thrune_informant = {title: "Thrune Informant", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/hells_vengeance_players_guide">Hell's Vengeance Player's Guide</Link></p>
-<Ability id="thrune-informant" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="thrune-informant" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="thrune-informant">Thrune Informant</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Vengeance</Pair>
@@ -1464,7 +1464,7 @@ const _thrune_informant = {title: "Thrune Informant", topLink: ["Campaign Traits
 </Ability>
 </>};
 const _thrune_loyal_agent = {title: "Thrune Loyal Agent", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_104_wrath_of_thrune">Pathfinder #104: Wrath of Thrune</Link></p>
-<Ability id="thrune-loyal-agent" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="thrune-loyal-agent" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="thrune-loyal-agent">Thrune Loyal Agent</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Hell's Vengeance</Pair>
@@ -1476,7 +1476,7 @@ const _thrune_loyal_agent = {title: "Thrune Loyal Agent", topLink: ["Campaign Tr
 </Ability>
 </>};
 const _against_the_technic_league = {title: "Against the Technic League", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/iron_gods_players_guide">Iron Gods Player's Guide</Link>, <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="against-the-technic-league" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="against-the-technic-league" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="against-the-technic-league">Against the Technic League</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Iron Gods</Pair>
@@ -1485,7 +1485,7 @@ const _against_the_technic_league = {title: "Against the Technic League", topLin
 </Ability>
 </>};
 const _local_ties = {title: "Local Ties", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/iron_gods_players_guide">Iron Gods Player's Guide</Link>, <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="local-ties" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="local-ties" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="local-ties">Local Ties</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Iron Gods</Pair>
@@ -1494,7 +1494,7 @@ const _local_ties = {title: "Local Ties", topLink: ["Campaign Traits","main/trai
 </Ability>
 </>};
 const _numerian_archaeologist = {title: "Numerian Archaeologist", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/iron_gods_players_guide">Iron Gods Player's Guide</Link>, <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="numerian-archaeologist" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="numerian-archaeologist" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="numerian-archaeologist">Numerian Archaeologist</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Iron Gods</Pair>
@@ -1503,7 +1503,7 @@ const _numerian_archaeologist = {title: "Numerian Archaeologist", topLink: ["Cam
 </Ability>
 </>};
 const _robot_slayer = {title: "Robot Slayer", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/iron_gods_players_guide">Iron Gods Player's Guide</Link>, <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="robot-slayer" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="robot-slayer" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="robot-slayer">Robot Slayer</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Iron Gods</Pair>
@@ -1512,7 +1512,7 @@ const _robot_slayer = {title: "Robot Slayer", topLink: ["Campaign Traits","main/
 </Ability>
 </>};
 const _skymetal_smith = {title: "Skymetal Smith", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/iron_gods_players_guide">Iron Gods Player's Guide</Link>, <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="skymetal-smith" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="skymetal-smith" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="skymetal-smith">Skymetal Smith</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Iron Gods</Pair>
@@ -1521,7 +1521,7 @@ const _skymetal_smith = {title: "Skymetal Smith", topLink: ["Campaign Traits","m
 </Ability>
 </>};
 const _stargazer_ig = {title: "Stargazer (IG)", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/iron_gods_players_guide">Iron Gods Player's Guide</Link>, <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="stargazer-ig" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="stargazer-ig" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="stargazer-ig">Stargazer (IG)</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Iron Gods</Pair>
@@ -1530,7 +1530,7 @@ const _stargazer_ig = {title: "Stargazer (IG)", topLink: ["Campaign Traits","mai
 </Ability>
 </>};
 const _animal_whisperer = {title: "Animal Whisperer", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ironfang_invasion_players_guide">Ironfang Invasion Player's Guide</Link></p>
-<Ability id="animal-whisperer" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="animal-whisperer" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="animal-whisperer">Animal Whisperer</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ironfang Invasion</Pair>
@@ -1541,7 +1541,7 @@ const _animal_whisperer = {title: "Animal Whisperer", topLink: ["Campaign Traits
 </Ability>
 </>};
 const _blight_burned = {title: "Blight-Burned", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ironfang_invasion_players_guide">Ironfang Invasion Player's Guide</Link></p>
-<Ability id="blight-burned" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="blight-burned" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="blight-burned">Blight-Burned</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ironfang Invasion</Pair>
@@ -1550,7 +1550,7 @@ const _blight_burned = {title: "Blight-Burned", topLink: ["Campaign Traits","mai
 </Ability>
 </>};
 const _chernasardo_hopeful = {title: "Chernasardo Hopeful", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ironfang_invasion_players_guide">Ironfang Invasion Player's Guide</Link></p>
-<Ability id="chernasardo-hopeful" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="chernasardo-hopeful" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="chernasardo-hopeful">Chernasardo Hopeful</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ironfang Invasion</Pair>
@@ -1559,7 +1559,7 @@ const _chernasardo_hopeful = {title: "Chernasardo Hopeful", topLink: ["Campaign 
 </Ability>
 </>};
 const _foxclaw_scout = {title: "Foxclaw Scout", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ironfang_invasion_players_guide">Ironfang Invasion Player's Guide</Link></p>
-<Ability id="foxclaw-scout" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="foxclaw-scout" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="foxclaw-scout">Foxclaw Scout</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ironfang Invasion</Pair>
@@ -1568,7 +1568,7 @@ const _foxclaw_scout = {title: "Foxclaw Scout", topLink: ["Campaign Traits","mai
 </Ability>
 </>};
 const _frontier_healer = {title: "Frontier Healer", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ironfang_invasion_players_guide">Ironfang Invasion Player's Guide</Link></p>
-<Ability id="frontier-healer" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="frontier-healer" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="frontier-healer">Frontier Healer</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ironfang Invasion</Pair>
@@ -1577,7 +1577,7 @@ const _frontier_healer = {title: "Frontier Healer", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _ironfang_survivor = {title: "Ironfang Survivor", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ironfang_invasion_players_guide">Ironfang Invasion Player's Guide</Link></p>
-<Ability id="ironfang-survivor" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="ironfang-survivor" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="ironfang-survivor">Ironfang Survivor</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ironfang Invasion</Pair>
@@ -1586,7 +1586,7 @@ const _ironfang_survivor = {title: "Ironfang Survivor", topLink: ["Campaign Trai
 </Ability>
 </>};
 const _kraggodan_castaway = {title: "Kraggodan Castaway", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ironfang_invasion_players_guide">Ironfang Invasion Player's Guide</Link></p>
-<Ability id="kraggodan-castaway" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="kraggodan-castaway" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="kraggodan-castaway">Kraggodan Castaway</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ironfang Invasion</Pair>
@@ -1598,7 +1598,7 @@ const _kraggodan_castaway = {title: "Kraggodan Castaway", topLink: ["Campaign Tr
 </Ability>
 </>};
 const _unbreakable_survivor = {title: "Unbreakable Survivor", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ironfang_invasion_players_guide">Ironfang Invasion Player's Guide</Link></p>
-<Ability id="unbreakable-survivor" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="unbreakable-survivor" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="unbreakable-survivor">Unbreakable Survivor</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ironfang Invasion</Pair>
@@ -1607,7 +1607,7 @@ const _unbreakable_survivor = {title: "Unbreakable Survivor", topLink: ["Campaig
 </Ability>
 </>};
 const _world_weary = {title: "World-Weary", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ironfang_invasion_players_guide">Ironfang Invasion Player's Guide</Link></p>
-<Ability id="world-weary" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="world-weary" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="world-weary">World-Weary</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ironfang Invasion</Pair>
@@ -1616,7 +1616,7 @@ const _world_weary = {title: "World-Weary", topLink: ["Campaign Traits","main/tr
 </Ability>
 </>};
 const _best_customer = {title: "Best Customer", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link>, <Link to="/source/jade_regent_players_guide">Jade Regent Player's Guide</Link></p>
-<Ability id="best-customer" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="best-customer" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="best-customer">Best Customer</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Jade Regent</Pair>
@@ -1629,7 +1629,7 @@ const _best_customer = {title: "Best Customer", topLink: ["Campaign Traits","mai
 </Ability>
 </>};
 const _best_friend = {title: "Best Friend", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/jade_regent_players_guide">Jade Regent Player's Guide</Link></p>
-<Ability id="best-friend" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="best-friend" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="best-friend">Best Friend</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Jade Regent</Pair>
@@ -1643,7 +1643,7 @@ const _best_friend = {title: "Best Friend", topLink: ["Campaign Traits","main/tr
 </Ability>
 </>};
 const _caravan_guard = {title: "Caravan Guard", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/jade_regent_players_guide">Jade Regent Player's Guide</Link></p>
-<Ability id="caravan-guard" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="caravan-guard" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="caravan-guard">Caravan Guard</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Jade Regent</Pair>
@@ -1656,7 +1656,7 @@ const _caravan_guard = {title: "Caravan Guard", topLink: ["Campaign Traits","mai
 </Ability>
 </>};
 const _childhood_crush = {title: "Childhood Crush", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/jade_regent_players_guide">Jade Regent Player's Guide</Link></p>
-<Ability id="childhood-crush" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="childhood-crush" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="childhood-crush">Childhood Crush</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Jade Regent</Pair>
@@ -1671,7 +1671,7 @@ const _childhood_crush = {title: "Childhood Crush", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _foreign_tongued = {title: "Foreign-Tongued", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link>, <Link to="/source/jade_regent_players_guide">Jade Regent Player's Guide</Link></p>
-<Ability id="foreign-tongued" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="foreign-tongued" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="foreign-tongued">Foreign-Tongued</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Jade Regent</Pair>
@@ -1686,7 +1686,7 @@ const _foreign_tongued = {title: "Foreign-Tongued", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _foster_child = {title: "Foster Child", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/jade_regent_players_guide">Jade Regent Player's Guide</Link></p>
-<Ability id="foster-child" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="foster-child" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="foster-child">Foster Child</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Jade Regent</Pair>
@@ -1699,7 +1699,7 @@ const _foster_child = {title: "Foster Child", topLink: ["Campaign Traits","main/
 </Ability>
 </>};
 const _friend_of_the_family = {title: "Friend of the Family", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/jade_regent_players_guide">Jade Regent Player's Guide</Link></p>
-<Ability id="friend-of-the-family" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="friend-of-the-family" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="friend-of-the-family">Friend of the Family</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Jade Regent</Pair>
@@ -1712,7 +1712,7 @@ const _friend_of_the_family = {title: "Friend of the Family", topLink: ["Campaig
 </Ability>
 </>};
 const _hero_worship = {title: "Hero Worship", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/jade_regent_players_guide">Jade Regent Player's Guide</Link></p>
-<Ability id="hero-worship" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="hero-worship" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="hero-worship">Hero Worship</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Jade Regent</Pair>
@@ -1726,7 +1726,7 @@ const _hero_worship = {title: "Hero Worship", topLink: ["Campaign Traits","main/
 </Ability>
 </>};
 const _rescued = {title: "Rescued", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/jade_regent_players_guide">Jade Regent Player's Guide</Link></p>
-<Ability id="rescued" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="rescued" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="rescued">Rescued</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Jade Regent</Pair>
@@ -1740,7 +1740,7 @@ const _rescued = {title: "Rescued", topLink: ["Campaign Traits","main/traits_cam
 </Ability>
 </>};
 const _student_survivalist = {title: "Student Survivalist", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/jade_regent_players_guide">Jade Regent Player's Guide</Link></p>
-<Ability id="student-survivalist" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="student-survivalist" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="student-survivalist">Student Survivalist</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Jade Regent</Pair>
@@ -1753,7 +1753,7 @@ const _student_survivalist = {title: "Student Survivalist", topLink: ["Campaign 
 </Ability>
 </>};
 const _younger_sibling = {title: "Younger Sibling", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/jade_regent_players_guide">Jade Regent Player's Guide</Link></p>
-<Ability id="younger-sibling" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="younger-sibling" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="younger-sibling">Younger Sibling</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Jade Regent</Pair>
@@ -1767,7 +1767,7 @@ const _younger_sibling = {title: "Younger Sibling", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _bastard_km = {title: "Bastard (KM)", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/kingmaker_players_guide">Kingmaker Player's Guide</Link></p>
-<Ability id="bastard-km" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="bastard-km" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="bastard-km">Bastard (KM)</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Kingmaker</Pair>
@@ -1777,7 +1777,7 @@ const _bastard_km = {title: "Bastard (KM)", topLink: ["Campaign Traits","main/tr
 </Ability>
 </>};
 const _brigand = {title: "Brigand", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/kingmaker_players_guide">Kingmaker Player's Guide</Link></p>
-<Ability id="brigand" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="brigand" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="brigand">Brigand</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Kingmaker</Pair>
@@ -1786,7 +1786,7 @@ const _brigand = {title: "Brigand", topLink: ["Campaign Traits","main/traits_cam
 </Ability>
 </>};
 const _issian = {title: "Issian", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/kingmaker_players_guide">Kingmaker Player's Guide</Link></p>
-<Ability id="issian" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="issian" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="issian">Issian</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Kingmaker</Pair>
@@ -1795,7 +1795,7 @@ const _issian = {title: "Issian", topLink: ["Campaign Traits","main/traits_campa
 </Ability>
 </>};
 const _noble_born = {title: "Noble Born", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/kingmaker_players_guide">Kingmaker Player's Guide</Link></p>
-<Ability id="noble-born" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="noble-born" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="noble-born">Noble Born</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Kingmaker</Pair>
@@ -1813,7 +1813,7 @@ const _noble_born = {title: "Noble Born", topLink: ["Campaign Traits","main/trai
 </Ability>
 </>};
 const _pioneer = {title: "Pioneer", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/kingmaker_players_guide">Kingmaker Player's Guide</Link></p>
-<Ability id="pioneer" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="pioneer" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="pioneer">Pioneer</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Kingmaker</Pair>
@@ -1822,7 +1822,7 @@ const _pioneer = {title: "Pioneer", topLink: ["Campaign Traits","main/traits_cam
 </Ability>
 </>};
 const _rostlander = {title: "Rostlander", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/kingmaker_players_guide">Kingmaker Player's Guide</Link></p>
-<Ability id="rostlander" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="rostlander" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="rostlander">Rostlander</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Kingmaker</Pair>
@@ -1831,7 +1831,7 @@ const _rostlander = {title: "Rostlander", topLink: ["Campaign Traits","main/trai
 </Ability>
 </>};
 const _sword_scion = {title: "Sword Scion", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/kingmaker_players_guide">Kingmaker Player's Guide</Link></p>
-<Ability id="sword-scion" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="sword-scion" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="sword-scion">Sword Scion</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Kingmaker</Pair>
@@ -1840,7 +1840,7 @@ const _sword_scion = {title: "Sword Scion", topLink: ["Campaign Traits","main/tr
 </Ability>
 </>};
 const _earning_your_freedom = {title: "Earning your Freedom", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="earning-your-freedom" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="earning-your-freedom" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="earning-your-freedom">Earning your Freedom</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Legacy of Fire</Pair>
@@ -1849,7 +1849,7 @@ const _earning_your_freedom = {title: "Earning your Freedom", topLink: ["Campaig
 </Ability>
 </>};
 const _finding_haleen = {title: "Finding Haleen", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="finding-haleen" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="finding-haleen" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="finding-haleen">Finding Haleen</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Legacy of Fire</Pair>
@@ -1858,7 +1858,7 @@ const _finding_haleen = {title: "Finding Haleen", topLink: ["Campaign Traits","m
 </Ability>
 </>};
 const _gnoll_killer = {title: "Gnoll Killer", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="gnoll-killer" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="gnoll-killer" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="gnoll-killer">Gnoll Killer</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Legacy of Fire</Pair>
@@ -1867,7 +1867,7 @@ const _gnoll_killer = {title: "Gnoll Killer", topLink: ["Campaign Traits","main/
 </Ability>
 </>};
 const _missionary = {title: "Missionary", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="missionary" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="missionary" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="missionary">Missionary</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Legacy of Fire</Pair>
@@ -1876,7 +1876,7 @@ const _missionary = {title: "Missionary", topLink: ["Campaign Traits","main/trai
 </Ability>
 </>};
 const _reclaiming_your_roots = {title: "Reclaiming your Roots", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="reclaiming-your-roots" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="reclaiming-your-roots" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="reclaiming-your-roots">Reclaiming your Roots</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Legacy of Fire</Pair>
@@ -1887,7 +1887,7 @@ const _reclaiming_your_roots = {title: "Reclaiming your Roots", topLink: ["Campa
 </Ability>
 </>};
 const _seeking_adventure = {title: "Seeking Adventure", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="seeking-adventure" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="seeking-adventure" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="seeking-adventure">Seeking Adventure</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Legacy of Fire</Pair>
@@ -1896,7 +1896,7 @@ const _seeking_adventure = {title: "Seeking Adventure", topLink: ["Campaign Trai
 </Ability>
 </>};
 const _blood_of_pharaohs = {title: "Blood of Pharaohs", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/mummys_mask_players_guide">Mummy's Mask Player's Guide</Link>, <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="blood-of-pharaohs" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="blood-of-pharaohs" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="blood-of-pharaohs">Blood of Pharaohs</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Mummy's Mask</Pair>
@@ -1905,7 +1905,7 @@ const _blood_of_pharaohs = {title: "Blood of Pharaohs", topLink: ["Campaign Trai
 </Ability>
 </>};
 const _devotee_of_the_old_gods = {title: "Devotee of the Old Gods", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/mummys_mask_players_guide">Mummy's Mask Player's Guide</Link>, <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="devotee-of-the-old-gods" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="devotee-of-the-old-gods" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="devotee-of-the-old-gods">Devotee of the Old Gods</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Mummy's Mask</Pair>
@@ -1914,7 +1914,7 @@ const _devotee_of_the_old_gods = {title: "Devotee of the Old Gods", topLink: ["C
 </Ability>
 </>};
 const _foreign_opportunist = {title: "Foreign Opportunist", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/mummys_mask_players_guide">Mummy's Mask Player's Guide</Link>, <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="foreign-opportunist" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="foreign-opportunist" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="foreign-opportunist">Foreign Opportunist</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Mummy's Mask</Pair>
@@ -1923,7 +1923,7 @@ const _foreign_opportunist = {title: "Foreign Opportunist", topLink: ["Campaign 
 </Ability>
 </>};
 const _inquisitive_archaeologist = {title: "Inquisitive Archaeologist", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/mummys_mask_players_guide">Mummy's Mask Player's Guide</Link>, <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="inquisitive-archaeologist" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="inquisitive-archaeologist" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="inquisitive-archaeologist">Inquisitive Archaeologist</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Mummy's Mask</Pair>
@@ -1932,7 +1932,7 @@ const _inquisitive_archaeologist = {title: "Inquisitive Archaeologist", topLink:
 </Ability>
 </>};
 const _mummy_cursed = {title: "Mummy-Cursed", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/mummys_mask_players_guide">Mummy's Mask Player's Guide</Link>, <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="mummy-cursed" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="mummy-cursed" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="mummy-cursed">Mummy-Cursed</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Mummy's Mask</Pair>
@@ -1941,7 +1941,7 @@ const _mummy_cursed = {title: "Mummy-Cursed", topLink: ["Campaign Traits","main/
 </Ability>
 </>};
 const _resurrected = {title: "Resurrected", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/mummys_mask_players_guide">Mummy's Mask Player's Guide</Link>, <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="resurrected" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="resurrected" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="resurrected">Resurrected</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Mummy's Mask</Pair>
@@ -1950,7 +1950,7 @@ const _resurrected = {title: "Resurrected", topLink: ["Campaign Traits","main/tr
 </Ability>
 </>};
 const _sphinx_riddler = {title: "Sphinx Riddler", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/mummys_mask_players_guide">Mummy's Mask Player's Guide</Link>, <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="sphinx-riddler" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="sphinx-riddler" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="sphinx-riddler">Sphinx Riddler</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Mummy's Mask</Pair>
@@ -1959,7 +1959,7 @@ const _sphinx_riddler = {title: "Sphinx Riddler", topLink: ["Campaign Traits","m
 </Ability>
 </>};
 const _trap_finder = {title: "Trap Finder", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/mummys_mask_players_guide">Mummy's Mask Player's Guide</Link>, <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="trap-finder" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="trap-finder" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="trap-finder">Trap Finder</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Mummy's Mask</Pair>
@@ -1968,7 +1968,7 @@ const _trap_finder = {title: "Trap Finder", topLink: ["Campaign Traits","main/tr
 </Ability>
 </>};
 const _undead_crusader = {title: "Undead Crusader", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/mummys_mask_players_guide">Mummy's Mask Player's Guide</Link>, <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="undead-crusader" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="undead-crusader" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="undead-crusader">Undead Crusader</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Mummy's Mask</Pair>
@@ -1977,7 +1977,7 @@ const _undead_crusader = {title: "Undead Crusader", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _wati_native = {title: "Wati Native", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/mummys_mask_players_guide">Mummy's Mask Player's Guide</Link>, <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="wati-native" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="wati-native" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="wati-native">Wati Native</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Mummy's Mask</Pair>
@@ -1986,7 +1986,7 @@ const _wati_native = {title: "Wati Native", topLink: ["Campaign Traits","main/tr
 </Ability>
 </>};
 const _adaptive_magic = {title: "Adaptive Magic", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/reign_of_winter_players_guide">Reign of Winter Player's Guide</Link>, <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="adaptive-magic" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="adaptive-magic" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="adaptive-magic">Adaptive Magic</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Reign of Winter</Pair>
@@ -1995,7 +1995,7 @@ const _adaptive_magic = {title: "Adaptive Magic", topLink: ["Campaign Traits","m
 </Ability>
 </>};
 const _blood_of_giants = {title: "Blood of Giants", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/reign_of_winter_players_guide">Reign of Winter Player's Guide</Link>, <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="blood-of-giants" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="blood-of-giants" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="blood-of-giants">Blood of Giants</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Reign of Winter</Pair>
@@ -2004,7 +2004,7 @@ const _blood_of_giants = {title: "Blood of Giants", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _failed_winter_witch_apprentice = {title: "Failed Winter Witch Apprentice", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/reign_of_winter_players_guide">Reign of Winter Player's Guide</Link>, <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="failed-winter-witch-apprentice" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="failed-winter-witch-apprentice" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="failed-winter-witch-apprentice">Failed Winter Witch Apprentice</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Reign of Winter</Pair>
@@ -2013,7 +2013,7 @@ const _failed_winter_witch_apprentice = {title: "Failed Winter Witch Apprentice"
 </Ability>
 </>};
 const _northern_ancestry = {title: "Northern Ancestry", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/reign_of_winter_players_guide">Reign of Winter Player's Guide</Link>, <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="northern-ancestry" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="northern-ancestry" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="northern-ancestry">Northern Ancestry</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Reign of Winter</Pair>
@@ -2022,7 +2022,7 @@ const _northern_ancestry = {title: "Northern Ancestry", topLink: ["Campaign Trai
 </Ability>
 </>};
 const _restless_wayfarer = {title: "Restless Wayfarer", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/reign_of_winter_players_guide">Reign of Winter Player's Guide</Link>, <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="restless-wayfarer" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="restless-wayfarer" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="restless-wayfarer">Restless Wayfarer</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Reign of Winter</Pair>
@@ -2031,7 +2031,7 @@ const _restless_wayfarer = {title: "Restless Wayfarer", topLink: ["Campaign Trai
 </Ability>
 </>};
 const _vigilante_witch_hunter = {title: "Vigilante Witch Hunter", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/reign_of_winter_players_guide">Reign of Winter Player's Guide</Link>, <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="vigilante-witch-hunter" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="vigilante-witch-hunter" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="vigilante-witch-hunter">Vigilante Witch Hunter</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Reign of Winter</Pair>
@@ -2040,7 +2040,7 @@ const _vigilante_witch_hunter = {title: "Vigilante Witch Hunter", topLink: ["Cam
 </Ability>
 </>};
 const _warded_against_witchery = {title: "Warded against Witchery", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/reign_of_winter_players_guide">Reign of Winter Player's Guide</Link>, <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="warded-against-witchery" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="warded-against-witchery" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="warded-against-witchery">Warded against Witchery</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Reign of Winter</Pair>
@@ -2049,7 +2049,7 @@ const _warded_against_witchery = {title: "Warded against Witchery", topLink: ["C
 </Ability>
 </>};
 const _accidental_clone = {title: "Accidental Clone", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/return_of_the_runelords_players_guide">Return of the Runelords Players Guide</Link></p>
-<Ability id="accidental-clone" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="accidental-clone" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="accidental-clone">Accidental Clone</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Return of the Runelords</Pair>
@@ -2062,7 +2062,7 @@ const _accidental_clone = {title: "Accidental Clone", topLink: ["Campaign Traits
 </Ability>
 </>};
 const _audrahnis_ally = {title: "Audrahni's Ally", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/return_of_the_runelords_players_guide">Return of the Runelords Players Guide</Link></p>
-<Ability id="audrahnis-ally" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="audrahnis-ally" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="audrahnis-ally">Audrahni's Ally</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Return of the Runelords</Pair>
@@ -2078,7 +2078,7 @@ const _audrahnis_ally = {title: "Audrahni's Ally", topLink: ["Campaign Traits","
 </Ability>
 </>};
 const _close_allies = {title: "Close Allies", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/return_of_the_runelords_players_guide">Return of the Runelords Players Guide</Link></p>
-<Ability id="close-allies" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="close-allies" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="close-allies">Close Allies</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Return of the Runelords</Pair>
@@ -2089,7 +2089,7 @@ const _close_allies = {title: "Close Allies", topLink: ["Campaign Traits","main/
 </Ability>
 </>};
 const _intrigued_by_thassilon = {title: "Intrigued by Thassilon", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/return_of_the_runelords_players_guide">Return of the Runelords Players Guide</Link></p>
-<Ability id="intrigued-by-thassilon" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="intrigued-by-thassilon" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="intrigued-by-thassilon">Intrigued by Thassilon</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Return of the Runelords</Pair>
@@ -2100,7 +2100,7 @@ const _intrigued_by_thassilon = {title: "Intrigued by Thassilon", topLink: ["Cam
 </Ability>
 </>};
 const _scion_of_legend = {title: "Scion of Legend", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/return_of_the_runelords_players_guide">Return of the Runelords Players Guide</Link></p>
-<Ability id="scion-of-legend" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="scion-of-legend" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="scion-of-legend">Scion of Legend</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Return of the Runelords</Pair>
@@ -2111,7 +2111,7 @@ const _scion_of_legend = {title: "Scion of Legend", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _spirit_touched = {title: "Spirit Touched", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/return_of_the_runelords_players_guide">Return of the Runelords Players Guide</Link></p>
-<Ability id="spirit-touched" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="spirit-touched" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="spirit-touched">Spirit Touched</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Return of the Runelords</Pair>
@@ -2122,7 +2122,7 @@ const _spirit_touched = {title: "Spirit Touched", topLink: ["Campaign Traits","m
 </Ability>
 </>};
 const _time_lost = {title: "Time Lost", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/return_of_the_runelords_players_guide">Return of the Runelords Players Guide</Link></p>
-<Ability id="time-lost" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="time-lost" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="time-lost">Time Lost</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Return of the Runelords</Pair>
@@ -2133,7 +2133,7 @@ const _time_lost = {title: "Time Lost", topLink: ["Campaign Traits","main/traits
 </Ability>
 </>};
 const _eager_performer = {title: "Eager Performer", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/rise_of_the_runelords_anniversary_edition_players_guide">Rise of the Runelords Anniversary Edition Player's Guide</Link></p>
-<Ability id="eager-performer" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="eager-performer" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="eager-performer">Eager Performer</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
@@ -2142,7 +2142,7 @@ const _eager_performer = {title: "Eager Performer", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _family_ties_rotrl = {title: "Family Ties (RotRL)", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/rise_of_the_runelords_anniversary_edition_players_guide">Rise of the Runelords Anniversary Edition Player's Guide</Link></p>
-<Ability id="family-ties-rotrl" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="family-ties-rotrl" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="family-ties-rotrl">Family Ties (RotRL)</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
@@ -2151,7 +2151,7 @@ const _family_ties_rotrl = {title: "Family Ties (RotRL)", topLink: ["Campaign Tr
 </Ability>
 </>};
 const _friends_and_enemies = {title: "Friends and Enemies", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/rise_of_the_runelords_anniversary_edition_players_guide">Rise of the Runelords Anniversary Edition Player's Guide</Link></p>
-<Ability id="friends-and-enemies" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="friends-and-enemies" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="friends-and-enemies">Friends and Enemies</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
@@ -2160,7 +2160,7 @@ const _friends_and_enemies = {title: "Friends and Enemies", topLink: ["Campaign 
 </Ability>
 </>};
 const _giant_slayer = {title: "Giant Slayer", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/rise_of_the_runelords_anniversary_edition_players_guide">Rise of the Runelords Anniversary Edition Player's Guide</Link></p>
-<Ability id="giant-slayer" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="giant-slayer" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="giant-slayer">Giant Slayer</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
@@ -2169,7 +2169,7 @@ const _giant_slayer = {title: "Giant Slayer", topLink: ["Campaign Traits","main/
 </Ability>
 </>};
 const _goblin_watcher = {title: "Goblin Watcher", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/rise_of_the_runelords_anniversary_edition_players_guide">Rise of the Runelords Anniversary Edition Player's Guide</Link></p>
-<Ability id="goblin-watcher" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="goblin-watcher" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="goblin-watcher">Goblin Watcher</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
@@ -2178,7 +2178,7 @@ const _goblin_watcher = {title: "Goblin Watcher", topLink: ["Campaign Traits","m
 </Ability>
 </>};
 const _hagfish_hopeful = {title: "Hagfish Hopeful", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/rise_of_the_runelords_anniversary_edition_players_guide">Rise of the Runelords Anniversary Edition Player's Guide</Link></p>
-<Ability id="hagfish-hopeful" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="hagfish-hopeful" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="hagfish-hopeful">Hagfish Hopeful</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
@@ -2187,7 +2187,7 @@ const _hagfish_hopeful = {title: "Hagfish Hopeful", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _merchant_family = {title: "Merchant Family", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/rise_of_the_runelords_anniversary_edition_players_guide">Rise of the Runelords Anniversary Edition Player's Guide</Link></p>
-<Ability id="merchant-family" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="merchant-family" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="merchant-family">Merchant Family</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
@@ -2196,7 +2196,7 @@ const _merchant_family = {title: "Merchant Family", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _monster_hunter = {title: "Monster Hunter", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/rise_of_the_runelords_anniversary_edition_players_guide">Rise of the Runelords Anniversary Edition Player's Guide</Link></p>
-<Ability id="monster-hunter" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="monster-hunter" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="monster-hunter">Monster Hunter</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
@@ -2205,7 +2205,7 @@ const _monster_hunter = {title: "Monster Hunter", topLink: ["Campaign Traits","m
 </Ability>
 </>};
 const _sandpoint_faithful = {title: "Sandpoint Faithful", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link>, <Link to="/source/rise_of_the_runelords_anniversary_edition_players_guide">Rise of the Runelords Anniversary Edition Player's Guide</Link></p>
-<Ability id="sandpoint-faithful" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="sandpoint-faithful" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="sandpoint-faithful">Sandpoint Faithful</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
@@ -2214,7 +2214,7 @@ const _sandpoint_faithful = {title: "Sandpoint Faithful", topLink: ["Campaign Tr
 </Ability>
 </>};
 const _scholar_of_the_ancients = {title: "Scholar of the Ancients", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/rise_of_the_runelords_anniversary_edition_players_guide">Rise of the Runelords Anniversary Edition Player's Guide</Link></p>
-<Ability id="scholar-of-the-ancients" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="scholar-of-the-ancients" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="scholar-of-the-ancients">Scholar of the Ancients</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
@@ -2223,7 +2223,7 @@ const _scholar_of_the_ancients = {title: "Scholar of the Ancients", topLink: ["C
 </Ability>
 </>};
 const _student_of_faith = {title: "Student of Faith", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/rise_of_the_runelords_anniversary_edition_players_guide">Rise of the Runelords Anniversary Edition Player's Guide</Link></p>
-<Ability id="student-of-faith" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="student-of-faith" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="student-of-faith">Student of Faith</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
@@ -2232,7 +2232,7 @@ const _student_of_faith = {title: "Student of Faith", topLink: ["Campaign Traits
 </Ability>
 </>};
 const _thrill_seeker_rotr = {title: "Thrill Seeker (RotR)", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link>, <Link to="/source/rise_of_the_runelords_anniversary_edition_players_guide">Rise of the Runelords Anniversary Edition Player's Guide</Link></p>
-<Ability id="thrill-seeker-rotr" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="thrill-seeker-rotr" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="thrill-seeker-rotr">Thrill Seeker (RotR)</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Rise of the Runelords</Pair>
@@ -2241,7 +2241,7 @@ const _thrill_seeker_rotr = {title: "Thrill Seeker (RotR)", topLink: ["Campaign 
 </Ability>
 </>};
 const _athletic = {title: "Athletic", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ruins_of_azlant_players_guide">Ruins of Azlant Player's Guide</Link></p>
-<Ability id="athletic" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="athletic" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="athletic">Athletic</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
@@ -2250,7 +2250,7 @@ const _athletic = {title: "Athletic", topLink: ["Campaign Traits","main/traits_c
 </Ability>
 </>};
 const _azlanti_scholar_roapg = {title: "Azlanti Scholar (RoAPG)", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ruins_of_azlant_players_guide">Ruins of Azlant Player's Guide</Link></p>
-<Ability id="azlanti-scholar-roapg" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="azlanti-scholar-roapg" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="azlanti-scholar-roapg">Azlanti Scholar (RoAPG)</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
@@ -2259,7 +2259,7 @@ const _azlanti_scholar_roapg = {title: "Azlanti Scholar (RoAPG)", topLink: ["Cam
 </Ability>
 </>};
 const _eagle_knight_recruit = {title: "Eagle Knight Recruit", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ruins_of_azlant_players_guide">Ruins of Azlant Player's Guide</Link></p>
-<Ability id="eagle-knight-recruit" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="eagle-knight-recruit" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="eagle-knight-recruit">Eagle Knight Recruit</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
@@ -2268,7 +2268,7 @@ const _eagle_knight_recruit = {title: "Eagle Knight Recruit", topLink: ["Campaig
 </Ability>
 </>};
 const _employee = {title: "Employee", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ruins_of_azlant_players_guide">Ruins of Azlant Player's Guide</Link></p>
-<Ability id="employee" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="employee" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="employee">Employee</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
@@ -2279,7 +2279,7 @@ const _employee = {title: "Employee", topLink: ["Campaign Traits","main/traits_c
 </Ability>
 </>};
 const _expert_explorer = {title: "Expert Explorer", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ruins_of_azlant_players_guide">Ruins of Azlant Player's Guide</Link></p>
-<Ability id="expert-explorer" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="expert-explorer" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="expert-explorer">Expert Explorer</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
@@ -2288,7 +2288,7 @@ const _expert_explorer = {title: "Expert Explorer", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _following_in_the_footsteps = {title: "Following in the Footsteps", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ruins_of_azlant_players_guide">Ruins of Azlant Player's Guide</Link></p>
-<Ability id="following-in-the-footsteps" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="following-in-the-footsteps" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="following-in-the-footsteps">Following in the Footsteps</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
@@ -2297,7 +2297,7 @@ const _following_in_the_footsteps = {title: "Following in the Footsteps", topLin
 </Ability>
 </>};
 const _healthy = {title: "Healthy", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ruins_of_azlant_players_guide">Ruins of Azlant Player's Guide</Link></p>
-<Ability id="healthy" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="healthy" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="healthy">Healthy</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
@@ -2306,7 +2306,7 @@ const _healthy = {title: "Healthy", topLink: ["Campaign Traits","main/traits_cam
 </Ability>
 </>};
 const _pathfinder_recruit = {title: "Pathfinder Recruit", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ruins_of_azlant_players_guide">Ruins of Azlant Player's Guide</Link></p>
-<Ability id="pathfinder-recruit" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="pathfinder-recruit" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="pathfinder-recruit">Pathfinder Recruit</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
@@ -2315,7 +2315,7 @@ const _pathfinder_recruit = {title: "Pathfinder Recruit", topLink: ["Campaign Tr
 </Ability>
 </>};
 const _resourceful = {title: "Resourceful", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ruins_of_azlant_players_guide">Ruins of Azlant Player's Guide</Link></p>
-<Ability id="resourceful" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="resourceful" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="resourceful">Resourceful</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
@@ -2326,7 +2326,7 @@ const _resourceful = {title: "Resourceful", topLink: ["Campaign Traits","main/tr
 </Ability>
 </>};
 const _seasoned_hunter = {title: "Seasoned Hunter", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ruins_of_azlant_players_guide">Ruins of Azlant Player's Guide</Link></p>
-<Ability id="seasoned-hunter" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="seasoned-hunter" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="seasoned-hunter">Seasoned Hunter</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
@@ -2335,7 +2335,7 @@ const _seasoned_hunter = {title: "Seasoned Hunter", topLink: ["Campaign Traits",
 </Ability>
 </>};
 const _set_mind = {title: "Set Mind", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ruins_of_azlant_players_guide">Ruins of Azlant Player's Guide</Link></p>
-<Ability id="set-mind" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="set-mind" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="set-mind">Set Mind</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
@@ -2344,7 +2344,7 @@ const _set_mind = {title: "Set Mind", topLink: ["Campaign Traits","main/traits_c
 </Ability>
 </>};
 const _skillful = {title: "Skillful", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/ruins_of_azlant_players_guide">Ruins of Azlant Player's Guide</Link></p>
-<Ability id="skillful" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="skillful" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="skillful">Skillful</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Ruins of Azlant</Pair>
@@ -2353,7 +2353,7 @@ const _skillful = {title: "Skillful", topLink: ["Campaign Traits","main/traits_c
 </Ability>
 </>};
 const _daring_doomsayer = {title: "Daring Doomsayer", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="daring-doomsayer" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="daring-doomsayer" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="daring-doomsayer">Daring Doomsayer</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Second Darkness</Pair>
@@ -2362,7 +2362,7 @@ const _daring_doomsayer = {title: "Daring Doomsayer", topLink: ["Campaign Traits
 </Ability>
 </>};
 const _fixer_of_odds = {title: "Fixer of Odds", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="fixer-of-odds" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="fixer-of-odds" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="fixer-of-odds">Fixer of Odds</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Second Darkness</Pair>
@@ -2371,7 +2371,7 @@ const _fixer_of_odds = {title: "Fixer of Odds", topLink: ["Campaign Traits","mai
 </Ability>
 </>};
 const _fools_for_friends = {title: "Fools for Friends", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="fools-for-friends" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="fools-for-friends" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="fools-for-friends">Fools for Friends</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Second Darkness</Pair>
@@ -2380,7 +2380,7 @@ const _fools_for_friends = {title: "Fools for Friends", topLink: ["Campaign Trai
 </Ability>
 </>};
 const _into_enemy_territory = {title: "Into Enemy Territory", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="into-enemy-territory" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="into-enemy-territory" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="into-enemy-territory">Into Enemy Territory</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Second Darkness</Pair>
@@ -2389,7 +2389,7 @@ const _into_enemy_territory = {title: "Into Enemy Territory", topLink: ["Campaig
 </Ability>
 </>};
 const _looking_for_work = {title: "Looking for Work", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="looking-for-work" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="looking-for-work" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="looking-for-work">Looking for Work</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Second Darkness</Pair>
@@ -2398,7 +2398,7 @@ const _looking_for_work = {title: "Looking for Work", topLink: ["Campaign Traits
 </Ability>
 </>};
 const _optimistic_gambler = {title: "Optimistic Gambler", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="optimistic-gambler" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="optimistic-gambler" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="optimistic-gambler">Optimistic Gambler</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Second Darkness</Pair>
@@ -2407,7 +2407,7 @@ const _optimistic_gambler = {title: "Optimistic Gambler", topLink: ["Campaign Tr
 </Ability>
 </>};
 const _portentous_perception = {title: "Portentous Perception", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="portentous-perception" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="portentous-perception" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="portentous-perception">Portentous Perception</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Second Darkness</Pair>
@@ -2416,7 +2416,7 @@ const _portentous_perception = {title: "Portentous Perception", topLink: ["Campa
 </Ability>
 </>};
 const _researching_the_blot = {title: "Researching the Blot", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="researching-the-blot" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="researching-the-blot" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="researching-the-blot">Researching the Blot</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Second Darkness</Pair>
@@ -2425,7 +2425,7 @@ const _researching_the_blot = {title: "Researching the Blot", topLink: ["Campaig
 </Ability>
 </>};
 const _scouting_for_fiends = {title: "Scouting for Fiends", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
-<Ability id="scouting-for-fiends" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="scouting-for-fiends" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="scouting-for-fiends">Scouting for Fiends</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Second Darkness</Pair>
@@ -2434,7 +2434,7 @@ const _scouting_for_fiends = {title: "Scouting for Fiends", topLink: ["Campaign 
 </Ability>
 </>};
 const _boarded_in_cheliax = {title: "Boarded in Cheliax", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/serpents_skull_players_guide">Serpent's Skull Player's Guide</Link></p>
-<Ability id="boarded-in-cheliax" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="boarded-in-cheliax" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="boarded-in-cheliax">Boarded in Cheliax</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
@@ -2443,7 +2443,7 @@ const _boarded_in_cheliax = {title: "Boarded in Cheliax", topLink: ["Campaign Tr
 </Ability>
 </>};
 const _boarded_in_mediogalti = {title: "Boarded in Mediogalti", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/serpents_skull_players_guide">Serpent's Skull Player's Guide</Link></p>
-<Ability id="boarded-in-mediogalti" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="boarded-in-mediogalti" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="boarded-in-mediogalti">Boarded in Mediogalti</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
@@ -2452,7 +2452,7 @@ const _boarded_in_mediogalti = {title: "Boarded in Mediogalti", topLink: ["Campa
 </Ability>
 </>};
 const _boarded_in_mwangi_expanse = {title: "Boarded in Mwangi Expanse", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/serpents_skull_players_guide">Serpent's Skull Player's Guide</Link></p>
-<Ability id="boarded-in-mwangi-expanse" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="boarded-in-mwangi-expanse" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="boarded-in-mwangi-expanse">Boarded in Mwangi Expanse</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
@@ -2461,7 +2461,7 @@ const _boarded_in_mwangi_expanse = {title: "Boarded in Mwangi Expanse", topLink:
 </Ability>
 </>};
 const _boarded_in_varisia = {title: "Boarded in Varisia", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/serpents_skull_players_guide">Serpent's Skull Player's Guide</Link></p>
-<Ability id="boarded-in-varisia" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="boarded-in-varisia" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="boarded-in-varisia">Boarded in Varisia</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
@@ -2470,7 +2470,7 @@ const _boarded_in_varisia = {title: "Boarded in Varisia", topLink: ["Campaign Tr
 </Ability>
 </>};
 const _boarded_in_the_shackles = {title: "Boarded in the Shackles", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/serpents_skull_players_guide">Serpent's Skull Player's Guide</Link></p>
-<Ability id="boarded-in-the-shackles" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="boarded-in-the-shackles" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="boarded-in-the-shackles">Boarded in the Shackles</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
@@ -2479,7 +2479,7 @@ const _boarded_in_the_shackles = {title: "Boarded in the Shackles", topLink: ["C
 </Ability>
 </>};
 const _colonial = {title: "Colonial", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/serpents_skull_players_guide">Serpent's Skull Player's Guide</Link></p>
-<Ability id="colonial" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="colonial" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="colonial">Colonial</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
@@ -2488,7 +2488,7 @@ const _colonial = {title: "Colonial", topLink: ["Campaign Traits","main/traits_c
 </Ability>
 </>};
 const _get_the_cargo_through = {title: "Get the Cargo Through", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/serpents_skull_players_guide">Serpent's Skull Player's Guide</Link></p>
-<Ability id="get-the-cargo-through" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="get-the-cargo-through" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="get-the-cargo-through">Get the Cargo Through</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
@@ -2497,7 +2497,7 @@ const _get_the_cargo_through = {title: "Get the Cargo Through", topLink: ["Campa
 </Ability>
 </>};
 const _jenivere_crew = {title: "Jenivere Crew", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/serpents_skull_players_guide">Serpent's Skull Player's Guide</Link></p>
-<Ability id="jenivere-crew" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="jenivere-crew" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="jenivere-crew">Jenivere Crew</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
@@ -2506,7 +2506,7 @@ const _jenivere_crew = {title: "Jenivere Crew", topLink: ["Campaign Traits","mai
 </Ability>
 </>};
 const _mwangi_scholar = {title: "Mwangi Scholar", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/serpents_skull_players_guide">Serpent's Skull Player's Guide</Link></p>
-<Ability id="mwangi-scholar" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="mwangi-scholar" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="mwangi-scholar">Mwangi Scholar</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
@@ -2515,7 +2515,7 @@ const _mwangi_scholar = {title: "Mwangi Scholar", topLink: ["Campaign Traits","m
 </Ability>
 </>};
 const _stowaway = {title: "Stowaway", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/serpents_skull_players_guide">Serpent's Skull Player's Guide</Link></p>
-<Ability id="stowaway" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="stowaway" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="stowaway">Stowaway</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Serpent's Skull</Pair>
@@ -2524,7 +2524,7 @@ const _stowaway = {title: "Stowaway", topLink: ["Campaign Traits","main/traits_c
 </Ability>
 </>};
 const _alabaster_outcast = {title: "Alabaster Outcast", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link>, <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link></p>
-<Ability id="alabaster-outcast" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="alabaster-outcast" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="alabaster-outcast">Alabaster Outcast</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Shattered Star</Pair>
@@ -2533,7 +2533,7 @@ const _alabaster_outcast = {title: "Alabaster Outcast", topLink: ["Campaign Trai
 </Ability>
 </>};
 const _ex_sczarni = {title: "Ex-Sczarni", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link>, <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link></p>
-<Ability id="ex-sczarni" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="ex-sczarni" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="ex-sczarni">Ex-Sczarni</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Shattered Star</Pair>
@@ -2542,7 +2542,7 @@ const _ex_sczarni = {title: "Ex-Sczarni", topLink: ["Campaign Traits","main/trai
 </Ability>
 </>};
 const _exchange_agent = {title: "Exchange Agent", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link>, <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link></p>
-<Ability id="exchange-agent" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="exchange-agent" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="exchange-agent">Exchange Agent</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Shattered Star</Pair>
@@ -2553,7 +2553,7 @@ const _exchange_agent = {title: "Exchange Agent", topLink: ["Campaign Traits","m
 </Ability>
 </>};
 const _monument_scholar = {title: "Monument Scholar", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link>, <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link></p>
-<Ability id="monument-scholar" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="monument-scholar" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="monument-scholar">Monument Scholar</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Shattered Star</Pair>
@@ -2562,7 +2562,7 @@ const _monument_scholar = {title: "Monument Scholar", topLink: ["Campaign Traits
 </Ability>
 </>};
 const _nontraditional_native = {title: "Nontraditional Native", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link>, <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link></p>
-<Ability id="nontraditional-native" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="nontraditional-native" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="nontraditional-native">Nontraditional Native</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Shattered Star</Pair>
@@ -2573,7 +2573,7 @@ const _nontraditional_native = {title: "Nontraditional Native", topLink: ["Campa
 </Ability>
 </>};
 const _ruin_raider = {title: "Ruin Raider", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link>, <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link></p>
-<Ability id="ruin-raider" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="ruin-raider" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="ruin-raider">Ruin Raider</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Shattered Star</Pair>
@@ -2582,7 +2582,7 @@ const _ruin_raider = {title: "Ruin Raider", topLink: ["Campaign Traits","main/tr
 </Ability>
 </>};
 const _serpent_runner = {title: "Serpent Runner", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link>, <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link></p>
-<Ability id="serpent-runner" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="serpent-runner" extraClasses="trait" icon={["Campaign"]}>
 <Pair single id="serpent-runner">Serpent Runner</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair title="Camapign" hl>Shattered Star</Pair>

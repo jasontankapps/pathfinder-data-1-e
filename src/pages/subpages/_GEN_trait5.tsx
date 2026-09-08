@@ -2,7 +2,7 @@ import Link from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 const _adrift = {title: "Adrift", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="adrift" extraClasses="trait" icon={["person"]}>
+<Ability id="adrift" extraClasses="trait" icon={["Race"]}>
 <Pair single id="adrift">Adrift</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
@@ -11,7 +11,7 @@ const _adrift = {title: "Adrift", topLink: ["Race Traits","main/traits_race"], j
 </Ability>
 </>};
 const _celestial_community = {title: "Celestial Community", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/distant_shores">Distant Shores</Link></p>
-<Ability id="celestial-community" extraClasses="trait" icon={["person"]}>
+<Ability id="celestial-community" extraClasses="trait" icon={["Race"]}>
 <Pair single id="celestial-community">Celestial Community</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
@@ -20,7 +20,7 @@ const _celestial_community = {title: "Celestial Community", topLink: ["Race Trai
 </Ability>
 </>};
 const _celestial_contact = {title: "Celestial Contact", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="celestial-contact" extraClasses="trait" icon={["person"]}>
+<Ability id="celestial-contact" extraClasses="trait" icon={["Race"]}>
 <Pair single id="celestial-contact">Celestial Contact</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
@@ -29,7 +29,7 @@ const _celestial_contact = {title: "Celestial Contact", topLink: ["Race Traits",
 </Ability>
 </>};
 const _clergy_member = {title: "Clergy Member", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="clergy-member" extraClasses="trait" icon={["person"]}>
+<Ability id="clergy-member" extraClasses="trait" icon={["Race"]}>
 <Pair single id="clergy-member">Clergy Member</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
@@ -38,7 +38,7 @@ const _clergy_member = {title: "Clergy Member", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _ethical_leader = {title: "Ethical Leader", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="ethical-leader" extraClasses="trait" icon={["person"]}>
+<Ability id="ethical-leader" extraClasses="trait" icon={["Race"]}>
 <Pair single id="ethical-leader">Ethical Leader</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
@@ -47,7 +47,7 @@ const _ethical_leader = {title: "Ethical Leader", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _faith_healer = {title: "Faith Healer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="faith-healer" extraClasses="trait" icon={["person"]}>
+<Ability id="faith-healer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="faith-healer">Faith Healer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
@@ -56,7 +56,7 @@ const _faith_healer = {title: "Faith Healer", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _idealized_campaigner = {title: "Idealized Campaigner", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="idealized-campaigner" extraClasses="trait" icon={["person"]}>
+<Ability id="idealized-campaigner" extraClasses="trait" icon={["Race"]}>
 <Pair single id="idealized-campaigner">Idealized Campaigner</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
@@ -65,7 +65,7 @@ const _idealized_campaigner = {title: "Idealized Campaigner", topLink: ["Race Tr
 </Ability>
 </>};
 const _innocent = {title: "Innocent", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="innocent" extraClasses="trait" icon={["person"]}>
+<Ability id="innocent" extraClasses="trait" icon={["Race"]}>
 <Pair single id="innocent">Innocent</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
@@ -74,7 +74,7 @@ const _innocent = {title: "Innocent", topLink: ["Race Traits","main/traits_race"
 </Ability>
 </>};
 const _martyrs_blood = {title: "Martyr's Blood", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="martyrs-blood" extraClasses="trait" icon={["person"]}>
+<Ability id="martyrs-blood" extraClasses="trait" icon={["Race"]}>
 <Pair single id="martyrs-blood">Martyr's Blood</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
@@ -83,7 +83,7 @@ const _martyrs_blood = {title: "Martyr's Blood", topLink: ["Race Traits","main/t
 </Ability>
 </>};
 const _planar_negotiator_boa = {title: "Planar Negotiator (BoA)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="planar-negotiator-boa" extraClasses="trait" icon={["person"]}>
+<Ability id="planar-negotiator-boa" extraClasses="trait" icon={["Race"]}>
 <Pair single id="planar-negotiator-boa">Planar Negotiator (BoA)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
@@ -92,7 +92,7 @@ const _planar_negotiator_boa = {title: "Planar Negotiator (BoA)", topLink: ["Rac
 </Ability>
 </>};
 const _selective_health = {title: "Selective Health", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="selective-health" extraClasses="trait" icon={["person"]}>
+<Ability id="selective-health" extraClasses="trait" icon={["Race"]}>
 <Pair single id="selective-health">Selective Health</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
@@ -101,7 +101,7 @@ const _selective_health = {title: "Selective Health", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _wary_boa = {title: "Wary (BoA)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="wary-boa" extraClasses="trait" icon={["person"]}>
+<Ability id="wary-boa" extraClasses="trait" icon={["Race"]}>
 <Pair single id="wary-boa">Wary (BoA)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
@@ -110,7 +110,7 @@ const _wary_boa = {title: "Wary (BoA)", topLink: ["Race Traits","main/traits_rac
 </Ability>
 </>};
 const _celestial_tracker = {title: "Celestial Tracker", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="celestial-tracker" extraClasses="trait" icon={["person"]}>
+<Ability id="celestial-tracker" extraClasses="trait" icon={["Race"]}>
 <Pair single id="celestial-tracker">Celestial Tracker</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Angelkin</Pair>
@@ -119,7 +119,7 @@ const _celestial_tracker = {title: "Celestial Tracker", topLink: ["Race Traits",
 </Ability>
 </>};
 const _planetars_visions = {title: "Planetar's Visions", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="planetars-visions" extraClasses="trait" icon={["person"]}>
+<Ability id="planetars-visions" extraClasses="trait" icon={["Race"]}>
 <Pair single id="planetars-visions">Planetar's Visions</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Angelkin</Pair>
@@ -128,7 +128,7 @@ const _planetars_visions = {title: "Planetar's Visions", topLink: ["Race Traits"
 </Ability>
 </>};
 const _burnished_skin = {title: "Burnished Skin", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="burnished-skin" extraClasses="trait" icon={["person"]}>
+<Ability id="burnished-skin" extraClasses="trait" icon={["Race"]}>
 <Pair single id="burnished-skin">Burnished Skin</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Emberkin</Pair>
@@ -136,7 +136,7 @@ const _burnished_skin = {title: "Burnished Skin", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _pyromancer = {title: "Pyromancer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="pyromancer" extraClasses="trait" icon={["person"]}>
+<Ability id="pyromancer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="pyromancer">Pyromancer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Emberkin</Pair>
@@ -145,7 +145,7 @@ const _pyromancer = {title: "Pyromancer", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _enlightened_warrior = {title: "Enlightened Warrior", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="enlightened-warrior" extraClasses="trait" icon={["person"]}>
+<Ability id="enlightened-warrior" extraClasses="trait" icon={["Race"]}>
 <Pair single id="enlightened-warrior">Enlightened Warrior</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Idyllkin</Pair>
@@ -154,7 +154,7 @@ const _enlightened_warrior = {title: "Enlightened Warrior", topLink: ["Race Trai
 </Ability>
 </>};
 const _speech_of_the_wilds = {title: "Speech of the Wilds", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="speech-of-the-wilds" extraClasses="trait" icon={["person"]}>
+<Ability id="speech-of-the-wilds" extraClasses="trait" icon={["Race"]}>
 <Pair single id="speech-of-the-wilds">Speech of the Wilds</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Idyllkin</Pair>
@@ -163,7 +163,7 @@ const _speech_of_the_wilds = {title: "Speech of the Wilds", topLink: ["Race Trai
 </Ability>
 </>};
 const _good_influence = {title: "Good Influence", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="good-influence" extraClasses="trait" icon={["person"]}>
+<Ability id="good-influence" extraClasses="trait" icon={["Race"]}>
 <Pair single id="good-influence">Good Influence</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Lawbringer</Pair>
@@ -172,7 +172,7 @@ const _good_influence = {title: "Good Influence", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _lantern_spirit = {title: "Lantern Spirit", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="lantern-spirit" extraClasses="trait" icon={["person"]}>
+<Ability id="lantern-spirit" extraClasses="trait" icon={["Race"]}>
 <Pair single id="lantern-spirit">Lantern Spirit</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Lawbringer</Pair>
@@ -181,7 +181,7 @@ const _lantern_spirit = {title: "Lantern Spirit", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _bralanis_step = {title: "Bralani's Step", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="bralanis-step" extraClasses="trait" icon={["person"]}>
+<Ability id="bralanis-step" extraClasses="trait" icon={["Race"]}>
 <Pair single id="bralanis-step">Bralani's Step</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Musetouched</Pair>
@@ -190,7 +190,7 @@ const _bralanis_step = {title: "Bralani's Step", topLink: ["Race Traits","main/t
 </Ability>
 </>};
 const _lillends_harp = {title: "Lillend's Harp", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="lillends-harp" extraClasses="trait" icon={["person"]}>
+<Ability id="lillends-harp" extraClasses="trait" icon={["Race"]}>
 <Pair single id="lillends-harp">Lillend's Harp</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Musetouched</Pair>
@@ -199,7 +199,7 @@ const _lillends_harp = {title: "Lillend's Harp", topLink: ["Race Traits","main/t
 </Ability>
 </>};
 const _snake_hater = {title: "Snake Hater", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="snake-hater" extraClasses="trait" icon={["person"]}>
+<Ability id="snake-hater" extraClasses="trait" icon={["Race"]}>
 <Pair single id="snake-hater">Snake Hater</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Plumekith</Pair>
@@ -208,7 +208,7 @@ const _snake_hater = {title: "Snake Hater", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _toxophilite = {title: "Toxophilite", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels</Link></p>
-<Ability id="toxophilite" extraClasses="trait" icon={["person"]}>
+<Ability id="toxophilite" extraClasses="trait" icon={["Race"]}>
 <Pair single id="toxophilite">Toxophilite</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Plumekith</Pair>
@@ -216,7 +216,7 @@ const _toxophilite = {title: "Toxophilite", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _blood_algorithm = {title: "Blood Algorithm", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="blood-algorithm" extraClasses="trait" icon={["person"]}>
+<Ability id="blood-algorithm" extraClasses="trait" icon={["Race"]}>
 <Pair single id="blood-algorithm">Blood Algorithm</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/android">Android</Link></Pair>
@@ -225,7 +225,7 @@ const _blood_algorithm = {title: "Blood Algorithm", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _cellular_match = {title: "Cellular Match", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="cellular-match" extraClasses="trait" icon={["person"]}>
+<Ability id="cellular-match" extraClasses="trait" icon={["Race"]}>
 <Pair single id="cellular-match">Cellular Match</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/android">Android</Link></Pair>
@@ -233,7 +233,7 @@ const _cellular_match = {title: "Cellular Match", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _experimental_escapee = {title: "Experimental Escapee", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="experimental-escapee" extraClasses="trait" icon={["person"]}>
+<Ability id="experimental-escapee" extraClasses="trait" icon={["Race"]}>
 <Pair single id="experimental-escapee">Experimental Escapee</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/android">Android</Link></Pair>
@@ -242,7 +242,7 @@ const _experimental_escapee = {title: "Experimental Escapee", topLink: ["Race Tr
 </Ability>
 </>};
 const _nanite_revival = {title: "Nanite Revival", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="nanite-revival" extraClasses="trait" icon={["person"]}>
+<Ability id="nanite-revival" extraClasses="trait" icon={["Race"]}>
 <Pair single id="nanite-revival">Nanite Revival</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/android">Android</Link></Pair>
@@ -251,7 +251,7 @@ const _nanite_revival = {title: "Nanite Revival", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _canopy_prowler = {title: "Canopy Prowler", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox</Link></p>
-<Ability id="canopy-prowler" extraClasses="trait" icon={["person"]}>
+<Ability id="canopy-prowler" extraClasses="trait" icon={["Race"]}>
 <Pair single id="canopy-prowler">Canopy Prowler</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/catfolk">Catfolk</Link></Pair>
@@ -260,7 +260,7 @@ const _canopy_prowler = {title: "Canopy Prowler", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _inquisitive_banterer = {title: "Inquisitive Banterer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox</Link></p>
-<Ability id="inquisitive-banterer" extraClasses="trait" icon={["person"]}>
+<Ability id="inquisitive-banterer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="inquisitive-banterer">Inquisitive Banterer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/catfolk">Catfolk</Link></Pair>
@@ -269,7 +269,7 @@ const _inquisitive_banterer = {title: "Inquisitive Banterer", topLink: ["Race Tr
 </Ability>
 </>};
 const _jungle_opportunist = {title: "Jungle Opportunist", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="jungle-opportunist" extraClasses="trait" icon={["person"]}>
+<Ability id="jungle-opportunist" extraClasses="trait" icon={["Race"]}>
 <Pair single id="jungle-opportunist">Jungle Opportunist</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/catfolk">Catfolk</Link></Pair>
@@ -278,7 +278,7 @@ const _jungle_opportunist = {title: "Jungle Opportunist", topLink: ["Race Traits
 </Ability>
 </>};
 const _bitter_heart = {title: "Bitter Heart", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
-<Ability id="bitter-heart" extraClasses="trait" icon={["person"]}>
+<Ability id="bitter-heart" extraClasses="trait" icon={["Race"]}>
 <Pair single id="bitter-heart">Bitter Heart</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/changeling">Changeling</Link></Pair>
@@ -286,7 +286,7 @@ const _bitter_heart = {title: "Bitter Heart", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _creative_manipulator = {title: "Creative Manipulator", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="creative-manipulator" extraClasses="trait" icon={["person"]}>
+<Ability id="creative-manipulator" extraClasses="trait" icon={["Race"]}>
 <Pair single id="creative-manipulator">Creative Manipulator</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/changeling">Changeling</Link></Pair>
@@ -294,7 +294,7 @@ const _creative_manipulator = {title: "Creative Manipulator", topLink: ["Race Tr
 </Ability>
 </>};
 const _creepy = {title: "Creepy", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="creepy" extraClasses="trait" icon={["person"]}>
+<Ability id="creepy" extraClasses="trait" icon={["Race"]}>
 <Pair single id="creepy">Creepy</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/changeling">Changeling</Link></Pair>
@@ -303,7 +303,7 @@ const _creepy = {title: "Creepy", topLink: ["Race Traits","main/traits_race"], j
 </Ability>
 </>};
 const _cruel_child = {title: "Cruel Child", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="cruel-child" extraClasses="trait" icon={["person"]}>
+<Ability id="cruel-child" extraClasses="trait" icon={["Race"]}>
 <Pair single id="cruel-child">Cruel Child</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/changeling">Changeling</Link></Pair>
@@ -312,7 +312,7 @@ const _cruel_child = {title: "Cruel Child", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _magic_in_the_blood = {title: "Magic in the Blood", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
-<Ability id="magic-in-the-blood" extraClasses="trait" icon={["person"]}>
+<Ability id="magic-in-the-blood" extraClasses="trait" icon={["Race"]}>
 <Pair single id="magic-in-the-blood">Magic in the Blood</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/changeling">Changeling</Link></Pair>
@@ -321,7 +321,7 @@ const _magic_in_the_blood = {title: "Magic in the Blood", topLink: ["Race Traits
 </Ability>
 </>};
 const _switched_at_birth = {title: "Switched at Birth", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
-<Ability id="switched-at-birth" extraClasses="trait" icon={["person"]}>
+<Ability id="switched-at-birth" extraClasses="trait" icon={["Race"]}>
 <Pair single id="switched-at-birth">Switched at Birth</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/changeling">Changeling</Link></Pair>
@@ -330,7 +330,7 @@ const _switched_at_birth = {title: "Switched at Birth", topLink: ["Race Traits",
 </Ability>
 </>};
 const _acknowledged_scion = {title: "Acknowledged Scion", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="acknowledged-scion" extraClasses="trait" icon={["person"]}>
+<Ability id="acknowledged-scion" extraClasses="trait" icon={["Race"]}>
 <Pair single id="acknowledged-scion">Acknowledged Scion</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dhampir">Dhampir</Link></Pair>
@@ -339,7 +339,7 @@ const _acknowledged_scion = {title: "Acknowledged Scion", topLink: ["Race Traits
 </Ability>
 </>};
 const _born_in_the_light = {title: "Born in the Light", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
-<Ability id="born-in-the-light" extraClasses="trait" icon={["person"]}>
+<Ability id="born-in-the-light" extraClasses="trait" icon={["Race"]}>
 <Pair single id="born-in-the-light">Born in the Light</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dhampir">Dhampir</Link></Pair>
@@ -348,7 +348,7 @@ const _born_in_the_light = {title: "Born in the Light", topLink: ["Race Traits",
 </Ability>
 </>};
 const _final_embrace = {title: "Final Embrace", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
-<Ability id="final-embrace" extraClasses="trait" icon={["person"]}>
+<Ability id="final-embrace" extraClasses="trait" icon={["Race"]}>
 <Pair single id="final-embrace">Final Embrace</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dhampir">Dhampir</Link></Pair>
@@ -357,7 +357,7 @@ const _final_embrace = {title: "Final Embrace", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _undead_slayer_bog = {title: "Undead Slayer (BoG)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="undead-slayer-bog" extraClasses="trait" icon={["person"]}>
+<Ability id="undead-slayer-bog" extraClasses="trait" icon={["Race"]}>
 <Pair single id="undead-slayer-bog">Undead Slayer (BoG)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dhampir">Dhampir</Link></Pair>
@@ -365,7 +365,7 @@ const _undead_slayer_bog = {title: "Undead Slayer (BoG)", topLink: ["Race Traits
 </Ability>
 </>};
 const _half_forgotten_secrets = {title: "Half-Forgotten Secrets", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
-<Ability id="half-forgotten-secrets" extraClasses="trait" icon={["person"]}>
+<Ability id="half-forgotten-secrets" extraClasses="trait" icon={["Race"]}>
 <Pair single id="half-forgotten-secrets">Half-Forgotten Secrets</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dhampir">Dhampir</Link>; Ajibachana</Pair>
@@ -374,7 +374,7 @@ const _half_forgotten_secrets = {title: "Half-Forgotten Secrets", topLink: ["Rac
 </Ability>
 </>};
 const _unidentifiable_appeal = {title: "Unidentifiable Appeal", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
-<Ability id="unidentifiable-appeal" extraClasses="trait" icon={["person"]}>
+<Ability id="unidentifiable-appeal" extraClasses="trait" icon={["Race"]}>
 <Pair single id="unidentifiable-appeal">Unidentifiable Appeal</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dhampir">Dhampir</Link>; Ajibachana</Pair>
@@ -383,7 +383,7 @@ const _unidentifiable_appeal = {title: "Unidentifiable Appeal", topLink: ["Race 
 </Ability>
 </>};
 const _old_before_your_time = {title: "Old Before Your Time", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
-<Ability id="old-before-your-time" extraClasses="trait" icon={["person"]}>
+<Ability id="old-before-your-time" extraClasses="trait" icon={["Race"]}>
 <Pair single id="old-before-your-time">Old Before Your Time</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dhampir">Dhampir</Link>; Ancient-born</Pair>
@@ -392,7 +392,7 @@ const _old_before_your_time = {title: "Old Before Your Time", topLink: ["Race Tr
 </Ability>
 </>};
 const _thrall_spotter = {title: "Thrall Spotter", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
-<Ability id="thrall-spotter" extraClasses="trait" icon={["person"]}>
+<Ability id="thrall-spotter" extraClasses="trait" icon={["Race"]}>
 <Pair single id="thrall-spotter">Thrall Spotter</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dhampir">Dhampir</Link>; Ancient-born</Pair>
@@ -401,7 +401,7 @@ const _thrall_spotter = {title: "Thrall Spotter", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _linguistic_genius = {title: "Linguistic Genius", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
-<Ability id="linguistic-genius" extraClasses="trait" icon={["person"]}>
+<Ability id="linguistic-genius" extraClasses="trait" icon={["Race"]}>
 <Pair single id="linguistic-genius">Linguistic Genius</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dhampir">Dhampir</Link>; Ru-shi</Pair>
@@ -410,7 +410,7 @@ const _linguistic_genius = {title: "Linguistic Genius", topLink: ["Race Traits",
 </Ability>
 </>};
 const _numerological_gift = {title: "Numerological Gift", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
-<Ability id="numerological-gift" extraClasses="trait" icon={["person"]}>
+<Ability id="numerological-gift" extraClasses="trait" icon={["Race"]}>
 <Pair single id="numerological-gift">Numerological Gift</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dhampir">Dhampir</Link>; Ru-shi</Pair>
@@ -419,7 +419,7 @@ const _numerological_gift = {title: "Numerological Gift", topLink: ["Race Traits
 </Ability>
 </>};
 const _mind_trapper = {title: "Mind Trapper", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
-<Ability id="mind-trapper" extraClasses="trait" icon={["person"]}>
+<Ability id="mind-trapper" extraClasses="trait" icon={["Race"]}>
 <Pair single id="mind-trapper">Mind Trapper</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dhampir">Dhampir</Link>; Svetocher</Pair>
@@ -428,7 +428,7 @@ const _mind_trapper = {title: "Mind Trapper", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _sensual_graces = {title: "Sensual Graces", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
-<Ability id="sensual-graces" extraClasses="trait" icon={["person"]}>
+<Ability id="sensual-graces" extraClasses="trait" icon={["Race"]}>
 <Pair single id="sensual-graces">Sensual Graces</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dhampir">Dhampir</Link>; Svetocher</Pair>
@@ -437,7 +437,7 @@ const _sensual_graces = {title: "Sensual Graces", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _arcane_prodigy = {title: "Arcane Prodigy", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
-<Ability id="arcane-prodigy" extraClasses="trait" icon={["person"]}>
+<Ability id="arcane-prodigy" extraClasses="trait" icon={["Race"]}>
 <Pair single id="arcane-prodigy">Arcane Prodigy</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/drow">Drow</Link></Pair>
@@ -445,7 +445,7 @@ const _arcane_prodigy = {title: "Arcane Prodigy", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _fleshwarp_exposure = {title: "Fleshwarp Exposure", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="fleshwarp-exposure" extraClasses="trait" icon={["person"]}>
+<Ability id="fleshwarp-exposure" extraClasses="trait" icon={["Race"]}>
 <Pair single id="fleshwarp-exposure">Fleshwarp Exposure</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/drow">Drow</Link></Pair>
@@ -454,7 +454,7 @@ const _fleshwarp_exposure = {title: "Fleshwarp Exposure", topLink: ["Race Traits
 </Ability>
 </>};
 const _poisonous_upbringing = {title: "Poisonous Upbringing", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
-<Ability id="poisonous-upbringing" extraClasses="trait" icon={["person"]}>
+<Ability id="poisonous-upbringing" extraClasses="trait" icon={["Race"]}>
 <Pair single id="poisonous-upbringing">Poisonous Upbringing</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/drow">Drow</Link></Pair>
@@ -463,7 +463,7 @@ const _poisonous_upbringing = {title: "Poisonous Upbringing", topLink: ["Race Tr
 </Ability>
 </>};
 const _scheming_survivor = {title: "Scheming Survivor", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="scheming-survivor" extraClasses="trait" icon={["person"]}>
+<Ability id="scheming-survivor" extraClasses="trait" icon={["Race"]}>
 <Pair single id="scheming-survivor">Scheming Survivor</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/drow">Drow</Link></Pair>
@@ -472,7 +472,7 @@ const _scheming_survivor = {title: "Scheming Survivor", topLink: ["Race Traits",
 </Ability>
 </>};
 const _vermin_driver = {title: "Vermin Driver", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="vermin-driver" extraClasses="trait" icon={["person"]}>
+<Ability id="vermin-driver" extraClasses="trait" icon={["Race"]}>
 <Pair single id="vermin-driver">Vermin Driver</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/duergar">Duergar</Link></Pair>
@@ -480,7 +480,7 @@ const _vermin_driver = {title: "Vermin Driver", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _ancestral_grounds = {title: "Ancestral Grounds", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
-<Ability id="ancestral-grounds" extraClasses="trait" icon={["person"]}>
+<Ability id="ancestral-grounds" extraClasses="trait" icon={["Race"]}>
 <Pair single id="ancestral-grounds">Ancestral Grounds</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -489,7 +489,7 @@ const _ancestral_grounds = {title: "Ancestral Grounds", topLink: ["Race Traits",
 </Ability>
 </>};
 const _brewmaster = {title: "Brewmaster", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="brewmaster" extraClasses="trait" icon={["person"]}>
+<Ability id="brewmaster" extraClasses="trait" icon={["Race"]}>
 <Pair single id="brewmaster">Brewmaster</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -498,7 +498,7 @@ const _brewmaster = {title: "Brewmaster", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _child_of_zolurket = {title: "Child of Zolurket", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="child-of-zolurket" extraClasses="trait" icon={["person"]}>
+<Ability id="child-of-zolurket" extraClasses="trait" icon={["Race"]}>
 <Pair single id="child-of-zolurket">Child of Zolurket</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -507,7 +507,7 @@ const _child_of_zolurket = {title: "Child of Zolurket", topLink: ["Race Traits",
 </Ability>
 </>};
 const _clearheaded = {title: "Clearheaded", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="clearheaded" extraClasses="trait" icon={["person"]}>
+<Ability id="clearheaded" extraClasses="trait" icon={["Race"]}>
 <Pair single id="clearheaded">Clearheaded</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -516,7 +516,7 @@ const _clearheaded = {title: "Clearheaded", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _deep_marker = {title: "Deep Marker", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="deep-marker" extraClasses="trait" icon={["person"]}>
+<Ability id="deep-marker" extraClasses="trait" icon={["Race"]}>
 <Pair single id="deep-marker">Deep Marker</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -525,7 +525,7 @@ const _deep_marker = {title: "Deep Marker", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _fungal_brewing = {title: "Fungal Brewing", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link></p>
-<Ability id="fungal-brewing" extraClasses="trait" icon={["person"]}>
+<Ability id="fungal-brewing" extraClasses="trait" icon={["Race"]}>
 <Pair single id="fungal-brewing">Fungal Brewing</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -533,7 +533,7 @@ const _fungal_brewing = {title: "Fungal Brewing", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _goldsniffer = {title: "Goldsniffer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="goldsniffer" extraClasses="trait" icon={["person"]}>
+<Ability id="goldsniffer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="goldsniffer">Goldsniffer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -542,7 +542,7 @@ const _goldsniffer = {title: "Goldsniffer", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _grounded = {title: "Grounded", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="grounded" extraClasses="trait" icon={["person"]}>
+<Ability id="grounded" extraClasses="trait" icon={["Race"]}>
 <Pair single id="grounded">Grounded</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -551,7 +551,7 @@ const _grounded = {title: "Grounded", topLink: ["Race Traits","main/traits_race"
 </Ability>
 </>};
 const _gunworker = {title: "Gunworker", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="gunworker" extraClasses="trait" icon={["person"]}>
+<Ability id="gunworker" extraClasses="trait" icon={["Race"]}>
 <Pair single id="gunworker">Gunworker</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -560,7 +560,7 @@ const _gunworker = {title: "Gunworker", topLink: ["Race Traits","main/traits_rac
 </Ability>
 </>};
 const _insular_dwarf = {title: "Insular (Dwarf)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="insular-dwarf" extraClasses="trait" icon={["person"]}>
+<Ability id="insular-dwarf" extraClasses="trait" icon={["Race"]}>
 <Pair single id="insular-dwarf">Insular (Dwarf)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -569,7 +569,7 @@ const _insular_dwarf = {title: "Insular (Dwarf)", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _militant_merchant = {title: "Militant Merchant", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
-<Ability id="militant-merchant" extraClasses="trait" icon={["person"]}>
+<Ability id="militant-merchant" extraClasses="trait" icon={["Race"]}>
 <Pair single id="militant-merchant">Militant Merchant</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -578,7 +578,7 @@ const _militant_merchant = {title: "Militant Merchant", topLink: ["Race Traits",
 </Ability>
 </>};
 const _ruthless = {title: "Ruthless", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="ruthless" extraClasses="trait" icon={["person"]}>
+<Ability id="ruthless" extraClasses="trait" icon={["Race"]}>
 <Pair single id="ruthless">Ruthless</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -587,7 +587,7 @@ const _ruthless = {title: "Ruthless", topLink: ["Race Traits","main/traits_race"
 </Ability>
 </>};
 const _sky_quester = {title: "Sky Quester", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="sky-quester" extraClasses="trait" icon={["person"]}>
+<Ability id="sky-quester" extraClasses="trait" icon={["Race"]}>
 <Pair single id="sky-quester">Sky Quester</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -596,7 +596,7 @@ const _sky_quester = {title: "Sky Quester", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _spellcasters_anathema = {title: "Spellcaster's Anathema", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="spellcasters-anathema" extraClasses="trait" icon={["person"]}>
+<Ability id="spellcasters-anathema" extraClasses="trait" icon={["Race"]}>
 <Pair single id="spellcasters-anathema">Spellcaster's Anathema</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -605,7 +605,7 @@ const _spellcasters_anathema = {title: "Spellcaster's Anathema", topLink: ["Race
 </Ability>
 </>};
 const _tunnel_fighter = {title: "Tunnel Fighter", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="tunnel-fighter" extraClasses="trait" icon={["person"]}>
+<Ability id="tunnel-fighter" extraClasses="trait" icon={["Race"]}>
 <Pair single id="tunnel-fighter">Tunnel Fighter</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -614,7 +614,7 @@ const _tunnel_fighter = {title: "Tunnel Fighter", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _warsmith = {title: "Warsmith", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="warsmith" extraClasses="trait" icon={["person"]}>
+<Ability id="warsmith" extraClasses="trait" icon={["Race"]}>
 <Pair single id="warsmith">Warsmith</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -623,7 +623,7 @@ const _warsmith = {title: "Warsmith", topLink: ["Race Traits","main/traits_race"
 </Ability>
 </>};
 const _zest_for_battle = {title: "Zest for Battle", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="zest-for-battle" extraClasses="trait" icon={["person"]}>
+<Ability id="zest-for-battle" extraClasses="trait" icon={["Race"]}>
 <Pair single id="zest-for-battle">Zest for Battle</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
@@ -632,7 +632,7 @@ const _zest_for_battle = {title: "Zest for Battle", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _deathkeeper = {title: "Deathkeeper", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="deathkeeper" extraClasses="trait" icon={["person"]}>
+<Ability id="deathkeeper" extraClasses="trait" icon={["Race"]}>
 <Pair single id="deathkeeper">Deathkeeper</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link>; Pahmet</Pair>
@@ -641,7 +641,7 @@ const _deathkeeper = {title: "Deathkeeper", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _sphinxfriend = {title: "Sphinxfriend", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="sphinxfriend" extraClasses="trait" icon={["person"]}>
+<Ability id="sphinxfriend" extraClasses="trait" icon={["Race"]}>
 <Pair single id="sphinxfriend">Sphinxfriend</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link>; Pahmet</Pair>
@@ -650,7 +650,7 @@ const _sphinxfriend = {title: "Sphinxfriend", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _arcane_dabbler = {title: "Arcane Dabbler", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/elves_of_golarion">Elves of Golarion</Link></p>
-<Ability id="arcane-dabbler" extraClasses="trait" icon={["person"]}>
+<Ability id="arcane-dabbler" extraClasses="trait" icon={["Race"]}>
 <Pair single id="arcane-dabbler">Arcane Dabbler</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
@@ -659,7 +659,7 @@ const _arcane_dabbler = {title: "Arcane Dabbler", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _dilettante_artist = {title: "Dilettante Artist", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
-<Ability id="dilettante-artist" extraClasses="trait" icon={["person"]}>
+<Ability id="dilettante-artist" extraClasses="trait" icon={["Race"]}>
 <Pair single id="dilettante-artist">Dilettante Artist</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
@@ -668,7 +668,7 @@ const _dilettante_artist = {title: "Dilettante Artist", topLink: ["Race Traits",
 </Ability>
 </>};
 const _forlorn = {title: "Forlorn", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="forlorn" extraClasses="trait" icon={["person"]}>
+<Ability id="forlorn" extraClasses="trait" icon={["Race"]}>
 <Pair single id="forlorn">Forlorn</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
@@ -677,7 +677,7 @@ const _forlorn = {title: "Forlorn", topLink: ["Race Traits","main/traits_race"],
 </Ability>
 </>};
 const _insular_elf = {title: "Insular (Elf)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="insular-elf" extraClasses="trait" icon={["person"]}>
+<Ability id="insular-elf" extraClasses="trait" icon={["Race"]}>
 <Pair single id="insular-elf">Insular (Elf)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
@@ -686,7 +686,7 @@ const _insular_elf = {title: "Insular (Elf)", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _keeper_of_the_secret_shame = {title: "Keeper of the Secret Shame", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
-<Ability id="keeper-of-the-secret-shame" extraClasses="trait" icon={["person"]}>
+<Ability id="keeper-of-the-secret-shame" extraClasses="trait" icon={["Race"]}>
 <Pair single id="keeper-of-the-secret-shame">Keeper of the Secret Shame</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
@@ -695,7 +695,7 @@ const _keeper_of_the_secret_shame = {title: "Keeper of the Secret Shame", topLin
 </Ability>
 </>};
 const _lapsed_faith = {title: "Lapsed Faith", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/elves_of_golarion">Elves of Golarion</Link></p>
-<Ability id="lapsed-faith" extraClasses="trait" icon={["person"]}>
+<Ability id="lapsed-faith" extraClasses="trait" icon={["Race"]}>
 <Pair single id="lapsed-faith">Lapsed Faith</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
@@ -704,7 +704,7 @@ const _lapsed_faith = {title: "Lapsed Faith", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _planetary_traveler = {title: "Planetary Traveler", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="planetary-traveler" extraClasses="trait" icon={["person"]}>
+<Ability id="planetary-traveler" extraClasses="trait" icon={["Race"]}>
 <Pair single id="planetary-traveler">Planetary Traveler</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
@@ -713,7 +713,7 @@ const _planetary_traveler = {title: "Planetary Traveler", topLink: ["Race Traits
 </Ability>
 </>};
 const _seeker_of_brightness = {title: "Seeker of Brightness", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/elves_of_golarion">Elves of Golarion</Link></p>
-<Ability id="seeker-of-brightness" extraClasses="trait" icon={["person"]}>
+<Ability id="seeker-of-brightness" extraClasses="trait" icon={["Race"]}>
 <Pair single id="seeker-of-brightness">Seeker of Brightness</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
@@ -725,7 +725,7 @@ const _seeker_of_brightness = {title: "Seeker of Brightness", topLink: ["Race Tr
 <p>The change in an elf's behavior is the true indicator of the Brightness. Elves who have discovered the Brightness are unflappably serene, facing horror and death with the same calm as they would reading a good book. Elves are hardly perfected in this state, but imperfection seems to be less of a burden, with the enlightened elves striving less, yet working more. Aiding friends becomes paramount, and the dictates of honor cease to be a struggle.</p>
 </aside></>};
 const _sovyrian_intellectual = {title: "Sovyrian Intellectual", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="sovyrian-intellectual" extraClasses="trait" icon={["person"]}>
+<Ability id="sovyrian-intellectual" extraClasses="trait" icon={["Race"]}>
 <Pair single id="sovyrian-intellectual">Sovyrian Intellectual</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link>; Must be a 1st-level character</Pair>
@@ -734,7 +734,7 @@ const _sovyrian_intellectual = {title: "Sovyrian Intellectual", topLink: ["Race 
 </Ability>
 </>};
 const _tropical_botanist = {title: "Tropical Botanist", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="tropical-botanist" extraClasses="trait" icon={["person"]}>
+<Ability id="tropical-botanist" extraClasses="trait" icon={["Race"]}>
 <Pair single id="tropical-botanist">Tropical Botanist</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
@@ -743,7 +743,7 @@ const _tropical_botanist = {title: "Tropical Botanist", topLink: ["Race Traits",
 </Ability>
 </>};
 const _warrior_of_old = {title: "Warrior of Old", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/elves_of_golarion">Elves of Golarion</Link></p>
-<Ability id="warrior-of-old" extraClasses="trait" icon={["person"]}>
+<Ability id="warrior-of-old" extraClasses="trait" icon={["Race"]}>
 <Pair single id="warrior-of-old">Warrior of Old</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
@@ -752,7 +752,7 @@ const _warrior_of_old = {title: "Warrior of Old", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _wild_stride = {title: "Wild Stride", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link></p>
-<Ability id="wild-stride" extraClasses="trait" icon={["person"]}>
+<Ability id="wild-stride" extraClasses="trait" icon={["Race"]}>
 <Pair single id="wild-stride">Wild Stride</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
@@ -760,7 +760,7 @@ const _wild_stride = {title: "Wild Stride", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _youthful_mischief = {title: "Youthful Mischief", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/elves_of_golarion">Elves of Golarion</Link></p>
-<Ability id="youthful-mischief" extraClasses="trait" icon={["person"]}>
+<Ability id="youthful-mischief" extraClasses="trait" icon={["Race"]}>
 <Pair single id="youthful-mischief">Youthful Mischief</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
@@ -769,7 +769,7 @@ const _youthful_mischief = {title: "Youthful Mischief", topLink: ["Race Traits",
 </Ability>
 </>};
 const _obscure_traditions = {title: "Obscure Traditions", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="obscure-traditions" extraClasses="trait" icon={["person"]}>
+<Ability id="obscure-traditions" extraClasses="trait" icon={["Race"]}>
 <Pair single id="obscure-traditions">Obscure Traditions</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link>; Snowcaster</Pair>
@@ -780,7 +780,7 @@ const _obscure_traditions = {title: "Obscure Traditions", topLink: ["Race Traits
 </Ability>
 </>};
 const _snowblooded = {title: "Snowblooded", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="snowblooded" extraClasses="trait" icon={["person"]}>
+<Ability id="snowblooded" extraClasses="trait" icon={["Race"]}>
 <Pair single id="snowblooded">Snowblooded</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link>; Snowcaster</Pair>
@@ -789,7 +789,7 @@ const _snowblooded = {title: "Snowblooded", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _adaptable_flatterer = {title: "Adaptable Flatterer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="adaptable-flatterer" extraClasses="trait" icon={["person"]}>
+<Ability id="adaptable-flatterer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="adaptable-flatterer">Adaptable Flatterer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/fetchling">Fetchling</Link></Pair>
@@ -798,7 +798,7 @@ const _adaptable_flatterer = {title: "Adaptable Flatterer", topLink: ["Race Trai
 </Ability>
 </>};
 const _murky_allegiance = {title: "Murky Allegiance", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="murky-allegiance" extraClasses="trait" icon={["person"]}>
+<Ability id="murky-allegiance" extraClasses="trait" icon={["Race"]}>
 <Pair single id="murky-allegiance">Murky Allegiance</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/fetchling">Fetchling</Link></Pair>
@@ -807,7 +807,7 @@ const _murky_allegiance = {title: "Murky Allegiance", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _shadow_stalker = {title: "Shadow Stalker", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
-<Ability id="shadow-stalker" extraClasses="trait" icon={["person"]}>
+<Ability id="shadow-stalker" extraClasses="trait" icon={["Race"]}>
 <Pair single id="shadow-stalker">Shadow Stalker</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/fetchling">Fetchling</Link></Pair>
@@ -816,7 +816,7 @@ const _shadow_stalker = {title: "Shadow Stalker", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _weathered = {title: "Weathered", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
-<Ability id="weathered" extraClasses="trait" icon={["person"]}>
+<Ability id="weathered" extraClasses="trait" icon={["Race"]}>
 <Pair single id="weathered">Weathered</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/fetchling">Fetchling</Link></Pair>
@@ -824,7 +824,7 @@ const _weathered = {title: "Weathered", topLink: ["Race Traits","main/traits_rac
 </Ability>
 </>};
 const _creative_reality = {title: "Creative Reality", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/distant_shores">Distant Shores</Link></p>
-<Ability id="creative-reality" extraClasses="trait" icon={["person"]}>
+<Ability id="creative-reality" extraClasses="trait" icon={["Race"]}>
 <Pair single id="creative-reality">Creative Reality</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ganzi">Ganzi</Link></Pair>
@@ -833,7 +833,7 @@ const _creative_reality = {title: "Creative Reality", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _frustrating = {title: "Frustrating", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="frustrating" extraClasses="trait" icon={["person"]}>
+<Ability id="frustrating" extraClasses="trait" icon={["Race"]}>
 <Pair single id="frustrating">Frustrating</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/gathlain">Gathlain</Link></Pair>
@@ -842,7 +842,7 @@ const _frustrating = {title: "Frustrating", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _genie_heir = {title: "Genie Heir", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="genie-heir" extraClasses="trait" icon={["person"]}>
+<Ability id="genie-heir" extraClasses="trait" icon={["Race"]}>
 <Pair single id="genie-heir">Genie Heir</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl>Geniekin</Pair>
@@ -851,7 +851,7 @@ const _genie_heir = {title: "Genie Heir", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _minor_wishcraft = {title: "Minor Wishcraft", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="minor-wishcraft" extraClasses="trait" icon={["person"]}>
+<Ability id="minor-wishcraft" extraClasses="trait" icon={["Race"]}>
 <Pair single id="minor-wishcraft">Minor Wishcraft</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl>Geniekin</Pair>
@@ -860,7 +860,7 @@ const _minor_wishcraft = {title: "Minor Wishcraft", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _honored_provider = {title: "Honored Provider", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="honored-provider" extraClasses="trait" icon={["person"]}>
+<Ability id="honored-provider" extraClasses="trait" icon={["Race"]}>
 <Pair single id="honored-provider">Honored Provider</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ghoran">Ghoran</Link></Pair>
@@ -869,7 +869,7 @@ const _honored_provider = {title: "Honored Provider", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _azlanti_inheritor = {title: "Azlanti Inheritor", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link>, <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="azlanti-inheritor" extraClasses="trait" icon={["person"]}>
+<Ability id="azlanti-inheritor" extraClasses="trait" icon={["Race"]}>
 <Pair single id="azlanti-inheritor">Azlanti Inheritor</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/gillman">Gillman</Link></Pair>
@@ -878,7 +878,7 @@ const _azlanti_inheritor = {title: "Azlanti Inheritor", topLink: ["Race Traits",
 </Ability>
 </>};
 const _memory_mastery = {title: "Memory Mastery", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="memory-mastery" extraClasses="trait" icon={["person"]}>
+<Ability id="memory-mastery" extraClasses="trait" icon={["Race"]}>
 <Pair single id="memory-mastery">Memory Mastery</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/gillman">Gillman</Link></Pair>
@@ -887,7 +887,7 @@ const _memory_mastery = {title: "Memory Mastery", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _adrenaline_rush = {title: "Adrenaline Rush", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="adrenaline-rush" extraClasses="trait" icon={["person"]}>
+<Ability id="adrenaline-rush" extraClasses="trait" icon={["Race"]}>
 <Pair single id="adrenaline-rush">Adrenaline Rush</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -896,7 +896,7 @@ const _adrenaline_rush = {title: "Adrenaline Rush", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _animal_friend = {title: "Animal Friend", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="animal-friend" extraClasses="trait" icon={["person"]}>
+<Ability id="animal-friend" extraClasses="trait" icon={["Race"]}>
 <Pair single id="animal-friend">Animal Friend</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -905,7 +905,7 @@ const _animal_friend = {title: "Animal Friend", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _brastlewark_businessman_ceod = {title: "Brastlewark Businessman (CEoD)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="brastlewark-businessman-ceod" extraClasses="trait" icon={["person"]}>
+<Ability id="brastlewark-businessman-ceod" extraClasses="trait" icon={["Race"]}>
 <Pair single id="brastlewark-businessman-ceod">Brastlewark Businessman (CEoD)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -914,7 +914,7 @@ const _brastlewark_businessman_ceod = {title: "Brastlewark Businessman (CEoD)", 
 </Ability>
 </>};
 const _efficient_packer = {title: "Efficient Packer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="efficient-packer" extraClasses="trait" icon={["person"]}>
+<Ability id="efficient-packer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="efficient-packer">Efficient Packer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -923,7 +923,7 @@ const _efficient_packer = {title: "Efficient Packer", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _forest_senses = {title: "Forest Senses", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link></p>
-<Ability id="forest-senses" extraClasses="trait" icon={["person"]}>
+<Ability id="forest-senses" extraClasses="trait" icon={["Race"]}>
 <Pair single id="forest-senses">Forest Senses</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -931,7 +931,7 @@ const _forest_senses = {title: "Forest Senses", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _illusion_obsession = {title: "Illusion Obsession", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox</Link></p>
-<Ability id="illusion-obsession" extraClasses="trait" icon={["person"]}>
+<Ability id="illusion-obsession" extraClasses="trait" icon={["Race"]}>
 <Pair single id="illusion-obsession">Illusion Obsession</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -940,7 +940,7 @@ const _illusion_obsession = {title: "Illusion Obsession", topLink: ["Race Traits
 </Ability>
 </>};
 const _industrious = {title: "Industrious", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="industrious" extraClasses="trait" icon={["person"]}>
+<Ability id="industrious" extraClasses="trait" icon={["Race"]}>
 <Pair single id="industrious">Industrious</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -949,7 +949,7 @@ const _industrious = {title: "Industrious", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _prankster = {title: "Prankster", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox</Link></p>
-<Ability id="prankster" extraClasses="trait" icon={["person"]}>
+<Ability id="prankster" extraClasses="trait" icon={["Race"]}>
 <Pair single id="prankster">Prankster</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -958,7 +958,7 @@ const _prankster = {title: "Prankster", topLink: ["Race Traits","main/traits_rac
 </Ability>
 </>};
 const _rapscallion = {title: "Rapscallion", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link>, <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
-<Ability id="rapscallion" extraClasses="trait" icon={["person"]}>
+<Ability id="rapscallion" extraClasses="trait" icon={["Race"]}>
 <Pair single id="rapscallion">Rapscallion</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -967,7 +967,7 @@ const _rapscallion = {title: "Rapscallion", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _snowstepper = {title: "Snowstepper", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="snowstepper" extraClasses="trait" icon={["person"]}>
+<Ability id="snowstepper" extraClasses="trait" icon={["Race"]}>
 <Pair single id="snowstepper">Snowstepper</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -976,7 +976,7 @@ const _snowstepper = {title: "Snowstepper", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _vermin_wrangler = {title: "Vermin Wrangler", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="vermin-wrangler" extraClasses="trait" icon={["person"]}>
+<Ability id="vermin-wrangler" extraClasses="trait" icon={["Race"]}>
 <Pair single id="vermin-wrangler">Vermin Wrangler</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
@@ -985,7 +985,7 @@ const _vermin_wrangler = {title: "Vermin Wrangler", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _advantageous_distraction = {title: "Advantageous Distraction", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
-<Ability id="advantageous-distraction" extraClasses="trait" icon={["person"]}>
+<Ability id="advantageous-distraction" extraClasses="trait" icon={["Race"]}>
 <Pair single id="advantageous-distraction">Advantageous Distraction</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
@@ -994,7 +994,7 @@ const _advantageous_distraction = {title: "Advantageous Distraction", topLink: [
 </Ability>
 </>};
 const _balloon_headed = {title: "Balloon Headed", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link>, <Link to="/source/we_be_goblins">We Be Goblins!</Link></p>
-<Ability id="balloon-headed" extraClasses="trait" icon={["person"]}>
+<Ability id="balloon-headed" extraClasses="trait" icon={["Race"]}>
 <Pair single id="balloon-headed">Balloon Headed</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
@@ -1003,7 +1003,7 @@ const _balloon_headed = {title: "Balloon Headed", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _big_ears = {title: "Big Ears", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
-<Ability id="big-ears" extraClasses="trait" icon={["person"]}>
+<Ability id="big-ears" extraClasses="trait" icon={["Race"]}>
 <Pair single id="big-ears">Big Ears</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
@@ -1011,7 +1011,7 @@ const _big_ears = {title: "Big Ears", topLink: ["Race Traits","main/traits_race"
 </Ability>
 </>};
 const _bouncy = {title: "Bouncy", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link>, <Link to="/source/we_be_goblins">We Be Goblins!</Link></p>
-<Ability id="bouncy" extraClasses="trait" icon={["person"]}>
+<Ability id="bouncy" extraClasses="trait" icon={["Race"]}>
 <Pair single id="bouncy">Bouncy</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
@@ -1020,7 +1020,7 @@ const _bouncy = {title: "Bouncy", topLink: ["Race Traits","main/traits_race"], j
 </Ability>
 </>};
 const _bully_burner = {title: "Bully Burner", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="bully-burner" extraClasses="trait" icon={["person"]}>
+<Ability id="bully-burner" extraClasses="trait" icon={["Race"]}>
 <Pair single id="bully-burner">Bully Burner</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
@@ -1029,7 +1029,7 @@ const _bully_burner = {title: "Bully Burner", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _color_thief = {title: "Color Thief", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
-<Ability id="color-thief" extraClasses="trait" icon={["person"]}>
+<Ability id="color-thief" extraClasses="trait" icon={["Race"]}>
 <Pair single id="color-thief">Color Thief</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
@@ -1037,7 +1037,7 @@ const _color_thief = {title: "Color Thief", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _dog_sniff_hate = {title: "Dog-Sniff-Hate", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
-<Ability id="dog-sniff-hate" extraClasses="trait" icon={["person"]}>
+<Ability id="dog-sniff-hate" extraClasses="trait" icon={["Race"]}>
 <Pair single id="dog-sniff-hate">Dog-Sniff-Hate</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
@@ -1045,7 +1045,7 @@ const _dog_sniff_hate = {title: "Dog-Sniff-Hate", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _foul_belch = {title: "Foul Belch", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
-<Ability id="foul-belch" extraClasses="trait" icon={["person"]}>
+<Ability id="foul-belch" extraClasses="trait" icon={["Race"]}>
 <Pair single id="foul-belch">Foul Belch</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
@@ -1053,7 +1053,7 @@ const _foul_belch = {title: "Foul Belch", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _goblin_bravery = {title: "Goblin Bravery", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/we_be_goblins">We Be Goblins!</Link>, <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
-<Ability id="goblin-bravery" extraClasses="trait" icon={["person"]}>
+<Ability id="goblin-bravery" extraClasses="trait" icon={["Race"]}>
 <Pair single id="goblin-bravery">Goblin Bravery</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
@@ -1063,7 +1063,7 @@ const _goblin_bravery = {title: "Goblin Bravery", topLink: ["Race Traits","main/
 <aside><p>This trait was printed as "Goblin Foolhardiness" in <em>Goblins of Golarion.</em></p>
 </aside></>};
 const _pustular = {title: "Pustular", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link>, <Link to="/source/we_be_goblins">We Be Goblins!</Link></p>
-<Ability id="pustular" extraClasses="trait" icon={["person"]}>
+<Ability id="pustular" extraClasses="trait" icon={["Race"]}>
 <Pair single id="pustular">Pustular</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
@@ -1072,7 +1072,7 @@ const _pustular = {title: "Pustular", topLink: ["Race Traits","main/traits_race"
 </Ability>
 </>};
 const _rude_songs = {title: "Rude Songs", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
-<Ability id="rude-songs" extraClasses="trait" icon={["person"]}>
+<Ability id="rude-songs" extraClasses="trait" icon={["Race"]}>
 <Pair single id="rude-songs">Rude Songs</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
@@ -1080,7 +1080,7 @@ const _rude_songs = {title: "Rude Songs", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _ugly_swine = {title: "Ugly Swine", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
-<Ability id="ugly-swine" extraClasses="trait" icon={["person"]}>
+<Ability id="ugly-swine" extraClasses="trait" icon={["Race"]}>
 <Pair single id="ugly-swine">Ugly Swine</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
@@ -1089,7 +1089,7 @@ const _ugly_swine = {title: "Ugly Swine", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _canopy_shooter = {title: "Canopy Shooter", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="canopy-shooter" extraClasses="trait" icon={["person"]}>
+<Ability id="canopy-shooter" extraClasses="trait" icon={["Race"]}>
 <Pair single id="canopy-shooter">Canopy Shooter</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/grippli">Grippli</Link></Pair>
@@ -1098,7 +1098,7 @@ const _canopy_shooter = {title: "Canopy Shooter", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _bifurcated_magic = {title: "Bifurcated Magic", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="bifurcated-magic" extraClasses="trait" icon={["person"]}>
+<Ability id="bifurcated-magic" extraClasses="trait" icon={["Race"]}>
 <Pair single id="bifurcated-magic">Bifurcated Magic</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_elf">Half-elf</Link></Pair>
@@ -1107,7 +1107,7 @@ const _bifurcated_magic = {title: "Bifurcated Magic", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _elven_reflexes = {title: "Elven Reflexes", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="elven-reflexes" extraClasses="trait" icon={["person"]}>
+<Ability id="elven-reflexes" extraClasses="trait" icon={["Race"]}>
 <Pair single id="elven-reflexes">Elven Reflexes</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_elf">Half-elf</Link></Pair>
@@ -1117,7 +1117,7 @@ const _elven_reflexes = {title: "Elven Reflexes", topLink: ["Race Traits","main/
 <aside><p>This was printed in <em>Legacy of Fire Player's Guide</em> as "Ekujae Reflexes" and specifies that "one of your parents was a member of the Ekujae tribe of the Mwangi Expanse."</p>
 </aside></>};
 const _experimental_rebel = {title: "Experimental Rebel", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="experimental-rebel" extraClasses="trait" icon={["person"]}>
+<Ability id="experimental-rebel" extraClasses="trait" icon={["Race"]}>
 <Pair single id="experimental-rebel">Experimental Rebel</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_elf">Half-elf</Link></Pair>
@@ -1126,7 +1126,7 @@ const _experimental_rebel = {title: "Experimental Rebel", topLink: ["Race Traits
 </Ability>
 </>};
 const _failed_apprentice = {title: "Failed Apprentice", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
-<Ability id="failed-apprentice" extraClasses="trait" icon={["person"]}>
+<Ability id="failed-apprentice" extraClasses="trait" icon={["Race"]}>
 <Pair single id="failed-apprentice">Failed Apprentice</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_elf">Half-elf</Link></Pair>
@@ -1135,7 +1135,7 @@ const _failed_apprentice = {title: "Failed Apprentice", topLink: ["Race Traits",
 </Ability>
 </>};
 const _pearl_diver_pots = {title: "Pearl Diver (PotS)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="pearl-diver-pots" extraClasses="trait" icon={["person"]}>
+<Ability id="pearl-diver-pots" extraClasses="trait" icon={["Race"]}>
 <Pair single id="pearl-diver-pots">Pearl Diver (PotS)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_elf">Half-elf</Link></Pair>
@@ -1144,7 +1144,7 @@ const _pearl_diver_pots = {title: "Pearl Diver (PotS)", topLink: ["Race Traits",
 </Ability>
 </>};
 const _wild_domesticator = {title: "Wild Domesticator", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link></p>
-<Ability id="wild-domesticator" extraClasses="trait" icon={["person"]}>
+<Ability id="wild-domesticator" extraClasses="trait" icon={["Race"]}>
 <Pair single id="wild-domesticator">Wild Domesticator</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_elf">Half-elf</Link></Pair>
@@ -1152,7 +1152,7 @@ const _wild_domesticator = {title: "Wild Domesticator", topLink: ["Race Traits",
 </Ability>
 </>};
 const _child_of_two_peoples = {title: "Child of Two Peoples", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="child-of-two-peoples" extraClasses="trait" icon={["person"]}>
+<Ability id="child-of-two-peoples" extraClasses="trait" icon={["Race"]}>
 <Pair single id="child-of-two-peoples">Child of Two Peoples</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_elf">Half-elf</Link>, <Link to="/race/half_orc">Half-orc</Link>, or <Link to="/race/human">Human</Link></Pair>
@@ -1161,7 +1161,7 @@ const _child_of_two_peoples = {title: "Child of Two Peoples", topLink: ["Race Tr
 </Ability>
 </>};
 const _elven_serenity = {title: "Elven Serenity", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="elven-serenity" extraClasses="trait" icon={["person"]}>
+<Ability id="elven-serenity" extraClasses="trait" icon={["Race"]}>
 <Pair single id="elven-serenity">Elven Serenity</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_elf">Half-elf</Link>; elf-raised</Pair>
@@ -1170,7 +1170,7 @@ const _elven_serenity = {title: "Elven Serenity", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _trade_talk = {title: "Trade Talk", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="trade-talk" extraClasses="trait" icon={["person"]}>
+<Ability id="trade-talk" extraClasses="trait" icon={["Race"]}>
 <Pair single id="trade-talk">Trade Talk</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_elf">Half-elf</Link>; human-raised</Pair>
@@ -1179,7 +1179,7 @@ const _trade_talk = {title: "Trade Talk", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _almost_human = {title: "Almost Human", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="almost-human" extraClasses="trait" icon={["person"]}>
+<Ability id="almost-human" extraClasses="trait" icon={["Race"]}>
 <Pair single id="almost-human">Almost Human</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link></Pair>
@@ -1188,7 +1188,7 @@ const _almost_human = {title: "Almost Human", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _brute_apg = {title: "Brute (APG)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="brute-apg" extraClasses="trait" icon={["person"]}>
+<Ability id="brute-apg" extraClasses="trait" icon={["Race"]}>
 <Pair single id="brute-apg">Brute (APG)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link></Pair>
@@ -1197,7 +1197,7 @@ const _brute_apg = {title: "Brute (APG)", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _caravan_drover = {title: "Caravan Drover", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="caravan-drover" extraClasses="trait" icon={["person"]}>
+<Ability id="caravan-drover" extraClasses="trait" icon={["Race"]}>
 <Pair single id="caravan-drover">Caravan Drover</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link></Pair>
@@ -1206,7 +1206,7 @@ const _caravan_drover = {title: "Caravan Drover", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _cruel_rager = {title: "Cruel Rager", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
-<Ability id="cruel-rager" extraClasses="trait" icon={["person"]}>
+<Ability id="cruel-rager" extraClasses="trait" icon={["Race"]}>
 <Pair single id="cruel-rager">Cruel Rager</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link></Pair>
@@ -1214,7 +1214,7 @@ const _cruel_rager = {title: "Cruel Rager", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _irritable_diplomat = {title: "Irritable Diplomat", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="irritable-diplomat" extraClasses="trait" icon={["person"]}>
+<Ability id="irritable-diplomat" extraClasses="trait" icon={["Race"]}>
 <Pair single id="irritable-diplomat">Irritable Diplomat</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link></Pair>
@@ -1223,7 +1223,7 @@ const _irritable_diplomat = {title: "Irritable Diplomat", topLink: ["Race Traits
 </Ability>
 </>};
 const _lasting_ferociousness = {title: "Lasting Ferociousness", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
-<Ability id="lasting-ferociousness" extraClasses="trait" icon={["person"]}>
+<Ability id="lasting-ferociousness" extraClasses="trait" icon={["Race"]}>
 <Pair single id="lasting-ferociousness">Lasting Ferociousness</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link> with <em>orc ferocity</em></Pair>
@@ -1231,7 +1231,7 @@ const _lasting_ferociousness = {title: "Lasting Ferociousness", topLink: ["Race 
 </Ability>
 </>};
 const _legacy_of_sand = {title: "Legacy of Sand", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="legacy-of-sand" extraClasses="trait" icon={["person"]}>
+<Ability id="legacy-of-sand" extraClasses="trait" icon={["Race"]}>
 <Pair single id="legacy-of-sand">Legacy of Sand</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link></Pair>
@@ -1240,7 +1240,7 @@ const _legacy_of_sand = {title: "Legacy of Sand", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _mistrusted = {title: "Mistrusted", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="mistrusted" extraClasses="trait" icon={["person"]}>
+<Ability id="mistrusted" extraClasses="trait" icon={["Race"]}>
 <Pair single id="mistrusted">Mistrusted</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link></Pair>
@@ -1248,7 +1248,7 @@ const _mistrusted = {title: "Mistrusted", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _outcast = {title: "Outcast", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="outcast" extraClasses="trait" icon={["person"]}>
+<Ability id="outcast" extraClasses="trait" icon={["Race"]}>
 <Pair single id="outcast">Outcast</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link></Pair>
@@ -1257,7 +1257,7 @@ const _outcast = {title: "Outcast", topLink: ["Race Traits","main/traits_race"],
 </Ability>
 </>};
 const _promising_peacemaker = {title: "Promising Peacemaker", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="promising-peacemaker" extraClasses="trait" icon={["person"]}>
+<Ability id="promising-peacemaker" extraClasses="trait" icon={["Race"]}>
 <Pair single id="promising-peacemaker">Promising Peacemaker</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link></Pair>
@@ -1266,7 +1266,7 @@ const _promising_peacemaker = {title: "Promising Peacemaker", topLink: ["Race Tr
 </Ability>
 </>};
 const _scrapper = {title: "Scrapper", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="scrapper" extraClasses="trait" icon={["person"]}>
+<Ability id="scrapper" extraClasses="trait" icon={["Race"]}>
 <Pair single id="scrapper">Scrapper</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link></Pair>
@@ -1275,7 +1275,7 @@ const _scrapper = {title: "Scrapper", topLink: ["Race Traits","main/traits_race"
 </Ability>
 </>};
 const _wild_ferocity = {title: "Wild Ferocity", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link></p>
-<Ability id="wild-ferocity" extraClasses="trait" icon={["person"]}>
+<Ability id="wild-ferocity" extraClasses="trait" icon={["Race"]}>
 <Pair single id="wild-ferocity">Wild Ferocity</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link></Pair>
@@ -1283,7 +1283,7 @@ const _wild_ferocity = {title: "Wild Ferocity", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _amazingly_ugly = {title: "Amazingly Ugly", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="amazingly-ugly" extraClasses="trait" icon={["person"]}>
+<Ability id="amazingly-ugly" extraClasses="trait" icon={["Race"]}>
 <Pair single id="amazingly-ugly">Amazingly Ugly</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link> or <Link to="/race/orc">Orc</Link></Pair>
@@ -1292,7 +1292,7 @@ const _amazingly_ugly = {title: "Amazingly Ugly", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _beast_rider = {title: "Beast Rider", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="beast-rider" extraClasses="trait" icon={["person"]}>
+<Ability id="beast-rider" extraClasses="trait" icon={["Race"]}>
 <Pair single id="beast-rider">Beast Rider</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link> or <Link to="/race/orc">Orc</Link></Pair>
@@ -1301,7 +1301,7 @@ const _beast_rider = {title: "Beast Rider", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _big_mouth = {title: "Big Mouth", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="big-mouth" extraClasses="trait" icon={["person"]}>
+<Ability id="big-mouth" extraClasses="trait" icon={["Race"]}>
 <Pair single id="big-mouth">Big Mouth</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link> or <Link to="/race/orc">Orc</Link></Pair>
@@ -1310,7 +1310,7 @@ const _big_mouth = {title: "Big Mouth", topLink: ["Race Traits","main/traits_rac
 </Ability>
 </>};
 const _brute_orc = {title: "Brute (Orc)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="brute-orc" extraClasses="trait" icon={["person"]}>
+<Ability id="brute-orc" extraClasses="trait" icon={["Race"]}>
 <Pair single id="brute-orc">Brute (Orc)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link> or <Link to="/race/orc">Orc</Link></Pair>
@@ -1319,7 +1319,7 @@ const _brute_orc = {title: "Brute (Orc)", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _deadeye = {title: "Deadeye", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="deadeye" extraClasses="trait" icon={["person"]}>
+<Ability id="deadeye" extraClasses="trait" icon={["Race"]}>
 <Pair single id="deadeye">Deadeye</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link> or <Link to="/race/orc">Orc</Link></Pair>
@@ -1328,7 +1328,7 @@ const _deadeye = {title: "Deadeye", topLink: ["Race Traits","main/traits_race"],
 </Ability>
 </>};
 const _demented_inventor = {title: "Demented Inventor", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="demented-inventor" extraClasses="trait" icon={["person"]}>
+<Ability id="demented-inventor" extraClasses="trait" icon={["Race"]}>
 <Pair single id="demented-inventor">Demented Inventor</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link> or <Link to="/race/orc">Orc</Link></Pair>
@@ -1337,7 +1337,7 @@ const _demented_inventor = {title: "Demented Inventor", topLink: ["Race Traits",
 </Ability>
 </>};
 const _dirty_fighter_orc = {title: "Dirty Fighter (Orc)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="dirty-fighter-orc" extraClasses="trait" icon={["person"]}>
+<Ability id="dirty-fighter-orc" extraClasses="trait" icon={["Race"]}>
 <Pair single id="dirty-fighter-orc">Dirty Fighter (Orc)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link> or <Link to="/race/orc">Orc</Link></Pair>
@@ -1346,7 +1346,7 @@ const _dirty_fighter_orc = {title: "Dirty Fighter (Orc)", topLink: ["Race Traits
 </Ability>
 </>};
 const _mindlessly_cruel = {title: "Mindlessly Cruel", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="mindlessly-cruel" extraClasses="trait" icon={["person"]}>
+<Ability id="mindlessly-cruel" extraClasses="trait" icon={["Race"]}>
 <Pair single id="mindlessly-cruel">Mindlessly Cruel</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link> or <Link to="/race/orc">Orc</Link></Pair>
@@ -1355,7 +1355,7 @@ const _mindlessly_cruel = {title: "Mindlessly Cruel", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _rage_of_storms = {title: "Rage of Storms", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="rage-of-storms" extraClasses="trait" icon={["person"]}>
+<Ability id="rage-of-storms" extraClasses="trait" icon={["Race"]}>
 <Pair single id="rage-of-storms">Rage of Storms</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link> or <Link to="/race/orc">Orc</Link></Pair>
@@ -1364,7 +1364,7 @@ const _rage_of_storms = {title: "Rage of Storms", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _tribal = {title: "Tribal", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="tribal" extraClasses="trait" icon={["person"]}>
+<Ability id="tribal" extraClasses="trait" icon={["Race"]}>
 <Pair single id="tribal">Tribal</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link> or <Link to="/race/orc">Orc</Link></Pair>
@@ -1372,7 +1372,7 @@ const _tribal = {title: "Tribal", topLink: ["Race Traits","main/traits_race"], j
 </Ability>
 </>};
 const _tusked = {title: "Tusked", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="tusked" extraClasses="trait" icon={["person"]}>
+<Ability id="tusked" extraClasses="trait" icon={["Race"]}>
 <Pair single id="tusked">Tusked</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link> or <Link to="/race/orc">Orc</Link></Pair>
@@ -1380,7 +1380,7 @@ const _tusked = {title: "Tusked", topLink: ["Race Traits","main/traits_race"], j
 </Ability>
 </>};
 const _unbreakable_hate = {title: "Unbreakable Hate", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
-<Ability id="unbreakable-hate" extraClasses="trait" icon={["person"]}>
+<Ability id="unbreakable-hate" extraClasses="trait" icon={["Race"]}>
 <Pair single id="unbreakable-hate">Unbreakable Hate</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link> or <Link to="/race/orc">Orc</Link></Pair>
@@ -1389,7 +1389,7 @@ const _unbreakable_hate = {title: "Unbreakable Hate", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _iron_control = {title: "Iron Control", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="iron-control" extraClasses="trait" icon={["person"]}>
+<Ability id="iron-control" extraClasses="trait" icon={["Race"]}>
 <Pair single id="iron-control">Iron Control</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link>; human-raised</Pair>
@@ -1398,7 +1398,7 @@ const _iron_control = {title: "Iron Control", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _finish_the_fight = {title: "Finish the Fight", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="finish-the-fight" extraClasses="trait" icon={["person"]}>
+<Ability id="finish-the-fight" extraClasses="trait" icon={["Race"]}>
 <Pair single id="finish-the-fight">Finish the Fight</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/half_orc">Half-orc</Link>; orc-raised</Pair>
@@ -1407,7 +1407,7 @@ const _finish_the_fight = {title: "Finish the Fight", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _bellflower_contact = {title: "Bellflower Contact", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="bellflower-contact" extraClasses="trait" icon={["person"]}>
+<Ability id="bellflower-contact" extraClasses="trait" icon={["Race"]}>
 <Pair single id="bellflower-contact">Bellflower Contact</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
@@ -1416,7 +1416,7 @@ const _bellflower_contact = {title: "Bellflower Contact", topLink: ["Race Traits
 </Ability>
 </>};
 const _freed_slave_fg = {title: "Freed Slave (FG)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="freed-slave-fg" extraClasses="trait" icon={["person"]}>
+<Ability id="freed-slave-fg" extraClasses="trait" icon={["Race"]}>
 <Pair single id="freed-slave-fg">Freed Slave (FG)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link>; Member of The <Link to="/rule/bellflower_network">Bellflower Network</Link></Pair>
@@ -1425,7 +1425,7 @@ const _freed_slave_fg = {title: "Freed Slave (FG)", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _freedom_fighter_halfling = {title: "Freedom Fighter (Halfling)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="freedom-fighter-halfling" extraClasses="trait" icon={["person"]}>
+<Ability id="freedom-fighter-halfling" extraClasses="trait" icon={["Race"]}>
 <Pair single id="freedom-fighter-halfling">Freedom Fighter (Halfling)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
@@ -1434,7 +1434,7 @@ const _freedom_fighter_halfling = {title: "Freedom Fighter (Halfling)", topLink:
 </Ability>
 </>};
 const _helpful_halfling = {title: "Helpful (Halfling)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="helpful-halfling" extraClasses="trait" icon={["person"]}>
+<Ability id="helpful-halfling" extraClasses="trait" icon={["Race"]}>
 <Pair single id="helpful-halfling">Helpful (Halfling)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
@@ -1443,7 +1443,7 @@ const _helpful_halfling = {title: "Helpful (Halfling)", topLink: ["Race Traits",
 </Ability>
 </>};
 const _intrepid_volunteer = {title: "Intrepid Volunteer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="intrepid-volunteer" extraClasses="trait" icon={["person"]}>
+<Ability id="intrepid-volunteer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="intrepid-volunteer">Intrepid Volunteer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
@@ -1452,7 +1452,7 @@ const _intrepid_volunteer = {title: "Intrepid Volunteer", topLink: ["Race Traits
 </Ability>
 </>};
 const _lettered = {title: "Lettered", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="lettered" extraClasses="trait" icon={["person"]}>
+<Ability id="lettered" extraClasses="trait" icon={["Race"]}>
 <Pair single id="lettered">Lettered</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
@@ -1461,7 +1461,7 @@ const _lettered = {title: "Lettered", topLink: ["Race Traits","main/traits_race"
 </Ability>
 </>};
 const _perfect_servant = {title: "Perfect Servant", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="perfect-servant" extraClasses="trait" icon={["person"]}>
+<Ability id="perfect-servant" extraClasses="trait" icon={["Race"]}>
 <Pair single id="perfect-servant">Perfect Servant</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
@@ -1470,7 +1470,7 @@ const _perfect_servant = {title: "Perfect Servant", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _providential_passenger = {title: "Providential Passenger", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="providential-passenger" extraClasses="trait" icon={["person"]}>
+<Ability id="providential-passenger" extraClasses="trait" icon={["Race"]}>
 <Pair single id="providential-passenger">Providential Passenger</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
@@ -1479,7 +1479,7 @@ const _providential_passenger = {title: "Providential Passenger", topLink: ["Rac
 </Ability>
 </>};
 const _scrounger = {title: "Scrounger", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
-<Ability id="scrounger" extraClasses="trait" icon={["person"]}>
+<Ability id="scrounger" extraClasses="trait" icon={["Race"]}>
 <Pair single id="scrounger">Scrounger</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
@@ -1488,7 +1488,7 @@ const _scrounger = {title: "Scrounger", topLink: ["Race Traits","main/traits_rac
 </Ability>
 </>};
 const _slave_smuggler = {title: "Slave Smuggler", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="slave-smuggler" extraClasses="trait" icon={["person"]}>
+<Ability id="slave-smuggler" extraClasses="trait" icon={["Race"]}>
 <Pair single id="slave-smuggler">Slave Smuggler</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
@@ -1497,7 +1497,7 @@ const _slave_smuggler = {title: "Slave Smuggler", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _successful_shirker = {title: "Successful Shirker", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="successful-shirker" extraClasses="trait" icon={["person"]}>
+<Ability id="successful-shirker" extraClasses="trait" icon={["Race"]}>
 <Pair single id="successful-shirker">Successful Shirker</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
@@ -1506,7 +1506,7 @@ const _successful_shirker = {title: "Successful Shirker", topLink: ["Race Traits
 </Ability>
 </>};
 const _well_informed = {title: "Well-Informed", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="well-informed" extraClasses="trait" icon={["person"]}>
+<Ability id="well-informed" extraClasses="trait" icon={["Race"]}>
 <Pair single id="well-informed">Well-Informed</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
@@ -1514,7 +1514,7 @@ const _well_informed = {title: "Well-Informed", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _wild_shadow = {title: "Wild Shadow", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link></p>
-<Ability id="wild-shadow" extraClasses="trait" icon={["person"]}>
+<Ability id="wild-shadow" extraClasses="trait" icon={["Race"]}>
 <Pair single id="wild-shadow">Wild Shadow</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
@@ -1522,7 +1522,7 @@ const _wild_shadow = {title: "Wild Shadow", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _adventurous_explorer = {title: "Adventurous Explorer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
-<Ability id="adventurous-explorer" extraClasses="trait" icon={["person"]}>
+<Ability id="adventurous-explorer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="adventurous-explorer">Adventurous Explorer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link>; Song-o</Pair>
@@ -1531,7 +1531,7 @@ const _adventurous_explorer = {title: "Adventurous Explorer", topLink: ["Race Tr
 </Ability>
 </>};
 const _inciter_hobgoblin = {title: "Inciter (Hobgoblin)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="inciter-hobgoblin" extraClasses="trait" icon={["person"]}>
+<Ability id="inciter-hobgoblin" extraClasses="trait" icon={["Race"]}>
 <Pair single id="inciter-hobgoblin">Inciter (Hobgoblin)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/hobgoblin">Hobgoblin</Link></Pair>
@@ -1540,7 +1540,7 @@ const _inciter_hobgoblin = {title: "Inciter (Hobgoblin)", topLink: ["Race Traits
 </Ability>
 </>};
 const _friend_to_animals = {title: "Friend to Animals", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="friend-to-animals" extraClasses="trait" icon={["person"]}>
+<Ability id="friend-to-animals" extraClasses="trait" icon={["Race"]}>
 <Pair single id="friend-to-animals">Friend to Animals</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link></Pair>
@@ -1549,7 +1549,7 @@ const _friend_to_animals = {title: "Friend to Animals", topLink: ["Race Traits",
 </Ability>
 </>};
 const _plague_survivor = {title: "Plague Survivor", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="plague-survivor" extraClasses="trait" icon={["person"]}>
+<Ability id="plague-survivor" extraClasses="trait" icon={["Race"]}>
 <Pair single id="plague-survivor">Plague Survivor</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link></Pair>
@@ -1558,7 +1558,7 @@ const _plague_survivor = {title: "Plague Survivor", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _scholar_of_ruins = {title: "Scholar of Ruins", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="scholar-of-ruins" extraClasses="trait" icon={["person"]}>
+<Ability id="scholar-of-ruins" extraClasses="trait" icon={["Race"]}>
 <Pair single id="scholar-of-ruins">Scholar of Ruins</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link></Pair>
@@ -1567,7 +1567,7 @@ const _scholar_of_ruins = {title: "Scholar of Ruins", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _survivalist = {title: "Survivalist", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link></p>
-<Ability id="survivalist" extraClasses="trait" icon={["person"]}>
+<Ability id="survivalist" extraClasses="trait" icon={["Race"]}>
 <Pair single id="survivalist">Survivalist</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link></Pair>
@@ -1575,7 +1575,7 @@ const _survivalist = {title: "Survivalist", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _trifler = {title: "Trifler", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="trifler" extraClasses="trait" icon={["person"]}>
+<Ability id="trifler" extraClasses="trait" icon={["Race"]}>
 <Pair single id="trifler">Trifler</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Varisian wanderers</Pair>
@@ -1584,7 +1584,7 @@ const _trifler = {title: "Trifler", topLink: ["Race Traits","main/traits_race"],
 </Ability>
 </>};
 const _world_traveler = {title: "World Traveler", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="world-traveler" extraClasses="trait" icon={["person"]}>
+<Ability id="world-traveler" extraClasses="trait" icon={["Race"]}>
 <Pair single id="world-traveler">World Traveler</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link></Pair>
@@ -1593,7 +1593,7 @@ const _world_traveler = {title: "World Traveler", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _azlant_fanatic = {title: "Azlant Fanatic", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
-<Ability id="azlant-fanatic" extraClasses="trait" icon={["person"]}>
+<Ability id="azlant-fanatic" extraClasses="trait" icon={["Race"]}>
 <Pair single id="azlant-fanatic">Azlant Fanatic</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Azlanti</Pair>
@@ -1602,7 +1602,7 @@ const _azlant_fanatic = {title: "Azlant Fanatic", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _azlanti_engineering = {title: "Azlanti Engineering", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="azlanti-engineering" extraClasses="trait" icon={["person"]}>
+<Ability id="azlanti-engineering" extraClasses="trait" icon={["Race"]}>
 <Pair single id="azlanti-engineering">Azlanti Engineering</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Azlanti</Pair>
@@ -1611,7 +1611,7 @@ const _azlanti_engineering = {title: "Azlanti Engineering", topLink: ["Race Trai
 </Ability>
 </>};
 const _enduring_spellcraft = {title: "Enduring Spellcraft", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="enduring-spellcraft" extraClasses="trait" icon={["person"]}>
+<Ability id="enduring-spellcraft" extraClasses="trait" icon={["Race"]}>
 <Pair single id="enduring-spellcraft">Enduring Spellcraft</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Azlanti</Pair>
@@ -1620,7 +1620,7 @@ const _enduring_spellcraft = {title: "Enduring Spellcraft", topLink: ["Race Trai
 </Ability>
 </>};
 const _nomadic = {title: "Nomadic", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
-<Ability id="nomadic" extraClasses="trait" icon={["person"]}>
+<Ability id="nomadic" extraClasses="trait" icon={["Race"]}>
 <Pair single id="nomadic">Nomadic</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Bas-o</Pair>
@@ -1629,7 +1629,7 @@ const _nomadic = {title: "Nomadic", topLink: ["Race Traits","main/traits_race"],
 </Ability>
 </>};
 const _bekyar_slave_maestro = {title: "Bekyar Slave Maestro", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="bekyar-slave-maestro" extraClasses="trait" icon={["person"]}>
+<Ability id="bekyar-slave-maestro" extraClasses="trait" icon={["Race"]}>
 <Pair single id="bekyar-slave-maestro">Bekyar Slave Maestro</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Bekyar or Shoanti</Pair>
@@ -1638,7 +1638,7 @@ const _bekyar_slave_maestro = {title: "Bekyar Slave Maestro", topLink: ["Race Tr
 </Ability>
 </>};
 const _shoanti_spirit_singer = {title: "Shoanti Spirit-singer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
-<Ability id="shoanti-spirit-singer" extraClasses="trait" icon={["person"]}>
+<Ability id="shoanti-spirit-singer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="shoanti-spirit-singer">Shoanti Spirit-singer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Bekyar or Shoanti</Pair>
@@ -1647,7 +1647,7 @@ const _shoanti_spirit_singer = {title: "Shoanti Spirit-singer", topLink: ["Race 
 </Ability>
 </>};
 const _glib_barrister = {title: "Glib Barrister", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="glib-barrister" extraClasses="trait" icon={["person"]}>
+<Ability id="glib-barrister" extraClasses="trait" icon={["Race"]}>
 <Pair single id="glib-barrister">Glib Barrister</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Chelaxian</Pair>
@@ -1656,7 +1656,7 @@ const _glib_barrister = {title: "Glib Barrister", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _infernal_influence = {title: "Infernal Influence", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="infernal-influence" extraClasses="trait" icon={["person"]}>
+<Ability id="infernal-influence" extraClasses="trait" icon={["Race"]}>
 <Pair single id="infernal-influence">Infernal Influence</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Chelaxian</Pair>
@@ -1665,7 +1665,7 @@ const _infernal_influence = {title: "Infernal Influence", topLink: ["Race Traits
 </Ability>
 </>};
 const _ingratiating = {title: "Ingratiating", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="ingratiating" extraClasses="trait" icon={["person"]}>
+<Ability id="ingratiating" extraClasses="trait" icon={["Race"]}>
 <Pair single id="ingratiating">Ingratiating</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Chelaxian</Pair>
@@ -1674,7 +1674,7 @@ const _ingratiating = {title: "Ingratiating", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _masterful_demeanor = {title: "Masterful Demeanor", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="masterful-demeanor" extraClasses="trait" icon={["person"]}>
+<Ability id="masterful-demeanor" extraClasses="trait" icon={["Race"]}>
 <Pair single id="masterful-demeanor">Masterful Demeanor</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Chelaxian</Pair>
@@ -1683,7 +1683,7 @@ const _masterful_demeanor = {title: "Masterful Demeanor", topLink: ["Race Traits
 </Ability>
 </>};
 const _obsessed_with_success = {title: "Obsessed with Success", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="obsessed-with-success" extraClasses="trait" icon={["person"]}>
+<Ability id="obsessed-with-success" extraClasses="trait" icon={["Race"]}>
 <Pair single id="obsessed-with-success">Obsessed with Success</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Chelaxian</Pair>
@@ -1692,7 +1692,7 @@ const _obsessed_with_success = {title: "Obsessed with Success", topLink: ["Race 
 </Ability>
 </>};
 const _operatic = {title: "Operatic", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="operatic" extraClasses="trait" icon={["person"]}>
+<Ability id="operatic" extraClasses="trait" icon={["Race"]}>
 <Pair single id="operatic">Operatic</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Chelaxian</Pair>
@@ -1701,7 +1701,7 @@ const _operatic = {title: "Operatic", topLink: ["Race Traits","main/traits_race"
 </Ability>
 </>};
 const _colonial_entitlement = {title: "Colonial Entitlement", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
-<Ability id="colonial-entitlement" extraClasses="trait" icon={["person"]}>
+<Ability id="colonial-entitlement" extraClasses="trait" icon={["Race"]}>
 <Pair single id="colonial-entitlement">Colonial Entitlement</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Chelaxian or Sargavan</Pair>
@@ -1710,7 +1710,7 @@ const _colonial_entitlement = {title: "Colonial Entitlement", topLink: ["Race Tr
 </Ability>
 </>};
 const _spirit_lodge_dreamer = {title: "Spirit Lodge Dreamer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="spirit-lodge-dreamer" extraClasses="trait" icon={["person"]}>
+<Ability id="spirit-lodge-dreamer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="spirit-lodge-dreamer">Spirit Lodge Dreamer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Erutaki</Pair>
@@ -1719,7 +1719,7 @@ const _spirit_lodge_dreamer = {title: "Spirit Lodge Dreamer", topLink: ["Race Tr
 </Ability>
 </>};
 const _effortless_aid = {title: "Effortless Aid", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="effortless-aid" extraClasses="trait" icon={["person"]}>
+<Ability id="effortless-aid" extraClasses="trait" icon={["Race"]}>
 <Pair single id="effortless-aid">Effortless Aid</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Garundi</Pair>
@@ -1728,7 +1728,7 @@ const _effortless_aid = {title: "Effortless Aid", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _ever_home = {title: "Ever Home", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="ever-home" extraClasses="trait" icon={["person"]}>
+<Ability id="ever-home" extraClasses="trait" icon={["Race"]}>
 <Pair single id="ever-home">Ever Home</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Garundi</Pair>
@@ -1737,7 +1737,7 @@ const _ever_home = {title: "Ever Home", topLink: ["Race Traits","main/traits_rac
 </Ability>
 </>};
 const _eyes_of_the_sun = {title: "Eyes of the Sun", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="eyes-of-the-sun" extraClasses="trait" icon={["person"]}>
+<Ability id="eyes-of-the-sun" extraClasses="trait" icon={["Race"]}>
 <Pair single id="eyes-of-the-sun">Eyes of the Sun</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Garundi</Pair>
@@ -1746,7 +1746,7 @@ const _eyes_of_the_sun = {title: "Eyes of the Sun", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _historian = {title: "Historian", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="historian" extraClasses="trait" icon={["person"]}>
+<Ability id="historian" extraClasses="trait" icon={["Race"]}>
 <Pair single id="historian">Historian</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Garundi</Pair>
@@ -1755,7 +1755,7 @@ const _historian = {title: "Historian", topLink: ["Race Traits","main/traits_rac
 </Ability>
 </>};
 const _relic_hunter = {title: "Relic Hunter", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="relic-hunter" extraClasses="trait" icon={["person"]}>
+<Ability id="relic-hunter" extraClasses="trait" icon={["Race"]}>
 <Pair single id="relic-hunter">Relic Hunter</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Garundi</Pair>
@@ -1764,7 +1764,7 @@ const _relic_hunter = {title: "Relic Hunter", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _tongue_of_many_towns = {title: "Tongue of Many Towns", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="tongue-of-many-towns" extraClasses="trait" icon={["person"]}>
+<Ability id="tongue-of-many-towns" extraClasses="trait" icon={["Race"]}>
 <Pair single id="tongue-of-many-towns">Tongue of Many Towns</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Garundi</Pair>
@@ -1773,7 +1773,7 @@ const _tongue_of_many_towns = {title: "Tongue of Many Towns", topLink: ["Race Tr
 </Ability>
 </>};
 const _zealous_garundi = {title: "Zealous (Garundi)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="zealous-garundi" extraClasses="trait" icon={["person"]}>
+<Ability id="zealous-garundi" extraClasses="trait" icon={["Race"]}>
 <Pair single id="zealous-garundi">Zealous (Garundi)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Garundi</Pair>
@@ -1782,7 +1782,7 @@ const _zealous_garundi = {title: "Zealous (Garundi)", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _born_to_the_water = {title: "Born to the Water", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
-<Ability id="born-to-the-water" extraClasses="trait" icon={["person"]}>
+<Ability id="born-to-the-water" extraClasses="trait" icon={["Race"]}>
 <Pair single id="born-to-the-water">Born to the Water</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Ijo</Pair>
@@ -1791,7 +1791,7 @@ const _born_to_the_water = {title: "Born to the Water", topLink: ["Race Traits",
 </Ability>
 </>};
 const _jadwiga_scion = {title: "Jadwiga Scion", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="jadwiga-scion" extraClasses="trait" icon={["person"]}>
+<Ability id="jadwiga-scion" extraClasses="trait" icon={["Race"]}>
 <Pair single id="jadwiga-scion">Jadwiga Scion</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Jadwiga</Pair>
@@ -1800,7 +1800,7 @@ const _jadwiga_scion = {title: "Jadwiga Scion", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _carefully_hidden = {title: "Carefully Hidden", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
-<Ability id="carefully-hidden" extraClasses="trait" icon={["person"]}>
+<Ability id="carefully-hidden" extraClasses="trait" icon={["Race"]}>
 <Pair single id="carefully-hidden">Carefully Hidden</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Keleshite</Pair>
@@ -1809,7 +1809,7 @@ const _carefully_hidden = {title: "Carefully Hidden", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _commanding = {title: "Commanding", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="commanding" extraClasses="trait" icon={["person"]}>
+<Ability id="commanding" extraClasses="trait" icon={["Race"]}>
 <Pair single id="commanding">Commanding</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Keleshite</Pair>
@@ -1818,7 +1818,7 @@ const _commanding = {title: "Commanding", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _genie_blood = {title: "Genie Blood", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="genie-blood" extraClasses="trait" icon={["person"]}>
+<Ability id="genie-blood" extraClasses="trait" icon={["Race"]}>
 <Pair single id="genie-blood">Genie Blood</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Keleshite</Pair>
@@ -1831,7 +1831,7 @@ const _genie_blood = {title: "Genie Blood", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _horse_lord = {title: "Horse Lord", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="horse-lord" extraClasses="trait" icon={["person"]}>
+<Ability id="horse-lord" extraClasses="trait" icon={["Race"]}>
 <Pair single id="horse-lord">Horse Lord</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Keleshite</Pair>
@@ -1840,7 +1840,7 @@ const _horse_lord = {title: "Horse Lord", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _market_rat = {title: "Market Rat", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="market-rat" extraClasses="trait" icon={["person"]}>
+<Ability id="market-rat" extraClasses="trait" icon={["Race"]}>
 <Pair single id="market-rat">Market Rat</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Keleshite</Pair>
@@ -1849,7 +1849,7 @@ const _market_rat = {title: "Market Rat", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _pride_of_the_diamond_empire = {title: "Pride of the Diamond Empire", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="pride-of-the-diamond-empire" extraClasses="trait" icon={["person"]}>
+<Ability id="pride-of-the-diamond-empire" extraClasses="trait" icon={["Race"]}>
 <Pair single id="pride-of-the-diamond-empire">Pride of the Diamond Empire</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Keleshite</Pair>
@@ -1858,7 +1858,7 @@ const _pride_of_the_diamond_empire = {title: "Pride of the Diamond Empire", topL
 </Ability>
 </>};
 const _tempestuous_combatant = {title: "Tempestuous Combatant", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="tempestuous-combatant" extraClasses="trait" icon={["person"]}>
+<Ability id="tempestuous-combatant" extraClasses="trait" icon={["Race"]}>
 <Pair single id="tempestuous-combatant">Tempestuous Combatant</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Keleshite</Pair>
@@ -1867,7 +1867,7 @@ const _tempestuous_combatant = {title: "Tempestuous Combatant", topLink: ["Race 
 </Ability>
 </>};
 const _thoroughbred = {title: "Thoroughbred", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="thoroughbred" extraClasses="trait" icon={["person"]}>
+<Ability id="thoroughbred" extraClasses="trait" icon={["Race"]}>
 <Pair single id="thoroughbred">Thoroughbred</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Keleshite</Pair>
@@ -1876,7 +1876,7 @@ const _thoroughbred = {title: "Thoroughbred", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _divine_the_mystery = {title: "Divine the Mystery", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="divine-the-mystery" extraClasses="trait" icon={["person"]}>
+<Ability id="divine-the-mystery" extraClasses="trait" icon={["Race"]}>
 <Pair single id="divine-the-mystery">Divine the Mystery</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Kellid</Pair>
@@ -1885,7 +1885,7 @@ const _divine_the_mystery = {title: "Divine the Mystery", topLink: ["Race Traits
 </Ability>
 </>};
 const _ice_walker = {title: "Ice Walker", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="ice-walker" extraClasses="trait" icon={["person"]}>
+<Ability id="ice-walker" extraClasses="trait" icon={["Race"]}>
 <Pair single id="ice-walker">Ice Walker</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Kellid</Pair>
@@ -1894,7 +1894,7 @@ const _ice_walker = {title: "Ice Walker", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _pragmatic_polytheist = {title: "Pragmatic Polytheist", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="pragmatic-polytheist" extraClasses="trait" icon={["person"]}>
+<Ability id="pragmatic-polytheist" extraClasses="trait" icon={["Race"]}>
 <Pair single id="pragmatic-polytheist">Pragmatic Polytheist</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Kellid</Pair>
@@ -1903,7 +1903,7 @@ const _pragmatic_polytheist = {title: "Pragmatic Polytheist", topLink: ["Race Tr
 </Ability>
 </>};
 const _storied_scars = {title: "Storied Scars", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="storied-scars" extraClasses="trait" icon={["person"]}>
+<Ability id="storied-scars" extraClasses="trait" icon={["Race"]}>
 <Pair single id="storied-scars">Storied Scars</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Kellid</Pair>
@@ -1912,7 +1912,7 @@ const _storied_scars = {title: "Storied Scars", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _superstitious_kellid = {title: "Superstitious (Kellid)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="superstitious-kellid" extraClasses="trait" icon={["person"]}>
+<Ability id="superstitious-kellid" extraClasses="trait" icon={["Race"]}>
 <Pair single id="superstitious-kellid">Superstitious (Kellid)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Kellid</Pair>
@@ -1921,7 +1921,7 @@ const _superstitious_kellid = {title: "Superstitious (Kellid)", topLink: ["Race 
 </Ability>
 </>};
 const _wary_of_danger = {title: "Wary of Danger", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="wary-of-danger" extraClasses="trait" icon={["person"]}>
+<Ability id="wary-of-danger" extraClasses="trait" icon={["Race"]}>
 <Pair single id="wary-of-danger">Wary of Danger</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Kellid</Pair>
@@ -1930,7 +1930,7 @@ const _wary_of_danger = {title: "Wary of Danger", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _wasteland_hunter = {title: "Wasteland Hunter", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="wasteland-hunter" extraClasses="trait" icon={["person"]}>
+<Ability id="wasteland-hunter" extraClasses="trait" icon={["Race"]}>
 <Pair single id="wasteland-hunter">Wasteland Hunter</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Kellid</Pair>
@@ -1939,7 +1939,7 @@ const _wasteland_hunter = {title: "Wasteland Hunter", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _weathered_patience = {title: "Weathered Patience", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="weathered-patience" extraClasses="trait" icon={["person"]}>
+<Ability id="weathered-patience" extraClasses="trait" icon={["Race"]}>
 <Pair single id="weathered-patience">Weathered Patience</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Kellid</Pair>
@@ -1948,7 +1948,7 @@ const _weathered_patience = {title: "Weathered Patience", topLink: ["Race Traits
 </Ability>
 </>};
 const _witness_to_natures_cruelty = {title: "Witness to Nature's Cruelty", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="witness-to-natures-cruelty" extraClasses="trait" icon={["person"]}>
+<Ability id="witness-to-natures-cruelty" extraClasses="trait" icon={["Race"]}>
 <Pair single id="witness-to-natures-cruelty">Witness to Nature's Cruelty</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Kellid</Pair>
@@ -1957,7 +1957,7 @@ const _witness_to_natures_cruelty = {title: "Witness to Nature's Cruelty", topLi
 </Ability>
 </>};
 const _assimilated_native = {title: "Assimilated Native", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
-<Ability id="assimilated-native" extraClasses="trait" icon={["person"]}>
+<Ability id="assimilated-native" extraClasses="trait" icon={["Race"]}>
 <Pair single id="assimilated-native">Assimilated Native</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Mwangi</Pair>
@@ -1966,7 +1966,7 @@ const _assimilated_native = {title: "Assimilated Native", topLink: ["Race Traits
 </Ability>
 </>};
 const _colonial_sympathizer = {title: "Colonial Sympathizer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
-<Ability id="colonial-sympathizer" extraClasses="trait" icon={["person"]}>
+<Ability id="colonial-sympathizer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="colonial-sympathizer">Colonial Sympathizer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Mwangi</Pair>
@@ -1975,7 +1975,7 @@ const _colonial_sympathizer = {title: "Colonial Sympathizer", topLink: ["Race Tr
 </Ability>
 </>};
 const _magaambyan_arcana = {title: "Magaambyan Arcana", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="magaambyan-arcana" extraClasses="trait" icon={["person"]}>
+<Ability id="magaambyan-arcana" extraClasses="trait" icon={["Race"]}>
 <Pair single id="magaambyan-arcana">Magaambyan Arcana</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Mwangi</Pair>
@@ -1983,7 +1983,7 @@ const _magaambyan_arcana = {title: "Magaambyan Arcana", topLink: ["Race Traits",
 </Ability>
 </>};
 const _proud_tribesman = {title: "Proud Tribesman", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
-<Ability id="proud-tribesman" extraClasses="trait" icon={["person"]}>
+<Ability id="proud-tribesman" extraClasses="trait" icon={["Race"]}>
 <Pair single id="proud-tribesman">Proud Tribesman</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Mwangi</Pair>
@@ -1992,7 +1992,7 @@ const _proud_tribesman = {title: "Proud Tribesman", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _river_trader = {title: "River Trader", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="river-trader" extraClasses="trait" icon={["person"]}>
+<Ability id="river-trader" extraClasses="trait" icon={["Race"]}>
 <Pair single id="river-trader">River Trader</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Mwangi</Pair>
@@ -2001,7 +2001,7 @@ const _river_trader = {title: "River Trader", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _spirits_in_the_stone = {title: "Spirits in the Stone", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="spirits-in-the-stone" extraClasses="trait" icon={["person"]}>
+<Ability id="spirits-in-the-stone" extraClasses="trait" icon={["Race"]}>
 <Pair single id="spirits-in-the-stone">Spirits in the Stone</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Mwangi</Pair>
@@ -2010,7 +2010,7 @@ const _spirits_in_the_stone = {title: "Spirits in the Stone", topLink: ["Race Tr
 </Ability>
 </>};
 const _student_of_nantambu = {title: "Student of Nantambu", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="student-of-nantambu" extraClasses="trait" icon={["person"]}>
+<Ability id="student-of-nantambu" extraClasses="trait" icon={["Race"]}>
 <Pair single id="student-of-nantambu">Student of Nantambu</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Mwangi</Pair>
@@ -2019,7 +2019,7 @@ const _student_of_nantambu = {title: "Student of Nantambu", topLink: ["Race Trai
 </Ability>
 </>};
 const _trailblazer = {title: "Trailblazer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="trailblazer" extraClasses="trait" icon={["person"]}>
+<Ability id="trailblazer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="trailblazer">Trailblazer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Mwangi</Pair>
@@ -2028,7 +2028,7 @@ const _trailblazer = {title: "Trailblazer", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _slaver = {title: "Slaver", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
-<Ability id="slaver" extraClasses="trait" icon={["person"]}>
+<Ability id="slaver" extraClasses="trait" icon={["Race"]}>
 <Pair single id="slaver">Slaver</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Ombo</Pair>
@@ -2037,7 +2037,7 @@ const _slaver = {title: "Slaver", topLink: ["Race Traits","main/traits_race"], j
 </Ability>
 </>};
 const _auspicious_tattoo = {title: "Auspicious Tattoo", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="auspicious-tattoo" extraClasses="trait" icon={["person"]}>
+<Ability id="auspicious-tattoo" extraClasses="trait" icon={["Race"]}>
 <Pair single id="auspicious-tattoo">Auspicious Tattoo</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Shoanti</Pair>
@@ -2046,7 +2046,7 @@ const _auspicious_tattoo = {title: "Auspicious Tattoo", topLink: ["Race Traits",
 </Ability>
 </>};
 const _bred_for_war = {title: "Bred for War", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="bred-for-war" extraClasses="trait" icon={["person"]}>
+<Ability id="bred-for-war" extraClasses="trait" icon={["Race"]}>
 <Pair single id="bred-for-war">Bred for War</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Shoanti</Pair>
@@ -2055,7 +2055,7 @@ const _bred_for_war = {title: "Bred for War", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _favored_champion = {title: "Favored Champion", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="favored-champion" extraClasses="trait" icon={["person"]}>
+<Ability id="favored-champion" extraClasses="trait" icon={["Race"]}>
 <Pair single id="favored-champion">Favored Champion</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Shoanti</Pair>
@@ -2064,7 +2064,7 @@ const _favored_champion = {title: "Favored Champion", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _oral_historian = {title: "Oral Historian", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="oral-historian" extraClasses="trait" icon={["person"]}>
+<Ability id="oral-historian" extraClasses="trait" icon={["Race"]}>
 <Pair single id="oral-historian">Oral Historian</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Shoanti</Pair>
@@ -2073,7 +2073,7 @@ const _oral_historian = {title: "Oral Historian", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _shoanti_steed = {title: "Shoanti Steed", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
-<Ability id="shoanti-steed" extraClasses="trait" icon={["person"]}>
+<Ability id="shoanti-steed" extraClasses="trait" icon={["Race"]}>
 <Pair single id="shoanti-steed">Shoanti Steed</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Shoanti</Pair>
@@ -2084,7 +2084,7 @@ const _shoanti_steed = {title: "Shoanti Steed", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _shoanti_tattoo = {title: "Shoanti Tattoo", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
-<Ability id="shoanti-tattoo" extraClasses="trait" icon={["person"]}>
+<Ability id="shoanti-tattoo" extraClasses="trait" icon={["Race"]}>
 <Pair single id="shoanti-tattoo">Shoanti Tattoo</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Shoanti</Pair>
@@ -2093,7 +2093,7 @@ const _shoanti_tattoo = {title: "Shoanti Tattoo", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _artistic_dilettante = {title: "Artistic Dilettante", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="artistic-dilettante" extraClasses="trait" icon={["person"]}>
+<Ability id="artistic-dilettante" extraClasses="trait" icon={["Race"]}>
 <Pair single id="artistic-dilettante">Artistic Dilettante</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Taldan</Pair>
@@ -2102,7 +2102,7 @@ const _artistic_dilettante = {title: "Artistic Dilettante", topLink: ["Race Trai
 </Ability>
 </>};
 const _aspiring_bard = {title: "Aspiring Bard", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
-<Ability id="aspiring-bard" extraClasses="trait" icon={["person"]}>
+<Ability id="aspiring-bard" extraClasses="trait" icon={["Race"]}>
 <Pair single id="aspiring-bard">Aspiring Bard</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Taldan</Pair>
@@ -2111,7 +2111,7 @@ const _aspiring_bard = {title: "Aspiring Bard", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _blade_bravado = {title: "Blade Bravado", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="blade-bravado" extraClasses="trait" icon={["person"]}>
+<Ability id="blade-bravado" extraClasses="trait" icon={["Race"]}>
 <Pair single id="blade-bravado">Blade Bravado</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Taldan</Pair>
@@ -2120,7 +2120,7 @@ const _blade_bravado = {title: "Blade Bravado", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _destined_pioneer = {title: "Destined Pioneer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
-<Ability id="destined-pioneer" extraClasses="trait" icon={["person"]}>
+<Ability id="destined-pioneer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="destined-pioneer">Destined Pioneer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Taldan</Pair>
@@ -2129,7 +2129,7 @@ const _destined_pioneer = {title: "Destined Pioneer", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _generous = {title: "Generous", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="generous" extraClasses="trait" icon={["person"]}>
+<Ability id="generous" extraClasses="trait" icon={["Race"]}>
 <Pair single id="generous">Generous</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Taldan</Pair>
@@ -2138,7 +2138,7 @@ const _generous = {title: "Generous", topLink: ["Race Traits","main/traits_race"
 </Ability>
 </>};
 const _my_word_is_my_bond = {title: "My Word Is My Bond", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="my-word-is-my-bond" extraClasses="trait" icon={["person"]}>
+<Ability id="my-word-is-my-bond" extraClasses="trait" icon={["Race"]}>
 <Pair single id="my-word-is-my-bond">My Word Is My Bond</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Taldan</Pair>
@@ -2147,7 +2147,7 @@ const _my_word_is_my_bond = {title: "My Word Is My Bond", topLink: ["Race Traits
 </Ability>
 </>};
 const _bureaucracy_navigator = {title: "Bureaucracy Navigator", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="bureaucracy-navigator" extraClasses="trait" icon={["person"]}>
+<Ability id="bureaucracy-navigator" extraClasses="trait" icon={["Race"]}>
 <Pair single id="bureaucracy-navigator">Bureaucracy Navigator</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Tian</Pair>
@@ -2155,7 +2155,7 @@ const _bureaucracy_navigator = {title: "Bureaucracy Navigator", topLink: ["Race 
 </Ability>
 </>};
 const _keeper_of_the_ancestral_scrolls = {title: "Keeper of the Ancestral Scrolls", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="keeper-of-the-ancestral-scrolls" extraClasses="trait" icon={["person"]}>
+<Ability id="keeper-of-the-ancestral-scrolls" extraClasses="trait" icon={["Race"]}>
 <Pair single id="keeper-of-the-ancestral-scrolls">Keeper of the Ancestral Scrolls</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Tian</Pair>
@@ -2164,7 +2164,7 @@ const _keeper_of_the_ancestral_scrolls = {title: "Keeper of the Ancestral Scroll
 </Ability>
 </>};
 const _master_of_the_sudden_strike = {title: "Master of the Sudden Strike", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="master-of-the-sudden-strike" extraClasses="trait" icon={["person"]}>
+<Ability id="master-of-the-sudden-strike" extraClasses="trait" icon={["Race"]}>
 <Pair single id="master-of-the-sudden-strike">Master of the Sudden Strike</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Tian</Pair>
@@ -2173,7 +2173,7 @@ const _master_of_the_sudden_strike = {title: "Master of the Sudden Strike", topL
 </Ability>
 </>};
 const _nearly_blinded = {title: "Nearly Blinded", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="nearly-blinded" extraClasses="trait" icon={["person"]}>
+<Ability id="nearly-blinded" extraClasses="trait" icon={["Race"]}>
 <Pair single id="nearly-blinded">Nearly Blinded</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Tian</Pair>
@@ -2182,7 +2182,7 @@ const _nearly_blinded = {title: "Nearly Blinded", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _animalistic_affliction = {title: "Animalistic Affliction", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="animalistic-affliction" extraClasses="trait" icon={["person"]}>
+<Ability id="animalistic-affliction" extraClasses="trait" icon={["Race"]}>
 <Pair single id="animalistic-affliction">Animalistic Affliction</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Ulfen</Pair>
@@ -2191,7 +2191,7 @@ const _animalistic_affliction = {title: "Animalistic Affliction", topLink: ["Rac
 </Ability>
 </>};
 const _glint_tongued = {title: "Glint-Tongued", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="glint-tongued" extraClasses="trait" icon={["person"]}>
+<Ability id="glint-tongued" extraClasses="trait" icon={["Race"]}>
 <Pair single id="glint-tongued">Glint-Tongued</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Ulfen</Pair>
@@ -2200,7 +2200,7 @@ const _glint_tongued = {title: "Glint-Tongued", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _gruff_watcher = {title: "Gruff Watcher", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="gruff-watcher" extraClasses="trait" icon={["person"]}>
+<Ability id="gruff-watcher" extraClasses="trait" icon={["Race"]}>
 <Pair single id="gruff-watcher">Gruff Watcher</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Ulfen</Pair>
@@ -2209,7 +2209,7 @@ const _gruff_watcher = {title: "Gruff Watcher", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _honor_driven = {title: "Honor-Driven", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="honor-driven" extraClasses="trait" icon={["person"]}>
+<Ability id="honor-driven" extraClasses="trait" icon={["Race"]}>
 <Pair single id="honor-driven">Honor-Driven</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Ulfen</Pair>
@@ -2218,7 +2218,7 @@ const _honor_driven = {title: "Honor-Driven", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _shield_bearer = {title: "Shield Bearer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="shield-bearer" extraClasses="trait" icon={["person"]}>
+<Ability id="shield-bearer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="shield-bearer">Shield Bearer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Ulfen</Pair>
@@ -2227,7 +2227,7 @@ const _shield_bearer = {title: "Shield Bearer", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _weapon_training = {title: "Weapon Training", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="weapon-training" extraClasses="trait" icon={["person"]}>
+<Ability id="weapon-training" extraClasses="trait" icon={["Race"]}>
 <Pair single id="weapon-training">Weapon Training</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Ulfen</Pair>
@@ -2236,7 +2236,7 @@ const _weapon_training = {title: "Weapon Training", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _harrow_born = {title: "Harrow Born", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="harrow-born" extraClasses="trait" icon={["person"]}>
+<Ability id="harrow-born" extraClasses="trait" icon={["Race"]}>
 <Pair single id="harrow-born">Harrow Born</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Varisian</Pair>
@@ -2245,7 +2245,7 @@ const _harrow_born = {title: "Harrow Born", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _harrow_chosen = {title: "Harrow Chosen", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
-<Ability id="harrow-chosen" extraClasses="trait" icon={["person"]}>
+<Ability id="harrow-chosen" extraClasses="trait" icon={["Race"]}>
 <Pair single id="harrow-chosen">Harrow Chosen</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Varisian</Pair>
@@ -2256,7 +2256,7 @@ const _harrow_chosen = {title: "Harrow Chosen", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _practiced_gambler = {title: "Practiced Gambler", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="practiced-gambler" extraClasses="trait" icon={["person"]}>
+<Ability id="practiced-gambler" extraClasses="trait" icon={["Race"]}>
 <Pair single id="practiced-gambler">Practiced Gambler</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Varisian</Pair>
@@ -2265,7 +2265,7 @@ const _practiced_gambler = {title: "Practiced Gambler", topLink: ["Race Traits",
 </Ability>
 </>};
 const _stargazer_human = {title: "Stargazer (Human)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="stargazer-human" extraClasses="trait" icon={["person"]}>
+<Ability id="stargazer-human" extraClasses="trait" icon={["Race"]}>
 <Pair single id="stargazer-human">Stargazer (Human)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Varisian</Pair>
@@ -2274,7 +2274,7 @@ const _stargazer_human = {title: "Stargazer (Human)", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _tattooed_focus = {title: "Tattooed Focus", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="tattooed-focus" extraClasses="trait" icon={["person"]}>
+<Ability id="tattooed-focus" extraClasses="trait" icon={["Race"]}>
 <Pair single id="tattooed-focus">Tattooed Focus</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Varisian</Pair>
@@ -2283,7 +2283,7 @@ const _tattooed_focus = {title: "Tattooed Focus", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _varisian_tattoo = {title: "Varisian Tattoo", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
-<Ability id="varisian-tattoo" extraClasses="trait" icon={["person"]}>
+<Ability id="varisian-tattoo" extraClasses="trait" icon={["Race"]}>
 <Pair single id="varisian-tattoo">Varisian Tattoo</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Varisian</Pair>
@@ -2292,7 +2292,7 @@ const _varisian_tattoo = {title: "Varisian Tattoo", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _varki_landspeaker = {title: "Varki Landspeaker", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
-<Ability id="varki-landspeaker" extraClasses="trait" icon={["person"]}>
+<Ability id="varki-landspeaker" extraClasses="trait" icon={["Race"]}>
 <Pair single id="varki-landspeaker">Varki Landspeaker</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Varki</Pair>
@@ -2301,7 +2301,7 @@ const _varki_landspeaker = {title: "Varki Landspeaker", topLink: ["Race Traits",
 </Ability>
 </>};
 const _disciplined_body = {title: "Disciplined Body", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="disciplined-body" extraClasses="trait" icon={["person"]}>
+<Ability id="disciplined-body" extraClasses="trait" icon={["Race"]}>
 <Pair single id="disciplined-body">Disciplined Body</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Vudrani</Pair>
@@ -2310,7 +2310,7 @@ const _disciplined_body = {title: "Disciplined Body", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _latent_psion = {title: "Latent Psion", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
-<Ability id="latent-psion" extraClasses="trait" icon={["person"]}>
+<Ability id="latent-psion" extraClasses="trait" icon={["Race"]}>
 <Pair single id="latent-psion">Latent Psion</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Vudrani</Pair>
@@ -2319,7 +2319,7 @@ const _latent_psion = {title: "Latent Psion", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _open_palm_of_irori = {title: "Open Palm of Irori", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="open-palm-of-irori" extraClasses="trait" icon={["person"]}>
+<Ability id="open-palm-of-irori" extraClasses="trait" icon={["Race"]}>
 <Pair single id="open-palm-of-irori">Open Palm of Irori</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Vudrani</Pair>
@@ -2328,7 +2328,7 @@ const _open_palm_of_irori = {title: "Open Palm of Irori", topLink: ["Race Traits
 </Ability>
 </>};
 const _sharp_wits = {title: "Sharp Wits", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="sharp-wits" extraClasses="trait" icon={["person"]}>
+<Ability id="sharp-wits" extraClasses="trait" icon={["Race"]}>
 <Pair single id="sharp-wits">Sharp Wits</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Vudrani</Pair>
@@ -2337,7 +2337,7 @@ const _sharp_wits = {title: "Sharp Wits", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _voice_of_velvet = {title: "Voice of Velvet", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
-<Ability id="voice-of-velvet" extraClasses="trait" icon={["person"]}>
+<Ability id="voice-of-velvet" extraClasses="trait" icon={["Race"]}>
 <Pair single id="voice-of-velvet">Voice of Velvet</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Vudrani</Pair>
@@ -2346,7 +2346,7 @@ const _voice_of_velvet = {title: "Voice of Velvet", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _expert_distractor = {title: "Expert Distractor", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="expert-distractor" extraClasses="trait" icon={["person"]}>
+<Ability id="expert-distractor" extraClasses="trait" icon={["Race"]}>
 <Pair single id="expert-distractor">Expert Distractor</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ifrit">Ifrit</Link></Pair>
@@ -2354,7 +2354,7 @@ const _expert_distractor = {title: "Expert Distractor", topLink: ["Race Traits",
 </Ability>
 </>};
 const _fiery_glare = {title: "Fiery Glare", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="fiery-glare" extraClasses="trait" icon={["person"]}>
+<Ability id="fiery-glare" extraClasses="trait" icon={["Race"]}>
 <Pair single id="fiery-glare">Fiery Glare</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ifrit">Ifrit</Link></Pair>
@@ -2363,7 +2363,7 @@ const _fiery_glare = {title: "Fiery Glare", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _hot_headed = {title: "Hot Headed", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="hot-headed" extraClasses="trait" icon={["person"]}>
+<Ability id="hot-headed" extraClasses="trait" icon={["Race"]}>
 <Pair single id="hot-headed">Hot Headed</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ifrit">Ifrit</Link></Pair>
@@ -2372,7 +2372,7 @@ const _hot_headed = {title: "Hot Headed", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _snap_ignition = {title: "Snap Ignition", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="snap-ignition" extraClasses="trait" icon={["person"]}>
+<Ability id="snap-ignition" extraClasses="trait" icon={["Race"]}>
 <Pair single id="snap-ignition">Snap Ignition</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ifrit">Ifrit</Link></Pair>
@@ -2381,7 +2381,7 @@ const _snap_ignition = {title: "Snap Ignition", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _unflappable_arrogance = {title: "Unflappable Arrogance", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="unflappable-arrogance" extraClasses="trait" icon={["person"]}>
+<Ability id="unflappable-arrogance" extraClasses="trait" icon={["Race"]}>
 <Pair single id="unflappable-arrogance">Unflappable Arrogance</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ifrit">Ifrit</Link></Pair>
@@ -2390,7 +2390,7 @@ const _unflappable_arrogance = {title: "Unflappable Arrogance", topLink: ["Race 
 </Ability>
 </>};
 const _adroit = {title: "Adroit", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="adroit" extraClasses="trait" icon={["person"]}>
+<Ability id="adroit" extraClasses="trait" icon={["Race"]}>
 <Pair single id="adroit">Adroit</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kasatha">Kasatha</Link></Pair>
@@ -2398,7 +2398,7 @@ const _adroit = {title: "Adroit", topLink: ["Race Traits","main/traits_race"], j
 </Ability>
 </>};
 const _covered_sniper = {title: "Covered Sniper", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="covered-sniper" extraClasses="trait" icon={["person"]}>
+<Ability id="covered-sniper" extraClasses="trait" icon={["Race"]}>
 <Pair single id="covered-sniper">Covered Sniper</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kasatha">Kasatha</Link></Pair>
@@ -2407,7 +2407,7 @@ const _covered_sniper = {title: "Covered Sniper", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _spidery_climber = {title: "Spidery Climber", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="spidery-climber" extraClasses="trait" icon={["person"]}>
+<Ability id="spidery-climber" extraClasses="trait" icon={["Race"]}>
 <Pair single id="spidery-climber">Spidery Climber</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kasatha">Kasatha</Link></Pair>
@@ -2416,7 +2416,7 @@ const _spidery_climber = {title: "Spidery Climber", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _among_humans = {title: "Among Humans", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox</Link></p>
-<Ability id="among-humans" extraClasses="trait" icon={["person"]}>
+<Ability id="among-humans" extraClasses="trait" icon={["Race"]}>
 <Pair single id="among-humans">Among Humans</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kitsune">Kitsune</Link></Pair>
@@ -2425,7 +2425,7 @@ const _among_humans = {title: "Among Humans", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _kami_respect = {title: "Kami Respect", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="kami-respect" extraClasses="trait" icon={["person"]}>
+<Ability id="kami-respect" extraClasses="trait" icon={["Race"]}>
 <Pair single id="kami-respect">Kami Respect</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kitsune">Kitsune</Link></Pair>
@@ -2434,7 +2434,7 @@ const _kami_respect = {title: "Kami Respect", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _nine_tailed_scion = {title: "Nine-Tailed Scion", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox</Link></p>
-<Ability id="nine-tailed-scion" extraClasses="trait" icon={["person"]}>
+<Ability id="nine-tailed-scion" extraClasses="trait" icon={["Race"]}>
 <Pair single id="nine-tailed-scion">Nine-Tailed Scion</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kitsune">Kitsune</Link></Pair>
@@ -2445,7 +2445,7 @@ const _nine_tailed_scion = {title: "Nine-Tailed Scion", topLink: ["Race Traits",
 </Ability>
 </>};
 const _carnation_scales = {title: "Carnation Scales", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="carnation-scales" extraClasses="trait" icon={["person"]}>
+<Ability id="carnation-scales" extraClasses="trait" icon={["Race"]}>
 <Pair single id="carnation-scales">Carnation Scales</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link></Pair>
@@ -2454,7 +2454,7 @@ const _carnation_scales = {title: "Carnation Scales", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _golden_scales = {title: "Golden Scales", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="golden-scales" extraClasses="trait" icon={["person"]}>
+<Ability id="golden-scales" extraClasses="trait" icon={["Race"]}>
 <Pair single id="golden-scales">Golden Scales</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link></Pair>
@@ -2463,7 +2463,7 @@ const _golden_scales = {title: "Golden Scales", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _kobold_faith = {title: "Kobold Faith", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="kobold-faith" extraClasses="trait" icon={["person"]}>
+<Ability id="kobold-faith" extraClasses="trait" icon={["Race"]}>
 <Pair single id="kobold-faith">Kobold Faith</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link></Pair>
@@ -2472,7 +2472,7 @@ const _kobold_faith = {title: "Kobold Faith", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _purple_scales = {title: "Purple Scales", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="purple-scales" extraClasses="trait" icon={["person"]}>
+<Ability id="purple-scales" extraClasses="trait" icon={["Race"]}>
 <Pair single id="purple-scales">Purple Scales</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link></Pair>
@@ -2481,7 +2481,7 @@ const _purple_scales = {title: "Purple Scales", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _tribal_guide = {title: "Tribal Guide", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="tribal-guide" extraClasses="trait" icon={["person"]}>
+<Ability id="tribal-guide" extraClasses="trait" icon={["Race"]}>
 <Pair single id="tribal-guide">Tribal Guide</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link></Pair>
@@ -2490,7 +2490,7 @@ const _tribal_guide = {title: "Tribal Guide", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _vexed = {title: "Vexed", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="vexed" extraClasses="trait" icon={["person"]}>
+<Ability id="vexed" extraClasses="trait" icon={["Race"]}>
 <Pair single id="vexed">Vexed</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link></Pair>
@@ -2499,7 +2499,7 @@ const _vexed = {title: "Vexed", topLink: ["Race Traits","main/traits_race"], jsx
 </Ability>
 </>};
 const _bog_scamp = {title: "Bog Scamp", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="bog-scamp" extraClasses="trait" icon={["person"]}>
+<Ability id="bog-scamp" extraClasses="trait" icon={["Race"]}>
 <Pair single id="bog-scamp">Bog Scamp</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Black-scaled</Pair>
@@ -2508,7 +2508,7 @@ const _bog_scamp = {title: "Bog Scamp", topLink: ["Race Traits","main/traits_rac
 </Ability>
 </>};
 const _ooze_defense = {title: "Ooze Defense", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="ooze-defense" extraClasses="trait" icon={["person"]}>
+<Ability id="ooze-defense" extraClasses="trait" icon={["Race"]}>
 <Pair single id="ooze-defense">Ooze Defense</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Black-scaled</Pair>
@@ -2517,7 +2517,7 @@ const _ooze_defense = {title: "Ooze Defense", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _sneaky_swimmer = {title: "Sneaky Swimmer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="sneaky-swimmer" extraClasses="trait" icon={["person"]}>
+<Ability id="sneaky-swimmer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="sneaky-swimmer">Sneaky Swimmer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Black-scaled</Pair>
@@ -2526,7 +2526,7 @@ const _sneaky_swimmer = {title: "Sneaky Swimmer", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _draconic_echo = {title: "Draconic Echo", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="draconic-echo" extraClasses="trait" icon={["person"]}>
+<Ability id="draconic-echo" extraClasses="trait" icon={["Race"]}>
 <Pair single id="draconic-echo">Draconic Echo</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Blue-scaled</Pair>
@@ -2535,7 +2535,7 @@ const _draconic_echo = {title: "Draconic Echo", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _elaborate_trapper = {title: "Elaborate Trapper", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="elaborate-trapper" extraClasses="trait" icon={["person"]}>
+<Ability id="elaborate-trapper" extraClasses="trait" icon={["Race"]}>
 <Pair single id="elaborate-trapper">Elaborate Trapper</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Blue-scaled</Pair>
@@ -2544,7 +2544,7 @@ const _elaborate_trapper = {title: "Elaborate Trapper", topLink: ["Race Traits",
 </Ability>
 </>};
 const _lightning_blessed = {title: "Lightning Blessed", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="lightning-blessed" extraClasses="trait" icon={["person"]}>
+<Ability id="lightning-blessed" extraClasses="trait" icon={["Race"]}>
 <Pair single id="lightning-blessed">Lightning Blessed</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Blue-scaled</Pair>
@@ -2553,7 +2553,7 @@ const _lightning_blessed = {title: "Lightning Blessed", topLink: ["Race Traits",
 </Ability>
 </>};
 const _liquid_tongued = {title: "Liquid-Tongued", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="liquid-tongued" extraClasses="trait" icon={["person"]}>
+<Ability id="liquid-tongued" extraClasses="trait" icon={["Race"]}>
 <Pair single id="liquid-tongued">Liquid-Tongued</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Blue-scaled</Pair>
@@ -2562,7 +2562,7 @@ const _liquid_tongued = {title: "Liquid-Tongued", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _alchemical_breath = {title: "Alchemical Breath", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="alchemical-breath" extraClasses="trait" icon={["person"]}>
+<Ability id="alchemical-breath" extraClasses="trait" icon={["Race"]}>
 <Pair single id="alchemical-breath">Alchemical Breath</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Green-scaled</Pair>
@@ -2571,7 +2571,7 @@ const _alchemical_breath = {title: "Alchemical Breath", topLink: ["Race Traits",
 </Ability>
 </>};
 const _kobold_herbalist = {title: "Kobold Herbalist", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="kobold-herbalist" extraClasses="trait" icon={["person"]}>
+<Ability id="kobold-herbalist" extraClasses="trait" icon={["Race"]}>
 <Pair single id="kobold-herbalist">Kobold Herbalist</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Green-scaled</Pair>
@@ -2580,7 +2580,7 @@ const _kobold_herbalist = {title: "Kobold Herbalist", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _slithering_stride = {title: "Slithering Stride", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="slithering-stride" extraClasses="trait" icon={["person"]}>
+<Ability id="slithering-stride" extraClasses="trait" icon={["Race"]}>
 <Pair single id="slithering-stride">Slithering Stride</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Green-scaled</Pair>
@@ -2589,7 +2589,7 @@ const _slithering_stride = {title: "Slithering Stride", topLink: ["Race Traits",
 </Ability>
 </>};
 const _fire_tongued = {title: "Fire-Tongued", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="fire-tongued" extraClasses="trait" icon={["person"]}>
+<Ability id="fire-tongued" extraClasses="trait" icon={["Race"]}>
 <Pair single id="fire-tongued">Fire-Tongued</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Red-scaled</Pair>
@@ -2598,7 +2598,7 @@ const _fire_tongued = {title: "Fire-Tongued", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _firebug_kobold = {title: "Firebug (Kobold)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="firebug-kobold" extraClasses="trait" icon={["person"]}>
+<Ability id="firebug-kobold" extraClasses="trait" icon={["Race"]}>
 <Pair single id="firebug-kobold">Firebug (Kobold)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Red-scaled</Pair>
@@ -2607,7 +2607,7 @@ const _firebug_kobold = {title: "Firebug (Kobold)", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _heat_fortitude = {title: "Heat Fortitude", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="heat-fortitude" extraClasses="trait" icon={["person"]}>
+<Ability id="heat-fortitude" extraClasses="trait" icon={["Race"]}>
 <Pair single id="heat-fortitude">Heat Fortitude</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Red-scaled</Pair>
@@ -2616,7 +2616,7 @@ const _heat_fortitude = {title: "Heat Fortitude", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _smoke_resistant = {title: "Smoke Resistant", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="smoke-resistant" extraClasses="trait" icon={["person"]}>
+<Ability id="smoke-resistant" extraClasses="trait" icon={["Race"]}>
 <Pair single id="smoke-resistant">Smoke Resistant</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Red-scaled</Pair>
@@ -2625,7 +2625,7 @@ const _smoke_resistant = {title: "Smoke Resistant", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _cold_fortitude = {title: "Cold Fortitude", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="cold-fortitude" extraClasses="trait" icon={["person"]}>
+<Ability id="cold-fortitude" extraClasses="trait" icon={["Race"]}>
 <Pair single id="cold-fortitude">Cold Fortitude</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; White-scaled</Pair>
@@ -2634,7 +2634,7 @@ const _cold_fortitude = {title: "Cold Fortitude", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _frost_spitter = {title: "Frost Spitter", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="frost-spitter" extraClasses="trait" icon={["person"]}>
+<Ability id="frost-spitter" extraClasses="trait" icon={["Race"]}>
 <Pair single id="frost-spitter">Frost Spitter</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; White-scaled</Pair>
@@ -2643,7 +2643,7 @@ const _frost_spitter = {title: "Frost Spitter", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _icy_mementos = {title: "Icy Mementos", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="icy-mementos" extraClasses="trait" icon={["person"]}>
+<Ability id="icy-mementos" extraClasses="trait" icon={["Race"]}>
 <Pair single id="icy-mementos">Icy Mementos</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; White-scaled</Pair>
@@ -2652,7 +2652,7 @@ const _icy_mementos = {title: "Icy Mementos", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _skaters_balance = {title: "Skater's Balance", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
-<Ability id="skaters-balance" extraClasses="trait" icon={["person"]}>
+<Ability id="skaters-balance" extraClasses="trait" icon={["Race"]}>
 <Pair single id="skaters-balance">Skater's Balance</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; White-scaled</Pair>
@@ -2661,7 +2661,7 @@ const _skaters_balance = {title: "Skater's Balance", topLink: ["Race Traits","ma
 </Ability>
 </>};
 const _castrovel_gatekeeper = {title: "Castrovel Gatekeeper", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="castrovel-gatekeeper" extraClasses="trait" icon={["person"]}>
+<Ability id="castrovel-gatekeeper" extraClasses="trait" icon={["Race"]}>
 <Pair single id="castrovel-gatekeeper">Castrovel Gatekeeper</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/lashunta">Lashunta</Link></Pair>
@@ -2670,7 +2670,7 @@ const _castrovel_gatekeeper = {title: "Castrovel Gatekeeper", topLink: ["Race Tr
 </Ability>
 </>};
 const _skilled_telepath = {title: "Skilled Telepath", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="skilled-telepath" extraClasses="trait" icon={["person"]}>
+<Ability id="skilled-telepath" extraClasses="trait" icon={["Race"]}>
 <Pair single id="skilled-telepath">Skilled Telepath</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/lashunta">Lashunta</Link></Pair>
@@ -2678,7 +2678,7 @@ const _skilled_telepath = {title: "Skilled Telepath", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _tactile_telekinesis = {title: "Tactile Telekinesis", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="tactile-telekinesis" extraClasses="trait" icon={["person"]}>
+<Ability id="tactile-telekinesis" extraClasses="trait" icon={["Race"]}>
 <Pair single id="tactile-telekinesis">Tactile Telekinesis</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/lashunta">Lashunta</Link></Pair>
@@ -2686,7 +2686,7 @@ const _tactile_telekinesis = {title: "Tactile Telekinesis", topLink: ["Race Trai
 </Ability>
 </>};
 const _guarded = {title: "Guarded", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="guarded" extraClasses="trait" icon={["person"]}>
+<Ability id="guarded" extraClasses="trait" icon={["Race"]}>
 <Pair single id="guarded">Guarded</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/merfolk">Merfolk</Link></Pair>
@@ -2695,7 +2695,7 @@ const _guarded = {title: "Guarded", topLink: ["Race Traits","main/traits_race"],
 </Ability>
 </>};
 const _longlung = {title: "Longlung", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="longlung" extraClasses="trait" icon={["person"]}>
+<Ability id="longlung" extraClasses="trait" icon={["Race"]}>
 <Pair single id="longlung">Longlung</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/monkey_goblin">Monkey goblin</Link></Pair>
@@ -2704,7 +2704,7 @@ const _longlung = {title: "Longlung", topLink: ["Race Traits","main/traits_race"
 </Ability>
 </>};
 const _nagaji_nationalist = {title: "Nagaji Nationalist", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="nagaji-nationalist" extraClasses="trait" icon={["person"]}>
+<Ability id="nagaji-nationalist" extraClasses="trait" icon={["Race"]}>
 <Pair single id="nagaji-nationalist">Nagaji Nationalist</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/nagaji">Nagaji</Link></Pair>
@@ -2713,7 +2713,7 @@ const _nagaji_nationalist = {title: "Nagaji Nationalist", topLink: ["Race Traits
 </Ability>
 </>};
 const _animal_rustler = {title: "Animal Rustler", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="animal-rustler" extraClasses="trait" icon={["person"]}>
+<Ability id="animal-rustler" extraClasses="trait" icon={["Race"]}>
 <Pair single id="animal-rustler">Animal Rustler</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/orc">Orc</Link></Pair>
@@ -2722,7 +2722,7 @@ const _animal_rustler = {title: "Animal Rustler", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _brimstone_seer = {title: "Brimstone Seer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="brimstone-seer" extraClasses="trait" icon={["person"]}>
+<Ability id="brimstone-seer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="brimstone-seer">Brimstone Seer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/orc">Orc</Link></Pair>
@@ -2730,7 +2730,7 @@ const _brimstone_seer = {title: "Brimstone Seer", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _earthsense = {title: "Earthsense", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="earthsense" extraClasses="trait" icon={["person"]}>
+<Ability id="earthsense" extraClasses="trait" icon={["Race"]}>
 <Pair single id="earthsense">Earthsense</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/oread">Oread</Link></Pair>
@@ -2739,7 +2739,7 @@ const _earthsense = {title: "Earthsense", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _loner_of_the_rocks = {title: "Loner of the Rocks", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="loner-of-the-rocks" extraClasses="trait" icon={["person"]}>
+<Ability id="loner-of-the-rocks" extraClasses="trait" icon={["Race"]}>
 <Pair single id="loner-of-the-rocks">Loner of the Rocks</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/oread">Oread</Link></Pair>
@@ -2748,7 +2748,7 @@ const _loner_of_the_rocks = {title: "Loner of the Rocks", topLink: ["Race Traits
 </Ability>
 </>};
 const _sandy_ambush = {title: "Sandy Ambush", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="sandy-ambush" extraClasses="trait" icon={["person"]}>
+<Ability id="sandy-ambush" extraClasses="trait" icon={["Race"]}>
 <Pair single id="sandy-ambush">Sandy Ambush</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/oread">Oread</Link></Pair>
@@ -2757,7 +2757,7 @@ const _sandy_ambush = {title: "Sandy Ambush", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _statuesque = {title: "Statuesque", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="statuesque" extraClasses="trait" icon={["person"]}>
+<Ability id="statuesque" extraClasses="trait" icon={["Race"]}>
 <Pair single id="statuesque">Statuesque</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/oread">Oread</Link></Pair>
@@ -2768,7 +2768,7 @@ const _statuesque = {title: "Statuesque", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _stoic_dignity = {title: "Stoic Dignity", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="stoic-dignity" extraClasses="trait" icon={["person"]}>
+<Ability id="stoic-dignity" extraClasses="trait" icon={["Race"]}>
 <Pair single id="stoic-dignity">Stoic Dignity</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/oread">Oread</Link></Pair>
@@ -2777,7 +2777,7 @@ const _stoic_dignity = {title: "Stoic Dignity", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _bauble_fascination = {title: "Bauble Fascination", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox</Link></p>
-<Ability id="bauble-fascination" extraClasses="trait" icon={["person"]}>
+<Ability id="bauble-fascination" extraClasses="trait" icon={["Race"]}>
 <Pair single id="bauble-fascination">Bauble Fascination</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ratfolk">Ratfolk</Link></Pair>
@@ -2786,7 +2786,7 @@ const _bauble_fascination = {title: "Bauble Fascination", topLink: ["Race Traits
 </Ability>
 </>};
 const _business_venturer = {title: "Business Venturer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox</Link></p>
-<Ability id="business-venturer" extraClasses="trait" icon={["person"]}>
+<Ability id="business-venturer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="business-venturer">Business Venturer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ratfolk">Ratfolk</Link></Pair>
@@ -2795,7 +2795,7 @@ const _business_venturer = {title: "Business Venturer", topLink: ["Race Traits",
 </Ability>
 </>};
 const _ratfolk_avenger = {title: "Ratfolk Avenger", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="ratfolk-avenger" extraClasses="trait" icon={["person"]}>
+<Ability id="ratfolk-avenger" extraClasses="trait" icon={["Race"]}>
 <Pair single id="ratfolk-avenger">Ratfolk Avenger</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ratfolk">Ratfolk</Link></Pair>
@@ -2804,7 +2804,7 @@ const _ratfolk_avenger = {title: "Ratfolk Avenger", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _scamper = {title: "Scamper", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="scamper" extraClasses="trait" icon={["person"]}>
+<Ability id="scamper" extraClasses="trait" icon={["Race"]}>
 <Pair single id="scamper">Scamper</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ratfolk">Ratfolk</Link></Pair>
@@ -2813,7 +2813,7 @@ const _scamper = {title: "Scamper", topLink: ["Race Traits","main/traits_race"],
 </Ability>
 </>};
 const _walls_of_half_truths = {title: "Walls of Half-Truths", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="walls-of-half-truths" extraClasses="trait" icon={["person"]}>
+<Ability id="walls-of-half-truths" extraClasses="trait" icon={["Race"]}>
 <Pair single id="walls-of-half-truths">Walls of Half-Truths</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/samsaran">Samsaran</Link></Pair>
@@ -2822,7 +2822,7 @@ const _walls_of_half_truths = {title: "Walls of Half-Truths", topLink: ["Race Tr
 </Ability>
 </>};
 const _curse_in_the_blood = {title: "Curse in the Blood", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="curse-in-the-blood" extraClasses="trait" icon={["person"]}>
+<Ability id="curse-in-the-blood" extraClasses="trait" icon={["Race"]}>
 <Pair single id="curse-in-the-blood">Curse in the Blood</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link></Pair>
@@ -2831,7 +2831,7 @@ const _curse_in_the_blood = {title: "Curse in the Blood", topLink: ["Race Traits
 </Ability>
 </>};
 const _marked_by_natures_magic = {title: "Marked by Nature's Magic", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="marked-by-natures-magic" extraClasses="trait" icon={["person"]}>
+<Ability id="marked-by-natures-magic" extraClasses="trait" icon={["Race"]}>
 <Pair single id="marked-by-natures-magic">Marked by Nature's Magic</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link></Pair>
@@ -2840,7 +2840,7 @@ const _marked_by_natures_magic = {title: "Marked by Nature's Magic", topLink: ["
 </Ability>
 </>};
 const _mastery_of_form = {title: "Mastery of Form", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="mastery-of-form" extraClasses="trait" icon={["person"]}>
+<Ability id="mastery-of-form" extraClasses="trait" icon={["Race"]}>
 <Pair single id="mastery-of-form">Mastery of Form</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link></Pair>
@@ -2849,7 +2849,7 @@ const _mastery_of_form = {title: "Mastery of Form", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _traumatic_shift = {title: "Traumatic Shift", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="traumatic-shift" extraClasses="trait" icon={["person"]}>
+<Ability id="traumatic-shift" extraClasses="trait" icon={["Race"]}>
 <Pair single id="traumatic-shift">Traumatic Shift</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link></Pair>
@@ -2858,7 +2858,7 @@ const _traumatic_shift = {title: "Traumatic Shift", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _fight_with_the_flock = {title: "Fight with the Flock", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="fight-with-the-flock" extraClasses="trait" icon={["person"]}>
+<Ability id="fight-with-the-flock" extraClasses="trait" icon={["Race"]}>
 <Pair single id="fight-with-the-flock">Fight with the Flock</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werebat-kin</Pair>
@@ -2867,7 +2867,7 @@ const _fight_with_the_flock = {title: "Fight with the Flock", topLink: ["Race Tr
 </Ability>
 </>};
 const _precision_hearing = {title: "Precision Hearing", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="precision-hearing" extraClasses="trait" icon={["person"]}>
+<Ability id="precision-hearing" extraClasses="trait" icon={["Race"]}>
 <Pair single id="precision-hearing">Precision Hearing</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werebat-kin</Pair>
@@ -2876,7 +2876,7 @@ const _precision_hearing = {title: "Precision Hearing", topLink: ["Race Traits",
 </Ability>
 </>};
 const _durable_change = {title: "Durable Change", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="durable-change" extraClasses="trait" icon={["person"]}>
+<Ability id="durable-change" extraClasses="trait" icon={["Race"]}>
 <Pair single id="durable-change">Durable Change</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werebear-kin</Pair>
@@ -2884,7 +2884,7 @@ const _durable_change = {title: "Durable Change", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _reviving_rest = {title: "Reviving Rest", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="reviving-rest" extraClasses="trait" icon={["person"]}>
+<Ability id="reviving-rest" extraClasses="trait" icon={["Race"]}>
 <Pair single id="reviving-rest">Reviving Rest</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werebear-kin</Pair>
@@ -2893,7 +2893,7 @@ const _reviving_rest = {title: "Reviving Rest", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _boar_resilience = {title: "Boar Resilience", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="boar-resilience" extraClasses="trait" icon={["person"]}>
+<Ability id="boar-resilience" extraClasses="trait" icon={["Race"]}>
 <Pair single id="boar-resilience">Boar Resilience</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Wereboar-kin</Pair>
@@ -2902,7 +2902,7 @@ const _boar_resilience = {title: "Boar Resilience", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _strength_of_body = {title: "Strength of Body", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="strength-of-body" extraClasses="trait" icon={["person"]}>
+<Ability id="strength-of-body" extraClasses="trait" icon={["Race"]}>
 <Pair single id="strength-of-body">Strength of Body</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Wereboar-kin</Pair>
@@ -2911,7 +2911,7 @@ const _strength_of_body = {title: "Strength of Body", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _crocodile_swim = {title: "Crocodile Swim", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="crocodile-swim" extraClasses="trait" icon={["person"]}>
+<Ability id="crocodile-swim" extraClasses="trait" icon={["Race"]}>
 <Pair single id="crocodile-swim">Crocodile Swim</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werecrocodile-kin</Pair>
@@ -2920,7 +2920,7 @@ const _crocodile_swim = {title: "Crocodile Swim", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _terrifying_lunge = {title: "Terrifying Lunge", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="terrifying-lunge" extraClasses="trait" icon={["person"]}>
+<Ability id="terrifying-lunge" extraClasses="trait" icon={["Race"]}>
 <Pair single id="terrifying-lunge">Terrifying Lunge</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werecrocodile-kin</Pair>
@@ -2929,7 +2929,7 @@ const _terrifying_lunge = {title: "Terrifying Lunge", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _inured_to_disease = {title: "Inured to Disease", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="inured-to-disease" extraClasses="trait" icon={["person"]}>
+<Ability id="inured-to-disease" extraClasses="trait" icon={["Race"]}>
 <Pair single id="inured-to-disease">Inured to Disease</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Wererat-kin</Pair>
@@ -2938,7 +2938,7 @@ const _inured_to_disease = {title: "Inured to Disease", topLink: ["Race Traits",
 </Ability>
 </>};
 const _rat_squeeze = {title: "Rat Squeeze", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="rat-squeeze" extraClasses="trait" icon={["person"]}>
+<Ability id="rat-squeeze" extraClasses="trait" icon={["Race"]}>
 <Pair single id="rat-squeeze">Rat Squeeze</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Wererat-kin</Pair>
@@ -2947,7 +2947,7 @@ const _rat_squeeze = {title: "Rat Squeeze", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _sharkchild = {title: "Sharkchild", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="sharkchild" extraClasses="trait" icon={["person"]}>
+<Ability id="sharkchild" extraClasses="trait" icon={["Race"]}>
 <Pair single id="sharkchild">Sharkchild</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Wereshark-kin</Pair>
@@ -2956,7 +2956,7 @@ const _sharkchild = {title: "Sharkchild", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _shoreline_skirmisher = {title: "Shoreline Skirmisher", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="shoreline-skirmisher" extraClasses="trait" icon={["person"]}>
+<Ability id="shoreline-skirmisher" extraClasses="trait" icon={["Race"]}>
 <Pair single id="shoreline-skirmisher">Shoreline Skirmisher</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Wereshark-kin</Pair>
@@ -2965,7 +2965,7 @@ const _shoreline_skirmisher = {title: "Shoreline Skirmisher", topLink: ["Race Tr
 </Ability>
 </>};
 const _feline_instinct = {title: "Feline Instinct", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="feline-instinct" extraClasses="trait" icon={["person"]}>
+<Ability id="feline-instinct" extraClasses="trait" icon={["Race"]}>
 <Pair single id="feline-instinct">Feline Instinct</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Weretiger-kin</Pair>
@@ -2974,7 +2974,7 @@ const _feline_instinct = {title: "Feline Instinct", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _tigers_claw = {title: "Tiger's Claw", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="tigers-claw" extraClasses="trait" icon={["person"]}>
+<Ability id="tigers-claw" extraClasses="trait" icon={["Race"]}>
 <Pair single id="tigers-claw">Tiger's Claw</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Weretiger-kin</Pair>
@@ -2983,7 +2983,7 @@ const _tigers_claw = {title: "Tiger's Claw", topLink: ["Race Traits","main/trait
 </Ability>
 </>};
 const _lycanthropic_bloodlust = {title: "Lycanthropic Bloodlust", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="lycanthropic-bloodlust" extraClasses="trait" icon={["person"]}>
+<Ability id="lycanthropic-bloodlust" extraClasses="trait" icon={["Race"]}>
 <Pair single id="lycanthropic-bloodlust">Lycanthropic Bloodlust</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werewolf-kin</Pair>
@@ -2992,7 +2992,7 @@ const _lycanthropic_bloodlust = {title: "Lycanthropic Bloodlust", topLink: ["Rac
 </Ability>
 </>};
 const _shared_curse = {title: "Shared Curse", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
-<Ability id="shared-curse" extraClasses="trait" icon={["person"]}>
+<Ability id="shared-curse" extraClasses="trait" icon={["Race"]}>
 <Pair single id="shared-curse">Shared Curse</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werewolf-kin</Pair>
@@ -3001,7 +3001,7 @@ const _shared_curse = {title: "Shared Curse", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _aerial_harrier = {title: "Aerial Harrier", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="aerial-harrier" extraClasses="trait" icon={["person"]}>
+<Ability id="aerial-harrier" extraClasses="trait" icon={["Race"]}>
 <Pair single id="aerial-harrier">Aerial Harrier</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/strix">Strix</Link></Pair>
@@ -3010,7 +3010,7 @@ const _aerial_harrier = {title: "Aerial Harrier", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _dowsing = {title: "Dowsing", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="dowsing" extraClasses="trait" icon={["person"]}>
+<Ability id="dowsing" extraClasses="trait" icon={["Race"]}>
 <Pair single id="dowsing">Dowsing</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/suli">Suli</Link></Pair>
@@ -3019,7 +3019,7 @@ const _dowsing = {title: "Dowsing", topLink: ["Race Traits","main/traits_race"],
 </Ability>
 </>};
 const _dualborn = {title: "Dualborn", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="dualborn" extraClasses="trait" icon={["person"]}>
+<Ability id="dualborn" extraClasses="trait" icon={["Race"]}>
 <Pair single id="dualborn">Dualborn</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/suli">Suli</Link></Pair>
@@ -3028,7 +3028,7 @@ const _dualborn = {title: "Dualborn", topLink: ["Race Traits","main/traits_race"
 </Ability>
 </>};
 const _elemental_caller = {title: "Elemental Caller", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="elemental-caller" extraClasses="trait" icon={["person"]}>
+<Ability id="elemental-caller" extraClasses="trait" icon={["Race"]}>
 <Pair single id="elemental-caller">Elemental Caller</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/suli">Suli</Link></Pair>
@@ -3037,7 +3037,7 @@ const _elemental_caller = {title: "Elemental Caller", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _instant_friendship = {title: "Instant Friendship", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="instant-friendship" extraClasses="trait" icon={["person"]}>
+<Ability id="instant-friendship" extraClasses="trait" icon={["Race"]}>
 <Pair single id="instant-friendship">Instant Friendship</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/suli">Suli</Link></Pair>
@@ -3046,7 +3046,7 @@ const _instant_friendship = {title: "Instant Friendship", topLink: ["Race Traits
 </Ability>
 </>};
 const _practiced_impression = {title: "Practiced Impression", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="practiced-impression" extraClasses="trait" icon={["person"]}>
+<Ability id="practiced-impression" extraClasses="trait" icon={["Race"]}>
 <Pair single id="practiced-impression">Practiced Impression</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/suli">Suli</Link></Pair>
@@ -3055,7 +3055,7 @@ const _practiced_impression = {title: "Practiced Impression", topLink: ["Race Tr
 </Ability>
 </>};
 const _secret_keeper_svirfneblin = {title: "Secret-Keeper (Svirfneblin)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="secret-keeper-svirfneblin" extraClasses="trait" icon={["person"]}>
+<Ability id="secret-keeper-svirfneblin" extraClasses="trait" icon={["Race"]}>
 <Pair single id="secret-keeper-svirfneblin">Secret-Keeper (Svirfneblin)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/svirfneblin">Svirfneblin</Link></Pair>
@@ -3064,7 +3064,7 @@ const _secret_keeper_svirfneblin = {title: "Secret-Keeper (Svirfneblin)", topLin
 </Ability>
 </>};
 const _aerial_observer = {title: "Aerial Observer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="aerial-observer" extraClasses="trait" icon={["person"]}>
+<Ability id="aerial-observer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="aerial-observer">Aerial Observer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/sylph">Sylph</Link></Pair>
@@ -3073,7 +3073,7 @@ const _aerial_observer = {title: "Aerial Observer", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _carrying_voice = {title: "Carrying Voice", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="carrying-voice" extraClasses="trait" icon={["person"]}>
+<Ability id="carrying-voice" extraClasses="trait" icon={["Race"]}>
 <Pair single id="carrying-voice">Carrying Voice</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/sylph">Sylph</Link></Pair>
@@ -3082,7 +3082,7 @@ const _carrying_voice = {title: "Carrying Voice", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _following_breeze = {title: "Following Breeze", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="following-breeze" extraClasses="trait" icon={["person"]}>
+<Ability id="following-breeze" extraClasses="trait" icon={["Race"]}>
 <Pair single id="following-breeze">Following Breeze</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/sylph">Sylph</Link></Pair>
@@ -3091,7 +3091,7 @@ const _following_breeze = {title: "Following Breeze", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _thunderborn = {title: "Thunderborn", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="thunderborn" extraClasses="trait" icon={["person"]}>
+<Ability id="thunderborn" extraClasses="trait" icon={["Race"]}>
 <Pair single id="thunderborn">Thunderborn</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/sylph">Sylph</Link></Pair>
@@ -3100,7 +3100,7 @@ const _thunderborn = {title: "Thunderborn", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _wind_carried_voices = {title: "Wind-Carried Voices", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="wind-carried-voices" extraClasses="trait" icon={["person"]}>
+<Ability id="wind-carried-voices" extraClasses="trait" icon={["Race"]}>
 <Pair single id="wind-carried-voices">Wind-Carried Voices</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/sylph">Sylph</Link></Pair>
@@ -3111,7 +3111,7 @@ const _wind_carried_voices = {title: "Wind-Carried Voices", topLink: ["Race Trai
 </Ability>
 </>};
 const _winged_aloofness = {title: "Winged Aloofness", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="winged-aloofness" extraClasses="trait" icon={["person"]}>
+<Ability id="winged-aloofness" extraClasses="trait" icon={["Race"]}>
 <Pair single id="winged-aloofness">Winged Aloofness</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/syrinx">Syrinx</Link></Pair>
@@ -3120,7 +3120,7 @@ const _winged_aloofness = {title: "Winged Aloofness", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _seafaring_slayer = {title: "Seafaring Slayer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="seafaring-slayer" extraClasses="trait" icon={["person"]}>
+<Ability id="seafaring-slayer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="seafaring-slayer">Seafaring Slayer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tengu">Tengu</Link></Pair>
@@ -3129,7 +3129,7 @@ const _seafaring_slayer = {title: "Seafaring Slayer", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _anticipate_evil = {title: "Anticipate Evil", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="anticipate-evil" extraClasses="trait" icon={["person"]}>
+<Ability id="anticipate-evil" extraClasses="trait" icon={["Race"]}>
 <Pair single id="anticipate-evil">Anticipate Evil</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3138,7 +3138,7 @@ const _anticipate_evil = {title: "Anticipate Evil", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _beast_bully = {title: "Beast Bully", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="beast-bully" extraClasses="trait" icon={["person"]}>
+<Ability id="beast-bully" extraClasses="trait" icon={["Race"]}>
 <Pair single id="beast-bully">Beast Bully</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3147,7 +3147,7 @@ const _beast_bully = {title: "Beast Bully", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _blessing_of_darkness = {title: "Blessing of Darkness", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="blessing-of-darkness" extraClasses="trait" icon={["person"]}>
+<Ability id="blessing-of-darkness" extraClasses="trait" icon={["Race"]}>
 <Pair single id="blessing-of-darkness">Blessing of Darkness</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3156,7 +3156,7 @@ const _blessing_of_darkness = {title: "Blessing of Darkness", topLink: ["Race Tr
 </Ability>
 </>};
 const _born_damned = {title: "Born Damned", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="born-damned" extraClasses="trait" icon={["person"]}>
+<Ability id="born-damned" extraClasses="trait" icon={["Race"]}>
 <Pair single id="born-damned">Born Damned</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3165,7 +3165,7 @@ const _born_damned = {title: "Born Damned", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _dark_magic_affinity = {title: "Dark Magic Affinity", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="dark-magic-affinity" extraClasses="trait" icon={["person"]}>
+<Ability id="dark-magic-affinity" extraClasses="trait" icon={["Race"]}>
 <Pair single id="dark-magic-affinity">Dark Magic Affinity</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3174,7 +3174,7 @@ const _dark_magic_affinity = {title: "Dark Magic Affinity", topLink: ["Race Trai
 </Ability>
 </>};
 const _enduring_heritage = {title: "Enduring Heritage", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
-<Ability id="enduring-heritage" extraClasses="trait" icon={["person"]}>
+<Ability id="enduring-heritage" extraClasses="trait" icon={["Race"]}>
 <Pair single id="enduring-heritage">Enduring Heritage</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3182,7 +3182,7 @@ const _enduring_heritage = {title: "Enduring Heritage", topLink: ["Race Traits",
 </Ability>
 </>};
 const _ever_wary = {title: "Ever Wary", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="ever-wary" extraClasses="trait" icon={["person"]}>
+<Ability id="ever-wary" extraClasses="trait" icon={["Race"]}>
 <Pair single id="ever-wary">Ever Wary</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3191,7 +3191,7 @@ const _ever_wary = {title: "Ever Wary", topLink: ["Race Traits","main/traits_rac
 </Ability>
 </>};
 const _family_connections = {title: "Family Connections", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="family-connections" extraClasses="trait" icon={["person"]}>
+<Ability id="family-connections" extraClasses="trait" icon={["Race"]}>
 <Pair single id="family-connections">Family Connections</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3200,7 +3200,7 @@ const _family_connections = {title: "Family Connections", topLink: ["Race Traits
 </Ability>
 </>};
 const _fiendish_sniper = {title: "Fiendish Sniper", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox</Link></p>
-<Ability id="fiendish-sniper" extraClasses="trait" icon={["person"]}>
+<Ability id="fiendish-sniper" extraClasses="trait" icon={["Race"]}>
 <Pair single id="fiendish-sniper">Fiendish Sniper</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3209,7 +3209,7 @@ const _fiendish_sniper = {title: "Fiendish Sniper", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _friendless = {title: "Friendless", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="friendless" extraClasses="trait" icon={["person"]}>
+<Ability id="friendless" extraClasses="trait" icon={["Race"]}>
 <Pair single id="friendless">Friendless</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3218,7 +3218,7 @@ const _friendless = {title: "Friendless", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _hard_to_pin_down = {title: "Hard to Pin Down", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="hard-to-pin-down" extraClasses="trait" icon={["person"]}>
+<Ability id="hard-to-pin-down" extraClasses="trait" icon={["Race"]}>
 <Pair single id="hard-to-pin-down">Hard to Pin Down</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3227,7 +3227,7 @@ const _hard_to_pin_down = {title: "Hard to Pin Down", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _inciter_tiefling = {title: "Inciter (Tiefling)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="inciter-tiefling" extraClasses="trait" icon={["person"]}>
+<Ability id="inciter-tiefling" extraClasses="trait" icon={["Race"]}>
 <Pair single id="inciter-tiefling">Inciter (Tiefling)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3236,7 +3236,7 @@ const _inciter_tiefling = {title: "Inciter (Tiefling)", topLink: ["Race Traits",
 </Ability>
 </>};
 const _malign_instrument = {title: "Malign Instrument", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
-<Ability id="malign-instrument" extraClasses="trait" icon={["person"]}>
+<Ability id="malign-instrument" extraClasses="trait" icon={["Race"]}>
 <Pair single id="malign-instrument">Malign Instrument</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3244,7 +3244,7 @@ const _malign_instrument = {title: "Malign Instrument", topLink: ["Race Traits",
 </Ability>
 </>};
 const _motherless = {title: "Motherless", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="motherless" extraClasses="trait" icon={["person"]}>
+<Ability id="motherless" extraClasses="trait" icon={["Race"]}>
 <Pair single id="motherless">Motherless</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3253,7 +3253,7 @@ const _motherless = {title: "Motherless", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _neutralizing_gut = {title: "Neutralizing Gut", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="neutralizing-gut" extraClasses="trait" icon={["person"]}>
+<Ability id="neutralizing-gut" extraClasses="trait" icon={["Race"]}>
 <Pair single id="neutralizing-gut">Neutralizing Gut</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3262,7 +3262,7 @@ const _neutralizing_gut = {title: "Neutralizing Gut", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _persecuted_expatriate = {title: "Persecuted Expatriate", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="persecuted-expatriate" extraClasses="trait" icon={["person"]}>
+<Ability id="persecuted-expatriate" extraClasses="trait" icon={["Race"]}>
 <Pair single id="persecuted-expatriate">Persecuted Expatriate</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3271,7 +3271,7 @@ const _persecuted_expatriate = {title: "Persecuted Expatriate", topLink: ["Race 
 </Ability>
 </>};
 const _prideful_temper = {title: "Prideful Temper", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="prideful-temper" extraClasses="trait" icon={["person"]}>
+<Ability id="prideful-temper" extraClasses="trait" icon={["Race"]}>
 <Pair single id="prideful-temper">Prideful Temper</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3280,7 +3280,7 @@ const _prideful_temper = {title: "Prideful Temper", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _prolong_magic = {title: "Prolong Magic", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="prolong-magic" extraClasses="trait" icon={["person"]}>
+<Ability id="prolong-magic" extraClasses="trait" icon={["Race"]}>
 <Pair single id="prolong-magic">Prolong Magic</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3289,7 +3289,7 @@ const _prolong_magic = {title: "Prolong Magic", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _shadow_stabber = {title: "Shadow Stabber", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="shadow-stabber" extraClasses="trait" icon={["person"]}>
+<Ability id="shadow-stabber" extraClasses="trait" icon={["Race"]}>
 <Pair single id="shadow-stabber">Shadow Stabber</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3298,7 +3298,7 @@ const _shadow_stabber = {title: "Shadow Stabber", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _suicidal = {title: "Suicidal", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="suicidal" extraClasses="trait" icon={["person"]}>
+<Ability id="suicidal" extraClasses="trait" icon={["Race"]}>
 <Pair single id="suicidal">Suicidal</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3307,7 +3307,7 @@ const _suicidal = {title: "Suicidal", topLink: ["Race Traits","main/traits_race"
 </Ability>
 </>};
 const _tempters_tongue = {title: "Tempter's Tongue", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="tempters-tongue" extraClasses="trait" icon={["person"]}>
+<Ability id="tempters-tongue" extraClasses="trait" icon={["Race"]}>
 <Pair single id="tempters-tongue">Tempter's Tongue</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3316,7 +3316,7 @@ const _tempters_tongue = {title: "Tempter's Tongue", topLink: ["Race Traits","ma
 </Ability>
 </>};
 const _twilight_zeal = {title: "Twilight Zeal", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="twilight-zeal" extraClasses="trait" icon={["person"]}>
+<Ability id="twilight-zeal" extraClasses="trait" icon={["Race"]}>
 <Pair single id="twilight-zeal">Twilight Zeal</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3325,7 +3325,7 @@ const _twilight_zeal = {title: "Twilight Zeal", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _underling = {title: "Underling", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="underling" extraClasses="trait" icon={["person"]}>
+<Ability id="underling" extraClasses="trait" icon={["Race"]}>
 <Pair single id="underling">Underling</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
@@ -3334,7 +3334,7 @@ const _underling = {title: "Underling", topLink: ["Race Traits","main/traits_rac
 </Ability>
 </>};
 const _bent_body = {title: "Bent Body", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="bent-body" extraClasses="trait" icon={["person"]}>
+<Ability id="bent-body" extraClasses="trait" icon={["Race"]}>
 <Pair single id="bent-body">Bent Body</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Beastbrood</Pair>
@@ -3343,7 +3343,7 @@ const _bent_body = {title: "Bent Body", topLink: ["Race Traits","main/traits_rac
 </Ability>
 </>};
 const _tough_skin = {title: "Tough Skin", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="tough-skin" extraClasses="trait" icon={["person"]}>
+<Ability id="tough-skin" extraClasses="trait" icon={["Race"]}>
 <Pair single id="tough-skin">Tough Skin</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Beastbrood</Pair>
@@ -3352,7 +3352,7 @@ const _tough_skin = {title: "Tough Skin", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _arms_master = {title: "Arms Master", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="arms-master" extraClasses="trait" icon={["person"]}>
+<Ability id="arms-master" extraClasses="trait" icon={["Race"]}>
 <Pair single id="arms-master">Arms Master</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Faultspawn</Pair>
@@ -3361,7 +3361,7 @@ const _arms_master = {title: "Arms Master", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _prayer_breaker = {title: "Prayer Breaker", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="prayer-breaker" extraClasses="trait" icon={["person"]}>
+<Ability id="prayer-breaker" extraClasses="trait" icon={["Race"]}>
 <Pair single id="prayer-breaker">Prayer Breaker</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Faultspawn</Pair>
@@ -3370,7 +3370,7 @@ const _prayer_breaker = {title: "Prayer Breaker", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _god_scorn = {title: "God Scorn", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="god-scorn" extraClasses="trait" icon={["person"]}>
+<Ability id="god-scorn" extraClasses="trait" icon={["Race"]}>
 <Pair single id="god-scorn">God Scorn</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Foulspawn</Pair>
@@ -3379,7 +3379,7 @@ const _god_scorn = {title: "God Scorn", topLink: ["Race Traits","main/traits_rac
 </Ability>
 </>};
 const _repulsive = {title: "Repulsive", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="repulsive" extraClasses="trait" icon={["person"]}>
+<Ability id="repulsive" extraClasses="trait" icon={["Race"]}>
 <Pair single id="repulsive">Repulsive</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Foulspawn</Pair>
@@ -3388,7 +3388,7 @@ const _repulsive = {title: "Repulsive", topLink: ["Race Traits","main/traits_rac
 </Ability>
 </>};
 const _deaths_deputy = {title: "Death's Deputy", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="deaths-deputy" extraClasses="trait" icon={["person"]}>
+<Ability id="deaths-deputy" extraClasses="trait" icon={["Race"]}>
 <Pair single id="deaths-deputy">Death's Deputy</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Grimspawn</Pair>
@@ -3397,7 +3397,7 @@ const _deaths_deputy = {title: "Death's Deputy", topLink: ["Race Traits","main/t
 </Ability>
 </>};
 const _soul_eater = {title: "Soul Eater", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="soul-eater" extraClasses="trait" icon={["person"]}>
+<Ability id="soul-eater" extraClasses="trait" icon={["Race"]}>
 <Pair single id="soul-eater">Soul Eater</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Grimspawn</Pair>
@@ -3406,7 +3406,7 @@ const _soul_eater = {title: "Soul Eater", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _blood_stalker = {title: "Blood Stalker", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="blood-stalker" extraClasses="trait" icon={["person"]}>
+<Ability id="blood-stalker" extraClasses="trait" icon={["Race"]}>
 <Pair single id="blood-stalker">Blood Stalker</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Hellspawn</Pair>
@@ -3415,7 +3415,7 @@ const _blood_stalker = {title: "Blood Stalker", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _unearth_secrets = {title: "Unearth Secrets", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="unearth-secrets" extraClasses="trait" icon={["person"]}>
+<Ability id="unearth-secrets" extraClasses="trait" icon={["Race"]}>
 <Pair single id="unearth-secrets">Unearth Secrets</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Hellspawn</Pair>
@@ -3424,7 +3424,7 @@ const _unearth_secrets = {title: "Unearth Secrets", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _big_boned = {title: "Big Boned", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="big-boned" extraClasses="trait" icon={["person"]}>
+<Ability id="big-boned" extraClasses="trait" icon={["Race"]}>
 <Pair single id="big-boned">Big Boned</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Hungerseed</Pair>
@@ -3433,7 +3433,7 @@ const _big_boned = {title: "Big Boned", topLink: ["Race Traits","main/traits_rac
 </Ability>
 </>};
 const _superior_clutch = {title: "Superior Clutch", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="superior-clutch" extraClasses="trait" icon={["person"]}>
+<Ability id="superior-clutch" extraClasses="trait" icon={["Race"]}>
 <Pair single id="superior-clutch">Superior Clutch</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Hungerseed</Pair>
@@ -3442,7 +3442,7 @@ const _superior_clutch = {title: "Superior Clutch", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _deadly_rush = {title: "Deadly Rush", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="deadly-rush" extraClasses="trait" icon={["person"]}>
+<Ability id="deadly-rush" extraClasses="trait" icon={["Race"]}>
 <Pair single id="deadly-rush">Deadly Rush</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Pitborn</Pair>
@@ -3451,7 +3451,7 @@ const _deadly_rush = {title: "Deadly Rush", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _flair_for_destruction = {title: "Flair for Destruction", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="flair-for-destruction" extraClasses="trait" icon={["person"]}>
+<Ability id="flair-for-destruction" extraClasses="trait" icon={["Race"]}>
 <Pair single id="flair-for-destruction">Flair for Destruction</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Pitborn</Pair>
@@ -3460,7 +3460,7 @@ const _flair_for_destruction = {title: "Flair for Destruction", topLink: ["Race 
 </Ability>
 </>};
 const _chain_master = {title: "Chain Master", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="chain-master" extraClasses="trait" icon={["person"]}>
+<Ability id="chain-master" extraClasses="trait" icon={["Race"]}>
 <Pair single id="chain-master">Chain Master</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Shackleborn</Pair>
@@ -3469,7 +3469,7 @@ const _chain_master = {title: "Chain Master", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _pain_artist = {title: "Pain Artist", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="pain-artist" extraClasses="trait" icon={["person"]}>
+<Ability id="pain-artist" extraClasses="trait" icon={["Race"]}>
 <Pair single id="pain-artist">Pain Artist</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Shackleborn</Pair>
@@ -3478,7 +3478,7 @@ const _pain_artist = {title: "Pain Artist", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _buried_anxiety = {title: "Buried Anxiety", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="buried-anxiety" extraClasses="trait" icon={["person"]}>
+<Ability id="buried-anxiety" extraClasses="trait" icon={["Race"]}>
 <Pair single id="buried-anxiety">Buried Anxiety</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Spitespawn</Pair>
@@ -3486,7 +3486,7 @@ const _buried_anxiety = {title: "Buried Anxiety", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _shift_the_blame = {title: "Shift the Blame", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="shift-the-blame" extraClasses="trait" icon={["person"]}>
+<Ability id="shift-the-blame" extraClasses="trait" icon={["Race"]}>
 <Pair single id="shift-the-blame">Shift the Blame</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Spitespawn</Pair>
@@ -3495,7 +3495,7 @@ const _shift_the_blame = {title: "Shift the Blame", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _repel_sin = {title: "Repel Sin", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="repel-sin" extraClasses="trait" icon={["person"]}>
+<Ability id="repel-sin" extraClasses="trait" icon={["Race"]}>
 <Pair single id="repel-sin">Repel Sin</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; The Motherless</Pair>
@@ -3504,7 +3504,7 @@ const _repel_sin = {title: "Repel Sin", topLink: ["Race Traits","main/traits_rac
 </Ability>
 </>};
 const _vile_kiss = {title: "Vile Kiss", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="vile-kiss" extraClasses="trait" icon={["person"]}>
+<Ability id="vile-kiss" extraClasses="trait" icon={["Race"]}>
 <Pair single id="vile-kiss">Vile Kiss</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; The Motherless</Pair>
@@ -3513,7 +3513,7 @@ const _vile_kiss = {title: "Vile Kiss", topLink: ["Race Traits","main/traits_rac
 </Ability>
 </>};
 const _dragon_friend = {title: "Dragon Friend", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="dragon-friend" extraClasses="trait" icon={["person"]}>
+<Ability id="dragon-friend" extraClasses="trait" icon={["Race"]}>
 <Pair single id="dragon-friend">Dragon Friend</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/triaxian">Triaxian</Link></Pair>
@@ -3522,7 +3522,7 @@ const _dragon_friend = {title: "Dragon Friend", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _transitional = {title: "Transitional", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="transitional" extraClasses="trait" icon={["person"]}>
+<Ability id="transitional" extraClasses="trait" icon={["Race"]}>
 <Pair single id="transitional">Transitional</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/triaxian">Triaxian</Link></Pair>
@@ -3531,7 +3531,7 @@ const _transitional = {title: "Transitional", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _triaxian_dragonslayer = {title: "Triaxian Dragonslayer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="triaxian-dragonslayer" extraClasses="trait" icon={["person"]}>
+<Ability id="triaxian-dragonslayer" extraClasses="trait" icon={["Race"]}>
 <Pair single id="triaxian-dragonslayer">Triaxian Dragonslayer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/triaxian">Triaxian</Link></Pair>
@@ -3539,7 +3539,7 @@ const _triaxian_dragonslayer = {title: "Triaxian Dragonslayer", topLink: ["Race 
 </Ability>
 </>};
 const _magic_survivor = {title: "Magic Survivor", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="magic-survivor" extraClasses="trait" icon={["person"]}>
+<Ability id="magic-survivor" extraClasses="trait" icon={["Race"]}>
 <Pair single id="magic-survivor">Magic Survivor</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/trox">Trox</Link></Pair>
@@ -3548,7 +3548,7 @@ const _magic_survivor = {title: "Magic Survivor", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _marids_fury = {title: "Marid's Fury", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="marids-fury" extraClasses="trait" icon={["person"]}>
+<Ability id="marids-fury" extraClasses="trait" icon={["Race"]}>
 <Pair single id="marids-fury">Marid's Fury</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/undine">Undine</Link></Pair>
@@ -3557,7 +3557,7 @@ const _marids_fury = {title: "Marid's Fury", topLink: ["Race Traits","main/trait
 </Ability>
 </>};
 const _slippery_step = {title: "Slippery Step", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
-<Ability id="slippery-step" extraClasses="trait" icon={["person"]}>
+<Ability id="slippery-step" extraClasses="trait" icon={["Race"]}>
 <Pair single id="slippery-step">Slippery Step</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/undine">Undine</Link></Pair>
@@ -3566,7 +3566,7 @@ const _slippery_step = {title: "Slippery Step", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _undine_loyalty = {title: "Undine Loyalty", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="undine-loyalty" extraClasses="trait" icon={["person"]}>
+<Ability id="undine-loyalty" extraClasses="trait" icon={["Race"]}>
 <Pair single id="undine-loyalty">Undine Loyalty</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/undine">Undine</Link></Pair>
@@ -3575,7 +3575,7 @@ const _undine_loyalty = {title: "Undine Loyalty", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _water_shaping = {title: "Water Shaping", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="water-shaping" extraClasses="trait" icon={["person"]}>
+<Ability id="water-shaping" extraClasses="trait" icon={["Race"]}>
 <Pair single id="water-shaping">Water Shaping</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/undine">Undine</Link></Pair>
@@ -3584,7 +3584,7 @@ const _water_shaping = {title: "Water Shaping", topLink: ["Race Traits","main/tr
 </Ability>
 </>};
 const _whiteout = {title: "Whiteout", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="whiteout" extraClasses="trait" icon={["person"]}>
+<Ability id="whiteout" extraClasses="trait" icon={["Race"]}>
 <Pair single id="whiteout">Whiteout</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/undine">Undine</Link></Pair>
@@ -3593,7 +3593,7 @@ const _whiteout = {title: "Whiteout", topLink: ["Race Traits","main/traits_race"
 </Ability>
 </>};
 const _calculated_risk = {title: "Calculated Risk", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
-<Ability id="calculated-risk" extraClasses="trait" icon={["person"]}>
+<Ability id="calculated-risk" extraClasses="trait" icon={["Race"]}>
 <Pair single id="calculated-risk">Calculated Risk</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl>Vampire; Jiang-shi</Pair>
@@ -3601,7 +3601,7 @@ const _calculated_risk = {title: "Calculated Risk", topLink: ["Race Traits","mai
 </Ability>
 </>};
 const _in_tune_with_language = {title: "In Tune with Language", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
-<Ability id="in-tune-with-language" extraClasses="trait" icon={["person"]}>
+<Ability id="in-tune-with-language" extraClasses="trait" icon={["Race"]}>
 <Pair single id="in-tune-with-language">In Tune with Language</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl>Vampire; Jiang-shi</Pair>
@@ -3609,7 +3609,7 @@ const _in_tune_with_language = {title: "In Tune with Language", topLink: ["Race 
 </Ability>
 </>};
 const _proud_progenitor = {title: "Proud Progenitor", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
-<Ability id="proud-progenitor" extraClasses="trait" icon={["person"]}>
+<Ability id="proud-progenitor" extraClasses="trait" icon={["Race"]}>
 <Pair single id="proud-progenitor">Proud Progenitor</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl>Vampire; Moroi</Pair>
@@ -3618,7 +3618,7 @@ const _proud_progenitor = {title: "Proud Progenitor", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _weatherworn = {title: "Weatherworn", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
-<Ability id="weatherworn" extraClasses="trait" icon={["person"]}>
+<Ability id="weatherworn" extraClasses="trait" icon={["Race"]}>
 <Pair single id="weatherworn">Weatherworn</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl>Vampire; Moroi</Pair>
@@ -3627,7 +3627,7 @@ const _weatherworn = {title: "Weatherworn", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _rapid_drain = {title: "Rapid Drain", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
-<Ability id="rapid-drain" extraClasses="trait" icon={["person"]}>
+<Ability id="rapid-drain" extraClasses="trait" icon={["Race"]}>
 <Pair single id="rapid-drain">Rapid Drain</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl>Vampire; Nosferatu</Pair>
@@ -3636,7 +3636,7 @@ const _rapid_drain = {title: "Rapid Drain", topLink: ["Race Traits","main/traits
 </Ability>
 </>};
 const _telekinetic_dependence = {title: "Telekinetic Dependence", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
-<Ability id="telekinetic-dependence" extraClasses="trait" icon={["person"]}>
+<Ability id="telekinetic-dependence" extraClasses="trait" icon={["Race"]}>
 <Pair single id="telekinetic-dependence">Telekinetic Dependence</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl>Vampire; Nosferatu</Pair>
@@ -3645,7 +3645,7 @@ const _telekinetic_dependence = {title: "Telekinetic Dependence", topLink: ["Rac
 </Ability>
 </>};
 const _self_aware = {title: "Self-Aware", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
-<Ability id="self-aware" extraClasses="trait" icon={["person"]}>
+<Ability id="self-aware" extraClasses="trait" icon={["Race"]}>
 <Pair single id="self-aware">Self-Aware</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl>Vampire; Vetala</Pair>
@@ -3654,7 +3654,7 @@ const _self_aware = {title: "Self-Aware", topLink: ["Race Traits","main/traits_r
 </Ability>
 </>};
 const _stubborn = {title: "Stubborn", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
-<Ability id="stubborn" extraClasses="trait" icon={["person"]}>
+<Ability id="stubborn" extraClasses="trait" icon={["Race"]}>
 <Pair single id="stubborn">Stubborn</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl>Vampire; Vetala</Pair>
@@ -3663,7 +3663,7 @@ const _stubborn = {title: "Stubborn", topLink: ["Race Traits","main/traits_race"
 </Ability>
 </>};
 const _trickster_vanara = {title: "Trickster (Vanara)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="trickster-vanara" extraClasses="trait" icon={["person"]}>
+<Ability id="trickster-vanara" extraClasses="trait" icon={["Race"]}>
 <Pair single id="trickster-vanara">Trickster (Vanara)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/vanara">Vanara</Link></Pair>
@@ -3672,7 +3672,7 @@ const _trickster_vanara = {title: "Trickster (Vanara)", topLink: ["Race Traits",
 </Ability>
 </>};
 const _augmented_spell_poisons = {title: "Augmented Spell Poisons", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="augmented-spell-poisons" extraClasses="trait" icon={["person"]}>
+<Ability id="augmented-spell-poisons" extraClasses="trait" icon={["Race"]}>
 <Pair single id="augmented-spell-poisons">Augmented Spell Poisons</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/vishkanya">Vishkanya</Link></Pair>
@@ -3681,7 +3681,7 @@ const _augmented_spell_poisons = {title: "Augmented Spell Poisons", topLink: ["R
 </Ability>
 </>};
 const _water_lurker = {title: "Water Lurker", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="water-lurker" extraClasses="trait" icon={["person"]}>
+<Ability id="water-lurker" extraClasses="trait" icon={["Race"]}>
 <Pair single id="water-lurker">Water Lurker</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/wayang">Wayang</Link></Pair>
@@ -3690,7 +3690,7 @@ const _water_lurker = {title: "Water Lurker", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _resilient_construction = {title: "Resilient Construction", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="resilient-construction" extraClasses="trait" icon={["person"]}>
+<Ability id="resilient-construction" extraClasses="trait" icon={["Race"]}>
 <Pair single id="resilient-construction">Resilient Construction</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/wyrwood">Wyrwood</Link></Pair>
@@ -3699,7 +3699,7 @@ const _resilient_construction = {title: "Resilient Construction", topLink: ["Rac
 </Ability>
 </>};
 const _fierce_flanker = {title: "Fierce Flanker", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
-<Ability id="fierce-flanker" extraClasses="trait" icon={["person"]}>
+<Ability id="fierce-flanker" extraClasses="trait" icon={["Race"]}>
 <Pair single id="fierce-flanker">Fierce Flanker</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/wyvaran">Wyvaran</Link></Pair>
@@ -3708,7 +3708,7 @@ const _fierce_flanker = {title: "Fierce Flanker", topLink: ["Race Traits","main/
 </Ability>
 </>};
 const _blood_of_dragons = {title: "Blood of Dragons", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="blood-of-dragons" extraClasses="trait" icon={["person"]}>
+<Ability id="blood-of-dragons" extraClasses="trait" icon={["Race"]}>
 <Pair single id="blood-of-dragons">Blood of Dragons</Pair>
 <Pair title="Type">Race</Pair>
 <Pair single="flavor" id="blood-of-dragons-flavor">Long ago, your ancestors' blood mixed with that of dragons.</Pair>
@@ -3716,7 +3716,7 @@ const _blood_of_dragons = {title: "Blood of Dragons", topLink: ["Race Traits","m
 </Ability>
 </>};
 const _deathtouched = {title: "Deathtouched", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="deathtouched" extraClasses="trait" icon={["person"]}>
+<Ability id="deathtouched" extraClasses="trait" icon={["Race"]}>
 <Pair single id="deathtouched">Deathtouched</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl>Any</Pair>
@@ -3725,14 +3725,14 @@ const _deathtouched = {title: "Deathtouched", topLink: ["Race Traits","main/trai
 </Ability>
 </>};
 const _draconic_lineage = {title: "Draconic Lineage", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
-<Ability id="draconic-lineage" extraClasses="trait" icon={["person"]}>
+<Ability id="draconic-lineage" extraClasses="trait" icon={["Race"]}>
 <Pair single id="draconic-lineage">Draconic Lineage</Pair>
 <Pair title="Type">Race</Pair>
 <Pair single="benefit" id="draconic-lineage-benefit">Somewhere in your family line, draconic power entered your bloodline. As a result of this lineage, you gain a +1 trait bonus on saving throws against fear and against any effect created by a creature of the dragon type. If you gain a bloodrager or sorcerer bloodline, you must choose <em>draconic.</em></Pair>
 </Ability>
 </>};
 const _fiend_blood = {title: "Fiend Blood", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="fiend-blood" extraClasses="trait" icon={["person"]}>
+<Ability id="fiend-blood" extraClasses="trait" icon={["Race"]}>
 <Pair single id="fiend-blood">Fiend Blood</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl>Any</Pair>

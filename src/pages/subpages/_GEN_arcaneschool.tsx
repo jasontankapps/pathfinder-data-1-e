@@ -8,20 +8,20 @@ const _not_found = {title: "Unknown", jsx: <><h2 id="arcaneschool-not_found-erro
 </>};
 const _abjuration = {hasJL:true,title: "Abjuration", jsx: <><div className="jumpList" id="arcaneschool-abjuration-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-abjuration-banishment-school">Banishment School</InnerLink></li><li><InnerLink toTop to="arcaneschool-abjuration-counterspell-school">Counterspell School</InnerLink></li></ul></div><h2 id="arcaneschool-abjuration-abjuration">Abjuration</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 79</Link><br/>The abjurer uses magic against itself, and masters the art of defensive and warding magics.</p>
-<Ability id="resistance-ex" icon={["armor-upgrade"]}>
+<Ability id="resistance-ex" icon={["def"]}>
 <Pair single id="resistance-ex">Resistance (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You gain <Link to="/umr/resistance">resistance</Link> 5 to an energy type of your choice, chosen when you prepare spells. This resistance can be changed each day.</Pair>
 <Pair title="At 11th Level">This resistance increases to 10.</Pair>
 <Pair title="At 20th Level">This resistance changes to <Link to="/umr/immunity">immunity</Link> to the chosen energy type.</Pair>
 </Ability>
-<Ability id="protective-ward-su" icon={["armor-upgrade","shield-reflect"]}>
+<Ability id="protective-ward-su" icon={["def","protect"]}>
 <Pair single id="protective-ward-su">Protective Ward (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">As a standard action, you can create a 10-foot-radius field of protective magic centered on you that lasts for a number of rounds equal to your Intelligence modifier. All allies in this area (including you) receive a deflection bonus to their AC. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level.</Pair>
 </Ability>
-<Ability id="energy-absorption-su" icon={["armor-upgrade"]}>
+<Ability id="energy-absorption-su" icon={["def"]}>
 <Pair single id="energy-absorption-su">Energy Absorption (Su)</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Passive Ability">You gain an amount of energy absorption equal to 3 &times; your wizard level per day. Whenever you take energy damage, apply immunity, vulnerability (if any), and resistance first and apply the rest to this absorption, reducing your daily total by that amount. Any damage in excess of your absorption is applied to you normally.</Pair>
@@ -29,7 +29,7 @@ const _abjuration = {hasJL:true,title: "Abjuration", jsx: <><div className="jump
 <h3 id="arcaneschool-abjuration-banishment-school" data-hash-target>Banishment School</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 144</Link><br/><strong>Associated School:</strong> Abjuration.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>energy absorption</em> power and the <em>protective ward</em> power of the abjuration school.</p>
-<Ability id="unstable-bonds-su" icon={["mailed-fist"]}>
+<Ability id="unstable-bonds-su" icon={["melee"]}>
 <Pair single id="unstable-bonds-su">Unstable Bonds (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
@@ -44,13 +44,13 @@ const _abjuration = {hasJL:true,title: "Abjuration", jsx: <><div className="jump
 <h3 id="arcaneschool-abjuration-counterspell-school" data-hash-target>Counterspell School</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 144</Link><br/><strong>Associated School:</strong> Abjuration.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>protective ward</em> power and the <em>energy absorption</em> power of the abjuration school.</p>
-<Ability id="disruption-su" icon={["mailed-fist"]}>
+<Ability id="disruption-su" icon={["melee"]}>
 <Pair single id="disruption-su">Disruption (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Ability">As a melee touch attack, you can place a field around the target that disrupts spellcasting. While the field is in place, the target must make a <Link to="/rule/concentration">concentration</Link> check to cast any spell or to use a spell-like ability in addition to any other required concentration checks. The DC of this check is equal to 15 + twice the spell's level. If the check is failed, the target's spell is wasted. This field lasts for a number of rounds equal to 1/2 your wizard level (minimum 1).</Pair>
 </Ability>
-<Ability id="counterspell-mastery" icon={["stairs-goal","magic-swirl"]}>
+<Ability id="counterspell-mastery" icon={["power","magic"]}>
 <Pair single id="counterspell-mastery">Counterspell Mastery</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">You gain <Link to="/feat/improved_counterspell">Improved Counterspell</Link> as a bonus feat.</Pair>
@@ -60,19 +60,19 @@ const _abjuration = {hasJL:true,title: "Abjuration", jsx: <><div className="jump
 </>};
 const _conjuration = {hasJL:true,title: "Conjuration", jsx: <><div className="jumpList" id="arcaneschool-conjuration-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-conjuration-cheliax-egorian-academy-infernal-binder-school">Cheliax: Egorian Academy Infernal Binder School</InnerLink></li><li><InnerLink toTop to="arcaneschool-conjuration-creation-school">Creation School</InnerLink></li><li><InnerLink toTop to="arcaneschool-conjuration-extradimension-school">Extradimension School</InnerLink></li><li><InnerLink toTop to="arcaneschool-conjuration-teleportation-school">Teleportation School</InnerLink></li></ul></div><h2 id="arcaneschool-conjuration-conjuration">Conjuration</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 80</Link><br/>The conjurer focuses on the study of summoning monsters and magic alike to bend to his will.</p>
-<Ability id="summoners-charm-su" icon={["upgrade"]}>
+<Ability id="summoners-charm-su" icon={["boost"]}>
 <Pair single id="summoners-charm-su">Summoner's Charm (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">Whenever you cast a conjuration (summoning) spell, increase the duration by a number of rounds equal to 1/2 your wizard level (minimum 1).</Pair>
 <Pair title="At 20th Level">You can change the duration of all <em>summon monster</em> spells to permanent. You can have no more than one <Link to="/spell/summon_monster">summon monster</Link> spell made permanent in this way at one time. If you designate another <em>summon monster</em> spell as permanent, the previous spell immediately ends. This increase is not doubled by <Link to="/feat/extend_spell">Extend Spell</Link>.</Pair>
 </Ability>
-<Ability id="acid-dart-sp" icon={["smoking-finger"]}>
+<Ability id="acid-dart-sp" icon={["zap"]}>
 <Pair single id="acid-dart-sp">Acid Dart (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can unleash an acid dart targeting any foe within 30 feet as a ranged touch attack. The acid dart deals 1d6 points of acid damage + 1 for every two wizard levels you possess.</Pair>
 </Ability>
-<Ability id="dimensional-steps-sp" icon={["magic-swirl"]}>
+<Ability id="dimensional-steps-sp" icon={["magic"]}>
 <Pair single id="dimensional-steps-sp">Dimensional Steps (Sp)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">You can travel up to 30 feet per wizard level per day. This teleportation must be used in 5-foot increments.</Pair>
@@ -86,19 +86,19 @@ const _conjuration = {hasJL:true,title: "Conjuration", jsx: <><div className="ju
 <p><strong>Requirements:</strong> An infernal binder must choose a familiar as her arcane bond at 1st level.</p>
 <p><strong>Associated School:</strong> Conjuration.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>acid dart</em> and <em>dimensional steps</em> powers of the conjuration school.</p>
-<Ability id="planar-knowledge-ex" icon={["upgrade"]}>
+<Ability id="planar-knowledge-ex" icon={["boost"]}>
 <Pair single id="planar-knowledge-ex">Planar Knowledge (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">As an infernal binder, you gain a +3 bonus on Knowledge (planes) checks.</Pair>
 </Ability>
-<Ability id="assume-control-su" icon={["magic-swirl"]}>
+<Ability id="assume-control-su" icon={["magic"]}>
 <Pair single id="assume-control-su">Assume Control (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can attempt to gain control over a summoned creature by disrupting the bond between it and the caster who summoned it. You must make a caster level check (1d20 + caster level) equal to 10 + the summoning caster's level. If you know the summoned creature's name, you receive a +2 circumstance bonus on the check. If the check is successful, you can control the summoned creature as if you had summoned it for a number of rounds equal to 1/2 your wizard level (minimum 1 round). This does not increase the duration of the original summoning. The original summoning caster can attempt to regain control of the summoned creature as a standard action by making a caster level check against your caster level + 10. When your control ends, the creature reverts to the control of its summoner.</Pair>
 <Pair title="At 9th Level">You can use this ability to bargain with called creatures as if you were the caster who conjured them.</Pair>
 </Ability>
-<Ability id="imp-familiar-ex" icon={["stairs-goal"]}>
+<Ability id="imp-familiar-ex" icon={["power"]}>
 <Pair single id="imp-familiar-ex">Imp Familiar (Ex)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">You gain <Link to="/feat/improved_familiar">Improved Familiar</Link> as a bonus feat, and must take an <Link to="/monster/imp">imp</Link> as a familiar. The imp replaces your current familiar.</Pair>
@@ -106,13 +106,13 @@ const _conjuration = {hasJL:true,title: "Conjuration", jsx: <><div className="ju
 <h3 id="arcaneschool-conjuration-creation-school" data-hash-target>Creation School</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 144</Link><br/><strong>Associated School:</strong> Conjuration.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>acid dart</em> power and the <em>dimensional steps</em> power of the conjuration school.</p>
-<Ability id="create-gear-su" icon={["magic-swirl"]}>
+<Ability id="create-gear-su" icon={["magic"]}>
 <Pair single id="create-gear-su">Create Gear (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can create any object that weighs no more than 1 pound per wizard level you possess. The item remains for 1 minute before fading away, although it disappears after one round if it leaves your possession. Creating an item to an exact specification might require a <Link to="/skill/craft">Craft</Link> skill check, subject to GM discretion. The object must be made of simple materials, such as wood, stone, glass, or metal, and cannot contain any moving parts. You could use this ability to create a <Link to="/eq-weapon/dagger">dagger</Link>, but not a vial of <Link to="/eq-weapon/alchemists_fire">alchemist's fire.</Link></Pair>
 </Ability>
-<Ability id="creators-will-sp" icon={["magic-swirl"]}>
+<Ability id="creators-will-sp" icon={["magic"]}>
 <Pair single id="creators-will-sp">Creator's Will (Sp)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 time/day per two wizard levels<ByLevelPop levels={[[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="time" postText="/day" /></Pair>
@@ -122,7 +122,7 @@ const _conjuration = {hasJL:true,title: "Conjuration", jsx: <><div className="ju
 <h3 id="arcaneschool-conjuration-extradimension-school" data-hash-target>Extradimension School</h3>
 <p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets pg. 26</Link><br/><strong>Associated School:</strong> Conjuration.</p>
 <p><strong>Replacement Powers:</strong> The following school power replaces the <em>summoner's charm</em> power of the conjuration school.</p>
-<Ability id="reshape-space-su" icon={["upgrade"]}>
+<Ability id="reshape-space-su" icon={["boost"]}>
 <Pair single id="reshape-space-su">Reshape Space (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">Whenever you cast a spell that creates an extradimensional space or demiplane, increase the duration by a number of units (rounds, minutes, hours, etc.) equal to 1/2 your wizard level (minimum 1).</Pair>
@@ -131,7 +131,7 @@ const _conjuration = {hasJL:true,title: "Conjuration", jsx: <><div className="ju
 <h3 id="arcaneschool-conjuration-teleportation-school" data-hash-target>Teleportation School</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 147</Link><br/><strong>Associated School:</strong> Conjuration.</p>
 <p><strong>Replacement Powers:</strong> The following school power replaces the <em>acid dart</em> power of the conjuration school.</p>
-<Ability id="shift-su" icon={["stairs-goal"]}>
+<Ability id="shift-su" icon={["power"]}>
 <Pair single id="shift-su">Shift (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
@@ -141,19 +141,19 @@ const _conjuration = {hasJL:true,title: "Conjuration", jsx: <><div className="ju
 </>};
 const _divination = {hasJL:true,title: "Divination", jsx: <><div className="jumpList" id="arcaneschool-divination-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-divination-foresight-school">Foresight School</InnerLink></li><li><InnerLink toTop to="arcaneschool-divination-prophecy-school">Prophecy School</InnerLink></li><li><InnerLink toTop to="arcaneschool-divination-scryer-school">Scryer School</InnerLink></li></ul></div><h2 id="arcaneschool-divination-divination">Divination</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 80</Link><br/>Diviners are masters of remote viewing, prophecies, and using magic to explore the world.</p>
-<Ability id="forewarned-su" icon={["upgrade","rolling-dices"]}>
+<Ability id="forewarned-su" icon={["boost","roll"]}>
 <Pair single id="forewarned-su">Forewarned (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You can always act in the surprise round even if you fail to make a Perception roll to notice a foe, but you are still considered <Link to="/rule/flat_footed">flat-footed</Link> until you take an action. In addition, you receive a bonus on initiative checks equal to 1/2 your wizard level (minimum +1).</Pair>
 <Pair title="At 20th Level">Anytime you roll initiative, assume the roll resulted in a natural 20.</Pair>
 </Ability>
-<Ability id="diviners-fortune-sp" icon={["upgrade"]}>
+<Ability id="diviners-fortune-sp" icon={["boost"]}>
 <Pair single id="diviners-fortune-sp">Diviner's Fortune (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">When you activate this school power, you can touch any creature to give it an insight bonus on all of its attack rolls, skill checks, ability checks, and saving throws equal to 1/2 your wizard level (minimum +1) for 1 round.</Pair>
 </Ability>
-<Ability id="scrying-adept-su" icon={["upgrade"]}>
+<Ability id="scrying-adept-su" icon={["boost"]}>
 <Pair single id="scrying-adept-su">Scrying Adept (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">You are always aware when you are being observed via magic, as if you had a permanent <Link to="/spell/detect_scrying">detect scrying</Link>. In addition, whenever you <Link to="/spell/scrying">scry</Link> on a subject, treat the subject as one step more familiar to you. Very familiar subjects get a -10 penalty on their save to avoid your scrying attempts.</Pair>
@@ -161,13 +161,13 @@ const _divination = {hasJL:true,title: "Divination", jsx: <><div className="jump
 <h3 id="arcaneschool-divination-foresight-school" data-hash-target>Foresight School</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 145</Link><br/><strong>Associated School:</strong> Divination.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>diviner's fortune</em> and <em>scrying adept</em> powers of the divination school.</p>
-<Ability id="prescience-su" icon={["rolling-dices"]}>
+<Ability id="prescience-su" icon={["roll"]}>
 <Pair single id="prescience-su">Prescience (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Free Action">At the beginning of your turn, you may roll a single d20. At any point before your next turn, you may use the result of this roll as the result of any d20 roll you are required to make. If you do not use the d20 result before your next turn, it is lost.</Pair>
 </Ability>
-<Ability id="foretell-su" icon={["upgrade","armor-downgrade"]}>
+<Ability id="foretell-su" icon={["boost","lower"]}>
 <Pair single id="foretell-su">Foretell (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level</Pair>
@@ -180,13 +180,13 @@ const _divination = {hasJL:true,title: "Divination", jsx: <><div className="jump
 <p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine pg. 10</Link><br/>Prophets who specialize in arcane magic often claim specialty in manipulating the powers of luck to their advantage.</p>
 <p><strong>Associated School:</strong> Divination.</p>
 <p><strong>Replacement Powers:</strong> The following replace the <em>forewarned</em> and <em>scrying adept</em> powers of the divination school.</p>
-<Ability id="inspiring-prediction-su" icon={["upgrade"]}>
+<Ability id="inspiring-prediction-su" icon={["boost"]}>
 <Pair single id="inspiring-prediction-su">Inspiring Prediction (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Swift Action">You can predict an ally's success, bolstering others' resolve. You can shout an inspiring prediction, granting each ally within 50 feet who can hear you a +4 luck bonus on her next attack roll, saving throw, or skill check.</Pair>
 </Ability>
-<Ability id="in-accordance-with-the-prophecy-su" icon={["upgrade"]}>
+<Ability id="in-accordance-with-the-prophecy-su" icon={["boost"]}>
 <Pair single id="in-accordance-with-the-prophecy-su">In Accordance with the Prophecy (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">Int modifier times/day</Pair>
@@ -197,7 +197,7 @@ const _divination = {hasJL:true,title: "Divination", jsx: <><div className="jump
 <h3 id="arcaneschool-divination-scryer-school" data-hash-target>Scryer School</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 147</Link><br/><strong>Associated School:</strong> Divination.</p>
 <p><strong>Replacement Powers:</strong> The following school power replaces the <em>diviner's fortune</em> power of the divination school.</p>
-<Ability id="send-senses-sp" icon={["magic-swirl"]}>
+<Ability id="send-senses-sp" icon={["magic"]}>
 <Pair single id="send-senses-sp">Send Senses (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
@@ -206,19 +206,19 @@ const _divination = {hasJL:true,title: "Divination", jsx: <><div className="jump
 </>};
 const _enchantment = {hasJL:true,title: "Enchantment", jsx: <><div className="jumpList" id="arcaneschool-enchantment-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-enchantment-controller-school">Controller School</InnerLink></li><li><InnerLink toTop to="arcaneschool-enchantment-manipulator-school">Manipulator School</InnerLink></li></ul></div><h2 id="arcaneschool-enchantment-enchantment">Enchantment</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 81</Link><br/>The enchanter uses magic to control and manipulate the minds of his victims.</p>
-<Ability id="enchanting-smile-su" icon={["upgrade"]}>
+<Ability id="enchanting-smile-su" icon={["boost"]}>
 <Pair single id="enchanting-smile-su">Enchanting Smile (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You gain an enhancement bonus on Bluff, Diplomacy, and Intimidate skill checks. This bonus is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level.</Pair>
 <Pair title="At 20th Level">Whenever you succeed at a saving throw against a spell of the enchantment school, that spell is reflected back at its caster, as per <Link to="/spell/spell_turning">spell turning</Link>.</Pair>
 </Ability>
-<Ability id="dazing-touch-sp" icon={["magic-palm"]}>
+<Ability id="dazing-touch-sp" icon={["touch"]}>
 <Pair single id="dazing-touch-sp">Dazing Touch (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can cause a living creature to become <Link to="/misc/dazed">dazed</Link> for 1 round as a melee touch attack. Creatures with more Hit Dice than your wizard level are unaffected.</Pair>
 </Ability>
-<Ability id="aura-of-despair-su" icon={["armor-downgrade"]}>
+<Ability id="aura-of-despair-su" icon={["lower"]}>
 <Pair single id="aura-of-despair-su">Aura of Despair (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level; these rounds need not be consecutive</Pair>
@@ -227,14 +227,14 @@ const _enchantment = {hasJL:true,title: "Enchantment", jsx: <><div className="ju
 <h3 id="arcaneschool-enchantment-controller-school" data-hash-target>Controller School</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 144</Link><br/><strong>Associated School:</strong> Enchantment.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>enchanting smile</em> and <em>aura of despair</em> powers of the enchantment school.</p>
-<Ability id="force-of-will-su" icon={["stairs-goal","armor-downgrade"]}>
+<Ability id="force-of-will-su" icon={["power","lower"]}>
 <Pair single id="force-of-will-su">Force of Will (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You can send thoughts and instructions telepathically to any creature within 60 feet that you have charmed or dominated as though you shared a common language.</Pair>
 <Pair title="At 11th Level">Affected creatures can communicate back to you via the telepathic link as well.</Pair>
 <Pair title="At 20th Level">Any creature that succeeds at a saving throw against an enchantment spell you have just cast is still affected for 1 round if the spell has a duration greater than 1 round.</Pair>
 </Ability>
-<Ability id="irresistible-demand-sp" icon={["magic-swirl"]}>
+<Ability id="irresistible-demand-sp" icon={["magic"]}>
 <Pair single id="irresistible-demand-sp">Irresistible Demand (Sp)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level; these rounds need not be consecutive</Pair>
@@ -243,13 +243,13 @@ const _enchantment = {hasJL:true,title: "Enchantment", jsx: <><div className="ju
 <h3 id="arcaneschool-enchantment-manipulator-school" data-hash-target>Manipulator School</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 146</Link><br/><strong>Associated School:</strong> Enchantment.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>dazing touch</em> and <em>aura of despair</em> powers of the enchantment school.</p>
-<Ability id="beguiling-touch-sp" icon={["magic-palm","magic-swirl"]}>
+<Ability id="beguiling-touch-sp" icon={["touch","magic"]}>
 <Pair single id="beguiling-touch-sp">Beguiling Touch (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can charm a living creature by touching it. Creatures with more Hit Dice than your wizard level are unaffected, as are creatures in combat and those with an attitude of hostile toward you. Creatures receive a Will saving throw to negate the effect. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. Creatures that fail their save are affected by <Link to="/spell/charm_monster">charm monster</Link> for a number of rounds equal to 1/2 your wizard level (minimum 1). This is a mind-affecting effect.</Pair>
 </Ability>
-<Ability id="shape-emotions-su" icon={["upgrade","armor-downgrade"]}>
+<Ability id="shape-emotions-su" icon={["boost","lower"]}>
 <Pair single id="shape-emotions-su">Shape Emotions (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level; these rounds need not be consecutive</Pair>
@@ -261,19 +261,19 @@ const _enchantment = {hasJL:true,title: "Enchantment", jsx: <><div className="ju
 </>};
 const _evocation = {hasJL:true,title: "Evocation", jsx: <><div className="jumpList" id="arcaneschool-evocation-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-evocation-admixture-school">Admixture School</InnerLink></li><li><InnerLink toTop to="arcaneschool-evocation-generation-school">Generation School</InnerLink></li></ul></div><h2 id="arcaneschool-evocation-evocation">Evocation</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 81</Link><br/>Evokers revel in the raw power of magic, and can use it to create and destroy with shocking ease.</p>
-<Ability id="intense-spells-su" icon={["magic-swirl","rolling-dices"]}>
+<Ability id="intense-spells-su" icon={["magic","roll"]}>
 <Pair single id="intense-spells-su">Intense Spells (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">Whenever you cast an evocation spell that deals hit point damage, add 1/2 your wizard level to the damage (minimum +1). This bonus only applies once to a spell, not once per missile or ray, and cannot be split between multiple missiles or rays. This bonus damage is not increased by <Link to="/feat/empower_spell">Empower Spell</Link> or similar effects. This damage is of the same type as the spell.</Pair>
 <Pair title="At 20th Level">Whenever you cast an evocation spell you can roll twice to penetrate a creature's spell resistance and take the better result.</Pair>
 </Ability>
-<Ability id="force-missile-sp" icon={["smoking-finger"]}>
+<Ability id="force-missile-sp" icon={["zap"]}>
 <Pair single id="force-missile-sp">Force Missile (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can unleash a force missile that automatically strikes a foe, as <Link to="/spell/magic_missile">magic missile</Link>. The force missile deals 1d4 points of damage plus the damage from your intense spells evocation power. This is a force effect.</Pair>
 </Ability>
-<Ability id="elemental-wall-sp" icon={["magic-swirl"]}>
+<Ability id="elemental-wall-sp" icon={["magic"]}>
 <Pair single id="elemental-wall-sp">Elemental Wall (Sp)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level; these rounds need not be consecutive</Pair>
@@ -282,13 +282,13 @@ const _evocation = {hasJL:true,title: "Evocation", jsx: <><div className="jumpLi
 <h3 id="arcaneschool-evocation-admixture-school" data-hash-target>Admixture School</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 143</Link><br/><strong>Associated School:</strong> Evocation.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>force missile</em> and <em>elemental wall</em> powers of the evocation school.</p>
-<Ability id="versatile-evocation-su" icon={["magic-swirl"]}>
+<Ability id="versatile-evocation-su" icon={["magic"]}>
 <Pair single id="versatile-evocation-su">Versatile Evocation (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Ability">When you cast an evocation spell that does acid, cold, electricity, or fire damage, you may change the damage dealt to one of the other four energy types. This changes the descriptor of the spell to match the new energy type. Any non-damaging effects remain unchanged unless the new energy type invalidates them (an <Link to="/spell/ice_storm">ice storm</Link> that deals fire damage might still provide a penalty on Perception checks due to smoke, but it would not create difficult terrain). Such effects are subject to GM discretion.</Pair>
 </Ability>
-<Ability id="elemental-manipulation-su" icon={["aura","magic-swirl"]}>
+<Ability id="elemental-manipulation-su" icon={["aura","magic"]}>
 <Pair single id="elemental-manipulation-su">Elemental Manipulation (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level; these rounds need not be consecutive</Pair>
@@ -297,13 +297,13 @@ const _evocation = {hasJL:true,title: "Evocation", jsx: <><div className="jumpLi
 <h3 id="arcaneschool-evocation-generation-school" data-hash-target>Generation School</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 146</Link><br/><strong>Associated School:</strong> Evocation.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>intense spells</em> and <em>force missile</em> powers of the evocation school.</p>
-<Ability id="lingering-evocations-su" icon={["upgrade","rolling-dices"]}>
+<Ability id="lingering-evocations-su" icon={["boost","roll"]}>
 <Pair single id="lingering-evocations-su">Lingering Evocations (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">Any evocation spell you cast with a duration greater than instantaneous lasts an additional number of rounds equal to 1/2 your wizard level (minimum +1).</Pair>
 <Pair title="At 20th Level">Any dispel checks made against your evocation spells must be rolled twice, and your opponent must use the less favorable result.</Pair>
 </Ability>
-<Ability id="wind-servant-sp" icon={["barbed-arrow"]}>
+<Ability id="wind-servant-sp" icon={["line"]}>
 <Pair single id="wind-servant-sp">Wind Servant (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
@@ -312,19 +312,19 @@ const _evocation = {hasJL:true,title: "Evocation", jsx: <><div className="jumpLi
 </>};
 const _illusion = {hasJL:true,title: "Illusion", jsx: <><div className="jumpList" id="arcaneschool-illusion-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-illusion-deception-school">Deception School</InnerLink></li><li><InnerLink toTop to="arcaneschool-illusion-phantasm-school">Phantasm School</InnerLink></li><li><InnerLink toTop to="arcaneschool-illusion-qadira-mage-of-the-veil-school">Qadira: Mage of the Veil School</InnerLink></li><li><InnerLink toTop to="arcaneschool-illusion-shadow-school">Shadow School</InnerLink></li></ul></div><h2 id="arcaneschool-illusion-illusion">Illusion</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 81</Link><br/>Illusionists use magic to weave confounding images, figments, and phantoms to baffle and vex their foes.</p>
-<Ability id="extended-illusions-su" icon={["upgrade"]}>
+<Ability id="extended-illusions-su" icon={["boost"]}>
 <Pair single id="extended-illusions-su">Extended Illusions (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">Any illusion spell you cast with a duration of "concentration" lasts a number of additional rounds equal to 1/2 your wizard level after you stop maintaining concentration (minimum +1 round).</Pair>
 <Pair title="At 20th Level">You can make one illusion spell with a duration of "concentration" become permanent. You can have no more than one illusion made permanent in this way at one time. If you designate another illusion as permanent, the previous permanent illusion ends.</Pair>
 </Ability>
-<Ability id="blinding-ray-sp" icon={["smoking-finger"]}>
+<Ability id="blinding-ray-sp" icon={["zap"]}>
 <Pair single id="blinding-ray-sp">Blinding Ray (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can fire a shimmering ray at any foe within 30 feet as a ranged touch attack. The ray causes creatures to be <Link to="/misc/blinded">blinded</Link> for 1 round. Creatures with more Hit Dice than your wizard level are <Link to="/misc/dazzled">dazzled</Link> for 1 round instead.</Pair>
 </Ability>
-<Ability id="invisibility-field-sp" icon={["magic-swirl"]}>
+<Ability id="invisibility-field-sp" icon={["magic"]}>
 <Pair single id="invisibility-field-sp">Invisibility Field (Sp)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level; these rounds need not be consecutive</Pair>
@@ -333,13 +333,13 @@ const _illusion = {hasJL:true,title: "Illusion", jsx: <><div className="jumpList
 <h3 id="arcaneschool-illusion-deception-school" data-hash-target>Deception School</h3>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 53</Link><br/><strong>Associated School:</strong> Illusion.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>blinding ray</em> and <em>extended illusions</em> powers of the illusion school.</p>
-<Ability id="deceptive-flourish-bonus-su" icon={["upgrade"]}>
+<Ability id="deceptive-flourish-bonus-su" icon={["boost"]}>
 <Pair single id="deceptive-flourish-bonus-su">Deceptive Flourish-Bonus (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You gain an enhancement bonus on Bluff and Disguise skill checks. This bonus is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level.</Pair>
 <Pair title="At 20th Level">You gain the benefits of <Link to="/spell/misdirection">misdirection</Link> (Will DC = 20 + your Intelligence modifier) or <Link to="/spell/nondetection">nondetection</Link> permanently. At will as a <strong className="hl">standard action</strong>, you can change which of the two spells is active, and each time you activate <em>misdirection,</em> you can choose a new creature or object as the secondary object.</Pair>
 </Ability>
-<Ability id="subtle-misdirection-sp" icon={["shield-reflect"]}>
+<Ability id="subtle-misdirection-sp" icon={["protect"]}>
 <Pair single id="subtle-misdirection-sp">Subtle Misdirection (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
@@ -348,13 +348,13 @@ const _illusion = {hasJL:true,title: "Illusion", jsx: <><div className="jumpList
 <h3 id="arcaneschool-illusion-phantasm-school" data-hash-target>Phantasm School</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 146</Link><br/><strong>Associated School:</strong> Illusion.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>blinding ray</em> and <em>invisibility field</em> powers of the illusion school.</p>
-<Ability id="terror-su" icon={["magic-palm"]}>
+<Ability id="terror-su" icon={["touch"]}>
 <Pair single id="terror-su">Terror (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can make a melee touch attack that causes a creature to be assailed by nightmares only it can see. The creature provokes an attack of opportunity from you or an ally of your choice. Creatures with more Hit Dice than your wizard level are unaffected. This is a mind-affecting fear effect.</Pair>
 </Ability>
-<Ability id="bedeviling-aura-su" icon={["armor-downgrade"]}>
+<Ability id="bedeviling-aura-su" icon={["lower"]}>
 <Pair single id="bedeviling-aura-su">Bedeviling Aura (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level; these rounds need not be consecutive</Pair>
@@ -367,7 +367,7 @@ const _illusion = {hasJL:true,title: "Illusion", jsx: <><div className="jumpList
 <p><strong>Class Skills:</strong> A mage of the veil gains Bluff, Disguise, and Stealth as class skills.</p>
 <p><strong>Associated School:</strong> Illusion.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>blinding ray</em> and <em>invisibility field</em> powers of the illusion school.</p>
-<Ability id="face-in-the-crowd-sp" icon={["magic-swirl"]}>
+<Ability id="face-in-the-crowd-sp" icon={["magic"]}>
 <Pair single id="face-in-the-crowd-sp">Face in the Crowd (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">1 minute/day per wizard level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
@@ -375,7 +375,7 @@ const _illusion = {hasJL:true,title: "Illusion", jsx: <><div className="jumpList
 <p>This ability does not turn you invisible and opponents are not considered <Link to="/rule/flat_footed">flat-footed</Link>. It does not allow you to disguise yourself as a specific individual, type of person, or member of another race, so you cannot blend into a group of uniformed guards or appear as a member of an individual's family, and a human cannot blend into a group of <Link to="/monster/gnoll">gnolls</Link>. You can blend in with any group made up of different types of people, such as a crowd of courtiers in a king's throne room, and you can disguise yourself (either through magic or more mundane means) to appear as a specific type of person or another race (such as a uniformed guard or a gnoll) before using this ability.</p>
 </Pair>
 </Ability>
-<Ability id="master-of-the-veil-sp" icon={["magic-swirl"]}>
+<Ability id="master-of-the-veil-sp" icon={["magic"]}>
 <Pair single id="master-of-the-veil-sp">Master of the Veil (Sp)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level; these rounds need not be consecutive</Pair>
@@ -384,13 +384,13 @@ const _illusion = {hasJL:true,title: "Illusion", jsx: <><div className="jumpList
 <h3 id="arcaneschool-illusion-shadow-school" data-hash-target>Shadow School</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 147</Link><br/><strong>Associated School:</strong> Illusion.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>blinding ray</em> and <em>invisibility field</em> powers of the illusion school.</p>
-<Ability id="binding-darkness-sp" icon={["smoking-finger"]}>
+<Ability id="binding-darkness-sp" icon={["zap"]}>
 <Pair single id="binding-darkness-sp">Binding Darkness (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You cast a weave of shadows at any foe within 30 feet as a ranged touch attack. The shadows <Link to="/rule/entangled">entangle</Link> your foe for a number of rounds equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level. In conditions of bright light, this duration is halved (minimum 1 round). A creature entangled by your shadows has <Link to="/rule/concealment">concealment</Link> from those without darkvision or the ability to see in darkness, and other creatures likewise have concealment relative to it.</Pair>
 </Ability>
-<Ability id="shadow-step-sp" icon={["magic-swirl"]}>
+<Ability id="shadow-step-sp" icon={["magic"]}>
 <Pair single id="shadow-step-sp">Shadow Step (Sp)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">You have 30 feet of travel per wizard level you can use per day. This movement must be used in 5-foot increments.</Pair>
@@ -400,20 +400,20 @@ const _illusion = {hasJL:true,title: "Illusion", jsx: <><div className="jumpList
 </>};
 const _necromancy = {hasJL:true,title: "Necromancy", jsx: <><div className="jumpList" id="arcaneschool-necromancy-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-necromancy-life-school">Life School</InnerLink></li><li><InnerLink toTop to="arcaneschool-necromancy-undead-school">Undead School</InnerLink></li></ul></div><h2 id="arcaneschool-necromancy-necromancy">Necromancy</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 81</Link><br/>The dread and feared necromancer commands undead and uses the foul power of unlife against his enemies.</p>
-<Ability id="power-over-undead-su" icon={["magic-swirl","armor-downgrade"]}>
+<Ability id="power-over-undead-su" icon={["magic","lower"]}>
 <Pair single id="power-over-undead-su">Power over Undead (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You receive <Link to="/feat/command_undead">Command Undead</Link> or <Link to="/feat/turn_undead">Turn Undead</Link> as a bonus feat, and you can <Link to="/ability/channel_energy">channel energy</Link>, but only to use the selected feat. You can take other feats to add to this ability, such as <Link to="/feat/extra_channel">Extra Channel</Link> and <Link to="/feat/improved_channel">Improved Channel</Link>, but not feats that alter this ability, such as <Link to="/feat/elemental_channel">Elemental Channel</Link> and <Link to="/feat/alignment_channel">Alignment Channel</Link>. The DC to save against these feats is equal to 10 + 1/2 your wizard level + your Charisma modifier.</Pair>
 <Pair title="At 20th Level">Undead cannot add their channel resistance to the save against this ability.</Pair>
 </Ability>
-<Ability id="grave-touch-sp" icon={["magic-palm"]}>
+<Ability id="grave-touch-sp" icon={["touch"]}>
 <Pair single id="grave-touch-sp">Grave Touch (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can make a melee touch attack that causes a living creature to become <Link to="/misc/shaken">shaken</Link> for a number of rounds equal to 1/2 your wizard level (minimum 1). If you touch a shaken creature with this ability, it becomes <Link to="/misc/frightened">frightened</Link> for 1 round if it has fewer Hit Dice than your wizard level.</Pair>
 </Ability>
-<Ability id="life-sight-su" icon={["stairs-goal"]}>
+<Ability id="life-sight-su" icon={["power"]}>
 <Pair single id="life-sight-su">Life Sight (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level; these rounds need not be consecutive</Pair>
@@ -425,14 +425,14 @@ const _necromancy = {hasJL:true,title: "Necromancy", jsx: <><div className="jump
 <h3 id="arcaneschool-necromancy-life-school" data-hash-target>Life School</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 146</Link><br/><strong>Associated School:</strong> Necromancy.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>power over undead</em> and <em>grave touch</em> powers of the necromancy school.</p>
-<Ability id="healing-grace-su" icon={["remedy"]}>
+<Ability id="healing-grace-su" icon={["aid"]}>
 <Pair single id="healing-grace-su">Healing Grace (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">Whenever you cast a spell that has targets, affects creatures in an area, or requires an attack roll, you may heal creatures affected by the spell a total of 1 point of damage per level of the spell. This healing may be spread out between the targets of the spell in any way you choose. This healing occurs when the spell is cast and has no effect on creatures that enter its area after the spell is in place. If you assign any of the healing to an undead creature, it instead takes 1 point of damage for each point assigned.</Pair>
 <Pair title="At 11th Level">The amount of damage cured increases to 2 points of damage per level of the spell.</Pair>
 <Pair title="At 20th Level">The amount of damage cured increases to 3 points of damage per level of the spell.</Pair>
 </Ability>
-<Ability id="share-essence-sp" icon={["broken-shield","remedy"]}>
+<Ability id="share-essence-sp" icon={["down","aid"]}>
 <Pair single id="share-essence-sp">Share Essence (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
@@ -441,7 +441,7 @@ const _necromancy = {hasJL:true,title: "Necromancy", jsx: <><div className="jump
 <h3 id="arcaneschool-necromancy-undead-school" data-hash-target>Undead School</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 147</Link><br/><strong>Associated School:</strong> Necromancy.</p>
 <p><strong>Replacement Powers:</strong> The following school power replaces the <em>grave touch</em> power of the necromancy school.</p>
-<Ability id="bolster-sp" icon={["upgrade"]}>
+<Ability id="bolster-sp" icon={["boost"]}>
 <Pair single id="bolster-sp">Bolster (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
@@ -450,19 +450,19 @@ const _necromancy = {hasJL:true,title: "Necromancy", jsx: <><div className="jump
 </>};
 const _transmutation = {hasJL:true,title: "Transmutation", jsx: <><div className="jumpList" id="arcaneschool-transmutation-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-transmutation-enhancement-school">Enhancement School</InnerLink></li><li><InnerLink toTop to="arcaneschool-transmutation-shapechange-school">Shapechange School</InnerLink></li></ul></div><h2 id="arcaneschool-transmutation-transmutation">Transmutation</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 82</Link><br/>Transmuters use magic to change the world around them.</p>
-<Ability id="physical-enhancement-su" icon={["upgrade"]}>
+<Ability id="physical-enhancement-su" icon={["boost"]}>
 <Pair single id="physical-enhancement-su">Physical Enhancement (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You gain an enhancement bonus to one physical ability score (Strength, Dexterity, or Constitution). This enhancement bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level. You can change this bonus to a new ability score when you prepare spells.</Pair>
 <Pair title="At 20th Level">This bonus now applies to two physical ability scores of your choice.</Pair>
 </Ability>
-<Ability id="telekinetic-fist-sp" icon={["smoking-finger"]}>
+<Ability id="telekinetic-fist-sp" icon={["zap"]}>
 <Pair single id="telekinetic-fist-sp">Telekinetic Fist (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can strike with a telekinetic fist, targeting any foe within 30 feet as a ranged touch attack. The telekinetic fist deals 1d4 points of bludgeoning damage + 1 for every two wizard levels you possess.</Pair>
 </Ability>
-<Ability id="change-shape-sp" icon={["magic-swirl"]}>
+<Ability id="change-shape-sp" icon={["magic"]}>
 <Pair single id="change-shape-sp">Change Shape (Sp)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level; these rounds need not be consecutive</Pair>
@@ -473,14 +473,14 @@ const _transmutation = {hasJL:true,title: "Transmutation", jsx: <><div className
 </aside><h3 id="arcaneschool-transmutation-enhancement-school" data-hash-target>Enhancement School</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 145</Link><br/><strong>Associated School:</strong> Transmutation.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>telekinetic fist</em> and <em>change shape</em> powers of the transmutation school.</p>
-<Ability id="augment-sp" icon={["upgrade"]}>
+<Ability id="augment-sp" icon={["boost"]}>
 <Pair single id="augment-sp">Augment (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can touch a creature and grant it either a +2 enhancement bonus to a single ability score of your choice or a bonus to natural armor that stacks with any natural armor the creature might possess; this natural armor bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level. This augmentation lasts a number of rounds equal to 1/2 your wizard level (minimum 1 round).</Pair>
 <Pair title="At 10th Level">The enhancement bonus to one ability score increases to +4.</Pair>
 </Ability>
-<Ability id="perfection-of-self-su" icon={["upgrade"]}>
+<Ability id="perfection-of-self-su" icon={["boost"]}>
 <Pair single id="perfection-of-self-su">Perfection of Self (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level</Pair>
@@ -489,7 +489,7 @@ const _transmutation = {hasJL:true,title: "Transmutation", jsx: <><div className
 <h3 id="arcaneschool-transmutation-shapechange-school" data-hash-target>Shapechange School</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 147</Link><br/><strong>Associated School:</strong> Transmutation.</p>
 <p><strong>Replacement Powers:</strong> The following school power replaces the <em>telekinetic fist</em> power of the transmutation school.</p>
-<Ability id="battleshaping-su" icon={["mailed-fist"]}>
+<Ability id="battleshaping-su" icon={["melee"]}>
 <Pair single id="battleshaping-su">Battleshaping (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
@@ -500,13 +500,13 @@ const _transmutation = {hasJL:true,title: "Transmutation", jsx: <><div className
 </>};
 const _universalist = {hasJL:true,title: "Universalist", jsx: <><div className="jumpList" id="arcaneschool-universalist-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-universalist-absalom-arcanamirium-crafter-school">Absalom: Arcanamirium Crafter School</InnerLink></li></ul></div><h2 id="arcaneschool-universalist-universalist">Universalist</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 82</Link><br/>Wizards who do not specialize (known as as universalists) have the most diversity of all arcane spellcasters.</p>
-<Ability id="hand-of-the-apprentice-su" icon={["smoking-finger"]}>
+<Ability id="hand-of-the-apprentice-su" icon={["zap"]}>
 <Pair single id="hand-of-the-apprentice-su">Hand of the Apprentice (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You cause your melee weapon to fly from your grasp and strike a foe before instantly returning to you. You can make a single attack using a melee weapon at a range of 30 feet. This attack is treated as a ranged attack with a thrown weapon, except that you add your Intelligence modifier on the attack roll instead of your Dexterity modifier (damage still relies on Strength). This ability cannot be used to perform a combat maneuver.</Pair>
 </Ability>
-<Ability id="metamagic-mastery-su" icon={["magic-swirl"]}>
+<Ability id="metamagic-mastery-su" icon={["magic"]}>
 <Pair single id="metamagic-mastery-su">Metamagic Mastery (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per two wizard levels beyond 8th<ByLevelPop levels={[[8,1],[10,2],[12,3],[14,4],[16,5],[18,6],[20,7]]} unit="time" postText="/day" /></Pair>
@@ -516,7 +516,7 @@ const _universalist = {hasJL:true,title: "Universalist", jsx: <><div className="
 <p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer pg. 28</Link><br/>The most famous magical college of the Inner Sea region, the Arcanamirium of Absalom teaches a broad array of specialties, but its most intensive specialty is no specialization at all. It is one of the primary training academies of universalist magic on Golarion, and the wizards who graduate from the school become well respected, well paid, and highly sought-after in their homelands. An Arcanamirium crafter is one of the builders of the arcane world, assembling magic items with facility, skill, and power. He is intimately familiar with the craft and practice of imbuing items with arcane power, and works with precision even early in his career to help create some of the most powerful magic items of Golarion.</p>
 <p><strong>Associated School:</strong> Universalist.</p>
 <p><strong>Replacement Powers:</strong> The following school power replaces the <em>hand of the apprentice</em> power of the universalist school.</p>
-<Ability id="metacharge-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="metacharge-ex" icon={["power","boost"]}>
 <Pair single id="metacharge-ex">Metacharge (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">As an Arcanamirium crafter, you gain a bonus feat, which must be an <Link to="/main/item_creation_feat">item creation feat</Link> or <Link to="/main/metamagic_feat">metamagic feat</Link>. You must still meet all prerequisites for a bonus feat, including caster level minimums. When using metamagic feats to create magic items, your skill and understanding of the principles involved in the item's creation give you a +2 bonus on the skill check made to create the item.</Pair>
@@ -525,7 +525,7 @@ const _universalist = {hasJL:true,title: "Universalist", jsx: <><div className="
 const _aether = {hasJL:true,title: "Aether", jsx: <><div className="jumpList" id="arcaneschool-aether-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-aether-aether-spell-list">Aether Spell List</InnerLink></li></ul></div><h2 id="arcaneschool-aether-aether">Aether</h2>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 20</Link><br/>Aether is a strange and complex substance that occurs where the Elemental Planes touch the <Link to="/rule/ethereal_plane">Ethereal Plane</Link>. Wizards who study aether use it to manipulate objects on the Material Plane. The aether elemental school is an elemental arcane school a wizard can specialize in instead of one of the standard schools of magic.</p>
 <p>Like a normal arcane school, the aether elemental school grants a number of school powers, as well as one bonus spell slot of each level the wizard can cast, from 1st on up. This bonus spell slot must be used to prepare a spell from the aether elemental school's spell list. Unlike a normal arcane school, the aether elemental school requires the wizard to select a single element as his opposition school (air, earth, fire, or water, for example). The wizard does not need to select a second opposition school. He must expend two spell slots to prepare a spell from his opposed elemental school as normal.</p>
-<Ability id="aether-magic" icon={["spell-book"]}>
+<Ability id="aether-magic" icon={["learn"]}>
 <Pair single id="aether-magic">Aether Magic</Pair>
 <Pair title="Info">Add these spells to your wizard spell list at the listed spell level.</Pair>
 <Pair plain title="0"><Link to="/spell/telekinetic_projectile">Telekinetic projectile</Link></Pair>
@@ -536,7 +536,7 @@ const _aether = {hasJL:true,title: "Aether", jsx: <><div className="jumpList" id
 <Pair plain title="7th"><Link to="/spell/ectoplasmic_eruption">Ectoplasmic eruption</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/telekinetic_storm">Telekinetic storm</Link></Pair>
 </Ability>
-<Ability id="aether-supremacy-su" icon={["upgrade","stairs-goal","rolling-dices"]}>
+<Ability id="aether-supremacy-su" icon={["boost","power","roll"]}>
 <Pair single id="aether-supremacy-su">Aether Supremacy (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You gain an enhancement bonus on Sleight of Hand checks. This bonus is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level. In addition, you can cast <Link to="/spell/mage_hand">mage hand</Link> at will as a spell-like ability that uses your caster level.</Pair>
@@ -544,13 +544,13 @@ const _aether = {hasJL:true,title: "Aether", jsx: <><div className="jumpList" id
 <Pair title="At 10th Level">You can attempt a Sleight of Hand check as a <strong className="hl">move action</strong> with only a -10 penalty.</Pair>
 <Pair title="At 20th Level">Whenever you attempt a Sleight of Hand check, assume the roll resulted in a natural 20.</Pair>
 </Ability>
-<Ability id="telekinetic-protection-su" icon={["armor-upgrade"]}>
+<Ability id="telekinetic-protection-su" icon={["def"]}>
 <Pair single id="telekinetic-protection-su">Telekinetic Protection (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Swift Action">You can grant yourself protection against nonmagical attacks by forming a field to telekinetically deflect them. You gain DR 5/magic for 1 round.</Pair>
 </Ability>
-<Ability id="receptive-vibrations-su" icon={["armor-upgrade","upgrade"]}>
+<Ability id="receptive-vibrations-su" icon={["def","boost"]}>
 <Pair single id="receptive-vibrations-su">Receptive Vibrations (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">You are constantly surrounded by ephemeral and invisible strands of aether, increasing your awareness of your surroundings. You are never denied your Dexterity bonus to AC against attacks made within 30 feet of you because you are flat-footed or because your assailant is unseen. In addition, you gain a bonus on Perception checks to avoid being surprised equal to half your wizard level.</Pair>
@@ -571,7 +571,7 @@ const _aether = {hasJL:true,title: "Aether", jsx: <><div className="jumpList" id
 </>};
 const _air = {hasJL:true,title: "Air", jsx: <><div className="jumpList" id="arcaneschool-air-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-air-ice-school">Ice School</InnerLink></li><li><InnerLink toTop to="arcaneschool-air-smoke-school">Smoke School</InnerLink></li><li><InnerLink toTop to="arcaneschool-air-air-spells">Air Spells</InnerLink></li></ul></div><h2 id="arcaneschool-air-air">Air</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 142</Link><br/>The air elementalist uses the forces of the wind, sky, clouds, and lightning to confuse and destroy his foes, all while flying through the air with ease.</p>
-<Ability id="air-supremacy-su" icon={["upgrade","stairs-goal","rolling-dices"]}>
+<Ability id="air-supremacy-su" icon={["boost","power","roll"]}>
 <Pair single id="air-supremacy-su">Air Supremacy (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You gain an enhancement bonus on Fly skill checks. This bonus is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level. In addition, you can cast <Link to="/spell/feather_fall">feather fall</Link> on yourself at will.</Pair>
@@ -600,7 +600,7 @@ const _air = {hasJL:true,title: "Air", jsx: <><div className="jumpList" id="arca
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can cause shards of ice to burst forth from the ground around you. The shards deal 1d4 points of piercing damage and 1d6 points of cold damage + 1 point for every 2 wizard levels you have to all creatures within 5 feet of you. A successful Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) negates the piercing damage and halves the cold damage. The shards remain until the beginning of your next turn; during this time, the area is <Link to="/rule/difficult_terrain">difficult terrain</Link>. You are not affected by your own freezing shards and can move through the area normally.</Pair>
 </Ability>
-<Ability id="icy-shackles-su" icon={["mailed-fist"]}>
+<Ability id="icy-shackles-su" icon={["melee"]}>
 <Pair single id="icy-shackles-su">Icy Shackles (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">Int modifier times/day</Pair>
@@ -609,13 +609,13 @@ const _air = {hasJL:true,title: "Air", jsx: <><div className="jumpList" id="arca
 <h3 id="arcaneschool-air-smoke-school" data-hash-target>Smoke School</h3>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 21</Link><br/><strong>Associated School:</strong> Air or Fire.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>lightning flash</em> and <em>cyclone</em> powers of the air school.</p>
-<Ability id="smokesight-su" icon={["stairs-goal","upgrade"]}>
+<Ability id="smokesight-su" icon={["power","boost"]}>
 <Pair single id="smokesight-su">Smokesight (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can constantly see normally through natural fog and smoke, as well as any fog and smoke that you (but not others) magically create. You can choose to touch another creature to grant it this vision for 1 hour.</Pair>
 </Ability>
-<Ability id="body-of-smoke-sp" icon={["magic-swirl"]}>
+<Ability id="body-of-smoke-sp" icon={["magic"]}>
 <Pair single id="body-of-smoke-sp">Body of Smoke (Sp)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 minute/day per wizard level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
@@ -637,19 +637,19 @@ const _air = {hasJL:true,title: "Air", jsx: <><div className="jumpList" id="arca
 </>};
 const _earth = {hasJL:true,title: "Earth", jsx: <><div className="jumpList" id="arcaneschool-earth-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-earth-magma-school">Magma School</InnerLink></li><li><InnerLink toTop to="arcaneschool-earth-mud-school">Mud School</InnerLink></li><li><InnerLink toTop to="arcaneschool-earth-earth-spells">Earth Spells</InnerLink></li></ul></div><h2 id="arcaneschool-earth-earth">Earth</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 142</Link><br/>The earth elementalist draws power from the stone around him, shaping it, shattering it, and bending it to his will. He can use it to defend himself or cause it to rise up and crush his foes.</p>
-<Ability id="earth-supremacy-su" icon={["armor-upgrade","mailed-fist","stairs-goal"]}>
+<Ability id="earth-supremacy-su" icon={["def","melee","power"]}>
 <Pair single id="earth-supremacy-su">Earth Supremacy (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You gain an enhancement bonus to your CMD to resist <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/reposition">reposition</Link>, <Link to="/rule/trip">trip</Link>, and <Link to="/rule/overrun">overrun</Link> attempts as long as you are touching the ground. This bonus is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level. In addition, you gain a +1 insight bonus on melee attack and damage rolls whenever both you and your foe are touching the ground.</Pair>
 <Pair title="At 20th Level">Earth and stone do not block the line of effect of your spells, although they do still block your line of sight.</Pair>
 </Ability>
-<Ability id="acid-cloud-su" icon={["magic-swirl"]}>
+<Ability id="acid-cloud-su" icon={["magic"]}>
 <Pair single id="acid-cloud-su">Acid Cloud (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can create a 5-foot-radius cloud of acid vapor within 30 feet that lasts for 1 round. This cloud deals 1d6 points of acid damage + 1 point for every two wizard levels you possess to all creatures in the cloud and <Link to="/misc/sicken">sickens</Link> them for 1 round. A successful Fortitude save negates the sickened effect and halves the damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. Creatures that begin their turn inside the cloud can move out that turn without penalty, but those that enter the cloud are affected.</Pair>
 </Ability>
-<Ability id="earth-glide-su" icon={["stairs-goal"]}>
+<Ability id="earth-glide-su" icon={["power"]}>
 <Pair single id="earth-glide-su">Earth Glide (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level; these rounds need not be consecutive</Pair>
@@ -658,13 +658,13 @@ const _earth = {hasJL:true,title: "Earth", jsx: <><div className="jumpList" id="
 <h3 id="arcaneschool-earth-magma-school" data-hash-target>Magma School</h3>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 21</Link><br/><strong>Associated School:</strong> Earth or Fire.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>acid cloud</em> and <em>earth glide</em> powers of the earth school.</p>
-<Ability id="magma-furrow-su" icon={["barbed-arrow"]}>
+<Ability id="magma-furrow-su" icon={["line"]}>
 <Pair single id="magma-furrow-su">Magma Furrow (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can send forth a 20-foot line of magma. Any creature in this line takes 1d6 points of fire damage + 1 point for every 2 wizard levels you have. A successful Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) halves this damage. In addition, the ground in this area remains molten for another 1d4 rounds. Creatures that begin their turns in the area can move out that turn without penalty, but those that enter the area each take 1d6 points of fire damage.</Pair>
 </Ability>
-<Ability id="lava-shield-su" icon={["armor-upgrade"]}>
+<Ability id="lava-shield-su" icon={["def"]}>
 <Pair single id="lava-shield-su">Lava Shield (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per two wizard levels<ByLevelPop levels={[[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="round" postText="/day" /></Pair>
@@ -673,13 +673,13 @@ const _earth = {hasJL:true,title: "Earth", jsx: <><div className="jumpList" id="
 <h3 id="arcaneschool-earth-mud-school" data-hash-target>Mud School</h3>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 21</Link><br/><strong>Associated School:</strong> Earth or Water.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>acid cloud</em> and <em>earth glide</em> powers of the earth school.</p>
-<Ability id="hindering-muck-su" icon={["tornado-discs"]}>
+<Ability id="hindering-muck-su" icon={["cone"]}>
 <Pair single id="hindering-muck-su">Hindering Muck (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can create a 15-foot cone of sticky mud. Any creature in the cone must succeed at a Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) or become <Link to="/rule/entangled">entangled</Link> for 1 round for every wizard level you have. An affected creature can take a standard action that provokes attacks of opportunity to wipe off enough of the mud to remove the entangled condition. Jumping into a large body of water or being subject to an effect that creates a substantial amount of water (such as a casting of <Link to="/spell/create_water">create water</Link>) removes all the mud on a creature.</Pair>
 </Ability>
-<Ability id="mud-missile-su" icon={["smoking-finger"]}>
+<Ability id="mud-missile-su" icon={["zap"]}>
 <Pair single id="mud-missile-su">Mud Missile (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 time/day per two wizard levels<ByLevelPop levels={[[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="time" postText="/day" /></Pair>
@@ -701,20 +701,20 @@ const _earth = {hasJL:true,title: "Earth", jsx: <><div className="jumpList" id="
 </>};
 const _fire = {hasJL:true,title: "Fire", jsx: <><div className="jumpList" id="arcaneschool-fire-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-fire-magma-school">Magma School</InnerLink></li><li><InnerLink toTop to="arcaneschool-fire-smoke-school">Smoke School</InnerLink></li><li><InnerLink toTop to="arcaneschool-fire-fire-spells">Fire Spells</InnerLink></li></ul></div><h2 id="arcaneschool-fire-fire">Fire</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 142</Link><br/>The fire elementalist sees a world around him that is made to burn, and he can bring that fire to consume his foes. He has also learned that fire can purify and protect, if properly controlled.</p>
-<Ability id="fire-supremacy-su" icon={["armor-upgrade"]}>
+<Ability id="fire-supremacy-su" icon={["def"]}>
 <Pair single id="fire-supremacy-su">Fire Supremacy (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You gain <Link to="/umr/resistance">resistance</Link> 5 to fire.</Pair>
 <Pair title="At 10th Level">This resistance increases to 10.</Pair>
 <Pair title="At 20th Level">You gain <Link to="/umr/immunity">immunity</Link> to fire damage. In addition, whenever you are within 5 feet of a source of flame at least as large as a campfire, you can draw the fire around you for 1 round as a swift action. Anyone striking you with a melee weapon or unarmed strike takes an amount of fire damage equal to 1/2 your wizard level (minimum 1). Weapons with reach avoid this damage.</Pair>
 </Ability>
-<Ability id="fire-jet-su" icon={["barbed-arrow"]}>
+<Ability id="fire-jet-su" icon={["line"]}>
 <Pair single id="fire-jet-su">Fire Jet (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can send forth a 20-foot line of fire. Anyone in this line takes 1d6 points of fire damage + 1 point for every two wizard levels you possess. A successful Reflex save halves this damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. Creatures that fail their saving throw <Link to="/rule/catch_fire">catch fire</Link> and take 1d6 points of fire damage on the following round. Creatures that catch fire can avoid this damage by taking a full-round action to extinguish the flames by making a DC 15 Reflex save. Rolling on the ground gives a +2 circumstance bonus on the save. Dousing the creature with water automatically extinguishes the flame.</Pair>
 </Ability>
-<Ability id="dancing-flame-su" icon={["magic-swirl"]}>
+<Ability id="dancing-flame-su" icon={["magic"]}>
 <Pair single id="dancing-flame-su">Dancing Flame (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Standard Action">You can sculpt fire to suit your desires. With one use of this ability you can move any nonmagical fire up to 30 feet. Alternatively you can use this ability (as a free action) to alter any fire spell that you cast with a duration of instantaneous by removing any number of squares from its area of affect. If the fire spell has a duration, you can use this ability to reposition the spell, within its original range (treat this as if you had just cast the spell, even though the duration is unchanged). You cannot use this ability on a fire spell that you did not cast. If you move a nonmagical flame, it must have a new source of fuel. If it does not, it is extinguished in one round. You can use this ability a number of times per day equal to 1/2 your wizard level.</Pair>
@@ -722,13 +722,13 @@ const _fire = {hasJL:true,title: "Fire", jsx: <><div className="jumpList" id="ar
 <h3 id="arcaneschool-fire-magma-school" data-hash-target>Magma School</h3>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 21</Link><br/><strong>Associated School:</strong> Earth or Fire.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>fire jet</em> and <em>dancing flame</em> powers of the fire school.</p>
-<Ability id="magma-furrow-su" icon={["barbed-arrow"]}>
+<Ability id="magma-furrow-su" icon={["line"]}>
 <Pair single id="magma-furrow-su">Magma Furrow (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can send forth a 20-foot line of magma. Any creature in this line takes 1d6 points of fire damage + 1 point for every 2 wizard levels you have. A successful Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) halves this damage. In addition, the ground in this area remains molten for another 1d4 rounds. Creatures that begin their turns in the area can move out that turn without penalty, but those that enter the area each take 1d6 points of fire damage.</Pair>
 </Ability>
-<Ability id="lava-shield-su" icon={["armor-upgrade"]}>
+<Ability id="lava-shield-su" icon={["def"]}>
 <Pair single id="lava-shield-su">Lava Shield (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per two wizard levels<ByLevelPop levels={[[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="round" postText="/day" /></Pair>
@@ -737,13 +737,13 @@ const _fire = {hasJL:true,title: "Fire", jsx: <><div className="jumpList" id="ar
 <h3 id="arcaneschool-fire-smoke-school" data-hash-target>Smoke School</h3>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 21</Link><br/><strong>Associated School:</strong> Air or Fire.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>fire jet</em> and <em>dancing flame</em> powers of the fire school.</p>
-<Ability id="smokesight-su" icon={["stairs-goal","upgrade"]}>
+<Ability id="smokesight-su" icon={["power","boost"]}>
 <Pair single id="smokesight-su">Smokesight (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can constantly see normally through natural fog and smoke, as well as any fog and smoke that you (but not others) magically create. You can choose to touch another creature to grant it this vision for 1 hour.</Pair>
 </Ability>
-<Ability id="body-of-smoke-sp" icon={["magic-swirl"]}>
+<Ability id="body-of-smoke-sp" icon={["magic"]}>
 <Pair single id="body-of-smoke-sp">Body of Smoke (Sp)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 minute/day per wizard level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
@@ -765,20 +765,20 @@ const _fire = {hasJL:true,title: "Fire", jsx: <><div className="jumpList" id="ar
 </>};
 const _metal = {hasJL:true,title: "Metal", jsx: <><div className="jumpList" id="arcaneschool-metal-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-metal-metal-spells">Metal Spells</InnerLink></li></ul></div><h2 id="arcaneschool-metal-metal">Metal</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 87</Link><br/>Metal represents firmness, rigidity, persistence, strength, determination, and electricity. It is commonly represented by gold and silver as its purest forms, though lower magic relating to iron and steel is part of the metal school.</p>
-<Ability id="metal-magic" icon={["spell-book"]}>
+<Ability id="metal-magic" icon={["learn"]}>
 <Pair single id="metal-magic">Metal Magic</Pair>
 <Pair title="Info">Add these spells to your wizard spell list at the listed spell level.</Pair>
 <Pair plain title="3rd"><Link to="/spell/chill_metal">Chill metal</Link>, <Link to="/spell/heat_metal">heat metal</Link></Pair>
 <Pair plain title="5th"><Link to="/spell/rusting_grasp">Rusting grasp</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/repel_metal_or_stone">Repel metal or stone</Link></Pair>
 </Ability>
-<Ability id="metal-rending-su" icon={["magic-swirl","rolling-dices"]}>
+<Ability id="metal-rending-su" icon={["magic","roll"]}>
 <Pair single id="metal-rending-su">Metal Rending (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">Whenever you cast a spell that deals hit point damage, you deal extra damage to creatures made of metal or wearing medium or heavy metal armor. Affected creatures take additional damage equal to 1/2 your wizard level. This bonus damage is not increased by <Link to="/feat/empower_spell">Empower Spell</Link> or similar effects. This bonus only applies once to a spell, not once per missile or ray, and cannot be split between multiple missiles or rays. The damage is of the same type as the spell.</Pair>
 <Pair title="At 20th Level">Whenever you cast a spell on a creature made of metal or wearing medium or heavy armor, you can roll twice to penetrate the creature's spell resistance and take the better result.</Pair>
 </Ability>
-<Ability id="iron-skin-su" icon={["armor-upgrade"]}>
+<Ability id="iron-skin-su" icon={["def"]}>
 <Pair single id="iron-skin-su">Iron Skin (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
@@ -808,7 +808,7 @@ const _metal = {hasJL:true,title: "Metal", jsx: <><div className="jumpList" id="
 const _void = {hasJL:true,title: "Void", jsx: <><div className="jumpList" id="arcaneschool-void-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-void-void-spells">Void Spells</InnerLink></li></ul></div><h2 id="arcaneschool-void-void">Void</h2>
 <p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer pg. 29</Link><br/>The void is a complex idea considered by some to be a fifth element, one that comprises thought, space, spiritualism, and insight. Wizards who tap into its mysterious powers gain control over energies that bind the earth to the heavens and the planes to their mysterious and eternal alignments, as well as the powers that stitch living beings to their spirits. The void elemental school presented here is an additional arcane school for the wizard class.</p>
 <p>A wizard who specializes in the void element gains a number of school powers and one bonus spell slot of each level that the wizard can cast, from 1st on up. This bonus spell slot must be used to prepare a spell from the void elemental school's spell list. Unlike a normal arcane school, the void elemental school requires the wizard to select a single element (air, earth, fire, or water) as his opposition school. A wizard must expend two spell slots to prepare a spell from his opposed elemental school as normal. He does not need to select a second opposition school.</p>
-<Ability id="void-magic" icon={["spell-book"]}>
+<Ability id="void-magic" icon={["learn"]}>
 <Pair single id="void-magic">Void Magic</Pair>
 <Pair title="Info">Add these spells to your wizard spell list at the listed spell level.</Pair>
 <Pair plain title="1st"><Link to="/spell/keen_senses">Keen senses</Link></Pair>
@@ -817,19 +817,19 @@ const _void = {hasJL:true,title: "Void", jsx: <><div className="jumpList" id="ar
 <Pair plain title="6th"><Link to="/spell/true_seeing">True seeing</Link></Pair>
 <Pair plain title="8th"><Link to="/spell/moment_of_prescience">Moment of prescience</Link></Pair>
 </Ability>
-<Ability id="void-awareness-su" icon={["armor-upgrade","rolling-dices"]}>
+<Ability id="void-awareness-su" icon={["def","roll"]}>
 <Pair single id="void-awareness-su">Void Awareness (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">Your ability to recognize the void allows your body to react to magical manifestations before you're even aware of them. You gain an insight bonus on saving throws against spells and spell-like abilities. This bonus is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level.</Pair>
 <Pair title="At 20th Level">Whenever you would be affected by a spell or spell-like ability that allows a saving throw, you can roll twice to save against the effect and take the better result.</Pair>
 </Ability>
-<Ability id="reveal-weakness-su" icon={["armor-downgrade"]}>
+<Ability id="reveal-weakness-su" icon={["lower"]}>
 <Pair single id="reveal-weakness-su">Reveal Weakness (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">Select a foe within 30 feet. That creature takes a penalty to its AC and on saving throws equal to 1/2 your caster level (minimum -1) for 1 round.</Pair>
 </Ability>
-<Ability id="aura-of-prescience-su" icon={["upgrade"]}>
+<Ability id="aura-of-prescience-su" icon={["boost"]}>
 <Pair single id="aura-of-prescience-su">Aura of Prescience (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level; these rounds need not be consecutive</Pair>
@@ -851,7 +851,7 @@ const _void = {hasJL:true,title: "Void", jsx: <><div className="jumpList" id="ar
 </>};
 const _water = {hasJL:true,title: "Water", jsx: <><div className="jumpList" id="arcaneschool-water-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-water-ice-school">Ice School</InnerLink></li><li><InnerLink toTop to="arcaneschool-water-mud-school">Mud School</InnerLink></li><li><InnerLink toTop to="arcaneschool-water-water-spells">Water Spells</InnerLink></li></ul></div><h2 id="arcaneschool-water-water">Water</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 143</Link><br/>The water elementalist draws magic from the ocean depths. His power is fluid as well, crushing foes in mighty waves or wearing them down through timeless erosion.</p>
-<Ability id="water-supremacy-su" icon={["upgrade","stairs-goal","rolling-dices"]}>
+<Ability id="water-supremacy-su" icon={["boost","power","roll"]}>
 <Pair single id="water-supremacy-su">Water Supremacy (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You gain an enhancement bonus on Swim skill checks. This bonus is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level. In addition, you can <Link to="/misc/hold_your_breath">hold your breath</Link> for a number of rounds equal to four times your Constitution score before you must start making checks to avoid <Link to="/rule/drowning">drowning</Link>.</Pair>
@@ -864,7 +864,7 @@ const _water = {hasJL:true,title: "Water", jsx: <><div className="jumpList" id="
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can unleash a blast of freezing cold. This blast deals 1d6 points of cold damage + 1 point for every two wizard levels you possess to all creatures within 5 feet of you and <Link to="/misc/stagger">staggers</Link> them for 1 round. A successful Reflex save negates the staggered effect and halves the damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier.</Pair>
 </Ability>
-<Ability id="wave-su" icon={["barbed-arrow"]}>
+<Ability id="wave-su" icon={["line"]}>
 <Pair single id="wave-su">Wave (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per two wizard levels<ByLevelPop levels={[[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="round" postText="/day" /></Pair>
@@ -879,7 +879,7 @@ const _water = {hasJL:true,title: "Water", jsx: <><div className="jumpList" id="
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can cause shards of ice to burst forth from the ground around you. The shards deal 1d4 points of piercing damage and 1d6 points of cold damage + 1 point for every 2 wizard levels you have to all creatures within 5 feet of you. A successful Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) negates the piercing damage and halves the cold damage. The shards remain until the beginning of your next turn; during this time, the area is <Link to="/rule/difficult_terrain">difficult terrain</Link>. You are not affected by your own freezing shards and can move through the area normally.</Pair>
 </Ability>
-<Ability id="icy-shackles-su" icon={["mailed-fist"]}>
+<Ability id="icy-shackles-su" icon={["melee"]}>
 <Pair single id="icy-shackles-su">Icy Shackles (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">Int modifier times/day</Pair>
@@ -888,13 +888,13 @@ const _water = {hasJL:true,title: "Water", jsx: <><div className="jumpList" id="
 <h3 id="arcaneschool-water-mud-school" data-hash-target>Mud School</h3>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 21</Link><br/><strong>Associated School:</strong> Earth or Water.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>cold blast</em> and <em>wave</em> powers of the water school.</p>
-<Ability id="hindering-muck-su" icon={["tornado-discs"]}>
+<Ability id="hindering-muck-su" icon={["cone"]}>
 <Pair single id="hindering-muck-su">Hindering Muck (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can create a 15-foot cone of sticky mud. Any creature in the cone must succeed at a Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) or become <Link to="/rule/entangled">entangled</Link> for 1 round for every wizard level you have. An affected creature can take a standard action that provokes attacks of opportunity to wipe off enough of the mud to remove the entangled condition. Jumping into a large body of water or being subject to an effect that creates a substantial amount of water (such as a casting of <Link to="/spell/create_water">create water</Link>) removes all the mud on a creature.</Pair>
 </Ability>
-<Ability id="mud-missile-su" icon={["smoking-finger"]}>
+<Ability id="mud-missile-su" icon={["zap"]}>
 <Pair single id="mud-missile-su">Mud Missile (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 time/day per two wizard levels<ByLevelPop levels={[[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="time" postText="/day" /></Pair>
@@ -916,7 +916,7 @@ const _water = {hasJL:true,title: "Water", jsx: <><div className="jumpList" id="
 </>};
 const _wood = {hasJL:true,title: "Wood", jsx: <><div className="jumpList" id="arcaneschool-wood-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-wood-wood-spells">Wood Spells</InnerLink></li></ul></div><h2 id="arcaneschool-wood-wood">Wood</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 88</Link><br/>Wood represents flexibility, warmth, wind, generosity, cooperation, and idealism. Practitioners of this elemental magic often resemble druids in character and in the use of their magic.</p>
-<Ability id="wood-magic" icon={["spell-book"]}>
+<Ability id="wood-magic" icon={["learn"]}>
 <Pair single id="wood-magic">Wood Magic</Pair>
 <Pair title="Info">Add these spells to your wizard spell list at the listed spell level.</Pair>
 <Pair plain title="2nd"><Link to="/spell/entangle">Entangle</Link></Pair>
@@ -928,13 +928,13 @@ const _wood = {hasJL:true,title: "Wood", jsx: <><div className="jumpList" id="ar
 <Pair plain title="8th"><Link to="/spell/transmute_metal_to_wood">Transmute metal to wood</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/control_plants">Control plants</Link></Pair>
 </Ability>
-<Ability id="flexible-enhancement-su" icon={["armor-upgrade"]}>
+<Ability id="flexible-enhancement-su" icon={["def"]}>
 <Pair single id="flexible-enhancement-su">Flexible Enhancement (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">A master of the wood element is able to bend like bamboo when stressed and snap back into place. You gain an enhancement bonus to your Dexterity, Constitution, or Wisdom ability score. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level. You can change this bonus to a new ability score when you prepare spells.</Pair>
 <Pair title="At 20th Level">This bonus now applies to two of these ability scores of your choice.</Pair>
 </Ability>
-<Ability id="splintered-spear-su" icon={["smoking-finger"]}>
+<Ability id="splintered-spear-su" icon={["zap"]}>
 <Pair single id="splintered-spear-su">Splintered Spear (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
@@ -943,7 +943,7 @@ const _wood = {hasJL:true,title: "Wood", jsx: <><div className="jumpList" id="ar
 <Pair title="At 12th Level">The spear's bonus becomes +2 and the bleed damage increases to 3.</Pair>
 <Pair title="At 18th Level">The spear's bonus becomes +3 and the bleed damage increases to 4.</Pair>
 </Ability>
-<Ability id="cooperative-defense-su" icon={["shield-reflect"]}>
+<Ability id="cooperative-defense-su" icon={["protect"]}>
 <Pair single id="cooperative-defense-su">Cooperative Defense (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per four wizard levels beyond 8th<ByLevelPop levels={[[8,1],[12,2],[16,3],[20,4]]} unit="time" postText="/day" /></Pair>
@@ -966,11 +966,11 @@ const _wood = {hasJL:true,title: "Wood", jsx: <><div className="jumpList" id="ar
 const _thassilonian_magic = {hasJL:true,title: "Thassilonian Magic", jsx: <><div className="jumpList" id="arcaneschool-thassilonian_magic-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-thassilonian_magic-thassilonian-schools-of-magic">Thassilonian Schools of Magic</InnerLink></li></ul></div><h2 id="arcaneschool-thassilonian_magic-thassilonian-magic">Thassilonian Magic</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 63</Link>, <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 17</Link><br/>Only wizards can truly follow the ancient philosophies created by Thassilon's runelords, for only wizards have the capability to specialize in a school of magic.</p>
 <p>The choice to specialize in a Thassilonian school of magic must be made when a character first becomes a wizard. Once the choice to do so is made, it cannot be changed.</p>
-<Ability id="benefits" icon={["spell-book"]}>
+<Ability id="benefits" icon={["learn"]}>
 <Pair single id="benefits">Benefits</Pair>
 <Pair title="Info">A Thassilonian specialist wizard receives two additional spell slots of each spell level he can cast. These bonus spell slots must both be used to prepare the same spell from the wizard's school of specialization, allowing the wizard to cast that spell twice (as he has prepared the spell twice). The wizard cannot use these slots to prepare two different spells, even if they are of the school he is specialized in.</Pair>
 </Ability>
-<Ability id="restrictions" icon={["broken-shield"]}>
+<Ability id="restrictions" icon={["down"]}>
 <Pair single id="restrictions">Restrictions</Pair>
 <Pair title="Info">A Thassilonian specialist does not get to customize his choice for opposition schools - that choice is selected for him when he chooses his specialization. These restrictions are more significant than those most wizards follow, and are known as prohibited schools. A Thassilonian wizard can never prepare a spell that is in one of his prohibited schools - he treats these spells as if they were not on the wizard spell list.</Pair>
 <Pair title="Special">If using a spell trigger or spell completion item to cast a spell from one of his prohibited schools, he must use the Use Magic Device skill to do so.</Pair>
@@ -979,37 +979,37 @@ const _thassilonian_magic = {hasJL:true,title: "Thassilonian Magic", jsx: <><div
 <p>While the concept of wizard specializations along the classically recognized schools of magic certainly dates back to the time of Azlant, and perhaps beyond into the dim recesses of time before humanity rose to prominence, it was the runelords of Thassilon who explored school specialization to its full extreme.</p>
 <p><strong className="hl">Note:</strong> Thassilonian magic does not recognize divination and universal spells as separate schools that you can specialize in, but Thassilon specialists are not prohibited from using either type of spell.</p>
 <p>Focusing their research on the discovery that each school of magic was opposed by two specific opposition schools, the runelords developed methods of further enhancing their mastery over their chosen arcane specialties. Essentially, they defined these seven schools as much by what they couldn't do as by what they could. By excising "impurities" introduced by fixed oppositional schools, they traded arcane versatility for greater strength in their chosen fields. The seven schools of Thassilonian Magic are presented here.</p>
-<Ability id="envy" icon={["magic-swirl"]}>
+<Ability id="envy" icon={["magic"]}>
 <Pair single id="envy" flavor="The art of suppressing magic other than your own.">Envy</Pair>
 <Pair title="Associated School" hl>Abjuration</Pair>
 <Pair title="Prohibited Schools">Evocation, necromancy</Pair>
 </Ability>
-<Ability id="gluttony" icon={["magic-swirl"]}>
+<Ability id="gluttony" icon={["magic"]}>
 <Pair single id="gluttony" flavor="Magic that manipulates the physical body to provide for an unending hunger for life.">Gluttony</Pair>
 <Pair title="Associated School" hl>Necromancy</Pair>
 <Pair title="Prohibited Schools">Abjuration, enchantment</Pair>
 </Ability>
-<Ability id="greed" icon={["magic-swirl"]}>
+<Ability id="greed" icon={["magic"]}>
 <Pair single id="greed" flavor="Magically transforming things into objects of greater value or utility, and enhancing the physical self.">Greed</Pair>
 <Pair title="Associated School" hl>Transmutation</Pair>
 <Pair title="Prohibited Schools">Enchantment, illusion</Pair>
 </Ability>
-<Ability id="lust" icon={["magic-swirl"]}>
+<Ability id="lust" icon={["magic"]}>
 <Pair single id="lust" flavor="Magically controlling and dominating other creatures to satisfy your desires, and manipulating others' minds, emotions, and wills.">Lust</Pair>
 <Pair title="Associated School" hl>Enchantment</Pair>
 <Pair title="Prohibited Schools">Necromancy, transmutation</Pair>
 </Ability>
-<Ability id="pride" icon={["magic-swirl"]}>
+<Ability id="pride" icon={["magic"]}>
 <Pair single id="pride" flavor="Perfecting your own appearance and domain through trickery and illusions.">Pride</Pair>
 <Pair title="Associated School" hl>Illusion</Pair>
 <Pair title="Prohibited Schools">Conjuration, transmutation</Pair>
 </Ability>
-<Ability id="sloth" icon={["magic-swirl"]}>
+<Ability id="sloth" icon={["magic"]}>
 <Pair single id="sloth" flavor="Calling agents and minions to perform your deeds for you, or creating what you need as you need it.">Sloth</Pair>
 <Pair title="Associated School" hl>Conjuration</Pair>
 <Pair title="Prohibited Schools">Evocation, illusion</Pair>
 </Ability>
-<Ability id="wrath" icon={["magic-swirl"]}>
+<Ability id="wrath" icon={["magic"]}>
 <Pair single id="wrath" flavor="Mastery of the raw destructive power of magic, and channeling those destructive forces.">Wrath</Pair>
 <Pair title="Associated School" hl>Evocation</Pair>
 <Pair title="Prohibited Schools">Abjuration, conjuration</Pair>

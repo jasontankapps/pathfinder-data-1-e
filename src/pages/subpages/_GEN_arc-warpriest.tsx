@@ -12,7 +12,7 @@ const _calamity_caller = {title: "Calamity Caller", jsx: <><h2 id="arc-warpriest
 <Pair hl title="Alters">Blessings</Pair>
 <Pair title="Ability">A calamity caller must select a disaster blessing (<Link to="/blessing/earthquake">Earthquake</Link>, <Link to="/blessing/flood">Flood</Link>, <Link to="/blessing/tornado">Tornado</Link>, or <Link to="/blessing/wildfire">Wildfire</Link>) as one of his two blessings, even if the calamity caller's deity does not grant the disaster blessing's associated domain.</Pair>
 </Ability>
-<Ability id="calamity-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="calamity-su" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="calamity-su">Calamity (Su)</Pair>
 <Pair hl title="Replaces">Focus weapon, sacred weapon, bonus feats</Pair>
 <Pair title="Standard Action">A calamity caller can cause a 5-foot square within 30 feet to suffer a calamity. A calamity deals 1d6 damage to creatures within that square. The type of calamity determines what type of damage the calamity deals (see below). An affected creature can attempt a saving throw to reduce this damage by half (DC = 10 + half the calamity caller's warpriest level + the calamity caller's Wisdom modifier); the type of save is determined by the calamity. The calamity caller can use this ability at will.</Pair>
@@ -31,38 +31,38 @@ const _calamity_caller = {title: "Calamity Caller", jsx: <><h2 id="arc-warpriest
 <Pair title="At 19th Level">The amount of damage becomes 10d6.</Pair>
 <Pair title="Special">The calamities available to calamity callers, the type of damage they deal, the saving throw to resist the damage, and the secondary effect they cause when enhanced, are listed below.</Pair>
 </Ability>
-<Ability id="acid-rain" extraClasses="subAbility" icon={["bowman"]}>
+<Ability id="acid-rain" extraClasses="subAbility" icon={["ranged"]}>
 <Pair single id="acid-rain">Acid Rain</Pair>
 <Pair title="Ability">A brief rain shower deals acid damage to the target square, with a Fortitude save for half damage. A creature that fails its save against <em>enhanced</em> acid rain continues to dissolve for 1 round, automatically taking half the original damage.</Pair>
 </Ability>
-<Ability id="blizzard" extraClasses="subAbility" icon={["bowman"]}>
+<Ability id="blizzard" extraClasses="subAbility" icon={["ranged"]}>
 <Pair single id="blizzard">Blizzard</Pair>
 <Pair title="Ability">Hail deals cold damage to the target square, with a Fortitude save for half damage. A creature that fails its save against an <em>enhanced</em> blizzard is <Link to="/misc/blinded">blinded</Link> for 1 round.</Pair>
 </Ability>
-<Ability id="deadfall" extraClasses="subAbility" icon={["bowman"]}>
+<Ability id="deadfall" extraClasses="subAbility" icon={["ranged"]}>
 <Pair single id="deadfall">Deadfall</Pair>
 <Pair title="Ability">A tree branch, stone boulder, or other heavy object falls on the target square. A deadfall deals bludgeoning damage, with a Reflex save for half damage. A creature that fails its save against an <em>enhanced</em> deadfall is knocked <Link to="/rule/prone">prone</Link>.</Pair>
 <Pair title="At 12th Level">The target is also <Link to="/misc/confused">confused</Link> for 1 round.</Pair>
 </Ability>
-<Ability id="flash-flood" extraClasses="subAbility" icon={["bowman"]}>
+<Ability id="flash-flood" extraClasses="subAbility" icon={["ranged"]}>
 <Pair single id="flash-flood">Flash Flood</Pair>
 <Pair title="Ability">A brief surge of stormy water deals bludgeoning damage to the target square, with a Reflex save for half damage. An <em>enhanced</em> flash flood does not cause additional effects; instead, an <em>enhanced</em> flash flood targets creatures in a 5-foot radius.</Pair>
 <Pair title="At 12th Level">The area increases to a 10-foot radius.</Pair>
 <Pair title="At 16th Level">The area increases to a 15-foot radius.</Pair>
 </Ability>
-<Ability id="lightning-strike" extraClasses="subAbility" icon={["bowman"]}>
+<Ability id="lightning-strike" extraClasses="subAbility" icon={["ranged"]}>
 <Pair single id="lightning-strike">Lightning Strike</Pair>
 <Pair title="Ability">A bolt of lightning deals electricity damage to the target square, with a Reflex save for half damage. A creature that fails its save against an <em>enhanced</em> lightning strike is <Link to="/misc/staggered">staggered</Link> for 1 round by electrical impulses.</Pair>
 </Ability>
-<Ability id="thorny-vines" extraClasses="subAbility" icon={["bowman"]}>
+<Ability id="thorny-vines" extraClasses="subAbility" icon={["ranged"]}>
 <Pair single id="thorny-vines">Thorny Vines</Pair>
 <Pair title="Ability">Vines covered with thick thorns wrap around the target square. The thorny vines deal piercing damage, with a Reflex save for half damage. A creature that fails its save against <em>enhanced</em> thorny vines is <Link to="/rule/entangled">entangled</Link> for 1 round.</Pair>
 </Ability>
-<Ability id="volcanic-rift" extraClasses="subAbility" icon={["bowman"]}>
+<Ability id="volcanic-rift" extraClasses="subAbility" icon={["ranged"]}>
 <Pair single id="volcanic-rift">Volcanic Rift</Pair>
 <Pair title="Ability">A magmatic rift emits a plume of fire into the air, dealing fire damage to the target square, with a Fortitude save for half damage. An <em>enhanced</em> volcanic rift also emits poisonous and corrosive gases; a creature that fails its save against the <em>enhanced</em> volcanic rift is <Link to="/misc/sickened">sickened</Link> for 1 round.</Pair>
 </Ability>
-<Ability id="aspect-of-disaster-su" icon={["armor-downgrade"]}>
+<Ability id="aspect-of-disaster-su" icon={["lower"]}>
 <Pair single id="aspect-of-disaster-su">Aspect of Disaster (Su)</Pair>
 <Pair hl title="Replaces">Aspect of war</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -78,7 +78,7 @@ const _champion_of_the_faith = {title: "Champion of the Faith", jsx: <><h2 id="a
 <p>His chosen alignment's opposite is referred to as his opposed alignment. Good and evil oppose one another, just as law and chaos oppose one another.</p>
 </Pair>
 </Ability>
-<Ability id="sacred-weapon-su" icon={["broken-shield","upgrade"]}>
+<Ability id="sacred-weapon-su" icon={["down","boost"]}>
 <Pair single id="sacred-weapon-su">Sacred Weapon (Su)</Pair>
 <Pair hl title="Alters">Sacred weapon</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -88,13 +88,13 @@ const _champion_of_the_faith = {title: "Champion of the Faith", jsx: <><h2 id="a
 <Pair title="At 16th Level">He can use this ability twice a day.</Pair>
 <Pair title="At 20th Level">He can use this three times a day.</Pair>
 </Ability>
-<Ability id="detect-alignment-sp" icon={["magic-swirl"]}>
+<Ability id="detect-alignment-sp" icon={["magic"]}>
 <Pair single id="detect-alignment-sp" flavor="A champion of the faith can detect his opposed alignment.">Detect Alignment (Sp)</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 3rd level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Move-Equivalent Action">The champion of the faith can focus on a single item or creature within 60 feet and determine whether it possesses his opposed alignment, as <Link to="/spell/detect_evil">detect chaos/evil/good/law</Link>, learning the strength of the aura as if he had studied it for 3 rounds. The champion of the faith does not detect alignment in any other object or creature when using this ability in this way.</Pair>
 </Ability>
-<Ability id="smite-su" icon={["armor-downgrade","armor-upgrade"]}>
+<Ability id="smite-su" icon={["lower","def"]}>
 <Pair single id="smite-su" flavor="A champion of the faith can focus his powers against his chosen foes.">Smite (Su)</Pair>
 <Pair hl title="Replaces">Channel energy</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -108,25 +108,25 @@ const _champion_of_the_faith = {title: "Champion of the Faith", jsx: <><h2 id="a
 </>};
 const _cult_leader = {title: "Cult Leader", jsx: <><h2 id="arc-warpriest-cult_leader-cult-leader">Cult Leader</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 128</Link><br/>Referred to as fanatics, lunatics, or obsessives, cultists see themselves as genuine devotees of their deity. And the hierarchs of those devotees, the cult leaders, are the most fanatical of them all. Cult leaders are known for turning reasonable hearts toward corrupted teachings and striking at those that get in the way of their agenda.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (engineering), Ride, Survival, Swim</Pair></Ability>
-<Ability id="skill-ranks-per-level" icon={["upgrade"]}>
+<Ability id="skill-ranks-per-level" icon={["boost"]}>
 <Pair single id="skill-ranks-per-level">Skill Ranks per Level</Pair>
 <Pair title="Info">4 + Int modifier.</Pair>
 </Ability>
-<Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["down"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Replaces">Weapon and armor proficiencies</Pair>
 <Pair title="Info">Cult leaders are proficient with all simple weapons, plus the <Link to="/eq-weapon/hand_crossbow">hand crossbow</Link>, <Link to="/eq-weapon/rapier">rapier</Link>, <Link to="/eq-weapon/sap">sap</Link>, <Link to="/eq-weapon/shortbow">shortbow</Link>, and <Link to="/eq-weapon/short_sword">short sword</Link>, as well as the favored weapon of their deity. They are proficient with light armor and light shields. The cult leader does not gain <Link to="/feat/weapon_focus">Weapon Focus</Link> as a bonus feat as a warpriest normally would.</Pair>
 </Ability>
-<Ability id="well-hidden-ex" icon={["upgrade"]}>
+<Ability id="well-hidden-ex" icon={["boost"]}>
 <Pair single id="well-hidden-ex">Well-Hidden (Ex)</Pair>
 <Pair hl title="Replaces">Focus weapon</Pair>
 <Pair title="Passive Ability">A cult leader gains a +2 bonus on Disguise and Stealth checks.</Pair>
 </Ability>
-<Ability id="sneak-attack-ex" icon={["stairs-goal"]}>
+<Ability id="sneak-attack-ex" icon={["power"]}>
 <Pair single id="sneak-attack-ex">Sneak Attack (Ex)</Pair>
 <Pair hl title="Replaces">Bonus feats gained at 3rd, 9th, and 15th levels</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -137,13 +137,13 @@ const _cult_leader = {title: "Cult Leader", jsx: <><h2 id="arc-warpriest-cult_le
 <Pair title="At 15th Level">The damage increases to 5d6.</Pair>
 <Pair title="At 18th Level">The damage becomes 6d6.</Pair>
 </Ability>
-<Ability id="enthrall-sp" icon={["magic-swirl"]}>
+<Ability id="enthrall-sp" icon={["magic"]}>
 <Pair single id="enthrall-sp">Enthrall (Sp)</Pair>
 <Pair hl title="Replaces">Channel energy</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A cult leader can cast <Link to="/spell/enthrall">enthrall</Link>. Using this ability consumes two uses of his <em>fervor</em> ability.</Pair>
 </Ability>
-<Ability id="hide-in-plain-sight-su" icon={["stairs-goal"]}>
+<Ability id="hide-in-plain-sight-su" icon={["power"]}>
 <Pair single id="hide-in-plain-sight-su">Hide in Plain Sight (Su)</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 12th level</Pair>
 <Pair title="Gained">At 12th Level</Pair>
@@ -160,13 +160,13 @@ const _disenchanter = {title: "Disenchanter", jsx: <><h2 id="arc-warpriest-disen
 <Pair title="At 12th Level">He adds the following feats to this list: <Link to="/feat/destructive_dispel">Destructive Dispel</Link>, <Link to="/feat/dispelling_critical">Dispelling Critical</Link>, <Link to="/feat/parry_spell">Parry Spell</Link>, and <Link to="/feat/ray_shield">Ray Shield</Link>.</Pair>
 <Pair title="Special">He need not meet the prerequisites for these feats.</Pair>
 </Ability>
-<Ability id="mystic-interference-su" icon={["armor-upgrade","shield-reflect"]}>
+<Ability id="mystic-interference-su" icon={["def","protect"]}>
 <Pair single id="mystic-interference-su">Mystic Interference (Su)</Pair>
 <Pair hl title="Replaces">Channel energy</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A disenchanter can channel a <Link to="/misc/burst">burst</Link> of pure abjuration magic to grant protection to himself and all allies with 30 feet. Affected creatures receive a bonus on saving throws against spells and spell-like abilities for a number of rounds equal to his warpriest level. The bonus is equal to <Link to="/misc/one_fourth">one-fourth</Link> of his warpriest level. This is a sacred bonus if the warpriest is good-aligned or able to spontaneously cast <em>cure</em> spells, and a profane bonus if the warpriest is evil-aligned or able to spontaneously cast <em>inflict</em> spells. Using this ability consumes two uses of his <em>fervor</em> ability.</Pair>
 </Ability>
-<Ability id="banish-enchantment-su" icon={["magic-swirl"]}>
+<Ability id="banish-enchantment-su" icon={["magic"]}>
 <Pair single id="banish-enchantment-su" flavor="A disenchanter learns to focus his mystic interference.">Banish Enchantment (Su)</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 6th level</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -179,13 +179,13 @@ const _divine_champion = {title: "Divine Champion", jsx: <><h2 id="arc-warpriest
 <Pair single id="devotion">Devotion</Pair>
 <Pair title="Info">A divine champion's power comes from his close connection to his deity. He must worship a deity, and must maintain the same alignment as that deity.</Pair>
 </Ability>
-<Ability id="obedient-champion" icon={["stairs-goal"]}>
+<Ability id="obedient-champion" icon={["power"]}>
 <Pair single id="obedient-champion">Obedient Champion</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 3rd level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">The divine champion gains <Link to="/feat/deific_obedience">Deific Obedience</Link> as a bonus feat, even if he doesn't meet the feat's prerequisites. When a divine champion gains boons from this feat, he gains the appropriate <strong>sentinel</strong> boon offered by his deity, rather than gaining the <strong>exalted</strong> boon.</Pair>
 </Ability>
-<Ability id="know-the-infidel-ex" icon={["upgrade"]}>
+<Ability id="know-the-infidel-ex" icon={["boost"]}>
 <Pair single id="know-the-infidel-ex" flavor="The divine champion becomes an expert at combating enemies of his faith.">Know the Infidel (Ex)</Pair>
 <Pair hl title="Replaces">Bonus feats gained at 6th, 12th, and 18th levels</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -196,7 +196,7 @@ const _divine_champion = {title: "Divine Champion", jsx: <><h2 id="arc-warpriest
 <Pair title="At 12th Level">The divine champion can select an additional deity to oppose. In addition, the bonus against the followers of any one deity he selected previously (including the one just selected, if so desired) increases by +2.</Pair>
 <Pair title="At 18th Level">The divine champion can select an additional deity to oppose. In addition, the bonus against the followers of any one deity he selected previously (including the one just selected, if so desired) increases by +2.</Pair>
 </Ability>
-<Ability id="fervent-boon-sp" icon={["magic-swirl"]}>
+<Ability id="fervent-boon-sp" icon={["magic"]}>
 <Pair single id="fervent-boon-sp" flavor="A divine champion can call upon his deity for minor boons.">Fervent Boon (Sp)</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 9th level</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -207,7 +207,7 @@ const _divine_champion = {title: "Divine Champion", jsx: <><h2 id="arc-warpriest
 </>};
 const _divine_commander = {title: "Divine Commander", jsx: <><h2 id="arc-warpriest-divine_commander-divine-commander">Divine Commander</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 129</Link><br/>Some warpriests are called to lead great armies and face legions of foes. These divine commanders live for war and fight for glory. Their hearts quicken at battle cries, and they charge forth with their deity's symbol held high. These leaders of armies do so to promote the agenda of their faith, and lead armies of devoted followers willing to give their lives for the cause. (Several of the divine commander's abilities reference and interact with the <Link to="/rule/mass_combat">mass combat rules</Link>.)</p>
-<Ability id="mount-ex" icon={["stairs-goal"]}>
+<Ability id="mount-ex" icon={["power"]}>
 <Pair single id="mount-ex">Mount (Ex)</Pair>
 <Pair hl title="Replaces">Blessings</Pair>
 <Pair title="Ability"><p>A divine commander gains the service of a loyal and trusty steed to carry her into battle. This mount functions as a druid's <Link to="/sidekick/animal_companion">animal companion</Link>, using the divine commander's level as her effective druid level. The creature must be one that she is capable of riding and must be suitable as a mount.</p>
@@ -215,7 +215,7 @@ const _divine_commander = {title: "Divine Commander", jsx: <><h2 id="arc-warprie
 <p>A divine commander does not take an armor check penalty on Ride checks while riding this mount. The mount is always considered combat trained, and begins play with <Link to="/feat/light_armor_proficiency">Light Armor Proficiency</Link> as a bonus feat. A divine commander's mount does not gain the <em>share spells</em> special ability. Should a divine commander's mount die, she can find another mount to serve her after 1 week of mourning. This new mount does not gain the <em>link, evasion, devotion,</em> or <em>improved evasion</em> special abilities until the next time the divine commander gains a level.</p>
 </Pair>
 </Ability>
-<Ability id="battle-tactician-ex" icon={["stairs-goal"]}>
+<Ability id="battle-tactician-ex" icon={["power"]}>
 <Pair single id="battle-tactician-ex">Battle Tactician (Ex)</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 3rd level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -231,7 +231,7 @@ const _divine_commander = {title: "Divine Commander", jsx: <><h2 id="arc-warprie
 <Pair title="At 17th Level">The amount of time allies gain this feat becomes 11 rounds.</Pair>
 <Pair title="At 19th Level">The amount of time allies gain this feat increases to 12 rounds.</Pair>
 </Ability>
-<Ability id="blessed-mount-su" icon={["upgrade","armor-upgrade"]}>
+<Ability id="blessed-mount-su" icon={["boost","def"]}>
 <Pair single id="blessed-mount-su">Blessed Mount (Su)</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 6th level</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -240,7 +240,7 @@ const _divine_commander = {title: "Divine Commander", jsx: <><h2 id="arc-warprie
 <p>If a divine commander's mount dies and the divine commander finds another mount, the new mount becomes a <em>blessed mount</em> the next time the divine commander gains a level.</p>
 </Pair>
 </Ability>
-<Ability id="greater-battle-tactician-ex" icon={["stairs-goal"]}>
+<Ability id="greater-battle-tactician-ex" icon={["power"]}>
 <Pair single id="greater-battle-tactician-ex">Greater Battle Tactician (Ex)</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 12th level</Pair>
 <Pair title="Gained">At 12th Level</Pair>
@@ -248,7 +248,7 @@ const _divine_commander = {title: "Divine Commander", jsx: <><h2 id="arc-warprie
 <p>Additionally, using the <em>battle tactician</em> ability is now a <strong className="hl">swift action</strong>.</p>
 </Pair>
 </Ability>
-<Ability id="bless-army-su" icon={["upgrade","shield-reflect"]}>
+<Ability id="bless-army-su" icon={["boost","protect"]}>
 <Pair single id="bless-army-su">Bless Army (Su)</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 15th level</Pair>
 <Pair title="Gained">At 15th Level</Pair>
@@ -258,24 +258,24 @@ const _divine_commander = {title: "Divine Commander", jsx: <><h2 id="arc-warprie
 </>};
 const _feral_champion = {title: "Feral Champion", jsx: <><h2 id="arc-warpriest-feral_champion-feral-champion">Feral Champion</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 97</Link><br/>When a warpriest devotes himself to a god of the natural world, he is sometimes blessed with supernatural powers that allow him to evoke animalistic power and fury.</p>
-<Ability id="feral-blessing" icon={["broken-shield"]}>
+<Ability id="feral-blessing" icon={["down"]}>
 <Pair single id="feral-blessing">Feral Blessing</Pair>
 <Pair hl title="Alters">Blessings</Pair>
 <Pair title="Info">A feral champion must take the <Link to="/blessing/animal">Animal</Link> blessing and does not gain a second blessing.</Pair>
 </Ability>
-<Ability id="sacred-claws-su" icon={["mailed-fist"]}>
+<Ability id="sacred-claws-su" icon={["melee"]}>
 <Pair single id="sacred-claws-su">Sacred Claws (Su)</Pair>
 <Pair hl title="Alters">Sacred weapon</Pair>
 <Pair title="Ability">Rather than empowering a physical weapon, a feral champion grows claws as primary <Link to="/umr/natural_weapons">natural weapons</Link> on each hand. These claws deal damage as a warpriest's <em>sacred weapon</em> and can be enhanced as such.</Pair>
 </Ability>
-<Ability id="wild-shape-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="wild-shape-su" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="wild-shape-su">Wild Shape (Su)</Pair>
 <Pair hl title="Replaces">Sacred armor</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per four warpriest levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Ability">A feral champion gains <em>wild shape,</em> as the <Link to="/class/druid">druid</Link> ability of the same name, and treats his warpriest level - 3 as his effective druid level for the purposes of this ability. However, a feral champion does not gain the ability to take on elemental or plant forms with wild shape.</Pair>
 </Ability>
-<Ability id="wild-shape-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Ability id="wild-shape-su" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="wild-shape-su" flavor="Text from the druid class ability.">Wild Shape (Su)</Pair>
 <Pair title="Standard Action">You gain the ability to turn yourself into any Small or Medium animal and back again. Your options for new forms include all creatures with the <Link to="/main/monsters_animals">animal</Link> type. This ability functions like the <Link to="/spell/beast_shape_i">beast shape I</Link> spell, except as noted here. The effect lasts for 1 hour per druid level, or until you change back. The form chosen must be that of an animal with which you are familiar.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
@@ -290,25 +290,25 @@ const _fist_of_the_godclaw = {title: "Fist of the Godclaw", jsx: <><h2 id="arc-w
 <Pair single id="deity">Deity</Pair>
 <Pair title="Info">A fist of the Godclaw must worship <Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/irori">Irori</Link>, or <Link to="/faith/torag">Torag</Link>. Alternatively, the fist of the Godclaw must venerate the pantheon of these deities known as the Godclaw.</Pair>
 </Ability>
-<Ability id="blessings-of-the-godclaw-ex" icon={["broken-shield"]}>
+<Ability id="blessings-of-the-godclaw-ex" icon={["down"]}>
 <Pair single id="blessings-of-the-godclaw-ex">Blessings of the Godclaw (Ex)</Pair>
 <Pair hl title="Alters">Blessings</Pair>
 <Pair title="Info">A fist of the Godclaw must select the <Link to="/blessing/law">Law</Link> blessing and the <Link to="/blessing/godclaw">Godclaw</Link> blessing.</Pair>
 </Ability>
-<Ability id="detect-chaos-sp" icon={["magic-swirl"]}>
+<Ability id="detect-chaos-sp" icon={["magic"]}>
 <Pair single id="detect-chaos-sp">Detect Chaos (Sp)</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 3rd level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A fist of the Godclaw can cast <Link to="/spell/detect_chaos">detect chaos</Link> three times per day as a spell-like ability, using his warpriest level as his caster level. If the fist of the Godclaw already has, or later gains, the ability to cast <em>detect chaos,</em> then he can cast <em>detect chaos</em> at will as a spell-like ability.</Pair>
 </Ability>
-<Ability id="alignment-channel-su" icon={["stairs-goal"]}>
+<Ability id="alignment-channel-su" icon={["power"]}>
 <Pair single id="alignment-channel-su">Alignment Channel (Su)</Pair>
 <Pair hl title="Replaces">Bonus feats gained at 6th level and 12th level</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">A fist of the Godclaw gains <Link to="/feat/alignment_channel">Alignment Channel</Link> as a bonus feat. When he uses this feat and spends <em>fervor</em> to <em>channel energy,</em> he can harm only outsiders with the chaotic subtype. Additionally, when using this feat, he expends only one use of his <em>fervor</em> to <em>channel energy</em> and deals 1d6 points of damage for every 2 warpriest levels he has.</Pair>
 <Pair title="At 12th Level">A fist of the Godclaw can expend an additional use of <em>fervor</em> to <em>channel energy</em> as a <strong className="hl">move action</strong>.</Pair>
 </Ability>
-<Ability id="aspect-of-law-ex" icon={["upgrade","armor-upgrade","rolling-dices"]}>
+<Ability id="aspect-of-law-ex" icon={["boost","def","roll"]}>
 <Pair single id="aspect-of-law-ex" flavor="A fist of the Godclaw can channel an aspect of law, growing even more inflexible.">Aspect of Law (Ex)</Pair>
 <Pair hl title="Replaces">Aspect of war</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -317,12 +317,12 @@ const _fist_of_the_godclaw = {title: "Fist of the Godclaw", jsx: <><h2 id="arc-w
 </>};
 const _forgepriest = {title: "Forgepriest", jsx: <><h2 id="arc-warpriest-forgepriest-forgepriest">Forgepriest</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 130</Link><br/>Armorers of exquisite skill, forgepriests take inspiration from their deity to produce the most perfect weapons and armor they can, the better to equip the armies of the faithful.</p>
-<Ability id="blessings" icon={["broken-shield"]}>
+<Ability id="blessings" icon={["down"]}>
 <Pair single id="blessings">Blessings</Pair>
 <Pair hl title="Alters">Blessings</Pair>
 <Pair title="Info">A forgepriest selects only one blessing.</Pair>
 </Ability>
-<Ability id="smiths-spells" icon={["spell-book"]}>
+<Ability id="smiths-spells" icon={["learn"]}>
 <Pair single id="smiths-spells">Smith's Spells</Pair>
 <Pair title="Info">A forgepriest adds the following spells to his spell list at the listed spell level.</Pair>
 <Pair plain title="1st"><Link to="/spell/jury_rig">Jury rig</Link>, <Link to="/spell/shield">shield</Link></Pair>
@@ -332,31 +332,31 @@ const _forgepriest = {title: "Forgepriest", jsx: <><h2 id="arc-warpriest-forgepr
 <Pair plain title="5th"><Link to="/spell/fabricate">Fabricate</Link>, <Link to="/spell/major_creation">major creation</Link></Pair>
 <Pair plain title="6th"><Link to="/spell/mages_sword">Mage's sword</Link></Pair>
 </Ability>
-<Ability id="forge-mastery-ex" icon={["upgrade"]}>
+<Ability id="forge-mastery-ex" icon={["boost"]}>
 <Pair single id="forge-mastery-ex">Forge Mastery (Ex)</Pair>
 <Pair hl title="Replaces">2nd blessing normally gained by a warpriest</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A forgepriest adds a bonus equal to half his level to all Craft checks to make metal items, armor, and weapons.</Pair>
 </Ability>
-<Ability id="bonus-feats" icon={["upgrade"]}>
+<Ability id="bonus-feats" icon={["boost"]}>
 <Pair single id="bonus-feats">Bonus Feats</Pair>
 <Pair hl title="Alters">Bonus feats</Pair>
 <Pair title="Info">A forgepriest can select <Link to="/main/item_creation_feat">item creation feats</Link> in addition to combat feats when he gains a bonus feat.</Pair>
 </Ability>
-<Ability id="craft-magic-arms-and-armor" icon={["stairs-goal"]}>
+<Ability id="craft-magic-arms-and-armor" icon={["power"]}>
 <Pair single id="craft-magic-arms-and-armor">Craft Magic Arms and Armor</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 3rd level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A forgepriest gains <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="creators-bond-su" icon={["upgrade"]}>
+<Ability id="creators-bond-su" icon={["boost"]}>
 <Pair single id="creators-bond-su">Creator's Bond (Su)</Pair>
 <Pair hl title="Replaces">Channel energy</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">When a forgepriest uses his <em>sacred weapon</em> ability with an item he created personally, he can expend two uses of his <em>fervor</em> ability to increase the bonus granted by 1.</Pair>
 <Pair title="Special">Once the forgepriest has the <em>sacred armor</em> ability, he can also use this ability in conjunction with that.</Pair>
 </Ability>
-<Ability id="heat-of-the-forge-su" icon={["armor-upgrade"]}>
+<Ability id="heat-of-the-forge-su" icon={["def"]}>
 <Pair single id="heat-of-the-forge-su">Heat of the Forge (Su)</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 6th level</Pair>
 <Pair title="At 6th Level">A forgepriest gains fire resistance 5.</Pair>
@@ -365,26 +365,26 @@ const _forgepriest = {title: "Forgepriest", jsx: <><h2 id="arc-warpriest-forgepr
 </>};
 const _jistkan_magistrate = {title: "Jistkan Magistrate", jsx: <><h2 id="arc-warpriest-jistkan_magistrate-jistkan-magistrate">Jistkan Magistrate</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 17</Link><br/>Some warpriests study the ancient magic that the Jistkan magistrates used to bind elementals and make pacts with genies. By tapping into the elementals' primal magic, these warpriests gain powers that help them in combat.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-warpriest-jistkan_magistrate--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must worship a deity who grants the <Link to="/blessing/air">Air</Link>, <Link to="/blessing/earth">Earth</Link>, <Link to="/blessing/fire">Fire</Link>, or <Link to="/blessing/water">Water</Link> blessing</td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-warpriest-jistkan_magistrate--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must worship a deity who grants the <Link to="/blessing/air">Air</Link>, <Link to="/blessing/earth">Earth</Link>, <Link to="/blessing/fire">Fire</Link>, or <Link to="/blessing/water">Water</Link> blessing</td></tr></tbody></table></ScrollContainer></div><Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Survival</Pair></Ability>
-<Ability id="elemental-binder-su" icon={["broken-shield"]}>
+<Ability id="elemental-binder-su" icon={["down"]}>
 <Pair single id="elemental-binder-su">Elemental Binder (Su)</Pair>
 <Pair hl title="Alters">Blessings</Pair>
 <Pair title="Info">A Jistkan magistrate must select the Air, Earth, Fire, or Water blessing. He does not gain a second blessing.</Pair>
 </Ability>
-<Ability id="spontaneous-summons" icon={["magic-swirl"]}>
+<Ability id="spontaneous-summons" icon={["magic"]}>
 <Pair single id="spontaneous-summons" flavor="A Jistkan magistrate is extremely flexible in channeling his stored spell energy.">Spontaneous Summons</Pair>
 <Pair hl title="Alters">Spontaneous casting</Pair>
 <Pair title="Ability">In addition to losing prepared spells to cast "cure" or "inflict" spells, he can also lose a prepared spell in order to cast any <Link to="/spell/summon_monster">summon monster</Link> spell of the same level or lower. He can use this ability only to summon an <Link to="/family/elemental">elemental</Link> whose subtype matches his blessing. He can expend one use of his <em>fervor</em> ability to decrease the spell's casting time to 1 <strong className="hl">standard action</strong> and to increase the spell's duration to 1 minute per level.</Pair>
 </Ability>
-<Ability id="bonus-languages" icon={["upgrade"]}>
+<Ability id="bonus-languages" icon={["boost"]}>
 <Pair single id="bonus-languages">Bonus Languages</Pair>
 <Pair hl title="Alters">Bonus languages</Pair>
 <Pair title="Passive Ability">A Jistkan magistrate's bonus language options include Aquan, Auran, Ignan, and Terran instead of Abyssal, Celestial, and Infernal. These choices are in addition to the bonus languages available to the character because of his race.</Pair>
 </Ability>
-<Ability id="channel-element-su" icon={["stairs-goal"]}>
+<Ability id="channel-element-su" icon={["power"]}>
 <Pair single id="channel-element-su">Channel Element (Su)</Pair>
 <Pair hl title="Alters">Channel</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -418,18 +418,18 @@ const _jistkan_magistrate = {title: "Jistkan Magistrate", jsx: <><h2 id="arc-war
 </>};
 const _libertys_blade = {title: "Liberty's Blade", jsx: <><h2 id="arc-warpriest-libertys_blade-libertys-blade">Liberty's Blade</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins pg. 24</Link><br/>There are some who find in the call to freedom something primal and spiritual, even more so than other Andorens. These liberty's blades become warpriests of deities who spread freedom, and they head to lives of adventure as <Link to="/rule/eagle_knights">Eagle Knights</Link> or adventurers, championing liberty wherever they go.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-warpriest-libertys_blade--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must worship a good deity who grants the Liberation blessing</td></tr></tbody></table></ScrollContainer></div><Ability id="freedoms-focus-su" icon={["broken-shield"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-warpriest-libertys_blade--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must worship a good deity who grants the Liberation blessing</td></tr></tbody></table></ScrollContainer></div><Ability id="freedoms-focus-su" icon={["down"]}>
 <Pair single id="freedoms-focus-su">Freedom's Focus (Su)</Pair>
 <Pair hl title="Alters">Blessings</Pair>
 <Pair title="Info">A liberty's blade must select the <Link to="/blessing/liberation">Liberation</Link> blessing. He does not gain a second blessing.</Pair>
 </Ability>
-<Ability id="devilslayer-su" icon={["upgrade"]}>
+<Ability id="devilslayer-su" icon={["boost"]}>
 <Pair single id="devilslayer-su">Devilslayer (Su)</Pair>
 <Pair hl title="Alters">Sacred weapon</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A liberty's blade adds <Link to="/magic-enh/bane">devil bane</Link> to the list of enhancements he can add to his <em>sacred weapon.</em></Pair>
 </Ability>
-<Ability id="channel-liberty-su" icon={["broken-shield","upgrade"]}>
+<Ability id="channel-liberty-su" icon={["down","boost"]}>
 <Pair single id="channel-liberty-su">Channel Liberty (Su)</Pair>
 <Pair hl title="Alters">Channel energy</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -437,7 +437,7 @@ const _libertys_blade = {title: "Liberty's Blade", jsx: <><h2 id="arc-warpriest-
 <p>When channeling to harm, the liberty's blade harms devils as if using <Link to="/feat/alignment_channel">Alignment Channel</Link> instead of harming undead, and she deals double the normal amount of damage.</p>
 </Pair>
 </Ability>
-<Ability id="shield-against-hellspawn-su" icon={["upgrade"]}>
+<Ability id="shield-against-hellspawn-su" icon={["boost"]}>
 <Pair single id="shield-against-hellspawn-su">Shield Against Hellspawn (Su)</Pair>
 <Pair hl title="Alters">Sacred armor</Pair>
 <Pair title="Gained">At 7th Level</Pair>
@@ -446,16 +446,16 @@ const _libertys_blade = {title: "Liberty's Blade", jsx: <><h2 id="arc-warpriest-
 </>};
 const _mantis_zealot = {title: "Mantis Zealot", jsx: <><h2 id="arc-warpriest-mantis_zealot-mantis-zealot">Mantis Zealot</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 157</Link>, <Link to="/source/advanced_class_origins">Advanced Class Origins pg. 25</Link><br/>Among the <Link to="/rule/red_mantis">Red Mantis</Link> worshipers of Achaekek, some hold such strong faith in their assassin god that they gain divine power. They forge themselves into perfect killers in honor of He Who Walks in Blood. These warpriests are a relatively recent addition to the Red Mantis arsenal, but in the few short decades they have served the assassins, they have quickly built a reputation for themselves as particularly fanatical devotees of the Mantis God. Their penchant for taking the faith's writings verbatim and for overwhelming and often destructive pedantry serves them well in matters of loyalty to Achaekek (and particularly when it comes to drafting contracts for assassinations that favor the organization in financial and tactical ways), but it offers little room for complex cases that would benefit from bending the rules, making them unsuitable for missions that require diplomatic finesse. In addition, the rising incidence of mantis zealots accusing fellow worshipers of Achaekek of heresy and blasphemy, resulting in internal accusations, exiles, and even fullblown assassinations, increasingly makes them objects of fear and distrust among even their own kind. Whether the rise of the mantis zealot presages a dramatic upcoming shift in the religion's hierarchy and methods, or whether the faction may be burning too bright for its own good and is hurtling toward self-annihilation, remains to be seen.</p>
-<Ability id="mantis-sworn-ex" icon={["hazard-sign"]}>
+<Ability id="mantis-sworn-ex" icon={["warning"]}>
 <Pair single id="mantis-sworn-ex">Mantis Sworn (Ex)</Pair>
 <Pair title="Info">A mantis zealot must choose <Link to="/faith/achaekek">Achaekek</Link> as his deity, and he must be lawful evil in alignment. If he ever changes his deity, he loses this archetype and becomes a normal warpriest.</Pair>
 </Ability>
-<Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["down"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Replaces">Weapon and armor proficiencies</Pair>
 <Pair title="Ability">Mantis zealots are proficient with simple and martial weapons, as well as with the <Link to="/eq-weapon/sawtooth_sabre">sawtooth sabre</Link>. They are proficient with light armor but not with shields.</Pair>
 </Ability>
-<Ability id="sneak-attack-ex" icon={["stairs-goal"]}>
+<Ability id="sneak-attack-ex" icon={["power"]}>
 <Pair single id="sneak-attack-ex">Sneak Attack (Ex)</Pair>
 <Pair hl title="Replaces">Sacred weapon</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -466,7 +466,7 @@ const _mantis_zealot = {title: "Mantis Zealot", jsx: <><h2 id="arc-warpriest-man
 <Pair title="At 20th Level">This damage increases to +5d6.</Pair>
 <Pair title="Special">If the zealot gets a sneak attack bonus from another source, the bonuses stack.</Pair>
 </Ability>
-<Ability id="sacred-reflexes-su" icon={["armor-upgrade"]}>
+<Ability id="sacred-reflexes-su" icon={["def"]}>
 <Pair single id="sacred-reflexes-su" flavor="A mantis zealot can emulate Achaekek's grace and move with a supernatural fluidity.">Sacred Reflexes (Su)</Pair>
 <Pair hl title="Replaces">Sacred armor</Pair>
 <Pair title="Gained">At 7th Level</Pair>
@@ -477,7 +477,7 @@ const _mantis_zealot = {title: "Mantis Zealot", jsx: <><h2 id="arc-warpriest-man
 <Pair title="At 16th Level">He can activate this ability as part of making an initiative check, before rolling the die.</Pair>
 <Pair title="At 19th Level">He gains <em>improved evasion</em> instead of <em>evasion.</em></Pair>
 </Ability>
-<Ability id="aspect-of-the-mantis-su" icon={["upgrade"]}>
+<Ability id="aspect-of-the-mantis-su" icon={["boost"]}>
 <Pair single id="aspect-of-the-mantis-su">Aspect of the Mantis (Su)</Pair>
 <Pair hl title="Alters">Aspect of war</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -486,7 +486,7 @@ const _mantis_zealot = {title: "Mantis Zealot", jsx: <><h2 id="arc-warpriest-man
 </>};
 const _molthuni_arsenal_chaplain = {title: "Molthuni Arsenal Chaplain", jsx: <><h2 id="arc-warpriest-molthuni_arsenal_chaplain-molthuni-arsenal-chaplain">Molthuni Arsenal Chaplain</h2>
 <p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook pg. 6</Link><br/>Molthuni arsenal chaplains are warpriests trained in the Arsenal District in Korholm. They bolster their nation's military by focusing on the militant aspects of their gods.</p>
-<Ability id="war-blessing-su" icon={["stairs-goal","broken-shield"]}>
+<Ability id="war-blessing-su" icon={["power","down"]}>
 <Pair single id="war-blessing-su">War Blessing (Su)</Pair>
 <Pair hl title="Replaces">Sacred armor</Pair>
 <Pair hl title="Alters">Blessing</Pair>
@@ -496,18 +496,18 @@ const _molthuni_arsenal_chaplain = {title: "Molthuni Arsenal Chaplain", jsx: <><
 <Pair title="At 16th Level">A Molthuni arsenal chaplain can use the War blessing on a second target with a single use of the blessing ability.</Pair>
 <Pair title="At 19th Level">A Molthuni arsenal chaplain can use the War blessing on any number of targets at once with a single use of the blessing ability.</Pair>
 </Ability>
-<Ability id="sacred-weapon-su" icon={["broken-shield"]}>
+<Ability id="sacred-weapon-su" icon={["down"]}>
 <Pair single id="sacred-weapon-su">Sacred Weapon (Su)</Pair>
 <Pair hl title="Alters">Sacred weapon</Pair>
 <Pair title="Info">The base damage of a Molthuni arsenal chaplain's <em>sacred weapon</em> does not increase above 1d6.</Pair>
 </Ability>
-<Ability id="weapon-training-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="weapon-training-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="weapon-training-ex">Weapon Training (Ex)</Pair>
 <Pair hl title="Replaces">Channel energy</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A Molthuni arsenal chaplain gains <em>weapon training</em> as per the <Link to="/class/fighter">fighter</Link> class feature, but the benefits of this weapon training apply only to the his sacred weapons (weapons with which the warpriest has taken <Link to="/feat/weapon_focus">Weapon Focus</Link>).</Pair>
 </Ability>
-<Ability id="weapon-training-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="weapon-training-ex" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="weapon-training-ex" flavor="Text from the fighter class ability.">Weapon Training (Ex)</Pair>
 <Pair title="Passive Ability">Select one <Link to="/ability/weapon_groups">weapon group</Link>. Whenever you attack with a weapon from this group, you gain a +1 bonus on attack and damage rolls. You also add this bonus to any combat maneuver checks made with weapons from this group. This bonus also applies to your <Link to="/rule/cmd">CMD</Link> when defending against <Link to="/rule/disarm">disarm</Link> and <Link to="/rule/sunder">sunder</Link> attempts made against weapons from this group.</Pair>
 <Pair title="At 9th Level">You select a new weapon group and gain the +1 bonus when using weapons from that group. Your previously selected group's bonus increases to +2.</Pair>
@@ -523,7 +523,7 @@ const _proclaimer = {title: "Proclaimer", jsx: <><h2 id="arc-warpriest-proclaime
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Info">A proclaimer cannot be evil or worship an evil deity, and he must choose <Link to="/main/cure_spells">cure spells</Link> for his spontaneous casting.</Pair>
 </Ability>
-<Ability id="cleanser-of-evil-su" icon={["aura","broken-shield"]}>
+<Ability id="cleanser-of-evil-su" icon={["aura","down"]}>
 <Pair single id="cleanser-of-evil-su">Cleanser of Evil (Su)</Pair>
 <Pair hl title="Replaces">Sacred armor</Pair>
 <Pair hl title="Alters">Fervor</Pair>
@@ -549,12 +549,12 @@ const _proclaimer = {title: "Proclaimer", jsx: <><h2 id="arc-warpriest-proclaime
 </>};
 const _proselytizer = {hasJL:true,title: "Proselytizer", jsx: <><div className="jumpList" id="arc-warpriest-proselytizer-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arc-warpriest-proselytizer-converting-npcs">Converting NPCs</InnerLink></li><li><InnerLink toTop to="arc-warpriest-proselytizer-successful-conversion">Successful Conversion</InnerLink></li></ul></div><h2 id="arc-warpriest-proselytizer-proselytizer">Proselytizer</h2>
 <p><strong>Sources</strong> <Link to="/source/cohorts_and_companions">Cohorts and Companions pg. 24</Link><br/>The proselytizer is the perfect militant missionary. He seeks to win the hearts and lay claim to the souls of those he meets, and - failing that - spreads the word of his deity at the edge of the sword.</p>
-<Ability id="weapon-and-armor-proficiencies" icon={["broken-shield","stairs-goal"]}>
+<Ability id="weapon-and-armor-proficiencies" icon={["down","power"]}>
 <Pair single id="weapon-and-armor-proficiencies">Weapon and Armor Proficiencies</Pair>
 <Pair hl title="Alters">Weapon and armor proficiencies</Pair>
 <Pair title="Info">A proselytizer does not gain proficiency with heavy armor or with all martial weapons, though he does gain proficiency in his deity's favored weapon. If his deity's favored weapon is unarmed strike, he gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="emotional-appeal" icon={["spell-book"]}>
+<Ability id="emotional-appeal" icon={["learn"]}>
 <Pair single id="emotional-appeal" flavor="A proselytizer has great power over the emotions of others, wielding his voice like a weapon to pierce the heart of listeners and bring them closer to communion with his deity's power.">Emotional Appeal</Pair>
 <Pair hl title="Replaces">Sacred armor, 3rd-level bonus feat</Pair>
 <Pair title="Info">The warpriest adds the following spells to his warpriest spell list at the indicated spell levels. He casts these as divine warpriest spells.</Pair>
@@ -565,18 +565,18 @@ const _proselytizer = {hasJL:true,title: "Proselytizer", jsx: <><div className="
 <Pair plain title="5th"><Link to="/spell/mass_castigate">Mass castigate</Link>, <Link to="/spell/mass_suggestion">mass suggestion</Link></Pair>
 <Pair plain title="6th"><Link to="/spell/antipathy">Antipathy</Link>, <Link to="/spell/sympathy">sympathy</Link></Pair>
 </Ability>
-<Ability id="sacred-subdual-su" icon={["broken-shield"]}>
+<Ability id="sacred-subdual-su" icon={["down"]}>
 <Pair single id="sacred-subdual-su">Sacred Subdual (Su)</Pair>
 <Pair hl title="Alters">Sacred weapon</Pair>
 <Pair title="Ability">When a proselytizer uses his <em>sacred weapon</em> damage in place of his normal weapon damage, all damage he deals with that weapon is nonlethal damage.</Pair>
 </Ability>
-<Ability id="blessing-of-conversion" icon={["info","broken-shield"]}>
+<Ability id="blessing-of-conversion" icon={["info","down"]}>
 <Pair single id="blessing-of-conversion">Blessing of Conversion</Pair>
 <Pair hl title="Alters">Blessings</Pair>
 <Pair title="Info">The proselytizer always gains the conversion bonus (see below) upon converting an NPC, rather than only the first time he does so each level. The bonuses overlap their durations, and do not stack.</Pair>
 <Pair title="At 3rd Level">The proselytizer does not gain access to the minor blessings granted by his <em>blessing</em> class feature until 3rd level.</Pair>
 </Ability>
-<Ability id="voice-of-the-faithful-ex" icon={["stairs-goal"]}>
+<Ability id="voice-of-the-faithful-ex" icon={["power"]}>
 <Pair single id="voice-of-the-faithful-ex">Voice of the Faithful (Ex)</Pair>
 <Pair hl title="Alters">Blessings (major)</Pair>
 <Pair title="At 10th Level">A proselytizer of can expend a use of his major blessing to be able to speak to and understand any creature with a language for 1 hour.</Pair>
@@ -722,17 +722,17 @@ const _proselytizer = {hasJL:true,title: "Proselytizer", jsx: <><div className="
 </>};
 const _sacred_fist = {title: "Sacred Fist", jsx: <><h2 id="arc-warpriest-sacred_fist-sacred-fist">Sacred Fist</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 130</Link><br/>Unlike many warpriests, sacred fists leave behind armor and shield and instead rely on their fists and whatever protection their deity bestows on them.</p>
-<Ability icon={["skills"]} id="class-skills">
+<Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (engineering), Survival</Pair></Ability>
-<Ability id="weapon-and-armor-proficiency" icon={["stairs-goal","broken-shield"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["power","down"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Replaces">Weapon and armor proficiency</Pair>
 <Pair title="Info">Sacred fists are proficient with the <Link to="/eq-weapon/club">club</Link>, <Link to="/eq-weapon/light_crossbow">light crossbow</Link>, <Link to="/eq-weapon/heavy_crossbow">heavy crossbow</Link>, <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/handaxe">handaxe</Link>, <Link to="/eq-weapon/javelin">javelin</Link>, <Link to="/eq-weapon/kama">kama</Link>, <Link to="/eq-weapon/nunchaku">nunchaku</Link>, <Link to="/eq-weapon/quarterstaff">quarterstaff</Link>, <Link to="/eq-weapon/sai">sai</Link>, <Link to="/eq-weapon/shortspear">shortspear</Link>, <Link to="/eq-weapon/short_sword">short sword</Link>, <Link to="/eq-weapon/shuriken">shuriken</Link>, <Link to="/eq-weapon/siangham">siangham</Link>, <Link to="/eq-weapon/sling">sling</Link>, and <Link to="/eq-weapon/spear">spear</Link>. Sacred fists are not proficient with any armor or shields.</Pair>
 <Pair title="Special">When wearing armor, using a shield, or carrying a medium or heavy load, a sacred fist loses his <em>AC bonus</em> and <em>flurry of blows.</em></Pair>
 </Ability>
-<Ability id="ac-bonus-su" icon={["armor-upgrade"]}>
+<Ability id="ac-bonus-su" icon={["def"]}>
 <Pair single id="ac-bonus-su" flavor="A deity protects her sacred fist as long as he is unarmored and unencumbered.">AC Bonus (Su)</Pair>
 <Pair title="Passive Ability">A sacred fist adds his Wisdom modifier (minimum 0) to his AC and his CMD.</Pair>
 <Pair title="At 4th Level">A sacred fist gains a dodge bonus to AC and CMD. This bonus is equal to <Link to="/misc/one_fourth">one-fourth</Link> of his warpriest level.</Pair>
@@ -740,13 +740,13 @@ const _sacred_fist = {title: "Sacred Fist", jsx: <><h2 id="arc-warpriest-sacred_
 <p>This counts as the <Link to="/class/monk">monk</Link> ability of the same name, and the sacred fist's warpriest levels stack with monk levels for determining the benefits.</p>
 </Pair>
 </Ability>
-<Ability id="flurry-of-blows-ex" extraClasses="hasSubs" icon={["mailed-fist"]}>
+<Ability id="flurry-of-blows-ex" extraClasses="hasSubs" icon={["melee"]}>
 <Pair single id="flurry-of-blows-ex">Flurry of Blows (Ex)</Pair>
 <Pair hl title="Replaces">Sacred weapon</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A sacred fist can make a flurry of blows attack as a full-attack action. This ability works like the monk ability of the same name, except the sacred fist's attack bonus from warpriest levels does not count as his warpriest level.</Pair>
 </Ability>
-<Ability id="flurry-of-blows-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="flurry-of-blows-ex" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="flurry-of-blows-ex" flavor="Text from the monk class ability.">Flurry of Blows (Ex)</Pair>
 <Pair title="Ability"><p>You can make a flurry of blows as a full-attack action. When doing so you may make one additional attack using any combination of unarmed strikes or attacks with a special monk weapon (kama, nunchaku, quarterstaff, sai, shuriken, and siangham) as if using the <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link> feat (even if you do not meet the prerequisites for the feat). For the purpose of these attacks, your base attack bonus from your monk class levels is equal to your monk level. For all other purposes, such as qualifying for a feat or a prestige class, you use your normal base attack bonus.</p>
 <p>You apply your full Strength bonus to your damage rolls for all successful attacks made with flurry of blows, whether the attacks are made with an off-hand or with a weapon wielded in both hands. You may substitute <Link to="/rule/disarm">disarm</Link>, <Link to="/rule/sunder">sunder</Link>, and <Link to="/rule/trip">trip</Link> combat maneuvers for unarmed attacks as part of a flurry of blows. You cannot use any weapon other than an unarmed strike or a special monk weapon as part of a flurry of blows. You cannot use natural weapons (if you have any) as part of a flurry of blows, nor can you make natural attacks in addition to your flurry of blows attacks.</p>
@@ -754,13 +754,13 @@ const _sacred_fist = {title: "Sacred Fist", jsx: <><h2 id="arc-warpriest-sacred_
 <Pair title="At 8th Level">You can make two additional attacks when you use flurry of blows, as if using <Link to="/feat/improved_two_weapon_fighting">Improved Two-Weapon Fighting</Link> (even if you do not meet the prerequisites for the feat).</Pair>
 <Pair title="At 15th Level">You can make three additional attacks when you use flurry of blows, as if using <Link to="/feat/greater_two_weapon_fighting">Greater Two-Weapon Fighting</Link> (even if you do not meet the prerequisites for the feat).</Pair>
 </Ability>
-<Ability id="unarmed-strike" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="unarmed-strike" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="unarmed-strike">Unarmed Strike</Pair>
 <Pair hl title="Replaces">Focus weapon</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A sacred fist gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat. He uses his warpriest levels as monk levels for determining the amount of damage dealt with an unarmed strike.</Pair>
 </Ability>
-<Ability id="unarmed-strike" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="unarmed-strike" extraClasses="subAbility" icon={["melee"]}>
 <Pair single id="unarmed-strike" flavor="Relevant text from the monk class.">Unarmed Strike</Pair>
 <Pair title="Info">The amount of damage you deal depends on your size.</Pair>
 <Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
@@ -770,14 +770,14 @@ const _sacred_fist = {title: "Sacred Fist", jsx: <><h2 id="arc-warpriest-sacred_
 <Pair title="At 16th Level">Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.</Pair>
 <Pair title="At 20th Level">Your unarmed strike now deals 2d8 (Small), 2d10 (Medium), or 4d8 (Large) damage.</Pair>
 </Ability>
-<Ability id="blessed-fortitude-su" icon={["armor-upgrade"]}>
+<Ability id="blessed-fortitude-su" icon={["def"]}>
 <Pair single id="blessed-fortitude-su" flavor="A sacred fist can avoid even magical and unusual attacks with help from his deity.">Blessed Fortitude (Su)</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 3rd level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">If he succeeds at a Fortitude saving throw against an attack that has a reduced effect on a successful save, he instead avoids the effect entirely.</Pair>
 <Pair title="Special">A <Link to="/misc/helpless">helpless</Link> sacred fist does not gain the benefit of the blessed fortitude ability.</Pair>
 </Ability>
-<Ability id="bonus-style-feat" icon={["stairs-goal"]}>
+<Ability id="bonus-style-feat" icon={["power"]}>
 <Pair single id="bonus-style-feat">Bonus Style Feat</Pair>
 <Pair hl title="Replaces">Bonus feats gained at 6th, 12th, and 18th levels</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -785,14 +785,14 @@ const _sacred_fist = {title: "Sacred Fist", jsx: <><h2 id="arc-warpriest-sacred_
 <Pair title="At 12th Level">A sacred fist gains either another style feat or a feat that requires a style feat as a prerequisite.</Pair>
 <Pair title="At 18th Level">A sacred fist gains either another style feat or a feat that requires a style feat as a prerequisite.</Pair>
 </Ability>
-<Ability id="ki-pool-su" extraClasses="hasSubs" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="ki-pool-su" extraClasses="hasSubs" icon={["power","def"]}>
 <Pair single id="ki-pool-su">Ki Pool (Su)</Pair>
 <Pair hl title="Replaces">Sacred armor</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">The sacred fist gains a ki pool. This functions as the monk class feature, using the sacred fist's level - 3 as his monk level when determining the number of points in his pool and bonuses granted to his unarmed strike.</Pair>
 <Pair title="Swift Action">Additionally, the sacred fist can spend 1 point from his ki pool to grant himself a +1 insight bonus to his AC for 1 minute. (This is in addition the normal ki ability to gain a dodge bonus to AC.) This insight bonus increases by 1 for every 3 levels above 7th (to a maximum of +5 at 19th level).</Pair>
 </Ability>
-<Ability id="ki-pool-su" extraClasses="subAbility" icon={["magic-swirl","mailed-fist"]}>
+<Ability id="ki-pool-su" extraClasses="subAbility" icon={["magic","melee"]}>
 <Pair single id="ki-pool-su" flavor="Text from the monk class ability.">Ki Pool (Su)</Pair>
 <Pair title="Ability">You gain a pool of ki points. The number of points in your ki pool is equal to 1/2 your monk level + your Wisdom modifier.</Pair>
 <Pair title="Swift Action">By spending 1 point from your ki pool, you can make one additional unarmed strike at your highest attack bonus when making a flurry of blows attack. In addition, you can spend 1 point to increase your speed by 20 feet for 1 round. Finally, your can spend 1 point from your <em>ki</em> pool to give yourself a +4 dodge bonus to AC for 1 round.</Pair>
@@ -802,7 +802,7 @@ const _sacred_fist = {title: "Sacred Fist", jsx: <><h2 id="arc-warpriest-sacred_
 <Pair title="At 16th Level">Your <em>ki strikes</em> are treated as <Link to="/eq-material/adamantine">adamantine</Link> weapons for the purpose of overcoming damage reduction and bypassing <Link to="/rule/hardness">hardness</Link>.</Pair>
 <Pair title="Special">The ki pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive.</Pair>
 </Ability>
-<Ability id="miraculous-fortitude-su" icon={["armor-upgrade"]}>
+<Ability id="miraculous-fortitude-su" icon={["def"]}>
 <Pair single id="miraculous-fortitude-su">Miraculous Fortitude (Su)</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 9th level</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -812,13 +812,13 @@ const _sacred_fist = {title: "Sacred Fist", jsx: <><h2 id="arc-warpriest-sacred_
 </>};
 const _shieldbearer = {title: "Shieldbearer", jsx: <><h2 id="arc-warpriest-shieldbearer-shieldbearer">Shieldbearer</h2>
 <p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook pg. 7</Link><br/>Shieldbearers are divine warriors who stand on the front lines of battle, shoulder to shoulder with the soldiers of their people. The shieldbearer tradition has long been a strong legacy among the dwarves of the Five Kings Mountains, while many young women throughout the Lands of the Linnorm Kings and Realm of the Mammoth Lords become shieldbearers known as shield maidens. Shieldbearers among the Shoanti are often advisors as well as combatants, while in the Mwangi Expanse shieldbearers are known for defending entire villages from the Gorilla King's minions.</p>
-<Ability id="shield-adept-ex" icon={["stairs-goal","armor-upgrade"]}>
+<Ability id="shield-adept-ex" icon={["power","def"]}>
 <Pair single id="shield-adept-ex">Shield Adept (Ex)</Pair>
 <Pair hl title="Replaces">Focus weapon</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A shieldbearer receives <Link to="/feat/improved_shield_bash">Improved Shield Bash</Link> as a bonus feat. When carrying a shield, the shieldbearer adds his shield bonus on <Link to="/rule/concentration">concentration</Link> checks to cast defensively.</Pair>
 </Ability>
-<Ability id="sacred-weapon-su" icon={["info","broken-shield"]}>
+<Ability id="sacred-weapon-su" icon={["info","down"]}>
 <Pair single id="sacred-weapon-su">Sacred Weapon (Su)</Pair>
 <Pair hl title="Alters">Sacred weapon, sacred armor</Pair>
 <Pair title="Ability">A shieldbearer treats shields as <em>sacred weapons</em> (instead of his god's favored weapon), though the shieldbearer can still designate additional weapons as <em>sacred weapons</em> by selecting them with the <Link to="/feat/weapon_focus">Weapon Focus</Link> feat. The shieldbearer's <em>sacred weapon</em> damage applies only to attacks made with shields.</Pair>
@@ -828,34 +828,34 @@ const _shieldbearer = {title: "Shieldbearer", jsx: <><h2 id="arc-warpriest-shiel
 <Pair title="At 16th Level">The <em>sacred weapon</em> bonus becomes +4.</Pair>
 <Pair title="At 19th Level">The <em>sacred weapon</em> bonus increases to +5.</Pair>
 </Ability>
-<Ability id="sacred-shield-su" icon={["armor-upgrade"]}>
+<Ability id="sacred-shield-su" icon={["def"]}>
 <Pair single id="sacred-shield-su">Sacred Shield (Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Swift Action">A shieldbearer gains the ability to enhance his shield with divine power. This ability functions as the <em>sacred armor</em> ability, except as follows. This power grants the shield an enhancement bonus equal to <Link to="/misc/one_fourth">one-fourth</Link> of his warpriest level (this bonus does not act as an attack or damage bonus when the shield is used in a shield bash).</Pair>
 <Pair title="Special">The shieldbearer can enhance a shield with any of the following armor special abilities (instead of those listed for <em>sacred armor</em>): <Link to="/magic-enh/arrow_deflection">arrow deflection</Link>, <Link to="/magic-enh/blinding">blinding</Link>, <Link to="/magic-enh/fortification">fortification</Link> (heavy, light, or moderate), <Link to="/magic-enh/reflecting">reflecting</Link>, and <Link to="/magic-enh/spell_resistance">spell resistance</Link> (13, 15, 17, and 19).</Pair>
 </Ability>
-<Ability id="channel-energy-su" icon={["broken-shield","tornado-discs"]}>
+<Ability id="channel-energy-su" icon={["down","cone"]}>
 <Pair single id="channel-energy-su">Channel Energy (Su)</Pair>
 <Pair title="Info">The shieldbearer can <em>channel energy</em> only when carrying a shield, and the ability manifests as a 30-foot-cone <Link to="/misc/burst">burst</Link>, rather than as a radius.</Pair>
 </Ability>
 </>};
 const _sixth_wing_bulwark = {title: "Sixth Wing Bulwark", jsx: <><h2 id="arc-warpriest-sixth_wing_bulwark-sixth-wing-bulwark">Sixth Wing Bulwark</h2>
 <p><strong>Sources</strong> <Link to="/source/distant_realms">Distant Realms pg. 32</Link><br/>Many are the followers of Ragathiel who lead in battle. Far fewer, but no less crucial to a successful campaign, are those who hold the line and defend against the incursion of evil forces. The Sixth Wing bulwark trains to do just that: fortifying herself and her allies to stand strong in the face of any opposition, no matter how dire.</p>
-<Ability id="sixth-wing-sworn" icon={["hazard-sign"]}>
+<Ability id="sixth-wing-sworn" icon={["warning"]}>
 <Pair single id="sixth-wing-sworn">Sixth Wing Sworn</Pair>
 <Pair title="Info">A Sixth Wing bulwark must be a worshiper of <Link to="/faith/ragathiel">Ragathiel</Link>. If she ever changes her deity, she loses this archetype, cannot regain it, and becomes a normal warpriest.</Pair>
 </Ability>
-<Ability id="weapon-and-armor-proficiency" icon={["stairs-goal"]}>
+<Ability id="weapon-and-armor-proficiency" icon={["power"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Alters">Weapon and armor proficiencies</Pair>
 <Pair title="Ability">A Sixth Wing bulwark gains proficiency in <Link to="/eq-armor/tower_shield">tower shields</Link>.</Pair>
 </Ability>
-<Ability id="focus-shield" icon={["stairs-goal"]}>
+<Ability id="focus-shield" icon={["power"]}>
 <Pair single id="focus-shield">Focus Shield</Pair>
 <Pair hl title="Replaces">Focus weapon</Pair>
 <Pair title="Ability">A Sixth Wing bulwark gains <Link to="/feat/shield_focus">Shield Focus</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="sacred-shield-su" icon={["upgrade","armor-upgrade","shield-reflect"]}>
+<Ability id="sacred-shield-su" icon={["boost","def","protect"]}>
 <Pair single id="sacred-shield-su">Sacred Shield (Su)</Pair>
 <Pair hl title="Replaces">Sacred weapon</Pair>
 <Pair title="Ability">Dedicated training and divine grace allow a Sixth Wing bulwark to lessen the burden of a shield's weight. As long as a Sixth Wing bulwark is wielding a shield, she reduces her total armor check penalty by an amount equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of her warpriest level.</Pair>
@@ -868,25 +868,25 @@ const _sixth_wing_bulwark = {title: "Sixth Wing Bulwark", jsx: <><h2 id="arc-war
 <p>As long as she has rounds of sacred shield remaining, she can recall her shield to her arm as a <strong className="hl">swift action</strong> and regain its benefits. A Sixth Wing bulwark must maintain one hand free to direct the shield; if she no longer has a hand free or if the duration of her sacred shield ability ends, the shield drops to the ground and ceases providing any benefit.</p>
 </Pair>
 </Ability>
-<Ability id="shield-of-grace-su" icon={["upgrade"]}>
+<Ability id="shield-of-grace-su" icon={["boost"]}>
 <Pair single id="shield-of-grace-su">Shield of Grace (Su)</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 6th level</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">When a Sixth Wing bulwark uses her <em>sacred shield</em> to protect an ally, she can deliver <em>blessings,</em> healing from her <em>fervor</em> ability, and touch spells through the shield to the ally benefiting from the shield's protection.</Pair>
 </Ability>
-<Ability id="sacred-fortification-su" icon={["stairs-goal"]}>
+<Ability id="sacred-fortification-su" icon={["power"]}>
 <Pair single id="sacred-fortification-su">Sacred Fortification (Su)</Pair>
 <Pair hl title="Alters">Sacred armor</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">When a Sixth Wing bulwark activates her sacred armor ability, she can expend one use of <em>fervor</em> to also activate her <em>sacred shield</em> ability.</Pair>
 </Ability>
-<Ability id="intercession-su" icon={["magic-swirl"]}>
+<Ability id="intercession-su" icon={["magic"]}>
 <Pair single id="intercession-su">Intercession (Su)</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 12th level</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Swift Action">By expending a use of <em>fervor,</em> a Sixth Wing bulwark can teleport to the location of a willing (or unconscious) ally and immediately teleport that ally to her own previous position, in effect switching places with the ally. A Sixth Wing bulwark must have line of effect to the target to use this ability.</Pair>
 </Ability>
-<Ability id="reflexive-fortification-su" icon={["stairs-goal"]}>
+<Ability id="reflexive-fortification-su" icon={["power"]}>
 <Pair single id="reflexive-fortification-su">Reflexive Fortification (Su)</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 18th level</Pair>
 <Pair title="Gained">At 18th Level</Pair>

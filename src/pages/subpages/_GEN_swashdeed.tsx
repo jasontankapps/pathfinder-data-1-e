@@ -4,7 +4,7 @@ import Ability from '../../components/Ability';
 const _not_found = {title: "Unknown", jsx: <><p>Unable to find the requested swashbuckler deed.</p>
 </>};
 const _derring_do = {title: "Derring-Do", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 56</Link></p>
-<Ability id="derring-do-ex" icon={["upgrade"]}>
+<Ability id="derring-do-ex" icon={["boost"]}>
 <Pair single id="derring-do-ex">Derring-Do (Ex)</Pair>
 <Pair title="Prerequisites">1st-level swashbuckler</Pair>
 <Pair title="Ability">A swashbuckler can spend 1 panache point when she makes an Acrobatics, Climb, Escape Artist, Fly, Ride, or Swim check to roll 1d6 and add the result to the check. She can do this after she makes the check but before the result is revealed.</Pair>
@@ -12,7 +12,7 @@ const _derring_do = {title: "Derring-Do", jsx: <><p><strong>Sources</strong> <Li
 </Ability>
 </>};
 const _dodging_panache = {title: "Dodging Panache", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 57</Link></p>
-<Ability id="dodging-panache-ex" icon={["armor-upgrade"]}>
+<Ability id="dodging-panache-ex" icon={["def"]}>
 <Pair single id="dodging-panache-ex">Dodging Panache (Ex)</Pair>
 <Pair title="Prerequisites">1st-level swashbuckler</Pair>
 <Pair title="Immediate Action">When an opponent attempts a melee attack against the swashbuckler, the swashbuckler can spend 1 panache point to move 5 feet; doing so grants the swashbuckler a dodge bonus to AC equal to her Charisma modifier (minimum 0) against the triggering attack. This movement doesn't negate the attack, which is still resolved as if the swashbuckler had not moved from the original square.</Pair>
@@ -20,7 +20,7 @@ const _dodging_panache = {title: "Dodging Panache", jsx: <><p><strong>Sources</s
 </Ability>
 </>};
 const _opportune_parry_and_riposte = {title: "Opportune Parry and Riposte", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 57</Link></p>
-<Ability id="opportune-parry-and-riposte-ex" icon={["armor-upgrade","mailed-fist"]}>
+<Ability id="opportune-parry-and-riposte-ex" icon={["def","melee"]}>
 <Pair single id="opportune-parry-and-riposte-ex">Opportune Parry and Riposte (Ex)</Pair>
 <Pair title="Prerequisites">1st-level swashbuckler</Pair>
 <Pair title="Ability"><p>When an opponent makes a melee attack against the swashbuckler, she can spend 1 panache point and expend a use of an attack of opportunity to attempt to parry that attack.</p>
@@ -31,7 +31,7 @@ const _opportune_parry_and_riposte = {title: "Opportune Parry and Riposte", jsx:
 </Ability>
 </>};
 const _kip_up = {title: "Kip-Up", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 57</Link></p>
-<Ability id="kip-up-ex" icon={["stairs-goal"]}>
+<Ability id="kip-up-ex" icon={["power"]}>
 <Pair single id="kip-up-ex">Kip-Up (Ex)</Pair>
 <Pair title="Prerequisites">3rd-level swashbuckler</Pair>
 <Pair title="Move-Equivalent Action">While the swashbuckler has at least 1 panache point, she can kip-up from <Link to="/rule/prone">prone</Link> without provoking an attack of opportunity.</Pair>
@@ -39,14 +39,14 @@ const _kip_up = {title: "Kip-Up", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _menacing_swordplay = {title: "Menacing Swordplay", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 57</Link></p>
-<Ability id="menacing-swordplay-ex" icon={["armor-downgrade"]}>
+<Ability id="menacing-swordplay-ex" icon={["lower"]}>
 <Pair single id="menacing-swordplay-ex">Menacing Swordplay (Ex)</Pair>
 <Pair title="Prerequisites">3rd-level swashbuckler</Pair>
 <Pair title="Ability">While she has at least 1 panache point, when a swashbuckler hits an opponent with a light or one-handed piercing melee weapon, she can choose to use Intimidate to demoralize that opponent as a <strong className="hl">swift action</strong> instead of a standard action.</Pair>
 </Ability>
 </>};
 const _precise_strike = {title: "Precise Strike", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 57</Link></p>
-<Ability id="precise-strike-ex" icon={["mailed-fist","upgrade"]}>
+<Ability id="precise-strike-ex" icon={["melee","boost"]}>
 <Pair single id="precise-strike-ex">Precise Strike (Ex)</Pair>
 <Pair title="Prerequisites">3rd-level swashbuckler</Pair>
 <Pair title="Ability"><p>While she has at least 1 panache point, a swashbuckler gains the ability to strike precisely with a light or one-handed piercing melee weapon (though not natural weapon attacks), adding her swashbuckler level to the damage dealt.</p>
@@ -57,28 +57,28 @@ const _precise_strike = {title: "Precise Strike", jsx: <><p><strong>Sources</str
 </Ability>
 </>};
 const _swashbuckler_initiative = {title: "Swashbuckler Initiative", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 58</Link></p>
-<Ability id="swashbuckler-initiative-ex" icon={["upgrade"]}>
+<Ability id="swashbuckler-initiative-ex" icon={["boost"]}>
 <Pair single id="swashbuckler-initiative-ex">Swashbuckler Initiative (Ex)</Pair>
 <Pair title="Prerequisites">3rd-level swashbuckler</Pair>
 <Pair title="Passive Ability">While the swashbuckler has at least 1 panache point, she gains a +2 bonus on initiative checks. In addition, if she has the <Link to="/feat/quick_draw">Quick Draw</Link> feat, her hands are free and unrestrained, and she has any single light or one-handed piercing melee weapon that isn't hidden, she can draw that weapon as part of the initiative check.</Pair>
 </Ability>
 </>};
 const _superior_feint = {title: "Superior Feint", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 58</Link></p>
-<Ability id="superior-feint-ex" icon={["armor-downgrade"]}>
+<Ability id="superior-feint-ex" icon={["lower"]}>
 <Pair single id="superior-feint-ex">Superior Feint (Ex)</Pair>
 <Pair title="Prerequisites">7th-level swashbuckler</Pair>
 <Pair title="Standard Action">A swashbuckler with at least 1 panache point can purposefully miss a creature she could make a melee attack against with a wielded light or one-handed piercing weapon. When she does, the creature is denied its Dexterity bonus to AC until the start of the swashbuckler's next turn.</Pair>
 </Ability>
 </>};
 const _swashbucklers_grace = {title: "Swashbuckler's Grace", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 58</Link></p>
-<Ability id="swashbucklers-grace-ex" icon={["upgrade"]}>
+<Ability id="swashbucklers-grace-ex" icon={["boost"]}>
 <Pair single id="swashbucklers-grace-ex">Swashbuckler's Grace (Ex)</Pair>
 <Pair title="Prerequisites">7th-level swashbuckler</Pair>
 <Pair title="Passive Ability">While the swashbuckler has at least 1 panache point, she takes no penalty for moving at full speed when she uses Acrobatics to attempt to move through a threatened area or an enemy's space.</Pair>
 </Ability>
 </>};
 const _targeted_strike = {title: "Targeted Strike", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 58</Link></p>
-<Ability id="targeted-strike-ex" icon={["mailed-fist","armor-downgrade"]}>
+<Ability id="targeted-strike-ex" icon={["melee","lower"]}>
 <Pair single id="targeted-strike-ex">Targeted Strike (Ex)</Pair>
 <Pair title="Prerequisites">7th-level swashbuckler</Pair>
 <Pair title="Full-Round Action">The swashbuckler can spend 1 panache point to make an attack with a single light or one-handed piercing melee weapon that cripples part of a foe's body. The swashbuckler chooses a part of the body to target. If the attack succeeds, in addition to the attack's normal damage, the target suffers one of the following effects based on the part of the body targeted. If a creature doesn't have one of the listed body locations, that body part cannot be targeted.</Pair>
@@ -90,7 +90,7 @@ const _targeted_strike = {title: "Targeted Strike", jsx: <><p><strong>Sources</s
 </Ability>
 </>};
 const _bleeding_wound = {title: "Bleeding Wound", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 58</Link></p>
-<Ability id="bleeding-wound-ex" icon={["upgrade"]}>
+<Ability id="bleeding-wound-ex" icon={["boost"]}>
 <Pair single id="bleeding-wound-ex">Bleeding Wound (Ex)</Pair>
 <Pair title="Prerequisites">11th-level swashbuckler</Pair>
 <Pair title="Free Action"><p>When the swashbuckler hits a living creature with a light or one-handed piercing melee weapon attack, she can spend 1 panache point to have that attack deal additional <Link to="/rule/bleed">bleed</Link> damage. The amount of bleed damage dealt is equal to the swashbuckler's Dexterity modifier (minimum 1).</p>
@@ -100,21 +100,21 @@ const _bleeding_wound = {title: "Bleeding Wound", jsx: <><p><strong>Sources</str
 </Ability>
 </>};
 const _evasive = {title: "Evasive", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 59</Link></p>
-<Ability id="evasive-ex" icon={["armor-upgrade"]}>
+<Ability id="evasive-ex" icon={["def"]}>
 <Pair single id="evasive-ex">Evasive (Ex)</Pair>
 <Pair title="Prerequisites">11th-level swashbuckler</Pair>
 <Pair title="Passive Ability">While a swashbuckler has at least 1 panache point, she gains the benefits of the <Link to="/ability/evasion">evasion</Link>, <Link to="/ability/uncanny_dodge">uncanny dodge</Link>, and <Link to="/ability/improved_uncanny_dodge">improved uncanny dodge</Link> rogue class features. She uses her swashbuckler level as her rogue level for <em>improved uncanny dodge.</em></Pair>
 </Ability>
 </>};
 const _subtle_blade = {title: "Subtle Blade", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 59</Link></p>
-<Ability id="subtle-blade-ex" icon={["armor-upgrade"]}>
+<Ability id="subtle-blade-ex" icon={["def"]}>
 <Pair single id="subtle-blade-ex">Subtle Blade (Ex)</Pair>
 <Pair title="Prerequisites">11th-level swashbuckler</Pair>
 <Pair title="Passive Ability">While a swashbuckler has at least 1 panache point, she is immune to <Link to="/rule/disarm">disarm</Link>, <Link to="/rule/steal">steal</Link>, and <Link to="/rule/sunder">sunder</Link> combat maneuvers made against a light or one-handed piercing melee weapon she is wielding.</Pair>
 </Ability>
 </>};
 const _dizzying_defense = {title: "Dizzying Defense", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 59</Link></p>
-<Ability id="dizzying-defense-ex" icon={["upgrade","armor-upgrade"]}>
+<Ability id="dizzying-defense-ex" icon={["boost","def"]}>
 <Pair single id="dizzying-defense-ex">Dizzying Defense (Ex)</Pair>
 <Pair title="Prerequisites">15th-level swashbuckler</Pair>
 <Pair title="Ability"><p>While wielding a light or one-handed piercing melee weapon in one hand, the swashbuckler can spend 1 panache point to take the <Link to="/misc/fighting_defensively">fighting defensively</Link> action as a <strong className="hl">swift action</strong> instead of a standard action.</p>
@@ -123,14 +123,14 @@ const _dizzying_defense = {title: "Dizzying Defense", jsx: <><p><strong>Sources<
 </Ability>
 </>};
 const _perfect_thrust = {title: "Perfect Thrust", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 59</Link></p>
-<Ability id="perfect-thrust-ex" icon={["magic-palm","armor-downgrade"]}>
+<Ability id="perfect-thrust-ex" icon={["touch","lower"]}>
 <Pair single id="perfect-thrust-ex">Perfect Thrust (Ex)</Pair>
 <Pair title="Prerequisites">15th-level swashbuckler</Pair>
 <Pair title="Full-Round Action">While the swashbuckler has at least 1 panache point, she can make a <em>perfect thrust,</em> pooling all of her attack potential into a single melee attack made with a light or one-handed piercing melee weapon. When she does, she makes the attack against the target's touch AC, and ignores all damage reduction.</Pair>
 </Ability>
 </>};
 const _swashbucklers_edge = {title: "Swashbuckler's Edge", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 59</Link></p>
-<Ability id="swashbucklers-edge-ex" icon={["stairs-goal"]}>
+<Ability id="swashbucklers-edge-ex" icon={["power"]}>
 <Pair single id="swashbucklers-edge-ex">Swashbuckler's Edge (Ex)</Pair>
 <Pair title="Prerequisites">15th-level swashbuckler</Pair>
 <Pair title="Ability">While the swashbuckler has at least 1 panache point, she can take 10 on any Acrobatics, Climb, Escape Artist, Fly, Ride, or Swim check, even while distracted or in immediate danger.</Pair>
@@ -138,7 +138,7 @@ const _swashbucklers_edge = {title: "Swashbuckler's Edge", jsx: <><p><strong>Sou
 </Ability>
 </>};
 const _cheat_death = {title: "Cheat Death", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 59</Link></p>
-<Ability id="cheat-death-ex" icon={["armor-upgrade"]}>
+<Ability id="cheat-death-ex" icon={["def"]}>
 <Pair single id="cheat-death-ex">Cheat Death (Ex)</Pair>
 <Pair title="Prerequisites">19th-level swashbuckler</Pair>
 <Pair title="Ability">Whenever the swashbuckler is reduced to 0 hit points or fewer, she can spend all of her remaining panache to instead be reduced to 1 hit point. She must have at least 1 panache point to spend.</Pair>
@@ -146,7 +146,7 @@ const _cheat_death = {title: "Cheat Death", jsx: <><p><strong>Sources</strong> <
 </Ability>
 </>};
 const _deadly_stab = {title: "Deadly Stab", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 59</Link></p>
-<Ability id="deadly-stab-ex" icon={["armor-downgrade"]}>
+<Ability id="deadly-stab-ex" icon={["lower"]}>
 <Pair single id="deadly-stab-ex">Deadly Stab (Ex)</Pair>
 <Pair title="Prerequisites">19th-level swashbuckler</Pair>
 <Pair title="Ability">When the swashbuckler confirms a critical hit with a light or one-handed piercing melee weapon, in addition to the normal damage, she can spend 1 panache point to inflict a <em>deadly stab.</em> The target must succeed at a Fortitude saving throw or die. The DC of this save is 10 + 1/2 the swashbuckler's level + the swashbuckler's Dexterity modifier.</Pair>
@@ -154,7 +154,7 @@ const _deadly_stab = {title: "Deadly Stab", jsx: <><p><strong>Sources</strong> <
 </Ability>
 </>};
 const _stunning_stab = {title: "Stunning Stab", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 59</Link></p>
-<Ability id="stunning-stab-ex" icon={["armor-downgrade"]}>
+<Ability id="stunning-stab-ex" icon={["lower"]}>
 <Pair single id="stunning-stab-ex">Stunning Stab (Ex)</Pair>
 <Pair title="Prerequisites">19th-level swashbuckler</Pair>
 <Pair title="Ability">When a swashbuckler hits a creature with a light or one-handed piercing melee weapon, she can spend 2 panache points. The creature must succeed at a Fortitude saving throw (DC = 10 + 1/2 the swashbuckler's level + the swashbuckler's Dexterity modifier) or be <Link to="/misc/stunned">stunned</Link> for 1 round.</Pair>
