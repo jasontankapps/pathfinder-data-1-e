@@ -1644,7 +1644,7 @@
 			"",
 			"::kinetics{el=void type=\"utility (Sp)\" l=4 burn=0 prereq=\"‹kinetic/emptiness›\" source=\"Psychic Anthology/22\"}",
 			"",
-			"You are always under the effect of ‹spell/nondetection› as if you had cast it on yourself. If the effect is dispelled, you can call if forth again as a standard action. You can accept 1 point of burn to grant a creature touched the effects of *nondetection.*"
+			"@I-def-protect You are always under the effect of ‹spell/nondetection› as if you had cast it on yourself. If the effect is dispelled, you can call if forth again as a @HL[standard action]. You can accept 1 point of burn to grant a creature touched the effects of *nondetection.*"
 		]
 	},
 	"aerial_adaptation": {
@@ -1656,7 +1656,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Sp)\" l=1 burn=0 source=\"Occult Adventures/22\"}",
 			"",
-			"You are immune to ‹rule/altitude sickness›, and gain an amount of electricity resistance equal to twice your current amount of burn."
+			"@I-def You are immune to ‹rule/altitude sickness›, and gain an amount of electricity ‹umr/resistance› equal to twice your current amount of burn."
 		]
 	},
 	"aerial_evasion": {
@@ -1668,7 +1668,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Su)\" l=3 burn=1 prereq=\"‹kinetic/enveloping winds›\" source=\"Occult Adventures/22\"}",
 			"",
-			"You use wind to buffet yourself away from area attacks. Until the next time your burn is removed, you gain ‹ability/evasion›, as the rogue class feature."
+			"@I-def You use wind to buffet yourself away from area attacks. Until the next time your burn is removed, you gain ‹ability/evasion›, as the rogue class feature."
 		]
 	},
 	"aether_architect": {
@@ -1680,7 +1680,11 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Su)\" l=9 burn=0 source=\"Psychic Anthology/22\"}",
 			"",
-			"You can spin a small building, bridge, or other edifice out of aether, and even use aether to tether a building to a flat surface other than the ground. By concentrating for 10 minutes, you can create an edifice out of scintillating aether (same hardness and hit points as a ‹spell/wall of force›) as long as the edifice is no larger than one 10-foot cube per kineticist level. Unless the creation is extremely simplistic, you must succeed at a Craft or Knowledge (engineering) check to add embellishments. This ability can also create a series of tethers to securely attach a normal building to a vertical surface or even a cavern ceiling. Aether architect lasts as long as you concentrate, and you can accept 1 point of burn to make the effect last until destroyed; by accepting this burn, you can use this ability any number of times in a row to create a larger edifice."
+			"@I-magic You can spin a small building, bridge, or other edifice out of aether, and even use aether to tether a building to a flat surface other than the ground.",
+			"",
+			"By concentrating for 10 minutes, you can create an edifice out of scintillating aether (same hardness and hit points as a ‹spell/wall of force›) as long as the edifice is no larger than one 10-foot cube per kineticist level. Unless the creation is extremely simplistic, you must succeed at a ‹skill/Craft› or ‹skill/Knowledge (engineering)› check to add embellishments. This ability can also create a series of tethers to securely attach a normal building to a vertical surface or even a cavern ceiling.",
+			"",
+			"*Aether architect* lasts as long as you concentrate, and you can accept 1 point of burn to make the effect last until destroyed; by accepting this burn, you can use this ability any number of times in a row to create a larger edifice."
 		]
 	},
 	"aether_puppet": {
@@ -1692,7 +1696,15 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Sp)\" l=5 burn=0 source=\"Occult Adventures/22\"}",
 			"",
-			"You use strands of aether to animate an object. You can animate a Medium or smaller object as an ‹monster/animated object› with no Construction Point abilities (except for stone or metal [common], if the object is constructed of one of those materials). Each round on your turn, you must take a move action to guide the object, or it reverts to its inanimate state. By accepting 1 point of burn, you can pour a bit of your own sentience into the aether puppet, allowing the effect to persist for 1 round per kineticist level without requiring additional actions. At 12th level, you can animate a Large or smaller object, which gains all the abilities of the Medium animated object plus the additional attack ability. At 14th level, you can animate a Huge or smaller object, which gains all the abilities of the Large animated object. At 16th level, you can animate a Gargantuan or smaller object, which gains all the abilities of the Huge animated object, as well as the metal (mithral) ability if the object is made of mithral. At 18th level, you can animate a Colossal or smaller object, which gains all the abilities of the Gargantuan animated object, plus the metal (adamantine) ability if the object is made of adamantine."
+			"@I-magic You use strands of aether to animate an object. You can animate a Medium or smaller object as an ‹monster/animated object› with no Construction Point abilities (except for *stone* or *metal [common],* if the object is constructed of one of those materials). Each round on your turn, you must take a @HL[move action] to guide the object, or it reverts to its inanimate state. By accepting 1 point of burn, you can pour a bit of your own sentience into the aether puppet, allowing the effect to persist for 1 round per kineticist level without requiring additional actions.",
+			"",
+			"At 12th level, you can animate a Large or smaller object, which gains all the abilities of the Medium animated object plus the additional attack ability.",
+			"",
+			"At 14th level, you can animate a Huge or smaller object, which gains all the abilities of the Large animated object.",
+			"",
+			"At 16th level, you can animate a Gargantuan or smaller object, which gains all the abilities of the Huge animated object, as well as the *metal (mithral)* ability if the object is made of mithral.",
+			"",
+			"At 18th level, you can animate a Colossal or smaller object, which gains all the abilities of the Gargantuan animated object, plus the *metal (adamantine)* ability if the object is made of adamantine."
 		]
 	},
 	"air_cushion": {
@@ -1704,7 +1716,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Sp)\" l=1 burn=0 source=\"Occult Adventures/23\"}",
 			"",
-			"You cushion a fall from any height. You are constantly under the effects of ‹spell/feather fall›, and you count as one size category larger for the purpose of determining how you are affected by wind."
+			"@I-def You cushion a fall from any height. You are constantly under the effects of ‹spell/feather fall›, and you count as one size category larger for the purpose of determining how you are affected by ‹rule/wind›."
 		]
 	},
 	"air_shroud": {
@@ -1716,7 +1728,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Sp)\" l=1 burn=0 source=\"Occult Adventures/23\"}",
 			"",
-			"You are always surrounded by air, as ‹spell/air bubble›. As a standard action, you can accept 1 point of burn to extend the effect to a number of additional creatures equal to your Constitution modifier for 1 minute per kineticist level you possess."
+			"@I-def-protect You are always surrounded by air, as ‹spell/air bubble›. As a @HL[standard action], you can accept 1 point of burn to extend the effect to a number of additional creatures equal to your Constitution modifier for 1 minute per kineticist level you possess."
 		]
 	},
 	"greater_air_shroud": {
@@ -1728,7 +1740,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Sp)\" l=5 burn=0 prereq=\"‹kinetic/air shroud›\" source=\"Occult Adventures/23\"}",
 			"",
-			"Your air shroud improves, granting you the benefits of ‹spell/life bubble›. When you accept burn to grant the benefit to others, the benefit lasts until the next time your burn is removed."
+			"@I-def-protect Your *air shroud* improves, granting you the benefits of ‹spell/life bubble›. When you accept burn to grant the benefit to others, the benefit lasts until the next time your burn is removed."
 		]
 	},
 	"air_shroud_greater": { "redirect": "greater_air_shroud" },
@@ -1741,7 +1753,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Su)\" l=1 burn=0 source=\"Occult Adventures/23\"}",
 			"",
-			"You are always considered to have a running start when jumping, you add your kineticist level as a bonus on all Acrobatics checks to jump, you jump twice as far or high as the results of your check indicate, and you can accept 1 point of burn when jumping to double the distance you jump again (to a total of four times as far)."
+			"@I-boost You are always considered to have a running start when jumping, you add your kineticist level as a bonus on all ‹skill/Acrobatics› checks to jump, you jump twice as far or high as the results of your check indicate, and you can accept 1 point of burn when jumping to double the distance you jump again (to a total of four times as far)."
 		]
 	},
 	"airs_reach": {
@@ -1753,7 +1765,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Su)\" l=1 burn=0 source=\"Occult Adventures/23\"}",
 			"",
-			"When using air blasts, air wild talents, or composite blasts that include air, double the blast's effective range. This effect applies after altering the range due to effects such as the ‹kinetic/extended range› infusion. This doubles only the blast's effective range, not the area of effect for infusions like ‹kinetic/cloud› and ‹kinetic/cyclone›."
+			"@I-boost When using air blasts, air wild talents, or composite blasts that include air, double the blast's effective range. This effect applies after altering the range due to effects such as the ‹kinetic/extended range› infusion. This doubles only the blast's effective range, not the area of effect for infusions like ‹kinetic/cloud› and ‹kinetic/cyclone›."
 		]
 	},
 	"angelic_protection": {
@@ -1765,7 +1777,7 @@
 			"",
 			"::kinetics{el=\"aether, water, wood\" type=\"utility (Sp)\" l=2 burn=0 prereq=\"‹kinetic/kinetic healer› wild talent, ‹race/aasimar› or ‹feat/Planar Infusion› (Elysium, Heaven, Nirvana)\" save=none sr=none source=\"Plane-Hopper's Handbook/8\"}",
 			"",
-			"When you use kinetic healer, the target of the healing gains the benefits of ‹spell/protection from evil› for 1 round."
+			"@I-protect When you use *kinetic healer,* the target of the healing gains the benefits of ‹spell/protection from evil› for 1 round."
 		]
 	},
 	"basic_aerokinesis": {
@@ -1777,9 +1789,9 @@
 			"",
 			"::kinetics{el=air type=\"utility (Sp)\" l=1 burn=0 source=\"Occult Adventures/23\"}",
 			"",
-			"You can create a light breeze that blows against a creature or object from a direction of your choice that follows the target wherever it goes. The breeze grants the subject a +2 bonus on saves against very hot conditions, severe heat, breath weapons, and cloud vapors and gases (such as ‹spell/cloudkill›, ‹spell/stinking cloud›, and inhaled poisons). This wild talent doesn't function without air or while underwater. You can have only one such breeze active at any one time.",
+			"@I-protect You can create a light breeze that blows against a creature or object from a direction of your choice that follows the target wherever it goes. The breeze grants the subject a +2 bonus on saves against very ‹rule/hot« conditions›, severe heat, breath weapons, and cloud vapors and gases (such as ‹spell/cloudkill›, ‹spell/stinking cloud›, and inhaled poisons). This wild talent doesn't function without air or while underwater. You can have only one such breeze active at any one time.",
 			"",
-			"You can also use your aerokinesis to make it harder to detect you or others by ‹umr/scent›. You can designate a number of creatures or objects equal to your Constitution bonus. These creatures and objects always count as being downwind for the purpose of determining the distance at which they can be detected by scent. This effect lasts for 1 hour or until you use basic aerokinesis again, whichever comes first."
+			"@I-def-protect You can also use your aerokinesis to make it harder to detect you or others by ‹umr/scent›. You can designate a number of creatures or objects equal to your Constitution bonus. These creatures and objects always count as being downwind for the purpose of determining the distance at which they can be detected by scent. This effect lasts for 1 hour or until you use basic aerokinesis again, whichever comes first."
 		]
 	},
 	"basic_chaokinesis": {
@@ -1791,7 +1803,7 @@
 			"",
 			"::kinetics{el=void type=\"utility (Sp)\" l=1 burn=0 source=\"Occult Origins/6\"}",
 			"",
-			"You can create a shadow that protects a target from bright light. You can also change gravity to increase a creature's carrying capacity by half or grant a creature a +4 bonus on Acrobatics checks to jump. Each benefit lasts 1 hour or until you use basic chaokinesis again."
+			"@I-protect-boost You can create a shadow that protects a target from bright light. You can also change gravity to increase a creature's carrying capacity by half or grant a creature a +4 bonus on ‹skill/Acrobatics› checks to jump. Each benefit lasts 1 hour or until you use basic chaokinesis again."
 		]
 	},
 	"basic_geokinesis": {
@@ -1803,7 +1815,7 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Sp)\" l=1 burn=0 source=\"Occult Adventures/23\"}",
 			"",
-			"You can move up to 5 pounds per kineticist level of rocks, loose earth, sand, clay, and other similar materials up to 15 feet as a move action. You can search earthen and stone areas from a distance as if using the ‹spell/sift› cantrip."
+			"@I-magic You can move up to 5 pounds per kineticist level of rocks, loose earth, sand, clay, and other similar materials up to 15 feet as a move action. You can search earthen and stone areas from a distance as if using the ‹spell/sift› cantrip."
 		]
 	},
 	"basic_hydrokinesis": {
@@ -1815,7 +1827,7 @@
 			"",
 			"::kinetics{el=water type=\"utility (Sp)\" l=1 burn=0 source=\"Occult Adventures/23\"}",
 			"",
-			"You can create water as the cantrip ‹spell/create water›, purify water as if using ‹spell/purify food and drink›, and dry wet creatures and objects as if using ‹spell/prestidigitation›. While you cannot lift water into the air using this ability, you can create mild currents in a body of water by concentrating. These currents are strong enough to run a water mill as if the mill were being turned manually by a creature with a Strength score equal to your Constitution score."
+			"@I-magic You can create water as the cantrip ‹spell/create water›, purify water as if using ‹spell/purify food and drink›, and dry wet creatures and objects as if using ‹spell/prestidigitation›. While you cannot lift water into the air using this ability, you can create mild currents in a body of water by concentrating. These currents are strong enough to run a water mill as if the mill were being turned manually by a creature with a Strength score equal to your Constitution score."
 		]
 	},
 	"basic_phytokinesis": {
@@ -1830,7 +1842,7 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Sp)\" l=1 burn=0 source=\"Ultimate Wilderness/58~;Occult Origins/8\"}",
 			"",
-			"You can prune and otherwise tend plants within 30 feet without using gardening tools. You can search wooded areas and other plant-heavy areas from a distance as if using the ‹spell/sift› cantrip. By concentrating, you can detect plants within 120 feet as if using ‹spell/detect animals or plants›."
+			"@I-power You can prune and otherwise tend plants within 30 feet without using gardening tools. You can search wooded areas and other plant-heavy areas from a distance as if using the ‹spell/sift› cantrip. By concentrating, you can detect plants within 120 feet as if using ‹spell/detect animals or plants›."
 		]
 	},
 	"basic_pyrokinesis": {
@@ -1842,7 +1854,7 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=1 burn=0 source=\"Occult Adventures/23\"}",
 			"",
-			"You can use your inner flame to reproduce the effects of a ‹spell/flare›, ‹spell/light›, or ‹spell/spark› cantrip, except that the light you create with light produces heat like a normal flame; using any of the three abilities ends any previous light effect from this wild talent."
+			"@I-magic You can use your inner flame to reproduce the effects of a ‹spell/flare›, ‹spell/light›, or ‹spell/spark› cantrip, except that the light you create with light produces heat like a normal flame; using any of the three abilities ends any previous light effect from this wild talent."
 		]
 	},
 	"basic_telekinesis": {
@@ -1854,7 +1866,11 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Sp)\" l=1 burn=0 source=\"Occult Adventures/23\"}",
 			"",
-			"This ability is similar to ‹spell/mage hand›, except you can move an object that weighs up to 5 pounds per 2 kineticist levels you possess (minimum 5 pounds), and you can move magical objects. Additionally, you can create a container of entwined strands of aether in order to hold liquids or piles of small objects of the same weight. You can dip the container to pick up or drop a liquid as a move action. If you possess the ‹kinetic/extended range› wild talent, you can increase the range of basic telekinesis to medium range and increase the rate of movement to 30 feet per round, and if you possess the ‹kinetic/extreme range› wild talent, you can increase the range of basic telekinesis to long range and increase the rate of movement to 60 feet per round. You can also use your basic telekinesis to duplicate the effects of the ‹spell/open/close› cantrip."
+			"@I-magic This ability is similar to ‹spell/mage hand›, except you can move an object that weighs up to 5 pounds per 2 kineticist levels you possess (minimum 5 pounds), and you can move magical objects. Additionally, you can create a container of entwined strands of aether in order to hold liquids or piles of small objects of the same weight. You can dip the container to pick up or drop a liquid as a @HL[move action].",
+			"",
+			"If you possess the ‹kinetic/extended range› wild talent, you can increase the range of basic telekinesis to medium range and increase the rate of movement to 30 feet per round, and if you possess the ‹kinetic/extreme range› wild talent, you can increase the range of basic telekinesis to long range and increase the rate of movement to 60 feet per round.",
+			"",
+			"You can also use your basic telekinesis to duplicate the effects of the ‹spell/open/close› cantrip."
 		]
 	},
 	"body_of_air": {
@@ -1866,7 +1882,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Sp)\" l=4 burn=0 source=\"Psychic Anthology/22\"}",
 			"",
-			"You transform yourself into gas, as per ‹spell/gaseous form›. You can't use kinetic blasts while in this form."
+			"@I-magic You transform yourself into gas, as per ‹spell/gaseous form›. You can't use kinetic blasts while in this form."
 		]
 	},
 	"brachiation": {
@@ -1881,7 +1897,7 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Su)\" l=3 burn=0 source=\"Ultimate Wilderness/58~;Occult Origins/8\"}",
 			"",
-			"You can gain a climb speed equal to your base speed when moving through forested terrain."
+			"@I-power You can gain a climb speed equal to your base speed when moving through forested terrain."
 		]
 	},
 	"celerity": {
@@ -1893,7 +1909,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Sp)\" l=3 burn=0 source=\"Occult Adventures/24\"}",
 			"",
-			"You can galvanize the flow of electricity within your allies to enhance their speed. This acts as ‹spell/haste› except it lasts for 1 round. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess."
+			"I-boost You can galvanize the flow of electricity within your allies to enhance their speed. This acts as ‹spell/haste› except it lasts for 1 round. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess."
 		]
 	},
 	"clockwork_heart": {
@@ -1905,7 +1921,7 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Su)\" l=3 burn=0 prereq=\"‹kinetic/metal blast›\" source=\"Heroes of Golarion/27\"}",
 			"",
-			"You have used your power over metal to add clockwork components to your own body. So long as these clockwork components are kept wound (per the ‹subtype/winding ability of the »clockwork« subtype›), you gain the benefits of both the ‹feat/Improved Initiative› and ‹feat/Lightning Reflexes› feats."
+			"@I-power You have used your power over metal to add clockwork components to your own body. So long as these clockwork components are kept wound (per the ‹subtype/winding ability of the »clockwork« subtype›), you gain the benefits of both the ‹feat/Improved Initiative› and ‹feat/Lightning Reflexes› feats."
 		]
 	},
 	"clockwork_puppet": {
@@ -1917,7 +1933,7 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Su)\" l=5 burn=0 prereq=\"‹kinetic/metal blast›\" source=\"Heroes of Golarion/26\"}",
 			"",
-			"You can weave metal into clockwork parts, creating clockwork constructs to attack your foes. This functions as the ‹kinetic/aether puppet› wild talent, except the object animated gains the clockwork subtype and cannot have the stone Construction Point ability."
+			"@I-power You can weave metal into clockwork parts, creating clockwork constructs to attack your foes. This functions as the ‹kinetic/aether puppet› wild talent, except the object animated gains the clockwork subtype and cannot have the *stone* Construction Point ability."
 		]
 	},
 	"cold_adaptation": {
@@ -1929,7 +1945,7 @@
 			"",
 			"::kinetics{el=\"fire, water\" type=\"utility (Sp)\" l=1 burn=0 source=\"Occult Adventures/24\"}",
 			"",
-			"You are constantly protected by ‹spell/endure elements› against cold temperatures only. You gain cold resistance equal to twice your current amount of burn."
+			"@I-def You are constantly protected by ‹spell/endure elements› against cold temperatures only. You gain cold resistance equal to twice your current amount of burn."
 		]
 	},
 	"cold_snap": {
@@ -1941,7 +1957,9 @@
 			"",
 			"::kinetics{el=water type=\"utility (Sp)\" l=3 burn=1 prereq=\"‹kinetic/cold adaptation›, ‹kinetic/shroud of water›\" source=\"Occult Adventures/24\"}",
 			"",
-			"You chill your shroud of water and send the cold around you, creating an aura of numbing cold around yourself. Until the next time your burn is removed, you can begin or end the cold aura at will as a swift action. The temperature in the area 30 feet around you lowers by 5&deg; F per kineticist level you possess, to a minimum modified temperature of -10&deg; F. If this brings the temperature in the area below 40&deg; F, all creatures within 5 feet of you take a -4 penalty to Dexterity. You are immune to these effects, as are creatures that are immune to cold or that benefit from effects that protect against temperature, such as ‹spell/endure elements›."
+			"@I-aura You chill your *shroud of water* and send the cold around you, creating an aura of numbing cold around yourself. Until the next time your burn is removed, you can begin or end the cold aura at will as a @HL[swift action]. The temperature in the area 30 feet around you lowers by 5&deg; F per kineticist level you possess, to a minimum modified temperature of -10&deg; F. If this brings the temperature in the area below 40&deg; F, all creatures within 5 feet of you take a -4 penalty to Dexterity.",
+			"",
+			"You are immune to these effects, as are creatures that are immune to cold or that benefit from effects that protect against temperature, such as ‹spell/endure elements›."
 		]
 	},
 	"corpse_puppet": {
@@ -1953,7 +1971,13 @@
 			"",
 			"::kinetics{el=void type=\"utility (Sp)\" l=4 burn=0 source=\"Psychic Anthology/22\"}",
 			"",
-			"You draw upon negative energy to animate a nearby corpse as a ‹template/zombie« or a fast zombie› (your choice). You can animate a zombie only if its Hit Dice are no greater than your kineticist level - 4. Each round on your turn, you must take a move action to guide the zombie, or it reverts to a corpse (but retains any damage if you later turn it into a zombie again with this utility talent). By accepting 1 point of burn, you can pour a bit of your own sentience into the zombie, allowing it to persist for 1 round per kineticist level without requiring additional actions on your part, or until the next time your burn is removed if the zombie has half your maximum zombie Hit Dice or fewer. At 12th level, you can animate a zombie with a number of Hit Dice no greater than your kineticist level - 2. At 16th level, you can animate a zombie with a number of Hit Dice no greater than your kineticist level."
+			"@I-magic You draw upon negative energy to animate a nearby corpse as a ‹template/zombie« or a fast zombie› (your choice). You can animate a zombie only if its Hit Dice are no greater than your kineticist level - 4.",
+			"",
+			"Each round on your turn, you must take a @HL[move action] to guide the zombie, or it reverts to a corpse (but retains any damage if you later turn it into a zombie again with this utility talent). By accepting 1 point of burn, you can pour a bit of your own sentience into the zombie, allowing it to persist for 1 round per kineticist level without requiring additional actions on your part, or until the next time your burn is removed if the zombie has half your maximum zombie Hit Dice or fewer.",
+			"",
+			"At 12th level, you can animate a zombie with a number of Hit Dice no greater than your kineticist level - 2.",
+			"",
+			"At 16th level, you can animate a zombie with a number of Hit Dice no greater than your kineticist level."
 		]
 	},
 	"cryokinetic_stasis": {
@@ -1965,7 +1989,7 @@
 			"",
 			"::kinetics{el=water type=\"utility (Sp)\" l=8 burn=1 source=\"Psychic Anthology/22\"}",
 			"",
-			"You encase yourself or a willing target in an icy sheen, placing the target in a state of suspended animation, as per ‹spell/temporal stasis› except fire spells and spell-like abilities of 3rd level or higher count as if the caster used ‹spell/dispel magic› against the stasis. Otherwise, no other force or effect can harm the target."
+			"@I-magic-def-protect You encase yourself or a willing target in an icy sheen, placing the target in a state of suspended animation, as per ‹spell/temporal stasis› except fire spells and spell-like abilities of 3rd level or higher count as if the caster used ‹spell/dispel magic› against the stasis. Otherwise, no other force or effect can harm the target."
 		]
 	},
 	"curse_breaker": {
@@ -1977,7 +2001,9 @@
 			"",
 			"::kinetics{el=void type=\"utility (Sp)\" l=4 burn=0 prereq=\"‹kinetic/emptiness›\" source=\"Psychic Anthology/22\"}",
 			"",
-			"The power of void protects you from curses and allows you to remove or suppress them. You gain a +4 bonus on saving throws against curses and hexes. You can accept 1 point of burn as a standard action to attempt a caster level check to remove a curse on yourself or another as per ‹spell/remove curse›. If the curse normally could not be removed by remove curse, you can instead suppress the curse until the next time your burn is removed with a successful caster level check. When your burn is removed, you can choose not to remove the burn you spent in this way to continue suppressing the curse without interruption. If you die, any curse suppressed in this way returns instantly."
+			"@I-def-protect The power of void protects you from curses and allows you to remove or suppress them. You gain a +4 bonus on saving throws against curses and hexes. You can accept 1 point of burn as a @HL[standard action] to attempt a caster level check to remove a curse on yourself or another as per ‹spell/remove curse›. If the curse normally could not be removed by remove curse, you can instead suppress the curse until the next time your burn is removed with a successful caster level check.",
+			"",
+			"When your burn is removed, you can choose not to remove the burn you spent in this way to continue suppressing the curse without interruption. If you die, any curse suppressed in this way returns instantly."
 		]
 	},
 	"earth_child": {
@@ -1989,11 +2015,13 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Su)\" l=3 burn=0 source=\"Occult Realms/8\"}",
 			"",
-			"Blending your form with crystal, you have transmuted yourself into something akin to an ‹race/oread›. You keep your original racial abilities (including your ability score adjustments, but not your movement speed) and also gain all oread racial abilities (including an oread's movement speed and the outsider [native] type) except for ability score adjustments. You have the *crystalline form* alternate racial trait instead of earth affinity, but cannot otherwise choose alternate racial traits.",
+			"@I-power Blending your form with crystal, you have transmuted yourself into something akin to an ‹race/oread›. You keep your original racial abilities (including your ability score adjustments, but not your movement speed) and also gain all oread racial abilities (including an oread's movement speed and the outsider [native] type) except for ability score adjustments. You have the *crystalline form* alternate racial trait instead of *earth affinity,* but cannot otherwise choose alternate racial traits.",
 			"",
 			"### Attunement",
 			"",
-			"A geokineticist must spend 9 days in quiet contemplation in a fetal position amid the crystals of the Crystal Womb, succeeding at a DC 20 Knowledge (dungeoneering) check each day. Crystals gradually grow on her until she is completely covered. If she fails a check, she must start over, and after each failure she must succeed at a DC 20 Fortitude save or develop a deformity from the ‹template/mutant« template›. At the end of the ninth day, she emerges reborn, with the earth child wild talent in place of one of her 3rd-level or lower utility talents. A geokineticist can halt this attunement at any point without incurring negative effects."
+			"A geokineticist must spend 9 days in quiet contemplation in a fetal position amid the crystals of the Crystal Womb, succeeding at a DC 20 ‹skill/Knowledge (dungeoneering)› check each day. Crystals gradually grow on her until she is completely covered. If she fails a check, she must start over, and after each failure she must succeed at a DC 20 Fortitude save or develop a deformity from the ‹template/mutant« template›.",
+			"",
+			"At the end of the ninth day, she emerges reborn, with the *earth child* wild talent in place of one of her 3rd-level or lower utility talents. A geokineticist can halt this attunement at any point without incurring negative effects."
 		]
 	},
 	"earth_climb": {
@@ -2005,7 +2033,7 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Su)\" l=2 burn=0 source=\"Occult Adventures/24\"}",
 			"",
-			"You use your connection to earth to meld slightly into stone and earthen surfaces, granting you a climb speed equal to your base land speed when climbing such surfaces."
+			"@I-power You use your connection to earth to meld slightly into stone and earthen surfaces, granting you a climb speed equal to your base land speed when climbing such surfaces."
 		]
 	},
 	"earth_glide": {
@@ -2017,7 +2045,7 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Su)\" l=5 burn=0 prereq=\"‹kinetic/earth climb›\" source=\"Occult Adventures/24\"}",
 			"",
-			"You can glide through earth, as an ‹monster/earth elemental«'s› earth glide ability, with a burrow speed equal to your base land speed."
+			"@I-power You can glide through earth, as an ‹monster/earth elemental«'s› *earth glide *ability, with a burrow speed equal to your base land speed."
 		]
 	},
 	"earth_tongue": {
@@ -2029,7 +2057,7 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Sp)\" l=8 burn=0 prereq=\"‹kinetic/greater tremorsense›, ‹kinetic/tremorsense›\" source=\"Psychic Anthology/22\"}",
 			"",
-			"You are constantly capable of speaking to rocks and stones, including natural and worked stone, as per ‹spell/stone tell›. This ability is always active, and rocks and stones might speak to you before you speak to them if they have something to say."
+			"@I-magic You are constantly capable of speaking to rocks and stones, including natural and worked stone, as per ‹spell/stone tell›. This ability is always active, and rocks and stones might speak to you before you speak to them if they have something to say."
 		]
 	},
 	"earth_walk": {
@@ -2041,7 +2069,7 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Su)\" l=1 burn=0 source=\"Occult Adventures/24\"}",
 			"",
-			"Because you meld very slightly into the earth, when you are standing on an earthen surface, you ignore ‹rule/difficult terrain› caused by rocks, earth, or mud, and while on such surfaces you add your elemental overflow bonus to your CMD against being moved or tripped and on Acrobatics checks to balance."
+			"@I-def Because you meld very slightly into the earth, when you are standing on an earthen surface, you ignore ‹rule/difficult terrain› caused by rocks, earth, or mud, and while on such surfaces you add your *elemental overflow* bonus to your CMD against being moved or tripped and on ‹skill/Acrobatics› checks to balance."
 		]
 	},
 	"earthmeld": {
@@ -2053,7 +2081,9 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Sp)\" l=4 burn=0 prereq=\"‹kinetic/earth climb›\" source=\"Ultimate Intrigue/66\"}",
 			"",
-			"You meld a creature into stone, where it can listen to conversations without being detected. This functions as the ‹spell/meld into stone› spell, except it can work on any willing creature, not just you, and it lasts for 10 minutes per kineticist level or until you use earthmeld again. The melded creature, not you, decides when to step out of the stone. You can accept 1 point of burn to increase the duration of an earthmeld until the next time you recover burn. Such increased earthmelds don't end if you use earthmeld again, allowing you to maintain multiple earthmelds."
+			"@I-magic You meld a creature into stone, where it can listen to conversations without being detected. This functions as the ‹spell/meld into stone› spell, except it can work on any willing creature, not just you, and it lasts for 10 minutes per kineticist level or until you use *earthmeld* again. The melded creature, not you, decides when to step out of the stone.",
+			"",
+			"You can accept 1 point of burn to increase the duration of an *earthmeld* until the next time you recover burn. Such increased *earthmelds* don't end if you use *earthmeld* again, allowing you to maintain multiple *earthmelds.*"
 		]
 	},
 	"elemental_exile": {
@@ -2065,7 +2095,7 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Sp)\" l=8 burn=1 save=\"Will negates\" sr=yes source=\"Wilderness Origins/28\"}",
 			"",
-			"You transport a single creature you touch to the plane associated with your element. Precise accuracy regarding a particular arrival location on the intended plane is almost impossible. The creature appears 5 to 500 miles (5d%) from your intended destination. Elemental exile transports creatures instantaneously and then ends. The creature must find other means to travel back (such as casting ‹spell/plane shift› or using elemental exile again)."
+			"@I-magic You transport a single creature you touch to the plane associated with your element. Precise accuracy regarding a particular arrival location on the intended plane is almost impossible. The creature appears 5 to 500 miles (5d%) from your intended destination. *Elemental exile* transports creatures instantaneously and then ends. The creature must find other means to travel back (such as casting ‹spell/plane shift› or using *elemental exile* again)."
 		]
 	},
 	"elemental_grip": {
@@ -2077,7 +2107,7 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Sp)\" l=3 burn=0 save=\"Will negates\" sr=yes source=\"Occult Adventures/24\"}",
 			"",
-			"You use your element to halt a creature associated with your element, as ‹spell/hold monster› except it requires concentration to maintain, and it works only on creatures with a subtype matching one of your elements (for example, a pyrokineticist could use it on creatures of the fire subtype). At any time, you can accept 1 point of burn to remove the need to concentrate."
+			"@I-magic You use your element to halt a creature associated with your element, as ‹spell/hold monster› except it requires concentration to maintain, and it works only on creatures with a subtype matching one of your elements (for example, a pyrokineticist could use it on creatures of the fire subtype). At any time, you can accept 1 point of burn to remove the need to concentrate."
 		]
 	},
 	"elemental_transmission": {
