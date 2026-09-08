@@ -67,6 +67,12 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 				// Fake footnotes
 				const { from, multi } = attrs;
 				return fn({text: tag.slice(2), prefix, from, multi, makeNewMarkedInstance, flags});
+			} else if (tag.startsWith("I-")) {
+				// Initial icons
+				flags.icons = true;
+				const base = tag.slice(2);
+				const id = prefix + (attrs.id || base.toLowerCase().replace(/_+/g, "-").replace(/[^-a-z0-9]/g, ""));
+				return `<Icons id="${id}-icons" wrapper="prefixIcon" list={${JSON.stringify(base.split("-"))}} />`;
 			} else if (tag.startsWith("B-")) {
 				// Bonus equal to fraction of level
 				//  @B-#[mfy]p?(#)-class(-x)?

@@ -7,6 +7,7 @@ interface IconsProps {
 	id: string
 	list: string[]
 	wrapper?: string
+	color?: string
 }
 
 const getIcon = (i: string) => {
@@ -116,20 +117,20 @@ const getIcon = (i: string) => {
 };
 
 const Icons: FC<IconsProps> = (props) => {
-	const {id, list, wrapper} = props;
+	const {id, list, wrapper, color = "secondary"} = props;
 	const cId = useContext(IdContext) + id;
 	return <>{
 		list.map((icon, i) => {
 			const ico = getIcon(icon)
 			return wrapper ? (
-				<div className={wrapper} key={`${cId} floating icon ${ico} position ${i}`}>
+				<span className={wrapper} key={`${cId} floating icon ${ico} position ${i}`}>
 					<Link to={"/icons/" + ico}>
-						<IonIcon icon={`/icons/${ico}.svg`} />
+						<IonIcon icon={`/icons/${ico}.svg`} color={color} />
 					</Link>
-				</div>
+				</span>
 			) : (
 				<Link to={"/icons/" + ico} key={`${cId} floating icon ${ico} position ${i}`}>
-					<IonIcon icon={`/icons/${ico}.svg`} />
+					<IonIcon icon={`/icons/${ico}.svg`} color={color} />
 				</Link>
 			);
 		})
