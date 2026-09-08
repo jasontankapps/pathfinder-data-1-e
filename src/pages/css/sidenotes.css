@@ -101,6 +101,10 @@ div.compilation div.sideNoteWrap table :is(th, td) {
 	border-radius: 0 !important;
 }
 
+div.sideNoteWrap.capTds td::first-letter {
+	text-transform: capitalize;
+}
+
 ion-content.noStamina div.sideNoteWrap.stamina,
 ion-content.noMythic div.sideNoteWrap.mythic,
 ion-content.noElephant div.sideNoteWrap.elephant,

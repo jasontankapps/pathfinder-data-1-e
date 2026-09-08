@@ -32,11 +32,11 @@ export const Kinetic: FC<KineticProps> = (props) => {
 	const sourcetext = source.map((pair, i) => {
 		const [s, pg] = pair;
 		const url = convertTextToLink(s);
-		return <F key={cId + "-kinetic-" + url}>{i ? ", " : ""}<Link to={"/source/" + url}>{s}</Link> pg. ${pg}</F>;
+		return <F key={cId + "-kinetic-" + url}>{i ? ", " : ""}<Link to={"/source/" + url}>{s}</Link> pg. {pg}</F>;
 	});
 
 	return (
-		<div className="sideNoteWrap"><ScrollContainer id={cId + "-kinetic-scrollwrap"}>
+		<div className="sideNoteWrap noIcon startAlign capTds"><ScrollContainer id={cId + "-kinetic-scrollwrap"}>
 			<table><tbody>
 				<tr><th scope="row">Source</th><td colSpan={3}>{sourcetext}</td></tr>
 				<tr>
@@ -49,10 +49,13 @@ export const Kinetic: FC<KineticProps> = (props) => {
 				</tr>
 				{prereq ? <tr><th scope="row">Prerequisites</th><td colSpan={3}>{prereq}</td></tr> : ""}
 				{assoc ? <tr><th scope="row">Associated Blasts</th><td colSpan={3}>{assoc}</td></tr> : ""}
-				<tr>
-					<th id={cId + "-bt"}>Blast Type</th><td headers={cId + "-btype"}>{btype}</td>
-					<th id={cId + "-dmg"}>Damage</th><td headers={cId + "-dmg"}>{dmg}</td>
-				</tr>
+				{ btype && dmg ?
+					<tr>
+						<th id={cId + "-bt"}>Blast Type</th><td headers={cId + "-btype"}>{btype}</td>
+						<th id={cId + "-dmg"}>Damage</th><td headers={cId + "-dmg"}>{dmg}</td>
+					</tr>
+					: ""
+				}
 				{save
 					? (sr
 						? <tr>
