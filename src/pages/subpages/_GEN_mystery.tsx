@@ -1,12 +1,29 @@
 import Link from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
+import {Block,Row,Cell} from '../../components/Block';
 const _not_found = {title: "Unknown", jsx: <><h2 id="mystery-not_found-error">Error</h2>
 <p>Unable to find the requested mystery.</p>
 </>};
 const _ancestor = {title: "Ancestor", jsx: <><h2 id="mystery-ancestor-ancestor">Ancestor</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 53</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/erastil">Erastil</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/pharasma">Pharasma</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the ancestor mystery adds Linguistics, and all Knowledge skills to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/unseen_servant">unseen servant</Link> (2nd), <Link to="/spell/spiritual_weapon">spiritual weapon</Link> (4th), <Link to="/spell/heroism">heroism</Link> (6th), <Link to="/spell/spiritual_ally">spiritual ally</Link> (8th), <Link to="/spell/telekinesis">telekinesis</Link> (10th), <Link to="/spell/greater_heroism">greater heroism</Link> (12th), <Link to="/spell/ethereal_jaunt">ethereal jaunt</Link> (14th), <Link to="/spell/vision">vision</Link> (16th), <Link to="/spell/astral_projection">astral projection</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/erastil">Erastil</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/pharasma">Pharasma</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/unseen_servant">Unseen servant</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/spiritual_weapon">Spiritual weapon</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/heroism">Heroism</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/spiritual_ally">Spiritual ally</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/telekinesis">Telekinesis</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/greater_heroism">Greater heroism</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/ethereal_jaunt">Ethereal jaunt</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/vision">Vision</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/astral_projection">Astral projection</Link></Pair>
+</Ability>
 <h3 id="mystery-ancestor-revelations">Revelations</h3>
 <p>An oracle with the Ancestor mystery can choose from any of the following revelations.</p>
 <p><strong>Ancestral Weapon (Su):</strong> You can summon a simple or martial weapon from your family's history that is appropriate for your current size. You are considered proficient with this weapon. At 3rd level, the weapon is considered masterwork. At 7th level, 15th level, and 19th level, the weapon gains a cumulative +1 enhancement bonus. At 11th level, the weapon gains the <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon property. You can use this ability for a number of minutes per day equal to your oracle level. This duration does not need to be consecutive, but it must be used in 1-minute increments. The weapon disappears after 1 round if it leaves your grasp.</p>
@@ -25,9 +42,23 @@ const _ancestor = {title: "Ancestor", jsx: <><h2 id="mystery-ancestor-ancestor">
 const _apocalypse = {title: "Apocalypse", jsx: <><h2 id="mystery-apocalypse-apocalypse">Apocalypse</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 56</Link></p>
 <p>Among <Link to="/monster/fire_giant_doombringer">fire giants</Link>, the rare but blessed oracles of the apocalypse are favored emissaries of the divine.</p>
-<p><strong>Deities:</strong> <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/rovagug">Rovagug</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the apocalypse mystery adds Bluff, Disguise, Survival, and Stealth to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/deathwatch">deathwatch</Link> (2nd), <Link to="/spell/summon_swarm">summon swarm</Link> (4th), <Link to="/spell/explosive_runes">explosive runes</Link> (6th), <Link to="/spell/ice_storm">ice storm</Link> (8th), <Link to="/spell/insect_plague">insect plague</Link> (10th), <Link to="/spell/circle_of_death">circle of death</Link> (12th), <Link to="/spell/vision">vision</Link> (14th), <Link to="/spell/incendiary_cloud">incendiary cloud</Link> (16th), <Link to="/spell/meteor_swarm">meteor swarm</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/rovagug">Rovagug</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/deathwatch">Deathwatch</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/summon_swarm">Summon swarm</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/explosive_runes">Explosive runes</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/ice_storm">Ice storm</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/insect_plague">Insect plague</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/circle_of_death">Circle of death</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/vision">Vision</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/incendiary_cloud">Incendiary cloud</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/meteor_swarm">Meteor swarm</Link></Pair>
+</Ability>
 <h3 id="mystery-apocalypse-revelations">Revelations</h3>
 <p>An oracle with the Apocalypse mystery can choose from any of the following revelations.</p>
 <p><strong>Defy Elements (Ex):</strong> Choose one energy type (acid, cold, fire, electricity, or sonic). You gain resistance 5 to the selected energy type. At 5th level and every 5 levels thereafter, you can choose an additional energy type for which to gain resistance 5, or you can choose a previously chosen energy type and increase that resistance by 5 (to a maximum resistance of 20 for any one energy type).</p>
@@ -45,9 +76,23 @@ const _apocalypse = {title: "Apocalypse", jsx: <><h2 id="mystery-apocalypse-apoc
 </>};
 const _ascetic = {title: "Ascetic", jsx: <><h2 id="mystery-ascetic-ascetic">Ascetic</h2>
 <p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 104</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/irori">Irori</Link></p>
-<p><strong>Class Skills:</strong> An oracle with the ascetic mystery adds Acrobatics (Dex), Climb (Str), Escape Artist (Dex), and Swim (Str) to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/stone_fist">stone fist</Link> (2nd), <Link to="/spell/glide">glide</Link> (4th), <Link to="/spell/force_punch">force punch</Link> (6th), <Link to="/spell/ethereal_fists">ethereal fists</Link> (8th), <Link to="/spell/contact_other_plane">contact other plane</Link> (10th), <Link to="/spell/legend_lore">legend lore</Link> (12th), <Link to="/spell/vision">vision</Link> (14th), <Link to="/spell/frightful_aspect">frightful aspect</Link> (16th), <Link to="/spell/iron_body">iron body</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/irori">Irori</Link></Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/swim">Swim</Link> (STR)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/stone_fist">Stone fist</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/glide">Glide</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/force_punch">Force punch</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/ethereal_fists">Ethereal fists</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/contact_other_plane">Contact other plane</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/legend_lore">Legend lore</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/vision">Vision</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/frightful_aspect">Frightful aspect</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/iron_body">Iron body</Link></Pair>
+</Ability>
 <h3 id="mystery-ascetic-revelations">Revelations</h3>
 <p>An oracle with the Ascetic mystery can choose from any of the following revelations.</p>
 <p><strong>Absence of Body (Su):</strong> You require half as much food and water to survive as a normal member of your race. Additionally, each time you <Link to="/misc/hold_your_breath">hold your breath</Link>, you can do so for an additional number of rounds equal to your oracle level. At 15th level, you no longer need to eat or drink and can hold your breath for 10 times as long (2 minutes per point of Constitution, plus 1 additional minute per oracle level).</p>
@@ -63,9 +108,23 @@ const _ascetic = {title: "Ascetic", jsx: <><h2 id="mystery-ascetic-ascetic">Asce
 </>};
 const _battle = {title: "Battle", jsx: <><h2 id="mystery-battle-battle">Battle</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 45</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/cayden_cailean">Cayden Cailean</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/rovagug">Rovagug</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the battle mystery adds Intimidate, Knowledge (engineering), Perception, and Ride to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/enlarge_person">enlarge person</Link> (2nd), <Link to="/spell/fog_cloud">fog cloud</Link> (4th), <Link to="/spell/magic_vestment">magic vestment</Link> (6th), <Link to="/spell/wall_of_fire">wall of fire</Link> (8th), <Link to="/spell/righteous_might">righteous might</Link> (10th), <Link to="/spell/mass_bulls_strength">mass bull's strength</Link> (12th), <Link to="/spell/control_weather">control weather</Link> (14th), <Link to="/spell/earthquake">earthquake</Link> (16th), <Link to="/spell/storm_of_vengeance">storm of vengeance</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/cayden_cailean">Cayden Cailean</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/rovagug">Rovagug</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/ride">Ride</Link> (DEX)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/enlarge_person">Enlarge person</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/fog_cloud">Fog cloud</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/magic_vestment">Magic vestment</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/wall_of_fire">Wall of fire</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/righteous_might">Righteous might</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/mass_bulls_strength">Mass bull's strength</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/control_weather">Control weather</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/earthquake">Earthquake</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/storm_of_vengeance">Storm of vengeance</Link></Pair>
+</Ability>
 <h3 id="mystery-battle-revelations">Revelations</h3>
 <p>An oracle with the Battle mystery can choose from any of the following revelations.</p>
 <p><strong>Battlecry (Ex):</strong> As a standard action, you can unleash an inspiring battlecry. All allies within 100 feet who hear your cry gain a +1 morale bonus on attack rolls, skill checks, and saving throws for a number of rounds equal to your Charisma modifier. At 10th level, this bonus increases to +2. You can use this ability once per day, plus one additional time per day at 5th level and for every five levels thereafter.</p>
@@ -83,9 +142,23 @@ const _battle = {title: "Battle", jsx: <><h2 id="mystery-battle-battle">Battle</
 </>};
 const _bones = {title: "Bones", jsx: <><h2 id="mystery-bones-bones">Bones</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 46</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/urgathoa">Urgathoa</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with a bones mystery adds Bluff, Disguise, Intimidate, and Stealth to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/cause_fear">cause fear</Link> (2nd), <Link to="/spell/false_life">false life</Link> (4th), <Link to="/spell/animate_dead">animate dead</Link> (6th), <Link to="/spell/fear">fear</Link> (8th), <Link to="/spell/slay_living">slay living</Link> (10th), <Link to="/spell/circle_of_death">circle of death</Link> (12th), <Link to="/spell/control_undead">control undead</Link> (14th), <Link to="/spell/horrid_wilting">horrid wilting</Link> (16th), <Link to="/spell/wail_of_the_banshee">wail of the banshee</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/urgathoa">Urgathoa</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/cause_fear">Cause fear</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/false_life">False life</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/animate_dead">Animate dead</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/fear">Fear</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/slay_living">Slay living</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/circle_of_death">Circle of death</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/control_undead">Control undead</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/horrid_wilting">Horrid wilting</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/wail_of_the_banshee">Wail of the banshee</Link></Pair>
+</Ability>
 <h3 id="mystery-bones-revelations">Revelations</h3>
 <p>An oracle with the Bones mystery can choose from any of the following revelations.</p>
 <p><strong>Armor of Bones (Su):</strong> You can conjure armor made of bones that grants you a +4 armor bonus. At 7th level, and every four levels thereafter, this bonus increases by +2. At 13th level, this armor grants you DR 5/bludgeoning. You can use this armor for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments.</p>
@@ -103,9 +176,23 @@ const _bones = {title: "Bones", jsx: <><h2 id="mystery-bones-bones">Bones</h2>
 </>};
 const _dark_tapestry = {title: "Dark Tapestry", jsx: <><h2 id="mystery-dark_tapestry-dark-tapestry">Dark Tapestry</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 54</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/zon_kuthon">Zon-Kuthon</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the dark tapestry mystery adds Disguise, Intimidate, Knowledge (arcana), and Stealth to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/entropic_shield">entropic shield</Link> (2nd), <Link to="/spell/dust_of_twilight">dust of twilight</Link> (4th), <Link to="/spell/tongues">tongues</Link> (6th), <Link to="/spell/black_tentacles">black tentacles</Link> (8th), <Link to="/spell/feeblemind">feeblemind</Link> (10th), <Link to="/spell/planar_binding">planar binding</Link> (12th), <Link to="/spell/insanity">insanity</Link> (14th), <Link to="/spell/reverse_gravity">reverse gravity</Link> (16th), <Link to="/spell/interplanetary_teleport">interplanetary teleport</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/zon_kuthon">Zon-Kuthon</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/entropic_shield">Entropic shield</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/dust_of_twilight">Dust of twilight</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/tongues">Tongues</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/black_tentacles">Black tentacles</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/feeblemind">Feeblemind</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/planar_binding">Planar binding</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/insanity">Insanity</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/reverse_gravity">Reverse gravity</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/interplanetary_teleport">Interplanetary teleport</Link></Pair>
+</Ability>
 <h3 id="mystery-dark_tapestry-revelations">Revelations</h3>
 <p>An oracle with the Dark Tapestry mystery can choose from any of the following revelations.</p>
 <p><strong>Brain Drain (Su):</strong> You can take a standard action to violently probe the mind of a single intelligent enemy within 100 feet. The target receives a Will save to negate the effect and immediately knows the source of this harmful mental prying. Those who fail this save are wracked with pain, taking 1d4 points of damage for every oracle level you possess. After successfully attacking with this ability, you may use a full-round action to sort through the jumble of stolen thoughts and memories to make a single Knowledge check using the victim's skill bonus. The randomly stolen thoughts remain in your mind for a number of rounds equal to your Charisma modifier. Treat the knowledge gained as if you had used <Link to="/spell/detect_thoughts">detect thoughts</Link>. This is a mind-affecting effect. You can use this ability once per day at 1st level, plus one additional time per day at 5th level and for every five levels beyond 5th.</p>
@@ -125,9 +212,24 @@ const _dragon = {title: "Dragon", jsx: <><h2 id="mystery-dragon-dragon">Dragon</
 <p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons pg. 8</Link></p>
 <p>Oracles who draw their power from the mysterious and primal might of dragons are usually solitary folk. They are deep thinkers and often quick of wit, but prideful and equally quick-tempered.</p>
 <p>Upon selecting this mystery, the oracle must select an energy type (acid, cold, electricity, or fire) to be her associated element, which impacts several revelations.</p>
-<p><strong>Deities:</strong> <Link to="/faith/dahak">Dahak</Link>, <Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/nalinivati">Nalinivati</Link>, <Link to="/faith/ragadahn">Ragadahn</Link>, <Link to="/faith/shizuru">Shizuru</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the dragon mystery adds Fly, Intimidate, Perception, and Knowledge (arcana) to her list of class skills. She can take ranks in Fly even if she does not have a method of flying under her own power.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/cause_fear">cause fear</Link> (2nd), <Link to="/spell/resist_energy">resist energy</Link> (4th), <Link to="/spell/fly">fly</Link> (6th), <Link to="/spell/fear">fear</Link> (8th), <Link to="/spell/spell_resistance">spell resistance</Link> (10th), <Link to="/spell/antimagic_field">antimagic field</Link> (12th), <Link to="/spell/true_seeing">true seeing</Link> (14th), <Link to="/spell/form_of_the_dragon_iii">form of the dragon III</Link> (16th), <Link to="/spell/overwhelming_presence">overwhelming presence</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/dahak">Dahak</Link>, <Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/nalinivati">Nalinivati</Link>, <Link to="/faith/ragadahn">Ragadahn</Link>, <Link to="/faith/shizuru">Shizuru</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/fly">Fly</Link> (DEX), <Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT)</Pair>
+<Pair title="Special">The oracle can take ranks in Fly even if she does not have a method of flying under her own power.</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/cause_fear">Cause fear</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/resist_energy">Resist energy</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/fly">Fly</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/fear">Fear</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/spell_resistance">Spell resistance</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/antimagic_field">Antimagic field</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/true_seeing">True seeing</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/form_of_the_dragon_iii">Form of the dragon III</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/overwhelming_presence">Overwhelming presence</Link></Pair>
+</Ability>
 <h3 id="mystery-dragon-revelations">Revelations</h3>
 <p>An oracle with the Dragon mystery can choose from any of the following revelations.</p>
 <p><strong>Breath Weapon (Su):</strong> The primal power of dragonkind seethes within you. You gain a breath weapon. This breath weapon deals 1d6 points of damage of your energy type per 2 oracle levels you have (minimum 1d6; Reflex half). The shape of the breath weapon is either a 30-foot cone or a 60-foot line, selected when choosing this revelation. You can use this ability once per day at 1st level, plus one additional time at 5th level and one additional time per day for every 5 levels beyond 5th.</p>
@@ -147,9 +249,23 @@ const _dragon = {title: "Dragon", jsx: <><h2 id="mystery-dragon-dragon">Dragon</
 const _elemental = {title: "Elemental", jsx: <><h2 id="mystery-elemental-elemental">Elemental</h2>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 28</Link></p>
 <p>Elemental oracles gain their powers from forces that balance or blend elements together.</p>
-<p><strong>Deities:</strong> <Link to="/main/faiths_pantheons">Elemental Lords</Link>, <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/yamatsumi">Yamatsumi</Link></p>
-<p><strong>Class Skills:</strong> An oracle with the elemental mystery adds Acrobatics, Climb, Stealth, and Swim to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/endure_elements">Endure elements</Link> (2nd), <Link to="/spell/resist_energy">resist energy</Link> (4th), <Link to="/spell/elemental_aura">elemental aura</Link> (6th), <Link to="/spell/elemental_body_i">elemental body I</Link> (8th), <Link to="/spell/elemental_body_ii">elemental body II</Link> (10th), <Link to="/spell/elemental_body_iii">elemental body III</Link> (12th), <Link to="/spell/elemental_body_iv">elemental body IV</Link> (14th), <Link to="/spell/create_demiplane">create demiplane</Link> (16th), <Link to="/spell/elemental_swarm">elemental swarm</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/main/faiths_pantheons">Elemental Lords</Link>, <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/yamatsumi">Yamatsumi</Link></Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/swim">Swim</Link> (STR)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/endure_elements">Endure elements</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/resist_energy">Resist energy</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/elemental_aura">Elemental aura</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/elemental_body_i">Elemental body I</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/elemental_body_ii">Elemental body II</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/elemental_body_iii">Elemental body III</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/elemental_body_iv">Elemental body IV</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/create_demiplane">Create demiplane</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/elemental_swarm">Elemental swarm</Link></Pair>
+</Ability>
 <h3 id="mystery-elemental-revelations">Revelations</h3>
 <p>An oracle with the Elemental mystery can choose from any of the following revelations.</p>
 <p><strong>Dance of Whirling Water (Ex):</strong> You dance through the battlefield with all the grace and power of the waves, sweeping up enemies and tossing them away with the powers of air and water entwined. Whenever you succeed at an Acrobatics check to move through an enemy's square, you gain a competence bonus equal to half your oracle level (minimum +1) on trip combat maneuvers against that creature until the start of your next turn. At 11th level, you gain <Link to="/feat/whirlwind_attack">Whirlwind Attack</Link> as a bonus feat, and you can make bull rush combat maneuvers in place of any of the attacks granted by Whirlwind Attack; you cannot move with enemies bull rushed this way.</p>
@@ -168,9 +284,23 @@ const _elemental = {title: "Elemental", jsx: <><h2 id="mystery-elemental-element
 </>};
 const _flame = {title: "Flame", jsx: <><h2 id="mystery-flame-flame">Flame</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 47</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the flame mystery adds Acrobatics, Climb, Intimidate, and Perform to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/burning_hands">burning hands</Link> (2nd), <Link to="/spell/resist_energy">resist energy</Link> (4th), <Link to="/spell/fireball">fireball</Link> (6th), <Link to="/spell/wall_of_fire">wall of fire</Link> (8th), <Link to="/spell/summon_monster_v">summon monster V</Link> (fire elementals only) (10th), <Link to="/spell/fire_seeds">fire seeds</Link> (12th), <Link to="/spell/fire_storm">fire storm</Link> (14th), <Link to="/spell/incendiary_cloud">incendiary cloud</Link> (16th), <Link to="/spell/fiery_body">fiery body</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/perform">Perform</Link> (CHA)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/burning_hands">Burning hands</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/resist_energy">Resist energy</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/fireball">Fireball</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/wall_of_fire">Wall of fire</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/summon_monster_v">Summon monster V</Link> (fire elementals only)</Pair>
+<Pair plain title="12th"><Link to="/spell/fire_seeds">Fire seeds</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/fire_storm">Fire storm</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/incendiary_cloud">Incendiary cloud</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/fiery_body">Fiery body</Link></Pair>
+</Ability>
 <h3 id="mystery-flame-revelations">Revelations</h3>
 <p>An oracle with the Flame mystery can choose from any of the following revelations.</p>
 <p><strong>Burning Magic (Su):</strong> Whenever a creature fails a saving throw and takes fire damage from one of your spells, it catches on fire. This fire deals 1 point of fire damage per spell level at the beginning of the burning creature's turn. The fire lasts for 1d4 rounds, but it can be extinguished as a move action if the creature succeeds at a Reflex save (using the spell's DC). Dousing the creature with water as a standard action grants a +2 bonus on this save, while immersing the creature in water automatically extinguishes the fire. Spells that do not grant a save do not cause a creature to catch on fire.</p>
@@ -189,9 +319,23 @@ const _flame = {title: "Flame", jsx: <><h2 id="mystery-flame-flame">Flame</h2>
 const _godclaw = {title: "Godclaw", jsx: <><h2 id="mystery-godclaw-godclaw">Godclaw</h2>
 <p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 26</Link></p>
 <p>Many Godclaw signifers are oracles who embrace the unique Godclaw mystery. Oracles with the Godclaw mystery often take the <Link to="/oraclecurse/clouded_vision">clouded vision</Link> or <Link to="/oraclecurse/legalistic">legalistic</Link> curses.</p>
-<p><strong>Deities:</strong> <Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/torag">Torag</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the Godclaw mystery adds Bluff, Intimidate, Knowledge (local), and Perception to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/cause_fear">cause fear</Link> (2nd), <Link to="/spell/daze_monster">daze monster</Link> (4th), <Link to="/spell/hold_person">hold person</Link> (6th), <Link to="/spell/orders_wrath">order's wrath</Link> (8th), <Link to="/spell/break_enchantment">break enchantment</Link> (10th), <Link to="/spell/forceful_hand">forceful hand</Link> (12th), <Link to="/spell/dictum">dictum</Link> (14th), <Link to="/spell/shield_of_law">shield of law</Link> (16th), <Link to="/spell/imprisonment">imprisonment</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/torag">Torag</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/cause_fear">Cause fear</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/daze_monster">Daze monster</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/hold_person">Hold person</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/orders_wrath">Order's wrath</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/break_enchantment">Break enchantment</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/forceful_hand">Forceful hand</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/dictum">Dictum</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/shield_of_law">Shield of law</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/imprisonment">Imprisonment</Link></Pair>
+</Ability>
 <h3 id="mystery-godclaw-revelations">Revelations</h3>
 <p>An oracle with the Godclaw mystery can choose from any of the following revelations.</p>
 <p><strong>Abadar's Boon (Sp):</strong> You can spend 1 minute meditating on and communing with a masterwork object of any type. At the end of this time, you can speak with that item. This functions as per <Link to="/spell/stone_tell">stone tell</Link>, except that it works with masterwork goods, and the item cannot tell you what it covers or conceals if that question is not applicable to it. You can speak with items in this way for a number of minutes equal to your oracle level. This duration does not need to be consecutive, but it must be used in 1-minute increments.</p>
@@ -209,9 +353,23 @@ const _godclaw = {title: "Godclaw", jsx: <><h2 id="mystery-godclaw-godclaw">Godc
 </>};
 const _heavens = {title: "Heavens", jsx: <><h2 id="mystery-heavens-heavens">Heavens</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 47</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/desna">Desna</Link>, <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the heavens mystery adds Fly, Knowledge (arcana), Perception, and Survival to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/color_spray">color spray</Link> (2nd), <Link to="/spell/hypnotic_pattern">hypnotic pattern</Link> (4th), <Link to="/spell/daylight">daylight</Link> (6th), <Link to="/spell/rainbow_pattern">rainbow pattern</Link> (8th), <Link to="/spell/overland_flight">overland flight</Link> (10th), <Link to="/spell/chain_lightning">chain lightning</Link> (12th), <Link to="/spell/prismatic_spray">prismatic spray</Link> (14th), <Link to="/spell/sunburst">sunburst</Link> (16th), <Link to="/spell/meteor_swarm">meteor swarm</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/desna">Desna</Link>, <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/fly">Fly</Link> (DEX), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/color_spray">Color spray</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/hypnotic_pattern">Hypnotic pattern</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/daylight">Daylight</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/rainbow_pattern">Rainbow pattern</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/overland_flight">Overland flight</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/chain_lightning">Chain lightning</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/prismatic_spray">Prismatic spray</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/sunburst">Sunburst</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/meteor_swarm">Meteor swarm</Link></Pair>
+</Ability>
 <h3 id="mystery-heavens-revelations">Revelations</h3>
 <p>An oracle with the Heavens mystery can choose from any of the following revelations.</p>
 <p><strong>Awesome Display (Su):</strong> Your phantasmagoric displays accurately model the mysteries of the night sky, dumbfounding all who behold them. Each creature affected by your illusion (pattern) spells is treated as if its total number of Hit Dice were equal to its number of Hit Dice minus your Charisma modifier (if positive).</p>
@@ -230,9 +388,23 @@ const _heavens = {title: "Heavens", jsx: <><h2 id="mystery-heavens-heavens">Heav
 </aside></>};
 const _intrigue = {title: "Intrigue", jsx: <><h2 id="mystery-intrigue-intrigue">Intrigue</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 69</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/calistria">Calistria</Link>, <Link to="/faith/norgorber">Norgorber</Link></p>
-<p><strong>Class Skills:</strong> An oracle with the intrigue mystery adds Bluff, Disguise, Sleight of Hand, and Stealth to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/charm_person">charm person</Link> (2nd), <Link to="/spell/false_belief">false belief</Link> (4th), <Link to="/spell/suggestion">suggestion</Link> (6th), <Link to="/spell/sending">sending</Link> (8th), <Link to="/spell/true_seeing">true seeing</Link> (10th), <Link to="/spell/symbol_of_persuasion">symbol of persuasion</Link> (12th), <Link to="/spell/greater_scrying">greater scrying</Link> (14th), <Link to="/spell/mind_blank">mind blank</Link> (16th), <Link to="/spell/overwhelming_presence">overwhelming presence</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/calistria">Calistria</Link>, <Link to="/faith/norgorber">Norgorber</Link></Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/charm_person">Charm person</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/false_belief">False belief</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/suggestion">Suggestion</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/sending">Sending</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/true_seeing">True seeing</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/symbol_of_persuasion">Symbol of persuasion</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/greater_scrying">Greater scrying</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/mind_blank">Mind blank</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/overwhelming_presence">Overwhelming presence</Link></Pair>
+</Ability>
 <h3 id="mystery-intrigue-revelations">Revelations</h3>
 <p>An oracle with the Intrigue mystery can choose from any of the following revelations.</p>
 <p><strong>Assumed Form (Sp):</strong> You can change your appearance at will, as <Link to="/spell/disguise_self">disguise self</Link> with a caster level equal to your oracle level. At 7th level, you can choose to actually transform, which works the same way but counts as a polymorph effect instead of an illusion and doesn't allow a Will save to disbelieve. At 11th level, the ability lasts until you dismiss it or use it again, allowing you to even keep it active while you sleep. At 15th level, when you use this ability as a polymorph effect, you can gain the size bonus to your ability scores and additional racial abilities as if using <Link to="/spell/alter_self">alter self</Link>.</p>
@@ -250,9 +422,23 @@ const _intrigue = {title: "Intrigue", jsx: <><h2 id="mystery-intrigue-intrigue">
 </>};
 const _juju = {title: "Juju", jsx: <><h2 id="mystery-juju-juju">Juju</h2>
 <p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies pg. 14</Link>, <Link to="/source/pathfinder_39_the_city_of_seven_spears">Pathfinder #39: The City of Seven Spears pg. 68</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/wendo">Wendo</Link></p>
-<p><strong>Class Skills:</strong> An oracle with the juju mystery adds Bluff, Intimidate, Knowledge (nature), Perform (oratory), and Survival to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/speak_with_animals">speak with animals</Link> (2nd), <Link to="/spell/hideous_laughter">hideous laughter</Link> (4th), <Link to="/spell/fear">fear</Link> (6th), <Link to="/spell/charm_monster">charm monster</Link> (8th), <Link to="/spell/mass_suggestion">mass suggestion</Link> (10th), <Link to="/spell/contact_other_plane">contact other plane (as a 6th-level spell)</Link> (12th), <Link to="/spell/summon_natures_ally_vii">summon nature's ally VII</Link> (14th), <Link to="/spell/mass_charm_monster">mass charm monster</Link> (16th), <Link to="/spell/shapechange">shapechange</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/wendo">Wendo</Link></Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/perform">Perform</Link> (oratory) (CHA), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/speak_with_animals">Speak with animals</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/hideous_laughter">Hideous laughter</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/fear">Fear</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/charm_monster">Charm monster</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/mass_suggestion">Mass suggestion</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/contact_other_plane">Contact other plane</Link> (as a 6th-level spell)</Pair>
+<Pair plain title="14th"><Link to="/spell/summon_natures_ally_vii">Summon nature's ally VII</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/mass_charm_monster">Mass charm monster</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/shapechange">Shapechange</Link></Pair>
+</Ability>
 <h3 id="mystery-juju-revelations">Revelations</h3>
 <p>An oracle with the Juju mystery can choose from any of the following revelations.</p>
 <p><strong>Beast Tongue (Ex):</strong> You can communicate with a single type of animal (birds, cats, snakes, fish, and so on) as if you were constantly using <em>speak with animals.</em> Although this ability grants you the ability to converse with such creatures, it grants you no special influence over them.</p>
@@ -269,9 +455,23 @@ const _juju = {title: "Juju", jsx: <><h2 id="mystery-juju-juju">Juju</h2>
 </>};
 const _life = {title: "Life", jsx: <><h2 id="mystery-life-life">Life</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 48</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the life mystery adds Handle Animal, Knowledge (nature), and Survival to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/detect_undead">detect undead</Link> (2nd), <Link to="/spell/lesser_restoration">lesser restoration</Link> (4th), <Link to="/spell/neutralize_poison">neutralize poison</Link> (6th), <Link to="/spell/restoration">restoration</Link> (8th), <Link to="/spell/breath_of_life">breath of life</Link> (10th), <Link to="/spell/heal">heal</Link> (12th), <Link to="/spell/greater_restoration">greater restoration</Link> (14th), <Link to="/spell/mass_heal">mass heal</Link> (16th), <Link to="/spell/true_resurrection">true resurrection</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/detect_undead">Detect undead</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/lesser_restoration">Lesser restoration</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/neutralize_poison">Neutralize poison</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/restoration">Restoration</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/breath_of_life">Breath of life</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/heal">Heal</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/greater_restoration">Greater restoration</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/mass_heal">Mass heal</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/true_resurrection">True resurrection</Link></Pair>
+</Ability>
 <h3 id="mystery-life-revelations">Revelations</h3>
 <p>An oracle with the Life mystery can choose from any of the following revelations.</p>
 <p><strong>Channel (Su):</strong> You can <Link to="/ability/channel_positive_energy">channel positive energy</Link> like a cleric, using your oracle level as your effective cleric level when determining the amount of damage healed (or caused to undead) and the DC. You can use this ability a number of times per day equal to 1 + your Charisma modifier.</p>
@@ -289,9 +489,23 @@ const _life = {title: "Life", jsx: <><h2 id="mystery-life-life">Life</h2>
 </>};
 const _lore = {title: "Lore", jsx: <><h2 id="mystery-lore-lore">Lore</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 49</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/nethys">Nethys</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the lore mystery adds Appraise and all Knowledge skills to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/identify">identify</Link> (2nd), <Link to="/spell/tongues">tongues</Link> (4th), <Link to="/spell/locate_object">locate object</Link> (6th), <Link to="/spell/legend_lore">legend lore</Link> (8th), <Link to="/spell/contact_other_plane">contact other plane</Link> (10th), <Link to="/spell/mass_owls_wisdom">mass owl's wisdom</Link> (12th), <Link to="/spell/vision">vision</Link> (14th), <Link to="/spell/moment_of_prescience">moment of prescience</Link> (16th), <Link to="/spell/time_stop">time stop</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/nethys">Nethys</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/appraise">Appraise</Link> (INT), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/identify">Identify</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/tongues">Tongues</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/locate_object">Locate object</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/legend_lore">Legend lore</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/contact_other_plane">Contact other plane</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/mass_owls_wisdom">Mass owl's wisdom</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/vision">Vision</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/moment_of_prescience">Moment of prescience</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/time_stop">Time stop</Link></Pair>
+</Ability>
 <h3 id="mystery-lore-revelations">Revelations</h3>
 <p>An oracle with the Lore mystery can choose from any of the following revelations.</p>
 <p><strong>Arcane Archivist (Su):</strong> Your experience with lore-filled tomes has granted you the ability to cast arcane spells as if they were on your spell list. Once per day, you can cast a spell from the <Link to="/main/spells_sorcerer">sorcerer/wizard spell list</Link> as if it were on your list of spells known. The spell consumes a spell slot one level higher than the level of the spell. You must have a spellbook containing the spell to cast it in this way, and the spell is erased when you complete the casting. You must be at least 11th level to select this revelation.</p>
@@ -309,9 +523,23 @@ const _lore = {title: "Lore", jsx: <><h2 id="mystery-lore-lore">Lore</h2>
 </>};
 const _lunar = {title: "Lunar", jsx: <><h2 id="mystery-lunar-lunar">Lunar</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon pg. 28</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/ashava">Ashava</Link>, <Link to="/faith/desna">Desna</Link>, <Link to="/faith/groetus">Groetus</Link>, <Link to="/faith/jezelda">Jezelda</Link>, <Link to="/faith/tsukiyo">Tsukiyo</Link>, <Link to="/faith/zon_kuthon">Zon-Kuthon</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the lunar mystery adds Acrobatics, Knowledge (Nature), Perception, and Survival to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/fumbletongue">fumbletongue</Link> (2nd), <Link to="/spell/dust_of_twilight">dust of twilight</Link> (4th), <Link to="/spell/rage">rage</Link> (6th), <Link to="/spell/moonstruck">moonstruck</Link> (8th), <Link to="/spell/aspect_of_the_wolf">aspect of the wolf</Link> (10th), <Link to="/spell/litany_of_madness">litany of madness</Link> (12th), <Link to="/spell/lunar_veil">lunar veil</Link> (14th), <Link to="/spell/blood_mist">blood mist</Link> (16th), <Link to="/spell/polar_midnight">polar midnight</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/ashava">Ashava</Link>, <Link to="/faith/desna">Desna</Link>, <Link to="/faith/groetus">Groetus</Link>, <Link to="/faith/jezelda">Jezelda</Link>, <Link to="/faith/tsukiyo">Tsukiyo</Link>, <Link to="/faith/zon_kuthon">Zon-Kuthon</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/fumbletongue">Fumbletongue</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/dust_of_twilight">Dust of twilight</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/rage">Rage</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/moonstruck">Moonstruck</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/aspect_of_the_wolf">Aspect of the wolf</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/litany_of_madness">Litany of madness</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/lunar_veil">Lunar veil</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/blood_mist">Blood mist</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/polar_midnight">Polar midnight</Link></Pair>
+</Ability>
 <h3 id="mystery-lunar-revelations">Revelations</h3>
 <p>An oracle with the Lunar mystery can choose from any of the following revelations.</p>
 <p><strong>Form of the Beast (Su):</strong> As a standard action, you can assume the form of a Small or Medium animal, as <Link to="/spell/beast_shape_i">beast shape I</Link>. At 9th level, you can assume the form of a Tiny or Large animal, as <Link to="/spell/beast_shape_ii">beast shape II</Link>. At 11th level, you can assume the form of a Diminutive or Huge animal or a Small or Medium magical beast, as <Link to="/spell/beast_shape_iii">beast shape III</Link>. At 13th level, you can assume the form of a Tiny or Large magical beast, as <Link to="/spell/beast_shape_iv">beast shape IV</Link>. You can use this ability once per day, but the duration is 1 hour/level. You must be at least 7th level to select this revelation.</p>
@@ -329,9 +557,23 @@ const _lunar = {title: "Lunar", jsx: <><h2 id="mystery-lunar-lunar">Lunar</h2>
 </>};
 const _metal = {title: "Metal", jsx: <><h2 id="mystery-metal-metal">Metal</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 55</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/torag">Torag</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the metal mystery adds Appraise, Bluff, Disable Device, and Intimidate to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/lead_blades">lead blades</Link> (2nd), <Link to="/spell/heat_metal">heat metal</Link> (4th), <Link to="/spell/keen_edge">keen edge</Link> (6th), <Link to="/spell/versatile_weapon">versatile weapon</Link> (8th), <Link to="/spell/major_creation">major creation (metal items only)</Link> (10th), <Link to="/spell/wall_of_iron">wall of iron</Link> (12th), <Link to="/spell/statue">statue (metal statue instead of iron)</Link> (14th), <Link to="/spell/repel_metal_or_stone">repel metal or stone</Link> (16th), <Link to="/spell/iron_body">iron body</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/torag">Torag</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/appraise">Appraise</Link> (INT), <Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/lead_blades">Lead blades</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/heat_metal">Heat metal</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/keen_edge">Keen edge</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/versatile_weapon">Versatile weapon</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/major_creation">Major creation</Link> (metal items only)</Pair>
+<Pair plain title="12th"><Link to="/spell/wall_of_iron">Wall of iron</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/statue">Statue</Link> (metal statue instead of iron)</Pair>
+<Pair plain title="16th"><Link to="/spell/repel_metal_or_stone">Repel metal or stone</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/iron_body">Iron body</Link></Pair>
+</Ability>
 <h3 id="mystery-metal-revelations">Revelations</h3>
 <p>An oracle with the Metal mystery can choose from any of the following revelations.</p>
 <p><strong>Armor Mastery (Ex):</strong> You become more maneuverable while wearing armor. You can move at your normal speed in medium armor that is made of metal. This does not grant proficiency in armor. At 5th level, whenever you are wearing metal armor, you reduce the armor check penalty by 1 (to a minimum of 0) and increase the maximum Dexterity bonus allowed by your armor by 1. At 10th level, and again at 15th level, these bonuses increase by 1.</p>
@@ -349,9 +591,23 @@ const _metal = {title: "Metal", jsx: <><h2 id="mystery-metal-metal">Metal</h2>
 </>};
 const _nature = {title: "Nature", jsx: <><h2 id="mystery-nature-nature">Nature</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 50</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/erastil">Erastil</Link>, <Link to="/faith/gozreh">Gozreh</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the nature mystery adds Climb, Fly, Knowledge (nature), Ride, Survival, and Swim to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/charm_animal">charm animal</Link> (2nd), <Link to="/spell/barkskin">barkskin</Link> (4th), <Link to="/spell/speak_with_plants">speak with plants</Link> (6th), <Link to="/spell/grove_of_respite">grove of respite</Link> (8th), <Link to="/spell/awaken">awaken</Link> (10th), <Link to="/spell/stone_tell">stone tell</Link> (12th), <Link to="/spell/creeping_doom">creeping doom</Link> (14th), <Link to="/spell/animal_shapes">animal shapes</Link> (16th), <Link to="/spell/world_wave">world wave</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/erastil">Erastil</Link>, <Link to="/faith/gozreh">Gozreh</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/fly">Fly</Link> (DEX), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/ride">Ride</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/swim">Swim</Link> (STR)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/charm_animal">Charm animal</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/barkskin">Barkskin</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/speak_with_plants">Speak with plants</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/grove_of_respite">Grove of respite</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/awaken">Awaken</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/stone_tell">Stone tell</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/creeping_doom">Creeping doom</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/animal_shapes">Animal shapes</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/world_wave">World wave</Link></Pair>
+</Ability>
 <h3 id="mystery-nature-revelations">Revelations</h3>
 <p>An oracle with the Nature mystery can choose from any of the following revelations.</p>
 <p><strong>Bonded Mount (Su):</strong> You gain the service of an unusually intelligent, strong, and loyal mount. The creature must be one that you are capable of riding and is suitable as a mount. A Medium oracle can select a <Link to="/companion/camel">camel</Link> or a <Link to="/companion/horse">horse</Link>. A Small oracle can select a <Link to="/companion/pony">pony</Link> or <Link to="/companion/wolf">wolf</Link>, but can also select a <Link to="/companion/boar">boar</Link> or a <Link to="/companion/dog">dog</Link> if she is at least 4th level. This mount functions as a druid's <Link to="/sidekick/animal_companion">animal companion</Link>, using your oracle level as your effective druid level. Bonded mounts have an Intelligence score of at least 6.</p>
@@ -370,9 +626,23 @@ const _nature = {title: "Nature", jsx: <><h2 id="mystery-nature-nature">Nature</
 const _occult = {title: "Occult", jsx: <><h2 id="mystery-occult-occult">Occult</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 53</Link>, <Link to="/source/pathfinder_71_rasputin_must_die">Pathfinder #71: Rasputin Must Die! pg. 68</Link></p>
 <p>You have an innate connection to the spirits of the dead.</p>
-<p><strong>Deities:</strong> <Link to="/faith/magdh">Magdh</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/tsukiyo">Tsukiyo</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the occult mystery adds Bluff, Disguise, Knowledge (arcana), and Use Magic Device to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/unseen_servant">unseen servant</Link> (2nd), <Link to="/spell/spectral_hand">spectral hand</Link> (4th), <Link to="/spell/clairaudience_clairvoyance">clairaudience/clairvoyance</Link> (6th), <Link to="/spell/scrying">scrying</Link> (8th), <Link to="/spell/contact_other_plane">contact other plane</Link> (10th), <Link to="/spell/project_image">project image</Link> (12th), <Link to="/spell/vision">vision</Link> (14th), <Link to="/spell/moment_of_prescience">moment of prescience</Link> (16th), <Link to="/spell/astral_projection">astral projection</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/magdh">Magdh</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/tsukiyo">Tsukiyo</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/unseen_servant">Unseen servant</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/spectral_hand">Spectral hand</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/clairaudience_clairvoyance">Clairaudience/clairvoyance</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/scrying">Scrying</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/contact_other_plane">Contact other plane</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/project_image">Project image</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/vision">Vision</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/moment_of_prescience">Moment of prescience</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/astral_projection">Astral projection</Link></Pair>
+</Ability>
 <h3 id="mystery-occult-revelations">Revelations</h3>
 <p>An oracle with the Occult mystery can choose from any of the following revelations.</p>
 <p><strong>Automatic Writing (Su):</strong> Once per day, you can spend a full hour in uninterrupted meditation. During this period, your hands produce mysterious writing that pertains to the future. At 1st level, the prophetic writing manifests as an <Link to="/spell/augury">augury</Link> spell with 90% effectiveness. At 5th level, the writing takes the form of a <Link to="/spell/divination">divination</Link> spell with 90% effectiveness. At 8th level, the writing manifests as a casting of <Link to="/spell/commune">commune</Link> with no material component required.</p>
@@ -390,9 +660,23 @@ const _occult = {title: "Occult", jsx: <><h2 id="mystery-occult-occult">Occult</
 </>};
 const _outer_rifts = {title: "Outer Rifts", jsx: <><h2 id="mystery-outer_rifts-outer-rifts">Outer Rifts</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 31</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/groetus">Groetus</Link>, <Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/main/faiths_pantheons">demon lords</Link></p>
-<p><strong>Class Skills:</strong> An oracle with the Outer Rifts mystery adds Fly, Intimidate, Knowledge (arcana), and Survival to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/endure_elements">endure elements</Link> (2nd), <Link to="/spell/resist_energy">resist energy</Link> (4th), <Link to="/spell/vermin_shape_i">vermin shape I</Link> (6th), <Link to="/spell/confusion">confusion</Link> (8th), <Link to="/spell/lesser_planar_binding">lesser planar binding</Link> (10th), <Link to="/spell/planar_binding">planar binding</Link> (12th), <Link to="/spell/insanity">insanity</Link> (14th), <Link to="/spell/greater_planar_binding">greater planar binding</Link> (16th), <Link to="/spell/imprisonment">imprisonment</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/groetus">Groetus</Link>, <Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/main/faiths_pantheons">demon lords</Link></Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/fly">Fly</Link> (DEX), <Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/endure_elements">Endure elements</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/resist_energy">Resist energy</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/vermin_shape_i">Vermin shape I</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/confusion">Confusion</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/lesser_planar_binding">Lesser planar binding</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/planar_binding">Planar binding</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/insanity">Insanity</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/greater_planar_binding">Greater planar binding</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/imprisonment">Imprisonment</Link></Pair>
+</Ability>
 <h3 id="mystery-outer_rifts-revelations">Revelations</h3>
 <p>An oracle with the Outer Rifts mystery can choose from any of the following revelations.</p>
 <p><strong>Balefire (Su):</strong> You call upon the cleansing or searing fires of the Outer Rifts to burn your foes. As a standard action, one target within 30 feet is wreathed in screaming flames and takes 1d6 points of fire damage per level. A successful Reflex save halves this damage. At 10th level, the fire's howls cause any creatures damaged by it to be <Link to="/misc/staggered">staggered</Link> for 1 round. At 15th level, creatures who fail their saves against the balefire are staggered for 1d4 rounds and <Link to="/misc/stunned">stunned</Link> for 1 round. You can use this ability once per day plus one additional time per day at 10th level.</p>
@@ -411,9 +695,23 @@ const _outer_rifts = {title: "Outer Rifts", jsx: <><h2 id="mystery-outer_rifts-o
 const _reaper = {title: "Reaper", jsx: <><h2 id="mystery-reaper-reaper">Reaper</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_139_the_dead_road">Pathfinder #139: The Dead Road pg. 66</Link></p>
 <p>Oracles with the reaper mystery strive to quiet restless souls, end lives, and send souls to their final reward.</p>
-<p><strong>Deities:</strong> <Link to="/faith/achaekek">Achaekek</Link>, <Link to="/faith/groetus">Groetus</Link>, <Link to="/faith/pharasma">Pharasma</Link></p>
-<p><strong>Class Skills:</strong> An oracle with this mystery adds Intimidate, Perception, Stealth, and Survival to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/chill_touch">chill touch</Link> (2nd), <Link to="/spell/calm_spirit">calm spirit</Link> (4th), <Link to="/spell/sands_of_time">sands of time</Link> (6th), <Link to="/spell/purge_spirit">purge spirit</Link> (8th), <Link to="/spell/slay_living">slay living</Link> (10th), <Link to="/spell/undeath_to_death">undeath to death</Link> (12th), <Link to="/spell/destruction">destruction</Link> (14th), <Link to="/spell/horrid_wilting">horrid wilting</Link> (16th), <Link to="/spell/wail_of_the_banshee">wail of the banshee</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/achaekek">Achaekek</Link>, <Link to="/faith/groetus">Groetus</Link>, <Link to="/faith/pharasma">Pharasma</Link></Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/chill_touch">Chill touch</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/calm_spirit">Calm spirit</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/sands_of_time">Sands of time</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/purge_spirit">Purge spirit</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/slay_living">Slay living</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/undeath_to_death">Undeath to death</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/destruction">Destruction</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/horrid_wilting">Horrid wilting</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/wail_of_the_banshee">Wail of the banshee</Link></Pair>
+</Ability>
 <h3 id="mystery-reaper-revelations">Revelations</h3>
 <p>An oracle with the Reaper mystery can choose from any of the following revelations.</p>
 <p><strong>Death's Embrace (Su):</strong> You gain <Link to="/feat/improved_grapple">Improved Grapple</Link> as a bonus feat, even if you do not meet its prerequisites. Once per round when you succeed at a grapple combat maneuver check, you can deal 1d6 points of negative energy damage to the target of your grapple. This damage increases by 1d6 at 5th level and every 5 levels thereafter, to a maximum of 5d6 at 20th level.</p>
@@ -431,9 +729,23 @@ const _reaper = {title: "Reaper", jsx: <><h2 id="mystery-reaper-reaper">Reaper</
 </>};
 const _shadow = {title: "Shadow", jsx: <><h2 id="mystery-shadow-shadow">Shadow</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_shadows">Blood of Shadows pg. 12</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/groetus">Groetus</Link>, <Link to="/faith/lao_shu_po">Lao Shu Po</Link>, <Link to="/faith/tsukiyo">Tsukiyo</Link>, <Link to="/faith/zon_kuthon">Zon-Kuthon</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with this mystery adds Bluff, Disguise, Knowledge (dungeoneering), and Stealth to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/blurred_movement">blurred movement</Link> (2nd), <Link to="/spell/invisibility">invisibility</Link> (4th), <Link to="/spell/deeper_darkness">deeper darkness</Link> (6th), <Link to="/spell/shadow_step">shadow step</Link> (8th), <Link to="/spell/vampiric_shadow_shield">vampiric shadow shield</Link> (10th), <Link to="/spell/shadow_walk">shadow walk</Link> (12th), <Link to="/spell/mass_invisibility">mass invisibility</Link> (14th), <Link to="/spell/greater_shadow_evocation">greater shadow evocation</Link> (16th), <Link to="/spell/shades">shades</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/groetus">Groetus</Link>, <Link to="/faith/lao_shu_po">Lao Shu Po</Link>, <Link to="/faith/tsukiyo">Tsukiyo</Link>, <Link to="/faith/zon_kuthon">Zon-Kuthon</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/blurred_movement">Blurred movement</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/invisibility">Invisibility</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/deeper_darkness">Deeper darkness</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/shadow_step">Shadow step</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/vampiric_shadow_shield">Vampiric shadow shield</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/shadow_walk">Shadow walk</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/mass_invisibility">Mass invisibility</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/greater_shadow_evocation">Greater shadow evocation</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/shades">Shades</Link></Pair>
+</Ability>
 <h3 id="mystery-shadow-revelations">Revelations</h3>
 <p>An oracle with the Shadow mystery can choose from any of the following revelations.</p>
 <p><strong>Army of Darkness (Su):</strong> Whenever you cast a <Link to="/spell/summon_monster">summon monster</Link> spell and summon a creature that normally has the <Link to="/template/celestial">celestial</Link> or <Link to="/template/fiendish">fiendish</Link> template, you can instead summon it with the <Link to="/template/shadow_creature">shadow creature</Link> template. This revelation counts as having the <Link to="/feat/spell_focus">Spell Focus</Link> (conjuration) feat for the purpose of meeting the prerequisites of the <Link to="/feat/augment_summoning">Augment Summoning</Link> feat, as well as any feat that lists Augment Summoning as a prerequisite.</p>
@@ -452,9 +764,23 @@ const _shadow = {title: "Shadow", jsx: <><h2 id="mystery-shadow-shadow">Shadow</
 const _solar = {title: "Solar", jsx: <><h2 id="mystery-solar-solar">Solar</h2>
 <p><strong>Sources</strong> <Link to="/source/the_harrow_handbook">The Harrow Handbook pg. 26</Link></p>
 <p>Aimless wanderers and restless nomads, oracles of the solar mystery uncover meaning in the ever-changing positions of the sun and the stars in the sky.</p>
-<p><strong>Deities:</strong> <Link to="/faith/desna">Desna</Link>, <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/keltheald">Keltheald</Link>, <Link to="/faith/lalaci">Lalaci</Link>, <Link to="/faith/nurgal">Nurgal</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>, <Link to="/faith/ymeri">Ymeri</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with this mystery adds Fly, Knowledge (geography), Linguistics, and Survival to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/faerie_fire">faerie fire</Link> (2nd), <Link to="/spell/flaming_sphere">flaming sphere</Link> (4th), <Link to="/spell/daylight">daylight</Link> (6th), <Link to="/spell/dimension_door">dimension door</Link> (8th), <Link to="/spell/planar_adaptation">planar adaptation</Link> (10th), <Link to="/spell/sirocco">sirocco</Link> (12th), <Link to="/spell/sunbeam">sunbeam</Link> (14th), <Link to="/spell/sunburst">sunburst</Link> (16th), <Link to="/spell/prismatic_sphere">prismatic sphere</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/desna">Desna</Link>, <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/keltheald">Keltheald</Link>, <Link to="/faith/lalaci">Lalaci</Link>, <Link to="/faith/nurgal">Nurgal</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>, <Link to="/faith/ymeri">Ymeri</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/fly">Fly</Link> (DEX), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/faerie_fire">Faerie fire</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/flaming_sphere">Flaming sphere</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/daylight">Daylight</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/dimension_door">Dimension door</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/planar_adaptation">Planar adaptation</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/sirocco">Sirocco</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/sunbeam">Sunbeam</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/sunburst">Sunburst</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/prismatic_sphere">Prismatic sphere</Link></Pair>
+</Ability>
 <h3 id="mystery-solar-revelations">Revelations</h3>
 <p>An oracle with the Solar mystery can choose from any of the following revelations.</p>
 <p><strong>Astral Caravan (Su):</strong> As a full-round action, you can step into the planar border where the Astral Plane abuts the Material Plane, pulling up to one additional person per class level with you. You can't travel fully into the Astral Plane or any of the other planes it borders, but while using this ability you can cover incredible distances, traversing 50 miles per hour, as per the <Link to="/spell/shadow_walk">shadow walk</Link> spell. You can travel for up to 1 hour per day per oracle level. This duration need not be continuous, but it must be spent in 1-hour increments.</p>
@@ -472,9 +798,23 @@ const _solar = {title: "Solar", jsx: <><h2 id="mystery-solar-solar">Solar</h2>
 </>};
 const _spellscar = {title: "Spellscar", jsx: <><h2 id="mystery-spellscar-spellscar">Spellscar</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 30</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/zyphus">Zyphus</Link></p>
-<p><strong>Class Skills:</strong> An oracle with the spellscar mystery adds Knowledge (arcana), Knowledge (nature), Survival, and Use Magic Device to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/ray_of_enfeeblement">ray of enfeeblement</Link> (2nd), <Link to="/spell/obscure_object">obscure object</Link> (4th), <Link to="/spell/dispel_magic">dispel magic</Link> (6th), <Link to="/spell/lesser_globe_of_invulnerability">lesser globe of invulnerability</Link> (8th), <Link to="/spell/break_enchantment">break enchantment</Link> (10th), <Link to="/spell/antimagic_field">antimagic field</Link> (12th), <Link to="/spell/spell_turning">spell turning</Link> (14th), <Link to="/spell/spellscar">spellscar</Link> (16th), <Link to="/spell/mages_disjunction">mage's disjunction</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/zyphus">Zyphus</Link></Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/ray_of_enfeeblement">Ray of enfeeblement</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/obscure_object">Obscure object</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/dispel_magic">Dispel magic</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/lesser_globe_of_invulnerability">Lesser globe of invulnerability</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/break_enchantment">Break enchantment</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/antimagic_field">Antimagic field</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/spell_turning">Spell turning</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/spellscar">Spellscar</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/mages_disjunction">Mage's disjunction</Link></Pair>
+</Ability>
 <h3 id="mystery-spellscar-revelations">Revelations</h3>
 <p>An oracle with the Spellscar mystery can choose from any of the following revelations.</p>
 <p><strong>Animate Primal Forces (Su):</strong> As a standard action, you can summon a single Small air, earth, fire, or water <Link to="/family/elemental">elemental</Link> to serve you. It remains for a number of rounds equal to your Charisma modifier. At 7th level, you can summon a Medium elemental. At 9th level, you can summon a Large elemental. You can use this ability once per day plus one additional time per day at 10th level. You must be at least 3rd level to select this revelation.</p>
@@ -492,9 +832,23 @@ const _spellscar = {title: "Spellscar", jsx: <><h2 id="mystery-spellscar-spellsc
 </>};
 const _stone = {title: "Stone", jsx: <><h2 id="mystery-stone-stone">Stone</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 51</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/torag">Torag</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the stone mystery adds Appraise, Climb, Intimidate, and Survival to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/magic_stone">magic stone</Link> (2nd), <Link to="/spell/stone_call">stone call</Link> (4th), <Link to="/spell/meld_into_stone">meld into stone</Link> (6th), <Link to="/spell/wall_of_stone">wall of stone</Link> (8th), <Link to="/spell/stoneskin">stoneskin</Link> (10th), <Link to="/spell/stone_tell">stone tell</Link> (12th), <Link to="/spell/statue">statue</Link> (14th), <Link to="/spell/repel_metal_or_stone">repel metal or stone</Link> (16th), <Link to="/spell/clashing_rocks">clashing rocks</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/torag">Torag</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/appraise">Appraise</Link> (INT), <Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/magic_stone">Magic stone</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/stone_call">Stone call</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/meld_into_stone">Meld into stone</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/wall_of_stone">Wall of stone</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/stoneskin">Stoneskin</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/stone_tell">Stone tell</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/statue">Statue</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/repel_metal_or_stone">Repel metal or stone</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/clashing_rocks">Clashing rocks</Link></Pair>
+</Ability>
 <h3 id="mystery-stone-revelations">Revelations</h3>
 <p>An oracle with the Stone mystery can choose from any of the following revelations.</p>
 <p><strong>Acid Skin (Ex):</strong> You gain resist acid 5. This resistance increases to 10 at 5th level and 20 at 11th level. At 17th level, you gain immunity to acid.</p>
@@ -512,9 +866,23 @@ const _stone = {title: "Stone", jsx: <><h2 id="mystery-stone-stone">Stone</h2>
 </>};
 const _streets = {title: "Streets", jsx: <><h2 id="mystery-streets-streets">Streets</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 20</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/cayden_cailean">Cayden Cailean</Link>, <Link to="/faith/milani">Milani</Link>, <Link to="/faith/norgorber">Norgorber</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the streets mystery adds Bluff, Knowledge (local), Perception, and Stealth to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/disguise_self">disguise self</Link> (2nd), <Link to="/spell/detect_thoughts">detect thoughts</Link> (4th), <Link to="/spell/glyph_of_warding">glyph of warding</Link> (6th), <Link to="/spell/illusory_wall">illusory wall</Link> (8th), <Link to="/spell/false_vision">false vision</Link> (10th), <Link to="/spell/getaway">getaway</Link> (12th), <Link to="/spell/screen">screen</Link> (14th), <Link to="/spell/mages_magnificent_mansion">mage's magnificent mansion</Link> (16th), <Link to="/spell/clone">clone</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/cayden_cailean">Cayden Cailean</Link>, <Link to="/faith/milani">Milani</Link>, <Link to="/faith/norgorber">Norgorber</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/disguise_self">Disguise self</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/detect_thoughts">Detect thoughts</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/glyph_of_warding">Glyph of warding</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/illusory_wall">Illusory wall</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/false_vision">False vision</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/getaway">Getaway</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/screen">Screen</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/mages_magnificent_mansion">Mage's magnificent mansion</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/clone">Clone</Link></Pair>
+</Ability>
 <h3 id="mystery-streets-revelations">Revelations</h3>
 <p>An oracle with the Streets mystery can choose from any of the following revelations.</p>
 <p><strong>The City Provides (Ex):</strong> Once per day as a full-round action when in an urban environment, you can scrounge up any nonmagical item of your choosing with a value of up to 10 gp per oracle level. You cannot obtain coins or trade goods, and the item is too tattered to resell (though fully functional). If you scrounge a new item, any item previously obtained in this way becomes useless.</p>
@@ -531,9 +899,23 @@ const _streets = {title: "Streets", jsx: <><h2 id="mystery-streets-streets">Stre
 </>};
 const _succor = {title: "Succor", jsx: <><h2 id="mystery-succor-succor">Succor</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 20</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/milani">Milani</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/qi_zhong">Qi Zhong</Link>, <Link to="/faith/sarenrae">Sarenrae</Link></p>
-<p><strong>Class Skills:</strong> An oracle with the succor mystery adds Handle Animal, Knowledge (nature), and Survival to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/ray_of_enfeeblement">ray of enfeeblement</Link> (2nd), <Link to="/spell/shield_of_fortification">shield of fortification</Link> (4th), <Link to="/spell/coordinated_effort">coordinated effort</Link> (6th), <Link to="/spell/greater_shield_of_fortification">greater shield of fortification</Link> (8th), <Link to="/spell/stoneskin">stoneskin</Link> (10th), <Link to="/spell/greater_heroism">greater heroism</Link> (12th), <Link to="/spell/expend">expend</Link> (14th), <Link to="/spell/greater_spellcrash">greater spellcrash</Link> (16th), <Link to="/spell/wall_of_suppression">wall of suppression</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/milani">Milani</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/qi_zhong">Qi Zhong</Link>, <Link to="/faith/sarenrae">Sarenrae</Link></Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/ray_of_enfeeblement">Ray of enfeeblement</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/shield_of_fortification">Shield of fortification</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/coordinated_effort">Coordinated effort</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/greater_shield_of_fortification">Greater shield of fortification</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/stoneskin">Stoneskin</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/greater_heroism">Greater heroism</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/expend">Expend</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/greater_spellcrash">Greater spellcrash</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/wall_of_suppression">Wall of suppression</Link></Pair>
+</Ability>
 <h3 id="mystery-succor-revelations">Revelations</h3>
 <p>An oracle with the Succor mystery can choose from any of the following revelations.</p>
 <p><strong>Combat Healer (Su):</strong> As per the <Link to="/mystery/battle">battle</Link> mystery revelation of the same name: Whenever you cast <Link to="/main/cure_spells">a cure spell</Link> (a spell with "cure" in its name), you can cast it as a swift action, as if using the <Link to="/feat/quicken_spell">Quicken Spell</Link> feat, by expending two spell slots. This does not increase the level of the spell. You can use this ability once per day at 7th level and one additional time per day for every four levels beyond 7th. You must be at least 7th level to select this revelation.</p>
@@ -553,9 +935,23 @@ const _succor = {title: "Succor", jsx: <><h2 id="mystery-succor-succor">Succor</
 </>};
 const _time = {title: "Time", jsx: <><h2 id="mystery-time-time">Time</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 56</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/pharasma">Pharasma</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the time mystery adds Fly, Knowledge (arcana), Perception, and Use Magic Device to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/memory_lapse">memory lapse</Link> (2nd), <Link to="/spell/gentle_repose">gentle repose</Link> (4th), <Link to="/spell/sands_of_time">sands of time</Link> (6th), <Link to="/spell/threefold_aspect">threefold aspect</Link> (8th), <Link to="/spell/permanency">permanency</Link> (10th), <Link to="/spell/contingency">contingency</Link> (12th), <Link to="/spell/disintegrate">disintegrate</Link> (14th), <Link to="/spell/temporal_stasis">temporal stasis</Link> (16th), <Link to="/spell/time_stop">time stop</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/pharasma">Pharasma</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/fly">Fly</Link> (DEX), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/memory_lapse">Memory lapse</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/gentle_repose">Gentle repose</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/sands_of_time">Sands of time</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/threefold_aspect">Threefold aspect</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/permanency">Permanency</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/contingency">Contingency</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/disintegrate">Disintegrate</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/temporal_stasis">Temporal stasis</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/time_stop">Time stop</Link></Pair>
+</Ability>
 <h3 id="mystery-time-revelations">Revelations</h3>
 <p>An oracle with the Time mystery can choose from any of the following revelations.</p>
 <p><strong>Aging Touch (Su):</strong> Your touch ages living creatures and objects. As a melee touch attack, you can deal 1 point of <Link to="/rule/strength_damage">Strength damage</Link> for every two oracle levels you possess to living creatures. Against objects or constructs, you can deal 1d6 points of damage per oracle level. If used against an object in another creature's possession, treat this attack as a <Link to="/rule/sunder">sunder</Link> combat maneuver. You can use this ability once per day, plus one additional time per day for every five oracle levels you possess.</p>
@@ -573,9 +969,23 @@ const _time = {title: "Time", jsx: <><h2 id="mystery-time-time">Time</h2>
 </>};
 const _volcano = {title: "Volcano", jsx: <><h2 id="mystery-volcano-volcano">Volcano</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_95_anvil_of_fire">Pathfinder #95: Anvil of Fire pg. 72</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/flauros">Flauros</Link>, <Link to="/faith/mhar">Mhar</Link>, <Link to="/faith/rovagug">Rovagug</Link>, <Link to="/faith/valani">Valani</Link>, <Link to="/faith/yamatsumi">Yamatsumi</Link>, <Link to="/faith/ymeri">Ymeri</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the volcano mystery adds Climb, Intimidate, Knowledge (geography), and Survival to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/burning_hands">burning hands</Link> (2nd), <Link to="/spell/heat_metal">heat metal</Link> (4th), <Link to="/spell/protection_from_energy">protection from energy</Link> (6th), <Link to="/spell/volcanic_storm">volcanic storm</Link> (8th), <Link to="/spell/geyser">geyser</Link> (10th), <Link to="/spell/contagious_flame">contagious flame</Link> (12th), <Link to="/spell/fire_storm">fire storm</Link> (14th), <Link to="/spell/wall_of_lava">wall of lava</Link> (16th), <Link to="/spell/meteor_swarm">meteor swarm</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/flauros">Flauros</Link>, <Link to="/faith/mhar">Mhar</Link>, <Link to="/faith/rovagug">Rovagug</Link>, <Link to="/faith/valani">Valani</Link>, <Link to="/faith/yamatsumi">Yamatsumi</Link>, <Link to="/faith/ymeri">Ymeri</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/burning_hands">Burning hands</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/heat_metal">Heat metal</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/protection_from_energy">Protection from energy</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/volcanic_storm">Volcanic storm</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/geyser">Geyser</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/contagious_flame">Contagious flame</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/fire_storm">Fire storm</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/wall_of_lava">Wall of lava</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/meteor_swarm">Meteor swarm</Link></Pair>
+</Ability>
 <h3 id="mystery-volcano-revelations">Revelations</h3>
 <p>An oracle with the Volcano mystery can choose from any of the following revelations.</p>
 <p><strong>Ash Cloud (Su):</strong> As a standard action, you can surround yourself with a 10-foot-radius cloud of ash, which functions as an <Link to="/spell/obscuring_mist">obscuring mist</Link> spell, except you can see through it clearly. The cloud is stationary, and remains for 1 round per oracle level. Using this ability again causes your previous cloud to fall to the ground. At 7th level, your ash cloud fills with embers. All creatures in the cloud except you take 1d6 points of fire damage per round and must succeed at Fortitude saves to avoid choking, as though they were breathing in <Link to="/rule/smoke_effects">heavy smoke</Link>.</p>
@@ -593,9 +1003,23 @@ const _volcano = {title: "Volcano", jsx: <><h2 id="mystery-volcano-volcano">Volc
 </>};
 const _waves = {title: "Waves", jsx: <><h2 id="mystery-waves-waves">Waves</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 52</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/pharasma">Pharasma</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the waves mystery adds Acrobatics, Escape Artist, Knowledge (nature), and Swim to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/touch_of_the_sea">touch of the sea</Link> (2nd), <Link to="/spell/slipstream">slipstream</Link> (4th), <Link to="/spell/water_breathing">water breathing</Link> (6th), <Link to="/spell/wall_of_ice">wall of ice</Link> (8th), <Link to="/spell/geyser">geyser</Link> (10th), <Link to="/spell/fluid_form">fluid form</Link> (12th), <Link to="/spell/vortex">vortex</Link> (14th), <Link to="/spell/seamantle">seamantle</Link> (16th), <Link to="/spell/tsunami">tsunami</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/pharasma">Pharasma</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/swim">Swim</Link> (STR)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/touch_of_the_sea">Touch of the sea</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/slipstream">Slipstream</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/water_breathing">Water breathing</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/wall_of_ice">Wall of ice</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/geyser">Geyser</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/fluid_form">Fluid form</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/vortex">Vortex</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/seamantle">Seamantle</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/tsunami">Tsunami</Link></Pair>
+</Ability>
 <h3 id="mystery-waves-revelations">Revelations</h3>
 <p>An oracle with the Waves mystery can choose from any of the following revelations.</p>
 <p><strong>Blizzard (Su):</strong> As a standard action, you can create a blizzard of snow and ice. You can create one 10-foot-cube of storm per oracle level. These cubes can be arranged in any pattern you desire, but each cube must be adjacent to another and one must be adjacent to you. Any creature caught in the blizzard takes 1d4 points of cold damage per oracle level, with a Reflex save resulting in half damage. The storm lasts for a number of rounds equal to your Charisma modifier; the ground remains icy (+5 to Acrobatics DCs) as long as local conditions permit. The blizzard obscures sight beyond 5 feet, providing total concealment. A creature within 5 feet has <Link to="/rule/concealment">concealment</Link>. You can use this ability once per day. You must be 11th level to select this revelation.</p>
@@ -614,9 +1038,23 @@ const _waves = {title: "Waves", jsx: <><h2 id="mystery-waves-waves">Waves</h2>
 const _whimsy = {title: "Whimsy", jsx: <><h2 id="mystery-whimsy-whimsy">Whimsy</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 10</Link></p>
 <p>Whimsy oracles gain powers from capricious fey tricksters.</p>
-<p><strong>Deities:</strong> <Link to="/faith/the_green_mother">The Green Mother</Link>, <Link to="/faith/the_lantern_king">The Lantern King</Link>, <Link to="/faith/ng">Ng</Link>, <Link to="/faith/shyka">Shyka</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the whimsy mystery adds Bluff, Disguise, Perform, Sleight of Hand, and Stealth to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/faerie_fire">faerie fire</Link> (2nd), <Link to="/spell/hideous_laughter">hideous laughter</Link> (4th), <Link to="/spell/shamefully_overdressed">shamefully overdressed</Link> (6th), <Link to="/spell/major_image">major image</Link> (8th), <Link to="/spell/lesser_entice_fey">lesser entice fey</Link> (10th), <Link to="/spell/mislead">mislead</Link> (12th), <Link to="/spell/entice_fey">entice fey</Link> (14th), <Link to="/spell/irresistible_dance">irresistible dance</Link> (16th), <Link to="/spell/greater_entice_fey">greater entice fey</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/the_green_mother">The Green Mother</Link>, <Link to="/faith/the_lantern_king">The Lantern King</Link>, <Link to="/faith/ng">Ng</Link>, <Link to="/faith/shyka">Shyka</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/perform">Perform</Link> (CHA), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/faerie_fire">Faerie fire</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/hideous_laughter">Hideous laughter</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/shamefully_overdressed">Shamefully overdressed</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/major_image">Major image</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/lesser_entice_fey">Lesser entice fey</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/mislead">Mislead</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/entice_fey">Entice fey</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/irresistible_dance">Irresistible dance</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/greater_entice_fey">Greater entice fey</Link></Pair>
+</Ability>
 <h3 id="mystery-whimsy-revelations">Revelations</h3>
 <p>An oracle with the Whimsy mystery can choose from any of the following revelations.</p>
 <p><strong>Assumed Form (Sp):</strong> You can change your appearance at will, as <Link to="/spell/disguise_self">disguise self</Link> with a caster level equal to your oracle level. At 7th level, you can instead physically transform, as <Link to="/spell/alter_self">alter self</Link>. At 11th level, this ability lasts until you dismiss it or use it again, allowing you to keep it active while you sleep.</p>
@@ -634,9 +1072,23 @@ const _whimsy = {title: "Whimsy", jsx: <><h2 id="mystery-whimsy-whimsy">Whimsy</
 </>};
 const _wind = {title: "Wind", jsx: <><h2 id="mystery-wind-wind">Wind</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 53</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/shelyn">Shelyn</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the wind mystery adds Acrobatics, Escape Artist, Fly, and Stealth to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/alter_winds">alter winds</Link> (2nd), <Link to="/spell/gust_of_wind">gust of wind</Link> (4th), <Link to="/spell/cloak_of_winds">cloak of winds</Link> (6th), <Link to="/spell/river_of_wind">river of wind</Link> (8th), <Link to="/spell/control_winds">control winds</Link> (10th), <Link to="/spell/sirocco">sirocco</Link> (12th), <Link to="/spell/control_weather">control weather</Link> (14th), <Link to="/spell/whirlwind">whirlwind</Link> (16th), <Link to="/spell/winds_of_vengeance">winds of vengeance</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/shelyn">Shelyn</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/fly">Fly</Link> (DEX), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/alter_winds">Alter winds</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/gust_of_wind">Gust of wind</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/cloak_of_winds">Cloak of winds</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/river_of_wind">River of wind</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/control_winds">Control winds</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/sirocco">Sirocco</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/control_weather">Control weather</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/whirlwind">Whirlwind</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/winds_of_vengeance">Winds of vengeance</Link></Pair>
+</Ability>
 <h3 id="mystery-wind-revelations">Revelations</h3>
 <p>An oracle with the Wind mystery can choose from any of the following revelations.</p>
 <p><strong>Air Barrier (Ex):</strong> You can create an invisible shell of air that grants you a +4 armor bonus. At 7th level, and every four levels thereafter, this bonus increases by +2. At 13th level, this barrier causes incoming arrows, rays, and other ranged attacks requiring an attack roll against you to have a 50% miss chance. You can use this barrier for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments.</p>
@@ -654,9 +1106,23 @@ const _wind = {title: "Wind", jsx: <><h2 id="mystery-wind-wind">Wind</h2>
 </>};
 const _winter = {title: "Winter", jsx: <><h2 id="mystery-winter-winter">Winter</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North pg. 26</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/kostchtchie">Kostchtchie</Link>, <Link to="/faith/ng">Ng</Link>, <Link to="/faith/rovagug">Rovagug</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the winter mystery adds Intimidate, Knowledge (nature), Stealth, and Survival to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/endure_elements">endure elements</Link> (2nd), <Link to="/spell/frost_fall">frost fall</Link> (4th), <Link to="/spell/sleet_storm">sleet storm</Link> (6th), <Link to="/spell/ice_storm">ice storm</Link> (8th), <Link to="/spell/icy_prison">icy prison</Link> (10th), <Link to="/spell/cone_of_cold">cone of cold</Link> (12th), <Link to="/spell/ice_body">ice body</Link> (14th), <Link to="/spell/polar_ray">polar ray</Link> (16th), <Link to="/spell/mass_icy_prison">mass icy prison</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/kostchtchie">Kostchtchie</Link>, <Link to="/faith/ng">Ng</Link>, <Link to="/faith/rovagug">Rovagug</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/endure_elements">Endure elements</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/frost_fall">Frost fall</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/sleet_storm">Sleet storm</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/ice_storm">Ice storm</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/icy_prison">Icy prison</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/cone_of_cold">Cone of cold</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/ice_body">Ice body</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/polar_ray">Polar ray</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/mass_icy_prison">Mass icy prison</Link></Pair>
+</Ability>
 <h3 id="mystery-winter-revelations">Revelations</h3>
 <p>An oracle with the Winter mystery can choose from any of the following revelations.</p>
 <p><strong>Blizzard (Su):</strong> As a standard action, you can create a blizzard of snow and ice. You can create one 10-foot-cube of this storm per oracle level. These cubes can be arranged in any pattern you desire, but each cube must be adjacent to another, and at least one must be adjacent to you. Any creature caught in the blizzard takes 1d4 points of cold damage per oracle level, with a successful Reflex save resulting in half damage. The storm lasts for a number of rounds equal to your Charisma modifier; the ground remains icy (+5 to Acrobatics DCs) as long as local conditions permit. The blizzard obscures sight beyond 5 feet, providing total concealment. A creature within 5 feet has <Link to="/rule/concealment">concealment</Link>. You can use this ability once per day. You must be 11th level to select this revelation.</p>
@@ -674,9 +1140,23 @@ const _winter = {title: "Winter", jsx: <><h2 id="mystery-winter-winter">Winter</
 </>};
 const _wood = {title: "Wood", jsx: <><h2 id="mystery-wood-wood">Wood</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 57</Link></p>
-<p><strong>Deities:</strong> <Link to="/faith/erastil">Erastil</Link>, <Link to="/faith/gozreh">Gozreh</Link>.</p>
-<p><strong>Class Skills:</strong> An oracle with the wood mystery adds Climb, Knowledge (nature), Stealth, and Survival to her list of class skills.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/shillelagh">shillelagh</Link> (2nd), <Link to="/spell/barkskin">barkskin</Link> (4th), <Link to="/spell/minor_creation">minor creation (wood items only)</Link> (6th), <Link to="/spell/thorn_body">thorn body</Link> (8th), <Link to="/spell/tree_stride">tree stride</Link> (10th), <Link to="/spell/ironwood">ironwood</Link> (12th), <Link to="/spell/transmute_metal_to_wood">transmute metal to wood</Link> (14th), <Link to="/spell/changestaff">changestaff</Link> (16th), <Link to="/spell/wooden_phalanx">wooden phalanx</Link> (18th).</p>
+<Block size="minimal">
+<Row><Cell>Deities</Cell><Cell><Link to="/faith/erastil">Erastil</Link>, <Link to="/faith/gozreh">Gozreh</Link>.</Cell></Row></Block>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
+<Ability id="bonus-spells" icon={["learn"]}>
+<Pair single id="bonus-spells">Bonus Spells</Pair>
+<Pair plain title="2nd"><Link to="/spell/shillelagh">Shillelagh</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/barkskin">Barkskin</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/minor_creation">Minor creation</Link> (wood items only)</Pair>
+<Pair plain title="8th"><Link to="/spell/thorn_body">Thorn body</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/tree_stride">Tree stride</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/ironwood">Ironwood</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/transmute_metal_to_wood">Transmute metal to wood</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/changestaff">Changestaff</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/wooden_phalanx">Wooden phalanx</Link></Pair>
+</Ability>
 <h3 id="mystery-wood-revelations">Revelations</h3>
 <p>An oracle with the Wood mystery can choose from any of the following revelations.</p>
 <p><strong>Bend the Grain (Sp):</strong> Once per day as a standard action, you can shape or warp wooden objects. This functions as either <Link to="/spell/wood_shape">wood shape</Link> or <Link to="/spell/warp_wood">warp wood</Link>. At 11th level, you can use this ability to push wood away from you, as <Link to="/spell/repel_wood">repel wood</Link>. At 7th level, and again at 14th level, you can use this ability an additional time per day.</p>
