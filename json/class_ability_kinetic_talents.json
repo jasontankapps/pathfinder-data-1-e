@@ -1909,7 +1909,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Sp)\" l=3 burn=0 source=\"Occult Adventures/24\"}",
 			"",
-			"I-boost You can galvanize the flow of electricity within your allies to enhance their speed. This acts as ‹spell/haste› except it lasts for 1 round. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess."
+			"@I-boost You can galvanize the flow of electricity within your allies to enhance their speed. This acts as ‹spell/haste› except it lasts for 1 round. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess."
 		]
 	},
 	"clockwork_heart": {
@@ -2119,7 +2119,11 @@
 			"",
 			"::kinetics{el=\"earth, fire, water\" type=\"utility (Sp)\" l=5 burn=0 save=\"Will negates\" sr=yes source=\"Wilderness Origins/28\"}",
 			"",
-			"You reach out to a creature with which you are familiar by using a conduit through an elemental plane. By concentrating for 10 minutes, you create one end of the conduit in a manifestation of your chosen element, such as a fire, pool of water, or section of earth, which must be at least 2 feet in diameter. If the creature you are attempting to contact is within earshot of a similar elemental manifestation and on the same plane, the conduit forms successfully, allowing both sides to see a likeness of the other. You can hear and talk to each other, though you cannot perceive anything else from the other side of the connection. If the creature is not within earshot of a similar elemental manifestation, you can maintain your concentration to wait until the creature comes close enough to such a feature. The connection lasts until you stop concentrating on it, use this ability again, or until the creature moves away from the conduit."
+			"@I-magic You reach out to a creature with which you are familiar by using a conduit through an elemental plane.",
+			"",
+			"By concentrating for 10 minutes, you create one end of the conduit in a manifestation of your chosen element, such as a fire, pool of water, or section of earth, which must be at least 2 feet in diameter. If the creature you are attempting to contact is within earshot of a similar elemental manifestation and on the same plane, the conduit forms successfully, allowing both sides to see a likeness of the other. You can hear and talk to each other, though you cannot perceive anything else from the other side of the connection. If the creature is not within earshot of a similar elemental manifestation, you can maintain your concentration to wait until the creature comes close enough to such a feature.",
+			"",
+			"The connection lasts until you stop concentrating on it, use this ability again, or until the creature moves away from the conduit."
 		]
 	},
 	"elemental_whispers": {
@@ -2131,7 +2135,13 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Su)\" l=1 burn=0 source=\"Horror Adventures/57\"}",
 			"",
-			"You form a friendship with a fragment of your element. The element speaks back to you empathically, like a familiar. Pick a type of creature usually allowed as a ‹ability/familiar› when you gain this wild talent. You gain the ‹feat/Alertness› feat and the special abilities granted by a familiar of that type. As a standard action, you can give the voice of the element the body of such a creature, using elemental matter of the appropriate element within 30 feet. As long as you concentrate, the familiar can take actions as a normal animal of its type, and it can move any distance away from you, though if it takes any damage or you cease concentrating, it returns to your mind. You lose Alertness while the familiar is manifested in this way. The ‹sidekick/familiar› gains abilities as usual for a familiar of its type, though it never gains the ability to speak with animals of its kind."
+			"@I-power You form a friendship with a fragment of your element. The element speaks back to you empathically, like a familiar.",
+			"",
+			"Pick a type of creature usually allowed as a ‹ability/familiar› when you gain this wild talent. You gain the ‹feat/Alertness› feat and the special abilities granted by a familiar of that type.",
+			"",
+			"As a @HL[standard action], you can give the voice of the element the body of such a creature, using elemental matter of the appropriate element within 30 feet. As long as you concentrate, the familiar can take actions as a normal animal of its type, and it can move any distance away from you, though if it takes any damage or you cease concentrating, it returns to your mind. You lose Alertness while the familiar is manifested in this way.",
+			"",
+			"The ‹sidekick/familiar› gains abilities as usual for a familiar of its type, though it never gains the ability to speak with animals of its kind."
 		]
 	},
 	"greater_elemental_whispers": {
@@ -2143,7 +2153,11 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Su)\" l=3 burn=0 prereq=\"‹kinetic/elemental whispers›\" source=\"Horror Adventures/57\"}",
 			"",
-			"Your friendship with the elements has grown. You gain your choice of a ‹family/wysp› or Small ‹family/elemental› of your primary element as an ‹ability/improved familiar<s›, without needing to meet any of the usual prerequisites for gaining such a familiar. Unlike with elemental whispers, this improved familiar acts in all ways like a ‹sidekick/familiar›: it's always manifested, it has hit points equal to 1/2 your own, and so on. You no longer receive the familiar benefits from the original creature you selected. If your improved familiar dies, you can still contact its voice in your mind and gain the ‹feat/Alertness› feat, but you can't cause it to manifest. If you pay the usual costs for replacing a familiar, you manifest a new form for your elemental friend."
+			"@I-power Your friendship with the elements has grown.",
+			"",
+			"You gain your choice of a ‹family/wysp› or Small ‹family/elemental› of your primary element as an ‹ability/improved familiar<s›, without needing to meet any of the usual prerequisites for gaining such a familiar. Unlike with *elemental whispers,* this improved familiar acts in all ways like a ‹sidekick/familiar›: it's always manifested, it has hit points equal to 1/2 your own, and so on. You no longer receive the familiar benefits from the original creature you selected.",
+			"",
+			"If your improved familiar dies, you can still contact its voice in your mind and gain the ‹feat/Alertness› feat, but you can't cause it to manifest. If you pay the usual costs for replacing a familiar, you manifest a new form for your elemental friend."
 		]
 	},
 	"elemental_whispers_greater": { "redirect": "greater_elemental_whispers" },
@@ -2156,7 +2170,7 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Su)\" l=4 burn=0 source=\"Occult Adventures/24\"}",
 			"",
-			"When using earth blasts, earth wild talents, or composite blasts that include earth, double the duration if it's longer than 1 round."
+			"@I-boost When using earth blasts, earth wild talents, or composite blasts that include earth, double the duration if it's longer than 1 round."
 		]
 	},
 	"engulfing_winds": {
@@ -2168,7 +2182,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Sp)\" l=3 burn=0 source=\"Occult Adventures/24\"}",
 			"",
-			"You bend your winds into a formidable barrier. Until the start of your next turn, you lose the benefits of enveloping winds, but can create a ‹spell/wind wall› as the spell. You can extend the wall's duration to 1 round per kineticist level by accepting 1 point of burn."
+			"@I-magic You bend your winds into a formidable barrier. Until the start of your next turn, you lose the benefits of *enveloping winds,* but can create a ‹spell/wind wall› as the spell. You can extend the wall's duration to 1 round per kineticist level by accepting 1 point of burn."
 		]
 	},
 	"expanded_defense": {
@@ -2180,7 +2194,9 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Su)\" l=4 burn=0 source=\"Occult Adventures/24\"}",
 			"",
-			"Choose an element you selected with expanded element. You gain that element's defense wild talent. You can take this wild talent multiple times, choosing a different element each time."
+			"@I-power Choose an element you selected with expanded element. You gain that element's defense wild talent.",
+			"",
+			"@HL[Special:] You can take this wild talent multiple times, choosing a different element each time."
 		]
 	},
 	"eyes_of_the_void": {
@@ -2192,7 +2208,7 @@
 			"",
 			"::kinetics{el=void type=\"utility (Su)\" l=2 burn=0 source=\"Occult Origins/7\"}",
 			"",
-			"You gain darkvision with a range of 60 feet (if you already have darkvision, your darkvision's range increases by 30 feet)."
+			"@I-power You gain darkvision with a range of 60 feet (if you already have darkvision, your darkvision's range increases by 30 feet)."
 		]
 	},
 	"greater_eyes_of_the_void": {
@@ -2204,7 +2220,7 @@
 			"",
 			"::kinetics{el=void type=\"utility (Su)\" l=5 burn=0 prereq=\"‹kinetic/eyes of the void›\" source=\"Occult Origins/7\"}",
 			"",
-			"You can ‹umr/see in darkness›, as per the monster special ability."
+			"@I-power You can ‹umr/see in darkness›, as per the monster special ability."
 		]
 	},
 	"eyes_of_the_void_greater": { "redirect": "greater_eyes_of_the_void" },
@@ -2217,7 +2233,7 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=5 burn=1 source=\"Wilderness Origins/29\"}",
 			"",
-			"You create a passage through a fire or pool of lava. The passage is 5 feet wide and 8 feet high. It is 10 feet long, plus 5 feet longer for every 3 kineticist levels you have. Any heat generated by the fire or lava through which the passage passes is radiated outwards, making the passage comfortable and safe. The passage lasts for 1 hour, though you can end the effect at any time as a free action. If this effect ends while a creature is inside the tunnel, that creature is affected by the fire or lava as normal."
+			"@I-magic You create a passage through a fire or pool of lava. The passage is 5 feet wide and 8 feet high. It is 10 feet long, plus 5 feet longer for every 3 kineticist levels you have. Any heat generated by the fire or lava through which the passage passes is radiated outwards, making the passage comfortable and safe. The passage lasts for 1 hour, though you can end the effect at any time as a @HL[free action]. If this effect ends while a creature is inside the tunnel, that creature is affected by the fire or lava as normal."
 		]
 	},
 	"fire_sculptor": {
@@ -2229,7 +2245,9 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=1 burn=0 source=\"Occult Adventures/24\"}",
 			"",
-			"You can sculpt shapes out of flame or alter a fire's spread. As a standard action, you can move one 5-foot square of an ongoing fire per kineticist level you possess to any square contiguous to that fire. For instance, a 4th-level kineticist could move 4 contiguous squares from the center of a 20-foot-by-20-foot fire to the fire's edge in order to create a safe path to escape. The fire continues to spread normally after you sculpt it."
+			"@I-magic You can sculpt shapes out of flame or alter a fire's spread.",
+			"",
+			"As a @HL[standard action], you can move one 5-foot square of an ongoing fire per kineticist level you possess to any square contiguous to that fire. For instance, a 4th-level kineticist could move 4 contiguous squares from the center of a 20-foot-by-20-foot fire to the fire's edge in order to create a safe path to escape. The fire continues to spread normally after you sculpt it."
 		]
 	},
 	"fire_steed": {
@@ -2241,9 +2259,36 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=2 burn=0 source=\"Wilderness Origins/29\"}",
 			"",
-			"You imbue a willing animal, magical beast, or other creature that can serve as a suitable mount with elemental power from the Plane of Fire, wreathing it in flames for 1 round. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you have. The mount gains fire resistance 10 and its speed increases by 10 feet. Creatures other than you who touch the mount, attack the mount with a natural weapon or unarmed strike, or attempt to mount the creature take 1d6 points of fire damage every round they are in contact with the mount."
+			"@I-boost-protect You imbue a willing animal, magical beast, or other creature that can serve as a suitable mount with elemental power from the Plane of Fire, wreathing it in flames for 1 round. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you have.",
+			"",
+			"The mount gains fire resistance 10 and its speed increases by 10 feet. Creatures other than you who touch the mount, attack the mount with a natural weapon or unarmed strike, or attempt to mount the creature take 1d6 points of fire damage every round they are in contact with the mount."
 		]
 	},
+	"improved_fire_steed": {
+		"name": "Improved Fire Steed",
+		"sources": [ "Wilderness Origins" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"description": [
+			"## Improved Fire Steed (Sp)",
+			"",
+			"::kinetics{el=fire type=\"utility (Sp)\" l=5 burn=0 prereq=\"‹kinetic/fire steed›\" source=\"Wilderness Origins/29\"}",
+			"",
+			"@I-protect-boost When using *fire steed,* the mount's fire resistance increases to 20 and its speed increases by an additional 10 feet. The mount can move over lava without difficulty or a decrease in speed."
+		]
+	},
+	"greater_fire_steed": {
+		"name": "Greater Fire Steed",
+		"sources": [ "Wilderness Origins" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"description": [
+			"## Greater Fire Steed (Sp)",
+			"",
+			"::kinetics{el=fire type=\"utility (Sp)\" l=8 burn=0 prereq=\"‹kinetic/fire steed›, ‹kinetic/improved fire steed›\" source=\"Wilderness Origins/29\"}",
+			"",
+			"@I-protect-boost When using *fire steed,* the mount gains immunity to fire and its speed increases by an additional 10 feet. In addition, when the mount takes a ‹rule/run› action, it can run up steep slopes at its normal speed and down steep slopes without its rider needing to attempt a ‹skill/Ride› check."
+		]
+	},
+	"fire_steed_greater": { "redirect": "greater_fire_steed" },
 	"fires_fury": {
 		"name": "Fire's Fury",
 		"sources": [ "Occult Adventures" ],
@@ -2253,7 +2298,7 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Su)\" l=1 burn=0 source=\"Occult Adventures/24\"}",
 			"",
-			"When using fire blasts or composite blasts that include fire, add your elemental overflow bonus to the damage dealt. If the kinetic blast normally adds double your elemental overflow bonus to damage, these effects stack."
+			"@I-boost When using fire blasts or composite blasts that include fire, add your elemental overflow bonus to the damage dealt. If the kinetic blast normally adds double your elemental overflow bonus to damage, these effects stack."
 		]
 	},
 	"firesight": {
@@ -2265,7 +2310,7 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Su)\" l=3 burn=0 source=\"Occult Adventures/25\"}",
 			"",
-			"You can see through flames and smoke as if they were transparent. Creatures that are on fire or have the fire subtype never benefit from ‹rule/concealment› or total concealment against you."
+			"@I-power-boost You can see through flames and smoke as if they were transparent. Creatures that are on fire or have the fire subtype never benefit from ‹rule/concealment› or total concealment against you."
 		]
 	},
 	"flame_jet": {
@@ -2277,7 +2322,7 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=3 burn=0 source=\"Occult Adventures/25\"}",
 			"",
-			"You shoot a burst of flame behind you as a standard action, propelling you up to 60 feet in a straight line, including into the air; any movement upward costs double. If you end your turn mid-air, you fall on your next turn unless you use flame jet again."
+			"@I-power-line You shoot a burst of flame behind you as a @HL[standard action], propelling you up to 60 feet in a straight line, including into the air; any movement upward costs double. If you end your turn mid-air, you fall on your next turn unless you use flame jet again."
 		]
 	},
 	"greater_flame_jet": {
@@ -2289,7 +2334,7 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=5 burn=0 prereq=\"‹kinetic/flame jet›\" source=\"Occult Adventures/25\"}",
 			"",
-			"You can use flame jet as a move action and can emanate a mild jet of flame, allowing you to hover without spending an action."
+			"@I-boost You can use *flame jet* as a @HL[move action] and can emanate a mild jet of flame, allowing you to hover without spending an action."
 		]
 	},
 	"flame_jet_greater": { "redirect": "greater_flame_jet" },
@@ -2302,7 +2347,11 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=5 burn=1 prereq=\"‹kinetic/searing flesh›\" source=\"Occult Adventures/25\"}",
 			"",
-			"Flickering flames surround you until the next time your burn is removed. While your searing flesh infusion is active, any creature that strikes you with a melee attack takes an amount of fire damage equal to 1/2 your kineticist level unless it is using a reach weapon. If the creature also takes damage from your searing flesh, it applies fire resistance only once against the total damage from both effects. You also gain the protection from cold of a warm ‹spell/fire shield›. An attack that would deal an amount of cold damage equal to at least double your kineticist level (before you applied the protection) freezes away your flame shield after you apply its protection, ending the flame shield early."
+			"@I-def -defFlickering flames surround you until the next time your burn is removed.",
+			"",
+			"While your *searing flesh* infusion is active, any creature that strikes you with a melee attack takes an amount of fire damage equal to 1/2 your kineticist level unless it is using a reach weapon. If the creature also takes damage from your *searing flesh,* it applies fire resistance only once against the total damage from both effects. You also gain the protection from cold of a warm ‹spell/fire shield›.",
+			"",
+			"An attack that would deal an amount of cold damage equal to at least double your kineticist level (before you applied the protection) freezes away your *flame shield* after you apply its protection, ending the *flame shield* early."
 		]
 	},
 	"flame_trap": {
@@ -2314,7 +2363,15 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=2 burn=0 source=\"Ultimate Intrigue/66\"}",
 			"",
-			"You lay a fiery trap on a container, ensuring the destruction of sensitive documents while punishing those who would steal your secrets. In order to weave the trap, you must spend 10 minutes in contact with the container you wish to trap. At the end of that time, the container is trapped until the next time you use this wild talent or until it triggers. Any creature other than you who opens the container takes damage as from your ‹kinetic/fire blast› (or ‹kinetic/blue flame blast›, if you have it). The damage affects the creature automatically if it is touching the container, but if it opens the container from within 30 feet, it can attempt a Reflex save to negate the damage, and if it opens the container from farther still, it takes no damage. Whether or not the creature that opened the container takes damage, your kinetic blast damage also affects any items within the container that you choose, as well as the container, if you wish it, and leaves all other items undamaged. This counts as a magical trap with a Perception and Disable Device DC equal to 10 + your kineticist level + your Dexterity modifier. You can accept 1 point of burn when using flame trap to make a new trap without dismissing any previous traps. If you do, the trap lasts until the next time you recover burn."
+			"@I-power You lay a fiery trap on a container, ensuring the destruction of sensitive documents while punishing those who would steal your secrets.",
+			"",
+			"In order to weave the trap, you must spend 10 minutes in contact with the container you wish to trap. At the end of that time, the container is trapped until the next time you use this wild talent or until it triggers.",
+			"",
+			"Any creature other than you who opens the container takes damage as from your ‹kinetic/fire blast› (or ‹kinetic/blue flame blast›, if you have it). The damage affects the creature automatically if it is touching the container, but if it opens the container from within 30 feet, it can attempt a Reflex save to negate the damage, and if it opens the container from farther still, it takes no damage.",
+			"",
+			"Whether or not the creature that opened the container takes damage, your kinetic blast damage also affects any items within the container that you choose, as well as the container, if you wish it, and leaves all other items undamaged.",
+			"",
+			"This counts as a magical ‹rule/trap<s› with a ‹skill/Perception› and ‹skill/Disable Device› DC equal to 10 + your kineticist level + your Dexterity modifier. You can accept 1 point of burn when using flame trap to make a new trap without dismissing any previous traps. If you do, the trap lasts until the next time you recover burn."
 		]
 	},
 	"force_barrier": {
@@ -2326,7 +2383,7 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Sp)\" l=5 burn=0 prereq=\"‹kinetic/force ward›\" source=\"Occult Adventures/25\"}",
 			"",
-			"You create an immobile sphere or hemisphere of force around your square or squares. The force barrier functions as a ‹spell/wall of force› in all other ways. Activating this ability is a standard action, and the barrier lasts until the beginning of your next turn. Each round, just before the barrier would disappear, you can extend its duration by accepting 1 point of burn. If an attack manages to destroy the force barrier, you immediately take 1 point of burn."
+			"@I-magic-def You create an immobile sphere or hemisphere of force around your square or squares. The force barrier functions as a ‹spell/wall of force› in all other ways. Activating this ability is a @HL[standard action], and the barrier lasts until the beginning of your next turn. Each round, just before the barrier would disappear, you can extend its duration by accepting 1 point of burn. If an attack manages to destroy the force barrier, you immediately take 1 point of burn."
 		]
 	},
 	"forest_siege": {
@@ -2341,7 +2398,7 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Sp)\" l=9 burn=0 source=\"Ultimate Wilderness/58~;Occult Origins/8\"}",
 			"",
-			"You can transform available plant life into a besieging army. This functions as ‹spell/greater siege of trees›, except you need to concentrate or the effect ends, and you can change targets as a free action. If you accept 1 point of burn, you can prolong the effect without the need for concentration until the next time you recover burn, but you need to spend a standard action to change targets."
+			"@I-magic You can transform available plant life into a besieging army. This functions as ‹spell/greater siege of trees›, except you need to concentrate or the effect ends, and you can change targets as a @HL[free action]. If you accept 1 point of burn, you can prolong the effect without the need for concentration until the next time you recover burn, but you need to spend a @HL[standard action] to change targets."
 		]
 	},
 	"foxfire": {
@@ -2356,7 +2413,11 @@
 			"",
 			"::kinetics{el=\"fire, wood\" type=\"utility (Sp)\" l=2 burn=0 prereq=\"‹kinetic/fire blast› or ‹kinetic/positive blast›\" save=none sr=yes source=\"Ultimate Wilderness/58~;Psychic Anthology/22\"}",
 			"",
-			"You surround a creature with glowing flames that outline it, as per ‹spell/faerie fire›. If you use foxfire with positive energy, the flames don't give off heat. If you use it with fire, the flames still aren't hot enough to deal damage immediately, but the illuminated creature counts as being under the effects of ‹rule/severe »heat› and must succeed at a Fortitude save against nonlethal damage after 10 minutes. A creature can extinguish the foxfire automatically as a full-round action."
+			"@I-magic You surround a creature with glowing flames that outline it, as per ‹spell/faerie fire›.",
+			"",
+			"If you use foxfire with positive energy, the flames don't give off heat. If you use it with fire, the flames still aren't hot enough to deal damage immediately, but the illuminated creature counts as being under the effects of ‹rule/severe »heat› and must succeed at a Fortitude save against nonlethal damage after 10 minutes.",
+			"",
+			"A creature can extinguish the foxfire automatically as a @HL[full-round action]."
 		]
 	},
 	"from_the_ashes": {
@@ -2368,7 +2429,7 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=9 burn=2 source=\"Occult Adventures/25\"}",
 			"",
-			"When you are about to fall unconscious or die from hit point damage, as an immediate action you can burst into flames that leave behind only ash, which cannot be appreciably affected by most attacks or effects, though a ‹spell/disintegrate› spell or similar magic can annihilate it. At the start of your next turn, unless the ash has been completely destroyed, you arise in the square where the most ash is located, having taken the damage from the triggering effect but having also healed 5 points of damage per kineticist level you possess."
+			"@I-def-aid When you are about to fall unconscious or die from hit point damage, as an @HL[immediate action] you can burst into flames that leave behind only ash, which cannot be appreciably affected by most attacks or effects, though a ‹spell/disintegrate› spell or similar magic can annihilate it. At the start of your next turn, unless the ash has been completely destroyed, you arise in the square where the most ash is located, having taken the damage from the triggering effect but having also healed 5 points of damage per kineticist level you possess."
 		]
 	},
 	"gravity_control": {
@@ -2380,7 +2441,7 @@
 			"",
 			"::kinetics{el=void type=\"utility (Sp)\" l=3 burn=0 source=\"Occult Origins/7\"}",
 			"",
-			"You use your gravitic abilities to move yourself, as per ‹kinetic/flame jet›."
+			"@I-power-line You use your gravitic abilities to move yourself, as per ‹kinetic/flame jet›."
 		]
 	},
 	"greater_gravity_control": {
@@ -2392,7 +2453,7 @@
 			"",
 			"::kinetics{el=void type=\"utility (Sp)\" l=5 burn=0 prereq=\"‹kinetic/gravity control›\" source=\"Occult Origins/7\"}",
 			"",
-			"You have greater control over gravity, as per ‹kinetic/greater flame jet›."
+			"@I-boost You have greater control over gravity, as per ‹kinetic/greater flame jet›."
 		]
 	},
 	"gravity_control_greater": { "redirect": "greater_gravity_control" },
@@ -2405,22 +2466,9 @@
 			"",
 			"::kinetics{el=void type=\"utility (Sp)\" l=9 burn=0 prereq=\"‹kinetic/gravity control›, ‹kinetic/greater gravity control›\" source=\"Occult Origins/7\"}",
 			"",
-			"You can create areas of altered gravity. This functions as ‹spell/reverse gravity›, but you can choose for the gravity in the area to pull toward any direction (not just up). If you use this wild talent, any previous use of this wild talent expires immediately."
+			"@I-magic You can create areas of altered gravity. This functions as ‹spell/reverse gravity›, but you can choose for the gravity in the area to pull toward any direction (not just up). If you use this wild talent, any previous use of this wild talent expires immediately."
 		]
 	},
-	"greater_fire_steed": {
-		"name": "Greater Fire Steed",
-		"sources": [ "Wilderness Origins" ],
-		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
-		"description": [
-			"## Greater Fire Steed (Sp)",
-			"",
-			"::kinetics{el=fire type=\"utility (Sp)\" l=8 burn=0 prereq=\"‹kinetic/fire steed›, ‹kinetic/improved fire steed›\" source=\"Wilderness Origins/29\"}",
-			"",
-			"When using fire steed, the mount gains immunity to fire and its speed increases by an additional 10 feet. In addition, when the mount takes a run action, it can run up steep slopes at its normal speed and down steep slopes without its rider needing to attempt a Ride check."
-		]
-	},
-	"fire_steed_greater": { "redirect": "greater_fire_steed" },
 	"green_tongue": {
 		"name": "Green Tongue",
 		"sources": [
@@ -2433,7 +2481,7 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Su)\" l=6 burn=0 source=\"Ultimate Wilderness/59~;Occult Origins/8\"}",
 			"",
-			"You can speak to plants and hear their whispers, as if constantly under the effect of ‹spell/speak with plants›."
+			"@I-power You can speak to plants and hear their whispers, as if constantly under the effect of ‹spell/speak with plants›."
 		]
 	},
 	"greater_green_tongue": {
@@ -2448,7 +2496,7 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Su)\" l=7 burn=0 prereq=\"‹kinetic/green tongue›\" source=\"Ultimate Wilderness/59~;Psychic Anthology/22\"}",
 			"",
-			"You can spend 10 minutes in any outdoor location that would be valid for ‹spell/commune with nature› in order to contact and chat with fey and leshy spirits, allowing you to gain three pieces of information as per commune with nature."
+			"@I-magic You can spend 10 minutes in any outdoor location that would be valid for ‹spell/commune with nature› in order to contact and chat with fey and leshy spirits, allowing you to gain three pieces of information as per *commune with nature.*"
 		]
 	},
 	"green_tongue_greater": { "redirect": "greater_green_tongue" },
@@ -2464,7 +2512,7 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Su)\" l=4 burn=0 source=\"Ultimate Wilderness/59~;Occult Origins/8\"}",
 			"",
-			"You can see through plant material as if you had ‹umr/greensight› as per the universal monster rule with a range of 60 feet."
+			"@I-power You can see through plant material as if you had ‹umr/greensight› as per the universal monster rule with a range of 60 feet."
 		]
 	},
 	"healing_burst": {
@@ -2479,7 +2527,7 @@
 			"",
 			"::kinetics{el=\"aether, void, water, wood\" type=\"utility (Sp)\" l=4 burn=1 prereq=\"‹kinetic/kinetic healer› or ‹kinetic/void healer›\" save=none sr=yes source=\"Ultimate Wilderness/59~;Psychic Anthology/23\"}",
 			"",
-			"You use kinetic healer or void healer (whichever you have, or either if you have both) to heal all creatures in a 30-foot radius around you. Healing burst heals half as much damage as normal, unless your healing amount is based on positive blast, in which case it heals the full amount. Unlike kinetic healer, you must accept the burn yourself. This counts as kinetic healer for the purpose of the ‹arc-kineticist/kinetic chirurgeon› archetype (the 17th-level metahealer ability heals the kinetic chirurgeon twice - once for half and once for full)."
+			"@I-aid You use *kinetic healer* or *void healer* (whichever you have, or either if you have both) to heal all creatures in a 30-foot radius around you. *Healing burst* heals half as much damage as normal, unless your healing amount is based on *positive blast,* in which case it heals the full amount. Unlike *kinetic healer,* you must accept the burn yourself. This counts as *kinetic healer* for the purpose of the ‹arc-kineticist/kinetic chirurgeon› archetype (the 17th-level *metahealer* ability heals the kinetic chirurgeon twice - once for half and once for full)."
 		]
 	},
 	"heat_adaptation": {
@@ -2491,7 +2539,7 @@
 			"",
 			"::kinetics{el=\"fire, water\" type=\"utility (Sp)\" l=1 burn=0 source=\"Occult Adventures/25\"}",
 			"",
-			"You are constantly protected by ‹spell/endure elements› against hot temperatures only. You gain an amount of fire resistance equal to twice your current amount of burn."
+			"@I-def You are constantly protected by ‹spell/endure elements› against hot temperatures only. You gain an amount of fire resistance equal to twice your current amount of burn."
 		]
 	},
 	"heat_wave": {
@@ -2503,7 +2551,9 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=3 burn=1 prereq=\"‹kinetic/heat adaptation›, ‹kinetic/searing flesh›\" source=\"Occult Adventures/25\"}",
 			"",
-			"You create an aura of shimmering heat that distorts the area around you. Until the next time your burn is removed, you can begin or end the heat aura as a swift action. The temperature in the area 30 feet around you rises by 5&deg; F per kineticist level you possess, to a maximum modified temperature of 120&deg; F. If this brings the temperature to at least 90&deg; F, all attacks made by creatures within 5 feet of you suffer a 20% miss chance due to ‹rule/concealment›. You are immune to these effects, as are those immune to fire or benefiting from ‹spell/endure elements›."
+			"@I-aura-def You create an aura of shimmering heat that distorts the area around you. Until the next time your burn is removed, you can begin or end the heat aura as a @HL[swift action]. The temperature in the area 30 feet around you rises by 5&deg; F per kineticist level you possess, to a maximum modified temperature of 120&deg; F. If this brings the temperature to at least 90&deg; F, all attacks made by creatures within 5 feet of you suffer a 20% miss chance due to ‹rule/concealment›.",
+			"",
+			"You are immune to these effects, as are those immune to fire or benefiting from ‹spell/endure elements›."
 		]
 	},
 	"herbal_antivenom": {
@@ -2518,7 +2568,11 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Sp)\" l=4 burn=0 source=\"Ultimate Wilderness/59~;Psychic Anthology/23\"}",
 			"",
-			"Your body can produce the herbal remedies necessary to counter almost any poison. You gain a +5 alchemical bonus on saving throws against poison, as if you were always under the effect of ‹eq-misc/antitoxin›. You can use the treat poison action from the ‹skill/Heal› skill as a standard action with a mere touch, without a healer's kit, and even on yourself; if you succeed, you grant the touched creature a +5 alchemical bonus against that specific instance of poison in addition to the normal +4 bonus from treat poison. You can accept 1 point of burn while using the treat poison action in this way to also produce the effects of ‹spell/neutralize poison›."
+			"@I-def-aid Your body can produce the herbal remedies necessary to counter almost any poison. You gain a +5 alchemical bonus on saving throws against poison, as if you were always under the effect of ‹eq-misc/antitoxin›.",
+			"",
+			"You can use the *treat poison* action from the ‹skill/Heal› skill as a @HL[standard action] with a mere touch, without a healer's kit, and even on yourself; if you succeed, you grant the touched creature a +5 alchemical bonus against that specific instance of poison in addition to the normal +4 bonus from *treat poison.*",
+			"",
+			"You can accept 1 point of burn while using the *treat poison* action in this way to also produce the effects of ‹spell/neutralize poison›."
 		]
 	},
 	"hurricane_queen": {
@@ -2528,13 +2582,13 @@
 		"description": [
 			"## Hurricane Queen (Su)",
 			"",
-			"::kinetics{el=air type=\"utility (Su)\" l=9 burn=0 source=\"Occult Realms/8\"}",
+			"::kinetics{el=air type=\"utility (Su)\" l=9 burn=0 prereq=\"‹kinetic/enveloping winds›\" source=\"Occult Realms/8\"}",
 			"",
-			"You are one with the hurricane. Your ‹kinetic/enveloping winds› defense wild talent has an additional 25% chance of deflecting nonmagical ranged attacks, and your total deflection chance can exceed the usual cap of 75%. All wind and weather (including creatures using the ‹umr/whirlwind› monster ability) affect you and your attacks only if you wish them to do so; for example, you could shoot arrows directly through a tornado without penalty.",
+			"@I-def-boost You are one with the hurricane. Your *enveloping winds* defense wild talent has an additional 25% chance of deflecting nonmagical ranged attacks, and your total deflection chance can exceed the usual cap of 75%. All wind and weather (including creatures using the ‹umr/whirlwind› monster ability) affect you and your attacks only if you wish them to do so; for example, you could shoot arrows directly through a tornado without penalty.",
 			"",
 			"### Attunement",
 			"",
-			"An aerokineticist must fly around the entire perimeter of the Eye of Abendego without stopping, while succeeding at a series of 12 consecutive DC 40 Fly checks. If successful, she can learn the hurricane queen wild talent. If she fails two or fewer checks, she takes 50d6 points of bludgeoning damage from the hurricane's galeforce winds. If she fails three or more checks, she must succeed at a DC 25 Reflex save or be pulled into the Eye of Abendego, never to return."
+			"An aerokineticist must fly around the entire perimeter of the Eye of Abendego without stopping, while succeeding at a series of 12 consecutive DC 40 ‹skill/Fly› checks. If successful, she can learn the *hurricane queen* wild talent. If she fails two or fewer checks, she takes 50d6 points of bludgeoning damage from the hurricane's gale-force winds. If she fails three or more checks, she must succeed at a DC 25 Reflex save or be pulled into the Eye of Abendego, never to return."
 		]
 	},
 	"ice_path": {
@@ -2546,7 +2600,7 @@
 			"",
 			"::kinetics{el=water type=\"utility (Su)\" l=6 burn=0 prereq=\"‹kinetic/icewalker›\" source=\"Occult Adventures/25\"}",
 			"",
-			"You freeze water vapor in the air, allowing you to travel above the ground as ‹spell/air walk› by walking along the ice, and leaving a path of ice behind you that lasts for 1 round before it melts."
+			"@I-magic You freeze water vapor in the air, allowing you to travel above the ground as ‹spell/air walk› by walking along the ice, and leaving a path of ice behind you that lasts for 1 round before it melts."
 		]
 	},
 	"ice_sculptor": {
@@ -2558,7 +2612,7 @@
 			"",
 			"::kinetics{el=water type=\"utility (Sp)\" l=4 burn=0 source=\"Occult Adventures/25\"}",
 			"",
-			"You can sculpt ice and snow into new shapes, as the spell ‹spell/stone shape› but affecting ice and snow instead of stone."
+			"@I-magic You can sculpt ice and snow into new shapes, as the spell ‹spell/stone shape› but affecting ice and snow instead of stone."
 		]
 	},
 	"icewalker": {
@@ -2570,19 +2624,7 @@
 			"",
 			"::kinetics{el=water type=\"utility (Su)\" l=1 burn=0 source=\"Occult Adventures/25\"}",
 			"",
-			"You can move across wet and icy surfaces without needing to attempt Acrobatics checks due to slipperiness, including across areas under the effects of the ‹kinetic/slick› wild talent. Additionally, you are immune to seasickness."
-		]
-	},
-	"improved_fire_steed": {
-		"name": "Improved Fire Steed",
-		"sources": [ "Wilderness Origins" ],
-		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
-		"description": [
-			"## Improved Fire Steed (Sp)",
-			"",
-			"::kinetics{el=fire type=\"utility (Sp)\" l=5 burn=0 prereq=\"‹kinetic/fire steed›\" source=\"Wilderness Origins/29\"}",
-			"",
-			"When using fire steed, the mount's fire resistance increases to 20 and its speed increases by an additional 10 feet. The mount can move over lava without difficulty or a decrease in speed."
+			"@I-def You can move across wet and icy surfaces without needing to attempt ‹skill/Acrobatics› checks due to slipperiness, including across areas under the effects of the ‹kinetic/slick› wild talent. Additionally, you are immune to seasickness."
 		]
 	},
 	"infernal_bargain": {
@@ -2594,7 +2636,7 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Sp)\" l=1 burn=0 prereq=\"‹race/tiefling› or ‹feat/Planar Infusion› (Hell)\" save=none sr=yes source=\"Plane-Hopper's Handbook/8\"}",
 			"",
-			"As a swift action before using a utility talent on a willing target, you can add the effects of ‹spell/conditional favor›, except that it applies to any beneficial utility talent instead of to spells of certain schools."
+			"@I-magic As a @HL[swift action] before using a utility talent on a willing target, you can add the effects of ‹spell/conditional favor›, except that it applies to any beneficial utility talent instead of to spells of certain schools."
 		]
 	},
 	"jagged_flesh": {
@@ -2606,7 +2648,7 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Sp)\" l=3 burn=1 prereq=\"‹kinetic/flesh of stone›\" source=\"Occult Adventures/25\"}",
 			"",
-			"You painfully push forth jagged chunks of rock from your flesh. Until the next time your burn is removed, while your flesh of stone is active, any creature that strikes you with an unarmed strike or natural weapon or that grapples you takes 1d6 points of piercing damage. Weapons that strike you also take this damage, though the damage is unlikely to penetrate the weapon's hardness."
+			"@I-def You painfully push forth jagged chunks of rock from your flesh. Until the next time your burn is removed, while your *flesh of stone* is active, any creature that strikes you with an unarmed strike or natural weapon or that grapples you takes 1d6 points of piercing damage. Weapons that strike you also take this damage, though the damage is unlikely to penetrate the weapon's hardness."
 		]
 	},
 	"kinetic_awe": {
@@ -2618,7 +2660,9 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Su)\" l=1 burn=0 source=\"Heroes of Golarion/26\"}",
 			"",
-			"You create a terrifying display of elemental power. This ability functions as ‹feat/Dazzling Display›, except you can use this ability as a standard action and you add half your kineticist level as a bonus on your Intimidate check if you've used gather power during the same round; doing so expends the gathered power. This ability otherwise counts as the Dazzling Display feat; feats and other effects which affect Dazzling Display (such as ‹feat/Shatter Defenses›) apply to it, and it counts as Dazzling Display for the purpose of meeting combat feat prerequisites."
+			"@I-power You create a terrifying display of elemental power. This ability functions as ‹feat/Dazzling Display›, except you can use this ability as a @HL[standard action] and you add half your kineticist level as a bonus on your ‹skill/Intimidate› check if you've used *gather power* during the same round; doing so expends the *gathered power.*",
+			"",
+			"This ability otherwise counts as the Dazzling Display feat; feats and other effects which affect Dazzling Display (such as ‹feat/Shatter Defenses›) apply to it, and it counts as Dazzling Display for the purpose of meeting combat feat prerequisites."
 		]
 	},
 	"kinetic_cover": {
@@ -2630,7 +2674,9 @@
 			"",
 			"::kinetics{el=\"aether, earth, water, wood\" type=\"utility (Sp)\" l=1 burn=0 source=\"Occult Adventures/26\"}",
 			"",
-			"You call up elemental matter to defend yourself and your allies from attacks. As a standard action, you can select one face of a square within 30 feet of you and move elemental matter to block that face, providing total ‹rule/cover› from that direction. The face you select must be supported by the ground, and the kinetic cover cannot support more than 5 pounds of weight. Water, ice, and telekinetic force are translucent, but earth, metal, mud, and the like are opaque and block line of sight. A creature who strikes the cover can easily destroy it. Regardless of its composition, the cover has hardness 0, AC 5, and 2 hit points per kineticist level you possess. You can have a number of kinetic covers in existence equal to your Constitution modifier + 1/2 your kineticist level."
+			"@I-def-protect You call up elemental matter to defend yourself and your allies from attacks. As a @HL[standard action], you can select one face of a square within 30 feet of you and move elemental matter to block that face, providing total ‹rule/cover› from that direction. The face you select must be supported by the ground, and the *kinetic cover* cannot support more than 5 pounds of weight. Water, ice, and telekinetic force are translucent, but earth, metal, mud, and the like are opaque and block line of sight.",
+			"",
+			"A creature who strikes the *cover* can easily destroy it. Regardless of its composition, the *cover* has hardness 0, AC 5, and 2 hit points per kineticist level you possess. You can have a number of *kinetic covers* in existence equal to your Constitution modifier + ‹misc/half› of your kineticist level."
 		]
 	},
 	"kinetic_dissolution": {
@@ -2642,7 +2688,7 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Su)\" l=1 burn=0 prereq=\"‹race/wayang›, chosen racial trait\" source=\"Heroes of Golarion/26\"}",
 			"",
-			"Choose either the dissolution's child alternate racial trait or the light and dark racial trait. You can use the chosen racial trait by accepting 1 point of burn, even if you have no daily uses of that racial trait remaining."
+			"@I-power Choose either the *dissolution's child* alternate racial trait or the *light and dark* racial trait. You can use the chosen racial trait by accepting 1 point of burn, even if you have no daily uses of that racial trait remaining."
 		]
 	},
 	"kinetic_form": {
@@ -2654,7 +2700,11 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Sp)\" l=5 burn=1 source=\"Occult Adventures/26\"}",
 			"",
-			"You are able to suspend your body in a large mass of elemental matter. Until the next time your burn is removed, you can change your size to Large or shift back to your original size as a standard action. This doesn't change your ability scores in any way. At 16th level, you can accept 1 additional point of burn to instead change your size to Huge. You cannot use kinetic form to decrease your size."
+			"@I-magic You are able to suspend your body in a large mass of elemental matter. Until the next time your burn is removed, you can change your size to Large or shift back to your original size as a @HL[standard action]. This doesn't change your ability scores in any way.",
+			"",
+			"At 16th level, you can accept 1 additional point of burn to instead change your size to Huge.",
+			"",
+			"You cannot use *kinetic form* to decrease your size."
 		]
 	},
 	"kinetic_healer": {
@@ -2666,7 +2716,7 @@
 			"",
 			"::kinetics{el=\"aether, water\" type=\"utility (Sp)\" l=1 burn=1 save=none sr=yes source=\"Occult Adventures/26\"}",
 			"",
-			"With a touch, you can heal a willing living creature of an amount of damage equal to your kinetic blast's damage. Instead of paying the burn cost yourself, you can cause the recipient to take 1 point of burn. If you do so, the recipient takes 1 point of nonlethal damage per Hit Die he possesses, as usual for burn; this damage can't be healed by any means until the recipient takes a full night's rest."
+			"@I-aid With a touch, you can heal a willing living creature of an amount of damage equal to your kinetic blast's damage. Instead of paying the burn cost yourself, you can cause the recipient to take 1 point of burn. If you do so, the recipient takes 1 point of nonlethal damage per Hit Die he possesses, as usual for burn; this damage can't be healed by any means until the recipient takes a full night's rest."
 		]
 	},
 	"kinetic_restoration": {
@@ -2678,9 +2728,9 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Su)\" l=3 burn=1 source=\"Healer's Handbook/15\"}",
 			"",
-			"You recover from 1d4 points of ability score damage to one of your physical ability scores (Strength, Dexterity, or Constitution). This also eliminates any ‹misc/fatigue› that you suffer, and improves an ‹misc/exhausted› condition to fatigued.",
+			"@I-aid You recover from 1d4 points of ‹rule/ability« score» damage› to one of your physical ability scores (Strength, Dexterity, or Constitution). This also eliminates any ‹misc/fatigue› that you suffer, and improves an ‹misc/exhausted› condition to fatigued.",
 			"",
-			"If you have the ‹kinetic/kinetic healer› utility wild talent, you can use both kineticist restoration and kinetic healer on the same target with one standard action."
+			"If you have the ‹kinetic/kinetic healer› utility wild talent, you can use both *kineticist restoration* and *kinetic healer* on the same target with one @HL[standard action]."
 		]
 	},
 	"kinetic_revivification": {
@@ -2692,9 +2742,9 @@
 			"",
 			"::kinetics{el=\"aether, water\" type=\"utility (Su)\" l=6 burn=0 prereq=\"‹kinetic/kinetic healer›\" source=\"Healer's Handbook/15\"}",
 			"",
-			"You can bring an ally who died within 1 round back from the dead with your kinetic healer wild talent similarly to the ‹spell/breath of life› spell, except the ally regains the normal number of hit points from the kinetic healer utility wild talent instead of the amount healed by breath of life. An ally revived in this way takes 1 point of burn + any points of burn from the kinetic healer utility wild talent (if you choose to have the ally take points of burn instead of taking it yourself).",
+			"@I-aid You can bring an ally who died within 1 round back from the dead with your *kinetic healer* wild talent similarly to the ‹spell/breath of life› spell, except the ally regains the normal number of hit points from the *kinetic healer* utility wild talent instead of the amount healed by *breath of life.* An ally revived in this way takes 1 point of burn + any points of burn from the *kinetic healer* utility wild talent (if you choose to have the ally take points of burn instead of taking it yourself).",
 			"",
-			"If you have the metahealer ability (such as from the ‹arc-kineticist/kinetic chirurgeon› kineticist archetype), this feat instead allows you to bring an ally back who died within a number of rounds equal to 3 + the ally's Constitution modifier (minimum 0) - the number of points of burn the ally had taken before it died. For each round that the ally was dead, when it is brought back to life in this way, it takes 1 additional point of burn + any points of burn from the kinetic healer talent."
+			"If you have the *metahealer* ability (such as from the ‹arc-kineticist/kinetic chirurgeon› kineticist archetype), this feat instead allows you to bring an ally back who died within a number of rounds equal to 3 + the ally's Constitution modifier (minimum 0) - the number of points of burn the ally had taken before it died. For each round that the ally was dead, when it is brought back to life in this way, it takes 1 additional point of burn + any points of burn from the *kinetic healer* talent."
 		]
 	},
 	"living_capacitor": {
@@ -2706,7 +2756,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Sp)\" l=2 burn=0 source=\"Psychic Anthology/23\"}",
 			"",
-			"You store electricity damage you take within your body, as if you constantly had ‹spell/body capacitance› active. Once you discharge this electricity damage via a touch attack, you must take electricity damage again before you can discharge it again."
+			"@I-zap You store electricity damage you take within your body, as if you constantly had ‹spell/body capacitance› active. Once you discharge this electricity damage via a touch attack, you must take electricity damage again before you can discharge it again."
 		]
 	},
 	"magnetism": {
@@ -2718,7 +2768,7 @@
 			"",
 			"::kinetics{el=\"air, earth\" type=\"utility (Sp)\" l=3 burn=0 prereq=\"‹kinetic/magnetic infusion›\" save=none sr=yes source=\"Elemental Master's Handbook/22\"}",
 			"",
-			"You can push and pull metal objects using magnetism. This functions as ‹kinetic/telekinetic maneuvers› but you can make only bull rush and drag combat maneuvers, and can do so only against metal objects or creatures. If you use this ability on an attended metal object, you must exceed the creature's CMD as normal, and if it's holding the object, it must drop it or this ability pushes or pulls the creature."
+			"@I-ranged You can push and pull metal objects using magnetism. This functions as ‹kinetic/telekinetic maneuvers› but you can make only ‹rule/bull rush› and ‹rule/drag› combat maneuvers, and can do so only against metal objects or creatures. If you use this ability on an attended metal object, you must exceed the creature's CMD as normal, and if it's holding the object, it must drop it or this ability pushes or pulls the creature."
 		]
 	},
 	"greater_magnetism": {
@@ -2730,7 +2780,7 @@
 			"",
 			"::kinetics{el=\"air, earth\" type=\"utility (Sp)\" l=9 burn=0 prereq=\"‹kinetic/magnetic infusion›, ‹kinetic/magnetism›\" save=none sr=no source=\"Elemental Master's Handbook/22\"}",
 			"",
-			"You can repel or attract metal objects in a vast line with a magnetism so strong that there is no hope of escaping. This functions as ‹spell/repel metal or stone›, except only for metal objects, and you can also pull the objects toward you instead of pushing them away. The effect lasts for 1 round, and the pulling version of the effect can't pull objects into the air unless they are already airborne. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you have."
+			"@I-line You can repel or attract metal objects in a vast line with a magnetism so strong that there is no hope of escaping. This functions as ‹spell/repel metal or stone›, except only for metal objects, and you can also pull the objects toward you instead of pushing them away. The effect lasts for 1 round, and the pulling version of the effect can't pull objects into the air unless they are already airborne. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you have."
 		]
 	},
 	"magnetism_greater": { "redirect": "greater_magnetism" },
@@ -2746,7 +2796,7 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Su)\" l=2 burn=0 source=\"Ultimate Wilderness/59~;Occult Origins/8\"}",
 			"",
-			"The First World is a place of rampant life, and you can use some of its energy to ease the danger of your attacks. You can deal nonlethal damage without taking a penalty on attack rolls with your wood blasts or composite blasts that include wood."
+			"@I-boost The First World is a place of rampant life, and you can use some of its energy to ease the danger of your attacks. You can deal nonlethal damage without taking a penalty on attack rolls with your wood blasts or composite blasts that include wood."
 		]
 	},
 	"mesmerizing_elementalist": {
@@ -2758,7 +2808,7 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Su)\" l=1 burn=0 prereq=\"‹race/nagaji›\" source=\"Heroes of Golarion/26\"}",
 			"",
-			"You gain the hypnotic gaze nagaji alternate racial trait. If you already have this trait, add +1 to the trait's save DC instead. You can use the hypnotic gaze racial trait by accepting 1 point of burn, even if you have no daily uses of that racial trait remaining."
+			"@I-power You gain the *hypnotic gaze* nagaji alternate racial trait. If you already have this trait, add +1 to the trait's save DC instead. You can use the *hypnotic gaze* racial trait by accepting 1 point of burn, even if you have no daily uses of that racial trait remaining."
 		]
 	},
 	"nine_tailed_kineticist": {
@@ -2770,7 +2820,11 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Su)\" l=1 burn=0 prereq=\"‹race/kitsune›\" source=\"Heroes of Golarion/26\"}",
 			"",
-			"You can cast a spell-like ability granted to you by any ‹feat/Magical Tail› feat you have by accepting 1 point of burn, even if you have no daily uses of that spell-like ability remaining. You must be able to use wild talents of a level equal to the number of extra tails required to use a spell-like ability granted by a Magical Tail feat to use this ability to cast that spell-like ability (for example, you would need to be 15th level and able to use 8th-level wild talents to use this talent to cast the ‹spell/dominate person› spell-like ability granted by Magical Tail). In addition, you can learn a Magical Tail feat that you qualify for in place of gaining a new infusion or utility wild talent."
+			"@I-magic You can cast a spell-like ability granted to you by any ‹feat/Magical Tail› feat you have by accepting 1 point of burn, even if you have no daily uses of that spell-like ability remaining.",
+			"",
+			"You must be able to use wild talents of a level equal to the number of extra tails required to use a spell-like ability granted by a Magical Tail feat to use this ability to cast that spell-like ability (for example, you would need to be 15th level and able to use 8th-level wild talents to use this talent to cast the ‹spell/dominate person› spell-like ability granted by Magical Tail).",
+			"",
+			"In addition, you can learn a Magical Tail feat that you qualify for in place of gaining a new infusion or utility wild talent."
 		]
 	},
 	"no_breath": {
@@ -2782,7 +2836,7 @@
 			"",
 			"::kinetics{el=void type=\"utility (Su)\" l=2 burn=0 prereq=\"‹kinetic/emptiness›\" source=\"Occult Origins/7\"}",
 			"",
-			"You gain ‹umr/no breath›, as per the universal monster ability, and you can survive in the vacuum of space."
+			"@I-def You gain ‹umr/no breath›, as per the universal monster ability, and you can survive in the vacuum of space."
 		]
 	},
 	"past_life_evoker": {
@@ -2794,7 +2848,7 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Su)\" l=2 burn=0 prereq=\"‹race/samsaran›\" source=\"Heroes of Golarion/26\"}",
 			"",
-			"Once per day, you can accept 1 point of burn to choose one simple blast wild talent belonging to any element. You gain the chosen simple blast wild talent for 1 minute, using your kineticist level - 2 to determine the blast talent's damage. The simple blast wild talent you gain in this way does not allow you to meet any prerequisites."
+			"@I-power Once per day, you can accept 1 point of burn to choose one simple blast wild talent belonging to any element. You gain the chosen simple blast wild talent for 1 minute, using your kineticist level - 2 to determine the blast talent's damage. The simple blast wild talent you gain in this way does not allow you to meet any prerequisites."
 		]
 	},
 	"pillar": {
@@ -2806,11 +2860,11 @@
 			"",
 			"::kinetics{el=\"earth, water, wood\" type=\"utility (Sp)\" l=3 burn=0 prereq=\"‹kinetic/kinetic cover›\" source=\"Elemental Master's Handbook/23\"}",
 			"",
-			"You create a 5-foot-by-5-foot pillar of ice, packed dirt, or tangled roots with a height of up to 15 feet. This takes 1 full round, during which time the ground within the affected area rumbles conspicuously, but it rises only at the end of the round. You can't create a pillar in an area occupied by or adjacent to any creatures unless all such creatures are willing, and if an unwilling creature moves into the area before the pillar finishes rising, it can disrupt and foil the pillar. As the pillar springs into existence, willing creatures and objects within the affected area are lifted with it.",
+			"@I-magic You create a 5-foot-by-5-foot pillar of ice, packed dirt, or tangled roots with a height of up to 15 feet. This takes 1 full round, during which time the ground within the affected area rumbles conspicuously, but it rises only at the end of the round. You can't create a pillar in an area occupied by or adjacent to any creatures unless all such creatures are willing, and if an unwilling creature moves into the area before the pillar finishes rising, it can disrupt and foil the pillar. As the pillar springs into existence, willing creatures and objects within the affected area are lifted with it.",
 			"",
 			"The pillar can't be used to crush creatures or objects against the ceiling; if insufficient room is available for the pillar and any creatures or objects on it, the pillar reaches only the maximum possible height. You can't create a pillar under a Large or larger creature.",
 			"",
-			"The pillar has AC 4, hardness 0, and 3 hit points per kineticist level. Scaling the pillar's rough edges requires a successful DC 15 Climb check. When destroyed, when you create a new pillar, or when a number of rounds equal to your Constitution bonus (minimum 1) have elapsed, the pillar crumbles, melts, or withers away, gently lowering anything on it back to the ground."
+			"The pillar has AC 4, hardness 0, and 3 hit points per kineticist level. Scaling the pillar's rough edges requires a successful DC 15 ‹skill/Climb› check. When destroyed, when you create a new pillar, or when a number of rounds equal to your Constitution bonus (minimum 1) have elapsed, the pillar crumbles, melts, or withers away, gently lowering anything on it back to the ground."
 		]
 	},
 	"plant_disguise": {
@@ -2825,7 +2879,7 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Sp)\" l=4 burn=0 source=\"Ultimate Wilderness/59~;Occult Origins/9\"}",
 			"",
-			"You can assume the shape of an immobile plant, as per ‹spell/tree shape› but transforming into any ordinary Small or Medium plant."
+			"@I-magic You can assume the shape of an immobile plant, as per ‹spell/tree shape› but transforming into any ordinary Small or Medium plant."
 		]
 	},
 	"plant_puppet": {
@@ -2840,7 +2894,9 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Sp)\" l=5 burn=0 source=\"Ultimate Wilderness/59~;Occult Origins/9\"}",
 			"",
-			"You can control plants, causing them to attack your foes. This functions as the ‹kinetic/aether puppet› wild talent, except it controls plants instead of objects. At 12th level, you can grant hardness 5 to Large and larger animated plants."
+			"@I-power-protect You can control plants, causing them to attack your foes. This functions as the ‹kinetic/aether puppet› wild talent, except it controls plants instead of objects.",
+			"",
+			"At 12th level, you can grant hardness 5 to Large and larger animated plants."
 		]
 	},
 	"primal_aether": {
@@ -2852,11 +2908,11 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Su)\" l=3 burn=0 source=\"Occult Realms/8\"}",
 			"",
-			"You can gather strands of aether twisted and warped by your experiences in the Spellscar Desert, and wind them so tightly that they explode, creating a ‹rule/primal magic« event› with a CR equal to your kineticist level.",
+			"@I-magic You can gather strands of aether twisted and warped by your experiences in the Spellscar Desert, and wind them so tightly that they explode, creating a ‹rule/primal magic« event› with a CR equal to your kineticist level.",
 			"",
 			"### Attunement",
 			"",
-			"To locate the aether saturations deep within the desert, a telekineticist must first locate an etheric storm. Afterwards, she must succeed at both a DC 20 Knowledge (arcana) check and a DC 20 Survival check and spend 1d4 hours navigating the wasteland from the storm's origin point to the saturation that spawned it. She can then learn the primal aether wild talent."
+			"To locate the aether saturations deep within the desert, a telekineticist must first locate an etheric storm. Afterwards, she must succeed at both a DC 20 ‹skill/Knowledge (arcana)› check and a DC 20 ‹skill/Survival› check and spend 1d4 hours navigating the wasteland from the storm's origin point to the saturation that spawned it. She can then learn the *primal aether* wild talent."
 		]
 	},
 	"purging_flame": {
@@ -2868,11 +2924,13 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=6 burn=1 source=\"Occult Realms/9\"}",
 			"",
-			"You can purge yourself or another with flame, removing all impurities. This functions as ‹spell/break enchantment› on a single target. The target must be willing and takes 2 points of fire damage per character level as well as 1 point of burn (you do not need to accept burn unless you are the target). You can use this ability even when affected by an effect that denies you actions, so long as this effect is one that *break enchantment* could remove. If you burn rare incense or igneous rocks from Mount Kumijinja worth 100 gp or 1,000 gp as part of using purging flame, your target also benefits from ‹spell/restoration›, as if the spell were cast using diamonds of equal value as a material component.",
+			"@I-aid You can purge yourself or another with flame, removing all impurities. This functions as ‹spell/break enchantment› on a single target. The target must be willing and takes 2 points of fire damage per character level as well as 1 point of burn (you do not need to accept burn unless you are the target). You can use this ability even when affected by an effect that denies you actions, so long as this effect is one that *break enchantment* could remove.",
+			"",
+			"If you burn rare incense or igneous rocks from Mount Kumijinja worth 100 gp or 1,000 gp as part of using purging flame, your target also benefits from ‹spell/restoration›, as if the spell were cast using diamonds of equal value as a material component.",
 			"",
 			"### Attunement",
 			"",
-			"A pyrokineticist must impress Mount Kumijinja's mighty kami. This might involve an appropriate gift or a successful DC 30 Diplomacy check attempted by the kineticist or by an ally who speaks Ignan and Senzar. If she impresses the kami, the kineticist is immediately affected as if using the purging flame wild talent and can learn that wild talent."
+			"A pyrokineticist must impress Mount Kumijinja's mighty kami. This might involve an appropriate gift or a successful DC 30 ‹skill/Diplomacy› check attempted by the kineticist or by an ally who speaks Ignan and Senzar. If she impresses the kami, the kineticist is immediately affected as if using the *purging flame* wild talent and can learn that wild talent."
 		]
 	},
 	"purifying_flames": {
@@ -2884,7 +2942,9 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=4 burn=1 source=\"Wilderness Origins/29\"}",
 			"",
-			"You use fire to burn poison from within a creature's veins. You must attempt a caster level check (1d20 + your kineticist level) against the DC of each poison affecting the target. Success means that the poison is neutralized, as ‹spell/neutralize poison›. When you attempt to neutralize poison in this way, you can choose to deal a number of points of fire damage to the poisoned creature equal to the amount of damage you normally take from accepting burn in order to reduce the DC of one poison affecting the target by 2. This reduction remains until the end of your next turn."
+			"@I-aid You use fire to burn poison from within a creature's veins. You must attempt a caster level check (1d20 + your kineticist level) against the DC of each poison affecting the target. Success means that the poison is neutralized, as ‹spell/neutralize poison›.",
+			"",
+			"When you attempt to neutralize poison in this way, you can choose to deal a number of points of fire damage to the poisoned creature equal to the amount of damage you normally take from accepting burn in order to reduce the DC of one poison affecting the target by 2. This reduction remains until the end of your next turn."
 		]
 	},
 	"reverse_shift": {
@@ -2896,7 +2956,7 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Sp)\" l=8 burn=0 source=\"Occult Adventures/26\"}",
 			"",
-			"You reverse the flow of your connection to the planes, sending your body into the Ethereal Plane as ‹spell/ethereal jaunt›. As long as you concentrate on reverse shift, you remain on the Ethereal Plane; after a number of consecutive rounds spent on the Ethereal Plane equal to your kineticist level (and every such interval thereafter), you must accept 1 point of burn. Once you return to the Material Plane, you cannot use reverse shift again for a number of rounds equal to the number of rounds you spent on the Ethereal Plane."
+			"@I-magic You reverse the flow of your connection to the planes, sending your body into the Ethereal Plane as ‹spell/ethereal jaunt›. As long as you concentrate on *reverse shift,* you remain on the Ethereal Plane; after a number of consecutive rounds spent on the Ethereal Plane equal to your kineticist level (and every such interval thereafter), you must accept 1 point of burn. Once you return to the Material Plane, you cannot use *reverse shift* again for a number of rounds equal to the number of rounds you spent on the Ethereal Plane."
 		]
 	},
 	"ride_the_blast": {
@@ -2908,7 +2968,9 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Sp)\" l=6 burn=0 source=\"Occult Adventures/26\"}",
 			"",
-			"You can use this wild talent as part of activating a kinetic blast other than ‹kinetic/telekinetic blast›. You transform yourself into your element or energy and send yourself along with your kinetic blast. You appear at the end of the blast's path, adjacent to the blast's target (or final target, for form infusions like chain) or at the center of the ‹misc/burst« or spread› for form infusions like explosion. This ability doesn't work with form infusions that involve melee attacks (such as ‹kinetic/kinetic blade›) or that use a cone shape (such as ‹kinetic/spray›)."
+			"@I-magic You can use this wild talent as part of activating a kinetic blast other than ‹kinetic/telekinetic blast›. You transform yourself into your element or energy and send yourself along with your kinetic blast. You appear at the end of the blast's path, adjacent to the blast's target (or final target, for form infusions like ‹kinetic/chain›) or at the center of the burst or spread for form infusions like ‹kinetic/explosion›.",
+			"",
+			"This ability doesn't work with form infusions that involve melee attacks (such as ‹kinetic/kinetic blade›) or that use a cone shape (such as ‹kinetic/spray›)."
 		]
 	},
 	"roots": {
@@ -2923,7 +2985,7 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Su)\" l=1 burn=0 source=\"Ultimate Wilderness/60~;Occult Origins/9\"}",
 			"",
-			"Your body sinks roots into soft surfaces, making it hard to move you. This functions as the ‹kinetic/earth walk› wild talent, except it works only on soft surfaces (like soil or snow) and not on stone. If you have both roots and earth walk, the bonuses stack while you're on soft earth surfaces."
+			"@I-power Your body sinks roots into soft surfaces, making it hard to move you. This functions as the ‹kinetic/earth walk› wild talent, except it works only on soft surfaces (like soil or snow) and not on stone. If you have both *roots* and *earth walk,* the bonuses stack while you're on soft earth surfaces."
 		]
 	},
 	"searing_flame": {
@@ -2935,7 +2997,7 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Su)\" l=2 burn=0 prereq=\"‹kinetic/burning infusion›\" source=\"Occult Adventures/26\"}",
 			"",
-			"Over time, your burning infusion sears away your foe's fire resistance. When you roll burn damage from burning infusion against a foe, decrease the foe's fire resistance by an amount equal to the unmodified burn damage; don't apply fire resistance to this roll for the purpose of determining the reduction. This decrease lasts for a number of rounds equal to 1/2 your kineticist level. These decreases stack, to a minimum resistance of 0."
+			"@I-lower Over time, your *burning infusion* sears away your foe's fire resistance. When you roll burn damage from *burning infusion* against a foe, decrease the foe's fire resistance by an amount equal to the unmodified burn damage; don't apply fire resistance to this roll for the purpose of determining the reduction. This decrease lasts for a number of rounds equal to ‹misc/half› of your kineticist level. These decreases stack, to a minimum resistance of 0."
 		]
 	},
 	"seismic_master": {
@@ -2947,7 +3009,7 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Sp)\" l=9 burn=0 source=\"Occult Adventures/26\"}",
 			"",
-			"You can focus on your connection to earth and create a localized tremor, as the ‹spell/earthquake› spell."
+			"@I-magic You can focus on your connection to earth and create a localized tremor, as the ‹spell/earthquake› spell."
 		]
 	},
 	"self_telekinesis": {
@@ -2959,7 +3021,7 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Sp)\" l=3 burn=0 source=\"Occult Adventures/26\"}",
 			"",
-			"You use your telekinetic abilities to move yourself. Otherwise, this wild talent functions like ‹kinetic/flame jet›."
+			"@I-power-line You use your telekinetic abilities to move yourself. Otherwise, this wild talent functions like ‹kinetic/flame jet›."
 		]
 	},
 	"greater_self_telekinesis": {
@@ -2971,7 +3033,7 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Sp)\" l=5 burn=0 prereq=\"‹kinetic/self telekinesis›\" source=\"Occult Adventures/26\"}",
 			"",
-			"You have greater control over your self telekinesis. Otherwise, this wild talent functions like ‹kinetic/greater flame jet›."
+			"@I-boost You have greater control over your *self telekinesis.* Otherwise, this wild talent functions like ‹kinetic/greater flame jet›."
 		]
 	},
 	"self_telekinesis_greater": { "redirect": "greater_self_telekinesis" },
@@ -2987,7 +3049,7 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Sp)\" l=4 burn=0 source=\"Ultimate Wilderness/60~;Occult Origins/9\"}",
 			"",
-			"You reshape wood to suit your purposes, as per ‹spell/wood shape›."
+			"@I-magic You reshape wood to suit your purposes, as per ‹spell/wood shape›."
 		]
 	},
 	"shift_earth": {
@@ -2999,7 +3061,7 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Sp)\" l=4 burn=0 prereq=\"‹kinetic/kinetic cover›\" save=\"see text\" sr=no source=\"Occult Adventures/26\"}",
 			"",
-			"As a standard action, you can push or pull a 5-foot cube of earth or unworked stone within 30 feet, moving the cube 5 feet in any direction. You can create raised platforms, stairs up a cliff, holes, or other useful features. This doesn't cause the earth to float in the air, although in areas with plenty of earth, you can move a cube upward, creating a short pillar. If you move the earth beneath a creature's feet, it can attempt a DC 20 Reflex save to leap elsewhere and avoid moving along with the earth."
+			"@I-magic As a @HL[standard action], you can push or pull a 5-foot cube of earth or unworked stone within 30 feet, moving the cube 5 feet in any direction. You can create raised platforms, stairs up a cliff, holes, or other useful features. This doesn't cause the earth to float in the air, although in areas with plenty of earth, you can move a cube upward, creating a short pillar. If you move the earth beneath a creature's feet, it can attempt a DC 20 Reflex save to leap elsewhere and avoid moving along with the earth."
 		]
 	},
 	"greater_shift_earth": {
@@ -3011,7 +3073,7 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Sp)\" l=7 burn=0 prereq=\"‹kinetic/kinetic cover›, ‹kinetic/shift earth›\" source=\"Occult Adventures/26\"}",
 			"",
-			"You can move greater quantities of earth, as the spell ‹spell/move earth›."
+			"@I-magic You can move greater quantities of earth, as the spell ‹spell/move earth›."
 		]
 	},
 	"shift_earth_greater": { "redirect": "greater_shift_earth" },
@@ -3024,7 +3086,7 @@
 			"",
 			"::kinetics{el=water type=\"utility (Sp)\" l=5 burn=1 prereq=\"‹kinetic/shroud of water›\" source=\"Occult Adventures/27\"}",
 			"",
-			"Your shroud bends light, creating a shimmering mirage. While your shroud of water is active, attacks against you suffer a 20% miss chance due to ‹rule/concealment› until the next time your burn is removed."
+			"@I-def Your shroud bends light, creating a shimmering mirage. While your *shroud of water* is active, attacks against you suffer a 20% miss chance due to ‹rule/concealment› until the next time your burn is removed."
 		]
 	},
 	"skilled_kineticist": {
@@ -3036,7 +3098,7 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Su)\" l=1 burn=0 source=\"Occult Adventures/27\"}",
 			"",
-			"You gain a bonus equal to 1/2 your kineticist level on skill checks with the skills your primary element added to your class skill list, and you can use the Knowledge skill associated with your primary element to identify elementals of your primary element's subtype."
+			"@I-boost You gain a bonus equal to ‹misc/half› your kineticist level on skill checks with the skills your primary element added to your class skill list, and you can use the ‹skill/Knowledge› skill associated with your primary element to identify elementals of your primary element's subtype."
 		]
 	},
 	"greater_skilled_kineticist": {
@@ -3048,7 +3110,7 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Su)\" l=2 burn=0 prereq=\"‹kinetic/skilled kineticist›\" source=\"Occult Adventures/27\"}",
 			"",
-			"By delving into study of the Ethereal and Elemental Planes, you are able to use your primary element to assist with your skills in an unusual way. Add Knowledge (planes) to your list of class skills. Choose one of your kineticist class skills that wasn't granted by your primary element to also receive the bonus from skilled kineticist."
+			"@I-skill-boost By delving into study of the Ethereal and Elemental Planes, you are able to use your primary element to assist with your skills in an unusual way. Add ‹skill/Knowledge (planes)› to your list of class skills. Choose one of your kineticist class skills that wasn't granted by your primary element to also receive the bonus from skilled kineticist."
 		]
 	},
 	"skilled_kineticist_greater": { "redirect": "greater_skilled_kineticist" },
@@ -3061,7 +3123,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Su)\" l=7 burn=1 prereq=\"‹kinetic/air cushion› or ‹kinetic/air's leap›, ‹kinetic/wings of air›\" source=\"Heroes of Golarion/26\"}",
 			"",
-			"By accepting 1 point of burn, you can enable your allies to fly, as ‹spell/mass fly›, except the duration of the effect is 10 minutes."
+			"@I-magic By accepting 1 point of burn, you can enable your allies to fly, as ‹spell/mass fly›, except the duration of the effect is 10 minutes."
 		]
 	},
 	"slick": {
@@ -3073,7 +3135,7 @@
 			"",
 			"::kinetics{el=water type=\"utility (Sp)\" l=1 burn=0 save=\"Reflex negates\" sr=no source=\"Occult Adventures/27\"}",
 			"",
-			"As a standard action, you call forth slippery water or ice, creating any of the effects of the ‹spell/grease› spell for 1 round. You can accept 1 point of burn at the start of your next turn to extend the duration to 1 minute per kineticist level you possess."
+			"@I-magic As a @HL[standard action], you call forth slippery water or ice, creating any of the effects of the ‹spell/grease› spell for 1 round. You can accept 1 point of burn at the start of your next turn to extend the duration to 1 minute per kineticist level you possess."
 		]
 	},
 	"smoke_storm": {
@@ -3085,7 +3147,7 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=3 burn=0 save=\"Fortitude negates; see text\" sr=no source=\"Occult Adventures/27\"}",
 			"",
-			"You transform a source of open flame within 120 feet into a cloud of choking smoke, filling a 20-foot-radius ‹misc/spread› and affecting vision like a ‹eq-misc/smokestick›. All creatures that begin their turns inside the area become ‹misc/sickened› as long as they remain in the smoke and for 1d4+1 rounds thereafter (Fortitude negates)."
+			"@I-magic You transform a source of open flame within 120 feet into a cloud of choking smoke, filling a 20-foot-radius ‹misc/spread› and affecting vision like a ‹eq-misc/smokestick›. All creatures that begin their turns inside the area become ‹misc/sickened› as long as they remain in the smoke and for 1d4+1 rounds thereafter (Fortitude negates)."
 		]
 	},
 	"spark_of_innovation": {
@@ -3097,7 +3159,9 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Sp)\" l=5 burn=0 prereq=\"‹kinetic/metal blast›\" source=\"Heroes of Golarion/26\"}",
 			"",
-			"You shape metal into a clockwork creature, as ‹kinetic/spark of life› except you summon a clockwork ‹monster/earth elemental›. The elemental's type is changed to construct (clockwork) and it gains construct traits and ‹subtype/clockwork« traits› instead of elemental traits. The creature loses any spell-like abilities or supernatural abilities it normally has. If you have the ‹kinetic/greater elemental whispers› utility wild talent, you can take a ‹monster/clockwork familiar› as an improved familiar with that ability instead of an earth elemental."
+			"@I-power You shape metal into a clockwork creature, as ‹kinetic/spark of life› except you summon a clockwork ‹monster/earth elemental›. The elemental's type is changed to construct (clockwork) and it gains ‹type/construct› traits and ‹subtype/clockwork« traits› instead of elemental traits. The creature loses any spell-like abilities or supernatural abilities it normally has.",
+			"",
+			"If you have the ‹kinetic/greater elemental whispers› utility wild talent, you can take a ‹monster/clockwork familiar› as an improved familiar with that ability instead of an earth elemental."
 		]
 	},
 	"spark_of_life": {
@@ -3109,7 +3173,17 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Sp)\" l=5 burn=0 source=\"Occult Adventures/27\"}",
 			"",
-			"You breathe a semblance of life into elemental matter, which takes the form of a Medium elemental of any of your elements as if summoned by ‹spell/summon monster IV› with a caster level equal to your kineticist level, except the elemental gains the mindless trait. Each round on your turn, you must take a move action to guide the elemental or it collapses back into its component element. By accepting 1 point of burn, you can pour a bit of your own sentience into the elemental, removing the mindless quality and allowing it to persist for 1 round per kineticist level without requiring any further actions. At 12th level, you can choose to form a Large elemental as if by ‹spell/summon monster V›; at 14th level, you can choose to form a Huge elemental as if by ‹spell/summon monster VI›; at 16th level, you can choose to form a greater elemental as if by ‹spell/summon monster VII›; and at 18th level, you can choose to form an elder elemental as if by ‹spell/summon monster VIII›."
+			"@I-magic You breathe a semblance of life into elemental matter, which takes the form of a Medium elemental of any of your elements as if summoned by ‹spell/summon monster IV› with a caster level equal to your kineticist level, except the elemental gains the mindless trait.",
+			"",
+			"Each round on your turn, you must take a @HL[move action] to guide the elemental or it collapses back into its component element. By accepting 1 point of burn, you can pour a bit of your own sentience into the elemental, removing the mindless quality and allowing it to persist for 1 round per kineticist level without requiring any further actions.",
+			"",
+			"At 12th level, you can choose to form a Large elemental as if by ‹spell/summon monster V›.",
+			"",
+			"At 14th level, you can choose to form a Huge elemental as if by ‹spell/summon monster VI›",
+			"",
+			"At 16th level, you can choose to form a greater elemental as if by ‹spell/summon monster VII›",
+			"",
+			"At 18th level, you can choose to form an elder elemental as if by ‹spell/summon monster VIII›."
 		]
 	},
 	"spell_deflection": {
@@ -3121,7 +3195,9 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Sp)\" l=7 burn=0 source=\"Occult Adventures/27\"}",
 			"",
-			"You weave strands of aether around yourself in order to deflect targeted magic back at the caster. Until the beginning of your next turn, every time you are targeted by a spell that could be affected by ‹spell/spell turning›, roll 1d10-1 and determine the effects of the spell as if you had spell turning with that many spell levels remaining. You can accept 1 point of burn to increase the duration to 10 minutes per kineticist level you possess, but in that case, it deflects only 10 spell levels in total (still rolled 1d10-1 at a time) before ending early."
+			"@I-def You weave strands of aether around yourself in order to deflect targeted magic back at the caster. Until the beginning of your next turn, every time you are targeted by a spell that could be affected by ‹spell/spell turning›, roll 1d10-1 and determine the effects of the spell as if you had *spell turning* with that many spell levels remaining.",
+			"",
+			"You can accept 1 point of burn to increase the duration to 10 minutes per kineticist level you possess, but in that case, it deflects only 10 spell levels in total (still rolled 1d10-1 at a time) before ending early."
 		]
 	},
 	"splash_of_the_styx": {
@@ -3133,19 +3209,7 @@
 			"",
 			"::kinetics{el=water type=\"utility (Sp)\" l=5 burn=1 prereq=\"‹race/tiefling› or ‹feat/Planar Infusion› (Abaddon, Abyss, or Hell)\" save=\"Will negates\" sr=yes source=\"Plane-Hopper's Handbook/8\"}",
 			"",
-			"You can spend 1 full round to draw upon the waters of the River Styx to erase memories of a target. This functions as ‹spell/modify memory›, except that it can only eliminate memories."
-		]
-	},
-	"spying_touchsight": {
-		"name": "Spying Touchsight",
-		"sources": [ "Ultimate Intrigue" ],
-		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
-		"description": [
-			"## Spying Touchsight (Sp)",
-			"",
-			"::kinetics{el=aether type=\"utility (Sp)\" l=4 burn=0 prereq=\"‹kinetic/touchsight›\" source=\"Ultimate Intrigue/66\"}",
-			"",
-			"You attach a sticky strand of invisible aether to a target and then project your senses along the strand, allowing you to spy on that target. Attaching the strand of aether requires a ranged touch attack, but if you activate this ability while your target is under the effect of your touchsight, you can use the strands from your touchsight instead. Once you have activated spying touchsight, you can concentrate on it to spy on your target with any of your five senses (though your own body no longer benefits from the senses you project); the strand lasts as long you concentrate, though you can switch which senses you are projecting each round. A creature using ‹spell/see invisibility› or a similar effect can notice the trailing strand of aether and follow it back to you. A creature can break your spying touchsight by dispelling it, but otherwise, the only way to break the strand is if one of you uses a teleportation effect, moves more than 1 mile from the other, or is completely blocked from the other in all directions (such as if one of you were inside a ‹spell/telekinetic sphere›)."
+			"@I-magic You can spend 1 full round to draw upon the waters of the River Styx to erase memories of a target. This functions as ‹spell/modify memory›, except that it can only eliminate memories."
 		]
 	},
 	"stone_sculptor": {
@@ -3157,7 +3221,7 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Sp)\" l=5 burn=0 source=\"Occult Adventures/27\"}",
 			"",
-			"You can sculpt earth into any shape, as the spell ‹spell/stone shape›."
+			"@I-magic You can sculpt earth into any shape, as the spell ‹spell/stone shape›."
 		]
 	},
 	"suffocate": {
@@ -3169,7 +3233,9 @@
 			"",
 			"::kinetics{el=\"aether, air, void, water\" type=\"utility (Sp)\" l=6 burn=0 save=\"Fortitude partial\" sr=yes source=\"Occult Adventures/27\"}",
 			"",
-			"You use aether to choke a creature within 120 feet, air to create an area of unbreathable air around it, or water to fill its throat with water. If your target needs to breathe, it must hold its breath for as long as you concentrate. On each of its turns, it can attempt a Fortitude save in order to speak, but it can breathe only if your concentration breaks, you leave the 120-foot range, or you break line of effect. You can accept 1 point of burn when activating this wild talent in order to expel the air from your target's lungs. If you do so and the target fails its first Fortitude save, it becomes ‹misc/disabled› and is reduced to 0 hit points, and on its second failed Fortitude save, it falls unconscious and is reduced to -1 hit points."
+			"@I-magic-lower You use aether to choke a creature within 120 feet, air to create an area of unbreathable air around it, or water to fill its throat with water. If your target needs to breathe, it must hold its breath for as long as you concentrate. On each of its turns, it can attempt a Fortitude save in order to speak, but it can breathe only if your concentration breaks, you leave the 120-foot range, or you break line of effect.",
+			"",
+			"You can accept 1 point of burn when activating this wild talent in order to expel the air from your target's lungs. If you do so and the target fails its first Fortitude save, it becomes ‹misc/disabled› and is reduced to 0 hit points, and on its second failed Fortitude save, it falls unconscious and is reduced to -1 hit points."
 		]
 	},
 	"telekinetic_deflection": {
@@ -3181,7 +3247,7 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Sp)\" l=8 burn=0 source=\"Occult Adventures/27\"}",
 			"",
-			"You can deflect your foes' attacks, as the spell ‹spell/deflection› with a duration of 1 round. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess."
+			"@I-def You can deflect your foes' attacks, as the spell ‹spell/deflection› with a duration of 1 round. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess."
 		]
 	},
 	"telekinetic_finesse": {
@@ -3193,7 +3259,7 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Sp)\" l=1 burn=0 source=\"Occult Adventures/28\"}",
 			"",
-			"You can perform any sort of fine manipulation you choose within close range, including attempting Sleight of Hand and Disable Device checks."
+			"@I-power You can perform any sort of fine manipulation you choose within close range, including attempting ‹skill/Sleight of Hand› and ‹skill/Disable Device› checks."
 		]
 	},
 	"telekinetic_globe": {
@@ -3205,7 +3271,7 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Sp)\" l=8 burn=0 prereq=\"‹kinetic/force barrier›, ‹kinetic/force ward›\" source=\"Occult Adventures/28\"}",
 			"",
-			"You can create a globe of force, as the ‹spell/telekinetic sphere› spell, that lasts as long as you concentrate as a standard action, and you can move the globe as a move action. You can accept 1 point of burn to increase the duration to 1 minute per level and eliminate the need to concentrate to maintain the globe."
+			"@I-magic You can create a globe of force, as the ‹spell/telekinetic sphere› spell, that lasts as long as you concentrate as a @HL[standard action], and you can move the globe as a @HL[move action]. You can accept 1 point of burn to increase the duration to 1 minute per level and eliminate the need to concentrate to maintain the globe."
 		]
 	},
 	"telekinetic_haul": {
@@ -3217,7 +3283,7 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Sp)\" l=2 burn=0 prereq=\"‹kinetic/basic telekinesis›\" source=\"Occult Adventures/28\"}",
 			"",
-			"When using basic telekinesis, you can move an object that weighs up to 100 pounds per kineticist level you possess. When using your ‹kinetic/telekinetic blast›, you can throw an object weighing up to 100 pounds per kineticist level you possess, but this doesn't increase the damage. If you accept 1 point of burn, the maximum weight increases to 1,000 pounds per kineticist level you possess and the duration increases to 1 minute per kineticist level you possess."
+			"@I-boost When using *basic telekinesis,* you can move an object that weighs up to 100 pounds per kineticist level you possess. When using your ‹kinetic/telekinetic blast›, you can throw an object weighing up to 100 pounds per kineticist level you possess, but this doesn't increase the damage. If you accept 1 point of burn, the maximum weight increases to 1,000 pounds per kineticist level you possess and the duration increases to 1 minute per kineticist level you possess."
 		]
 	},
 	"telekinetic_invisibility": {
@@ -3229,7 +3295,7 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Sp)\" l=3 burn=0 source=\"Occult Adventures/28\"}",
 			"",
-			"You weave strands of aether, bending light and dampening sound; this works as ‹spell/invisibility› except that the aetheric bending is easier to notice than normal invisibility, so your bonus on Stealth checks is halved (+10 while moving and +20 while perfectly still). However, the dampened sound allows you to avoid automatic detection via sound-based ‹umr/blindsense› and ‹umr/blindsight›, but you do not receive the bonus on Stealth checks from this wild talent against a creature with such abilities."
+			"@I-def You weave strands of aether, bending light and dampening sound; this works as ‹spell/invisibility› except that the aetheric bending is easier to notice than normal invisibility, so your bonus on ‹skill/Stealth› checks is halved (+10 while moving and +20 while perfectly still). However, the dampened sound allows you to avoid automatic detection via sound-based ‹umr/blindsense› and ‹umr/blindsight›, but you do not receive the bonus on Stealth checks from this wild talent against a creature with such abilities."
 		]
 	},
 	"telekinetic_maneuvers": {
@@ -3241,7 +3307,9 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Sp)\" l=4 burn=0 save=none sr=yes source=\"Occult Adventures/28\"}",
 			"",
-			"You can perform combat maneuvers as ‹spell/telekinesis›, but you use your Constitution modifier to determine your Combat Maneuver Bonus rather than your Intelligence or Charisma modifier. If you possess the ‹kinetic/telekinetic finesse› wild talent, add ‹rule/dirty trick› and ‹rule/steal› combat maneuvers to the list of combat maneuvers you can perform; when performing these maneuvers, determine your Combat Maneuver Bonus using your Dexterity modifier instead of your Constitution modifier."
+			"@I-ranged You can perform combat maneuvers as ‹spell/telekinesis› (‹rule/bull rush›, ‹rule/disarm›, ‹rule/grapple› [including pin], and ‹rule/trip›), but you use your Constitution modifier to determine your Combat Maneuver Bonus rather than your Intelligence or Charisma modifier.",
+			"",
+			"If you possess the ‹kinetic/telekinetic finesse› wild talent, add ‹rule/dirty trick› and ‹rule/steal› combat maneuvers to the list of combat maneuvers you can perform; when performing these maneuvers, determine your Combat Maneuver Bonus using your Dexterity modifier instead of your Constitution modifier."
 		]
 	},
 	"tengu_blade_lore": {
@@ -3253,7 +3321,7 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Su)\" l=1 burn=0 prereq=\"‹race/tengu›\" source=\"Heroes of Golarion/26\"}",
 			"",
-			"Whenever you use ‹kinetic/kinetic blade› or an infusion that lists kinetic blade as a prerequisite, the weapon you create counts as having one of the following ‹rule/weapon special features› of your choice: blocking, brace, deadly, disarm, distracting, sunder, or trip."
+			"@I-boost Whenever you use ‹kinetic/kinetic blade› or an infusion that lists kinetic blade as a prerequisite, the weapon you create counts as having one of the following ‹rule/weapon special features› of your choice: ‹misc/blocking›, ‹misc/brace›, ‹misc/deadly›, ‹misc/disarm›, ‹misc/distracting›, ‹misc/sunder›, or ‹misc/trip›."
 		]
 	},
 	"thorn_flesh": {
@@ -3268,7 +3336,7 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Sp)\" l=3 burn=1 prereq=\"‹kinetic/flesh of wood›\" source=\"Ultimate Wilderness/60~;Occult Origins/9\"}",
 			"",
-			"You cover your body in barbed thorns that injure foes who strike you. This functions as the ‹kinetic/jagged flesh› wild talent."
+			"@I-def You cover your body in barbed thorns that injure foes who strike you. This functions as the ‹kinetic/jagged flesh› wild talent."
 		]
 	},
 	"tidal_wave": {
@@ -3280,7 +3348,7 @@
 			"",
 			"::kinetics{el=water type=\"utility (Sp)\" l=9 burn=1 source=\"Occult Adventures/28\"}",
 			"",
-			"You call forth a powerful tidal wave, as ‹spell/tsunami›."
+			"@I-magic You call forth a powerful tidal wave, as ‹spell/tsunami›."
 		]
 	},
 	"touchsight": {
@@ -3292,7 +3360,9 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Su)\" l=3 burn=0 source=\"Occult Adventures/28\"}",
 			"",
-			"You attach strands of aether to everything your telekinesis touches. Any time you damage a creature using your ‹kinetic/telekinetic blast›, as long as that creature doesn't use a teleportation effect, you can see that creature at any distance as if using ‹umr/blindsight› until the end of your next turn. Immediately after damaging a creature, you can accept 1 point of burn to strengthen the strands of aether attached to that creature, increasing the duration of the touchsight on that creature to 1 round per kineticist level."
+			"@I-power You attach strands of aether to everything your telekinesis touches. Any time you damage a creature using your ‹kinetic/telekinetic blast›, as long as that creature doesn't use a teleportation effect, you can see that creature at any distance as if using ‹umr/blindsight› until the end of your next turn.",
+			"",
+			"Immediately after damaging a creature, you can accept 1 point of burn to strengthen the strands of aether attached to that creature, increasing the duration of the *touchsight* on that creature to 1 round per kineticist level."
 		]
 	},
 	"reactive_touchsight": {
@@ -3304,10 +3374,26 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Su)\" l=5 burn=0 prereq=\"‹kinetic/touchsight›\" source=\"Occult Adventures/28\"}",
 			"",
-			"Your strands of aether surround you, making it virtually impossible for a violent motion to catch you off guard, so long as the motion originates within their range. You are never denied your Dexterity bonus to AC against attacks from within 30 feet because of being ‹rule/flat-footed› or because your assailant is unseen or invisible. You always succeed at any Perception check to act on the surprise round against opponents within 30 feet."
+			"@I-def Your strands of aether surround you, making it virtually impossible for a violent motion to catch you off guard, so long as the motion originates within their range. You are never denied your Dexterity bonus to AC against attacks from within 30 feet because of being ‹rule/flat-footed› or because your assailant is unseen or invisible. You always succeed at any ‹skill/Perception› check to act on the surprise round against opponents within 30 feet."
 		]
 	},
 	"touchsight_reactive": { "redirect": "reactive_touchsight" },
+	"spying_touchsight": {
+		"name": "Spying Touchsight",
+		"sources": [ "Ultimate Intrigue" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"description": [
+			"## Spying Touchsight (Sp)",
+			"",
+			"::kinetics{el=aether type=\"utility (Sp)\" l=4 burn=0 prereq=\"‹kinetic/touchsight›\" source=\"Ultimate Intrigue/66\"}",
+			"",
+			"@I-zap-magic You attach a sticky strand of invisible aether to a target and then project your senses along the strand, allowing you to spy on that target.",
+			"",
+			"Attaching the strand of aether requires a ranged touch attack, but if you activate this ability while your target is under the effect of your *touchsight,* you can use the strands from your *touchsight* instead. Once you have activated *spying touchsight,* you can concentrate on it to spy on your target with any of your five senses (though your own body no longer benefits from the senses you project); the strand lasts as long you concentrate, though you can switch which senses you are projecting each round.",
+			"",
+			"A creature using ‹spell/see invisibility› or a similar effect can notice the trailing strand of aether and follow it back to you. A creature can break your *spying touchsight* by dispelling it, but otherwise, the only way to break the strand is if one of you uses a teleportation effect, moves more than 1 mile from the other, or is completely blocked from the other in all directions (such as if one of you were inside a ‹spell/telekinetic sphere›)."
+		]
+	},
 	"trail_of_flames": {
 		"name": "Trail of Flames",
 		"sources": [ "Occult Adventures" ],
@@ -3317,7 +3403,7 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=5 burn=0 save=none sr=yes source=\"Occult Adventures/28\"}",
 			"",
-			"When you take the withdraw or run action, you can leave a ‹spell/wall of fire› in all squares you exit that lasts for 1 round."
+			"@I-magic When you take the ‹rule/withdraw› or ‹rule/run› action, you can leave a ‹spell/wall of fire› in all squares you exit that lasts for 1 round."
 		]
 	},
 	"tree_step": {
@@ -3332,7 +3418,9 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Sp)\" l=7 burn=1 prereq=\"‹kinetic/greater woodland step›, ‹kinetic/woodland step›\" source=\"Ultimate Wilderness/61~;Psychic Anthology/23\"}",
 			"",
-			"You can enter a tree and magically transport to a different tree of the same type within range, as per ‹spell/tree stride›. Each time you activate this ability, it lasts until you have taken a number of tree steps equal to your kineticist level, your burn is removed, or you accept burn again to refresh it. Each time your burn is removed, you can automatically activate this ability once and ignore the burn cost. You can accept 1 additional point of burn while this ability is active to use all remaining tree steps at once, adding up the total distance traveled and instantly reaching your destination tree even if there wouldn't have been enough trees along the way to make the journey one at a time."
+			"@I-magic You can enter a tree and magically transport to a different tree of the same type within range, as per ‹spell/tree stride›. Each time you activate this ability, it lasts until you have taken a number of *tree steps* equal to your kineticist level, your burn is removed, or you accept burn again to refresh it. Each time your burn is removed, you can automatically activate this ability once and ignore the burn cost.",
+			"",
+			"You can accept 1 additional point of burn while this ability is active to use all remaining *tree steps* at once, adding up the total distance traveled and instantly reaching your destination tree even if there wouldn't have been enough trees along the way to make the journey one at a time."
 		]
 	},
 	"tremorsense": {
@@ -3344,7 +3432,9 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Su)\" l=3 burn=0 source=\"Occult Adventures/28\"}",
 			"",
-			"You can take a move action to gain ‹umr/tremorsense› 30 feet for 1 round on any earth or stone surface that you touch. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess. While benefiting from this tremorsense, your ‹kinetic/earth blast«s› and composite blasts that include earth components don't suffer a miss chance from ‹rule/concealment› or total concealment against creatures you detect with your tremorsense."
+			"@I-power-boost You can take a @HL[move action] to gain ‹umr/tremorsense› 30 feet for 1 round on any earth or stone surface that you touch. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess.",
+			"",
+			"While benefiting from this tremorsense, your ‹kinetic/earth blast«s› and composite blasts that include earth components don't suffer a miss chance from ‹rule/concealment› or total concealment against creatures you detect with your tremorsense."
 		]
 	},
 	"greater_tremorsense": {
@@ -3356,7 +3446,7 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Su)\" l=5 burn=0 prereq=\"‹kinetic/tremorsense›\" source=\"Occult Adventures/28\"}",
 			"",
-			"You can spend 10 minutes to extend your tremorsense outward while in a natural underground setting, letting you learn three facts as if using ‹spell/commune with nature›, except your tremorsense can't tell if a creature is a woodland creature or a powerful unnatural creature."
+			"@I-magic You can spend 10 minutes to extend your *tremorsense* outward while in a natural underground setting, letting you learn three facts as if using ‹spell/commune with nature›, except your *tremorsense* can't tell if a creature is a woodland creature or a powerful unnatural creature."
 		]
 	},
 	"tremorsense_greater": { "redirect": "greater_tremorsense" },
@@ -3369,7 +3459,7 @@
 			"",
 			"::kinetics{el=void type=\"utility (Sp)\" l=3 burn=0 save=\"Will negates\" sr=yes source=\"Psychic Anthology/23\"}",
 			"",
-			"This functions as ‹kinetic/elemental grip›, except it works on a single undead creature as per ‹spell/halt undead›. Unintelligent undead must succeed at a saving throw with a -4 penalty to negate the effects."
+			"@I-magic This functions as ‹kinetic/elemental grip›, except it works on a single undead creature as per ‹spell/halt undead›. Unintelligent undead must succeed at a saving throw with a -4 penalty to negate the effects."
 		]
 	},
 	"veil_of_mists": {
@@ -3381,7 +3471,7 @@
 			"",
 			"::kinetics{el=water type=\"utility (Su)\" l=2 burn=0 source=\"Occult Adventures/28\"}",
 			"",
-			"You create a misty veil over your features, disguising yourself as ‹spell/disguise self› for a number of minutes equal to your Constitution modifier. If you accept 1 point of burn, until the next time your burn is removed, each use of this wild talent lasts until you dismiss it."
+			"@I-de You create a misty veil over your features, disguising yourself as ‹spell/disguise self› for a number of minutes equal to your Constitution modifier. If you accept 1 point of burn, until the next time your burn is removed, each use of this wild talent lasts until you dismiss it."
 		]
 	},
 	"venom_speaker": {
@@ -3393,7 +3483,13 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Su)\" l=1 burn=0 source=\"Heroes of Golarion/26\"}",
 			"",
-			"You gain the ‹class/investigator«'s› poison lore class feature, using your kineticist level as your investigator level, and can use your gather power ability even while holding a dose of poison in one of your hands or appendages as long as you could otherwise use that ability. If you are at least 6th level, you can learn the ‹class/alchemist«'s› swift poisoning class feature or one of the following alchemist discoveries in place of a utility wild talent, using your kineticist level as your alchemist level: ‹discovery/concentrate poison›, ‹discovery/poison conversion›, or ‹discovery/sticky poison›."
+			"@I-power You gain the ‹class/investigator«'s› *poison lore* class feature, using your kineticist level as your investigator level, and can use your *gather power* ability even while holding a dose of poison in one of your hands or appendages as long as you could otherwise use that ability.",
+			"",
+			"If you are at least 6th level, you can learn the ‹class/alchemist«'s› *swift poisoning* class feature[^N] or one of the following alchemist discoveries in place of a utility wild talent, using your kineticist level as your alchemist level: ‹discovery/concentrate poison›, ‹discovery/poison conversion›, or ‹discovery/sticky poison›.",
+			"",
+			"::ab[Poison Lore (Ex)]{flavor=\"Text from the investigator class ability.\" icon=def-boost order=pa passive=\"You cannot accidentally poison yourself when applying poison to a weapon.\" ability=\"If you spend 1 minute physically examining the poison, you can attempt a ‹skill/Knowledge (nature)› check to identify any natural poison or ‹skill/Knowledge (arcana)› check to identify any magical poison (DC = the poison's saving throw DC). Lastly, once a poison is identified, you can spend 1 minute and attempt a ‹skill/Craft› (alchemy) check (DC = the poison's saving throw DC) to neutralize 1 dose of the poison. Success renders the dose harmless. You have no chance of accidentally poisoning yourself when examining or attempting to neutralize a poison.\"}",
+			"",
+			"[^N]: The investigator has no \"Swift Poisoner\" ability, but *does* have a \"Swift Alchemy\" ability that allows the investigator to apply poison to a weapon as a @HL[move action]. Consult your GM."
 		]
 	},
 	"voice_of_the_wind": {
@@ -3405,7 +3501,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Sp)\" l=1 burn=0 save=none sr=yes source=\"Occult Adventures/29\"}",
 			"",
-			"When you whisper, you can have the wind carry your voice to the ears of anyone you can see within 120 feet, as if they were one of the targets of a ‹spell/message› spell you cast. Alternatively, you can send your voice to a distant location as if casting ‹spell/whispering wind›."
+			"@I-magic When you whisper, you can have the wind carry your voice to the ears of anyone you can see within 120 feet, as if they were one of the targets of a ‹spell/message› spell you cast. Alternatively, you can send your voice to a distant location as if casting ‹spell/whispering wind›."
 		]
 	},
 	"greater_voice_of_the_wind": {
@@ -3417,7 +3513,9 @@
 			"",
 			"::kinetics{el=air type=\"utility (Sp)\" l=2 burn=0 prereq=\"‹kinetic/voice of the wind›\" source=\"Ultimate Intrigue/66\"}",
 			"",
-			"Your voice of the wind ability gains both power and finesse. You can use voice of the wind to create unusual sounds, as ‹spell/ghost sound›, to throw your voice, as ‹spell/ventriloquism›, and even to alter your voice, as ‹spell/vocal alteration›. You can send messages at a much greater distance than before and at a faster rate. When using voice of the wind's whispering wind effect, you can choose to have the wind rise high into the sky, where it can gust at 50 miles per hour before descending to deliver the message. While the gust is still small, abnormal wind that fast is noticeable, unlike the normal gentle zephyr from whispering wind. If you choose to use the faster gust, you can deliver a message as far as 50 miles per kineticist level, instead of 1 mile per kineticist level."
+			"@I-boost Your *voice of the wind* ability gains both power and finesse. You can use *voice of the wind* to create unusual sounds, as ‹spell/ghost sound›, to throw your voice, as ‹spell/ventriloquism›, and even to alter your voice, as ‹spell/vocal alteration›.",
+			"",
+			"You can send messages at a much greater distance than before and at a faster rate. When using *voice of the wind's* whispering wind effect, you can choose to have the wind rise high into the sky, where it can gust at 50 miles per hour before descending to deliver the message. While the gust is still small, an abnormal wind that fast is noticeable, unlike the normal gentle zephyr from whispering wind. If you choose to use the faster gust, you can deliver a message as far as 50 miles per kineticist level, instead of 1 mile per kineticist level."
 		]
 	},
 	"voice_of_the_wind_greater": { "redirect": "greater_voice_of_the_wind" },
@@ -3430,7 +3528,7 @@
 			"",
 			"::kinetics{el=void type=\"utility (Sp)\" l=1 burn=1 source=\"Occult Origins/7\"}",
 			"",
-			"This functions as ‹kinetic/kinetic healer›, except it heals undead (and others healed by negative energy)."
+			"@I-aid This functions as ‹kinetic/kinetic healer›, except it heals undead (and others healed by negative energy)."
 		]
 	},
 	"warp_wood": {
@@ -3445,7 +3543,7 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Sp)\" l=3 burn=0 source=\"Ultimate Wilderness/61~;Occult Origins/9\"}",
 			"",
-			"You can bend and twist plants and wooden objects. This functions as ‹spell/warp wood›."
+			"@I-magic You can bend and twist plants and wooden objects. This functions as ‹spell/warp wood›."
 		]
 	},
 	"water_alteration": {
@@ -3457,11 +3555,11 @@
 			"",
 			"::kinetics{el=water type=\"utility (Sp)\" l=1 burn=0 source=\"Occult Realms/9\"}",
 			"",
-			"You can turn fresh water into seawater, and vice versa. This can affect a volume of water equal to 2 gallons per kineticist level, allowing sea creatures to survive in water that was fresh and freshwater creatures to survive in water that was briny. Additionally, when you alter water's salinity with this talent, you can adjust the water's temperature so that a creature can survive in it more easily (or simply be more comfortable). Water altered in this way must be confined within an appropriately sized container; attempts to alter a larger quantity of water fail.",
+			"@I-magic You can turn fresh water into seawater, and vice versa. This can affect a volume of water equal to 2 gallons per kineticist level, allowing sea creatures to survive in water that was fresh and freshwater creatures to survive in water that was briny. Additionally, when you alter water's salinity with this talent, you can adjust the water's temperature so that a creature can survive in it more easily (or simply be more comfortable). Water altered in this way must be confined within an appropriately sized container; attempts to alter a larger quantity of water fail.",
 			"",
 			"### Attunement",
 			"",
-			"A hydrokineticist must demonstrate (or fake) the favor of Danglosa, the town's mysterious anglerfish god-ruler. She must then follow the swirling currents of Outsea, succeeding at four consecutive DC 20 Swim checks without taking 10. If she succeeds, she can learn the water alteration wild talent. If she fails, she takes 5d6 points of bludgeoning damage."
+			"A hydrokineticist must demonstrate (or fake) the favor of Danglosa, the town's mysterious anglerfish god-ruler. She must then follow the swirling currents of Outsea, succeeding at four consecutive DC 20 ‹skill/Swim› checks without taking 10. If she succeeds, she can learn the *water alteration* wild talent. If she fails, she takes 5d6 points of bludgeoning damage."
 		]
 	},
 	"water_manipulator": {
@@ -3473,7 +3571,9 @@
 			"",
 			"::kinetics{el=water type=\"utility (Sp)\" l=3 burn=0 prereq=\"‹kinetic/kinetic cover›\" save=\"none; see text\" sr=no source=\"Occult Adventures/29\"}",
 			"",
-			"You can manipulate massive quantities of water. As a standard action, you can raise or lower the level of water as if using ‹spell/control water›, or move an amount of water equal to 1/1,000th the amount controlled by that spell to a different location in range. The water remains where you placed it for as long as you remain motionless and take a standard action each round to concentrate on this effect. This wild talent causes a ‹spell/slow› effect on creatures made of water, just like control water (Will negates). When you cease concentrating, the water flows normally unless you accept 1 point of burn to extend the duration and hold the water in its current position for 10 minutes per kineticist level you possess."
+			"@I-magic You can manipulate massive quantities of water. As a @HL[standard action], you can raise or lower the level of water as if using ‹spell/control water›, or move an amount of water equal to 1/1,000th the amount controlled by that spell to a different location in range. The water remains where you placed it for as long as you remain motionless and take a standard action each round to concentrate on this effect.",
+			"",
+			"This wild talent causes a ‹spell/slow› effect on creatures made of water, just like *control water* (Will negates). When you cease concentrating, the water flows normally unless you accept 1 point of burn to extend the duration and hold the water in its current position for 10 minutes per kineticist level you possess."
 		]
 	},
 	"waterdancer": {
@@ -3485,7 +3585,7 @@
 			"",
 			"::kinetics{el=water type=\"utility (Sp)\" l=3 burn=0 source=\"Occult Adventures/29\"}",
 			"",
-			"You call forth a current of water to increase your speed and allow you to swim with ease, as if under the effects of ‹spell/slipstream› with unlimited duration."
+			"@I-boost You call forth a current of water to increase your speed and allow you to swim with ease, as if under the effects of ‹spell/slipstream› with unlimited duration."
 		]
 	},
 	"greater_waterdancer": {
@@ -3497,7 +3597,7 @@
 			"",
 			"::kinetics{el=water type=\"utility (Su)\" l=5 burn=0 prereq=\"‹kinetic/waterdancer›\" source=\"Occult Adventures/29\"}",
 			"",
-			"You can move across water (as ‹spell/water walk›) at will and breathe underwater, and your slashing and bludgeoning attacks don't take the usual penalties when you're underwater."
+			"@I-power-boost You can move across water (as ‹spell/water walk›) at will and breathe underwater, and your slashing and bludgeoning attacks don't take the usual penalties when you're underwater."
 		]
 	},
 	"waterdancer_greater": { "redirect": "greater_waterdancer" },
@@ -3510,7 +3610,7 @@
 			"",
 			"::kinetics{el=water type=\"utility (Su)\" l=4 burn=0 source=\"Occult Adventures/29\"}",
 			"",
-			"You gain ‹umr/tremorsense› with a range of 30 feet to detect anything in contact with the same body of water as you. While you are benefiting from this tremorsense, your ‹kinetic/water blast«s› and composite blasts that include water don't suffer a miss chance from ‹rule/concealment› or total concealment against creatures you detect with this tremorsense."
+			"@I-power-boost You gain ‹umr/tremorsense› with a range of 30 feet to detect anything in contact with the same body of water as you. While you are benefiting from this tremorsense, your ‹kinetic/water blast«s› and composite blasts that include water don't suffer a miss chance from ‹rule/concealment› or total concealment against creatures you detect with this tremorsense."
 		]
 	},
 	"greater_watersense": {
@@ -3522,7 +3622,15 @@
 			"",
 			"::kinetics{el=water type=\"utility (Su)\" l=5 burn=0 prereq=\"‹kinetic/watersense›\" source=\"Ultimate Intrigue/66\"}",
 			"",
-			"You project your watersense outward through the tides and water around you, allowing you to spy on others at a distance. You can take 10 minutes to project your senses, choosing a location within 480 feet that is connected to your current location via the same continuous body of water, or you can take 1 hour to attempt to spy on a specific creature within 1 mile per kineticist level that is visible from a location connected to your current location via the same continuous body of water. In the latter case, the creature receives a Will save as per ‹spell/scrying› (including bonuses and penalties based on connection and knowledge); a target that saves is immune to your greater watersense for 24 hours. In either case, an extremely thin funnel of water, lasting for 1 minute per kineticist level, carries light and sound to your location, where your target area or location appears in the water next to you and you can view it as if through a scrying sensor, allowing you to both see and hear the area immediately surrounding the other end of the funnel. In the case of a distance greater than 480 feet, the sound comes 1 round later than its corresponding visual information for every mile away you are (for instance, if you were 5 miles away, you would see your target start talking 5 rounds before you heard what it said). When you are tracking a creature, the funnel moves as best it can through the water to follow that creature, up to 150 feet per round, but the target can escape by simply moving away from the water. If you also possess the ‹kinetic/voice of the wind› wild talent, you can use its message effect to send your voice through the funnel with a delay of 1 round per mile. This wild talent is a divination and scrying effect."
+			"@I-magic You project your *watersense* outward through the tides and water around you, allowing you to spy on others at a distance.",
+			"",
+			"You can take 10 minutes to project your senses, choosing a location within 480 feet that is connected to your current location via the same continuous body of water, or you can take 1 hour to attempt to spy on a specific creature within 1 mile per kineticist level that is visible from a location connected to your current location via the same continuous body of water. In the latter case, the creature receives a Will save as per ‹spell/scrying› (including bonuses and penalties based on connection and knowledge); a target that saves is immune to your *greater watersense* for 24 hours.",
+			"",
+			"In either case, an extremely thin funnel of water, lasting for 1 minute per kineticist level, carries light and sound to your location, where your target area or location appears in the water next to you and you can view it as if through a scrying sensor, allowing you to both see and hear the area immediately surrounding the other end of the funnel. In the case of a distance greater than 480 feet, the sound comes 1 round later than its corresponding visual information for every mile away you are (for instance, if you were 5 miles away, you would see your target start talking 5 rounds before you heard what it said).",
+			"",
+			"When you are tracking a creature, the funnel moves as best it can through the water to follow that creature, up to 150 feet per round, but the target can escape by simply moving away from the water. If you also possess the ‹kinetic/voice of the wind› wild talent, you can use its message effect to send your voice through the funnel with a delay of 1 round per mile.",
+			"",
+			"This wild talent is a divination and scrying effect."
 		]
 	},
 	"watersense_greater": { "redirect": "greater_watersense" },
@@ -3535,7 +3643,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Sp)\" l=8 burn=0 source=\"Occult Adventures/29\"}",
 			"",
-			"By focusing on your connection to air and seeding the air around you for 10 minutes, you can create powerful weather effects, as ‹spell/control weather›. You can create tornadoes or hurricane-force winds, as appropriate for the season. If you have access to the fire element, you can create hot weather, a heat wave, a thaw, or an early spring. If you have access to the water element, you can create all other types of weather listed in control weather."
+			"@I-magic By focusing on your connection to air and seeding the air around you for 10 minutes, you can create powerful weather effects, as ‹spell/control weather›. You can create tornadoes or hurricane-force winds, as appropriate for the season. If you have access to the fire element, you can create hot weather, a heat wave, a thaw, or an early spring. If you have access to the water element, you can create all other types of weather listed in *control weather.*"
 		]
 	},
 	"wild_growth": {
@@ -3550,7 +3658,7 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Sp)\" l=5 burn=0 source=\"Ultimate Wilderness/61~;Occult Origins/9\"}",
 			"",
-			"You can charge plants with life energy, hindering your enemies or aiding local farmers. This functions as ‹spell/plant growth›."
+			"@I-magic You can charge plants with life energy, hindering your enemies or aiding local farmers. This functions as ‹spell/plant growth›."
 		]
 	},
 	"wind_manipulator": {
@@ -3562,7 +3670,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Sp)\" l=6 burn=0 prereq=\"‹kinetic/engulfing winds›\" source=\"Occult Adventures/29\"}",
 			"",
-			"You can call forth mighty winds in an enormous area. As a standard action, you can alter the wind around you as if using ‹spell/control winds›, but the change remains only for as long as you continue to take a standard action to concentrate on this effect. If you accept 1 point of burn, you can extend the duration to 10 minutes per kineticist level you possess without your needing to concentrate."
+			"@I-magic You can call forth mighty winds in an enormous area. As a @HL[standard action], you can alter the wind around you as if using ‹spell/control winds›, but the change remains only for as long as you continue to take a standard action to concentrate on this effect. If you accept 1 point of burn, you can extend the duration to 10 minutes per kineticist level you possess without your needing to concentrate."
 		]
 	},
 	"windsight": {
@@ -3574,7 +3682,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Su)\" l=3 burn=0 source=\"Occult Adventures/29\"}",
 			"",
-			"You can see through mist and fog (including fog cloud and similar magic). In areas of moderate or stronger wind, you can see and hear as if you were standing at both your own position and a position a number of feet in the wind's direction equal to the wind's speed in miles per hour, potentially allowing you to see around corners and other obstacles."
+			"@I-power You can see through mist and fog (including fog cloud and similar magic). In areas of moderate or stronger wind, you can see and hear as if you were standing at both your own position and a position a number of feet in the wind's direction equal to the wind's speed in miles per hour, potentially allowing you to see around corners and other obstacles."
 		]
 	},
 	"greater_windsight": {
@@ -3586,7 +3694,11 @@
 			"",
 			"::kinetics{el=air type=\"utility (Su)\" l=5 burn=0 prereq=\"‹kinetic/windsight›\" source=\"Occult Adventures/29\"}",
 			"",
-			"You can send a slight breeze in a path up to 480 feet long and then back to where you wait. This allows you to use your windsight wild talent to catch a quick glimpse and hear a tiny snippet from any location that could be reached by the wind traveling that distance (the wind's path can't pass through openings smaller than 1 inch in diameter). The breeze travels 100 feet per round, so what you see and hear is delayed by 1 round for every 50 feet of the path. If you spend at least 10 minutes to set up a steady flow of wind, you can concentrate for up to 1 minute per level to gain continuous visual and auditory information for as long as you concentrate, delayed by 1 round for every 100 feet the wind travels (since the steady flow of wind has to travel only one way). While there is no invisible sensor to detect with this ability, creatures along the path of the breeze may notice a light wind, though it may not seem out of the ordinary."
+			"@I-magic You can send a slight breeze in a path up to 480 feet long and then back to where you wait. This allows you to use your *windsight* wild talent to catch a quick glimpse and hear a tiny snippet from any location that could be reached by the wind traveling that distance (the wind's path can't pass through openings smaller than 1 inch in diameter).",
+			"",
+			"The breeze travels 100 feet per round, so what you see and hear is delayed by 1 round for every 50 feet of the path. If you spend at least 10 minutes to set up a steady flow of wind, you can concentrate for up to 1 minute per level to gain continuous visual and auditory information for as long as you concentrate, delayed by 1 round for every 100 feet the wind travels (since the steady flow of wind has to travel only one way).",
+			"",
+			"While there is no invisible sensor to detect with this ability, creatures along the path of the breeze may notice a light wind, though it may not seem out of the ordinary."
 		]
 	},
 	"windsight_greater": { "redirect": "greater_windsight" },
@@ -3599,7 +3711,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Sp)\" l=3 burn=0 prereq=\"‹kinetic/air cushion› or ‹kinetic/air's leap›\" source=\"Occult Adventures/29\"}",
 			"",
-			"The air bends to your will, allowing you to soar to great heights. You are constantly under the effects of ‹spell/fly›. If this effect is dispelled, you can call it forth again as a standard action."
+			"@I-power The air bends to your will, allowing you to soar to great heights. You are constantly under the effects of ‹spell/fly›. If this effect is dispelled, you can call it forth again as a @HL[standard action]."
 		]
 	},
 	"wood_healer": {
@@ -3614,7 +3726,9 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Sp)\" l=1 burn=1 prereq=\"‹kinetic/positive blast›\" save=none sr=yes source=\"Ultimate Wilderness/61~;Psychic Anthology/23\"}",
 			"",
-			"This functions as ‹kinetic/kinetic healer›, but you must base the amount of healing on your positive blast, not wood blast. A phytokineticist with positive blast as her first blast qualifies for the ‹arc-kineticist/kinetic chirurgeon› archetype and gains this utility talent instead of kinetic healer. This wild talent counts as kinetic healer for prerequisites for selecting other kineticist wild talents."
+			"@I-aid This functions as ‹kinetic/kinetic healer›, but you must base the amount of healing on your *positive blast,* not *wood blast.* A phytokineticist with *positive blast* as her first blast qualifies for the ‹arc-kineticist/kinetic chirurgeon› archetype and gains this utility talent instead of *kinetic healer.*",
+			"",
+			"This wild talent counts as *kinetic healer* for prerequisites for selecting other kineticist wild talents."
 		]
 	},
 	"wood_soldiers": {
@@ -3629,7 +3743,17 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Su)\" l=8 burn=1 source=\"Ultimate Wilderness/61~;Occult Origins/9\"}",
 			"",
-			"Your presence animates surrounding plant life and causes it to fight by your side. Each time you recover burn, you automatically use this ability once and ignore the burn cost. This functions as ‹spell/wooden phalanx›, except you always animate four golems, and the duration lasts until the next time you recover burn. If you have ‹kinetic/spring blast›, one of your golems gains a 30-foot fly speed (average maneuverability). If you have ‹kinetic/summer blast›, one of your golems is healed by fire damage, is vulnerable to cold, and deals 1d6 extra points of fire damage on slam attacks and when splintering. If you have ‹kinetic/autumn blast›, one of your golems gains a 20-foot burrow speed. If you have ‹kinetic/winter blast›, one of your golems deals 1d6 extra points of cold damage on its slam attacks and when splintering. Each of the above modifications must apply to a different golem."
+			"@I-magic Your presence animates surrounding plant life and causes it to fight by your side. Each time you recover burn, you automatically use this ability once and ignore the burn cost. This functions as ‹spell/wooden phalanx›, except you always animate four golems, and the duration lasts until the next time you recover burn.",
+			"",
+			"If you have ‹kinetic/spring blast›, one of your golems gains a 30-foot fly speed (average maneuverability).",
+			"",
+			"If you have ‹kinetic/summer blast›, one of your golems is healed by fire damage, is vulnerable to cold, and deals 1d6 extra points of fire damage on slam attacks and when splintering.",
+			"",
+			"If you have ‹kinetic/autumn blast›, one of your golems gains a 20-foot burrow speed.",
+			"",
+			"If you have ‹kinetic/winter blast›, one of your golems deals 1d6 extra points of cold damage on its slam attacks and when splintering.",
+			"",
+			"Each of the above modifications must apply to a different golem."
 		]
 	},
 	"woodland_step": {
@@ -3644,7 +3768,7 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Su)\" l=1 burn=0 source=\"Ultimate Wilderness/61~;Occult Origins/9\"}",
 			"",
-			"You gain ‹ability/woodland stride›, as per the druid ability. Due to your ability to manipulate plants, you can attempt a caster level check (DC = 11 + the spell's caster level) as a standard action to also ignore magically manipulated plants (but not creatures of the plant type)."
+			"@I-power You gain ‹ability/woodland stride›, as per the druid ability. Due to your ability to manipulate plants, you can attempt a caster level check (DC = 11 + the spell's caster level) as a @HL[standard action] to also ignore magically manipulated plants (but not creatures of the plant type)."
 		]
 	},
 	"greater_woodland_step": {
@@ -3659,7 +3783,7 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Sp)\" l=5 burn=0 prereq=\"‹kinetic/woodland step›\" source=\"Ultimate Wilderness/61~;Occult Origins/9\"}",
 			"",
-			"The plants actively assist you and nearby allies. You and all allies within 30 feet benefit as per ‹spell/forest friend›."
+			"@I-boost The plants actively assist you and nearby allies. You and all allies within 30 feet benefit as per ‹spell/forest friend›."
 		]
 	},
 	"woodland_step_greater": { "redirect": "greater_woodland_step" }
