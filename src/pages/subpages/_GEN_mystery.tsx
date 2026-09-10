@@ -2,10 +2,12 @@ import Link from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import {Block,Row,Cell} from '../../components/Block';
+import InnerLink from '../../components/InnerLink';
+import ByLevelPop from '../../components/ByLevelPop';
 const _not_found = {title: "Unknown", jsx: <><h2 id="mystery-not_found-error">Error</h2>
 <p>Unable to find the requested mystery.</p>
 </>};
-const _ancestor = {title: "Ancestor", jsx: <><h2 id="mystery-ancestor-ancestor">Ancestor</h2>
+const _ancestor = {hasJL:true,title: "Ancestor", jsx: <><div className="jumpList" id="mystery-ancestor-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-ancestor-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-ancestor-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-ancestor-ancestor">Ancestor</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 53</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/erastil">Erastil</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/pharasma">Pharasma</Link>.</Cell></Row></Block>
@@ -24,22 +26,97 @@ const _ancestor = {title: "Ancestor", jsx: <><h2 id="mystery-ancestor-ancestor">
 <Pair plain title="16th"><Link to="/spell/vision">Vision</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/astral_projection">Astral projection</Link></Pair>
 </Ability>
-<h3 id="mystery-ancestor-revelations">Revelations</h3>
+<h3 id="mystery-ancestor-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Ancestor mystery can choose from any of the following revelations.</p>
-<p><strong>Ancestral Weapon (Su):</strong> You can summon a simple or martial weapon from your family's history that is appropriate for your current size. You are considered proficient with this weapon. At 3rd level, the weapon is considered masterwork. At 7th level, 15th level, and 19th level, the weapon gains a cumulative +1 enhancement bonus. At 11th level, the weapon gains the <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon property. You can use this ability for a number of minutes per day equal to your oracle level. This duration does not need to be consecutive, but it must be used in 1-minute increments. The weapon disappears after 1 round if it leaves your grasp.</p>
-<p><strong>Blood of Heroes (Su):</strong> As a move action, you can call upon your ancestors to grant you extra bravery in battle. You gain a +1 morale bonus on attack rolls, damage rolls, and Will saves against fear for a number of rounds equal to your Charisma bonus. At 7th level, this bonus increases to +2, and at 14th level this bonus increases to +3. You can use this ability once per day, plus one additional time per day at 5th level, and every five levels thereafter.</p>
-<p><strong>Phantom Touch (Su):</strong> As a standard action, you can perform a melee touch attack that causes a living creature to become <Link to="/misc/shaken">shaken</Link>. This ability lasts for a number of rounds equal to 1/2 your oracle level (minimum 1 round). You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>Sacred Council (Su):</strong> As a move action, you can call upon your ancestors to provide council. This advice grants you a +2 bonus on any one d20 roll. This effect lasts for 1 round. You can use this ability a number of times per day equal to your Charisma bonus.</p>
-<p><strong>Spirit of the Warrior (Su):</strong> You can summon the spirit of a great warrior ancestor and allow it to possess you, becoming a mighty warrior yourself. You gain a +4 enhancement bonus to Strength, Dexterity, and Constitution, and a +4 natural armor bonus to AC. Your base attack bonus while possessed equals your oracle level (which may give you additional attacks), and you gain the <Link to="/feat/improved_critical">Improved Critical</Link> feat with a weapon of your choice. You can use this ability for 1 round for every 2 oracle levels you possess. This duration does not need to be consecutive, but it must be spent in 1-round increments. You must be at least 11th level to select this revelation.</p>
-<p><strong>Spirit Shield (Su):</strong> You can call upon the spirits of your ancestors to form a shield around you that blocks incoming attacks and grants you a +4 armor bonus. At 7th level, and every four levels thereafter, this bonus increases by +2. At 13th level, this shield causes arrows, rays, and other ranged attacks requiring an attack roll against you to have a 50% miss chance. You can use this shield for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments.</p>
-<p><strong>Spirit Walk (Su):</strong> You can become incorporeal and invisible. While in this form, you can move in any direction and pass through solid objects. You can take no action other than to move while in this form. You remain in this form for a number of rounds equal to your oracle level, but you can end this effect prematurely as a standard action. You can use this ability once per day at 11th level, and twice per day at 15th level. You must be at least 11th level to select this revelation.</p>
-<p><strong>Storm of Souls (Su):</strong> You can summon the spirits of your ancestors to attack in a ghostly barrage - their fury creates physical wounds on creatures in the area. The storm has a range of 100 feet and is a 20-foot-radius <Link to="/misc/burst">burst</Link>. Objects and creatures in the area take 1d8 hit points of damage for every two oracle levels you possess. Undead creatures in the area take 1d8 points of damage for every oracle level you possess. A successful Fortitude save reduces the damage to half. You must be at least 7th level to select this revelation. You can use this ability once per day, plus one additional time per day at 11th level and every four levels thereafter.</p>
-<p><strong>Voice of the Grave (Su):</strong> You can <Link to="/spell/speak_with_dead">speak with the dead</Link>, as per the spell, for a number of rounds per day equal to your oracle level. These rounds do not need to be consecutive. At 5th level, and every five levels thereafter, the dead creature you question takes a cumulative -2 penalty on its Will save to resist this effect.</p>
-<p><strong>Wisdom of the Ancestors (Su):</strong> Once per day, you can enter a trance in which you commune with the spirits of your ancestors. This trance lasts for 10 minutes, which must be uninterrupted and during which you can take no other actions. When you come out of this trance, you have gained mystical insight into the future. At 1st level, this insight acts as an <Link to="/spell/augury">augury</Link> spell with 80% effectiveness. At 5th level, the insight takes the form of a <Link to="/spell/divination">divination</Link> with 90% effectiveness. At 8th level, the knowledge you gain is equivalent to a <Link to="/spell/commune">commune</Link> spell. None of these spell effects require material components.</p>
-<h3 id="mystery-ancestor-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become one with the spirits of your ancestors. You gain a bonus on Will saving throws equal to your Charisma modifier, <Link to="/umr/blindsense">blindsense</Link> out to a range of 60 feet, and a +4 bonus on your caster level for all divination spells. You can cast <em>astral projection</em> as a spell-like ability once per day without requiring material components.</p>
+<Ability id="ancestral-weapon-su" icon={["power"]}>
+<Pair single id="ancestral-weapon-su">Ancestral Weapon (Su)</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Ability">You can summon a simple or martial weapon from your family's history that is appropriate for your current size. You are considered proficient with this weapon.</Pair>
+<Pair title="At 3rd Level">The weapon is considered <Link to="/rule/masterwork_w">masterwork</Link>.</Pair>
+<Pair title="At 7th Level">The weapon gains a +1 enhancement bonus.</Pair>
+<Pair title="At 11th Level">The weapon gains the <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon property.</Pair>
+<Pair title="At 15th Level">The enhancement bonus becomes +2.</Pair>
+<Pair title="At 19th Level">The enhancement bonus increases to +3.</Pair>
+<Pair title="Special">The weapon disappears after 1 round if it leaves your grasp.</Pair>
+</Ability>
+<Ability id="blood-of-heroes-su" icon={["boost","def"]}>
+<Pair single id="blood-of-heroes-su" flavor="You can call upon your ancestors to grant you extra bravery in battle.">Blood of Heroes (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Move-Equivalent Action">You gain a +1 morale bonus on attack rolls, damage rolls, and Will saves against fear for a number of rounds equal to your Charisma bonus.</Pair>
+<Pair title="At 7th Level">This bonus becomes +2.</Pair>
+<Pair title="At 14th Level">This bonus increases to +3.</Pair>
+</Ability>
+<Ability id="phantom-touch-su" icon={["touch"]}>
+<Pair single id="phantom-touch-su">Phantom Touch (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can perform a melee touch attack that causes a living creature to become <Link to="/misc/shaken">shaken</Link>. This ability lasts for a number of rounds equal to <Link to="/misc/half">half</Link> of your oracle level (minimum 1 round).</Pair>
+</Ability>
+<Ability id="sacred-council-su" icon={["boost"]}>
+<Pair single id="sacred-council-su">Sacred Council (Su)</Pair>
+<Pair title="Usage">Charisma modifier times/day</Pair>
+<Pair title="Move-Equivalent Action">You can call upon your ancestors to provide council. This advice grants you a +2 bonus on any one d20 roll. This effect lasts for 1 round.</Pair>
+</Ability>
+<Ability id="spirit-of-the-warrior-su" icon={["boost","def"]}>
+<Pair single id="spirit-of-the-warrior-su" flavor="You can summon the spirit of a great warrior ancestor and allow it to possess you, becoming a mighty warrior yourself.">Spirit of the Warrior (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Usage">1 round/day per two oracle levels; these rounds need not be consecutive, but they must be spent in 1-round increments</Pair>
+<Pair title="Ability">You gain a +4 enhancement bonus to Strength, Dexterity, and Constitution, and a +4 natural armor bonus to AC. Your base attack bonus while possessed equals your oracle level (which may give you additional attacks), and you gain the <Link to="/feat/improved_critical">Improved Critical</Link> feat with a weapon of your choice.</Pair>
+</Ability>
+<Ability id="spirit-shield-su" icon={["def"]}>
+<Pair single id="spirit-shield-su">Spirit Shield (Su)</Pair>
+<Pair title="Usage">1 hour/day per oracle level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="Ability">You can call upon the spirits of your ancestors to form a shield around you that blocks incoming attacks and grants you a +4 armor bonus.</Pair>
+<Pair title="At 7th Level">This bonus becomes +6.</Pair>
+<Pair title="At 11th Level">This bonus increases to +8.</Pair>
+<Pair title="At 13th Level">This shield causes arrows, rays, and other ranged attacks requiring an attack roll against you to have a 50% miss chance.</Pair>
+<Pair title="At 15th Level">This bonus becomes +10.</Pair>
+<Pair title="At 19th Level">This bonus increases to +12.</Pair>
+</Ability>
+<Ability id="spirit-walk-su" icon={["power","def"]}>
+<Pair single id="spirit-walk-su">Spirit Walk (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Ability">Once per day, you can become incorporeal and invisible. While in this form, you can move in any direction and pass through solid objects. You can take no action other than to move while in this form. You remain in this form for a number of rounds equal to your oracle level, but you can end this effect prematurely as a <strong className="hl">standard action</strong>.</Pair>
+<Pair title="At 15th Level">You can use this ability twice a day.</Pair>
+</Ability>
+<Ability id="storm-of-souls-su" icon={["magic"]}>
+<Pair single id="storm-of-souls-su">Storm of Souls (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 time/day + 1 per four oracle levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">You can summon the spirits of your ancestors to attack in a ghostly barrage - their fury creates physical wounds on creatures in the area. The <em>storm</em> has a range of 100 feet and is a 20-foot-radius <Link to="/misc/burst">burst</Link>. Objects and creatures in the area take 3d8 hit points of damage. Undead creatures in the area take 1d8 points of damage for every oracle level you possess. A successful Fortitude save reduces the damage to half.</Pair>
+<Pair title="At 8th Level">Objects and non-undead creatures now take 4d6 damage.</Pair>
+<Pair title="At 10th Level">Objects and non-undead creatures now take 5d6 damage.</Pair>
+<Pair title="At 12th Level">Objects and non-undead creatures now take 6d6 damage.</Pair>
+<Pair title="At 14th Level">Objects and non-undead creatures now take 7d6 damage.</Pair>
+<Pair title="At 16th Level">Objects and non-undead creatures now take 8d6 damage.</Pair>
+<Pair title="At 18th Level">Objects and non-undead creatures now take 9d6 damage.</Pair>
+<Pair title="At 20th Level">Objects and non-undead creatures now take 10d6 damage.</Pair>
+</Ability>
+<Ability id="voice-of-the-grave-su" icon={["magic"]}>
+<Pair single id="voice-of-the-grave-su">Voice of the Grave (Su)</Pair>
+<Pair title="Usage">1 round/day per oracle level; these rounds need not be consecutive</Pair>
+<Pair title="Ability">You can <Link to="/spell/speak_with_dead">speak with dead</Link>, as per the spell.</Pair>
+<Pair title="At 5th Level">The dead creature you question takes -2 penalty on its Will save to resist this effect.</Pair>
+<Pair title="At 10th Level">The penalty becomes -4.</Pair>
+<Pair title="At 15th Level">The penalty increases to -6.</Pair>
+<Pair title="At 20th Level">The penalty becomes -8.</Pair>
+</Ability>
+<Ability id="wisdom-of-the-ancestors-su" icon={["magic"]}>
+<Pair single id="wisdom-of-the-ancestors-su">Wisdom of the Ancestors (Su)</Pair>
+<Pair title="Ability">Once per day, you can enter a trance in which you commune with the spirits of your ancestors. This trance lasts for 10 minutes, which must be uninterrupted and during which you can take no other actions. When you come out of this trance, you have gained mystical insight into the future.</Pair>
+<Pair title="At 1st Level">This insight acts as an <Link to="/spell/augury">augury</Link> spell with 80% effectiveness.</Pair>
+<Pair title="At 5th Level">The insight takes the form of a <Link to="/spell/divination">divination</Link> with 90% effectiveness.</Pair>
+<Pair title="At 8th Level">The knowledge you gain is equivalent to a <Link to="/spell/commune">commune</Link> spell.</Pair>
+<Pair title="Special">None of these spell effects require material components.</Pair>
+</Ability>
+<h3 id="mystery-ancestor-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["def","power","boost","magic"]}>
+<Pair single id="final-revelation" flavor="You become one with the spirits of your ancestors.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You gain a bonus on Will saving throws equal to your Charisma modifier, <Link to="/umr/blindsense">blindsense</Link> out to a range of 60 feet, and a +4 bonus on your caster level for all divination spells.</Pair>
+<Pair title="Ability">You can cast <em>astral projection</em> as a spell-like ability once per day without requiring material components.</Pair>
+</Ability>
 </>};
-const _apocalypse = {title: "Apocalypse", jsx: <><h2 id="mystery-apocalypse-apocalypse">Apocalypse</h2>
+const _apocalypse = {hasJL:true,title: "Apocalypse", jsx: <><div className="jumpList" id="mystery-apocalypse-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-apocalypse-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-apocalypse-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-apocalypse-apocalypse">Apocalypse</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 56</Link></p>
 <p>Among <Link to="/monster/fire_giant_doombringer">fire giants</Link>, the rare but blessed oracles of the apocalypse are favored emissaries of the divine.</p>
 <Block size="minimal">
@@ -59,22 +136,82 @@ const _apocalypse = {title: "Apocalypse", jsx: <><h2 id="mystery-apocalypse-apoc
 <Pair plain title="16th"><Link to="/spell/incendiary_cloud">Incendiary cloud</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/meteor_swarm">Meteor swarm</Link></Pair>
 </Ability>
-<h3 id="mystery-apocalypse-revelations">Revelations</h3>
+<h3 id="mystery-apocalypse-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Apocalypse mystery can choose from any of the following revelations.</p>
-<p><strong>Defy Elements (Ex):</strong> Choose one energy type (acid, cold, fire, electricity, or sonic). You gain resistance 5 to the selected energy type. At 5th level and every 5 levels thereafter, you can choose an additional energy type for which to gain resistance 5, or you can choose a previously chosen energy type and increase that resistance by 5 (to a maximum resistance of 20 for any one energy type).</p>
-<p><strong>Destructive Roots (Su):</strong> You can root yourself to your current spot and cause the world around you to fall apart. As a standard action, you can cause the ground in a 5-foot radius <Link to="/misc/burst">burst</Link> centered on you to crumble and rupture, becoming <Link to="/rule/difficult_terrain">difficult terrain</Link>. As a move action on subsequent rounds, you can continue to concentrate on this area as though concentrating on a spell; doing so increases the radius of difficult terrain by 5 feet (maximum 30-foot-radius). You immediately cease concentrating if you move from the square you started in when you activated this ability. Difficult terrain created by this ability remains for 24 hours before returning to its original state. You must be at least 7th level to select this revelation.</p>
-<p><strong>Doomsayer (Su):</strong> As a standard action, you can utter a dire prophecy that strikes fear in your enemies and causes them to become <Link to="/misc/shaken">shaken</Link>. To be affected, an enemy must be within 30 feet and able to hear you. This effect persists as long as the enemy is within 30 feet and you use a move action each round to continue your doomsaying. This ability cannot cause a creature to become frightened or panicked, even if the target was already shaken from another effect. This is a mind-affecting fear effect that relies on audible components. At 15th level, continuing your doomsaying each round is a swift action instead. You must be at least 7th level to select this revelation.</p>
-<p><strong>Dust to Dust (Su):</strong> Once per day as a standard action, you can cause the weapons around you to shatter in their wielders' hands. When you use this ability, attempt a single <Link to="/rule/sunder">sunder</Link> combat maneuver, using your caster level in place of your base attack bonus and your Charisma modifier in place of Strength. Every creature except you in a 10-foot radius that is wielding a manufactured weapon is targeted by the same attempt. You deal an amount of damage to each weapon affected equal to 1d4 &times; your Charisma modifier (minimum 1d4). At 11th level, this damage increases to 1d6 &times; your Charisma modifier (minimum 1d6). At 10th level, you can use this ability twice per day.</p>
-<p><strong>Erosion Touch (Su):</strong> As a melee touch attack, you can deal 1d6 points of damage per level to objects or constructs. If used against an object in another creature's possession, treat this attack as a sunder combat maneuver. You can use this ability once per day, plus one time per day for every three levels you possess.</p>
-<p><strong>Near Death (Su):</strong> You gain a +2 insight bonus on saves against diseases, mind-affecting effects, and poisons. At 7th level, this bonus also applies on saves against death effects, sleep effects, and stunning. At 11th level, the bonus increases to +4.</p>
-<p><strong>Pass the Torch (Su):</strong> Once per day as a swift action, you can channel the energy of the apocalypse into your body, causing you to ignite. You take 1d4 points of fire damage when you activate this ability and again at the beginning of your turn until you end the effect. Any creature that begins its turn adjacent to you takes 1d6 points of fire damage as the fire spreads, plus 1 additional point of fire damage for each previous round you have had this ability active. For example, adjacent creatures take 1d6+5 points of damage if you have had this ability active for 5 rounds. You can use this ability for a number of rounds equal to 1/2 your oracle level, and you can end this ability as a free action. At 5th level and every 5 levels thereafter, you can use this ability one additional time per day.</p>
-<p><strong>Power of the Fallen (Sp):</strong> You can touch a dying creature and channel its life energy into another living creature. This ability acts as <Link to="/spell/death_knell">death knell</Link>, except you can choose any ally (including yourself) within 30 feet to gain the benefit of this effect, and you can apply the +2 enhancement bonus to either Strength, Dexterity, or Constitution. You can use this ability a number of times per day equal to your Charisma modifier. You must be at least 5th level to select this revelation.</p>
-<p><strong>Spell Blast (Su):</strong> As a swift action whenever you confirm a critical hit against an opponent with a spell that requires an attack roll, you can immediately attempt to <Link to="/rule/bull_rush">bull rush</Link> your opponent in any direction. You don't provoke an attack of opportunity for this bull rush attempt.</p>
-<p><strong>Unstoppable Overrun (Ex):</strong> You can attempt <Link to="/rule/overrun">overrun</Link> combat maneuvers against opponents that are up to two size categories larger than you. At 5th level, you gain <Link to="/feat/improved_overrun">Improved Overrun</Link> as a bonus feat. At 10th level, you gain <Link to="/feat/greater_overrun">Greater Overrun</Link> as a bonus feat. You don't need to meet the prerequisites to gain these feats.</p>
-<h3 id="mystery-apocalypse-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become a herald of the apocalypse and wield the awesome power to fulfill such prophecy. Anytime you successfully cast a spell or use an ability that bestows 1 or more negative levels, the effect bestows 1d4 additional negative levels. Whenever you confirm a critical hit against a creature (including with a melee, ranged, or spell attack), as a swift action you can curse the target of your attack, as the <Link to="/spell/bestow_curse">bestow curse</Link> spell, except the target doesn't receive a Will saving throw to negate the effects and spell resistance does not apply against this ability.</p>
+<Ability id="defy-elements-ex" icon={["def"]}>
+<Pair single id="defy-elements-ex">Defy Elements (Ex)</Pair>
+<Pair title="Ability">Choose one energy type (acid, cold, fire, electricity, or sonic). You gain <Link to="/umr/resistance">resistance</Link> 5 to the selected energy type.</Pair>
+<Pair title="At 5th Level">You can choose an additional energy type for which to gain resistance 5, or you can choose a previously chosen energy type and increase that resistance by 5.</Pair>
+<Pair title="At 10th Level">You can choose an additional energy type for which to gain resistance 5, or you can choose a previously chosen energy type and increase that resistance by 5.</Pair>
+<Pair title="At 15th Level">You can choose an additional energy type for which to gain resistance 5, or you can choose a previously chosen energy type and increase that resistance by 5.</Pair>
+<Pair title="At 20th Level">You can choose an additional energy type for which to gain resistance 5, or you can choose a previously chosen energy type and increase that resistance by 5.</Pair>
+<Pair title="Special">You can only have a maximum resistance of 20 for any one energy type.</Pair>
+</Ability>
+<Ability id="destructive-roots-su" icon={["magic"]}>
+<Pair single id="destructive-roots-su" flavor="You can root yourself to your current spot and cause the world around you to fall apart.">Destructive Roots (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Standard Action">You can cause the ground in a 5-foot radius <Link to="/misc/burst">burst</Link> centered on you to crumble and rupture, becoming <Link to="/rule/difficult_terrain">difficult terrain</Link>. As a <strong className="hl">move action</strong> on subsequent rounds, you can continue to concentrate on this area as though concentrating on a spell; doing so increases the radius of difficult terrain by 5 feet (maximum 30-foot-radius).</Pair>
+<Pair title="Special">You immediately cease concentrating if you move from the square you started in when you activated this ability. Difficult terrain created by this ability remains for 24 hours before returning to its original state.</Pair>
+</Ability>
+<Ability id="doomsayer-su" icon={["lower"]}>
+<Pair single id="doomsayer-su">Doomsayer (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Standard Action">You can utter a dire prophecy that strikes fear in your enemies and causes them to become <Link to="/misc/shaken">shaken</Link>. To be affected, an enemy must be within 30 feet and able to hear you. This effect persists as long as the enemy is within 30 feet and you use a <strong className="hl">move action</strong> each round to continue your <em>doomsaying.</em></Pair>
+<Pair title="At 15th Level">Continuing your <em>doomsaying</em> each round is a <strong className="hl">swift action</strong> instead.</Pair>
+<Pair title="Special">This ability cannot cause a creature to become frightened or panicked, even if the target was already shaken from another effect. This is a mind-affecting fear effect that relies on audible components.</Pair>
+</Ability>
+<Ability id="dust-to-dust-su" icon={["magic"]}>
+<Pair single id="dust-to-dust-su">Dust to Dust (Su)</Pair>
+<Pair title="Standard Action">Once per day, you can cause the weapons around you to shatter in their wielders' hands. When you use this ability, attempt a single <Link to="/rule/sunder">sunder</Link> combat maneuver, using your caster level in place of your base attack bonus and your Charisma modifier in place of Strength. Every creature except you in a 10-foot radius that is wielding a manufactured weapon is targeted by the same attempt. You deal an amount of damage to each weapon affected equal to 1d4 &times; your Charisma modifier (minimum 1d4).</Pair>
+<Pair title="At 10th Level">You can use this ability twice per day.</Pair>
+<Pair title="At 11th Level">This damage increases to 1d6 &times; your Charisma modifier (minimum 1d6).</Pair>
+</Ability>
+<Ability id="erosion-touch-su" icon={["touch"]}>
+<Pair single id="erosion-touch-su">Erosion Touch (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per three oracle levels<ByLevelPop levels={[[1,1],[3,2],[6,3],[9,4],[12,5],[15,6],[18,7]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">As a melee touch attack, you can deal 1d6 points of damage per level to objects or constructs. If used against an object in another creature's possession, treat this attack as a sunder combat maneuver.</Pair>
+</Ability>
+<Ability id="near-death-su" icon={["def"]}>
+<Pair single id="near-death-su">Near Death (Su)</Pair>
+<Pair title="Passive Ability">You gain a +2 insight bonus on saves against diseases, mind-affecting effects, and poisons.</Pair>
+<Pair title="At 7th Level">This bonus also applies on saves against death effects, sleep effects, and stunning.</Pair>
+<Pair title="At 11th Level">The bonus increases to +4.</Pair>
+</Ability>
+<Ability id="pass-the-torch-su" icon={["down","magic"]}>
+<Pair single id="pass-the-torch-su">Pass the Torch (Su)</Pair>
+<Pair title="Usage">1 round/day per two oracle levels<ByLevelPop levels={[[2,1],[4,2],[6,3],[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="round" postText="/day" /></Pair>
+<Pair title="Swift Action">Once per day, you can channel the energy of the apocalypse into your body, causing you to ignite. You take 1d4 points of fire damage when you activate this ability and again at the beginning of your turn until you end the effect. Any creature that begins its turn adjacent to you takes 1d6 points of fire damage as the fire spreads, plus 1 additional point of fire damage for each previous round you have had this ability active. For example, adjacent creatures take 1d6+5 points of damage if you have had this ability active for 5 rounds. You can end this ability as a <strong className="hl">free action</strong>.</Pair>
+<Pair title="At 5th Level">You can use this ability 2 times a day.</Pair>
+<Pair title="At 10th Level">You can use this ability 3 times a day.</Pair>
+<Pair title="At 15th Level">You can use this ability 4 times a day.</Pair>
+<Pair title="At 20th Level">You can use this ability 5 times a day.</Pair>
+</Ability>
+<Ability id="power-of-the-fallen-sp" icon={["magic"]}>
+<Pair single id="power-of-the-fallen-sp">Power of the Fallen (Sp)</Pair>
+<Pair title="Prerequisites">5th-level oracle</Pair>
+<Pair title="Usage">Charisma modifier times/day</Pair>
+<Pair title="Ability">You can touch a dying creature and channel its life energy into another living creature. This ability acts as <Link to="/spell/death_knell">death knell</Link>, except you can choose any ally (including yourself) within 30 feet to gain the benefit of this effect, and you can apply the +2 enhancement bonus to either Strength, Dexterity, or Constitution.</Pair>
+</Ability>
+<Ability id="spell-blast-su" icon={["power"]}>
+<Pair single id="spell-blast-su">Spell Blast (Su)</Pair>
+<Pair title="Swift Action">Whenever you confirm a critical hit against an opponent with a spell that requires an attack roll, you can immediately attempt to <Link to="/rule/bull_rush">bull rush</Link> your opponent in any direction. You don't provoke an attack of opportunity for this bull rush attempt.</Pair>
+</Ability>
+<Ability id="unstoppable-overrun-ex" icon={["boost","power"]}>
+<Pair single id="unstoppable-overrun-ex">Unstoppable Overrun (Ex)</Pair>
+<Pair title="Ability">You can attempt <Link to="/rule/overrun">overrun</Link> combat maneuvers against opponents that are up to two size categories larger than you.</Pair>
+<Pair title="At 5th Level">You gain <Link to="/feat/improved_overrun">Improved Overrun</Link> as a bonus feat.</Pair>
+<Pair title="At 10th Level">You gain <Link to="/feat/greater_overrun">Greater Overrun</Link> as a bonus feat.</Pair>
+<Pair title="Special">You don't need to meet the prerequisites to gain these feats.</Pair>
+</Ability>
+<h3 id="mystery-apocalypse-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["boost","lower"]}>
+<Pair single id="final-revelation" flavor="You become a herald of the apocalypse and wield the awesome power to fulfill such prophecy.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">Anytime you successfully cast a spell or use an ability that bestows 1 or more <Link to="/rule/negative_levels">negative levels</Link>, the effect bestows 1d4 additional negative levels.</Pair>
+<Pair title="Swift Action">Whenever you confirm a critical hit against a creature (including with a melee, ranged, or spell attack), you can curse the target of your attack, as the <Link to="/spell/bestow_curse">bestow curse</Link> spell, except the target doesn't receive a Will saving throw to negate the effects and spell resistance does not apply against this ability.</Pair>
+</Ability>
 </>};
-const _ascetic = {title: "Ascetic", jsx: <><h2 id="mystery-ascetic-ascetic">Ascetic</h2>
+const _ascetic = {hasJL:true,title: "Ascetic", jsx: <><div className="jumpList" id="mystery-ascetic-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-ascetic-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-ascetic-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-ascetic-ascetic">Ascetic</h2>
 <p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 104</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/irori">Irori</Link></Cell></Row></Block>
@@ -93,20 +230,70 @@ const _ascetic = {title: "Ascetic", jsx: <><h2 id="mystery-ascetic-ascetic">Asce
 <Pair plain title="16th"><Link to="/spell/frightful_aspect">Frightful aspect</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/iron_body">Iron body</Link></Pair>
 </Ability>
-<h3 id="mystery-ascetic-revelations">Revelations</h3>
+<h3 id="mystery-ascetic-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Ascetic mystery can choose from any of the following revelations.</p>
-<p><strong>Absence of Body (Su):</strong> You require half as much food and water to survive as a normal member of your race. Additionally, each time you <Link to="/misc/hold_your_breath">hold your breath</Link>, you can do so for an additional number of rounds equal to your oracle level. At 15th level, you no longer need to eat or drink and can hold your breath for 10 times as long (2 minutes per point of Constitution, plus 1 additional minute per oracle level).</p>
-<p><strong>Absence of Form (Sp):</strong> You gain <Link to="/spell/feather_fall">feather fall</Link> as a spell-like ability, which you can use a number of rounds per day equal to your oracle level. The rounds do not need to be used consecutively. If you are in mid fall when this ability's duration expires, you take falling damage as if you fell from the altitude you were at when the spell ended. At 10th level, you can also apply your daily rounds of this ability to use <Link to="/spell/air_walk">air walk</Link>.</p>
-<p><strong>Ascetic Armor (Su):</strong> You can use meditative techniques that temporarily cause attacks to bounce off your skin, as long as you aren't wearing armor or carrying a medium or heavy load. These techniques grant you a +4 armor bonus to AC. At 7th level, and every 4 levels thereafter, this bonus increases by 2. At 13th level, the techniques also grant DR 5/unarmed strikes or natural attacks. You can gain the benefits of ascetic armor for 1 hour per day per oracle level. The hours do not need to be consecutive, but you must spend them in 1-hour increments.</p>
-<p><strong>Fleet (Ex):</strong> You gain a +10-foot enhancement bonus to your base land speed. You lose this extra speed if you wear any armor or carry a medium or heavy load. At 7th level, and every 6 levels thereafter, this bonus increases by 10 feet. Oracles with the <Link to="/oraclecurse/lame">lame</Link> oracle curse can't select this revelation.</p>
-<p><strong>Martial Disciple (Su):</strong> Through meditation and study of monastic forms of combat, you have learned a lethal form of unarmed combat. You gain <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat, even if you do not meet the prerequisites. You gain the unarmed strike damage of a <Link to="/class/monk">monk</Link> of your oracle level. If you also have monk levels, those levels stack for the purpose of determining your unarmed strike damage.</p>
-<p><strong>Oracular Spellstrike (Su):</strong> By harnessing a synergy of unarmed combat and spellcasting, you have uncovered a means of channeling spell energy quickly through your unarmed strikes. This resembles the <Link to="/class/magus">magus</Link> spellstrike ability, except it works with unarmed strikes only, no matter what other abilities you have. Additionally, it uses spells from the cleric spell list, not the magus spell list. You must be at least 7th level before selecting this revelation.</p>
-<p><strong>Rapid Convalescence (Su):</strong> You reduce the number of consecutive successful saves needed to recover from a disease or poison by 1 (to a minimum of 1). Additionally, you can sacrifice one of your unused spell slots for the day to gain an enhancement bonus equal to that spell slot's level on your next save to resist the effects of poison or disease, provided the save is attempted within 1 minute per level of spell expended.</p>
-<p><strong>Spell Deflection (Su):</strong> You can use a readied action to <Link to="/rule/counterspells">counterspell</Link> any spell being cast on you or an adjacent ally that requires a ranged touch attack (such as a ray). In order to successfully counter the spell, you must make an unarmed attack roll. If the result of this attack roll is higher than 20 + the spell's caster level, the spell is negated with no effect. At 17th level, any spell you successfully negate is reflected back at the caster with the same ranged touch attack result. You must be at least 11th level before selecting this revelation.</p>
-<h3 id="mystery-ascetic-final-revelation">Final Revelation</h3>
-<p>At 20th level, you become a magical creature. You are forevermore treated as an outsider rather than as a humanoid (or whatever your creature type was) for the purpose of spells and magical effects. Additionally, you gain damage reduction 10/chaotic, which allows you to ignore the first 10 points of damage from any attack made by a nonchaotic weapon or by any natural attack made by a creature that doesn't have similar damage reduction. Unlike other outsiders, you can still be brought back from the dead as if you were a member of your previous creature type.</p>
+<Ability id="absence-of-body-su" icon={["def"]}>
+<Pair single id="absence-of-body-su">Absence of Body (Su)</Pair>
+<Pair title="Ability">You require half as much food and water to survive as a normal member of your race. Additionally, each time you <Link to="/misc/hold_your_breath">hold your breath</Link>, you can do so for an additional number of rounds equal to your oracle level.</Pair>
+<Pair title="At 15th Level">You no longer need to eat or drink and can hold your breath for 10 times as long (2 minutes per point of Constitution, plus 1 additional minute per oracle level).</Pair>
+</Ability>
+<Ability id="absence-of-form-sp" icon={["magic","def"]}>
+<Pair single id="absence-of-form-sp">Absence of Form (Sp)</Pair>
+<Pair title="Usage">1 round/day per oracle level; these rounds need not be consecutive</Pair>
+<Pair title="Ability">You gain <Link to="/spell/feather_fall">feather fall</Link> as a spell-like ability.</Pair>
+<Pair title="At 10th Level">You can also apply your daily rounds of this ability to use <Link to="/spell/air_walk">air walk</Link>.</Pair>
+<Pair title="Special">If you are in mid fall when this ability's duration expires, you take falling damage as if you fell from the altitude you were at when the spell ended.</Pair>
+</Ability>
+<Ability id="ascetic-armor-su" icon={["def"]}>
+<Pair single id="ascetic-armor-su">Ascetic Armor (Su)</Pair>
+<Pair title="Usage">1 hour/day per oracle level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="Passive Ability">You can use meditative techniques that temporarily cause attacks to bounce off your skin, as long as you aren't wearing armor or carrying a medium or heavy load. These techniques grant you a +4 armor bonus to AC.</Pair>
+<Pair title="At 7th Level">This bonus becomes +6.</Pair>
+<Pair title="At 11th Level">This bonus increases to +8.</Pair>
+<Pair title="At 13th Level">The techniques also grant DR 5/unarmed strikes or natural attacks.</Pair>
+<Pair title="At 15th Level">This bonus becomes +10.</Pair>
+<Pair title="At 19th Level">This bonus increases to +12.</Pair>
+</Ability>
+<Ability id="fleet-ex" icon={["boost"]}>
+<Pair single id="fleet-ex">Fleet (Ex)</Pair>
+<Pair title="Prerequisites">Cannot have the <Link to="/oraclecurse/lame">lame</Link> oracle curse</Pair>
+<Pair title="Ability">You gain a +10-foot enhancement bonus to your base land speed. You lose this extra speed if you wear any armor or carry a medium or heavy load.</Pair>
+<Pair title="At 7th Level">This bonus becomes +20 feet.</Pair>
+<Pair title="At 13th Level">This bonus increases to +30 feet.</Pair>
+<Pair title="At 19th Level">This bonus becomes +40 feet.</Pair>
+</Ability>
+<Ability id="martial-disciple-su" icon={["melee"]}>
+<Pair single id="martial-disciple-su" flavor="Through meditation and study of monastic forms of combat, you have learned a lethal form of unarmed combat.">Martial Disciple (Su)</Pair>
+<Pair title="Ability">You gain <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat, even if you do not meet the prerequisites. You gain the unarmed strike damage of a <Link to="/class/monk">monk</Link> of your oracle level. If you also have monk levels, those levels stack for the purpose of determining your unarmed strike damage.</Pair>
+</Ability>
+<Ability id="oracular-spellstrike-su" extraClasses="hasSubs" icon={["melee"]}>
+<Pair single id="oracular-spellstrike-su">Oracular Spellstrike (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Ability">By harnessing a synergy of unarmed combat and spellcasting, you have uncovered a means of channeling spell energy quickly through your unarmed strikes. This resembles the <Link to="/class/magus">magus</Link> <em>spellstrike</em> ability, except it works with unarmed strikes only, no matter what other abilities you have. Additionally, it uses spells from the cleric spell list, not the magus spell list.</Pair>
+</Ability>
+<Ability id="spellstrike-su" extraClasses="subAbility" icon={["melee"]}>
+<Pair single id="spellstrike-su" flavor="Text from the magus class ability.">Spellstrike (Su)</Pair>
+<Pair title="Ability">Whenever you cast a spell with a range of "touch" from the magus spell list, you can deliver the spell through any weapon you are wielding as part of a melee attack. Instead of the free melee touch attack normally allowed to deliver the spell, you can make one free melee attack with your weapon (at your highest base attack bonus) as part of casting this spell. If successful, this melee attack deals its normal damage as well as the effects of the spell. If you make this attack in concert with <em>spell combat,</em> this melee attack takes all the penalties accrued by spell combat melee attacks.</Pair>
+<Pair title="Special">This attack uses the weapon's critical range (20, 19-20, or 18-20 and modified by the <em>keen</em> weapon property or similar effects), but the spell effect only deals &times;2 damage on a successful critical hit, while the weapon damage uses its own critical modifier.</Pair>
+</Ability>
+<Ability id="rapid-convalescence-su" icon={["def"]}>
+<Pair single id="rapid-convalescence-su">Rapid Convalescence (Su)</Pair>
+<Pair title="Ability">You reduce the number of consecutive successful saves needed to recover from a disease or poison by 1 (to a minimum of 1). Additionally, you can sacrifice one of your unused spell slots for the day to gain an enhancement bonus equal to that spell slot's level on your next save to resist the effects of poison or disease, provided the save is attempted within 1 minute per level of spell expended.</Pair>
+</Ability>
+<Ability id="spell-deflection-su" icon={["def","protect"]}>
+<Pair single id="spell-deflection-su">Spell Deflection (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Ability">You can use a readied action to <Link to="/rule/counterspells">counterspell</Link> any spell being cast on you or an adjacent ally that requires a ranged touch attack (such as a ray). In order to successfully counter the spell, you must make an unarmed attack roll. If the result of this attack roll is higher than 20 + the spell's caster level, the spell is negated with no effect.</Pair>
+<Pair title="At 17th Level">Any spell you successfully negate is reflected back at the caster with the same ranged touch attack result.</Pair>
+</Ability>
+<h3 id="mystery-ascetic-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["power","def"]}>
+<Pair single id="final-revelation" flavor="You become a magical creature.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You are forevermore treated as an outsider rather than as a humanoid (or whatever your creature type was) for the purpose of spells and magical effects. Additionally, you gain damage reduction 10/chaotic, which allows you to ignore the first 10 points of damage from any attack made by a nonchaotic weapon or by any natural attack made by a creature that doesn't have similar damage reduction. Unlike other outsiders, you can still be brought back from the dead as if you were a member of your previous creature type.</Pair>
+</Ability>
 </>};
-const _battle = {title: "Battle", jsx: <><h2 id="mystery-battle-battle">Battle</h2>
+const _battle = {hasJL:true,title: "Battle", jsx: <><div className="jumpList" id="mystery-battle-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-battle-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-battle-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-battle-battle">Battle</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 45</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/cayden_cailean">Cayden Cailean</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/rovagug">Rovagug</Link>.</Cell></Row></Block>
@@ -125,22 +312,79 @@ const _battle = {title: "Battle", jsx: <><h2 id="mystery-battle-battle">Battle</
 <Pair plain title="16th"><Link to="/spell/earthquake">Earthquake</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/storm_of_vengeance">Storm of vengeance</Link></Pair>
 </Ability>
-<h3 id="mystery-battle-revelations">Revelations</h3>
+<h3 id="mystery-battle-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Battle mystery can choose from any of the following revelations.</p>
-<p><strong>Battlecry (Ex):</strong> As a standard action, you can unleash an inspiring battlecry. All allies within 100 feet who hear your cry gain a +1 morale bonus on attack rolls, skill checks, and saving throws for a number of rounds equal to your Charisma modifier. At 10th level, this bonus increases to +2. You can use this ability once per day, plus one additional time per day at 5th level and for every five levels thereafter.</p>
-<p><strong>Battlefield Clarity (Ex):</strong> Once per day, as an immediate action, whenever you fail a saving throw that causes you to become blind, deaf, frightened, panicked, paralyzed, shaken, or stunned, you may attempt that saving throw again, with a +4 insight bonus on the roll. You must take the second result, even if it is worse. At 7th and 15th level, you can use this ability one additional time per day.</p>
-<p><strong>Combat Healer (Su):</strong> Whenever you cast <Link to="/main/cure_spells">a cure spell</Link> (a spell with "cure" in its name), you can cast it as a swift action, as if using the <Link to="/feat/quicken_spell">Quicken Spell</Link> feat, by expending two spell slots. This does not increase the level of the spell. You can use this ability once per day at 7th level and one additional time per day for every four levels beyond 7th. You must be at least 7th level to select this revelation.</p>
-<p><strong>Iron Skin (Su):</strong> Once per day, your skin hardens and takes on the appearance of iron, granting you DR 10/adamantine. This functions as <Link to="/spell/stoneskin">stoneskin</Link>, using your oracle level as the caster level. At 15th level, you can use this ability twice per day. You must be at least 11th level to select this revelation.</p>
-<p><strong>Maneuver Mastery (Ex):</strong> Select one type of combat maneuver. When performing the selected maneuver, you treat your oracle level as your base attack bonus (plus the BAB from other classes) when determining your CMB. At 7th level, you gain the Improved feat (such as <Link to="/feat/improved_trip">Improved Trip</Link>) that grants you a bonus when performing that maneuver. At 11th level, you gain the Greater feat (such as <Link to="/feat/greater_trip">Greater Trip</Link>) that grants you a bonus when performing that maneuver. You do not need to meet the prerequisites to receive these feats.</p>
-<p><strong>Resiliency (Ex):</strong> You are not <Link to="/misc/disabled">disabled</Link> and you do not gain the <Link to="/misc/staggered">staggered</Link> condition if you are reduced to exactly 0 hit points. At 7th level, you gain <Link to="/feat/diehard">Diehard</Link> as a bonus feat. At 11th level, you do not lose a hit point when you take a standard action while disabled. You do not need to meet the prerequisite to receive the Diehard feat.</p>
-<p><strong>Skill at Arms (Ex):</strong> You gain proficiency in all martial weapons and heavy armor.</p>
-<p><strong>Surprising Charge (Ex):</strong> Once per day, you can move up to your speed as an immediate action. You can use this ability one additional time per day at 7th level and 15th level.</p>
-<p><strong>War Sight (Su):</strong> Whenever you roll for initiative, you can roll twice and take either result. At 7th level, you can always act in the surprise round, but if you fail to notice the ambush, you act last, regardless of your initiative result (you act in the normal order in following rounds). At 11th level, you can roll for initiative three times and take any one of the results.</p>
-<p><strong>Weapon Mastery (Ex):</strong> Select one weapon with which you are proficient. You gain <Link to="/feat/weapon_focus">Weapon Focus</Link> with that weapon. At 8th level, you gain <Link to="/feat/improved_critical">Improved Critical</Link> with that weapon. At 12th level, you gain <Link to="/feat/greater_weapon_focus">Greater Weapon Focus</Link> with that weapon. You do not need to meet the prerequisites to receive these feats.</p>
-<h3 id="mystery-battle-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become an avatar of battle. You can take a full-attack action and move up to your speed as a full-round action (you can move before or after the attacks). Whenever you score a critical hit, you can ignore any DR the target might possess. You gain a +4 insight bonus to your AC for the purpose of confirming critical hits against you. When you are below 0 hit points, you do not die until your negative total is in excess of twice your Constitution score.</p>
+<Ability id="battlecry-ex" icon={["boost","def"]}>
+<Pair single id="battlecry-ex">Battlecry (Ex)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action">You can unleash an inspiring battlecry. All allies within 100 feet who hear your cry gain a +1 morale bonus on attack rolls, skill checks, and saving throws for a number of rounds equal to your Charisma modifier.</Pair>
+<Pair title="At 10th Level">This bonus increases to +2.</Pair>
+</Ability>
+<Ability id="battlefield-clarity-ex" icon={["def"]}>
+<Pair single id="battlefield-clarity-ex">Battlefield Clarity (Ex)</Pair>
+<Pair title="Immediate Action">Once per day, whenever you fail a saving throw that causes you to become blind, deaf, frightened, panicked, paralyzed, shaken, or stunned, you may attempt that saving throw again, with a +4 insight bonus on the roll. You must take the second result, even if it is worse.</Pair>
+<Pair title="At 7th Level">You can use this ability twice a day.</Pair>
+<Pair title="At 15th Level">You can use this three times a day.</Pair>
+</Ability>
+<Ability id="combat-healer-su" icon={["boost"]}>
+<Pair single id="combat-healer-su">Combat Healer (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 time/day + 1 per four oracle levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">Whenever you cast <Link to="/main/cure_spells">a cure spell</Link> (a spell with "cure" in its name), you can cast it as a <strong className="hl">swift action</strong>, as if using the <Link to="/feat/quicken_spell">Quicken Spell</Link> feat, by expending two spell slots. This does not increase the level of the spell.</Pair>
+</Ability>
+<Ability id="iron-skin-su" icon={["def"]}>
+<Pair single id="iron-skin-su">Iron Skin (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Ability">Once per day, your skin hardens and takes on the appearance of iron, granting you DR 10/adamantine. This functions as <Link to="/spell/stoneskin">stoneskin</Link>, using your oracle level as the caster level.</Pair>
+<Pair title="At 15th Level">You can use this ability twice per day.</Pair>
+</Ability>
+<Ability id="maneuver-mastery-ex" icon={["boost"]}>
+<Pair single id="maneuver-mastery-ex">Maneuver Mastery (Ex)</Pair>
+<Pair title="Ability">Select one type of combat maneuver. When performing the selected maneuver, you treat your oracle level as your base attack bonus (plus the BAB from other classes) when determining your CMB.</Pair>
+<Pair title="At 7th Level">You gain the Improved feat (such as <Link to="/feat/improved_trip">Improved Trip</Link>) that grants you a bonus when performing that maneuver.</Pair>
+<Pair title="At 11th Level">You gain the Greater feat (such as <Link to="/feat/greater_trip">Greater Trip</Link>) that grants you a bonus when performing that maneuver.</Pair>
+<Pair title="Special">You do not need to meet the prerequisites to receive these feats.</Pair>
+</Ability>
+<Ability id="resiliency-ex" icon={["def"]}>
+<Pair single id="resiliency-ex">Resiliency (Ex)</Pair>
+<Pair title="Passive Ability">You are not <Link to="/misc/disabled">disabled</Link> and you do not gain the <Link to="/misc/staggered">staggered</Link> condition if you are reduced to exactly 0 hit points.</Pair>
+<Pair title="At 7th Level">You gain <Link to="/feat/diehard">Diehard</Link> as a bonus feat. You do not need to meet its prerequisites.</Pair>
+<Pair title="At 11th Level">You do not lose a hit point when you take a standard action while disabled.</Pair>
+</Ability>
+<Ability id="skill-at-arms-ex" icon={["power"]}>
+<Pair single id="skill-at-arms-ex">Skill at Arms (Ex)</Pair>
+<Pair title="Ability">You gain proficiency in all martial weapons and heavy armor.</Pair>
+</Ability>
+<Ability id="surprising-charge-ex" icon={["power"]}>
+<Pair single id="surprising-charge-ex">Surprising Charge (Ex)</Pair>
+<Pair title="Immediate Action">Once per day, you can move up to your speed.</Pair>
+<Pair title="At 7th Level">You can do this twice a day.</Pair>
+<Pair title="At 15th Level">You can use this ability three times a day.</Pair>
+</Ability>
+<Ability id="war-sight-su" icon={["roll","power"]}>
+<Pair single id="war-sight-su">War Sight (Su)</Pair>
+<Pair title="Ability">Whenever you roll for initiative, you can roll twice and take either result.</Pair>
+<Pair title="At 7th Level">You can always act in the surprise round, but if you fail to notice the ambush, you act last, regardless of your initiative result (you act in the normal order in following rounds).</Pair>
+<Pair title="At 11th Level">You can roll for initiative three times and take any one of the results.</Pair>
+</Ability>
+<Ability id="weapon-mastery-ex" icon={["power"]}>
+<Pair single id="weapon-mastery-ex">Weapon Mastery (Ex)</Pair>
+<Pair title="Ability">Select one weapon with which you are proficient. You gain <Link to="/feat/weapon_focus">Weapon Focus</Link> with that weapon.</Pair>
+<Pair title="At 8th Level">You gain <Link to="/feat/improved_critical">Improved Critical</Link> with that weapon.</Pair>
+<Pair title="At 12th Level">You gain <Link to="/feat/greater_weapon_focus">Greater Weapon Focus</Link> with that weapon.</Pair>
+<Pair title="Special">You do not need to meet the prerequisites to receive these feats.</Pair>
+</Ability>
+<h3 id="mystery-battle-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["power","boost","def"]}>
+<Pair single id="final-revelation" flavor="You become an avatar of battle.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Full-Round Action">You can take a full-attack action and move up to your speed (you can move before or after the attacks).</Pair>
+<Pair title="Passive Ability"><p>Whenever you score a critical hit, you can ignore any DR the target might possess. You gain a +4 insight bonus to your AC for the purpose of confirming critical hits against you.</p>
+<p>When you are below 0 hit points, you do not die until your negative total is in excess of twice your Constitution score.</p>
+</Pair>
+</Ability>
 </>};
-const _bones = {title: "Bones", jsx: <><h2 id="mystery-bones-bones">Bones</h2>
+const _bones = {hasJL:true,title: "Bones", jsx: <><div className="jumpList" id="mystery-bones-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-bones-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-bones-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-bones-bones">Bones</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 46</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/urgathoa">Urgathoa</Link>.</Cell></Row></Block>
@@ -159,22 +403,89 @@ const _bones = {title: "Bones", jsx: <><h2 id="mystery-bones-bones">Bones</h2>
 <Pair plain title="16th"><Link to="/spell/horrid_wilting">Horrid wilting</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/wail_of_the_banshee">Wail of the banshee</Link></Pair>
 </Ability>
-<h3 id="mystery-bones-revelations">Revelations</h3>
+<h3 id="mystery-bones-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Bones mystery can choose from any of the following revelations.</p>
-<p><strong>Armor of Bones (Su):</strong> You can conjure armor made of bones that grants you a +4 armor bonus. At 7th level, and every four levels thereafter, this bonus increases by +2. At 13th level, this armor grants you DR 5/bludgeoning. You can use this armor for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments.</p>
-<p><strong>Bleeding Wounds (Su):</strong> Whenever a creature takes damage from one of your spells or effects that causes negative energy damage (such as <Link to="/spell/inflict_light_wounds">inflict light wounds</Link> or the <em>death's touch</em> revelation), it begins to <Link to="/rule/bleed">bleed</Link>, taking 1 point of damage each round. At 5th level, and every five levels thereafter, this damage increases by 1. The bleeding can be stopped by a DC 15 Heal check or any effect that heals damage.</p>
-<p><strong>Death's Touch (Su):</strong> You can cause terrible wounds to appear on a creature with a melee touch attack. This attack deals 1d6 points of negative energy damage +1 point for every two oracle levels you possess. If used against an undead creature, it heals damage and grants a +2 channel resistance for 1 minute. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>Near Death (Su):</strong> You gain a +2 insight bonus on saves against diseases, mind-affecting effects, and poisons. At 7th level, this bonus also applies on saves against death effects, sleep effects, and stunning. At 11th level, the bonus increases to +4.</p>
-<p><strong>Raise the Dead (Su):</strong> As a standard action, you can summon a single <Link to="/template/skeleton">skeleton</Link> or <Link to="/template/zombie">zombie</Link> to serve you. The undead creature has a number of Hit Dice equal to your oracle level. It remains for a number of rounds equal to your Charisma modifier. At 7th level, you can summon a bloody skeleton or fast zombie. At 15th level, you can summon an <Link to="/template/advanced">advanced</Link> skeleton or zombie. You can use this ability once per day plus one additional time per day at 10th level.</p>
-<p><strong>Resist Life (Su):</strong> You are treated as an undead creature when you are targeted by positive or negative energy. You are not subject to <Link to="/feat/turn_undead">Turn Undead</Link> or <Link to="/feat/command_undead">Command Undead</Link> (or any other effect that specifically targets undead), unless you are actually an undead creature. At 7th level, you receive channel resistance +2. This bonus increases by +2 at 11th and 15th level.</p>
-<p><strong>Soul Siphon (Su):</strong> As a ranged touch attack, you can unleash a ray that causes a target to gain one negative level. The ray has a range of 30 feet. This negative level lasts for a number of minutes equal to your Charisma modifier. Whenever this ability gives a target a negative level, you heal a number of hit points equal to your oracle level. You can use this ability once per day, plus one additional time at 11th level and every four levels thereafter. You must be at least 7th level to select this revelation.</p>
-<p><strong>Spirit Walk (Su):</strong> As a standard action, you can become incorporeal and invisible. While in this form, you can move in any direction and through any object (except for those made of force). You can take no action other than to move while in this form. You remain in this form for a number of rounds equal to your oracle level, but you can end this effect prematurely with a standard action. You can use this ability once per day at 11th level, and twice per day at 15th level. You must be at least 11th level to select this revelation.</p>
-<p><strong>Undead Servitude (Su):</strong> You gain Command Undead as a bonus feat. You can <Link to="/ability/channel_negative_energy">channel negative energy</Link> (as an evil cleric) a number of times per day equal to 3 + your Charisma modifier, but only to use Command Undead. You can take other feats to add to this ability, such as <Link to="/feat/improved_channel">Improved Channel</Link>, but not feats that alter this ability, such as <Link to="/feat/alignment_channel">Alignment Channel</Link>.</p>
-<p><strong>Voice of the Grave (Su):</strong> You can <Link to="/spell/speak_with_dead">speak with dead</Link>, as per the spell, for a number of rounds per day equal to your oracle level. These rounds do not need to be consecutive. At 5th level, and every five levels thereafter, the dead creature takes a cumulative -2 penalty on its Will save to resist this effect.</p>
-<h3 id="mystery-bones-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become a master of death. Once per round, you can cast <Link to="/spell/bleed">bleed</Link> or <Link to="/spell/stabilize">stabilize</Link> as a free action. If you are brought to below 0 hit points, you automatically stabilize. You can cast <em>animate dead</em> at will without paying a material component cost (although you are still subject to the usual Hit Die control limit). Once per day, you can cast <Link to="/spell/power_word_kill">power word kill</Link>, but the spell can target a creature with 150 hit points or less.</p>
+<Ability id="armor-of-bones-su" icon={["def"]}>
+<Pair single id="armor-of-bones-su">Armor of Bones (Su)</Pair>
+<Pair title="Usage">1 hour/day per oracle level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="Ability">You can conjure armor made of bones that grants you a +4 armor bonus.</Pair>
+<Pair title="At 7th Level">The armor's bonus becomes +6.</Pair>
+<Pair title="At 11th Level">The armor's bonus increases to +8.</Pair>
+<Pair title="At 13th Level">This armor grants you DR 5/bludgeoning.</Pair>
+<Pair title="At 15th Level">The armor's bonus becomes +10.</Pair>
+<Pair title="At 19th Level">The armor's bonus increases to +12.</Pair>
+</Ability>
+<Ability id="bleeding-wounds-su" icon={["lower"]}>
+<Pair single id="bleeding-wounds-su">Bleeding Wounds (Su)</Pair>
+<Pair title="Ability">Whenever a creature takes damage from one of your spells or effects that causes negative energy damage (such as <Link to="/spell/inflict_light_wounds">inflict light wounds</Link> or the <em>death's touch</em> revelation), it begins to <Link to="/rule/bleed">bleed</Link>, taking an amount of damage each round equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your oracle level.</Pair>
+<Pair title="Special">The bleeding can be stopped by a DC 15 Heal check or any effect that heals damage.</Pair>
+</Ability>
+<Ability id="deaths-touch-su" icon={["touch","aid","protect"]}>
+<Pair single id="deaths-touch-su">Death's Touch (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability"><p>You can cause terrible wounds to appear on a creature with a melee touch attack. This attack deals 1d6 points of negative energy damage plus a number of points equal to <Link to="/misc/half">half</Link> of your oracle level.</p>
+<p>If used against an undead creature, it heals damage and grants a +2 channel resistance for 1 minute.</p>
+</Pair>
+</Ability>
+<Ability id="near-death-su" icon={["def"]}>
+<Pair single id="near-death-su">Near Death (Su)</Pair>
+<Pair title="Passive Ability">You gain a +2 insight bonus on saves against diseases, mind-affecting effects, and poisons.</Pair>
+<Pair title="At 7th Level">This bonus also applies on saves against death effects, sleep effects, and stunning.</Pair>
+<Pair title="At 11th Level">The bonus increases to +4.</Pair>
+</Ability>
+<Ability id="raise-the-dead-su" icon={["magic"]}>
+<Pair single id="raise-the-dead-su">Raise the Dead (Su)</Pair>
+<Pair title="Standard Action">Once per day, you can summon a single <Link to="/template/skeleton">skeleton</Link> or <Link to="/template/zombie">zombie</Link> to serve you. The undead creature has a number of Hit Dice equal to your oracle level. It remains for a number of rounds equal to your Charisma modifier.</Pair>
+<Pair title="At 7th Level">You can summon a <em>bloody skeleton</em> or <em>fast zombie.</em></Pair>
+<Pair title="At 10th Level">You can use this ability twice a day.</Pair>
+<Pair title="At 15th Level">You can summon an <Link to="/template/advanced">advanced</Link> skeleton or zombie.</Pair>
+</Ability>
+<Ability id="resist-life-su" icon={["power","down","def"]}>
+<Pair single id="resist-life-su">Resist Life (Su)</Pair>
+<Pair title="Passive Ability">You are treated as an undead creature when you are targeted by positive or negative energy. You are not subject to <Link to="/feat/turn_undead">Turn Undead</Link> or <Link to="/feat/command_undead">Command Undead</Link> (or any other effect that specifically targets undead), unless you are actually an undead creature.</Pair>
+<Pair title="At 7th Level">You receive channel resistance +2.</Pair>
+<Pair title="At 11th Level">This bonus becomes +4.</Pair>
+<Pair title="At 15th Level">This bonus increases to +6.</Pair>
+</Ability>
+<Ability id="soul-siphon-su" icon={["zap","aid"]}>
+<Pair single id="soul-siphon-su">Soul Siphon (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 time/day + 1 per four oracle levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability"><p>As a ranged touch attack, you can unleash a ray that causes a target to gain one <Link to="/rule/negative_level">negative level</Link>. The ray has a range of 30 feet. This negative level lasts for a number of minutes equal to your Charisma modifier.</p>
+<p>Whenever this ability gives a target a negative level, you heal a number of hit points equal to your oracle level.</p>
+</Pair>
+</Ability>
+<Ability id="spirit-walk-su" icon={["power","def"]}>
+<Pair single id="spirit-walk-su">Spirit Walk (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Standard Action">Once per day, you can become incorporeal and invisible. While in this form, you can move in any direction and through any object (except for those made of force). You can take no action other than to move while in this form. You remain in this form for a number of rounds equal to your oracle level, but you can end this effect prematurely with a <strong className="hl">standard action</strong>.</Pair>
+<Pair title="At 15th Level">You can do this twice a day.</Pair>
+</Ability>
+<Ability id="undead-servitude-su" icon={["power"]}>
+<Pair single id="undead-servitude-su">Undead Servitude (Su)</Pair>
+<Pair title="Ability">You gain Command Undead as a bonus feat. You can <Link to="/ability/channel_negative_energy">channel negative energy</Link> (as an evil cleric) a number of times per day equal to 3 + your Charisma modifier, but only to use Command Undead.</Pair>
+<Pair title="Special">You can take other feats to add to this ability, such as <Link to="/feat/improved_channel">Improved Channel</Link>, but not feats that alter this ability, such as <Link to="/feat/alignment_channel">Alignment Channel</Link>.</Pair>
+</Ability>
+<Ability id="voice-of-the-grave-su" icon={["magic"]}>
+<Pair single id="voice-of-the-grave-su">Voice of the Grave (Su)</Pair>
+<Pair title="Usage">1 round/day per oracle level; these rounds need not be consecutive</Pair>
+<Pair title="Ability">You can <Link to="/spell/speak_with_dead">speak with dead</Link>, as per the spell.</Pair>
+<Pair title="At 5th Level">The dead creature you question takes -2 penalty on its Will save to resist this effect.</Pair>
+<Pair title="At 10th Level">The penalty becomes -4.</Pair>
+<Pair title="At 15th Level">The penalty increases to -6.</Pair>
+<Pair title="At 20th Level">The penalty becomes -8.</Pair>
+</Ability>
+<h3 id="mystery-bones-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["magic","def"]}>
+<Pair single id="final-revelation" flavor="You become a master of death.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Free Action">Once per round, you can cast <Link to="/spell/bleed">bleed</Link> or <Link to="/spell/stabilize">stabilize</Link>.</Pair>
+<Pair title="Passive Ability">If you are brought to below 0 hit points, you automatically stabilize.</Pair>
+<Pair title="Ability">You can cast <em>animate dead</em> at will without paying a material component cost (although you are still subject to the usual Hit Die control limit).</Pair>
+<Pair title="Ability">Once per day, you can cast <Link to="/spell/power_word_kill">power word kill</Link>, but the spell can target a creature with 150 hit points or less.</Pair>
+</Ability>
 </>};
-const _dark_tapestry = {title: "Dark Tapestry", jsx: <><h2 id="mystery-dark_tapestry-dark-tapestry">Dark Tapestry</h2>
+const _dark_tapestry = {hasJL:true,title: "Dark Tapestry", jsx: <><div className="jumpList" id="mystery-dark_tapestry-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-dark_tapestry-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-dark_tapestry-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-dark_tapestry-dark-tapestry">Dark Tapestry</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 54</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/zon_kuthon">Zon-Kuthon</Link>.</Cell></Row></Block>
@@ -193,20 +504,84 @@ const _dark_tapestry = {title: "Dark Tapestry", jsx: <><h2 id="mystery-dark_tape
 <Pair plain title="16th"><Link to="/spell/reverse_gravity">Reverse gravity</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/interplanetary_teleport">Interplanetary teleport</Link></Pair>
 </Ability>
-<h3 id="mystery-dark_tapestry-revelations">Revelations</h3>
+<h3 id="mystery-dark_tapestry-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Dark Tapestry mystery can choose from any of the following revelations.</p>
-<p><strong>Brain Drain (Su):</strong> You can take a standard action to violently probe the mind of a single intelligent enemy within 100 feet. The target receives a Will save to negate the effect and immediately knows the source of this harmful mental prying. Those who fail this save are wracked with pain, taking 1d4 points of damage for every oracle level you possess. After successfully attacking with this ability, you may use a full-round action to sort through the jumble of stolen thoughts and memories to make a single Knowledge check using the victim's skill bonus. The randomly stolen thoughts remain in your mind for a number of rounds equal to your Charisma modifier. Treat the knowledge gained as if you had used <Link to="/spell/detect_thoughts">detect thoughts</Link>. This is a mind-affecting effect. You can use this ability once per day at 1st level, plus one additional time per day at 5th level and for every five levels beyond 5th.</p>
-<p><strong>Cloak of Darkness (Su):</strong> You conjure a cloak of shadowy darkness that grants you a +4 armor bonus and a +2 circumstance bonus on Stealth checks. At 7th level, and every four levels thereafter, these bonuses increase by +2. You can use this cloak for 1 hour per day per oracle level. The duration does not need to be consecutive, but it must be spent in 1-hour increments.</p>
-<p><strong>Dweller in Darkness (Sp):</strong> Once per day, you cast your psyche into the void of space to attract the attention of a terrible otherworldly being. The <em>dweller in darkness</em> behaves in all ways as if you had cast <Link to="/spell/phantasmal_killer">phantasmal killer</Link>. At 17th level, the <em>dweller in darkness</em> can be perceived by more than one creature, as if you had cast <Link to="/spell/weird">weird</Link>. You must be at least 11th level to choose this revelation.</p>
-<p><strong>Gift of Madness (Su):</strong> You tap into the unthinkable void between the stars and cause a single living creature within 30 feet to become confused for 1 round. A successful Will save negates the effect. This is a mind-affecting compulsion effect. At 7th level, the confusion lasts for a number of rounds equal to your oracle level. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>Interstellar Void (Su):</strong> You call upon the frigid depths of outer space to bring a terrible chill to your enemies. As a standard action, one target within 30 feet is cloaked in the void and takes 1d6 points of cold damage for every oracle level you possess. A successful Fortitude save halves this damage. At 10th level, the interstellar void is so extreme that a creature that fails its save is fatigued. At 15th level, a creature that fail its save is <Link to="/misc/exhausted">exhausted</Link> and <Link to="/misc/stunned">stunned</Link> for 1 round. You can use this ability once per day plus one additional time per day at 10th level.</p>
-<p><strong>Many Forms (Su):</strong> As a standard action, you can assume the form of a Small or Medium humanoid, as the <Link to="/spell/alter_self">alter self</Link> spell. At 7th level, you can assume the form of a Small or Medium animal, as <Link to="/spell/beast_shape_i">beast shape I</Link>. At 11th level, you can assume the form of a Small or Medium magical beast, as <Link to="/spell/beast_shape_iii">beast shape III</Link>. At 15th level, you can assume a variety of forms, as <Link to="/spell/greater_polymorph">greater polymorph</Link>. You can use this ability for 1 minute per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. You must be at least 3rd level to select this revelation.</p>
-<p><strong>Pierce the Veil (Su):</strong> Your bond with the alien denizens of the Dark Tapestry allows you to see in even the deepest darkness. You gain darkvision 60 feet. At 11th level, you can see perfectly in darkness of any kind, even in absolute darkness or the darkness created by a <Link to="/spell/deeper_darkness">deeper darkness</Link> spell.</p>
-<p><strong>Read the Tapestry (Sp):</strong> Once per day, you can spend 10 minutes meditating on the mysteries of the Dark Tapestry to send your mind to another plane and communicate with the strange or alien beings there. This functions as the <Link to="/spell/contact_other_plane">contact other plane</Link> spell. You must be at least 7th level to select this revelation.</p>
-<p><strong>Touch of the Void (Su):</strong> As a standard action, you can perform a melee touch attack that deals 1d6 points of cold damage + 1 point for every two oracle levels you possess. At 7th level, the touched creature must also make a Fortitude saving throw or be <Link to="/misc/fatigued">fatigued</Link> for a number of rounds equal to 1/2 your oracle level. This has no effect on a creature that is already fatigued. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>Wings of Darkness (Su):</strong> As a swift action, you can manifest a set of translucent, inky wings that grant you a fly speed of 60 feet with good maneuverability. You can use these wings for 1 minute per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 11th level, you can use these wings to fly as if with <Link to="/spell/overland_flight">overland flight</Link> once per day. Used in this way, the ability lasts for up to 1 hour per level, and counts as your total use of this ability for the day. You must be at least 7th level to select this revelation.</p>
-<h3 id="mystery-dark_tapestry-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become a truly alien and unnatural creature. You gain damage reduction 5/- and immunity to acid, critical hits, and sneak attacks. Once per day, you can cast <Link to="/spell/shapechange">shapechange</Link> as a spell-like ability without requiring a material component.</p>
+<Ability id="brain-drain-su" icon={["magic"]}>
+<Pair single id="brain-drain-su">Brain Drain (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action"><p>You can violently probe the mind of a single intelligent enemy within 100 feet. The target receives a Will save to negate the effect and immediately knows the source of this harmful mental prying. Those who fail this save are wracked with pain, taking 1d4 points of damage for every oracle level you possess.</p>
+<p>After successfully attacking with this ability, you may use a <strong className="hl">full-round action</strong> to sort through the jumble of stolen thoughts and memories to make a single <Link to="/skill/knowledge">Knowledge</Link> check using the victim's skill bonus.</p>
+</Pair>
+<Pair title="Special">The randomly stolen thoughts remain in your mind for a number of rounds equal to your Charisma modifier. Treat the knowledge gained as if you had used <Link to="/spell/detect_thoughts">detect thoughts</Link>. This is a mind-affecting effect.</Pair>
+</Ability>
+<Ability id="cloak-of-darkness-su" icon={["def"]}>
+<Pair single id="cloak-of-darkness-su">Cloak of Darkness (Su)</Pair>
+<Pair title="Usage">1 hour/day per oracle level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="Ability">You conjure a cloak of shadowy darkness that grants you a +4 armor bonus and a +2 circumstance bonus on <Link to="/skill/stealth">Stealth</Link> checks.</Pair>
+<Pair title="At 7th Level">These bonuses become +6 and +4, respectively.</Pair>
+<Pair title="At 11th Level">These bonuses become +8 and +6, respectively.</Pair>
+<Pair title="At 15th Level">These bonuses become +10 and +8, respectively.</Pair>
+<Pair title="At 19th Level">These bonuses become +12 and +10, respectively.</Pair>
+</Ability>
+<Ability id="dweller-in-darkness-sp" icon={["magic"]}>
+<Pair single id="dweller-in-darkness-sp">Dweller in Darkness (Sp)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Ability">Once per day, you cast your psyche into the void of space to attract the attention of a terrible otherworldly being. The <em>dweller in darkness</em> behaves in all ways as if you had cast <Link to="/spell/phantasmal_killer">phantasmal killer</Link>.</Pair>
+<Pair title="At 17th Level">The <em>dweller in darkness</em> can be perceived by more than one creature, as if you had cast <Link to="/spell/weird">weird</Link>.</Pair>
+</Ability>
+<Ability id="gift-of-madness-su" icon={["lower"]}>
+<Pair single id="gift-of-madness-su">Gift of Madness (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">You tap into the unthinkable void between the stars and cause a single living creature within 30 feet to become <Link to="/misc/confused">confused</Link> for 1 round. A successful Will save negates the effect.</Pair>
+<Pair title="At 7th Level">The confusion lasts for a number of rounds equal to your oracle level.</Pair>
+<Pair title="Special">This is a mind-affecting compulsion effect.</Pair>
+</Ability>
+<Ability id="interstellar-void-su" icon={["magic","lower"]}>
+<Pair single id="interstellar-void-su" flavor="You call upon the frigid depths of outer space to bring a terrible chill to your enemies.">Interstellar Void (Su)</Pair>
+<Pair title="Usage">Once per day.</Pair>
+<Pair title="Standard Action">One target within 30 feet is cloaked in the void and takes 1d6 points of cold damage for every oracle level you possess. A successful Fortitude save halves this damage.</Pair>
+<Pair title="At 10th Level">You can use this ability twice a day.</Pair>
+<Pair title="At 15th Level">A creature that fail its save is <Link to="/misc/exhausted">exhausted</Link> and <Link to="/misc/stunned">stunned</Link> for 1 round.</Pair>
+</Ability>
+<Ability id="many-forms-su" icon={["magic"]}>
+<Pair single id="many-forms-su">Many Forms (Su)</Pair>
+<Pair title="Prerequisites">3rd-level oracle</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Standard Action">You can assume the form of a Small or Medium humanoid, as the <Link to="/spell/alter_self">alter self</Link> spell.</Pair>
+<Pair title="At 7th Level">You can assume the form of a Small or Medium animal, as <Link to="/spell/beast_shape_i">beast shape I</Link>.</Pair>
+<Pair title="At 11th Level">You can assume the form of a Small or Medium magical beast, as <Link to="/spell/beast_shape_iii">beast shape III</Link>.</Pair>
+<Pair title="At 15th Level">You can assume a variety of forms, as <Link to="/spell/greater_polymorph">greater polymorph</Link>.</Pair>
+</Ability>
+<Ability id="pierce-the-veil-su" icon={["power"]}>
+<Pair single id="pierce-the-veil-su" flavor="Your bond with the alien denizens of the Dark Tapestry allows you to see in even the deepest darkness.">Pierce the Veil (Su)</Pair>
+<Pair title="Ability">You gain darkvision 60 feet.</Pair>
+<Pair title="At 11th Level">You can see perfectly in darkness of any kind, even in absolute darkness or the darkness created by a <Link to="/spell/deeper_darkness">deeper darkness</Link> spell.</Pair>
+</Ability>
+<Ability id="read-the-tapestry-sp" icon={["magic"]}>
+<Pair single id="read-the-tapestry-sp">Read the Tapestry (Sp)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Ability">Once per day, you can spend 10 minutes meditating on the mysteries of the Dark Tapestry to send your mind to another plane and communicate with the strange or alien beings there. This functions as the <Link to="/spell/contact_other_plane">contact other plane</Link> spell.</Pair>
+</Ability>
+<Ability id="touch-of-the-void-su" icon={["touch"]}>
+<Pair single id="touch-of-the-void-su">Touch of the Void (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can perform a melee touch attack that deals 1d6 points of cold damage + 1 point for every two oracle levels you possess.</Pair>
+<Pair title="At 7th Level">The touched creature must also make a Fortitude saving throw or be <Link to="/misc/fatigued">fatigued</Link> for a number of rounds equal to <Link to="/misc/half">half</Link> your oracle level. This has no effect on a creature that is already fatigued.</Pair>
+</Ability>
+<Ability id="wings-of-darkness-su" icon={["power"]}>
+<Pair single id="wings-of-darkness-su">Wings of Darkness (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Swift Action">You can manifest a set of translucent, inky wings that grant you a fly speed of 60 feet with good maneuverability.</Pair>
+<Pair title="At 11th Level">You can use these wings to fly as if with <Link to="/spell/overland_flight">overland flight</Link> once per day. Used in this way, the ability lasts for up to 1 hour per level, and counts as your total use of this ability for the day.</Pair>
+</Ability>
+<h3 id="mystery-dark_tapestry-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["def","magic"]}>
+<Pair single id="final-revelation" flavor="You become a truly alien and unnatural creature.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You gain damage reduction 5/- and immunity to acid, critical hits, and sneak attacks.</Pair>
+<Pair title="Ability">Once per day, you can cast <Link to="/spell/shapechange">shapechange</Link> as a spell-like ability without requiring a material component.</Pair>
+</Ability>
 </>};
 const _dragon = {title: "Dragon", jsx: <><h2 id="mystery-dragon-dragon">Dragon</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons pg. 8</Link></p>
