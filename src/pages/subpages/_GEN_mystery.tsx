@@ -583,10 +583,9 @@ const _dark_tapestry = {hasJL:true,title: "Dark Tapestry", jsx: <><div className
 <Pair title="Ability">Once per day, you can cast <Link to="/spell/shapechange">shapechange</Link> as a spell-like ability without requiring a material component.</Pair>
 </Ability>
 </>};
-const _dragon = {title: "Dragon", jsx: <><h2 id="mystery-dragon-dragon">Dragon</h2>
+const _dragon = {hasJL:true,title: "Dragon", jsx: <><div className="jumpList" id="mystery-dragon-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-dragon-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-dragon-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-dragon-dragon">Dragon</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons pg. 8</Link></p>
 <p>Oracles who draw their power from the mysterious and primal might of dragons are usually solitary folk. They are deep thinkers and often quick of wit, but prideful and equally quick-tempered.</p>
-<p>Upon selecting this mystery, the oracle must select an energy type (acid, cold, electricity, or fire) to be her associated element, which impacts several revelations.</p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/dahak">Dahak</Link>, <Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/nalinivati">Nalinivati</Link>, <Link to="/faith/ragadahn">Ragadahn</Link>, <Link to="/faith/shizuru">Shizuru</Link>.</Cell></Row></Block>
 <Ability icon={["skill"]} id="class-skills">
@@ -605,23 +604,85 @@ const _dragon = {title: "Dragon", jsx: <><h2 id="mystery-dragon-dragon">Dragon</
 <Pair plain title="16th"><Link to="/spell/form_of_the_dragon_iii">Form of the dragon III</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/overwhelming_presence">Overwhelming presence</Link></Pair>
 </Ability>
-<h3 id="mystery-dragon-revelations">Revelations</h3>
+<Ability id="energy-type" icon={["warning"]}>
+<Pair single id="energy-type">Energy Type</Pair>
+<Pair title="Choice">Upon selecting this mystery, the oracle must select an energy type (acid, cold, electricity, or fire) to be her associated element, which impacts several revelations.</Pair>
+</Ability>
+<h3 id="mystery-dragon-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Dragon mystery can choose from any of the following revelations.</p>
-<p><strong>Breath Weapon (Su):</strong> The primal power of dragonkind seethes within you. You gain a breath weapon. This breath weapon deals 1d6 points of damage of your energy type per 2 oracle levels you have (minimum 1d6; Reflex half). The shape of the breath weapon is either a 30-foot cone or a 60-foot line, selected when choosing this revelation. You can use this ability once per day at 1st level, plus one additional time at 5th level and one additional time per day for every 5 levels beyond 5th.</p>
-<p><strong>Draconic Resistance (Ex):</strong> Like the great dragons, you are not easily harmed by common means of attack. You gain resistance 5 against your chosen energy type and a +1 natural armor bonus. At 9th level, your energy resistance increases to 10 and your natural armor bonus increases to +2. At 15th level, your energy resistance increases to 20 and your natural armor bonus increases to +4</p>
-<p><strong>Dragon Magic (Sp):</strong> Your draconic power grants you a limited form of access to arcane magic. Select one spell from the <Link to="/main/spells_wizard">sorcerer/wizard spell list</Link> that is 2 levels lower than the highest-level spell you can cast, or two spells that are both at least 3 levels lower. You can cast each of the selected spells once per day as a spell-like ability. At 11th level, you can cast each selected spell twice per day.</p>
-<p><strong>Dragon Senses (Ex):</strong> Your senses take on a keen draconic edge. You gain either darkvision with a range of 60 feet or low-light vision. At 5th level, you can select darkvision with a range of 60 feet or low-light vision if you do not yet have both, or you can add 60 feet to the range of your darkvision. At 11th level, you gain <Link to="/umr/blindsense">blindsense</Link> with a range of 30 feet. If you already have blindsense, you instead increase its range by 30 feet. At 15th level, you gain either the <Link to="/umr/scent">scent</Link> ability or a +4 bonus on Perception checks.</p>
-<p><strong>Form of the Dragon (Su):</strong> Your kinship with dragonkind allows you to take on the form of a dragon. As a standard action, you can assume the form of a Medium dragon, as per <Link to="/spell/form_of_the_dragon_i">form of the dragon I</Link>. At 15th level, you can assume the form of a Large dragon, as per <Link to="/spell/form_of_the_dragon_ii">form of the dragon II</Link>. At 19th level, you can assume the form of a Huge dragon, as per <em>form of the dragon III.</em> You can use this ability once per day, but the duration is 10 minutes per oracle level. If you are at least 15th level and choose to have this ability function as per <em>form of the dragon I,</em> the duration is instead 1 hour per oracle level.</p>
-<p>You must be at least 11th level to select this revelation. Rather than form of the dragon spells, you can choose for this revelation to act as <Link to="/spell/form_of_the_alien_dragon_i">form of the alien dragon I, II, and III</Link> or <Link to="/spell/form_of_the_exotic_dragon_i">form of the exotic dragon I, II, and III</Link>. This choice must be made when you first gain this revelation, and cannot be changed.</p>
-<p><strong>Presence of Dragons (Su):</strong> Those who would oppose you must overcome their fear of dragons or be struck with terror at your draconic majesty. As a swift action, you can manifest an aura of draconic might around yourself. Enemies within 30 feet who can see you when you activate this ability must attempt a Will save. Success means that the creature is immune to this ability for the following 24 hours. On a failed save, the opponent is <Link to="/misc/shaken">shaken</Link> for 2d6 rounds. This is a mind-affecting fear effect. You can use this ability once per day at 1st level, plus one additional time per day at 5th level and for every 5 levels beyond 5th.</p>
-<p><strong>Scaled Toughness (Su):</strong> You can manifest the scaly toughness of dragonkind. Once per day as a swift action, you can harden your skin, giving it a scaly appearance and granting you DR 10/magic. During this time, you are also immune to paralysis and sleep effects. This effect lasts for a number of rounds equal to your oracle level. At 13th level, you can use this ability twice per day. You must be at least 7th level to select this revelation.</p>
-<p><strong>Tail Swipe (Ex):</strong> You express your wrath through sweeps of a wicked tail. You can grow a scaly tail. This tail can be used only to make attacks of opportunity, but it allows you to make one additional attack of opportunity each round. This tail attack deals an amount of bludgeoning damage equal to 1d8 (1d6 if you are Small) + your Strength modifier. At 10th level, you can attempt a free <Link to="/rule/trip">trip</Link> combat maneuver check against any creature damaged by your tail attack. This does not provoke an attack of opportunity.</p>
-<p><strong>Talons of the Dragon (Su):</strong> You fight with the fearsome talons of dragonkind. You can grow claws as a free action. These claws are treated as natural weapons, allowing you to perform two claw attacks as a full attack action using your full base attack bonus. Each of these attacks deals an amount of slashing damage equal to 1d4 (1d3 if you are Small) + your Strength modifier. At 5th level, these claws are considered magic weapons for the purpose of overcoming DR. At 7th level, the damage die increases by 1 step, to deal an amount of slashing damage equal to 1d6 (1d4 if you are Small) + your Strength modifier. At 11th level, these claws deal an additional 1d6 points of damage of your chosen energy type on a successful hit. You can use your claws for a number of rounds per day equal to 3 + your Charisma modifier. These rounds do not need to be consecutive.</p>
-<p><strong>Wings of the Dragon (Su):</strong> Like the great dragons, you can take to the skies and terrorize opponents from above. As a swift action, you can manifest leathery dragon wings that grant you a fly speed of 60 feet (clumsy maneuverability). At 10th level, your maneuverability increases to poor. You can use these wings for 1 minute per day for each oracle level you have. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 11th level you can use these wings for 10 minutes per day for each oracle level you have. At 15th level, you can use the wings indefinitely. You must be at least 7th level to select this revelation.</p>
-<h3 id="mystery-dragon-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, your draconic destiny unfolds. You gain immunity to paralysis, sleep, and damage of your energy type. You count as a dragon for the purposes of spells and magical effects. If you have the breath weapon revelation, you can use your breath weapon an unlimited number of times per day, though no more often than once every 1d4+1 rounds.</p>
+<Ability id="breath-weapon-su" icon={["cone","line"]}>
+<Pair single id="breath-weapon-su" flavor="The primal power of dragonkind seethes within you.">Breath Weapon (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">You gain a <Link to="/umr/breath_weapon">breath weapon</Link>. This breath weapon deals 1d6 points of damage of your energy type per 2 oracle levels you have (minimum 1d6; Reflex half). The shape of the breath weapon is either a 30-foot cone or a 60-foot line, selected when choosing this revelation.</Pair>
+</Ability>
+<Ability id="draconic-resistance-ex" icon={["def"]}>
+<Pair single id="draconic-resistance-ex" flavor="Like the great dragons, you are not easily harmed by common means of attack.">Draconic Resistance (Ex)</Pair>
+<Pair title="Passive Ability">You gain resistance 5 against your chosen energy type and a +1 natural armor bonus.</Pair>
+<Pair title="At 9th Level">Your energy resistance increases to 10 and your natural armor bonus increases to +2.</Pair>
+<Pair title="At 15th Level">Your energy resistance increases to 20 and your natural armor bonus increases to +4</Pair>
+</Ability>
+<Ability id="dragon-magic-sp" icon={["learn"]}>
+<Pair single id="dragon-magic-sp" flavor="Your draconic power grants you a limited form of access to arcane magic.">Dragon Magic (Sp)</Pair>
+<Pair title="Ability">Select one spell from the <Link to="/main/spells_wizard">sorcerer/wizard spell list</Link> that is 2 levels lower than the highest-level spell you can cast, or two spells that are both at least 3 levels lower. You can cast each of the selected spells once per day as a spell-like ability.</Pair>
+<Pair title="At 11th Level">You can cast each selected spell twice per day.</Pair>
+</Ability>
+<Ability id="dragon-senses-ex" icon={["power"]}>
+<Pair single id="dragon-senses-ex" flavor="Your senses take on a keen draconic edge.">Dragon Senses (Ex)</Pair>
+<Pair title="Ability">You gain either darkvision with a range of 60 feet or low-light vision.</Pair>
+<Pair title="At 5th Level">You can select darkvision with a range of 60 feet or low-light vision if you do not yet have both, or you can add 60 feet to the range of your darkvision.</Pair>
+<Pair title="At 11th Level">You gain <Link to="/umr/blindsense">blindsense</Link> with a range of 30 feet. If you already have blindsense, you instead increase its range by 30 feet.</Pair>
+<Pair title="At 15th Level">You gain either the <Link to="/umr/scent">scent</Link> ability or a +4 bonus on <Link to="/skill/perception">Perception</Link> checks.</Pair>
+</Ability>
+<Ability id="form-of-the-dragon-su" icon={["magic"]}>
+<Pair single id="form-of-the-dragon-su" flavor="Your kinship with dragonkind allows you to take on the form of a dragon.">Form of the Dragon (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Standard Action">You can assume the form of a Medium dragon, as per <Link to="/spell/form_of_the_dragon_i">form of the dragon I</Link>. You can use this ability once per day, but the duration is 10 minutes per oracle level.</Pair>
+<Pair title="At 15th Level">You can assume the form of a Large dragon, as per <Link to="/spell/form_of_the_dragon_ii">form of the dragon II</Link>. If you choose to have this ability function as per <em>form of the dragon I,</em> the duration is instead 1 hour per oracle level.</Pair>
+<Pair title="At 19th Level">You can assume the form of a Huge dragon, as per <em>form of the dragon III.</em></Pair>
+<Pair title="Special">Rather than <em>form of the dragon</em> spells, you can choose for this revelation to act as <Link to="/spell/form_of_the_alien_dragon_1">form of the alien dragon</Link> or <Link to="/spell/form_of_the_exotic_dragon_1">form of the exotic dragon</Link>. This choice must be made when you first gain this revelation, and cannot be changed.</Pair>
+</Ability>
+<Ability id="presence-of-dragons-su" icon={["aura"]}>
+<Pair single id="presence-of-dragons-su" flavor="Those who would oppose you must overcome their fear of dragons or be struck with terror at your draconic majesty.">Presence of Dragons (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Swift Action">You can manifest an aura of draconic might around yourself. Enemies within 30 feet who can see you when you activate this ability must attempt a Will save. Success means that the creature is immune to this ability for the following 24 hours. On a failed save, the opponent is <Link to="/misc/shaken">shaken</Link> for 2d6 rounds.</Pair>
+<Pair title="Special">This is a mind-affecting fear effect.</Pair>
+</Ability>
+<Ability id="scaled-toughness-su" icon={["def"]}>
+<Pair single id="scaled-toughness-su" flavor="You can manifest the scaly toughness of dragonkind.">Scaled Toughness (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Swift Action">Once per day, you can harden your skin, giving it a scaly appearance and granting you DR 10/magic. During this time, you are also immune to paralysis and sleep effects. This effect lasts for a number of rounds equal to your oracle level.</Pair>
+<Pair title="At 13th Level">You can use this ability twice per day.</Pair>
+</Ability>
+<Ability id="tail-swipe-ex" icon={["power","melee"]}>
+<Pair single id="tail-swipe-ex" flavor="You express your wrath through sweeps of a wicked tail.">Tail Swipe (Ex)</Pair>
+<Pair title="Ability">You can grow a scaly tail. This tail can be used only to make attacks of opportunity, but it allows you to make one additional attack of opportunity each round. This tail attack deals an amount of bludgeoning damage equal to 1d8 (1d6 if you are Small) + your Strength modifier.</Pair>
+<Pair title="At 10th Level">You can attempt a free <Link to="/rule/trip">trip</Link> combat maneuver check against any creature damaged by your tail attack. This does not provoke an attack of opportunity.</Pair>
+</Ability>
+<Ability id="talons-of-the-dragon-su" icon={["melee"]}>
+<Pair single id="talons-of-the-dragon-su" flavor="You fight with the fearsome talons of dragonkind.">Talons of the Dragon (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier rounds/day; these rounds need not be consecutive</Pair>
+<Pair title="Free Action">You can grow claws. These claws are treated as <Link to="/rule/natural_weapons">natural weapons</Link>, allowing you to perform two claw attacks as a full attack action using your full base attack bonus. Each of these attacks deals an amount of slashing damage equal to 1d4 (1d3 if you are Small) + your Strength modifier.</Pair>
+<Pair title="At 5th Level">These claws are considered magic weapons for the purpose of overcoming DR.</Pair>
+<Pair title="At 7th Level">The damage die increases <Link to="/misc/by_one_step">by one step</Link>, to deal an amount of slashing damage equal to 1d6 (1d4 if you are Small) + your Strength modifier.</Pair>
+<Pair title="At 11th Level">These claws deal an additional 1d6 points of damage of your chosen energy type on a successful hit.</Pair>
+</Ability>
+<Ability id="wings-of-the-dragon-su" icon={["power"]}>
+<Pair single id="wings-of-the-dragon-su" flavor="Like the great dragons, you can take to the skies and terrorize opponents from above.">Wings of the Dragon (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Swift Action">You can manifest leathery dragon wings that grant you a fly speed of 60 feet (clumsy maneuverability). You can use these wings for 1 minute per day for each oracle level you have. This duration does not need to be consecutive, but it must be spent in 1-minute increments.</Pair>
+<Pair title="At 10th Level">Your maneuverability increases to poor.</Pair>
+<Pair title="At 11th Level">You can use these wings for 10 minutes per day for each oracle level you have.</Pair>
+<Pair title="At 15th Level">You can use the wings indefinitely.</Pair>
+</Ability>
+<h3 id="mystery-dragon-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["def","power","boost"]}>
+<Pair single id="final-revelation" flavor="Your draconic destiny unfolds.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You gain immunity to paralysis, sleep, and damage of your energy type. You count as a dragon for the purposes of spells and magical effects.</Pair>
+<Pair title="Special">If you have the <em>breath weapon</em> revelation, you can use your breath weapon an unlimited number of times per day, though no more often than once every 1d4+1 rounds.</Pair>
+</Ability>
 </>};
-const _elemental = {title: "Elemental", jsx: <><h2 id="mystery-elemental-elemental">Elemental</h2>
+const _elemental = {hasJL:true,title: "Elemental", jsx: <><div className="jumpList" id="mystery-elemental-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-elemental-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-elemental-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-elemental-elemental">Elemental</h2>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 28</Link></p>
 <p>Elemental oracles gain their powers from forces that balance or blend elements together.</p>
 <Block size="minimal">
@@ -641,23 +702,95 @@ const _elemental = {title: "Elemental", jsx: <><h2 id="mystery-elemental-element
 <Pair plain title="16th"><Link to="/spell/create_demiplane">Create demiplane</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/elemental_swarm">Elemental swarm</Link></Pair>
 </Ability>
-<h3 id="mystery-elemental-revelations">Revelations</h3>
+<h3 id="mystery-elemental-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Elemental mystery can choose from any of the following revelations.</p>
-<p><strong>Dance of Whirling Water (Ex):</strong> You dance through the battlefield with all the grace and power of the waves, sweeping up enemies and tossing them away with the powers of air and water entwined. Whenever you succeed at an Acrobatics check to move through an enemy's square, you gain a competence bonus equal to half your oracle level (minimum +1) on trip combat maneuvers against that creature until the start of your next turn. At 11th level, you gain <Link to="/feat/whirlwind_attack">Whirlwind Attack</Link> as a bonus feat, and you can make bull rush combat maneuvers in place of any of the attacks granted by Whirlwind Attack; you cannot move with enemies bull rushed this way.</p>
-<p><strong>Desert Mirage (Su):</strong> Air and fire shroud you from your enemies' vision and superheat your strikes in combat. You can surround yourself with heated air as a swift action, gaining <Link to="/rule/concealment">concealment</Link> (as per the <Link to="/spell/blur">blur</Link> spell). At 7th level while you are using this ability, your melee attacks each deal an additional 2 points of fire damage. You can use this ability for 1 minute per oracle level per day; this duration does not need to be consecutive, but it must be spent in 1-minute increments. You must be at least 3rd level to select this revelation.</p>
-<p><strong>Elemental Aegis (Su):</strong> When you take this revelation, choose one element: air, earth, fire, or water. You can conjure an enveloping, protective force made of this element that grants you a +4 armor bonus to AC (this manifests as a solid rush of air over your body, rocky plates covering your skin, and the like). At 7th level, and every 4 levels thereafter, this bonus increases by 2. You can use this armor for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments.</p>
-<p>At 13th level, you receive an additional boon depending on the element you chose. If you chose air, you gain a +2 bonus on Reflex saving throws. If you chose earth, you gain a +2 bonus to CMD. If you chose fire, you gain fire resistance 2 (this stacks with any other fire resistance you have). If you chose water, you gain a +4 bonus on Swim checks.</p>
-<p><strong>Elemental Allies (Su):</strong> The beings tied to the fundamental elements can hear your calls plainly when you seek aid from them. When casting <Link to="/spell/summon_monster">summon monster</Link> spells to summon elementals with the air, earth, fire, or water subtype, you can cast the spell as a standard action instead of a casting time of 1 round. You can use this ability a number of times per day equal to your oracle level. You must be at least 7th level to select this revelation.</p>
-<p><strong>Elemental Channeling (Su):</strong> You can heal and harm elemental beings. You gain <Link to="/feat/elemental_channel">Elemental Channel</Link> (your choice of air, earth, fire, or water) as a bonus feat. You gain the cleric's <Link to="/ability/channel_energy">channel energy</Link> ability, as a cleric of your oracle level, but only to use Elemental Channel. The DC for this effect is 10 + half your oracle level + your Charisma modifier. At 5th, 10th, and 15th level, you gain Elemental Channel with one of the remaining elemental subtypes as a bonus feat. You can take other feats to add to this ability, such as <Link to="/feat/improved_channel">Improved Channel</Link>, but not feats that alter this ability, such as <Link to="/feat/alignment_channel">Alignment Channel</Link>. This revelation's effects do not stack with levels in other classes that grant the channel energy ability.</p>
-<p><strong>Elemental Resistance (Ex):</strong> The forces of the Elemental Planes envelop and inure your flesh against hostile energy. You gain resistance 2 to acid, cold, electricity, and fire (this stacks with any other resistance you have of that type). This resistance increases to 5 at 7th level, 10 at 11th level, and 20 at 17th level.</p>
-<p><strong>Flowing Step (Ex or Su):</strong> Fire's hunger and water's flow grant you swiftness and elegance, and you move with breathtaking purpose and grace. You can increase your base speed by 10 feet. At 7th level, while using this ability, you can use Acrobatics to move at full speed through threatened squares or other creatures' squares without increasing the DC by 10. At 11th level, while using this ability, you can walk on liquid as if using water walk, and you are immune to damage caused by proximity to (but not immersion in) lava, magma, and similarly heated stone. You can use this ability for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments. Oracles with the <Link to="/oraclecurse/lame">lame</Link> oracle curse cannot select this revelation.</p>
-<p><strong>Reforged Arms (Su):</strong> The forge's fire turns earthen ore into useful metal, and you can hone weapons in the same way. As a standard action, you can touch a metal or stone weapon and transform it into a masterwork equivalent if it is not already a masterwork or magical weapon. At 3rd level, you can also have the weapon act as if it were made of alchemical silver or cold iron (your choice when you activate this ability) for the purpose of bypassing damage reduction. At 7th level, 15th level, and 19th level, the weapon gains a cumulative +1 enhancement bonus, though this bonus does not stack with any enhancement bonus the weapon already has. At 11th level, you can have the weapon act as if it were made of <Link to="/eq-material/adamantine">adamantine</Link> rather than of alchemical silver or cold iron. This effect lasts for 1 minute per oracle level, and you can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>Roiling Soil (Su):</strong> Combining your mastery of earth and water, you shape the battlefield in your favor, bending the terrain to benefit you and your allies and hinder any who might oppose you. The ground within 5 feet per 2 oracle levels you have shifts and rolls unpredictably; if you use this ability underwater, the surrounding waters churn. This area moves with you, and you and your allies are unaffected by the roiling terrain. Other creatures can move within the area at half speed with a successful DC 10 Acrobatics check. Failure means they stop moving for the round, while failure by 5 or more causes them to fall prone; if underwater, creatures gain the effects of being off-balance instead of falling prone. This effect lasts a number of rounds equal to your oracle level, and you can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>Sweeping Impact (Ex):</strong> You can shake the earth and buffet foes with the roaring force of wind you draw from the Elemental Plane of Air. When performing a bull rush as part of a charge, if you push the target at least 5 feet, you can attempt a trip combat maneuver against that creature as a free action. You are not tripped if you fail this check by 10 or more. At 7th level, you can bull rush or trip creatures two size categories larger than you; for every 4 levels you gain beyond 7th, you can bull rush or trip creatures an additional size category larger.</p>
-<h3 id="mystery-elemental-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, your body undergoes an internal elemental shift, and you become a living conduit of the Elemental Planes. Your external appearance remains the same, although you may take on certain cosmetic elemental traits (such as smoldering hair or pebble-like skin). You become immune to critical hits and <Link to="/misc/precision_damage">precision damage</Link> such as from sneak attacks. You no longer need to breathe, eat, or sleep.</p>
+<Ability id="dance-of-whirling-water-ex" icon={["boost","power"]}>
+<Pair single id="dance-of-whirling-water-ex" flavor="You dance through the battlefield with all the grace and power of the waves, sweeping up enemies and tossing them away with the powers of air and water entwined.">Dance of Whirling Water (Ex)</Pair>
+<Pair title="Ability">Whenever you succeed at an <Link to="/skill/acrobatics">Acrobatics</Link> check to move through an enemy's square, you gain a competence bonus equal to half your oracle level (minimum +1) on <Link to="/rule/trip">trip</Link> combat maneuvers against that creature until the start of your next turn.</Pair>
+<Pair title="At 11th Level">You gain <Link to="/feat/whirlwind_attack">Whirlwind Attack</Link> as a bonus feat, and you can make <Link to="/rule/bull_rush">bull rush</Link> combat maneuvers in place of any of the attacks granted by Whirlwind Attack; you cannot move with enemies bull rushed this way.</Pair>
+</Ability>
+<Ability id="desert-mirage-su" icon={["def","boost"]}>
+<Pair single id="desert-mirage-su" flavor="Air and fire shroud you from your enemies' vision and superheat your strikes in combat.">Desert Mirage (Su)</Pair>
+<Pair title="Prerequisites">3rd-level oracle</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Swift Action">You can surround yourself with heated air, gaining <Link to="/rule/concealment">concealment</Link> (as per the <Link to="/spell/blur">blur</Link> spell).</Pair>
+<Pair title="At 7th Level">While you are using this ability, your melee attacks each deal an additional 2 points of fire damage.</Pair>
+</Ability>
+<Ability id="elemental-aegis-su" icon={["def"]}>
+<Pair single id="elemental-aegis-su">Elemental Aegis (Su)</Pair>
+<Pair title="Choice">When you take this revelation, choose one element: air, earth, fire, or water.</Pair>
+<Pair title="Ability">You can conjure an enveloping, protective force made of this element that grants you a +4 armor bonus to AC (this manifests as a solid rush of air over your body, rocky plates covering your skin, and the like).</Pair>
+<Pair title="Usage">1 hour/day per oracle level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="At 7th Level">The AC bonus becomes +6.</Pair>
+<Pair title="At 11th Level">The AC bonus increases to +8.</Pair>
+<Pair title="At 13th Level">At 13th level, you receive an additional boon depending on the element you chose. If you chose air, you gain a +2 bonus on Reflex saving throws. If you chose earth, you gain a +2 bonus to CMD. If you chose fire, you gain fire <Link to="/umr/resistance">resistance</Link> 2 (this stacks with any other fire resistance you have). If you chose water, you gain a +4 bonus on <Link to="/skill/swim">Swim</Link> checks.</Pair>
+<Pair title="At 15th Level">The AC bonus becomes +10.</Pair>
+<Pair title="At 19th Level">The AC bonus increases to +12.</Pair>
+</Ability>
+<Ability id="elemental-allies-su" icon={["boost"]}>
+<Pair single id="elemental-allies-su" flavor="The beings tied to the fundamental elements can hear your calls plainly when you seek aid from them.">Elemental Allies (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 time/day per oracle level</Pair>
+<Pair title="Ability">When casting <Link to="/spell/summon_monster">summon monster</Link> spells to summon elementals with the air, earth, fire, or water subtype, you can cast the spell as a <strong className="hl">standard action</strong> instead of a casting time of 1 round.</Pair>
+</Ability>
+<Ability id="elemental-channeling-su" icon={["power"]}>
+<Pair single id="elemental-channeling-su" flavor="You can heal and harm elemental beings.">Elemental Channeling (Su)</Pair>
+<Pair title="Ability">You gain <Link to="/feat/elemental_channel">Elemental Channel</Link> (your choice of air, earth, fire, or water) as a bonus feat. You gain the cleric's <Link to="/ability/channel_energy">channel energy</Link> ability, as a cleric of your oracle level, but only to use Elemental Channel. The DC for this effect is 10 + half your oracle level + your Charisma modifier.</Pair>
+<Pair title="At 5th Level">You gain Elemental Channel with one of the remaining elemental subtypes as a bonus feat.</Pair>
+<Pair title="At 10th Level">You gain Elemental Channel with one of the remaining elemental subtypes as a bonus feat.</Pair>
+<Pair title="At 15th Level">You gain Elemental Channel with the last remaining elemental subtype as a bonus feat.</Pair>
+<Pair title="Special">You can take other feats to add to this ability, such as <Link to="/feat/improved_channel">Improved Channel</Link>, but not feats that alter this ability, such as <Link to="/feat/alignment_channel">Alignment Channel</Link>. This revelation's effects do not stack with levels in other classes that grant the <em>channel energy</em> ability.</Pair>
+</Ability>
+<Ability id="elemental-resistance-ex" icon={["def"]}>
+<Pair single id="elemental-resistance-ex" flavor="The forces of the Elemental Planes envelop and inure your flesh against hostile energy.">Elemental Resistance (Ex)</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/resistance">resistance</Link> 2 to acid, cold, electricity, and fire (this stacks with any other resistance you have of that type).</Pair>
+<Pair title="At 7th Level">This resistance increases to 5.</Pair>
+<Pair title="At 11th Level">The resistance becomes 10.</Pair>
+<Pair title="At 17th Level">The resistance increases to 20.</Pair>
+</Ability>
+<Ability id="flowing-step-ex-or-su" icon={["boost"]}>
+<Pair single id="flowing-step-ex-or-su" flavor="Fire's hunger and water's flow grant you swiftness and elegance, and you move with breathtaking purpose and grace.">Flowing Step (Ex or Su)</Pair>
+<Pair title="Prerequisites">Cannot have the <Link to="/oraclecurse/lame">lame</Link> oracle curse.</Pair>
+<Pair title="Usage">1 hour/day per oracle level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="Ability">You can increase your base speed by 10 feet.</Pair>
+<Pair title="At 7th Level">While using this ability, you can use <Link to="/skill/acrobatics">Acrobatics</Link> to move at full speed through threatened squares or other creatures' squares without increasing the DC by 10.</Pair>
+<Pair title="At 11th Level">While using this ability, you can walk on liquid as if using <Link to="/spell/water_walk">water walk</Link>, and you are immune to damage caused by proximity to (but not immersion in) lava, magma, and similarly heated stone.</Pair>
+</Ability>
+<Ability id="reforged-arms-su" icon={["boost"]}>
+<Pair single id="reforged-arms-su" flavor="The forge's fire turns earthen ore into useful metal, and you can hone weapons in the same way.">Reforged Arms (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can touch a metal or stone weapon and transform it into a <Link to="/rule/masterwork_w">masterwork</Link> equivalent if it is not already a masterwork or magical weapon.</Pair>
+<Pair title="At 3rd Level">You can also have the weapon act as if it were made of alchemical silver or cold iron (your choice when you activate this ability) for the purpose of bypassing damage reduction.</Pair>
+<Pair title="At 7th Level">The weapon gains a +1 enhancement bonus, though this bonus does not stack with any enhancement bonus the weapon already has.</Pair>
+<Pair title="At 11th Level">You can have the weapon act as if it were made of <Link to="/eq-material/adamantine">adamantine</Link> rather than of alchemical silver or cold iron.</Pair>
+<Pair title="At 15th Level">The enhancement bonus becomes +2.</Pair>
+<Pair title="At 19th Level">The enhancement bonus increases to +3.</Pair>
+<Pair title="Special">This effect lasts for 1 minute per oracle level.</Pair>
+</Ability>
+<Ability id="roiling-soil-su" icon={["aura","lower"]}>
+<Pair single id="roiling-soil-su" flavor="Combining your mastery of earth and water, you shape the battlefield in your favor, bending the terrain to benefit you and your allies and hinder any who might oppose you.">Roiling Soil (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability"><p>The ground within 5 feet per 2 oracle levels you have shifts and rolls unpredictably; if you use this ability underwater, the surrounding waters churn. This area moves with you, and you and your allies are unaffected by the roiling terrain.</p>
+<p>Other creatures can move within the area at half speed with a successful DC 10 <Link to="/skill/acrobatics">Acrobatics</Link> check. Failure means they stop moving for the round, while failure by 5 or more causes them to fall <Link to="/rule/prone">prone</Link>; if underwater, creatures gain the effects of being <Link to="/rule/off_balance">off-balance</Link> instead of falling prone.</p>
+<p>This effect lasts a number of rounds equal to your oracle level.</p>
+</Pair>
+</Ability>
+<Ability id="sweeping-impact-ex" icon={["melee","boost"]}>
+<Pair single id="sweeping-impact-ex" flavor="You can shake the earth and buffet foes with the roaring force of wind you draw from the Elemental Plane of Air.">Sweeping Impact (Ex)</Pair>
+<Pair title="Ability">When performing a <Link to="/rule/bull_rush">bull rush</Link> as part of a <Link to="/rule/charge">charge</Link>, if you push the target at least 5 feet, you can attempt a <Link to="/rule/trip">trip</Link> combat maneuver against that creature as a <strong className="hl">free action</strong>. You are not tripped if you fail this check by 10 or more.</Pair>
+<Pair title="At 7th Level">You can bull rush or trip creatures two size categories larger than you.</Pair>
+<Pair title="At 11th Level">You can bull rush or trip creatures three size categories larger than you.</Pair>
+<Pair title="At 15th Level">You can bull rush or trip creatures four size categories larger than you.</Pair>
+<Pair title="At 19th Level">You can bull rush or trip creatures five size categories larger than you.</Pair>
+</Ability>
+<h3 id="mystery-elemental-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["power","def"]}>
+<Pair single id="final-revelation" flavor="Your body undergoes an internal elemental shift, and you become a living conduit of the Elemental Planes.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">Your external appearance remains the same, although you may take on certain cosmetic elemental traits (such as smoldering hair or pebble-like skin). You become immune to critical hits and <Link to="/misc/precision_damage">precision damage</Link> such as from sneak attacks. You no longer need to breathe, eat, or sleep.</Pair>
+</Ability>
 </>};
-const _flame = {title: "Flame", jsx: <><h2 id="mystery-flame-flame">Flame</h2>
+const _flame = {hasJL:true,title: "Flame", jsx: <><div className="jumpList" id="mystery-flame-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-flame-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-flame-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-flame-flame">Flame</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 47</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>.</Cell></Row></Block>
@@ -676,22 +809,82 @@ const _flame = {title: "Flame", jsx: <><h2 id="mystery-flame-flame">Flame</h2>
 <Pair plain title="16th"><Link to="/spell/incendiary_cloud">Incendiary cloud</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/fiery_body">Fiery body</Link></Pair>
 </Ability>
-<h3 id="mystery-flame-revelations">Revelations</h3>
+<h3 id="mystery-flame-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Flame mystery can choose from any of the following revelations.</p>
-<p><strong>Burning Magic (Su):</strong> Whenever a creature fails a saving throw and takes fire damage from one of your spells, it catches on fire. This fire deals 1 point of fire damage per spell level at the beginning of the burning creature's turn. The fire lasts for 1d4 rounds, but it can be extinguished as a move action if the creature succeeds at a Reflex save (using the spell's DC). Dousing the creature with water as a standard action grants a +2 bonus on this save, while immersing the creature in water automatically extinguishes the fire. Spells that do not grant a save do not cause a creature to catch on fire.</p>
-<p><strong>Cinder Dance (Ex):</strong> Your base speed increases by 10 feet. At 5th level, you receive <Link to="/feat/nimble_moves">Nimble Moves</Link> as a bonus feat. At 10th level, you receive <Link to="/feat/acrobatic_steps">Acrobatic Steps</Link> as a bonus feat. You do not need to meet the prerequisites to receive these feats. Oracles with the <Link to="/oraclecurse/lame">lame</Link> oracle curse cannot select this revelation.</p>
-<p><strong>Fire Breath (Su):</strong> As a standard action, you can unleash a 15-foot cone of flame from your mouth. This flame deals 1d4 points of fire damage per level. A Reflex save halves this damage. You can use this ability once per day, plus one additional time per day at 5th level and every five levels thereafter. The save DC is Charisma-based.</p>
-<p><strong>Firestorm (Su):</strong> As a standard action, you can cause fire to erupt around you. You can create one 10-foot cube of fire per oracle level. These cubes can be arranged in any pattern you desire, but each cube must be adjacent to another and one must be adjacent to you. Any creature caught in these flames takes 1d6 points of fire damage per oracle level, with a Reflex save resulting in half damage. This fire lasts for a number of rounds equal to your Charisma modifier. You can use this ability once per day. You must be at least 11th level to select this revelation.</p>
-<p><strong>Form of Flame (Su):</strong> As a standard action, you can assume the form of a Small fire elemental, as <Link to="/spell/elemental_body_i">elemental body I</Link>. At 9th level, you can assume the form of a Medium fire elemental, as <Link to="/spell/elemental_body_ii">elemental body II</Link>. At 11th level, you can assume the form of a Large fire elemental, as <Link to="/spell/elemental_body_iii">elemental body III</Link>. At 13th level, you can assume the form of a Huge fire elemental, as <Link to="/spell/elemental_body_iv">elemental body IV</Link>. You can use this ability once per day, but the duration is 1 hour/level. You must be at least 7th level to select this revelation.</p>
-<p><strong>Gaze of Flames (Su):</strong> You can see through fire, fog, and smoke without penalty as long as the light is sufficient to allow you to see normally. At 7th level, you can gaze through any source of flame within 10 feet per oracle level, as if using <Link to="/spell/clairvoyance">clairvoyance</Link>. You can use this ability for a number of rounds per day equal to your oracle level, but these rounds do not need to be consecutive.</p>
-<p><strong>Heat Aura (Su):</strong> As a swift action, you can cause waves of heat to radiate from your body. This heat deals 1d4 points of fire damage per two oracle levels (minimum 1d4) to all creatures within 10 feet. A Reflex save halves the damage. In addition, your form wavers and blurs, granting you 20% <Link to="/rule/concealment">concealment</Link> until your next turn. You can use this ability once per day, plus one additional time per day at 5th level and every five levels thereafter.</p>
-<p><strong>Molten Skin (Ex):</strong> You gain resist fire 5. This resistance increases to 10 at 5th level and 20 at 11th level. At 17th level, you gain immunity to fire.</p>
-<p><strong>Touch of Flame (Su):</strong> As a standard action, you can perform a melee touch attack that deals 1d6 points of fire damage +1 point for every two oracle levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier. At 11th level, any weapon that you wield is treated as a <Link to="/magic-enh/flaming">flaming</Link> weapon.</p>
-<p><strong>Wings of Fire (Su):</strong> As a swift action, you can manifest a pair of fiery wings that grant you a fly speed of 60 feet with average maneuverability. You can use these wings for 1 minute per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1 minute increments. You must be at least 7th level before selecting this revelation.</p>
-<h3 id="mystery-flame-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become a master of fire. You can apply any one of the following feats to any fire spell you cast without increasing the level or casting time: <Link to="/feat/enlarge_spell">Enlarge Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link>. You do not need to possess these feats to use this ability.</p>
+<Ability id="burning-magic-su" icon={["boost"]}>
+<Pair single id="burning-magic-su">Burning Magic (Su)</Pair>
+<Pair title="Ability"><p>Whenever a creature fails a saving throw and takes fire damage from one of your spells, it <Link to="/rule/catches_on_fire">catches on fire</Link>. This fire deals 1 point of fire damage per spell level at the beginning of the burning creature's turn.</p>
+<p>The fire lasts for 1d4 rounds, but it can be extinguished as a <strong className="hl">move action</strong> if the creature succeeds at a Reflex save (using the spell's DC). Dousing the creature with water as a <strong className="hl">standard action</strong> grants a +2 bonus on this save, while immersing the creature in water automatically extinguishes the fire.</p>
+</Pair>
+<Pair title="Special">Spells that do not grant a save do not cause a creature to catch on fire.</Pair>
+</Ability>
+<Ability id="cinder-dance-ex" icon={["boost","power"]}>
+<Pair single id="cinder-dance-ex">Cinder Dance (Ex)</Pair>
+<Pair title="Prerequisites">Cannot have the <Link to="/oraclecurse/lame">lame</Link> oracle curse.</Pair>
+<Pair title="Passive Ability">Your base speed increases by 10 feet.</Pair>
+<Pair title="At 5th Level">You receive <Link to="/feat/nimble_moves">Nimble Moves</Link> as a bonus feat.</Pair>
+<Pair title="At 10th Level">You receive <Link to="/feat/acrobatic_steps">Acrobatic Steps</Link> as a bonus feat.</Pair>
+<Pair title="Special">You do not need to meet the prerequisites to receive these feats.</Pair>
+</Ability>
+<Ability id="fire-breath-su" icon={["cone"]}>
+<Pair single id="fire-breath-su">Fire Breath (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action">You can unleash a 15-foot cone of flame from your mouth. This flame deals 1d4 points of fire damage per level. A Reflex save halves this damage.</Pair>
+<Pair title="Special">The save DC is Charisma-based.</Pair>
+</Ability>
+<Ability id="firestorm-su" icon={["magic"]}>
+<Pair single id="firestorm-su" flavor="You can cause fire to erupt around you.">Firestorm (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Usage">Once per day.</Pair>
+<Pair title="Standard Action">You can create one 10-foot cube of fire per oracle level. These cubes can be arranged in any pattern you desire, but each cube must be adjacent to another and one must be adjacent to you. Any creature caught in these flames takes 1d6 points of fire damage per oracle level, with a Reflex save resulting in half damage. This fire lasts for a number of rounds equal to your Charisma modifier.</Pair>
+</Ability>
+<Ability id="form-of-flame-su" icon={["magic"]}>
+<Pair single id="form-of-flame-su">Form of Flame (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">Once per day.</Pair>
+<Pair title="Standard Action">You can assume the form of a Small fire elemental, as <Link to="/spell/elemental_body_i">elemental body I</Link>.</Pair>
+<Pair title="At 9th Level">You can assume the form of a Medium fire elemental, as <Link to="/spell/elemental_body_ii">elemental body II</Link>.</Pair>
+<Pair title="At 11th Level">You can assume the form of a Large fire elemental, as <Link to="/spell/elemental_body_iii">elemental body III</Link>.</Pair>
+<Pair title="At 13th Level">You can assume the form of a Huge fire elemental, as <Link to="/spell/elemental_body_iv">elemental body IV</Link>.</Pair>
+<Pair title="Special">This lasts an hour per oracle level.</Pair>
+</Ability>
+<Ability id="gaze-of-flames-su" icon={["power","magic"]}>
+<Pair single id="gaze-of-flames-su">Gaze of Flames (Su)</Pair>
+<Pair title="Ability">You can see through fire, fog, and smoke without penalty as long as the light is sufficient to allow you to see normally.</Pair>
+<Pair title="At 7th Level">You can gaze through any source of flame within 10 feet per oracle level, as if using <Link to="/spell/clairvoyance">clairvoyance</Link>. You can use this ability for a number of rounds per day equal to your oracle level, but these rounds do not need to be consecutive.</Pair>
+</Ability>
+<Ability id="heat-aura-su" icon={["aura","def"]}>
+<Pair single id="heat-aura-su">Heat Aura (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Swift Action">You can cause waves of heat to radiate from your body. This heat deals 1d4 points of fire damage per two oracle levels (minimum 1d4) to all creatures within 10 feet. A Reflex save halves the damage. In addition, your form wavers and blurs, granting you 20% <Link to="/rule/concealment">concealment</Link> until your next turn. You can use this ability once per day, plus one additional time per day at 5th level and every five levels thereafter.</Pair>
+</Ability>
+<Ability id="molten-skin-ex" icon={["def"]}>
+<Pair single id="molten-skin-ex">Molten Skin (Ex)</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/resist">resist</Link> fire 5.</Pair>
+<Pair title="At 5th Level">This resistance increases to 10.</Pair>
+<Pair title="At 11th Level">The resistance becomes 20.</Pair>
+<Pair title="At 17th Level">You gain immunity to fire.</Pair>
+</Ability>
+<Ability id="touch-of-flame-su" icon={["touch","boost"]}>
+<Pair single id="touch-of-flame-su">Touch of Flame (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can perform a melee touch attack that deals 1d6 points of fire damage plus an additional amount of points equal to <Link to="/misc/half">half</Link> of your oracle level.</Pair>
+<Pair title="At 11th Level">Any weapon that you wield is treated as a <Link to="/magic-enh/flaming">flaming</Link> weapon.</Pair>
+</Ability>
+<Ability id="wings-of-fire-su" icon={["power"]}>
+<Pair single id="wings-of-fire-su">Wings of Fire (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Swift Action">You can manifest a pair of fiery wings that grant you a fly speed of 60 feet with average maneuverability.</Pair>
+</Ability>
+<h3 id="mystery-flame-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["boost"]}>
+<Pair single id="final-revelation" flavor="You become a master of fire.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">You can apply any one of the following feats to any fire spell you cast without increasing the level or casting time: <Link to="/feat/enlarge_spell">Enlarge Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link>. You do not need to possess these feats to use this ability.</Pair>
+</Ability>
 </>};
-const _godclaw = {title: "Godclaw", jsx: <><h2 id="mystery-godclaw-godclaw">Godclaw</h2>
+const _godclaw = {hasJL:true,title: "Godclaw", jsx: <><div className="jumpList" id="mystery-godclaw-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-godclaw-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-godclaw-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-godclaw-godclaw">Godclaw</h2>
 <p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 26</Link></p>
 <p>Many Godclaw signifers are oracles who embrace the unique Godclaw mystery. Oracles with the Godclaw mystery often take the <Link to="/oraclecurse/clouded_vision">clouded vision</Link> or <Link to="/oraclecurse/legalistic">legalistic</Link> curses.</p>
 <Block size="minimal">
@@ -711,22 +904,80 @@ const _godclaw = {title: "Godclaw", jsx: <><h2 id="mystery-godclaw-godclaw">Godc
 <Pair plain title="16th"><Link to="/spell/shield_of_law">Shield of law</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/imprisonment">Imprisonment</Link></Pair>
 </Ability>
-<h3 id="mystery-godclaw-revelations">Revelations</h3>
+<h3 id="mystery-godclaw-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Godclaw mystery can choose from any of the following revelations.</p>
-<p><strong>Abadar's Boon (Sp):</strong> You can spend 1 minute meditating on and communing with a masterwork object of any type. At the end of this time, you can speak with that item. This functions as per <Link to="/spell/stone_tell">stone tell</Link>, except that it works with masterwork goods, and the item cannot tell you what it covers or conceals if that question is not applicable to it. You can speak with items in this way for a number of minutes equal to your oracle level. This duration does not need to be consecutive, but it must be used in 1-minute increments.</p>
-<p><strong>Asmodeus's Boon (Sp):</strong> Whenever a creature fails a saving throw and takes damage from one of your spells, it is <Link to="/misc/shaken">shaken</Link> for a number of rounds equal to the spell's level. Spells that do not allow saves do not cause creatures to become shaken. This does not stack with other fear effects.</p>
-<p><strong>Armored Mind (Su):</strong> While you are wearing <Link to="/eq-armor/hellknight_plate">Hellknight plate</Link> or a <Link to="/eq-misc/signifer_mask">signifer mask</Link>, you gain a +2 bonus on Will saving throws to resist mind-affecting effects. Once per day at 7th level, you can reroll a Will saving throw against a mind-affecting effect and choose the more favorable result. At 11th level, the bonus on Will saving throws increases to +4.</p>
-<p><strong>Might of the Godclaw (Su):</strong> You gain <Link to="/feat/deific_obedience">Deific Obedience</Link> as a bonus feat, even if you don't meet its prerequisites. When you gain the feat, choose one Godclaw deity (one of the five deities listed above); you can perform that deity's daily obedience to gain its benefits. Whenever you would gain one of your deity's boons, you can instead gain the benefits of another Godclaw deity's obedience. You can choose to gain the benefits of a maximum of four Godclaw deities' obediences if you choose to forgo all three of your god's boons. You never need to spend more than 1 hour per day to perform your obedience. You must be at least 3rd level to select this revelation.</p>
-<p><strong>Instant Armor (Su):</strong> Choose one type of heavy armor. You gain proficiency in that armor. At 3rd level, twice per day as an immediate action, you can instantly don or remove a suit of your chosen armor that you touch, causing it to teleport onto or off of your body. At 11th level, you can spend 1 minute placing a suit of your chosen armor into an extradimensional space. You can use this ability to immediately don or remove that armor, calling it from or removing it to that extradimensional space. While in the extradimensional space, the armor regains 1 hit point per hour when damaged.</p>
-<p><strong>Iomedae's Boon (Su):</strong> As a move action, you can call upon your deities to grant you courage. You gain a +1 morale bonus on attack rolls, damage rolls, and Will saving throws against fear effects for a number of rounds equal to your Charisma bonus. At 7th level, this bonus increases to +2, and at 14th level this bonus increases to +3. You can use this ability once per day, plus one additional time per day at 5th level, and every 5 levels thereafter.</p>
-<p><strong>Iron Order (Sp):</strong> Once per day, you can issue an order as per <Link to="/spell/suggestion">suggestion</Link>. Any creature of chaotic alignment has difficulty defying your command, taking a -4 penalty on its saving throw to resist it. At 15th level, your command function as per <Link to="/spell/mass_suggestion">mass suggestion</Link>. If you are wearing Hellknight plate or a signifer mask, your command's target takes an additional -2 penalty on its saving throw to resist the order (regardless of the target's alignment; this stacks with the penalty chaotic creatures take). You must be at least 7th level to select this revelation.</p>
-<p><strong>Irori's Boon (Su):</strong> Once per day as an immediate action, whenever you fail a saving throw that causes you to become blinded, deafened, frightened, panicked, paralyzed, shaken, or stunned, you can attempt that saving throw again with a +4 insight bonus on the roll. You must take the second result, even if it is worse. At 7th and 15th level, you can use this ability one additional time per day.</p>
-<p><strong>Resiliency (Ex):</strong> Once per day, when you are brought below 0 hit points but not killed, you can act is if you are <Link to="/misc/disabled">disabled</Link> for 1 round. At the end of your next turn, unless you are brought to above 0 hit points, you immediately fall unconscious and begin dying. At 7th level, you gain <Link to="/feat/diehard">Diehard</Link> as a bonus feat, even if you do not meet the prerequisite. At 15th level, three times per day, if you are disabled and take a standard action (or any otherwise strenuous action), you avoid taking 1 point of damage if you succeed at a DC 15 Fortitude saving throw.</p>
-<p><strong>Torag's Boon (Su):</strong> As a standard action, you can call upon Torag's protection to form a shield around you that blocks incoming attacks for a number of minutes equal to 1/2 your oracle level (minimum 1). The shield grants a +4 deflection bonus to your Armor Class. At 7th level, and again at 11th level and 15th level, this bonus increases by +1. At 19th level, the shield also grants you DR 2/chaos. The shield's duration does not need to be consecutive, but it must be spent in 1-minute increments.</p>
-<h3 id="mystery-godclaw-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you can cast <Link to="/spell/detect_chaos">detect chaos</Link>, <Link to="/spell/detect_law">detect law</Link>, and <Link to="/spell/discern_lies">discern lies</Link> at will as spell-like abilities, using your oracle level as your caster level. You no longer take armor check penalties for wearing armor, and your armor's maximum Dexterity bonus increases by 5. Once per day, you can cast <Link to="/spell/crushing_hand">crushing hand</Link> as a spell-like ability without requiring a focus component, treating your oracle level as your caster level. This hand manifests as a massive, spiked gauntlet.</p>
+<Ability id="abadars-boon-sp" icon={["magic"]}>
+<Pair single id="abadars-boon-sp">Abadar's Boon (Sp)</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Ability">You can spend 1 minute meditating on and communing with a masterwork object of any type. At the end of this time, you can speak with that item. This functions as per <Link to="/spell/stone_tell">stone tell</Link>, except that it works with masterwork goods, and the item cannot tell you what it covers or conceals if that question is not applicable to it.</Pair>
+</Ability>
+<Ability id="asmodeuss-boon-sp" icon={["lower"]}>
+<Pair single id="asmodeuss-boon-sp">Asmodeus's Boon (Sp)</Pair>
+<Pair title="Ability">Whenever a creature fails a saving throw and takes damage from one of your spells, it is <Link to="/misc/shaken">shaken</Link> for a number of rounds equal to the spell's level. Spells that do not allow saves do not cause creatures to become shaken. This does not stack with other fear effects.</Pair>
+</Ability>
+<Ability id="armored-mind-su" icon={["def","roll"]}>
+<Pair single id="armored-mind-su">Armored Mind (Su)</Pair>
+<Pair title="Passive Ability">While you are wearing <Link to="/eq-armor/hellknight_plate">Hellknight plate</Link> or a <Link to="/eq-misc/signifer_mask">signifer mask</Link>, you gain a +2 bonus on Will saving throws to resist mind-affecting effects.</Pair>
+<Pair title="At 7th Level">Once per day, you can reroll a Will saving throw against a mind-affecting effect and choose the more favorable result.</Pair>
+<Pair title="At 11th Level">The bonus on Will saving throws increases to +4.</Pair>
+</Ability>
+<Ability id="might-of-the-godclaw-su" icon={["power"]}>
+<Pair single id="might-of-the-godclaw-su">Might of the Godclaw (Su)</Pair>
+<Pair title="Prerequisites">3rd-level oracle</Pair>
+<Pair title="Ability"><p>You gain <Link to="/feat/deific_obedience">Deific Obedience</Link> as a bonus feat, even if you don't meet its prerequisites. When you gain the feat, choose one Godclaw deity (one of the five deities listed above); you can perform that deity's daily obedience to gain its benefits.</p>
+<p>Whenever you would gain one of your deity's boons, you can instead gain the benefits of another Godclaw deity's obedience. You can choose to gain the benefits of a maximum of four Godclaw deities' obediences if you choose to forgo all three of your god's boons. You never need to spend more than 1 hour per day to perform your obedience.</p>
+</Pair>
+</Ability>
+<Ability id="instant-armor-su" icon={["power"]}>
+<Pair single id="instant-armor-su">Instant Armor (Su)</Pair>
+<Pair title="Ability">Choose one type of heavy armor. You gain proficiency in that armor.</Pair>
+<Pair title="At 3rd Level">Twice per day as an <strong className="hl">immediate action</strong>, you can instantly don or remove a suit of your chosen armor that you touch, causing it to teleport onto or off of your body.</Pair>
+<Pair title="At 11th Level">You can spend 1 minute placing a suit of your chosen armor into an extradimensional space. You can use this ability to immediately don or remove that armor, calling it from or removing it to that extradimensional space. While in the extradimensional space, the armor regains 1 hit point per hour when damaged.</Pair>
+</Ability>
+<Ability id="iomedaes-boon-su" icon={["boost","def"]}>
+<Pair single id="iomedaes-boon-su" flavor="You can call upon your deities to grant you courage.">Iomedae's Boon (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Move-Equivalent Action">You gain a +1 morale bonus on attack rolls, damage rolls, and Will saving throws against fear effects for a number of rounds equal to your Charisma bonus.</Pair>
+<Pair title="At 7th Level">This bonus increases to +2.</Pair>
+<Pair title="At 14th Level">This bonus increases to +3.</Pair>
+</Ability>
+<Ability id="iron-order-sp" icon={["magic"]}>
+<Pair single id="iron-order-sp">Iron Order (Sp)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Ability">Once per day, you can issue an order as per <Link to="/spell/suggestion">suggestion</Link>. Any creature of chaotic alignment has difficulty defying your command, taking a -4 penalty on its saving throw to resist it.</Pair>
+<Pair title="At 15th Level">Your command function as per <Link to="/spell/mass_suggestion">mass suggestion</Link>. If you are wearing Hellknight plate or a signifer mask, your command's target takes an additional -2 penalty on its saving throw to resist the order (regardless of the target's alignment; this stacks with the penalty chaotic creatures take).</Pair>
+</Ability>
+<Ability id="iroris-boon-su" icon={["def"]}>
+<Pair single id="iroris-boon-su">Irori's Boon (Su)</Pair>
+<Pair title="Immediate Action">Once per day, whenever you fail a saving throw that causes you to become blinded, deafened, frightened, panicked, paralyzed, shaken, or stunned, you can attempt that saving throw again with a +4 insight bonus on the roll. You must take the second result, even if it is worse.</Pair>
+<Pair title="At 7th Level">You can use this ability twice a day.</Pair>
+<Pair title="At 15th Level">You can do this three times a day.</Pair>
+</Ability>
+<Ability id="resiliency-ex" icon={["def","power"]}>
+<Pair single id="resiliency-ex">Resiliency (Ex)</Pair>
+<Pair title="Ability">Once per day, when you are brought below 0 hit points but not killed, you can act as if you are <Link to="/misc/disabled">disabled</Link> for 1 round. At the end of your next turn, unless you are brought to above 0 hit points, you immediately fall unconscious and begin <Link to="/misc/dying">dying</Link>.</Pair>
+<Pair title="At 7th Level">You gain <Link to="/feat/diehard">Diehard</Link> as a bonus feat, even if you do not meet the prerequisites.</Pair>
+<Pair title="At 15th Level">Three times per day, if you are disabled and take a standard action (or any otherwise strenuous action), you avoid taking 1 point of damage if you succeed at a DC 15 Fortitude saving throw.</Pair>
+</Ability>
+<Ability id="torags-boon-su" icon={["def"]}>
+<Pair single id="torags-boon-su">Torag's Boon (Su)</Pair>
+<Pair title="Usage">1 minute/day per two oracle levels (minimum 1); these minutes need not be consecutive, but they must be spent in 1-minute increments<ByLevelPop levels={[[1,1],[4,2],[6,3],[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="minute" postText="/day" /></Pair>
+<Pair title="Standard Action">You can call upon Torag's protection to form a shield around you that blocks incoming attacks. The shield grants a +4 deflection bonus to your Armor Class.</Pair>
+<Pair title="At 7th Level">This bonus becomes +5.</Pair>
+<Pair title="At 11th Level">This bonus increases to +6.</Pair>
+<Pair title="At 15th Level">This bonus becomes +7.</Pair>
+<Pair title="At 19th Level">The shield also grants you DR 2/chaos.</Pair>
+</Ability>
+<h3 id="mystery-godclaw-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["magic","boost"]}>
+<Pair single id="final-revelation">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">You can cast <Link to="/spell/detect_chaos">detect chaos</Link>, <Link to="/spell/detect_law">detect law</Link>, and <Link to="/spell/discern_lies">discern lies</Link> at will as spell-like abilities, using your oracle level as your caster level.</Pair>
+<Pair title="Passive Ability">You no longer take armor check penalties for wearing armor, and your armor's maximum Dexterity bonus increases by 5.</Pair>
+<Pair title="Ability">Once per day, you can cast <Link to="/spell/crushing_hand">crushing hand</Link> as a spell-like ability without requiring a focus component, treating your oracle level as your caster level. This hand manifests as a massive, spiked gauntlet.</Pair>
+</Ability>
 </>};
-const _heavens = {title: "Heavens", jsx: <><h2 id="mystery-heavens-heavens">Heavens</h2>
+const _heavens = {hasJL:true,title: "Heavens", jsx: <><div className="jumpList" id="mystery-heavens-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-heavens-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-heavens-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-heavens-heavens">Heavens</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 47</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/desna">Desna</Link>, <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>.</Cell></Row></Block>
@@ -745,20 +996,77 @@ const _heavens = {title: "Heavens", jsx: <><h2 id="mystery-heavens-heavens">Heav
 <Pair plain title="16th"><Link to="/spell/sunburst">Sunburst</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/meteor_swarm">Meteor swarm</Link></Pair>
 </Ability>
-<h3 id="mystery-heavens-revelations">Revelations</h3>
+<h3 id="mystery-heavens-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Heavens mystery can choose from any of the following revelations.</p>
-<p><strong>Awesome Display (Su):</strong> Your phantasmagoric displays accurately model the mysteries of the night sky, dumbfounding all who behold them. Each creature affected by your illusion (pattern) spells is treated as if its total number of Hit Dice were equal to its number of Hit Dice minus your Charisma modifier (if positive).</p>
-<p><strong>Coat of Many Stars (Su):</strong> You conjure a coat of starry radiance that grants you a +4 armor bonus. At 7th level, and every four levels thereafter, this bonus increases by +2. At 13th level, this armor grants you DR 5/slashing. You can use this coat for 1 hour per day per oracle level. The duration does not need to be consecutive; it can instead be spent in 1-hour increments.</p>
-<p><strong>Dweller in Darkness (Sp):</strong> Once per day, you cast your psyche into the void of space to attract the attention of a terrible otherworldly being. The <em>dweller in darkness</em> behaves in all ways as if you had cast <Link to="/spell/phantasmal_killer">phantasmal killer</Link>. At 17th level, the <em>dweller in darkness</em> can be perceived by more than one creature, as if you had cast <Link to="/spell/weird">weird</Link>. You must be at least 11th level to choose this revelation.</p>
-<p><strong>Guiding Star (Su):</strong> Whenever you can see the open sky at night, you can determine your precise location. When the night sky is visible to you, you may also add your Charisma modifier to your Wisdom modifier on all Wisdom-based checks. In addition, once per night while outdoors, you can cast one spell as if it were modified by the <Link to="/feat/empower_spell">Empower Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link> feat without increasing the spell's casting time or level.</p>
-<p><strong>Interstellar Void (Su):</strong> You call upon the frigid depths of outer space to bring a terrible chill to your enemies. As a standard action, one target within 30 feet is cloaked in the void and takes 1d6 points of cold damage per level. A successful Fortitude save halves this damage. At 10th level, the interstellar void is so extreme that enemies who fail their saving throw are fatigued. At 15th level, creatures who fail their save are exhausted and stunned for 1 round. You can use this ability once per day plus one additional time per day at 10th level.</p>
-<p><strong>Lure of the Heavens (Su):</strong> Your connection to the skies above is so strong that your feet barely touch the ground. At 1st level, you no longer leave tracks. At 5th level, you can hover up to 6 inches above the ground or even above liquid surfaces, as if <Link to="/spell/levitate">levitating</Link>. At 10th level, you gain the ability to <Link to="/spell/fly">fly</Link>, as per the spell, for a number of minutes per day equal to your oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments.</p>
-<p><strong>Mantle of Moonlight (Su):</strong> Your innate understanding of the moon renders you immune to lycanthropy. Additionally, you may disrupt a <Link to="/template/lycanthrope">lycanthrope's</Link> connection to the moon with a successful touch attack. This action automatically forces the lycanthrope into its humanoid form, which it must remain in for a number of rounds equal to your oracle level. Upon reaching 5th level, you can use this ability to force others into a <Link to="/spell/rage">rage</Link>, as per the spell. Using this ability is a melee touch attack. You can use this ability once per day at 5th level plus one additional time per day for every 5 levels above 5th.</p>
-<p><strong>Moonlight Bridge (Su):</strong> You summon a bridge of shimmering moonlight. The 10-foot-wide span touches the ground at a point adjacent to your position. From this point it can extend in any direction for 10 feet per oracle level. The path persists until you have crossed over the bridge or for 24 hours, whichever is shorter. You may summon a moonlight bridge a number of times per day equal to your Charisma bonus. Should the bridge be attacked, treat it as a <Link to="/spell/wall_of_force">wall of force</Link>.</p>
-<p><strong>Spray of Shooting Stars (Su):</strong> As a standard action, you can unleash a ball of energy that explodes in a 5-foot-radius <Link to="/misc/burst">burst</Link> dealing 1d4 points of fire damage per level. A successful Reflex save halves this damage. This attack has a range of 60 feet. You can fire one explosive ball per day, plus one additional ball per day at 5th level and for every 5 levels thereafter. You can fire more than one ball at a time, but creatures caught inside more than one simultaneous explosions only take damage once.</p>
-<p><strong>Star Chart (Ex):</strong> Your copious notes contain a working model of the night sky expressed in artistic scribbles and arcane mathematical formulae. Once per day, you may spend 10 minutes contemplating your star chart to gain the benefit of the spell <Link to="/spell/commune">commune</Link>. You must be at least 7th level to select this revelation.</p>
-<h3 id="mystery-heavens-final-revelation">Final Revelation</h3>
-<p>Upon achieving 20th level, your rapport with the heavens grants you perfect harmony with the universe. You receive a bonus on all saving throws equal to your Charisma modifier. You automatically stabilize if you are below 0 hit points, are immune to fear effects, and automatically confirm all critical hits. Should you die, you are reborn 3 days later in the form of a star child, who matures over the course of 7 days (treat as the <Link to="/spell/reincarnate">reincarnate</Link> spell).</p>
+<Ability id="awesome-display-su" icon={["lower"]}>
+<Pair single id="awesome-display-su" flavor="Your phantasmagoric displays accurately model the mysteries of the night sky, dumbfounding all who behold them.">Awesome Display (Su)</Pair>
+<Pair title="Passive Ability">Each creature affected by your illusion (pattern) spells is treated as if its total number of Hit Dice were equal to its number of Hit Dice minus your Charisma modifier (if positive).</Pair>
+</Ability>
+<Ability id="coat-of-many-stars-su" icon={["def"]}>
+<Pair single id="coat-of-many-stars-su">Coat of Many Stars (Su)</Pair>
+<Pair title="Usage">1 hour/day per oracle level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="Ability">You conjure a coat of starry radiance that grants you a +4 armor bonus.</Pair>
+<Pair title="At 7th Level">This bonus becomes +6.</Pair>
+<Pair title="At 11th Level">This bonus increases to +8.</Pair>
+<Pair title="At 13th Level">This armor grants you DR 5/slashing.</Pair>
+<Pair title="At 15th Level">This bonus becomes +10.</Pair>
+<Pair title="At 19th Level">This bonus increases to +12.</Pair>
+</Ability>
+<Ability id="dweller-in-darkness-sp" icon={["magic"]}>
+<Pair single id="dweller-in-darkness-sp">Dweller in Darkness (Sp)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Ability">Once per day, you cast your psyche into the void of space to attract the attention of a terrible otherworldly being. The <em>dweller in darkness</em> behaves in all ways as if you had cast <Link to="/spell/phantasmal_killer">phantasmal killer</Link>.</Pair>
+<Pair title="At 17th Level">The <em>dweller in darkness</em> can be perceived by more than one creature, as if you had cast <Link to="/spell/weird">weird</Link>.</Pair>
+</Ability>
+<Ability id="guiding-star-su" icon={["power","boost"]}>
+<Pair single id="guiding-star-su">Guiding Star (Su)</Pair>
+<Pair title="Ability">Whenever you can see the open sky at night, you can determine your precise location.</Pair>
+<Pair title="Passive Ability">When the night sky is visible to you, you may also add your Charisma modifier to your Wisdom modifier on all Wisdom-based checks.</Pair>
+<Pair title="Ability">Once per night while outdoors, you can cast one spell as if it were modified by the <Link to="/feat/empower_spell">Empower Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link> feat without increasing the spell's casting time or level.</Pair>
+</Ability>
+<Ability id="interstellar-void-su" icon={["magic","lower"]}>
+<Pair single id="interstellar-void-su" flavor="You call upon the frigid depths of outer space to bring a terrible chill to your enemies.">Interstellar Void (Su)</Pair>
+<Pair title="Usage">Once per day.</Pair>
+<Pair title="Standard Action">One target within 30 feet is cloaked in the void and takes 1d6 points of cold damage for every oracle level you possess. A successful Fortitude save halves this damage.</Pair>
+<Pair title="At 10th Level">You can use this ability twice a day.</Pair>
+<Pair title="At 15th Level">A creature that fail its save is <Link to="/misc/exhausted">exhausted</Link> and <Link to="/misc/stunned">stunned</Link> for 1 round.</Pair>
+</Ability>
+<Ability id="lure-of-the-heavens-su" icon={["def","power"]}>
+<Pair single id="lure-of-the-heavens-su" flavor="Your connection to the skies above is so strong that your feet barely touch the ground.">Lure of the Heavens (Su)</Pair>
+<Pair title="At 1st Level">You no longer leave tracks.</Pair>
+<Pair title="At 5th Level">You can hover up to 6 inches above the ground or even above liquid surfaces, as if <Link to="/spell/levitate">levitating</Link>.</Pair>
+<Pair title="At 10th Level">You gain the ability to <Link to="/spell/fly">fly</Link>, as per the spell, for a number of minutes per day equal to your oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments.</Pair>
+</Ability>
+<Ability id="mantle-of-moonlight-su" icon={["def","touch"]}>
+<Pair single id="mantle-of-moonlight-su">Mantle of Moonlight (Su)</Pair>
+<Pair title="Passive Ability">Your innate understanding of the moon renders you immune to <Link to="/corruption/lycanthropy">lycanthropy</Link>.</Pair>
+<Pair title="Ability">As a melee touch attack, you may disrupt a <Link to="/template/lycanthrope">lycanthrope's</Link> connection to the moon. This action automatically forces the lycanthrope into its humanoid form, which it must remain in for a number of rounds equal to your oracle level.</Pair>
+<Pair title="At 5th Level">You can use this ability to force others into a <Link to="/spell/rage">rage</Link>, as per the spell, but only a number of times per day equal to <Link to="/misc/one_fifth">one-fifth</Link> of your oracle level. It's still a melee touch attack.</Pair>
+</Ability>
+<Ability id="moonlight-bridge-su" icon={["magic"]}>
+<Pair single id="moonlight-bridge-su">Moonlight Bridge (Su)</Pair>
+<Pair title="Usage">Charisma modifier times/day</Pair>
+<Pair title="Ability">You summon a bridge of shimmering moonlight. The 10-foot-wide span touches the ground at a point adjacent to your position. From this point it can extend in any direction for 10 feet per oracle level. The path persists until you have crossed over the bridge or for 24 hours, whichever is shorter.</Pair>
+<Pair title="Special">Should the bridge be attacked, treat it as a <Link to="/spell/wall_of_force">wall of force</Link>.</Pair>
+</Ability>
+<Ability id="spray-of-shooting-stars-su" icon={["ranged"]}>
+<Pair single id="spray-of-shooting-stars-su">Spray of Shooting Stars (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels</Pair>
+<Pair title="Standard Action">You can unleash a ball of energy that explodes in a 5-foot-radius <Link to="/misc/burst">burst</Link> dealing 1d4 points of fire damage per level. A successful Reflex save halves this damage. This attack has a range of 60 feet.</Pair>
+<Pair title="Special">You can fire more than one ball at a time, but creatures caught inside more than one simultaneous explosions only take damage once.</Pair>
+</Ability>
+<Ability id="star-chart-ex" icon={["magic"]}>
+<Pair single id="star-chart-ex" flavor="Your copious notes contain a working model of the night sky expressed in artistic scribbles and arcane mathematical formulae.">Star Chart (Ex)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Ability">Once per day, you may spend 10 minutes contemplating your star chart to gain the benefit of the spell <Link to="/spell/commune">commune</Link>.</Pair>
+</Ability>
+<h3 id="mystery-heavens-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["def","boost"]}>
+<Pair single id="final-revelation" flavor="Your rapport with the heavens grants you perfect harmony with the universe.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You receive a bonus on all saving throws equal to your Charisma modifier. You automatically stabilize if you are below 0 hit points, are immune to fear effects, and automatically confirm all critical hits.</Pair>
+<Pair title="Special">Should you die, you are reborn 3 days later in the form of a star child, who matures over the course of 7 days (treat as the <Link to="/spell/reincarnate">reincarnate</Link> spell).</Pair>
+</Ability>
 <aside><p>There is no such creature or template called "Star Child"; the line was intended as <a href="https://paizo.com/threads/rzs2l366?Oracle-of-Heavens-and-Star-Child#3" data-outgoing>a flavorful way of saying "a reincarnated oracle"</a>.</p>
 </aside></>};
 const _intrigue = {title: "Intrigue", jsx: <><h2 id="mystery-intrigue-intrigue">Intrigue</h2>
