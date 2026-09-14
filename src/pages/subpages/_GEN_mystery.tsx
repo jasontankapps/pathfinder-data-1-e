@@ -1069,7 +1069,7 @@ const _heavens = {hasJL:true,title: "Heavens", jsx: <><div className="jumpList" 
 </Ability>
 <aside><p>There is no such creature or template called "Star Child"; the line was intended as <a href="https://paizo.com/threads/rzs2l366?Oracle-of-Heavens-and-Star-Child#3" data-outgoing>a flavorful way of saying "a reincarnated oracle"</a>.</p>
 </aside></>};
-const _intrigue = {title: "Intrigue", jsx: <><h2 id="mystery-intrigue-intrigue">Intrigue</h2>
+const _intrigue = {hasJL:true,title: "Intrigue", jsx: <><div className="jumpList" id="mystery-intrigue-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-intrigue-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-intrigue-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-intrigue-intrigue">Intrigue</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 69</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/calistria">Calistria</Link>, <Link to="/faith/norgorber">Norgorber</Link></Cell></Row></Block>
@@ -1088,22 +1088,81 @@ const _intrigue = {title: "Intrigue", jsx: <><h2 id="mystery-intrigue-intrigue">
 <Pair plain title="16th"><Link to="/spell/mind_blank">Mind blank</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/overwhelming_presence">Overwhelming presence</Link></Pair>
 </Ability>
-<h3 id="mystery-intrigue-revelations">Revelations</h3>
+<h3 id="mystery-intrigue-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Intrigue mystery can choose from any of the following revelations.</p>
-<p><strong>Assumed Form (Sp):</strong> You can change your appearance at will, as <Link to="/spell/disguise_self">disguise self</Link> with a caster level equal to your oracle level. At 7th level, you can choose to actually transform, which works the same way but counts as a polymorph effect instead of an illusion and doesn't allow a Will save to disbelieve. At 11th level, the ability lasts until you dismiss it or use it again, allowing you to even keep it active while you sleep. At 15th level, when you use this ability as a polymorph effect, you can gain the size bonus to your ability scores and additional racial abilities as if using <Link to="/spell/alter_self">alter self</Link>.</p>
-<p><strong>Desire Sight (Sp):</strong> As a standard action, you can learn the desires of any creature you can see within 100 feet, as if you had concentrated until the third round of <Link to="/spell/detect_desires">detect desires</Link>. As usual for detect desires, the target can attempt a Will save to negate the effect. You can use this ability once per day at 1st level, plus one additional time per day at 5th level and for every 5 levels beyond 5th.</p>
-<p><strong>Forgotten Presence (Sp):</strong> Once per day as an immediate action, you can cause a creature to forget that you were present for the last minute per oracle level, including forgetting all actions you took during that time, unless it succeeds at a Will save (DC 10 + 1/2 your oracle level + your Charisma modifier). Effects such as <Link to="/spell/modify_memory">modify memory</Link> can restore the lost memories. At 15th level, you can use this ability twice per day. You must be at least 7th level to select this revelation.</p>
-<p><strong>Gossip Guru (Sp):</strong> You sit in a web of intrigue like a spider, subtly tracing the course of rumors and gossip in order to understand the ties that bind those around you. You can use the <Link to="/spell/rumormonger">rumormonger</Link> spell once per day as a spell-like ability, using your oracle level as your caster level. Each time you do so, it ends the duration of any previous activation. At 11th level, you can use this ability three times per day, and at 15th level, you can use it at will, but regardless, each use still ends the duration of any previous activation. You must be at least 7th level to select this revelation.</p>
-<p><strong>Hidden Magic (Su):</strong> You gain the <Link to="/feat/conceal_spell">Conceal Spell</Link> feat as a bonus feat without needing to meet the prerequisites. At 7th level, you can also hide your use of <Link to="/misc/spell_trigger">spell trigger</Link> items using the Conceal Spell feat, though onlookers receive a +2 bonus on their skill checks to pierce your subterfuge. At 11th level, you can even hide the use of <Link to="/misc/spell_completion">spell completion</Link> items using the Conceal Spell feat, though in this case, onlookers receive a +5 bonus on their skill checks to pierce your subterfuge.</p>
-<p><strong>Mirrored Retreat (Su):</strong> Once per day as a full-round action, your form ripples and releases seven illusory duplicates, as <Link to="/spell/mirror_image">mirror image</Link>, and then you can move up to your speed in any direction, while the duplicates move in seven other directions. The duplicates continue to retreat in their chosen direction, avoiding walls and other barriers but unable to open doors or interact with objects. The duplicates last for 1 minute per oracle level or until they take damage (they have the same AC as your touch AC and the same Reflex save as you, and they are immune to effects that allow a Fortitude or Will save). You can use this ability an additional time per day at 11th level and every 4 levels thereafter. This is a figment effect. You must be at least 7th level to select this revelation.</p>
-<p><strong>Poetic Vengeance (Su):</strong> You constantly plot and scheme to take your revenge against those who wrong you. Once per day as an immediate action, after an enemy successfully affects you with an attack (whether with a spell, a physical attack, or any other sort of attack), you can force the enemy to take half the effects of its own attack unless it succeeds on a Will save (DC 10 + 1/2 your oracle level + your Charisma modifier). Any damage from the attack is halved, and non-damaging effects have a 50% chance to apply. If the non-damaging effect has a DC, the enemy receives a saving throw against it, at either the DC of the original effect or the DC of this ability, whichever is lower. At 10th level, you can use this ability twice per day, and at 20th level you can use it three times per day.</p>
-<p><strong>Tracer Touch (Sp):</strong> Once per day, you can touch a creature or object and plant a scrying sensor on it, as if you had cast <Link to="/spell/vicarious_view">vicarious view</Link>. At 15th level, you can use this ability twice per day. You must be at least 11th level to select this revelation.</p>
-<p><strong>Veiled Venom (Sp):</strong> The powers of intrigue veil your poisons and magic items from magical scrutiny. As a standard action, you can touch an object, granting it the benefits of the spells <Link to="/spell/magic_aura">magic aura</Link> and <Link to="/spell/obscure_poison">obscure poison</Link>. You can use this ability at will, but each time you do, the effects of any previous use end.</p>
-<p><strong>Whispered Glimpses (Su):</strong> The whispers of intrigue sing to you with glimpses of insight into others' presence and motives, granting you greater awareness than your own senses could manage. You can add your Charisma modifier instead of your Wisdom bonus on Perception and Sense Motive checks.</p>
-<h3 id="mystery-intrigue-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become a master of intrigue. You can apply <Link to="/feat/silent_spell">Silent Spell</Link> or <Link to="/feat/still_spell">Still Spell</Link> to any spell you cast without increasing the level or casting time. You do not need to possess these feats to use this ability.</p>
+<Ability id="assumed-form-sp" icon={["magic","boost"]}>
+<Pair single id="assumed-form-sp">Assumed Form (Sp)</Pair>
+<Pair title="Ability">You can change your appearance at will, as <Link to="/spell/disguise_self">disguise self</Link> with a caster level equal to your oracle level.</Pair>
+<Pair title="At 7th Level">You can choose to actually transform, which works the same way but counts as a polymorph effect instead of an illusion and doesn't allow a Will save to disbelieve.</Pair>
+<Pair title="At 11th Level">The ability lasts until you dismiss it or use it again, allowing you to even keep it active while you sleep.</Pair>
+<Pair title="At 15th Level">When you use this ability as a polymorph effect, you can gain the size bonus to your ability scores and additional racial abilities as if using <Link to="/spell/alter_self">alter self</Link>.</Pair>
+</Ability>
+<Ability id="desire-sight-sp" icon={["magic"]}>
+<Pair single id="desire-sight-sp">Desire Sight (Sp)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action">You can learn the desires of any creature you can see within 100 feet, as if you had concentrated until the third round of <Link to="/spell/detect_desires">detect desires</Link>. As usual for <em>detect desires,</em> the target can attempt a Will save to negate the effect.</Pair>
+</Ability>
+<Ability id="forgotten-presence-sp" icon={["magic"]}>
+<Pair single id="forgotten-presence-sp">Forgotten Presence (Sp)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Immediate Action">Once per day, you can cause a creature to forget that you were present for the last minute per oracle level, including forgetting all actions you took during that time, unless it succeeds at a Will save (DC 10 + 1/2 your oracle level + your Charisma modifier).</Pair>
+<Pair title="At 15th Level">You can use this ability twice per day.</Pair>
+<Pair title="Special">Effects such as <Link to="/spell/modify_memory">modify memory</Link> can restore the lost memories.</Pair>
+</Ability>
+<Ability id="gossip-guru-sp" icon={["magic"]}>
+<Pair single id="gossip-guru-sp" flavor="You sit in a web of intrigue like a spider, subtly tracing the course of rumors and gossip in order to understand the ties that bind those around you.">Gossip Guru (Sp)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Ability">You can use the <Link to="/spell/rumormonger">rumormonger</Link> spell once per day as a spell-like ability, using your oracle level as your caster level. Each time you do so, it ends the duration of any previous activation.</Pair>
+<Pair title="At 11th Level">You can use this ability three times per day.</Pair>
+<Pair title="At 15th Level">You can use it at will.</Pair>
+<Pair title="Special">Each use still ends the duration of any previous activation.</Pair>
+</Ability>
+<Ability id="hidden-magic-su" icon={["power"]}>
+<Pair single id="hidden-magic-su">Hidden Magic (Su)</Pair>
+<Pair title="Ability">You gain the <Link to="/feat/conceal_spell">Conceal Spell</Link> feat as a bonus feat without needing to meet the prerequisites.</Pair>
+<Pair title="At 7th Level">You can also hide your use of <Link to="/misc/spell_trigger">spell trigger</Link> items using the Conceal Spell feat, though onlookers receive a +2 bonus on their skill checks to pierce your subterfuge.</Pair>
+<Pair title="At 11th Level">You can even hide the use of <Link to="/misc/spell_completion">spell completion</Link> items using the Conceal Spell feat, though in this case, onlookers receive a +5 bonus on their skill checks to pierce your subterfuge.</Pair>
+</Ability>
+<Ability id="mirrored-retreat-su" icon={["def","magic"]}>
+<Pair single id="mirrored-retreat-su">Mirrored Retreat (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 time/day + 1 per four oracle levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Full-Round Action"><p>Once per day, your form ripples and releases seven illusory duplicates, as <Link to="/spell/mirror_image">mirror image</Link>, and then you can move up to your speed in any direction, while the duplicates move in seven other directions. The duplicates continue to retreat in their chosen direction, avoiding walls and other barriers but unable to open doors or interact with objects.</p>
+<p>The duplicates last for 1 minute per oracle level or until they take damage (they have the same AC as your touch AC and the same Reflex save as you, and they are immune to effects that allow a Fortitude or Will save).</p>
+</Pair>
+<Pair title="Special">This is a figment effect.</Pair>
+</Ability>
+<Ability id="poetic-vengeance-su" icon={["def"]}>
+<Pair single id="poetic-vengeance-su" flavor="You constantly plot and scheme to take your revenge against those who wrong you.">Poetic Vengeance (Su)</Pair>
+<Pair title="Immediate Action"><p>Once per day, after an enemy successfully affects you with an attack (whether with a spell, a physical attack, or any other sort of attack), you can force the enemy to take half the effects of its own attack unless it succeeds on a Will save (DC 10 + 1/2 your oracle level + your Charisma modifier).</p>
+<p>Any damage from the attack is halved, and non-damaging effects have a 50% chance to apply. If the non-damaging effect has a DC, the enemy receives a saving throw against it, at either the DC of the original effect or the DC of this ability, whichever is lower.</p>
+</Pair>
+<Pair title="At 10th Level">You can use this ability twice per day.</Pair>
+<Pair title="At 20th Level">You can use it three times per day.</Pair>
+</Ability>
+<Ability id="tracer-touch-sp" icon={["magic"]}>
+<Pair single id="tracer-touch-sp">Tracer Touch (Sp)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Ability">Once per day, you can touch a creature or object and plant a scrying sensor on it, as if you had cast <Link to="/spell/vicarious_view">vicarious view</Link>.</Pair>
+<Pair title="At 15th Level">You can use this ability twice per day.</Pair>
+</Ability>
+<Ability id="veiled-venom-sp" icon={["protect"]}>
+<Pair single id="veiled-venom-sp" flavor="The powers of intrigue veil your poisons and magic items from magical scrutiny.">Veiled Venom (Sp)</Pair>
+<Pair title="Standard Action">You can touch an object, granting it the benefits of the spells <Link to="/spell/magic_aura">magic aura</Link> and <Link to="/spell/obscure_poison">obscure poison</Link>.</Pair>
+<Pair title="Special">You can use this ability at will, but each time you do, the effects of any previous use end.</Pair>
+</Ability>
+<Ability id="whispered-glimpses-su" icon={["boost"]}>
+<Pair single id="whispered-glimpses-su" flavor="The whispers of intrigue sing to you with glimpses of insight into others' presence and motives, granting you greater awareness than your own senses could manage.">Whispered Glimpses (Su)</Pair>
+<Pair title="Passive Ability">You can add your Charisma modifier instead of your Wisdom bonus on <Link to="/skill/perception">Perception</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks.</Pair>
+</Ability>
+<h3 id="mystery-intrigue-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["boost"]}>
+<Pair single id="final-revelation" flavor="You become a master of intrigue.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">You can apply <Link to="/feat/silent_spell">Silent Spell</Link> or <Link to="/feat/still_spell">Still Spell</Link> to any spell you cast without increasing the level or casting time. You do not need to possess these feats to use this ability.</Pair>
+</Ability>
 </>};
-const _juju = {title: "Juju", jsx: <><h2 id="mystery-juju-juju">Juju</h2>
+const _juju = {hasJL:true,title: "Juju", jsx: <><div className="jumpList" id="mystery-juju-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-juju-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-juju-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-juju-juju">Juju</h2>
 <p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies pg. 14</Link>, <Link to="/source/pathfinder_39_the_city_of_seven_spears">Pathfinder #39: The City of Seven Spears pg. 68</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/wendo">Wendo</Link></Cell></Row></Block>
@@ -1122,21 +1181,66 @@ const _juju = {title: "Juju", jsx: <><h2 id="mystery-juju-juju">Juju</h2>
 <Pair plain title="16th"><Link to="/spell/mass_charm_monster">Mass charm monster</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/shapechange">Shapechange</Link></Pair>
 </Ability>
-<h3 id="mystery-juju-revelations">Revelations</h3>
+<h3 id="mystery-juju-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Juju mystery can choose from any of the following revelations.</p>
-<p><strong>Beast Tongue (Ex):</strong> You can communicate with a single type of animal (birds, cats, snakes, fish, and so on) as if you were constantly using <em>speak with animals.</em> Although this ability grants you the ability to converse with such creatures, it grants you no special influence over them.</p>
-<p><strong>Connaissance (Su):</strong> You can spend a full-round action to attune yourself to the spirit world, gaining the benefit of a <Link to="/spell/moment_of_prescience">moment of prescience</Link> spell with the insight bonus equal to one half your oracle level (minimum 1). You may use this ability a number of times per day equal to your Charisma modifier (minimum 1), but you may only have one connaissance effect active at a time.</p>
-<p><strong>Ensnare the Soul (Su):</strong> Your magic turns others into zombie-like servants. Add <Link to="/spell/charm_person">charm person</Link> and <Link to="/spell/dominate_person">dominate person</Link> to your spell list. Creatures affected by either spell become listless and pale, appearing dead to observers (DC 20 Heal or Perception check to determine the creature is not undead). Affected creatures are slow to take any action unless you specifically direct them to do so. They are not mindless or helpless, however, and defend themselves if attacked.</p>
-<p><strong>Juju Senses (Ex):</strong> When casting <Link to="/spell/detect_magic">detect magic</Link> and <Link to="/spell/identify">identify</Link>, you gain a +2 bonus on Knowledge (arcana) and Spellcraft checks to recognize auras and identify their properties. You also gain a +2 bonus on Perception and Sense Motive checks made against spirit creatures, such as outsiders, fey, and incorporeal undead. At 10th level, this bonus increases to +4.</p>
-<p><strong>Night Terror (Su):</strong> You send your spirit to torment another being's dreams. Once per day, you may target a creature with the effects of a <Link to="/spell/nightmare">nightmare</Link> spell. Instead of the spell's normal damage, you make a full attack, using your Charisma modifier in place of your Strength modifier, against the victim's touch AC. You deal 1d10 damage for each successful hit. You must be at least 11th level before selecting this revelation.</p>
-<p><strong>Path of the Snake (Su):</strong> Once per day, as a standard action, you can become incorporeal. While in this form, you gain a +10 bonus on Stealth checks and can move in any direction and through any object (except for those made of force). You can take no action other than to move while in this form. You remain in this form for a number of rounds equal to your oracle level, but you can end this effect prematurely with a standard action. At 15th level, you can use this ability twice per day. You must be at least 11th level to select this revelation.</p>
-<p><strong>Spiritual Defense (Sp):</strong> Your chanting grants protection against your enemies. As a move action, you can begin chanting to gain the benefit of a protection spell (such as <Link to="/spell/protection_from_evil">protection from evil</Link>) using your oracle level as your caster level. This protection lasts until you stop chanting or for the spell's normal duration, whichever comes first. Chanting after the initial round of the effect is a free action, and you can incorporate verbal components and communication into the chant; magical silence ends a chant and its protection effect. At 6th level, you can chant aloud to create a magic circle effect (such as <Link to="/spell/magic_circle_against_evil">magic circle against evil</Link>). You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>Summon Nature's Spirits (Sp):</strong> Once per day, as a standard action, you may cast a <Link to="/spell/summon_monster">summon monster</Link> spell of a level up to the highest level you can cast. You may only summon elementals in this manner, but are treated as having the <Link to="/feat/augment_summoning">Augment Summoning</Link> feat when you do so. You must be at least 5th level to select this revelation.</p>
-<p><strong>Unwilling Host (Su):</strong> You command spirits to invade the bodies of your enemies. Once per day as a standard action you may target a number of creatures equal to your Charisma modifier within 100 feet, no two of which can be more than 30 feet apart. Targeted creatures must make a Will save or suffer the effects of a <Link to="/spell/confusion">confusion</Link> spell as the spirits possess them and cause them to behave erratically for a number of rounds equal to your oracle level. You must be at least 7th level to select this revelation.</p>
-<h3 id="mystery-juju-final-revelation">Final Revelation</h3>
-<p>At 20th level, you become a master of the connections between the mortal world and the spirit world. Your knowledge enables you to gain incredible insight and control over others by manipulating spiritual energy. You gain an insight bonus equal to your Charisma modifier to your AC and on all saving throws and Knowledge checks. Additionally, once per day, you may cast <Link to="/feat/extended">extended</Link> <Link to="/spell/dominate_monster">dominate monster</Link> as a spell-like ability. With this ability, you may dominate a number of creatures equal to double your Charisma modifier.</p>
+<Ability id="beast-tongue-ex" icon={["power"]}>
+<Pair single id="beast-tongue-ex">Beast Tongue (Ex)</Pair>
+<Pair title="Ability">You can communicate with a single type of animal (birds, cats, snakes, fish, and so on) as if you were constantly using <em>speak with animals.</em> Although this ability grants you the ability to converse with such creatures, it grants you no special influence over them.</Pair>
+</Ability>
+<Ability id="connaissance-su" icon={["magic"]}>
+<Pair single id="connaissance-su">Connaissance (Su)</Pair>
+<Pair title="Usage">Charisma modifier times/day (minimum 1)</Pair>
+<Pair title="Full-Round Action">You can attune yourself to the spirit world, gaining the benefit of a <Link to="/spell/moment_of_prescience">moment of prescience</Link> spell with the insight bonus equal to one <Link to="/misc/half">half</Link> your oracle level (minimum 1).</Pair>
+<Pair title="Special">You may only have one <em>connaissance</em> effect active at a time.</Pair>
+</Ability>
+<Ability id="ensnare-the-soul-su" icon={["learn","lower"]}>
+<Pair single id="ensnare-the-soul-su" flavor="Your magic turns others into zombie-like servants.">Ensnare the Soul (Su)</Pair>
+<Pair title="Ability">Add <Link to="/spell/charm_person">charm person</Link> and <Link to="/spell/dominate_person">dominate person</Link> to your spell list. Creatures affected by either spell become listless and pale, appearing dead to observers (DC 20 <Link to="/skill/heal">Heal</Link> or <Link to="/skill/perception">Perception</Link> check to determine the creature is not undead). Affected creatures are slow to take any action unless you specifically direct them to do so. They are not mindless or helpless, however, and defend themselves if attacked.</Pair>
+</Ability>
+<Ability id="juju-senses-ex" icon={["boost"]}>
+<Pair single id="juju-senses-ex">Juju Senses (Ex)</Pair>
+<Pair title="Passive Ability">When casting <Link to="/spell/detect_magic">detect magic</Link> and <Link to="/spell/identify">identify</Link>, you gain a +2 bonus on <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> and <Link to="/skill/spellcraft">Spellcraft</Link> checks to recognize auras and identify their properties. You also gain a +2 bonus on <Link to="/skill/perception">Perception</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks made against spirit creatures, such as outsiders, fey, and incorporeal undead.</Pair>
+<Pair title="At 10th Level">This bonus increases to +4.</Pair>
+</Ability>
+<Ability id="night-terror-su" icon={["magic"]}>
+<Pair single id="night-terror-su" flavor="You send your spirit to torment another being's dreams.">Night Terror (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Ability">Once per day, you may target a creature with the effects of a <Link to="/spell/nightmare">nightmare</Link> spell. Instead of the spell's normal damage, you make a full attack, using your Charisma modifier in place of your Strength modifier, against the victim's touch AC. You deal 1d10 damage for each successful hit.</Pair>
+</Ability>
+<Ability id="path-of-the-snake-su" icon={["def"]}>
+<Pair single id="path-of-the-snake-su">Path of the Snake (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Standard Action">Once per day, you can become incorporeal. While in this form, you gain a +10 bonus on <Link to="/skill/stealth">Stealth</Link> checks and can move in any direction and through any object (except for those made of force). You can take no action other than to move while in this form.</Pair>
+<Pair title="At 15th Level">You can use this ability twice per day.</Pair>
+<Pair title="Special">You remain in this form for a number of rounds equal to your oracle level, but you can end this effect prematurely with a <strong className="hl">standard action</strong>.</Pair>
+</Ability>
+<Ability id="spiritual-defense-sp" icon={["def","magic"]}>
+<Pair single id="spiritual-defense-sp" flavor="Your chanting grants protection against your enemies.">Spiritual Defense (Sp)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Move-Equivalent Action"><p>You can begin chanting to gain the benefit of a protection spell (such as <Link to="/spell/protection_from_evil">protection from evil</Link>) using your oracle level as your caster level. This protection lasts until you stop chanting or for the spell's normal duration, whichever comes first.</p>
+<p>Chanting after the initial round of the effect is a <strong className="hl">free action</strong>, and you can incorporate verbal components and communication into the chant; magical silence ends a chant and its protection effect.</p>
+</Pair>
+<Pair title="At 6th Level">You can chant aloud to create a magic circle effect (such as <Link to="/spell/magic_circle_against_evil">magic circle against evil</Link>).</Pair>
+</Ability>
+<Ability id="summon-natures-spirits-sp" icon={["magic","boost"]}>
+<Pair single id="summon-natures-spirits-sp">Summon Nature's Spirits (Sp)</Pair>
+<Pair title="Prerequisites">5th-level oracle</Pair>
+<Pair title="Standard Action">Once per day, you may cast a <Link to="/spell/summon_monster">summon monster</Link> spell of a level up to the highest level you can cast. You may only summon elementals in this manner, but are treated as having the <Link to="/feat/augment_summoning">Augment Summoning</Link> feat when you do so.</Pair>
+</Ability>
+<Ability id="unwilling-host-su" icon={["lower"]}>
+<Pair single id="unwilling-host-su" flavor="You command spirits to invade the bodies of your enemies.">Unwilling Host (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Standard Action">Once per day you may target a number of creatures equal to your Charisma modifier within 100 feet, no two of which can be more than 30 feet apart. Targeted creatures must make a Will save or suffer the effects of a <Link to="/spell/confusion">confusion</Link> spell as the spirits possess them and cause them to behave erratically for a number of rounds equal to your oracle level.</Pair>
+</Ability>
+<h3 id="mystery-juju-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["def","boost","magic"]}>
+<Pair single id="final-revelation" flavor="You become a master of the connections between the mortal world and the spirit world. Your knowledge enables you to gain incredible insight and control over others by manipulating spiritual energy.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You gain an insight bonus equal to your Charisma modifier to your AC and on all saving throws and <Link to="/skill/knowledge">Knowledge</Link> checks.</Pair>
+<Pair title="Ability">Once per day, you may cast <Link to="/feat/extended">extended</Link> <Link to="/spell/dominate_monster">dominate monster</Link> as a spell-like ability. With this ability, you may dominate a number of creatures equal to double your Charisma modifier.</Pair>
+</Ability>
 </>};
-const _life = {title: "Life", jsx: <><h2 id="mystery-life-life">Life</h2>
+const _life = {hasJL:true,title: "Life", jsx: <><div className="jumpList" id="mystery-life-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-life-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-life-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-life-life">Life</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 48</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>.</Cell></Row></Block>
@@ -1155,20 +1259,69 @@ const _life = {title: "Life", jsx: <><h2 id="mystery-life-life">Life</h2>
 <Pair plain title="16th"><Link to="/spell/mass_heal">Mass heal</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/true_resurrection">True resurrection</Link></Pair>
 </Ability>
-<h3 id="mystery-life-revelations">Revelations</h3>
+<h3 id="mystery-life-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Life mystery can choose from any of the following revelations.</p>
-<p><strong>Channel (Su):</strong> You can <Link to="/ability/channel_positive_energy">channel positive energy</Link> like a cleric, using your oracle level as your effective cleric level when determining the amount of damage healed (or caused to undead) and the DC. You can use this ability a number of times per day equal to 1 + your Charisma modifier.</p>
-<p><strong>Combat Healer (Su):</strong> As the <Link to="/mystery/battle">battle</Link> mystery revelation: Whenever you cast a <Link to="/main/cure_spells">cure spell</Link> (a spell with "cure" in its name), you can cast it as a swift action, as if using the <Link to="/feat/quicken_spell">Quicken Spell</Link> feat, by expending two spell slots. This does not increase the level of the spell. You can use this ability once per day at 7th level and one additional time per day for every four levels beyond 7th. You must be at least 7th level to select this revelation.</p>
-<p><strong>Delay Affliction (Su):</strong> Once per day as an immediate action, whenever you fail a saving throw against a disease or poison, you may ignore its effects for 1 hour per level. At 7th and 15th level, you can use this ability one additional time per day.</p>
-<p><strong>Energy Body (Su):</strong> As a standard action, you can transform your body into pure life energy, resembling a golden-white <Link to="/monster/fire_elemental">fire elemental</Link>. In this form, you gain the elemental subtype and give off a warm, welcoming light that increases the light level within 10 feet by one step, up to normal light. Any undead creature striking you with its body or a handheld weapon deals normal damage, but at the same time the attacker takes 1d6 points of positive energy damage + 1 point per oracle level. Creatures wielding melee weapons with reach are not subject to this damage if they attack you. If you grapple or attack an undead creature using unarmed strikes or natural weapons, you may deal this damage in place of the normal damage for the attack. Once per round, if you pass through a living allied creature's square or the ally passes through your square, it heals 1d6 hit points + 1 per oracle level. You may use this ability to heal yourself as a move action. You choose whether or not to heal a creature when it passes through your space. You may return to your normal form as a free action. You may remain in energy body form for a number of rounds per day equal to your oracle level.</p>
-<p><strong>Enhanced Cures (Su):</strong> Whenever you cast a cure spell, the maximum number of hit points healed is based on your oracle level, not the limit based on the spell. For example, an 11th-level oracle of life with this revelation may cast <Link to="/spell/cure_light_wounds">cure light wounds</Link> to heal 1d8+11 hit points instead of the normal 1d8+5 maximum.</p>
-<p><strong>Healing Hands (Ex):</strong> You gain a +4 bonus on Heal checks. You may provide first aid to two people or treat two people for poison as a standard action (make a separate Heal check for each creature). When using the Heal skill to treat wounds from <Link to="/eq-misc/caltrops">caltrops</Link> (and so on), treat deadly wounds, treat poison, treat disease, or treat long-term care, you may treat double the normal number of people you may treat at the same time. You may provide long-term care for yourself.</p>
-<p><strong>Life Link (Su):</strong> As a standard action, you may create a bond between yourself and another creature. Each round at the start of your turn, if the bonded creature is wounded for 5 or more hit points below its maximum hit points, it heals 5 hit points and you take 5 hit points of damage. You may have one bond active per oracle level. This bond continues until the bonded creature dies, you die, the distance between you and the other creature exceeds <Link to="/rule/range">medium range</Link>, or you end it as an immediate action (if you have multiple bonds active, you may end as many as you want as part of the same immediate action).</p>
-<p><strong>Lifesense (Su):</strong> You notice and locate living creatures within 30 feet, just as if you possessed the <Link to="/umr/blindsight">blindsight</Link> ability. You must be at least 11th level to select this revelation.</p>
-<p><strong>Safe Curing (Su):</strong> Whenever you cast a spell that cures the target of hit point damage, you do not provoke attacks of opportunity for spellcasting.</p>
-<p><strong>Spirit Boost (Su):</strong> Whenever your healing spells heal a target up to its maximum hit points, any excess points persist for 1 round per level as <Link to="/rule/temporary_hit_points">temporary hit points</Link> (up to a maximum number of temporary hit points equal to your oracle level).</p>
-<h3 id="mystery-life-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become a perfect channel for life energy. You become immune to bleed, death attacks, exhaustion, fatigue, nausea effects, negative levels, and sickened effects. Ability damage and drain cannot reduce you below 1 in any ability score. You automatically make saving throws against massive damage. When you are below 0 hit points, you do not die until your negative total is in excess of twice your Constitution score.</p>
+<Ability id="channel-su" icon={["aura"]}>
+<Pair single id="channel-su">Channel (Su)</Pair>
+<Pair title="Usage">1 + Charisma modifier times/day</Pair>
+<Pair title="Ability">You can <Link to="/ability/channel_positive_energy">channel positive energy</Link> like a cleric, using your oracle level as your effective cleric level when determining the amount of damage healed (or caused to undead) and the DC.</Pair>
+</Ability>
+<Ability id="combat-healer-su" icon={["boost"]}>
+<Pair single id="combat-healer-su" flavor={<>This is the same as the <Link to="/mystery/battle">battle</Link> mystery revelation.</>}>Combat Healer (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 time/day + 1 per four oracle levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">Whenever you cast <Link to="/main/cure_spells">a cure spell</Link> (a spell with "cure" in its name), you can cast it as a <strong className="hl">swift action</strong>, as if using the <Link to="/feat/quicken_spell">Quicken Spell</Link> feat, by expending two spell slots. This does not increase the level of the spell.</Pair>
+</Ability>
+<Ability id="delay-affliction-su" icon={["def"]}>
+<Pair single id="delay-affliction-su">Delay Affliction (Su)</Pair>
+<Pair title="Immediate Action">Once per day, whenever you fail a saving throw against a disease or poison, you may ignore its effects for 1 hour per level.</Pair>
+<Pair title="At 7th Level">You can do this twice a day.</Pair>
+<Pair title="At 15th Level">You can use this ability three times per day.</Pair>
+</Ability>
+<Ability id="energy-body-su" icon={["power","aid"]}>
+<Pair single id="energy-body-su">Energy Body (Su)</Pair>
+<Pair title="Standard Action"><p>You can transform your body into pure life energy, resembling a golden-white <Link to="/monster/fire_elemental">fire elemental</Link>. In this form, you gain the elemental subtype and give off a warm, welcoming light that increases the <Link to="/rule/light_level">light level</Link> within 10 feet by one step, up to normal light.</p>
+<p>Any undead creature striking you with its body or a handheld weapon deals normal damage, but at the same time the attacker takes 1d6 points of positive energy damage + 1 point per oracle level. Creatures wielding melee weapons with reach are not subject to this damage if they attack you.</p>
+<p>If you grapple or attack an undead creature using unarmed strikes or natural weapons, you may deal this damage in place of the normal damage for the attack.</p>
+<p>Once per round, if you pass through a living allied creature's square or the ally passes through your square, it heals 1d6 hit points + 1 per oracle level. You may use this ability to heal yourself as a <strong className="hl">move action</strong>. You choose whether or not to heal a creature when it passes through your space.</p>
+<p>You may return to your normal form as a <strong className="hl">free action</strong>.</p>
+</Pair>
+<Pair title="Special">You may remain in energy body form for a number of rounds per day equal to your oracle level.</Pair>
+</Ability>
+<Ability id="enhanced-cures-su" icon={["boost"]}>
+<Pair single id="enhanced-cures-su">Enhanced Cures (Su)</Pair>
+<Pair title="Ability">Whenever you cast a cure spell, the maximum number of hit points healed is based on your oracle level, not the limit based on the spell. For example, an 11th-level oracle of life with this revelation may cast <Link to="/spell/cure_light_wounds">cure light wounds</Link> to heal 1d8+11 hit points instead of the normal 1d8+5 maximum.</Pair>
+</Ability>
+<Ability id="healing-hands-ex" icon={["aid","boost"]}>
+<Pair single id="healing-hands-ex">Healing Hands (Ex)</Pair>
+<Pair title="Passive Ability">You gain a +4 bonus on <Link to="/skill/heal">Heal</Link> checks.</Pair>
+<Pair title="Ability">You may provide first aid to two people or treat two people for poison as a <strong className="hl">standard action</strong> (make a separate Heal check for each creature). When using the Heal skill to treat wounds from <Link to="/eq-misc/caltrops">caltrops</Link> (and so on), treat deadly wounds, treat poison, treat disease, or treat long-term care, you may treat double the normal number of people you may treat at the same time. You may provide long-term care for yourself.</Pair>
+</Ability>
+<Ability id="life-link-su" icon={["protect"]}>
+<Pair single id="life-link-su">Life Link (Su)</Pair>
+<Pair title="Standard Action"><p>You may create a bond between yourself and another creature. Each round at the start of your turn, if the bonded creature is wounded for 5 or more hit points below its maximum hit points, it heals 5 hit points and you take 5 hit points of damage.</p>
+<p>You may have one bond active per oracle level. This bond continues until the bonded creature dies, you die, the distance between you and the other creature exceeds <Link to="/rule/range">medium range</Link>, or you end it as an <strong className="hl">immediate action</strong> (if you have multiple bonds active, you may end as many as you want as part of the same immediate action).</p>
+</Pair>
+</Ability>
+<Ability id="lifesense-su" icon={["power"]}>
+<Pair single id="lifesense-su">Lifesense (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Ability">You notice and locate living creatures within 30 feet, just as if you possessed the <Link to="/umr/blindsight">blindsight</Link> ability.</Pair>
+</Ability>
+<Ability id="safe-curing-su" icon={["def"]}>
+<Pair single id="safe-curing-su">Safe Curing (Su)</Pair>
+<Pair title="Ability">Whenever you cast a spell that cures the target of hit point damage, you do not provoke attacks of opportunity for spellcasting.</Pair>
+</Ability>
+<Ability id="spirit-boost-su" icon={["aid"]}>
+<Pair single id="spirit-boost-su">Spirit Boost (Su)</Pair>
+<Pair title="Ability">Whenever your healing spells heal a target up to its maximum hit points, any excess points persist for 1 round per level as <Link to="/rule/temporary_hit_points">temporary hit points</Link> (up to a maximum number of temporary hit points equal to your oracle level).</Pair>
+</Ability>
+<h3 id="mystery-life-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["def"]}>
+<Pair single id="final-revelation" flavor="You become a perfect channel for life energy.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You become immune to bleed, death attacks, exhaustion, fatigue, nausea effects, negative levels, and sickened effects. Ability damage and drain cannot reduce you below 1 in any ability score. You automatically make saving throws against massive damage. When you are below 0 hit points, you do not die until your negative total is in excess of twice your Constitution score.</Pair>
+</Ability>
 </>};
 const _lore = {title: "Lore", jsx: <><h2 id="mystery-lore-lore">Lore</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 49</Link></p>
