@@ -623,7 +623,7 @@ const _dragon = {hasJL:true,title: "Dragon", jsx: <><div className="jumpList" id
 </Ability>
 <Ability id="dragon-magic-sp" icon={["learn"]}>
 <Pair single id="dragon-magic-sp" flavor="Your draconic power grants you a limited form of access to arcane magic.">Dragon Magic (Sp)</Pair>
-<Pair title="Ability">Select one spell from the <Link to="/main/spells_wizard">sorcerer/wizard spell list</Link> that is 2 levels lower than the highest-level spell you can cast, or two spells that are both at least 3 levels lower. You can cast each of the selected spells once per day as a spell-like ability.</Pair>
+<Pair title="Ability">Select one spell from the <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">wizard</Link> spell list that is 2 levels lower than the highest-level spell you can cast, or two spells that are both at least 3 levels lower. You can cast each of the selected spells once per day as a spell-like ability.</Pair>
 <Pair title="At 11th Level">You can cast each selected spell twice per day.</Pair>
 </Ability>
 <Ability id="dragon-senses-ex" icon={["power"]}>
@@ -1323,7 +1323,7 @@ const _life = {hasJL:true,title: "Life", jsx: <><div className="jumpList" id="my
 <Pair title="Passive Ability">You become immune to bleed, death attacks, exhaustion, fatigue, nausea effects, negative levels, and sickened effects. Ability damage and drain cannot reduce you below 1 in any ability score. You automatically make saving throws against massive damage. When you are below 0 hit points, you do not die until your negative total is in excess of twice your Constitution score.</Pair>
 </Ability>
 </>};
-const _lore = {title: "Lore", jsx: <><h2 id="mystery-lore-lore">Lore</h2>
+const _lore = {hasJL:true,title: "Lore", jsx: <><div className="jumpList" id="mystery-lore-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-lore-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-lore-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-lore-lore">Lore</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 49</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/nethys">Nethys</Link>.</Cell></Row></Block>
@@ -1342,22 +1342,71 @@ const _lore = {title: "Lore", jsx: <><h2 id="mystery-lore-lore">Lore</h2>
 <Pair plain title="16th"><Link to="/spell/moment_of_prescience">Moment of prescience</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/time_stop">Time stop</Link></Pair>
 </Ability>
-<h3 id="mystery-lore-revelations">Revelations</h3>
+<h3 id="mystery-lore-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Lore mystery can choose from any of the following revelations.</p>
-<p><strong>Arcane Archivist (Su):</strong> Your experience with lore-filled tomes has granted you the ability to cast arcane spells as if they were on your spell list. Once per day, you can cast a spell from the <Link to="/main/spells_sorcerer">sorcerer/wizard spell list</Link> as if it were on your list of spells known. The spell consumes a spell slot one level higher than the level of the spell. You must have a spellbook containing the spell to cast it in this way, and the spell is erased when you complete the casting. You must be at least 11th level to select this revelation.</p>
-<p><strong>Automatic Writing (Su):</strong> Once per day, you can spend a full hour in uninterrupted meditation. During this period, your hands produce mysterious writing that pertains to the future. At 1st level, the prophetic writing manifests as an <Link to="/spell/augury">augury</Link> spell with 90% effectiveness. At 5th level, the writing takes the form of a <Link to="/spell/divination">divination</Link> with 90% effectiveness. At 8th level, the writing manifests as a casting of <Link to="/spell/commune">commune</Link> with no material component required.</p>
-<p><strong>Brain Drain (Su):</strong> You can take a standard action to violently probe the mind of a single intelligent enemy within 100 feet. The target receives a Will save to negate the effect and immediately knows the source of this harmful mental prying. Those who fail this save are wracked with pain, taking 1d4 points of damage per oracle level. After successfully attacking with this ability, you may use a full-round action to sort through the jumble of stolen thoughts and memories to make a single Knowledge check using the victim's skill bonus. The randomly stolen thoughts remain in your mind for a number of rounds equal to your Charisma modifier. Treat the knowledge gained as if you used <Link to="/spell/detect_thoughts">detect thoughts</Link>. This is a mind-affecting effect. You can use this ability once per day at 1st level, plus one additional time per day at 5th level and for every 5 levels beyond 5th.</p>
-<p><strong>Focused Trance (Ex):</strong> You can enter a deep meditation, blocking out visual and auditory stimuli and allowing you to concentrate on a single problem, philosophical issue, or memory. This trance lasts 1d6 rounds, during which time you can only take move actions. During this period, you gain a bonus equal to your level on all saves against sonic effects and gaze attacks. When you come out of your trance, you may make a single Intelligence-based skill check with a +20 circumstance bonus. You may enter your focused trance a number of times per day equal to your Charisma modifier.</p>
-<p><strong>Lore Keeper (Ex):</strong> Instead of encyclopedic knowledge, you learn most of your information through tales, songs, and poems. You may use your Charisma modifier instead of your Intelligence modifier on all Knowledge checks.</p>
-<p><strong>Mental Acuity (Ex):</strong> Your explorations into the secret mysteries of the world have granted you a preternatural understanding of all things - and you just keep getting smarter. You gain a +1 inherent bonus to Intelligence upon taking this revelation and another at every third oracle level gained thereafter. You must be at least 7th level to select this revelation.</p>
-<p><strong>Sidestep Secret (Su):</strong> Your innate understanding of the universe has granted you preternatural reflexes and the uncanny ability to step out of danger at the very last second. Add your Charisma modifier (instead of your Dexterity modifier) to your Armor Class and all Reflex saving throws. Your armor's maximum Dexterity bonus applies to your Charisma instead of your Dexterity.</p>
-<p><strong>Spontaneous Symbology:</strong> Your knowledge of the secret history of the world has unveiled the mysterious symbols that govern reality. You can cast any "symbol" spell using a spell slot of the appropriate level, even if the spell is not on your list of spells known. A <Link to="/main/symbol_spells">symbol spell</Link> is any spell with the word "symbol" in its name. You must be at least 11th level to select this revelation.</p>
-<p><strong>Think On It (Ex):</strong> Once per day, the oracle of lore can re-attempt any previously failed Knowledge check. On this attempt, add a +10 competence bonus on the check.</p>
-<p><strong>Whirlwind Lesson (Ex):</strong> You can quickly browse through a magical tome or manual, gaining its benefits with only a single 8-hour study session (rather than the usual 48 hours over a period of 6 days). At 7th level, you may allow another character to join in your study; both of you gain the full benefit of having read the book. At 15th level, you may share your whirlwind lesson with a number of characters equal to your oracle level. The benefits to you are permanent, whereas your students gain the tome or manual's benefits for a number of days equal to your Charisma modifier but then forget what they have learned.</p>
-<h3 id="mystery-lore-final-revelation">Final Revelation</h3>
-<p>You gain the ability to take 20 on all Knowledge skill checks. Your understanding of the fundamental underpinnings of reality has also become so advanced that once per day, you can cast <Link to="/spell/wish">wish</Link>. This ability does not require a material component, but the wish cannot be used to grant ability score bonuses, nor can it be used to replicate spells with expensive material components.</p>
+<Ability id="arcane-archivist-su" icon={["magic"]}>
+<Pair single id="arcane-archivist-su" flavor="Your experience with lore-filled tomes has granted you the ability to cast arcane spells as if they were on your spell list.">Arcane Archivist (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Ability">Once per day, you can cast a spell from the <Link to="/main/spells_wizard">wizard</Link>/<Link to="/main/spells_sorcerer">sorcerer</Link> spell list as if it were on your list of spells known. The spell consumes a spell slot one level higher than the level of the spell.</Pair>
+<Pair title="Special">You must have a spellbook containing the spell to cast it in this way, and the spell is erased when you complete the casting.</Pair>
+</Ability>
+<Ability id="automatic-writing-su" icon={["magic"]}>
+<Pair single id="automatic-writing-su">Automatic Writing (Su)</Pair>
+<Pair title="Ability">Once per day, you can spend a full hour in uninterrupted meditation. During this period, your hands produce mysterious writing that pertains to the future.</Pair>
+<Pair title="At 1st Level">The prophetic writing manifests as an <Link to="/spell/augury">augury</Link> spell with 90% effectiveness.</Pair>
+<Pair title="At 5th Level">The writing takes the form of a <Link to="/spell/divination">divination</Link> spell with 90% effectiveness.</Pair>
+<Pair title="At 8th Level">The writing manifests as a casting of <Link to="/spell/commune">commune</Link> with no material component required.</Pair>
+</Ability>
+<Ability id="brain-drain-su" icon={["magic"]}>
+<Pair single id="brain-drain-su">Brain Drain (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action"><p>You can violently probe the mind of a single intelligent enemy within 100 feet. The target receives a Will save to negate the effect and immediately knows the source of this harmful mental prying. Those who fail this save are wracked with pain, taking 1d4 points of damage for every oracle level you possess.</p>
+<p>After successfully attacking with this ability, you may use a <strong className="hl">full-round action</strong> to sort through the jumble of stolen thoughts and memories to make a single <Link to="/skill/knowledge">Knowledge</Link> check using the victim's skill bonus.</p>
+</Pair>
+<Pair title="Special">The randomly stolen thoughts remain in your mind for a number of rounds equal to your Charisma modifier. Treat the knowledge gained as if you had used <Link to="/spell/detect_thoughts">detect thoughts</Link>. This is a mind-affecting effect.</Pair>
+</Ability>
+<Ability id="focused-trance-ex" icon={["def","boost"]}>
+<Pair single id="focused-trance-ex">Focused Trance (Ex)</Pair>
+<Pair title="Usage">Charisma modifier times/day</Pair>
+<Pair title="Ability">You can enter a deep meditation, blocking out visual and auditory stimuli and allowing you to concentrate on a single problem, philosophical issue, or memory. This trance lasts 1d6 rounds, during which time you can only take move actions. During this period, you gain a bonus equal to your level on all saves against sonic effects and gaze attacks. When you come out of your trance, you may make a single Intelligence-based skill check with a +20 circumstance bonus.</Pair>
+</Ability>
+<Ability id="lore-keeper-ex" icon={["boost"]}>
+<Pair single id="lore-keeper-ex" flavor="Instead of encyclopedic knowledge, you learn most of your information through tales, songs, and poems.">Lore Keeper (Ex)</Pair>
+<Pair title="Passive Ability">You may use your Charisma modifier instead of your Intelligence modifier on all <Link to="/skill/knowledge">Knowledge</Link> checks.</Pair>
+</Ability>
+<Ability id="mental-acuity-ex" icon={["boost"]}>
+<Pair single id="mental-acuity-ex" flavor="Your explorations into the secret mysteries of the world have granted you a preternatural understanding of all things - and you just keep getting smarter.">Mental Acuity (Ex)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Passive Ability">You gain a +1 inherent bonus to Intelligence upon taking this revelation and another at every third oracle level gained thereafter.</Pair>
+</Ability>
+<Ability id="sidestep-secret-su" icon={["def"]}>
+<Pair single id="sidestep-secret-su" flavor="Your innate understanding of the universe has granted you preternatural reflexes and the uncanny ability to step out of danger at the very last second.">Sidestep Secret (Su)</Pair>
+<Pair title="Passive Ability">Add your Charisma modifier (instead of your Dexterity modifier) to your Armor Class and all Reflex saving throws. Your armor's maximum Dexterity bonus applies to your Charisma instead of your Dexterity.</Pair>
+</Ability>
+<Ability id="spontaneous-symbology" icon={["magic"]}>
+<Pair single id="spontaneous-symbology" flavor="Your knowledge of the secret history of the world has unveiled the mysterious symbols that govern reality.">Spontaneous Symbology</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Ability">You can cast any "symbol" spell using a spell slot of the appropriate level, even if the spell is not on your list of spells known. A <Link to="/main/symbol_spells">symbol spell</Link> is any spell with the word "symbol" in its name.</Pair>
+</Ability>
+<Ability id="think-on-it-ex" icon={["boost"]}>
+<Pair single id="think-on-it-ex">Think On It (Ex)</Pair>
+<Pair title="Ability">Once per day, the oracle of lore can re-attempt any previously failed Knowledge check. On this attempt, add a +10 competence bonus on the check.</Pair>
+</Ability>
+<Ability id="whirlwind-lesson-ex" icon={["boost"]}>
+<Pair single id="whirlwind-lesson-ex">Whirlwind Lesson (Ex)</Pair>
+<Pair title="Ability">You can quickly browse through a magical tome or manual, gaining its benefits with only a single 8-hour study session (rather than the usual 48 hours over a period of 6 days).</Pair>
+<Pair title="At 7th Level">You may allow another character to join in your study; both of you gain the full benefit of having read the book.</Pair>
+<Pair title="At 15th Level">You may share your <em>whirlwind lesson</em> with a number of characters equal to your oracle level. The benefits to you are permanent, whereas your students gain the tome or manual's benefits for a number of days equal to your Charisma modifier but then forget what they have learned.</Pair>
+</Ability>
+<h3 id="mystery-lore-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["roll","magic"]}>
+<Pair single id="final-revelation">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">You gain the ability to take 20 on all Knowledge skill checks.</Pair>
+<Pair title="Ability">Your understanding of the fundamental underpinnings of reality has also become so advanced that once per day, you can cast <Link to="/spell/wish">wish</Link>. This ability does not require a material component, but the wish cannot be used to grant ability score bonuses, nor can it be used to replicate spells with expensive material components.</Pair>
+</Ability>
 </>};
-const _lunar = {title: "Lunar", jsx: <><h2 id="mystery-lunar-lunar">Lunar</h2>
+const _lunar = {hasJL:true,title: "Lunar", jsx: <><div className="jumpList" id="mystery-lunar-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-lunar-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-lunar-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-lunar-lunar">Lunar</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon pg. 28</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/ashava">Ashava</Link>, <Link to="/faith/desna">Desna</Link>, <Link to="/faith/groetus">Groetus</Link>, <Link to="/faith/jezelda">Jezelda</Link>, <Link to="/faith/tsukiyo">Tsukiyo</Link>, <Link to="/faith/zon_kuthon">Zon-Kuthon</Link>.</Cell></Row></Block>
@@ -1376,22 +1425,82 @@ const _lunar = {title: "Lunar", jsx: <><h2 id="mystery-lunar-lunar">Lunar</h2>
 <Pair plain title="16th"><Link to="/spell/blood_mist">Blood mist</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/polar_midnight">Polar midnight</Link></Pair>
 </Ability>
-<h3 id="mystery-lunar-revelations">Revelations</h3>
+<h3 id="mystery-lunar-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Lunar mystery can choose from any of the following revelations.</p>
-<p><strong>Form of the Beast (Su):</strong> As a standard action, you can assume the form of a Small or Medium animal, as <Link to="/spell/beast_shape_i">beast shape I</Link>. At 9th level, you can assume the form of a Tiny or Large animal, as <Link to="/spell/beast_shape_ii">beast shape II</Link>. At 11th level, you can assume the form of a Diminutive or Huge animal or a Small or Medium magical beast, as <Link to="/spell/beast_shape_iii">beast shape III</Link>. At 13th level, you can assume the form of a Tiny or Large magical beast, as <Link to="/spell/beast_shape_iv">beast shape IV</Link>. You can use this ability once per day, but the duration is 1 hour/level. You must be at least 7th level to select this revelation.</p>
-<p><strong>Eye of the Moon (Su):</strong> Your connection to the moon makes you supernaturally perceptive. You gain darkvision to a range of 60 feet. At 11th level, as a standard action, you can focus on a specific object or area (the size of which can be no greater than a 10-foot-by-10-foot square) and see it as though with <Link to="/spell/true_seeing">true seeing</Link> as long as the moon is shining on it. Moonless nights, cloudy skies, and shadows interfere with this ability.</p>
-<p><strong>Gift of Claw and Horn (Su):</strong> As a swift action, you gain a <Link to="/umr/natural_weapons">natural weapon</Link>. The natural weapon lasts for a number of rounds equal to half your oracle level (minimum 1). You must choose a bite, claw, or gore attack. These attacks deal the normal damage for a creature of your size. At 5th level, your natural weapon gains a +1 enhancement bonus. This bonus increases by +1 at 10th, 15th, and 20th level. At 11th level, you gain two natural weapons at a time. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>Mantle of Moonlight (Su):</strong> Your innate understanding of the moon renders you immune to the curse of lycanthropy. Additionally, you may disrupt a <Link to="/template/lycanthrope">lycanthrope's</Link> connection to the moon with a successful touch attack. This action automatically forces the lycanthrope into its humanoid form, in which it must remain for a number of rounds equal to your oracle level. Upon reaching 5th level, you can use this ability to force others into a <em>rage,</em> as the spell. Using this ability is a melee touch attack. You can use this ability once per day at 5th level plus one additional time per day for every 5 levels above 5th.</p>
-<p><strong>Moonbeam (Su):</strong> You can fire a ray of moonlight as a ranged touch attack at any creature within 30 feet. This ray deals 1d6 points of damage + 1 for every 2 oracle levels you possess. In addition, the target must succeed at a Fortitude save or become <Link to="/misc/blinded">blinded</Link> for 1 round. You can use this ability a number of times per day equal to your Charisma modifier (minimum 1).</p>
-<p><strong>Moonlight Bridge (Su):</strong> You summon a bridge of moonlight. The 10-foot-wide span touches the ground at a point adjacent to you. It can extend from this point in any direction for 10 feet per oracle level. The path persists until you have crossed over the bridge or for 24 hours, whichever is shorter. You may summon a moonlight bridge a number of times per day equal to your Charisma bonus. Should the bridge be attacked, treat it as a wall of force.</p>
-<p><strong>Moonlit Script (Su):</strong> Once per night while you sleep, your hands produce mysterious writing that pertains to the future. At 1st level, the prophetic writing manifests as an <Link to="/spell/augury">augury</Link> spell with 90% effectiveness. At 5th level, the writing takes the form of a <Link to="/spell/divination">divination</Link> with 90% effectiveness. At 8th level, the writing manifests as a casting of <Link to="/spell/commune">commune</Link> with no material component required.</p>
-<p><strong>Primal Companion (Ex):</strong> You gain the service of a faithful animal of the night. You can select from a <Link to="/companion/bear">bear</Link>, <Link to="/companion/boar">boar</Link>, <Link to="/companion/crocodile">crocodile</Link>, <Link to="/companion/shark">shark</Link>, <Link to="/companion/tiger">tiger</Link>, or <Link to="/companion/wolf">wolf</Link>. This animal functions as a druid's <Link to="/sidekick/animal_companion">animal companion</Link>, using your oracle level as your effective druid level.</p>
-<p><strong>Prophetic Armor (Ex):</strong> You are so in tune with your primal nature that your instincts often act to save you from danger that your civilized mind isn't even aware of. You may use your Charisma modifier (instead of your Dexterity modifier) as part of your Armor Class and all Reflex saving throws. Your armor's maximum Dexterity bonus applies to your Charisma, instead.</p>
-<p><strong>Touch of the Moon (Su):</strong> The exact effects of this revelation depend on whether you cast <Link to="/main/cure_spells">inflict or cure spells</Link>. If you cast inflict spells, these spells carry with them the taint of madness. Subjects who take damage from your inflict spells are also subject to <Link to="/spell/confusion">confusion</Link>, as the spell, except the duration of this effect is a number of rounds equal to the level of the inflict spell. The save DC against this effect is 10 + 1/2 your oracle level + your Charisma modifier. Alternatively, if you cast cure spells, these spells are potentially more effective but entirely in the target's mind. Whenever you cast a cure spell, you can cast it as though it were enhanced with the <Link to="/feat/empower_spell">Empower Spell</Link> metamagic feat by expending two spell slots, except these hit points are temporary. This does not increase the level of the spell. Hit points healed this way expire after a number of minutes equal to half your oracle level. You must be at least 7th level to select this revelation.</p>
-<h3 id="mystery-lunar-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become an avatar of the primal world - part humanoid, part beast. Once per day, you can transform into a lycanthrope of your choice for a number of hours equal to your Charisma modifier, gaining all the powers of a natural lycanthrope of that type, including the ability to change shape between human, animal, and hybrid form. In addition, you become immune to mind-affecting and language-dependent effects, as well as effects that specifically target only humanoids.</p>
+<Ability id="form-of-the-beast-su" icon={["magic"]}>
+<Pair single id="form-of-the-beast-su">Form of the Beast (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">Once per day, for 1 hour per oracle level.</Pair>
+<Pair title="Standard Action">You can assume the form of a Small or Medium animal, as <Link to="/spell/beast_shape_i">beast shape I</Link>.</Pair>
+<Pair title="At 9th Level">You can assume the form of a Tiny or Large animal, as <Link to="/spell/beast_shape_ii">beast shape II</Link>.</Pair>
+<Pair title="At 11th Level">You can assume the form of a Diminutive or Huge animal or a Small or Medium magical beast, as <Link to="/spell/beast_shape_iii">beast shape III</Link>.</Pair>
+<Pair title="At 13th Level">You can assume the form of a Tiny or Large magical beast, as <Link to="/spell/beast_shape_iv">beast shape IV</Link>.</Pair>
+</Ability>
+<Ability id="eye-of-the-moon-su" icon={["power"]}>
+<Pair single id="eye-of-the-moon-su" flavor="Your connection to the moon makes you supernaturally perceptive.">Eye of the Moon (Su)</Pair>
+<Pair title="Ability">You gain darkvision to a range of 60 feet.</Pair>
+<Pair title="At 11th Level">As a <strong className="hl">standard action</strong>, you can focus on a specific object or area (the size of which can be no greater than a 10-foot-by-10-foot square) and see it as though with <Link to="/spell/true_seeing">true seeing</Link> as long as the moon is shining on it. Moonless nights, cloudy skies, and shadows interfere with this ability.</Pair>
+</Ability>
+<Ability id="gift-of-claw-and-horn-su" icon={["melee"]}>
+<Pair single id="gift-of-claw-and-horn-su">Gift of Claw and Horn (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Swift Action">You gain a <Link to="/umr/natural_weapons">natural weapon</Link>. The natural weapon lasts for a number of rounds equal to half your oracle level (minimum 1). You must choose a bite, claw, or gore attack. These attacks deal the normal damage for a creature of your size.</Pair>
+<Pair title="At 5th Level">Your natural weapon gains an enhancement bonus. This bonus is equal to <Link to="/misc/one_fifth">one-fifth</Link> of your oracle level.</Pair>
+<Pair title="At 11th Level">You gain two natural weapons at a time.</Pair>
+</Ability>
+<Ability id="mantle-of-moonlight-su" icon={["def","touch"]}>
+<Pair single id="mantle-of-moonlight-su">Mantle of Moonlight (Su)</Pair>
+<Pair title="Passive Ability">Your innate understanding of the moon renders you immune to <Link to="/corruption/lycanthropy">lycanthropy</Link>.</Pair>
+<Pair title="Ability">As a melee touch attack, you may disrupt a <Link to="/template/lycanthrope">lycanthrope's</Link> connection to the moon. This action automatically forces the lycanthrope into its humanoid form, which it must remain in for a number of rounds equal to your oracle level.</Pair>
+<Pair title="At 5th Level">You can use this ability to force others into a <Link to="/spell/rage">rage</Link>, as per the spell, but only a number of times per day equal to <Link to="/misc/one_fifth">one-fifth</Link> of your oracle level. It's still a melee touch attack.</Pair>
+</Ability>
+<Ability id="moonbeam-su" icon={["zap"]}>
+<Pair single id="moonbeam-su">Moonbeam (Su)</Pair>
+<Pair title="Usage">Charisma modifier times/day (minimum 1)</Pair>
+<Pair title="Ability">You can fire a ray of moonlight as a ranged touch attack at any creature within 30 feet. This ray deals 1d6 points of damage + <Link to="/misc/half">half</Link> of your oracle level. In addition, the target must succeed at a Fortitude save or become <Link to="/misc/blinded">blinded</Link> for 1 round.</Pair>
+</Ability>
+<Ability id="moonlight-bridge-su" icon={["magic"]}>
+<Pair single id="moonlight-bridge-su">Moonlight Bridge (Su)</Pair>
+<Pair title="Usage">Charisma modifier times/day</Pair>
+<Pair title="Ability">You summon a bridge of shimmering moonlight. The 10-foot-wide span touches the ground at a point adjacent to your position. From this point it can extend in any direction for 10 feet per oracle level. The path persists until you have crossed over the bridge or for 24 hours, whichever is shorter.</Pair>
+<Pair title="Special">Should the bridge be attacked, treat it as a <Link to="/spell/wall_of_force">wall of force</Link>.</Pair>
+</Ability>
+<Ability id="moonlit-script-su" icon={["magic"]}>
+<Pair single id="moonlit-script-su">Moonlit Script (Su)</Pair>
+<Pair title="Ability">Once per night while you sleep, your hands produce mysterious writing that pertains to the future.</Pair>
+<Pair title="At 1st Level">The prophetic writing manifests as an <Link to="/spell/augury">augury</Link> spell with 90% effectiveness.</Pair>
+<Pair title="At 5th Level">The writing takes the form of a <Link to="/spell/divination">divination</Link> with 90% effectiveness.</Pair>
+<Pair title="At 8th Level">The writing manifests as a casting of <Link to="/spell/commune">commune</Link> with no material component required.</Pair>
+</Ability>
+<Ability id="primal-companion-ex" icon={["power"]}>
+<Pair single id="primal-companion-ex">Primal Companion (Ex)</Pair>
+<Pair title="Ability">You gain the service of a faithful animal of the night. You can select from a <Link to="/companion/bear">bear</Link>, <Link to="/companion/boar">boar</Link>, <Link to="/companion/crocodile">crocodile</Link>, <Link to="/companion/shark">shark</Link>, <Link to="/companion/tiger">tiger</Link>, or <Link to="/companion/wolf">wolf</Link>. This animal functions as a druid's <Link to="/sidekick/animal_companion">animal companion</Link>, using your oracle level as your effective druid level.</Pair>
+</Ability>
+<Ability id="prophetic-armor-ex" icon={["def"]}>
+<Pair single id="prophetic-armor-ex" flavor="You are so in tune with your primal nature that your instincts often act to save you from danger that your civilized mind isn't even aware of.">Prophetic Armor (Ex)</Pair>
+<Pair title="Passive Ability">You may use your Charisma modifier (instead of your Dexterity modifier) as part of your Armor Class and all Reflex saving throws. Your armor's maximum Dexterity bonus applies to your Charisma, instead.</Pair>
+</Ability>
+<Ability id="touch-of-the-moon-su" extraClasses="hasSubs" icon={["lower","aid"]}>
+<Pair single id="touch-of-the-moon-su">Touch of the Moon (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Ability">The exact effects of this revelation depend on whether you cast <Link to="/main/cure_spells">inflict or cure spells</Link>.</Pair>
+</Ability>
+<Ability id="you-cast-inflict-spells" extraClasses="subAbility" icon={["lower"]}>
+<Pair single id="you-cast-inflict-spells" flavor="Your spells carry with them the taint of madness.">You Cast Inflict Spells</Pair>
+<Pair title="Ability">Subjects who take damage from your <em>inflict</em> spells are also subject to <Link to="/spell/confusion">confusion</Link>, as the spell, except the duration of this effect is a number of rounds equal to the level of the inflict spell. The save DC against this effect is 10 + 1/2 your oracle level + your Charisma modifier.</Pair>
+</Ability>
+<Ability id="you-cast-cure-spells" icon={["aid"]}>
+<Pair single id="you-cast-cure-spells" flavor="Your spells are potentially more effective but entirely in the target's mind.">You Cast Cure Spells</Pair>
+<Pair title="Ability">Whenever you cast a cure spell, you can cast it as though it were enhanced with the <Link to="/feat/empower_spell">Empower Spell</Link> metamagic feat by expending two spell slots, except these hit points are <Link to="/rule/temporary_hit_points">temporary</Link>. This does not increase the level of the spell. Hit points healed this way expire after a number of minutes equal to half your oracle level.</Pair>
+</Ability>
+<h3 id="mystery-lunar-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["power","def"]}>
+<Pair single id="final-revelation" flavor="You become an avatar of the primal world - part humanoid, part beast.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">Once per day, you can transform into a lycanthrope of your choice for a number of hours equal to your Charisma modifier, gaining all the powers of a natural lycanthrope of that type, including the ability to change shape between human, animal, and hybrid form. In addition, you become immune to mind-affecting and language-dependent effects, as well as effects that specifically target only humanoids.</Pair>
+</Ability>
 </>};
-const _metal = {title: "Metal", jsx: <><h2 id="mystery-metal-metal">Metal</h2>
+const _metal = {hasJL:true,title: "Metal", jsx: <><div className="jumpList" id="mystery-metal-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-metal-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-metal-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-metal-metal">Metal</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 55</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/torag">Torag</Link>.</Cell></Row></Block>
@@ -1410,22 +1519,82 @@ const _metal = {title: "Metal", jsx: <><h2 id="mystery-metal-metal">Metal</h2>
 <Pair plain title="16th"><Link to="/spell/repel_metal_or_stone">Repel metal or stone</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/iron_body">Iron body</Link></Pair>
 </Ability>
-<h3 id="mystery-metal-revelations">Revelations</h3>
+<h3 id="mystery-metal-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Metal mystery can choose from any of the following revelations.</p>
-<p><strong>Armor Mastery (Ex):</strong> You become more maneuverable while wearing armor. You can move at your normal speed in medium armor that is made of metal. This does not grant proficiency in armor. At 5th level, whenever you are wearing metal armor, you reduce the armor check penalty by 1 (to a minimum of 0) and increase the maximum Dexterity bonus allowed by your armor by 1. At 10th level, and again at 15th level, these bonuses increase by 1.</p>
-<p><strong>Dance of the Blades (Ex):</strong> Your base speed increases by 10 feet. At 7th level, you gain a +1 bonus on attack rolls with a metal weapon in any round in which you move at least 10 feet. This bonus increases by +1 at 11th level, and every four levels thereafter. At 11th level, as a move action, you can maneuver your weapon to create a shield of whirling steel around yourself until the start of your next turn; non-incorporeal melee and ranged attacks against you have a 20% miss chance while the shield is active. You must be wielding a metal weapon to use this ability.</p>
-<p><strong>Iron Constitution (Su):</strong> You gain a +1 bonus on Fortitude saves. At 7th level, and again at 14th level, this bonus increases by +1.</p>
-<p><strong>Iron Skin (Sp):</strong> Once per day, your skin hardens and takes on the appearance of iron, granting you DR 10/adamantine. This ability functions as <Link to="/spell/stoneskin">stoneskin</Link>, using your oracle level as the caster level, except it only affects you. At 15th level, you can use this ability twice per day. You must be at least 11th level to select this revelation.</p>
-<p><strong>Iron Weapon (Su):</strong> You can create a melee simple or martial weapon that lasts for 1 minute for every oracle level you possess. This weapon is appropriate for your size and entirely made of metal (even if it would normally include non-metal parts, such as a spear's shaft) but functions as if it were a normal weapon of its type. You are considered proficient with this weapon. The weapon disappears after 1 round if it leaves your grasp. At 3rd level, the blade is made of cold iron. At 7th level, 15th level, and 19th level, the blade gains a +1 enhancement bonus. At 11th level, the blade is made of adamantine. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>Riddle of Steel (Su):</strong> Your sacred bond with metal gives you insight into its form and function. Once per day, you may spend 10 minutes meditating on the structure of a piece of unworked metal or ore to gain a +5 insight bonus on your next Craft check to make something using that metal.</p>
-<p><strong>Rusting Grasp (Sp):</strong> Once per day as a standard action, you can perform a melee touch attack that rusts iron, as the <Link to="/spell/rusting_grasp">rusting grasp</Link> spell. At 11th level, and every four levels thereafter, you can use this ability an additional time per day. You must be at least 7th level to select this revelation.</p>
-<p><strong>Skill at Arms (Ex):</strong> You gain proficiency in all martial weapons and heavy armor.</p>
-<p><strong>Steel Scarf (Su):</strong> As a swift action, you can harden a scarf, sleeve, cloak, or other piece of your clothing into something as hard as steel that stretches out to be up to 30 feet long. You can then strike outward with it as if it were a weapon making a melee attack. For the purpose of this ability, you are proficient with this weapon. You can use the weapon to perform combat maneuvers. Make a melee attack roll against a creature within 30 feet; you may use <Link to="/feat/weapon_finesse">Weapon Finesse</Link> with this attack. If you hit, the weapon deals 1d8 points of slashing damage + 1 point for every two oracle levels you possess. After this attack, the clothing returns to its normal length and hardness. You do not threaten an area with this weapon and cannot use it to make attacks of opportunity. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>Vision in Iron (Sp):</strong> You can use any piece of polished metal at least the size of a dagger as a scrying device, as if using the spell <Link to="/spell/scrying">scrying</Link>. At 15th level, this functions like <Link to="/spell/greater_scrying">greater scrying</Link>. You can scry for a number of rounds per day equal to your oracle level; these rounds do not need to be consecutive. You must be at least 7th level to select this revelation.</p>
-<h3 id="mystery-metal-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become a master of iron and steel. You gain the benefits of <Link to="/feat/weapon_focus">Weapon Focus</Link>, <Link to="/feat/greater_weapon_focus">Greater Weapon Focus</Link>, and <Link to="/feat/improved_critical">Improved Critical</Link> with any one metal weapon that you are proficient with. Your armor is like a second skin to you - while wearing metal armor you are proficient with, the armor's maximum Dexterity bonus increases by +5 and you take no armor check penalty. In addition, any metal you create with your magic (such as <em>wall of iron</em>) has its hardness increased by +10.</p>
+<Ability id="armor-mastery-ex" icon={["boost"]}>
+<Pair single id="armor-mastery-ex" flavor="You become more maneuverable while wearing armor.">Armor Mastery (Ex)</Pair>
+<Pair title="Ability">You can move at your normal speed in medium armor that is made of metal. This does not grant proficiency in armor.</Pair>
+<Pair title="At 5th Level">Whenever you are wearing metal armor, you reduce the armor check penalty by 1 (to a minimum of 0) and increase the maximum Dexterity bonus allowed by your armor by 1.</Pair>
+<Pair title="At 10th Level">These bonuses becomes 2.</Pair>
+<Pair title="At 15th Level">These bonuses increases to 3.</Pair>
+</Ability>
+<Ability id="dance-of-the-blades-ex" icon={["boost"]}>
+<Pair single id="dance-of-the-blades-ex">Dance of the Blades (Ex)</Pair>
+<Pair title="Passive Ability">Your base speed increases by 10 feet.</Pair>
+<Pair title="At 7th Level">You gain a +1 bonus on attack rolls with a metal weapon in any round in which you move at least 10 feet.</Pair>
+<Pair title="At 11th Level">The bonus on attack rolls becomes +2. As a <strong className="hl">move action</strong>, you can maneuver your weapon to create a shield of whirling steel around yourself until the start of your next turn; non-incorporeal melee and ranged attacks against you have a 20% miss chance while the shield is active. You must be wielding a metal weapon to use this ability.</Pair>
+<Pair title="At 15th Level">The bonus on attack rolls increases to +3.</Pair>
+<Pair title="At 19th Level">The bonus on attack rolls becomes +4.</Pair>
+</Ability>
+<Ability id="iron-constitution-su" icon={["def"]}>
+<Pair single id="iron-constitution-su">Iron Constitution (Su)</Pair>
+<Pair title="Passive Ability">You gain a bonus on Fortitude saves equal to 1 + <Link to="/misc/one_seventh">one-seventh</Link> of your oracle level.</Pair>
+</Ability>
+<Ability id="iron-skin-sp" icon={["def"]}>
+<Pair single id="iron-skin-sp">Iron Skin (Sp)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Ability">Once per day, your skin hardens and takes on the appearance of iron, granting you DR 10/adamantine. This ability functions as <Link to="/spell/stoneskin">stoneskin</Link>, using your oracle level as the caster level, except it only affects you.</Pair>
+<Pair title="At 15th Level">You can use this ability twice per day.</Pair>
+</Ability>
+<Ability id="iron-weapon-su" icon={["power"]}>
+<Pair single id="iron-weapon-su">Iron Weapon (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">You can create a melee simple or martial weapon that lasts for 1 minute for every oracle level you possess. This weapon is appropriate for your size and entirely made of metal (even if it would normally include non-metal parts, such as a spear's shaft) but functions as if it were a normal weapon of its type. You are considered proficient with this weapon. The weapon disappears after 1 round if it leaves your grasp.</Pair>
+<Pair title="At 3rd Level">The blade is made of cold iron.</Pair>
+<Pair title="At 7th Level">The blade gains a +1 enhancement bonus.</Pair>
+<Pair title="At 11th Level">The enhancement bonus becomes +2. The blade is made of adamantine.</Pair>
+<Pair title="At 15th Level">The enhancement bonus increases to +3.</Pair>
+<Pair title="At 19th Level">The enhancement bonus becomes +4.</Pair>
+</Ability>
+<Ability id="riddle-of-steel-su" icon={["boost"]}>
+<Pair single id="riddle-of-steel-su" flavor="Your sacred bond with metal gives you insight into its form and function.">Riddle of Steel (Su)</Pair>
+<Pair title="Ability">Once per day, you may spend 10 minutes meditating on the structure of a piece of unworked metal or ore to gain a +5 insight bonus on your next <Link to="/skill/craft">Craft</Link> check to make something using that metal.</Pair>
+</Ability>
+<Ability id="rusting-grasp-sp" icon={["touch","magic"]}>
+<Pair single id="rusting-grasp-sp">Rusting Grasp (Sp)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 time/day + 1 per four oracle levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action">You can perform a melee touch attack that rusts iron, as the <Link to="/spell/rusting_grasp">rusting grasp</Link> spell.</Pair>
+</Ability>
+<Ability id="skill-at-arms-ex" icon={["power"]}>
+<Pair single id="skill-at-arms-ex">Skill at Arms (Ex)</Pair>
+<Pair title="Ability">You gain proficiency in all martial weapons and heavy armor.</Pair>
+</Ability>
+<Ability id="steel-scarf-su" icon={["melee"]}>
+<Pair single id="steel-scarf-su">Steel Scarf (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Swift Action"><p>You can harden a scarf, sleeve, cloak, or other piece of your clothing into something as hard as steel that stretches out to be up to 30 feet long. You can then strike outward with it as if it were a weapon making a melee attack. For the purpose of this ability, you are proficient with this weapon. You can use the weapon to perform combat maneuvers.</p>
+<p>Make a melee attack roll against a creature within 30 feet; you may use <Link to="/feat/weapon_finesse">Weapon Finesse</Link> with this attack. If you hit, the weapon deals slashing damage equal to 1d8 + <Link to="/misc/half">half</Link> of your oracle level. After this attack, the clothing returns to its normal length and hardness.</p>
+<p>You do not threaten an area with this weapon and cannot use it to make attacks of opportunity.</p>
+</Pair>
+</Ability>
+<Ability id="vision-in-iron-sp" icon={["magic"]}>
+<Pair single id="vision-in-iron-sp">Vision in Iron (Sp)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 round/day per oracle level; these rounds need not be consecutive</Pair>
+<Pair title="Ability">You can use any piece of polished metal at least the size of a dagger as a scrying device, as if using the spell <Link to="/spell/scrying">scrying</Link>.</Pair>
+<Pair title="At 15th Level">This functions like <Link to="/spell/greater_scrying">greater scrying</Link>.</Pair>
+</Ability>
+<h3 id="mystery-metal-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["power"]}>
+<Pair single id="final-revelation" flavor="You become a master of iron and steel.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">You gain the benefits of <Link to="/feat/weapon_focus">Weapon Focus</Link>, <Link to="/feat/greater_weapon_focus">Greater Weapon Focus</Link>, and <Link to="/feat/improved_critical">Improved Critical</Link> with any one metal weapon that you are proficient with.</Pair>
+<Pair title="Passive Ability">Your armor is like a second skin to you - while wearing metal armor you are proficient with, the armor's maximum Dexterity bonus increases by +5 and you take no armor check penalty.</Pair>
+<Pair title="Special">In addition, any metal you create with your magic (such as <em>wall of iron</em>) has its hardness increased by +10.</Pair>
+</Ability>
 </>};
-const _nature = {title: "Nature", jsx: <><h2 id="mystery-nature-nature">Nature</h2>
+const _nature = {hasJL:true,title: "Nature", jsx: <><div className="jumpList" id="mystery-nature-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-nature-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-nature-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-nature-nature">Nature</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 50</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/erastil">Erastil</Link>, <Link to="/faith/gozreh">Gozreh</Link>.</Cell></Row></Block>
@@ -1444,20 +1613,71 @@ const _nature = {title: "Nature", jsx: <><h2 id="mystery-nature-nature">Nature</
 <Pair plain title="16th"><Link to="/spell/animal_shapes">Animal shapes</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/world_wave">World wave</Link></Pair>
 </Ability>
-<h3 id="mystery-nature-revelations">Revelations</h3>
+<h3 id="mystery-nature-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Nature mystery can choose from any of the following revelations.</p>
-<p><strong>Bonded Mount (Su):</strong> You gain the service of an unusually intelligent, strong, and loyal mount. The creature must be one that you are capable of riding and is suitable as a mount. A Medium oracle can select a <Link to="/companion/camel">camel</Link> or a <Link to="/companion/horse">horse</Link>. A Small oracle can select a <Link to="/companion/pony">pony</Link> or <Link to="/companion/wolf">wolf</Link>, but can also select a <Link to="/companion/boar">boar</Link> or a <Link to="/companion/dog">dog</Link> if she is at least 4th level. This mount functions as a druid's <Link to="/sidekick/animal_companion">animal companion</Link>, using your oracle level as your effective druid level. Bonded mounts have an Intelligence score of at least 6.</p>
-<p><strong>Erosion Touch (Su):</strong> As a melee touch attack, you can deal 1d6 points of damage per level to objects or constructs. If used against an object in another creature's possession, treat this attack as a <Link to="/rule/sunder">sunder</Link> combat maneuver. You can use this ability once per day, plus one time per day for every three levels you possess.</p>
-<p><strong>Friend to the Animals (Ex):</strong> Add all <Link to="/spell/summon_natures_ally">summon nature's ally</Link> spells to your spell list. You must still select these spells using your allotment of spells known. Animals within 30 feet of you receive a bonus on all saving throws equal to your Charisma modifier.</p>
-<p><strong>Life Leach (Su):</strong> You can draw life force from the bodies of enemies and channel it into yourself. As a standard action, you can drain the life essence from one living target within 30 feet. The target takes 1d6 points of damage per two levels you possess (maximum 10d6). You gain <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the damage you deal. You can't gain more than the target's current hit points + the target's Constitution score (which is enough to kill the subject). The temporary hit points last a number of hours equal to your Charisma modifier. The target receives a Fortitude save to halve the damage (and the temporary hit points you gain). You may use this ability once per day at 7th level, plus one additional time per day for every 4 levels you possess beyond 7th. You must be at least 7th level before selecting this revelation.</p>
-<p><strong>Natural Divination (Ex):</strong> You can read the entrails of a freshly killed animal or humanoid to gain an insight bonus equal to your Charisma modifier on one saving throw. Alternatively, by observing and interpreting the flights of birds, you may apply a +10 competence bonus on any one skill check. Finally, by charting marks in dirt or stone, or observing the behavior of sand when thrown into the wind, you gain a +4 insight bonus on one initiative check. These bonuses must be used during the next 24 hours and you must declare you are using the bonus before the check or save is made. Making a natural divination takes 10 minutes. You may use natural divination (in any combination) once per day plus one additional time per day for every four oracle levels you have attained.</p>
-<p><strong>Nature's Whispers (Ex):</strong> You have become so attuned to the whispers of the natural world, from the croaking of frogs to the groaning of great boulders, that your surroundings constantly keep you preternaturally aware of danger. You may add your Charisma modifier, instead of your Dexterity modifier, to your Armor Class and CMD. Any condition that would cause you to lose your Dexterity modifier to your Armor Class instead causes you to lose your Charisma modifier to your Armor Class.</p>
-<p><strong>Speak with Animals (Ex):</strong> Choose a specific kind of animal (eagle, fox, dog, and so on). You gain the ability to converse with that type of animal as if you were under the effects of speak with animal. You gain the ability to communicate with an additional kind of animal for every 3 oracle levels you have attained.</p>
-<p><strong>Spirit of Nature (Su):</strong> When in a natural setting, whenever you are reduced to negative hit points, you automatically stabilize. At 5th level, you gain <Link to="/umr/fast_healing">fast healing</Link> 1 for 1d4 rounds whenever you are reduced to negative hit points. At 10th level, the ability works everywhere, even in civilized or wholly artificial realms. At 15th level, you gain fast healing 3 for 1d4 rounds when reduced to negative hit points.</p>
-<p><strong>Transcendental Bond (Su):</strong> You become so attuned to the common spirit shared by all living things that you can use it to communicate with allies. You may communicate with your allies for a number of rounds per day equal to your oracle level as if using <Link to="/spell/telepathic_bond">telepathic bond</Link>. You may designate a number of creatures as your ally equal to your Charisma modifier. Designating a creature is a standard action that requires a touch. At 10th level, you may use this bond to cast a touch spell on a designated ally once per day.</p>
-<p><strong>Undo Artifice (Sp):</strong> At 11th-level, you gain the ability to reduce a nonliving item to its component parts, essentially erasing the hand of artifice and rendering the item into a pile of raw natural materials. This effect acts as the spell <Link to="/spell/polymorph_any_object">polymorph any object</Link>, working on both magical and nonmagical nonliving objects. The duration is always permanent. Unlike polymorph any object, it cannot be used to mimic the effects of other spells. Items subject to this effect receive a Fortitude saving throw to negate the effect. Magic items receive a circumstance bonus on this save equal to +1 for every 5,000 gp in the item's value. You may use undo artifice a number of times per day equal to your Charisma modifier.</p>
-<h3 id="mystery-nature-final-revelation">Final Revelation</h3>
-<p>At 20th level, you have discovered the intrinsic secrets of life itself, granting you incredible control over your own body. Once per day, you can surround yourself with an organic cocoon as a full-round action. While enclosed in the cocoon, you are considered <Link to="/misc/helpless">helpless</Link>. Eight hours later, you emerge having changed your type to plant, animal, or humanoid, gaining superficial physical characteristics as appropriate. This change does not alter your Hit Dice, hit points, saving throws, skill points, class skills, or proficiencies. Each time the transformation is made, you are cleansed of all poisons or diseases, are restored to full hit points, and heal all ability damage. You must select a new type every time the transformation is made.</p>
+<Ability id="bonded-mount-su" icon={["power"]}>
+<Pair single id="bonded-mount-su">Bonded Mount (Su)</Pair>
+<Pair title="Ability">You gain the service of an unusually intelligent, strong, and loyal mount. The creature must be one that you are capable of riding and is suitable as a mount. A Medium oracle can select a <Link to="/companion/camel">camel</Link> or a <Link to="/companion/horse">horse</Link>. A Small oracle can select a <Link to="/companion/pony">pony</Link> or <Link to="/companion/wolf">wolf</Link>, but can also select a <Link to="/companion/boar">boar</Link> or a <Link to="/companion/dog">dog</Link> if she is at least 4th level. This mount functions as a druid's <Link to="/sidekick/animal_companion">animal companion</Link>, using your oracle level as your effective druid level. Bonded mounts have an Intelligence score of at least 6.</Pair>
+</Ability>
+<Ability id="erosion-touch-su" icon={["touch"]}>
+<Pair single id="erosion-touch-su">Erosion Touch (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per three oracle levels<ByLevelPop levels={[[1,1],[3,2],[6,3],[9,4],[12,5],[15,6],[18,7]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">As a melee touch attack, you can deal 1d6 points of damage per level to objects or constructs. If used against an object in another creature's possession, treat this attack as a sunder combat maneuver.</Pair>
+</Ability>
+<Ability id="friend-to-the-animals-ex" icon={["learn","protect"]}>
+<Pair single id="friend-to-the-animals-ex">Friend to the Animals (Ex)</Pair>
+<Pair title="Ability">Add all <Link to="/spell/summon_natures_ally">summon nature's ally</Link> spells to your spell list. You must still select these spells using your allotment of spells known.</Pair>
+<Pair title="Passive Ability">Animals within 30 feet of you receive a bonus on all saving throws equal to your Charisma modifier.</Pair>
+</Ability>
+<Ability id="life-leach-su" icon={["lower","aid"]}>
+<Pair single id="life-leach-su" flavor="You can draw life force from the bodies of enemies and channel it into yourself.">Life Leach (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 time/day + 1 per four oracle levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action">You can drain the life essence from one living target within 30 feet. The target takes 1d6 points of damage per two levels you possess (maximum 10d6). You gain <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the damage you deal. You can't gain more than the target's current hit points + the target's Constitution score (which is enough to kill the subject). The temporary hit points last a number of hours equal to your Charisma modifier. The target receives a Fortitude save to halve the damage (and the temporary hit points you gain).</Pair>
+</Ability>
+<Ability id="natural-divination-ex" icon={["def","boost"]}>
+<Pair single id="natural-divination-ex">Natural Divination (Ex)</Pair>
+<Pair title="Ability">You can read the entrails of a freshly killed animal or humanoid to gain an insight bonus equal to your Charisma modifier on one saving throw.</Pair>
+<Pair title="Ability">Alternatively, by observing and interpreting the flights of birds, you may apply a +10 competence bonus on any one skill check.</Pair>
+<Pair title="Ability">Finally, by charting marks in dirt or stone, or observing the behavior of sand when thrown into the wind, you gain a +4 insight bonus on one initiative check.</Pair>
+<Pair title="Usage">Making a <em>natural divination</em> takes 10 minutes. You may use <em>natural divination</em> (in any combination) once per day plus a number of times equal to <Link to="/misc/one_fourth">one-fourth</Link> of your oracle level.</Pair>
+<Pair title="Special">These bonuses must be used during the next 24 hours and you must declare you are using the bonus before the check or save is made.</Pair>
+</Ability>
+<Ability id="natures-whispers-ex" icon={["def"]}>
+<Pair single id="natures-whispers-ex" flavor="You have become so attuned to the whispers of the natural world, from the croaking of frogs to the groaning of great boulders, that your surroundings constantly keep you preternaturally aware of danger.">Nature's Whispers (Ex)</Pair>
+<Pair title="Passive Ability">You may add your Charisma modifier, instead of your Dexterity modifier, to your Armor Class and CMD. Any condition that would cause you to lose your Dexterity modifier to your Armor Class instead causes you to lose your Charisma modifier to your Armor Class.</Pair>
+</Ability>
+<Ability id="speak-with-animals-ex" icon={["magic"]}>
+<Pair single id="speak-with-animals-ex">Speak with Animals (Ex)</Pair>
+<Pair title="Choice">Choose a number of specific kinds of animal (eagle, fox, dog, and so on) equal to 1 + <Link to="/misc/one_third">one-third</Link> of your oracle level.</Pair>
+<Pair title="Ability">You gain the ability to converse with those types of animal as if you were under the effects of <Link to="/spell/speak_with_animals">speak with animals</Link>.</Pair>
+<Pair title="Special">As you gain levels, you choose new kinds of animals. (You are not locked into the number you gained when you first selected this revelation.)</Pair>
+</Ability>
+<Ability id="spirit-of-nature-su" icon={["def"]}>
+<Pair single id="spirit-of-nature-su">Spirit of Nature (Su)</Pair>
+<Pair title="Passive Ability">When in a natural setting, whenever you are reduced to negative hit points, you automatically stabilize.</Pair>
+<Pair title="At 5th Level">You gain <Link to="/umr/fast_healing">fast healing</Link> 1 for 1d4 rounds whenever you are reduced to negative hit points.</Pair>
+<Pair title="At 10th Level">This ability now works everywhere, even in civilized or wholly artificial realms.</Pair>
+<Pair title="At 15th Level">You gain fast healing 3 for 1d4 rounds when reduced to negative hit points.</Pair>
+</Ability>
+<Ability id="transcendental-bond-su" icon={["magic"]}>
+<Pair single id="transcendental-bond-su" flavor="You become so attuned to the common spirit shared by all living things that you can use it to communicate with allies.">Transcendental Bond (Su)</Pair>
+<Pair title="Ability">You may communicate with your allies for a number of rounds per day equal to your oracle level as if using <Link to="/spell/telepathic_bond">telepathic bond</Link>. You may designate a number of creatures as your ally equal to your Charisma modifier. Designating a creature is a <strong className="hl">standard action</strong> that requires a touch.</Pair>
+<Pair title="At 10th Level">You may use this bond to cast a touch spell on a designated ally once per day.</Pair>
+</Ability>
+<Ability id="undo-artifice-sp" icon={["magic"]}>
+<Pair single id="undo-artifice-sp" flavor="You gain the ability to reduce a nonliving item to its component parts, essentially erasing the hand of artifice and rendering the item into a pile of raw natural materials.">Undo Artifice (Sp)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Usage">Charisma modifier times/day</Pair>
+<Pair title="Ability">This effect acts as the spell <Link to="/spell/polymorph_any_object">polymorph any object</Link>, working on both magical and nonmagical nonliving objects. The duration is always permanent. Unlike <em>polymorph any object,</em> it cannot be used to mimic the effects of other spells.</Pair>
+<Pair title="Special">Items subject to this effect receive a Fortitude saving throw to negate the effect. Magic items receive a circumstance bonus on this save equal to +1 for every 5,000 gp in the item's value.</Pair>
+</Ability>
+<h3 id="mystery-nature-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["power","magic","aid"]}>
+<Pair single id="final-revelation" flavor="You have discovered the intrinsic secrets of life itself, granting you incredible control over your own body.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Full-Round Action">Once per day, you can surround yourself with an organic cocoon. While enclosed in the cocoon, you are considered <Link to="/misc/helpless">helpless</Link>. Eight hours later, you emerge having changed your type to plant, animal, or humanoid, gaining superficial physical characteristics as appropriate. This change does not alter your Hit Dice, hit points, saving throws, skill points, class skills, or proficiencies. Each time the transformation is made, you are cleansed of all poisons or diseases, are restored to full hit points, and heal all ability damage. You must select a new type every time the transformation is made.</Pair>
+</Ability>
 </>};
 const _occult = {title: "Occult", jsx: <><h2 id="mystery-occult-occult">Occult</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 53</Link>, <Link to="/source/pathfinder_71_rasputin_must_die">Pathfinder #71: Rasputin Must Die! pg. 68</Link></p>
