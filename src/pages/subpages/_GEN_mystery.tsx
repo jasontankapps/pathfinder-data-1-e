@@ -4,6 +4,7 @@ import Ability from '../../components/Ability';
 import {Block,Row,Cell} from '../../components/Block';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
+import Bonus from '../../components/Bonus';
 const _not_found = {title: "Unknown", jsx: <><h2 id="mystery-not_found-error">Error</h2>
 <p>Unable to find the requested mystery.</p>
 </>};
@@ -1445,7 +1446,7 @@ const _lunar = {hasJL:true,title: "Lunar", jsx: <><div className="jumpList" id="
 <Pair single id="gift-of-claw-and-horn-su">Gift of Claw and Horn (Su)</Pair>
 <Pair title="Usage">3 + Charisma modifier times/day</Pair>
 <Pair title="Swift Action">You gain a <Link to="/umr/natural_weapons">natural weapon</Link>. The natural weapon lasts for a number of rounds equal to half your oracle level (minimum 1). You must choose a bite, claw, or gore attack. These attacks deal the normal damage for a creature of your size.</Pair>
-<Pair title="At 5th Level">Your natural weapon gains an enhancement bonus. This bonus is equal to <Link to="/misc/one_fifth">one-fifth</Link> of your oracle level.</Pair>
+<Pair title="At 5th Level">Your natural weapon gains an enhancement bonus. <Bonus y c="oracle" n={5} />.</Pair>
 <Pair title="At 11th Level">You gain two natural weapons at a time.</Pair>
 </Ability>
 <Ability id="mantle-of-moonlight-su" icon={["def","touch"]}>

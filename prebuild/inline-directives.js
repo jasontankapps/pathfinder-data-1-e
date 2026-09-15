@@ -75,7 +75,7 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 				return `<Icons id="${id}-icons" wrapper="prefixIcon" list={${JSON.stringify(base.split("-"))}} />`;
 			} else if (tag.startsWith("B-")) {
 				// Bonus equal to fraction of level
-				//  @B-#[mfy]p?(#)-class(-x)?
+				//  @B-(identifier-)?#[mfytan]p?#?-class(-x)?
 				//  @B-3m-cleric => This bonus...one-third of his cleric level (linked to misc/one_third)
 				//  @B-3yp-cleric => These bonuses...one-third of your cleric level (linked to misc/one_third)
 				//  @B-3f1-cleric-x => This bonus...1 + one-third of her cleric level (no link)
@@ -86,31 +86,9 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 					logError(`Invalid [${tag}].`);
 					return "";
 				}
-				const [, what, n, g, p, x, c, nolink] = m;
-				const extra = x ? `${x} + ` : ""
-				const amount = n === "2" ? "half" : `one-${
-					n === "3" ? "third" : (
-						n === "4" ? "fourth" : (
-							n === "5" ? "fifth" : "sixth"
-						))
-				}`;
-				const pronoun = (
-					g === "m" ? "his" : (
-						g === "f" ? "her" : (
-							g === "y" ? "your" : (
-								g === "t" ? "the" : (
-									g === "a" ? "a" : "an" // "n"
-								)
-							)
-						)
-					)
-				);
-				const apos = ["t", "a", "n"].includes(g) ? "'s" : "";
-				// the/a/an should indicate possessive
-				flags.link = true;
-				const link = nolink  ? amount : `<Link to="/misc/${amount.replace(/-/g, "_")}">${amount}</Link>`;
-				const beginning = p ? `These ${what || "bonuses"} are` : `This ${what || "bonus"} is`;
-				return `${beginning} equal to ${extra}${link} of ${pronoun} ${c.replaceAll("_", " ")}${apos} level`;
+				const [, what, num, gender, plural, plusextra, classname, nolink] = m;
+				flags.bonus = true;
+				return `<Bonus ${gender === "n" ? "an" : gender} c="${classname.replaceAll("_", " ")}" n={${num}}${plural ? " pl" : ""}${nolink ? " link={false}" : ""}${what ? ` type="${what}"` : ""}${plusextra ? ` p={${plusextra}}` : ""} />`;
 			} else if (tag === "list") {
 				const convertEncodedInfo = (input) => {
 					let m;

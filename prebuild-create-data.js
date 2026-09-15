@@ -1192,6 +1192,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	groupFlags.message && imports.push(`import Message from '../../components/Message';`);
 	groupFlags.kinetic && imports.push(`import Kinetic from '../../components/Kinetic';`);
 	groupFlags.icons && imports.push(`import Icons from '../../components/Icons';`);
+	groupFlags.bonus && imports.push(`import Bonus from '../../components/Bonus';`);
 	// Add saved info;
 	const allprops = [];
 	const output = imports.concat(final.map(([prop, object]) => {

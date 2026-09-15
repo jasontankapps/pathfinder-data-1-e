@@ -5,6 +5,7 @@ import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import AffInfo from '../../components/AfflictionInfo';
+import Bonus from '../../components/Bonus';
 const _adaptive_shifter = {title: "Adaptive Shifter", jsx: <><h2 id="arc-shifter-adaptive_shifter-adaptive-shifter">Adaptive Shifter</h2>
 <p><strong>Sources</strong> <Link to="/source/distant_realms">Distant Realms pg. 12</Link><br/>Rather than emulate other animals entirely, some shifters learn to reshape their forms on the fly in response to a range of stimuli, rarely taking on a new form for longer than necessary to overcome a challenge.</p>
 <Ability id="adaptive-claws-su" icon={["melee"]}>
@@ -832,7 +833,7 @@ const _verdant_shifter = {title: "Verdant Shifter", jsx: <><h2 id="arc-shifter-v
 <Pair single id="wild-armor-ex">Wild Armor (Ex)</Pair>
 <Pair hl title="Replaces">Defensive instinct</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
-<Pair title="Passive Ability">A verdant shifter gains a natural armor bonus to her AC while unencumbered and either wearing no armor or wearing light or medium nonmetal armor. This bonus is equal to 2 + <Link to="/misc/one_fourth">one-fourth</Link> of her shifter level.</Pair>
+<Pair title="Passive Ability">A verdant shifter gains a natural armor bonus to her AC while unencumbered and either wearing no armor or wearing light or medium nonmetal armor. <Bonus f c="shifter" n={4} p={2} />.</Pair>
 </Ability>
 <Ability id="plant-shape-su" icon={["magic"]}>
 <Pair single id="plant-shape-su">Plant Shape (Su)</Pair>

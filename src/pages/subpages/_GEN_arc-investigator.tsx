@@ -4,6 +4,7 @@ import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import ByLevelPop from '../../components/ByLevelPop';
+import Bonus from '../../components/Bonus';
 const _antiquarian = {title: "Antiquarian", jsx: <><h2 id="arc-investigator-antiquarian-antiquarian">Antiquarian</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 16</Link><br/>Antiquarians are collectors, explorers, and scholars who delve into ruined places in search of lost lore and artifacts.</p>
 <Ability id="relic-magic-su" icon={["learn"]}>
@@ -169,7 +170,7 @@ const _conspirator = {title: "Conspirator", jsx: <><h2 id="arc-investigator-cons
 <Pair single id="watcher-sense-ex">Watcher Sense (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense, investigator talent gained at 7th level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Ability">A conspirator is able to sense when someone else is watching him. He gains a bonus on Perception checks to notice <Link to="/spell/scrying">scrying</Link> sensors, <Link to="/spell/prying_eyes">prying eyes</Link>, and other magical effects used to watch him, as well as on Perception checks to act on the surprise round. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of his investigator level.</Pair>
+<Pair title="Ability">A conspirator is able to sense when someone else is watching him. He gains a bonus on Perception checks to notice <Link to="/spell/scrying">scrying</Link> sensors, <Link to="/spell/prying_eyes">prying eyes</Link>, and other magical effects used to watch him, as well as on Perception checks to act on the surprise round. <Bonus m c="investigator" n={3} />.</Pair>
 <Pair title="At 7th Level">If a scrying sensor is invisible, the invisibility does not increase the DC of the conspirator's Perception check to notice it, regardless of whether or not he is using an ability that allows him to see invisible things. The DC for his Perception check is equal to 20 + the spell's level (with no +20 increase to the Perception DC for a moving invisible sensor or no +40 increase for an immobile invisible sensor).</Pair>
 </Ability>
 </>};
@@ -185,7 +186,7 @@ const _cryptid_scholar = {title: "Cryptid Scholar", jsx: <><h2 id="arc-investiga
 <Pair single id="opportune-advice-ex">Opportune Advice (Ex)</Pair>
 <Pair hl title="Replaces">Studied combat</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Move-Equivalent Action">When the cryptid scholar succeeds at a Knowledge check to identify a monster's special powers or vulnerabilities, he can share his insights with his allies. Allies within 30 feet who can hear the cryptid scholar gain an insight bonus to their ACs and on saving throws against extraordinary, supernatural, and spell-like abilities used by creatures of the same type and all the same subtypes as the monster identified. This bonus is equal to <Link to="/misc/one_fourth">one-fourth</Link> of his investigator level, and it lasts for a number of rounds equal to the cryptid scholar's Intelligence modifier (minimum 1) or until he uses <em>knowledgeable strike</em> (see below), whichever comes first. A creature cannot benefit from opportune advice regarding more than one specific kind of monster at a time.</Pair>
+<Pair title="Move-Equivalent Action">When the cryptid scholar succeeds at a Knowledge check to identify a monster's special powers or vulnerabilities, he can share his insights with his allies. Allies within 30 feet who can hear the cryptid scholar gain an insight bonus to their ACs and on saving throws against extraordinary, supernatural, and spell-like abilities used by creatures of the same type and all the same subtypes as the monster identified. <Bonus m c="investigator" n={4} />, and it lasts for a number of rounds equal to the cryptid scholar's Intelligence modifier (minimum 1) or until he uses <em>knowledgeable strike</em> (see below), whichever comes first. A creature cannot benefit from opportune advice regarding more than one specific kind of monster at a time.</Pair>
 <Pair title="Info">The cryptid scholar cannot choose investigator talents that add effects to <em>studied combat</em> or <em>studied strike.</em></Pair>
 <Pair title="Special">Once the cryptid scholar has used this ability to provide a bonus against a specific kind of monster, he can't grant a bonus against that same kind of monster again for 24 hours, unless he expends one use of <em>inspiration</em> when taking a move action to use this ability.</Pair>
 </Ability>
@@ -227,13 +228,13 @@ const _cult_hunter = {title: "Cult Hunter", jsx: <><h2 id="arc-investigator-cult
 <Pair single id="ambush-defense-ex">Ambush Defense (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A cult hunter gains an insight bonus during a surprise round triggered by his enemies on Reflex saves and to his AC. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of his investigator level.</Pair>
+<Pair title="Passive Ability">A cult hunter gains an insight bonus during a surprise round triggered by his enemies on Reflex saves and to his AC. <Bonus m c="investigator" n={3} />.</Pair>
 </Ability>
 <Ability id="cultic-study-ex" icon={["boost"]}>
 <Pair single id="cultic-study-ex">Cultic Study (Ex)</Pair>
 <Pair hl title="Replaces">Swift alchemy</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Ability">A cult hunter can spend 8 hours studying a specific deity or religion to gain a bonus on Bluff, Intimidate, Knowledge, Perception, and Sense Motive checks against followers of that deity or religion and against extraplanar creatures. These bonuses are equal to one-fourth of his investigator level.</Pair>
+<Pair title="Ability">A cult hunter can spend 8 hours studying a specific deity or religion to gain a bonus on Bluff, Intimidate, Knowledge, Perception, and Sense Motive checks against followers of that deity or religion and against extraplanar creatures. <Bonus m c="investigator" n={4} pl link={false} />.</Pair>
 <Pair title="Special">If he studies a new deity or religion, the bonuses replace the former bonuses.</Pair>
 </Ability>
 <Ability id="cult-combat-ex" icon={["boost","down"]}>
@@ -338,7 +339,7 @@ const _engineer = {title: "Engineer", jsx: <><h2 id="arc-investigator-engineer-e
 <Pair single id="mechanical-understanding-ex">Mechanical Understanding (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">An engineer gains a deeper understanding of constructs and machines. He gains a bonus on Knowledge (arcana) checks to identify constructs and on Knowledge (engineering) checks. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of his investigator level.</Pair>
+<Pair title="Passive Ability">An engineer gains a deeper understanding of constructs and machines. He gains a bonus on Knowledge (arcana) checks to identify constructs and on Knowledge (engineering) checks. <Bonus m c="investigator" n={3} />.</Pair>
 </Ability>
 </>};
 const _forensic_physician = {title: "Forensic Physician", jsx: <><h2 id="arc-investigator-forensic_physician-forensic-physician">Forensic Physician</h2>
@@ -617,7 +618,7 @@ const _jinyiwei = {title: "Jinyiwei", jsx: <><h2 id="arc-investigator-jinyiwei-j
 <Pair single id="celestial-insight-ex" flavor="A jinyiwei learns to see through the types of magic that often lead others astray.">Celestial Insight (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">She gains a competence bonus on saving throws to resist enchantment and illusion effects. These bonuses are equal to <Link to="/misc/one_third">one-third</Link> of her investigator level.</Pair>
+<Pair title="Passive Ability">She gains a competence bonus on saving throws to resist enchantment and illusion effects. <Bonus f c="investigator" n={3} pl />.</Pair>
 </Ability>
 <Ability id="imperial-judgment-su" icon={["power"]}>
 <Pair single id="imperial-judgment-su" flavor="A jinyiwei can carry out trial and sentence with her own divine authority.">Imperial Judgment (Su)</Pair>
@@ -1379,7 +1380,7 @@ const _tekritanin_arbiter = {title: "Tekritanin Arbiter", jsx: <><h2 id="arc-inv
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A Tekritanin arbiter learns to speak one language with the skill of a native speaker.</Pair>
-<Pair title="Choice">He chooses one language he knows and gains a bonus on Disguise checks to appear as an individual native to any region where the language is primarily spoken. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of his investigator level.</Pair>
+<Pair title="Choice">He chooses one language he knows and gains a bonus on Disguise checks to appear as an individual native to any region where the language is primarily spoken. <Bonus m c="investigator" n={3} />.</Pair>
 <Pair title="Passive Ability">In addition, he gains the same bonus on both Diplomacy checks to change initial attitudes and Sense Motive checks to detect falsehoods when dealing with individuals with the selected language as their native language.</Pair>
 <Pair title="Special">Whenever his bonus increases (at 6th level and every 3 levels thereafter), the Tekritanin arbiter can select one additional language that his bonuses apply to, up to a maximum of +6 each for six languages at 18th level.</Pair>
 </Ability>

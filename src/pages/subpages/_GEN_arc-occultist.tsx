@@ -5,6 +5,7 @@ import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
+import Bonus from '../../components/Bonus';
 const _ancestral_aspirant = {title: "Ancestral Aspirant", jsx: <><h2 id="arc-occultist-ancestral_aspirant-ancestral-aspirant">Ancestral Aspirant</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 67</Link><br/>It is common for a noble to possess a deep pride for his family's past, but when such self-importance gives way to obsession, an ancestral aspirant is born. Ancestral aspirants perform all the typical social functions of a noble, but they fill their conversations with stories of the great deeds of their family forebears, and they spend their nights researching old histories and primary sources, hungry for more.</p>
 <Ability icon={["skill"]} id="class-skills">
@@ -489,7 +490,7 @@ const _occult_historian = {title: "Occult Historian", jsx: <><h2 id="arc-occulti
 <Pair single id="trap-sense-ex">Trap Sense (Ex)</Pair>
 <Pair hl title="Replaces">3rd-level focus power</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">An occult historian gains <Link to="/ability/trap_sense">trap sense</Link>, as per the rogue class feature of the same name, giving her a bonus on Reflex saves made to avoid traps and a dodge bonus to AC against attacks made by traps. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her occultist level.</Pair>
+<Pair title="Passive Ability">An occult historian gains <Link to="/ability/trap_sense">trap sense</Link>, as per the rogue class feature of the same name, giving her a bonus on Reflex saves made to avoid traps and a dodge bonus to AC against attacks made by traps. <Bonus f c="occultist" n={3} />.</Pair>
 </Ability>
 <Ability id="crumbling-strike-su" icon={["melee"]}>
 <Pair single id="crumbling-strike-su" flavor="An occult historian can channel the erosion of countless ages into a single melee strike.">Crumbling Strike (Su)</Pair>

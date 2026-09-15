@@ -2,6 +2,7 @@ import Link from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import {Block,Row,Cell} from '../../components/Block';
+import Bonus from '../../components/Bonus';
 const _not_found = {title: "Unknown", jsx: <><h2 id="implement-not_found-error">Error</h2>
 <p>Unable to find the requested implement.</p>
 </>};
@@ -25,7 +26,7 @@ const _abjuration = {title: "Abjuration", jsx: <><h2 id="implement-abjuration-ab
 <h3 id="implement-abjuration-focus-powers">Focus Powers</h3>
 <Ability id="aegis-su" icon={["def"]}>
 <Pair single id="aegis-su">Aegis (Su)</Pair>
-<Pair title="Standard Action"><p>You can expend 1 point of mental focus and touch a suit of armor or a shield to grant it an enhancement bonus. This bonus is equal to 1 + <Link to="/misc/one_sixth">one-sixth</Link> of your occultist level. Enhancement bonuses gained via this ability stack with those of the armor or shield, to a maximum total enhancement bonus of +5.</p>
+<Pair title="Standard Action"><p>You can expend 1 point of mental focus and touch a suit of armor or a shield to grant it an enhancement bonus. <Bonus y c="occultist" n={6} p={1} />. Enhancement bonuses gained via this ability stack with those of the armor or shield, to a maximum total enhancement bonus of +5.</p>
 <p>You can also imbue the armor or shield with any one armor or shield <Link to="/main/magic_enhancements">special ability</Link> that has an equivalent enhancement bonus less than or equal to your maximum bonus granted by this ability by reducing the granted enhancement bonus by the appropriate amount. The item must have an enhancement bonus of at least +1 (from the item itself or from <em>aegis</em>) to gain an armor or shield special ability. In either case, these bonuses last for 1 minute.</p>
 </Pair>
 </Ability>
@@ -244,7 +245,7 @@ const _enchantment = {title: "Enchantment", jsx: <><h2 id="implement-enchantment
 </Ability>
 <Ability id="inspired-assault-sp" icon={["boost","def"]}>
 <Pair single id="inspired-assault-sp">Inspired Assault (Sp)</Pair>
-<Pair title="Standard Action">You can inspire a living creature with a touch by expending 1 point of mental focus. The creature receives a morale bonus on attack rolls. This bonus is equal to 1 + <Link to="/misc/one_sixth">one-sixth</Link> of your occultist level. This bonus also applies on saving throws against fear effects. This bonus lasts for 1 minute.</Pair>
+<Pair title="Standard Action">You can inspire a living creature with a touch by expending 1 point of mental focus. The creature receives a morale bonus on attack rolls. <Bonus y c="occultist" n={6} p={1} />. This bonus also applies on saving throws against fear effects. This bonus lasts for 1 minute.</Pair>
 </Ability>
 <Ability id="mental-discord-sp" icon={["lower"]}>
 <Pair single id="mental-discord-sp">Mental Discord (Sp)</Pair>
@@ -499,7 +500,7 @@ const _necromancy = {title: "Necromancy", jsx: <><h2 id="implement-necromancy-ne
 <Pair single id="spirit-shroud-su">Spirit Shroud (Su)</Pair>
 <Pair title="Prerequisites">3rd-level occultist</Pair>
 <Pair title="Standard Action">You can expend 1 point of mental focus to surround yourself with a shroud of spirit energy. You gain a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to 1d6 + your occultist level. This <em>shroud</em> lasts for 1 minute per occultist level or until the temporary hit points are expended, whichever comes first. These temporary hit points stack with those from other sources, but not with those gained through multiple uses of this ability.</Pair>
-<Pair title="At 4th Level">As long as the <em>shroud</em> remains, you also gain a resistance bonus on all saving throws against death effects, fear effects, and any spells or effects that bestow <Link to="/rule/negative_levels">negative levels</Link> or deal negative energy damage (if the spells or effects allow a save). This bonus is equal to <Link to="/misc/one_fourth">one-fourth</Link> of your occultist level.</Pair>
+<Pair title="At 4th Level">As long as the <em>shroud</em> remains, you also gain a resistance bonus on all saving throws against death effects, fear effects, and any spells or effects that bestow <Link to="/rule/negative_levels">negative levels</Link> or deal negative energy damage (if the spells or effects allow a save). <Bonus y c="occultist" n={4} />.</Pair>
 </Ability>
 <h3 id="implement-necromancy-sacred-implement">Sacred Implement</h3>
 <p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 15</Link></p>
@@ -527,7 +528,7 @@ const _transmutation = {title: "Transmutation", jsx: <><h2 id="implement-transmu
 <h3 id="implement-transmutation-base-focus-power">Base Focus Power</h3>
 <Ability id="legacy-weapon-su" icon={["boost"]}>
 <Pair single id="legacy-weapon-su">Legacy Weapon (Su)</Pair>
-<Pair title="Standard Action"><p>You can expend 1 point of mental focus and touch a weapon to grant it an enhancement bonus. This bonus is equal to 1 + <Link to="/misc/one_sixth">one-sixth</Link> of your occultist level. Enhancement bonuses gained by this ability stack with those of the weapon, to a maximum of +5.</p>
+<Pair title="Standard Action"><p>You can expend 1 point of mental focus and touch a weapon to grant it an enhancement bonus. <Bonus y c="occultist" n={6} p={1} />. Enhancement bonuses gained by this ability stack with those of the weapon, to a maximum of +5.</p>
 <p>You can also imbue the weapon with any one weapon <Link to="/main/magic_enhancements">special ability</Link> with an equivalent enhancement bonus less than or equal to your maximum bonus by reducing the granted enhancement bonus by the appropriate amount. The item must have an enhancement bonus of at least +1 (from the item itself or from legacy weapon) to gain a weapon special ability.</p>
 <p>In either case, these bonuses last for 1 minute.</p>
 </Pair>

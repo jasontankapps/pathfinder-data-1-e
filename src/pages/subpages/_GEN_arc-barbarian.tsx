@@ -4,6 +4,7 @@ import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import Bonus from '../../components/Bonus';
 const _armored_hulk = {title: "Armored Hulk", jsx: <><h2 id="arc-barbarian-armored_hulk-armored-hulk">Armored Hulk</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 28</Link><br/>Some barbarians disdain the hides and leather used as armor by most of their kin. Instead they master the heaviest of armors, even those created by more civilized people, to gain greater protection and stability in battle.</p>
 <Ability id="weapon-and-armor-proficiency" icon={["power"]}>
@@ -25,7 +26,7 @@ const _armored_hulk = {title: "Armored Hulk", jsx: <><h2 id="arc-barbarian-armor
 <Pair single id="resilience-of-steel-ex">Resilience of Steel (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">While wearing heavy armor, she gains a bonus to AC that applies only on critical hit confirmation rolls. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level.</Pair>
+<Pair title="Passive Ability">While wearing heavy armor, she gains a bonus to AC that applies only on critical hit confirmation rolls. <Bonus f c="barbarian" n={3} />.</Pair>
 </Ability>
 <Ability id="improved-armored-swiftness-ex" icon={["boost"]}>
 <Pair single id="improved-armored-swiftness-ex">Improved Armored Swiftness (Ex)</Pair>
@@ -157,7 +158,7 @@ const _cave_dweller = {title: "Cave Dweller", jsx: <><h2 id="arc-barbarian-cave_
 <Pair single id="tunnel-vision-ex">Tunnel Vision (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A cave dweller gains darkvision to a range of 60 feet and a bonus on Perception checks to detect ambushes, movement, and sound while in darkness. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level.</Pair>
+<Pair title="Passive Ability">A cave dweller gains darkvision to a range of 60 feet and a bonus on Perception checks to detect ambushes, movement, and sound while in darkness. <Bonus f c="barbarian" n={3} />.</Pair>
 </Ability>
 <Ability id="sun-walker-ex" icon={["def"]}>
 <Pair single id="sun-walker-ex">Sun Walker (Ex)</Pair>
@@ -261,7 +262,7 @@ const _drunken_rager = {title: "Drunken Rager", jsx: <><h2 id="arc-barbarian-dru
 <Pair single id="tolerance-ex">Tolerance (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">As long as she has at least 1 <em>drunken rage</em> point, a drunken rager gains a bonus on saves against effects that would nauseate, poison, or sicken her, as well as saves to avoid <Link to="/rule/addiction">addiction</Link> or other ill effects associated with consuming alcohol. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level.</Pair>
+<Pair title="Passive Ability">As long as she has at least 1 <em>drunken rage</em> point, a drunken rager gains a bonus on saves against effects that would nauseate, poison, or sicken her, as well as saves to avoid <Link to="/rule/addiction">addiction</Link> or other ill effects associated with consuming alcohol. <Bonus f c="barbarian" n={3} />.</Pair>
 </Ability>
 <Ability id="improved-staggering-evasion-ex" icon={["def"]}>
 <Pair single id="improved-staggering-evasion-ex">Improved Staggering Evasion (Ex)</Pair>
@@ -554,7 +555,7 @@ const _jungle_rager = {title: "Jungle Rager", jsx: <><h2 id="arc-barbarian-jungl
 <Pair single id="jungle-endurance-ex">Jungle Endurance (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A jungle rager gains a bonus on Fortitude saves to resist the effects of <Link to="/rule/hot_weather">hot weather</Link> and diseases. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level.</Pair>
+<Pair title="Passive Ability">A jungle rager gains a bonus on Fortitude saves to resist the effects of <Link to="/rule/hot_weather">hot weather</Link> and diseases. <Bonus f c="barbarian" n={3} />.</Pair>
 </Ability>
 <Ability id="home-ground-supremacy-ex" icon={["power","def"]}>
 <Pair single id="home-ground-supremacy-ex" flavor={<>A jungle rager becomes even more capable when navigating and fighting in her preferred terrain. She gains the <Link to="/ability/woodland_stride">woodland stride</Link> ranger ability, though this ability works only in the terrain she selected for the home ground advantage ability. In this terrain, she gains an additional +1 bonus to AC when benefiting from cover or improved cover (but not soft cover).</>}>Home Ground Supremacy (Ex)</Pair>
@@ -687,7 +688,7 @@ const _pack_hunter = {title: "Pack Hunter", jsx: <><h2 id="arc-barbarian-pack_hu
 <Pair single id="in-and-out-ex">In and Out (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A pack hunter gains a dodge bonus to AC against attacks of opportunity. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level.</Pair>
+<Pair title="Passive Ability">A pack hunter gains a dodge bonus to AC against attacks of opportunity. <Bonus f c="barbarian" n={3} />.</Pair>
 </Ability>
 <Ability id="sympathetic-rage-ex" icon={["boost"]}>
 <Pair single id="sympathetic-rage-ex">Sympathetic Rage (Ex)</Pair>
@@ -853,7 +854,7 @@ const _scarred_rager = {title: "Scarred Rager", jsx: <><h2 id="arc-barbarian-sca
 <Pair single id="scarification-ex">Scarification (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A scarred rager can ignore a number of points of bleed damage per round. This number is equal to one-third of her barbarian level.</Pair>
+<Pair title="Passive Ability">A scarred rager can ignore a number of points of bleed damage per round. <Bonus f c="barbarian" n={3} link={false} type="number" />.</Pair>
 <Pair title="At 15th Level">A scarred rager can ignore 1 bleed effect each round.</Pair>
 </Ability>
 <Ability id="improved-tolerance-ex" icon={["def"]}>
@@ -885,7 +886,7 @@ const _sea_reaver = {title: "Sea Reaver", jsx: <><h2 id="arc-barbarian-sea_reave
 <Pair single id="savage-sailor-ex">Savage Sailor (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A sea reaver gains a bonus on Acrobatics, Climb, Profession (sailor), Survival, and Swim checks made in aquatic terrain, including aboard a ship or along shorelines. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level.</Pair>
+<Pair title="Passive Ability">A sea reaver gains a bonus on Acrobatics, Climb, Profession (sailor), Survival, and Swim checks made in aquatic terrain, including aboard a ship or along shorelines. <Bonus f c="barbarian" n={3} />.</Pair>
 </Ability>
 <Ability id="sure-footed-ex" icon={["boost"]}>
 <Pair single id="sure-footed-ex">Sure-Footed (Ex)</Pair>
@@ -973,7 +974,7 @@ const _superstitious = {title: "Superstitious", jsx: <><h2 id="arc-barbarian-sup
 <Pair single id="sixth-sense-ex">Sixth Sense (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">The superstitious barbarian gains a bonus on initiative and an insight bonus to AC during surprise rounds. These bonuses are equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level.</Pair>
+<Pair title="Passive Ability">The superstitious barbarian gains a bonus on initiative and an insight bonus to AC during surprise rounds. <Bonus f c="barbarian" n={3} pl />.</Pair>
 </Ability>
 <Ability id="keen-senses-ex" icon={["power"]}>
 <Pair single id="keen-senses-ex">Keen Senses (Ex)</Pair>
@@ -1074,7 +1075,7 @@ const _totem_warrior = {title: "Totem Warrior", jsx: <div className="compilation
 <Ability id="ragepowerbeasttotem-beast-totem-su-fn3-2" icon={["def"]}>
 <Pair single id="ragepowerbeasttotem-beast-totem-su-fn3-2"><Link to="/ragepower/beast_totem">⮞</Link> Beast Totem (Su) <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-3.2" id="arc-barbarian-totem_warrior-fake-fn-3.2" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/lesser_beast_totem">Lesser beast totem</Link>, 6th-level barbarian</Pair>
-<Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a natural armor bonus. This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level.</Pair>
+<Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a natural armor bonus. <Bonus f c="barbarian" n={4} p={1} />.</Pair>
 </Ability>
 <div className="abilityGroup">
 <Ability id="ragepowergreaterbeasttotem-greater-beast-totem-su-fn3-3" icon={["melee","boost"]}>
@@ -1183,7 +1184,7 @@ const _totem_warrior = {title: "Totem Warrior", jsx: <div className="compilation
 <Ability id="ragepowerlesserelementaltotem-lesser-elemental-totem-su-fn7" icon={["def"]}>
 <Pair single id="ragepowerlesserelementaltotem-lesser-elemental-totem-su-fn7"><Link to="/ragepower/lesser_elemental_totem">⮞</Link> Lesser Elemental Totem (Su) <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-7" id="arc-barbarian-totem_warrior-fake-fn-7" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Choice">The barbarian selects one elemental type (air, earth, fire, or water). Once selected, this choice cannot be changed.</Pair>
-<Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a bonus on saving throws against spells with the selected elemental descriptor. This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level. The barbarian gains access to the elemental totem rage power matching the element she selected.</Pair>
+<Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a bonus on saving throws against spells with the selected elemental descriptor. <Bonus f c="barbarian" n={4} p={1} />. The barbarian gains access to the elemental totem rage power matching the element she selected.</Pair>
 </Ability>
 <div className="abilityGroup">
 <Ability id="ragepowerairtotem-air-totem-su-fn7-2" icon={["magic"]}>

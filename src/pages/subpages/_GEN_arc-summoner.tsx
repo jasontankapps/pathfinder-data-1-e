@@ -5,6 +5,7 @@ import Ability from '../../components/Ability';
 import {Block,Row,Cell} from '../../components/Block';
 import ScrollContainer from '../../components/ScrollContainer';
 import ByLevelPop from '../../components/ByLevelPop';
+import Bonus from '../../components/Bonus';
 const _blood_god_disciple = {title: "Blood God Disciple", jsx: <><h2 id="arc-summoner-blood_god_disciple-blood-god-disciple">Blood God Disciple</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 53</Link><br/>A half-orc summoner who devotes himself to one of the bloody orc gods may believe his eidolon is an avatar of that god rather than a mere supernatural creature. A blood god disciple generally fights by the avatar's side and offers it blood sacrifices in exchange for martial prowess. A blood god disciple has the following class features.</p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-summoner-blood_god_disciple--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/half_orc">Half-orc</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="blood-feast-su" icon={["boost"]}>
@@ -760,7 +761,7 @@ const _unwavering_conduit = {title: "Unwavering Conduit", jsx: <><h2 id="arc-sum
 <Pair single id="eidolon-of-law">Eidolon of Law</Pair>
 <Pair hl title="Alters">Eidolon</Pair>
 <Pair title="Info">An unwavering conduit's eidolon must be of a lawful alignment. Once selected, the evolutions of the unwavering conduit's eidolon cannot be changed when a new class level is gained (though they can be altered normally with the <Link to="/spell/transmogrify">transmogrify</Link> spell). At least half the eidolon's skill points must be spent on skills in which the unwavering conduit also has ranks.</Pair>
-<Pair title="Passive Ability">The eidolon gains a resistance bonus on saving throws against spells and abilities of the conjuration, enchantment, and transmutation schools. This bonus is equal to 1 + <Link to="/misc/one_third">one-third</Link> of the summoner's level.</Pair>
+<Pair title="Passive Ability">The eidolon gains a resistance bonus on saving throws against spells and abilities of the conjuration, enchantment, and transmutation schools. <Bonus t c="summoner" n={3} p={1} />.</Pair>
 <Pair title="Special">The eidolon has 1 fewer evolution point than normal for an eidolon of the unwavering conduit's summoner level.</Pair>
 </Ability>
 <Ability id="unwavering-monsters" icon={["info","def"]}>

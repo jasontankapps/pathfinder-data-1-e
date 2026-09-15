@@ -5,6 +5,7 @@ import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
+import Bonus from '../../components/Bonus';
 const _aromaphile = {title: "Aromaphile", jsx: <><h2 id="arc-mesmerist-aromaphile-aromaphile">Aromaphile</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 18</Link><br/>Rather than employ the baleful glares of the typical mesmerist, aromaphiles hypnotize others using an array of sickeningly sweet scents developed from their unique ghoran physiology.</p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-mesmerist-aromaphile--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ghoran">Ghoran</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="hypnotic-aroma-su" icon={["aura","lower"]}>
@@ -95,7 +96,7 @@ const _cult_master = {title: "Cult Master", jsx: <><h2 id="arc-mesmerist-cult_ma
 <Pair single id="fanatical-stare-su" flavor="A cult master can turn his gaze on a creature to fill it with fervent belief in the cult master.">Fanatical Stare (Su)</Pair>
 <Pair hl title="Replaces">Painful stare</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Ability">The target of the gaze gains a competence bonus on attack rolls and weapon damage rolls. This bonus is equal to 1 + <Link to="/misc/one_sixth">one-sixth</Link> of his mesmerist level.</Pair>
+<Pair title="Ability">The target of the gaze gains a competence bonus on attack rolls and weapon damage rolls. <Bonus m c="mesmerist" n={6} p={1} />.</Pair>
 <Pair title="Passive Ability">Instead of taking the <em>hypnotic stare's</em> penalty on Will saves, the target gains a bonus of an equal amount on Will saves. The bonuses don't apply to attacks against the cult master or on saves against the cult master's spells or abilities. The cult master can also suppress any penalties inflicted by his stare for the target.</Pair>
 </Ability>
 <Ability id="cult-tricks-su" extraClasses="hasSubs" icon={["power","info"]}>

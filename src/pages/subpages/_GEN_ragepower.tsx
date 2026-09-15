@@ -4,6 +4,7 @@ import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import AffInfo from '../../components/AfflictionInfo';
+import Bonus from '../../components/Bonus';
 const _not_found = {title: "Unknown", jsx: <><h2 id="ragepower-not_found-error">Error</h2>
 <p>Unable to find the requested rage power.</p>
 </>};
@@ -703,7 +704,7 @@ const _powerful_blow = {title: "Powerful Blow", jsx: <><p><strong>Sources</stron
 <Ability id="powerful-blow-ex" icon={["boost"]}>
 <Pair single id="powerful-blow-ex">Powerful Blow (Ex)</Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
-<Pair title="Swift Action">The barbarian gains a bonus on a single damage roll. This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level. This power is used before the roll to hit is made.</Pair>
+<Pair title="Swift Action">The barbarian gains a bonus on a single damage roll. <Bonus f c="barbarian" n={4} p={1} />. This power is used before the roll to hit is made.</Pair>
 </Ability>
 </>};
 const _bleeding_blow = {title: "Bleeding Blow", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat</Link></p>
@@ -855,7 +856,7 @@ const _roaring_drunk = {title: "Roaring Drunk", jsx: <><p><strong>Sources</stron
 const _rolling_dodge = {title: "Rolling Dodge", jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook</Link></p>
 <Ability id="rolling-dodge-ex" icon={["def"]}>
 <Pair single id="rolling-dodge-ex">Rolling Dodge (Ex)</Pair>
-<Pair title="Move-Equivalent Action">The barbarian gains a dodge bonus to her Armor Class against ranged attacks for a number of rounds equal to the barbarian's current Constitution modifier (minimum 1). This bonus is equal to 1 + <Link to="/misc/one_sixth">one-sixth</Link> of her barbarian level.</Pair>
+<Pair title="Move-Equivalent Action">The barbarian gains a dodge bonus to her Armor Class against ranged attacks for a number of rounds equal to the barbarian's current Constitution modifier (minimum 1). <Bonus f c="barbarian" n={6} p={1} />.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
 </>};
@@ -1008,7 +1009,7 @@ const _summer_rage = {title: "Summer Rage", jsx: <><p><strong>Sources</strong> <
 const _superstition = {title: "Superstition", jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook</Link></p>
 <Ability id="superstition-ex" icon={["def","down"]}>
 <Pair single id="superstition-ex">Superstition (Ex)</Pair>
-<Pair title="Passive Ability">The barbarian gains a morale bonus on saving throws made to resist spells, supernatural abilities, and spell-like abilities. This bonus is equal to 2 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level.</Pair>
+<Pair title="Passive Ability">The barbarian gains a morale bonus on saving throws made to resist spells, supernatural abilities, and spell-like abilities. <Bonus f c="barbarian" n={4} p={2} />.</Pair>
 <Pair title="Special">While <em>raging,</em> the barbarian cannot be a willing target of any spell and must make saving throws to resist all spells, even those cast by allies.</Pair>
 </Ability>
 </>};
@@ -1217,7 +1218,7 @@ const _beast_totem = {title: "Beast Totem", topLink: ["Totem Warrior","arc-barba
 <Ability id="beast-totem-su" icon={["def"]}>
 <Pair single id="beast-totem-su">Beast Totem (Su)</Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/lesser_beast_totem">Lesser beast totem</Link>, 6th-level barbarian</Pair>
-<Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a natural armor bonus. This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level.</Pair>
+<Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a natural armor bonus. <Bonus f c="barbarian" n={4} p={1} />.</Pair>
 </Ability>
 </>};
 const _greater_beast_totem = {title: "Greater Beast Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -1337,7 +1338,7 @@ const _lesser_elemental_totem = {title: "Lesser Elemental Totem", topLink: ["Tot
 <Ability id="lesser-elemental-totem-su" icon={["def"]}>
 <Pair single id="lesser-elemental-totem-su">Lesser Elemental Totem (Su)</Pair>
 <Pair title="Choice">The barbarian selects one elemental type (air, earth, fire, or water). Once selected, this choice cannot be changed.</Pair>
-<Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a bonus on saving throws against spells with the selected elemental descriptor. This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level. The barbarian gains access to the elemental totem rage power matching the element she selected.</Pair>
+<Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a bonus on saving throws against spells with the selected elemental descriptor. <Bonus f c="barbarian" n={4} p={1} />. The barbarian gains access to the elemental totem rage power matching the element she selected.</Pair>
 </Ability>
 </>};
 const _air_totem = {title: "Air Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
@@ -1732,7 +1733,7 @@ const _greater_undead_blood = {title: "Greater Undead Blood", jsx: <><p><strong>
 const _accurate_stance = {title: "Accurate Stance", topLink: ["Stance Rage Powers","ability/stance_rage_powers"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained</Link></p>
 <Ability id="accurate-stance-ex" icon={["boost"]}>
 <Pair single id="accurate-stance-ex" flavor="The barbarian can focus her strikes.">Accurate Stance (Ex)</Pair>
-<Pair title="Passive Ability">She gains a competence bonus on melee attack rolls and thrown weapon attack rolls. This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level.</Pair>
+<Pair title="Passive Ability">She gains a competence bonus on melee attack rolls and thrown weapon attack rolls. <Bonus f c="barbarian" n={4} p={1} />.</Pair>
 </Ability>
 </>};
 const _calm_stance = {title: "Calm Stance", topLink: ["Stance Rage Powers","ability/stance_rage_powers"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained</Link></p>
@@ -1753,7 +1754,7 @@ const _elemental_stance = {title: "Elemental Stance", topLink: ["Stance Rage Pow
 const _guarded_stance_stance = {title: "Guarded Stance", topLink: ["Stance Rage Powers","ability/stance_rage_powers"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained</Link></p>
 <Ability id="guarded-stance-ex" icon={["def"]}>
 <Pair single id="guarded-stance-ex" flavor="The barbarian can take on a more defensive posture.">Guarded Stance (Ex)</Pair>
-<Pair title="Passive Ability">This grants her a dodge bonus to her Armor Class for the duration of her current <em>rage.</em> This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level.</Pair>
+<Pair title="Passive Ability">This grants her a dodge bonus to her Armor Class for the duration of her current <em>rage.</em> <Bonus f c="barbarian" n={4} p={1} />.</Pair>
 </Ability>
 </>};
 const _knockdown_stance = {title: "Knockdown Stance", topLink: ["Stance Rage Powers","ability/stance_rage_powers"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained</Link></p>
@@ -1766,7 +1767,7 @@ const _knockdown_stance = {title: "Knockdown Stance", topLink: ["Stance Rage Pow
 const _powerful_stance = {title: "Powerful Stance", topLink: ["Stance Rage Powers","ability/stance_rage_powers"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained</Link></p>
 <Ability id="powerful-stance-ex" icon={["boost"]}>
 <Pair single id="powerful-stance-ex" flavor="The barbarian can focus her ferocity.">Powerful Stance (Ex)</Pair>
-<Pair title="Passive Ability">She gains a bonus on melee damage rolls and thrown weapon damage rolls. This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level.</Pair>
+<Pair title="Passive Ability">She gains a bonus on melee damage rolls and thrown weapon damage rolls. <Bonus f c="barbarian" n={4} p={1} />.</Pair>
 </Ability>
 </>};
 const _reckless_stance = {title: "Reckless Stance", topLink: ["Stance Rage Powers","ability/stance_rage_powers"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained</Link></p>

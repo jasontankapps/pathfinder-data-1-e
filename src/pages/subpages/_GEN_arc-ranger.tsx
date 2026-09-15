@@ -7,6 +7,7 @@ import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
 import AffInfo from '../../components/AfflictionInfo';
 import TrapInfo from '../../components/TrapInfo';
+import Bonus from '../../components/Bonus';
 const _abendego_diver = {title: "Abendego Diver", jsx: <><h2 id="arc-ranger-abendego_diver-abendego-diver">Abendego Diver</h2>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 12</Link><br/>Named for the vicious and unending storm in the southern Arcadian Ocean, Abendego divers have pushed their bodies to their limits, holding their breath to expand their lung capacity and swimming until ocean travel is second nature to them.</p>
 <Ability id="weapon-and-armor-proficiency" icon={["down","power"]}>
@@ -1295,7 +1296,7 @@ const _planar_scout = {title: "Planar Scout", jsx: <><h2 id="arc-ranger-planar_s
 </Ability>
 <Ability id="aligned-plane" extraClasses="subAbility" icon={["boost"]}>
 <Pair single id="aligned-plane">Aligned Plane</Pair>
-<Pair title="Ability">If the planar scout selects a plane with an alignment trait, he gains a bonus on attack and damage rolls against outsiders and creatures with the extraplanar subtype whose alignments oppose this alignment trait. This bonus is equal to <Link to="/misc/one_fourth">one-fourth</Link> of his ranger level.</Pair>
+<Pair title="Ability">If the planar scout selects a plane with an alignment trait, he gains a bonus on attack and damage rolls against outsiders and creatures with the extraplanar subtype whose alignments oppose this alignment trait. <Bonus m c="ranger" n={4} />.</Pair>
 </Ability>
 <Ability id="astral-plane" extraClasses="subAbility" icon={["magic"]}>
 <Pair single id="astral-plane">Astral Plane</Pair>
@@ -1318,7 +1319,7 @@ const _planar_scout = {title: "Planar Scout", jsx: <><h2 id="arc-ranger-planar_s
 </Ability>
 <Ability id="plane-of-earth" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="plane-of-earth">Plane of Earth</Pair>
-<Pair title="Ability">The planar scout gains a bonus to his natural armor. This bonus is equal to one-fourth of his ranger level.</Pair>
+<Pair title="Ability">The planar scout gains a bonus to his natural armor. <Bonus m c="ranger" n={4} link={false} />.</Pair>
 </Ability>
 <Ability id="plane-of-fire" extraClasses="subAbility" icon={["def","boost"]}>
 <Pair single id="plane-of-fire">Plane of Fire</Pair>

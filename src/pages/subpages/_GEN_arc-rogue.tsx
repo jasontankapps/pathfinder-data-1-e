@@ -5,6 +5,7 @@ import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
+import Bonus from '../../components/Bonus';
 const _acrobat = {title: "Acrobat", jsx: <><h2 id="arc-rogue-acrobat-acrobat">Acrobat</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 132</Link><br/>Agility and daring are both excellent rogue traits, and their confluence can create spectacular feats of acrobatics. Whether they are daring thieves, infiltrating assassins, or intrepid spies, proper training in acrobatics is a valuable boon for rogues.</p>
 <Ability id="expert-acrobat-ex" icon={["boost"]}>
@@ -50,7 +51,7 @@ const _bekyar_kidnapper = {title: "Bekyar Kidnapper", jsx: <><h2 id="arc-rogue-b
 <Pair single id="abductor-ex">Abductor (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A Bekyar kidnapper gains a bonus on combat maneuver checks to grapple a foe. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level. In addition, the Bekyar kidnapper adds this bonus to her combat maneuver bonus when a foe tries to grapple her or when a grappled target attempts to break free of her grapple.</Pair>
+<Pair title="Passive Ability">A Bekyar kidnapper gains a bonus on combat maneuver checks to grapple a foe. <Bonus f c="rogue" n={3} />. In addition, the Bekyar kidnapper adds this bonus to her combat maneuver bonus when a foe tries to grapple her or when a grappled target attempts to break free of her grapple.</Pair>
 </Ability>
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/black_market_connections">Black market connections</Link>, <Link to="/talent/camouflage">camouflage</Link>, <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/rope_master">rope master</Link>, <Link to="/talent/survivalist">survivalist</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/crippling_strike">Crippling strike</Link>, <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link>, <Link to="/talent/knock_out_blow">knock-out blow</Link>, <Link to="/talent/rumormonger">rumormonger</Link>, <Link to="/talent/weapon_snatcher">weapon snatcher</Link></p></>};
 const _bellflower_irrigator = {title: "Bellflower Irrigator", jsx: <><h2 id="arc-rogue-bellflower_irrigator-bellflower-irrigator">Bellflower Irrigator</h2>
@@ -517,7 +518,7 @@ const _eldritch_raider = {title: "Eldritch Raider", jsx: <><h2 id="arc-rogue-eld
 <Pair single id="eldritch-intuition-ex">Eldritch Intuition (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">An eldritch raider gains an intuitive sense that allows her to more easily activate sorcerer and wizard spell completion and spell trigger items. She gains a bonus on Use Magic Device checks for this purpose. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+<Pair title="Passive Ability">An eldritch raider gains an intuitive sense that allows her to more easily activate sorcerer and wizard spell completion and spell trigger items. She gains a bonus on Use Magic Device checks for this purpose. <Bonus f c="rogue" n={3} />.</Pair>
 </Ability>
 <Ability id="new-talents" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="new-talents">New Talents</Pair>
@@ -721,7 +722,7 @@ const _galtan_agitator = {title: "Galtan Agitator", jsx: <><h2 id="arc-rogue-gal
 <Pair single id="ready-for-betrayal-ex">Ready for Betrayal (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A Galtan agitator gains a bonus on Perception checks to recognize disguises and notice hiding creatures and on Sense Motive checks to disbelieve lies. These bonuses are equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+<Pair title="Passive Ability">A Galtan agitator gains a bonus on Perception checks to recognize disguises and notice hiding creatures and on Sense Motive checks to disbelieve lies. <Bonus f c="rogue" n={3} pl />.</Pair>
 </Ability>
 <Ability id="enthralling-agitation-su" icon={["magic"]}>
 <Pair single id="enthralling-agitation-su">Enthralling Agitation (Su)</Pair>
@@ -761,7 +762,7 @@ const _guerrilla = {title: "Guerrilla", jsx: <><h2 id="arc-rogue-guerrilla-guerr
 <Pair single id="secret-messenger-ex">Secret Messenger (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A guerrilla gains a bonus on Bluff checks to convey secret messages and on Sense Motive checks to discern secret messages. These bonuses are equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+<Pair title="Passive Ability">A guerrilla gains a bonus on Bluff checks to convey secret messages and on Sense Motive checks to discern secret messages. <Bonus f c="rogue" n={3} pl />.</Pair>
 </Ability>
 <Ability id="guerrilla-sniping-ex" icon={["boost"]}>
 <Pair single id="guerrilla-sniping-ex">Guerrilla Sniping (Ex)</Pair>
@@ -875,7 +876,7 @@ const _kintargo_rebel = {title: "Kintargo Rebel", jsx: <><h2 id="arc-rogue-kinta
 <Pair single id="sophisticated-stealth-ex">Sophisticated Stealth (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A Kintargo rebel gains a bonus on Knowledge (nobility) checks. In addition, she gains a bonus on Bluff checks to convey a secret message and on Sense Motive checks to discern secret messages. These bonuses are equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+<Pair title="Passive Ability">A Kintargo rebel gains a bonus on Knowledge (nobility) checks. In addition, she gains a bonus on Bluff checks to convey a secret message and on Sense Motive checks to discern secret messages. <Bonus f c="rogue" n={3} pl />.</Pair>
 </Ability>
 <Ability id="misdirection-sp" icon={["magic"]}>
 <Pair single id="misdirection-sp">Misdirection (Sp)</Pair>
@@ -917,7 +918,7 @@ const _knife_master = {title: "Knife Master", jsx: <><h2 id="arc-rogue-knife_mas
 <Pair single id="blade-sense-ex">Blade Sense (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A knife master is so skilled in combat involving light blades that she gains a dodge bonus to AC against attacks made against her with light blades. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+<Pair title="Passive Ability">A knife master is so skilled in combat involving light blades that she gains a dodge bonus to AC against attacks made against her with light blades. <Bonus f c="rogue" n={3} />.</Pair>
 </Ability>
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/befuddling_strike">Befuddling strike</Link>, <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/offensive_defense">offensive defense</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/underhanded">underhanded</Link>, <Link to="/talent/weapon_training">weapon training</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/another_day">Another day</Link>, <Link to="/talent/confounding_blades">confounding blades</Link>, <Link to="/talent/deadly_sneak">deadly sneak</Link>, <Link to="/talent/entanglement_of_blades">entanglement of blades</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link></p></>};
 const _makeshift_scrapper = {title: "Makeshift Scrapper", jsx: <><h2 id="arc-rogue-makeshift_scrapper-makeshift-scrapper">Makeshift Scrapper</h2>
@@ -1060,7 +1061,7 @@ const _okeno_liberator = {title: "Okeno Liberator", jsx: <><h2 id="arc-rogue-oke
 <Ability id="covert-commander-ex" icon={["boost"]}>
 <Pair single id="covert-commander-ex">Covert Commander (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
-<Pair title="Ability">An Okeno liberator grants all allies within 30 feet who are in her line of sight (but not herself) a competence bonus on Disguise and Stealth checks. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+<Pair title="Ability">An Okeno liberator grants all allies within 30 feet who are in her line of sight (but not herself) a competence bonus on Disguise and Stealth checks. <Bonus f c="rogue" n={3} />.</Pair>
 </Ability>
 <Ability id="catch-off-guard-ex" icon={["power"]}>
 <Pair single id="catch-off-guard-ex" flavor="The Okeno liberator is adept at improvising weapons.">Catch Off-Guard (Ex)</Pair>
@@ -1100,7 +1101,7 @@ const _phantom_thief = {title: "Phantom Thief", jsx: <><h2 id="arc-rogue-phantom
 <Pair single id="social-sense-ex" flavor="A phantom thief's social sixth sense allows her to avoid danger in social situations and to act first when it breaks out.">Social Sense (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">She receives a bonus on Sense Motive checks to avoid being surprised by a foe, on Bluff checks to surprise a foe, and on initiative checks for surprise rounds that involved Bluff and Sense Motive checks to determine surprise. These bonuses are equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+<Pair title="Passive Ability">She receives a bonus on Sense Motive checks to avoid being surprised by a foe, on Bluff checks to surprise a foe, and on initiative checks for surprise rounds that involved Bluff and Sense Motive checks to determine surprise. <Bonus f c="rogue" n={3} pl />.</Pair>
 </Ability>
 <Ability id="master-of-all-ex" icon={["roll"]}>
 <Pair single id="master-of-all-ex">Master of All (Ex)</Pair>
@@ -1128,7 +1129,7 @@ const _pirate = {title: "Pirate", jsx: <><h2 id="arc-rogue-pirate-pirate">Pirate
 <Ability id="unflinching-ex" icon={["def"]}>
 <Pair single id="unflinching-ex" flavor="Pirates are a salty and steadfast lot.">Unflinching (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
-<Pair title="At 3rd Level">A pirate gains a bonus on saving throws against fear and mind-affecting effects. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+<Pair title="At 3rd Level">A pirate gains a bonus on saving throws against fear and mind-affecting effects. <Bonus f c="rogue" n={3} />.</Pair>
 </Ability>
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/black_market_connections">Black market connections</Link>, <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/finesse_rogue">finesse rogue</Link>, <Link to="/talent/firearm_training">firearm training</Link>, <Link to="/talent/hold_breath">hold breath</Link>, <Link to="/talent/rope_master">rope master</Link>, <Link to="/talent/strong_stroke">strong stroke</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/getaway_master">Getaway master</Link>, <Link to="/talent/hard_minded">hard minded</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link></p></>};
 const _planar_sneak = {title: "Planar Sneak", jsx: <><h2 id="arc-rogue-planar_sneak-planar-sneak">Planar Sneak</h2>
@@ -1137,7 +1138,7 @@ const _planar_sneak = {title: "Planar Sneak", jsx: <><h2 id="arc-rogue-planar_sn
 <Pair single id="planar-sense-ex">Planar Sense (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A planar sneak gains a bonus on saving throws against all effects with the air, chaos, earth, evil, fire, good, law, or water descriptors. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+<Pair title="Passive Ability">A planar sneak gains a bonus on saving throws against all effects with the air, chaos, earth, evil, fire, good, law, or water descriptors. <Bonus f c="rogue" n={3} />.</Pair>
 </Ability>
 <Ability id="elemental-execution-su" icon={["boost"]}>
 <Pair single id="elemental-execution-su">Elemental Execution (Su)</Pair>
@@ -1183,7 +1184,7 @@ const _relic_raider = {title: "Relic Raider", jsx: <><h2 id="arc-rogue-relic_rai
 <Pair hl title="Replaces">Uncanny dodge</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A relic raider adds 1/2 her rogue level on Perception checks to notice haunts and on Spellcraft checks to identify cursed items (using <Link to="/spell/detect_magic">detect magic</Link> or similar effects).</Pair>
-<Pair title="Passive Ability">In addition, the relic raider gains a bonus on saving throws against curses and haunts and a dodge bonus to AC against attacks by haunts. These bonuses are equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+<Pair title="Passive Ability">In addition, the relic raider gains a bonus on saving throws against curses and haunts and a dodge bonus to AC against attacks by haunts. <Bonus f c="rogue" n={3} pl />.</Pair>
 </Ability>
 <Ability id="disable-curse-su" icon={["power"]}>
 <Pair single id="disable-curse-su">Disable Curse (Su)</Pair>
@@ -1226,7 +1227,7 @@ const _river_rat = {title: "River Rat", jsx: <><h2 id="arc-rogue-river_rat-river
 <Ability id="rats-resilience-ex" icon={["def"]}>
 <Pair single id="rats-resilience-ex" flavor="A river rat is inured to dangers presented by disease-carrying parasites, poisonous fish, and other toxic river denizens.">Rat's Resilience (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
-<Pair title="Passive Ability">A river rat gains a bonus on saving throws against disease and poison effects. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+<Pair title="Passive Ability">A river rat gains a bonus on saving throws against disease and poison effects. <Bonus f c="rogue" n={3} />.</Pair>
 </Ability>
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/camouflage">Camouflage</Link>, <Link to="/talent/hold_breath">hold breath</Link>, <Link to="/talent/rogue_crawl">rogue crawl</Link>, <Link to="/talent/stand_up">stand up</Link>, <Link to="/talent/strong_stroke">strong stroke</Link>, <Link to="/talent/survivalist">survivalist</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/hide_in_plain_sight">Hide in plain sight</Link>, <Link to="/talent/opportunist">opportunist</Link>, <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/stealthy_sniper">stealthy sniper</Link></p></>};
 const _roof_runner = {title: "Roof Runner", jsx: <><h2 id="arc-rogue-roof_runner-roof-runner">Roof Runner</h2>
@@ -1336,7 +1337,7 @@ const _scroll_scoundrel = {title: "Scroll Scoundrel", jsx: <><h2 id="arc-rogue-s
 <Pair single id="adaptive-learning-ex">Adaptive Learning (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A scroll scoundrel gains a bonus on saving throws against abilities and spells he has already successfully saved against within the past minute (even if the spells or abilities in question were used by different creatures). This bonus is equal to <Link to="/misc/one_third">one-third</Link> of his rogue level.</Pair>
+<Pair title="Passive Ability">A scroll scoundrel gains a bonus on saving throws against abilities and spells he has already successfully saved against within the past minute (even if the spells or abilities in question were used by different creatures). <Bonus m c="rogue" n={3} />.</Pair>
 </Ability>
 <Ability id="pay-it-back-ex" icon={["boost"]}>
 <Pair single id="pay-it-back-ex">Pay it Back (Ex)</Pair>
@@ -1402,7 +1403,7 @@ const _seeker_of_the_lost = {title: "Seeker of the Lost", jsx: <><h2 id="arc-rog
 <Ability id="arcana-breaker-su" icon={["boost"]}>
 <Pair single id="arcana-breaker-su" flavor="Typically, only magical traps survive for long periods underwater, so a seeker of the lost specializes in noticing and disarming such traps.">Arcana Breaker (Su)</Pair>
 <Pair hl title="Replaces">2nd-level rogue talent</Pair>
-<Pair title="At 3rd Level">A seeker of the lost gains a competence bonus on Perception checks to notice magical traps and on Disable Device checks to disarm magical traps. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+<Pair title="At 3rd Level">A seeker of the lost gains a competence bonus on Perception checks to notice magical traps and on Disable Device checks to disarm magical traps. <Bonus f c="rogue" n={3} />.</Pair>
 </Ability>
 <Ability id="underwater-striker-ex" icon={["melee"]}>
 <Pair single id="underwater-striker-ex" flavor="A seeker of the lost gains the ability to strike precisely underwater.">Underwater Striker (Ex)</Pair>
@@ -1781,7 +1782,7 @@ const _swashbuckler = {title: "Swashbuckler", jsx: <><h2 id="arc-rogue-swashbuck
 <Pair single id="daring-ex">Daring (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A swashbuckler gains a morale bonus on Acrobatics checks and saving throws against fear. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+<Pair title="Passive Ability">A swashbuckler gains a morale bonus on Acrobatics checks and saving throws against fear. <Bonus f c="rogue" n={3} />.</Pair>
 </Ability>
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/offensive_defense">Offensive defense</Link>, <Link to="/talent/positioning_attack">positioning attack</Link>, <Link to="/talent/powerful_sneak">powerful sneak</Link>, <Link to="/talent/weapon_training">weapon training</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/crippling_strike">Crippling strike</Link>, <Link to="/talent/entanglement_of_blades">entanglement of blades</Link>, <Link to="/talent/redirect_attack">redirect attack</Link></p></>};
 const _swordmaster = {title: "Swordmaster", jsx: <><h2 id="arc-rogue-swordmaster-swordmaster">Swordmaster</h2>
@@ -1888,7 +1889,7 @@ const _tidal_trickster = {title: "Tidal Trickster", jsx: <><h2 id="arc-rogue-tid
 <Pair hl title="Replaces">Trapfinding, trap sense</Pair>
 <Pair title="Ability">A tidal trickster gains a swim speed equal to her unmodified base land speed (or increases her swim speed by 10 feet, if she has a racial swim speed). Instead of the +8 bonus granted by a swim speed, she gains a racial bonus on Swim checks equal to 4 + half her rogue level (if she has a racial swim speed, she uses the better bonus).</Pair>
 <Pair title="Passive Ability">She gains a bonus on Bluff checks equal to half her rogue level.</Pair>
-<Pair title="At 3rd Level">She gains a bonus on Will saves whenever she is underwater. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+<Pair title="At 3rd Level">She gains a bonus on Will saves whenever she is underwater. <Bonus f c="rogue" n={3} />.</Pair>
 </Ability>
 <Ability id="liquid-disruption-ex" icon={["power","def"]}>
 <Pair single id="liquid-disruption-ex" flavor="A tidal trickster can use her knowledge of the cohesion of liquids to disrupt certain foes.">Liquid Disruption (Ex)</Pair>
@@ -1924,7 +1925,7 @@ const _toxic_talon = {title: "Toxic Talon", jsx: <><h2 id="arc-rogue-toxic_talon
 <Pair single id="toxin-resistance-ex" flavor="A toxic talon's constant exposure to varied poisons grants him increasing resistance to them.">Toxin Resistance (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A toxic talon gains a bonus on saving throws against diseases and poisons, and he gains a bonus on Heal checks to treat diseases and poisons. He also gains a bonus on caster level checks (including when he activates a magic item) to treat or remove poisons and diseases, such as when using <Link to="/spell/remove_disease">remove disease</Link> or <Link to="/spell/neutralize_poison">neutralize poison</Link>. Finally, he gains a bonus on Perception checks to identify traps that utilize diseases or poisons. These bonuses are equal to <Link to="/misc/one_third">one-third</Link> of his rogue level.</Pair>
+<Pair title="Passive Ability">A toxic talon gains a bonus on saving throws against diseases and poisons, and he gains a bonus on Heal checks to treat diseases and poisons. He also gains a bonus on caster level checks (including when he activates a magic item) to treat or remove poisons and diseases, such as when using <Link to="/spell/remove_disease">remove disease</Link> or <Link to="/spell/neutralize_poison">neutralize poison</Link>. Finally, he gains a bonus on Perception checks to identify traps that utilize diseases or poisons. <Bonus m c="rogue" n={3} pl />.</Pair>
 </Ability>
 <Ability id="catalyst-su" icon={["boost"]}>
 <Pair single id="catalyst-su">Catalyst (Su)</Pair>
@@ -1996,7 +1997,7 @@ const _vexing_dodger = {title: "Vexing Dodger", jsx: <><h2 id="arc-rogue-vexing_
 <Pair single id="underfoot-agility-ex">Underfoot Agility (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A vexing dodger gains a morale bonus on Acrobatics, Climb, and Escape Artist attempts against creatures at least one size category larger than herself. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+<Pair title="Passive Ability">A vexing dodger gains a morale bonus on Acrobatics, Climb, and Escape Artist attempts against creatures at least one size category larger than herself. <Bonus f c="rogue" n={3} />.</Pair>
 </Ability>
 <Ability id="underfoot-trickster-ex" icon={["power"]}>
 <Pair single id="underfoot-trickster-ex">Underfoot Trickster (Ex)</Pair>

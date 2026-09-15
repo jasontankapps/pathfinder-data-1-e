@@ -4,6 +4,7 @@ import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import ByLevelPop from '../../components/ByLevelPop';
+import Bonus from '../../components/Bonus';
 const _battle_dancer = {title: "Battle Dancer", jsx: <><h2 id="arc-brawler-battle_dancer-battle-dancer">Battle Dancer</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 4</Link><br/>Originating among the Mwangi tribes of Sargava, battle dancers practice a martial art that emphasizes constant motion, hiding their training from colonial oppressors by presenting it as an acrobatic dance. Sargava's alliance with the Shackles has led to a proliferation of the art there, and battle dancers are often found among Mwangi-descended pirates.</p>
 <Ability icon={["skill"]} id="class-skills">
@@ -405,7 +406,7 @@ const _strong_side_boxer = {title: "Strong-Side Boxer", jsx: <><h2 id="arc-brawl
 <Ability id="shield-hand-ex" icon={["def"]}>
 <Pair single id="shield-hand-ex">Shield-Hand (Ex)</Pair>
 <Pair hl title="Replaces">The brawler's AC bonus</Pair>
-<Pair title="Ability">A strong-side boxer can use her off hand as if it were a <Link to="/eq-armor/buckler">buckler</Link>, gaining a natural armor bonus to her AC as long as she does not use her off hand to make attacks. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of her brawler level.</Pair>
+<Pair title="Ability">A strong-side boxer can use her off hand as if it were a <Link to="/eq-armor/buckler">buckler</Link>, gaining a natural armor bonus to her AC as long as she does not use her off hand to make attacks. <Bonus f c="brawler" n={5} p={1} />.</Pair>
 <Pair title="Special">While using her off hand in this manner, the strong-side boxer treats that hand as a buckler for the purposes of other feats and abilities (though she is also considered to have a free hand).</Pair>
 </Ability>
 <Ability id="strong-side-fist-ex" icon={["melee","boost"]}>

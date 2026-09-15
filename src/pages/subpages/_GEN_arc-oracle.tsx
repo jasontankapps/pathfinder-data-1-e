@@ -5,6 +5,7 @@ import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
+import Bonus from '../../components/Bonus';
 const _ancient_lorekeeper = {title: "Ancient Lorekeeper", jsx: <><h2 id="arc-oracle-ancient_lorekeeper-ancient-lorekeeper">Ancient Lorekeeper</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 24</Link><br/>The ancient lorekeeper is a repository for all the beliefs and vast knowledge of an <Link to="/race/elves">elven</Link> people. She shows a strong interest in and understanding of histories and creation legends at a young age, and as she matures her calling to serve as the memory of her long-lived people becomes clear to all who know her. An ancient lorekeeper has the following class features.</p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-oracle-ancient_lorekeeper--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/elf">Elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skill"]} id="class-skills">
@@ -141,7 +142,7 @@ const _cyclopean_seer = {title: "Cyclopean Seer", jsx: <><h2 id="arc-oracle-cycl
 </Ability>
 <Ability id="prescience-ex" extraClasses="subAbility" icon={["def"]}>
 <Pair single id="prescience-ex">Prescience (Ex)</Pair>
-<Pair title="Passive Ability">You gain a bonus to your Armor Class against attacks of opportunity and a bonus on <Link to="/rule/concentration">concentration</Link> checks. These bonuses are equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your oracle level.</Pair>
+<Pair title="Passive Ability">You gain a bonus to your Armor Class against attacks of opportunity and a bonus on <Link to="/rule/concentration">concentration</Link> checks. <Bonus y c="oracle" n={5} pl p={2} />.</Pair>
 </Ability>
 <Ability id="final-revelation" icon={["magic","roll"]}>
 <Pair single id="final-revelation">Final Revelation</Pair>

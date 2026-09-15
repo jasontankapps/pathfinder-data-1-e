@@ -5,6 +5,7 @@ import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
+import Bonus from '../../components/Bonus';
 const _geisha = {title: "Geisha", jsx: <><h2 id="arc-bard-geisha-geisha">Geisha</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 27</Link><br/>In some cultures, the professional entertainer is a prestigious role. Specially trained entertainers called geisha are praised for their appearance and skill at conversation, music, dancing, singing, poetry, and calligraphy. A geisha provides social intimacy and status but not physical intimacy.</p>
 <Ability id="weapon-and-armor-proficiency" icon={["down","magic"]}>
@@ -794,7 +795,7 @@ const _sandman = {title: "Sandman", jsx: <><h2 id="arc-bard-sandman-sandman">San
 <Pair single id="trap-sense-ex">Trap Sense (Ex)</Pair>
 <Pair hl title="Replaces">Inspire competence</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A sandman gains a bonus on Reflex saves against traps and a dodge bonus to AC against traps. These bonuses are equal to one-third of his bard level.</Pair>
+<Pair title="Passive Ability">A sandman gains a bonus on Reflex saves against traps and a dodge bonus to AC against traps. <Bonus m c="bard" n={3} pl link={false} />.</Pair>
 </Ability>
 <Ability id="sneak-attack-ex" icon={["boost"]}>
 <Pair single id="sneak-attack-ex">Sneak Attack (Ex)</Pair>
@@ -1388,7 +1389,7 @@ const _wit = {title: "Wit", jsx: <><h2 id="arc-bard-wit-wit">Wit</h2>
 <Ability id="way-with-words-ex" icon={["boost"]}>
 <Pair single id="way-with-words-ex">Way with Words (Ex)</Pair>
 <Pair hl title="Replaces">Bardic knowledge</Pair>
-<Pair title="Passive Ability">A wit gains a bonus on Bluff, Diplomacy, Intimidate, Linguistics, and Sense Motive checks. This bonus is equal to 1 + one-fourth of his bard level. He also gains a number of edges at the beginning of any <Link to="/rule/verbal_duels">verbal duel</Link> equal to this bonus.</Pair>
+<Pair title="Passive Ability">A wit gains a bonus on Bluff, Diplomacy, Intimidate, Linguistics, and Sense Motive checks. <Bonus m c="bard" n={4} link={false} p={1} />. He also gains a number of edges at the beginning of any <Link to="/rule/verbal_duels">verbal duel</Link> equal to this bonus.</Pair>
 </Ability>
 <Ability id="counterargument" icon={["down"]}>
 <Pair single id="counterargument">Counterargument</Pair>

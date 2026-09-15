@@ -3,6 +3,7 @@ import Link, {ThLink} from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
+import Bonus from '../../components/Bonus';
 const _fiend_keeper = {title: "Fiend Keeper", jsx: <><h2 id="arc-medium-fiend_keeper-fiend-keeper">Fiend Keeper</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 8</Link><br/>Among the most sacred roles a grippli can play is that of fiend keeper, a vessel to contain one of the world's evil spirits so that it cannot inflict further harm. As the host performs goodly acts, he slowly cleanses the spirit, continuing this process over many generations, until the entity's vileness is no more. In turn, the spirit tempts the fiend keeper with blasphemous power that a cautious medium can direct toward righteous ends. Many tribes boast a resident fiend keeper who bears this local burden and trains replacements who might take over when their mentor dies.</p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-medium-fiend_keeper--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><ul><li><Link to="/race/grippli">Grippli</Link></li><li>Alignment must be nonevil</li></ul></td></tr></tbody></table></ScrollContainer></div><Ability id="evil-spirit-su" icon={["power","down","aura"]}>
@@ -481,7 +482,7 @@ const _storyteller = {title: "Storyteller", jsx: <><h2 id="arc-medium-storytelle
 <Ability id="knowledge-of-tales-ex" icon={["boost"]}>
 <Pair single id="knowledge-of-tales-ex">Knowledge of Tales (Ex)</Pair>
 <Pair hl title="Replaces">Spirit bonus</Pair>
-<Pair title="Passive Ability">A storyteller gains a bonus on all Knowledge skill checks with Knowledge skills in which he's trained. This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of his medium level.</Pair>
+<Pair title="Passive Ability">A storyteller gains a bonus on all Knowledge skill checks with Knowledge skills in which he's trained. <Bonus m c="medium" n={4} p={1} />.</Pair>
 </Ability>
 <Ability id="versatile-surge-su" icon={["power"]}>
 <Pair single id="versatile-surge-su">Versatile Surge (Su)</Pair>

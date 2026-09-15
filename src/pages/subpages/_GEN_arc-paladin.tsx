@@ -5,6 +5,7 @@ import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
+import Bonus from '../../components/Bonus';
 const _banishing_warden = {title: "Banishing Warden", jsx: <><h2 id="arc-paladin-banishing_warden-banishing-warden">Banishing Warden</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 18</Link><br/>The banishing warden is an expert at fighting all types of evil outsiders and sending them back to their native planes.</p>
 <Ability icon={["skill"]} id="class-skills">
@@ -856,7 +857,7 @@ const _iroran_paladin = {title: "Iroran Paladin", jsx: <><h2 id="arc-paladin-iro
 <Pair single id="personal-trial-su">Personal Trial (Su)</Pair>
 <Pair hl title="Replaces">Smite evil</Pair>
 <Pair title="Usage">1 time/day + 1 per three paladin levels beyond 1st<ByLevelPop levels={[[1,1],[4,2],[7,3],[10,4],[13,5],[16,6],[19,7]]} unit="time" postText="/day" /></Pair>
-<Pair title="Swift Action">An Iroran paladin can declare one target within line of sight as his <em>personal trial.</em> The Iroran paladin gains an insight bonus on attack rolls and damage rolls against that creature, to his AC against attacks made by the target, and on saving throws against the target's spells and special abilities. This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of his paladin level.</Pair>
+<Pair title="Swift Action">An Iroran paladin can declare one target within line of sight as his <em>personal trial.</em> The Iroran paladin gains an insight bonus on attack rolls and damage rolls against that creature, to his AC against attacks made by the target, and on saving throws against the target's spells and special abilities. <Bonus m c="paladin" n={4} p={1} />.</Pair>
 <Pair title="Special">The <em>personal trial</em> effect remains until the target of the trial is dead or the next time the paladin rests and regains daily uses of this ability.</Pair>
 </Ability>
 <Ability id="aura-of-excellence-su" icon={["def","protect","roll"]}>
@@ -1208,7 +1209,7 @@ const _sacred_shield = {title: "Sacred Shield", jsx: <><h2 id="arc-paladin-sacre
 <Pair single id="bastion-of-good-su">Bastion of Good (Su)</Pair>
 <Pair hl title="Replaces">Smite evil</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Ability">A sacred shield can call upon the powers of good to defend her and her allies against evil. This ability functions as <em>smite evil,</em> except that the paladin gains no benefit on attack or damage rolls against her target. Instead, any attacks the target makes against allies within 10 feet of the paladin deal half damage. Attacks against the paladin deal full damage, but the paladin gains a deflection bonus to her AC against attacks made by the target of the smite. This bonus is equal to <Link to="/misc/one_fourth">one-fourth</Link> of her paladin level + her Charisma bonus (if any).</Pair>
+<Pair title="Ability">A sacred shield can call upon the powers of good to defend her and her allies against evil. This ability functions as <em>smite evil,</em> except that the paladin gains no benefit on attack or damage rolls against her target. Instead, any attacks the target makes against allies within 10 feet of the paladin deal half damage. Attacks against the paladin deal full damage, but the paladin gains a deflection bonus to her AC against attacks made by the target of the smite. <Bonus f c="paladin" n={4} /> + her Charisma bonus (if any).</Pair>
 <Pair title="Special">As with <em>smite evil,</em> if the paladin targets a creature that is not evil, her <em>bastion of good</em> ability is wasted with no effect. Feats, abilities, and the like that increase a paladin's number of uses of <em>smite evil</em> per day increase a sacred shield's uses of <em>bastion of good</em> per day.</Pair>
 </Ability>
 <Ability id="holy-shield-su" icon={["protect"]}>
@@ -1354,7 +1355,7 @@ const _stonelord = {title: "Stonelord", jsx: <><h2 id="arc-paladin-stonelord-sto
 <Pair single id="stonestrike-su" flavor="A stonelord can draw upon the power of the living rock.">Stonestrike (Su)</Pair>
 <Pair hl title="Replaces">Smite evil</Pair>
 <Pair title="Usage">1 time/day per paladin level</Pair>
-<Pair title="Swift Action">She treats her melee attacks until the beginning of her next turn (whether armed or unarmed) as magical and <Link to="/eq-material/adamantine">adamantine</Link>, including ignoring hardness up to twice her paladin level, with a bonus on attack and damage rolls, as well as on combat maneuver checks. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of her paladin level, and it also applies to her CMD if she or her target is touching the ground or a stone structure.</Pair>
+<Pair title="Swift Action">She treats her melee attacks until the beginning of her next turn (whether armed or unarmed) as magical and <Link to="/eq-material/adamantine">adamantine</Link>, including ignoring hardness up to twice her paladin level, with a bonus on attack and damage rolls, as well as on combat maneuver checks. <Bonus f c="paladin" n={5} p={1} />, and it also applies to her CMD if she or her target is touching the ground or a stone structure.</Pair>
 </Ability>
 <Ability id="heartstone-ex" icon={["def"]}>
 <Pair single id="heartstone-ex">Heartstone (Ex)</Pair>

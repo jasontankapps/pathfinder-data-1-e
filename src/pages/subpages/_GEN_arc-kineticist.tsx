@@ -5,6 +5,7 @@ import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
+import Bonus from '../../components/Bonus';
 const _aquakinetcist = {title: "Aquakinetcist", jsx: <><h2 id="arc-kineticist-aquakinetcist-aquakinetcist">Aquakinetcist</h2>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 50</Link><br/>While all hydrokineticists have the ability to control water, aquakineticists' powers are tied to their determination to explore the world beneath the waves.</p>
 <Ability id="aquatic-focus" icon={["info"]}>
@@ -47,7 +48,7 @@ const _arakineticist = {title: "Arakineticist", jsx: <><h2 id="arc-kineticist-ar
 <Pair single id="accursed-shadow-sp">Accursed Shadow (Sp)</Pair>
 <Pair hl title="Replaces">Utility wild talent gained at 4th level</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Passive Ability">An arakineticist's curse casts a dark shadow over her soul, shielding her from death magic. She gains a bonus on saving throws against necromancy spells and death effects. This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her kineticist level.</Pair>
+<Pair title="Passive Ability">An arakineticist's curse casts a dark shadow over her soul, shielding her from death magic. She gains a bonus on saving throws against necromancy spells and death effects. <Bonus f c="kineticist" n={4} p={1} />.</Pair>
 </Ability>
 <Ability id="curse-spinner-sp" icon={["magic"]}>
 <Pair single id="curse-spinner-sp" flavor="An arakineticist learns to wield her living curse like a needle to weave and unravel curses.">Curse Spinner (Sp)</Pair>
@@ -227,7 +228,7 @@ const _cinderlands_adept = {title: "Cinderlands Adept", jsx: <><h2 id="arc-kinet
 <Pair single id="galloping-siphon-su">Galloping Siphon (Su)</Pair>
 <Pair hl title="Replaces">Infusion gained at 1st level</Pair>
 <Pair hl title="Alters">Gather power</Pair>
-<Pair title="Ability">A Cinderlands adept gains <Link to="/feat/mounted_combat">Mounted Combat</Link> as a bonus feat and a bonus on <Link to="/rule/concentration">concentration</Link> checks due to riding. This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her kineticist level.</Pair>
+<Pair title="Ability">A Cinderlands adept gains <Link to="/feat/mounted_combat">Mounted Combat</Link> as a bonus feat and a bonus on <Link to="/rule/concentration">concentration</Link> checks due to riding. <Bonus f c="kineticist" n={4} p={1} />.</Pair>
 <Pair title="Passive Ability">When a Cinderlands adept <em>gathers power</em> while mounted, she and her mount gain fire <Link to="/umr/resistance">resistance</Link> 5 for a number of rounds equal to the total value of the burn cost she reduces. The Cinderlands adept and her mount lose this resistance if she dismounts before the duration ends.</Pair>
 <Pair title="At 11th Level">The resistance granted increases to fire resistance 10.</Pair>
 </Ability>
@@ -614,7 +615,7 @@ const _overwhelming_soul = {title: "Overwhelming Soul", jsx: <><h2 id="arc-kinet
 <Pair single id="overwhelming-power-ex">Overwhelming Power (Ex)</Pair>
 <Pair hl title="Replaces">Elemental overflow</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">An overwhelming soul gains a bonus on attack rolls and damage rolls with her kinetic blasts. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her kineticist level. The damage bonus doesn't apply to <Link to="/kinetic/kinetic_blade">kinetic blade</Link>, <Link to="/kinetic/kinetic_whip">kinetic whip</Link>, or other infusions that don't apply the damage bonus from <em>elemental overflow.</em></Pair>
+<Pair title="Passive Ability">An overwhelming soul gains a bonus on attack rolls and damage rolls with her kinetic blasts. <Bonus f c="kineticist" n={3} />. The damage bonus doesn't apply to <Link to="/kinetic/kinetic_blade">kinetic blade</Link>, <Link to="/kinetic/kinetic_whip">kinetic whip</Link>, or other infusions that don't apply the damage bonus from <em>elemental overflow.</em></Pair>
 </Ability>
 </>};
 const _psammokinetic = {title: "Psammokinetic", jsx: <><h2 id="arc-kineticist-psammokinetic-psammokinetic">Psammokinetic</h2>
@@ -638,10 +639,10 @@ const _psammokinetic = {title: "Psammokinetic", jsx: <><h2 id="arc-kineticist-ps
 <Pair single id="ki-pool-su">Ki Pool (Su)</Pair>
 <Pair hl title="Replaces">Elemental overflow</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Ability"><p>A psammokinetic gains a pool of ki points, supernatural energy she can use to accomplish amazing feats. The number of points in a psammokinetic's <em>ki pool</em> is equal to <Link to="/misc/half">half</Link> her kineticist level plus her Constitution modifier. As long as she has at least 1 point in her <em>ki pool,</em> she gains a bonus on damage rolls with kinetic blasts. This bonus is equal to one-third of her kineticist level. The <em>kinetic blade</em> infusion does not add the bonus damage from this ability.</p>
+<Pair title="Ability"><p>A psammokinetic gains a pool of ki points, supernatural energy she can use to accomplish amazing feats. The number of points in a psammokinetic's <em>ki pool</em> is equal to <Link to="/misc/half">half</Link> her kineticist level plus her Constitution modifier. As long as she has at least 1 point in her <em>ki pool,</em> she gains a bonus on damage rolls with kinetic blasts. <Bonus f c="kineticist" n={3} link={false} />. The <em>kinetic blade</em> infusion does not add the bonus damage from this ability.</p>
 <p>By spending 1 point from her <em>ki pool</em> as a <strong className="hl">swift action</strong>, a psammokinetic can do one of the following:</p>
 <ul>
-<li>Double her bonus (if any) on damage rolls for having at least 1 point in her <em>ki pool,</em> and gain a bonus on attack rolls with her kinetic blasts. This bonus is equal to one-third of her kineticist level. This effect remains for 1d4 rounds.</li>
+<li>Double her bonus (if any) on damage rolls for having at least 1 point in her <em>ki pool,</em> and gain a bonus on attack rolls with her kinetic blasts. <Bonus f c="kineticist" n={3} link={false} />. This effect remains for 1d4 rounds.</li>
 <li>Gain a +2 dodge bonus to AC for 1 round.</li>
 <li>Increase her base speed by 20 feet for 1 round.</li>
 </ul>

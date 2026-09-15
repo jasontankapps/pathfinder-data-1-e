@@ -4,6 +4,7 @@ import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import ByLevelPop from '../../components/ByLevelPop';
+import Bonus from '../../components/Bonus';
 const _aerie_protector = {title: "Aerie Protector", jsx: <><h2 id="arc-druid-aerie_protector-aerie-protector">Aerie Protector</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 47</Link><br/>The aerie protector guards nature's nests and lairs in the highest mountains, and she is only ever truly at ease when under vast expanses of open sky.</p>
 <Ability id="weapon-and-armor-proficiency" icon={["down"]}>
@@ -548,7 +549,7 @@ const _defender_of_the_true_world = {title: "Defender of the True World", jsx: <
 <Ability id="fey-empathy-ex" icon={["boost"]}>
 <Pair single id="fey-empathy-ex">Fey Empathy (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
-<Pair title="Passive Ability">A defender of the true world gains a competence bonus on Bluff, Diplomacy, and Intimidate checks when interacting with fey creatures. This bonus is equal to 2 + <Link to="/misc/one_fourth">one-fourth</Link> of her druid level.</Pair>
+<Pair title="Passive Ability">A defender of the true world gains a competence bonus on Bluff, Diplomacy, and Intimidate checks when interacting with fey creatures. <Bonus f c="druid" n={4} p={2} />.</Pair>
 </Ability>
 <Ability id="fey-stalker-ex" icon={["boost"]}>
 <Pair single id="fey-stalker-ex">Fey Stalker (Ex)</Pair>

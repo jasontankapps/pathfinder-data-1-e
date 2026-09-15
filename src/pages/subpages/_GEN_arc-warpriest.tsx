@@ -5,6 +5,7 @@ import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
+import Bonus from '../../components/Bonus';
 const _calamity_caller = {title: "Calamity Caller", jsx: <><h2 id="arc-warpriest-calamity_caller-calamity-caller">Calamity Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 12</Link><br/>While all elves feel a deep connection to nature, some elven priests take this bond further, using their link to call down the wrath of nature upon their enemies. Ekujae are most inclined to harness this connection, but any elf can wield their bond to nature in this way.</p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-warpriest-calamity_caller--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/elf">Elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="catastrophic-blessing" icon={["info"]}>
@@ -735,7 +736,7 @@ const _sacred_fist = {title: "Sacred Fist", jsx: <><h2 id="arc-warpriest-sacred_
 <Ability id="ac-bonus-su" icon={["def"]}>
 <Pair single id="ac-bonus-su" flavor="A deity protects her sacred fist as long as he is unarmored and unencumbered.">AC Bonus (Su)</Pair>
 <Pair title="Passive Ability">A sacred fist adds his Wisdom modifier (minimum 0) to his AC and his CMD.</Pair>
-<Pair title="At 4th Level">A sacred fist gains a dodge bonus to AC and CMD. This bonus is equal to <Link to="/misc/one_fourth">one-fourth</Link> of his warpriest level.</Pair>
+<Pair title="At 4th Level">A sacred fist gains a dodge bonus to AC and CMD. <Bonus m c="warpriest" n={4} />.</Pair>
 <Pair title="Special"><p>These bonuses to AC apply even against touch attacks or when the sacred fist is flat-footed. He loses these bonuses when he is immobilized or helpless, when he wears any armor, when he carries a shield, or when he carries a medium or heavy load.</p>
 <p>This counts as the <Link to="/class/monk">monk</Link> ability of the same name, and the sacred fist's warpriest levels stack with monk levels for determining the benefits.</p>
 </Pair>

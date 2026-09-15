@@ -4,6 +4,7 @@ import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import Bonus from '../../components/Bonus';
 const _perfect_scholar = {title: "Perfect Scholar", jsx: <><h2 id="arc-monk-perfect_scholar-perfect-scholar">Perfect Scholar</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 44</Link><br/>Perfect scholars, often worshipers of Irori, hone their minds and bodies through the accumulation of knowledge. They study and annotate the holy texts of Irori and other philosophies as well as collect lore on anatomy, medicine, philosophy, martial arts, and history, among other topics of erudition.</p>
 <Ability icon={["skill"]} id="class-skills">
@@ -1387,7 +1388,7 @@ const _sohei = {title: "Sohei", jsx: <><h2 id="arc-monk-sohei-sohei">Sohei</h2>
 <Pair single id="ki-weapon-su">Ki Weapon (Su)</Pair>
 <Pair hl title="Replaces">Slow fall, abundant step</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Swift Action">A sohei may spend 1 point from his <em>ki pool</em> to grant any weapon he wields (including his unarmed strike) an enhancement bonus on attack and damage rolls until the end of his next turn. This bonus is equal to <Link to="/misc/one_fourth">one-fourth</Link> of his monk level.</Pair>
+<Pair title="Swift Action">A sohei may spend 1 point from his <em>ki pool</em> to grant any weapon he wields (including his unarmed strike) an enhancement bonus on attack and damage rolls until the end of his next turn. <Bonus m c="monk" n={4} />.</Pair>
 </Ability>
 <Ability id="weapon-training-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="weapon-training-ex">Weapon Training (Ex)</Pair>

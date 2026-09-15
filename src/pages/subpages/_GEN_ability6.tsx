@@ -6,6 +6,7 @@ import {Block,Row,Cell} from '../../components/Block';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import AffInfo from '../../components/AfflictionInfo';
+import Bonus from '../../components/Bonus';
 const _sagas = {title: "Sagas", topLink: ["Skald","class/skald"], jsx: <><h2 id="ability-sagas-sagas">Sagas</h2>
 <p><strong>Sources</strong> <Link to="/source/magic_tactics_toolbox">Magic Tactics Toolbox pg. 19</Link><br/>Sagas are a form of lore-keeping and tale-telling common in Irrisen and the Lands of the Linnorm Kings. Specialized applications of a skald's <Link to="/ability/raging_song">raging song</Link> ability, sagas function much like <Link to="/ability/bardic_masterpieces">bardic masterpieces</Link> but are available only to skalds. Sagas are never purely artistic constructs; they are designed to preserve lore or commemorate historical figures, and are usually based in fact. Sagas therefore require ranks in Knowledge (history) as a prerequisite, as well. <Link to="/class/bard">Bards</Link> can learn sagas, using their <Link to="/ability/bardic_performance">bardic performance</Link> ability instead of raging song.</p>
 <h3 id="ability-sagas-lay-of-scholar-king">Lay of Scholar-King</h3>
@@ -526,7 +527,7 @@ const _trapfinding = {title: "Trapfinding", jsx: <><p><strong>Sources</strong> <
 const _lay_on_hands = {title: "Lay on Hands", jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook</Link><br/>Beginning at 2nd level, a <Link to="/class/paladin">paladin</Link> can heal wounds (her own or those of others) by touch. Each day she can use this ability a number of times equal to 1/2 her paladin level plus her Charisma modifier. With one use of this ability, a paladin can heal 1d6 hit points of damage for every two paladin levels she possesses. Using this ability is a standard action, unless the paladin targets herself, in which case it is a swift action. Despite the name of this ability, a paladin only needs one free hand to use this ability.</p>
 <p>Alternatively, a paladin can use this healing power to deal damage to undead creatures, dealing 1d6 points of damage for every two levels the paladin possesses. Using lay on hands in this way requires a successful melee touch attack and doesn't provoke an attack of opportunity. Undead do not receive a saving throw against this damage.</p>
 </>};
-const _trap_sense = {title: "Trap Sense", jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook</Link>, <Link to="/source/advanced_class_guide">Advanced Class Guide</Link><br/>This is an intuitive sense that alerts a character to danger from traps, giving her a bonus on Reflex saves made to avoid traps and a dodge bonus to AC against attacks made by traps. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her class level.</p>
+const _trap_sense = {title: "Trap Sense", jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook</Link>, <Link to="/source/advanced_class_guide">Advanced Class Guide</Link><br/>This is an intuitive sense that alerts a character to danger from traps, giving her a bonus on Reflex saves made to avoid traps and a dodge bonus to AC against attacks made by traps. <Bonus f c="class" n={3} />.</p>
 <p>Trap sense bonuses gained from multiple classes stack.</p>
 <p>This ability is gained by <Link to="/class/investigator">investigators</Link>, <Link to="/class/rogue">rogues</Link>, and <Link to="/class/barbarian">barbarians</Link> at 3rd level.</p>
 </>};
@@ -1113,7 +1114,7 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Ability id="ragepowerpowerfulblow-powerful-blow-ex-fn1-15" icon={["boost"]}>
 <Pair single id="ragepowerpowerfulblow-powerful-blow-ex-fn1-15"><Link to="/ragepower/powerful_blow">⮞</Link> Powerful Blow (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.15" id="ability-rage_powers-fake-fn-1.15" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
-<Pair title="Swift Action">The barbarian gains a bonus on a single damage roll. This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level. This power is used before the roll to hit is made.</Pair>
+<Pair title="Swift Action">The barbarian gains a bonus on a single damage roll. <Bonus f c="barbarian" n={4} p={1} />. This power is used before the roll to hit is made.</Pair>
 </Ability>
 <div className="abilityGroup">
 <Ability id="ragepowerbleedingblow-bleeding-blow-ex-fn6-7" icon={["boost"]}>
@@ -1237,7 +1238,7 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </Ability>
 <Ability id="ragepowerrollingdodge-rolling-dodge-ex-fn1-21" icon={["def"]}>
 <Pair single id="ragepowerrollingdodge-rolling-dodge-ex-fn1-21"><Link to="/ragepower/rolling_dodge">⮞</Link> Rolling Dodge (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.21" id="ability-rage_powers-fake-fn-1.21" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Move-Equivalent Action">The barbarian gains a dodge bonus to her Armor Class against ranged attacks for a number of rounds equal to the barbarian's current Constitution modifier (minimum 1). This bonus is equal to 1 + <Link to="/misc/one_sixth">one-sixth</Link> of her barbarian level.</Pair>
+<Pair title="Move-Equivalent Action">The barbarian gains a dodge bonus to her Armor Class against ranged attacks for a number of rounds equal to the barbarian's current Constitution modifier (minimum 1). <Bonus f c="barbarian" n={6} p={1} />.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
 <div className="abilityGroup">
@@ -1364,7 +1365,7 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </Ability>
 <Ability id="ragepowersuperstition-superstition-ex-fn1-25" icon={["def","down"]}>
 <Pair single id="ragepowersuperstition-superstition-ex-fn1-25"><Link to="/ragepower/superstition">⮞</Link> Superstition (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.25" id="ability-rage_powers-fake-fn-1.25" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Passive Ability">The barbarian gains a morale bonus on saving throws made to resist spells, supernatural abilities, and spell-like abilities. This bonus is equal to 2 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level.</Pair>
+<Pair title="Passive Ability">The barbarian gains a morale bonus on saving throws made to resist spells, supernatural abilities, and spell-like abilities. <Bonus f c="barbarian" n={4} p={2} />.</Pair>
 <Pair title="Special">While <em>raging,</em> the barbarian cannot be a willing target of any spell and must make saving throws to resist all spells, even those cast by allies.</Pair>
 </Ability>
 <div className="abilityGroup">
@@ -2970,7 +2971,7 @@ const _judgments = {hasJL:true,title: "Inquisitor Judgments", topLink: ["Inquisi
 <p>When an inquisitor uses the Judgment ability (as a swift action), she must select one type of judgment to make. As a swift action, she can change this judgment to another type. If the inquisitor is evil, she receives profane bonuses instead of sacred, as appropriate. Neutral inquisitors must select profane or sacred bonuses. Once made, this choice cannot be changed.</p>
 <div style={{clear:"both"}}></div><Ability id="destruction" icon={["boost"]}>
 <Pair single id="destruction">Destruction</Pair>
-<Pair title="Passive Ability">You gain a sacred bonus on all weapon damage rolls. This bonus is equal to 1 + <Link to="/misc/one_third">one-third</Link> of your inquisitor level.</Pair>
+<Pair title="Passive Ability">You gain a sacred bonus on all weapon damage rolls. <Bonus y c="inquisitor" n={3} p={1} />.</Pair>
 </Ability>
 <Ability id="healing" icon={["def"]}>
 <Pair single id="healing">Healing</Pair>
@@ -2978,21 +2979,21 @@ const _judgments = {hasJL:true,title: "Inquisitor Judgments", topLink: ["Inquisi
 </Ability>
 <Ability id="justice" icon={["boost"]}>
 <Pair single id="justice">Justice</Pair>
-<Pair title="Passive Ability">You gain a sacred bonus on all attack rolls. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your inquisitor level.</Pair>
+<Pair title="Passive Ability">You gain a sacred bonus on all attack rolls. <Bonus y c="inquisitor" n={5} p={1} />.</Pair>
 <Pair title="At 10th Level">The bonus is now doubled on all attack rolls made to confirm critical hits.</Pair>
 </Ability>
 <Ability id="piercing" icon={["def"]}>
 <Pair single id="piercing">Piercing</Pair>
-<Pair title="Passive Ability">You gain a sacred bonus on <Link to="/rule/concentration">concentration</Link> checks and caster level checks made to overcome a target's spell resistance. This bonus is equal to 1 + one-third of your inquisitor level.</Pair>
+<Pair title="Passive Ability">You gain a sacred bonus on <Link to="/rule/concentration">concentration</Link> checks and caster level checks made to overcome a target's spell resistance. <Bonus y c="inquisitor" n={3} link={false} p={1} />.</Pair>
 </Ability>
 <Ability id="protection" icon={["def"]}>
 <Pair single id="protection">Protection</Pair>
-<Pair title="Passive Ability">You're surrounded by a protective aura, granting a sacred bonus to Armor Class. This bonus is equal to 1 + one-fifth of your inquisitor level.</Pair>
+<Pair title="Passive Ability">You're surrounded by a protective aura, granting a sacred bonus to Armor Class. <Bonus y c="inquisitor" n={5} link={false} p={1} />.</Pair>
 <Pair title="At 10th Level">The bonus is now doubled against attack rolls made to confirm critical hits against you.</Pair>
 </Ability>
 <Ability id="purity" icon={["def"]}>
 <Pair single id="purity">Purity</Pair>
-<Pair title="Passive Ability">You gain a sacred bonus on all saving throws. This bonus is equal to 1 + one-fifth of your inquisitor level.</Pair>
+<Pair title="Passive Ability">You gain a sacred bonus on all saving throws. <Bonus y c="inquisitor" n={5} link={false} p={1} />.</Pair>
 <Pair title="At 10th Level">The bonus is now doubled against curses, diseases, and poisons.</Pair>
 </Ability>
 <Ability id="resiliency" icon={["def"]}>

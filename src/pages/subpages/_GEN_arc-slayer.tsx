@@ -5,6 +5,7 @@ import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
+import Bonus from '../../components/Bonus';
 const _ankous_shadow = {title: "Ankou's Shadow", jsx: <><h2 id="arc-slayer-ankous_shadow-ankous-shadow">Ankou's Shadow</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 14</Link><br/>Ankous are terrifying, winged fey assassins dispatched by the greatest lords of the First World to eliminate rivals. Some mortals emulate ankous to become the perfect assassins; others believe themselves to be ankous incarnated in mortal shells on a deep cover mission. In either case, an ankou's shadow practices the deadliest skills of the First World's most feared enforcers.</p>
 <Ability id="shadow-double-sp" icon={["power"]}>
@@ -43,7 +44,7 @@ const _avalancher = {title: "Avalancher", jsx: <><h2 id="arc-slayer-avalancher-a
 <Ability id="falling-strike-ex" icon={["boost"]}>
 <Pair single id="falling-strike-ex" flavor="An avalancher excels at dropping onto opponents from higher ground.">Falling Strike (Ex)</Pair>
 <Pair hl title="Replaces">Studied target</Pair>
-<Pair title="Passive Ability">He gains a bonus on Stealth checks and attack and damage rolls when he falls at least 10 feet before attacking an opponent. These bonuses are equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of his slayer level, and they stack with any bonuses the avalancher receives for <Link to="/rule/charging">charging</Link> or attacking from <Link to="/rule/higher_ground">higher ground</Link>.</Pair>
+<Pair title="Passive Ability">He gains a bonus on Stealth checks and attack and damage rolls when he falls at least 10 feet before attacking an opponent. <Bonus m c="slayer" n={5} pl p={1} />, and they stack with any bonuses the avalancher receives for <Link to="/rule/charging">charging</Link> or attacking from <Link to="/rule/higher_ground">higher ground</Link>.</Pair>
 </Ability>
 <Ability id="cliff-jumper-ex" icon={["boost","def"]}>
 <Pair single id="cliff-jumper-ex">Cliff Jumper (Ex)</Pair>

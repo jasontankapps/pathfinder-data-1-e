@@ -3,6 +3,7 @@ import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
+import Bonus from '../../components/Bonus';
 const _not_found = {title: "Unknown", jsx: <><h2 id="arcaneschool-not_found-error">Error</h2>
 <p>Unable to find the requested arcane school.</p>
 </>};
@@ -19,7 +20,7 @@ const _abjuration = {hasJL:true,title: "Abjuration", jsx: <><div className="jump
 <Pair single id="protective-ward-su">Protective Ward (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
-<Pair title="Standard Action">As a standard action, you can create a 10-foot-radius field of protective magic centered on you that lasts for a number of rounds equal to your Intelligence modifier. All allies in this area (including you) receive a deflection bonus to their AC. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level.</Pair>
+<Pair title="Standard Action">As a standard action, you can create a 10-foot-radius field of protective magic centered on you that lasts for a number of rounds equal to your Intelligence modifier. All allies in this area (including you) receive a deflection bonus to their AC. <Bonus y c="wizard" n={5} p={1} />.</Pair>
 </Ability>
 <Ability id="energy-absorption-su" icon={["def"]}>
 <Pair single id="energy-absorption-su">Energy Absorption (Su)</Pair>
@@ -209,7 +210,7 @@ const _enchantment = {hasJL:true,title: "Enchantment", jsx: <><div className="ju
 <Ability id="enchanting-smile-su" icon={["boost"]}>
 <Pair single id="enchanting-smile-su">Enchanting Smile (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Passive Ability">You gain an enhancement bonus on Bluff, Diplomacy, and Intimidate skill checks. This bonus is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level.</Pair>
+<Pair title="Passive Ability">You gain an enhancement bonus on Bluff, Diplomacy, and Intimidate skill checks. <Bonus y c="wizard" n={5} p={2} />.</Pair>
 <Pair title="At 20th Level">Whenever you succeed at a saving throw against a spell of the enchantment school, that spell is reflected back at its caster, as per <Link to="/spell/spell_turning">spell turning</Link>.</Pair>
 </Ability>
 <Ability id="dazing-touch-sp" icon={["touch"]}>
@@ -336,7 +337,7 @@ const _illusion = {hasJL:true,title: "Illusion", jsx: <><div className="jumpList
 <Ability id="deceptive-flourish-bonus-su" icon={["boost"]}>
 <Pair single id="deceptive-flourish-bonus-su">Deceptive Flourish-Bonus (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Passive Ability">You gain an enhancement bonus on Bluff and Disguise skill checks. This bonus is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level.</Pair>
+<Pair title="Passive Ability">You gain an enhancement bonus on Bluff and Disguise skill checks. <Bonus y c="wizard" n={5} p={2} />.</Pair>
 <Pair title="At 20th Level">You gain the benefits of <Link to="/spell/misdirection">misdirection</Link> (Will DC = 20 + your Intelligence modifier) or <Link to="/spell/nondetection">nondetection</Link> permanently. At will as a <strong className="hl">standard action</strong>, you can change which of the two spells is active, and each time you activate <em>misdirection,</em> you can choose a new creature or object as the secondary object.</Pair>
 </Ability>
 <Ability id="subtle-misdirection-sp" icon={["protect"]}>
@@ -539,7 +540,7 @@ const _aether = {hasJL:true,title: "Aether", jsx: <><div className="jumpList" id
 <Ability id="aether-supremacy-su" icon={["boost","power","roll"]}>
 <Pair single id="aether-supremacy-su">Aether Supremacy (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Passive Ability">You gain an enhancement bonus on Sleight of Hand checks. This bonus is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level. In addition, you can cast <Link to="/spell/mage_hand">mage hand</Link> at will as a spell-like ability that uses your caster level.</Pair>
+<Pair title="Passive Ability">You gain an enhancement bonus on Sleight of Hand checks. <Bonus y c="wizard" n={5} p={2} />. In addition, you can cast <Link to="/spell/mage_hand">mage hand</Link> at will as a spell-like ability that uses your caster level.</Pair>
 <Pair title="At 5th Level">You can attempt Sleight of Hand checks against a target within 30 feet, though the skill check DC increases by 5, and any creature within line of sight of either you or the target can attempt an opposed Perception check to notice the attempt.</Pair>
 <Pair title="At 10th Level">You can attempt a Sleight of Hand check as a <strong className="hl">move action</strong> with only a -10 penalty.</Pair>
 <Pair title="At 20th Level">Whenever you attempt a Sleight of Hand check, assume the roll resulted in a natural 20.</Pair>
@@ -574,7 +575,7 @@ const _air = {hasJL:true,title: "Air", jsx: <><div className="jumpList" id="arca
 <Ability id="air-supremacy-su" icon={["boost","power","roll"]}>
 <Pair single id="air-supremacy-su">Air Supremacy (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Passive Ability">You gain an enhancement bonus on Fly skill checks. This bonus is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level. In addition, you can cast <Link to="/spell/feather_fall">feather fall</Link> on yourself at will.</Pair>
+<Pair title="Passive Ability">You gain an enhancement bonus on Fly skill checks. <Bonus y c="wizard" n={5} p={2} />. In addition, you can cast <Link to="/spell/feather_fall">feather fall</Link> on yourself at will.</Pair>
 <Pair title="At 5th Level">You can cast <Link to="/spell/levitate">levitate</Link> on yourself at will.</Pair>
 <Pair title="At 10th Level">You can cast <Link to="/spell/fly">fly</Link> on yourself at will.</Pair>
 <Pair title="At 20th Level">Whenever you make a Fly skill check, assume the roll resulted in a natural 20.</Pair>
@@ -640,7 +641,7 @@ const _earth = {hasJL:true,title: "Earth", jsx: <><div className="jumpList" id="
 <Ability id="earth-supremacy-su" icon={["def","melee","power"]}>
 <Pair single id="earth-supremacy-su">Earth Supremacy (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Passive Ability">You gain an enhancement bonus to your CMD to resist <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/reposition">reposition</Link>, <Link to="/rule/trip">trip</Link>, and <Link to="/rule/overrun">overrun</Link> attempts as long as you are touching the ground. This bonus is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level. In addition, you gain a +1 insight bonus on melee attack and damage rolls whenever both you and your foe are touching the ground.</Pair>
+<Pair title="Passive Ability">You gain an enhancement bonus to your CMD to resist <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/reposition">reposition</Link>, <Link to="/rule/trip">trip</Link>, and <Link to="/rule/overrun">overrun</Link> attempts as long as you are touching the ground. <Bonus y c="wizard" n={5} p={2} />. In addition, you gain a +1 insight bonus on melee attack and damage rolls whenever both you and your foe are touching the ground.</Pair>
 <Pair title="At 20th Level">Earth and stone do not block the line of effect of your spells, although they do still block your line of sight.</Pair>
 </Ability>
 <Ability id="acid-cloud-su" icon={["magic"]}>
@@ -782,7 +783,7 @@ const _metal = {hasJL:true,title: "Metal", jsx: <><div className="jumpList" id="
 <Pair single id="iron-skin-su">Iron Skin (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
-<Pair title="Standard Action">You gain an armor bonus to your Armor Class for 10 minutes. This bonus is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level.</Pair>
+<Pair title="Standard Action">You gain an armor bonus to your Armor Class for 10 minutes. <Bonus y c="wizard" n={5} p={2} />.</Pair>
 </Ability>
 <Ability id="shrapnel-burst-su" icon={["aura"]}>
 <Pair single id="shrapnel-burst-su">Shrapnel Burst (Su)</Pair>
@@ -820,7 +821,7 @@ const _void = {hasJL:true,title: "Void", jsx: <><div className="jumpList" id="ar
 <Ability id="void-awareness-su" icon={["def","roll"]}>
 <Pair single id="void-awareness-su">Void Awareness (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Passive Ability">Your ability to recognize the void allows your body to react to magical manifestations before you're even aware of them. You gain an insight bonus on saving throws against spells and spell-like abilities. This bonus is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level.</Pair>
+<Pair title="Passive Ability">Your ability to recognize the void allows your body to react to magical manifestations before you're even aware of them. You gain an insight bonus on saving throws against spells and spell-like abilities. <Bonus y c="wizard" n={5} p={2} />.</Pair>
 <Pair title="At 20th Level">Whenever you would be affected by a spell or spell-like ability that allows a saving throw, you can roll twice to save against the effect and take the better result.</Pair>
 </Ability>
 <Ability id="reveal-weakness-su" icon={["lower"]}>
@@ -854,7 +855,7 @@ const _water = {hasJL:true,title: "Water", jsx: <><div className="jumpList" id="
 <Ability id="water-supremacy-su" icon={["boost","power","roll"]}>
 <Pair single id="water-supremacy-su">Water Supremacy (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Passive Ability">You gain an enhancement bonus on Swim skill checks. This bonus is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level. In addition, you can <Link to="/misc/hold_your_breath">hold your breath</Link> for a number of rounds equal to four times your Constitution score before you must start making checks to avoid <Link to="/rule/drowning">drowning</Link>.</Pair>
+<Pair title="Passive Ability">You gain an enhancement bonus on Swim skill checks. <Bonus y c="wizard" n={5} p={2} />. In addition, you can <Link to="/misc/hold_your_breath">hold your breath</Link> for a number of rounds equal to four times your Constitution score before you must start making checks to avoid <Link to="/rule/drowning">drowning</Link>.</Pair>
 <Pair title="At 10th Level">You gain a swim speed equal to your base speed.</Pair>
 <Pair title="At 20th Level">Whenever you make a Swim skill check, assume the roll resulted in a natural 20.</Pair>
 </Ability>
@@ -931,7 +932,7 @@ const _wood = {hasJL:true,title: "Wood", jsx: <><div className="jumpList" id="ar
 <Ability id="flexible-enhancement-su" icon={["def"]}>
 <Pair single id="flexible-enhancement-su">Flexible Enhancement (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Passive Ability">A master of the wood element is able to bend like bamboo when stressed and snap back into place. You gain an enhancement bonus to your Dexterity, Constitution, or Wisdom ability score. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level. You can change this bonus to a new ability score when you prepare spells.</Pair>
+<Pair title="Passive Ability">A master of the wood element is able to bend like bamboo when stressed and snap back into place. You gain an enhancement bonus to your Dexterity, Constitution, or Wisdom ability score. <Bonus y c="wizard" n={5} p={1} />. You can change this bonus to a new ability score when you prepare spells.</Pair>
 <Pair title="At 20th Level">This bonus now applies to two of these ability scores of your choice.</Pair>
 </Ability>
 <Ability id="splintered-spear-su" icon={["zap"]}>

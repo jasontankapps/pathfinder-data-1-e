@@ -4,6 +4,7 @@ import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import ByLevelPop from '../../components/ByLevelPop';
+import Bonus from '../../components/Bonus';
 const _angelfire_apostle = {title: "Angelfire Apostle", jsx: <><h2 id="arc-cleric-angelfire_apostle-angelfire-apostle">Angelfire Apostle</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 7</Link><br/>Angelfire apostles use the powers of good to avoid violence when possible and cleanse both maladies and evil creatures with blinding flames. Angelfire apostles typically follow <Link to="/faith/sarenrae">Sarenrae</Link>, but a few serve empyreal lords such as <Link to="/faith/ragathiel">Ragathiel</Link>.</p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-cleric-angelfire_apostle--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>An angelfire apostle must be of good or neutral alignment.</td></tr></tbody></table></ScrollContainer></div><Ability id="armor-proficiency" icon={["down"]}>
@@ -343,7 +344,7 @@ const _divine_strategist = {title: "Divine Strategist", jsx: <><h2 id="arc-cleri
 </Ability>
 <Ability id="caster-support-su" icon={["boost","def"]}>
 <Pair single id="caster-support-su">Caster Support (Su)</Pair>
-<Pair title="Ability">A divine strategist can use the <Link to="/rule/aid_another_2">aid another</Link> action to assist another divine spellcaster, granting a circumstance bonus on caster level checks and <Link to="/rule/concentration">concentration</Link> checks until the beginning of the divine strategist's next turn. This bonus is equal to 2 + one-fourth of her cleric level.</Pair>
+<Pair title="Ability">A divine strategist can use the <Link to="/rule/aid_another_2">aid another</Link> action to assist another divine spellcaster, granting a circumstance bonus on caster level checks and <Link to="/rule/concentration">concentration</Link> checks until the beginning of the divine strategist's next turn. <Bonus f c="cleric" n={4} link={false} p={2} />.</Pair>
 <Pair title="Special">The allied caster must remain adjacent to the divine strategist to gain this benefit. Caster support can be used to assist arcane spellcasters or characters using magical items, but they gain only half the normal bonus.</Pair>
 </Ability>
 <Ability id="tactical-expertise-ex" icon={["boost"]}>
@@ -659,7 +660,7 @@ const _herald_caller = {title: "Herald Caller", jsx: <><h2 id="arc-cleric-herald
 </Ability>
 <Ability id="call-heralds-su" icon={["power","magic","def"]}>
 <Pair single id="call-heralds-su" flavor="A herald caller can channel stored spell energy into summoning spells that she hasn't prepared ahead of time.">Call Heralds (Su)</Pair>
-<Pair title="Ability">She can lose a prepared spell in order to cast any <Link to="/spell/summon_monster">summon monster</Link> spell of the same level or lower. She gains a bonus on <Link to="/rule/concentration">concentration</Link> checks to cast a <em>summon monster</em> spell defensively. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of her cleric level.</Pair>
+<Pair title="Ability">She can lose a prepared spell in order to cast any <Link to="/spell/summon_monster">summon monster</Link> spell of the same level or lower. She gains a bonus on <Link to="/rule/concentration">concentration</Link> checks to cast a <em>summon monster</em> spell defensively. <Bonus f c="cleric" n={5} p={1} />.</Pair>
 </Ability>
 <Ability id="divine-heralds-su" icon={["down","boost"]}>
 <Pair single id="divine-heralds-su">Divine Heralds (Su)</Pair>
@@ -814,7 +815,7 @@ const _idealist = {title: "Idealist", jsx: <><h2 id="arc-cleric-idealist-idealis
 <Pair single id="invoke-realm-su">Invoke Realm (Su)</Pair>
 <Pair hl title="Alters">Channel energy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Ability"><p>When an idealist <em>channels energy,</em> she channels raw essence rather than positive or negative energy, superimposing a portion of her deity's planar realm over her location. This effect extends out to a radius of 10 feet, plus 5 feet for every 2 cleric levels she has beyond 1st, to a maximum radius of 55 feet at 19th level. This effect lasts for 1 round plus 1 round per point of the idealist's Charisma bonus. While this effect is active, the idealist gains a +1 bonus on Diplomacy checks against creatures who worship her deity and a bonus on Intimidate checks against creatures who do not. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of her cleric level.</p>
+<Pair title="Ability"><p>When an idealist <em>channels energy,</em> she channels raw essence rather than positive or negative energy, superimposing a portion of her deity's planar realm over her location. This effect extends out to a radius of 10 feet, plus 5 feet for every 2 cleric levels she has beyond 1st, to a maximum radius of 55 feet at 19th level. This effect lasts for 1 round plus 1 round per point of the idealist's Charisma bonus. While this effect is active, the idealist gains a +1 bonus on Diplomacy checks against creatures who worship her deity and a bonus on Intimidate checks against creatures who do not. <Bonus f c="cleric" n={5} p={1} />.</p>
 <p>This channeled energy imposes itself over the current terrain, changing its visual appearance to more thematically suit the energy's associated planar realm, but cannot hide obvious hazards or otherwise allow for a creature to hide any more effectively than the normal terrain would. This is an illusion (glamer) effect with a caster level equal to the idealist's level.</p>
 <p>Within the radius of the idealist's channeling, all alignment and magic <Link to="/rule/planar_traits">planar traits</Link> are suppressed and replaced with the traits of the plane that matches the idealist's planar bond. This includes alignment, gravity, and magic traits. In the case of the Astral Plane, since the time trait remains unaltered, your spellcasting only feels fast - you gain a +4 bonus on all <Link to="/rule/concentration">concentration</Link> checks rather than the ability to apply Quickened Spell effects.</p>
 </Pair>
