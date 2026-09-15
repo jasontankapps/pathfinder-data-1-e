@@ -16,7 +16,7 @@ const _ancient_lorekeeper = {title: "Ancient Lorekeeper", jsx: <><h2 id="arc-ora
 <Pair single id="elven-arcana-ex">Elven Arcana (Ex)</Pair>
 <Pair hl title="Replaces">Bonus spells gained from the oracle's mystery</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
-<Pair title="Ability">An ancient lorekeeper's mastery of elven legends and philosophy has allowed her to master one spell used by elven wizards. She selects one spell from the <Link to="/main/spells_wizard">sorcerer/wizard spell list</Link> that is at least one level lower than the highest-level oracle spell she can cast. The ancient lorekeeper gains this as a bonus spell known. The spell is treated as one level higher than its true level for all purposes.</Pair>
+<Pair title="Ability">An ancient lorekeeper's mastery of elven legends and philosophy has allowed her to master one spell used by elven wizards. She selects one spell from the <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">wizard</Link> spell list that is at least one level lower than the highest-level oracle spell she can cast. The ancient lorekeeper gains this as a bonus spell known. The spell is treated as one level higher than its true level for all purposes.</Pair>
 <Pair title="At 4th Level">The ancient lorekeeper may choose an additional spell.</Pair>
 <Pair title="At 6th Level">The ancient lorekeeper may choose an additional spell.</Pair>
 <Pair title="At 8th Level">The ancient lorekeeper may choose an additional spell.</Pair>

@@ -595,7 +595,7 @@ const _mages_paraphernalia = {title: "Mage's Paraphernalia (Panoply)", jsx: <><h
 <h3 id="implement-mages_paraphernalia-base-focus-power">Base Focus Power</h3>
 <Ability id="arcane-inspiration-sp" icon={["learn"]}>
 <Pair single id="arcane-inspiration-sp">Arcane Inspiration (Sp)</Pair>
-<Pair title="Ability"><p>By consulting a spellbook for 15 minutes, you can expend 1 or more points of mental focus to prepare a divination, evocation, or necromancy spell from the <Link to="/main/spells_wizard">sorcerer/wizard spell list</Link> that is contained in that spellbook. You must choose an unused spell slot for the prepared spell to occupy, and the chosen spell must be of a spell level equal to or lower than that spell slot.</p>
+<Pair title="Ability"><p>By consulting a spellbook for 15 minutes, you can expend 1 or more points of mental focus to prepare a divination, evocation, or necromancy spell from the <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">wizard</Link> spell list that is contained in that spellbook. You must choose an unused spell slot for the prepared spell to occupy, and the chosen spell must be of a spell level equal to or lower than that spell slot.</p>
 <p>The number of points of mental focus you must expend is equal to the level of the spell slot used. You can apply metamagic effects to the prepared spell, if desired, and they increase the level of the spell slot the spell occupies as normal.</p>
 <p>Once the spell is prepared, you can cast it normally, using the prepared spell slot (you cannot use any of your other spell slots to cast it, restricting you to casting it only once per use of this ability). The spell is treated as a psychic spell.</p>
 </Pair>

@@ -665,7 +665,7 @@ const _arcane_strike = {title: "Arcane Strike", jsx: <><h2 id="feat-arcane_strik
 </td></tr></tbody></table></ScrollContainer></div></>};
 const _arcane_talent = {title: "Arcane Talent", jsx: <><h2 id="feat-arcane_talent-arcane-talent">Arcane Talent</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 151</Link></p>
-<p>Magic is in your blood, and at your fingertips.<br/><strong>Prerequisites:</strong> Cha 10; <Link to="/race/elf">elf</Link>, <Link to="/race/half_elf">half-elf</Link>, or <Link to="/race/gnome">gnome</Link>.<br/><strong>Benefit:</strong> Choose a 0-level spell from the <Link to="/main/spells_wizard">sorcerer/wizard spell list</Link>. You can cast this spell three times per day as a spell-like ability. The caster level is equal to your character level. The save DC is 10 + your Charisma modifier.</p>
+<p>Magic is in your blood, and at your fingertips.<br/><strong>Prerequisites:</strong> Cha 10; <Link to="/race/elf">elf</Link>, <Link to="/race/half_elf">half-elf</Link>, or <Link to="/race/gnome">gnome</Link>.<br/><strong>Benefit:</strong> Choose a 0-level spell from the <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">wizard</Link> spell list. You can cast this spell three times per day as a spell-like ability. The caster level is equal to your character level. The save DC is 10 + your Charisma modifier.</p>
 </>};
 const _arcane_trap_suppressor = {title: "Arcane Trap Suppressor", jsx: <><h2 id="feat-arcane_trap_suppressor-arcane-trap-suppressor">Arcane Trap Suppressor</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 8</Link></p>

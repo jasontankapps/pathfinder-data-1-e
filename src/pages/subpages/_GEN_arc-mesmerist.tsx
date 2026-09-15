@@ -450,7 +450,7 @@ const _material_manipulator = {title: "Material Manipulator", jsx: <><h2 id="arc
 <Pair single id="manipulator-spells">Manipulator Spells</Pair>
 <Pair hl title="Replaces">Consummate liar, mesmerist trick gained at 2nd level, manifold tricks</Pair>
 <Pair hl title="Alters">Spellcasting</Pair>
-<Pair title="Ability">A material manipulator casts psychic spells drawn from the mesmerist spell list and augmented by a select list of <Link to="/main/spells_wizard">sorcerer/wizard spells</Link>. All <Link to="/main/spells_illusion">illusion</Link> (glamer), illusion (shadow), and <Link to="/main/spells_transmutation">transmutation</Link> spells of 6th level and lower are considered to be part of the material manipulator's spell list. These are psychic spells.</Pair>
+<Pair title="Ability">A material manipulator casts psychic spells drawn from the mesmerist spell list and augmented by a select list of <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">wizard</Link>. All <Link to="/main/spells_illusion">illusion</Link> (glamer), illusion (shadow), and <Link to="/main/spells_transmutation">transmutation</Link> spells of 6th level and lower are considered to be part of the material manipulator's spell list. These are psychic spells.</Pair>
 </Ability>
 <Ability id="revision-su" icon={["magic"]}>
 <Pair single id="revision-su" flavor="A material manipulator can revise a creature's body to change its appearance.">Revision (Su)</Pair>

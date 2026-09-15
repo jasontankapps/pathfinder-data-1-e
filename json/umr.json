@@ -553,7 +553,7 @@
 			"## Simple Arcane Spellcasting [Mythic]",
 			"",
 			"‹SOURCE Mythic Adventures/228›  ",
-			"The creature gains the ability to cast spells from the ‹main/spells>sorcerer»/wizard« spell list›. Select a number of spells with total spell levels equal to twice the creature's CR. No spell for this ability should have a level higher than 1 + 1/2 the creature's CR. A 0-level spell counts as 1/2 spell level toward this total. The creature can cast each of these spells once per day. Its caster level is equal to its Hit Dice. It uses the higher of its Intelligence or Charisma modifiers to determine its spell DCs.",
+			"The creature gains the ability to cast spells from the ‹main/spells_>sorcerer›/‹main/spells_>wizard› spell list. Select a number of spells with total spell levels equal to twice the creature's CR. No spell for this ability should have a level higher than 1 + 1/2 the creature's CR. A 0-level spell counts as 1/2 spell level toward this total. The creature can cast each of these spells once per day. Its caster level is equal to its Hit Dice. It uses the higher of its Intelligence or Charisma modifiers to determine its spell DCs.",
 			"",
 			"**Format:** simple arcane spellcasting  ",
 			"**Location:** Special Attacks."
@@ -1076,7 +1076,7 @@
 			"",
 			"For creatures with spell-like abilities, the designated caster level defines how difficult it is to dispel their spell-like effects and to define any level-dependent variables (such as range and duration) the abilities might have. The creature's caster level never affects which spell-like abilities the creature has; sometimes the given caster level is lower than the level a spellcasting character would need to cast the spell of the same name. If no caster level is specified, the caster level is equal to the creature's Hit Dice. The saving throw (if any) against a spell-like ability is 10 + the level of the spell the ability resembles or duplicates + the creature's Charisma modifier.",
 			"",
-			"Some spell-like abilities duplicate spells that work differently when cast by characters of different classes. A monster's spell-like abilities are presumed to be the sorcerer/ wizard versions. If the spell in question is not a sorcerer/ wizard spell, then default to cleric, druid, bard, paladin, or ranger, in that order.",
+			"Some spell-like abilities duplicate spells that work differently when cast by characters of different classes. A monster's spell-like abilities are presumed to be the sorcerer/wizard versions. If the spell in question is not a sorcerer/wizard spell, then default to cleric, druid, bard, paladin, or ranger, in that order.",
 			"",
 			"**Format:** *At will*-‹spell/burning hands› (DC 13)  ",
 			"**Location:** Spell-Like Abilities."

@@ -634,7 +634,7 @@
 			"::h4[Devil's Mark]{jl}",
 			"",
 			"You have the mark of a fiend on your body.  ",
-			"**Gift:** You gain a 1st-level ‹main/spells>sorcerer»/wizard› or ‹main/spells_>witch› spell of your choice as a spell-like ability usable a number of times per day equal to your manifestation level. It must not have a casting time longer than 1 standard action or a material or focus component costing more than 1 gp.  ",
+			"**Gift:** You gain a 1st-level ‹main/spells_>sorcerer›/‹main/spells_>wizard› or ‹main/spells_>witch› spell of your choice as a spell-like ability usable a number of times per day equal to your manifestation level. It must not have a casting time longer than 1 standard action or a material or focus component costing more than 1 gp.  ",
 			"**Stain:** Your devil's mark manifests on your body. It can't be hidden by magic, but can be hidden by clothing or other mundane means. Anyone who sees the mark automatically recognizes it as unnatural.",
 			"",
 			"::h4[Diabolical Servitor]{jl}",
@@ -866,7 +866,7 @@
 			"",
 			"You have gained unusual insights into necromancy.  ",
 			"**Prerequisite:** Manifestation level 2nd, ability to cast spells.  ",
-			"**Gift:** You can add one necromancy spell from the ‹main/spells>sorcerer»/wizard› spell list to your spellbook, familiar, or list of spells you can prepare or to your spells known. This spell must be of a level you can cast. A spell learned in this fashion is treated as though it were on your class spell list. If you normally cast your spells from the sorcerer/wizard spells list, you can add a necromancy spell from the ‹main/spells_>cleric› or ‹main/witch spell« list› instead.  ",
+			"**Gift:** You can add one necromancy spell from the ‹main/spells_>sorcerer›/‹main/spells_>wizard› spell list to your spellbook, familiar, or list of spells you can prepare or to your spells known. This spell must be of a level you can cast. A spell learned in this fashion is treated as though it were on your class spell list. If you normally cast your spells from the sorcerer/wizard spells list, you can add a necromancy spell from the ‹main/spells_>cleric› or ‹main/witch spell« list› instead.  ",
 			"**Stain:** You cast any spell from a school other than necromancy as though your caster level were 1 lower, which might prevent you from casting the spell altogether.  ",
 			"**Special:** You can gain this manifestation multiple times. Each time you gain the gift, you gain a different necromancy spell, and each time you gain the stain, the penalties stack."
 		]
@@ -1430,7 +1430,7 @@
 			"",
 			"Using shadows drawn from the Plane of Shadow, you can spin falsehoods into convincing imitations of reality.  ",
 			"**Prerequisite:** Manifestation level 2nd.  ",
-			"**Gift:** Once per day, you can use ‹spell/shadow conjuration› as a spell-like ability, but only to emulate a ‹main/spells>sorcerer»/wizard« spell› 1 spell level lower than your manifestation level. Your caster level is equal to your character level. The illusion is 10% real + another 10% real for every manifestation level you have beyond 2nd.  ",
+			"**Gift:** Once per day, you can use ‹spell/shadow conjuration› as a spell-like ability, but only to emulate a ‹main/spells_>sorcerer›/‹main/spells_>wizard› spell 1 spell level lower than your manifestation level. Your caster level is equal to your character level. The illusion is 10% real + another 10% real for every manifestation level you have beyond 2nd.  ",
 			"**Stain:** Joy and excitement have become foreign to you, leaving pain the only sensation of much interest. You can't benefit from morale bonuses or bardic performances.",
 			"",
 			"::h4[Wretched Pain]{jl}",
