@@ -222,13 +222,16 @@ const makeAbilityBlock = ({
 				//10 rounds/day per hunter level
 			} else if (useMod) {
 				const unit = useUnit || "time";
-				const [mod, plus] = useMod.split(/(?<![0-9])(?=[0-9]+)/);
+				const [, mod, plus, bonus] = useMod.match(/^(.*?)([0-9]*)(B?)$/);
+				const modifier = bonus ? "bonus" : "modifier";
 				if(plus) {
-					return [`${plus} + ${mod} modifier ${unit}s/day`, unit];
+					return [`${plus} + ${mod} ${modifier} ${unit}s/day`, unit];
 					//useMod=Wis1
 					//1 + Wis modifier times/day
+					//useMod=Wis1B
+					//1 + Wis bonus times/day
 				}
-				return [`${mod} modifier ${unit}s/day`, unit];
+				return [`${mod} ${modifier} ${unit}s/day`, unit];
 				//useMod=Wis
 				//Wis modifier times/day
 			} else if (useLMod) {
