@@ -497,7 +497,8 @@ const _medium = {hasJL:true,title: "Medium", jsx: <><div className="jumpList" id
 <Pair single id="haunt-channeler-su">Haunt Channeler (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You can always act on the surprise round against a haunt.</Pair>
-<Pair title="Ability">Your touch funnels a portion of the haunt into yourself, dealing 1d6 points of damage to the haunt per 2 medium levels you possess as if via positive energy and allowing you to ask the haunt a single question. The haunt can answer the question however it chooses. Additionally, you can forgo your saving throw against a haunt's effects to funnel the haunt entirely into yourself. If you do so, you suffer the haunt's full effect, but the haunt doesn't affect anyone else (even if it normally would). The haunt then gains control of your body for 24 hours. Once per minute, you can attempt to end this possession early by succeeding at a Will save (DC = 20 + 1/2 your medium level).</Pair>
+<Pair title="Ability">Your touch funnels a portion of the haunt into yourself, dealing 1d6 points of damage to the haunt per 2 medium levels you possess as if via positive energy and allowing you to ask the haunt a single question. The haunt can answer the question however it chooses.</Pair>
+<Pair title="Ability">Additionally, you can forgo your saving throw against a haunt's effects to funnel the haunt entirely into yourself. If you do so, you suffer the haunt's full effect, but the haunt doesn't affect anyone else (even if it normally would). The haunt then gains control of your body for 24 hours. Once per minute, you can attempt to end this possession early by succeeding at a Will save (DC = 20 + 1/2 your medium level).</Pair>
 </Ability>
 <Ability id="location-channel-sp" icon={["power"]}>
 <Pair single id="location-channel-sp">Location Channel (Sp)</Pair>
