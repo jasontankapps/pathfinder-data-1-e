@@ -1680,7 +1680,7 @@ const _nature = {hasJL:true,title: "Nature", jsx: <><div className="jumpList" id
 <Pair title="Full-Round Action">Once per day, you can surround yourself with an organic cocoon. While enclosed in the cocoon, you are considered <Link to="/misc/helpless">helpless</Link>. Eight hours later, you emerge having changed your type to plant, animal, or humanoid, gaining superficial physical characteristics as appropriate. This change does not alter your Hit Dice, hit points, saving throws, skill points, class skills, or proficiencies. Each time the transformation is made, you are cleansed of all poisons or diseases, are restored to full hit points, and heal all ability damage. You must select a new type every time the transformation is made.</Pair>
 </Ability>
 </>};
-const _occult = {title: "Occult", jsx: <><h2 id="mystery-occult-occult">Occult</h2>
+const _occult = {hasJL:true,title: "Occult", jsx: <><div className="jumpList" id="mystery-occult-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-occult-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-occult-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-occult-occult">Occult</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 53</Link>, <Link to="/source/pathfinder_71_rasputin_must_die">Pathfinder #71: Rasputin Must Die! pg. 68</Link></p>
 <p>You have an innate connection to the spirits of the dead.</p>
 <Block size="minimal">
@@ -1700,22 +1700,88 @@ const _occult = {title: "Occult", jsx: <><h2 id="mystery-occult-occult">Occult</
 <Pair plain title="16th"><Link to="/spell/moment_of_prescience">Moment of prescience</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/astral_projection">Astral projection</Link></Pair>
 </Ability>
-<h3 id="mystery-occult-revelations">Revelations</h3>
+<h3 id="mystery-occult-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Occult mystery can choose from any of the following revelations.</p>
-<p><strong>Automatic Writing (Su):</strong> Once per day, you can spend a full hour in uninterrupted meditation. During this period, your hands produce mysterious writing that pertains to the future. At 1st level, the prophetic writing manifests as an <Link to="/spell/augury">augury</Link> spell with 90% effectiveness. At 5th level, the writing takes the form of a <Link to="/spell/divination">divination</Link> spell with 90% effectiveness. At 8th level, the writing manifests as a casting of <Link to="/spell/commune">commune</Link> with no material component required.</p>
-<p><strong>Brain Drain (Su):</strong> You can take a standard action to violently probe the mind of a single intelligent enemy within 100 feet. The target receives a Will save to negate the effect and immediately knows the source of this harmful mental prying. Those who fail this save are wracked with pain, and take 1d4 points of damage per oracle level you possess. After successfully attacking with this ability, you can use a full-round action to sort through the jumble of stolen thoughts and memories and then attempt a single Knowledge check using the victim's skill bonus. The randomly stolen thoughts remain in your mind for a number of rounds equal to your Charisma modifier. Treat the knowledge gained as if you had used <Link to="/spell/detect_thoughts">detect thoughts</Link>. This is a mind-affecting effect. You can use this ability once per day at 1st level, plus 1 use per day at 5th level, and 1 use for every 5 levels beyond 5th.</p>
-<p><strong>Ectoplasmic Armor (Su):</strong> You can conjure armor made of ectoplasm that grants you a +4 armor bonus to AC. In addition, this armor functions as if it had the <Link to="/magic-enh/ghost_touch_a">ghost touch</Link> special ability. At 7th level and every 4 levels thereafter, the armor bonus increases by 2. You can use this armor for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments.</p>
-<p><strong>Phantom Touch (Su):</strong> As a standard action, you can perform a melee touch attack that causes a living creature to become <Link to="/misc/shaken">shaken</Link>. This ability lasts for a number of rounds equal to 1/2 your oracle level (minimum 1 round). You can use this ability a number of times per day equal to 3 + your Charisma modifier. At 5th level, the target instead becomes <Link to="/misc/frightened">frightened</Link>, and at 7th level, the target becomes <Link to="/misc/panicked">panicked</Link>.</p>
-<p><strong>Project Psyche (Su):</strong> You can project your psyche into another vessel. Once per day, you can possess another creature as if using the <Link to="/spell/magic_jar">magic jar</Link> spell, though this does not require a receptacle. You must be adjacent to the target creature, which receives a Will save against the effect. You must be at least 11th level to choose this revelation.</p>
-<p><strong>Shroud of Retribution (Su):</strong> As an immediate action, you can summon a shroud of spirits that reflects your attackers' damage back onto them. Any creature that strikes you deals normal damage to you, but at the same time the attacker takes 1d8 points of force damage + 1 point per 2 caster levels you possess (maximum +10). This effect lasts until the end of your next turn. You can use this ability once per day, plus one additional time per day at 11th level and every 4 levels thereafter. You must be at least 7th level to select this revelation.</p>
-<p><strong>Spectral Spells (Su):</strong> You gain <Link to="/feat/ectoplasmic_spell">Ectoplasmic Spell</Link> as a bonus feat. In addition, once per day, you can cast a spell with the Ectoplasmic Spell metamagic feat as a standard action that does not increase the level of the spell. You can use this ability one additional time per day at 7th level and every 4 levels thereafter.</p>
-<p><strong>Spirit Walk (Su):</strong> You can become incorporeal and invisible. While in this form, you can move in any direction and pass through solid objects. You can take no actions other than to move while in this form. You can remain in this form for a number of rounds equal to your oracle level, but you can end this effect prematurely as a standard action. You can use this ability once per day at 11th level and twice per day at 15th level. You must be at least 11th level to select this revelation.</p>
-<p><strong>Sure Soul (Su):</strong> Because of your experience with possessing spirits, you gain a +2 insight bonus on saving throws against possession effects such as <em>magic jar,</em> a <Link to="/template/ghost">ghost's</Link> malevolence ability, or domination effects. At 7th level, this bonus also applies against death effects and mind-affecting effects. At 11th level, the bonus increases to +4.</p>
-<p><strong>Voice of the Grave (Su):</strong> You can use <Link to="/spell/speak_with_dead">speak with dead</Link>, as the spell, for a number of rounds per day equal to your oracle level. These rounds do not need to be consecutive. At 5th level and every 5 levels thereafter, the dead creature takes a cumulative -2 penalty on its Will save to resist this effect.</p>
-<h3 id="mystery-occult-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become one with the spirits. You become immune to death effects, exhaustion, fatigue, nausea, negative levels, and the sickened condition. You can cast <em>astral projection</em> and <Link to="/spell/true_seeing">true seeing</Link> once per day as spell-like abilities without requiring material components. Should you die, you rise again 2d4 days later as a ghost.</p>
+<Ability id="automatic-writing-su" icon={["magic"]}>
+<Pair single id="automatic-writing-su">Automatic Writing (Su)</Pair>
+<Pair title="Ability">Once per day, you can spend a full hour in uninterrupted meditation. During this period, your hands produce mysterious writing that pertains to the future.</Pair>
+<Pair title="At 1st Level">The prophetic writing manifests as an <Link to="/spell/augury">augury</Link> spell with 90% effectiveness.</Pair>
+<Pair title="At 5th Level">The writing takes the form of a <Link to="/spell/divination">divination</Link> spell with 90% effectiveness.</Pair>
+<Pair title="At 8th Level">The writing manifests as a casting of <Link to="/spell/commune">commune</Link> with no material component required.</Pair>
+</Ability>
+<Ability id="brain-drain-su" icon={["magic"]}>
+<Pair single id="brain-drain-su">Brain Drain (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action"><p>You can violently probe the mind of a single intelligent enemy within 100 feet. The target receives a Will save to negate the effect and immediately knows the source of this harmful mental prying. Those who fail this save are wracked with pain, taking 1d4 points of damage for every oracle level you possess.</p>
+<p>After successfully attacking with this ability, you may use a <strong className="hl">full-round action</strong> to sort through the jumble of stolen thoughts and memories to make a single <Link to="/skill/knowledge">Knowledge</Link> check using the victim's skill bonus.</p>
+</Pair>
+<Pair title="Special">The randomly stolen thoughts remain in your mind for a number of rounds equal to your Charisma modifier. Treat the knowledge gained as if you had used <Link to="/spell/detect_thoughts">detect thoughts</Link>. This is a mind-affecting effect.</Pair>
+</Ability>
+<Ability id="ectoplasmic-armor-su" icon={["def"]}>
+<Pair single id="ectoplasmic-armor-su">Ectoplasmic Armor (Su)</Pair>
+<Pair title="Usage">1 hour/day per oracle level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="Ability">You can conjure armor made of ectoplasm that grants you a +4 armor bonus to AC. In addition, this armor functions as if it had the <Link to="/magic-enh/ghost_touch_a">ghost touch</Link> special ability.</Pair>
+<Pair title="At 7th Level">The armor bonus becomes +6.</Pair>
+<Pair title="At 11th Level">The armor bonus increases to +8.</Pair>
+<Pair title="At 15th Level">The armor bonus becomes +10.</Pair>
+<Pair title="At 19th Level">The armor bonus increases to +12.</Pair>
+</Ability>
+<Ability id="phantom-touch-su" icon={["touch"]}>
+<Pair single id="phantom-touch-su">Phantom Touch (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can perform a melee touch attack that causes a living creature to become <Link to="/misc/shaken">shaken</Link>. This ability lasts for a number of rounds equal to <Link to="/misc/half">half</Link> your oracle level (minimum 1 round).</Pair>
+<Pair title="At 5th Level">The target instead becomes <Link to="/misc/frightened">frightened</Link>.</Pair>
+<Pair title="At 7th Level">The target becomes <Link to="/misc/panicked">panicked</Link>.</Pair>
+</Ability>
+<Ability id="project-psyche-su" icon={["magic"]}>
+<Pair single id="project-psyche-su" flavor="You can project your psyche into another vessel.">Project Psyche (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Ability">Once per day, you can possess another creature as if using the <Link to="/spell/magic_jar">magic jar</Link> spell, though this does not require a receptacle. You must be adjacent to the target creature, which receives a Will save against the effect.</Pair>
+</Ability>
+<Ability id="shroud-of-retribution-su" icon={["def"]}>
+<Pair single id="shroud-of-retribution-su">Shroud of Retribution (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 time/day + 1 per four oracle levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Immediate Action"><p>You can summon a shroud of spirits that reflects your attackers' damage back onto them. Any creature that strikes you deals normal damage to you, but at the same time the attacker takes force damage equal to 1d8 + half of your oracle level.</p>
+<p>This effect lasts until the end of your next turn.</p>
+</Pair>
+</Ability>
+<Ability id="spectral-spells-su" icon={["power"]}>
+<Pair single id="spectral-spells-su">Spectral Spells (Su)</Pair>
+<Pair title="Ability">You gain <Link to="/feat/ectoplasmic_spell">Ectoplasmic Spell</Link> as a bonus feat.</Pair>
+<Pair title="Standard Action">You can cast a spell with the Ectoplasmic Spell metamagic feat without increasing the level of the spell.</Pair>
+<Pair title="Usage">1 time/day + 1 per three oracle levels beyond 4th<ByLevelPop levels={[[1,1],[7,2],[11,3],[15,4],[19,5]]} unit="time" postText="/day" /></Pair>
+</Ability>
+<Ability id="spirit-walk-su" icon={["power","def"]}>
+<Pair single id="spirit-walk-su">Spirit Walk (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Ability">Once per day, you can become incorporeal and invisible. While in this form, you can move in any direction and pass through solid objects. You can take no actions other than to move while in this form. You remain in this form for a number of rounds equal to your oracle level, but you can end this effect prematurely as a <strong className="hl">standard action</strong>.</Pair>
+<Pair title="At 15th Level">You can use this ability twice a day.</Pair>
+</Ability>
+<Ability id="sure-soul-su" icon={["def"]}>
+<Pair single id="sure-soul-su">Sure Soul (Su)</Pair>
+<Pair title="Passive Ability">Because of your experience with possessing spirits, you gain a +2 insight bonus on saving throws against possession effects such as <em>magic jar,</em> a <Link to="/template/ghost">ghost's</Link> <em>malevolence</em> ability, or domination effects.</Pair>
+<Pair title="At 7th Level">This bonus also applies against death effects and mind-affecting effects.</Pair>
+<Pair title="At 11th Level">The bonus increases to +4.</Pair>
+</Ability>
+<Ability id="voice-of-the-grave-su" icon={["magic"]}>
+<Pair single id="voice-of-the-grave-su">Voice of the Grave (Su)</Pair>
+<Pair title="Usage">1 round/day per oracle level; these rounds need not be consecutive</Pair>
+<Pair title="Ability">You can <Link to="/spell/speak_with_dead">speak with dead</Link>, as per the spell.</Pair>
+<Pair title="At 5th Level">The dead creature you question takes -2 penalty on its Will save to resist this effect.</Pair>
+<Pair title="At 10th Level">The penalty becomes -4.</Pair>
+<Pair title="At 15th Level">The penalty increases to -6.</Pair>
+<Pair title="At 20th Level">The penalty becomes -8.</Pair>
+</Ability>
+<h3 id="mystery-occult-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["def","magic"]}>
+<Pair single id="final-revelation" flavor="You become one with the spirits.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You become immune to death effects, exhaustion, fatigue, nausea, negative levels, and the sickened condition. Should you die, you rise again 2d4 days later as a <Link to="/template/ghost">ghost</Link>.</Pair>
+<Pair title="Ability">You can cast <em>astral projection</em> and <Link to="/spell/true_seeing">true seeing</Link> once per day as spell-like abilities without requiring material components.</Pair>
+</Ability>
 </>};
-const _outer_rifts = {title: "Outer Rifts", jsx: <><h2 id="mystery-outer_rifts-outer-rifts">Outer Rifts</h2>
+const _outer_rifts = {hasJL:true,title: "Outer Rifts", jsx: <><div className="jumpList" id="mystery-outer_rifts-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-outer_rifts-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-outer_rifts-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-outer_rifts-outer-rifts">Outer Rifts</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 31</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/groetus">Groetus</Link>, <Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/main/faiths_pantheons">demon lords</Link></Cell></Row></Block>
@@ -1734,22 +1800,82 @@ const _outer_rifts = {title: "Outer Rifts", jsx: <><h2 id="mystery-outer_rifts-o
 <Pair plain title="16th"><Link to="/spell/greater_planar_binding">Greater planar binding</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/imprisonment">Imprisonment</Link></Pair>
 </Ability>
-<h3 id="mystery-outer_rifts-revelations">Revelations</h3>
+<h3 id="mystery-outer_rifts-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Outer Rifts mystery can choose from any of the following revelations.</p>
-<p><strong>Balefire (Su):</strong> You call upon the cleansing or searing fires of the Outer Rifts to burn your foes. As a standard action, one target within 30 feet is wreathed in screaming flames and takes 1d6 points of fire damage per level. A successful Reflex save halves this damage. At 10th level, the fire's howls cause any creatures damaged by it to be <Link to="/misc/staggered">staggered</Link> for 1 round. At 15th level, creatures who fail their saves against the balefire are staggered for 1d4 rounds and <Link to="/misc/stunned">stunned</Link> for 1 round. You can use this ability once per day plus one additional time per day at 10th level.</p>
-<p><strong>Demonhide (Su):</strong> You alter your flesh to be as tough as a demon's hide, granting you a +4 armor bonus. At 7th level, and every four levels thereafter, this bonus increases by +2. At 13th level, this armor also grants you DR 5/cold iron. You can use this revelation for 1 hour per day per oracle level. The duration does not need to be consecutive, but it must be spent in 1-hour increments.</p>
-<p><strong>Dread Resilience (Ex):</strong> You have been hardened by exposure to the otherworldly energies of the Outer Rifts, and you just keep getting tougher. You gain a +1 inherent bonus to Constitution upon taking this revelation and another for every four oracle levels gained thereafter. You must be at least 9th level to select this revelation.</p>
-<p><strong>Planar Haze (Su):</strong> You can fill an area with the smoky miasma of the Outer Rifts. Once per day when you cast a spell that has an area, as a swift action you may also fill that area with a thick haze that acts as <Link to="/spell/obscuring_mist">obscuring mist</Link>, except it originates at the center of your spell effect and cannot expand beyond the spell's area. At 10th level, the haze functions as <Link to="/spell/fog_cloud">fog cloud</Link>. You may use this ability one additional time per day at 7th level, and one additional time per day at 14th level.</p>
-<p><strong>Planar Infusion (Su):</strong> As a standard action once per day, you can cause a 20-foot-<Link to="/misc/spread">spread</Link> to gain either the mildly chaotic-aligned or mildly evil-aligned <Link to="/rule/planar_traits">planar trait</Link> for a number of rounds equal to your oracle level. Lawful creatures in a chaotic-aligned area take a -2 circumstance penalty on all Charisma-based checks, as do good creatures in an evil-aligned area. At 11th level, the infusion makes the area strongly aligned, which causes the -2 circumstance penalty to apply on all Intelligence-, Wisdom-, and Charisma-based checks made by any creature that lacks the matching alignment component (these penalties stack with those from the lower-level effect). You must be chaotic or evil to select this revelation, and you can only infuse an area with an alignment that matches a component of your own alignment.</p>
-<p><strong>Rift Magic (Su):</strong> Your spells gain a +4 bonus on caster level checks made to overcome the spell resistance of chaotic outsiders and evil outsiders.</p>
-<p><strong>Rift Weapon (Su):</strong> Your understanding of the powers that move through the Outer Rifts allows you to imbue weapons with the ability to penetrate the defenses of creatures native to other planes. Once per day as a standard action, you can touch one weapon (or a group of up to 20 similar pieces of ammunition) and give it the ability to penetrate DR/cold iron for 1 minute per caster level. At 9th level, you can also grant the additional ability to bypass either DR/good and DR/law. You can use this ability an additional time per day for every 5 oracle levels you possess.</p>
-<p><strong>Telepathy (Su):</strong> You can mentally communicate with any other creature within 100 feet that has a language, as per the telepathy power of <Link to="/family/demon">demons</Link> and <Link to="/family/angel">angels</Link>. You must be at least 11th level before selecting this revelation.</p>
-<p><strong>Unearthly Terrain (Su):</strong> You can twist the material world into the harsh, jagged edges and uneven angles of the outer planes. As a standard action, you can turn one 20-foot square into <Link to="/rule/difficult_terrain">difficult terrain</Link> for 1 round per level. You may use this ability a number of times per day equal to 3 + your Charisma bonus.</p>
-<p><strong>Wings of Terror (Su):</strong> You can manifest a pair of enormous, bat-like demon wings that grant you a fly speed of 60 feet with average maneuverability and a +4 bonus on Intimidate checks. At 10th level, your speed increases to 90 feet, your maneuverability increases to good, and the bonus increases to +8 on Intimidate checks. You can use these wings for 1 minute per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. You must be at least 7th level to select this revelation.</p>
-<h3 id="mystery-outer_rifts-final-revelation">Final Revelation</h3>
-<p>At 20th level, you gain the ability to open rifts between planes. This allows you to use <Link to="/spell/gate">gate</Link> as a spell-like ability once per day. If you use this ability to call creatures, you still need to provide 10,000 gp in offerings to secure the creature's aid.</p>
+<Ability id="balefire-su" icon={["magic","lower"]}>
+<Pair single id="balefire-su" flavor="You call upon the cleansing or searing fires of the Outer Rifts to burn your foes.">Balefire (Su)</Pair>
+<Pair title="Standard Action">One target within 30 feet is wreathed in screaming flames and takes 1d6 points of fire damage per level. A successful Reflex save halves this damage.</Pair>
+<Pair title="At 1st Level">You can use this ability once per day.</Pair>
+<Pair title="At 10th Level">The fire's howls cause any creatures damaged by it to be <Link to="/misc/staggered">staggered</Link> for 1 round. In addition, you can use this ability twice a day.</Pair>
+<Pair title="At 15th Level">Creatures who fail their saves against the <em>balefire</em> are staggered for 1d4 rounds and <Link to="/misc/stunned">stunned</Link> for 1 round.</Pair>
+</Ability>
+<Ability id="demonhide-su" icon={["def"]}>
+<Pair single id="demonhide-su">Demonhide (Su)</Pair>
+<Pair title="Usage">1 hour/day per oracle level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="Ability">You alter your flesh to be as tough as a demon's hide, granting you a +4 armor bonus.</Pair>
+<Pair title="At 7th Level">The armor bonus becomes +6.</Pair>
+<Pair title="At 11th Level">The armor bonus increases to +8.</Pair>
+<Pair title="At 13th Level">This armor also grants you DR 5/cold iron.</Pair>
+<Pair title="At 15th Level">The armor bonus becomes +10.</Pair>
+<Pair title="At 19th Level">The armor bonus increases to +12.</Pair>
+</Ability>
+<Ability id="dread-resilience-ex" icon={["boost"]}>
+<Pair single id="dread-resilience-ex" flavor="You have been hardened by exposure to the otherworldly energies of the Outer Rifts, and you just keep getting tougher.">Dread Resilience (Ex)</Pair>
+<Pair title="Prerequisites">9th-level oracle</Pair>
+<Pair title="Passive Ability">You gain a +1 inherent bonus to Constitution upon taking this revelation and another for every four oracle levels gained thereafter.</Pair>
+</Ability>
+<Ability id="planar-haze-su" icon={["magic"]}>
+<Pair single id="planar-haze-su" flavor="You can fill an area with the smoky miasma of the Outer Rifts.">Planar Haze (Su)</Pair>
+<Pair title="Swift Action">Once per day when you cast a spell that has an area, you may also fill that area with a thick haze that acts as <Link to="/spell/obscuring_mist">obscuring mist</Link>, except it originates at the center of your spell effect and cannot expand beyond the spell's area.</Pair>
+<Pair title="At 7th Level">You can do this twice a day.</Pair>
+<Pair title="At 10th Level">The haze functions as <Link to="/spell/fog_cloud">fog cloud</Link>.</Pair>
+<Pair title="At 14th Level">You can use this ability three times a day.</Pair>
+</Ability>
+<Ability id="planar-infusion-su" icon={["magic"]}>
+<Pair single id="planar-infusion-su">Planar Infusion (Su)</Pair>
+<Pair title="Prerequisites">You must be chaotic and/or evil.</Pair>
+<Pair title="Standard Action"><p>Once per day, you can cause a 20-foot-<Link to="/misc/spread">spread</Link> to gain either the mildly chaotic-aligned or mildly evil-aligned <Link to="/rule/planar_traits">planar trait</Link> for a number of rounds equal to your oracle level.</p>
+<p>Lawful creatures in a chaotic-aligned area take a -2 circumstance penalty on all Charisma-based checks, as do good creatures in an evil-aligned area.</p>
+</Pair>
+<Pair title="At 11th Level">The infusion makes the area strongly aligned, which causes the -2 circumstance penalty to apply on all Intelligence-, Wisdom-, and Charisma-based checks made by any creature that lacks the matching alignment component (these penalties stack with those from the lower-level effect).</Pair>
+<Pair title="Special">You can only infuse an area with an alignment that matches a component of your own alignment.</Pair>
+</Ability>
+<Ability id="rift-magic-su" icon={["boost"]}>
+<Pair single id="rift-magic-su">Rift Magic (Su)</Pair>
+<Pair title="Passive Ability">Your spells gain a +4 bonus on caster level checks made to overcome the spell resistance of chaotic outsiders and evil outsiders.</Pair>
+</Ability>
+<Ability id="rift-weapon-su" icon={["boost"]}>
+<Pair single id="rift-weapon-su" flavor="Your understanding of the powers that move through the Outer Rifts allows you to imbue weapons with the ability to penetrate the defenses of creatures native to other planes.">Rift Weapon (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action">Once per day, you can touch one weapon (or a group of up to 20 similar pieces of ammunition) and give it the ability to penetrate DR/cold iron for 1 minute per caster level.</Pair>
+<Pair title="At 9th Level">You can also grant the additional ability to bypass either DR/good and DR/law.</Pair>
+</Ability>
+<Ability id="telepathy-su" icon={["power"]}>
+<Pair single id="telepathy-su">Telepathy (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Ability">You can mentally communicate with any other creature within 100 feet that has a language, as per the telepathy power of <Link to="/family/demon">demons</Link> and <Link to="/family/angel">angels</Link>.</Pair>
+</Ability>
+<Ability id="unearthly-terrain-su" icon={["magic"]}>
+<Pair single id="unearthly-terrain-su" flavor="You can twist the material world into the harsh, jagged edges and uneven angles of the outer planes.">Unearthly Terrain (Su)</Pair>
+<Pair title="Usage">3 + Charisma bonus times/day</Pair>
+<Pair title="Standard Action">You can turn one 20-foot square into <Link to="/rule/difficult_terrain">difficult terrain</Link> for 1 round per level.</Pair>
+</Ability>
+<Ability id="wings-of-terror-su" icon={["power","boost"]}>
+<Pair single id="wings-of-terror-su">Wings of Terror (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Ability">You can manifest a pair of enormous, bat-like demon wings that grant you a fly speed of 60 feet with average maneuverability and a +4 bonus on <Link to="/skill/intimidate">Intimidate</Link> checks.</Pair>
+<Pair title="At 10th Level">Your speed increases to 90 feet, your maneuverability increases to good, and the bonus increases to +8 on Intimidate checks.</Pair>
+</Ability>
+<h3 id="mystery-outer_rifts-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["magic"]}>
+<Pair single id="final-revelation">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">You gain the ability to open rifts between planes. This allows you to use <Link to="/spell/gate">gate</Link> as a spell-like ability once per day.</Pair>
+<Pair title="Special">If you use this ability to call creatures, you still need to provide 10,000 gp in offerings to secure the creature's aid.</Pair>
+</Ability>
 </>};
-const _reaper = {title: "Reaper", jsx: <><h2 id="mystery-reaper-reaper">Reaper</h2>
+const _reaper = {hasJL:true,title: "Reaper", jsx: <><div className="jumpList" id="mystery-reaper-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-reaper-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-reaper-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-reaper-reaper">Reaper</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_139_the_dead_road">Pathfinder #139: The Dead Road pg. 66</Link></p>
 <p>Oracles with the reaper mystery strive to quiet restless souls, end lives, and send souls to their final reward.</p>
 <Block size="minimal">
@@ -1769,22 +1895,87 @@ const _reaper = {title: "Reaper", jsx: <><h2 id="mystery-reaper-reaper">Reaper</
 <Pair plain title="16th"><Link to="/spell/horrid_wilting">Horrid wilting</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/wail_of_the_banshee">Wail of the banshee</Link></Pair>
 </Ability>
-<h3 id="mystery-reaper-revelations">Revelations</h3>
+<h3 id="mystery-reaper-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Reaper mystery can choose from any of the following revelations.</p>
-<p><strong>Death's Embrace (Su):</strong> You gain <Link to="/feat/improved_grapple">Improved Grapple</Link> as a bonus feat, even if you do not meet its prerequisites. Once per round when you succeed at a grapple combat maneuver check, you can deal 1d6 points of negative energy damage to the target of your grapple. This damage increases by 1d6 at 5th level and every 5 levels thereafter, to a maximum of 5d6 at 20th level.</p>
-<p><strong>Haunt Channeler (Su):</strong> You gain the <Link to="/class/medium">medium's</Link> haunt channeler class feature with an effective medium level equal to your oracle level - 2. You must be at least 5th level to select this revelation.</p>
-<p><strong>Moral Crisis (Su):</strong> As a standard action, you can target a living creature within 30 feet of you, reminding it of its moral failings. The target must succeed at a Will save or be <Link to="/misc/staggered">staggered</Link> for a number of rounds equal to your oracle level. The target can attempt a new saving throw at the end of each of its turns to end this effect. This is a mind-affecting emotion effect.</p>
-<p><strong>Obliterate Memory (Sp):</strong> As a standard action, you can target a creature within 30 feet and eliminate all memory of an event the target experienced, as <Link to="/spell/modify_memory">modify memory</Link>. A target can attempt a Will save to negate this effect. In addition, you can cause an account of the memory erased by this ability to appear on a blank page of any book you are carrying. You can use this ability once per day, plus one additional time per day at 15th level. You must be at least 11th level to select this revelation.</p>
-<p><strong>Pale Horse (Sp):</strong> You can summon a <Link to="/spell/phantom_steed">phantom steed</Link>, as the spell, to serve you for a number of hours per day equal to your oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments. You must be at least 5th level to select this revelation.</p>
-<p><strong>Return to Dust (Su):</strong> You call upon the inexorable ravages of time and entropy to damage an object or undead creature within 30 feet, dealing 1d6 points of damage per 2 oracle levels you have, ignoring hardness and damage reduction. If used against an undead creature or an object in another creature's possession, the undead creature or the creature possessing the object can attempt a Reflex saving throw to halve the damage. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>Spectral Spells (Su):</strong> You gain <Link to="/feat/ectoplasmic_spell">Ectoplasmic Spell</Link> as a bonus feat. In addition, once per day, you can cast a spell with the Ectoplasmic Spell metamagic feat as a standard action that does not increase the level of the spell. You can use this ability one additional time per day at 7th level and every 4 levels thereafter.</p>
-<p><strong>Spirit Touch (Su):</strong> As a standard action, you can touch one weapon to grant it the <Link to="/magic-enh/ghost_touch">ghost touch</Link> special ability for a number of rounds equal to your Charisma modifier. At 11th level, you can spend two uses of this ability to grant it the ghost touch and <Link to="/magic-enh/bane">undead bane</Link> special abilities. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>Terminal Aura (Su):</strong> You gain an aura with a 10-foot radius; any creature within that has fewer than 0 hit points but is stable must succeed at a Will save or be affected by the spell <Link to="/spell/bleed">bleed</Link>. A dying creature within range of this aura does not receive a Constitution check to stabilize unless it succeeds at a Will save, but it can still be healed as normal. A creature with <Link to="/umr/fast_healing">fast healing</Link> or <Link to="/umr/regeneration">regeneration</Link> must also succeed at a Will save every round or that ability does not function for 1 round. You can suppress and resume this aura as a free action. You must be at least 11th level to select this revelation.</p>
-<p><strong>True Death (Su):</strong> Those slain by your spells or by one of your attacks that deals negative energy becomes more difficult to bring back from the dead. Spellcasters attempting to bring such a creature back from the dead using <Link to="/spell/raise_dead">raise dead</Link> or similar magic must succeed at a caster level check with a DC equal to 15 + your oracle level or the spell fails and the material component is wasted. A successful casting of <Link to="/spell/remove_curse">remove curse</Link> (DC = 10 + your oracle level) before attempting to bring the creature back from the dead suppresses this effect for 1 minute.</p>
-<h3 id="mystery-reaper-final-revelation">Final Revelation</h3>
-<p>Upon 20th level, you are a true reaper of death and no soul can escape your sight. You automatically confirm critical hits and creatures automatically fail Fortitude saves against your <em>coup de grace</em> attempts. In addition, you can notice, locate, and distinguish between living and undead creatures within 60 feet, just as if you had the <Link to="/umr/blindsense">blindsense</Link> ability. This sense does not allow you to detect objects, but it does allow you to notice living things that are not creatures.</p>
+<Ability id="deaths-embrace-su" icon={["power","melee"]}>
+<Pair single id="deaths-embrace-su">Death's Embrace (Su)</Pair>
+<Pair title="Ability">You gain <Link to="/feat/improved_grapple">Improved Grapple</Link> as a bonus feat, even if you do not meet its prerequisites.</Pair>
+<Pair title="Ability">Once per round when you succeed at a <Link to="/rule/grapple">grapple</Link> combat maneuver check, you can deal 1d6 points of negative energy damage to the target of your grapple.</Pair>
+<Pair title="At 5th Level">This damage becomes 2d6.</Pair>
+<Pair title="At 10th Level">This damage increases to 3d6.</Pair>
+<Pair title="At 15th Level">This damage becomes 4d6.</Pair>
+<Pair title="At 20th Level">This damage increases to 5d6.</Pair>
+</Ability>
+<Ability id="haunt-channeler-su" extraClasses="hasSubs" icon={["power"]}>
+<Pair single id="haunt-channeler-su">Haunt Channeler (Su)</Pair>
+<Pair title="Prerequisites">5th-level oracle</Pair>
+<Pair title="Ability">You gain the <Link to="/class/medium">medium's</Link> <em>haunt channeler</em> class feature with an effective medium level equal to your oracle level - 2.</Pair>
+</Ability>
+<Ability id="haunt-channeler-su" extraClasses="subAbility" icon={["boost","melee"]}>
+<Pair single id="haunt-channeler-su" flavor="Text from the medium class ability.">Haunt Channeler (Su)</Pair>
+<Pair title="Passive Ability">You can always act on the surprise round against a haunt.</Pair>
+<Pair title="Ability">Your touch funnels a portion of the haunt into yourself, dealing 1d6 points of damage to the haunt per 2 medium levels you possess as if via positive energy and allowing you to ask the haunt a single question. The haunt can answer the question however it chooses.</Pair>
+<Pair title="Ability">Additionally, you can forgo your saving throw against a haunt's effects to funnel the haunt entirely into yourself. If you do so, you suffer the haunt's full effect, but the haunt doesn't affect anyone else (even if it normally would). The haunt then gains control of your body for 24 hours. Once per minute, you can attempt to end this possession early by succeeding at a Will save (DC = 20 + 1/2 your medium level).</Pair>
+</Ability>
+<Ability id="moral-crisis-su" icon={["lower"]}>
+<Pair single id="moral-crisis-su">Moral Crisis (Su)</Pair>
+<Pair title="Standard Action">You can target a living creature within 30 feet of you, reminding it of its moral failings. The target must succeed at a Will save or be <Link to="/misc/staggered">staggered</Link> for a number of rounds equal to your oracle level.</Pair>
+<Pair title="Special">The target can attempt a new saving throw at the end of each of its turns to end this effect. This is a mind-affecting emotion effect.</Pair>
+</Ability>
+<Ability id="obliterate-memory-sp" icon={["magic"]}>
+<Pair single id="obliterate-memory-sp">Obliterate Memory (Sp)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Standard Action"><p>Once per day, you can target a creature within 30 feet and eliminate all memory of an event the target experienced, as <Link to="/spell/modify_memory">modify memory</Link>. A target can attempt a Will save to negate this effect.</p>
+<p>In addition, you can cause an account of the memory erased by this ability to appear on a blank page of any book you are carrying.</p>
+</Pair>
+<Pair title="At 15th Level">You may use this ability twice per day.</Pair>
+</Ability>
+<Ability id="pale-horse-sp" icon={["magic"]}>
+<Pair single id="pale-horse-sp">Pale Horse (Sp)</Pair>
+<Pair title="Prerequisites">5th-level oracle</Pair>
+<Pair title="Usage">1 hour/day per oracle level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="Ability">You can summon a <Link to="/spell/phantom_steed">phantom steed</Link>, as the spell.</Pair>
+</Ability>
+<Ability id="return-to-dust-su" icon={["magic"]}>
+<Pair single id="return-to-dust-su">Return to Dust (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">You call upon the inexorable ravages of time and entropy to damage an object or undead creature within 30 feet, dealing 1d6 points of damage per 2 oracle levels you have, ignoring hardness and damage reduction.</Pair>
+<Pair title="Special">If used against an undead creature or an object in another creature's possession, the undead creature or the creature possessing the object can attempt a Reflex saving throw to halve the damage</Pair>
+</Ability>
+<Ability id="spectral-spells-su" icon={["power"]}>
+<Pair single id="spectral-spells-su">Spectral Spells (Su)</Pair>
+<Pair title="Ability">You gain <Link to="/feat/ectoplasmic_spell">Ectoplasmic Spell</Link> as a bonus feat.</Pair>
+<Pair title="Standard Action">You can cast a spell with the Ectoplasmic Spell metamagic feat without increasing the level of the spell.</Pair>
+<Pair title="Usage">1 time/day + 1 per three oracle levels beyond 4th<ByLevelPop levels={[[1,1],[7,2],[11,3],[15,4],[19,5]]} unit="time" postText="/day" /></Pair>
+</Ability>
+<Ability id="spirit-touch-su" icon={["boost"]}>
+<Pair single id="spirit-touch-su">Spirit Touch (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can touch one weapon to grant it the <Link to="/magic-enh/ghost_touch">ghost touch</Link> special ability for a number of rounds equal to your Charisma modifier.</Pair>
+<Pair title="At 11th Level">You can spend two uses of this ability to grant it the ghost touch and <Link to="/magic-enh/bane">undead bane</Link> special abilities.</Pair>
+</Ability>
+<Ability id="terminal-aura-su" icon={["aura","lower"]}>
+<Pair single id="terminal-aura-su">Terminal Aura (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Passive Ability"><p>You gain an aura with a 10-foot radius; any creature within that has fewer than 0 hit points but is stable must succeed at a Will save or be affected by the spell <Link to="/spell/bleed">bleed</Link>. A dying creature within range of this aura does not receive a Constitution check to stabilize unless it succeeds at a Will save, but it can still be healed as normal.</p>
+<p>A creature with <Link to="/umr/fast_healing">fast healing</Link> or <Link to="/umr/regeneration">regeneration</Link> must also succeed at a Will save every round or that ability does not function for 1 round.</p>
+</Pair>
+<Pair title="Special">You can suppress and resume this aura as a <strong className="hl">free action</strong>.</Pair>
+</Ability>
+<Ability id="true-death-su" icon={["lower"]}>
+<Pair single id="true-death-su">True Death (Su)</Pair>
+<Pair title="Ability">Those slain by your spells or by one of your attacks that deals negative energy becomes more difficult to bring back from the dead. Spellcasters attempting to bring such a creature back from the dead using <Link to="/spell/raise_dead">raise dead</Link> or similar magic must succeed at a caster level check with a DC equal to 15 + your oracle level or the spell fails and the material component is wasted.</Pair>
+<Pair title="Special">A successful casting of <Link to="/spell/remove_curse">remove curse</Link> (DC = 10 + your oracle level) before attempting to bring the creature back from the dead suppresses this effect for 1 minute.</Pair>
+</Ability>
+<h3 id="mystery-reaper-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["boost","lower","power"]}>
+<Pair single id="final-revelation" flavor="You are a true reaper of death and no soul can escape your sight.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You automatically confirm critical hits and creatures automatically fail Fortitude saves against your <Link to="/misc/coup_de_grace">coup de grace</Link> attempts.</Pair>
+<Pair title="Ability">In addition, you can notice, locate, and distinguish between living and undead creatures within 60 feet, just as if you had the <Link to="/umr/blindsense">blindsense</Link> ability. This sense does not allow you to detect objects, but it does allow you to notice living things that are not creatures.</Pair>
+</Ability>
 </>};
-const _shadow = {title: "Shadow", jsx: <><h2 id="mystery-shadow-shadow">Shadow</h2>
+const _shadow = {hasJL:true,title: "Shadow", jsx: <><div className="jumpList" id="mystery-shadow-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-shadow-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-shadow-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-shadow-shadow">Shadow</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_shadows">Blood of Shadows pg. 12</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/groetus">Groetus</Link>, <Link to="/faith/lao_shu_po">Lao Shu Po</Link>, <Link to="/faith/tsukiyo">Tsukiyo</Link>, <Link to="/faith/zon_kuthon">Zon-Kuthon</Link>.</Cell></Row></Block>
@@ -1803,22 +1994,93 @@ const _shadow = {title: "Shadow", jsx: <><h2 id="mystery-shadow-shadow">Shadow</
 <Pair plain title="16th"><Link to="/spell/greater_shadow_evocation">Greater shadow evocation</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/shades">Shades</Link></Pair>
 </Ability>
-<h3 id="mystery-shadow-revelations">Revelations</h3>
+<h3 id="mystery-shadow-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Shadow mystery can choose from any of the following revelations.</p>
-<p><strong>Army of Darkness (Su):</strong> Whenever you cast a <Link to="/spell/summon_monster">summon monster</Link> spell and summon a creature that normally has the <Link to="/template/celestial">celestial</Link> or <Link to="/template/fiendish">fiendish</Link> template, you can instead summon it with the <Link to="/template/shadow_creature">shadow creature</Link> template. This revelation counts as having the <Link to="/feat/spell_focus">Spell Focus</Link> (conjuration) feat for the purpose of meeting the prerequisites of the <Link to="/feat/augment_summoning">Augment Summoning</Link> feat, as well as any feat that lists Augment Summoning as a prerequisite.</p>
-<p><strong>Cloak of Darkness (Su):</strong> This ability functions as the <Link to="/mystery/dark_tapestry">dark tapestry</Link> mystery revelation of the same name: You conjure a cloak of shadowy darkness that grants you a +4 armor bonus and a +2 circumstance bonus on Stealth checks. At 7th level, and every four levels thereafter, these bonuses increase by +2. You can use this cloak for 1 hour per day per oracle level. The duration does not need to be consecutive, but it must be spent in 1-hour increments.</p>
-<p><strong>Dark Secrets (Su):</strong> You learn the hidden secrets surrounding the casting of shadow spells. You can add a number of spells from the <Link to="/main/spells_wizard">sorcerer/wizard spell list</Link> equal to your Charisma modifier (minimum 1, maximum equal to half your oracle level) to your spell list and your list of spells known as divine spells. These have a spell level equal to their sorcerer/wizard spell level. You can add only illusion spells from the shadow subschool or spells with the darkness descriptor to your list of spells known in this manner. Each time you gain an oracle level after taking this revelation, you can choose to replace one of these spells for a new appropriate spell on the sorcerer/wizard spell list.</p>
-<p><strong>Living Shadow (Sp):</strong> Your body dissolves, and you become a living shadow. This ability functions as <Link to="/spell/gaseous_form">gaseous form</Link>. At 14th level, this ability functions as <Link to="/spell/shadow_body">shadow body</Link> instead, except you also gain DR 10/magic and become immune to poison, sneak attacks, and critical hits as if also using <em>gaseous form.</em> You can use this ability a number of minutes per day equal to your oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. You must be at least 7th level to choose this revelation.</p>
-<p><strong>Pierce the Shadows (Su):</strong> The shadows step aside from your baleful gaze, affording you sight in even the deepest darkness. You gain darkvision 60 feet. If you already have darkvision, increase your existing darkvision by 60 feet instead. At 11th level, you can see perfectly in darkness of any kind, even in absolute darkness or the darkness created by a <em>deeper darkness</em> spell.</p>
-<p><strong>Shadow Armament (Su):</strong> You can create a quasi-real simple or martial masterwork weapon appropriate for your current size. You are considered proficient with this weapon. The first time you hit a creature with this weapon, that creature can attempt a Will save to disbelieve; failure means the weapon deals damage normally, while success means the creature takes only 1 point of damage from the weapon's attacks. The weapon deals only 1 point of damage to objects. At 3rd level, and again at 11th level and 19th level, the weapon gains a cumulative +1 enhancement bonus. At 7th level, the weapon gains either the <Link to="/magic-enh/frost">frost</Link> or <Link to="/magic-enh/keen">keen</Link> weapon special ability, chosen when the weapon is created. These abilities don't function against a target that succeeds at its Will save. At 15th level, the weapon deals minimum damage (as if it had rolled a 1 on each of its damage dice) against targets that succeed at their saves instead of 1 point of damage. You can use this ability for a number of minutes per day equal to your oracle level. This duration does not need to be consecutive, but it must be used in 1-minute increments. The weapon disappears after 1 round if it leaves your grasp.</p>
-<p><strong>Shadow Mastery (Su):</strong> Whenever you cast an illusion spell from the shadow subschool, increase the strength of such spells by 1% per oracle level you have. You must be at least 7th level to choose this revelation.</p>
-<p><strong>Shadow Projection (Su):</strong> You infuse your life force and psyche into your shadow, causing it to separate from your body and act as an independent creature. This ability functions as <Link to="/spell/shadow_projection">shadow projection</Link> except as follows. Your shadow has the outsider type and the phantom subtype instead of the undead type. As a result, this ability does not have the evil descriptor and your shadow cannot be <Link to="/feat/turn_undead">turned</Link> or affected as undead (though it can be affected as an outsider). You can use this ability for a number of hours per day equal to half your oracle level. These hours don't need to be consecutive, but they must be spent in 1-hour increments. Your shadow's hit points are not replenished between uses, although your shadow can be healed in the same manner as any other outsider. When this ability isn't in use, any healing done to you also heals your shadow for an equal amount. You must be at least 7th level to choose this revelation.</p>
-<p><strong>Stealth Mastery (Ex):</strong> You gain <Link to="/feat/skill_focus">Skill Focus</Link> with the Stealth skill. At 8th level, you gain <Link to="/feat/signature_skill">Signature Skill</Link> with the Stealth skill, even if you don't meet the feat's prerequisites. At 16th level, you gain the hide in plain sight <Link to="/pclass/shadowdancer">shadowdancer</Link> class feature.</p>
-<p><strong>Wings of Darkness (Su):</strong> This ability functions as the <Link to="/mystery/dark_tapestry">dark tapestry</Link> mystery revelation of the same name. As a swift action, you can manifest a set of translucent, inky wings that grant you a fly speed of 60 feet with good maneuverability. You can use these wings for 1 minute per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 11th level, you can use these wings to fly as if with <Link to="/spell/overland_flight">overland flight</Link> once per day. Used in this way, the ability lasts for up to 1 hour per level, and counts as your total use of this ability for the day. You must be at least 7th level to select this revelation.</p>
-<h3 id="mystery-shadow-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, your body becomes permanently suffused with the essence of the Shadow Plane. You gain <Link to="/umr/regeneration">regeneration</Link> 5 while in <Link to="/rule/dim_light">dim light</Link> or darkness and immunity to cold, critical hits, and sneak attacks. Your regeneration is suppressed while in any level of illumination brighter than dim light. In addition, any spells you cast of the shadow subschool or with the darkness descriptor are automatically <Link to="/feat/enlarged">enlarged</Link> without affecting their spell level.</p>
+<Ability id="army-of-darkness-su" icon={["boost"]}>
+<Pair single id="army-of-darkness-su">Army of Darkness (Su)</Pair>
+<Pair title="Ability">Whenever you cast a <Link to="/spell/summon_monster">summon monster</Link> spell and summon a creature that normally has the <Link to="/template/celestial">celestial</Link> or <Link to="/template/fiendish">fiendish</Link> template, you can instead summon it with the <Link to="/template/shadow_creature">shadow creature</Link> template.</Pair>
+<Pair title="Special">This revelation counts as having the <Link to="/feat/spell_focus">Spell Focus</Link> (conjuration) feat for the purpose of meeting the prerequisites of the <Link to="/feat/augment_summoning">Augment Summoning</Link> feat, as well as any feat that lists Augment Summoning as a prerequisite.</Pair>
+</Ability>
+<Ability id="cloak-of-darkness-su" icon={["def"]}>
+<Pair single id="cloak-of-darkness-su" flavor={<>This ability functions as the <Link to="/mystery/dark_tapestry">dark tapestry</Link> mystery revelation of the same name.</>}>Cloak of Darkness (Su)</Pair>
+<Pair title="Usage">1 hour/day per oracle level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="Ability">You conjure a cloak of shadowy darkness that grants you a +4 armor bonus and a +2 circumstance bonus on <Link to="/skill/stealth">Stealth</Link> checks.</Pair>
+<Pair title="At 7th Level">These bonuses become +6 and +4, respectively.</Pair>
+<Pair title="At 11th Level">These bonuses become +8 and +6, respectively.</Pair>
+<Pair title="At 15th Level">These bonuses become +10 and +8, respectively.</Pair>
+<Pair title="At 19th Level">These bonuses become +12 and +10, respectively.</Pair>
+</Ability>
+<Ability id="dark-secrets-su" icon={["learn"]}>
+<Pair single id="dark-secrets-su" flavor="You learn the hidden secrets surrounding the casting of shadow spells.">Dark Secrets (Su)</Pair>
+<Pair title="Ability">You can add a number of spells from the <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">wizard</Link> spell list equal to your Charisma modifier (minimum 1, maximum equal to half your oracle level) to your spell list and your list of spells known as divine spells. These have a spell level equal to their sorcerer/wizard spell level.</Pair>
+<Pair title="Special"><p>You can add only illusion spells from the shadow subschool or spells with the darkness descriptor to your list of spells known in this manner.</p>
+<p>Each time you gain an oracle level after taking this revelation, you can choose to replace one of these spells for a new appropriate spell on the sorcerer/wizard spell list.</p>
+</Pair>
+</Ability>
+<Ability id="living-shadow-sp" icon={["magic","def"]}>
+<Pair single id="living-shadow-sp" flavor="Your body dissolves, and you become a living shadow.">Living Shadow (Sp)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Ability">This ability functions as <Link to="/spell/gaseous_form">gaseous form</Link>.</Pair>
+<Pair title="At 14th Level">This ability functions as <Link to="/spell/shadow_body">shadow body</Link> instead, except you also gain DR 10/magic and become immune to poison, sneak attacks, and critical hits as if also using <em>gaseous form.</em></Pair>
+</Ability>
+<Ability id="pierce-the-shadows-su" icon={["power"]}>
+<Pair single id="pierce-the-shadows-su" flavor="The shadows step aside from your baleful gaze, affording you sight in even the deepest darkness.">Pierce the Shadows (Su)</Pair>
+<Pair title="Ability">You gain darkvision 60 feet. If you already have darkvision, increase your existing darkvision by 60 feet instead.</Pair>
+<Pair title="At 11th Level">You can see perfectly in darkness of any kind, even in absolute darkness or the darkness created by a <em>deeper darkness</em> spell.</Pair>
+</Ability>
+<Ability id="shadow-armament-su" icon={["magic"]}>
+<Pair single id="shadow-armament-su">Shadow Armament (Su)</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Ability"><p>You can create a quasi-real simple or martial masterwork weapon appropriate for your current size. You are considered proficient with this weapon.</p>
+<p>The first time you hit a creature with this weapon, that creature can attempt a Will save to disbelieve; failure means the weapon deals damage normally, while success means the creature takes only 1 point of damage from the weapon's attacks. The weapon deals only 1 point of damage to objects. At 3rd level, and again at 11th level and 19th level, the weapon gains a cumulative +1 enhancement bonus.</p>
+</Pair>
+<Pair title="At 3rd Level">The weapon gains a +1 enhancement bonus.</Pair>
+<Pair title="At 7th Level">The weapon gains either the <Link to="/magic-enh/frost">frost</Link> or <Link to="/magic-enh/keen">keen</Link> weapon special ability, chosen when the weapon is created. These abilities don't function against a target that succeeds at its Will save.</Pair>
+<Pair title="At 11th Level">The enhancement bonus becomes +2.</Pair>
+<Pair title="At 15th Level">The weapon deals minimum damage (as if it had rolled a 1 on each of its damage dice) against targets that succeed at their saves instead of 1 point of damage.</Pair>
+<Pair title="At 19th Level">The enhancement bonus increases to +3.</Pair>
+<Pair title="Special">The weapon disappears after 1 round if it leaves your grasp.</Pair>
+</Ability>
+<Ability id="shadow-mastery-su" icon={["boost"]}>
+<Pair single id="shadow-mastery-su">Shadow Mastery (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Ability">Whenever you cast an illusion spell from the shadow subschool, increase the strength of such spells by 1% per oracle level you have.</Pair>
+</Ability>
+<Ability id="shadow-projection-su" icon={["magic"]}>
+<Pair single id="shadow-projection-su">Shadow Projection (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 hour/day per two oracle levels; these hours need not be consecutive, but they must be spent in 1-hour increments<ByLevelPop levels={[[7,3],[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="hour" postText="/day" /></Pair>
+<Pair title="Ability"><p>You infuse your life force and psyche into your shadow, causing it to separate from your body and act as an independent creature. This ability functions as <Link to="/spell/shadow_projection">shadow projection</Link> except as follows.</p>
+<p>Your shadow has the <Link to="/type/outsider">outsider</Link> type and the <Link to="/subtype/phantom">phantom</Link> subtype instead of the undead type. As a result, this ability does not have the evil descriptor and your shadow cannot be <Link to="/feat/turn_undead">turned</Link> or affected as undead (though it can be affected as an outsider). Your shadow's hit points are not replenished between uses, although your shadow can be healed in the same manner as any other outsider. When this ability isn't in use, any healing done to you also heals your shadow for an equal amount.</p>
+</Pair>
+</Ability>
+<Ability id="stealth-mastery-ex" extraClasses="hasSubs" icon={["power"]}>
+<Pair single id="stealth-mastery-ex">Stealth Mastery (Ex)</Pair>
+<Pair title="Ability">You gain <Link to="/feat/skill_focus">Skill Focus</Link> with the <Link to="/skill/stealth">Stealth</Link> skill.</Pair>
+<Pair title="At 8th Level">You gain <Link to="/feat/signature_skill">Signature Skill</Link> with the Stealth skill, even if you don't meet the feat's prerequisites.</Pair>
+<Pair title="At 16th Level">You gain the <em>hide in plain sight</em> <Link to="/pclass/shadowdancer">shadowdancer</Link> class feature.</Pair>
+</Ability>
+<Ability id="hide-in-plain-sight-su" extraClasses="subAbility" icon={["def"]}>
+<Pair single id="hide-in-plain-sight-su" flavor="Text from the shadowdancer class ability.">Hide in Plain Sight (Su)</Pair>
+<Pair title="Ability">A shadowdancer can use the Stealth skill even while being observed. As long as she is within 10 feet of an area of <Link to="/rule/dim_light">dim light</Link>, a shadowdancer can hide herself from view in the open without anything to actually hide behind. She cannot, however, hide in her own shadow.</Pair>
+</Ability>
+<Ability id="wings-of-darkness-su" icon={["power"]}>
+<Pair single id="wings-of-darkness-su" flavor={<>This ability functions as the <Link to="/mystery/dark_tapestry">dark tapestry</Link> mystery revelation of the same name.</>}>Wings of Darkness (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Swift Action">You can manifest a set of translucent, inky wings that grant you a fly speed of 60 feet with good maneuverability.</Pair>
+<Pair title="At 11th Level">You can use these wings to fly as if with <Link to="/spell/overland_flight">overland flight</Link> once per day. Used in this way, the ability lasts for up to 1 hour per level, and counts as your total use of this ability for the day.</Pair>
+</Ability>
+<h3 id="mystery-shadow-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["def"]}>
+<Pair single id="final-revelation" flavor="Your body becomes permanently suffused with the essence of the Shadow Plane.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/regeneration">regeneration</Link> 5 while in dim light or darkness and immunity to cold, critical hits, and sneak attacks. Your regeneration is suppressed while in any level of illumination brighter than dim light.</Pair>
+<Pair title="Ability">Any spells you cast of the shadow subschool or with the darkness descriptor are automatically <Link to="/feat/enlarged">enlarged</Link> without affecting their spell level.</Pair>
+</Ability>
 </>};
-const _solar = {title: "Solar", jsx: <><h2 id="mystery-solar-solar">Solar</h2>
+const _solar = {hasJL:true,title: "Solar", jsx: <><div className="jumpList" id="mystery-solar-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-solar-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-solar-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-solar-solar">Solar</h2>
 <p><strong>Sources</strong> <Link to="/source/the_harrow_handbook">The Harrow Handbook pg. 26</Link></p>
 <p>Aimless wanderers and restless nomads, oracles of the solar mystery uncover meaning in the ever-changing positions of the sun and the stars in the sky.</p>
 <Block size="minimal">
@@ -1838,22 +2100,91 @@ const _solar = {title: "Solar", jsx: <><h2 id="mystery-solar-solar">Solar</h2>
 <Pair plain title="16th"><Link to="/spell/sunburst">Sunburst</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/prismatic_sphere">Prismatic sphere</Link></Pair>
 </Ability>
-<h3 id="mystery-solar-revelations">Revelations</h3>
+<h3 id="mystery-solar-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Solar mystery can choose from any of the following revelations.</p>
-<p><strong>Astral Caravan (Su):</strong> As a full-round action, you can step into the planar border where the Astral Plane abuts the Material Plane, pulling up to one additional person per class level with you. You can't travel fully into the Astral Plane or any of the other planes it borders, but while using this ability you can cover incredible distances, traversing 50 miles per hour, as per the <Link to="/spell/shadow_walk">shadow walk</Link> spell. You can travel for up to 1 hour per day per oracle level. This duration need not be continuous, but it must be spent in 1-hour increments.</p>
-<p><strong>Blistered Caress (Su):</strong> You can channel the hostile, unforgiving heat of the sun into your touch. This is a melee touch attack that deals 1d8 points of fire damage per 2 oracle levels (Fortitude half). Against a plant creature, this touch heals or damages the creature (your choice) for 1d6 points of fire damage per oracle level. At 7th level, a creature that fails its save against this revelation becomes <Link to="/misc/sickened">sickened</Link> for 1d4 hours in addition to taking fire damage. At 15th level, your touch is so intense that a creature that fails its save is also <Link to="/misc/staggered">staggered</Link> for 1d6 rounds. You can use this ability once per day plus one additional time per day at 10th level.</p>
-<p><strong>Luminous Form (Su):</strong> You can transform your body into churning light, granting you the effects of <Link to="/spell/blur">blur</Link> and causing your body to shed light as a <Link to="/eq-misc/sunrod">sunrod</Link>. At 7th level, creatures that end their turn adjacent to your luminous form become <Link to="/misc/blinded">blinded</Link> for 1 round (Fortitude negates). At 13th level, creatures that end their turn adjacent to your luminous form are blinded for 1d4 rounds (Fortitude reduces to 1 round). At 18th level, your luminescence is as bright as natural sunlight, and creatures affected by natural sunlight are so affected if they end their turn adjacent to your luminous form. You can maintain your luminous form for up to 1 minute per day per oracle level; this duration need not be continuous, but it must be used in 1-minute increments. You can forgo the blur and blinding aspects of this ability to instead simply shed light as a torch, though this still counts against the ability's duration for the day.</p>
-<p><strong>Many Roads (Su):</strong> You gain an insight bonus on Fly and Survival checks equal to 1/2 your oracle level. Further, you learn to speak and read three <Link to="/misc/languages">languages</Link> in addition to those you already know.</p>
-<p><strong>Serpent in the Sun (Su):</strong> So long as you are exposed to at least 4 hours of sunlight per day, you no longer need to eat to survive and you gain +2 bonus on saves against diseases. At 5th level, you become immune to nonmagical diseases and no longer need to drink water to survive. At 10th level, you become immune to magical diseases, gain a +2 bonus on saving throws against poisons, and only need to sleep half as long to rest or recover from fatigue or exhaustion. At 15th level, you become immune to poison and fatigue. You lose these benefits if you fail to spend at least 4 hours in sunlight in a 24-hour period.</p>
-<p><strong>Solar Wind (Su):</strong> You can unleash a blast of searing wind at a single target within 30 feet as a ranged touch attack with no range increment. Your solar wind deals 1d6 points of fire damage + 1 for every 2 oracle levels you possess. At 7th level, you can also knock an opponent back, treating the blast as a <Link to="/rule/bull_rush">bull rush</Link> combat maneuver that uses your caster level + your Charisma modifier in place of your CMB. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>Starlight Agility:</strong> You gain <Link to="/feat/dodge">Dodge</Link> as a bonus feat. At 8th level, you gain <Link to="/feat/wind_stance">Wind Stance</Link> as a bonus feat. At 15th level, you gain <Link to="/feat/lightning_stance">Lightning Stance</Link> as a bonus feat. You do not need to meet the prerequisites to receive these feats.</p>
-<p><strong>Sun Stride:</strong> You can travel between areas of natural sunlight as if by means of a <em>dimension door</em> spell. This ability does not function in areas of less than bright light, though it does work within the area of a <em>daylight</em> spell. At 5th level, you can sun stride up to 40 feet per day; this can be a single stride of 40 feet or four strides of 10 feet each. At 9th level and every 4 levels thereafter, the distance you can sun stride doubles (80 feet at 9th level, 160 feet at 13th level, and 32 feet at 17th level). This amount can be split among many strides, but each one, no matter how small, counts as a 10-foot increment. You must be at least 5th level to select this revelation.</p>
-<p><strong>Sungazer (Sp):</strong> You can study the sun and gaze upon any place its light touches. You can use <Link to="/spell/clairaudience_clairvoyance">clairaudience/clairvoyance</Link> as a spell-like ability, but only for visual observation and you can only place your sensor in places currently being touched by sunlight. At 10th level, you can instead use <Link to="/spell/scrying">scrying</Link> to observe any area touched by sunlight. At 15th level, you can use <Link to="/spell/greater_scrying">greater scrying</Link> instead. You must be at least 5th level to select this revelation. You can sungaze for 1 minute per day per oracle level; the duration need not be continuous, but it must be used in 1-minute increments.</p>
-<p><strong>Torch Touch (Su):</strong> As a move action, you can alter the amount of light shed by any nonmagical light source within 60 feet so that its light radius is either halved or doubled. At 1st level, you can affect light sources up to the size of a torch. At 7th level, you can affect any Medium or smaller nonmagical light source (such as a campfire). At 14th level, you can affect Large or smaller nonmagical light sources (such as bonfires) and magical light sources up to the size of an <Link to="/eq-misc/everburning_torch">everburning torch</Link>. If a creature is holding the light source you are trying to affect, the creature can attempt a Reflex save to avoid the effect.</p>
-<h3 id="mystery-solar-final-revelation">Final Revelation</h3>
-<p>At 20th level, yours becomes a journey without end. You cease aging, no longer suffer <Link to="/rule/age">age-related penalties</Link> to ability scores, and cannot be magically aged. Any spells you cast of the conjuration (teleport) subschool or with the fire or light descriptor are automatically <Link to="/feat/enlarged">enlarged</Link> without affecting their spell level.</p>
+<Ability id="astral-caravan-su" icon={["magic"]}>
+<Pair single id="astral-caravan-su">Astral Caravan (Su)</Pair>
+<Pair title="Usage">1 hour/day per oracle level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="Full-Round Action">You can step into the planar border where the Astral Plane abuts the Material Plane, pulling up to one additional person per class level with you. You can't travel fully into the Astral Plane or any of the other planes it borders, but while using this ability you can cover incredible distances, traversing 50 miles per hour, as per the <Link to="/spell/shadow_walk">shadow walk</Link> spell.</Pair>
+</Ability>
+<Ability id="blistered-caress-su" icon={["touch"]}>
+<Pair single id="blistered-caress-su" flavor="You can channel the hostile, unforgiving heat of the sun into your touch.">Blistered Caress (Su)</Pair>
+<Pair title="Ability">You make a melee touch attack that deals 1d8 points of fire damage per 2 oracle levels (Fortitude half). Against a plant creature, this touch heals or damages the creature (your choice) for 1d6 points of fire damage per oracle level.</Pair>
+<Pair title="At 1st Level">You can use this attack once a day.</Pair>
+<Pair title="At 7th Level">A creature that fails its save against this revelation becomes <Link to="/misc/sickened">sickened</Link> for 1d4 hours in addition to taking fire damage.</Pair>
+<Pair title="At 10th Level">You can use this twice a day.</Pair>
+<Pair title="At 15th Level">Your touch is so intense that a creature that fails its save is also <Link to="/misc/staggered">staggered</Link> for 1d6 rounds.</Pair>
+</Ability>
+<Ability id="luminous-form-su" icon={["def","lower"]}>
+<Pair single id="luminous-form-su">Luminous Form (Su)</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Ability">You can transform your body into churning light, granting you the effects of <Link to="/spell/blur">blur</Link> and causing your body to shed light as a <Link to="/eq-misc/sunrod">sunrod</Link>.</Pair>
+<Pair title="At 7th Level">Creatures that end their turn adjacent to your <em>luminous form</em> become <Link to="/misc/blinded">blinded</Link> for 1 round (Fortitude negates).</Pair>
+<Pair title="At 13th Level">Creatures that end their turn adjacent to your <em>luminous form</em> are blinded for 1d4 rounds (Fortitude reduces to 1 round).</Pair>
+<Pair title="At 18th Level">Your luminescence is as bright as natural sunlight, and creatures affected by natural sunlight are so affected if they end their turn adjacent to your <em>luminous form.</em></Pair>
+<Pair title="Special">You can forgo the <em>blur</em> and blinding aspects of this ability to instead simply shed light as a <Link to="/eq-misc/torch">torch</Link>, though this still counts against the ability's duration for the day.</Pair>
+</Ability>
+<Ability id="many-roads-su" icon={["boost","power"]}>
+<Pair single id="many-roads-su">Many Roads (Su)</Pair>
+<Pair title="Passive Ability">You gain an insight bonus on <Link to="/skill/fly">Fly</Link> and <Link to="/skill/survival">Survival</Link> checks equal to 1/2 your oracle level.</Pair>
+<Pair title="Ability">Further, you learn to speak and read three <Link to="/misc/languages">languages</Link> in addition to those you already know.</Pair>
+</Ability>
+<Ability id="serpent-in-the-sun-su" icon={["aid","def"]}>
+<Pair single id="serpent-in-the-sun-su">Serpent in the Sun (Su)</Pair>
+<Pair title="Passive Ability">So long as you are exposed to at least 4 hours of sunlight per day, you no longer need to eat to survive and you gain +2 bonus on saves against diseases.</Pair>
+<Pair title="At 5th Level">You become immune to nonmagical diseases and no longer need to drink water to survive.</Pair>
+<Pair title="At 10th Level">You become immune to magical diseases, gain a +2 bonus on saving throws against poisons, and only need to sleep half as long to rest or recover from fatigue or exhaustion.</Pair>
+<Pair title="At 15th Level">You become immune to poison and fatigue.</Pair>
+<Pair title="Special">You lose these benefits if you fail to spend at least 4 hours in sunlight in a 24-hour period.</Pair>
+</Ability>
+<Ability id="solar-wind-su" icon={["zap"]}>
+<Pair single id="solar-wind-su">Solar Wind (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">You can unleash a blast of searing wind at a single target within 30 feet as a ranged touch attack with no range increment. Your <em>solar wind</em> deals fire damage equal to 1d6 + <Link to="/misc/half">half</Link> of your oracle level.</Pair>
+<Pair title="At 7th Level">You can also knock an opponent back, treating the blast as a <Link to="/rule/bull_rush">bull rush</Link> combat maneuver that uses your caster level + your Charisma modifier in place of your CMB.</Pair>
+</Ability>
+<Ability id="starlight-agility" icon={["power"]}>
+<Pair single id="starlight-agility">Starlight Agility</Pair>
+<Pair title="Ability">You gain <Link to="/feat/dodge">Dodge</Link> as a bonus feat.</Pair>
+<Pair title="At 8th Level">You gain <Link to="/feat/wind_stance">Wind Stance</Link> as a bonus feat.</Pair>
+<Pair title="At 15th Level">You gain <Link to="/feat/lightning_stance">Lightning Stance</Link> as a bonus feat.</Pair>
+<Pair title="Special">You do not need to meet the prerequisites to receive these feats.</Pair>
+</Ability>
+<Ability id="sun-stride" icon={["magic"]}>
+<Pair single id="sun-stride">Sun Stride</Pair>
+<Pair title="Prerequisites">5th-level oracle</Pair>
+<Pair title="Ability"><p>You can travel between areas of natural sunlight as if by means of a <em>dimension door</em> spell. This ability does not function in areas of less than bright light, though it does work within the area of a <em>daylight</em> spell.</p>
+<p>You can <em>sun stride</em> up to 40 feet per day; this can be a single <em>stride</em> of 40 feet or four strides of 10 feet each.</p>
+</Pair>
+<Pair title="At 9th Level">You can <em>sun stride</em> 80 feet per day.</Pair>
+<Pair title="At 13th Level">You can <em>sun stride</em> 160 feet per day.</Pair>
+<Pair title="At 17th Level">You can <em>sun stride</em> 320 feet per day.</Pair>
+<Pair title="Special">The total distance can be split among many strides, but each one, no matter how small, counts as a 10-foot increment.</Pair>
+</Ability>
+<Ability id="sungazer-sp" icon={["magic"]}>
+<Pair single id="sungazer-sp" flavor="You can study the sun and gaze upon any place its light touches.">Sungazer (Sp)</Pair>
+<Pair title="Prerequisites">5th-level oracle</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Ability">You can use <Link to="/spell/clairaudience_clairvoyance">clairaudience/clairvoyance</Link> as a spell-like ability, but only for visual observation and you can only place your sensor in places currently being touched by sunlight.</Pair>
+<Pair title="At 10th Level">You can instead use <Link to="/spell/scrying">scrying</Link> to observe any area touched by sunlight.</Pair>
+<Pair title="At 15th Level">You can use <Link to="/spell/greater_scrying">greater scrying</Link> instead.</Pair>
+</Ability>
+<Ability id="torch-touch-su" icon={["boost","lower"]}>
+<Pair single id="torch-touch-su">Torch Touch (Su)</Pair>
+<Pair title="Move-Equivalent Action">You can alter the amount of light shed by any nonmagical light source within 60 feet so that its light radius is either halved or doubled.</Pair>
+<Pair title="At 1st Level">You can affect light sources up to the size of a torch.</Pair>
+<Pair title="At 7th Level">You can affect any Medium or smaller nonmagical light source (such as a campfire).</Pair>
+<Pair title="At 14th Level">You can affect Large or smaller nonmagical light sources (such as bonfires) and magical light sources up to the size of an <Link to="/eq-misc/everburning_torch">everburning torch</Link>.</Pair>
+<Pair title="Special">If a creature is holding the light source you are trying to affect, the creature can attempt a Reflex save to avoid the effect.</Pair>
+</Ability>
+<h3 id="mystery-solar-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["def","boost"]}>
+<Pair single id="final-revelation" flavor="Yours becomes a journey without end.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You cease aging, no longer suffer <Link to="/rule/age">age-related penalties</Link> to ability scores, and cannot be magically aged. Any spells you cast of the conjuration (teleport) subschool or with the fire or light descriptor are automatically <Link to="/feat/enlarged">enlarged</Link> without affecting their spell level.</Pair>
+</Ability>
 </>};
-const _spellscar = {title: "Spellscar", jsx: <><h2 id="mystery-spellscar-spellscar">Spellscar</h2>
+const _spellscar = {hasJL:true,title: "Spellscar", jsx: <><div className="jumpList" id="mystery-spellscar-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-spellscar-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-spellscar-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-spellscar-spellscar">Spellscar</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 30</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/zyphus">Zyphus</Link></Cell></Row></Block>
@@ -1872,20 +2203,81 @@ const _spellscar = {title: "Spellscar", jsx: <><h2 id="mystery-spellscar-spellsc
 <Pair plain title="16th"><Link to="/spell/spellscar">Spellscar</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/mages_disjunction">Mage's disjunction</Link></Pair>
 </Ability>
-<h3 id="mystery-spellscar-revelations">Revelations</h3>
+<h3 id="mystery-spellscar-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Spellscar mystery can choose from any of the following revelations.</p>
-<p><strong>Animate Primal Forces (Su):</strong> As a standard action, you can summon a single Small air, earth, fire, or water <Link to="/family/elemental">elemental</Link> to serve you. It remains for a number of rounds equal to your Charisma modifier. At 7th level, you can summon a Medium elemental. At 9th level, you can summon a Large elemental. You can use this ability once per day plus one additional time per day at 10th level. You must be at least 3rd level to select this revelation.</p>
-<p><strong>Eldritch Bolt (Su):</strong> You can damage foes with a bolt of raw magical energy. Make a ranged touch attack against any foe within 30 feet. On a hit, you deal 1d8 points of force damage, +1 point of damage per two oracle levels. At 10th level, the bolt's range increases to 60 feet. You may use this revelation a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>Eldritch Resistance (Su):</strong> You gain resistance 2 to acid, cold, electricity, fire, and sonic. This resistance increases to 5 at 5th level, 10 at 11th level, and 20 at 17th level.</p>
-<p><strong>Eldritch Scar (Su):</strong> Once per day when you damage a creature with a spell you cast, you may, as a swift action, cause your magic to leave an eldritch scar upon that creature. An eldritch scar appears as a normal scar, save that it flickers with faint radiance of a color of your choice. The next time that creature casts a spell, uses a spell-like ability, or activates a magic item, it triggers a <Link to="/rule/primal_magic">primal magic event</Link> of a CR equal to your caster level. This causes the eldritch scar to vanish. A creature can be marked by only one eldritch scar at a time (a more powerful one replaces a weaker one). An eldritch scar fades automatically after 24 hours. It can be removed before that point via any effect capable of removing a <Link to="/rule/curses">curse</Link> (the curse's level equals your caster level), but if an attempt to remove an eldritch scar fails, that attempt triggers a primal magic event - an event triggered this way does not cause the eldritch scar to fade. You must be at least 7th level to select this revelation.</p>
-<p><strong>Magic Penetration (Ex):</strong> You gain a +2 bonus on any caster level check made to dispel or remove a magic effect (such as when using the <em>dispel magic</em> or <Link to="/spell/remove_curse">remove curse</Link> spell). If you are 9th level or higher, the bonus increases to +4.</p>
-<p><strong>Mystic Null (Ex):</strong> You gain a +2 insight bonus on saves against spells and spell-like abilities. At 7th level, this bonus also applies on saves against supernatural abilities. At 11th level, the bonus increases to +4.</p>
-<p><strong>Primal Manipulation (Su):</strong> Whenever you cast a spell that deals acid, cold, electricity, or fire damage, you may change it to deal one of the other listed damage types. You may use this ability once per day, plus one additional time for every 5 levels. At 15th level, you can change a spell to deal sonic damage, though the damage is halved. At 20th level, you can change a spell to deal force damage, though the damage is halved. You must be at least 7th level to select this revelation.</p>
-<p><strong>Primal Mastery (Su):</strong> Whenever a spell you cast triggers a primal magic event, or whenever you use a rod of wonder, roll d% twice when generating the result. You may pick which of the two results actually occurs. You gain a +2 bonus on all saving throws made to resist primal magic events or magical effects caused by a rod of wonder.</p>
-<p><strong>Trigger Primal Magic Event (Su):</strong> Once per day as an immediate action, you can cause a spellcaster (including yourself) within 30 feet to trigger a primal magic event as the spell is being cast. At 13th level, you can cause any creature in the act of activating a magic item to trigger a primal magic event. At 17th level, you can use this ability twice per day. A spellcaster can make a <Link to="/rule/concentration">concentration</Link> check (DC = 15 + twice the spell's level) to focus the magic and avoid triggering a primal magic effect, but non-spellcasters activating magic items have no such option. You must be at least 9th level before selecting this revelation.</p>
-<p><strong>Spell Resistance (Ex):</strong> You gain SR equal to your oracle level + 5. You must be at least 11th level before selecting this revelation.</p>
-<h3 id="mystery-spellscar-final-revelation">Final Revelation</h3>
-<p>At 20th level, you become a master of primal magic. Whenever you cast a spell, you can choose to trigger a primal magic event in addition to casting the spell itself - you can use this ability once per minute. If your spellcasting causes a primal magic event to occur, your spell effect is not replaced by the primal magic event - it takes place normally, along with the event itself.</p>
+<Ability id="animate-primal-forces-su" icon={["magic"]}>
+<Pair single id="animate-primal-forces-su">Animate Primal Forces (Su)</Pair>
+<Pair title="Prerequisites">3rd-level oracle</Pair>
+<Pair title="Standard Action">Once per day, you can summon a single Small air, earth, fire, or water <Link to="/family/elemental">elemental</Link> to serve you. It remains for a number of rounds equal to your Charisma modifier.</Pair>
+<Pair title="At 7th Level">You can summon a Medium elemental.</Pair>
+<Pair title="At 9th Level">You can summon a Large elemental.</Pair>
+<Pair title="At 10th Level">You can summon an elemental twice per day.</Pair>
+</Ability>
+<Ability id="eldritch-bolt-su" icon={["zap"]}>
+<Pair single id="eldritch-bolt-su" flavor="You can damage foes with a bolt of raw magical energy.">Eldritch Bolt (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">You make a ranged touch attack against any foe within 30 feet. On a hit, you deal force damage equal to 1d8 + <Link to="/misc/half">half</Link> of your oracle level.</Pair>
+<Pair title="At 10th Level">The bolt's range increases to 60 feet.</Pair>
+</Ability>
+<Ability id="eldritch-resistance-su" icon={["def"]}>
+<Pair single id="eldritch-resistance-su">Eldritch Resistance (Su)</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/resistance">resistance</Link> 2 to acid, cold, electricity, fire, and sonic.</Pair>
+<Pair title="At 5th Level">This resistance increases to 5.</Pair>
+<Pair title="At 11th Level">The resistance becomes 10.</Pair>
+<Pair title="At 17th Level">The resistance increases to 20.</Pair>
+</Ability>
+<Ability id="eldritch-scar-su" icon={["lower"]}>
+<Pair single id="eldritch-scar-su">Eldritch Scar (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Swift Action"><p>Once per day when you damage a creature with a spell you cast, you may cause your magic to leave an <em>eldritch scar</em> upon that creature. An <em>eldritch scar</em> appears as a normal scar, save that it flickers with faint radiance of a color of your choice.</p>
+<p>The next time that creature casts a spell, uses a spell-like ability, or activates a magic item, it triggers a <Link to="/rule/primal_magic">primal magic event</Link> of a CR equal to your caster level. This causes the <em>eldritch scar</em> to vanish.</p>
+</Pair>
+<Pair title="Special">A creature can be marked by only one <em>eldritch scar</em> at a time (a more powerful one replaces a weaker one). An <em>eldritch scar</em> fades automatically after 24 hours. It can be removed before that point via any effect capable of removing a <Link to="/rule/curses">curse</Link> (the curse's level equals your caster level), but if an attempt to remove an <em>eldritch scar</em> fails, that attempt triggers a primal magic event - an event triggered this way does not cause the <em>eldritch scar</em> to fade.</Pair>
+</Ability>
+<Ability id="magic-penetration-ex" icon={["boost"]}>
+<Pair single id="magic-penetration-ex">Magic Penetration (Ex)</Pair>
+<Pair title="Passive Ability">You gain a +2 bonus on any caster level check made to dispel or remove a magic effect (such as when using the <em>dispel magic</em> or <Link to="/spell/remove_curse">remove curse</Link> spell).</Pair>
+<Pair title="At 9th Level">The bonus increases to +4.</Pair>
+</Ability>
+<Ability id="mystic-null-ex" icon={["def"]}>
+<Pair single id="mystic-null-ex">Mystic Null (Ex)</Pair>
+<Pair title="Passive Ability">You gain a +2 insight bonus on saves against spells and spell-like abilities.</Pair>
+<Pair title="At 7th Level">This bonus also applies on saves against supernatural abilities.</Pair>
+<Pair title="At 11th Level">The bonus increases to +4.</Pair>
+</Ability>
+<Ability id="primal-manipulation-su" icon={["magic"]}>
+<Pair single id="primal-manipulation-su">Primal Manipulation (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">Whenever you cast a spell that deals acid, cold, electricity, or fire damage, you may change it to deal one of the other listed damage types.</Pair>
+<Pair title="At 15th Level">You can change a spell to deal sonic damage, though the damage is halved.</Pair>
+<Pair title="At 20th Level">You can change a spell to deal force damage, though the damage is halved.</Pair>
+</Ability>
+<Ability id="primal-mastery-su" icon={["magic","def"]}>
+<Pair single id="primal-mastery-su">Primal Mastery (Su)</Pair>
+<Pair title="Ability">Whenever a spell you cast triggers a primal magic event, or whenever you use a <Link to="/magic-rod/rod_of_wonder">rod of wonder</Link>, roll d% twice when generating the result. You may pick which of the two results actually occurs.</Pair>
+<Pair title="Passive Ability">You gain a +2 bonus on all saving throws made to resist primal magic events or magical effects caused by a rod of wonder.</Pair>
+</Ability>
+<Ability id="trigger-primal-magic-event-su" icon={["magic"]}>
+<Pair single id="trigger-primal-magic-event-su">Trigger Primal Magic Event (Su)</Pair>
+<Pair title="Prerequisites">9th-level oracle</Pair>
+<Pair title="Immediate Action">Once per day, you can cause a spellcaster (including yourself) within 30 feet to trigger a primal magic event as the spell is being cast.</Pair>
+<Pair title="At 13th Level">You can cause any creature in the act of activating a magic item to trigger a primal magic event.</Pair>
+<Pair title="At 17th Level">You can use this ability twice per day.</Pair>
+<Pair title="Special">A spellcaster can make a <Link to="/rule/concentration">concentration</Link> check (DC = 15 + twice the spell's level) to focus the magic and avoid triggering a primal magic effect, but non-spellcasters activating magic items have no such option.</Pair>
+</Ability>
+<Ability id="spell-resistance-ex" icon={["def"]}>
+<Pair single id="spell-resistance-ex">Spell Resistance (Ex)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Passive Ability">You gain SR equal to your oracle level + 5.</Pair>
+</Ability>
+<h3 id="mystery-spellscar-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["magic"]}>
+<Pair single id="final-revelation" flavor="You become a master of primal magic.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">Whenever you cast a spell, you can choose to trigger a primal magic event in addition to casting the spell itself - you can use this ability once per minute.</Pair>
+<Pair title="Ability">If your spellcasting causes a primal magic event to occur, your spell effect is not replaced by the primal magic event - it takes place normally, along with the event itself.</Pair>
+</Ability>
 </>};
 const _stone = {title: "Stone", jsx: <><h2 id="mystery-stone-stone">Stone</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 51</Link></p>
