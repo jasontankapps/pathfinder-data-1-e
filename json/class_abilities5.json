@@ -622,6 +622,7 @@
 	},
 	"oaths": {
 		"name": "Paladin Oaths",
+		"tags": "oathbound paladin",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"‹SOURCE Ultimate Magic/60›  ",
@@ -648,15 +649,15 @@
 			"| @ripple[oath/Oath against »Chaos] | Detect Evil, Smite Evil, Channel Positive Energy | These paladins dedicate themselves to the rule of law above all other things. |",
 			"| @ripple[oath/Oath against »Corruption] | Aura of Courage, Aura of Justice, Holy Champion | When a paladin takes this oath, she becomes a hunter of aberrations, protecting the common people from these bizarre threats. |",
 			"| @ripple[oath/Oath against »Fiends] | Aura of Resolve, 9th-level Mercy | A paladin who takes an oath against demons, devils, daemons, and other evil outsiders is constantly on the lookout for malicious fiendish insurgence into the world, and faces it with swift and unwavering defiance. |",
+			"| @ripple[oath/Oath of »the Mendevian Crusade] | Aura of Resolve, Divine Bond, 9th-level Mercy | A variation of the *Oath against Fiends* dedicated to closing the Worldwound |",
 			"| @ripple[oath/Oath against »Grotesquery] | Divine Health, Aura of Faith | For champions of Shelyn, who are aware that aesthetics is subjective, beauty is the form inviolate. |",
 			"| @ripple[oath/Oath against »Savagery] | Divine Grace, Aura of Justice | Some paladins are champions of order, pledging to battle the hordes of goblinoids, orcs, hostile barbarians, and similar savages that nip at the heels of civilization, as well as those who gnaw on society from within, such as thieves' and assassins' guilds. |",
-			"| @ripple[oath/Oath against »the Whispering Way] | Detect Evil, 3rd-level Mercy, 9th-level Mercy, Aura of Resolve, Aura of Justice | A variation of the Oath against undead geared towards fighting the ‹rule/Whispering Way› |",
 			"| @ripple[oath/Oath against »the Wyrm] | Channel Positive Energy, Divine Bond, Holy Champion | Some paladins swear to protect others against the predation of dragonkind. |",
 			"| @ripple[oath/Oath against »Undeath] | Detect Evil, 3rd-level Mercy, 9th-level Mercy, Aura of Resolve, Aura of Justice | A paladin with this oath vows to restore the natural state of death to any animate corpse she encounters, and destroy the undead energy in the process. |",
+			"| @ripple[oath/Oath against »the Whispering Way] | Detect Evil, 3rd-level Mercy, 9th-level Mercy, Aura of Resolve, Aura of Justice | A variation of the *Oath against Undeath* geared towards fighting the ‹rule/Whispering Way› |",
 			"| @ripple[oath/Oath of »Charity] | Lay on Hands, Divine Bond | Those who take this oath dedicate their lives to protecting those who can't protect themselves and giving to those who are in need. |",
 			"| @ripple[oath/Oath of »Chastity] | Divine Grace, Aura of Resolve | A chaste paladin proves her purity by way of her action and her abstinence from romantic activities. |",
 			"| @ripple[oath/Oath of »Loyalty] | Smite Evil | To most paladins, their word is everything. When they say something, it will be done. Those who take this oath put that ideal to the test every day. |",
-			"| @ripple[oath/Oath of »the Mendevian Crusade] | Aura of Resolve, Divine Bond, 9th-level Mercy | A variation of the Oath against Fiends dedicated to closing the Worldwound |",
 			"| @ripple[oath/Oath of »the People's Council] | Class Skills, Smite Evil, Aura of Justice, Holy Champion | Paladins swearing the oath of the People's Council serve the common good by finding and thwarting those who abuse their authority. |",
 			"| @ripple[oath/Oath of »the Skyseeker] | Smite Evil, Divine Bond, Aura of Justice, Aura of Faith | Paladins with the oath of the skyseeker swear to defend the Sky Citadels their people retain and to help reclaim those the dwarves have lost, hoping to one day rebuild them on the greatest, most honorable ideals of the dwarven gods. |",
 			"| @ripple[oath/Oath of »Vengeance] | Channel Positive Energy, Aura of Justice | These oathbound paladins are always on the hunt for those who have perpetrated evil, and are the instrument of Heaven's most definitive and implacable judgment. |"

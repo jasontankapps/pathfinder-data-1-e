@@ -2339,6 +2339,11 @@ const _oaths = {title: "Paladin Oaths", topLink: ["Paladin","class/paladin"], js
 <td>A paladin who takes an oath against demons, devils, daemons, and other evil outsiders is constantly on the lookout for malicious fiendish insurgence into the world, and faces it with swift and unwavering defiance.</td>
 </tr>
 <tr>
+<td className="ion-activatable"><Link to="/oath/the_mendevian_crusade">Oath of the Mendevian Crusade<IonRippleEffect /></Link></td>
+<td>Aura of Resolve, Divine Bond, 9th-level Mercy</td>
+<td>A variation of the <em>Oath against Fiends</em> dedicated to closing the Worldwound</td>
+</tr>
+<tr>
 <td className="ion-activatable"><Link to="/oath/grotesquery">Oath against Grotesquery<IonRippleEffect /></Link></td>
 <td>Divine Health, Aura of Faith</td>
 <td>For champions of Shelyn, who are aware that aesthetics is subjective, beauty is the form inviolate.</td>
@@ -2349,11 +2354,6 @@ const _oaths = {title: "Paladin Oaths", topLink: ["Paladin","class/paladin"], js
 <td>Some paladins are champions of order, pledging to battle the hordes of goblinoids, orcs, hostile barbarians, and similar savages that nip at the heels of civilization, as well as those who gnaw on society from within, such as thieves' and assassins' guilds.</td>
 </tr>
 <tr>
-<td className="ion-activatable"><Link to="/oath/the_whispering_way">Oath against the Whispering Way<IonRippleEffect /></Link></td>
-<td>Detect Evil, 3rd-level Mercy, 9th-level Mercy, Aura of Resolve, Aura of Justice</td>
-<td>A variation of the Oath against undead geared towards fighting the <Link to="/rule/whispering_way">Whispering Way</Link></td>
-</tr>
-<tr>
 <td className="ion-activatable"><Link to="/oath/the_wyrm">Oath against the Wyrm<IonRippleEffect /></Link></td>
 <td>Channel Positive Energy, Divine Bond, Holy Champion</td>
 <td>Some paladins swear to protect others against the predation of dragonkind.</td>
@@ -2362,6 +2362,11 @@ const _oaths = {title: "Paladin Oaths", topLink: ["Paladin","class/paladin"], js
 <td className="ion-activatable"><Link to="/oath/undeath">Oath against Undeath<IonRippleEffect /></Link></td>
 <td>Detect Evil, 3rd-level Mercy, 9th-level Mercy, Aura of Resolve, Aura of Justice</td>
 <td>A paladin with this oath vows to restore the natural state of death to any animate corpse she encounters, and destroy the undead energy in the process.</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/oath/the_whispering_way">Oath against the Whispering Way<IonRippleEffect /></Link></td>
+<td>Detect Evil, 3rd-level Mercy, 9th-level Mercy, Aura of Resolve, Aura of Justice</td>
+<td>A variation of the <em>Oath against Undeath</em> geared towards fighting the <Link to="/rule/whispering_way">Whispering Way</Link></td>
 </tr>
 <tr>
 <td className="ion-activatable"><Link to="/oath/charity">Oath of Charity<IonRippleEffect /></Link></td>
@@ -2377,11 +2382,6 @@ const _oaths = {title: "Paladin Oaths", topLink: ["Paladin","class/paladin"], js
 <td className="ion-activatable"><Link to="/oath/loyalty">Oath of Loyalty<IonRippleEffect /></Link></td>
 <td>Smite Evil</td>
 <td>To most paladins, their word is everything. When they say something, it will be done. Those who take this oath put that ideal to the test every day.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/oath/the_mendevian_crusade">Oath of the Mendevian Crusade<IonRippleEffect /></Link></td>
-<td>Aura of Resolve, Divine Bond, 9th-level Mercy</td>
-<td>A variation of the Oath against Fiends dedicated to closing the Worldwound</td>
 </tr>
 <tr>
 <td className="ion-activatable"><Link to="/oath/the_peoples_council">Oath of the People's Council<IonRippleEffect /></Link></td>
