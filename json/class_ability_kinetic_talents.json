@@ -171,7 +171,7 @@
 		"description": [
 			"## Autumn Blast (Sp)",
 			"",
-			"::kinetics{el=\"earth, wood\" type=\"composite blast (Sp)\" l=0 burn=2 prereq=\"‹kinetic/earth blast›, ‹kinetic/wood blast›\" btype=physical dmg=\"any two of bludgeoning, piercing, and slashing (half each)\" source=\"Ultimate Wilderness/58~;Occult Origins/8\"}",
+			"::kinetics{el=\"earth, wood\" type=\"composite blast (Sp)\" l=0 burn=2 prereq=\"‹kinetic/earth blast›, ‹kinetic/wood blast›\" btype=physical dmg=\"any two of bludgeoning, piercing, and slashing (half each)\" source=\"Ultimate Wilderness/58~Occult Origins/8\"}",
 			"",
 			"A burst of fallen leaves and earthy decay batters a single foe."
 		]

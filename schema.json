@@ -234,7 +234,8 @@
 				"stare",
 				"mercy",
 				"ragepower",
-				"performance"
+				"performance",
+				"oraclecurse"
 			]
 		},
 		"uniqueArray": {
@@ -428,7 +429,8 @@
 							"unevaluatedItems": false
 						},
 						"unevaluatedItems": false
-					}
+					},
+					"classes": { "type": "string" }
 				},
 				"required": [ "id", "columns", "data", "initialColumn" ],
 				"unevaluatedProperties": false

@@ -114,6 +114,8 @@ export interface Table {
 	nullValue?: string
 	// some tables have additional filters (usually spell levels or CR)
 	filter?: Filter[]
+	// some tables have additional classes
+	classes?: string
 }
 
 export interface DisplayItemProps {

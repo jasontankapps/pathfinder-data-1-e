@@ -475,7 +475,7 @@ const _vengeance = {title: "Oath of Vengeance", jsx: <><h2 id="oath-vengeance-oa
 <Pair title="Ability">An oathbound paladin may spends one use of her <em>smite evil</em> ability to grant her allies within 10 feet the ability to <em>smite evil,</em> except they only gain the paladin's bonus to damage, not her <em>smite's</em> attack bonus or ability to bypass DR.</Pair>
 </Ability>
 <Block size="simple" hl>
-<Row><Cell>Code of Conduct</Cell><Cell>Never let lesser eveils distract you from your pursuit of just vengeance.</Cell></Row></Block>
+<Row><Cell>Code of Conduct</Cell><Cell>Never let lesser evils distract you from your pursuit of just vengeance.</Cell></Row></Block>
 <Ability id="oath-spells" icon={["learn"]}>
 <Pair single id="oath-spells">Oath Spells</Pair>
 <Pair plain title="1st"><Link to="/spell/wrath">Wrath</Link></Pair>

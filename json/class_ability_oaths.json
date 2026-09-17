@@ -345,7 +345,7 @@
 			"::ab[Powerful Justice (Su)]{l=11 icon=boost ability=\"An oathbound paladin may spends one use of her *smite evil* ability to grant her allies within 10 feet the ability to *smite evil,* except they only gain the paladin's bonus to damage, not her *smite's* attack bonus or ability to bypass DR.\" replace=\"Aura of justice\"}",
 			"",
 			":::block{size=simple hl}",
-			"::row[Code of Conduct]{info=\"Never let lesser eveils distract you from your pursuit of just vengeance.\"}",
+			"::row[Code of Conduct]{info=\"Never let lesser evils distract you from your pursuit of just vengeance.\"}",
 			":::",
 			"",
 			"::ab[Oath Spells]{icon=learn s1=Wrath s2=Confess s3=\"Blessing of fervor\" s4=\"Order's wrath\"}"

@@ -896,7 +896,8 @@
 					[ [ "Void Blast (Sp)", "void_blast" ], "primary element (void), expanded element (void)", "void", 2, "physical", "half bludgeoning, half negative energy" ],
 					[ [ "Winter Blast (Sp)", "winter_blast" ], "‹kinetic/cold blast›, ‹kinetic/wood blast›", "water, wood", 2, "physical", "half cold and half bludgeoning, piercing, or slashing" ]
 				],
-				"initialColumn": 0
+				"initialColumn": 0,
+				"classes": "pOk"
 			}
 		],
 		"topLink": [ "Kineticist", "class/kineticist" ]
@@ -904,56 +905,21 @@
 	"oracle_curses": {
 		"name": "Oracle Curses",
 		"sources": [ "Advanced Player's Guide" ],
-		"description": [
-			"## Oracle Curses",
-			"",
-			"‹SOURCE Advanced Player's Guide/43›  ",
-			"Each oracle is cursed, but this curse comes with a benefit as well as a hindrance. This choice is made at 1st level, and once made, it cannot be changed. The oracle's curse cannot be removed or dispelled without the aid of a deity. An oracle's curse is based on her oracle level plus one for every two levels or Hit Dice other than oracle. Each oracle must choose one of the following curses.",
-			"",
-			"| Curse | Description |",
-			"| --- | --- |",
-			"| @ripple[oraclecurse/Aboleth] | Your mind is marked by aboleth tampering, either as a result of a close encounter with one of these creatures while you were a child, or even through an ancestor, close family member, or one of your sisters or brothers in faith - this associate's interaction with the aboleths may be all that it takes to infect you. |",
-			"| @ripple[oraclecurse/Acursed] | You are cursed with misfortune and sorrow, and you cannot gain benefit from morale bonuses. |",
-			"| @ripple[oraclecurse/Blackened] | Your hands and forearms are shriveled and blackened, as if you had plunged your arms into a blazing fire, and your thin, papery skin is sensitive to the touch. |",
-			"| @ripple[oraclecurse/Clouded Vision] | Your eyes are obscured, making it difficult for you to see. |",
-			"| @ripple[oraclecurse/Cold-Blooded] | Your blood turns sluggish without sufficient heat, and you must seek warmth and shelter earlier than most. |",
-			"| @ripple[oraclecurse/Consumed] | Your connection to Abaddon and the daemons that call it home has left you diminished but still able to scorn many mortal frailties. |",
-			"| @ripple[oraclecurse/Covetous] | You find yourself drawn to the luster of wealthy living. |",
-			"| @ripple[oraclecurse/Deaf] | You cannot hear and suffer all of the usual penalties for being deafened. |",
-			"| @ripple[oraclecurse/Deep One] | The lure of the ocean tugs at your soul. |",
-			"| @ripple[oraclecurse/Demonic] | Your heart is cursed with the pull of the Abyss. |",
-			"| @ripple[oraclecurse/Elemental Imbalance] | You wield an element's might, but you are vulnerable to its opposite. |",
-			"| @ripple[oraclecurse/Ghoul] | While your actual dietary needs don't change, you crave the flesh of sentient creatures. |",
-			"| @ripple[oraclecurse/God-Meddled] | Iblydos's hero-gods' interference in your life has left you with strange, unpredictable powers dependent on divine whim. |",
-			"| @ripple[oraclecurse/Haunted] | Malevolent spirits follow you wherever you go, causing minor mishaps and strange occurrences (such as unexpected breezes, small objects moving on their own, and faint noises). |",
-			"| @ripple[oraclecurse/Hellbound] | Infernal influence grants you profane insight and weighs on your soul. |",
-			"| @ripple[oraclecurse/Hive] | You were exposed at a young age (perhaps even before you were born) to the alien species known as the hive, but this exposure did not result in a full-blown infestation by these otherworldly monsters. |",
-			"| @ripple[oraclecurse/Hunger] | Ravenous hunger wracks your body in stressful situations. |",
-			"| @ripple[oraclecurse/Infested] | Insects, spiders, grubs, and other vermin plague you constantly. |",
-			"| @ripple[oraclecurse/Lame] | One of your legs is permanently wounded. |",
-			"| @ripple[oraclecurse/Legalistic] | The shackles of Hell impose savage consequences should you violate a covenant, but also imbue you with remarkable guile. |",
-			"| @ripple[oraclecurse/Lich] | You have (unknowingly) fulfilled most (but not all) of the ritualistic components to achieve lichdom. |",
-			"| @ripple[oraclecurse/Lycanthropy] | You suffer from a minor form of lycanthropy. |",
-			"| @ripple[oraclecurse/Plagued] | You suffer from minor ailments and sicknesses. |",
-			"| @ripple[oraclecurse/Possessed] | Another mind shares your body, interfering with your control, and it's more difficult for you to concentrate as a result. |",
-			"| @ripple[oraclecurse/Powerless Prophecy] | You are forewarned of danger but can't act to prevent it. |",
-			"| @ripple[oraclecurse/Pranked] | Capricious fey constantly bedevil you. |",
-			"| @ripple[oraclecurse/Promethean] | Your body is falling apart, forcing you to rely on mechanical augmentations or replacements to keep yourself alive. |",
-			"| @ripple[oraclecurse/Putrid] | Your presence stagnates water and befouls all liquids carried on your person, including magical items such as potions, and unattended sources of still water within 10 feet. |",
-			"| @ripple[oraclecurse/Reclusive] | You are reclusive and paranoid to the point that your allies cannot easily help you in times of stress or unease. |",
-			"| @ripple[oraclecurse/Scourge] | You are a blight on the natural world. |",
-			"| @ripple[oraclecurse/Shadowbound] | Your pigmentation is oddly colorless, and your eyes are highly sensitive to light. |",
-			"| @ripple[oraclecurse/Shattered Psyche] | Your mind is crowded with dozens of voices, fragmented snippets of your past lives. |",
-			"| @ripple[oraclecurse/Site-Bound] | You bond with a particular 10-foot square, and must remain within 1,500 feet of that site or immediately become sickened. |",
-			"| @ripple[oraclecurse/Song-Bound] | (Merfolk only) Whenever you speak, you are compelled to sing loudly, and you draw out even short utterances with vocal scales or simple melodies. |",
-			"| @ripple[oraclecurse/Tongues] | In times of stress or unease, you speak in tongues. |",
-			"| @ripple[oraclecurse/Toxic Blood] | Your body is ravaged by a potent, slow-acting poison that resists all treatment. |",
-			"| @ripple[oraclecurse/Vampirism] | You crave the taste of fresh, warm blood. |",
-			"| @ripple[oraclecurse/Wasting] | Your body is slowly rotting away. |",
-			"| @ripple[oraclecurse/Wolfscarred Face] | Your face is deformed, as though you were born with a wolf's muzzle instead of an ordinary nose and jaw. |",
-			"| @ripple[oraclecurse/Wrecker] | The destructive power of the Abyss and its teeming hordes of demons seeps from your very pores and into your belongings and surroundings. |",
-			"| @ripple[oraclecurse/Wrecking Mysticism] | (Kitsune only) A divine entity has blessed you with a source of eldritch power that erodes your fortitude. |"
-		],
+		"compileFrom": {
+			"source": "oraclecurse",
+			"targets": [
+				[
+					"## Oracle Curses",
+					"",
+					"‹SOURCE Advanced Player's Guide/43›  ",
+					"Each oracle is cursed, but this curse comes with a benefit as well as a hindrance. This choice is made at 1st level, and once made, it cannot be changed. The oracle's curse cannot be removed or dispelled without the aid of a deity. An oracle's curse is based on her oracle level plus one for every two levels or Hit Dice other than oracle. Each oracle must choose one of the following curses.",
+					""
+				],
+				{
+					"limit": "curse"
+				}
+			]
+		},
 		"topLink": [ "Oracle", "class/oracle" ]
 	},
 	"dares": {

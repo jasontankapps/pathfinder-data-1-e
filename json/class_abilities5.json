@@ -1569,7 +1569,8 @@
 					[ [ "Woodland Step (Su)", "woodland_step" ], "wood", 1, 0, null ],
 					[ [ "Woodland Step, Greater (Sp)", "greater_woodland_step" ], "wood", 5, 0, "‹kinetic/woodland step›" ]
 				],
-				"initialColumn": 0
+				"initialColumn": 0,
+				"classes": "pOk"
 			}
 		],
 		"topLink": [ "Kineticist", "class/kineticist" ]

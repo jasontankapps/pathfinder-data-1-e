@@ -59,7 +59,7 @@ const _aetheric_boost = {title: "Aetheric Boost", topLink: ["Composite Blasts","
 <p>At 15th level, you can also infuse a composite blast with aether. To infuse a composite blast in this way, you must accept 1 additional point of burn.</p>
 </>};
 const _autumn_blast = {title: "Autumn Blast", topLink: ["Composite Blasts","ability/composite_kinetic_blasts"], jsx: <><h2 id="kinetic-autumn_blast-autumn-blast-sp">Autumn Blast (Sp)</h2>
-<Kinetic id="-kinetictalent" source={[["Ultimate Wilderness", 58],[";Occult Origins", 8]]} el="earth, wood" type="composite blast (Sp)" l={0} burn={2} prereq={<><Link to="/kinetic/earth_blast">earth blast</Link>, <Link to="/kinetic/wood_blast">wood blast</Link></>} btype="physical" dmg="any two of bludgeoning, piercing, and slashing (half each)" />
+<Kinetic id="-kinetictalent" source={[["Ultimate Wilderness", 58],["Occult Origins", 8]]} el="earth, wood" type="composite blast (Sp)" l={0} burn={2} prereq={<><Link to="/kinetic/earth_blast">earth blast</Link>, <Link to="/kinetic/wood_blast">wood blast</Link></>} btype="physical" dmg="any two of bludgeoning, piercing, and slashing (half each)" />
 <p>A burst of fallen leaves and earthy decay batters a single foe.</p>
 </>};
 const _blizzard_blast = {title: "Blizzard Blast", topLink: ["Composite Blasts","ability/composite_kinetic_blasts"], jsx: <><h2 id="kinetic-blizzard_blast-blizzard-blast-sp">Blizzard Blast (Sp)</h2>

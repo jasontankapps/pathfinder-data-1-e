@@ -974,6 +974,7 @@ const basic_data_groups = {
 	},
 	"class_ability_curses": {
 		data: oraclecurse,
+		datatype: "compileable",
 		searchgroup: 1, // classes
 		link: "oraclecurse",
 		num: 0,

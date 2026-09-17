@@ -193,6 +193,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		data,
 		nullValue = "&mdash;",
 		filter,
+		classes
 	} = table;
 	const defaultSortOrder = getDefaultSortOrder(table);
 	const {
@@ -313,7 +314,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		<div className="displayTable">
 			{theFilterStuff}
 			<ScrollContainer id={cId}>
-				<div className="tabular" key={`table/${cId}`} style={tableGridStyle}>
+				<div className={"tabular" + (classes ? " " + classes : "")} key={`table/${cId}`} style={tableGridStyle}>
 					<div className="row">{
 						filteredColumns.map((pair) => {
 							const [col, i] = pair;
