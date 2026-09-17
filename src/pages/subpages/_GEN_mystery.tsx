@@ -618,7 +618,7 @@ const _dragon = {hasJL:true,title: "Dragon", jsx: <><div className="jumpList" id
 </Ability>
 <Ability id="draconic-resistance-ex" icon={["def"]}>
 <Pair single id="draconic-resistance-ex" flavor="Like the great dragons, you are not easily harmed by common means of attack.">Draconic Resistance (Ex)</Pair>
-<Pair title="Passive Ability">You gain resistance 5 against your chosen energy type and a +1 natural armor bonus.</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/resistance">resistance</Link> 5 against your chosen energy type and a +1 natural armor bonus.</Pair>
 <Pair title="At 9th Level">Your energy resistance increases to 10 and your natural armor bonus increases to +2.</Pair>
 <Pair title="At 15th Level">Your energy resistance increases to 20 and your natural armor bonus increases to +4</Pair>
 </Ability>
@@ -857,7 +857,7 @@ const _flame = {hasJL:true,title: "Flame", jsx: <><div className="jumpList" id="
 <Ability id="heat-aura-su" icon={["aura","def"]}>
 <Pair single id="heat-aura-su">Heat Aura (Su)</Pair>
 <Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
-<Pair title="Swift Action">You can cause waves of heat to radiate from your body. This heat deals 1d4 points of fire damage per two oracle levels (minimum 1d4) to all creatures within 10 feet. A Reflex save halves the damage. In addition, your form wavers and blurs, granting you 20% <Link to="/rule/concealment">concealment</Link> until your next turn. You can use this ability once per day, plus one additional time per day at 5th level and every five levels thereafter.</Pair>
+<Pair title="Swift Action">You can cause waves of heat to radiate from your body. This heat deals 1d4 points of fire damage per two oracle levels (minimum 1d4) to all creatures within 10 feet. A Reflex save halves the damage. In addition, your form wavers and blurs, granting you 20% <Link to="/rule/concealment">concealment</Link> until your next turn.</Pair>
 </Ability>
 <Ability id="molten-skin-ex" icon={["def"]}>
 <Pair single id="molten-skin-ex">Molten Skin (Ex)</Pair>
@@ -2279,7 +2279,7 @@ const _spellscar = {hasJL:true,title: "Spellscar", jsx: <><div className="jumpLi
 <Pair title="Ability">If your spellcasting causes a primal magic event to occur, your spell effect is not replaced by the primal magic event - it takes place normally, along with the event itself.</Pair>
 </Ability>
 </>};
-const _stone = {title: "Stone", jsx: <><h2 id="mystery-stone-stone">Stone</h2>
+const _stone = {hasJL:true,title: "Stone", jsx: <><div className="jumpList" id="mystery-stone-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-stone-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-stone-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-stone-stone">Stone</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 51</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/torag">Torag</Link>.</Cell></Row></Block>
@@ -2298,22 +2298,82 @@ const _stone = {title: "Stone", jsx: <><h2 id="mystery-stone-stone">Stone</h2>
 <Pair plain title="16th"><Link to="/spell/repel_metal_or_stone">Repel metal or stone</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/clashing_rocks">Clashing rocks</Link></Pair>
 </Ability>
-<h3 id="mystery-stone-revelations">Revelations</h3>
+<h3 id="mystery-stone-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Stone mystery can choose from any of the following revelations.</p>
-<p><strong>Acid Skin (Ex):</strong> You gain resist acid 5. This resistance increases to 10 at 5th level and 20 at 11th level. At 17th level, you gain immunity to acid.</p>
-<p><strong>Clobbering Strike (Ex):</strong> Whenever you score a critical hit against an opponent with a spell that requires an attack roll, you may immediately attempt to trip your opponent as a swift action. You do not provoke an attack of opportunity as normal for this trip attempt. You cannot be tripped in return when using this ability.</p>
-<p><strong>Crystal Sight (Ex):</strong> You can see through stone, earth, or sand as easily as if it were transparent crystal. Your gaze can penetrate a number of feet equal to your oracle level, or 1/12th this thickness of metal. You can use this ability a number of rounds per day equal to your oracle level, but these rounds do not need to be consecutive.</p>
-<p><strong>Earth Glide (Su):</strong> You can pass through stone, dirt, or almost any other sort of earth except worked stone and metal as easily as a fish swims through water. If protected against fire damage, you can even glide through lava. You glide at your base land speed. While gliding, you breathe stone as if it were air (you do not need to hold your breath). Your burrowing leaves behind no tunnel or hole, nor does it create any ripple or sign of your presence. A <Link to="/spell/move_earth">move earth</Link> spell cast on an area where you are flings you back 30 feet, stunning you for 1 round unless you succeed on a DC 15 Fortitude save. Activating this ability is a free action. You can glide for 1 minute per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. You must be at least 7th level to select this revelation. You can bring other creatures with you when you glide, but each passenger costs an additional minute per minute of travel.</p>
-<p><strong>Mighty Pebble (Su):</strong> As a standard action, you can charge and throw a pebble (or other stone of similar size) that detonates when it strikes a target as a ranged attack. The pebble has a range increment of 20 feet and has a +1 enhancement bonus to attack and damage for every four oracle levels you possess. Any creature struck by the pebble takes 1d6 points of bludgeoning damage per two oracle levels you possess (minimum 1d6). Creatures in squares adjacent to the target take half damage, or no damage if they make a Reflex saving throw. If the attack roll misses, treat the pebble as a <Link to="/rule/throw_splash_weapon">thrown splash weapon</Link> to determine where it lands. You can use this ability once per day, plus one additional time per day at 5th level and every five levels thereafter.</p>
-<p><strong>Rock Throwing (Ex):</strong> You are an accomplished rock thrower and have a +1 racial bonus on attack rolls with thrown rocks. You can hurl rocks up to two categories smaller than your own size. The range increment for a rock is 20 feet, and you can hurl it up to 5 range increments. Damage for a hurled rock is 2d4 for a Medium creature or 2d3 for a Small creature, plus 1-1/2 your Strength bonus.</p>
-<p><strong>Shard Explosion (Su):</strong> As a swift action, you can cause jagged pieces of stone to explode outward from your body. These shards deal 1d6 points of piercing damage per two oracle levels (minimum 1d6) to all creatures within a 10-foot <Link to="/misc/burst">burst</Link>. A Reflex save halves this damage. In addition, the broken shards make the area <Link to="/rule/difficult_terrain">difficult terrain</Link> until your next turn. You can use this ability once per day, plus one additional time per day at 5th level and every five levels thereafter.</p>
-<p><strong>Steelbreaker Skin (Su):</strong> As a standard action, you can harden your flesh so that weapons that strike you are damaged or destroyed. Anytime a melee or ranged weapon strikes you, the weapon takes an amount of damage equal to your oracle level. This ability does not prevent the weapon from harming you unless the damage destroys the weapon attacking you. You can use this ability once per day, but the duration is 1 minute/level. You must be at least 7th level to select this revelation. At 15th level, the damage from this ability ignores up to 10 points of hardness.</p>
-<p><strong>Stone Stability (Ex):</strong> You receive a +4 bonus to your Combat Maneuver Defense when resisting a bull rush or trip attempt while standing on the ground. At 5th level, you gain <Link to="/feat/improved_trip">Improved Trip</Link> as a bonus feat. At 10th level, you gain <Link to="/feat/greater_trip">Greater Trip</Link> as a bonus feat. You do not need to meet the prerequisites to gain these feats.</p>
-<p><strong>Touch of Acid (Su):</strong> As a standard action, you can perform a melee touch attack that deals 1d6 points of acid damage +1 point for every two oracle levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier. At 11th level, any weapon that you wield deals +1d6 points of acid damage, similar to how a flaming weapon operates.</p>
-<h3 id="mystery-stone-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become a master of acid and earth. You can apply any one of the following feats to any acid or earth spell without increasing the level or casting time: <Link to="/feat/enlarge_spell">Enlarge Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link>.</p>
+<Ability id="acid-skin-ex" icon={["def"]}>
+<Pair single id="acid-skin-ex">Acid Skin (Ex)</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/resist">resist</Link> acid 5.</Pair>
+<Pair title="At 5th Level">This resistance increases to 10.</Pair>
+<Pair title="At 11th Level">The resistance becomes 20.</Pair>
+<Pair title="At 17th Level">You gain immunity to acid.</Pair>
+</Ability>
+<Ability id="clobbering-strike-ex" icon={["power"]}>
+<Pair single id="clobbering-strike-ex">Clobbering Strike (Ex)</Pair>
+<Pair title="Swift Action">Whenever you score a critical hit against an opponent with a spell that requires an attack roll, you may immediately attempt to <Link to="/rule/trip">trip</Link> your opponent. You do not provoke an attack of opportunity as normal for this trip attempt. You cannot be tripped in return when using this ability.</Pair>
+</Ability>
+<Ability id="crystal-sight-ex" icon={["power"]}>
+<Pair single id="crystal-sight-ex" flavor="You can see through stone, earth, or sand as easily as if it were transparent crystal.">Crystal Sight (Ex)</Pair>
+<Pair title="Usage">1 round/day per oracle level; these rounds need not be consecutive</Pair>
+<Pair title="Ability">Your gaze can penetrate a number of feet of stone/earth/sand equal to your oracle level, or 1/12th this thickness of metal.</Pair>
+</Ability>
+<Ability id="earth-glide-su" icon={["power"]}>
+<Pair single id="earth-glide-su">Earth Glide (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Ability"><p>You can pass through stone, dirt, or almost any other sort of earth except worked stone and metal as easily as a fish swims through water. If protected against fire damage, you can even glide through lava.</p>
+<p>Activating this ability is a <strong className="hl">free action</strong>. You <em>glide</em> at your base land speed. While <em>gliding,</em> you breathe stone as if it were air (you do not need to hold your breath). Your burrowing leaves behind no tunnel or hole, nor does it create any ripple or sign of your presence.</p>
+</Pair>
+<Pair title="Special"><p>A <Link to="/spell/move_earth">move earth</Link> spell cast on an area where you are flings you back 30 feet, <Link to="/misc/stun">stunning</Link> you for 1 round unless you succeed on a DC 15 Fortitude save.</p>
+<p>You can bring other creatures with you when you <em>glide,</em> but each passenger costs an additional minute per minute of travel.</p>
+</Pair>
+</Ability>
+<Ability id="mighty-pebble-su" icon={["ranged"]}>
+<Pair single id="mighty-pebble-su">Mighty Pebble (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action"><p>You can charge and throw a pebble (or other stone of similar size) that detonates when it strikes a target as a ranged attack. The pebble has a range increment of 20 feet and has an enhancement bonus equal to <Link to="/misc/one_fourth">one-fourth</Link> of your oracle level.</p>
+<p>Any creature struck by the pebble takes 1d6 points of bludgeoning damage per two oracle levels you possess (minimum 1d6). Creatures in squares adjacent to the target take half damage, or no damage if they make a Reflex saving throw.</p>
+</Pair>
+<Pair title="Special">If the attack roll misses, treat the pebble as a <Link to="/rule/throw_splash_weapon">thrown splash weapon</Link> to determine where it lands.</Pair>
+</Ability>
+<Ability id="rock-throwing-ex" icon={["ranged"]}>
+<Pair single id="rock-throwing-ex">Rock Throwing (Ex)</Pair>
+<Pair title="Ability">You are an accomplished rock thrower and have a +1 racial bonus on attack rolls with thrown rocks. You can hurl rocks up to two categories smaller than your own size. The range increment for a rock is 20 feet, and you can hurl it up to 5 range increments. Damage for a hurled rock is 2d4 for a Medium creature or 2d3 for a Small creature, plus 1-1/2 your Strength bonus.</Pair>
+</Ability>
+<Ability id="shard-explosion-su" icon={["aura"]}>
+<Pair single id="shard-explosion-su">Shard Explosion (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Swift Action">You can cause jagged pieces of stone to explode outward from your body. These shards deal 1d6 points of piercing damage per two oracle levels (minimum 1d6) to all creatures within a 10-foot <Link to="/misc/burst">burst</Link>. A Reflex save halves this damage.</Pair>
+<Pair title="Special">In addition, the broken shards make the area <Link to="/rule/difficult_terrain">difficult terrain</Link> until your next turn.</Pair>
+</Ability>
+<Ability id="steelbreaker-skin-su" icon={["def"]}>
+<Pair single id="steelbreaker-skin-su">Steelbreaker Skin (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Standard Action"><p>You can harden your flesh so that weapons that strike you are damaged or destroyed. Anytime a melee or ranged weapon strikes you, the weapon takes an amount of damage equal to your oracle level. This ability does not prevent the weapon from harming you unless the damage destroys the weapon attacking you.</p>
+<p>You can use this ability once per day, but the duration is 1 minute per oracle level.</p>
+</Pair>
+<Pair title="At 15th Level">The damage from this ability ignores up to 10 points of hardness.</Pair>
+</Ability>
+<Ability id="stone-stability-ex" icon={["def","power"]}>
+<Pair single id="stone-stability-ex">Stone Stability (Ex)</Pair>
+<Pair title="Passive Ability">You receive a +4 bonus to your Combat Maneuver Defense when resisting a <Link to="/rule/bull_rush">bull rush</Link> or trip attempt while standing on the ground.</Pair>
+<Pair title="At 5th Level">You gain <Link to="/feat/improved_trip">Improved Trip</Link> as a bonus feat.</Pair>
+<Pair title="At 10th Level">You gain <Link to="/feat/greater_trip">Greater Trip</Link> as a bonus feat.</Pair>
+<Pair title="Special">You do not need to meet the prerequisites to gain these feats.</Pair>
+</Ability>
+<Ability id="touch-of-acid-su" icon={["touch"]}>
+<Pair single id="touch-of-acid-su">Touch of Acid (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can perform a melee touch attack that deals an amount of acid damage equal to 1d6 + <Link to="/misc/half">half</Link> of your oracle level.</Pair>
+<Pair title="At 11th Level">Any weapon that you wield deals +1d6 points of acid damage, similar to how a <Link to="/magic-enh/flaming">flaming</Link> weapon operates.</Pair>
+</Ability>
+<h3 id="mystery-stone-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["power"]}>
+<Pair single id="final-revelation" flavor="You become a master of acid and earth.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">You can apply any one of the following feats to any acid or earth spell without increasing the level or casting time: <Link to="/feat/enlarge_spell">Enlarge Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link>.</Pair>
+</Ability>
 </>};
-const _streets = {title: "Streets", jsx: <><h2 id="mystery-streets-streets">Streets</h2>
+const _streets = {hasJL:true,title: "Streets", jsx: <><div className="jumpList" id="mystery-streets-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-streets-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-streets-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-streets-streets">Streets</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 20</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/cayden_cailean">Cayden Cailean</Link>, <Link to="/faith/milani">Milani</Link>, <Link to="/faith/norgorber">Norgorber</Link>.</Cell></Row></Block>
@@ -2332,21 +2392,66 @@ const _streets = {title: "Streets", jsx: <><h2 id="mystery-streets-streets">Stre
 <Pair plain title="16th"><Link to="/spell/mages_magnificent_mansion">Mage's magnificent mansion</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/clone">Clone</Link></Pair>
 </Ability>
-<h3 id="mystery-streets-revelations">Revelations</h3>
+<h3 id="mystery-streets-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Streets mystery can choose from any of the following revelations.</p>
-<p><strong>The City Provides (Ex):</strong> Once per day as a full-round action when in an urban environment, you can scrounge up any nonmagical item of your choosing with a value of up to 10 gp per oracle level. You cannot obtain coins or trade goods, and the item is too tattered to resell (though fully functional). If you scrounge a new item, any item previously obtained in this way becomes useless.</p>
-<p><strong>Eyes of the Streets (Su):</strong> Once per day as a full-round action, you can summon a spirit rat, pigeon, or similar tiny creature to serve as your eyes on, above, and beneath the streets - this spirit serves as an <Link to="/spell/arcane_eye">arcane eye</Link>. At 10th level, you can summon multiple such spirits; this ability functions as <Link to="/spell/prying_eyes">prying eyes</Link>. At 15th level, this ability functions as <Link to="/spell/greater_prying_eyes">greater prying eyes</Link>.</p>
-<p><strong>Face in the Crowd (Ex):</strong> You gain a +4 bonus on Stealth checks, and can attempt a Stealth check in a crowd even while being observed.</p>
-<p><strong>Keep to the Corners (Su):</strong> Once per day when you fail a Reflex saving throw, you can reroll the saving throw with a +4 insight bonus. You must take the second result, even if it is worse. At 7th level and 15th level, you can use this ability one additional time per day.</p>
-<p><strong>Knife in the Dark (Ex):</strong> As a standard action, you can make a <Link to="/ability/sneak_attack">sneak attack</Link> as if you were a rogue of your oracle level. You can use this ability once per day, plus one additional time per day at 5th level and for every 5 levels thereafter.</p>
-<p><strong>Nooks and Crannies (Ex):</strong> You can move through any sort of <Link to="/rule/difficult_terrain">obstacle or difficult terrain</Link> in an urban environment (including <Link to="/rule/crowds">crowds</Link>) at your normal speed and without taking damage or suffering any other impairment. Areas that are enchanted or magically manipulated to impede motion still affect you.</p>
-<p><strong>Secrets of City (Su):</strong> Once per day when you cast a divination spell affecting creatures or areas in urban environments, you can double the spell's range. At 7th level and 15th level, you can use this ability one additional time per day.</p>
-<p><strong>Shroud of the City (Sp):</strong> You can melt into the streets and alleys. You can cast <Link to="/spell/veil">veil</Link> once per day, but can affect only yourself and one willing ally per oracle level within 30 feet. You can make the targets appear only as typical members of a settlement with which you are familiar, and can't match the appearance of specific creatures. At 7th level and 15th level, you can use this ability one additional time per day.</p>
-<p><strong>The Streets Are Your Friend (Ex):</strong> As long as you are in an urban environment, you can call upon the city to help an ally within 30 feet succeed at a task. The ally gets a +2 competence bonus on skill checks with a particular skill as long as you concentrate. This bonus increases to +3 at 9th level, and to +4 at 15th level.</p>
-<h3 id="mystery-streets-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become an avatar of the city. When you speak the name of a creature and a city out loud, you know whether that creature is in that city. You can also learn about any settlement you are in at will; this functions as <Link to="/spell/commune_with_nature">commune with nature</Link>, operating only in towns and settlements rather than natural terrain.</p>
+<Ability id="the-city-provides-ex" icon={["power"]}>
+<Pair single id="the-city-provides-ex">The City Provides (Ex)</Pair>
+<Pair title="Full-Round Action">Once per day, when in an urban environment, you can scrounge up any nonmagical item of your choosing with a value of up to 10 gp per oracle level. You cannot obtain coins or trade goods, and the item is too tattered to resell (though fully functional).</Pair>
+<Pair title="Special">If you scrounge a new item, any item previously obtained in this way becomes useless.</Pair>
+</Ability>
+<Ability id="eyes-of-the-streets-su" icon={["magic"]}>
+<Pair single id="eyes-of-the-streets-su">Eyes of the Streets (Su)</Pair>
+<Pair title="Full-Round Action">Once per day, you can summon a spirit rat, pigeon, or similar tiny creature to serve as your eyes on, above, and beneath the streets - this spirit serves as an <Link to="/spell/arcane_eye">arcane eye</Link>.</Pair>
+<Pair title="At 10th Level">You can summon multiple such spirits; this ability functions as <Link to="/spell/prying_eyes">prying eyes</Link>.</Pair>
+<Pair title="At 15th Level">This ability functions as <Link to="/spell/greater_prying_eyes">greater prying eyes</Link>.</Pair>
+</Ability>
+<Ability id="face-in-the-crowd-ex" icon={["def","power"]}>
+<Pair single id="face-in-the-crowd-ex">Face in the Crowd (Ex)</Pair>
+<Pair title="Passive Ability">You gain a +4 bonus on <Link to="/skill/stealth">Stealth</Link> checks, and can attempt a Stealth check in a crowd even while being observed.</Pair>
+</Ability>
+<Ability id="keep-to-the-corners-su" icon={["def"]}>
+<Pair single id="keep-to-the-corners-su">Keep to the Corners (Su)</Pair>
+<Pair title="Ability">Once per day when you fail a Reflex saving throw, you can reroll the saving throw with a +4 insight bonus. You must take the second result, even if it is worse.</Pair>
+<Pair title="At 7th Level">You can use this ability twice per day.</Pair>
+<Pair title="At 15th Level">You can do this three times per day.</Pair>
+</Ability>
+<Ability id="knife-in-the-dark-ex" icon={["power"]}>
+<Pair single id="knife-in-the-dark-ex">Knife in the Dark (Ex)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action">You can make a <Link to="/ability/sneak_attack">sneak attack</Link> as if you were a rogue of your oracle level.</Pair>
+</Ability>
+<Ability id="nooks-and-crannies-ex" icon={["boost"]}>
+<Pair single id="nooks-and-crannies-ex">Nooks and Crannies (Ex)</Pair>
+<Pair title="Ability">You can move through any sort of <Link to="/rule/difficult_terrain">obstacle or difficult terrain</Link> in an urban environment (including <Link to="/rule/crowds">crowds</Link>) at your normal speed and without taking damage or suffering any other impairment.</Pair>
+<Pair title="Special">Areas that are enchanted or magically manipulated to impede motion still affect you.</Pair>
+</Ability>
+<Ability id="secrets-of-city-su" icon={["boost"]}>
+<Pair single id="secrets-of-city-su">Secrets of City (Su)</Pair>
+<Pair title="Ability">Once per day when you cast a divination spell affecting creatures or areas in urban environments, you can double the spell's range.</Pair>
+<Pair title="At 7th Level">You can use this ability twice per day.</Pair>
+<Pair title="At 15th Level">You can do this three times per day.</Pair>
+</Ability>
+<Ability id="shroud-of-the-city-sp" icon={["magic","def"]}>
+<Pair single id="shroud-of-the-city-sp" flavor="You can melt into the streets and alleys.">Shroud of the City (Sp)</Pair>
+<Pair title="Ability">You can cast <Link to="/spell/veil">veil</Link> once per day, but can affect only yourself and one willing ally per oracle level within 30 feet. You can make the targets appear only as typical members of a settlement with which you are familiar, and can't match the appearance of specific creatures.</Pair>
+<Pair title="At 7th Level">You can use this ability twice per day.</Pair>
+<Pair title="At 15th Level">You can do this three times per day.</Pair>
+</Ability>
+<Ability id="the-streets-are-your-friend-ex" icon={["boost"]}>
+<Pair single id="the-streets-are-your-friend-ex">The Streets Are Your Friend (Ex)</Pair>
+<Pair title="Ability">As long as you are in an urban environment, you can call upon the city to help an ally within 30 feet succeed at a task. The ally gets a +2 competence bonus on skill checks with a particular skill as long as you concentrate.</Pair>
+<Pair title="At 9th Level">This bonus becomes +3.</Pair>
+<Pair title="At 15th Level">This bonus increases to +4.</Pair>
+</Ability>
+<h3 id="mystery-streets-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["power","magic"]}>
+<Pair single id="final-revelation" flavor="You become an avatar of the city.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">When you speak the name of a creature and a city out loud, you know whether that creature is in that city.</Pair>
+<Pair title="Ability">You can also learn about any settlement you are in at will; this functions as <Link to="/spell/commune_with_nature">commune with nature</Link>, operating only in towns and settlements rather than natural terrain.</Pair>
+</Ability>
 </>};
-const _succor = {title: "Succor", jsx: <><h2 id="mystery-succor-succor">Succor</h2>
+const _succor = {hasJL:true,title: "Succor", jsx: <><div className="jumpList" id="mystery-succor-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-succor-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-succor-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-succor-succor">Succor</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 20</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/milani">Milani</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/qi_zhong">Qi Zhong</Link>, <Link to="/faith/sarenrae">Sarenrae</Link></Cell></Row></Block>
@@ -2365,24 +2470,88 @@ const _succor = {title: "Succor", jsx: <><h2 id="mystery-succor-succor">Succor</
 <Pair plain title="16th"><Link to="/spell/greater_spellcrash">Greater spellcrash</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/wall_of_suppression">Wall of suppression</Link></Pair>
 </Ability>
-<h3 id="mystery-succor-revelations">Revelations</h3>
+<h3 id="mystery-succor-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Succor mystery can choose from any of the following revelations.</p>
-<p><strong>Combat Healer (Su):</strong> As per the <Link to="/mystery/battle">battle</Link> mystery revelation of the same name: Whenever you cast <Link to="/main/cure_spells">a cure spell</Link> (a spell with "cure" in its name), you can cast it as a swift action, as if using the <Link to="/feat/quicken_spell">Quicken Spell</Link> feat, by expending two spell slots. This does not increase the level of the spell. You can use this ability once per day at 7th level and one additional time per day for every four levels beyond 7th. You must be at least 7th level to select this revelation.</p>
-<p><strong>Curse of Dampening (Su):</strong> You diminish one target within 30 feet as a standard action, making its attacks weaker. Whenever the target would roll to deal damage with an attack or spell, it deals the minimum amount of damage. This curse lasts for 1 round per 2 oracle levels you have (minimum 1). A successful Will saving throw negates this effect. This is a mind-affecting curse effect. You can use this revelation once per day, plus one additional time at 11th level and 15th level. You must be at least 7th level before selecting this revelation.</p>
-<p><strong>Enhanced Cures (Su):</strong> As per the <Link to="/mystery/life">life</Link> oracle mystery revelation of the same name: Whenever you cast a cure spell, the maximum number of hit points healed is based on your oracle level, not the limit based on the spell. For example, an 11th-level oracle of succor with this revelation may cast <Link to="/spell/cure_light_wounds">cure light wounds</Link> to heal 1d8+11 hit points instead of the normal 1d8+5 maximum.</p>
-<p><strong>Enhanced Inflictions (Su):</strong> You recognize that harming your enemies is sometimes the only way to help your allies, and so your wrath is particularly fierce. Whenever you cast an inflict spell (a spell with the word "inflict" in the name), the maximum amount of damage dealt by the spell is based on your oracle level, not the limit based on the spell. For example, an 11th-level oracle of succor with this revelation can cast <Link to="/spell/inflict_light_wounds">inflict light wounds</Link> to deal 1d8+11 points of damage instead of the normal 1d8+5 maximum.</p>
-<p><strong>Perfect Aid (Ex):</strong> You can effortlessly give aid to your allies, whether that means providing them with help attacking or defending them in the heat of combat. You gain <Link to="/feat/bodyguard">Bodyguard</Link> as a bonus feat, and whenever you use the <Link to="/rule/aid_another_2">aid another</Link> action to provide a bonus on attack rolls or to AC to one of your allies, the bonus you provide increases by 1. This bonus increases by 1 at 4th level and every 5 oracle levels thereafter (to a maximum of +5 at 19th level). It doesn't stack with other feats or class features that improve the bonus you provide when using the aid another action. This revelation also counts as the <Link to="/feat/combat_expertise">Combat Expertise</Link> feat, but only for the purpose of meeting the prerequisites of the <Link to="/feat/swift_aid">Swift Aid</Link> feat and any feat that lists Swift Aid as a prerequisite.</p>
-<p><strong>Pitiful Foe (Su):</strong> You can temporarily curse one target within 30 feet as a standard action, making it pitiful and ineffective in battle. While this ability is in effect, the target is never considered to be threatening you or your allies, even if it is armed and you or your allies are standing in a square into which it can make a melee attack. If the target rolls a natural 20 on an attack roll or saving throw, the attack or saving throw is not an automatic success (as would be normal) and whether it is successful is instead determined normally. Additionally, the target automatically fails all rolls to confirm critical hits. This curse lasts for 1 round per 2 oracle levels you have (minimum 1). A successful Will saving throw negates this effect. This is a mind-affecting curse effect. You can use this revelation once per day, plus one additional time at 7th and 15th levels.</p>
-<p><strong>Shell of Succor (Su):</strong> You can surround an ally with bolstering energies that supplement its health and grant it extra vigor. With a touch from you (a standard action), one creature gains a ward of restorative energy, granting it a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to your Charisma bonus + 1d6 per 2 oracle levels you have (maximum 10d6). These temporary hit points last 1 minute per oracle level you have.</p>
-<p>The target always loses these temporary hit points first, even before other temporary hit points (including those from, for example, the <Link to="/spell/purify_body">purify body</Link> spell or a kineticist's <Link to="/kinetic/force_ward">force ward</Link> defense wild talent). If an attack deals fewer points of damage than the target has as temporary hit points from shell of succor, it still reduces those temporary hit points but otherwise counts as a miss for the purpose of abilities that trigger on a hit or a miss.</p>
-<p>You can use this revelation once per day, plus one additional time at 11th and 19th levels. You must be at least 3rd level before selecting this revelation.</p>
-<p><strong>Soul Siphon (Su):</strong> As per the <Link to="/mystery/bones">bones</Link> oracle mystery revelation of the same name: As a ranged touch attack, you can unleash a ray that causes a target to gain one negative level. The ray has a range of 30 feet. This negative level lasts for a number of minutes equal to your Charisma modifier. Whenever this ability gives a target a negative level, you heal a number of hit points equal to your oracle level. You can use this ability once per day, plus one additional time at 11th level and every four levels thereafter. You must be at least 7th level to select this revelation.</p>
-<p><strong>Spirit Boost (Su):</strong> As per the <em>life</em> oracle mystery revelation of the same name: Whenever your healing spells heal a target up to its maximum hit points, any excess points persist for 1 round per level as temporary hit points (up to a maximum number of temporary hit points equal to your oracle level).</p>
-<p><strong>Teamwork Mastery (Ex, Sp):</strong> You are an immaculate team player and can distribute your team-based insights to your allies with a touch. This revelation grants you a bonus <Link to="/main/teamwork_feat">teamwork feat</Link>. You must meet the teamwork feat's prerequisites, if any. Additionally, you can touch an ally as a standard action to confer upon it the benefits of any one teamwork feat that you have. This effect persists for a number of rounds equal to 1/2 your oracle level (minimum 1). You can confer the benefits of a teamwork feat you have a number of times per day equal to 3 + your Charisma modifier.</p>
-<h3 id="mystery-succor-final-revelation">Final Revelation</h3>
-<p>You become a beacon of aid and assistance to your allies and those you deem worthy of receiving your succoring magical benefits. You can apply any one of the following metamagic feats to any spell you cast that targets one or more of your allies without increasing the level or casting time: <Link to="/feat/enlarge_spell">Enlarge Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link>. You do not need to have these feats to use this ability, and you can use this ability any number of times per day on any spell that can be affected by the listed metamagic feats.</p>
+<Ability id="combat-healer-su" icon={["boost"]}>
+<Pair single id="combat-healer-su" flavor={<>This is the same as the <Link to="/mystery/battle">battle</Link> mystery revelation.</>}>Combat Healer (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 time/day + 1 per four oracle levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">Whenever you cast <Link to="/main/cure_spells">a cure spell</Link> (a spell with "cure" in its name), you can cast it as a <strong className="hl">swift action</strong>, as if using the <Link to="/feat/quicken_spell">Quicken Spell</Link> feat, by expending two spell slots. This does not increase the level of the spell.</Pair>
+</Ability>
+<Ability id="curse-of-dampening-su" icon={["lower","roll"]}>
+<Pair single id="curse-of-dampening-su">Curse of Dampening (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Standard Action">Once per day, you diminish one target within 30 feet, making its attacks weaker. Whenever the target would roll to deal damage with an attack or spell, it deals the minimum amount of damage. This curse lasts a number of rounds equal to <Link to="/misc/half">half</Link> of your oracle level (minimum 1).</Pair>
+<Pair title="At 11th Level">You can use this ability twice per day.</Pair>
+<Pair title="At 15th Level">You can do this three times per day.</Pair>
+<Pair title="Special">A successful Will saving throw negates this effect. This is a mind-affecting curse effect.</Pair>
+</Ability>
+<Ability id="enhanced-cures-su" icon={["boost"]}>
+<Pair single id="enhanced-cures-su" flavor={<>This is the same as the <Link to="/mystery/life">life</Link> oracle mystery revelation of the same name.</>}>Enhanced Cures (Su)</Pair>
+<Pair title="Ability">Whenever you cast a <Link to="/main/spell_groupings"><em>cure</em> spell</Link>, the maximum number of hit points healed is based on your oracle level, not the limit based on the spell. For example, an 11th-level oracle with this revelation may cast <Link to="/spell/cure_light_wounds">cure light wounds</Link> to heal 1d8+11 hit points instead of the normal 1d8+5 maximum.</Pair>
+</Ability>
+<Ability id="enhanced-inflictions-su" icon={["boost"]}>
+<Pair single id="enhanced-inflictions-su" flavor="You recognize that harming your enemies is sometimes the only way to help your allies, and so your wrath is particularly fierce.">Enhanced Inflictions (Su)</Pair>
+<Pair title="Ability">Whenever you cast an <Link to="/main/spell_groupings"><em>inflict</em> spell</Link> (a spell with the word "inflict" in the name), the maximum amount of damage dealt by the spell is based on your oracle level, not the limit based on the spell. For example, an 11th-level oracle of succor with this revelation can cast <Link to="/spell/inflict_light_wounds">inflict light wounds</Link> to deal 1d8+11 points of damage instead of the normal 1d8+5 maximum.</Pair>
+</Ability>
+<Ability id="perfect-aid-ex" icon={["power","boost","protect"]}>
+<Pair single id="perfect-aid-ex" flavor="You can effortlessly give aid to your allies, whether that means providing them with help attacking or defending them in the heat of combat.">Perfect Aid (Ex)</Pair>
+<Pair title="Ability">You gain <Link to="/feat/bodyguard">Bodyguard</Link> as a bonus feat, and whenever you use the <Link to="/rule/aid_another_2">aid another</Link> action to provide a bonus on attack rolls or to AC to one of your allies, the bonus you provide increases by 1. This bonus doesn't stack with other feats or class features that improve the bonus you provide when using the aid another action.</Pair>
+<Pair title="At 4th Level">The bonus you provide now increases by 2.</Pair>
+<Pair title="At 9th Level">The bonus you provide now increases by 3.</Pair>
+<Pair title="At 14th Level">The bonus you provide now increases by 4.</Pair>
+<Pair title="At 19th Level">The bonus you provide now increases by 5.</Pair>
+<Pair title="Special">This revelation also counts as the <Link to="/feat/combat_expertise">Combat Expertise</Link> feat, but only for the purpose of meeting the prerequisites of the <Link to="/feat/swift_aid">Swift Aid</Link> feat and any feat that lists Swift Aid as a prerequisite.</Pair>
+</Ability>
+<Ability id="pitiful-foe-su" icon={["lower","def","protect"]}>
+<Pair single id="pitiful-foe-su">Pitiful Foe (Su)</Pair>
+<Pair title="Standard Action"><p>Once per day, you can temporarily curse one target within 30 feet, making it pitiful and ineffective in battle.</p>
+<p>While this ability is in effect, the target is never considered to be threatening you or your allies, even if it is armed and you or your allies are standing in a square into which it can make a melee attack.</p>
+<p>If the target rolls a natural 20 on an attack roll or saving throw, the attack or saving throw is not an automatic success (as would be normal) and whether it is successful is instead determined normally.</p>
+<p>Additionally, the target automatically fails all rolls to confirm critical hits.</p>
+<p>This curse lasts for a number of rounds equal to <Link to="/misc/half">half</Link> of your oracle level (minimum 1).</p>
+</Pair>
+<Pair title="At 7th Level">You can use this ability twice per day.</Pair>
+<Pair title="At 15th Level">You can do this three times per day.</Pair>
+<Pair title="Special">A successful Will saving throw negates this effect. This is a mind-affecting curse effect.</Pair>
+</Ability>
+<Ability id="shell-of-succor-su" icon={["aid"]}>
+<Pair single id="shell-of-succor-su" flavor="You can surround an ally with bolstering energies that supplement its health and grant it extra vigor.">Shell of Succor (Su)</Pair>
+<Pair title="Prerequisites">3rd-level oracle</Pair>
+<Pair title="Standard Action"><p>With a touch from you, one creature gains a ward of restorative energy, granting it a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to your Charisma bonus + 1d6 per 2 oracle levels you have (maximum 10d6). These temporary hit points last 1 minute per oracle level you have.</p>
+<p>The target always loses these temporary hit points first, even before other temporary hit points (including those from, for example, the <Link to="/spell/purify_body">purify body</Link> spell or a kineticist's <Link to="/kinetic/force_ward">force ward</Link> defense wild talent).</p>
+<p>If an attack deals fewer points of damage than the target has as temporary hit points from shell of succor, it still reduces those temporary hit points but otherwise counts as a miss for the purpose of abilities that trigger on a hit or a miss.</p>
+<p>You can use this revelation once per day</p>
+</Pair>
+<Pair title="At 11th Level">You can use this revelation twice per day.</Pair>
+<Pair title="At 19th Level">You can do this three times per day.</Pair>
+</Ability>
+<Ability id="soul-siphon-su" icon={["zap","aid"]}>
+<Pair single id="soul-siphon-su" flavor={<>This is the same as the <Link to="/mystery/bones">bones</Link> oracle mystery revelation of the same name.</>}>Soul Siphon (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 time/day + 1 per four oracle levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability"><p>As a ranged touch attack, you can unleash a ray that causes a target to gain one <Link to="/rule/negative_level">negative level</Link>. The ray has a range of 30 feet. This negative level lasts for a number of minutes equal to your Charisma modifier.</p>
+<p>Whenever this ability gives a target a negative level, you heal a number of hit points equal to your oracle level.</p>
+</Pair>
+</Ability>
+<Ability id="spirit-boost-su" icon={["aid"]}>
+<Pair single id="spirit-boost-su" flavor={<>This is the same as the <em>life</em> oracle mystery of the same name.</>}>Spirit Boost (Su)</Pair>
+<Pair title="Ability">Whenever your healing spells heal a target up to its maximum hit points, any excess points persist for 1 round per level as <Link to="/rule/temporary_hit_points">temporary hit points</Link> (up to a maximum number of temporary hit points equal to your oracle level).</Pair>
+</Ability>
+<Ability id="teamwork-mastery-ex-sp" icon={["power"]}>
+<Pair single id="teamwork-mastery-ex-sp" flavor="You are an immaculate team player and can distribute your team-based insights to your allies with a touch.">Teamwork Mastery (Ex, Sp)</Pair>
+<Pair title="Ability">This revelation grants you a bonus <Link to="/main/teamwork_feat">teamwork feat</Link>. You must meet the teamwork feat's prerequisites, if any.</Pair>
+<Pair title="Standard Action">You can touch an ally to confer upon it the benefits of any one teamwork feat that you have. This effect persists for a number of rounds equal to <Link to="/misc/half">half</Link> your oracle level (minimum 1).</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+</Ability>
+<h3 id="mystery-succor-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["boost"]}>
+<Pair single id="final-revelation" flavor="You become a beacon of aid and assistance to your allies and those you deem worthy of receiving your succoring magical benefits.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">You can apply any one of the following metamagic feats to any spell you cast that targets one or more of your allies without increasing the level or casting time: <Link to="/feat/enlarge_spell">Enlarge Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link>. You do not need to have these feats to use this ability, and you can use this ability any number of times per day on any spell that can be affected by the listed metamagic feats.</Pair>
+</Ability>
 </>};
-const _time = {title: "Time", jsx: <><h2 id="mystery-time-time">Time</h2>
+const _time = {hasJL:true,title: "Time", jsx: <><div className="jumpList" id="mystery-time-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-time-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-time-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-time-time">Time</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 56</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/pharasma">Pharasma</Link>.</Cell></Row></Block>
@@ -2401,22 +2570,80 @@ const _time = {title: "Time", jsx: <><h2 id="mystery-time-time">Time</h2>
 <Pair plain title="16th"><Link to="/spell/temporal_stasis">Temporal stasis</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/time_stop">Time stop</Link></Pair>
 </Ability>
-<h3 id="mystery-time-revelations">Revelations</h3>
+<h3 id="mystery-time-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Time mystery can choose from any of the following revelations.</p>
-<p><strong>Aging Touch (Su):</strong> Your touch ages living creatures and objects. As a melee touch attack, you can deal 1 point of <Link to="/rule/strength_damage">Strength damage</Link> for every two oracle levels you possess to living creatures. Against objects or constructs, you can deal 1d6 points of damage per oracle level. If used against an object in another creature's possession, treat this attack as a <Link to="/rule/sunder">sunder</Link> combat maneuver. You can use this ability once per day, plus one additional time per day for every five oracle levels you possess.</p>
-<p><strong>Erase from Time (Su):</strong> As a melee touch attack, you can temporarily remove a creature from time altogether. The target creature must make a Fortitude save or vanish completely for a number of rounds equal to 1/2 your oracle level (minimum 1 round). No magic or divinations can detect the creature during this time, as it exists outside of time and space - in effect, the creature ceases to exist for the duration of this ability. At the end of the duration, the creature reappears unharmed in the space it last occupied (or the nearest possible space, if the original space is now occupied). You can use this ability once per day, plus one additional time per day at 11th level.</p>
-<p><strong>Knowledge of the Ages (Su):</strong> You can search through time to recall some bit of forgotten lore or information. You can retry any Knowledge skill check you have made within the past minute, gaining an insight bonus on the check equal to your Charisma modifier. You can use this ability a number times per day equal to your Charisma modifier.</p>
-<p><strong>Momentary Glimpse (Su):</strong> Once per day, you can gain a glimpse into your immediate future. On the round after you use this ability, you gain a +2 insight bonus on a single attack roll, saving throw, or skill check or to your Armor Class until the start of your next turn. At 5th level, and every four levels thereafter, you can use this ability one additional time per day.</p>
-<p><strong>Rewind Time (Su):</strong> Once per day as an immediate action, you can reroll any one d20 roll that you have just made before the results of the roll are revealed. You must take the result of the reroll, even if it's worse than the original roll. At 11th level, and every four levels thereafter, you can use this ability an additional time per day. You must be at least 7th level to select this revelation.</p>
-<p><strong>Speed or Slow Time (Sp):</strong> As a standard action, you can speed up or slow down time, as either the <Link to="/spell/haste">haste</Link> or <Link to="/spell/slow">slow</Link> spell. You can use this ability once per day, plus one additional time per day at 12th level and 17th level. You must be at least 7th level before selecting this revelation.</p>
-<p><strong>Temporal Celerity (Su):</strong> Whenever you roll for initiative, you can roll twice and take either result. At 7th level, you can always act in the surprise round, but if you fail to notice the ambush, you act last, regardless of your initiative result (you act in the normal order in following rounds). At 11th level, you can roll for initiative three times and take any one of the results.</p>
-<p><strong>Time Flicker (Su):</strong> As a standard action, you can flicker in and out of time, gaining <Link to="/rule/concealment">concealment</Link> (as the <Link to="/spell/blur">blur</Link> spell). You can use this ability for 1 minute per oracle level that you possess per day. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 7th level, each time you activate this ability, you can treat it as the <Link to="/spell/blink">blink</Link> spell, though each round spent this way counts as 1 minute of your normal time flicker duration. You must be at least 3rd level to select this revelation.</p>
-<p><strong>Time Hop (Su):</strong> As a move action, you can teleport up to 10 feet per oracle level that you possess per day. This teleportation must be used in 5-foot increments. This movement does not provoke attacks of opportunity. You must have line of sight to your destination to use this ability. You can bring other willing creatures with you, but you must expend an equal amount of distance for each creature brought. You must be at least 7th level to select this revelation.</p>
-<p><strong>Time Sight (Su):</strong> You can peer through the mists of time to see things as they truly are, as if using the <Link to="/spell/true_seeing">true seeing</Link> spell. At 15th level, this functions like <Link to="/spell/moment_of_prescience">moment of prescience</Link>. At 18th level, this functions like <Link to="/spell/foresight">foresight</Link>. You can use this ability for a number of minutes per day equal to your oracle level, but these minutes do not need to be consecutive. You must be at least 11th level to select this revelation.</p>
-<h3 id="mystery-time-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become a true master of time and stop aging. You cannot be magically aged and no longer take penalties to your ability scores for aging. <Link to="/rule/age">Age bonuses</Link> still accrue, and any aging penalties that you have already accrued remain in place. You cannot die of old age, but you can be killed or die through accident, disease, poison, or other external effects. In addition, you can cast <em>time stop</em> once per day as a spell-like ability.</p>
+<Ability id="aging-touch-su" icon={["touch"]}>
+<Pair single id="aging-touch-su" flavor="Your touch ages living creatures and objects.">Aging Touch (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">As a melee touch attack, you can deal an amount of <Link to="/rule/strength_damage">Strength damage</Link> equal to <Link to="/misc/half">half</Link> your oracle level. Against objects or constructs, you can deal 1d6 points of damage per oracle level. If used against an object in another creature's possession, treat this attack as a <Link to="/rule/sunder">sunder</Link> combat maneuver.</Pair>
+</Ability>
+<Ability id="erase-from-time-su" icon={["touch"]}>
+<Pair single id="erase-from-time-su">Erase from Time (Su)</Pair>
+<Pair title="Ability"><p>Once per day as a melee touch attack, you can temporarily remove a creature from time altogether. The target creature must make a Fortitude save or vanish completely for a number of rounds equal to <Link to="/misc/half">half</Link> of your oracle level (minimum 1 round).</p>
+<p>No magic or divinations can detect the creature during this time, as it exists outside of time and space - in effect, the creature ceases to exist for the duration of this ability.</p>
+<p>At the end of the duration, the creature reappears unharmed in the space it last occupied (or the nearest possible space, if the original space is now occupied).</p>
+</Pair>
+<Pair title="At 11th Level">You can use this ability twice a day.</Pair>
+</Ability>
+<Ability id="knowledge-of-the-ages-su" icon={["boost"]}>
+<Pair single id="knowledge-of-the-ages-su" flavor="You can search through time to recall some bit of forgotten lore or information.">Knowledge of the Ages (Su)</Pair>
+<Pair title="Usage">Charisma modifier times/day</Pair>
+<Pair title="Ability">You can retry any Knowledge skill check you have made within the past minute, gaining an insight bonus on the check equal to your Charisma modifier.</Pair>
+</Ability>
+<Ability id="momentary-glimpse-su" icon={["boost","def"]}>
+<Pair single id="momentary-glimpse-su">Momentary Glimpse (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per four oracle levels beyond 5th<ByLevelPop levels={[[1,1],[9,2],[13,3],[17,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">You can gain a glimpse into your immediate future. On the round after you use this ability, you gain a +2 insight bonus on a single attack roll, saving throw, or skill check or to your Armor Class until the start of your next turn.</Pair>
+</Ability>
+<Ability id="rewind-time-su" icon={["roll"]}>
+<Pair single id="rewind-time-su">Rewind Time (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 time/day + 1 per four oracle levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Immediate Action">Once per day, you can reroll any one d20 roll that you have just made before the results of the roll are revealed. You must take the result of the reroll, even if it's worse than the original roll.</Pair>
+</Ability>
+<Ability id="speed-or-slow-time-sp" icon={["magic"]}>
+<Pair single id="speed-or-slow-time-sp">Speed or Slow Time (Sp)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels beyond 7th<ByLevelPop levels={[[7,1],[12,2],[17,3]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action">You can speed up or slow down time, as either the <Link to="/spell/haste">haste</Link> or <Link to="/spell/slow">slow</Link> spell.</Pair>
+</Ability>
+<Ability id="temporal-celerity-su" icon={["roll","power"]}>
+<Pair single id="temporal-celerity-su">Temporal Celerity (Su)</Pair>
+<Pair title="Ability">Whenever you roll for initiative, you can roll twice and take either result.</Pair>
+<Pair title="At 7th Level">You can always act in the surprise round, but if you fail to notice the ambush, you act last, regardless of your initiative result (you act in the normal order in following rounds).</Pair>
+<Pair title="At 11th Level">You can roll for initiative three times and take any one of the results.</Pair>
+</Ability>
+<Ability id="time-flicker-su" icon={["def","magic"]}>
+<Pair single id="time-flicker-su">Time Flicker (Su)</Pair>
+<Pair title="Prerequisites">3rd-level oracle</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Standard Action">You can flicker in and out of time, gaining <Link to="/rule/concealment">concealment</Link> (as the <Link to="/spell/blur">blur</Link> spell).</Pair>
+<Pair title="At 7th Level">Each time you activate this ability, you can treat it as the <Link to="/spell/blink">blink</Link> spell, though each round spent this way counts as 1 minute of your normal <em>time flicker</em> duration.</Pair>
+</Ability>
+<Ability id="time-hop-su" icon={["magic"]}>
+<Pair single id="time-hop-su">Time Hop (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Move-Equivalent Action"><p>You can teleport up to 10 feet per oracle level that you possess per day. This teleportation must be used in 5-foot increments. This movement does not provoke attacks of opportunity.</p>
+<p>You must have line of sight to your destination to use this ability. You can bring other willing creatures with you, but you must expend an equal amount of distance for each creature brought.</p>
+</Pair>
+</Ability>
+<Ability id="time-sight-su" icon={["power","magic"]}>
+<Pair single id="time-sight-su">Time Sight (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive</Pair>
+<Pair title="Ability">You can peer through the mists of time to see things as they truly are, as if using the <Link to="/spell/true_seeing">true seeing</Link> spell.</Pair>
+<Pair title="At 15th Level">This functions like <Link to="/spell/moment_of_prescience">moment of prescience</Link>.</Pair>
+<Pair title="At 18th Level">This functions like <Link to="/spell/foresight">foresight</Link>.</Pair>
+</Ability>
+<h3 id="mystery-time-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["def","magic"]}>
+<Pair single id="final-revelation">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You become a true master of time and stop aging. You cannot be magically aged and no longer take penalties to your ability scores for aging. <Link to="/rule/age">Age bonuses</Link> still accrue, and any aging penalties that you have already accrued remain in place. You cannot die of old age, but you can be killed or die through accident, disease, poison, or other external effects.</Pair>
+<Pair title="Ability">In addition, you can cast <em>time stop</em> once per day as a spell-like ability.</Pair>
+</Ability>
 </>};
-const _volcano = {title: "Volcano", jsx: <><h2 id="mystery-volcano-volcano">Volcano</h2>
+const _volcano = {hasJL:true,title: "Volcano", jsx: <><div className="jumpList" id="mystery-volcano-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-volcano-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-volcano-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-volcano-volcano">Volcano</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_95_anvil_of_fire">Pathfinder #95: Anvil of Fire pg. 72</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/flauros">Flauros</Link>, <Link to="/faith/mhar">Mhar</Link>, <Link to="/faith/rovagug">Rovagug</Link>, <Link to="/faith/valani">Valani</Link>, <Link to="/faith/yamatsumi">Yamatsumi</Link>, <Link to="/faith/ymeri">Ymeri</Link>.</Cell></Row></Block>
@@ -2435,22 +2662,81 @@ const _volcano = {title: "Volcano", jsx: <><h2 id="mystery-volcano-volcano">Volc
 <Pair plain title="16th"><Link to="/spell/wall_of_lava">Wall of lava</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/meteor_swarm">Meteor swarm</Link></Pair>
 </Ability>
-<h3 id="mystery-volcano-revelations">Revelations</h3>
+<h3 id="mystery-volcano-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Volcano mystery can choose from any of the following revelations.</p>
-<p><strong>Ash Cloud (Su):</strong> As a standard action, you can surround yourself with a 10-foot-radius cloud of ash, which functions as an <Link to="/spell/obscuring_mist">obscuring mist</Link> spell, except you can see through it clearly. The cloud is stationary, and remains for 1 round per oracle level. Using this ability again causes your previous cloud to fall to the ground. At 7th level, your ash cloud fills with embers. All creatures in the cloud except you take 1d6 points of fire damage per round and must succeed at Fortitude saves to avoid choking, as though they were breathing in <Link to="/rule/smoke_effects">heavy smoke</Link>.</p>
-<p><strong>Breath of Creation (Ex):</strong> Volcanic vapors elevate your mind even as they ravage your body. When you take <Link to="/rule/constitution_damage">Constitution damage</Link> from <Link to="/rule/volcanoes">volcanic gases</Link>, you gain a bonus to your Charisma equal to the damage taken. This bonus lasts for 1 hour or until the ability damage is healed. The maximum bonus to your Charisma is +2, increasing to +4 at 10th level, and to +6 at 15th level.</p>
-<p><strong>Burning Magic (Su):</strong> Whenever a creature fails a saving throw against one of your spells that deals fire damage, that creature catches on fire, taking 1 point of fire damage per spell level at the beginning of its turn. The fire lasts for 1d4 rounds, but it can be extinguished as a move action if the creature succeeds at a Reflex save (using the original spell's DC). Dousing the creature with water as a standard action grants a +2 bonus on this save, while immersing the creature in water extinguishes the fire. Spells that don't grant a saving throw don't cause a creature to catch on fire.</p>
-<p><strong>Cleansing Flames (Su):</strong> As a swift action, you can take 1d4 points of damage per oracle level to gain a new saving throw against a single ongoing effect. The effect must be one for which you already failed a saving throw. If you succeed, the effect is removed. At 7th and 15th levels, you can use this ability one additional time per day.</p>
-<p><strong>Erupt (Su):</strong> As a swift action, you cause flaming shards of rock to erupt from your body. These shards deal 1d6 points of damage per 2 oracle levels (minimum 1d6) to all creatures in a 10-foot-radius <Link to="/misc/burst">burst</Link> (Reflex half). Half of this damage is fire damage and the other half is piercing damage. The shards create <Link to="/rule/difficult_terrain">difficult terrain</Link> for 1 round. You can use this ability once per day, plus one additional time per day at 5th level and every 5 levels thereafter.</p>
-<p><strong>Fiery Conduit (Su):</strong> You can deliver touch spells to burning creatures within 30 feet without actually touching them. For the purposes of this ability, burning creatures include creatures that have caught on fire, creatures taking ongoing fire damage, and creatures with the fire subtype or that are polymorphed into such creatures. You must succeed at a ranged touch attack to affect an unwilling target.</p>
-<p><strong>Lava Walk (Su):</strong> You can walk across lava, magma, and similarly heated stone at your normal movement speed. You are immune to any fire damage caused by the surface while you walk above it, even if it radiates damage at a distance. While using lava walk, you never slip or fall from poor or slippery footing. You can use lava walk for 1 minute per day per oracle level. This duration doesn't need to be consecutive, but it must be spent in 1-minute increments. You must be at least 3rd level to select this revelation.</p>
-<p><strong>Magma Form (Su):</strong> As a standard action, you can assume the form of a <Link to="/monster/small_magma_elemental">Small magma elemental</Link>, as <Link to="/spell/elemental_body_i">elemental body I</Link>. You gain the same abilities as if you had chosen an earth elemental's form, except your earth glide functions as the earth glide ability of a magma elemental. At 9th level, you can assume the form of a Medium magma elemental, as <Link to="/spell/elemental_body_ii">elemental body II</Link>. At 11th level, you can assume the form a Large magma elemental, as <Link to="/spell/elemental_body_iii">elemental body III</Link>. At 13th level, you can assume the form of a Huge magma elemental, as <Link to="/spell/elemental_body_iv">elemental body IV</Link>. You can use this ability once per day, but the duration is 1 hour per oracle level. You must be at least 7th level to choose this revelation.</p>
-<p><strong>Pyroclastic Shove (Su):</strong> As a standard action, you conjure a cascade of volcanic ash to <Link to="/rule/bull_rush">bull rush</Link> a creature within 30 feet of you. The CMB of this cascade is equal to your base attack bonus + your Charisma modifier + 4 from the cascade's Gargantuan size. If the bull rush succeeds, the creature takes 1d6 points of fire damage per oracle level. At 12th and at 17th level, you can use this ability one additional time per day. You must be 7th level to select this revelation.</p>
-<p><strong>Touch of Flame (Su):</strong> As a standard action, you can perform a melee touch attack that deals 1d6 points of fire damage + 1 point for every 2 oracle levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier. At 11th level, when you wield a weapon, it is treated as a <Link to="/magic-enh/flaming">flaming</Link> weapon.</p>
-<h3 id="mystery-volcano-final-revelation">Final Revelation</h3>
-<p>At 20th level, the oracle's body takes on the consistency of rock, and her touch carries the heat of a volcano. She gains the fire and earth subtypes and becomes vulnerable to cold. Any fire damage she deals ignores the first 10 points of fire resistance, but not fire immunity. The oracle gains a +4 bonus to natural armor. Her attacks with natural weapons, unarmed strikes, and metal-hafted weapons deal an additional 1d6 points of fire damage. Any creature that strikes the oracle with a natural weapon or unarmed strike, or that succeeds at a grapple combat maneuver check against her, takes 1d6 points of fire damage. This damage stacks with other sources of fire damage. You can suppress or reestablish this heat as a standard action.</p>
+<Ability id="ash-cloud-su" icon={["magic","aura"]}>
+<Pair single id="ash-cloud-su">Ash Cloud (Su)</Pair>
+<Pair title="Standard Action">You can surround yourself with a 10-foot-radius cloud of ash, which functions as an <Link to="/spell/obscuring_mist">obscuring mist</Link> spell, except you can see through it clearly. The cloud is stationary, and remains for 1 round per oracle level. Using this ability again causes your previous cloud to fall to the ground.</Pair>
+<Pair title="At 7th Level">Your <em>ash cloud</em> fills with embers. All creatures in the cloud except you take 1d6 points of fire damage per round and must succeed at Fortitude saves to avoid choking, as though they were breathing in <Link to="/rule/smoke_effects">heavy smoke</Link>.</Pair>
+</Ability>
+<Ability id="breath-of-creation-ex" icon={["boost"]}>
+<Pair single id="breath-of-creation-ex" flavor="Volcanic vapors elevate your mind even as they ravage your body.">Breath of Creation (Ex)</Pair>
+<Pair title="Ability">When you take <Link to="/rule/constitution_damage">Constitution damage</Link> from <Link to="/rule/volcanoes">volcanic gases</Link>, you gain a bonus to your Charisma equal to the damage taken. This bonus lasts for 1 hour or until the ability damage is healed. The maximum bonus to your Charisma is +2.</Pair>
+<Pair title="At 10th Level">The max bonus becomes +4.</Pair>
+<Pair title="At 15th Level">The max bonus increases to +6.</Pair>
+</Ability>
+<Ability id="burning-magic-su" icon={["boost"]}>
+<Pair single id="burning-magic-su">Burning Magic (Su)</Pair>
+<Pair title="Ability">Whenever a creature fails a saving throw against one of your spells that deals fire damage, that creature catches on fire, taking 1 point of fire damage per spell level at the beginning of its turn. The fire lasts for 1d4 rounds, but it can be extinguished as a <strong className="hl">move action</strong> if the creature succeeds at a Reflex save (using the original spell's DC). Dousing the creature with water as a <strong className="hl">standard action</strong> grants a +2 bonus on this save, while immersing the creature in water extinguishes the fire.</Pair>
+<Pair title="Special">Spells that don't grant a saving throw don't cause a creature to catch on fire.</Pair>
+</Ability>
+<Ability id="cleansing-flames-su" icon={["def"]}>
+<Pair single id="cleansing-flames-su">Cleansing Flames (Su)</Pair>
+<Pair title="Swift Action">Once per day, you can take 1d4 points of damage per oracle level to gain a new saving throw against a single ongoing effect. The effect must be one for which you already failed a saving throw. If you succeed, the effect is removed.</Pair>
+<Pair title="At 7th Level">You can use this ability twice per day.</Pair>
+<Pair title="At 15th Level">You can do this three times per day.</Pair>
+</Ability>
+<Ability id="erupt-su" icon={["magic"]}>
+<Pair single id="erupt-su">Erupt (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Swift Action">You cause flaming shards of rock to erupt from your body. These shards deal 1d6 points of damage per 2 oracle levels (minimum 1d6) to all creatures in a 10-foot-radius <Link to="/misc/burst">burst</Link> (Reflex half). Half of this damage is fire damage and the other half is piercing damage. The shards create <Link to="/rule/difficult_terrain">difficult terrain</Link> for 1 round.</Pair>
+</Ability>
+<Ability id="fiery-conduit-su" icon={["zap"]}>
+<Pair single id="fiery-conduit-su">Fiery Conduit (Su)</Pair>
+<Pair title="Ability">You can deliver touch spells to burning creatures within 30 feet without actually touching them. For the purposes of this ability, burning creatures include creatures that have caught on fire, creatures taking ongoing fire damage, and creatures with the fire subtype or that are polymorphed into such creatures. You must succeed at a ranged touch attack to affect an unwilling target.</Pair>
+</Ability>
+<Ability id="lava-walk-su" icon={["power","def"]}>
+<Pair single id="lava-walk-su">Lava Walk (Su)</Pair>
+<Pair title="Prerequisites">3rd-level oracle</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Ability"><p>You can walk across lava, magma, and similarly heated stone at your normal movement speed. You are immune to any fire damage caused by the surface while you walk above it, even if it radiates damage at a distance.</p>
+<p>While using <em>lava walk,</em> you never slip or fall from poor or slippery footing.</p>
+</Pair>
+</Ability>
+<Ability id="magma-form-su" icon={["magic"]}>
+<Pair single id="magma-form-su">Magma Form (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Standard Action">Once per day, you can assume the form of a <Link to="/monster/small_magma_elemental">Small magma elemental</Link>, as <Link to="/spell/elemental_body_i">elemental body I</Link>. You gain the same abilities as if you had chosen an earth elemental's form, except your <em>earth glide</em> functions as the <em>earth glide</em> ability of a magma elemental.</Pair>
+<Pair title="At 9th Level">You can assume the form of a Medium magma elemental, as <Link to="/spell/elemental_body_ii">elemental body II</Link>.</Pair>
+<Pair title="At 11th Level">You can assume the form a Large magma elemental, as <Link to="/spell/elemental_body_iii">elemental body III</Link>.</Pair>
+<Pair title="At 13th Level">You can assume the form of a Huge magma elemental, as <Link to="/spell/elemental_body_iv">elemental body IV</Link>.</Pair>
+<Pair title="Special">The duration of this form is one hour per oracle level.</Pair>
+</Ability>
+<Ability id="pyroclastic-shove-su" icon={["ranged"]}>
+<Pair single id="pyroclastic-shove-su">Pyroclastic Shove (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels beyond 7th<ByLevelPop levels={[[7,1],[12,2],[17,3]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action">You conjure a cascade of volcanic ash to <Link to="/rule/bull_rush">bull rush</Link> a creature within 30 feet of you. The CMB of this cascade is equal to your base attack bonus + your Charisma modifier + 4 from the cascade's Gargantuan size. If the bull rush succeeds, the creature takes 1d6 points of fire damage per oracle level.</Pair>
+</Ability>
+<Ability id="touch-of-flame-su" icon={["touch","boost"]}>
+<Pair single id="touch-of-flame-su">Touch of Flame (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can perform a melee touch attack that deals 1d6 points of fire damage plus an additional amount of points equal to <Link to="/misc/half">half</Link> of your oracle level.</Pair>
+<Pair title="At 11th Level">Any weapon that you wield is treated as a <Link to="/magic-enh/flaming">flaming</Link> weapon.</Pair>
+</Ability>
+<h3 id="mystery-volcano-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["power","down","boost","def"]}>
+<Pair single id="final-revelation">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability"><p>The oracle's body takes on the consistency of rock, and her touch carries the heat of a volcano. She gains the fire and earth subtypes and becomes <Link to="/umr/vulnerable">vulnerable</Link> to cold.</p>
+<p>Any fire damage she deals ignores the first 10 points of fire resistance, but not fire immunity.</p>
+<p>The oracle gains a +4 bonus to natural armor. Any creature that strikes the oracle with a natural weapon or unarmed strike, or that succeeds at a grapple combat maneuver check against her, takes 1d6 points of fire damage. This damage stacks with other sources of fire damage.</p>
+<p>Her attacks with natural weapons, unarmed strikes, and metal-hafted weapons deal an additional 1d6 points of fire damage.</p>
+</Pair>
+<Pair title="Special">You can suppress or reestablish this heat as a <strong className="hl">standard action</strong>.</Pair>
+</Ability>
 </>};
-const _waves = {title: "Waves", jsx: <><h2 id="mystery-waves-waves">Waves</h2>
+const _waves = {hasJL:true,title: "Waves", jsx: <><div className="jumpList" id="mystery-waves-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-waves-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-waves-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-waves-waves">Waves</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 52</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/pharasma">Pharasma</Link>.</Cell></Row></Block>
@@ -2469,22 +2755,91 @@ const _waves = {title: "Waves", jsx: <><h2 id="mystery-waves-waves">Waves</h2>
 <Pair plain title="16th"><Link to="/spell/seamantle">Seamantle</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/tsunami">Tsunami</Link></Pair>
 </Ability>
-<h3 id="mystery-waves-revelations">Revelations</h3>
+<h3 id="mystery-waves-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Waves mystery can choose from any of the following revelations.</p>
-<p><strong>Blizzard (Su):</strong> As a standard action, you can create a blizzard of snow and ice. You can create one 10-foot-cube of storm per oracle level. These cubes can be arranged in any pattern you desire, but each cube must be adjacent to another and one must be adjacent to you. Any creature caught in the blizzard takes 1d4 points of cold damage per oracle level, with a Reflex save resulting in half damage. The storm lasts for a number of rounds equal to your Charisma modifier; the ground remains icy (+5 to Acrobatics DCs) as long as local conditions permit. The blizzard obscures sight beyond 5 feet, providing total concealment. A creature within 5 feet has <Link to="/rule/concealment">concealment</Link>. You can use this ability once per day. You must be 11th level to select this revelation.</p>
-<p><strong>Fluid Nature (Ex):</strong> You receive a +4 bonus to your Combat Maneuver Defense against bull rush, drag, grapple, reposition, and trip attempts. A creature trying to confirm a critical hit against you has a -4 penalty on its confirmation roll. At 5th level, you gain <Link to="/feat/dodge">Dodge</Link> as a bonus feat. You do not need to meet the prerequisite to gain this feat.</p>
-<p><strong>Fluid Travel (Su):</strong> You can walk on liquid as if it were a solid surface. Walking on the liquid does not harm you; you can walk on acid or even lava (as if walking on a solid temporary crust), though you would still take fire damage from being near the lava. You can move across this surface at your normal land speed. At 7th level, while this ability is in effect, you can instead go underwater, gaining a swim speed of 60 feet and the ability to breathe water. You can use this ability for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments.</p>
-<p><strong>Freezing Spells (Su):</strong> Whenever a creature fails a saving throw and takes cold damage from one of your spells, it is slowed (as the <Link to="/spell/slow">slow</Link> spell) for 1 round. Spells that do not allow a save do not slow creatures. At 11th level, the duration increases to 1d4 rounds.</p>
-<p><strong>Ice Armor (Su):</strong> You can conjure armor of ice that grants you a +4 armor bonus. At 7th level, and every four levels thereafter, this bonus increases by +2. At 13th level, this armor grants you DR 5/piercing. In cold conditions, the armor bonus (and DR bonus) increases by 2; in very hot conditions it decreases by 2. You can use this armor for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments.</p>
-<p><strong>Icy Skin (Ex):</strong> You gain resist cold 5. This resistance increases to 10 at 5th level and 20 at 11th level. At 17th level, you gain immunity to cold.</p>
-<p><strong>Punitive Transformation (Su):</strong> You can transform an opponent into a harmless animal as if using <Link to="/spell/baleful_polymorph">baleful polymorph</Link>. This transformation lasts 1 round per oracle level. Transforming another creature causes the first to immediately revert to normal. You may use this ability a number of times per day equal to your Charisma modifier. You must be at least 7th level before selecting this revelation.</p>
-<p><strong>Water Form (Su):</strong> As a standard action, you can assume the form of a <Link to="/monster/small_water_elemental">Small water elemental</Link>, as <Link to="/spell/elemental_body_i">elemental body I</Link>. At 9th level, you can assume the form of a Medium water elemental, as <Link to="/spell/elemental_body_ii">elemental body II</Link>. At 11th level, you can assume the form of a Large water elemental, as <Link to="/spell/elemental_body_iii">elemental body III</Link>. At 13th level, you can assume the form of a Huge water elemental, as <Link to="/spell/elemental_body_iv">elemental body IV</Link>. You can use this ability once per day, but the duration is 1 hour/level. You must be at least 7th level to select this revelation.</p>
-<p><strong>Water Sight (Su):</strong> You can see through fog and mist without penalty as long as there is enough light to allow you to see normal. At 7th level, you can use any calm pool of water at least 1 foot in diameter as a scrying device, as if using the <Link to="/spell/scrying">scrying</Link> spell. At 15th level, this functions like <Link to="/spell/greater_scrying">greater scrying</Link>. You can use the scrying abilities for a number of rounds per day equal to your oracle level, but these rounds do not need to be consecutive.</p>
-<p><strong>Wintry Touch (Su):</strong> As a standard action, you can perform a melee touch attack that deals 1d6 points of cold damage + 1 point for every two oracle levels you possess. You can use the wintry touch ability a number of times per day equal to 3 + your Charisma modifier. At 11th level, any weapon that you wield is treated as a <Link to="/magic-enh/frost">frost</Link> weapon.</p>
-<h3 id="mystery-waves-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become a master of cold and water. You can apply any one of the following feats to any cold or water spell without increasing the level or casting time: <Link to="/feat/enlarge_spell">Enlarge Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link>.</p>
+<Ability id="blizzard-su" icon={["magic"]}>
+<Pair single id="blizzard-su">Blizzard (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Standard Action"><p>Once a day, you can create a blizzard of snow and ice. You can create one 10-foot-cube of this storm per oracle level. These cubes can be arranged in any pattern you desire, but each cube must be adjacent to another, and at least one must be adjacent to you.</p>
+<p>Any creature caught in the blizzard takes 1d4 points of cold damage per oracle level, with a successful Reflex save resulting in half damage.</p>
+<p>The storm lasts for a number of rounds equal to your Charisma modifier; the ground remains icy (+5 to <Link to="/skill/acrobatics">Acrobatics</Link> DCs) as long as local conditions permit</p>
+</Pair>
+<Pair title="Special">The blizzard obscures sight beyond 5 feet, providing total concealment. A creature within 5 feet has <Link to="/rule/concealment">concealment</Link>.</Pair>
+</Ability>
+<Ability id="fluid-nature-ex" icon={["def","power"]}>
+<Pair single id="fluid-nature-ex">Fluid Nature (Ex)</Pair>
+<Pair title="Passive Ability"><p>You receive a +4 bonus to your Combat Maneuver Defense against <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/drag">drag</Link>, <Link to="/rule/grapple">grapple</Link>, <Link to="/rule/reposition">reposition</Link>, and <Link to="/rule/trip">trip</Link> attempts.</p>
+<p>A creature trying to confirm a critical hit against you has a -4 penalty on its confirmation roll.</p>
+</Pair>
+<Pair title="At 5th Level">You gain <Link to="/feat/dodge">Dodge</Link> as a bonus feat. You do not need to meet the prerequisite to gain this feat.</Pair>
+</Ability>
+<Ability id="fluid-travel-su" icon={["power"]}>
+<Pair single id="fluid-travel-su">Fluid Travel (Su)</Pair>
+<Pair title="Usage">1 hour/day per oracle level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="Ability">You can walk on liquid as if it were a solid surface. Walking on the liquid does not harm you; you can walk on acid or even lava (as if walking on a solid temporary crust), though you would still take fire damage from being near the lava. You can move across this surface at your normal land speed.</Pair>
+<Pair title="At 7th Level">While this ability is in effect, you can instead go underwater, gaining a swim speed of 60 feet and the ability to breathe water.</Pair>
+</Ability>
+<Ability id="freezing-spells-su" icon={["lower"]}>
+<Pair single id="freezing-spells-su">Freezing Spells (Su)</Pair>
+<Pair title="Ability">Whenever a creature fails a saving throw and takes cold damage from one of your spells, it is slowed (as the <Link to="/spell/slow">slow</Link> spell) for 1 round.</Pair>
+<Pair title="At 11th Level">The duration increases to 1d4 rounds.</Pair>
+<Pair title="Special">Spells that do not allow a save do not slow creatures.</Pair>
+</Ability>
+<Ability id="ice-armor-su" icon={["def"]}>
+<Pair single id="ice-armor-su">Ice Armor (Su)</Pair>
+<Pair title="Usage">1 hour/day per oracle level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="Ability">You can conjure armor of ice that grants you a +4 armor bonus.</Pair>
+<Pair title="At 7th Level">The armor bonus becomes +6.</Pair>
+<Pair title="At 11th Level">The armor bonus increases to +8.</Pair>
+<Pair title="At 13th Level">This armor grants you DR 5/piercing.</Pair>
+<Pair title="At 15th Level">The armor bonus becomes +10.</Pair>
+<Pair title="At 19th Level">The armor bonus increases to +12.</Pair>
+<Pair title="Special">In cold conditions, the armor bonus (and DR bonus) increases by 2; in very hot conditions it decreases by 2.</Pair>
+</Ability>
+<Ability id="icy-skin-ex" icon={["def"]}>
+<Pair single id="icy-skin-ex">Icy Skin (Ex)</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/resist">resist</Link> cold 5.</Pair>
+<Pair title="At 5th Level">This resistance becomes 10.</Pair>
+<Pair title="At 11th Level">This resistance increases to 20.</Pair>
+<Pair title="At 17th Level">You gain immunity to cold.</Pair>
+</Ability>
+<Ability id="punitive-transformation-su" icon={["magic"]}>
+<Pair single id="punitive-transformation-su">Punitive Transformation (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">Charisma modifier times/day</Pair>
+<Pair title="Ability">You can transform an opponent into a harmless animal as if using <Link to="/spell/baleful_polymorph">baleful polymorph</Link>. This transformation lasts 1 round per oracle level.</Pair>
+<Pair title="Special">Transforming another creature causes the first to immediately revert to normal.</Pair>
+</Ability>
+<Ability id="water-form-su" icon={["magic"]}>
+<Pair single id="water-form-su">Water Form (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">Once per day, for 1 hour per oracle level.</Pair>
+<Pair title="Standard Action">You can assume the form of a <Link to="/monster/small_water_elemental">Small water elemental</Link>, as <Link to="/spell/elemental_body_i">elemental body I</Link>.</Pair>
+<Pair title="At 9th Level">You can assume the form of a Medium water elemental, as <Link to="/spell/elemental_body_ii">elemental body II</Link>.</Pair>
+<Pair title="At 11th Level">You can assume the form of a Large water elemental, as <Link to="/spell/elemental_body_iii">elemental body III</Link>.</Pair>
+<Pair title="At 13th Level">You can assume the form of a Huge water elemental, as <Link to="/spell/elemental_body_iv">elemental body IV</Link>.</Pair>
+</Ability>
+<Ability id="water-sight-su" icon={["power","magic"]}>
+<Pair single id="water-sight-su">Water Sight (Su)</Pair>
+<Pair title="Ability">You can see through fog and mist without penalty as long as there is enough light to allow you to see normal.</Pair>
+<Pair title="At 7th Level">You can use any calm pool of water at least 1 foot in diameter as a scrying device, as if using the <Link to="/spell/scrying">scrying</Link> spell.</Pair>
+<Pair title="At 15th Level">The scrying now functions like <Link to="/spell/greater_scrying">greater scrying</Link>.</Pair>
+<Pair title="Special">You can use the scrying abilities for a number of rounds per day equal to your oracle level, but these rounds do not need to be consecutive.</Pair>
+</Ability>
+<Ability id="wintry-touch-su" icon={["touch","boost"]}>
+<Pair single id="wintry-touch-su">Wintry Touch (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can perform a melee touch attack that deals cold damage equal to 1d6 + <Link to="/misc/half">half</Link> your oracle level.</Pair>
+<Pair title="At 11th Level">Any weapon that you wield is treated as a <Link to="/magic-enh/frost">frost</Link> weapon.</Pair>
+</Ability>
+<h3 id="mystery-waves-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["boost"]}>
+<Pair single id="final-revelation" flavor="You become a master of cold and water.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">You can apply any one of the following feats to any cold or water spell without increasing the level or casting time: <Link to="/feat/enlarge_spell">Enlarge Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link>.</Pair>
+</Ability>
 </>};
-const _whimsy = {title: "Whimsy", jsx: <><h2 id="mystery-whimsy-whimsy">Whimsy</h2>
+const _whimsy = {hasJL:true,title: "Whimsy", jsx: <><div className="jumpList" id="mystery-whimsy-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-whimsy-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-whimsy-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-whimsy-whimsy">Whimsy</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 10</Link></p>
 <p>Whimsy oracles gain powers from capricious fey tricksters.</p>
 <Block size="minimal">
@@ -2504,22 +2859,72 @@ const _whimsy = {title: "Whimsy", jsx: <><h2 id="mystery-whimsy-whimsy">Whimsy</
 <Pair plain title="16th"><Link to="/spell/irresistible_dance">Irresistible dance</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/greater_entice_fey">Greater entice fey</Link></Pair>
 </Ability>
-<h3 id="mystery-whimsy-revelations">Revelations</h3>
+<h3 id="mystery-whimsy-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Whimsy mystery can choose from any of the following revelations.</p>
-<p><strong>Assumed Form (Sp):</strong> You can change your appearance at will, as <Link to="/spell/disguise_self">disguise self</Link> with a caster level equal to your oracle level. At 7th level, you can instead physically transform, as <Link to="/spell/alter_self">alter self</Link>. At 11th level, this ability lasts until you dismiss it or use it again, allowing you to keep it active while you sleep.</p>
-<p><strong>Capricious Misdirection (Sp):</strong> Your ever-changing nature allows you to misdirect aura-reading divinations with ease. You are constantly under the effects of a <Link to="/spell/misdirection">misdirection</Link> spell, except that you can take a standard action to select a creature or object within 60 feet to serve as the target of detection spells used against you until you select a different creature or object. You must be at least 7th level to select this revelation.</p>
-<p><strong>Feywise (Ex):</strong> Your whimsy grants you protection from fey mischief. You gain the <Link to="/ability/resist_natures_lure">resist nature's lure</Link> druid class feature. In addition, you gain a +2 bonus on Perception, Sense Motive, and Survival checks against fey. You must be at least 3rd level to select this revelation.</p>
-<p><strong>Flicker (Sp):</strong> You can flicker from sight for a short time, allowing you to escape or set up a prank. As a swift action, you can disappear for 1 round per oracle level. This ability functions as <Link to="/spell/invisibility">invisibility</Link>. You can use this revelation a number of times per day equal to half your oracle level (minimum 1).</p>
-<p><strong>Misdirection Mastery (Su):</strong> You gleefully evade attacks and confound foes with your capricious misdirection. You receive <Link to="/feat/misdirection_tactics">Misdirection Tactics</Link> as a bonus feat. At 10th level, you receive <Link to="/feat/misdirection_redirection">Misdirection Redirection</Link> as a bonus feat, and at 15th level you receive <Link to="/feat/misdirection_attack">Misdirection Attack</Link> as a bonus feat. You do not need to meet the prerequisites to receive these feats. You must be at least 3rd level to select this revelation.</p>
-<p><strong>Pure Whimsy (Su):</strong> Once per day, you can release a stream of errant chaos from the First World as a standard action. When you do so, identify a target within 90 feet and generate a random effect as from a <Link to="/magic-rod/rod_of_wonder">rod of wonder</Link> (or, at the GM's discretion, another random or unusual effect of similar power). The DC of any required saving throw is 10 + half your oracle level + your Charisma modifier, and no effect from this ability persists for more than 1 day. You can use this ability once per day at 7th level and one additional time per day for every 4 levels beyond 7th. You must be at least 7th level to select this revelation.</p>
-<p><strong>Versatile Comedy (Ex):</strong> The powers of whimsy infuse your comedy with the ability to awe and befuddle. You can use your total Perform (comedy) bonus in place of your Bluff and Intimidate bonuses.</p>
-<p><strong>Whimsical Prank (Su):</strong> As a standard action, you can call upon fey to play a prank on a creature within 30 feet as a <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver. Resolve this attempt as normal, except that it doesn't provoke attacks of opportunity, you use your oracle level in place of your Combat Maneuver Bonus, and you add your Charisma modifier in place of your Strength or Dexterity modifier. No save is allowed against this attempt, but a creature affected by this revelation cannot be the target of this revelation again for 1 day.</p>
-<p><strong>Whimsical Step (Su):</strong> Once per day as a move action, you can teleport up to 10 feet per oracle level. You can use this ability once per day at 7th level and one additional time per day for every 4 levels beyond 7th. You must be at least 7th level to select this revelation.</p>
-<p><strong>Woodland Caprice (Su):</strong> Your fey powers allow you to move easily through woodland environments. You gain <Link to="/ability/woodland_stride">woodland stride</Link>, as per the druid ability. At 7th level, you also gain the <Link to="/ability/trackless_step">trackless step</Link> druid class feature and can similarly conceal the tracks of any allies within 30 feet that you choose.</p>
-<h3 id="mystery-whimsy-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become a fey trickster in the flesh. Your type changes to <Link to="/type/fey">fey</Link> and you gain low-light vision, immunity to poison, and DR 10/cold iron.</p>
+<Ability id="assumed-form-sp" icon={["magic"]}>
+<Pair single id="assumed-form-sp">Assumed Form (Sp)</Pair>
+<Pair title="Ability">You can change your appearance at will, as <Link to="/spell/disguise_self">disguise self</Link> with a caster level equal to your oracle level.</Pair>
+<Pair title="At 7th Level">You can instead physically transform, as <Link to="/spell/alter_self">alter self</Link>.</Pair>
+<Pair title="At 11th Level">This ability lasts until you dismiss it or use it again, allowing you to keep it active while you sleep.</Pair>
+</Ability>
+<Ability id="capricious-misdirection-sp" icon={["def"]}>
+<Pair single id="capricious-misdirection-sp" flavor="Your ever-changing nature allows you to misdirect aura-reading divinations with ease.">Capricious Misdirection (Sp)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Ability">You are constantly under the effects of a <Link to="/spell/misdirection">misdirection</Link> spell, except that you can take a <strong className="hl">standard action</strong> to select a creature or object within 60 feet to serve as the target of detection spells used against you until you select a different creature or object.</Pair>
+</Ability>
+<Ability id="feywise-ex" icon={["def","boost"]}>
+<Pair single id="feywise-ex" flavor="Your whimsy grants you protection from fey mischief.">Feywise (Ex)</Pair>
+<Pair title="Prerequisites">3rd-level oracle</Pair>
+<Pair title="Passive Ability">You gain the <Link to="/ability/resist_natures_lure">resist nature's lure</Link> druid class feature. In addition, you gain a +2 bonus on <Link to="/skill/perception">Perception</Link>, <Link to="/skill/sense_motive">Sense Motive</Link>, and <Link to="/skill/survival">Survival</Link> checks against fey.</Pair>
+</Ability>
+<Ability id="flicker-sp" icon={["magic","def"]}>
+<Pair single id="flicker-sp" flavor="You can flicker from sight for a short time, allowing you to escape or set up a prank.">Flicker (Sp)</Pair>
+<Pair title="Usage">1 time/day per two oracle levels (minimum 1)</Pair>
+<Pair title="Swift Action">You can disappear for 1 round per oracle level. This ability functions as <Link to="/spell/invisibility">invisibility</Link>.</Pair>
+</Ability>
+<Ability id="misdirection-mastery-su" icon={["power"]}>
+<Pair single id="misdirection-mastery-su" flavor="You gleefully evade attacks and confound foes with your capricious misdirection.">Misdirection Mastery (Su)</Pair>
+<Pair title="Prerequisites">3rd-level oracle</Pair>
+<Pair title="Ability">You receive <Link to="/feat/misdirection_tactics">Misdirection Tactics</Link> as a bonus feat.</Pair>
+<Pair title="At 10th Level">You receive <Link to="/feat/misdirection_redirection">Misdirection Redirection</Link> as a bonus feat.</Pair>
+<Pair title="At 15th Level">You receive <Link to="/feat/misdirection_attack">Misdirection Attack</Link> as a bonus feat.</Pair>
+<Pair title="Special">You do not need to meet the prerequisites to receive these feats.</Pair>
+</Ability>
+<Ability id="pure-whimsy-su" icon={["magic"]}>
+<Pair single id="pure-whimsy-su">Pure Whimsy (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 time/day + 1 per four oracle levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action">Once per day, you can release a stream of errant chaos from the First World. When you do so, identify a target within 90 feet and generate a random effect as from a <Link to="/magic-rod/rod_of_wonder">rod of wonder</Link> (or, at the GM's discretion, another random or unusual effect of similar power).</Pair>
+<Pair title="Special">The DC of any required saving throw is 10 + half your oracle level + your Charisma modifier, and no effect from this ability persists for more than 1 day.</Pair>
+</Ability>
+<Ability id="versatile-comedy-ex" icon={["boost"]}>
+<Pair single id="versatile-comedy-ex" flavor="The powers of whimsy infuse your comedy with the ability to awe and befuddle.">Versatile Comedy (Ex)</Pair>
+<Pair title="Ability">You can use your total <Link to="/skill/perform">Perform</Link> (comedy) bonus in place of your <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/intimidate">Intimidate</Link> bonuses.</Pair>
+</Ability>
+<Ability id="whimsical-prank-su" icon={["ranged"]}>
+<Pair single id="whimsical-prank-su">Whimsical Prank (Su)</Pair>
+<Pair title="Standard Action">You can call upon fey to play a prank on a creature within 30 feet as a <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver. Resolve this attempt as normal, except that it doesn't provoke attacks of opportunity, you use your oracle level in place of your Combat Maneuver Bonus, and you add your Charisma modifier in place of your Strength or Dexterity modifier.</Pair>
+<Pair title="Special">No save is allowed against this attempt, but a creature affected by this revelation cannot be the target of this revelation again for 1 day.</Pair>
+</Ability>
+<Ability id="whimsical-step-su" icon={["magic"]}>
+<Pair single id="whimsical-step-su">Whimsical Step (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 time/day + 1 per four oracle levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Move-Equivalent Action">You can teleport up to 10 feet per oracle level.</Pair>
+</Ability>
+<Ability id="woodland-caprice-su" icon={["power","def","protect"]}>
+<Pair single id="woodland-caprice-su" flavor="Your fey powers allow you to move easily through woodland environments.">Woodland Caprice (Su)</Pair>
+<Pair title="Ability">You gain <Link to="/ability/woodland_stride">woodland stride</Link>, as per the druid ability.</Pair>
+<Pair title="At 7th Level">You also gain the <Link to="/ability/trackless_step">trackless step</Link> druid class feature and can similarly conceal the tracks of any allies within 30 feet that you choose.</Pair>
+</Ability>
+<h3 id="mystery-whimsy-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["power","def"]}>
+<Pair single id="final-revelation" flavor="You become a fey trickster in the flesh.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">Your type changes to <Link to="/type/fey">fey</Link> and you gain low-light vision, immunity to poison, and DR 10/cold iron.</Pair>
+</Ability>
 </>};
-const _wind = {title: "Wind", jsx: <><h2 id="mystery-wind-wind">Wind</h2>
+const _wind = {hasJL:true,title: "Wind", jsx: <><div className="jumpList" id="mystery-wind-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-wind-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-wind-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-wind-wind">Wind</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 53</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/shelyn">Shelyn</Link>.</Cell></Row></Block>
@@ -2538,22 +2943,85 @@ const _wind = {title: "Wind", jsx: <><h2 id="mystery-wind-wind">Wind</h2>
 <Pair plain title="16th"><Link to="/spell/whirlwind">Whirlwind</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/winds_of_vengeance">Winds of vengeance</Link></Pair>
 </Ability>
-<h3 id="mystery-wind-revelations">Revelations</h3>
+<h3 id="mystery-wind-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Wind mystery can choose from any of the following revelations.</p>
-<p><strong>Air Barrier (Ex):</strong> You can create an invisible shell of air that grants you a +4 armor bonus. At 7th level, and every four levels thereafter, this bonus increases by +2. At 13th level, this barrier causes incoming arrows, rays, and other ranged attacks requiring an attack roll against you to have a 50% miss chance. You can use this barrier for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments.</p>
-<p><strong>Gaseous Form (Su):</strong> As a standard action, you can assume <Link to="/spell/gaseous_form">gaseous form</Link> (as the spell). You can remain gaseous for 1 minute per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. You must be at least 7th level to select this revelation. You can bring other creatures with you in gaseous form, but each passenger costs an additional minute per minute of travel.</p>
-<p><strong>Invisibility (Su):</strong> As a standard action, you can become invisible (as per the <Link to="/spell/invisibility">invisibility</Link> spell). You can remain invisible for 1 minute per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. Starting at 9th level, each time you activate this ability you can treat it as <Link to="/spell/greater_invisibility">greater invisibility</Link>, though each round spent this way counts as 1 minute of your normal invisibility duration. You must be at least 3rd level to select this revelation.</p>
-<p><strong>Lightning Breath (Su):</strong> As a standard action, you can breathe a 30-foot line of electricity. This line deals 1d4 points of electricity damage per oracle level. A Reflex save halves this damage. You can use this ability once per day, plus one additional time per day at 5th level and every five levels thereafter.</p>
-<p><strong>Spark Skin (Ex):</strong> You gain resist electricity 5. This resistance increases to 10 at 5th level and 20 at 11th level. At 17th level, you gain immunity to electricity.</p>
-<p><strong>Thunderburst (Ex):</strong> As a standard action, you can create a blast of air accompanied by a loud peal of thunder. The blast has a range of 100 feet and has a 20-foot radius, increasing by 5 feet for every 4 oracle levels after 7th. Creatures in the area take 1d6 points of bludgeoning damage per oracle level and are <Link to="/misc/deafened">deafened</Link> for 1 hour, with a Fortitude save resulting in half damage and no deafness. You must be at least 7th level to select this revelation. You can use this ability once per day, plus one additional time per day at 11th level and every four levels thereafter.</p>
-<p><strong>Touch of Electricity (Su):</strong> As a standard action, you can perform a melee touch attack that deals 1d6 points of electricity damage +1 point for every two oracle levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier. At 11th level, any weapon that you wield is treated as a <Link to="/magic-enh/shock">shock</Link> weapon.</p>
-<p><strong>Vortex Spells (Ex):</strong> Whenever you score a critical hit against an opponent with an attack spell, the target is <Link to="/misc/staggered">staggered</Link> for 1 round. At 11th level, the duration increases to 1d4 rounds.</p>
-<p><strong>Wind Sight (Ex):</strong> You ignore penalties on Perception checks based on wind and the first 100 feet of distance. At 7th level, as a standard action, you can see and hear into any area (as if using <Link to="/spell/clairaudience_clairvoyance">clairaudience and clairvoyance</Link>) within range as long as there is an unobstructed path for air to travel between you and the target area (this does not require line of effect, meaning the path can turn corners and go through spaces no smaller than 1 inch in diameter). You can use this ability a number of rounds per day equal to your oracle level, but these rounds do not need to be consecutive.</p>
-<p><strong>Wings of Air (Su):</strong> As a swift action, you can manifest a pair of translucent, cloud-like wings that grant you a fly speed of 60 feet with good maneuverability. At 10th level, your speed increases to 90 feet and your maneuverability increases to perfect. You can use these wings for 1 minute per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. You must be at least 7th level to select this revelation.</p>
-<h3 id="mystery-wind-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become a master of air and electricity. You can apply any one of the following feats to any air or electricity spell without increasing the level or casting time: <Link to="/feat/enlarge_spell">Enlarge Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link>.</p>
+<Ability id="air-barrier-ex" icon={["def"]}>
+<Pair single id="air-barrier-ex">Air Barrier (Ex)</Pair>
+<Pair title="Usage">1 hour/day per oracle level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="Ability">You can create an invisible shell of air that grants you a +4 armor bonus. At 7th level, and every four levels thereafter, this bonus increases by +2.</Pair>
+<Pair title="At 7th Level">The armor bonus becomes +6.</Pair>
+<Pair title="At 11th Level">The armor bonus increases to +8.</Pair>
+<Pair title="At 13th Level">This barrier causes incoming arrows, rays, and other ranged attacks requiring an attack roll against you to have a 50% miss chance.</Pair>
+<Pair title="At 15th Level">The armor bonus becomes +10.</Pair>
+<Pair title="At 19th Level">The armor bonus increases to +12.</Pair>
+</Ability>
+<Ability id="gaseous-form-su" icon={["magic"]}>
+<Pair single id="gaseous-form-su">Gaseous Form (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Standard Action">You can assume <Link to="/spell/gaseous_form">gaseous form</Link> (as the spell). You can bring other creatures with you in gaseous form, but each passenger costs an additional minute per minute of travel.</Pair>
+</Ability>
+<Ability id="invisibility-su" icon={["def"]}>
+<Pair single id="invisibility-su">Invisibility (Su)</Pair>
+<Pair title="Prerequisites">3rd-level oracle</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Standard Action">You can become invisible (as per the <Link to="/spell/invisibility">invisibility</Link> spell).</Pair>
+<Pair title="At 9th Level">Each time you activate this ability you can treat it as <Link to="/spell/greater_invisibility">greater invisibility</Link>, though each round spent this way counts as 1 minute of your normal <em>invisibility</em> duration.</Pair>
+</Ability>
+<Ability id="lightning-breath-su" icon={["line"]}>
+<Pair single id="lightning-breath-su">Lightning Breath (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action">You can breathe a 30-foot line of electricity. This line deals 1d4 points of electricity damage per oracle level. A Reflex save halves this damage.</Pair>
+</Ability>
+<Ability id="spark-skin-ex" icon={["def"]}>
+<Pair single id="spark-skin-ex">Spark Skin (Ex)</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/resist">resist</Link> electricity 5.</Pair>
+<Pair title="At 5th Level">This resistance increases to 10.</Pair>
+<Pair title="At 11th Level">The resistance becomes 20.</Pair>
+<Pair title="At 17th Level">You gain immunity to electricity.</Pair>
+</Ability>
+<Ability id="thunderburst-ex" icon={["magic"]}>
+<Pair single id="thunderburst-ex">Thunderburst (Ex)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 time/day + 1 per four oracle levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action">You can create a blast of air accompanied by a loud peal of thunder. The blast has a range of 100 feet and has a 20-foot radius. Creatures in the area take 1d6 points of bludgeoning damage per oracle level and are <Link to="/misc/deafened">deafened</Link> for 1 hour, with a Fortitude save resulting in half damage and no deafness.</Pair>
+<Pair title="At 11th Level">The radius becomes 25 feet.</Pair>
+<Pair title="At 15th Level">The radius increases to 30 feet.</Pair>
+<Pair title="At 19th Level">The radius becomes 35 feet.</Pair>
+</Ability>
+<Ability id="touch-of-electricity-su" icon={["touch"]}>
+<Pair single id="touch-of-electricity-su">Touch of Electricity (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can perform a melee touch attack that deals electricity damage equal to <Link to="/misc/half">half</Link> your oracle level.</Pair>
+<Pair title="At 11th Level">Any weapon that you wield is treated as a <Link to="/magic-enh/shock">shock</Link> weapon.</Pair>
+</Ability>
+<Ability id="vortex-spells-ex" icon={["lower"]}>
+<Pair single id="vortex-spells-ex">Vortex Spells (Ex)</Pair>
+<Pair title="Ability">Whenever you score a critical hit against an opponent with an attack spell, the target is <Link to="/misc/staggered">staggered</Link> for 1 round.</Pair>
+<Pair title="At 11th Level">The duration increases to 1d4 rounds.</Pair>
+</Ability>
+<Ability id="wind-sight-ex" icon={["boost","magic"]}>
+<Pair single id="wind-sight-ex">Wind Sight (Ex)</Pair>
+<Pair title="Passive Ability">You ignore penalties on <Link to="/skill/perception">Perception</Link> checks based on wind and the first 100 feet of distance.</Pair>
+<Pair title="At 7th Level"><p>As a <strong className="hl">standard action</strong>, you can see and hear into any area (as if using <Link to="/spell/clairaudience_clairvoyance">clairaudience and clairvoyance</Link>) within range as long as there is an unobstructed path for air to travel between you and the target area (this does not require line of effect, meaning the path can turn corners and go through spaces no smaller than 1 inch in diameter).</p>
+<p>You can use this ability a number of rounds per day equal to your oracle level, but these rounds do not need to be consecutive.</p>
+</Pair>
+</Ability>
+<Ability id="wings-of-air-su" icon={["power"]}>
+<Pair single id="wings-of-air-su">Wings of Air (Su)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Swift Action">You can manifest a pair of translucent, cloud-like wings that grant you a fly speed of 60 feet with good maneuverability.</Pair>
+<Pair title="At 10th Level">Your speed increases to 90 feet and your maneuverability increases to perfect.</Pair>
+</Ability>
+<h3 id="mystery-wind-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["boost"]}>
+<Pair single id="final-revelation" flavor="You become a master of air and electricity.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">You can apply any one of the following feats to any air or electricity spell without increasing the level or casting time: <Link to="/feat/enlarge_spell">Enlarge Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link>.</Pair>
+</Ability>
 </>};
-const _winter = {title: "Winter", jsx: <><h2 id="mystery-winter-winter">Winter</h2>
+const _winter = {hasJL:true,title: "Winter", jsx: <><div className="jumpList" id="mystery-winter-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-winter-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-winter-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-winter-winter">Winter</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North pg. 26</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/kostchtchie">Kostchtchie</Link>, <Link to="/faith/ng">Ng</Link>, <Link to="/faith/rovagug">Rovagug</Link>.</Cell></Row></Block>
@@ -2572,22 +3040,88 @@ const _winter = {title: "Winter", jsx: <><h2 id="mystery-winter-winter">Winter</
 <Pair plain title="16th"><Link to="/spell/polar_ray">Polar ray</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/mass_icy_prison">Mass icy prison</Link></Pair>
 </Ability>
-<h3 id="mystery-winter-revelations">Revelations</h3>
+<h3 id="mystery-winter-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Winter mystery can choose from any of the following revelations.</p>
-<p><strong>Blizzard (Su):</strong> As a standard action, you can create a blizzard of snow and ice. You can create one 10-foot-cube of this storm per oracle level. These cubes can be arranged in any pattern you desire, but each cube must be adjacent to another, and at least one must be adjacent to you. Any creature caught in the blizzard takes 1d4 points of cold damage per oracle level, with a successful Reflex save resulting in half damage. The storm lasts for a number of rounds equal to your Charisma modifier; the ground remains icy (+5 to Acrobatics DCs) as long as local conditions permit. The blizzard obscures sight beyond 5 feet, providing total concealment. A creature within 5 feet has <Link to="/rule/concealment">concealment</Link>. You can use this ability once per day. You must be 11th level to select this revelation.</p>
-<p><strong>Child of Winter (Ex):</strong> You gain the constant benefit of <em>endure elements,</em> but only against cold temperatures. You can move across regular snow without penalty, and heavy snow costs you only 2 squares of movement instead of 4. You can move across icy surfaces without penalty, and never need to make Acrobatics checks to run or charge on ice. You leave no trail in ice or snow, and cannot be tracked (you may choose to leave a trail if you so desire). During winter months, you gain a +2 insight bonus on Initiative checks and Reflex saving throws.</p>
-<p><strong>Cold Aura (Su):</strong> As a swift action, you can cause waves of cold to radiate from your body. This cold deals 1d6 points of cold damage per 2 oracle levels to all creatures within 10 feet. A successful Fortitude save halves the damage. In addition, a flurry of snow momentarily surrounds you, granting you concealment until your next turn. You can use this ability once per day, plus one additional time per day at 5th level and every 5 levels thereafter.</p>
-<p><strong>Freezing Spells (Su):</strong> Whenever a creature fails a saving throw and takes cold damage from one of your spells, it is slowed (as the <Link to="/spell/slow">slow</Link> spell) for 1 round. Spells that do not allow saves do not slow creatures. At 11th level, the slow duration increases to 1d4 rounds.</p>
-<p><strong>Ice Armor (Su):</strong> You can conjure armor of ice that grants you a +4 armor bonus to AC. At 7th level and every 4 levels thereafter, this bonus increases by 2. At 13th level, this icy armor grants you DR 5/piercing. In cold conditions, the armor bonus and DR bonus increase by 2; in very hot conditions, however, they decrease by 2. You can use this armor for 1 hour per day per oracle level. This duration does not need to be consecutive, but must be spent in 1-hour increments.</p>
-<p><strong>Ice Shape (Su):</strong> You are able to sculpt ice and snow into almost any shape. This ability functions like stone shape, but targeting only ice and snow, not stone. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>Icy Skin (Ex):</strong> You gain resist cold 5. This resistance increases to 10 at 5th level and 20 at 11th level. At 17th level, you gain immunity to cold.</p>
-<p><strong>Servant of Winter (Sp):</strong> As a full-round action, you can summon a single <Link to="/monster/ice_elemental">ice elemental</Link> to serve you. At 7th level, you can summon a Medium ice elemental, as <Link to="/spell/summon_monster_iv">summon monster IV</Link>. At 11th level, you can summon a Huge ice elemental, as <Link to="/spell/summon_monster_vi">summon monster VI</Link>. At 15th level, you can summon an elder ice elemental, as <Link to="/spell/summon_monster_viii">summon monster VIII</Link>. You can use this ability once per day, plus one additional time per day at 15th level. You must be at least 7th level before selecting this revelation.</p>
-<p><strong>Snow Sight (Su):</strong> You can see through falling snow and sleet without taking any penalties on Perception checks as long as there is enough light to allow you to see normally. At 11th level, in cold conditions or in icy or snowy terrain, you can learn about your surroundings as if using the <Link to="/spell/commune_with_nature">commune with nature</Link> spell. You can use the commune with nature ability once per day at 11th level, and twice per day at 15th level.</p>
-<p><strong>Wintry Touch (Su):</strong> As a standard action, you can perform a melee touch attack that deals 1d6 points of cold damage + 1 point for every 2 oracle levels you possess. You can use the wintry touch ability a number of times per day equal to 3 + your Charisma modifier. At 11th level, any weapon that you wield is treated as a <Link to="/magic-enh/frost">frost</Link> weapon.</p>
-<h3 id="mystery-winter-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become an avatar of winter and the North. Your body permanently transforms into living ice, as the <em>ice body</em> spell. In addition, your mastery of winter magic is such that any of your attacks that deal cold damage bypass cold immunity or cold resistance.</p>
+<Ability id="blizzard-su" icon={["magic"]}>
+<Pair single id="blizzard-su">Blizzard (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Standard Action"><p>Once a day, you can create a blizzard of snow and ice. You can create one 10-foot-cube of this storm per oracle level. These cubes can be arranged in any pattern you desire, but each cube must be adjacent to another, and at least one must be adjacent to you.</p>
+<p>Any creature caught in the blizzard takes 1d4 points of cold damage per oracle level, with a successful Reflex save resulting in half damage.</p>
+<p>The storm lasts for a number of rounds equal to your Charisma modifier; the ground remains icy (+5 to <Link to="/skill/acrobatics">Acrobatics</Link> DCs) as long as local conditions permit</p>
+</Pair>
+<Pair title="Special">The blizzard obscures sight beyond 5 feet, providing total concealment. A creature within 5 feet has <Link to="/rule/concealment">concealment</Link>.</Pair>
+</Ability>
+<Ability id="child-of-winter-ex" icon={["def","boost"]}>
+<Pair single id="child-of-winter-ex">Child of Winter (Ex)</Pair>
+<Pair title="Passive Ability"><p>You gain the constant benefit of <em>endure elements,</em> but only against cold temperatures.</p>
+<p>You can move across regular snow without penalty, and heavy snow costs you only 2 squares of movement instead of 4. You can move across icy surfaces without penalty, and never need to make <Link to="/skill/acrobatics">Acrobatics</Link> checks to <Link to="/rule/run">run</Link> or <Link to="/rule/charge">charge</Link> on ice.</p>
+<p>You leave no trail in ice or snow, and cannot be tracked (you may choose to leave a trail if you so desire).</p>
+</Pair>
+<Pair title="Special">During winter months, you gain a +2 insight bonus on Initiative checks and Reflex saving throws.</Pair>
+</Ability>
+<Ability id="cold-aura-su" icon={["aura","def"]}>
+<Pair single id="cold-aura-su">Cold Aura (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Swift Action">You can cause waves of cold to radiate from your body. This cold deals 1d6 points of cold damage per 2 oracle levels to all creatures within 10 feet. A successful Fortitude save halves the damage.</Pair>
+<Pair title="Special">In addition, a flurry of snow momentarily surrounds you, granting you concealment until your next turn.</Pair>
+</Ability>
+<Ability id="freezing-spells-su" icon={["lower"]}>
+<Pair single id="freezing-spells-su">Freezing Spells (Su)</Pair>
+<Pair title="Ability">Whenever a creature fails a saving throw and takes cold damage from one of your spells, it is slowed (as the <Link to="/spell/slow">slow</Link> spell) for 1 round.</Pair>
+<Pair title="At 11th Level">The duration increases to 1d4 rounds.</Pair>
+<Pair title="Special">Spells that do not allow a save do not slow creatures.</Pair>
+</Ability>
+<Ability id="ice-armor-su" icon={["def"]}>
+<Pair single id="ice-armor-su">Ice Armor (Su)</Pair>
+<Pair title="Usage">1 hour/day per oracle level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="Ability">You can conjure armor of ice that grants you a +4 armor bonus.</Pair>
+<Pair title="At 7th Level">The armor bonus becomes +6.</Pair>
+<Pair title="At 11th Level">The armor bonus increases to +8.</Pair>
+<Pair title="At 13th Level">This armor grants you DR 5/piercing.</Pair>
+<Pair title="At 15th Level">The armor bonus becomes +10.</Pair>
+<Pair title="At 19th Level">The armor bonus increases to +12.</Pair>
+<Pair title="Special">In cold conditions, the armor bonus (and DR bonus) increases by 2; in very hot conditions it decreases by 2.</Pair>
+</Ability>
+<Ability id="ice-shape-su" icon={["magic"]}>
+<Pair single id="ice-shape-su">Ice Shape (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">You are able to sculpt ice and snow into almost any shape. This ability functions like stone shape, but targeting only ice and snow, not stone.</Pair>
+</Ability>
+<Ability id="icy-skin-ex" icon={["def"]}>
+<Pair single id="icy-skin-ex">Icy Skin (Ex)</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/resist">resist</Link> cold 5.</Pair>
+<Pair title="At 5th Level">This resistance becomes 10.</Pair>
+<Pair title="At 11th Level">This resistance increases to 20.</Pair>
+<Pair title="At 17th Level">You gain immunity to cold.</Pair>
+</Ability>
+<Ability id="servant-of-winter-sp" icon={["magic"]}>
+<Pair single id="servant-of-winter-sp">Servant of Winter (Sp)</Pair>
+<Pair title="Prerequisites">7th-level oracle</Pair>
+<Pair title="Full-Round Action">Once per day, you can summon a single <Link to="/monster/ice_elemental">ice elemental</Link> to serve you.</Pair>
+<Pair title="At 7th Level">You can summon a Medium ice elemental, as <Link to="/spell/summon_monster_iv">summon monster IV</Link>.</Pair>
+<Pair title="At 11th Level">You can summon a Huge ice elemental, as <Link to="/spell/summon_monster_vi">summon monster VI</Link>.</Pair>
+<Pair title="At 15th Level">You can summon an elder ice elemental, as <Link to="/spell/summon_monster_viii">summon monster VIII</Link>. You can now use this ability twice per day.</Pair>
+</Ability>
+<Ability id="snow-sight-su" icon={["power","magic"]}>
+<Pair single id="snow-sight-su">Snow Sight (Su)</Pair>
+<Pair title="Ability">You can see through falling snow and sleet without taking any penalties on <Link to="/skill/perception">Perception</Link> checks as long as there is enough light to allow you to see normally.</Pair>
+<Pair title="At 11th Level">Once per day, in cold conditions or in icy or snowy terrain, you can learn about your surroundings as if using the <Link to="/spell/commune_with_nature">commune with nature</Link> spell.</Pair>
+<Pair title="At 15th Level">You can use the <em>commune with nature</em> ability twice per day.</Pair>
+</Ability>
+<Ability id="wintry-touch-su" icon={["touch","boost"]}>
+<Pair single id="wintry-touch-su">Wintry Touch (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can perform a melee touch attack that deals cold damage equal to 1d6 + <Link to="/misc/half">half</Link> your oracle level.</Pair>
+<Pair title="At 11th Level">Any weapon that you wield is treated as a <Link to="/magic-enh/frost">frost</Link> weapon.</Pair>
+</Ability>
+<h3 id="mystery-winter-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["magic","boost"]}>
+<Pair single id="final-revelation" flavor="You become an avatar of winter and the North.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">Your body permanently transforms into living ice, as the <em>ice body</em> spell. In addition, your mastery of winter magic is such that any of your attacks that deal cold damage bypass cold immunity or cold resistance.</Pair>
+</Ability>
 </>};
-const _wood = {title: "Wood", jsx: <><h2 id="mystery-wood-wood">Wood</h2>
+const _wood = {hasJL:true,title: "Wood", jsx: <><div className="jumpList" id="mystery-wood-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="mystery-wood-revelations">Revelations</InnerLink></li><li><InnerLink toTop to="mystery-wood-final-revelation">Final Revelation</InnerLink></li></ul></div><h2 id="mystery-wood-wood">Wood</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 57</Link></p>
 <Block size="minimal">
 <Row><Cell>Deities</Cell><Cell><Link to="/faith/erastil">Erastil</Link>, <Link to="/faith/gozreh">Gozreh</Link>.</Cell></Row></Block>
@@ -2606,19 +3140,86 @@ const _wood = {title: "Wood", jsx: <><h2 id="mystery-wood-wood">Wood</h2>
 <Pair plain title="16th"><Link to="/spell/changestaff">Changestaff</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/wooden_phalanx">Wooden phalanx</Link></Pair>
 </Ability>
-<h3 id="mystery-wood-revelations">Revelations</h3>
+<h3 id="mystery-wood-revelations" data-hash-target>Revelations</h3>
 <p>An oracle with the Wood mystery can choose from any of the following revelations.</p>
-<p><strong>Bend the Grain (Sp):</strong> Once per day as a standard action, you can shape or warp wooden objects. This functions as either <Link to="/spell/wood_shape">wood shape</Link> or <Link to="/spell/warp_wood">warp wood</Link>. At 11th level, you can use this ability to push wood away from you, as <Link to="/spell/repel_wood">repel wood</Link>. At 7th level, and again at 14th level, you can use this ability an additional time per day.</p>
-<p><strong>Lignification (Su):</strong> Once per day, you can turn a creature into wood. As a standard action, you may direct your gaze against a single creature within 30 feet. The targeted creature (along with all its carried gear) must make a Fortitude save or turn into a mindless, inert statue made out of wood for a number of rounds equal to 1/2 your oracle level. This ability otherwise functions as a <Link to="/spell/flesh_to_stone">flesh to stone</Link> spell, except the target turns to wood instead of stone. This can be reversed by any effect that can reverse <em>flesh to stone.</em> At 15th level, you can use this ability twice per day. You must be at least 11th level to select this revelation.</p>
-<p><strong>Speak with Wood (Sp):</strong> You can talk to wood and learn what it knows. You must spend 1 minute meditating on and communing with the wood. At the end of this time, you can speak with the wood. This functions as the <Link to="/spell/stone_tell">stone tell</Link> spell, except with wood instead of stones. You can use this ability for 1 minute per oracle level. This duration does not need to be consecutive, but it must be used in 1-minute increments. You can speak with natural or worked wood. You must be at least 11th level to select this revelation.</p>
-<p><strong>Thorn Burst (Su):</strong> As a swift action, you can cause sharp splinters of wood to explode outward from your body. These splinters deal 1d6 points of piercing damage per two oracle levels (minimum 1d6) to all creatures within a 10-foot <Link to="/misc/burst">burst</Link>. A Reflex save halves this damage. In addition, the sharp splinters count as <Link to="/eq-misc/caltrops">caltrops</Link> in the area until your next turn. You can use this ability once per day, plus one additional time per day at 5th level and every five levels thereafter.</p>
-<p><strong>Tree Form (Sp):</strong> As a standard action, you can assume the form of a Large living or dead tree or shrub, as <Link to="/spell/tree_shape">tree shape</Link>. At 9th level, you can assume the form of a Small or Medium plant creature, as <Link to="/spell/plant_shape_i">plant shape I</Link>. At 11th level, you can assume the form of a Large plant creature, as <Link to="/spell/plant_shape_ii">plant shape II</Link>. At 13th level, you can assume the form of a Huge plant creature, as <Link to="/spell/plant_shape_iii">plant shape III</Link>. You can use this ability once per day, but the duration is 1 hour/level. You must be at least 3rd level to select this revelation.</p>
-<p><strong>Wood Armor (Su):</strong> You can conjure wooden armor around yourself, which grants you a +4 armor bonus. At 7th level, and every four levels thereafter, this bonus increases by +2. At 13th level, this armor grants you DR 5/slashing. You can use this armor for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments. The armor vanishes if you remove it.</p>
-<p><strong>Wood Bond (Ex):</strong> Your mystical bond with wood is such that your weapons become an extension of your body. You gain a +1 competence bonus on attack rolls when wielding a weapon made of or mostly consisting of wood (such as a bow, club, quarterstaff, or spear). This bonus increases by +1 at 5th level and every five levels thereafter.</p>
-<p><strong>Wood Sight (Su):</strong> As a move action, you can alter your vision to see through underbrush and plant growth that would normally grant <Link to="/rule/concealment">concealment</Link>, up to a range of 60 feet (though darkness and other obstacles still may block your sight). At 7th level, you can use this ability to see through wood or other plant material as easily as if it were transparent glass, penetrating a number of feet of wood equal to your oracle level. You can use this ability a number of rounds per day equal to your oracle level, but these rounds do not need to be consecutive.</p>
-<p><strong>Wooden Weapon (Su):</strong> You can create a wooden <Link to="/eq-weapon/club">club</Link>, <Link to="/eq-weapon/quarterstaff">quarterstaff</Link>, <Link to="/eq-weapon/longspear">longspear</Link>, <Link to="/eq-weapon/shortspear">shortspear</Link>, or <Link to="/eq-weapon/spear">spear</Link> that lasts for 1 minute for every oracle level you possess. This weapon is appropriate for your size. You are considered proficient with the weapon. The weapon disappears after 1 round if it leaves your grasp. At 3rd level, the weapon is considered masterwork. At 7th level, 15th level, and 19th level, the weapon gains a +1 enhancement bonus. At 11th level, the weapon gains the <Link to="/magic-enh/keen">keen</Link> weapon property (or the equivalent increase to its critical threat range, if it is a bludgeoning weapon). You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>Woodland Stride (Ex):</strong> You can move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at your normal speed and without taking damage or suffering any other impairment. Thorns, briars, and overgrown areas that have been magically manipulated to impede motion, however, still affect you.</p>
-<h3 id="mystery-wood-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become a living creature of wood. You are forevermore treated as the plant type rather than your original type for the purpose of spells and magical effects. Your skin takes on the appearance of polished wood grain, and you gain a +4 natural armor bonus to your Armor Class and damage reduction 10/- against wooden weapons or any natural attacks made by a wooden or wood-like creature. You gain immunity to paralysis, poison, polymorph, sleep, and stunning. At will, you can meld with any tree or single block of wood (as <Link to="/spell/meld_into_stone">meld into stone</Link>, except wood only, and with no limit to how long you can remain in the wood).</p>
+<Ability id="bend-the-grain-sp" icon={["magic"]}>
+<Pair single id="bend-the-grain-sp">Bend the Grain (Sp)</Pair>
+<Pair title="Standard Action">Once per day, you can shape or warp wooden objects. This functions as either <Link to="/spell/wood_shape">wood shape</Link> or <Link to="/spell/warp_wood">warp wood</Link>.</Pair>
+<Pair title="At 7th Level">You can use this ability twice a day.</Pair>
+<Pair title="At 11th Level">You can use this ability to push wood away from you, as <Link to="/spell/repel_wood">repel wood</Link>.</Pair>
+<Pair title="At 14th Level">You can use this ability three times a day.</Pair>
+</Ability>
+<Ability id="lignification-su" icon={["magic"]}>
+<Pair single id="lignification-su">Lignification (Su)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Standard Action"><p>Once per day, you can turn a creature into wood. You direct your gaze against a single creature within 30 feet. The targeted creature (along with all its carried gear) must make a Fortitude save or turn into a mindless, inert statue made out of wood for a number of rounds equal to <Link to="/misc/half">half</Link> your oracle level.</p>
+<p>This ability otherwise functions as a <Link to="/spell/flesh_to_stone">flesh to stone</Link> spell, except the target turns to wood instead of stone. This can be reversed by any effect that can reverse <em>flesh to stone.</em></p>
+</Pair>
+<Pair title="At 15th Level">You can use this ability twice per day.</Pair>
+</Ability>
+<Ability id="speak-with-wood-sp" icon={["magic"]}>
+<Pair single id="speak-with-wood-sp" flavor="You can talk to wood and learn what it knows.">Speak with Wood (Sp)</Pair>
+<Pair title="Prerequisites">11th-level oracle</Pair>
+<Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Ability">You spend 1 minute meditating on and communing with the wood. At the end of this time, you can speak with the wood. This functions as the <Link to="/spell/stone_tell">stone tell</Link> spell, except with wood instead of stones. You can speak with natural or worked wood.</Pair>
+</Ability>
+<Ability id="thorn-burst-su" icon={["power"]}>
+<Pair single id="thorn-burst-su">Thorn Burst (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Swift Action">You can cause sharp splinters of wood to explode outward from your body. These splinters deal 1d6 points of piercing damage per two oracle levels (minimum 1d6) to all creatures within a 10-foot <Link to="/misc/burst">burst</Link>. A Reflex save halves this damage.</Pair>
+<Pair title="Special">In addition, the sharp splinters count as <Link to="/eq-misc/caltrops">caltrops</Link> in the area until your next turn.</Pair>
+</Ability>
+<Ability id="tree-form-sp" icon={["magic"]}>
+<Pair single id="tree-form-sp">Tree Form (Sp)</Pair>
+<Pair title="Prerequisites">3rd-level oracle</Pair>
+<Pair title="Usage">Once per day, for 1 hour per oracle level.</Pair>
+<Pair title="Standard Action">You can assume the form of a Large living or dead tree or shrub, as <Link to="/spell/tree_shape">tree shape</Link>.</Pair>
+<Pair title="At 9th Level">You can assume the form of a Small or Medium plant creature, as <Link to="/spell/plant_shape_i">plant shape I</Link>.</Pair>
+<Pair title="At 11th Level">You can assume the form of a Large plant creature, as <Link to="/spell/plant_shape_ii">plant shape II</Link>.</Pair>
+<Pair title="At 13th Level">You can assume the form of a Huge plant creature, as <Link to="/spell/plant_shape_iii">plant shape III</Link>.</Pair>
+</Ability>
+<Ability id="wood-armor-su" icon={["def"]}>
+<Pair single id="wood-armor-su">Wood Armor (Su)</Pair>
+<Pair title="Usage">1 hour/day per oracle level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="Ability">You can conjure wooden armor around yourself, which grants you a +4 armor bonus.</Pair>
+<Pair title="At 7th Level">The armor bonus becomes +6.</Pair>
+<Pair title="At 11th Level">The armor bonus increases to +8.</Pair>
+<Pair title="At 13th Level">This armor grants you DR 5/slashing.</Pair>
+<Pair title="At 15th Level">The armor bonus becomes +10.</Pair>
+<Pair title="At 19th Level">The armor bonus increases to +12.</Pair>
+<Pair title="Special">The armor vanishes if you remove it.</Pair>
+</Ability>
+<Ability id="wood-bond-ex" icon={["boost"]}>
+<Pair single id="wood-bond-ex" flavor="Your mystical bond with wood is such that your weapons become an extension of your body.">Wood Bond (Ex)</Pair>
+<Pair title="Passive Ability">You gain a competence bonus on attack rolls when wielding a weapon made of or mostly consisting of wood (such as a bow, club, quarterstaff, or spear). <Bonus y c="oracle" n={5} p={1} />.</Pair>
+</Ability>
+<Ability id="wood-sight-su" icon={["power"]}>
+<Pair single id="wood-sight-su">Wood Sight (Su)</Pair>
+<Pair title="Usage">1 round/day per oracle level; these rounds need not be consecutive</Pair>
+<Pair title="Move-Equivalent Action">You can alter your vision to see through underbrush and plant growth that would normally grant <Link to="/rule/concealment">concealment</Link>, up to a range of 60 feet (though darkness and other obstacles still may block your sight).</Pair>
+<Pair title="At 7th Level">You can use this ability to see through wood or other plant material as easily as if it were transparent glass, penetrating a number of feet of wood equal to your oracle level.</Pair>
+</Ability>
+<Ability id="wooden-weapon-su" icon={["power"]}>
+<Pair single id="wooden-weapon-su">Wooden Weapon (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">You can create a wooden <Link to="/eq-weapon/club">club</Link>, <Link to="/eq-weapon/quarterstaff">quarterstaff</Link>, <Link to="/eq-weapon/longspear">longspear</Link>, <Link to="/eq-weapon/shortspear">shortspear</Link>, or <Link to="/eq-weapon/spear">spear</Link> that lasts for 1 minute for every oracle level you possess. This weapon is appropriate for your size. You are considered proficient with the weapon. The weapon disappears after 1 round if it leaves your grasp.</Pair>
+<Pair title="At 3rd Level">The weapon is considered <Link to="/rule/masterwork_w">masterwork</Link>.</Pair>
+<Pair title="At 7th Level">The weapon you create has a +1 enhancement bonus.</Pair>
+<Pair title="At 11th Level">The weapon gains the <Link to="/magic-enh/keen">keen</Link> weapon property (or the equivalent increase to its critical threat range, if it is a bludgeoning weapon).</Pair>
+<Pair title="At 15th Level">The weapon you create has a +2 enhancement bonus.</Pair>
+<Pair title="At 19th Level">The weapon you create has a +3 enhancement bonus.</Pair>
+</Ability>
+<Ability id="woodland-stride-ex" icon={["power"]}>
+<Pair single id="woodland-stride-ex">Woodland Stride (Ex)</Pair>
+<Pair title="Ability">You can move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at your normal speed and without taking damage or suffering any other impairment.</Pair>
+<Pair title="Special">Thorns, briars, and overgrown areas that have been magically manipulated to impede motion, however, still affect you.</Pair>
+</Ability>
+<h3 id="mystery-wood-final-revelation" data-hash-target>Final Revelation</h3>
+<Ability id="final-revelation" icon={["power","def","magic"]}>
+<Pair single id="final-revelation" flavor="You become a living creature of wood.">Final Revelation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You are forevermore treated as the <Link to="/type/plant">plant</Link> type rather than your original type for the purpose of spells and magical effects. Your skin takes on the appearance of polished wood grain, and you gain a +4 natural armor bonus to your Armor Class and damage reduction 10/- against wooden weapons or any natural attacks made by a wooden or wood-like creature.</Pair>
+<Pair title="Ability">You gain immunity to paralysis, poison, polymorph, sleep, and stunning. At will, you can meld with any tree or single block of wood (as <Link to="/spell/meld_into_stone">meld into stone</Link>, except wood only, and with no limit to how long you can remain in the wood).</Pair>
+</Ability>
 </>};
 export default {not_found:_not_found,ancestor:_ancestor,apocalypse:_apocalypse,ascetic:_ascetic,battle:_battle,bones:_bones,dark_tapestry:_dark_tapestry,dragon:_dragon,elemental:_elemental,flame:_flame,godclaw:_godclaw,heavens:_heavens,intrigue:_intrigue,juju:_juju,life:_life,lore:_lore,lunar:_lunar,metal:_metal,nature:_nature,occult:_occult,outer_rifts:_outer_rifts,reaper:_reaper,shadow:_shadow,solar:_solar,spellscar:_spellscar,stone:_stone,streets:_streets,succor:_succor,time:_time,volcano:_volcano,waves:_waves,whimsy:_whimsy,wind:_wind,winter:_winter,wood:_wood}
