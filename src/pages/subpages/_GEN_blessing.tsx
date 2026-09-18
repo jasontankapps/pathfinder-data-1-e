@@ -87,7 +87,7 @@ const _community = {title: "Community", jsx: <><h2 id="blessing-community-commun
 </Ability>
 <h3 id="blessing-community-cooperation">Cooperation</h3>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 13</Link></p>
-<p><strong className="hl">ReplacementBlessing:</strong> The following minor blessing replaces the <em>communal aid</em> ability of the Community blessing.</p>
+<p><strong className="hl">Replacement Blessing:</strong> The following minor blessing replaces the <em>communal aid</em> ability of the Community blessing.</p>
 <Ability id="team-effort-minor" icon={["power"]}>
 <Pair single id="team-effort-minor" flavor="You can touch an ally and grant it the blessing of cooperation.">Team Effort (minor)</Pair>
 <Pair title="At 1st Level">Choose one <Link to="/main/teamwork_feat">teamwork feat</Link> that you have. The touched ally gains the benefit of the chosen teamwork feat for a number of rounds equal to 1/2 your warpriest level (minimum 1). Alternatively, you can choose one teamwork feat that a touched ally has and gain the benefit of the chosen feat for a number of rounds equal to 1/2 your warpriest level (minimum 1).</Pair>
@@ -256,7 +256,7 @@ const _healing = {hasJL:true,title: "Healing", jsx: <><div className="jumpList" 
 </Ability>
 <h3 id="blessing-healing-restoration" data-hash-target>Restoration</h3>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 13</Link></p>
-<p><strong className="hl">ReplacementBlessing:</strong> The following minor blessing replaces the <em>powerful healer</em> ability of the Healing blessing.</p>
+<p><strong className="hl">Replacement Blessing:</strong> The following minor blessing replaces the <em>powerful healer</em> ability of the Healing blessing.</p>
 <Ability id="ameliorating-touch-minor" icon={["aid"]}>
 <Pair single id="ameliorating-touch-minor" flavor="Your touch is a balm to your suffering allies.">Ameliorating Touch (minor)</Pair>
 <Pair title="At 1st Level">You can touch an ally as a <strong className="hl">swift action</strong> to temporarily relieve that ally of the <Link to="/misc/fatigued">fatigued</Link>, <Link to="/misc/shaken">shaken</Link>, or <Link to="/misc/sickened">sickened</Link> condition. This blessing suppresses those conditions for 1 minute.</Pair>
@@ -264,7 +264,7 @@ const _healing = {hasJL:true,title: "Healing", jsx: <><div className="jumpList" 
 </Ability>
 <h3 id="blessing-healing-resurrection" data-hash-target>Resurrection</h3>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 13</Link></p>
-<p><strong className="hl">ReplacementBlessing:</strong> The following major blessing replaces the <em>fast healing</em> ability of the Healing blessing.</p>
+<p><strong className="hl">Replacement Blessing:</strong> The following major blessing replaces the <em>fast healing</em> ability of the Healing blessing.</p>
 <Ability id="return-of-the-fallen-major" icon={["magic"]}>
 <Pair single id="return-of-the-fallen-major" flavor="Your touch can defy the cold claws of death itself.">Return of the Fallen (major)</Pair>
 <Pair title="At 10th Level">You can temporarily revive a touched ally to continue fighting, as if you had cast <Link to="/spell/raise_dead">raise dead</Link> on her. The revived ally is also <Link to="/misc/staggered">staggered</Link> for a number of rounds equal to 1/2 your warpriest level, after which she immediately dies. The ally is free to act as she sees fit during this time, and you are granted no control over her.</Pair>
@@ -309,7 +309,7 @@ const _liberation = {title: "Liberation", jsx: <><h2 id="blessing-liberation-lib
 </Ability>
 <h3 id="blessing-liberation-freedom">Freedom</h3>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 13</Link></p>
-<p><strong className="hl">ReplacementBlessing:</strong> The following major blessing replaces the <em>freedom's shout</em> ability of the Liberation blessing.</p>
+<p><strong className="hl">Replacement Blessing:</strong> The following major blessing replaces the <em>freedom's shout</em> ability of the Liberation blessing.</p>
 <Ability id="greater-liberation-major" icon={["boost"]}>
 <Pair single id="greater-liberation-major">Greater Liberation (major)</Pair>
 <Pair title="At 10th Level">When you use the <em>liberation</em> ability of the Liberation blessing, its effects last for 1 minute.</Pair>
@@ -360,7 +360,7 @@ const _nobility = {title: "Nobility", jsx: <><h2 id="blessing-nobility-nobility"
 </Ability>
 <h3 id="blessing-nobility-martyr">Martyr</h3>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 13</Link></p>
-<p><strong className="hl">ReplacementBlessing:</strong> The following major blessing replaces the <em>lead by example</em> ability of the Nobility blessing.</p>
+<p><strong className="hl">Replacement Blessing:</strong> The following major blessing replaces the <em>lead by example</em> ability of the Nobility blessing.</p>
 <Ability id="martyrs-sacrifice-major" icon={["protect"]}>
 <Pair single id="martyrs-sacrifice-major" flavor="Your body can accept wounds meant for others you deem worthy.">Martyr's Sacrifice (major)</Pair>
 <Pair title="At 10th Level">You can shoulder the wounds of an ally within 50 feet for 1 minute, and during this time, the ally is affected as if you had cast <Link to="/spell/shield_other">shield other</Link> on her (except with a range of 50 feet).</Pair>

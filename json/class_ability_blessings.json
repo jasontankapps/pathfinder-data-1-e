@@ -97,7 +97,7 @@
 			"",
 			"‹SOURCE Healer's Handbook/13›",
 			"",
-			"@HL[ReplacementBlessing:] The following minor blessing replaces the *communal aid* ability of the Community blessing.",
+			"@HL[Replacement Blessing:] The following minor blessing replaces the *communal aid* ability of the Community blessing.",
 			"",
 			"::ab[Team Effort (minor)]{icon=power flavor=\"You can touch an ally and grant it the blessing of cooperation.\" l1=\"Choose one ‹main/teamwork feat› that you have. The touched ally gains the benefit of the chosen teamwork feat for a number of rounds equal to 1/2 your warpriest level (minimum 1). Alternatively, you can choose one teamwork feat that a touched ally has and gain the benefit of the chosen feat for a number of rounds equal to 1/2 your warpriest level (minimum 1).\"}"
 		]
@@ -291,7 +291,7 @@
 			"",
 			"‹SOURCE Healer's Handbook/13›",
 			"",
-			"@HL[ReplacementBlessing:] The following minor blessing replaces the *powerful healer* ability of the Healing blessing.",
+			"@HL[Replacement Blessing:] The following minor blessing replaces the *powerful healer* ability of the Healing blessing.",
 			"",
 			"::ab[Ameliorating Touch (minor)]{icon=aid flavor=\"Your touch is a balm to your suffering allies.\" l1=\"You can touch an ally as a @HLswift_action to temporarily relieve that ally of the ‹misc/fatigued›, ‹misc/shaken›, or ‹misc/sickened› condition. This blessing suppresses those conditions for 1 minute.\" l2=\"You can spend two uses of your blessing ability whenever you heal yourself or an ally with your *fervor* class ability to use this minor blessing as a @HLfree_action instead of a swift action.\"}",
 			"",
@@ -299,7 +299,7 @@
 			"",
 			"‹SOURCE Healer's Handbook/13›",
 			"",
-			"@HL[ReplacementBlessing:] The following major blessing replaces the *fast healing* ability of the Healing blessing.",
+			"@HL[Replacement Blessing:] The following major blessing replaces the *fast healing* ability of the Healing blessing.",
 			"",
 			"::ab[Return of the Fallen (major)]{icon=magic flavor=\"Your touch can defy the cold claws of death itself.\" l10=\"You can temporarily revive a touched ally to continue fighting, as if you had cast ‹spell/raise dead› on her. The revived ally is also ‹misc/staggered› for a number of rounds equal to 1/2 your warpriest level, after which she immediately dies. The ally is free to act as she sees fit during this time, and you are granted no control over her.\"}"
 		]
@@ -354,7 +354,7 @@
 			"",
 			"‹SOURCE Healer's Handbook/13›",
 			"",
-			"@HL[ReplacementBlessing:] The following major blessing replaces the *freedom's shout* ability of the Liberation blessing.",
+			"@HL[Replacement Blessing:] The following major blessing replaces the *freedom's shout* ability of the Liberation blessing.",
 			"",
 			"::ab[Greater Liberation (major)]{icon=boost l10=\"When you use the *liberation* ability of the Liberation blessing, its effects last for 1 minute.\"}"
 		]
@@ -422,7 +422,7 @@
 			"",
 			"‹SOURCE Healer's Handbook/13›",
 			"",
-			"@HL[ReplacementBlessing:] The following major blessing replaces the *lead by example* ability of the Nobility blessing.",
+			"@HL[Replacement Blessing:] The following major blessing replaces the *lead by example* ability of the Nobility blessing.",
 			"",
 			"::ab[Martyr's Sacrifice (major)]{icon=protect flavor=\"Your body can accept wounds meant for others you deem worthy.\" l10=\"You can shoulder the wounds of an ally within 50 feet for 1 minute, and during this time, the ally is affected as if you had cast ‹spell/shield other› on her (except with a range of 50 feet).\" special=\"You can have only one use of this ability active at a time; if you use this major blessing again, the previous use immediately expires.\"}"
 		]
