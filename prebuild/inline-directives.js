@@ -88,7 +88,7 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 				}
 				const [, what, num, gender, plural, plusextra, classname, nolink] = m;
 				flags.bonus = true;
-				return `<Bonus ${gender === "n" ? "an" : gender} c="${classname.replaceAll("_", " ")}" n={${num}}${plural ? " pl" : ""}${nolink ? " link={false}" : ""}${what ? ` type="${what}"` : ""}${plusextra ? ` p={${plusextra}}` : ""} />`;
+				return `<Bonus ${gender === "n" ? "an" : gender} c="${classname.replaceAll("_", " ")}" n={${num}}${plural ? " pl" : ""}${nolink ? " link={false}" : ""}${what ? ` type="${what.replaceAll("_", " ")}"` : ""}${plusextra ? ` p={${plusextra}}` : ""} />`;
 			} else if (tag === "list") {
 				const convertEncodedInfo = (input) => {
 					let m;

@@ -77,7 +77,6 @@ const Bonus: FC<BonusProps> = (props) => {
 		link = true,
 		f, m, y, t, a, an
 	} = props;
-	const cl = c.replaceAll("_", " ");
 	const pre = (pl ? `These ${type || "bonuses"} are` : `This ${type || "bonus"} is`) + " equal to ";
 	const fraction = n === 2 ? "half" : `one-${
 		n === 3 ? "third" : (
@@ -103,7 +102,7 @@ const Bonus: FC<BonusProps> = (props) => {
 	// the/a/an should indicate possessive
 	const apos = (t || a || an) ? "'s" : "";
 	return (
-		<>{pre}{plus}{maybeLink} of {poss} {cl}{apos} level</>
+		<>{pre}{plus}{maybeLink} of {poss} {c}{apos} level</>
 	);
 };
 
