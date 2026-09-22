@@ -6,7 +6,7 @@ import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
-import AffInfo from '../../components/AfflictionInfo';
+import Icons from '../../components/Icons';
 const _not_found = {title: "Unknown", jsx: <><h2 id="ability-not_found-error">Error</h2>
 <p>Unable to find the requested class ability.</p>
 </>};
@@ -1561,428 +1561,220 @@ const _composite_kinetic_blasts = {title: "Composite Blasts", topLink: ["Kinetic
 </>};
 const _oracle_curses = {title: "Oracle Curses", topLink: ["Oracle","class/oracle"], jsx: <div className="compilation"><h2 id="ability-oracle_curses-oracle-curses">Oracle Curses</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 43</Link><br/>Each oracle is cursed, but this curse comes with a benefit as well as a hindrance. This choice is made at 1st level, and once made, it cannot be changed. The oracle's curse cannot be removed or dispelled without the aid of a deity. An oracle's curse is based on her oracle level plus one for every two levels or Hit Dice other than oracle. Each oracle must choose one of the following curses.</p>
-<Ability id="oraclecurseaboleth-aboleth-fn1" icon={["down","learn"]}>
-<Pair single id="oraclecurseaboleth-aboleth-fn1" flavor={<>Your mind is marked by <Link to="/monster/aboleth">aboleth</Link> tampering, either as a result of a close encounter with one of these creatures while you were a child, or even through an ancestor, close family member, or one of your sisters or brothers in faith - this associate's interaction with the aboleths may be all that it takes to infect you.</>}><Link to="/oraclecurse/aboleth">⮞</Link> Aboleth <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-1" id="ability-oracle_curses-fake-fn-1" data-hash-target to="ability-oracle_curses-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Penalty">You take a -2 penalty on saving throws against mind-affecting effects.</Pair>
-<Pair title="Benefit">Add <Link to="/spell/charm_person">charm person</Link> and <Link to="/spell/hypnotism">hypnotism</Link> to your list of 1st-level oracle spells known.</Pair>
-<Pair title="At 5th Level">Add <Link to="/spell/minor_image">minor image</Link> to your list of 2nd-level oracle spells known.</Pair>
-<Pair title="At 10th Level">Add <Link to="/spell/modify_memory">modify memory</Link> to your list of 4th-level oracle spells known.</Pair>
-<Pair title="At 15th Level">Add <Link to="/spell/veil">veil</Link> to your list of 6th-level oracle spells known.</Pair>
-</Ability>
-<Ability id="oraclecurseacursed-acursed-fn1-2" icon={["down","def","learn"]}>
-<Pair single id="oraclecurseacursed-acursed-fn1-2" flavor="You are cursed with misfortune and sorrow."><Link to="/oraclecurse/acursed">⮞</Link> Acursed <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-1.2" id="ability-oracle_curses-fake-fn-1.2" data-hash-target to="ability-oracle_curses-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Penalty">You cannot gain benefit from morale bonuses.</Pair>
-<Pair title="Benefit">You gain a +4 bonus to all saving throws against <Link to="/spelldef/curse">curse</Link> effects.</Pair>
-<Pair title="At 5th Level">Add <Link to="/spell/ill_omen">ill omen</Link> to your list of spells known.</Pair>
-<Pair title="At 10th Level">Add <Link to="/spell/greater_brand">greater brand</Link> to your list of spells known.</Pair>
-<Pair title="At 15th Level">You are immune to curse effects except for your own oracle curse.</Pair>
-</Ability>
-<Ability id="oraclecurseblackened-blackened-fn2" icon={["down","learn"]}>
-<Pair single id="oraclecurseblackened-blackened-fn2" flavor="Your hands and forearms are shriveled and blackened, as if you had plunged your arms into a blazing fire, and your thin, papery skin is sensitive to the touch."><Link to="/oraclecurse/blackened">⮞</Link> Blackened <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-2" id="ability-oracle_curses-fake-fn-2" data-hash-target to="ability-oracle_curses-fake-fn-2-target">2</InnerLink></sup></Pair>
-<Pair title="Penalty">You take a -4 penalty on weapon attack rolls.</Pair>
-<Pair title="Benefit">Add <Link to="/spell/burning_hands">burning hands</Link> to your list of spells known.</Pair>
-<Pair title="At 5th Level">Add <Link to="/spell/scorching_ray">scorching ray</Link> and <Link to="/spell/flaming_sphere">flaming sphere</Link> to your list of spells known.</Pair>
-<Pair title="At 10th Level">Add <Link to="/spell/wall_of_fire">wall of fire</Link> to your list of spells known and your penalty on weapon attack rolls is reduced to -2.</Pair>
-<Pair title="At 15th Level">Add <Link to="/spell/delayed_blast_fireball">delayed blast fireball</Link> to your list of spells known.</Pair>
-</Ability>
-<Ability id="oraclecursecloudedvision-clouded-vision-fn3" icon={["down","power"]}>
-<Pair single id="oraclecursecloudedvision-clouded-vision-fn3" flavor="Your eyes are obscured, making it difficult for you to see."><Link to="/oraclecurse/clouded_vision">⮞</Link> Clouded Vision <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-3" id="ability-oracle_curses-fake-fn-3" data-hash-target to="ability-oracle_curses-fake-fn-3-target">3</InnerLink></sup></Pair>
-<Pair title="Penalty">You cannot see anything beyond 30 feet.</Pair>
-<Pair title="Benefit">You can see as if you had darkvision 30 ft.</Pair>
-<Pair title="At 5th Level">This distance increases to 60 feet.</Pair>
-<Pair title="At 10th Level">You gain <Link to="/umr/blindsense">blindsense</Link> out to a range of 30 feet.</Pair>
-<Pair title="At 15th Level">You gain <Link to="/umr/blindsight">blindsight</Link> out to a range of 15 feet.</Pair>
-</Ability>
-<Ability id="oraclecursecoldblooded-cold-blooded-fn4" icon={["down","def","power"]}>
-<Pair single id="oraclecursecoldblooded-cold-blooded-fn4" flavor="Your blood turns sluggish without sufficient heat, and you must seek warmth and shelter earlier than most."><Link to="/oraclecurse/cold_blooded">⮞</Link> Cold-Blooded <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-4" id="ability-oracle_curses-fake-fn-4" data-hash-target to="ability-oracle_curses-fake-fn-4-target">4</InnerLink></sup></Pair>
-<Pair title="Penalty">You take a -4 penalty on saves against cold spells and effects, and whenever you fail such a saving throw, you are <Link to="/misc/staggered">staggered</Link> for 1 round.</Pair>
-<Pair title="Benefit">You can survive without food four times longer than a typical creature of your species before you begin to starve.</Pair>
-<Pair title="At 5th Level">Poisons affecting you have their onset time doubled and last half as long if they end after a set time (for example, a poison with a frequency of 1/round for 6 rounds would instead have a frequency of 1/round for 3 rounds). Poisons with no onset time gain an onset time of 1 round.</Pair>
-<Pair title="At 10th Level">Whenever an action you have <Link to="/rule/readied">readied</Link> is triggered, you can take an additional move action at half your speed - along with your readied action - even if you have already taken a move action that round.</Pair>
-<Pair title="At 15th Level">You can take an additional move action a number of times per day equal to your Charisma modifier. You can take these additional move actions only on your turn, and can take only one of these extra move actions per turn.</Pair>
-<Pair title="Special">This oracle curse is common among <Link to="/monster/lizardfolk">lizardfolk</Link> and other oracles with the reptilian subtype.</Pair>
-</Ability>
-<Ability id="oraclecurseconsumed-consumed-fn5" icon={["down","def","roll","aid"]}>
-<Pair single id="oraclecurseconsumed-consumed-fn5" flavor={<>Your connection to Abaddon and the <Link to="/family/daemon">daemons</Link> that call it home has left you diminished but still able to scorn many mortal frailties.</>}><Link to="/oraclecurse/consumed">⮞</Link> Consumed <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-5" id="ability-oracle_curses-fake-fn-5" data-hash-target to="ability-oracle_curses-fake-fn-5-target">5</InnerLink></sup></Pair>
-<Pair title="Penalty">Whenever you take lethal hit point damage, you take an additional number of points of nonlethal damage equal to 1/2 the lethal damage you took.</Pair>
-<Pair title="Benefit">You automatically <Link to="/misc/stabilize">stabilize</Link> when brought below 0 hit points.</Pair>
-<Pair title="At 5th Level">Whenever you make a saving throw against a disease or poison effect, roll twice and use the higher roll as your result.</Pair>
-<Pair title="At 10th Level">You can go without food or water for a number of days equal to your oracle level before suffering any ill effects due to <Link to="/rule/starvation">starvation</Link> or thirst.</Pair>
-<Pair title="At 15th Level">Whenever a creature within 30 feet takes damage while in combat, you automatically gain 1 temporary hit point. You can benefit from this ability a number of times per round equal to your Charisma modifier, and you can gain a total number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> in this way equal to your oracle level. Temporary hit points gained this way disappear after 1 hour.</Pair>
-</Ability>
-<Ability id="oraclecursecovetous-covetous-fn6" icon={["down","skill","boost","learn","def"]}>
-<Pair single id="oraclecursecovetous-covetous-fn6" flavor="You find yourself drawn to the luster of wealthy living."><Link to="/oraclecurse/covetous">⮞</Link> Covetous <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-6" id="ability-oracle_curses-fake-fn-6" data-hash-target to="ability-oracle_curses-fake-fn-6-target">6</InnerLink></sup></Pair>
-<Pair title="Penalty">You must wear fine nonmagical clothing and jewelry worth at least 50 gp + 100 gp per character level you have beyond 1st. If you do not have sufficient wealth to purchase this additional equipment, you feel a strong desire (but are not compelled) to sell existing items or steal from others to obtain it. You are <Link to="/misc/sickened">sickened</Link> whenever you do not meet this requirement; you are also sickened for 24 hours after anything worth 25 gp &times; your character level or more is taken from you against your will.</Pair>
-<Pair title="Benefit"><Link to="/skill/use_magic_device">Use Magic Device</Link> becomes a class skill for you.</Pair>
-<Pair title="At 5th Level">You gain a +4 insight bonus on <Link to="/skill/appraise">Appraise</Link> checks, <Link to="/skill/spellcraft">Spellcraft</Link> checks to identify magic items, and Use Magic Device checks.</Pair>
-<Pair title="At 10th Level">You add <Link to="/spell/fabricate">fabricate</Link> to your list of spells known.</Pair>
-<Pair title="At 15th Level">You add half your oracle level to your CMD against <Link to="/rule/steal">steal</Link> combat maneuvers and to the DC of Sleight of Hand checks to take items from you.</Pair>
-</Ability>
-<Ability id="oraclecursedeaf-deaf-fn3-2" icon={["down","boost","power"]}>
-<Pair single id="oraclecursedeaf-deaf-fn3-2" flavor="You cannot hear."><Link to="/oraclecurse/deaf">⮞</Link> Deaf <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-3.2" id="ability-oracle_curses-fake-fn-3.2" data-hash-target to="ability-oracle_curses-fake-fn-3-target">3</InnerLink></sup></Pair>
-<Pair title="Penalty">You suffer all of the usual penalties for being <Link to="/misc/deafened">deafened</Link>.</Pair>
-<Pair title="Benefit">You cast all of your spells as if they were modified by the <Link to="/feat/silent_spell">Silent Spell</Link> feat. This does not increase their level or casting time.</Pair>
-<Pair title="At 5th Level">You receive a +3 competence bonus on <Link to="/skill/perception">Perception</Link> checks that do not rely upon hearing, and the initiative penalty for being deaf is reduced to -2.</Pair>
-<Pair title="At 10th Level">You gain <Link to="/umr/scent">scent</Link> and you do not suffer any penalty on initiative checks due to being deaf.</Pair>
-<Pair title="At 15th Level">You gain <Link to="/umr/tremorsense">tremorsense</Link> out to a range of 30 feet.</Pair>
-</Ability>
-<Ability id="oraclecursedeepone-deep-one-fn1-3" icon={["down","power","def","boost","magic"]}>
-<Pair single id="oraclecursedeepone-deep-one-fn1-3" flavor="The lure of the ocean tugs at your soul."><Link to="/oraclecurse/deep_one">⮞</Link> Deep One <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-1.3" id="ability-oracle_curses-fake-fn-1.3" data-hash-target to="ability-oracle_curses-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Penalty">You reduce your base land speed by 5 feet.</Pair>
-<Pair title="Benefit">You gain a swim speed equal to your land speed, and if you already have a swim speed, you increase it by 10 feet.</Pair>
-<Pair title="At 5th Level">Your natural armor bonus increases by 1 as your skin thickens.</Pair>
-<Pair title="At 10th Level">You gain a +1 bonus to your caster level when casting spells underwater and when casting spells with the water descriptor.</Pair>
-<Pair title="At 15th Level">You gain the benefits of <Link to="/spell/freedom_of_movement">freedom of movement</Link> while underwater.</Pair>
-</Ability>
-<Ability id="oraclecursedemonic-demonic-fn1-4" icon={["down","boost","def"]}>
-<Pair single id="oraclecursedemonic-demonic-fn1-4" flavor="Your heart is cursed with the pull of the Abyss."><Link to="/oraclecurse/demonic">⮞</Link> Demonic <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-1.4" id="ability-oracle_curses-fake-fn-1.4" data-hash-target to="ability-oracle_curses-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Penalty">You cannot cast spells with the good or lawful descriptors, nor can you summon good or lawful creatures. Good and lawful creatures instinctively distrust you, and you take a -4 penalty on all <Link to="/skill/diplomacy">Diplomacy</Link> checks against such creatures. Diplomacy is not a class skill for you.</Pair>
-<Pair title="Benefit">You gain a +2 bonus on all <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks. You gain Bluff or Intimidate (choose one) as a class skill.</Pair>
-<Pair title="At 5th Level">You gain a +4 bonus to all saving throws against fear effects.</Pair>
-<Pair title="At 10th Level">You gain immunity to poison.</Pair>
-<Pair title="At 15th Level">Any weapon you wield is treated as chaotic and evil for the purposes of overcoming damage reduction.</Pair>
-</Ability>
-<Ability id="oraclecurseelementalimbalance-elemental-imbalance-fn7" icon={["down","learn"]}>
-<Pair single id="oraclecurseelementalimbalance-elemental-imbalance-fn7" flavor="You wield an element's might, but you are vulnerable to its opposite."><Link to="/oraclecurse/elemental_imbalance">⮞</Link> Elemental Imbalance <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-7" id="ability-oracle_curses-fake-fn-7" data-hash-target to="ability-oracle_curses-fake-fn-7-target">7</InnerLink></sup></Pair>
-<Pair title="Penalty"><p>Choose air, earth, fire, or water.</p>
-<p>If you select air, you gain <Link to="/umr/vulnerability">vulnerability</Link> to acid, cannot benefit from any acid <Link to="/umr/resistance">resistance</Link> or <Link to="/umr/immunity">immunity</Link>, and cannot cast spells with the acid or earth descriptors.</p>
-<p>If you select earth, you gain vulnerability to electricity, cannot benefit from any electricity resistance or immunity, and cannot cast spells with the air or electricity descriptors.</p>
-<p>If you select fire, you gain vulnerability to cold, cannot benefit from any cold resistance or immunity, and cannot cast spells with the cold or water descriptors.</p>
-<p>If you select water, you gain vulnerability to fire, cannot benefit from any fire resistance or immunity, and cannot cast spells with the fire descriptor.</p>
-</Pair>
-<Pair title="Benefit"><p>As you advance in level, add the following spells to your oracle spells known based on your chosen element.</p>
 <ScrollContainer id="ability-oracle_curses--table-0"><table>
 <thead>
 <tr>
-<th>Level</th>
-<th>Fire Spell</th>
-<th>Earth Spell</th>
-<th>Water Spell</th>
-<th>Air Spell</th>
+<th>Curse</th>
+<th>Description</th>
+<th>Prereqs</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>1st</td>
-<td className="ion-activatable"><Link to="/spell/burning_hands">burning hands<IonRippleEffect /></Link></td>
-<td className="ion-activatable"><Link to="/spell/grease">grease<IonRippleEffect /></Link></td>
-<td className="ion-activatable"><Link to="/spell/hydraulic_push">hydraulic push<IonRippleEffect /></Link></td>
-<td className="ion-activatable"><Link to="/spell/shocking_grasp">shocking grasp<IonRippleEffect /></Link></td>
+<td><Link to="/oraclecurse/aboleth">Aboleth</Link></td>
+<td><Icons id="ability-oracle_curses-down-learn-icons" wrapper="prefixIcon" list={["down","learn"]} /> Your mind is marked by <Link to="/monster/aboleth">aboleth</Link> tampering, either as a result of a close encounter with one of these creatures while you were a child, or even through an ancestor, close family member, or one of your sisters or brothers in faith - this associate's interaction with the aboleths may be all that it takes to infect you.</td>
+<td></td>
 </tr>
 <tr>
-<td>5th</td>
-<td className="ion-activatable"><Link to="/spell/scorching_ray">scorching ray<IonRippleEffect /></Link></td>
-<td className="ion-activatable"><Link to="/spell/glitterdust">glitterdust<IonRippleEffect /></Link></td>
-<td className="ion-activatable"><Link to="/spell/frigid_touch">frigid touch<IonRippleEffect /></Link></td>
-<td className="ion-activatable"><Link to="/spell/levitate">levitate<IonRippleEffect /></Link></td>
+<td><Link to="/oraclecurse/acursed">Acursed</Link></td>
+<td><Icons id="ability-oracle_curses-down-def-learn-icons" wrapper="prefixIcon" list={["down","def","learn"]} /> You are cursed with misfortune and sorrow.</td>
+<td></td>
 </tr>
 <tr>
-<td>10th</td>
-<td className="ion-activatable"><Link to="/spell/wall_of_fire">wall of fire<IonRippleEffect /></Link></td>
-<td className="ion-activatable"><Link to="/spell/calcific_touch">calcific touch<IonRippleEffect /></Link></td>
-<td className="ion-activatable"><Link to="/spell/ice_storm">ice storm<IonRippleEffect /></Link></td>
-<td className="ion-activatable"><Link to="/spell/ball_lightning">ball lightning<IonRippleEffect /></Link></td>
+<td><Link to="/oraclecurse/blackened">Blackened</Link></td>
+<td><Icons id="ability-oracle_curses-down-learn-icons" wrapper="prefixIcon" list={["down","learn"]} /> Your hands and forearms are shriveled and blackened, as if you had plunged your arms into a blazing fire, and your thin, papery skin is sensitive to the touch.</td>
+<td></td>
 </tr>
 <tr>
-<td>15th</td>
-<td className="ion-activatable"><Link to="/spell/contagious_flame">contagious flame<IonRippleEffect /></Link></td>
-<td className="ion-activatable"><Link to="/spell/flesh_to_stone">flesh to stone<IonRippleEffect /></Link></td>
-<td className="ion-activatable"><Link to="/spell/freezing_sphere">freezing sphere<IonRippleEffect /></Link></td>
-<td className="ion-activatable"><Link to="/spell/chain_lightning">chain lightning<IonRippleEffect /></Link></td>
+<td><Link to="/oraclecurse/clouded_vision">Clouded Vision</Link></td>
+<td><Icons id="ability-oracle_curses-down-power-icons" wrapper="prefixIcon" list={["down","power"]} /> Your eyes are obscured, making it difficult for you to see.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/cold_blooded">Cold-Blooded</Link></td>
+<td><Icons id="ability-oracle_curses-down-def-power-icons" wrapper="prefixIcon" list={["down","def","power"]} /> Your blood turns sluggish without sufficient heat, and you must seek warmth and shelter earlier than most.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/consumed">Consumed</Link></td>
+<td><Icons id="ability-oracle_curses-down-def-roll-aid-icons" wrapper="prefixIcon" list={["down","def","roll","aid"]} /> Your connection to Abaddon and the <Link to="/family/daemon">daemons</Link> that call it home has left you diminished but still able to scorn many mortal frailties.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/covetous">Covetous</Link></td>
+<td><Icons id="ability-oracle_curses-down-skill-boost-learn-def-icons" wrapper="prefixIcon" list={["down","skill","boost","learn","def"]} /> You find yourself drawn to the luster of wealthy living.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/deaf">Deaf</Link></td>
+<td><Icons id="ability-oracle_curses-down-boost-power-icons" wrapper="prefixIcon" list={["down","boost","power"]} /> You cannot hear.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/deep_one">Deep One</Link></td>
+<td><Icons id="ability-oracle_curses-down-power-def-boost-magic-icons" wrapper="prefixIcon" list={["down","power","def","boost","magic"]} /> The lure of the ocean tugs at your soul.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/demonic">Demonic</Link></td>
+<td><Icons id="ability-oracle_curses-down-boost-def-icons" wrapper="prefixIcon" list={["down","boost","def"]} /> Your heart is cursed with the pull of the Abyss.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/elemental_imbalance">Elemental Imbalance</Link></td>
+<td><Icons id="ability-oracle_curses-down-learn-icons" wrapper="prefixIcon" list={["down","learn"]} /> You wield an element's might, but you are vulnerable to its opposite.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/ghoul">Ghoul</Link></td>
+<td><Icons id="ability-oracle_curses-down-def-learn-magic-icons" wrapper="prefixIcon" list={["down","def","learn","magic"]} /> While your actual dietary needs don't change, you crave the flesh of sentient creatures.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/god_meddled">God-Meddled</Link></td>
+<td><Icons id="ability-oracle_curses-down-def-icons" wrapper="prefixIcon" list={["down","def"]} /> The isle of Iblydos is populated and watched over by hero-gods, some of whom are known for entangling mortals in their own affairs. The gods' interference in your life has left you with strange, unpredictable powers dependent on divine whim. Bizarre side effects occur whenever you are affected by a spell from a divine caster - for better or for worse.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/haunted">Haunted</Link></td>
+<td><Icons id="ability-oracle_curses-down-learn-icons" wrapper="prefixIcon" list={["down","learn"]} /> Malevolent spirits follow you wherever you go, causing minor mishaps and strange occurrences (such as unexpected breezes, small objects moving on their own, and faint noises).</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/hellbound">Hellbound</Link></td>
+<td><Icons id="ability-oracle_curses-down-boost-def-icons" wrapper="prefixIcon" list={["down","boost","def"]} /> Infernal influence grants you profane insight and weighs on your soul.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/hive">Hive</Link></td>
+<td><Icons id="ability-oracle_curses-down-ranged-def-icons" wrapper="prefixIcon" list={["down","ranged","def"]} /> You were exposed at a young age (perhaps even before you were born) to the alien species known as the <Link to="/family/hive">hive</Link>, but this exposure did not result in a full-blown infestation by these otherworldly monsters.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/hunger">Hunger</Link></td>
+<td><Icons id="ability-oracle_curses-down-melee-boost-power-icons" wrapper="prefixIcon" list={["down","melee","boost","power"]} /> Ravenous hunger wracks your body in stressful situations.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/infested">Infested</Link></td>
+<td><Icons id="ability-oracle_curses-down-def-learn-icons" wrapper="prefixIcon" list={["down","def","learn"]} /> Insects, spiders, grubs, and other vermin plague you constantly. They crawl in your hair, fill your clothes, and fly or crawl into your mouth, nose, and ears.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/lame">Lame</Link></td>
+<td><Icons id="ability-oracle_curses-down-boost-def-icons" wrapper="prefixIcon" list={["down","boost","def"]} /> One of your legs is permanently wounded.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/legalistic">Legalistic</Link></td>
+<td><Icons id="ability-oracle_curses-down-boost-def-lower-icons" wrapper="prefixIcon" list={["down","boost","def","lower"]} /> The shackles of Hell impose savage consequences should you violate a covenant, but also imbue you with remarkable guile.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/lich">Lich</Link></td>
+<td><Icons id="ability-oracle_curses-down-learn-def-icons" wrapper="prefixIcon" list={["down","learn","def"]} /> Every living spellcaster hides a secret in their flesh - a unique, personalized set of conditions that, when all are fulfilled in the correct order, can trigger the transformation into a <Link to="/template/lich">lich</Link>. Normally, one must expend years and tens of thousands of gold pieces to research this deeply personalized method of attaining immortality. Yet, in a rare few cases, chance and ill fortune can conspire against an unsuspecting spellcaster. You have (unknowingly) fulfilled most (but not all) of the ritualistic components to achieve lichdom. You have yet to turn into an undead creature, but you are close.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/lycanthropy">Lycanthropy</Link></td>
+<td><Icons id="ability-oracle_curses-down-boost-learn-def-icons" wrapper="prefixIcon" list={["down","boost","learn","def"]} /> You suffer from a minor form of lycanthropy. The exact animal your body and mind are aligned with can vary, but you should choose an animal that matches your faith thematically.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/plagued">Plagued</Link></td>
+<td><Icons id="ability-oracle_curses-down-def-learn-boost-icons" wrapper="prefixIcon" list={["down","def","learn","boost"]} /> You suffer from minor ailments and sicknesses. While you struggle to resist new diseases, you have grown accustomed to the many inconveniences of sickness.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/possessed">Possessed</Link></td>
+<td><Icons id="ability-oracle_curses-down-roll-def-learn-icons" wrapper="prefixIcon" list={["down","roll","def","learn"]} /> Another mind shares your body, interfering with your control, and it's more difficult for you to concentrate as a result.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/powerless_prophecy">Powerless Prophecy</Link></td>
+<td><Icons id="ability-oracle_curses-down-def-boost-icons" wrapper="prefixIcon" list={["down","def","boost"]} /> You are forewarned of danger but can't act to prevent it.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/pranked">Pranked</Link></td>
+<td><Icons id="ability-oracle_curses-down-learn-icons" wrapper="prefixIcon" list={["down","learn"]} /> Capricious fey constantly bedevil you, playing pranks on you such as tying your shoelaces together, hiding your gear, making inappropriate noises or smells at formal events, and mimicking your voice to tell embarrassing lies.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/promethean">Promethean</Link></td>
+<td><Icons id="ability-oracle_curses-down-def-icons" wrapper="prefixIcon" list={["down","def"]} /> Your body is falling apart, forcing you to rely on mechanical augmentations or replacements to keep yourself alive.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/putrid">Putrid</Link></td>
+<td><Icons id="ability-oracle_curses-down-def-icons" wrapper="prefixIcon" list={["down","def"]} /> Your presence causes liquids to spoil.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/reclusive">Reclusive</Link></td>
+<td><Icons id="ability-oracle_curses-down-boost-def-icons" wrapper="prefixIcon" list={["down","boost","def"]} /> You are reclusive and paranoid to the point that your allies cannot easily help you in times of stress or unease.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/scourge">Scourge</Link></td>
+<td><Icons id="ability-oracle_curses-down-power-learn-icons" wrapper="prefixIcon" list={["down","power","learn"]} /> You are a blight on the natural world.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/shadowbound">Shadowbound</Link></td>
+<td><Icons id="ability-oracle_curses-down-power-learn-icons" wrapper="prefixIcon" list={["down","power","learn"]} /> Your pigmentation is oddly colorless, and your eyes are highly sensitive to light.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/shattered_psyche">Shattered Psyche</Link></td>
+<td><Icons id="ability-oracle_curses-down-def-icons" wrapper="prefixIcon" list={["down","def"]} /> Your mind is crowded with dozens of voices, fragmented snippets of your past lives.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/site_bound">Site-Bound</Link></td>
+<td><Icons id="ability-oracle_curses-down-boost-icons" wrapper="prefixIcon" list={["down","boost"]} /> You are bound to a particular place.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/song_bound">Song-Bound</Link></td>
+<td><Icons id="ability-oracle_curses-down-power-learn-boost-icons" wrapper="prefixIcon" list={["down","power","learn","boost"]} /> Whenever you speak, you are compelled to sing loudly, and you draw out even short utterances with vocal scales or simple melodies.</td>
+<td><Link to="/race/merfolk">Merfolk</Link></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/tongues">Tongues</Link></td>
+<td><Icons id="ability-oracle_curses-down-power-magic-icons" wrapper="prefixIcon" list={["down","power","magic"]} /> In times of stress or unease, you speak in tongues.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/toxic_blood">Toxic Blood</Link></td>
+<td><Icons id="ability-oracle_curses-down-def-touch-icons" wrapper="prefixIcon" list={["down","def","touch"]} /> Your body is ravaged by a potent, slow-acting poison that resists all treatment.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/vampirism">Vampirism</Link></td>
+<td><Icons id="ability-oracle_curses-down-def-learn-icons" wrapper="prefixIcon" list={["down","def","learn"]} /> You crave the taste of fresh, warm blood.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/wasting">Wasting</Link></td>
+<td><Icons id="ability-oracle_curses-down-def-icons" wrapper="prefixIcon" list={["down","def"]} /> Your body is slowly rotting away.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/wolfscarred_face">Wolfscarred Face</Link></td>
+<td><Icons id="ability-oracle_curses-down-melee-learn-boost-icons" wrapper="prefixIcon" list={["down","melee","learn","boost"]} /> Your face is deformed, as though you were born with a wolf's muzzle instead of an ordinary nose and jaw. Many mistake you for a werewolf, and in areas plagued by lycanthropes, you must take pains to hide your face.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/wrecker">Wrecker</Link></td>
+<td><Icons id="ability-oracle_curses-down-skill-power-lower-boost-icons" wrapper="prefixIcon" list={["down","skill","power","lower","boost"]} /> The destructive power of <Link to="/rule/the_abyss">the Abyss</Link> and its teeming hordes of <Link to="/family/demon">demons</Link> seeps from your very pores and into your belongings and surroundings.</td>
+<td></td>
+</tr>
+<tr>
+<td><Link to="/oraclecurse/wrecking_mysticism">Wrecking Mysticism</Link></td>
+<td><Icons id="ability-oracle_curses-down-power-learn-icons" wrapper="prefixIcon" list={["down","power","learn"]} /> A divine entity has blessed you with a source of eldritch power.</td>
+<td><Link to="/race/kitsune">Kitsune</Link></td>
 </tr>
 </tbody></table></ScrollContainer>
-</Pair>
-</Ability>
-<Ability id="oraclecurseghoul-ghoul-fn1-5" icon={["down","def","learn","magic"]}>
-<Pair single id="oraclecurseghoul-ghoul-fn1-5" flavor="While your actual dietary needs don't change, you crave the flesh of sentient creatures."><Link to="/oraclecurse/ghoul">⮞</Link> Ghoul <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-1.5" id="ability-oracle_curses-fake-fn-1.5" data-hash-target to="ability-oracle_curses-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Penalty">You can only go without food for 12 hours before you begin to <Link to="/rule/starve">starve</Link>, and when you do starve, the DC of the Constitution check to avoid taking damage increases by 5.</Pair>
-<Pair title="Benefit">If you feed on fresh, raw flesh (no older than 1 hour) from a creature of your own race, you gain a +1 morale bonus on all saving throws for 24 hours.</Pair>
-<Pair title="At 5th Level">You add <Link to="/spell/ghoul_touch">ghoul touch</Link> to your list of 2nd-level oracle spells known.</Pair>
-<Pair title="At 10th Level">You become immune to paralysis and disease.</Pair>
-<Pair title="At 15th Level">You gain the effects of <Link to="/spell/heroes_feast">heroes' feast</Link> whenever you feed on the raw flesh of a sentient creature, and the effects of this <em>heroes' feast</em> double if the flesh you eat comes from a member of your own race (this effect applies no more often than once per day).</Pair>
-</Ability>
-<Ability id="oraclecursegodmeddled-god-meddled-fn8" icon={["down","def"]}>
-<Pair single id="oraclecursegodmeddled-god-meddled-fn8" flavor="The isle of Iblydos is populated and watched over by hero-gods, some of whom are known for entangling mortals in their own affairs. The gods' interference in your life has left you with strange, unpredictable powers dependent on divine whim. Bizarre side effects occur whenever you are affected by a spell from a divine caster - for better or for worse."><Link to="/oraclecurse/god_meddled">⮞</Link> God-Meddled <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-8" id="ability-oracle_curses-fake-fn-8" data-hash-target to="ability-oracle_curses-fake-fn-8-target">8</InnerLink></sup></Pair>
-<Pair title="Effects">Once per round, when a creature casts a divine spell including you as a target, roll 1d20 and consult the God-Meddled Effects table below. The effect resulting from this roll begins at the end of that enemy's turn. This effect targets only you, even if other creatures were included as targets of the triggering spell.</Pair>
-<Pair title="At 5th Level">You gain a +2 competence bonus on saving throws to resist divine spells.</Pair>
-<Pair title="At 10th Level">You become immune to the <Link to="/misc/confused">confused</Link> condition.</Pair>
-<Pair title="At 15th Level">You gain a +4 competence bonus on saving throws to resist mind-affecting effects.</Pair>
-</Ability>
-<h3 id="ability-oracle_curses-god-meddled-effects">God-Meddled Effects</h3>
-<ScrollContainer id="ability-oracle_curses--table-1"><table>
-<thead>
-<tr>
-<th>d20</th>
-<th>Effect</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td>You provoke an attack of opportunity from one enemy adjacent to you. If no enemy is adjacent, the closest enemy can move its full movement speed in your direction as a free action. If multiple enemies qualify, the GM determines which creature attacks or moves. This movement does not trigger attacks of opportunity.</td>
-</tr>
-<tr>
-<td>2-3</td>
-<td>Your movement speed is halved for 1 round.</td>
-</tr>
-<tr>
-<td>4-5</td>
-<td>You are <Link to="/misc/deafened">deafened</Link> for 1 round.</td>
-</tr>
-<tr>
-<td>6-7</td>
-<td>You are knocked <Link to="/rule/prone">prone</Link>.</td>
-</tr>
-<tr>
-<td>8-10</td>
-<td>You shrink by one size category for 1 round, as <Link to="/spell/reduce_person">reduce person</Link>.</td>
-</tr>
-<tr>
-<td>11-13</td>
-<td>You grow by one size category for 1 round, as <Link to="/spell/enlarge_person">enlarge person</Link>.</td>
-</tr>
-<tr>
-<td>14-15</td>
-<td>Your caster level is treated as 1 higher for the purpose of spell durations for 1 round.</td>
-</tr>
-<tr>
-<td>16-17</td>
-<td>Creatures in squares adjacent to you are pushed 10 feet away from the space you occupy.</td>
-</tr>
-<tr>
-<td>18-19</td>
-<td>You are able to understand all languages for 1 round.</td>
-</tr>
-<tr>
-<td>20</td>
-<td>You gain the benefits of <Link to="/spell/haste">haste</Link> for 1 round.</td>
-</tr>
-</tbody></table></ScrollContainer>
-<Ability id="oraclecursehaunted-haunted-fn3-3" icon={["down","learn"]}>
-<Pair single id="oraclecursehaunted-haunted-fn3-3" flavor="Malevolent spirits follow you wherever you go, causing minor mishaps and strange occurrences (such as unexpected breezes, small objects moving on their own, and faint noises)."><Link to="/oraclecurse/haunted">⮞</Link> Haunted <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-3.3" id="ability-oracle_curses-fake-fn-3.3" data-hash-target to="ability-oracle_curses-fake-fn-3-target">3</InnerLink></sup></Pair>
-<Pair title="Penalty">Retrieving any stored item from your gear requires a <strong className="hl">standard action</strong>, unless it would normally take longer. Any item you drop lands 10 feet away from you in a random direction.</Pair>
-<Pair title="Benefit">Add <Link to="/spell/mage_hand">mage hand</Link> and <Link to="/spell/ghost_sound">ghost sound</Link> to your list of spells known.</Pair>
-<Pair title="At 5th Level">Add <Link to="/spell/levitate">levitate</Link> and <Link to="/spell/minor_image">minor image</Link> to your list of spells known.</Pair>
-<Pair title="At 10th Level">Add <Link to="/spell/telekinesis">telekinesis</Link> to your list of spells known.</Pair>
-<Pair title="At 15th Level">Add <Link to="/spell/reverse_gravity">reverse gravity</Link> to your list of spells known.</Pair>
-</Ability>
-<Ability id="oraclecursehellbound-hellbound-fn1-6" icon={["down","boost","def"]}>
-<Pair single id="oraclecursehellbound-hellbound-fn1-6" flavor="Infernal influence grants you profane insight and weighs on your soul."><Link to="/oraclecurse/hellbound">⮞</Link> Hellbound <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-1.6" id="ability-oracle_curses-fake-fn-1.6" data-hash-target to="ability-oracle_curses-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Penalty">You cannot cast spells with the good or chaotic descriptors, and you can't summon good or chaotic creatures. Good and chaotic creatures instinctively distrust you, and you take a -4 penalty on all <Link to="/skill/diplomacy">Diplomacy</Link> checks against such creatures.</Pair>
-<Pair title="Benefit">You gain a +2 bonus on all <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks.</Pair>
-<Pair title="At 5th Level">You gain a +4 bonus to all saving throws against charm effects.</Pair>
-<Pair title="At 10th Level">You gain immunity to fire.</Pair>
-<Pair title="At 15th Level">Any weapon you wield is treated as lawful and evil for the purposes of overcoming damage reduction.</Pair>
-</Ability>
-<Ability id="oraclecursehive-hive-fn1-7" icon={["down","ranged","def"]}>
-<Pair single id="oraclecursehive-hive-fn1-7" flavor={<>You were exposed at a young age (perhaps even before you were born) to the alien species known as the <Link to="/family/hive">hive</Link>, but this exposure did not result in a full-blown infestation by these otherworldly monsters.</>}><Link to="/oraclecurse/hive">⮞</Link> Hive <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-1.7" id="ability-oracle_curses-fake-fn-1.7" data-hash-target to="ability-oracle_curses-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Penalty">Others (including animals) find the unsightly spines and rough growths that periodically emerge from your flesh to be disturbing and distracting, and you take a -4 penalty on Bluff, Diplomacy, Handle Animal, and Ride checks.</Pair>
-<Pair title="Benefit">Once per day as a <strong className="hl">standard action</strong>, you can cough up an ovoid, leathery sphere that can be hurled as a flask of <Link to="/eq-weapon/acid">acid</Link>, though it becomes inert after 24 hours.</Pair>
-<Pair title="At 5th Level">You gain the benefits of <Link to="/spell/endure_elements">endure elements</Link> in hot environments and are immune to <Link to="/rule/infestations">infestations</Link> (save for those from the hive itself).</Pair>
-<Pair title="At 10th Level">Your skin deformities grow numerous enough to increase your natural armor bonus by 1.</Pair>
-<Pair title="At 15th Level">You gain acid <Link to="/umr/resistance">resistance</Link> 20.</Pair>
-</Ability>
-<Ability id="oraclecursehunger-hunger-fn9" icon={["down","melee","boost","power"]}>
-<Pair single id="oraclecursehunger-hunger-fn9" flavor="Ravenous hunger wracks your body in stressful situations."><Link to="/oraclecurse/hunger">⮞</Link> Hunger <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-9" id="ability-oracle_curses-fake-fn-9" data-hash-target to="ability-oracle_curses-fake-fn-9-target">9</InnerLink></sup></Pair>
-<Pair title="Penalty">You gain none of the benefits from spells or magic items that provide nourishment, such as <Link to="/spell/goodberry">goodberry</Link>, <Link to="/spell/heroes_feast">heroes' feast</Link>, or a <Link to="/magic-ring/ring_of_sustenance">ring of sustenance</Link>. You begin each combat with the <Link to="/misc/sickened">sickened</Link> condition until you deal damage with your bite attack (see below).</Pair>
-<Pair title="Benefit">You gain a <Link to="/umr/bite_attack">bite attack</Link> that deals an amount of piercing damage appropriate for your size (1d8 for a Large creature, 1d6 for Medium, 1d4 for Small) as a secondary natural attack.</Pair>
-<Pair title="At 5th Level">You gain the <Link to="/umr/grab">grab</Link> monster special ability on bite attacks against creatures smaller than yourself.</Pair>
-<Pair title="At 10th Level">Your bite attack deals damage as if you were <Link to="/misc/one_size_category_larger">one size category larger</Link>.</Pair>
-<Pair title="At 15th Level">You gain the <Link to="/umr/blood_drain">blood drain</Link> monster special ability with your bite, dealing 1d2 points of <Link to="/rule/constitution_damage">Constitution damage</Link> at the end of a turn if you grapple a foe.</Pair>
-</Ability>
-<Ability id="oraclecurseinfested-infested-fn4-2" icon={["down","def","learn"]}>
-<Pair single id="oraclecurseinfested-infested-fn4-2" flavor="Insects, spiders, grubs, and other vermin plague you constantly. They crawl in your hair, fill your clothes, and fly or crawl into your mouth, nose, and ears."><Link to="/oraclecurse/infested">⮞</Link> Infested <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-4.2" id="ability-oracle_curses-fake-fn-4.2" data-hash-target to="ability-oracle_curses-fake-fn-4-target">4</InnerLink></sup></Pair>
-<Pair title="Penalty">You take a -4 penalty on <Link to="/skill/diplomacy">Diplomacy</Link> checks, and when you first meet someone, the person's initial attitude toward you starts one level lower than normal. Animals shy away from you - you take a -4 penalty on <Link to="/skill/handle_animal">Handle Animal</Link> checks.</Pair>
-<Pair title="Benefit">You gain a +2 bonus on Fortitude saves versus poisons from insects, scorpions, and spiders, as well as the distraction ability of swarms of such creatures.</Pair>
-<Pair title="At 5th Level">You add <Link to="/spell/vomit_swarm">vomit swarm</Link> to your list of spells known.</Pair>
-<Pair title="At 7th Level">Your bonus on poison and distraction saves increases to +4, and you gain DR 10/- against all swarm damage.</Pair>
-<Pair title="At 13th Level">You add <Link to="/spell/swarm_skin">swarm skin</Link> to your list of spells known.</Pair>
-<Pair title="At 17th Level">You become immune to the swarm damage and the distraction ability of insect, scorpion, and spider swarms.</Pair>
-</Ability>
-<Ability id="oraclecurselame-lame-fn3-4" icon={["down","boost","def"]}>
-<Pair single id="oraclecurselame-lame-fn3-4" flavor="One of your legs is permanently wounded."><Link to="/oraclecurse/lame">⮞</Link> Lame <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-3.4" id="ability-oracle_curses-fake-fn-3.4" data-hash-target to="ability-oracle_curses-fake-fn-3-target">3</InnerLink></sup></Pair>
-<Pair title="Penalty">You reduce your base land speed by 10 feet if your base speed is 30 feet or more. If your base speed is less than 30 feet, your speed is reduced by 5 feet.</Pair>
-<Pair title="Benefit">Your speed is never reduced due to encumbrance.</Pair>
-<Pair title="At 5th Level">You are immune to the <Link to="/misc/fatigued">fatigued</Link> condition (but not exhaustion).</Pair>
-<Pair title="At 10th Level">Your speed is never reduced by armor.</Pair>
-<Pair title="At 15th Level">You are immune to the <Link to="/misc/exhausted">exhausted</Link> condition.</Pair>
-</Ability>
-<Ability id="oraclecurselegalistic-legalistic-fn5-2" icon={["down","boost","def","lower"]}>
-<Pair single id="oraclecurselegalistic-legalistic-fn5-2" flavor="The shackles of Hell impose savage consequences should you violate a covenant, but also imbue you with remarkable guile."><Link to="/oraclecurse/legalistic">⮞</Link> Legalistic <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-5.2" id="ability-oracle_curses-fake-fn-5.2" data-hash-target to="ability-oracle_curses-fake-fn-5-target">5</InnerLink></sup></Pair>
-<Pair title="Penalty">Whenever you break your word (either purposefully or unintentionally), you become <Link to="/misc/sickened">sickened</Link> for 24 hours or until you meet your obligation, whichever comes first.</Pair>
-<Pair title="Benefit">Once per day, you can make a vow to yourself that grants a +4 morale bonus on any one roll you make while trying to fulfill a promise made to another individual.</Pair>
-<Pair title="At 5th Level">You gain a +3 competence bonus on <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/intimidate">Intimidate</Link>, and <Link to="/skill/sense_motive">Sense Motive</Link> checks while talking to an individual one-on-one.</Pair>
-<Pair title="At 10th Level">You can make a new saving throw each minute to resist mind-affecting effects as your subconscious searches for loopholes.</Pair>
-<Pair title="At 15th Level">Any creature that violates its freely given word to you takes a penalty to AC, to spell resistance, and on saving throws against your attacks and abilities equal to your Charisma modifier (minimum 1) for 24 hours.</Pair>
-</Ability>
-<Ability id="oraclecurselich-lich-fn1-8" icon={["down","learn","def"]}>
-<Pair single id="oraclecurselich-lich-fn1-8" flavor={<>Every living spellcaster hides a secret in their flesh - a unique, personalized set of conditions that, when all are fulfilled in the correct order, can trigger the transformation into a <Link to="/template/lich">lich</Link>. Normally, one must expend years and tens of thousands of gold pieces to research this deeply personalized method of attaining immortality. Yet, in a rare few cases, chance and ill fortune can conspire against an unsuspecting spellcaster. You have (unknowingly) fulfilled most (but not all) of the ritualistic components to achieve lichdom. You have yet to turn into an undead creature, but you are close.</>}><Link to="/oraclecurse/lich">⮞</Link> Lich <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-1.8" id="ability-oracle_curses-fake-fn-1.8" data-hash-target to="ability-oracle_curses-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Effects">You take damage from positive energy and heal from negative energy as if you were undead.</Pair>
-<Pair title="At 5th Level">Add <Link to="/spell/control_undead">control undead</Link> to your list of 2nd-level oracle spells known.</Pair>
-<Pair title="At 10th Level">Add <Link to="/spell/undead_anatomy_i">undead anatomy I</Link> to your list of 3rd-level oracle spells known and <Link to="/spell/undead_anatomy_ii">undead anatomy II</Link> to your list of 5th-level oracle spells known.</Pair>
-<Pair title="At 15th Level">You are immune to death effects.</Pair>
-</Ability>
-<Ability id="oraclecurselycanthropy-lycanthropy-fn1-9" icon={["down","boost","learn","def"]}>
-<Pair single id="oraclecurselycanthropy-lycanthropy-fn1-9" flavor="You suffer from a minor form of lycanthropy. The exact animal your body and mind are aligned with can vary, but you should choose an animal that matches your faith thematically."><Link to="/oraclecurse/lycanthropy">⮞</Link> Lycanthropy <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-1.9" id="ability-oracle_curses-fake-fn-1.9" data-hash-target to="ability-oracle_curses-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Penalty">In times of stress or unease, you cannot speak - only growl and snarl like an animal. This ability works similarly to the <Link to="/oraclecurse/tongues">tongues</Link> curse, but whenever you are in combat, you cannot speak at all. This does not interfere with spellcasting but does apply to spells that are language dependent. A character under the effects of <Link to="/spell/speak_with_animals">speak with animals</Link> can understand you, and you can communicate with such characters normally. You can speak with animals when in this condition.</Pair>
-<Pair title="Benefit">Choose one type of animal commonly associated with lycanthropy (such as rats, wolves, or bears); you gain a +4 bonus on <Link to="/skill/handle_animal">Handle Animal</Link> checks with these creatures.</Pair>
-<Pair title="At 5th Level">Add <Link to="/spell/charm_animal">charm animal</Link> to your list of 1st-level oracle spells known and <Link to="/spell/animal_messenger">animal messenger</Link> to your list of 2nd-level oracle spells known.</Pair>
-<Pair title="At 10th Level">Add <Link to="/spell/beast_shape_i">beast shape I</Link> to your list of 3rd-level oracle spells known and <Link to="/spell/beast_shape_ii">beast shape II</Link> to your list of 5th-level oracle spells known.</Pair>
-<Pair title="At 15th Level">You gain <Link to="/rule/damage_reduction">damage reduction</Link> 5/silver, and if you already have this type of damage reduction, it increases in value by 5 (to a maximum of DR 15/silver).</Pair>
-</Ability>
-<Ability id="oraclecurseplagued-plagued-fn1-10" icon={["down","def","learn","boost"]}>
-<Pair single id="oraclecurseplagued-plagued-fn1-10" flavor="You suffer from minor ailments and sicknesses. While you struggle to resist new diseases, you have grown accustomed to the many inconveniences of sickness."><Link to="/oraclecurse/plagued">⮞</Link> Plagued <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-1.10" id="ability-oracle_curses-fake-fn-1.10" data-hash-target to="ability-oracle_curses-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Penalty">You take a -1 penalty on all saving throws against disease or infestation effects.</Pair>
-<Pair title="Benefit">You are immune to the <Link to="/misc/sickened">sickened</Link> condition.</Pair>
-<Pair title="At 5th Level">Add <Link to="/spell/pox_pustules">pox pustules</Link> to your list of 2nd-level oracle spells known.</Pair>
-<Pair title="At 10th Level">Increase the save DC of any disease effect you create by +2, and you raise the number of saves required to recover naturally from these diseases by 1.</Pair>
-<Pair title="At 15th Level">You are immune to the effects of disease and <Link to="/rule/infestations">infestations</Link>, but you can still function as a carrier for sickness.</Pair>
-</Ability>
-<Ability id="oraclecursepossessed-possessed-fn1-11" icon={["down","roll","def","learn"]}>
-<Pair single id="oraclecursepossessed-possessed-fn1-11" flavor="Another mind shares your body, interfering with your control, and it's more difficult for you to concentrate as a result."><Link to="/oraclecurse/possessed">⮞</Link> Possessed <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-1.11" id="ability-oracle_curses-fake-fn-1.11" data-hash-target to="ability-oracle_curses-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Penalty">You take a -2 penalty on all <Link to="/rule/concentration">concentration</Link> checks, and concentrating to maintain a spell duration provokes attacks of opportunity.</Pair>
-<Pair title="Benefit">Whenever a foe attempts to use an effect to possess or dominate you and the effect allows a saving throw to negate, you may roll twice and take the better of the two results.</Pair>
-<Pair title="At 5th Level">If you become <Link to="/misc/dazed">dazed</Link> or <Link to="/misc/stunned">stunned</Link>, you can choose instead to become <Link to="/misc/confused">confused</Link> for twice the duration the daze or stun effect would have normally lasted.</Pair>
-<Pair title="At 10th Level">Add <Link to="/spell/possession">possession</Link> to your list of 5th-level oracle spells known.</Pair>
-<Pair title="At 15th Level">Add <Link to="/spell/greater_object_possession">greater object possession</Link> to your list of 7th-level oracle spells known.</Pair>
-</Ability>
-<Ability id="oraclecursepowerlessprophecy-powerless-prophecy-fn9-2" icon={["down","def","boost"]}>
-<Pair single id="oraclecursepowerlessprophecy-powerless-prophecy-fn9-2" flavor="You are forewarned of danger but can't act to prevent it."><Link to="/oraclecurse/powerless_prophecy">⮞</Link> Powerless Prophecy <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-9.2" id="ability-oracle_curses-fake-fn-9.2" data-hash-target to="ability-oracle_curses-fake-fn-9-target">9</InnerLink></sup></Pair>
-<Pair title="Penalty">You can't take any actions in a surprise round, including free actions, except for <Link to="/arc-oracle/cyclopean_seer">flash of insight</Link>. In the absence of a surprise round, you are <Link to="/misc/staggered">staggered</Link> for the entire first round of combat.</Pair>
-<Pair title="Benefit">You gain <Link to="/ability/uncanny_dodge">uncanny dodge</Link>, as the rogue class feature.</Pair>
-<Pair title="At 5th Level">You gain a +4 insight bonus on initiative checks.</Pair>
-<Pair title="At 10th Level">You gain <Link to="/ability/improved_uncanny_dodge">improved uncanny dodge</Link> as the rogue ability, using your oracle level as your rogue level.</Pair>
-<Pair title="At 15th Level">You gain a +4 insight bonus on all your saving throws and to your AC during surprise rounds and when you are otherwise unaware of an attack.</Pair>
-</Ability>
-<Ability id="oraclecursepranked-pranked-fn10" icon={["down","learn"]}>
-<Pair single id="oraclecursepranked-pranked-fn10" flavor="Capricious fey constantly bedevil you, playing pranks on you such as tying your shoelaces together, hiding your gear, making inappropriate noises or smells at formal events, and mimicking your voice to tell embarrassing lies."><Link to="/oraclecurse/pranked">⮞</Link> Pranked <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-10" id="ability-oracle_curses-fake-fn-10" data-hash-target to="ability-oracle_curses-fake-fn-10-target">10</InnerLink></sup></Pair>
-<Pair title="Penalty">You take a -4 penalty on initiative checks, in addition to any social consequences the fey mischief may cause for you. Furthermore, whenever you attempt to retrieve a stored item from your gear, there's a 25% chance that you fail to find it with that action.</Pair>
-<Pair title="Benefit">Add <Link to="/spell/faerie_fire">faerie fire</Link> and <Link to="/spell/ghost_sound">ghost sound</Link> to your list of spells known.</Pair>
-<Pair title="At 5th Level">Add <Link to="/spell/glitterdust">glitterdust</Link> and <Link to="/spell/minor_image">minor image</Link> to your list of spells known.</Pair>
-<Pair title="At 10th Level">Add <Link to="/spell/confusion">confusion</Link> to your list of spells known as a 5th-level spell.</Pair>
-<Pair title="At 15th Level">Add <Link to="/spell/project_image">project image</Link> to your list of spells known.</Pair>
-</Ability>
-<Ability id="oraclecursepromethean-promethean-fn1-12" icon={["down","def"]}>
-<Pair single id="oraclecursepromethean-promethean-fn1-12" flavor="Your body is falling apart, forcing you to rely on mechanical augmentations or replacements to keep yourself alive."><Link to="/oraclecurse/promethean">⮞</Link> Promethean <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-1.12" id="ability-oracle_curses-fake-fn-1.12" data-hash-target to="ability-oracle_curses-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Penalty">You take 1 point of <Link to="/rule/constitution_damage">Constitution damage</Link> each day.</Pair>
-<Pair title="Benefit">After taking your Constitution damage, you ignore the first point of Strength, Dexterity, or Constitution damage you take for the remainder of that day.</Pair>
-<Pair title="At 5th Level">You gain a +2 bonus on all saving throws on effects that cause <Link to="/rule/ability_damage_drain">ability damage, ability drain, or ability score penalties</Link>.</Pair>
-<Pair title="At 10th Level">This bonus increases to +6.</Pair>
-<Pair title="At 15th Level">Any effect that would normally deal ability drain on you instead deals ability damage whenever you successfully save against the effect.</Pair>
-</Ability>
-<Ability id="oraclecurseputrid-putrid-fn11" icon={["down","def"]}>
-<Pair single id="oraclecurseputrid-putrid-fn11" flavor="Your presence causes liquids to spoil."><Link to="/oraclecurse/putrid">⮞</Link> Putrid <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-11" id="ability-oracle_curses-fake-fn-11" data-hash-target to="ability-oracle_curses-fake-fn-11-target">11</InnerLink></sup></Pair>
-<Pair title="Penalty">Your presence stagnates water and befouls all liquids carried on your person, including magical items such as potions, and unattended sources of still water within 10 feet. Creatures who drink such a liquid are <Link to="/misc/nauseated">nauseated</Link> for 1 round (though potions and similar liquids still convey their usual benefits as well). Affected liquids remain stagnant for 1 hour after leaving your presence. <Link to="/spell/purify_food_and_drink">Purify food and drink</Link> can cleanse a stagnant potion or water with a successful caster level check (DC = 15 + double the potion's caster level).</Pair>
-<Pair title="Benefit">None.</Pair>
-<Pair title="At 5th Level">You become immune to the nauseated effects created by liquids your presence has befouled.</Pair>
-<Pair title="At 10th Level">Your body is covered in noxious slime, and each creature adjacent to you at the beginning of its turn must succeed at a Fortitude save (DC = 10 + half your oracle level + your Charisma modifier) or become <Link to="/misc/sickened">sickened</Link> for 1 round.</Pair>
-<Pair title="At 15th Level">Your slime coating grants you DR 10/-.</Pair>
-</Ability>
-<Ability id="oraclecursereclusive-reclusive-fn10-2" icon={["down","boost","def"]}>
-<Pair single id="oraclecursereclusive-reclusive-fn10-2" flavor="You are reclusive and paranoid to the point that your allies cannot easily help you in times of stress or unease."><Link to="/oraclecurse/reclusive">⮞</Link> Reclusive <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-10.2" id="ability-oracle_curses-fake-fn-10.2" data-hash-target to="ability-oracle_curses-fake-fn-10-target">10</InnerLink></sup></Pair>
-<Pair title="Penalty">Whenever you are in combat, your allies must succeed at a melee touch attack to affect you with touch spells, and you must attempt saving throws to resist all spells cast by anyone other than yourself, even those cast by allies.</Pair>
-<Pair title="Benefit">Instantaneous spells you cast only on yourself affect you as though your caster level were 1 higher.</Pair>
-<Pair title="At 5th Level">Any spells you cast only on yourself affect you as if they were modified by the <Link to="/feat/extend_spell">Extend Spell</Link> feat. This does not increase their level or casting time.</Pair>
-<Pair title="At 10th Level">You are immune to charm spells and spell-like abilities.</Pair>
-<Pair title="At 15th Level">You gain spell resistance equal to 10 + your oracle level.</Pair>
-</Ability>
-<Ability id="oraclecursescourge-scourge-fn11-2" icon={["down","power","learn"]}>
-<Pair single id="oraclecursescourge-scourge-fn11-2" flavor="You are a blight on the natural world."><Link to="/oraclecurse/scourge">⮞</Link> Scourge <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-11.2" id="ability-oracle_curses-fake-fn-11.2" data-hash-target to="ability-oracle_curses-fake-fn-11-target">11</InnerLink></sup></Pair>
-<Pair title="Penalty">Bizarre natural hazards develop within a 300-foot radius around you whenever you linger in a natural area for more than 10 minutes, as <Link to="/spell/lesser_curse_terrain">lesser curse terrain</Link>. You cannot choose the hazards or their locations.</Pair>
-<Pair title="Benefit">Your movement is unimpeded by undergrowth, as a druid's <Link to="/ability/woodland_stride">woodland stride</Link> ability, as plants wither away in your footsteps.</Pair>
-<Pair title="At 5th Level">Add <Link to="/spell/feast_of_ashes">feast of ashes</Link> to your list of 2nd-lvel oracle spells known.</Pair>
-<Pair title="At 10th Level">Add <Link to="/spell/explosion_of_rot">explosion of rot</Link> to your list of 4th-level oracle spells known.</Pair>
-<Pair title="At 15th Level">Add <Link to="/spell/swarm_skin">swarm skin</Link> to your list of 6th-level oracle spells known.</Pair>
-</Ability>
-<Ability id="oraclecurseshadowbound-shadowbound-fn1-13" icon={["down","power","learn"]}>
-<Pair single id="oraclecurseshadowbound-shadowbound-fn1-13" flavor="Your pigmentation is oddly colorless, and your eyes are highly sensitive to light."><Link to="/oraclecurse/shadowbound">⮞</Link> Shadowbound <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-1.13" id="ability-oracle_curses-fake-fn-1.13" data-hash-target to="ability-oracle_curses-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Penalty">You are <Link to="/misc/blinded">blinded</Link> for 1 round when exposed to normal or bright light and <Link to="/misc/dazzled">dazzled</Link> while in such a lit area.</Pair>
-<Pair title="Benefit">You gain darkvision to a range of 30 feet.</Pair>
-<Pair title="At 5th Level">The range of your darkvision increases by 30 feet.</Pair>
-<Pair title="At 10th Level">Add <Link to="/spell/shadow_conjuration">shadow conjuration</Link> to your list of 4th-level oracle spells known and <Link to="/spell/shadow_evocation">shadow evocation</Link> to your list of 5th-level oracle spells known.</Pair>
-<Pair title="At 15th Level">Add <Link to="/spell/shadow_walk">shadow walk</Link> to your list of 6th-level oracle spells known.</Pair>
-</Ability>
-<Ability id="oraclecurseshatteredpsyche-shattered-psyche-fn12" icon={["down","def"]}>
-<Pair single id="oraclecurseshatteredpsyche-shattered-psyche-fn12" flavor="Your mind is crowded with dozens of voices, fragmented snippets of your past lives."><Link to="/oraclecurse/shattered_psyche">⮞</Link> Shattered Psyche <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-12" id="ability-oracle_curses-fake-fn-12" data-hash-target to="ability-oracle_curses-fake-fn-12-target">12</InnerLink></sup></Pair>
-<Pair title="Penalty">You take a -2 penalty on all Intelligence-based skill checks, Wisdom-based skill checks, and <Link to="/rule/concentration">concentration</Link> checks.</Pair>
-<Pair title="Benefit">You gain a +4 competence bonus on saving throws made against mind-affecting effects.</Pair>
-<Pair title="At 5th Level">You're <Link to="/umr/immune">immune</Link> to charm effects.</Pair>
-<Pair title="At 10th Level">You're immune to compulsion effects.</Pair>
-<Pair title="At 15th Level">You're immune to all mind-affecting effects.</Pair>
-</Ability>
-<Ability id="oraclecursesitebound-site-bound-fn9-3" icon={["down","boost"]}>
-<Pair single id="oraclecursesitebound-site-bound-fn9-3" flavor="You are bound to a particular place."><Link to="/oraclecurse/site_bound">⮞</Link> Site-Bound <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-9.3" id="ability-oracle_curses-fake-fn-9.3" data-hash-target to="ability-oracle_curses-fake-fn-9-target">9</InnerLink></sup></Pair>
-<Pair title="Penalty">You form a bond with a particular 10-foot square, and must remain within 1,500 feet of that site or immediately become <Link to="/misc/sickened">sickened</Link>. You must succeed at a DC 15 Fortitude save each minute you spend outside of the boundary or become <Link to="/misc/nauseated">nauseated</Link>. For every hour spent outside of the boundary, you also take 1d4 points of <Link to="/rule/constitution_damage">Constitution damage</Link> (no save).</Pair>
-<Pair title="Benefit">When within range of your bonded site, you gain a +1 bonus to your caster level when casting oracle spells.</Pair>
-<Pair title="At 5th Level">The radius increases from 1,500 feet to 2,250 feet.</Pair>
-<Pair title="At 10th Level">The radius increases to 3,000 feet and the bonus to your caster level when casting oracle spells within the boundary increases by 1.</Pair>
-<Pair title="At 15th Level">You can move up to 1 mile from your bonded site.</Pair>
-</Ability>
-<Ability id="oraclecursesongbound-song-bound-fn13" icon={["down","power","learn","boost"]}>
-<Pair single id="oraclecursesongbound-song-bound-fn13" flavor="Whenever you speak, you are compelled to sing loudly, and you draw out even short utterances with vocal scales or simple melodies."><Link to="/oraclecurse/song_bound">⮞</Link> Song-Bound <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-13" id="ability-oracle_curses-fake-fn-13" data-hash-target to="ability-oracle_curses-fake-fn-13-target">13</InnerLink></sup></Pair>
-<Pair title="Prerequisites"><Link to="/race/merfolk">Merfolk</Link></Pair>
-<Pair title="Penalty">You cannot speak in less than a loud voice, although you may choose not to speak.</Pair>
-<Pair title="Benefit">You can perform the <Link to="/performance/countersong">countersong</Link> bardic performance (using Perform [sing] only) for a number of rounds per day equal to your oracle level. If you gain the <Link to="/ability/bardic_performance">bardic performance</Link> class feature, these rounds are in addition to any other bardic performance rounds you gain, but they can be used only for the <em>countersong</em> bardic performance.</Pair>
-<Pair title="At 5th Level">Add <Link to="/spell/command">command</Link> and <Link to="/spell/suggestion">suggestion</Link> to your list of spells known.</Pair>
-<Pair title="At 10th Level">Add 1 to the DC of saving throws against language-dependent spells you cast.</Pair>
-<Pair title="At 15th Level">Add <Link to="/spell/greater_command">greater command</Link> and <Link to="/spell/mass_suggestion">mass suggestion</Link> to your list of spells known.</Pair>
-</Ability>
-<Ability id="oraclecursetongues-tongues-fn3-5" icon={["down","power","magic"]}>
-<Pair single id="oraclecursetongues-tongues-fn3-5" flavor="In times of stress or unease, you speak in tongues."><Link to="/oraclecurse/tongues">⮞</Link> Tongues <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-3.5" id="ability-oracle_curses-fake-fn-3.5" data-hash-target to="ability-oracle_curses-fake-fn-3-target">3</InnerLink></sup></Pair>
-<Pair title="Penalty">Pick one of the following languages: Abyssal, Aklo, Aquan, Auran, Celestial, Ignan, Infernal, or Terran. Whenever you are in combat, you can only speak and understand the selected language. This does not interfere with spellcasting, but it does apply to spells that are <Link to="/spelldef/language_dependent">language dependent</Link>.</Pair>
-<Pair title="Benefit">You gain the selected language as a bonus language.</Pair>
-<Pair title="At 5th Level">Pick an additional language to speak in combat and add it to your list of known languages.</Pair>
-<Pair title="At 10th Level">You can understand any spoken language, as if under the effects of <Link to="/spell/tongues">tongues</Link>, even during combat.</Pair>
-<Pair title="At 15th Level">You can speak and understand any language, but your speech is still restricted during combat.</Pair>
-</Ability>
-<Ability id="oraclecursetoxicblood-toxic-blood-fn14" icon={["down","def","touch"]}>
-<Pair single id="oraclecursetoxicblood-toxic-blood-fn14" flavor="Your body is ravaged by a potent, slow-acting poison that resists all treatment."><Link to="/oraclecurse/toxic_blood">⮞</Link> Toxic Blood <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-14" id="ability-oracle_curses-fake-fn-14" data-hash-target to="ability-oracle_curses-fake-fn-14-target">14</InnerLink></sup></Pair>
-<Pair title="Penalty">Whenever you must attempt a Fortitude save to resist a poison effect, roll twice and take the lowest result. Additionally, you need one more consecutive successful save to end an ongoing poison. You lose any immunity to poison you have upon receiving this curse, and you become immune to <Link to="/spell/delay_poison">delay poison</Link> and <Link to="/spell/neutralize_poison">neutralize poison</Link>, as well as other attempts to suppress or remove the poison from which you are suffering.</Pair>
-<Pair title="Benefit">You gain the <Link to="/ability/poison_use">poison use</Link> ability.</Pair>
-<Pair title="At 5th Level"><p>You are so envenomed that your touch becomes poisonous. Once per day for every 4 oracle levels you have, you can deliver a unique contact poison as a touch attack or via an unarmed strike or natural weapon.</p>
-<AffInfo type="Poison; Contact" save="Fort 10 + 1/2 your oracle level + your Cha modifier" freq="1/round for 5 rounds" eff={<>1d2 <Link to="/rule/dex_damage">Dex damage</Link></>} cure1 icon="p" />
-</Pair>
-<Pair title="At 10th Level">The poison deals 1d3 points of Dexterity damage per round for 7 rounds.</Pair>
-<Pair title="At 15th Level">You can expend a use of your poison touch to transfer any poison effect you are currently experiencing from yourself to another creature. The touched creature must immediately attempt a saving throw against the poison (using the poison's initial DC and duration for a single dose, regardless of how many doses are currently affecting you). If the creature fails its save, the poison ceases to act on you, as if you had succeeded at all the necessary saves (this bypasses your immunity to effects that remove poison).</Pair>
-</Ability>
-<Ability id="oraclecursevampirism-vampirism-fn1-14" icon={["down","def","learn"]}>
-<Pair single id="oraclecursevampirism-vampirism-fn1-14" flavor="You crave the taste of fresh, warm blood."><Link to="/oraclecurse/vampirism">⮞</Link> Vampirism <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-1.14" id="ability-oracle_curses-fake-fn-1.14" data-hash-target to="ability-oracle_curses-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Effects">You take damage from positive energy and heal from negative energy as if you were undead.</Pair>
-<Pair title="At 5th Level">You gain <Link to="/umr/channel_resistance">channel resistance</Link> +4.</Pair>
-<Pair title="At 10th Level">You add <Link to="/spell/vampiric_touch">vampiric touch</Link> to your list of 3rd-level oracle spells known and <Link to="/spell/undead_anatomy_ii">undead anatomy II</Link> to your list of 5th-level oracle spells known.</Pair>
-<Pair title="At 15th Level">You gain <Link to="/rule/damage_reduction">damage reduction</Link> 5/magic.</Pair>
-</Ability>
-<Ability id="oraclecursewasting-wasting-fn3-6" icon={["down","def"]}>
-<Pair single id="oraclecursewasting-wasting-fn3-6" flavor="Your body is slowly rotting away."><Link to="/oraclecurse/wasting">⮞</Link> Wasting <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-3.6" id="ability-oracle_curses-fake-fn-3.6" data-hash-target to="ability-oracle_curses-fake-fn-3-target">3</InnerLink></sup></Pair>
-<Pair title="Penalty">You take a -4 penalty on Charisma-based skill checks, except for <Link to="/skill/intimidate">Intimidate</Link>.</Pair>
-<Pair title="Benefit">You gain a +4 competence bonus on saves made against disease.</Pair>
-<Pair title="At 5th Level">You are immune to the <Link to="/misc/sickened">sickened</Link> condition (but not nauseated).</Pair>
-<Pair title="At 10th Level">You gain immunity to disease.</Pair>
-<Pair title="At 15th Level">You are immune to the <Link to="/misc/nauseated">nauseated</Link> condition.</Pair>
-</Ability>
-<Ability id="oraclecursewolfscarredface-wolfscarred-face-fn2-2" icon={["down","melee","learn","boost"]}>
-<Pair single id="oraclecursewolfscarredface-wolfscarred-face-fn2-2" flavor="Your face is deformed, as though you were born with a wolf's muzzle instead of an ordinary nose and jaw. Many mistake you for a werewolf, and in areas plagued by lycanthropes, you must take pains to hide your face."><Link to="/oraclecurse/wolfscarred_face">⮞</Link> Wolfscarred Face <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-2.2" id="ability-oracle_curses-fake-fn-2.2" data-hash-target to="ability-oracle_curses-fake-fn-2-target">2</InnerLink></sup></Pair>
-<Pair title="Penalty">You have a severe speech impediment, and any spells you cast with a verbal component have a 20% chance of failing, wasting your action but not expending the spell.</Pair>
-<Pair title="Benefit">You gain a <Link to="/umr/natural_attack">natural bite attack</Link> that deals 1d4 points of damage if you are a Medium creature or 1d3 points of damage if you are Small.</Pair>
-<Pair title="At 5th Level">You add <Link to="/spell/magic_fang">magic fang</Link> to your list of known spells and your bite damage increases to 1d6 if you are Medium or 1d4 if you are Small.</Pair>
-<Pair title="At 10th Level">The damage dealt by your bite attack increases to 1d8 if you are Medium or 1d6 if you are Small.</Pair>
-<Pair title="At 15th Level">You add <Link to="/spell/greater_magic_fang">greater magic fang</Link> to your list of known spells and the damage dealt by your bite attack increases to 2d6 if you are Medium or 1d8 if you are Small.</Pair>
-</Ability>
-<Ability id="oraclecursewrecker-wrecker-fn5-3" icon={["down","skill","lower","boost"]}>
-<Pair single id="oraclecursewrecker-wrecker-fn5-3" flavor={<>The destructive power of <Link to="/rule/the_abyss">the Abyss</Link> and its teeming hordes of <Link to="/family/demon">demons</Link> seeps from your very pores and into your belongings and surroundings.</>}><Link to="/oraclecurse/wrecker">⮞</Link> Wrecker <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-5.3" id="ability-oracle_curses-fake-fn-5.3" data-hash-target to="ability-oracle_curses-fake-fn-5-target">5</InnerLink></sup></Pair>
-<Pair title="Penalty">Held objects gain the <Link to="/misc/broken">broken</Link> condition when you use or equip them but regain their actual condition if employed by anyone else. If a held item is restored to unbroken condition, it becomes broken again the following round.</Pair>
-<Pair title="Benefit"><Link to="/skill/disable_device">Disable Device</Link> becomes a class skill for you and you can make Disable Device checks to destroy nonmagical traps as a <strong className="hl">move action</strong> without the need to use tools or take any action beyond simply touching it.</Pair>
-<Pair title="At 5th Level">Whenever you attempt to damage an object with a melee attack, reduce its hardness by an amount equal to your oracle level before determining the damage you deal with that attack.</Pair>
-<Pair title="At 10th Level">Any attacks you make against objects and constructs automatically bypass any damage reduction they may possess except epic.</Pair>
-<Pair title="At 15th Level">Whenever you are dealt damage by an attack with a manufactured weapon, you can require the weapon's wielder to make a Reflex save (DC 10 + 1/2 your oracle level + your Charisma modifier) to avoid having the weapon collapse into dust immediately after striking you (magical weapons receive an additional saving throw against this effect).</Pair>
-</Ability>
-<Ability id="oraclecursewreckingmysticism-wrecking-mysticism-fn15" icon={["down","power","learn"]}>
-<Pair single id="oraclecursewreckingmysticism-wrecking-mysticism-fn15" flavor="A divine entity has blessed you with a source of eldritch power."><Link to="/oraclecurse/wrecking_mysticism">⮞</Link> Wrecking Mysticism <sup><InnerLink showBacklink="backlink-ability-oracle_curses-fake-fn-15" id="ability-oracle_curses-fake-fn-15" data-hash-target to="ability-oracle_curses-fake-fn-15-target">15</InnerLink></sup></Pair>
-<Pair title="Prerequisites"><Link to="/race/kitsune">Kitsune</Link></Pair>
-<Pair title="Penalty">This power erodes your fortitude, increasing by 50% the duration of any poison, <Link to="/misc/sickened">sickened</Link> condition, or <Link to="/misc/nauseated">nauseated</Link> condition affecting you.</Pair>
-<Pair title="Benefit">Whenever you would gain a mystery spell, you can gain <Link to="/feat/magical_tail">Magical Tail</Link> as a bonus feat instead. Once this choice has been made, it cannot be changed. You cannot replace a bonus spell granted to you by an oracle archetype with Magical Tail, even if it replaces a mystery spell.</Pair>
-<Pair title="At 5th Level">Add <Link to="/spell/minor_image">minor image</Link> and <Link to="/spell/ventriloquism">ventriloquism</Link>.</Pair>
-<Pair title="At 10th Level">Add <Link to="/spell/magic_jar">magic jar</Link> to your list of spells known.</Pair>
-<Pair title="At 15th Level">Add <Link to="/spell/project_image">project image</Link> to your list of spells known.</Pair>
-</Ability>
 <section data-footnotes><h3 id="ability-oracle_curses-label">Footnotes</h3><ol>
 <li id="ability-oracle_curses-fake-fn-1-target"><p><Link to="/source/horror_realms">Horror Realms</Link> <InnerLink aria-label="Back to reference 1" id="backlink-ability-oracle_curses-fake-fn-1" data-hash-target to="ability-oracle_curses-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-ability-oracle_curses-fake-fn-1.2" data-hash-target to="ability-oracle_curses-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-ability-oracle_curses-fake-fn-1.3" data-hash-target to="ability-oracle_curses-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-ability-oracle_curses-fake-fn-1.4" data-hash-target to="ability-oracle_curses-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-ability-oracle_curses-fake-fn-1.5" data-hash-target to="ability-oracle_curses-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-ability-oracle_curses-fake-fn-1.6" data-hash-target to="ability-oracle_curses-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-ability-oracle_curses-fake-fn-1.7" data-hash-target to="ability-oracle_curses-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-ability-oracle_curses-fake-fn-1.8" data-hash-target to="ability-oracle_curses-fake-fn-1.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-ability-oracle_curses-fake-fn-1.9" data-hash-target to="ability-oracle_curses-fake-fn-1.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-ability-oracle_curses-fake-fn-1.10" data-hash-target to="ability-oracle_curses-fake-fn-1.10">↩<sup>10</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-ability-oracle_curses-fake-fn-1.11" data-hash-target to="ability-oracle_curses-fake-fn-1.11">↩<sup>11</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-ability-oracle_curses-fake-fn-1.12" data-hash-target to="ability-oracle_curses-fake-fn-1.12">↩<sup>12</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-ability-oracle_curses-fake-fn-1.13" data-hash-target to="ability-oracle_curses-fake-fn-1.13">↩<sup>13</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-ability-oracle_curses-fake-fn-1.14" data-hash-target to="ability-oracle_curses-fake-fn-1.14">↩<sup>14</sup></InnerLink></p></li>
 <li id="ability-oracle_curses-fake-fn-2-target"><p><Link to="/source/blood_of_angels">Blood of Angels</Link> <InnerLink aria-label="Back to reference 2" id="backlink-ability-oracle_curses-fake-fn-2" data-hash-target to="ability-oracle_curses-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-ability-oracle_curses-fake-fn-2.2" data-hash-target to="ability-oracle_curses-fake-fn-2.2">↩<sup>2</sup></InnerLink></p></li>

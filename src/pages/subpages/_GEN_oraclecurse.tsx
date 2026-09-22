@@ -433,7 +433,7 @@ const _song_bound = {title: "Song-Bound", jsx: <><p><strong>Sources</strong> <Li
 <Pair single id="song-bound" flavor="Whenever you speak, you are compelled to sing loudly, and you draw out even short utterances with vocal scales or simple melodies.">Song-Bound</Pair>
 <Pair title="Prerequisites"><Link to="/race/merfolk">Merfolk</Link></Pair>
 <Pair title="Penalty">You cannot speak in less than a loud voice, although you may choose not to speak.</Pair>
-<Pair title="Benefit">You can perform the <Link to="/performance/countersong">countersong</Link> bardic performance (using Perform [sing] only) for a number of rounds per day equal to your oracle level. If you gain the <Link to="/ability/bardic_performance">bardic performance</Link> class feature, these rounds are in addition to any other bardic performance rounds you gain, but they can be used only for the <em>countersong</em> bardic performance.</Pair>
+<Pair title="Benefit">You can perform the <Link to="/performance/countersong">countersong</Link> bardic performance (using <Link to="/skill/perform">Perform</Link> [sing] only) for a number of rounds per day equal to your oracle level. If you gain the <Link to="/ability/bardic_performance">bardic performance</Link> class feature, these rounds are in addition to any other bardic performance rounds you gain, but they can be used only for the <em>countersong</em> bardic performance.</Pair>
 <Pair title="At 5th Level">Add <Link to="/spell/command">command</Link> and <Link to="/spell/suggestion">suggestion</Link> to your list of spells known.</Pair>
 <Pair title="At 10th Level">Add 1 to the DC of saving throws against language-dependent spells you cast.</Pair>
 <Pair title="At 15th Level">Add <Link to="/spell/greater_command">greater command</Link> and <Link to="/spell/mass_suggestion">mass suggestion</Link> to your list of spells known.</Pair>
@@ -491,7 +491,7 @@ const _wolfscarred_face = {title: "Wolfscarred Face", jsx: <><p><strong>Sources<
 </Ability>
 </>};
 const _wrecker = {title: "Wrecker", jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
-<Ability id="wrecker" icon={["down","skill","lower","boost"]}>
+<Ability id="wrecker" icon={["down","skill","power","lower","boost"]}>
 <Pair single id="wrecker" flavor={<>The destructive power of <Link to="/rule/the_abyss">the Abyss</Link> and its teeming hordes of <Link to="/family/demon">demons</Link> seeps from your very pores and into your belongings and surroundings.</>}>Wrecker</Pair>
 <Pair title="Penalty">Held objects gain the <Link to="/misc/broken">broken</Link> condition when you use or equip them but regain their actual condition if employed by anyone else. If a held item is restored to unbroken condition, it becomes broken again the following round.</Pair>
 <Pair title="Benefit"><Link to="/skill/disable_device">Disable Device</Link> becomes a class skill for you and you can make Disable Device checks to destroy nonmagical traps as a <strong className="hl">move action</strong> without the need to use tools or take any action beyond simply touching it.</Pair>

@@ -913,10 +913,16 @@
 					"",
 					"‹SOURCE Advanced Player's Guide/43›  ",
 					"Each oracle is cursed, but this curse comes with a benefit as well as a hindrance. This choice is made at 1st level, and once made, it cannot be changed. The oracle's curse cannot be removed or dispelled without the aid of a deity. An oracle's curse is based on her oracle level plus one for every two levels or Hit Dice other than oracle. Each oracle must choose one of the following curses.",
-					""
+					"| Curse | Description | Prereqs |",
+					"| --- | --- | --- |"
 				],
 				{
-					"limit": "curse"
+					"limit": "curse",
+					"blockReplacements": [
+						["^.*::ab\\{([^}]+)\\}.*$", "$1"],
+						["^.*title=\\\"([^\"]*)\\\" icon=([^ ]+) (?:prereq=\\\"([^\\\"]+)\\\" )?flavor=\\\"([^\\\"]+)\\\".*$", "| ‹oraclecurse/$1› | @I-$2 $4 | $3 |"]
+					],
+					"join": ""
 				}
 			]
 		},
