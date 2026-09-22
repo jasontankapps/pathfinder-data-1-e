@@ -455,7 +455,7 @@
 				{
 					"limit": "Elemental",
 					"join": "!-N-!",
-					"replacements": [
+					"inlineReplacements": [
 						[ "&Elemental&", "" ]
 					]
 				},

@@ -277,9 +277,8 @@
 				],
 				{
 					"limit": "Master Ki Tricks",
-					"replacements": [
-						[ "&Next1&", "" ],
-						[ "&Next2&", "" ]
+					"inlineReplacements": [
+						[ "&Next[12]&", "" ]
 					]
 				},
 				[

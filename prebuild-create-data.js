@@ -636,7 +636,7 @@ const convertCompileableDescription = ({
 };
 
 // Convert markdown code into HTML, updating `$.flags` to note the outside Tags being used
-const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
+const compileMultipleTogether = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 	const { source, targets } = compileFrom;
 	const {not_found, ...found} = basic_data_by_link[source];
 	const desc = [];
@@ -651,9 +651,11 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 		const {
 			limit, sort, link,
 			join = "!-N-!",
-			replacements = [],
+			inlineReplacements = [],
+			blockReplacements = [],
 			footnoteMarker = "&FN&",
-			linkMarker = "&L&"
+			linkMarker = "&L&",
+			ignoreFootnotes
 		} = info;
 		// Track down everything we've been asked for.
 		const pool = [];
@@ -729,7 +731,10 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 			});
 		}
 		// Convert replacements array to RegExp/string combos
-		const rx = replacements.map(([regex, repl]) => {
+		const irx = inlineReplacements.map(([regex, repl]) => {
+			return [ new RegExp(regex, "g"), repl ];
+		});
+		const brx = blockReplacements.map(([regex, repl]) => {
 			return [ new RegExp(regex, "g"), repl ];
 		});
 		// Assemble the compilation.
@@ -740,7 +745,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 			// Find indentation level and gather props
 			const {name: n, compilationSources, description, level = 0} = obj;
 			// Gather sources
-			const sources = compilationSources.map(source => {
+			const sources = ignoreFootnotes ? [] : compilationSources.map(source => {
 				const [title, pg] = source;
 				const link = pg ? `‹source/${title}› pg. ${pg}` : `‹source/${title}›`;
 				const counter = link + "count";
@@ -758,9 +763,9 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 			const linkcharacter = `‹${source}/${propname}>«⮞› `;
 			const d = description.map(
 				(line, j) => {
-					// Run the replacements
+					// Run the inline replacements
 					let replaced = line;
-					rx.forEach(([regex, repl]) => {
+					irx.forEach(([regex, repl]) => {
 						replaced = replaced.replace(regex, repl);
 					});
 					return (
@@ -772,9 +777,13 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 				}
 			);
 			// Add the 'join' if needed
-			i && d.unshift(join);
+			// Smoosh description together and run the block replacements.
+			const desc = ((i && join) ? join : "") + brx.reduce((acc, current) => {
+				const [regex, repl] = current;
+				return acc.replace(regex, repl);
+			}, d.join("!-N-!"));
 			// Add the description
-			compilation.push(d.join("!-N-!"));
+			compilation.push(desc);
 			// check for shifts in level
 			if(i !== max) {
 				const next = pool[i + 1][1].level || 0;
@@ -1053,7 +1062,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 				groupFlags.list = true;
 				if (compileFrom && !copyof && !redirect) {
 					temporaryFlags.mainCompilation = true;
-					converted = compile(compileFrom, `${link}-${prop}-`, temporaryFlags, "IonList lines=\"full\"", "IonList");
+					converted = compileMultipleTogether(compileFrom, `${link}-${prop}-`, temporaryFlags, "IonList lines=\"full\"", "IonList");
 				} else if (!copyof && !redirect) {
 					converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables, "IonList lines=\"full\"", "IonList");
 				}
@@ -1107,7 +1116,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 					if(d) {
 						converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables);
 					} else if (compileFrom) {
-						converted = compile(compileFrom, `${link}-${prop}-`, temporaryFlags, `div className="compilation"`, "div");
+						converted = compileMultipleTogether(compileFrom, `${link}-${prop}-`, temporaryFlags, `div className="compilation"`, "div");
 					} else {
 						logError(`ERROR: ${link}/${prop} does not have a description or a compileFrom property.`);
 						converted = [ "ERROR: This entry has no description.", {} ];

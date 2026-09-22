@@ -272,7 +272,7 @@
 					"limit": {
 						"regex": "^Equipment"
 					},
-					"replacements": [
+					"inlineReplacements": [
 						[ "\\bjl\\b[^ }]* *", "" ]
 					]
 				},

@@ -723,7 +723,7 @@
 				{
 					"limit": "Totem",
 					"join": "",
-					"replacements": [
+					"inlineReplacements": [
 						[ "&Totem&", "" ]
 					]
 				}

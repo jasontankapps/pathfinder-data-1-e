@@ -32,7 +32,7 @@
 				{
 					"limit": { "omit": [] },
 					"join": "!-N-!",
-					"replacements": [
+					"inlineReplacements": [
 						[ "::h2\\[(.+)\\]", "::hl2[eidolon/$1]{jl}" ]
 					]
 				}
@@ -1082,7 +1082,7 @@
 				],
 				{
 					"limit": { "omit": [] },
-					"replacements": [
+					"inlineReplacements": [
 						["\\{(title=\\\"&L&([^&(]+) )", "{jl=\"$2\" $1"]
 					]
 				}

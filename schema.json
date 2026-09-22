@@ -151,16 +151,7 @@
 							"multipleOf": 1
 						},
 						"replacements": {
-							"type": "array",
-							"items": {
-								"type": "array",
-								"items": {
-									"type": "string"
-								},
-								"minItems": 2,
-								"maxItems": 2
-							},
-							"$comment": "This is an array of two-string arrays, the first string being a regex expression, the second being a replacement expression."
+							"$ref": "#replacementArray"
 						},
 						"footnoteMarker": {
 							"type": "string",
@@ -320,6 +311,21 @@
 				{ "type": ["string", "number"] },
 				{ "$ref": "#tablelink" }
 			]
+		},
+		"replacementArray": {
+			"$anchor": "replacementArray",
+			"type": "array",
+			"items": {
+				"type": "array",
+				"items": {
+					"type": "string"
+				},
+				"minItems": 2,
+				"maxItems": 2,
+				"unevaluatedItems": false
+			},
+			"unevaluatedItems": false,
+			"$comment": "This is an array of two-string arrays, the first string being a regex expression, the second being a replacement expression."
 		},
 		"tables": {
 			"$anchor": "tables",
@@ -512,17 +518,11 @@
 										"minItems": 1,
 										"unevaluatedItems": false
 									},
-									"replacements": {
-										"type": "array",
-										"items": {
-											"type": "array",
-											"items": {
-												"type": "string"
-											},
-											"minItems": 2,
-											"maxItems": 2
-										},
-										"$comment": "This is an array of two-string arrays, the first string being a regex expression, the second being a replacement expression."
+									"inlineReplacements": {
+										"$ref": "#replacementArray"
+									},
+									"blockReplacements": {
+										"$ref": "#replacementArray"
 									},
 									"footnoteMarker": {
 										"type": "string",
@@ -531,6 +531,10 @@
 									"linkMarker": {
 										"type": "string",
 										"$comment": "This overrides the normal link marker &L&."
+									},
+									"ignoreFootnotes": {
+										"type": "boolean",
+										"$comment": "Makes it so a footnote section isn't created, nor are any footnotes mentioned in the text."
 									}
 								},
 								"required": [ "limit" ],
