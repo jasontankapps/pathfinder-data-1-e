@@ -2,6 +2,7 @@ import Link from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import {Block,Row,Cell} from '../../components/Block';
+import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
 import Icons from '../../components/Icons';
 import Bonus from '../../components/Bonus';
@@ -101,75 +102,178 @@ const _order_of_the_beast_isc = {title: "Order of the Beast (ISC)", jsx: <><h2 i
 const _order_of_the_blossom = {title: "Order of the Blossom", jsx: <><h2 id="order-order_of_the_blossom-order-of-the-blossom">Order of the Blossom</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 27</Link></p>
 <p>Cavaliers of the order of the blossom dedicate their lives to protecting fey, especially those visiting the Material Plane from the First World. These cavaliers might be fey themselves, but even if they aren't, they exhibit the same whimsy and occasionally cruel sense of humor typical of most denizens of the First World.</p>
-<p><strong>Edicts:</strong> The cavalier cannot refuse a fey's request for aid unless it will interfere with his existing duties, or he believes the fey seeks to directly oppose his other aims and goals. He must strive to prevent gates to the First World from being exploited or corrupted. If the cavalier encounters <Link to="/template/blighted_fey">blighted fey</Link> or other corrupted fey, he must strive to destroy them.</p>
-<p><strong>Challenge:</strong> Whenever an order of the blossom cavalier issues a challenge, the target of the challenge takes a -1 penalty on saving throws against spells and spell-like abilities used by fey or by the cavalier. This penalty increases by 1 for every 4 levels the cavalier has. An order of the blossom cavalier can't issue a challenge against any creature of the fey type unless that creature has the blighted fey template.</p>
-<p><strong>Skills:</strong> An order of the blossom cavalier adds Disguise and Knowledge (nature) to his list of class skills. An order of the blossom cavalier can attempt Knowledge (nature) skill checks untrained. Whenever an order of the blossom cavalier attempts a Bluff check to feint in combat, he receives a bonus on the check equal to half his cavalier level (minimum +1).</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier cannot refuse a fey's request for aid unless it will interfere with his existing duties, or he believes the fey seeks to directly oppose his other aims and goals. He must strive to prevent gates to the First World from being exploited or corrupted. If the cavalier encounters <Link to="/template/blighted_fey">blighted fey</Link> or other corrupted fey, he must strive to destroy them.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_blossom-lower-icons" wrapper="prefixIcon" list={["lower"]} /> Whenever an order of the blossom cavalier issues a challenge, the target of the challenge takes a penalty on saving throws against spells and spell-like abilities used by fey or by the cavalier. <Bonus m c="cavalier" n={4} type="penalty" p={1} />.<br/><br/><Icons id="order-order_of_the_blossom-down-icons" wrapper="prefixIcon" list={["down"]} /> An order of the blossom cavalier can't issue a challenge against any creature of the fey type unless that creature has the blighted fey template.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_blossom-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the blossom cavalier adds <Link to="/skill/disguise">Disguise</Link> and <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_blossom-power-boost-icons" wrapper="prefixIcon" list={["power","boost"]} /> An order of the blossom cavalier can attempt Knowledge (nature) skill checks untrained. Whenever an order of the blossom cavalier attempts a <Link to="/skill/bluff">Bluff</Link> check to feint in combat, he receives a bonus on the check equal to half his cavalier level (minimum +1).</Cell></Row></Block>
 <h3 id="order-order_of_the_blossom-order-abilities">Order Abilities</h3>
 <p>A cavalier belonging to the order of the blossom gains the following abilities as he increases in level.</p>
-<p><strong>Sneak Attack (Ex):</strong> At 2nd level, an order of the blossom cavalier can make a <Link to="/ability/sneak_attack">sneak attack</Link>, as the rogue ability of the same name. At 2nd level, his sneak attack damage is +1d6. This damage increases by 1d6 at 8th level and every 6 levels thereafter. If the cavalier gets a sneak attack bonus from another source, the bonus damage stacks.</p>
-<p><strong>Fey Enchantments (Sp):</strong> At 8th level, an order of the blossom cavalier learns to use the following spell-like abilities: <Link to="/spell/animal_messenger">animal messenger</Link>, <Link to="/spell/enthrall">enthrall</Link>, <Link to="/spell/hideous_laughter">hideous laughter</Link>, and <Link to="/spell/suggestion">suggestion</Link>, with a caster level equal to his cavalier level. He can use these spell-like abilities a total of three times per day, in any combination (such as by casting <em>enthrall</em> three times, or <em>animal messenger</em> once and <em>suggestion</em> twice). The saving throw DC for these spell-like abilities is 10 + half the cavalier's level + his Charisma modifier. At 16th level, the cavalier can use his spell-like abilities seven times per day, and he adds <Link to="/spell/charm_monster">charm monster</Link> and <Link to="/spell/terrible_remorse">terrible remorse</Link> to the list.</p>
-<p><strong>Curse of the First World (Su):</strong> At 15th level, an order of the blossom cavalier channels pandemonium through his weapon. His melee attacks count as chaotic-aligned for the purpose of overcoming damage reduction. In addition, whenever he confirms a critical hit against a target under an enchantment effect, that target is <Link to="/misc/confused">confused</Link> for 1d6 rounds. Each round the confused creature rolls to determine its action, it rolls twice and the cavalier chooses which result to use. This is a mind-affecting effect.</p>
+<Ability id="sneak-attack-ex" icon={["boost"]}>
+<Pair single id="sneak-attack-ex">Sneak Attack (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">An order of the blossom cavalier can make a <Link to="/ability/sneak_attack">sneak attack</Link>, as the rogue ability of the same name. At 2nd level, his sneak attack damage is +1d6. This damage increases by 1d6 at 8th level and every 6 levels thereafter.</Pair>
+<Pair title="At 8th Level">This bonus damage becomes +2d6.</Pair>
+<Pair title="At 14th Level">This bonus damage increases to +3d6.</Pair>
+<Pair title="At 20th Level">This bonus damage becomes +4d6.</Pair>
+<Pair title="Special">If the cavalier gets a sneak attack bonus from another source, the bonus damage stacks.</Pair>
+</Ability>
+<Ability id="fey-enchantments-sp" icon={["magic"]}>
+<Pair single id="fey-enchantments-sp">Fey Enchantments (Sp)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">An order of the blossom cavalier learns to use the following spell-like abilities: <Link to="/spell/animal_messenger">animal messenger</Link>, <Link to="/spell/enthrall">enthrall</Link>, <Link to="/spell/hideous_laughter">hideous laughter</Link>, and <Link to="/spell/suggestion">suggestion</Link>, with a caster level equal to his cavalier level. He can use these spell-like abilities a total of three times per day, in any combination (such as by casting <em>enthrall</em> three times, or <em>animal messenger</em> once and <em>suggestion</em> twice). The saving throw DC for these spell-like abilities is 10 + half the cavalier's level + his Charisma modifier.</Pair>
+<Pair title="At 16th Level">The cavalier can use his spell-like abilities seven times per day, and he adds <Link to="/spell/charm_monster">charm monster</Link> and <Link to="/spell/terrible_remorse">terrible remorse</Link> to the list.</Pair>
+</Ability>
+<Ability id="curse-of-the-first-world-su" icon={["boost","lower","roll"]}>
+<Pair single id="curse-of-the-first-world-su" flavor="An order of the blossom cavalier channels pandemonium through his weapon.">Curse of the First World (Su)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Passive Ability">His melee attacks count as chaotic-aligned for the purpose of overcoming damage reduction.</Pair>
+<Pair title="Ability">In addition, whenever he confirms a critical hit against a target under an enchantment effect, that target is <Link to="/misc/confused">confused</Link> for 1d6 rounds. Each round the confused creature rolls to determine its action, it rolls twice and the cavalier chooses which result to use. This is a mind-affecting effect.</Pair>
+</Ability>
 </>};
 const _order_of_the_blue_rose = {title: "Order of the Blue Rose", jsx: <><h2 id="order-order_of_the_blue_rose-order-of-the-blue-rose">Order of the Blue Rose</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 34</Link></p>
 <p>The cavaliers of the order of the blue rose dedicate themselves to promoting peace in the lands they roam. Skilled warriors and adept diplomats, these cavaliers counsel wisdom, patience, and understanding, but are ever mindful of the need to take up arms to strike down aggressors, tyrants, or evil usurpers. Although they believe wholeheartedly in peace as an aim and a final goal, cavaliers of the blue rose are warriors first, and embrace their role as guardians of those who cannot or will not take up arms to defend themselves.</p>
-<p><strong>Edicts:</strong> The cavalier must guard against needless violence, protecting both the land and its people from wars they neither started nor wish to fight. He must seek to stop conflict with a minimum of bloodshed, to encourage peaceful resolutions to disagreements between intelligent creatures, and to mend the wounds opened by battle. He must also honor quarter when he gives it, protecting captives who have surrendered from his own allies if need be.</p>
-<p><strong>Challenge:</strong> Whenever an order of the blue rose cavalier issues a challenge, he receives a +1 morale bonus on attack rolls made against the target of his challenge, if the target is an intelligent creature to whom the cavalier offered the chance to surrender (by taking a standard action to offer terms). This bonus increases by +1 for every four levels the cavalier possesses (to a maximum of +5 at 17th level).</p>
-<p><strong>Skills:</strong> An order of the blue rose cavalier adds Knowledge (history) (Int) and Knowledge (nobility) (Int) to his list of class skills. Whenever an order of the blue rose cavalier uses Diplomacy to try to mediate a dispute between two parties that do not include him, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1).</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must guard against needless violence, protecting both the land and its people from wars they neither started nor wish to fight. He must seek to stop conflict with a minimum of bloodshed, to encourage peaceful resolutions to disagreements between intelligent creatures, and to mend the wounds opened by battle. He must also honor quarter when he gives it, protecting captives who have surrendered from his own allies if need be.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_blue_rose-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever an order of the blue rose cavalier issues a challenge, he receives a morale bonus on attack rolls made against the target of his challenge, if the target is an intelligent creature to whom the cavalier offered the chance to surrender (by taking a <strong className="hl">standard action</strong> to offer terms). <Bonus m c="cavalier" n={4} type="morale bonus" p={1} />, max +5.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_blue_rose-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the blue rose cavalier adds <Link to="/skill/knowledge_history">Knowledge (history)</Link> and <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_blue_rose-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever an order of the blue rose cavalier uses <Link to="/skill/diplomacy">Diplomacy</Link> to try to mediate a dispute between two parties that do not include him, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1).</Cell></Row></Block>
 <h3 id="order-order_of_the_blue_rose-order-abilities">Order Abilities</h3>
 <p>A cavalier belonging to the order of the blue rose gains the following abilities as he increases in level.</p>
-<p><strong>Flat of the Blade (Ex):</strong> At 2nd level, the cavalier of the order of the blue rose gains the ability to moderate his attacks in order to take an enemy alive. He no longer takes a -4 penalty when attacking with a lethal weapon to deal nonlethal damage. When dealing nonlethal damage, the cavalier receives a +2 bonus on damage rolls. When the cavalier makes use of this ability, he must attempt to subdue his target without killing it; dealing lethal damage after using this ability, or allowing his allies to kill the target, is considered a violation of his edicts.</p>
-<p><strong>Inner Peace (Ex):</strong> At 8th level, the cavalier has learned that while not all things in the world will go as he wishes, he must remain calm and centered. Once per day as an immediate action, the cavalier may ignore an amount of damage from a single source (one attack, spell, or effect) equal to his cavalier level plus his Charisma modifier. He can only ignore hit point damage in this fashion. The cavalier can use this ability one additional time per day at 12th level and every four levels thereafter (to a maximum of four times per day at 20th level).</p>
-<p><strong>Shield of Blades (Ex):</strong> At 15th level, the cavalier gains an expert sense of impending violence around him. When taking the <Link to="/misc/total_defense">total defense</Link> action, the cavalier can extend his protection to those around him, granting a +2 circumstance bonus to AC to all adjacent allies. In addition, while taking the total defense action, as an immediate action, the cavalier can attempt to deflect an attack by making an attack roll opposed by the attacker's original attack roll. If successful, the attack is deflected and deals no damage.</p>
+<Ability id="flat-of-the-blade-ex" icon={["boost"]}>
+<Pair single id="flat-of-the-blade-ex" flavor="The cavalier of the order of the blue rose gains the ability to moderate his attacks in order to take an enemy alive.">Flat of the Blade (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">The cavalier no longer takes a -4 penalty when attacking with a lethal weapon to deal nonlethal damage. When dealing nonlethal damage, the cavalier receives a +2 bonus on damage rolls.</Pair>
+<Pair title="Special">When the cavalier makes use of this ability, he must attempt to subdue his target without killing it; dealing lethal damage after using this ability, or allowing his allies to kill the target, is considered a violation of his edicts.</Pair>
+</Ability>
+<Ability id="inner-peace-ex" icon={["def"]}>
+<Pair single id="inner-peace-ex" flavor="The cavalier has learned that while not all things in the world will go as he wishes, he must remain calm and centered.">Inner Peace (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per four cavalier levels beyond 8th<ByLevelPop levels={[[8,1],[12,2],[16,3],[20,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Immediate Action">Once per day, the cavalier may ignore an amount of damage from a single source (one attack, spell, or effect) equal to his cavalier level plus his Charisma modifier. He can only ignore hit point damage in this fashion.</Pair>
+</Ability>
+<Ability id="shield-of-blades-ex" icon={["protect","def"]}>
+<Pair single id="shield-of-blades-ex" flavor="The cavalier gains an expert sense of impending violence around him.">Shield of Blades (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">When taking the <Link to="/misc/total_defense">total defense</Link> action, the cavalier can extend his protection to those around him, granting a +2 circumstance bonus to AC to all adjacent allies.</Pair>
+<Pair title="Immediate Action">In addition, while taking the total defense action, the cavalier can attempt to deflect an attack by making an attack roll opposed by the attacker's original attack roll. If successful, the attack is deflected and deals no damage.</Pair>
+</Ability>
 </>};
 const _order_of_the_cockatrice = {title: "Order of the Cockatrice", jsx: <><h2 id="order-order_of_the_cockatrice-order-of-the-cockatrice">Order of the Cockatrice</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 34</Link></p>
 <p>A cavalier who belongs to this order serves only himself, working to further his own aims and increase his own prestige. Cavaliers of this order tend to be selfish and concerned only with personal goals and objectives.</p>
-<p><strong>Edicts:</strong> The cavalier must keep his own interests and aims above those of all others. He must always accept payment when it is due, rewards when earned, and an even (or greater) share of loot. The cavalier must take every opportunity to increase his own stature, prestige, and power.</p>
-<p><strong>Challenge:</strong> Whenever an order of the cockatrice cavalier issues a challenge, he receives a +1 morale bonus on all melee damage rolls made against the target of his challenge as long as he is the only creature threatening the target (not counting his mount). This bonus increases by +1 for every four levels the cavalier possesses.</p>
-<p><strong>Skills:</strong> An order of the cockatrice cavalier adds Appraise (Int) and Perform (Cha) to his list of class skills. In addition, an order of the cockatrice cavalier adds his Charisma modifier to the DC on another creature's attempt to demoralize him through Intimidate (in addition to his Wisdom modifier, as normal).</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must keep his own interests and aims above those of all others. He must always accept payment when it is due, rewards when earned, and an even (or greater) share of loot. The cavalier must take every opportunity to increase his own stature, prestige, and power.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_cockatrice-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever an order of the cockatrice cavalier issues a challenge, he receives a morale bonus on all melee damage rolls made against the target of his challenge as long as he is the only creature threatening the target (not counting his mount). <Bonus m c="cavalier" n={4} type="morale bonus" p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_cockatrice-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the cockatrice cavalier adds <Link to="/skill/appraise">Appraise</Link> and <Link to="/skill/perform">Perform</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_cockatrice-def-icons" wrapper="prefixIcon" list={["def"]} /> In addition, an order of the cockatrice cavalier adds his Charisma modifier to the DC on another creature's attempt to demoralize him through <Link to="/skill/intimidate">Intimidate</Link> (in addition to his Wisdom modifier, as normal).</Cell></Row></Block>
 <h3 id="order-order_of_the_cockatrice-order-abilities">Order Abilities</h3>
 <p>A cavalier that belongs to the order of the cockatrice gains the following abilities as he increases in level.</p>
-<p><strong>Braggart (Ex):</strong> At 2nd level, the cavalier can spend a standard action to extol his own accomplishments and battle prowess. He receives <Link to="/feat/dazzling_display">Dazzling Display</Link> as a bonus feat. He does not need a weapon in hand to use this ability. The cavalier receives a +2 morale bonus on melee attack rolls made against demoralized targets.</p>
-<p><strong>Steal Glory (Ex):</strong> At 8th level, the cavalier can steal the glory from another creature's successful strike. Whenever a creature other than the cavalier scores a critical hit against a target that the cavalier is threatening, he can make an attack of opportunity against the same target.</p>
-<p><strong>Moment of Triumph (Ex):</strong> At 15th level, the cavalier can, as a free action, declare a moment of triumph. For 1 round, the cavalier receives a competence bonus equal to his Charisma modifier on all ability checks, attack rolls, damage rolls, saving throws, and skill checks. This bonus is also added to his AC. In addition, any critical threats he makes are automatically confirmed. The cavalier can use this ability once per day.</p>
-</>};
+<Ability id="braggart-ex" icon={["power","boost"]}>
+<Pair single id="braggart-ex">Braggart (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">The cavalier can spend a <strong className="hl">standard action</strong> to extol his own accomplishments and battle prowess.<sup><InnerLink showBacklink="backlink-order-order_of_the_cockatrice-fake-fn-1" id="order-order_of_the_cockatrice-fake-fn-1" data-hash-target to="order-order_of_the_cockatrice-fake-fn-1-target">1</InnerLink></sup> He receives <Link to="/feat/dazzling_display">Dazzling Display</Link> as a bonus feat. He does not need a weapon in hand to use this ability. The cavalier receives a +2 morale bonus on melee attack rolls made against demoralized targets.</Pair>
+</Ability>
+<Ability id="steal-glory-ex" icon={["melee"]}>
+<Pair single id="steal-glory-ex" flavor="The cavalier can steal the glory from another creature's successful strike.">Steal Glory (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">Whenever a creature other than the cavalier scores a critical hit against a target that the cavalier is threatening, he can make an attack of opportunity against the same target.</Pair>
+</Ability>
+<Ability id="moment-of-triumph-ex" icon={["boost","def"]}>
+<Pair single id="moment-of-triumph-ex">Moment of Triumph (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Usage">Once per day.</Pair>
+<Pair title="Free Action">The cavalier can declare a moment of triumph. For 1 round, the cavalier receives a competence bonus equal to his Charisma modifier on all ability checks, attack rolls, damage rolls, saving throws, and skill checks. This bonus is also added to his AC. In addition, any critical threats he makes are automatically confirmed.</Pair>
+</Ability>
+<section data-footnotes><h3 id="order-order_of_the_cockatrice-label">Footnotes</h3><ol>
+<li id="order-order_of_the_cockatrice-fake-fn-1-target"><p>This ability is confusingly worded. The general consensus is that the morale bonus is constant and you get Dazzling Display as a bonus feat (if you meet its prerequisites), but you can use it as a standard action instead of a full-round action, and you can use it without a weapon in hand. As always, consult your GM. <InnerLink aria-label="Back to reference 1" id="backlink-order-order_of_the_cockatrice-fake-fn-1" data-hash-target to="order-order_of_the_cockatrice-fake-fn-1">↩</InnerLink></p></li></ol></section></>};
 const _order_of_the_dragon = {title: "Order of the Dragon", jsx: <><h2 id="order-order_of_the_dragon-order-of-the-dragon">Order of the Dragon</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 35</Link></p>
 <p>Cavaliers belonging to the order of the dragon dedicate themselves to a group of like-minded individuals, be it a mercenary company or a small band of adventurers. These cavaliers believe in loyalty and friendship, and are willing to lay down their lives to protect their allies.</p>
-<p><strong>Edicts:</strong> The cavalier must remain loyal to his allies and must always work to further the aims of the group. He must protect his allies from harm and defend their honor when called into doubt.</p>
-<p><strong>Challenge:</strong> Whenever an order of the dragon cavalier issues a challenge, his allies receive a +1 circumstance bonus on melee attack rolls against the target of his challenge whenever he is threatening the target. This bonus increases by +1 for every four levels the cavalier possesses.</p>
-<p><strong>Skills:</strong> An order of the dragon cavalier adds Perception (Wis) and Survival (Wis) to his list of class skills. In addition, whenever an order of the dragon cavalier uses Survival to provide food and water for his allies or to protect his allies from harsh weather, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1).</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must remain loyal to his allies and must always work to further the aims of the group. He must protect his allies from harm and defend their honor when called into doubt.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_dragon-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever an order of the dragon cavalier issues a challenge, his allies receive a circumstance bonus on melee attack rolls against the target of his challenge whenever he is threatening the target. <Bonus m c="cavalier" n={4} type="circumstance bonus" p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_dragon-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the dragon cavalier adds <Link to="/skill/perception">Perception</Link> and <Link to="/skill/survival">Survival</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_dragon-boost-icons" wrapper="prefixIcon" list={["boost"]} /> In addition, whenever an order of the dragon cavalier uses Survival to provide food and water for his allies or to protect his allies from harsh weather, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1).</Cell></Row></Block>
 <h3 id="order-order_of_the_dragon-order-abilities">Order Abilities</h3>
 <p>A cavalier that belongs to the order of the dragon gains the following abilities as he increases in level.</p>
-<p><strong>Aid Allies (Ex):</strong> At 2nd level, whenever an order of the dragon cavalier uses the <Link to="/rule/aid_another_2">aid another</Link> action to assist one of his allies, the ally receives a +3 bonus to his Armor Class, attack roll, saving throw, or skill check. At 8th level, and every six levels thereafter, this bonus increases by an additional +1.</p>
-<p><strong>Strategy (Ex):</strong> At 8th level, the cavalier can spend a standard action to grant one of a number of bonuses to all allies within 30 feet (including himself). The allies must be able to see or hear the cavalier to receive this bonus. The cavalier can grant a +2 dodge bonus to AC for 1 round, a +2 morale bonus on all attack rolls for 1 round, or the ability to move up to their speed as an immediate action once. The cavalier can grant a different bonus to each ally within range, but allies can only benefit from this ability once per combat.</p>
-<p><strong>Act as One (Ex):</strong> At 15th level, the cavalier can spend a standard action to move up to his speed and make a melee attack. All allies within 30 feet can also move up to their speed and make a melee attack as an immediate action. This movement and attack can be made as a charge if the movement qualifies. All attacks are made at a +2 bonus (this stacks with the bonus from a charge) and all participants receive a +2 dodge bonus to their AC for 1 round. A cavalier can use this ability once per combat.</p>
+<Ability id="aid-allies-ex" icon={["protect","boost"]}>
+<Pair single id="aid-allies-ex">Aid Allies (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">Whenever an order of the dragon cavalier uses the <Link to="/rule/aid_another_2">aid another</Link> action to assist one of his allies, the ally receives a +3 bonus to his Armor Class, attack roll, saving throw, or skill check.</Pair>
+<Pair title="At 8th Level">This bonus becomes +4.</Pair>
+<Pair title="At 14th Level">This bonus increases to +5.</Pair>
+<Pair title="At 20th Level">This bonus becomes +6.</Pair>
+</Ability>
+<Ability id="strategy-ex" icon={["protect","boost","power"]}>
+<Pair single id="strategy-ex">Strategy (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Standard Action">The cavalier can grant one of a number of bonuses to all allies within 30 feet (including himself). The allies must be able to see or hear the cavalier to receive this bonus. The cavalier can grant a +2 dodge bonus to AC for 1 round, a +2 morale bonus on all attack rolls for 1 round, or the ability to move up to their speed as an <strong className="hl">immediate action</strong> once.</Pair>
+<Pair title="Special">The cavalier can grant a different bonus to each ally within range, but allies can only benefit from this ability once per combat.</Pair>
+</Ability>
+<Ability id="act-as-one-ex" icon={["power","melee","def","protect"]}>
+<Pair single id="act-as-one-ex">Act as One (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Standard Action">The cavalier can move up to his speed and make a melee attack. All allies within 30 feet can also move up to their speed and make a melee attack as an <strong className="hl">immediate action</strong>. This movement and attack can be made as a <Link to="/rule/charge">charge</Link> if the movement qualifies. All attacks are made at a +2 bonus (this stacks with the bonus from a charge) and all participants receive a +2 dodge bonus to their AC for 1 round.</Pair>
+<Pair title="Special">A cavalier can use this ability once per combat.</Pair>
+</Ability>
 </>};
 const _order_of_the_eastern_star = {title: "Order of the Eastern Star", jsx: <><h2 id="order-order_of_the_eastern_star-order-of-the-eastern-star">Order of the Eastern Star</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 116</Link></p>
 <p>This cavalier order exists to keep dangerous secrets hidden from the world and secretly protect the world against unimaginable threats from beyond the mortal realms. These cavaliers scout and observe, concerning themselves not with the trivial pursuit of morality, but rather with ensuring the survival of society itself.</p>
-<p><strong>Edicts:</strong> The cavalier must preserve the secrets of his order while acting to protect civilization against occult threats. He must thwart the schemes of otherworldly horrors and must give his order a full accounting of any potential threats.</p>
-<p><strong>Challenge:</strong> Whenever a cavalier of the order of the eastern star issues a challenge, he receives a +1 dodge bonus to AC and a +1 insight bonus on saves against the attacks and abilities of the target of his challenge. He must be wearing light armor and carrying no more than a light load to receive these bonuses. These bonuses increase by 1 for every 4 class levels the cavalier possesses.</p>
-<p><strong>Skills:</strong> A cavalier belonging to the order of the eastern star adds Knowledge (arcana) and Knowledge (planes) to his class skills. He can attempt Knowledge (arcana) and Knowledge (planes) checks untrained. If he has ranks in these skills, as long as a check involves knowledge of the occult or supernatural, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1).</p>
-<p><strong>Feats:</strong> A cavalier of this order gains <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> as a bonus feat.</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must preserve the secrets of his order while acting to protect civilization against occult threats. He must thwart the schemes of otherworldly horrors and must give his order a full accounting of any potential threats.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_eastern_star-def-icons" wrapper="prefixIcon" list={["def"]} /> Whenever a cavalier of the order of the eastern star issues a challenge, he receives a dodge bonus to AC and an insight bonus on saves against the attacks and abilities of the target of his challenge. <Bonus m c="cavalier" n={4} pl p={1} />. He must be wearing light armor and carrying no more than a light load to receive these bonuses.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_eastern_star-skill-icons" wrapper="prefixIcon" list={["skill"]} /> A cavalier belonging to the order of the eastern star adds <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> and <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> to his class skills.<br/><br/><Icons id="order-order_of_the_eastern_star-power-boost-icons" wrapper="prefixIcon" list={["power","boost"]} /> He can attempt Knowledge (arcana) and Knowledge (planes) checks untrained. If he has ranks in these skills, as long as a check involves knowledge of the occult or supernatural, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1).</Cell></Row>
+<Row><Cell>Feats</Cell><Cell><Icons id="order-order_of_the_eastern_star-power-icons" wrapper="prefixIcon" list={["power"]} /> A cavalier of this order gains <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> as a bonus feat.</Cell></Row></Block>
 <h3 id="order-order_of_the_eastern_star-order-abilities">Order Abilities</h3>
 <p>A cavalier belonging to this order gains the following abilities as he increases in level.</p>
-<p><strong>Guarded (Ex):</strong> At 2nd level, the cavalier gains DR 1/- and a +2 morale bonus on saving throws when wearing light armor or no armor and <Link to="/misc/fighting_defensively">fighting defensively</Link> or using <Link to="/feat/combat_expertise">Combat Expertise</Link>. At 6th level and every 4 levels thereafter, this DR increases by 1. He loses the benefits of this ability if carrying a medium or heavier load.</p>
-<p><strong>Pierce the Guard (Ex):</strong> At 8th level, when attacking with a light or one-handed weapon, the cavalier ignores the penalty for fighting defensively or using Combat Expertise on his first melee attack roll each round. If <Link to="/rule/two_weapon_fighting">fighting with two weapons</Link>, he ignores the penalty for the first attack with each weapon, as long as the off-hand weapon is a light weapon. The cavalier can't use this ability with double weapons.</p>
-<p><strong>One Purpose (Ex):</strong> At 15th level, the cavalier's mount shares the benefits of the cavalier's guarded ability as long as both are wearing light or no armor and carrying no more than a light load. The cavalier must fight defensively or use Combat Expertise to grant these benefits, but the mount need not. In addition, the mount gains all the benefits of the cavalier's challenge, regardless of what barding it wears.</p>
+<Ability id="guarded-ex" icon={["def"]}>
+<Pair single id="guarded-ex">Guarded (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">The cavalier gains DR 1/- and a +2 morale bonus on saving throws when wearing light armor or no armor and <Link to="/misc/fighting_defensively">fighting defensively</Link> or using <Link to="/feat/combat_expertise">Combat Expertise</Link>. He loses the benefits of this ability if carrying a medium or heavier load.</Pair>
+<Pair title="At 6th Level">This DR becomes 2/-.</Pair>
+<Pair title="At 10th Level">This DR increases to 3/-.</Pair>
+<Pair title="At 14th Level">This DR becomes 4/-.</Pair>
+<Pair title="At 18th Level">This DR increases to 5/-.</Pair>
+</Ability>
+<Ability id="pierce-the-guard-ex" icon={["boost"]}>
+<Pair single id="pierce-the-guard-ex">Pierce the Guard (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Passive Ability"><p>When attacking with a light or one-handed weapon, the cavalier ignores the penalty for fighting defensively or using Combat Expertise on his first melee attack roll each round.</p>
+<p>If <Link to="/rule/two_weapon_fighting">fighting with two weapons</Link>, he ignores the penalty for the first attack with each weapon, as long as the off-hand weapon is a light weapon.</p>
+</Pair>
+<Pair title="Special">The cavalier can't use this ability with double weapons.</Pair>
+</Ability>
+<Ability id="one-purpose-ex" icon={["protect"]}>
+<Pair single id="one-purpose-ex">One Purpose (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Passive Ability">The cavalier's mount shares the benefits of the cavalier's <em>guarded</em> ability as long as both are wearing light or no armor and carrying no more than a light load. The cavalier must fight defensively or use Combat Expertise to grant these benefits, but the mount need not. In addition, the mount gains all the benefits of the cavalier's <em>challenge,</em> regardless of what barding it wears.</Pair>
+</Ability>
 </>};
 const _order_of_the_eclipse = {title: "Order of the Eclipse", jsx: <><h2 id="order-order_of_the_eclipse-order-of-the-eclipse">Order of the Eclipse</h2>
 <p><strong>Sources</strong> <Link to="/source/distant_shores">Distant Shores pg. 32</Link></p>
 <p><Link to="/race/hobgoblin">Hobgoblins</Link> have long taken advantage of the tactical edge darkvision gives them when fighting in darkness, particularly against elves, humans, and samsarans. As the ruling class of Kaoling, hobgoblin samurai have adopted the benefit of darkness as a spiritual alliance that forms a guiding principle in not only how they fight, but every aspect of their lives. This has given rise to the order of the eclipse, a respected <Link to="/class/samurai">samurai</Link> order devoted to darkness itself. Although the order is not officially restricted to hobgoblins, its edicts make it difficult for any samurai without darkvision to operate in its ranks.</p>
-<p><strong>Edicts:</strong> The samurai cannot create light where it is not necessary - anything that can be done in darkness should be. The samurai must belong to a military organization (within Kaoling this is likely to be a warband commanded by a senior samurai, who in turn answers to Warlord Tsung-cha Kavangaki or one of the Council of Nine). The samurai must enforce his place within this order and societies that recognize its authority, obeying those senior to him without question and demanding total obedience from those beneath him. The samurai must take every opportunity to extinguish the lights of his foes.</p>
-<p><strong>Challenge:</strong> The order of the eclipse samurai gains a +1 bonus on all Intimidate checks made against the target of his challenge. This bonus increases by 1 for every four levels the samurai possesses.</p>
-<p><strong>Skills:</strong> An order of the eclipse samurai adds Perception (Wis) and Survival (Wis) to his list of class skills. In addition, whenever he makes a Perception check to notice an invisible creature or object, he receives a bonus on the check equal to 1/2 his samurai level (minimum +1).</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The samurai cannot create light where it is not necessary - anything that can be done in darkness should be. The samurai must belong to a military organization (within Kaoling this is likely to be a warband commanded by a senior samurai, who in turn answers to Warlord Tsung-cha Kavangaki or one of the Council of Nine). The samurai must enforce his place within this order and societies that recognize its authority, obeying those senior to him without question and demanding total obedience from those beneath him. The samurai must take every opportunity to extinguish the lights of his foes.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_eclipse-boost-icons" wrapper="prefixIcon" list={["boost"]} /> The order of the eclipse samurai gains a bonus on all Intimidate checks made against the target of his challenge. <Bonus m c="samurai" n={4} p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_eclipse-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the eclipse samurai adds <Link to="/skill/perception">Perception</Link> and <Link to="/skill/survival">Survival</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_eclipse-boost-icons" wrapper="prefixIcon" list={["boost"]} /> In addition, whenever he makes a Perception check to notice an invisible creature or object, he receives a bonus on the check equal to 1/2 his samurai level (minimum +1).</Cell></Row></Block>
 <h3 id="order-order_of_the_eclipse-order-abilities">Order Abilities</h3>
 <p>A samurai that belongs to the order of the eclipse gains the following abilities as he increases in level.</p>
-<p><strong>Dark Rider (Su):</strong> At 2nd level, whenever the samurai is on his mount, both he and his mount share any of the following senses if either of them possesses it: darkvision, low-light vision, <Link to="/umr/scent">scent</Link>, and <Link to="/umr/see_in_darkness">see in darkness</Link>. This applies regardless of the source of the sense (including senses gained from spells or magic items), but only while the samurai is mounted. If the samurai and mount both have a sense but one has an improved version (such as a samurai with darkvision with a range of 60 feet riding a mount that has darkvision with a range of 90 feet), both receive the improved version of the sense.</p>
-<p><strong>Eclipsing Blade (Sp):</strong> At 8th level, the samurai can cast <Link to="/spell/darkness">darkness</Link> on a weapon he is holding. The <em>darkness</em> does not affect the vision of any order of the eclipse samurai, or that of their mounts. The spell immediately ends if the weapon leaves the samurai's hand. He may do this once per day, plus one additional time per day for every four levels he possesses above 8th (to a maximum of four times per day at 20th level).</p>
-<p><strong>See in Darkness (Ex):</strong> At 15th level the samurai can see perfectly in darkness, even magical darkness, as the <Link to="/umr/see_in_darkness">universal monster ability</Link> of the same name.</p>
+<Ability id="dark-rider-su" icon={["power"]}>
+<Pair single id="dark-rider-su">Dark Rider (Su)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">Whenever the samurai is on his mount, both he and his mount share any of the following senses if either of them possesses it: darkvision, low-light vision, <Link to="/umr/scent">scent</Link>, and <Link to="/umr/see_in_darkness">see in darkness</Link>. This applies regardless of the source of the sense (including senses gained from spells or magic items), but only while the samurai is mounted.</Pair>
+<Pair title="Special">If the samurai and mount both have a sense but one has an improved version (such as a samurai with darkvision with a range of 60 feet riding a mount that has darkvision with a range of 90 feet), both receive the improved version of the sense.</Pair>
+</Ability>
+<Ability id="eclipsing-blade-sp" icon={["magic"]}>
+<Pair single id="eclipsing-blade-sp">Eclipsing Blade (Sp)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per four samurai levels beyond 8th<ByLevelPop levels={[[8,1],[12,2],[16,3],[20,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">The samurai can cast <Link to="/spell/darkness">darkness</Link> on a weapon he is holding. The <em>darkness</em> does not affect the vision of any order of the eclipse samurai, or that of their mounts. The spell immediately ends if the weapon leaves the samurai's hand.</Pair>
+</Ability>
+<Ability id="see-in-darkness-ex" icon={["power"]}>
+<Pair single id="see-in-darkness-ex">See in Darkness (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">The samurai can see perfectly in darkness, even magical darkness, as the <Link to="/umr/see_in_darkness">universal monster ability</Link> of the same name.</Pair>
+</Ability>
 </>};
 const _order_of_the_eel = {title: "Order of the Eel", jsx: <><h2 id="order-order_of_the_eel-order-of-the-eel">Order of the Eel</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 24</Link></p>
