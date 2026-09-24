@@ -374,6 +374,10 @@ span.prefixIcon a {
 span.prefixIcon ion-icon {
 	font-size: 1.75rem;
 }
+div.inlineIcons span.prefixIcon {
+	float: none;
+	display: inline-flex;
+}
 
 
 ion-alert.levelPop div.alert-message table {

@@ -173,7 +173,8 @@
 						"tags": { "type": "string" },
 						"sources": { "$ref": "#uniqueArray" },
 						"topLink": { "$ref": "#link" },
-						"compileFrom": { "$ref": "#compileFrom" }
+						"compileFrom": { "$ref": "#compileFrom" },
+						"className": { "type": "string" }
 					},
 					"required": [ "compileFrom", "name" ],
 					"unevaluatedProperties": false
