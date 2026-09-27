@@ -1,7 +1,9 @@
-import Link from '../../components/Link';
+import {IonIcon} from '@ionic/react';
+import Link, {ThLink} from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import {Block,Row,Cell} from '../../components/Block';
+import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
 import Icons from '../../components/Icons';
@@ -452,74 +454,183 @@ const _order_of_the_guard = {title: "Order of the Guard", jsx: <><h2 id="order-o
 const _order_of_the_hammer = {title: "Order of the Hammer", jsx: <><h2 id="order-order_of_the_hammer-order-of-the-hammer">Order of the Hammer</h2>
 <p><strong>Sources</strong> <Link to="/source/the_harrow_handbook">The Harrow Handbook pg. 18</Link></p>
 <p>Cavaliers of the order of the hammer respect might over all, and believe that those who prove their strength have earned the right to make decisions for the weak. When the cavalier's own goals conflict with those of a mighty ruler, the cavalier must prove that her own strength and ideals are superior.</p>
-<p><strong>Edicts:</strong> The cavalier must continually strive to prove her own strength as well as the strength of those she is allied with, especially when faced with adversity or by those who would seek to best the cavalier's brawn.</p>
-<p><strong>Challenge:</strong> An order of the hammer cavalier can attempt a free grapple check or free sunder combat maneuver check anytime she takes the full-attack action against the target of her challenge. This free combat maneuver does not provoke an attack of opportunity.</p>
-<p><strong>Skills:</strong> An order of the hammer cavalier adds <Link to="/skill/acrobatics">Acrobatics</Link> (Dex) and Knowledge (local) (Int) to her list of class skills. In addition, whenever the cavalier uses Acrobatics to jump, she can add her Strength bonus to the check in addition to her Dexterity modifier, and she receives a bonus on Acrobatics checks to jump equal to 1/2 her cavalier level (minimum +1).</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must continually strive to prove her own strength as well as the strength of those she is allied with, especially when faced with adversity or by those who would seek to best the cavalier's brawn.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_hammer-melee-icons" wrapper="prefixIcon" list={["melee"]} /> An order of the hammer cavalier can attempt a free <Link to="/rule/grapple">grapple</Link> check or free <Link to="/rule/sunder">sunder</Link> combat maneuver check anytime she takes the full-attack action against the target of her <em>challenge.</em> This free combat maneuver does not provoke an attack of opportunity.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_hammer-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the hammer cavalier adds <Link to="/skill/acrobatics">Acrobatics</Link> and <Link to="/skill/knowledge_local">Knowledge (local)</Link> to her list of class skills.<br/><br/><Icons id="order-order_of_the_hammer-boost-icons" wrapper="prefixIcon" list={["boost"]} /> In addition, whenever the cavalier uses Acrobatics to jump, she can add her Strength bonus to the check in addition to her Dexterity modifier, and she receives a bonus on Acrobatics checks to jump equal to 1/2 her cavalier level (minimum +1).</Cell></Row></Block>
 <h3 id="order-order_of_the_hammer-order-abilities">Order Abilities</h3>
 <p>A cavalier belonging to the order of the hammer gains the following abilities as she increases in level.</p>
-<p><strong>Mighty Bash (Ex):</strong> At 2nd level, the cavalier does not provoke attacks of opportunity when she attacks foes while unarmed so long as she is dealing nonlethal damage. In addition, the cavalier's unarmed strikes deal more nonlethal damage than usual; she is treated as having a number of <Link to="/class/monk">monk</Link> levels equal to her cavalier level for the purpose of determining how much nonlethal damage her unarmed strikes deal. For example, a 12th-level cavalier of the order of the hammer would deal 2d6 points of nonlethal damage with her unarmed strike. The cavalier must still select the <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> feat if she wants to deal lethal damage with her unarmed strike, and lethal damage dealt with her unarmed strike is not increased by this ability.</p>
-<p><strong>Crushing Grapple (Ex):</strong> At 8th level, the cavalier gains <Link to="/feat/chokehold">Chokehold</Link> as a bonus feat, even if she does not meet the prerequisites. She does not take the -5 penalty on grapple checks to put an opponent in a chokehold.</p>
-<p><strong>Inspiring Flex (Ex):</strong> At 15th level, the cavalier can display her own brawn to inspire greater strength in his allies. As a standard action, she can grant herself and any allies within 30 feet a +4 morale bonus on melee attack rolls, combat maneuver checks, Fortitude saves, and Strength checks. The cavalier can maintain her inspiring flex as a free action, and she can use this ability for a number of rounds per day equal 1/2 her cavalier level; this duration need not be continuous.</p>
+<Ability id="mighty-bash-ex" extraClasses="hasSubs" icon={["def","boost"]}>
+<Pair single id="mighty-bash-ex">Mighty Bash (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">The cavalier does not provoke attacks of opportunity when she attacks foes while unarmed so long as she is dealing nonlethal damage.</Pair>
+<Pair title="Ability">The cavalier's unarmed strikes deal more nonlethal damage than usual; she is treated as having a number of <Link to="/class/monk">monk</Link> levels equal to her cavalier level for the purpose of determining how much nonlethal damage her unarmed strikes deal. For example, a 12th-level cavalier of the order of the hammer would deal 2d6 points of nonlethal damage with her unarmed strike.</Pair>
+<Pair title="Special">The cavalier must still select the <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> feat if she wants to deal lethal damage with her unarmed strike, and lethal damage dealt with her unarmed strike is not increased by this ability.</Pair>
+</Ability>
+<Ability id="unarmed-strike" extraClasses="subAbility" icon={["melee"]}>
+<Pair single id="unarmed-strike" flavor="Relevant text from the monk class ability.">Unarmed Strike</Pair>
+<Pair title="Info">Unarmed strike damage is based on your size.</Pair>
+<Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
+<Pair title="At 4th Level">Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.</Pair>
+<Pair title="At 8th Level">Your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.</Pair>
+<Pair title="At 12th Level">Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.</Pair>
+<Pair title="At 16th Level">Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.</Pair>
+<Pair title="At 20th Level">Your unarmed strike now deals 2d8 (Small), 2d10 (Medium), or 4d8 (Large) damage.</Pair>
+</Ability>
+<Ability id="crushing-grapple-ex" icon={["power","boost"]}>
+<Pair single id="crushing-grapple-ex">Crushing Grapple (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">The cavalier gains <Link to="/feat/chokehold">Chokehold</Link> as a bonus feat, even if she does not meet the prerequisites. She does not take the -5 penalty on <Link to="/rule/grapple">grapple</Link> checks to put an opponent in a chokehold.</Pair>
+</Ability>
+<Ability id="inspiring-flex-ex" icon={["boost","def","protect"]}>
+<Pair single id="inspiring-flex-ex" flavor="The cavalier can display her own brawn to inspire greater strength in his allies.">Inspiring Flex (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Usage">1 round/day per two cavalier levels; these rounds need not be consecutive</Pair>
+<Pair title="Standard Action">She can grant herself and any allies within 30 feet a +4 morale bonus on melee attack rolls, combat maneuver checks, Fortitude saves, and Strength checks. The cavalier can maintain her inspiring flex as a <strong className="hl">free action</strong>, and she can use this ability for a number of rounds per day equal 1/2 her cavalier level; this duration need not be continuous.</Pair>
+</Ability>
 </>};
 const _order_of_the_hero = {title: "Order of the Hero", jsx: <><h2 id="order-order_of_the_hero-order-of-the-hero">Order of the Hero</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 13</Link></p>
 <p>A cavalier belonging to this order specializes in hunting down large monsters and protecting communities from them. Cavaliers of this order tend to value bravery, dedication, and single-minded determination.</p>
-<p><strong>Edicts:</strong> The cavalier must choose an area, whether it's a settlement or nation, and vows to slay any monster threatening that area. He must fulfill any pledge he makes to slay a beast, tracking it to its lair if necessary, and forsaking any new quarry until his current target is slain. The cavalier must attempt to ensure that no lasting damage is dealt to his domain in the pursuit of his prey.</p>
-<p><strong>Challenge:</strong> Whenever an order of the hero cavalier issues a challenge, he receives a +1 morale bonus on melee damage rolls against the target of his challenge if it is at least one size category larger than he is. This bonus increases by 1 for every 4 cavalier levels he has.</p>
-<p><strong>Skills:</strong> An order of the hero cavalier adds Knowledge (arcana) (Int) and Knowledge (nature) (Int) to his list of class skills. In addition, whenever an order of the hero cavalier uses a Knowledge check to identify a monster, he gains a bonus on this check equal to half his cavalier level (minimum +1).</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must choose an area, whether it's a settlement or nation, and vows to slay any monster threatening that area. He must fulfill any pledge he makes to slay a beast, tracking it to its lair if necessary, and forsaking any new quarry until his current target is slain. The cavalier must attempt to ensure that no lasting damage is dealt to his domain in the pursuit of his prey.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_hero-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever an order of the hero cavalier issues a <em>challenge,</em> he receives a morale bonus on melee damage rolls against the target of his <em>challenge</em> if it is at least one size category larger than he is. <Bonus m c="cavalier" n={4} type="morale bonus" p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_hero-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the hero cavalier adds <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> and <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_hero-boost-icons" wrapper="prefixIcon" list={["boost"]} /> In addition, whenever an order of the hero cavalier uses a Knowledge check to identify a monster, he gains a bonus on this check equal to half his cavalier level (minimum +1).</Cell></Row></Block>
 <h3 id="order-order_of_the_hero-order-abilities">Order Abilities</h3>
 <p>A cavalier who belongs to the order of the hero gains the following abilities as he increases in level.</p>
-<p><strong>Monster Expert (Ex):</strong> At 2nd level, the cavalier learns how to dodge the attacks of his monstrous foes and the traps in their lairs. He gains a bonus equal to his Charisma bonus on Fortitude and Reflex saves against abilities and spells that have an area of effect.</p>
-<p><strong>Resist Energy (Su):</strong> At 8th level, the cavalier can steel himself against harmful energies. Once per day as a move action, he chooses one of the following: acid, cold, electricity, or fire. He gains energy resistance 5 against the chosen type for 1 minute. At 12th, 16th, and 20th levels, the resistance increases by 5, and the cavalier gains an additional daily use of this ability.</p>
-<p><strong>Counterstriking Challenge (Ex):</strong> At 15th level, once per day when he challenges a Large or larger creature, the cavalier can also prepare to interrupt the creature's special attacks. The challenged target provokes an attack of opportunity from the cavalier whenever it activates an extraordinary or a supernatural attack (such as a breath weapon or gaze attack). If the cavalier deals damage with this attack, the creature must succeed at a Will save (DC = 10 + half the cavalier's level + his Charisma modifier) or it fails to activate the special attack and loses the action it took to do so. The cavalier can perform three such attacks of opportunity over the course of a counterstriking challenge.</p>
+<Ability id="monster-expert-ex" icon={["def"]}>
+<Pair single id="monster-expert-ex" flavor="The cavalier learns how to dodge the attacks of his monstrous foes and the traps in their lairs.">Monster Expert (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">He gains a bonus equal to his Charisma bonus on Fortitude and Reflex saves against abilities and spells that have an area of effect.</Pair>
+</Ability>
+<Ability id="resist-energy-su" icon={["def"]}>
+<Pair single id="resist-energy-su" flavor="The cavalier can steel himself against harmful energies.">Resist Energy (Su)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per four cavalier levels beyond 8th<ByLevelPop levels={[[8,1],[12,2],[16,3],[20,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Move-Equivalent Action">The cavalier chooses one of the following: acid, cold, electricity, or fire. He gains energy <Link to="/umr/resistance">resistance</Link> 5 against the chosen type for 1 minute.</Pair>
+<Pair title="At 12th Level">The resistance becomes 10.</Pair>
+<Pair title="At 16th Level">The resistance increases to 15.</Pair>
+<Pair title="At 20th Level">The resistance becomes 20.</Pair>
+</Ability>
+<Ability id="counterstriking-challenge-ex" icon={["melee","lower"]}>
+<Pair single id="counterstriking-challenge-ex">Counterstriking Challenge (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">Once per day when he <em>challenges</em> a Large or larger creature, the cavalier can also prepare to interrupt the creature's special attacks. The <em>challenged</em> target provokes an attack of opportunity from the cavalier whenever it activates an extraordinary or a supernatural attack (such as a breath weapon or gaze attack). If the cavalier deals damage with this attack, the creature must succeed at a Will save (DC = 10 + half the cavalier's level + his Charisma modifier) or it fails to activate the special attack and loses the action it took to do so.</Pair>
+<Pair title="Special">The cavalier can perform three such attacks of opportunity over the course of a <em>counterstriking challenge.</em></Pair>
+</Ability>
 </>};
 const _order_of_the_land = {title: "Order of the Land", jsx: <><h2 id="order-order_of_the_land-order-of-the-land">Order of the Land</h2>
 <p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea pg. 24</Link></p>
 <p>There are some cavaliers who dedicate themselves to the land and the people who inhabit the rural areas between urban centers. These cavaliers often lead untrained militias of revolutionaries in backwoods towns, fighting against oppressive governments or the savage elements that threaten citizens in their daily lives. Self-reliance and the ability to make do with sparse resources are hallmarks of a cavalier who follows the order of the land.</p>
-<p><strong>Edicts:</strong> The cavalier must always strive to protect the common folk from the depredations of oppressive regimes. He must not decline any duty or mission because he is not properly equipped for it.</p>
-<p><strong>Challenge:</strong> Whenever an order of the land cavalier issues a challenge, he receives a +1 morale bonus on ranged attack rolls against the target of his challenge. This bonus increases by +1 for every four levels the cavalier possesses.</p>
-<p><strong>Skills:</strong> An order of the land cavalier adds Knowledge (local) (Int) and Survival (Wis) to his list of class skills. In addition, whenever an order of the land cavalier makes a Survival check to avoid getting lost, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1).</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must always strive to protect the common folk from the depredations of oppressive regimes. He must not decline any duty or mission because he is not properly equipped for it.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_land-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever an order of the land cavalier issues a <em>challenge,</em> he receives a morale bonus on ranged attack rolls against the target of his <em>challenge.</em> <Bonus m c="cavalier" n={4} type="morale bonus" p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_land-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the land cavalier adds <Link to="/skill/knowledge_local">Knowledge (local)</Link> and <Link to="/skill/survival">Survival</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_land-boost-icons" wrapper="prefixIcon" list={["boost"]} /> In addition, whenever an order of the land cavalier makes a Survival check to avoid getting lost, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1).</Cell></Row></Block>
 <h3 id="order-order_of_the_land-order-abilities">Order Abilities</h3>
 <p>A cavalier belonging to the order of the land gains the following abilities as he increases in level.</p>
-<p><strong>Adaptive Strike (Ex):</strong> At 2nd level, the cavalier receives <Link to="/feat/catch_off_guard">Catch Off-Guard</Link> as a bonus feat. As a swift action, he can cause an armed opponent to become flat-footed against any attacks he makes during that round with an improvised weapon. This ability can be used once per combat.</p>
-<p><strong>Terrain Training (Ex):</strong> At 8th level, the cavalier may select a terrain type from the ranger <Link to="/ability/favored_terrain">Favored Terrains</Link> table. As a standard action, he can shout orders that grant all allies within 60 feet a competence bonus equal to his Charisma modifier on initiative checks and Knowledge (geography), Perception, and Survival checks while they are in this terrain for a number of rounds equal to 1/2 his cavalier level. At 12th level and every four levels thereafter, the cavalier may select a new terrain type that this ability can affect.</p>
-<p><strong>Wild Charge (Ex):</strong> At 15th level, the cavalier and his mount can ignore <Link to="/rule/difficult_terrain">difficult terrain</Link> for the purpose of making a <Link to="/rule/charge">charge</Link> attack. In addition, if the charge attack is successful and both he and his opponent are occupying squares with difficult terrain, the cavalier gains a +2 competence bonus when using his mighty charge ability to make a bull rush, disarm, sunder, or trip <Link to="/rule/combat_maneuver">combat maneuver</Link>.</p>
+<Ability id="adaptive-strike-ex" icon={["power","lower"]}>
+<Pair single id="adaptive-strike-ex">Adaptive Strike (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">The cavalier receives <Link to="/feat/catch_off_guard">Catch Off-Guard</Link> as a bonus feat.</Pair>
+<Pair title="Swift Action">He can cause an armed opponent to become flat-footed against any attacks he makes during that round with an improvised weapon. This ability can be used once per combat.</Pair>
+</Ability>
+<Ability id="terrain-training-ex" icon={["boost"]}>
+<Pair single id="terrain-training-ex">Terrain Training (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Choice">The cavalier may select a terrain type from the ranger <Link to="/ability/favored_terrain">Favored Terrains</Link> table.</Pair>
+<Pair title="Standard Action">He can shout orders that grant all allies within 60 feet a competence bonus equal to his Charisma modifier on initiative checks and <Link to="/skill/knowledge_geography">Knowledge (geography)</Link>, <Link to="/skill/perception">Perception</Link>, and Survival checks while they are in the chosen terrain for a number of rounds equal to 1/2 his cavalier level.</Pair>
+<Pair title="At 12th Level">The cavalier may select a new terrain type that this ability can affect.</Pair>
+<Pair title="At 16th Level">The cavalier may select a new terrain type that this ability can affect.</Pair>
+<Pair title="At 20th Level">The cavalier may select a new terrain type that this ability can affect.</Pair>
+</Ability>
+<Ability id="wild-charge-ex" icon={["boost"]}>
+<Pair single id="wild-charge-ex">Wild Charge (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">The cavalier and his mount can ignore <Link to="/rule/difficult_terrain">difficult terrain</Link> for the purpose of making a <Link to="/rule/charge">charge</Link> attack. In addition, if the charge attack is successful and both he and his opponent are occupying squares with difficult terrain, the cavalier gains a +2 competence bonus when using his <em>mighty charge</em> ability to make a bull rush, disarm, sunder, or trip <Link to="/rule/combat_maneuver">combat maneuver</Link>.</Pair>
+</Ability>
 </>};
 const _order_of_the_lion = {title: "Order of the Lion", jsx: <><h2 id="order-order_of_the_lion-order-of-the-lion">Order of the Lion</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 36</Link></p>
 <p>A cavalier who belongs to this order has pledged himself to a sovereign; be it a king, queen, or even the local warlord. Cavaliers of this order are stalwart and dedicated to their cause, willing to go any length to ensure the safety of their lord and his domain.</p>
-<p><strong>Edicts:</strong> The cavalier must protect the life and lands of his sovereign at all costs. He must obey the commands of his sovereign without question. He must strive to expand the power and prestige of his realm.</p>
-<p><strong>Challenge:</strong> Whenever an order of the lion cavalier issues a challenge, he receives a +1 dodge bonus to his AC against attacks made by the target of his challenge. This bonus increases by +1 for every four levels the cavalier possesses.</p>
-<p><strong>Skills:</strong> An order of the lion cavalier adds Knowledge (local) (Int) and Knowledge (nobility) (Int) to his list of class skills. An order of the lion cavalier can make Knowledge (nobility) skill checks untrained. If he has ranks in the skill, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1) as long as the check involves his sovereign.</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must protect the life and lands of his sovereign at all costs. He must obey the commands of his sovereign without question. He must strive to expand the power and prestige of his realm.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_lion-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever an order of the lion cavalier issues a <em>challenge,</em> he receives a dodge bonus to his AC against attacks made by the target of his <em>challenge.</em> <Bonus m c="cavalier" n={4} type="dodge bonus" p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_lion-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the lion cavalier adds <Link to="/skill/knowledge_local">Knowledge (local)</Link> and <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_lion-power-boost-icons" wrapper="prefixIcon" list={["power","boost"]} /> An order of the lion cavalier can make Knowledge (nobility) skill checks untrained. If he has ranks in the skill, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1) as long as the check involves his sovereign.</Cell></Row></Block>
 <h3 id="order-order_of_the_lion-order-abilities">Order Abilities</h3>
 <p>A cavalier belonging to the order of the lion gains the following abilities as he increases in level.</p>
-<p><strong>Lion's Call (Ex):</strong> At 2nd level, an order of the lion cavalier gains the ability to rally his allies. As a standard action, he can give an encouraging speech which grants all allies within 60 feet a competence bonus on their saving throws against fear equal to his Charisma modifier and a +1 competence bonus on attack rolls for a number of rounds equal to his cavalier level. If an ally within range is under the effect of a spell or ability that causes him to be frightened or panicked, he can immediately make another saving throw to resist the effect (if allowed).</p>
-<p><strong>For the King (Ex):</strong> At 8th level, an order of the lion cavalier can call out to his allies, inspiring them to greatness. As a swift action, the cavalier can grant a competence bonus equal to his Charisma modifier on all attack and damage rolls to all allies within 30 feet. This bonus lasts for 1 round. This ability can be used once per combat.</p>
-<p><strong>Shield of the Liege (Ex):</strong> At 15th level, an order of the lion cavalier can protect those around him. Allies that are adjacent to the cavalier receive a +2 shield bonus to their AC. In addition, as an immediate action, the cavalier can redirect an attack made at a creature adjacent to himself, as long as the creature making the attack is within the cavalier's reach. This ability must be declared before the attack roll is made. The attack is made against the cavalier's AC and defenses, even if the creature could not normally reach or attack the cavalier. The cavalier loses any cover or concealment bonuses when subject to the redirected attack.</p>
+<Ability id="lions-call-ex" icon={["protect","boost"]}>
+<Pair single id="lions-call-ex" flavor="An order of the lion cavalier gains the ability to rally his allies.">Lion's Call (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Standard Action"><p>The cavalier can give an encouraging speech which grants all allies within 60 feet a competence bonus on their saving throws against fear equal to his Charisma modifier and a +1 competence bonus on attack rolls for a number of rounds equal to his cavalier level.</p>
+<p>If an ally within range is under the effect of a spell or ability that causes him to be frightened or panicked, he can immediately make another saving throw to resist the effect (if allowed).</p>
+</Pair>
+</Ability>
+<Ability id="for-the-king-ex" icon={["boost"]}>
+<Pair single id="for-the-king-ex" flavor="An order of the lion cavalier can call out to his allies, inspiring them to greatness.">For the King (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Swift Action">The cavalier can grant a competence bonus equal to his Charisma modifier on all attack and damage rolls to all allies within 30 feet. This bonus lasts for 1 round. This ability can be used once per combat.</Pair>
+</Ability>
+<Ability id="shield-of-the-liege-ex" icon={["protect"]}>
+<Pair single id="shield-of-the-liege-ex" flavor="An order of the lion cavalier can protect those around him.">Shield of the Liege (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Passive Ability">Allies that are adjacent to the cavalier receive a +2 shield bonus to their AC.</Pair>
+<Pair title="Immediate Action">The cavalier can redirect an attack made at a creature adjacent to himself, as long as the creature making the attack is within the cavalier's reach. This ability must be declared before the attack roll is made. The attack is made against the cavalier's AC and defenses, even if the creature could not normally reach or attack the cavalier. The cavalier loses any cover or concealment bonuses when subject to the redirected attack.</Pair>
+</Ability>
 </>};
 const _order_of_the_monument = {title: "Order of the Monument", jsx: <><h2 id="order-order_of_the_monument-order-of-the-monument">Order of the Monument</h2>
 <p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine pg. 15</Link></p>
 <p>Cavaliers who join the order of the monument dedicate themselves to the protection and service of a particular city or settlement and often follow or respect the faiths of their home locale. Cavaliers belonging to this order hold themselves to their city's laws and customs even when traveling abroad.</p>
-<p><strong>Edicts:</strong> The cavalier must strive to protect the settlement, all those who reside within it, and those travelers who hail from it. He must adhere to the settlement's laws even while away from its borders and promote its populace's overarching ideals and values whenever possible.</p>
-<p><strong>Challenge:</strong> Whenever an order of the monument cavalier issues a challenge, he gains a +1 dodge bonus to his AC against attacks made by the target of his challenge when the cavalier is flanked, as well as a +1 morale bonus on saving throws against fear and mind-affecting effects. This bonus increases by 1 for every 4 levels the cavalier has.</p>
-<p><strong>Skills:</strong> An order of the monument cavalier adds Knowledge (local) and Knowledge (religion) to his list of class skills. An order of the monument cavalier chooses one of these two skills. He can attempt skill checks with his chosen skill untrained. If he has ranks in the skill, he receives a bonus on the check equal to half his cavalier level (minimum +1) as long as the check involves his chosen settlement or a faith with a significant presence in his chosen settlement.</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must strive to protect the settlement, all those who reside within it, and those travelers who hail from it. He must adhere to the settlement's laws even while away from its borders and promote its populace's overarching ideals and values whenever possible.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_monument-def-icons" wrapper="prefixIcon" list={["def"]} /> Whenever an order of the monument cavalier issues a <em>challenge,</em> he gains a dodge bonus to his AC against attacks made by the target of his <em>challenge</em> when the cavalier is <Link to="/rule/flanked">flanked</Link>, as well as a morale bonus on saving throws against fear and mind-affecting effects. <Bonus m c="cavalier" n={4} pl p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_monument-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the monument cavalier adds <Link to="/skill/knowledge_local">Knowledge (local)</Link> and <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_monument-power-boost-icons" wrapper="prefixIcon" list={["power","boost"]} /> An order of the monument cavalier chooses one of the two gained skills. He can attempt skill checks with his chosen skill untrained. If he has ranks in the skill, he receives a bonus on the check equal to half his cavalier level (minimum +1) as long as the check involves his chosen settlement or a faith with a significant presence in his chosen settlement.</Cell></Row></Block>
 <h3 id="order-order_of_the_monument-order-abilities">Order Abilities</h3>
 <p>A cavalier belonging to the order of the monument gains the following as he increases in level.</p>
-<p><strong>Sworn Defender (Ex):</strong> At 2nd level, the cavalier gains a +1 morale bonus on saving throws to resist effects created by creatures whose alignments are at least two steps away from his settlement's alignment (e.g., a cavalier of a lawful good settlement and an opponent of neutral alignment). If the creature's alignment is three or more steps away from his settlement's alignment, the bonus increases to +2.</p>
-<p><strong>Protector of the People (Ex):</strong> At 8th level, the cavalier can inspire the people around him as a swift action. Each creature within 30 feet that is either a resident of his chosen settlement or whose alignment is within one step of the cavalier's settlement gains a morale bonus on saving throws equal to the cavalier's Charisma modifier for 1 round. This bonus doubles if a creature meets both requirements. The cavalier can use this ability once per day, plus one additional time per day at 12th level and every 4 levels thereafter.</p>
-<p><strong>Bastion of the Monument (Ex):</strong> At 15th level, the cavalier defends his homeland with unmatched ferocity. As a swift action, the cavalier can declare an opponent an enemy of his settlement. This grants the cavalier and his allies a +4 bonus on attack rolls, damage rolls, and ability and skill checks against the opponent, as well as on saving throws to resist effects originating from that opponent. The cavalier can end this ability as a swift action. He can use this ability for a number of rounds per day equal to half his cavalier level. This duration need not be continuous but must be used in 1-round increments.</p>
+<Ability id="sworn-defender-ex" icon={["def"]}>
+<Pair single id="sworn-defender-ex">Sworn Defender (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">The cavalier gains a +1 morale bonus on saving throws to resist effects created by creatures whose alignments are at least two steps away from his settlement's alignment (e.g., a cavalier of a lawful good settlement and an opponent of neutral alignment). If the creature's alignment is three or more steps away from his settlement's alignment, the bonus increases to +2.</Pair>
+</Ability>
+<Ability id="protector-of-the-people-ex" icon={["protect"]}>
+<Pair single id="protector-of-the-people-ex" flavor="The cavalier can inspire the people around him.">Protector of the People (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per four cavalier levels beyond 8th<ByLevelPop levels={[[8,1],[12,2],[16,3],[20,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Swift Action">Each creature within 30 feet that is either a resident of his chosen settlement or whose alignment is within one step of the cavalier's settlement gains a morale bonus on saving throws equal to the cavalier's Charisma modifier for 1 round. This bonus doubles if a creature meets both requirements.</Pair>
+</Ability>
+<Ability id="bastion-of-the-monument-ex" icon={["boost","def","protect"]}>
+<Pair single id="bastion-of-the-monument-ex" flavor="The cavalier defends his homeland with unmatched ferocity.">Bastion of the Monument (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Usage">1 round/day per two cavalier levels; these rounds need not be consecutive, but they must be spent in 1-round increments</Pair>
+<Pair title="Swift Action">The cavalier can declare an opponent an enemy of his settlement. This grants the cavalier and his allies a +4 bonus on attack rolls, damage rolls, and ability and skill checks against the opponent, as well as on saving throws to resist effects originating from that opponent. The cavalier can end this ability as a <strong className="hl">swift action</strong>.</Pair>
+</Ability>
 </>};
 const _order_of_the_paw = {title: "Order of the Paw", jsx: <><h2 id="order-order_of_the_paw-order-of-the-paw">Order of the Paw</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 64</Link></p>
-<p>Only dog- or wolf-riding <Link to="/race/halfling">halflings</Link> are eligible to join this order of cavaliers. When they do, they pledge to defend halflings, halfling settlements, and other innocent folks by patrolling the wilderness and seeking out possible threats to both individuals and whole communities. These cavaliers hunt down potential danger with a ruthless efficiency and determination that non-halflings find surprising and even somewhat alarming.</p>
-<p><strong>Edicts:</strong> The cavalier must strive to protect his community from rampaging monsters and fearsome conquers alike. His first priority is to aid halfling communities, but he also is sworn to protect those who cannot protect themselves from such threats in the wild. He must never take any action that would put a halfling community or an innocent creature in jeopardy. An order of the paw cavalier must take either a <Link to="/companion/wolf">wolf</Link> or a <Link to="/companion/dog">dog</Link> as his mount.</p>
-<p><strong>Challenge:</strong> Whenever an order of the paw cavalier issues a challenge, his mount gains a +1 dodge bonus to AC as long it is threatening the target of the cavalier's challenge and the cavalier is riding the mount. This bonus increases by +1 for every four levels the cavalier possesses.</p>
-<p><strong>Skills:</strong> An order of the paw cavalier adds Knowledge (nature) and Survival to his list of class skills. He can make Knowledge (nature) checks untrained. Also, an order of the paw cavalier is adept at following tracks while mounted, using his mount's speed rather than his own to determine the penalty for tracking while moving, whether he is mounted or not.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="order-order_of_the_paw--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><ul><li><Link to="/race/halfling">Halfling</Link></li><li>Mount is a dog or wolf</li></ul></td></tr></tbody></table></ScrollContainer></div><p>Only <Link to="/companion/dog">dog</Link>- or <Link to="/companion/wolf">wolf</Link>-riding halflings are eligible to join this order of cavaliers. When they do, they pledge to defend halflings, halfling settlements, and other innocent folks by patrolling the wilderness and seeking out possible threats to both individuals and whole communities. These cavaliers hunt down potential danger with a ruthless efficiency and determination that non-halflings find surprising and even somewhat alarming.</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must strive to protect his community from rampaging monsters and fearsome conquers alike. His first priority is to aid halfling communities, but he also is sworn to protect those who cannot protect themselves from such threats in the wild. He must never take any action that would put a halfling community or an innocent creature in jeopardy. An order of the paw cavalier must take either a <Link to="/companion/wolf">wolf</Link> or a <Link to="/companion/dog">dog</Link> as his mount.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_paw-def-icons" wrapper="prefixIcon" list={["def"]} /> Whenever an order of the paw cavalier issues a <em>challenge,</em> his mount gains a dodge bonus to AC as long it is threatening the target of the cavalier's <em>challenge</em> and the cavalier is riding the mount. <Bonus m c="cavalier" n={4} type="dodge bonus" p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_paw-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the paw cavalier adds <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> and <Link to="/skill/survival">Survival</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_paw-power-boost-icons" wrapper="prefixIcon" list={["power","boost"]} /> He can make Knowledge (nature) checks untrained. Also, an order of the paw cavalier is adept at following tracks while mounted, using his mount's speed rather than his own to determine the penalty for tracking while moving, whether he is mounted or not.</Cell></Row></Block>
 <h3 id="order-order_of_the_paw-order-abilities">Order Abilities</h3>
 <p>A cavalier belonging to the order of the paw gains the following abilities as he increases in level.</p>
-<p><strong>Danger Ward (Ex):</strong> At 2nd level, the cavalier can ready his allies for impending danger. As a standard action, he can ready all allies within 30 feet of the danger ahead, granting a bonus on a single type of saving throw (Fortitude, Reflex or Will) that he chooses when he grants this boon. At any point in the next minute, when these allies fail a saving throw of that type, they can choose to reroll the saving throw with a +4 competence bonus as an immediate action, but must take the results of the reroll even if it is worse. He can use this ability up to three times per day, once for each type of saving throw.</p>
-<p><strong>Canine Ferocity (Ex):</strong> At 8th level, when the cavalier uses his wolf or dog mount to perform a <Link to="/rule/bull_rush">bull rush</Link> or <Link to="/rule/overrun">overrun</Link> maneuver, the mount is considered to be one size category larger for the purposes of determining the size of creature it is maneuvering against and the mount's CMB. He also receives a bonus feat, chosen from the following list: <Link to="/feat/mounted_combat">Mounted Combat</Link>, <Link to="/feat/ride_by_attack">Ride-By Attack</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Ride), <Link to="/feat/spirited_charge">Spirited Charge</Link>, <Link to="/feat/trample">Trample</Link> (the mount can make a bite attack in place of a hoof attack), or <Link to="/feat/unseat">Unseat</Link>. He must qualify for the feat selected.</p>
-<p><strong>Giant Slayer (Ex):</strong> At 15th level, when the cavalier hits the target of his challenge with a melee attack, and that target is at least two size categories larger than the cavalier, he gains a bonus on damage rolls equal to 1/2 his cavalier level. This damage is multiplied on a critical hit.</p>
+<Ability id="danger-ward-ex" icon={["protect"]}>
+<Pair single id="danger-ward-ex" flavor="The cavalier can ready his allies for impending danger.">Danger Ward (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Standard Action"><p>The cavalier can ready all allies within 30 feet of the danger ahead, granting a bonus on a single type of saving throw (Fortitude, Reflex or Will) that he chooses when he grants this boon.</p>
+<p>At any point in the next minute, when these allies fail a saving throw of that type, they can choose to reroll the saving throw with a +4 competence bonus as an <strong className="hl">immediate action</strong>, but must take the results of the reroll even if it is worse.</p>
+</Pair>
+<Pair title="Special">He can use this ability up to three times per day, once for each type of saving throw.</Pair>
+</Ability>
+<Ability id="canine-ferocity-ex" icon={["boost"]}>
+<Pair single id="canine-ferocity-ex">Canine Ferocity (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">When the cavalier uses his wolf or dog mount to perform a <Link to="/rule/bull_rush">bull rush</Link> or <Link to="/rule/overrun">overrun</Link> maneuver, the mount is considered to be one size category larger for the purposes of determining the size of creature it is maneuvering against and the mount's CMB. He also receives a bonus feat, chosen from the following list: <Link to="/feat/mounted_combat">Mounted Combat</Link>, <Link to="/feat/ride_by_attack">Ride-By Attack</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Ride), <Link to="/feat/spirited_charge">Spirited Charge</Link>, <Link to="/feat/trample">Trample</Link> (the mount can make a bite attack in place of a hoof attack), or <Link to="/feat/unseat">Unseat</Link>. He must qualify for the feat selected.</Pair>
+</Ability>
+<Ability id="giant-slayer-ex" icon={["boost"]}>
+<Pair single id="giant-slayer-ex">Giant Slayer (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Passive Ability">When the cavalier hits the target of his <em>challenge</em> with a melee attack, and that target is at least two size categories larger than the cavalier, he gains a bonus on damage rolls equal to <Link to="/misc/half">half</Link> his cavalier level. This damage is multiplied on a critical hit.</Pair>
+</Ability>
 </>};
 const _order_of_the_penitent = {title: "Order of the Penitent", jsx: <><h2 id="order-order_of_the_penitent-order-of-the-penitent">Order of the Penitent</h2>
 <p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea pg. 24</Link></p>
