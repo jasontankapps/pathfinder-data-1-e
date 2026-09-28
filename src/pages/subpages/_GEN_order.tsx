@@ -635,75 +635,172 @@ const _order_of_the_paw = {title: "Order of the Paw", jsx: <><h2 id="order-order
 const _order_of_the_penitent = {title: "Order of the Penitent", jsx: <><h2 id="order-order_of_the_penitent-order-of-the-penitent">Order of the Penitent</h2>
 <p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea pg. 24</Link></p>
 <p>Not all knights begin their careers as nobles' children or as squires. Some start out as thieves, murderers, or cheats, and only after they see the suffering caused by their crimes do they dedicate themselves to honorable service. Cavaliers who follow this order seek to make up for the crimes they've committed in the past, and do whatever they can to restore their tainted honor.</p>
-<p><strong>Edicts:</strong> The cavalier must be merciful to wrongdoers and show unfettered fairness whenever he passes judgment. He must assume that only the most heinous monsters are irrevocably evil, and must deliver all foes capable of fair trial to the appropriate local law enforcers.</p>
-<p><strong>Challenge:</strong> Whenever an order of the penitent cavalier issues a challenge, he receives a +1 morale bonus to his CMD against combat maneuvers made by the target of his challenge whenever he is threatening the target. This bonus increases by +1 for every four levels the cavalier possesses.</p>
-<p><strong>Skills:</strong> An order of the penitent cavalier adds Escape Artist (Dex) and Sense Motive (Wis) to his list of class skills. Whenever he makes an Escape Artist check, the cavalier may add his Strength bonus to the check in addition to his Dexterity modifier.</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must be merciful to wrongdoers and show unfettered fairness whenever he passes judgment. He must assume that only the most heinous monsters are irrevocably evil, and must deliver all foes capable of fair trial to the appropriate local law enforcers.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_penitent-def-icons" wrapper="prefixIcon" list={["def"]} /> Whenever an order of the penitent cavalier issues a <em>challenge,</em> he receives a morale bonus to his CMD against combat maneuvers made by the target of his <em>challenge</em> whenever he is threatening the target. <Bonus m c="cavalier" n={4} type="morale bonus" p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_penitent-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the penitent cavalier adds <Link to="/skill/escape_artist">Escape Artist</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_penitent-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever he makes an Escape Artist check, the cavalier may add his Strength bonus to the check in addition to his Dexterity modifier.</Cell></Row></Block>
 <h3 id="order-order_of_the_penitent-order-abilities">Order Abilities</h3>
 <p>An order of the penitent cavalier gains the following abilities as he increases in level.</p>
-<p><strong>Expert Captor (Ex):</strong> At 2nd level, as long as he has rope, the cavalier can tie up a grappled opponent, even if the opponent is not pinned, otherwise restrained, or unconscious, and he does not take the usual -10 penalty on his combat maneuver check to do so. When determining the DC to escape bonds secured by the cavalier, the cavalier's Combat Maneuver Bonus increases by 1/2 his cavalier level.</p>
-<p><strong>Adept Disarmer (Ex):</strong> At 8th level, the cavalier gains <Link to="/feat/improved_disarm">Improved Disarm</Link> as a bonus feat. In addition, whenever he makes a successful <Link to="/rule/disarm">disarm</Link> check, as long as he has at least one hand free and the dropped item can be held in one hand, he can automatically pick up the dropped item in his free hand.</p>
-<p><strong>Saving Grace (Ex):</strong> At 15th level, whenever he would strike a creature with a melee attack that deals lethal damage and would bring the creature's hit points below 0, the cavalier can, as a free action, change the type of damage dealt to nonlethal damage. The cavalier can use this ability once per round.</p>
+<Ability id="expert-captor-ex" icon={["melee"]}>
+<Pair single id="expert-captor-ex">Expert Captor (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">As long as he has rope, the cavalier can tie up a <Link to="/rule/grappled">grappled</Link> opponent, even if the opponent is not pinned, otherwise restrained, or unconscious, and he does not take the usual -10 penalty on his combat maneuver check to do so. When determining the DC to escape bonds secured by the cavalier, the cavalier's Combat Maneuver Bonus increases by 1/2 his cavalier level.</Pair>
+</Ability>
+<Ability id="adept-disarmer-ex" icon={["power"]}>
+<Pair single id="adept-disarmer-ex">Adept Disarmer (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">The cavalier gains <Link to="/feat/improved_disarm">Improved Disarm</Link> as a bonus feat. In addition, whenever he makes a successful <Link to="/rule/disarm">disarm</Link> check, as long as he has at least one hand free and the dropped item can be held in one hand, he can automatically pick up the dropped item in his free hand.</Pair>
+</Ability>
+<Ability id="saving-grace-ex" icon={["melee"]}>
+<Pair single id="saving-grace-ex">Saving Grace (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Free Action">Whenever he would strike a creature with a melee attack that deals lethal damage and would bring the creature's hit points below 0, the cavalier can change the type of damage dealt to nonlethal damage. The cavalier can use this ability once per round.</Pair>
+</Ability>
 </>};
 const _order_of_the_reins = {title: "Order of the Reins", jsx: <><h2 id="order-order_of_the_reins-order-of-the-reins">Order of the Reins</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 31</Link></p>
 <p>The cavaliers of the order of the reins hold a strong rapport not just with their mounts, but with all tamed and domesticated animals on Golarion. From camels and horses to teams of sled dogs, these cavaliers hold themselves honor-bound to protect these creatures for their labor and loyalty. Cavaliers of the order of the reins often serve as the commanders of caravans or other expeditions, using their unique skills to ensure that the caravan and its wares safely reach their intended markets.</p>
-<p><strong>Edicts:</strong> The cavalier must do everything in his power to keep a caravan or traveling group safe once he has agreed to protect it. He must see that any allied animal injured under his watch is healed, or personally give it a merciful death if survival is not an option. He must not let any animal under his command suffer needlessly.</p>
-<p><strong>Challenge:</strong> Whenever an order of the reins cavalier issues a challenge, all allied animals, animal companions, familiars, and mounts within 60 feet gain a +1 bonus on attack rolls and a +2 bonus to AC against the target. This bonus increases by 1 for every additional 4 levels the cavalier has.</p>
-<p><strong>Skills:</strong> An order of the reins cavalier adds Appraise and Perception to his list of class skills. Any animal that the cavalier is riding can use the cavalier's Handle Animal modifier in place of its own Acrobatics and Swim skill modifiers as long as the cavalier is mounted on it.</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must do everything in his power to keep a caravan or traveling group safe once he has agreed to protect it. He must see that any allied animal injured under his watch is healed, or personally give it a merciful death if survival is not an option. He must not let any animal under his command suffer needlessly.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_reins-boost-protect-icons" wrapper="prefixIcon" list={["boost","protect"]} /> Whenever an order of the reins cavalier issues a <em>challenge,</em> all allied animals, animal companions, familiars, and mounts within 60 feet gain a +1 bonus on attack rolls. <Bonus m c="cavalier" n={4} type="morale bonus" p={1} />. They also gain a bonus to AC against the target equal to 2 + one-fourth of his cavalier level.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_reins-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the reins cavalier adds <Link to="/skill/appraise">Appraise</Link> and <Link to="/skill/perception">Perception</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_reins-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Any animal that the cavalier is riding can use the cavalier's <Link to="/skill/handle_animal">Handle Animal</Link> modifier in place of its own Acrobatics and <Link to="/skill/swim">Swim</Link> skill modifiers as long as the cavalier is mounted on it.</Cell></Row></Block>
 <h3 id="order-order_of_the_reins-order-abilities">Order Abilities</h3>
 <p>A cavalier belonging to the order of the reins gains the following abilities as he increases in level.</p>
-<p><strong>Control the Herd (Ex):</strong> At 2nd level, the cavalier can direct multiple animals with one forceful command. The cavalier can handle a number of non-hostile, riderless animals equal to his cavalier level with a single use of the <Link to="/skill/handle_animal">Handle Animal</Link> skill, so long as the commanded animals can see or hear the cavalier. The handled animals must all be ordered to perform the same trick. If an animal in the group does not know the trick the cavalier is commanding them to perform, the cavalier is considered to be pushing that animal. The cavalier cannot use this ability on animals more than two size categories smaller than he is. Using this ability requires a move action, though if the cavalier is pushing any animal as described above, it requires a full-round action.</p>
-<p><strong>Teamwork Tricks (Ex):</strong> At 8th level as a free action, the cavalier can use control the herd to handle allied and riderless animals and animal companions. Friendly and helpful animals that the cavalier commands with Handle Animal or his control the herd ability are considered to know any tasks or tricks the cavalier's mount knows, in addition to any tasks or tricks they already know.</p>
-<p><strong>Stampede (Ex):</strong> At 15th level, as a standard action, the cavalier can incite any riderless and non-hostile animals and animal companions within 60 feet of him to stampede. Each affected creature gains a +4 bonus to AC (this bonus stacks with the benefits of the cavalier's challenge), the <Link to="/umr/trample">trample</Link> universal monster rule, and a bonus to damage equal to half the cavalier's level for 1 round. The save DC against an incited animal's trample attack is 10 + half the cavalier's level + his Charisma modifier. Incited creatures attack whatever targets the cavalier directs them to unless commanded otherwise by a bonded master (in the case of a familiar or animal companion).</p>
+<Ability id="control-the-herd-ex" icon={["boost"]}>
+<Pair single id="control-the-herd-ex" flavor="The cavalier can direct multiple animals with one forceful command.">Control the Herd (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability"><p>The cavalier can handle a number of non-hostile, riderless animals equal to his cavalier level with a single use of the <Link to="/skill/handle_animal">Handle Animal</Link> skill, so long as the commanded animals can see or hear the cavalier. The handled animals must all be ordered to perform the same trick. If an animal in the group does not know the trick the cavalier is commanding them to perform, the cavalier is considered to be pushing that animal.</p>
+<p>Using this ability requires a <strong className="hl">move action</strong>, though if the cavalier is pushing any animal as described above, it requires a <strong className="hl">full-round action</strong>.</p>
+</Pair>
+<Pair title="Special">The cavalier cannot use this ability on animals more than two size categories smaller than he is.</Pair>
+</Ability>
+<Ability id="teamwork-tricks-ex" icon={["boost"]}>
+<Pair single id="teamwork-tricks-ex">Teamwork Tricks (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Free Action">The cavalier can use <em>control the herd</em> to handle allied and riderless animals and animal companions. Friendly and helpful animals that the cavalier commands with Handle Animal or his <em>control the herd</em> ability are considered to know any tasks or tricks the cavalier's mount knows, in addition to any tasks or tricks they already know.</Pair>
+</Ability>
+<Ability id="stampede-ex" icon={["protect","power","boost"]}>
+<Pair single id="stampede-ex">Stampede (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Standard Action">The cavalier can incite any riderless and non-hostile animals and animal companions within 60 feet of him to stampede. Each affected creature gains a +4 bonus to AC (this bonus stacks with the benefits of the cavalier's <em>challenge</em>), the <Link to="/umr/trample">trample</Link> universal monster rule, and a bonus to damage equal to half the cavalier's level for 1 round. The save DC against an incited animal's trample attack is 10 + half the cavalier's level + his Charisma modifier. Incited creatures attack whatever targets the cavalier directs them to unless commanded otherwise by a bonded master (in the case of a familiar or animal companion).</Pair>
+</Ability>
 </>};
 const _order_of_the_saddle = {title: "Order of the Saddle", jsx: <><h2 id="order-order_of_the_saddle-order-of-the-saddle">Order of the Saddle</h2>
 <p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East pg. 43</Link></p>
-<p>Cavaliers of the order of the saddle have pledged themselves to the pursuit of perfect partnership between rider and mount. This order holds that the balance found when such a partnership is achieved contains the seeds of a better self, a better relationship with one's community, and a better sense of how to keep the world itself healthy.</p>
-<p><strong>Restriction:</strong> Only <Link to="/companion/horse">horse</Link>-riding cavaliers are eligible to join this order.</p>
-<p><strong>Edicts:</strong> The cavalier must care for her mount before herself. She must show mercy to any noncombatants or less intelligent creatures who serve her opponents. She must teach any who ask about how to better communicate with their mounts. The only meat she may eat must come from animals that have been humanely raised and slaughtered. She must strive to ensure her community lives in harmony with the land it occupies and that it doesn't cause unnecessary suffering to the animals under its care.</p>
-<p><strong>Challenge:</strong> Whenever an order of the saddle cavalier issues a challenge and is astride her mount, she can charge the target of her challenge - moving and attacking as if with a standard charge - and then move again as if using <Link to="/feat/ride_by_attack">Ride-By Attack</Link>. Her total movement for the round can't exceed her mounted speed. This maneuver provokes attacks of opportunity, but the cavalier gains a +1 dodge bonus to AC against attacks of opportunity while charging the target of her challenge. This bonus increases by 1 for every 4 levels the cavalier has. If the cavalier already has the Ride-By Attack feat, this dodge bonus increases by 2.</p>
-<p><strong>Skills:</strong> An order of the saddle cavalier adds Knowledge (nature) and Perception to her list of class skills. When she uses Survival to track a creature or find food and water for herself and her mount, she receives a bonus on the check equal to 1/2 her cavalier level (minimum +1).</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="order-order_of_the_saddle--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Has a <Link to="/companion/horse">horse</Link> as a mount</td></tr></tbody></table></ScrollContainer></div><p>Cavaliers of the order of the saddle have pledged themselves to the pursuit of perfect partnership between rider and mount. This order holds that the balance found when such a partnership is achieved contains the seeds of a better self, a better relationship with one's community, and a better sense of how to keep the world itself healthy.</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must care for her mount before herself. She must show mercy to any noncombatants or less intelligent creatures who serve her opponents. She must teach any who ask about how to better communicate with their mounts. The only meat she may eat must come from animals that have been humanely raised and slaughtered. She must strive to ensure her community lives in harmony with the land it occupies and that it doesn't cause unnecessary suffering to the animals under its care.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_saddle-power-def-icons" wrapper="prefixIcon" list={["power","def"]} /> Whenever an order of the saddle cavalier issues a <em>challenge</em> and is astride her mount, she can <Link to="/rule/charge">charge</Link> the target of her <em>challenge</em> - moving and attacking as if with a standard charge - and then move again as if using <Link to="/feat/ride_by_attack">Ride-By Attack</Link>.<br/><br/>Her total movement for the round can't exceed her mounted speed. This maneuver provokes attacks of opportunity, but the cavalier gains a dodge bonus to AC against attacks of opportunity while charging the target of her <em>challenge.</em> <Bonus f c="cavalier" n={4} type="dodge bonus" p={1} />. If the cavalier already has the Ride-By Attack feat, this dodge bonus increases by 2.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_saddle-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the saddle cavalier adds <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> and <Link to="/skill/perception">Perception</Link> to her list of class skills.<br/><br/><Icons id="order-order_of_the_saddle-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When she uses <Link to="/skill/survival">Survival</Link> to track a creature or find food and water for herself and her mount, she receives a bonus on the check equal to 1/2 her cavalier level (minimum +1).</Cell></Row></Block>
 <h3 id="order-order_of_the_saddle-order-abilities">Order Abilities</h3>
 <p>A cavalier that belongs to the order of the saddle gains the following abilities as she increases in level.</p>
-<p><strong>Mounted Synergy (Ex):</strong> At 2nd level, the cavalier receives <Link to="/feat/mounted_combat">Mounted Combat</Link> as a bonus feat and, whenever she is mounted, gains a +2 bonus on initiative checks as long as her mount is conscious and mobile.</p>
-<p><strong>Stalwart Mount (Su):</strong> At 8th level, the cavalier's mount becomes healthier and more robust. It gains <Link to="/feat/toughness">Toughness</Link> as a bonus feat (if it already has Toughness, or takes this as a feat later, the hit points granted by the feat are doubled) and gains a +2 bonus on saving throws.</p>
-<p><strong>Protective Partner (Ex):</strong> At 15th level, the cavalier wreaks terrible vengeance on those who would try to harm her mount. Whenever an opponent attacks the cavalier's mount, the attacking creature provokes an attack of opportunity from the cavalier. The cavalier receives a +2 bonus on attack rolls and damage rolls when she makes these attacks of opportunity.</p>
+<Ability id="mounted-synergy-ex" icon={["power","boost"]}>
+<Pair single id="mounted-synergy-ex">Mounted Synergy (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">The cavalier receives <Link to="/feat/mounted_combat">Mounted Combat</Link> as a bonus feat and, whenever she is mounted, gains a +2 bonus on initiative checks as long as her mount is conscious and mobile.</Pair>
+</Ability>
+<Ability id="stalwart-mount-su" icon={["power","def"]}>
+<Pair single id="stalwart-mount-su">Stalwart Mount (Su)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">The cavalier's mount becomes healthier and more robust. It gains <Link to="/feat/toughness">Toughness</Link> as a bonus feat (if it already has Toughness, or takes this as a feat later, the hit points granted by the feat are doubled) and gains a +2 bonus on saving throws.</Pair>
+</Ability>
+<Ability id="protective-partner-ex" icon={["lower","boost"]}>
+<Pair single id="protective-partner-ex" flavor="The cavalier wreaks terrible vengeance on those who would try to harm her mount.">Protective Partner (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Passive Ability">Whenever an opponent attacks the cavalier's mount, the attacking creature provokes an attack of opportunity from the cavalier. The cavalier receives a +2 bonus on attack rolls and damage rolls when she makes these attacks of opportunity.</Pair>
+</Ability>
 </>};
 const _order_of_the_scales = {title: "Order of the Scales", jsx: <><h2 id="order-order_of_the_scales-order-of-the-scales">Order of the Scales</h2>
 <p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance pg. 22</Link></p>
 <p>Members of this cavalier order serve the cause of legal integrity. Many order of the scales cavaliers track down and apprehend fleeing lawbreakers so that these vagrants may answer for their crimes and make good on their debts. They often serve as judges or stakeholders, and work to ensure that wherever a bargain is made - whether it is monetary, a life debt, or an oath to be upheld - both ends make good on their promises.</p>
-<p><strong>Edicts:</strong> The cavalier must fulfill all binding agreements he makes with others. If a bargain becomes impossible to fulfill, he must satisfactorily compensate all aggrieved or adversely affected parties involved in the bargain. When serving as a judge or arbiter, the cavalier must make fair, impartial judgments, and if unable to do so, must recuse himself at the earliest possibility. If authorized to enforce an agreement, the cavalier must wholeheartedly strive to accomplish this, remaining unswayed by threats, bribery, and other deterrents.</p>
-<p><strong>Challenge:</strong> Whenever an order of the scales cavalier issues a challenge, he receives a +1 morale bonus on combat maneuvers and attacks of opportunity made against the target of his challenge. This bonus increases by 1 for every 4 levels the cavalier possesses.</p>
-<p><strong>Skills:</strong> An order of the scales cavalier adds Knowledge (local) (Int) and Linguistics (Int) to his list of class skills. He gains a bonus equal to half his level (minimum +1) on Sense Motive checks to determine whether someone is bluffing and to determine whether a creature's behavior is being influenced by an enchantment.</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must fulfill all binding agreements he makes with others. If a bargain becomes impossible to fulfill, he must satisfactorily compensate all aggrieved or adversely affected parties involved in the bargain. When serving as a judge or arbiter, the cavalier must make fair, impartial judgments, and if unable to do so, must recuse himself at the earliest possibility. If authorized to enforce an agreement, the cavalier must wholeheartedly strive to accomplish this, remaining unswayed by threats, bribery, and other deterrents.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_scales-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever an order of the scales cavalier issues a <em>challenge,</em> he receives a morale bonus on combat maneuvers and attacks of opportunity made against the target of his <em>challenge.</em> <Bonus m c="cavalier" n={4} type="morale bonus" p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_scales-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the scales cavalier adds <Link to="/skill/knowledge_local">Knowledge (local)</Link> and <Link to="/skill/linguistics">Linguistics</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_scales-boost-icons" wrapper="prefixIcon" list={["boost"]} /> He gains a bonus equal to <Link to="/misc/half">half</Link> his level (minimum +1) on <Link to="/skill/sense_motive">Sense Motive</Link> checks to determine whether someone is bluffing and to determine whether a creature's behavior is being influenced by an enchantment.</Cell></Row></Block>
 <h3 id="order-order_of_the_scales-order-abilities">Order Abilities</h3>
 <p>A cavalier belonging to the order of the scales gains the following abilities as he increases in level.</p>
-<p><strong>Mobile Wall (Ex):</strong> At 2nd level, the cavalier receives <Link to="/feat/step_up">Step Up</Link> as a bonus feat. He can use this feat while mounted by succeeding at a DC 15 Ride check, directing his mount to move rather than himself. The cavalier gains a +1 bonus to his CMD against attempts to tumble through squares he threatens. At 6th level, and every 4 levels thereafter, this bonus increases by an additional +1.</p>
-<p><strong>Seek Retribution (Ex):</strong> At 8th level, once per day after receiving a request for aid from a legal authority or an aggrieved party regarding the breaking of an oath, whenever the cavalier encounters the oath-breaking creature, he can choose to vehemently exact retribution. As a swift action, the cavalier can grant himself a competence bonus equal to his Charisma modifier on all attack rolls, weapon damage rolls, and opposed checks against the oathbreaking creature. These bonuses last for 1 round per level.</p>
-<p><strong>Sworn Oathkeeper (Ex):</strong> At 15th level, the cavalier can formally witness an oath or agreement between two creatures. If either creature breaks or reneges on the agreement and the cavalier becomes aware of this, he gains the bonuses from his seek retribution ability against that creature at all times. This ability ends when the creature fulfills the conditions of the oath or receives just punishment for breaking the oath. The maximum number of witnessed oaths cavalier can have active at a time is equal to his Charisma modifier (minimum 1).</p>
+<Ability id="mobile-wall-ex" icon={["power","def"]}>
+<Pair single id="mobile-wall-ex">Mobile Wall (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">The cavalier receives <Link to="/feat/step_up">Step Up</Link> as a bonus feat. He can use this feat while mounted by succeeding at a DC 15 <Link to="/skill/ride">Ride</Link> check, directing his mount to move rather than himself.</Pair>
+<Pair title="Passive Ability">The cavalier gains a +1 bonus to his CMD against attempts to tumble through squares he threatens.</Pair>
+<Pair title="At 6th Level">This bonus becomes +2.</Pair>
+<Pair title="At 10th Level">This bonus increases to +3.</Pair>
+<Pair title="At 14th Level">This bonus becomes +4.</Pair>
+<Pair title="At 18th Level">This bonus increases to +5.</Pair>
+</Ability>
+<Ability id="seek-retribution-ex" icon={["boost"]}>
+<Pair single id="seek-retribution-ex">Seek Retribution (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Info">Once per day after receiving a request for aid from a legal authority or an aggrieved party regarding the breaking of an oath, whenever the cavalier encounters the oath-breaking creature, he can choose to vehemently exact retribution.</Pair>
+<Pair title="Swift Action">The cavalier can grant himself a competence bonus equal to his Charisma modifier on all attack rolls, weapon damage rolls, and opposed checks against the oathbreaking creature. These bonuses last for 1 round per level.</Pair>
+</Ability>
+<Ability id="sworn-oathkeeper-ex" icon={["power","boost"]}>
+<Pair single id="sworn-oathkeeper-ex">Sworn Oathkeeper (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">The cavalier can formally witness an oath or agreement between two creatures. If either creature breaks or reneges on the agreement and the cavalier becomes aware of this, he gains the bonuses from his <em>seek retribution</em> ability against that creature at all times.</Pair>
+<Pair title="Special">This ability ends when the creature fulfills the conditions of the oath or receives just punishment for breaking the oath. The maximum number of witnessed oaths cavalier can have active at a time is equal to his Charisma modifier (minimum 1).</Pair>
+</Ability>
 </>};
 const _order_of_the_seal = {title: "Order of the Seal", jsx: <><h2 id="order-order_of_the_seal-order-of-the-seal">Order of the Seal</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 34</Link></p>
 <p>Cavaliers of the order of the seal are a secretive order, each charged with the protection of a specific object (such as a dangerous magic item), place (a lost temple), or secret (that a certain peasant is actually the last descendant of the royal line). Such cavaliers are the defenders of ancient traditions or the servants of rulers with important secrets to hide, sometimes having to search out such secrets in order to properly protect and preserve them.</p>
-<p><strong>Edicts:</strong> The cavalier must guard his sworn charge with all he has: his health, his honor, and his very life. If his charge is a place, he must keep intruders out. If it is a thing, he must keep it safe from thieves - and restore the item to its rightful place if taken.</p>
-<p><strong>Challenge:</strong> An order of the seal cavalier can make a free bull rush or trip combat maneuver anytime he takes the full-attack action against the target of his challenge. This free combat maneuver does not provoke an attack of opportunity.</p>
-<p><strong>Skills:</strong> An order of the seal cavalier adds Disable Device (Dex) and Linguistics (Int) to his list of class skills. Whenever the cavalier uses Bluff to conceal information about his sworn charge, he receives a competence bonus equal to 1/2 his cavalier level (minimum +1).</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must guard his sworn charge with all he has: his health, his honor, and his very life. If his charge is a place, he must keep intruders out. If it is a thing, he must keep it safe from thieves - and restore the item to its rightful place if taken.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_seal-melee-icons" wrapper="prefixIcon" list={["melee"]} /> An order of the seal cavalier can make a free bull rush or trip combat maneuver anytime he takes the full-attack action against the target of his <em>challenge.</em> This free combat maneuver does not provoke an attack of opportunity.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_seal-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the seal cavalier adds <Link to="/skill/disable_device">Disable Device</Link> and <Link to="/skill/linguistics">Linguistics</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_seal-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever the cavalier uses <Link to="/skill/bluff">Bluff</Link> to conceal information about his sworn charge, he receives a competence bonus equal to 1/2 his cavalier level (minimum +1).</Cell></Row></Block>
 <h3 id="order-order_of_the_seal-order-abilities">Order Abilities</h3>
 <p>A cavalier belonging to the order of the seal gains the following abilities as he increases in level.</p>
-<p><strong>Keeper (Ex):</strong> At 2nd level, once per day the cavalier must select a location, or a secret that he has sworn to protect. If he chooses a location, he gains a +2 morale bonus on attack rolls when directly defending his charge. If he chooses a secret, he gains a +2 morale bonus on saving throws and opposed checks to resist revealing information about his charge. He gains these bonuses until he picks a new object, location, or secret to protect.</p>
-<p><strong>I Shall Not Be Moved (Ex):</strong> At 8th level, the cavalier can draw on his dedication to overcome physical weakness. Whenever the cavalier does not move more than a 5-foot step, he receives a +2 dodge bonus to his CMD to resist bull rush, overrun, reposition, and trip combat maneuvers until his next turn.</p>
-<p><strong>Staggering Assault (Ex):</strong> At 15th level, the cavalier can drive opponents back without giving ground. As a full-round action, the cavalier can make a single attack at his highest attack bonus. If the attack hits, the attack does damage as normal, and the cavalier may attempt a bull rush against the target. The cavalier gains a bonus on the bull rush combat maneuver check equal to half the amount of damage dealt on the initial attack.</p>
+<Ability id="keeper-ex" icon={["boost","def"]}>
+<Pair single id="keeper-ex">Keeper (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Choice"><p>Once per day the cavalier must select a location, or a secret that he has sworn to protect.</p>
+<p>If he chooses a location, he gains a +2 morale bonus on attack rolls when directly defending his charge.</p>
+<p>If he chooses a secret, he gains a +2 morale bonus on saving throws and opposed checks to resist revealing information about his charge.</p>
+</Pair>
+<Pair title="Special">He gains these bonuses until he picks a new object, location, or secret to protect.</Pair>
+</Ability>
+<Ability id="i-shall-not-be-moved-ex" icon={["def"]}>
+<Pair single id="i-shall-not-be-moved-ex" flavor="The cavalier can draw on his dedication to overcome physical weakness.">I Shall Not Be Moved (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Passive Ability">Whenever the cavalier does not move more than a 5-foot step, he receives a +2 dodge bonus to his CMD to resist bull rush, overrun, reposition, and trip combat maneuvers until his next turn.</Pair>
+</Ability>
+<Ability id="staggering-assault-ex" icon={["melee","boost"]}>
+<Pair single id="staggering-assault-ex" flavor="The cavalier can drive opponents back without giving ground.">Staggering Assault (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Full-Round Action">The cavalier can make a single attack at his highest attack bonus. If the attack hits, the attack does damage as normal, and the cavalier may attempt a <Link to="/rule/bull_rush">bull rush</Link> against the target. The cavalier gains a bonus on the bull rush combat maneuver check equal to half the amount of damage dealt on the initial attack.</Pair>
+</Ability>
 </>};
 const _order_of_the_shield = {title: "Order of the Shield", jsx: <><h2 id="order-order_of_the_shield-order-of-the-shield">Order of the Shield</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 36</Link></p>
 <p>Cavaliers who join the order of the shield devote their lives to protecting the common folk, from the simple farmer to the honest craftsman. These cavaliers stand before the tide, protecting the innocent from roving marauders and hungry monsters.</p>
-<p><strong>Edicts:</strong> The cavalier must protect the lives and prosperity of the common folk, shielding them from the deprivations of those who would seek to cause them harm or exploit them. He must give charity when it is warranted and aid when needed. He must take no action that would cause harm or hardship to those who cannot defend themselves.</p>
-<p><strong>Challenge:</strong> Whenever an order of the shield cavalier issues a challenge, he receives a +1 morale bonus on attack rolls made against the target of his challenge if the target makes an attack against a target other than the cavalier. This bonus lasts for 1 minute. The bonus increases by +1 for every four levels the cavalier possesses.</p>
-<p><strong>Skills:</strong> An order of the shield cavalier adds Heal (Wis) and Knowledge (local) (Int) to his list of class skills. Whenever an order of the shield cavalier uses the Heal skill on a creature other than himself, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1).</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must protect the lives and prosperity of the common folk, shielding them from the deprivations of those who would seek to cause them harm or exploit them. He must give charity when it is warranted and aid when needed. He must take no action that would cause harm or hardship to those who cannot defend themselves.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_shield-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever an order of the shield cavalier issues a <em>challenge,</em> he receives a morale bonus on attack rolls made against the target of his <em>challenge</em> if the target makes an attack against a target other than the cavalier. This bonus lasts for 1 minute. <Bonus m c="cavalier" n={4} type="morale bonus" p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_shield-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the shield cavalier adds <Link to="/skill/heal">Heal</Link> and <Link to="/skill/knowledge_local">Knowledge (local)</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_shield-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever an order of the shield cavalier uses the Heal skill on a creature other than himself, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1).</Cell></Row></Block>
 <h3 id="order-order_of_the_shield-order-abilities">Order Abilities</h3>
 <p>A cavalier belonging to the order of the shield gains the following abilities as he increases in level.</p>
-<p><strong>Resolute (Ex):</strong> At 2nd level, whenever the cavalier takes damage from a melee or ranged attack while wearing heavy armor, the cavalier can convert 1 point of lethal damage to 1 point of nonlethal damage. He can use this ability once each time he takes damage. This ability cannot be used to convert ability damage, ability drain, or energy damage to nonlethal damage. At 6th level, and every four levels thereafter, the amount of damage the cavalier can convert increases by 1.</p>
-<p><strong>Stem the Tide (Ex):</strong> At 8th level, the cavalier receives <Link to="/feat/stand_still">Stand Still</Link> as a bonus feat, even if he does not meet the prerequisites. Instead of making a combat maneuver check to stop the creature from moving, a cavalier with this ability can elect to make a normal attack instead. If the attack hits and deals damage, the target must stop moving, just as if the cavalier had made a successful combat maneuver check.</p>
-<p><strong>Protect the Meek (Ex):</strong> At 15th level, the cavalier can move to intercept foes. As an immediate action, he can move up to his speed (or his mount's speed, if mounted) and make a single melee attack. This movement provokes attacks of opportunity as normal. The cavalier must end his movement adjacent to an enemy. On his next turn, the cavalier is staggered and cannot use this ability again for 1 round.</p>
+<Ability id="resolute-ex" icon={["def"]}>
+<Pair single id="resolute-ex">Resolute (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability"><p>Whenever the cavalier takes damage from a melee or ranged attack while wearing heavy armor, the cavalier can convert 1 point of lethal damage to 1 point of nonlethal damage. He can use this ability once each time he takes damage.</p>
+<p>This ability cannot be used to convert <Link to="/rule/ability_damage">ability damage, ability drain</Link>, or energy damage to nonlethal damage.</p>
+</Pair>
+<Pair title="At 6th Level">He can convert 2 points of damage.</Pair>
+<Pair title="At 10th Level">He can convert 3 points of damage.</Pair>
+<Pair title="At 14th Level">He can convert 4 points of damage.</Pair>
+<Pair title="At 18th Level">He can convert 5 points of damage.</Pair>
+</Ability>
+<Ability id="stem-the-tide-ex" icon={["power","boost"]}>
+<Pair single id="stem-the-tide-ex">Stem the Tide (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">The cavalier receives <Link to="/feat/stand_still">Stand Still</Link> as a bonus feat, even if he does not meet the prerequisites. Instead of making a combat maneuver check to stop the creature from moving, a cavalier with this ability can elect to make a normal attack instead. If the attack hits and deals damage, the target must stop moving, just as if the cavalier had made a successful combat maneuver check.</Pair>
+</Ability>
+<Ability id="protect-the-meek-ex" icon={["melee"]}>
+<Pair single id="protect-the-meek-ex" flavor="The cavalier can move to intercept foes.">Protect the Meek (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Immediate Action">The cavalier can move up to his speed (or his mount's speed, if mounted) and make a single melee attack. This movement provokes attacks of opportunity as normal. The cavalier must end his movement adjacent to an enemy. On his next turn, the cavalier is <Link to="/misc/staggered">staggered</Link> and cannot use this ability again for 1 round.</Pair>
+</Ability>
 </>};
 const _order_of_the_shroud = {title: "Order of the Shroud", jsx: <><h2 id="order-order_of_the_shroud-order-of-the-shroud">Order of the Shroud</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 117</Link></p>
