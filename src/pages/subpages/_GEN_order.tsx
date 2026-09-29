@@ -805,134 +805,342 @@ const _order_of_the_shield = {title: "Order of the Shield", jsx: <><h2 id="order
 const _order_of_the_shroud = {title: "Order of the Shroud", jsx: <><h2 id="order-order_of_the_shroud-order-of-the-shroud">Order of the Shroud</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 117</Link></p>
 <p>Cavaliers of this order seek out and destroy undead and those who harbor or create them. They scour old crypts, graveyards, and battlefields to bring eternal rest.</p>
-<p><strong>Edicts:</strong> The cavalier must protect the common folk from the scourge of the undead. He must seek out and destroy the restless dead and give aid to those haunted by them. He must protect those who cannot defend themselves, and root out sources that birth the corruption of life and death.</p>
-<p><strong>Challenge:</strong> Whenever an order of the shroud cavalier issues a challenge to an undead creature, he receives a +1 morale bonus on attack rolls against the target of his challenge for 1 minute. The bonus increases by 1 for every 4 class levels the cavalier possesses.</p>
-<p><strong>Skills:</strong> An order of the shroud cavalier adds Knowledge (local) (Int) and Knowledge (religion) (Int) to his list of class skills. An order of the shroud cavalier can attempt Knowledge (religion) checks untrained. If he has ranks in that skill, as long as a Knowledge (religion) check involves undead or haunts, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1).</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must protect the common folk from the scourge of the undead. He must seek out and destroy the restless dead and give aid to those haunted by them. He must protect those who cannot defend themselves, and root out sources that birth the corruption of life and death.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_shroud-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever an order of the shroud cavalier issues a <em>challenge</em> to an undead creature, he receives a morale bonus on attack rolls against the target of his <em>challenge</em> for 1 minute. <Bonus m c="cavalier" n={4} type="morale bonus" p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_shroud-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the shroud cavalier adds <Link to="/skill/knowledge_local">Knowledge (local)</Link> and <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_shroud-power-boost-icons" wrapper="prefixIcon" list={["power","boost"]} /> An order of the shroud cavalier can attempt Knowledge (religion) checks untrained. If he has ranks in that skill, as long as a Knowledge (religion) check involves undead or haunts, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1).</Cell></Row></Block>
 <h3 id="order-order_of_the_shroud-order-abilities">Order Abilities</h3>
 <p>A cavalier belonging to the order of the shroud gains the following abilities as he increases in level.</p>
-<p><strong>Spiritual Shield (Su):</strong> At 2nd level, the cavalier can call upon the spirits of the fallen for protection. Once per day as an immediate action when attacked by an undead target of his challenge, the cavalier can gain a deflection bonus equal to his Charisma modifier to his AC against that attack. The cavalier must decide to use this ability before the attack roll.</p>
-<p><strong>Destroyer of the Undead (Su):</strong> At 8th level, the cavalier's weapons are treated as having the cavalier's alignment for the purpose of overcoming the damage reduction of undead creatures. Against an undead target of his challenge, the cavalier automatically overcomes all damage reduction that undead possesses.</p>
-<p><strong>Stand Against Darkness (Ex or Su):</strong> At 15th level, the cavalier can take revenge on undead that dare strike him or those he seeks to protect. Whenever an undead creature that is the subject of his challenge hits the cavalier or an adjacent ally with a melee attack, the creature provokes an attack of opportunity from the cavalier. The cavalier gains a +2 morale bonus on attacks of opportunity provoked as a result of this ability. If an undead subject of the cavalier's challenge threatens a critical hit against the cavalier, the cavalier gains a deflection bonus equal to his Charisma modifier against the confirmation roll. This bonus functions as a supernatural ability.</p>
+<Ability id="spiritual-shield-su" icon={["def"]}>
+<Pair single id="spiritual-shield-su" flavor="The cavalier can call upon the spirits of the fallen for protection.">Spiritual Shield (Su)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Immediate Action">Once per day when attacked by an undead target of his <em>challenge,</em> the cavalier can gain a deflection bonus equal to his Charisma modifier to his AC against that attack. The cavalier must decide to use this ability before the attack roll.</Pair>
+</Ability>
+<Ability id="destroyer-of-the-undead-su" icon={["boost","lower"]}>
+<Pair single id="destroyer-of-the-undead-su">Destroyer of the Undead (Su)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">The cavalier's weapons are treated as having the cavalier's alignment for the purpose of overcoming the damage reduction of undead creatures. Against an undead target of his <em>challenge,</em> the cavalier automatically overcomes all damage reduction that undead possesses.</Pair>
+</Ability>
+<Ability id="stand-against-darkness-ex-or-su" icon={["def","protect","boost"]}>
+<Pair single id="stand-against-darkness-ex-or-su" flavor="The cavalier can take revenge on undead that dare strike him or those he seeks to protect.">Stand Against Darkness (Ex or Su)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Passive Ability"><p>Whenever an undead creature that is the subject of his <em>challenge</em> hits the cavalier or an adjacent ally with a melee attack, the creature provokes an attack of opportunity from the cavalier. The cavalier gains a +2 morale bonus on attacks of opportunity provoked as a result of this ability.</p>
+<p>If an undead subject of the cavalier's <em>challenge</em> threatens a critical hit against the cavalier, the cavalier gains a deflection bonus equal to his Charisma modifier against the confirmation roll. This bonus functions as a supernatural ability.</p>
+</Pair>
+</Ability>
 </>};
 const _order_of_the_songbird = {title: "Order of the Songbird", jsx: <><h2 id="order-order_of_the_songbird-order-of-the-songbird">Order of the Songbird</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 14</Link></p>
 <p><Link to="/class/samurai">Samurai</Link> of the order of the songbird are artists, scholars, and poets. They treat battle as a beautiful art form; many of these samurai seek pacifistic means of defeating their foes. Even samurai of this order who kill their opponents do so with respect, considering such a fight to be an act of poetic tragedy. These samurai are most common in lands where beauty is treasured, such as Hwanggot, Jinin, and Tianjing.</p>
-<p><strong>Edicts:</strong> The samurai must never destroy art unless doing so is part of an artful act or performance of her own. She must respect the skill of her opponents and never desecrate or purposefully humiliate a foe. If she takes a sapient life, she must create a piece of art, performance, or poem in honor of the fallen creature or creatures in order to memorialize what she has taken from the world.</p>
-<p><strong>Challenge:</strong> An order of the songbird samurai gains a +1 dodge bonus to AC and a +1 sacred bonus on saves against the attacks and abilities of the target of her challenge. This bonus increases by 1 for every 4 class levels the samurai has. The samurai must be wearing light or no armor, not using a shield, and carrying no more than a light load to gain this benefit.</p>
-<p><strong>Skills:</strong> An order of the songbird samurai adds Knowledge (religion) (Int) and Perform (Cha) to her list of class skills. The samurai adds half her level to Craft checks and Profession (gardener) checks.</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The samurai must never destroy art unless doing so is part of an artful act or performance of her own. She must respect the skill of her opponents and never desecrate or purposefully humiliate a foe. If she takes a sapient life, she must create a piece of art, performance, or poem in honor of the fallen creature or creatures in order to memorialize what she has taken from the world.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_songbird-def-boost-icons" wrapper="prefixIcon" list={["def","boost"]} /> An order of the songbird samurai gains a dodge bonus to AC and a sacred bonus on saves against the attacks and abilities of the target of her <em>challenge.</em> <Bonus f c="samurai" n={4} pl p={1} />. The samurai must be wearing light or no armor, not using a shield, and carrying no more than a light load to gain this benefit.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_songbird-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the songbird samurai adds <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> and <Link to="/skill/perform">Perform</Link> to her list of class skills.<br/><br/><Icons id="order-order_of_the_songbird-boost-icons" wrapper="prefixIcon" list={["boost"]} /> The samurai adds half her level to <Link to="/skill/craft">Craft</Link> checks and <Link to="/skill/profession">Profession</Link> (gardener) checks.</Cell></Row></Block>
 <h3 id="order-order_of_the_songbird-order-abilities">Order Abilities</h3>
 <p>A samurai belonging to the order of the songbird gains the following abilities.</p>
-<p><strong>Versatile Performance (Ex):</strong> At 2nd level, the order of the songbird samurai gains the benefits of the <Link to="/class/bard">bard's</Link> versatile performance ability with one Perform skill.</p>
-<p><strong>Poetic Inspiration (Ex):</strong> At 8th level, an order of the songbird samurai can speak a few words as a swift action, inspiring allies to great deeds. Allies within 30 feet who can hear the samurai gain a competence bonus equal to her Charisma modifier on attack and weapon damage rolls for 1 round. This ability can be used once per combat.</p>
-<p><strong>Beautiful Strike (Su):</strong> At 15th level, once per day when the order of the songbird samurai confirms a critical hit against the target of her challenge, she can declare it a beautiful strike without spending an action. The damage dealt by the attack becomes nonlethal damage, and the target must succeed at a Will save (DC = 10 + half the samurai's class level + her Charisma modifier) or be charmed as per <Link to="/spell/charm_monster">charm monster</Link> (caster level equals the samurai's class level).</p>
+<Ability id="versatile-performance-ex" extraClasses="hasSubs" icon={["power"]}>
+<Pair single id="versatile-performance-ex">Versatile Performance (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">The order of the songbird samurai gains the benefits of the <Link to="/class/bard">bard's</Link> versatile performance ability with one Perform skill.</Pair>
+</Ability>
+<Ability id="versatile-performance-ex" extraClasses="subAbility" icon={["power"]}>
+<Pair single id="versatile-performance-ex" flavor="Relevant text from the bard class ability.">Versatile Performance (Ex)</Pair>
+<Pair title="Choice"><p>You can choose one type of Perform skill, using your bonus in that skill in place of your bonus in associated skills. When substituting in this way, you use your total Perform skill bonus, including class skill bonus, in place of its associated skill's bonus, whether or not you have ranks in that skill or if it is a class skill.</p>
+<p>The types of Perform and their associated skills are:</p>
+<ul>
+<li><strong className="hl">Act:</strong> Bluff, Disguise</li>
+<li><strong className="hl">Comedy:</strong> Bluff, Intimidate</li>
+<li><strong className="hl">Dance:</strong> Acrobatics, Fly</li>
+<li><strong className="hl">Keyboard Instruments:</strong> Diplomacy, Intimidate</li>
+<li><strong className="hl">Oratory:</strong> Diplomacy, Sense Motive</li>
+<li><strong className="hl">Percussion:</strong> Handle Animal, Intimidate</li>
+<li><strong className="hl">Sing:</strong> Bluff, Sense Motive</li>
+<li><strong className="hl">String:</strong> Bluff, Diplomacy</li>
+<li><strong className="hl">Wind:</strong> Diplomacy, Handle Animal</li>
+</ul>
+</Pair>
+</Ability>
+<Ability id="poetic-inspiration-ex" icon={["boost"]}>
+<Pair single id="poetic-inspiration-ex" flavor="An order of the songbird samurai can speak a few words, inspiring allies to great deeds.">Poetic Inspiration (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Swift Action">Allies within 30 feet who can hear the samurai gain a competence bonus equal to her Charisma modifier on attack and weapon damage rolls for 1 round. This ability can be used once per combat.</Pair>
+</Ability>
+<Ability id="beautiful-strike-su" icon={["magic"]}>
+<Pair single id="beautiful-strike-su">Beautiful Strike (Su)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">Once per day when the order of the songbird samurai confirms a critical hit against the target of her <em>challenge,</em> she can declare it a <em>beautiful strike</em>S without spending an action. The damage dealt by the attack becomes nonlethal damage, and the target must succeed at a Will save (DC = 10 + half the samurai's class level + her Charisma modifier) or be charmed as per <Link to="/spell/charm_monster">charm monster</Link> (caster level equals the samurai's class level).</Pair>
+</Ability>
 </>};
 const _order_of_the_staff = {title: "Order of the Staff", jsx: <><h2 id="order-order_of_the_staff-order-of-the-staff">Order of the Staff</h2>
 <p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea pg. 24</Link></p>
 <p>Cavaliers belonging to the order of the staff dedicate their lives to guarding and assisting spellcasters, especially wizards and druids, and to overcoming those who seek to destroy items and locations of magical import.</p>
-<p><strong>Edicts:</strong> The cavalier cannot refuse a spellcaster's request for aid unless it will interfere with his existing duties, or he believes the spellcaster seeks to directly oppose the cavalier's aims and goals.</p>
-<p><strong>Challenge:</strong> Whenever an order of the staff cavalier issues a challenge, his target takes a -1 penalty on saving throws against spells and spell-like abilities for 1 round after the cavalier successfully damages the target. This penalty increases by 1 for every four levels the cavalier possesses.</p>
-<p><strong>Skills:</strong> An order of the staff cavalier adds Knowledge (arcana) (Int) and Knowledge (nature) (Int) to his list of class skills. He may use Knowledge (arcana) to identify spells being cast by arcane spellcasters as if he were using Spellcraft, and may do the same with Knowledge (nature) for divine spellcasters. If the cavalier readies an action to strike a creature when it casts a spell, and identifies the spell to be cast with the appropriate Knowledge check, he gains a +1 bonus on the attack roll.</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier cannot refuse a spellcaster's request for aid unless it will interfere with his existing duties, or he believes the spellcaster seeks to directly oppose the cavalier's aims and goals.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_staff-lower-icons" wrapper="prefixIcon" list={["lower"]} /> Whenever an order of the staff cavalier issues a <em>challenge,</em> his target takes a penalty on saving throws against spells and spell-like abilities for 1 round after the cavalier successfully damages the target. <Bonus m c="cavalier" n={4} type="penalty" p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_staff-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the staff cavalier adds <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> and <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_staff-power-boost-icons" wrapper="prefixIcon" list={["power","boost"]} /> He may use Knowledge (arcana) to identify spells being cast by arcane spellcasters as if he were using <Link to="/skill/spellcraft">Spellcraft</Link>, and may do the same with Knowledge (nature) for divine spellcasters. If the cavalier readies an action to strike a creature when it casts a spell, and identifies the spell to be cast with the appropriate Knowledge check, he gains a +1 bonus on the attack roll.</Cell></Row></Block>
 <h3 id="order-order_of_the_staff-order-abilities">Order Abilities</h3>
 <p>A cavalier who belongs to the order of the staff gains the following abilities as he increases in level.</p>
-<p><strong>Spell Aid (Ex):</strong> At 2nd level, whenever the cavalier uses the aid another action to assist one of his allies, the ally receives a +2 competence bonus on the next <Link to="/rule/concentration">concentration</Link> check, <Link to="/spell/dispel">dispel</Link> check, or caster level check she makes (whichever comes first). At 8th level and every six levels thereafter, this bonus increases by an additional +1.</p>
-<p><strong>Arcane Vessel (Ex):</strong> At 8th level, whenever the cavalier gains a bonus on attack rolls, saving throws, or damage rolls from a spell or spell-like ability cast by another creature, the cavalier also gains a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the level of the spell or spell-like ability. Temporary hit points gained from this ability from different spells stack, but only to a maximum number of temporary hit points equal to the cavalier's level. These temporary hit points last for 10 minutes.</p>
-<p><strong>Synchronized Smash (Ex):</strong> At 15th level, the cavalier can utilize the power of his spellcasting allies to make devastating attacks against the allies' targets. If the cavalier is adjacent to an enemy affected by a targeted or area spell or spell-like ability cast by one of the cavalier's allies, he can make an immediate attack of opportunity against the affected creature. If the cavalier is also affected by the spell (such as by being caught in the area of the same <Link to="/spell/fireball">fireball</Link> spell), during the rest of that round he automatically confirms any critical hits made against the affected creature while using this ability.</p>
+<Ability id="spell-aid-ex" icon={["boost"]}>
+<Pair single id="spell-aid-ex">Spell Aid (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">Whenever the cavalier uses the <Link to="/rule/aid_another">aid another</Link> action to assist one of his allies, the ally receives a +2 competence bonus on the next <Link to="/rule/concentration">concentration</Link> check, <Link to="/spell/dispel">dispel</Link> check, or caster level check she makes (whichever comes first). At 8th level and every six levels thereafter, this bonus increases by an additional +1.</Pair>
+<Pair title="At 8th Level">This bonus becomes +3.</Pair>
+<Pair title="At 14th Level">This bonus increases to +4.</Pair>
+<Pair title="At 20th Level">This bonus becomes +5.</Pair>
+</Ability>
+<Ability id="arcane-vessel-ex" icon={["aid"]}>
+<Pair single id="arcane-vessel-ex">Arcane Vessel (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Passive Ability"><p>Whenever the cavalier gains a bonus on attack rolls, saving throws, or damage rolls from a spell or spell-like ability cast by another creature, the cavalier also gains a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the level of the spell or spell-like ability.</p>
+<p>Temporary hit points gained from this ability from different spells stack, but only to a maximum number of temporary hit points equal to the cavalier's level. These temporary hit points last for 10 minutes.</p>
+</Pair>
+</Ability>
+<Ability id="synchronized-smash-ex" icon={["power"]}>
+<Pair single id="synchronized-smash-ex" flavor="The cavalier can utilize the power of his spellcasting allies to make devastating attacks against the allies' targets.">Synchronized Smash (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">If the cavalier is adjacent to an enemy affected by a targeted or area spell or spell-like ability cast by one of the cavalier's allies, he can make an immediate attack of opportunity against the affected creature. If the cavalier is also affected by the spell (such as by being caught in the area of the same <Link to="/spell/fireball">fireball</Link> spell), during the rest of that round he automatically confirms any critical hits made against the affected creature while using this ability.</Pair>
+</Ability>
 </>};
 const _order_of_the_star = {title: "Order of the Star", jsx: <><h2 id="order-order_of_the_star-order-of-the-star">Order of the Star</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 37</Link></p>
 <p>Cavaliers who join the order of the star dedicate themselves to the protection and service of a faith and its members. Cavaliers belonging to this order tend to follow many of the tenets and guides of the religion that they serve. When a cavalier joins this order, he should select a single religion to serve.</p>
-<p><strong>Edicts:</strong> The cavalier must strive to protect the faith and all those who follow its teachings, from priest to common man. He must adhere to the strictures of the faith, promote its cause whenever possible, and serve the agents of the divine.</p>
-<p><strong>Challenge:</strong> Whenever an order of the star cavalier issues a challenge, he receives a +1 morale bonus on all his saving throws as long as he is threatening the target of his challenge. This bonus increases by +1 for every four levels the cavalier possesses.</p>
-<p><strong>Skills:</strong> An order of the star cavalier adds Heal (Wis) and Knowledge (religion) (Int) to his list of class skills. An order of the star cavalier can make Knowledge (religion) skill checks untrained. If he has ranks in the skill, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1) as long as the check involves his chosen faith.</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must strive to protect the faith and all those who follow its teachings, from priest to common man. He must adhere to the strictures of the faith, promote its cause whenever possible, and serve the agents of the divine.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_star-def-icons" wrapper="prefixIcon" list={["def"]} /> Whenever an order of the star cavalier issues a <em>challenge,</em> he receives a morale bonus on all his saving throws as long as he is threatening the target of his <em>challenge.</em> <Bonus m c="cavalier" n={4} type="morale bonus" p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_star-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the star cavalier adds <Link to="/skill/heal">Heal</Link> and <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_star-power-boost-icons" wrapper="prefixIcon" list={["power","boost"]} /> An order of the star cavalier can make Knowledge (religion) skill checks untrained. If he has ranks in the skill, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1) as long as the check involves his chosen faith.</Cell></Row></Block>
 <h3 id="order-order_of_the_star-order-abilities">Order Abilities</h3>
 <p>An order of the star cavalier gains the following abilities as he increases in level.</p>
-<p><strong>Calling (Ex):</strong> At 2nd level, the cavalier can make a short prayer as a standard action, filling him with confidence in his abilities. At any point in the next minute, he can receive a competence bonus on an ability check, attack roll, saving throw, or skill check equal to his Charisma modifier. He must declare that he is using this bonus before the roll is made. He can use this ability up to four times per day, once for each type of check or roll. In addition, the cavalier adds 1/2 his cavalier level to any levels of paladin or cleric he might possess for the purposes of determining the effects of <Link to="/ability/channel_energy">channel energy</Link> or <Link to="/ability/lay_on_hands">lay on hands</Link>.</p>
-<p><strong>For the Faith (Ex):</strong> At 8th level, the cavalier can call upon his faith to bolster himself in combat. As a free action, the cavalier can call out the name of his deity, granting him a morale bonus on attack rolls equal to his Charisma modifier for 1 round. In addition, any allies within 30 feet that share his faith also receive half this bonus (minimum +1). The cavalier can use this ability once per day, plus one additional time per day at 12th level and every four levels thereafter.</p>
-<p><strong>Retribution (Ex):</strong> At 15th level, the cavalier can take retribution on those who dare to strike an agent of his faith. Whenever an enemy makes a successful melee attack against the cavalier or an adjacent ally devoted to the same faith as the cavalier, the enemy provokes an attack of opportunity from the cavalier. The cavalier receives a +2 morale bonus on the attack of opportunity. If the attack made by the enemy was a critical hit, the cavalier may treat the enemy as the target of his challenge for the attack of opportunity. The cavalier can use this ability once per round.</p>
+<Ability id="calling-ex" icon={["boost","def"]}>
+<Pair single id="calling-ex">Calling (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Standard Action"><p>The cavalier can make a short prayer, filling him with confidence in his abilities. At any point in the next minute, he can receive a competence bonus on an ability check, attack roll, saving throw, or skill check equal to his Charisma modifier. He must declare that he is using this bonus before the roll is made.</p>
+<p>He can use this ability up to four times per day, once for each type of check or roll.</p>
+</Pair>
+<Pair title="Special">In addition, the cavalier adds <Link to="/misc/half">half</Link> his cavalier level to any levels of paladin or cleric he might possess for the purposes of determining the effects of <Link to="/ability/channel_energy">channel energy</Link> or <Link to="/ability/lay_on_hands">lay on hands</Link>.</Pair>
+</Ability>
+<Ability id="for-the-faith-ex" icon={["boost"]}>
+<Pair single id="for-the-faith-ex" flavor="The cavalier can call upon his faith to bolster himself in combat.">For the Faith (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per four cavalier levels beyond 8th<ByLevelPop levels={[[8,1],[12,2],[16,3],[20,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Free Action">The cavalier can call out the name of his deity, granting him a morale bonus on attack rolls equal to his Charisma modifier for 1 round. In addition, any allies within 30 feet that share his faith also receive half this bonus (minimum +1).</Pair>
+</Ability>
+<Ability id="retribution-ex" icon={["lower","boost"]}>
+<Pair single id="retribution-ex" flavor="The cavalier can take retribution on those who dare to strike an agent of his faith.">Retribution (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability"><p>Whenever an enemy makes a successful melee attack against the cavalier or an adjacent ally devoted to the same faith as the cavalier, the enemy provokes an attack of opportunity from the cavalier. The cavalier receives a +2 morale bonus on the attack of opportunity.</p>
+<p>If the attack made by the enemy was a critical hit, the cavalier may treat the enemy as the target of his <em>challenge</em> for the attack of opportunity.</p>
+<p>The cavalier can use this ability once per round.</p>
+</Pair>
+</Ability>
 </>};
 const _order_of_the_sword = {title: "Order of the Sword", jsx: <><h2 id="order-order_of_the_sword-order-of-the-sword">Order of the Sword</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 37</Link></p>
 <p>Cavaliers who join the order of the sword dedicate their lives to the code of chivalry, living a life of honor, valor, and fairness. Cavaliers of this order tend to swear service to a lord or a lady. Of all the orders, the order of the sword is perhaps the broadest in terms of its focus and ideals.</p>
-<p><strong>Edicts:</strong> The cavalier must show courage in the face of danger, mercy to those who have wronged him, and charity to the poor and the meek. He must be just and honorable at all times and in all things. He must defend his honor and, above all else, the honor of those he serves.</p>
-<p><strong>Challenge:</strong> Whenever an order of the sword cavalier issues a challenge, he receives a +1 morale bonus on attack rolls against the target of his challenge so long as he is astride his mount. The bonus increases by +1 for every four levels the cavalier possesses.</p>
-<p><strong>Skills:</strong> An order of the sword cavalier adds Knowledge (nobility) (Int) and Knowledge (religion) (Int) to his list of class skills. Whenever the cavalier uses Sense Motive to oppose a Bluff check, he receives a competence bonus on the check equal to 1/2 his cavalier level (minimum +1).</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must show courage in the face of danger, mercy to those who have wronged him, and charity to the poor and the meek. He must be just and honorable at all times and in all things. He must defend his honor and, above all else, the honor of those he serves.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_sword-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever an order of the sword cavalier issues a <em>challenge,</em> he receives a morale bonus on attack rolls against the target of his <em>challenge</em> so long as he is astride his mount. <Bonus m c="cavalier" n={4} type="morale bonus" p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_sword-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the sword cavalier adds <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> and <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_sword-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever the cavalier uses <Link to="/skill/sense_motive">Sense Motive</Link> to oppose a <Link to="/skill/bluff">Bluff</Link> check, he receives a competence bonus on the check equal to 1/2 his cavalier level (minimum +1).</Cell></Row></Block>
 <h3 id="order-order_of_the_sword-order-abilities">Order Abilities</h3>
 <p>An order of the sword cavalier receives the following abilities as he increases in level.</p>
-<p><strong>By My Honor (Ex):</strong> At 2nd level, the cavalier must select one alignment. As long as he maintains the selected alignment, he receives a +2 morale bonus to one saving throw of his choice.</p>
-<p><strong>Mounted Mastery (Ex):</strong> At 8th level, the cavalier ignores the armor check penalty when using the Ride skill, regardless of whether or not the creature he is riding is his mount. Whenever he makes a charge attack while mounted, he receives a +4 dodge bonus to his AC to avoid attacks set against his charge. When making such an attack, he can add his mount's Strength modifier to the damage roll, in addition to his own. He also receives a bonus feat, chosen from the following list: <Link to="/feat/mounted_combat">Mounted Combat</Link>, <Link to="/feat/ride_by_attack">Ride-By Attack</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Ride), <Link to="/feat/spirited_charge">Spirited Charge</Link>, <Link to="/feat/trample">Trample</Link>, or <Link to="/feat/unseat">Unseat</Link>. He must qualify for the feat selected.</p>
-<p><strong>Knight's Challenge (Ex):</strong> At 15th level, the cavalier can make a knight's challenge once per day. This functions like a normal challenge, but the cavalier adds his Charisma bonus on all attack rolls and damage rolls made against the target of his challenge. In addition, he receives a +4 circumstance bonus on attack rolls made to confirm critical hits against the target of his knight's challenge.</p>
+<Ability id="by-my-honor-ex" icon={["def"]}>
+<Pair single id="by-my-honor-ex">By My Honor (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Choice">The cavalier must select one alignment. As long as he maintains the selected alignment, he receives a +2 morale bonus to one saving throw of his choice.</Pair>
+</Ability>
+<Ability id="mounted-mastery-ex" icon={["boost","def","power"]}>
+<Pair single id="mounted-mastery-ex">Mounted Mastery (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Passive Ability">The cavalier ignores the armor check penalty when using the <Link to="/skill/ride">Ride</Link> skill, regardless of whether or not the creature he is riding is his mount.</Pair>
+<Pair title="Ability">Whenever he makes a <Link to="/rule/charge">charge</Link> attack while mounted, he receives a +4 dodge bonus to his AC to avoid attacks set against his charge. When making such an attack, he can add his mount's Strength modifier to the damage roll, in addition to his own.</Pair>
+<Pair title="Ability">He also receives a bonus feat, chosen from the following list: <Link to="/feat/mounted_combat">Mounted Combat</Link>, <Link to="/feat/ride_by_attack">Ride-By Attack</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Ride), <Link to="/feat/spirited_charge">Spirited Charge</Link>, <Link to="/feat/trample">Trample</Link>, or <Link to="/feat/unseat">Unseat</Link>. He must qualify for the feat selected.</Pair>
+</Ability>
+<Ability id="knights-challenge-ex" icon={["power","boost"]}>
+<Pair single id="knights-challenge-ex">Knight's Challenge (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">The cavalier can make a <em>knight's challenge</em> once per day. This functions like a normal <em>challenge,</em> but the cavalier adds his Charisma bonus on all attack rolls and damage rolls made against the target of his <em>challenge.</em> In addition, he receives a +4 circumstance bonus on attack rolls made to confirm critical hits against the target of his <em>knight's challenge.</em></Pair>
+</Ability>
 </>};
 const _order_of_the_tome = {title: "Order of the Tome", jsx: <><h2 id="order-order_of_the_tome-order-of-the-tome">Order of the Tome</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 35</Link></p>
 <p>Knowledge is the stepping stone of both truth and power. The members of this order devote themselves to the preservation of knowledge. Most would protect written knowledge at all costs, but there are members that believe there is such thing as knowledge too dangerous to be allowed to exist, and seek to destroy it.</p>
-<p><strong>Edicts:</strong> An order of the tome cavalier must protect written knowledge (or at least approved knowledge) at all costs. Some are also devoted to the destruction of proscribed knowledge and are equally zealous in the pursuit of its destruction. Most of these cavaliers believe that the preservation of a written work is more important than a single life, even their own, as it ensures future generations benefit from its wisdom.</p>
-<p><strong>Challenge:</strong> Whenever an order of the tome cavalier issues a challenge, he receives a +2 bonus on all saving throws against spells or spell-like abilities cast by the subject of his challenge and a +2 bonus on all Bluff and Sense motive checks involving the subject of his challenge.</p>
-<p><strong>Skills:</strong> An order of the tome cavalier adds Knowledge (arcana), Knowledge (religion), and Linguistics to his list of class skills. Furthermore, he can use Linguistics untrained. If he has ranks in Linguistics, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1).</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>An order of the tome cavalier must protect written knowledge (or at least approved knowledge) at all costs. Some are also devoted to the destruction of proscribed knowledge and are equally zealous in the pursuit of its destruction. Most of these cavaliers believe that the preservation of a written work is more important than a single life, even their own, as it ensures future generations benefit from its wisdom.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_tome-def-boost-icons" wrapper="prefixIcon" list={["def","boost"]} /> Whenever an order of the tome cavalier issues a <em>challenge,</em> he receives a +2 bonus on all saving throws against spells or spell-like abilities cast by the subject of his <em>challenge</em> and a +2 bonus on all <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks involving the subject of his <em>challenge.</em></Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_tome-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the tome cavalier adds <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link>, <Link to="/skill/knowledge_religion">Knowledge (religion)</Link>, and <Link to="/skill/linguistics">Linguistics</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_tome-power-boost-icons" wrapper="prefixIcon" list={["power","boost"]} /> Furthermore, he can use Linguistics untrained. If he has ranks in Linguistics, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1).</Cell></Row></Block>
 <h3 id="order-order_of_the_tome-order-abilities">Order Abilities</h3>
 <p>A cavalier belonging to the order of the tome gains the following abilities as he increases in level.</p>
-<p><strong>Specialized Knowledge (Ex):</strong> At 2nd level, an order of the tome cavalier chooses either Knowledge (arcana) or Knowledge (religion). He can make the chosen skill checks untrained. He cannot change his chosen skill later. If he has ranks in his chosen skill, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1) as long as that check involves a book, tome, scroll, or any other form of written knowledge.</p>
-<p><strong>Powerful Knowledge (Ex):</strong> At 8th level, the cavalier gains the ability to read scrolls and cast arcane or divine spells from a scroll as if he had a caster level of his cavalier level - 4. He can decipher all scrolls, using his Linguistics skill in place of Spellcraft, and does not need to cast <Link to="/spell/read_magic">read magic</Link> in order to decipher a scroll. Which type of spell the cavalier can cast is based on the Knowledge skill he chose for specialized knowledge. If he chose Knowledge (arcana), he can cast any arcane spells from a scroll. If he chose Knowledge (religion), he can cast any divine spells from a scroll. Furthermore, he gains a +1 bonus to an ability score for purposes of determining the level of spells he can cast from a scroll, and this bonus increases by +1 at 10th level and every 5 levels thereafter (to a maximum of +4 at 20th level). The ability score that gains the bonus is dependent on which skill the cavalier picked for his specialized knowledge ability. If the cavalier picked Knowledge (arcana), he gains the bonus to Intelligence. If he picked Knowledge (religion), he gains the bonus to Wisdom.</p>
-<p><strong>Defensive Knowledge (Ex):</strong> At 15th level, an order of the tome cavalier can grant nearby allies some of the boons of his cavalier challenge. While allies are adjacent to the cavalier, they gain a +2 bonus on all saving throws against spells or spell-like abilities cast by the subject of the cavalier's challenge. In addition, as an immediate action, a number of times per day equal to the cavalier's Intelligence modifier (minimum 1) or Wisdom modifier (minimum 1), the cavalier can allow an ally adjacent to him to reroll a single failed saving throw against a spell or spell-like ability from the target of his challenge. The ally must be able to see and hear the cavalier in order to gain this reroll. The ability score that determines how many times per day a cavalier can use this ability depends on which Knowledge skill the cavalier picked for specialized knowledge. If the cavalier picked Knowledge (arcana), the number of times per day this ability can be used is based on Intelligence. If he picked Knowledge (religion) it is based on Wisdom.</p>
+<Ability id="specialized-knowledge-ex" icon={["power","boost"]}>
+<Pair single id="specialized-knowledge-ex">Specialized Knowledge (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Choice">An order of the tome cavalier chooses either Knowledge (arcana) or Knowledge (religion). He can make the chosen skill checks untrained. He cannot change his chosen skill later. If he has ranks in his chosen skill, he receives a bonus on the check equal to <Link to="/misc/half">half</Link> his cavalier level (minimum +1) as long as that check involves a book, tome, scroll, or any other form of written knowledge.</Pair>
+</Ability>
+<Ability id="powerful-knowledge-ex" icon={["magic"]}>
+<Pair single id="powerful-knowledge-ex">Powerful Knowledge (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability"><p>The cavalier gains the ability to read scrolls and cast arcane or divine spells from a scroll as if he had a caster level of his cavalier level - 4. He can decipher all scrolls, using his Linguistics skill in place of <Link to="/skill/spellcraft">Spellcraft</Link>, and does not need to cast <Link to="/spell/read_magic">read magic</Link> in order to decipher a scroll.</p>
+<p>Which type of spell the cavalier can cast is based on the Knowledge skill he chose for <em>specialized knowledge.</em> If he chose Knowledge (arcana), he can cast any arcane spells from a scroll. If he chose Knowledge (religion), he can cast any divine spells from a scroll.</p>
+</Pair>
+<Pair title="Passive Ability">Furthermore, he gains a bonus equal to <Link to="/misc/one_fifth">one-fifth</Link> of his cavalier level to an ability score for purposes of determining the level of spells he can cast from a scroll. The ability score that gains the bonus is dependent on which skill the cavalier picked for his <em>specialized knowledge</em> ability. If the cavalier picked Knowledge (arcana), he gains the bonus to Intelligence. If he picked Knowledge (religion), he gains the bonus to Wisdom.</Pair>
+</Ability>
+<Ability id="defensive-knowledge-ex" icon={["protect"]}>
+<Pair single id="defensive-knowledge-ex" flavor={<>An order of the tome cavalier can grant nearby allies some of the boons of his cavalier <em>challenge.</em></>}>Defensive Knowledge (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Passive Ability">While allies are adjacent to the cavalier, they gain a +2 bonus on all saving throws against spells or spell-like abilities cast by the subject of the cavalier's <em>challenge.</em></Pair>
+<Pair title="Immediate Action"><p>In addition, a number of times per day equal to the cavalier's Intelligence modifier (minimum 1) or Wisdom modifier (minimum 1), the cavalier can allow an ally adjacent to him to reroll a single failed saving throw against a spell or spell-like ability from the target of his <em>challenge.</em> The ally must be able to see and hear the cavalier in order to gain this reroll.</p>
+<p>The ability score that determines how many times per day a cavalier can use this ability depends on which Knowledge skill the cavalier picked for <em>specialized knowledge.</em> If the cavalier picked Knowledge (arcana), the number of times per day this ability can be used is based on Intelligence. If he picked Knowledge (religion) it is based on Wisdom.</p>
+</Pair>
+</Ability>
 </>};
 const _order_of_the_warrior = {title: "Order of the Warrior", jsx: <><h2 id="order-order_of_the_warrior-order-of-the-warrior">Order of the Warrior</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 21</Link></p>
 <p>Most samurai swear themselves to the code of the warrior, which emphasizes duty, honor, loyalty, and obedience. This code extends not only to the samurai's lord and master, but also to his comrades and family. Samurai who follow the order of the warrior are among the most trusted and feared warriors in the land.</p>
-<p><strong>Edicts:</strong> The <Link to="/class/samurai">samurai</Link> must protect the life and lands of his lord with his life. He must be truthful and courageous, respectful to his elders and his masters, and loyal to his friends and liege. He must conduct himself with honor and dignity.</p>
-<p><strong>Challenge:</strong> Whenever an order of the warrior samurai declares a challenge, he receives damage reduction 1/- against attacks made by the target of his challenge. This DR increases by +1 for every four levels the samurai possesses.</p>
-<p><strong>Skills:</strong> An order of the warrior samurai adds Knowledge (history) (Int) and Knowledge (nobility) (Int) to his list of class skills. An order of the warrior samurai can make Knowledge (nobility) checks untrained. If he has ranks in the skill, he receives a bonus on the check equal to 1/2 his samurai level (minimum +1) as long as the check involves the nobles or politics of his land.</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The <Link to="/class/samurai">samurai</Link> must protect the life and lands of his lord with his life. He must be truthful and courageous, respectful to his elders and his masters, and loyal to his friends and liege. He must conduct himself with honor and dignity.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_warrior-def-icons" wrapper="prefixIcon" list={["def"]} /> Whenever an order of the warrior samurai declares a <em>challenge,</em> he receives DR/- against attacks made by the target of his <em>challenge.</em> <Bonus m c="samurai" n={4} type="DR" p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_warrior-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the warrior samurai adds <Link to="/skill/knowledge_history">Knowledge (history)</Link> and <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_warrior-power-boost-icons" wrapper="prefixIcon" list={["power","boost"]} /> An order of the warrior samurai can make Knowledge (nobility) checks untrained. If he has ranks in the skill, he receives a bonus on the check equal to 1/2 his samurai level (minimum +1) as long as the check involves the nobles or politics of his land.</Cell></Row></Block>
 <h3 id="order-order_of_the_warrior-order-abilities">Order Abilities</h3>
 <p>A samurai who belongs to the order of the warrior gains the following abilities as he increases in level.</p>
-<p><strong>Honor in All Things (Ex):</strong> At 2nd level, the order of the warrior samurai draws strength from his sense of honor. Whenever the samurai makes a skill check or saving throw, he can call upon his honor as a free action to grant him a +4 morale bonus on the roll. He can use this ability once per day at 2nd level, plus one additional time per day for every four levels beyond 2nd (maximum of five times per day at 18th level).</p>
-<p><strong>Way of the Samurai (Ex):</strong> At 8th level, the order of the warrior samurai's sense of honor and loyalty drives him to accomplish seemingly impossible tasks. The samurai can, as a standard action, focus his mind and will. Once during the next minute, he can choose to roll an attack roll, skill check, or saving throw three times and take the best result. He must decide to use this ability before the roll is made. Using this ability expends one daily use of his resolve.</p>
-<p><strong>Strike True (Ex):</strong> At 15th level, the order of the warrior samurai can use his years of training and focus to make the perfect strike. When he uses this ability, the samurai makes an attack as normal. If the attack hits, it is a critical threat. The samurai must roll to confirm the critical as normal. The attack deals the maximum amount of damage, although additional dice from weapon qualities, sneak attack, and additional dice from a critical hit are rolled normally. The damage from this attack ignores any damage reduction the target might have and also causes the target to become <Link to="/misc/blinded">blinded</Link>, <Link to="/misc/deafened">deafened</Link>, <Link to="/misc/sickened">sickened</Link>, or <Link to="/misc/staggered">staggered</Link> for 1d4 rounds (the samurai's choice). Making this attack is a standard action. The samurai can use this ability once per day.</p>
+<Ability id="honor-in-all-things-ex" icon={["boost","def"]}>
+<Pair single id="honor-in-all-things-ex" flavor="The order of the warrior samurai draws strength from his sense of honor.">Honor in All Things (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Usage">1 time/day + 1 per four cavalier levels beyond 2nd<ByLevelPop levels={[[2,1],[6,2],[10,3],[14,4],[18,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Free Action">Whenever the samurai makes a skill check or saving throw, he can call upon his honor to grant him a +4 morale bonus on the roll.</Pair>
+</Ability>
+<Ability id="way-of-the-samurai-ex" icon={["roll"]}>
+<Pair single id="way-of-the-samurai-ex" flavor="The order of the warrior samurai's sense of honor and loyalty drives him to accomplish seemingly impossible tasks.">Way of the Samurai (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Standard Action">The samurai can focus his mind and will. Once during the next minute, he can choose to roll an attack roll, skill check, or saving throw three times and take the best result. He must decide to use this ability before the roll is made.</Pair>
+<Pair title="Special">Using this ability expends one daily use of his <em>resolve.</em></Pair>
+</Ability>
+<Ability id="strike-true-ex" icon={["power","boost","lower"]}>
+<Pair single id="strike-true-ex" flavor="The order of the warrior samurai can use his years of training and focus to make the perfect strike.">Strike True (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Usage">Once per day</Pair>
+<Pair title="Standard Action"><p>When he uses this ability, the samurai makes an attack as normal. If the attack hits, it is a critical threat. The samurai must roll to confirm the critical as normal.</p>
+<p>The attack deals the maximum amount of damage, although additional dice from weapon qualities, <Link to="/ability/sneak_attack">sneak attack</Link>, and additional dice from a critical hit are rolled normally. The damage from this attack ignores any damage reduction the target might have and also causes the target to become <Link to="/misc/blinded">blinded</Link>, <Link to="/misc/deafened">deafened</Link>, <Link to="/misc/sickened">sickened</Link>, or <Link to="/misc/staggered">staggered</Link> for 1d4 rounds (the samurai's choice).</p>
+</Pair>
+</Ability>
 </>};
 const _order_of_the_waves = {title: "Order of the Waves", jsx: <><h2 id="order-order_of_the_waves-order-of-the-waves">Order of the Waves</h2>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 53</Link></p>
 <p>Cavaliers of the order of the waves explore the secrets under the sea.</p>
-<p><strong>Edicts:</strong> The cavalier must perpetually seek out and explore new places and secrets under the sea, stopping only to fight to protect his newfound treasures and his people from undersea threats (typically evil undersea races like <Link to="/monster/sahuagin">sahuagin</Link>, but alternatively goodly or neutral enemy races for cavaliers from evil races).</p>
-<p><strong>Challenge:</strong> Whenever a cavalier of the order of the waves issues a challenge, he receives a +1 morale bonus on his saving throws as long as he is underwater. This bonus increases by 1 for every 4 class levels the cavalier has.</p>
-<p><strong>Skills:</strong> A cavalier belonging to the order of the waves adds Knowledge (geography) and Perception to his class skills. He can attempt Knowledge (geography) checks untrained, but if he has ranks in the skill, he adds half his cavalier level (minimum 1) to all Knowledge (geography) checks that involve finding an underwater location.</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must perpetually seek out and explore new places and secrets under the sea, stopping only to fight to protect his newfound treasures and his people from undersea threats (typically evil undersea races like <Link to="/monster/sahuagin">sahuagin</Link>, but alternatively goodly or neutral enemy races for cavaliers from evil races).</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_waves-def-icons" wrapper="prefixIcon" list={["def"]} /> Whenever a cavalier of the order of the waves issues a <em>challenge,</em> he receives a morale bonus on his saving throws as long as he is underwater. <Bonus m c="cavalier" n={4} type="morale bonus" p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_waves-skill-icons" wrapper="prefixIcon" list={["skill"]} /> A cavalier belonging to the order of the waves adds <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> and <Link to="/skill/perception">Perception</Link> to his class skills.<br/><br/><Icons id="order-order_of_the_waves-power-boost-icons" wrapper="prefixIcon" list={["power","boost"]} /> He can attempt Knowledge (geography) checks untrained, but if he has ranks in the skill, he adds half his cavalier level (minimum 1) to all Knowledge (geography) checks that involve finding an underwater location.</Cell></Row></Block>
 <h3 id="order-order_of_the_waves-order-abilities">Order Abilities</h3>
 <p>A cavalier belonging to this order gains the following abilities as he increases in level.</p>
-<p><strong>Waverider (Ex):</strong> At 2nd level, the cavalier gains a swim speed equal to his unmodified base land speed. If he already has a swim speed, his swim speed increases by 10 feet, and if he and his mount both have a swim speed, the mount's swim speed also increases by 10 feet. He gains a +1 morale bonus on damage rolls when underwater.</p>
-<p><strong>Current's Rush (Ex):</strong> At 8th level, the cavalier gains a +2 bonus on attack rolls when charging in the same direction as a current that's currently pushing him, as well as a +1 bonus on damage rolls for every 10 feet of the current's speed (maximum +6 points of damage).</p>
-<p><strong>Explore the Seas (Ex):</strong> At 15th level, the cavalier gains <Link to="/feat/pressure_adept">Pressure Adept</Link> as a bonus feat and adds two oceanic zones to his native range instead of one. When exploring a new location underwater, he gains a +2 morale bonus on initiative checks and Perception checks, and can always act in the surprise round.</p>
+<Ability id="waverider-ex" icon={["power","boost"]}>
+<Pair single id="waverider-ex">Waverider (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">The cavalier gains a swim speed equal to his unmodified base land speed. If he already has a swim speed, his swim speed increases by 10 feet, and if he and his mount both have a swim speed, the mount's swim speed also increases by 10 feet.</Pair>
+<Pair title="Passive Ability">He gains a +1 morale bonus on damage rolls when underwater.</Pair>
+</Ability>
+<Ability id="currents-rush-ex" icon={["boost"]}>
+<Pair single id="currents-rush-ex">Current's Rush (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Passive Ability">The cavalier gains a +2 bonus on attack rolls when <Link to="/rule/charging">charging</Link> in the same direction as a current that's currently pushing him, as well as a +1 bonus on damage rolls for every 10 feet of the current's speed (maximum +6 points of damage).</Pair>
+</Ability>
+<Ability id="explore-the-seas-ex" icon={["power","boost"]}>
+<Pair single id="explore-the-seas-ex">Explore the Seas (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">The cavalier gains <Link to="/feat/pressure_adept">Pressure Adept</Link> as a bonus feat and adds two oceanic zones to his native range instead of one.</Pair>
+<Pair title="Ability">When exploring a new location underwater, he gains a +2 morale bonus on initiative checks and Perception checks, and can always act in the surprise round.</Pair>
+</Ability>
 </>};
 const _order_of_the_whip = {title: "Order of the Whip", jsx: <><h2 id="order-order_of_the_whip-order-of-the-whip">Order of the Whip</h2>
 <p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 20</Link></p>
 <p>A cavalier who belongs to this order has pledged himself to cruelty and malice, serving only those who grant him free rein to cause suffering. Cavaliers of this order inflict pain upon those they engage and capture those who submit.</p>
-<p><strong>Edicts:</strong> The cavalier must seek out those weaker than himself to punish and torture. He must force others to obey his commands without question. He must strive to cause pain and suffering wherever possible. Since these edicts are evil, he must be of an evil alignment.</p>
-<p><strong>Challenge:</strong> Whenever an order of the whip cavalier issues a challenge, he receives a +1 morale bonus on all melee damage rolls against the target of his challenge as long as he damaged the creature in the previous round. This bonus increases by +1 for every 4 levels the cavalier has (to a maximum of +5 at 17th level).</p>
-<p><strong>Skills:</strong> An order of the whip cavalier adds Knowledge (local) and Knowledge (nobility) to his list of class skills. Whenever an order of the whip cavalier uses Intimidate to force another creature to do what he says, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1).</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must seek out those weaker than himself to punish and torture. He must force others to obey his commands without question. He must strive to cause pain and suffering wherever possible. Since these edicts are evil, he must be of an evil alignment.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_the_whip-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever an order of the whip cavalier issues a <em>challenge,</em> he receives a morale bonus on all melee damage rolls against the target of his <em>challenge</em> as long as he damaged the creature in the previous round. <Bonus m c="cavalier" n={4} type="morale bonus" p={1} />, maximum +5.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_the_whip-skill-icons" wrapper="prefixIcon" list={["skill"]} /> An order of the whip cavalier adds <Link to="/skill/knowledge_local">Knowledge (local)</Link> and <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> to his list of class skills.<br/><br/><Icons id="order-order_of_the_whip-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever an order of the whip cavalier uses <Link to="/skill/intimidate">Intimidate</Link> to force another creature to do what he says, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1).</Cell></Row></Block>
 <h3 id="order-order_of_the_whip-order-abilities">Order Abilities</h3>
 <p>A cavalier who belongs to the order of the whip gains the following abilities as he increases in level.</p>
-<p><strong>Whip Crack (Ex):</strong> At 2nd level, the cavalier becomes proficient with a <Link to="/eq-weapon/whip">whip</Link> and gains <Link to="/feat/whip_mastery">Whip Mastery</Link> as a bonus feat. When a creature whose number of Hit Dice is less than or equal to 1/2 the cavalier's level takes nonlethal damage from the cavalier's whip, it is shaken for 1 round. This does not stack with other fear effects.</p>
-<p><strong>Inspiring Pain (Ex):</strong> At 8th level, the cavalier can inspire brutal malice among his allies. As a swift action, the cavalier can allow allies within 30 feet to deal nonlethal damage with their weapons without taking the usual -4 penalty (the weapon must still be capable of dealing nonlethal damage). Affected allies gain a +2 bonus on nonlethal weapon damage rolls. This effect lasts for 1 round and can be used once every 5 minutes.</p>
-<p><strong>Assert Authority (Ex):</strong> At 15th level, the cavalier demonstrates his ruthlessness against those who strike the cavalier or his slaves. Whenever an enemy makes a melee attack against the cavalier or one of his adjacent slaves or servants, that enemy provokes an attack of opportunity from the cavalier, and the cavalier gains a +2 morale bonus on this attack of opportunity. If the enemy's attack was a confirmed critical hit, the cavalier counts the enemy as if it were the target of his challenge for this attack of opportunity.</p>
+<Ability id="whip-crack-ex" icon={["power","lower"]}>
+<Pair single id="whip-crack-ex">Whip Crack (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">The cavalier becomes proficient with a <Link to="/eq-weapon/whip">whip</Link> and gains <Link to="/feat/whip_mastery">Whip Mastery</Link> as a bonus feat.</Pair>
+<Pair title="Ability">When a creature whose number of Hit Dice is less than or equal to 1/2 the cavalier's level takes nonlethal damage from the cavalier's whip, it is <Link to="/misc/shaken">shaken</Link> for 1 round. This does not stack with other fear effects.</Pair>
+</Ability>
+<Ability id="inspiring-pain-ex" icon={["boost"]}>
+<Pair single id="inspiring-pain-ex" flavor="The cavalier can inspire brutal malice among his allies.">Inspiring Pain (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Swift Action">The cavalier can allow allies within 30 feet to deal nonlethal damage with their weapons without taking the usual -4 penalty (the weapon must still be capable of dealing nonlethal damage). Affected allies gain a +2 bonus on nonlethal weapon damage rolls. This effect lasts for 1 round and can be used once every 5 minutes.</Pair>
+</Ability>
+<Ability id="assert-authority-ex" icon={["protect","def","boost"]}>
+<Pair single id="assert-authority-ex" flavor="The cavalier demonstrates his ruthlessness against those who strike the cavalier or his slaves.">Assert Authority (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability"><p>Whenever an enemy makes a melee attack against the cavalier or one of his adjacent slaves or servants, that enemy provokes an attack of opportunity from the cavalier, and the cavalier gains a +2 morale bonus on this attack of opportunity.</p>
+<p>If the enemy's attack was a confirmed critical hit, the cavalier counts the enemy as if it were the target of his <em>challenge</em> for this attack of opportunity.</p>
+</Pair>
+</Ability>
 </>};
 const _order_of_vengeance = {title: "Order of Vengeance", jsx: <><h2 id="order-order_of_vengeance-order-of-vengeance">Order of Vengeance</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River pg. 10</Link></p>
 <p>Often affiliated with the church of Calistria, those ex-Galtan cavaliers who subscribe to the order of vengeance seek not only to reclaim their rightful homeland, but to punish those who betrayed them.</p>
-<p><strong>Edicts:</strong> The cavalier must seek retaliation (legal or otherwise) for any unjustified harm to her person or property. She may not forgive even the slightest insult.</p>
-<p><strong>Challenge:</strong> Whenever a cavalier of the order of vengeance issues a challenge against a creature whose kind she has encountered in the past 24 hours, the cavalier gains a +1 morale bonus on attack rolls made against the target of her challenge. This bonus increases by +1 for every 4 levels the cavalier possesses.</p>
-<p><strong>Skills:</strong> A cavalier of the order of vengeance adds Knowledge (local) and Knowledge (nobility) to her list of class skills. Whenever the cavalier uses Diplomacy to gather information, she receives a bonus on the check equal to 1/2 her cavalier level (minimum +1).</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>The cavalier must seek retaliation (legal or otherwise) for any unjustified harm to her person or property. She may not forgive even the slightest insult.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-order_of_vengeance-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever a cavalier of the order of vengeance issues a <em>challenge</em> against a creature whose kind she has encountered in the past 24 hours, the cavalier gains a morale bonus on attack rolls made against the target of her <em>challenge.</em> <Bonus f c="cavalier" n={4} type="morale bonus" p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-order_of_vengeance-skill-icons" wrapper="prefixIcon" list={["skill"]} /> A cavalier of the order of vengeance adds <Link to="/skill/knowledge_local">Knowledge (local)</Link> and <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> to her list of class skills.<br/><br/><Icons id="order-order_of_vengeance-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whenever the cavalier uses <Link to="/skill/diplomacy">Diplomacy</Link> to gather information, she receives a bonus on the check equal to 1/2 her cavalier level (minimum +1).</Cell></Row></Block>
 <h3 id="order-order_of_vengeance-order-abilities">Order Abilities</h3>
 <p>A cavalier that belongs to the order of vengeance gains the following abilities as she increases in level.</p>
-<p><strong>Air Grievances (Ex):</strong> At 2nd level, when the cavalier attempts to demoralize an opponent using Intimidate, the cavalier gains a bonus on her Intimidate check equal to 1/2 her cavalier level. At 8th level and every 6 levels thereafter, the penalties a cavalier's target takes for being demoralized increase by 1.</p>
-<p><strong>Eye for an Eye (Ex):</strong> At 8th level, the cavalier gains <Link to="/feat/critical_focus">Critical Focus</Link> as a bonus feat. The cavalier can grant a <Link to="/main/feats_critical">critical feat</Link> (in place of a teamwork feat) to her allies using the tactician ability.</p>
-<p><strong>Retribution (Ex):</strong> At 15th level, the cavalier gains <em>retribution,</em> as the <Link to="/order/order_of_the_star">order of the star</Link> ability of the same name: At 15th level, the cavalier can take retribution on those who dare to strike an agent of his faith. Whenever an enemy makes a successful melee attack against the cavalier or an adjacent ally devoted to the same faith as the cavalier, the enemy provokes an attack of opportunity from the cavalier. The cavalier receives a +2 morale bonus on the attack of opportunity. If the attack made by the enemy was a critical hit, the cavalier may treat the enemy as the target of his challenge for the attack of opportunity. The cavalier can use this ability once per round.</p>
+<Ability id="air-grievances-ex" icon={["boost"]}>
+<Pair single id="air-grievances-ex">Air Grievances (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">When the cavalier attempts to demoralize an opponent using <Link to="/skill/intimidate">Intimidate</Link>, the cavalier gains a bonus on her Intimidate check equal to <Link to="/misc/half">half</Link> her cavalier level.</Pair>
+<Pair title="At 8th Level">The penalties a cavalier's target takes for being demoralized increase by 1.</Pair>
+<Pair title="At 14th Level">The penalties a cavalier's target takes for being demoralized increase by 2.</Pair>
+<Pair title="At 20th Level">The penalties a cavalier's target takes for being demoralized increase by 3.</Pair>
+</Ability>
+<Ability id="eye-for-an-eye-ex" icon={["power"]}>
+<Pair single id="eye-for-an-eye-ex">Eye for an Eye (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">The cavalier gains <Link to="/feat/critical_focus">Critical Focus</Link> as a bonus feat. The cavalier can grant a <Link to="/main/feats_critical">critical feat</Link> (in place of a teamwork feat) to her allies using the <em>tactician</em> ability.</Pair>
+</Ability>
+<Ability id="retribution-ex" icon={["lower","boost"]}>
+<Pair single id="retribution-ex" flavor={<>This is the same as the <Link to="/order/order_of_the_star">order of the star</Link> ability of the same name: The cavalier can take retribution on those who dare to strike an agent of his faith.</>}>Retribution (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability"><p>Whenever an enemy makes a successful melee attack against the cavalier or an adjacent ally devoted to the same faith as the cavalier, the enemy provokes an attack of opportunity from the cavalier. The cavalier receives a +2 morale bonus on the attack of opportunity.</p>
+<p>If the attack made by the enemy was a critical hit, the cavalier may treat the enemy as the target of his <em>challenge</em> for the attack of opportunity.</p>
+<p>The cavalier can use this ability once per round.</p>
+</Pair>
+</Ability>
 </>};
 const _ronin = {title: "Ronin", jsx: <><h2 id="order-ronin-ronin">Ronin</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 21</Link></p>
 <p>While most <Link to="/class/samurai">samurai</Link> belong to the order of the warrior, dedicating their considerable skills to the service of a lord, land, and people, some find themselves without a master, either as a result of disgrace or death, or occasionally by choice. Known as ronin, these samurai wander the lands, serving their own code of ideals. While ronin are significantly freer to do as they please, they do not receive the same respect and support that a more dedicated samurai can count on. Note that cavaliers can select this order, but they are typically called <strong>knights errant</strong> instead of ronin.</p>
-<p><strong>Becoming Ronin:</strong> Normally, when a samurai wishes to change his order, he must undergo a lengthy process that requires him to adhere to the edicts of his new order for a period of time before receiving any benefits. This is not the case with ronin. Once a samurai decides to become a ronin, he immediately loses all of the bonuses, skills, and abilities of his old order and gains those of the ronin order. If he wishes to once again dedicate himself to another order, he must do so using the normal rules.</p>
-<p><strong>Edicts:</strong> Ronin follow their own personal code of ethics and honor. As such, their edicts are extremely flexible and subject to change. Each ronin should determine his own edicts, which should include at least three provisions. These edicts are subject to GM approval.</p>
-<p><strong>Challenge:</strong> Whenever a ronin is the target of a challenge, a smite, a quarry, or similar effect, and he issues a challenge against that character in return, the ronin receives a +1 morale bonus on attack rolls made against the target of his challenge and a +1 dodge bonus to his AC against attacks made by the target of his challenge. These bonuses increase by +1 for every four class levels the samurai possesses (to a maximum of +6 at 20th level).</p>
-<p><strong>Skills:</strong> A ronin adds Knowledge (local) (Int) and Survival (Wis) to his list of class skills.</p>
+<h3 id="order-ronin-becoming-ronin">Becoming Ronin</h3>
+<p>Normally, when a samurai wishes to change his order, he must undergo a lengthy process that requires him to adhere to the edicts of his new order for a period of time before receiving any benefits. This is not the case with ronin. Once a samurai decides to become a ronin, he immediately loses all of the bonuses, skills, and abilities of his old order and gains those of the ronin order. If he wishes to once again dedicate himself to another order, he must do so using the normal rules.</p>
+<Block size="simple" hl>
+<Row><Cell>Edicts</Cell><Cell>Ronin follow their own personal code of ethics and honor. As such, their edicts are extremely flexible and subject to change. Each ronin should determine his own edicts, which should include at least three provisions. These edicts are subject to GM approval.</Cell></Row>
+<Row><Cell>Challenge</Cell><Cell><Icons id="order-ronin-boost-def-icons" wrapper="prefixIcon" list={["boost","def"]} /> Whenever a ronin is the target of a <em>challenge,</em> a <em>smite,</em> a <em>quarry,</em> or similar effect, and he issues a <em>challenge</em> against that character in return, the ronin receives a morale bonus on attack rolls made against the target of his <em>challenge</em> and a dodge bonus to his AC against attacks made by the target of his <em>challenge.</em> <Bonus m c="samurai" n={4} pl p={1} />.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell><Icons id="order-ronin-skill-icons" wrapper="prefixIcon" list={["skill"]} /> A ronin adds <Link to="/skill/knowledge_local">Knowledge (local)</Link> and <Link to="/skill/survival">Survival</Link> to his list of class skills.</Cell></Row></Block>
 <h3 id="order-ronin-order-abilities">Order Abilities</h3>
 <p>A ronin samurai gains the following abilities as he increases in level.</p>
-<p><strong>Self Reliant (Ex):</strong> At 2nd level, the ronin learns to rely solely on himself, even in the most difficult of times. Whenever the ronin fails a Will saving throw against an effect with a duration greater than 1 round, he can attempt another saving throw at the end of the second round of the effect. If he makes this saving throw, it has the same effect as if he had made the original save (negating part or all of the effect). In addition, whenever a ronin is brought below 0 hit points, on his next turn he can roll twice to stabilize, taking the better result.</p>
-<p><strong>Without Master (Ex):</strong> At 8th level, the ronin's fierce independence allows him to overcome staggering odds. The ronin can summon up this willpower as an immediate action, and can use it in one of three ways. He can use his willpower whenever an attack would reduce him to fewer than 0 hit points but wouldn't kill him, to instead be at 1 hit point and conscious. He can use his willpower after making an attack roll to confirm a critical hit in order to reroll the confirmation roll. Finally, he can use his willpower to take 10 on a skill check during combat, even if the situation or the skill would not normally allow him to take 10. A ronin can use this ability once during a combat.</p>
-<p><strong>Chosen Destiny (Ex):</strong> At 15th level, the ronin is the master of his own destiny. Whenever the ronin makes a saving throw against a charm or compulsion effect, he may roll twice and take the better result. In addition, once per day, the ronin can treat any one d20 roll as if the result were a natural 20. He must declare the use of this ability before the roll is made.</p>
+<Ability id="self-reliant-ex" icon={["def","roll"]}>
+<Pair single id="self-reliant-ex" flavor="The ronin learns to rely solely on himself, even in the most difficult of times.">Self Reliant (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">Whenever the ronin fails a Will saving throw against an effect with a duration greater than 1 round, he can attempt another saving throw at the end of the second round of the effect. If he makes this saving throw, it has the same effect as if he had made the original save (negating part or all of the effect).</Pair>
+<Pair title="Special">In addition, whenever a ronin is brought below 0 hit points, on his next turn he can roll twice to stabilize, taking the better result.</Pair>
+</Ability>
+<Ability id="without-master-ex" icon={["def","roll"]}>
+<Pair single id="without-master-ex" flavor="The ronin's fierce independence allows him to overcome staggering odds.">Without Master (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Usage">Once during a combat</Pair>
+<Pair title="Immediate Action"><p>The ronin can summon up his willpower and can use it in one of three ways.</p>
+<ol>
+<li>He can use his willpower whenever an attack would reduce him to fewer than 0 hit points but wouldn't kill him, to instead be at 1 hit point and conscious.</li>
+<li>He can use his willpower after making an attack roll to confirm a critical hit in order to reroll the confirmation roll.</li>
+<li>He can use his willpower to take 10 on a skill check during combat, even if the situation or the skill would not normally allow him to take 10.</li>
+</ol>
+</Pair>
+</Ability>
+<Ability id="chosen-destiny-ex" icon={["def","roll"]}>
+<Pair single id="chosen-destiny-ex" flavor="The ronin is the master of his own destiny.">Chosen Destiny (Ex)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">Whenever the ronin makes a saving throw against a charm or compulsion effect, he may roll twice and take the better result.</Pair>
+<Pair title="Ability">Once per day, the ronin can treat any one d20 roll as if the result were a natural 20. He must declare the use of this ability before the roll is made.</Pair>
+</Ability>
 </>};
 export default {not_found:_not_found,order_of_the_asp:_order_of_the_asp,order_of_the_beast_acg:_order_of_the_beast_acg,order_of_the_beast_isc:_order_of_the_beast_isc,order_of_the_blossom:_order_of_the_blossom,order_of_the_blue_rose:_order_of_the_blue_rose,order_of_the_cockatrice:_order_of_the_cockatrice,order_of_the_dragon:_order_of_the_dragon,order_of_the_eastern_star:_order_of_the_eastern_star,order_of_the_eclipse:_order_of_the_eclipse,order_of_the_eel:_order_of_the_eel,order_of_the_ennead_star:_order_of_the_ennead_star,order_of_the_first_law:_order_of_the_first_law,order_of_the_flame:_order_of_the_flame,order_of_the_green:_order_of_the_green,order_of_the_guard:_order_of_the_guard,order_of_the_hammer:_order_of_the_hammer,order_of_the_hero:_order_of_the_hero,order_of_the_land:_order_of_the_land,order_of_the_lion:_order_of_the_lion,order_of_the_monument:_order_of_the_monument,order_of_the_paw:_order_of_the_paw,order_of_the_penitent:_order_of_the_penitent,order_of_the_reins:_order_of_the_reins,order_of_the_saddle:_order_of_the_saddle,order_of_the_scales:_order_of_the_scales,order_of_the_seal:_order_of_the_seal,order_of_the_shield:_order_of_the_shield,order_of_the_shroud:_order_of_the_shroud,order_of_the_songbird:_order_of_the_songbird,order_of_the_staff:_order_of_the_staff,order_of_the_star:_order_of_the_star,order_of_the_sword:_order_of_the_sword,order_of_the_tome:_order_of_the_tome,order_of_the_warrior:_order_of_the_warrior,order_of_the_waves:_order_of_the_waves,order_of_the_whip:_order_of_the_whip,order_of_vengeance:_order_of_vengeance,ronin:_ronin}
