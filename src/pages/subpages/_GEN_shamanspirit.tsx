@@ -1,58 +1,174 @@
 import Link from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
+import InnerLink from '../../components/InnerLink';
 const _not_found = {title: "Unknown", jsx: <><h2 id="shamanspirit-not_found-error">Error</h2>
 <p>Unable to find the requested shaman spirit.</p>
 </>};
-const _ancestors = {title: "Ancestors", jsx: <><h2 id="shamanspirit-ancestors-ancestors">Ancestors</h2>
+const _ancestors = {hasJL:true,title: "Ancestors", jsx: <><div className="jumpList" id="shamanspirit-ancestors-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="shamanspirit-ancestors-hexes">Hexes</InnerLink></li><li><InnerLink toTop to="shamanspirit-ancestors-spirit-animal">Spirit Animal</InnerLink></li><li><InnerLink toTop to="shamanspirit-ancestors-spirit-ability">Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-ancestors-greater-spirit-ability">Greater Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-ancestors-true-spirit-ability">True Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-ancestors-manifestation">Manifestation</InnerLink></li></ul></div><h2 id="shamanspirit-ancestors-ancestors">Ancestors</h2>
 <p><strong>Sources</strong> <Link to="/source/cohorts_and_companions">Cohorts and Companions pg. 19</Link><br/>A shaman that selects the ancestors spirit has wise eyes and thick white or silver hair. Fine wrinkles line the shaman's face, becoming more obvious when she smiles or glowers. When she calls upon one of this spirit's abilities, her hair glows as though lit from within, rustling of its own accord.</p>
-<p><strong>Spirit Magic Spells:</strong> <Link to="/spell/unseen_servant">unseen servant</Link> (1st), <Link to="/spell/spiritual_weapon">spiritual weapon</Link> (2nd), <Link to="/spell/heroism">heroism</Link> (3rd), <Link to="/spell/spiritual_ally">spiritual ally</Link> (4th), <Link to="/spell/telekinesis">telekinesis</Link> (5th), <Link to="/spell/greater_heroism">greater heroism</Link> (6th), <Link to="/spell/ethereal_jaunt">ethereal jaunt</Link> (7th), <Link to="/spell/vision">vision</Link> (8th), <Link to="/spell/astral_projection">astral projection</Link> (9th)</p>
-<p><strong>Hexes:</strong> A shaman who chooses the Ancestors spirit can select from the following hexes.</p>
-<blockquote>
-<p><strong>Ancestral Blessing (Su):</strong> The shaman can grant the blessings of her ancestors to any ally within 30 feet. The blessed creature receives a +1 competence bonus on attack and damage rolls. This blessing lasts until the blessed creature hits with an attack or deals damage to a target. The shaman can have only one ancestral blessing active at a time. If the shaman uses this ability again, the previous blessing immediately ends. At 8th level and 16th level, the bonuses provided by this blessing increase by 1.</p>
-<p><strong>Ghost Blade (Su):</strong> The shaman can touch a creature to grant all of her weapons the <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon property for a number of rounds equal to her Charisma bonus. Once a creature has been the target of this ability, it cannot be the target of this ability again for 24 hours.</p>
-<p><strong>Intercessor (Sp):</strong> The shaman can invoke an ancestor spirit into an intact, humanoid or monstrous humanoid corpse to learn what the body knew in life. The acts as <Link to="/spell/speak_with_dead">speak with dead</Link>, but the shaman may ask only a single question. If an animated corpse or undead is targeted with this ability, the hex immediately fails. Once a corpse has answered a single question, it cannot be targeted with this ability again.</p>
-<p><strong>Might of the Fallen (Su):</strong> The shaman can call upon the ancestral heroes of her family to bolster ailing allies. As a standard action, the shaman can cure 1 point of temporary ability damage affecting the creature touched. At 7th level, this increases to 1d4 points of temporary ability damage. Once a creature has been the target of this hex, it cannot be the target of this hex again for 24 hours.</p>
-<p><strong>Wisdom of the Ages (Su):</strong> The shaman can call upon her ancestors for lore and guidance. She can use her Wisdom modifier instead of her Intelligence modifier on all Intelligence-based skill checks.</p>
-</blockquote>
-<p><strong>Spirit Animal:</strong> The shaman's spirit animal has streaks of gray or silver hide, hair, or fur, and long facial hair that appears similar to a wispy mustache or bushy eyebrows. The spirit animal can speak and understand a number of bonus languages equal to the shaman's Charisma bonus.</p>
-<p><strong>Spirit Ability:</strong> A shaman who chooses the Ancestors spirit as her spirit or wandering spirit gains the following ability.</p>
-<blockquote>
-<p><strong>Ancestor's Council (Su):</strong> As a standard action the shaman can call upon her ancestors to provide advice and assistance to one ally within 30 feet. The ally gains a +2 bonus on any attack roll, saving throw, ability check, or skill check made before the beginning of the shaman's next turn. The shaman can use this ability a number of times per day equal to 3 + her Charisma bonus.</p>
-</blockquote>
-<p><strong>Greater Spirit Ability:</strong> A shaman who chooses the Ancestors spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>
-<blockquote>
-<p><strong>Ancestral Weapon (Su):</strong> As a standard action, the shaman can summon an appropriately-sized simple or martial weapon with a +1 enhancement bonus from her family's history. She is always considered proficient with this weapon. At 15th level and 19th level, the weapon's enhancement bonus increases by 1. At 11th level, the weapon gains the <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon property. The shaman can use this ability for a number of minutes per day equal to her shaman level. This duration does not need to be consecutive, but it must be used in 1-minute increments. The weapon disappears 1 round after leaving the shaman's grasp.</p>
-</blockquote>
-<p><strong>True Spirit Ability:</strong> A shaman who chooses the Ancestors spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>
-<blockquote>
-<p><strong>Ancestral Guardian (Sp):</strong> The shaman can call on the ancient allies of her ancestors to physically appear and assist her, even if they have moved on to new roles in the cosmos. Once per day as a standard action, the shaman can cast <Link to="/spell/planar_ally">planar ally</Link>. Although there is no cost to use the spell-like ability, the planar ally demands payment for services it performs as normal for the spell.</p>
-</blockquote>
-<p><strong>Manifestation:</strong> Upon reaching 20th level, the shaman becomes one with the spirits of her ancestors. She gains a bonus on Will saving throws equal to her Charisma modifier, <Link to="/umr/blindsense">blindsense</Link> out to a range of 60 feet, and a +4 bonus to her caster level for all divination spells. She can cast <Link to="/spell/astral_projection">astral projection</Link> as a spell-like ability once per day without requiring material components.</p>
+<Ability id="spirit-magic-spells" icon={["learn"]}>
+<Pair single id="spirit-magic-spells">Spirit Magic Spells</Pair>
+<Pair title="Info">The shaman gains these spells at the listed spell levels.</Pair>
+<Pair plain title="1st"><Link to="/spell/unseen_servant">Unseen servant</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/spiritual_weapon">Spiritual weapon</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/heroism">Heroism</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/spiritual_ally">Spiritual ally</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/telekinesis">Telekinesis</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/greater_heroism">Greater heroism</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/ethereal_jaunt">Ethereal jaunt</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/vision">Vision</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/astral_projection">Astral projection</Link></Pair>
+</Ability>
+<h3 id="shamanspirit-ancestors-hexes" data-hash-target>Hexes</h3>
+<p>A shaman who chooses the Ancestors spirit can select from the following hexes.</p>
+<Ability id="ancestral-blessing-su" icon={["boost"]}>
+<Pair single id="ancestral-blessing-su">Ancestral Blessing (Su)</Pair>
+<Pair title="Ability">The shaman can grant the blessings of her ancestors to any ally within 30 feet. The blessed creature receives a competence bonus on attack and damage rolls equal to 1 + <Link to="/misc/one_eighth">one-eighth</Link> of her shaman level. This blessing lasts until the blessed creature hits with an attack or deals damage to a target.</Pair>
+<Pair title="Special">The shaman can have only one ancestral blessing active at a time. If the shaman uses this ability again, the previous blessing immediately ends.</Pair>
+</Ability>
+<Ability id="ghost-blade-su" icon={["boost"]}>
+<Pair single id="ghost-blade-su">Ghost Blade (Su)</Pair>
+<Pair title="Ability">The shaman can touch a creature to grant all of her weapons the <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon property for a number of rounds equal to her Charisma bonus.</Pair>
+<Pair title="Special">Once a creature has been the target of this ability, it cannot be the target of this ability again for 24 hours.</Pair>
+</Ability>
+<Ability id="intercessor-sp" icon={["magic"]}>
+<Pair single id="intercessor-sp">Intercessor (Sp)</Pair>
+<Pair title="Ability">The shaman can invoke an ancestor spirit into an intact, humanoid or monstrous humanoid corpse to learn what the body knew in life. The acts as <Link to="/spell/speak_with_dead">speak with dead</Link>, but the shaman may ask only a single question.</Pair>
+<Pair title="Special">If an animated corpse or undead is targeted with this ability, the hex immediately fails. Once a corpse has answered a single question, it cannot be targeted with this ability again.</Pair>
+</Ability>
+<Ability id="might-of-the-fallen-su" icon={["aid"]}>
+<Pair single id="might-of-the-fallen-su" flavor="The shaman can call upon the ancestral heroes of her family to bolster ailing allies.">Might of the Fallen (Su)</Pair>
+<Pair title="Standard Action">The shaman can cure 1 point of temporary <Link to="/rule/ability_damage">ability damage</Link> affecting the creature touched.</Pair>
+<Pair title="At 7th Level">This increases to 1d4 points of temporary ability damage.</Pair>
+<Pair title="Special">Once a creature has been the target of this hex, it cannot be the target of this hex again for 24 hours.</Pair>
+</Ability>
+<Ability id="wisdom-of-the-ages-su" icon={["boost"]}>
+<Pair single id="wisdom-of-the-ages-su" flavor="The shaman can call upon her ancestors for lore and guidance.">Wisdom of the Ages (Su)</Pair>
+<Pair title="Passive Ability">The shaman can use her Wisdom modifier instead of her Intelligence modifier on all Intelligence-based skill checks.</Pair>
+</Ability>
+<h3 id="shamanspirit-ancestors-spirit-animal" data-hash-target>Spirit Animal</h3>
+<Ability id="spirit-animal" icon={["power"]}>
+<Pair single id="spirit-animal" flavor="The shaman's spirit animal has streaks of gray or silver hide, hair, or fur, and long facial hair that appears similar to a wispy mustache or bushy eyebrows.">Spirit Animal</Pair>
+<Pair title="Ability">The spirit animal can speak and understand a number of bonus languages equal to the shaman's Charisma bonus.</Pair>
+</Ability>
+<h3 id="shamanspirit-ancestors-spirit-ability" data-hash-target>Spirit Ability</h3>
+<p>A shaman who chooses the Ancestors spirit as her spirit or wandering spirit gains the following ability.</p>
+<Ability id="ancestors-council-su" icon={["boost","def"]}>
+<Pair single id="ancestors-council-su">Ancestor's Council (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">The shaman can call upon her ancestors to provide advice and assistance to one ally within 30 feet. The ally gains a +2 bonus on any attack roll, saving throw, ability check, or skill check made before the beginning of the shaman's next turn.</Pair>
+</Ability>
+<h3 id="shamanspirit-ancestors-greater-spirit-ability" data-hash-target>Greater Spirit Ability</h3>
+<p>A shaman who chooses the Ancestors spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>
+<Ability id="ancestral-weapon-su" icon={["power"]}>
+<Pair single id="ancestral-weapon-su">Ancestral Weapon (Su)</Pair>
+<Pair title="Usage">1 minute/day per shaman level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Standard Action">The shaman can summon an appropriately-sized simple or martial weapon with a +1 enhancement bonus from her family's history. She is always considered proficient with this weapon.</Pair>
+<Pair title="At 11th Level">The weapon gains the <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon property.</Pair>
+<Pair title="At 15th Level">The enhancement bonus becomes +2.</Pair>
+<Pair title="At 19th Level">The enhancement bonus increases to +3.</Pair>
+</Ability>
+<h3 id="shamanspirit-ancestors-true-spirit-ability" data-hash-target>True Spirit Ability</h3>
+<p>A shaman who chooses the Ancestors spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>
+<Ability id="ancestral-guardian-sp" icon={["magic"]}>
+<Pair single id="ancestral-guardian-sp" flavor="The shaman can call on the ancient allies of her ancestors to physically appear and assist her, even if they have moved on to new roles in the cosmos.">Ancestral Guardian (Sp)</Pair>
+<Pair title="Standard Action">Once per day, the shaman can cast <Link to="/spell/planar_ally">planar ally</Link>. Although there is no cost to use the spell-like ability, the planar ally demands payment for services it performs as normal for the spell.</Pair>
+</Ability>
+<h3 id="shamanspirit-ancestors-manifestation" data-hash-target>Manifestation</h3>
+<Ability id="manifestation" icon={["def","power","boost","magic"]}>
+<Pair single id="manifestation" flavor="The shaman becomes one with the spirits of her ancestors.">Manifestation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">She gains a bonus on Will saving throws equal to her Charisma modifier and a +4 bonus to her caster level for all divination spells.</Pair>
+<Pair title="Ability">She gains <Link to="/umr/blindsense">blindsense</Link> out to a range of 60 feet.</Pair>
+<Pair title="Ability">She can cast <Link to="/spell/astral_projection">astral projection</Link> as a spell-like ability once per day without requiring material components.</Pair>
+</Ability>
 </>};
-const _battle = {title: "Battle", jsx: <><h2 id="shamanspirit-battle-battle">Battle</h2>
+const _battle = {hasJL:true,title: "Battle", jsx: <><div className="jumpList" id="shamanspirit-battle-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="shamanspirit-battle-hexes">Hexes</InnerLink></li><li><InnerLink toTop to="shamanspirit-battle-spirit-animal">Spirit Animal</InnerLink></li><li><InnerLink toTop to="shamanspirit-battle-spirit-ability">Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-battle-greater-spirit-ability">Greater Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-battle-true-spirit-ability">True Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-battle-manifestation">Manifestation</InnerLink></li></ul></div><h2 id="shamanspirit-battle-battle">Battle</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 37</Link><br/>A shaman who selects the battle spirit gains scars from every wound she takes, and the grit of battle always seems to cling on her body. When she calls upon one of this spirit's abilities, she grows in stature - becoming taller and more muscular, with a grimace of rage stretching across her face.</p>
-<p><strong>Spirit Magic Spells:</strong> <Link to="/spell/enlarge_person">enlarge person</Link> (1st), <Link to="/spell/fog_cloud">fog cloud</Link> (2nd), <Link to="/spell/magic_vestment">magic vestment</Link> (3rd), <Link to="/spell/wall_of_fire">wall of fire</Link> (4th), <Link to="/spell/righteous_might">righteous might</Link> (5th), <Link to="/spell/mass_bulls_strength">mass bull's strength</Link> (6th), <Link to="/spell/control_weather">control weather</Link> (7th), <Link to="/spell/earthquake">earthquake</Link> (8th), <Link to="/spell/storm_of_vengeance">storm of vengeance</Link> (9th)</p>
-<p><strong>Hexes:</strong> A shaman who chooses the Battle spirit can select from the following hexes.</p>
-<blockquote>
-<p><strong>Battle Master (Ex):</strong> The shaman makes an extra attack of opportunity each round. This ability stacks with the attacks of opportunity granted by the <Link to="/feat/combat_reflexes">Combat Reflexes</Link> feat. At 8th level, the shaman gains the <Link to="/feat/weapon_specialization">Weapon Specialization</Link> feat in a weapon of her choice as a bonus feat. At 16th level, the shaman gains the <Link to="/feat/greater_weapon_focus">Greater Weapon Focus</Link> feat as a bonus feat, for the same weapon chosen for Weapon Specialization. The shaman doesn't need to meet the prerequisites of these feats.</p>
-<p><strong>Battle Ward (Su):</strong> The shaman touches a willing creature (including herself) and grants a battle ward. The next time a foe makes an attack roll against the target, the ward activates and grants a +3 deflection bonus to the warded creature's AC. Each subsequent time she's attacked, the defection bonus reduces by 1 (to +2 for the second time she's attacked and +1 for the third). The ward fades when the bonus is reduced to +0 or after 24 hours, whichever comes first. At 8th level, the ward's starting bonus increases to +4. At 16th level, it increases to +5. A creature affected by this hex cannot be affected by it again for 24 hours.</p>
-<p><strong>Curse of Suffering (Su):</strong> The shaman causes a creature within 30 feet to take more damage from <Link to="/rule/bleed">bleed</Link> effects and causes its wounds to heal at a slower rate. When the cursed creature takes bleed damage, it takes 1 additional point of bleed damage (even if the bleed is ability damage). Furthermore, when the target is subject to an effect that would restore its hit points, that effect restores only half the normal amount of hit points. This curse lasts for a number of rounds equal to the shaman's level. A creature affected by this hex cannot be affected by it again for 24 hours.</p>
-<p><strong>Eyes of Battle (Su):</strong> The shaman's senses become magically heightened in the heat of battle. As a swift action, she can grant herself a +10 insight bonus for 1 round on <Link to="/skill/perception">Perception</Link> checks made to notice and pinpoint invisible creatures within 30 feet. She can instead use this ability as a swift action to ignore the affects of <Link to="/rule/cover">cover</Link> or partial cover (but not total cover) on her next attack, as long as that attack is made before the end of her next turn. The shaman can use this ability a number of times per day equal to her shaman level.</p>
-<p><strong>Hampering Hex (Su):</strong> The shaman causes a creature within 30 feet to take a -2 penalty to AC and CMD for a number of rounds equal to the shaman's level. A successful Will saving throw reduces this to just 1 round. At 8th level, the penalty becomes -4. Whether or not the save is successful, a creature affected by a hampering hex cannot be the target of this hex again for 24 hours.</p>
-</blockquote>
-<p><strong>Spirit Animal:</strong> The shaman's spirit animal looks like a fiercer version of its species, with rippling muscles and a stockier frame. It gains a +2 natural armor bonus to AC. If it already has a natural armor bonus, the bonus increases by 2 instead.</p>
-<p><strong>Spirit Ability:</strong> A shaman who chooses the Battle spirit as her spirit or wandering spirit gains the following ability.</p>
-<blockquote>
-<p><strong>Battle Spirit (Su):</strong> A shaman surrounds herself with the spirit of battle. Allies within 30 feet of the shaman (including the shaman) receive a +1 morale bonus on attack rolls and weapon damage rolls. At 8th level and 16th level, these bonuses increase by 1. The shaman can use this ability for a number of rounds per day equal to 3 + her Charisma modifier. These rounds do not need to be consecutive.</p>
-</blockquote>
-<p><strong>Greater Spirit Ability:</strong> A shaman who chooses the Battle spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>
-<blockquote>
-<p><strong>Enemies' Bane (Su):</strong> As a swift action, the shaman imbues a single weapon she's wielding with the <Link to="/magic-enh/bane">bane weapon</Link> special ability, choosing the type of creature affected each time she does. The effect lasts for 1 minute. If the weapon already has the bane weapon special ability of the type chosen, the additional damage dealt by bane increases to 4d6. The shaman can use this ability a number of times per day equal to 3 + her Charisma modifier.</p>
-</blockquote>
-<p><strong>True Spirit Ability:</strong> A shaman who chooses the Battle spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>
-<blockquote>
-<p><strong>Paragon of Battle (Su):</strong> As a standard action, the shaman assumes a form that combines the effects of <Link to="/spell/enlarge_person">enlarge person</Link> and <Link to="/spell/deadly_juggernaut">deadly juggernaut</Link> for 1 minute or until dismissed. The shaman can use this ability a number of times per day equal to 3 + her Charisma modifier.</p>
-</blockquote>
-<p><strong>Manifestation:</strong> Upon reaching 20th level, the shaman becomes a spirit of battle. As a full-round action, she can make a full attack and move up to her speed (either before or after the attacks). Whenever she scores a critical hit, the attack ignores damage reduction. She gains a +4 insight bonus to AC for the purposes of confirming critical hits against her. If she is reduced to below 0 hit points, she does not die until her negative hit point total exceeds double her Constitution score.</p>
+<Ability id="spirit-magic-spells" icon={["learn"]}>
+<Pair single id="spirit-magic-spells">Spirit Magic Spells</Pair>
+<Pair title="Info">The shaman gains these spells at the listed spell levels.</Pair>
+<Pair plain title="1st"><Link to="/spell/enlarge_person">Enlarge person</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/fog_cloud">Fog cloud</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/magic_vestment">Magic vestment</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/wall_of_fire">Wall of fire</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/righteous_might">Righteous might</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/mass_bulls_strength">Mass bull's strength</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/control_weather">Control weather</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/earthquake">Earthquake</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/storm_of_vengeance">Storm of vengeance</Link></Pair>
+</Ability>
+<h3 id="shamanspirit-battle-hexes" data-hash-target>Hexes</h3>
+<p>A shaman who chooses the Battle spirit can select from the following hexes.</p>
+<Ability id="battle-master-ex" icon={["power"]}>
+<Pair single id="battle-master-ex">Battle Master (Ex)</Pair>
+<Pair title="Ability">The shaman makes an extra attack of opportunity each round. This ability stacks with the attacks of opportunity granted by the <Link to="/feat/combat_reflexes">Combat Reflexes</Link> feat.</Pair>
+<Pair title="At 8th Level">The shaman gains the <Link to="/feat/weapon_specialization">Weapon Specialization</Link> feat in a weapon of her choice as a bonus feat.</Pair>
+<Pair title="At 16th Level">The shaman gains the <Link to="/feat/greater_weapon_focus">Greater Weapon Focus</Link> feat as a bonus feat, for the same weapon chosen for Weapon Specialization.</Pair>
+<Pair title="Special">The shaman doesn't need to meet the prerequisites of these feats.</Pair>
+</Ability>
+<Ability id="battle-ward-su" icon={["def","protect"]}>
+<Pair single id="battle-ward-su">Battle Ward (Su)</Pair>
+<Pair title="Ability">The shaman touches a willing creature (including herself) and grants a battle ward. The next time a foe makes an attack roll against the target, the ward activates and grants a +3 deflection bonus to the warded creature's AC. Each subsequent time she's attacked, the defection bonus reduces by 1 (to +2 for the second time she's attacked and +1 for the third). The ward fades when the bonus is reduced to +0 or after 24 hours, whichever comes first.</Pair>
+<Pair title="At 8th Level">The starting bonus becomes +4.</Pair>
+<Pair title="At 16th Level">The starting bonus increases to +5.</Pair>
+<Pair title="Special">A creature affected by this hex cannot be affected by it again for 24 hours.</Pair>
+</Ability>
+<Ability id="curse-of-suffering-su" icon={["lower"]}>
+<Pair single id="curse-of-suffering-su">Curse of Suffering (Su)</Pair>
+<Pair title="Ability"><p>The shaman causes a creature within 30 feet to take more damage from <Link to="/rule/bleed">bleed</Link> effects and causes its wounds to heal at a slower rate. When the cursed creature takes bleed damage, it takes 1 additional point of bleed damage (even if the bleed is <Link to="/rule/ability_damage">ability damage</Link>). Furthermore, when the target is subject to an effect that would restore its hit points, that effect restores only half the normal amount of hit points.</p>
+<p>This curse lasts for a number of rounds equal to the shaman's level. A creature affected by this hex cannot be affected by it again for 24 hours.</p>
+</Pair>
+</Ability>
+<Ability id="eyes-of-battle-su" icon={["boost"]}>
+<Pair single id="eyes-of-battle-su" flavor="The shaman's senses become magically heightened in the heat of battle.">Eyes of Battle (Su)</Pair>
+<Pair title="Usage">1 time/day per shaman level</Pair>
+<Pair title="Swift Action"><p>She can grant herself a +10 insight bonus for 1 round on <Link to="/skill/perception">Perception</Link> checks made to notice and pinpoint invisible creatures within 30 feet.</p>
+<p>She can instead use this ability to ignore the affects of <Link to="/rule/cover">cover</Link> or partial cover (but not total cover) on her next attack, as long as that attack is made before the end of her next turn.</p>
+</Pair>
+</Ability>
+<Ability id="hampering-hex-su" icon={["lower"]}>
+<Pair single id="hampering-hex-su">Hampering Hex (Su)</Pair>
+<Pair title="Ability">The shaman causes a creature within 30 feet to take a -2 penalty to AC and CMD for a number of rounds equal to the shaman's level. A successful Will saving throw reduces this to just 1 round.</Pair>
+<Pair title="At 8th Level">The penalty becomes -4.</Pair>
+<Pair title="Special">Whether or not the save is successful, a creature affected by a hampering hex cannot be the target of this hex again for 24 hours.</Pair>
+</Ability>
+<h3 id="shamanspirit-battle-spirit-animal" data-hash-target>Spirit Animal</h3>
+<Ability id="spirit-animal" icon={["def"]}>
+<Pair single id="spirit-animal" flavor="The shaman's spirit animal looks like a fiercer version of its species, with rippling muscles and a stockier frame.">Spirit Animal</Pair>
+<Pair title="Passive Ability">It gains a +2 natural armor bonus to AC. If it already has a natural armor bonus, the bonus increases by 2 instead.</Pair>
+</Ability>
+<h3 id="shamanspirit-battle-spirit-ability" data-hash-target>Spirit Ability</h3>
+<p>A shaman who chooses the Battle spirit as her spirit or wandering spirit gains the following ability.</p>
+<Ability id="battle-spirit-su" icon={["boost"]}>
+<Pair single id="battle-spirit-su" flavor="A shaman surrounds herself with the spirit of battle. Allies within 30 feet of the shaman (including the shaman) receive a +1 morale bonus on attack rolls and weapon damage rolls.">Battle Spirit (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier rounds/day; these rounds need not be consecutive</Pair>
+<Pair title="At 8th Level">This bonus becomes +2.</Pair>
+<Pair title="At 16th Level">This bonus increases to +3.</Pair>
+</Ability>
+<h3 id="shamanspirit-battle-greater-spirit-ability" data-hash-target>Greater Spirit Ability</h3>
+<p>A shaman who chooses the Battle spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>
+<Ability id="enemies-bane-su" icon={["boost"]}>
+<Pair single id="enemies-bane-su">Enemies' Bane (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Swift Action">The shaman imbues a single weapon she's wielding with the <Link to="/magic-enh/bane">bane weapon</Link> special ability, choosing the type of creature affected each time she does. The effect lasts for 1 minute. If the weapon already has the <em>bane</em> weapon special ability of the type chosen, the additional damage dealt by <em>bane</em> increases to 4d6.</Pair>
+</Ability>
+<h3 id="shamanspirit-battle-true-spirit-ability" data-hash-target>True Spirit Ability</h3>
+<p>A shaman who chooses the Battle spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>
+<Ability id="paragon-of-battle-su" icon={["magic"]}>
+<Pair single id="paragon-of-battle-su">Paragon of Battle (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">The shaman assumes a form that combines the effects of <Link to="/spell/enlarge_person">enlarge person</Link> and <Link to="/spell/deadly_juggernaut">deadly juggernaut</Link> for 1 minute or until dismissed.</Pair>
+</Ability>
+<h3 id="shamanspirit-battle-manifestation" data-hash-target>Manifestation</h3>
+<Ability id="manifestation" icon={["power","boost","def"]}>
+<Pair single id="manifestation" flavor="The shaman becomes a spirit of battle.">Manifestation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Full-Round Action">She can make a full attack and move up to her speed (either before or after the attacks).</Pair>
+<Pair title="Ability">Whenever she scores a critical hit, the attack ignores damage reduction.</Pair>
+<Pair title="Passive Ability">She gains a +4 insight bonus to AC for the purposes of confirming critical hits against her. If she is reduced to below 0 hit points, she does not die until her negative hit point total exceeds double her Constitution score.</Pair>
+</Ability>
 </>};
 const _bones = {title: "Bones", jsx: <><h2 id="shamanspirit-bones-bones">Bones</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 38</Link><br/>A shaman who selects the bones spirit is cadaverously thin, with sunken eye sockets and dead eyes that stare off into the distance. Her body has a faint smell of the grave. When she calls upon one of this spirit's abilities, a ghostly wind whips her hair and clothes about, and the unpleasant stench becomes more prominent.</p>
