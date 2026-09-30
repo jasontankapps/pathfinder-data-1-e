@@ -2793,19 +2793,26 @@ const _loremaster = {title: "Loremaster", jsx: <><h2 id="pclass-loremaster-lorem
 <tr>
 <td>9</td>
 <td>Newfound arcana</td>
-<td>1 bonus 1st-level spell[^N]</td>
+<td>1 bonus 1st-level spell<sup><InnerLink showBacklink="backlink-pclass-loremaster-ref-N-1" id="pclass-loremaster-ref-N-1" data-hash-target to="pclass-loremaster-N">1</InnerLink></sup></td>
 </tr>
 <tr>
 <td>10</td>
 <td>More newfound arcana</td>
-<td>1 bonus 2nd-level spell[^N]</td>
+<td>1 bonus 2nd-level spell<sup><InnerLink showBacklink="backlink-pclass-loremaster-ref-N-2" id="pclass-loremaster-ref-N-2" data-hash-target to="pclass-loremaster-N">1</InnerLink></sup></td>
 </tr>
 </tbody></table></ScrollContainer>
 <p><strong>Lore:</strong> At 2nd level, a loremaster adds half his level to all Knowledge skill checks and may make such checks untrained. The bonuses gained from this ability stack with those gained from Bardic Knowledge.</p>
 <p><strong>Bonus Languages:</strong> A loremaster can learn any new language at 4th and 8th level.</p>
 <p><strong>Greater Lore (Ex):</strong> At 6th level, a loremaster gains the ability to understand magic items. Whenever a loremaster examines a magic item to determine its properties, he gains a +10 circumstance bonus on his Spellcraft skill check.</p>
 <p><strong>True Lore (Ex):</strong> At 10th level, a loremaster's knowledge becomes vast indeed. Once per day a loremaster can use his knowledge to gain the effect of a legend lore spell or an analyze dweomer spell. If used to create a legend lore effect, this ability has a casting time of 1 minute, regardless of how much information is already known about the subject in question.</p>
-<p><strong>[^N]:</strong> As if gained through having a high ability score.</p>
+<section data-footnotes>
+<h3 id="pclass-loremaster-label">Footnotes</h3>
+<ol>
+<li id="pclass-loremaster-N">
+<p>As if gained through having a high ability score. <InnerLink id="backlink-pclass-loremaster-ref-N-1" data-hash-target to="pclass-loremaster-ref-N-1" aria-label="Back to reference N-1">↩</InnerLink> <InnerLink id="backlink-pclass-loremaster-ref-N-2" data-hash-target to="pclass-loremaster-ref-N-2" aria-label="Back to reference N-2">↩<sup>2</sup></InnerLink></p>
+</li>
+</ol>
+</section>
 </>};
 const _low_templar = {title: "Low Templar", jsx: <><h2 id="pclass-low_templar-low-templar">Low Templar</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 280</Link>, <Link to="/source/pathfinder_campaign_setting">Pathfinder Campaign Setting pg. 226</Link></p>

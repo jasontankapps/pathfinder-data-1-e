@@ -5412,7 +5412,7 @@ const _tds_5_divine = {title: "5th-Level Divine Scrolls", parent_topics: ["advan
 </tr>
 <tr>
 <td>91-92</td>
-<td className="ion-activatable"><Link to="/spell/hallow">Hallow \*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/spell/hallow">Hallow *<IonRippleEffect /></Link></td>
 <td>2,125 gp</td>
 </tr>
 <tr>
@@ -5427,17 +5427,17 @@ const _tds_5_divine = {title: "5th-Level Divine Scrolls", parent_topics: ["advan
 </tr>
 <tr>
 <td>97-98</td>
-<td className="ion-activatable"><Link to="/spell/unhallow">Unhallow \*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/spell/unhallow">Unhallow *<IonRippleEffect /></Link></td>
 <td>2,125 gp</td>
 </tr>
 <tr>
 <td>99</td>
-<td className="ion-activatable"><Link to="/spell/hallow">Hallow \*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/spell/hallow">Hallow **<IonRippleEffect /></Link></td>
 <td>6,125 gp</td>
 </tr>
 <tr>
 <td>100</td>
-<td className="ion-activatable"><Link to="/spell/unhallow">Unhallow \*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/spell/unhallow">Unhallow **<IonRippleEffect /></Link></td>
 <td>6,125 gp</td>
 </tr>
 </tbody></table></ScrollContainer>
@@ -8163,7 +8163,7 @@ const _tdw_4 = {title: "4th-Level Wands", parent_topics: ["advanced_gm_topics","
 </tr>
 <tr>
 <td>100</td>
-<td className="ion-activatable"><Link to="/spell/restoration">Restoration\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/spell/restoration">Restoration*<IonRippleEffect /></Link></td>
 <td>71,000 gp</td>
 </tr>
 </tbody></table></ScrollContainer>

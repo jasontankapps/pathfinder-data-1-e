@@ -324,7 +324,7 @@ const _tiefling = {hasJL:true,title: "Tiefling", jsx: <><div className="jumpList
 <p><strong>Male Names:</strong> Baru, Dellisar, Maldrek, Molos, Sarvin, Shoremoth, Temerith, Voren, Zoren.</p>
 <p><strong>Female Names:</strong> Allizsah, Indranna, Kasidra, Kilarra, Mellisan, Mordren, Nisha.</p>
 <h3 id="race-tiefling-random-tiefling-features" data-hash-target>Random Tiefling Features</h3>
-<p>Presented below are dozens of features tieflings might possess. None of the following features grant characters any special powers in excess of their usual abilities.[^A]</p>
+<p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends pg. 31</Link><br/>Presented below are dozens of features tieflings might possess. None of the following features grant characters any special powers in excess of their usual abilities.</p>
 <ScrollContainer id="race-tiefling--table-0"><table>
 <thead>
 <tr>

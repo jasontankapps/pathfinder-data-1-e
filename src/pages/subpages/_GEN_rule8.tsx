@@ -2223,7 +2223,7 @@ const _random_potions_and_oils = {title: "Random Potions and Oils", parent_topic
 <th>Minor</th>
 <th>Medium</th>
 <th>Major</th>
-<th>Spell Level[^1]</th>
+<th>Spell Level</th>
 <th>Caster Level</th>
 </tr>
 </thead>

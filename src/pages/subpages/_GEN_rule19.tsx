@@ -3609,7 +3609,7 @@ const _tew_melee = {title: "Random Melee Weapon Special Abilities", parent_topic
 </tr>
 <tr>
 <td>55-59</td>
-<td className="ion-activatable"><Link to="/magic-enh/keen">Keen\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/keen">Keen*<IonRippleEffect /></Link></td>
 <td>+1 bonus</td>
 </tr>
 <tr>
@@ -3751,7 +3751,7 @@ const _tew_melee = {title: "Random Melee Weapon Special Abilities", parent_topic
 </tr>
 <tr>
 <td>30-38</td>
-<td className="ion-activatable"><Link to="/magic-enh/disruption">Disruption\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/disruption">Disruption*<IonRippleEffect /></Link></td>
 <td>+2 bonus</td>
 </tr>
 <tr>
@@ -3786,7 +3786,7 @@ const _tew_melee = {title: "Random Melee Weapon Special Abilities", parent_topic
 </tr>
 <tr>
 <td>69</td>
-<td className="ion-activatable"><Link to="/magic-enh/impact">Impact\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/impact">Impact**<IonRippleEffect /></Link></td>
 <td>+2 bonus</td>
 </tr>
 <tr>
@@ -3872,39 +3872,33 @@ const _tew_melee = {title: "Random Melee Weapon Special Abilities", parent_topic
 <tr>
 <th>d%</th>
 <th>+4 or +5 Weapon Special Ability</th>
-<th>*</th>
 <th>Base Price Modifier</th>
 </tr>
 </thead>
 <tbody><tr>
 <td>01-40</td>
 <td className="ion-activatable"><Link to="/magic-enh/brilliant_energy">Brilliant energy<IonRippleEffect /></Link></td>
-<td></td>
 <td>+4 bonus</td>
 </tr>
 <tr>
 <td>41-80</td>
 <td className="ion-activatable"><Link to="/magic-enh/dancing">Dancing<IonRippleEffect /></Link></td>
-<td></td>
 <td>+4 bonus</td>
 </tr>
 <tr>
 <td>81-90</td>
-<td className="ion-activatable"><Link to="/magic-enh/vorpal">Vorpal\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/vorpal">Vorpal*<IonRippleEffect /></Link></td>
 <td>+5 bonus</td>
-<td></td>
 </tr>
 <tr>
 <td>91-95</td>
 <td className="ion-activatable"><Link to="/magic-enh/transformative">Transformative<IonRippleEffect /></Link></td>
 <td>+10,000 gp</td>
-<td></td>
 </tr>
 <tr>
 <td>96-100</td>
 <td className="ion-activatable"><Link to="/magic-enh/dueling">Dueling<IonRippleEffect /></Link></td>
 <td>+14,000 gp</td>
-<td></td>
 </tr>
 </tbody></table></ScrollContainer>
 <blockquote>
@@ -3923,7 +3917,7 @@ const _tew_ranged = {title: "Random Ranged Weapon Special Abilities", parent_top
 </thead>
 <tbody><tr>
 <td>01</td>
-<td className="ion-activatable"><Link to="/magic-enh/adaptive">Adaptive\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/adaptive">Adaptive*<IonRippleEffect /></Link></td>
 <td>+1,000 gp</td>
 </tr>
 <tr>
@@ -3943,7 +3937,7 @@ const _tew_ranged = {title: "Random Ranged Weapon Special Abilities", parent_top
 </tr>
 <tr>
 <td>07-15</td>
-<td className="ion-activatable"><Link to="/magic-enh/bane">Bane\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/bane">Bane**<IonRippleEffect /></Link></td>
 <td>+1 bonus</td>
 </tr>
 <tr>
@@ -3958,12 +3952,12 @@ const _tew_ranged = {title: "Random Ranged Weapon Special Abilities", parent_top
 </tr>
 <tr>
 <td>20</td>
-<td className="ion-activatable"><Link to="/magic-enh/conserving">Conserving\*\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/conserving">Conserving***<IonRippleEffect /></Link></td>
 <td>+1 bonus</td>
 </tr>
 <tr>
 <td>21-24</td>
-<td className="ion-activatable"><Link to="/magic-enh/corrosive">Corrosive\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/corrosive">Corrosive**<IonRippleEffect /></Link></td>
 <td>+1 bonus</td>
 </tr>
 <tr>
@@ -3983,12 +3977,12 @@ const _tew_ranged = {title: "Random Ranged Weapon Special Abilities", parent_top
 </tr>
 <tr>
 <td>37-45</td>
-<td className="ion-activatable"><Link to="/magic-enh/flaming">Flaming\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/flaming">Flaming**<IonRippleEffect /></Link></td>
 <td>+1 bonus</td>
 </tr>
 <tr>
 <td>46-54</td>
-<td className="ion-activatable"><Link to="/magic-enh/frost">Frost\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/frost">Frost**<IonRippleEffect /></Link></td>
 <td>+1 bonus</td>
 </tr>
 <tr>
@@ -4013,7 +4007,7 @@ const _tew_ranged = {title: "Random Ranged Weapon Special Abilities", parent_top
 </tr>
 <tr>
 <td>65-66</td>
-<td className="ion-activatable"><Link to="/magic-enh/merciful">Merciful\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/merciful">Merciful**<IonRippleEffect /></Link></td>
 <td>+1 bonus</td>
 </tr>
 <tr>
@@ -4038,12 +4032,12 @@ const _tew_ranged = {title: "Random Ranged Weapon Special Abilities", parent_top
 </tr>
 <tr>
 <td>85-92</td>
-<td className="ion-activatable"><Link to="/magic-enh/shock">Shock\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/shock">Shock**<IonRippleEffect /></Link></td>
 <td>+1 bonus</td>
 </tr>
 <tr>
 <td>93-100</td>
-<td className="ion-activatable"><Link to="/magic-enh/thundering">Thundering\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/thundering">Thundering**<IonRippleEffect /></Link></td>
 <td>+1 bonus</td>
 </tr>
 </tbody></table></ScrollContainer>
@@ -4057,7 +4051,7 @@ const _tew_ranged = {title: "Random Ranged Weapon Special Abilities", parent_top
 </thead>
 <tbody><tr>
 <td>01-10</td>
-<td className="ion-activatable"><Link to="/magic-enh/anarchic">Anarchic\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/anarchic">Anarchic**<IonRippleEffect /></Link></td>
 <td>+2 bonus</td>
 </tr>
 <tr>
@@ -4067,17 +4061,17 @@ const _tew_ranged = {title: "Random Ranged Weapon Special Abilities", parent_top
 </tr>
 <tr>
 <td>14-23</td>
-<td className="ion-activatable"><Link to="/magic-enh/axiomatic">Axiomatic\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/axiomatic">Axiomatic**<IonRippleEffect /></Link></td>
 <td>+2 bonus</td>
 </tr>
 <tr>
 <td>24-31</td>
-<td className="ion-activatable"><Link to="/magic-enh/corrosive_burst">Corrosive burst\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/corrosive_burst">Corrosive burst**<IonRippleEffect /></Link></td>
 <td>+2 bonus</td>
 </tr>
 <tr>
 <td>32-34</td>
-<td className="ion-activatable"><Link to="/magic-enh/designating_lesser">Designating, lesser\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/designating_lesser">Designating, lesser**<IonRippleEffect /></Link></td>
 <td>+2 bonus</td>
 </tr>
 <tr>
@@ -4087,32 +4081,32 @@ const _tew_ranged = {title: "Random Ranged Weapon Special Abilities", parent_top
 </tr>
 <tr>
 <td>38-48</td>
-<td className="ion-activatable"><Link to="/magic-enh/flaming_burst">Flaming burst\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/flaming_burst">Flaming burst**<IonRippleEffect /></Link></td>
 <td>+2 bonus</td>
 </tr>
 <tr>
 <td>49-58</td>
-<td className="ion-activatable"><Link to="/magic-enh/holy">Holy\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/holy">Holy**<IonRippleEffect /></Link></td>
 <td>+2 bonus</td>
 </tr>
 <tr>
 <td>59-69</td>
-<td className="ion-activatable"><Link to="/magic-enh/icy_burst">Icy burst\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/icy_burst">Icy burst**<IonRippleEffect /></Link></td>
 <td>+2 bonus</td>
 </tr>
 <tr>
 <td>70-73</td>
-<td className="ion-activatable"><Link to="/magic-enh/igniting">Igniting\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/igniting">Igniting**<IonRippleEffect /></Link></td>
 <td>+2 bonus</td>
 </tr>
 <tr>
 <td>74-76</td>
-<td className="ion-activatable"><Link to="/magic-enh/phase_locking">Phase locking\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/phase_locking">Phase locking**<IonRippleEffect /></Link></td>
 <td>+2 bonus</td>
 </tr>
 <tr>
 <td>77-86</td>
-<td className="ion-activatable"><Link to="/magic-enh/shocking_burst">Shocking burst\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/shocking_burst">Shocking burst**<IonRippleEffect /></Link></td>
 <td>+2 bonus</td>
 </tr>
 <tr>
@@ -4122,7 +4116,7 @@ const _tew_ranged = {title: "Random Ranged Weapon Special Abilities", parent_top
 </tr>
 <tr>
 <td>91-100</td>
-<td className="ion-activatable"><Link to="/magic-enh/unholy">Unholy\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/unholy">Unholy**<IonRippleEffect /></Link></td>
 <td>+2 bonus</td>
 </tr>
 </tbody></table></ScrollContainer>
@@ -4151,7 +4145,7 @@ const _tew_ranged = {title: "Random Ranged Weapon Special Abilities", parent_top
 </tr>
 <tr>
 <td>86-94</td>
-<td className="ion-activatable"><Link to="/magic-enh/brilliant_energy">Brilliant energy\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/brilliant_energy">Brilliant energy**<IonRippleEffect /></Link></td>
 <td>+4 bonus</td>
 </tr>
 <tr>
@@ -4166,7 +4160,7 @@ const _tew_ranged = {title: "Random Ranged Weapon Special Abilities", parent_top
 </tr>
 <tr>
 <td>99-100</td>
-<td className="ion-activatable"><Link to="/magic-enh/second_chance">Second chance\*\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/second_chance">Second chance**<IonRippleEffect /></Link></td>
 <td>+4 bonus</td>
 </tr>
 </tbody></table></ScrollContainer>
@@ -4186,7 +4180,7 @@ const _tew_ammunition = {title: "Random Ammunition Special Abilities", parent_to
 </thead>
 <tbody><tr>
 <td>01-05</td>
-<td className="ion-activatable"><Link to="/magic-enh/dry_load">Dry load\*<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/magic-enh/dry_load">Dry load*<IonRippleEffect /></Link></td>
 <td>+1,500 gp</td>
 </tr>
 <tr>

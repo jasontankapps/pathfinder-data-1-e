@@ -822,8 +822,6 @@ const _dimension_of_dreams = {title: "Dimension of Dreams / Dreamlands", parent_
 <blockquote>
 <p><em>Also see: <Link to="/rule/dimension_of_dreams_oa">Dimension of Dreams (Occult Adventures)</Link></em></p>
 </blockquote>
-<blockquote>
-</blockquote>
 <section data-footnotes>
 <h3 id="rule-dimension_of_dreams-label">Footnotes</h3>
 <ol>
