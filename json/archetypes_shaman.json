@@ -129,7 +129,7 @@
 			"",
 			"::ab[Greentongue (Sp)]{l=2 icon=magic useInc=shaman~2 useF=\"2~1\" standard=\"A grasping vine can use ‹spell/speak with plants› as a spell-like ability.\" ability=\"In addition, while under the effects of *speak with plants,* the grasping vine can deliver a ‹spell/suggestion› (as per the spell) to a single plant creature within 30 feet, ignoring the plant's immunity to mind-affecting effects. The grasping vine can use this second ability once per day at 2nd level.\" order=usa incrementPlain=\"The *suggestion* can be used~2~4\" incrementEnd=\" per day.\" incrementDesc=times replace=\"Shaman's hex gained at 2nd level\"}",
 			"",
-			"::ab[Flower's Form (Sp)]{l=8 icon=magic standard=\"A grasping vine can assume the form of a Small or Medium plant creature, as per ‹spell/plant shape I›.\" imp12=\"This ability functions as ‹spell/plant shape II›.\" imp16=\"This ability functions as ‹spell/plant shape III›.\" useL=shaman useUnit=minute useNC=1 replace=\"Shaman's hex gained at 8th level\"}"
+			"::ab[Flower's Form (Sp)]{l=8 icon=magic standard=\"A grasping vine can assume the form of a Small or Medium plant creature, as per ‹spell/plant shape I›.\" imp12=\"This ability functions as ‹spell/plant shape II›.\" imp16=\"This ability functions as ‹spell/plant shape III›.\" useL=shaman useUnit=m useNC=1 replace=\"Shaman's hex gained at 8th level\"}"
 		]
 	},
 	"name_keeper": {
@@ -251,7 +251,7 @@
 			"",
 			"::ab[Spirit Magic]{next icon=learn ability=\"A serendipity shaman adds both her spirit's *spirit magic* spells and the domain spells from the Luck cleric domain to the list of spells she can cast with the *spirit magic* ability.\" special=\"This hex cannot be taken as a *wandering hex.*\"}",
 			"",
-			"::ab[Tweak the Odds (Su)]{next icon=roll immediate=\"Whenever the serendipity shaman or one of her allies within 30 feet rolls an ability check, attack roll, saving throw, or skill check, the shaman can use this ability to tweak the odds in her favor, increasing the result of the die roll or check by 1. This can turn a normal hit into a critical threat, but it cannot make an attack roll an automatic hit (this bonus does not stack with effects that increase a weapon's critical threat range, such as ‹feat/Improved Critical› or keen edge).\" useL=shaman useUnit=time imp4=\"She can spend additional uses of this ability, up to ‹misc/one-fourth› of her shaman level, to further increase the die result of the target's roll by an additional 1. For example, a 12th-level shaman can spend up to three uses of this ability to increase an ally's roll by 1 per use expended.\"}",
+			"::ab[Tweak the Odds (Su)]{next icon=roll immediate=\"Whenever the serendipity shaman or one of her allies within 30 feet rolls an ability check, attack roll, saving throw, or skill check, the shaman can use this ability to tweak the odds in her favor, increasing the result of the die roll or check by 1. This can turn a normal hit into a critical threat, but it cannot make an attack roll an automatic hit (this bonus does not stack with effects that increase a weapon's critical threat range, such as ‹feat/Improved Critical› or keen edge).\" useL=shaman useUnit=t imp4=\"She can spend additional uses of this ability, up to ‹misc/one-fourth› of her shaman level, to further increase the die result of the target's roll by an additional 1. For example, a 12th-level shaman can spend up to three uses of this ability to increase an ally's roll by 1 per use expended.\"}",
 			"",
 			":::fakeFootnotes",
 			"",

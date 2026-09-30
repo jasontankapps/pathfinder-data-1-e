@@ -810,7 +810,7 @@ const _sword_binder = {title: "Sword Binder", jsx: <><h2 id="arc-wizard-sword_bi
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Ability">A sword binder can control his <em>bound sword</em> (and only his sword) as per the <em>sustained force</em> option of <Link to="/spell/telekinesis">telekinesis</Link>.</Pair>
 <Pair title="Swift Action">While the sword is flying in this way, the sword binder can monitor the area around the sword with <Link to="/spell/clairaudience_clairvoyance">clairaudience/clairvoyance</Link>.</Pair>
-<Pair title="Usage">1 time/day + 1 per five wizard levels beyond 1st; 2 rounds per wizard level per day<ByLevelPop levels={[[10,1],[15,2],[20,3]]} unit="time" postText="/day" /></Pair>
+<Pair title="Usage">1 time/day + 1 per five wizard levels beyond 10th; 2 rounds per wizard level per day<ByLevelPop levels={[[10,1],[15,2],[20,3]]} unit="time" postText="/day" /></Pair>
 </Ability>
 </>};
 const _undead_master = {title: "Undead Master", jsx: <><h2 id="arc-wizard-undead_master-undead-master">Undead Master</h2>

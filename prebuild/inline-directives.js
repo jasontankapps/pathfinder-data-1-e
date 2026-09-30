@@ -33,11 +33,11 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 					const {link, text} = m;
 					if(tag === "ripple") {
 						flags.ripple = true;
-						return `<Link to="/${link}">${text}<IonRippleEffect /></Link>`;
+						return `<Link to="/${link}">${makeNewMarkedInstance().parseInline(text)}<IonRippleEffect /></Link>`;
 					}
 					// hll - highlighted link
 					const id = maybeJL(attrs, text);
-					return `<strong className="hl"${id ? ` id="${id}" data-hash-target` : ""}><Link to="/${link}">${text}</Link></strong>`
+					return `<strong className="hl"${id ? ` id="${id}" data-hash-target` : ""}><Link to="/${link}">${makeNewMarkedInstance().parseInline(text)}</Link></strong>`
 				}
 				logError(`Bad @${tag} => [${text}]`);
 				tag = "b";

@@ -817,7 +817,7 @@
 		"compilationSources": [ [ "Inner Sea Combat", 16 ] ],
 		"category": "R_Combat Talents",
 		"description": [
-			"::ab{title=\"&L&Escaping Stunt (Ex)&FN&\" icon=def immediate=\"A rogue with this talent can attempt an Escape Artist check in place of a Reflex saving throw against any effect that would impose the ‹rule/entangled› condition on her.\" ability=\"When she is the target of a grapple combat maneuver, a rogue with this talent can attempt an Escape Artist check as an @HLimmediate_action, using the result of the skill check in place of her CMD against that combat maneuver attempt.\" order=iau usage=\"1 grapple/day + 1 per five rogue levels\" useUnit=time useF=\"1~1~5~1~5\" prereq=\"Trained in ‹skill/Escape Artist›\"}"
+			"::ab{title=\"&L&Escaping Stunt (Ex)&FN&\" icon=def immediate=\"A rogue with this talent can attempt an Escape Artist check in place of a Reflex saving throw against any effect that would impose the ‹rule/entangled› condition on her.\" ability=\"When she is the target of a grapple combat maneuver, a rogue with this talent can attempt an Escape Artist check as an @HLimmediate_action, using the result of the skill check in place of her CMD against that combat maneuver attempt.\" order=iau usage=\"1 grapple/day + 1 per five rogue levels\" useUnit=t useF=\"1~1~5~1~5\" prereq=\"Trained in ‹skill/Escape Artist›\"}"
 		]
 	},
 	"false_attacker": {

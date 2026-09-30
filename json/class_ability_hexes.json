@@ -19,7 +19,7 @@
 		"compilationSources": [ [ "Champions of Purity", 27 ] ],
 		"category": "hex",
 		"description": [
-			"::ab{title=\"&L&Aura of Purity (Su)&FN&\" icon=aura-aid passive=\"The witch's aura purifies the air around her. Diseases, inhaled poisons, and noxious gaseous effects (such as ‹spell/stinking cloud›) are negated in a 10-foot aura around the witch.\" useL=witch useUnit=minute useNC=1 special=\"Effects caused by spells whose level is more than half the witch's class level are unaffected.\"}"
+			"::ab{title=\"&L&Aura of Purity (Su)&FN&\" icon=aura-aid passive=\"The witch's aura purifies the air around her. Diseases, inhaled poisons, and noxious gaseous effects (such as ‹spell/stinking cloud›) are negated in a 10-foot aura around the witch.\" useL=witch useUnit=m useNC=1 special=\"Effects caused by spells whose level is more than half the witch's class level are unaffected.\"}"
 		]
 	},
 	"beast_of_ill_omen": {
@@ -173,7 +173,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 66 ] ],
 		"category": "hex",
 		"description": [
-			"::ab{title=\"&L&Disguise (Sp)&FN&\" icon=magic useL=witch useUnit=hour useNC=1 ability=\"A witch can change her appearance, as if using ‹spell/disguise self›.\"}"
+			"::ab{title=\"&L&Disguise (Sp)&FN&\" icon=magic useL=witch useUnit=h useNC=1 ability=\"A witch can change her appearance, as if using ‹spell/disguise self›.\"}"
 		]
 	},
 	"disrupt_connection": {
@@ -310,7 +310,7 @@
 		"compilationSources": [ [ "Legacy of the First World", 17 ] ],
 		"category": "hex",
 		"description": [
-			"::ab{title=\"&L&Mother's Eye (Su)&FN&\" icon=power ability=\"The witch can see through plant matter, as the ‹umr/greensight› universal monster ability.\" useL=witch useUnit=minute useNC=1}"
+			"::ab{title=\"&L&Mother's Eye (Su)&FN&\" icon=power ability=\"The witch can see through plant matter, as the ‹umr/greensight› universal monster ability.\" useL=witch useUnit=m useNC=1}"
 		]
 	},
 	"murksight": {
@@ -459,7 +459,7 @@
 		"category": "hex",
 		"level": 1,
 		"description": [
-			"::ab{title=\"&L&Mud Witch (Su)&FN&\" icon=magic-def ability=\"A witch with this hex can assume the form of viscous brown mud. The witch's type changes to ‹type/ooze› and she is able to squeeze through even the smallest cracks, but she can't make attacks or cast spells with verbal, somatic, material, or focus components while in this form, and she loses her supernatural abilities. If the witch has a touch spell ready to use, that spell is discharged harmlessly when she uses this hex.~~~While the witch is in mud form, her speed becomes 10 feet and she gains a swim speed of 20 feet. The witch gains DR 10/slashing and cold resistance 10.\" imp10=\"While the witch is in mud form, her speed increases to 20 feet and her swim speed increases to 40 feet.\" useL=witch useUnit=minute useNC=1 special=\"This hex affects only the witch.\" prereq=\"‹hex/Swamp hag›\"}"
+			"::ab{title=\"&L&Mud Witch (Su)&FN&\" icon=magic-def ability=\"A witch with this hex can assume the form of viscous brown mud. The witch's type changes to ‹type/ooze› and she is able to squeeze through even the smallest cracks, but she can't make attacks or cast spells with verbal, somatic, material, or focus components while in this form, and she loses her supernatural abilities. If the witch has a touch spell ready to use, that spell is discharged harmlessly when she uses this hex.~~~While the witch is in mud form, her speed becomes 10 feet and she gains a swim speed of 20 feet. The witch gains DR 10/slashing and cold resistance 10.\" imp10=\"While the witch is in mud form, her speed increases to 20 feet and her swim speed increases to 40 feet.\" useL=witch useUnit=m useNC=1 special=\"This hex affects only the witch.\" prereq=\"‹hex/Swamp hag›\"}"
 		]
 	},
 	"swamps_grasp": {
@@ -542,7 +542,7 @@
 		"category": "majorhex",
 		"topLink": [ "Major Hexes", "ability/major_hexes" ],
 		"description": [
-			"::ab{title=\"&L&Beast Eye (Su)&FN&\" icon=magic ability=\"The witch can project her senses into an animal within 100 feet, sensing whatever it senses. She cannot control the animal's actions. She can project her senses from that animal to another within 100 feet of it as a @HLstandard_action, and can continue to make these sensory leaps, potentially viewing things very far from her actual location. She may return her senses to her own body as a @HLfree_action.~~~Normal animals get no saving throw against this ability, but animal companions, paladin mounts, and similar unusual animals may resist with a Will save; the witch may use this ability on her own familiar as if it were an animal.\" special=\"If the witch has the ‹hex/coven› hex, all other witches within 10 feet of her who also have the *coven* hex can see through this animal at will, although the acting witch still controls the ability.\" useL=witch useUnit=minute useNC=1}"
+			"::ab{title=\"&L&Beast Eye (Su)&FN&\" icon=magic ability=\"The witch can project her senses into an animal within 100 feet, sensing whatever it senses. She cannot control the animal's actions. She can project her senses from that animal to another within 100 feet of it as a @HLstandard_action, and can continue to make these sensory leaps, potentially viewing things very far from her actual location. She may return her senses to her own body as a @HLfree_action.~~~Normal animals get no saving throw against this ability, but animal companions, paladin mounts, and similar unusual animals may resist with a Will save; the witch may use this ability on her own familiar as if it were an animal.\" special=\"If the witch has the ‹hex/coven› hex, all other witches within 10 feet of her who also have the *coven* hex can see through this animal at will, although the acting witch still controls the ability.\" useL=witch useUnit=m useNC=1}"
 		]
 	},
 	"beasts_gift": {
@@ -596,7 +596,7 @@
 		"category": "majorhex",
 		"topLink": [ "Major Hexes", "ability/major_hexes" ],
 		"description": [
-			"::ab{title=\"&L&Hag's Eye (Su)&FN&\" icon=magic ability=\"A witch with this hex can create a magic sensor that she can see through. This functions as per the spell ‹spell/arcane eye›. If the witch has the ‹hex/coven› hex, all other witches within 10 feet who also have the *coven* hex can see through this sensor as well, although the witch that created it still controls it.\" useUnit=minute useL=witch useNC=1}"
+			"::ab{title=\"&L&Hag's Eye (Su)&FN&\" icon=magic ability=\"A witch with this hex can create a magic sensor that she can see through. This functions as per the spell ‹spell/arcane eye›. If the witch has the ‹hex/coven› hex, all other witches within 10 feet who also have the *coven* hex can see through this sensor as well, although the witch that created it still controls it.\" useUnit=m useL=witch useNC=1}"
 		]
 	},
 	"harrowing_curse": {

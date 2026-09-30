@@ -144,7 +144,7 @@
 			"",
 			"::ab[Improved Item Mastery (Su)]{l=3 icon=power ability=\"A relic master can use an ‹main/feats_>item mastery« feat› she knows with a magic item that doesn't have an appropriate spell in its construction requirements. The magic item must meet all other requirements of the item mastery feat. Alternatively, if she is using a magic item with an appropriate spell in its construction requirements, she can use an item mastery feat without it counting against the feat's total uses per day.\" useInc=fighter~4~3 useF=\"3~1~4\" replace=\"Armor training\"}",
 			"",
-			"::ab[Relic Channeler (Su)]{l=5 icon=boost swift=\"A relic master can increase the potency of a magic item she wields by investing it with a bit of her vitality. If the item is armor, a shield, or a weapon, its enhancement bonus increases by 1 to a maximum of +5. If the magic item creates a spell or has a save DC, its effective caster level increases by 1.\" useMod=Con1 useNC=1 useUnit=minute useM=1 replace=\"Weapon training\"}",
+			"::ab[Relic Channeler (Su)]{l=5 icon=boost swift=\"A relic master can increase the potency of a magic item she wields by investing it with a bit of her vitality. If the item is armor, a shield, or a weapon, its enhancement bonus increases by 1 to a maximum of +5. If the magic item creates a spell or has a save DC, its effective caster level increases by 1.\" useMod=Con1 useNC=1 useUnit=m useM=1 replace=\"Weapon training\"}",
 			"",
 			"::ab[Improvised Item Mastery (Su)]{l=19 icon=power fullround=\"The relic master can select one item mastery feat whose prerequisites she meets but that she doesn't already have. She gains access to this feat, though she can't use it as a prerequisite for other feats or options. If she selects a different item mastery feat, she loses access to her previous use of *improvised item mastery* and any magic effect created with it ends immediately. Any daily uses of a selected *improvised item mastery* feat count against all *improvised mastery feats* selected in the same day.\" replace=\"Armor mastery\"}"
 		]
@@ -435,7 +435,7 @@
 			"",
 			"::ab[Tactical Awareness (Ex)]{l=2 icon=boost passive=\"A tactician gains a +1 bonus on initiative checks.\" increment=\"This bonus~2~4\" replace=Bravery}",
 			"",
-			"::ab[Tactician (Ex)]{l=5 icon=power ability=\"A tactician gains this ability as the ‹class/cavalier› class feature.\" useL=fighter useUnit=time special=\"If the tactician also has cavalier levels, these levels stack for determining the number of uses per day, and he can take the better progression.\" order=au replace=\"Weapon training 1\"}",
+			"::ab[Tactician (Ex)]{l=5 icon=power ability=\"A tactician gains this ability as the ‹class/cavalier› class feature.\" useL=fighter useUnit=t special=\"If the tactician also has cavalier levels, these levels stack for determining the number of uses per day, and he can take the better progression.\" order=au replace=\"Weapon training 1\"}",
 			"",
 			"::ab[Cooperative Combatant (Ex)]{l=11 icon=power ability=\"When a tactician uses the ‹rule/aid another<_2› special attack, he may affect one additional ally per point of Intelligence bonus. For each ally that a tactician aids, he can pick whether to grant that ally the +2 bonus on its next attack against the opponent or the +2 bonus to AC against the opponent's next attack on that ally, and can grant different allies different bonuses.\" replace=\"Armor training 3\"}",
 			"",

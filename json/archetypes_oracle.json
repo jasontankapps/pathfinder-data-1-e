@@ -218,7 +218,7 @@
 			"",
 			"::ab[Recluse's Stride (Su)]{next l=1 icon=power-def-magic passive=\"Your base speed increases by 10 feet.\" imp5=\"Once per round when leaving a square, you can treat the square as though it isn't threatened by any opponents that you can see.\" imp10=\"You can teleport a distance equal to your base land speed (as per ‹spell/dimension door›) as a @HLmove_action, provided that there are no other creatures within 10 feet of you when you use this ability and no other creatures within 10 feet of your destination. You can teleport a number of times per day equal to 3 + your Charisma modifier.\"}",
 			"",
-			"::ab[Fade from Memory (Su)]{next l=7 icon=def free=\"Whenever there are no creatures within 10 feet of you at the end of your turn, you gain 20% ‹rule/concealment› until the beginning of your next turn.\" imp14=\"You instead gain 50% concealment until the beginning of your next turn.\" useL=oracle useUnit=time}"
+			"::ab[Fade from Memory (Su)]{next l=7 icon=def free=\"Whenever there are no creatures within 10 feet of you at the end of your turn, you gain 20% ‹rule/concealment› until the beginning of your next turn.\" imp14=\"You instead gain 50% concealment until the beginning of your next turn.\" useL=oracle useUnit=t}"
 		]
 	},
 	"inerrant_voice": {
@@ -286,7 +286,7 @@
 			"",
 			"::ab[Bonus Spells]{icon=learn info=\"The oracle gains these bonus spells at the listed levels.\" replace=\"The bonus spells gained at 4th, 8th, 10th, 12th, and 14th levels from the oracle's mystery\" s4=\"Sound burst\" s8=Shout s10=\"Song of discord\" s12=\"Greater shout\" s14=\"Pied piping\"}",
 			"",
-			"::ab[Inspiring Song (Ex)]{flavor=\"The voice of an ocean's echo provides inspiration to allies.\" icon=power-boost ability=\"This ability is identical to ‹ability/bardic performance› (using Perform &#91&sing&#93& only), as a bard of the ocean's echo's level.\" imp1=\"She can ‹performance/inspire courage›.\" imp3=\"She can ‹performance/inspire competence›.\" imp15=\"She learns to ‹performance/inspire heroics›.\" useUnit=round useLMod=oracle~Charisma useM replace=\"Revelations gained at 1st, 3rd, and 15th level\"}",
+			"::ab[Inspiring Song (Ex)]{flavor=\"The voice of an ocean's echo provides inspiration to allies.\" icon=power-boost ability=\"This ability is identical to ‹ability/bardic performance› (using Perform &#91&sing&#93& only), as a bard of the ocean's echo's level.\" imp1=\"She can ‹performance/inspire courage›.\" imp3=\"She can ‹performance/inspire competence›.\" imp15=\"She learns to ‹performance/inspire heroics›.\" useUnit=r useLMod=oracle~Charisma useM replace=\"Revelations gained at 1st, 3rd, and 15th level\"}",
 			"",
 			"@HL[Recommended Mysteries:] ‹mystery/Ancestor›, ‹mystery/heavens›, ‹mystery/life›, ‹mystery/lore›, ‹mystery/nature›, ‹mystery/time›, ‹mystery/waves›, ‹mystery/wind›."
 		]
@@ -460,7 +460,7 @@
 			"",
 			"::ab[River Flow (Su)]{next l=1 icon=boost free=\"While you are underwater, you can negate the ‹rule/penalties you take»<underwater_combat› for making bludgeoning, piercing, and slashing melee attacks underwater.\" useMod=Charisma1 useM=1 useNC}",
 			"",
-			"::ab[River Form (Su)]{next l=11 icon=magic flavor=\"You can become one with a river.\" standard=\"Once a day, while immersed in a river, you can completely merge with it. Your body and all your gear meld into the water, as per ‹spell/meld into stone›, except abilities that control or shape water expel you and deal you 5d6 damage rather than abilities that control or shape stone. You travel along with the river at the rate it is currently moving.\" useMod=Charisma3 useUnit=hour special=\"Transforming back to your normal form is a @HLswift_action.\"}",
+			"::ab[River Form (Su)]{next l=11 icon=magic flavor=\"You can become one with a river.\" standard=\"Once a day, while immersed in a river, you can completely merge with it. Your body and all your gear meld into the water, as per ‹spell/meld into stone›, except abilities that control or shape water expel you and deal you 5d6 damage rather than abilities that control or shape stone. You travel along with the river at the rate it is currently moving.\" useMod=Charisma3 useUnit=h special=\"Transforming back to your normal form is a @HLswift_action.\"}",
 			"",
 			"::ab[River Soul Revelation (Su)]{l=20 icon=def-magic flavor=\"You strengthen your ties to the river with which you bonded.\" passive=\"While traveling on or immersed in the river, you gain ‹umr/fast healing› 10 and immunity to bleed, death attacks, exhaustion, fatigue, nausea effects, negative levels, and sickened effects.\" special=\"If you are slain and your body or some part of your body (including your ashes, if applicable) is floated down the river in a specially prepared vessel costing 5,000 gp, you return to life as per ‹spell/resurrection› once you reach the mouth of the river, as long as the trip has taken 24 hours or longer.\" replace=\"Final revelation\"}"
 		]

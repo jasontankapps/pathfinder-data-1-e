@@ -417,7 +417,7 @@
 			"",
 			"Most inquisitors fight insane aberrations and demonic creatures as well as the chaos of heresy. They use the dictum and the mantles of law in order to aid their struggle.",
 			"",
-			"::ab[Mantle against Chaos (Sp)]{icon=def-protect ability=\"You can use ‹spell/protection from chaos› on yourself or another creature as a spell-like ability.\" useL=inquisitor useM useUnit=minute useNC=1}",
+			"::ab[Mantle against Chaos (Sp)]{icon=def-protect ability=\"You can use ‹spell/protection from chaos› on yourself or another creature as a spell-like ability.\" useL=inquisitor useM useUnit=m useNC=1}",
 			"",
 			"::ab[Commanding Order (Sp)]{l=8 icon=magic ability=\"You can use ‹spell/greater command›, except it only affects a single target.\" useMod=Wisdom3}"
 		]

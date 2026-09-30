@@ -312,7 +312,7 @@
 			"",
 			"::ab[Overwhelming Confidence (Su)]{l=12 icon=boost-down passive=\"As long as the phantom is immune to fear effects from its *resolve* ability, any morale bonuses affecting the phantom are doubled. If the phantom loses its immunity to fear, all doubled morale bonuses that are affecting the phantom are instead applied as penalties for the remainder of their duration or until the phantom regains its immunity to fear (whichever comes first).\"}",
 			"",
-			"::ab[Illusion of Perfection (Su)]{l=17 icon=boost swift=\"The greed phantom can shroud itself in an illusion, appearing as a model of absolute physical perfection - its idealized image of itself. The phantom gains a bonus on melee damage rolls equal to its Charisma modifier. However, whenever the phantom deals damage to a creature, the creature can attempt a Will save (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) to disbelieve the effect, reducing the bonus on damage rolls by half if successful.\" useHD useL=phantom useNC=1 useUnit=minute special=\"This ability is a mind-affecting illusion effect.\"}"
+			"::ab[Illusion of Perfection (Su)]{l=17 icon=boost swift=\"The greed phantom can shroud itself in an illusion, appearing as a model of absolute physical perfection - its idealized image of itself. The phantom gains a bonus on melee damage rolls equal to its Charisma modifier. However, whenever the phantom deals damage to a creature, the creature can attempt a Will save (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) to disbelieve the effect, reducing the bonus on damage rolls by half if successful.\" useHD useL=phantom useNC=1 useUnit=m special=\"This ability is a mind-affecting illusion effect.\"}"
 		]
 	},
 	"remorse": {

@@ -481,7 +481,7 @@
 			"",
 			"::ab[Crushing Grapple (Ex)]{l=8 icon=power-boost ability=\"The cavalier gains ‹feat/Chokehold› as a bonus feat, even if she does not meet the prerequisites. She does not take the -5 penalty on ‹rule/grapple› checks to put an opponent in a chokehold.\"}",
 			"",
-			"::ab[Inspiring Flex (Ex)]{l=15 icon=boost-def-protect useInc=cavalier~2 useUnit=round useNC flavor=\"The cavalier can display her own brawn to inspire greater strength in his allies.\" standard=\"She can grant herself and any allies within 30 feet a +4 morale bonus on melee attack rolls, combat maneuver checks, Fortitude saves, and Strength checks. The cavalier can maintain her inspiring flex as a @HLfree_action, and she can use this ability for a number of rounds per day equal 1/2 her cavalier level; this duration need not be continuous.\"}"
+			"::ab[Inspiring Flex (Ex)]{l=15 icon=boost-def-protect useInc=cavalier~2 useUnit=r useNC flavor=\"The cavalier can display her own brawn to inspire greater strength in his allies.\" standard=\"She can grant herself and any allies within 30 feet a +4 morale bonus on melee attack rolls, combat maneuver checks, Fortitude saves, and Strength checks. The cavalier can maintain her inspiring flex as a @HLfree_action, and she can use this ability for a number of rounds per day equal 1/2 her cavalier level; this duration need not be continuous.\"}"
 		]
 	},
 	"order_of_the_hero": {
@@ -598,7 +598,7 @@
 			"",
 			"::ab[Protector of the People (Ex)]{l=8 icon=protect useInc=cavalier~4~8 useF=\"8~1~4\" flavor=\"The cavalier can inspire the people around him.\" swift=\"Each creature within 30 feet that is either a resident of his chosen settlement or whose alignment is within one step of the cavalier's settlement gains a morale bonus on saving throws equal to the cavalier's Charisma modifier for 1 round. This bonus doubles if a creature meets both requirements.\"}",
 			"",
-			"::ab[Bastion of the Monument (Ex)]{l=15 icon=boost-def-protect flavor=\"The cavalier defends his homeland with unmatched ferocity.\" swift=\"The cavalier can declare an opponent an enemy of his settlement. This grants the cavalier and his allies a +4 bonus on attack rolls, damage rolls, and ability and skill checks against the opponent, as well as on saving throws to resist effects originating from that opponent. The cavalier can end this ability as a @HLswift_action.\" useInc=cavalier~2 useUnit=round useNC=1}"
+			"::ab[Bastion of the Monument (Ex)]{l=15 icon=boost-def-protect flavor=\"The cavalier defends his homeland with unmatched ferocity.\" swift=\"The cavalier can declare an opponent an enemy of his settlement. This grants the cavalier and his allies a +4 bonus on attack rolls, damage rolls, and ability and skill checks against the opponent, as well as on saving throws to resist effects originating from that opponent. The cavalier can end this ability as a @HLswift_action.\" useInc=cavalier~2 useUnit=r useNC=1}"
 		]
 	},
 	"order_of_the_paw": {

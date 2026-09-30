@@ -41,7 +41,7 @@
 			"",
 			"::ab[1: Taken Alive (Ex)]{icon=boost flavor=\"You are an expert in hunting your quarry and capturing it alive.\" order=pa passive=\"You take no penalty on attack rolls for using a flail to deal nonlethal damage.\" ability=\"Additionally, while performing your reckoning, you can focus on understanding one specific individual. For the next 24 hours, you gain a +4 bonus on ‹skill/Perception›, ‹skill/Sense Motive›, and ‹skill/Survival› checks that relate to noticing, seeing through the disguises of, interrogating others about the location of, or tracking that individual, or any activity directly related to doing so.\"}",
 			"",
-			"::ab[2: Pierce Disguise (Sp)]{icon=power flavor=\"You are suspicious of everyone, and your wariness grants you senses others do not have.\" ability=\"You can use ‹spell/true seeing› as a spell-like ability.\" useInc=character~2 useUnit=minute useNC=1}",
+			"::ab[2: Pierce Disguise (Sp)]{icon=power flavor=\"You are suspicious of everyone, and your wariness grants you senses others do not have.\" ability=\"You can use ‹spell/true seeing› as a spell-like ability.\" useInc=character~2 useUnit=m useNC=1}",
 			"",
 			"::ab[3: True Identities (Su)]{icon=def order=pf flavor=\"You are not easily fooled by those who would hide their true natures.\" passive=\"You gain a +4 bonus on Will saving throws to disbelieve illusions.\" free=\"Three times per day, when you successfully disbelieve an illusion that has a duration of longer than instantaneous (normally or using *true seeing*), you can attempt to dispel the illusion. Treat this as a targeted dispel, as per the spell ‹spell/dispel magic›, but targeting only illusions and with your caster level equal to your character level.\"}"
 		]

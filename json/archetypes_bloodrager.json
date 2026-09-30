@@ -53,7 +53,7 @@
 			"",
 			"::ab[Foretold Touch (Su)]{next prereq=\"‹blrgbloodline/Destined› bloodline\" icon=boost ability=\"The familiar gains a +1 luck bonus on attack rolls to deliver touch spells, and the DC of touch spells delivered by the familiar increases by 1.\" imp10=\"The bonus becomes +2 and the DC is now raised by 2.\" imp20=\"The bonus becomes +3 and the DC is now raised by 3.\"}",
 			"",
-			"::ab[Dragon's Flight (Ex)]{next prereq=\"‹blrgbloodline/Draconic› bloodline\" icon=power useInc=caster~2 useF=\"1~1~2~~4\" useNC=1 useUnit=minute useM ability=\"The familiar can sprout draconic wings, granting it a fly speed of 30 feet with average maneuverability.\" imp10=\"The familiar's fly speed increases to 60 feet with good maneuverability.\" imp20=\"The familiar's fly speed increases to 90 feet.\"}",
+			"::ab[Dragon's Flight (Ex)]{next prereq=\"‹blrgbloodline/Draconic› bloodline\" icon=power useInc=caster~2 useF=\"1~1~2~~4\" useNC=1 useUnit=m useM ability=\"The familiar can sprout draconic wings, granting it a fly speed of 30 feet with average maneuverability.\" imp10=\"The familiar's fly speed increases to 60 feet with good maneuverability.\" imp20=\"The familiar's fly speed increases to 90 feet.\"}",
 			"",
 			"::ab[Dualistic Energy (Su)]{next prereq=\"‹blrgbloodline/Elemental› bloodline\" icon=magic ability=\"When your familiar delivers a touch spell that deals energy damage of a type other than your chosen energy type, your familiar can choose to alter the spell so that half of the energy damage dealt is of the spell's original type and the other half is of your chosen energy type.\"}",
 			"",

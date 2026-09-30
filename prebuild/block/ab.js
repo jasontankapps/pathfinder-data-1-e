@@ -154,14 +154,27 @@ const makeAbilityBlock = ({
 	// DETERMINE ANY USAGE LIMITS
 	//
 	const use = (() => {
+		const unitize = (useUnit, base = "round") => {
+			switch(useUnit) {
+				case "r":
+					return "round";
+				case "t":
+					return "time";
+				case "m":
+					return "minute";
+				case "h":
+					return "hour";
+			}
+			return useUnit || base;
+		};
 		const base = (() => {
 			if (usage) {
-				return [doParse(usage, false), useUnit || "round"];
+				return [doParse(usage, false), unitize(useUnit)];
 			} else if (useInc) {
 				const [levelClass, levelInterval, startFromLevel, initial = "1"] = useInc.split("~");
 				const starting = Math.round(Number(initial) || 1);
 				const interval = Math.round(Number(levelInterval));
-				const unit = useUnit || "time";
+				const unit = unitize(useUnit, "time");
 				const levels = useHD ? "HD" : "levels";
 				const plurality = starting === 1 ? "" : "s";
 				if(!startFromLevel) {
@@ -198,7 +211,7 @@ const makeAbilityBlock = ({
 			} else if (useL) {
 				const [cls, amt = "1"] = useL.split("~");
 				const [clss, plus] = cls.split(/(?<![0-9])(?=[0-9]+)/);
-				const unit = useUnit || "round";
+				const unit = unitize(useUnit);
 				const level = useHD ? "HD" : "level";
 				const amount = Math.round(Number(amt) || 0);
 				if(!amount || amount < 0) {
@@ -221,7 +234,7 @@ const makeAbilityBlock = ({
 				//useL=hunter~10
 				//10 rounds/day per hunter level
 			} else if (useMod) {
-				const unit = useUnit || "time";
+				const unit = unitize(useUnit, "time");
 				const [, mod, plus, bonus] = useMod.match(/^(.*?)([0-9]*)(B?)$/);
 				const modifier = bonus ? "bonus" : "modifier";
 				if(plus) {
@@ -235,7 +248,7 @@ const makeAbilityBlock = ({
 				//useMod=Wis
 				//Wis modifier times/day
 			} else if (useLMod) {
-				const unit = useUnit || "time";
+				const unit = unitize(useUnit, "time");
 				const level = useHD ? "HD" : "level";
 				const m = useLMod.match(/([^~]+)~(.*?)([0-9]*)$/);
 				if(!m) {

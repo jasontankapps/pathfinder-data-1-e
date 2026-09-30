@@ -32,7 +32,7 @@
 			"",
 			"::ab[Silent to Magic (Su)]{icon=def l6=\"An Anaphexia thought-killer is protected by ‹spell/nondetection› in her social identity but only against mind-reading effects. Her effective caster level is equal to her vigilante level.\" l10=\"This protection also applies to the thought-killer's vigilante identity.\" replace=\"Social talent gained at 6th level\"}",
 			"",
-			"::ab[Thought-Scent (Su)]{l=7 icon=power flavor=\"An Anaphexia thought-killer can smell a significant thought.\" standard=\"She can choose one fact or idea she already knows, such as a secret she wishes to keep hidden, and can locate any creature within 30 feet who knows it as with the ‹umr/scent› ability. The range increases to 60 feet if the creature is upwind and drops to 15 feet if the creature is downwind. She can discern the direction to the creature until she is adjacent, at which point she can pinpoint the creature's square. This is a mind-affecting divination effect.\" useUnit=minute useL=vigilante useNC=1 replace=\"Vigilante talent gained at 7th level\"}",
+			"::ab[Thought-Scent (Su)]{l=7 icon=power flavor=\"An Anaphexia thought-killer can smell a significant thought.\" standard=\"She can choose one fact or idea she already knows, such as a secret she wishes to keep hidden, and can locate any creature within 30 feet who knows it as with the ‹umr/scent› ability. The range increases to 60 feet if the creature is upwind and drops to 15 feet if the creature is downwind. She can discern the direction to the creature until she is adjacent, at which point she can pinpoint the creature's square. This is a mind-affecting divination effect.\" useUnit=m useL=vigilante useNC=1 replace=\"Vigilante talent gained at 7th level\"}",
 			"",
 			"::ab[False Reading (Su)]{l=15 icon=def-power ability=\"An Anaphexia thought-killer is immune to all effects attempting to read her mind in both her social and vigilante identities. The Anaphexia thought-killer can attempt a Bluff check to provide false results to the creature attempting to read her thoughts, which the target can see through with a successful opposed Sense Motive check.\" replace=\"Vigilante talent gained at 15th level\"}"
 		]
@@ -193,11 +193,11 @@
 			"",
 			"::ab[Steel Dictate (Ex)]{icon=power-boost ability=\"A Chu Ye enforcer gains ‹feat/Improved Unarmed Strike› as a bonus feat, and when he hits with his unarmed strike, he gains a bonus on damage rolls equal to half his vigilante level (minimum +1, maximum of +5).\" replace=\"Social talent gained at 1st level\"}",
 			"",
-			"::ab[Deceitful Form (Sp)]{icon=magic useL=vigilante useUnit=minute useNC=1 l4=\"A Chu Ye enforcer gains the ‹subtype/shapechanger› subtype and the ability to change his form, as per ‹spell/alter self›.\" l14=\"He can instead use this ability as per ‹spell/giant form I›.\" l18=\"He can use this ability as per ‹spell/giant form II›.\" replace=\"Vigilante talents gained at 4th, 14th, and 18th levels\"}",
+			"::ab[Deceitful Form (Sp)]{icon=magic useL=vigilante useUnit=m useNC=1 l4=\"A Chu Ye enforcer gains the ‹subtype/shapechanger› subtype and the ability to change his form, as per ‹spell/alter self›.\" l14=\"He can instead use this ability as per ‹spell/giant form I›.\" l18=\"He can use this ability as per ‹spell/giant form II›.\" replace=\"Vigilante talents gained at 4th, 14th, and 18th levels\"}",
 			"",
 			"::ab[Deadly Horns (Ex)]{l=6 icon=melee ability=\"While in his vigilante identity, a Chu Ye enforcer gains a gore attack. This is a primary ‹umr/natural attack› that deals 1d6 points of piercing damage.\" replace=\"Vigilante talent gained at 6th level\"}",
 			"",
-			"::ab[Third Eye (Su)]{l=12 icon=zap useL=vigilante useUnit=time flavor=\"A Chu Ye enforcer's mask manifests a third eye.\" swift=\"He can launch a beam of fire from the mask's third eye as a ranged touch attack with a range of 180 feet. On a hit, the beam deals 4d6 points of fire damage.\" imp18=\"The beam damage increases to 8d6 points of fire damage.\" replace=\"Vigilante talent gained at 12th level\"}"
+			"::ab[Third Eye (Su)]{l=12 icon=zap useL=vigilante useUnit=t flavor=\"A Chu Ye enforcer's mask manifests a third eye.\" swift=\"He can launch a beam of fire from the mask's third eye as a ranged touch attack with a range of 180 feet. On a hit, the beam deals 4d6 points of fire damage.\" imp18=\"The beam damage increases to 8d6 points of fire damage.\" replace=\"Vigilante talent gained at 12th level\"}"
 		]
 	},
 	"darklantern": {
