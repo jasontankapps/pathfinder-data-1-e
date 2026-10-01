@@ -2400,7 +2400,7 @@ const _oaths = {title: "Paladin Oaths", topLink: ["Paladin","class/paladin"], js
 </tr>
 </tbody></table></ScrollContainer>
 </>};
-const _orders = {title: "Orders", topLink: ["Cavalier","class/cavalier"], jsx: <><h2 id="ability-orders-cavaliersamurai-orders">Cavalier/Samurai Orders</h2>
+const _orders = {title: "Cavalier/Samurai Orders", topLink: ["Cavalier","class/cavalier"], jsx: <><h2 id="ability-orders-cavaliersamurai-orders">Cavalier/Samurai Orders</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <p>At 1st level, a cavalier must pledge himself to a specific order. The order grants the cavalier a number of bonuses, class skills, and special abilities. In addition, each order includes a number of <strong className="hl">edicts</strong> that the cavalier must follow. If he violates any of these edicts, he loses the benefits from his order's challenge ability for 24 hours. The violation of an edict is subject to GM interpretation.</p>
 <p>A cavalier cannot change his order without undertaking a lengthy process to dedicate himself to a new cause. When this choice is made, he immediately loses all of the benefits from his old order. He must then follow the edicts of his new order for one entire level without gaining any benefits from that order. Once accomplished, he gains all of the bonuses from his new order. Note that the names of these orders might vary depending upon the campaign setting or GM's preference.</p>
