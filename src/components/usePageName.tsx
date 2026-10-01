@@ -2,6 +2,7 @@ import { useCallback } from 'react';
 import { useAppSelector } from '../store/hooks';
 import { BookmarkDB } from '../store/bookmarksSlice';
 import index from '../json/_GEN_allLinks';
+import getIcon, { Icon } from './getIcon';
 
 interface Options1 {
 	db: BookmarkDB
@@ -51,14 +52,20 @@ function checkForPageName (id: string, opt: Options): string | boolean {
 			return "[B] " + ((group && group.title) || "(Unknown Bookmark Group)");
 		}
 	}
+	// Check if we're an Icons page
+	const m = link.match(/^icons[/](.*)$/)
+	if(m) {
+		const info = getIcon(m[1] as Icon);
+		return `Icons [${info}]`;
+	}
 	// Return an error, otherwise
 	return `[Error: ${link} not found]`;
 }
 
 export const doesPageExist = (id: string): boolean => {
-	// NOTE: This will return false for bookmark groups
-	// This is acceptable, as this code is only used on
-	//   bookmarked pages, and groups cannot be bookmarked
+	// NOTE: This will return false for bookmark groups and the icons page
+	// This is acceptable, as this code is only used on bookmarked pages,
+	//   and groups and the icons page cannot be bookmarked
 	return checkForPageName(id, { booleanize: true });
 };
 
