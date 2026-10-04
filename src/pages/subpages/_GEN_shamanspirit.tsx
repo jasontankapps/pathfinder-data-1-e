@@ -170,88 +170,274 @@ const _battle = {hasJL:true,title: "Battle", jsx: <><div className="jumpList" id
 <Pair title="Passive Ability">She gains a +4 insight bonus to AC for the purposes of confirming critical hits against her. If she is reduced to below 0 hit points, she does not die until her negative hit point total exceeds double her Constitution score.</Pair>
 </Ability>
 </>};
-const _bones = {title: "Bones", jsx: <><h2 id="shamanspirit-bones-bones">Bones</h2>
+const _bones = {hasJL:true,title: "Bones", jsx: <><div className="jumpList" id="shamanspirit-bones-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="shamanspirit-bones-hexes">Hexes</InnerLink></li><li><InnerLink toTop to="shamanspirit-bones-spirit-animal">Spirit Animal</InnerLink></li><li><InnerLink toTop to="shamanspirit-bones-spirit-ability">Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-bones-greater-spirit-ability">Greater Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-bones-true-spirit-ability">True Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-bones-manifestation">Manifestation</InnerLink></li></ul></div><h2 id="shamanspirit-bones-bones">Bones</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 38</Link><br/>A shaman who selects the bones spirit is cadaverously thin, with sunken eye sockets and dead eyes that stare off into the distance. Her body has a faint smell of the grave. When she calls upon one of this spirit's abilities, a ghostly wind whips her hair and clothes about, and the unpleasant stench becomes more prominent.</p>
-<p><strong>Spirit Magic Spells:</strong> <Link to="/spell/cause_fear">cause fear</Link> (1st), <Link to="/spell/false_life">false life</Link> (2nd), <Link to="/spell/animate_dead">animate dead</Link> (3rd), <Link to="/spell/fear">fear</Link> (4th), <Link to="/spell/slay_living">slay living</Link> (5th), <Link to="/spell/circle_of_death">circle of death</Link> (6th), <Link to="/spell/control_undead">control undead</Link> (7th), <Link to="/spell/horrid_wilting">horrid wilting</Link> (8th), <Link to="/spell/wail_of_the_banshee">wail of the banshee</Link> (9th)</p>
-<p><strong>Hexes:</strong> A shaman who chooses the Bones spirit can select from the following hexes.</p>
-<blockquote>
-<p><strong>Bone Lock (Su):</strong> With a quick incantation, the shaman causes a creature within 30 feet to suffer stiffness in the joints and bones, causing the target to be <Link to="/misc/staggered">staggered</Link> 1 round. A successful Fortitude saving throw negates this effect. At 8th level, the duration is increased to a number of rounds equal to her shaman level, though the target can attempt a save each round to end the effect if its initial saving throw fails. At 16th level, the target can no longer attempt a saving throw each round to end the effect, although it still attempts the initial Fortitude saving throw to negate the effect entirely.</p>
-<p><strong>Bone Ward (Su):</strong> A shaman touches a willing creature (including herself) and grants a bone ward. The warded creature becomes encircled by a group of flying bones that grant it a +2 deflection bonus to AC for a number of rounds equal to the shaman's level. At 8th level, the ward increases to +3 and lasts for 1 minute. At 16th level, the bonus increases to +4 and lasts for 1 hour. Once the bone ward ends, the creature cannot be the target of the hex again for 24 hours.</p>
-<p><strong>Deathly Being (Su):</strong> If the shaman is a living creature, she reacts to positive and negative energy as if she were undead-positive energy harms her, while negative energy heals her. If she's an undead creature or a creature with the negative energy affinity ability, she gains a +1 bonus to her <Link to="/umr/channel_resistance">channel resistance</Link>. At 8th level, if she's a living creature she gains a +4 bonus on saves against death effects and effects that drain energy, or if she's an undead creature her bonus to channel resistance increases to +2.</p>
-<p>At 16th level, if the shaman is a living creature, she takes no penalties from energy drain effects, though she can still be killed if she accrues more negative levels than she has Hit Dice. Furthermore, after 24 hours any negative levels the shaman has are removed without requiring her to succeed at an additional saving throw. If the shaman is an undead creature, her bonus to channel resistance increases to +4.</p>
-<p><strong>Fearful Gaze (Su):</strong> With a single shout, the shaman causes one target creature within 30 feet to become <Link to="/misc/shaken">shaken</Link> for 1 round. A successful Will saving throw negates this effect. At 8th level, she makes the target <Link to="/misc/frightened">frightened</Link> instead. At 16th level, she makes it <Link to="/misc/panicked">panicked</Link> instead. This is a mind-affecting fear effect. A creature affected by this hex cannot be affected by it again for 24 hours.</p>
-<p><strong>Grave Sight (Su):</strong> The shaman sees the states of life, death, undeath, and general health of those around her. When using this ability, she can tell whether or not creatures within 30 feet that she can see are living, wounded, dying, or dead, as well as determine if any are undead. Lastly, she can tell if those creatures are poisoned or diseased. The shaman can use this ability a number of rounds per day equal to her shaman level, but these rounds do not need to be consecutive.</p>
-</blockquote>
-<p><strong>Spirit Animal:</strong> The shaman's spirit animal gives off a ghostly glow and seems nearly transparent. The animal is under the constant effects of <Link to="/spell/blur">blur</Link>, with a caster level equal to the shaman's level.</p>
-<p><strong>Spirit Ability:</strong> A shaman who chooses the Bones spirit as her spirit or wandering spirit gains the following ability.</p>
-<blockquote>
-<p><strong>Touch of the Grave (Su):</strong> As a standard action, the shaman can make a melee touch attack infused with negative energy that deals 1d4 points of damage + 1 point of damage for every 2 shaman levels she possesses. She can instead touch an undead creature to heal it of the same amount of damage. A shaman can use this ability a number of times per day equal to 3 + her Charisma modifier. At 11th level, any weapon that the shaman wields is treated as an unholy weapon.</p>
-</blockquote>
-<p><strong>Greater Spirit Ability:</strong> A shaman who chooses the Bones spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>
-<blockquote>
-<p><strong>Shard Soul (Su):</strong> The shaman gains DR 3/magic. This DR increases by 1 for every 4 shaman levels she possesses beyond 8th. In addition, as a standard action she can cause jagged pieces of bone to explode from her body in a 10-foot radius <Link to="/misc/burst">burst</Link>. This deals 1d6 points of piercing damage for every 2 shaman levels she possesses. A successful Reflex saving throw halves this damage. The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.</p>
-</blockquote>
-<p><strong>True Spirit Ability:</strong> A shaman who chooses the Bones spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>
-<blockquote>
-<p><strong>Shedding Form (Su):</strong> As a standard action, the shaman sheds her body and becomes incorporeal. While in this form, all of her weapon attacks are considered to have the <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon special ability. The shaman can use this ability for a number of rounds equal to her shaman level, though those rounds do not need to be consecutive.</p>
-</blockquote>
-<p><strong>Manifestation:</strong> Upon reaching 20th level, the shaman becomes a spirit of death. Once per round, she can cast <Link to="/spell/bleed">bleed</Link> or <Link to="/spell/stabilize">stabilize</Link> as a free action. If she is reduced to below 0 hit points, she automatically stabilizes. She can cast <Link to="/spell/animate_dead">animate dead</Link> at will without paying a material component cost, although she is still subject to the usual Hit Dice control limit. Once per day, she can cast <Link to="/spell/power_word_kill">power word kill</Link>, but the spell can target a creature with 150 hit points or fewer.</p>
+<Ability id="spirit-magic-spells" icon={["learn"]}>
+<Pair single id="spirit-magic-spells">Spirit Magic Spells</Pair>
+<Pair title="Info">The shaman gains these spells at the listed spell levels.</Pair>
+<Pair plain title="1st"><Link to="/spell/cause_fear">Cause fear</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/false_life">False life</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/animate_dead">Animate dead</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/fear">Fear</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/slay_living">Slay living</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/circle_of_death">Circle of death</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/control_undead">Control undead</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/horrid_wilting">Horrid wilting</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/wail_of_the_banshee">Wail of the banshee</Link></Pair>
+</Ability>
+<h3 id="shamanspirit-bones-hexes" data-hash-target>Hexes</h3>
+<p>A shaman who chooses the Bones spirit can select from the following hexes.</p>
+<Ability id="bone-lock-su" icon={["lower"]}>
+<Pair single id="bone-lock-su">Bone Lock (Su)</Pair>
+<Pair title="Ability">With a quick incantation, the shaman causes a creature within 30 feet to suffer stiffness in the joints and bones, causing the target to be <Link to="/misc/staggered">staggered</Link> 1 round. A successful Fortitude saving throw negates this effect.</Pair>
+<Pair title="At 8th Level">The duration is increased to a number of rounds equal to her shaman level, though the target can attempt a save each round to end the effect if its initial saving throw fails.</Pair>
+<Pair title="At 16th Level">The target can no longer attempt a saving throw each round to end the effect, although it still attempts the initial Fortitude saving throw to negate the effect entirely.</Pair>
+</Ability>
+<Ability id="bone-ward-su" icon={["def","protect"]}>
+<Pair single id="bone-ward-su">Bone Ward (Su)</Pair>
+<Pair title="Ability">A shaman touches a willing creature (including herself) and grants a <em>bone ward.</em> The warded creature becomes encircled by a group of flying bones that grant it a +2 deflection bonus to AC for a number of rounds equal to the shaman's level.</Pair>
+<Pair title="At 8th Level">The <em>ward</em> increases to +3 and lasts for 1 minute.</Pair>
+<Pair title="At 16th Level">The bonus increases to +4 and lasts for 1 hour.</Pair>
+<Pair title="Special">Once the <em>bone ward</em> ends, the creature cannot be the target of the hex again for 24 hours.</Pair>
+</Ability>
+<Ability id="deathly-being-su" icon={["down","power","def"]}>
+<Pair single id="deathly-being-su">Deathly Being (Su)</Pair>
+<Pair title="Passive Ability">If the shaman is a living creature, she reacts to positive and negative energy as if she were undead - positive energy harms her, while negative energy heals her. If she's an undead creature or a creature with the <Link to="/umr/negative_energy_affinity">negative energy affinity</Link> ability, she gains a +1 bonus to her <Link to="/umr/channel_resistance">channel resistance</Link>.</Pair>
+<Pair title="At 8th Level">If she's a living creature she gains a +4 bonus on saves against death effects and effects that <Link to="/rule/energy_drain">drain energy</Link>, or if she's an undead creature her bonus to channel resistance increases to +2.</Pair>
+<Pair title="At 16th Level"><p>If the shaman is a living creature, she takes no penalties from energy drain effects, though she can still be killed if she accrues more negative levels than she has Hit Dice. Furthermore, after 24 hours any negative levels the shaman has are removed without requiring her to succeed at an additional saving throw.</p>
+<p>If the shaman is an undead creature, her bonus to channel resistance increases to +4.</p>
+</Pair>
+</Ability>
+<Ability id="fearful-gaze-su" icon={["lower"]}>
+<Pair single id="fearful-gaze-su">Fearful Gaze (Su)</Pair>
+<Pair title="Ability">With a single shout, the shaman causes one target creature within 30 feet to become <Link to="/misc/shaken">shaken</Link> for 1 round. A successful Will saving throw negates this effect.</Pair>
+<Pair title="At 8th Level">She makes the target <Link to="/misc/frightened">frightened</Link> instead.</Pair>
+<Pair title="At 16th Level">She makes it <Link to="/misc/panicked">panicked</Link> instead.</Pair>
+<Pair title="Special">This is a mind-affecting fear effect. A creature affected by this hex cannot be affected by it again for 24 hours.</Pair>
+</Ability>
+<Ability id="grave-sight-su" icon={["power"]}>
+<Pair single id="grave-sight-su">Grave Sight (Su)</Pair>
+<Pair title="Usage">1 round/day per shaman level; these rounds need not be consecutive</Pair>
+<Pair title="Ability">The shaman sees the states of life, death, undeath, and general health of those around her. When using this ability, she can tell whether or not creatures within 30 feet that she can see are living, wounded, dying, or dead, as well as determine if any are undead. Lastly, she can tell if those creatures are poisoned or diseased.</Pair>
+</Ability>
+<h3 id="shamanspirit-bones-spirit-animal" data-hash-target>Spirit Animal</h3>
+<Ability id="spirit-animal" icon={["def"]}>
+<Pair single id="spirit-animal" flavor="The shaman's spirit animal gives off a ghostly glow and seems nearly transparent.">Spirit Animal</Pair>
+<Pair title="Passive Ability">The animal is under the constant effects of <Link to="/spell/blur">blur</Link>, with a caster level equal to the shaman's level.</Pair>
+</Ability>
+<h3 id="shamanspirit-bones-spirit-ability" data-hash-target>Spirit Ability</h3>
+<p>A shaman who chooses the Bones spirit as her spirit or wandering spirit gains the following ability.</p>
+<Ability id="touch-of-the-grave-su" icon={["touch","boost"]}>
+<Pair single id="touch-of-the-grave-su">Touch of the Grave (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action"><p>The shaman can make a melee touch attack infused with negative energy that deals damage equal to 1d4 + <Link to="/misc/half">half</Link> of her shaman level.</p>
+<p>She can instead touch an undead creature to heal it of the same amount of damage.</p>
+</Pair>
+<Pair title="At 11th Level">Any weapon that the shaman wields is treated as an <Link to="/magic-enh/unholy">unholy</Link> weapon.</Pair>
+</Ability>
+<h3 id="shamanspirit-bones-greater-spirit-ability" data-hash-target>Greater Spirit Ability</h3>
+<p>A shaman who chooses the Bones spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>
+<Ability id="shard-soul-su" icon={["def"]}>
+<Pair single id="shard-soul-su">Shard Soul (Su)</Pair>
+<Pair title="Standard Action"><p>She can cause jagged pieces of bone to explode from her body in a 10-foot radius <Link to="/misc/burst">burst</Link>. This deals 1d6 points of piercing damage for every 2 shaman levels she possesses. A successful Reflex saving throw halves this damage.</p>
+<p>The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.</p>
+</Pair>
+<Pair title="Passive Ability">The shaman gains DR 3/magic.</Pair>
+<Pair title="At 12th Level">The DR becomes 4/magic.</Pair>
+<Pair title="At 16th Level">The DR increases to 5/magic.</Pair>
+<Pair title="At 20th Level">The DR becomes 6/magic.</Pair>
+</Ability>
+<h3 id="shamanspirit-bones-true-spirit-ability" data-hash-target>True Spirit Ability</h3>
+<p>A shaman who chooses the Bones spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>
+<Ability id="shedding-form-su" icon={["magic","boost"]}>
+<Pair single id="shedding-form-su">Shedding Form (Su)</Pair>
+<Pair title="Usage">1 round/day per shaman level; these rounds need not be consecutive</Pair>
+<Pair title="Standard Action">The shaman sheds her body and becomes incorporeal. While in this form, all of her weapon attacks are considered to have the <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon special ability.</Pair>
+</Ability>
+<h3 id="shamanspirit-bones-manifestation" data-hash-target>Manifestation</h3>
+<Ability id="manifestation" icon={["magic","def"]}>
+<Pair single id="manifestation" flavor="The shaman becomes a spirit of death.">Manifestation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Free Action">Once per round, she can cast <Link to="/spell/bleed">bleed</Link> or <Link to="/spell/stabilize">stabilize</Link>.</Pair>
+<Pair title="Passive Ability">If she is reduced to below 0 hit points, she automatically stabilizes.</Pair>
+<Pair title="Ability">She can cast <Link to="/spell/animate_dead">animate dead</Link> at will without paying a material component cost, although she is still subject to the usual Hit Dice control limit.</Pair>
+<Pair title="Ability">Once per day, she can cast <Link to="/spell/power_word_kill">power word kill</Link>, but the spell can target a creature with 150 hit points or fewer.</Pair>
+</Ability>
 </>};
-const _dark_tapestry = {title: "Dark Tapestry", jsx: <><h2 id="shamanspirit-dark_tapestry-dark-tapestry">Dark Tapestry</h2>
+const _dark_tapestry = {hasJL:true,title: "Dark Tapestry", jsx: <><div className="jumpList" id="shamanspirit-dark_tapestry-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="shamanspirit-dark_tapestry-hexes">Hexes</InnerLink></li><li><InnerLink toTop to="shamanspirit-dark_tapestry-spirit-animal">Spirit Animal</InnerLink></li><li><InnerLink toTop to="shamanspirit-dark_tapestry-spirit-ability">Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-dark_tapestry-greater-spirit-ability">Greater Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-dark_tapestry-true-spirit-ability">True Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-dark_tapestry-manifestation">Manifestation</InnerLink></li></ul></div><h2 id="shamanspirit-dark_tapestry-dark-tapestry">Dark Tapestry</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms pg. 16</Link><br/>A shaman who selects the Dark Tapestry spirit is often a misanthropic loner. While she may well work with others, she rarely does so of her own volition. Instead, she seeks out the aid of a small group (such as a party of adventurers) as a result of an obscure vision or other influence from the Dark Tapestry that she might not fully comprehend. More often, though, a Dark Tapestry shaman is encountered not as a member of a group, but as the leader of a cult in a remote region - these shamans, of course, work best as NPC villains and not as PCs.</p>
 <p>The spirits of the Dark Tapestry have often been known to whisper dangerous secrets to mortals who dwell on sane worlds. Such spirits might be found anywhere touched by the light of baleful stars, but they are most frequently found lurking around unfathomably ancient ruins of aberrant civilizations with links to the Dark Tapestry. On Golarion, these spirits can often be found near old ruins in Osirion or the Sodden Lands, although they are also quite active throughout the county of Versex in Ustalav. Many shamans who invoke the spirits of the Dark Tapestry also worship one or several of the Outer Gods or Great Old Ones of the Elder Mythos, be it out of fear or misinformed adoration. Other entities associated with the Dark Tapestry, particularly the Dominion of the Black, seem less likely to be associated with that realm's spirits, so it may well be that the spirits that shamans call upon when they turn to the Dark Tapestry for power are in fact the idle thoughts of horrors such as <Link to="/faith/nyarlathotep">Nyarlathotep</Link>, <Link to="/faith/yog_sothoth">Yog-Sothoth</Link>, or even <Link to="/faith/azathoth">Azathoth</Link>.</p>
-<p><strong>Spirit Magic Spells:</strong> <Link to="/spell/entropic_shield">entropic shield</Link> (1st), <Link to="/spell/contact_entity_i">contact entity I</Link> (2nd), <Link to="/spell/contact_entity_ii">contact entity II</Link> (3rd), <Link to="/spell/black_tentacles">black tentacles</Link> (4th), <Link to="/spell/contact_entity_iii">contact entity III</Link> (5th), <Link to="/spell/feeblemind">feeblemind</Link> (6th), <Link to="/spell/contact_entity_iv">contact entity IV</Link> (7th), <Link to="/spell/insanity">insanity</Link> (8th), <Link to="/spell/interplanetary_teleport">interplanetary teleport</Link> (9th).</p>
-<p><strong>Hexes:</strong> A shaman who chooses the Dark Tapestry spirit can select from the following hexes.</p>
-<blockquote>
-<p><strong>Alien Summons (Su):</strong> Whenever the shaman calls or summons one or more creatures, one creature of her choice arrives with the <Link to="/template/advanced">advanced</Link> creature simple template. The creature presents a distorted mockery of the usual creature summoned, its body deformed and alien in nature. This chosen creature's anatomy is so confounding that it is immune to the additional damage from critical hits or <Link to="/misc/precision_damage">precision damage</Link> (such as that granted by <Link to="/ability/sneak_attack">sneak attack</Link>).</p>
-<p><strong>Brain Drain (Su):</strong> As a standard action, the shaman can violently probe the mind of a single intelligent creature within 60 feet. The target can attempt a Will save to negate the effect and immediately know the source of this harmful mental prying. Creatures that fail their saving throws are racked with pain, taking 1d6 points of damage for every 2 shaman levels the shaman has. After successfully damaging a creature with this ability, the shaman can sort through the jumble of stolen thoughts and memories as a full-round action and then attempt a single Knowledge check using the victim's skill bonus rather than her own. If the victim wasn't trained in the Knowledge skill the shaman wishes to use, then this check must be attempted as if untrained as well. The randomly stolen thoughts remain in the shaman's mind for a number of rounds equal to her Wisdom modifier, and the shaman can attempt one Knowledge check per round using these drained thoughts. This ability does not give access to memories or other personal information known by the victim. Brain drain is a mind-affecting effect.</p>
-<p>The shaman can use this ability once per day at 1st level, plus one additional time per day at 5th level and for every 5 levels beyond 5th, to a maximum of five times per day at 20th level.</p>
-<p><strong>Cloak of Darkness (Su):</strong> The shaman conjures a cloak of semi-solid shadowy darkness that grants her a +4 armor bonus. At 7th level and every 4 levels thereafter, this bonus increases by 2. This bonus is from a force effect. She can use this cloak for 1 hour per day per shaman level. The duration does not need to be consecutive, but it must be spent in 1-hour increments.</p>
-<p><strong>Maddening Whispers (Su):</strong> At will as a standard action, the shaman can invoke whispers from spirits of the Dark Tapestry to speak directly into the mind of a single target within 30 feet. These whispers utilize no known language, yet the victim nevertheless feels convinced that, somehow, it was almost able to comprehend the message. The target must succeed at a Will saving throw or be <Link to="/misc/confused">confused</Link> for 1 round. At 8th level and again at 16th level, the confusion caused by this hex lasts for 1 additional round. Whether or not the save is successful, the shaman cannot target that creature with this hex again for 24 hours. This is a mind-affecting effect.</p>
-<p><strong>Pierce the Veil (Su):</strong> The shaman gains darkvision to a range of up to 30 feet. If the shaman already has darkvision, its range increases by 30 feet. At 8th level, this ability becomes enhanced, allowing the shaman to see perfectly in darkness of any kind, even that created by <Link to="/spell/deeper_darkness">deeper darkness</Link>.</p>
-</blockquote>
-<p><strong>Spirit Animal:</strong> The shaman's spirit animal has an alien physiology, including twitching tentacles, additional but blind eyes, or strangely deformed limbs. The spirit animal gains the shaman's choice of a swim speed or a climb speed equal to its highest speed, and one of its natural weapons increases in reach by 5 feet. If it did not have a natural weapon, it gains a tentacle attack as a secondary <Link to="/umr/natural_weapons">natural weapon</Link> with 5-foot reach. Damage for this tentacle is standard for a creature of the spirit animal's size (1d2 for a Tiny spirit animal, or 1d3 for a Small one).</p>
-<p><strong>Spirit Ability:</strong> A shaman who chooses the Dark Tapestry spirit as her spirit or wandering spirit gains the following ability.</p>
-<blockquote>
-<p><strong>Touch of the Void (Su):</strong> As a standard action, the shaman is able to perform a melee touch attack that deals 1d6 points of cold damage + 1 point for every 2 shaman levels she has. At 10th level, any creature the shaman strikes with this touch or with a melee weapon must succeed at a Fortitude saving throw or be <Link to="/misc/fatigued">fatigued</Link> for a number of rounds equal to 1/2 the shaman's level. This has no effect on creatures that are already fatigued. The shaman can use this ability a number of times per day equal to 3 + her Charisma modifier.</p>
-</blockquote>
-<p><strong>Greater Spirit Ability:</strong> A shaman who chooses the Dark Tapestry spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>
-<blockquote>
-<p><strong>Horrific Glimpse (Sp):</strong> Once per day, the shaman can gain the effects of <Link to="/spell/contact_other_plane">contact other plane</Link> after 1 hour of meditation. No components are required in order to use this ability, but the shaman does not get to select which plane she contacts. Instead, this version of the spell contacts an alien mind from somewhere in the Dark Tapestry, be it a hive mind of alien monstrosities, the disembodied sentience of a dead planet, or even the slumbering and insane mind of a Great Old One or Outer God. The shaman must succeed at a DC 16 Wisdom check rather than an Intelligence check to avoid a decrease in Intelligence or Charisma when using this ability. If she fails the check, her Intelligence and Charisma scores each fall to 8 for 5 weeks, as the alien minds thus contacted prove as destructive to mortal thoughts as direct contact with the most powerful of deities. The types of answers provided by the horrific glimpse, be they true answers, ignorance, lies, or random answers, are considered equal to those of a greater deity if the questions being asked concern the Material Plane, but they are equal to those of a demigod if the questions posed concern any other plane.</p>
-<p>Also once per day (but only after first using this ability as per <em>contact other plane</em>), the shaman can reveal a fragment of this horrific vision to another creature, as per <Link to="/spell/phantasmal_killer">phantasmal killer</Link>, except that the target takes 1d4+1 points of <Link to="/rule/wisdom_damage">Wisdom damage</Link> regardless of the results of any of its saving throws. The body of a creature slain by this effect is always hideously mutilated and savaged, making spells like <Link to="/spell/speak_with_dead">speak with dead</Link> useless.</p>
-</blockquote>
-<p><strong>True Spirit Ability:</strong> A shaman who chooses the Dark Tapestry spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>
-<blockquote>
-<p><strong>Unbound Form (Su):</strong> The shaman can assume a variety of forms, as per <Link to="/spell/greater_polymorph">greater polymorph</Link>, for 1 minute per day per shaman level. The minutes need not be consecutive, but they must be spent in 1-minute increments. When she assumes these forms, some element of the new shape always sets it apart from a typical specimen, such as strangely colored eyes, limbs that bend in unusual ways, or a slimy coating of mucus over the flesh.</p>
-</blockquote>
-<p><strong>Manifestation:</strong> Upon reaching 20th level, the shaman becomes an unnatural spirit of the Dark Tapestry. She gains damage reduction 5/- and immunity to acid, critical hits, and sneak attacks. While she retains much of her original appearance, several minor cosmetic changes leave no doubt as to her now-alien nature. Her eyes might appear as solid spheres of blackness, her fingers might writhe like tentacles, or her legs might bend backward at the knees.</p>
-<p>Once per day, the shaman can cast <Link to="/spell/shapechange">shapechange</Link> as a spell-like ability without requiring a material component, but the form the shaman assumes via this spell-like ability is never something that looks of natural origin to the shaman's home world.</p>
+<Ability id="spirit-magic-spells" icon={["learn"]}>
+<Pair single id="spirit-magic-spells">Spirit Magic Spells</Pair>
+<Pair title="Info">The shaman gains these spells at the listed spell levels.</Pair>
+<Pair plain title="1st"><Link to="/spell/entropic_shield">Entropic shield</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/contact_entity_i">Contact entity I</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/contact_entity_ii">Contact entity II</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/black_tentacles">Black tentacles</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/contact_entity_iii">Contact entity III</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/feeblemind">Feeblemind</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/contact_entity_iv">Contact entity IV</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/insanity">Insanity</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/interplanetary_teleport">Interplanetary teleport</Link></Pair>
+</Ability>
+<h3 id="shamanspirit-dark_tapestry-hexes" data-hash-target>Hexes</h3>
+<p>A shaman who chooses the Dark Tapestry spirit can select from the following hexes.</p>
+<Ability id="alien-summons-su" icon={["boost"]}>
+<Pair single id="alien-summons-su">Alien Summons (Su)</Pair>
+<Pair title="Ability">Whenever the shaman calls or summons one or more creatures, one creature of her choice arrives with the <Link to="/template/advanced">advanced</Link> creature simple template. The creature presents a distorted mockery of the usual creature summoned, its body deformed and alien in nature. This chosen creature's anatomy is so confounding that it is immune to the additional damage from critical hits or <Link to="/misc/precision_damage">precision damage</Link> (such as that granted by <Link to="/ability/sneak_attack">sneak attack</Link>).</Pair>
+</Ability>
+<Ability id="brain-drain-su" icon={["lower","boost"]}>
+<Pair single id="brain-drain-su">Brain Drain (Su)</Pair>
+<Pair title="Usage">1 time/day + 1 per five shaman levels</Pair>
+<Pair title="Standard Action"><p>The shaman can violently probe the mind of a single intelligent creature within 60 feet. The target can attempt a Will save to negate the effect and immediately know the source of this harmful mental prying. Creatures that fail their saving throws are racked with pain, taking 1d6 points of damage for every 2 shaman levels the shaman has.</p>
+<p>After successfully damaging a creature with this ability, the shaman can sort through the jumble of stolen thoughts and memories as a <strong className="hl">full-round action</strong> and then attempt a single Knowledge check using the victim's skill bonus rather than her own. If the victim wasn't trained in the Knowledge skill the shaman wishes to use, then this check must be attempted as if untrained as well.</p>
+<p>The randomly stolen thoughts remain in the shaman's mind for a number of rounds equal to her Wisdom modifier, and the shaman can attempt one Knowledge check per round using these drained thoughts.</p>
+</Pair>
+<Pair title="Special">This ability does not give access to memories or other personal information known by the victim. <em>Brain drain</em> is a mind-affecting effect.</Pair>
+</Ability>
+<Ability id="cloak-of-darkness-su" icon={["def"]}>
+<Pair single id="cloak-of-darkness-su">Cloak of Darkness (Su)</Pair>
+<Pair title="Usage">1 hour/day per shaman level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="Ability">The shaman conjures a cloak of semi-solid shadowy darkness that grants her a +4 armor bonus.</Pair>
+<Pair title="At 7th Level">This bonus becomes +6.</Pair>
+<Pair title="At 11th Level">This bonus increases to +8.</Pair>
+<Pair title="At 15th Level">This bonus becomes +10.</Pair>
+<Pair title="At 19th Level">This bonus increases to +12.</Pair>
+</Ability>
+<Ability id="maddening-whispers-su" icon={["lower"]}>
+<Pair single id="maddening-whispers-su">Maddening Whispers (Su)</Pair>
+<Pair title="Standard Action">At will, the shaman can invoke whispers from spirits of the Dark Tapestry to speak directly into the mind of a single target within 30 feet. These whispers utilize no known language, yet the victim nevertheless feels convinced that, somehow, it was almost able to comprehend the message. The target must succeed at a Will saving throw or be <Link to="/misc/confused">confused</Link> for a number of rounds equal to 1 + <Link to="/misc/one_eighth">one-eighth</Link> of her shaman level.</Pair>
+<Pair title="Special">Whether or not the save is successful, the shaman cannot target that creature with this hex again for 24 hours. This is a mind-affecting effect.</Pair>
+</Ability>
+<Ability id="pierce-the-veil-su" icon={["power","boost"]}>
+<Pair single id="pierce-the-veil-su">Pierce the Veil (Su)</Pair>
+<Pair title="Ability">The shaman gains darkvision to a range of up to 30 feet. If the shaman already has darkvision, its range increases by 30 feet.</Pair>
+<Pair title="At 8th Level">This ability becomes enhanced, allowing the shaman to <Link to="/umr/see_in_darkness">see perfectly in darkness</Link> of any kind, even that created by <Link to="/spell/deeper_darkness">deeper darkness</Link>.</Pair>
+</Ability>
+<h3 id="shamanspirit-dark_tapestry-spirit-animal" data-hash-target>Spirit Animal</h3>
+<Ability id="spirit-animal" icon={["power","melee"]}>
+<Pair single id="spirit-animal" flavor="The shaman's spirit animal has an alien physiology, including twitching tentacles, additional but blind eyes, or strangely deformed limbs.">Spirit Animal</Pair>
+<Pair title="Ability">The spirit animal gains the shaman's choice of a swim speed or a climb speed equal to its highest speed, and one of its natural weapons increases in reach by 5 feet. If it did not have a natural weapon, it gains a tentacle attack as a secondary <Link to="/umr/natural_weapons">natural weapon</Link> with 5-foot reach. Damage for this tentacle is standard for a creature of the spirit animal's size (1d2 for a Tiny spirit animal, or 1d3 for a Small one).</Pair>
+</Ability>
+<h3 id="shamanspirit-dark_tapestry-spirit-ability" data-hash-target>Spirit Ability</h3>
+<p>A shaman who chooses the Dark Tapestry spirit as her spirit or wandering spirit gains the following ability.</p>
+<Ability id="touch-of-the-void-su" icon={["touch","lower"]}>
+<Pair single id="touch-of-the-void-su">Touch of the Void (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">The shaman is able to perform a melee touch attack that deals an amount of cold damage equal to 1d6 + <Link to="/misc/half">half</Link> her shaman level.</Pair>
+<Pair title="At 10th Level">Any creature the shaman strikes with this touch or with a melee weapon must succeed at a Fortitude saving throw or be <Link to="/misc/fatigued">fatigued</Link> for a number of rounds equal to half the shaman's level. This has no effect on creatures that are already fatigued.</Pair>
+</Ability>
+<h3 id="shamanspirit-dark_tapestry-greater-spirit-ability" data-hash-target>Greater Spirit Ability</h3>
+<p>A shaman who chooses the Dark Tapestry spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>
+<Ability id="horrific-glimpse-sp" icon={["magic"]}>
+<Pair single id="horrific-glimpse-sp">Horrific Glimpse (Sp)</Pair>
+<Pair title="Ability"><p>Once per day, the shaman can gain the effects of <Link to="/spell/contact_other_plane">contact other plane</Link> after 1 hour of meditation. No components are required in order to use this ability, but the shaman does not get to select which plane she contacts. Instead, this version of the spell contacts an alien mind from somewhere in the Dark Tapestry, be it a hive mind of alien monstrosities, the disembodied sentience of a dead planet, or even the slumbering and insane mind of a Great Old One or Outer God.</p>
+<p>The shaman must succeed at a DC 16 Wisdom check rather than an Intelligence check to avoid a decrease in Intelligence or Charisma when using this ability. If she fails the check, her Intelligence and Charisma scores each fall to 8 for 5 weeks, as the alien minds thus contacted prove as destructive to mortal thoughts as direct contact with the most powerful of deities.</p>
+<p>The types of answers provided by the horrific glimpse, be they true answers, ignorance, lies, or random answers, are considered equal to those of a greater deity if the questions being asked concern the Material Plane, but they are equal to those of a demigod if the questions posed concern any other plane.</p>
+</Pair>
+<Pair title="Ability">Also once per day (but only after first using this ability as per <em>contact other plane</em>), the shaman can reveal a fragment of this horrific vision to another creature, as per <Link to="/spell/phantasmal_killer">phantasmal killer</Link>, except that the target takes 1d4+1 points of <Link to="/rule/wisdom_damage">Wisdom damage</Link> regardless of the results of any of its saving throws. The body of a creature slain by this effect is always hideously mutilated and savaged, making spells like <Link to="/spell/speak_with_dead">speak with dead</Link> useless.</Pair>
+</Ability>
+<h3 id="shamanspirit-dark_tapestry-true-spirit-ability" data-hash-target>True Spirit Ability</h3>
+<p>A shaman who chooses the Dark Tapestry spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>
+<Ability id="unbound-form-su" icon={["magic"]}>
+<Pair single id="unbound-form-su">Unbound Form (Su)</Pair>
+<Pair title="Usage">1 minute/day per shaman level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Ability">The shaman can assume a variety of forms, as per <Link to="/spell/greater_polymorph">greater polymorph</Link>, for 1 minute per day per shaman level. The minutes need not be consecutive, but they must be spent in 1-minute increments.</Pair>
+<Pair title="Special">When she assumes these forms, some element of the new shape always sets it apart from a typical specimen, such as strangely colored eyes, limbs that bend in unusual ways, or a slimy coating of mucus over the flesh.</Pair>
+</Ability>
+<h3 id="shamanspirit-dark_tapestry-manifestation" data-hash-target>Manifestation</h3>
+<Ability id="manifestation" icon={["def"]}>
+<Pair single id="manifestation" flavor="The shaman becomes an unnatural spirit of the Dark Tapestry. While she retains much of her original appearance, several minor cosmetic changes leave no doubt as to her now-alien nature. Her eyes might appear as solid spheres of blackness, her fingers might writhe like tentacles, or her legs might bend backward at the knees.">Manifestation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">She gains damage reduction 5/- and immunity to acid, critical hits, and sneak attacks.</Pair>
+<Pair title="Ability">Once per day, the shaman can cast <Link to="/spell/shapechange">shapechange</Link> as a spell-like ability without requiring a material component, but the form the shaman assumes via this spell-like ability is never something that looks of natural origin to the shaman's home world.</Pair>
+</Ability>
 </>};
-const _flame = {title: "Flame", jsx: <><h2 id="shamanspirit-flame-flame">Flame</h2>
+const _flame = {hasJL:true,title: "Flame", jsx: <><div className="jumpList" id="shamanspirit-flame-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="shamanspirit-flame-hexes">Hexes</InnerLink></li><li><InnerLink toTop to="shamanspirit-flame-spirit-animal">Spirit Animal</InnerLink></li><li><InnerLink toTop to="shamanspirit-flame-spirit-ability">Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-flame-greater-spirit-ability">Greater Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-flame-true-spirit-ability">True Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-flame-manifestation">Manifestation</InnerLink></li></ul></div><h2 id="shamanspirit-flame-flame">Flame</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 39</Link><br/>A shaman who selects the flame spirit has a radiant light behind her eyes and the faint smell of smoke about her. When she calls upon one of this spirit's abilities, a hungry spectral flame dances around her body.</p>
-<p><strong>Spirit Magic Spells:</strong> <Link to="/spell/burning_hands">burning hands</Link> (1st), <Link to="/spell/resist_energy">resist energy</Link> (2nd), <Link to="/spell/fireball">fireball</Link> (3rd), <Link to="/spell/wall_of_fire">wall of fire</Link> (4th), <Link to="/spell/summon_monster_v">summon monster V</Link> (fire elementals only) (5th), <Link to="/spell/fire_seeds">fire seeds</Link> (6th), <Link to="/spell/fire_storm">fire storm</Link> (7th), <Link to="/spell/incendiary_cloud">incendiary cloud</Link> (8th), <Link to="/spell/fiery_body">fiery body</Link> (9th)</p>
-<p><strong>Hexes:</strong> A shaman who chooses the Flame spirit can select from the following hexes.</p>
-<blockquote>
-<p><strong>Cinder Dance (Ex):</strong> The shaman's base speed increases by 10 feet. At 5th level, the shaman receives <Link to="/feat/nimble_moves">Nimble Moves</Link> as a bonus feat. At 10th level, the shaman receives <Link to="/feat/acrobatic_steps">Acrobatic Steps</Link> as a bonus feat. The shaman doesn't need to meet the prerequisites of these feats.</p>
-<p><strong>Fire Nimbus (Su):</strong> The shaman causes a creature within 30 feet to gain a nimbus of fire. Though this doesn't harm the creature, it does cause the creature to emit light like a torch, preventing it from gaining any benefit from <Link to="/rule/concealment">concealment</Link> or <Link to="/spell/invisibility">invisibility</Link>. The target also takes a -2 penalty on saving throws against spells or effects that deal fire damage. The fire nimbus lasts for a number of rounds equal to the shaman's level. A successful Will saving throw negates this effect. Whether or not the save is successful, the creature cannot be the target of this hex again for 24 hours.</p>
-<p><strong>Flame Curse (Su):</strong> The shaman causes a creature within 30 feet to become vulnerable to fire until the end of the shaman's next turn. If the creature is already vulnerable to fire, this hex has no effect. Fire immunity and resistances apply as normal, and any saving throw allowed by the effect that caused the damage reduces it as normal. At 8th and 16th levels, the duration of this hex is extended by 1 round. A creature affected by this hex cannot be affected by it again for 24 hours.</p>
-<p><strong>Gaze of Flames (Su):</strong> The shaman sees through fire, fog, and smoke without penalty as long as there is enough light to otherwise allow her to see normally. At 7th level, the shaman can gaze through any source of flame within 10 feet per shaman level, as <Link to="/spell/clairaudience_clairvoyance">clairaudience</Link>. The shaman can use this ability a number of rounds per day equal to her shaman level, but these rounds do not need to be consecutive.</p>
-<p><strong>Ward of Flames (Su):</strong> The shaman touches a willing creature (including herself) and grants a ward of flames. The next time the warded creature is struck with a melee attack, the creature making the attack takes 1d6 points of fire damage + 1 point of fire damage for every 2 shaman levels she possesses. This ward lasts for 1 minute, after which it fades away if not already expended. At 8th and 16th levels, the ward lasts for one additional attack. A creature affected by this hex cannot be affected by it again for 24 hours.</p>
-</blockquote>
-<p><strong>Spirit Animal:</strong> The shaman's spirit animal is surrounded by a nimbus of flame that gives off light like a candle. This nimbus is warm to the touch, but doesn't cause any damage. The animal is immune to fire damage, but is vulnerable to cold damage.</p>
-<p><strong>Spirit Ability:</strong> A shaman who chooses the Flame spirit as her spirit or wandering spirit gains the following ability.</p>
-<blockquote>
-<p><strong>Touch of Flame (Su):</strong> As a standard action, the shaman can make a melee touch attack that deals 1d6 points of fire damage + 1 point for every 2 shaman levels she possesses. A shaman can use this ability a number of times per day equal to 3 + her Charisma modifier. At 11th level, any weapon she wields is treated as a flaming weapon.</p>
-</blockquote>
-<p><strong>Greater Spirit Ability:</strong> A shaman who chooses the Flame spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>
-<blockquote>
-<p><strong>Fiery Soul (Su):</strong> The shaman gains fire resistance 10. In addition, as a standard action she can unleash a 15-foot cone of flame from her mouth, dealing 1d4 points of fire damage per shaman level she possesses. A successful Reflex saving throw halves this damage. The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.</p>
-</blockquote>
-<p><strong>True Spirit Ability:</strong> A shaman who chooses the Flame spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>
-<blockquote>
-<p><strong>Elemental Form (Su):</strong> As a standard action, the shaman assumes the form of a Huge (or smaller) fire elemental, as if using <Link to="/spell/elemental_body_iv">elemental body IV</Link> with a duration of 1 hour per level. The shaman can use this ability once per day.</p>
-</blockquote>
-<p><strong>Manifestation:</strong> Upon reaching 20th level, the shaman becomes a spirit of flame. The shaman gains fire resistance 30. She can also apply any one of the following feats to any fire spell she casts without increasing the spell's level or casting time: <Link to="/feat/enlarge_spell">Enlarge Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link>. She doesn't need to possess these feats to use this ability.</p>
+<Ability id="spirit-magic-spells" icon={["learn"]}>
+<Pair single id="spirit-magic-spells">Spirit Magic Spells</Pair>
+<Pair title="Info">The shaman gains these spells at the listed spell levels.</Pair>
+<Pair plain title="1st"><Link to="/spell/burning_hands">Burning hands</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/resist_energy">Resist energy</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/fireball">Fireball</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/wall_of_fire">Wall of fire</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/summon_monster_v">Summon monster V</Link> (fire elementals only)</Pair>
+<Pair plain title="6th"><Link to="/spell/fire_seeds">Fire seeds</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/fire_storm">Fire storm</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/incendiary_cloud">Incendiary cloud</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/fiery_body">Fiery body</Link></Pair>
+</Ability>
+<h3 id="shamanspirit-flame-hexes" data-hash-target>Hexes</h3>
+<p>A shaman who chooses the Flame spirit can select from the following hexes.</p>
+<Ability id="cinder-dance-ex" icon={["boost"]}>
+<Pair single id="cinder-dance-ex">Cinder Dance (Ex)</Pair>
+<Pair title="Ability">The shaman's base speed increases by 10 feet.</Pair>
+<Pair title="At 5th Level">The shaman receives <Link to="/feat/nimble_moves">Nimble Moves</Link> as a bonus feat.</Pair>
+<Pair title="At 10th Level">The shaman receives <Link to="/feat/acrobatic_steps">Acrobatic Steps</Link> as a bonus feat.</Pair>
+<Pair title="Special">The shaman doesn't need to meet the prerequisites of these feats.</Pair>
+</Ability>
+<Ability id="fire-nimbus-su" icon={["lower"]}>
+<Pair single id="fire-nimbus-su">Fire Nimbus (Su)</Pair>
+<Pair title="Ability"><p>The shaman causes a creature within 30 feet to gain a nimbus of fire. Though this doesn't harm the creature, it does cause the creature to emit light like a <Link to="/eq-misc/torch">torch</Link>, preventing it from gaining any benefit from <Link to="/rule/concealment">concealment</Link> or <Link to="/spell/invisibility">invisibility</Link>. The target also takes a -2 penalty on saving throws against spells or effects that deal fire damage.</p>
+<p>The fire nimbus lasts for a number of rounds equal to the shaman's level. A successful Will saving throw negates this effect.</p>
+</Pair>
+<Pair title="Special">Whether or not the save is successful, the creature cannot be the target of this hex again for 24 hours.</Pair>
+</Ability>
+<Ability id="flame-curse-su" icon={["power"]}>
+<Pair single id="flame-curse-su">Flame Curse (Su)</Pair>
+<Pair title="Ability">The shaman causes a creature within 30 feet to become <Link to="/umr/vulnerable">vulnerable</Link> to fire until the end of the shaman's next turn. If the creature is already vulnerable to fire, this hex has no effect. Fire immunity and resistances apply as normal, and any saving throw allowed by the effect that caused the damage reduces it as normal.</Pair>
+<Pair title="At 8th Level">The duration of this hex becomes 2 rounds.</Pair>
+<Pair title="At 16th Level">The duration of this hex increases to 3 rounds.</Pair>
+<Pair title="Special">A creature affected by this hex cannot be affected by it again for 24 hours.</Pair>
+</Ability>
+<Ability id="gaze-of-flames-su" icon={["power","magic"]}>
+<Pair single id="gaze-of-flames-su">Gaze of Flames (Su)</Pair>
+<Pair title="Ability">The shaman sees through fire, fog, and smoke without penalty as long as there is enough light to otherwise allow her to see normally.</Pair>
+<Pair title="At 7th Level">The shaman can gaze through any source of flame within 10 feet per shaman level, as <Link to="/spell/clairaudience_clairvoyance">clairaudience</Link>. The shaman can use this ability a number of rounds per day equal to her shaman level, but these rounds do not need to be consecutive.</Pair>
+</Ability>
+<Ability id="ward-of-flames-su" icon={["protect","def"]}>
+<Pair single id="ward-of-flames-su">Ward of Flames (Su)</Pair>
+<Pair title="Ability">The shaman touches a willing creature (including herself) and grants a <em>ward of flames.</em> The next time the warded creature is struck with a melee attack, the creature making the attack takes an amount of fire damage equal to 1d6 + <Link to="/misc/half">half</Link> her shaman level. This <em>ward</em> lasts for 1 minute, after which it fades away if not already expended.</Pair>
+<Pair title="At 8th Level">This hex now persists through 2 attacks.</Pair>
+<Pair title="At 16th Level">This hex now persists through 3 attacks.</Pair>
+<Pair title="Special">A creature affected by this hex cannot be affected by it again for 24 hours.</Pair>
+</Ability>
+<h3 id="shamanspirit-flame-spirit-animal" data-hash-target>Spirit Animal</h3>
+<Ability id="spirit-animal" icon={["magic","def","down"]}>
+<Pair single id="spirit-animal">Spirit Animal</Pair>
+<Pair title="Passive Ability">The shaman's spirit animal is surrounded by a nimbus of flame that gives off light like a <Link to="/eq-misc/candle">candle</Link>. This nimbus is warm to the touch, but doesn't cause any damage. The animal is immune to fire damage, but is vulnerable to cold damage.</Pair>
+</Ability>
+<h3 id="shamanspirit-flame-spirit-ability" data-hash-target>Spirit Ability</h3>
+<p>A shaman who chooses the Flame spirit as her spirit or wandering spirit gains the following ability.</p>
+<Ability id="touch-of-flame-su" icon={["touch"]}>
+<Pair single id="touch-of-flame-su">Touch of Flame (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">The shaman can make a melee touch attack that deals 1an amount of fire damage equal to 1d6 + <Link to="/misc/half">half</Link> her shaman level.</Pair>
+<Pair title="At 11th Level">Any weapon she wields is treated as a <Link to="/misc/flaming">flaming</Link> weapon.</Pair>
+</Ability>
+<h3 id="shamanspirit-flame-greater-spirit-ability" data-hash-target>Greater Spirit Ability</h3>
+<p>A shaman who chooses the Flame spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>
+<Ability id="fiery-soul-su" icon={["def","cone"]}>
+<Pair single id="fiery-soul-su">Fiery Soul (Su)</Pair>
+<Pair title="Passive Ability">The shaman gains fire <Link to="/misc/resistance">resistance</Link> 10.</Pair>
+<Pair title="Standard Action"><p>In addition, she can unleash a 15-foot cone of flame from her mouth, dealing 1d4 points of fire damage per shaman level she possesses. A successful Reflex saving throw halves this damage.</p>
+<p>The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.</p>
+</Pair>
+</Ability>
+<h3 id="shamanspirit-flame-true-spirit-ability" data-hash-target>True Spirit Ability</h3>
+<p>A shaman who chooses the Flame spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>
+<Ability id="elemental-form-su" icon={["magic"]}>
+<Pair single id="elemental-form-su">Elemental Form (Su)</Pair>
+<Pair title="Standard Action">The shaman assumes the form of a Huge (or smaller) fire elemental, as if using <Link to="/spell/elemental_body_iv">elemental body IV</Link> with a duration of 1 hour per level. The shaman can use this ability once per day.</Pair>
+</Ability>
+<h3 id="shamanspirit-flame-manifestation" data-hash-target>Manifestation</h3>
+<Ability id="manifestation" icon={["def","boost"]}>
+<Pair single id="manifestation" flavor="The shaman becomes a spirit of flame.">Manifestation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">The shaman gains fire resistance 30.</Pair>
+<Pair title="Ability">She can apply any one of the following feats to any fire spell she casts without increasing the spell's level or casting time: <Link to="/feat/enlarge_spell">Enlarge Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link>. She doesn't need to possess these feats to use this ability.</Pair>
+</Ability>
 </>};
 const _frost = {title: "Frost", jsx: <><h2 id="shamanspirit-frost-frost">Frost</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 10</Link><br/>Far to the north, Erutaki tribes have adapted to life in the bitter cold of the Crown of the World. The frost spirit is seen by some Erutaki as a protector of their way of life, and shamans who commune with the spirit are shown great respect in their communities.</p>
