@@ -692,7 +692,7 @@
 			"| @ripple[order/Order of the Cockatrice] | A cavalier who belongs to this order serves only himself, working to further his own aims and increase his own prestige. |",
 			"| @ripple[order/Order of the Dragon] | This order believes in loyalty and friendship, willing to lay down their lives to protect their allies. |",
 			"| @ripple[order/Order of the Eastern Star] | This order exists to keep dangerous secrets hidden from the world and secretly protect the world against unimaginable threats from beyond the mortal realms. |",
-			"| @ripple[order/Order of the Eclipse]\\* | A respected samurai order devoted to darkness itself. Although the order is not officially restricted to hobgoblins, its edicts make it difficult for any samurai without darkvision to operate in its ranks. |",
+			"| @ripple[order/Order of the Eclipse« \\*] | A respected samurai order devoted to darkness itself. Although the order is not officially restricted to hobgoblins, its edicts make it difficult for any samurai without darkvision to operate in its ranks. |",
 			"| @ripple[order/Order of the Eel] | The order of the eel believes communication and negotiation are the true paths to greatness and success for all. Locathah eel riders were the founders of the order of the eel, but other aquatic races have since joined. |",
 			"| @ripple[order/Order of the Ennead Star] | Cavaliers belonging to this order have joined the Hellknight crusade against chaos, adopting a life of ironclad discipline and swearing to thwart disorder by any means. |",
 			"| @ripple[order/Order of the First Law] | This order is dedicated to hunting down anyone practicing, preaching, or otherwise facilitating religion in Rahadoum. |",
@@ -712,16 +712,16 @@
 			"| @ripple[order/Order of the Seal] | Cavaliers of the order of the seal are a secretive order, each charged with the protection of a specific object (such as a dangerous magic item), place (a lost temple), or secret (that a certain peasant is actually the last descendant of the royal line). |",
 			"| @ripple[order/Order of the Shield] | Cavaliers who join the order of the shield devote their lives to protecting the common folk, from the simple farmer to the honest craftsman. |",
 			"| @ripple[order/Order of the Shroud] | Cavaliers of this order seek out and destroy undead and those who harbor or create them. |",
-			"| @ripple[order/Order of the Songbird]\\* | Samurai of this order treat battle as a beautiful art form; many of these samurai seek pacifistic means of defeating their foes. |",
+			"| @ripple[order/Order of the Songbird« \\*] | Samurai of this order treat battle as a beautiful art form; many of these samurai seek pacifistic means of defeating their foes. |",
 			"| @ripple[order/Order of the Staff] | Cavaliers belonging to the order of the staff dedicate their lives to guarding and assisting spellcasters, especially wizards and druids, and to overcoming those who seek to destroy items and locations of magical import. |",
 			"| @ripple[order/Order of the Star] | Cavaliers who join the order of the star dedicate themselves to the protection and service of a faith and its members. |",
 			"| @ripple[order/Order of the Sword] | Cavaliers who join the order of the sword dedicate their lives to the code of chivalry, living a life of honor, valor, and fairness. |",
 			"| @ripple[order/Order of the Tome] | The members of this order devote themselves to the preservation of knowledge. |",
-			"| @ripple[order/Order of the Warrior]\\* | Most samurai swear themselves to the code of the warrior, which emphasizes duty, honor, loyalty, and obedience. |",
+			"| @ripple[order/Order of the Warrior« \\*] | Most samurai swear themselves to the code of the warrior, which emphasizes duty, honor, loyalty, and obedience. |",
 			"| @ripple[order/Order of the Waves] | Cavaliers of the order of the waves explore the secrets under the sea. |",
 			"| @ripple[order/Order of the Whip] | A cavalier who belongs to this order has pledged himself to cruelty and malice, serving only those who grant him free rein to cause suffering. |",
 			"| @ripple[order/Order of Vengeance] | Often affiliated with the church of Calistria, those ex-Galtan cavaliers who subscribe to the order of vengeance seek not only to reclaim their rightful homeland, but to punish those who betrayed them. |",
-			"| @ripple[order/Ronin]\\* | While most samurai belong to the order of the warrior, some find themselves without a master. Known as ronin, these samurai wander the lands, serving their own code of ideals. |"
+			"| @ripple[order/Ronin« \\*] | While most samurai belong to the order of the warrior, some find themselves without a master. Known as ronin, these samurai wander the lands, serving their own code of ideals. |"
 		],
 		"topLink": [ "Cavalier", "class/cavalier" ]
 	},

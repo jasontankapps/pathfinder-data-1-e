@@ -2445,7 +2445,7 @@ const _orders = {title: "Cavalier/Samurai Orders", topLink: ["Cavalier","class/c
 <td>This order exists to keep dangerous secrets hidden from the world and secretly protect the world against unimaginable threats from beyond the mortal realms.</td>
 </tr>
 <tr>
-<td><Link to="/order/order_of_the_eclipse">Order of the Eclipse<IonRippleEffect /></Link>*</td>
+<td className="ion-activatable"><Link to="/order/order_of_the_eclipse">Order of the Eclipse *<IonRippleEffect /></Link></td>
 <td>A respected samurai order devoted to darkness itself. Although the order is not officially restricted to hobgoblins, its edicts make it difficult for any samurai without darkvision to operate in its ranks.</td>
 </tr>
 <tr>
@@ -2525,7 +2525,7 @@ const _orders = {title: "Cavalier/Samurai Orders", topLink: ["Cavalier","class/c
 <td>Cavaliers of this order seek out and destroy undead and those who harbor or create them.</td>
 </tr>
 <tr>
-<td><Link to="/order/order_of_the_songbird">Order of the Songbird<IonRippleEffect /></Link>*</td>
+<td className="ion-activatable"><Link to="/order/order_of_the_songbird">Order of the Songbird *<IonRippleEffect /></Link></td>
 <td>Samurai of this order treat battle as a beautiful art form; many of these samurai seek pacifistic means of defeating their foes.</td>
 </tr>
 <tr>
@@ -2545,7 +2545,7 @@ const _orders = {title: "Cavalier/Samurai Orders", topLink: ["Cavalier","class/c
 <td>The members of this order devote themselves to the preservation of knowledge.</td>
 </tr>
 <tr>
-<td><Link to="/order/order_of_the_warrior">Order of the Warrior<IonRippleEffect /></Link>*</td>
+<td className="ion-activatable"><Link to="/order/order_of_the_warrior">Order of the Warrior *<IonRippleEffect /></Link></td>
 <td>Most samurai swear themselves to the code of the warrior, which emphasizes duty, honor, loyalty, and obedience.</td>
 </tr>
 <tr>
@@ -2561,7 +2561,7 @@ const _orders = {title: "Cavalier/Samurai Orders", topLink: ["Cavalier","class/c
 <td>Often affiliated with the church of Calistria, those ex-Galtan cavaliers who subscribe to the order of vengeance seek not only to reclaim their rightful homeland, but to punish those who betrayed them.</td>
 </tr>
 <tr>
-<td><Link to="/order/ronin">Ronin<IonRippleEffect /></Link>*</td>
+<td className="ion-activatable"><Link to="/order/ronin">Ronin *<IonRippleEffect /></Link></td>
 <td>While most samurai belong to the order of the warrior, some find themselves without a master. Known as ronin, these samurai wander the lands, serving their own code of ideals.</td>
 </tr>
 </tbody></table></ScrollContainer>
