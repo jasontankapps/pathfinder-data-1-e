@@ -2088,5 +2088,36 @@
 			"- ‹monster/Fire Wysp›",
 			"- ‹monster/Water Wysp›"
 		]
+	},
+	"dire": {
+		"name": "Dire",
+		"sources": [],
+		"description": [
+			"## Dire",
+			"",
+			">*This is not an \"official\" family, merely a grouping of beasts that share the \"dire\" title.",
+			"",
+			"Dire animals are enormous versions of normal animals, representing their most primal form. These creatures tend to follow the same basic behaviors as their smaller kin, but are much more aggressive.",
+			"",
+			"### Members of This Family:",
+			"",
+			"- ‹monster/Dire Ape« (Gigantopithecus)›",
+			"- ‹monster/Dire Badger›",
+			"- ‹monster/Dire Bat›",
+			"- ‹monster/Dire Bear« (Cave Bear)›",
+			"- ‹monster/Dire Polar Bear›",
+			"- ‹monster/Dire Boar« (Daodon)›",
+			"- ‹monster/Dire Corby›",
+			"- ‹monster/Dire Crocodile›",
+			"- ‹monster/Dire Hyena« (Hyaenodon)›",
+			"- ‹monster/Dire Lion« (Spotted Lion)›",
+			"- ‹monster/Dire Rat›",
+			"- ‹monster/Dire Shadow Rat›",
+			"- ‹monster/Dire Shark (Megalodon)›",
+			"- ‹monster/Dire Tiger (Smilodon)›",
+			"- ‹monster/Dire Weasel›",
+			"- ‹monster/Dire Wolf›",
+			"- ‹monster/Dire Wolverine›"
+		]
 	}
 }

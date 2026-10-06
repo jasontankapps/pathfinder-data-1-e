@@ -1510,4 +1510,30 @@ const _wysp = {title: "Wysp", jsx: <><h2 id="family-wysp-wysp">Wysp</h2>
 <li><Link to="/monster/water_wysp">Water Wysp</Link></li>
 </ul>
 </>};
-export default {elemental:_elemental,empyreal_lord:_empyreal_lord,eurypterid:_eurypterid,familiar:_familiar,fiend_bred_animal:_fiend_bred_animal,fleshwarp:_fleshwarp,formian:_formian,gargoyle:_gargoyle,genie:_genie,gigas:_gigas,golem:_golem,shield_guardian:_shield_guardian,great_old_one:_great_old_one,gremlin:_gremlin,hag:_hag,herald:_herald,herd_animal:_herd_animal,hive:_hive,horsemen_of_the_apocalypse:_horsemen_of_the_apocalypse,house_spirit:_house_spirit,idol:_idol,inevitable:_inevitable,kaiju:_kaiju,kami:_kami,kyton:_kyton,kyton_demagogue:_kyton_demagogue,leshy:_leshy,linnorm:_linnorm,lycanthrope:_lycanthrope,lurking_ray:_lurking_ray,manasaputra:_manasaputra,megafauna:_megafauna,mortic:_mortic,naga:_naga,nightshade:_nightshade,oni:_oni,ossumental:_ossumental,phantom_armor:_phantom_armor,plague_swarm:_plague_swarm,poppet:_poppet,primeval_sea_creature:_primeval_sea_creature,protean:_protean,psychopomp:_psychopomp,qlippoth:_qlippoth,qlippoth_lord:_qlippoth_lord,rakshasa:_rakshasa,robot:_robot,rot_grub:_rot_grub,sahkil:_sahkil,siktempora:_siktempora,spawn_of_rovagug:_spawn_of_rovagug,sphinx:_sphinx,thassilonian_sentinel:_thassilonian_sentinel,thriae:_thriae,titan:_titan,troll:_troll,troops:_troops,vampire_servant:_vampire_servant,veela:_veela,wild_hunt:_wild_hunt,wysp:_wysp}
+const _dire = {title: "Dire", jsx: <><h2 id="family-dire-dire">Dire</h2>
+<blockquote>
+<p>*This is not an "official" family, merely a grouping of beasts that share the "dire" title.</p>
+</blockquote>
+<p>Dire animals are enormous versions of normal animals, representing their most primal form. These creatures tend to follow the same basic behaviors as their smaller kin, but are much more aggressive.</p>
+<h3 id="family-dire-members-of-this-family">Members of This Family:</h3>
+<ul>
+<li><Link to="/monster/dire_ape">Dire Ape (Gigantopithecus)</Link></li>
+<li><Link to="/monster/dire_badger">Dire Badger</Link></li>
+<li><Link to="/monster/dire_bat">Dire Bat</Link></li>
+<li><Link to="/monster/dire_bear">Dire Bear (Cave Bear)</Link></li>
+<li><Link to="/monster/dire_polar_bear">Dire Polar Bear</Link></li>
+<li><Link to="/monster/dire_boar">Dire Boar (Daodon)</Link></li>
+<li><Link to="/monster/dire_corby">Dire Corby</Link></li>
+<li><Link to="/monster/dire_crocodile">Dire Crocodile</Link></li>
+<li><Link to="/monster/dire_hyena">Dire Hyena (Hyaenodon)</Link></li>
+<li><Link to="/monster/dire_lion">Dire Lion (Spotted Lion)</Link></li>
+<li><Link to="/monster/dire_rat">Dire Rat</Link></li>
+<li><Link to="/monster/dire_shadow_rat">Dire Shadow Rat</Link></li>
+<li><Link to="/monster/dire_shark_megalodon">Dire Shark (Megalodon)</Link></li>
+<li><Link to="/monster/dire_tiger_smilodon">Dire Tiger (Smilodon)</Link></li>
+<li><Link to="/monster/dire_weasel">Dire Weasel</Link></li>
+<li><Link to="/monster/dire_wolf">Dire Wolf</Link></li>
+<li><Link to="/monster/dire_wolverine">Dire Wolverine</Link></li>
+</ul>
+</>};
+export default {elemental:_elemental,empyreal_lord:_empyreal_lord,eurypterid:_eurypterid,familiar:_familiar,fiend_bred_animal:_fiend_bred_animal,fleshwarp:_fleshwarp,formian:_formian,gargoyle:_gargoyle,genie:_genie,gigas:_gigas,golem:_golem,shield_guardian:_shield_guardian,great_old_one:_great_old_one,gremlin:_gremlin,hag:_hag,herald:_herald,herd_animal:_herd_animal,hive:_hive,horsemen_of_the_apocalypse:_horsemen_of_the_apocalypse,house_spirit:_house_spirit,idol:_idol,inevitable:_inevitable,kaiju:_kaiju,kami:_kami,kyton:_kyton,kyton_demagogue:_kyton_demagogue,leshy:_leshy,linnorm:_linnorm,lycanthrope:_lycanthrope,lurking_ray:_lurking_ray,manasaputra:_manasaputra,megafauna:_megafauna,mortic:_mortic,naga:_naga,nightshade:_nightshade,oni:_oni,ossumental:_ossumental,phantom_armor:_phantom_armor,plague_swarm:_plague_swarm,poppet:_poppet,primeval_sea_creature:_primeval_sea_creature,protean:_protean,psychopomp:_psychopomp,qlippoth:_qlippoth,qlippoth_lord:_qlippoth_lord,rakshasa:_rakshasa,robot:_robot,rot_grub:_rot_grub,sahkil:_sahkil,siktempora:_siktempora,spawn_of_rovagug:_spawn_of_rovagug,sphinx:_sphinx,thassilonian_sentinel:_thassilonian_sentinel,thriae:_thriae,titan:_titan,troll:_troll,troops:_troops,vampire_servant:_vampire_servant,veela:_veela,wild_hunt:_wild_hunt,wysp:_wysp,dire:_dire}

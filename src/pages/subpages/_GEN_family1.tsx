@@ -70,7 +70,6 @@ const _alghollthu = {title: "Alghollthu", jsx: <><h2 id="family-alghollthu-algho
 <p>In bygone millennia, aquatic monsters known as alghollthus used their occult powers to conquer and rule vast swaths of the world. Alghollthus shaped their servitors and other creatures using mental manipulation and physically transformative magic. The rulers of the alghollthus, the so-called "veiled masters," further shaped entire societies by assuming the forms of those they controlled.</p>
 <p>In time, the alghollthus grew frustrated with upstart surface societies and meddling gods. They used incredible magical power to call forth a cataclysm, hoping to destroy the rebellious societies they'd manipulated. Yet they miscalculated the will to survive of those they treated as their pawns, and in time the world recovered, this time free of alghollthu influence.</p>
 <p>Today, the alghollthus have mostly remained within the deep aquatic realms where they still rule without question. Yet they have not abandoned their plots entirely, and the reemergence of servitors like faceless stalkers suggests that the alghollthus have turned their hateful eyes to the surface once again.</p>
-<p><strong>Family:</strong> <Link to="/family/alghollthu">Alghollthu</Link></p>
 <h3 id="family-alghollthu-members-of-this-family">Members of This Family:</h3>
 <ul>
 <li><Link to="/monster/aboleth">Aboleth</Link></li>
