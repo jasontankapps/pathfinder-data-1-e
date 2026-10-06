@@ -913,7 +913,15 @@ const _frozen_note = {title: "Frozen Note", jsx: <><h2 id="spell-frozen_note-fro
 </>};
 const _full_pouch = {title: "Full Pouch", jsx: <><h2 id="spell-full_pouch-full-pouch">Full Pouch</h2>
 <SpellInfo id="1" source="Arcane Anthology/20" school="trans" alc={2} arc={2} brd={2} drd={2} hnt={2} inq={3} inv={2} occ={3} rgr={3} skd={2} sor={2} wiz={2} ct="1 swift action" comp="V, S, M (alchemical reagents or herbs worth 1 gp)" rTouch target="1 object touched" dur="instantaneous" save="Fortitude negates (object)" resist="no" />
-<p>You cast this spell as you draw out a consumable alchemical item to use. The object must be an alchemical item, but not a dose of disease, a poison, a magic potion, or another type of consumable item. The item divides itself into two nearly identical copies and the newly separated one is delivered into your hand. The new item functions as the original in all ways except the copied item suffers a slight reduction in quality. Saves against the new alchemical item's affects use the original item's save DC or the save DC of this spell, whichever is higher.</p>
+<p>You cast this spell as you draw out a consumable alchemical item to use. The object must be an alchemical item, but not a dose of disease, a poison, a magic potion, or another type of consumable item. The item divides itself into two nearly identical copies and the newly separated one is delivered into your hand. The new item functions as the original in all ways except the copied item suffers a slight reduction in quality. Saves against the new alchemical item's effects use the original item's save DC or the save DC of this spell, whichever is higher.<sup><InnerLink showBacklink="backlink-spell-full_pouch-ref-N-1" id="spell-full_pouch-ref-N-1" data-hash-target to="spell-full_pouch-N">1</InnerLink></sup></p>
+<section data-footnotes>
+<h3 id="spell-full_pouch-label">Footnotes</h3>
+<ol>
+<li id="spell-full_pouch-N">
+<p>The final two sentences make no sense, as choosing the higher DC would <strong>not</strong> be a reduction in quality. Consult your GM. <InnerLink id="backlink-spell-full_pouch-ref-N-1" data-hash-target to="spell-full_pouch-ref-N-1" aria-label="Back to reference N-1">↩</InnerLink></p>
+</li>
+</ol>
+</section>
 </>};
 const _fumblestep = {title: "Fumblestep", jsx: <><h2 id="spell-fumblestep-fumblestep">Fumblestep</h2>
 <SpellInfo id="1" source="Blood of the Beast/27" school="conj" arc={1} mes={1} sor={1} spr={1} wit={1} wiz={1} ct="1 standard action" comp="V, S, M (a sharp pebble)" rClose target="one creature" dur="1 minute/level or until discharged (see text)" save="none (see text)" resist="yes" />

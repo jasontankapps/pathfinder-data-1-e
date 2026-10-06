@@ -2233,7 +2233,9 @@
 			"",
 			"::spell{id=1 source=\"Arcane Anthology/20\" transmutation alc=2 arc=2 brd=2 drd=2 hnt=2 inq=3 inv=2 occ=3 rgr=3 skd=2 sor=2 wiz=2 ctSw cV cS cMp=\"alchemical reagents or herbs worth 1 gp\" rTouch target=\"1 object touched\" durI fort svObject srN}",
 			"",
-			"You cast this spell as you draw out a consumable alchemical item to use. The object must be an alchemical item, but not a dose of disease, a poison, a magic potion, or another type of consumable item. The item divides itself into two nearly identical copies and the newly separated one is delivered into your hand. The new item functions as the original in all ways except the copied item suffers a slight reduction in quality. Saves against the new alchemical item's affects use the original item's save DC or the save DC of this spell, whichever is higher."
+			"You cast this spell as you draw out a consumable alchemical item to use. The object must be an alchemical item, but not a dose of disease, a poison, a magic potion, or another type of consumable item. The item divides itself into two nearly identical copies and the newly separated one is delivered into your hand. The new item functions as the original in all ways except the copied item suffers a slight reduction in quality. Saves against the new alchemical item's effects use the original item's save DC or the save DC of this spell, whichever is higher.[^N]",
+			"",
+			"[^N]: The final two sentences make no sense, as choosing the higher DC would **not** be a reduction in quality. Consult your GM."
 		]
 	},
 	"fumblestep": {

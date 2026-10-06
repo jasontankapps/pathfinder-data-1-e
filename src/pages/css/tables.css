@@ -17,7 +17,7 @@ div.listLike ion-item.itemLike::part(native) {
 div.tableWrap {
 	overflow-x: auto;
 	overflow-y: auto;
-	width: max-content;
+	inline-size: max-content;
 	scroll-margin-block-start: 80px;
 	max-inline-size: calc(100% - 2rem);
 	/*
@@ -270,7 +270,7 @@ div.table > .tr {
 	display: grid;
 	grid-template-columns: subgrid;
 	grid-column: 1 / -1;
-	width: max-content;
+	inline-size: max-content;
 }
 div.table,
 div.table > .tr > .td {
@@ -314,7 +314,7 @@ div.table.titled > .tr:first-child > .td:first-child {
 div.table.titled > .tr:first-child > .td.has-icon:first-child {
 	display: flex;
 	flex-flow: row nowrap;
-	width: 100%;
+	inline-size: 100%;
 	align-items: center;
 	justify-content: center;
 	gap: 0.5em;
@@ -322,6 +322,13 @@ div.table.titled > .tr:first-child > .td.has-icon:first-child {
 div.table.titled > .tr:first-child > .td.has-icon:first-child > a > ion-icon {
 	color: var(--ion-color-secondary);
 	font-size: 1.5em;
+}
+
+
+/* Tables within tables */
+div.table div.table,
+div.table > .tr div.table > .tr {
+	inline-size: auto;
 }
 
 
