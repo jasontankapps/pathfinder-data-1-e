@@ -94,12 +94,15 @@ const checkForEncodedLink = (input, options = {}) => {
 	}
 	if (startbracket === "‹‹") {
 		// This is a verbatim link
-		// Sub in main.main as a fake link so we fool the invalidity tests
+		// Handle #/hastag shorthand
+		const link = protocol === "#" ? ("#" + convertTextToLink(matchedx).replaceAll("_", "-")) : matchedx;
+		const text = protocol === "#" ? matchedx : protocol;
 		return {
 			pre,
-			link: matchedx,
-			text: protocol,
+			link,
+			text,
 			post,
+			// Sub in main.main as a fake link so we fool the invalidity tests
 			protocol: "main",
 			property: "main",
 			original: `‹‹${protocol}/${matchedx}››`

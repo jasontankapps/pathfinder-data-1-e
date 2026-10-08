@@ -480,7 +480,7 @@
 			"@HL[Associated Domains:] Community, Knowledge  ",
 			"@list[Associated Deities]{hl link=faith all=Abraxas~Andoletta~Bergelmir~Bharnarol~Elion~Erastil~Eritrice~Irori~Nethys~Shei~Svarozic}",
 			"",
-			"::ab[Teaching Moment (Su)]{replace=\"The ‹‹unity/#unity›› power of the Community domain\" l=8 icon=aid-roll immediate=\"When you or an ally within 30 feet rolls a natural 1 or a natural 20 on an attack roll, an ability check, a skill check, or a saving throw, you can grant all allies within 30 feet special insights that help them overcome similar challenges. Once during the next minute, each affected creature can choose to roll twice and take the better result before attempting an attack roll, ability check, skill check, or saving throw.\" useInc=cleric~4~8 useF=\"8~1~4\"}",
+			"::ab[Teaching Moment (Su)]{replace=\"The ‹‹#/unity›› power of the Community domain\" l=8 icon=aid-roll immediate=\"When you or an ally within 30 feet rolls a natural 1 or a natural 20 on an attack roll, an ability check, a skill check, or a saving throw, you can grant all allies within 30 feet special insights that help them overcome similar challenges. Once during the next minute, each affected creature can choose to roll twice and take the better result before attempting an attack roll, ability check, skill check, or saving throw.\" useInc=cleric~4~8 useF=\"8~1~4\"}",
 			"",
 			"::spelllist[Replacement Domain Spells]{from=domain l1=\"know the enemy\" l2=\"fox's cunning\" l6=\"battlemind link\" l8=\"circle of clarity\"}",
 			"",
@@ -500,7 +500,7 @@
 			"",
 			"::list[Associated Deities]{hl link=faith all=Alseta~Bergelmir~Bes~Daikitsu~Dretha~Elion~Erastil~Fandarra~Findeladlara~Folgrit~Ghenshau~Imbrex~Inma~Jiraviddain~Kurgess}",
 			"",
-			"::ab[Guarded Hearth (Su)]{replace=\"The ‹‹unity/#unity›› power of the Community domain\" l=8 icon=protect ability=\"You can create a ward that protects a specified area. Creating this ward takes 10 minutes of uninterrupted work. This ward has a maximum radius of 5 feet per 2 cleric levels you possess. When the ward is completed, you designate any number of creatures inside its area. Should any other creature enter the warded area, all of the selected creatures are immediately alerted (and awoken if they were asleep). The designated creatures also receive a sacred bonus equal to your Wisdom modifier on all saving throws and attack rolls while inside the warded area. This ward immediately ends if you leave the area. The ward lasts for 1 hour per cleric level.\" usage=\"Once a day\"}",
+			"::ab[Guarded Hearth (Su)]{replace=\"The ‹‹#/unity›› power of the Community domain\" l=8 icon=protect ability=\"You can create a ward that protects a specified area. Creating this ward takes 10 minutes of uninterrupted work. This ward has a maximum radius of 5 feet per 2 cleric levels you possess. When the ward is completed, you designate any number of creatures inside its area. Should any other creature enter the warded area, all of the selected creatures are immediately alerted (and awoken if they were asleep). The designated creatures also receive a sacred bonus equal to your Wisdom modifier on all saving throws and attack rolls while inside the warded area. This ward immediately ends if you leave the area. The ward lasts for 1 hour per cleric level.\" usage=\"Once a day\"}",
 			"",
 			"::spelllist[Replacement Domain Spells]{from=domain l1=alarm l3=\"glyph of warding\" l7=\"guards and wards\"}"
 		]
