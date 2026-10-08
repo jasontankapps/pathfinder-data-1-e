@@ -134,7 +134,7 @@ const _battle = {hasJL:true,title: "Battle", jsx: <><div className="jumpList" id
 <Pair single id="hampering-hex-su">Hampering Hex (Su)</Pair>
 <Pair title="Ability">The shaman causes a creature within 30 feet to take a -2 penalty to AC and CMD for a number of rounds equal to the shaman's level. A successful Will saving throw reduces this to just 1 round.</Pair>
 <Pair title="At 8th Level">The penalty becomes -4.</Pair>
-<Pair title="Special">Whether or not the save is successful, a creature affected by a hampering hex cannot be the target of this hex again for 24 hours.</Pair>
+<Pair title="Special">Whether or not the save is successful, a creature affected by a <em>hampering hex</em> cannot be the target of this hex again for 24 hours.</Pair>
 </Ability>
 <h3 id="shamanspirit-battle-spirit-animal" data-hash-target>Spirit Animal</h3>
 <Ability id="spirit-animal" icon={["def"]}>
@@ -912,189 +912,569 @@ const _nature = {hasJL:true,title: "Nature", jsx: <><div className="jumpList" id
 <Pair title="Special">Each time the transformation is made, the shaman is cleansed of all poisons or diseases, restored to full hit points, and healed of all ability damage.</Pair>
 </Ability>
 </>};
-const _restoration = {title: "Restoration", jsx: <><h2 id="shamanspirit-restoration-restoration-life">Restoration (Life)</h2>
+const _restoration = {hasJL:true,title: "Restoration", jsx: <><div className="jumpList" id="shamanspirit-restoration-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="shamanspirit-restoration-hexes">Hexes</InnerLink></li><li><InnerLink toTop to="shamanspirit-restoration-spirit-animal">Spirit Animal</InnerLink></li><li><InnerLink toTop to="shamanspirit-restoration-spirit-ability">Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-restoration-greater-spirit-ability">Greater Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-restoration-true-spirit-ability">True Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-restoration-manifestation">Manifestation</InnerLink></li></ul></div><h2 id="shamanspirit-restoration-restoration-life">Restoration (Life)</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 41</Link>, <Link to="/source/healers_handbook">Healer's Handbook pg. 27</Link></p>
-<p><strong>Associated Spirit:</strong> <Link to="/shamanspirit/life">Life</Link></p>
+<p><strong className="hl">Associated Spirit:</strong> <Link to="/shamanspirit/life">Life</Link></p>
 <p>A shaman who selects the life spirit appears more vibrant than most mortals. Her skin seems to glow, and her teeth are a pearly white. When she calls upon one of this spirit's abilities, her eyes and hair shimmer in the light.</p>
-<p><strong>Spirit Magic Spells:</strong> <Link to="/spell/remove_sickness">remove sickness</Link> (1st), <Link to="/spell/lesser_restoration">lesser restoration</Link> (2nd), <Link to="/spell/neutralize_poison">neutralize poison</Link> (3rd), <Link to="/spell/restoration">restoration</Link> (4th), <Link to="/spell/breath_of_life">breath of life</Link> (5th), <Link to="/spell/heal">heal</Link> (6th), <Link to="/spell/greater_restoration">greater restoration</Link> (7th), <Link to="/spell/mass_heal">mass heal</Link> (8th), <Link to="/spell/true_resurrection">true resurrection</Link> (9th)</p>
-<p><strong>Hexes:</strong> A shaman who chooses the Restoration spirit specialization can select from the following hexes.</p>
-<blockquote>
-<p><strong>Enhanced Cures (Su):</strong> When the shaman casts a <Link to="/main/cure_spells">cure spell</Link>, the maximum number of hit points healed is based on her shaman level, not the limit imposed by the spell. For example an 11th-level shaman with this hex can cast <Link to="/spell/cure_light_wounds">cure light wounds</Link> to heal 1d8+11 hit points instead of the normal 1d8+5 maximum.</p>
-<p><strong>Life Link (Su):</strong> The shaman creates a bond between herself and another creature within 30 feet. Each round at the start of the shaman's turn, if the bonded creature is wounded for 5 or more hit points below its maximum hit points, it heals 5 hit points and the shaman takes 5 points of damage. The shaman can have one bond active per shaman level. The bond continues until the bonded creature dies, the shaman dies, the distance between her and the bonded creature exceeds 100 feet, or the shaman ends it as an immediate action. If the shaman has multiple bonds active, she can end as many as she wants with the same immediate action.</p>
-<p><strong>Life Sight (Ex):</strong> The shaman can see the states of life, death, and general health of those around her. When she uses this ability, she can tell whether or not creatures within 30 feet of her that she can see are living, wounded, dying, or dead. She can also tell if those creatures are confused, disabled, diseased, nauseated, poisoned sickened or staggered. At 12th level, when using life sight she is able to sense all nearby living creatures; this functions similar to <Link to="/umr/blindsight">blindsight</Link>, but only for living creatures within 30 feet of her. The shaman can use this ability a number of rounds per day equal to her shaman level, but these rounds do not need to consecutive.</p>
-<p><strong>Shell of Succor (Su):</strong> The shaman surrounds one touched creature with a ward of succoring energy, granting the target a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to her Wisdom bonus + an additional 1d6 temporary hit points per 2 shaman levels she has (maximum 10d6). These temporary hit points last a number of minutes equal to the shaman's level.</p>
-<p>The target always loses these temporary hit points first, even before other temporary hit points (including those from a <Link to="/class/kineticist">kineticist's</Link> <Link to="/kinetic/force_ward">force ward</Link> defense wild talent). If an attack deals fewer points of damage than the target's temporary hit points from this shell of succor ability, it still reduces those temporary hit points but otherwise counts as a miss for the purpose of abilities that trigger on a hit or a miss. The shaman can use this hex a number of times per day equal to 1 + her Charisma bonus.</p>
-<p><strong>Spirit Boost (Su):</strong> Whenever the shaman casts a healing spell that heals a target up to its maximum hit points, any excess hit points persist for 1 round per shaman level as temporary hit points (up to a maximum number of temporary hit points equal to the shaman's level).</p>
-</blockquote>
-<p><strong>Spirit Animal:</strong> The shaman's spirit animal appears to be a beautiful and very healthy version of its species, and seems especially vibrant and full of life. Her animal companion gains <Link to="/umr/fast_healing">fast healing</Link> 1; if the spirit animal already has fast healing, instead its fast healing increases by 1.</p>
-<p><strong>Spirit Ability:</strong> A shaman who chooses the Restoration spirit specialization as her spirit or wandering spirit gains the following ability.</p>
-<blockquote>
-<p><strong>Channel (Su):</strong> The shaman can <Link to="/ability/channel_positive_energy">channel positive energy</Link> like a cleric, using her shaman level as her effective cleric level when determining the amount of damage healed (or dealt to undead) and the DC. The shaman can use this ability a number of times per day equal to 1 + her Charisma modifier.</p>
-</blockquote>
-<p><strong>Greater Spirit Ability:</strong> A shaman who chooses the Restoration spirit specialization as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>
-<blockquote>
-<p><strong>Healer's Touch (Su):</strong> The shaman gains a +4 bonus on Heal checks. As a standard action, the shaman can move up to half her speed and touch up to six dying creatures. Each creature is automatically <Link to="/misc/stabilize">stabilized</Link> without the need of a Heal check.</p>
-</blockquote>
-<p><strong>True Spirit Ability:</strong> A shaman who chooses the Restoration spirit specialization as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>
-<blockquote>
-<p><strong>Spirit of Life (Su):</strong> The shaman's spirit animal transforms into a conduit of life energy able to store succoring magic that can keep the shaman's allies safe. This allows the spirit animal to cast <Link to="/spell/stabilize">stabilize</Link> as a spell-like ability at will using the shaman's level as the spell's caster level. In addition, the shaman can transfer any <Link to="/main/cure_spells">cure spell</Link> (a spell with "cure" in its name) she casts to her spirit animal as a swift action, provided that the spirit animal is within 30 feet of her. This functions like <Link to="/spell/imbue_with_spell_ability">imbue with spell ability</Link>, except a spirit animal can be imbued with a cure spell of any spell level that its master can cast regardless of the spirit animal's Intelligence or Wisdom score. The spirit animal can hold the spell indefinitely, but the shaman cannot prepare a new spell in the imbued spell's spell slot until her spirit animal uses the spell or it is slain, or until she dismisses the <em>imbue with spell ability</em> effect (a free action). A spirit animal can be imbued with only one spell at a time in this manner. If the spirit animal is slain while it is imbued with a cure spell, that spell is lost.</p>
-</blockquote>
-<p><strong>Manifestation:</strong> Upon reaching 20th level, the shaman becomes a perfect channel for life energy. She gains immunity to bleed, death attacks, and negative energy, as well as to the exhausted, fatigued, nauseated, and sickened conditions. Ability damage and drain cannot reduce her to below 1 in any ability score. She automatically succeeds at saving throws against massive damage. When she is reduced to below 0 hit points, she doesn't die until her negative hit point total exceeds double her Constitution score.</p>
+<Ability id="spirit-magic-spells" icon={["learn"]}>
+<Pair single id="spirit-magic-spells">Spirit Magic Spells</Pair>
+<Pair title="Info">The shaman gains these spells at the listed spell levels.</Pair>
+<Pair plain title="1st"><Link to="/spell/remove_sickness">Remove sickness</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/lesser_restoration">Lesser restoration</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/neutralize_poison">Neutralize poison</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/restoration">Restoration</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/breath_of_life">Breath of life</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/heal">Heal</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/greater_restoration">Greater restoration</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/mass_heal">Mass heal</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/true_resurrection">True resurrection</Link></Pair>
+</Ability>
+<h3 id="shamanspirit-restoration-hexes" data-hash-target>Hexes</h3>
+<p>A shaman who chooses the Restoration spirit specialization can select from the following hexes.</p>
+<Ability id="enhanced-cures-su" icon={["boost"]}>
+<Pair single id="enhanced-cures-su">Enhanced Cures (Su)</Pair>
+<Pair title="Passive Ability">When the shaman casts a <Link to="/main/cure_spells">cure spell</Link>, the maximum number of hit points healed is based on her shaman level, not the limit imposed by the spell. For example an 11th-level shaman with this hex can cast <Link to="/spell/cure_light_wounds">cure light wounds</Link> to heal 1d8+11 hit points instead of the normal 1d8+5 maximum.</Pair>
+</Ability>
+<Ability id="life-link-su" icon={["aid","protect"]}>
+<Pair single id="life-link-su">Life Link (Su)</Pair>
+<Pair title="Ability">The shaman creates a bond between herself and another creature within 30 feet. Each round at the start of the shaman's turn, if the bonded creature is wounded for 5 or more hit points below its maximum hit points, it heals 5 hit points and the shaman takes 5 points of damage.</Pair>
+<Pair title="Special">The shaman can have one bond active per shaman level. The bond continues until the bonded creature dies, the shaman dies, the distance between her and the bonded creature exceeds 100 feet, or the shaman ends it as an <strong className="hl">immediate action</strong>. If the shaman has multiple bonds active, she can end as many as she wants with the same immediate action.</Pair>
+</Ability>
+<Ability id="life-sight-ex" icon={["power"]}>
+<Pair single id="life-sight-ex" flavor="The shaman can see the states of life, death, and general health of those around her.">Life Sight (Ex)</Pair>
+<Pair title="Usage">1 round/day per shaman level; these rounds need not be consecutive</Pair>
+<Pair title="Ability">When she uses this ability, she can tell whether or not creatures within 30 feet of her that she can see are living, wounded, dying, or dead. She can also tell if those creatures are confused, disabled, diseased, nauseated, poisoned, sickened or staggered.</Pair>
+<Pair title="At 12th Level">When using <em>life sight</em> she is able to sense all nearby living creatures; this functions similar to <Link to="/umr/blindsight">blindsight</Link>, but only for living creatures within 30 feet of her.</Pair>
+</Ability>
+<Ability id="shell-of-succor-su" icon={["protect"]}>
+<Pair single id="shell-of-succor-su">Shell of Succor (Su)</Pair>
+<Pair title="Usage">1 + Charisma modifier times/day</Pair>
+<Pair title="Ability">The shaman surrounds one touched creature with a ward of succoring energy, granting the target a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to her Wisdom bonus + an additional 1d6 temporary hit points per 2 shaman levels she has (maximum 10d6). These temporary hit points last a number of minutes equal to the shaman's level. The target always loses these temporary hit points first, even before other temporary hit points (including those from a <Link to="/class/kineticist">kineticist's</Link> <Link to="/kinetic/force_ward">force ward</Link> defense wild talent).</Pair>
+<Pair title="Special">If an attack deals fewer points of damage than the target's temporary hit points from this <em>shell of succor</em> ability, it still reduces those temporary hit points but otherwise counts as a miss for the purpose of abilities that trigger on a hit or a miss.</Pair>
+</Ability>
+<Ability id="spirit-boost-su" icon={["aid"]}>
+<Pair single id="spirit-boost-su">Spirit Boost (Su)</Pair>
+<Pair title="Passive Ability">Whenever the shaman casts a healing spell that heals a target up to its maximum hit points, any excess hit points persist for 1 round per shaman level as temporary hit points (up to a maximum number of temporary hit points equal to the shaman's level).</Pair>
+</Ability>
+<h3 id="shamanspirit-restoration-spirit-animal" data-hash-target>Spirit Animal</h3>
+<Ability id="spirit-animal" icon={["def"]}>
+<Pair single id="spirit-animal" flavor="The shaman's spirit animal appears to be a beautiful and very healthy version of its species, and seems especially vibrant and full of life.">Spirit Animal</Pair>
+<Pair title="Ability">Her animal companion gains <Link to="/umr/fast_healing">fast healing</Link> 1; if the spirit animal already has fast healing, instead its fast healing increases by 1.</Pair>
+</Ability>
+<h3 id="shamanspirit-restoration-spirit-ability" data-hash-target>Spirit Ability</h3>
+<p>A shaman who chooses the Restoration spirit specialization as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability.</p>
+<Ability id="channel-su" icon={["power","aura"]}>
+<Pair single id="channel-su">Channel (Su)</Pair>
+<Pair title="Usage">1 + Charisma modifier times/day</Pair>
+<Pair title="Ability">The shaman can <Link to="/ability/channel_positive_energy">channel positive energy</Link> like a cleric, using her shaman level as her effective cleric level when determining the amount of damage healed (or dealt to undead) and the DC.</Pair>
+</Ability>
+<h3 id="shamanspirit-restoration-greater-spirit-ability" data-hash-target>Greater Spirit Ability</h3>
+<p>A shaman who chooses the Restoration spirit specialization as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability upon having access to the greater version of that spirit.</p>
+<Ability id="healers-touch-su" icon={["boost","protect"]}>
+<Pair single id="healers-touch-su">Healer's Touch (Su)</Pair>
+<Pair title="Passive Ability">The shaman gains a +4 bonus on Heal checks.</Pair>
+<Pair title="Standard Action">The shaman can move up to half her speed and touch up to six dying creatures. Each creature is automatically <Link to="/misc/stabilize">stabilized</Link> without the need of a Heal check.</Pair>
+</Ability>
+<h3 id="shamanspirit-restoration-true-spirit-ability" data-hash-target>True Spirit Ability</h3>
+<p>A shaman who chooses the Restoration spirit specialization as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability upon having access to the true version of that spirit.</p>
+<Ability id="spirit-of-life-su" icon={["magic"]}>
+<Pair single id="spirit-of-life-su" flavor="The shaman's spirit animal transforms into a conduit of life energy able to store succoring magic that can keep the shaman's allies safe.">Spirit of Life (Su)</Pair>
+<Pair title="Ability">The spirit animal can cast <Link to="/spell/stabilize">stabilize</Link> as a spell-like ability at will using the shaman's level as the spell's caster level.</Pair>
+<Pair title="Swift Action"><p>In addition, the shaman can transfer any <Link to="/main/cure_spells">cure spell</Link> (a spell with "cure" in its name) she casts to her spirit animal, provided that the spirit animal is within 30 feet of her. This functions like <Link to="/spell/imbue_with_spell_ability">imbue with spell ability</Link>, except a spirit animal can be imbued with a <em>cure</em> spell of any spell level that its master can cast regardless of the spirit animal's Intelligence or Wisdom score. The spirit animal can hold the spell indefinitely, but the shaman cannot prepare a new spell in the imbued spell's spell slot until her spirit animal uses the spell or it is slain, or until she dismisses the <em>imbue with spell ability</em> effect (a <strong className="hl">free action</strong>).</p>
+<p>A spirit animal can be imbued with only one spell at a time in this manner. If the spirit animal is slain while it is imbued with a <em>cure</em> spell, that spell is lost.</p>
+</Pair>
+</Ability>
+<h3 id="shamanspirit-restoration-manifestation" data-hash-target>Manifestation</h3>
+<Ability id="manifestation" icon={["def"]}>
+<Pair single id="manifestation" flavor="The shaman becomes a perfect channel for life energy.">Manifestation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">She gains immunity to bleed, death attacks, and negative energy, as well as to the exhausted, fatigued, nauseated, and sickened conditions. Ability damage and drain cannot reduce her to below 1 in any ability score. She automatically succeeds at saving throws against massive damage. When she is reduced to below 0 hit points, she doesn't die until her negative hit point total exceeds double her Constitution score.</Pair>
+</Ability>
 </>};
-const _slums = {title: "Slums", jsx: <><h2 id="shamanspirit-slums-slums">Slums</h2>
+const _slums = {hasJL:true,title: "Slums", jsx: <><div className="jumpList" id="shamanspirit-slums-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="shamanspirit-slums-hexes">Hexes</InnerLink></li><li><InnerLink toTop to="shamanspirit-slums-spirit-animal">Spirit Animal</InnerLink></li><li><InnerLink toTop to="shamanspirit-slums-spirit-ability">Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-slums-greater-spirit-ability">Greater Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-slums-true-spirit-ability">True Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-slums-manifestation">Manifestation</InnerLink></li></ul></div><h2 id="shamanspirit-slums-slums">Slums</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 21</Link><br/>A shaman who selects the slums spirit gains the city's alleys and avenues as steadfast allies. The rats in the gutter, the torches along the walls, the coins that flow through the market are all a part of her and serve her whim.</p>
-<p><strong>Spirit Magic Spells:</strong> <Link to="/spell/charm_person">charm person</Link> (1st), <Link to="/spell/summon_swarm">summon swarm</Link> (2nd), <Link to="/spell/hold_person">hold person</Link> (3rd), <Link to="/spell/confusion">confusion</Link> (4th), <Link to="/spell/wall_of_stone">wall of stone</Link> (5th), <Link to="/spell/mislead">mislead</Link> (6th), <Link to="/spell/mass_hold_person">mass hold person</Link> (7th), <Link to="/spell/maze">maze</Link> (8th), <Link to="/spell/imprisonment">imprisonment</Link> (9th)</p>
-<p><strong>Hexes:</strong> A shaman who chooses the Slums spirit can select from the following hexes.</p>
-<blockquote>
-<p><strong>Accident (Su):</strong> The shaman causes a target within 30 feet to stumble and fall. The shaman attempts a caster level check with a DC equal to the target's CMD against trip attempts. On a successful check, the target falls prone and takes 1d6 points of damage. If the target is adjacent to a pit or similar drop-off, he must also succeed at a Reflex save (with a DC equal to the shaman's caster level check) or fall into the pit. Observers must succeed at a Perception or Sense Motive check with a DC equal to the shaman's caster level check to identify her as the source of the accident.</p>
-<p><strong>Bad Penny (Su):</strong> As a standard action, the shaman can curse a coin. The next bearer of the cursed coin takes a -2 penalty on all saving throws and skill checks as long he has the coin on his person. Once the coin leaves his person, the curse ends and the coin becomes a mundane piece of tender again. At 8th level, the penalty becomes -4. If the shaman curses a new coin, the previous curse ends. This is a curse effect.</p>
-<p><strong>City Spirit (Su):</strong> As a swift action, the shaman channels the city's spirit through herself, gaining a +4 bonus on all Dexterity- and Wisdom-based skill checks. She can use this ability for a number of rounds per day equal to 3 + her Charisma modifier. These rounds need not be consecutive.</p>
-<p><strong>Ward of the City (Su):</strong> The spirit of the city shrouds one creature the shaman touches from the hazards of the slums. The warded creature gains a +5 bonus on saves against disease and poison, and a +25% bonus on percentage chances to negate critical hits and sneak attacks. (This stacks with effects such as fortification, or abilities that grant a creature with no chance to negate critical hits a flat 25% chance.) Each time the ward is used (whether the roll is successful or not), the bonuses are reduced by 1 and 5%, respectively. The ward ends when the bonuses are reduced to 0, when the shaman wards a new creature, or after 24 hours, whichever comes first. At 8th level and 16th level, the ward's starting bonuses increase by 2 and 10%, respectively. A creature affected by this hex cannot be affected by it again for 24 hours.</p>
-</blockquote>
-<p><strong>Spirit Animal:</strong> The shaman's spirit animal looks like a leaner version of its species, with hungry eyes and a wiry frame. It gains a +4 bonus on initiative checks.</p>
-<p><strong>Spirit Ability:</strong> A shaman who chooses the Slums spirit as her spirit or wandering spirit gains the following ability.</p>
-<blockquote>
-<p><strong>Doors to Everywhere (Ex):</strong> As a standard action, the shaman can step through any door and instantly exit through another distant doorway. Regardless of what spell this functions as, it can transport only you, and both your departure and arrival spaces must be adjacent to a door or similar opening. Initially, this functions as per <Link to="/spell/jesters_jaunt">jester's jaunt</Link>. At 9th level, the shaman can use this ability as per <Link to="/spell/dimension_door">dimension door</Link>. At 14th level, the shaman can use this ability as per <Link to="/spell/tree_stride">tree stride</Link> (treating all doors as generic coniferous trees). You can use this ability three times per day, plus one additional time per day at 12th level and at 20th level.</p>
-</blockquote>
-<p><strong>Greater Spirit Ability:</strong> A shaman who chooses the Slums spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>
-<blockquote>
-<p><strong>City's Shroud (Su):</strong> When in an urban environment, the shaman blends into the streets around her, making her difficult to pin down. She gains the <Link to="/ability/evasion">evasion</Link> and <Link to="/ability/improved_uncanny_dodge">improved uncanny dodge</Link> class features.</p>
-</blockquote>
-<p><strong>True Spirit Ability:</strong> A shaman who chooses the Slums spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>
-<blockquote>
-<p><strong>Paragon of the City (Su):</strong> As a standard action, the shaman assumes a spirit-infused paragon form that makes her a lethal stalker of the alleys and shadows. She gains the ability to make sneak attacks as a <Link to="/class/rogue">rogue</Link> of her shaman level for 1 minute or until dismissed. She can use this ability a number of times per day equal to 3 + her Charisma modifier.</p>
-</blockquote>
-<p><strong>Manifestation:</strong> Upon reaching 20th level, the shaman becomes a spirit of the slums. She is immune to all diseases and poisons. When in an urban environment, she gains a +4 insight bonus to her AC and on Reflex saves.</p>
+<Ability id="spirit-magic-spells" icon={["learn"]}>
+<Pair single id="spirit-magic-spells">Spirit Magic Spells</Pair>
+<Pair title="Info">The shaman gains these spells at the listed spell levels.</Pair>
+<Pair plain title="1st"><Link to="/spell/charm_person">Charm person</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/summon_swarm">Summon swarm</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/hold_person">Hold person</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/confusion">Confusion</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/wall_of_stone">Wall of stone</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/mislead">Mislead</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/mass_hold_person">Mass hold person</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/maze">Maze</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/imprisonment">Imprisonment</Link></Pair>
+</Ability>
+<h3 id="shamanspirit-slums-hexes" data-hash-target>Hexes</h3>
+<p>A shaman who chooses the Slums spirit can select from the following hexes.</p>
+<Ability id="accident-su" icon={["lower"]}>
+<Pair single id="accident-su">Accident (Su)</Pair>
+<Pair title="Ability">The shaman causes a target within 30 feet to stumble and fall. The shaman attempts a caster level check with a DC equal to the target's CMD against <Link to="/rule/trip">trip</Link> attempts. On a successful check, the target falls <Link to="/rule/prone">prone</Link> and takes 1d6 points of damage. If the target is adjacent to a pit or similar drop-off, he must also succeed at a Reflex save (with a DC equal to the shaman's caster level check) or fall into the pit. Observers must succeed at a <Link to="/skill/perception">Perception</Link> or <Link to="/skill/sense_motive">Sense Motive</Link> check with a DC equal to the shaman's caster level check to identify her as the source of the accident.</Pair>
+</Ability>
+<Ability id="bad-penny-su" icon={["lower"]}>
+<Pair single id="bad-penny-su">Bad Penny (Su)</Pair>
+<Pair title="Standard Action">The shaman can curse a coin. The next bearer of the cursed coin takes a -2 penalty on all saving throws and skill checks as long he has the coin on his person. Once the coin leaves his person, the curse ends and the coin becomes a mundane piece of tender again.</Pair>
+<Pair title="At 8th Level">The penalty becomes -4.</Pair>
+<Pair title="Special">If the shaman curses a new coin, the previous curse ends. This is a curse effect.</Pair>
+</Ability>
+<Ability id="city-spirit-su" icon={["boost"]}>
+<Pair single id="city-spirit-su">City Spirit (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier rounds/day; these rounds need not be consecutive</Pair>
+<Pair title="Swift Action">The shaman channels the city's spirit through herself, gaining a +4 bonus on all Dexterity- and Wisdom-based skill checks.</Pair>
+</Ability>
+<Ability id="ward-of-the-city-su" icon={["protect"]}>
+<Pair single id="ward-of-the-city-su">Ward of the City (Su)</Pair>
+<Pair title="Ability">The spirit of the city shrouds one creature the shaman touches from the hazards of the slums. The warded creature gains a +5 bonus on saves against disease and poison, and a +25% bonus on percentage chances to negate critical hits and sneak attacks. (This stacks with effects such as <Link to="/magic-enh/fortification">fortification</Link>, or abilities that grant a creature with no chance to negate critical hits a flat 25% chance.)</Pair>
+<Pair title="At 8th Level">The bonuses increase to +7 and the percentage change increases to 35%.</Pair>
+<Pair title="At 16th Level">The bonuses become +9 and the percentage chance becomes 45%.</Pair>
+<Pair title="Special">Each time the <em>ward</em> is used (whether the roll is successful or not), the bonuses are reduced by 1 and 5%, respectively. The <em>ward</em> ends when the bonuses are reduced to 0, when the shaman wards a new creature, or after 24 hours, whichever comes first. A creature affected by this hex cannot be affected by it again for 24 hours.</Pair>
+</Ability>
+<h3 id="shamanspirit-slums-spirit-animal" data-hash-target>Spirit Animal</h3>
+<Ability id="spirit-animal" icon={["boost"]}>
+<Pair single id="spirit-animal" flavor="The shaman's spirit animal looks like a leaner version of its species, with hungry eyes and a wiry frame.">Spirit Animal</Pair>
+<Pair title="Passive Ability">It gains a +4 bonus on initiative checks.</Pair>
+</Ability>
+<h3 id="shamanspirit-slums-spirit-ability" data-hash-target>Spirit Ability</h3>
+<p>A shaman who chooses the Slums spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability.</p>
+<Ability id="doors-to-everywhere-ex" icon={["magic"]}>
+<Pair single id="doors-to-everywhere-ex">Doors to Everywhere (Ex)</Pair>
+<Pair title="Usage">3 times/day + 1 per eight shaman levels beyond 4th<ByLevelPop levels={[[1,3],[12,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action">The shaman can step through any door and instantly exit through another distant doorway, as per <Link to="/spell/jesters_jaunt">jester's jaunt</Link>.</Pair>
+<Pair title="At 9th Level">The shaman can use this ability as per <Link to="/spell/dimension_door">dimension door</Link>.</Pair>
+<Pair title="At 14th Level">The shaman can use this ability as per <Link to="/spell/tree_stride">tree stride</Link> (treating all doors as generic coniferous trees).</Pair>
+<Pair title="Special">Regardless of what spell this functions as, it can transport only you, and both your departure and arrival spaces must be adjacent to a door or similar opening.</Pair>
+</Ability>
+<h3 id="shamanspirit-slums-greater-spirit-ability" data-hash-target>Greater Spirit Ability</h3>
+<p>A shaman who chooses the Slums spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability upon having access to the greater version of that spirit.</p>
+<Ability id="citys-shroud-su" icon={["def"]}>
+<Pair single id="citys-shroud-su" flavor="When in an urban environment, the shaman blends into the streets around her, making her difficult to pin down.">City's Shroud (Su)</Pair>
+<Pair title="Passive Ability">She gains the <Link to="/ability/evasion">evasion</Link> and <Link to="/ability/improved_uncanny_dodge">improved uncanny dodge</Link> class features.</Pair>
+</Ability>
+<h3 id="shamanspirit-slums-true-spirit-ability" data-hash-target>True Spirit Ability</h3>
+<p>A shaman who chooses the Slums spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability upon having access to the true version of that spirit.</p>
+<Ability id="paragon-of-the-city-su" icon={["power"]}>
+<Pair single id="paragon-of-the-city-su">Paragon of the City (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">The shaman assumes a spirit-infused paragon form that makes her a lethal stalker of the alleys and shadows. She gains the ability to make <Link to="/ability/sneak_attack">sneak attacks</Link> as a <Link to="/class/rogue">rogue</Link> of her shaman level for 1 minute or until dismissed.</Pair>
+</Ability>
+<h3 id="shamanspirit-slums-manifestation" data-hash-target>Manifestation</h3>
+<Ability id="manifestation" icon={["def"]}>
+<Pair single id="manifestation" flavor="The shaman becomes a spirit of the slums.">Manifestation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">She is immune to all diseases and poisons. When in an urban environment, she gains a +4 insight bonus to her AC and on Reflex saves.</Pair>
+</Ability>
 </>};
-const _stone = {title: "Stone", jsx: <><h2 id="shamanspirit-stone-stone">Stone</h2>
+const _stone = {hasJL:true,title: "Stone", jsx: <><div className="jumpList" id="shamanspirit-stone-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="shamanspirit-stone-hexes">Hexes</InnerLink></li><li><InnerLink toTop to="shamanspirit-stone-spirit-animal">Spirit Animal</InnerLink></li><li><InnerLink toTop to="shamanspirit-stone-spirit-ability">Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-stone-greater-spirit-ability">Greater Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-stone-true-spirit-ability">True Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-stone-manifestation">Manifestation</InnerLink></li></ul></div><h2 id="shamanspirit-stone-stone">Stone</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 45</Link><br/>The skin of a shaman who selects the stone spirit takes on a rough, stony appearance. When the shaman calls upon one of this spirit's abilities, tiny gemstones underneath her flesh pulse with a bright glow, like phosphorescent geodes glittering in a dark cave.</p>
-<p><strong>Spirit Magic Spells:</strong> <Link to="/spell/magic_stone">magic stone</Link> (1st), <Link to="/spell/stone_call">stone call</Link> (2nd), <Link to="/spell/meld_into_stone">meld into stone</Link> (3rd), <Link to="/spell/wall_of_stone">wall of stone</Link> (4th), <Link to="/spell/stoneskin">stoneskin</Link> (5th), <Link to="/spell/stone_tell">stone tell</Link> (6th), <Link to="/spell/statue">statue</Link> (7th), <Link to="/spell/repel_metal_or_stone">repel metal or stone</Link> (8th), <Link to="/spell/clashing_rocks">clashing rocks</Link> (9th)</p>
-<p><strong>Hexes:</strong> A shaman who chooses the Stone spirit can select from the following hexes.</p>
-<blockquote>
-<p><strong>Crystal Sight (Ex):</strong> The shaman sees through stone, earth, or sand as easily as if it were transparent crystal. Her gaze can penetrate a number of feet equal to her shaman level (or 1/12th this thickness of metal). The shaman can use this ability a number of rounds per day equal to her shaman level, but these rounds do not need to be consecutive.</p>
-<p><strong>Lodestone (Su):</strong> The shaman causes one creature within 30 feet to become heavy and lethargic. The creature is treated as if it were <Link to="/rule/carrying_capacity">carrying a medium load</Link>. If the creature is already carrying a medium load, it is instead treated as if it were carrying a heavy load. If the creature is carrying a heavy load, its maximum Dexterity bonus to AC is reduced to +0, it takes a -9 armor check penalty, and its movement is reduced to 5 feet. The effect lasts for a number of rounds equal to the shaman's level. A successful Will saving throw negates this effect. Whether or not the save is successful, the creature cannot be the target of this hex again for 24 hours.</p>
-<p><strong>Metal Curse (Su):</strong> The shaman causes a creature within 30 feet to become slightly magnetic until the end of the shaman's next turn. Whenever the creature is attacked with a melee or ranged weapon constructed primarily of metal, it takes a -2 penalty to AC. At 8th and 16th levels, the penalty increases by -2 and the duration extends by 1 round. Once affected, the creature cannot be the target of this hex again for 24 hours.</p>
-<p><strong>Stone Stability (Ex):</strong> The shaman receives a +4 bonus to her CMD when resisting bull rush or trip attempts as long as she is standing on the ground. At 5th level, the shaman receives <Link to="/feat/improved_trip">Improved Trip</Link> as a bonus feat. At 10th level, the shaman receives <Link to="/feat/greater_trip">Greater Trip</Link> as a bonus feat. The shaman does not need to meet the prerequisites of these feats.</p>
-<p><strong>Ward of Stone (Su):</strong> The shaman touches a willing creature (including herself) and grants a ward of stone. The next time the warded creature is struck with a melee attack, it is treated as if it has DR 5/adamantine. This ward lasts for 1 minute, after which it fades away if not already expended. At 8th and 16th levels, the ward lasts for one additional attack. A creature affected by this hex cannot be affected by it again for 24 hours.</p>
-</blockquote>
-<p><strong>Spirit Animal:</strong> The shaman's spirit animal looks as though it's made out of earth and stone, with tiny gemstones embedded in its flesh. The animal gains DR 5/adamantine.</p>
-<p><strong>Spirit Ability:</strong> A shaman who chooses the Stone spirit as her spirit or wandering spirit gains the following ability.</p>
-<blockquote>
-<p><strong>Touch of Acid (Su):</strong> As a standard action, the shaman can make a melee touch attack that deals 1d6 points of acid damage + 1 point for every 2 shaman levels she possesses. A shaman can use this ability a number of times per day equal to 3 + her Charisma modifier. At 11th level, any weapon she wields is treated as a <Link to="/magic-enh/corrosive">corrosive</Link> weapon.</p>
-</blockquote>
-<p><strong>Greater Spirit Ability:</strong> A shaman who chooses the Stone spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>
-<blockquote>
-<p><strong>Body of Earth (Su):</strong> The shaman gains DR 2/adamantine. This DR increases by 1 for every 4 levels beyond 8th the shaman possesses. In addition, as a standard action, she can cause jagged pieces of stone to explode from her body in a 10-foot-radius <Link to="/misc/burst">burst</Link>. This deals 1d6 points of piercing damage per 2 shaman levels she possesses. A successful Reflex saving throw halves this damage. The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.</p>
-</blockquote>
-<p><strong>True Spirit Ability:</strong> A shaman who chooses the Stone spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>
-<blockquote>
-<p><strong>Elemental Form (Su):</strong> As a standard action, the shaman assumes the form of a Huge (or smaller) earth elemental, as <Link to="/spell/elemental_body_iv">elemental body IV</Link> with a duration of 1 hour per level. The shaman can use this ability once per day.</p>
-</blockquote>
-<p><strong>Manifestation:</strong> Upon reaching 20th level, the shaman becomes a being of acid and earth. The shaman gains acid resistance 30. She can also apply any one of the following feats to any acid or earth spell she casts without increasing the spell's level or casting time: <Link to="/feat/enlarge_spell">Enlarge Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link>. She doesn't need to possess these feats to use this ability.</p>
+<Ability id="spirit-magic-spells" icon={["learn"]}>
+<Pair single id="spirit-magic-spells">Spirit Magic Spells</Pair>
+<Pair title="Info">The shaman gains these spells at the listed spell levels.</Pair>
+<Pair plain title="1st"><Link to="/spell/magic_stone">Magic stone</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/stone_call">Stone call</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/meld_into_stone">Meld into stone</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/wall_of_stone">Wall of stone</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/stoneskin">Stoneskin</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/stone_tell">Stone tell</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/statue">Statue</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/repel_metal_or_stone">Repel metal or stone</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/clashing_rocks">Clashing rocks</Link></Pair>
+</Ability>
+<h3 id="shamanspirit-stone-hexes" data-hash-target>Hexes</h3>
+<p>A shaman who chooses the Stone spirit can select from the following hexes.</p>
+<Ability id="crystal-sight-ex" icon={["power"]}>
+<Pair single id="crystal-sight-ex">Crystal Sight (Ex)</Pair>
+<Pair title="Usage">1 round/day per shaman level; these rounds need not be consecutive</Pair>
+<Pair title="Ability">The shaman sees through stone, earth, or sand as easily as if it were transparent crystal. Her gaze can penetrate a number of feet equal to her shaman level (or if seeing through metal, a number of inches equal to her shaman level).</Pair>
+</Ability>
+<Ability id="lodestone-su" icon={["lower"]}>
+<Pair single id="lodestone-su">Lodestone (Su)</Pair>
+<Pair title="Ability">The shaman causes one creature within 30 feet to become heavy and lethargic. The creature is treated as if it were <Link to="/rule/carrying_capacity">carrying a medium load</Link>. If the creature is already carrying a medium load, it is instead treated as if it were carrying a heavy load. If the creature is carrying a heavy load, its maximum Dexterity bonus to AC is reduced to +0, it takes a -9 armor check penalty, and its movement is reduced to 5 feet.</Pair>
+<Pair title="Special">The effect lasts for a number of rounds equal to the shaman's level. A successful Will saving throw negates this effect. Whether or not the save is successful, the creature cannot be the target of this hex again for 24 hours.</Pair>
+</Ability>
+<Ability id="metal-curse-su" icon={["lower"]}>
+<Pair single id="metal-curse-su">Metal Curse (Su)</Pair>
+<Pair title="Ability">The shaman causes a creature within 30 feet to become slightly magnetic until the end of the shaman's next turn. Whenever the creature is attacked with a melee or ranged weapon constructed primarily of metal, it takes a -2 penalty to AC.</Pair>
+<Pair title="At 8th Level">The penalty becomes -4 and it lasts for two rounds.</Pair>
+<Pair title="At 16th Level">The penalty increases to -6 and lasts for three rounds</Pair>
+<Pair title="Special">Once affected, the creature cannot be the target of this hex again for 24 hours.</Pair>
+</Ability>
+<Ability id="stone-stability-ex" icon={["def","power"]}>
+<Pair single id="stone-stability-ex">Stone Stability (Ex)</Pair>
+<Pair title="Passive Ability">The shaman receives a +4 bonus to her CMD when resisting bull rush or trip attempts as long as she is standing on the ground.</Pair>
+<Pair title="At 5th Level">The shaman receives <Link to="/feat/improved_trip">Improved Trip</Link> as a bonus feat.</Pair>
+<Pair title="At 10th Level">The shaman receives <Link to="/feat/greater_trip">Greater Trip</Link> as a bonus feat.</Pair>
+<Pair title="Special">The shaman does not need to meet the prerequisites of these feats.</Pair>
+</Ability>
+<Ability id="ward-of-stone-su" icon={["def","protect"]}>
+<Pair single id="ward-of-stone-su">Ward of Stone (Su)</Pair>
+<Pair title="Ability">The shaman touches a willing creature (including herself) and grants a <em>ward of stone.</em> The next time the warded creature is struck with a melee attack, it is treated as if it has DR 5/adamantine. This <em>ward</em> lasts for 1 minute, after which it fades away if not already expended.</Pair>
+<Pair title="At 8th Level">The <em>ward</em> persists through two attacks.</Pair>
+<Pair title="At 16th Level">The <em>ward</em> now lasts through three attacks.</Pair>
+<Pair title="Special">A creature affected by this hex cannot be affected by it again for 24 hours.</Pair>
+</Ability>
+<h3 id="shamanspirit-stone-spirit-animal" data-hash-target>Spirit Animal</h3>
+<Ability id="spirit-animal" icon={["def"]}>
+<Pair single id="spirit-animal" flavor="The shaman's spirit animal looks as though it's made out of earth and stone, with tiny gemstones embedded in its flesh.">Spirit Animal</Pair>
+<Pair title="Passive Ability">The animal gains DR 5/adamantine.</Pair>
+</Ability>
+<h3 id="shamanspirit-stone-spirit-ability" data-hash-target>Spirit Ability</h3>
+<p>A shaman who chooses the Stone spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability.</p>
+<Ability id="touch-of-acid-su" icon={["touch"]}>
+<Pair single id="touch-of-acid-su">Touch of Acid (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">The shaman can make a melee touch attack that deals an amount of acid damage equal to 1d6 + <Link to="/misc/half">half</Link> her shaman level.</Pair>
+<Pair title="At 11th Level">Any weapon she wields is treated as a <Link to="/magic-enh/corrosive">corrosive</Link> weapon.</Pair>
+</Ability>
+<h3 id="shamanspirit-stone-greater-spirit-ability" data-hash-target>Greater Spirit Ability</h3>
+<p>A shaman who chooses the Stone spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability upon having access to the greater version of that spirit.</p>
+<Ability id="body-of-earth-su" icon={["def","aura"]}>
+<Pair single id="body-of-earth-su">Body of Earth (Su)</Pair>
+<Pair title="Passive Ability">The shaman gains DR/adamantine equal to <Link to="/misc/one_fourth">one-fourth</Link> of her shaman level, minimum 2.</Pair>
+<Pair title="Standard Action"><p>In addition, she can cause jagged pieces of stone to explode from her body in a 10-foot-radius <Link to="/misc/burst">burst</Link>. This deals 1d6 points of piercing damage per 2 shaman levels she possesses. A successful Reflex saving throw halves this damage.</p>
+<p>The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.</p>
+</Pair>
+</Ability>
+<h3 id="shamanspirit-stone-true-spirit-ability" data-hash-target>True Spirit Ability</h3>
+<p>A shaman who chooses the Stone spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability upon having access to the true version of that spirit.</p>
+<Ability id="elemental-form-su" icon={["magic"]}>
+<Pair single id="elemental-form-su">Elemental Form (Su)</Pair>
+<Pair title="Usage">Once per day</Pair>
+<Pair title="Standard Action">The shaman assumes the form of a Huge (or smaller) earth elemental, as <Link to="/spell/elemental_body_iv">elemental body IV</Link> with a duration of 1 hour per level.</Pair>
+</Ability>
+<h3 id="shamanspirit-stone-manifestation" data-hash-target>Manifestation</h3>
+<Ability id="manifestation" icon={["def","power"]}>
+<Pair single id="manifestation" flavor="The shaman becomes a being of acid and earth.">Manifestation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">The shaman gains acid resistance 30.</Pair>
+<Pair title="Ability">She can also apply any one of the following feats to any acid or earth spell she casts without increasing the spell's level or casting time: <Link to="/feat/enlarge_spell">Enlarge Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link>. She doesn't need to possess these feats to use this ability.</Pair>
+</Ability>
 </>};
-const _tribe = {title: "Tribe", jsx: <><h2 id="shamanspirit-tribe-tribe">Tribe</h2>
+const _tribe = {hasJL:true,title: "Tribe", jsx: <><div className="jumpList" id="shamanspirit-tribe-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="shamanspirit-tribe-hexes">Hexes</InnerLink></li><li><InnerLink toTop to="shamanspirit-tribe-spirit-animal">Spirit Animal</InnerLink></li><li><InnerLink toTop to="shamanspirit-tribe-spirit-ability">Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-tribe-greater-spirit-ability">Greater Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-tribe-true-spirit-ability">True Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-tribe-manifestation">Manifestation</InnerLink></li></ul></div><h2 id="shamanspirit-tribe-tribe">Tribe</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 24</Link><br/>A shaman who selects the tribe spirit strives to protect her allies, whether they be a traditional tribal unit or a chosen group of adventuring companions.</p>
-<p><strong>Spirit Magic Spells:</strong> <Link to="/spell/bless">bless</Link> (1st), <Link to="/spell/shield_other">shield other</Link> (2nd), <Link to="/spell/create_food_and_water">create food and water</Link> (3rd), <Link to="/spell/spiritual_ally">spiritual ally</Link> (4th), <Link to="/spell/life_bubble">life bubble</Link> (5th), <Link to="/spell/battlemind_link">battlemind link</Link> (6th), <Link to="/spell/vision">vision</Link> (7th), <Link to="/spell/discern_location">discern location</Link> (8th), <Link to="/spell/mass_heal">mass heal</Link> (9th).</p>
-<p><strong>Hexes:</strong> A shaman who chooses the Tribe spirit can select from the following hexes.</p>
-<blockquote>
-<p><strong>Curse of Faltering (Su):</strong> As an immediate action when an enemy within 30 feet threatens a critical hit, the shaman can force the creature to reroll its original attack roll with a penalty equal to the shaman's Charisma modifier. The target can attempt a Will save to negate this ability. Whether or not the save is successful, the creature cannot be the target of this hex again for 24 hours. This is a curse effect.</p>
-<p><strong>Curse of Isolation (Ex):</strong> The shaman makes an enemy within 30 feet keenly feel its status outside the tribe. For a number of rounds equal to the shaman's level, the target gains no benefit from <Link to="/rule/flanking">flanking</Link> or the <Link to="/rule/aid_another_2">aid another</Link> action, and it doesn't benefit from morale bonuses. The target can attempt a Will save to negate this ability. Whether or not the save is successful, the creature cannot be the target of this hex again for 24 hours. This is a curse effect.</p>
-<p><strong>Steadfast Example (Su):</strong> The shaman touches a willing creature and bolsters its mental and emotional defenses. The next time the target attempts a Will saving throw, the subject can use the shaman's Will saving throw bonus instead of his own. The shaman can have only one creature under the effect of this hex at a time, and a creature affected by this hex cannot be affected by it again for 24 hours.</p>
-<p><strong>Threatening Coordination Hex (Su):</strong> The shaman causes a creature within 30 feet to view the shaman's allies as obstacles. The target treats squares adjacent to the shaman's allies as <Link to="/rule/difficult_terrain">difficult terrain</Link> for a number of rounds equal to the shaman's level, or for 1 round if the target succeeds at a Will saving throw. Whether or not the save is successful, a creature affected by this hex cannot be the target of it again for 24 hours.</p>
-<p><strong>Touch of Succor (Su):</strong> The shaman can touch a willing creature as a standard action to remove one of the following conditions: fatigued, shaken, or sickened. At 8th level, she adds confused and frightened to the list of conditions she can remove. At 12th level, she also adds dazed, nauseated, and panicked. The shaman can use this ability a number of times per day equal to her shaman level.</p>
-</blockquote>
-<p><strong>Spirit Animal:</strong> The shaman's spirit animal has colorations or markings that resemble a totem or important symbol for the shaman's tribe. When the spirit animal successfully performs the aid another action, the bonus it provides increases by 1.</p>
-<p><strong>Spirit Ability:</strong> A shaman who chooses the Tribe spirit as her spirit or wandering spirit gains the following ability.</p>
-<blockquote>
-<p><strong>Tribal Cooperation (Su):</strong> The shaman gains a <Link to="/main/teamwork_feat">teamwork feat</Link> as a bonus feat. She must meet the feat's prerequisites. As a standard action, the shaman can grant one of her teamwork feats to all allies within 30 feet who can see and hear her. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every 2 levels the shaman has. Allies do not need to meet the prerequisites of this bonus feat. The shaman can use this ability a number of times per day equal to 3 + her Charisma modifier.</p>
-</blockquote>
-<p><strong>Greater Spirit Ability:</strong> A shaman who chooses the Tribe spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>
-<blockquote>
-<p><strong>Tribal Bond (Sp):</strong> The shaman and her tribe share a transcendent bond. Once per day when she communes with her spirit animal to regain spells, the shaman can select a number of creatures equal to half her shaman level to serve as her honorary tribe. These creatures can constantly communicate with each other, as <Link to="/spell/telepathic_bond">telepathic bond</Link>.</p>
-</blockquote>
-<p><strong>True Spirit Ability:</strong> A shaman who chooses the Tribe spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>
-<blockquote>
-<p><strong>Guardian of the Tribe (Su):</strong> The shaman can cast a harmless spell with a range of touch on a member of her tribal bond as long as that creature is within 30 feet. The shaman can use this ability a number of times per day equal to her Charisma modifier (minimum 1). In addition, she is constantly aware of the condition of all members of her tribal bond ability, as <Link to="/spell/status">status</Link>.</p>
-</blockquote>
-<p><strong>Manifestation:</strong> Upon reaching 20th level, the shaman embodies the strength and unity of her tribe. She gains a bonus on all of her saving throws equal to her Charisma modifier and becomes immune to <Link to="/spelldef/compulsion">compulsion</Link> spells and spell-like abilities. Once per day as a standard action, she can attempt to revive a creature connected to her by her tribal bond ability who has died within 1 round as <Link to="/spell/breath_of_life">breath of life</Link>, except that the spell can be cast at any range as long as the target is on the same plane, and the target regains a number of hit points equal to 10 &times; the shaman's level (maximum 200).</p>
+<Ability id="spirit-magic-spells" icon={["learn"]}>
+<Pair single id="spirit-magic-spells">Spirit Magic Spells</Pair>
+<Pair title="Info">The shaman gains these spells at the listed spell levels.</Pair>
+<Pair plain title="1st"><Link to="/spell/bless">Bless</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/shield_other">Shield other</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/create_food_and_water">Create food and water</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/spiritual_ally">Spiritual ally</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/life_bubble">Life bubble</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/battlemind_link">Battlemind link</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/vision">Vision</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/discern_location">Discern location</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/mass_heal">Mass heal</Link></Pair>
+</Ability>
+<h3 id="shamanspirit-tribe-hexes" data-hash-target>Hexes</h3>
+<p>A shaman who chooses the Tribe spirit can select from the following hexes.</p>
+<Ability id="curse-of-faltering-su" icon={["roll","lower"]}>
+<Pair single id="curse-of-faltering-su">Curse of Faltering (Su)</Pair>
+<Pair title="Immediate Action">When an enemy within 30 feet threatens a critical hit, the shaman can force the creature to reroll its original attack roll with a penalty equal to the shaman's Charisma modifier. The target can attempt a Will save to negate this ability.</Pair>
+<Pair title="Special">Whether or not the save is successful, the creature cannot be the target of this hex again for 24 hours. This is a curse effect.</Pair>
+</Ability>
+<Ability id="curse-of-isolation-ex" icon={["lower"]}>
+<Pair single id="curse-of-isolation-ex">Curse of Isolation (Ex)</Pair>
+<Pair title="Ability">The shaman makes an enemy within 30 feet keenly feel its status outside the tribe. For a number of rounds equal to the shaman's level, the target gains no benefit from <Link to="/rule/flanking">flanking</Link> or the <Link to="/rule/aid_another_2">aid another</Link> action, and it doesn't benefit from morale bonuses. The target can attempt a Will save to negate this ability.</Pair>
+<Pair title="Special">Whether or not the save is successful, the creature cannot be the target of this hex again for 24 hours. This is a curse effect.</Pair>
+</Ability>
+<Ability id="steadfast-example-su" icon={["protect"]}>
+<Pair single id="steadfast-example-su">Steadfast Example (Su)</Pair>
+<Pair title="Ability">The shaman touches a willing creature and bolsters its mental and emotional defenses. The next time the target attempts a Will saving throw, the subject can use the shaman's Will saving throw bonus instead of his own.</Pair>
+<Pair title="Special">The shaman can have only one creature under the effect of this hex at a time, and a creature affected by this hex cannot be affected by it again for 24 hours.</Pair>
+</Ability>
+<Ability id="threatening-coordination-hex-su" icon={["lower"]}>
+<Pair single id="threatening-coordination-hex-su">Threatening Coordination Hex (Su)</Pair>
+<Pair title="Ability">The shaman causes a creature within 30 feet to view the shaman's allies as obstacles. The target treats squares adjacent to the shaman's allies as <Link to="/rule/difficult_terrain">difficult terrain</Link> for a number of rounds equal to the shaman's level, or for 1 round if the target succeeds at a Will saving throw.</Pair>
+<Pair title="Special">Whether or not the save is successful, a creature affected by this hex cannot be the target of it again for 24 hours.</Pair>
+</Ability>
+<Ability id="touch-of-succor-su" icon={["aid"]}>
+<Pair single id="touch-of-succor-su">Touch of Succor (Su)</Pair>
+<Pair title="Usage">1 time/day per shaman level</Pair>
+<Pair title="Standard Action">The shaman can touch a willing creature to remove one of the following conditions: fatigued, shaken, or sickened.</Pair>
+<Pair title="At 8th Level">She adds confused and frightened to the list of conditions she can remove.</Pair>
+<Pair title="At 12th Level">She also adds dazed, nauseated, and panicked.</Pair>
+</Ability>
+<h3 id="shamanspirit-tribe-spirit-animal" data-hash-target>Spirit Animal</h3>
+<Ability id="spirit-animal" icon={["boost"]}>
+<Pair single id="spirit-animal" flavor="The shaman's spirit animal has colorations or markings that resemble a totem or important symbol for the shaman's tribe.">Spirit Animal</Pair>
+<Pair title="Ability">When the spirit animal successfully performs the aid another action, the bonus it provides increases by 1.</Pair>
+</Ability>
+<h3 id="shamanspirit-tribe-spirit-ability" data-hash-target>Spirit Ability</h3>
+<p>A shaman who chooses the Tribe spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability.</p>
+<Ability id="tribal-cooperation-su" icon={["power"]}>
+<Pair single id="tribal-cooperation-su" flavor={<>The shaman gains a <Link to="/main/teamwork_feat">teamwork feat</Link> as a bonus feat. She must meet the feat's prerequisites.</>}>Tribal Cooperation (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">The shaman can grant one of her teamwork feats to all allies within 30 feet who can see and hear her. Allies retain the use of this bonus feat for a number of rounds equal to 3 + <Link to="/misc/half">half</Link> of her shaman level. Allies do not need to meet the prerequisites of this bonus feat.</Pair>
+</Ability>
+<h3 id="shamanspirit-tribe-greater-spirit-ability" data-hash-target>Greater Spirit Ability</h3>
+<p>A shaman who chooses the Tribe spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability upon having access to the greater version of that spirit.</p>
+<Ability id="tribal-bond-sp" icon={["power","magic"]}>
+<Pair single id="tribal-bond-sp" flavor="The shaman and her tribe share a transcendent bond.">Tribal Bond (Sp)</Pair>
+<Pair title="Ability">Once per day when she communes with her spirit animal to regain spells, the shaman can select a number of creatures equal to half her shaman level to serve as her honorary tribe. These creatures can constantly communicate with each other, as <Link to="/spell/telepathic_bond">telepathic bond</Link>.</Pair>
+</Ability>
+<h3 id="shamanspirit-tribe-true-spirit-ability" data-hash-target>True Spirit Ability</h3>
+<p>A shaman who chooses the Tribe spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability upon having access to the true version of that spirit.</p>
+<Ability id="guardian-of-the-tribe-su" icon={["boost","power"]}>
+<Pair single id="guardian-of-the-tribe-su">Guardian of the Tribe (Su)</Pair>
+<Pair title="Usage">Charisma modifier times/day</Pair>
+<Pair title="Ability">The shaman can cast a harmless spell with a range of touch on a member of her <em>tribal bond</em> as long as that creature is within 30 feet.</Pair>
+<Pair title="Passive Ability">In addition, she is constantly aware of the condition of all members of her <em>tribal bond</em> ability, as <Link to="/spell/status">status</Link>.</Pair>
+</Ability>
+<h3 id="shamanspirit-tribe-manifestation" data-hash-target>Manifestation</h3>
+<Ability id="manifestation" icon={["def","magic","boost"]}>
+<Pair single id="manifestation" flavor="The shaman embodies the strength and unity of her tribe.">Manifestation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">She gains a bonus on all of her saving throws equal to her Charisma modifier and becomes immune to <Link to="/spelldef/compulsion">compulsion</Link> spells and spell-like abilities.</Pair>
+<Pair title="Standard Action">Once per day, she can attempt to revive a creature connected to her by her <em>tribal bond</em> ability who has died within 1 round as <Link to="/spell/breath_of_life">breath of life</Link>, except that the spell can be cast at any range as long as the target is on the same plane, and the target regains a number of hit points equal to 10 &times; the shaman's level (maximum 200).</Pair>
+</Ability>
 </>};
-const _waves = {title: "Waves", jsx: <><h2 id="shamanspirit-waves-waves">Waves</h2>
+const _waves = {hasJL:true,title: "Waves", jsx: <><div className="jumpList" id="shamanspirit-waves-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="shamanspirit-waves-hexes">Hexes</InnerLink></li><li><InnerLink toTop to="shamanspirit-waves-spirit-animal">Spirit Animal</InnerLink></li><li><InnerLink toTop to="shamanspirit-waves-spirit-ability">Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-waves-greater-spirit-ability">Greater Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-waves-true-spirit-ability">True Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-waves-manifestation">Manifestation</InnerLink></li></ul></div><h2 id="shamanspirit-waves-waves">Waves</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 45</Link><br/>A shaman who selects the waves spirit has a fluid grace that exhibits itself whenever she moves. When she calls upon one of this spirit's abilities, floating orbs dance about her, sublimating between icy crystals, misty vapors, and globules of water.</p>
-<p><strong>Spirit Magic Spells:</strong> <Link to="/spell/hydraulic_push">hydraulic push</Link> (1st), <Link to="/spell/slipstream">slipstream</Link> (2nd), <Link to="/spell/water_breathing">water breathing</Link> (3rd), <Link to="/spell/wall_of_ice">wall of ice</Link> (4th), <Link to="/spell/geyser">geyser</Link> (5th), <Link to="/spell/fluid_form">fluid form</Link> (6th), <Link to="/spell/vortex">vortex</Link> (7th), <Link to="/spell/seamantle">seamantle</Link> (8th), <Link to="/spell/tsunami">tsunami</Link> (9th)</p>
-<p><strong>Hexes:</strong> A shaman who chooses the Waves spirit can select from the following hexes.</p>
-<blockquote>
-<p><strong>Beckoning Chill (Su):</strong> The shaman causes one creature within 30 feet to become more susceptible to the sapping powers of cold for 1 minute. When a creature takes cold damage while under this effect, it is <Link to="/rule/entangled">entangled</Link> for 1 round. If the creature takes cold damage while already entangled by beckoning chill, the duration of the entangled condition increases by 1 round. Once affected, the creature cannot be the target of this hex again for 24 hours.</p>
-<p><strong>Crashing Waves (Su):</strong> The force of a waves shaman's water spells can bring even the mightiest of foes to the ground. When the shaman casts a spell with the water descriptor, she does so at 1 caster level higher. If that spell deals damage, the target must succeed at a Fortitude saving throw or be knocked prone. At 8th level, the shaman casts water spells at 2 caster levels higher. At 16th level, her ability to knock creatures prone extends to any spell that deals damage.</p>
-<p><strong>Fluid Magic (Su):</strong> The shaman's magic is not constrained by the reservoirs of magic that hold others back. She is able to prepare her spirit magic spells in her regular spell slots. If the shaman changes her wandering spirit, any prepared spirit magic spell belonging to that spirit becomes an open spell slot.</p>
-<p><strong>Mist's Shroud (Su):</strong> The shaman touches a willing creature (including herself) and enshrouds that creature in mist. This grants the creature <Link to="/rule/concealment">concealment</Link> as the <Link to="/spell/blur">blur</Link> spell. The mist dissipates after it causes an attack to miss because of concealment or after 1 minute, whichever comes first. At 8th and 16th levels, the mist lasts for one additional attack. A creature affected by this hex cannot be affected by it again for 24 hours.</p>
-<p><strong>Water Sight (Su):</strong> The shaman sees through fog and mist without penalty as long as there is enough light to otherwise allow her to see normally. At 7th level, she can use can use <Link to="/spell/scrying">scrying</Link>, using any calm pool of water that's at least 1 foot in diameter as the sole focus. At 15th level, this functions as <Link to="/spell/greater_scrying">greater scrying</Link>. She can use these abilities for a number of rounds per day equal to her shaman level, but these rounds do not need to be consecutive.</p>
-</blockquote>
-<p><strong>Spirit Animal:</strong> The skin of the shaman's spirit animal constantly distorts, much as a pond's surface ripples when drops of water fall gently into it. The animal gains <Link to="/feat/mobility">Mobility</Link> as a bonus feat. The animal doesn't need to meet the prerequisites for this feat. In addition, the animal can breathe underwater.</p>
-<p><strong>Spirit Ability:</strong> A shaman who chooses the Waves spirit as her spirit or wandering spirit gains the following ability.</p>
-<blockquote>
-<p><strong>Wave Strike (Su):</strong> As a standard action, the shaman can perform a melee touch attack that drenches a creature and pushes it away. The opponent takes 1d6 points of nonlethal damage + 1 point for every 2 shaman levels they possess and is pushed 5 feet directly away from the shaman. This movement does not provoke attacks of opportunity. A shaman can use this ability a number of times per day equal to 3 + her Charisma modifier. At 11th level, any melee weapon she wields is treated as if it had the <Link to="/magic-enh/quenching">quenching</Link> weapon special ability.</p>
-</blockquote>
-<p><strong>Greater Spirit Ability:</strong> A shaman who chooses the Waves spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>
-<blockquote>
-<p><strong>Fluid Mastery (Su):</strong> The shaman gains a swim speed equal to her base land speed, as well as the ability to breathe underwater. In addition, she can unleash a torrent of ice and water from her hands in a 15-foot cone as a standard action. This torrent deals 1d4 points of cold damage per 2 shaman level she possesses, and pushes affected creatures back 5 feet directly away from the shaman. A successful Reflex saving throw halves the damage and negates the push. The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.</p>
-</blockquote>
-<p><strong>True Spirit Ability:</strong> A shaman who chooses the Waves spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>
-<blockquote>
-<p><strong>Elemental Form (Su):</strong> As a standard action, the shaman assumes the form of a Huge (or smaller) water elemental, as <Link to="/spell/elemental_body_iv">elemental body IV</Link> with a duration of 1 hour per level. The shaman can use this ability once per day.</p>
-</blockquote>
-<p><strong>Manifestation:</strong> Upon reaching 20th level, the shaman becomes a master of cold and water. The shaman gains cold resistance 30. She can also apply any one of the following feats to any cold or water spell she casts without increasing the spell's level or casting time: <Link to="/feat/enlarge_spell">Enlarge Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link>. She doesn't need to possess these feats to use this ability.</p>
+<Ability id="spirit-magic-spells" icon={["learn"]}>
+<Pair single id="spirit-magic-spells">Spirit Magic Spells</Pair>
+<Pair title="Info">The shaman gains these spells at the listed spell levels.</Pair>
+<Pair plain title="1st"><Link to="/spell/hydraulic_push">Hydraulic push</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/slipstream">Slipstream</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/water_breathing">Water breathing</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/wall_of_ice">Wall of ice</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/geyser">Geyser</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/fluid_form">Fluid form</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/vortex">Vortex</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/seamantle">Seamantle</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/tsunami">Tsunami</Link></Pair>
+</Ability>
+<h3 id="shamanspirit-waves-hexes" data-hash-target>Hexes</h3>
+<p>A shaman who chooses the Waves spirit can select from the following hexes.</p>
+<Ability id="beckoning-chill-su" icon={["lower"]}>
+<Pair single id="beckoning-chill-su">Beckoning Chill (Su)</Pair>
+<Pair title="Ability">The shaman causes one creature within 30 feet to become more susceptible to the sapping powers of cold for 1 minute. When a creature takes cold damage while under this effect, it is <Link to="/rule/entangled">entangled</Link> for 1 round. If the creature takes cold damage while already entangled by <em>beckoning chill,</em> the duration of the entangled condition increases by 1 round.</Pair>
+<Pair title="Special">Once affected, the creature cannot be the target of this hex again for 24 hours.</Pair>
+</Ability>
+<Ability id="crashing-waves-su" icon={["boost"]}>
+<Pair single id="crashing-waves-su" flavor="The force of a waves shaman's water spells can bring even the mightiest of foes to the ground.">Crashing Waves (Su)</Pair>
+<Pair title="Ability">When the shaman casts a spell with the water descriptor, she does so at 1 caster level higher. If that spell deals damage, the target must succeed at a Fortitude saving throw or be knocked <Link to="/rule/prone">prone</Link>.</Pair>
+<Pair title="At 8th Level">The shaman casts water spells at 2 caster levels higher.</Pair>
+<Pair title="At 16th Level">Her ability to knock creatures prone extends to any spell that deals damage.</Pair>
+</Ability>
+<Ability id="fluid-magic-su" icon={["magic"]}>
+<Pair single id="fluid-magic-su" flavor="The shaman's magic is not constrained by the reservoirs of magic that hold others back.">Fluid Magic (Su)</Pair>
+<Pair title="Ability">She is able to prepare her spirit magic spells in her regular spell slots. If the shaman changes her <em>wandering spirit,</em> any prepared spirit magic spell belonging to that spirit becomes an open spell slot.</Pair>
+</Ability>
+<Ability id="mists-shroud-su" icon={["protect","def"]}>
+<Pair single id="mists-shroud-su">Mist's Shroud (Su)</Pair>
+<Pair title="Ability">The shaman touches a willing creature (including herself) and enshrouds that creature in mist. This grants the creature <Link to="/rule/concealment">concealment</Link> as the <Link to="/spell/blur">blur</Link> spell. The mist dissipates after it causes an attack to miss because of concealment or after 1 minute, whichever comes first.</Pair>
+<Pair title="At 8th Level">The mist lasts for one additional attack.</Pair>
+<Pair title="At 16th Level">The mist now fades after thwarting three attacks.</Pair>
+<Pair title="Special">A creature affected by this hex cannot be affected by it again for 24 hours.</Pair>
+</Ability>
+<Ability id="water-sight-su" icon={["power"]}>
+<Pair single id="water-sight-su">Water Sight (Su)</Pair>
+<Pair title="Usage">1 round/day per shaman level; these rounds need not be consecutive</Pair>
+<Pair title="Ability">The shaman sees through fog and mist without penalty as long as there is enough light to otherwise allow her to see normally.</Pair>
+<Pair title="At 7th Level">She can use can use <Link to="/spell/scrying">scrying</Link>, using any calm pool of water that's at least 1 foot in diameter as the sole focus.</Pair>
+<Pair title="At 15th Level">This functions as <Link to="/spell/greater_scrying">greater scrying</Link>.</Pair>
+</Ability>
+<h3 id="shamanspirit-waves-spirit-animal" data-hash-target>Spirit Animal</h3>
+<Ability id="spirit-animal" icon={["power"]}>
+<Pair single id="spirit-animal" flavor="The skin of the shaman's spirit animal constantly distorts, much as a pond's surface ripples when drops of water fall gently into it.">Spirit Animal</Pair>
+<Pair title="Ability">The animal gains <Link to="/feat/mobility">Mobility</Link> as a bonus feat. The animal doesn't need to meet the prerequisites for this feat. In addition, the animal can breathe underwater.</Pair>
+</Ability>
+<h3 id="shamanspirit-waves-spirit-ability" data-hash-target>Spirit Ability</h3>
+<p>A shaman who chooses the Waves spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability.</p>
+<Ability id="wave-strike-su" icon={["touch"]}>
+<Pair single id="wave-strike-su">Wave Strike (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">The shaman can perform a melee touch attack that drenches a creature and pushes it away. The opponent takes an amount of nonlethal damage equal to 1d6 + <Link to="/misc/half">half</Link> her shaman level and is pushed 5 feet directly away from the shaman. This movement does not provoke attacks of opportunity.</Pair>
+<Pair title="At 11th Level">Any melee weapon she wields is treated as if it had the <Link to="/magic-enh/quenching">quenching</Link> weapon special ability.</Pair>
+</Ability>
+<h3 id="shamanspirit-waves-greater-spirit-ability" data-hash-target>Greater Spirit Ability</h3>
+<p>A shaman who chooses the Waves spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability upon having access to the greater version of that spirit.</p>
+<Ability id="fluid-mastery-su" icon={["power","cone"]}>
+<Pair single id="fluid-mastery-su">Fluid Mastery (Su)</Pair>
+<Pair title="Ability">The shaman gains a swim speed equal to her base land speed, as well as the ability to breathe underwater.</Pair>
+<Pair title="Standard Action"><p>In addition, she can unleash a torrent of ice and water from her hands in a 15-foot cone. This torrent deals 1d4 points of cold damage per 2 shaman level she possesses, and pushes affected creatures back 5 feet directly away from the shaman. A successful Reflex saving throw halves the damage and negates the push.</p>
+<p>The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.</p>
+</Pair>
+</Ability>
+<h3 id="shamanspirit-waves-true-spirit-ability" data-hash-target>True Spirit Ability</h3>
+<p>A shaman who chooses the Waves spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability upon having access to the true version of that spirit.</p>
+<Ability id="elemental-form-su" icon={["magic"]}>
+<Pair single id="elemental-form-su">Elemental Form (Su)</Pair>
+<Pair title="Standard Action">The shaman assumes the form of a Huge (or smaller) water elemental, as <Link to="/spell/elemental_body_iv">elemental body IV</Link> with a duration of 1 hour per level. The shaman can use this ability once per day.</Pair>
+</Ability>
+<h3 id="shamanspirit-waves-manifestation" data-hash-target>Manifestation</h3>
+<Ability id="manifestation" icon={["def","boost"]}>
+<Pair single id="manifestation" flavor="The shaman becomes a master of cold and water.">Manifestation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">The shaman gains cold resistance 30.</Pair>
+<Pair title="Ability">She can also apply any one of the following feats to any cold or water spell she casts without increasing the spell's level or casting time: <Link to="/feat/enlarge_spell">Enlarge Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link>. She doesn't need to possess these feats to use this ability.</Pair>
+</Ability>
 </>};
-const _wind = {title: "Wind", jsx: <><h2 id="shamanspirit-wind-wind">Wind</h2>
+const _wind = {hasJL:true,title: "Wind", jsx: <><div className="jumpList" id="shamanspirit-wind-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="shamanspirit-wind-hexes">Hexes</InnerLink></li><li><InnerLink toTop to="shamanspirit-wind-spirit-animal">Spirit Animal</InnerLink></li><li><InnerLink toTop to="shamanspirit-wind-spirit-ability">Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-wind-greater-spirit-ability">Greater Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-wind-true-spirit-ability">True Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-wind-manifestation">Manifestation</InnerLink></li></ul></div><h2 id="shamanspirit-wind-wind">Wind</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 46</Link><br/>A shaman who selects the wind spirit appears windswept, and her movements seem lithe and carefree.</p>
-<p><strong>Spirit Magic Spells:</strong> <Link to="/spell/alter_winds">alter winds</Link> (1st), <Link to="/spell/gust_of_wind">gust of wind</Link> (2nd), <Link to="/spell/cloak_of_winds">cloak of winds</Link> (3rd), <Link to="/spell/river_of_wind">river of wind</Link> (4th), <Link to="/spell/control_winds">control winds</Link> (5th), <Link to="/spell/sirocco">sirocco</Link> (6th), <Link to="/spell/control_weather">control weather</Link> (7th), <Link to="/spell/whirlwind">whirlwind</Link> (8th), <Link to="/spell/winds_of_vengeance">winds of vengeance</Link> (9th)</p>
-<p><strong>Hexes:</strong> A shaman who chooses the Wind spirit can select from the following hexes.</p>
-<blockquote>
-<p><strong>Air Barrier (Su):</strong> The shaman creates an invisible shell of air that grants her a +4 armor bonus to AC. At 7th level and every 4 levels thereafter, this bonus increases by 2. At 13th level, this barrier causes incoming arrows, rays, and other ranged attacks requiring an attack roll against her to suffer a 50% miss chance. The shaman can use this barrier for 1 hour per shaman level. This duration does not need to be consecutive, but it must be spent in 1-hour increments.</p>
-<p><strong>Sparking Aura (Su):</strong> The shaman causes a creature within 30 feet to spark and shimmer with electrical energy. Though this does not harm the creature, it does cause the creature to emit light like a torch, preventing it from gaining any benefit from <Link to="/rule/concealment">concealment</Link> or invisibility. Furthermore, while the aura lasts, whenever the target is hit with a metal melee weapon, it also takes an amount of electricity damage equal to the shaman's Charisma modifier. The sparking aura lasts a 1 round for ever 2 shaman levels the shaman possesses. A creature affected by this hex cannot be affected by it again for 24 hours.</p>
-<p><strong>Vortex Spells (Su):</strong> Whenever the shaman confirms a critical hit against an opponent with a spell, the target is <Link to="/misc/staggered">staggered</Link> for 1 round. At 11th level, the duration increases to 1d4 rounds.</p>
-<p><strong>Wind Sight (Su):</strong> The shaman ignores the penalties on Perception checks caused by wind and the first 100 feet of distance. At 7th level she can, as a standard action, hear or see into any area - as <Link to="/spell/clairaudience_clairvoyance">clairaudience/clairvoyance</Link>, using that spell's range - provided that there's an unobstructed path for air to travel between the shaman and the target area. This doesn't require line of effect, meaning the path can turn corners and go through spaces as narrow as 1 inch in diameter. The shaman can use this ability a number of rounds per day equal to her shaman level, but these rounds do not need to be consecutive.</p>
-<p><strong>Wind Ward (Su):</strong> The shaman can touch a willing creature (including herself) and grants a ward of wind. This ward lasts for a number of rounds equal to the shaman's level. When a warded creature is attacked with an arrow, ray, or other ranged attack that requires an attack roll, that attack suffers a 20% miss chance. At 8th level, the ward lasts for 1 minute for every level the shaman possesses. At 16th level, the miss chance increases to 50%. Once affected, the creature cannot be the target of this hex again for 24 hours.</p>
-</blockquote>
-<p><strong>Spirit Animal:</strong> The shaman's spirit animal crackles with electrical energy when it moves, giving off light like a candle. This electricity deals no damage to the animal or any creature that touches the animal. The animal gains electricity resistance 10.</p>
-<p><strong>Spirit Ability:</strong> A shaman who chooses the Wind spirit as her spirit or wandering spirit gains the following ability.</p>
-<blockquote>
-<p><strong>Shocking Touch (Su):</strong> As a standard action, the shaman can make a melee touch attack that deals 1d6 points of electricity damage + 1 point for every 2 shaman levels she possesses. A shaman can use this ability a number of times per day equal to 3 + her Charisma modifier. At 11th level, any weapon she wields is treated as a shocking weapon.</p>
-</blockquote>
-<p><strong>Greater Spirit Ability:</strong> A shaman who chooses the Wind spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>
-<blockquote>
-<p><strong>Spark Soul (Su):</strong> The shaman gains electricity resistance 10. In addition, as a standard action she can unleash a 20-foot line of sparks from her fingertips, dealing 1d4 points of electricity damage per shaman level she possesses. A successful Reflex saving throw halves this damage. The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.</p>
-</blockquote>
-<p><strong>True Spirit Ability:</strong> A shaman who chooses the Wind spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>
-<blockquote>
-<p><strong>Elemental Form (Su):</strong> As a standard action, the shaman assumes the form of a Huge (or smaller) <Link to="/monster/lightning_elemental">lightning elemental</Link>, as if using <Link to="/spell/elemental_body_iv">elemental body IV</Link> with a duration of 1 hour per level. The shaman can use this ability once per day.</p>
-</blockquote>
-<p><strong>Manifestation:</strong> Upon reaching 20th level, the shaman becomes a being of air and electricity. The shaman gains electricity resistance 30. She can also apply any one of the following feats to any air or electricity spell she casts without increasing the spell's level or casting time: <Link to="/feat/enlarge_spell">Enlarge Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link>. She doesn't need to possess these feats to use this ability.</p>
+<Ability id="spirit-magic-spells" icon={["learn"]}>
+<Pair single id="spirit-magic-spells">Spirit Magic Spells</Pair>
+<Pair title="Info">The shaman gains these spells at the listed spell levels.</Pair>
+<Pair plain title="1st"><Link to="/spell/alter_winds">Alter winds</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/gust_of_wind">Gust of wind</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/cloak_of_winds">Cloak of winds</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/river_of_wind">River of wind</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/control_winds">Control winds</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/sirocco">Sirocco</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/control_weather">Control weather</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/whirlwind">Whirlwind</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/winds_of_vengeance">Winds of vengeance</Link></Pair>
+</Ability>
+<h3 id="shamanspirit-wind-hexes" data-hash-target>Hexes</h3>
+<p>A shaman who chooses the Wind spirit can select from the following hexes.</p>
+<Ability id="air-barrier-su" icon={["def"]}>
+<Pair single id="air-barrier-su">Air Barrier (Su)</Pair>
+<Pair title="Usage">1 hour/day per shaman level; these hours need not be consecutive, but they must be spent in 1-hour increments</Pair>
+<Pair title="Ability">The shaman creates an invisible shell of air that grants her a +4 armor bonus to AC.</Pair>
+<Pair title="At 7th Level">The armor bonus becomes +6.</Pair>
+<Pair title="At 11th Level">The armor bonus increases to +8.</Pair>
+<Pair title="At 13th Level">This barrier causes incoming arrows, rays, and other ranged attacks requiring an attack roll against her to suffer a 50% miss chance.</Pair>
+<Pair title="At 15th Level">The armor bonus becomes +10.</Pair>
+<Pair title="At 19th Level">The armor bonus increases to +12.</Pair>
+</Ability>
+<Ability id="sparking-aura-su" icon={["lower"]}>
+<Pair single id="sparking-aura-su">Sparking Aura (Su)</Pair>
+<Pair title="Ability"><p>The shaman causes a creature within 30 feet to spark and shimmer with electrical energy. Though this does not harm the creature, it does cause the creature to emit light like a <Link to="/eq-misc/torch">torch</Link>, preventing it from gaining any benefit from <Link to="/rule/concealment">concealment</Link> or invisibility.</p>
+<p>Furthermore, while the aura lasts, whenever the target is hit with a metal melee weapon, it also takes an amount of electricity damage equal to the shaman's Charisma modifier.</p>
+</Pair>
+<Pair title="Special">The <em>sparking aura</em> lasts a number of rounds equal to <Link to="/misc/half">half</Link> her shaman level. A creature affected by this hex cannot be affected by it again for 24 hours.</Pair>
+</Ability>
+<Ability id="vortex-spells-su" icon={["lower"]}>
+<Pair single id="vortex-spells-su">Vortex Spells (Su)</Pair>
+<Pair title="Ability">Whenever the shaman confirms a critical hit against an opponent with a spell, the target is <Link to="/misc/staggered">staggered</Link> for 1 round.</Pair>
+<Pair title="At 11th Level">The duration increases to 1d4 rounds.</Pair>
+</Ability>
+<Ability id="wind-sight-su" icon={["boost","magic"]}>
+<Pair single id="wind-sight-su">Wind Sight (Su)</Pair>
+<Pair title="Passive Ability">The shaman ignores the penalties on <Link to="/skill/perception">Perception</Link> checks caused by wind and the first 100 feet of distance.</Pair>
+<Pair title="At 7th Level"><p>She can, as a <strong className="hl">standard action</strong>, hear or see into any area - as <Link to="/spell/clairaudience_clairvoyance">clairaudience/clairvoyance</Link>, using that spell's range - provided that there's an unobstructed path for air to travel between the shaman and the target area. This doesn't require line of effect, meaning the path can turn corners and go through spaces as narrow as 1 inch in diameter.</p>
+<p>The shaman can use this ability a number of rounds per day equal to her shaman level, but these rounds do not need to be consecutive.</p>
+</Pair>
+</Ability>
+<Ability id="wind-ward-su" icon={["protect","def"]}>
+<Pair single id="wind-ward-su">Wind Ward (Su)</Pair>
+<Pair title="Ability">The shaman can touch a willing creature (including herself) and grants a ward of wind. This <em>ward</em> lasts for a number of rounds equal to the shaman's level. When a warded creature is attacked with an arrow, ray, or other ranged attack that requires an attack roll, that attack suffers a 20% miss chance.</Pair>
+<Pair title="At 8th Level">The <em>ward</em> lasts for 1 minute for every level the shaman possesses.</Pair>
+<Pair title="At 16th Level">The miss chance increases to 50%.</Pair>
+<Pair title="Special">Once affected, the creature cannot be the target of this hex again for 24 hours.</Pair>
+</Ability>
+<h3 id="shamanspirit-wind-spirit-animal" data-hash-target>Spirit Animal</h3>
+<Ability id="spirit-animal" icon={["def"]}>
+<Pair single id="spirit-animal">Spirit Animal</Pair>
+<Pair title="Passive Ability">The shaman's spirit animal crackles with electrical energy when it moves, giving off light like a <Link to="/eq-misc/candle">candle</Link>. This electricity deals no damage to the animal or any creature that touches the animal. The animal gains electricity resistance 10.</Pair>
+</Ability>
+<h3 id="shamanspirit-wind-spirit-ability" data-hash-target>Spirit Ability</h3>
+<p>A shaman who chooses the Wind spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability.</p>
+<Ability id="shocking-touch-su" icon={["touch"]}>
+<Pair single id="shocking-touch-su">Shocking Touch (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">The shaman can make a melee touch attack that deals an amount of electricity damage equal to 1d6 + <Link to="/misc/half">half</Link> her shaman level.</Pair>
+<Pair title="At 11th Level">Any weapon she wields is treated as a <Link to="/magic-enh/shock">shock</Link> weapon.</Pair>
+</Ability>
+<h3 id="shamanspirit-wind-greater-spirit-ability" data-hash-target>Greater Spirit Ability</h3>
+<p>A shaman who chooses the Wind spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability upon having access to the greater version of that spirit.</p>
+<Ability id="spark-soul-su" icon={["def","line"]}>
+<Pair single id="spark-soul-su">Spark Soul (Su)</Pair>
+<Pair title="Passive Ability">The shaman gains electricity resistance 10.</Pair>
+<Pair title="Standard Action"><p>She can unleash a 20-foot line of sparks from her fingertips, dealing 1d4 points of electricity damage per shaman level she possesses. A successful Reflex saving throw halves this damage.</p>
+<p>The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.</p>
+</Pair>
+</Ability>
+<h3 id="shamanspirit-wind-true-spirit-ability" data-hash-target>True Spirit Ability</h3>
+<p>A shaman who chooses the Wind spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability upon having access to the true version of that spirit.</p>
+<Ability id="elemental-form-su" icon={["magic"]}>
+<Pair single id="elemental-form-su">Elemental Form (Su)</Pair>
+<Pair title="Standard Action">The shaman assumes the form of a Huge (or smaller) <Link to="/monster/lightning_elemental">lightning elemental</Link>, as if using <Link to="/spell/elemental_body_iv">elemental body IV</Link> with a duration of 1 hour per level. The shaman can use this ability once per day.</Pair>
+</Ability>
+<h3 id="shamanspirit-wind-manifestation" data-hash-target>Manifestation</h3>
+<Ability id="manifestation" icon={["def","boost"]}>
+<Pair single id="manifestation" flavor="The shaman becomes a being of air and electricity.">Manifestation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">The shaman gains electricity resistance 30.</Pair>
+<Pair title="Ability">She can also apply any one of the following feats to any air or electricity spell she casts without increasing the spell's level or casting time: <Link to="/feat/enlarge_spell">Enlarge Spell</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, or <Link to="/feat/still_spell">Still Spell</Link>. She doesn't need to possess these feats to use this ability.</Pair>
+</Ability>
 </>};
-const _wood = {title: "Wood", jsx: <><h2 id="shamanspirit-wood-wood">Wood</h2>
+const _wood = {hasJL:true,title: "Wood", jsx: <><div className="jumpList" id="shamanspirit-wood-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="shamanspirit-wood-hexes">Hexes</InnerLink></li><li><InnerLink toTop to="shamanspirit-wood-spirit-animal">Spirit Animal</InnerLink></li><li><InnerLink toTop to="shamanspirit-wood-spirit-ability">Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-wood-greater-spirit-ability">Greater Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-wood-true-spirit-ability">True Spirit Ability</InnerLink></li><li><InnerLink toTop to="shamanspirit-wood-manifestation">Manifestation</InnerLink></li></ul></div><h2 id="shamanspirit-wood-wood">Wood</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 93</Link>, <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 26</Link><br/>A shaman who selects the wood spirit has a skin tone similar to the coloration of trees in her home region. Her vibrant hair is fragrant and resembles leaves and blossoms.</p>
-<p><strong>Spirit Magic Spells:</strong> <Link to="/spell/shillelagh">shillelagh</Link> (1st), <Link to="/spell/barkskin">barkskin</Link> (2nd), <Link to="/spell/minor_creation">minor creation (wood items only)</Link> (3rd), <Link to="/spell/thorn_body">thorn body</Link> (4th), <Link to="/spell/tree_stride">tree stride</Link> (5th), <Link to="/spell/ironwood">ironwood</Link> (6th), <Link to="/spell/transmute_metal_to_wood">transmute metal to wood</Link> (7th), <Link to="/spell/changestaff">changestaff</Link> (8th), <Link to="/spell/wooden_phalanx">wooden phalanx</Link> (9th)</p>
-<p><strong>Hexes:</strong> A shaman who chooses the Wood spirit can select from the following hexes.</p>
-<blockquote>
-<p><strong>Hex of Lignification (Su):</strong> The shaman causes a creature within 30 feet to turn into a twisted, tree-like shape for 2 rounds. The target gains hardness 5 but is <Link to="/misc/staggered">staggered</Link>, and can negate the effect with a successful Fortitude saving throw. Whether or not the target succeeds at its save, it can't be the target of this hex again for 24 hours.</p>
-<p><strong>Nature's Gifts (Su):</strong> Once per day, the shaman can command trees and other plants to yield magical berries and fruit. This ability functions as <Link to="/spell/goodberry">goodberry</Link>, except the maximum number of hit points it can restore to a subject in a 24-hour period from this hex is equal to the shaman's Charisma modifier (minimum 1 hit point per day).</p>
-<p><strong>Spines and Brambles (Su):</strong> With a beckoning gesture, the shaman conjures spiny shrubs in a number of squares equal to her Charisma modifier (minimum 1) within 30 feet. The squares become filled with light undergrowth. The shaman can pass through the affected squares without impediment. When the shaman uses this hex again, any previously conjured undergrowth withers away.</p>
-<p><strong>Verdant Path (Sp):</strong> Even the most tangled briars make way for the shaman, and suitable roots and branches appear to support her feet. The shaman gains <Link to="/ability/woodland_stride">woodland stride</Link>, as per the druid ability of the same name. At 8th level, she can use <Link to="/spell/air_walk">air walk</Link> at will whenever she is within 10 feet of a tree, though the effect ends instantly when she moves farther than 10 feet from a tree.</p>
-<p><strong>Whispering Leaves (Sp):</strong> Whenever the shaman is within 10 feet of a tree or undergrowth, she can cast <Link to="/spell/whispering_wind">whispering wind</Link> as a spell-like ability with a caster level equal to her shaman level. The targeted area must also contain trees or undergrowth, which relay the message in a gentle, rustling voice. At 8th level, the shaman can also listen to the targeted area as though she were using <Link to="/spell/clairaudience_clairvoyance">clairaudience/clairvoyance</Link> for the 1 round during which the hex is delivering the message.</p>
-</blockquote>
-<p><strong>Spirit Animal:</strong> The shaman's spirit animal looks like a wooden figurine or a vaguely animal-shaped tree branch when it is motionless. The animal gains <Link to="/umr/freeze">freeze</Link> as per the universal monster rule.</p>
-<p><strong>Spirit Ability:</strong> A shaman who chooses the Wood spirit as her spirit or wandering spirit gains the following ability.</p>
-<blockquote>
-<p><strong>Tree Limb (Su):</strong> As a swift action, the shaman can turn one of her arms into a heavy, branch-like limb. She must drop anything held in that hand, and she can't use this ability if she is wearing a shield on that arm. Until the beginning of her next turn, she gains a slam attack that deals 1d8 points of damage (for a Medium shaman; 1d6 if Small, 2d6 if Large). A shaman can use this ability a number of times per day equal to 3 + her Charisma modifier.</p>
-<p>At 8th level, the reach of this slam attack increases by 5 feet. At 16th level, the shaman can transform both of her arms, gaining two slam attacks.</p>
-</blockquote>
-<p><strong>Greater Spirit Ability:</strong> A shaman who chooses the Wood spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.</p>
-<blockquote>
-<p><strong>Bloody Roots (Sp):</strong> As a standard action, the shaman can cause a field of thick roots to burrow up from the ground. This ability functions as <Link to="/spell/black_tentacles">black tentacles</Link> with a caster level equal to the shaman's level. The area is centered on the shaman when she activates the ability but remains stationary if she then moves. The shaman is unaffected by the roots. Her allies treat the area as <Link to="/rule/difficult_terrain">difficult terrain</Link>, but the roots don't attack them. The shaman can end the effect as a free action. She can use this ability a number of rounds per day equal to 3 + her Charisma modifier, but these rounds do not need to be consecutive.</p>
-</blockquote>
-<p><strong>True Spirit Ability:</strong> A shaman who chooses the Wood spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.</p>
-<blockquote>
-<p><strong>Tree Form (Sp):</strong> As a standard action, the shaman can assume the form of a plant creature as per <Link to="/spell/plant_shape_iii">plant shape III</Link> with a duration of 1 hour per level. She can use this ability once per day.</p>
-</blockquote>
-<p><strong>Manifestation:</strong> Upon reaching 20th level, the shaman becomes a living creature of wood. She is forevermore treated as a <Link to="/type/plant">plant creature</Link> rather than her original creature type for the purposes of spells and magical effects. Her skin takes on the appearance of polished wood grain, and she gains a +4 natural armor bonus to her Armor Class and damage reduction 10/- against wooden weapons and the natural attacks of wooden and wood-like creatures. She gains immunity to paralysis, poison, polymorph, sleep, and stun. At will, the shaman can meld with any tree or single block of wood (as per <Link to="/spell/meld_into_stone">meld into stone</Link>, except she can meld only with wood and has no limit on how long she can remain in the wood).</p>
+<Ability id="spirit-magic-spells" icon={["learn"]}>
+<Pair single id="spirit-magic-spells">Spirit Magic Spells</Pair>
+<Pair title="Info">The shaman gains these spells at the listed spell levels.</Pair>
+<Pair plain title="1st"><Link to="/spell/shillelagh">Shillelagh</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/barkskin">Barkskin</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/minor_creation">Minor creation</Link> (wood items only)</Pair>
+<Pair plain title="4th"><Link to="/spell/thorn_body">Thorn body</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/tree_stride">Tree stride</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/ironwood">Ironwood</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/transmute_metal_to_wood">Transmute metal to wood</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/changestaff">Changestaff</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/wooden_phalanx">Wooden phalanx</Link></Pair>
+</Ability>
+<h3 id="shamanspirit-wood-hexes" data-hash-target>Hexes</h3>
+<p>A shaman who chooses the Wood spirit can select from the following hexes.</p>
+<Ability id="hex-of-lignification-su" icon={["lower"]}>
+<Pair single id="hex-of-lignification-su">Hex of Lignification (Su)</Pair>
+<Pair title="Ability">The shaman causes a creature within 30 feet to turn into a twisted, tree-like shape for 2 rounds. The target gains <Link to="/rule/hardness">hardness</Link> 5 but is <Link to="/misc/staggered">staggered</Link>, and can negate the effect with a successful Fortitude saving throw.</Pair>
+<Pair title="Special">Whether or not the target succeeds at its save, it can't be the target of this hex again for 24 hours.</Pair>
+</Ability>
+<Ability id="natures-gifts-su" icon={["magic"]}>
+<Pair single id="natures-gifts-su">Nature's Gifts (Su)</Pair>
+<Pair title="Ability">Once per day, the shaman can command trees and other plants to yield magical berries and fruit. This ability functions as <Link to="/spell/goodberry">goodberry</Link>, except the maximum number of hit points it can restore to a subject in a 24-hour period from this hex is equal to the shaman's Charisma modifier (minimum 1 hit point per day).</Pair>
+</Ability>
+<Ability id="spines-and-brambles-su" icon={["magic"]}>
+<Pair single id="spines-and-brambles-su">Spines and Brambles (Su)</Pair>
+<Pair title="Ability">With a beckoning gesture, the shaman conjures spiny shrubs in a number of squares equal to her Charisma modifier (minimum 1) within 30 feet. The squares become filled with <Link to="/rule/light_undergrowth">light undergrowth</Link>. The shaman can pass through the affected squares without impediment.</Pair>
+<Pair title="Special">When the shaman uses this hex again, any previously conjured undergrowth withers away.</Pair>
+</Ability>
+<Ability id="verdant-path-sp" icon={["power","magic"]}>
+<Pair single id="verdant-path-sp" flavor="Even the most tangled briars make way for the shaman, and suitable roots and branches appear to support her feet.">Verdant Path (Sp)</Pair>
+<Pair title="Ability">The shaman gains <Link to="/ability/woodland_stride">woodland stride</Link>, as per the druid ability of the same name.</Pair>
+<Pair title="At 8th Level">She can use <Link to="/spell/air_walk">air walk</Link> at will whenever she is within 10 feet of a tree, though the effect ends instantly when she moves farther than 10 feet from a tree.</Pair>
+</Ability>
+<Ability id="whispering-leaves-sp" icon={["magic"]}>
+<Pair single id="whispering-leaves-sp">Whispering Leaves (Sp)</Pair>
+<Pair title="Ability">Whenever the shaman is within 10 feet of a tree or undergrowth, she can cast <Link to="/spell/whispering_wind">whispering wind</Link> as a spell-like ability with a caster level equal to her shaman level. The targeted area must also contain trees or undergrowth, which relay the message in a gentle, rustling voice.</Pair>
+<Pair title="At 8th Level">The shaman can also listen to the targeted area as though she were using <Link to="/spell/clairaudience_clairvoyance">clairaudience/clairvoyance</Link> for the 1 round during which the hex is delivering the message.</Pair>
+</Ability>
+<h3 id="shamanspirit-wood-spirit-animal" data-hash-target>Spirit Animal</h3>
+<Ability id="spirit-animal" icon={["power"]}>
+<Pair single id="spirit-animal" flavor="The shaman's spirit animal looks like a wooden figurine or a vaguely animal-shaped tree branch when it is motionless.">Spirit Animal</Pair>
+<Pair title="Ability">The animal gains <Link to="/umr/freeze">freeze</Link> as per the universal monster rule.</Pair>
+</Ability>
+<h3 id="shamanspirit-wood-spirit-ability" data-hash-target>Spirit Ability</h3>
+<p>A shaman who chooses the Wood spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability.</p>
+<Ability id="tree-limb-su" icon={["melee"]}>
+<Pair single id="tree-limb-su">Tree Limb (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Swift Action">The shaman can turn one of her arms into a heavy, branch-like limb. She must drop anything held in that hand, and she can't use this ability if she is wearing a shield on that arm. Until the beginning of her next turn, she gains a <Link to="/umr/slam_attack">slam attack</Link> that deals 1d8 points of damage (for a Medium shaman; 1d6 if Small, 2d6 if Large).</Pair>
+<Pair title="At 8th Level">The reach of this slam attack increases by 5 feet.</Pair>
+<Pair title="At 16th Level">The shaman can transform both of her arms, gaining two slam attacks.</Pair>
+</Ability>
+<h3 id="shamanspirit-wood-greater-spirit-ability" data-hash-target>Greater Spirit Ability</h3>
+<p>A shaman who chooses the Wood spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability upon having access to the greater version of that spirit.</p>
+<Ability id="bloody-roots-sp" icon={["magic","aura"]}>
+<Pair single id="bloody-roots-sp">Bloody Roots (Sp)</Pair>
+<Pair title="Usage">3 + Charisma modifier rounds/day; these rounds need not be consecutive</Pair>
+<Pair title="Standard Action"><p>The shaman can cause a field of thick roots to burrow up from the ground. This ability functions as <Link to="/spell/black_tentacles">black tentacles</Link> with a caster level equal to the shaman's level. The area is centered on the shaman when she activates the ability but remains stationary if she then moves.</p>
+<p>The shaman is unaffected by the roots. Her allies treat the area as <Link to="/rule/difficult_terrain">difficult terrain</Link>, but the roots don't attack them. The shaman can end the effect as a <strong className="hl">free action</strong>.</p>
+</Pair>
+</Ability>
+<h3 id="shamanspirit-wood-true-spirit-ability" data-hash-target>True Spirit Ability</h3>
+<p>A shaman who chooses the Wood spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability upon having access to the true version of that spirit.</p>
+<Ability id="tree-form-sp" icon={["magic"]}>
+<Pair single id="tree-form-sp">Tree Form (Sp)</Pair>
+<Pair title="Standard Action">The shaman can assume the form of a plant creature as per <Link to="/spell/plant_shape_iii">plant shape III</Link> with a duration of 1 hour per level. She can use this ability once per day.</Pair>
+</Ability>
+<h3 id="shamanspirit-wood-manifestation" data-hash-target>Manifestation</h3>
+<Ability id="manifestation" icon={["power","def"]}>
+<Pair single id="manifestation" flavor="The shaman becomes a living creature of wood.">Manifestation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">She is forevermore treated as a <Link to="/type/plant">plant creature</Link> rather than her original creature type for the purposes of spells and magical effects. Her skin takes on the appearance of polished wood grain, and she gains a +4 natural armor bonus to her Armor Class and damage reduction 10/- against wooden weapons and the natural attacks of wooden and wood-like creatures. She gains immunity to paralysis, poison, polymorph, sleep, and stun.</Pair>
+<Pair title="Ability">At will, the shaman can meld with any tree or single block of wood (as per <Link to="/spell/meld_into_stone">meld into stone</Link>, except she can meld only with wood and has no limit on how long she can remain in the wood).</Pair>
+</Ability>
 </>};
 export default {not_found:_not_found,ancestors:_ancestors,battle:_battle,bones:_bones,dark_tapestry:_dark_tapestry,flame:_flame,frost:_frost,heavens:_heavens,life:_life,lore:_lore,mammoth:_mammoth,nature:_nature,restoration:_restoration,slums:_slums,stone:_stone,tribe:_tribe,waves:_waves,wind:_wind,wood:_wood}
