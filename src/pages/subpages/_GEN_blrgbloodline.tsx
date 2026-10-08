@@ -2,6 +2,7 @@ import {IonRippleEffect} from '@ionic/react';
 import Link from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
+import {Block,Row,Cell} from '../../components/Block';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
@@ -13,7 +14,9 @@ const _not_found = {title: "Unknown", jsx: <><h2 id="blrgbloodline-not_found-err
 const _aberrant = {title: "Aberrant", jsx: <><h2 id="blrgbloodline-aberrant-aberrant-bloodline">Aberrant Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 17</Link></p>
 <p>There is a taint in your blood that is both alien and bizarre. When you <em>bloodrage,</em> this manifests in peculiar and terrifying ways.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_disarm">Improved Disarm</Link>, <Link to="/feat/improved_grapple">Improved Grapple</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link>, <Link to="/feat/iron_will">Iron Will</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/combat_reflexes">Combat Reflexes</Link><br/><Link to="/feat/great_fortitude">Great Fortitude</Link><br/><Link to="/feat/improved_disarm">Improved Disarm</Link><br/><Link to="/feat/improved_grapple">Improved Grapple</Link><br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link><br/><Link to="/feat/iron_will">Iron Will</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/enlarge_person">Enlarge person</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/see_invisibility">See invisibility</Link></Pair>
@@ -56,7 +59,9 @@ const _aberrant = {title: "Aberrant", jsx: <><h2 id="blrgbloodline-aberrant-aber
 const _abyssal = {title: "Abyssal", jsx: <><h2 id="blrgbloodline-abyssal-abyssal-bloodline">Abyssal Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 17</Link></p>
 <p>Generations ago, a demon spread its filth into the essence of your bloodline. While it doesn't manifest in all of your kin, in those moments when you're <em>bloodraging,</em> you embody its terrifying presence.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/cleave">Cleave</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_bull_rush">Improved Bull Rush</Link>, <Link to="/feat/improved_sunder">Improved Sunder</Link>, <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/toughness">Toughness</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/cleave">Cleave</Link><br/><Link to="/feat/great_fortitude">Great Fortitude</Link><br/><Link to="/feat/improved_bull_rush">Improved Bull Rush</Link><br/><Link to="/feat/improved_sunder">Improved Sunder</Link><br/><Link to="/feat/intimidating_prowess">Intimidating Prowess</Link><br/><Link to="/feat/power_attack">Power Attack</Link><br/><Link to="/feat/toughness">Toughness</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/ray_of_enfeeblement">Ray of enfeeblement</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/bulls_strength">Bull's strength</Link></Pair>
@@ -104,7 +109,9 @@ const _abyssal = {title: "Abyssal", jsx: <><h2 id="blrgbloodline-abyssal-abyssal
 const _aquatic = {title: "Aquatic", jsx: <><h2 id="blrgbloodline-aquatic-aquatic-bloodline">Aquatic Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 51</Link></p>
 <p>The anger in your blood rises from the ocean depths, seeded by descent from undersea empires, creeping ichthyic infiltrators into remote seaside villages, or something deeper still.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/aquadynamic_focus">Aquadynamic Focus</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/mobility">Mobility</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Fly), <Link to="/feat/steam_spell">Steam Spell</Link>, <Link to="/feat/toughness">Toughness</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/aquadynamic_focus">Aquadynamic Focus</Link><br/><Link to="/feat/dodge">Dodge</Link><br/><Link to="/feat/lightning_reflexes">Lightning Reflexes</Link><br/><Link to="/feat/mobility">Mobility</Link><br/><Link to="/feat/skill_focus">Skill Focus</Link> (Fly)<br/><Link to="/feat/steam_spell">Steam Spell</Link><br/><Link to="/feat/toughness">Toughness</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/hydraulic_push">Hydraulic push</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/slipstream">Slipstream</Link></Pair>
@@ -194,7 +201,9 @@ const _arcane = {title: "Arcane", jsx: <><h2 id="blrgbloodline-arcane-arcane-blo
 const _black_blood = {title: "Black Blood", jsx: <><h2 id="blrgbloodline-black_blood-black-blood-bloodline">Black Blood Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins pg. 8</Link></p>
 <p>Contact with the <Link to="/magic-artifact/black_blood_of_orv">black blood of Orv</Link> - by you or one of your ancestors - transformed your bloodline. This necromantic taint in your blood mutates you into something peculiar.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/toughness">Toughness</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/combat_reflexes">Combat Reflexes</Link><br/><Link to="/feat/diehard">Diehard</Link><br/><Link to="/feat/endurance">Endurance</Link><br/><Link to="/feat/great_fortitude">Great Fortitude</Link><br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/iron_will">Iron Will</Link><br/><Link to="/feat/toughness">Toughness</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/chill_touch">Chill touch</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/unshakable_chill">Unshakable chill</Link></Pair>
@@ -244,7 +253,9 @@ const _black_blood = {title: "Black Blood", jsx: <><h2 id="blrgbloodline-black_b
 const _celestial = {title: "Celestial", jsx: <><h2 id="blrgbloodline-celestial-celestial-bloodline">Celestial Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 19</Link></p>
 <p>By way of a celestial ancestor or divine intervention, the blood of angels fills your body with a holy potency, granting you a majestic visage and angelic powers when you enter your <em>bloodrage.</em></p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/mobility">Mobility</Link>, <Link to="/feat/mounted_combat">Mounted Combat</Link>, <Link to="/feat/ride_by_attack">Ride-By Attack</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/dodge">Dodge</Link><br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/iron_will">Iron Will</Link><br/><Link to="/feat/mobility">Mobility</Link><br/><Link to="/feat/mounted_combat">Mounted Combat</Link><br/><Link to="/feat/ride_by_attack">Ride-By Attack</Link><br/><Link to="/feat/weapon_focus">Weapon Focus</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/bless">Bless</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/resist_energy">Resist energy</Link></Pair>
@@ -289,7 +300,9 @@ const _celestial = {title: "Celestial", jsx: <><h2 id="blrgbloodline-celestial-c
 const _destined = {title: "Destined", jsx: <><h2 id="blrgbloodline-destined-destined-bloodline">Destined Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 19</Link></p>
 <p>Your bloodline is destined for great things. When you <em>bloodrage,</em> you exude a greatness that makes all but the most legendary creatures seem lesser.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link>, <Link to="/feat/leadership">Leadership</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/diehard">Diehard</Link><br/><Link to="/feat/endurance">Endurance</Link><br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/intimidating_prowess">Intimidating Prowess</Link><br/><Link to="/feat/leadership">Leadership</Link><br/><Link to="/feat/lightning_reflexes">Lightning Reflexes</Link><br/><Link to="/feat/weapon_focus">Weapon Focus</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/shield">Shield</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/blur">Blur</Link></Pair>
@@ -335,7 +348,9 @@ const _destined = {title: "Destined", jsx: <><h2 id="blrgbloodline-destined-dest
 const _draconic = {hasJL:true,title: "Draconic", jsx: <><div className="jumpList" id="blrgbloodline-draconic-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="blrgbloodline-draconic-expanded-bloodlines">Expanded Bloodlines</InnerLink></li><li><InnerLink toTop to="blrgbloodline-draconic-esoteric-dragons">Esoteric Dragons</InnerLink></li><li><InnerLink toTop to="blrgbloodline-draconic-imperial-dragons">Imperial Dragons</InnerLink></li><li><InnerLink toTop to="blrgbloodline-draconic-outer-dragons">Outer Dragons</InnerLink></li><li><InnerLink toTop to="blrgbloodline-draconic-primal-dragons">Primal Dragons</InnerLink></li></ul></div><h2 id="blrgbloodline-draconic-draconic-bloodline">Draconic Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 19</Link></p>
 <p>At some point in your family's history, a dragon interbred with your bloodline. Now, the sublime monster's ancient power fuels your <em>bloodrage.</em></p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/blind_fight">Blind-Fight</Link>, <Link to="/feat/cleave">Cleave</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Fly), <Link to="/feat/toughness">Toughness</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/blind_fight">Blind-Fight</Link><br/><Link to="/feat/cleave">Cleave</Link><br/><Link to="/feat/great_fortitude">Great Fortitude</Link><br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/power_attack">Power Attack</Link><br/><Link to="/feat/skill_focus">Skill Focus</Link> (Fly)<br/><Link to="/feat/toughness">Toughness</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/shield">Shield</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/resist_energy">Resist energy</Link></Pair>
@@ -595,7 +610,9 @@ const _draconic = {hasJL:true,title: "Draconic", jsx: <><div className="jumpList
 const _elemental = {title: "Elemental", jsx: <><h2 id="blrgbloodline-elemental-elemental-bloodline">Elemental Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 20</Link></p>
 <p>The power of the elements resides in you, and at times you can hardly control its fury. This influence comes either from an elemental outsider in your family history or from a moment when you or your ancestors were exposed to a powerful elemental force or cataclysm.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/cleave">Cleave</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/cleave">Cleave</Link><br/><Link to="/feat/dodge">Dodge</Link><br/><Link to="/feat/great_fortitude">Great Fortitude</Link><br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/lightning_reflexes">Lightning Reflexes</Link><br/><Link to="/feat/power_attack">Power Attack</Link><br/><Link to="/feat/weapon_focus">Weapon Focus</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair title="Info">Spells marked with an asterisk (&#42;) always deal a type of energy damage determined by your element, regardless of the spell's normal effects. In addition, the subtype of these spells changes to match the energy type of your element.</Pair>
 <Pair plain title="7th"><Link to="/spell/burning_hands">Burning hands</Link> &#42;</Pair>
@@ -673,7 +690,9 @@ const _elemental = {title: "Elemental", jsx: <><h2 id="blrgbloodline-elemental-e
 const _fey = {title: "Fey", jsx: <><h2 id="blrgbloodline-fey-fey-bloodline">Fey Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 21</Link></p>
 <p>One of your ancestors was <Link to="/type/fey">fey</Link>, or the fey realm somehow intermixed with your bloodline. It affects your <em>bloodrage</em> in tricky and surprising ways.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/mobility">Mobility</Link>, <Link to="/feat/step_up">Step Up</Link>, <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/combat_reflexes">Combat Reflexes</Link><br/><Link to="/feat/dodge">Dodge</Link><br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/lightning_reflexes">Lightning Reflexes</Link><br/><Link to="/feat/mobility">Mobility</Link><br/><Link to="/feat/step_up">Step Up</Link><br/><Link to="/feat/intimidating_prowess">Intimidating Prowess</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/entangle">Entangle</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/hideous_laughter">Hideous laughter</Link></Pair>
@@ -720,7 +739,9 @@ const _fey = {title: "Fey", jsx: <><h2 id="blrgbloodline-fey-fey-bloodline">Fey 
 const _hag = {title: "Hag", jsx: <><h2 id="blrgbloodline-hag-hag-bloodline">Hag Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven pg. 27</Link></p>
 <p><Link to="/family/hag">Hags</Link> interbreed with other races frequently, and those children who escape their grasp may pass their heritage on to later generations before it reemerges. The potent humors that accompany hag blood are better suited to a bloodrager's ferocity than to traditional spellcasting.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/blind_fight">Blind-Fight</Link>, <Link to="/feat/deceitful">Deceitful</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_natural_attack">Improved Natural Attack</Link>, <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link>, <Link to="/feat/mothers_gift">Mother's Gift</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/blind_fight">Blind-Fight</Link><br/><Link to="/feat/deceitful">Deceitful</Link><br/><Link to="/feat/great_fortitude">Great Fortitude</Link><br/><Link to="/feat/improved_natural_attack">Improved Natural Attack</Link><br/><Link to="/feat/intimidating_prowess">Intimidating Prowess</Link><br/><Link to="/feat/mothers_gift">Mother's Gift</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/chill_touch">Chill touch</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/blindness_deafness">Blindness/deafness</Link></Pair>
@@ -764,7 +785,9 @@ const _hag = {title: "Hag", jsx: <><h2 id="blrgbloodline-hag-hag-bloodline">Hag 
 const _infernal = {title: "Infernal", jsx: <><h2 id="blrgbloodline-infernal-infernal-bloodline">Infernal Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 21</Link></p>
 <p>The Pit lives in your blood. Maybe one of your ancestors was seduced by the powers of <Link to="/rule/hell">Hell</Link> or made a deal with a <Link to="/family/devil">devil</Link>. Either way, its corruption seethes within your lineage.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/blind_fight">Blind-Fight</Link>, <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/deceitful">Deceitful</Link>, <Link to="/feat/improved_disarm">Improved Disarm</Link>, <Link to="/feat/improved_sunder">Improved Sunder</Link>, <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link>, <Link to="/feat/iron_will">Iron Will</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/blind_fight">Blind-Fight</Link><br/><Link to="/feat/combat_reflexes">Combat Reflexes</Link><br/><Link to="/feat/deceitful">Deceitful</Link><br/><Link to="/feat/improved_disarm">Improved Disarm</Link><br/><Link to="/feat/improved_sunder">Improved Sunder</Link><br/><Link to="/feat/intimidating_prowess">Intimidating Prowess</Link><br/><Link to="/feat/iron_will">Iron Will</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/protection_from_good">Protection from good</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/scorching_ray">Scorching ray</Link></Pair>
@@ -811,7 +834,9 @@ const _infernal = {title: "Infernal", jsx: <><h2 id="blrgbloodline-infernal-infe
 const _kyton = {title: "Kyton", jsx: <><h2 id="blrgbloodline-kyton-kyton-bloodline">Kyton Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins pg. 9</Link></p>
 <p>In the shadowy land of Nidal, the influence of <Link to="/faith/zon_kuthon">Zon-Kuthon</Link> and the Midnight Lord's favored servants - the <Link to="/family/kyton">kytons</Link> - taints the land and its inhabitants. Just as an eclipse drives animals wild, so too does the darkness unleash a madness from deep within you.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/blind_fight">Blind-Fight</Link>, <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link> (spiked chain), <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/toughness">Toughness</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/alertness">Alertness</Link><br/><Link to="/feat/blind_fight">Blind-Fight</Link><br/><Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link> (spiked chain)<br/><Link to="/feat/great_fortitude">Great Fortitude</Link><br/><Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link><br/><Link to="/feat/iron_will">Iron Will</Link><br/><Link to="/feat/toughness">Toughness</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/persuasive_goad">Persuasive goad</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/pain_strike">Pain strike</Link></Pair>
@@ -858,7 +883,9 @@ const _kyton = {title: "Kyton", jsx: <><h2 id="blrgbloodline-kyton-kyton-bloodli
 const _martyred = {title: "Martyred", jsx: <><h2 id="blrgbloodline-martyred-martyred-bloodline">Martyred Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook pg. 19</Link></p>
 <p>One of your ancestors paid the ultimate price for her beliefs. This distant relative martyred herself out of a devout dedication to some specific cause, and that sacrifice has infused you with power that you can use for good - or for ill. When you <em>bloodrage,</em> an inspiring fury conjures echoes of your forebear's incredible determination and selfless dedication, both offering you protection and amplifying your ability to punish any who dare incur your wrath.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/heroic_defiance">Heroic Defiance</Link>, <Link to="/feat/heroic_recovery">Heroic Recovery</Link>, <Link to="/feat/leadership">Leadership</Link>, <Link to="/feat/persuasive">Persuasive</Link>, <Link to="/feat/toughness">Toughness</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/diehard">Diehard</Link><br/><Link to="/feat/endurance">Endurance</Link><br/><Link to="/feat/heroic_defiance">Heroic Defiance</Link><br/><Link to="/feat/heroic_recovery">Heroic Recovery</Link><br/><Link to="/feat/leadership">Leadership</Link><br/><Link to="/feat/persuasive">Persuasive</Link><br/><Link to="/feat/toughness">Toughness</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/endure_elements">Endure elements</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/surmount_affliction">Surmount affliction</Link></Pair>
@@ -907,7 +934,9 @@ const _martyred = {title: "Martyred", jsx: <><h2 id="blrgbloodline-martyred-mart
 const _medusa = {title: "Medusa", jsx: <><h2 id="blrgbloodline-medusa-medusa-bloodline">Medusa Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 16</Link></p>
 <p>No magical creature is more iconic in Iblydan lore than the <Link to="/monster/medusa">medusa</Link>. Perhaps your lineage traces back to a medusa, or an ancestor survived a medusa's petrifying gaze and was forever changed by the experience. However the medusa's influence entered your bloodline, when you <em>bloodrage,</em> you gain fearsome and ancient powers.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/blind_fight">Blind-Fight</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link>, <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link>, <Link to="/feat/toughness">Toughness</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/alertness">Alertness</Link><br/><Link to="/feat/blind_fight">Blind-Fight</Link><br/><Link to="/feat/great_fortitude">Great Fortitude</Link><br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link><br/><Link to="/feat/intimidating_prowess">Intimidating Prowess</Link><br/><Link to="/feat/toughness">Toughness</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/cause_fear">Cause fear</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/resist_energy">Resist energy</Link></Pair>
@@ -952,7 +981,9 @@ const _medusa = {title: "Medusa", jsx: <><h2 id="blrgbloodline-medusa-medusa-blo
 const _naga = {title: "Naga", jsx: <><h2 id="blrgbloodline-naga-naga-bloodline">Naga Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 16</Link></p>
 <p>The blood of the powerful, serpentine aberrations known as nagas runs through your veins, fueling your <em>bloodrage.</em></p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/combat_casting">Combat Casting</Link>, <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/stealthy">Stealthy</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/alertness">Alertness</Link><br/><Link to="/feat/combat_casting">Combat Casting</Link><br/><Link to="/feat/combat_reflexes">Combat Reflexes</Link><br/><Link to="/feat/dodge">Dodge</Link><br/><Link to="/feat/lightning_reflexes">Lightning Reflexes</Link><br/><Link to="/feat/power_attack">Power Attack</Link><br/><Link to="/feat/stealthy">Stealthy</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/ray_of_enfeeblement">Ray of enfeeblement</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/invisibility">Invisibility</Link></Pair>
@@ -1000,7 +1031,9 @@ const _naga = {title: "Naga", jsx: <><h2 id="blrgbloodline-naga-naga-bloodline">
 const _phoenix = {title: "Phoenix", jsx: <><h2 id="blrgbloodline-phoenix-phoenix-bloodline">Phoenix Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_144_midwives_to_death">Pathfinder #144: Midwives to Death pg. 82</Link></p>
 <p>One of your ancestors may have witnessed the fiery resurrection of a <Link to="/monster/phoenix">phoenix</Link> or been healed by the grace of this legendary bird. Whatever the case, the flames of the phoenix burn brightly within your soul, filling you with an inextinguishable vitality that can withstand the most harrowing of assaults. When you <em>bloodrage,</em> vibrant energy boils forth from beneath your skin, granting you both the soothing warmth to heal a friend's wounds and the brutal power to burn flesh from bone. Your rage is an awesome and terrible thing to behold, as the raw power of your untamed life force can allow you to pull yourself back from the grasp of death itself.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/critical_focus">Critical Focus</Link>, <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/mobility">Mobility</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/combat_reflexes">Combat Reflexes</Link><br/><Link to="/feat/critical_focus">Critical Focus</Link><br/><Link to="/feat/diehard">Diehard</Link><br/><Link to="/feat/dodge">Dodge</Link><br/><Link to="/feat/endurance">Endurance</Link><br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/mobility">Mobility</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/burning_hands">Burning hands</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/lesser_restoration">Lesser restoration</Link></Pair>
@@ -1049,7 +1082,9 @@ const _phoenix = {title: "Phoenix", jsx: <><h2 id="blrgbloodline-phoenix-phoenix
 const _salamander = {title: "Salamander", jsx: <><h2 id="blrgbloodline-salamander-salamander-bloodline">Salamander Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 5</Link></p>
 <p>Salamanders are fierce warriors and master smiths, and you wield their might and mastery of metal by birthright.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/cleave">Cleave</Link>, <Link to="/feat/improved_grapple">Improved Grapple</Link>, <Link to="/feat/improved_iron_will">Improved Iron Will</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Perception), <Link to="/feat/toughness">Toughness</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/cleave">Cleave</Link><br/><Link to="/feat/improved_grapple">Improved Grapple</Link><br/><Link to="/feat/improved_iron_will">Improved Iron Will</Link><br/><Link to="/feat/iron_will">Iron Will</Link><br/><Link to="/feat/power_attack">Power Attack</Link><br/><Link to="/feat/skill_focus">Skill Focus</Link> (Perception)<br/><Link to="/feat/toughness">Toughness</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/lead_blades">Lead blades</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/make_whole">Make whole</Link></Pair>
@@ -1098,7 +1133,9 @@ const _salamander = {title: "Salamander", jsx: <><h2 id="blrgbloodline-salamande
 const _shadow = {title: "Shadow", jsx: <><h2 id="blrgbloodline-shadow-shadow-bloodline">Shadow Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_shadows">Blood of Shadows pg. 16</Link></p>
 <p>Because of your heritage, you can move and see through shadows as if you are part of them. Your fury absorbs light, warmth, and strength.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/blind_fight">Blind-Fight</Link>, <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/quick_draw">Quick Draw</Link>, <Link to="/feat/step_up">Step Up</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/blind_fight">Blind-Fight</Link><br/><Link to="/feat/combat_reflexes">Combat Reflexes</Link><br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/lightning_reflexes">Lightning Reflexes</Link><br/><Link to="/feat/quick_draw">Quick Draw</Link><br/><Link to="/feat/step_up">Step Up</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/ray_of_enfeeblement">Ray of enfeeblement</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/darkvision">Darkvision</Link></Pair>
@@ -1145,7 +1182,9 @@ const _shadow = {title: "Shadow", jsx: <><h2 id="blrgbloodline-shadow-shadow-blo
 const _shapechanger = {title: "Shapechanger", jsx: <><h2 id="blrgbloodline-shapechanger-shapechanger-bloodline">Shapechanger Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 20</Link></p>
 <p>The blood of <Link to="/monster/doppelganger">doppelgangers</Link>, <Link to="/monster/faceless_stalker">faceless stalkers</Link>, <Link to="/template/lycanthrope">lycanthropes</Link>, or other shapechangers courses through your veins.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/fleet">Fleet</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/dodge">Dodge</Link><br/><Link to="/feat/fleet">Fleet</Link><br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link><br/><Link to="/feat/lightning_reflexes">Lightning Reflexes</Link><br/><Link to="/feat/power_attack">Power Attack</Link><br/><Link to="/feat/weapon_focus">Weapon Focus</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/enlarge_person">Enlarge person</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/alter_self">Alter self</Link></Pair>
@@ -1188,7 +1227,9 @@ const _shapechanger = {title: "Shapechanger", jsx: <><h2 id="blrgbloodline-shape
 const _sphinx = {title: "Sphinx", jsx: <><h2 id="blrgbloodline-sphinx-sphinx-bloodline">Sphinx Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 23</Link></p>
 <p>Those who successfully traded riddles with sphinxes sometimes find themselves or their descendants exhibiting both arcane power and violent fury. These bloodragers find being outwitted or outmaneuvered especially infuriating; though they are usually scholarly and erudite, their fits of frenzied rage are all the more terrifying in comparison.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/combat_casting">Combat Casting</Link>, <Link to="/feat/dazzling_display">Dazzling Display</Link>, <Link to="/feat/improved_critical">Improved Critical</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/rending_fury">Rending Fury</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Intimidate), <Link to="/feat/voice_of_the_sibyl">Voice of the Sibyl</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/alertness">Alertness</Link><br/><Link to="/feat/combat_casting">Combat Casting</Link><br/><Link to="/feat/dazzling_display">Dazzling Display</Link><br/><Link to="/feat/improved_critical">Improved Critical</Link><br/><Link to="/feat/iron_will">Iron Will</Link><br/><Link to="/feat/rending_fury">Rending Fury</Link><br/><Link to="/feat/skill_focus">Skill Focus</Link> (Intimidate)<br/><Link to="/feat/voice_of_the_sibyl">Voice of the Sibyl</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/divine_favor">Divine favor</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/touch_of_idiocy">Touch of idiocy</Link></Pair>
@@ -1239,7 +1280,9 @@ const _sphinx = {title: "Sphinx", jsx: <><h2 id="blrgbloodline-sphinx-sphinx-blo
 const _undead = {title: "Undead", jsx: <><h2 id="blrgbloodline-undead-undead-bloodline">Undead Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 22</Link></p>
 <p>The foul corruption of undeath is a part of you. Somewhere in the past, death became infused with your lineage. Your connection to the attributes of the undead bestows frightening power when your <em>bloodrage.</em></p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/mobility">Mobility</Link>, <Link to="/feat/toughness">Toughness</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/diehard">Diehard</Link><br/><Link to="/feat/dodge">Dodge</Link><br/><Link to="/feat/endurance">Endurance</Link><br/><Link to="/feat/intimidating_prowess">Intimidating Prowess</Link><br/><Link to="/feat/iron_will">Iron Will</Link><br/><Link to="/feat/mobility">Mobility</Link><br/><Link to="/feat/toughness">Toughness</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/chill_touch">Chill touch</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/false_life">False life</Link></Pair>
@@ -1285,7 +1328,9 @@ const _undead = {title: "Undead", jsx: <><h2 id="blrgbloodline-undead-undead-blo
 const _verdant = {title: "Verdant", jsx: <><h2 id="blrgbloodline-verdant-verdant-bloodline">Verdant Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 17</Link></p>
 <p>Your body is suffused with raw plant life. When you <em>bloodrage,</em> your plant-like characteristics bolster your durability and grant you some control over vegetation.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/bolstered_resilience">Bolstered Resilience</Link>, <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/raging_vitality">Raging Vitality</Link>, <Link to="/feat/toughness">Toughness</Link></p><Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/bolstered_resilience">Bolstered Resilience</Link><br/><Link to="/feat/diehard">Diehard</Link><br/><Link to="/feat/endurance">Endurance</Link><br/><Link to="/feat/great_fortitude">Great Fortitude</Link><br/><Link to="/feat/power_attack">Power Attack</Link><br/><Link to="/feat/raging_vitality">Raging Vitality</Link><br/><Link to="/feat/toughness">Toughness</Link></Cell></Row></Block>
+<Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/entangle">Entangle</Link></Pair>
 <Pair plain title="10th"><Link to="/spell/greensight">Greensight</Link></Pair>
