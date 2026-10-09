@@ -1,5 +1,5 @@
-export type IconType = "melee" | "touch" | "magic"| "zap"| "line"| "cone"| "ranged"| "def"| "learn"| "aura"| "power"| "boost"| "aid"| "protect"| "lower"| "roll"| "down"| "skill"| "info"| "warning"| "Combat"| "Faith"| "Social"| "Magic"| "Campaign"| "Equipment"| "Family"| "Mount"| "Regional"| "Religion"| "Drawback"| "Cosmic" | "Race" | "confirmed";
-export type IconNames = "mailed-fist" | "magic-palm" | "magic-swirl" | "smoking-finger" | "barbed-arrow" | "tornado-discs" | "bowman" | "armor-upgrade" | "spell-book" | "aura" | "stairs-goal" | "upgrade" | "remedy" | "shield-reflect" | "armor-downgrade" | "rolling-dices" | "broken-shield" | "skills" | "info" | "hazard-sign" | "crossed-sabres" | "bolt-eye" | "village" | "magic-swirl" | "treasure-map" | "battle-gear" | "relationship-bounds" | "cavalry" | "planet-conquest" | "prayer" | "broken-shield" | "night-sky" | "person" | "confirmed";
+export type IconType = "melee" | "touch" | "magic"| "zap"| "line"| "cone"| "ranged"| "select" | "boom" | "def"| "learn"| "aura"| "power"| "boost"| "aid"| "protect"| "lower"| "roll"| "down"| "skill"| "info"| "warning"| "Combat"| "Faith"| "Social"| "Magic"| "Campaign"| "Equipment"| "Family"| "Mount"| "Regional"| "Religion"| "Drawback"| "Cosmic" | "Race" | "confirmed";
+export type IconNames = "mailed-fist" | "magic-palm" | "magic-swirl" | "smoking-finger" | "barbed-arrow" | "tornado-discs" | "bowman" | "targeting" | "explosion-rays" | "armor-upgrade" | "spell-book" | "aura" | "stairs-goal" | "upgrade" | "remedy" | "shield-reflect" | "armor-downgrade" | "rolling-dices" | "broken-shield" | "skills" | "info" | "hazard-sign" | "crossed-sabres" | "bolt-eye" | "village" | "magic-swirl" | "treasure-map" | "battle-gear" | "relationship-bounds" | "cavalry" | "planet-conquest" | "prayer" | "broken-shield" | "night-sky" | "person" | "confirmed";
 
 export type Icon = IconType | IconNames;
 
@@ -26,6 +26,12 @@ const getIcon = (i: Icon) => {
 		}
 		case "ranged": { // ranged physical attack
 			return "bowman";
+		}
+		case "select": { // choose one or more targets
+			return "targeting";
+		}
+		case "boom": { // burst, emanation, or spread
+			return "explosion-rays";
 		}
 		case "def": { // defensive ability
 			return "armor-upgrade";

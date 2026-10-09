@@ -59,7 +59,9 @@ const Icons: FC = () => {
 					<Icon incoming={icon} icon="magic-swirl">General magical, supernatural, or uncanny ability; or a magic trait.</Icon>
 					<Icon incoming={icon} icon="barbed-arrow">A line-effect magical attack.</Icon>
 					<Icon incoming={icon} icon="tornado-discs">A cone-effect magical attack.</Icon>
-					<Icon incoming={icon} icon="aura">Some sort of magical aura or other radius-limited effect.</Icon>
+					<Icon incoming={icon} icon="aura">Some sort of magical aura or other radius-limited effect, usually centered on the effect's creator.</Icon>
+					<Icon incoming={icon} icon="select">Some sort of magical effect that targets one or more creatures without making an attack roll.</Icon>
+					<Icon incoming={icon} icon="boom">A ‹misc/burst», emanation, or spread›, usually not centered on the effect's creator.</Icon>
 					<Icon incoming={icon} icon="spell-book">Gain one or more spells known.</Icon>
 					<Icon incoming={icon} icon="rolling-dices">A change to the outcome of a die roll.</Icon>
 					<Icon incoming={icon} icon="armor-upgrade">A defensive ability.</Icon>

@@ -421,6 +421,8 @@ const makeAbilityBlock = ({
 				case "skill":
 				case "info":
 				case "warning":
+				case "select":
+				case "boom":
 					return i;
 			}
 			logError(`---> Missing or invalid icon [${i}][${text}]`);
