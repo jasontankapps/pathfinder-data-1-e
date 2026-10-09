@@ -1512,7 +1512,7 @@ const _wysp = {title: "Wysp", jsx: <><h2 id="family-wysp-wysp">Wysp</h2>
 </>};
 const _dire = {title: "Dire", jsx: <><h2 id="family-dire-dire">Dire</h2>
 <blockquote>
-<p>*This is not an "official" family, merely a grouping of beasts that share the "dire" title.</p>
+<p><em>This is not an "official" family, merely a grouping of beasts that share the "dire" title.</em></p>
 </blockquote>
 <p>Dire animals are enormous versions of normal animals, representing their most primal form. These creatures tend to follow the same basic behaviors as their smaller kin, but are much more aggressive.</p>
 <h3 id="family-dire-members-of-this-family">Members of This Family:</h3>

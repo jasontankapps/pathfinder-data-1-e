@@ -156,7 +156,8 @@ const _aquatic = {title: "Aquatic", jsx: <><h2 id="blrgbloodline-aquatic-aquatic
 const _arcane = {title: "Arcane", jsx: <><h2 id="blrgbloodline-arcane-arcane-bloodline">Arcane Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 18</Link></p>
 <p>While others of your kin may be powerful wizards and sorcerers, the eldritch nature of the blood coursing through your veins transforms you into a spell-breaking terror.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/disruptive">Disruptive</Link>*, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/quick_draw">Quick Draw</Link>, <Link to="/feat/spellbreaker">Spellbreaker</Link>*</p>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/combat_reflexes">Combat Reflexes</Link><br/><Link to="/feat/disruptive">Disruptive</Link>&#42;<br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/iron_will">Iron Will</Link><br/><Link to="/feat/power_attack">Power Attack</Link><br/><Link to="/feat/quick_draw">Quick Draw</Link><br/><Link to="/feat/spellbreaker">Spellbreaker</Link>&#42;</Cell></Row></Block>
 <p>Your bloodrager levels count as fighter levels for the purposes of qualifying for any feats marked with an asterisk (*). This stacks with any levels in fighter you have.</p>
 <Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
@@ -1383,7 +1384,8 @@ const _verdant = {title: "Verdant", jsx: <><h2 id="blrgbloodline-verdant-verdant
 const _vestige = {title: "Vestige", jsx: <><h2 id="blrgbloodline-vestige-vestige-bloodline">Vestige Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 6</Link></p>
 <p>You are the descendant of great heroes from a lost civilization.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/combat_casting">Combat Casting</Link>, <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link>, <Link to="/feat/greater_weapon_focus">Greater Weapon Focus</Link>*, <Link to="/feat/greater_weapon_specialization">Greater Weapon Specialization</Link>*, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link>, <Link to="/feat/weapon_specialization">Weapon Specialization</Link>*.</p>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/combat_casting">Combat Casting</Link><br/><Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link><br/><Link to="/feat/greater_weapon_focus">Greater Weapon Focus</Link>&#42;<br/><Link to="/feat/greater_weapon_specialization">Greater Weapon Specialization</Link>&#42;<br/><Link to="/feat/iron_will">Iron Will</Link><br/><Link to="/feat/weapon_focus">Weapon Focus</Link><br/><Link to="/feat/weapon_specialization">Weapon Specialization</Link>&#42;</Cell></Row></Block>
 <p>The bloodrager counts his total bloodrager levels as fighter levels for the purpose of qualifying for any feats marked with an asterisk (*). If he also has levels in fighter, these levels stack.</p>
 <Ability id="bonus-spells-by-bloodrager-level" icon={["learn"]}>
 <Pair single id="bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
