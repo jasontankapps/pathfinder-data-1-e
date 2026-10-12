@@ -98,7 +98,7 @@ const _animal = {hasJL:true,title: "Animal", jsx: <><div className="jumpList" id
 <Pair single id="exoskeleton-su">Exoskeleton (Su)</Pair>
 <Pair hl title="Replaces">The <InnerLink toTop to="domain-animal-speak">speak with animals</InnerLink> power of the Animal domain</Pair>
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
-<Pair title="Swift Action">Grow an exoskeleton that grants you a +1 enhancement bonus to your natural armor and 1d4 <Link to="/rule/temporary_hit_points">temporary hit points</Link> + 1 for every 2 cleric levels you have. The natural armor bonus increases by 1 for every 5 cleric levels you have. The exoskeleton retracts after 1 round, ending its benefits.</Pair>
+<Pair title="Swift Action">Grow an exoskeleton that grants you an enhancement bonus to your natural armor and an amount of <Link to="/rule/temporary_hit_points">temporary hit points</Link>. The enhancement bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your cleric level, and the tempoerary hit points are equal to 1d4 + half of your cleric level. The exoskeleton retracts after 1 round, ending its benefits.</Pair>
 </Ability>
 <SpellList id="replacement-domain-spells" count={3} links={[[1,"calm animals",false],[2,"hold animal",false],[3,"dominate animal",false],[4,"giant vermin","giant_vermin"],[5,"vermin shape II","vermin_shape_ii"],[6,"antilife shell",false],[7,"animal shapes",false],[8,"summon nature's ally VIII","summon_natures_ally_viii",<>1d3 goliath stag beetles</>],[9,"shapechange",false]]}>Replacement Domain Spells</SpellList>
 </>};
@@ -531,7 +531,7 @@ const _death = {hasJL:true,title: "Death", jsx: <><div className="jumpList" id="
 <Pair single id="necrotic-tending-sp">Necrotic Tending (Sp)</Pair>
 <Pair hl title="Replaces">The <InnerLink toTop to="domain-death-touch">bleeding touch</InnerLink> domain power of the Death domain</Pair>
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
-<Pair title="Standard Action">You can touch an undead creature or area affected by a haunt, restoring 1d8 hit points + 1 for every 2 cleric levels you have. This ability has no effect on other creatures.</Pair>
+<Pair title="Standard Action">You can touch an undead creature or area affected by a haunt, restoring an amount of hit points equal to 1d8 + <Link to="/misc/half">half</Link> of your cleric level. This ability has no effect on other creatures.</Pair>
 </Ability>
 </>};
 const _plague = {title: "Plague", jsx: <><h2 id="domain-plague-plague">Plague</h2>

@@ -700,7 +700,7 @@
 			"",
 			"::ab[Mucilaginous Gloom]{icon=zap-aura ability=\"The gloom leaves a chilly gray residue that turns each square in its splash radius into ‹rule/difficult terrain›. This effect lasts for a number of rounds equal to the alchemist's level.\"}",
 			"",
-			"::ab[Rime-Bound Gloom]{icon=zap-aura prereq=\"6th-level alchemist\" ability=\"The gloom creates an area of freezing shadow in its splash radius that deals 2d6 points of cold damage to all creatures in the area each turn. This effect lasts 1 round for every 2 alchemist levels.\"}"
+			"::ab[Rime-Bound Gloom]{icon=zap-aura prereq=\"6th-level alchemist\" ability=\"The gloom creates an area of freezing shadow in its splash radius that deals 2d6 points of cold damage to all creatures in the area each turn. This effect lasts a number of rounds equal to half the alchemist's level.\"}"
 		]
 	},
 	"grenadier": {

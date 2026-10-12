@@ -599,7 +599,7 @@ const _air = {hasJL:true,title: "Air", jsx: <><div className="jumpList" id="arca
 <Pair single id="freezing-shards-su">Freezing Shards (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
-<Pair title="Standard Action">You can cause shards of ice to burst forth from the ground around you. The shards deal 1d4 points of piercing damage and 1d6 points of cold damage + 1 point for every 2 wizard levels you have to all creatures within 5 feet of you. A successful Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) negates the piercing damage and halves the cold damage. The shards remain until the beginning of your next turn; during this time, the area is <Link to="/rule/difficult_terrain">difficult terrain</Link>. You are not affected by your own freezing shards and can move through the area normally.</Pair>
+<Pair title="Standard Action">You can cause shards of ice to burst forth from the ground around you. The shards deal 1d4 points of piercing damage and an amount of cold damage equal to 1d6 + <Link to="/misc/half">half</Link> of your wizard level to all creatures within 5 feet of you. A successful Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) negates the piercing damage and halves the cold damage. The shards remain until the beginning of your next turn; during this time, the area is <Link to="/rule/difficult_terrain">difficult terrain</Link>. You are not affected by your own freezing shards and can move through the area normally.</Pair>
 </Ability>
 <Ability id="icy-shackles-su" icon={["melee"]}>
 <Pair single id="icy-shackles-su">Icy Shackles (Su)</Pair>
@@ -663,7 +663,7 @@ const _earth = {hasJL:true,title: "Earth", jsx: <><div className="jumpList" id="
 <Pair single id="magma-furrow-su">Magma Furrow (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
-<Pair title="Standard Action">You can send forth a 20-foot line of magma. Any creature in this line takes 1d6 points of fire damage + 1 point for every 2 wizard levels you have. A successful Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) halves this damage. In addition, the ground in this area remains molten for another 1d4 rounds. Creatures that begin their turns in the area can move out that turn without penalty, but those that enter the area each take 1d6 points of fire damage.</Pair>
+<Pair title="Standard Action">You can send forth a 20-foot line of magma. Any creature in this line takes an amount of fire damage equal to 1d6 + <Link to="/misc/half">half</Link> of your wizard level. A successful Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) halves this damage. In addition, the ground in this area remains molten for another 1d4 rounds. Creatures that begin their turns in the area can move out that turn without penalty, but those that enter the area each take 1d6 points of fire damage.</Pair>
 </Ability>
 <Ability id="lava-shield-su" icon={["def"]}>
 <Pair single id="lava-shield-su">Lava Shield (Su)</Pair>
@@ -727,7 +727,7 @@ const _fire = {hasJL:true,title: "Fire", jsx: <><div className="jumpList" id="ar
 <Pair single id="magma-furrow-su">Magma Furrow (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
-<Pair title="Standard Action">You can send forth a 20-foot line of magma. Any creature in this line takes 1d6 points of fire damage + 1 point for every 2 wizard levels you have. A successful Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) halves this damage. In addition, the ground in this area remains molten for another 1d4 rounds. Creatures that begin their turns in the area can move out that turn without penalty, but those that enter the area each take 1d6 points of fire damage.</Pair>
+<Pair title="Standard Action">You can send forth a 20-foot line of magma. Any creature in this line takes an amount of fire damage equal to 1d6 + <Link to="/misc/half">half</Link> of your wizard level. A successful Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) halves this damage. In addition, the ground in this area remains molten for another 1d4 rounds. Creatures that begin their turns in the area can move out that turn without penalty, but those that enter the area each take 1d6 points of fire damage.</Pair>
 </Ability>
 <Ability id="lava-shield-su" icon={["def"]}>
 <Pair single id="lava-shield-su">Lava Shield (Su)</Pair>
@@ -878,7 +878,7 @@ const _water = {hasJL:true,title: "Water", jsx: <><div className="jumpList" id="
 <Pair single id="freezing-shards-su">Freezing Shards (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
-<Pair title="Standard Action">You can cause shards of ice to burst forth from the ground around you. The shards deal 1d4 points of piercing damage and 1d6 points of cold damage + 1 point for every 2 wizard levels you have to all creatures within 5 feet of you. A successful Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) negates the piercing damage and halves the cold damage. The shards remain until the beginning of your next turn; during this time, the area is <Link to="/rule/difficult_terrain">difficult terrain</Link>. You are not affected by your own freezing shards and can move through the area normally.</Pair>
+<Pair title="Standard Action">You can cause shards of ice to burst forth from the ground around you. The shards deal 1d4 points of piercing damage and an amount of cold damage equal to 1d6 + <Link to="/misc/half">half</Link> of your wizard level to all creatures within 5 feet of you. A successful Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) negates the piercing damage and halves the cold damage. The shards remain until the beginning of your next turn; during this time, the area is <Link to="/rule/difficult_terrain">difficult terrain</Link>. You are not affected by your own freezing shards and can move through the area normally.</Pair>
 </Ability>
 <Ability id="icy-shackles-su" icon={["melee"]}>
 <Pair single id="icy-shackles-su">Icy Shackles (Su)</Pair>

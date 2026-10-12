@@ -501,7 +501,7 @@ const _restoration = {title: "Restoration", jsx: <><h2 id="inquisition-restorati
 <Ability id="mend-the-broken-su" icon={["aid"]}>
 <Pair single id="mend-the-broken-su">Mend the Broken (Su)</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
-<Pair title="Standard Action">You can touch an object or creature healing it of 1d4 points of damage + 1 for every 2 inquisitor levels you possess. You can use this ability only on a broken object or a creature with fewer than half its maximum hit points.</Pair>
+<Pair title="Standard Action">You can touch an object or creature healing it of an amount of damage equal to 1d4 + <Link to="/misc/half">half</Link> of your inquisitor level. You can use this ability only on a broken object or a creature with fewer than half its maximum hit points.</Pair>
 </Ability>
 <Ability id="cleanse-impunity-su" icon={["boost"]}>
 <Pair single id="cleanse-impunity-su">Cleanse Impunity (Su)</Pair>

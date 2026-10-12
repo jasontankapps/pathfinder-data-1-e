@@ -150,7 +150,7 @@
 			"",
 			"A shaman who chooses the Bones spirit as her *spirit* or *wandering spirit* gains the following ability upon having access to the greater version of that spirit.",
 			"",
-			"::ab[Shard Soul (Su)]{icon=def-aura passive=\"The shaman gains DR 3/magic.\" order=sp incrementPlain=\"The DR~8~4~4~1\" incrementEnd=\"/magic.\" standard=\"She can cause jagged pieces of bone to explode from her body in a 10-foot radius ‹misc/burst›. This deals 1d6 points of piercing damage for every 2 shaman levels she possesses. A successful Reflex saving throw halves this damage.~~~The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.\"}",
+			"::ab[Shard Soul (Su)]{icon=def-aura passive=\"The shaman gains DR 3/magic.\" order=sp incrementPlain=\"The DR~8~4~4~1\" incrementEnd=\"/magic.\" standard=\"She can cause jagged pieces of bone to explode from her body in a 10-foot radius ‹misc/burst›. This deals an amount of piercing damage equal to 1d6 + ‹misc/half› of her shaman level. A successful Reflex saving throw halves this damage.~~~The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.\"}",
 			"",
 			"::h3[True Spirit Ability]{jl}",
 			"",

@@ -18,7 +18,7 @@ const _calamity_caller = {title: "Calamity Caller", jsx: <><h2 id="arc-warpriest
 <Pair hl title="Replaces">Focus weapon, sacred weapon, bonus feats</Pair>
 <Pair title="Standard Action">A calamity caller can cause a 5-foot square within 30 feet to suffer a calamity. A calamity deals 1d6 damage to creatures within that square. The type of calamity determines what type of damage the calamity deals (see below). An affected creature can attempt a saving throw to reduce this damage by half (DC = 10 + half the calamity caller's warpriest level + the calamity caller's Wisdom modifier); the type of save is determined by the calamity. The calamity caller can use this ability at will.</Pair>
 <Pair title="At 3rd Level">The amount of damage becomes 2d6.</Pair>
-<Pair title="At 4th Level">A calamity caller can create an enhanced calamity when he uses this ability. An enhanced calamity deals twice the calamity's normal damage; in addition, a creature that fails its save suffers an additional effect (see below). A creature must take damage from the calamity to suffer these additional effects. The calamity caller can create an <em>enhanced calamity</em> once per day for every 2 warpriest levels he has.</Pair>
+<Pair title="At 4th Level">A calamity caller can create an enhanced calamity when he uses this ability. An enhanced calamity deals twice the calamity's normal damage; in addition, a creature that fails its save suffers an additional effect (see below). A creature must take damage from the calamity to suffer these additional effects. The calamity caller can create an <em>enhanced calamity</em> a number of times per day equal to <Link to="/misc/half">half</Link> of his warpriest level.</Pair>
 <Pair title="At 5th Level">The amount of damage increases to 3d6.</Pair>
 <Pair title="At 7th Level">The amount of damage becomes 4d6.</Pair>
 <Pair title="At 8th Level">Effects created by an <em>enhanced calamity</em> that last for 1 or more rounds persist for 1 additional round.</Pair>
@@ -32,34 +32,34 @@ const _calamity_caller = {title: "Calamity Caller", jsx: <><h2 id="arc-warpriest
 <Pair title="At 19th Level">The amount of damage becomes 10d6.</Pair>
 <Pair title="Special">The calamities available to calamity callers, the type of damage they deal, the saving throw to resist the damage, and the secondary effect they cause when enhanced, are listed below.</Pair>
 </Ability>
-<Ability id="acid-rain" extraClasses="subAbility" icon={["ranged"]}>
+<Ability id="acid-rain" extraClasses="subAbility" icon={["select"]}>
 <Pair single id="acid-rain">Acid Rain</Pair>
 <Pair title="Ability">A brief rain shower deals acid damage to the target square, with a Fortitude save for half damage. A creature that fails its save against <em>enhanced</em> acid rain continues to dissolve for 1 round, automatically taking half the original damage.</Pair>
 </Ability>
-<Ability id="blizzard" extraClasses="subAbility" icon={["ranged"]}>
+<Ability id="blizzard" extraClasses="subAbility" icon={["select"]}>
 <Pair single id="blizzard">Blizzard</Pair>
 <Pair title="Ability">Hail deals cold damage to the target square, with a Fortitude save for half damage. A creature that fails its save against an <em>enhanced</em> blizzard is <Link to="/misc/blinded">blinded</Link> for 1 round.</Pair>
 </Ability>
-<Ability id="deadfall" extraClasses="subAbility" icon={["ranged"]}>
+<Ability id="deadfall" extraClasses="subAbility" icon={["select"]}>
 <Pair single id="deadfall">Deadfall</Pair>
 <Pair title="Ability">A tree branch, stone boulder, or other heavy object falls on the target square. A deadfall deals bludgeoning damage, with a Reflex save for half damage. A creature that fails its save against an <em>enhanced</em> deadfall is knocked <Link to="/rule/prone">prone</Link>.</Pair>
 <Pair title="At 12th Level">The target is also <Link to="/misc/confused">confused</Link> for 1 round.</Pair>
 </Ability>
-<Ability id="flash-flood" extraClasses="subAbility" icon={["ranged"]}>
+<Ability id="flash-flood" extraClasses="subAbility" icon={["select"]}>
 <Pair single id="flash-flood">Flash Flood</Pair>
 <Pair title="Ability">A brief surge of stormy water deals bludgeoning damage to the target square, with a Reflex save for half damage. An <em>enhanced</em> flash flood does not cause additional effects; instead, an <em>enhanced</em> flash flood targets creatures in a 5-foot radius.</Pair>
 <Pair title="At 12th Level">The area increases to a 10-foot radius.</Pair>
 <Pair title="At 16th Level">The area increases to a 15-foot radius.</Pair>
 </Ability>
-<Ability id="lightning-strike" extraClasses="subAbility" icon={["ranged"]}>
+<Ability id="lightning-strike" extraClasses="subAbility" icon={["select"]}>
 <Pair single id="lightning-strike">Lightning Strike</Pair>
 <Pair title="Ability">A bolt of lightning deals electricity damage to the target square, with a Reflex save for half damage. A creature that fails its save against an <em>enhanced</em> lightning strike is <Link to="/misc/staggered">staggered</Link> for 1 round by electrical impulses.</Pair>
 </Ability>
-<Ability id="thorny-vines" extraClasses="subAbility" icon={["ranged"]}>
+<Ability id="thorny-vines" extraClasses="subAbility" icon={["select"]}>
 <Pair single id="thorny-vines">Thorny Vines</Pair>
 <Pair title="Ability">Vines covered with thick thorns wrap around the target square. The thorny vines deal piercing damage, with a Reflex save for half damage. A creature that fails its save against <em>enhanced</em> thorny vines is <Link to="/rule/entangled">entangled</Link> for 1 round.</Pair>
 </Ability>
-<Ability id="volcanic-rift" extraClasses="subAbility" icon={["ranged"]}>
+<Ability id="volcanic-rift" extraClasses="subAbility" icon={["select"]}>
 <Pair single id="volcanic-rift">Volcanic Rift</Pair>
 <Pair title="Ability">A magmatic rift emits a plume of fire into the air, dealing fire damage to the target square, with a Fortitude save for half damage. An <em>enhanced</em> volcanic rift also emits poisonous and corrosive gases; a creature that fails its save against the <em>enhanced</em> volcanic rift is <Link to="/misc/sickened">sickened</Link> for 1 round.</Pair>
 </Ability>

@@ -1081,7 +1081,7 @@ const _ruthless_agent = {title: "Ruthless Agent", jsx: <><h2 id="arc-investigato
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Usage">3 + Intelligence modifier times/day</Pair>
-<Pair title="Full-Round Action">A ruthless agent can ask a target one question for every 2 investigator levels she has. The target is not compelled to answer truthfully, but the ruthless agent's implicit or explicit threats and looming manner leads the target to believe the ruthless agent will cause it serious harm if it lies. This imposes a -2 penalty on the target's Bluff checks to lie when answering the specific questions the ruthless agent asked.</Pair>
+<Pair title="Full-Round Action">A ruthless agent can ask a target a number of questions equal to <Link to="/misc/half">half</Link> of her investigator level. The target is not compelled to answer truthfully, but the ruthless agent's implicit or explicit threats and looming manner leads the target to believe the ruthless agent will cause it serious harm if it lies. This imposes a -2 penalty on the target's Bluff checks to lie when answering the specific questions the ruthless agent asked.</Pair>
 <Pair title="At 6th Level">The penalty becomes -4.</Pair>
 <Pair title="At 9th Level">The penalty increases to -6.</Pair>
 <Pair title="At 12th Level">The penalty becomes -8.</Pair>

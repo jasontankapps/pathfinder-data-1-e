@@ -238,7 +238,7 @@ const _black_blood = {title: "Black Blood", jsx: <><h2 id="blrgbloodline-black_b
 <Ability id="retributive-spray-su" icon={["line"]}>
 <Pair single id="retributive-spray-su">Retributive Spray (Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
-<Pair title="Passive Ability">Whenever you're hit by an attack or spell that deals slashing or piercing damage, your black blood sprays up to 10 feet toward the opponent who attacked you, striking the first creature along its path. That creature takes 1d8 points of cold damage + 1 point of cold damage for every 2 bloodrager levels you possess. A successful Reflex save (DC = 10 + 1/2 your bloodrager level + your Constitution modifier) halves the damage.</Pair>
+<Pair title="Passive Ability">Whenever you're hit by an attack or spell that deals slashing or piercing damage, your black blood sprays up to 10 feet toward the opponent who attacked you, striking the first creature along its path. That creature takes an amount of cold damage equal to 1d8 + <Link to="/misc/half">half</Link> of your bloodrager level. A successful Reflex save (DC = 10 + 1/2 your bloodrager level + your Constitution modifier) halves the damage.</Pair>
 </Ability>
 <Ability id="black-blood-transfusion-su" icon={["melee","lower"]}>
 <Pair single id="black-blood-transfusion-su">Black Blood Transfusion (Su)</Pair>

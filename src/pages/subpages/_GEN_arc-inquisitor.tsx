@@ -1113,7 +1113,7 @@ const _tactical_leader = {title: "Tactical Leader", jsx: <><h2 id="arc-inquisito
 <Pair title="At 3rd Level">A tactical leader gains a teamwork feat as a bonus feat. He must meet the prerequisites for this feat.</Pair>
 <Pair title="At 9th Level">He gains another teamwork feat, as above.</Pair>
 <Pair title="At 18th Level">He gains a third teamwork feat, as above.</Pair>
-<Pair title="Standard Action">The tactical leader can grant one of these feats to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every 2 inquisitor levels the tactical leader has. Allies do not need to meet the prerequisites of these bonus feats.</Pair>
+<Pair title="Standard Action">The tactical leader can grant one of these feats to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for a number of rounds equal to 3 + <Link to="/misc/half">half</Link> of his inquisitor level. Allies do not need to meet the prerequisites of these bonus feats.</Pair>
 <Pair title="Usage">1 time/day per three inquisitor levels<ByLevelPop levels={[[3,1],[6,2],[9,3],[12,4],[15,5],[18,6]]} unit="time" postText="/day" /></Pair>
 <Pair title="At 12th Level">A tactical leader can use the <em>tactician</em> ability as a <strong className="hl">swift action</strong>.</Pair>
 <Pair title="At 18th Level">Whenever the tactical leader uses this ability, he grants any two teamwork feats that he knows. He can select from any of his teamwork feats, not just his bonus feats.</Pair>

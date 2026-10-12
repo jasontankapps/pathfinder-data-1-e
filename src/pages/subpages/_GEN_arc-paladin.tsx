@@ -599,7 +599,7 @@ const _holy_guide = {title: "Holy Guide", jsx: <><h2 id="arc-paladin-holy_guide-
 <Pair hl title="Replaces">6th-level mercy</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">A holy guide gains a <Link to="/main/teamwork_feat">teamwork feat</Link> as a bonus feat. He must meet the prerequisites for this feat.</Pair>
-<Pair title="Standard Action">He can expend one use of <em>smite evil</em> to grant this feat to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every 2 levels the holy guide possesses. Allies do not need to meet the prerequisites of this bonus feat. Evil creatures do not gain the benefit of this teamwork feat, even if the paladin considers them allies.</Pair>
+<Pair title="Standard Action">He can expend one use of <em>smite evil</em> to grant this feat to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for a number of rounds equal to 3 + <Link to="/misc/half">half</Link> of his paladin level. Allies do not need to meet the prerequisites of this bonus feat. Evil creatures do not gain the benefit of this teamwork feat, even if the paladin considers them allies.</Pair>
 </Ability>
 </>};
 const _holy_gun = {title: "Holy Gun", jsx: <><h2 id="arc-paladin-holy_gun-holy-gun">Holy Gun</h2>

@@ -121,7 +121,7 @@
 			"",
 			"@HL[Replacement Power:] The domain spells provided by the Insect domain affect vermin rather than animals, treating them as if they were not immune to spells with the mind-affecting descriptor. Any such spell that allows a Will save can instead be negated by the target vermin with a successful Fortitude save at the same DC.",
 			"",
-			"::ab[Exoskeleton (Su)]{replace=\"The ‹‹speak with animals/#speak›› power of the Animal domain\" icon=def swift=\"Grow an exoskeleton that grants you a +1 enhancement bonus to your natural armor and 1d4 ‹rule/temporary hit points› + 1 for every 2 cleric levels you have. The natural armor bonus increases by 1 for every 5 cleric levels you have. The exoskeleton retracts after 1 round, ending its benefits.\" useMod=Wis3}",
+			"::ab[Exoskeleton (Su)]{replace=\"The ‹‹speak with animals/#speak›› power of the Animal domain\" icon=def swift=\"Grow an exoskeleton that grants you an enhancement bonus to your natural armor and an amount of ‹rule/temporary hit points›. The enhancement bonus is equal to 1 + ‹misc/one-fifth› of your cleric level, and the tempoerary hit points are equal to 1d4 + half of your cleric level. The exoskeleton retracts after 1 round, ending its benefits.\" useMod=Wis3}",
 			"",
 			"::spelllist[Replacement Domain Spells]{from=domain l4=\"giant vermin\" l5=\"vermin shape II\" l8=\"summon nature's ally VIII|1d3 goliath stag beetles\"}"
 		]
@@ -696,7 +696,7 @@
 			"",
 			"A risen spirit is akin to a plant that must be tended. Such are the teachings of ‹faith/Urgathoa›, the goddess who is believed to be the first undead creature. Unlike many of her deific counterparts, Urgathoa champions the shepherding and protection of haunts and possessing spirits, even to the danger and detriment of her own followers. The faithful of the Pallid Princess believe that by prolonging the torment and tortured existence of a spirit, they create something akin to a beautiful piece of artwork. In a similar manner, servants of Urgathoa view the possession of a mortal body by a deceased spirit as a blessing.",
 			"",
-			"::ab[Necrotic Tending (Sp)]{replace=\"The ‹‹bleeding touch/#touch›› domain power of the Death domain\" icon=aid standard=\"You can touch an undead creature or area affected by a haunt, restoring 1d8 hit points + 1 for every 2 cleric levels you have. This ability has no effect on other creatures.\" useMod=Wis3}"
+			"::ab[Necrotic Tending (Sp)]{replace=\"The ‹‹bleeding touch/#touch›› domain power of the Death domain\" icon=aid standard=\"You can touch an undead creature or area affected by a haunt, restoring an amount of hit points equal to 1d8 + ‹misc/half› of your cleric level. This ability has no effect on other creatures.\" useMod=Wis3}"
 		]
 	},
 	"murder": { "redirect": "death" },

@@ -192,7 +192,7 @@
 			"",
 			"::ab[Bonus Feats (Ex)]{icon=power l4=\"A consigliere can choose to gain a single ‹main/teamwork feat› instead of a single rogue talent. (This substitution can only be used once, at either 4th, 6th, or 8th level.)\" l12=\"The consigliere can choose to gain teamwork feats instead of rogue talents as many times as she chooses.\" replace=\"Trap sense\"}",
 			"",
-			"::ab[Field Boss (Ex)]{l=10 icon=power standard=\"A consigliere can grant a teamwork feat to all allies within 30 feet who can see and hear her. This teamwork feat must be one the consigliere knows. Allies retain the use of this feat for 3 rounds plus 1 round for every 2 rogue levels the consigliere has. Allies do not need to meet the prerequisites of this teamwork feat.\" useInc=rogue~4~10 useF=\"10~1~4\" replace=\"Rogue talent normally gained at 10th level\"}",
+			"::ab[Field Boss (Ex)]{l=10 icon=power standard=\"A consigliere can grant a teamwork feat to all allies within 30 feet who can see and hear her. This teamwork feat must be one the consigliere knows. Allies retain the use of this feat for a number of rounds equal to 3 + ‹misc/half› of her rogue level. Allies do not need to meet the prerequisites of this teamwork feat.\" useInc=rogue~4~10 useF=\"10~1~4\" replace=\"Rogue talent normally gained at 10th level\"}",
 			"",
 			"::list[These rogue talents complement this archetype]{link=talent all=\"assault leader~black market connections~shades of gray~coax information~honeyed words~certainty|Bluff; unchained rogue only\"}",
 			"",

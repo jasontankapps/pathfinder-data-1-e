@@ -750,7 +750,7 @@ const _vanguard = {title: "Vanguard", jsx: <><h2 id="arc-slayer-vanguard-vanguar
 <Pair hl title="Replaces">Slayer talent gained at 2nd level</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A vanguard receives a <Link to="/main/teamwork_feat">teamwork feat</Link> as a bonus feat. He must meet the prerequisites for this feat.</Pair>
-<Pair title="Standard Action">Once per day, the vanguard can grant one of his teamwork feats to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every 2 levels the vanguard possesses. Allies do not need to meet the prerequisites of this bonus feat.</Pair>
+<Pair title="Standard Action">Once per day, the vanguard can grant one of his teamwork feats to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for a number of rounds equal to 3 + <Link to="/misc/half">half</Link> of his slayer level. Allies do not need to meet the prerequisites of this bonus feat.</Pair>
 <Pair title="Special">Whenever the vanguard is able to select a new slayer talent, he can instead choose to gain an additional use per day of this ability.</Pair>
 </Ability>
 <Ability id="vanguards-bond-ex" icon={["boost"]}>

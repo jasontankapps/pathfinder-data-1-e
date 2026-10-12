@@ -1070,7 +1070,7 @@ const _gloom_chymist = {title: "Gloom Chymist", jsx: <><h2 id="arc-alchemist-glo
 <Ability id="rime-bound-gloom" icon={["zap","aura"]}>
 <Pair single id="rime-bound-gloom">Rime-Bound Gloom</Pair>
 <Pair title="Prerequisites">6th-level alchemist</Pair>
-<Pair title="Ability">The gloom creates an area of freezing shadow in its splash radius that deals 2d6 points of cold damage to all creatures in the area each turn. This effect lasts 1 round for every 2 alchemist levels.</Pair>
+<Pair title="Ability">The gloom creates an area of freezing shadow in its splash radius that deals 2d6 points of cold damage to all creatures in the area each turn. This effect lasts a number of rounds equal to half the alchemist's level.</Pair>
 </Ability>
 </>};
 const _grenadier = {title: "Grenadier (PSFG)", jsx: <><h2 id="arc-alchemist-grenadier-grenadier-psfg">Grenadier (PSFG)</h2>

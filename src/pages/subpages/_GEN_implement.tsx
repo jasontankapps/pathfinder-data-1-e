@@ -232,7 +232,7 @@ const _enchantment = {title: "Enchantment", jsx: <><h2 id="implement-enchantment
 <Ability id="binding-pattern-sp" icon={["lower"]}>
 <Pair single id="binding-pattern-sp">Binding Pattern (Sp)</Pair>
 <Pair title="Prerequisites">7th-level occultist</Pair>
-<Pair title="Standard Action">You can expend 1 point of mental focus to create a binding pattern of psychic energy that causes a living creature to become <Link to="/rule/paralyzed">paralyzed</Link>. The target must be within 30 feet of you, and it can attempt a Will saving throw to negate the effect. If it fails the save, it is paralyzed for 1 round for every 2 occultist levels you possess.</Pair>
+<Pair title="Standard Action">You can expend 1 point of mental focus to create a binding pattern of psychic energy that causes a living creature to become <Link to="/rule/paralyzed">paralyzed</Link>. The target must be within 30 feet of you, and it can attempt a Will saving throw to negate the effect. If it fails the save, it is paralyzed for a number of rounds equal to <Link to="/misc/half">half</Link> of your occultist level.</Pair>
 <Pair title="Special">At the end of each of its turns, it can attempt another Will save to end the paralyzed effect and instead be staggered for the remaining duration. This is a mind-affecting compulsion effect.</Pair>
 </Ability>
 <Ability id="forced-alliance-sp" icon={["magic"]}>
@@ -283,7 +283,7 @@ const _evocation = {title: "Evocation", jsx: <><h2 id="implement-evocation-evoca
 <h3 id="implement-evocation-resonant-power">Resonant Power</h3>
 <Ability id="intense-focus-su" icon={["boost"]}>
 <Pair single id="intense-focus-su" flavor="The implement channels and enhances the effects of damaging evocations.">Intense Focus (Su)</Pair>
-<Pair title="Ability">A spellcaster who bears the implement can add the implement as an additional focus component for any of his damaging evocation spells that have an instantaneous duration or focus powers with an instantaneous duration. If he does so, the spell or focus power deals 1 additional point of damage of the same type to each creature for every 2 points of mental focus invested in the implement, to a maximum of 1 + 1 for every 2 occultist levels you possess.</Pair>
+<Pair title="Ability">A spellcaster who bears the implement can add the implement as an additional focus component for any of his damaging evocation spells that have an instantaneous duration or focus powers with an instantaneous duration. If he does so, the spell or focus power deals 1 additional point of damage of the same type to each creature for every 2 points of mental focus invested in the implement, to a maximum of 1 + <Link to="/misc/half">half</Link> of your occultist level.</Pair>
 </Ability>
 <h3 id="implement-evocation-base-focus-power">Base Focus Power</h3>
 <Ability id="energy-ray-sp" icon={["zap"]}>

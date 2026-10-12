@@ -464,7 +464,7 @@ const _forester = {title: "Forester", jsx: <><h2 id="arc-hunter-forester-foreste
 <Pair hl title="Replaces">Hunter tactics</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Usage">1 time/day + 1 per five hunter levels beyond 2nd<ByLevelPop levels={[[3,1],[7,2],[12,3],[17,4]]} unit="time" postText="/day" /></Pair>
-<Pair title="Standard Action">A forester can grant the benefits of one teamwork feat to all allies within 30 feet who can see and hear her. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every 2 levels the forester has. Allies do not need to meet the prerequisites of these bonus feats.</Pair>
+<Pair title="Standard Action">A forester can grant the benefits of one teamwork feat to all allies within 30 feet who can see and hear her. Allies retain the use of this bonus feat for a number of rounds equal to 3 + <Link to="/misc/half">half</Link> of her hunter level. Allies do not need to meet the prerequisites of these bonus feats.</Pair>
 </Ability>
 <Ability id="evasion-ex" icon={["def"]}>
 <Pair single id="evasion-ex">Evasion (Ex)</Pair>

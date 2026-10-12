@@ -241,7 +241,7 @@ const _bones = {hasJL:true,title: "Bones", jsx: <><div className="jumpList" id="
 <p>A shaman who chooses the Bones spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability upon having access to the greater version of that spirit.</p>
 <Ability id="shard-soul-su" icon={["def","aura"]}>
 <Pair single id="shard-soul-su">Shard Soul (Su)</Pair>
-<Pair title="Standard Action"><p>She can cause jagged pieces of bone to explode from her body in a 10-foot radius <Link to="/misc/burst">burst</Link>. This deals 1d6 points of piercing damage for every 2 shaman levels she possesses. A successful Reflex saving throw halves this damage.</p>
+<Pair title="Standard Action"><p>She can cause jagged pieces of bone to explode from her body in a 10-foot radius <Link to="/misc/burst">burst</Link>. This deals an amount of piercing damage equal to 1d6 + <Link to="/misc/half">half</Link> of her shaman level. A successful Reflex saving throw halves this damage.</p>
 <p>The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.</p>
 </Pair>
 <Pair title="Passive Ability">The shaman gains DR 3/magic.</Pair>

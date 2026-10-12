@@ -526,7 +526,7 @@ const _symbol_striker = {title: "Symbol Striker", jsx: <><h2 id="arc-bloodrager-
 <Pair hl title="Replaces">Bloodline feat gained at 9th level</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Usage">3 + Cha modifier times/day</Pair>
-<Pair title="Standard Action">The symbol striker can use a melee weapon to place a <em>rune trap</em> in any adjacent square. Any creature entering a square containing a <em>rune trap</em> takes 1d6 points of damage plus 1 additional point of damage for every 2 bloodrager levels the symbol striker has. This rune deals either acid, cold, electricity, or fire damage, which is decided at the rune's creation. The rune is clearly visible and lasts a number of minutes equal to the symbol striker's bloodrager level or until discharged.</Pair>
+<Pair title="Standard Action">The symbol striker can use a melee weapon to place a <em>rune trap</em> in any adjacent square. Any creature entering a square containing a <em>rune trap</em> takes damage equal to 1d6 + <Link to="/misc/half">half</Link> of his bloodrager level. This rune deals either acid, cold, electricity, or fire damage, which is decided at the rune's creation. The rune is clearly visible and lasts a number of minutes equal to the symbol striker's bloodrager level or until discharged.</Pair>
 <Pair title="Special">A symbol striker cannot create a <em>rune trap</em> in a square occupied by another creature. This rune counts as a 1st-level spell for the purpose of dispelling. A creature can disarm the rune by succeeding at a DC 26 Disable Device check.</Pair>
 </Ability>
 </>};

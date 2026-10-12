@@ -344,7 +344,7 @@ const _mnemostiller = {title: "Mnemostiller", jsx: <><h2 id="arc-alchemist-mnemo
 <Pair hl title="Replaces">Bombs</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An anguish bomb is identical to a bomb except that it deals nonlethal damage, it deals no damage to inanimate objects and creatures immune to mental effects, and creatures caught in the anguish bomb's splash can attempt a Will save for half damage. A mnemostiller uses his Charisma score in place of his Intelligence score to determine the bonus damage of his anguish bomb and the save DC of the anguish bomb's splash damage. He still uses his Intelligence score to determine his number of bombs per day.</Pair>
-<Pair title="Special">If the mnemostiller has taken any hit point damage in the past 24 hours, his anguish bombs inflict 1 additional point of nonlethal damage for every 2 alchemist levels he has.</Pair>
+<Pair title="Special">If the mnemostiller has taken any hit point damage in the past 24 hours, his anguish bombs inflict additional nonlethal damage equal to <Link to="/misc/half">half</Link> of his alchemist level.</Pair>
 </Ability>
 <Ability id="brewed-memories" icon={["learn"]}>
 <Pair single id="brewed-memories" flavor="A mnemostiller can create several unique extracts from the mnemos he pulls from the minds of others.">Brewed Memories</Pair>

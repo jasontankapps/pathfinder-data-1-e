@@ -471,7 +471,7 @@ const _vermin = {title: "Vermin", jsx: <><h2 id="druiddomain-vermin-vermin-domai
 <Pair single id="sudden-sting-su">Sudden Sting (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
-<Pair title="Swift Action">You can inflict a lingering, painful sting. This requires a successful melee touch attack. This sting deals 1d4 points of piercing damage plus 1 point for every 2 druid levels you have, and the target must succeed at a Fortitude save (DC = 10 + half your druid level + your Constitution modifier) or become <Link to="/misc/staggered">staggered</Link> for 1 round. This is a pain effect.</Pair>
+<Pair title="Swift Action">You can inflict a lingering, painful sting. This requires a successful melee touch attack. This sting deals an amount of piercing damage equal to 1d4 + <Link to="/misc/half">half</Link> of your druid level, and the target must succeed at a Fortitude save (DC = 10 + half your druid level + your Constitution modifier) or become <Link to="/misc/staggered">staggered</Link> for 1 round. This is a pain effect.</Pair>
 </Ability>
 <SpellList id="domain-spells" links={[[1,"ant haul","ant_haul"],[2,"summon swarm","summon_swarm"],[3,"vermin shape I","vermin_shape_i"],[4,"vermin shape II","vermin_shape_ii"],[5,"insect plague","insect_plague"],[6,"swarm skin","swarm_skin"],[7,"creeping doom","creeping_doom"],[8,"verminous transformation","verminous_transformation"],[9,"summon nature's ally IX","summon_natures_ally_ix",<>1d3 purple worms only</>]]}>Domain Spells</SpellList>
 </>};
