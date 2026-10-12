@@ -182,7 +182,7 @@ const _petal_ninja = {title: "Petal Ninja", jsx: <><h2 id="arc-ninja-petal_ninja
 <Pair title="Standard Action">By spending 1 point from her ki pool, a petal ninja can take the form of a cloud of blossoms, becoming insubstantial for 1 round, as <Link to="/spell/gaseous_form">gaseous form</Link>. While insubstantial she also gains a +4 circumstance bonus on Stealth checks.</Pair>
 <Pair title="At 8th Level">The duration increases to a number of rounds equal to 1 plus the petal ninja's Charisma modifier.</Pair>
 </Ability>
-<Ability id="sundial-su" icon={["magic"]}>
+<Ability id="sundial-su" icon={["aura"]}>
 <Pair single id="sundial-su">Sundial (Su)</Pair>
 <Pair hl title="Replaces">Light steps</Pair>
 <Pair title="Gained">At 6th Level</Pair>

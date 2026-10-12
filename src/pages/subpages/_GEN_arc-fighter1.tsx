@@ -199,7 +199,7 @@ const _archer = {title: "Archer", jsx: <><h2 id="arc-fighter-archer-archer">Arch
 <Pair title="Passive Ability">An archer gains a +2 dodge bonus to AC against ranged attacks.</Pair>
 <Pair title="At 17th Level">This bonus becomes +4.</Pair>
 </Ability>
-<Ability id="volley-ex" icon={["power"]}>
+<Ability id="volley-ex" icon={["ranged","boom"]}>
 <Pair single id="volley-ex">Volley (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 4</Pair>
 <Pair title="Gained">At 17th Level</Pair>

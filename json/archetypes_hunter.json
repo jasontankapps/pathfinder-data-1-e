@@ -148,7 +148,7 @@
 			"",
 			":::",
 			"",
-			"::ab[Otherworldly Companion (Su)]{l=3 icon=magic passive=\"A hunter's companion takes on otherworldly features. If the divine hunter is good (or worships a good deity), the animal companion gains the ‹template/celestial« template›. If the hunter is evil (or worships an evil deity), the animal companion gains the ‹template/fiendish« template›. If the hunter is neutral and worships a neutral deity, she must choose either the celestial or fiendish template; once this choice is made, it cannot be changed. The companion's CR is considered to be equal to its Hit Dice for the purpose of the celestial or fiendish template.\" replace=\"Hunter tactics\"}"
+			"::ab[Otherworldly Companion (Su)]{l=3 icon=boost passive=\"A hunter's companion takes on otherworldly features. If the divine hunter is good (or worships a good deity), the animal companion gains the ‹template/celestial« template›. If the hunter is evil (or worships an evil deity), the animal companion gains the ‹template/fiendish« template›. If the hunter is neutral and worships a neutral deity, she must choose either the celestial or fiendish template; once this choice is made, it cannot be changed. The companion's CR is considered to be equal to its Hit Dice for the purpose of the celestial or fiendish template.\" replace=\"Hunter tactics\"}"
 		]
 	},
 	"feral_hunter": {

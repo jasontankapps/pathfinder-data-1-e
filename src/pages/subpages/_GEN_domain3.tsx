@@ -329,11 +329,11 @@ const _healing = {hasJL:true,title: "Healing", jsx: <><div className="jumpList" 
 <h4 id="domain-healing-irori">Irori</h4>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 8</Link></p>
 <p>Through <Link to="/faith/irori">Irori's</Link> teachings, impurities in oneself and in the world are overcome. Irori's followers are some of the most self-disciplined of Golarion's faithful, believing that knowledge is the best weapon one can wield against the shackles of possession. They rarely directly involve themselves in battling those intruding forces, instead hoping the afflicted can overcome their situations through their own force of will. Haunts are the one exception to this mantra of non-intervention. As spirits beyond the mortal cycle, haunts are often targeted by the servants of Irori as being stains on the delicate fabric of the world.</p>
-<Ability id="exorcise-haunt-sp" icon={["zap"]}>
+<Ability id="exorcise-haunt-sp" icon={["aura"]}>
 <Pair single id="exorcise-haunt-sp">Exorcise Haunt (Sp)</Pair>
 <Pair hl title="Replaces">The <InnerLink toTop to="domain-healing-rebuke">rebuke death</InnerLink> domain power of the Healing domain</Pair>
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
-<Pair title="Standard Action">You can emit a <Link to="/misc/burst">burst</Link> of positive energy. Any haunt within 15 feet of you takes 1d8 points of damage plus 1 for every 2 cleric levels you have.</Pair>
+<Pair title="Standard Action">You can emit a <Link to="/misc/burst">burst</Link> of positive energy. Any haunt within 15 feet of you takes damage equal to 1d8 + <Link to="/misc/half">half</Link> of your cleric level.</Pair>
 </Ability>
 </>};
 const _knowledge = {hasJL:true,title: "Knowledge", jsx: <><div className="jumpList" id="domain-knowledge-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="domain-knowledge-aeon-subdomain">Aeon Subdomain</InnerLink></li><li><InnerLink toTop to="domain-knowledge-education-subdomain">Education Subdomain</InnerLink></li><li><InnerLink toTop to="domain-knowledge-espionage-subdomain">Espionage Subdomain</InnerLink></li><li><InnerLink toTop to="domain-knowledge-memory-subdomain">Memory Subdomain</InnerLink></li><li><InnerLink toTop to="domain-knowledge-thought-subdomain">Thought Subdomain</InnerLink></li></ul></div><h2 id="domain-knowledge-knowledge">Knowledge</h2>

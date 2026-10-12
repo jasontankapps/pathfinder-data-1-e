@@ -837,7 +837,7 @@ const _shieldbearer = {title: "Shieldbearer", jsx: <><h2 id="arc-warpriest-shiel
 </Ability>
 <Ability id="channel-energy-su" icon={["down","cone"]}>
 <Pair single id="channel-energy-su">Channel Energy (Su)</Pair>
-<Pair title="Info">The shieldbearer can <em>channel energy</em> only when carrying a shield, and the ability manifests as a 30-foot-cone <Link to="/misc/burst">burst</Link>, rather than as a radius.</Pair>
+<Pair title="Info">The shieldbearer can <em>channel energy</em> only when carrying a shield, and the ability manifests as a 30-foot-cone burst, rather than as a radius.</Pair>
 </Ability>
 </>};
 const _sixth_wing_bulwark = {title: "Sixth Wing Bulwark", jsx: <><h2 id="arc-warpriest-sixth_wing_bulwark-sixth-wing-bulwark">Sixth Wing Bulwark</h2>

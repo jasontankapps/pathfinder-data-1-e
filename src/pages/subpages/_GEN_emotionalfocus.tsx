@@ -440,7 +440,7 @@ const _whimsey = {title: "Whimsey", jsx: <><h2 id="emotionalfocus-whimsey-whimse
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">The phantom can perform combat maneuvers against creatures up to 15 feet away. When doing so, it can use its Charisma modifier in place of its Strength modifier on its combat maneuver checks.</Pair>
 </Ability>
-<Ability id="invoke-laughter-sp" icon={["magic"]}>
+<Ability id="invoke-laughter-sp" icon={["magic","aura"]}>
 <Pair single id="invoke-laughter-sp">Invoke Laughter (Sp)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Standard Action">Once per day, the phantom can cause nearby creatures to fall into fits of uncontrollable laughter. Each creature in a 30-foot-radius <Link to="/misc/burst">burst</Link> centered on the phantom must succeed at a Will save (DC = 10 + half the phantom's Hit Dice + the phantom's Charisma modifier) or begin laughing uncontrollably, as the spell <Link to="/spell/hideous_laughter">hideous laughter</Link>.</Pair>

@@ -525,11 +525,11 @@ const _follow_along = {title: "Follow Along", jsx: <><p><strong>Sources</strong>
 </Ability>
 </>};
 const _grig_jig = {title: "Grig Jig", jsx: <><p><strong>Sources</strong> <Link to="/source/the_harrow_handbook">The Harrow Handbook pg. 20</Link></p>
-<Ability id="grig-jig-su" icon={["magic"]}>
-<Pair single id="grig-jig-su">Grig Jig (Su)</Pair>
+<Ability id="grig-jig-su" icon={["magic","select"]}>
+<Pair single id="grig-jig-su" flavor="The rogue can weave a bit of old Varisian magic into her footwork, dancing with an infectious passion that compels another nearby to join in.">Grig Jig (Su)</Pair>
 <Pair title="Prerequisites">Intelligence 12+</Pair>
 <Pair title="Usage">1 time/day + 1 per five rogue levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
-<Pair title="Ability"><p>The rogue can weave a bit of old Varisian magic into her footwork, dancing with an infectious passion that compels another nearby to join in. The rogue can target one humanoid within 30 feet and attempt a <Link to="/skill/perform">Perform</Link> (dance) check as a <strong className="hl">full-round action</strong> that does not provoke an attack of opportunity. Her target must succeed at a Will save (DC equal to the rogue's Perform [dance]) or it begins to dance uncontrollably.</p>
+<Pair title="Ability"><p>The rogue can target one humanoid within 30 feet and attempt a <Link to="/skill/perform">Perform</Link> (dance) check as a <strong className="hl">full-round action</strong> that does not provoke an attack of opportunity. Her target must succeed at a Will save (DC equal to the rogue's Perform [dance]) or it begins to dance uncontrollably.</p>
 <p>So long as the rogue continues to spend a full-round action dancing each round, the affected target does so as well. If the target is attacked or otherwise in immediate danger while dancing, the effect ends.</p>
 <p>Each round on its turn, the target can attempt an <Link to="/skill/acrobatics">Acrobatics</Link> or Perform (dance) check or a Will save (target's choice) against the rogue's Perform (dance) check to end the effect.</p>
 </Pair>

@@ -764,7 +764,7 @@ const _cleric = {hasJL:true,title: "Cleric", jsx: <><div className="jumpList" id
 <Pair title="Special">Creatures healed by channeled energy cannot exceed their maximum hit point total - all excess healing is lost.</Pair>
 </Ability>
 <aside><p>Some deities may endow their mortal servants with the power to channel energies in other ways that more closely mirror their particular focus. You may choose one of these <Link to="/ability/variant_channeling">variant channeling abilities</Link> instead.</p>
-</aside><Ability id="domains" icon={["power","magic"]}>
+</aside><Ability id="domains" icon={["power","learn","magic"]}>
 <Pair single id="domains" flavor="A cleric's deity influences her alignment, what magic she can perform, her values, and how others see her.">Domains</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Choice"><p>You choose two <Link to="/ability/domains">domains</Link> from among those belonging to your deity. You can select an alignment domain (<Link to="/domain/chaos">Chaos</Link>, <Link to="/domain/evil">Evil</Link>, <Link to="/domain/good">Good</Link>, or <Link to="/domain/law">Law</Link>) only if your alignment matches that domain. If you are not devoted to a particular deity, you still select two domains to represent your spiritual inclinations and abilities (subject to GM approval). The restriction on alignment domains still applies.</p>
@@ -1248,7 +1248,7 @@ const _druid = {hasJL:true,title: "Druid", jsx: <><div className="jumpList" id="
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Choice">You form a bond with nature. This bond can take one of three forms: domain, companion, or herbalism.</Pair>
 </Ability>
-<Ability id="domain" extraClasses="subAbility numbered" icon={["power","magic"]}>
+<Ability id="domain" extraClasses="subAbility numbered" icon={["power","learn","magic"]}>
 <Pair single id="domain">Domain</Pair>
 <Pair title="Ability">You gain one of the following cleric domains: <Link to="/domain/air">Air</Link>, <Link to="/domain/animal">Animal</Link>, <Link to="/domain/earth">Earth</Link>, <Link to="/domain/fire">Fire</Link>, <Link to="/domain/plant">Plant</Link>, <Link to="/domain/water">Water</Link>, or <Link to="/domain/weather">Weather</Link>. Alternately, you can choose a <Link to="/ability/druid_domains">druid-specific domain</Link>. When determining the powers and bonus spells granted by this domain, your effective cleric level is equal to your druid level. A druid that selects this option also receives additional domain spell slots, just like a <Link to="/class/cleric">cleric</Link>. You must prepare the spell from your domain in this slot and this spell cannot be used to cast a spell spontaneously.</Pair>
 </Ability>

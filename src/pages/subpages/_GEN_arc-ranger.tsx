@@ -1520,7 +1520,7 @@ const _shapeshifter = {title: "Shapeshifter", jsx: <><h2 id="arc-ranger-shapeshi
 <Pair single id="shifters-blessing-su">Shifter's Blessing (Su)</Pair>
 <Pair hl title="Replaces">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Swift Action">The shapeshifter can take on the aspects of a wild creature once per day. He can remain in this form for a number of rounds equal to his ranger level + his Wisdom modifier. While in one of his shifter's blessing forms, the ranger gains the <Link to="/subtype/shapechanger">shapechanger</Link> subtype.</Pair>
+<Pair title="Swift Action">The shapeshifter can take on the aspects of a wild creature once per day. He can remain in this form for a number of rounds equal to his ranger level + his Wisdom modifier. While in one of his <em>shifter's blessing</em> forms, the ranger gains the <Link to="/subtype/shapechanger">shapechanger</Link> subtype.</Pair>
 <Pair title="Choice">The shapeshifter must choose one of the following forms. Once this choice is made, it cannot be changed.</Pair>
 <Pair title="At 8th Level">The ranger may select an additional form for his <em>shifter's blessing</em> and can use this ability 2 times/day.</Pair>
 <Pair title="At 13th Level">The ranger may select an additional form for his <em>shifter's blessing</em> and can use this ability 3 times/day.</Pair>

@@ -794,7 +794,7 @@ const _magical_child = {title: "Magical Child", jsx: <><h2 id="arc-vigilante-mag
 <Ability id="spellcasting" icon={["learn","magic"]}>
 <Pair single id="spellcasting">Spellcasting</Pair>
 <Pair hl title="Replaces">4th-, 8th-, 10th-, 14th-, and 16th-level vigilante talents</Pair>
-<Pair title="Ability">A magical child casts arcane spells and cantrips as an unchained summoner. She can cast any spell she knows without preparing it ahead of time, assuming she has not yet used up her allotment of spells per day for the spell's level, and she chooses her spells known from the <Link to="/main/unchained_summoner_spell">unchained summoner spell list</Link> (she cannot choose spells that would affect an eidolon).</Pair>
+<Pair title="Ability">A magical child casts arcane spells and cantrips as an <Link to="/class/unchained_summoner">unchained summoner</Link>. She can cast any spell she knows without preparing it ahead of time, assuming she has not yet used up her allotment of spells per day for the spell's level, and she chooses her spells known from the <Link to="/main/unchained_summoner_spell">unchained summoner spell list</Link> (she cannot choose spells that would affect an eidolon).</Pair>
 <Pair title="Special">A magical child's selection of spells is extremely limited; use the Summoner Spells Known table of the <Link to="/class/unchained_summoner">unchained summoner</Link> to determine how many spells the magical child knows at each level. A magical child needs to commune with her <em>animal guide</em> (see below) for 1 hour in order to replenish her daily spell slots.</Pair>
 </Ability>
 <Ability id="transformation-sequence-su" icon={["boost","down"]}>
@@ -1115,7 +1115,7 @@ const _teisatsu = {title: "Teisatsu", jsx: <><h2 id="arc-vigilante-teisatsu-teis
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A teisatsu gains a ki pool, identical to the <Link to="/class/ninja">ninja</Link> class feature, using his vigilante level as his effective ninja level.</Pair>
 </Ability>
-<Ability id="ki-pool-su" extraClasses="subAbility" icon={["magic","melee"]}>
+<Ability id="ki-pool-su" extraClasses="subAbility" icon={["power","melee"]}>
 <Pair single id="ki-pool-su" flavor="Relevant text from the ninja class ability.">Ki Pool (Su)</Pair>
 <Pair title="Ability">You gain a pool of ki points. The number of points in your ki pool is equal to <Link to="/misc/half">half</Link> your ninja level + your Charisma modifier.</Pair>
 <Pair title="Swift Action">By spending 1 point from your ki pool, you can do one of the following: 1) take one additional attack at your highest attack bonus when making a full attack, 2) increase your speed by 20 feet for one round, or 3) give yourself a +4 insight bonus on Stealth checks for 1 round.</Pair>

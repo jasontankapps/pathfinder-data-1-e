@@ -2815,7 +2815,7 @@ const _bloodrager = {hasJL:true,title: "Bloodrager", jsx: <><div className="jump
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th>Shields?</th><td colSpan={2}>Yes, except tower shields</td></tr><tr><td colSpan={3} className="sw se">You can cast bloodrager spells while wearing light armor or medium armor without incurring the normal arcane spell failure chance. This does not affect the arcane spell failure chance for arcane spells received from other classes. Like other arcane spellcasters, heavy armor or wielding a shield incurs a chance of arcane spell failure if the spell in question has somatic components.</td></tr></tbody></table>
-<Ability id="bloodline" icon={["magic","boost"]}>
+<Ability id="bloodline" icon={["power","learn","boost"]}>
 <Pair single id="bloodline">Bloodline</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Choice">You must pick one <Link to="/ability/bloodrager_bloodlines">bloodline</Link> upon taking your first level of bloodrager. Once made, this choice cannot be changed. You immediately gain its 1st-level power.</Pair>
@@ -2864,7 +2864,7 @@ const _bloodrager = {hasJL:true,title: "Bloodrager", jsx: <><div className="jump
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You gain a +2 bonus on saving throws against spells that you or an ally casts.</Pair>
 </Ability>
-<Ability id="spells" icon={["magic"]}>
+<Ability id="spells" icon={["learn"]}>
 <Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">You gain the ability to cast a small number of arcane spells drawn from the <Link to="/main/bloodrager_spell">bloodrager spell list</Link>. You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level. The DC for a saving throw against spells you cast is 10 + the spell level + your Constitution modifier.</Pair>

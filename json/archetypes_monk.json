@@ -744,7 +744,7 @@
 			"",
 			"::ab[Debilitating Blows (Ex)]{flavor=\"A monk of the mantis's knowledge of anatomy allows her to deal blows that both deal damage and impose debilitating conditions.\" icon=lower l7=\"If a monk of the mantis stuns a target with ‹feat/Stunning Fist›, the target is also ‹rule/entangled› for 1 round after the Stunning Fist effect ends.\" l11=\"If the monk of the mantis stuns a target with Stunning Fist, the target is also ‹misc/exhausted› for 1 round after the Stunning Fist effect ends.\" l13=\"The monk can spend 1 point from her *ki pool* as part of her Stunning Fist attack to increase the duration of these additional effects to a number of rounds equal to her Wisdom bonus (minimum 2 rounds).\" replace=\"Wholeness of body~diamond body~diamond soul\"}",
 			"",
-			"::ab[Disabling Palm (Su)]{l=15 icon=magic ability=\"A monk of the mantis can render the target of her *quivering palm* unconscious instead of killing the creature. Upon failing its Fortitude saving throw, the target either is knocked ‹misc/unconscious› for a number of minutes equal to the monk of the mantis's monk level or dies (the monk of the mantis's choice).\" alter=\"Quivering palm\"}"
+			"::ab[Disabling Palm (Su)]{l=15 icon=lower ability=\"A monk of the mantis can render the target of her *quivering palm* unconscious instead of killing the creature. Upon failing its Fortitude saving throw, the target either is knocked ‹misc/unconscious› for a number of minutes equal to the monk of the mantis's monk level or dies (the monk of the mantis's choice).\" alter=\"Quivering palm\"}"
 		]
 	},
 	"monk_of_the_mantis_uc": {

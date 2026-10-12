@@ -997,7 +997,7 @@ const _scroll_scholar = {title: "Scroll Scholar", jsx: <><h2 id="arc-cleric-scro
 <Pair title="At 15th Level">A scroll scholar chooses a fourth Knowledge skill to receive this bonus.</Pair>
 <Pair title="At 20th Level">A scroll scholar chooses a fifth Knowledge skill to receive this bonus.</Pair>
 </Ability>
-<Ability id="secrets-revealed-sp" icon={["power","magic"]}>
+<Ability id="secrets-revealed-sp" icon={["magic"]}>
 <Pair single id="secrets-revealed-sp">Secrets Revealed (Sp)</Pair>
 <Pair hl title="Replaces">Channel energy damage boost at 5th level</Pair>
 <Pair title="At 5th Level">A scroll scholar gains the ability to cast <Link to="/spell/comprehend_languages">comprehend languages</Link> and <Link to="/spell/identify">identify</Link> as spell-like abilities. Her caster level is equal to her character level in whatever class she took the scroll scholar archetype for. She can cast these spells once per day.</Pair>

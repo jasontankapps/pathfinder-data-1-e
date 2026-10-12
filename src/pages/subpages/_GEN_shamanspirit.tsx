@@ -239,7 +239,7 @@ const _bones = {hasJL:true,title: "Bones", jsx: <><div className="jumpList" id="
 </Ability>
 <h3 id="shamanspirit-bones-greater-spirit-ability" data-hash-target>Greater Spirit Ability</h3>
 <p>A shaman who chooses the Bones spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability upon having access to the greater version of that spirit.</p>
-<Ability id="shard-soul-su" icon={["def"]}>
+<Ability id="shard-soul-su" icon={["def","aura"]}>
 <Pair single id="shard-soul-su">Shard Soul (Su)</Pair>
 <Pair title="Standard Action"><p>She can cause jagged pieces of bone to explode from her body in a 10-foot radius <Link to="/misc/burst">burst</Link>. This deals 1d6 points of piercing damage for every 2 shaman levels she possesses. A successful Reflex saving throw halves this damage.</p>
 <p>The shaman can use this ability three times per day, but she must wait 1d4 rounds between each use.</p>
@@ -502,7 +502,7 @@ const _frost = {hasJL:true,title: "Frost", jsx: <><div className="jumpList" id="
 </Ability>
 <h3 id="shamanspirit-frost-greater-spirit-ability" data-hash-target>Greater Spirit Ability</h3>
 <p>A shaman who chooses the Frost spirit as her <em>spirit</em> or <em>wandering spirit</em> gains the following ability upon having access to the greater version of that spirit.</p>
-<Ability id="frigid-blast-su" icon={["def","magic"]}>
+<Ability id="frigid-blast-su" icon={["def","boom"]}>
 <Pair single id="frigid-blast-su">Frigid Blast (Su)</Pair>
 <Pair title="Passive Ability">The shaman gains cold resistance 10.</Pair>
 <Pair title="Standard Action">In addition, she can summon an icy blast in a 20-foot-radius <Link to="/misc/burst">burst</Link> originating from a point she can see within 30 feet. This blast deals cold damage equal to 1d6 per shaman level she has to each creature caught in the burst. Each target can attempt a Reflex saving throw to halve this damage.</Pair>

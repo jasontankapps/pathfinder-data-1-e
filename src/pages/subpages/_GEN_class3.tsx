@@ -601,7 +601,7 @@ const _ninja = {hasJL:true,title: "Ninja", jsx: <><div className="jumpList" id="
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You have the ability to <Link to="/ability/sneak_attack">sneak attack</Link>, the same as a rogue.</Pair>
 </Ability>
-<Ability id="ki-pool-su" icon={["magic","melee"]}>
+<Ability id="ki-pool-su" icon={["power","melee"]}>
 <Pair single id="ki-pool-su" flavor="A ninja gains supernatural energy she can use to accomplish amazing feats.">Ki Pool (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">You gain a pool of ki points. The number of points in your ki pool is equal to <Link to="/misc/half">half</Link> your ninja level + your Charisma modifier.</Pair>
@@ -992,12 +992,12 @@ const _occultist = {hasJL:true,title: "Occultist", jsx: <><div className="jumpLi
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To learn or cast a spell, you must have a Intelligence score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Intelligence score.</Pair>
 <Pair title="Ability">You gain the ability to cast psychic spells which are drawn from the <Link to="/main/spells_occultist">occultist spell list</Link>, limited by the implement groups you know. The DC for a saving throw against spells you cast is 10 + the spell level + your Intelligence modifier. You must choose and prepare your spells in advance.</Pair><Pair title="Info"><p>An occultist's selection of spells is limited. For each implement school you learn to use, you can add one spell of each level you can cast to your list of spells known, chosen from that school's spell list. If you select the same implement school multiple times, you add one spell of each level from that school's list for each time you have selected that school. When you learn to cast a new level of spells, you immediately add one spell of that level to your list of spells known from each implement school you know (plus any extra spells from schools you have selected multiple times).</p>
-<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. The spell learned must come from the same list of spells provided by the implement school of the spell lost. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair><Pair title="Special">Every occultist spell has an implement component (described below).</Pair></Ability><Ability id="knacks" icon={["magic"]}>
+<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. The spell learned must come from the same list of spells provided by the implement school of the spell lost. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair><Pair title="Special">Every occultist spell has an implement component (described below).</Pair></Ability><Ability id="knacks" icon={["learn"]}>
 <Pair single id="knacks">Knacks</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn one knack, or 0-level psychic spell, each time you select an implement school (including when you again select a school that you have already learned to use). These spells are cast like any other spell, but they can be cast any number of times per day. Knacks cast using any other spell slots because of metamagic feats applied to them, for example, consume spell slots as normal.</Pair>
 </Ability>
-<Ability id="implements-su" icon={["magic"]}>
+<Ability id="implements-su" icon={["learn"]}>
 <Pair single id="implements-su">Implements (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You learn to use two <Link to="/ability/implements">implement schools</Link>. Each implement school adds one spell per spell level of that school of magic to your spell list. No spells from any other school are considered to be on your spell list until you select the associated implement school. You can't use spell trigger or spell completion magic items from unknown schools without succeeding at the appropriate Use Magic Device check.</p>
@@ -1783,7 +1783,7 @@ const _oracle = {hasJL:true,title: "Oracle", jsx: <><div className="jumpList" id
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of orisons, or 0-level divine spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Orisons cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
 </Ability>
-<Ability id="mystery" icon={["power","magic","skill"]}>
+<Ability id="mystery" icon={["power","learn","skill"]}>
 <Pair single id="mystery" flavor="Each oracle draws upon a divine mystery to grant her spells and powers.">Mystery</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You must pick one <Link to="/ability/mystery">mystery</Link> upon taking your first level of oracle. Once made, this choice cannot be changed. This mystery grants additional class skills and other special abilities.</Pair>
@@ -3001,7 +3001,7 @@ const _psychic = {hasJL:true,title: "Psychic", jsx: <><div className="jumpList" 
 <Pair title="Ability">You have a pool of supernatural mental energy that you can draw upon to manipulate psychic spells as you cast them. The maximum number of points in your <em>phrenic pool</em> is equal to <Link to="/misc/half">half</Link> your psychic level + your Wisdom or Charisma modifier, as determined by your <em>psychic discipline</em> (described below).</Pair>
 <Pair title="Special">The <em>phrenic pool</em> is replenished each morning after 8 hours of rest or meditation; these hours don't need to be consecutive. You might be able to recharge points in your <em>phrenic pool</em> in additional circumstances dictated by your <em>psychic discipline.</em> Points gained in excess of the <em>pool's</em> maximum are lost.</Pair>
 </Ability>
-<Ability id="phrenic-amplifications" icon={["boost","magic"]}>
+<Ability id="phrenic-amplifications" icon={["power","boost"]}>
 <Pair single id="phrenic-amplifications" flavor="A psychic develops particular techniques to empower her spellcasting.">Phrenic Amplifications</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">You can activate a <em>phrenic amplification</em> only while casting a spell using psychic magic, and the amplification modifies either the spell's effects or the process of casting it. The spell being cast is called the linked spell.</Pair>

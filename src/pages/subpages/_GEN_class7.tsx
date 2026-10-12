@@ -1196,7 +1196,7 @@ const _magus = {hasJL:true,title: "Magus", jsx: <><div className="jumpList" id="
 <Pair title="Ability">Whenever you cast a spell with a range of "touch" from the magus spell list, you can deliver the spell through any weapon you are wielding as part of a melee attack. Instead of the free melee touch attack normally allowed to deliver the spell, you can make one free melee attack with your weapon (at your highest base attack bonus) as part of casting this spell. If successful, this melee attack deals its normal damage as well as the effects of the spell. If you make this attack in concert with <em>spell combat,</em> this melee attack takes all the penalties accrued by spell combat melee attacks.</Pair>
 <Pair title="Special">This attack uses the weapon's critical range (20, 19-20, or 18-20 and modified by the <em>keen</em> weapon property or similar effects), but the spell effect only deals &times;2 damage on a successful critical hit, while the weapon damage uses its own critical modifier.</Pair>
 </Ability>
-<Ability id="magus-arcana" icon={["power","magic"]}>
+<Ability id="magus-arcana" icon={["power"]}>
 <Pair single id="magus-arcana" flavor="As a magus gain levels, he learns arcane secrets tailored to his specific way of blending martial puissance and magical skill.">Magus Arcana</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">You gain one <Link to="/ability/magus_arcana">magus arcana</Link>.</Pair>

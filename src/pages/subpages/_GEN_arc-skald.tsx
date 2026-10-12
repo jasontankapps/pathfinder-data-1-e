@@ -909,7 +909,7 @@ const _wyrm_singer = {title: "Wyrm Singer", jsx: <><h2 id="arc-skald-wyrm_singer
 <Pair single id="wyrm-saga-su">Wyrm Saga (Su)</Pair>
 <Pair hl title="Replaces">Song of the fallen</Pair>
 <Pair title="Gained">At 14th Level</Pair>
-<Pair title="Ability">A wyrm singer embraces the essence of the draconic histories, allowing his allies to manifest aspects of a dragon in their physical forms. The wyrm singer selects a single ally within 60 feet to take on a draconic aspect (as per <Link to="/spell/form_of_the_dragon_i">form of the dragon I</Link>) of a type of the wyrm singer's choice. The ally cannot use the breath weapon attack provided by form of the dragon. The wyrm singer must expend 1 round of <em>raging song</em> each round to maintain wyrm saga, and can affect only a single ally at a time.</Pair>
+<Pair title="Ability">A wyrm singer embraces the essence of the draconic histories, allowing his allies to manifest aspects of a dragon in their physical forms. The wyrm singer selects a single ally within 60 feet to take on a draconic aspect (as per <Link to="/spell/form_of_the_dragon_i">form of the dragon I</Link>) of a type of the wyrm singer's choice. The ally cannot use the breath weapon attack provided by <em>form of the dragon.</em> The wyrm singer must expend 1 round of <em>raging song</em> each round to maintain wyrm saga, and can affect only a single ally at a time.</Pair>
 </Ability>
 <Ability id="breath-weapon-su" icon={["cone","line"]}>
 <Pair single id="breath-weapon-su">Breath Weapon (Su)</Pair>

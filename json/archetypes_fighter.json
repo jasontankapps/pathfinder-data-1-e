@@ -107,7 +107,7 @@
 			"",
 			"::ab[Evasive Archer (Ex)]{l=13 icon=def passive=\"An archer gains a +2 dodge bonus to AC against ranged attacks.\" imp17=\"This bonus becomes +4.\" replace=\"Weapon training 3\"}",
 			"",
-			"::ab[Volley (Ex)]{l=17 icon=power fullround=\"An archer can make a single bow attack at his highest base attack bonus against any number of creatures in a 15-foot-radius ‹misc/burst›, making separate attack and damage rolls for each creature.\" replace=\"Weapon training 4\"}",
+			"::ab[Volley (Ex)]{l=17 icon=ranged-boom fullround=\"An archer can make a single bow attack at his highest base attack bonus against any number of creatures in a 15-foot-radius ‹misc/burst›, making separate attack and damage rolls for each creature.\" replace=\"Weapon training 4\"}",
 			"",
 			"::ab[Ranged Defense (Ex)]{l=19 icon=def passive=\"An archer gains DR 5/- against ranged attacks.\" order=pi immediate=\"He can catch an arrow fired at him and shoot it any target he chooses, as if he had the ‹feat/Snatch Arrows› feat.\" replace=\"Armor mastery\"}",
 			"",

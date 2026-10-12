@@ -174,7 +174,7 @@ const _eldritch_scrapper = {title: "Eldritch Scrapper", jsx: <><h2 id="arc-sorce
 </>};
 const _mongrel_mage = {title: "Mongrel Mage", jsx: <><h2 id="arc-sorcerer-mongrel_mage-mongrel-mage">Mongrel Mage</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 122</Link><br/>A mongrel mage is a sorcerer whose bloodline is so weak, or mixed with so many others, that her power isn't clearly associated with any bloodline source. A mongrel mage's bloodline powers can change on a daily basis, but always fall short of those of a full-blooded sorcerer's powers. A mongrel mage is a dabbler in all bloodlines but a master of none, and she is looked down upon by true sorcerers.</p>
-<Ability id="mongrel-reservoir-su" icon={["magic"]}>
+<Ability id="mongrel-reservoir-su" icon={["power"]}>
 <Pair single id="mongrel-reservoir-su">Mongrel Reservoir (Su)</Pair>
 <Pair hl title="Alters">Bloodline, bloodline powers, bloodline spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>

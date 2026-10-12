@@ -38,7 +38,7 @@
 			"",
 			"::ab[Bardic Performance]{head icon=power info=\"A Hatharat agent gains the bardic performance listed below.\"}",
 			"",
-			"::ab[Master of Manipulation (Su)]{next icon=power l=8 flavor=\"A Hatharat agent gains a reputation of being able to sense lies.\" ability=\"When using bardic performance, his very presence can often draw the truth out of others. This ability affects all creatures selected by the bard within a 20-foot-radius ‹misc/emanation› from the bard. Any affected creature can't speak any deliberate or intentional lies, but is aware of the effect and can choose to avoid answering a question to which it would normally respond with a lie, or may be evasive as long as it remains within the boundaries of the truth.\" special=\"This is a mind-affecting compulsion effect.\" replace=\"Dirge of doom\"}"
+			"::ab[Master of Manipulation (Su)]{next icon=select-boom-lower l=8 flavor=\"A Hatharat agent gains a reputation of being able to sense lies.\" ability=\"When using bardic performance, his very presence can often draw the truth out of others. This ability affects all creatures selected by the bard within a 20-foot-radius ‹misc/emanation› from the bard. Any affected creature can't speak any deliberate or intentional lies, but is aware of the effect and can choose to avoid answering a question to which it would normally respond with a lie, or may be evasive as long as it remains within the boundaries of the truth.\" special=\"This is a mind-affecting compulsion effect.\" replace=\"Dirge of doom\"}"
 		]
 	},
 	"hoaxer": {

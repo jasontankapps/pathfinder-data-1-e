@@ -401,7 +401,7 @@ const _illusion = {hasJL:true,title: "Illusion", jsx: <><div className="jumpList
 </>};
 const _necromancy = {hasJL:true,title: "Necromancy", jsx: <><div className="jumpList" id="arcaneschool-necromancy-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-necromancy-life-school">Life School</InnerLink></li><li><InnerLink toTop to="arcaneschool-necromancy-undead-school">Undead School</InnerLink></li></ul></div><h2 id="arcaneschool-necromancy-necromancy">Necromancy</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 81</Link><br/>The dread and feared necromancer commands undead and uses the foul power of unlife against his enemies.</p>
-<Ability id="power-over-undead-su" icon={["magic","lower"]}>
+<Ability id="power-over-undead-su" icon={["power","lower"]}>
 <Pair single id="power-over-undead-su">Power over Undead (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>

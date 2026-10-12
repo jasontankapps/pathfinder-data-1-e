@@ -554,7 +554,7 @@
 			"",
 			"::list[Associated Deities]{hl link=faith all=\"Shub-Niggurath~The Green Mother~Zyphus\"}",
 			"",
-			"::ab[Cruel Thicket (Su)]{replace=\"The ‹‹wooden fist/#fist›› power of the Plant domain\" icon=magic standard=\"You can cause the ground in a 5-foot-radius ‹misc/burst› centered on you to sprout twisting, thorny vines. Any creature moving through it must travel at half speed or take ‹rule/bleed› damage equal to half your cleric level; if you activate this ability in an area with numerous plants (grass, weeds, trees, etc.), the area also becomes ‹rule/difficult terrain›. These effects last for 1 minute, after which the vines crumble to dust. Creatures able to move through natural undergrowth unhindered ignore the effects of this ability.\" useMod=Wis3}",
+			"::ab[Cruel Thicket (Su)]{replace=\"The ‹‹wooden fist/#fist›› power of the Plant domain\" icon=aura-lower-magic standard=\"You can cause the ground in a 5-foot-radius ‹misc/burst› centered on you to sprout twisting, thorny vines. Any creature moving through it must travel at half speed or take ‹rule/bleed› damage equal to half your cleric level; if you activate this ability in an area with numerous plants (grass, weeds, trees, etc.), the area also becomes ‹rule/difficult terrain›. These effects last for 1 minute, after which the vines crumble to dust. Creatures able to move through natural undergrowth unhindered ignore the effects of this ability.\" useMod=Wis3}",
 			"",
 			"::spelllist[Replacement Domain Spells]{from=domain l1=\"thorn javelin\" l3=\"thorny entanglement\" l4=\"thorn body\"}"
 		]

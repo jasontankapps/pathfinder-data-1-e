@@ -26,7 +26,7 @@
 			"",
 			"::ab[Manipulate Construct (Su)]{icon=lower flavor=\"An arcane tinkerer can turn the animating magic of a construct against itself.\" standard=\"She can expend 1 point from her arcane reservoir to impose a -1 penalty on a single construct's attack and damage rolls for 1 round. The target can attempt a Will save to negate this effect (DC = 10 + ‹misc/half› the arcane tinkerer's level + the arcane tinkerer's Charisma modifier).\" imp7=\"Instead of gaining an arcanist exploit, an arcane tinkerer can improve her *manipulate construct* ability to instead affect a construct with ‹spell/slow› for 1 round.\" imp13=\"If the arcane tinkerer has previously improved this ability, instead of gaining an arcanist exploit, she can improve this ability again to instead cause a construct to become ‹misc/helpless› for 1 round.\" replace=\"The arcanist exploit gained at 1st level\"}",
 			"",
-			"::ab[Break Magic Immunity (Su)]{icon=magic l5=\"An arcane tinkerer can overcome a construct's immunity to magic. When targeting a construct with a spell, the construct is instead treated as if it has spell resistance equal to 15 + the construct's CR.\" l11=\"A construct is instead treated as if it has spell resistance equal to 11 + the construct's CR.\" replace=\"The arcanist exploits gained at 5th and 11th level\"}"
+			"::ab[Break Magic Immunity (Su)]{icon=lower l5=\"An arcane tinkerer can overcome a construct's immunity to magic. When targeting a construct with a spell, the construct is instead treated as if it has spell resistance equal to 15 + the construct's CR.\" l11=\"A construct is instead treated as if it has spell resistance equal to 11 + the construct's CR.\" replace=\"The arcanist exploits gained at 5th and 11th level\"}"
 		]
 	},
 	"blade_adept": {
@@ -74,7 +74,7 @@
 			"‹SOURCE Advanced Class Guide/77›  ",
 			"Though most arcanists possess only a rudimentary innate arcane gift, the blood arcanist has the full power of a bloodline to draw upon.",
 			"",
-			"::ab[Bloodline]{icon=magic-power choice=\"A blood arcanist selects one bloodline from those available through the ‹ability/sorcerer bloodline<s› class feature.\" order=ca ability=\"The blood arcanist gains the bloodline arcana and bloodline powers of that bloodline, treating her arcanist level as her sorcerer level. The blood arcanist does not gain the class skill, bonus feats, or bonus spells from her bloodline.\" special=\"A blood arcanist cannot select the ‹exploit/bloodline development› arcanist exploit. If the blood arcanist takes levels in another class that grants a bloodline, the bloodlines must be the same type, even if that means that the bloodline of one of her classes must change. Subject to GM discretion, the blood arcanist can change her former bloodline to make them conform.\" replace=\"Arcanist exploits gained at 1st, 3rd, 9th, and 15th levels~magical supremacy\"}"
+			"::ab[Bloodline]{icon=power choice=\"A blood arcanist selects one bloodline from those available through the ‹ability/sorcerer bloodline<s› class feature.\" order=ca ability=\"The blood arcanist gains the bloodline arcana and bloodline powers of that bloodline, treating her arcanist level as her sorcerer level. The blood arcanist does not gain the class skill, bonus feats, or bonus spells from her bloodline.\" special=\"A blood arcanist cannot select the ‹exploit/bloodline development› arcanist exploit. If the blood arcanist takes levels in another class that grants a bloodline, the bloodlines must be the same type, even if that means that the bloodline of one of her classes must change. Subject to GM discretion, the blood arcanist can change her former bloodline to make them conform.\" replace=\"Arcanist exploits gained at 1st, 3rd, 9th, and 15th levels~magical supremacy\"}"
 		]
 	},
 	"brown_fur_transmuter": {
@@ -88,9 +88,9 @@
 			"",
 			"::ab[Powerful Change (Su)]{l=3 icon=magic flavor=\"The brown-fur transmuter learns to harness the power of her magic to empower her transmutations.\" free=\"Whenever the brown-fur transmuter casts a transmutation spell using one of her arcanist spell slots, she can expend 1 point from her arcane reservoir to bolster the spell. If the spell grants a bonus to an ability score, the bonus then increases by 2. If it grants a bonus to more than one ability score, only one of the ability scores gains this bonus. The brownfur transmuter cannot expend more than 1 point from her arcane reservoir in this way.\" replace=\"The arcanist exploit gained at 3rd level\"}",
 			"",
-			"::ab[Share Transmutation (Su)]{l=9 icon=magic flavor=\"The brown-fur transmuter can target others with her transmutation spells.\" ability=\"A brown-fur transmuter can expend 1 point from her arcane reservoir to change any transmutation spell with a range of personal to a range of touch. Such a spell automatically fails on unwilling creatures.\" replace=\"The arcanist exploit gained at 9th level\"}",
+			"::ab[Share Transmutation (Su)]{l=9 icon=magic-touch flavor=\"The brown-fur transmuter can target others with her transmutation spells.\" ability=\"A brown-fur transmuter can expend 1 point from her arcane reservoir to change any transmutation spell with a range of personal to a range of touch. Such a spell automatically fails on unwilling creatures.\" replace=\"The arcanist exploit gained at 9th level\"}",
 			"",
-			"::ab[Transmutation Supremacy (Su)]{l=20 icon=magic flavor=\"The brown-fur transmuter learns to fully master the power of transmutation.\" special=\"Whenever she casts a transmutation spell, it is treated as it were affected by the ‹feat/Extend Spell› feat without altering the casting time or slot used. (She cannot then alter its duration again with the Extend Spell feat). Whenever she uses her *powerful change* ability, the bonus increases by 4 instead of 2. Her *share transmutation* ability can now target a willing creature within 30 feet.\" replace=\"Magical supremacy\"}"
+			"::ab[Transmutation Supremacy (Su)]{l=20 icon=magic-select flavor=\"The brown-fur transmuter learns to fully master the power of transmutation.\" special=\"Whenever she casts a transmutation spell, it is treated as it were affected by the ‹feat/Extend Spell› feat without altering the casting time or slot used. (She cannot then alter its duration again with the Extend Spell feat). Whenever she uses her *powerful change* ability, the bonus increases by 4 instead of 2. Her *share transmutation* ability can now target a willing creature within 30 feet.\" replace=\"Magical supremacy\"}"
 		]
 	},
 	"eldritch_font": {
@@ -122,7 +122,7 @@
 			"‹SOURCE Advanced Class Guide/78›  ",
 			"Arcanists with an affinity for elemental forces sometimes focus on one and display its power in everything they do.",
 			"",
-			"::ab[Elemental Focus (Su)]{l=1 icon=magic ability=\"At 1st level, the elemental master must select one element: air, earth, fire, or water. The arcanist can prepare one additional spell per day of each level she can cast, but it must have the elemental descriptor of her chosen element. In addition, any spell she prepares from the opposite elemental school (air opposes earth, fire opposes water) takes up two of her prepared spell slots.\" replace=\"The arcanist exploit gained at 1st level\"}",
+			"::ab[Elemental Focus (Su)]{l=1 icon=learn-down choice=\"The elemental master must select one element: air, earth, fire, or water.\" order=ca ability=\"The arcanist can prepare one additional spell per day of each level she can cast, but it must have the elemental descriptor of her chosen element. In addition, any spell she prepares from the opposite elemental school (air opposes earth, fire opposes water) takes up two of her prepared spell slots.\" replace=\"The arcanist exploit gained at 1st level\"}",
 			"",
 			"::ab[Elemental Attack (Su)]{l=3 icon=power ability=\"The elemental master gains an arcanist exploit tied to her element. If she selected air, she gains the ‹exploit/lightning lance› arcanist exploit. If she selected earth, she gains the ‹exploit/acid jet› arcanist exploit. If she selected fire, she gains the ‹exploit/flame arc› arcanist exploit. If she selected water, she gains the ‹exploit/ice missile› arcanist exploit.\" replace=\"The arcanist exploit gained at 3rd level\"}",
 			"",
@@ -263,7 +263,7 @@
 			"",
 			"::ab[Spell Bender (Su)]{sub icon=magic-line ability=\"The spell specialist can bend the line of a spell that has a line area of effect up to 90 degrees at any single point along the line's length.\"}",
 			"",
-			"::ab[Spellwarp (Su)]{sub icon=aura-cone-line ability=\"A spell specialist can reduce the radius of a ‹misc/spread« or burst› effect or shorten the length of a cone. All changes must occur in 5-foot increments, to a minimum of 5 feet. Alternatively, the spell specialist can change the area of effect of a cone spell to a line with a length equal to the spell's range.\"}"
+			"::ab[Spellwarp (Su)]{sub icon=boom-cone-line ability=\"A spell specialist can reduce the radius of a ‹misc/spread« or burst› effect or shorten the length of a cone. All changes must occur in 5-foot increments, to a minimum of 5 feet. Alternatively, the spell specialist can change the area of effect of a cone spell to a line with a length equal to the spell's range.\"}"
 		]
 	},
 	"twilight_sage": {

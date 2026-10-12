@@ -109,7 +109,7 @@
 			"",
 			"::ab[Burst of Blossoms (Su)]{l=4 icon=magic-boost flavor=\"A petal ninja gains the ability to transform into a cloud of blossoms.\" standard=\"By spending 1 point from her ki pool, a petal ninja can take the form of a cloud of blossoms, becoming insubstantial for 1 round, as ‹spell/gaseous form›. While insubstantial she also gains a +4 circumstance bonus on Stealth checks.\" imp8=\"The duration increases to a number of rounds equal to 1 plus the petal ninja's Charisma modifier.\" replace=\"No trace~uncanny dodge~improved uncanny dodge\"}",
 			"",
-			"::ab[Sundial (Su)]{l=6 icon=magic move=\"The petal ninja can change the lighting in a 30-foot-radius ‹misc/emanation› centered on herself. For every ki point she spends, the ‹rule/light level«s› change by one step (from darkness to dim light, normal light, and bright light, and vice versa). This change remains in effect for 1 minute.\" replace=\"Light steps\"}"
+			"::ab[Sundial (Su)]{l=6 icon=aura move=\"The petal ninja can change the lighting in a 30-foot-radius ‹misc/emanation› centered on herself. For every ki point she spends, the ‹rule/light level«s› change by one step (from darkness to dim light, normal light, and bright light, and vice versa). This change remains in effect for 1 minute.\" replace=\"Light steps\"}"
 		]
 	}
 }

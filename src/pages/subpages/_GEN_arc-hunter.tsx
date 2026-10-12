@@ -274,7 +274,7 @@ const _divine_hunter = {title: "Divine Hunter", jsx: <><h2 id="arc-hunter-divine
 <Pair title="At 15th Level">She adds the 5th-level domain spell.</Pair>
 <Pair title="At 18th Level">She adds the 6th-level domain spell.</Pair>
 </Ability>
-<Ability id="otherworldly-companion-su" icon={["magic"]}>
+<Ability id="otherworldly-companion-su" icon={["boost"]}>
 <Pair single id="otherworldly-companion-su">Otherworldly Companion (Su)</Pair>
 <Pair hl title="Replaces">Hunter tactics</Pair>
 <Pair title="Gained">At 3rd Level</Pair>

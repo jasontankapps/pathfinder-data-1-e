@@ -1280,7 +1280,7 @@ const _shaman = {hasJL:true,title: "Shaman", jsx: <><div className="jumpList" id
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of orisons, or 0-level divine spells. These spells are prepared like any other spell, but they are not expended when cast and may be used again. Orisons prepared using other spell slots, such as those due to metamagic feats, are expended normally.</Pair>
 </Ability>
-<Ability id="spirit-su" icon={["power","magic"]}>
+<Ability id="spirit-su" icon={["power","learn"]}>
 <Pair single id="spirit-su" flavor="A shaman forms a mystical bond with the spirits of the world.">Spirit (Su)</Pair>
 <Pair title="Ability">You form a lasting bond with a single <Link to="/ability/shaman_spirits">spirit</Link>, which grants a number of abilities and defines many of your other class features.</Pair>
 <Pair title="At 1st Level">You gain the <em>spirit ability</em> granted by your chosen spirit. You add the spells granted by that spirit to the list of spells that you can cast using <em>spirit magic.</em> You also add the hexes possessed by that spirit to the list of hexes that you can use with the <em>hex</em> and <em>wandering hex</em> class features.</Pair>
@@ -1305,7 +1305,7 @@ const _shaman = {hasJL:true,title: "Shaman", jsx: <><div className="jumpList" id
 <Pair single id="spirit-magic">Spirit Magic</Pair>
 <Pair title="Ability">You can spontaneously cast a limited number of spells per day beyond those you prepared ahead of time. You have one spell slot per day of each shaman spell level you can cast, not including orisons. You can choose these spells from the list of spells granted by your spirits at the time you cast them. You can enhance these spells using any metamagic feat that you know, using up a higher-level spell slot as required by the feat and increasing the time to cast the spell.</Pair>
 </Ability>
-<Ability id="hex" icon={["magic"]}>
+<Ability id="hex" icon={["power"]}>
 <Pair single id="hex" flavor="A shaman learns a number of magical tricks, called hexes, which grant her powers or weaken foes.">Hex</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">You learn one hex. You can select from any <Link to="/ability/shaman_hexes">of these shaman hexes</Link> or from any of the hexes listed in the description of your chosen spirit. You cannot select a hex more than once unless noted otherwise.</Pair>
@@ -1319,14 +1319,14 @@ const _shaman = {hasJL:true,title: "Shaman", jsx: <><div className="jumpList" id
 <Pair title="Special">Using a hex is a <strong className="hl">standard action</strong> that doesn't provoke an attack of opportunity unless otherwise noted. The saving throw DC to resist a hex is equal to 10 + <Link to="/misc/half">half</Link> your shaman level + your Wisdom modifier.</Pair>
 </Ability>
 <aside><p>Shamans can take a <Link to="/main/feats_blood_hex">blood hex feat</Link> in place of a regular hex.</p>
-</aside><Ability id="wandering-spirit-su" icon={["power","magic"]}>
+</aside><Ability id="wandering-spirit-su" icon={["power"]}>
 <Pair single id="wandering-spirit-su">Wandering Spirit (Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">You can form a temporary bond with a spirit other than the one selected using your <em>spirit</em> class feature. You must make this selection each day when preparing your spells. While this feature is active, you gain the <em>spirit ability</em> granted by the spirit. You also add the spells granted by that spirit to your list of spells that you can cast using <em>spirit magic.</em> You do not add the hexes from your <em>wandering spirit</em> to your list of hexes that you can choose from with the hex class feature.</Pair>
 <Pair title="At 12th Level">You gain the abilities listed in the <em>greater</em> version of your <em>wandering spirit.</em></Pair>
 <Pair title="At 20th Level">You gain the ability listed in the <em>true</em> version of your <em>wandering spirit.</em></Pair>
 </Ability>
-<Ability id="wandering-hex" icon={["magic"]}>
+<Ability id="wandering-hex" icon={["power"]}>
 <Pair single id="wandering-hex">Wandering Hex</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">You can temporarily gain the use of one of the hexes possessed by either one of your spirits. You must make this selection each day when you prepare your spells. For the purposes of this ability, you can select any hex possessed by your <em>spirit</em> or <em>wandering spirit.</em> If you select it from your <em>wandering spirit,</em> you lose the hex immediately if you bond with another spirit, although you can then select a different hex to gain using this ability, from either your <em>spirit</em> or your new <em>wandering spirit.</em></Pair>
@@ -1747,7 +1747,7 @@ const _warpriest = {hasJL:true,title: "Warpriest", jsx: <><div className="jumpLi
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">If you are a warpriest of a chaotic, evil, good, or lawful deity, you have a particularly powerful aura (as a <Link to="/class/cleric">cleric</Link>) corresponding to your deity's alignment (see <Link to="/spell/detect_evil">detect evil</Link>).</Pair>
 </Ability>
-<Ability id="blessings-su" icon={["power","magic"]}>
+<Ability id="blessings-su" icon={["power"]}>
 <Pair single id="blessings-su" flavor="A warpriest's deity influences his alignment, what magic he can perform, his values, and how others see him.">Blessings (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You can select two <Link to="/ability/blessings">blessings</Link> from among those granted by your deity (each deity grants the blessings tied to its domains), obtaining each blessing's <strong className="hl">minor</strong> power.</Pair>
@@ -2324,20 +2324,20 @@ const _witch = {hasJL:true,title: "Witch", jsx: <><div className="jumpList" id="
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of cantrips, or 0-level arcane spells. These spells are prepared like any other spell, but they are not expended when cast and may be used again. Cantrips prepared using other spell slots, such as those due to metamagic feats, are expended normally.</Pair>
 </Ability>
-<Ability id="hex" icon={["power","magic"]}>
+<Ability id="hex" icon={["power"]}>
 <Pair single id="hex" flavor="Witches learn a number of magic tricks, called hexes, that grant them powers or weaken foes.">Hex</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain one <Link to="/ability/hexes">hex</Link> of your choice. Unless otherwise noted, using a hex is a <strong className="hl">standard action</strong> that does not provoke an attack of opportunity. The save to resist a hex is equal to 10 + <Link to="/misc/half">half</Link> your witch level + your Intelligence modifier.</Pair>
 <Pair title="Special">You gain a new hex at 2nd level, and at every even-numbered level (4th, 6th, 8th, and so on). You cannot select an individual hex more than once.</Pair>
 </Ability>
 <aside><p>Alternately, whenever the witch would learn a new hex, she can instead gain a bonus <Link to="/main/feats_familiar">familiar feat</Link> or take a <Link to="/main/feats_blood_hex">blood hex feat</Link>.</p>
-</aside><Ability id="witchs-familiar-ex" icon={["power","magic"]}>
+</aside><Ability id="witchs-familiar-ex" icon={["power","learn"]}>
 <Pair single id="witchs-familiar-ex" flavor="A witch forms a close bond with a familiar, a creature that teaches her magic and helps to guide her along her path. Familiars also aid a witch by granting her skill bonuses, additional spells, and help with some types of magic.">Witch's Familiar (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">This functions like the wizard's arcane bond class feature, except as noted in this section. You must commune with your <Link to="/sidekick/familiar">familiar</Link> each day to prepare your spells. Familiars store all of the spells that a witch knows, and you cannot prepare a spell that is not stored by your familiar. Your familiar begins play storing all of the 0-level witch spells plus three 1st-level spells of your choice. You also select a number of additional 1st-level spells equal to your Intelligence modifier to store in your familiar.</Pair>
 <Pair title="Special">At each new witch level, you add two new spells of any spell level or levels that you can cast (based on your new witch level) to your familiar. You can also add additional spells to your familiar through a special ritual, described below under <em>Adding Spells to a Witch's Familiar.</em></Pair>
 </Ability>
-<Ability id="patron-spells" icon={["power","magic"]}>
+<Ability id="patron-spells" icon={["power","learn"]}>
 <Pair single id="patron-spells">Patron Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">When you gain your familiar, you must also select a patron. This <Link to="/ability/patrons">patron</Link> is a vague and mysterious force, granting you power for reasons that you might not entirely understand. While these forces need not be named, they typically hold influence over a certain force.</Pair>
@@ -2819,7 +2819,7 @@ const _wizard = {hasJL:true,title: "Wizard", jsx: <><div className="jumpList" id
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You can prepare a number of cantrips, or 0-level arcane spells, each day. These spells are cast like any other but they are not expended when cast and may be used again. You can prepare a cantrip from a prohibited school, but it uses up two of your available slots.</Pair>
 </Ability>
-<Ability id="spellbooks" icon={["magic"]}>
+<Ability id="spellbooks" icon={["learn","magic"]}>
 <Pair single id="spellbooks">Spellbooks</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You must study your spellbook each day to prepare your spells. You can't prepare any spell not recorded in your spellbook, except for <Link to="/spell/read_magic">read magic</Link> (which all wizards can prepare from memory).</Pair>
@@ -2842,7 +2842,7 @@ const _wizard = {hasJL:true,title: "Wizard", jsx: <><div className="jumpList" id
 <p>If a bonded object is damaged, it is restored to full hit points the next time you prepare your spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. You can designate an existing magic item as your bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.</p>
 </Pair>
 </Ability>
-<Ability id="arcane-school" icon={["magic"]}>
+<Ability id="arcane-school" icon={["boost","power","magic"]}>
 <Pair single id="arcane-school" flavor="A wizard can choose to specialize in one school of magic, gaining additional spells and powers based on that school.">Arcane School</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Choice"><p>If you choose to specialize in one school of magic, you must select two other schools as your <strong className="hl">opposition schools</strong>, representing knowledge sacrificed in one area of arcane lore to gain mastery in another. If you prepare spells from your opposition schools, you must use two spell slots of that level to prepare the spell. For example, a wizard with evocation as an opposition school must expend two of his available 3rd-level spell slots to prepare a <Link to="/spell/fireball">fireball</Link>. In addition, you take a -4 penalty on any skill checks made when crafting a magic item that has a spell from one of your opposition schools as a prerequisite.</p>

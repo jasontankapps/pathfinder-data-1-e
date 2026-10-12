@@ -37,7 +37,7 @@ const _arcane_tinkerer = {title: "Arcane Tinkerer", jsx: <><h2 id="arc-arcanist-
 <Pair title="At 7th Level">Instead of gaining an arcanist exploit, an arcane tinkerer can improve her <em>manipulate construct</em> ability to instead affect a construct with <Link to="/spell/slow">slow</Link> for 1 round.</Pair>
 <Pair title="At 13th Level">If the arcane tinkerer has previously improved this ability, instead of gaining an arcanist exploit, she can improve this ability again to instead cause a construct to become <Link to="/misc/helpless">helpless</Link> for 1 round.</Pair>
 </Ability>
-<Ability id="break-magic-immunity-su" icon={["magic"]}>
+<Ability id="break-magic-immunity-su" icon={["lower"]}>
 <Pair single id="break-magic-immunity-su">Break Magic Immunity (Su)</Pair>
 <Pair hl title="Replaces">The arcanist exploits gained at 5th and 11th level</Pair>
 <Pair title="At 5th Level">An arcane tinkerer can overcome a construct's immunity to magic. When targeting a construct with a spell, the construct is instead treated as if it has spell resistance equal to 15 + the construct's CR.</Pair>
@@ -95,7 +95,7 @@ const _blade_adept = {title: "Blade Adept", jsx: <><h2 id="arc-arcanist-blade_ad
 </>};
 const _blood_arcanist = {title: "Blood Arcanist", jsx: <><h2 id="arc-arcanist-blood_arcanist-blood-arcanist">Blood Arcanist</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 77</Link><br/>Though most arcanists possess only a rudimentary innate arcane gift, the blood arcanist has the full power of a bloodline to draw upon.</p>
-<Ability id="bloodline" icon={["magic","power"]}>
+<Ability id="bloodline" icon={["power"]}>
 <Pair single id="bloodline">Bloodline</Pair>
 <Pair hl title="Replaces">Arcanist exploits gained at 1st, 3rd, 9th, and 15th levels, magical supremacy</Pair>
 <Pair title="Choice">A blood arcanist selects one bloodline from those available through the <Link to="/ability/sorcerer_bloodlines">sorcerer bloodline</Link> class feature.</Pair>
@@ -111,13 +111,13 @@ const _brown_fur_transmuter = {title: "Brown-Fur Transmuter", jsx: <><h2 id="arc
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Free Action">Whenever the brown-fur transmuter casts a transmutation spell using one of her arcanist spell slots, she can expend 1 point from her arcane reservoir to bolster the spell. If the spell grants a bonus to an ability score, the bonus then increases by 2. If it grants a bonus to more than one ability score, only one of the ability scores gains this bonus. The brownfur transmuter cannot expend more than 1 point from her arcane reservoir in this way.</Pair>
 </Ability>
-<Ability id="share-transmutation-su" icon={["magic"]}>
+<Ability id="share-transmutation-su" icon={["magic","touch"]}>
 <Pair single id="share-transmutation-su" flavor="The brown-fur transmuter can target others with her transmutation spells.">Share Transmutation (Su)</Pair>
 <Pair hl title="Replaces">The arcanist exploit gained at 9th level</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Ability">A brown-fur transmuter can expend 1 point from her arcane reservoir to change any transmutation spell with a range of personal to a range of touch. Such a spell automatically fails on unwilling creatures.</Pair>
 </Ability>
-<Ability id="transmutation-supremacy-su" icon={["magic"]}>
+<Ability id="transmutation-supremacy-su" icon={["magic","select"]}>
 <Pair single id="transmutation-supremacy-su" flavor="The brown-fur transmuter learns to fully master the power of transmutation.">Transmutation Supremacy (Su)</Pair>
 <Pair hl title="Replaces">Magical supremacy</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -158,11 +158,12 @@ const _eldritch_font = {title: "Eldritch Font", jsx: <><h2 id="arc-arcanist-eldr
 </>};
 const _elemental_master = {title: "Elemental Master", jsx: <><h2 id="arc-arcanist-elemental_master-elemental-master">Elemental Master</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 78</Link><br/>Arcanists with an affinity for elemental forces sometimes focus on one and display its power in everything they do.</p>
-<Ability id="elemental-focus-su" icon={["magic"]}>
+<Ability id="elemental-focus-su" icon={["learn","down"]}>
 <Pair single id="elemental-focus-su">Elemental Focus (Su)</Pair>
 <Pair hl title="Replaces">The arcanist exploit gained at 1st level</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Ability">At 1st level, the elemental master must select one element: air, earth, fire, or water. The arcanist can prepare one additional spell per day of each level she can cast, but it must have the elemental descriptor of her chosen element. In addition, any spell she prepares from the opposite elemental school (air opposes earth, fire opposes water) takes up two of her prepared spell slots.</Pair>
+<Pair title="Choice">The elemental master must select one element: air, earth, fire, or water.</Pair>
+<Pair title="Ability">The arcanist can prepare one additional spell per day of each level she can cast, but it must have the elemental descriptor of her chosen element. In addition, any spell she prepares from the opposite elemental school (air opposes earth, fire opposes water) takes up two of her prepared spell slots.</Pair>
 </Ability>
 <Ability id="elemental-attack-su" icon={["power"]}>
 <Pair single id="elemental-attack-su">Elemental Attack (Su)</Pair>
@@ -311,7 +312,7 @@ const _spell_specialist = {title: "Spell Specialist", jsx: <><h2 id="arc-arcanis
 <Pair single id="spell-bender-su">Spell Bender (Su)</Pair>
 <Pair title="Ability">The spell specialist can bend the line of a spell that has a line area of effect up to 90 degrees at any single point along the line's length.</Pair>
 </Ability>
-<Ability id="spellwarp-su" extraClasses="subAbility numbered" icon={["aura","cone","line"]}>
+<Ability id="spellwarp-su" extraClasses="subAbility numbered" icon={["boom","cone","line"]}>
 <Pair single id="spellwarp-su">Spellwarp (Su)</Pair>
 <Pair title="Ability">A spell specialist can reduce the radius of a <Link to="/misc/spread">spread or burst</Link> effect or shorten the length of a cone. All changes must occur in 5-foot increments, to a minimum of 5 feet. Alternatively, the spell specialist can change the area of effect of a cone spell to a line with a length equal to the spell's range.</Pair>
 </Ability>

@@ -417,7 +417,7 @@ const _delayed_bomb = {title: "Delayed Bomb", tree: ["Tainted Infusion"], jsx: <
 const _directed_bomb = {title: "Directed Bomb", jsx: <><p><strong>Sources</strong> <Link to="/source/magical_marketplace">Magical Marketplace</Link></p>
 <Ability id="directed-bomb" icon={["cone"]}>
 <Pair single id="directed-bomb">Directed Bomb</Pair>
-<Pair title="Ability">The alchemist can cause his bombs to splash in a 15-foot cone instead of a 5-foot-radius <Link to="/misc/burst">burst</Link>. The alchemist chooses the direction of the cone. If the attack misses, roll an additional 1d8 to determine the direction of the blast from where the bomb lands.</Pair>
+<Pair title="Ability">The alchemist can cause his bombs to splash in a 15-foot cone instead of a 5-foot-radius burst. The alchemist chooses the direction of the cone. If the attack misses, roll an additional 1d8 to determine the direction of the blast from where the bomb lands.</Pair>
 <Pair title="Special">This discovery can't be combined with the <Link to="/discovery/explosive_bomb">explosive bomb</Link> discovery.</Pair>
 </Ability>
 </>};
@@ -582,7 +582,7 @@ const _infusion = {title: "Infusion", tree: ["Aromatic Extract","Change Alignmen
 </Ability>
 </>};
 const _aromatic_extract = {title: "Aromatic Extract", jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court</Link></p>
-<Ability id="aromatic-extract" icon={["magic"]}>
+<Ability id="aromatic-extract" icon={["magic","aura"]}>
 <Pair single id="aromatic-extract">Aromatic Extract</Pair>
 <Pair title="Prerequisites">10th-level alchemist, <Link to="/discovery/infusion">infusion</Link></Pair>
 <Pair title="Ability">The alchemist creates an inhaled version of an extract that is shared among multiple creatures. He must decide that an extract is an <em>aromatic extract</em> when he makes it. When used, the extract grants its benefit to all creatures within a 10-foot <Link to="/misc/spread">spread</Link> of the extract. The <em>aromatic extract</em> is treated as having the minimum caster level required for the original extract.</Pair>

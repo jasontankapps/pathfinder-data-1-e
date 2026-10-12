@@ -1950,7 +1950,7 @@ const _monk_of_the_mantis = {title: "Monk of the Mantis", jsx: <><h2 id="arc-mon
 <Pair title="At 11th Level">If the monk of the mantis stuns a target with Stunning Fist, the target is also <Link to="/misc/exhausted">exhausted</Link> for 1 round after the Stunning Fist effect ends.</Pair>
 <Pair title="At 13th Level">The monk can spend 1 point from her <em>ki pool</em> as part of her Stunning Fist attack to increase the duration of these additional effects to a number of rounds equal to her Wisdom bonus (minimum 2 rounds).</Pair>
 </Ability>
-<Ability id="disabling-palm-su" icon={["magic"]}>
+<Ability id="disabling-palm-su" icon={["lower"]}>
 <Pair single id="disabling-palm-su">Disabling Palm (Su)</Pair>
 <Pair hl title="Alters">Quivering palm</Pair>
 <Pair title="Gained">At 15th Level</Pair>
@@ -1976,7 +1976,7 @@ const _monk_of_the_mantis_uc = {title: "Monk of the Mantis (Unchained)", topLink
 <Pair title="At 10th Level">If the monk of the mantis stuns a target with Stunning Fist, the target is also <Link to="/misc/exhausted">exhausted</Link> for 1 round after the Stunning Fist effect ends.</Pair>
 <Pair title="At 12th Level">The monk can spend 1 point from her <em>ki pool</em> as part of her Stunning Fist attack to increase the duration of these additional effects to a number of rounds equal to her Wisdom bonus (minimum 2 rounds).</Pair>
 </Ability>
-<Ability id="disabling-palm-su" icon={["magic"]}>
+<Ability id="disabling-palm-su" icon={["lower"]}>
 <Pair single id="disabling-palm-su">Disabling Palm (Su)</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Ability">A monk of the mantis can render the target of her <em>quivering palm</em> unconscious instead of killing the creature. Upon failing its Fortitude saving throw, the target either is knocked <Link to="/misc/unconscious">unconscious</Link> for a number of minutes equal to the monk of the mantis's monk level or dies (the monk of the mantis's choice).</Pair>

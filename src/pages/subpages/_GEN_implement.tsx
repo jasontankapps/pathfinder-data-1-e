@@ -301,7 +301,7 @@ const _evocation = {title: "Evocation", jsx: <><h2 id="implement-evocation-evoca
 <Pair title="At 19th Level">The damage becomes 10d6.</Pair>
 </Ability>
 <h3 id="implement-evocation-focus-powers">Focus Powers</h3>
-<Ability id="energy-blast-sp" icon={["magic"]}>
+<Ability id="energy-blast-sp" icon={["boom"]}>
 <Pair single id="energy-blast-sp">Energy Blast (Sp)</Pair>
 <Pair title="Prerequisites">5th-level occultist</Pair>
 <Pair title="Standard Action">You can expend 2 points of mental focus to unleash a blast of energy. This blast has a range of 100 feet, and deals 5d6 points of energy damage. The blast deals damage to each creature in a 20-foot-radius <Link to="/misc/burst">burst</Link>, but each affected creature can attempt a Reflex save to halve the damage. When you unleash an <em>energy blast,</em> you must decide what type of damage it deals (acid, cold, electricity, or fire).</Pair>
@@ -351,7 +351,7 @@ const _evocation = {title: "Evocation", jsx: <><h2 id="implement-evocation-evoca
 <Row><Cell>Deity</Cell><Cell><Link to="/faith/rovagug">Rovagug</Link></Cell></Row>
 <Row><Cell>Implement</Cell><Cell>figurine</Cell></Row>
 <Row><Cell>Opposition School</Cell><Cell>abjuration</Cell></Row></Block>
-<Ability id="footsteps-of-the-rough-beast-su" icon={["magic"]}>
+<Ability id="footsteps-of-the-rough-beast-su" icon={["magic","aura","lower"]}>
 <Pair single id="footsteps-of-the-rough-beast-su">Footsteps of the Rough Beast (Su)</Pair>
 <Pair title="Move-Equivalent Action">You can expend 1 point of mental focus to cause the ground in a 5-foot-radius <Link to="/misc/burst">burst</Link> centered on you to crumble and rupture, becoming <Link to="/rule/difficult_terrain">difficult terrain</Link>. If you remain stationary, in subsequent rounds you can <Link to="/rule/concentration">concentrate</Link> on this area as though concentrating on a spell by expending 1 additional mental focus each round. As long as you maintain concentration, the radius of the difficult terrain increases by 5 feet (maximum 30-foot radius) each round.</Pair>
 <Pair title="Special">You immediately cease concentrating if you move from your originating location. Difficult terrain created this way remains for 24 hours before returning to its original state.</Pair>
@@ -470,10 +470,10 @@ const _necromancy = {title: "Necromancy", jsx: <><h2 id="implement-necromancy-ne
 <Pair title="Standard Action">You can expend 1 point of mental focus to raise a single human <Link to="/template/skeleton">skeleton</Link> or human <Link to="/template/zombie">zombie</Link> from the ground to serve you for 10 minutes per occultist level you possess or until it is destroyed, whichever comes first. This servant has a number of hit points equal to <Link to="/misc/half">half</Link> your maximum hit point total (not adjusted for temporary hit points or other temporary increases). It also uses your base attack bonus and gains a bonus on damage rolls equal to 1/2 your occultist level.</Pair>
 <Pair title="At 5th Level">Whenever the necromantic servant would be destroyed, if you are within medium range (100 feet + 10 feet per level) of the servant, you can expend 1 point of mental focus as an <strong className="hl">immediate action</strong> to cause the servant to return to full hit points.</Pair>
 <Pair title="At 9th Level">You can choose to give the servant the <em>bloody</em> or <em>burning</em> simple template (if it's a skeleton) or the <em>fast</em> simple template (if it's a zombie).</Pair>
-<Pair title="At 13th Level">When you take an immediate action to restore your servant, it splits into two servants. You can have a maximum number of servants in existence equal to 1/2 your occultist level.</Pair>
+<Pair title="At 13th Level">When you take an immediate action to restore your servant, it splits into two servants. You can have a maximum number of servants in existence equal to <Link to="/misc/half">half</Link> of your occultist level.</Pair>
 <Pair title="At 17th Level">The servant gains a <Link to="/main/teamwork_feat">teamwork feat</Link> of your choice.</Pair>
 </Ability>
-<Ability id="pain-wave-sp" icon={["lower"]}>
+<Ability id="pain-wave-sp" icon={["aura","lower"]}>
 <Pair single id="pain-wave-sp">Pain Wave (Sp)</Pair>
 <Pair title="Prerequisites">7th-level occultist</Pair>
 <Pair title="Standard Action">You can expend 1 point of mental focus to unleash a wave of pain. This wave hits all creatures other than you in a 20-foot-radius <Link to="/misc/burst">burst</Link> centered on a point that you designate within 100 feet. All living creatures in this area are wracked with pain, gaining the <Link to="/misc/sickened">sickened</Link> condition for 1 round per occultist level you possess. Affected creatures can attempt a Will save to reduce the duration to just 1 round.</Pair>

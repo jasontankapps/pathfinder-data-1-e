@@ -270,7 +270,7 @@ const _elementalist_oracle = {title: "Elementalist Oracle", jsx: <><h2 id="arc-o
 </ul>
 </Pair>
 </Ability>
-<Ability id="elemental-revelation-su" extraClasses="subAbility" icon={["magic","lower"]}>
+<Ability id="elemental-revelation-su" extraClasses="subAbility" icon={["boost","lower"]}>
 <Pair single id="elemental-revelation-su">Elemental Revelation (Su)</Pair>
 <Pair hl title="Replaces">Final revelation</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -825,7 +825,7 @@ const _shigenjo = {title: "Shigenjo", jsx: <><h2 id="arc-oracle-shigenjo-shigenj
 <Pair plain title="14th"><Link to="/spell/ki_shout">Ki shout</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/moment_of_prescience">Moment of prescience</Link></Pair>
 </Ability>
-<Ability id="ki-pool-su" icon={["magic"]}>
+<Ability id="ki-pool-su" icon={["power"]}>
 <Pair single id="ki-pool-su">Ki Pool (Su)</Pair>
 <Pair hl title="Replaces">7th-level revelation</Pair>
 <Pair title="Gained">At 7th Level</Pair>
@@ -868,7 +868,7 @@ const _spirit_guide = {title: "Spirit Guide", jsx: <><h2 id="arc-oracle-spirit_g
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
 <Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair></Ability>
-<Ability id="bonded-spirit-su" icon={["magic"]}>
+<Ability id="bonded-spirit-su" icon={["power","learn"]}>
 <Pair single id="bonded-spirit-su">Bonded Spirit (Su)</Pair>
 <Pair hl title="Replaces">Revelations gained at 3rd, 7th, and 15th levels</Pair>
 <Pair title="Gained">At 3rd Level</Pair>

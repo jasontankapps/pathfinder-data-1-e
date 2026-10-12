@@ -631,7 +631,7 @@
 			"",
 			"::ab[Devotion to Ascension (Ex)]{icon=info choice=\"A fungal pilgrim must select the ‹domain/Plant› domain for her nature bond if she does not select an animal companion.\" alter=\"Nature bond\"}",
 			"",
-			":::ab{l=4 icon=magic action=Ability title=\"Spore Spawning\" info=\"The fungal pilgrim @HLonly gets this ability if they selected the Plant domain as their *nature bond.*\" replace=\"Wild shape\" useInc=druid~2~4 order=nCu imp20=\"The druid can use this ability any number of times a day.\"}",
+			":::ab{l=4 icon=magic action=Ability title=\"Spore Spawning\" prereq=\"Selected the Plant domain for *nature bond*\" replace=\"Wild shape\" useInc=druid~2~4 order=Cu imp20=\"The druid can use this ability any number of times a day.\"}",
 			"",
 			"A fungal pilgrim who selected the Plant domain for her nature bond gains the ability to grow fungal creatures from the spores of her body. Once per day, when casting a *summon nature's ally* spell to summon a single creature, the fungal pilgrim can infuse her fungal connection into the casting. The creature summoned must be selected from the ‹spell/summon nature's ally› list for 1 spell level lower than the spell cast. For example, if the fungal pilgrim casts *summon nature's ally III,* she must choose a creature from the list in *summon nature's ally II.*",
 			"",

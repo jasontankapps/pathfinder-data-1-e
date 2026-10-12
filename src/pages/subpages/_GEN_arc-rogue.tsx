@@ -427,7 +427,7 @@ const _dreamthief = {title: "Dreamthief", jsx: <><h2 id="arc-rogue-dreamthief-dr
 <Ability icon={["skill"]} id="class-skills">
 <Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair></Ability>
-<Ability id="dreamshard-focus-su" icon={["power","magic"]}>
+<Ability id="dreamshard-focus-su" icon={["power","boost"]}>
 <Pair single id="dreamshard-focus-su">Dreamshard Focus (Su)</Pair>
 <Pair hl title="Replaces">Sneak attack, master strike</Pair>
 <Pair title="Gained">At 1st Level</Pair>

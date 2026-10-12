@@ -589,9 +589,17 @@ const _monster_tactician = {title: "Monster Tactician", jsx: <><h2 id="arc-inqui
 <Ability id="summon-monster-sp" icon={["magic"]}>
 <Pair single id="summon-monster-sp">Summon Monster (Sp)</Pair>
 <Pair hl title="Replaces">Judgment</Pair>
-<Pair title="At 1st Level">A monster tactician can cast <Link to="/spell/summon_monster_i">summon monster I</Link> as a spell-like ability. She can cast this spell as a <strong className="hl">standard action</strong>, and the creatures remain for 1 minute per level (instead of 1 round per level). <strong>At 3rd level</strong> and <strong>every 2</strong> inquisitor levels thereafter, the power of this ability increases by 1 spell level, allowing her to summon more powerful creatures (to a maximum of <Link to="/spell/summon_monster_ix">summon monster IX</Link> at 17th level).</Pair>
+<Pair title="At 1st Level">A monster tactician can cast <Link to="/spell/summon_monster_i">summon monster I</Link> as a spell-like ability. She can cast this spell as a <strong className="hl">standard action</strong>, and the creatures remain for 1 minute per level (instead of 1 round per level).</Pair>
 <Pair title="Usage">3 + Wisdom modifier times/day</Pair>
 <Pair title="At 2nd Level">Beginning at <strong>2nd level</strong> and <strong>each level</strong> thereafter, the monster tactician can add one monster from the <Link to="/feat/expanded_summon_monster">Expanded Summon Monster</Link> list to her list of available summoned creatures. She can add a new option to any <em>summon monster</em> spell she can cast at the time she chooses the monster; once made, these choices cannot be changed.</Pair>
+<Pair title="At 3rd Level">This now behaves as <Link to="/spell/summon_monster_ii">summon monster II</Link>.</Pair>
+<Pair title="At 5th Level">This now behaves as <Link to="/spell/summon_monster_iii">summon monster III</Link>.</Pair>
+<Pair title="At 7th Level">This now behaves as <Link to="/spell/summon_monster_iv">summon monster IV</Link>.</Pair>
+<Pair title="At 9th Level">This now behaves as <Link to="/spell/summon_monster_v">summon monster V</Link>.</Pair>
+<Pair title="At 11th Level">This now behaves as <Link to="/spell/summon_monster_vi">summon monster VI</Link>.</Pair>
+<Pair title="At 13th Level">This now behaves as <Link to="/spell/summon_monster_vii">summon monster VII</Link>.</Pair>
+<Pair title="At 15th Level">This now behaves as <Link to="/spell/summon_monster_viii">summon monster VIII</Link>.</Pair>
+<Pair title="At 17th Level">This now behaves as <Link to="/spell/summon_monster_ix">summon monster IX</Link>.</Pair>
 <Pair title="Special">A monster tactician cannot have more than one <em>summon monster</em> spell active in this way at a time; if she uses another, any existing <em>summon monster</em> immediately ends. These <em>summon monster</em> spells are considered to be part of the monster tactician's spell list for the purposes of spell trigger and spell completion items. In addition, she can expend uses of this ability to fulfill the construction requirements of any magic items she creates, so long as she can use this ability to cast the required spells</Pair>
 </Ability>
 <Ability id="summon-tactics-su" icon={["power"]}>
@@ -721,7 +729,7 @@ const _relic_hunter = {title: "Relic Hunter", jsx: <><h2 id="arc-inquisitor-reli
 <Pair title="Info">A relic hunter casts divine spells drawn from the inquisitor spell list, but her chosen relic schools (see <em>Relics</em> below) limit her to schools she knows, similar in function to an occultist's <em>implements.</em> Any spell or orison gained by the relic hunter has a relic component (see <em>Relics</em> below), and is not considered to be on the relic hunter's spell list until she selects its school though the relics alternate class feature. Once she chooses a school, all spells and orisons of that school are considered to be on the relic hunter's class spell list, allowing her to use spell trigger and spell completion magic items of those spells.</Pair>
 <Pair title="Special">A relic hunter's spells per day, daily spell allotment, Difficulty Class, and minimum Wisdom score requirements remain unchanged from the inquisitor's normal spellcasting class feature.</Pair>
 </Ability>
-<Ability id="relics-su" icon={["magic"]}>
+<Ability id="relics-su" icon={["power"]}>
 <Pair single id="relics-su">Relics (Su)</Pair>
 <Pair hl title="Replaces">Judgment</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -734,7 +742,7 @@ const _relic_hunter = {title: "Relic Hunter", jsx: <><h2 id="arc-inquisitor-reli
 <Pair title="At 19th Level">She can learn a new relic school.</Pair>
 <Pair title="Special">Relics do not need to be magic items, and nonmagical relics do not take up a magic item slot. Relics that are not magic items are often of some religious significance to the relic hunter or her church, such as the battered shield of a saint, a bishop's robe, or the finger bone of a church martyr.</Pair>
 </Ability>
-<Ability id="deific-focus-su" icon={["magic"]}>
+<Ability id="deific-focus-su" icon={["power"]}>
 <Pair single id="deific-focus-su">Deific Focus (Su)</Pair>
 <Pair hl title="Replaces">Domain, bane, greater bane, second judgment, third judgment</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -961,7 +969,7 @@ const _spellbreaker = {title: "Spellbreaker", jsx: <><h2 id="arc-inquisitor-spel
 <Pair title="Passive Ability">When an opponent tries to cast an arcane spell within a spellbreaker's threatened area, the DC for that caster to cast defensively increases by 2. This increase stacks with the effects of the <Link to="/feat/disruptive">Disruptive</Link> feat.</Pair>
 <Pair title="Ability">Furthermore, the spellbreaker knows where to hit foes to foil casting from a distance. Each time she hits an arcane spellcaster or a creature that uses spell-like abilities with a ranged weapon attack, the DC of any <Link to="/rule/concentration">concentration</Link> checks the caster makes increases by 2 for 1 round.</Pair>
 </Ability>
-<Ability id="impervious-ex" icon={["def"]}>
+<Ability id="impervious-ex" icon={["def","protect"]}>
 <Pair single id="impervious-ex">Impervious (Ex)</Pair>
 <Pair hl title="Replaces">True judgment</Pair>
 <Pair title="Gained">At 20th Level</Pair>

@@ -16,9 +16,9 @@ const _animal_speaker = {title: "Animal Speaker", jsx: <><h2 id="arc-bard-animal
 <Ability id="natures-speaker" icon={["boost","magic"]}>
 <Pair single id="natures-speaker">Nature's Speaker</Pair>
 <Pair hl title="Replaces">Well-versed</Pair>
-<Pair title="At 5th Level">The animal speaker selects a second kind of animal friend.</Pair>
-<Pair title="At 11th Level">The animal speaker selects a third kind of animal friend.</Pair>
-<Pair title="At 17th Level">The animal speaker selects a fourth kind of animal friend.</Pair>
+<Pair title="At 5th Level">The animal speaker selects a second kind of <em>animal friend.</em></Pair>
+<Pair title="At 11th Level">The animal speaker selects a third kind of <em>animal friend.</em></Pair>
+<Pair title="At 17th Level">The animal speaker selects a fourth kind of <em>animal friend.</em></Pair>
 <Pair title="Special">The bard can use <Link to="/spell/speak_with_animals">speak with animals</Link> at will on animals of his selected kinds.</Pair>
 </Ability>
 <Ability id="bardic-performance" extraClasses="hasSubs" icon={["power"]}>
@@ -1220,7 +1220,7 @@ const _fey_courtier = {title: "Fey Courtier", jsx: <><h2 id="arc-bard-fey_courti
 <Pair single id="bardic-performance">Bardic Performance</Pair>
 <Pair title="Info">The fey courtier has access to the following bardic performances.</Pair>
 </Ability>
-<Ability id="scorn-of-the-wilds-sp" extraClasses="subAbility" icon={["magic"]}>
+<Ability id="scorn-of-the-wilds-sp" extraClasses="subAbility" icon={["select","lower"]}>
 <Pair single id="scorn-of-the-wilds-sp">Scorn of the Wilds (Sp)</Pair>
 <Pair hl title="Replaces">Dirge of doom, frightening tune</Pair>
 <Pair title="Gained">At 8th Level</Pair>

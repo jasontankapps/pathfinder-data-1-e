@@ -1487,7 +1487,7 @@ const _spirit_master = {title: "Spirit Master", jsx: <><h2 id="arc-monk-spirit_m
 <Pair title="Ability">Once per day when attempting a Fortitude save to remove a temporary negative level, the spirit master may choose to automatically succeed.</Pair>
 <Pair title="Special">The spirit master still dies if his number of negative levels equals or exceeds his number of Hit Dice.</Pair>
 </Ability>
-<Ability id="spirit-burst-su" icon={["aura"]}>
+<Ability id="spirit-burst-su" icon={["boom"]}>
 <Pair single id="spirit-burst-su">Spirit Burst (Su)</Pair>
 <Pair hl title="Replaces">Wholeness of body</Pair>
 <Pair title="Gained">At 7th Level</Pair>

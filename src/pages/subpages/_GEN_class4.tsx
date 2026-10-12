@@ -1655,7 +1655,7 @@ const _sorcerer = {hasJL:true,title: "Sorcerer", jsx: <><div className="jumpList
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of cantrips, or 0-level arcane spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Cantrips cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
 </Ability>
-<Ability id="bloodline" icon={["power","magic","skill"]}>
+<Ability id="bloodline" icon={["power","learn","skill"]}>
 <Pair single id="bloodline" flavor="Each sorcerer has a source of magic somewhere in her heritage that grants her special abilities. This source can represent a blood relation or an extreme event involving a creature somewhere in the family's past. For example, a sorcerer might have a dragon as a distant relative or her grandfather might have signed a terrible contract with a devil. Regardless of the source, this influence manifests in a number of ways as the sorcerer gains levels.">Bloodline</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You must pick one <Link to="/ability/sorcerer_bloodlines">bloodline</Link> upon taking your first level of sorcerer. Once made, this choice cannot be changed. This bloodline grants you a bonus class skill, as well as additional abilities as you gain levels.</Pair>

@@ -123,7 +123,7 @@ const _order_of_the_godclaw = {title: "Order of the Godclaw", jsx: <><h2 id="hko
 <Pair title="At 20th Level">You can use this ability four times per day, and the bonuses increase to +4 and +8.</Pair>
 <Pair title="Special">If you already have access to <Link to="/ability/judgments">judgments</Link>, you can use the <em>justice</em> judgment three times per day (four times at 20th level) without it counting toward your daily uses, or you can add the <em>justice</em> judgment's effects to another judgment without it counting as a second or third judgment.</Pair>
 </Ability>
-<Ability id="3-blessing-of-the-five-su" icon={["aid"]}>
+<Ability id="3-blessing-of-the-five-su" icon={["aid","aura"]}>
 <Pair single id="3-blessing-of-the-five-su">3: Blessing of the Five (Su)</Pair>
 <Pair title="Standard Action">Once per day, you can brandish a holy symbol to heal all living creatures in a 30-foot-radius <Link to="/misc/burst">burst</Link> centered on you. Creatures in the area heal 10d6 points of damage. You can choose up to three creatures in the area that are not healed. Additionally, if a creature in the area has died within 1 round and this brings its hit point total to a negative amount less than its Constitution score, the creature returns to life and <Link to="/misc/stabilize">stabilizes</Link>.</Pair>
 <Pair title="Special">This ability can only revive one creature per use, and a revived creature gains a temporary <Link to="/rule/negative_level">negative level</Link> that lasts for 1 day. This ability cannot be modified using any feats or other abilities that affect channeled energy.</Pair>
@@ -241,7 +241,7 @@ const _order_of_the_rack = {title: "Order of the Rack", jsx: <><h2 id="hkorder-o
 <Pair title="Standard Action">Three times per day, you can target a single creature within 100 feet. If the creature fails a Will saving throw (DC = 10 + 1/2 your Hit Dice + your Charisma modifier), the creature cannot make any sounds for a number of rounds equal to your character level. This prevents the target from speaking, otherwise making noise, casting spells with verbal components, and using similar abilities with auditory effects.</Pair>
 <Pair title="Special">Each round on its turn, the target can attempt a new saving throw to end the effect. This effect is <Link to="/misc/dismissible">dismissible</Link>. It does not make the target immune to sonic or language-based attacks, spells, or effects.</Pair>
 </Ability>
-<Ability id="2-dismantle-su" icon={["magic"]}>
+<Ability id="2-dismantle-su" icon={["magic","boom"]}>
 <Pair single id="2-dismantle-su">2: Dismantle (Su)</Pair>
 <Pair title="Standard Action"><p>Once per day, you can cause a cloud of thick, brown fog to arise from a chosen point within 200 feet. This cloud functions as per <Link to="/spell/fog_cloud">fog cloud</Link>, using your character level as your caster level, except the fog <Link to="/misc/spread">spreads</Link> in a 10-foot radius, and every creature or object within is affected as per <Link to="/spell/rusting_grasp">rusting grasp</Link>, without any touch attacks required.</p>
 <p>Attended metal objects, including weapons and armor, receive a Fortitude saving throw to negate this effect using their wielder's Fortitude saving throw bonus (DC = 10 + 1/2 your Hit Dice + your Charisma modifier). Creatures within the cloud are affected by the rusting effect only once, not every round, but creatures that move back into the area are exposed again.</p>

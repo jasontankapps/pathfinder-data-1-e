@@ -163,7 +163,7 @@ const _dreamstalker = {title: "Dreamstalker", jsx: <><h2 id="arc-mesmerist-dream
 <Pair hl title="Alters">Painful stare</Pair>
 <Pair title="Info">A dreamstalker's <em>painful stare</em> deals nonlethal damage.</Pair>
 </Ability>
-<Ability id="somnomancer" icon={["power","learn","magic"]}>
+<Ability id="somnomancer" icon={["power","learn"]}>
 <Pair single id="somnomancer">Somnomancer</Pair>
 <Pair hl title="Replaces">1st-level mesmerist trick</Pair>
 <Pair hl title="Alters">Mesmerist tricks</Pair>

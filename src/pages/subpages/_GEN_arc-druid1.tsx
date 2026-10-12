@@ -980,9 +980,9 @@ const _fungal_pilgrim = {title: "Fungal Pilgrim", jsx: <><h2 id="arc-druid-funga
 </Ability>
 <Ability id="spore-spawning" icon={["magic"]}>
 <Pair single id="spore-spawning">Spore Spawning</Pair>
+<Pair title="Prerequisites">Selected the Plant domain for <em>nature bond</em></Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Info">The fungal pilgrim <strong className="hl">only</strong> gets this ability if they selected the Plant domain as their <em>nature bond.</em></Pair>
 <Pair title="Ability"><p>A fungal pilgrim who selected the Plant domain for her nature bond gains the ability to grow fungal creatures from the spores of her body. Once per day, when casting a <em>summon nature's ally</em> spell to summon a single creature, the fungal pilgrim can infuse her fungal connection into the casting. The creature summoned must be selected from the <Link to="/spell/summon_natures_ally">summon nature's ally</Link> list for 1 spell level lower than the spell cast. For example, if the fungal pilgrim casts <em>summon nature's ally III,</em> she must choose a creature from the list in <em>summon nature's ally II.</em></p>
 <p>Creatures summoned in this manner gain the <Link to="/template/fungal_creature">fungal creature</Link> template, except they do not gain the <em>create spawn</em> and <em>poison spore cloud</em> special attacks. A creature summoned in this manner cannot be harvested for its poison.</p>
 </Pair>

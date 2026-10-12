@@ -56,7 +56,7 @@ const _hatharat_agent = {title: "Hatharat Agent", jsx: <><h2 id="arc-bard-hathar
 <Pair single id="bardic-performance">Bardic Performance</Pair>
 <Pair title="Info">A Hatharat agent gains the bardic performance listed below.</Pair>
 </Ability>
-<Ability id="master-of-manipulation-su" extraClasses="subAbility" icon={["power"]}>
+<Ability id="master-of-manipulation-su" extraClasses="subAbility" icon={["select","boom","lower"]}>
 <Pair single id="master-of-manipulation-su" flavor="A Hatharat agent gains a reputation of being able to sense lies.">Master of Manipulation (Su)</Pair>
 <Pair hl title="Replaces">Dirge of doom</Pair>
 <Pair title="Gained">At 8th Level</Pair>

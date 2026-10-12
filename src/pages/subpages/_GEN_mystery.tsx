@@ -79,7 +79,7 @@ const _ancestor = {hasJL:true,title: "Ancestor", jsx: <><div className="jumpList
 <Pair title="Ability">Once per day, you can become incorporeal and invisible. While in this form, you can move in any direction and pass through solid objects. You can take no action other than to move while in this form. You remain in this form for a number of rounds equal to your oracle level, but you can end this effect prematurely as a <strong className="hl">standard action</strong>.</Pair>
 <Pair title="At 15th Level">You can use this ability twice a day.</Pair>
 </Ability>
-<Ability id="storm-of-souls-su" icon={["magic"]}>
+<Ability id="storm-of-souls-su" icon={["boom"]}>
 <Pair single id="storm-of-souls-su">Storm of Souls (Su)</Pair>
 <Pair title="Prerequisites">7th-level oracle</Pair>
 <Pair title="Usage">1 time/day + 1 per four oracle levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
@@ -148,7 +148,7 @@ const _apocalypse = {hasJL:true,title: "Apocalypse", jsx: <><div className="jump
 <Pair title="At 20th Level">You can choose an additional energy type for which to gain resistance 5, or you can choose a previously chosen energy type and increase that resistance by 5.</Pair>
 <Pair title="Special">You can only have a maximum resistance of 20 for any one energy type.</Pair>
 </Ability>
-<Ability id="destructive-roots-su" icon={["magic"]}>
+<Ability id="destructive-roots-su" icon={["aura","lower"]}>
 <Pair single id="destructive-roots-su" flavor="You can root yourself to your current spot and cause the world around you to fall apart.">Destructive Roots (Su)</Pair>
 <Pair title="Prerequisites">7th-level oracle</Pair>
 <Pair title="Standard Action">You can cause the ground in a 5-foot radius <Link to="/misc/burst">burst</Link> centered on you to crumble and rupture, becoming <Link to="/rule/difficult_terrain">difficult terrain</Link>. As a <strong className="hl">move action</strong> on subsequent rounds, you can continue to concentrate on this area as though concentrating on a spell; doing so increases the radius of difficult terrain by 5 feet (maximum 30-foot-radius).</Pair>
@@ -1831,7 +1831,7 @@ const _outer_rifts = {hasJL:true,title: "Outer Rifts", jsx: <><div className="ju
 <Pair title="At 10th Level">The haze functions as <Link to="/spell/fog_cloud">fog cloud</Link>.</Pair>
 <Pair title="At 14th Level">You can use this ability three times a day.</Pair>
 </Ability>
-<Ability id="planar-infusion-su" icon={["magic"]}>
+<Ability id="planar-infusion-su" icon={["magic","boom"]}>
 <Pair single id="planar-infusion-su">Planar Infusion (Su)</Pair>
 <Pair title="Prerequisites">You must be chaotic and/or evil.</Pair>
 <Pair title="Standard Action"><p>Once per day, you can cause a 20-foot-<Link to="/misc/spread">spread</Link> to gain either the mildly chaotic-aligned or mildly evil-aligned <Link to="/rule/planar_traits">planar trait</Link> for a number of rounds equal to your oracle level.</p>
@@ -2686,7 +2686,7 @@ const _volcano = {hasJL:true,title: "Volcano", jsx: <><div className="jumpList" 
 <Pair title="At 7th Level">You can use this ability twice per day.</Pair>
 <Pair title="At 15th Level">You can do this three times per day.</Pair>
 </Ability>
-<Ability id="erupt-su" icon={["magic"]}>
+<Ability id="erupt-su" icon={["aura"]}>
 <Pair single id="erupt-su">Erupt (Su)</Pair>
 <Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
 <Pair title="Swift Action">You cause flaming shards of rock to erupt from your body. These shards deal 1d6 points of damage per 2 oracle levels (minimum 1d6) to all creatures in a 10-foot-radius <Link to="/misc/burst">burst</Link> (Reflex half). Half of this damage is fire damage and the other half is piercing damage. The shards create <Link to="/rule/difficult_terrain">difficult terrain</Link> for 1 round.</Pair>
@@ -3163,7 +3163,7 @@ const _wood = {hasJL:true,title: "Wood", jsx: <><div className="jumpList" id="my
 <Pair title="Usage">1 minute/day per oracle level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
 <Pair title="Ability">You spend 1 minute meditating on and communing with the wood. At the end of this time, you can speak with the wood. This functions as the <Link to="/spell/stone_tell">stone tell</Link> spell, except with wood instead of stones. You can speak with natural or worked wood.</Pair>
 </Ability>
-<Ability id="thorn-burst-su" icon={["power"]}>
+<Ability id="thorn-burst-su" icon={["aura"]}>
 <Pair single id="thorn-burst-su">Thorn Burst (Su)</Pair>
 <Pair title="Usage">1 time/day + 1 per five oracle levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
 <Pair title="Swift Action">You can cause sharp splinters of wood to explode outward from your body. These splinters deal 1d6 points of piercing damage per two oracle levels (minimum 1d6) to all creatures within a 10-foot <Link to="/misc/burst">burst</Link>. A Reflex save halves this damage.</Pair>
