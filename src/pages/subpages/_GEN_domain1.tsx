@@ -15,7 +15,7 @@ const _air = {hasJL:true,title: "Air", jsx: <><div className="jumpList" id="doma
 <Ability id="arc" icon={["zap"]}>
 <Pair single id="arc">Lightning Arc (Sp)</Pair>
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
-<Pair title="Standard Action">Target any foe within 30 ft. with a ranged touch attack, dealing 1d6 electricity damage + 1 point for every two cleric levels you possess.</Pair>
+<Pair title="Standard Action">Target any foe within 30 ft. with a ranged touch attack, dealing an amount of electricity damage equal to 1d6 + <Link to="/misc/half">half</Link> of your cleric level.</Pair>
 </Ability>
 <Ability id="res" icon={["def"]}>
 <Pair single id="res">Electricity Resistance (Ex)</Pair>
@@ -108,7 +108,7 @@ const _artifice = {hasJL:true,title: "Artifice", jsx: <><div className="jumpList
 <Ability id="touch" icon={["touch"]}>
 <Pair single id="touch">Artificer's Touch (Sp)</Pair>
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
-<Pair title="Standard Action">You can cast <Link to="/spell/mending">mending</Link> at will, using your cleric level as the caster level to repair damaged objects. In addition, you can cause damage to objects and construct creatures by striking them with a melee touch attack. Objects and constructs take 1d6 points of damage +1 for every two cleric levels you possess. This attack bypasses an amount of damage reduction and hardness equal to your cleric level.</Pair>
+<Pair title="Standard Action">You can cast <Link to="/spell/mending">mending</Link> at will, using your cleric level as the caster level to repair damaged objects. In addition, you can cause damage to objects and construct creatures by striking them with a melee touch attack. Objects and constructs take an amount of damage equal to 1d6 + <Link to="/misc/half">half</Link> of your cleric level. This attack bypasses an amount of damage reduction and hardness equal to your cleric level.</Pair>
 </Ability>
 <Ability id="dance" icon={["boost"]}>
 <Pair single id="dance">Dancing Weapons (Su)</Pair>
@@ -601,7 +601,7 @@ const _earth = {hasJL:true,title: "Earth", jsx: <><div className="jumpList" id="
 <Ability id="dart" icon={["zap"]}>
 <Pair single id="dart">Acid Dart (Sp)</Pair>
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
-<Pair title="Standard Action">As a standard action, you can unleash an acid dart targeting any foe within 30 feet as a ranged touch attack. This acid dart deals 1d6 points of acid damage + 1 point for every two cleric levels you possess.</Pair>
+<Pair title="Standard Action">As a standard action, you can unleash an acid dart targeting any foe within 30 feet as a ranged touch attack. This acid dart deals an amount of acid damage equal to 1d6 + <Link to="/misc/half">half</Link> of your cleric level.</Pair>
 </Ability>
 <Ability id="res" icon={["def"]}>
 <Pair single id="res">Acid Resistance (Ex)</Pair>
@@ -657,7 +657,7 @@ const _fire = {hasJL:true,title: "Fire", jsx: <><div className="jumpList" id="do
 <Ability id="bolt" icon={["zap"]}>
 <Pair single id="bolt">Fire Bolt (Sp)</Pair>
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
-<Pair title="Standard Action">You can unleash a scorching bolt of divine fire from your outstretched hand. You can target any single foe within 30 feet as a ranged touch attack with this bolt of fire. If you hit the foe, the fire bolt deals 1d6 points of fire damage + 1 point for every two cleric levels you possess.</Pair>
+<Pair title="Standard Action">You can unleash a scorching bolt of divine fire from your outstretched hand. You can target any single foe within 30 feet as a ranged touch attack with this bolt of fire. If you hit the foe, the fire bolt deals an amount of fire damage equal to 1d6 + <Link to="/misc/half">half</Link> of your cleric level.</Pair>
 </Ability>
 <Ability id="res" icon={["def"]}>
 <Pair single id="res">Fire Resistance (Ex)</Pair>

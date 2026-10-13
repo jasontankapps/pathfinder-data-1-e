@@ -492,7 +492,7 @@
 			"",
 			"::ab[Tactician (Ex)]{l=2 icon=power ability=\"A drill sergeant gains the ‹class/cavalier«'s› *tactician* class feature, treating his fighter level as his cavalier level for the purposes of this ability.\" replace=Bravery head}",
 			"",
-			"::ab[Tactician (Ex)]{flavor=\"Text from the cavalier class\" next icon=power-boost order=asu ability=\"You receive a ‹main/teamwork feat› as a bonus feat. You must meet the prerequisites for this feat.\" standard=\"You can grant this feat to all allies within 30 feet who can see and hear you. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every two levels you possess. Allies do not need to meet the prerequisites of these bonus feats.\" useInc=fighter~5~+ useF=\"2~1~5~~5\"}",
+			"::ab[Tactician (Ex)]{flavor=\"Text from the cavalier class\" next icon=power-boost order=asu ability=\"You receive a ‹main/teamwork feat› as a bonus feat. You must meet the prerequisites for this feat.\" standard=\"You can grant this feat to all allies within 30 feet who can see and hear you. Allies retain the use of this bonus feat for a number of rounds equal to 3 + ‹misc/half› of your cavalier level. Allies do not need to meet the prerequisites of these bonus feats.\" useInc=cavalier~5~+ useF=\"2~1~5~~5\"}",
 			"",
 			"::ab[Weapon Training (Ex)]{l=5 icon=down ability=\"A drill sergeant gains *weapon training* with one ‹ability/group of »weapon«s<_groups›. He doesn't gain *weapon training* with other groups at later levels, though his *weapon training* bonus improves by 1 for every 4 levels after 5th level.\" alter=\"Weapon training 1\"}",
 			"",

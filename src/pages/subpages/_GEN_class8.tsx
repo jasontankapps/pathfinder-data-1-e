@@ -2220,7 +2220,7 @@ const _mesmerist = {hasJL:true,title: "Mesmerist", jsx: <><div className="jumpLi
 <Pair single id="consummate-liar">Consummate Liar</Pair>
 <Pair title="Passive Ability">You add <Link to="/misc/half">half</Link> your mesmerist level (minimum 1) as a bonus on all Bluff checks. In addition, you qualify for the <Link to="/feat/improved_feint">Improved Feint</Link> and <Link to="/feat/greater_feint">Greater Feint</Link> feats, even if you don't have <Link to="/feat/combat_expertise">Combat Expertise</Link> or an Intelligence score of at least 13. You can also ignore Combat Expertise and an Intelligence score of 13 as prerequisites for other feats that require Improved Feint or Greater Feint.</Pair>
 </Ability>
-<Ability id="hypnotic-stare-su" icon={["lower"]}>
+<Ability id="hypnotic-stare-su" icon={["select","lower"]}>
 <Pair single id="hypnotic-stare-su">Hypnotic Stare (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Swift Action">You can focus your stare on one creature within 30 feet. That creature takes a -2 penalty on Will saving throws. You can maintain your <em>stare</em> against only one opponent at a time; it remains in effect until you stare at a new target, the opponent dies, the opponent moves farther than 30 feet away, or you fall unconscious or die. You can remove the memory of your <em>stare</em> from the target's mind; the creature doesn't remember that it was affected (nor does it realize that it is currently being affected) unless you allow it.</Pair>

@@ -1067,8 +1067,8 @@ const _drill_sergeant = {title: "Drill Sergeant", jsx: <><h2 id="arc-fighter-dri
 <Ability id="tactician-ex" extraClasses="subAbility" icon={["power","boost"]}>
 <Pair single id="tactician-ex" flavor="Text from the cavalier class">Tactician (Ex)</Pair>
 <Pair title="Ability">You receive a <Link to="/main/teamwork_feat">teamwork feat</Link> as a bonus feat. You must meet the prerequisites for this feat.</Pair>
-<Pair title="Standard Action">You can grant this feat to all allies within 30 feet who can see and hear you. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every two levels you possess. Allies do not need to meet the prerequisites of these bonus feats.</Pair>
-<Pair title="Usage">1 time/day + 1 per five fighter levels<ByLevelPop levels={[[2,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action">You can grant this feat to all allies within 30 feet who can see and hear you. Allies retain the use of this bonus feat for a number of rounds equal to 3 + <Link to="/misc/half">half</Link> of your cavalier level. Allies do not need to meet the prerequisites of these bonus feats.</Pair>
+<Pair title="Usage">1 time/day + 1 per five cavalier levels<ByLevelPop levels={[[2,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
 </Ability>
 <Ability id="weapon-training-ex" icon={["down"]}>
 <Pair single id="weapon-training-ex">Weapon Training (Ex)</Pair>

@@ -351,7 +351,13 @@ const _divine_strategist = {title: "Divine Strategist", jsx: <><h2 id="arc-cleri
 <Pair single id="tactical-expertise-ex" flavor="A divine strategist knows how to take best advantage of tactical opportunities.">Tactical Expertise (Ex)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">Whenever she is <Link to="/rule/flanking">flanking</Link> or makes an attack of opportunity, she may add her Intelligence bonus (if any) as a bonus on the attack roll.</Pair>
-<Pair title="Swift Action">Once per day she may add her Intelligence modifier as a bonus on any single d20 roll made as part of a <Link to="/rule/readied_action">readied action</Link>. She can use this ability one additional time per day for every two levels after 8th.</Pair>
+<Pair title="Swift Action">Once per day she may add her Intelligence modifier as a bonus on any single d20 roll made as part of a <Link to="/rule/readied_action">readied action</Link>.</Pair>
+<Pair title="At 10th Level">She can use the swift action 2 times per day.</Pair>
+<Pair title="At 12th Level">She can use the swift action 3 times per day.</Pair>
+<Pair title="At 14th Level">She can use the swift action 4 times per day.</Pair>
+<Pair title="At 16th Level">She can use the swift action 5 times per day.</Pair>
+<Pair title="At 18th Level">She can use the swift action 6 times per day.</Pair>
+<Pair title="At 20th Level">She can use the swift action 7 times per day.</Pair>
 </Ability>
 </>};
 const _ecclesitheurge = {title: "Ecclesitheurge", jsx: <><h2 id="arc-cleric-ecclesitheurge-ecclesitheurge">Ecclesitheurge</h2>

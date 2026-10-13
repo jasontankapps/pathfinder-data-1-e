@@ -367,14 +367,14 @@ const _gaslighter = {title: "Gaslighter", jsx: <><h2 id="arc-mesmerist-gaslighte
 <Pair title="Passive Ability">A gaslighter gains a bonus equal to 1/2 his mesmerist level (minimum 1) on Intimidate checks.</Pair>
 <Pair title="Ability">A gaslighter can take <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link> and <Link to="/feat/greater_dirty_trick">Greater Dirty Trick</Link> without having <Link to="/feat/combat_expertise">Combat Expertise</Link> or an Intelligence score of 13. He can also ignore those two prerequisites for other feats that have Improved Dirty Trick or Greater Dirty Trick as a prerequisite.</Pair>
 </Ability>
-<Ability id="horrid-mask-su" icon={["lower","magic","boost"]}>
+<Ability id="horrid-mask-su" icon={["select","lower","boost"]}>
 <Pair single id="horrid-mask-su">Horrid Mask (Su)</Pair>
 <Pair hl title="Replaces">Touch treatment (minor)</Pair>
 <Pair hl title="Alters">Painful stare</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Usage">3 + Charisma modifier times/day</Pair>
 <Pair title="Standard Action">A gaslighter can implant a maddening phantasm in the mind of the target of his <em>hypnotic stare,</em> causing the target to perceive its own reflection as corrupted in some disturbing way. This is a mind-affecting fear effect, and there is no saving throw. The target is simultaneously captivated and horrified by the sight of its own reflection, and in any round in which the target can see itself in a mirror within 30 feet, the gaslighter can trigger his <em>painful stare</em> against the target without dealing damage. This is a <Link to="/umr/gaze">gaze</Link> attack, and the creature can avert its eyes to attempt to avoid it.</Pair>
-<Pair title="Special">Any creature holding a visible mirror that attempts to demoralize the target can choose to add the gaslighter's Charisma modifier to its Intimidate check instead of its own. <em>Horrid mask</em> lasts until that particular <em>hypnotic stare</em> ends (often when the target moves away from a mirror). The gaslighter can use this ability a number of times per day equal to 3 + his Charisma modifier.</Pair>
+<Pair title="Special">Any creature holding a visible mirror that attempts to demoralize the target can choose to add the gaslighter's Charisma modifier to its Intimidate check instead of its own. <em>Horrid mask</em> lasts until that particular <em>hypnotic stare</em> ends (often when the target moves away from a mirror).</Pair>
 </Ability>
 <Ability id="phantasmal-force-su" icon={["lower"]}>
 <Pair single id="phantasmal-force-su">Phantasmal Force (Su)</Pair>

@@ -258,7 +258,7 @@
 			"",
 			"::ab[Caster Support (Su)]{icon=boost-def ability=\"A divine strategist can use the ‹rule/aid another<_2› action to assist another divine spellcaster, granting a circumstance bonus on caster level checks and ‹rule/concentration› checks until the beginning of the divine strategist's next turn. @B-4f2-cleric-x.\" special=\"The allied caster must remain adjacent to the divine strategist to gain this benefit. Caster support can be used to assist arcane spellcasters or characters using magical items, but they gain only half the normal bonus.\"}",
 			"",
-			"::ab[Tactical Expertise (Ex)]{l=8 icon=boost order=pw flavor=\"A divine strategist knows how to take best advantage of tactical opportunities.\" passive=\"Whenever she is ‹rule/flanking› or makes an attack of opportunity, she may add her Intelligence bonus (if any) as a bonus on the attack roll.\" swift=\"Once per day she may add her Intelligence modifier as a bonus on any single d20 roll made as part of a ‹rule/readied action›. She can use this ability one additional time per day for every two levels after 8th.\"}"
+			"::ab[Tactical Expertise (Ex)]{l=8 icon=boost order=pw flavor=\"A divine strategist knows how to take best advantage of tactical opportunities.\" passive=\"Whenever she is ‹rule/flanking› or makes an attack of opportunity, she may add her Intelligence bonus (if any) as a bonus on the attack roll.\" swift=\"Once per day she may add her Intelligence modifier as a bonus on any single d20 roll made as part of a ‹rule/readied action›.\" incrementMulti=\"She can use the swift action ~ times per day.~8/2;2/1\"}"
 		]
 	},
 	"ecclesitheurge": {

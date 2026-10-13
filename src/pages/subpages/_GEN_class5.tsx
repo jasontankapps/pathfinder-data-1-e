@@ -219,8 +219,8 @@ const _cavalier = {hasJL:true,title: "Cavalier", jsx: <><div className="jumpList
 <Pair single id="tactician-ex">Tactician (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You receive a <Link to="/main/teamwork_feat">teamwork feat</Link> as a bonus feat. You must meet the prerequisites for this feat.</Pair>
-<Pair title="Standard Action">You can grant this feat to all allies within 30 feet who can see and hear you. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every two levels you possess. Allies do not need to meet the prerequisites of these bonus feats.</Pair>
-<Pair title="Usage">1 time/day + 1 per five fighter levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action">You can grant this feat to all allies within 30 feet who can see and hear you. Allies retain the use of this bonus feat for a number of rounds equal to 3 + <Link to="/misc/half">half</Link> of your cavalier level. Allies do not need to meet the prerequisites of these bonus feats.</Pair>
+<Pair title="Usage">1 time/day + 1 per five cavalier levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
 </Ability>
 <Ability id="cavaliers-charge-ex" icon={["melee","def"]}>
 <Pair single id="cavaliers-charge-ex">Cavalier's Charge (Ex)</Pair>

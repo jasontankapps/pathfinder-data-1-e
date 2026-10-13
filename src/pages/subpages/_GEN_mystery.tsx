@@ -566,7 +566,7 @@ const _dark_tapestry = {hasJL:true,title: "Dark Tapestry", jsx: <><div className
 <Ability id="touch-of-the-void-su" icon={["touch"]}>
 <Pair single id="touch-of-the-void-su">Touch of the Void (Su)</Pair>
 <Pair title="Usage">3 + Charisma modifier times/day</Pair>
-<Pair title="Standard Action">You can perform a melee touch attack that deals 1d6 points of cold damage + 1 point for every two oracle levels you possess.</Pair>
+<Pair title="Standard Action">You can perform a melee touch attack that deals an amount of cold damage equal to 1d6 + <Link to="/misc/half">half</Link> of your oracle level.</Pair>
 <Pair title="At 7th Level">The touched creature must also make a Fortitude saving throw or be <Link to="/misc/fatigued">fatigued</Link> for a number of rounds equal to <Link to="/misc/half">half</Link> your oracle level. This has no effect on a creature that is already fatigued.</Pair>
 </Ability>
 <Ability id="wings-of-darkness-su" icon={["power"]}>
@@ -3149,7 +3149,7 @@ const _wood = {hasJL:true,title: "Wood", jsx: <><div className="jumpList" id="my
 <Pair title="At 11th Level">You can use this ability to push wood away from you, as <Link to="/spell/repel_wood">repel wood</Link>.</Pair>
 <Pair title="At 14th Level">You can use this ability three times a day.</Pair>
 </Ability>
-<Ability id="lignification-su" icon={["magic"]}>
+<Ability id="lignification-su" icon={["select","magic"]}>
 <Pair single id="lignification-su">Lignification (Su)</Pair>
 <Pair title="Prerequisites">11th-level oracle</Pair>
 <Pair title="Standard Action"><p>Once per day, you can turn a creature into wood. You direct your gaze against a single creature within 30 feet. The targeted creature (along with all its carried gear) must make a Fortitude save or turn into a mindless, inert statue made out of wood for a number of rounds equal to <Link to="/misc/half">half</Link> your oracle level.</p>

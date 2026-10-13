@@ -71,7 +71,7 @@ const _conjuration = {hasJL:true,title: "Conjuration", jsx: <><div className="ju
 <Pair single id="acid-dart-sp">Acid Dart (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
-<Pair title="Standard Action">You can unleash an acid dart targeting any foe within 30 feet as a ranged touch attack. The acid dart deals 1d6 points of acid damage + 1 for every two wizard levels you possess.</Pair>
+<Pair title="Standard Action">You can unleash an acid dart targeting any foe within 30 feet as a ranged touch attack. The acid dart deals an amount of acid damage equal to 1d6 + <Link to="/misc/half">half</Link> of your wizard level.</Pair>
 </Ability>
 <Ability id="dimensional-steps-sp" icon={["magic"]}>
 <Pair single id="dimensional-steps-sp">Dimensional Steps (Sp)</Pair>
@@ -437,7 +437,7 @@ const _necromancy = {hasJL:true,title: "Necromancy", jsx: <><div className="jump
 <Pair single id="share-essence-sp">Share Essence (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
-<Pair title="Standard Action">You can share your vital energy with a living creature that you touch. You take 1d6 points of nonlethal damage + 1 for every two wizard levels you possess. You cannot take an amount of nonlethal damage equal to or greater than your current hit point total; any excess is prevented. The recipient gains a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the amount of damage you received (prevented damage is not counted). These temporary hit points disappear 1 hour later. You may not use this ability to grant yourself temporary hit points.</Pair>
+<Pair title="Standard Action">You can share your vital energy with a living creature that you touch. You take an amount of nonlethal damage equal to 1d6 + <Link to="/misc/half">half</Link> of your wizard level. You cannot take an amount of nonlethal damage equal to or greater than your current hit point total; any excess is prevented. The recipient gains a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the amount of damage you received (prevented damage is not counted). These temporary hit points disappear 1 hour later. You may not use this ability to grant yourself temporary hit points.</Pair>
 </Ability>
 <h3 id="arcaneschool-necromancy-undead-school" data-hash-target>Undead School</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 147</Link><br/><strong>Associated School:</strong> Necromancy.</p>
@@ -461,7 +461,7 @@ const _transmutation = {hasJL:true,title: "Transmutation", jsx: <><div className
 <Pair single id="telekinetic-fist-sp">Telekinetic Fist (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
-<Pair title="Standard Action">You can strike with a telekinetic fist, targeting any foe within 30 feet as a ranged touch attack. The telekinetic fist deals 1d4 points of bludgeoning damage + 1 for every two wizard levels you possess.</Pair>
+<Pair title="Standard Action">You can strike with a telekinetic fist, targeting any foe within 30 feet as a ranged touch attack. The telekinetic fist deals an amount of bludgeoning damage equal to 1d4 + <Link to="/misc/half">half</Link> of your wizard level.</Pair>
 </Ability>
 <Ability id="change-shape-sp" icon={["magic"]}>
 <Pair single id="change-shape-sp">Change Shape (Sp)</Pair>
@@ -584,7 +584,7 @@ const _air = {hasJL:true,title: "Air", jsx: <><div className="jumpList" id="arca
 <Pair single id="lightning-flash-su">Lightning Flash (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
-<Pair title="Standard Action">You can unleash a flash of electricity. This flash deals 1d6 points of electricity damage + 1 point for every two wizard levels you possess to all creatures within 5 feet of you and <Link to="/misc/dazzle">dazzles</Link> them for 1d4 rounds. A successful Reflex save negates the dazzled effect and halves the damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier.</Pair>
+<Pair title="Standard Action">You can unleash a flash of electricity. This flash deals an amount of electricity damage equal to 1d6 + <Link to="/misc/half">half</Link> of your wizard level to all creatures within 5 feet of you and <Link to="/misc/dazzle">dazzles</Link> them for 1d4 rounds. A successful Reflex save negates the dazzled effect and halves the damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier.</Pair>
 </Ability>
 <Ability id="cyclone-su" icon={["aura"]}>
 <Pair single id="cyclone-su">Cyclone (Su)</Pair>
@@ -648,7 +648,7 @@ const _earth = {hasJL:true,title: "Earth", jsx: <><div className="jumpList" id="
 <Pair single id="acid-cloud-su">Acid Cloud (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
-<Pair title="Standard Action">You can create a 5-foot-radius cloud of acid vapor within 30 feet that lasts for 1 round. This cloud deals 1d6 points of acid damage + 1 point for every two wizard levels you possess to all creatures in the cloud and <Link to="/misc/sicken">sickens</Link> them for 1 round. A successful Fortitude save negates the sickened effect and halves the damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. Creatures that begin their turn inside the cloud can move out that turn without penalty, but those that enter the cloud are affected.</Pair>
+<Pair title="Standard Action">You can create a 5-foot-radius cloud of acid vapor within 30 feet that lasts for 1 round. This cloud deals an amount of acid damage equal to 1d6 + <Link to="/misc/half">half</Link> of your wizard level to all creatures in the cloud and <Link to="/misc/sicken">sickens</Link> them for 1 round. A successful Fortitude save negates the sickened effect and halves the damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. Creatures that begin their turn inside the cloud can move out that turn without penalty, but those that enter the cloud are affected.</Pair>
 </Ability>
 <Ability id="earth-glide-su" icon={["power"]}>
 <Pair single id="earth-glide-su">Earth Glide (Su)</Pair>
@@ -713,7 +713,7 @@ const _fire = {hasJL:true,title: "Fire", jsx: <><div className="jumpList" id="ar
 <Pair single id="fire-jet-su">Fire Jet (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
-<Pair title="Standard Action">You can send forth a 20-foot line of fire. Anyone in this line takes 1d6 points of fire damage + 1 point for every two wizard levels you possess. A successful Reflex save halves this damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. Creatures that fail their saving throw <Link to="/rule/catch_fire">catch fire</Link> and take 1d6 points of fire damage on the following round. Creatures that catch fire can avoid this damage by taking a full-round action to extinguish the flames by making a DC 15 Reflex save. Rolling on the ground gives a +2 circumstance bonus on the save. Dousing the creature with water automatically extinguishes the flame.</Pair>
+<Pair title="Standard Action">You can send forth a 20-foot line of fire. Anyone in this line takes an amount of fire damage equal to 1d6 + <Link to="/misc/half">half</Link> of your wizard level. A successful Reflex save halves this damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. Creatures that fail their saving throw <Link to="/rule/catch_fire">catch fire</Link> and take 1d6 points of fire damage on the following round. Creatures that catch fire can avoid this damage by taking a full-round action to extinguish the flames by making a DC 15 Reflex save. Rolling on the ground gives a +2 circumstance bonus on the save. Dousing the creature with water automatically extinguishes the flame.</Pair>
 </Ability>
 <Ability id="dancing-flame-su" icon={["magic"]}>
 <Pair single id="dancing-flame-su">Dancing Flame (Su)</Pair>
@@ -863,7 +863,7 @@ const _water = {hasJL:true,title: "Water", jsx: <><div className="jumpList" id="
 <Pair single id="cold-blast-su">Cold Blast (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
-<Pair title="Standard Action">You can unleash a blast of freezing cold. This blast deals 1d6 points of cold damage + 1 point for every two wizard levels you possess to all creatures within 5 feet of you and <Link to="/misc/stagger">staggers</Link> them for 1 round. A successful Reflex save negates the staggered effect and halves the damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier.</Pair>
+<Pair title="Standard Action">You can unleash a blast of freezing cold. This blast deals an amount of cold damage equal to 1d6 + <Link to="/misc/half">half</Link> of your wizard level to all creatures within 5 feet of you and <Link to="/misc/stagger">staggers</Link> them for 1 round. A successful Reflex save negates the staggered effect and halves the damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier.</Pair>
 </Ability>
 <Ability id="wave-su" icon={["line"]}>
 <Pair single id="wave-su">Wave (Su)</Pair>

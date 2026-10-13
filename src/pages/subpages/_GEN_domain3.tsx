@@ -288,7 +288,7 @@ const _healing = {hasJL:true,title: "Healing", jsx: <><div className="jumpList" 
 <Ability id="rebuke" icon={["aid"]}>
 <Pair single id="rebuke">Rebuke Death (Sp)</Pair>
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
-<Pair title="Standard Action">You can touch a living creature, healing it for 1d4 points of damage plus 1 for every two cleric levels you possess. You can only use this ability on a creature that is below 0 hit points.</Pair>
+<Pair title="Standard Action">You can touch a living creature, healing it for an amount of damage equal to 1d4 + <Link to="/misc/half">half</Link> of your cleric level. You can only use this ability on a creature that is below 0 hit points.</Pair>
 </Ability>
 <Ability id="bless" icon={["power"]}>
 <Pair single id="bless">Healer's Blessing (Su)</Pair>
@@ -639,7 +639,7 @@ const _water = {hasJL:true,title: "Water", jsx: <><div className="jumpList" id="
 <Ability id="icicle" icon={["zap"]}>
 <Pair single id="icicle">Icicle (Sp)</Pair>
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
-<Pair title="Standard Action">You can fire an icicle from your finger, targeting any foe within 30 feet as a ranged touch attack. The icicle deals 1d6 points of cold damage + 1 point for every two cleric levels you possess.</Pair>
+<Pair title="Standard Action">You can fire an icicle from your finger, targeting any foe within 30 feet as a ranged touch attack. The icicle deals an amount of cold damage equal to 1d6 + <Link to="/misc/half">half</Link> of your cleric level.</Pair>
 </Ability>
 <Ability id="res" icon={["def"]}>
 <Pair single id="res">Cold Resistance (Ex)</Pair>
@@ -702,7 +702,7 @@ const _weather = {hasJL:true,title: "Weather", jsx: <><div className="jumpList" 
 <Ability id="burst" icon={["zap"]}>
 <Pair single id="burst">Storm Burst (Sp)</Pair>
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
-<Pair title="Standard Action">You can create a storm burst targeting any foe within 30 feet as a ranged touch attack. The storm burst deals 1d6 points of nonlethal damage + 1 point for every two cleric levels you possess. In addition, the target is buffeted by winds and rain, causing it to take a -2 penalty on attack rolls for 1 round.</Pair>
+<Pair title="Standard Action">You can create a storm burst targeting any foe within 30 feet as a ranged touch attack. The storm burst deals an amount of nonlethal damage equal to 1d6 + <Link to="/misc/half">half</Link> of your cleric level. In addition, the target is buffeted by winds and rain, causing it to take a -2 penalty on attack rolls for 1 round.</Pair>
 </Ability>
 <Ability id="lord" icon={["zap"]}>
 <Pair single id="lord">Lightning Lord (Sp)</Pair>

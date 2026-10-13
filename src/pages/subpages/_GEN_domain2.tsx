@@ -576,7 +576,7 @@ const _rune = {hasJL:true,title: "Rune", jsx: <><div className="jumpList" id="do
 <Ability id="blast" icon={["magic"]}>
 <Pair single id="blast">Blast Rune (Sp)</Pair>
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
-<Pair title="Standard Action">You can create a blast rune in any adjacent square. Any creature entering this square takes 1d6 points of damage + 1 point for every two cleric levels you possess. This rune deals either acid, cold, electricity, or fire damage, decided when you create the rune. The rune is invisible and lasts a number of rounds equal to your cleric level or until discharged. You cannot create a blast rune in a square occupied by another creature. This rune counts as a 1st-level spell for the purposes of <Link to="/spell/dispel">dispelling</Link>. It can be discovered with a DC 26 Perception skill check and disarmed with a DC 26 Disable Device skill check.</Pair>
+<Pair title="Standard Action">You can create a blast rune in any adjacent square. Any creature entering this square takes an amount of damage equal to 1d6 + <Link to="/misc/half">half</Link> of your cleric level. This rune deals either acid, cold, electricity, or fire damage, decided when you create the rune. The rune is invisible and lasts a number of rounds equal to your cleric level or until discharged. You cannot create a blast rune in a square occupied by another creature. This rune counts as a 1st-level spell for the purposes of <Link to="/spell/dispel">dispelling</Link>. It can be discovered with a DC 26 Perception skill check and disarmed with a DC 26 Disable Device skill check.</Pair>
 </Ability>
 <Ability id="spell" icon={["magic"]}>
 <Pair single id="spell">Spell Rune (Sp)</Pair>
@@ -621,7 +621,7 @@ const _scalykind = {hasJL:true,title: "Scalykind", jsx: <><div className="jumpLi
 <Ability id="stare" icon={["zap"]}>
 <Pair single id="stare">Venomous Stare (Sp)</Pair>
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
-<Pair title="Standard Action">You can activate a <Link to="/umr/gaze">gaze</Link> attack with a 30-foot range that can target a single creature within range. The target must make a Will save (DC = 10 + 1/2 your cleric level + your Wisdom modifier). Those that fail take 1d6 points of nonlethal damage + 1 point for every two cleric levels you possess and are <Link to="/misc/fascinated">fascinated</Link> until the beginning of your next turn. This is a mind-affecting effect.</Pair>
+<Pair title="Standard Action">You can activate a <Link to="/umr/gaze">gaze</Link> attack with a 30-foot range that can target a single creature within range. The target must make a Will save (DC = 10 + 1/2 your cleric level + your Wisdom modifier). Those that fail take an amount of nonlethal damage equal to 1d6 + <Link to="/misc/half">half</Link> of your cleric level and are <Link to="/misc/fascinated">fascinated</Link> until the beginning of your next turn. This is a mind-affecting effect.</Pair>
 </Ability>
 <Ability id="comp" icon={["power"]}>
 <Pair single id="comp">Serpent Companion (Ex)</Pair>

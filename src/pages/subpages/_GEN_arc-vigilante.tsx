@@ -921,7 +921,7 @@ const _mutated_defender = {title: "Mutated Defender", jsx: <><h2 id="arc-vigilan
 <Pair single id="mutant-blast-su">Mutant Blast (Su)</Pair>
 <Pair title="Prerequisites">9th-level vigilante</Pair>
 <Pair title="Ability">One of the mutated defender's extremities becomes elementally warped, and he can discharge a blast of energy from this limb. This functions as the <em>elemental ray</em> bloodline power (from the <Link to="/sorcbloodline/elemental">elemental</Link> sorcerer bloodline) and uses his vigilante level as his sorcerer level. The mutated defender chooses the damage type (acid, cold, electricity, or fire) of his mutant blast when selecting this talent.</Pair>
-<Pair title="Text from the Elemental Ray Bloodline Power">You can unleash an elemental ray as a <strong className="hl">standard action</strong>, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of damage of your energy type + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</Pair>
+<Pair title="Text from the Elemental Ray Bloodline Power">You can unleash an elemental ray as a <strong className="hl">standard action</strong>, targeting any foe within 30 feet as a ranged touch attack. This ray deals an amount of damage of your energy type equal to 1d6 + <Link to="/misc/half">half</Link> of your sorcerer level. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</Pair>
 </Ability>
 <Ability id="mutant-evolution" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="mutant-evolution">Mutant Evolution</Pair>
