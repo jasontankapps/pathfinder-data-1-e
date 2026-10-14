@@ -205,7 +205,7 @@
 		"name": "Eclipsing Rage",
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"description": [
-			"::ab{icon=magic title=\"&L&Eclipsing Rage (Su)&FN&\" passive=\"While the barbarian is *raging,* the ‹rule/light level› within 10 feet of her lowers by one step. She can't decrease the light level below normal darkness with this ability.\" special=\"Multiple barbarians with this rage power don't further reduce the light level.\" prereq=\"6th-level barbarian\"}"
+			"::ab{icon=aura title=\"&L&Eclipsing Rage (Su)&FN&\" passive=\"While the barbarian is *raging,* the ‹rule/light level› within 10 feet of her lowers by one step. She can't decrease the light level below normal darkness with this ability.\" special=\"Multiple barbarians with this rage power don't further reduce the light level.\" prereq=\"6th-level barbarian\"}"
 		]
 	},
 	"greater_eclipsing_rage": {
@@ -213,7 +213,7 @@
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"level": 1,
 		"description": [
-			"::ab{icon=magic title=\"&L&Greater Eclipsing Rage (Su)&FN&\" passive=\"Whenever the barbarian *rages,* the ‹rule/light level› within 20 feet of her lowers by two steps instead of one. She still can't decrease the light level below normal darkness with this ability.\" prereq=\"10th-level barbarian, ‹ragepower/eclipsing rage›\"}"
+			"::ab{icon=boost title=\"&L&Greater Eclipsing Rage (Su)&FN&\" passive=\"Whenever the barbarian *rages,* the ‹rule/light level› within 20 feet of her lowers by two steps instead of one. She still can't decrease the light level below normal darkness with this ability.\" prereq=\"10th-level barbarian, ‹ragepower/eclipsing rage›\"}"
 		]
 	},
 	"eclipsing_rage_greater": { "redirect": "greater_eclipsing_rage" },
@@ -416,7 +416,7 @@
 		"name": "Ground Breaker",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"::ab{icon=melee-lower title=\"&L&Ground Breaker (Ex)&FN&\" usage=\"Once per *rage*\" standard=\"The barbarian can attack the floor around her. This attack automatically hits and deals damage normally. If the barbarian manages to deal more damage than the floor's hardness, the space she occupies and all of the squares adjacent to her become ‹rule/difficult terrain›. Creatures in these squares, except the barbarian, must make a DC 15 Reflex save or be knocked ‹rule/prone›.\" prereq=\"6th-level barbarian\"}"
+			"::ab{icon=melee-aura-lower title=\"&L&Ground Breaker (Ex)&FN&\" usage=\"Once per *rage*\" standard=\"The barbarian can attack the floor around her. This attack automatically hits and deals damage normally. If the barbarian manages to deal more damage than the floor's hardness, the space she occupies and all of the squares adjacent to her become ‹rule/difficult terrain›. Creatures in these squares, except the barbarian, must make a DC 15 Reflex save or be knocked ‹rule/prone›.\" prereq=\"6th-level barbarian\"}"
 		]
 	},
 	"greater_ground_breaker": {
@@ -530,7 +530,7 @@
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
 		"level": 1,
 		"description": [
-			"::ab{icon=zap title=\"&L&Battle Roar (Su)&FN&\" ability=\"When the character successfully demoralizes an opponent using *intimidating glare,* he also deals 1d6 points of sonic damage to that opponent.\" prereq=\"6th-level barbarian, ‹ragepower/intimidating glare›\"}"
+			"::ab{icon=lower title=\"&L&Battle Roar (Su)&FN&\" ability=\"When the character successfully demoralizes an opponent using *intimidating glare,* he also deals 1d6 points of sonic damage to that opponent.\" prereq=\"6th-level barbarian, ‹ragepower/intimidating glare›\"}"
 		]
 	},
 	"terrifying_howl": {
@@ -538,7 +538,7 @@
 		"compilationSources": [ [ "PRPG Core Rulebook" ] ],
 		"level": 1,
 		"description": [
-			"::ab{icon=lower title=\"&L&Terrifying Howl (Ex)&FN&\" standard=\"The barbarian unleashes a terrifying howl. All ‹misc/shaken› enemies within 30 feet must make a Will save (DC equal to 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) or be ‹misc/panicked› for 1d4+1 rounds.\" special=\"Once an enemy has made a save versus *terrifying howl* (successful or not), it is immune to this power for 24 hours.\" prereq=\"‹ragepower/Intimidating glare›, 8th-level barbarian\"}"
+			"::ab{icon=aura-lower title=\"&L&Terrifying Howl (Ex)&FN&\" standard=\"The barbarian unleashes a terrifying howl. All ‹misc/shaken› enemies within 30 feet must make a Will save (DC equal to 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) or be ‹misc/panicked› for 1d4+1 rounds.\" special=\"Once an enemy has made a save versus *terrifying howl* (successful or not), it is immune to this power for 24 hours.\" prereq=\"‹ragepower/Intimidating glare›, 8th-level barbarian\"}"
 		]
 	},
 	"inured_to_the_dead": {
@@ -585,9 +585,9 @@
 		"name": "Cairn Linnorm Death Curse",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
 		"description": [
-			":::ab{icon=boost-def title=\"&L&Cairn Linnorm Death Curse (Su)&FN&\" action=Ability}",
+			":::ab{icon=boost-def title=\"&L&Cairn Linnorm Death Curse (Su)&FN&\" prereq=\"8th-level barbarian\" action=Ability}",
 			"",
-			"The character channels the power of a ‹monster/cairn linnorm›. The character's melee attacks deal an additional 1 point of negative energy damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the *curse of decay* (Will negates).\" prereq=\"8th-level barbarian\"",
+			"The character channels the power of a ‹monster/cairn linnorm›. The character's melee attacks deal an additional 1 point of negative energy damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the *curse of decay* (Will negates).",
 			"",
 			"::aff[Curse of Decay]{iconC curse dcW dcLev=character dcMod=Charisma eff=\"Target takes 1 point of ‹rule/Con damage› per day and ‹rule/age«s› at a rate of 1 year per day (eventually incurring all of the penalties of old age but none of the bonuses)\"}",
 			"",
@@ -599,9 +599,9 @@
 		"name": "Crag Linnorm Death Curse",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
 		"description": [
-			":::ab{icon=boost-def title=\"&L&Crag Linnorm Death Curse (Su)&FN&\" action=Ability}",
+			":::ab{icon=boost-def title=\"&L&Crag Linnorm Death Curse (Su)&FN&\" prereq=\"4th-level barbarian\" action=Ability}",
 			"",
-			"The character channels the power of a ‹monster/crag linnorm›. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the *curse of fire* (Will negates).\" prereq=\"4th-level barbarian\"",
+			"The character channels the power of a ‹monster/crag linnorm›. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the *curse of fire* (Will negates).",
 			"",
 			"::aff[Curse of Fire]{iconC curse dcW dcLev=character dcMod=Charisma eff=\"Target gains ‹umr/vulnerability› to fire\"}",
 			"",
@@ -613,9 +613,9 @@
 		"name": "Fjord Linnorm Death Curse",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
 		"description": [
-			":::ab{icon=boost-def title=\"&L&Fjord Linnorm Death Curse (Su)&FN&\" action=Ability}",
+			":::ab{icon=boost-def title=\"&L&Fjord Linnorm Death Curse (Su)&FN&\" prereq=\"4th-level barbarian\" action=Ability}",
 			"",
-			"The character channels the power of a ‹monster/fjord linnorm›. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the *curse of drowning* (Will negates).\" prereq=\"4th-level barbarian\"",
+			"The character channels the power of a ‹monster/fjord linnorm›. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the *curse of drowning* (Will negates).",
 			"",
 			"::aff[Curse of Drowning]{iconC curse dcW dcLev=character dcMod=Charisma eff=\"Target is unable to breathe water (even with magic), can hold its breath only half as long as normal, and is ‹misc/sickened› whenever it holds its breath\"}",
 			"",
@@ -627,9 +627,9 @@
 		"name": "Ice Linnorm Death Curse",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
 		"description": [
-			":::ab{icon=boost-def title=\"&L&Ice Linnorm Death Curse (Su)&FN&\" action=Ability}",
+			":::ab{icon=boost-def title=\"&L&Ice Linnorm Death Curse (Su)&FN&\" prereq=\"4th-level barbarian\" action=Ability}",
 			"",
-			"The character channels the power of an ‹monster/ice linnorm›. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed, the attacker suffers the *curse of frost.*\" prereq=\"4th-level barbarian\"",
+			"The character channels the power of an ‹monster/ice linnorm›. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed, the attacker suffers the *curse of frost.*",
 			"",
 			"::aff[Curse of Frost]{iconC curse dcW dcLev=character dcMod=Charisma eff=\"Target gains ‹umr/vulnerability› to cold\"}",
 			"",
@@ -641,9 +641,9 @@
 		"name": "Taiga Linnorm Death Curse",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
 		"description": [
-			":::ab{icon=boost-def title=\"&L&Taiga Linnorm Death Curse (Su)&FN&\" action=Ability}",
+			":::ab{icon=boost-def title=\"&L&Taiga Linnorm Death Curse (Su)&FN&\" prereq=\"4th-level barbarian\" action=Ability}",
 			"",
-			"The character channels the power of a ‹monster/taiga linnorm›. The character's melee attacks deal an additional 1 point of electricity damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the *curse of electricity* (Will negates).\" prereq=\"4th-level barbarian\"",
+			"The character channels the power of a ‹monster/taiga linnorm›. The character's melee attacks deal an additional 1 point of electricity damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the *curse of electricity* (Will negates).",
 			"",
 			"::aff[Curse of Electricity]{iconC curse dcW dcLev=character dcMod=Charisma eff=\"Target gains ‹umr/vulnerability› to electricity\"}",
 			"",
@@ -655,9 +655,9 @@
 		"name": "Tarn Linnorm Death Curse",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
 		"description": [
-			":::ab{icon=boost-def title=\"&L&Tarn Linnorm Death Curse (Su)&FN&\" action=Ability}",
+			":::ab{icon=boost-def title=\"&L&Tarn Linnorm Death Curse (Su)&FN&\" prereq=\"4th-level barbarian\" action=Ability}",
 			"",
-			"The character channels the power of a ‹monster/tarn linnorm›. The character's melee attacks deal an additional 1 point of acid damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the *curse of death* (Will negates).\" prereq=\"4th-level barbarian\"",
+			"The character channels the power of a ‹monster/tarn linnorm›. The character's melee attacks deal an additional 1 point of acid damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the *curse of death* (Will negates).",
 			"",
 			"::aff[Curse of Death]{iconC curse dcW dcLev=character dcMod=Charisma eff=\"Target is no longer affected by healing spells and can't heal damage naturally by resting\"}",
 			"",
@@ -669,9 +669,9 @@
 		"name": "Tor Linnorm Death Curse",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
 		"description": [
-			":::ab{icon=boost-def title=\"&L&Tor Linnorm Death Curse (Su)&FN&\" action=Ability}",
+			":::ab{icon=boost-def title=\"&L&Tor Linnorm Death Curse (Su)&FN&\" prereq=\"8th-level barbarian\" action=Ability}",
 			"",
-			"The character channels the power of a ‹monster/tor linnorm›. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the *curse of boiling blood* (Will negates).\" prereq=\"8th-level barbarian\"",
+			"The character channels the power of a ‹monster/tor linnorm›. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the *curse of boiling blood* (Will negates).",
 			"",
 			"::aff[Curse of Boiling Blood]{iconC curse dcW dcLev=character dcMod=Charisma eff=\"Target gains ‹umr/vulnerability› to fire and is permanently ‹misc/staggered› from the pain of its boiling blood (this is a pain effect)\"}",
 			"",
@@ -690,7 +690,7 @@
 		"name": "Lizard Stride",
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"description": [
-			"::ab{icon=magic title=\"&L&Lizard Stride (Su)&FN&\" ability=\"When the barbarian makes a ‹rule/charge› or ‹rule/run› action while *raging,* she can move across the surface of water without sinking. She sinks immediately if she ends her turn standing on water.\"}"
+			"::ab{icon=power title=\"&L&Lizard Stride (Su)&FN&\" ability=\"When the barbarian makes a ‹rule/charge› or ‹rule/run› action while *raging,* she can move across the surface of water without sinking. She sinks immediately if she ends her turn standing on water.\"}"
 		]
 	},
 	"low_light_vision": {
@@ -712,7 +712,7 @@
 		"name": "Master of the Deep",
 		"compilationSources": [ [ "Legacy of the First World" ] ],
 		"description": [
-			"::ab{icon=magic title=\"&L&Master of the Deep (Su)&FN&\" flavor=\"The barbarian commands an aquatic creature to do her bidding.\" standard=\"The barbarian selects a creature with the aquatic type within 30 feet and gives a terse command from those listed in the ‹spell/command› spell. Alternatively, if the creature has an Intelligence of 1 or 2, the barbarian may instead command the creature to attack the closest creature to it. The creature must succeed at a Will save (DC equal to 10 + half the barbarian's level + her Strength modifier) or obey the command to the best of its ability on its next turn.\" special=\"Once a creature has attempted a saving throw against master of the deep (successful or not), it is immune to this power for 24 hours. This ability is a mind-affecting effect, but it is not language dependent; the creature need not understand the barbarian giving the command.\" prereq=\"8th-level barbarian\"}"
+			"::ab{icon=select-magic title=\"&L&Master of the Deep (Su)&FN&\" flavor=\"The barbarian commands an aquatic creature to do her bidding.\" standard=\"The barbarian selects a creature with the aquatic type within 30 feet and gives a terse command from those listed in the ‹spell/command› spell. Alternatively, if the creature has an Intelligence of 1 or 2, the barbarian may instead command the creature to attack the closest creature to it. The creature must succeed at a Will save (DC equal to 10 + half the barbarian's level + her Strength modifier) or obey the command to the best of its ability on its next turn.\" special=\"Once a creature has attempted a saving throw against master of the deep (successful or not), it is immune to this power for 24 hours. This ability is a mind-affecting effect, but it is not language dependent; the creature need not understand the barbarian giving the command.\" prereq=\"8th-level barbarian\"}"
 		]
 	},
 	"mighty_swing": {
@@ -742,7 +742,7 @@
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
 		"level": 2,
 		"description": [
-			"::ab{icon=power title=\"&L&Ultimate Clarity (Su)&FN&\" usage=\"Once per *rage*\" ability=\"The character can refine her senses, seeing through normal and magical darkness (including from magical effects such as ‹spell/blur› and ‹spell/displacement›), ‹spell/invisibility›, and illusions; she can also discern the exact locations of creatures with ‹rule/concealment›. This lasts for 1 round.\" special=\"The character does not need to be using *moment of clarity* to use this rage power.\" prereq=\"6th-level barbarian, ‹ragepower/moment of clarity›, ‹ragepower/perfect clarity›\"}"
+			"::ab{icon=boost title=\"&L&Ultimate Clarity (Su)&FN&\" usage=\"Once per *rage*\" ability=\"The character can refine her senses, seeing through normal and magical darkness (including from magical effects such as ‹spell/blur› and ‹spell/displacement›), ‹spell/invisibility›, and illusions; she can also discern the exact locations of creatures with ‹rule/concealment›. This lasts for 1 round.\" special=\"The character does not need to be using *moment of clarity* to use this rage power.\" prereq=\"6th-level barbarian, ‹ragepower/moment of clarity›, ‹ragepower/perfect clarity›\"}"
 		]
 	},
 	"overbearing_advance": {
@@ -771,7 +771,7 @@
 		"name": "Pack Rage",
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"description": [
-			"::ab{icon=power title=\"&L&Pack Rage (Ex)&FN&\" ability=\"When a barbarian with this rage power enters a *rage,* any barbarian within 30 feet who also has this rage power can enter a *rage.* A barbarian that enters a *rage* outside of her turn spends 1 round of *rage* immediately and then spends another round of *rage* to maintain her *rage* at the beginning of her next turn.\" prereq=\"6th-level barbarian\"}"
+			"::ab{icon=aura title=\"&L&Pack Rage (Ex)&FN&\" ability=\"When a barbarian with this rage power enters a *rage,* any barbarian within 30 feet who also has this rage power can enter a *rage.* A barbarian that enters a *rage* outside of her turn spends 1 round of *rage* immediately and then spends another round of *rage* to maintain her *rage* at the beginning of her next turn.\" prereq=\"6th-level barbarian\"}"
 		]
 	},
 	"powerful_blow": {
@@ -898,7 +898,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"level": 1,
 		"description": [
-			"::ab{icon=boost-down title=\"&L&Inspire Ferocity (Ex)&FN&\" move=\"While *raging,* the barbarian can impart her *reckless abandon* modifier to all willing allies within 30 feet for a number of rounds equal to her Charisma modifier (minimum 1).\" prereq=\"‹ragepower/Reckless abandon›\"}"
+			"::ab{icon=aura-boost-down title=\"&L&Inspire Ferocity (Ex)&FN&\" move=\"While *raging,* the barbarian can impart her *reckless abandon* modifier to all willing allies within 30 feet for a number of rounds equal to her Charisma modifier (minimum 1).\" prereq=\"‹ragepower/Reckless abandon›\"}"
 		]
 	},
 	"renewed_vigor": {
@@ -995,7 +995,7 @@
 		"name": "Savage Intuition",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
 		"description": [
-			"::ab{icon=power title=\"&L&Savage Intuition&FN&\" flavor=\"Your bestial senses allow you to sense danger and become enraged before you even have time to consciously react to danger.\" ability=\"sWhen combat begins, if you have rounds of *rage* remaining, you may automatically enter a *rage* without using an action at the start of the first round of combat (or at the start of the surprise round, if there is one), even if you are not otherwise aware that combat has begun.\" prereq=\"‹race/Wereboar-kin› or associated with wereboar-kin\"}"
+			"::ab{icon=power title=\"&L&Savage Intuition&FN&\" flavor=\"Your bestial senses allow you to sense danger and become enraged before you even have time to consciously react to danger.\" ability=\"When combat begins, if you have rounds of *rage* remaining, you may automatically enter a *rage* without using an action at the start of the first round of combat (or at the start of the surprise round, if there is one), even if you are not otherwise aware that combat has begun.\" prereq=\"‹race/Wereboar-kin› or associated with wereboar-kin\"}"
 		]
 	},
 	"scent": {
@@ -1099,7 +1099,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"level": 1,
 		"description": [
-			"::ab{icon=def title=\"&L&Eater of Magic (Su)&FN&\" ability=\"Once per *rage,* when a barbarian fails a saving throw against a spell, supernatural ability, or spell-like ability, she can reroll the saving throw against the effect (this is not an action). If she succeeds at the second saving throw, she is not affected by the spell, supernatural ability, or spell-like ability and gains a number of ‹rule/temporary hit points› equal to the effect's caster level (in the case of spell or spell-like abilities) or the CR of the effect's creator (in the case of supernatural abilities). These temporary hit points last until damage is applied to them or 1 minute, whichever occurs first.\" prereq=\"10th-level barbarian, ‹ragepower/superstition›\"}"
+			"::ab{icon=roll-def title=\"&L&Eater of Magic (Su)&FN&\" ability=\"Once per *rage,* when a barbarian fails a saving throw against a spell, supernatural ability, or spell-like ability, she can reroll the saving throw against the effect (this is not an action). If she succeeds at the second saving throw, she is not affected by the spell, supernatural ability, or spell-like ability and gains a number of ‹rule/temporary hit points› equal to the effect's caster level (in the case of spell or spell-like abilities) or the CR of the effect's creator (in the case of supernatural abilities). These temporary hit points last until damage is applied to them or 1 minute, whichever occurs first.\" prereq=\"10th-level barbarian, ‹ragepower/superstition›\"}"
 		]
 	},
 	"spellbreaker": {
@@ -1184,7 +1184,7 @@
 		"name": "Two-Fanged Pounce",
 		"compilationSources": [ [ "Villain Codex" ] ],
 		"description": [
-			"::ab{icon=power title=\"&L&Two-Fanged Pounce&FN&\" ability=\"If the barbarian is wielding a pair of ‹eq-weapon/dagger«s›, ‹eq-weapon/kukri«s›, or ‹eq-weapon/punching dagger«s›, she can attack once with each of the two weapons when she ‹rule/charge«s›. If she does, she loses the bonus on attack rolls for charging and takes an additional -2 penalty to her AC, and she applies ‹misc/precision damage› or effects that occur on a hit only once, even if she hits with both attacks.\"}"
+			"::ab{icon=melee-down title=\"&L&Two-Fanged Pounce&FN&\" ability=\"If the barbarian is wielding a pair of ‹eq-weapon/dagger«s›, ‹eq-weapon/kukri«s›, or ‹eq-weapon/punching dagger«s›, she can attack once with each of the two weapons when she ‹rule/charge«s›. If she does, she loses the bonus on attack rolls for charging and takes an additional -2 penalty to her AC, and she applies ‹misc/precision damage› or effects that occur on a hit only once, even if she hits with both attacks.\"}"
 		]
 	},
 	"unexpected_strike": {
@@ -1198,7 +1198,7 @@
 		"name": "Unrestrained Rage",
 		"compilationSources": [ [ "Pathfinder #139: The Dead Road" ] ],
 		"description": [
-			"::ab{icon=def title=\"&L&Unrestrained Rage&FN&\" passive=\"While *raging,* the barbarian is immune to paralysis.\" special=\"If the barbarian is targeted by an effect that would cause her to become ‹rule/paralyzed›, she can enter a *rage* as an @HLimmediate_action, as long as she still has rounds of *rage* remaining.\" prereq=\"12th-level barbarian\"}"
+			"::ab{icon=def order=ip title=\"&L&Unrestrained Rage&FN&\" passive=\"While *raging,* the barbarian is immune to paralysis.\" immediate=\"If the barbarian is targeted by an effect that would cause her to become ‹rule/paralyzed›, she can enter a *rage* immediately, as long as she still has rounds of *rage* remaining.\" prereq=\"12th-level barbarian\"}"
 		]
 	},
 	"water_sense": {
@@ -1231,7 +1231,7 @@
 		"category": "Elemental",
 		"compilationSources": [ [ "Planes of Power" ] ],
 		"description": [
-			"::ab{icon=power-boost title=\"&L&Hshurha's Veil (Su)&FN&\" ability=\"When *raging,* the barbarian can use Stealth, and she gains a bonus equal to 1/2 her barbarian level on Stealth checks plus the benefits of ‹rule/concealment› against ranged attacks and attacks of opportunity.\" &Elemental&}"
+			"::ab{icon=power-def title=\"&L&Hshurha's Veil (Su)&FN&\" ability=\"When *raging,* the barbarian can use Stealth, and she gains a bonus equal to 1/2 her barbarian level on Stealth checks plus the benefits of ‹rule/concealment› against ranged attacks and attacks of opportunity.\" &Elemental&}"
 		],
 		"replacements": [
 			["&Elemental&", "prereq=\"6th-level barbarian or ‹class/skald› with ‹ragepower/lesser elemental rage› or ‹ragepower/lesser elemental blood›; or 6th-level ‹class/unchained barbarian› with ‹ragepower/elemental stance› (and must adopt that stance to use this power)\""]
@@ -1242,7 +1242,7 @@
 		"category": "Elemental",
 		"compilationSources": [ [ "Planes of Power" ] ],
 		"description": [
-			"::ab{icon=melee title=\"&L&Kelizandri's Tide (Su)&FN&\" order=rf fullround=\"When the barbarian *rages,* enemies find it difficult to escape the vortex of her fury.\" fullround=\"The barbarian can attempt a single combat maneuver check against each creature within 10 feet of her. If her roll equals or exceeds a creature's CMD, she moves that creature 5 feet closer to her.\" free=\"Once per day after attempting this maneuver, she can attack each adjacent creature as if using the ‹feat/Whirlwind Attack› feat. If she has the Whirlwind Attack feat, she can also use it as a free action in this way one additional time per day.\" &Elemental&}"
+			"::ab{icon=aura-melee title=\"&L&Kelizandri's Tide (Su)&FN&\" order=rf fullround=\"When the barbarian *rages,* enemies find it difficult to escape the vortex of her fury.\" fullround=\"The barbarian can attempt a single combat maneuver check against each creature within 10 feet of her. If her roll equals or exceeds a creature's CMD, she moves that creature 5 feet closer to her.\" free=\"Once per day after attempting this maneuver, she can attack each adjacent creature as if using the ‹feat/Whirlwind Attack› feat. If she has the Whirlwind Attack feat, she can also use it as a free action in this way one additional time per day.\" &Elemental&}"
 		],
 		"replacements": [
 			["&Elemental&", "prereq=\"6th-level barbarian or ‹class/skald› with ‹ragepower/lesser elemental rage› or ‹ragepower/lesser elemental blood›; or 6th-level ‹class/unchained barbarian› with ‹ragepower/elemental stance› (and must adopt that stance to use this power)\""]
@@ -1304,7 +1304,7 @@
 		"level": 1,
 		"compilationSources": [ [ "Villain Codex" ] ],
 		"description": [
-			"::ab{icon=power title=\"&L&Atavism Totem (Su)&FN&\" ability=\"The barbarian gains ‹umr/ferocity›.\" prereq=\"‹ragepower/Lesser atavism totem›, 6th-level barbarian\"}"
+			"::ab{icon=power-def title=\"&L&Atavism Totem (Su)&FN&\" ability=\"The barbarian gains ‹umr/ferocity›.\" prereq=\"‹ragepower/Lesser atavism totem›, 6th-level barbarian\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1368,7 +1368,7 @@
 		"category": "Totem",
 		"compilationSources": [ [ "Champions of Purity" ] ],
 		"description": [
-			"::ab{icon=magic title=\"&L&Celestial Totem (Su)&FN&\" ability=\"While *raging,* the barbarian shines with a righteous light. This effect bestows upon the barbarian a halo of gleaming light that shines as if it were ‹spell/daylight› and triggers an ‹spell/invisibility purge› effect in the barbarian's square and each adjacent square. The *invisibility purge* only affects nongood creatures.\" prereq=\"8th-level barbarian, ‹ragepower/lesser celestial totem›\"}"
+			"::ab{icon=aura title=\"&L&Celestial Totem (Su)&FN&\" ability=\"While *raging,* the barbarian shines with a righteous light. This effect bestows upon the barbarian a halo of gleaming light that shines as if it were ‹spell/daylight› and triggers an ‹spell/invisibility purge› effect in the barbarian's square and each adjacent square. The *invisibility purge* only affects nongood creatures.\" prereq=\"8th-level barbarian, ‹ragepower/lesser celestial totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1505,7 +1505,7 @@
 		"category": "Totem",
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"description": [
-			"::ab{icon=skill-power title=\"&L&Dragon Totem Wings (Su)&FN&\" order=ps passive=\"When a barbarian selects this rage power, the ‹skill/Fly› (Dex) skill becomes a class skill for her.\" standard=\"While *raging* and wearing medium or lighter armor, the barbarian can manifest a pair of spiritual dragon wings that grant her a fly speed equal to her base speed (average maneuverability). She can expend 2 rounds of her *rage* to instead use an @HLimmediate_action to gain this fly speed.\" special=\"She can end her fly speed at any time, even when it is not her turn. Each round she spends *raging* and flying counts as 2 rounds of *rage.* Her ability to fly ends automatically when she ceases *raging.*\" prereq=\"‹ragepower/Dragon totem›, ‹ragepower/dragon totem resilience›, 10th-level barbarian\"}"
+			"::ab{icon=skill-power title=\"&L&Dragon Totem Wings (Su)&FN&\" order=ps passive=\"When a barbarian selects this rage power, ‹skill/Fly› (Dex) becomes a class skill for her.\" standard=\"While *raging* and wearing medium or lighter armor, the barbarian can manifest a pair of spiritual dragon wings that grant her a fly speed equal to her base speed (average maneuverability). She can expend 2 rounds of her *rage* to instead use an @HLimmediate_action to gain this fly speed.\" special=\"She can end her fly speed at any time, even when it is not her turn. Each round she spends *raging* and flying counts as 2 rounds of *rage.* Her ability to fly ends automatically when she ceases *raging.*\" prereq=\"‹ragepower/Dragon totem›, ‹ragepower/dragon totem resilience›, 10th-level barbarian\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1757,7 +1757,7 @@
 		"level": 2,
 		"compilationSources": [ [ "Wilderness Origins" ] ],
 		"description": [
-			"::ab{icon=def-protect-roll title=\"&L&Greater Spire Totem (Su)&FN&\" passive=\"While the barbarian is *raging,* all allies within 30 feet gain a +2 morale bonus on Will saves. When attempting a Will save against a fear effect, all allies within this area can roll twice and use the better result.\" prereq=\"10th-level barbarian, ‹ragepower/spire totem›\"}"
+			"::ab{icon=aura-protect-roll title=\"&L&Greater Spire Totem (Su)&FN&\" passive=\"While the barbarian is *raging,* all allies within 30 feet gain a +2 morale bonus on Will saves. When attempting a Will save against a fear effect, all allies within this area can roll twice and use the better result.\" prereq=\"10th-level barbarian, ‹ragepower/spire totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1768,7 +1768,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=melee title=\"&L&Lesser Spirit Totem (Su)&FN&\" passive=\"While *raging,* the barbarian is surrounded by spirit wisps that harass her foes. These spirits make one slam attack each round against a living foe that is adjacent to the barbarian. This slam attack is made using the barbarian's full base attack bonus, plus the barbarian's Charisma modifier. The slam deals 1d4 points of negative energy damage, plus the barbarian's Charisma modifier.\"}"
+			"::ab{icon=aura-melee title=\"&L&Lesser Spirit Totem (Su)&FN&\" passive=\"While *raging,* the barbarian is surrounded by spirit wisps that harass her foes. These spirits make one slam attack each round against a living foe that is adjacent to the barbarian. This slam attack is made using the barbarian's full base attack bonus, plus the barbarian's Charisma modifier. The slam deals 1d4 points of negative energy damage, plus the barbarian's Charisma modifier.\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1789,7 +1789,7 @@
 		"level": 2,
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"::ab{icon=aura-ranged title=\"&L&Greater Spirit Totem (Su)&FN&\" passive=\"While *raging,* the spirits that surround the barbarian become dangerous to any enemy adjacent to the barbarian. Living enemies adjacent to the barbarian at the start of her turn take 1d8 points of negative energy damage. In addition, the spirit wisps can now attack foes that are up to 15 feet away from the barbarian and the slam attack deals 1d6 points of negative energy damage.\" prereq=\"10th-level barbarian, ‹ragepower/spirit totem›\"}"
+			"::ab{icon=boost title=\"&L&Greater Spirit Totem (Su)&FN&\" passive=\"While *raging,* the spirits that surround the barbarian become dangerous to any enemy adjacent to the barbarian. Living enemies adjacent to the barbarian at the start of her turn take 1d8 points of negative energy damage. In addition, the spirit wisps can now attack foes that are up to 15 feet away from the barbarian and the slam attack deals 1d6 points of negative energy damage.\" prereq=\"10th-level barbarian, ‹ragepower/spirit totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1821,7 +1821,7 @@
 		"level": 2,
 		"compilationSources": [ [ "Qadira, Jewel of the East" ] ],
 		"description": [
-			"::ab{icon=def-aura-melee title=\"&L&Greater Sun Totem (Su)&FN&\" passive=\"The barbarian takes on aspects of the sun. She gains fire resistance 20 when *raging.* While *raging,* she is surrounded by a halo of flame that deals 1d6 points of fire damage to anyone that hits her with a touch attack or unarmed attack or succeeds at a bull rush, drag, or grapple combat maneuver against her. Her unarmed strikes and attacks with natural weapons deal 1d6 additional points of fire damage.\" prereq=\"10th-level barbarian, ‹ragepower/sun totem›\"}"
+			"::ab{icon=def-boost title=\"&L&Greater Sun Totem (Su)&FN&\" passive=\"The barbarian takes on aspects of the sun. She gains fire resistance 20 when *raging.* While *raging,* she is surrounded by a halo of flame that deals 1d6 points of fire damage to anyone that hits her with a touch attack or unarmed attack or succeeds at a bull rush, drag, or grapple combat maneuver against her. Her unarmed strikes and attacks with natural weapons deal 1d6 additional points of fire damage.\" prereq=\"10th-level barbarian, ‹ragepower/sun totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1894,7 +1894,7 @@
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
 		"addenda": [ "blood" ],
 		"description": [
-			"::ab{icon=power title=\"&L&Lesser Abyssal Blood (Su)&FN&\" ability=\"While *raging,* the barbarian gains two ‹umr/claw attack«s›. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier.\"}"
+			"::ab{icon=melee title=\"&L&Lesser Abyssal Blood (Su)&FN&\" ability=\"While *raging,* the barbarian gains two ‹umr/claw attack«s›. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier.\"}"
 		]
 	},
 	"abyssal_blood_lesser": { "redirect": "lesser_abyssal_blood" },
@@ -1904,7 +1904,7 @@
 		"category": "Blood",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
 		"description": [
-			"::ab{icon=power title=\"&L&Abyssal Blood (Su)&FN&\" ability=\"Once per day when the barbarian enters a *rage,* she can choose to grow one size category larger than her base size (as ‹spell/enlarge person›, even if the barbarian isn't humanoid).\" prereq=\"6th-level barbarian, ‹ragepower/lesser abyssal blood›\"}"
+			"::ab{icon=magic title=\"&L&Abyssal Blood (Su)&FN&\" ability=\"Once per day when the barbarian enters a *rage,* she can choose to grow one size category larger than her base size (as ‹spell/enlarge person›, even if the barbarian isn't humanoid).\" prereq=\"6th-level barbarian, ‹ragepower/lesser abyssal blood›\"}"
 		]
 	},
 	"greater_abyssal_blood": {
@@ -1952,7 +1952,7 @@
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
 		"addenda": [ "blood" ],
 		"description": [
-			"::ab{icon=power title=\"&L&Lesser Draconic Blood (Su)&FN&\" ability=\"While *raging,* the barbarian gains two ‹umr/claw attack«s›. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier.\"}"
+			"::ab{icon=melee title=\"&L&Lesser Draconic Blood (Su)&FN&\" ability=\"While *raging,* the barbarian gains two ‹umr/claw attack«s›. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier.\"}"
 		]
 	},
 	"draconic_blood_lesser": { "redirect": "lesser_draconic_blood" },
@@ -2020,7 +2020,7 @@
 		"category": "Blood",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
 		"description": [
-			"::ab{icon=power title=\"&L&Fey Blood (Su)&FN&\" passive=\"While *raging,* when the barbarian ‹rule/charge«s›, she ignores ‹rule/difficult terrain› (including magical terrain, but not other creatures).\" prereq=\"6th-level barbarian, ‹ragepower/lesser fey blood›\"}"
+			"::ab{icon=boost title=\"&L&Fey Blood (Su)&FN&\" passive=\"While *raging,* when the barbarian ‹rule/charge«s›, she ignores ‹rule/difficult terrain› (including magical terrain, but not other creatures).\" prereq=\"6th-level barbarian, ‹ragepower/lesser fey blood›\"}"
 		]
 	},
 	"greater_fey_blood": {
@@ -2039,7 +2039,7 @@
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
 		"addenda": [ "blood" ],
 		"description": [
-			"::ab{icon=melee title=\"&L&Lesser Infernal Blood (Su)&FN&\" swift=\"While *raging,* the barbarian can infuse her attacks with hellfire for 1 round. During this time, all of her melee attacks gain the ‹magic-enh/flaming› magic weapon special ability.\" usage=\"3 times/day\"}"
+			"::ab{icon=boost title=\"&L&Lesser Infernal Blood (Su)&FN&\" swift=\"While *raging,* the barbarian can infuse her attacks with hellfire for 1 round. During this time, all of her melee attacks gain the ‹magic-enh/flaming› magic weapon special ability.\" usage=\"3 times/day\"}"
 		]
 	},
 	"infernal_blood_lesser": { "redirect": "lesser_infernal_blood" },

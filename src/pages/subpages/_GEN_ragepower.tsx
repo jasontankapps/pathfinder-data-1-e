@@ -205,7 +205,7 @@ const _dissipating_rage = {title: "Dissipating Rage", jsx: <><p><strong>Sources<
 </Ability>
 </>};
 const _eclipsing_rage = {title: "Eclipsing Rage", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness</Link></p>
-<Ability id="eclipsing-rage-su" icon={["magic"]}>
+<Ability id="eclipsing-rage-su" icon={["aura"]}>
 <Pair single id="eclipsing-rage-su">Eclipsing Rage (Su)</Pair>
 <Pair title="Prerequisites">6th-level barbarian</Pair>
 <Pair title="Passive Ability">While the barbarian is <em>raging,</em> the <Link to="/rule/light_level">light level</Link> within 10 feet of her lowers by one step. She can't decrease the light level below normal darkness with this ability.</Pair>
@@ -213,7 +213,7 @@ const _eclipsing_rage = {title: "Eclipsing Rage", jsx: <><p><strong>Sources</str
 </Ability>
 </>};
 const _greater_eclipsing_rage = {title: "Greater Eclipsing Rage", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness</Link></p>
-<Ability id="greater-eclipsing-rage-su" icon={["magic"]}>
+<Ability id="greater-eclipsing-rage-su" icon={["boost"]}>
 <Pair single id="greater-eclipsing-rage-su">Greater Eclipsing Rage (Su)</Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/eclipsing_rage">eclipsing rage</Link></Pair>
 <Pair title="Passive Ability">Whenever the barbarian <em>rages,</em> the <Link to="/rule/light_level">light level</Link> within 20 feet of her lowers by two steps instead of one. She still can't decrease the light level below normal darkness with this ability.</Pair>
@@ -400,7 +400,7 @@ const _good_for_what_ails_you = {title: "Good for What Ails You", jsx: <><p><str
 </Ability>
 </>};
 const _ground_breaker = {title: "Ground Breaker", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="ground-breaker-ex" icon={["melee","lower"]}>
+<Ability id="ground-breaker-ex" icon={["melee","aura","lower"]}>
 <Pair single id="ground-breaker-ex">Ground Breaker (Ex)</Pair>
 <Pair title="Prerequisites">6th-level barbarian</Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
@@ -506,14 +506,14 @@ const _intimidating_glare = {title: "Intimidating Glare", jsx: <><p><strong>Sour
 </Ability>
 </>};
 const _battle_roar = {title: "Battle Roar", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
-<Ability id="battle-roar-su" icon={["zap"]}>
+<Ability id="battle-roar-su" icon={["lower"]}>
 <Pair single id="battle-roar-su">Battle Roar (Su)</Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/intimidating_glare">intimidating glare</Link></Pair>
 <Pair title="Ability">When the character successfully demoralizes an opponent using <em>intimidating glare,</em> he also deals 1d6 points of sonic damage to that opponent.</Pair>
 </Ability>
 </>};
 const _terrifying_howl = {title: "Terrifying Howl", jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook</Link></p>
-<Ability id="terrifying-howl-ex" icon={["lower"]}>
+<Ability id="terrifying-howl-ex" icon={["aura","lower"]}>
 <Pair single id="terrifying-howl-ex">Terrifying Howl (Ex)</Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/intimidating_glare">Intimidating glare</Link>, 8th-level barbarian</Pair>
 <Pair title="Standard Action">The barbarian unleashes a terrifying howl. All <Link to="/misc/shaken">shaken</Link> enemies within 30 feet must make a Will save (DC equal to 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) or be <Link to="/misc/panicked">panicked</Link> for 1d4+1 rounds.</Pair>
@@ -556,7 +556,8 @@ const _linnorm_death_curse = {title: "Linnorm Death Curse", notBookmarkable: tru
 const _cairn_linnorm_death_curse = {title: "Cairn Linnorm Death Curse", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <Ability id="cairn-linnorm-death-curse-su" icon={["boost","def"]}>
 <Pair single id="cairn-linnorm-death-curse-su">Cairn Linnorm Death Curse (Su)</Pair>
-<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/cairn_linnorm">cairn linnorm</Link>. The character's melee attacks deal an additional 1 point of negative energy damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of decay</em> (Will negates)." prereq="8th-level barbarian"</p>
+<Pair title="Prerequisites">8th-level barbarian</Pair>
+<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/cairn_linnorm">cairn linnorm</Link>. The character's melee attacks deal an additional 1 point of negative energy damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of decay</em> (Will negates).</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff={<>Target takes 1 point of <Link to="/rule/con_damage">Con damage</Link> per day and <Link to="/rule/age">ages</Link> at a rate of 1 year per day (eventually incurring all of the penalties of old age but none of the bonuses)</>} icon="c">Curse of Decay</AffInfo>
 </Pair>
 </Ability>
@@ -564,7 +565,8 @@ const _cairn_linnorm_death_curse = {title: "Cairn Linnorm Death Curse", jsx: <><
 const _crag_linnorm_death_curse = {title: "Crag Linnorm Death Curse", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <Ability id="crag-linnorm-death-curse-su" icon={["boost","def"]}>
 <Pair single id="crag-linnorm-death-curse-su">Crag Linnorm Death Curse (Su)</Pair>
-<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/crag_linnorm">crag linnorm</Link>. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of fire</em> (Will negates)." prereq="4th-level barbarian"</p>
+<Pair title="Prerequisites">4th-level barbarian</Pair>
+<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/crag_linnorm">crag linnorm</Link>. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of fire</em> (Will negates).</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff={<>Target gains <Link to="/umr/vulnerability">vulnerability</Link> to fire</>} icon="c">Curse of Fire</AffInfo>
 </Pair>
 </Ability>
@@ -572,7 +574,8 @@ const _crag_linnorm_death_curse = {title: "Crag Linnorm Death Curse", jsx: <><p>
 const _fjord_linnorm_death_curse = {title: "Fjord Linnorm Death Curse", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <Ability id="fjord-linnorm-death-curse-su" icon={["boost","def"]}>
 <Pair single id="fjord-linnorm-death-curse-su">Fjord Linnorm Death Curse (Su)</Pair>
-<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/fjord_linnorm">fjord linnorm</Link>. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of drowning</em> (Will negates)." prereq="4th-level barbarian"</p>
+<Pair title="Prerequisites">4th-level barbarian</Pair>
+<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/fjord_linnorm">fjord linnorm</Link>. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of drowning</em> (Will negates).</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff={<>Target is unable to breathe water (even with magic), can hold its breath only half as long as normal, and is <Link to="/misc/sickened">sickened</Link> whenever it holds its breath</>} icon="c">Curse of Drowning</AffInfo>
 </Pair>
 </Ability>
@@ -580,7 +583,8 @@ const _fjord_linnorm_death_curse = {title: "Fjord Linnorm Death Curse", jsx: <><
 const _ice_linnorm_death_curse = {title: "Ice Linnorm Death Curse", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <Ability id="ice-linnorm-death-curse-su" icon={["boost","def"]}>
 <Pair single id="ice-linnorm-death-curse-su">Ice Linnorm Death Curse (Su)</Pair>
-<Pair title="Ability"><p>The character channels the power of an <Link to="/monster/ice_linnorm">ice linnorm</Link>. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed, the attacker suffers the <em>curse of frost.</em>" prereq="4th-level barbarian"</p>
+<Pair title="Prerequisites">4th-level barbarian</Pair>
+<Pair title="Ability"><p>The character channels the power of an <Link to="/monster/ice_linnorm">ice linnorm</Link>. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed, the attacker suffers the <em>curse of frost.</em></p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff={<>Target gains <Link to="/umr/vulnerability">vulnerability</Link> to cold</>} icon="c">Curse of Frost</AffInfo>
 </Pair>
 </Ability>
@@ -588,7 +592,8 @@ const _ice_linnorm_death_curse = {title: "Ice Linnorm Death Curse", jsx: <><p><s
 const _taiga_linnorm_death_curse = {title: "Taiga Linnorm Death Curse", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <Ability id="taiga-linnorm-death-curse-su" icon={["boost","def"]}>
 <Pair single id="taiga-linnorm-death-curse-su">Taiga Linnorm Death Curse (Su)</Pair>
-<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/taiga_linnorm">taiga linnorm</Link>. The character's melee attacks deal an additional 1 point of electricity damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of electricity</em> (Will negates)." prereq="4th-level barbarian"</p>
+<Pair title="Prerequisites">4th-level barbarian</Pair>
+<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/taiga_linnorm">taiga linnorm</Link>. The character's melee attacks deal an additional 1 point of electricity damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of electricity</em> (Will negates).</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff={<>Target gains <Link to="/umr/vulnerability">vulnerability</Link> to electricity</>} icon="c">Curse of Electricity</AffInfo>
 </Pair>
 </Ability>
@@ -596,7 +601,8 @@ const _taiga_linnorm_death_curse = {title: "Taiga Linnorm Death Curse", jsx: <><
 const _tarn_linnorm_death_curse = {title: "Tarn Linnorm Death Curse", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <Ability id="tarn-linnorm-death-curse-su" icon={["boost","def"]}>
 <Pair single id="tarn-linnorm-death-curse-su">Tarn Linnorm Death Curse (Su)</Pair>
-<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/tarn_linnorm">tarn linnorm</Link>. The character's melee attacks deal an additional 1 point of acid damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of death</em> (Will negates)." prereq="4th-level barbarian"</p>
+<Pair title="Prerequisites">4th-level barbarian</Pair>
+<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/tarn_linnorm">tarn linnorm</Link>. The character's melee attacks deal an additional 1 point of acid damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of death</em> (Will negates).</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff="Target is no longer affected by healing spells and can't heal damage naturally by resting" icon="c">Curse of Death</AffInfo>
 </Pair>
 </Ability>
@@ -604,7 +610,8 @@ const _tarn_linnorm_death_curse = {title: "Tarn Linnorm Death Curse", jsx: <><p>
 const _tor_linnorm_death_curse = {title: "Tor Linnorm Death Curse", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <Ability id="tor-linnorm-death-curse-su" icon={["boost","def"]}>
 <Pair single id="tor-linnorm-death-curse-su">Tor Linnorm Death Curse (Su)</Pair>
-<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/tor_linnorm">tor linnorm</Link>. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of boiling blood</em> (Will negates)." prereq="8th-level barbarian"</p>
+<Pair title="Prerequisites">8th-level barbarian</Pair>
+<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/tor_linnorm">tor linnorm</Link>. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of boiling blood</em> (Will negates).</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff={<>Target gains <Link to="/umr/vulnerability">vulnerability</Link> to fire and is permanently <Link to="/misc/staggered">staggered</Link> from the pain of its boiling blood (this is a pain effect)</>} icon="c">Curse of Boiling Blood</AffInfo>
 </Pair>
 </Ability>
@@ -616,7 +623,7 @@ const _liquid_courage = {title: "Liquid Courage", jsx: <><p><strong>Sources</str
 </Ability>
 </>};
 const _lizard_stride = {title: "Lizard Stride", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness</Link></p>
-<Ability id="lizard-stride-su" icon={["magic"]}>
+<Ability id="lizard-stride-su" icon={["power"]}>
 <Pair single id="lizard-stride-su">Lizard Stride (Su)</Pair>
 <Pair title="Ability">When the barbarian makes a <Link to="/rule/charge">charge</Link> or <Link to="/rule/run">run</Link> action while <em>raging,</em> she can move across the surface of water without sinking. She sinks immediately if she ends her turn standing on water.</Pair>
 </Ability>
@@ -635,7 +642,7 @@ const _night_vision = {title: "Night Vision", jsx: <><p><strong>Sources</strong>
 </Ability>
 </>};
 const _master_of_the_deep = {title: "Master of the Deep", jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World</Link></p>
-<Ability id="master-of-the-deep-su" icon={["magic"]}>
+<Ability id="master-of-the-deep-su" icon={["select","magic"]}>
 <Pair single id="master-of-the-deep-su" flavor="The barbarian commands an aquatic creature to do her bidding.">Master of the Deep (Su)</Pair>
 <Pair title="Prerequisites">8th-level barbarian</Pair>
 <Pair title="Standard Action">The barbarian selects a creature with the aquatic type within 30 feet and gives a terse command from those listed in the <Link to="/spell/command">command</Link> spell. Alternatively, if the creature has an Intelligence of 1 or 2, the barbarian may instead command the creature to attack the closest creature to it. The creature must succeed at a Will save (DC equal to 10 + half the barbarian's level + her Strength modifier) or obey the command to the best of its ability on its next turn.</Pair>
@@ -665,7 +672,7 @@ const _perfect_clarity = {title: "Perfect Clarity", jsx: <><p><strong>Sources</s
 </Ability>
 </>};
 const _ultimate_clarity = {title: "Ultimate Clarity", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
-<Ability id="ultimate-clarity-su" icon={["power"]}>
+<Ability id="ultimate-clarity-su" icon={["boost"]}>
 <Pair single id="ultimate-clarity-su">Ultimate Clarity (Su)</Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/moment_of_clarity">moment of clarity</Link>, <Link to="/ragepower/perfect_clarity">perfect clarity</Link></Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
@@ -694,7 +701,7 @@ const _no_escape = {title: "No Escape", jsx: <><p><strong>Sources</strong> <Link
 </Ability>
 </>};
 const _pack_rage = {title: "Pack Rage", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness</Link></p>
-<Ability id="pack-rage-ex" icon={["power"]}>
+<Ability id="pack-rage-ex" icon={["aura"]}>
 <Pair single id="pack-rage-ex">Pack Rage (Ex)</Pair>
 <Pair title="Prerequisites">6th-level barbarian</Pair>
 <Pair title="Ability">When a barbarian with this rage power enters a <em>rage,</em> any barbarian within 30 feet who also has this rage power can enter a <em>rage.</em> A barbarian that enters a <em>rage</em> outside of her turn spends 1 round of <em>rage</em> immediately and then spends another round of <em>rage</em> to maintain her <em>rage</em> at the beginning of her next turn.</Pair>
@@ -809,7 +816,7 @@ const _reckless_abandon = {title: "Reckless Abandon", jsx: <><p><strong>Sources<
 </Ability>
 </>};
 const _inspire_ferocity = {title: "Inspire Ferocity", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="inspire-ferocity-ex" icon={["boost","down"]}>
+<Ability id="inspire-ferocity-ex" icon={["aura","boost","down"]}>
 <Pair single id="inspire-ferocity-ex">Inspire Ferocity (Ex)</Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/reckless_abandon">Reckless abandon</Link></Pair>
 <Pair title="Move-Equivalent Action">While <em>raging,</em> the barbarian can impart her <em>reckless abandon</em> modifier to all willing allies within 30 feet for a number of rounds equal to her Charisma modifier (minimum 1).</Pair>
@@ -926,7 +933,7 @@ const _savage_intuition = {title: "Savage Intuition", jsx: <><p><strong>Sources<
 <Ability id="savage-intuition" icon={["power"]}>
 <Pair single id="savage-intuition" flavor="Your bestial senses allow you to sense danger and become enraged before you even have time to consciously react to danger.">Savage Intuition</Pair>
 <Pair title="Prerequisites"><Link to="/race/wereboar_kin">Wereboar-kin</Link> or associated with wereboar-kin</Pair>
-<Pair title="Ability">sWhen combat begins, if you have rounds of <em>rage</em> remaining, you may automatically enter a <em>rage</em> without using an action at the start of the first round of combat (or at the start of the surprise round, if there is one), even if you are not otherwise aware that combat has begun.</Pair>
+<Pair title="Ability">When combat begins, if you have rounds of <em>rage</em> remaining, you may automatically enter a <em>rage</em> without using an action at the start of the first round of combat (or at the start of the surprise round, if there is one), even if you are not otherwise aware that combat has begun.</Pair>
 </Ability>
 </>};
 const _scent = {title: "Scent", jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook</Link></p>
@@ -1021,7 +1028,7 @@ const _disruptive = {title: "Disruptive", jsx: <><p><strong>Sources</strong> <Li
 </Ability>
 </>};
 const _eater_of_magic = {title: "Eater of Magic", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat</Link></p>
-<Ability id="eater-of-magic-su" icon={["def"]}>
+<Ability id="eater-of-magic-su" icon={["roll","def"]}>
 <Pair single id="eater-of-magic-su">Eater of Magic (Su)</Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/superstition">superstition</Link></Pair>
 <Pair title="Ability">Once per <em>rage,</em> when a barbarian fails a saving throw against a spell, supernatural ability, or spell-like ability, she can reroll the saving throw against the effect (this is not an action). If she succeeds at the second saving throw, she is not affected by the spell, supernatural ability, or spell-like ability and gains a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the effect's caster level (in the case of spell or spell-like abilities) or the CR of the effect's creator (in the case of supernatural abilities). These temporary hit points last until damage is applied to them or 1 minute, whichever occurs first.</Pair>
@@ -1102,7 +1109,7 @@ const _sprint = {title: "Sprint", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _two_fanged_pounce = {title: "Two-Fanged Pounce", jsx: <><p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex</Link></p>
-<Ability id="two-fanged-pounce" icon={["power"]}>
+<Ability id="two-fanged-pounce" icon={["melee","down"]}>
 <Pair single id="two-fanged-pounce">Two-Fanged Pounce</Pair>
 <Pair title="Ability">If the barbarian is wielding a pair of <Link to="/eq-weapon/dagger">daggers</Link>, <Link to="/eq-weapon/kukri">kukris</Link>, or <Link to="/eq-weapon/punching_dagger">punching daggers</Link>, she can attack once with each of the two weapons when she <Link to="/rule/charge">charges</Link>. If she does, she loses the bonus on attack rolls for charging and takes an additional -2 penalty to her AC, and she applies <Link to="/misc/precision_damage">precision damage</Link> or effects that occur on a hit only once, even if she hits with both attacks.</Pair>
 </Ability>
@@ -1119,8 +1126,8 @@ const _unrestrained_rage = {title: "Unrestrained Rage", jsx: <><p><strong>Source
 <Ability id="unrestrained-rage" icon={["def"]}>
 <Pair single id="unrestrained-rage">Unrestrained Rage</Pair>
 <Pair title="Prerequisites">12th-level barbarian</Pair>
+<Pair title="Immediate Action">If the barbarian is targeted by an effect that would cause her to become <Link to="/rule/paralyzed">paralyzed</Link>, she can enter a <em>rage</em> immediately, as long as she still has rounds of <em>rage</em> remaining.</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian is immune to paralysis.</Pair>
-<Pair title="Special">If the barbarian is targeted by an effect that would cause her to become <Link to="/rule/paralyzed">paralyzed</Link>, she can enter a <em>rage</em> as an <strong className="hl">immediate action</strong>, as long as she still has rounds of <em>rage</em> remaining.</Pair>
 </Ability>
 </>};
 const _water_sense = {title: "Water Sense", jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
@@ -1145,14 +1152,14 @@ const _aryzuls_curse = {title: "Aryzul's Curse", jsx: <><p><strong>Sources</stro
 </Ability>
 </>};
 const _hshurhas_veil = {title: "Hshurha's Veil", jsx: <><p><strong>Sources</strong> <Link to="/source/planes_of_power">Planes of Power</Link></p>
-<Ability id="hshurhas-veil-su" icon={["power","boost"]}>
+<Ability id="hshurhas-veil-su" icon={["power","def"]}>
 <Pair single id="hshurhas-veil-su">Hshurha's Veil (Su)</Pair>
 <Pair title="Prerequisites">6th-level barbarian or <Link to="/class/skald">skald</Link> with <Link to="/ragepower/lesser_elemental_rage">lesser elemental rage</Link> or <Link to="/ragepower/lesser_elemental_blood">lesser elemental blood</Link>; or 6th-level <Link to="/class/unchained_barbarian">unchained barbarian</Link> with <Link to="/ragepower/elemental_stance">elemental stance</Link> (and must adopt that stance to use this power)</Pair>
 <Pair title="Ability">When <em>raging,</em> the barbarian can use Stealth, and she gains a bonus equal to 1/2 her barbarian level on Stealth checks plus the benefits of <Link to="/rule/concealment">concealment</Link> against ranged attacks and attacks of opportunity.</Pair>
 </Ability>
 </>};
 const _kelizandris_tide = {title: "Kelizandri's Tide", jsx: <><p><strong>Sources</strong> <Link to="/source/planes_of_power">Planes of Power</Link></p>
-<Ability id="kelizandris-tide-su" icon={["melee"]}>
+<Ability id="kelizandris-tide-su" icon={["aura","melee"]}>
 <Pair single id="kelizandris-tide-su">Kelizandri's Tide (Su)</Pair>
 <Pair title="Prerequisites">6th-level barbarian or <Link to="/class/skald">skald</Link> with <Link to="/ragepower/lesser_elemental_rage">lesser elemental rage</Link> or <Link to="/ragepower/lesser_elemental_blood">lesser elemental blood</Link>; or 6th-level <Link to="/class/unchained_barbarian">unchained barbarian</Link> with <Link to="/ragepower/elemental_stance">elemental stance</Link> (and must adopt that stance to use this power)</Pair>
 <Pair title="Full-Round Action">The barbarian can attempt a single combat maneuver check against each creature within 10 feet of her. If her roll equals or exceeds a creature's CMD, she moves that creature 5 feet closer to her.</Pair>
@@ -1195,7 +1202,7 @@ const _lesser_atavism_totem = {title: "Lesser Atavism Totem", addenda: ["totem"]
 </Ability>
 </>};
 const _atavism_totem = {title: "Atavism Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex</Link></p>
-<Ability id="atavism-totem-su" icon={["power"]}>
+<Ability id="atavism-totem-su" icon={["power","def"]}>
 <Pair single id="atavism-totem-su">Atavism Totem (Su)</Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/lesser_atavism_totem">Lesser atavism totem</Link>, 6th-level barbarian</Pair>
 <Pair title="Ability">The barbarian gains <Link to="/umr/ferocity">ferocity</Link>.</Pair>
@@ -1235,7 +1242,7 @@ const _lesser_celestial_totem = {title: "Lesser Celestial Totem", topLink: ["Tot
 </Ability>
 </>};
 const _celestial_totem = {title: "Celestial Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
-<Ability id="celestial-totem-su" icon={["magic"]}>
+<Ability id="celestial-totem-su" icon={["aura"]}>
 <Pair single id="celestial-totem-su">Celestial Totem (Su)</Pair>
 <Pair title="Prerequisites">8th-level barbarian, <Link to="/ragepower/lesser_celestial_totem">lesser celestial totem</Link></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian shines with a righteous light. This effect bestows upon the barbarian a halo of gleaming light that shines as if it were <Link to="/spell/daylight">daylight</Link> and triggers an <Link to="/spell/invisibility_purge">invisibility purge</Link> effect in the barbarian's square and each adjacent square. The <em>invisibility purge</em> only affects nongood creatures.</Pair>
@@ -1329,7 +1336,7 @@ const _dragon_totem_wings = {title: "Dragon Totem Wings", topLink: ["Totem Warri
 <Ability id="dragon-totem-wings-su" icon={["skill","power"]}>
 <Pair single id="dragon-totem-wings-su">Dragon Totem Wings (Su)</Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/dragon_totem">Dragon totem</Link>, <Link to="/ragepower/dragon_totem_resilience">dragon totem resilience</Link>, 10th-level barbarian</Pair>
-<Pair title="Passive Ability">When a barbarian selects this rage power, the <Link to="/skill/fly">Fly</Link> (Dex) skill becomes a class skill for her.</Pair>
+<Pair title="Passive Ability">When a barbarian selects this rage power, <Link to="/skill/fly">Fly</Link> (Dex) becomes a class skill for her.</Pair>
 <Pair title="Standard Action">While <em>raging</em> and wearing medium or lighter armor, the barbarian can manifest a pair of spiritual dragon wings that grant her a fly speed equal to her base speed (average maneuverability). She can expend 2 rounds of her <em>rage</em> to instead use an <strong className="hl">immediate action</strong> to gain this fly speed.</Pair>
 <Pair title="Special">She can end her fly speed at any time, even when it is not her turn. Each round she spends <em>raging</em> and flying counts as 2 rounds of <em>rage.</em> Her ability to fly ends automatically when she ceases <em>raging.</em></Pair>
 </Ability>
@@ -1498,14 +1505,14 @@ const _spire_totem = {title: "Spire Totem", topLink: ["Totem Warrior","arc-barba
 </Ability>
 </>};
 const _greater_spire_totem = {title: "Greater Spire Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
-<Ability id="greater-spire-totem-su" icon={["def","protect","roll"]}>
+<Ability id="greater-spire-totem-su" icon={["aura","protect","roll"]}>
 <Pair single id="greater-spire-totem-su">Greater Spire Totem (Su)</Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/spire_totem">spire totem</Link></Pair>
 <Pair title="Passive Ability">While the barbarian is <em>raging,</em> all allies within 30 feet gain a +2 morale bonus on Will saves. When attempting a Will save against a fear effect, all allies within this area can roll twice and use the better result.</Pair>
 </Ability>
 </>};
 const _lesser_spirit_totem = {title: "Lesser Spirit Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="lesser-spirit-totem-su" icon={["melee"]}>
+<Ability id="lesser-spirit-totem-su" icon={["aura","melee"]}>
 <Pair single id="lesser-spirit-totem-su">Lesser Spirit Totem (Su)</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian is surrounded by spirit wisps that harass her foes. These spirits make one slam attack each round against a living foe that is adjacent to the barbarian. This slam attack is made using the barbarian's full base attack bonus, plus the barbarian's Charisma modifier. The slam deals 1d4 points of negative energy damage, plus the barbarian's Charisma modifier.</Pair>
 </Ability>
@@ -1518,7 +1525,7 @@ const _spirit_totem = {title: "Spirit Totem", topLink: ["Totem Warrior","arc-bar
 </Ability>
 </>};
 const _greater_spirit_totem = {title: "Greater Spirit Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="greater-spirit-totem-su" icon={["aura","ranged"]}>
+<Ability id="greater-spirit-totem-su" icon={["boost"]}>
 <Pair single id="greater-spirit-totem-su">Greater Spirit Totem (Su)</Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/spirit_totem">spirit totem</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the spirits that surround the barbarian become dangerous to any enemy adjacent to the barbarian. Living enemies adjacent to the barbarian at the start of her turn take 1d8 points of negative energy damage. In addition, the spirit wisps can now attack foes that are up to 15 feet away from the barbarian and the slam attack deals 1d6 points of negative energy damage.</Pair>
@@ -1538,7 +1545,7 @@ const _sun_totem = {title: "Sun Totem", topLink: ["Totem Warrior","arc-barbarian
 </Ability>
 </>};
 const _greater_sun_totem = {title: "Greater Sun Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East</Link></p>
-<Ability id="greater-sun-totem-su" icon={["def","aura","melee"]}>
+<Ability id="greater-sun-totem-su" icon={["def","boost"]}>
 <Pair single id="greater-sun-totem-su">Greater Sun Totem (Su)</Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/sun_totem">sun totem</Link></Pair>
 <Pair title="Passive Ability">The barbarian takes on aspects of the sun. She gains fire resistance 20 when <em>raging.</em> While <em>raging,</em> she is surrounded by a halo of flame that deals 1d6 points of fire damage to anyone that hits her with a touch attack or unarmed attack or succeeds at a bull rush, drag, or grapple combat maneuver against her. Her unarmed strikes and attacks with natural weapons deal 1d6 additional points of fire damage.</Pair>
@@ -1586,13 +1593,13 @@ const _world_serpent_totem_unity = {title: "World Serpent Totem Unity", topLink:
 </Ability>
 </>};
 const _lesser_abyssal_blood = {title: "Lesser Abyssal Blood", addenda: ["blood"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
-<Ability id="lesser-abyssal-blood-su" icon={["power"]}>
+<Ability id="lesser-abyssal-blood-su" icon={["melee"]}>
 <Pair single id="lesser-abyssal-blood-su">Lesser Abyssal Blood (Su)</Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian gains two <Link to="/umr/claw_attack">claw attacks</Link>. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier.</Pair>
 </Ability>
 </>};
 const _abyssal_blood = {title: "Abyssal Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
-<Ability id="abyssal-blood-su" icon={["power"]}>
+<Ability id="abyssal-blood-su" icon={["magic"]}>
 <Pair single id="abyssal-blood-su">Abyssal Blood (Su)</Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/lesser_abyssal_blood">lesser abyssal blood</Link></Pair>
 <Pair title="Ability">Once per day when the barbarian enters a <em>rage,</em> she can choose to grow one size category larger than her base size (as <Link to="/spell/enlarge_person">enlarge person</Link>, even if the barbarian isn't humanoid).</Pair>
@@ -1626,7 +1633,7 @@ const _greater_celestial_blood = {title: "Greater Celestial Blood", jsx: <><p><s
 </Ability>
 </>};
 const _lesser_draconic_blood = {title: "Lesser Draconic Blood", addenda: ["blood"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
-<Ability id="lesser-draconic-blood-su" icon={["power"]}>
+<Ability id="lesser-draconic-blood-su" icon={["melee"]}>
 <Pair single id="lesser-draconic-blood-su">Lesser Draconic Blood (Su)</Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian gains two <Link to="/umr/claw_attack">claw attacks</Link>. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier.</Pair>
 </Ability>
@@ -1676,7 +1683,7 @@ const _lesser_fey_blood = {title: "Lesser Fey Blood", addenda: ["blood"], jsx: <
 </Ability>
 </>};
 const _fey_blood = {title: "Fey Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
-<Ability id="fey-blood-su" icon={["power"]}>
+<Ability id="fey-blood-su" icon={["boost"]}>
 <Pair single id="fey-blood-su">Fey Blood (Su)</Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/lesser_fey_blood">lesser fey blood</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> when the barbarian <Link to="/rule/charge">charges</Link>, she ignores <Link to="/rule/difficult_terrain">difficult terrain</Link> (including magical terrain, but not other creatures).</Pair>
@@ -1690,7 +1697,7 @@ const _greater_fey_blood = {title: "Greater Fey Blood", jsx: <><p><strong>Source
 </Ability>
 </>};
 const _lesser_infernal_blood = {title: "Lesser Infernal Blood", addenda: ["blood"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
-<Ability id="lesser-infernal-blood-su" icon={["melee"]}>
+<Ability id="lesser-infernal-blood-su" icon={["boost"]}>
 <Pair single id="lesser-infernal-blood-su">Lesser Infernal Blood (Su)</Pair>
 <Pair title="Usage">3 times/day</Pair>
 <Pair title="Swift Action">While <em>raging,</em> the barbarian can infuse her attacks with hellfire for 1 round. During this time, all of her melee attacks gain the <Link to="/magic-enh/flaming">flaming</Link> magic weapon special ability.</Pair>

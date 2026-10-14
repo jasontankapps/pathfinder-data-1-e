@@ -1055,7 +1055,7 @@ const _totem_warrior = {title: "Totem Warrior", jsx: <div className="compilation
 <Pair title="Ability">The barbarian gains a <Link to="/umr/bite_attack">bite attack</Link>; if she already has a bite attack, it deals damage as if the barbarian were one size larger.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepoweratavismtotem-atavism-totem-su-fn2-2" icon={["power"]}>
+<Ability id="ragepoweratavismtotem-atavism-totem-su-fn2-2" icon={["power","def"]}>
 <Pair single id="ragepoweratavismtotem-atavism-totem-su-fn2-2"><Link to="/ragepower/atavism_totem">⮞</Link> Atavism Totem (Su) <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-2.2" id="arc-barbarian-totem_warrior-fake-fn-2.2" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/lesser_atavism_totem">Lesser atavism totem</Link>, 6th-level barbarian</Pair>
 <Pair title="Ability">The barbarian gains <Link to="/umr/ferocity">ferocity</Link>.</Pair>
@@ -1091,7 +1091,7 @@ const _totem_warrior = {title: "Totem Warrior", jsx: <div className="compilation
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian benefits from increased magical healing. Whenever she is subject to a spell that cures hit point damage, she heals 1 additional point of damage per caster level. In the case of non-spell healing effects (such as <Link to="/ability/channel_energy">channeled energy</Link> or <Link to="/ability/lay_on_hands">lay on hands</Link>), she heals a number of additional points equal to the class level of the character performing the magical healing. This does not affect fast healing or regeneration.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowercelestialtotem-celestial-totem-su-fn4-2" icon={["magic"]}>
+<Ability id="ragepowercelestialtotem-celestial-totem-su-fn4-2" icon={["aura"]}>
 <Pair single id="ragepowercelestialtotem-celestial-totem-su-fn4-2"><Link to="/ragepower/celestial_totem">⮞</Link> Celestial Totem (Su) <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-4.2" id="arc-barbarian-totem_warrior-fake-fn-4.2" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian, <Link to="/ragepower/lesser_celestial_totem">lesser celestial totem</Link></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian shines with a righteous light. This effect bestows upon the barbarian a halo of gleaming light that shines as if it were <Link to="/spell/daylight">daylight</Link> and triggers an <Link to="/spell/invisibility_purge">invisibility purge</Link> effect in the barbarian's square and each adjacent square. The <em>invisibility purge</em> only affects nongood creatures.</Pair>
@@ -1176,7 +1176,7 @@ const _totem_warrior = {title: "Totem Warrior", jsx: <div className="compilation
 <Ability id="ragepowerdragontotemwings-dragon-totem-wings-su-fn6-3" icon={["skill","power"]}>
 <Pair single id="ragepowerdragontotemwings-dragon-totem-wings-su-fn6-3"><Link to="/ragepower/dragon_totem_wings">⮞</Link> Dragon Totem Wings (Su) <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-6.3" id="arc-barbarian-totem_warrior-fake-fn-6.3" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/dragon_totem">Dragon totem</Link>, <Link to="/ragepower/dragon_totem_resilience">dragon totem resilience</Link>, 10th-level barbarian</Pair>
-<Pair title="Passive Ability">When a barbarian selects this rage power, the <Link to="/skill/fly">Fly</Link> (Dex) skill becomes a class skill for her.</Pair>
+<Pair title="Passive Ability">When a barbarian selects this rage power, <Link to="/skill/fly">Fly</Link> (Dex) becomes a class skill for her.</Pair>
 <Pair title="Standard Action">While <em>raging</em> and wearing medium or lighter armor, the barbarian can manifest a pair of spiritual dragon wings that grant her a fly speed equal to her base speed (average maneuverability). She can expend 2 rounds of her <em>rage</em> to instead use an <strong className="hl">immediate action</strong> to gain this fly speed.</Pair>
 <Pair title="Special">She can end her fly speed at any time, even when it is not her turn. Each round she spends <em>raging</em> and flying counts as 2 rounds of <em>rage.</em> Her ability to fly ends automatically when she ceases <em>raging.</em></Pair>
 </Ability>
@@ -1327,14 +1327,14 @@ const _totem_warrior = {title: "Totem Warrior", jsx: <div className="compilation
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian takes no penalties for using a weapon to deal nonlethal damage. When dealing nonlethal damage, the barbarian adds a bonus equal to half her barbarian level on her damage rolls.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreaterspiretotem-greater-spire-totem-su-fn1-9" icon={["def","protect","roll"]}>
+<Ability id="ragepowergreaterspiretotem-greater-spire-totem-su-fn1-9" icon={["aura","protect","roll"]}>
 <Pair single id="ragepowergreaterspiretotem-greater-spire-totem-su-fn1-9"><Link to="/ragepower/greater_spire_totem">⮞</Link> Greater Spire Totem (Su) <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-1.9" id="arc-barbarian-totem_warrior-fake-fn-1.9" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/spire_totem">spire totem</Link></Pair>
 <Pair title="Passive Ability">While the barbarian is <em>raging,</em> all allies within 30 feet gain a +2 morale bonus on Will saves. When attempting a Will save against a fear effect, all allies within this area can roll twice and use the better result.</Pair>
 </Ability>
 </div>
 </div>
-<Ability id="ragepowerlesserspirittotem-lesser-spirit-totem-su-fn3-10" icon={["melee"]}>
+<Ability id="ragepowerlesserspirittotem-lesser-spirit-totem-su-fn3-10" icon={["aura","melee"]}>
 <Pair single id="ragepowerlesserspirittotem-lesser-spirit-totem-su-fn3-10"><Link to="/ragepower/lesser_spirit_totem">⮞</Link> Lesser Spirit Totem (Su) <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-3.10" id="arc-barbarian-totem_warrior-fake-fn-3.10" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian is surrounded by spirit wisps that harass her foes. These spirits make one slam attack each round against a living foe that is adjacent to the barbarian. This slam attack is made using the barbarian's full base attack bonus, plus the barbarian's Charisma modifier. The slam deals 1d4 points of negative energy damage, plus the barbarian's Charisma modifier.</Pair>
 </Ability>
@@ -1345,7 +1345,7 @@ const _totem_warrior = {title: "Totem Warrior", jsx: <div className="compilation
 <Pair title="Passive Ability">While <em>raging,</em> the spirits that surround the barbarian make it difficult for her enemies to see her. The spirits grant the barbarian a 20% miss chance against ranged attacks and melee attacks made by creatures that are not adjacent to the barbarian (typically due to reach).</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreaterspirittotem-greater-spirit-totem-su-fn3-12" icon={["aura","ranged"]}>
+<Ability id="ragepowergreaterspirittotem-greater-spirit-totem-su-fn3-12" icon={["boost"]}>
 <Pair single id="ragepowergreaterspirittotem-greater-spirit-totem-su-fn3-12"><Link to="/ragepower/greater_spirit_totem">⮞</Link> Greater Spirit Totem (Su) <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-3.12" id="arc-barbarian-totem_warrior-fake-fn-3.12" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/spirit_totem">spirit totem</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the spirits that surround the barbarian become dangerous to any enemy adjacent to the barbarian. Living enemies adjacent to the barbarian at the start of her turn take 1d8 points of negative energy damage. In addition, the spirit wisps can now attack foes that are up to 15 feet away from the barbarian and the slam attack deals 1d6 points of negative energy damage.</Pair>
@@ -1363,7 +1363,7 @@ const _totem_warrior = {title: "Totem Warrior", jsx: <div className="compilation
 <Pair title="Passive Ability">The touch of flame fuels and bolsters the barbarian's <em>rage.</em> She gains fire resistance 10 when <em>raging.</em> In addition, for 1d6 rounds after coming in direct contact with open flame, her speed increases by 10 feet.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreatersuntotem-greater-sun-totem-su-fn9-3" icon={["def","aura","melee"]}>
+<Ability id="ragepowergreatersuntotem-greater-sun-totem-su-fn9-3" icon={["def","boost"]}>
 <Pair single id="ragepowergreatersuntotem-greater-sun-totem-su-fn9-3"><Link to="/ragepower/greater_sun_totem">⮞</Link> Greater Sun Totem (Su) <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-9.3" id="arc-barbarian-totem_warrior-fake-fn-9.3" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/sun_totem">sun totem</Link></Pair>
 <Pair title="Passive Ability">The barbarian takes on aspects of the sun. She gains fire resistance 20 when <em>raging.</em> While <em>raging,</em> she is surrounded by a halo of flame that deals 1d6 points of fire damage to anyone that hits her with a touch attack or unarmed attack or succeeds at a bull rush, drag, or grapple combat maneuver against her. Her unarmed strikes and attacks with natural weapons deal 1d6 additional points of fire damage.</Pair>

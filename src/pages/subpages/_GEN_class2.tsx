@@ -1642,7 +1642,7 @@ const _inquisitor = {hasJL:true,title: "Inquisitor", jsx: <><div className="jump
 <Ability id="exploit-weakness-ex" icon={["lower"]}>
 <Pair single id="exploit-weakness-ex" flavor="The inquisitor learns to take advantage of any opportunity that presents itself.">Exploit Weakness (Ex)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
-<Pair title="Passive Ability">When you score a critical hit, you ignores any <Link to="/rule/damage_reduction">damage reduction</Link> the target might have. In addition, if the target has <Link to="/umr/regeneration">regeneration</Link>, the creature loses regeneration on the round following the critical hit and can die normally during that round. Creatures whose regeneration always functions are immune to this ability. Finally, if you deal energy damage to a creature with vulnerability to that energy type, you deal +1 point of damage per die rolled.</Pair>
+<Pair title="Passive Ability">When you score a critical hit, you ignore any <Link to="/rule/damage_reduction">damage reduction</Link> the target might have. In addition, if the target has <Link to="/umr/regeneration">regeneration</Link>, the creature loses regeneration on the round following the critical hit and can die normally during that round. Creatures whose regeneration always functions are immune to this ability. Finally, if you deal energy damage to a creature with vulnerability to that energy type, you deal +1 point of damage per die rolled.</Pair>
 </Ability>
 <Ability id="third-judgment-ex" icon={["boost"]}>
 <Pair single id="third-judgment-ex">Third Judgment (Ex)</Pair>
@@ -2087,7 +2087,7 @@ const _investigator = {hasJL:true,title: "Investigator", jsx: <><div className="
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You gain a bonus on Reflex saving throws to avoid traps and a dodge bonus to AC against attacks by traps. Both of these bonuses are equal to one-third of your investigator level.</Pair>
 </Ability>
-<Ability id="studied-combat-ex" icon={["melee"]}>
+<Ability id="studied-combat-ex" icon={["select","melee"]}>
 <Pair single id="studied-combat-ex" flavor="With a keen eye and calculating mind, an investigator can assess the mettle of his opponent to take advantage of gaps in talent and training.">Studied Combat (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Usage">This effect lasts for a number of rounds equal to your Intelligence modifier (minimum 1) or until you deal damage with a <em>studied strike,</em> whichever comes first.</Pair>

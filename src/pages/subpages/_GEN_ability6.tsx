@@ -719,14 +719,14 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Pair title="Passive Ability">When the barbarian <em>rages,</em> her feverish frenzy and hot breath burn or blow fog, smoke and similar effects away from her. The barbarian and creatures adjacent to her do not gain <Link to="/rule/concealment">concealment</Link> from obfuscating effects like fog or precipitation.</Pair>
 <Pair title="Special">Magical effects that require more than a strong wind to dissipate are not affected by this rage power.</Pair>
 </Ability>
-<Ability id="ragepowereclipsingrage-eclipsing-rage-su-fn7-4" icon={["magic"]}>
+<Ability id="ragepowereclipsingrage-eclipsing-rage-su-fn7-4" icon={["aura"]}>
 <Pair single id="ragepowereclipsingrage-eclipsing-rage-su-fn7-4"><Link to="/ragepower/eclipsing_rage">⮞</Link> Eclipsing Rage (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-7.4" id="ability-rage_powers-fake-fn-7.4" data-hash-target to="ability-rage_powers-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian</Pair>
 <Pair title="Passive Ability">While the barbarian is <em>raging,</em> the <Link to="/rule/light_level">light level</Link> within 10 feet of her lowers by one step. She can't decrease the light level below normal darkness with this ability.</Pair>
 <Pair title="Special">Multiple barbarians with this rage power don't further reduce the light level.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreatereclipsingrage-greater-eclipsing-rage-su-fn7-5" icon={["magic"]}>
+<Ability id="ragepowergreatereclipsingrage-greater-eclipsing-rage-su-fn7-5" icon={["boost"]}>
 <Pair single id="ragepowergreatereclipsingrage-greater-eclipsing-rage-su-fn7-5"><Link to="/ragepower/greater_eclipsing_rage">⮞</Link> Greater Eclipsing Rage (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-7.5" id="ability-rage_powers-fake-fn-7.5" data-hash-target to="ability-rage_powers-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/eclipsing_rage">eclipsing rage</Link></Pair>
 <Pair title="Passive Ability">Whenever the barbarian <em>rages,</em> the <Link to="/rule/light_level">light level</Link> within 20 feet of her lowers by two steps instead of one. She still can't decrease the light level below normal darkness with this ability.</Pair>
@@ -882,7 +882,7 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Pair title="Ability">While <em>raging,</em> the barbarian who takes a drink of alcohol may attempt a new saving throw against one of the following conditions that may be affecting her: blinded, confused, dazzled, deafened, exhausted, fatigued, frightened, nauseated, panicked, shaken, or sickened. If she succeeds at the save, the effect is suppressed for the duration of the <em>rage.</em></Pair>
 <Pair title="Special">She also may attempt a new saving throw if poisoned; a successful save counts against those required for a cure, but a failed save has no ill effect.</Pair>
 </Ability>
-<Ability id="ragepowergroundbreaker-ground-breaker-ex-fn9-19" icon={["melee","lower"]}>
+<Ability id="ragepowergroundbreaker-ground-breaker-ex-fn9-19" icon={["melee","aura","lower"]}>
 <Pair single id="ragepowergroundbreaker-ground-breaker-ex-fn9-19"><Link to="/ragepower/ground_breaker">⮞</Link> Ground Breaker (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.19" id="ability-rage_powers-fake-fn-9.19" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian</Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
@@ -969,12 +969,12 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Pair title="Move-Equivalent Action">The barbarian can make an Intimidate check against one adjacent foe. If the barbarian successfully demoralizes her opponent, the foe is <Link to="/misc/shaken">shaken</Link> for 1d4 rounds + 1 round for every 5 points by which the barbarian's check exceeds the DC.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerbattleroar-battle-roar-su-fn13-2" icon={["zap"]}>
+<Ability id="ragepowerbattleroar-battle-roar-su-fn13-2" icon={["lower"]}>
 <Pair single id="ragepowerbattleroar-battle-roar-su-fn13-2"><Link to="/ragepower/battle_roar">⮞</Link> Battle Roar (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.2" id="ability-rage_powers-fake-fn-13.2" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/intimidating_glare">intimidating glare</Link></Pair>
 <Pair title="Ability">When the character successfully demoralizes an opponent using <em>intimidating glare,</em> he also deals 1d6 points of sonic damage to that opponent.</Pair>
 </Ability>
-<Ability id="ragepowerterrifyinghowl-terrifying-howl-ex-fn1-8" icon={["lower"]}>
+<Ability id="ragepowerterrifyinghowl-terrifying-howl-ex-fn1-8" icon={["aura","lower"]}>
 <Pair single id="ragepowerterrifyinghowl-terrifying-howl-ex-fn1-8"><Link to="/ragepower/terrifying_howl">⮞</Link> Terrifying Howl (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.8" id="ability-rage_powers-fake-fn-1.8" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/intimidating_glare">Intimidating glare</Link>, 8th-level barbarian</Pair>
 <Pair title="Standard Action">The barbarian unleashes a terrifying howl. All <Link to="/misc/shaken">shaken</Link> enemies within 30 feet must make a Will save (DC equal to 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) or be <Link to="/misc/panicked">panicked</Link> for 1d4+1 rounds.</Pair>
@@ -998,43 +998,50 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </Ability>
 <Ability id="ragepowercairnlinnormdeathcurse-cairn-linnorm-death-curse-su-fn13-3" icon={["boost","def"]}>
 <Pair single id="ragepowercairnlinnormdeathcurse-cairn-linnorm-death-curse-su-fn13-3"><Link to="/ragepower/cairn_linnorm_death_curse">⮞</Link> Cairn Linnorm Death Curse (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.3" id="ability-rage_powers-fake-fn-13.3" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
-<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/cairn_linnorm">cairn linnorm</Link>. The character's melee attacks deal an additional 1 point of negative energy damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of decay</em> (Will negates)." prereq="8th-level barbarian"</p>
+<Pair title="Prerequisites">8th-level barbarian</Pair>
+<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/cairn_linnorm">cairn linnorm</Link>. The character's melee attacks deal an additional 1 point of negative energy damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of decay</em> (Will negates).</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff={<>Target takes 1 point of <Link to="/rule/con_damage">Con damage</Link> per day and <Link to="/rule/age">ages</Link> at a rate of 1 year per day (eventually incurring all of the penalties of old age but none of the bonuses)</>} icon="c">Curse of Decay</AffInfo>
 </Pair>
 </Ability>
 <Ability id="ragepowercraglinnormdeathcurse-crag-linnorm-death-curse-su-fn13-4" icon={["boost","def"]}>
 <Pair single id="ragepowercraglinnormdeathcurse-crag-linnorm-death-curse-su-fn13-4"><Link to="/ragepower/crag_linnorm_death_curse">⮞</Link> Crag Linnorm Death Curse (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.4" id="ability-rage_powers-fake-fn-13.4" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
-<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/crag_linnorm">crag linnorm</Link>. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of fire</em> (Will negates)." prereq="4th-level barbarian"</p>
+<Pair title="Prerequisites">4th-level barbarian</Pair>
+<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/crag_linnorm">crag linnorm</Link>. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of fire</em> (Will negates).</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff={<>Target gains <Link to="/umr/vulnerability">vulnerability</Link> to fire</>} icon="c">Curse of Fire</AffInfo>
 </Pair>
 </Ability>
 <Ability id="ragepowerfjordlinnormdeathcurse-fjord-linnorm-death-curse-su-fn13-5" icon={["boost","def"]}>
 <Pair single id="ragepowerfjordlinnormdeathcurse-fjord-linnorm-death-curse-su-fn13-5"><Link to="/ragepower/fjord_linnorm_death_curse">⮞</Link> Fjord Linnorm Death Curse (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.5" id="ability-rage_powers-fake-fn-13.5" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
-<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/fjord_linnorm">fjord linnorm</Link>. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of drowning</em> (Will negates)." prereq="4th-level barbarian"</p>
+<Pair title="Prerequisites">4th-level barbarian</Pair>
+<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/fjord_linnorm">fjord linnorm</Link>. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of drowning</em> (Will negates).</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff={<>Target is unable to breathe water (even with magic), can hold its breath only half as long as normal, and is <Link to="/misc/sickened">sickened</Link> whenever it holds its breath</>} icon="c">Curse of Drowning</AffInfo>
 </Pair>
 </Ability>
 <Ability id="ragepowericelinnormdeathcurse-ice-linnorm-death-curse-su-fn13-6" icon={["boost","def"]}>
 <Pair single id="ragepowericelinnormdeathcurse-ice-linnorm-death-curse-su-fn13-6"><Link to="/ragepower/ice_linnorm_death_curse">⮞</Link> Ice Linnorm Death Curse (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.6" id="ability-rage_powers-fake-fn-13.6" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
-<Pair title="Ability"><p>The character channels the power of an <Link to="/monster/ice_linnorm">ice linnorm</Link>. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed, the attacker suffers the <em>curse of frost.</em>" prereq="4th-level barbarian"</p>
+<Pair title="Prerequisites">4th-level barbarian</Pair>
+<Pair title="Ability"><p>The character channels the power of an <Link to="/monster/ice_linnorm">ice linnorm</Link>. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed, the attacker suffers the <em>curse of frost.</em></p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff={<>Target gains <Link to="/umr/vulnerability">vulnerability</Link> to cold</>} icon="c">Curse of Frost</AffInfo>
 </Pair>
 </Ability>
 <Ability id="ragepowertaigalinnormdeathcurse-taiga-linnorm-death-curse-su-fn13-7" icon={["boost","def"]}>
 <Pair single id="ragepowertaigalinnormdeathcurse-taiga-linnorm-death-curse-su-fn13-7"><Link to="/ragepower/taiga_linnorm_death_curse">⮞</Link> Taiga Linnorm Death Curse (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.7" id="ability-rage_powers-fake-fn-13.7" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
-<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/taiga_linnorm">taiga linnorm</Link>. The character's melee attacks deal an additional 1 point of electricity damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of electricity</em> (Will negates)." prereq="4th-level barbarian"</p>
+<Pair title="Prerequisites">4th-level barbarian</Pair>
+<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/taiga_linnorm">taiga linnorm</Link>. The character's melee attacks deal an additional 1 point of electricity damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of electricity</em> (Will negates).</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff={<>Target gains <Link to="/umr/vulnerability">vulnerability</Link> to electricity</>} icon="c">Curse of Electricity</AffInfo>
 </Pair>
 </Ability>
 <Ability id="ragepowertarnlinnormdeathcurse-tarn-linnorm-death-curse-su-fn13-8" icon={["boost","def"]}>
 <Pair single id="ragepowertarnlinnormdeathcurse-tarn-linnorm-death-curse-su-fn13-8"><Link to="/ragepower/tarn_linnorm_death_curse">⮞</Link> Tarn Linnorm Death Curse (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.8" id="ability-rage_powers-fake-fn-13.8" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
-<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/tarn_linnorm">tarn linnorm</Link>. The character's melee attacks deal an additional 1 point of acid damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of death</em> (Will negates)." prereq="4th-level barbarian"</p>
+<Pair title="Prerequisites">4th-level barbarian</Pair>
+<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/tarn_linnorm">tarn linnorm</Link>. The character's melee attacks deal an additional 1 point of acid damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of death</em> (Will negates).</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff="Target is no longer affected by healing spells and can't heal damage naturally by resting" icon="c">Curse of Death</AffInfo>
 </Pair>
 </Ability>
 <Ability id="ragepowertorlinnormdeathcurse-tor-linnorm-death-curse-su-fn13-9" icon={["boost","def"]}>
 <Pair single id="ragepowertorlinnormdeathcurse-tor-linnorm-death-curse-su-fn13-9"><Link to="/ragepower/tor_linnorm_death_curse">⮞</Link> Tor Linnorm Death Curse (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.9" id="ability-rage_powers-fake-fn-13.9" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
-<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/tor_linnorm">tor linnorm</Link>. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of boiling blood</em> (Will negates)." prereq="8th-level barbarian"</p>
+<Pair title="Prerequisites">8th-level barbarian</Pair>
+<Pair title="Ability"><p>The character channels the power of a <Link to="/monster/tor_linnorm">tor linnorm</Link>. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the <em>curse of boiling blood</em> (Will negates).</p>
 <AffInfo type="Curse" save="Will 10 + 1/2 the character's level + their Charisma modifier" eff={<>Target gains <Link to="/umr/vulnerability">vulnerability</Link> to fire and is permanently <Link to="/misc/staggered">staggered</Link> from the pain of its boiling blood (this is a pain effect)</>} icon="c">Curse of Boiling Blood</AffInfo>
 </Pair>
 </Ability>
@@ -1042,7 +1049,7 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Pair single id="ragepowerliquidcourage-liquid-courage-ex-fn9-26"><Link to="/ragepower/liquid_courage">⮞</Link> Liquid Courage (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.26" id="ability-rage_powers-fake-fn-9.26" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian increases her morale bonus on saving throws against mind-affecting effects by +1 for each alcoholic drink she consumes during her <em>rage,</em> to a maximum of +1 increase per four barbarian levels.</Pair>
 </Ability>
-<Ability id="ragepowerlizardstride-lizard-stride-su-fn7-7" icon={["magic"]}>
+<Ability id="ragepowerlizardstride-lizard-stride-su-fn7-7" icon={["power"]}>
 <Pair single id="ragepowerlizardstride-lizard-stride-su-fn7-7"><Link to="/ragepower/lizard_stride">⮞</Link> Lizard Stride (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-7.7" id="ability-rage_powers-fake-fn-7.7" data-hash-target to="ability-rage_powers-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Ability">When the barbarian makes a <Link to="/rule/charge">charge</Link> or <Link to="/rule/run">run</Link> action while <em>raging,</em> she can move across the surface of water without sinking. She sinks immediately if she ends her turn standing on water.</Pair>
 </Ability>
@@ -1057,7 +1064,7 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Pair title="Ability">The barbarian's senses grow incredibly sharp while <em>raging</em> and she gains darkvision 60 feet.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowermasterofthedeep-master-of-the-deep-su-fn17" icon={["magic"]}>
+<Ability id="ragepowermasterofthedeep-master-of-the-deep-su-fn17" icon={["select","magic"]}>
 <Pair single id="ragepowermasterofthedeep-master-of-the-deep-su-fn17" flavor="The barbarian commands an aquatic creature to do her bidding."><Link to="/ragepower/master_of_the_deep">⮞</Link> Master of the Deep (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-17" id="ability-rage_powers-fake-fn-17" data-hash-target to="ability-rage_powers-fake-fn-17-target">17</InnerLink></sup></Pair>
 <Pair title="Prerequisites">8th-level barbarian</Pair>
 <Pair title="Standard Action">The barbarian selects a creature with the aquatic type within 30 feet and gives a terse command from those listed in the <Link to="/spell/command">command</Link> spell. Alternatively, if the creature has an Intelligence of 1 or 2, the barbarian may instead command the creature to attack the closest creature to it. The creature must succeed at a Will save (DC equal to 10 + half the barbarian's level + her Strength modifier) or obey the command to the best of its ability on its next turn.</Pair>
@@ -1081,7 +1088,7 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Pair title="Ability">While using her <em>moment of clarity</em> rage power, the barbarian can roll twice for any miss chance or Will saving throws to disbelieve illusions, taking the better result.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerultimateclarity-ultimate-clarity-su-fn13-10" icon={["power"]}>
+<Ability id="ragepowerultimateclarity-ultimate-clarity-su-fn13-10" icon={["boost"]}>
 <Pair single id="ragepowerultimateclarity-ultimate-clarity-su-fn13-10"><Link to="/ragepower/ultimate_clarity">⮞</Link> Ultimate Clarity (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.10" id="ability-rage_powers-fake-fn-13.10" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/moment_of_clarity">moment of clarity</Link>, <Link to="/ragepower/perfect_clarity">perfect clarity</Link></Pair>
 <Pair title="Usage">Once per <em>rage</em></Pair>
@@ -1106,7 +1113,7 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Pair title="Usage">Once per <em>rage</em></Pair>
 <Pair title="Immediate Action">When an adjacent foe uses a <Link to="/rule/withdraw">withdraw</Link> action to move away from her, the barbarian can move up to double her normal speed. She must end her movement adjacent to the enemy that used the withdraw action. The barbarian provokes attacks of opportunity as normal during this movement.</Pair>
 </Ability>
-<Ability id="ragepowerpackrage-pack-rage-ex-fn7-8" icon={["power"]}>
+<Ability id="ragepowerpackrage-pack-rage-ex-fn7-8" icon={["aura"]}>
 <Pair single id="ragepowerpackrage-pack-rage-ex-fn7-8"><Link to="/ragepower/pack_rage">⮞</Link> Pack Rage (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-7.8" id="ability-rage_powers-fake-fn-7.8" data-hash-target to="ability-rage_powers-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian</Pair>
 <Pair title="Ability">When a barbarian with this rage power enters a <em>rage,</em> any barbarian within 30 feet who also has this rage power can enter a <em>rage.</em> A barbarian that enters a <em>rage</em> outside of her turn spends 1 round of <em>rage</em> immediately and then spends another round of <em>rage</em> to maintain her <em>rage</em> at the beginning of her next turn.</Pair>
@@ -1198,7 +1205,7 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Pair title="Ability">While <em>raging,</em> the barbarian can take a penalty to AC to gain a bonus on attack rolls. The penalty and bonus are both equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerinspireferocity-inspire-ferocity-ex-fn9-30" icon={["boost","down"]}>
+<Ability id="ragepowerinspireferocity-inspire-ferocity-ex-fn9-30" icon={["aura","boost","down"]}>
 <Pair single id="ragepowerinspireferocity-inspire-ferocity-ex-fn9-30"><Link to="/ragepower/inspire_ferocity">⮞</Link> Inspire Ferocity (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-9.30" id="ability-rage_powers-fake-fn-9.30" data-hash-target to="ability-rage_powers-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/reckless_abandon">Reckless abandon</Link></Pair>
 <Pair title="Move-Equivalent Action">While <em>raging,</em> the barbarian can impart her <em>reckless abandon</em> modifier to all willing allies within 30 feet for a number of rounds equal to her Charisma modifier (minimum 1).</Pair>
@@ -1300,7 +1307,7 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Ability id="ragepowersavageintuition-savage-intuition-fn5-6" icon={["power"]}>
 <Pair single id="ragepowersavageintuition-savage-intuition-fn5-6" flavor="Your bestial senses allow you to sense danger and become enraged before you even have time to consciously react to danger."><Link to="/ragepower/savage_intuition">⮞</Link> Savage Intuition <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-5.6" id="ability-rage_powers-fake-fn-5.6" data-hash-target to="ability-rage_powers-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/wereboar_kin">Wereboar-kin</Link> or associated with wereboar-kin</Pair>
-<Pair title="Ability">sWhen combat begins, if you have rounds of <em>rage</em> remaining, you may automatically enter a <em>rage</em> without using an action at the start of the first round of combat (or at the start of the surprise round, if there is one), even if you are not otherwise aware that combat has begun.</Pair>
+<Pair title="Ability">When combat begins, if you have rounds of <em>rage</em> remaining, you may automatically enter a <em>rage</em> without using an action at the start of the first round of combat (or at the start of the surprise round, if there is one), even if you are not otherwise aware that combat has begun.</Pair>
 </Ability>
 <Ability id="ragepowerscent-scent-ex-fn1-23" icon={["power"]}>
 <Pair single id="ragepowerscent-scent-ex-fn1-23"><Link to="/ragepower/scent">⮞</Link> Scent (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-1.23" id="ability-rage_powers-fake-fn-1.23" data-hash-target to="ability-rage_powers-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -1374,7 +1381,7 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Pair title="Prerequisites">8th-level barbarian, <Link to="/ragepower/superstition">superstition</Link></Pair>
 <Pair title="Ability">When <em>raging,</em> the barbarian gains <Link to="/feat/disruptive">Disruptive</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="ragepowereaterofmagic-eater-of-magic-su-fn6-17" icon={["def"]}>
+<Ability id="ragepowereaterofmagic-eater-of-magic-su-fn6-17" icon={["roll","def"]}>
 <Pair single id="ragepowereaterofmagic-eater-of-magic-su-fn6-17"><Link to="/ragepower/eater_of_magic">⮞</Link> Eater of Magic (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-6.17" id="ability-rage_powers-fake-fn-6.17" data-hash-target to="ability-rage_powers-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/superstition">superstition</Link></Pair>
 <Pair title="Ability">Once per <em>rage,</em> when a barbarian fails a saving throw against a spell, supernatural ability, or spell-like ability, she can reroll the saving throw against the effect (this is not an action). If she succeeds at the second saving throw, she is not affected by the spell, supernatural ability, or spell-like ability and gains a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the effect's caster level (in the case of spell or spell-like abilities) or the CR of the effect's creator (in the case of supernatural abilities). These temporary hit points last until damage is applied to them or 1 minute, whichever occurs first.</Pair>
@@ -1444,7 +1451,7 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Pair title="Full-Round Action">The barbarian can move up to 6 times her speed or a single full-round <Link to="/rule/charge">charge</Link> action to move up to 3 times her speed.</Pair>
 </Ability>
 </div>
-<Ability id="ragepowertwofangedpounce-two-fanged-pounce-fn11-6" icon={["power"]}>
+<Ability id="ragepowertwofangedpounce-two-fanged-pounce-fn11-6" icon={["melee","down"]}>
 <Pair single id="ragepowertwofangedpounce-two-fanged-pounce-fn11-6"><Link to="/ragepower/two_fanged_pounce">⮞</Link> Two-Fanged Pounce <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-11.6" id="ability-rage_powers-fake-fn-11.6" data-hash-target to="ability-rage_powers-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Ability">If the barbarian is wielding a pair of <Link to="/eq-weapon/dagger">daggers</Link>, <Link to="/eq-weapon/kukri">kukris</Link>, or <Link to="/eq-weapon/punching_dagger">punching daggers</Link>, she can attack once with each of the two weapons when she <Link to="/rule/charge">charges</Link>. If she does, she loses the bonus on attack rolls for charging and takes an additional -2 penalty to her AC, and she applies <Link to="/misc/precision_damage">precision damage</Link> or effects that occur on a hit only once, even if she hits with both attacks.</Pair>
 </Ability>
@@ -1457,8 +1464,8 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Ability id="ragepowerunrestrainedrage-unrestrained-rage-fn16-3" icon={["def"]}>
 <Pair single id="ragepowerunrestrainedrage-unrestrained-rage-fn16-3"><Link to="/ragepower/unrestrained_rage">⮞</Link> Unrestrained Rage <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-16.3" id="ability-rage_powers-fake-fn-16.3" data-hash-target to="ability-rage_powers-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Prerequisites">12th-level barbarian</Pair>
+<Pair title="Immediate Action">If the barbarian is targeted by an effect that would cause her to become <Link to="/rule/paralyzed">paralyzed</Link>, she can enter a <em>rage</em> immediately, as long as she still has rounds of <em>rage</em> remaining.</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian is immune to paralysis.</Pair>
-<Pair title="Special">If the barbarian is targeted by an effect that would cause her to become <Link to="/rule/paralyzed">paralyzed</Link>, she can enter a <em>rage</em> as an <strong className="hl">immediate action</strong>, as long as she still has rounds of <em>rage</em> remaining.</Pair>
 </Ability>
 <Ability id="ragepowerwatersense-water-sense-ex-fn10-4" icon={["lower","boost"]}>
 <Pair single id="ragepowerwatersense-water-sense-ex-fn10-4"><Link to="/ragepower/water_sense">⮞</Link> Water Sense (Ex) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-10.4" id="ability-rage_powers-fake-fn-10.4" data-hash-target to="ability-rage_powers-fake-fn-10-target">10</InnerLink></sup></Pair>
@@ -1477,11 +1484,11 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Pair title="Passive Ability">When <em>raging,</em> the barbarian emanates a 5-foot-radius aura of radioactivity. Each round that another creature begins its turn within this aura, it takes a cumulative -2 penalty to Strength (Fortitude negates, DC = 10 + 1/2 the barbarian's level + her Constitution modifier) for the duration of the <em>rage.</em> A creature's Strength penalty from this ability cannot exceed the barbarian's class level.</Pair>
 <Pair title="At 12th Level">The barbarian can choose to create a 10-foot-radius aura of radioactivity when she begins her <em>rage.</em></Pair>
 </Ability>
-<Ability id="ragepowerhshurhasveil-hshurhas-veil-su-fn18-2" icon={["power","boost"]}>
+<Ability id="ragepowerhshurhasveil-hshurhas-veil-su-fn18-2" icon={["power","def"]}>
 <Pair single id="ragepowerhshurhasveil-hshurhas-veil-su-fn18-2"><Link to="/ragepower/hshurhas_veil">⮞</Link> Hshurha's Veil (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-18.2" id="ability-rage_powers-fake-fn-18.2" data-hash-target to="ability-rage_powers-fake-fn-18-target">18</InnerLink></sup></Pair>
 <Pair title="Ability">When <em>raging,</em> the barbarian can use Stealth, and she gains a bonus equal to 1/2 her barbarian level on Stealth checks plus the benefits of <Link to="/rule/concealment">concealment</Link> against ranged attacks and attacks of opportunity.</Pair>
 </Ability>
-<Ability id="ragepowerkelizandristide-kelizandris-tide-su-fn18-3" icon={["melee"]}>
+<Ability id="ragepowerkelizandristide-kelizandris-tide-su-fn18-3" icon={["aura","melee"]}>
 <Pair single id="ragepowerkelizandristide-kelizandris-tide-su-fn18-3"><Link to="/ragepower/kelizandris_tide">⮞</Link> Kelizandri's Tide (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-18.3" id="ability-rage_powers-fake-fn-18.3" data-hash-target to="ability-rage_powers-fake-fn-18-target">18</InnerLink></sup></Pair>
 <Pair title="Full-Round Action">The barbarian can attempt a single combat maneuver check against each creature within 10 feet of her. If her roll equals or exceeds a creature's CMD, she moves that creature 5 feet closer to her.</Pair>
 <Pair title="Free Action">Once per day after attempting this maneuver, she can attack each adjacent creature as if using the <Link to="/feat/whirlwind_attack">Whirlwind Attack</Link> feat. If she has the Whirlwind Attack feat, she can also use it as a free action in this way one additional time per day.</Pair>
@@ -1494,12 +1501,12 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <h2 id="ability-rage_powers-blood-rage-powers" data-hash-target>Blood Rage Powers</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link><br/>Blood rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.</p>
 <hr/>
-<Ability id="ragepowerlesserabyssalblood-lesser-abyssal-blood-su-fn13-12" icon={["power"]}>
+<Ability id="ragepowerlesserabyssalblood-lesser-abyssal-blood-su-fn13-12" icon={["melee"]}>
 <Pair single id="ragepowerlesserabyssalblood-lesser-abyssal-blood-su-fn13-12"><Link to="/ragepower/lesser_abyssal_blood">⮞</Link> Lesser Abyssal Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.12" id="ability-rage_powers-fake-fn-13.12" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian gains two <Link to="/umr/claw_attack">claw attacks</Link>. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerabyssalblood-abyssal-blood-su-fn13-13" icon={["power"]}>
+<Ability id="ragepowerabyssalblood-abyssal-blood-su-fn13-13" icon={["magic"]}>
 <Pair single id="ragepowerabyssalblood-abyssal-blood-su-fn13-13"><Link to="/ragepower/abyssal_blood">⮞</Link> Abyssal Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.13" id="ability-rage_powers-fake-fn-13.13" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/lesser_abyssal_blood">lesser abyssal blood</Link></Pair>
 <Pair title="Ability">Once per day when the barbarian enters a <em>rage,</em> she can choose to grow one size category larger than her base size (as <Link to="/spell/enlarge_person">enlarge person</Link>, even if the barbarian isn't humanoid).</Pair>
@@ -1530,7 +1537,7 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </Ability>
 </div>
 </div>
-<Ability id="ragepowerlesserdraconicblood-lesser-draconic-blood-su-fn13-18" icon={["power"]}>
+<Ability id="ragepowerlesserdraconicblood-lesser-draconic-blood-su-fn13-18" icon={["melee"]}>
 <Pair single id="ragepowerlesserdraconicblood-lesser-draconic-blood-su-fn13-18"><Link to="/ragepower/lesser_draconic_blood">⮞</Link> Lesser Draconic Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.18" id="ability-rage_powers-fake-fn-13.18" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian gains two <Link to="/umr/claw_attack">claw attacks</Link>. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier.</Pair>
 </Ability>
@@ -1575,7 +1582,7 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 <Pair title="Special">This is a mind-affecting compulsion effect.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerfeyblood-fey-blood-su-fn13-25" icon={["power"]}>
+<Ability id="ragepowerfeyblood-fey-blood-su-fn13-25" icon={["boost"]}>
 <Pair single id="ragepowerfeyblood-fey-blood-su-fn13-25"><Link to="/ragepower/fey_blood">⮞</Link> Fey Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.25" id="ability-rage_powers-fake-fn-13.25" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/lesser_fey_blood">lesser fey blood</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> when the barbarian <Link to="/rule/charge">charges</Link>, she ignores <Link to="/rule/difficult_terrain">difficult terrain</Link> (including magical terrain, but not other creatures).</Pair>
@@ -1588,7 +1595,7 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </Ability>
 </div>
 </div>
-<Ability id="ragepowerlesserinfernalblood-lesser-infernal-blood-su-fn13-27" icon={["melee"]}>
+<Ability id="ragepowerlesserinfernalblood-lesser-infernal-blood-su-fn13-27" icon={["boost"]}>
 <Pair single id="ragepowerlesserinfernalblood-lesser-infernal-blood-su-fn13-27"><Link to="/ragepower/lesser_infernal_blood">⮞</Link> Lesser Infernal Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.27" id="ability-rage_powers-fake-fn-13.27" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Usage">3 times/day</Pair>
 <Pair title="Swift Action">While <em>raging,</em> the barbarian can infuse her attacks with hellfire for 1 round. During this time, all of her melee attacks gain the <Link to="/magic-enh/flaming">flaming</Link> magic weapon special ability.</Pair>
@@ -2015,29 +2022,29 @@ const _companion_tricks = {hasJL:true,title: "Animal Companion Tricks", jsx: <><
 </Ability>
 </>};
 const _bardic_performances = {title: "Bardic Performances", topLink: ["Bard","class/bard"], jsx: <div className="compilation"><h2 id="ability-bardic_performances-bardic-performances">Bardic Performances</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 35</Link><br/>A bard is trained to use the Perform skill to create magical effects on those around him, including himself if desired. He can use this ability for a number of rounds per day equal to 4 + his Charisma modifier. At each level after 1st a bard can use bardic performance for 2 additional rounds per day. Each round, the bard can produce any one of the types of bardic performance that he has mastered, as indicated by his level.</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 35-38</Link><br/>A bard is trained to use the Perform skill to create magical effects on those around him, including himself if desired. He can use this ability for a number of rounds per day equal to 4 + his Charisma modifier. At each level after 1st a bard can use bardic performance for 2 additional rounds per day. Each round, the bard can produce any one of the types of bardic performance that he has mastered, as indicated by his level.</p>
 <p>Starting a bardic performance is a standard action, but it can be maintained each round as a free action. Changing a bardic performance from one effect to another requires the bard to stop the previous performance and start a new one as a standard action. A bardic performance cannot be disrupted, but it ends immediately if the bard is killed, <Link to="/rule/paralyzed">paralyzed</Link>, <Link to="/misc/stunned">stunned</Link>, knocked <Link to="/misc/unconscious">unconscious</Link>, or otherwise prevented from taking a free action to maintain it each round. A bard cannot have more than one bardic performance in effect at one time.</p>
 <p>At 7th level, a bard can start a bardic performance as a move action instead of a standard action. At 13th level, a bard can start a bardic performance as a swift action.</p>
 <p>Each bardic performance has audible components, visual components, or both.</p>
 <p>If a bardic performance has audible components, the targets must be able to hear the bard for the performance to have any effect, and many such performances are language dependent (as noted in the description. A deaf bard has a 20% chance to fail when attempting to use a bardic performance with an audible component. If he fails this check, the attempt still counts against his daily limit. Deaf creatures are immune to bardic performances with audible components.</p>
 <p>If a bardic performance has a visual component, the targets must have line of sight to the bard for the performance to have any effect. A blind bard has a 50% chance to fail when attempting to use a bardic performance with a visual component. If he fails this check, the attempt still counts against his daily limit. Blind creatures are immune to bardic performances with visual components.</p>
 <hr/>
-<Ability id="performancecountersong-countersong-su-fn1" icon={["protect","def"]}>
-<Pair single id="performancecountersong-countersong-su-fn1"><Link to="/performance/countersong">⮞</Link> Countersong (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-1" id="ability-bardic_performances-fake-fn-1" data-hash-target to="ability-bardic_performances-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Ability id="performancecountersong-countersong-su" icon={["aura","protect","def"]}>
+<Pair single id="performancecountersong-countersong-su"><Link to="/performance/countersong">⮞</Link> Countersong (Su)</Pair>
 <Pair title="At 1st Level"><p>A bard learns to counter magic effects that depend on sound (but not spells that have verbal components). Each round of the <em>countersong</em> he makes a <Link to="/skill/perform">Perform</Link> (keyboard, percussion, wind, string, or sing) skill check. Any creature within 30 feet of the bard (including the bard himself) that is affected by a sonic or language-dependent magical attack may use the bard's Perform check result in place of its saving throw if, after the saving throw is rolled, the Perform check result proves to be higher.</p>
 <p>If a creature within range of the <em>countersong</em> is already under the effect of a non-instantaneous sonic or language-dependent magical attack, it gains another saving throw against the effect each round it hears the <em>countersong,</em> but it must use the bard's Perform skill check result for the save.</p>
 </Pair>
 <Pair title="Special"><em>Countersong</em> does not work on effects that don't allow saves. <em>Countersong</em> relies on audible components.</Pair>
 </Ability>
-<Ability id="performancedistraction-distraction-su-fn1-2" icon={["protect","def"]}>
-<Pair single id="performancedistraction-distraction-su-fn1-2"><Link to="/performance/distraction">⮞</Link> Distraction (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-1.2" id="ability-bardic_performances-fake-fn-1.2" data-hash-target to="ability-bardic_performances-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Ability id="performancedistraction-distraction-su" icon={["aura","protect","def"]}>
+<Pair single id="performancedistraction-distraction-su"><Link to="/performance/distraction">⮞</Link> Distraction (Su)</Pair>
 <Pair title="At 1st Level"><p>A bard can use his performance to counter magic effects that depend on sight. Each round of the <em>distraction,</em> he makes a <Link to="/skill/perform">Perform</Link> (act, comedy, dance, or oratory) skill check. Any creature within 30 feet of the bard (including the bard himself) that is affected by an illusion (pattern) or illusion (figment) magical attack may use the bard's Perform check result in place of its saving throw if, after the saving throw is rolled, the Perform skill check proves to be higher.</p>
 <p>If a creature within range of the <em>distraction</em> is already under the effect of a non-instantaneous illusion (pattern) or illusion (figment) magical attack, it gains another saving throw against the effect each round it sees the <em>distraction</em>, but it must use the bard's Perform skill check result for the save.</p>
 </Pair>
 <Pair title="Special"><em>Distraction</em> does not work on effects that don't allow saves. <em>Distraction</em> relies on visual components.</Pair>
 </Ability>
-<Ability id="performancefascinate-fascinate-su-fn2" icon={["magic","lower"]}>
-<Pair single id="performancefascinate-fascinate-su-fn2"><Link to="/performance/fascinate">⮞</Link> Fascinate (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-2" id="ability-bardic_performances-fake-fn-2" data-hash-target to="ability-bardic_performances-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Ability id="performancefascinate-fascinate-su" icon={["select","magic","lower"]}>
+<Pair single id="performancefascinate-fascinate-su"><Link to="/performance/fascinate">⮞</Link> Fascinate (Su)</Pair>
 <Pair title="At 1st Level"><p>A bard can use his performance to cause one or more creatures to become <Link to="/misc/fascinated">fascinated</Link> with him. Each creature to be <em>fascinated</em> must be within 90 feet, able to see and hear the bard, and capable of paying attention to him. The bard must also be able to see the creatures affected. The distraction of a nearby combat or other dangers prevents this ability from working.</p>
 <p>Each creature within range receives a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) to negate the effect. If a creature's saving throw succeeds, the bard cannot attempt to <em>fascinate</em> that creature again for 24 hours. If its saving throw fails, the creature sits quietly and observes the performance for as long as the bard continues to maintain it. While <em>fascinated,</em> a target takes a -4 penalty on all skill checks made as reactions, such as Perception checks. Any potential threat to the target allows the target to make a new saving throw against the effect. Any obvious threat, such as someone drawing a weapon, casting a spell, or aiming a weapon at the target, automatically breaks the effect.</p>
 </Pair>
@@ -2050,16 +2057,16 @@ const _bardic_performances = {title: "Bardic Performances", topLink: ["Bard","cl
 <Pair title="At 19th Level">The number of creatures the bard can <em>fascinate</em> increases to 7.</Pair>
 <Pair title="Special"><em>Fascinate</em> is an enchantment (compulsion), mind-affecting ability. <em>Fascinate</em> relies on audible and visual components in order to function.</Pair>
 </Ability>
-<Ability id="performanceinspirecourage-inspire-courage-su-fn2-2" icon={["boost"]}>
-<Pair single id="performanceinspirecourage-inspire-courage-su-fn2-2"><Link to="/performance/inspire_courage">⮞</Link> Inspire Courage (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-2.2" id="ability-bardic_performances-fake-fn-2.2" data-hash-target to="ability-bardic_performances-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Ability id="performanceinspirecourage-inspire-courage-su" icon={["aura","boost"]}>
+<Pair single id="performanceinspirecourage-inspire-courage-su"><Link to="/performance/inspire_courage">⮞</Link> Inspire Courage (Su)</Pair>
 <Pair title="At 1st Level">A bard can use his performance to <em>inspire courage</em> in his allies (including himself), bolstering them against fear and improving their combat abilities. To be affected, an ally must be able to perceive the bard's performance. An affected ally receives a +1 morale bonus on saving throws against charm and fear effects and a +1 competence bonus on attack and weapon damage rolls.</Pair>
 <Pair title="At 5th Level">These bonuses become +2.</Pair>
 <Pair title="At 11th Level">These bonuses increase to +3.</Pair>
 <Pair title="At 17th Level">These bonuses become +4.</Pair>
 <Pair title="Special"><em>Inspire courage</em> is a mind-affecting ability. <em>Inspire courage</em> can use audible or visual components. The bard must choose which component to use when starting his performance.</Pair>
 </Ability>
-<Ability id="performanceinspirecompetence-inspire-competence-su-fn2-3" icon={["boost"]}>
-<Pair single id="performanceinspirecompetence-inspire-competence-su-fn2-3"><Link to="/performance/inspire_competence">⮞</Link> Inspire Competence (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-2.3" id="ability-bardic_performances-fake-fn-2.3" data-hash-target to="ability-bardic_performances-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Ability id="performanceinspirecompetence-inspire-competence-su" icon={["select","boost"]}>
+<Pair single id="performanceinspirecompetence-inspire-competence-su"><Link to="/performance/inspire_competence">⮞</Link> Inspire Competence (Su)</Pair>
 <Pair title="At 1st Level">A bard can use his performance to help an ally succeed at a task. That ally must be within 30 feet and be able to hear the bard. The ally gets a +2 competence bonus on skill checks with a particular skill as long as she continues to hear the bard's performance.</Pair>
 <Pair title="At 7th Level">This bonus becomes +3.</Pair>
 <Pair title="At 11th Level">This bonus increases to +4.</Pair>
@@ -2067,55 +2074,51 @@ const _bardic_performances = {title: "Bardic Performances", topLink: ["Bard","cl
 <Pair title="At 19th Level">This bonus increases to +6.</Pair>
 <Pair title="Special">Certain uses of this ability are infeasible, such as Stealth, and may be disallowed at the GM's discretion. A bard can't <em>inspire competence</em> in himself. <em>Inspire competence</em> relies on audible components.</Pair>
 </Ability>
-<Ability id="performancesuggestion-suggestion-sp-fn2-4" icon={["magic"]}>
-<Pair single id="performancesuggestion-suggestion-sp-fn2-4"><Link to="/performance/suggestion">⮞</Link> Suggestion (Sp) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-2.4" id="ability-bardic_performances-fake-fn-2.4" data-hash-target to="ability-bardic_performances-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Ability id="performancesuggestion-suggestion-sp" icon={["select","magic"]}>
+<Pair single id="performancesuggestion-suggestion-sp"><Link to="/performance/suggestion">⮞</Link> Suggestion (Sp)</Pair>
 <Pair title="At 6th Level">A bard can use his performance to make a <Link to="/spell/suggestion">suggestion</Link> (as per the spell) to a creature he has already <Link to="/performance/fascinate">fascinated</Link>. Using this ability does not disrupt the <em>fascinate</em> effect, but it does require a <strong className="hl">standard action</strong> to activate (in addition to the <strong className="hl">free action</strong> to continue the <em>fascinate</em> effect). A bard can use this ability more than once against an individual creature during an individual performance.</Pair>
 <Pair title="Special">Making a <em>suggestion</em> does not count against a bard's daily use of bardic performance. A Will saving throw (DC 10 + 1/2 the bard's level + the bard's Cha modifier) negates the effect. This ability affects only a single creature. <em>Suggestion</em> is an enchantment (compulsion), mind affecting, language-dependent ability and relies on audible components.</Pair>
 </Ability>
-<Ability id="performancedirgeofdoom-dirge-of-doom-su-fn2-5" icon={["lower"]}>
-<Pair single id="performancedirgeofdoom-dirge-of-doom-su-fn2-5"><Link to="/performance/dirge_of_doom">⮞</Link> Dirge of Doom (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-2.5" id="ability-bardic_performances-fake-fn-2.5" data-hash-target to="ability-bardic_performances-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Ability id="performancedirgeofdoom-dirge-of-doom-su" icon={["aura","lower"]}>
+<Pair single id="performancedirgeofdoom-dirge-of-doom-su"><Link to="/performance/dirge_of_doom">⮞</Link> Dirge of Doom (Su)</Pair>
 <Pair title="At 8th Level">A bard can use his performance to foster a sense of growing dread in his enemies, causing them to become <Link to="/misc/shaken">shaken</Link>. To be affected, an enemy must be within 30 feet and able to see and hear the bard's performance. The effect persists for as long as the enemy is within 30 feet and the bard continues his performance.</Pair>
 <Pair title="Special">This performance cannot cause a creature to become <Link to="/misc/frightened">frightened</Link> or <Link to="/misc/panicked">panicked</Link>, even if the targets are already shaken from another effect. <em>Dirge of doom</em> is a mind-affecting fear effect, and it relies on audible and visual components.</Pair>
 </Ability>
-<Ability id="performanceinspiregreatness-inspire-greatness-su-fn2-6" icon={["aid","boost","def"]}>
-<Pair single id="performanceinspiregreatness-inspire-greatness-su-fn2-6"><Link to="/performance/inspire_greatness">⮞</Link> Inspire Greatness (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-2.6" id="ability-bardic_performances-fake-fn-2.6" data-hash-target to="ability-bardic_performances-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Ability id="performanceinspiregreatness-inspire-greatness-su" icon={["select","aid","boost","def"]}>
+<Pair single id="performanceinspiregreatness-inspire-greatness-su"><Link to="/performance/inspire_greatness">⮞</Link> Inspire Greatness (Su)</Pair>
 <Pair title="At 9th Level">A bard can use his performance to <em>inspire greatness</em> in himself or a single willing ally within 30 feet, granting extra fighting capability. To <em>inspire greatness,</em> all of the targets must be able to see and hear the bard. A creature <em>inspired with greatness</em> gains 2 bonus Hit Dice (d10s), the commensurate number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> (apply the target's Constitution modifier, if any, to these bonus Hit Dice), a +2 competence bonus on attack rolls, and a +1 competence bonus on Fortitude saves. The bonus Hit Dice count as regular Hit Dice for determining the effect of spells that are Hit Dice dependent.</Pair>
 <Pair title="At 12th Level">The number of creatures he can target becomes 2.</Pair>
 <Pair title="At 15th Level">The number of creatures he can target increases to 3.</Pair>
 <Pair title="At 18th Level">The number of creatures he can target becomes 4.</Pair>
 <Pair title="Special"><em>Inspire greatness</em> is a mind-affecting ability and it relies on audible and visual components.</Pair>
 </Ability>
-<Ability id="performancesoothingperformance-soothing-performance-su-fn3" icon={["aid"]}>
-<Pair single id="performancesoothingperformance-soothing-performance-su-fn3"><Link to="/performance/soothing_performance">⮞</Link> Soothing Performance (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-3" id="ability-bardic_performances-fake-fn-3" data-hash-target to="ability-bardic_performances-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Ability id="performancesoothingperformance-soothing-performance-su" icon={["aura","aid"]}>
+<Pair single id="performancesoothingperformance-soothing-performance-su"><Link to="/performance/soothing_performance">⮞</Link> Soothing Performance (Su)</Pair>
 <Pair title="At 12th Level">A bard can use his performance to create an effect equivalent to a <Link to="/spell/mass_cure_serious_wounds">mass cure serious wounds</Link>, using the bard's level as the caster level. In addition, this performance removes the fatigued, sickened, and shaken conditions from all those affected.</Pair>
 <Pair title="Special">Using this ability requires 4 rounds of continuous performance, and the targets must be able to see and hear the bard throughout the performance. <em>Soothing performance</em> affects all targets that remain within 30 feet throughout the performance. <em>Soothing performance</em> relies on audible and visual components.</Pair>
 </Ability>
-<Ability id="performancefrighteningtune-frightening-tune-sp-fn3-2" icon={["lower"]}>
-<Pair single id="performancefrighteningtune-frightening-tune-sp-fn3-2"><Link to="/performance/frightening_tune">⮞</Link> Frightening Tune (Sp) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-3.2" id="ability-bardic_performances-fake-fn-3.2" data-hash-target to="ability-bardic_performances-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Ability id="performancefrighteningtune-frightening-tune-sp" icon={["aura","lower"]}>
+<Pair single id="performancefrighteningtune-frightening-tune-sp"><Link to="/performance/frightening_tune">⮞</Link> Frightening Tune (Sp)</Pair>
 <Pair title="At 14th Level">A bard can use his performance to cause fear in his enemies. To be affected, an enemy must be able to hear the bard perform and be within 30 feet. Each enemy within range receives a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) to negate the effect. If the save succeeds, the creature is immune to this ability for 24 hours. If the save fails, the target becomes <Link to="/misc/frightened">frightened</Link> and flees for as long as the target can hear the bard's performance.</Pair>
 <Pair title="Special"><em>Frightening tune</em> relies on audible components.</Pair>
 </Ability>
-<Ability id="performanceinspireheroics-inspire-heroics-su-fn3-3" icon={["def","protect"]}>
-<Pair single id="performanceinspireheroics-inspire-heroics-su-fn3-3"><Link to="/performance/inspire_heroics">⮞</Link> Inspire Heroics (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-3.3" id="ability-bardic_performances-fake-fn-3.3" data-hash-target to="ability-bardic_performances-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Ability id="performanceinspireheroics-inspire-heroics-su" icon={["select","def","protect"]}>
+<Pair single id="performanceinspireheroics-inspire-heroics-su"><Link to="/performance/inspire_heroics">⮞</Link> Inspire Heroics (Su)</Pair>
 <Pair title="At 15th Level">A bard can inspire tremendous heroism in himself or a single ally within 30 feet. Inspired creatures gain a +4 morale bonus on saving throws and a +4 dodge bonus to AC.</Pair>
 <Pair title="At 18th Level">The number of creatures he can <em>inspire</em> becomes 2.</Pair>
 <Pair title="Special">To <em>inspire heroics,</em> all of the targets must be able to see and hear the bard. This effect lasts for as long as the targets are able to witness the performance. <em>Inspire heroics</em> is a mind-affecting ability that relies on audible and visual components.</Pair>
 </Ability>
-<Ability id="performancemasssuggestion-mass-suggestion-sp-fn3-4" icon={["magic","boost"]}>
-<Pair single id="performancemasssuggestion-mass-suggestion-sp-fn3-4"><Link to="/performance/mass_suggestion">⮞</Link> Mass Suggestion (Sp) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-3.4" id="ability-bardic_performances-fake-fn-3.4" data-hash-target to="ability-bardic_performances-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Ability id="performancemasssuggestion-mass-suggestion-sp" icon={["select","magic","boost"]}>
+<Pair single id="performancemasssuggestion-mass-suggestion-sp"><Link to="/performance/mass_suggestion">⮞</Link> Mass Suggestion (Sp)</Pair>
 <Pair title="At 18th Level">This ability functions just like <Link to="/performance/suggestion">suggestion</Link>, but allows a bard to make a <em>suggestion</em> simultaneously to any number of creatures that he has already <em>fascinated.</em></Pair>
 <Pair title="Special"><em>Mass suggestion</em> is an enchantment (compulsion), mind-affecting, language-dependent ability that relies on audible components.</Pair>
 </Ability>
-<Ability id="performancedeadlyperformance-deadly-performance-su-fn3-5" icon={["lower"]}>
-<Pair single id="performancedeadlyperformance-deadly-performance-su-fn3-5"><Link to="/performance/deadly_performance">⮞</Link> Deadly Performance (Su) <sup><InnerLink showBacklink="backlink-ability-bardic_performances-fake-fn-3.5" id="ability-bardic_performances-fake-fn-3.5" data-hash-target to="ability-bardic_performances-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Ability id="performancedeadlyperformance-deadly-performance-su" icon={["select","lower"]}>
+<Pair single id="performancedeadlyperformance-deadly-performance-su"><Link to="/performance/deadly_performance">⮞</Link> Deadly Performance (Su)</Pair>
 <Pair title="At 20th Level">A bard can use his performance to cause one enemy to die from joy or sorrow. To be affected, the target must be able to see and hear the bard perform for 1 full round and be within 30 feet. The target receives a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) to negate the effect. If a creature's saving throw succeeds, the target is <Link to="/misc/staggered">staggered</Link> for 1d4 rounds, and the bard cannot use <em>deadly performance</em> on that creature again for 24 hours. If a creature's saving throw fails, it dies.</Pair>
 <Pair title="Special"><em>Deadly performance</em> is a mind-affecting death effect that relies on audible and visual components.</Pair>
 </Ability>
-<section data-footnotes><h3 id="ability-bardic_performances-label">Footnotes</h3><ol>
-<li id="ability-bardic_performances-fake-fn-1-target"><p><Link to="/source/prpg_core_rulebook">PRPG Core Rulebook</Link> pg. 36 <InnerLink aria-label="Back to reference 1" id="backlink-ability-bardic_performances-fake-fn-1" data-hash-target to="ability-bardic_performances-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-ability-bardic_performances-fake-fn-1.2" data-hash-target to="ability-bardic_performances-fake-fn-1.2">↩<sup>2</sup></InnerLink></p></li>
-<li id="ability-bardic_performances-fake-fn-2-target"><p>PRPG Core Rulebook pg. 37 <InnerLink aria-label="Back to reference 2" id="backlink-ability-bardic_performances-fake-fn-2" data-hash-target to="ability-bardic_performances-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-ability-bardic_performances-fake-fn-2.2" data-hash-target to="ability-bardic_performances-fake-fn-2.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-ability-bardic_performances-fake-fn-2.3" data-hash-target to="ability-bardic_performances-fake-fn-2.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-ability-bardic_performances-fake-fn-2.4" data-hash-target to="ability-bardic_performances-fake-fn-2.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-ability-bardic_performances-fake-fn-2.5" data-hash-target to="ability-bardic_performances-fake-fn-2.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-ability-bardic_performances-fake-fn-2.6" data-hash-target to="ability-bardic_performances-fake-fn-2.6">↩<sup>6</sup></InnerLink></p></li>
-<li id="ability-bardic_performances-fake-fn-3-target"><p>PRPG Core Rulebook pg. 38 <InnerLink aria-label="Back to reference 3" id="backlink-ability-bardic_performances-fake-fn-3" data-hash-target to="ability-bardic_performances-fake-fn-3">↩</InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-ability-bardic_performances-fake-fn-3.2" data-hash-target to="ability-bardic_performances-fake-fn-3.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-ability-bardic_performances-fake-fn-3.3" data-hash-target to="ability-bardic_performances-fake-fn-3.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-ability-bardic_performances-fake-fn-3.4" data-hash-target to="ability-bardic_performances-fake-fn-3.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-ability-bardic_performances-fake-fn-3.5" data-hash-target to="ability-bardic_performances-fake-fn-3.5">↩<sup>5</sup></InnerLink></p></li>
-</ol></section></div>};
+</div>};
 const _raging_song = {title: "Raging Song", topLink: ["Skald","class/skald"], jsx: <><h2 id="ability-raging_song-raging-song">Raging Song</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 49</Link><br/>A skald is trained to use music, oration, and similar performances to inspire his allies to feats of strength and ferocity. At 1st level, a skald can use this ability for a number of rounds per day equal to 3 + his Charisma modifier. For each level thereafter, he can use raging song for 2 additional rounds per day.</p>
 <p>Starting a raging song is a standard action, but it can be maintained each round as a free action. A raging song cannot be disrupted, but it ends immediately if the skald is killed, paralyzed, stunned, knocked unconscious, or otherwise prevented from taking a free action each round to maintain it. A raging song counts as the bard's <Link to="/ability/bardic_performance">bardic performance</Link> special ability for any effect that affects bardic performances.</p>

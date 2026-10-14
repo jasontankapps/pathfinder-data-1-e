@@ -2269,7 +2269,7 @@ const _bard = {hasJL:true,title: "Bard", jsx: <><div className="jumpList" id="cl
 </Ability>
 <aside><p><strong className="hl" id="class-bard-bardic-masterpieces" data-hash-target>Bardic Masterpieces:</strong> Talented bards can learn or create <Link to="/ability/bardic_masterpieces">masterpieces</Link>, unusual applications of the bardic performance ability requiring special training. Each masterpiece has an associated cost to learn it. Typically, a bard must spend one of his bard spells known of a specific spell level or select it in place of a feat.</p>
 <p>Also, a bard may learn <Link to="/ability/sagas">saga</Link>, which are useable with his bardic performance ability.</p>
-</aside><Ability id="versatile-performance-ex" icon={["power"]}>
+</aside><Ability id="versatile-performance-ex" icon={["boost"]}>
 <Pair single id="versatile-performance-ex">Versatile Performance (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Choice"><p>You can choose one type of Perform skill, using your bonus in that skill in place of your bonus in associated skills. When substituting in this way, you use your total Perform skill bonus, including class skill bonus, in place of its associated skill's bonus, whether or not you have ranks in that skill or if it is a class skill.</p>

@@ -3030,14 +3030,14 @@ const _psychic = {hasJL:true,title: "Psychic", jsx: <><div className="jumpList" 
 <Pair title="At 18th Level">You gain a new spell from your discipline.</Pair>
 <Pair title="Special">The discipline determines which ability score you use for your <em>phrenic pool</em> and <em>phrenic amplifications</em> abilities. Spells learned from a discipline can't be exchanged for different spells at higher levels.</Pair>
 </Ability>
-<Ability id="detect-thoughts-sp" icon={["power"]}>
+<Ability id="detect-thoughts-sp" icon={["magic","learn"]}>
 <Pair single id="detect-thoughts-sp">Detect Thoughts (Sp)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Standard Action">You can use <Link to="/spell/detect_thoughts">detect thoughts</Link> as a spell-like ability once per day.</Pair>
 <Pair title="Ability">You can also expend any unused spell slot of 1st level or higher to cast <em>detect thoughts.</em> If you do so, you use the level of the spell slot expended to determine the Will save DC.</Pair>
 <Pair title="Special">When you gain this ability, if you already know <em>detect thoughts,</em> you can learn a different 1st-level spell in place of it, losing the old spell in exchange for the new one.</Pair>
 </Ability>
-<Ability id="telepathic-bond-sp" icon={["power"]}>
+<Ability id="telepathic-bond-sp" icon={["magic","learn"]}>
 <Pair single id="telepathic-bond-sp">Telepathic Bond (Sp)</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Standard Action">You can use <Link to="/spell/telepathic_bond">telepathic bond</Link> as a spell-like ability once per day, using your psychic level as your caster level. You can't leave yourself out of a <em>bond</em> created in this way.</Pair>
@@ -3049,7 +3049,7 @@ const _psychic = {hasJL:true,title: "Psychic", jsx: <><div className="jumpList" 
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Passive Ability">When you would learn a <em>phrenic amplification</em> from gaining a level, you can choose a <Link to="/ability/major_phrenic_amplifications">major phrenic amplification</Link> instead.</Pair>
 </Ability>
-<Ability id="telepathy-su" icon={["power"]}>
+<Ability id="telepathy-su" icon={["magic","learn"]}>
 <Pair single id="telepathy-su">Telepathy (Su)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Ability">You can mentally communicate with any other creature within 100 feet that has a language. It is possible to address multiple creatures at once telepathically, although maintaining a telepathic conversation with more than one creature at a time is just as difficult as both speaking and listening to multiple people at the same time.</Pair>

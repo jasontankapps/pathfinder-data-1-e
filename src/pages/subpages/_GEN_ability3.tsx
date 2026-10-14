@@ -1254,11 +1254,11 @@ const _rogue_talents = {hasJL:true,title: "Rogue Talents", topLink: ["Rogue","cl
 <p>While this ruse is in place, the spellcaster is <Link to="/rule/flat_footed">flat-footed</Link> against the rogue's first attack. If the spellcaster sees the rogue perform (or fail to perform) an action that would be impossible if she were under the enchantment's effect, he automatically discovers her ruse.</p>
 </Pair>
 </Ability>
-<Ability id="talentgrigjig-grig-jig-su-fn21-2" icon={["magic"]}>
-<Pair single id="talentgrigjig-grig-jig-su-fn21-2"><Link to="/talent/grig_jig">⮞</Link> Grig Jig (Su) <sup><InnerLink showBacklink="backlink-ability-rogue_talents-fake-fn-21.2" id="ability-rogue_talents-fake-fn-21.2" data-hash-target to="ability-rogue_talents-fake-fn-21-target">21</InnerLink></sup></Pair>
+<Ability id="talentgrigjig-grig-jig-su-fn21-2" icon={["magic","select"]}>
+<Pair single id="talentgrigjig-grig-jig-su-fn21-2" flavor="The rogue can weave a bit of old Varisian magic into her footwork, dancing with an infectious passion that compels another nearby to join in."><Link to="/talent/grig_jig">⮞</Link> Grig Jig (Su) <sup><InnerLink showBacklink="backlink-ability-rogue_talents-fake-fn-21.2" id="ability-rogue_talents-fake-fn-21.2" data-hash-target to="ability-rogue_talents-fake-fn-21-target">21</InnerLink></sup></Pair>
 <Pair title="Prerequisites">Intelligence 12+</Pair>
 <Pair title="Usage">1 time/day + 1 per five rogue levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
-<Pair title="Ability"><p>The rogue can weave a bit of old Varisian magic into her footwork, dancing with an infectious passion that compels another nearby to join in. The rogue can target one humanoid within 30 feet and attempt a <Link to="/skill/perform">Perform</Link> (dance) check as a <strong className="hl">full-round action</strong> that does not provoke an attack of opportunity. Her target must succeed at a Will save (DC equal to the rogue's Perform [dance]) or it begins to dance uncontrollably.</p>
+<Pair title="Ability"><p>The rogue can target one humanoid within 30 feet and attempt a <Link to="/skill/perform">Perform</Link> (dance) check as a <strong className="hl">full-round action</strong> that does not provoke an attack of opportunity. Her target must succeed at a Will save (DC equal to the rogue's Perform [dance]) or it begins to dance uncontrollably.</p>
 <p>So long as the rogue continues to spend a full-round action dancing each round, the affected target does so as well. If the target is attacked or otherwise in immediate danger while dancing, the effect ends.</p>
 <p>Each round on its turn, the target can attempt an <Link to="/skill/acrobatics">Acrobatics</Link> or Perform (dance) check or a Will save (target's choice) against the rogue's Perform (dance) check to end the effect.</p>
 </Pair>

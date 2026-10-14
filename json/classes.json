@@ -937,7 +937,7 @@
 			"",
 			":::",
 			"",
-			":::ab{jl=strip icon=power l=2 repeat=\"You can select an additional type of Perform to substitute.~6~4\" action=Choice title=\"Versatile Performance (Ex)\"}",
+			":::ab{jl=strip icon=boost l=2 repeat=\"You can select an additional type of Perform to substitute.~6~4\" action=Choice title=\"Versatile Performance (Ex)\"}",
 			"",
 			"You can choose one type of Perform skill, using your bonus in that skill in place of your bonus in associated skills. When substituting in this way, you use your total Perform skill bonus, including class skill bonus, in place of its associated skill's bonus, whether or not you have ranks in that skill or if it is a class skill.",
 			"",

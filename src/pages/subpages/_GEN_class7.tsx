@@ -407,7 +407,7 @@ const _ranger = {hasJL:true,title: "Ranger", jsx: <><div className="jumpList" id
 <Pair title="Passive Ability">You can avoid even magical and unusual attacks with great agility. If you make a successful Reflex saving throw against an attack that normally deals half damage on a successful save, you instead take no damage.</Pair>
 <Pair title="Special">Evasion can be used only if you are wearing light armor, medium armor, or no armor. A <Link to="/misc/helpless">helpless</Link> ranger does not gain the benefit of <em>evasion.</em></Pair>
 </Ability>
-<Ability id="quarry-ex" icon={["boost"]}>
+<Ability id="quarry-ex" icon={["select","boost"]}>
 <Pair single id="quarry-ex">Quarry (Ex)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Standard Action">You can denote one target within your line of sight as your quarry.</Pair>

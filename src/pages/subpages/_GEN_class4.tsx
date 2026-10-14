@@ -546,7 +546,7 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain <Link to="/feat/scribe_scroll">Scribe Scroll</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="raging-song-su" extraClasses="hasSubs" icon={["power","aura"]}>
+<Ability id="raging-song-su" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="raging-song-su" flavor="A skald is trained to use music, oration, and similar performances to inspire his allies to feats of strength and ferocity.">Raging Song (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">1 + twice your skald level + your Cha modifier rounds/day.</Pair>
@@ -582,7 +582,7 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="At 10th Level">You can create a sense of growing dread in your enemies, causing them to become <Link to="/misc/shaken">shaken</Link>. This only affects enemies that are within 30 feet and able to hear your performance. The effect persists for as long as the enemy is within 30 feet and you continue your performance. This cannot cause a creature to become frightened or panicked, even if the targets are already shaken from another effect.</Pair>
 <Pair title="Special">This is a sonic mind-affecting fear effect, and relies on audible components.</Pair>
 </Ability>
-<Ability id="song-of-the-fallen-su" extraClasses="subAbility" icon={["magic"]}>
+<Ability id="song-of-the-fallen-su" extraClasses="subAbility" icon={["magic","select"]}>
 <Pair single id="song-of-the-fallen-su">Song of the Fallen (Su)</Pair>
 <Pair title="At 14th Level">You can temporarily revive dead allies to continue fighting, with the same limitations as <Link to="/spell/raise_dead">raise dead</Link>. You select a dead ally within 60 feet and expend 1 round of <em>raging song</em> to bring that ally back to life. The revived ally is alive but <Link to="/misc/staggered">staggered</Link>. Each round, you may expend another 1 round of <em>raging song</em> to keep that ally alive for another round. The ally automatically dies if you end this performance or are interrupted. You may revive multiple allies with this ability (either at the same time or over successive rounds) but must expend 1 round of <em>raging song</em> per revived ally per round to maintain the effect.</Pair>
 </Ability>
@@ -889,7 +889,7 @@ const _slayer = {hasJL:true,title: "Slayer", jsx: <><div className="jumpList" id
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">Yes, except tower shields</td></tr></tbody></table>
-<Ability id="studied-target-ex" icon={["boost"]}>
+<Ability id="studied-target-ex" icon={["select","boost"]}>
 <Pair single id="studied-target-ex">Studied Target (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Move-Equivalent Action">You can study an opponent you can see. You then gain a bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks attempted against that opponent, and a bonus on weapon attack and damage rolls against it; these bonuses are equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your slayer level. The DCs of slayer class abilities against that opponent increase by 1 + one-fifth of your slayer level. You can only maintain these bonuses against a certain number of opponents at a time (equal to 1 + one-fifth of your slayer level); these bonuses remain in effect until either the opponent is dead or you study a new target.</Pair>
@@ -940,7 +940,7 @@ const _slayer = {hasJL:true,title: "Slayer", jsx: <><div className="jumpList" id
 <Pair title="Move-Equivalent Action">You can move up to twice your base speed. You may use Stealth as part of this movement, but take a -10 penalty to your check for doing so.</Pair>
 <Pair title="At 17th Level">You can do this twice a day.</Pair>
 </Ability>
-<Ability id="quarry-ex" icon={["boost"]}>
+<Ability id="quarry-ex" icon={["select","boost"]}>
 <Pair single id="quarry-ex">Quarry (Ex)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Standard Action">You can denote one target within your line of sight as your <em>quarry.</em> Whenever you are following the tracks of your <em>quarry,</em> you can take 10 on your Survival skill checks while moving at normal speed, without penalty. In addition, you gain a +2 insight bonus on attack rolls made against your <em>quarry,</em> and all critical threats against your <em>quarry</em> are automatically confirmed.</Pair>
@@ -2321,7 +2321,7 @@ const _spiritualist = {hasJL:true,title: "Spiritualist", jsx: <><div className="
 <Pair title="Usage">1 time/day + 1 per four spiritualist levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Standard Action">You gain the ability to use <Link to="/spell/calm_spirit">calm spirit</Link> as a spell-like ability.</Pair>
 </Ability>
-<Ability id="see-invisibility-sp" icon={["power"]}>
+<Ability id="see-invisibility-sp" icon={["magic"]}>
 <Pair single id="see-invisibility-sp">See Invisibility (Sp)</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Standard Action">You gain the ability to use <Link to="/spell/see_invisibility">see invisibility</Link> as a spell-like ability once per day, with a duration of 10 minutes.</Pair>
@@ -2332,7 +2332,7 @@ const _spiritualist = {hasJL:true,title: "Spiritualist", jsx: <><div className="
 <Pair title="Passive Ability">You always gain the benefits of <em>bonded senses</em> when your phantom is manifested. You also gain the skill ranks and bonus to mind-affecting spells granted by the spirit's emotional focus, even when your phantom is manifested.</Pair>
 <Pair title="Ability">Lastly, you can shunt the effect of a mind-affecting effect into the consciousness of your phantom as the <em>shared consciousness</em> ability even when the phantom is manifested, but doing so causes the phantom to immediately retreat back into your consciousness.</Pair>
 </Ability>
-<Ability id="greater-spiritual-interference-ex-or-su" icon={["def"]}>
+<Ability id="greater-spiritual-interference-ex-or-su" icon={["def","protect"]}>
 <Pair single id="greater-spiritual-interference-ex-or-su">Greater Spiritual Interference (Ex or Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Passive Ability">Whenever allies are within your manifested phantom's reach, as long as it is in ectoplasmic form, each ally gains a +2 shield bonus to its Armor Class and a +2 circumstance bonus on its saving throws. For you, these bonuses increase to +4. You and allies within range don't gain this bonus if the manifested phantom is grappled, helpless, or unconscious.</Pair>
@@ -2343,7 +2343,7 @@ const _spiritualist = {hasJL:true,title: "Spiritualist", jsx: <><div className="
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Passive Ability">As long as the phantom has 1 or more hit points, when you take damage that would reduce you to fewer than 0 hit points, those points of damage are transferred to the phantom instead. This transfer stops after the phantom takes all the points of damage or the phantom is reduced to a negative amount of hit points equal to its Constitution score. In the latter case, points of damage dealt in excess of this limit are dealt to you. This ability affects only effects that deal hit point damage.</Pair>
 </Ability>
-<Ability id="call-spirit-sp" icon={["power"]}>
+<Ability id="call-spirit-sp" icon={["magic"]}>
 <Pair single id="call-spirit-sp">Call Spirit (Sp)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Ability">You gain the ability to use <Link to="/spell/call_spirit">call spirit</Link> as a spell-like ability once per day.</Pair>
