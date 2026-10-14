@@ -6,6 +6,7 @@ import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
+import Bonus from '../../components/Bonus';
 const _patrons = {hasJL:true,title: "Witch Patrons", topLink: ["Witch","class/witch"], jsx: <div className="compilation"><div className="jumpList" id="ability-patrons-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="ability-patrons-unique-patrons">Unique Patrons</InnerLink></li></ul></div><h2 id="ability-patrons-witch-patrons">Witch Patrons</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link><br/>At 1st level, when a witch gains her familiar, she must also select a patron. This patron is a vague and mysterious force, granting the witch power for reasons that she might not entirely understand. While these forces need not be named, they typically hold influence over one of the following forces. At 2nd level, and every two levels thereafter, a witch's patron adds new spells to a witch's list of spells known. These spells are also automatically added to the list of spells stored by the familiar. The spells gained depend upon the patron chosen. Each patron is listed by its theme. Its actual name is up to the GM and the witch to decide.</p>
 <blockquote className="hanging">
@@ -2301,68 +2302,56 @@ const _social_talents = {title: "Social Talents", topLink: ["Vigilante","class/v
 <li id="ability-social_talents-fake-fn-11-target"><p><Link to="/source/heroes_of_golarion">Heroes of Golarion</Link> pg. 19 <InnerLink aria-label="Back to reference 11" id="backlink-ability-social_talents-fake-fn-11" data-hash-target to="ability-social_talents-fake-fn-11">↩</InnerLink> <InnerLink aria-label="Back to reference 11" id="backlink-ability-social_talents-fake-fn-11.2" data-hash-target to="ability-social_talents-fake-fn-11.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 11" id="backlink-ability-social_talents-fake-fn-11.3" data-hash-target to="ability-social_talents-fake-fn-11.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 11" id="backlink-ability-social_talents-fake-fn-11.4" data-hash-target to="ability-social_talents-fake-fn-11.4">↩<sup>4</sup></InnerLink></p></li>
 <li id="ability-social_talents-fake-fn-12-target"><p>Ultimate Intrigue pg. 13 <InnerLink aria-label="Back to reference 12" id="backlink-ability-social_talents-fake-fn-12" data-hash-target to="ability-social_talents-fake-fn-12">↩</InnerLink> <InnerLink aria-label="Back to reference 12" id="backlink-ability-social_talents-fake-fn-12.2" data-hash-target to="ability-social_talents-fake-fn-12.2">↩<sup>2</sup></InnerLink></p></li>
 </ol></section></div>};
-const _stance_rage_powers = {title: "Stance Rage Powers (Unchained Barbarian)", topLink: ["Unchained Barbarian","class/unchained_barbarian"], jsx: <><h2 id="ability-stance_rage_powers-stance-rage-powers">Stance Rage Powers</h2>
+const _stance_rage_powers = {title: "Stance Rage Powers (Unchained Barbarian)", topLink: ["Unchained Barbarian","class/unchained_barbarian"], jsx: <div className="compilation"><h2 id="ability-stance_rage_powers-stance-rage-powers">Stance Rage Powers</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained</Link></p>
 <p><strong>Stance rage powers</strong> are available to unchained barbarians. Activating a stance rage power is a move action. A barbarian can't have more than one stance rage power active at a time. If she activates a stance rage power while another one is active, the current stance immediately ends. The stance can be intentionally ended at the beginning of the barbarian's turn as a free action; otherwise, it lasts until the rage ends.</p>
 <p>An unchained barbarian can also choose from other <Link to="/ability/rage_powers">rage powers</Link>.</p>
-<ScrollContainer id="ability-stance_rage_powers--table-0"><table>
-<thead>
-<tr>
-<th>Stance Power</th>
-<th>Minimum Level</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody><tr>
-<td className="ion-activatable"><Link to="/ragepower/accurate_stance">Accurate Stance (Ex)<IonRippleEffect /></Link></td>
-<td>2nd</td>
-<td>Improve your melee and thrown weapon attacks.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/ragepower/calm_stance">Calm Stance (Ex)<IonRippleEffect /></Link></td>
-<td>2nd</td>
-<td>Supress rage benefits and penalties, except for the temporary hit points.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/ragepower/elemental_stance">Elemental Stance (Su)<IonRippleEffect /></Link></td>
-<td>4th</td>
-<td>Deal extra elemental damage with your melee attacks.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/ragepower/guarded_stance_stance">Guarded Stance (Ex)<IonRippleEffect /></Link></td>
-<td>2nd</td>
-<td>Gain a dodge bonus to your AC.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/ragepower/knockdown_stance">Knockdown Stance (Ex)<IonRippleEffect /></Link></td>
-<td>2nd</td>
-<td>You can freely trip foes in lieu of attacking them.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/ragepower/powerful_stance">Powerful Stance (Ex)<IonRippleEffect /></Link></td>
-<td>2nd</td>
-<td>Increase your melee and thrown weapon damage.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/ragepower/reckless_stance">Reckless Stance (Ex)<IonRippleEffect /></Link></td>
-<td>2nd</td>
-<td>Increase your attack at the expense of your defense.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/ragepower/regenerative_stance">Regenerative Stance (Ex)<IonRippleEffect /></Link></td>
-<td>4th</td>
-<td>Regain temporary hit points every round.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/ragepower/strength_stance">Strength Stance (Ex)<IonRippleEffect /></Link></td>
-<td>2nd</td>
-<td>Gain a bonus to combat maneuvers and some Strength checks.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/ragepower/taunting_stance">Taunting Stance (Ex)<IonRippleEffect /></Link></td>
-<td>12th</td>
-<td>Leave yourself open to attack, but counterattack with impunity.</td>
-</tr>
-</tbody></table></ScrollContainer>
-</>};
+<hr/>
+<Ability id="ragepoweraccuratestance-accurate-stance-ex" icon={["boost"]}>
+<Pair single id="ragepoweraccuratestance-accurate-stance-ex" flavor="The barbarian can focus her strikes."><Link to="/ragepower/accurate_stance">⮞</Link> Accurate Stance (Ex)</Pair>
+<Pair title="Passive Ability">She gains a competence bonus on melee attack rolls and thrown weapon attack rolls. <Bonus f c="barbarian" n={4} p={1} />.</Pair>
+</Ability>
+<Ability id="ragepowercalmstance-calm-stance-ex" icon={["down","boost"]}>
+<Pair single id="ragepowercalmstance-calm-stance-ex" flavor="The barbarian can enter a state of calm."><Link to="/ragepower/calm_stance">⮞</Link> Calm Stance (Ex)</Pair>
+<Pair title="Passive Ability">While in this stance, the barbarian doesn't gain any benefits from <em>rage</em> other than the temporary hit points, but she doesn't take any of the penalties from <em>rage</em> (including the penalty to AC and the restriction on actions she can take). Rounds spent in a calm stance still count against her total number of rounds of <em>rage</em> per day.</Pair>
+</Ability>
+<Ability id="ragepowerelementalstance-elemental-stance-su" icon={["boost"]}>
+<Pair single id="ragepowerelementalstance-elemental-stance-su"><Link to="/ragepower/elemental_stance">⮞</Link> Elemental Stance (Su)</Pair>
+<Pair title="Prerequisites">4th-level barbarian</Pair>
+<Pair title="Passive Ability">When the barbarian adopts this stance, she chooses an energy type (acid, cold, electricity, or fire). Her melee attacks deal 1 additional point of damage of the chosen type.</Pair>
+<Pair title="At 8th Level">This damage increases to 1d6 points.</Pair>
+<Pair title="At 12th Level">The barbarian's critical hits deal an additional 1d10 points of energy damage of the same type (2d10 if the weapon deals &times;3 damage on a critical hit, 3d10 if the weapon deals &times;4 damage on a critical hit).</Pair>
+</Ability>
+<Ability id="ragepowerguardedstancestance-guarded-stance-ex" icon={["def"]}>
+<Pair single id="ragepowerguardedstancestance-guarded-stance-ex" flavor="The barbarian can take on a more defensive posture."><Link to="/ragepower/guarded_stance_stance">⮞</Link> Guarded Stance (Ex)</Pair>
+<Pair title="Passive Ability">This grants her a dodge bonus to her Armor Class for the duration of her current <em>rage.</em> <Bonus f c="barbarian" n={4} p={1} />.</Pair>
+</Ability>
+<Ability id="ragepowerknockdownstance-knockdown-stance-ex" icon={["melee"]}>
+<Pair single id="ragepowerknockdownstance-knockdown-stance-ex" flavor="The barbarian can focus on toppling her foes."><Link to="/ragepower/knockdown_stance">⮞</Link> Knockdown Stance (Ex)</Pair>
+<Pair title="Ability">Once per round, she can make a <Link to="/rule/trip">trip</Link> attack against one target in place of a melee attack. If she succeeds, the target is knocked <Link to="/rule/prone">prone</Link>.</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
+</Ability>
+<Ability id="ragepowerpowerfulstance-powerful-stance-ex" icon={["boost"]}>
+<Pair single id="ragepowerpowerfulstance-powerful-stance-ex" flavor="The barbarian can focus her ferocity."><Link to="/ragepower/powerful_stance">⮞</Link> Powerful Stance (Ex)</Pair>
+<Pair title="Passive Ability">She gains a bonus on melee damage rolls and thrown weapon damage rolls. <Bonus f c="barbarian" n={4} p={1} />.</Pair>
+</Ability>
+<Ability id="ragepowerrecklessstance-reckless-stance-ex" icon={["boost","down"]}>
+<Pair single id="ragepowerrecklessstance-reckless-stance-ex" flavor="The barbarian can attack with abandon at the expense of her defense."><Link to="/ragepower/reckless_stance">⮞</Link> Reckless Stance (Ex)</Pair>
+<Pair title="Passive Ability">She gains a bonus on attack rolls, but takes a penalty to AC. This bonus and penalty are equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level.</Pair>
+</Ability>
+<Ability id="ragepowerregenerativestance-regenerative-stance-ex" icon={["aid"]}>
+<Pair single id="ragepowerregenerativestance-regenerative-stance-ex" flavor="The barbarian can continually replenish her health."><Link to="/ragepower/regenerative_stance">⮞</Link> Regenerative Stance (Ex)</Pair>
+<Pair title="Prerequisites">4th-level barbarian</Pair>
+<Pair title="Passive Ability">At the start of her turn, she regains temporary hit points equal to <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level, but this cannot give her more than her maximum temporary hit points from <em>rage.</em></Pair>
+</Ability>
+<Ability id="ragepowerstrengthstance-strength-stance-ex" icon={["boost"]}>
+<Pair single id="ragepowerstrengthstance-strength-stance-ex" flavor="The barbarian can summon mighty strength."><Link to="/ragepower/strength_stance">⮞</Link> Strength Stance (Ex)</Pair>
+<Pair title="Passive Ability">She gains a competence bonus on combat maneuvers and to her CMD. These bonuses are equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level. In addition, she gains a +8 competence bonus on Strength checks to lift, push, bend, or break objects (this does not apply to combat maneuvers).</Pair>
+</Ability>
+<Ability id="ragepowertauntingstance-taunting-stance-ex" icon={["down","melee"]}>
+<Pair single id="ragepowertauntingstance-taunting-stance-ex" flavor="The barbarian can leave herself open to attacks while preparing devastating counterattacks."><Link to="/ragepower/taunting_stance">⮞</Link> Taunting Stance (Ex)</Pair>
+<Pair title="Prerequisites">12th-level barbarian</Pair>
+<Pair title="Passive Ability">Enemies gain a +4 bonus on attack and damage rolls against the barbarian while she's in this stance, but every attack against the barbarian provokes an attack of opportunity from her, which is resolved prior to each provoking attack.</Pair>
+</Ability>
+</div>};
 export default {patrons:_patrons,psi_tech:_psi_tech,rogue_talents:_rogue_talents,shaman_hexes:_shaman_hexes,shaman_spirits:_shaman_spirits,simple_kinetic_blasts:_simple_kinetic_blasts,social_talents:_social_talents,stance_rage_powers:_stance_rage_powers}

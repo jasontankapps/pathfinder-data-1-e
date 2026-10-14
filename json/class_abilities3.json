@@ -330,28 +330,28 @@
 	"stance_rage_powers": {
 		"name": "Stance Rage Powers (Unchained Barbarian)",
 		"sources": [ "Pathfinder Unchained" ],
-		"description": [
-			"## Stance Rage Powers",
-			"",
-			"‹SOURCE Pathfinder Unchained›",
-			"",
-			"**Stance rage powers** are available to unchained barbarians. Activating a stance rage power is a move action. A barbarian can't have more than one stance rage power active at a time. If she activates a stance rage power while another one is active, the current stance immediately ends. The stance can be intentionally ended at the beginning of the barbarian's turn as a free action; otherwise, it lasts until the rage ends.",
-			"",
-			"An unchained barbarian can also choose from other ‹ability/rage powers›.",
-			"",
-			"| Stance Power | Minimum Level | Description |",
-			"| --- | --- | --- |",
-			"| @ripple[ragepower/Accurate Stance« (Ex)] | 2nd | Improve your melee and thrown weapon attacks. |",
-			"| @ripple[ragepower/Calm Stance« (Ex)] | 2nd | Supress rage benefits and penalties, except for the temporary hit points. |",
-			"| @ripple[ragepower/Elemental Stance« (Su)] | 4th | Deal extra elemental damage with your melee attacks. |",
-			"| @ripple[ragepower/Guarded Stance «(Ex)<stance] | 2nd | Gain a dodge bonus to your AC. |",
-			"| @ripple[ragepower/Knockdown Stance« (Ex)] | 2nd | You can freely trip foes in lieu of attacking them. |",
-			"| @ripple[ragepower/Powerful Stance« (Ex)] | 2nd | Increase your melee and thrown weapon damage. |",
-			"| @ripple[ragepower/Reckless Stance« (Ex)] | 2nd | Increase your attack at the expense of your defense. |",
-			"| @ripple[ragepower/Regenerative Stance« (Ex)] | 4th | Regain temporary hit points every round. |",
-			"| @ripple[ragepower/Strength Stance« (Ex)] | 2nd | Gain a bonus to combat maneuvers and some Strength checks. |",
-			"| @ripple[ragepower/Taunting Stance« (Ex)] | 12th | Leave yourself open to attack, but counterattack with impunity. |"
-		],
+		"compileFrom": {
+			"source": "ragepower",
+			"targets": [
+				[
+					"## Stance Rage Powers",
+					"",
+					"‹SOURCE Pathfinder Unchained›",
+					"",
+					"**Stance rage powers** are available to unchained barbarians. Activating a stance rage power is a move action. A barbarian can't have more than one stance rage power active at a time. If she activates a stance rage power while another one is active, the current stance immediately ends. The stance can be intentionally ended at the beginning of the barbarian's turn as a free action; otherwise, it lasts until the rage ends.",
+					"",
+					"An unchained barbarian can also choose from other ‹ability/rage powers›.",
+					"",
+					"---",
+					""
+				],
+				{
+					"limit": "Stance",
+					"join": "!-N-!",
+					"ignoreFootnotes": true
+				}
+			]
+		},
 		"topLink": [ "Unchained Barbarian", "class/unchained_barbarian" ]
 	}
 }
