@@ -60,6 +60,9 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 			const {prefix, flags, temp, addToJumpList, logError, makeNewMarkedInstance, removeCurlyBrackets, parseSOURCE} = $;
 			const {text, attrs = {}, meta} = token;
 			const n = meta.name || "";
+			if(n === "clear") {
+				return `<div style={{clear:"both"}}></div>\n`;
+			}
 			const maybeClear = attrs.clear ? `<div style={{clear:"both"}}></div>` : "";
 			if(n === "gh") {
 				// General Header
