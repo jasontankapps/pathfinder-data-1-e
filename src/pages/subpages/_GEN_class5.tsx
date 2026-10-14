@@ -741,7 +741,7 @@ const _cleric = {hasJL:true,title: "Cleric", jsx: <><div className="jumpList" id
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of orisons, or 0-level divine spells. These spells are prepared like any other spell, but they are not expended when cast and may be used again. Orisons prepared using other spell slots, such as those due to metamagic feats, are expended normally.</Pair>
 </Ability>
-<Ability id="chaotic-evil-good-and-lawful-spells" icon={["magic"]}>
+<Ability id="chaotic-evil-good-and-lawful-spells" icon={["down"]}>
 <Pair single id="chaotic-evil-good-and-lawful-spells">Chaotic, Evil, Good, and Lawful Spells</Pair>
 <Pair title="Passive Ability">You can't cast spells of an alignment opposed to your own or your deity's (if you have one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in their spell descriptions.</Pair>
 </Ability>
@@ -1233,7 +1233,7 @@ const _druid = {hasJL:true,title: "Druid", jsx: <><div className="jumpList" id="
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You can "lose" a prepared spell in order to cast any <Link to="/spell/summon_natures_ally">summon nature's ally</Link> spell of the same level or lower.</Pair>
 </Ability>
-<Ability id="chaotic-evil-good-and-lawful-spells" icon={["magic"]}>
+<Ability id="chaotic-evil-good-and-lawful-spells" icon={["down"]}>
 <Pair single id="chaotic-evil-good-and-lawful-spells">Chaotic, Evil, Good, and Lawful Spells</Pair>
 <Pair title="Passive Ability">You can't cast spells of an alignment opposed to your own or your deity's (if you have one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in their spell descriptions.</Pair>
 </Ability>
@@ -1281,7 +1281,7 @@ const _druid = {hasJL:true,title: "Druid", jsx: <><div className="jumpList" id="
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at your normal speed and without taking damage or suffering any other impairment. Thorns, briars, and overgrown areas that have been magically manipulated to impede motion, however, still affect you.</Pair>
 </Ability>
-<Ability id="trackless-step-ex" icon={["boost"]}>
+<Ability id="trackless-step-ex" icon={["def"]}>
 <Pair single id="trackless-step-ex">Trackless Step (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You leave no trail in natural surroundings and cannot be tracked. You may choose to leave a trail if so desired.</Pair>
@@ -1312,7 +1312,7 @@ const _druid = {hasJL:true,title: "Druid", jsx: <><div className="jumpList" id="
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Passive Ability">You have immunity to all poisons.</Pair>
 </Ability>
-<Ability id="a-thousand-faces-su" icon={["power"]}>
+<Ability id="a-thousand-faces-su" icon={["magic"]}>
 <Pair single id="a-thousand-faces-su">A Thousand Faces (Su)</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Standard Action">You can change your appearance at will, as if using the <Link to="/spell/alter_self">alter self</Link> spell, but only while in your normal form.</Pair>

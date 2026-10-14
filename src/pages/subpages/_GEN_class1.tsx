@@ -778,7 +778,7 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <Ability id="aura-of-evil-ex" icon={["aura"]}>
 <Pair single id="aura-of-evil-ex">Aura of Evil (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Passive Ability">The power of your aura of evil (see <Link to="/spell/detect_evil">detect evil</Link>) is equal to your antipaladin level.</Pair>
+<Pair title="Passive Ability">The power of your <em>aura of evil</em> (see <Link to="/spell/detect_evil">detect evil</Link>) is equal to your antipaladin level.</Pair>
 </Ability>
 <Ability id="detect-good-sp" icon={["power"]}>
 <Pair single id="detect-good-sp">Detect Good (Sp)</Pair>
@@ -809,14 +809,14 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <Ability id="touch-of-corruption-su" icon={["touch","aid"]}>
 <Pair single id="touch-of-corruption-su">Touch of Corruption (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
-<Pair title="Usage">Half your antipaladin level, plus your Cha modifier, times/day.</Pair>
+<Pair title="Usage">Half your antipaladin level + Charisma modifier times/day</Pair>
 <Pair title="Standard Action"><p>You surround your hand with a fiendish flame, causing terrible wounds to open on those you touch. As a touch attack, you can cause 1d6 points of damage for every two antipaladin levels you possess.</p>
 <p>Alternatively, you can use this power to heal undead creatures, restoring 1d6 hit points for every two levels the you possess.</p>
 </Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="Special">This ability is modified by any feat, spell, or effect that specifically works with the <Link to="/ability/lay_on_hands">lay on hands</Link> paladin class feature. For example, the <Link to="/feat/extra_lay_on_hands">Extra Lay On Hands</Link> feat grants an antipaladin 2 additional uses of the <em>touch of corruption</em> class feature.</Pair>
 </Ability>
-<Ability id="aura-of-cowardice-su" icon={["lower"]}>
+<Ability id="aura-of-cowardice-su" icon={["aura","lower"]}>
 <Pair single id="aura-of-cowardice-su" flavor="You radiate a palpably daunting aura.">Aura of Cowardice (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">All enemies within 10 feet take a -4 penalty on saving throws against fear effects. Creatures that are normally immune to fear lose that immunity while within 10 feet of you. This ability functions only while you remain conscious, not if you are unconscious or dead.</Pair>
@@ -896,12 +896,12 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 </Pair>
 <Pair title="Special">When it is indicated that you get 0 spells per day of a given spell level, you gain only the bonus spells you would be entitled to based on your Charisma score for that spell level.</Pair>
 </Ability>
-<Ability id="fiendish-boon-sp" extraClasses="hasSubs" icon={["magic"]}>
+<Ability id="fiendish-boon-sp" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="fiendish-boon-sp" flavor="You receive a boon from your dark patrons.">Fiendish Boon (Sp)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">This boon can take one of two forms. Once the form is chosen, it cannot be changed.</Pair>
 </Ability>
-<Ability id="weapon-bond" extraClasses="subAbility numbered" icon={["melee"]}>
+<Ability id="weapon-bond" extraClasses="subAbility numbered" icon={["boost"]}>
 <Pair single id="weapon-bond">Weapon Bond</Pair>
 <Pair title="Usage">Once per day.</Pair>
 <Pair title="Choice"><p>The first type of bond allows you to enhance your weapon as a <strong className="hl">standard action</strong> by calling upon the aid of a fiendish spirit for 1 minute per antipaladin level. When called, the spirit causes the weapon to shed unholy light as a <Link to="/eq-misc/torch">torch</Link> and grants the weapon a +1 enhancement bonus.</p>
@@ -917,7 +917,7 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <Pair single id="fiendish-servant">Fiendish Servant</Pair>
 <Pair title="Usage">Once per day.</Pair>
 <Pair title="Choice"><p>The second type of bond allows you to gain the service of a fiendish servant. This functions as <Link to="/spell/summon_monster_iii">summon monster III</Link>, except the duration is permanent and you can only gain the service of a single creature and that creature must either have the <Link to="/subtype/chaotic">chaotic</Link> and <Link to="/subtype/evil">evil</Link> subtypes or it must be a <Link to="/template/fiendish">fiendish</Link> animal. Once selected, the choice is set, but it may be changed whenever you gain a level.</p>
-<p>As a full-round action, you may magically call your servant to your side. This ability is the equivalent of a spell of a level equal to one-third your antipaladin level. The servant immediately appears adjacent to you.</p>
+<p>As a <strong className="hl">full-round action</strong>, you may magically call your servant to your side. This ability is the equivalent of a spell of a level equal to one-third your antipaladin level. The servant immediately appears adjacent to you.</p>
 <p>Should your fiendish servant die or be banished, you may not summon another servant for 30 days or until you gain an antipaladin level, whichever comes first. During this 30-day period, you take a -1 penalty on attack and weapon damage rolls.</p>
 </Pair>
 <Pair title="At 7th Level">This functions as <Link to="/spell/summon_monster_iv">summon monster IV</Link>.</Pair>
@@ -927,22 +927,22 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <Pair title="At 15th Level">This functions as <Link to="/spell/summon_monster_viii">summon monster VIII</Link>, and the servant gains spell resistance equal to your level + 11.</Pair>
 <Pair title="At 17th Level">You can use this ability four times a day, and it functions as <Link to="/spell/summon_monster_ix">summon monster IX</Link>.</Pair>
 </Ability>
-<Ability id="aura-of-despair-su" icon={["lower"]}>
+<Ability id="aura-of-despair-su" icon={["aura","lower"]}>
 <Pair single id="aura-of-despair-su">Aura of Despair (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">Enemies within 10 feet of you take a -2 penalty on all saving throws. This penalty does not stack with the penalty from <em>aura of cowardice.</em> This ability functions only while you are conscious, not if you're unconscious or dead.</Pair>
 </Ability>
-<Ability id="aura-of-vengeance-su" icon={["boost"]}>
+<Ability id="aura-of-vengeance-su" icon={["aura","boost"]}>
 <Pair single id="aura-of-vengeance-su">Aura of Vengeance (Su)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Free Action">You can expend two uses of your <em>smite good</em> ability to grant the ability to <em>smite good</em> to all allies within 10 feet, using your bonuses. Allies must use this <em>smite good</em> ability by the start of your next turn and the bonuses last for 1 minute. Good creatures gain no benefit from this ability.</Pair>
 </Ability>
-<Ability id="aura-of-sin-su" icon={["lower"]}>
+<Ability id="aura-of-sin-su" icon={["boost","aura","lower"]}>
 <Pair single id="aura-of-sin-su">Aura of Sin (Su)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Passive Ability">Your weapons are treated as evil-aligned for the purposes of overcoming <Link to="/rule/damage_reduction">damage reduction</Link>. Any attack made against an enemy within 10 feet of you is treated as evil-aligned for the purposes of overcoming damage reduction. This ability functions only while you are conscious, not if you're unconscious or dead.</Pair>
 </Ability>
-<Ability id="aura-of-depravity-su" icon={["def","lower"]}>
+<Ability id="aura-of-depravity-su" icon={["aura","def","lower"]}>
 <Pair single id="aura-of-depravity-su">Aura of Depravity (Su)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">You gain DR 5/good. Each enemy within 10 feet takes a -4 penalty on saving throws against compulsion effects. This ability functions only while you are conscious, not if you're unconscious or dead.</Pair>

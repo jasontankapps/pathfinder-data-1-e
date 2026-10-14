@@ -1733,7 +1733,7 @@ const _warpriest = {hasJL:true,title: "Warpriest", jsx: <><div className="jumpLi
 <Pair title="Special">If you are neither good nor evil and your deity is neither good nor evil, you choose whether you can convert spells into either <em>cure spells</em> or <em>inflict spells.</em> Once this choice is made, it cannot be changed. This choice also determines whether you channel positive or negative energy (see below).</Pair>
 </Ability>
 <aside><p>A <em>cure spell</em> is any spell with "cure" in its name, while an <em>inflict spell</em> is one with "inflict" in its name. These spells are <Link to="/main/spell_groupings">grouped here</Link>.</p>
-</aside><Ability id="chaotic-evil-good-and-lawful-spells" icon={["magic"]}>
+</aside><Ability id="chaotic-evil-good-and-lawful-spells" icon={["down"]}>
 <Pair single id="chaotic-evil-good-and-lawful-spells">Chaotic, Evil, Good, and Lawful Spells</Pair>
 <Pair title="Passive Ability">You can't cast spells of an alignment opposed to your own or your deity's (if you have one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in their spell descriptions.</Pair>
 </Ability>

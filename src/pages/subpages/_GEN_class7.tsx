@@ -766,7 +766,7 @@ const _shifter = {hasJL:true,title: "Shifter", jsx: <><div className="jumpList" 
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="Special">You lose your ability to speak while in animal form because you are limited to the sounds that a normal, untrained animal can make, but you can communicate normally with other animals of the same general grouping as your new form. You can take feats and other abilities that require wild shape; for the purpose of qualifying for prerequisites, your effective druid level is equal to your shifter level.</Pair>
 </Ability>
-<Ability id="trackless-step-ex" icon={["boost"]}>
+<Ability id="trackless-step-ex" icon={["def"]}>
 <Pair single id="trackless-step-ex">Trackless Step (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">You leave no trail in natural surroundings and cannot be tracked. You can choose to leave a trail if you so desire.</Pair>

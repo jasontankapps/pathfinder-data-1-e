@@ -2122,7 +2122,7 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <Ability id="aura-of-good-ex" icon={["aura"]}>
 <Pair single id="aura-of-good-ex">Aura of Good (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Passive Ability">The power of your aura of good (see <Link to="/spell/detect_good">detect good</Link>) is equal to your paladin level.</Pair>
+<Pair title="Passive Ability">The power of your <em>aura of good</em> (see <Link to="/spell/detect_good">detect good</Link>) is equal to your paladin level.</Pair>
 </Ability>
 <Ability id="detect-evil-sp" icon={["power"]}>
 <Pair single id="detect-evil-sp">Detect Evil (Sp)</Pair>
@@ -2151,10 +2151,10 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You gain a bonus equal to your Charisma bonus (if any) on all saving throws.</Pair>
 </Ability>
-<Ability id="lay-on-hands-su" icon={["aid"]}>
+<Ability id="lay-on-hands-su" icon={["aid","touch"]}>
 <Pair single id="lay-on-hands-su" flavor="A paladin can heal wounds (her own or those of others) by touch.">Lay On Hands (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
-<Pair title="Usage">Half your paladin level, plus your Cha modifier, times/day.</Pair>
+<Pair title="Usage">Half your paladin level + Charisma modifier times/day</Pair>
 <Pair title="Standard Action">You heal 1d6 hit points of damage for every two paladin levels you possess. Despite the name of this ability, you only need one free hand to use this ability.</Pair>
 <Pair title="Swift Action">You can heal yourself instead of another creature, as above.</Pair>
 <Pair title="Ability">Alternatively, as a melee touch attack, you can use this healing power to deal damage to undead creatures, dealing 1d6 points of damage for every two paladin levels you possess. This doesn't provoke an attack of opportunity. Undead do not receive a saving throw against this damage.</Pair>
@@ -2216,7 +2216,7 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">This bond can take one of two forms: bonded weapon or bonded mount. Once the form is chosen, it cannot be changed.</Pair>
 </Ability>
-<Ability id="bonded-weapon" extraClasses="subAbility numbered" icon={["melee"]}>
+<Ability id="bonded-weapon" extraClasses="subAbility numbered" icon={["boost"]}>
 <Pair single id="bonded-weapon">Bonded Weapon</Pair>
 <Pair title="Usage">Once per day.</Pair>
 <Pair title="Choice"><p>The first type of bond allows the paladin to enhance your weapon as a <strong className="hl">standard action</strong> by calling upon the aid of a celestial spirit for 1 minute per paladin level. This is a spell-like ability. When called, the spirit causes the weapon to shed light as a <Link to="/eq-misc/torch">torch</Link> and grants the weapon a +1 enhancement bonus.</p>
@@ -2236,7 +2236,7 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <p><strong>Medium Paladins:</strong> <Link to="/companion/camel">Camel</Link>, <Link to="/companion/elk">Elk</Link>, <Link to="/companion/giraffe">Giraffe</Link>, <Link to="/companion/horse">Horse</Link>, <Link to="/companion/giant_seahorse">Giant Seahorse</Link>, <Link to="/companion/yak">Yak</Link>, <Link to="/companion/zebra">Zebra</Link></p>
 <p><strong>Small Paladins:</strong> <Link to="/companion/antelope">Antelope</Link>, <Link to="/companion/boar">Boar</Link>, <Link to="/companion/capybara">Capybara</Link>, <Link to="/companion/dog">Dog</Link>, <Link to="/companion/eohippus">Eohippus</Link>, <Link to="/companion/pony">Pony</Link>, <Link to="/companion/ram">Ram</Link>, <Link to="/companion/reindeer">Reindeer</Link>, <Link to="/companion/stag">Stag</Link>, <Link to="/companion/giant_weasel">Giant Weasel</Link>, <Link to="/companion/wolfdog">Wolfdog</Link></p>
 </blockquote>
-<p>As a <strong className="hl">full-round action,</strong> you may magically call your mount to your side. This spell-like ability is the equivalent of a spell of a level equal to <Link to="/misc/one_third">one-third</Link> your paladin level. The mount immediately appears adjacent to you.</p>
+<p>As a <strong className="hl">full-round action</strong>, you may magically call your mount to your side. This spell-like ability is the equivalent of a spell of a level equal to <Link to="/misc/one_third">one-third</Link> your paladin level. The mount immediately appears adjacent to you.</p>
 <p>Should your mount die, you may not summon another mount for 30 days or until you gain an paladin level, whichever comes first. During this 30-day period, you take a -1 penalty on attack and weapon damage rolls.</p>
 </Pair>
 <Pair title="At 9th Level">You can use this ability twice a day.</Pair>
@@ -2249,22 +2249,22 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <p><strong>Agathion Bond</strong>: As a <strong className="hl">standard action</strong>, the paladin can call forth an <Link to="/family/agathion">agathion</Link> spirit that bonds to her healing hands for 1 minute per paladin level, causing her to manifest physical traits evocative of one kind of agathion. This bond allows the paladin to add her Charisma bonus to the amount of hit points that she restores with her spells, her <em>lay on hands</em> ability, and her <em>channel energy</em> ability. For every 3 levels beyond 5th, she restores 1 additional hit point with those abilities, up to a maximum of 5 + her Charisma modifier at 20th level. The paladin can use this ability once per day at 5th level, and one additional time per day for every 4 levels beyond 5th, up to a total of four times per day at 17th level.</p>
 <p><strong>Angelic Bond</strong>: As a <strong className="hl">standard action</strong>, the paladin can call forth an <Link to="/family/angel">angel</Link> spirit that bonds to her, causing her to manifest a resplendent halo. This bond allows the paladin to shine light as per <Link to="/spell/continual_flame">continual flame</Link> for 1 minute per paladin level. Additionally, while the halo shines, all allies within 20 feet gain the benefits of <Link to="/spell/protection_from_evil">protection from evil</Link>, except the deflection and resistance bonuses are +3. For every 3 levels she has beyond 5th, the deflection bonus and resistance bonus provided by this effect increases by 1, up to a maximum of +8 at 20th level. The paladin can use this ability once per day at 5th level, and one additional time per day for every 4 levels beyond 5th, up to a total of four times per day at 17th level.</p>
 <p><strong>Archon Bond</strong>: As a <strong className="hl">standard action</strong>, the paladin can call forth an <Link to="/family/archon">archon</Link> spirit that bonds to her brow, causing her eyes to glow with righteous fury for 1 minute per paladin level. While this bond is active, any hostile creature within a 10-foot radius of the paladin that looks at her must succeed at a Will saving throw (DC = 10 + 1/2 her paladin level + her Charisma modifier) or take a -2 penalty on attack rolls and saving throws and to AC for 24 hours. Whether or not the saving throw is successful, a creature cannot be affected by the same paladin's archon bond again for 24 hours, and the penalties from multiple archon bonds don't stack. Creatures that don't have eyesight are not affected by this ability. For every 3 levels beyond 5th, the radius of the paladin's archon bond increases by 5 feet, up to a 35-foot radius at 20th level. The paladin can use this ability once per day at 5th level, and one additional time per day for every 4 levels beyond 5th, up to a total of four times per day at 17th level.</p>
-</aside><Ability id="aura-of-resolvesu" icon={["def"]}>
+</aside><Ability id="aura-of-resolvesu" icon={["aura","def","protect"]}>
 <Pair single id="aura-of-resolvesu">Aura of Resolve/(Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">You are immune to charm spells and spell-like abilities. Each ally within 10 feet of you gains a +4 morale bonus on saving throws against charm effects. This ability functions only while you are conscious, not if you are unconscious or dead.</Pair>
 </Ability>
-<Ability id="aura-of-justice-su" icon={["boost"]}>
+<Ability id="aura-of-justice-su" icon={["aura","boost"]}>
 <Pair single id="aura-of-justice-su">Aura of Justice (Su)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Free Action">You can expend two uses of your <em>smite evil</em> ability to grant the ability to <em>smite evil</em> to all allies within 10 feet, using your bonuses. Allies must use this <em>smite evil</em> ability by the start of your next turn and the bonuses last for 1 minute. Evil creatures gain no benefit from this ability.</Pair>
 </Ability>
-<Ability id="aura-of-faith-su" icon={["lower"]}>
+<Ability id="aura-of-faith-su" icon={["boost","aura","lower"]}>
 <Pair single id="aura-of-faith-su">Aura of Faith (Su)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Passive Ability">Your weapons are treated as good-aligned for the purposes of overcoming <Link to="/rule/damage_reduction">damage reduction</Link>. Any attack made against an enemy within 10 feet of you is treated as good-aligned for the purposes of overcoming damage reduction. This ability functions only while you are conscious, not if you are unconscious or dead.</Pair>
 </Ability>
-<Ability id="aura-of-righteousness-su" icon={["def"]}>
+<Ability id="aura-of-righteousness-su" icon={["def","aura","protect"]}>
 <Pair single id="aura-of-righteousness-su">Aura of Righteousness (Su)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">You gain DR 5/evil and immunity to compulsion spells and spell-like abilities. Each ally within 10 feet of you gains a +4 morale bonus on saving throws against compulsion effects. This ability functions only while you are conscious, not if you are unconscious or dead.</Pair>

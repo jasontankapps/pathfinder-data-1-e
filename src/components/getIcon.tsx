@@ -135,6 +135,12 @@ const getIcon = (i: Icon) => {
 		case "armor-upgrade": {
 			return "defensive ability";
 		}
+		case "targeting": {
+			return "choose one or more targets";
+		}
+		case "explosion-rays": {
+			return "burst, emanation, or spread";
+		}
 		case "spell-book": {
 			return "learn a spell";
 		}
