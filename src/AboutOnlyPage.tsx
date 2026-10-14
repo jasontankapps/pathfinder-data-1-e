@@ -20,7 +20,7 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 			<IonItemDivider><IonLabel>Credits</IonLabel></IonItemDivider>
 			<IonItem><IonLabel>
 				<p>App Icon is based on "Gift of Knowledge" by <a href="https://lorcblog.blogspot.com/" data-outgoing>Lorc</a>. The following icons are also by Lorc. (CC BY 3.0)</p>
-				<p className="icons icons29">
+				<p className="icons icons30">
 					<IonIcon icon="/icons/battle-gear.svg" />
 					<IonIcon icon="/icons/croc-jaws.svg" />
 					<IonIcon icon="/icons/bolt-eye.svg" />
@@ -44,6 +44,7 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 					<IonIcon icon="/icons/tornado-discs.svg" />
 					<IonIcon icon="/icons/hazard-sign.svg" />
 					<IonIcon icon="/icons/aura.svg" />
+					<IonIcon icon="/icons/explosion-rays.svg" />
 					<IonIcon icon="/icons/magic-shield.svg" />
 					<IonIcon icon="/icons/crossed-sabres.svg" />
 					<IonIcon icon="/icons/treasure-map.svg" />
@@ -54,7 +55,7 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 			</IonLabel></IonItem>
 			<IonItem><IonLabel>
 				<p>The following icons are by <a href="https://delapouite.com/" data-outgoing>Delapouite</a> (CC BY 3.0)</p>
-				<p className="icons icons19">
+				<p className="icons icons20">
 					<IonIcon icon="/icons/skills.svg" />
 					<IonIcon icon="/icons/person.svg" />
 					<IonIcon icon="/icons/mighty-force.svg" />
@@ -62,6 +63,7 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 					<IonIcon icon="/icons/ancient-sword.svg" />
 					<IonIcon icon="/icons/shield-bash.svg" />
 					<IonIcon icon="/icons/stairs-goal.svg" />
+					<IonIcon icon="/icons/eye-target.svg" />
 					<IonIcon icon="/icons/elephant.svg" />
 					<IonIcon icon="/icons/confirmed.svg" />
 					<IonIcon icon="/icons/armor-downgrade.svg" />

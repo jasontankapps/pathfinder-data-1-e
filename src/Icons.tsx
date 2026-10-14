@@ -61,7 +61,7 @@ const Icons: FC = () => {
 					<Icon incoming={icon} icon="barbed-arrow">A line-effect magical attack.</Icon>
 					<Icon incoming={icon} icon="tornado-discs">A cone-effect magical attack.</Icon>
 					<Icon incoming={icon} icon="aura">Some sort of magical aura or other radius-limited effect, usually centered on the effect's creator.</Icon>
-					<Icon incoming={icon} icon="targeting">Some sort of magical effect that targets one or more creatures without making an attack roll.</Icon>
+					<Icon incoming={icon} icon="eye-target">Some sort of effect that targets one or more creatures, usually within eyesight, without making an attack roll.</Icon>
 					<Icon incoming={icon} icon="explosion-rays">A <Link to="/misc/burst">burst, emanation, or spread</Link>, usually not centered on the effect's creator.</Icon>
 					<Icon incoming={icon} icon="spell-book">Gain one or more spells known.</Icon>
 					<Icon incoming={icon} icon="rolling-dices">A change to the outcome of a die roll.</Icon>
