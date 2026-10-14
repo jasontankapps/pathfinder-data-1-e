@@ -307,35 +307,61 @@
 					"At 3rd level, and every three levels thereafter, a paladin can select one mercy. Each mercy adds an effect to the paladin's ‹ability/lay on hands› ability. Whenever the paladin uses lay on hands to heal damage to one target, the target also receives the additional effects from all of the mercies possessed by the paladin. A mercy can remove a condition caused by a curse, disease, or poison without curing the affliction. Such conditions return after 1 hour unless the mercy actually removes the affliction that causes the condition.",
 					"",
 					"::h3[3rd-Level Mercies]{jl}",
-					""
+					"",
+					":::block{size=simple}"
 				],
 				{
-					"limit": "3"
+					"limit": "3",
+					"inlineReplacements": [
+						[":::",""],
+						["block", ""]
+					]
 				},
 				[
+					":::",
 					"",
 					"::h3[6th-Level Mercies]{jl}",
-					""
+					"",
+					":::block{size=simple}"
 				],
 				{
-					"limit": "6"
+					"limit": "6",
+					"inlineReplacements": [
+						[":::",""],
+						["block", ""]
+					]
 				},
 				[
+					":::",
 					"",
 					"::h3[9th-Level Mercies]{jl}",
-					""
+					"",
+					":::block{size=simple}"
 				],
 				{
-					"limit": "9"
+					"limit": "9",
+					"inlineReplacements": [
+						[":::",""],
+						["block", ""]
+					]
 				},
 				[
+					":::",
 					"",
 					"::h3[12th-Level Mercies]{jl}",
-					""
+					"",
+					":::block{size=simple}"
 				],
 				{
-					"limit": "12"
-				}
+					"limit": "12",
+					"inlineReplacements": [
+						[":::",""],
+						["block", ""]
+					]
+				},
+				[
+					":::"
+				]
 			]
 		},
 		"topLink": [ "Paladin", "class/paladin" ]
