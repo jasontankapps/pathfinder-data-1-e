@@ -487,64 +487,209 @@ const _astral = {title: "Astral", jsx: <><h2 id="sorcbloodline-astral-astral">As
 </>};
 const _boreal = {hasJL:true,title: "Boreal", jsx: <><div className="jumpList" id="sorcbloodline-boreal-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="sorcbloodline-boreal-rime-blooded-wildblooded-mutation">Rime-Blooded (Wildblooded Mutation)</InnerLink></li></ul></div><h2 id="sorcbloodline-boreal-boreal">Boreal</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 136</Link><br/>Descended from inhabitants of the lands of ice and snow, you count among your ancestors giant-kin, troll-born, and frost-rimed spirits. Their savage and raw energies flow down through generations to infuse you to the marrow with the chill of the polar wind, crackling auroras, and the long winter's night.</p>
-<p><strong>Class Skill:</strong> Survival.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/enlarge_person">enlarge person</Link> (3rd), <Link to="/spell/rage">rage</Link> (5th), <Link to="/spell/elemental_aura">elemental aura (cold only)</Link> (7th), <Link to="/spell/wall_of_ice">wall of ice</Link> (9th), <Link to="/spell/cone_of_cold">cone of cold</Link> (11th), <Link to="/spell/transformation">transformation</Link> (13th), <Link to="/spell/giant_form_i">giant form I</Link> (15th), <Link to="/spell/polar_ray">polar ray</Link> (17th), <Link to="/spell/meteor_swarm">meteor swarm (dealing cold damage)</Link> (19th).</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/arcane_strike">Arcane Strike</Link>, <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/empower_spell">Empower Spell</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Intimidate), <Link to="/feat/toughness">Toughness</Link></p>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
+<Ability id="bonus-spells-by-sorcerer-level" icon={["learn"]}>
+<Pair single id="bonus-spells-by-sorcerer-level">Bonus Spells by Sorcerer Level</Pair>
+<Pair plain title="3rd"><Link to="/spell/enlarge_person">Enlarge person</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/rage">Rage</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/elemental_aura">Elemental aura</Link> (cold only)</Pair>
+<Pair plain title="9th"><Link to="/spell/wall_of_ice">Wall of ice</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/cone_of_cold">Cone of cold</Link></Pair>
+<Pair plain title="13th"><Link to="/spell/transformation">Transformation</Link></Pair>
+<Pair plain title="15th"><Link to="/spell/giant_form_i">Giant form I</Link></Pair>
+<Pair plain title="17th"><Link to="/spell/polar_ray">Polar ray</Link></Pair>
+<Pair plain title="19th"><Link to="/spell/meteor_swarm">Meteor swarm</Link> (dealing cold damage)</Pair>
+</Ability>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/arcane_strike">Arcane Strike</Link><br/><Link to="/feat/diehard">Diehard</Link><br/><Link to="/feat/empower_spell">Empower Spell</Link><br/><Link to="/feat/endurance">Endurance</Link><br/><Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link><br/><Link to="/feat/power_attack">Power Attack</Link><br/><Link to="/feat/skill_focus">Skill Focus</Link> (Intimidate)<br/><Link to="/feat/toughness">Toughness</Link></Cell></Row></Block>
 <div className="sideNoteWrap singular optional elephant"><ScrollContainer id="sorcbloodline-boreal--table-0"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td><p><strong>Sources</strong> <Link to="/source/the_elephant_in_the_room_feat_taxes_in_pathfinder">The Elephant in the Room: Feat Taxes in Pathfinder</Link><br/><Link to="/feat/arcane_strike">Arcane Strike</Link>, <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/empower_spell">Empower Spell</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link>, <strong className="hl"><Link to="/rule/powerful_maneuvers">Powerful Maneuvers</Link></strong>, <Link to="/feat/skill_focus">Skill Focus</Link> (Intimidate), <Link to="/feat/toughness">Toughness</Link></p>
-</td></tr></tbody></table></ScrollContainer></div><p><strong>Bloodline Arcana:</strong> Whenever you cast a spell with the cold descriptor, increase the spell's save DC by 1.</p>
-<p><strong>Bloodline Powers:</strong> Your connection to primeval winters grants you a mastery of cold magic that few can match, and a savagery that fewer still can withstand.</p>
-<blockquote>
-<p><em>Cold Steel (Sp):</em> At 1st level, you can touch a weapon or up to 50 pieces of ammunition as a standard action, giving it the <Link to="/magic-enh/frost">frost</Link> property for a number of rounds equal to 1/2 your sorcerer level (minimum 1). At 9th level, you can confer the <Link to="/magic-enh/icy_burst">icy burst</Link> property instead, but the duration of the power is halved. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><em>Icewalker (Ex):</em> At 3rd level, you gain resist cold 5 and can move across snow and icy surfaces without penalty and without leaving tracks. At 9th level, you gain resist cold 10 and can climb icy surfaces as if using <Link to="/spell/spider_climb">spider climb</Link>.</p>
-<p><em>Snow Shroud (Su):</em> At 9th level, you ignore <Link to="/rule/concealment">concealment</Link> and Perception penalties in natural or magical snow, ice, fog, and similar weather conditions. In addition, you can surround yourself with a cloak of swirling snow for a number of rounds per day equal to your sorcerer level. This power acts and deals damage as a <Link to="/spell/fire_shield">fire shield</Link> (chill shield) that sheds no light. It provides a 20% miss chance on attacks made against you and grants a bonus on Stealth checks equal to 1/2 your sorcerer level in snowy or icy areas. You can use this ability once per day at 9th level, twice per day at 17th, and three times per day at 20th.</p>
-<p><em>Blizzard (Sp):</em> At 15th level, you can create a savage winter storm centered on you. This power acts as <Link to="/spell/control_winds">control winds</Link>, but in addition the entire area (not including the "eye" at the center of the storm) is affected as a <Link to="/spell/sleet_storm">sleet storm</Link> and all in the area are exposed to extreme cold. You may use this ability once per day.</p>
-<p><em>Child of Ancient Winters (Su):</em> At 20th level, you gain the cold subtype and you become immune to fatigue and exhaustion. In addition, you gain immunity to sneak attacks and critical hits. This power causes you to gain vulnerability to fire.</p>
-</blockquote>
+</td></tr></tbody></table></ScrollContainer></div><Ability id="bloodline-arcana" icon={["boost"]}>
+<Pair single id="bloodline-arcana">Bloodline Arcana</Pair>
+<Pair title="Ability">Whenever you cast a spell with the cold descriptor, increase the spell's save DC by 1.</Pair>
+</Ability>
+<h3 id="sorcbloodline-boreal-bloodline-powers">Bloodline Powers</h3>
+<p>Your connection to primeval winters grants you a mastery of cold magic that few can match, and a savagery that fewer still can withstand.</p>
+<Ability id="cold-steel-sp" icon={["boost"]}>
+<Pair single id="cold-steel-sp">Cold Steel (Sp)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can touch a weapon or up to 50 pieces of ammunition, giving it the <Link to="/magic-enh/frost">frost</Link> property for a number of rounds equal to <Link to="/misc/half">half</Link> your sorcerer level (minimum 1).</Pair>
+<Pair title="At 9th Level">You can confer the <Link to="/magic-enh/icy_burst">icy burst</Link> property instead, but the duration of the power is halved.</Pair>
+</Ability>
+<Ability id="icewalker-ex" icon={["def","power"]}>
+<Pair single id="icewalker-ex">Icewalker (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">You gain <Link to="/umr/resist">resist</Link> cold 5 and can move across snow and icy surfaces without penalty and without leaving tracks.</Pair>
+<Pair title="At 9th Level">You gain resist cold 10 and can climb icy surfaces as if using <Link to="/spell/spider_climb">spider climb</Link>.</Pair>
+</Ability>
+<Ability id="snow-shroud-su" icon={["boost","def"]}>
+<Pair single id="snow-shroud-su">Snow Shroud (Su)</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Passive Ability">You ignore <Link to="/rule/concealment">concealment</Link> and <Link to="/skill/perception">Perception</Link> penalties in natural or magical snow, ice, fog, and similar weather conditions.</Pair>
+<Pair title="Ability">Once per day, you can surround yourself with a cloak of swirling snow for a number of rounds per day equal to your sorcerer level. This power acts and deals damage as a <Link to="/spell/fire_shield">fire shield</Link> (chill shield) that sheds no light. It provides a 20% miss chance on attacks made against you and grants a bonus on <Link to="/skill/stealth">Stealth</Link> checks equal to half your sorcerer level in snowy or icy areas.</Pair>
+<Pair title="At 17th Level">You can use this ability twice per day.</Pair>
+<Pair title="At 20th Level">You can use this ability three times per day.</Pair>
+</Ability>
+<Ability id="blizzard-sp" icon={["magic","aura"]}>
+<Pair single id="blizzard-sp" flavor="You can create a savage winter storm centered on you.">Blizzard (Sp)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Usage">Once per day</Pair>
+<Pair title="Ability">This power acts as <Link to="/spell/control_winds">control winds</Link>, but in addition the entire area (not including the "eye" at the center of the storm) is affected as a <Link to="/spell/sleet_storm">sleet storm</Link> and all in the area are exposed to extreme cold.</Pair>
+</Ability>
+<Ability id="child-of-ancient-winters-su" icon={["power","def","down"]}>
+<Pair single id="child-of-ancient-winters-su">Child of Ancient Winters (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You gain the <Link to="/subtype/cold">cold</Link> subtype and you become immune to fatigue and exhaustion. In addition, you gain immunity to sneak attacks and critical hits. This power causes you to gain vulnerability to fire.</Pair>
+</Ability>
 <h3 id="sorcbloodline-boreal-rime-blooded-wildblooded-mutation" data-hash-target>Rime-Blooded (Wildblooded Mutation)</h3>
-<p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 72</Link><br/>The wintry origin of your magic flows like ice water in your veins.<br/><strong>Associated Bloodline:</strong> Boreal.</p>
-<p><strong>Bloodline Arcana:</strong> Whenever you cast a spell with the cold descriptor, you may select one target of the spell to be <Link to="/spell/slow">slowed</Link> (as the spell) for 1 round. A Fortitude save (DC 10 + the level of cold spell + your Charisma modifier) negates the effect.</p>
-<p><strong>Bloodline Powers:</strong> Sometimes you must bring the cold to your enemies.</p>
-<blockquote>
-<p><em>Freezing Bolt (Sp):</em> At 9th level, you can cause the air to erupt in freezing sleet. This 10-foot-radius <Link to="/misc/burst">burst</Link> does 1d6 points of cold damage per sorcerer level (Reflex half). The DC of this save is equal to 10 + 1/2 your sorcerer level + your Charisma modifier. At 9th level, you can use this ability once per day. At 17th level, you can use this ability twice per day. At 20th level, you can use this ability three times per day. This power has a range of 60 feet. This bloodline power replaces <em>snow shroud.</em></p>
-</blockquote>
+<p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 72</Link><br/>The wintry origin of your magic flows like ice water in your veins.</p>
+<Ability id="replacement-bloodline-arcana" icon={["select","lower"]}>
+<Pair single id="replacement-bloodline-arcana">Replacement Bloodline Arcana</Pair>
+<Pair title="Ability">Whenever you cast a spell with the cold descriptor, you may select one target of the spell to be <Link to="/spell/slow">slowed</Link> (as the spell) for 1 round. A Fortitude save (DC 10 + the level of cold spell + your Charisma modifier) negates the effect.</Pair>
+</Ability>
+<h3 id="sorcbloodline-boreal-bloodline-powers">Bloodline Powers</h3>
+<p>Sometimes you must bring the cold to your enemies.</p>
+<Ability id="freezing-bolt-sp" icon={["boom"]}>
+<Pair single id="freezing-bolt-sp">Freezing Bolt (Sp)</Pair>
+<Pair hl title="Replaces">Snow shroud</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Ability">Once per day, you can cause the air to erupt in freezing sleet. This 10-foot-radius <Link to="/misc/burst">burst</Link> does 1d6 points of cold damage per sorcerer level (Reflex half). The DC of this save is equal to 10 + 1/2 your sorcerer level + your Charisma modifier. This power has a range of 60 feet.</Pair>
+<Pair title="At 17th Level">You can use this ability twice per day.</Pair>
+<Pair title="At 20th Level">You can use this ability three times per day.</Pair>
+</Ability>
 </>};
 const _celestial = {hasJL:true,title: "Celestial", jsx: <><div className="jumpList" id="sorcbloodline-celestial-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="sorcbloodline-celestial-empyreal-wildblooded-mutation">Empyreal (Wildblooded Mutation)</InnerLink></li></ul></div><h2 id="sorcbloodline-celestial-celestial">Celestial</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 74</Link><br/>Your bloodline is blessed by a celestial power, either from a celestial ancestor or through divine intervention. Although this power drives you along the path of good, your fate (and alignment) is your own to determine.</p>
-<p><strong>Class Skill:</strong> Heal.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/bless">bless</Link> (3rd), <Link to="/spell/resist_energy">resist energy</Link> (5th), <Link to="/spell/magic_circle_against_evil">magic circle against evil</Link> (7th), <Link to="/spell/remove_curse">remove curse</Link> (9th), <Link to="/spell/flame_strike">flame strike</Link> (11th), <Link to="/spell/greater_dispel_magic">greater dispel magic</Link> (13th), <Link to="/spell/banishment">banishment</Link> (15th), <Link to="/spell/sunburst">sunburst</Link> (17th), <Link to="/spell/gate">gate</Link> (19th).</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/mobility">Mobility</Link>, <Link to="/feat/mounted_combat">Mounted Combat</Link>, <Link to="/feat/ride_by_attack">Ride-By Attack</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [religion]), <Link to="/feat/weapon_finesse">Weapon Finesse</Link></p>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/heal">Heal</Link> (WIS)</Pair></Ability>
+<Ability id="bonus-spells-by-sorcerer-level" icon={["learn"]}>
+<Pair single id="bonus-spells-by-sorcerer-level">Bonus Spells by Sorcerer Level</Pair>
+<Pair plain title="3rd"><Link to="/spell/bless">Bless</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/resist_energy">Resist energy</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/magic_circle_against_evil">Magic circle against evil</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/remove_curse">Remove curse</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/flame_strike">Flame strike</Link></Pair>
+<Pair plain title="13th"><Link to="/spell/greater_dispel_magic">Greater dispel magic</Link></Pair>
+<Pair plain title="15th"><Link to="/spell/banishment">Banishment</Link></Pair>
+<Pair plain title="17th"><Link to="/spell/sunburst">Sunburst</Link></Pair>
+<Pair plain title="19th"><Link to="/spell/gate">Gate</Link></Pair>
+</Ability>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/dodge">Dodge</Link><br/><Link to="/feat/extend_spell">Extend Spell</Link><br/><Link to="/feat/iron_will">Iron Will</Link><br/><Link to="/feat/mobility">Mobility</Link><br/><Link to="/feat/mounted_combat">Mounted Combat</Link><br/><Link to="/feat/ride_by_attack">Ride-By Attack</Link><br/><Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [religion])<br/><Link to="/feat/weapon_finesse">Weapon Finesse</Link></Cell></Row></Block>
 <div className="sideNoteWrap singular optional elephant"><ScrollContainer id="sorcbloodline-celestial--table-0"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td><p><strong>Sources</strong> <Link to="/source/the_elephant_in_the_room_feat_taxes_in_pathfinder">The Elephant in the Room: Feat Taxes in Pathfinder</Link><br/><strong className="hl"><Link to="/feat/agile_combatant">Agile Combatant</Link></strong>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/mounted_combat">Mounted Combat</Link>, <Link to="/feat/ride_by_attack">Ride-By Attack</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [religion]), <Link to="/feat/spring_attack">Spring Attack</Link></p>
-</td></tr></tbody></table></ScrollContainer></div><p><strong>Bloodline Arcana:</strong> Whenever you cast a spell of the <Link to="/spelldef/summoning">summoning</Link> subschool, the creatures summoned gain DR/evil equal to 1/2 your sorcerer level (minimum 1). This does not stack with any DR the creature might have.</p>
-<p><strong>Bloodline Powers:</strong> Your celestial heritage grants you a great many powers, but they come at a price. The lords of the higher planes are watching you and your actions closely.</p>
-<blockquote>
-<p><em>Heavenly Fire (Sp):</em> Starting at 1st level, you can unleash a ray of heavenly fire as a standard action, targeting any foe within 30 feet as a ranged touch attack. Against evil creatures, this ray deals 1d4 points of damage + 1 for every two sorcerer levels you possess. This damage is divine and not subject to energy resistance or immunity. This ray heals good creatures of 1d4 points of damage + 1 for every two sorcerer levels you possess. A good creature cannot benefit from your heavenly fire more than once per day. Neutral creatures are neither harmed nor healed by this effect. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><em>Celestial Resistances (Ex):</em> At 3rd level, you gain resist acid 5 and resist cold 5. At 9th level, your resistances increase to 10.</p>
-<p><em>Wings of Heaven (Su):</em> At 9th level, you can sprout feathery wings and fly for a number of minutes per day equal to your sorcerer level, with a speed of 60 feet and good maneuverability. This duration does not need to be consecutive, but it must be used in 1 minute increments.</p>
-<p><em>Conviction (Su):</em> At 15th level, you can reroll any one ability check, attack roll, skill check, or saving throw you just made. You must decide to use this ability after the die is rolled, but before the results are revealed by the GM. You must take the second result, even if it is worse. You can use this ability once per day.</p>
-<p><em>Ascension (Su):</em> At 20th level, you become infused with the power of the heavens. You gain immunity to acid, cold, and petrification. You also gain resist electricity 10, resist fire 10, and a +4 racial bonus on saves against poison. Finally, you gain unlimited use of the <em>wings of heaven</em> ability. Finally, you gain the ability to speak with any creature that has a language (as per the tongues spell).</p>
-</blockquote>
+</td></tr></tbody></table></ScrollContainer></div><Ability id="bloodline-arcana" icon={["def"]}>
+<Pair single id="bloodline-arcana">Bloodline Arcana</Pair>
+<Pair title="Ability">Whenever you cast a spell of the <Link to="/spelldef/summoning">summoning</Link> subschool, the creatures summoned gain DR/evil equal to 1/2 your sorcerer level (minimum 1). This does not stack with any DR the creature might have.</Pair>
+</Ability>
+<h3 id="sorcbloodline-celestial-bloodline-powers">Bloodline Powers</h3>
+<p>Your celestial heritage grants you a great many powers, but they come at a price. The lords of the higher planes are watching you and your actions closely.</p>
+<Ability id="heavenly-fire-sp" icon={["zap"]}>
+<Pair single id="heavenly-fire-sp">Heavenly Fire (Sp)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action"><p>You can unleash a ray of heavenly fire, targeting any foe within 30 feet as a ranged touch attack. Against evil creatures, this ray deals an amount of damage equal to 1d4 + <Link to="/misc/half">half</Link> of your sorcerer level. This damage is divine and not subject to energy resistance or immunity.</p>
+<p>This ray heals good creatures of an amount of damage equal to 1d4 + half of your sorcerer level. A good creature cannot benefit from your heavenly fire more than once per day.</p>
+<p>Neutral creatures are neither harmed nor healed by this effect.</p>
+</Pair>
+</Ability>
+<Ability id="celestial-resistances-ex" icon={["def"]}>
+<Pair single id="celestial-resistances-ex">Celestial Resistances (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/resist">resist</Link> acid 5 and resist cold 5.</Pair>
+<Pair title="At 9th Level">Your resistances increase to 10.</Pair>
+</Ability>
+<Ability id="wings-of-heaven-su" icon={["power"]}>
+<Pair single id="wings-of-heaven-su">Wings of Heaven (Su)</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Usage">1 minute/day per sorcerer level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Ability">You can sprout feathery wings and fly with a speed of 60 feet and good maneuverability.</Pair>
+</Ability>
+<Ability id="conviction-su" icon={["roll"]}>
+<Pair single id="conviction-su">Conviction (Su)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">You can reroll any one ability check, attack roll, skill check, or saving throw you just made. You must decide to use this ability after the die is rolled, but before the results are revealed by the GM. You must take the second result, even if it is worse. You can use this ability once per day.</Pair>
+</Ability>
+<Ability id="ascension-su" icon={["def","boost","power"]}>
+<Pair single id="ascension-su" flavor="You become infused with the power of the heavens.">Ascension (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You gain immunity to acid, cold, and petrification. You also gain resist electricity 10, resist fire 10, and a +4 racial bonus on saves against poison.</Pair>
+<Pair title="Ability">You gain unlimited use of the <em>wings of heaven</em> ability. You also gain the ability to speak with any creature that has a language (as per the <Link to="/spell/tongues">tongues</Link> spell).</Pair>
+</Ability>
 <h3 id="sorcbloodline-celestial-empyreal-wildblooded-mutation" data-hash-target>Empyreal (Wildblooded Mutation)</h3>
-<p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 71</Link><br/>Your heavenly power derives from insight rather than force of personality.<br/><strong>Associated Bloodline:</strong> Celestial.</p>
-<p><strong>Bloodline Arcana:</strong> Unlike most sorcerers whose innate magic is powered by force of personality, you use pure willpower to master and fuel your magic. You use your Wisdom, rather than your Charisma, to determine all class features and effects relating to your sorcerer class, such as bonus spells per day, maximum spell level you can cast, and the save DCs of your spells. You gain a +2 bonus on all Heal and Knowledge (religion) checks.</p>
-<p><strong>Bloodline Powers:</strong> Your quasi-divine nature gives you strange powers.</p>
-<blockquote>
-<p><em>Sacred Cistern (Su):</em> At 9th level, your bloodline makes you a natural receptacle of divine energy. You can <Link to="/ability/channel_energy">channel energy</Link> once per day as a cleric of your sorcerer level - 4. This bloodline power replaces <em>wings of heaven.</em></p>
-</blockquote>
+<p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 71</Link><br/>Your heavenly power derives from insight rather than force of personality.</p>
+<Ability id="replacement-bloodline-arcana" icon={["boost"]}>
+<Pair single id="replacement-bloodline-arcana" flavor="Unlike most sorcerers whose innate magic is powered by force of personality, you use pure willpower to master and fuel your magic.">Replacement Bloodline Arcana</Pair>
+<Pair title="Info">You use your Wisdom, rather than your Charisma, to determine all class features and effects relating to your sorcerer class, such as bonus spells per day, maximum spell level you can cast, and the save DCs of your spells.</Pair>
+<Pair title="Passive Ability">You gain a +2 bonus on all Heal and Knowledge (religion) checks.</Pair>
+</Ability>
+<h3 id="sorcbloodline-celestial-bloodline-powers">Bloodline Powers</h3>
+<p>Your quasi-divine nature gives you strange powers.</p>
+<Ability id="sacred-cistern-su" icon={["power","aura"]}>
+<Pair single id="sacred-cistern-su" flavor="Your bloodline makes you a natural receptacle of divine energy.">Sacred Cistern (Su)</Pair>
+<Pair hl title="Replaces">Wings of heaven</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Ability">You can <Link to="/ability/channel_energy">channel energy</Link> once per day as a cleric of your sorcerer level - 4.</Pair>
+</Ability>
 </>};
 const _daemon = {title: "Daemon", jsx: <><h2 id="sorcbloodline-daemon-daemon">Daemon</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends pg. 29</Link><br/>A <Link to="/family/daemon">daemon</Link> lurks somewhere along your family tree. Your powers derive from these soul-devouring fiends, who take pleasure and gain power from manipulating mortal frailties like aging, pestilence, famine, and the horrors of war. Your lineage gives you great insight into how to exploit the weaknesses of living beings and how to use leeched soul energy to enhance your wicked abilities.</p>
-<p><strong>Class Skill:</strong> Heal.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/ray_of_enfeeblement">ray of enfeeblement</Link> (3rd), <Link to="/spell/touch_of_idiocy">touch of idiocy</Link> (5th), <Link to="/spell/vampiric_touch">vampiric touch</Link> (7th), <Link to="/spell/contagion">contagion</Link> (9th), <Link to="/spell/blight">blight</Link> (11th), <Link to="/spell/circle_of_death">circle of death</Link> (13th), <Link to="/spell/waves_of_exhaustion">waves of exhaustion</Link> (15th), <Link to="/spell/horrid_wilting">horrid wilting</Link> (17th), <Link to="/spell/soul_bind">soul bind</Link> (19th).</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/fast_healer">Fast Healer</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/heroic_defiance">Heroic Defiance</Link>, <Link to="/feat/heroic_recovery">Heroic Recovery</Link>, <Link to="/feat/sickening_spell">Sickening Spell</Link>, <Link to="/feat/toughness">Toughness</Link></p>
-<p><strong>Bloodline Arcana:</strong> Whenever you cast a spell that kills one or more living creatures with an Intelligence score of 3 or higher, the caster level of any spell you cast in the next round increases by +1 for each creature your first spell killed. This ability does not stack with other effects that increase your effective caster level, and you cannot gain a bonus greater than 1/2 your Charisma modifier (minimum 1). The second spell you cast must be of an equal or lower level than the first one.</p>
-<p><strong>Bloodline Powers:</strong> Like that of a daemon, your magic derives from painful and lingering death.</p>
-<blockquote>
-<p><em>Wasting Ray (Sp):</em> At 1st level, as a standard action, you can impose either starvation or thirst upon a living creature you can see within 30 feet. This requires the creature to make a Constitution check each round (DC 10 + 1 for each previous check) to avoid taking 1d6 points of nonlethal damage. The creature must continue to make these checks until, as a full-round action, it quenches its thirst or sates its hunger. You can use this ability a number of times per day equal to 3 + your Charisma modifier, but can only apply it once every 24 hours to any given creature. Creatures that do not need to eat are immune to this effect.</p>
-<p><em>Daemonic Resistances (Ex):</em> At 3rd level, you gain resist acid 5 and a +2 bonus on saving throws made against poison and death effects. At 9th level, your resistance to acid increases to 10 and your bonus on saving throws against poison and death effects increases to +4.</p>
-<p><em>Age Out (Su):</em> At 9th level, you gain the ability to instantly recover from most harmful effects by temporarily aging yourself decades in a matter of moments. As a standard action, you can shift your effective age to the next highest aging step (for example, from adulthood to middle age). Each time you do this, any debilitating condition or effect currently affecting you that initially allowed a Will or Fortitude saving throw immediately ends. When you age yourself in this way, you take the <Link to="/rule/age">normal penalties associated with growing older</Link> but gain none of the benefits. You cannot use this power to age beyond venerable, recover hit point damage, or remove effects that did not or do not allow a Will or Fortitude saving throw to negate. You return to your actual age 24 hours after the last time you used this ability, and all penalties to ability scores as a result of advanced age are then removed.</p>
-<p><em>Wound Warp (Sp):</em> At 15th level, you gain the ability to travel across the battlefield by literally erupting from the fatal wounds of deceased creatures. As a standard action once per day, you can teleport to an unoccupied square adjacent to any dead creature within 10 feet per caster level. Any creatures adjacent to the square you teleport to take 4d6 points of acid damage as you burst into being and shower them with acidic bile. Creatures that make successful Reflex saves (DC 10 + 1/2 your sorcerer level + your Charisma modifier) take half damage. This ability otherwise functions like <Link to="/spell/dimension_door">dimension door</Link>. At 20th level, you can use this ability twice per day.</p>
-<p><em>One with Abaddon (Su):</em> At 20th level, your body embraces the unspeakable power of your daemon lineage. You gain immunity to acid, death effects, and poison. You also gain DR 5/good or silver and resistance to cold 10, electricity 10, and fire 10.</p>
-</blockquote>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/heal">Heal</Link> (WIS)</Pair></Ability>
+<Ability id="bonus-spells-by-sorcerer-level" icon={["learn"]}>
+<Pair single id="bonus-spells-by-sorcerer-level">Bonus Spells by Sorcerer Level</Pair>
+<Pair plain title="3rd"><Link to="/spell/ray_of_enfeeblement">Ray of enfeeblement</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/touch_of_idiocy">Touch of idiocy</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/vampiric_touch">Vampiric touch</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/contagion">Contagion</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/blight">Blight</Link></Pair>
+<Pair plain title="13th"><Link to="/spell/circle_of_death">Circle of death</Link></Pair>
+<Pair plain title="15th"><Link to="/spell/waves_of_exhaustion">Waves of exhaustion</Link></Pair>
+<Pair plain title="17th"><Link to="/spell/horrid_wilting">Horrid wilting</Link></Pair>
+<Pair plain title="19th"><Link to="/spell/soul_bind">Soul bind</Link></Pair>
+</Ability>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/diehard">Diehard</Link><br/><Link to="/feat/endurance">Endurance</Link><br/><Link to="/feat/fast_healer">Fast Healer</Link><br/><Link to="/feat/great_fortitude">Great Fortitude</Link><br/><Link to="/feat/heroic_defiance">Heroic Defiance</Link><br/><Link to="/feat/heroic_recovery">Heroic Recovery</Link><br/><Link to="/feat/sickening_spell">Sickening Spell</Link><br/><Link to="/feat/toughness">Toughness</Link></Cell></Row></Block>
+<Ability id="bloodline-arcana" icon={["boost"]}>
+<Pair single id="bloodline-arcana">Bloodline Arcana</Pair>
+<Pair title="Passive Ability">Whenever you cast a spell that kills one or more living creatures with an Intelligence score of 3 or higher, the caster level of any spell you cast in the next round increases by +1 for each creature your first spell killed.</Pair>
+<Pair title="Special">This ability does not stack with other effects that increase your effective caster level, and you cannot gain a bonus greater than 1/2 your Charisma modifier (minimum 1). The second spell you cast must be of an equal or lower level than the first one.</Pair>
+</Ability>
+<h3 id="sorcbloodline-daemon-bloodline-powers">Bloodline Powers</h3>
+<p>Like that of a daemon, your magic derives from painful and lingering death.</p>
+<Ability id="wasting-ray-sp" icon={["select","lower"]}>
+<Pair single id="wasting-ray-sp">Wasting Ray (Sp)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can impose either starvation or thirst upon a living creature you can see within 30 feet. This requires the creature to make a Constitution check each round (DC 10 + 1 for each previous check) to avoid taking 1d6 points of nonlethal damage. The creature must continue to make these checks until, as a <strong className="hl">full-round action</strong>, it quenches its thirst or sates its hunger.</Pair>
+<Pair title="Special">You can only apply this ability once every 24 hours to any given creature. Creatures that do not need to eat are immune to this effect.</Pair>
+</Ability>
+<Ability id="daemonic-resistances-ex" icon={["def"]}>
+<Pair single id="daemonic-resistances-ex">Daemonic Resistances (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/resist">resist</Link> acid 5 and a +2 bonus on saving throws made against poison and death effects.</Pair>
+<Pair title="At 9th Level">Your resistance to acid increases to 10 and your bonus on saving throws against poison and death effects increases to +4.</Pair>
+</Ability>
+<Ability id="age-out-su" icon={["def","down"]}>
+<Pair single id="age-out-su" flavor="You gain the ability to instantly recover from most harmful effects by temporarily aging yourself decades in a matter of moments.">Age Out (Su)</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Standard Action">You can shift your effective age to the next highest aging step (for example, from adulthood to middle age). Each time you do this, any debilitating condition or effect currently affecting you that initially allowed a Will or Fortitude saving throw immediately ends.</Pair>
+<Pair title="Special">When you age yourself in this way, you take the <Link to="/rule/age">normal penalties associated with growing older</Link> but gain none of the benefits. You cannot use this power to age beyond venerable, recover hit point damage, or remove effects that did not or do not allow a Will or Fortitude saving throw to negate. You return to your actual age 24 hours after the last time you used this ability, and all penalties to ability scores as a result of advanced age are then removed.</Pair>
+</Ability>
+<Ability id="wound-warp-sp" icon={["magic","aura"]}>
+<Pair single id="wound-warp-sp" flavor="You gain the ability to travel across the battlefield by literally erupting from the fatal wounds of deceased creatures.">Wound Warp (Sp)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Standard Action">Once per day, you can teleport to an unoccupied square adjacent to any dead creature within 10 feet per caster level. Any creatures adjacent to the square you teleport to take 4d6 points of acid damage as you burst into being and shower them with acidic bile. Creatures that make successful Reflex saves (DC 10 + 1/2 your sorcerer level + your Charisma modifier) take half damage. This ability otherwise functions like <Link to="/spell/dimension_door">dimension door</Link>.</Pair>
+<Pair title="At 20th Level">You can use this ability twice per day.</Pair>
+</Ability>
+<Ability id="one-with-abaddon-su" icon={["def"]}>
+<Pair single id="one-with-abaddon-su" flavor="Your body embraces the unspeakable power of your daemon lineage.">One with Abaddon (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You gain immunity to acid, death effects, and poison. You also gain DR 5/good or silver and resistance to cold 10, electricity 10, and fire 10.</Pair>
+</Ability>
 </>};
 const _deep_earth = {hasJL:true,title: "Deep Earth", jsx: <><div className="jumpList" id="sorcbloodline-deep_earth-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="sorcbloodline-deep_earth-bedrock-wildblooded-mutation">Bedrock (Wildblooded Mutation)</InnerLink></li></ul></div><h2 id="sorcbloodline-deep_earth-deep-earth">Deep Earth</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 137</Link><br/>The echoing cave-songs and the rumble and creak of primal spirits deep below the ground thrum in your soul and in all your family line. You are likely slow, steady, and stable in your thinking, little prone to wandering and preferring to instead find depth in contemplation.</p>
