@@ -940,7 +940,7 @@ const _djinni = {title: "Djinni", jsx: <><h2 id="sorcbloodline-djinni-djinni">Dj
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Ability">You gain a fly speed of 60 feet with average maneuverability.</Pair>
 </Ability>
-<Ability id="power-of-the-djinn-su" icon={["magic"]}>
+<Ability id="power-of-the-djinn-su" icon={["magic","def"]}>
 <Pair single id="power-of-the-djinn-su" flavor="You gain the power of genies to grant wishes.">Power of the Djinn (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">Once per day, you can cast <Link to="/spell/limited_wish">limited wish</Link> as a spell-like ability. Such wishes must begin with the words "I wish," and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.</Pair>
@@ -1379,46 +1379,148 @@ const _dreamspun = {hasJL:true,title: "Dreamspun", jsx: <><div className="jumpLi
 </>};
 const _ectoplasm = {title: "Ectoplasm", jsx: <><h2 id="sorcbloodline-ectoplasm-ectoplasm">Ectoplasm</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 124</Link><br/>Your family has a connection with the ethereal substance known as ectoplasm, whether from communing with the spirits or battling the spiritual undead. The power of the Ethereal Plane thrums in your mind and pulls at your flesh.</p>
-<p><strong>Class Skill:</strong> Stealth.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/obscuring_mist">obscuring mist</Link> (3rd), <Link to="/spell/ghost_whip">ghost whip</Link> (5th), <Link to="/spell/ectoplasmic_snare">ectoplasmic snare</Link> (7th), <Link to="/spell/spirit_bound_blade">spirit-bound blade</Link> (9th), <Link to="/spell/wall_of_ectoplasm">wall of ectoplasm</Link> (11th), <Link to="/spell/ethereal_jaunt">ethereal jaunt</Link> (13th), <Link to="/spell/ectoplasmic_eruption">ectoplasmic eruption</Link> (15th), <Link to="/spell/create_demiplane">create demiplane</Link> (17th), <Link to="/spell/etherealness">etherealness</Link> (19th).</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/blind_fight">Blind-Fight</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/ectoplasmic_spell">Ectoplasmic Spell</Link>, <Link to="/feat/lingering_spell">Lingering Spell</Link>, <Link to="/feat/silent_spell">Silent Spell</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Fly), Skill Focus (Stealth), <Link to="/feat/spell_focus">Spell Focus</Link></p>
-<p><strong>Bloodline Arcana:</strong> Incorporeal creatures take 75% of the normal amount of damage from your damaging spells, and when incorporeal creatures attempt saving throws against your non-damaging spells, they roll twice and must take the lower result.</p>
-<p><strong>Bloodline Powers:</strong> You can control and emit ectoplasm, leaving you less grounded in the physical world.</p>
-<blockquote>
-<p><em>Entangling Ectoplasm (Sp):</em> At 1st level, you can create a ball of ectoplasm and hurl it at targets within 30 feet. This ectoplasm acts as a <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bag</Link> that can also entangle incorporeal creatures. The ectoplasm dissipates within 1d3 rounds. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><em>Ectoplasmic Reach (Su):</em> At 3rd level, you can exude small tendrils of ectoplasm that can be used to make melee touch attacks as part of a spell with a range of touch. You can make melee touch attacks as if you had an additional 5 feet of reach. You must have a free hand with which to direct the ectoplasm.</p>
-<p>This ability does not otherwise increase your threatened area. At 11th level, this additional reach increases to 10 feet. At 17th level, this additional reach increases to 15 feet.</p>
-<p><em>Ectoplasmic Form (Sp):</em> At 9th level, you can transform into a cloud of ectoplasm. Treat this as <Link to="/spell/gaseous_form">gaseous form</Link>, except that you can fly at a speed of 30 feet, and you can solidify your form sufficiently to carry small objects, though fine manipulation is impossible. You can use this ability for a number of minutes per day equal to your sorcerer level. These minutes need not be consecutive, but must be used in 1-minute increments.</p>
-<p><em>Malevolent Ectoplasm (Sp):</em> At 15th level, your ectoplasmic tendrils can lash out at creatures around you. Treat this as a <Link to="/spell/black_tentacles">black tentacles</Link> effect centered on your position, but the tentacles can also grapple ethereal and incorporeal creatures, and they do not affect you (though they still affect your allies). You can use this ability a number of rounds per day equal to your sorcerer level. These rounds need not be consecutive.</p>
-<p><em>Ectoplasmic Body (Ex):</em> At 20th level, you are more ectoplasm than flesh. You become immune to sneak attacks and critical hits and gain DR 5/slashing.</p>
-</blockquote>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair></Ability>
+<Ability id="bonus-spells-by-sorcerer-level" icon={["learn"]}>
+<Pair single id="bonus-spells-by-sorcerer-level">Bonus Spells by Sorcerer Level</Pair>
+<Pair plain title="3rd"><Link to="/spell/obscuring_mist">Obscuring mist</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/ghost_whip">Ghost whip</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/ectoplasmic_snare">Ectoplasmic snare</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/spirit_bound_blade">Spirit-bound blade</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/wall_of_ectoplasm">Wall of ectoplasm</Link></Pair>
+<Pair plain title="13th"><Link to="/spell/ethereal_jaunt">Ethereal jaunt</Link></Pair>
+<Pair plain title="15th"><Link to="/spell/ectoplasmic_eruption">Ectoplasmic eruption</Link></Pair>
+<Pair plain title="17th"><Link to="/spell/create_demiplane">Create demiplane</Link></Pair>
+<Pair plain title="19th"><Link to="/spell/etherealness">Etherealness</Link></Pair>
+</Ability>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/blind_fight">Blind-Fight</Link><br/><Link to="/feat/dodge">Dodge</Link><br/><Link to="/feat/ectoplasmic_spell">Ectoplasmic Spell</Link><br/><Link to="/feat/lingering_spell">Lingering Spell</Link><br/><Link to="/feat/silent_spell">Silent Spell</Link><br/><Link to="/feat/skill_focus">Skill Focus</Link> (Fly)<br/>Skill Focus (Stealth)<br/><Link to="/feat/spell_focus">Spell Focus</Link></Cell></Row></Block>
+<Ability id="bloodline-arcana" icon={["boost","lower","roll"]}>
+<Pair single id="bloodline-arcana">Bloodline Arcana</Pair>
+<Pair title="Passive Ability">Incorporeal creatures take 75% of the normal amount of damage from your damaging spells, and when incorporeal creatures attempt saving throws against your non-damaging spells, they roll twice and must take the lower result.</Pair>
+</Ability>
+<h3 id="sorcbloodline-ectoplasm-bloodline-powers">Bloodline Powers</h3>
+<p>You can control and emit ectoplasm, leaving you less grounded in the physical world.</p>
+<Ability id="entangling-ectoplasm-sp" icon={["zap"]}>
+<Pair single id="entangling-ectoplasm-sp">Entangling Ectoplasm (Sp)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">You can create a ball of ectoplasm and hurl it at targets within 30 feet. This ectoplasm acts as a <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bag</Link> that can also entangle incorporeal creatures. The ectoplasm dissipates within 1d3 rounds.</Pair>
+</Ability>
+<Ability id="ectoplasmic-reach-su" icon={["melee","touch"]}>
+<Pair single id="ectoplasmic-reach-su">Ectoplasmic Reach (Su)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">You can exude small tendrils of ectoplasm that can be used to make melee touch attacks as part of a spell with a range of touch. You can make melee touch attacks as if you had an additional 5 feet of reach. This ability does not otherwise increase your threatened area.</Pair>
+<Pair title="At 11th Level">This additional reach increases to 10 feet.</Pair>
+<Pair title="At 17th Level">This additional reach increases to 15 feet.</Pair>
+<Pair title="Special">You must have a free hand with which to direct the ectoplasm.</Pair>
+</Ability>
+<Ability id="ectoplasmic-form-sp" icon={["magic"]}>
+<Pair single id="ectoplasmic-form-sp">Ectoplasmic Form (Sp)</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Usage">1 minute/day per sorcerer level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Ability">You can transform into a cloud of ectoplasm. Treat this as <Link to="/spell/gaseous_form">gaseous form</Link>, except that you can fly at a speed of 30 feet, and you can solidify your form sufficiently to carry small objects, though fine manipulation is impossible.</Pair>
+</Ability>
+<Ability id="malevolent-ectoplasm-sp" icon={["aura","magic"]}>
+<Pair single id="malevolent-ectoplasm-sp">Malevolent Ectoplasm (Sp)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Usage">1 round/day per sorcerer level; these rounds need not be consecutive</Pair>
+<Pair title="Ability">Your ectoplasmic tendrils can lash out at creatures around you. Treat this as a <Link to="/spell/black_tentacles">black tentacles</Link> effect centered on your position, but the tentacles can also grapple ethereal and incorporeal creatures, and they do not affect you (though they still affect your allies).</Pair>
+</Ability>
+<Ability id="ectoplasmic-body-ex" icon={["def"]}>
+<Pair single id="ectoplasmic-body-ex" flavor="You are more ectoplasm than flesh.">Ectoplasmic Body (Ex)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You become immune to sneak attacks and critical hits and gain DR 5/slashing.</Pair>
+</Ability>
 </>};
 const _efreeti = {title: "Efreeti", jsx: <><h2 id="sorcbloodline-efreeti-efreeti">Efreeti</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 67</Link><br/>You were born with the power of fire genies, and the magic of the <Link to="/monster/efreeti">efreet</Link> is strong in you.</p>
-<p><strong>Class Skill:</strong> Knowledge (planes).</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/enlarge_person">enlarge person</Link> (3rd), <Link to="/spell/scorching_ray">scorching ray</Link> (5th), <Link to="/spell/fireball">fireball</Link> (7th), <Link to="/spell/wall_of_fire">wall of fire</Link> (9th), <Link to="/spell/persistent_image">persistent image</Link> (11th), <Link to="/spell/planar_binding">planar binding</Link> (13th), <Link to="/spell/plane_shift">plane shift</Link> (15th), <Link to="/spell/giant_form_ii">giant form II</Link> (17th), <Link to="/spell/wish">wish</Link> (19th).</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/empower_spell">Empower Spell</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [planes]), <Link to="/feat/weapon_finesse">Weapon Finesse</Link>)</p>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair></Ability>
+<Ability id="bonus-spells-by-sorcerer-level" icon={["learn"]}>
+<Pair single id="bonus-spells-by-sorcerer-level">Bonus Spells by Sorcerer Level</Pair>
+<Pair plain title="3rd"><Link to="/spell/enlarge_person">Enlarge person</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/scorching_ray">Scorching ray</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/fireball">Fireball</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/wall_of_fire">Wall of fire</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/persistent_image">Persistent image</Link></Pair>
+<Pair plain title="13th"><Link to="/spell/planar_binding">Planar binding</Link></Pair>
+<Pair plain title="15th"><Link to="/spell/plane_shift">Plane shift</Link></Pair>
+<Pair plain title="17th"><Link to="/spell/giant_form_ii">Giant form II</Link></Pair>
+<Pair plain title="19th"><Link to="/spell/wish">Wish</Link></Pair>
+</Ability>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/dodge">Dodge</Link><br/><Link to="/feat/empower_spell">Empower Spell</Link><br/><Link to="/feat/great_fortitude">Great Fortitude</Link><br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/lightning_reflexes">Lightning Reflexes</Link><br/><Link to="/feat/power_attack">Power Attack</Link><br/><Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [planes])<br/><Link to="/feat/weapon_finesse">Weapon Finesse</Link>)</Cell></Row></Block>
 <div className="sideNoteWrap singular optional elephant"><ScrollContainer id="sorcbloodline-efreeti--table-0"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td><p><strong>Sources</strong> <Link to="/source/the_elephant_in_the_room_feat_taxes_in_pathfinder">The Elephant in the Room: Feat Taxes in Pathfinder</Link><br/><strong className="hl"><Link to="/feat/agile_combatant">Agile Combatant</Link></strong>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/empower_spell">Empower Spell</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <strong className="hl"><Link to="/rule/powerful_maneuvers">Powerful Maneuvers</Link></strong>, <Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [planes])</p>
-</td></tr></tbody></table></ScrollContainer></div><p><strong>Bloodline Arcana:</strong> Whenever you cast a spell that deals energy damage, you can change the type of damage to fire. This also changes the spell's descriptors to match this energy type.</p>
-<p><strong>Bloodline Powers:</strong> Like an efreeti, you have both natural power over air and several other genie-based abilities.</p>
-<blockquote>
-<p><em>Fire Ray (Sp):</em> Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of fire damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><em>Elemental Resistance (Ex):</em> At 3rd level, you gain fire resistance 10. At 9th level, your fire resistance increases to 20.</p>
-<p><em>Efreeti Form (Su):</em> At 9th level, you gain the ability to assume the form of an efreeti once per day. This acts like the spell <Link to="/spell/giant_form_i">giant form I</Link>, except you only use it to become an efreeti and its duration is 1 round per level. While in this form, you also gain an efreeti's heat ability.</p>
-<p><em>Elemental Movement (Su):</em> At 15th level, your base speed increases by +30 feet.</p>
-<p><em>Power of the Efreet (Su):</em> At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast <Link to="/spell/limited_wish">limited wish</Link> as a spell-like ability. Such wishes must begin with the words "I wish," and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.</p>
-<p>You also become immune to fire damage, and can use <em>plane shift</em> once per day to travel to or from the Plane of Fire.</p>
-</blockquote>
+</td></tr></tbody></table></ScrollContainer></div><Ability id="bloodline-arcana" icon={["boost"]}>
+<Pair single id="bloodline-arcana">Bloodline Arcana</Pair>
+<Pair title="Ability">Whenever you cast a spell that deals energy damage, you can change the type of damage to fire. This also changes the spell's descriptors to match this energy type.</Pair>
+</Ability>
+<h3 id="sorcbloodline-efreeti-bloodline-powers">Bloodline Powers</h3>
+<p>Like an efreeti, you have both natural power over air and several other genie-based abilities.</p>
+<Ability id="fire-ray-sp" icon={["zap"]}>
+<Pair single id="fire-ray-sp">Fire Ray (Sp)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can unleash an elemental ray, targeting any foe within 30 feet as a ranged touch attack. This ray deals fire damage equal to 1d6 + <Link to="/misc/half">half</Link> of your sorcerer level.</Pair>
+</Ability>
+<Ability id="elemental-resistance-ex" icon={["def"]}>
+<Pair single id="elemental-resistance-ex">Elemental Resistance (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">You gain fire <Link to="/umr/resistance">resistance</Link> 10.</Pair>
+<Pair title="At 9th Level">Your fire resistance increases to 20.</Pair>
+</Ability>
+<Ability id="efreeti-form-su" extraClasses="hasSubs" icon={["magic"]}>
+<Pair single id="efreeti-form-su">Efreeti Form (Su)</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Ability">You gain the ability to assume the form of an efreeti once per day. This acts like the spell <Link to="/spell/giant_form_i">giant form I</Link>, except you only use it to become an efreeti and its duration is 1 round per level. While in this form, you also gain an efreeti's <em>heat</em> ability.</Pair>
+</Ability>
+<Ability id="heat" extraClasses="subAbility" icon={["melee"]}>
+<Pair single id="heat" flavor="Text from the efreeti monster entry.">Heat</Pair>
+<Pair title="Passive Ability">An efreeti's body deals 1d6 points of fire damage whenever it hits in melee, or in each round it <Link to="/rule/grapple">grapples</Link>.</Pair>
+</Ability>
+<Ability id="elemental-movement-su" icon={["boost"]}>
+<Pair single id="elemental-movement-su">Elemental Movement (Su)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Passive Ability">Your base speed increases by +30 feet.</Pair>
+</Ability>
+<Ability id="power-of-the-efreet-su" icon={["magic","def"]}>
+<Pair single id="power-of-the-efreet-su" flavor="You gain the power of genies to grant wishes.">Power of the Efreet (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">Once per day, you can cast <Link to="/spell/limited_wish">limited wish</Link> as a spell-like ability. Such wishes must begin with the words "I wish," and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.</Pair>
+<Pair title="Passive Ability">You also become immune to fire damage.</Pair>
+<Pair title="Ability">You can use <em>plane shift</em> once per day to travel to or from the Plane of Fire.</Pair>
+</Ability>
 </>};
 const _elemental = {hasJL:true,title: "Elemental", jsx: <><div className="jumpList" id="sorcbloodline-elemental-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="sorcbloodline-elemental-primal-wildblooded-mutation">Primal (Wildblooded Mutation)</InnerLink></li><li><InnerLink toTop to="sorcbloodline-elemental-lifewater-wildblooded-mutation">Lifewater (Wildblooded Mutation)</InnerLink></li></ul></div><h2 id="sorcbloodline-elemental-elemental">Elemental</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 75</Link><br/>The power of the elements resides in you, and at times you can hardly control its fury. This influence comes from an elemental outsider in your family history or a time when you or your relatives were exposed to a powerful elemental force.</p>
-<p><strong>Class Skill:</strong> Knowledge (planes).</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/burning_hands">burning hands</Link>* (3rd), <Link to="/spell/scorching_ray">scorching ray</Link>* (5th), <Link to="/spell/protection_from_energy">protection from energy</Link> (7th), <Link to="/spell/elemental_body_i">elemental body I</Link> (9th), <Link to="/spell/elemental_body_ii">elemental body II</Link> (11th), <Link to="/spell/elemental_body_iii">elemental body III</Link> (13th), <Link to="/spell/elemental_body_iv">elemental body IV</Link> (15th), <Link to="/spell/summon_monster_viii">summon monster VIII (elementals only)</Link> (17th), <Link to="/spell/elemental_swarm">elemental swarm</Link> (19th).</p>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair></Ability>
+<Ability id="bonus-spells-by-sorcerer-level" icon={["learn"]}>
+<Pair single id="bonus-spells-by-sorcerer-level">Bonus Spells by Sorcerer Level</Pair>
+<Pair plain title="3rd"><Link to="/spell/burning_hands">Burning hands</Link> *</Pair>
+<Pair plain title="5th"><Link to="/spell/scorching_ray">Scorching ray</Link> *</Pair>
+<Pair plain title="7th"><Link to="/spell/protection_from_energy">Protection from energy</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/elemental_body_i">Elemental body I</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/elemental_body_ii">Elemental body II</Link></Pair>
+<Pair plain title="13th"><Link to="/spell/elemental_body_iii">Elemental body III</Link></Pair>
+<Pair plain title="15th"><Link to="/spell/elemental_body_iv">Elemental body IV</Link></Pair>
+<Pair plain title="17th"><Link to="/spell/summon_monster_viii">Summon monster VIII</Link> (elementals only)</Pair>
+<Pair plain title="19th"><Link to="/spell/elemental_swarm">Elemental swarm</Link></Pair>
+</Ability>
 <p>*These spells always deal a type of damage determined by your element. In addition, the subtype of these spells changes to match the energy type of your element.</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/empower_spell">Empower Spell</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [planes]), <Link to="/feat/weapon_finesse">Weapon Finesse</Link>)</p>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/dodge">Dodge</Link><br/><Link to="/feat/empower_spell">Empower Spell</Link><br/><Link to="/feat/great_fortitude">Great Fortitude</Link><br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/lightning_reflexes">Lightning Reflexes</Link><br/><Link to="/feat/power_attack">Power Attack</Link><br/><Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [planes])<br/><Link to="/feat/weapon_finesse">Weapon Finesse</Link>)</Cell></Row></Block>
 <div className="sideNoteWrap singular optional elephant"><ScrollContainer id="sorcbloodline-elemental--table-0"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td><p><strong>Sources</strong> <Link to="/source/the_elephant_in_the_room_feat_taxes_in_pathfinder">The Elephant in the Room: Feat Taxes in Pathfinder</Link><br/><strong className="hl"><Link to="/feat/agile_combatant">Agile Combatant</Link></strong>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/empower_spell">Empower Spell</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <strong className="hl"><Link to="/rule/powerful_maneuvers">Powerful Maneuvers</Link></strong>, <Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [planes])</p>
-</td></tr></tbody></table></ScrollContainer></div><p><strong>Bloodline Arcana:</strong> Whenever you cast a spell that deals energy damage, you can change the type of damage to match the type of your bloodline. This also changes the spell's type to match the type of your bloodline.</p>
-<p><strong>Bloodline Powers:</strong> One of the four elements infuses your being, and you can draw upon its power in times of need. At first level, you must select one of the four elements: air, earth, fire, or water. This choice cannot be changed. A number of your abilities grant resistances and deal damage based on your element, as noted below.</p>
+</td></tr></tbody></table></ScrollContainer></div><Ability id="bloodline-arcana" icon={["boost"]}>
+<Pair single id="bloodline-arcana">Bloodline Arcana</Pair>
+<Pair title="Ability">Whenever you cast a spell that deals energy damage, you can change the type of damage to match the type of your bloodline. This also changes the spell's type to match the type of your bloodline.</Pair>
+</Ability>
+<h3 id="sorcbloodline-elemental-bloodline-powers">Bloodline Powers</h3>
+<p>One of the four elements infuses your being, and you can draw upon its power in times of need. At first level, you must select one of the four elements: air, earth, fire, or water. This choice cannot be changed. A number of your abilities grant resistances and deal damage based on your element, as noted below.</p>
 <ScrollContainer id="sorcbloodline-elemental--table-1"><table>
 <thead>
 <tr>
@@ -1448,142 +1550,469 @@ const _elemental = {hasJL:true,title: "Elemental", jsx: <><div className="jumpLi
 <td>Swim 60 feet</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><em>Elemental Ray (Sp):</em> Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of damage of your energy type + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><em>Elemental Resistance (Ex):</em> At 3rd level, you gain energy resistance 10 against your energy type. At 9th level, your energy resistance increases to 20.</p>
-<p><em>Elemental Blast (Sp):</em> At 9th level, you can unleash a blast of elemental power once per day. This 20-foot-radius <Link to="/misc/burst">burst</Link> does 1d6 points of damage of your energy type per sorcerer level. Those caught in the area of your blast receive a Reflex save for half damage. Creatures that fail their saves gain vulnerability to your energy type until the end of your next turn. The DC of this save is equal to 10 + 1/2 your sorcerer level + your Charisma modifier. At 9th level, you can use this ability once per day. At 17th level, you can use this ability twice per day. At 20th level, you can use this ability three times per day. This power has a range of 60 feet.</p>
-<p><em>Elemental Movement (Su):</em> At 15th level, you gain a special movement type or bonus. This ability is based on your chosen element, as indicated on the above chart.</p>
-<p><em>Elemental Body (Su):</em> At 20th level, elemental power surges through your body. You gain immunity to sneak attacks, critical hits, and damage from your energy type.</p>
+<Ability id="elemental-ray-sp" icon={["zap"]}>
+<Pair single id="elemental-ray-sp">Elemental Ray (Sp):</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can unleash an elemental ray, targeting any foe within 30 feet as a ranged touch attack. This ray deals an amount of damage of your energy type equal to 1d6 + <Link to="/misc/half">half</Link> of your sorcerer level.</Pair>
+</Ability>
+<Ability id="elemental-resistance-ex" icon={["def"]}>
+<Pair single id="elemental-resistance-ex">Elemental Resistance (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">You gain energy <Link to="/umr/resistance">resistance</Link> 10 against your energy type.</Pair>
+<Pair title="At 9th Level">Your energy resistance increases to 20.</Pair>
+</Ability>
+<Ability id="elemental-blast-sp" icon={["boom","lower"]}>
+<Pair single id="elemental-blast-sp">Elemental Blast (Sp)</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Ability">You can unleash a blast of elemental power once per day. This 20-foot-radius <Link to="/misc/burst">burst</Link> does 1d6 points of damage of your energy type per sorcerer level. Those caught in the area of your blast receive a Reflex save for half damage. Creatures that fail their saves gain vulnerability to your energy type until the end of your next turn. The DC of this save is equal to 10 + 1/2 your sorcerer level + your Charisma modifier. This power has a range of 60 feet.</Pair>
+<Pair title="At 17th Level">You can use this ability twice per day.</Pair>
+<Pair title="At 20th Level">You can use this ability three times per day.</Pair>
+</Ability>
+<Ability id="elemental-movement-su" icon={["power","boost"]}>
+<Pair single id="elemental-movement-su">Elemental Movement (Su)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">You gain a special movement type or bonus. This ability is based on your chosen element, as indicated on the above chart.</Pair>
+</Ability>
+<Ability id="elemental-body-su" icon={["def"]}>
+<Pair single id="elemental-body-su" flavor="Elemental power surges through your body.">Elemental Body (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You gain immunity to sneak attacks, critical hits, and damage from your energy type.</Pair>
+</Ability>
 <h3 id="sorcbloodline-elemental-primal-wildblooded-mutation" data-hash-target>Primal (Wildblooded Mutation)</h3>
-<p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 72</Link><br/>Your powers are attuned to the concentrated core of the elemental plane.<br/><strong>Associated Bloodline:</strong> Elemental.</p>
-<p><strong>Bloodline Arcana:</strong> Whenever you cast a spell with an energy descriptor that matches your elemental bloodline's energy type, that spell deals +1 point of damage per die rolled.</p>
-<p><strong>Bloodline Powers:</strong> You can infuse raw energy into your summoned minions.</p>
-<blockquote>
-<p><em>Elementalist Summoning (Su):</em> At 9th level, whenever you summon a creature, it gains energy resistance 10 against the energy type that matches your elemental bloodline (if it already has such resistance, its resistance increases by +5), and its natural attacks deal an additional 1d6 points of damage of the same energy type. This bloodline power replaces <em>elemental blast.</em></p>
-</blockquote>
+<p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 72</Link><br/>Your powers are attuned to the concentrated core of the elemental plane.</p>
+<Ability id="replacement-bloodline-arcana" icon={["boost"]}>
+<Pair single id="replacement-bloodline-arcana">Replacement Bloodline Arcana</Pair>
+<Pair title="Ability">Whenever you cast a spell with an energy descriptor that matches your elemental bloodline's energy type, that spell deals +1 point of damage per die rolled.</Pair>
+</Ability>
+<h3 id="sorcbloodline-elemental-bloodline-powers">Bloodline Powers</h3>
+<p>You can infuse raw energy into your summoned minions.</p>
+<Ability id="elementalist-summoning-su" icon={["protect","boost"]}>
+<Pair single id="elementalist-summoning-su">Elementalist Summoning (Su)</Pair>
+<Pair hl title="Replaces">Elemental blast</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Passive Ability">Whenever you summon a creature, it gains energy <Link to="/umr/resistance">resistance</Link> 10 against the energy type that matches your elemental bloodline (if it already has such resistance, its resistance increases by +5), and its natural attacks deal an additional 1d6 points of damage of the same energy type.</Pair>
+</Ability>
 <h3 id="sorcbloodline-elemental-lifewater-wildblooded-mutation" data-hash-target>Lifewater (Wildblooded Mutation)</h3>
-<p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements pg. 15</Link><br/>Your soul is infused with the restorative and life-giving powers of elemental water.<br/><strong>Associated Bloodline:</strong> Elemental (water).</p>
-<p><strong>Bloodline Arcana:</strong> Anytime you cast a spell with the cold or water descriptor, you gain a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the level of the spell cast. You can grant up to half of these temporary hit points to an adjacent ally, in which case you gain the remaining temporary hit points. These temporary hit points last 1 minute.</p>
-<p><strong>Bloodline Powers:</strong> Your powers are revitalizing rather than destructive.</p>
-<blockquote>
-<p><em>Lifewater Stream (Su):</em> At 9th level, once per day, you can unleash a surge of restorative elemental water that aids your allies. This ability affects creatures in a 30-foot line extending from your palm, and you can select one of the following conditions to remove from the affected creatures: fatigued, shaken, or sickened. Creatures affected by a more extreme version of the chosen condition (such as exhausted for fatigued, frightened for shaken, and nauseated for sickened) have their condition reduced to the less extreme version. At 17th level, you can use this ability twice per day, and you can choose from the following additional conditions: blinded, deafened, dazed, and staggered. At 20th level, you can use this ability three times per day. This bloodline power replaces <em>elemental blast.</em></p>
-</blockquote>
+<p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements pg. 15</Link><br/>Your soul is infused with the restorative and life-giving powers of elemental water.</p>
+<Ability id="replacement-bloodline-arcana" icon={["def","protect"]}>
+<Pair single id="replacement-bloodline-arcana">Replacement Bloodline Arcana</Pair>
+<Pair title="Ability">Anytime you cast a spell with the cold or water descriptor, you gain a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the level of the spell cast. You can grant up to half of these temporary hit points to an adjacent ally, in which case you gain the remaining temporary hit points. These temporary hit points last 1 minute.</Pair>
+</Ability>
+<h3 id="sorcbloodline-elemental-bloodline-powers">Bloodline Powers</h3>
+<p>Your powers are revitalizing rather than destructive.</p>
+<Ability id="lifewater-stream-su" icon={["line","aid"]}>
+<Pair single id="lifewater-stream-su">Lifewater Stream (Su)</Pair>
+<Pair hl title="Replaces">Elemental blast</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Ability">Once per day, you can unleash a surge of restorative elemental water that aids your allies. This ability affects creatures in a 30-foot line extending from your palm, and you can select one of the following conditions to remove from the affected creatures: fatigued, shaken, or sickened. Creatures affected by a more extreme version of the chosen condition (such as exhausted for fatigued, frightened for shaken, and nauseated for sickened) have their condition reduced to the less extreme version.</Pair>
+<Pair title="At 17th Level">You can use this ability twice per day, and you can choose from the following additional conditions: blinded, deafened, dazed, and staggered.</Pair>
+<Pair title="At 20th Level">You can use this ability three times per day.</Pair>
+</Ability>
 </>};
 const _fey = {hasJL:true,title: "Fey", jsx: <><div className="jumpList" id="sorcbloodline-fey-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="sorcbloodline-fey-dark-fey-wildblooded-mutation">Dark Fey (Wildblooded Mutation)</InnerLink></li><li><InnerLink toTop to="sorcbloodline-fey-sylvan-wildblooded-mutation">Sylvan (Wildblooded Mutation)</InnerLink></li></ul></div><h2 id="sorcbloodline-fey-fey">Fey</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 76</Link><br/>The capricious nature of the fey runs in your family due to some intermingling of fey blood or magic. You are more emotional than most, prone to bouts of joy and rage.</p>
-<p><strong>Class Skill:</strong> Knowledge (nature).</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/entangle">entangle</Link> (3rd), <Link to="/spell/hideous_laughter">hideous laughter</Link> (5th), <Link to="/spell/deep_slumber">deep slumber</Link> (7th), <Link to="/spell/poison">poison</Link> (9th), <Link to="/spell/tree_stride">tree stride</Link> (11th), <Link to="/spell/mislead">mislead</Link> (13th), <Link to="/spell/phase_door">phase door</Link> (15th), <Link to="/spell/irresistible_dance">irresistible dance</Link> (17th), <Link to="/spell/shapechange">shapechange</Link> (19th).</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/mobility">Mobility</Link>, <Link to="/feat/point_blank_shot">Point-Blank Shot</Link>, <Link to="/feat/precise_shot">Precise Shot</Link>, <Link to="/feat/quicken_spell">Quicken Spell</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [nature])</p>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT)</Pair></Ability>
+<Ability id="bonus-spells-by-sorcerer-level" icon={["learn"]}>
+<Pair single id="bonus-spells-by-sorcerer-level">Bonus Spells by Sorcerer Level</Pair>
+<Pair plain title="3rd"><Link to="/spell/entangle">Entangle</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/hideous_laughter">Hideous laughter</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/deep_slumber">Deep slumber</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/poison">Poison</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/tree_stride">Tree stride</Link></Pair>
+<Pair plain title="13th"><Link to="/spell/mislead">Mislead</Link></Pair>
+<Pair plain title="15th"><Link to="/spell/phase_door">Phase door</Link></Pair>
+<Pair plain title="17th"><Link to="/spell/irresistible_dance">Irresistible dance</Link></Pair>
+<Pair plain title="19th"><Link to="/spell/shapechange">Shapechange</Link></Pair>
+</Ability>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/dodge">Dodge</Link><br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/lightning_reflexes">Lightning Reflexes</Link><br/><Link to="/feat/mobility">Mobility</Link><br/><Link to="/feat/point_blank_shot">Point-Blank Shot</Link><br/><Link to="/feat/precise_shot">Precise Shot</Link><br/><Link to="/feat/quicken_spell">Quicken Spell</Link><br/><Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [nature])</Cell></Row></Block>
 <div className="sideNoteWrap singular optional elephant"><ScrollContainer id="sorcbloodline-fey--table-0"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td><p><strong>Sources</strong> <Link to="/source/the_elephant_in_the_room_feat_taxes_in_pathfinder">The Elephant in the Room: Feat Taxes in Pathfinder</Link><br/><Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/point_blank_shot">Point-Blank Shot</Link>, <Link to="/feat/precise_shot">Precise Shot</Link>, <Link to="/feat/quicken_spell">Quicken Spell</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [nature]), <Link to="/feat/spring_attack">Spring Attack</Link></p>
-</td></tr></tbody></table></ScrollContainer></div><p><strong>Bloodline Arcana:</strong> Whenever you cast a spell of the <Link to="/spelldef/compulsion">compulsion</Link> subschool, increase the spell's DC by +2.</p>
-<p><strong>Bloodline Powers:</strong> You have always had a tie to the natural world, and as your power increases, so does the influence of the fey over your magic.</p>
-<blockquote>
-<p><em>Laughing Touch (Sp):</em> At 1st level, you can cause a creature to burst out laughing for 1 round as a melee touch attack. A laughing creature can only take a move action but can defend itself normally. Once a creature has been affected by laughing touch, it is immune to its effects for 24 hours. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><em>Woodland Stride (Ex):</em> At 3rd level, you can move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at your normal speed and without taking damage or suffering any other impairment. Thorns, briars, and overgrown areas that have been magically manipulated to impede motion, however, still affect you.</p>
-<p><em>Fleeting Glance (Sp):</em> At 9th level, you can turn invisible for a number of rounds per day equal to your sorcerer level. This ability functions as <Link to="/spell/greater_invisibility">greater invisibility</Link>. These rounds need not be consecutive.</p>
-<p><em>Fey Magic (Su):</em> At 15th level, you may reroll any caster level check made to overcome spell resistance. You must decide to use this ability before the results are revealed by the GM. You must take the second result, even if it is worse. You can use this ability at will.</p>
-<p><em>Soul of the Fey (Su):</em> At 20th level, your soul becomes one with the world of the fey. You gain immunity to poison and DR 10/cold iron. Creatures of the animal type do not attack you unless compelled to do so through magic. Once per day, you can cast <Link to="/spell/shadow_walk">shadow walk</Link> as a spell-like ability using your sorcerer level as your caster level.</p>
-</blockquote>
+</td></tr></tbody></table></ScrollContainer></div><Ability id="bloodline-arcana" icon={["boost"]}>
+<Pair single id="bloodline-arcana">Bloodline Arcana</Pair>
+<Pair title="Passive Ability">Whenever you cast a spell of the <Link to="/spelldef/compulsion">compulsion</Link> subschool, increase the spell's DC by +2.</Pair>
+</Ability>
+<h3 id="sorcbloodline-fey-bloodline-powers">Bloodline Powers</h3>
+<p>You have always had a tie to the natural world, and as your power increases, so does the influence of the fey over your magic.</p>
+<Ability id="laughing-touch-sp" icon={["zap"]}>
+<Pair single id="laughing-touch-sp">Laughing Touch (Sp)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">You can cause a creature to burst out laughing for 1 round as a melee touch attack. A laughing creature can only take a move action but can defend itself normally. Once a creature has been affected by <em>laughing touch,</em> it is immune to its effects for 24 hours.</Pair>
+</Ability>
+<Ability id="woodland-stride-ex" icon={["boost"]}>
+<Pair single id="woodland-stride-ex">Woodland Stride (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">You can move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at your normal speed and without taking damage or suffering any other impairment. Thorns, briars, and overgrown areas that have been magically manipulated to impede motion, however, still affect you.</Pair>
+</Ability>
+<Ability id="fleeting-glance-sp" icon={["def"]}>
+<Pair single id="fleeting-glance-sp">Fleeting Glance (Sp)</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Usage">1 round/day per sorcerer level; these rounds need not be consecutive</Pair>
+<Pair title="Ability">You can turn invisible. This ability functions as <Link to="/spell/greater_invisibility">greater invisibility</Link>.</Pair>
+</Ability>
+<Ability id="fey-magic-su" icon={["roll"]}>
+<Pair single id="fey-magic-su">Fey Magic (Su)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">You may reroll any caster level check made to overcome spell resistance. You must decide to use this ability before the results are revealed by the GM. You must take the second result, even if it is worse. You can use this ability at will.</Pair>
+</Ability>
+<Ability id="soul-of-the-fey-su" icon={["def","magic"]}>
+<Pair single id="soul-of-the-fey-su" flavor="Your soul becomes one with the world of the fey.">Soul of the Fey (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You gain immunity to poison and DR 10/cold iron. Creatures of the animal type do not attack you unless compelled to do so through magic.</Pair>
+<Pair title="Ability">Once per day, you can cast <Link to="/spell/shadow_walk">shadow walk</Link> as a spell-like ability using your sorcerer level as your caster level.</Pair>
+</Ability>
 <h3 id="sorcbloodline-fey-dark-fey-wildblooded-mutation" data-hash-target>Dark Fey (Wildblooded Mutation)</h3>
-<p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River pg. 11</Link><br/>Your powers were born of malevolent trickery and shadowy First World magic.<br/><strong>Associated Bloodline:</strong> Fey.</p>
-<p><strong>Bloodline Arcana:</strong> Whenever you cast a spell with the curse subtype, increase the spell's DC by 2.</p>
-<p><strong>Bloodline Powers:</strong> In your presence, senses are deceived.</p>
-<blockquote>
-<p><em>Fey Fascination (Su):</em> At 1st level, as a standard action, you can force one target within 30 feet to make a Will save (DC = 10 + 1/2 your sorcerer level + your Charisma modifier) or be <Link to="/misc/fascinated">fascinated</Link> for 1 round for every 2 sorcerer levels you possess (minimum 1). This is a mind-affecting, illusion (pattern) effect. You can use this ability a number of times per day equal to 3 + your Charisma modifier. This bloodline power replaces <em>laughing touch.</em></p>
-</blockquote>
+<p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River pg. 11</Link><br/>Your powers were born of malevolent trickery and shadowy First World magic.</p>
+<Ability id="replacement-bloodline-arcana" icon={["boost"]}>
+<Pair single id="replacement-bloodline-arcana">Replacement Bloodline Arcana</Pair>
+<Pair title="Passive Ability">Whenever you cast a spell with the curse subtype, increase the spell's DC by 2.</Pair>
+</Ability>
+<h3 id="sorcbloodline-fey-bloodline-powers">Bloodline Powers</h3>
+<p>In your presence, senses are deceived.</p>
+<Ability id="fey-fascination-su" icon={["select","lower"]}>
+<Pair single id="fey-fascination-su">Fey Fascination (Su)</Pair>
+<Pair hl title="Replaces">Laughing touch</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can force one target within 30 feet to make a Will save (DC = 10 + 1/2 your sorcerer level + your Charisma modifier) or be <Link to="/misc/fascinated">fascinated</Link> for a number of rounds equal to <Link to="/misc/half">half</Link> of your sorcerer level (minimum 1). This is a mind-affecting, illusion (pattern) effect.</Pair>
+</Ability>
 <h3 id="sorcbloodline-fey-sylvan-wildblooded-mutation" data-hash-target>Sylvan (Wildblooded Mutation)</h3>
-<p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 72</Link><br/>Your ties to nature have more to do with creatures than with capriciousness.<br/><strong>Associated Bloodline:</strong> Fey.</p>
-<p><strong>Bloodline Arcana:</strong> See bloodline powers.</p>
-<p><strong>Bloodline Powers:</strong> Your magic shows a kinship to that of the beast-talkers and shapechanger fey.</p>
-<blockquote>
-<p><em>Animal Companion (Ex):</em> You gain an <Link to="/sidekick/animal_companion">animal companion</Link>. Your effective druid level for this ability is equal to your sorcerer level - 3 (minimum 1st). This bloodline power counts as your bloodline arcana and also replaces <em>laughing touch.</em></p>
-<p><em>Fey Wings (Su):</em> At 15th level, you can grow insect-like wings from your back and become one size category smaller (as if you had used <Link to="/spell/reduce_person">reduce person</Link>), gaining a fly speed of 60 feet with average maneuverability. You can maintain this form for 1 minute per level. This duration does not need to be consecutive, but it must be used in 1-minute increments. This bloodline power replaces <em>fey magic.</em></p>
-</blockquote>
+<p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 72</Link><br/>Your ties to nature have more to do with creatures than with capriciousness.</p>
+<Ability id="replacement-bloodline-arcana" icon={["info"]}>
+<Pair single id="replacement-bloodline-arcana">Replacement Bloodline Arcana</Pair>
+<Pair title="Info">See bloodline powers.</Pair>
+</Ability>
+<h3 id="sorcbloodline-fey-bloodline-powers">Bloodline Powers</h3>
+<p>Your magic shows a kinship to that of the beast-talkers and shapechanger fey.</p>
+<Ability id="animal-companion-ex" icon={["power"]}>
+<Pair single id="animal-companion-ex">Animal Companion (Ex)</Pair>
+<Pair hl title="Replaces">Laughing touch, bloodline arcana</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">You gain an <Link to="/sidekick/animal_companion">animal companion</Link>. Your effective druid level for this ability is equal to your sorcerer level - 3 (minimum 1st).</Pair>
+<Pair title="Special">This bloodline power counts as your bloodline arcana.</Pair>
+</Ability>
+<Ability id="fey-wings-su" icon={["magic"]}>
+<Pair single id="fey-wings-su">Fey Wings (Su)</Pair>
+<Pair hl title="Replaces">Fey magic</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Usage">1 minute/day per sorcerer level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Ability">You can grow insect-like wings from your back and become one size category smaller (as if you had used <Link to="/spell/reduce_person">reduce person</Link>), gaining a fly speed of 60 feet with average maneuverability.</Pair>
+</Ability>
 </>};
 const _ghoul = {title: "Ghoul", jsx: <><h2 id="sorcbloodline-ghoul-ghoul">Ghoul</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 80</Link><br/>Your connection to the hungering undead shapes your magic.</p>
-<p><strong>Class Skill:</strong> Stealth.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/ray_of_enfeeblement">ray of enfeeblement</Link> (3rd), <Link to="/spell/feast_of_ashes">feast of ashes</Link> (5th), <Link to="/spell/vampiric_touch">vampiric touch</Link> (7th), <Link to="/spell/fear">fear</Link> (9th), <Link to="/spell/hungry_earth">hungry earth</Link> (11th), <Link to="/spell/move_earth">move earth</Link> (13th), <Link to="/spell/control_undead">control undead</Link> (15th), <Link to="/spell/unholy_aura">unholy aura</Link> (17th), <Link to="/spell/wail_of_the_banshee">wail of the banshee</Link> (19th).</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/arcane_strike">Arcane Strike</Link>, <Link to="/feat/combat_casting">Combat Casting</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [religion]), <Link to="/feat/spell_focus">Spell Focus</Link> (necromancy), <Link to="/feat/toughness">Toughness</Link>, <Link to="/feat/warren_digger">Warren Digger</Link>, <Link to="/feat/weapon_finesse">Weapon Finesse</Link></p>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair></Ability>
+<Ability id="bonus-spells-by-sorcerer-level" icon={["learn"]}>
+<Pair single id="bonus-spells-by-sorcerer-level">Bonus Spells by Sorcerer Level</Pair>
+<Pair plain title="3rd"><Link to="/spell/ray_of_enfeeblement">Ray of enfeeblement</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/feast_of_ashes">Feast of ashes</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/vampiric_touch">Vampiric touch</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/fear">Fear</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/hungry_earth">Hungry earth</Link></Pair>
+<Pair plain title="13th"><Link to="/spell/move_earth">Move earth</Link></Pair>
+<Pair plain title="15th"><Link to="/spell/control_undead">Control undead</Link></Pair>
+<Pair plain title="17th"><Link to="/spell/unholy_aura">Unholy aura</Link></Pair>
+<Pair plain title="19th"><Link to="/spell/wail_of_the_banshee">Wail of the banshee</Link></Pair>
+</Ability>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/arcane_strike">Arcane Strike</Link><br/><Link to="/feat/combat_casting">Combat Casting</Link><br/><Link to="/feat/power_attack">Power Attack</Link><br/><Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [religion])<br/><Link to="/feat/spell_focus">Spell Focus</Link> (necromancy)<br/><Link to="/feat/toughness">Toughness</Link><br/><Link to="/feat/warren_digger">Warren Digger</Link><br/><Link to="/feat/weapon_finesse">Weapon Finesse</Link></Cell></Row></Block>
 <div className="sideNoteWrap singular optional elephant"><ScrollContainer id="sorcbloodline-ghoul--table-0"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td><p><strong>Sources</strong> <Link to="/source/the_elephant_in_the_room_feat_taxes_in_pathfinder">The Elephant in the Room: Feat Taxes in Pathfinder</Link><br/><strong className="hl"><Link to="/feat/agile_combatant">Agile Combatant</Link></strong>, <Link to="/feat/arcane_strike">Arcane Strike</Link>, <Link to="/feat/combat_casting">Combat Casting</Link>, <strong className="hl"><Link to="/rule/powerful_maneuvers">Powerful Maneuvers</Link></strong>, <Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [religion]), <Link to="/feat/spell_focus">Spell Focus</Link> (necromancy), <Link to="/feat/toughness">Toughness</Link>, <Link to="/feat/warren_digger">Warren Digger</Link></p>
-</td></tr></tbody></table></ScrollContainer></div><p><strong>Bloodline Arcana:</strong> Whenever you cast a spell of the necromancy school that deals hit point damage, you are healed of 1 hit point per spell level.</p>
-<p><strong>Bloodline Powers:</strong> The dark energies that fuel your existence and undying hunger form the basis of your power.</p>
-<blockquote>
-<p><em>Ghoulish Claws (Su):</em> Starting at 1st level, you can grow claws as a free action. These claws are treated as <Link to="/umr/natural_weapons">natural weapons</Link>, allowing you to make two claw attacks as a full attack using your full base attack bonus. Each of these attacks deals 1d4 points of damage + your Strength modifier (1d3 if you are Small). At 5th level, creatures damaged with your claw attack are <Link to="/rule/paralyzed">paralyzed</Link> for 1 round, as the <Link to="/monster/ghoul">ghoul</Link> ability (Fortitude negates). At 7th level, the duration of the paralysis increases to 1d4+1 rounds, and the claws are considered magic weapons for the purpose of overcoming DR. You can use your claws for a number of rounds per day equal to 3 + your Charisma modifier. These rounds do not need to be consecutive.</p>
-<p>If you're a ghoul with this bloodline, instead of gaining this ability, your levels in sorcerer stack with your racial Hit Dice when determining the DC of your paralysis and disease special abilities.</p>
-<p><em>Leathery Skin (Ex):</em> At 3rd level, you gain cold resistance 5 and a +1 natural armor bonus to AC. At 9th level, your cold resistance increases to 10 and natural armor bonus increases to +2. At 15th level, your natural armor bonus increases to +4.</p>
-<p><em>Ravenous Frenzy (Ex):</em> At 9th level, you gain the benefits of <Link to="/spell/haste">haste</Link> for a number of rounds per day equal to your sorcerer level. These rounds don't need to be consecutive. Each time you hit a creature with two or more claw attacks during a full attack while affected by this ability, that creature takes 1d4 points of <Link to="/rule/bleed">bleed</Link> damage.</p>
-<p><em>Earth Crawler (Su):</em> At 15th level, you gain a burrow speed of 30 feet. Additionally, as long as you are surrounded by at least 5 feet of dirt or natural stone on all sides, you gain <Link to="/umr/fast_healing">fast healing</Link> 10. You can heal a number of hit points per day equal to 10 &times; your sorcerer level with this ability.</p>
-<p><em>Ghoulish Aspect (Su):</em> At 20th level, you take on aspects of the nature and appearance of ghouls. You no longer feel the need to eat and are immune to hunger (though you are still able to consume flesh if you choose to). You gain immunity to cold, nonlethal damage, paralysis, and sleep. You also gain DR 5/-. Additionally, you gain the <Link to="/umr/stench">stench</Link> ability with a radius of 10 feet. Creatures that fail their Fortitude saving throws are <Link to="/misc/sickened">sickened</Link> for 1d6+4 minutes. Use half your sorcerer level instead of half your racial Hit Dice to determine the saving throw DC.</p>
-</blockquote>
+</td></tr></tbody></table></ScrollContainer></div><Ability id="bloodline-arcana" icon={["aid"]}>
+<Pair single id="bloodline-arcana">Bloodline Arcana</Pair>
+<Pair title="Passive Ability">Whenever you cast a spell of the necromancy school that deals hit point damage, you are healed of 1 hit point per spell level.</Pair>
+</Ability>
+<h3 id="sorcbloodline-ghoul-bloodline-powers">Bloodline Powers</h3>
+<p>The dark energies that fuel your existence and undying hunger form the basis of your power.</p>
+<Ability id="ghoulish-claws-su" icon={["melee"]}>
+<Pair single id="ghoulish-claws-su">Ghoulish Claws (Su)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier rounds/day; these rounds need not be consecutive</Pair>
+<Pair title="Free Action">You can grow claws. These claws are treated as <Link to="/umr/natural_weapons">natural weapons</Link>, allowing you to make two claw attacks as a full attack using your full base attack bonus. Each of these attacks deals 1d4 points of damage + your Strength modifier (1d3 if you are Small).</Pair>
+<Pair title="At 5th Level">Creatures damaged with your claw attack are <Link to="/rule/paralyzed">paralyzed</Link> for 1 round, as the ghoul ability (Fortitude negates).</Pair>
+<Pair title="At 7th Level">The duration of the paralysis increases to 1d4+1 rounds, and the claws are considered magic weapons for the purpose of overcoming DR.</Pair>
+<Pair title="Special"><p>Per the <Link to="/umr/paralysis">paralysis</Link> ability, the DC is 10 + <Link to="/misc/half">half</Link> your level (or Hit Dice) + your Constitution modifier. Per the <Link to="/monster/ghoul">ghoul</Link> entry, elves are immune to this effect.</p>
+<p>If you're a ghoul with this bloodline, instead of gaining this ability, your levels in sorcerer stack with your racial Hit Dice when determining the DC of your <em>paralysis</em> and <em>disease</em> special abilities.</p>
+</Pair>
+</Ability>
+<Ability id="leathery-skin-ex" icon={["def"]}>
+<Pair single id="leathery-skin-ex">Leathery Skin (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">You gain cold <Link to="/umr/resistance">resistance</Link> 5 and a +1 natural armor bonus to AC.</Pair>
+<Pair title="At 9th Level">Your cold resistance increases to 10 and natural armor bonus increases to +2.</Pair>
+<Pair title="At 15th Level">Your natural armor bonus increases to +4.</Pair>
+</Ability>
+<Ability id="ravenous-frenzy-ex" icon={["magic","boost"]}>
+<Pair single id="ravenous-frenzy-ex">Ravenous Frenzy (Ex)</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Usage">1 round/day per sorcerer level; these rounds need not be consecutive</Pair>
+<Pair title="Ability">You gain the benefits of <Link to="/spell/haste">haste</Link>. Each time you hit a creature with two or more claw attacks during a full attack while affected by this ability, that creature takes 1d4 points of <Link to="/rule/bleed">bleed</Link> damage.</Pair>
+</Ability>
+<Ability id="earth-crawler-su" icon={["power","def"]}>
+<Pair single id="earth-crawler-su">Earth Crawler (Su)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">You gain a burrow speed of 30 feet. Additionally, as long as you are surrounded by at least 5 feet of dirt or natural stone on all sides, you gain <Link to="/umr/fast_healing">fast healing</Link> 10. You can heal a number of hit points per day equal to 10 &times; your sorcerer level with this ability.</Pair>
+</Ability>
+<Ability id="ghoulish-aspect-su" icon={["def","power","aura"]}>
+<Pair single id="ghoulish-aspect-su" flavor="You take on aspects of the nature and appearance of ghouls.">Ghoulish Aspect (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability"><p>You no longer feel the need to eat and are immune to hunger (though you are still able to consume flesh if you choose to). You gain immunity to cold, nonlethal damage, paralysis, and sleep. You also gain DR 5/-.</p>
+<p>Additionally, you gain the <Link to="/umr/stench">stench</Link> ability with a radius of 10 feet. Creatures that fail their Fortitude saving throws are <Link to="/misc/sickened">sickened</Link> for 1d6+4 minutes. Use half your sorcerer level instead of half your racial Hit Dice to determine the saving throw DC.</p>
+</Pair>
+</Ability>
 </>};
 const _harrow = {title: "Harrow", jsx: <><h2 id="sorcbloodline-harrow-harrow">Harrow</h2>
 <p><strong>Sources</strong> <Link to="/source/the_harrow_handbook">The Harrow Handbook pg. 28</Link><br/>Just as knowledge of the harrow has passed from generation to generation since time immemorial, so too has a deep spiritual connection to the otherworldly forces bound by the harrow passed through the ages. Your family line might trace back to a branch of the ancient Imlios clan, or one of your ancestors might have once escaped the <Link to="/rule/harrowed_realm">Harrowed Realm</Link>, carrying its influence back in his blood. Perhaps you are descended from exceptionally powerful harrowers, and their skill naturally resonates within you. Regardless, your connection to the mysterious deck grants you magical power over the cards of the harrow, visions of the future, and the ability to call down ephemeral forces.</p>
-<p><strong>Class Skill:</strong> Knowledge (history).</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/ill_omen">ill omen</Link> (3rd), <Link to="/spell/augury">augury</Link> (5th), <Link to="/spell/harrowing">harrowing</Link> (7th), <Link to="/spell/shadow_conjuration">shadow conjuration</Link> (9th), <Link to="/spell/contact_other_plane">contact other plane</Link> (11th), <Link to="/spell/legend_lore">legend lore</Link> (13th), <Link to="/spell/greater_harrowing">greater harrowing</Link> (15th), <Link to="/spell/moment_of_prescience">moment of prescience</Link> (17th), <Link to="/spell/weird">weird</Link> (19th).</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/craft_wondrous_item">Craft Wondrous Item</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/fortune_teller">Fortune Teller</Link>, <Link to="/feat/harrowed">Harrowed</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [history]), <Link to="/feat/varisian_tattoo">Varisian Tattoo</Link></p>
-<p><strong>Bloodline Arcana:</strong> Whenever you cast a divination spell that requires a percentage roll, add 5 to the result of your roll. In addition, you can roll the percentage dice twice and use the result you prefer. Your maximum percentage chance of receiving a meaningful and accurate reply for divination spells is 100%, instead of the usual 90%.</p>
-<p><strong>Bloodline Powers:</strong> Your connection to the harrow gives you uncanny insight into both the future and the motivations of mortals.</p>
-<blockquote>
-<p><em>Twisted Fortune (Sp):</em> At 1st level, you can use your supernatural insight to hijack the fortunes of a single target within 30 feet. For 1 round, the target becomes confused and cannot directly control its actions (Will negates). Once a creature has been affected by twisted fortune, it is immune to the ability's effects for 24 hours. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><em>See It Coming (Su):</em> At 3rd level, you gain a +1 luck bonus on the saving throw type of your choice (Fortitude, Reflex, or Will). As a full-round action, you can change which saving throw your luck bonus applies to. At 7th level and every 4 levels thereafter, this bonus increases by 1, to a maximum of +5 at 19th level.</p>
-<p><em>Invoke the Harrow (Su):</em> At 9th level, you can draw a random harrow card from a complete <Link to="/eq-misc/harrow_deck">harrow deck</Link> you own as a standard action and channel the aspects of the card into your body. You take on superficial traits featured on the card and gain a +4 enhancement bonus to the ability score associated with the card's suit. You can invoke the harrow for a number of minutes per day equal to your sorcerer level; the duration need not be continuous, but it must be used in 1-minute increments.</p>
-<p><em>Harrowed Home (Sp):</em> At 15th level, your otherworldly connection is so strong that your subconscious cleaves off a small portion of the Harrowed Realm for use as your own private sanctuary. Your harrowed home is created the first time you use this ability, and is decorated as a garish reflection of your personality. Thereafter, you always visit this same home. You can place a portal to your harrowed home once every 24 hours, but placing a new portal destroys the previous one, and you can not move the entrance while you are inside. As long as you are not in your harrowed home, time ceases to pass for anything and anyone still in your pocket dimension; creatures cannot move, objects do not decay, and everything remains exactly the same as you left it the last time you visited the plane. Time continues as normal whenever you are inside your harrowed home. This ability is otherwise identical to <Link to="/spell/mages_magnificent_mansion">mage's magnificent mansion</Link>.</p>
-<p><em>Kin to the Old Tales (Su):</em> At 20th level, your soul becomes host to the otherworldly energies of the harrow. You gain DR 10/cold iron and immunity to curses, paralysis, and sleep. You can always act in the surprise round of combat, and you cannot be caught flat-footed. You gain unlimited use of your <em>invoke the harrow</em> ability.</p>
-</blockquote>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT)</Pair></Ability>
+<Ability id="bonus-spells-by-sorcerer-level" icon={["learn"]}>
+<Pair single id="bonus-spells-by-sorcerer-level">Bonus Spells by Sorcerer Level</Pair>
+<Pair plain title="3rd"><Link to="/spell/ill_omen">Ill omen</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/augury">Augury</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/harrowing">Harrowing</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/shadow_conjuration">Shadow conjuration</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/contact_other_plane">Contact other plane</Link></Pair>
+<Pair plain title="13th"><Link to="/spell/legend_lore">Legend lore</Link></Pair>
+<Pair plain title="15th"><Link to="/spell/greater_harrowing">Greater harrowing</Link></Pair>
+<Pair plain title="17th"><Link to="/spell/moment_of_prescience">Moment of prescience</Link></Pair>
+<Pair plain title="19th"><Link to="/spell/weird">Weird</Link></Pair>
+</Ability>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/alertness">Alertness</Link><br/><Link to="/feat/craft_wondrous_item">Craft Wondrous Item</Link><br/><Link to="/feat/extend_spell">Extend Spell</Link><br/><Link to="/feat/fortune_teller">Fortune Teller</Link><br/><Link to="/feat/harrowed">Harrowed</Link><br/><Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [history])<br/><Link to="/feat/varisian_tattoo">Varisian Tattoo</Link></Cell></Row></Block>
+<Ability id="bloodline-arcana" icon={["boost","roll"]}>
+<Pair single id="bloodline-arcana">Bloodline Arcana</Pair>
+<Pair title="Passive Ability">Whenever you cast a divination spell that requires a percentage roll, add 5 to the result of your roll. In addition, you can roll the percentage dice twice and use the result you prefer.</Pair>
+<Pair title="Special">Your maximum percentage chance of receiving a meaningful and accurate reply for divination spells is 100%, instead of the usual 90%.</Pair>
+</Ability>
+<h3 id="sorcbloodline-harrow-bloodline-powers">Bloodline Powers</h3>
+<p>Your connection to the harrow gives you uncanny insight into both the future and the motivations of mortals.</p>
+<Ability id="twisted-fortune-sp" icon={["select","lower"]}>
+<Pair single id="twisted-fortune-sp">Twisted Fortune (Sp)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">You can use your supernatural insight to hijack the fortunes of a single target within 30 feet. For 1 round, the target becomes <Link to="/misc/confused">confused</Link> and cannot directly control its actions (Will negates). Once a creature has been affected by <em>twisted fortune,</em> it is immune to the ability's effects for 24 hours.</Pair>
+</Ability>
+<Ability id="see-it-coming-su" icon={["def"]}>
+<Pair single id="see-it-coming-su">See It Coming (Su)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">You gain a +1 luck bonus on the saving throw type of your choice (Fortitude, Reflex, or Will).</Pair>
+<Pair title="Full-Round Action">You can change which saving throw your luck bonus applies to.</Pair>
+<Pair title="At 7th Level">The bonus becomes +2.</Pair>
+<Pair title="At 11th Level">The bonus increases to +3.</Pair>
+<Pair title="At 15th Level">The bonus becomes +4.</Pair>
+<Pair title="At 19th Level">The bonus increases to +5.</Pair>
+</Ability>
+<Ability id="invoke-the-harrow-su" icon={["boost"]}>
+<Pair single id="invoke-the-harrow-su">Invoke the Harrow (Su)</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Usage">1 minute/day per sorcerer level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Standard Action">You can draw a random harrow card from a complete <Link to="/eq-misc/harrow_deck">harrow deck</Link> you own and channel the aspects of the card into your body. You take on superficial traits featured on the card and gain a +4 enhancement bonus to the ability score associated with the card's suit.</Pair>
+</Ability>
+<Ability id="harrowed-home-sp" icon={["magic"]}>
+<Pair single id="harrowed-home-sp" flavor="Your otherworldly connection is so strong that your subconscious cleaves off a small portion of the Harrowed Realm for use as your own private sanctuary.">Harrowed Home (Sp)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability"><p>Your <em>harrowed home</em> is created the first time you use this ability, and is decorated as a garish reflection of your personality. Thereafter, you always visit this same home.</p>
+<p>You can place a portal to your <em>harrowed home</em> once every 24 hours, but placing a new portal destroys the previous one, and you can not move the entrance while you are inside.</p>
+<p>As long as you are not in your <em>harrowed home,</em> time ceases to pass for anything and anyone still in your pocket dimension; creatures cannot move, objects do not decay, and everything remains exactly the same as you left it the last time you visited the plane. Time continues as normal whenever you are inside your <em>harrowed home.</em></p>
+<p>This ability is otherwise identical to <Link to="/spell/mages_magnificent_mansion">mage's magnificent mansion</Link>.</p>
+</Pair>
+</Ability>
+<Ability id="kin-to-the-old-tales-su" icon={["def","boost"]}>
+<Pair single id="kin-to-the-old-tales-su" flavor="Your soul becomes host to the otherworldly energies of the harrow.">Kin to the Old Tales (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You gain DR 10/cold iron and immunity to curses, paralysis, and sleep. You can always act in the surprise round of combat, and you cannot be caught flat-footed.</Pair>
+<Pair title="Ability">You gain unlimited use of your <em>invoke the harrow</em> ability.</Pair>
+</Ability>
 </>};
 const _imperious = {title: "Imperious", jsx: <><h2 id="sorcbloodline-imperious-imperious">Imperious</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 75</Link><br/>A scion of forgotten kings, with a lineage rich with the dust of ancient empires spanning every golden age of humanity's history, an imperious embodies the apex of human potential, as well as human temerity and uninhibited hubris.</p>
-<p><strong>Class Skill:</strong> Perform (oratory).</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/moment_of_greatness">moment of greatness</Link> (3rd), <Link to="/spell/eagles_splendor">eagle's splendor</Link> (5th), <Link to="/spell/heroism">heroism</Link> (7th), <Link to="/spell/threefold_aspect">threefold aspect</Link> (9th), <Link to="/spell/greater_command">greater command</Link> (11th), <Link to="/spell/repulsion">repulsion</Link> (13th), <Link to="/spell/greater_age_resistance">greater age resistance</Link> (15th), <Link to="/spell/prediction_of_failure">prediction of failure</Link> (17th), <Link to="/spell/overwhelming_presence">overwhelming presence</Link> (19th).</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/heroic_defiance">Heroic Defiance</Link>, <Link to="/feat/heroic_recovery">Heroic Recovery</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/lingering_spell">Lingering Spell</Link>, <Link to="/feat/magical_aptitude">Magical Aptitude</Link>, <Link to="/feat/persuasive">Persuasive</Link></p>
-<p><strong>Bloodline Arcana:</strong> Whenever you cast a harmful spell, you gain a bonus equal to the spell's level on Intimidate checks made against any creature adversely effected by that spell until the end of your next turn. Adversely effected typically means damage, but it can also mean debilitating effects or conditions.</p>
-<p><strong>Bloodline Powers:</strong> You draw upon ancestors both legendary and forgotten.</p>
-<blockquote>
-<p><em>Student of Humanity (Ex):</em> At 1st level, you gain Diplomacy, Knowledge (history), Knowledge (local), Knowledge (nobility), and Linguistics as class skills. In addition, when using these skills to learn, study, or gather information about humans, you add an insight bonus equal to your Charisma bonus on such checks.</p>
-<p><em>Heroic Echo (Su):</em> At 3rd level, when you receive a morale bonus from any spell, spell-like ability, or magic item, including those you cast on yourself, that bonus increases by +1. At 9th level, this ability also applies to competence bonuses. If you receive a morale effect (or a competence effect at 9th level) that affects an area or multiple targets, as an immediate action you can share your increased bonus with all other recipients. This increase to other participants lasts a number of rounds equal to your Charisma bonus. You can use this ability once per day, plus one time per three levels after 3rd.</p>
-<p><em>Take Your Best Shot (Su):</em> At 9th level, if you are targeted by a harmful spell, spell-like ability, or supernatural ability and suffer no harm from it, whether because of a successful saving throw, spell resistance, the attack missing, or some other protection, as an immediate action you can make an Intimidate check to demoralize the creature that produced the effect, but only if the creature that used the harmful effect is within 30 feet and can clearly see and hear you.</p>
-<p>At 13th level, you can use this ability after succeeding at a saving throw to reduce the effects of an attack (if no save is allowed, you cannot use this ability).</p>
-<p><em>Heroic Legends (Su):</em> At 15th level, you may inspire greatness or inspire heroics as a <Link to="/class/bard">bard</Link> of your sorcerer level by sacrificing a spell slot as a swift or move action. The effect lasts a number of rounds equal to the sacrificed spell's level; this duration is doubled for human recipients.</p>
-<p><em>Immortal Legend (Ex):</em> At 20th level, you cease aging; no longer need to eat, drink, or sleep; and gain immunity to death effects and energy drain.</p>
-</blockquote>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perform">Perform</Link> (oratory) (CHA)</Pair></Ability>
+<Ability id="bonus-spells-by-sorcerer-level" icon={["learn"]}>
+<Pair single id="bonus-spells-by-sorcerer-level">Bonus Spells by Sorcerer Level</Pair>
+<Pair plain title="3rd"><Link to="/spell/moment_of_greatness">Moment of greatness</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/eagles_splendor">Eagle's splendor</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/heroism">Heroism</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/threefold_aspect">Threefold aspect</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/greater_command">Greater command</Link></Pair>
+<Pair plain title="13th"><Link to="/spell/repulsion">Repulsion</Link></Pair>
+<Pair plain title="15th"><Link to="/spell/greater_age_resistance">Greater age resistance</Link></Pair>
+<Pair plain title="17th"><Link to="/spell/prediction_of_failure">Prediction of failure</Link></Pair>
+<Pair plain title="19th"><Link to="/spell/overwhelming_presence">Overwhelming presence</Link></Pair>
+</Ability>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/diehard">Diehard</Link><br/><Link to="/feat/endurance">Endurance</Link><br/><Link to="/feat/heroic_defiance">Heroic Defiance</Link><br/><Link to="/feat/heroic_recovery">Heroic Recovery</Link><br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/lingering_spell">Lingering Spell</Link><br/><Link to="/feat/magical_aptitude">Magical Aptitude</Link><br/><Link to="/feat/persuasive">Persuasive</Link></Cell></Row></Block>
+<Ability id="bloodline-arcana" icon={["boost"]}>
+<Pair single id="bloodline-arcana">Bloodline Arcana</Pair>
+<Pair title="Passive Ability">Whenever you cast a harmful spell, you gain a bonus equal to the spell's level on <Link to="/skill/intimidate">Intimidate</Link> checks made against any creature adversely effected by that spell until the end of your next turn. Adversely effected typically means damage, but it can also mean debilitating effects or conditions.</Pair>
+</Ability>
+<h3 id="sorcbloodline-imperious-bloodline-powers">Bloodline Powers</h3>
+<p>You draw upon ancestors both legendary and forgotten.</p>
+<Ability icon={["skill","boost"]} id="student-of-humanity-ex">
+<Pair id="student-of-humanity-ex" single>Student of Humanity (Ex)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair>
+<Pair title="Passive Ability">In addition, when using these skills to learn, study, or gather information about humans, you add an insight bonus equal to your Charisma bonus on such checks.</Pair></Ability>
+<Ability id="heroic-echo-su" icon={["boost"]}>
+<Pair single id="heroic-echo-su">Heroic Echo (Su)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">When you receive a morale bonus from any spell, spell-like ability, or magic item, including those you cast on yourself, that bonus increases by +1.</Pair>
+<Pair title="Immediate Action">If you receive a morale effect that affects an area or multiple targets, you can share your increased bonus with all other recipients. This increase to other participants lasts a number of rounds equal to your Charisma bonus.</Pair>
+<Pair title="Usage">1 time/day per three sorcerer levels</Pair>
+<Pair title="At 9th Level">These abilities also apply to competence bonuses.</Pair>
+</Ability>
+<Ability id="take-your-best-shot-su" icon={["select","lower"]}>
+<Pair single id="take-your-best-shot-su">Take Your Best Shot (Su)</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Immediate Action">If you are targeted by a harmful spell, spell-like ability, or supernatural ability and suffer no harm from it, whether because of a successful saving throw, spell resistance, the attack missing, or some other protection, you can make an Intimidate check to demoralize the creature that produced the effect, but only if the creature that used the harmful effect is within 30 feet and can clearly see and hear you.</Pair>
+<Pair title="At 13th Level">You can use this ability after succeeding at a saving throw to reduce the effects of an attack (if no save is allowed, you cannot use this ability).</Pair>
+</Ability>
+<Ability id="heroic-legends-su" icon={["power"]}>
+<Pair single id="heroic-legends-su">Heroic Legends (Su)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">You may <Link to="/performance/inspire_greatness">inspire greatness</Link> or <Link to="/performance/inspire_heroics">inspire heroics</Link> as a <Link to="/class/bard">bard</Link> of your sorcerer level by sacrificing a spell slot as a <strong className="hl">swift</strong> or <strong className="hl">move action</strong>. The effect lasts a number of rounds equal to the sacrificed spell's level; this duration is doubled for human recipients.</Pair>
+</Ability>
+<Ability id="immortal-legend-ex" icon={["def"]}>
+<Pair single id="immortal-legend-ex">Immortal Legend (Ex)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You cease aging; no longer need to eat, drink, or sleep; and gain immunity to death effects and energy drain.</Pair>
+</Ability>
 </>};
 const _impossible = {title: "Impossible", jsx: <><h2 id="sorcbloodline-impossible-impossible">Impossible</h2>
 <p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance pg. 21</Link><br/>You can see beyond the mundane, and are capable of visualizing the improbable, and even the impossible. This ability derives from an equally unlikely source, such as the godmind of the axiomites or the monad of aeons. If this expanded perception doesn't drive you mad, you may learn to make the impossible into reality.</p>
-<p><strong>Class Skill:</strong> Knowledge (engineering).</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/lesser_confusion">lesser confusion</Link> (3rd), <Link to="/spell/make_whole">make whole</Link> (5th), <Link to="/spell/shrink_item">shrink item</Link> (7th), <Link to="/spell/confusion">confusion</Link> (9th), <Link to="/spell/fabricate">fabricate</Link> (11th), <Link to="/spell/animate_objects">animate objects</Link> (13th), <Link to="/spell/insanity">insanity</Link> (15th), <Link to="/spell/polymorph_any_object">polymorph any object</Link> (17th), <Link to="/spell/wish">wish</Link> (19th).</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/craft_construct">Craft Construct</Link>, <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>, <Link to="/feat/deft_hands">Deft Hands</Link>, <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link>, <Link to="/feat/far_shot">Far Shot</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/point_blank_shot">Point-Blank Shot</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [engineering])</p>
-<p><strong>Bloodline Arcana:</strong> Constructs are susceptible to your enchantment (compulsion) spells as if they were not mind-affecting. Constructs are treated as living creatures for the purposes of determining which spells affect them.</p>
-<p><strong>Bloodline Powers:</strong> You see the world differently from others, and can mold it to suit your needs.</p>
-<blockquote>
-<p><em>Disorienting Touch (Sp):</em> At 1st level, as a melee touch attack, you can cause a creature to doubt its sense of depth and direction. The target is <Link to="/misc/sickened">sickened</Link> for a number of rounds equal to 1/2 your sorcerer level (minimum 1). Multiple touches do not stack, but they do add to the duration. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><em>Spontaneous Generation:</em> At 3rd level, you gain <Link to="/feat/craft_wondrous_item">Craft Wondrous Item</Link> as a bonus feat. In addition, when you craft a magic item (except a potion, a spell-trigger item, or a spell completion item), you may ignore one spell prerequisite without increasing the creation DC. You can ignore an additional spell prerequisite at 9th, 15th, and 20th levels.</p>
-<p><em>Distracting Pattern (Su):</em> At 9th level, you can distort the scenery around you for a number of rounds equal to your sorcerer level. This ability provides a 20% miss chance on ranged attacks made against you and grants you a bonus on Stealth checks equal to 1/2 your sorcerer level. You can use this ability once per day at 9th level, twice per day at 17th level, and three times per day at 20th level.</p>
-<p><em>Relativity (Su):</em> At 15th level, you can traverse vertical surfaces as easily as you walk on the ground. When climbing, you move at your normal land speed and take none of the penalties associated with climbing. The surface must be able to support your weight, and <Link to="/rule/difficult_terrain">difficult terrain</Link> affects your speed as normal. You are also immune to <Link to="/spell/reverse_gravity">reverse gravity</Link> and similar effects.</p>
-<p><em>Living Paradox (Ex):</em> At 20th level, your outward appearance remains the same, but beneath your skin lies not flesh and blood but clockwork gears, miniature galaxies, or something equally uncanny. You gain immunity to disease and poison. You take no additional damage from bleed effects, critical hits, and sneak attacks.</p>
-</blockquote>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT)</Pair></Ability>
+<Ability id="bonus-spells-by-sorcerer-level" icon={["learn"]}>
+<Pair single id="bonus-spells-by-sorcerer-level">Bonus Spells by Sorcerer Level</Pair>
+<Pair plain title="3rd"><Link to="/spell/lesser_confusion">Lesser confusion</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/make_whole">Make whole</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/shrink_item">Shrink item</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/confusion">Confusion</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/fabricate">Fabricate</Link></Pair>
+<Pair plain title="13th"><Link to="/spell/animate_objects">Animate objects</Link></Pair>
+<Pair plain title="15th"><Link to="/spell/insanity">Insanity</Link></Pair>
+<Pair plain title="17th"><Link to="/spell/polymorph_any_object">Polymorph any object</Link></Pair>
+<Pair plain title="19th"><Link to="/spell/wish">Wish</Link></Pair>
+</Ability>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/craft_construct">Craft Construct</Link><br/><Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link><br/><Link to="/feat/deft_hands">Deft Hands</Link><br/><Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link><br/><Link to="/feat/far_shot">Far Shot</Link><br/><Link to="/feat/iron_will">Iron Will</Link><br/><Link to="/feat/point_blank_shot">Point-Blank Shot</Link><br/><Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [engineering])</Cell></Row></Block>
+<Ability id="bloodline-arcana" icon={["lower"]}>
+<Pair single id="bloodline-arcana">Bloodline Arcana</Pair>
+<Pair title="Passive Ability">Constructs are susceptible to your enchantment (compulsion) spells as if they were not mind-affecting. Constructs are treated as living creatures for the purposes of determining which spells affect them.</Pair>
+</Ability>
+<h3 id="sorcbloodline-impossible-bloodline-powers">Bloodline Powers</h3>
+<p>You see the world differently from others, and can mold it to suit your needs.</p>
+<Ability id="disorienting-touch-sp" icon={["touch"]}>
+<Pair single id="disorienting-touch-sp">Disorienting Touch (Sp)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">As a melee touch attack, you can cause a creature to doubt its sense of depth and direction. The target is <Link to="/misc/sickened">sickened</Link> for a number of rounds equal to 1/2 your sorcerer level (minimum 1). Multiple touches do not stack, but they do add to the duration.</Pair>
+</Ability>
+<Ability id="spontaneous-generation" icon={["power","boost"]}>
+<Pair single id="spontaneous-generation">Spontaneous Generation</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">You gain <Link to="/feat/craft_wondrous_item">Craft Wondrous Item</Link> as a bonus feat.</Pair>
+<Pair title="Passive Ability">In addition, when you craft a magic item (except a potion, a spell-trigger item, or a spell completion item), you may ignore one spell prerequisite without increasing the creation DC.</Pair>
+<Pair title="At 9th Level">You can ignore 2 spell prerequisites.</Pair>
+<Pair title="At 15th Level">You can ignore 3 spell prerequisites.</Pair>
+<Pair title="At 20th Level">You can ignore 4 spell prerequisites.</Pair>
+</Ability>
+<Ability id="distracting-pattern-su" icon={["def"]}>
+<Pair single id="distracting-pattern-su">Distracting Pattern (Su)</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Ability">Once per day, you can distort the scenery around you for a number of rounds equal to your sorcerer level. This ability provides a 20% miss chance on ranged attacks made against you and grants you a bonus on <Link to="/skill/stealth">Stealth</Link> checks equal to 1/2 your sorcerer level.</Pair>
+<Pair title="At 17th Level">You can use this ability twice per day.</Pair>
+<Pair title="At 20th Level">You can use this ability three times a day.</Pair>
+</Ability>
+<Ability id="relativity-su" icon={["power","boost","def"]}>
+<Pair single id="relativity-su" flavor="You can traverse vertical surfaces as easily as you walk on the ground.">Relativity (Su)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">When climbing, you move at your normal land speed and take none of the penalties associated with climbing. The surface must be able to support your weight, and <Link to="/rule/difficult_terrain">difficult terrain</Link> affects your speed as normal. You are also immune to <Link to="/spell/reverse_gravity">reverse gravity</Link> and similar effects.</Pair>
+</Ability>
+<Ability id="living-paradox-ex" icon={["def"]}>
+<Pair single id="living-paradox-ex" flavor="Your outward appearance remains the same, but beneath your skin lies not flesh and blood but clockwork gears, miniature galaxies, or something equally uncanny.">Living Paradox (Ex)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You gain immunity to disease and poison. You take no additional damage from bleed effects, critical hits, and sneak attacks.</Pair>
+</Ability>
 </>};
 const _infernal = {hasJL:true,title: "Infernal", jsx: <><div className="jumpList" id="sorcbloodline-infernal-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="sorcbloodline-infernal-pit-touched-wildblooded-mutation">Pit-Touched (Wildblooded Mutation)</InnerLink></li></ul></div><h2 id="sorcbloodline-infernal-infernal">Infernal</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 76</Link><br/>Somewhere in your family's history, a relative made a deal with <Link to="/family/devil">a devil</Link>, and that pact has influenced your family line ever since. In you, it manifests in direct and obvious ways, granting you powers and abilities. While your fate is still your own, you can't help but wonder if your ultimate reward is bound to the Pit.</p>
-<p><strong>Class Skill:</strong> Diplomacy.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/protection_from_good">protection from good</Link> (3rd), <Link to="/spell/scorching_ray">scorching ray</Link> (5th), <Link to="/spell/suggestion">suggestion</Link> (7th), <Link to="/spell/charm_monster">charm monster</Link> (9th), <Link to="/spell/dominate_person">dominate person</Link> (11th), <Link to="/spell/planar_binding">planar binding (devils and creatures with the fiendish template only)</Link> (13th), <Link to="/spell/greater_teleport">greater teleport</Link> (15th), <Link to="/spell/power_word_stun">power word stun</Link> (17th), <Link to="/spell/meteor_swarm">meteor swarm</Link> (19th).</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/blind_fight">Blind-Fight</Link>, <Link to="/feat/combat_expertise">Combat Expertise</Link>, <Link to="/feat/deceitful">Deceitful</Link>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/improved_disarm">Improved Disarm</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [planes]), <Link to="/feat/spell_penetration">Spell Penetration</Link></p>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA)</Pair></Ability>
+<Ability id="bonus-spells-by-sorcerer-level" icon={["learn"]}>
+<Pair single id="bonus-spells-by-sorcerer-level">Bonus Spells by Sorcerer Level</Pair>
+<Pair plain title="3rd"><Link to="/spell/protection_from_good">Protection from good</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/scorching_ray">Scorching ray</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/suggestion">Suggestion</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/charm_monster">Charm monster</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/dominate_person">Dominate person</Link></Pair>
+<Pair plain title="13th"><Link to="/spell/planar_binding">Planar binding</Link> (devils and creatures with the fiendish template only)</Pair>
+<Pair plain title="15th"><Link to="/spell/greater_teleport">Greater teleport</Link></Pair>
+<Pair plain title="17th"><Link to="/spell/power_word_stun">Power word stun</Link></Pair>
+<Pair plain title="19th"><Link to="/spell/meteor_swarm">Meteor swarm</Link></Pair>
+</Ability>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/blind_fight">Blind-Fight</Link><br/><Link to="/feat/combat_expertise">Combat Expertise</Link><br/><Link to="/feat/deceitful">Deceitful</Link><br/><Link to="/feat/extend_spell">Extend Spell</Link><br/><Link to="/feat/improved_disarm">Improved Disarm</Link><br/><Link to="/feat/iron_will">Iron Will</Link><br/><Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [planes])<br/><Link to="/feat/spell_penetration">Spell Penetration</Link></Cell></Row></Block>
 <div className="sideNoteWrap singular optional elephant"><ScrollContainer id="sorcbloodline-infernal--table-0"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td><p><strong>Sources</strong> <Link to="/source/the_elephant_in_the_room_feat_taxes_in_pathfinder">The Elephant in the Room: Feat Taxes in Pathfinder</Link><br/><Link to="/feat/blind_fight">Blind-Fight</Link>, <Link to="/feat/deceitful">Deceitful</Link>, <strong className="hl"><Link to="/rule/deft_maneuvers">Deft Maneuvers</Link></strong>, <Link to="/feat/extend_spell">Extend Spell</Link>, <Link to="/feat/greater_disarm">Greater Disarm</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [planes]), <Link to="/feat/spell_penetration">Spell Penetration</Link></p>
-</td></tr></tbody></table></ScrollContainer></div><p><strong>Bloodline Arcana:</strong> Whenever you cast a spell of the <Link to="/spelldef/charm">charm</Link> subschool, increase the spell's DC by +2.</p>
-<p><strong>Bloodline Powers:</strong> You can draw upon the power of Hell, although you must be wary of its corrupting influence. Such power does not come without a price.</p>
-<blockquote>
-<p><em>Corrupting Touch (Sp):</em> At 1st level, you can cause a creature to become <Link to="/misc/shaken">shaken</Link> as a melee touch attack. This effect persists for a number of rounds equal to 1/2 your sorcerer level (minimum 1). Creatures shaken by this ability radiate an aura of evil, as if they were an evil outsider (see <Link to="/spell/detect_evil">detect evil</Link>). Multiple touches do not stack, but they do add to the duration. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><em>Infernal Resistances (Ex):</em> At 3rd level, you gain resist fire 5 and a +2 bonus on saving throws made against poison. At 9th level, your resistance to fire increases to 10 and your bonus on poison saving throws increases to +4.</p>
-<p><em>Hellfire (Sp):</em> At 9th level, you can call down a column of hellfire. This 10-foot-radius <Link to="/misc/burst">burst</Link> does 1d6 points of fire damage per sorcerer level. Those caught in the area of your blast receive a Reflex save for half damage. Good creatures that fail their saves are shaken for a number of rounds equal to your sorcerer level. The DC of this save is equal to 10 + 1/2 your sorcerer level + your Charisma modifier. At 9th level, you can use this ability once per day. At 17th level, you can use this ability twice per day. At 20th level, you can use this ability three times per day. This power has a range of 60 feet.</p>
-<p><em>On Dark Wings (Su):</em> At 15th level, you can grow fearsome bat wings as a standard action, giving you a fly speed of 60 feet with average maneuverability. The wings can be dismissed as a free action.</p>
-<p><em>Power of the Pit (Su):</em> At 20th level, your form becomes infused with vile power. You gain immunity to fire and poison. You also gain resistance to acid 10 and cold 10, and the ability to see perfectly in darkness of any kind to a range of 60 feet.</p>
-</blockquote>
+</td></tr></tbody></table></ScrollContainer></div><Ability id="bloodline-arcana" icon={["boost"]}>
+<Pair single id="bloodline-arcana">Bloodline Arcana</Pair>
+<Pair title="Passive Ability">Whenever you cast a spell of the <Link to="/spelldef/charm">charm</Link> subschool, increase the spell's DC by +2.</Pair>
+</Ability>
+<h3 id="sorcbloodline-infernal-bloodline-powers">Bloodline Powers</h3>
+<p>You can draw upon the power of Hell, although you must be wary of its corrupting influence. Such power does not come without a price.</p>
+<Ability id="corrupting-touch-sp" icon={["touch","aura"]}>
+<Pair single id="corrupting-touch-sp">Corrupting Touch (Sp)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">You can cause a creature to become <Link to="/misc/shaken">shaken</Link> as a melee touch attack. This effect persists for a number of rounds equal to 1/2 your sorcerer level (minimum 1). Creatures shaken by this ability radiate an aura of evil, as if they were an evil outsider (see <Link to="/spell/detect_evil">detect evil</Link>). Multiple touches do not stack, but they do add to the duration.</Pair>
+</Ability>
+<Ability id="infernal-resistances-ex" icon={["def"]}>
+<Pair single id="infernal-resistances-ex">Infernal Resistances (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/resist">resist</Link> fire 5 and a +2 bonus on saving throws made against poison.</Pair>
+<Pair title="At 9th Level">Your resistance to fire increases to 10 and your bonus on poison saving throws increases to +4.</Pair>
+</Ability>
+<Ability id="hellfire-sp" icon={["boom"]}>
+<Pair single id="hellfire-sp">Hellfire (Sp)</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Ability">Once per day, you can call down a column of hellfire. This 10-foot-radius <Link to="/misc/burst">burst</Link> does 1d6 points of fire damage per sorcerer level. Those caught in the area of your blast receive a Reflex save for half damage. Good creatures that fail their saves are shaken for a number of rounds equal to your sorcerer level. The DC of this save is equal to 10 + 1/2 your sorcerer level + your Charisma modifier. This power has a range of 60 feet.</Pair>
+<Pair title="At 17th Level">You can use this ability twice per day.</Pair>
+<Pair title="At 20th Level">You can use this ability three times a day.</Pair>
+</Ability>
+<Ability id="on-dark-wings-su" icon={["power"]}>
+<Pair single id="on-dark-wings-su">On Dark Wings (Su)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Standard Action">You can grow fearsome bat wings, giving you a fly speed of 60 feet with average maneuverability. The wings can be dismissed as a <strong className="hl">free action</strong>.</Pair>
+</Ability>
+<Ability id="power-of-the-pit-su" icon={["def","power"]}>
+<Pair single id="power-of-the-pit-su" flavor="Your form becomes infused with vile power.">Power of the Pit (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You gain immunity to fire and poison. You also gain resistance to acid 10 and cold 10, and the ability to see perfectly in darkness of any kind to a range of 60 feet.</Pair>
+</Ability>
 <h3 id="sorcbloodline-infernal-pit-touched-wildblooded-mutation" data-hash-target>Pit-Touched (Wildblooded Mutation)</h3>
-<p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 71</Link><br/>Your diabolic corruption is from a source in the deepest parts of Hell.<br/><strong>Associated Bloodline:</strong> Infernal.</p>
-<p><strong>Bloodline Arcana:</strong> Whenever you cast a spell, you gain a bonus on Intimidate checks equal to the spell's level for 1 round.</p>
-<p><strong>Bloodline Powers:</strong> The crushing weight of evil has given you the strength to endure.</p>
-<blockquote>
-<p><em>Tough as Hell (Ex):</em> At 9th level, you gain a +2 inherent bonus to your Constitution. This bonus increases to +4 at 13th level, and to +6 at 17th level. This bloodline power replaces <em>hellfire.</em></p>
-</blockquote>
+<p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 71</Link><br/>Your diabolic corruption is from a source in the deepest parts of Hell.</p>
+<Ability id="replacement-bloodline-arcana" icon={["boost"]}>
+<Pair single id="replacement-bloodline-arcana">Replacement Bloodline Arcana</Pair>
+<Pair title="Passive Ability">Whenever you cast a spell, you gain a bonus on Intimidate checks equal to the spell's level for 1 round.</Pair>
+</Ability>
+<h3 id="sorcbloodline-infernal-bloodline-powers">Bloodline Powers</h3>
+<p>The crushing weight of evil has given you the strength to endure.</p>
+<Ability id="tough-as-hell-ex" icon={["def"]}>
+<Pair single id="tough-as-hell-ex">Tough as Hell (Ex)</Pair>
+<Pair hl title="Replaces">Hellfire</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Passive Ability">You gain a +2 inherent bonus to your Constitution.</Pair>
+<Pair title="At 13th Level">This bonus becomes +4.</Pair>
+<Pair title="At 17th Level">This bonus increases to +6.</Pair>
+</Ability>
 </>};
 const _kobold_sorcerer = {title: "Kobold Sorcerer", jsx: <><h2 id="sorcbloodline-kobold_sorcerer-kobold-sorcerer">Kobold Sorcerer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 134</Link><br/>While many <Link to="/race/kobold">kobold</Link> sorcerers tout their purely draconic bloodline, over generations of eldritch training, some such spellcasters have created a bloodline that, while tinged with some draconic magic, is the embodiment of the race's virtue distilled into arcane form. Many practitioners of this bloodline go on to lead powerful kobold tribes.</p>
