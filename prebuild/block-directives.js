@@ -499,7 +499,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				});
 			} else if (n === "cskill") {
 				churn(n, attrs, [
-					"gain", "lose", "pre", "post", "preTitle", "postTitle", "preHL", "postHL", "noAlter"
+					"gain", "lose", "pre", "post", "preTitle", "postTitle", "preHL", "postHL", "noAlter", "icon"
 				], [], logError);
 				flags.ability = true;
 				const marked2 = makeNewMarkedInstance();

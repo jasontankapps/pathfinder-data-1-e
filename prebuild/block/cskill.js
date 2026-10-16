@@ -171,7 +171,7 @@ const makeClassSkillsAbilityBlock = ({
 	logError
 }) => {
 	const {
-		gain, lose, pre, post, preTitle, postTitle, preHL, postHL, noAlter
+		gain, lose, pre, post, preTitle, postTitle, preHL, postHL, noAlter, icon
 	} = attrs;
 	const doParse = (input) => {
 		return marked2.parseInline(convertEncodedInfo(input));
@@ -206,7 +206,12 @@ const makeClassSkillsAbilityBlock = ({
 		]);
 	}
 
-	return `${maybeClear}<Ability icon={["skill"]} id="${id}">\n`
+	const icons = ["skill"];
+	if(icon) {
+		icons.push(...icon.split("-"));
+	}
+
+	return `${maybeClear}<Ability icon={${JSON.stringify(icons)}} id="${id}">\n`
 		+ `<Pair id="${id}" single>${
 			text ? doParse(text) : "Class Skills"
 		}</Pair>\n`
