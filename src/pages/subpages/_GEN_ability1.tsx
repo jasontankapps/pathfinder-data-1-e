@@ -7,6 +7,7 @@ import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
 import Icons from '../../components/Icons';
+import Bonus from '../../components/Bonus';
 const _not_found = {title: "Unknown", jsx: <><h2 id="ability-not_found-error">Error</h2>
 <p>Unable to find the requested class ability.</p>
 </>};
@@ -1085,7 +1086,8 @@ const _aspects = {title: "Aspects", topLink: ["Shifter","class/shifter"], jsx: <
 </div>
 </>};
 const _banners = {title: "Banners", topLink: ["Cavalier","class/cavalier"], jsx: <><h2 id="ability-banners-cavalier-banners">Cavalier Banners</h2>
-<p><strong>Sources</strong> <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 4</Link><br/>Some knights inspire and direct their allies with specialized tactics. A cavalier or <Link to="/class/samurai">samurai</Link> can select one of the following battle standards upon gaining the banner class feature, and its benefits replace the normal benefits of the banner and greater banner class features. A battle standard functions as the banner or greater banner class feature except where otherwise noted. A cavalier or samurai who replaces the banner or greater banner class feature via an archetype cannot select a battle standard, with the following exception: a standard bearer cavalier can select a battle standard at 1st level, and its effects increase as per the standard bearer's banner.</p>
+<p><strong>Sources</strong> <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 4</Link><br/>Some knights inspire and direct their allies with specialized tactics. A cavalier or <Link to="/class/samurai">samurai</Link> can select one of the following battle standards upon gaining the <em>banner</em> class feature, and its benefits replace the normal benefits of the <em>banner</em> and <em>greater banner</em> class features. A battle standard functions as the <em>banner</em> or <em>greater banner</em> class feature except where otherwise noted.</p>
+<p>A cavalier or samurai who replaces the <em>banner</em> or <em>greater banner</em> class feature via an archetype cannot select a battle standard, with the following exception: a <Link to="/arc-cavalier/standard_bearer">standard bearer</Link> cavalier can select a battle standard at 1st level, and its effects increase as per the standard bearer's <em>banner.</em></p>
 <Ability id="fleet-standard-ex" icon={["boost","def","power"]}>
 <Pair single id="fleet-standard-ex">Fleet Standard (Ex)</Pair>
 <Pair title="Passive Ability">An ally who benefits from this standard increases her land speed by 5 feet and gains a +1 dodge bonus to AC during any round in which she moved at least 10 feet. This increase to land speed is an enhancement bonus.</Pair>
@@ -1097,29 +1099,20 @@ const _banners = {title: "Banners", topLink: ["Cavalier","class/cavalier"], jsx:
 </Ability>
 <Ability id="jinx-standard-ex" icon={["boost","power"]}>
 <Pair single id="jinx-standard-ex">Jinx Standard (Ex)</Pair>
-<Pair title="Passive Ability">An ally who benefits from this standard gains a +1 bonus on caster level checks to bypass spell resistance and a +1 bonus to the DC of her hexes and necromancy or enchantment spell she casts.</Pair>
-<Pair title="At 10th Level">The bonus on caster level checks becomes +2.</Pair>
+<Pair title="Passive Ability">An ally who benefits from this standard gains a bonus on caster level checks to bypass spell resistance and a bonus to the DC of her hexes and necromancy or enchantment spell she casts. <Bonus t c="cavalier" n={5} pl />.</Pair>
 <Pair title="At 14th Level">An ally benefiting from the banner gains a +2 morale bonus on saving throws against spells or effects that deal hit point damage.</Pair>
-<Pair title="At 15th Level">The bonus on caster level checks increases to +3.</Pair>
-<Pair title="At 20th Level">The bonus on caster level checks becomes +4.</Pair>
 <Pair title="Special">When the cavalier or samurai waves this standard, a number of allies equal to the cavalier or samurai's Charisma modifier (minimum 1) within 60 feet can attempt an Intimidate check to demoralize a foe as an <strong className="hl">immediate action</strong>.</Pair>
 </Ability>
 <Ability id="knave-standard-ex" icon={["def","boost","power"]}>
 <Pair single id="knave-standard-ex">Knave Standard (Ex)</Pair>
-<Pair title="Passive Ability">An ally who benefits from this standard gains a +2 dodge bonus to AC against attacks of opportunity provoked by movement and a +1 morale bonus on attack rolls that benefit from <Link to="/rule/flanking">flanking</Link>.</Pair>
-<Pair title="At 10th Level">The bonus to AC becomes +3.</Pair>
+<Pair title="Passive Ability">An ally who benefits from this standard gains a dodge bonus (equal to 1 + one-fifth of the cavalier's class level) to AC against attacks of opportunity provoked by movement, and a +1 morale bonus on attack rolls that benefit from <Link to="/rule/flanking">flanking</Link>.</Pair>
 <Pair title="At 14th Level">An ally benefiting from the banner gains <Link to="/ability/sneak_attack">sneak attack</Link> +1d6; this stacks with other sources of sneak attack.</Pair>
-<Pair title="At 15th Level">The bonus to AC increases to +4.</Pair>
-<Pair title="At 20th Level">The bonus to AC becomes +5.</Pair>
 <Pair title="Special">When the cavalier or samurai waves this standard, a number of allies equal to the cavalier or samurai's Charisma modifier (minimum 1) within 60 feet can each attempt a <Link to="/rule/feint">feint</Link> against a foe she threatens as an <strong className="hl">immediate action</strong>.</Pair>
 </Ability>
 <Ability id="stalwart-standard-ex" icon={["boost","boost","power"]}>
 <Pair single id="stalwart-standard-ex">Stalwart Standard (Ex)</Pair>
-<Pair title="Passive Ability">An ally who benefits from this standard gains a +2 morale bonus to CMD and a +1 morale bonus on attack rolls to creatures threatening an ally.</Pair>
-<Pair title="At 10th Level">The morale bonus to CMD becomes +3.</Pair>
+<Pair title="Passive Ability">An ally who benefits from this standard gains a morale bonus (equal to 1 + one-fifth of the cavalier's class level) to CMD and a +1 morale bonus on attack rolls to creatures threatening an ally.</Pair>
 <Pair title="At 14th Level">An ally benefiting from the banner is treated as one size category larger for the purposes of determining which creatures can affect him with combat maneuvers.</Pair>
-<Pair title="At 15th Level">The morale bonus to CMD increases to +4.</Pair>
-<Pair title="At 20th Level">The morale bonus to CMD becomes +5.</Pair>
 <Pair title="Special">When the cavalier or samurai waves this standard, each ally within 60 feet can move up to 10 feet without provoking attacks of opportunities and ignoring <Link to="/rule/difficult_terrain">difficult terrain</Link> as an <strong className="hl">immediate action</strong>.</Pair>
 </Ability>
 </>};
