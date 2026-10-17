@@ -471,27 +471,6 @@
 		],
 		"topLink": [ "Shifter", "class/shifter" ]
 	},
-	"banners": {
-		"name": "Banners",
-		"sources": [ "Chronicle of Legends" ],
-		"description": [
-			"## Cavalier Banners",
-			"",
-			"‹SOURCE Chronicle of Legends/4›  ",
-			"Some knights inspire and direct their allies with specialized tactics. A cavalier or ‹class/samurai› can select one of the following battle standards upon gaining the *banner* class feature, and its benefits replace the normal benefits of the *banner* and *greater banner* class features. A battle standard functions as the *banner* or *greater banner* class feature except where otherwise noted.",
-			"",
-			"A cavalier or samurai who replaces the *banner* or *greater banner* class feature via an archetype cannot select a battle standard, with the following exception: a ‹arc-cavalier/standard bearer› cavalier can select a battle standard at 1st level, and its effects increase as per the standard bearer's *banner.*",
-			"",
-			"::ab[Fleet Standard (Ex)]{icon=boost-def-power passive=\"An ally who benefits from this standard increases her land speed by 5 feet and gains a +1 dodge bonus to AC during any round in which she moved at least 10 feet. This increase to land speed is an enhancement bonus.\" increment=\"The bonus to speed~5~5~10~5\" incrementEnd=\" feet.\" imp14=\"An ally benefiting from the banner gains a +2 morale bonus on Reflex saving throws against effects that target an area, such as ‹spell/fireball› or ‹umr/breath weapon«s›.\" special=\"When the cavalier or samurai waves this standard, each ally within 60 feet can move up to her speed as an @HLimmediate_action.\"}",
-			"",
-			"::ab[Jinx Standard (Ex)]{icon=boost-power passive=\"An ally who benefits from this standard gains a bonus on caster level checks to bypass spell resistance and a bonus to the DC of her hexes and necromancy or enchantment spell she casts. @B-5tp-cavalier.\" imp14=\"An ally benefiting from the banner gains a +2 morale bonus on saving throws against spells or effects that deal hit point damage.\" special=\"When the cavalier or samurai waves this standard, a number of allies equal to the cavalier or samurai's Charisma modifier (minimum 1) within 60 feet can attempt an Intimidate check to demoralize a foe as an @HLimmediate_action.\"}",
-			"",
-			"::ab[Knave Standard (Ex)]{icon=def-boost-power passive=\"An ally who benefits from this standard gains a dodge bonus (equal to 1 + one-fifth of the cavalier's class level) to AC against attacks of opportunity provoked by movement, and a +1 morale bonus on attack rolls that benefit from ‹rule/flanking›.\" imp14=\"An ally benefiting from the banner gains ‹ability/sneak attack› +1d6; this stacks with other sources of sneak attack.\" special=\"When the cavalier or samurai waves this standard, a number of allies equal to the cavalier or samurai's Charisma modifier (minimum 1) within 60 feet can each attempt a ‹rule/feint› against a foe she threatens as an @HLimmediate_action.\"}",
-			"",
-			"::ab[Stalwart Standard (Ex)]{icon=boost-boost-power passive=\"An ally who benefits from this standard gains a morale bonus (equal to 1 + one-fifth of the cavalier's class level) to CMD and a +1 morale bonus on attack rolls to creatures threatening an ally.\" imp14=\"An ally benefiting from the banner is treated as one size category larger for the purposes of determining which creatures can affect him with combat maneuvers.\" special=\"When the cavalier or samurai waves this standard, each ally within 60 feet can move up to 10 feet without provoking attacks of opportunities and ignoring ‹rule/difficult terrain› as an @HLimmediate_action.\"}"
-		],
-		"topLink": [ "Cavalier", "class/cavalier" ]
-	},
 	"bardic_masterpieces": {
 		"name": "Bardic Masterpieces",
 		"sources": [ "Ultimate Magic" ],

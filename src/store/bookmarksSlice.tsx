@@ -29,9 +29,9 @@ type Title = string;
 type Bookmark = [Link, Title];
 
 export interface BookmarkGroup {
-	// color of the bookmark
+	// color of the bookmark group
 	color: Color
-	// title of the bookmark
+	// title of the bookmark group
 	title: string
 	// pages (and dividers) being bookmarked here
 	contents: Bookmark[] // [Link, Title]

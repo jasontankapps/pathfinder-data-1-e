@@ -464,6 +464,7 @@ const migrations = {
 		};
 	},
 	25: (state: any) => {
+		// 23 and 24 have been rolled into this.
 		const {displayTable: dt, ...unchangedState} = state;
 		const displayTable = {...dt};
 		// Remove info regarding adjusted tables
@@ -492,6 +493,40 @@ const migrations = {
 			...unchangedState,
 			displayTable
 		};
+	},
+	27: (state: any) => {
+		const {bookmarks, ...unchangedState} = state;
+		// Fix all link changes since the last update
+		const {order, db: oldDB, catalog: oldCat} = bookmarks;
+		// FIX:
+		//   deleted ability/banners
+
+		const db: BookmarkDB = {};
+		const catalog: Catalog = {...oldCat};
+
+		Object.keys(oldDB).forEach(id => {
+			const {color, title, contents:c, hidden} = oldDB[id] as BookmarkGroup;
+			db[id] = {
+				color,
+				title,
+				// Remove any bookmark leading to ability/banners
+				contents: c.filter((pair) => {
+					return pair[1] !== "ability/banners";
+				}),
+				hidden
+			}
+		});
+		// Remove all record of ability/banners (if any)
+		delete catalog["ability/banners"];
+
+		return {
+			...unchangedState,
+			bookmarks: {
+				order,
+				db,
+				catalog
+			}
+		};
 	}
 };
 
@@ -509,7 +544,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<InitialAppState> = {
 	key: 'root-pf-data',
-	version: 26,
+	version: 27,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),

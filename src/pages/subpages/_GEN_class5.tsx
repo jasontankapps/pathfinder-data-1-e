@@ -7,8 +7,9 @@ import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
 import Message from '../../components/Message';
+import Bonus from '../../components/Bonus';
 const _cavalier = {hasJL:true,title: "Cavalier", jsx: <><div className="jumpList" id="class-cavalier-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-cavalier-challenge-ex">Challenge</InnerLink></li><li><InnerLink toTop to="class-cavalier-mount-ex">Mount</InnerLink></li><li><InnerLink toTop to="class-cavalier-order-ex">Order</InnerLink></li><li><InnerLink toTop to="class-cavalier-tactician-ex">Tactician</InnerLink></li><li><InnerLink toTop to="class-cavalier-cavaliers-charge-ex">Cavalier's Charge</InnerLink></li><li><InnerLink toTop to="class-cavalier-expert-trainer-ex">Expert Trainer</InnerLink></li><li><InnerLink toTop to="class-cavalier-banner-ex">Banner</InnerLink></li><li><InnerLink toTop to="class-cavalier-bonus-feat">Bonus Feat</InnerLink></li><li><InnerLink toTop to="class-cavalier-greater-tactician-ex">Other Abilities</InnerLink></li><li><InnerLink toTop to="class-cavalier-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-cavalier-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-cavalier-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-cavalier-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-cavalier-cavalier">Cavalier</h2>
-<p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 32</Link></p>
+<p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 32</Link>, <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 4</Link></p>
 <p>While many warriors strive to perfect their art, spending all of their time honing their skill at martial arms, others spend as much effort dedicating themselves to a cause. These warriors, known as cavaliers, swear themselves to a purpose, serving it above all else. Cavaliers are skilled at fighting from horseback, and are often found charging across a battlefield, with the symbol of their order trailing on a long, fluttering banner. The cavalier's true power comes from the conviction of his ideals, the oaths that he swears, and the challenges he makes.</p>
 <p><strong>Role:</strong> Cavaliers tend to marshal forces on the battlefield, using their mounted talents and challenges to control the flow of the fight. Outside of battle, cavaliers can be found advancing their cause through diplomacy and, if needed, subterfuge. The cavalier is no stranger to courtly intrigue and can hold his own in even the most delicate of social situations.</p>
 <table className="class"><tbody><tr><th scope="row" className="nw">Alignment</th><td colSpan={2} className="ne"><div className="colFlex"><span>Any</span><table className="basic alignment"><tbody><tr><td data-lit>LG</td><td data-lit>LN</td><td data-lit>LE</td></tr><tr><td data-lit>NG</td><td data-lit>N</td><td data-lit>NE</td></tr><tr><td data-lit>CG</td><td data-lit>CN</td><td data-lit>CE</td></tr></tbody></table></div></td></tr><tr><th scope="row">Hit Die</th><td colSpan={2}>d10</td></tr><tr><th scope="row">Starting Wealth</th><td colSpan={2}>5d6 &times; 10 gp (average 175 gp)</td></tr><tr><th scope="row">Skill Points per Level</th><td colSpan={2}>4 + Int modifier</td></tr><tr><th scope="row" rowSpan={5} className="sw">Class Skills</th><td><Link to="/skill/climb">Climb</Link>, <Link to="/skill/swim">Swim</Link></td><td className="c">(STR)</td></tr><tr><td><Link to="/skill/ride">Ride</Link></td><td className="c">(DEX)</td></tr><tr><td><Link to="/skill/craft_any">Craft (any)</Link></td><td className="c">(INT)</td></tr><tr><td><Link to="/skill/profession_any">Profession (any)</Link>, <Link to="/skill/sense_motive">Sense Motive</Link></td><td className="c">(WIS)</td></tr><tr><td><Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/handle_animal">Handle Animal</Link>, <Link to="/skill/intimidate">Intimidate</Link></td><td className="c se">(CHA)</td></tr></tbody></table>
@@ -234,14 +235,36 @@ const _cavalier = {hasJL:true,title: "Cavalier", jsx: <><div className="jumpList
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">You receive a bonus equal to <Link to="/misc/half">half</Link> your cavalier level whenever you use <Link to="/skill/handle_animal">Handle Animal</Link> on an animal that serves as a mount. In addition, you can reduce the time needed to teach a mount a new <Link to="/ability/animal_tricks">trick</Link> or train a mount for a general purpose to 1 day per 1 week required by increasing the DC by +5. You can also train more than one mount at once, although each mount after the first adds +2 to the DC.</Pair>
 </Ability>
-<Ability id="banner-ex" icon={["def","melee"]}>
+<Ability id="banner-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="banner-ex" flavor="A cavalier's banner becomes a symbol of inspiration to his allies and companions.">Banner (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
-<Pair title="Passive Ability">As long as your banner is clearly visible, all allies within 60 feet receive a morale bonus on saving throws against fear and a smaller morale bonus on attack rolls made as part of a charge. The save bonus is equal to 1 + one-fifth your cavalier level, while the charge bonus is equal to one-fifth your cavalier level.</Pair>
+<Pair title="Choice">Choose one of the following standards. The "Original Standard" refers to the original <em>banner</em> ability as printed in <em>Advanced Player's Guide,</em> while the other standards were introduced in other rulebooks.</Pair>
 <Pair title="Special">The banner must be at least Small or larger and must be carried or displayed by you or your mount to function.</Pair>
 </Ability>
-<aside><p>Some knights inspire and direct their allies with specialized tactics. A cavalier can select <Link to="/ability/banners">a different battle standard</Link> upon gaining the banner class feature, and its benefits replace the normal benefits of the banner and greater banner class features.</p>
-</aside><Ability id="bonus-feat" icon={["power"]}>
+<Ability id="original-banner-ex" extraClasses="subAbility" icon={["def","boost"]}>
+<Pair single id="original-banner-ex">Original Banner (Ex)</Pair>
+<Pair title="Passive Ability">As long as your banner is clearly visible, all allies within 60 feet receive a morale bonus on saving throws against fear and a smaller morale bonus on attack rolls made as part of a charge. The save bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your cavalier level, while the charge bonus is equal to one-fifth of your cavalier level.</Pair>
+</Ability>
+<Ability id="fleet-standard-ex" extraClasses="subAbility" icon={["boost","def"]}>
+<Pair single id="fleet-standard-ex">Fleet Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally who benefits from this standard increases their land speed by 5 feet and gains a +1 dodge bonus to AC during any round in which they moved at least 10 feet. This increase to land speed is an enhancement bonus.</Pair>
+<Pair title="At 10th Level">The bonus to speed becomes +10 feet.</Pair>
+<Pair title="At 15th Level">The bonus to speed increases to +15 feet.</Pair>
+<Pair title="At 20th Level">The bonus to speed becomes +20 feet.</Pair>
+</Ability>
+<Ability id="jinx-standard-ex" extraClasses="subAbility" icon={["boost"]}>
+<Pair single id="jinx-standard-ex">Jinx Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally who benefits from this standard gains a bonus on caster level checks to bypass spell resistance and a bonus to the DC of their hexes and necromancy or enchantment spell they casts. <Bonus y c="cavalier" n={5} pl link={false} />.</Pair>
+</Ability>
+<Ability id="knave-standard-ex" extraClasses="subAbility" icon={["def","boost"]}>
+<Pair single id="knave-standard-ex">Knave Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally who benefits from this standard gains a dodge bonus (equal to 1 + one-fifth of your cavalier level) to AC against attacks of opportunity provoked by movement, and a +1 morale bonus on attack rolls that benefit from <Link to="/rule/flanking">flanking</Link>.</Pair>
+</Ability>
+<Ability id="stalwart-standard-ex" extraClasses="subAbility" icon={["boost"]}>
+<Pair single id="stalwart-standard-ex">Stalwart Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally who benefits from this standard gains a morale bonus (equal to 1 + one-fifth your cavalier level) to CMD and a +1 morale bonus on attack rolls to creatures threatening an ally.</Pair>
+</Ability>
+<Ability id="bonus-feat" icon={["power"]}>
 <Pair single id="bonus-feat">Bonus Feat</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">You gain a bonus feat in addition to those gained from normal advancement. This bonus feat must be selected from those listed as <Link to="/main/combat_feat">combat feats</Link>. You must meet the prerequisites of this bonus feat.</Pair>
@@ -265,11 +288,35 @@ const _cavalier = {hasJL:true,title: "Cavalier", jsx: <><div className="jumpList
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">Whenever you declare a challenge, your target must pay attention to the threat you pose. As long as the target is within your threatened area, it takes a -2 penalty to its AC from attacks made by anyone other than you.</Pair>
 </Ability>
-<Ability id="greater-banner-ex" icon={["def"]}>
-<Pair single id="greater-banner-ex" flavor="A cavlier's banner becomes a rallying call to his allies.">Greater Banner (Ex)</Pair>
+<Ability id="greater-banner-ex" extraClasses="hasSubs" icon={["power"]}>
+<Pair single id="greater-banner-ex" flavor="A cavalier's banner becomes a rallying call to his allies.">Greater Banner (Ex)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
+<Pair title="Ability">You gain new ways to utilize your <em>banner.</em></Pair>
+</Ability>
+<Ability id="original-standard-ex" extraClasses="subAbility" icon={["def"]}>
+<Pair single id="original-standard-ex">Original Standard (Ex)</Pair>
 <Pair title="Passive Ability">All allies within 60 feet receive a +2 morale bonus on saving throws against charm and compulsion spells and effects.</Pair>
 <Pair title="Standard Action">While your banner is displayed, you can wave the banner through the air, granting all allies within 60 feet an additional saving throw against any one spell or effect that is targeting them. This save is made at the original DC. Spells and effects that do not allow saving throws are unaffected by this ability. An ally cannot benefit from this ability more than once per day.</Pair>
+</Ability>
+<Ability id="fleet-standard-ex" extraClasses="subAbility" icon={["def","power"]}>
+<Pair single id="fleet-standard-ex">Fleet Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally benefiting from the banner gains a +2 morale bonus on Reflex saving throws against effects that target an area, such as <Link to="/spell/fireball">fireball</Link> or <Link to="/umr/breath_weapon">breath weapons</Link>.</Pair>
+<Pair title="Standard Action">While your banner is displayed, you can wave the banner through the air, granting each ally within 60 feet the ability to move up to their speed as an <strong className="hl">immediate action</strong>.</Pair>
+</Ability>
+<Ability id="jinx-standard-ex" extraClasses="subAbility" icon={["def","power"]}>
+<Pair single id="jinx-standard-ex">Jinx Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally benefiting from the banner gains a +2 morale bonus on saving throws against spells or effects that deal hit point damage.</Pair>
+<Pair title="Standard Action">While your banner is displayed, you can wave the banner through the air, granting a number of allies equal to your Charisma modifier (minimum 1) within 60 feet the ability to attempt an Intimidate check to demoralize a foe as an <strong className="hl">immediate action</strong>.</Pair>
+</Ability>
+<Ability id="knave-standard-ex" extraClasses="subAbility" icon={["power"]}>
+<Pair single id="knave-standard-ex">Knave Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally benefiting from the banner gains <Link to="/ability/sneak_attack">sneak attack</Link> +1d6; this stacks with other sources of sneak attack.</Pair>
+<Pair title="Standard Action">While your banner is displayed, you can wave the banner through the air, granting a number of allies equal to your Charisma modifier (minimum 1) within 60 feet the ability to attempt a <Link to="/rule/feint">feint</Link> against a foe they threaten as an <strong className="hl">immediate action</strong>.</Pair>
+</Ability>
+<Ability id="stalwart-standard-ex" extraClasses="subAbility" icon={["def","power"]}>
+<Pair single id="stalwart-standard-ex">Stalwart Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally benefiting from the banner is treated as one size category larger for the purposes of determining which creatures can affect them with combat maneuvers.</Pair>
+<Pair title="Standard Action">While your banner is displayed, you can wave the banner through the air, granting each ally within 60 feet the ability to move up to 10 feet without provoking attacks of opportunities and ignoring <Link to="/rule/difficult_terrain">difficult terrain</Link> as an <strong className="hl">immediate action</strong>.</Pair>
 </Ability>
 <Ability id="master-tactician-ex" icon={["power"]}>
 <Pair single id="master-tactician-ex">Master Tactician (Ex)</Pair>

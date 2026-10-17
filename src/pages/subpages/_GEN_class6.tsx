@@ -584,7 +584,7 @@ const _medium = {hasJL:true,title: "Medium", jsx: <><div className="jumpList" id
 <RacialOptions cls="medium" />
 </>};
 const _samurai = {hasJL:true,title: "Samurai", jsx: <><div className="jumpList" id="class-samurai-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-samurai-challenge-ex">Challenge</InnerLink></li><li><InnerLink toTop to="class-samurai-mount-ex">Mount</InnerLink></li><li><InnerLink toTop to="class-samurai-order-ex">Order</InnerLink></li><li><InnerLink toTop to="class-samurai-resolve-ex">Resolve</InnerLink></li><li><InnerLink toTop to="class-samurai-weapon-expertise-ex">Weapon Expertise</InnerLink></li><li><InnerLink toTop to="class-samurai-mounted-archer-ex">Mounted Archer</InnerLink></li><li><InnerLink toTop to="class-samurai-banner-ex">Banner</InnerLink></li><li><InnerLink toTop to="class-samurai-bonus-feat">Bonus Feat</InnerLink></li><li><InnerLink toTop to="class-samurai-greater-resolve-ex">Greater Resolve</InnerLink></li><li><InnerLink toTop to="class-samurai-honorable-stand-ex">Honorable Stand</InnerLink></li><li><InnerLink toTop to="class-samurai-demanding-challenge-ex">Demanding Challenge</InnerLink></li><li><InnerLink toTop to="class-samurai-greater-banner-ex">Other Abilities</InnerLink></li><li><InnerLink toTop to="class-samurai-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-samurai-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-samurai-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-samurai-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-samurai-samurai">Samurai</h2>
-<p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 18</Link></p>
+<p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 18</Link>, <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 4</Link></p>
 <p>Few warriors are more dedicated to honor and the code of the warrior than the samurai. Trained from an early age in the art of war and sworn to the service of a lord, the samurai holds a position of power and respect in many lands, often serving as the voice and justice of the local noble. The samurai takes on his training with zeal, learning the way of the blade (typically a katana), the bow, and the horse. Some even learn how to effectively use firearms, if they are available. The samurai is often the most trusted soldier in his lord's employ. In him, the common folk see honor and sacrifice. He is an honorable warrior, dedicated to the realm and the leaders that guide it.</p>
 <p><strong>Role:</strong> While typically sworn to the service of a lord, a samurai is usually given free reign as to how he performs that service. As such, samurai can sometimes be found with other adventurers, taking the fight to the enemies of their masters. Other samurai become ronin, striving to serve an ideal without paying fealty to a lord. In either case, samurai make powerful allies, capable of withstanding nearly any harm while dispatching their foes with deadly precision. The samurai is an alternate class for the cavalier base class.</p>
 <table className="class"><tbody><tr><th scope="row" className="nw">Alignment</th><td colSpan={2} className="ne"><div className="colFlex"><span>Any</span><table className="basic alignment"><tbody><tr><td data-lit>LG</td><td data-lit>LN</td><td data-lit>LE</td></tr><tr><td data-lit>NG</td><td data-lit>N</td><td data-lit>NE</td></tr><tr><td data-lit>CG</td><td data-lit>CN</td><td data-lit>CE</td></tr></tbody></table></div></td></tr><tr><th scope="row">Hit Die</th><td colSpan={2}>d10</td></tr><tr><th scope="row">Parent Class(es)</th><td colSpan={2}><Link to="/class/cavalier">Cavalier</Link>.</td></tr><tr><th scope="row">Starting Wealth</th><td colSpan={2}>5d6 &times; 10 gp (average 175 gp)</td></tr><tr><th scope="row">Skill Points per Level</th><td colSpan={2}>4 + Int modifier</td></tr><tr><th scope="row" rowSpan={5} className="sw">Class Skills</th><td><Link to="/skill/climb">Climb</Link>, <Link to="/skill/swim">Swim</Link></td><td className="c">(STR)</td></tr><tr><td><Link to="/skill/ride">Ride</Link></td><td className="c">(DEX)</td></tr><tr><td><Link to="/skill/craft_any">Craft (any)</Link></td><td className="c">(INT)</td></tr><tr><td><Link to="/skill/profession_any">Profession (any)</Link>, <Link to="/skill/sense_motive">Sense Motive</Link></td><td className="c">(WIS)</td></tr><tr><td><Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/handle_animal">Handle Animal</Link>, <Link to="/skill/intimidate">Intimidate</Link></td><td className="c se">(CHA)</td></tr></tbody></table>
@@ -806,17 +806,36 @@ const _samurai = {hasJL:true,title: "Samurai", jsx: <><div className="jumpList" 
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">You only take a -2 penalty on attack rolls with ranged weapons while your mount takes a double move. This penalty increases to -4 while your mount is running.</Pair>
 </Ability>
-<Ability id="banner-ex" icon={["def","boost"]}>
+<Ability id="banner-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="banner-ex" flavor="A samurai's banner becomes a symbol of inspiration to his allies and companions.">Banner (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
-<Pair title="Passive Ability">As long as your banner is clearly visible, all allies within 60 feet receive a +2 morale bonus on saving throws against fear and a +1 morale bonus on attack rolls made as part of a <Link to="/rule/charge">charge</Link>.</Pair>
-<Pair title="At 10th Level">The bonus on saving throws becomes +3 and the charge bonus becomes +2.</Pair>
-<Pair title="At 15th Level">These bonuses become +4 and +3.</Pair>
-<Pair title="At 20th Level">These bonuses become +5 and +4.</Pair>
+<Pair title="Choice">Choose one of the following standards. The "Original Standard" refers to the original <em>banner</em> ability as printed in <em>Ultimate Combat,</em> while the other standards were introduced in other rulebooks.</Pair>
 <Pair title="Special">The banner must be at least Small or larger and must be carried or displayed by you or your mount to function.</Pair>
 </Ability>
-<aside><p>Some samurais inspire and direct their allies with specialized tactics. A samurai can select <Link to="/ability/banners">a different battle standard</Link> upon gaining the banner class feature, and its benefits replace the normal benefits of the banner and greater banner class features.</p>
-</aside><Ability id="bonus-feat" icon={["power"]}>
+<Ability id="original-banner-ex" extraClasses="subAbility" icon={["def","boost"]}>
+<Pair single id="original-banner-ex">Original Banner (Ex)</Pair>
+<Pair title="Passive Ability">As long as your banner is clearly visible, all allies within 60 feet receive a morale bonus on saving throws against fear and a smaller morale bonus on attack rolls made as part of a charge. The save bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your samurai level, while the charge bonus is equal to one-fifth of your samurai level.</Pair>
+</Ability>
+<Ability id="fleet-standard-ex" extraClasses="subAbility" icon={["boost","def"]}>
+<Pair single id="fleet-standard-ex">Fleet Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally who benefits from this standard increases their land speed by 5 feet and gains a +1 dodge bonus to AC during any round in which they moved at least 10 feet. This increase to land speed is an enhancement bonus.</Pair>
+<Pair title="At 10th Level">The bonus to speed becomes +10 feet.</Pair>
+<Pair title="At 15th Level">The bonus to speed increases to +15 feet.</Pair>
+<Pair title="At 20th Level">The bonus to speed becomes +20 feet.</Pair>
+</Ability>
+<Ability id="jinx-standard-ex" extraClasses="subAbility" icon={["boost"]}>
+<Pair single id="jinx-standard-ex">Jinx Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally who benefits from this standard gains a bonus on caster level checks to bypass spell resistance and a bonus to the DC of their hexes and necromancy or enchantment spell they casts. <Bonus y c="samurai" n={5} pl link={false} />.</Pair>
+</Ability>
+<Ability id="knave-standard-ex" extraClasses="subAbility" icon={["def","boost"]}>
+<Pair single id="knave-standard-ex">Knave Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally who benefits from this standard gains a dodge bonus (equal to 1 + one-fifth of your samurai level) to AC against attacks of opportunity provoked by movement, and a +1 morale bonus on attack rolls that benefit from <Link to="/rule/flanking">flanking</Link>.</Pair>
+</Ability>
+<Ability id="stalwart-standard-ex" extraClasses="subAbility" icon={["boost"]}>
+<Pair single id="stalwart-standard-ex">Stalwart Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally who benefits from this standard gains a morale bonus (equal to 1 + one-fifth your samurai level) to CMD and a +1 morale bonus on attack rolls to creatures threatening an ally.</Pair>
+</Ability>
+<Ability id="bonus-feat" icon={["power"]}>
 <Pair single id="bonus-feat">Bonus Feat</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">You gain a bonus <Link to="/main/combat_feat">combat feat</Link>. You must meet the prerequisites of this feat.</Pair>
@@ -842,10 +861,35 @@ const _samurai = {hasJL:true,title: "Samurai", jsx: <><div className="jumpList" 
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Passive Ability">Whenever you declare a <em>challenge,</em> your target must pay attention to the threat you pose. As long as the target is within your threatened area, it takes a -2 penalty to its AC from attacks made by anyone other than you.</Pair>
 </Ability>
-<Ability id="greater-banner-ex" icon={["def"]}>
+<Ability id="greater-banner-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="greater-banner-ex" flavor="A samurai's banner becomes a rallying call to his allies.">Greater Banner (Ex)</Pair>
+<Pair title="Gained">At 14th Level</Pair>
+<Pair title="Ability">You gain new ways to utilize your <em>banner.</em></Pair>
+</Ability>
+<Ability id="original-standard-ex" extraClasses="subAbility" icon={["def"]}>
+<Pair single id="original-standard-ex">Original Standard (Ex)</Pair>
 <Pair title="Passive Ability">All allies within 60 feet receive a +2 morale bonus on saving throws against charm and compulsion spells and effects.</Pair>
 <Pair title="Standard Action">While your banner is displayed, you can wave the banner through the air, granting all allies within 60 feet an additional saving throw against any one spell or effect that is targeting them. This save is made at the original DC. Spells and effects that do not allow saving throws are unaffected by this ability. An ally cannot benefit from this ability more than once per day.</Pair>
+</Ability>
+<Ability id="fleet-standard-ex" extraClasses="subAbility" icon={["def","power"]}>
+<Pair single id="fleet-standard-ex">Fleet Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally benefiting from the banner gains a +2 morale bonus on Reflex saving throws against effects that target an area, such as <Link to="/spell/fireball">fireball</Link> or <Link to="/umr/breath_weapon">breath weapons</Link>.</Pair>
+<Pair title="Standard Action">While your banner is displayed, you can wave the banner through the air, granting each ally within 60 feet the ability to move up to their speed as an <strong className="hl">immediate action</strong>.</Pair>
+</Ability>
+<Ability id="jinx-standard-ex" extraClasses="subAbility" icon={["def","power"]}>
+<Pair single id="jinx-standard-ex">Jinx Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally benefiting from the banner gains a +2 morale bonus on saving throws against spells or effects that deal hit point damage.</Pair>
+<Pair title="Standard Action">While your banner is displayed, you can wave the banner through the air, granting a number of allies equal to your Charisma modifier (minimum 1) within 60 feet the ability to attempt an Intimidate check to demoralize a foe as an <strong className="hl">immediate action</strong>.</Pair>
+</Ability>
+<Ability id="knave-standard-ex" extraClasses="subAbility" icon={["power"]}>
+<Pair single id="knave-standard-ex">Knave Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally benefiting from the banner gains <Link to="/ability/sneak_attack">sneak attack</Link> +1d6; this stacks with other sources of sneak attack.</Pair>
+<Pair title="Standard Action">While your banner is displayed, you can wave the banner through the air, granting a number of allies equal to your Charisma modifier (minimum 1) within 60 feet the ability to attempt a <Link to="/rule/feint">feint</Link> against a foe they threaten as an <strong className="hl">immediate action</strong>.</Pair>
+</Ability>
+<Ability id="stalwart-standard-ex" extraClasses="subAbility" icon={["def","power"]}>
+<Pair single id="stalwart-standard-ex">Stalwart Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally benefiting from the banner is treated as one size category larger for the purposes of determining which creatures can affect them with combat maneuvers.</Pair>
+<Pair title="Standard Action">While your banner is displayed, you can wave the banner through the air, granting each ally within 60 feet the ability to move up to 10 feet without provoking attacks of opportunities and ignoring <Link to="/rule/difficult_terrain">difficult terrain</Link> as an <strong className="hl">immediate action</strong>.</Pair>
 </Ability>
 <Ability id="true-resolve-ex" icon={["def"]}>
 <Pair single id="true-resolve-ex">True Resolve (Ex)</Pair>
