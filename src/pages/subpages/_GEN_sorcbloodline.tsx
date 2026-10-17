@@ -2015,95 +2015,330 @@ const _infernal = {hasJL:true,title: "Infernal", jsx: <><div className="jumpList
 </Ability>
 </>};
 const _kobold_sorcerer = {title: "Kobold Sorcerer", jsx: <><h2 id="sorcbloodline-kobold_sorcerer-kobold-sorcerer">Kobold Sorcerer</h2>
-<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 134</Link><br/>While many <Link to="/race/kobold">kobold</Link> sorcerers tout their purely draconic bloodline, over generations of eldritch training, some such spellcasters have created a bloodline that, while tinged with some draconic magic, is the embodiment of the race's virtue distilled into arcane form. Many practitioners of this bloodline go on to lead powerful kobold tribes.</p>
-<p><strong>Class Skill:</strong> Disable Device.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/alarm">alarm</Link> (3rd), <Link to="/spell/create_pit">create pit</Link> (5th), <Link to="/spell/explosive_runes">explosive runes</Link> (7th), <Link to="/spell/dragons_breath">dragon's breath</Link> (9th), <Link to="/spell/transmute_rock_to_mud">transmute rock to mud</Link> (11th), <Link to="/spell/guards_and_wards">guards and wards</Link> (13th), <Link to="/spell/delayed_blast_fireball">delayed blast fireball</Link> (15th), <Link to="/spell/form_of_the_dragon_iii">form of the dragon III</Link> (17th), <Link to="/spell/imprisonment">imprisonment</Link> (19th).</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/combat_casting">Combat Casting</Link>, <Link to="/feat/defensive_combat_training">Defensive Combat Training</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/silent_spell">Silent Spell</Link></p>
-<p><strong>Bloodline Arcana:</strong> Whenever you cast a spell against a creature that is denied its Dexterity bonus to AC, increase that spell's DC by +2.</p>
-<p><strong>Bloodline Powers:</strong> Like all kobolds, you have a natural talent for ambushing, creating traps, and mining. As your power increases, you discover ever more useful ways to blend your magic with these instinctive talents.</p>
-<blockquote>
-<p><em>Trap Rune (Sp):</em> At 1st level, as a standard action, you can sketch a single, nearly invisible magical rune on any 5-foot-square solid surface. When you create a rune, pick one of the following energy types: acid, cold, electricity, or fire. While the rune is active, the next creature other than you who steps on or touches the rune's area causes the rune to explode. The rune's explosion deals a number of points of energy damage equal to 1d8 + 1 per sorcerer level you possess to anything in its square. A Reflex saving throw halves the damage (DC 10 + 1/2 your sorcerer level + your Charisma modifier). The rune is considered a magical trap for the purpose of perceiving it or disabling it. The DC for both Perception and Disable Device checks is the same as the Reflex saving throw to halve the damage. You can use this ability a number of times per day equal to 3 + your Charisma modifier. Each rune lasts for 24 hours or until discharged.</p>
-<p><em>Trap Sense (Ex):</em> At 3rd level, you develop a sixth sense that helps you avoid traps. You gain a +2 bonus on Perception checks made to notice traps. You also gain a +1 bonus on Reflex saves to avoid traps and a +1 dodge bonus to AC against attacks made by traps. These bonuses increase by +1 at 7th level and for every four sorcerer levels you gain thereafter (to a maximum of +5 at 19th level). This bonus stacks with that provided by a <Link to="/class/rogue">rogue's</Link> trap sense and similar abilities.</p>
-<p><em>Arcane Ambush (Su):</em> At 9th level, as a swift action, you can expend a spell slot in order to grant you and your allies a bonus on attack and damage rolls. This bonus lasts 1 round, is equal to the level of the spell expended, and only applies to opponents your allies are flanking or opponents denied their Dexterity bonus against your allies. You grant this bonus to yourself plus up to one ally for every four sorcerer levels you possess (to a maximum of five allies at 20th level). The allies must be within 30 feet of you and you must have line of effect to each affected ally.</p>
-<p><em>Earth Glide (Su):</em> At 15th level, you gain the <Link to="/umr/earth_glide">earth glide</Link> universal monster ability with a speed equal to your base speed. This does not give you the ability to breathe while passing through earth, so you must <Link to="/misc/hold_your_breath">hold your breath</Link> or use some alternate method to breathe while using this ability.</p>
-<p><em>Nimble Walker (Su):</em> At 20th level, you gain a +5 racial bonus on Reflex saving throws and on Acrobatics checks made to move through a creature's threatened area or through its space. You also gain the ability to breathe while passing through earth using your <em>earth glide</em> ability.</p>
-</blockquote>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 134</Link><br/>While many kobold sorcerers tout their purely draconic bloodline, over generations of eldritch training, some such spellcasters have created a bloodline that, while tinged with some draconic magic, is the embodiment of the race's virtue distilled into arcane form. Many practitioners of this bloodline go on to lead powerful kobold tribes.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="sorcbloodline-kobold_sorcerer--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/kobold">kobold</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX)</Pair></Ability>
+<Ability id="bonus-spells-by-sorcerer-level" icon={["learn"]}>
+<Pair single id="bonus-spells-by-sorcerer-level">Bonus Spells by Sorcerer Level</Pair>
+<Pair plain title="3rd"><Link to="/spell/alarm">Alarm</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/create_pit">Create pit</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/explosive_runes">Explosive runes</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/dragons_breath">Dragon's breath</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/transmute_rock_to_mud">Transmute rock to mud</Link></Pair>
+<Pair plain title="13th"><Link to="/spell/guards_and_wards">Guards and wards</Link></Pair>
+<Pair plain title="15th"><Link to="/spell/delayed_blast_fireball">Delayed blast fireball</Link></Pair>
+<Pair plain title="17th"><Link to="/spell/form_of_the_dragon_iii">Form of the dragon III</Link></Pair>
+<Pair plain title="19th"><Link to="/spell/imprisonment">Imprisonment</Link></Pair>
+</Ability>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/alertness">Alertness</Link><br/><Link to="/feat/combat_casting">Combat Casting</Link><br/><Link to="/feat/defensive_combat_training">Defensive Combat Training</Link><br/><Link to="/feat/dodge">Dodge</Link><br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/lightning_reflexes">Lightning Reflexes</Link><br/><Link to="/feat/silent_spell">Silent Spell</Link></Cell></Row></Block>
+<Ability id="bloodline-arcana" icon={["boost"]}>
+<Pair single id="bloodline-arcana">Bloodline Arcana</Pair>
+<Pair title="Passive Ability">Whenever you cast a spell against a creature that is denied its Dexterity bonus to AC, increase that spell's DC by +2.</Pair>
+</Ability>
+<h3 id="sorcbloodline-kobold_sorcerer-bloodline-powers">Bloodline Powers</h3>
+<p>Like all kobolds, you have a natural talent for ambushing, creating traps, and mining. As your power increases, you discover ever more useful ways to blend your magic with these instinctive talents.</p>
+<Ability id="trap-rune-sp" icon={["magic"]}>
+<Pair single id="trap-rune-sp">Trap Rune (Sp)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action"><p>You can sketch a single, nearly invisible magical rune on any 5-foot-square solid surface. When you create a rune, pick one of the following energy types: acid, cold, electricity, or fire.</p>
+<p>While the rune is active, the next creature other than you who steps on or touches the rune's area causes the rune to explode. The rune's explosion deals a number of points of energy damage equal to 1d8 + 1 per sorcerer level you possess to anything in its square. A Reflex saving throw halves the damage (DC 10 + 1/2 your sorcerer level + your Charisma modifier).</p>
+<p>The rune is considered a magical trap for the purpose of perceiving it or disabling it. The DC for both <Link to="/skill/perception">Perception</Link> and Disable Device checks is the same as the Reflex saving throw to halve the damage.</p>
+</Pair>
+<Pair title="Special">Each rune lasts for 24 hours or until discharged.</Pair>
+</Ability>
+<Ability id="trap-sense-ex" icon={["boost","def"]}>
+<Pair single id="trap-sense-ex" flavor="You develop a sixth sense that helps you avoid traps.">Trap Sense (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">You gain a +2 bonus on Perception checks made to notice traps. You also gain a +1 bonus on Reflex saves to avoid traps and a +1 dodge bonus to AC against attacks made by traps.</Pair>
+<Pair title="At 7th Level">The Reflex and dodge bonuses become +2.</Pair>
+<Pair title="At 11th Level">The Reflex and dodge bonuses increase to +3.</Pair>
+<Pair title="At 15th Level">The Reflex and dodge bonuses become +4.</Pair>
+<Pair title="At 19th Level">The Reflex and dodge bonuses increase to +5.</Pair>
+<Pair title="Special">This bonus stacks with that provided by a <Link to="/class/rogue">rogue's</Link> <em>trap sense</em> and similar abilities.</Pair>
+</Ability>
+<Ability id="arcane-ambush-su" icon={["boost","select"]}>
+<Pair single id="arcane-ambush-su">Arcane Ambush (Su)</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Swift Action"><p>You can expend a spell slot in order to grant you and your allies a bonus on attack and damage rolls. This bonus lasts 1 round, is equal to the level of the spell expended, and only applies to opponents your allies are <Link to="/rule/flanking">flanking</Link> or opponents denied their Dexterity bonus against your allies.</p>
+<p>You grant this bonus to yourself plus a number of allies equal to <Link to="/misc/one_fourth">one-fourth</Link> of your sorcerer level. The allies must be within 30 feet of you and you must have line of effect to each affected ally.</p>
+</Pair>
+</Ability>
+<Ability id="earth-glide-su" icon={["power"]}>
+<Pair single id="earth-glide-su">Earth Glide (Su)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">You gain the <Link to="/umr/earth_glide">earth glide</Link> universal monster ability with a speed equal to your base speed. This does not give you the ability to breathe while passing through earth, so you must <Link to="/misc/hold_your_breath">hold your breath</Link> or use some alternate method to breathe while using this ability.</Pair>
+</Ability>
+<Ability id="nimble-walker-su" icon={["def","power"]}>
+<Pair single id="nimble-walker-su">Nimble Walker (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You gain a +5 racial bonus on Reflex saving throws and on <Link to="/skill/acrobatics">Acrobatics</Link> checks made to move through a creature's threatened area or through its space.</Pair>
+<Pair title="Ability">You also gain the ability to breathe while passing through earth using your <em>earth glide</em> ability.</Pair>
+</Ability>
 </>};
 const _maestro = {title: "Maestro", jsx: <><h2 id="sorcbloodline-maestro-maestro">Maestro</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 67</Link><br/>The spiritual power of art and song runs strongly through your family line. This may be the result of ancient pacts made with <Link to="/family/azata">azata</Link> patrons, or even an inheritance from a lillend or trumpet <Link to="/family/archon">archon</Link> ancestor. It could also be the lingering taint of a less savory heritage, such as from a <Link to="/monster/harpy">harpy</Link> or a forefather driven to madness by the disquieting gibbering of a <Link to="/monster/shoggoth">shoggoth</Link>. However it came to be, your family's artistic bent shows itself strongly in your magic.</p>
-<p><strong>Class Skill:</strong> Perform.</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/ventriloquism">ventriloquism</Link> (3rd), <Link to="/spell/hideous_laughter">hideous laughter</Link> (5th), <Link to="/spell/suggestion">suggestion</Link> (7th), <Link to="/spell/shout">shout</Link> (9th), <Link to="/spell/dominate_person">dominate person</Link> (11th), <Link to="/spell/mass_suggestion">mass suggestion</Link> (13th), <Link to="/spell/power_word_blind">power word blind</Link> (15th), <Link to="/spell/greater_shout">greater shout</Link> (17th), <Link to="/spell/wail_of_the_banshee">wail of the banshee</Link> (19th).</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/deceitful">Deceitful</Link>, <Link to="/feat/greater_spell_focus">Greater Spell Focus</Link> (enchantment), <Link to="/feat/lingering_performance">Lingering Performance</Link>, <Link to="/feat/persuasive">Persuasive</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Perform), <Link to="/feat/spell_focus">Spell Focus</Link> (enchantment), <Link to="/feat/spellsong">Spellsong</Link>, <Link to="/feat/still_spell">Still Spell</Link></p>
-<p><strong>Bloodline Arcana:</strong> Whenever you cast a spell with a verbal component and no somatic or material component, you treat your caster level as if it were one higher.</p>
-<p><strong>Bloodline Powers:</strong> You hear music whenever you cast spells, and can use the songs in your head to create magic effects.</p>
-<blockquote>
-<p><em>Beguiling Voice (Ex):</em> At 1st level, you can use the sound of your voice to lull a target creature into taking no action. This ability acts as the <Link to="/spell/daze">daze</Link> spell, except it is language-dependent, has a duration of 1 round, and affects a living creature whose Hit Dice do not exceed your sorcerer level. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><em>Fascinate (Ex):</em> At 3rd level, you gain the ability to use a Perform skill to cause one or more creatures to become fascinated with you. This acts as the <Link to="/performance/fascinate">fascinate</Link> bardic perform ability, except the save DC is 10 + 1/2 your sorcerer level + your Charisma bonus, and it lasts 1 round/level. You may use this ability once per day at 3rd level, twice per day at 8th level, three times per day at 13th level, and four times per day at 18th level.</p>
-<p><em>Perfect Voice (Su):</em> At 9th level, you understand all efforts to communicate through sound, and can make yourself understood to any creature able to understand language. You can speak to, and understand the speech of, any creature that understands at least one spoken language. The save DCs of language-dependent spells you cast increase by +1.</p>
-<p><em>Inspire (Sp):</em> At 15th level, your artistic magic can inspire your allies to great accomplishments. You can use <Link to="/spell/greater_heroism">greater heroism</Link> as a spell-like ability. You can use this ability once per day at 15th level, twice per day at 17th level, and three times per day at 19th level.</p>
-<p><em>Grand Maestro (Su):</em> At 20th level, the power of pure magic music flows through you. You cast any spell with a verbal component as if it had the <Link to="/feat/still_spell">Still Spell</Link> metamagic feat applied to it, with no increase to the casting time or spell slot required to cast it. You gain immunity to sonic damage and language-dependent spells.</p>
-</blockquote>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perform">Perform</Link> (CHA)</Pair></Ability>
+<Ability id="bonus-spells-by-sorcerer-level" icon={["learn"]}>
+<Pair single id="bonus-spells-by-sorcerer-level">Bonus Spells by Sorcerer Level</Pair>
+<Pair plain title="3rd"><Link to="/spell/ventriloquism">Ventriloquism</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/hideous_laughter">Hideous laughter</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/suggestion">Suggestion</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/shout">Shout</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/dominate_person">Dominate person</Link></Pair>
+<Pair plain title="13th"><Link to="/spell/mass_suggestion">Mass suggestion</Link></Pair>
+<Pair plain title="15th"><Link to="/spell/power_word_blind">Power word blind</Link></Pair>
+<Pair plain title="17th"><Link to="/spell/greater_shout">Greater shout</Link></Pair>
+<Pair plain title="19th"><Link to="/spell/wail_of_the_banshee">Wail of the banshee</Link></Pair>
+</Ability>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/deceitful">Deceitful</Link><br/><Link to="/feat/greater_spell_focus">Greater Spell Focus</Link> (enchantment)<br/><Link to="/feat/lingering_performance">Lingering Performance</Link><br/><Link to="/feat/persuasive">Persuasive</Link><br/><Link to="/feat/skill_focus">Skill Focus</Link> (Perform)<br/><Link to="/feat/spell_focus">Spell Focus</Link> (enchantment)<br/><Link to="/feat/spellsong">Spellsong</Link><br/><Link to="/feat/still_spell">Still Spell</Link></Cell></Row></Block>
+<Ability id="bloodline-arcana" icon={["boost"]}>
+<Pair single id="bloodline-arcana">Bloodline Arcana</Pair>
+<Pair title="Passive Ability">Whenever you cast a spell with a verbal component and no somatic or material component, you treat your caster level as if it were one higher.</Pair>
+</Ability>
+<h3 id="sorcbloodline-maestro-bloodline-powers">Bloodline Powers</h3>
+<p>You hear music whenever you cast spells, and can use the songs in your head to create magic effects.</p>
+<Ability id="beguiling-voice-ex" icon={["magic","lower"]}>
+<Pair single id="beguiling-voice-ex">Beguiling Voice (Ex)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">You can use the sound of your voice to lull a target creature into taking no action. This ability acts as the <Link to="/spell/daze">daze</Link> spell, except it is language-dependent, has a duration of 1 round, and affects a living creature whose Hit Dice do not exceed your sorcerer level.</Pair>
+</Ability>
+<Ability id="fascinate-ex" icon={["power","select","lower"]}>
+<Pair single id="fascinate-ex">Fascinate (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">You gain the ability to use a Perform skill to cause one or more creatures to become fascinated with you. This acts as the <Link to="/performance/fascinate">fascinate</Link> bardic perform ability, except the save DC is 10 + 1/2 your sorcerer level + your Charisma bonus, and it lasts 1 round/level. You may use this ability once per day.</Pair>
+<Pair title="At 8th Level">You may use this ability 2 times per day.</Pair>
+<Pair title="At 13th Level">You may use this ability 3 times per day.</Pair>
+<Pair title="At 18th Level">You may use this ability 4 times per day.</Pair>
+</Ability>
+<Ability id="perfect-voice-su" icon={["power","boost"]}>
+<Pair single id="perfect-voice-su">Perfect Voice (Su)</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Ability">You understand all efforts to communicate through sound, and can make yourself understood to any creature able to understand language. You can speak to, and understand the speech of, any creature that understands at least one spoken language.</Pair>
+<Pair title="Passive Ability">The save DCs of language-dependent spells you cast increase by +1.</Pair>
+</Ability>
+<Ability id="inspire-sp" icon={["magic"]}>
+<Pair single id="inspire-sp" flavor="Your artistic magic can inspire your allies to great accomplishments.">Inspire (Sp)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">You can use <Link to="/spell/greater_heroism">greater heroism</Link> as a spell-like ability once per day.</Pair>
+<Pair title="At 17th Level">You may use this ability 2 times per day.</Pair>
+<Pair title="At 19th Level">You may use this ability 3 times per day.</Pair>
+</Ability>
+<Ability id="grand-maestro-su" icon={["boost","def"]}>
+<Pair single id="grand-maestro-su" flavor="The power of pure magic music flows through you.">Grand Maestro (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">You cast any spell with a verbal component as if it had the <Link to="/feat/still_spell">Still Spell</Link> metamagic feat applied to it, with no increase to the casting time or spell slot required to cast it.</Pair>
+<Pair title="Passive Ability">You gain immunity to sonic damage and language-dependent spells.</Pair>
+</Ability>
 </>};
 const _marid = {hasJL:true,title: "Marid", jsx: <><div className="jumpList" id="sorcbloodline-marid-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="sorcbloodline-marid-shahzada-wildblooded-mutation">Shahzada (Wildblooded Mutation)</InnerLink></li></ul></div><h2 id="sorcbloodline-marid-marid">Marid</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 68</Link><br/>You were born with the power of water genies, and the magic of the <Link to="/monster/marid">marids</Link> is strong in you.</p>
-<p><strong>Class Skill:</strong> Knowledge (planes).</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/obscuring_mist">obscuring mist</Link> (3rd), <Link to="/spell/see_invisibility">see invisibility</Link> (5th), <Link to="/spell/gaseous_form">gaseous form</Link> (7th), <Link to="/spell/wall_of_ice">wall of ice</Link> (9th), <Link to="/spell/persistent_image">persistent image</Link> (11th), <Link to="/spell/elemental_body_iii">elemental body III</Link> (13th), <Link to="/spell/plane_shift">plane shift</Link> (15th), <Link to="/spell/polar_ray">polar ray</Link> (17th), <Link to="/spell/wish">wish</Link> (19th).</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/empower_spell">Empower Spell</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [planes]), <Link to="/feat/weapon_finesse">Weapon Finesse</Link>)</p>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair></Ability>
+<Ability id="bonus-spells-by-sorcerer-level" icon={["learn"]}>
+<Pair single id="bonus-spells-by-sorcerer-level">Bonus Spells by Sorcerer Level</Pair>
+<Pair plain title="3rd"><Link to="/spell/obscuring_mist">Obscuring mist</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/see_invisibility">See invisibility</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/gaseous_form">Gaseous form</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/wall_of_ice">Wall of ice</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/persistent_image">Persistent image</Link></Pair>
+<Pair plain title="13th"><Link to="/spell/elemental_body_iii">Elemental body III</Link></Pair>
+<Pair plain title="15th"><Link to="/spell/plane_shift">Plane shift</Link></Pair>
+<Pair plain title="17th"><Link to="/spell/polar_ray">Polar ray</Link></Pair>
+<Pair plain title="19th"><Link to="/spell/wish">Wish</Link></Pair>
+</Ability>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/dodge">Dodge</Link><br/><Link to="/feat/empower_spell">Empower Spell</Link><br/><Link to="/feat/great_fortitude">Great Fortitude</Link><br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/lightning_reflexes">Lightning Reflexes</Link><br/><Link to="/feat/power_attack">Power Attack</Link><br/><Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [planes])<br/><Link to="/feat/weapon_finesse">Weapon Finesse</Link>)</Cell></Row></Block>
 <div className="sideNoteWrap singular optional elephant"><ScrollContainer id="sorcbloodline-marid--table-0"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td><p><strong>Sources</strong> <Link to="/source/the_elephant_in_the_room_feat_taxes_in_pathfinder">The Elephant in the Room: Feat Taxes in Pathfinder</Link><br/><strong className="hl"><Link to="/feat/agile_combatant">Agile Combatant</Link></strong>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/empower_spell">Empower Spell</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <strong className="hl"><Link to="/rule/powerful_maneuvers">Powerful Maneuvers</Link></strong>, <Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [planes])</p>
-</td></tr></tbody></table></ScrollContainer></div><p><strong>Bloodline Arcana:</strong> Whenever you cast a spell that deals energy damage, you can change the type of damage to cold. This also changes the spell's descriptors to match this energy type.</p>
-<p><strong>Bloodline Powers:</strong> Like a marid, you have both natural power over water and several other genie-based abilities.</p>
-<blockquote>
-<p><em>Frost Ray (Sp):</em> Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of cold damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><em>Elemental Resistance (Ex):</em> At 3rd level, you gain cold resistance 10. At 9th level, your cold resistance increases to 20.</p>
-<p><em>Water's Fury (Su):</em> At 9th level, you gain the ability to summon a rushing jet of water from the elemental plane of water and direct it against your foes. As a standard action, you can create a jet of water in a 60-foot line that deals 1d6 points of damage per two sorcerer levels you possess, and <Link to="/misc/blind">blinds</Link> the target that was struck for 1d6 rounds. A Reflex save (DC 10 + 1/2 your sorcerer level + your Charisma bonus) reduces the damage by half and negates the blinding effect.</p>
-<p><em>Elemental Movement (Su):</em> At 15th level, you gain a swim speed of 60 feet.</p>
-<p><em>Power of the Marid (Su):</em> At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast <Link to="/spell/limited_wish">limited wish</Link> as a spell-like ability. Such wishes must begin with the words "I wish," and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.</p>
-</blockquote>
-<p>You become immune to cold damage, and can use <em>plane shift</em> once per day to travel to or from the Plane of Water.</p>
+</td></tr></tbody></table></ScrollContainer></div><Ability id="bloodline-arcana" icon={["boost"]}>
+<Pair single id="bloodline-arcana">Bloodline Arcana</Pair>
+<Pair title="Ability">Whenever you cast a spell that deals energy damage, you can change the type of damage to cold. This also changes the spell's descriptors to match this energy type.</Pair>
+</Ability>
+<h3 id="sorcbloodline-marid-bloodline-powers">Bloodline Powers</h3>
+<p>Like a marid, you have both natural power over water and several other genie-based abilities.</p>
+<Ability id="frost-ray-sp" icon={["zap"]}>
+<Pair single id="frost-ray-sp">Frost Ray (Sp)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can unleash an elemental ray, targeting any foe within 30 feet as a ranged touch attack. This ray deals cold damage equal to 1d6 + <Link to="/misc/half">half</Link> of your sorcerer level.</Pair>
+</Ability>
+<Ability id="elemental-resistance-ex" icon={["def"]}>
+<Pair single id="elemental-resistance-ex">Elemental Resistance (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">You gain cold resistance 10.</Pair>
+<Pair title="At 9th Level">Your cold resistance increases to 20.</Pair>
+</Ability>
+<Ability id="waters-fury-su" icon={["line"]}>
+<Pair single id="waters-fury-su" flavor="You gain the ability to summon a rushing jet of water from the elemental plane of water and direct it against your foes.">Water's Fury (Su)</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Standard Action">You can create a jet of water in a 60-foot line that deals 1d6 points of damage per two sorcerer levels you possess, and <Link to="/misc/blind">blinds</Link> the target that was struck for 1d6 rounds. A Reflex save (DC 10 + 1/2 your sorcerer level + your Charisma bonus) reduces the damage by half and negates the blinding effect.</Pair>
+</Ability>
+<Ability id="elemental-movement-su" icon={["power"]}>
+<Pair single id="elemental-movement-su">Elemental Movement (Su)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">You gain a swim speed of 60 feet.</Pair>
+</Ability>
+<Ability id="power-of-the-marid-su" icon={["magic","def"]}>
+<Pair single id="power-of-the-marid-su" flavor="You gain the power of genies to grant wishes.">Power of the Marid (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">Once per day, you can cast <Link to="/spell/limited_wish">limited wish</Link> as a spell-like ability. Such wishes must begin with the words "I wish," and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.</Pair>
+<Pair title="Passive Ability">You also become immune to cold damage.</Pair>
+<Pair title="Ability">You can use <em>plane shift</em> once per day to travel to or from the Plane of Water.</Pair>
+</Ability>
 <h3 id="sorcbloodline-marid-shahzada-wildblooded-mutation" data-hash-target>Shahzada (Wildblooded Mutation)</h3>
-<p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements pg. 15</Link><br/>You are descended from the ranks of noble marids, making your blood royal as well as magical.<br/><strong>Associated Bloodline:</strong> Marid.</p>
-<p><strong>Bloodline Arcana:</strong> Whenever you cast a spell with the water descriptor, you gain a swim speed of 30 feet for a number of rounds equal to double the level of the spell cast.</p>
-<p><strong>Bloodline Powers:</strong> Your mastery over water is coupled with the power to alter it.</p>
-<blockquote>
-<p><em>Sweeping Waves (Su):</em> At 15th level, you can summon a wave of water from within, which pours from your mouth and violently sweeps creatures away from you on all sides. Creatures within 5 feet of you must succeed at a Reflex save (the DC is equal to 10 + 1/2 your sorcerer level + your Charisma modifier) or take a number of points of damage equal to 1d6 + 1 per 2 sorcerer levels you possess. Additionally, the waves of water bull rush each affected creature, using your caster level as your base attack bonus and your Charisma modifier as your Strength modifier to determine the CMB of the bull rush. A successful save halves the damage and negates the bull rush. This bloodline power replaces <em>elemental movement.</em></p>
-</blockquote>
+<p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements pg. 15</Link><br/>You are descended from the ranks of noble marids, making your blood royal as well as magical.</p>
+<Ability id="replacement-bloodline-arcana" icon={["power"]}>
+<Pair single id="replacement-bloodline-arcana">Replacement Bloodline Arcana</Pair>
+<Pair title="Ability">Whenever you cast a spell with the water descriptor, you gain a swim speed of 30 feet for a number of rounds equal to double the level of the spell cast.</Pair>
+</Ability>
+<h3 id="sorcbloodline-marid-bloodline-powers">Bloodline Powers</h3>
+<p>Your mastery over water is coupled with the power to alter it.</p>
+<Ability id="sweeping-waves-su" icon={["aura"]}>
+<Pair single id="sweeping-waves-su">Sweeping Waves (Su)</Pair>
+<Pair hl title="Replaces">Elemental Movement</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability"><p>You can summon a wave of water from within, which pours from your mouth and violently sweeps creatures away from you on all sides. Creatures within 5 feet of you must succeed at a Reflex save (the DC is equal to 10 + 1/2 your sorcerer level + your Charisma modifier) or take a number of points of damage equal to 1d6 + <Link to="/misc/half">half</Link> of your sorcerer level.</p>
+<p>Additionally, the waves of water <Link to="/rule/bull_rush">bull rush</Link> each affected creature, using your caster level as your base attack bonus and your Charisma modifier as your Strength modifier to determine the CMB of the bull rush.</p>
+<p>A successful save halves the damage and negates the bull rush.</p>
+</Pair>
+</Ability>
 </>};
 const _martyred = {hasJL:true,title: "Martyred", jsx: <><div className="jumpList" id="sorcbloodline-martyred-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="sorcbloodline-martyred-retribution-wildblooded-mutation">Retribution (Wildblooded Mutation)</InnerLink></li></ul></div><h2 id="sorcbloodline-martyred-martyred">Martyred</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels pg. 29</Link><br/>One of your ancestors paid the ultimate price for her beliefs. This distant relative martyred herself out of her devout belief in a cause, and that sacrifice echoed down to her descendants, infusing them with arcane power. Your bloodline confers abilities that allow you to endure pain, resist torture, and inspire others.</p>
-<p><strong>Class Skill:</strong> Perform (oratory).</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/endure_elements">endure elements</Link> (3rd), <Link to="/spell/surmount_affliction">surmount affliction</Link> (5th), <Link to="/spell/heroism">heroism</Link> (7th), <Link to="/spell/blessing_of_fervor">blessing of fervor</Link> (9th), <Link to="/spell/death_ward">death ward</Link> (11th), <Link to="/spell/greater_heroism">greater heroism</Link> (13th), <Link to="/spell/joyful_rapture">joyful rapture</Link> (15th), <Link to="/spell/mind_blank">mind blank</Link> (17th), <Link to="/spell/overwhelming_presence">overwhelming presence</Link> (19th).</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/heroic_defiance">Heroic Defiance</Link>, <Link to="/feat/heroic_recovery">Heroic Recovery</Link>, <Link to="/feat/leadership">Leadership</Link>, <Link to="/feat/persuasive">Persuasive</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Perform), <Link to="/feat/toughness">Toughness</Link></p>
-<p><strong>Bloodline Arcana:</strong> Whenever you take damage in battle, your effective caster level increases by 1 during your next turn. This effect does not apply more than once per round.</p>
-<p><strong>Bloodline Powers:</strong> You draw upon the power of your ancestor's self-sacrifice.</p>
-<blockquote>
-<p><em>Sacrificial Boon (Su):</em> At 1st level, as an immediate action, you can sacrifice 1 hit point in exchange for a +1 sacred bonus on the next damage roll, saving throw, or skill check you make. This bonus only applies as long as you use it by or during your next turn - otherwise both your sacrificed hit point and the bonus are wasted. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><em>Rallying Cry (Su):</em> At 3rd level, as a standard action once per day, you can shout a cry instilled with the noble sacrifices of your ancestor. You and any allies within 30 feet who can hear you gain a +1 morale bonus on attack and damage rolls for a number of rounds equal to half your sorcerer level (minimum 1). At 7th level and every four levels thereafter, this bonus increases by +1, to a maximum of +5 at 19th level.</p>
-<p><em>Gift of Blood (Su):</em> At 9th level, as a standard action, you can choose to sacrifice some of your hit points to grant an ally double that number in <Link to="/rule/temporary_hit_points">temporary hit points</Link>. You can sacrifice up to your character level in hit points when using this ability. These temporary hit points last up to 1 minute per sorcerer level. You cannot heal your sacrificed hit points until your target has lost its temporary hit points. At 9th level, you can use this ability once per day. At 17th level, you can use this ability twice per day.</p>
-<p><em>Sacrificial Exchange (Su):</em> At 15th level, as a swift action once per day, you can take 2 points of temporary ability damage to one of your ability scores and add a temporary +2 inherent bonus to any other ability score. This bonus lasts for a maximum of 1 hour per sorcerer level or until you choose to prematurely dismiss it (a free action), during which time the temporary ability damage cannot be healed by any means. After this effect ends, you can heal the ability damage normally. At 20th level, you can use this ability twice per day.</p>
-<p><em>Eternal Martyr (Su):</em> At 20th level, your ancestor's act of martyrdom infuses your spirit. You become immune to death effects. Material components for spells and effects to bring you back to life (such as <Link to="/spell/raise_dead">raise dead</Link> or <Link to="/spell/resurrection">resurrection</Link>) cost half as much as normal. Your body cannot be turned into an undead creature, as though you were affected by a permanent <Link to="/spell/hallow">hallow</Link> effect (caster level equal to your sorcerer level).</p>
-</blockquote>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perform">Perform</Link> (oratory) (CHA)</Pair></Ability>
+<Ability id="bonus-spells-by-sorcerer-level" icon={["learn"]}>
+<Pair single id="bonus-spells-by-sorcerer-level">Bonus Spells by Sorcerer Level</Pair>
+<Pair plain title="3rd"><Link to="/spell/endure_elements">Endure elements</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/surmount_affliction">Surmount affliction</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/heroism">Heroism</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/blessing_of_fervor">Blessing of fervor</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/death_ward">Death ward</Link></Pair>
+<Pair plain title="13th"><Link to="/spell/greater_heroism">Greater heroism</Link></Pair>
+<Pair plain title="15th"><Link to="/spell/joyful_rapture">Joyful rapture</Link></Pair>
+<Pair plain title="17th"><Link to="/spell/mind_blank">Mind blank</Link></Pair>
+<Pair plain title="19th"><Link to="/spell/overwhelming_presence">Overwhelming presence</Link></Pair>
+</Ability>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/diehard">Diehard</Link><br/><Link to="/feat/endurance">Endurance</Link><br/><Link to="/feat/heroic_defiance">Heroic Defiance</Link><br/><Link to="/feat/heroic_recovery">Heroic Recovery</Link><br/><Link to="/feat/leadership">Leadership</Link><br/><Link to="/feat/persuasive">Persuasive</Link><br/><Link to="/feat/skill_focus">Skill Focus</Link> (Perform)<br/><Link to="/feat/toughness">Toughness</Link></Cell></Row></Block>
+<Ability id="bloodline-arcana" icon={["boost"]}>
+<Pair single id="bloodline-arcana">Bloodline Arcana</Pair>
+<Pair title="Passive Ability">Whenever you take damage in battle, your effective caster level increases by 1 during your next turn. This effect does not apply more than once per round.</Pair>
+</Ability>
+<h3 id="sorcbloodline-martyred-bloodline-powers">Bloodline Powers</h3>
+<p>You draw upon the power of your ancestor's self-sacrifice.</p>
+<Ability id="sacrificial-boon-su" icon={["down","boost"]}>
+<Pair single id="sacrificial-boon-su">Sacrificial Boon (Su)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Immediate Action">You can sacrifice 1 hit point in exchange for a +1 sacred bonus on the next damage roll, saving throw, or skill check you make. This bonus only applies as long as you use it by or during your next turn - otherwise both your sacrificed hit point and the bonus are wasted.</Pair>
+</Ability>
+<Ability id="rallying-cry-su" icon={["boost","aura"]}>
+<Pair single id="rallying-cry-su">Rallying Cry (Su)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Standard Action">Once per day, you can shout a cry instilled with the noble sacrifices of your ancestor. You and any allies within 30 feet who can hear you gain a +1 morale bonus on attack and damage rolls for a number of rounds equal to <Link to="/misc/half">half</Link> your sorcerer level (minimum 1).</Pair>
+<Pair title="At 7th Level">This bonus becomes +2.</Pair>
+<Pair title="At 11th Level">This bonus increases to +3.</Pair>
+<Pair title="At 15th Level">This bonus becomes +4.</Pair>
+<Pair title="At 19th Level">This bonus increases to +5.</Pair>
+</Ability>
+<Ability id="gift-of-blood-su" icon={["down","protect"]}>
+<Pair single id="gift-of-blood-su">Gift of Blood (Su)</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Standard Action">Once per day, you can choose to sacrifice some of your hit points to grant an ally double that number in <Link to="/rule/temporary_hit_points">temporary hit points</Link>. You can sacrifice up to your character level in hit points when using this ability. These temporary hit points last up to 1 minute per sorcerer level.</Pair>
+<Pair title="At 17th Level">You can use this ability twice per day.</Pair>
+<Pair title="Special">You cannot heal your sacrificed hit points until your target has lost its temporary hit points.</Pair>
+</Ability>
+<Ability id="sacrificial-exchange-su" icon={["down","boost"]}>
+<Pair single id="sacrificial-exchange-su">Sacrificial Exchange (Su)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Swift Action"><p>Once per day, you can take 2 points of temporary ability damage to one of your ability scores and add a temporary +2 inherent bonus to any other ability score.</p>
+<p>This bonus lasts for a maximum of 1 hour per sorcerer level or until you choose to prematurely dismiss it (a <strong className="hl">free action</strong>), during which time the temporary ability damage cannot be healed by any means.</p>
+<p>After this effect ends, you can heal the ability damage normally.</p>
+</Pair>
+<Pair title="At 20th Level">You can use this ability twice per day.</Pair>
+</Ability>
+<Ability id="eternal-martyr-su" icon={["def"]}>
+<Pair single id="eternal-martyr-su" flavor="Your ancestor's act of martyrdom infuses your spirit.">Eternal Martyr (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You become immune to death effects. Material components for spells and effects to bring you back to life (such as <Link to="/spell/raise_dead">raise dead</Link> or <Link to="/spell/resurrection">resurrection</Link>) cost half as much as normal. Your body cannot be turned into an undead creature, as though you were affected by a permanent <Link to="/spell/hallow">hallow</Link> effect (caster level equal to your sorcerer level).</Pair>
+</Ability>
 <h3 id="sorcbloodline-martyred-retribution-wildblooded-mutation" data-hash-target>Retribution (Wildblooded Mutation)</h3>
-<p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River pg. 11</Link><br/>One of your ancestors was unjustly executed, and your soul is infused with this forebear's vengeful spirit.<br/><strong>Associated Bloodline:</strong> Martyred.</p>
-<p><strong>Bloodline Arcana:</strong> Whenever a creature damages you, until the end of your next turn if you apply a metamagic feat to a spell that targets that creature, reduce the spell level increase of that metamagic feat by 1 (minimum 0).</p>
-<p><strong>Bloodline Powers:</strong> You never forgive those who wrong you.</p>
-<blockquote>
-<p><em>Vengeful Strike (Su):</em> At 9th level, once per day after a foe has damaged you in melee, as an immediate action you can deal the same amount and type of damage to your foe (maximum amount of damage equal to double your character level). At 17th level, you can use this ability twice per day. This bloodline power replaces <em>gift of blood.</em></p>
-</blockquote>
+<p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River pg. 11</Link><br/>One of your ancestors was unjustly executed, and your soul is infused with this forebear's vengeful spirit.</p>
+<Ability id="replacement-bloodline-arcana" icon={["boost"]}>
+<Pair single id="replacement-bloodline-arcana">Replacement Bloodline Arcana</Pair>
+<Pair title="Passive Ability">Whenever a creature damages you, until the end of your next turn if you apply a metamagic feat to a spell that targets that creature, reduce the spell level increase of that metamagic feat by 1 (minimum 0).</Pair>
+</Ability>
+<h3 id="sorcbloodline-martyred-bloodline-powers">Bloodline Powers</h3>
+<p>You never forgive those who wrong you.</p>
+<Ability id="vengeful-strike-su" icon={["melee"]}>
+<Pair single id="vengeful-strike-su">Vengeful Strike (Su)</Pair>
+<Pair hl title="Replaces">Gift of Blood</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Immediate Action">Once per day, after a foe has damaged you in melee, you can deal the same amount and type of damage to your foe (maximum amount of damage equal to double your character level).</Pair>
+<Pair title="At 17th Level">You can use this ability twice per day.</Pair>
+</Ability>
 </>};
 const _naga = {title: "Naga", jsx: <><h2 id="sorcbloodline-naga-naga">Naga</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 16</Link><br/>Naga blood flows within your veins. Perhaps a curious <Link to="/family/naga">naga</Link> experimented upon one of your ancestors in an attempt to create the perfect servant, or maybe one of your ancestors was a shapeshifting naga. Either way, you boast powers similar to those of true nagas.</p>
-<p><strong>Class Skill:</strong> Knowledge (dungeoneering)</p>
-<p><strong>Bonus Spells:</strong> <Link to="/spell/ray_of_enfeeblement">ray of enfeeblement</Link> (3rd), <Link to="/spell/invisibility">invisibility</Link> (5th), <Link to="/spell/lightning_bolt">lightning bolt</Link> (7th), <Link to="/spell/poison">poison</Link> (9th), <Link to="/spell/dominate_person">dominate person</Link> (11th), <Link to="/spell/veil">veil</Link> (13th), <Link to="/spell/limited_wish">limited wish</Link> (15th), <Link to="/spell/mass_charm_monster">mass charm monster</Link> (17th), <Link to="/spell/shapechange">shapechange</Link> (19th).</p>
-<p><strong>Bonus Feats:</strong> <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/blind_fight">Blind-Fight</Link>, <Link to="/feat/combat_casting">Combat Casting</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [dungeoneering]), <Link to="/feat/stealthy">Stealthy</Link></p>
-<p><strong>Bloodline Arcana:</strong> Whenever you cast a spell with the <Link to="/spelldef/poison">poison descriptor</Link>, increase the spell's DC by 2.</p>
-<p><strong>Bloodline Powers:</strong> You can draw upon the ancient magic of the nagas to ensnare the minds of lesser creatures and destroy those who would defy your will.</p>
-<blockquote>
-<p><em>Vanishing (Sp):</em> At 1st level, you can cloak yourself in illusory magic as a standard action, making you invisible (as per <em>invisibility</em>) for a number of rounds per day equal to your sorcerer level + your Charisma bonus (if any). These rounds need not be used consecutively.</p>
-<p><em>Naga Resistances (Ex):</em> At 3rd level, you gain a +2 bonus on saving throws against mind-affecting effects and poison effects. At 9th level, this bonus increases to +4.</p>
-<p><em>Ensnaring Eyes (Su):</em> At 9th level, add 2 to the save DC of any spell, spell-like ability, or supernatural ability you use that causes a target to become fascinated or that belongs to the <Link to="/spelldef/charm">charm subschool</Link>.</p>
-<p><em>Cast without Hands (Su):</em> At 15th level, you learn to eschew the use of your hands when casting spells, as a naga would. Whenever you cast an arcane spell with a somatic component, you can do so even with your hands full, by twisting and gyrating your body. This doubles the arcane spell failure chance from your armor (if any), and you can't use this ability if you are pinned or immobile.</p>
-<p><em>Power of the Naga (Su):</em> At 20th level, your form becomes enhanced by the power of the naga. You gain immunity to charm effects, mind-reading effects, and poison. In addition, you can also assume the shape of a naga at will as if using <Link to="/spell/naga_shape_iii">naga shape III</Link>.</p>
-</blockquote>
+<Ability icon={["skill"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT)</Pair></Ability>
+<Ability id="bonus-spells-by-sorcerer-level" icon={["learn"]}>
+<Pair single id="bonus-spells-by-sorcerer-level">Bonus Spells by Sorcerer Level</Pair>
+<Pair plain title="3rd"><Link to="/spell/ray_of_enfeeblement">Ray of enfeeblement</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/invisibility">Invisibility</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/lightning_bolt">Lightning bolt</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/poison">Poison</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/dominate_person">Dominate person</Link></Pair>
+<Pair plain title="13th"><Link to="/spell/veil">Veil</Link></Pair>
+<Pair plain title="15th"><Link to="/spell/limited_wish">Limited wish</Link></Pair>
+<Pair plain title="17th"><Link to="/spell/mass_charm_monster">Mass charm monster</Link></Pair>
+<Pair plain title="19th"><Link to="/spell/shapechange">Shapechange</Link></Pair>
+</Ability>
+<Block hl>
+<Row><Cell>Bonus Feats</Cell><Cell><Link to="/feat/alertness">Alertness</Link><br/><Link to="/feat/blind_fight">Blind-Fight</Link><br/><Link to="/feat/combat_casting">Combat Casting</Link><br/><Link to="/feat/dodge">Dodge</Link><br/><Link to="/feat/improved_initiative">Improved Initiative</Link><br/><Link to="/feat/lightning_reflexes">Lightning Reflexes</Link><br/><Link to="/feat/skill_focus">Skill Focus</Link> (Knowledge [dungeoneering])<br/><Link to="/feat/stealthy">Stealthy</Link></Cell></Row></Block>
+<Ability id="bloodline-arcana" icon={["boost"]}>
+<Pair single id="bloodline-arcana">Bloodline Arcana</Pair>
+<Pair title="Passive Ability">Whenever you cast a spell with the <Link to="/spelldef/poison">poison descriptor</Link>, increase the spell's DC by 2.</Pair>
+</Ability>
+<h3 id="sorcbloodline-naga-bloodline-powers">Bloodline Powers</h3>
+<p>You can draw upon the ancient magic of the nagas to ensnare the minds of lesser creatures and destroy those who would defy your will.</p>
+<Ability id="vanishing-sp" icon={["def"]}>
+<Pair single id="vanishing-sp">Vanishing (Sp)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Standard Action">You can cloak yourself in illusory magic, making you invisible (as per <em>invisibility</em>) for a number of rounds per day equal to your sorcerer level + your Charisma bonus (if any). These rounds need not be used consecutively.</Pair>
+</Ability>
+<Ability id="naga-resistances-ex" icon={["def"]}>
+<Pair single id="naga-resistances-ex">Naga Resistances (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">You gain a +2 bonus on saving throws against mind-affecting effects and poison effects.</Pair>
+<Pair title="At 9th Level">This bonus increases to +4.</Pair>
+</Ability>
+<Ability id="ensnaring-eyes-su" icon={["boost"]}>
+<Pair single id="ensnaring-eyes-su">Ensnaring Eyes (Su)</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Passive Ability">Add 2 to the save DC of any spell, spell-like ability, or supernatural ability you use that causes a target to become <Link to="/misc/fascinated">fascinated</Link> or that belongs to the <Link to="/spelldef/charm">charm subschool</Link>.</Pair>
+</Ability>
+<Ability id="cast-without-hands-su" icon={["power","down"]}>
+<Pair single id="cast-without-hands-su" flavor="You learn to eschew the use of your hands when casting spells, as a naga would.">Cast without Hands (Su)</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">Whenever you cast an arcane spell with a somatic component, you can do so even with your hands full, by twisting and gyrating your body. This doubles the arcane spell failure chance from your armor (if any), and you can't use this ability if you are pinned or immobile.</Pair>
+</Ability>
+<Ability id="power-of-the-naga-su" icon={["def","magic"]}>
+<Pair single id="power-of-the-naga-su" flavor="Your form becomes enhanced by the power of the naga.">Power of the Naga (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You gain immunity to charm effects, mind-reading effects, and poison.</Pair>
+<Pair title="Ability">In addition, you can also assume the shape of a naga at will as if using <Link to="/spell/naga_shape_iii">naga shape III</Link>.</Pair>
+</Ability>
 </>};
 const _nanite = {title: "Nanite", jsx: <><h2 id="sorcbloodline-nanite-nanite">Nanite</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River pg. 19</Link><br/>Your conception was marked by the alien influence of Numeria. Either you were born from one of the forgewombs scattered throughout the wastelands, or you were infected by nanites, which now course through your blood.</p>
