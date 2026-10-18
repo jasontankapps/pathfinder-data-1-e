@@ -65,6 +65,9 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 				return fn({text, prefix, from, multi, makeNewMarkedInstance, flags});
 			} else if (tag.startsWith("FN")) {
 				// Fake footnotes
+				// @FN1                      - Link to footnote #1
+				// @FN1-n                    - The nth link to footnote #1
+				// @FN[Text]{from=1 multi=n} - The footnote itself.
 				const { from, multi } = attrs;
 				return fn({text: tag.slice(2), prefix, from, multi, makeNewMarkedInstance, flags});
 			} else if (tag.startsWith("I-")) {

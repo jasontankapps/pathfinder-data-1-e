@@ -1314,12 +1314,36 @@ const _spellscar_drifter = {title: "Spellscar Drifter", jsx: <><h2 id="arc-caval
 </Ability>
 </>};
 const _standard_bearer = {title: "Standard Bearer", jsx: <><h2 id="arc-cavalier-standard_bearer-standard-bearer">Standard Bearer</h2>
-<p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 39</Link><br/>Not all cavaliers are content to ride at the head of a charge, leading from the front and facing down their enemies directly. Some prefer to stand away from the fray, their banners a beacon shining brightly over the battlefield, rallying their troops to victory. The standard bearer employs the banner of his order, his lord, or his own house to raise the spirits of his allies and warns enemies of impending doom.</p>
-<Ability id="banner-ex" icon={["power"]}>
+<p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 39</Link>, <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 4</Link><br/>Not all cavaliers are content to ride at the head of a charge, leading from the front and facing down their enemies directly. Some prefer to stand away from the fray, their banners a beacon shining brightly over the battlefield, rallying their troops to victory. The standard bearer employs the banner of his order, his lord, or his own house to raise the spirits of his allies and warns enemies of impending doom.</p>
+<Ability id="banner-ex" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="banner-ex">Banner (Ex)</Pair>
 <Pair hl title="Replaces">Mount</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Ability">A standard bearer gains the <em>banner</em> ability. This ability is identical to the standard cavalier's <em>banner</em> ability, except that the morale bonus on saving throws against fear effects is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> your cavalier level, and the morale bonus on attack rolls made as part of a charge is equal to 1 + one-fifth your cavalier level.</Pair>
+<Pair title="Ability">A standard bearer gains the <em>banner</em> ability. This ability is identical to the standard cavalier's <em>banner</em> ability, with the following modifications based on the standard the standard bearer chooses.</Pair>
+</Ability>
+<Ability id="original-standard-ex" extraClasses="subAbility" icon={["def","boost"]}>
+<Pair single id="original-standard-ex">Original Standard (Ex)</Pair>
+<Pair title="Passive Ability">As long as your banner is clearly visible, all allies within 60 feet receive a morale bonus on saving throws against fear and a smaller morale bonus on attack rolls made as part of a charge. The save bonus is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your cavalier level, while the charge bonus is equal to 1 + one-fifth of your cavalier level.</Pair>
+</Ability>
+<Ability id="fleet-standard-ex" extraClasses="subAbility" icon={["boost","def"]}>
+<Pair single id="fleet-standard-ex">Fleet Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally who benefits from this standard increases their land speed by 5 feet<sup><InnerLink showBacklink="backlink-arc-cavalier-standard_bearer-fake-fn-1.1" id="arc-cavalier-standard_bearer-fake-fn-1.1" data-hash-target to="arc-cavalier-standard_bearer-fake-fn-1-target">1</InnerLink></sup> and gains a +1 dodge bonus to AC during any round in which they moved at least 10 feet. This increase to land speed is an enhancement bonus.</Pair>
+<Pair title="At 5th Level">The bonus to speed becomes +10 feet.</Pair>
+<Pair title="At 10th Level">The bonus to speed increases to +15 feet.</Pair>
+<Pair title="At 15th Level">The bonus to speed becomes +20 feet.</Pair>
+<Pair title="At 20th Level">The bonus to speed increases to +25 feet.</Pair>
+</Ability>
+<Ability id="jinx-standard-ex" extraClasses="subAbility" icon={["boost"]}>
+<Pair single id="jinx-standard-ex">Jinx Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally who benefits from this standard gains a bonus on caster level checks to bypass spell resistance and a bonus to the DC of their hexes and necromancy or enchantment spell they casts. <Bonus t c="cavalier" n={5} pl link={false} p={1} />.<sup><InnerLink showBacklink="backlink-arc-cavalier-standard_bearer-fake-fn-1.2" id="arc-cavalier-standard_bearer-fake-fn-1.2" data-hash-target to="arc-cavalier-standard_bearer-fake-fn-1-target">1</InnerLink></sup></Pair>
+</Ability>
+<Ability id="knave-standard-ex" extraClasses="subAbility" icon={["def","boost"]}>
+<Pair single id="knave-standard-ex">Knave Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally who benefits from this standard gains a dodge bonus (equal to 2 + one-fifth of your cavalier level<sup><InnerLink showBacklink="backlink-arc-cavalier-standard_bearer-fake-fn-1.3" id="arc-cavalier-standard_bearer-fake-fn-1.3" data-hash-target to="arc-cavalier-standard_bearer-fake-fn-1-target">1</InnerLink></sup>) to AC against attacks of opportunity provoked by movement, and a +1 morale bonus on attack rolls that benefit from <Link to="/rule/flanking">flanking</Link>.</Pair>
+</Ability>
+<Ability id="stalwart-standard-ex" extraClasses="subAbility" icon={["boost"]}>
+<Pair single id="stalwart-standard-ex">Stalwart Standard (Ex)</Pair>
+<Pair title="Passive Ability">An ally who benefits from this standard gains a morale bonus (equal to 2 + one-fifth your cavalier level<sup><InnerLink showBacklink="backlink-arc-cavalier-standard_bearer-fake-fn-1.4" id="arc-cavalier-standard_bearer-fake-fn-1.4" data-hash-target to="arc-cavalier-standard_bearer-fake-fn-1-target">1</InnerLink></sup>) to CMD and a +1 morale bonus on attack rolls to creatures threatening an ally.</Pair>
 </Ability>
 <Ability id="mount-ex" icon={["power"]}>
 <Pair single id="mount-ex">Mount (Ex)</Pair>
@@ -1341,7 +1365,8 @@ const _standard_bearer = {title: "Standard Bearer", jsx: <><h2 id="arc-cavalier-
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">Whenever his banner is visible, allies of the standard bearer within 60 feet gain a +1 morale bonus on attack rolls, immunity to fear effects, and a +3 morale bonus on saving throws against mind-affecting effects.</Pair>
 </Ability>
-</>};
+<section data-footnotes><h3 id="arc-cavalier-standard_bearer-label">Footnotes</h3><ol>
+<li id="arc-cavalier-standard_bearer-fake-fn-1-target"><p><em>Chronicle of Legends</em> introduced new standards for the <em>banner</em> ability, and stated that a standard bearer can select one and that "its effects increase as per the standard bearer's <em>banner.</em>" The original archetype provided the text for the "Original Standard," which started the cavalier with the 5th-level benefit and scaled that benefit up at 5th level and every five levels thereafter. There is no official ruling on how the new standards work with this archetype, so the modifications presented here are merely suggestions. Consult your GM if you wish to use a standard other than the Original Standard. <InnerLink aria-label="Back to reference 1" id="backlink-arc-cavalier-standard_bearer-fake-fn-1" data-hash-target to="arc-cavalier-standard_bearer-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-arc-cavalier-standard_bearer-fake-fn-1.2" data-hash-target to="arc-cavalier-standard_bearer-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-arc-cavalier-standard_bearer-fake-fn-1.3" data-hash-target to="arc-cavalier-standard_bearer-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-arc-cavalier-standard_bearer-fake-fn-1.4" data-hash-target to="arc-cavalier-standard_bearer-fake-fn-1.4">↩<sup>4</sup></InnerLink></p></li></ol></section></>};
 const _strategist = {title: "Strategist", jsx: <><h2 id="arc-cavalier-strategist-strategist">Strategist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 39</Link><br/>Some cavaliers make a lifelong mission out of their exceptional ability to direct troops on the battlefield, combining tactical insight with a preternatural skill at improving the teamwork of their allies in order to win the day. Such strategists are masters at learning the strengths and weaknesses of those they fight alongside, and at employing those observations at the most opportune moments. The best of them are also skilled at determining the strengths and weaknesses of their enemies, as well as at countering some of those strengths with their own formidable abilities.</p>
 <Ability id="tactician-ex" icon={["boost"]}>

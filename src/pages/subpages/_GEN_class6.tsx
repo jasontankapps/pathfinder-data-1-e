@@ -812,8 +812,8 @@ const _samurai = {hasJL:true,title: "Samurai", jsx: <><div className="jumpList" 
 <Pair title="Choice">Choose one of the following standards. The "Original Standard" refers to the original <em>banner</em> ability as printed in <em>Ultimate Combat,</em> while the other standards were introduced in other rulebooks.</Pair>
 <Pair title="Special">The banner must be at least Small or larger and must be carried or displayed by you or your mount to function.</Pair>
 </Ability>
-<Ability id="original-banner-ex" extraClasses="subAbility" icon={["def","boost"]}>
-<Pair single id="original-banner-ex">Original Banner (Ex)</Pair>
+<Ability id="original-standard-ex" extraClasses="subAbility" icon={["def","boost"]}>
+<Pair single id="original-standard-ex">Original Standard (Ex)</Pair>
 <Pair title="Passive Ability">As long as your banner is clearly visible, all allies within 60 feet receive a morale bonus on saving throws against fear and a smaller morale bonus on attack rolls made as part of a charge. The save bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your samurai level, while the charge bonus is equal to one-fifth of your samurai level.</Pair>
 </Ability>
 <Ability id="fleet-standard-ex" extraClasses="subAbility" icon={["boost","def"]}>

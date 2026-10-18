@@ -64,12 +64,14 @@ type BonusProps = BaseProps & Gender;
 
 const Bonus: FC<BonusProps> = (props) => {
 	// Bonus equal to fraction of level
-	//  @B-(identifier-)?#[mfy]p?#?-class(-x)?
+	//  @B-(identifier-)?#[mfytan]p?#?-class(-x)?
 	//  @B-3m-cleric => This bonus...one-third of his cleric level (linked to misc/one_third)
 	//  @B-3yp-cleric => These bonuses...one-third of your cleric level (linked to misc/one_third)
 	//  @B-3f1-cleric-x => This bonus...1 + one-third of her cleric level (no link)
-	//  @B-number-3f-cleric-x => This number...one-third of her cleric level (no link)
-	// _ in the class gets transformed into a space
+	//  @B-number-3a-cleric-x => This number...one-third of a cleric's level (no link)
+	//  @B-numbers-3tp2-cleric => These numbers...2 + one-third of the cleric's level (linked to misc/one_third)
+	//  @B-3n-inquisitor-x => This bonus...one-third of an inquisitor's level (no link)
+	// Underscores (_) in the class and identifier get transformed into a space
 	const {
 		type,
 		n, p = 0,

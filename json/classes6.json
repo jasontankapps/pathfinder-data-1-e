@@ -299,7 +299,7 @@
 			"",
 			"::ab[Banner (Ex)]{jl=strip head l=5 flavor=\"A samurai's banner becomes a symbol of inspiration to his allies and companions.\" icon=power choice=\"Choose one of the following standards. The &quot&Original Standard&quot& refers to the original *banner* ability as printed in *Ultimate Combat,* while the other standards were introduced in other rulebooks.\" special=\"The banner must be at least Small or larger and must be carried or displayed by you or your mount to function.\"}",
 			"",
-			"::ab[Original Banner (Ex)]{next icon=def-boost passive=\"As long as your banner is clearly visible, all allies within 60 feet receive a morale bonus on saving throws against fear and a smaller morale bonus on attack rolls made as part of a charge. The save bonus is equal to 1 + ‹misc/one-fifth› of your samurai level, while the charge bonus is equal to one-fifth of your samurai level.\"}",
+			"::ab[Original Standard (Ex)]{next icon=def-boost passive=\"As long as your banner is clearly visible, all allies within 60 feet receive a morale bonus on saving throws against fear and a smaller morale bonus on attack rolls made as part of a charge. The save bonus is equal to 1 + ‹misc/one-fifth› of your samurai level, while the charge bonus is equal to one-fifth of your samurai level.\"}",
 			"",
 			"::ab[Fleet Standard (Ex)]{next icon=boost-def passive=\"An ally who benefits from this standard increases their land speed by 5 feet and gains a +1 dodge bonus to AC during any round in which they moved at least 10 feet. This increase to land speed is an enhancement bonus.\" increment=\"The bonus to speed~5~5~10~5\" incrementEnd=\" feet.\"}",
 			"",
