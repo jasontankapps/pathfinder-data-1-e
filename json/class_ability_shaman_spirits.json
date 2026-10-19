@@ -511,7 +511,7 @@
 			"",
 			"::ab[Primal Speaker (Ex)]{icon=magic-boost ability=\"The shaman can speak with ‹monster/mammoth«s› and any other ‹family/megafauna› or ‹monster/elephant› creatures as if she were under the effects of ‹spell/speak with animals›.\" imp5=\"The shaman gains a bonus on ‹skill/Handle Animal› checks when dealing with those animals equal to ‹misc/half› her shaman level.\" imp10=\"The shaman can affect one such animal within 30 feet as if she'd cast ‹spell/charm animal› (Will negates). Whether or not the target succeeds at the saving throw, it can't be the target of this hex again for 24 hours.\"}",
 			"",
-			"::ab[Thunder Foot (Ex)]{icon=boost flavor=\"The shaman's body thickens and becomes more muscular.\" passive=\"For the purpose of the overrun combat maneuver, she treats her shaman level as her base attack bonus when calculating her CMB and CMD.\" imp7=\"The shaman gains ‹feat/Improved Overrun› as a bonus feat.\" imp11=\"The shaman gains ‹feat/Greater Overrun› as a bonus feat.\" special=\"The shaman doesn't need to meet the prerequisites of these feats.\"}",
+			"::ab[Thunder Foot (Ex)]{icon=boost-power flavor=\"The shaman's body thickens and becomes more muscular.\" passive=\"For the purpose of the overrun combat maneuver, she treats her shaman level as her base attack bonus when calculating her CMB and CMD.\" imp7=\"The shaman gains ‹feat/Improved Overrun› as a bonus feat.\" imp11=\"The shaman gains ‹feat/Greater Overrun› as a bonus feat.\" special=\"The shaman doesn't need to meet the prerequisites of these feats.\"}",
 			"",
 			"::h3[Spirit Animal]{jl}",
 			"",

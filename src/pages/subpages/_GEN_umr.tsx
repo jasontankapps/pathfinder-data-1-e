@@ -984,7 +984,7 @@ const _all_around_vision = {title: "All-Around Vision", jsx: <><h2 id="umr-all_a
 <p><strong>Sources</strong> <Link to="/source/bestiary_5">Bestiary 5 pg. 290</Link><br/>The creature sees in all directions at once. It cannot be flanked.</p>
 <Block size="simple" hl>
 <Row><Cell>Format</Cell><Cell>all-around vision</Cell></Row>
-<Row><Cell>Location</Cell><Cell>Defensive Abilities</Cell></Row></Block>
+<Row><Cell>Location</Cell><Cell>Senses or Defensive Abilities</Cell></Row></Block>
 </>};
 const _trip = {title: "Trip", jsx: <><h2 id="umr-trip-trip-ex">Trip (Ex)</h2>
 <p><strong>Sources</strong> <Link to="/source/bestiary_5">Bestiary 5 pg. 301</Link><br/>A creature with the trip special attack can attempt to trip its opponent as a free action without provoking an attack of opportunity if it hits with the specified attack. If the attempt fails, the creature is not tripped in return.</p>

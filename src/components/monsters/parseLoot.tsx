@@ -359,7 +359,7 @@ const parseLoot = (input: (string[]|ReactNode)[], id: string, treasure: boolean 
 			return;
 		}
 		const components: ReactNode[] = item.map(bit => {
- 			let m: RegExpMatchArray | null | string = "";
+			let m: RegExpMatchArray | null | string = "";
 			if(SIZES.includes(bit as SIZE)) {
 				return getSize(bit as SIZE);
 			} else if ((m = bit.match(/^[-+]?[0-9]+$/))) {

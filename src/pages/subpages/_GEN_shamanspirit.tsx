@@ -793,7 +793,7 @@ const _mammoth = {hasJL:true,title: "Mammoth", jsx: <><div className="jumpList" 
 <Pair title="At 5th Level">The shaman gains a bonus on <Link to="/skill/handle_animal">Handle Animal</Link> checks when dealing with those animals equal to <Link to="/misc/half">half</Link> her shaman level.</Pair>
 <Pair title="At 10th Level">The shaman can affect one such animal within 30 feet as if she'd cast <Link to="/spell/charm_animal">charm animal</Link> (Will negates). Whether or not the target succeeds at the saving throw, it can't be the target of this hex again for 24 hours.</Pair>
 </Ability>
-<Ability id="thunder-foot-ex" icon={["boost"]}>
+<Ability id="thunder-foot-ex" icon={["boost","power"]}>
 <Pair single id="thunder-foot-ex" flavor="The shaman's body thickens and becomes more muscular.">Thunder Foot (Ex)</Pair>
 <Pair title="Passive Ability">For the purpose of the overrun combat maneuver, she treats her shaman level as her base attack bonus when calculating her CMB and CMD.</Pair>
 <Pair title="At 7th Level">The shaman gains <Link to="/feat/improved_overrun">Improved Overrun</Link> as a bonus feat.</Pair>

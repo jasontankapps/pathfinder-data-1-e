@@ -100,12 +100,12 @@ ion-list.aboutPage p.icons:not(.icons20):not(.icons30) {
 		align-items: stretch;
 	}
 }
-@media (width > 82rem) { /* Base */
+@media (width > 92rem) { /* Base */
 	ion-list.aboutPage p.icons.icons20 {
 		grid-template-areas: "aa ab ac ad ae af ag ah ai aj ak al am an ao ap aq ar as at";
 	}
 }
-@media (37.5rem <= width <= 82rem) { /* 10 / 10 */
+@media (37.5rem <= width <= 92rem) { /* 10 / 10 */
 	ion-list.aboutPage p.icons.icons20 {
 		grid-template-areas:
 			"aa ab ac ad ae af ag ah ai aj"

@@ -421,29 +421,21 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					+ `</div>\n`
 				);
 			} else if (n === "row") {
-				churn(n, attrs, ["clear","info","title","classes","single","singleBreaks","br"], [], logError);
+				churn(n, attrs, ["clear","info","title","classes","singleBreaks","br"], [], logError);
 				// ::row should only be called inside :::block, so no need to modify flags
-				const {classes, title, info, single, singleBreaks, br = "~~~"} = attrs;
+				const {classes, title, info, singleBreaks, br = "~~~"} = attrs;
 				const marked2 = makeNewMarkedInstance();
 				const linebreak = singleBreaks ? "  \n" : "  \n  \n";
 				return (
-					single ? (
-						`\n<Row className="single${classes ? " classes" : ""}"><Cell>${
-							removeCurlyBrackets(marked2.parseInline(
-								convertEncodedInfo(info || "MISSING").replaceAll(br, linebreak)
-							))
-						}</Cell></Row>`
-					) : (
-						`\n<Row${classes ? ` className="${classes}"` : ""}><Cell>${
-							removeCurlyBrackets(marked2.parseInline(
-								convertEncodedInfo(text || title || "MISSING")
-							))
-						}</Cell><Cell>${
-							removeCurlyBrackets(marked2.parseInline(
-								convertEncodedInfo(info || "MISSING").replaceAll(br, linebreak)
-							))
-						}</Cell></Row>`
-					)
+					`\n<Row${classes ? ` className="${classes}"` : ""}><Cell>${
+						removeCurlyBrackets(marked2.parseInline(
+							convertEncodedInfo(text || title || "MISSING")
+						))
+					}</Cell><Cell>${
+						removeCurlyBrackets(marked2.parseInline(
+							convertEncodedInfo(info || "MISSING").replaceAll(br, linebreak)
+						))
+					}</Cell></Row>`
 				);
 			} else if (n === "ab") {
 				churn(n, attrs, [
@@ -555,7 +547,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				});
 			} else if (n === "class") {
 				churn(n, attrs, [
- 					"clear", "al", "any", "noAlignmentTable",
+					"clear", "al", "any", "noAlignmentTable",
 					"lg", "ln", "le", "ng", "n", "ne", "cg", "cn", "ce",
 					"hd", "parent", "wealth", "skp",
 					"acro", "app", "bluff", "climb", "craft", "diplo",
@@ -569,7 +561,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				return makeClassBlock({maybeClear, attrs, marked2, convertEncodedInfo});
 			} else if (n === "prof") {
 				churn(n, attrs, [
- 					"clear",
+					"clear",
 					"simple", "martial", "weaps", "wExtra",
 					"light", "medium", "heavy",
 					"shields", "tower", "aExtra",
@@ -636,7 +628,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 			} else if (n === "rtraits") {
 				// Racial Traits
 				churn(n, attrs, [
- 					"clear",
+					"clear",
 					"plural", "main"
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
@@ -645,7 +637,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				return makeRacialTraitsBlock({maybeClear, plural, main, convert: (x) => marked2.parseInline(convertEncodedInfo(x)), logError})
 			} else if (n === "kinetics") {
 				churn(n, attrs, [
- 					"clear",
+					"clear",
 					"el", "type", "l", "burn",
 					"prereq", "assoc", "btype", "dmg",
 					"save", "sr", "source"

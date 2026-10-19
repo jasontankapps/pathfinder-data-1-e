@@ -27,7 +27,7 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 <Ability id="anguish-bomb-su" extraClasses="subAbility" icon={["power"]}>
 <Pair single id="anguish-bomb-su" flavor="Text from the mnemostiller archetype ability.">Anguish Bomb (Su)</Pair>
 <Pair title="Ability">An <em>anguish bomb</em> is identical to a bomb except that it deals nonlethal damage, it deals no damage to inanimate objects and creatures immune to mental effects, and creatures caught in the <em>anguish bomb's</em> splash can attempt a Will save for half damage. A mnemostiller uses his Charisma score in place of his Intelligence score to determine the bonus damage of his <em>anguish bomb</em> and the save DC of the <em>anguish bomb's</em> splash damage. He still uses his Intelligence score to determine his number of bombs per day.</Pair>
-<Pair title="Special">If the mnemostiller has taken any hit point damage in the past 24 hours, his <em>anguish bombs</em> inflict 1 additional point of nonlethal damage for every 2 alchemist levels he has.</Pair>
+<Pair title="Special">If the mnemostiller has taken any hit point damage in the past 24 hours, his <em>anguish bombs</em> inflict additional nonlethal damage equal to <Link to="/misc/half">half</Link> of his alchemist level.</Pair>
 </Ability>
 <div className="abilityGroup">
 <Ability id="discoverydreadbomb-dread-bomb-fn3-2" icon={["lower"]}>
@@ -324,7 +324,7 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 </Ability>
 <Ability id="discoverydirectedbomb-directed-bomb-fn14-2" icon={["cone"]}>
 <Pair single id="discoverydirectedbomb-directed-bomb-fn14-2"><Link to="/discovery/directed_bomb">⮞</Link> Directed Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-14.2" id="ability-discoveries-fake-fn-14.2" data-hash-target to="ability-discoveries-fake-fn-14-target">14</InnerLink></sup></Pair>
-<Pair title="Ability">The alchemist can cause his bombs to splash in a 15-foot cone instead of a 5-foot-radius <Link to="/misc/burst">burst</Link>. The alchemist chooses the direction of the cone. If the attack misses, roll an additional 1d8 to determine the direction of the blast from where the bomb lands.</Pair>
+<Pair title="Ability">The alchemist can cause his bombs to splash in a 15-foot cone instead of a 5-foot-radius burst. The alchemist chooses the direction of the cone. If the attack misses, roll an additional 1d8 to determine the direction of the blast from where the bomb lands.</Pair>
 <Pair title="Special">This discovery can't be combined with the <Link to="/discovery/explosive_bomb">explosive bomb</Link> discovery.</Pair>
 </Ability>
 <Ability id="discoverydivineinks-divine-inks-fn22" icon={["magic"]}>
@@ -453,7 +453,7 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 <Pair title="Ability">When the alchemist creates an extract, he can infuse it with an extra bit of his own magical power. The extract created now persists even after the alchemist sets it down. As long as the extract exists, it continues to occupy one of the alchemist's daily extract slots. An infused extract can be imbibed by a non-alchemist to gain its effects.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="discoveryaromaticextract-aromatic-extract-fn25" icon={["magic"]}>
+<Ability id="discoveryaromaticextract-aromatic-extract-fn25" icon={["magic","aura"]}>
 <Pair single id="discoveryaromaticextract-aromatic-extract-fn25"><Link to="/discovery/aromatic_extract">⮞</Link> Aromatic Extract <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-25" id="ability-discoveries-fake-fn-25" data-hash-target to="ability-discoveries-fake-fn-25-target">25</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level alchemist, <Link to="/discovery/infusion">infusion</Link></Pair>
 <Pair title="Ability">The alchemist creates an inhaled version of an extract that is shared among multiple creatures. He must decide that an extract is an <em>aromatic extract</em> when he makes it. When used, the extract grants its benefit to all creatures within a 10-foot <Link to="/misc/spread">spread</Link> of the extract. The <em>aromatic extract</em> is treated as having the minimum caster level required for the original extract.</Pair>
