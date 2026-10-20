@@ -421,20 +421,29 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					+ `</div>\n`
 				);
 			} else if (n === "row") {
-				churn(n, attrs, ["clear","info","title","classes","singleBreaks","br"], [], logError);
+				churn(n, attrs, ["clear","info","title","classes","singleBreaks","block","br"], [], logError);
 				// ::row should only be called inside :::block, so no need to modify flags
-				const {classes, title, info, singleBreaks, br = "~~~"} = attrs;
+				const {classes, title, info, singleBreaks, block, br = "~~~"} = attrs;
 				const marked2 = makeNewMarkedInstance();
 				const linebreak = singleBreaks ? "  \n" : "  \n  \n";
+				const joiner = block ? (text) => {
+					// splitBreaks
+					return marked2.parse(
+						convertEncodedInfo(text).replaceAll(br, "\n")
+					);
+				} : (text) => {
+					// normal
+					return marked2.parseInline(
+						convertEncodedInfo(text).replaceAll(br, linebreak)
+					);
+				};
 				return (
 					`\n<Row${classes ? ` className="${classes}"` : ""}><Cell>${
 						removeCurlyBrackets(marked2.parseInline(
 							convertEncodedInfo(text || title || "MISSING")
 						))
 					}</Cell><Cell>${
-						removeCurlyBrackets(marked2.parseInline(
-							convertEncodedInfo(info || "MISSING").replaceAll(br, linebreak)
-						))
+						removeCurlyBrackets(joiner(info || "MISSING"))
 					}</Cell></Row>`
 				);
 			} else if (n === "ab") {

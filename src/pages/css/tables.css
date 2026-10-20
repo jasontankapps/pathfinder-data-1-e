@@ -146,10 +146,12 @@ table tr :is(th, td) {
 	/* This is so linked cells will ripple */
 	position: relative;
 }
+div.table .tr .td li,
 table tr :is(th, td) li {
 	font-size: 0.875rem;
 	line-height: 1.25rem;
 }
+div.table .tr .td li + li,
 table tr :is(th, td) li + li {
 	margin-block-start: 0.25rem;
 }
@@ -200,6 +202,10 @@ table tr p {
 div.table > .tr > .td p + p,
 table tr p + p {
 	margin-block: 0.5rem;
+}
+div.table > .tr > .td :is(p,ol,ul):last-child,
+table tr :is(p,ol,ul):last-child {
+	margin-block-end: 0;
 }
 div.table > .tr > .td.cell-link,
 div.tabular > div.row > div.cell-link,
