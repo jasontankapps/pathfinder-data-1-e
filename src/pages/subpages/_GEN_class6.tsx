@@ -810,11 +810,12 @@ const _samurai = {hasJL:true,title: "Samurai", jsx: <><div className="jumpList" 
 <Pair single id="banner-ex" flavor="A samurai's banner becomes a symbol of inspiration to his allies and companions.">Banner (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Choice">Choose one of the following standards. The "Original Standard" refers to the original <em>banner</em> ability as printed in <em>Ultimate Combat,</em> while the other standards were introduced in other rulebooks.</Pair>
+<Pair title="Passive Ability">As long as your banner is clearly visible, all allies within 60 feet gain the bonus specified by your standard.</Pair>
 <Pair title="Special">The banner must be at least Small or larger and must be carried or displayed by you or your mount to function.</Pair>
 </Ability>
 <Ability id="original-standard-ex" extraClasses="subAbility" icon={["def","boost"]}>
 <Pair single id="original-standard-ex">Original Standard (Ex)</Pair>
-<Pair title="Passive Ability">As long as your banner is clearly visible, all allies within 60 feet receive a morale bonus on saving throws against fear and a smaller morale bonus on attack rolls made as part of a charge. The save bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your samurai level, while the charge bonus is equal to one-fifth of your samurai level.</Pair>
+<Pair title="Passive Ability">An ally who benefits from this standard receives a morale bonus on saving throws against fear and a smaller morale bonus on attack rolls made as part of a charge. The save bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your samurai level, while the charge bonus is equal to one-fifth of your samurai level.</Pair>
 </Ability>
 <Ability id="fleet-standard-ex" extraClasses="subAbility" icon={["boost","def"]}>
 <Pair single id="fleet-standard-ex">Fleet Standard (Ex)</Pair>
@@ -861,35 +862,36 @@ const _samurai = {hasJL:true,title: "Samurai", jsx: <><div className="jumpList" 
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Passive Ability">Whenever you declare a <em>challenge,</em> your target must pay attention to the threat you pose. As long as the target is within your threatened area, it takes a -2 penalty to its AC from attacks made by anyone other than you.</Pair>
 </Ability>
-<Ability id="greater-banner-ex" extraClasses="hasSubs" icon={["power"]}>
+<Ability id="greater-banner-ex" extraClasses="hasSubs" icon={["boost","power"]}>
 <Pair single id="greater-banner-ex" flavor="A samurai's banner becomes a rallying call to his allies.">Greater Banner (Ex)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
-<Pair title="Ability">You gain new ways to utilize your <em>banner.</em></Pair>
+<Pair title="Passive Ability">All allies within 60 feet gain new benefits from your <em>banner.</em></Pair>
+<Pair title="Standard Action">While your banner is displayed, you can wave the banner through the air, granting all allies within 60 feet certain benefits.</Pair>
 </Ability>
-<Ability id="original-standard-ex" extraClasses="subAbility" icon={["def"]}>
+<Ability id="original-standard-ex" extraClasses="subAbility" icon={["def","aura"]}>
 <Pair single id="original-standard-ex">Original Standard (Ex)</Pair>
-<Pair title="Passive Ability">All allies within 60 feet receive a +2 morale bonus on saving throws against charm and compulsion spells and effects.</Pair>
-<Pair title="Standard Action">While your banner is displayed, you can wave the banner through the air, granting all allies within 60 feet an additional saving throw against any one spell or effect that is targeting them. This save is made at the original DC. Spells and effects that do not allow saving throws are unaffected by this ability. An ally cannot benefit from this ability more than once per day.</Pair>
+<Pair title="Passive Ability">An ally benefiting from the banner receives a +2 morale bonus on saving throws against charm and compulsion spells and effects.</Pair>
+<Pair title="Standard Action">Waving your <em>banner</em> grants all allies within 60 feet an additional saving throw against any one spell or effect that is targeting them. This save is made at the original DC. Spells and effects that do not allow saving throws are unaffected by this ability. An ally cannot benefit from this ability more than once per day.</Pair>
 </Ability>
-<Ability id="fleet-standard-ex" extraClasses="subAbility" icon={["def","power"]}>
+<Ability id="fleet-standard-ex" extraClasses="subAbility" icon={["def","power","aura"]}>
 <Pair single id="fleet-standard-ex">Fleet Standard (Ex)</Pair>
 <Pair title="Passive Ability">An ally benefiting from the banner gains a +2 morale bonus on Reflex saving throws against effects that target an area, such as <Link to="/spell/fireball">fireball</Link> or <Link to="/umr/breath_weapon">breath weapons</Link>.</Pair>
-<Pair title="Standard Action">While your banner is displayed, you can wave the banner through the air, granting each ally within 60 feet the ability to move up to their speed as an <strong className="hl">immediate action</strong>.</Pair>
+<Pair title="Standard Action">Waving your <em>banner</em> grants each ally within 60 feet the ability to move up to their speed as an <strong className="hl">immediate action</strong>.</Pair>
 </Ability>
-<Ability id="jinx-standard-ex" extraClasses="subAbility" icon={["def","power"]}>
+<Ability id="jinx-standard-ex" extraClasses="subAbility" icon={["def","power","select"]}>
 <Pair single id="jinx-standard-ex">Jinx Standard (Ex)</Pair>
 <Pair title="Passive Ability">An ally benefiting from the banner gains a +2 morale bonus on saving throws against spells or effects that deal hit point damage.</Pair>
-<Pair title="Standard Action">While your banner is displayed, you can wave the banner through the air, granting a number of allies equal to your Charisma modifier (minimum 1) within 60 feet the ability to attempt an Intimidate check to demoralize a foe as an <strong className="hl">immediate action</strong>.</Pair>
+<Pair title="Standard Action">Waving your <em>banner</em> grants a number of allies equal to your Charisma modifier (minimum 1) within 60 feet the ability to attempt an Intimidate check to demoralize a foe as an <strong className="hl">immediate action</strong>.</Pair>
 </Ability>
-<Ability id="knave-standard-ex" extraClasses="subAbility" icon={["power"]}>
+<Ability id="knave-standard-ex" extraClasses="subAbility" icon={["power","select"]}>
 <Pair single id="knave-standard-ex">Knave Standard (Ex)</Pair>
 <Pair title="Passive Ability">An ally benefiting from the banner gains <Link to="/ability/sneak_attack">sneak attack</Link> +1d6; this stacks with other sources of sneak attack.</Pair>
-<Pair title="Standard Action">While your banner is displayed, you can wave the banner through the air, granting a number of allies equal to your Charisma modifier (minimum 1) within 60 feet the ability to attempt a <Link to="/rule/feint">feint</Link> against a foe they threaten as an <strong className="hl">immediate action</strong>.</Pair>
+<Pair title="Standard Action">Waving your <em>banner</em> grants a number of allies equal to your Charisma modifier (minimum 1) within 60 feet the ability to attempt a <Link to="/rule/feint">feint</Link> against a foe they threaten as an <strong className="hl">immediate action</strong>.</Pair>
 </Ability>
-<Ability id="stalwart-standard-ex" extraClasses="subAbility" icon={["def","power"]}>
+<Ability id="stalwart-standard-ex" extraClasses="subAbility" icon={["def","power","aura"]}>
 <Pair single id="stalwart-standard-ex">Stalwart Standard (Ex)</Pair>
 <Pair title="Passive Ability">An ally benefiting from the banner is treated as one size category larger for the purposes of determining which creatures can affect them with combat maneuvers.</Pair>
-<Pair title="Standard Action">While your banner is displayed, you can wave the banner through the air, granting each ally within 60 feet the ability to move up to 10 feet without provoking attacks of opportunities and ignoring <Link to="/rule/difficult_terrain">difficult terrain</Link> as an <strong className="hl">immediate action</strong>.</Pair>
+<Pair title="Standard Action">Waving your <em>banner</em> grants each ally within 60 feet the ability to move up to 10 feet without provoking attacks of opportunities and ignoring <Link to="/rule/difficult_terrain">difficult terrain</Link> as an <strong className="hl">immediate action</strong>.</Pair>
 </Ability>
 <Ability id="true-resolve-ex" icon={["def"]}>
 <Pair single id="true-resolve-ex">True Resolve (Ex)</Pair>
