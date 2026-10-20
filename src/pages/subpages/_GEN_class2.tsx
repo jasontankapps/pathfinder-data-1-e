@@ -5,6 +5,7 @@ import Ability from '../../components/Ability';
 import RacialOptions from '../../components/RacialOptions';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import ByLevelPop from '../../components/ByLevelPop';
 import Message from '../../components/Message';
 const _fighter = {hasJL:true,title: "Fighter", jsx: <><div className="jumpList" id="class-fighter-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-fighter-bonus-feats">Bonus Feats</InnerLink></li><li><InnerLink toTop to="class-fighter-bravery-ex">Bravery</InnerLink></li><li><InnerLink toTop to="class-fighter-armor-training-ex">Armor Training</InnerLink></li><li><InnerLink toTop to="class-fighter-weapon-training-ex">Weapon Training</InnerLink></li><li><InnerLink toTop to="class-fighter-armor-mastery-ex">Other Abilities</InnerLink></li><li><InnerLink toTop to="class-fighter-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-fighter-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-fighter-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-fighter-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-fighter-fighter">Fighter</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 55</Link></p>
@@ -1552,17 +1553,11 @@ const _inquisitor = {hasJL:true,title: "Inquisitor", jsx: <><div className="jump
 <Ability id="judgment-su" icon={["power"]}>
 <Pair single id="judgment-su" flavor={<>You can pronounce <Link to="/ability/judgments">judgment</Link> upon your foes.</>}>Judgment (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Usage">Once a day.</Pair>
+<Pair title="Usage">1 time/day + 1 per three inquisitor levels beyond 1st<ByLevelPop levels={[[1,1],[4,2],[7,3],[10,4],[13,5],[16,6],[19,7]]} unit="time" postText="/day" /></Pair>
 <Pair title="Swift Action"><p>Starting when the judgment is made, you receive a bonus or special ability based on the type of judgment made.</p>
 <p>Once activated, this ability lasts until the combat ends, at which point all of the bonuses immediately end. You must participate in the combat to gain these bonuses. If you are frightened, panicked, paralyzed, stunned, unconscious, or otherwise prevented from participating in the combat, the ability does not end, but the bonuses do not resume until you can participate in the combat again.</p>
 <p>When you use this ability, you must select <Link to="/ability/judgments">one type of judgment</Link> to make. As a <strong className="hl">swift action</strong>, you can change this judgment to another type. If you are evil, you receive profane bonuses instead of sacred, as appropriate. Neutral inquisitors must select profane or sacred bonuses. Once made, this choice cannot be changed.</p>
 </Pair>
-<Pair title="At 4th Level">You can now use this ability twice a day.</Pair>
-<Pair title="At 7th Level">You can use this three times a day.</Pair>
-<Pair title="At 10th Level">You can use this four times a day.</Pair>
-<Pair title="At 13th Level">You can use this five times a day.</Pair>
-<Pair title="At 16th Level">You can use this six times a day.</Pair>
-<Pair title="At 19th Level">You can use this seven times a day.</Pair>
 </Ability>
 <Ability id="monster-lore-ex" icon={["boost"]}>
 <Pair single id="monster-lore-ex">Monster Lore (Ex)</Pair>
@@ -2101,13 +2096,13 @@ const _investigator = {hasJL:true,title: "Investigator", jsx: <><div className="
 <p>If your attack used a weapon that deals nonlethal damage (like a <Link to="/eq-weapon/sap">sap</Link>, <Link to="/eq-weapon/whip">whip</Link>, or an unarmed strike), you may choose to have the additional damage from studied strike be nonlethal damage instead of lethal damage. If you chose to make an attack with a lethal weapon instead deal nonlethal damage (with the usual -4 penalty), the studied strike damage may also deal nonlethal damage.</p>
 </Pair>
 <Pair title="At 6th Level">The damage becomes 2d6.</Pair>
-<Pair title="At 8th Level">The damage becomes 3d6.</Pair>
+<Pair title="At 8th Level">The damage increases to 3d6.</Pair>
 <Pair title="At 10th Level">The damage becomes 4d6.</Pair>
-<Pair title="At 12th Level">The damage becomes 5d6.</Pair>
+<Pair title="At 12th Level">The damage increases to 5d6.</Pair>
 <Pair title="At 14th Level">The damage becomes 6d6.</Pair>
-<Pair title="At 16th Level">The damage becomes 7d6.</Pair>
+<Pair title="At 16th Level">The damage increases to 7d6.</Pair>
 <Pair title="At 18th Level">The damage becomes 8d6.</Pair>
-<Pair title="At 20th Level">The damage becomes 9d6.</Pair>
+<Pair title="At 20th Level">The damage increases to 9d6.</Pair>
 <Pair title="Special">You cannot use <em>studied strike</em> against a creature with <Link to="/rule/concealment">concealment</Link>.</Pair>
 </Ability>
 <Ability id="swift-alchemy-ex" icon={["boost"]}>
@@ -2453,7 +2448,7 @@ const _kineticist = {hasJL:true,title: "Kineticist", jsx: <><div className="jump
 <Pair title="Passive Ability">You gain an internal buffer. The buffer starts empty and doesn't replenish each day. It can hold a maximum of 1 point.</Pair>
 <Pair title="Full-Round Action">You can accept 1 point of burn to add 1 point to the buffer.</Pair>
 <Pair title="Ability">When you would otherwise accept burn, you can spend 1 point from your buffer to avoid accepting 1 point of burn. You cannot spend more than 1 point from your buffer in this way for a single wild talent.</Pair>
-<Pair title="At 11th Level">The maximum becomes 2 points.</Pair>
+<Pair title="At 11th Level">The maximum increases to 2 points.</Pair>
 <Pair title="At 16th Level">The maximum becomes 3 points.</Pair>
 <Pair title="Special">Once you add points to your buffer, they remain indefinitely until you spend them. Points spent from the internal buffer don't activate <em>elemental overflow</em> or add to its effects. Similarly, this buffer can be used to exceed the limit on the number of points of burn you can accept in a single turn.</Pair>
 </Ability>

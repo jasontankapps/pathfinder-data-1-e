@@ -325,10 +325,8 @@ const _brawler = {hasJL:true,title: "Brawler", jsx: <><div className="jumpList" 
 <Ability id="knockout-ex" icon={["melee"]}>
 <Pair single id="knockout-ex">Knockout (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Usage">Once a day.</Pair>
+<Pair title="Usage">1 time/day + 1 per six brawler levels beyond 4th<ByLevelPop levels={[[4,1],[10,2],[16,3]]} unit="time" postText="/day" /></Pair>
 <Pair title="Standard Action">You can unleash a devastating attack that can instantly knock a target unconscious. You must announce this intent before making your attack roll. If you hit and the target takes damage from the blow, the target must succeed at a Fortitude saving throw (DC = 10 + <Link to="/misc/half">half</Link> your brawler level + the higher of your Strength or Dexterity modifier) or fall unconscious for 1d6 rounds.</Pair>
-<Pair title="At 10th Level">You can use this twice a day.</Pair>
-<Pair title="At 16th Level">You can use this three times per day.</Pair>
 <Pair title="Special">Each round on its turn, the unconscious target may attempt a new saving throw to end the effect as a <strong className="hl">full-round action</strong> that does not provoke attacks of opportunity. Creatures immune to critical hits or nonlethal damage are immune to this ability.</Pair>
 </Ability>
 <Ability id="brawlers-strike-ex" icon={["melee","boost"]}>
@@ -2269,11 +2267,10 @@ const _mesmerist = {hasJL:true,title: "Mesmerist", jsx: <><div className="jumpLi
 </Ability>
 <Ability id="manifold-tricks-su" icon={["boost"]}>
 <Pair single id="manifold-tricks-su">Manifold Tricks (Su)</Pair>
-<Pair title="Gained">At 5th Level</Pair>
-<Pair title="Passive Ability">You can have two <em>mesmerist tricks</em> implanted at a time.</Pair>
-<Pair title="At 9th Level">You can have three <em>mesmerist tricks</em> implanted at a time.</Pair>
-<Pair title="At 13th Level">You can have four <em>mesmerist tricks</em> implanted at a time.</Pair>
-<Pair title="At 17th Level">You can have five <em>mesmerist tricks</em> implanted at a time.</Pair>
+<Pair title="At 5th Level">You can have 2 <em>mesmerist tricks</em> implanted at a time.</Pair>
+<Pair title="At 9th Level">You can have 3 <em>mesmerist tricks</em> implanted at a time.</Pair>
+<Pair title="At 13th Level">You can have 4 <em>mesmerist tricks</em> implanted at a time.</Pair>
+<Pair title="At 17th Level">You can have 5 <em>mesmerist tricks</em> implanted at a time.</Pair>
 <Pair title="Special">Each creature can still be the subject of only one trick at a time. If you implant a new trick while you already have your maximum number of concurrent tricks implanted, you must choose one implanted trick to dismiss without triggering (the dismissed trick still expends a daily use of your tricks).</Pair>
 </Ability>
 <Ability id="mental-potency-ex" icon={["boost","magic"]}>

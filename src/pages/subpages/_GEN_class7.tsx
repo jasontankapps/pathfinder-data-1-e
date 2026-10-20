@@ -717,9 +717,9 @@ const _shifter = {hasJL:true,title: "Shifter", jsx: <><div className="jumpList" 
 <Pair title="Swift Action">You can shift into your aspect's minor form. You can assume only one minor form at a time. Shifting to a new aspect (or aspects, in the case of <em>chimeric aspects</em> or <em>greater chimeric aspects</em>) ends all minor forms currently manifested.</Pair>
 <Pair title="Usage">3 minutes/day + 1 minute per shifter level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
 <Pair title="Free Action">On your turn, you can end the effect.</Pair>
-<Pair title="At 5th Level">You gain a second aspect.</Pair>
-<Pair title="At 10th Level">You gain a third aspect.</Pair>
-<Pair title="At 15th Level">You gain a fourth aspect.</Pair>
+<Pair title="At 5th Level">You gain a 2nd aspect.</Pair>
+<Pair title="At 10th Level">You gain a 3rd aspect.</Pair>
+<Pair title="At 15th Level">You gain a 4th aspect.</Pair>
 <Pair title="Special">The minor forms of aspects are not polymorph effects, and you do not lose the benefits of a minor form while affected by polymorph effects.</Pair>
 </Ability>
 <Ability id="shifter-claws-su" icon={["melee"]}>
@@ -1825,10 +1825,10 @@ const _barbarian = {hasJL:true,title: "Barbarian", jsx: <><div className="jumpLi
 <Pair single id="damage-reduction-ex">Damage Reduction (Ex)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">You gain <Link to="/rule/damage_reduction">damage reduction</Link> of DR 1/-.</Pair>
-<Pair title="At 10th Level">You now have DR 2/-.</Pair>
-<Pair title="At 13th Level">You now have DR 3/-.</Pair>
-<Pair title="At 16th Level">You now have DR 4/-.</Pair>
-<Pair title="At 19th Level">You now have DR 5/-.</Pair>
+<Pair title="At 10th Level">Your DR becomes 2/-.</Pair>
+<Pair title="At 13th Level">Your DR increases to 3/-.</Pair>
+<Pair title="At 16th Level">Your DR becomes 4/-.</Pair>
+<Pair title="At 19th Level">Your DR increases to 5/-.</Pair>
 </Ability>
 <Ability id="greater-rage-ex" icon={["boost","def"]}>
 <Pair single id="greater-rage-ex">Greater Rage (Ex)</Pair>
@@ -2136,10 +2136,10 @@ const _unchained_barbarian = {hasJL:true,title: "Unchained Barbarian", jsx: <><d
 <Pair single id="damage-reduction-ex">Damage Reduction (Ex)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">You gain <Link to="/rule/damage_reduction">damage reduction</Link> of DR 1/-.</Pair>
-<Pair title="At 10th Level">You now have DR 2/-.</Pair>
-<Pair title="At 13th Level">You now have DR 3/-.</Pair>
-<Pair title="At 16th Level">You now have DR 4/-.</Pair>
-<Pair title="At 19th Level">You now have DR 5/-.</Pair>
+<Pair title="At 10th Level">Your DR becomes 2/-.</Pair>
+<Pair title="At 13th Level">Your DR increases to 3/-.</Pair>
+<Pair title="At 16th Level">Your DR becomes 4/-.</Pair>
+<Pair title="At 19th Level">Your DR increases to 5/-.</Pair>
 </Ability>
 <Ability id="greater-rage-ex" icon={["boost","def"]}>
 <Pair single id="greater-rage-ex">Greater Rage (Ex)</Pair>

@@ -839,9 +839,10 @@ const _samurai = {hasJL:true,title: "Samurai", jsx: <><div className="jumpList" 
 <Ability id="bonus-feat" icon={["power"]}>
 <Pair single id="bonus-feat">Bonus Feat</Pair>
 <Pair title="Gained">At 6th Level</Pair>
-<Pair title="Ability">You gain a bonus <Link to="/main/combat_feat">combat feat</Link>. You must meet the prerequisites of this feat.</Pair>
-<Pair title="At 12th Level">You gain a second bonus combat feat. You must meet the prerequisites of this feat.</Pair>
-<Pair title="At 18th Level">You gain a third bonus combat feat. You must meet the prerequisites of this feat.</Pair>
+<Pair title="Ability">You gain a bonus <Link to="/main/combat_feat">combat feat</Link>.</Pair>
+<Pair title="At 12th Level">You gain a 2nd bonus combat feat.</Pair>
+<Pair title="At 18th Level">You gain a 3rd bonus combat feat.</Pair>
+<Pair title="Special">You must meet the prerequisites of these feats.</Pair>
 </Ability>
 <Ability id="greater-resolve-ex" icon={["def"]}>
 <Pair single id="greater-resolve-ex">Greater Resolve (Ex)</Pair>
@@ -1887,16 +1888,17 @@ const _warpriest = {hasJL:true,title: "Warpriest", jsx: <><div className="jumpLi
 </Ability>
 <Ability id="fervor-su" icon={["aid","touch","magic"]}>
 <Pair single id="fervor-su" flavor="A warpriest can draw upon the power of his faith to heal wounds or harm foes. He can also use this ability to quickly cast spells that aid in his struggles.">Fervor (Su)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">If you spontaneously cast <em>cure</em> spells, this ability harms undead (no save) and heals other creatures as positive energy. Otherwise, it heals undead and harms other creatures (no save) as negative energy.</Pair>
 <Pair title="Usage">Wis modifier times/day + 1/2 your warpriest level</Pair>
 <Pair title="Standard Action">By expending one use of this ability, you can touch a creature to heal it of 1d6 points of damage, or damage it for the same amount. Attempting to harm is a melee touch attack that provokes attacks of opportunity.</Pair>
 <Pair title="Swift Action">You can expend one use of this ability to either heal yourself (as if you touched a creature to heal it) or cast any one warpriest spell you have prepared with a casting time of 1 round or shorter. The spell can target only you, even if it could normally affect other or multiple targets. Spells cast in this way ignore somatic components and do not provoke attacks of opportunity. You do not need to have a free hand to cast a spell in this way.</Pair>
 <Pair title="At 5th Level">The damage you deal or heal becomes 2d6.</Pair>
-<Pair title="At 8th Level">The damage you deal or heal becomes 3d6.</Pair>
+<Pair title="At 8th Level">The damage you deal or heal increases to 3d6.</Pair>
 <Pair title="At 11th Level">The damage you deal or heal becomes 4d6.</Pair>
-<Pair title="At 14th Level">The damage you deal or heal becomes 5d6.</Pair>
+<Pair title="At 14th Level">The damage you deal or heal increases to 5d6.</Pair>
 <Pair title="At 17th Level">The damage you deal or heal becomes 6d6.</Pair>
-<Pair title="At 20th Level">The damage you deal or heal becomes 7d6.</Pair>
+<Pair title="At 20th Level">The damage you deal or heal increases to 7d6.</Pair>
 </Ability>
 <Ability id="bonus-feats" icon={["power"]}>
 <Pair single id="bonus-feats">Bonus Feats</Pair>

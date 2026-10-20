@@ -560,14 +560,12 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 </Ability>
 <Ability id="inspired-rage-su" extraClasses="subAbility" icon={["boost","down","aura"]}>
 <Pair single id="inspired-rage-su">Inspired Rage (Su)</Pair>
-<Pair title="At 1st Level"><p>Affected allies gain a +2 morale bonus to Strength and Constitution and a +1 morale bonus on Will saving throws, but also take a -1 penalty to AC. The bonuses increase as you gain levels.</p>
+<Pair title="At 1st Level"><p>Affected allies gain a +2 morale bonus to Strength and Constitution and a morale bonus on Will saving throws equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of your skald level, but also take a -1 penalty to AC.</p>
 <p>While under the effects of <em>inspired rage,</em> allies other than you cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration. (Unlike the barbarian's <em>rage</em> ability, those affected are not fatigued after the song ends.)</p>
 <p>If an ally has her own rage class ability (such as barbarian's <em>rage,</em> bloodrager's <em>bloodrage,</em> or skald's <em>inspired rage</em>), she may use the Strength, Constitution, and Will saving throw bonuses, as well as AC penalties, based on her own ability and level instead of those from you (still suffering no fatigue afterward). However, <em>inspired rage</em> does not allow the ally to activate abilities dependent on other <em>rage</em> class abilities, such as <em>rage powers, blood casting,</em> or <em>bloodrager bloodlines;</em> the ally must activate her own <em>rage</em> class ability in order to use these features.</p>
 </Pair>
-<Pair title="At 4th Level">The morale bonus to Will becomes +2.</Pair>
-<Pair title="At 8th Level">The bonus to Will becomes +3, and the bonus to Str and Con becomes +4.</Pair>
-<Pair title="At 12th Level">The bonus to Will becomes +4.</Pair>
-<Pair title="At 16th Level">The bonus to Will becomes +5, and the bonus to Str and Con becomes +6.</Pair>
+<Pair title="At 8th Level">The bonus to Str and Con becomes +4.</Pair>
+<Pair title="At 16th Level">The bonus to Str and Con increases to +6.</Pair>
 </Ability>
 <Ability id="song-of-marching-su" extraClasses="subAbility" icon={["boost","aura"]}>
 <Pair single id="song-of-marching-su">Song of Marching (Su)</Pair>
@@ -635,17 +633,14 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Ability id="spell-kenning-su" icon={["magic"]}>
 <Pair single id="spell-kenning-su" flavor="A skald is learned in the magic of other spellcasters, and can use his own magic to duplicate those classes' spells.">Spell Kenning (Su)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
-<Pair title="Usage">Once per day.</Pair>
+<Pair title="Usage">1 time/day + 1 per six skald levels beyond 5th<ByLevelPop levels={[[5,1],[11,2],[17,3]]} unit="time" postText="/day" /></Pair>
 <Pair title="Ability">You can cast any spell on the <Link to="/main/spells_bard">bard</Link>, <Link to="/main/spells_cleric">cleric</Link>, or <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/wizard_spell">wizard spell list</Link> as if it were one of your skald spells known, expending a skald spell slot of the same spell level to cast the desired spell. Casting a spell with <em>spell kenning</em> always has a minimum casting time of 1 full round, regardless of the casting time of the spell.</Pair>
-<Pair title="At 11th Level">You can use this twice a day.</Pair>
-<Pair title="At 17th Level">You can use this three times a day.</Pair>
 </Ability>
 <Ability id="lore-master-ex" icon={["boost","roll"]}>
 <Pair single id="lore-master-ex" flavor="The skald becomes a master of many different types of lore.">Lore Master (Ex)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">You can take 10 on any Knowledge skill check that you have ranks in.</Pair>
-<Pair title="Standard Action">You can take 20 on any Knowledge skill check.</Pair>
-<Pair title="Usage">Once per day.</Pair>
+<Pair title="Standard Action">Once per day, you can take 20 on any Knowledge skill check.</Pair>
 <Pair title="At 13th Level">You can Take 20 twice a day.</Pair>
 <Pair title="At 19th Level">You can Take 20 three times a day.</Pair>
 </Ability>
@@ -2605,12 +2600,8 @@ const _swashbuckler = {hasJL:true,title: "Swashbuckler", jsx: <><div className="
 <Ability id="charmed-life-ex" icon={["def"]}>
 <Pair single id="charmed-life-ex" flavor="A swashbuckler gains a knack for getting out of trouble.">Charmed Life (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
-<Pair title="Usage">3 times a day.</Pair>
+<Pair title="Usage">3 times/day + 1 per four swashbuckler levels beyond 2nd<ByLevelPop levels={[[2,3],[6,4],[10,5],[14,6],[18,7]]} unit="time" postText="/day" /></Pair>
 <Pair title="Immediate Action">Before attempting a saving throw, you can add your Charisma modifier to the result of the save. You must choose to do this before the roll is made.</Pair>
-<Pair title="At 6th Level">You can use this 4 times a day.</Pair>
-<Pair title="At 10th Level">You can use this 5 times a day.</Pair>
-<Pair title="At 14th Level">You can use this 6 times a day.</Pair>
-<Pair title="At 18th Level">You can use this 7 times a day.</Pair>
 </Ability>
 <Ability id="nimble-ex" icon={["def"]}>
 <Pair single id="nimble-ex">Nimble (Ex)</Pair>
@@ -2898,15 +2889,15 @@ const _vigilante = {hasJL:true,title: "Vigilante", jsx: <><div className="jumpLi
 <Pair single id="stalker">Stalker</Pair>
 <Pair title="Ability">You gain an ability called <em>hidden strike,</em> which allows you to deal an extra 1d8 points of <Link to="/misc/precision_damage">precision damage</Link> on melee attacks (or ranged attacks from within 30 feet) against foes who are unaware of your presence, who consider you an ally, or who are made <Link to="/rule/flat_footed">flat-footed</Link> by <em>startling appearance.</em></Pair>
 <Pair title="At 3rd Level">The damage becomes +2d8.</Pair>
-<Pair title="At 5th Level">The damage becomes +3d8.</Pair>
+<Pair title="At 5th Level">The damage increases to +3d8.</Pair>
 <Pair title="At 7th Level">The damage becomes +4d8.</Pair>
-<Pair title="At 9th Level">The damage becomes +5d8.</Pair>
+<Pair title="At 9th Level">The damage increases to +5d8.</Pair>
 <Pair title="At 11th Level">The damage becomes +6d8.</Pair>
-<Pair title="At 13th Level">The damage becomes +7d8.</Pair>
+<Pair title="At 13th Level">The damage increases to +7d8.</Pair>
 <Pair title="At 15th Level">The damage becomes +8d8.</Pair>
-<Pair title="At 17th Level">The damage becomes +9d8.</Pair>
+<Pair title="At 17th Level">The damage increases to +9d8.</Pair>
 <Pair title="At 19th Level">The damage becomes +10d8.</Pair>
-<Pair title="Special">You can also deal hidden strike damage to a target that you are <Link to="/rule/flanking">flanking</Link> or that is denied its Dexterity bonus to AC, but in these cases, the damage dice are reduced to d4s. You can deal hidden strike damage against targets with <Link to="/rule/concealment">concealment</Link> (but not total concealment).</Pair>
+<Pair title="Special">You can also deal <em>hidden strike</em> damage to a target that you are <Link to="/rule/flanking">flanking</Link> or that is denied its Dexterity bonus to AC, but in these cases, the damage dice are reduced to d4s. You can deal <em>hidden strike</em> damage against targets with <Link to="/rule/concealment">concealment</Link> (but not total concealment).</Pair>
 </Ability>
 <Ability id="vigilante-talent" icon={["power"]}>
 <Pair single id="vigilante-talent">Vigilante Talent</Pair>
@@ -2940,7 +2931,7 @@ const _vigilante = {hasJL:true,title: "Vigilante", jsx: <><div className="jumpLi
 <Pair single id="vengeance-strike-ex">Vengeance Strike (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">You can spend up to 5 <strong className="hl">standard actions</strong>, which all must be in consecutive rounds. On the following round, you can make a <em>vengeance strike</em> against the studied creature. The target must remain unaware of your presence (or not see you as a threat) until the attack. For each round spent studying the target, you grant yourself one of the following benefits on your <em>vengeance strike:</em> gain a +4 circumstance bonus on the attack roll, deal an additional 3d6 points of <Link to="/misc/precision_damage">precision damage</Link> if you hit, or treat the attack roll as if it were 2 higher for the purposes of determining whether the attack hit or threatens a critical hit (to maximum effective roll of 20). Each round of study can be spent in a different way or the same way (they stack with each other), but each round of study must be allocated before the attack roll is made.</Pair>
-<Pair title="Special">If you are an avenger, you automatically confirm any critical hits threatened by your <em>vengeance strike.</em> If you are a stalker and would normally be able to add a Hidden Strike Talent to this attack, you can instead add two Hidden Strike Talents to your vengeance strike.</Pair>
+<Pair title="Special">If you are an avenger, you automatically confirm any critical hits threatened by your <em>vengeance strike.</em> If you are a stalker and would normally be able to add a Hidden Strike Talent to this attack, you can instead add two Hidden Strike Talents to your <em>vengeance strike.</em></Pair>
 </Ability>
 <h3 id="class-vigilante-alternate-capstones" data-hash-target>Alternate Capstones</h3>
 <Message capstone /><div className="capstones"><ScrollContainer id="class-vigilante--table-1"><table><thead><tr><th scope="col">Capstone</th><th scope="col">Benefit</th></tr></thead>

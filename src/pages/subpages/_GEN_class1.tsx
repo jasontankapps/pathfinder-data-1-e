@@ -349,13 +349,13 @@ const _alchemist = {hasJL:true,title: "Alchemist", jsx: <><div className="jumpLi
 </Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>Yes</Pair>
 <Pair title="At 3rd Level">The base bomb damage becomes 2d6.</Pair>
-<Pair title="At 5th Level">The base bomb damage becomes 3d6.</Pair>
+<Pair title="At 5th Level">The base bomb damage increases to 3d6.</Pair>
 <Pair title="At 7th Level">The base bomb damage becomes 4d6.</Pair>
-<Pair title="At 9th Level">The base bomb damage becomes 5d6.</Pair>
+<Pair title="At 9th Level">The base bomb damage increases to 5d6.</Pair>
 <Pair title="At 11th Level">The base bomb damage becomes 6d6.</Pair>
-<Pair title="At 13th Level">The base bomb damage becomes 7d6.</Pair>
+<Pair title="At 13th Level">The base bomb damage increases to 7d6.</Pair>
 <Pair title="At 15th Level">The base bomb damage becomes 8d6.</Pair>
-<Pair title="At 17th Level">The base bomb damage becomes 9d6.</Pair>
+<Pair title="At 17th Level">The base bomb damage increases to 9d6.</Pair>
 <Pair title="At 19th Level">The base bomb damage becomes 10d6.</Pair>
 <Pair title="Special">Splash damage from your bomb is always equal to the bomb's minimum damage (so if the bomb would deal 1d6+4 points of fire damage on a direct hit, its splash damage would be 5 points of fire damage). Those caught in the splash damage can attempt a Reflex save for half damage, with a DC equal to 10 + <Link to="/misc/half">half</Link> your alchemist level + your Intelligence modifier.</Pair>
 </Ability>
@@ -395,7 +395,7 @@ const _alchemist = {hasJL:true,title: "Alchemist", jsx: <><div className="jumpLi
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You gain a +2 bonus on all saving throws against poison.</Pair>
 <Pair title="At 5th Level">The bonus becomes +4.</Pair>
-<Pair title="At 8th Level">The bonus becomes +6.</Pair>
+<Pair title="At 8th Level">The bonus increases to +6.</Pair>
 <Pair title="At 10th Level">You become completely immune to poison.</Pair>
 </Ability>
 <Ability id="poison-use-ex" icon={["def"]}>
@@ -789,17 +789,12 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <Ability id="smite-good-su" icon={["boost","def"]}>
 <Pair single id="smite-good-su">Smite Good (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">1 time/day + 1 per three antipaladin levels beyond 1st<ByLevelPop levels={[[1,1],[4,2],[7,3],[10,4],[13,5],[16,6],[19,7]]} unit="time" postText="/day" /></Pair>
 <Pair title="Swift Action"><p>You can call out to the dark powers to crush the forces of good, choosing one target within sight to smite. If you target a creature that is not good, the smite is wasted with no effect.</p>
 <p>If your target is good, you add your Charisma bonus (if any) on your attack rolls and add your antipaladin level on all damage rolls made against the target of your smite. If the target of <em>smite good</em> is an <Link to="/type/outsider">outsider</Link> with the <Link to="/subtype/good">good</Link> subtype, a good-aligned <Link to="/type/dragon">dragon</Link>, or a good creature with levels of <Link to="/class/cleric">cleric</Link> or <Link to="/class/paladin">paladin</Link>, the bonus to damage on the first successful attack increases to 2 points of damage per antipaladin level. Regardless of the target, <em>smite good</em> attacks automatically bypass any DR the creature might possess.</p>
 <p>In addition, while <em>smite good</em> is in effect, you gain a deflection bonus equal to your Charisma modifier (if any) to your AC against attacks made by the target of the smite.</p>
 <p>The <em>smite good</em> effect remains until the target of the smite is dead or the next time you rest and regain your uses of this ability.</p>
 </Pair>
-<Pair title="At 4th Level">You can smite twice a day.</Pair>
-<Pair title="At 7th Level">You can smite three times a day.</Pair>
-<Pair title="At 10th Level">You can smite four times a day.</Pair>
-<Pair title="At 13th Level">You can smite five times a day.</Pair>
-<Pair title="At 16th Level">You can smite six times a day.</Pair>
-<Pair title="At 19th Level">You can smite seven times a day.</Pair>
 </Ability>
 <Ability id="unholy-resilience-su" icon={["def"]}>
 <Pair single id="unholy-resilience-su">Unholy Resilience (Su)</Pair>
@@ -859,11 +854,11 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 </ul>
 <p>These abilities are not cumulative. For example, a 12th-level antipaladin's touch of corruption ability deals 6d6 points of damage and might also cause the target to become fatigued, dazed, poisoned, <strong>or</strong> diseased.</p>
 </Pair>
-<Pair title="At 6th Level">You gain a second cruelty.</Pair>
-<Pair title="At 9th Level">You gain a third cruelty.</Pair>
-<Pair title="At 12th Level">You gain a fourth cruelty.</Pair>
-<Pair title="At 15th Level">You gain a fifth cruelty.</Pair>
-<Pair title="At 18th Level">You gain a sixth cruelty.</Pair>
+<Pair title="At 6th Level">You gain a 2nd cruelty.</Pair>
+<Pair title="At 9th Level">You gain a 3rd cruelty.</Pair>
+<Pair title="At 12th Level">You gain a 4th cruelty.</Pair>
+<Pair title="At 15th Level">You gain a 5th cruelty.</Pair>
+<Pair title="At 18th Level">You gain a 6th cruelty.</Pair>
 </Ability>
 <Ability id="channel-negative-energy-su" extraClasses="hasSubs" icon={["power"]}>
 <Pair single id="channel-negative-energy-su">Channel Negative Energy (Su)</Pair>
@@ -903,29 +898,26 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 </Ability>
 <Ability id="weapon-bond" extraClasses="subAbility numbered" icon={["boost"]}>
 <Pair single id="weapon-bond">Weapon Bond</Pair>
-<Pair title="Usage">Once per day.</Pair>
+<Pair title="Usage">1 time/day + 1 per four antipaladin levels beyond 5th<ByLevelPop levels={[[5,1],[9,2],[13,3],[17,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Choice"><p>The first type of bond allows you to enhance your weapon as a <strong className="hl">standard action</strong> by calling upon the aid of a fiendish spirit for 1 minute per antipaladin level. When called, the spirit causes the weapon to shed unholy light as a <Link to="/eq-misc/torch">torch</Link> and grants the weapon a +1 enhancement bonus.</p>
 <p>For every three levels beyond 5th, the weapon gains another +1 enhancement bonus, to a maximum of +6 at 20th level. These bonuses can be added to the weapon, stacking with existing weapon bonuses to a maximum of +5, or they can be used to add any of the following weapon properties: <Link to="/magic-enh/anarchic">anarchic</Link>, <Link to="/magic-enh/flaming">flaming</Link>, <Link to="/magic-enh/flaming_burst">flaming burst</Link>, <Link to="/magic-enh/keen">keen</Link>, <Link to="/magic-enh/speed">speed</Link>, <Link to="/magic-enh/unholy">unholy</Link>, <Link to="/magic-enh/vicious">vicious</Link>, <Link to="/magic-enh/vorpal">vorpal</Link>, and <Link to="/magic-enh/wounding">wounding</Link>. Adding these properties consumes an amount of bonus equal to the property's cost. These bonuses are added to any properties the weapon already has, but duplicate abilities do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. The bonus and properties granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again.</p>
 <p>The fiendish spirit imparts no bonuses if the weapon is held by anyone other than you, but resumes giving bonuses if returned to you. These bonuses apply to only one end of a double weapon.</p>
 <p>If a weapon bonded with a fiendish spirit is destroyed, you lose the use of this ability for 30 days, or until you gain a level, whichever comes first. During this 30-day period, you take a -1 penalty on attack and weapon damage rolls.</p>
 </Pair>
-<Pair title="At 9th Level">You can use this ability twice a day.</Pair>
-<Pair title="At 13th Level">You can use this ability three times a day.</Pair>
-<Pair title="At 17th Level">You can use this ability four times a day.</Pair>
 </Ability>
 <Ability id="fiendish-servant" extraClasses="subAbility numbered" icon={["power"]}>
 <Pair single id="fiendish-servant">Fiendish Servant</Pair>
-<Pair title="Usage">Once per day.</Pair>
+<Pair title="Usage">1 time/day + 1 per four antipaladin levels beyond 5th<ByLevelPop levels={[[5,1],[9,2],[13,3],[17,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Choice"><p>The second type of bond allows you to gain the service of a fiendish servant. This functions as <Link to="/spell/summon_monster_iii">summon monster III</Link>, except the duration is permanent and you can only gain the service of a single creature and that creature must either have the <Link to="/subtype/chaotic">chaotic</Link> and <Link to="/subtype/evil">evil</Link> subtypes or it must be a <Link to="/template/fiendish">fiendish</Link> animal. Once selected, the choice is set, but it may be changed whenever you gain a level.</p>
 <p>As a <strong className="hl">full-round action</strong>, you may magically call your servant to your side. This ability is the equivalent of a spell of a level equal to one-third your antipaladin level. The servant immediately appears adjacent to you.</p>
 <p>Should your fiendish servant die or be banished, you may not summon another servant for 30 days or until you gain an antipaladin level, whichever comes first. During this 30-day period, you take a -1 penalty on attack and weapon damage rolls.</p>
 </Pair>
-<Pair title="At 7th Level">This functions as <Link to="/spell/summon_monster_iv">summon monster IV</Link>.</Pair>
-<Pair title="At 9th Level">You can use this ability twice a day, and it functions as <Link to="/spell/summon_monster_v">summon monster V</Link>.</Pair>
-<Pair title="At 11th Level">This functions as <Link to="/spell/summon_monster_vi">summon monster VI</Link>, and the servant gains the <Link to="/template/advanced">advanced</Link> template.</Pair>
-<Pair title="At 13th Level">You can use this ability three times a day, and it functions as <Link to="/spell/summon_monster_vii">summon monster VII</Link>.</Pair>
-<Pair title="At 15th Level">This functions as <Link to="/spell/summon_monster_viii">summon monster VIII</Link>, and the servant gains spell resistance equal to your level + 11.</Pair>
-<Pair title="At 17th Level">You can use this ability four times a day, and it functions as <Link to="/spell/summon_monster_ix">summon monster IX</Link>.</Pair>
+<Pair title="At 7th Level">This ability functions as <Link to="/spell/summon_monster_iv">summon monster IV</Link>.</Pair>
+<Pair title="At 9th Level">This ability functions as <Link to="/spell/summon_monster_v">summon monster V</Link>.</Pair>
+<Pair title="At 11th Level">This ability functions as <Link to="/spell/summon_monster_vi">summon monster VI</Link>. The servant gains the <Link to="/template/advanced">advanced</Link> template.</Pair>
+<Pair title="At 13th Level">This ability functions as <Link to="/spell/summon_monster_vii">summon monster VII</Link>.</Pair>
+<Pair title="At 15th Level">This ability functions as <Link to="/spell/summon_monster_viii">summon monster VIII</Link>. The servant gains spell resistance equal to your level + 11.</Pair>
+<Pair title="At 17th Level">This ability functions as <Link to="/spell/summon_monster_ix">summon monster IX</Link>.</Pair>
 </Ability>
 <Ability id="aura-of-despair-su" icon={["aura","lower"]}>
 <Pair single id="aura-of-despair-su">Aura of Despair (Su)</Pair>
@@ -1665,10 +1657,10 @@ const _arcanist = {hasJL:true,title: "Arcanist", jsx: <><div className="jumpList
 <Pair title="At 7th Level">You learn a new arcane exploit.</Pair>
 <Pair title="At 9th Level">You learn a new arcane exploit.</Pair>
 <Pair title="At 11th Level">You learn a new arcane exploit (or <em>greater exploit,</em> explained below).</Pair>
-<Pair title="At 13th Level">You learn a new arcane exploit. (or <em>greater exploit</em>)</Pair>
-<Pair title="At 15th Level">You learn a new arcane exploit. (or <em>greater exploit</em>)</Pair>
-<Pair title="At 17th Level">You learn a new arcane exploit. (or <em>greater exploit</em>)</Pair>
-<Pair title="At 19th Level">You learn a new arcane exploit. (or <em>greater exploit</em>)</Pair>
+<Pair title="At 13th Level">You learn a new arcane exploit (or <em>greater exploit</em>).</Pair>
+<Pair title="At 15th Level">You learn a new arcane exploit (or <em>greater exploit</em>).</Pair>
+<Pair title="At 17th Level">You learn a new arcane exploit (or <em>greater exploit</em>).</Pair>
+<Pair title="At 19th Level">You learn a new arcane exploit (or <em>greater exploit</em>).</Pair>
 <Pair title="Special">An arcanist exploit cannot be selected more than once. Once an arcanist exploit has been selected, it cannot be changed. Most arcanist exploits require you to expend points from your arcane reservoir to function. Unless otherwise noted, the saving throw DC for an arcanist exploit is equal to 10 + 1/2 your level + your Charisma modifier.</Pair>
 </Ability>
 <aside><p>There are also more dangerous <Link to="/ability/outer_rifts_exploits">Outer Rifts exploits</Link> to choose from.</p>
@@ -2892,9 +2884,9 @@ const _bloodrager = {hasJL:true,title: "Bloodrager", jsx: <><div className="jump
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">You gain <Link to="/rule/damage_reduction">damage reduction</Link> DR 1/-. Subtract 1 from the damage you take each time you're dealt damage from a weapon or a natural attack. Damage reduction can reduce damage to 0, but not below 0.</Pair>
 <Pair title="At 10th Level">Your DR becomes 2/-.</Pair>
-<Pair title="At 13th Level">Your DR becomes 3/-.</Pair>
+<Pair title="At 13th Level">Your DR increases to 3/-.</Pair>
 <Pair title="At 16th Level">Your DR becomes 4/-.</Pair>
-<Pair title="At 19th Level">Your DR becomes 5/-.</Pair>
+<Pair title="At 19th Level">Your DR increases to 5/-.</Pair>
 </Ability>
 <Ability id="greater-bloodrage-su" icon={["boost","def","magic"]}>
 <Pair single id="greater-bloodrage-su">Greater Bloodrage (Su)</Pair>
