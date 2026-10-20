@@ -187,17 +187,10 @@ const _cavalier = {hasJL:true,title: "Cavalier", jsx: <><div className="jumpList
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light, Medium, and Heavy armors</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">Yes, except tower shields</td></tr></tbody></table>
-<Ability id="challenge-ex" icon={["melee"]}>
+<Ability id="challenge-ex" icon={["select","boost","down"]}>
 <Pair single id="challenge-ex">Challenge (Ex)</Pair>
-<Pair title="Gained">At 1st Level</Pair>
-<Pair title="Usage">Once a day.</Pair>
+<Pair title="Usage">1 time/day + 1 per three cavalier levels beyond 1st<ByLevelPop levels={[[1,1],[4,2],[7,3],[10,4],[13,5],[16,6],[19,7]]} unit="time" postText="/day" /></Pair>
 <Pair title="Swift Action">You challenge a foe to combat, choosing one target within sight to challenge. Your melee attacks deal extra damage whenever the attacks are made against the target of your challenge. This extra damage is equal to your level. Challenging a foe requires much of your concentration. You take a -2 penalty to your Armor Class, except against attacks made by the target of your challenge.</Pair>
-<Pair title="At 4th Level">You can <em>challenge</em> twice a day.</Pair>
-<Pair title="At 7th Level">You can <em>challenge</em> 3 times a day.</Pair>
-<Pair title="At 10th Level">You can <em>challenge</em> 4 times a day.</Pair>
-<Pair title="At 13th Level">You can <em>challenge</em> 5 times a day.</Pair>
-<Pair title="At 16th Level">You can <em>challenge</em> 6 times a day.</Pair>
-<Pair title="At 19th Level">You can <em>challenge</em> 7 times a day.</Pair>
 <Pair title="Special">The challenge remains in effect until the target is dead or unconscious or until the combat ends. Each challenge also includes another effect which is listed in the section describing your <em>order.</em></Pair>
 </Ability>
 <Ability id="mount-ex" icon={["power","boost"]}>
