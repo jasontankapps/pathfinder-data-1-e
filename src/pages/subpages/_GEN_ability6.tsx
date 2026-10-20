@@ -295,7 +295,15 @@ const _sorcerer_bloodlines = {title: "Sorcerer Bloodlines", topLink: ["Sorcerer"
 </tbody></table></ScrollContainer>
 </>};
 const _spirits = {title: "Medium Spirits", topLink: ["Medium","class/medium"], jsx: <><h2 id="ability-spirits-medium-spirits">Medium Spirits</h2>
-<p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 33</Link><br/>A medium's spirits are entities from the Astral Plane - the clinging echoes of heroes and villains from the distant past, sustained throughout time by myths and legends. The number of spirits is countless, and each has its own idiosyncrasies that make it distinct. Nonetheless, all spirits arise from one of the following six legends: <Link to="/spirit/archmage">archmage</Link>, <Link to="/spirit/champion">champion</Link>, <Link to="/spirit/guardian">guardian</Link>, <Link to="/spirit/hierophant">hierophant</Link>, <Link to="/spirit/marshal">marshal</Link>, or <Link to="/spirit/trickster">trickster</Link>.</p>
+<p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 33</Link><br/>A medium's spirits are entities from the Astral Plane - the clinging echoes of heroes and villains from the distant past, sustained throughout time by myths and legends. The number of spirits is countless, and each has its own idiosyncrasies that make it distinct. Nonetheless, all spirits arise from one of the following six legends:</p>
+<ul>
+<li><Link to="/spirit/archmage">Archmage</Link></li>
+<li><Link to="/spirit/champion">Champion</Link></li>
+<li><Link to="/spirit/guardian">Guardian</Link></li>
+<li><Link to="/spirit/hierophant">Hierophant</Link></li>
+<li><Link to="/spirit/marshal">Marshal</Link></li>
+<li><Link to="/spirit/trickster">Trickster</Link></li>
+</ul>
 <h3 id="ability-spirits-legendary-spirits">Legendary Spirits</h3>
 <p><strong>Sources</strong> <Link to="/source/occult_realms">Occult Realms</Link><br/>The spirits a medium can channel draw their power both from the tales told about them and from their own souls, which echo with the remarkable deeds they performed in life. All spirits have stories - and some arise from people whose deeds shook the world and whose testaments have endured throughout the ages. These beings are legendary spirits, and they possess great power they can share with mediums who gain their favor.</p>
 <p>Attaining the ability to channel a legendary spirit involves traveling to a certain location or performing a certain deed, swearing an oath, performing a ritual, and succeeding at an ability check. The type of check depends on the spirit, but the DC is always equal to 10 + 1/2 the medium's level. If the medium breaks the oath, the spirit will no longer answer when he calls. If the medium attempts to call another spirit of the legendary spirit's legend, the legendary spirit similarly departs forever.</p>

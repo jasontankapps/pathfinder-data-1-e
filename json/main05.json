@@ -1809,6 +1809,7 @@
 			}
 		]
 	},
+	"exotic_weapon": { "redirect": "equipment_weapons_exotic" },
 	"equipment_weapons_alchemical": {
 		"title": "Alchemical Weapons",
 		"description": [
