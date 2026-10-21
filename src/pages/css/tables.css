@@ -349,3 +349,6 @@ table.basic {
 table.basic tr :is(th, td) {
 	border-width: var(--full-width) !important;
 }
+table tr :is(th,td).nowrap {
+	white-space: nowrap;
+}

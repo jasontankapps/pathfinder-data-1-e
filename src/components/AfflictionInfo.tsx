@@ -37,7 +37,7 @@ interface AffInfoProps {
 
 // This needs to split off into poison, curse, disease, infestation, or else plain affliction
 
-export const AffInfo: FC<PropsWithChildren<AffInfoProps>> = (props) => {
+const AffInfo: FC<PropsWithChildren<AffInfoProps>> = (props) => {
 	const {
 		start, children, type, poison, curse, infest, disease,
 		save, onset, freq, track, track2, eff, eff1, eff2,

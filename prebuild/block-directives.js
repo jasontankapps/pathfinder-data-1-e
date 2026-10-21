@@ -22,6 +22,7 @@ import makeClassSkillsAbilityBlock from './block/cskill.js';
 import makeRacialTraitsBlock from './block/rtraits.js';
 import makeKineticTalentBlock from './block/kinetic.js';
 import noteTags from './noteTags.js';
+import makeTabularBlock from './block/tabular.js';
 
 const churn = (n, attrs, list, regex, logError) => {
 	const found = [];
@@ -239,6 +240,12 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				const marked2 = makeNewMarkedInstance();
 				flags.aff = true;
 				return makeAfflictionBlock({marked2, flags, convertEncodedInfo, maybeClear, text, attrs, logError});
+			} else if (n === "tabular") {
+				// Tabular
+				churn(n, attrs, ["clear", "format", "id"], [ /^[a-z]$/ ], logError);
+				const marked2 = makeNewMarkedInstance();
+				flags.tabular = true;
+				return makeTabularBlock({marked2, flags, convertEncodedInfo, maybeClear, text, attrs, logError});
 			} else if (n === "drug") {
 				// Drug
 				churn(n, attrs, [

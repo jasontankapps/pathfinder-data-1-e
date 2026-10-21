@@ -1192,6 +1192,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	groupFlags.mstats && imports.push(`import Stats from '../../components/monsters/Stats';`);
 	groupFlags.meco && imports.push(`import Ecology from '../../components/monsters/Ecology';`);
 	groupFlags.drug && imports.push(`import DrugInfo from '../../components/DrugInfo';`);
+	groupFlags.tabular && imports.push(`import Tabular from '../../components/Tabular';`);
 	groupFlags.aff && imports.push(`import AffInfo from '../../components/AfflictionInfo';`);
 	groupFlags.trap && imports.push(`import TrapInfo from '../../components/TrapInfo';`);
 	groupFlags.haunt && imports.push(`import HauntInfo from '../../components/HauntInfo';`);
