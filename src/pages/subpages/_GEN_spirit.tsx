@@ -1,7 +1,9 @@
-import Link from '../../components/Link';
+import {IonIcon} from '@ionic/react';
+import Link, {ThLink} from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import {Block,Row,Cell} from '../../components/Block';
+import ScrollContainer from '../../components/ScrollContainer';
 import ByLevelPop from '../../components/ByLevelPop';
 import Icons from '../../components/Icons';
 const _not_found = {title: "Unknown", jsx: <><h2 id="spirit-not_found-error">Error</h2>
@@ -338,181 +340,448 @@ const _azghaad_i = {title: "Azghaad I", jsx: <><h2 id="spirit-azghaad_i-azghaad-
 <Pair title="Move-Equivalent Action">You can shift your senses to any ally who was present for your <em>seance,</em> as if you had the <Link to="/spell/witness">witness</Link> spell active on all of them at all times.</Pair>
 </Ability>
 </>};
-const _beldam_i = {title: "Beldam I", jsx: <><h2 id="spirit-beldam_i-beldam-i-trickster">Beldam I (<Link to="/spirit/trickster">Trickster</Link>)</h2>
+const _beldam_i = {title: "Beldam I", jsx: <><h2 id="spirit-beldam_i-beldam-i">Beldam I</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_132_the_six_legend_soul">Pathfinder #132: The Six-Legend Soul pg. 70</Link><br/>History has a divided memory when it comes to Grand Prince Beldam I. Scholars of the schism that took place between Taldor and its erstwhile territories paint a picture of a diplomatic emperor whose insightful approach resulted in a largely bloodless transition from a monolithic empire to a collection of neighboring nations. Yet those who relate the tales for which the emperor is best known recall a quirky prankster with little regard for ceremony, tradition, or propriety. A rare few see the way in which these two personas combined to form exactly the leader Taldor needed at this fraught point in its history: someone who could offset the difficulty of a painful decision with frivolous antics. It is this balance of effectiveness through trickery that those channeling the spirit of Beldam seek to emulate.</p>
-<p><strong>Gaining Favor:</strong> Beldam answers the call of only those who share his esoteric sense of humor. You must convince someone to place a non-sentient animal in a position of authority, so long as such an act would not cause civil unrest or instability. You must then swear a vow to never act without due consideration of the consequences of your actions and attempt a Charisma check. If you succeed, Beldam answers your call.</p>
-<p><strong>Taboos:</strong> If you accept a taboo while channeling Beldam, you must embrace every opportunity to pull a prank or make a jest, but never at your own expense.</p>
-<p><strong>Princely Humor (Lesser, Su):</strong> You gain <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link> and <Link to="/feat/improved_feint">Improved Feint</Link> as bonus feats. When you successfully perform a dirty trick, you can allow Beldam's spirit to gain 1 point of influence over you to target that opponent with hideous laughter (DC = 10 + 1/2 your medium level + your Charisma modifier) as a free action that does not provoke an attack of opportunity, in addition to the effects of the dirty trick.</p>
-<p><strong>Atrocious Gift (Greater, Su):</strong> You can allow Beldam to gain 1 point of influence over you to make a melee touch attack against another creature as a standard action. If you hit, you can transfer one disease or poison from yourself to the touched creature. You are immediately cured of the disease or poison and the target must attempt a saving throw against the transferred affliction (at the affliction's save DC) or suffer its effect or initial effect immediately. The target then continues to suffer from the affliction's normal effects thereafter.</p>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/trickster">Trickster</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>Beldam answers the call of only those who share his esoteric sense of humor. You must convince someone to place a non-sentient animal in a position of authority, so long as such an act would not cause civil unrest or instability. You must then swear a vow to never act without due consideration of the consequences of your actions and attempt a Charisma check. If you succeed, Beldam answers your call.</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell>If you accept a <em>taboo</em> while channeling Beldam, you must embrace every opportunity to pull a prank or make a jest, but never at your own expense.</Cell></Row></Block>
+<h3 id="spirit-beldam_i-lesser-spirit-power">Lesser Spirit Power</h3>
+<Ability id="princely-humor-su" icon={["power"]}>
+<Pair single id="princely-humor-su">Princely Humor (Su)</Pair>
+<Pair title="Ability">You gain <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link> and <Link to="/feat/improved_feint">Improved Feint</Link> as bonus feats.</Pair>
+<Pair title="Ability">When you successfully perform a dirty trick, you can allow Beldam's spirit to gain 1 point of influence over you to target that opponent with <Link to="/spell/hideous_laughter">hideous laughter</Link> (DC = 10 + 1/2 your medium level + your Charisma modifier) as a <strong className="hl">free action</strong> that does not provoke an attack of opportunity, in addition to the effects of the dirty trick.</Pair>
+</Ability>
+<h3 id="spirit-beldam_i-greater-spirit-power">Greater Spirit Power</h3>
+<Ability id="atrocious-gift-su" icon={["touch"]}>
+<Pair single id="atrocious-gift-su">Atrocious Gift (Su)</Pair>
+<Pair title="Ability">You can allow Beldam to gain 1 point of influence over you to make a melee touch attack against another creature as a <strong className="hl">standard action</strong>. If you hit, you can transfer one disease or poison from yourself to the touched creature. You are immediately cured of the disease or poison and the target must attempt a saving throw against the transferred affliction (at the affliction's save DC) or suffer its effect or initial effect immediately. The target then continues to suffer from the affliction's normal effects thereafter.</Pair>
+</Ability>
 </>};
-const _butcher = {title: "Butcher", jsx: <><h2 id="spirit-butcher-butcher-champion">Butcher (<Link to="/spirit/champion">Champion</Link>)</h2>
+const _butcher = {title: "Butcher", jsx: <><h2 id="spirit-butcher-butcher">Butcher</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 58</Link><br/>The Butcher is a spirit of blood, violence, murder, and pain.</p>
-<p><strong>Gaining Favor:</strong> To gain the Butcher's favor, you must deal a total number of hit points of <Link to="/rule/bleed">bleed</Link> damage equal to twice your medium level to two dozen non-mindless living creatures, inflicting as much pain and suffering as possible. You must next vow to never use the Heal skill or magical healing to heal or treat another creature, then succeed at a Strength check.</p>
-<p><strong>Favored Locations:</strong> Abattoirs, battlefields, execution sites.</p>
-<p><strong>Taboos:</strong> If you accept a taboo while channeling the Butcher, you must not attack with bludgeoning weapons in combat and must never deal nonlethal damage. You must also kill all your defeated foes in combat, although you can accept surrender or take prisoners for the purpose of torturing and then killing those prisoners later (but before the Butcher departs).</p>
-<p><strong>Bladesharp (Lesser, Ex):</strong> You gain proficiency in all slashing martial weapons and the <Link to="/eq-weapon/spiked_chain">spiked chain</Link>. Any slashing weapon or spiked chain you wield gains the <Link to="/magic-enh/deadly">deadly</Link> weapon special quality and on a critical hit deals an amount of bleed damage equal to the weapon's critical multiplier - 1.</p>
-<p><strong>Bloodletter (Intermediate, Ex):</strong> The Butcher enhances a single slashing weapon or spiked chain, allowing you to add the <Link to="/magic-enh/keen">keen</Link>, <Link to="/magic-enh/mighty_cleaving">mighty cleaving</Link>, or <Link to="/magic-enh/wounding">wounding</Link> special abilities to the weapon when you wield it. As a swift action, you can allow the Butcher to gain 1 point of influence over you to make that weapon <Link to="/magic-enh/vorpal">vorpal</Link> until the end of your turn, though the vorpal special ability doesn't work with abilities that let you choose the result of your d20 roll. Each time you kill a creature whose CR is greater than your medium level with this vorpal special ability, the butcher gains an additional point of influence over you.</p>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/champion">Champion</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>To gain the Butcher's favor, you must deal a total number of hit points of <Link to="/rule/bleed">bleed</Link> damage equal to twice your medium level to two dozen non-mindless living creatures, inflicting as much pain and suffering as possible. You must next vow to never use the Heal skill or magical healing to heal or treat another creature, then succeed at a Strength check.</Cell></Row>
+<Row><Cell>Favored Locations</Cell><Cell>Abattoirs, battlefields, execution sites.</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell>If you accept a <em>taboo</em> while channeling the Butcher, you must not attack with bludgeoning weapons in combat and must never deal nonlethal damage. You must also kill all your defeated foes in combat, although you can accept surrender or take prisoners for the purpose of torturing and then killing those prisoners later (but before the Butcher departs).</Cell></Row></Block>
+<h3 id="spirit-butcher-lesser-spirit-power">Lesser Spirit Power</h3>
+<Ability id="bladesharp-ex" icon={["power","boost"]}>
+<Pair single id="bladesharp-ex">Bladesharp (Ex)</Pair>
+<Pair title="Ability">You gain proficiency in all slashing martial weapons and the <Link to="/eq-weapon/spiked_chain">spiked chain</Link>. Any slashing weapon or spiked chain you wield gains the <Link to="/magic-enh/deadly">deadly</Link> weapon special quality and on a critical hit deals an amount of bleed damage equal to the weapon's critical multiplier - 1.</Pair>
+</Ability>
+<h3 id="spirit-butcher-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="bloodletter-ex" icon={["boost"]}>
+<Pair single id="bloodletter-ex">Bloodletter (Ex)</Pair>
+<Pair title="Ability">The Butcher enhances a single slashing weapon or spiked chain, allowing you to add the <Link to="/magic-enh/keen">keen</Link>, <Link to="/magic-enh/mighty_cleaving">mighty cleaving</Link>, or <Link to="/magic-enh/wounding">wounding</Link> special abilities to the weapon when you wield it.</Pair>
+<Pair title="Swift Action">You can allow the Butcher to gain 1 point of influence over you to make that weapon <Link to="/magic-enh/vorpal">vorpal</Link> until the end of your turn, though the vorpal special ability doesn't work with abilities that let you choose the result of your d20 roll. Each time you kill a creature whose CR is greater than your medium level with this vorpal special ability, the butcher gains an additional point of influence over you.</Pair>
+</Ability>
 </>};
-const _cyricas = {title: "Cyricas", jsx: <><h2 id="spirit-cyricas-cyricas-hierophant">Cyricas (<Link to="/spirit/hierophant">Hierophant</Link>)</h2>
+const _cyricas = {title: "Cyricas", jsx: <><h2 id="spirit-cyricas-cyricas">Cyricas</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_132_the_six_legend_soul">Pathfinder #132: The Six-Legend Soul pg. 70</Link><br/>Cyricas the Leaping Lion is a favorite hero among Taldan youth, due to both his miraculous recovery from a childhood ailment and his wild adventures with his ape companion Mardu. Most tales of Cyricas carry some lesson, whether encouraging kindness to animals or bravery in the face of adversity. Many Taldans grow to regard the adventures of Cyricas and Mardu as childish, but learn to respect his inspiring and widely circulated lectures. Those who seek rapport with this legendary spirit find that the bond between juvenile thrill-seeker and learned scholar is perhaps the strongest aspect of Cyricas's identity, superseded perhaps only by an unusual affinity for the number eight.</p>
-<p><strong>Gaining Favor:</strong> To gain the Leaping Lion's favor, you must release an animal that has been unjustly restrained. You must then swear an oath to never stand idle while an animal is being abused and attempt a Wisdom check. If you succeed, Cyricas answers your call.</p>
-<p><strong>Seance Boon:</strong> Your bonus on attack rolls when flanking an opponent increases by 2 (normally, to +4).</p>
-<p><strong>Taboos:</strong> If you accept a taboo while channeling Cyricas, you must vow to never harm an animal.</p>
-<p><strong>Natural Magic (Lesser, Su):</strong> You can draw upon the power of nature itself. This functions as the <Link to="/spirit/archmage">archmage</Link> arcana spirit power, except that you select spells from the <Link to="/main/spells_druid">druid list</Link> instead of the sorcerer/wizard list (these spells count as divine), and you must present a sprig of holly or another sacred plant to cast spells that require a divine focus.</p>
-<blockquote>
-<p><em>Instead of your normal spells per day for your medium level, you use the spells per day from the <Link to="/class/mesmerist">Mesmerist</Link> class. For each level of spell you can now cast (including level 0), each time you channel Cyricas, select a single spell of that level from the druid spell list to add to your medium spell list and spells known until you lose contact with Cyricas. When you cast these spells, they count as divine (though not for the purpose of fulfilling prerequisites), and thus you must provide verbal and somatic components instead of thought and emotion components.</em></p>
-</blockquote>
-<p><strong>Princely Allies (Intermediate, Su):</strong> Add the appropriate <Link to="/spell/summon_natures_ally">summon nature's ally</Link> spell for each spell level you can cast to your medium spell list. As long as you have exactly 1 creature summoned, it gains the benefits of the <Link to="/feat/augment_summoning">Augment Summoning</Link> feat, even if you don't have that feat.</p>
-<p><strong>Breaking Chains (Greater, Su):</strong> As a swift action, you can allow Cyricas to gain 1 point of influence over you to grant the benefits of <Link to="/spell/freedom_of_movement">freedom of movement</Link> to you and all allies within 60 feet for 1 minute.</p>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/hierophant">Hierophant</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>To gain the Leaping Lion's favor, you must release an animal that has been unjustly restrained. You must then swear an oath to never stand idle while an animal is being abused and attempt a Wisdom check. If you succeed, Cyricas answers your call.</Cell></Row>
+<Row><Cell>Seance Boon</Cell><Cell>Your bonus on attack rolls when flanking an opponent increases by 2 (normally, to +4).</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell>If you accept a <em>taboo</em> while channeling Cyricas, you must vow to never harm an animal.</Cell></Row></Block>
+<h3 id="spirit-cyricas-lesser-spirit-power">Lesser Spirit Power</h3>
+<Ability id="natural-magic-su" icon={["learn"]}>
+<Pair single id="natural-magic-su">Natural Magic (Su)</Pair>
+<Pair title="Ability"><p>You can draw upon the power of nature itself. Instead of your normal spells per day for your medium level, you use the spells per day from the <Link to="/class/mesmerist">Mesmerist</Link> class.</p>
+<p>For each level of spell you can now cast (including level 0), each time you channel Cyricas, select a single spell of that level from the <Link to="/main/druid_spell">druid spell list</Link> to add to your medium spell list and spells known until you lose contact with Cyricas.</p>
+</Pair>
+<Pair title="Special">When you cast these spells, they count as divine (though not for the purpose of fulfilling prerequisites), and thus you must provide verbal and somatic components instead of thought and emotion components, and you must present a sprig of holly or another sacred plant to cast spells that require a divine focus.</Pair>
+</Ability>
+<h3 id="spirit-cyricas-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="princely-allies-su" icon={["learn","boost"]}>
+<Pair single id="princely-allies-su">Princely Allies (Su)</Pair>
+<Pair title="Ability">Add the appropriate <Link to="/spell/summon_natures_ally">summon nature's ally</Link> spell for each spell level you can cast to your medium spell list. As long as you have exactly 1 creature summoned, it gains the benefits of the <Link to="/feat/augment_summoning">Augment Summoning</Link> feat, even if you don't have that feat.</Pair>
+</Ability>
+<h3 id="spirit-cyricas-greater-spirit-power">Greater Spirit Power</h3>
+<Ability id="breaking-chains-su" icon={["def","aura"]}>
+<Pair single id="breaking-chains-su">Breaking Chains (Su)</Pair>
+<Pair title="Swift Action">You can allow Cyricas to gain 1 point of influence over you to grant the benefits of <Link to="/spell/freedom_of_movement">freedom of movement</Link> to you and all allies within 60 feet for 1 minute.</Pair>
+</Ability>
 </>};
-const _daronlyr_xii = {title: "Daronlyr XII", jsx: <><h2 id="spirit-daronlyr_xii-daronlyr-xii-archmage">Daronlyr XII (<Link to="/spirit/archmage">Archmage</Link>)</h2>
+const _daronlyr_xii = {title: "Daronlyr XII", jsx: <><h2 id="spirit-daronlyr_xii-daronlyr-xii">Daronlyr XII</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_132_the_six_legend_soul">Pathfinder #132: The Six-Legend Soul pg. 71</Link><br/>While most of the legendary spirits of Taldor gained their fame through noble deeds, Daronlyr the Overthrower came to infamy through bold ambition. No one alive today - and likely no one other than Daronlyr himself - knows how much of his arcane might he leveraged in overthrowing his predecessor, but his ability to circumvent even the <Link to="/rule/ulfen_guard">Ulfen Guard</Link> in claiming the throne left few doubting his abilities or his ruthlessness. Students of the arcane seek to trace their heritage to Daronlyr in the hope of capturing some of the Overthrower's prestige, but it is usually particularly ambitious students of the occult who find themselves calling upon the legendary spirit's power.</p>
-<p><strong>Gaining Favor:</strong> The Overthrower respects only those who are willing to reach out and claim power. You must use magic to gain control over the leader of a group of 50 or more individuals. Following this accomplishment, you must vow that you will never pass up an opportunity to gain further power for yourself, no matter the cost. This requires an Intelligence check. If you succeed, Daronlyr answers your call.</p>
-<p><strong>Taboos:</strong> If you accept a taboo while channeling Daronlyr, you must acknowledge no authority above your own and reject orders or directives from others.</p>
-<p><strong>Assume the Role (Intermediate, Su):</strong> You can allow Daronlyr to gain 1 point of influence over you in order to swap your position with that of a willing ally within 60 feet as a swift action. This is a conjuration [teleportation] effect. The next medium spell you cast within 1 round after making this swap doesn't expend a spell slot and doesn't provoke an attack of opportunity.</p>
-<p><strong>Usurp (Supreme, Su):</strong> Once per day, when a creature fails a Will save against one of your spell effects, you can forfeit the spell's normal effects to instead affect the target creature as if you had cast <Link to="/spell/greater_possession">greater possession</Link>.</p>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/archmage">Archmage</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>The Overthrower respects only those who are willing to reach out and claim power. You must use magic to gain control over the leader of a group of 50 or more individuals. Following this accomplishment, you must vow that you will never pass up an opportunity to gain further power for yourself, no matter the cost. This requires an Intelligence check. If you succeed, Daronlyr answers your call.</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell>If you accept a <em>taboo</em> while channeling Daronlyr, you must acknowledge no authority above your own and reject orders or directives from others.</Cell></Row></Block>
+<h3 id="spirit-daronlyr_xii-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="assume-the-role-su" icon={["magic","boost"]}>
+<Pair single id="assume-the-role-su">Assume the Role (Su)</Pair>
+<Pair title="Swift Action">You can allow Daronlyr to gain 1 point of influence over you in order to swap your position with that of a willing ally within 60 feet. This is a conjuration [teleportation] effect. The next medium spell you cast within 1 round after making this swap doesn't expend a spell slot and doesn't provoke an attack of opportunity.</Pair>
+</Ability>
+<h3 id="spirit-daronlyr_xii-supreme-spirit-power">Supreme Spirit Power</h3>
+<Ability id="usurp-su" icon={["magic","lower"]}>
+<Pair single id="usurp-su">Usurp (Su)</Pair>
+<Pair title="Ability">Once per day, when a creature fails a Will save against one of your spell effects, you can forfeit the spell's normal effects to instead affect the target creature as if you had cast <Link to="/spell/greater_possession">greater possession</Link>.</Pair>
+</Ability>
 </>};
-const _deceiver = {title: "Deceiver", jsx: <><h2 id="spirit-deceiver-deceiver-trickster">Deceiver (<Link to="/spirit/trickster">Trickster</Link>)</h2>
+const _deceiver = {title: "Deceiver", jsx: <><h2 id="spirit-deceiver-deceiver">Deceiver</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 58</Link><br/>The Deceiver is the prince of prevarication.</p>
-<p><strong>Gaining Favor:</strong> To gain the Deceiver's favor, you must successfully lie to 100 different sentient creatures, convincing each one of a different lie that somehow leads to its death or other great misfortune. You must then vow to never make a truthful statement, except to answer a question whose answer is clearly already known to the asker (such as the color of the sky), and succeed at a Charisma check.</p>
-<p><strong>Spirit Bonus:</strong> When you channel the Deceiver, your spirit bonus applies to Charisma checks, Charisma-based skill checks, and Will saves against compulsions and divinations.</p>
-<p><strong>Favored Locations:</strong> Bordellos, courtrooms, gambling dens, taverns.</p>
-<p><strong>Skilled Deceiver (Lesser, Ex):</strong> You add 1/2 your medium level (minimum 1) as a bonus on all Bluff checks.</p>
-<p><strong>Shift Blame (Greater, Ex):</strong> When you provoke an attack of opportunity from a given enemy, you can divert that attack of opportunity to another target of your choice within the attacker's reach. Afterward, the foe whose attack you diverted becomes immune to this ability for 24 hours. When you target a creature with a spell, spell-like ability, or supernatural ability, or when you fail a Bluff, Diplomacy, or Intimidate check, you can allow the Deceiver to gain 1 point of influence over you to make the target believe another creature adjacent to you created the effect or attempted to lie to, convince, or bully the target.</p>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/trickster">Trickster</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>To gain the Deceiver's favor, you must successfully lie to 100 different sentient creatures, convincing each one of a different lie that somehow leads to its death or other great misfortune. You must then vow to never make a truthful statement, except to answer a question whose answer is clearly already known to the asker (such as the color of the sky), and succeed at a Charisma check.</Cell></Row>
+<Row><Cell>Spirit Bonus</Cell><Cell>When you channel the Deceiver, your <em>spirit bonus</em> applies to Charisma checks, Charisma-based skill checks, and Will saves against compulsions and divinations.</Cell></Row>
+<Row><Cell>Favored Locations</Cell><Cell>Bordellos, courtrooms, gambling dens, taverns.</Cell></Row></Block>
+<h3 id="spirit-deceiver-lesser-spirit-power">Lesser Spirit Power</h3>
+<Ability id="skilled-deceiver-ex" icon={["boost"]}>
+<Pair single id="skilled-deceiver-ex">Skilled Deceiver (Ex)</Pair>
+<Pair title="Passive Ability">You add <Link to="/misc/half">half</Link> of your medium level (minimum 1) as a bonus on all <Link to="/skill/bluff">Bluff</Link> checks.</Pair>
+</Ability>
+<h3 id="spirit-deceiver-greater-spirit-power">Greater Spirit Power</h3>
+<Ability id="shift-blame-ex" icon={["def"]}>
+<Pair single id="shift-blame-ex">Shift Blame (Ex)</Pair>
+<Pair title="Ability">When you provoke an attack of opportunity from a given enemy, you can divert that attack of opportunity to another target of your choice within the attacker's reach. Afterward, the foe whose attack you diverted becomes immune to this ability for 24 hours.</Pair>
+<Pair title="Ability">When you target a creature with a spell, spell-like ability, or supernatural ability, or when you fail a Bluff, Diplomacy, or Intimidate check, you can allow the Deceiver to gain 1 point of influence over you to make the target believe another creature adjacent to you created the effect or attempted to lie to, convince, or bully the target.</Pair>
+</Ability>
 </>};
-const _father_of_legends = {title: "Father of Legends", jsx: <><h2 id="spirit-father_of_legends-father-of-legends-marshal">Father of Legends (<Link to="/spirit/marshal">Marshal</Link>)</h2>
+const _father_of_legends = {title: "Father of Legends", jsx: <><h2 id="spirit-father_of_legends-father-of-legends">Father of Legends</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 5</Link><br/>The Ulfen regard the Father of Legends as the greatest <Link to="/class/skald">skald</Link> of all time. During his life, there was no greater honor than to be immortalized by his song, and several of the most famous Ulfen epics were first sung by him.</p>
-<p><strong>Gaining Favor:</strong> To gain the Father of Legends' favor, you must first compose a song or poem about a heroic event that you witnessed but did not take part in. Then you must perform the piece in front of a crowd of at least 100 people. If you succeed at a Charisma check during the performance, the Father of Legends will answer your call.</p>
-<p><strong>Taboos:</strong> If you accept a taboo while channeling the Father of Legends, you cannot take any actions that would deny an ally an opportunity for glory. This includes killing an enemy that an ally was attempting to defeat or forcibly removing an ally from combat, even when her life is in danger.</p>
-<p><strong>Song of Valor (Intermediate, Su):</strong> As a standard action, you can begin a performance that fills allies with power and confidence. Any ally that participated in your seance who can hear your performance receives a morale bonus to Strength and Constitution equal to your spirit bonus. You can maintain this performance for a number of rounds equal to your Charisma modifier plus your spirit bonus. These rounds need not be consecutive. Maintaining your performance is a free action.</p>
-<p><strong>Saga of Future Kings (Supreme, Su):</strong> Each ally who benefits from your <em>song of valor</em> gains DR/- equal to your spirit bonus. In addition, when an ally affected by your song would be reduced to fewer than 0 hit points, she can attempt a Fortitude saving throw (DC = 10 + half the damage received). If the ally succeeds, she instead is reduced to 0 hit points.</p>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/marshal">Marshal</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>To gain the Father of Legends' favor, you must first compose a song or poem about a heroic event that you witnessed but did not take part in. Then you must perform the piece in front of a crowd of at least 100 people. If you succeed at a Charisma check during the performance, the Father of Legends will answer your call.</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell>If you accept a <em>taboo</em> while channeling the Father of Legends, you cannot take any actions that would deny an ally an opportunity for glory. This includes killing an enemy that an ally was attempting to defeat or forcibly removing an ally from combat, even when her life is in danger.</Cell></Row></Block>
+<h3 id="spirit-father_of_legends-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="song-of-valor-su" icon={["aura","boost"]}>
+<Pair single id="song-of-valor-su">Song of Valor (Su)</Pair>
+<Pair title="Standard Action"><p>You can begin a performance that fills allies with power and confidence. Any ally that participated in your <em>seance</em> who can hear your performance receives a morale bonus to Strength and Constitution equal to your <em>spirit bonus.</em></p>
+<p>You can maintain this performance for a number of rounds equal to your Charisma modifier plus your <em>spirit bonus.</em> These rounds need not be consecutive. Maintaining your performance is a <strong className="hl">free action</strong>.</p>
+</Pair>
+</Ability>
+<h3 id="spirit-father_of_legends-supreme-spirit-power">Supreme Spirit Power</h3>
+<Ability id="saga-of-future-kings-su" icon={["protect"]}>
+<Pair single id="saga-of-future-kings-su">Saga of Future Kings (Su)</Pair>
+<Pair title="Passive Ability">Each ally who benefits from your <em>song of valor</em> gains DR/- equal to your <em>spirit bonus.</em></Pair>
+<Pair title="Ability">In addition, when an ally affected by your song would be reduced to fewer than 0 hit points, she can attempt a Fortitude saving throw (DC = 10 + half the damage received). If the ally succeeds, she instead is reduced to 0 hit points.</Pair>
+</Ability>
 </>};
-const _gennaris_iii = {title: "Gennaris III", jsx: <><h2 id="spirit-gennaris_iii-gennaris-iii-champion">Gennaris III (<Link to="/spirit/champion">Champion</Link>)</h2>
+const _gennaris_iii = {title: "Gennaris III", jsx: <><h2 id="spirit-gennaris_iii-gennaris-iii">Gennaris III</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_132_the_six_legend_soul">Pathfinder #132: The Six-Legend Soul pg. 71</Link><br/>If Taldaris was the greatest leader of the empire's history, then Grand Prince Gennaris III was unquestionably Taldor's greatest general. No one before or since led as effective a campaign against the Qadiran encroachment as Gennaris, and the brevity of his time as an emperor only strengthened his legacy as a martyr. Few leaders have been so widely loved and so deeply mourned. Renowned for his tactical brilliance as well as his personal might, Gennaris is held up as a paragon of excellence to which Taldan warriors have since aspired. Those seeking to channel the Conqueror's legendary spirit know they must prove their own worth before they merit the attention of Gennaris's spirit.</p>
-<p><strong>Gaining Favor:</strong> To gain the favor of Gennaris, you must gather six weapons, each from defeating a significant enemy (a foe whose CR equals at least your character level - 3). Surrounded by the assembled weapons, you must recount the tales of the battles in which you obtained them and swear an oath that you will become a master of each of them. This requires a Strength check. If you succeed, Gennaris answers your call.</p>
-<p><strong>Taboos:</strong> If you accept a taboo while channeling Gennaris, you must face your opponents with confidence and never retreat from a fight out of cowardice.</p>
-<p><strong>Conqueror's Weapons (Lesser, Su):</strong> You are considered proficient with the weapon types you gathered in order to gain favor with this spirit (such as longswords or hand crossbows).</p>
-<p><strong>Conquered Blades (Greater, Su):</strong> You gain <Link to="/feat/improved_critical">Improved Critical</Link> with the weapon types you gathered to gain favor with this spirit. In addition, your attacks with such weapons ignore up to 5 points of damage reduction, except for damage reduction without a type (such as DR 10/-).</p>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/champion">Champion</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>To gain the favor of Gennaris, you must gather six weapons, each from defeating a significant enemy (a foe whose CR equals at least your character level - 3). Surrounded by the assembled weapons, you must recount the tales of the battles in which you obtained them and swear an oath that you will become a master of each of them. This requires a Strength check. If you succeed, Gennaris answers your call.</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell>If you accept a <em>taboo</em> while channeling Gennaris, you must face your opponents with confidence and never retreat from a fight out of cowardice.</Cell></Row></Block>
+<h3 id="spirit-gennaris_iii-lesser-spirit-power">Lesser Spirit Power</h3>
+<Ability id="conquerors-weapons-su" icon={["power"]}>
+<Pair single id="conquerors-weapons-su">Conqueror's Weapons (Su)</Pair>
+<Pair title="Ability">You are considered proficient with the weapon types you gathered in order to gain favor with this spirit (such as longswords or hand crossbows).</Pair>
+</Ability>
+<h3 id="spirit-gennaris_iii-greater-spirit-power">Greater Spirit Power</h3>
+<Ability id="conquered-blades-su" icon={["power","boost"]}>
+<Pair single id="conquered-blades-su">Conquered Blades (Su)</Pair>
+<Pair title="Ability">You gain <Link to="/feat/improved_critical">Improved Critical</Link> with the weapon types you gathered to gain favor with this spirit. In addition, your attacks with such weapons ignore up to 5 points of damage reduction, except for damage reduction without a type (such as DR 10/-).</Pair>
+</Ability>
 </>};
-const _heretic = {title: "Heretic", jsx: <><h2 id="spirit-heretic-heretic-hierophant">Heretic (<Link to="/spirit/hierophant">Hierophant</Link>)</h2>
+const _heretic = {title: "Heretic", jsx: <><h2 id="spirit-heretic-heretic">Heretic</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 58</Link><br/>The Heretic warps the faith of a good deity.</p>
-<p><strong>Gaining Favor:</strong> To gain the Heretic's favor, you must first pervert the worship of a congregation of worshipers of a good deity to evil. You must then vow to corrupt, debase, and violate the worship of that deity and never perform a truly altruistic act, and finally succeed at a Charisma check.</p>
-<p><strong>Spirit Bonus:</strong> The Heretic warps the faith of a good deity.</p>
-<p><strong>Seance Boon:</strong> For the purpose of spells and effects that have an effect based on which deity you worship, you count as worshiping the deity chosen in your vow. For the purpose of divinations, your alignment is the same as the deity's, and you have an aura corresponding to that deity's alignment as if you were a <Link to="/class/cleric">cleric</Link> of that deity. This doesn't alter other effects based on alignment, like smite evil.</p>
-<p><strong>Favored Locations:</strong> Hidden shrines, repositories of dark knowledge, sacrificial altars, temples.</p>
-<p><strong>Heresy (Lesser, Su):</strong> This functions as the <em>divine surge</em> lesser spirit power but you gain the following <Link to="/class/inquisitor">inquisitor</Link> spells at the indicated spell levels, instead of selecting a set of cleric spells each day: 0-<Link to="/spell/guidance">guidance</Link>; 1st-<Link to="/spell/divine_favor">divine favor</Link>; 2nd-<Link to="/spell/castigate">castigate</Link>; 3rd-<Link to="/spell/terrible_remorse">terrible remorse</Link>; 4th-<Link to="/spell/reprobation">reprobation</Link>; 5th-<Link to="/spell/mass_castigate">mass castigate</Link>; 6th-<Link to="/spell/overwhelming_presence">overwhelming presence</Link>. Whenever you use your spirit surge on a skill check or ability check to convince or trick someone into perverting his faith in the good deity you chose with your vow, the Heretic is pleased and does not gain the usual point of influence over you.</p>
-<p><strong>False Front (Intermediate, Su):</strong> You gain the effects of the <em>energy font</em> intermediate spirit power, but you must match the faith you chose to pervert, meaning that you always <Link to="/ability/channel_positive_energy">channel positive energy</Link> and add <Link to="/main/cure_spells">cure spells</Link>.</p>
-<p><strong>Stolen Grace (Greater, Su):</strong> When a member of your chosen faith who believes that you are a member of that faith's clergy requests you to cast a cleric spell of a spell level you can cast, you can allow the Heretic to gain 1 point of influence over you and expend a spell slot of the appropriate level to cast the spell.</p>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/hierophant">Hierophant</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>To gain the Heretic's favor, you must first pervert the worship of a congregation of worshipers of a good deity to evil. You must then vow to corrupt, debase, and violate the worship of that deity and never perform a truly altruistic act, and finally succeed at a Charisma check.</Cell></Row>
+<Row><Cell>Spirit Bonus</Cell><Cell>The Heretic warps the faith of a good deity.</Cell></Row>
+<Row><Cell>Seance Boon</Cell><Cell>For the purpose of spells and effects that have an effect based on which deity you worship, you count as worshiping the deity chosen in your vow. For the purpose of divinations, your alignment is the same as the deity's, and you have an aura corresponding to that deity's alignment as if you were a <Link to="/class/cleric">cleric</Link> of that deity. This doesn't alter other effects based on alignment, like smite evil.</Cell></Row>
+<Row><Cell>Favored Locations</Cell><Cell>Hidden shrines, repositories of dark knowledge, sacrificial altars, temples.</Cell></Row></Block>
+<h3 id="spirit-heretic-lesser-spirit-power">Lesser Spirit Power</h3>
+<Ability id="heresy-su" icon={["learn","boost"]}>
+<Pair single id="heresy-su">Heresy (Su)</Pair>
+<Pair title="Ability">This functions as the <em>divine surge</em> lesser spirit power but you gain the following <Link to="/class/inquisitor">inquisitor</Link> spells at the indicated spell levels, instead of selecting a set of cleric spells each day.</Pair>
+<Pair plain title="0"><Link to="/spell/guidance">Guidance</Link></Pair>
+<Pair plain title="1st"><Link to="/spell/divine_favor">Divine favor</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/castigate">Castigate</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/terrible_remorse">Terrible remorse</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/reprobation">Reprobation</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/mass_castigate">Mass castigate</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/overwhelming_presence">Overwhelming presence</Link></Pair>
+<Pair title="Special">Whenever you use your <em>spirit surge</em> on a skill check or ability check to convince or trick someone into perverting his faith in the good deity you chose with your vow, the Heretic is pleased and does not gain the usual point of influence over you.</Pair>
+</Ability>
+<h3 id="spirit-heretic-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="false-front-su" icon={["power"]}>
+<Pair single id="false-front-su">False Front (Su)</Pair>
+<Pair title="Ability">You gain the effects of the <em>energy font</em> intermediate spirit power, but you must match the faith you chose to pervert, meaning that you always <Link to="/ability/channel_positive_energy">channel positive energy</Link> and add <Link to="/main/cure_spells">cure spells</Link>.</Pair>
+</Ability>
+<h3 id="spirit-heretic-greater-spirit-power">Greater Spirit Power</h3>
+<Ability id="stolen-grace-su" icon={["magic"]}>
+<Pair single id="stolen-grace-su">Stolen Grace (Su)</Pair>
+<Pair title="Ability">When a member of your chosen faith who believes that you are a member of that faith's clergy requests you to cast a cleric spell of a spell level you can cast, you can allow the Heretic to gain 1 point of influence over you and expend a spell slot of the appropriate level to cast the spell.</Pair>
+</Ability>
 </>};
-const _kelksiomides = {title: "Kelksiomides", jsx: <><h2 id="spirit-kelksiomides-kelksiomides-hierophant">Kelksiomides (<Link to="/spirit/hierophant">Hierophant</Link>)</h2>
+const _kelksiomides = {title: "Kelksiomides", jsx: <><h2 id="spirit-kelksiomides-kelksiomides">Kelksiomides</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 14</Link><br/>Kelksiomides spent his early years working in his family's vineyard. He was selected by his village to be blessed by the <Link to="/monster/cyclops">cyclopes</Link> of the isle, who told the young vintner that tragedy would precede his mythic ascension. Sure enough, Kelksiomides returned home to find his whole village slaughtered. The culprits were captured, but Kelksiomides forgave them, an act that was rewarded by the gods. Kelksiomides stands for hope in the face of despair, for new growth, and for redemption.</p>
-<p><strong>Gaining Favor:</strong> To gain Kelksiomides's favor, you must travel to the hills of Pol-Ptirmeios, where the hero-god was born. There you must swear to never bear a grudge against another, even if you have been grievously wronged. You must then succeed at a Wisdom check, and if you do, Kelksiomides will answer your call.</p>
-<p><strong>Spirit Bonus:</strong> When you channel Kelksiomides, your spirit bonus applies on Wisdom checks, Wisdom-based skill checks, and saving throws against spells with the evil descriptor.</p>
-<p><strong>Favored Locations:</strong> Farms, gardens, orchards, and wooded areas.</p>
-<p><strong>Taboos:</strong> If you accept a taboo while channeling Kelksiomides, you may not deal lethal damage.</p>
-<p><strong>Student of the Earth (Lesser, Su):</strong> This power functions as the <Link to="/spirit/archmage">archmage</Link> arcana spirit power, except that you add spells from the <Link to="/main/druid_spell">druid spell list</Link> instead of the sorcerer/wizard spell list. When you cast these spells, they count as divine.</p>
-<blockquote>
-<p><em>Instead of your normal spells per day for your medium level, you use the spells per day from the <Link to="/class/mesmerist">Mesmerist</Link> class. For each level of spell you can now cast (including level 0), each time you channel Kelksiomides, select a single spell of that level from the druid spell list to add to your medium spell list and spells known until you lose contact with Kelksiomides. When you cast these spells, they count as divine (though not for the purpose of fulfilling prerequisites), and thus you must provide verbal and somatic components instead of thought and emotion components.</em></p>
-</blockquote>
-<p><strong>Divine Overseer (Greater, Su):</strong> You can allow Kelksiomides to gain 1 point of influence over you as a swift action to enable you to channel positive energy as a cleric of your level and automatically restore or deal the maximum amount your channel permits (for example, 6 points if you roll 1d6 when you channel). You can use this channel energy ability a number of times per day equal to your Charisma modifier (minimum 1).</p>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/hierophant">Hierophant</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>To gain Kelksiomides's favor, you must travel to the hills of Pol-Ptirmeios, where the hero-god was born. There you must swear to never bear a grudge against another, even if you have been grievously wronged. You must then succeed at a Wisdom check, and if you do, Kelksiomides will answer your call.</Cell></Row>
+<Row><Cell>Spirit Bonus</Cell><Cell>When you channel Kelksiomides, your <em>spirit bonus</em> applies on Wisdom checks, Wisdom-based skill checks, and saving throws against spells with the evil descriptor.</Cell></Row>
+<Row><Cell>Favored Locations</Cell><Cell>Farms, gardens, orchards, and wooded areas.</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell>If you accept a <em>taboo</em> while channeling Kelksiomides, you may not deal lethal damage.</Cell></Row></Block>
+<h3 id="spirit-kelksiomides-lesser-spirit-power">Lesser Spirit Power</h3>
+<Ability id="student-of-the-earth-su" icon={["learn"]}>
+<Pair single id="student-of-the-earth-su">Student of the Earth (Su)</Pair>
+<Pair title="Ability"><p>You can draw upon the power of nature itself. Instead of your normal spells per day for your medium level, you use the spells per day from the <Link to="/class/mesmerist">Mesmerist</Link> class.</p>
+<p>For each level of spell you can now cast (including level 0), each time you channel Kelksiomides, select a single spell of that level from the <Link to="/main/druid_spell">druid spell list</Link> to add to your medium spell list and spells known until you lose contact with Kelksiomides.</p>
+</Pair>
+<Pair title="Special">When you cast these spells, they count as divine (though not for the purpose of fulfilling prerequisites), and thus you must provide verbal and somatic components instead of thought and emotion components.</Pair>
+</Ability>
+<h3 id="spirit-kelksiomides-greater-spirit-power">Greater Spirit Power</h3>
+<Ability id="divine-overseer-su" icon={["aura"]}>
+<Pair single id="divine-overseer-su">Divine Overseer (Su)</Pair>
+<Pair title="Usage">Charisma modifier times/day</Pair>
+<Pair title="Swift Action">You can allow Kelksiomides to gain 1 point of influence over you to enable you to <Link to="/ability/channel_positive_energy">channel positive energy</Link> as a cleric of your level and automatically restore or deal the maximum amount your channel permits (for example, 6 points if you roll 1d6 when you channel).</Pair>
+</Ability>
 </>};
-const _lich = {title: "Lich", jsx: <><h2 id="spirit-lich-lich-archmage">Lich (<Link to="/spirit/archmage">Archmage</Link>)</h2>
+const _lich = {title: "Lich", jsx: <><h2 id="spirit-lich-lich">Lich</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 59</Link><br/>The Lich is a spirit of power over death and the undead.</p>
-<p><strong>Gaining Favor:</strong> To gain the Lich's favor, you must research fragments of how to create a personal phylactery and then outline a plan for lichdom. This requires spending 2 months visiting libraries and sites of necromantic power, followed by a successful Intelligence check. You must then vow to never destroy an intelligent undead creature, even if it attacks you first (though it is perfectly acceptable to control it with magic).</p>
-<p><strong>Seance Boon:</strong> You gain a +4 bonus on damage rolls with your necromancy spells.</p>
-<p><strong>Favored Locations:</strong> Battlefields, graveyards, tombs.</p>
-<p><strong>Taboos:</strong> If you accept a taboo while channeling the Lich, you must not use beneficial spells on living creatures (except yourself if you are a living creature).</p>
-<p><strong>Necromantic Arcana (Lesser, Su):</strong> This functions as the archmage arcana lesser spirit power, except you gain the following spells at the indicated spell levels (even if they are not the usual spell levels for the sorcerer/wizard spell list), instead of selecting them each day: 0-<Link to="/spell/bleed">bleed</Link>; 1st-<Link to="/spell/chill_touch">chill touch</Link>; 2nd-<Link to="/spell/command_undead">command undead</Link>; 3rd-<Link to="/spell/animate_dead">animate dead</Link>; 4th-<Link to="/spell/enervation">enervation</Link>; 5th-<Link to="/spell/magic_jar">magic jar</Link>; 6th-<Link to="/spell/create_greater_undead">create greater undead</Link>.</p>
-<p><strong>Lesser Lichdom (Greater, Su):</strong> In order to benefit from this power, you must have a proto-phylactery that costs you 10,000 gp to create (if you continue with the process of lichdom, you can upgrade this to a true phylactery by paying the difference in cost). If you die while channeling the Lich, you return from the dead in 1d10 days, reforming around the proto-phylactery and gaining 1 permanent negative level (as if subject to the <Link to="/spell/resurrection">resurrection</Link> spell). This process consumes the proto-phylactery. If you are already a lich, you can instead create a backup phylactery for 10,000 gp, at which you reform if your normal phylactery is destroyed. This consumes the backup phylactery.</p>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/archmage">Archmage</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>To gain the Lich's favor, you must research fragments of how to create a personal phylactery and then outline a plan for lichdom. This requires spending 2 months visiting libraries and sites of necromantic power, followed by a successful Intelligence check. You must then vow to never destroy an intelligent undead creature, even if it attacks you first (though it is perfectly acceptable to control it with magic).</Cell></Row>
+<Row><Cell>Seance Boon</Cell><Cell>You gain a +4 bonus on damage rolls with your necromancy spells.</Cell></Row>
+<Row><Cell>Favored Locations</Cell><Cell>Battlefields, graveyards, tombs.</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell>If you accept a <em>taboo</em> while channeling the Lich, you must not use beneficial spells on living creatures (except yourself if you are a living creature).</Cell></Row></Block>
+<h3 id="spirit-lich-lesser-spirit-power">Lesser Spirit Power</h3>
+<Ability id="necromantic-arcana-su" icon={["learn"]}>
+<Pair single id="necromantic-arcana-su">Necromantic Arcana (Su)</Pair>
+<Pair title="Ability">This functions as the <em>archmage arcana</em> lesser spirit power, except you gain the following spells at the indicated spell levels (even if they are not the usual spell levels for the sorcerer/wizard spell list), instead of selecting them each day.</Pair>
+<Pair plain title="0"><Link to="/spell/bleed">Bleed</Link></Pair>
+<Pair plain title="1st"><Link to="/spell/chill_touch">Chill touch</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/command_undead">Command undead</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/animate_dead">Animate dead</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/enervation">Enervation</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/magic_jar">Magic jar</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/create_greater_undead">Create greater undead</Link></Pair>
+</Ability>
+<h3 id="spirit-lich-greater-spirit-power">Greater Spirit Power</h3>
+<Ability id="lesser-lichdom-su" icon={["warning","def"]}>
+<Pair single id="lesser-lichdom-su">Lesser Lichdom (Su)</Pair>
+<Pair title="Info">In order to benefit from this power, you must have a proto-phylactery that costs you 10,000 gp to create (if you continue with the process of lichdom, you can upgrade this to a true phylactery by paying the difference in cost).</Pair>
+<Pair title="Passive Ability">If you die while channeling the Lich, you return from the dead in 1d10 days, reforming around the proto-phylactery and gaining 1 permanent <Link to="/rule/negative_level">negative level</Link> (as if subject to the <Link to="/spell/resurrection">resurrection</Link> spell). This process consumes the proto-phylactery.</Pair>
+<Pair title="Special">If you are already a lich, you can instead create a backup phylactery for 10,000 gp, at which you reform if your normal phylactery is destroyed. This consumes the backup phylactery.</Pair>
+</Ability>
 </>};
-const _namzaruum = {title: "Namzaruum", jsx: <><h2 id="spirit-namzaruum-namzaruum-marshal">Namzaruum (<Link to="/spirit/marshal">Marshal</Link>)</h2>
+const _namzaruum = {title: "Namzaruum", jsx: <><h2 id="spirit-namzaruum-namzaruum">Namzaruum</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 24</Link><br/>Not all gods of Ninshabur are forgotten. Prophets of the herogod Namzaruum claim he rests in the Hall of Slumbering Kings, but will return to lead the faithful to victory.</p>
-<p><strong>Gaining Favor:</strong> To gain Namzaruum's favor, journey to his ziggurat at the center of Ezida. There, you must swear to help gather the descendants of Ninshabur and to tell all of Namzaruum's inevitable return. You must also succeed at a Charisma check before Namzaruum will answer your call.</p>
-<p><strong>Taboos:</strong> If you accept a taboo while channeling Namzaruum, you must take any opportunity to seek out Ninshaburian descendants and proselytize, even if doing so would be disadvantageous.</p>
-<p><strong>Phalanx Defense (Lesser, Su):</strong> This functions as the <em>marshal's order</em> ability, except if you or an ally who participated in your seance are adjacent to another ally who participated, you and any applicable allies can also add your spirit surge to your CMD against bull rush, drag, overrun, and trip attempts.</p>
-<p>This alters marshal's order.</p>
-<p><strong>Slumbering Sword (Greater, Su):</strong> When an ally within 30 feet is attacked, you can allow Namzaruum to gain 1 point of influence over you as an immediate action to provide partial <Link to="/rule/cover">cover</Link> to that ally for a single attack. The ally must be able to see and hear you for this ability to function. If the attack against your ally misses, your ally can make an attack of opportunity against the enemy who made the attack if that enemy is within your ally's reach. You can use this ability as a standard action to instead grant an ally partial cover for 1 round, but missed attacks against the ally do not provoke attacks of opportunity.</p>
-<p>This replaces decisive strike.</p>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/marshal">Marshal</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>To gain Namzaruum's favor, journey to his ziggurat at the center of Ezida. There, you must swear to help gather the descendants of Ninshabur and to tell all of Namzaruum's inevitable return. You must also succeed at a Charisma check before Namzaruum will answer your call.</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell>If you accept a <em>taboo</em> while channeling Namzaruum, you must take any opportunity to seek out Ninshaburian descendants and proselytize, even if doing so would be disadvantageous.</Cell></Row></Block>
+<h3 id="spirit-namzaruum-lesser-spirit-power">Lesser Spirit Power</h3>
+<Ability id="phalanx-defense-su" icon={["power","boost"]}>
+<Pair single id="phalanx-defense-su">Phalanx Defense (Su)</Pair>
+<Pair hl title="Alters">Marshal's order</Pair>
+<Pair title="Ability">This functions as the <em>marshal's order</em> ability, except if you or an ally who participated in your <em>seance</em> are adjacent to another ally who participated, you and any applicable allies can also add your <em>spirit surge</em> to your CMD against bull rush, drag, overrun, and trip attempts.</Pair>
+</Ability>
+<h3 id="spirit-namzaruum-greater-spirit-power">Greater Spirit Power</h3>
+<Ability id="slumbering-sword-su" icon={["protect"]}>
+<Pair single id="slumbering-sword-su">Slumbering Sword (Su)</Pair>
+<Pair hl title="Replaces">Decisive strike</Pair>
+<Pair title="Immediate Action"><p>When an ally within 30 feet is attacked, you can allow Namzaruum to gain 1 point of influence over you to provide partial <Link to="/rule/cover">cover</Link> to that ally for a single attack. The ally must be able to see and hear you for this ability to function.</p>
+<p>If the attack against your ally misses, your ally can make an attack of opportunity against the enemy who made the attack if that enemy is within your ally's reach.</p>
+</Pair>
+<Pair title="Special">You can use this ability as a <strong className="hl">standard action</strong> to instead grant an ally partial cover for 1 round, but missed attacks against the ally do not provoke attacks of opportunity.</Pair>
+</Ability>
 </>};
-const _nex = {title: "Nex", jsx: <><h2 id="spirit-nex-nex-archmage">Nex (<Link to="/spirit/archmage">Archmage</Link>)</h2>
+const _nex = {title: "Nex", jsx: <><h2 id="spirit-nex-nex">Nex</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 11</Link><br/>Nex's legendary spirit offers the power of one of the greatest archmages in Golarion's history. Unlike normal archmage spirits, Nex's legendary spirit grants strange abilities shaped by the lost wizard's unique experiments. Mediums channeling Nex's legendary spirit eventually realize that the spirit has its own long-term plans for them, usually involving the Spire of Nex, but so far no medium has gleaned the full scope of that plan.</p>
-<p>The Nex legendary spirit grants modified or unique spirit powers. In all other ways, it functions identically to a standard archmage spirit.</p>
-<p><strong>Gaining Favor:</strong> For use with the <Link to="/arc-medium/nexian_channeler">Nexian Channeler</Link> archetype only.</p>
-<p><strong>Spirit Bonus:</strong> When you channel Nex, your spirit bonus applies on <Link to="/rule/concentration">concentration</Link> checks, Intelligence checks, and Intelligence-based skill checks.</p>
-<p><strong>Seance Boon:</strong> Your damaging spells deal an additional 2 points of damage of the same type that they would normally deal to each target.</p>
-<p><strong>Favored Locations:</strong> Arcane redoubts, areas of unusual magic, libraries, schools.</p>
-<p><strong>Influence Penalty:</strong> Your body begins to respond as if you were a frail, aged scholar. You take a penalty equal to your spirit bonus on Strength checks, Strength-based skill checks, Constitution checks, attack rolls, and non-spell damage rolls.</p>
-<p><strong>Taboos:</strong> Choose one:</p>
+<p>The Nex legendary spirit grants modified or unique spirit powers. In all other ways, it functions identically to a standard Archmage spirit.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="spirit-nex--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/arc-medium/nexian_channeler">Nexian Channeler</Link> archetype</td></tr></tbody></table></ScrollContainer></div><Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/archmage">Archmage</Link></Cell></Row>
+<Row><Cell>Spirit Bonus</Cell><Cell>When you channel Nex, your <em>spirit bonus</em> applies on <Link to="/rule/concentration">concentration</Link> checks, Intelligence checks, and Intelligence-based skill checks.</Cell></Row>
+<Row><Cell>Seance Boon</Cell><Cell><Icons id="spirit-nex-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Your damaging spells deal an additional 2 points of damage of the same type that they would normally deal to each target.</Cell></Row>
+<Row><Cell>Favored Locations</Cell><Cell>Arcane redoubts, areas of unusual magic, libraries, schools.</Cell></Row>
+<Row><Cell>Influence Penalty</Cell><Cell><Icons id="spirit-nex-down-icons" wrapper="prefixIcon" list={["down"]} /> Your body begins to respond as if you were a frail, aged scholar. You take a penalty equal to your <em>spirit bonus</em> on Strength checks, Strength-based skill checks, Constitution checks, attack rolls, and non-spell damage rolls.</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell><p>Choose one:</p>
 <ul>
-<li>You eschew all faith in the divine, so you must not be the willing target of divine spells or abilities and you must attempt a Will saving throw against even harmless divine spells and abilities</li>
-<li>You must not pass up the opportunity to learn something new and significant (a non-trivial piece of information with a Knowledge check of DC 20 or higher) when that opportunity is directly present</li>
-<li>You must use your own magical solution to a challenge if you can, even if a mundane solution that would require fewer resources is available</li>
+<li>You eschew all faith in the divine, so you must not be the willing target of divine spells or abilities and you must attempt a Will saving throw against even harmless divine spells and abilities.</li>
+<li>You must not pass up the opportunity to learn something new and significant (a non-trivial piece of information with a Knowledge check of DC 20 or higher) when that opportunity is directly present.</li>
+<li>You must use your own magical solution to a challenge if you can, even if a mundane solution that would require fewer resources is available.</li>
 </ul>
-<p><strong>Nex's Arcana (Lesser, Su):</strong> Rather than your normal spells per day for your medium level, you gain the spells per day from Table 1-4: <Link to="/class/mesmerist">Mesmerist</Link>. For each level of spell you can now cast (including level 0), each time you channel Nex's spirit, select a single spell from the <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">wizard</Link> spell list of that level to add to your medium spell list and spells known until you lose contact with Nex. When you cast these spells, they count as arcane (though not for the purpose of fulfilling prerequisites), and thus you must provide verbal and somatic components instead of thought and emotion components. Because of Nex's hatred of Geb, these spells can't be of the necromancy school.</p>
-<p><strong>Project Servitor (Intermediate, Su):</strong> You can create projections of the creatures trapped in the Spire of Nex, just as Nex did during his siege of Absalom. You can expend a spell slot to cast <Link to="/spell/shadow_conjuration">shadow conjuration</Link>, mimicking a <Link to="/spell/summon_monster">summon monster</Link> or <Link to="/spell/summon_natures_ally">summon nature's ally</Link> spell of the spell slot's level (or that spell slot's level + 1 for 5th- and 6th-level slots). These shadows are 10% real per level of the spell slot expended. If you allow Nex to gain 1 point of influence over you, double the reality percentage (to a maximum of 100%; if the result would be greater than 100%, the creature or creatures instead gain the advanced template).</p>
-<p><strong>Wild Arcana (Greater, Su):</strong> You can allow Nex to gain 1 point of influence over you in order to cast any sorcerer/wizard spell of a level you can cast (even necromancy spells). You must expend a spell slot of the appropriate level, and you can't apply metamagic feats to the spell.</p>
-<p><strong>Personal Spire (Supreme, Su):</strong> Nex's legendary spirit grants you access to a personal demiplane that you create (as per one created by <Link to="/spell/greater_create_demiplane">greater create demiplane</Link>). As long as you channel Nex each day, your demiplane remains, but if you ever channel a spirit from a different legend, the demiplane disappears, dumping its inhabitants onto the Astral Plane. You can use <em>project servitor</em> to summon a shadowy projection of any creature currently within your demiplane, as long as its CR matches the summon spell (CR 1/2 or lower for <Link to="/spell/summon_monster_i">summon monster I</Link>, CR 1 for <Link to="/spell/summon_monster_ii">summon monster II</Link>, CR 2 for <Link to="/spell/summon_monster_iii">summon monster III</Link>, CR 3 or 4 for <Link to="/spell/summon_monster_iv">summon monster IV</Link>, CR 5 or 6 for <Link to="/spell/summon_monster_v">summon monster V</Link>, CR 7 or 8 for <Link to="/spell/summon_monster_vi">summon monster VI</Link>, or CR 9 or 10 for <Link to="/spell/summon_monster_vii">summon monster VII</Link>). You can allow Nex to gain 1 point of influence over you and expend a 6th-level spell slot to use <em>project servitor</em> as per <Link to="/spell/summon_monster_viii">summon monster VIII</Link> (80% real and can mimic trapped creatures of CR 11 or 12) or <Link to="/spell/summon_monster_ix">summon monster IX</Link> (90% real and can mimic trapped creatures of CR 13 or 14).</p>
+</Cell></Row></Block>
+<h3 id="spirit-nex-lesser-spirit-power">Lesser Spirit Power</h3>
+<Ability id="nexs-arcana-su" icon={["learn"]}>
+<Pair single id="nexs-arcana-su">Nex's Arcana (Su)</Pair>
+<Pair title="Ability">Rather than your normal spells per day for your medium level, you gain the spells per day of a <Link to="/class/mesmerist">mesmerist</Link>. For each level of spell you can now cast (including level 0), each time you channel Nex's spirit, select a single spell from the <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">wizard</Link> spell list of that level to add to your medium spell list and spells known until you lose contact with Nex. When you cast these spells, they count as arcane (though not for the purpose of fulfilling prerequisites), and thus you must provide verbal and somatic components instead of thought and emotion components.</Pair>
+<Pair title="Special">Because of Nex's hatred of Geb, these spells can't be of the necromancy school.</Pair>
+</Ability>
+<h3 id="spirit-nex-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="project-servitor-su" icon={["magic","boost"]}>
+<Pair single id="project-servitor-su" flavor="You can create projections of the creatures trapped in the Spire of Nex, just as Nex did during his siege of Absalom.">Project Servitor (Su)</Pair>
+<Pair title="Ability">You can expend a spell slot to cast <Link to="/spell/shadow_conjuration">shadow conjuration</Link>, mimicking a <Link to="/spell/summon_monster">summon monster</Link> or <Link to="/spell/summon_natures_ally">summon nature's ally</Link> spell of the spell slot's level (or that spell slot's level + 1 for 5th- and 6th-level slots). These shadows are 10% real per level of the spell slot expended.</Pair>
+<Pair title="Special">If you allow Nex to gain 1 point of influence over you, double the reality percentage (to a maximum of 100%; if the result would be greater than 100%, the creature or creatures instead gain the <Link to="/template/advanced">advanced</Link> template).</Pair>
+</Ability>
+<h3 id="spirit-nex-greater-spirit-power">Greater Spirit Power</h3>
+<Ability id="wild-arcana-su" icon={["magic"]}>
+<Pair single id="wild-arcana-su">Wild Arcana (Su)</Pair>
+<Pair title="Ability">You can allow Nex to gain 1 point of influence over you in order to cast any sorcerer/wizard spell of a level you can cast (even necromancy spells). You must expend a spell slot of the appropriate level, and you can't apply metamagic feats to the spell.</Pair>
+</Ability>
+<h3 id="spirit-nex-supreme-spirit-power">Supreme Spirit Power</h3>
+<Ability id="personal-spire-su" icon={["magic"]}>
+<Pair single id="personal-spire-su">Personal Spire (Su)</Pair>
+<Pair title="Ability">Nex's legendary spirit grants you access to a personal demiplane that you create (as per one created by <Link to="/spell/greater_create_demiplane">greater create demiplane</Link>). As long as you channel Nex each day, your demiplane remains, but if you ever channel a spirit from a different legend, the demiplane disappears, dumping its inhabitants onto the Astral Plane.</Pair>
+<Pair title="Ability">You can use <em>project servitor</em> to summon a shadowy projection of any creature currently within your demiplane, as long as its CR matches the summon spell (CR 1/2 or lower for <Link to="/spell/summon_monster_i">summon monster I</Link>, CR 1 for <Link to="/spell/summon_monster_ii">summon monster II</Link>, CR 2 for <Link to="/spell/summon_monster_iii">summon monster III</Link>, CR 3 or 4 for <Link to="/spell/summon_monster_iv">summon monster IV</Link>, CR 5 or 6 for <Link to="/spell/summon_monster_v">summon monster V</Link>, CR 7 or 8 for <Link to="/spell/summon_monster_vi">summon monster VI</Link>, or CR 9 or 10 for <Link to="/spell/summon_monster_vii">summon monster VII</Link>).</Pair>
+<Pair title="Ability">You can allow Nex to gain 1 point of influence over you and expend a 6th-level spell slot to use <em>project servitor</em> as per <Link to="/spell/summon_monster_viii">summon monster VIII</Link> (80% real and can mimic trapped creatures of CR 11 or 12) or <Link to="/spell/summon_monster_ix">summon monster IX</Link> (90% real and can mimic trapped creatures of CR 13 or 14).</Pair>
+</Ability>
 </>};
-const _psomeira = {title: "Psomeira", jsx: <><h2 id="spirit-psomeira-psomeira-champion">Psomeira (<Link to="/spirit/champion">Champion</Link>)</h2>
+const _psomeira = {title: "Psomeira", jsx: <><h2 id="spirit-psomeira-psomeira">Psomeira</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 14</Link><br/>Psomeira was a prodigy captain in the Liachoran guard. It was her spear that forced the beast Ousmariku back into the sea, though not before it laid the city to ruin. Psomeira went missing following the battle and was presumed dead, but she returned a decade later in Aelyosos, and quickly stepped up to train the city for the battle against Ousmariku which she feels is inevitable.</p>
-<p><strong>Gaining Favor:</strong> To gain Psomeira's favor, you first must travel to the ruins of Liachora. On the beach where Psomeira fought the sea monster Ousmariku, you must swear an oath to defend civilization from senseless violence wherever you find it. You must then succeed at a Strength check, and if you do, Psomeira will answer your call.</p>
-<p><strong>Seance Boon:</strong> You gain a +2 morale bonus on attack rolls against creatures that are at least one size category larger than you.</p>
-<p><strong>Taboos:</strong> If you accept a taboo while channeling Psomeira, you must attack any hostile Huge or larger creature on sight.</p>
-<p><strong>Divine Vengeance (Lesser, Su):</strong> As a divine warrior, you can cast each of the following spells once per day: <Link to="/spell/align_weapon">align weapon</Link> (lawful), <Link to="/spell/magic_weapon">magic weapon</Link>, and <Link to="/spell/shield_of_faith">shield of faith</Link>. Use your medium level in place of a cleric level. These spells do not count toward your regular allotment of spells per day, but you must have a Charisma score of at least 10 + the spell's level to cast them.</p>
-<p><strong>Spiritual Force (Greater, Su):</strong> Add <Link to="/spell/divine_power">divine power</Link>, <Link to="/spell/greater_magic_weapon">greater magic weapon</Link>, and <Link to="/spell/magic_vestment">magic vestment</Link> to the list of spells you can cast once per day, following the same rules as the <em>divine vengeance</em> spirit power.</p>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/champion">Champion</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>To gain Psomeira's favor, you first must travel to the ruins of Liachora. On the beach where Psomeira fought the sea monster Ousmariku, you must swear an oath to defend civilization from senseless violence wherever you find it. You must then succeed at a Strength check, and if you do, Psomeira will answer your call.</Cell></Row>
+<Row><Cell>Seance Boon</Cell><Cell><Icons id="spirit-psomeira-boost-icons" wrapper="prefixIcon" list={["boost"]} /> You gain a +2 morale bonus on attack rolls against creatures that are at least one size category larger than you.</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell>If you accept a <em>taboo</em> while channeling Psomeira, you must attack any hostile Huge or larger creature on sight.</Cell></Row></Block>
+<h3 id="spirit-psomeira-lesser-spirit-power">Lesser Spirit Power</h3>
+<Ability id="divine-vengeance-su" icon={["magic"]}>
+<Pair single id="divine-vengeance-su">Divine Vengeance (Su)</Pair>
+<Pair title="Ability">As a divine warrior, you can cast each of the following spells once per day: <Link to="/spell/align_weapon">align weapon</Link> (lawful), <Link to="/spell/magic_weapon">magic weapon</Link>, and <Link to="/spell/shield_of_faith">shield of faith</Link>. Use your medium level in place of a cleric level. These spells do not count toward your regular allotment of spells per day, but you must have a Charisma score of at least 10 + the spell's level to cast them.</Pair>
+</Ability>
+<h3 id="spirit-psomeira-greater-spirit-power">Greater Spirit Power</h3>
+<Ability id="spiritual-force-su" icon={["magic"]}>
+<Pair single id="spiritual-force-su">Spiritual Force (Su)</Pair>
+<Pair title="Ability">Add <Link to="/spell/divine_power">divine power</Link>, <Link to="/spell/greater_magic_weapon">greater magic weapon</Link>, and <Link to="/spell/magic_vestment">magic vestment</Link> to the list of spells you can cast once per day, following the same rules as the <em>divine vengeance</em> spirit power.</Pair>
+</Ability>
 </>};
-const _savith = {title: "Savith", jsx: <><h2 id="spirit-savith-savith-champion">Savith (<Link to="/spirit/champion">Champion</Link>)</h2>
+const _savith = {title: "Savith", jsx: <><h2 id="spirit-savith-savith">Savith</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_realms">Occult Realms pg. 11</Link><br/>Savith was the Azlanti hero who, during the Age of Legend, descended into the serpentfolk city of Ilmurea and beheaded the evil creatures' god, <Link to="/faith/ydersius">Ydersius</Link>.</p>
-<p><strong>Gaining Favor:</strong> To gain Savith's favor, you must defeat an evil serpentfolk who is at least 1 level higher than yourself. Using a magic weapon, you must decapitate the creature (which requires a successful Strength check) and toss its head into lava or a massive fire while vowing to never retreat from a battle involving evil serpentfolk or worshipers of Ydersius. Savith then answers your call.</p>
-<p><strong>Taboos:</strong> If you accept a taboo while channeling Savith, you must never coat any of your natural or manufactured weapons in poison, nor can you ever dose an enemy with any type of poison.</p>
-<p><strong>Azlanti Heroics (Lesser, Su):</strong> Savith grants a +1 bonus on all attack rolls when you are wielding a <Link to="/eq-weapon/greatsword">greatsword</Link> in melee combat against evil monstrous humanoids instead of granting proficiency in an exotic weapon with champion's prowess. For the legendary champion ability, Savith grants any two of the following feats: <Link to="/feat/disruptive">Disruptive</Link>, <Link to="/feat/greater_weapon_focus">Greater Weapon Focus</Link> (greatsword), <Link to="/feat/greater_weapon_specialization">Greater Weapon Specialization</Link> (greatsword), <Link to="/feat/weapon_focus">Weapon Focus</Link> (greatsword), <Link to="/feat/weapon_specialization">Weapon Specialization</Link> (greatsword), and <Link to="/feat/spellbreaker">Spellbreaker</Link>. This ability alters champion's prowess and legendary champion.</p>
-<p><strong>Toe to Toe (Intermediate, Sp):</strong> When you are in melee combat with a creature that is at least one size category larger than you, if none of your allies are flanking it, you can spend a swift action to increase your own size as if through <Link to="/spell/enlarge_person">enlarge person</Link>, gaining all the effects of that spell. This does not provoke attacks of opportunity, and the effect lasts as long as you are in melee with that creature or until it is dead.</p>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/champion">Champion</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>To gain Savith's favor, you must defeat an evil serpentfolk who is at least 1 level higher than yourself. Using a magic weapon, you must decapitate the creature (which requires a successful Strength check) and toss its head into lava or a massive fire while vowing to never retreat from a battle involving evil serpentfolk or worshipers of Ydersius. Savith then answers your call.</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell>If you accept a <em>taboo</em> while channeling Savith, you must never coat any of your natural or manufactured weapons in poison, nor can you ever dose an enemy with any type of poison.</Cell></Row></Block>
+<h3 id="spirit-savith-lesser-spirit-power">Lesser Spirit Power</h3>
+<Ability id="azlanti-heroics-su" icon={["boost"]}>
+<Pair single id="azlanti-heroics-su">Azlanti Heroics (Su)</Pair>
+<Pair hl title="Alters">Champion's prowess</Pair>
+<Pair title="Ability">Savith grants a +1 bonus on all attack rolls when you are wielding a <Link to="/eq-weapon/greatsword">greatsword</Link> in melee combat against evil monstrous humanoids instead of granting proficiency in an exotic weapon with <em>champion's prowess.</em></Pair>
+</Ability>
+<h3 id="spirit-savith-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="toe-to-toe-sp" icon={["boost"]}>
+<Pair single id="toe-to-toe-sp">Toe to Toe (Sp)</Pair>
+<Pair title="Swift Action">When you are in melee combat with a creature that is at least one size category larger than you, if none of your allies are <Link to="/rule/flanking">flanking</Link> it, you can increase your own size as if through <Link to="/spell/enlarge_person">enlarge person</Link>, gaining all the effects of that spell. This does not provoke attacks of opportunity, and the effect lasts as long as you are in melee with that creature or until it is dead.</Pair>
+</Ability>
+<h3 id="spirit-savith-supreme-spirit-power">Supreme Spirit Power</h3>
+<Ability id="azlanti-heroics-su" icon={["power"]}>
+<Pair single id="azlanti-heroics-su">Azlanti Heroics (Su)</Pair>
+<Pair hl title="Alters">Legendary champion</Pair>
+<Pair title="Ability">For the <em>legendary champion</em> ability, Savith grants any two of the following feats: <Link to="/feat/disruptive">Disruptive</Link>, <Link to="/feat/greater_weapon_focus">Greater Weapon Focus</Link> (greatsword), <Link to="/feat/greater_weapon_specialization">Greater Weapon Specialization</Link> (greatsword), <Link to="/feat/weapon_focus">Weapon Focus</Link> (greatsword), <Link to="/feat/weapon_specialization">Weapon Specialization</Link> (greatsword), and <Link to="/feat/spellbreaker">Spellbreaker</Link>.</Pair>
+</Ability>
 </>};
-const _stavian_i = {title: "Stavian I", jsx: <><h2 id="spirit-stavian_i-stavian-i-guardian">Stavian I (<Link to="/spirit/guardian">Guardian</Link>)</h2>
+const _stavian_i = {title: "Stavian I", jsx: <><h2 id="spirit-stavian_i-stavian-i">Stavian I</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_132_the_six_legend_soul">Pathfinder #132: The Six-Legend Soul pg. 71</Link><br/>The Bounty Prince was blessed with many advantages: great charm, noble leadership, and adamant will. His stalwart defense of Taldor against the perceived incursions and offenses of the Sarenites - starting with those whose divinations sparked strife between Stavian and his own brothers - showed his resolve for protecting the nation against the might of divine magic in enemy hands. While some have questioned the necessity of the Great Purge, none can argue the effectiveness with which Stavian pursued his enemies. His spirit has since been called by any number of Taldans who oppose the divine, whether fighting worshipers of evil deities or continuing Stavian's crusade against Qadiran Sarenites.</p>
-<p><strong>Gaining Favor:</strong> Stavian tolerates no ambivalence toward or acceptance of an enemy's faith. To gain Stavian's favor, you must destroy an altar or other permanent fixture dedicated to a deity or religion whose followers have wronged you. You must then completely submerge yourself in purifying waters for as long as you can; this requires a Constitution check. If you succeed, Stavian answers your call.</p>
-<p><strong>Taboos:</strong> If you accept a taboo while channeling Stavian, you must relentlessly oppose your enemies and never consort with them.</p>
-<p><strong>Magical Purge (Intermediate, Su):</strong> Stavian grants you protection against the magical power of your enemies. You gain spell resistance equal to 11 + your medium level.</p>
-<p><strong>Confiscate Healing (Greater, Su):</strong> As an immediate action, when a creature within 30 feet would benefit from magical healing, you can allow Stavian to gain 1 point of influence over you to redirect the benefits of that healing from the original target to yourself.</p>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/guardian">Guardian</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>Stavian tolerates no ambivalence toward or acceptance of an enemy's faith. To gain Stavian's favor, you must destroy an altar or other permanent fixture dedicated to a deity or religion whose followers have wronged you. You must then completely submerge yourself in purifying waters for as long as you can; this requires a Constitution check. If you succeed, Stavian answers your call.</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell>If you accept a <em>taboo</em> while channeling Stavian, you must relentlessly oppose your enemies and never consort with them.</Cell></Row></Block>
+<h3 id="spirit-stavian_i-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="magical-purge-su" icon={["def"]}>
+<Pair single id="magical-purge-su" flavor="Stavian grants you protection against the magical power of your enemies.">Magical Purge (Su)</Pair>
+<Pair title="Passive Ability">You gain spell resistance equal to 11 + your medium level.</Pair>
+</Ability>
+<h3 id="spirit-stavian_i-greater-spirit-power">Greater Spirit Power</h3>
+<Ability id="confiscate-healing-su" icon={["lower","aid"]}>
+<Pair single id="confiscate-healing-su">Confiscate Healing (Su)</Pair>
+<Pair title="Immediate Action">When a creature within 30 feet would benefit from magical healing, you can allow Stavian to gain 1 point of influence over you to redirect the benefits of that healing from the original target to yourself.</Pair>
+</Ability>
 </>};
-const _sulesh_the_great = {title: "Sulesh the Great", jsx: <><h2 id="spirit-sulesh_the_great-sulesh-the-great-archmage">Sulesh the Great (<Link to="/spirit/archmage">Archmage</Link>)</h2>
+const _sulesh_the_great = {title: "Sulesh the Great", jsx: <><h2 id="spirit-sulesh_the_great-sulesh-the-great">Sulesh the Great</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_realms">Occult Realms pg. 11</Link><br/>A powerful genie binder from the Padishah Empire of Kelesh, Sulesh the Great created many famed genie seals, including the artifact known as the <Link to="/magic-artifact/bottle_of_the_bound">Bottle of the Bound</Link>, which houses 666 fiends.</p>
-<p><strong>Gaining Favor:</strong> To gain Sulesh's favor, you must travel to the Padishah Empire of Kelesh, or to any place where <Link to="/pclass/genie_binder">genie binders</Link> exist, and prove your knowledge about all manner of <Link to="/family/genie">genies</Link>. This requires a successful Intelligence check. You must then vow to never release a genie from its bonds, even if you did not bind it. Sulesh the Great then answers your call.</p>
-<p><strong>Taboos:</strong> If you accept a taboo while channeling Sulesh, you must not suffer the presence of a rival's summoned creatures and must target them if possible during combat, even if doing so would be disadvantageous to your allies.</p>
-<p><strong>Sulesh's Spells (Lesser, Su):</strong> Sulesh always grants <Link to="/spell/summon_monster_vi">summon monster I-VI</Link>, plus the cantrip <Link to="/spell/detect_magic">detect magic</Link>. This ability alters archmage arcana.</p>
-<p><strong>Master Summoner (Intermediate, Su):</strong> A number of times per day equal to 1/2 your medium level (minimum 1), you can cast any <em>summon monster</em> spell as a standard action instead of a full-round action. Additionally, you can allow Sulesh to gain 1 point of influence over you and expend one of your highest-level spell slots to summon a monster that can be summoned with a <em>summon monster</em> spell 1 level higher than the highest one you can cast. This ability replaces arcane surge.</p>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/archmage">Archmage</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>To gain Sulesh's favor, you must travel to the Padishah Empire of Kelesh, or to any place where <Link to="/pclass/genie_binder">genie binders</Link> exist, and prove your knowledge about all manner of <Link to="/family/genie">genies</Link>. This requires a successful Intelligence check. You must then vow to never release a genie from its bonds, even if you did not bind it. Sulesh the Great then answers your call.</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell>If you accept a <em>taboo</em> while channeling Sulesh, you must not suffer the presence of a rival's summoned creatures and must target them if possible during combat, even if doing so would be disadvantageous to your allies.</Cell></Row></Block>
+<h3 id="spirit-sulesh_the_great-lesser-spirit-power">Lesser Spirit Power</h3>
+<Ability id="suleshs-spells-su" icon={["learn"]}>
+<Pair single id="suleshs-spells-su">Sulesh's Spells (Su)</Pair>
+<Pair hl title="Alters">Archmage arcana</Pair>
+<Pair title="Ability">Sulesh always grants <Link to="/spell/summon_monster_vi">summon monster I-VI</Link>, plus the cantrip <Link to="/spell/detect_magic">detect magic</Link>.</Pair>
+</Ability>
+<h3 id="spirit-sulesh_the_great-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="master-summoner-su" icon={["magic"]}>
+<Pair single id="master-summoner-su">Master Summoner (Su)</Pair>
+<Pair hl title="Replaces">Arcane surge</Pair>
+<Pair title="Usage">1 time/day per two medium levels (minimum 1)</Pair>
+<Pair title="Ability">You can cast any <em>summon monster</em> spell as a <strong className="hl">standard action</strong> instead of a full-round action.</Pair>
+<Pair title="Ability">Additionally, you can allow Sulesh to gain 1 point of influence over you and expend one of your highest-level spell slots to summon a monster that can be summoned with a <em>summon monster</em> spell 1 level higher than the highest one you can cast.</Pair>
+</Ability>
 </>};
-const _taldaris = {title: "Taldaris", jsx: <><h2 id="spirit-taldaris-taldaris-marshal">Taldaris (Marshal)</h2>
+const _taldaris = {title: "Taldaris", jsx: <><h2 id="spirit-taldaris-taldaris">Taldaris</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_132_the_six_legend_soul">Pathfinder #132: The Six-Legend Soul pg. 71</Link><br/>Never since the days of Taldor's founding has there been any leader so capable of unification as the one who brought together the disparate city-states vying for power along the northeastern coast of the Inner Sea. Already legendary when crowned Grand Prince of Oppara, Taldaris nevertheless went on to conquer neighboring territories and found the Principalities of Taldaris, a nascent entity destined to become the greatest empire in the Inner Sea region. Those who seek to channel the spirit of Taldaris must show courage, honor, and integrity, with noble goals of leadership and unification in the face of adversity.</p>
-<p><strong>Gaining Favor:</strong> To gain the favor of Taldaris, you must be publicly recognized as the leader of an organization of 50 or more individuals and swear an oath to ensure the cohesion of that group. This requires a Charisma check; if you succeed, Taldaris answers your call.</p>
-<p><strong>Taboos:</strong> If you accept a taboo while channeling Taldaris, you must place the interests of the many above your own, and you must not take any actions that would cause you to benefit at the expense of your allies or your allies' collective goals.</p>
-<p><strong>Legion Leader (Intermediate, Su):</strong> You gain a <Link to="/main/teamwork_feat">teamwork feat</Link> of your choice for which you meet the prerequisites. All of your allies who joined in the shared seance also gain this feat as a bonus feat, even if they do not meet the prerequisites. You can choose a different feat each time you channel this spirit.</p>
-<p><strong>First Emperor's Order (Supreme, Su):</strong> You have no limit on the number of times you can use spirit surge in a round, although you can't use it more than once on any d20 roll. When the spirit of Taldaris gains influence over you for using the <em>marshal's order</em> spirit power on an ally's check, further uses of <em>marshal's order</em> before the start of that creature's next turn do not cause the spirit to gain additional influence over you.</p>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/marshal">Marshal</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>To gain the favor of Taldaris, you must be publicly recognized as the leader of an organization of 50 or more individuals and swear an oath to ensure the cohesion of that group. This requires a Charisma check; if you succeed, Taldaris answers your call.</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell>If you accept a <em>taboo</em> while channeling Taldaris, you must place the interests of the many above your own, and you must not take any actions that would cause you to benefit at the expense of your allies or your allies' collective goals.</Cell></Row></Block>
+<h3 id="spirit-taldaris-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="legion-leader-su" icon={["power"]}>
+<Pair single id="legion-leader-su">Legion Leader (Su)</Pair>
+<Pair title="Ability">You gain a <Link to="/main/teamwork_feat">teamwork feat</Link> of your choice for which you meet the prerequisites. All of your allies who joined in the <em>shared seance</em> also gain this feat as a bonus feat, even if they do not meet the prerequisites. You can choose a different feat each time you channel this spirit.</Pair>
+</Ability>
+<h3 id="spirit-taldaris-supreme-spirit-power">Supreme Spirit Power</h3>
+<Ability id="first-emperors-order-su" icon={["boost","def"]}>
+<Pair single id="first-emperors-order-su">First Emperor's Order (Su)</Pair>
+<Pair title="Ability">You have no limit on the number of times you can use <em>spirit surge</em> in a round, although you can't use it more than once on any d20 roll.</Pair>
+<Pair title="Passive Ability">When the spirit of Taldaris gains influence over you for using the <em>marshal's order</em> spirit power on an ally's check, further uses of <em>marshal's order</em> before the start of that creature's next turn do not cause the spirit to gain additional influence over you.</Pair>
+</Ability>
 </>};
-const _terminator = {title: "Terminator", jsx: <><h2 id="spirit-terminator-terminator-guardian">Terminator (Guardian)</h2>
+const _terminator = {title: "Terminator", jsx: <><h2 id="spirit-terminator-terminator">Terminator</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 59</Link><br/>The Terminator is a stoic spirit of relentless death.</p>
-<p><strong>Gaining Favor:</strong> To gain the Terminator's favor, you must engage in over 1 hour (600 combat rounds) of actual life-or-death battle in the same day, refusing to cease because of either fatigue or mercy. In addition to the battles themselves, this requires a Constitution check. If you succeed, you must swear an oath to never retreat from combat and to eschew all mercy, always killing unconscious, captured, or surrendered foes, regardless of extenuating circumstances.</p>
-<p><strong>Favored Locations:</strong> Arenas, fortifications under siege, places of violence.</p>
-<p><strong>Bloodless (Lesser, Su):</strong> You automatically <Link to="/misc/stabilize">stabilize</Link> when at negative hit points, and you are killed only if your negative hit point total exceeds double your Constitution score. In addition, you can allow the Terminator to gain 1 point of influence over you to automatically end any <Link to="/umr/bleed">bleed</Link> or <Link to="/umr/blood_drain">blood drain</Link> effect or effect with the pain descriptor. Doing so is not an action, so you can do this even if you are unconscious.</p>
-<p><strong>Emotionless Killer (Intermediate, Su):</strong> You are immune to emotion effects, including fear, but you can't benefit from morale bonuses or bardic performances.</p>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/guardian">Guardian</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>To gain the Terminator's favor, you must engage in over 1 hour (600 combat rounds) of actual life-or-death battle in the same day, refusing to cease because of either fatigue or mercy. In addition to the battles themselves, this requires a Constitution check. If you succeed, you must swear an oath to never retreat from combat and to eschew all mercy, always killing unconscious, captured, or surrendered foes, regardless of extenuating circumstances.</Cell></Row>
+<Row><Cell>Favored Locations</Cell><Cell>Arenas, fortifications under siege, places of violence.</Cell></Row></Block>
+<h3 id="spirit-terminator-lesser-spirit-power">Lesser Spirit Power</h3>
+<Ability id="bloodless-su" icon={["def"]}>
+<Pair single id="bloodless-su">Bloodless (Su)</Pair>
+<Pair title="Passive Ability">You automatically <Link to="/misc/stabilize">stabilize</Link> when at negative hit points, and you are killed only if your negative hit point total exceeds double your Constitution score.</Pair>
+<Pair title="Ability">You can allow the Terminator to gain 1 point of influence over you to automatically end any <Link to="/umr/bleed">bleed</Link> or <Link to="/umr/blood_drain">blood drain</Link> effect or effect with the pain descriptor. Doing so is not an action, so you can do this even if you are unconscious.</Pair>
+</Ability>
+<h3 id="spirit-terminator-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="emotionless-killer-su" icon={["def","down"]}>
+<Pair single id="emotionless-killer-su">Emotionless Killer (Su)</Pair>
+<Pair title="Passive Ability">You are immune to emotion effects, including fear, but you can't benefit from morale bonuses or bardic performances.</Pair>
+</Ability>
 </>};
-const _twice_damned_prince = {title: "Twice-Damned Prince", jsx: <><h2 id="spirit-twice_damned_prince-twice-damned-prince-trickster">Twice-Damned Prince (Trickster)</h2>
-<p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 52</Link><br/>Eccardian Drovenge, son of Mammon, was slain atop the Arodennama during a bid for rulership of Westcrown, in a battle that saw the collapse of the Council of Thieves. It was Aspexia's accidental communion with his spirit during a recent seance at the monument that inspired her to rebuild the <Link to="/rule/council_of_thieves">Council of Thieves</Link> in its new incarnation.</p>
-<p><strong>Gaining Favor:</strong> To gain the Prince's favor, you must climb atop the 90-foot-tall Arodennama in Westcrown. There, you must pour oil down the statue's cheeks, then set the oil afire. You must vow to seek political influence, and then succeed at a Charisma check (DC = 10 + half your medium level). Tieflings gain a +5 bonus on this check.</p>
-<p><strong>Favored Locations:</strong> Monuments, noble homes, thieves' dens, anywhere in Westcrown.</p>
-<p><strong>Taboos:</strong> Eccardian's pride demanded that his victims know whose hand they died by. If you accept a taboo while channeling the Prince, you must not attack any foe who is completely unaware of your presence.</p>
-<p><strong>Master Duelist (Greater, Su):</strong> While wielding a light or one-handed piercing weapon, you gain a +3 dodge bonus to your AC against melee attacks. Your surprise strike damage also applies to attacks against creatures you are flanking.</p>
+const _twice_damned_prince = {title: "Twice-Damned Prince", jsx: <><h2 id="spirit-twice_damned_prince-twice-damned-prince">Twice-Damned Prince</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 52</Link><br/>Eccardian Drovenge, son of <Link to="/monster/mammon">Mammon</Link>, was slain atop the Arodennama during a bid for rulership of Westcrown, in a battle that saw the collapse of the Council of Thieves. It was Aspexia's accidental communion with his spirit during a recent <em>seance</em> at the monument that inspired her to rebuild the <Link to="/rule/council_of_thieves">Council of Thieves</Link> in its new incarnation.</p>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/trickster">Trickster</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>To gain the Prince's favor, you must climb atop the 90-foot-tall Arodennama in Westcrown. There, you must pour oil down the statue's cheeks, then set the oil afire. You must vow to seek political influence, and then succeed at a Charisma check (DC = 10 + half your medium level). Tieflings gain a +5 bonus on this check.</Cell></Row>
+<Row><Cell>Favored Locations</Cell><Cell>Monuments, noble homes, thieves' dens, anywhere in Westcrown.</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell>Eccardian's pride demanded that his victims know whose hand they died by. If you accept a <em>taboo</em> while channeling the Prince, you must not attack any foe who is completely unaware of your presence.</Cell></Row></Block>
+<h3 id="spirit-twice_damned_prince-greater-spirit-power">Greater Spirit Power</h3>
+<Ability id="master-duelist-su" icon={["def","boost"]}>
+<Pair single id="master-duelist-su">Master Duelist (Su)</Pair>
+<Pair title="Passive Ability">While wielding a light or one-handed piercing weapon, you gain a +3 dodge bonus to your AC against melee attacks. Your <em>surprise strike</em> damage also applies to attacks against creatures you are <Link to="/rule/flanking">flanking</Link>.</Pair>
+</Ability>
 </>};
-const _warmonger = {title: "Warmonger", jsx: <><h2 id="spirit-warmonger-warmonger-marshal">Warmonger (Marshal)</h2>
+const _warmonger = {title: "Warmonger", jsx: <><h2 id="spirit-warmonger-warmonger">Warmonger</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 59</Link><br/>The Warmonger is a spirit of unbridled strife, inspiring others to throw their lives away in pursuit of hatred and vengeance.</p>
-<p><strong>Gaining Favor:</strong> To gain the Warmonger's favor, you must intentionally incite a war or blood feud between two groups (which could be nations but don't have to be) that results in at least 36 deaths. You must then swear an oath to never allow quarter or truce or to compromise with those who will not meet your demands, and succeed at a Charisma check.</p>
-<p><strong>Favored Locations:</strong> Barracks, battlefields, fortresses, throne rooms.</p>
-<p><strong>No Mercy (Lesser, Su):</strong> You can use spirit surge on your own attack rolls or those of allies within 30 feet who participated in your seance, as long as you have line of sight and line of effect. You can also use your spirit surge when an enemy takes an action that would provoke an attack of opportunity from you or such an ally who threatens that enemy. If you do so, you or an ally of your choice who threatens that enemy can make an attack of opportunity and add your spirit surge, and that attack of opportunity does not count against your normal limit for the round or your ally's. When you use a spirit surge on an attack roll and the attack hits, the spirit surge benefit also applies to the damage roll.</p>
-<p><strong>Warmonger's Way (Intermediate, Su):</strong> Add the following spells of spell levels you can currently cast to your list of spells known of those levels: 1st-<Link to="/spell/command">command</Link>, <Link to="/spell/murderous_command">murderous command</Link>; 2nd-<Link to="/spell/rage">rage</Link>, <Link to="/spell/tactical_acumen">tactical acumen</Link>; 3rd-<Link to="/spell/confusion">confusion</Link>, <Link to="/spell/fear">fear</Link>; 4th-<Link to="/spell/battlemind_link">battlemind link</Link>, <Link to="/spell/song_of_discord">song of discord</Link>. You can also use your spirit surge on <Link to="/rule/concentration">concentration</Link> and caster level checks when you cast these spells.</p>
-<p><strong>Inspiring Call (Greater, Su):</strong> You gain the <Link to="/spirit/marshal">marshal's</Link> intermediate spirit power of the same name, but you can activate it as a move action. This improves to a swift action if you have the <em>legendary marshal</em> legendary spirit power.</p>
-<blockquote>
-<p><em>As a move action, you can grant all allies who can see and hear you a competence bonus equal to your spirit bonus on either saving throws or attack and damage rolls. You choose which bonus to grant each time you use inspiring call. This ability lasts for 1 round. If you have the <em>legendary marshal</em> supreme spirit power, you can use inspiring call as a swift action.</em></p>
-</blockquote>
+<Block hl>
+<Row><Cell>Base Legend</Cell><Cell><Link to="/spirit/marshal">Marshal</Link></Cell></Row>
+<Row><Cell>Gaining Favor</Cell><Cell>To gain the Warmonger's favor, you must intentionally incite a war or blood feud between two groups (which could be nations but don't have to be) that results in at least 36 deaths. You must then swear an oath to never allow quarter or truce or to compromise with those who will not meet your demands, and succeed at a Charisma check.</Cell></Row>
+<Row><Cell>Favored Locations</Cell><Cell>Barracks, battlefields, fortresses, throne rooms.</Cell></Row></Block>
+<h3 id="spirit-warmonger-lesser-spirit-power">Lesser Spirit Power</h3>
+<Ability id="no-mercy-su" icon={["boost","protect"]}>
+<Pair single id="no-mercy-su">No Mercy (Su)</Pair>
+<Pair title="Ability"><p>You can use <em>spirit surge</em> on your own attack rolls or those of allies within 30 feet who participated in your <em>seance,</em> as long as you have line of sight and line of effect.</p>
+<p>You can also use your <em>spirit surge</em> when an enemy takes an action that would provoke an attack of opportunity from you or such an ally who threatens that enemy. If you do so, you or an ally of your choice who threatens that enemy can make an attack of opportunity and add your <em>spirit surge,</em> and that attack of opportunity does not count against your normal limit for the round or your ally's.</p>
+<p>When you use a <em>spirit surge</em> on an attack roll and the attack hits, the <em>spirit surge</em> benefit also applies to the damage roll.</p>
+</Pair>
+</Ability>
+<h3 id="spirit-warmonger-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="warmongers-way-su" icon={["learn","boost"]}>
+<Pair single id="warmongers-way-su">Warmonger's Way (Su)</Pair>
+<Pair title="Info">Add the following spells of spell levels you can currently cast to your list of spells known of those levels.</Pair>
+<Pair plain title="1st"><Link to="/spell/command">Command</Link>, <Link to="/spell/murderous_command">murderous command</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/rage">Rage</Link>, <Link to="/spell/tactical_acumen">tactical acumen</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/confusion">Confusion</Link>, <Link to="/spell/fear">fear</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/battlemind_link">Battlemind link</Link>, <Link to="/spell/song_of_discord">song of discord</Link></Pair>
+<Pair title="Special">You can also use your <em>spirit surge</em> on <Link to="/rule/concentration">concentration</Link> and caster level checks when you cast these spells.</Pair>
+</Ability>
+<h3 id="spirit-warmonger-greater-spirit-power">Greater Spirit Power</h3>
+<Ability id="inspiring-call-su" icon={["boost"]}>
+<Pair single id="inspiring-call-su">Inspiring Call (Su)</Pair>
+<Pair hl title="Alters">Inspiring call</Pair>
+<Pair title="Move-Equivalent Action">You can grant all allies who can see and hear you a competence bonus equal to your <em>spirit bonus</em> on either saving throws or attack and damage rolls. You choose which bonus to grant each time you use inspiring call. This ability lasts for 1 round.</Pair>
+<Pair title="Special">If you have the <em>legendary marshal</em> supreme spirit power, you can use inspiring call as a <strong className="hl">swift action</strong>.</Pair>
+</Ability>
 </>};
 const _aeon = {title: "Aeon", topLink: ["Outer Channeler Archetype","arc-medium/outer_channeler"], jsx: <><h2 id="spirit-aeon-aeon">Aeon</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 13</Link><br/>An <Link to="/family/aeon">aeon</Link> is an inscrutable force that dispassionately seeks to bring perfect balance to the multiverse.</p>
