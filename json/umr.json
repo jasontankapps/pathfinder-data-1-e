@@ -33,7 +33,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"hold breath\"}",
-			"::row[Location]{info=\"SQ\"}",
+			"::row[Location]{info=SQ}",
 			":::"
 		]
 	},
@@ -48,7 +48,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"telepathy 100 ft.\"}",
-			"::row[Location]{info=\"Languages\"}",
+			"::row[Location]{info=Languages}",
 			":::"
 		]
 	},
@@ -63,7 +63,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"sound mimicry (voices)\"}",
-			"::row[Location]{info=\"SQ\"}",
+			"::row[Location]{info=SQ}",
 			":::"
 		]
 	},
@@ -77,7 +77,7 @@
 			"The creature is malleable. It is immune to precision damage (like sneak attacks) and critical hits.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"amorphous\"}",
+			"::row[Format]{info=amorphous}",
 			"::row[Location]{info=\"Defensive Abilities\"}",
 			":::"
 		]
@@ -124,7 +124,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"darkvision 60 ft.\"}",
-			"::row[Location]{info=\"Senses\"}",
+			"::row[Location]{info=Senses}",
 			":::"
 		]
 	},
@@ -138,7 +138,7 @@
 			"When a creature with this special attack charges, it can make a full attack (including rake attacks if the creature also has the rake ability).",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"pounce\"}",
+			"::row[Format]{info=pounce}",
 			"::row[Location]{info=\"Special Attacks\"}",
 			":::"
 		]
@@ -155,7 +155,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"sand glide\"}",
-			"::row[Location]{info=\"Speed\"}",
+			"::row[Location]{info=Speed}",
 			":::"
 		]
 	},
@@ -186,7 +186,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"powerful blows (slam)\"}",
-			"::row[Location]{info=\"SQ\"}",
+			"::row[Location]{info=SQ}",
 			":::"
 		]
 	},
@@ -246,7 +246,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"undead traits\"}",
-			"::row[Location]{info=\"Immune\"}",
+			"::row[Location]{info=Immune}",
 			":::"
 		]
 	},
@@ -260,8 +260,8 @@
 			"Creatures with this special quality have the ‹subtype/aquatic› subtype, but they can survive indefinitely on land.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"amphibious\"}",
-			"::row[Location]{info=\"SQ\"}",
+			"::row[Format]{info=amphibious}",
+			"::row[Location]{info=SQ}",
 			":::"
 		]
 	},
@@ -276,7 +276,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"sunlight powerlessness\"}",
-			"::row[Location]{info=\"Weaknesses\"}",
+			"::row[Location]{info=Weaknesses}",
 			":::"
 		]
 	},
@@ -307,7 +307,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"x-ray vision\"}",
-			"::row[Location]{info=\"Senses\"}",
+			"::row[Location]{info=Senses}",
 			":::"
 		]
 	},
@@ -322,7 +322,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"earth glide\"}",
-			"::row[Location]{info=\"Speed\"}",
+			"::row[Location]{info=Speed}",
 			":::"
 		]
 	},
@@ -353,7 +353,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"light sensitivity\"}",
-			"::row[Location]{info=\"Weaknesses\"}",
+			"::row[Location]{info=Weaknesses}",
 			":::"
 		]
 	},
@@ -368,7 +368,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"blindsense 60 ft.\"}",
-			"::row[Location]{info=\"Senses\"}",
+			"::row[Location]{info=Senses}",
 			":::"
 		]
 	},
@@ -445,7 +445,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"21\"}",
-			"::row[Location]{info=\"Init\"}",
+			"::row[Location]{info=Init}",
 			":::"
 		]
 	},
@@ -496,7 +496,7 @@
 			"Creatures with the grab special attack receive a +4 bonus on combat maneuver checks to start and maintain a grapple.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"grab\"}",
+			"::row[Format]{info=grab}",
 			"::row[Location]{info=\"individual attacks\"}",
 			":::"
 		]
@@ -512,8 +512,8 @@
 			"All plants within a 1-mile radius of the creature grow at double their normal rate and don't suffer from any diseases or maladies. Allied plant creatures within 30 feet of the creature gain fast healing equal to the creature's mythic rank. If the creature uses ‹spell/plant shape<_1› or wild shape to take the form of a plant, it gains this fast healing in plant form.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"plantbringer\"}",
-			"::row[Location]{info=\"SQ\"}",
+			"::row[Format]{info=plantbringer}",
+			"::row[Location]{info=SQ}",
 			":::"
 		]
 	},
@@ -543,7 +543,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"construct traits\"}",
-			"::row[Location]{info=\"Immune\"}",
+			"::row[Location]{info=Immune}",
 			":::"
 		]
 	},
@@ -682,7 +682,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"frightful presence (60 ft., DC 21)\"}",
-			"::row[Location]{info=\"Aura\"}",
+			"::row[Location]{info=Aura}",
 			":::"
 		]
 	},
@@ -712,7 +712,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"light blindness\"}",
-			"::row[Location]{info=\"Weaknesses\"}",
+			"::row[Location]{info=Weaknesses}",
 			":::"
 		]
 	},
@@ -796,7 +796,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"blindsight 60 ft.\"}",
-			"::row[Location]{info=\"Senses\"}",
+			"::row[Location]{info=Senses}",
 			":::"
 		]
 	},
@@ -811,7 +811,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"vulnerable to fire\"}",
-			"::row[Location]{info=\"Weaknesses\"}",
+			"::row[Location]{info=Weaknesses}",
 			":::"
 		]
 	},
@@ -827,7 +827,7 @@
 			"An opponent grappled by the creature cannot speak or cast spells with verbal components.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"strangle\"}",
+			"::row[Format]{info=strangle}",
 			"::row[Location]{info=\"Special Attacks\"}",
 			":::"
 		]
@@ -843,7 +843,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"low-light vision\"}",
-			"::row[Location]{info=\"Senses\"}",
+			"::row[Location]{info=Senses}",
 			":::"
 		]
 	},
@@ -919,8 +919,8 @@
 			"A creature with the scent ability can follow tracks by smell, attempting a Wisdom or Survival check to find or follow a track. The typical DC for a fresh trail is 10 (no matter what kind of surface holds the scent). This DC increases or decreases depending on how strong the quarry's odor is, the number of creatures, and the age of the trail. For each hour that the trail is cold, the DC increases by 2. Creatures tracking by scent ignore the effects of surface conditions and poor visibility. The ability otherwise follows the rules for the Survival skill.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"scent\"}",
-			"::row[Location]{info=\"Senses\"}",
+			"::row[Format]{info=scent}",
+			"::row[Location]{info=Senses}",
 			":::"
 		]
 	},
@@ -935,7 +935,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"see in darkness\"}",
-			"::row[Location]{info=\"Senses\"}",
+			"::row[Location]{info=Senses}",
 			":::"
 		]
 	},
@@ -950,7 +950,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"lycanthropic empathy (bears and dire bears)\"}",
-			"::row[Location]{info=\"SQ\"}",
+			"::row[Location]{info=SQ}",
 			":::"
 		]
 	},
@@ -979,8 +979,8 @@
 			"The creature can move through an area as small as one-quarter its space without ‹misc/squeezing›, or one-eighth its space when squeezing.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"compression\"}",
-			"::row[Location]{info=\"SQ\"}",
+			"::row[Format]{info=compression}",
+			"::row[Location]{info=SQ}",
 			":::"
 		]
 	},
@@ -995,7 +995,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"emotion (DC 17)\"}",
-			"::row[Location]{info=\"Aura\"}",
+			"::row[Location]{info=Aura}",
 			":::"
 		]
 	},
@@ -1010,7 +1010,7 @@
 			"The creature can expend one use of mythic power as a free action to immediately end any one of the following conditions currently affecting it: bleed, blind, confused, cowering, dazed, dazzled, deafened, entangled, exhausted, fascinated, fatigued, frightened, nauseated, panicked, paralyzed, shaken, sickened, staggered, or stunned. All other conditions and effects remain, even those resulting from the same spell or effect that caused the selected condition. It can use this ability at the start of its turn even if a condition would prevent it from acting.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"unstoppable\"}",
+			"::row[Format]{info=unstoppable}",
 			"::row[Location]{info=\"Defensive Abilities\"}",
 			":::"
 		]
@@ -1026,7 +1026,7 @@
 			"The creature can attempt a ‹rule/steal« combat maneuver check› against its opponent as a free action without provoking attacks of opportunity if it hits with the specified attack.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"steal\"}",
+			"::row[Format]{info=steal}",
 			"::row[Location]{info=\"individual attacks\"}",
 			":::"
 		]
@@ -1041,7 +1041,7 @@
 			"A creature with this special quality can attempt to capsize a boat or a ship by ramming it as a charge attack and attempting a combat maneuver check. The DC of this check is 25 or the result of the captain's Profession (sailor) check, whichever is higher. For each size category the ship is larger than the creature attempting to capsize it, the creature attempting to capsize the ship takes a cumulative -10 penalty on its combat maneuver check.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"capsize\"}",
+			"::row[Format]{info=capsize}",
 			"::row[Location]{info=\"Special Attacks\"}",
 			":::"
 		]
@@ -1057,7 +1057,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"plant traits\"}",
-			"::row[Location]{info=\"Immune\"}",
+			"::row[Location]{info=Immune}",
 			":::"
 		]
 	},
@@ -1106,7 +1106,7 @@
 			"An incorporeal creature moves silently and cannot be heard with Perception checks if it doesn't wish to be. It has no Strength score, so its Dexterity modifier applies to its melee attacks, ranged attacks, and CMB. Nonvisual senses, such as blindsight and scent, are either ineffective or only partly effective with regard to incorporeal creatures. Incorporeal creatures have an innate sense of direction and can move at full speed even when they cannot see.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"incorporeal\"}",
+			"::row[Format]{info=incorporeal}",
 			"::row[Location]{info=\"Defensive Abilities\"}",
 			":::"
 		]
@@ -1230,7 +1230,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"jet (200 ft.)\"}",
-			"::row[Location]{info=\"Speed\"}",
+			"::row[Location]{info=Speed}",
 			":::"
 		]
 	},
@@ -1245,7 +1245,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"thoughtsense 60 ft.\"}",
-			"::row[Location]{info=\"Senses\"}",
+			"::row[Location]{info=Senses}",
 			":::"
 		]
 	},
@@ -1311,7 +1311,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"water dependency\"}",
-			"::row[Location]{info=\"SQ\"}",
+			"::row[Location]{info=SQ}",
 			":::"
 		]
 	},
@@ -1342,7 +1342,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"ooze traits\"}",
-			"::row[Location]{info=\"Immune\"}",
+			"::row[Location]{info=Immune}",
 			":::"
 		]
 	},
@@ -1407,8 +1407,8 @@
 			"The creature can hold itself so still it appears to be an inanimate object of the appropriate shape (a statue, a patch of fungus, or the like). The creature can take 20 on Stealth checks to hide in plain sight as this kind of inanimate object.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"freeze\"}",
-			"::row[Location]{info=\"SQ\"}",
+			"::row[Format]{info=freeze}",
+			"::row[Location]{info=SQ}",
 			":::"
 		]
 	},
@@ -1439,7 +1439,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"dragon cantrips\"}",
-			"::row[Location]{info=\"SQ\"}",
+			"::row[Location]{info=SQ}",
 			":::"
 		]
 	},
@@ -1484,7 +1484,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"greensight 60 ft.\"}",
-			"::row[Location]{info=\"Senses\"}",
+			"::row[Location]{info=Senses}",
 			":::"
 		]
 	},
@@ -1499,7 +1499,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"water breathing\"}",
-			"::row[Location]{info=\"SQ\"}",
+			"::row[Location]{info=SQ}",
 			":::"
 		]
 	},
@@ -1530,7 +1530,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"tremorsense 60 ft.\"}",
-			"::row[Location]{info=\"Senses\"}",
+			"::row[Location]{info=Senses}",
 			":::"
 		]
 	},
@@ -1549,7 +1549,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"regeneration 5 (acid, fire)\"}",
-			"::row[Location]{info=\"hp\"}",
+			"::row[Location]{info=hp}",
 			":::"
 		]
 	},
@@ -1579,7 +1579,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"keen scent\"}",
-			"::row[Location]{info=\"Senses\"}",
+			"::row[Location]{info=Senses}",
 			":::"
 		]
 	},
@@ -1594,7 +1594,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"unnatural aura (30 ft.)\"}",
-			"::row[Location]{info=\"Aura\"}",
+			"::row[Location]{info=Aura}",
 			":::"
 		]
 	},
@@ -1608,8 +1608,8 @@
 			"The creature notices and locates living creatures within 60 feet, as if it had ‹umr/blindsight›.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"lifesense\"}",
-			"::row[Location]{info=\"Senses\"}",
+			"::row[Format]{info=lifesense}",
+			"::row[Location]{info=Senses}",
 			":::"
 		]
 	},
@@ -1648,8 +1648,8 @@
 			"The creature is restored to full hit points after 8 hours of rest so long as it isn't dead. In addition, by expending one use of mythic power and resting for 1 hour, it regains a number of hit points equal to half its full hit points (up to a maximum of its full hit points) and regain the use of any class features that are limited to a certain number of uses per day (such as barbarian rage, bardic performance, spells per day, and so on). This rest is treated as 8 hours of sleep for such abilities. This rest doesn't refresh uses of mythic power or any mythic abilities that are limited to a number of times per day.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"recuperation\"}",
-			"::row[Location]{info=\"SQ\"}",
+			"::row[Format]{info=recuperation}",
+			"::row[Location]{info=SQ}",
 			":::"
 		]
 	},
@@ -1696,7 +1696,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"mythic immortality\"}",
-			"::row[Location]{info=\"SQ\"}",
+			"::row[Location]{info=SQ}",
 			":::"
 		]
 	},
@@ -1714,7 +1714,7 @@
 			"If the monster has another ability (such as ‹umr/constrict›) that harms the opponent when it succeeds at a grapple check, it can automatically use the smother ability when it succeeds at the grapple check to use the other ability.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"smother\"}",
+			"::row[Format]{info=smother}",
 			"::row[Location]{info=\"Special Attacks\"}",
 			":::"
 		]
@@ -1758,7 +1758,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"fast healing 5\"}",
-			"::row[Location]{info=\"hp\"}",
+			"::row[Location]{info=hp}",
 			":::"
 		]
 	},
@@ -1789,7 +1789,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"display of strength\"}",
-			"::row[Location]{info=\"SQ\"}",
+			"::row[Location]{info=SQ}",
 			":::"
 		]
 	},
@@ -1836,7 +1836,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"no breath\"}",
-			"::row[Location]{info=\"SQ\"}",
+			"::row[Location]{info=SQ}",
 			":::"
 		]
 	},
@@ -1850,8 +1850,8 @@
 			"The monster can see through fog, mist, murky water, and smoke as if they were perfectly clear, ignoring the miss chance for these obstructions, up to its normal range of vision.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"mistsight\"}",
-			"::row[Location]{info=\"Senses\"}",
+			"::row[Format]{info=mistsight}",
+			"::row[Location]{info=Senses}",
 			":::"
 		]
 	},
@@ -1865,7 +1865,7 @@
 			"The creature remains conscious and can continue fighting even if its hit point total is below 0. The creature is still staggered and loses 1 hit point each round. A creature with ferocity still dies when its hit point total reaches a negative amount equal to its Constitution score.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"ferocity\"}",
+			"::row[Format]{info=ferocity}",
 			"::row[Location]{info=\"Defensive Abilities\"}",
 			":::"
 		]
@@ -1896,7 +1896,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"mental static (DC 18)\"}",
-			"::row[Location]{info=\"Aura\"}",
+			"::row[Location]{info=Aura}",
 			":::"
 		]
 	},
@@ -1963,7 +1963,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"daemonic harbinger traits\"}",
-			"::row[Location]{info=\"SQ\"}",
+			"::row[Location]{info=SQ}",
 			":::"
 		]
 	},
@@ -2032,7 +2032,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"stench (DC 15, 10 rounds)\"}",
-			"::row[Location]{info=\"Aura\"}",
+			"::row[Location]{info=Aura}",
 			":::"
 		]
 	},
@@ -2062,7 +2062,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"fly 30 ft. (average)\"}",
-			"::row[Location]{info=\"Speed\"}",
+			"::row[Location]{info=Speed}",
 			":::"
 		]
 	},
@@ -2126,7 +2126,7 @@
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=\"undersized weapons\"}",
-			"::row[Location]{info=\"SQ\"}",
+			"::row[Location]{info=SQ}",
 			":::"
 		]
 	},
@@ -2148,7 +2148,7 @@
 			"Gaze attacks can affect ethereal opponents. A creature is immune to gaze attacks of others of its kind unless otherwise noted. Allies with a gaze attack might be affected. The creature's allies are considered to be averting their eyes from the creature with the gaze attack, and have a 50% chance to not need to attempt a saving throw against the gaze attack each round. The creature can also veil its eyes, thus negating its gaze ability.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"gaze\"}",
+			"::row[Format]{info=gaze}",
 			"::row[Location]{info=\"Special Attacks\"}",
 			":::"
 		]
@@ -2163,7 +2163,7 @@
 			"The creature latches on when it hits with the listed attack. The creature is grappled, but the target is not. The target can attack or grapple the creature as normal, or it can break the attachment with a successful grapple or Escape Artist check.",
 			"",
 			":::block{size=simple hl}",
-			"::row[Format]{info=\"attach\"}",
+			"::row[Format]{info=attach}",
 			"::row[Location]{info=\"individual attacks\"}",
 			":::"
 		]

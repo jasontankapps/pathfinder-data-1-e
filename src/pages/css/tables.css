@@ -195,12 +195,12 @@ div.table > .tr > .td > a,
 table tr td a {
 	text-decoration: none;
 }
-div.table > .tr > .td p,
-table tr p {
+div.table > .tr > .td :is(p,ol,ul),
+table tr :is(p,ol,ul) {
 	margin-block: 0;
 }
-div.table > .tr > .td p + p,
-table tr p + p {
+div.table > .tr > .td :is(p,ol,ul) + :is(p,ol,ul),
+table tr :is(p,ol,ul) + :is(p,ol,ul) {
 	margin-block: 0.5rem;
 }
 div.table > .tr > .td :is(p,ol,ul):last-child,

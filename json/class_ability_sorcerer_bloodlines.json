@@ -2030,7 +2030,7 @@
 			"",
 			"The stink of poison taints your magic.",
 			"",
-			"::ab[Envenom (Su)]{l=3 icon=boost swift=\"You can lick or bite a melee weapon to imbue it with 1 dose of ‹eq-poison/black adder venom›. The poison's DC is equal to 10 + half your sorcerer level + your Charisma modifier.\" useInc=sorcerer~3 useF=\"3~1~3\" special=\"The poison cannot be removed or stored, and the weapon loses the benefit of the poison after the first successful attack or 1 hour has passed.\" replace=\"Serpentfriend\"}"
+			"::ab[Envenom (Su)]{l=3 icon=boost swift=\"You can lick or bite a melee weapon to imbue it with 1 dose of ‹eq-poison/black adder venom›. The poison's DC is equal to 10 + half your sorcerer level + your Charisma modifier.\" useInc=sorcerer~3 useF=\"3~1~3\" special=\"The poison cannot be removed or stored, and the weapon loses the benefit of the poison after the first successful attack or 1 hour has passed.\" replace=Serpentfriend}"
 		]
 	},
 	"shadow": {
