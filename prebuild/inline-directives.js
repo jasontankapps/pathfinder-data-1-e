@@ -37,9 +37,35 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 					}
 					// hll - highlighted link
 					const id = maybeJL(attrs, text);
-					return `<strong className="hl"${id ? ` id="${id}" data-hash-target` : ""}><Link to="/${link}">${makeNewMarkedInstance().parseInline(text)}</Link></strong>`
+					return (
+						`<strong className="hl"${
+							id ? ` id="${id}" data-hash-target` : ""
+						}><Link to="/${link}">${
+							makeNewMarkedInstance().parseInline(text)
+						}</Link></strong>`
+					);
 				}
 				logError(`Bad @${tag} => [${text}]`);
+				tag = "b";
+			} else if (tag.startsWith("HLL")) {
+				// Highlight
+				const txt = tag.slice(3);
+				const m = txt.match(/^(.+?)__(.+)$/);
+				let level = 1;
+				if(m) {
+					level++;
+					const [,protocol,property] = m;
+					const mm = checkForEncodedLink(`${protocol}/${property.replaceAll("_", " ")}`, { bare: true });
+					if(mm) {
+						const {link, text} = mm;
+						return (
+							`<strong className="hl"><Link to="/${link}">${
+								makeNewMarkedInstance().parseInline(text)
+							}</Link></strong>`
+						);
+					}
+				}
+				console.log("ERROR using @HLLtext format. [", txt, "] Level", level);
 				tag = "b";
 			} else if (tag === "hl" || tag === "HL") {
 				// Highlight
@@ -49,13 +75,13 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 			} else if (tag.startsWith("HL")) {
 				// Highlight
 				const marked2 = makeNewMarkedInstance();
-				const txt = tag.slice(2).replace(/_/g, " ");
+				const txt = tag.slice(2).replaceAll("_", " ");
 				return `<strong className="hl">${marked2.parseInline(txt)}</strong>`;
 			} else if (tag.startsWith("LINK")) {
 				// Inner link
 				const marked2 = makeNewMarkedInstance();
 				const base = tag.slice(4);
-				const txt = base.replace(/_/g, " ");
+				const txt = base.replaceAll("_", " ");
 				const id = prefix + (attrs.id || base.toLowerCase().replace(/_+/g, "-").replace(/[^-a-z0-9]/g, ""));
 				flags.innerlink = true;
 				return `<InnerLink toTop to="${id}">${marked2.parseInline(txt)}</InnerLink>`;
