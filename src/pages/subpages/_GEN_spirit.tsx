@@ -785,102 +785,315 @@ const _warmonger = {title: "Warmonger", jsx: <><h2 id="spirit-warmonger-warmonge
 </>};
 const _aeon = {title: "Aeon", topLink: ["Outer Channeler Archetype","arc-medium/outer_channeler"], jsx: <><h2 id="spirit-aeon-aeon">Aeon</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 13</Link><br/>An <Link to="/family/aeon">aeon</Link> is an inscrutable force that dispassionately seeks to bring perfect balance to the multiverse.</p>
-<p><strong>Alignment:</strong> Neutral.<br/><strong>Spirits:</strong> <Link to="/monster/akhana">Akhana</Link> (<Link to="/spirit/guardian">guardian</Link>), <Link to="/monster/bythos">bythos</Link> (<Link to="/spirit/archmage">archmage</Link>), <Link to="/monster/lipika">lipika</Link> (<Link to="/spirit/hierophant">hierophant</Link>), <Link to="/monster/paracletus">paracletus</Link> (<Link to="/spirit/marshal">marshal</Link>), and <Link to="/monster/pleroma">pleroma</Link> (<Link to="/spirit/champion">champion</Link>), <Link to="/monster/theletos">theletos</Link> (<Link to="/spirit/trickster">trickster</Link>).<br/><strong>Taboos:</strong> Choose one of the following:</p>
-<ul>
-<li>You must not be the willing target of a spell or ability that grants a morale bonus</li>
-<li>You must not consciously lie or attempt to deceive</li>
-<li>You must not purposefully end the life or stop the bleeding (through skill or magic) of a dying creature</li>
+<Block hl>
+<Row><Cell>Alignment</Cell><Cell>Neutral</Cell></Row>
+<Row><Cell>Spirits</Cell><Cell><ul>
+<li><strong className="hl"><Link to="/spirit/archmage">Archmage</Link></strong>: <Link to="/monster/bythos">Bythos</Link></li>
+<li><strong className="hl"><Link to="/spirit/champion">Champion</Link></strong>: <Link to="/monster/pleroma">Pleroma</Link></li>
+<li><strong className="hl"><Link to="/spirit/guardian">Guardian</Link></strong>: <Link to="/monster/akhana">Akhana</Link></li>
+<li><strong className="hl"><Link to="/spirit/hierophant">Hierophant</Link></strong>: <Link to="/monster/lipika">Lipika</Link></li>
+<li><strong className="hl"><Link to="/spirit/marshal">Marshal</Link></strong>: <Link to="/monster/paracletus">Paracletus</Link></li>
+<li><strong className="hl"><Link to="/spirit/trickster">Trickster</Link></strong>: <Link to="/monster/theletos">Theletos</Link></li>
 </ul>
-<p><strong>Void Form (Intermediate, Su):</strong> You gain a +2 deflection bonus to your AC. In addition, there is a 50% chance that a confirmed critical hit against you is negated, and the damage is rolled normally; this chance doesn't stack with any provided by similar abilities, such as from a suit of armor with the light, medium, or heavy <Link to="/magic-enh/fortification">fortification</Link> special ability.</p>
-<p><strong>Telepathy (Gift, Su):</strong> You can mentally communicate with any other creature within 100 feet that has a language. It is possible to telepathically address multiple creatures at once, although maintaining a telepathic conversation with more than one creature at a time is just as difficult as simultaneously speaking and listening to multiple people at the same time.</p>
+</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell><p>Choose one of the following:</p>
+<ul>
+<li>You must not be the willing target of a spell or ability that grants a morale bonus.</li>
+<li>You must not consciously lie or attempt to deceive.</li>
+<li>You must not purposefully end the life or stop the bleeding (through skill or magic) of a dying creature.</li>
+</ul>
+</Cell></Row></Block>
+<h3 id="spirit-aeon-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="void-form-su" icon={["def"]}>
+<Pair single id="void-form-su">Void Form (Su)</Pair>
+<Pair title="Passive Ability">You gain a +2 deflection bonus to your AC. In addition, there is a 50% chance that a confirmed critical hit against you is negated, and the damage is rolled normally; this chance doesn't stack with any provided by similar abilities, such as from a suit of armor with the light, medium, or heavy <Link to="/magic-enh/fortification">fortification</Link> special ability.</Pair>
+</Ability>
+<h3 id="spirit-aeon-gift">Gift</h3>
+<Ability id="telepathy-su" icon={["power"]}>
+<Pair single id="telepathy-su">Telepathy (Su)</Pair>
+<Pair title="Ability">You can mentally communicate with any other creature within 100 feet that has a language. It is possible to telepathically address multiple creatures at once, although maintaining a telepathic conversation with more than one creature at a time is just as difficult as simultaneously speaking and listening to multiple people at the same time.</Pair>
+</Ability>
 </>};
 const _agathion = {title: "Agathion", topLink: ["Outer Channeler Archetype","arc-medium/outer_channeler"], jsx: <><h2 id="spirit-agathion-agathion">Agathion</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 13</Link><br/>An <Link to="/family/agathion">agathion</Link> is an animal-like spirit from Nirvana, a defender of innocence and a champion of good.</p>
-<p><strong>Alignment:</strong> Neutral good.<br/><strong>Spirits:</strong> <Link to="/monster/avoral">Avoral</Link> (<Link to="/spirit/guardian">guardian</Link>), <Link to="/monster/bishop_agathion">bishop agathion</Link> (<Link to="/spirit/hierophant">hierophant</Link>), <Link to="/monster/cervinal">cervinal</Link> (<Link to="/spirit/marshal">marshal</Link>), <Link to="/monster/leonal">leonal</Link> (<Link to="/spirit/champion">champion</Link>), <Link to="/monster/reptial">reptial</Link> (<Link to="/spirit/archmage">archmage</Link>), and <Link to="/monster/vulpinal">vulpinal</Link> (<Link to="/spirit/trickster">trickster</Link>).<br/><strong>Taboos:</strong> Choose one of the following:</p>
-<ul>
-<li>You must act aggressively to best (though not necessarily slay) evil foes</li>
-<li>You must provide whatever service you can to promote good in the world and help the innocent, as long as such actions do not impair or prevent you from doing good in the future</li>
-<li>You must offer your full protection and support to nonevil innocents who are in need of your service</li>
+<Block hl>
+<Row><Cell>Alignment</Cell><Cell>Neutral</Cell></Row>
+<Row><Cell>Spirits</Cell><Cell><ul>
+<li><strong className="hl"><Link to="/spirit/archmage">Archmage</Link></strong>: <Link to="/monster/reptial">Reptial</Link></li>
+<li><strong className="hl"><Link to="/spirit/champion">Champion</Link></strong>: <Link to="/monster/leonal">Leonal</Link></li>
+<li><strong className="hl"><Link to="/spirit/guardian">Guardian</Link></strong>: <Link to="/monster/avoral">Avoral</Link></li>
+<li><strong className="hl"><Link to="/spirit/hierophant">Hierophant</Link></strong>: <Link to="/monster/bishop_agathion">Bishop agathion</Link></li>
+<li><strong className="hl"><Link to="/spirit/marshal">Marshal</Link></strong>: <Link to="/monster/cervinal">Cervinal</Link></li>
+<li><strong className="hl"><Link to="/spirit/trickster">Trickster</Link></strong>: <Link to="/monster/vulpinal">Vulpinal</Link></li>
 </ul>
-<p><strong>Lay on Hands (Intermediate, Su):</strong> You gain the <Link to="/ability/lay_on_hands">lay on hands</Link> class feature, using your medium level as your effective paladin level.</p>
-<p><strong>Voice of Nirvana (Gift, Su):</strong> You can speak to beasts and men alike as a standard action, gaining the benefits of <Link to="/spell/speak_with_animals">speak with animals</Link> and <Link to="/spell/tongues">tongues</Link> simultaneously. You can use this ability for up to 10 minutes per day per medium level. These minutes don't need to be consecutive, but must be used in 1-minute increments.</p>
+</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell><p>Choose one of the following:</p>
+<ul>
+<li>You must act aggressively to best (though not necessarily slay) evil foes.</li>
+<li>You must provide whatever service you can to promote good in the world and help the innocent, as long as such actions do not impair or prevent you from doing good in the future.</li>
+<li>You must offer your full protection and support to nonevil innocents who are in need of your service.</li>
+</ul>
+</Cell></Row></Block>
+<h3 id="spirit-agathion-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="lay-on-hands-su" icon={["power"]}>
+<Pair single id="lay-on-hands-su">Lay on Hands (Su)</Pair>
+<Pair title="Ability">You gain the <Link to="/ability/lay_on_hands">lay on hands</Link> class feature, using your medium level as your effective paladin level.</Pair>
+</Ability>
+<h3 id="spirit-agathion-gift">Gift</h3>
+<Ability id="voice-of-nirvana-su" icon={["magic"]}>
+<Pair single id="voice-of-nirvana-su">Voice of Nirvana (Su)</Pair>
+<Pair title="Usage">10 minutes/day per medium level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Standard Action">You can speak to beasts and men alike, gaining the benefits of <Link to="/spell/speak_with_animals">speak with animals</Link> and <Link to="/spell/tongues">tongues</Link> simultaneously.</Pair>
+</Ability>
 </>};
 const _angel = {title: "Angel", topLink: ["Outer Channeler Archetype","arc-medium/outer_channeler"], jsx: <><h2 id="spirit-angel-angel">Angel</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 13</Link><br/>An <Link to="/family/angel">angel</Link> is a servant of the good-aligned planes, a voice of unity and cooperation among celestial beings.</p>
-<p><strong>Alignment:</strong> Any good.<br/><strong>Spirits:</strong> <Link to="/monster/astral_deva">Astral deva</Link> (<Link to="/spirit/trickster">trickster</Link>), <Link to="/monster/balisse">balisse</Link> (<Link to="/spirit/hierophant">hierophant</Link>), <Link to="/monster/empyrean">empyrean</Link> (<Link to="/spirit/archmage">archmage</Link>), <Link to="/monster/movanic_deva">movanic deva</Link> (<Link to="/spirit/champion">champion</Link>), <Link to="/monster/planetar">planetar</Link> (<Link to="/spirit/marshal">marshal</Link>), and <Link to="/monster/solar">solar</Link> (<Link to="/spirit/guardian">guardian</Link>).<br/><strong>Taboos:</strong> Choose one of the following:</p>
-<ul>
-<li>You must not ignore an opportunity to destroy or hinder an evil creature or organization unless doing so would put innocents in harm's way</li>
-<li>You must always offer your foes a chance to peacefully surrender to you, and you must accept and honor any such terms that your foes agree to</li>
-<li>You must offer whatever support and assistance you can spare to any creature that asks such service from you, provided your actions do not further the cause of evil</li>
+<Block hl>
+<Row><Cell>Alignment</Cell><Cell>Neutral</Cell></Row>
+<Row><Cell>Spirits</Cell><Cell><ul>
+<li><strong className="hl"><Link to="/spirit/archmage">Archmage</Link></strong>: <Link to="/monster/empyrean">Empyrean</Link></li>
+<li><strong className="hl"><Link to="/spirit/champion">Champion</Link></strong>: <Link to="/monster/movanic_deva">Movanic deva</Link></li>
+<li><strong className="hl"><Link to="/spirit/guardian">Guardian</Link></strong>: <Link to="/monster/solar">Solar</Link></li>
+<li><strong className="hl"><Link to="/spirit/hierophant">Hierophant</Link></strong>: <Link to="/monster/balisse">Balisse</Link></li>
+<li><strong className="hl"><Link to="/spirit/marshal">Marshal</Link></strong>: <Link to="/monster/planetar">Planetar</Link></li>
+<li><strong className="hl"><Link to="/spirit/trickster">Trickster</Link></strong>: <Link to="/monster/astral_deva">Astral deva</Link></li>
 </ul>
-<p><strong>Protective Aura (Intermediate, Su):</strong> You gain a +4 deflection bonus to your AC and a +4 resistance bonus on saving throws against attacks made by or effects created by evil creatures. In addition, you are protected from effects created by evil creatures that possess you or exert mental control over you, as per <Link to="/spell/protection_from_evil">protection from evil</Link>.</p>
-<p>As a standard action, you can project this benefit to allies within 10 feet as an aura. You may use this ability for a number of rounds per day equal to your medium level. These rounds don't need to be consecutive.</p>
-<p><strong>Truespeech (Gift, Su):</strong> You gain <Link to="/spell/tongues">tongues</Link> as a constant spell-like ability, with a caster level equal to your medium level.</p>
+</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell><p>Choose one of the following:</p>
+<ul>
+<li>You must not ignore an opportunity to destroy or hinder an evil creature or organization unless doing so would put innocents in harm's way.</li>
+<li>You must always offer your foes a chance to peacefully surrender to you, and you must accept and honor any such terms that your foes agree to.</li>
+<li>You must offer whatever support and assistance you can spare to any creature that asks such service from you, provided your actions do not further the cause of evil.</li>
+</ul>
+</Cell></Row></Block>
+<h3 id="spirit-angel-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="protective-aura-su" icon={["def","protect","aura"]}>
+<Pair single id="protective-aura-su">Protective Aura (Su)</Pair>
+<Pair title="Passive Ability">You gain a +4 deflection bonus to your AC and a +4 resistance bonus on saving throws against attacks made by or effects created by evil creatures. In addition, you are protected from effects created by evil creatures that possess you or exert mental control over you, as per <Link to="/spell/protection_from_evil">protection from evil</Link>.</Pair>
+<Pair title="Standard Action">You can project this benefit to allies within 10 feet as an aura.</Pair>
+<Pair title="Usage">1 round/day per medium level; these rounds need not be consecutive</Pair>
+</Ability>
+<h3 id="spirit-angel-gift">Gift</h3>
+<Ability id="truespeech-su" icon={["magic"]}>
+<Pair single id="truespeech-su">Truespeech (Su)</Pair>
+<Pair title="Ability">You gain <Link to="/spell/tongues">tongues</Link> as a constant spell-like ability, with a caster level equal to your medium level.</Pair>
+</Ability>
 </>};
 const _archon = {title: "Archon", topLink: ["Outer Channeler Archetype","arc-medium/outer_channeler"], jsx: <><h2 id="spirit-archon-archon">Archon</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 13</Link><br/>An <Link to="/family/archon">archon</Link> is a celestial defender of Heaven, righteousness and justice personified.</p>
-<p><strong>Alignment:</strong> Lawful good.<br/><strong>Spirits:</strong> <Link to="/monster/codex_archon">Codex archon</Link> (<Link to="/spirit/archmage">archmage</Link>), <Link to="/monster/hound_archon">hound archon</Link> (<Link to="/spirit/champion">champion</Link>), <Link to="/monster/shield_archon">shield archon</Link> (<Link to="/spirit/guardian">guardian</Link>), <Link to="/monster/spyglass_archon">spyglass archon</Link> (<Link to="/spirit/trickster">trickster</Link>), <Link to="/monster/star_archon">star archon</Link> (<Link to="/spirit/hierophant">hierophant</Link>), and <Link to="/monster/trumpet_archon">trumpet archon</Link> (<Link to="/spirit/marshal">marshal</Link>).<br/><strong>Taboos:</strong> Choose one of the following:</p>
-<ul>
-<li>You must promote and uphold the tenants of law and good, and may never willingly break a law that is fair and just</li>
-<li>You must act with honor and integrity at all times</li>
-<li>You must eschew all vices and sinful temptations or desires</li>
+<Block hl>
+<Row><Cell>Alignment</Cell><Cell>Neutral</Cell></Row>
+<Row><Cell>Spirits</Cell><Cell><ul>
+<li><strong className="hl"><Link to="/spirit/archmage">Archmage</Link></strong>: <Link to="/monster/codex_archon">Codex archon</Link></li>
+<li><strong className="hl"><Link to="/spirit/champion">Champion</Link></strong>: <Link to="/monster/hound_archon">Hound archon</Link></li>
+<li><strong className="hl"><Link to="/spirit/guardian">Guardian</Link></strong>: <Link to="/monster/shield_archon">Shield archon</Link></li>
+<li><strong className="hl"><Link to="/spirit/hierophant">Hierophant</Link></strong>: <Link to="/monster/star_archon">Star archon</Link></li>
+<li><strong className="hl"><Link to="/spirit/marshal">Marshal</Link></strong>: <Link to="/monster/trumpet_archon">Trumpet archon</Link></li>
+<li><strong className="hl"><Link to="/spirit/trickster">Trickster</Link></strong>: <Link to="/monster/spyglass_archon">Spyglass archon</Link></li>
 </ul>
-<p><strong>Aura of Menace (Intermediate, Su):</strong> As a swift action, you activate a righteous aura that embodies your outsider's fury. Hostile creatures within a 20-foot radius of you must succeed at a Will save (DC = 10 + half your medium level + your Charisma modifier) or take a -2 penalty on attack rolls, on saving throws, and to AC. This penalty lasts for 1 minute, or until you become frightened, panicked, paralyzed, stunned, unconscious, or otherwise prevented from participating in the current encounter. Whether or not a creature fails its save, it can't be affected by your aura again for 24 hours.</p>
-<p><strong>Teleportation (Gift, Su):</strong> Add <Link to="/spell/dimension_door">dimension door</Link> to your medium spell list and list of spells known as a 4th-level spell. In addition, you can cast dimension door as a spell-like ability a number of times per day equal to your Charisma modifier, using your medium level as the spell's caster level.</p>
+</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell><p>Choose one of the following:</p>
+<ul>
+<li>You must promote and uphold the tenants of law and good, and may never willingly break a law that is fair and just.</li>
+<li>You must act with honor and integrity at all times.</li>
+<li>You must eschew all vices and sinful temptations or desires.</li>
+</ul>
+</Cell></Row></Block>
+<h3 id="spirit-archon-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="aura-of-menace-su" icon={["aura","lower"]}>
+<Pair single id="aura-of-menace-su">Aura of Menace (Su)</Pair>
+<Pair title="Swift Action">You activate a righteous aura that embodies your outsider's fury. Hostile creatures within a 20-foot radius of you must succeed at a Will save (DC = 10 + half your medium level + your Charisma modifier) or take a -2 penalty on attack rolls, on saving throws, and to AC. This penalty lasts for 1 minute, or until you become frightened, panicked, paralyzed, stunned, unconscious, or otherwise prevented from participating in the current encounter. Whether or not a creature fails its save, it can't be affected by your aura again for 24 hours.</Pair>
+</Ability>
+<h3 id="spirit-archon-gift">Gift</h3>
+<Ability id="teleportation-su" icon={["learn","magic"]}>
+<Pair single id="teleportation-su">Teleportation (Su)</Pair>
+<Pair title="Ability">Add <Link to="/spell/dimension_door">dimension door</Link> to your medium spell list and list of spells known as a 4th-level spell.</Pair>
+<Pair title="Ability">You can cast <em>dimension door</em> as a spell-like ability, using your medium level as the spell's caster level.</Pair>
+<Pair title="Usage">Charisma modifier times/day</Pair>
+</Ability>
 </>};
 const _azata = {title: "Azata", topLink: ["Outer Channeler Archetype","arc-medium/outer_channeler"], jsx: <><h2 id="spirit-azata-azata">Azata</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 14</Link><br/>An <Link to="/family/azata">azata</Link> is a whimsical outsider from Elysium, a living embodiment of freedom and goodness.</p>
-<p><strong>Alignment:</strong> Chaotic good.<br/><strong>Spirits:</strong> <Link to="/monster/bralani">Bralani</Link> (<Link to="/spirit/champion">champion</Link>), <Link to="/monster/ghaele">ghaele</Link> (<Link to="/spirit/hierophant">hierophant</Link>), <Link to="/monster/lillend">lillend</Link> (<Link to="/spirit/marshal">marshal</Link>), <Link to="/monster/raelis">raelis</Link> (<Link to="/spirit/archmage">archmage</Link>), <Link to="/monster/uinuja">uinuja</Link> (<Link to="/spirit/guardian">guardian</Link>), and <Link to="/monster/yamah">yamah</Link> (<Link to="/spirit/trickster">trickster</Link>).<br/><strong>Taboos:</strong> Choose one of the following:</p>
-<ul>
-<li>Whenever you encounter fine art, food, or performances, you must take no actions for 1d4+1 rounds other than to indulge in your find or until you see a potential or obvious threat (as per the fascinated condition)</li>
-<li>You must attempt any challenge or obstacle that blocks your path unless doing so would be obviously harmful to you or those under your care</li>
-<li>You must always offer support and protection to any nonevil creature that is unable to protect itself</li>
+<Block hl>
+<Row><Cell>Alignment</Cell><Cell>Neutral</Cell></Row>
+<Row><Cell>Spirits</Cell><Cell><ul>
+<li><strong className="hl"><Link to="/spirit/archmage">Archmage</Link></strong>: <Link to="/monster/raelis">Raelis</Link></li>
+<li><strong className="hl"><Link to="/spirit/champion">Champion</Link></strong>: <Link to="/monster/bralani">Bralani</Link></li>
+<li><strong className="hl"><Link to="/spirit/guardian">Guardian</Link></strong>: <Link to="/monster/uinuja">Uinuja</Link></li>
+<li><strong className="hl"><Link to="/spirit/hierophant">Hierophant</Link></strong>: <Link to="/monster/ghaele">Ghaele</Link></li>
+<li><strong className="hl"><Link to="/spirit/marshal">Marshal</Link></strong>: <Link to="/monster/lillend">Lillend</Link></li>
+<li><strong className="hl"><Link to="/spirit/trickster">Trickster</Link></strong>: <Link to="/monster/yamah">Yamah</Link></li>
 </ul>
-<p><strong>Slip the Surly Bonds (Intermediate, Sp):</strong> You can ignore impediments to your mobility. For a number of rounds per day equal to your medium level, you can move normally regardless of magical effects that impede movement, as if you were affected by <Link to="/spell/freedom_of_movement">freedom of movement</Link>. In addition, you can cast <Link to="/spell/liberating_command">liberating command</Link> as a spell-like ability a number of times per day equal to your Charisma modifier, using your medium level as the spell's caster level.</p>
-<p><strong>Gift of Flight (Gift, Ex):</strong> You grow feathery wings as a swift action, which otherwise function as per <Link to="/spell/fly">fly</Link>. You can use this ability for a number of minutes each day equal to your medium level. These minutes don't need to be consecutive, but must be used in 1-minute increments.</p>
+</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell><p>Choose one of the following:</p>
+<ul>
+<li>Whenever you encounter fine art, food, or performances, you must take no actions for 1d4+1 rounds other than to indulge in your find or until you see a potential or obvious threat (as per the fascinated condition).</li>
+<li>You must attempt any challenge or obstacle that blocks your path unless doing so would be obviously harmful to you or those under your care.</li>
+<li>You must always offer support and protection to any nonevil creature that is unable to protect itself.</li>
+</ul>
+</Cell></Row></Block>
+<h3 id="spirit-azata-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="slip-the-surly-bonds-sp" icon={["def","magic"]}>
+<Pair single id="slip-the-surly-bonds-sp" flavor="You can ignore impediments to your mobility.">Slip the Surly Bonds (Sp)</Pair>
+<Pair title="Ability">For a number of rounds per day equal to your medium level, you can move normally regardless of magical effects that impede movement, as if you were affected by <Link to="/spell/freedom_of_movement">freedom of movement</Link>.</Pair>
+<Pair title="Ability">You can cast <Link to="/spell/liberating_command">liberating command</Link> as a spell-like ability a number of times per day equal to your Charisma modifier, using your medium level as the spell's caster level.</Pair>
+</Ability>
+<h3 id="spirit-azata-gift">Gift</h3>
+<Ability id="gift-of-flight-ex" icon={["power"]}>
+<Pair single id="gift-of-flight-ex">Gift of Flight (Ex)</Pair>
+<Pair title="Usage">1 minute/day per medium level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Swift Action">You grow feathery wings, which otherwise function as per <Link to="/spell/fly">fly</Link>.</Pair>
+</Ability>
 </>};
 const _daemon = {title: "Daemon", topLink: ["Outer Channeler Archetype","arc-medium/outer_channeler"], jsx: <><h2 id="spirit-daemon-daemon">Daemon</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 14</Link><br/>A <Link to="/family/daemon">daemon</Link> is a nihilistic fiend from Abaddon, an entity obsessed with the eradication of mortal life.</p>
-<p><strong>Alignment:</strong> Neutral evil.<br/><strong>Spirits:</strong> <Link to="/monster/astradaemon">Astradaemon</Link> (<Link to="/spirit/hierophant">hierophant</Link>), <Link to="/monster/ceustodaemon">ceustodaemon</Link> (<Link to="/spirit/guardian">guardian</Link>), <Link to="/monster/derghodaemon">derghodaemon</Link> (<Link to="/spirit/champion">champion</Link>), <Link to="/monster/phasmadaemon">phasmadaemon</Link> (<Link to="/spirit/trickster">trickster</Link>), <Link to="/monster/purrodaemon">purrodaemon</Link> (<Link to="/spirit/marshal">marshal</Link>), and <Link to="/monster/venedaemon">venedaemon</Link> (<Link to="/spirit/archmage">archmage</Link>).<br/><strong>Taboos:</strong> Choose one of the following:</p>
-<ul>
-<li>You must painfully end the life of a single mortal creature (with no fewer than half your Hit Dice) per day, provided that doing so does not jeopardize your own safety</li>
-<li>You must take every opportunity to manipulate and coerce others into performing self-deprecating and self-destructive actions</li>
-<li>You must consume a bit of every mortal creature you slay, be it flesh or soul</li>
+<Block hl>
+<Row><Cell>Alignment</Cell><Cell>Neutral</Cell></Row>
+<Row><Cell>Spirits</Cell><Cell><ul>
+<li><strong className="hl"><Link to="/spirit/archmage">Archmage</Link></strong>: <Link to="/monster/venedaemon">Venedaemon</Link></li>
+<li><strong className="hl"><Link to="/spirit/champion">Champion</Link></strong>: <Link to="/monster/derghodaemon">Derghodaemon</Link></li>
+<li><strong className="hl"><Link to="/spirit/guardian">Guardian</Link></strong>: <Link to="/monster/ceustodaemon">Ceustodaemon</Link></li>
+<li><strong className="hl"><Link to="/spirit/hierophant">Hierophant</Link></strong>: <Link to="/monster/astradaemon">Astradaemon</Link></li>
+<li><strong className="hl"><Link to="/spirit/marshal">Marshal</Link></strong>: <Link to="/monster/purrodaemon">Purrodaemon</Link></li>
+<li><strong className="hl"><Link to="/spirit/trickster">Trickster</Link></strong>: <Link to="/monster/phasmadaemon">Phasmadaemon</Link></li>
 </ul>
-<p><strong>Summon Daemon (Intermediate, Sp):</strong> You can summon a servant of Abaddon as a standard action. This functions as per <Link to="/spell/summon_monster_ii">summon monster II</Link>, but you can summon only animals with the <Link to="/template/fiendish">fiendish template</Link> or outsiders with the <Link to="/subtype/daemon">daemon</Link> subtype. This ability can summon only one creature, regardless of the list used. For every 2 medium levels beyond 6th, the level of the summon monster spell increases by 1 (to a maximum of <Link to="/spell/summon_monster_ix">summon monster IX</Link> at 20th level). You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>Consume the Soul (Gift, Sp):</strong> You can consume or imprison the soul of a dying creature. You gain the ability to cast <Link to="/spell/death_knell">death knell</Link> as a spell-like ability three times per day using your medium level as the spell's caster level. Instead of gaining the normal benefits of this spell when the target fails its save, you can instead lock the target's soul within a <Link to="/spell/create_soul_gem">soul gem</Link>, functioning like the soul lock ability of a <Link to="/monster/cacodaemon">cacodaemon</Link>. You count as an evil outsider for the purpose of determining whether you receive a benefit when you ingest a soul gem created by the soul lock ability.</p>
+</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell><p>Choose one of the following:</p>
+<ul>
+<li>You must painfully end the life of a single mortal creature (with no fewer than half your Hit Dice) per day, provided that doing so does not jeopardize your own safety.</li>
+<li>You must take every opportunity to manipulate and coerce others into performing self-deprecating and self-destructive actions.</li>
+<li>You must consume a bit of every mortal creature you slay, be it flesh or soul.</li>
+</ul>
+</Cell></Row></Block>
+<h3 id="spirit-daemon-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="summon-daemon-sp" icon={["magic"]}>
+<Pair single id="summon-daemon-sp">Summon Daemon (Sp)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can summon a servant of Abaddon. This functions as per <Link to="/spell/summon_monster_ii">summon monster II</Link>, but you can summon only animals with the <Link to="/template/fiendish">fiendish template</Link> or outsiders with the <Link to="/subtype/daemon">daemon</Link> subtype. This ability can summon only one creature, regardless of the list used.</Pair>
+<Pair title="At 8th Level">The level of the spell increases to <em>summon monster III.</em></Pair>
+<Pair title="At 10th Level">The level of the spell increases to <em>summon monster IV.</em></Pair>
+<Pair title="At 12th Level">The level of the spell increases to <em>summon monster V.</em></Pair>
+<Pair title="At 14th Level">The level of the spell increases to <em>summon monster VI.</em></Pair>
+<Pair title="At 16th Level">The level of the spell increases to <em>summon monster VII.</em></Pair>
+<Pair title="At 18th Level">The level of the spell increases to <em>summon monster VIII.</em></Pair>
+<Pair title="At 20th Level">The level of the spell increases to <em>summon monster IX.</em></Pair>
+</Ability>
+<h3 id="spirit-daemon-gift">Gift</h3>
+<Ability id="consume-the-soul-sp" icon={["magic"]}>
+<Pair single id="consume-the-soul-sp" flavor="You can consume or imprison the soul of a dying creature.">Consume the Soul (Sp)</Pair>
+<Pair title="Usage">Three times per day</Pair>
+<Pair title="Ability">You gain the ability to cast <Link to="/spell/death_knell">death knell</Link> as a spell-like ability using your medium level as the spell's caster level. Instead of gaining the normal benefits of this spell when the target fails its save, you can instead lock the target's soul within a <Link to="/spell/create_soul_gem">soul gem</Link>, functioning like the <em>soul lock</em> ability of a <Link to="/monster/cacodaemon">cacodaemon</Link>.</Pair>
+<Pair title="Special">You count as an evil outsider for the purpose of determining whether you receive a benefit when you ingest a soul gem created by the <em>soul lock</em> ability.</Pair>
+</Ability>
 </>};
 const _demon = {title: "Demon", topLink: ["Outer Channeler Archetype","arc-medium/outer_channeler"], jsx: <><h2 id="spirit-demon-demon">Demon</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 14</Link><br/>A <Link to="/family/demon">demon</Link> is a fiendish spawn of the fecund Abyss, discord and destruction made flesh.</p>
-<p><strong>Alignment:</strong> Chaotic evil.<br/><strong>Spirits:</strong> <Link to="/monster/glabrezu">Glabrezu</Link> (<Link to="/spirit/archmage">archmage</Link>), <Link to="/monster/incubus">incubus</Link> (<Link to="/spirit/guardian">guardian</Link>), <Link to="/monster/marilith">marilith</Link> (<Link to="/spirit/marshal">marshal</Link>), <Link to="/monster/succubus">succubus</Link> (<Link to="/spirit/trickster">trickster</Link>), <Link to="/monster/vilsteth">vilsteth</Link> (<Link to="/spirit/hierophant">hierophant</Link>), and <Link to="/monster/vrock">vrock</Link> (<Link to="/spirit/champion">champion</Link>).<br/><strong>Taboos:</strong> Choose one of the following:</p>
-<ul>
-<li>You must not ignore an opportunity to destroy something (or someone) precious to those who actively oppose your plans or goals</li>
-<li>You must take every opportunity to tempt or coerce others into embracing their most sinful desires, and you must partake in such delights at every opportunity</li>
-<li>You must take every opportunity to inflict physical or emotional pain upon others, provided such indulgences do not detract from your personal goals or safety</li>
+<Block hl>
+<Row><Cell>Alignment</Cell><Cell>Neutral</Cell></Row>
+<Row><Cell>Spirits</Cell><Cell><ul>
+<li><strong className="hl"><Link to="/spirit/archmage">Archmage</Link></strong>: <Link to="/monster/glabrezu">Glabrezu</Link></li>
+<li><strong className="hl"><Link to="/spirit/champion">Champion</Link></strong>: <Link to="/monster/vrock">Vrock</Link></li>
+<li><strong className="hl"><Link to="/spirit/guardian">Guardian</Link></strong>: <Link to="/monster/incubus">Incubus</Link></li>
+<li><strong className="hl"><Link to="/spirit/hierophant">Hierophant</Link></strong>: <Link to="/monster/vilsteth">Vilsteth</Link></li>
+<li><strong className="hl"><Link to="/spirit/marshal">Marshal</Link></strong>: <Link to="/monster/marilith">Marilith</Link></li>
+<li><strong className="hl"><Link to="/spirit/trickster">Trickster</Link></strong>: <Link to="/monster/succubus">Succubus</Link></li>
 </ul>
-<p><strong>Summon Demon (Intermediate, Sp):</strong> You can summon a horror from the Abyss as a standard action. This functions as per <Link to="/spell/summon_monster_ii">summon monster II</Link>, but you can summon only animals with the <Link to="/template/fiendish">fiendish template</Link> or outsiders with the <Link to="/subtype/demon">demon</Link> subtype. This ability can summon only one creature, regardless of the list used. For every 2 medium levels beyond 6th, the level of the summon monster spell increases by 1 (to a maximum of <em>summon monster IX</em> at 20th level). You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>Demonic Taint (Gift, Su):</strong> Your natural weapons, as well as any weapons you wield, are treated as chaotic and evil for the purpose of overcoming damage reduction.</p>
+</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell><p>Choose one of the following:</p>
+<ul>
+<li>You must not ignore an opportunity to destroy something (or someone) precious to those who actively oppose your plans or goals.</li>
+<li>You must take every opportunity to tempt or coerce others into embracing their most sinful desires, and you must partake in such delights at every opportunity.</li>
+<li>You must take every opportunity to inflict physical or emotional pain upon others, provided such indulgences do not detract from your personal goals or safety.</li>
+</ul>
+</Cell></Row></Block>
+<h3 id="spirit-demon-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="summon-demon-sp" icon={["magic"]}>
+<Pair single id="summon-demon-sp">Summon Demon (Sp)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can summon a horror from the Abyss. This functions as per <Link to="/spell/summon_monster_ii">summon monster II</Link>, but you can summon only animals with the <Link to="/template/fiendish">fiendish template</Link> or outsiders with the <Link to="/subtype/demon">demon</Link> subtype. This ability can summon only one creature, regardless of the list used.</Pair>
+<Pair title="At 8th Level">The level of the spell increases to <em>summon monster III.</em></Pair>
+<Pair title="At 10th Level">The level of the spell increases to <em>summon monster IV.</em></Pair>
+<Pair title="At 12th Level">The level of the spell increases to <em>summon monster V.</em></Pair>
+<Pair title="At 14th Level">The level of the spell increases to <em>summon monster VI.</em></Pair>
+<Pair title="At 16th Level">The level of the spell increases to <em>summon monster VII.</em></Pair>
+<Pair title="At 18th Level">The level of the spell increases to <em>summon monster VIII.</em></Pair>
+<Pair title="At 20th Level">The level of the spell increases to <em>summon monster IX.</em></Pair>
+</Ability>
+<h3 id="spirit-demon-gift">Gift</h3>
+<Ability id="demonic-taint-su" icon={["boost"]}>
+<Pair single id="demonic-taint-su">Demonic Taint (Su)</Pair>
+<Pair title="Passive Ability">Your natural weapons, as well as any weapons you wield, are treated as chaotic and evil for the purpose of overcoming damage reduction.</Pair>
+</Ability>
 </>};
 const _devil = {title: "Devil", topLink: ["Outer Channeler Archetype","arc-medium/outer_channeler"], jsx: <><h2 id="spirit-devil-devil">Devil</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 15</Link><br/>A <Link to="/family/devil">devil</Link> is a legalistic fiend from Hell, nothing less than absolute law and order incarnate.</p>
-<p><strong>Alignment:</strong> Lawful evil.<br/><strong>Spirits:</strong> <Link to="/monster/ayngavhaul">Ayngavhaul</Link> (<Link to="/spirit/archmage">archmage</Link>), <Link to="/monster/cornugon">cornugon</Link> (<Link to="/spirit/champion">champion</Link>), <Link to="/monster/deimavigga">deimavigga</Link> (<Link to="/spirit/hierophant">hierophant</Link>), <Link to="/monster/erinyes">erinyes</Link> (champion), <Link to="/monster/hamatula">hamatula</Link> (<Link to="/spirit/guardian">guardian</Link>), and <Link to="/monster/osyluth">osyluth</Link> (<Link to="/spirit/trickster">trickster</Link>).<br/><strong>Taboos:</strong> Choose one of the following:</p>
-<ul>
-<li>You must abide by any contracts you sign or verbally agree to, though you are only ever required to obey the letter of these agreements and may twist their intent to your favor</li>
-<li>You must tempt others whenever the opportunity arises</li>
-<li>You must destroy or despoil all holy sites and relics that you encounter, if doing so would not put you in obvious danger</li>
+<Block hl>
+<Row><Cell>Alignment</Cell><Cell>Neutral</Cell></Row>
+<Row><Cell>Spirits</Cell><Cell><ul>
+<li><strong className="hl"><Link to="/spirit/archmage">Archmage</Link></strong>: <Link to="/monster/ayngavhaul">Ayngavhaul</Link></li>
+<li><strong className="hl"><Link to="/spirit/champion">Champion</Link></strong>: <Link to="/monster/cornugon">Cornugon</Link></li>
+<li><strong className="hl"><Link to="/spirit/guardian">Guardian</Link></strong>: <Link to="/monster/hamatula">Hamatula</Link></li>
+<li><strong className="hl"><Link to="/spirit/hierophant">Hierophant</Link></strong>: <Link to="/monster/deimavigga">Deimavigga</Link></li>
+<li><strong className="hl"><Link to="/spirit/trickster">Trickster</Link></strong>: <Link to="/monster/osyluth">Osyluth</Link>
+<Link to="/monster/erinyes">Erinyes</Link> (champion)</li>
 </ul>
-<p><strong>Summon Devil (Intermediate, Sp):</strong> You can summon a denizen of Hell as a standard action. This functions as per <Link to="/spell/summon_monster_ii">summon monster II</Link>, but you can summon only animals with the <Link to="/template/fiendish">fiendish template</Link> or outsiders with the <Link to="/subtype/devil">devil</Link> subtype. This ability can summon only one creature, regardless of the list used. For every 2 medium levels beyond 6th, the level of the summon monster spell increases by 1 (to a maximum of <Link to="/spell/summon_monster_ix">summon monster IX</Link> at 20th level). You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
-<p><strong>See in Darkness (Gift, Su):</strong> You gain darkvision 30 feet. If you already have darkvision, your darkvision range increases by 30 feet instead. This darkvision allows you to see perfectly in darkness of any kind, even that created by a <Link to="/spell/deeper_darkness">deeper darkness</Link> spell.</p>
+</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell><p>Choose one of the following:</p>
+<ul>
+<li>You must abide by any contracts you sign or verbally agree to, though you are only ever required to obey the letter of these agreements and may twist their intent to your favor.</li>
+<li>You must tempt others whenever the opportunity arises.</li>
+<li>You must destroy or despoil all holy sites and relics that you encounter, if doing so would not put you in obvious danger.</li>
+</ul>
+</Cell></Row></Block>
+<h3 id="spirit-devil-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="summon-devil-sp" icon={["magic"]}>
+<Pair single id="summon-devil-sp">Summon Devil (Sp)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can summon a denizen of Hell. This functions as per <Link to="/spell/summon_monster_ii">summon monster II</Link>, but you can summon only animals with the <Link to="/template/fiendish">fiendish template</Link> or outsiders with the <Link to="/subtype/devil">devil</Link> subtype. This ability can summon only one creature, regardless of the list used.</Pair>
+<Pair title="At 8th Level">The level of the spell increases to <em>summon monster III.</em></Pair>
+<Pair title="At 10th Level">The level of the spell increases to <em>summon monster IV.</em></Pair>
+<Pair title="At 12th Level">The level of the spell increases to <em>summon monster V.</em></Pair>
+<Pair title="At 14th Level">The level of the spell increases to <em>summon monster VI.</em></Pair>
+<Pair title="At 16th Level">The level of the spell increases to <em>summon monster VII.</em></Pair>
+<Pair title="At 18th Level">The level of the spell increases to <em>summon monster VIII.</em></Pair>
+<Pair title="At 20th Level">The level of the spell increases to <em>summon monster IX.</em></Pair>
+</Ability>
+<h3 id="spirit-devil-gift">Gift</h3>
+<Ability id="see-in-darkness-su" icon={["power","boost"]}>
+<Pair single id="see-in-darkness-su">See in Darkness (Su)</Pair>
+<Pair title="Ability">You gain darkvision 30 feet. If you already have darkvision, your darkvision range increases by 30 feet instead. This darkvision allows you to see perfectly in darkness of any kind, even that created by a <Link to="/spell/deeper_darkness">deeper darkness</Link> spell.</Pair>
+</Ability>
 </>};
 const _psychopomp = {title: "Psychopomp", topLink: ["Outer Channeler Archetype","arc-medium/outer_channeler"], jsx: <><h2 id="spirit-psychopomp-psychopomp">Psychopomp</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 15</Link><br/>A <Link to="/family/psychopomp">psychopomp</Link> is a steward of souls from the Boneyard, tasked with bringing mortal souls to the afterlife.</p>
-<p><strong>Alignment:</strong> Neutral.<br/><strong>Spirits:</strong> <Link to="/monster/ahmuuth">Ahmuuth</Link> (<Link to="/spirit/hierophant">hierophant</Link>), <Link to="/monster/catrina">catrina</Link> (<Link to="/spirit/marshal">marshal</Link>), <Link to="/monster/memitim">memitim</Link> (<Link to="/spirit/champion">champion</Link>), <Link to="/monster/morrigna">morrigna</Link> (<Link to="/spirit/trickster">trickster</Link>), <Link to="/monster/vanth">vanth</Link> (<Link to="/spirit/guardian">guardian</Link>), and <Link to="/monster/viduus">viduus</Link> (<Link to="/spirit/archmage">archmage</Link>).<br/><strong>Taboos:</strong> Choose one of the following:</p>
-<ul>
-<li>You must destroy all haunts and undead creatures whose paths you cross and oppose the creation of such creatures</li>
-<li>You must destroy all creatures that would seek to imprison or destroy mortal souls, and set trapped souls free at every opportunity</li>
-<li>You must wear a mask that covers the entirety of your face, and never allow it to be removed for as long as you channel the psychopomp</li>
+<Block hl>
+<Row><Cell>Alignment</Cell><Cell>Neutral</Cell></Row>
+<Row><Cell>Spirits</Cell><Cell><ul>
+<li><strong className="hl"><Link to="/spirit/archmage">Archmage</Link></strong>: <Link to="/monster/viduus">Viduus</Link></li>
+<li><strong className="hl"><Link to="/spirit/champion">Champion</Link></strong>: <Link to="/monster/memitim">Memitim</Link></li>
+<li><strong className="hl"><Link to="/spirit/guardian">Guardian</Link></strong>: <Link to="/monster/vanth">Vanth</Link></li>
+<li><strong className="hl"><Link to="/spirit/hierophant">Hierophant</Link></strong>: <Link to="/monster/ahmuuth">Ahmuuth</Link></li>
+<li><strong className="hl"><Link to="/spirit/marshal">Marshal</Link></strong>: <Link to="/monster/catrina">Catrina</Link></li>
+<li><strong className="hl"><Link to="/spirit/trickster">Trickster</Link></strong>: <Link to="/monster/morrigna">Morrigna</Link></li>
 </ul>
-<p><strong>Spirit Touch (Intermediate, Su):</strong> You gain powers that assist in battling evil spirits. You are always granted a saving throw to negate death spells, magical death effects, and energy drain, even if one is not normally allowed. In addition, as a swift action, you can grant your natural weapons, as well as any weapon you wield, the <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon special ability for a number of rounds equal to your medium level. These rounds don't need to be consecutive.</p>
-<p><strong>Spiritsense (Gift, Su):</strong> You can notice, locate, and distinguish between living and undead creatures within 30 feet, just as if you had the psychopomp's spiritsense ability.</p>
+</Cell></Row>
+<Row><Cell>Taboos</Cell><Cell><p>Choose one of the following:</p>
+<ul>
+<li>You must destroy all haunts and undead creatures whose paths you cross and oppose the creation of such creatures.</li>
+<li>You must destroy all creatures that would seek to imprison or destroy mortal souls, and set trapped souls free at every opportunity.</li>
+<li>You must wear a mask that covers the entirety of your face, and never allow it to be removed for as long as you channel the psychopomp.</li>
+</ul>
+</Cell></Row></Block>
+<h3 id="spirit-psychopomp-intermediate-spirit-power">Intermediate Spirit Power</h3>
+<Ability id="spirit-touch-su" icon={["def","boost"]}>
+<Pair single id="spirit-touch-su" flavor="You gain powers that assist in battling evil spirits.">Spirit Touch (Su)</Pair>
+<Pair title="Passive Ability">You are always granted a saving throw to negate death spells, magical death effects, and energy drain, even if one is not normally allowed.</Pair>
+<Pair title="Swift Action">You can grant your natural weapons, as well as any weapon you wield, the <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon special ability for a number of rounds equal to your medium level. These rounds don't need to be consecutive.</Pair>
+</Ability>
+<h3 id="spirit-psychopomp-gift">Gift</h3>
+<Ability id="spiritsense-su" icon={["power"]}>
+<Pair single id="spiritsense-su">Spiritsense (Su)</Pair>
+<Pair title="Ability">You can notice, locate, and distinguish between living and undead creatures within 30 feet, just as if you have the <Link to="/umr/blindsight">blindsight</Link> ability. This sense does not allow you to detect objects, but it does allow you to notice living things that are not creatures.</Pair>
+</Ability>
 </>};
 export default {not_found:_not_found,archmage:_archmage,champion:_champion,guardian:_guardian,hierophant:_hierophant,marshal:_marshal,trickster:_trickster,abrogail_thrune_i:_abrogail_thrune_i,ambras_imre:_ambras_imre,ardril_the_would_be_king:_ardril_the_would_be_king,arnisant:_arnisant,azghaad_i:_azghaad_i,beldam_i:_beldam_i,butcher:_butcher,cyricas:_cyricas,daronlyr_xii:_daronlyr_xii,deceiver:_deceiver,father_of_legends:_father_of_legends,gennaris_iii:_gennaris_iii,heretic:_heretic,kelksiomides:_kelksiomides,lich:_lich,namzaruum:_namzaruum,nex:_nex,psomeira:_psomeira,savith:_savith,stavian_i:_stavian_i,sulesh_the_great:_sulesh_the_great,taldaris:_taldaris,terminator:_terminator,twice_damned_prince:_twice_damned_prince,warmonger:_warmonger,aeon:_aeon,agathion:_agathion,angel:_angel,archon:_archon,azata:_azata,daemon:_daemon,demon:_demon,devil:_devil,psychopomp:_psychopomp}
