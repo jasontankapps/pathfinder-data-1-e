@@ -527,6 +527,83 @@ const migrations = {
 				catalog
 			}
 		};
+	},
+	28: (state: any) => {
+		// Fix all link changes since the last update
+		const {displayTable: dt, bookmarks, ...unchangedState} = state;
+		const displayTable = {...dt};
+		// Remove info regarding deleted table
+		delete displayTable["construct mods table"];
+		// FIX:
+		//   deleted all constructmod links, moved info to rules
+		const {order, db: oldDB, catalog: oldCat} = bookmarks;
+		const db: BookmarkDB = {};
+		const catalog: Catalog = {...oldCat};
+
+		const linksBasic: string[][] = [];
+		const linksComplex: string[][] = [];
+		// Replace links in bookmark groups; delete duplicate entries that may occur
+		Object.keys(oldDB).forEach(id => {
+			const lb = new Set<string>;
+			const lc = new Set<string>;
+			const {color, title, contents:c, hidden} = oldDB[id] as BookmarkGroup;
+			db[id] = {
+				color,
+				title,
+				// Remove any bookmark leading to ability/banners
+				contents: c.map((pair: [string, string]) => {
+					const [link, title] = pair;
+					if(link.startsWith("constructmod/")) {
+						if(link.match(/ability_score_increase|resistances|(armor|hit_dice|movement|spell_like_ability|weapon)_modification/)) {
+							if(lb.has(link)) {
+								return 0;
+							}
+							lb.add(link);
+							return ["rule/basic_modifications", title] as [string, string];
+						}
+						if(lc.has(link)) {
+							return 0;
+						}
+						lc.add(link);
+						return ["rule/complex_modifications", title] as [string, string];
+					}
+					return pair;
+				}).filter(pair => pair !== 0),
+				hidden
+			}
+			lb.size && linksBasic.push([id, ...lb]);
+			lc.size && linksComplex.push([id, ...lc]);
+		});
+		// Adjust catalog
+		const toRemove = new Set<string>;
+		if(linksBasic.length) {
+			const ids: string[] = [];
+			linksBasic.forEach(group => {
+				const id = group.shift()!;
+				group.forEach(link => toRemove.add(link));
+				ids.push(id);
+			});
+			catalog["rule/basic_modifications"] = ids;
+		}
+		if(linksComplex.length) {
+			const ids: string[] = [];
+			linksComplex.forEach(group => {
+				const id = group.shift()!;
+				group.forEach(link => toRemove.add(link));
+				ids.push(id);
+			});
+			catalog["rule/complex_modifications"] = ids;
+		}
+		toRemove.forEach(link => delete catalog[link]);
+		return {
+			...unchangedState,
+			displayTable,
+			bookmarks: {
+				order,
+				db,
+				catalog
+			}
+		};
 	}
 };
 
@@ -544,7 +621,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<InitialAppState> = {
 	key: 'root-pf-data',
-	version: 27,
+	version: 28,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),

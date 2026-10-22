@@ -1,6 +1,5 @@
 import { useLocation, useParams } from 'wouter';
 import getItem from '../components/getItem';
-import construct_mods from './subpages/_GEN_constructmod';
 import magic_altar from './subpages/_GEN_magic-altar';
 import magic_demonic_implants from './subpages/_GEN_magic-implant';
 import magic_devil_talismans from './subpages/_GEN_magic-talisman';
@@ -40,8 +39,7 @@ const magic = {
 	...magic_set,
 	...magic_shadow_piercings,
 	...magic_tattoo,
-	...magic_throne,
-	...construct_mods
+	...magic_throne
 };
 type Data = typeof magic;
 

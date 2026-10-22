@@ -107,7 +107,6 @@ import evolution from '../json/class_ability_evolutions.json' with {type: 'json'
 import unchevolution from '../json/class_ability_unchained_evolutions.json' with {type: 'json'};
 import eidolon from '../json/class_ability_unchained_eidolons.json' with {type: 'json'};
 import rangertrap from '../json/class_ability_ranger_traps.json' with {type: 'json'};
-import constructmod from '../json/construct_mods.json' with {type: 'json'};
 import corruption from '../json/corruptions.json' with {type: 'json'};
 import curse from '../json/curses.json' with {type: 'json'};
 import disease from '../json/diseases.json' with {type: 'json'};
@@ -3400,13 +3399,6 @@ const basic_data_groups = {
 		link: "source",
 		num: 0,
 		type: "Source"
-	},
-	"construct_mods": {
-		data: constructmod,
-		searchgroup: 5, // magic
-		link: "constructmod",
-		num: 0,
-		type: "Construct Modification"
 	}
 };
 
