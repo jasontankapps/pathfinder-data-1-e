@@ -424,7 +424,7 @@ const _breach_to_the_quickening = {title: "Breach to the Quickening", jsx: <><p>
 </tr>
 <tr>
 <td>76-95</td>
-<td>The First World lashes out at the target vindictively, bestowing the <Link to="/corruption/accursed">accursed</Link> corruption.</td>
+<td>The First World lashes out at the target vindictively, bestowing the <Link to="/rule/accursed">accursed</Link> corruption.</td>
 </tr>
 <tr>
 <td>96-99</td>

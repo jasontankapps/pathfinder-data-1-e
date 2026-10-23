@@ -281,7 +281,7 @@ const _amulet_of_the_storm = {title: "Amulet of the Storm", jsx: <><h2 id="magic
 </>};
 const _amulet_of_the_true_form = {title: "Amulet of the True Form", jsx: <><h2 id="magic-wondrous-amulet_of_the_true_form-amulet-of-the-true-form">Amulet of the True Form</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon pg. 30</Link><br/><strong>Aura</strong> moderate transmutation; <strong>CL</strong> 7th<br/><strong>Slot</strong> neck; <strong>Price</strong> 6,500 gp; <strong>Weight</strong> -</p>
-<p>This impeccable sapphire amulet is set with an immaculate pearl. An amulet of the true form is enchanted to ward off powers that would result in unwanted transformation. It grants its wearer a +2 resistance bonus on saving throws against polymorph effects and on a +4 resistance bonus on saving throws against unwilling <Link to="/corruption/lycanthropy">lycanthropic</Link> transformation.</p>
+<p>This impeccable sapphire amulet is set with an immaculate pearl. An amulet of the true form is enchanted to ward off powers that would result in unwanted transformation. It grants its wearer a +2 resistance bonus on saving throws against polymorph effects and on a +4 resistance bonus on saving throws against unwilling <Link to="/rule/lycanthropy">lycanthropic</Link> transformation.</p>
 <h3 id="magic-wondrous-amulet_of_the_true_form-construction">Construction</h3>
 <p><strong>Requirements</strong> <Link to="/feat/craft_wondrous_item">Craft Wondrous Item</Link>, <Link to="/spell/polymorph">polymorph</Link>; <strong>Cost</strong> 3,250 gp</p>
 </>};

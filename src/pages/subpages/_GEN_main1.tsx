@@ -1014,82 +1014,6 @@ const _haunts = {title: "Haunts", jsx: <IonList lines="full"><IonItem className=
 <p><em>Back to <Link to="/rule/haunts">Haunts (Rules)</Link></em></p>
 </blockquote>
 </IonLabel></IonItem></IonList>};
-const _corruptions = {title: "Corruptions", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><ScrollContainer id="main-corruptions--table-0"><table>
-<thead>
-<tr>
-<th>Corruption</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody><tr>
-<td className="ion-activatable"><Link to="/corruption/aboleth">Aboleth<IonRippleEffect /></Link></td>
-<td>The veiled masters have long controlled countless minions in the Inner Sea region's political arenas.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/corruption/accursed">Accursed<IonRippleEffect /></Link></td>
-<td>A foul curse has a deep hold on your body and soul. Your resentment toward the one who cursed you has taken on a life of its own. You notice slights against you by everyone around you, and can gain solace only by punishing them.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/corruption/amoral">Amoral<IonRippleEffect /></Link></td>
-<td>When an otherwise upstanding person turns to evil deeds to achieve his goals - whether by accident, due to sinister influence, or through desperation - he begins to slip, every excuse and justification furthering his descent into evil.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/corruption/deep_one">Deep One<IonRippleEffect /></Link></td>
-<td>The waves call to you, like a siren's song echoing across crashing surf.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/corruption/demonic">Demonic<IonRippleEffect /></Link></td>
-<td>Close contact with the Abyss or demons clouds your mind and twists your body.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/corruption/ghoul">Ghoul<IonRippleEffect /></Link></td>
-<td>A hunger for the flesh of the living grows more every day, until every sentient creature seems no more than a meal.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/corruption/hellbound">Hellbound<IonRippleEffect /></Link></td>
-<td>The pit of Hell waits for your damned soul.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/corruption/hive">Hive<IonRippleEffect /></Link></td>
-<td>Your body is a vessel for an invasive otherworldly species that seek to spread across the stars and devour all other life.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/corruption/lich">Lich<IonRippleEffect /></Link></td>
-<td>Your attempt to transition into unlife has gone horribly awry and your soul is trapped. Lich corruption also works for becoming another sort of corporeal undead (except ghouls and vampires, which have their own corruptions).</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/corruption/lycanthropy">Lycanthropy<IonRippleEffect /></Link></td>
-<td>There is a sound pulsing through your blood, a call to the wild and savage places of the world, where you are free to hunt and to kill to satisfy your bloodlust. You are filled with the desire to rend foes limb from limb with tooth and claw.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/corruption/plagued">Plagued<IonRippleEffect /></Link></td>
-<td>Disease can become a corruption when it causes long-lasting and physical changes to the body.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/corruption/possessed">Possessed<IonRippleEffect /></Link></td>
-<td>Whether it's an actual spirit or an alternate personality, another mind vies with you for control of your body.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/corruption/promethean">Promethean<IonRippleEffect /></Link></td>
-<td>Your body is slowly wasting away. As your body decays, you must gradually replace more and more of it with artificial components - corpse flesh, bone, wood, metal, or other exotic materials.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/corruption/psychometabolic">Psychometabolic<IonRippleEffect /></Link></td>
-<td>Those who survive a brush with cosmic phenomena, occult mysteries, or horrors from beyond the veil occasionally find psychic abilities awakening in their minds. Although potent, such power corrupts the body, subconscious mind, and emotions - often with disastrous results.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/corruption/shadowbound">Shadowbound<IonRippleEffect /></Link></td>
-<td>Darkness and fear are all that guide you. As the shadow consumes you, you are becoming a gaunt caricature of your former self, emptied of life and color.</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/corruption/vampirism">Vampirism<IonRippleEffect /></Link></td>
-<td>You salivate when blood is spilled, and struggle against the urge to sink your teeth into the necks of friends and innocents.</td>
-</tr>
-</tbody></table></ScrollContainer>
-<blockquote>
-<p><em>Back to <Link to="/rule/corruption">Corruption (Rules)</Link></em></p>
-</blockquote>
-</IonLabel></IonItem></IonList>};
 const _drugs = {title: "Drugs", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><blockquote>
 <p><em>Back to <Link to="/rule/drugs_and_addiction">Drugs and Addiction (Rules)</Link></em></p>
 </blockquote>
@@ -1246,4 +1170,4 @@ const _cheatsheet = {hasJL:true,title: "Cheatsheet", jsx: <IonList lines="full">
 <p>There is a limit to how many magic items you can utilize at the same time, based on "slots", <Link to="/rule/magic_items_on_the_body">explained here</Link>.</p>
 <p>Many items are clear as to which slot they occupy. For example, helmets will use the head slot and boots will use the feet slot. However, some items are ambiguous. Cloaks sometimes use the body slot, and sometimes use the shoulders slot. Gauntlets can use the hands slot or the wrist slot. Always check the item in question to be sure.</p>
 </IonLabel></IonItem></IonList>};
-export default {main:_main,rules:_rules,spells:_spells,races:_races,classes:_classes,magic:_magic,magic_wondrous:_magic_wondrous,skills:_skills,spell_definitions:_spell_definitions,umr:_umr,umr_types:_umr_types,umr_subtypes:_umr_subtypes,umr_all:_umr_all,umr_basic:_umr_basic,umr_offense:_umr_offense,umr_defense:_umr_defense,umr_statistics:_umr_statistics,monsters:_monsters,monster_families:_monster_families,monster_templates:_monster_templates,haunts:_haunts,corruptions:_corruptions,drugs:_drugs,ogc:_ogc,cheatsheet:_cheatsheet}
+export default {main:_main,rules:_rules,spells:_spells,races:_races,classes:_classes,magic:_magic,magic_wondrous:_magic_wondrous,skills:_skills,spell_definitions:_spell_definitions,umr:_umr,umr_types:_umr_types,umr_subtypes:_umr_subtypes,umr_all:_umr_all,umr_basic:_umr_basic,umr_offense:_umr_offense,umr_defense:_umr_defense,umr_statistics:_umr_statistics,monsters:_monsters,monster_families:_monster_families,monster_templates:_monster_templates,haunts:_haunts,drugs:_drugs,ogc:_ogc,cheatsheet:_cheatsheet}

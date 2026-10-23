@@ -159,7 +159,7 @@ const _thornapple = {title: "Thornapple", jsx: <><h2 id="eq-poison-thornapple-th
 const _belladonna = {title: "Belladonna", jsx: <><h2 id="eq-poison-belladonna-belladonna">Belladonna</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 111</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 558</Link></p>
 <p><strong>Price</strong> 100 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Ingested" save="Fort 14" freq="1/minute for 6 minutes" onset="10 minutes" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link> and target can attempt one save to cure a <Link to="/corruption/lycanthropy">lycanthropy</Link> affliction contracted in the past hour</>} cure1 icon="p" />
+<AffInfo start type="Ingested" save="Fort 14" freq="1/minute for 6 minutes" onset="10 minutes" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link> and target can attempt one save to cure a <Link to="/rule/lycanthropy">lycanthropy</Link> affliction contracted in the past hour</>} cure1 icon="p" />
 </>};
 const _bloodroot = {title: "Bloodroot", jsx: <><h2 id="eq-poison-bloodroot-bloodroot">Bloodroot</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 111</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 558</Link></p>
@@ -244,7 +244,7 @@ const _marvelous_fear_gas = {title: "Marvelous fear gas", jsx: <><h2 id="eq-pois
 const _medium_spider_venom = {title: "Medium Spider Venom", jsx: <><h2 id="eq-poison-medium_spider_venom-medium-spider-venom">Medium Spider Venom</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 560</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 111</Link></p>
 <p><strong>Price</strong> 150 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Injury" save="Fort 14" freq="1/round for 4 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link> and target can attempt one save to cure a <Link to="/corruption/lycanthropy">lycanthropy</Link> affliction contracted in the past hour</>} cure1 icon="p" />
+<AffInfo start type="Injury" save="Fort 14" freq="1/round for 4 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link> and target can attempt one save to cure a <Link to="/rule/lycanthropy">lycanthropy</Link> affliction contracted in the past hour</>} cure1 icon="p" />
 </>};
 const _rainbow_scarab_shell = {title: "Rainbow scarab shell", jsx: <><h2 id="eq-poison-rainbow_scarab_shell-rainbow-scarab-shell">Rainbow scarab shell</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 18</Link></p>
@@ -289,7 +289,7 @@ const _hazemind_concentrate = {title: "Hazemind concentrate", jsx: <><h2 id="eq-
 const _large_scorpion_venom = {title: "Large Scorpion Venom", jsx: <><h2 id="eq-poison-large_scorpion_venom-large-scorpion-venom">Large Scorpion Venom</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 560</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 111</Link></p>
 <p><strong>Price</strong> 200 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Injury" save="Fort 17" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link> and target can attempt one save to cure a <Link to="/corruption/lycanthropy">lycanthropy</Link> affliction contracted in the past hour</>} cure1 icon="p" />
+<AffInfo start type="Injury" save="Fort 17" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link> and target can attempt one save to cure a <Link to="/rule/lycanthropy">lycanthropy</Link> affliction contracted in the past hour</>} cure1 icon="p" />
 </>};
 const _spellscorch = {title: "Spellscorch", jsx: <><h2 id="eq-poison-spellscorch-spellscorch">Spellscorch</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 187</Link></p>

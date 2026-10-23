@@ -18,7 +18,7 @@ const _jezelda = {hasJL:true,title: "Jezelda", jsx: <><div className="jumpList" 
 <p><strong>Sources</strong> <Link to="/source/book_of_the_damned">Book of the Damned pg. 58</Link></p>
 <ol>
 <li><strong>Gift of the Moon (Sp)</strong> <Link to="/spell/charm_animal">charm animal</Link> 3/day, <Link to="/spell/summon_natures_ally_ii">summon nature's ally II</Link> (1 fiendish wolf or 1d3 wolves only) 2/day, or <Link to="/spell/beast_shape_i">beast shape I</Link> 1/day</li>
-<li><strong>Afflicted Lycanthrope (Su)</strong> You contract <Link to="/corruption/lycanthropy">lycanthropy</Link> and become a werewolf (even if you couldn't normally gain that template). If you are already a werewolf, you become a true lycanthrope. If you are already a true lycanthrope, you gain a +2 bonus to your Strength and Constitution scores.</li>
+<li><strong>Afflicted Lycanthrope (Su)</strong> You contract <Link to="/rule/lycanthropy">lycanthropy</Link> and become a werewolf (even if you couldn't normally gain that template). If you are already a werewolf, you become a true lycanthrope. If you are already a true lycanthrope, you gain a +2 bonus to your Strength and Constitution scores.</li>
 <li><strong>True Lycanthrope (Su)</strong> You can use your lycanthropic change shape ability as a swift action. You become a true lycanthrope if you were an afflicted lycanthrope. If you are already a true lycanthrope, you gain another +2 bonus to your Strength and Constitution scores.</li>
 </ol>
 <h3 id="faith-jezelda-boons-sentinel">Boons: Sentinel</h3>

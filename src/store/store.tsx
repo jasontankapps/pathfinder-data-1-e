@@ -511,13 +511,13 @@ const migrations = {
 				title,
 				// Remove any bookmark leading to ability/banners
 				contents: c.filter((pair) => {
-					return pair[1] !== "ability/banners";
+					return pair[1] !== "/ability/banners";
 				}),
 				hidden
 			}
 		});
 		// Remove all record of ability/banners (if any)
-		delete catalog["ability/banners"];
+		delete catalog["/ability/banners"];
 
 		return {
 			...unchangedState,
@@ -528,44 +528,86 @@ const migrations = {
 			}
 		};
 	},
-	28: (state: any) => {
+	32: (state: any) => {
+		// 28 has been rolled into this and 29-31 were duds.
 		// Fix all link changes since the last update
 		const {displayTable: dt, bookmarks, ...unchangedState} = state;
 		const displayTable = {...dt};
 		// Remove info regarding deleted table
 		delete displayTable["construct mods table"];
 		// FIX:
-		//   deleted all constructmod links, moved info to rules
+		//   deleted all constructmod and corruption links, moved info to rules; edited corruption rules
 		const {order, db: oldDB, catalog: oldCat} = bookmarks;
 		const db: BookmarkDB = {};
 		const catalog: Catalog = {...oldCat};
 
 		const linksBasic: string[][] = [];
 		const linksComplex: string[][] = [];
+		const linksCorruptions: string[][] = [];
+		const linksOther: (string[] | string)[][] = [];
 		// Replace links in bookmark groups; delete duplicate entries that may occur
 		Object.keys(oldDB).forEach(id => {
 			const lb = new Set<string>;
 			const lc = new Set<string>;
+			const cc = new Set<string>;
+			const verbatim = new Set<string>;
+			const other: string[][] = [];
+			let manifestations = false;
 			const {color, title, contents:c, hidden} = oldDB[id] as BookmarkGroup;
 			db[id] = {
 				color,
 				title,
-				// Remove any bookmark leading to ability/banners
 				contents: c.map((pair: [string, string]) => {
 					const [link, title] = pair;
-					if(link.startsWith("constructmod/")) {
+					// Redirect constructmod links
+					if(link.startsWith("/constructmod/")) {
 						if(link.match(/ability_score_increase|resistances|(armor|hit_dice|movement|spell_like_ability|weapon)_modification/)) {
 							if(lb.has(link)) {
 								return 0;
 							}
 							lb.add(link);
-							return ["rule/basic_modifications", title] as [string, string];
+							return ["/rule/basic_modifications", title] as [string, string];
 						}
 						if(lc.has(link)) {
 							return 0;
 						}
 						lc.add(link);
-						return ["rule/complex_modifications", title] as [string, string];
+						return ["/rule/complex_modifications", title] as [string, string];
+					}
+					// Redirect corruption links
+					if(link.startsWith("/corruption/")) {
+						const to = link.slice(12);
+						if(cc.has(to)) {
+							return 0;
+						}
+						cc.add(to);
+						return ["/rule/" + to, title] as [string, string];
+					} else if (link === "/main/corruptions") {
+						verbatim.add(link);
+						other.push([link, "/rule/corruptions"]);
+						return ["/rule/corruptions", title] as [string, string];
+					} else if (link === "/rule/contracting_a_corruption" || link === "/rule/the_corruptions_progress") {
+						if(verbatim.has(link)) {
+							return 0;
+						}
+						verbatim.add(link);
+						other.push([link, "/rule/corruption_progression"]);
+						return ["/rule/corruption_progression", title] as [string, string];
+					} else if (link === "/rule/manifestations") {
+						// rule/manifestations was a pre-existing link, so it may be in bookmarks already
+						// Check if this was already saved
+						if(manifestations || verbatim.has("/rule/manifestation_level")) {
+							return 0;
+						}
+						manifestations = true;
+						// Continue...
+					} else if (link === "/rule/manifestation_level") {
+						if(manifestations) {
+							return 0;
+						}
+						verbatim.add(link);
+						other.push([link, "/rule/manifestations"]);
+						return ["/rule/manifestations", title] as [string, string];
 					}
 					return pair;
 				}).filter(pair => pair !== 0),
@@ -573,6 +615,8 @@ const migrations = {
 			}
 			lb.size && linksBasic.push([id, ...lb]);
 			lc.size && linksComplex.push([id, ...lc]);
+			cc.size && linksCorruptions.push([id, ...cc]);
+			verbatim.size && linksOther.push([id, ...other]);
 		});
 		// Adjust catalog
 		const toRemove = new Set<string>;
@@ -583,7 +627,7 @@ const migrations = {
 				group.forEach(link => toRemove.add(link));
 				ids.push(id);
 			});
-			catalog["rule/basic_modifications"] = ids;
+			catalog["/rule/basic_modifications"] = ids;
 		}
 		if(linksComplex.length) {
 			const ids: string[] = [];
@@ -592,7 +636,31 @@ const migrations = {
 				group.forEach(link => toRemove.add(link));
 				ids.push(id);
 			});
-			catalog["rule/complex_modifications"] = ids;
+			catalog["/rule/complex_modifications"] = ids;
+		}
+		if(linksCorruptions.length) {
+			linksCorruptions.forEach(group => {
+				const id = group.shift()!;
+				group.forEach(link => {
+					toRemove.add("/corruption/" + link);
+					const to = "/rule/" + link;
+					const newIds = catalog[to] || [] as string[];
+					newIds.push(id);
+					catalog[to] = newIds;
+				});
+			});
+		}
+		if(linksOther.length) {
+			linksOther.forEach(group => {
+				const id = group.shift()!;
+				group.forEach(double => {
+					const [from, to] = double as string[];
+					toRemove.add(from);
+					const newIds = catalog[to] || [] as string[];
+					newIds.push(id as string);
+					catalog[to] = newIds;
+				});
+			});
 		}
 		toRemove.forEach(link => delete catalog[link]);
 		return {
@@ -621,7 +689,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<InitialAppState> = {
 	key: 'root-pf-data',
-	version: 28,
+	version: 32,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),

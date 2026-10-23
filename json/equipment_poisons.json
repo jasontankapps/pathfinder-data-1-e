@@ -434,7 +434,7 @@
 			"",
 			"**Price** 100 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=Ingested saveF=14 onset=\"10 minutes\" freqM=6 effStr=\"1d2\" effExtra=\"target can attempt one save to cure a ‹corruption/lycanthropy› affliction contracted in the past hour\" cure1}"
+			"::aff{iconP start type=Ingested saveF=14 onset=\"10 minutes\" freqM=6 effStr=\"1d2\" effExtra=\"target can attempt one save to cure a ‹rule/lycanthropy› affliction contracted in the past hour\" cure1}"
 		]
 	},
 	"bloodroot": {
@@ -674,7 +674,7 @@
 			"",
 			"**Price** 150 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=Injury saveF=14 freqR=4 effStr=\"1d2\" effExtra=\"target can attempt one save to cure a ‹corruption/lycanthropy› affliction contracted in the past hour\" cure1}"
+			"::aff{iconP start type=Injury saveF=14 freqR=4 effStr=\"1d2\" effExtra=\"target can attempt one save to cure a ‹rule/lycanthropy› affliction contracted in the past hour\" cure1}"
 		]
 	},
 	"rainbow_scarab_shell": {
@@ -795,7 +795,7 @@
 			"",
 			"**Price** 200 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=Injury saveF=17 freqR=6 effStr=\"1d2\" effExtra=\"target can attempt one save to cure a ‹corruption/lycanthropy› affliction contracted in the past hour\" cure1}"
+			"::aff{iconP start type=Injury saveF=17 freqR=6 effStr=\"1d2\" effExtra=\"target can attempt one save to cure a ‹rule/lycanthropy› affliction contracted in the past hour\" cure1}"
 		]
 	},
 	"scorpion_venom": { "redirect": "large_scorpion_venom" },

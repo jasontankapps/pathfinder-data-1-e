@@ -1,5 +1,9 @@
 import Link from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
+import {Block,Row,Cell} from '../../components/Block';
 import ScrollContainer from '../../components/ScrollContainer';
+import InnerLink from '../../components/InnerLink';
 const _horror_rules = {title: "Horror Rules", parent_topics: ["gm_specific_campaigns"], siblings: ["aquatic_adventures_aa","caravans","horror_rules","intrigue_systems","kingdoms_and_war","militias","mythic_rules","occult_rules","planar_adventures","the_first_world","seafaring_and_piracy_rules","technological_equipment"], subtopics: ["horror_characters","fear_ha","sanity","corruption","curses_ha","horrific_diseases","horror_environments","fleshwarping","madness","running_horror_adventures"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 8</Link></p>
 <p>The elements of a horror game might be gruesome, dreary, unnatural, or frightful, but they have the biggest impact if the players aren't quite expecting them. The rules in this section support some tried-and-true elements of horror that need new rules elements to be fully realized for a horror campaign. Though these rules are a good start for a GM running a horror campaign, it is equally important to set the right tone with how they're used.</p>
 <h3 id="rule-horror_rules-other-horror-rules">Other Horror Rules</h3>
@@ -210,12 +214,11 @@ const _reducing_sanity_damage = {title: "Reducing Sanity Damage", parent_topics:
 <h3 id="rule-reducing_sanity_damage-tenacious-sanity">Tenacious Sanity</h3>
 <p>In a particularly horror-themed game, the GM may consider removing some or all of the magical options to reduce sanity damage, relying on rest alone to recover sanity. For the most terror, she could even make sanity damage irrecoverable. In these cases, the GM should consider increasing the characters' sanity scores and sanity edges to ensure the heroes can make it through enough of the adventure before they snap.</p>
 </>};
-const _corruption = {title: "Corruption", parent_topics: ["gm_specific_campaigns","horror_rules"], siblings: ["horror_characters","fear_ha","sanity","corruption","curses_ha","horrific_diseases","horror_environments","fleshwarping","madness","running_horror_adventures"], subtopics: ["corruption_glossary","contracting_a_corruption","manifestations","manifestation_level","the_corruptions_progress"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 14</Link></p>
+const _corruption = {title: "Corruption", parent_topics: ["gm_specific_campaigns","horror_rules"], siblings: ["horror_characters","fear_ha","sanity","corruption","curses_ha","horrific_diseases","horror_environments","fleshwarping","madness","running_horror_adventures"], subtopics: ["corruption_glossary","corruption_progression","manifestations","corruptions","corruption_variants"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 14</Link></p>
 <p>Even the most pure creature can succumb to tides of darkness. What begins as a minor malady or errant idea can grow into something malignant - a spreading corruption that can obscure your morals, cloud your judgment, and ultimately devour your soul. There are a number of different types of corruptions, from the hunger of vampirism to the horrifying transformation of the promethean. Living with a corruption is often a terrifying experience, but also offers the temptation of dark gifts. Hosts sometimes choose not to fight the corruption, but rather accept it and allow it to progress. These unfortunate folk either succumb to lust for the corruption's power or attempt to control the stain of corruption and use its gifts for some greater good.</p>
-<p>Each corruption detailed on the pages that follow features a general description, followed by its catalysts and manifestations. The catalyst section explains how a creature might contract the corruption, how it progresses, and how it can be cured. When a creature first contracts a corruption and its manifestation level increases, the corrupted creature gains manifestations. Manifestations carry both beneficial gifts and detrimental stains. Also, as the manifestation level increases, the stains and gifts of previous manifestations might grow more powerful. Lastly, as a creature's manifestation level increases, so does the possibility of the corruption taking hold entirely, defiling its host forever.</p>
-<p>The full list of corruptions is <Link to="/main/corruptions">here</Link>.</p>
+<p>Each corruption features a general description, followed by its catalysts and manifestations. The catalyst section explains how a creature might contract the corruption, how it progresses, and how it can be cured. When a creature first contracts a corruption and its manifestation level increases, the corrupted creature gains manifestations. Manifestations carry both beneficial gifts and detrimental stains. Also, as the manifestation level increases, the stains and gifts of previous manifestations might grow more powerful. Lastly, as a creature's manifestation level increases, so does the possibility of the corruption taking hold entirely, defiling its host forever.</p>
 </>};
-const _corruption_glossary = {title: "Corruption Glossary", parent_topics: ["gm_specific_campaigns","horror_rules","corruption"], siblings: ["corruption_glossary","contracting_a_corruption","manifestations","manifestation_level","the_corruptions_progress"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 14</Link></p>
+const _corruption_glossary = {title: "Corruption Glossary", parent_topics: ["gm_specific_campaigns","horror_rules","corruption"], siblings: ["corruption_glossary","corruption_progression","manifestations","corruptions","corruption_variants"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 14</Link></p>
 <p>A short list of terms related to corruptions follows.</p>
 <p><strong className="hl">Catalyst:</strong> The inciting incident that corrupted you in the game's story, combined with ways you can progress toward total corruption.</p>
 <p><strong className="hl">Corruption:</strong> A dark manifestation of evil or alien influence that changes you over time.</p>
@@ -225,26 +228,1332 @@ const _corruption_glossary = {title: "Corruption Glossary", parent_topics: ["gm_
 <p><strong className="hl">Manifestation Level:</strong> This is a measure of how much your corruption has changed your body and mind. Your manifestation level equals the number of manifestations you have.</p>
 <p><strong className="hl">Stain:</strong> A negative effect granted by a manifestation of your corruption.</p>
 </>};
-const _contracting_a_corruption = {title: "Contracting a Corruption", parent_topics: ["gm_specific_campaigns","horror_rules","corruption"], siblings: ["corruption_glossary","contracting_a_corruption","manifestations","manifestation_level","the_corruptions_progress"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 14</Link></p>
-<p>The catalyst section of each corruption offers a number of possible methods for contracting that corruption. Once you contract a corruption, you immediately gain a manifestation. Your manifestation level becomes 1, and your number of manifestations and your manifestation level can increase as described in <Link to="/rule/manifestation_level">Manifestation Level</Link>. You also draw closer to losing your soul, as represented by your corruption stage. This is described under <Link to="/rule/the_corruptions_progress">The Corruption's Progress</Link>.</p>
+const _corruption_progression = {title: "Corruption Progression", parent_topics: ["gm_specific_campaigns","horror_rules","corruption"], siblings: ["corruption_glossary","corruption_progression","manifestations","corruptions","corruption_variants"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 14</Link></p>
+<h3 id="rule-corruption_progression-contracting-a-corruption">Contracting a Corruption</h3>
+<p>The catalyst section of each corruption offers a number of possible methods for contracting that corruption. Once you contract a corruption, you immediately gain a manifestation. Your manifestation level becomes 1, and your number of manifestations and your manifestation level can increase as described in <Link to="/rule/manifestations">Manifestation Level</Link>. You also draw closer to losing your soul, as represented by your corruption stage.</p>
 <p><strong className="hl">Multiple Corruptions:</strong> Typically, you can have only one corruption. If some exceedingly rare condition arises that would cause you to be affected by more than one, you typically gain stains from both corruptions' manifestations but gifts from only the first one you contracted, and the secondary corruption also grants manifestations at a slower rate. When the text refers to your manifestation level, use only your manifestation level for the second corruption, not the sum of all your manifestation levels.</p>
+<h3 id="rule-corruption_progression-the-corruption-progress">The Corruption Progress</h3>
+<p>Every corruption has an associated saving throw. Each time you fail it, your corruption progresses to the next corruption stage. Each stage causes a more significant change within you, until you become completely irredeemable at corruption stage 3. When you gain a corruption, you begin at what is effectively stage 0, with no direct penalties. You must attempt a saving throw when you are being pulled toward darkness, and these saves are usually spread over a long period of time (often weeks or months). As such, abilities that allow or force rerolls (or rolling twice and taking the higher or lower result) can never be used on these saving throws, and temporary bonuses don't apply on the progression saving throw, even if they are long-lasting.</p>
 </>};
-const _manifestations = {title: "Manifestations", parent_topics: ["gm_specific_campaigns","horror_rules","corruption"], siblings: ["corruption_glossary","contracting_a_corruption","manifestations","manifestation_level","the_corruptions_progress"], subtopics: ["corruption_variants"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 14</Link></p>
-<p>You gain a manifestation of your curse when you first contract a corruption, and gain more at later levels. Each manifestation includes both a gift and a stain (though campaign variants can change how you acquire these gifts and stains as described in the Variants section below). Many manifestations have prerequisites that limit them to characters farther along in their corruptions. A prerequisite marked with an asterisk (*) is another manifestation in the same section.</p>
-<p>Unless stated otherwise, the DC for gifts that allow a saving throw is equal to 10 + 1/2 your level + your <Link to="/rule/manifestation_level">manifestation level</Link>. You can have a maximum of nine manifestations.</p>
-</>};
-const _corruption_variants = {title: "Corruption Variants", parent_topics: ["gm_specific_campaigns","horror_rules","corruption","manifestations"], siblings: ["corruption_variants"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 14</Link></p>
-<p>A corruption's gift and stain don't have to manifest together. Your GM can use the following variants to alter how gifts and stains are gained.</p>
-<p><strong className="hl">Useful Corruption:</strong> In this form of campaign, your corruption's gifts allow you to fight sinister forces. You select which manifestation to take when you gain the corruption and with each increase to your manifestation level. You receive the gift, but you don't have to take the stain. If you refuse the stain, that manifestation doesn't increase your manifestation level, which could prevent you from qualifying for additional manifestations. You can accept the stain of your manifestations at any time, immediately increasing your manifestation level.</p>
-<p><strong className="hl">Vile Corruption:</strong> In this form of campaign, corruptions are terrible burdens to be purged as soon as possible. When you contract a corruption or your manifestation level increases, the GM decides which manifestation you gain. You always acquire the stain, but you can choose not to take the gift. If you refuse the gift, you gain a +1 circumstance bonus on saving throws related to the corruption progressing. For each additional gift you refuse, this bonus increases by 1. You can accept the gifts of your manifestations at any time, but once you do, you immediately lose the corresponding bonus on saving throws.</p>
-</>};
-const _manifestation_level = {title: "Manifestation Level", parent_topics: ["gm_specific_campaigns","horror_rules","corruption"], siblings: ["corruption_glossary","contracting_a_corruption","manifestations","manifestation_level","the_corruptions_progress"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 15</Link></p>
-<p>Each creature with a corruption has a manifestation level, which is normally equal to the number of manifestations the corrupted creature has (see <Link to="/rule/corruption_variants">Variants</Link> for exceptions). Sometimes gifts and stains become more extreme as a creature's manifestation level increases.</p>
+const _manifestations = {title: "Manifestations", parent_topics: ["gm_specific_campaigns","horror_rules","corruption"], siblings: ["corruption_glossary","corruption_progression","manifestations","corruptions","corruption_variants"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 14</Link></p>
+<p>You gain a manifestation of your curse when you first contract a corruption, and gain more at later levels. Each manifestation includes both a gift and a stain (though campaign variants can change how you acquire these gifts and stains as described in the Variants section below). Many manifestations have prerequisites that limit them to characters farther along in their corruptions.</p>
+<p>Unless stated otherwise, the DC for gifts that allow a saving throw is equal to 10 + 1/2 your level + your <strong>manifestation level.</strong> You can have a maximum of nine manifestations.</p>
+<h3 id="rule-manifestations-manifestation-level">Manifestation Level</h3>
+<p>Each creature with a corruption has a manifestation level, which is normally equal to the number of manifestations the corrupted creature has (see <Link to="/rule/corruption_variants">Corruption Variants</Link> for exceptions). Sometimes gifts and stains become more extreme as a creature's manifestation level increases.</p>
 <p>You gain a new manifestation roughly every 2 levels. GMs can introduce corruptions as early as your 1st character level. A standard rate of corruption starts with a PC gaining the first stain at 1st level, the second at 3rd level, and another at 5th, 7th, 9th, and so on. Because you are limited to nine manifestations, your manifestation level can't exceed 9th.</p>
 <p>This standard rate of acquisition is a guideline rather than a strict rule. Many corruptions feature story considerations that could speed up or slow down the process, and individual GMs can alter the speed to serve the campaign's narrative. When introducing a corruption at higher levels, a GM could accelerate the rate at which the first manifestations are acquired or grant multiple manifestations at once. In any case, the GM decides when a corruption progresses, not you (though variants can alter this, as described in Variants).</p>
 </>};
-const _the_corruptions_progress = {title: "The Corruption's Progress", parent_topics: ["gm_specific_campaigns","horror_rules","corruption"], siblings: ["corruption_glossary","contracting_a_corruption","manifestations","manifestation_level","the_corruptions_progress"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 15</Link></p>
-<p>Every corruption has an associated saving throw. Each time you fail it, your corruption progresses to the next corruption stage. Each stage causes a more significant change within you, until you become completely irredeemable at corruption stage 3. When you gain a corruption, you begin at what is effectively stage 0, with no direct penalties. You must attempt a saving throw when you are being pulled toward darkness, and these saves are usually spread over a long period of time (often weeks or months). As such, abilities that allow or force rerolls (or rolling twice and taking the higher or lower result) can never be used on these saving throws, and temporary bonuses don't apply on the progression saving throw, even if they are long-lasting.</p>
+const _corruptions = {title: "List of Corruptions", parent_topics: ["gm_specific_campaigns","horror_rules","corruption"], siblings: ["corruption_glossary","corruption_progression","manifestations","corruptions","corruption_variants"], subtopics: ["aboleth","accursed","amoral","deep_one","demonic","ghoul","hellbound","hive","lich","lycanthropy","plagued","possessed","promethean","psychometabolic","shadowbound","vampirism"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 14</Link></p>
+<p>Each corruption features a general description, followed by its catalysts and manifestations. The catalyst section explains how a creature might contract the corruption, how it progresses, and how it can be cured. When a creature first contracts a corruption and its manifestation level increases, the corrupted creature gains manifestations. Manifestations carry both beneficial gifts and detrimental stains. Also, as the manifestation level increases, the stains and gifts of previous manifestations might grow more powerful. Lastly, as a creature's manifestation level increases, so does the possibility of the corruption taking hold entirely, defiling its host forever.</p>
+<ScrollContainer id="rule-corruptions--table-0"><table>
+<thead>
+<tr>
+<th>Corruption</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Aboleth</td>
+<td>The veiled masters have long controlled countless minions in the Inner Sea region's political arenas.</td>
+</tr>
+<tr>
+<td>Accursed</td>
+<td>A foul curse has a deep hold on your body and soul. Your resentment toward the one who cursed you has taken on a life of its own. You notice slights against you by everyone around you, and can gain solace only by punishing them.</td>
+</tr>
+<tr>
+<td>Amoral</td>
+<td>When an otherwise upstanding person turns to evil deeds to achieve his goals - whether by accident, due to sinister influence, or through desperation - he begins to slip, every excuse and justification furthering his descent into evil.</td>
+</tr>
+<tr>
+<td>Deep One</td>
+<td>The waves call to you, like a siren's song echoing across crashing surf.</td>
+</tr>
+<tr>
+<td>Demonic</td>
+<td>Close contact with the Abyss or demons clouds your mind and twists your body.</td>
+</tr>
+<tr>
+<td>Ghoul</td>
+<td>A hunger for the flesh of the living grows more every day, until every sentient creature seems no more than a meal.</td>
+</tr>
+<tr>
+<td>Hellbound</td>
+<td>The pit of Hell waits for your damned soul.</td>
+</tr>
+<tr>
+<td>Hive</td>
+<td>Your body is a vessel for an invasive otherworldly species that seek to spread across the stars and devour all other life.</td>
+</tr>
+<tr>
+<td>Lich</td>
+<td>Your attempt to transition into unlife has gone horribly awry and your soul is trapped. Lich corruption also works for becoming another sort of corporeal undead (except ghouls and vampires, which have their own corruptions).</td>
+</tr>
+<tr>
+<td>Lycanthropy</td>
+<td>There is a sound pulsing through your blood, a call to the wild and savage places of the world, where you are free to hunt and to kill to satisfy your bloodlust. You are filled with the desire to rend foes limb from limb with tooth and claw.</td>
+</tr>
+<tr>
+<td>Plagued</td>
+<td>Disease can become a corruption when it causes long-lasting and physical changes to the body.</td>
+</tr>
+<tr>
+<td>Possessed</td>
+<td>Whether it's an actual spirit or an alternate personality, another mind vies with you for control of your body.</td>
+</tr>
+<tr>
+<td>Promethean</td>
+<td>Your body is slowly wasting away. As your body decays, you must gradually replace more and more of it with artificial components - corpse flesh, bone, wood, metal, or other exotic materials.</td>
+</tr>
+<tr>
+<td>Psychometabolic</td>
+<td>Those who survive a brush with cosmic phenomena, occult mysteries, or horrors from beyond the veil occasionally find psychic abilities awakening in their minds. Although potent, such power corrupts the body, subconscious mind, and emotions - often with disastrous results.</td>
+</tr>
+<tr>
+<td>Shadowbound</td>
+<td>Darkness and fear are all that guide you. As the shadow consumes you, you are becoming a gaunt caricature of your former self, emptied of life and color.</td>
+</tr>
+<tr>
+<td>Vampirism</td>
+<td>You salivate when blood is spilled, and struggle against the urge to sink your teeth into the necks of friends and innocents.</td>
+</tr>
+</tbody></table></ScrollContainer>
+</>};
+const _aboleth = {hasJL:true,title: "Aboleth", parent_topics: ["gm_specific_campaigns","horror_rules","corruption","corruptions"], siblings: ["aboleth","accursed","amoral","deep_one","demonic","ghoul","hellbound","hive","lich","lycanthropy","plagued","possessed","promethean","psychometabolic","shadowbound","vampirism"], jsx: <><div className="jumpList" id="rule-aboleth-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="rule-aboleth-catalyst">Catalyst</InnerLink></li><li><InnerLink toTop to="rule-aboleth-progression">Progression</InnerLink></li><li><InnerLink toTop to="rule-aboleth-removing-the-corruption">Removing the Corruption</InnerLink></li><li><InnerLink toTop to="rule-aboleth-manifestations">Manifestations</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms pg. 54-55</Link><br/>The veiled masters have long controlled countless minions in the Inner Sea region's political arenas.</p>
+<h3 id="rule-aboleth-catalyst" data-hash-target>Catalyst</h3>
+<p>Sinister agents of the eldritch <Link to="/monster/aboleth">aboleth</Link> empire have brainwashed you.</p>
+<div style={{clear:"both"}}></div><h3 id="rule-aboleth-progression" data-hash-target>Progression</h3>
+<p>Whenever you have the opportunity to gather intelligence valuable in political intrigue or relevant to the specific interests of your brainwasher (GM's discretion), you must attempt a Will saving throw (DC = 15 + your manifestation level). Failure means you black out and unwittingly attempt to seize the information when you have the best chance to do so undetected in the next week. Whether or not you manage to do so depends on the GM's discretion and your abilities, but if obtaining the information is obviously beyond your means, you may instead work to undermine the defenses surrounding the intelligence so you or another corrupted agent can attempt to gain the information at a later date. If you succeed at this saving throw, you resist the unexpected urge, but the DC of future saving throws against your corruption's progression increases by 2. This increase is cumulative, but it reverses when you fail the saving throw or your corruption progresses. Whenever you make a significant sacrifice to assist your aboleth master or advance its agenda in a way that harms innocents, your corruption progresses.</p>
+<Block size="small" hl>
+<Row><Cell>Corruption Stage 1</Cell><Cell>The first time you perform such an action, you find it harder to question your own motives. You take a -2 penalty on skill checks made to investigate your corruption, and your alignment shifts one step toward lawful evil.</Cell></Row>
+<Row><Cell>Corruption Stage 2</Cell><Cell>The second time you perform such an act, the skill check penalty doubles, and your alignment becomes lawful evil.</Cell></Row>
+<Row><Cell>Corruption Stage 3</Cell><Cell>The third time you perform such an act, you become a willing pawn to the veiled masters under the GM's control.</Cell></Row></Block>
+<h3 id="rule-aboleth-removing-the-corruption" data-hash-target>Removing the Corruption</h3>
+<p>Psychic conditioning can reverse aboleth corruption, but only if the implanted agenda is understood in detail.</p>
+<h3 id="rule-aboleth-manifestations" data-hash-target>Manifestations</h3>
+<p>The following are manifestations of the aboleth corruption.</p>
+<Ability id="fathomless-psyche" icon={["def","down"]}>
+<Pair single id="fathomless-psyche" flavor="Your memory becomes increasingly unreliable.">Fathomless Psyche</Pair>
+<Pair title="Gift">Your mind contains gaps that serve as traps to those who contact it. You gain a +2 bonus on Will saving throws against mind-affecting effects. Anyone who reads your thoughts or emotions must succeed at a Will saving throw or become <Link to="/misc/confused">confused</Link> for 1 round. A creature can only be affected by your <em>fathomless psyche</em> once every 24 hours.</Pair>
+<Pair title="Stain">The bonus from your gift becomes a -2 penalty to Will saving throws against aboleths and their kind (including those they have corrupted).</Pair>
+</Ability>
+<Ability id="forgettable" icon={["magic","down"]}>
+<Pair single id="forgettable" flavor="Your psychic wake burns away all memory of your passing.">Forgettable</Pair>
+<Pair title="Prerequisites">Manifestation level 6th</Pair>
+<Pair title="Gift">You gain the ability to use <Link to="/spell/hidden_presence">hidden presence</Link> as a <Link to="/feat/quicken_spell_like_ability">quickened spell-like ability</Link> once per day. You can use this ability twice per day at corruption stage 2, and up to three times a day at corruption stage 3.</Pair>
+<Pair title="Stain">People find you creepy but can't explain why. Living creatures gain a +4 morale bonus on <Link to="/skill/perception">Perception</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks to notice you or to see through your Bluff checks.</Pair>
+</Ability>
+<Ability id="inexplicable-illusions" icon={["magic","down"]}>
+<Pair single id="inexplicable-illusions" flavor="Your lies distort the world around you.">Inexplicable Illusions</Pair>
+<Pair title="Prerequisites">Manifestation level 5th</Pair>
+<Pair title="Gift"><p>Once per day, you can manifest an illusion via either <Link to="/spell/audiovisual_hallucination">audiovisual hallucination</Link> or <Link to="/spell/hallucinatory_terrain">hallucinatory terrain</Link>.</p>
+<p>At manifestation level 7th, you can also choose to create your illusion via <Link to="/spell/mirage_arcana">mirage arcana</Link> or <Link to="/spell/persistent_image">persistent image</Link>.</p>
+<p>At manifestation level 9th, you can choose <Link to="/spell/programmed_image">programmed image</Link> or <Link to="/spell/veil">veil</Link>. Regardless of your options, you can only create one illusion per day via this ability. The save DC for these illusions is equal to 10 + your manifestation level + the spell's level.</p>
+</Pair>
+<Pair title="Stain">You cannot discuss your aboleth corruption with anyone, whether verbally or by other means, unless you succeed at a Will saving throw. You can attempt this saving throw once per day. Aboleths and their kin are immune to your illusions.</Pair>
+</Ability>
+<Ability id="malleable-flesh" icon={["magic","down"]}>
+<Pair single id="malleable-flesh" flavor="Your body twists to conform to your deceptions.">Malleable Flesh</Pair>
+<Pair title="Prerequisites">Manifestation level 3rd</Pair>
+<Pair title="Gift"><p>With 10 minutes of concentration, your flesh takes on a new arrangement, as per <Link to="/spell/alter_self">alter self</Link>.</p>
+<p>At manifestation level 5th, you can use this ability to assume the shape of a specific individual.</p>
+<p>At manifestation level 7th, this ability also functions as <Link to="/spell/monstrous_physique_i">monstrous physique I</Link>.</p>
+</Pair>
+<Pair title="Stain">The process of shifting your flesh is painful, and you are <Link to="/misc/sickened">sickened</Link> while concentrating on making the change and for 10 minutes afterward.</Pair>
+</Ability>
+<Ability id="porous-mind" icon={["magic","power","down"]}>
+<Pair single id="porous-mind" flavor="Your mind is full of holes.">Porous Mind</Pair>
+<Pair title="Prerequisites">Manifestation level 2nd</Pair>
+<Pair title="Gift"><p>You can hear the thoughts of others when you listen closely. Whenever you succeed at a Sense Motive check to get a hunch about a creature, you can attempt to read that creature's mind as if using <Link to="/spell/detect_anxieties">detect anxieties</Link>, <Link to="/spell/detect_desires">detect desires</Link>, <Link to="/spell/detect_thoughts">detect thoughts</Link>, or <Link to="/spell/sense_madness">sense madness</Link> as a <strong className="hl">standard action</strong> (revealing all the information from 3 rounds of concentration).</p>
+<p>At manifestation level 6th, you can communicate telepathically with anyone within 30 feet who shares a language with you.</p>
+</Pair>
+<Pair title="Stain">The constant psychic noise makes it hard for you to stay focused. For 1 hour after you learn information about a creature with any divination spell or effect (including this manifestation), you take a -4 penalty on <Link to="/rule/concentration">concentration</Link> and <Link to="/skill/knowledge">Knowledge</Link> checks.</Pair>
+</Ability>
+<Ability id="preternatural-persuasion" icon={["magic","down"]}>
+<Pair single id="preternatural-persuasion" flavor="Your brainwashing is contagious.">Preternatural Persuasion</Pair>
+<Pair title="Prerequisites">Manifestation level 3rd</Pair>
+<Pair title="Gift"><p>Once per day, when you succeed at a <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, or <Link to="/skill/intimidate">Intimidate</Link> check against a target, you can weave a <Link to="/spell/suggestion">suggestion</Link>, as per the spell, into your conversation as a <strong className="hl">full-round action</strong>.</p>
+<p>At manifestation level 5th, you can instead use <Link to="/spell/modify_memory">modify memory</Link>.</p>
+<p>At manifestation level 9th, you can instead use <Link to="/spell/dominate_person">dominate person</Link>.</p>
+</Pair>
+<Pair title="Stain">Aboleths and their kin can read your surface thoughts by concentrating; a successful Will saving throw negates this intrusion. An aboleth or related creature can issue a <em>suggestion</em> once per day at any range to anyone whose actions are currently controlled by your mind-affecting effects, automatically overriding your control if the orders conflict.</Pair>
+</Ability>
+<Ability id="skill-conditioning" icon={["power","boost","down"]}>
+<Pair single id="skill-conditioning" flavor="You have skills you do not remember learning.">Skill Conditioning</Pair>
+<Pair title="Gift"><p>You speak and understand Aklo. Choose a skill. You are treated as having ranks equal to your Hit Dice in that skill and it is a class skill for you.</p>
+<p>At manifestation level 5th, you can add a second skill with ranks equal to your Hit Dice.</p>
+</Pair>
+<Pair title="Stain">Your mind works in ways that are unsettlingly alien to mortals. You take a -4 penalty on Diplomacy and Sense Motive checks against non-aberrations.</Pair>
+</Ability>
+<Ability id="traitor-to-the-surface-world" icon={["boost","def","down"]}>
+<Pair single id="traitor-to-the-surface-world" flavor="The world of sunlight has grown foreign to you.">Traitor to the Surface World</Pair>
+<Pair title="Gift">You feel at home in the water, and as long as you are swimming you gain a +2 bonus on initiative checks, Reflex saving throws, and all Dexterity-based skill checks. You gain a +4 bonus on Swim checks.</Pair>
+<Pair title="Stain">Your skin is painfully sensitive to dryness. You take a -1 penalty on attack rolls and Fortitude saving throws when you are not underwater; this penalty increases by 1 for every 24 hours you go without spending at least 1 hour underwater, to a maximum penalty of -4 after 4 days spent out of water.</Pair>
+</Ability>
+<Ability id="unconscious-agenda" icon={["def","roll","down"]}>
+<Pair single id="unconscious-agenda" flavor="You can suppress intrusive memories or thoughts.">Unconscious Agenda</Pair>
+<Pair title="Gift">As an <strong className="hl">immediate action</strong> once per day, when you are subjected to any compulsion effect that allows a saving throw, you can choose to reroll that saving throw after you roll but before you learn the results of your first roll. You can use this ability twice per day at manifestation level 4th, and three times per day at manifestation level 5th, but never more than once per saving throw attempt.</Pair>
+<Pair title="Stain">You become more vulnerable to mental influence from aberrations and take a -2 penalty on saving throws against compulsions from aberrations. You can still use your reroll ability against such saving throws, but the -2 penalty applies to all of your rolls.</Pair>
+</Ability>
+</>};
+const _accursed = {hasJL:true,title: "Accursed", parent_topics: ["gm_specific_campaigns","horror_rules","corruption","corruptions"], siblings: ["aboleth","accursed","amoral","deep_one","demonic","ghoul","hellbound","hive","lich","lycanthropy","plagued","possessed","promethean","psychometabolic","shadowbound","vampirism"], jsx: <><div className="jumpList" id="rule-accursed-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="rule-accursed-catalyst">Catalyst</InnerLink></li><li><InnerLink toTop to="rule-accursed-progression">Progression</InnerLink></li><li><InnerLink toTop to="rule-accursed-removing-the-corruption">Removing the Corruption</InnerLink></li><li><InnerLink toTop to="rule-accursed-manifestations">Manifestations</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 16-17</Link><br/>A foul curse has a deep hold on your body and soul. Your resentment toward the one who cursed you has taken on a life of its own. You notice slights against you by everyone around you, and can gain solace only by punishing them.</p>
+<h3 id="rule-accursed-catalyst" data-hash-target>Catalyst</h3>
+<p>The corruption begins with a hateful curse, visitations from a night hag, or another relentless magical torment. These curses most often originate with hags, witches, gods, fey, depraved genies, or insidious divs. Even if the curse is lifted, its corruption lingers upon your soul.</p>
+<div style={{clear:"both"}}></div><h3 id="rule-accursed-progression" data-hash-target>Progression</h3>
+<p>The progression is tied to spiteful actions you take that have lasting consequences. When you inflict a permanent or long-lasting curse, such as <Link to="/spell/bestow_curse">bestow curse</Link>, or engage in brutal retaliation (what constitutes brutal retaliation is up to the GM, but usually includes disproportionate acts of violence against living creatures), you must attempt a Will saving throw (DC = 15 + your manifestation level). You must also attempt a saving throw after any month in which you have failed to perform a number of spiteful retaliations equal to or greater than your manifestation level. If you fail any of these saving throws, you must use the most severe punishment at your disposal against the next creature that wrongs you, even in a minor way.</p>
+<p>If you fail the save but your allies or others prevent you from exacting your retribution for three consecutive slights, you shake off this urge. You avoid having to exact retribution for the time being, and your corruption doesn't progress. However, the DC of the Will save against your corruption progressing increases by 2. These increases stack each time you shake off this urge, and they last until your corruption reaches the next corruption stage.</p>
+<Block size="small" hl>
+<Row><Cell>Corruption Stage 1</Cell><Cell>The first time you engage in disproportionate punishment (voluntarily or because of a failed save), your alignment shifts one step toward evil and your face changes, making you memorably ugly or beautiful.</Cell></Row>
+<Row><Cell>Corruption Stage 2</Cell><Cell>The second time you engage in this behavior, your alignment shifts another step toward evil and you take on an inhuman appearance, increasingly resembling the type of creature that cursed you.</Cell></Row>
+<Row><Cell>Corruption Stage 3</Cell><Cell>The third time you engage in this behavior, you are utterly consumed by your hatred and become an NPC under the GM's control.</Cell></Row></Block>
+<h3 id="rule-accursed-removing-the-corruption" data-hash-target>Removing the Corruption</h3>
+<p>Lifting the corruption requires breaking the original curse and either killing or earning forgiveness from the one who laid the curse. If you killed or permanently impaired any creatures unfairly, you must undo the harm and atone.</p>
+<h3 id="rule-accursed-manifestations" data-hash-target>Manifestations</h3>
+<p>The following are manifestations of the accursed corruption.</p>
+<Ability id="baleful-glare" icon={["lower","down"]}>
+<Pair single id="baleful-glare" flavor="You can weaken foes with a glare.">Baleful Glare</Pair>
+<Pair title="Prerequisites">Manifestation level 6th</Pair>
+<Pair title="Gift">Once per day, when you successfully use <Link to="/skill/intimidate">Intimidate</Link> to demoralize a creature within 30 feet, you can curse that target as a <strong className="hl">swift action</strong>. The victim must succeed at a Will save or be <Link to="/misc/staggered">staggered</Link> permanently. If you use this ability on a creature that is still under the effects of your <em>baleful glare</em> from a previous day, the target must succeed at a Fortitude saving throw or be paralyzed with fear for 3 days. At the end of each day the target spends paralyzed with fear, it must succeed at another Fortitude saving throw or die. Your effective caster level for these curses is equal to your character level.</Pair>
+<Pair title="Stain">One eye becomes bulging and bloodshot or each eye turns a different color. You take a -4 penalty on <Link to="/skill/perception">Perception</Link> checks. This transformation can't be hidden by magic.</Pair>
+</Ability>
+<Ability id="cold-iron-allergy" icon={["def","down"]}>
+<Pair single id="cold-iron-allergy" flavor="Your skin is as hardened as your heart.">Cold Iron Allergy</Pair>
+<Pair title="Prerequisites">Manifestation level 4th</Pair>
+<Pair title="Gift">You gain an amount of damage reduction equal to 1/2 your manifestation level. This DR is overcome by cold iron.</Pair>
+<Pair title="Stain">Whenever you touch cold iron, including being struck by a cold iron weapon, you are <Link to="/misc/sickened">sickened</Link> for 1 round. Immunities don't prevent this sickened condition, and you can't remove it early by any means. You can attempt to hide this aversion from foes with a <Link to="/skill/bluff">Bluff</Link> check opposed by their Sense Motive checks.</Pair>
+</Ability>
+<Ability id="cruel-deceiver" icon={["def","magic","power","down"]}>
+<Pair single id="cruel-deceiver" flavor="You can weave magical lies to set victims up for a downfall.">Cruel Deceiver</Pair>
+<Pair title="Prerequisites">Manifestation level 2nd</Pair>
+<Pair title="Gift"><p>You gain a +2 bonus on Bluff and <Link to="/skill/disguise">Disguise</Link> checks. You can use <Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/disguise_self">disguise self</Link>, and <Link to="/spell/ghost_sound">ghost sound</Link> once per day each as a spell-like ability. You can perfectly mimic the sound of any animal or voice you have ever heard.</p>
+<p>At manifestation level 3rd, the bonus doubles.</p>
+<p>At manifestation level 5th, you can use <Link to="/spell/mirage_arcana">mirage arcana</Link> once per day as a spell-like ability.</p>
+</Pair>
+<Pair title="Stain">You can never speak or otherwise communicate the truth. You can still communicate by various methods, such as uttering insignificant lies, obvious lies, or non-statements.</Pair>
+</Ability>
+<Ability id="grim-fate" icon={["roll","select","lower","down"]}>
+<Pair single id="grim-fate" flavor="You can twist the strands of fate to your desires.">Grim Fate</Pair>
+<Pair title="Gift"><p>Once per day as an <strong className="hl">immediate action</strong>, you can reroll an ability check, attack roll, caster level check, saving throw, or skill check after learning the result.</p>
+<p>At manifestation level 8th, you can also lay a <Link to="/curse/unluck">curse of unluck</Link> upon a creature once per day. This takes a <strong className="hl">standard action</strong>, and must target a creature you can see within 30 feet.</p>
+</Pair>
+<Pair title="Stain"><p>You can't benefit from morale bonuses. You take a -2 penalty on Perform and Sense Motive checks.</p>
+<p>At manifestation level 3rd, the penalty doubles.</p>
+</Pair>
+</Ability>
+<Ability id="horrific-shock" icon={["lower","down"]}>
+<Pair single id="horrific-shock" flavor="You can surprise a foe with overwhelming horror.">Horrific Shock</Pair>
+<Pair title="Gift">When you damage a creature on the surprise round, it becomes <Link to="/misc/shaken">shaken</Link> for 1 round unless it succeeds at a Will save.</Pair>
+<Pair title="Stain"><p>You take on a horrible appearance. You take a -2 penalty on <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/handle_animal">Handle Animal</Link>, and <em>wild empathy</em> checks against creatures who can see you.</p>
+<p>At manifestation level 3rd, the penalty doubles.</p>
+</Pair>
+</Ability>
+<Ability id="spiteful-transformation" icon={["boost","magic","down"]}>
+<Pair single id="spiteful-transformation" flavor="You can transform foes into mere beasts.">Spiteful Transformation</Pair>
+<Pair title="Prerequisites">Manifestation level 5th</Pair>
+<Pair title="Gift">Add 1 to the DCs of your spells and abilities that have the curse descriptor. Once per day as a <strong className="hl">standard action</strong>, you can use <Link to="/spell/baleful_polymorph">baleful polymorph</Link> as a spell-like ability, with a caster level equal to your character level. This counts as a curse, and the DC of any caster level check to remove it increases by 5.</Pair>
+<Pair title="Stain">You take a -2 penalty on Will saves. If you have this manifestation's gift, using your <em>baleful polymorph</em> curse negates the penalty until the next day.</Pair>
+</Ability>
+<Ability id="undying-hatred" icon={["def","down"]}>
+<Pair single id="undying-hatred" flavor="You can't rest while those you hate go unpunished.">Undying Hatred</Pair>
+<Pair title="Gift">Once per day, if you would die from hit point damage, instead your hit point total becomes -1 and you <Link to="/misc/stabilize">stabilize</Link>. This ability doesn't work against death effects. Observers believe you to be dead unless they study you closely and succeed at a DC 25 <Link to="/skill/heal">Heal</Link> check. After 1 minute, you regain 1 hit point and regain consciousness.</Pair>
+<Pair title="Stain">When you begin your turn with a <Link to="/misc/helpless">helpless</Link> foe within 5 feet of your reach, you must attempt a Will save. If you fail, you must attempt a <Link to="/misc/coup_de_grace">coup de grace</Link> against that foe this round if possible. The DC of this Will save is equal to 15 + your manifestation level.</Pair>
+</Ability>
+<Ability id="weakening-claws" icon={["melee","lower","down"]}>
+<Pair single id="weakening-claws" flavor="Your fingernails grow into talons.">Weakening Claws</Pair>
+<Pair title="Prerequisites">Manifestation level 3rd</Pair>
+<Pair title="Gift">Your nails grow into claw <Link to="/umr/natural_weapons">natural weapons</Link> that deal 1d3 points of damage if you're Medium (1d2 if Small). Once per day, you can make a <em>weakening claw</em> attack as a <strong className="hl">standard action</strong>. If you hit, you inflict a permanent -4 penalty on the target's Strength score. The victim can halve the penalty and reduce the duration to 24 hours with a successful Fort save.</Pair>
+<Pair title="Stain">You take a -2 penalty on <Link to="/skill/disable_device">Disable Device</Link> checks, <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks, and attacks with manufactured weapons. Your spells with somatic or emotion components have a failure chance of 5%. If you have a spell failure chance from other sources, add the chances together.</Pair>
+</Ability>
+<Ability id="wish-peddler" icon={["magic","down"]}>
+<Pair single id="wish-peddler" flavor="Like a fey or genie, you can twist another creature's wishes.">Wish Peddler</Pair>
+<Pair title="Gift">Once per day as a <strong className="hl">full-round action</strong>, you can duplicate the effect of a <Link to="/main/witch_spell">witch spell</Link> of a spell level lower than your manifestation level. This spell cannot have a material or focus component costing more than 1 gp or a casting time longer than 1 standard action. The spell's effect must fulfill, in part or in whole, a wish verbally stated by a humanoid creature you can hear (other than yourself).</Pair>
+<Pair title="Stain">If you cast or use a harmless spell or spell-like ability when you are in combat, you must succeed at a <Link to="/rule/concentration">concentration</Link> check (DC = 20 + double the spell level) or lose the spell. This also applies to non-harmless spells you cast that target only allies. Additionally, you must attempt saves against your allies' spells and spell-like abilities, even if they are harmless.</Pair>
+</Ability>
+</>};
+const _amoral = {hasJL:true,title: "Amoral", parent_topics: ["gm_specific_campaigns","horror_rules","corruption","corruptions"], siblings: ["aboleth","accursed","amoral","deep_one","demonic","ghoul","hellbound","hive","lich","lycanthropy","plagued","possessed","promethean","psychometabolic","shadowbound","vampirism"], jsx: <><div className="jumpList" id="rule-amoral-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="rule-amoral-catalyst">Catalyst</InnerLink></li><li><InnerLink toTop to="rule-amoral-progression">Progression</InnerLink></li><li><InnerLink toTop to="rule-amoral-removing-the-corruption">Removing the Corruption</InnerLink></li><li><InnerLink toTop to="rule-amoral-manifestations">Manifestations</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook pg. 20-21</Link><br/>While even the noblest heroes can fall victim to corruption of body, mind, or spirit, antiheroes who tread ethically gray waters are often at higher risk of losing themselves to the moral decay detailed below.</p>
+<p>When an otherwise upstanding person turns to evil deeds to achieve his goals - whether by accident, due to sinister influence, or through desperation - he begins to slip, every excuse and justification furthering his descent into evil.</p>
+<h3 id="rule-amoral-catalyst" data-hash-target>Catalyst</h3>
+<p>This corruption often begins when you allow an evil force into your life to help you accomplish an otherwise noble goal. In the name of helping a community or saving a loved one, you may have fallen in league with a disguised <Link to="/monster/succubus">succubus</Link> or made a desperate deal with a dark power.</p>
+<p>Characters wh0 are already neutral or evil cannot gain this corruption.</p>
+<div style={{clear:"both"}}></div><h3 id="rule-amoral-progression" data-hash-target>Progression</h3>
+<p>The progression of this corruption is tied to evil actions taken to achieve a significant benevolent goal (identified when you gain this corruption), especially when such actions provide an easier road to success than good actions. A significant goal might be deposing a tyrant or rescuing a prisoner of war, but it is up to the GM to determine what qualifies. Whenever you commit an evil act in pursuit of your significant goal, you must attempt a Will saving throw (DC = 15 + your manifestation level). You must also attempt this saving throw after any month in which the number of evil acts you performed in pursuit of your goal is less than your manifestation level. If you fail any of these saving throws, you are overcome with the urge to commit a wantonly evil act that does not significantly advance your benevolent goal; this also causes you to progress to the next corruption stage. If others prevent this wantonly evil act, you shake off this urge, but the DC of future saving throws to prevent the corruption's progress increases by 2; this increase stacks each time you shake off the urge, but it resets when you reach the next corruption stage.</p>
+<p>Performing a wantonly evil action for your own enjoyment automatically progresses the corruption to the next stage.</p>
+<Block size="small" hl>
+<Row><Cell>Corruption Stage 1</Cell><Cell>The first time you engage in an evil act to further your goal, your alignment shifts one step toward evil.</Cell></Row>
+<Row><Cell>Corruption Stage 2</Cell><Cell>The second time you engage in such an act, your alignment shifts another step toward evil, you take on a sickly pallor, and your pupils turn dark red.</Cell></Row>
+<Row><Cell>Corruption Stage 3</Cell><Cell>The third time you engage in such an act, evil behavior becomes a casual part of your actions and you think nothing of the suffering caused to bring about your goals - after all, it will be worth it. However, you might lose sight of your original purpose in favor of mean-spiritedness. You become an NPC under the GM's control.</Cell></Row></Block>
+<h3 id="rule-amoral-removing-the-corruption" data-hash-target>Removing the Corruption</h3>
+<p>This corruption is difficult to remove, since it is based in part on your self-delusions. You must first be convinced that you are going too far to achieve your goal, and even then, full recovery requires atoning (as per <Link to="/spell/atonement">atonement</Link>) or going through a similar redemptive arc, with the potential of remission subject to the GM's discretion.</p>
+<h3 id="rule-amoral-manifestations" data-hash-target>Manifestations</h3>
+<p>The following are manifestations of the amoral corruption.</p>
+<Ability id="clandestine-dealings" icon={["boost","down"]}>
+<Pair single id="clandestine-dealings" flavor="You begin to see the value in the methods of your enemies, and this intrigues them.">Clandestine Dealings</Pair>
+<Pair title="Gift">When you attempt a <Link to="/skill/diplomacy">Diplomacy</Link> check to influence the attitude of an unfriendly or hostile creature, the DC is reduced by 5.</Pair>
+<Pair title="Stain">The hypocrisy of your methods begins to catch up with you. Good-aligned weapons and damaging effects deal one additional die of damage to you, even if your current alignment is good. (For example, a +1 <Link to="/magic-enh/holy">holy</Link> longsword deals 2d8+1 points of damage to you if you are not evil, and it deals 2d8+2d6+1 points of damage to you if you are evil.)</Pair>
+</Ability>
+<Ability id="evidence-eraser" icon={["boost","def","down"]}>
+<Pair single id="evidence-eraser" flavor="You fear discovery of your crimes, so you work with obsessive zeal to cover your tracks, though this makes you paranoid.">Evidence Eraser</Pair>
+<Pair title="Gift"><p>You gain a +4 profane bonus on <Link to="/skill/bluff">Bluff</Link> checks to obscure or destroy evidence, as well as on <Link to="/skill/stealth">Stealth</Link> checks.</p>
+<p>At manifestation level 3rd, this bonus becomes +8.</p>
+</Pair>
+<Pair title="Stain">You constantly second-guess the motives of others. If you attempt a <Link to="/skill/sense_motive">Sense Motive</Link> check against a character who is not being deceptive, you must succeed against a DC equal to 15 + your manifestation level or you form some outlandish theory about the character's behavior that paints her as an obstacle to accomplishing your goal.</Pair>
+</Ability>
+<Ability id="evidence-forger" icon={["roll","down"]}>
+<Pair single id="evidence-forger" flavor="You don't care about truth; you care only that the &quot;facts&quot; support your agenda, and you are adept at making such falsehoods seem true.">Evidence Forger</Pair>
+<Pair title="Prerequisites">Manifestation level 3rd, evidence eraser</Pair>
+<Pair title="Gift">When attempting a <Link to="/skill/linguistics">Linguistics</Link> or similar check to create a forged piece of evidence, you can roll twice and use the higher result. You can use this gift a number of times per week equal to your manifestation level.</Pair>
+<Pair title="Stain">You can no longer discern between reality and a plausible lie. Whenever you attempt either a Will saving throw to disbelieve an illusion or an opposed Sense Motive check, you roll twice and take the lower result.</Pair>
+</Ability>
+<Ability id="forbidden-magic" icon={["roll","down"]}>
+<Pair single id="forbidden-magic" flavor="You find your magic to be insufficient for reaching your goal, so you begin to draw from darker sources.">Forbidden Magic</Pair>
+<Pair title="Prerequisites">Manifestation level 3rd</Pair>
+<Pair title="Gift">When you are the target of a damaging or healing spell, before the damage or healing is rolled, you can choose to take one fewer die of damage (for a damaging spell) or add one die of healing (for a healing spell).</Pair>
+<Pair title="Stain">Each time you use forbidden magic's gift, you must succeed at a Will saving throw (DC = 15 + your manifestation level) or you progress to the next corruption stage.</Pair>
+</Ability>
+<Ability id="greater-clandestine-dealings" icon={["boost","down"]}>
+<Pair single id="greater-clandestine-dealings" flavor="Fiends have taken notice of your wavering beliefs, and they seek to entice you.">Greater Clandestine Dealings</Pair>
+<Pair title="Prerequisites">Manifestation level 3rd, clandestine dealings</Pair>
+<Pair title="Gift">The benefits of <em>clandestine dealings</em> also apply to evil outsiders, regardless of their initial attitude. Furthermore, such outsiders are always willing to offer bargains, whether they are encountered normally or called by <Link to="/spell/planar_binding">planar binding</Link> or similar methods.</Pair>
+<Pair title="Stain">You count as evil for the purposes of spells that have alignment-based effects.</Pair>
+</Ability>
+<Ability id="overwhelming-hate" icon={["select","boost","down"]}>
+<Pair single id="overwhelming-hate" flavor="You cannot abide those who would oppose your goals - the very thought makes your blood boil.">Overwhelming Hate</Pair>
+<Pair title="Prerequisites">Manifestation level 6th</Pair>
+<Pair title="Gift"><p>Once per day, you can declare an enemy to be a threat to your goal, allowing you to add your manifestation level as a bonus on damage rolls against that enemy.</p>
+<p>At manifestation level 8th, this extra damage is doubled.</p>
+</Pair>
+<Pair title="Stain">When you encounter a significant setback in reaching your goal (as determined by the GM), you must attempt a Will saving throw (DC = 15 + your manifestation level). On a failure, you attempt to take revenge on the party you consider responsible within the next few days, and your corruption progresses to the next stage.</Pair>
+</Ability>
+<Ability id="self-righteous-fury" icon={["magic","down"]}>
+<Pair single id="self-righteous-fury" flavor="Your fury at being vexed knows no bounds, and you sometimes slip into violent rages.">Self-Righteous Fury</Pair>
+<Pair title="Prerequisites">Manifestation level 6th</Pair>
+<Pair title="Gift"><p>Three times per day, you can gain the benefits of the <Link to="/spell/rage">rage</Link> spell with a caster level equal to your manifestation level.</p>
+<p>At manifestation level 8th, you also gain the benefits of the <Link to="/spell/haste">haste</Link> spell for as long as your rage lasts.</p>
+</Pair>
+<Pair title="Stain">Your temper is difficult to control. Whenever you fail an ability check or skill check by 5 or more, you must succeed at a Will saving throw (DC = 15 + your manifestation level) or you immediately lash out at a creature or object involved in the situation (determined randomly if there are multiple targets), attacking it with a weapon or otherwise attempting to damage it. You are not compelled to continue attacking the target.</Pair>
+</Ability>
+<Ability id="sociopathic-liar" icon={["boost","down"]}>
+<Pair single id="sociopathic-liar" flavor="You have become so adept at spinning mistruths that it becomes nearly impossible for others to understand your true motives.">Sociopathic Liar</Pair>
+<Pair title="Gift"><p>Whenever you attempt a Bluff check to lie, you gain a +4 bonus on the check.</p>
+<p>At manifestation level 3rd, this bonus increases to +8.</p>
+</Pair>
+<Pair title="Stain">Whenever you are telling the truth and a creature attempts a Sense Motive check, the creature suspects you are lying regardless of the check's result.</Pair>
+</Ability>
+<Ability id="sudden-betrayal" icon={["lower","down"]}>
+<Pair single id="sudden-betrayal" flavor="Your allies never suspect that you will betray them in an instant if they get in your way.">Sudden Betrayal</Pair>
+<Pair title="Prerequisites">Manifestation level 6th</Pair>
+<Pair title="Gift">When you initiate combat against your allies, each one is <Link to="/misc/staggered">staggered</Link> for the first normal round of combat.</Pair>
+<Pair title="Stain">You don't count other creatures as allies for the purposes of abilities and effects that don't directly target them (excluding the <em>gift</em> of this manifestation).</Pair>
+</Ability>
+</>};
+const _deep_one = {hasJL:true,title: "Deep One", parent_topics: ["gm_specific_campaigns","horror_rules","corruption","corruptions"], siblings: ["aboleth","accursed","amoral","deep_one","demonic","ghoul","hellbound","hive","lich","lycanthropy","plagued","possessed","promethean","psychometabolic","shadowbound","vampirism"], jsx: <><div className="jumpList" id="rule-deep_one-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="rule-deep_one-catalyst">Catalyst</InnerLink></li><li><InnerLink toTop to="rule-deep_one-progression">Progression</InnerLink></li><li><InnerLink toTop to="rule-deep_one-removing-the-corruption">Removing the Corruption</InnerLink></li><li><InnerLink toTop to="rule-deep_one-manifestations">Manifestations</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 18-19</Link><br/>The waves call to you, like a siren's song echoing across crashing surf.</p>
+<h3 id="rule-deep_one-catalyst" data-hash-target>Catalyst</h3>
+<p>The corruption of the deep ones typically comes in two varieties. The most common source of <Link to="/subtype/deep_one">deep one</Link> corruption is having dormant deep one blood running through your veins. Exposure to the magic of cults dedicated to <Link to="/family/great_old_one">Great Old Ones</Link> like <Link to="/monster/cthulhu">Cthulhu</Link> could awaken this dormant lineage within you, beginning your transformation into a deep one. Likewise, exposure to the presence of deep ones themselves can cause you to heed a call to deep waters that ends with a torturous transformation. Less common means of contracting a deep one corruption include ritualistic transformation, curses, or - in extreme cases - willing copulation with a deep one.</p>
+<div style={{clear:"both"}}></div><h3 id="rule-deep_one-progression" data-hash-target>Progression</h3>
+<p>Once the deep one corruption has taken root, the summons calling you to the deep ones' cold, lightless realm becomes a constant thrum in the back of your mind. Exposure to sea water becomes increasingly important to you. Each day that you don't spend at least 1 hour per manifestation level fully immersed in the ocean or a salt-water sea, you must succeed at a Will save (DC = 15 + your manifestation level). You also need to attempt such a Will save whenever you are a target of (or in the area of) a divine spell or spell-like ability with the evil descriptor.</p>
+<Block size="small" hl>
+<Row><Cell>Corruption Stage 1</Cell><Cell>The first time you fail, you lose control of yourself for 24 hours. When you regain your senses, you find yourself in the sea or an ocean, or at least on your way to such a place if you were too far away to reach it. Either way, your alignment shifts one step towards chaotic evil.</Cell></Row>
+<Row><Cell>Corruption Stage 2</Cell><Cell>The second time you fail, you lose control again, and you find that you have made contact with an alien entity during the missing time. Your alignment shifts to chaotic evil and your race changes to <Link to="/race/deep_one_hybrid">deep one hybrid</Link>, if it wasn't already. If you are already over the venerable age for a deep one hybrid (60 years), you experience the final change as per the race's ability, becoming an NPC deep one under the GM's control.</Cell></Row>
+<Row><Cell>Corruption Stage 3</Cell><Cell>The third time you fail, you experience the final change early, becoming an NPC deep one under the GM's control.</Cell></Row></Block>
+<h3 id="rule-deep_one-removing-the-corruption" data-hash-target>Removing the Corruption</h3>
+<p>Removing the deep one corruption might require psychic conditioning away from compulsions regarding water and necromantic rituals to expunge the deep one blood from your veins. The ritual might also require slaying the deep one who sired your bloodline.</p>
+<h3 id="rule-deep_one-manifestations" data-hash-target>Manifestations</h3>
+<p>The following are manifestations of the deep one corruption.</p>
+<Ability id="bloodthirst" icon={["melee","down"]}>
+<Pair single id="bloodthirst" flavor="You gain a bite attack and can taste blood in the water.">Bloodthirst</Pair>
+<Pair title="Prerequisites">Deep adaptation, loathsome gills</Pair>
+<Pair title="Gift">You gain a <Link to="/umr/bite_attack">bite attack</Link> as a primary natural weapon. This bite attack deals 1d6 points of damage if your size is Medium (1d4 if Small). Additionally, you gain the <Link to="/umr/scent">scent</Link> ability when underwater and can track a creature that travels underwater using a <Link to="/skill/perception">Perception</Link> check rather than a <Link to="/skill/survival">Survival</Link> check, so long as it was bleeding (either suffering from a <Link to="/rule/bleed">bleed</Link> effect or having taken at least 1 point of piercing or slashing damage that was neither healed nor treated with a successful Heal check).</Pair>
+<Pair title="Stain">Your toothy maw distorts your speech, and your thoughts flit between potential prey. You take a 15% spell failure chance for spells with verbal or thought components and a -2 penalty on all <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/disguise">Disguise</Link>, <Link to="/skill/handle_animal">Handle Animal</Link>, and <Link to="/skill/perform">Perform</Link> checks.</Pair>
+</Ability>
+<Ability id="call-of-the-deep" icon={["touch","lower","down"]}>
+<Pair single id="call-of-the-deep" flavor="Your slimy touch robs your victims of breath.">Call of the Deep</Pair>
+<Pair title="Prerequisites">Manifestation level 7th, claws of the deep, swimmer in the deep</Pair>
+<Pair title="Gift">Once per day for every 2 manifestation levels you possess, you can attempt a touch attack that causes your opponent to <Link to="/rule/suffocate">suffocate</Link>. If this attack hits, the target must succeed at a Fortitude save or it gains the ability to breathe water, but also immediately loses the ability to breathe air and begins to suffocate unless it holds its breath. This effect lasts for a number of minutes equal to your manifestation level, and after each minute, the victim can attempt another Fortitude save to negate the effect. The DC of the save increases by 2 every minute.</Pair>
+<Pair title="Stain">You require constant submersion in salt water. If you spend more than 1 day without fully submerging yourself in such water, you suffer internal organ failure, painful cracking of the skin, and death within 4d6 hours.</Pair>
+</Ability>
+<Ability id="claws-of-the-deep" icon={["melee","down"]}>
+<Pair single id="claws-of-the-deep" flavor="Disgusting, translucent claws grow from your fingers.">Claws of the Deep</Pair>
+<Pair title="Prerequisites">Manifestation level 3rd, swimmer in the deep</Pair>
+<Pair title="Gift">You gain two claw natural attacks. These claws deal 1d4 points of damage if your size is Medium (1d3 if Small).</Pair>
+<Pair title="Stain">You exude a strong odor of low tide. This allows creatures with the <em>scent</em> ability to notice you from twice the usual distance, and makes it extremely difficult - and sometimes outright impossible - to disguise yourself. You also take a -4 penalty on your Diplomacy and Perform checks against creatures without the aquatic subtype. Your supernatural scent is not affected by the <Link to="/spell/negate_aroma">negate aroma</Link> spell.</Pair>
+</Ability>
+<Ability id="deep-adaptation" icon={["def","down"]}>
+<Pair single id="deep-adaptation" flavor="You are acclimated to deep ocean pressures and temperatures.">Deep Adaptation</Pair>
+<Pair title="Prerequisites">Loathsome gills</Pair>
+<Pair title="Gift"><p>You gain cold resistance 5.</p>
+<p>At manifestation level 6th, you can survive safely at any ocean depth.</p>
+</Pair>
+<Pair title="Stain">Your flesh peels away to reveal fine, iridescent scales, and your movements become slow and awkward. You take a -2 penalty to your Dexterity score while on land.</Pair>
+</Ability>
+<Ability id="deepsight" icon={["power","down"]}>
+<Pair single id="deepsight" flavor="Your eyes grow accustomed to the dark places of the world.">Deepsight</Pair>
+<Pair title="Gift"><p>You gain low-light vision.</p>
+<p>At manifestation level 5th, you gain darkvision with a range of 60 feet, or if you already have darkvision, its range increases by 30 feet.</p>
+</Pair>
+<Pair title="Stain">Your eyes' reflective sheen causes <Link to="/umr/light_sensitivity">light sensitivity</Link>.</Pair>
+</Ability>
+<Ability id="landwalker" icon={["power","boost","down"]}>
+<Pair single id="landwalker" flavor="Your journey to the depths presaged your return to dry land.">Landwalker</Pair>
+<Pair title="Prerequisites">Manifestation level 7th, loathsome gills</Pair>
+<Pair title="Gift">You gain the <Link to="/subtype/aquatic">aquatic subtype</Link> and the <Link to="/umr/amphibious">amphibious</Link> special quality. You gain a swim speed equal to half your land speed. If you have the <em>swimmer in the deep</em> manifestation, increase your swim speed by 10 feet instead.</Pair>
+<Pair title="Stain">Your hair falls out in patches and your skin takes on a slimy sheen. You take a -2 penalty to your Charisma score.</Pair>
+</Ability>
+<Ability id="loathsome-gills" icon={["def","down"]}>
+<Pair single id="loathsome-gills" flavor="You grow gills at your jawline.">Loathsome Gills</Pair>
+<Pair title="Gift"><p>You can <Link to="/misc/hold_your_breath">hold your breath</Link> underwater for 10 minutes per point of Constitution you have.</p>
+<p>At manifestation level 3rd, you can breathe underwater indefinitely.</p>
+<p>At manifestation level 7th, you can no longer breathe air and must hold your breath when above water (though you can still hold your breath for 10 minutes per point of Constitution you have).</p>
+</Pair>
+<Pair title="Stain">Your gills impose a -4 penalty on Fortitude saves against inhaled poisons and poison effects (like <Link to="/spell/stinking_cloud">stinking cloud</Link>).</Pair>
+</Ability>
+<Ability id="siltsight" icon={["boost","power","down"]}>
+<Pair single id="siltsight" flavor="Your senses are keener underwater.">Siltsight</Pair>
+<Pair title="Gift"><p>While underwater, you ignore <Link to="/rule/concealment">concealment</Link> from silt, muck, and murky water.</p>
+<p>At manifestation level 5th, you also gain <Link to="/umr/blindsense">blindsense</Link> with a range of 10 feet while underwater.</p>
+</Pair>
+<Pair title="Stain">Your eyes grow bulbous and fish-like. You take a -2 penalty on Perception checks while not underwater.</Pair>
+</Ability>
+<Ability id="slow-aging" icon={["def","down"]}>
+<Pair single id="slow-aging" flavor="Your deep one blood runs thick and slowly, arresting aging.">Slow Aging</Pair>
+<Pair title="Prerequisites">Manifestation level 5th</Pair>
+<Pair title="Gift"><p>You age more slowly than members of your base race. It takes you twice as long to reach middle age, and three times as long to reach both old age and venerable.</p>
+<p>At manifestation level 8th, you gain a +2 bonus to your Constitution score.</p>
+</Pair>
+<Pair title="Stain">You dream of lost cities in ages primordial and are haunted by strange aeons long since forgotten. You require 16 hours of sleep for a night's rest and you are incapable of deriving benefit from effects that replace the need for sleep (like a <Link to="/magic-ring/ring_of_sustenance">ring of sustenance</Link>) or ameliorate, suppress, or remove the effects of lack of sleep.</Pair>
+</Ability>
+<Ability id="swimmer-in-the-deep" icon={["boost","power","down"]}>
+<Pair single id="swimmer-in-the-deep" flavor="The cold depths of the ocean are your home now.">Swimmer in the Deep</Pair>
+<Pair title="Gift"><p>You gain a +4 racial bonus on Swim checks (which doesn't stack with the +8 racial bonus from having a swim speed) and can take a 10 on Swim checks even while threatened.</p>
+<p>At manifestation level 3rd, you gain a swim speed equal to half your land speed.</p>
+<p>At manifestation level 5th, your swim speed is equal to your land speed.</p>
+<p>If you are a <Link to="/monster/deep_one_hybrid">deep one hybrid</Link>, you instead gain a +10-foot enhancement bonus to your swim speed. This increases to a +20-foot enhancement bonus at manifestation level 3rd and to a +30-foot enhancement bonus at manifestation level 5th.</p>
+</Pair>
+<Pair title="Stain">You grow webbing between your fingers and toes and become dissatisfied with life on land. You take a -2 penalty on Dexterity- and Strength-based skill checks and ability checks while on land.</Pair>
+</Ability>
+</>};
+const _demonic = {hasJL:true,title: "Demonic", parent_topics: ["gm_specific_campaigns","horror_rules","corruption","corruptions"], siblings: ["aboleth","accursed","amoral","deep_one","demonic","ghoul","hellbound","hive","lich","lycanthropy","plagued","possessed","promethean","psychometabolic","shadowbound","vampirism"], jsx: <><div className="jumpList" id="rule-demonic-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="rule-demonic-catalyst">Catalyst</InnerLink></li><li><InnerLink toTop to="rule-demonic-progression">Progression</InnerLink></li><li><InnerLink toTop to="rule-demonic-removing-the-corruption">Removing the Corruption</InnerLink></li><li><InnerLink toTop to="rule-demonic-manifestations">Manifestations</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms pg. 56-57</Link><br/>Close contact with the Abyss or demons clouds your mind and twists your body.</p>
+<h3 id="rule-demonic-catalyst" data-hash-target>Catalyst</h3>
+<p>Prolonged contact with Abyssal energies or demons, whether willing or otherwise, has corrupted your soul.</p>
+<div style={{clear:"both"}}></div><h3 id="rule-demonic-progression" data-hash-target>Progression</h3>
+<p>Demonic corruption thrives in the presence of sin. One could become initially corrupted by demonic influence through being exposed to raw Abyssal energies in the Worldwound, accepting one too many profane gifts from a <Link to="/monster/succubus">succubus</Link>, or using a wish granted by a <Link to="/monster/glabrezu">glabrezu</Link>, but the progression of the corruption is often tied to the individual's most powerful sin. When an opportunity arises to carry out a significant action that matches the corruption's theme (GM's discretion), you are tempted to take it. The action might include wanton destruction and violence, or merely tempting someone to behave in a chaotic evil manner. You must succeed at a Will saving throw (DC = 15 + your manifestation level) or succumb to this temptation and perform the action. What counts as significant is up to the GM. If something prevents you from performing this act, the GM chooses a time over the next week when you're compelled to otherwise further the cause of chaotic evil.</p>
+<Block size="small" hl>
+<Row><Cell>Corruption Stage 1</Cell><Cell>The first time you perform a significant act that matches the corruption's theme, your alignment shifts one step toward chaotic evil (toward evil first, if you aren't yet evil). Any attempt to raise you from the dead requires a successful caster level check (DC = 15 + double your manifestation level).</Cell></Row>
+<Row><Cell>Corruption Stage 2</Cell><Cell>The second time you perform such an act, your alignment shifts to chaotic evil.</Cell></Row>
+<Row><Cell>Corruption Stage 3</Cell><Cell>The third time you perform such an act, you become a demonic entity under the GM's control.</Cell></Row></Block>
+<h3 id="rule-demonic-removing-the-corruption" data-hash-target>Removing the Corruption</h3>
+<p>Redemption requires slaying the demon who corrupted you or cleansing the site where you were corrupted.</p>
+<h3 id="rule-demonic-manifestations" data-hash-target>Manifestations</h3>
+<p>The following are manifestations of the demonic corruption.</p>
+<Ability id="abyssal-deformity" icon={["boost","down"]}>
+<Pair single id="abyssal-deformity" flavor="Your body mirrors the ugliness of your corruption.">Abyssal Deformity</Pair>
+<Pair title="Gift"><p>You gain a +3 bonus on Intimidate checks and on <Link to="/skill/diplomacy">Diplomacy</Link> checks to interact with demons and their cults. Your stain penalty does not apply to these checks.</p>
+<p>At manifestation level 5th, the bonuses double.</p>
+</Pair>
+<Pair title="Stain"><p>Your hideousness unsettles others. You take a -2 penalty on Diplomacy, <Link to="/skill/disguise">Disguise</Link>, and <Link to="/skill/handle_animal">Handle Animal</Link> checks.</p>
+<p>At manifestation level 5th, the penalties double.</p>
+</Pair>
+</Ability>
+<Ability id="chaotic-mutation" icon={["boost","magic","down"]}>
+<Pair single id="chaotic-mutation" flavor="Your physical form is unpredictable.">Chaotic Mutation</Pair>
+<Pair title="Prerequisites">Manifestation level 2nd</Pair>
+<Pair title="Gift"><p>Permanent <Link to="/main/magic_misc">fleshcrafts</Link> cost 10% less to apply to you. Once per day, you can gain any one of the abilities listed in <Link to="/spell/alter_self">alter self</Link>, as well as an apt physical feature or body part of a typically chaotic or evil race (using that race's ability or that in <em>alter self,</em> whichever is worse). Abilities gained in this manner persist for 1 hour per manifestation level.</p>
+<p>At manifestation level 7th, the ability granted lasts until you use the ability again to gain a different feature.</p>
+</Pair>
+<Pair title="Stain"><p>Your aura detects as chaotic and evil instead of your true alignment. The aura is strong, like that of a cleric.</p>
+<p>At manifestation level 5th, whenever you activate this ability, you risk undergoing a <Link to="/rule/fleshwarp_mutations">fleshwarp mutation</Link> unless you succeed at a Fortitude saving throw (DC = 15 + manifestation level). All fleshwarp mutations from your demonic corruption gained in the same day count as originating from the same area.</p>
+</Pair>
+</Ability>
+<Ability id="corrupted-claws" icon={["melee","down"]}>
+<Pair single id="corrupted-claws" flavor="Your hands twist into terrible claws.">Corrupted Claws</Pair>
+<Pair title="Gift"><p>You gain a claw attack as a primary <Link to="/umr/natural_weapon">natural weapon</Link>. This attack deals 1d6 points of damage (or 1d3 points of damage if you are Small).</p>
+<p>At manifestation level 6th, you gain a second claw attack.</p>
+</Pair>
+<Pair title="Stain">You take a -2 penalty on attack rolls with manufactured weapons and on Disguise checks where you must hide your claws.</Pair>
+</Ability>
+<Ability id="demonic-enhancement" icon={["boost","down"]}>
+<Pair single id="demonic-enhancement" flavor="Demonic power surges within you.">Demonic Enhancement</Pair>
+<Pair title="Prerequisites">Manifestation level 4th</Pair>
+<Pair title="Gift">You gain a +2 profane bonus to the ability score of your choice.</Pair>
+<Pair title="Stain">You take a -2 penalty to an ability score of the GM's choice (other than the one you select as your gift).</Pair>
+</Ability>
+<Ability id="demonic-wings" icon={["power","down"]}>
+<Pair single id="demonic-wings" flavor="You've grown a pair of demonic wings from your back.">Demonic Wings</Pair>
+<Pair title="Prerequisites">Manifestation level 4th</Pair>
+<Pair title="Gift"><p>You gain a fly speed of 30 feet with poor maneuverability.</p>
+<p>At manifestation level 8th, the fly speed increases to 60 feet and your maneuverability increases to good.</p>
+</Pair>
+<Pair title="Stain">Your wings cannot be hidden by magic, but you can conceal them by mundane means. Your wings periodically flap and rasp reflexively, imposing a -4 penalty on <Link to="/skill/escape_artist">Escape Artist</Link> and <Link to="/skill/stealth">Stealth</Link> checks.</Pair>
+</Ability>
+<Ability id="hideous-urges" icon={["roll","down"]}>
+<Pair single id="hideous-urges" flavor="Your base instincts grow stronger.">Hideous Urges</Pair>
+<Pair title="Gift">Whenever you are <Link to="/misc/confused">confused</Link>, you can roll twice and take the result of your choice to determine the actual effects of confusion. Once per day, if you become dazed, frightened, nauseated, panicked, or stunned, you can instead choose to become confused for the twice the duration of the original effect.</Pair>
+<Pair title="Stain">You become addicted to exposure to the Abyss and demonic creatures. Each week that you go without spending at least 1 hour within 30 feet of a demon or in the Abyss, you must attempt a Will saving throw to resist the urge to create a bit of the Abyss on the spot by performing a chaotic evil act (as if you had been tempted as defined in this corruption's progression). If you fail the saving throw, you are compelled to perform an act within the next week befitting the demon who corrupted you. Unless you are prevented from doing so, your corruption progresses.</Pair>
+</Ability>
+<Ability id="scarred-by-the-abyss" icon={["def","down"]}>
+<Pair single id="scarred-by-the-abyss" flavor="Your body is horrifically scarred.">Scarred by the Abyss</Pair>
+<Pair title="Prerequisites">Manifestation level 5th</Pair>
+<Pair title="Gift">You gain damage reduction equal to half your manifestation level that can be overcome by cold iron or good weapons.</Pair>
+<Pair title="Stain">You take a -2 penalty on all saving throws against spells with the lawful or good descriptors and against spell-like abilities and supernatural abilities created by outsiders with the lawful or good subtypes.</Pair>
+</Ability>
+<Ability id="terrible-truths" icon={["power","down"]}>
+<Pair single id="terrible-truths" flavor="The Abyss reveals the awful truths of reality to you.">Terrible Truths</Pair>
+<Pair title="Prerequisites">Manifestation level 5th</Pair>
+<Pair title="Gift">You can see the truth, as per <Link to="/spell/true_seeing">true seeing</Link>, as a <strong className="hl">full-round action</strong>. You can use this gift for a number of rounds per day equal to your manifestation level, and the rounds need not be used consecutively.</Pair>
+<Pair title="Stain">When you cease to use this manifestation's gift, you become confused for a number of rounds equal to the number of rounds you used the gift.  </Pair>
+<Pair title="Special">Upon receiving this manifestation, you must take both the gift and the stain, even with the <em>useful corruption</em> or <em>vile corruption</em> <Link to="/rule/corruption_variants">variants</Link>.</Pair>
+</Ability>
+<Ability id="warping-claws" icon={["boost","lower","down"]}>
+<Pair single id="warping-claws" flavor="Your claws carry the warping energies of the Abyss.">Warping Claws</Pair>
+<Pair title="Prerequisites">Manifestation level 7th, corrupted claws, demonic enhancement</Pair>
+<Pair title="Gift">The damage caused by your <em>corrupted claws</em> increases as if you were one size larger. The threat range for your claws becomes 19-20. On a confirmed critical hit, a targeted creature must succeed at a Fortitude saving throw to resist becoming warped by your infusion of demonic energy. This inflicts 1d4 points of damage to a randomly determined ability score and causes the creature to be <Link to="/misc/staggered">staggered</Link> for 1 round.</Pair>
+<Pair title="Stain">You take a -4 penalty on melee attack rolls with manufactured weapons and on <Link to="/skill/disable_device">Disable Device</Link> and <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks. You have 5% spell failure chance on spells with a somatic or emotion component. This stacks with all other chances of spell failure.</Pair>
+</Ability>
+</>};
+const _ghoul = {hasJL:true,title: "Ghoul", parent_topics: ["gm_specific_campaigns","horror_rules","corruption","corruptions"], siblings: ["aboleth","accursed","amoral","deep_one","demonic","ghoul","hellbound","hive","lich","lycanthropy","plagued","possessed","promethean","psychometabolic","shadowbound","vampirism"], jsx: <><div className="jumpList" id="rule-ghoul-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="rule-ghoul-catalyst">Catalyst</InnerLink></li><li><InnerLink toTop to="rule-ghoul-progression">Progression</InnerLink></li><li><InnerLink toTop to="rule-ghoul-removing-the-corruption">Removing the Corruption</InnerLink></li><li><InnerLink toTop to="rule-ghoul-manifestations">Manifestations</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 20-21</Link><br/>A hunger for the flesh of the living grows more every day, until every sentient creature seems no more than a meal.</p>
+<h3 id="rule-ghoul-catalyst" data-hash-target>Catalyst</h3>
+<p>Ghoul corruption commonly stems from desperate cannibalism, such as surviving a near-death experience by eating friends who perished. You might contract ghoul corruption after recovering from <Link to="/disease/ghoul_fever">ghoul fever</Link>, especially if you died from the disease but were raised from the dead before rising as a ghoul.</p>
+<div style={{clear:"both"}}></div><h3 id="rule-ghoul-progression" data-hash-target>Progression</h3>
+<p>Each week, you need to consume one portion of flesh from a sentient creature. A creature one size category smaller than you counts as one portion, a creature of your size category counts as four portions, and a creature one size larger counts as 16 portions. The extra meat from Huge or larger creatures spoils quickly enough that it can't all be consumed within a week. After a week, if you haven't consumed enough flesh, you must succeed at a Will saving throw (DC = 15 + your manifestation level) each day until you've eaten enough. If you fail the save, the next time you rest your corruption takes over and you unconsciously hunt and feed, devouring a living sentient creature completely. In this state, you can't differentiate between creatures and might consume an innocent; if you do so, your corruption progresses to the next stage.</p>
+<p>If circumstances make it impossible to feed (such as if you are tied down or in a locale with nothing to feed upon), you start to <Link to="/rule/starve">starve</Link> as if you had not eaten in 3 days, and you continue to hunger for flesh and struggle to escape and feed until you have received five times the amount of flesh from sentient creatures you normally require. If your allies are able to restrain and feed you flesh from sentient creatures, your corruption doesn't progress. However, the DC of the Will save against your corruption progressing increases by 2. These increases stack each time this occurs, and they last until your corruption reaches the next corruption stage.</p>
+<p>In addition to starvation, close brushes with death also increase your craving for flesh. Whenever you are dropped below 0 hit points, you must attempt a single saving throw as if you hadn't eaten enough flesh that week.</p>
+<Block size="small" hl>
+<Row><Cell>Corruption Stage 1</Cell><Cell>Once you feed on an innocent sentient creature - either willingly or because you failed a saving throw - your alignment shifts one step toward evil and spells that detect undead sense you, though the peculiar result they return informs the caster that you're still a living creature. Other spells and effects don't treat you as undead.</Cell></Row>
+<Row><Cell>Corruption Stage 2</Cell><Cell>The second time, your alignment shifts another step toward evil and you are affected by spells and abilities as if your creature type were undead (including effects like <Link to="/magic-enh/bane">bane</Link> and the <Link to="/ability/favored_enemy">favored enemy</Link> class feature). This doesn't grant you any of the immunities of being undead, nor does it make you immune to effects that target living creatures or change how negative and positive energy affect you.</Cell></Row>
+<Row><Cell>Corruption Stage 3</Cell><Cell>The third time, you become an NPC ghoul under the GM's control.</Cell></Row></Block>
+<h3 id="rule-ghoul-removing-the-corruption" data-hash-target>Removing the Corruption</h3>
+<p>Getting rid of the ghoul corruption typically requires fasting, isolation from creatures that could incite your hunger, and atoning (as per <Link to="/spell/atonement">atonement</Link>) for the acts that led to the corruption.</p>
+<h3 id="rule-ghoul-manifestations" data-hash-target>Manifestations</h3>
+<p>The following are manifestations of the ghoul corruption.</p>
+<Ability id="brain-eater" icon={["boost","down"]}>
+<Pair single id="brain-eater" flavor="Devouring brains imparts knowledge to you.">Brain Eater</Pair>
+<Pair title="Prerequisites">Manifestation level 5th, gnashing bite</Pair>
+<Pair title="Gift">If you eat the brain of a creature with an Intelligence score of 3 or higher, you gain a +2 insight bonus on all skill checks in which the creature possessed ranks for 1 hour. Eating a brain is a <strong className="hl">full-round action</strong>, and the target must be dead or helpless. If the target is alive, you can attempt to eat its brain as a <Link to="/misc/coup_de_grace">coup de grace</Link> attack with your gnashing bite, but you gain the bonus only if your attempt results in the victim's death.</Pair>
+<Pair title="Stain">You take a -4 penalty on saves to resist ghoul corruption.</Pair>
+</Ability>
+<Ability id="corpse-armor" icon={["def","down"]}>
+<Pair single id="corpse-armor" flavor="Your flesh is unnaturally tough.">Corpse Armor</Pair>
+<Pair title="Gift"><p>You gain a +2 bonus to your natural armor.</p>
+<p>At manifestation level 5th, this bonus increases by 1.</p>
+</Pair>
+<Pair title="Stain">Your flesh's corpse-like consistency deadens your sensations and makes it harder for you to move. You take a -2 penalty to your Dexterity score.</Pair>
+</Ability>
+<Ability id="diseased-bite" icon={["lower","down"]}>
+<Pair single id="diseased-bite" flavor="Your bite carries a terrible disease">Diseased Bite</Pair>
+<Pair title="Prerequisites">Manifestation level 4th, gnashing bite</Pair>
+<Pair title="Gift">Creatures damaged by your bite attack must succeed at a Fortitude save or contract <Link to="/disease/ghoul_fever">ghoul fever</Link>. A humanoid who dies of ghoul fever rises as a ghoul at the next midnight, as described in the ghoul fever entry.</Pair>
+<Pair title="Stain">Your body has a difficult time fighting off diseases. You take a -4 penalty on Fortitude saves to resist diseases.</Pair>
+</Ability>
+<Ability id="gnashing-bite" icon={["melee","down"]}>
+<Pair single id="gnashing-bite" flavor="Your jaw can unhinge and your teeth grow to sharp points.">Gnashing Bite</Pair>
+<Pair title="Gift">You gain a bite attack as a primary <Link to="/umr/natural_weapon">natural weapon</Link>. This bite deals 1d6 points of damage if your size is Medium (1d4 if Small).</Pair>
+<Pair title="Stain">Your tongue grows long and serpentine. You take a -2 penalty to your Charisma score.</Pair>
+</Ability>
+<Ability id="greater-paralysis" icon={["boost","down"]}>
+<Pair single id="greater-paralysis" flavor="Your paralyzing touch is even stronger.">Greater Paralysis</Pair>
+<Pair title="Prerequisites">Manifestation level 7th, paralysis, rending claws, staggering claw</Pair>
+<Pair title="Gift">A creature that fails its save against your paralysis manifestation is paralyzed for 1d4 rounds instead of 1 round. Elves are immune to this effect.</Pair>
+<Pair title="Stain">Your connection to negative energy is so intense you recoil from its anathema. Whenever you take damage from a positive energy source, you are <Link to="/misc/frightened">frightened</Link> for 1 round.</Pair>
+</Ability>
+<Ability id="greater-stench-of-the-grave" icon={["lower","down"]}>
+<Pair single id="greater-stench-of-the-grave" flavor="The smell surrounding you becomes overwhelming.">Greater Stench of the Grave</Pair>
+<Pair title="Prerequisites">Manifestation level 6th, corpse armor, stench of the grave</Pair>
+<Pair title="Gift">Creatures that fail their saves against your stench of the grave manifestation become <Link to="/misc/nauseated">nauseated</Link> for 1 round before being <Link to="/misc/sickened">sickened</Link> for 1d6 rounds. Once they have become nauseated in this way, they are immune to the nausea effect of your stench for 1 hour. A creature that succeeds at its save becomes immune to both your stench's nausea and sickened conditions for 24 hours.</Pair>
+<Pair title="Stain">Your stench is so great that it makes interacting with you almost impossible, as others retch and vomit just from being near you. Living creatures with a sense of smell refuse to engage with you at all, so you fail checks like Diplomacy and Handle Animal with living creatures before you can even attempt them.</Pair>
+</Ability>
+<Ability id="paralysis" icon={["lower","down"]}>
+<Pair single id="paralysis" flavor="A slash from your claws can render a creature helpless.">Paralysis</Pair>
+<Pair title="Prerequisites">Manifestation level 6th, rending claws, staggering claw</Pair>
+<Pair title="Gift">When you confirm a critical hit against a living creature, it must succeed at a Fortitude save or become <Link to="/rule/paralyzed">paralyzed</Link> for 1 round. Elves are immune to this effect.</Pair>
+<Pair title="Stain">You are inured to negative energy. You are treated as an undead creature when subjected to channeled energy, <em>cure</em> spells, and <em>inflict</em> spells.</Pair>
+</Ability>
+<Ability id="rending-claws" icon={["melee","down"]}>
+<Pair single id="rending-claws" flavor="You grow vicious claws, perfect for stripping flesh from bone.">Rending Claws</Pair>
+<Pair title="Gift">You gain two claw attacks as primary natural weapons. These claws deal 1d4 points of damage if your size is Medium (or 1d3 if you're Small).</Pair>
+<Pair title="Stain">You take a -2 penalty on attacks with manufactured weapons and on all ranged attacks.</Pair>
+</Ability>
+<Ability id="staggering-claw" icon={["lower","down"]}>
+<Pair single id="staggering-claw" flavor="Your touch weakens the muscles of your victims.">Staggering Claw</Pair>
+<Pair title="Prerequisites">Manifestation level 4th, rending claws</Pair>
+<Pair title="Gift">Once per day per manifestation level, you can make a <em>staggering claw</em> attack as a <strong className="hl">standard action</strong>. If you hit, the target must succeed at a Fortitude save or be <Link to="/misc/staggered">staggered</Link> for a number of rounds equal to 1/2 your manifestation level.</Pair>
+<Pair title="Stain">The flesh on your hands is covered with pustules and blisters, and your hunger begins to devour your emotions. The penalty you take on ranged attacks and attacks with manufactured weapons increases to -4. Your spells with somatic or emotion components have a failure chance of 5%. This stacks with any spell failure chances you incur from other sources. (For example, if you were wearing leather armor and casting arcane spells, you would have a 15% spell failure chance.)</Pair>
+</Ability>
+<Ability id="stench-of-the-grave" icon={["aura","lower","down"]}>
+<Pair single id="stench-of-the-grave" flavor="Your body exudes a stench of decay.">Stench of the Grave</Pair>
+<Pair title="Prerequisites">Corpse armor</Pair>
+<Pair title="Gift"><p>You exude an aura of decay. Creatures that begin their turns adjacent to you are sickened for 1d6 rounds unless they succeed at a Fortitude save. A creature that succeeds can't be affected by your stench again for 24 hours.</p>
+<p>At manifestation level 5th, this aura extends out to 10 feet.</p>
+</Pair>
+<Pair title="Stain">The stench of decay you emit allows creatures with <Link to="/umr/scent">scent</Link> to notice you from twice the usual distance, and makes it extremely difficult to disguise yourself. Any living creatures that have a sense of smell have their starting attitudes toward you reduced by one step. Your supernatural scent is not affected by the <Link to="/spell/negate_aroma">negate aroma</Link> spell.  </Pair>
+</Ability>
+<p><strong>Special:</strong> Upon taking this manifestation, you must take both the gift and the stain, even with the <em>useful corruption</em> or <em>vile corruption</em> <Link to="/rule/corruption_variants">variants</Link>.</p>
+</>};
+const _hellbound = {hasJL:true,title: "Hellbound", parent_topics: ["gm_specific_campaigns","horror_rules","corruption","corruptions"], siblings: ["aboleth","accursed","amoral","deep_one","demonic","ghoul","hellbound","hive","lich","lycanthropy","plagued","possessed","promethean","psychometabolic","shadowbound","vampirism"], jsx: <><div className="jumpList" id="rule-hellbound-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="rule-hellbound-catalyst">Catalyst</InnerLink></li><li><InnerLink toTop to="rule-hellbound-progression">Progression</InnerLink></li><li><InnerLink toTop to="rule-hellbound-removing-the-corruption">Removing the Corruption</InnerLink></li><li><InnerLink toTop to="rule-hellbound-manifestations">Manifestations</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 22-23</Link><br/>The pit of Hell waits for your damned soul.</p>
+<h3 id="rule-hellbound-catalyst" data-hash-target>Catalyst</h3>
+<p>The hellbound corruption typically takes hold as the result of an infernal contract with a diabolic patron or your fiendish blood. Your soul goes to Hell when you die, though you can be raised from the dead normally.</p>
+<div style={{clear:"both"}}></div><h3 id="rule-hellbound-progression" data-hash-target>Progression</h3>
+<p>Your diabolic patron's portfolio determines what makes your corruption progress. When an opportunity to carry out a significant action that matches the devil's portfolio comes up, you are tempted to take it. The action might include oppressing people using your authority or tempting someone closer to lawful evil. You must succeed at a Will save (DC = 15 + your manifestation level) or succumb to temptation and perform the action. What counts as significant is up to the GM. Usually, an act that wouldn't harm anyone doesn't count. If something prevents you from performing this act, the GM chooses a time over the next week when you're compelled to further the cause of lawful evil.</p>
+<Block size="small" hl>
+<Row><Cell>Corruption Stage 1</Cell><Cell>The first time you perform a significant act that matches the devil's portfolio (either willingly or because you failed your save), your alignment shifts one step toward lawful evil (toward evil first, if you aren't yet evil). Any attempt to raise you from the dead requires a successful caster level check (DC = 15 + double your manifestation level).</Cell></Row>
+<Row><Cell>Corruption Stage 2</Cell><Cell>The second time you perform such an act, your alignment shifts to lawful evil.</Cell></Row>
+<Row><Cell>Corruption Stage 3</Cell><Cell>The third time you perform such an act, your contract comes due or you become a thrall to Hell - a living devil under the GM's control.</Cell></Row></Block>
+<h3 id="rule-hellbound-removing-the-corruption" data-hash-target>Removing the Corruption</h3>
+<p>Gaining release requires destroying your patron, retrieving the payment, and <Link to="/spell/atonement">atoning</Link>.</p>
+<h3 id="rule-hellbound-manifestations" data-hash-target>Manifestations</h3>
+<p>The following are manifestations of the hellbound corruption.</p>
+<Ability id="darkest-desires" icon={["magic","down"]}>
+<Pair single id="darkest-desires" flavor="Your dark patron offers to grant you wishes to tempt you.">Darkest Desires</Pair>
+<Pair title="Prerequisites">Manifestation level 9th</Pair>
+<Pair title="Gift">You can use <Link to="/spell/limited_wish">limited wish</Link> once per day as a spell-like ability. It can't duplicate a spell requiring a material component costing more than 1,000 gp. Each time you get more or less what you wished for (GM's discretion), you must succeed at a Will save or your corruption progresses to the next stage.</Pair>
+<Pair title="Stain">Wishes you make from this manifestation's gift or your own spells are granted by your patron and interpreted from a devil's perspective. The patron always tries to twist your wish away from your intent and to its own dark ends.</Pair>
+<Pair title="Special">Upon receiving this manifestation, you must take both the gift and the stain, even with the <em>useful corruption</em> or <em>vile corruption</em> <Link to="/rule/corruption_variants">variants</Link>.</Pair>
+</Ability>
+<Ability id="devils-horns" icon={["melee","down"]}>
+<Pair single id="devils-horns" flavor="Horns grow upon your brow.">Devil's Horns</Pair>
+<Pair title="Gift">You gain a <Link to="/umr/gore_attack">gore attack</Link> that deals 1d4 points of damage if your size is Medium (1d3 if Small). These horns appear in any form you take, so you still retain this gore attack in any form you assume with a polymorph effect.</Pair>
+<Pair title="Stain">You gain horns that can't be hidden by magic, but can be hidden by mundane means. Anyone who sees the horns recognizes them as unnatural. If someone leaves a loophole in an agreement with you that would allow you to gain an advantage, you must exploit it. This typically counts as an act that might progress your corruption.</Pair>
+<Pair title="Special">Upon receiving this manifestation, you must take both the gift and the stain, even with the <em>useful corruption</em> or <em>vile corruption</em> <Link to="/rule/corruption_variants">variants</Link>.</Pair>
+</Ability>
+<Ability id="devils-mark" icon={["magic","down"]}>
+<Pair single id="devils-mark" flavor="You have the mark of a fiend on your body.">Devil's Mark</Pair>
+<Pair title="Gift">You gain a 1st-level <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">wizard</Link> or <Link to="/main/spells_witch">witch</Link> spell of your choice as a spell-like ability usable a number of times per day equal to your manifestation level. It must not have a casting time longer than 1 standard action or a material or focus component costing more than 1 gp.</Pair>
+<Pair title="Stain">Your devil's mark manifests on your body. It can't be hidden by magic, but can be hidden by clothing or other mundane means. Anyone who sees the mark automatically recognizes it as unnatural.</Pair>
+</Ability>
+<Ability id="diabolical-servitor" icon={["magic","down"]}>
+<Pair single id="diabolical-servitor" flavor="You fraternize with devils who answer your call for aid.">Diabolical Servitor</Pair>
+<Pair title="Prerequisites">Manifestation level 2nd</Pair>
+<Pair title="Gift"><p>Once per day as a spell-like ability, you can summon a lawful evil outsider, as <Link to="/spell/summon_monster_ii">summon monster II</Link> with a duration of 1 minute per manifestation level.</p>
+<p>At manifestation level 4th, you can use <Link to="/spell/summon_monster_iii">summon monster III</Link>, but summon an <Link to="/monster/accuser_devil">accuser devil</Link>.</p>
+<p>At manifestation level 6th, you can use <Link to="/spell/summon_monster_iv">summon monster IV</Link> this way.</p>
+<p>At manifestation level 8th, you can use <Link to="/spell/summon_monster_v">summon monster V</Link> this way.</p>
+</Pair>
+<Pair title="Stain">You see lies and pain behind every exchange, even when it isn't there. You take a -4 penalty on <Link to="/skill/perception">Perception</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks except for those made against devils.</Pair>
+</Ability>
+<Ability id="fiendish-tutelage" icon={["power","boost","power","down"]}>
+<Pair single id="fiendish-tutelage" flavor="You learn secrets best kept from mortal minds.">Fiendish Tutelage</Pair>
+<Pair title="Gift"><p>You gain Infernal as a bonus language and a +2 bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/diplomacy">Diplomacy</Link> checks to interact with devils. When you acquire this gift, choose two <Link to="/skill/knowledge">Knowledge</Link> skills. You can attempt checks with them untrained.</p>
+<p>At manifestation level 3rd, the bonuses double.</p>
+</Pair>
+<Pair title="Stain">Effects that vary based on your alignment treat you as lawful evil or your true alignment, whichever is worse.</Pair>
+</Ability>
+<Ability id="murky-futures" icon={["magic","down"]}>
+<Pair single id="murky-futures" flavor="You can call upon Hell for clues about how to avoid your fate.">Murky Futures</Pair>
+<Pair title="Gift"><p>Once per day, you can call upon the knowledge of Hell with 10 minutes of meditation. You gain the benefit of <Link to="/spell/guidance">guidance</Link>, with a duration of 24 hours or until discharged.</p>
+<p>At higher manifestation levels, you can choose to gain the benefit of a different divination spell at the end of your meditation instead: <Link to="/spell/augury">augury</Link> at manifestation level 2nd, <Link to="/spell/divination">divination</Link> at manifestation level 4th, or <Link to="/spell/contact_other_plane">contact other plane</Link> at manifestation level 6th (to consult Asmodeus or an intermediate deity).</p>
+</Pair>
+<Pair title="Stain"><p>Increase the DCs of Constitution checks you attempt to stabilize while dying, <Link to="/skill/heal">Heal</Link> checks targeting you, and caster level checks required for conjuration (healing) spells to benefit you by 2 (the DC increase applies on the caster level check required to raise you from the dead at corruption stage 1).</p>
+<p>At manifestation level 3rd, the DCs increase by 4 instead. Your soul flees immediately on death, so you can't be revived by <Link to="/spell/breath_of_life">breath of life</Link>, the <Link to="/domain/resurrection"><em>gift of life</em> domain power</Link>, or any similar ability.</p>
+</Pair>
+</Ability>
+<Ability id="passage-through-the-pit" icon={["magic","down"]}>
+<Pair single id="passage-through-the-pit" flavor="The maw of Hell yawns wide to welcome you.">Passage through the Pit</Pair>
+<Pair title="Prerequisites">Manifestation level 3rd</Pair>
+<Pair title="Gift">You can step through Hell to reach other places once per hour. As a <strong className="hl">full-round action</strong>, you can choose a direction, then teleport 2d10 &times; 5 feet away in that direction (or the nearest safe, unoccupied location). You can use this ability once per minute at manifestation level 6th, and at will at manifestation level 8th.</Pair>
+<Pair title="Stain">You register as lawful evil as well as your own alignment to effects that reveal alignments. This alignment aura is strong, as if you were a lawful evil <Link to="/class/cleric">cleric</Link>. You are treated as an extraplanar lawful evil outsider with the devil subtype by abjurations that protect against such creatures.</Pair>
+</Ability>
+<Ability id="serpents-tongue" icon={["boost","magic","down"]}>
+<Pair single id="serpents-tongue" flavor="You gain the persuasive power of a master deceiver.">Serpent's Tongue</Pair>
+<Pair title="Prerequisites">Manifestation level 3rd, fiendish tutelage</Pair>
+<Pair title="Gift"><p>You gain a +2 bonus on Bluff and Diplomacy checks. Once per day when you succeed at a Bluff or Diplomacy check against a creature, you can attempt to influence it as if using <Link to="/spell/suggestion">suggestion</Link> with a caster level equal to your character level and a duration of 1 minute per level.</p>
+<p>At manifestation level 6th, the bonuses increase to +4.</p>
+</Pair>
+<Pair title="Stain">Your tongue takes on a serpent-like fork that can't be hidden by magic, though you can attempt a Disguise check to conceal it. Attempt one Disguise check per interaction, opposed by your opponent's Perception. Your devil tongue rebels when you work against infernal interests. When you attempt to cast a spell for a chaotic or good cause (as determined by the GM), you have a 20% spell failure chance if it has a verbal components and a -5 penalty on <Link to="/rule/concentration">concentration</Link> checks if it has a thought component.</Pair>
+</Ability>
+<Ability id="tenuous-soul" icon={["def","down"]}>
+<Pair single id="tenuous-soul" flavor="Your soul feels the constant and increasing pull of Hell.">Tenuous Soul</Pair>
+<Pair title="Gift"><p>You gain a +2 bonus on saving throws against emotion and fear spells and effects. You are immune to spells and effects that would trap or destroy your soul except those employed by a devil.</p>
+<p>At manifestation level 3rd, the bonuses increase to +4.</p>
+</Pair>
+<Pair title="Stain"><p>You take a -2 penalty on saving throws against spells and effects that would possess you or control your actions.</p>
+<p>At manifestation level 3rd, the penalty changes to -4.</p>
+</Pair>
+</Ability>
+</>};
+const _hive = {hasJL:true,title: "Hive", parent_topics: ["gm_specific_campaigns","horror_rules","corruption","corruptions"], siblings: ["aboleth","accursed","amoral","deep_one","demonic","ghoul","hellbound","hive","lich","lycanthropy","plagued","possessed","promethean","psychometabolic","shadowbound","vampirism"], jsx: <><div className="jumpList" id="rule-hive-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="rule-hive-catalyst">Catalyst</InnerLink></li><li><InnerLink toTop to="rule-hive-progression">Progression</InnerLink></li><li><InnerLink toTop to="rule-hive-removing-the-corruption">Removing the Corruption</InnerLink></li><li><InnerLink toTop to="rule-hive-manifestations">Manifestations</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 24-25</Link><br/>Your body is a vessel for an invasive otherworldly species that seek to spread across the stars and devour all other life.</p>
+<h3 id="rule-hive-catalyst" data-hash-target>Catalyst</h3>
+<p>You were infested with hive larvae (likely from a <Link to="/monster/hive_larva_swarm">hive larva swarm</Link>), but your body has metabolized the larvae and mutated you into something new.</p>
+<div style={{clear:"both"}}></div><h3 id="rule-hive-progression" data-hash-target>Progression</h3>
+<p>A hive infestation increases over time as your body adapts. Each month, your infestation surges at unpredictable intervals a number of times equal to your manifestation level. Each episode lasts about an hour, during which you're racked by pain and must attempt a Fortitude save (DC = 15 + manifestation level). On a success, you weather the episode. If you fail, your corruption progresses to the next stage, but you don't need to attempt any further saves until the next month.</p>
+<Block size="small" hl>
+<Row><Cell>Corruption Stage 1</Cell><Cell>The first time you fail the Fortitude save, your features shifts into an alien visage. You take a -2 penalty on Diplomacy, Disguise, and Handle Animal checks. Your alignment shifts one step toward neutral evil.</Cell></Row>
+<Row><Cell>Corruption Stage 2</Cell><Cell>The second time you fail, your body transforms. You are affected by spells and abilities as if your creature type were aberration. Your mental link with the hive shifts your alignment to neutral evil.</Cell></Row>
+<Row><Cell>Corruption Stage 3</Cell><Cell>The third time you fail, you succumb to the link. You seek out an isolated place and wrap yourself in a cocoon of resinous mucous, in which your body dissolves into hive larva swarms, which erupt after 24 hours.</Cell></Row></Block>
+<h3 id="rule-hive-removing-the-corruption" data-hash-target>Removing the Corruption</h3>
+<p>Curing a hive corruption could require <Link to="/rule/fleshwarping">fleshwarping</Link> or even seeking out the enigmatic <Link to="/monster/anunnaki">anunnaki</Link> who created the hive in the first place.</p>
+<h3 id="rule-hive-manifestations" data-hash-target>Manifestations</h3>
+<p>The following are manifestations of the hive corruption.</p>
+<Ability id="acid-blood" icon={["def","down"]}>
+<Pair single id="acid-blood" flavor="Your blood burns like acid.">Acid Blood</Pair>
+<Pair title="Prerequisites">Manifestation level 3rd, transformed flesh</Pair>
+<Pair title="Gift">If a creature damages you with a slashing or piercing manufactured weapon, it must succeed at a Reflex saving throw or its weapon takes 2 points of acid damage per manifestation level; this damage is not halved before it is applied to the weapon's hardness. If a creature damages you with a slashing or piercing natural weapon, it must succeed at the save or take that amount of acid damage itself.</Pair>
+<Pair title="Stain">Your acidic sweat damages your equipment. After using or wearing an item for 8 hours total, it gains the <Link to="/misc/broken">broken</Link> condition. If you use or wear a broken item for 8 hours, it is destroyed. This ability doesn't break cursed items, artifacts, or similar items that are difficult or impossible to destroy.</Pair>
+</Ability>
+<Ability id="blindsense" icon={["power","down"]}>
+<Pair single id="blindsense" flavor="You can feel the unseen.">Blindsense</Pair>
+<Pair title="Prerequisites">Manifestation level 2nd, hive mind</Pair>
+<Pair title="Gift">As a <strong className="hl">move action</strong>, you can force the hive mind to use its senses to assist you. You gain <Link to="/umr/blindsense">blindsense</Link> with a range of 5 feet &times; 1/2 your manifestation level until the beginning of your next turn; during that time, you negate the penalty on Perception checks from the stain and instead gain a bonus on Perception checks equal to 1/2 your manifestation level.</Pair>
+<Pair title="Stain">You gain the <Link to="/umr/light_blindness">light blindness</Link> universal monster ability. You take a penalty on <Link to="/skill/perception">Perception</Link> checks equal to your manifestation level.</Pair>
+</Ability>
+<Ability id="bristling-spines" icon={["power","down"]}>
+<Pair single id="bristling-spines" flavor="Your body becomes covered in chitinous spines.">Bristling Spines</Pair>
+<Pair title="Prerequisites">Manifestation level 3rd, living weapon</Pair>
+<Pair title="Gift">Your spines can pierce walls, allowing you to climb quickly. You gain a climb speed equal to half your base speed.</Pair>
+<Pair title="Stain">Your spines make it difficult to move. Your armor check penalty for any armor you wear increases by 2. Even when not wearing armor, you take a -2 armor check penalty.</Pair>
+</Ability>
+<Ability id="greater-acid-blood" icon={["aura","down"]}>
+<Pair single id="greater-acid-blood" flavor="Your blood becomes even more vitriolic.">Greater Acid Blood</Pair>
+<Pair title="Prerequisites">Manifestation level 5th, acid blood, transformed flesh</Pair>
+<Pair title="Gift">Whenever you take slashing or piercing damage, all adjacent creatures take an amount of acid damage equal to 1/2 your manifestation level (Reflex negates).</Pair>
+<Pair title="Stain">Your blood is so thin it clots poorly, and its alien nature stymies magical healing. You take double the normal damage from <Link to="/rule/bleed">bleed</Link> effects and lose double the normal amount of hit points per round when dying or when you act while disabled. The DC to stabilize you and stanch bleed effects on you with a <Link to="/skill/heal">Heal</Link> check increases by 5. Magical effects no longer stabilize you or end bleed effects - only a successful Heal check can do so.</Pair>
+</Ability>
+<Ability id="greater-hive-mind" icon={["select","power","down"]}>
+<Pair single id="greater-hive-mind" flavor="The whispers of the hive call to you when awake or asleep.">Greater Hive Mind</Pair>
+<Pair title="Prerequisites">Manifestation level 5th, hive mind</Pair>
+<Pair title="Gift">As a <strong className="hl">move action</strong>, you can communicate telepathically with one creature within 30 feet for 1 round. The hive whispers through the connection, causing a creature that doesn't have the <Link to="/subtype/hive">hive subtype</Link> or hive corruption to be <Link to="/misc/shaken">shaken</Link> for 1 round (Will negates).</Pair>
+<Pair title="Stain">The noise of the hive mind is strongest when you are at your weakest. Whenever damage causes you to drop below half your maximum hit points, you are also <Link to="/misc/staggered">staggered</Link> for 1 round. Immunities don't prevent this staggered condition, and you can't remove it early by any means. This effect doesn't trigger if you are already below half your maximum hit points before you take damage.</Pair>
+</Ability>
+<Ability id="hive-mind" icon={["def","down"]}>
+<Pair single id="hive-mind" flavor="You hear whispers of the hive's collective consciousness.">Hive Mind</Pair>
+<Pair title="Gift"><p>The strength of the hive mind bolsters your own, granting you a +1 bonus on Will saves.</p>
+<p>At manifestation level 5th, this bonus increases to +2.</p>
+</Pair>
+<Pair title="Stain">Your mind is cluttered with other disparate voices. You take a -2 penalty on <Link to="/rule/concentration">concentration</Link> checks, as well as on Intelligence- and Wisdom-based ability checks and skill checks, and you can never take 10 on such checks.</Pair>
+</Ability>
+<Ability id="living-armor" icon={["def","down"]}>
+<Pair single id="living-armor" flavor="You can sheathe your body in an armored carapace.">Living Armor</Pair>
+<Pair title="Prerequisites">Manifestation level 2nd, living weapon</Pair>
+<Pair title="Gift">As a <strong className="hl">move action</strong>, you can cause chitinous plates of armor to grow out of your flesh. This armor grants a natural armor bonus to your AC equal to 1/2 your manifestation level and persists as long you maintain concentration with a <strong className="hl">swift action</strong> each round. You must succeed at a concentration check as if concentrating on a 0-level spell, and your bonus to this concentration check is equal to your character level + your manifestation level. If you fail a concentration check, the armor retracts.</Pair>
+<Pair title="Stain">Growing living armor is painful. You take 1 point of damage per manifestation level when you take the action to draw out your living armor and every time you retract the living armor (either voluntarily or by failing a concentration check). While your armor is retracted, you take 1 point of bleed damage whenever you take piercing damage.</Pair>
+<Pair title="Special">Upon receiving this manifestation, you must take both the gift and the stain, even with the <em>useful corruption</em> or <em>vile corruption</em> <Link to="/rule/corruption_variants">variants</Link>.</Pair>
+</Ability>
+<Ability id="living-weapon" icon={["melee","down"]}>
+<Pair single id="living-weapon" flavor="Your hands contort and mutate into horrible rending claws.">Living Weapon</Pair>
+<Pair title="Gift">You gain two claw attacks as primary <Link to="/umr/natural_weapons">natural weapons</Link>. These claws each deal 1d4 points of damage if your size is Medium (1d3 if Small).</Pair>
+<Pair title="Stain">You take a -2 penalty on ranged attack rolls and attack rolls with manufactured weapons because of your deformed hands.</Pair>
+</Ability>
+<Ability id="resin-secretion" icon={["magic","select","down"]}>
+<Pair single id="resin-secretion" flavor="Your body produces a resinous spittle.">Resin Secretion</Pair>
+<Pair title="Prerequisites">Manifestation level 5th, living weapon</Pair>
+<Pair title="Gift">As a <strong className="hl">standard action</strong>, you can expel spittle that rapidly hardens into a resin. This effect is identical to the <Link to="/spell/web">web</Link> spell with a caster level equal to your manifestation level, except it targets a single 5-foot space, has a hardness of 1, and has 2 hit points per manifestation level you have. Creatures caught in the spray can attempt a Reflex save to avoid the effect. The resin lasts for 1 minute before crumbling to dust.</Pair>
+<Pair title="Stain">Whenever you use your resin secretion gift, you are <Link to="/misc/nauseated">nauseated</Link> until the end of your next turn. Immunities don't prevent this nauseated condition, and you can't remove it early by any means.</Pair>
+<Pair title="Special">Upon receiving this manifestation, you must take both the gift and the stain, even with the <em>useful corruption</em> or <em>vile corruption</em> <Link to="/rule/corruption_variants">variants</Link>.</Pair>
+</Ability>
+<Ability id="transformed-flesh" icon={["def","down"]}>
+<Pair single id="transformed-flesh" flavor="Your gain some of a hive creature's resistance to acid.">Transformed Flesh</Pair>
+<Pair title="Gift"><p>You gain acid resistance 5.</p>
+<p>At manifestation level 5th, this acid resistance increases to 10.</p>
+</Pair>
+<Pair title="Stain">The entirety of your flesh darkens and mutates to look more like that of a hive creature. You take a -2 penalty to your Charisma score.</Pair>
+</Ability>
+</>};
+const _lich = {hasJL:true,title: "Lich", parent_topics: ["gm_specific_campaigns","horror_rules","corruption","corruptions"], siblings: ["aboleth","accursed","amoral","deep_one","demonic","ghoul","hellbound","hive","lich","lycanthropy","plagued","possessed","promethean","psychometabolic","shadowbound","vampirism"], jsx: <><div className="jumpList" id="rule-lich-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="rule-lich-catalyst">Catalyst</InnerLink></li><li><InnerLink toTop to="rule-lich-progression">Progression</InnerLink></li><li><InnerLink toTop to="rule-lich-removing-the-corruption">Removing the Corruption</InnerLink></li><li><InnerLink toTop to="rule-lich-manifestations">Manifestations</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 26-27</Link><br/>Your attempt to transition into unlife has gone horribly awry and your soul is trapped. Lich corruption also works for becoming another sort of corporeal undead (except ghouls and vampires, which have their own corruptions).</p>
+<h3 id="rule-lich-catalyst" data-hash-target>Catalyst</h3>
+<p>This corruption originates from an unsuccessful attempt at lichdom. You might have lacked sufficient power or used a flawed phylactery. If you're not a spellcaster, you could have been an innocent bystander or become corrupted upon destroying a particularly powerful lich's phylactery.</p>
+<div style={{clear:"both"}}></div><h3 id="rule-lich-progression" data-hash-target>Progression</h3>
+<p>Lich corruptions are rarely stable, and cause incredible mental and physical strain. Whenever you fail a saving throw against a necromancy effect, learn how to cast a new spell or spells, or are exposed to 25 points of negative energy damage or more from a single source (whether it heals or harms you), you must succeed at a Fortitude save (DC = 15 + your manifestation level) or become spiritually disjoined. You also need to make a saving throw whenever anyone successfully casts the <Link to="/spell/death_ward">death ward</Link> spell on you. After a failed save, your spirit and body disconnect, leaving your corporeal form helpless and your mind trapped within the Negative Energy Plane. This state lasts for 1 hour per manifestation level; if you are killed during this time, you rise 24 hours later as a <Link to="/monster/wraith">wraith</Link> under the GM's control.</p>
+<Block size="small" hl>
+<Row><Cell>Corruption Stage 1</Cell><Cell>The first time you recover from this disconnected state, you return diminished, taking a permanent -2 penalty to your Charisma score, and your alignment shifts one step toward evil.</Cell></Row>
+<Row><Cell>Corruption Stage 2</Cell><Cell>The second time this happens, your alignment shifts another step toward evil and you take an additional -2 penalty to your Charisma score.</Cell></Row>
+<Row><Cell>Corruption Stage 3</Cell><Cell>The third time this happens, you die and your soul is consumed by the Negative Energy Plane. You can't be raised or resurrected except by powerful magic such as <Link to="/spell/miracle">miracle</Link> or <Link to="/spell/wish">wish</Link>. Even if you do get brought back, you are an evil lich NPC under the GM's control.</Cell></Row></Block>
+<h3 id="rule-lich-removing-the-corruption" data-hash-target>Removing the Corruption</h3>
+<p>Curing lich corruption requires great acts of purification, such as being exorcised by a powerful cleric, bathing in sacred springs, or creating a phylactery of your own into which to expel the lich corruption.</p>
+<h3 id="rule-lich-manifestations" data-hash-target>Manifestations</h3>
+<p>The following are manifestations of the lich corruption.</p>
+<Ability id="agonizing-touch" icon={["touch","lower","down"]}>
+<Pair single id="agonizing-touch" flavor="Your touch racks the living with pain.">Agonizing Touch</Pair>
+<Pair title="Prerequisites">Manifestation level 4th, death's caress</Pair>
+<Pair title="Gift">Once per day per manifestation level, you can make an <em>agonizing touch</em> as a <strong className="hl">standard action</strong>. A living creature hit by this touch attack must succeed at a Fortitude save or be <Link to="/misc/staggered">staggered</Link> for a number of rounds equal to 1/2 your manifestation level.</Pair>
+<Pair title="Stain">Both of your hands wither to nearly skeletal appendages, and your emotions dim towards the coldness of undeath. You take a -2 penalty on attacks with manufactured weapons. Your spells with somatic or emotion components have a 5% failure chance. This stacks with any spell failure chances you incur from other sources.</Pair>
+</Ability>
+<Ability id="bleak-aura" icon={["aura","lower","down"]}>
+<Pair single id="bleak-aura" flavor="Entropy seeps from your body.">Bleak Aura</Pair>
+<Pair title="Prerequisites">Manifestation level 4th, deathless</Pair>
+<Pair title="Gift">Any living creature that ends its turn adjacent to you takes 1 point of negative energy damage for every 2 manifestation levels you have.</Pair>
+<Pair title="Stain">Animals are startled by your presence, worsening their starting attitudes toward you by one step. Any animal companion you have abandons you when you acquire this stain. Whispering voices fill the air around you, begging for release or cursing your existence. Any creature that succeeds at a DC 20 <Link to="/skill/perception">Perception</Link> check can hear these whispers, which might alert it to your presence if you're using <Link to="/skill/stealth">Stealth</Link>.</Pair>
+</Ability>
+<Ability id="cadavers-countenance" icon={["def","down"]}>
+<Pair single id="cadavers-countenance" flavor="Your body takes on a deathly likeness.">Cadaver's Countenance</Pair>
+<Pair title="Gift">You gain a +1 natural armor bonus to your AC and a +2 bonus on saves against mind-affecting effects.</Pair>
+<Pair title="Stain">Your flesh tightens, turning corpse-like and gray as your body rots. You take a -2 penalty to your Constitution.</Pair>
+</Ability>
+<Ability id="deaths-caress" icon={["touch","down"]}>
+<Pair single id="deaths-caress" flavor="Your touch drains the warmth of life from others.">Death's Caress</Pair>
+<Pair title="Gift">You can make a touch attack as a <strong className="hl">standard action</strong> that deals cold damage equal to 1d4 + your manifestation level.</Pair>
+<Pair title="Stain">The flesh from one of your hands rots away, leaving it a blackened, skeletal claw. Spells that detect undead sense you, though the peculiar result they return informs the caster that you're still a living creature. Other spells and effects don't treat you as undead.</Pair>
+</Ability>
+<Ability id="deathless" icon={["def","down"]}>
+<Pair single id="deathless" flavor="You are inured to negative energy.">Deathless</Pair>
+<Pair title="Gift">You gain a +2 bonus on saving throws against spells and effects that work only on living creatures.</Pair>
+<Pair title="Stain">You are healed by negative energy and harmed by positive energy as if you were an undead creature.</Pair>
+</Ability>
+<Ability id="greater-cadavers-countenance" icon={["def","down"]}>
+<Pair single id="greater-cadavers-countenance" flavor="You become emaciated and nearly skeletal.">Greater Cadaver's Countenance</Pair>
+<Pair title="Prerequisites">Manifestation level 4th, cadaver's countenance</Pair>
+<Pair title="Gift">You gain cold resistance 5 and DR equal to 1/2 your manifestation level that is overcome by bludgeoning damage.</Pair>
+<Pair title="Stain">You take an additional -2 penalty to your Constitution score and are affected by spells and abilities (including <Link to="/magic-enh/bane">bane</Link> and <Link to="/ability/favored_enemy">favored enemy</Link>) as if your creature type were undead. This doesn't grant you the immunities of undead creatures, nor does it make you immune to effects that target living creatures or change how negative and positive energy affect you.</Pair>
+</Ability>
+<Ability id="malevolence" icon={["touch","magic","down","roll"]}>
+<Pair single id="malevolence" flavor="You can wrench your soul from your body to possess another.">Malevolence</Pair>
+<Pair title="Prerequisites">Manifestation level 7th, bleak aura, deathless</Pair>
+<Pair title="Gift"><p>You can touch a living creature as a <strong className="hl">standard action</strong> and force your soul into its body. If hit by this touch attack, the target must succeed at a Will save (DC = 15 + your manifestation level) or be affected by <Link to="/spell/possession">possession</Link>. You can possess creatures for a number of minutes per day equal to your manifestation level. These minutes don't need to be used consecutively, but must be spent in 1-minute increments. A failed attempt costs 1 minute of use and renders your target immune to your <em>malevolence</em> for 24 hours.</p>
+<p>Your body is helpless while you possess another creature, and if it is destroyed you die when the duration of <em>malevolence</em> ends. You can use <em>malevolence</em> while in another creature's body to transfer your soul again (following the same rules for casting <em>possession</em> while in a body that's not your own).</p>
+</Pair>
+<Pair title="Stain">Your spirit is untethered from your body. You roll twice and take the lowest result on saves against spells that imprison or target your soul, such as <Link to="/spell/magic_jar">magic jar</Link> and <Link to="/spell/trap_the_soul">trap the soul</Link>, as well as against positive energy effects. If you drop below 0 hit points, your soul leaves your body and you instantly die.</Pair>
+</Ability>
+<Ability id="master-of-the-dead" icon={["magic","down"]}>
+<Pair single id="master-of-the-dead" flavor="You can animate the dead with your necromantic power.">Master of the Dead</Pair>
+<Pair title="Prerequisites">Manifestation level 6th, agonizing touch, death's caress</Pair>
+<Pair title="Gift">You can cast <Link to="/spell/animate_dead">animate dead</Link> at will as a spell-like ability with a caster level equal to your character level. You must provide the material components, and you take 2 points of <Link to="/rule/charisma_drain">Charisma drain</Link> for every creature you animate. If the drain is removed or you avoid taking it, the animated creature is immediately destroyed (you choose which creatures are destroyed if some but not all drain is removed). Conversely, the Charisma drain from animating a creature is instantly removed when that creature is destroyed. You still must abide by the usual Hit Die limits of <em>animate dead.</em></Pair>
+<Pair title="Stain">Your emotions are nearly a thing of the past. You can't benefit from morale bonuses or bardic performances.</Pair>
+</Ability>
+<Ability id="necromantic-knowledge" icon={["learn","down"]}>
+<Pair single id="necromantic-knowledge" flavor="You have gained unusual insights into necromancy.">Necromantic Knowledge</Pair>
+<Pair title="Prerequisites">Manifestation level 2nd, ability to cast spells</Pair>
+<Pair title="Gift"><p>You can add one necromancy spell from the <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">wizard</Link> spell list to your spellbook, familiar, or list of spells you can prepare or to your spells known. This spell must be of a level you can cast. A spell learned in this fashion is treated as though it were on your class spell list.</p>
+<p>If you normally cast your spells from the sorcerer/wizard spells list, you can add a necromancy spell from the <Link to="/main/spells_cleric">cleric</Link> or <Link to="/main/witch_spell">witch spell list</Link> instead.</p>
+</Pair>
+<Pair title="Stain">You cast any spell from a school other than necromancy as though your caster level were 1 lower, which might prevent you from casting the spell altogether.</Pair>
+<Pair title="Special">You can gain this manifestation multiple times. Each time you gain the <em>gift,</em> you gain a different necromancy spell, and each time you gain the <em>stain,</em> the penalties stack.</Pair>
+</Ability>
+</>};
+const _lycanthropy = {hasJL:true,title: "Lycanthropy", parent_topics: ["gm_specific_campaigns","horror_rules","corruption","corruptions"], siblings: ["aboleth","accursed","amoral","deep_one","demonic","ghoul","hellbound","hive","lich","lycanthropy","plagued","possessed","promethean","psychometabolic","shadowbound","vampirism"], jsx: <><div className="jumpList" id="rule-lycanthropy-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="rule-lycanthropy-catalyst">Catalyst</InnerLink></li><li><InnerLink toTop to="rule-lycanthropy-progression">Progression</InnerLink></li><li><InnerLink toTop to="rule-lycanthropy-removing-the-corruption">Removing the Corruption</InnerLink></li><li><InnerLink toTop to="rule-lycanthropy-manifestations">Manifestations</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 28-29</Link><br/>There is a sound pulsing through your blood, a call to the wild and savage places of the world, where you are free to hunt and to kill to satisfy your bloodlust. You are filled with the desire to rend foes limb from limb with tooth and claw.</p>
+<h3 id="rule-lycanthropy-catalyst" data-hash-target>Catalyst</h3>
+<p>Lycanthropy is contracted from being savagely wounded by the teeth or claws of a lycanthrope, typically when reduced to less than 10% of your maximum hit points in a single combat with one. (This can vary with the power of the creature.) When you contract this corruption, note the animal associated with the lycanthrope, as that is the kind if lycanthrope you will become.</p>
+<div style={{clear:"both"}}></div><h3 id="rule-lycanthropy-progression" data-hash-target>Progression</h3>
+<p>Lycanthropy's progress is tied to the phases of the moon. Each month, the moon is considered full for three nights. At the onset of the corruption, you must attempt a Will saving throw during one of the nights chosen by the GM. For each stage of lycanthropy corruption you have, you must attempt a save on one additional night, eventually needing to save on nights leading up to and possibly after the full moon. The DC of this save is equal to 15 + your manifestation level. If you fail a save, you don't need to attempt more until the next full moon.</p>
+<p>Failing a saving throw against this corruption causes you to black out, losing control of your character. During this time, your form becomes that of the associated creature and you give into your animalistic urges, hunting and killing with abandon. The next morning, you regain control, typically in the wilderness without any gear and soaked in blood. If you fail the save but your inner animal is prevented from running free, perhaps because you were restrained, you transform and attempt to run free without a save on the remaining full moon nights, and you also go out of control any time you shift forms during the days of that full moon. If you last through it and remain restrained, your corruption doesn't progress to the next stage. However, the DC of the Will save against your corruption progressing increases by 2. These increases stack each time this occurs, and they last until your corruption reaches the next stage.</p>
+<Block size="small" hl>
+<Row><Cell>Corruption Stage 1</Cell><Cell>The first time you lose control, you kill defenseless small animals, such as birds, rodents, and possibly even a dog.</Cell></Row>
+<Row><Cell>Corruption Stage 2</Cell><Cell>The second time this occurs, you kill larger animals, such as a horse, a cow, or a pig.</Cell></Row>
+<Row><Cell>Corruption Stage 3</Cell><Cell>The third time this happens, you kill a nearby sentient humanoid, at which point the corruption becomes incurable and you are doomed to live a life of lycanthropy, forever turning evil and becoming an NPC under the GM's control.</Cell></Row></Block>
+<h3 id="rule-lycanthropy-removing-the-corruption" data-hash-target>Removing the Corruption</h3>
+<p>Removing lycanthropy requires you to slay the source of your corruption and, at the height of the next full moon, consume 1 dose of <Link to="/eq-poison/belladonna">belladonna</Link> per 2 manifestation levels you have all at once. You must choose to fail the initial saving throw against the belladonna.</p>
+<h3 id="rule-lycanthropy-manifestations" data-hash-target>Manifestations</h3>
+<p>The following are manifestations of the lycanthropy corruption.</p>
+<Ability id="animalistic-health" icon={["boost","down"]}>
+<Pair single id="animalistic-health" flavor="You are hardier in your animal form.">Animalistic Health</Pair>
+<Pair title="Prerequisites">Shift form</Pair>
+<Pair title="Gift">Whenever you <em>shift forms,</em> you gain a +2 bonus to your Constitution score that lasts as long as you are in your <em>shifted form.</em> Hit points gained from this bonus are lost when you revert to your normal form.</Pair>
+<Pair title="Stain">You take a -2 penalty to your Charisma score.</Pair>
+</Ability>
+<Ability id="animalistic-might" icon={["boost","down"]}>
+<Pair single id="animalistic-might" flavor="You are stronger in your animal form.">Animalistic Might</Pair>
+<Pair title="Prerequisites">Shift form</Pair>
+<Pair title="Gift">Whenever you <em>shift forms,</em> you gain a +2 bonus to your Strength score that lasts as long as you're in your <em>shifted form.</em></Pair>
+<Pair title="Stain">Whenever you <em>shift form</em> involuntarily, your body spasms and changes size, causing you to drop whatever you were holding and burst out of your other gear and clothing. Items that can stay on throughout this size change might not fall off, at the GM's discretion.</Pair>
+</Ability>
+<Ability id="feral-senses" icon={["power","down"]}>
+<Pair single id="feral-senses" flavor="You gain the senses of your animalistic side.">Feral Senses</Pair>
+<Pair title="Gift"><p>You gain low-light vision.</p>
+<p>At manifestation level 3rd, you gain the <Link to="/umr/scent">scent</Link> special ability if your lycanthrope animal type has the scent ability.</p>
+</Pair>
+<Pair title="Stain"><p>Creatures of the animal type (except those of your lycanthrope type) are unnerved by your lycanthropic presence, causing you to take a -2 penalty on Handle Animal and Ride skill checks.</p>
+<p>At manifestation level 3rd, these penalties change to -4.</p>
+</Pair>
+</Ability>
+<Ability id="fur-armor" icon={["def","down"]}>
+<Pair single id="fur-armor" flavor={<>When in your <em>shifted form,</em> you gain a thick coat of fur.</>}>Fur Armor</Pair>
+<Pair title="Prerequisites">Shift form</Pair>
+<Pair title="Gift"><p>Whenever you <em>shift</em> your form, your natural armor bonus increases by 1.</p>
+<p>At manifestation level 5th, your natural armor bonus instead increases by 2.</p>
+</Pair>
+<Pair title="Stain"><p>Whenever you <em>shift form</em> involuntarily, you <em>shift</em> as a <strong className="hl">free action</strong> but you spend your next round <Link to="/misc/confused">confused</Link> and must roll to determine your action.</p>
+<p>At manifestation level 5th, you are confused for 2 rounds instead. Immunities don't prevent this confusion, and you can't remove the confusion early by any means.</p>
+</Pair>
+</Ability>
+<Ability id="greater-shift-form" icon={["magic","down"]}>
+<Pair single id="greater-shift-form" flavor="You can become an animal.">Greater Shift Form</Pair>
+<Pair title="Prerequisites">Manifestation level 6th, shift form</Pair>
+<Pair title="Gift">When you use <em>shift form,</em> you can instead take your animal form, as if using <Link to="/spell/polymorph">polymorph</Link>. Nonmagical clothing and gear don't meld into your animal form. You don't gain any ability score adjustments (other than those gained from other manifestations), but you do gain all of the other abilities granted by <em>polymorph</em> for your new form.</Pair>
+<Pair title="Stain">While you're <em>shifted,</em> you're treated as a lycanthrope and shapeshifter for abilities, items, or spells that target lycanthropes or shapeshifters. In addition, when you <em>shift</em> involuntarily, you can't <em>shift</em> back until you spend a <strong className="hl">full-round action</strong> and succeed at a DC 20 Constitution check. If you don't succeed, you remain in your <em>shifted</em> form, automatically consuming a daily use of shifting each minute until you have used up all of your uses for the day.</Pair>
+</Ability>
+<Ability id="lunar-call" icon={["boost","down"]}>
+<Pair single id="lunar-call" flavor="The moon's light affects your mind.">Lunar Call</Pair>
+<Pair title="Prerequisites">Shift form</Pair>
+<Pair title="Gift">Whenever you are outside and the moon is visible, you gain a +1 morale bonus on attack rolls and damage rolls. These bonuses double during a full moon.</Pair>
+<Pair title="Stain">Whenever you are outside and the moon is visible, you take a -2 penalty on saving throws against emotion effects and a -4 penalty on saving throws to resist involuntarily shifting. These penalties double during a full moon.</Pair>
+</Ability>
+<Ability id="lycanthropic-empathy" icon={["power","boost","down"]}>
+<Pair single id="lycanthropic-empathy" flavor="You can relate to the creatures that share your type.">Lycanthropic Empathy</Pair>
+<Pair title="Gift">You can communicate with animals related to your animal type. You can use <Link to="/skill/diplomacy">Diplomacy</Link> to alter such animals' attitudes, and you gain a +4 racial bonus on such checks. This bonus also applies on your <em>wild empathy</em> checks.</Pair>
+<Pair title="Stain">Your animalistic nature imposes a penalty on your <Link to="/skill/bluff">Bluff</Link>, Diplomacy, and <Link to="/skill/sense_motive">Sense Motive</Link> skill checks equal to your manifestation level (minimum -2) when dealing with humanoids (and other civilized folk at the GM's discretion).</Pair>
+</Ability>
+<Ability id="shift-form" icon={["magic","melee","down"]}>
+<Pair single id="shift-form" flavor="You have some control over your shift to a feral nature.">Shift Form</Pair>
+<Pair title="Gift"><p>You can attempt a DC 15 Constitution check as a <strong className="hl">full-round action</strong> to shift into a feral form, with a bonus equal to your manifestation level. This form grants you a bite <Link to="/umr/natural_attack">natural attack</Link> that deals 1d6 points of piercing damage if you're Medium (1d4 if Small). You retain the use of your abilities and gear.</p>
+<p>You can remain in this form for up to 1 minute, but can revert back as a <strong className="hl">move action</strong> at any time. If the duration expires, you can extend it by 1 minute by spending another use of this ability as a <strong className="hl">free action</strong>. You can use this ability a number of times per day equal to your manifestation level.</p>
+</Pair>
+<Pair title="Stain">When you are struck by a confirmed critical hit and aren't in your <em>shifted form,</em> you must attempt a Will save (DC = 15 + your manifestation level). If you fail, you automatically <em>shift form</em> on your next turn without attempting a check. This consumes one use of that ability. You must also attempt this save if you take damage equal to or greater than your manifestation level while not in combat or before you've acted in combat.</Pair>
+<Pair title="Special">Upon receiving this manifestation, you must take both the gift and the stain, even with the <em>useful corruption</em> or <em>vile corruption</em> <Link to="/rule/corruption_variants">variants</Link>.</Pair>
+</Ability>
+<Ability id="silver-allergy" icon={["def","down"]}>
+<Pair single id="silver-allergy" flavor="You're resistant to harm, but can't abide the touch of silver.">Silver Allergy</Pair>
+<Pair title="Prerequisites">Manifestation level 4th, shift form</Pair>
+<Pair title="Gift">When you are <em>shifted,</em> you gain an amount of damage reduction equal to half your manifestation level. This DR is overcome by silver.</Pair>
+<Pair title="Stain">When you're not in your <em>shifted form</em> and you touch silver, including being struck by a silver weapon, you're <Link to="/misc/sickened">sickened</Link> for 1 round. Immunities don't prevent this sickened condition, and you can't remove it early. You can try to hide this aversion with a Bluff check opposed by Sense Motive.</Pair>
+</Ability>
+</>};
+const _plagued = {hasJL:true,title: "Plagued", parent_topics: ["gm_specific_campaigns","horror_rules","corruption","corruptions"], siblings: ["aboleth","accursed","amoral","deep_one","demonic","ghoul","hellbound","hive","lich","lycanthropy","plagued","possessed","promethean","psychometabolic","shadowbound","vampirism"], jsx: <><div className="jumpList" id="rule-plagued-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="rule-plagued-catalyst">Catalyst</InnerLink></li><li><InnerLink toTop to="rule-plagued-progression">Progression</InnerLink></li><li><InnerLink toTop to="rule-plagued-removing-the-corruption">Removing the Corruption</InnerLink></li><li><InnerLink toTop to="rule-plagued-manifestations">Manifestations</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms pg. 58-59</Link><br/>Disease can become a corruption when it causes long-lasting and physical changes to the body.</p>
+<h3 id="rule-plagued-catalyst" data-hash-target>Catalyst</h3>
+<p>Suffering a magical disease for a prolonged period can induce the plagued corruption.</p>
+<div style={{clear:"both"}}></div><h3 id="rule-plagued-progression" data-hash-target>Progression</h3>
+<p>You carry the symptoms and appearance of one suffering from a disease, even if you've been cured of the illness that triggered your corruption or are otherwise normally immune to disease. Further, once you gain the plagued corruption, you lose any immunity to disease and cannot gain such immunity from magical spells or items or other effects. Only living creatures can gain this corruption.</p>
+<p>Once per month, if you did not infect a number of creatures equal to or greater than your manifestation level with a disease you are carrying, you must attempt a Fortitude saving throw (DC = 15 + your manifestation level). If you fail, the next time you rest, you immediately gain a new disease of the GM's choosing (without a further saving throw) and black out, losing control to the insidious delirium of the disease. You must seek out and infect any creature you can find before the next sunrise. If you succeed on your Fortitude saving throw or are prevented from infecting anyone for 1 day, the urge passes, but the DC of future saving throws to resist this temptation increases by 2. This increase is cumulative, but resets when your corruption progresses. Innocents you infect and then cure (or whose recovery you significantly assist, at the GM's discretion) do not count toward this number, nor do those infected by others who were themselves infected before your corruption reached its current stage.</p>
+<Block size="small" hl>
+<Row><Cell>Corruption Stage 1</Cell><Cell>The first time your corruption progresses, any disease you suffer from becomes more tenacious. You take a -2 penalty on all saving throws to resist contracting a new disease, and your alignment shifts one step toward evil.</Cell></Row>
+<Row><Cell>Corruption Stage 2</Cell><Cell>The second time your corruption progresses, diseases you suffer from become difficult to cure; the DC of a disease you are suffering from is increased by 10 for the purposes of caster level checks for spells such as <Link to="/spell/remove_disease">remove disease</Link> to cure you from its effects. Your alignment shifts to evil.</Cell></Row>
+<Row><Cell>Corruption Stage 3</Cell><Cell>The third time your corruption progresses, your disease saps your free will and the GM gains control of your character.</Cell></Row></Block>
+<h3 id="rule-plagued-removing-the-corruption" data-hash-target>Removing the Corruption</h3>
+<p>Curing the corruption requires curing not only the underlying diseases you suffer from, but also the initial illness that triggered your corruption - this often necessitates the use of rare and elaborate treatments.</p>
+<h3 id="rule-plagued-manifestations" data-hash-target>Manifestations</h3>
+<p>The following are manifestations of the plagued corruption.</p>
+<Ability id="accelerated-affliction" icon={["select","lower","down"]}>
+<Pair single id="accelerated-affliction" flavor="You can quicken diseases in others.">Accelerated Affliction</Pair>
+<Pair title="Gift">As a <strong className="hl">swift action</strong>, once per day per 2 manifestation levels you have (minimum once per day), you can cause one creature within 30 feet suffering from any diseases to attempt a saving throw against one randomly determined disease they are suffering. On a failed saving throw, they immediately take that disease's damage. A successful save does not count toward the saving throws required to recover from the disease.</Pair>
+<Pair title="Stain">You take a -2 penalty to any one ability score of your choice.</Pair>
+</Ability>
+<Ability id="bodily-betrayal" icon={["touch","lower","down"]}>
+<Pair single id="bodily-betrayal" flavor="Your body betrays you at the worst moments.">Bodily Betrayal</Pair>
+<Pair title="Prerequisites">Accelerated affliction</Pair>
+<Pair title="Gift">Once per day per manifestation level, you can make a touch attack on a creature and expose it to any disease you are carrying.</Pair>
+<Pair title="Stain">Plague sores make injuries more acutely painful. You take a -2 penalty on attack rolls, saving throws, and <Link to="/rule/concentration">concentration</Link> checks for 1 round after you are dealt lethal damage.</Pair>
+</Ability>
+<Ability id="false-health" icon={["def","down"]}>
+<Pair single id="false-health" flavor="You can feign health and hide your symptoms.">False Health</Pair>
+<Pair title="Prerequisites">Accelerated affliction</Pair>
+<Pair title="Gift">Once per day as a <strong className="hl">swift action</strong>, you can suppress the stain of your <em>accelerated affliction</em> for a number of hours equal to your manifestation level.</Pair>
+<Pair title="Stain">You take a -2 penalty on concentration checks while using false health.</Pair>
+</Ability>
+<Ability id="fevered-dreams" icon={["magic","down"]}>
+<Pair single id="fevered-dreams" flavor="Disease clouds your thoughts.">Fevered Dreams</Pair>
+<Pair title="Prerequisites">Manifestation level 6th, infectious thoughts, miserable company</Pair>
+<Pair title="Gift">The dreams of victims of the diseases you spread are apparent to you. Once per day while you rest, you can cause a number of sleeping victims of your disease up to your manifestation level to suffer the effects of one of these spells of your choice: <Link to="/spell/dream">dream</Link>, <Link to="/spell/fear">fear</Link> (upon awakening), <Link to="/spell/nightmare">nightmare</Link>, or <Link to="/spell/suggestion">suggestion</Link> (upon awakening).</Pair>
+<Pair title="Stain">You sleep poorly. You must rest for 12 hours each night to gain the full benefits of rest.</Pair>
+</Ability>
+<Ability id="infectious-thoughts" icon={["power","boost","down"]}>
+<Pair single id="infectious-thoughts" flavor="Your thoughts spread like your disease.">Infectious Thoughts</Pair>
+<Pair title="Prerequisites">Manifestation level 3rd, miserable company</Pair>
+<Pair title="Gift"><p>You can communicate telepathically with any creature within 10 feet suffering from any disease.</p>
+<p>At manifestation level 5th, the range increases to 30 feet.</p>
+<p>At manifestation level 7th, the range is 100 feet.</p>
+<p>At manifestation level 9th, the range is 1 mile.</p>
+</Pair>
+<Pair title="Stain"><p>Your ego becomes hard to contain. You take a -2 penalty on Will saving throws against effects with the emotion descriptor.</p>
+<p>At manifestation level 5th, the penalty doubles.</p>
+</Pair>
+</Ability>
+<Ability id="living-breath" icon={["aura","lower","down"]}>
+<Pair single id="living-breath" flavor="The stink of disease carries on your breath.">Living Breath</Pair>
+<Pair title="Prerequisites">Manifestation level 5th, accelerated affliction, bodily betrayal</Pair>
+<Pair title="Gift">When you use your <em>bodily betrayal</em> manifestation to expose a creature to a disease you are carrying, your breath carries the disease as well, potentially infecting all creatures within a 10-foot radius. These creatures gain a +2 bonus on the saving throw to resist the disease you are attempting to inflict with your <em>bodily betrayal.</em></Pair>
+<Pair title="Stain">The disease shortens your breath and stiffens your limbs. You take a -2 penalty on all Strength- and Dexterity-based checks.</Pair>
+</Ability>
+<Ability id="miserable-company" icon={["boost","down"]}>
+<Pair single id="miserable-company" flavor="Your disease's symptoms become more apparent.">Miserable Company</Pair>
+<Pair title="Gift"><p>You gain a +2 bonus on <Link to="/skill/heal">Heal</Link> checks to recognize or treat diseases and on Charisma-based skill checks to influence creatures able to inflict disease or those suffering from a disease.</p>
+<p>At manifestation level 3rd, these bonuses double. Creatures with any diseases take a -2 penalty on any saving throws against mind-affecting effects you create.</p>
+</Pair>
+<Pair title="Stain"><p>You remain infectious for 1d4 days even after you are cured of any infectious disease (including your corruption plague), though you show no symptoms.</p>
+<p>At manifestation level 3rd, you remain infectious for 1d8 days.</p>
+</Pair>
+</Ability>
+<Ability id="overwhelming-weakness" icon={["lower","down"]}>
+<Pair single id="overwhelming-weakness" flavor="Disease saps your limbs of their strength.">Overwhelming Weakness</Pair>
+<Pair title="Gift">Victims other than you who fail their initial saving throw against any disease effect you create become sickened for 24 hours.</Pair>
+<Pair title="Stain">The disease makes your limbs weak. You take a -2 penalty to Strength. This penalty stacks with the ability penalty from <em>accelerated affliction</em> if you chose Strength as your penalty.</Pair>
+</Ability>
+<Ability id="theft-of-awareness" icon={["magic","select","down"]}>
+<Pair single id="theft-of-awareness" flavor="Your senses fail you, but the terrible disease you can inflict affords you access to the senses of those who suffer from it.">Theft of Awareness</Pair>
+<Pair title="Prerequisites">Manifestation level 7th, infectious thoughts, miserable company</Pair>
+<Pair title="Gift"><p>As a <strong className="hl">move action</strong>, for as long as you concentrate, you can borrow the senses of any creature suffering from a disease effect you created, as long as the creature is within range of your <em>infectious thoughts.</em> Your body is effectively blind and deaf while you concentrate. The target can resist this intrusion with a successful Will saving throw.</p>
+<p>At manifestation level 9th, you can possess one such victim as per <Link to="/spell/possession">possession</Link> once per day as a <strong className="hl">standard action</strong> while you are already sharing its senses.</p>
+</Pair>
+<Pair title="Stain">Your senses falter. You take a -4 penalty on Perception checks and Sense Motive checks while you are not using theft of awareness.</Pair>
+</Ability>
+</>};
+const _possessed = {hasJL:true,title: "Possessed", parent_topics: ["gm_specific_campaigns","horror_rules","corruption","corruptions"], siblings: ["aboleth","accursed","amoral","deep_one","demonic","ghoul","hellbound","hive","lich","lycanthropy","plagued","possessed","promethean","psychometabolic","shadowbound","vampirism"], jsx: <><div className="jumpList" id="rule-possessed-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="rule-possessed-catalyst">Catalyst</InnerLink></li><li><InnerLink toTop to="rule-possessed-progression">Progression</InnerLink></li><li><InnerLink toTop to="rule-possessed-removing-the-corruption">Removing the Corruption</InnerLink></li><li><InnerLink toTop to="rule-possessed-manifestations">Manifestations</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 30-31</Link><br/>Whether it's an actual spirit or an alternate personality, another mind vies with you for control of your body.</p>
+<h3 id="rule-possessed-catalyst" data-hash-target>Catalyst</h3>
+<p>An evil spirit, soul, or personality - hereafter referred to as a spirit - has taken up residence within your body.</p>
+<div style={{clear:"both"}}></div><h3 id="rule-possessed-progression" data-hash-target>Progression</h3>
+<p>The corruption progresses when you give up control to use the spirit's power. Like a <Link to="/class/medium">medium's</Link> spirits, the spirit possessing you can give you more power when you give it influence (this doesn't interact with medium spirits; the influence is separate). Each day at sunrise, the number of points of influence the spirit has over you returns to 1. The spirit gains 1 point of influence whenever you fall asleep (or perform your daily rest) or become confused, dazed, frightened, panicked, or stunned. You lose any immunity to confusion, daze, fear, and stun.</p>
+<p>When the spirit has at least 3 points of influence, you have visible difficulty controlling your body, and you shift back and forth between your own personality and a blend with the spirit. When the spirit has 5 points of influence, you must attempt a Will save (DC = 15 + your manifestation level). If you succeed, influence drops to 4 points; otherwise, the corruption progresses to the next stage. If you must attempt this saving throw again before the next sunrise, the DC increases by 2 for every previous attempt.</p>
+<Block size="small" hl>
+<Row><Cell>Corruption Stage 1</Cell><Cell>The first time you fail, you move one step closer to the spirit's alignment (GM's choice) and the spirit controls your actions until the next sunrise.</Cell></Row>
+<Row><Cell>Corruption Stage 2</Cell><Cell>The second time you fail, your alignment changes to match the spirit's, the spirit controls your actions until the next sunrise, and you have lapses of control and personality regardless of influence.</Cell></Row>
+<Row><Cell>Corruption Stage 3</Cell><Cell>The third time you fail the saving throw, the spirit steals full control of your body and you become an NPC under the GM's control. This NPC has the possessed corruption with you as the possessing spirit.</Cell></Row></Block>
+<h3 id="rule-possessed-removing-the-corruption" data-hash-target>Removing the Corruption</h3>
+<p>Ending a possession corruption usually requires you to be targeted with <Link to="/spell/dispel_evil">dispel evil</Link> or <Link to="/spell/cast_out">cast out</Link> while you stand inside a <Link to="/spell/magic_circle_against_evil">magic circle against evil</Link> turned inward as a trap. The spirit uses your Will save modifier without any of your penalties, and its effective caster level is equal to your character level + your possessed manifestation level.</p>
+<p>However, since the method of possession varies from case to case, a particular possession might require other means of removal, such as undergoing therapy or fulfilling the spirit's unfinished business.</p>
+<h3 id="rule-possessed-manifestations" data-hash-target>Manifestations</h3>
+<p>The following are manifestations of the possessed corruption.</p>
+<Ability id="blurred-soul" icon={["def","down"]}>
+<Pair single id="blurred-soul" flavor="The possessing spirit confounds targeted magic.">Blurred Soul</Pair>
+<Pair title="Prerequisites">Manifestation level 5th</Pair>
+<Pair title="Gift"><p>Spells that affect a limited number of targets can fail when targeting you unless the caster selects you as two separate targets. Against such spells that target you only once, you have an amount of spell resistance equal to 11 + double your manifestation level.</p>
+<p>A spellcaster who finishes casting a spell that targets you only once and succeeds at a caster level check against your spell resistance notices the interference and can attempt a DC 25 Spellcraft check to realize she needs to target you twice to circumvent it with future spells.</p>
+</Pair>
+<Pair title="Stain">You cringe from symbols of benevolent magic. Any ally attempting to cast a touch spell on you must succeed at a touch attack. You can spend a <strong className="hl">move action</strong> steadying yourself to allow allies to touch you without a touch attack for 1 round. If the spirit has 3 or more points of influence over you, you must attempt saving throws against harmless spells cast by allies (but not yourself), and you no longer count as willing.</Pair>
+</Ability>
+<Ability id="contaminated-personality" icon={["boost","down"]}>
+<Pair single id="contaminated-personality" flavor="Your mind fractures in the struggle against the spirit.">Contaminated Personality</Pair>
+<Pair title="Prerequisites">Manifestation level 4th</Pair>
+<Pair title="Gift">You gain a +2 bonus to your Charisma score while the possessing spirit has 4 or more points of influence over you.</Pair>
+<Pair title="Stain">You adopt the spirit's mannerisms, disturbing others and making it harder to disguise the possession. You take a -4 penalty on Diplomacy and Disguise checks.</Pair>
+</Ability>
+<Ability id="hateful-voices" icon={["boost","down"]}>
+<Pair single id="hateful-voices" flavor="Paranoid whispers constantly mingle with your own thoughts.">Hateful Voices</Pair>
+<Pair title="Gift">You gain a +4 bonus on <Link to="/skill/perception">Perception</Link> checks and <Link to="/skill/sense_motive">Sense Motive</Link> checks to see through disguises, notice when a creature is under an enchantment, and act on the surprise round.</Pair>
+<Pair title="Stain">Whenever a character you consider an ally or friend betrays or disappoints you, even if the disappointment is completely innocent, you unknowingly mutter (Perception DC 15 for others to hear) about how that character was an enemy all along and must be made to pay. As long as the spirit has 3 or more points of influence, you gain no benefit from another creature's <Link to="/rule/aid_another">aid another</Link> attempts.</Pair>
+</Ability>
+<Ability id="temporary-clarity" icon={["def","down"]}>
+<Pair single id="temporary-clarity" flavor="You channel all your negative emotions into the spirit.">Temporary Clarity</Pair>
+<Pair title="Gift">Once per day, without spending an action, you can sublimate all of your negative thoughts into the spirit to clear your mind in response to gaining one of the following conditions: dazed, frightened, panicked, shaken, staggered, and stunned. You ignore the effects of that particular instance of that condition for a number of minutes equal to your manifestation level (if you suffer from that condition from another source, it applies normally). This time still counts against the condition's duration. Once the duration expires, the possessing spirit gains 1 point of influence over you.</Pair>
+<Pair title="Stain">You make the spirit more powerful by feeding it your darkest thoughts. Whenever you fall asleep (or perform your daily rest), the spirit gains 2 points of influence over you rather than 1 point, and at sunrise, the number of points of influence the spirit has over you changes to 2.</Pair>
+</Ability>
+<Ability id="traitorous-hand" icon={["touch","lower","down"]}>
+<Pair single id="traitorous-hand" flavor="The spirit focuses on one hand.">Traitorous Hand</Pair>
+<Pair title="Gift">A number of times per day equal to your manifestation level, you can use traitorous hand to make a touch attack that confounds foes with the spirit's influence. The target is <Link to="/misc/nauseated">nauseated</Link> for 1 round per point of influence the spirit has over you (Will negates). Even if the target succeeds, it can't make attacks of opportunity for 1 round. A creature affected by this ability becomes immune for 24 hours.</Pair>
+<Pair title="Stain">You take a -2 penalty on attack rolls and Dexterity-based checks involving your hands. Whenever you become dazed or stunned, if the spirit has 3 or more points of influence over you after adding the point, the hand attacks you (or a vulnerable ally, GM's discretion) with a held item or unarmed strike as if proficient, dealing damage equal to 1d8 + your Strength modifier (regardless of the held item).</Pair>
+</Ability>
+<Ability id="two-minds" icon={["def","roll","down"]}>
+<Pair single id="two-minds" flavor="The spirit suffers no rivals.">Two Minds</Pair>
+<Pair title="Gift">The extra mind provides a reserve of willpower against mental attacks. You gain a +2 bonus on saves against mind-affecting effects; if you fail, you can give the spirit 1 point of influence over you to reroll the save without using an action. If you do, you must accept the result of the second roll and can't reroll. These benefits don't apply against this corruption.</Pair>
+<Pair title="Stain"><p>A cacophony of thoughts distracts you. Roll twice on initiative checks and take the lower result. You also take a -2 penalty on <Link to="/rule/concentration">concentration</Link> checks.</p>
+<p>At manifestation level 3rd, the penalty changes to -4.</p>
+</Pair>
+</Ability>
+<Ability id="unrestrained" icon={["boost","def","down"]}>
+<Pair single id="unrestrained" flavor="The spirit resists physical restraint.">Unrestrained</Pair>
+<Pair title="Gift"><p>You gain a +2 bonus on Acrobatics, Climb, Fly, and Swim checks. You can give the spirit 1 point of influence as a <strong className="hl">swift action</strong> to gain the benefits of <Link to="/spell/freedom_of_movement">freedom of movement</Link> for 1 round.</p>
+<p>At manifestation level 3rd, the bonuses increase to +4.</p>
+</Pair>
+<Pair title="Stain"><p>Objects you wear and carry slip from your grasp and fall from your pockets, or suddenly pelt creatures that have acted in an unhelpful manner toward you. It takes you a <strong className="hl">standard action</strong> to retrieve a stored item, and whenever you drop or lose hold of an item, it lands 10 feet away in a random direction. You take a -2 penalty on saving throws and to your CMD against attacks and effects that would disarm you or steal from you.</p>
+<p>At manifestation level 3rd, the penalty changes to -4.</p>
+</Pair>
+</Ability>
+<Ability id="violent-will" icon={["magic","down"]}>
+<Pair single id="violent-will" flavor="The spirit uses your body as a conduit to unleash forceful energy.">Violent Will</Pair>
+<Pair title="Prerequisites">Manifestation level 5th, unrestrained, weightlessness</Pair>
+<Pair title="Gift">You can give the possessing spirit 1 point of influence over you to use <Link to="/spell/telekinesis">telekinesis</Link> (as per the spell) with a caster level equal to your character level.</Pair>
+<Pair title="Stain">Whenever you become confused, dazed, frightened, panicked, or stunned, the possessing spirit blames your allies for failing you. It unleashes a forceful version of <em>telekinesis</em> at your nearest ally, either hurling the largest possible nearby object at her or, if there are no objects to hurl, hurling the ally against a hard surface.</Pair>
+</Ability>
+<Ability id="weightlessness" icon={["magic","down"]}>
+<Pair single id="weightlessness" flavor="The possessing spirit's influence causes you to nearly float.">Weightlessness</Pair>
+<Pair title="Prerequisites">Unrestrained</Pair>
+<Pair title="Gift">You can use <Link to="/spell/feather_fall">feather fall</Link> and <Link to="/spell/jump">jump</Link> at will as spell-like abilities. You can give the possessing spirit 1 point of influence over you to use <Link to="/spell/levitate">levitate</Link> or <Link to="/spell/spider_climb">spider climb</Link> as a spell-like ability. In all cases, your caster level is equal to your character level and the spell-like ability can target only you.</Pair>
+<Pair title="Stain"><p>You take a -4 penalty on saving throws and to your CMD against attacks and effects that would move or <Link to="/rule/trip">trip</Link> you, as well as on all combat maneuver checks except those made to escape a grapple.</p>
+<p>At manifestation level 3rd, the penalty changes to -6.</p>
+</Pair>
+</Ability>
+</>};
+const _promethean = {hasJL:true,title: "Promethean", parent_topics: ["gm_specific_campaigns","horror_rules","corruption","corruptions"], siblings: ["aboleth","accursed","amoral","deep_one","demonic","ghoul","hellbound","hive","lich","lycanthropy","plagued","possessed","promethean","psychometabolic","shadowbound","vampirism"], jsx: <><div className="jumpList" id="rule-promethean-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="rule-promethean-catalyst">Catalyst</InnerLink></li><li><InnerLink toTop to="rule-promethean-progression">Progression</InnerLink></li><li><InnerLink toTop to="rule-promethean-removing-the-corruption">Removing the Corruption</InnerLink></li><li><InnerLink toTop to="rule-promethean-manifestations">Manifestations</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 32-33</Link><br/>Your body is slowly wasting away. As your body decays, you must gradually replace more and more of it with artificial components - corpse flesh, bone, wood, metal, or other exotic materials.</p>
+<h3 id="rule-promethean-catalyst" data-hash-target>Catalyst</h3>
+<p>This corruption stems from experimentation designed to create or extend life - perhaps you were a willing participant in an alchemist's research or brought back from the dead by an unconventional means that robbed you of your humanity.</p>
+<div style={{clear:"both"}}></div><h3 id="rule-promethean-progression" data-hash-target>Progression</h3>
+<p>Whenever you fail a Fortitude save against any effect or fall below 0 hit points, you must attempt a Fortitude save (DC = 15 + your manifestation level). If you fail that save, some of the living components of your body begin to fail. Within the next 3 days, you or someone you trust must spend 8 hours replacing more of your body with construct parts. If you don't do so, you die, and even if you are brought back from the dead with <Link to="/spell/resurrection">resurrection</Link> or <Link to="/spell/true_resurrection">true resurrection</Link> (which are necessary since your body isn't viable), you still must perform the operation or you die again in 3 days. After an operation, there is a 50% chance your corruption progresses to the next stage. If it doesn't, the DC of the above Fortitude save increases by 2 until your corruption reaches the next stage. These increases stack.</p>
+<p>While your body parts are failing (after you've failed the Fort save but before you've repaired your body), you don't have to attempt additional saves when you fail a Fortitude save or fall below 0 hit points. Once you've been repaired, you need to attempt saves in these circumstances again.</p>
+<Block size="small" hl>
+<Row><Cell>Corruption Stage 1</Cell><Cell>The first time your corruption progresses, you fall into routines easily, performing repetitive actions. Your alignment shifts one step toward neutral.</Cell></Row>
+<Row><Cell>Corruption Stage 2</Cell><Cell>The second time your corruption progresses, you find you can't bring yourself to care about things or even to love. Your alignment shifts to neutral.</Cell></Row>
+<Row><Cell>Corruption Stage 3</Cell><Cell>The third time your corruption progresses, too much of your body is gone for your soul to remain. You become a mindless, destructive automaton or free-willed evil construct under the GM's control.</Cell></Row></Block>
+<h3 id="rule-promethean-removing-the-corruption" data-hash-target>Removing the Corruption</h3>
+<p>Getting rid of a corruption requires invasive surgery to remove the artificial components fused to your body. Even these procedures might not cure your underlying wasting, so you might need to scour medical and alchemical tomes and consult divine spellcasters for a safer procedure than replacing your body parts in the way you were before. Powerful magic like <Link to="/spell/miracle">miracle</Link> or <Link to="/spell/wish">wish</Link> in conjunction with <Link to="/spell/regenerate">regenerate</Link> might strip the components from your body and prevent the wasting.</p>
+<h3 id="rule-promethean-manifestations" data-hash-target>Manifestations</h3>
+<p>The following are manifestations of the promethean corruption.</p>
+<Ability id="armored" icon={["def","down"]}>
+<Pair single id="armored" flavor="Your body is unnaturally hardened against attacks.">Armored</Pair>
+<Pair title="Gift"><p>Plates bolted to your bones or flesh like leather protect your body. You gain a +1 natural armor bonus to your AC.</p>
+<p>At manifestation level 5th, this bonus increases to +2.</p>
+</Pair>
+<Pair title="Stain"><p>Your take a -1 penalty on Dexterity- and Strength-based skill checks.</p>
+<p>At manifestation level 5th, this penalty changes to -2.</p>
+</Pair>
+<Pair title="Special">Upon receiving this manifestation, you must take both the gift and the stain, even with the <em>useful corruption</em> or <em>vile corruption</em> <Link to="/rule/corruption_variants">variants</Link>.</Pair>
+</Ability>
+<Ability id="berserk-fury" icon={["power","boost","def","down"]}>
+<Pair single id="berserk-fury" flavor="The only emotion left to you is rage.">Berserk Fury</Pair>
+<Pair title="Gift"><p>You can voluntarily enter an enraged state as a <strong className="hl">free action</strong> for a number of rounds per day equal to your manifestation level; these rounds don't have to be consecutive. Once you end this state, you can't enter it again for 1 minute. While enraged, you gain a +2 bonus on attack and damage rolls, 1 temporary hit point per character level, and a +2 bonus on Fortitude saves.</p>
+<p>You are in control of yourself during this rage, but you must still succeed at a Will save to resist losing control (as detailed in this manifestation's stain). While voluntarily enraged, you take a -2 penalty on Will saves.</p>
+</Pair>
+<Pair title="Stain">When you're hit by a critical hit or drop below half your maximum hit points, you must succeed at a Will save (DC = 15 + your manifestation level) or become enraged for a number of rounds equal to your manifestation level. You gain the benefits of this manifestation's gift, but you're completely out of control, making melee attacks against the nearest creature (roll randomly if there are multiple targets).</Pair>
+<Pair title="Special">Upon receiving this manifestation, you must take both the gift and the stain, even with the <em>useful corruption</em> or <em>vile corruption</em> <Link to="/rule/corruption_variants">variants</Link>.</Pair>
+</Ability>
+<Ability id="greater-armored" icon={["def","down"]}>
+<Pair single id="greater-armored" flavor="Your body is covered in thick armored plating.">Greater Armored</Pair>
+<Pair title="Prerequisites">Manifestation level 5th, armored</Pair>
+<Pair title="Gift">Your natural armor bonus to your AC from the armored manifestation increases by 2.</Pair>
+<Pair title="Stain">The penalty from armored changes to -3. All your movement speeds decrease by 10 feet.</Pair>
+</Ability>
+<Ability id="greater-shattered-body" icon={["def","down"]}>
+<Pair single id="greater-shattered-body" flavor="Nearly all your body is replaced by artificial components.">Greater Shattered Body</Pair>
+<Pair title="Prerequisites">Manifestation level 5th, armored, shattered body</Pair>
+<Pair title="Gift">Your body is almost entirely artificial, save for a few organic components tethering you to your original life. Your bonus on saving throws against poison and diseases from <em>shattered body</em> is equal to your manifestation level. You automatically stabilize when you are below 0 hit points. You no longer need to eat, drink, or sleep. You must still rest for at least 8 hours to prepare spells.</Pair>
+<Pair title="Stain">Most of your internal organs have been replaced. You can no longer benefit from potions, elixirs, extracts, or any other beneficial item that requires consumption.</Pair>
+<Pair title="Special">You can gain this manifestation only if you have failed another corruption progression saving throw and replaced more of your body with construct parts since the time you took <em>shattered body.</em></Pair>
+</Ability>
+<Ability id="greater-shattered-mind" icon={["def","down"]}>
+<Pair single id="greater-shattered-mind" flavor="You can understand no emotion but rage.">Greater Shattered Mind</Pair>
+<Pair title="Prerequisites">Manifestation level 6th, corruption stage 2, shattered mind</Pair>
+<Pair title="Gift">You become immune to all mind-affecting emotion effects, except those that produce emotions of rage, hatred, or anger.</Pair>
+<Pair title="Stain">You have lost the ability to understand love or joy. You can't benefit from morale bonuses or bardic performances.</Pair>
+</Ability>
+<Ability id="promethean-transfiguration" icon={["def","down"]}>
+<Pair single id="promethean-transfiguration" flavor="You are more machine now than mortal.">Promethean Transfiguration</Pair>
+<Pair title="Prerequisites">Manifestation level 7th, corruption stage 2, armored, greater shattered body, greater shattered mind, shattered body, shattered mind</Pair>
+<Pair title="Gift">You become immune to bleed, disease, paralysis, poison, sleep effects, and stunning.</Pair>
+<Pair title="Stain">So much of your body is now gone that you struggle to remain alive. You take a -4 penalty to your Constitution score.</Pair>
+</Ability>
+<Ability id="rampage" icon={["boost","down"]}>
+<Pair single id="rampage" flavor="When you fly into a rage, you destroy everything nearby.">Rampage</Pair>
+<Pair title="Prerequisites">Berserk fury</Pair>
+<Pair title="Gift">While enraged, you deal double damage to objects and gain a +4 bonus on Strength checks to break objects.</Pair>
+<Pair title="Stain">Returning from the heights of fury takes a toll on your body. You are <Link to="/misc/staggered">staggered</Link> for 1 minute after ending a rage of any kind (including berserk fury, <Link to="/class/barbarian">barbarian</Link> rage, and the <Link to="/spell/rage">rage</Link> spell). Nothing can remove this condition, nor does immunity to being staggered prevent it.</Pair>
+</Ability>
+<Ability id="replacement-limb" icon={["melee","down"]}>
+<Pair single id="replacement-limb" flavor="One of your arms has been replaced by a prosthetic.">Replacement Limb</Pair>
+<Pair title="Prerequisites">Armored, shattered body</Pair>
+<Pair title="Gift">You gain one slam attack as a primary <Link to="/umr/natural_weapon">natural weapon</Link>. This slam deals 1d6 points of damage if your size is Medium (1d4 if Small).</Pair>
+<Pair title="Stain">You take a -2 penalty on Dexterity-based skill checks and ability checks using your hands, as well as on Dexterity-based attack rolls.</Pair>
+</Ability>
+<Ability id="shattered-body" icon={["def","down"]}>
+<Pair single id="shattered-body" flavor="The last time you added more construct parts to your body, you reached a tipping point.">Shattered Body</Pair>
+<Pair title="Prerequisites">Armored</Pair>
+<Pair title="Gift">You gain a bonus on Fortitude saves against poison and disease equal to half your manifestation level. Additionally, you require only half as much food and water as normal, and half as much rest as normal to gain a full night's sleep. However, you must still rest for at least 8 hours to prepare spells.</Pair>
+<Pair title="Stain">You are treated as both a construct and your original creature type for spells and effects that target creatures by type (such as the <Link to="/magic-enh/bane">bane</Link> weapon special ability or a ranger's <Link to="/ability/favored_enemy">favored enemy</Link> class feature).</Pair>
+<Pair title="Special">You can gain this manifestation only if you have failed at least one corruption progression saving throw and replaced more of your body with construct parts.</Pair>
+</Ability>
+<Ability id="shattered-mind" icon={["def","down","roll"]}>
+<Pair single id="shattered-mind" flavor="Your transformation damaged your psyche.">Shattered Mind</Pair>
+<Pair title="Prerequisites">Corruption Stage 1 or 2</Pair>
+<Pair title="Gift"><p>Your dulled emotions are more difficult to affect with magic. You gain a +2 bonus on Will saves against emotion effects, and if you have this manifestation's stain, you don't need to roll twice and take the lower result against them. This doesn't apply to emotion effects that cause rage, hatred, or anger.</p>
+<p>At manifestation level 5th, this bonus increases to +4.</p>
+</Pair>
+<Pair title="Stain">Now easy to manipulate, you roll twice and take the lower result against compulsion effects.</Pair>
+</Ability>
+</>};
+const _psychometabolic = {hasJL:true,title: "Psychometabolic", parent_topics: ["gm_specific_campaigns","horror_rules","corruption","corruptions"], siblings: ["aboleth","accursed","amoral","deep_one","demonic","ghoul","hellbound","hive","lich","lycanthropy","plagued","possessed","promethean","psychometabolic","shadowbound","vampirism"], jsx: <><div className="jumpList" id="rule-psychometabolic-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="rule-psychometabolic-catalyst">Catalyst</InnerLink></li><li><InnerLink toTop to="rule-psychometabolic-progression">Progression</InnerLink></li><li><InnerLink toTop to="rule-psychometabolic-removing-the-corruption">Removing the Corruption</InnerLink></li><li><InnerLink toTop to="rule-psychometabolic-manifestations">Manifestations</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 31-32</Link><br/>Strange powers exist on Golarion and beyond. Those who survive a brush with cosmic phenomena, occult mysteries, or horrors from beyond the veil occasionally find psychic abilities awakening in their minds. Although potent, such power corrupts the body, subconscious mind, and emotions - often with disastrous results.</p>
+<p>The following corruption can be contracted by those who delve into occult lore better left forgotten.</p>
+<h3 id="rule-psychometabolic-catalyst" data-hash-target>Catalyst</h3>
+<p>A psychometabolic corruption is contracted as a result of experiencing extreme psychic trauma. When you contract this corruption, you gain a pool of psychometabolic power with a number of points equal to 1 + your manifestation level. These points are used to fuel the gifts of your manifestations. The pool replenishes at the start of each week or whenever you gain a new manifestation level.</p>
+<div style={{clear:"both"}}></div><h3 id="rule-psychometabolic-progression" data-hash-target>Progression</h3>
+<p>The corruption is tied to your exposure to psychic power: the more you experience, the faster your progression advances. Whenever the total number of points in your psychometabolic pool reaches 0, you become afflicted with a random <Link to="/rule/madness">madness</Link> from the following list within the next 24 hours: <Link to="/madness/delirium">delirium</Link>, <Link to="/madness/delusion">delusion</Link>, <Link to="/madness/hallucination">hallucination</Link>, <Link to="/madness/mania">mania</Link>, <Link to="/madness/night_terrors">night terrors</Link>, <Link to="/madness/paranoid">paranoia</Link>, or <Link to="/madness/phobia">phobia</Link>. This affliction lasts 8 hours, after which you must succeed at a Will save (DC = 15 + your manifestation level) or become twisted by your powers. You must also attempt this save when you are reduced to 10% or fewer of your maximum hit points by a psychic effect or when you fail a save against psychic effect by 5 or more. If you are unconscious or under the effects of <Link to="/spell/calm_emotions">calm emotions</Link> for at least 6 of the hours that you spend afflicted with the madness, your corruption doesn't progress. However, the DC of checks to prevent your corruption from progressing increases by 2. These increases stack each time this occurs, and they last until your corruption reaches the next corruption stage.</p>
+<Block size="small" hl>
+<Row><Cell>Corruption Stage 1</Cell><Cell>The first time you fail a Will save (as described above), your powers twist your mind. You are constantly afflicted with one madness of the GM's choice from among those listed above. This madness can't be cured or removed while you have this corruption.</Cell></Row>
+<Row><Cell>Corruption Stage 2</Cell><Cell>The second time you fail a Will save (as described above), your powers erode your values and morals and replace them with megalomaniacal thoughts. You gain the <Link to="/madness/moral_insanity">moral insanity</Link> madness. This madness can't be cured or removed while you have this corruption.</Cell></Row>
+<Row><Cell>Corruption Stage 3</Cell><Cell>The third time you fail a Will save (as described above), your body is twisted into a writhing mass of flesh that imprisons your mind. You become a <Link to="/monster/hungry_flesh">hungry flesh</Link> under the GM's control, retaining all class levels and abilities that do not rely upon your original form.</Cell></Row></Block>
+<h3 id="rule-psychometabolic-removing-the-corruption" data-hash-target>Removing the Corruption</h3>
+<p>To remove the psychometabolic corruption, a psychic spellcaster whose caster level is at least double your manifestation level must eliminate your memories of gaining the corruption and your corruption stage advancing, such as by <Link to="/spell/modify_memory">modify memory</Link>, and then must cast <Link to="/spell/psychic_surgery">psychic surgery</Link> on you.</p>
+<h3 id="rule-psychometabolic-manifestations" data-hash-target>Manifestations</h3>
+<p>The following are manifestations of the psychometabolic corruption.</p>
+<Ability id="ameliorate-damage" icon={["magic","down","roll"]}>
+<Pair single id="ameliorate-damage" flavor="You can repair damage to your body.">Ameliorate Damage</Pair>
+<Pair title="Gift">You can use any of the following spells as a spell-like ability by spending a number of points from your psychometabolic pool equal to the spell's cleric spell level: <Link to="/spell/lesser_restoration">lesser restoration</Link>, <Link to="/spell/regenerate">regenerate</Link>, <Link to="/spell/restoration">restoration</Link>, or any <Link to="/main/cure_spells">cure spell</Link> (a spell with the word "cure&amp;quot in its name). You can target only yourself with these spells, and you can use this manifestation to cast only a spell whose spell level on the cleric spell list is equal to or less than your manifestation level. You are always treated as a living creature for the purpose of these spells' effects.</Pair>
+<Pair title="Stain">Your body becomes twisted and alien. When an effect other than this manifestation's spell-like abilities heals your ability damage or hit point damage, roll the amount of healing twice and use the lower result.</Pair>
+</Ability>
+<Ability id="defy-gravity" icon={["magic","down"]}>
+<Pair single id="defy-gravity" flavor="You can lift creatures and objects with your mind.">Defy Gravity</Pair>
+<Pair title="Prerequisites">Manifestation level 2nd</Pair>
+<Pair title="Gift"><p>By spending 2 points of psychometabolic power, you can use <Link to="/spell/levitate">levitate</Link> as a spell-like ability.</p>
+<p>At manifestation level 4th, you can spend 3 points of psychometabolic power to use <Link to="/spell/hostile_levitation">hostile levitation</Link>.</p>
+</Pair>
+<Pair title="Stain">Your body weakens. You take a -4 penalty on all Strength- and Dexterity-based checks and skill checks.</Pair>
+</Ability>
+<Ability id="endless-echoes" icon={["power","down"]}>
+<Pair single id="endless-echoes" flavor="You hear voices in your head.">Endless Echoes</Pair>
+<Pair title="Gift">You gain telepathy with a range of 10 feet + 10 feet per manifestation level that you have. You can use <Link to="/spell/detect_thoughts">detect thoughts</Link> as a spell-like ability by spending 1 point of psychometabolic power.</Pair>
+<Pair title="Stain"><p>Garbled thoughts ring in your ears. You take a -2 penalty on all <Link to="/rule/concentration">concentration</Link> checks.</p>
+<p>At manifestation level 4th, the penalty changes to -4.</p>
+</Pair>
+</Ability>
+<Ability id="eschew-gravity" icon={["magic","down"]}>
+<Pair single id="eschew-gravity" flavor="You lift yourself with your mind.">Eschew Gravity</Pair>
+<Pair title="Prerequisites">Defy gravity, manifestation level 5th</Pair>
+<Pair title="Gift">By spending 3 points of psychometabolic power as a <strong className="hl">swift action</strong>, you can use <Link to="/spell/fly">fly</Link> as a spell-like ability.</Pair>
+<Pair title="Stain">Your limbs slow as they weaken. Your speed for all nonmagical movement types is reduced by 10 feet.</Pair>
+</Ability>
+<Ability id="mind-blast" icon={["boost","down"]}>
+<Pair single id="mind-blast" flavor="You can rend your foes' minds with psychic power.">Mind Blast</Pair>
+<Pair title="Prerequisites">Endless echoes, psychometabolic blast</Pair>
+<Pair title="Gift"><p>When you use the telekinetic blast gained from the <em>psychometabolic blast</em> manifestation, you can spend 2 points of psychometabolic power to use the telekinetic force to wreck the mind of each creature targeted.</p>
+<p>Instead of you rolling to hit targets with your blast, each target can attempt a Will save (DC = 10 + half your manifestation level + your Constitution modifier) to try to negate the damage and any infusions or metakinesis abilities applied to it. When using this ability, your telekinetic blast is a mind-affecting effect.</p>
+</Pair>
+<Pair title="Stain">Using your powers causes blood to ooze from your nose and eyes. Whenever you spend a psychometabolic point, you take nonlethal damage equal to your manifestation level per point spent.</Pair>
+</Ability>
+<Ability id="psychometabolic-blast" icon={["power","boost","down"]}>
+<Pair single id="psychometabolic-blast" flavor="You can attack your enemies with your mind.">Psychometabolic Blast</Pair>
+<Pair title="Gift"><p>You gain the <Link to="/class/kineticist">kineticist's</Link> kinetic blast class feature, as well as the <Link to="/kinetic/telekinetic_blast">telekinetic blast</Link> wild talent. Use your manifestation level as your effective kineticist level to determine the effects of these abilities.</p>
+<p>If you have the <em>elemental focus (aether)</em> or <em>expanded element (aether)</em> class ability, you instead gain a bonus on damage rolls with your telekinetic blast equal to half your manifestation level (minimum +1).</p>
+</Pair>
+<Pair title="Stain">Your cranium swells massively. You take a -2 penalty on all Wisdom- and Charisma-based checks and skill checks.</Pair>
+</Ability>
+<Ability id="psychometabolic-jaunt" icon={["magic","down"]}>
+<Pair single id="psychometabolic-jaunt" flavor="You can travel with a thought.">Psychometabolic Jaunt</Pair>
+<Pair title="Prerequisites">Defy gravity, manifestation level 6th</Pair>
+<Pair title="Gift"><p>You can spend 4 psychometabolic points to use <Link to="/spell/dimension_door">dimension door</Link> as a spell-like ability.</p>
+<p>At manifestation level 9th, you can spend 6 psychometabolic points to instead use <Link to="/spell/teleport">teleport</Link> as a spell-like ability.</p>
+</Pair>
+<Pair title="Stain">Your body deteriorates. You take a -2 penalty to your Constitution score.</Pair>
+</Ability>
+<Ability id="psychometabolic-shield" icon={["power","def","down"]}>
+<Pair single id="psychometabolic-shield" flavor="You can project a shield with your mind.">Psychometabolic Shield</Pair>
+<Pair title="Prerequisites">Manifestation level 2nd</Pair>
+<Pair title="Gift">You gain the <Link to="/kinetic/force_ward">force ward</Link> defense wild talent. Use your kineticist level or your manifestation level (whichever is higher) as your effective kineticist level to determine the effects of these abilities. You can spend 1 point of psychometabolic power to enhance your <em>force ward</em> as if you had accepted a point of burn. If you already have the <em>force ward</em> defense wild talent, this gift has no effect.</Pair>
+<Pair title="Stain">You reflexes become sluggish. You take a -1 penalty on your AC and on Reflex saving throws.</Pair>
+</Ability>
+</>};
+const _shadowbound = {hasJL:true,title: "Shadowbound", parent_topics: ["gm_specific_campaigns","horror_rules","corruption","corruptions"], siblings: ["aboleth","accursed","amoral","deep_one","demonic","ghoul","hellbound","hive","lich","lycanthropy","plagued","possessed","promethean","psychometabolic","shadowbound","vampirism"], jsx: <><div className="jumpList" id="rule-shadowbound-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="rule-shadowbound-catalyst">Catalyst</InnerLink></li><li><InnerLink toTop to="rule-shadowbound-progression">Progression</InnerLink></li><li><InnerLink toTop to="rule-shadowbound-removing-the-corruption">Removing the Corruption</InnerLink></li><li><InnerLink toTop to="rule-shadowbound-manifestations">Manifestations</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 34-35</Link><br/>Darkness and fear are all that guide you. As the shadow consumes you, you are becoming a gaunt caricature of your former self, emptied of life and color.</p>
+<h3 id="rule-shadowbound-catalyst" data-hash-target>Catalyst</h3>
+<p>Shadowbound corruption occurs after a month or more of exposure to the Shadow Plane or shadow magic, or contact with cruel kytons, aberrations, undead, or shadowy fey. Corruption sets in only if it is used to torment or disillusion you at least six times in a month in a deeply personal manner.</p>
+<div style={{clear:"both"}}></div><h3 id="rule-shadowbound-progression" data-hash-target>Progression</h3>
+<p>The corruption progresses when you're tortured by shadow again, when you destroy a thing of beauty or joy because your melancholy makes it unbearable, or when you sow fear. Every month you must spend at least 2 entire days per manifestation level you have away from all light and other life. If you don't, at the end of the month you must attempt a Will saving throw. If you fail, sometime in the next 24 hours you go berserk and destroy something precious. You also need to attempt such a saving throw the first time each day you come across a being or object of great beauty, or a being or object with a strong or overwhelming aura of good (this includes yourself, so to avoid the save, you might need to ruin or tarnish your own beauty). The save DC is equal to 15 + your manifestation level. If allies are able to restrain you for 24 hours or otherwise prevent you from destroying anything precious during that time, your corruption doesn't progress. However, the DC of the Will save to prevent your corruption from progressing increases by 2. These increases stack each time this occurs, and they last until your corruption reaches the next corruption stage.</p>
+<p>The precious thing you destroy when you fail your save depends on your corruption stage, as noted below. If you voluntarily destroy a being or object related to a later corruption stage, you automatically progress to that stage (you might skip over intervening stages in this manner). For example, the first time that you intentionally terrorize innocents or destroy an important object of beauty, you then immediately proceed to stage 2. Repeating your actions doesn't cause your corruption stage to progress further (if you terrorize innocents again, you don't progress to stage 3).</p>
+<Block size="small" hl>
+<Row><Cell>Corruption Stage 1</Cell><Cell>The first time you fail the saving throw, you destroy a reliable source of light, joy, or beauty, such as a piece of art or bit of natural beauty.</Cell></Row>
+<Row><Cell>Corruption Stage 2</Cell><Cell>The second time you fail the saving throw, you terrorize innocent people or destroy an important object of beauty, light, or joy.</Cell></Row>
+<Row><Cell>Corruption Stage 3</Cell><Cell>The third time you fail the saving throw, you destroy one of the pillars that has helped you retain yourself in the face of the corruption, either by killing someone whose support has been essential or destroying an object of vital personal importance. You lose your identity entirely, becoming an NPC under the GM's control.</Cell></Row></Block>
+<h3 id="rule-shadowbound-removing-the-corruption" data-hash-target>Removing the Corruption</h3>
+<p>Undoing the corruption requires destroying the creature who first twisted you or restoring all the hope and joy that have fallen into darkness as a result of your corruption.</p>
+<h3 id="rule-shadowbound-manifestations" data-hash-target>Manifestations</h3>
+<p>The following are manifestations of the shadowbound corruption.</p>
+<Ability id="eerie-perception" icon={["power","boost","down"]}>
+<Pair single id="eerie-perception" flavor="Your eyes change, adapting to a life in the shadows.">Eerie Perception</Pair>
+<Pair title="Gift"><p>You gain darkvision to a range of 60 feet. If you already have darkvision, the range of your darkvision increases by 30 feet instead. You also gain a +2 bonus on <Link to="/skill/perception">Perception</Link> and <Link to="/skill/stealth">Stealth</Link> checks.</p>
+<p>At manifestation level 3rd, the bonuses increase to +4.</p>
+</Pair>
+<Pair title="Stain">Your eye color fades to a dull gray and your eyes overreact to light. You gain <Link to="/umr/light_sensitivity">light sensitivity</Link>, causing you to be <Link to="/misc/dazzled">dazzled</Link> in areas of bright light.</Pair>
+</Ability>
+<Ability id="emptiness-of-the-void" icon={["def","lower","down"]}>
+<Pair single id="emptiness-of-the-void" flavor="Friends and allies are just people you can hurt more deeply.">Emptiness of the Void</Pair>
+<Pair title="Gift">The darkness in your soul can draw in the life force of allies. Once per day when you take <Link to="/rule/ability_damage_drain">ability damage, ability drain</Link>, or hit point damage, you can divide the damage or drain evenly between you and one ally within 30 feet. You can do so only if the damage or drain would reduce your ability score or hit points to 0. The ally can attempt a Will save to resist the link. You can activate this ability as a <strong className="hl">free action</strong>, even if it isn't your turn.</Pair>
+<Pair title="Stain">You struggle to remember the meaning of alliance and friendship. You can't benefit from or use the <Link to="/rule/aid_another">aid another</Link> action.</Pair>
+</Ability>
+<Ability id="frightful" icon={["boost","down"]}>
+<Pair single id="frightful" flavor="Fear lingers in your mind, and you can spread it to others.">Frightful</Pair>
+<Pair title="Gift"><p>You have a knack for guessing just how to scare others. You gain a +2 bonus on <Link to="/skill/intimidate">Intimidate</Link> checks and the DCs of fear effects you create increase by 1.</p>
+<p>At manifestation level 3rd, the bonus on Intimidate checks increases to +4 and the DC increases by 2 instead of 1.</p>
+</Pair>
+<Pair title="Stain"><p>Your hair loses its color and your sleep is interrupted by nightmares that never leave your mind. You take a -2 penalty on saving throws against fear effects, and you lose any immunities to fear you might otherwise possess. You gain immunity to effects that would remove your fear (such as <Link to="/spell/remove_fear">remove fear</Link>).</p>
+<p>At manifestation level 3rd, the penalty changes to -4.</p>
+</Pair>
+</Ability>
+<Ability id="insubstantiality" icon={["def","down"]}>
+<Pair single id="insubstantiality" flavor="Your body flickers occasionally into insubstantial shadow.">Insubstantiality</Pair>
+<Pair title="Prerequisites">Manifestation level 3rd</Pair>
+<Pair title="Gift">Your body sometimes shifts or blurs momentarily before resuming the appearance of solidity. You gain a deflection bonus to your AC equal to half your manifestation level. You have a 20% chance to ignore (treat as a normal hit) confirmed critical hits and <Link to="/misc/precision_damage">precision-based damage</Link> (such as sneak attack damage) from any weapon unless it has the <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon special ability.</Pair>
+<Pair title="Stain">You take a -6 penalty on saving throws and to your CMD against attacks and effects that would move or <Link to="/rule/trip">trip</Link> you, as well as on all combat maneuver checks except those made to escape a grapple.</Pair>
+</Ability>
+<Ability id="refuge-in-pain" icon={["boost","def","down"]}>
+<Pair single id="refuge-in-pain" flavor="Pain is your only solace from the emptiness of your existence.">Refuge in Pain</Pair>
+<Pair title="Prerequisites">Manifestation level 4th, eerie perception, wretched pain</Pair>
+<Pair title="Gift">Pain invigorates you. Whenever you take an amount of damage greater than or equal to three times your character level from a single attack, you gain a +2 morale bonus on attack rolls, damage rolls, saving throws, and skill checks for 1 round. If you have the stain from the <em>weaver of lies</em> manifestation, these bonuses are profane bonuses instead.</Pair>
+<Pair title="Stain">Whenever you take damage, increase the amount of damage you take by 1/2 your manifestation level.</Pair>
+</Ability>
+<Ability id="regretful-gaze" icon={["select","lower","down"]}>
+<Pair single id="regretful-gaze" flavor="Your gaze carries your regret for wasted potential.">Regretful Gaze</Pair>
+<Pair title="Prerequisites">Manifestation level 3rd, frightful</Pair>
+<Pair title="Gift">You gain a <Link to="/umr/gaze">gaze</Link> attack that causes foes within 30 feet to become <Link to="/misc/shaken">shaken</Link> for 1 round unless they succeed at a Will save. You can suppress this ability as a <strong className="hl">free action</strong> and cause it to resume as a <strong className="hl">swift action</strong>. A creature that succeeds at the saving throw is immune to your <em>regretful gaze</em> for 24 hours.</Pair>
+<Pair title="Stain">You are withered as if by <Link to="/rule/age">age</Link>. Reduce your Strength, Dexterity, and Constitution scores by 1 point each, or by however much they would be reduced if you were one age category older, whichever is worse for you.</Pair>
+</Ability>
+<Ability id="touch-of-ruin" icon={["touch","down"]}>
+<Pair single id="touch-of-ruin" flavor="You are infused with the ruin of the Shadow Plane.">Touch of Ruin</Pair>
+<Pair title="Prerequisites">Manifestation level 4th, frightful, regretful gaze</Pair>
+<Pair title="Gift">As a <strong className="hl">standard action</strong> a number of times per day equal to your manifestation level, you can make a melee touch attack that deals 1d10 points of damage per manifestation level you have. A creature touched this way takes 1 point of ability drain to the ability score of your choice unless it succeeds at a Fortitude save. Creatures immune to magical aging are immune to this touch attack.</Pair>
+<Pair title="Stain">Any clothing or gear you wear or carry seems strangely faded and timeworn as long as you wear or carry it. Treat such items' hardness as half the normal amount. You take a -4 penalty on saving throws to protect items in your possession from damage or destruction.</Pair>
+</Ability>
+<Ability id="weaver-of-lies" icon={["magic","down"]}>
+<Pair single id="weaver-of-lies" flavor="Using shadows drawn from the Plane of Shadow, you can spin falsehoods into convincing imitations of reality.">Weaver of Lies</Pair>
+<Pair title="Prerequisites">Manifestation level 2nd</Pair>
+<Pair title="Gift">Once per day, you can use <Link to="/spell/shadow_conjuration">shadow conjuration</Link> as a spell-like ability, but only to emulate a <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">wizard</Link> spell 1 spell level lower than your manifestation level. Your caster level is equal to your character level. The illusion is 10% real + another 10% real for every manifestation level you have beyond 2nd.</Pair>
+<Pair title="Stain">Joy and excitement have become foreign to you, leaving pain the only sensation of much interest. You can't benefit from morale bonuses or bardic performances.</Pair>
+</Ability>
+<Ability id="wretched-pain" icon={["lower","down"]}>
+<Pair single id="wretched-pain" flavor="Inflicting pain is one of the few sensations that still stirs you.">Wretched Pain</Pair>
+<Pair title="Prerequisites">Eerie perception</Pair>
+<Pair title="Gift">Whenever you deal weapon damage to a creature that you are <Link to="/rule/flanking">flanking</Link> or a creature that is denied its Dexterity bonus to its AC against you, you can inflict a painful wound as an <strong className="hl">immediate action</strong>. The target must succeed at a Fortitude saving throw or be <Link to="/misc/nauseated">nauseated</Link> by pain for 1 round. If the target succeeds at the save, it is <Link to="/misc/sickened">sickened</Link> for 1 round and becomes immune to your further uses of this ability for 24 hours.</Pair>
+<Pair title="Stain">Your eyes turn a milky white, utter black, or pale yellow, making you appear blind although you can see normally in most circumstances. You gain <Link to="/umr/light_blindness">light blindness</Link>, causing you to be <Link to="/misc/blinded">blinded</Link> for 1 round whenever you are exposed to daylight or another source of bright light and <Link to="/misc/dazzled">dazzled</Link> for as long as you remain in bright light thereafter.</Pair>
+</Ability>
+</>};
+const _vampirism = {hasJL:true,title: "Vampirism", parent_topics: ["gm_specific_campaigns","horror_rules","corruption","corruptions"], siblings: ["aboleth","accursed","amoral","deep_one","demonic","ghoul","hellbound","hive","lich","lycanthropy","plagued","possessed","promethean","psychometabolic","shadowbound","vampirism"], jsx: <><div className="jumpList" id="rule-vampirism-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="rule-vampirism-catalyst">Catalyst</InnerLink></li><li><InnerLink toTop to="rule-vampirism-progression">Progression</InnerLink></li><li><InnerLink toTop to="rule-vampirism-removing-the-corruption">Removing the Corruption</InnerLink></li><li><InnerLink toTop to="rule-vampirism-manifestations">Manifestations</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 36-37</Link><br/>You salivate when blood is spilled, and struggle against the urge to sink your teeth into the necks of friends and innocents.</p>
+<h3 id="rule-vampirism-catalyst" data-hash-target>Catalyst</h3>
+<p>Being drained - but not killed - at least six times by a <Link to="/template/vampire">vampire</Link> within a month or less causes this corruption. Powerful vampires or curses can cause this corruption more rapidly.</p>
+<div style={{clear:"both"}}></div><h3 id="rule-vampirism-progression" data-hash-target>Progression</h3>
+<p>Vampirism progresses when you feed off and kill a sentient creature. Each week, you need to drink the blood of sentient creatures one size category smaller than you or larger until you drain enough to deal <Link to="/rule/constitution_damage">Constitution damage</Link> equal to your manifestation level. If you don't have the <em>fangs</em> manifestation, you must feed on a helpless or willing creature. If you haven't drunk enough blood after a week, you must succeed at a Will save (DC = 15 + your manifestation level) each day until you have. If you fail, the next time you rest, your corruption takes over and you unconsciously hunt and feed, drinking a sentient creature dry. If circumstances make it impossible to feed (such as if you are tied down or in a locale with nothing to feed upon) you start to <Link to="/rule/starve">starve</Link> as if you had not eaten in 3 days, and you continue to thirst for blood and struggle to escape and feed until you have received five times the amount of blood from sentient creatures you normally require. If your allies are able to restrain and feed you, your corruption doesn't progress. However, the DC of the Will save against your corruption progressing increases by 2. These increases stack, and last until your corruption reaches the next stage. Whenever you drop below 0 hit points, you must attempt a save as if you hadn't drunk enough blood that week.</p>
+<Block size="small" hl>
+<Row><Cell>Corruption Stage 1</Cell><Cell>Once you feed on an innocent sentient creature, your alignment shifts one step toward evil and spells that detect undead sense you, though the peculiar result they return informs the caster that you're still a living creature. Other spells and effects don't treat you as undead.</Cell></Row>
+<Row><Cell>Corruption Stage 2</Cell><Cell>The second time this happens, your alignment shifts another step toward evil and you are affected by spells and abilities as if your creature type were undead (including <Link to="/magic-enh/bane">bane</Link> and the <Link to="/ability/favored_enemy">favored enemy</Link> class feature). This doesn't grant you any of the immunities of being undead, nor does it make you immune to effects that target living creatures or change how negative and positive energy affect you.</Cell></Row>
+<Row><Cell>Corruption Stage 3</Cell><Cell>The third time this occurs, you become an NPC vampire under the GM's control.</Cell></Row></Block>
+<h3 id="rule-vampirism-removing-the-corruption" data-hash-target>Removing the Corruption</h3>
+<p>Ending the corruption requires eliminating the source, such as by slaying your progenitor vampire or ending your curse.</p>
+<h3 id="rule-vampirism-manifestations" data-hash-target>Manifestations</h3>
+<p>The following are manifestations of the vampirism corruption.</p>
+<Ability id="allure" icon={["boost","down"]}>
+<Pair single id="allure" flavor="You can influence others subtly, but lose your reflection.">Allure</Pair>
+<Pair title="Gift"><p>You gain a +2 racial bonus on <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, and <Link to="/skill/intimidate">Intimidate</Link> checks.</p>
+<p>At manifestation level 3rd, these bonuses increase to +4.</p>
+</Pair>
+<Pair title="Stain"><p>You cast no reflection. While you're within 10 feet of a mirror or reflective surface, nearby creatures may notice something amiss (<Link to="/skill/perception">Perception</Link> DC 20). If they succeed by 5 or more, they notice your lack of reflection.</p>
+<p>When you reach manifestation level 3rd, a creature can present a mirror to you as a <strong className="hl">standard action</strong> to repel you. You must stay at least 5 feet away from the mirror and can't touch or make melee attacks against that creature. After 1 round, if the creature continues presenting the mirror, you can attempt a DC 25 Will save each round to ignore the repulsion for that round.</p>
+</Pair>
+</Ability>
+<Ability id="children-of-the-night" icon={["magic","down"]}>
+<Pair single id="children-of-the-night" flavor="You can summon foul beasts to faithfully serve you.">Children of the Night</Pair>
+<Pair title="Gift"><p>Once per day, you can summon a <Link to="/monster/rat_swarm">rat swarm</Link> or a <Link to="/monster/wolf">wolf</Link>, as if using <Link to="/spell/summon_natures_ally_ii">summon nature's ally II</Link> with a caster level equal to your character level. The creature serves you for 10 minutes or until destroyed.</p>
+<p>At manifestation level 3rd and every 2 manifestation levels thereafter, you can use this ability an additional time each day.</p>
+<p>At manifestation level 4th, you can spend two daily uses of this ability to summon a <Link to="/monster/bat_swarm">bat swarm</Link>.</p>
+</Pair>
+<Pair title="Stain"><p>You take a -3 penalty on <Link to="/skill/handle_animal">Handle Animal</Link> and <Link to="/skill/ride">Ride</Link> checks against animals (except those you summon with this manifestation's gift).</p>
+<p>At manifestation level 5th, you affect non-hostile animals as if you had an <Link to="/umr/unnatural_aura">unnatural aura</Link>.</p>
+</Pair>
+</Ability>
+<Ability id="dreadful-charm" icon={["magic","down"]}>
+<Pair single id="dreadful-charm" flavor="Your powers of persuasion allow you to compel the weak.">Dreadful Charm</Pair>
+<Pair title="Prerequisites">Allure</Pair>
+<Pair title="Gift">Once per day when you succeed at a Bluff, Diplomacy, or Intimidate check against a creature, you can charm that creature as if using <Link to="/spell/charm_monster">charm monster</Link> with a caster level equal to your character level. If the creature fails its save, it's charmed for a number of minutes equal to your character level.</Pair>
+<Pair title="Stain">You no longer cast a shadow. Noticing this in normal or bright light requires a successful DC 15 Perception check. Also, if you're in an area that smells strongly of garlic, you must succeed at a DC 20 Fortitude save or be <Link to="/misc/sickened">sickened</Link> for 1d4 minutes. Immunities don't prevent this sickened condition.</Pair>
+</Ability>
+<Ability id="fangs" icon={["melee","down"]}>
+<Pair single id="fangs" flavor="Your canines grow unnaturally long when you are angry.">Fangs</Pair>
+<Pair title="Gift"><p>You can, as a <strong className="hl">swift action</strong>, grow fangs that grant you a bite attack. This is a primary <Link to="/umr/natural_attack">natural attack</Link> that deals 1d6 points of piercing damage if your size is Medium (1d4 if Small). You can dismiss the fangs as a <strong className="hl">move action</strong>.</p>
+<p>You can drain blood with your bite from a helpless creature as a <strong className="hl">standard action</strong>, or a pinned creature as a <strong className="hl">free action</strong> once per round immediately after succeeding at a combat maneuver check to pin the creature or maintain your pin.</p>
+<p>Each time you drain blood, you deal 1 point of Constitution damage. This counts toward the feeding you must do to avoid your corruption progressing; you needn't entirely drain and kill the creature. Draining blood changes your alignment only if you feed on an unwilling innocent.</p>
+</Pair>
+<Pair title="Stain">To avoid a saving throw against your corruption progressing, you must drink the requisite amount of blood each day instead of each week.</Pair>
+</Ability>
+<Ability id="greater-unlife" icon={["def","down"]}>
+<Pair single id="greater-unlife" flavor="You can recover from nearly any wound.">Greater Unlife</Pair>
+<Pair title="Prerequisites">Manifestation level 3rd, unlife</Pair>
+<Pair title="Gift">When you use the ability of the <em>unlife</em> manifestation, you gain <Link to="/umr/fast_healing">fast healing</Link> 3 instead of fast healing 1. While the fast healing lasts, you are immune to nonlethal damage, ability damage, and ability drain, although you retain any you already had.</Pair>
+<Pair title="Stain">Whenever you're in direct sunlight, you're <Link to="/misc/staggered">staggered</Link> instead of shaken. Nothing can remove or prevent this condition, but it ends once you're out of direct sunlight.</Pair>
+</Ability>
+<Ability id="life-drain" icon={["melee","lower","down"]}>
+<Pair single id="life-drain" flavor="You can drain life from those you harm.">Life Drain</Pair>
+<Pair title="Prerequisites">Manifestation level 2nd</Pair>
+<Pair title="Gift">You gain a slam attack, a primary natural attack that deals 1d6 points of bludgeoning damage if your size is Medium (1d4 if Small). If you confirm a critical hit with this attack, you inflict 1 temporary <Link to="/rule/negative_level">negative level</Link> on the target. The DC to remove this negative level is equal to the standard corruption ability DC.</Pair>
+<Pair title="Stain">You are healed by negative energy and harmed by positive energy as if you were an undead creature.</Pair>
+</Ability>
+<Ability id="true-unlife" icon={["def","down"]}>
+<Pair single id="true-unlife" flavor="You can cheat death.">True Unlife</Pair>
+<Pair title="Prerequisites">Manifestation level 3rd, greater unlife, unlife</Pair>
+<Pair title="Gift">When you're reduced to fewer than 0 hit points but not slain and you have a use of fast healing remaining, you immediately assume <Link to="/spell/gaseous_form">gaseous form</Link>, activate your fast healing, and remain conscious. Once you have more than 0 hit points, the effect ends. This delays the normal Will save against your corruption progressing until <em>gaseous form</em> ends.</Pair>
+<Pair title="Stain">If you remain in direct sunlight, at the end of your second turn you burst into flame, taking 1d6 points of fire damage per manifestation level you have each round. This fire damage bypasses resistance or immunity and can't be prevented. The fire damage and staggered condition end as soon as you get out of direct sunlight. If you are reduced to fewer than 0 hit points while in direct sunlight, you are slain and can't be brought back to life without <Link to="/spell/true_resurrection">true resurrection</Link>.</Pair>
+</Ability>
+<Ability id="unlife" icon={["def","down"]}>
+<Pair single id="unlife" flavor="You heal at a phenomenal rate.">Unlife</Pair>
+<Pair title="Prerequisites">Manifestation level 3rd</Pair>
+<Pair title="Gift">As a <strong className="hl">standard action</strong> a number of times per day equal to half your manifestation level, you can grant yourself fast healing 1 for 1 minute.</Pair>
+<Pair title="Stain">While you're in direct sunlight, you become <Link to="/misc/shaken">shaken</Link>. Nothing can remove this condition, nor does immunity to fear prevent it, but it ends as soon as you are no longer in sunlight.</Pair>
+</Ability>
+<Ability id="vampiric-grace" icon={["power","def","down"]}>
+<Pair single id="vampiric-grace" flavor="You move with a predator's grace.">Vampiric Grace</Pair>
+<Pair title="Prerequisites">Manifestation level 2nd</Pair>
+<Pair title="Gift"><p>You gain <Link to="/feat/dodge">Dodge</Link> as a bonus feat and a +2 racial bonus on <Link to="/skill/stealth">Stealth</Link> checks.</p>
+<p>At manifestation level 6th, you can climb walls (as per <Link to="/spell/spider_climb">spider climb</Link>) at will.</p>
+</Pair>
+<Pair title="Stain">You can enter a private dwelling only if invited in by someone with the authority to do so, unless you succeed at a DC 30 Will save. If you fail, you can never retry the save, but you can enter if you're later invited inside.</Pair>
+</Ability>
+</>};
+const _corruption_variants = {title: "Corruption Variants", parent_topics: ["gm_specific_campaigns","horror_rules","corruption"], siblings: ["corruption_glossary","corruption_progression","manifestations","corruptions","corruption_variants"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 14</Link></p>
+<p>A corruption's gift and stain don't have to manifest together. Your GM can use the following variants to alter how gifts and stains are gained.</p>
+<p><strong className="hl">Useful Corruption:</strong> In this form of campaign, your corruption's gifts allow you to fight sinister forces. You select which manifestation to take when you gain the corruption and with each increase to your manifestation level. You receive the gift, but you don't have to take the stain. If you refuse the stain, that manifestation doesn't increase your manifestation level, which could prevent you from qualifying for additional manifestations. You can accept the stain of your manifestations at any time, immediately increasing your manifestation level.</p>
+<p><strong className="hl">Vile Corruption:</strong> In this form of campaign, corruptions are terrible burdens to be purged as soon as possible. When you contract a corruption or your manifestation level increases, the GM decides which manifestation you gain. You always acquire the stain, but you can choose not to take the gift. If you refuse the gift, you gain a +1 circumstance bonus on saving throws related to the corruption progressing. For each additional gift you refuse, this bonus increases by 1. You can accept the gifts of your manifestations at any time, but once you do, you immediately lose the corresponding bonus on saving throws.</p>
 </>};
 const _curses_ha = {title: "Curses", parent_topics: ["gm_specific_campaigns","horror_rules"], siblings: ["horror_characters","fear_ha","sanity","corruption","curses_ha","horrific_diseases","horror_environments","fleshwarping","madness","running_horror_adventures"], subtopics: ["curses_in_your_game","curse_spells","creating_new_curses","cursed_items_ha","cursed_land","curse_templates"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 138</Link></p>
 <p>Curses are among the oldest and most deeply feared types of magic. They linger far beyond the original malicious words or grave deeds that spawned them. Although the most well-known and easily broken types of curses are spells, others are afflictions, from the notorious curse of lycanthropy to foul mummy rot and the esoteric death curse of the linnorm. All the new curses presented in this section are <Link to="/rule/afflictions">afflictions</Link> and share certain features as a result.</p>
@@ -288,7 +1597,7 @@ const _alternative_means_of_relief = {title: "Alternative Means of Relief", pare
 <p>Should a curse seem impossible to end by either normal or conditional means, the accursed might take desperate measures for even temporary relief from their suffering. Many such methods are dire enough that creatures may consider them worse than simply being cursed.</p>
 <p><strong className="hl">Death:</strong> Some curses end upon the death of the victim, perhaps leading a victim to take her own life in the hope of being raised from the dead free of the curse. Although some find release this way, others are sorely disappointed; some gods may not smile upon such wanton suicide - or the victims might be restored to life, only to find themselves still afflicted by the curse.</p>
 <p><strong className="hl">Making Amends:</strong> A curse laid as punishment for a misdeed might be neutralized by rectifying the misdeed. But there are no guarantees. Undoing the misdeed and additionally offering a comparable effort to make up for the trouble caused might allow a new saving throw against the curse to remove it. Forgiveness from the curse-layer grants a +4 bonus on this saving throw. For curses that require amends, <Link to="/spell/remove_curse">remove curse</Link> generally fails unless and until such amends are made.</p>
-<p><strong className="hl">Symbiosis:</strong> On rare occasions, a character might allow the curse to infect her very being as a desperate attempt to mitigate the effects, hoping that this will give her some measure of control. Symbiosis with a curse is rarely successful, and it usually leads to contracting an <Link to="/corruption/accursed">accursed corruption</Link>, as the curse takes over the creature's personality. In rare cases, curse symbiosis might transform the accursed into a monster associated with curses (such as a hag) without first going through an accursed corruption.</p>
+<p><strong className="hl">Symbiosis:</strong> On rare occasions, a character might allow the curse to infect her very being as a desperate attempt to mitigate the effects, hoping that this will give her some measure of control. Symbiosis with a curse is rarely successful, and it usually leads to contracting an <Link to="/rule/accursed">accursed corruption</Link>, as the curse takes over the creature's personality. In rare cases, curse symbiosis might transform the accursed into a monster associated with curses (such as a hag) without first going through an accursed corruption.</p>
 </>};
 const _cursed_items_ha = {title: "Cursed Items", parent_topics: ["gm_specific_campaigns","horror_rules","curses_ha"], siblings: ["curses_in_your_game","curse_spells","creating_new_curses","cursed_items_ha","cursed_land","curse_templates"], subtopics: ["crafting_cursed_items"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 142</Link></p>
 <p>Cursed items most commonly result from something going horribly wrong during the creation of a normal magic item. However, it is also possible for such items to carry a curse to punish a death or to be the result of intentional malice. Cursed items are often most pernicious and difficult to thwart when created to hurt a particular foe.</p>
@@ -434,260 +1743,4 @@ const _new_diseases = {title: "New Diseases", parent_topics: ["gm_specific_campa
 <p><strong className="hl">Severe:</strong> The affected creature's skin becomes cracked and broken, and even moving is incredibly painful. As long as the creature remains at this stage, the affected creature is sickened and staggered. Additionally, whenever the affected creature takes damage, it takes double the amount of damage it normally would.</p>
 <p><strong className="hl">Terminal:</strong> The affected creature's skin and organs slowly transform into solid bone, until eventually the creature is effectively petrified. The creature is constantly nauseated. For the first 24 hours at this stage, its Dexterity score is reduced by 1 each hour. During this time, its skin and organs transform into a single, solid mass of bone. Once its Dexterity score reaches 0 or after 24 hours have passed, it is petrified. A <Link to="/spell/stone_to_flesh">stone to flesh</Link> spell can undo the petrification, but the creature must immediately succeed at a Fortitude save against the disease's DC to survive the change. Even if it does, its Dexterity is again reduced by 1 each hour, and it eventually becomes petrified once more unless cured of the disease.</p>
 </>};
-const _horror_environments = {title: "Horror Environments", parent_topics: ["gm_specific_campaigns","horror_rules"], siblings: ["horror_characters","fear_ha","sanity","corruption","curses_ha","horrific_diseases","horror_environments","fleshwarping","madness","running_horror_adventures"], subtopics: ["locations","horror_hazards","domains_of_evil","nightmare_dreamscapes"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 152</Link></p>
-<p>While many Pathfinder campaigns tend to fixate on the monsters and NPCs that directly oppose the PCs, in a horror game, it's important to give the environment, atmosphere, and ambience equal billing. An appropriate environment can lead to a much deeper sense of horror and a more memorable session, since creatures are something the PCs usually fight and defeat directly, while the environment is pervasive and unstoppable. Use the following horrific locations, hazards, domains, and nightmare dreamscapes to build the tension and increase the growing dread the players feel.</p>
-</>};
-const _locations = {title: "Locations", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments"], siblings: ["locations","horror_hazards","domains_of_evil","nightmare_dreamscapes"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 152</Link></p>
-<p>The following locations have particular features that fit well in the context of a horror game, such as minor unusual magic or creepy special effects. Though they might not be directly threatening like the hazards in the next section (and thus don't possess their own CR), they nonetheless add an ambience of horror and a sense of unease to the game, and sometimes make the journey through the surrounding area much less pleasant.</p>
-<p><strong className="hl">Divining Water:</strong> Certain special bodies of water grant insight into the spirits of those reflected in them. The reflections of creatures that appear in divining water show each creature as though it were viewed with <Link to="/spell/true_seeing">true seeing</Link>, bypassing any illusions or polymorph effects and revealing the creature's true form. However, either right away or after establishing their divinatory properties, the reflections sometimes shift to show images of horrific creatures (generally undead and evil outsiders) instead of creatures' true forms, especially when the viewer is in a state of fear or mental turmoil.</p>
-<p><strong className="hl">Faceless Statue:</strong> These specially created stone statues are humanoid in appearance and elegantly carved, but they stand out because of their completely blank visages, which appear as though the sculptor simply forgot to give them faces. Whenever a character casts <Link to="/spell/project_image">project image</Link> within range of such a statue, she can project her image onto the statue, instead of creating the spell's normal effect. This causes the statue's blank face to transform into that of the caster, and the statue mimics the caster's actions, rather than a projected image doing so. The statue has a movement speed of 0 feet, but a caster projecting her image through the statue can direct it to make up to two slam attacks per round as a full-round action, using the caster's base attack bonus. The slam attacks each deal 1d8 points of bludgeoning damage. A <em>project image</em> spell cast in this way has a duration measured in minutes, rather than rounds, and the caster isn't required to maintain line of effect to the projected image at all times. A faceless statue can also be affected by <Link to="/spell/enter_image">enter image</Link>, causing the faceless surface to transform into an image of the caster's face for the duration of the spell, instead of producing the spell's normal effects. The statue's hardness is based on the type of material from which it is made. Dealing an amount of damage to the statue equal to double the caster's caster level ends either of the special spell effects channeled through the faceless statue.</p>
-<p><strong className="hl">Godless Void:</strong> Godless voids are pockets of altered reality that typically infest ruined temples, forsaken battlefields, and churches that fell from grace through the blasphemous deeds of corrupted worshipers. Even the divine might of deities is denied influence within these voids. The radius of a godless void is usually 1d6 &times; 100 feet. Within lesser godless voids, divine spells become more difficult to cast, and a divine caster must succeed at a <Link to="/rule/concentration">concentration</Link> check (DC = 20 + the level of the spell) for a spell to function normally. If the caster fails, the spell doesn't function, but the prepared spell or spell slot is still lost. In addition, the DC to resist channeled energy of all sorts is reduced by 4. Greater godless voids are more troublesome, as all divine magic melts away within them, so divine casters must operate totally cut off from their god, as if within an <Link to="/spell/antimagic_field">antimagic field</Link>.</p>
-<p>Selective godless voids exist, though they are rarer still than their normal counterparts. Such blasphemous sites affect divine casters of alignments opposed to the void's influence or who worship a deity or belong to a religion opposed to the void's influence. For instance, evil lesser godless voids impede good-aligned casters' access to spells and weaken their ability to channel positive energy as described above, while evil greater voids totally cut off spells and class abilities from good-aligned divine casters or casters who gain their powers from good-aligned deities. Good-aligned godless voids, or those aligned to law or chaos, are less common. Godless voids created by a great blasphemy against a particular deity might affect only that particular deity's power.</p>
-<p><strong className="hl">Grave:</strong> Macabre reminders of mortality, a grave could be found among many more within a necropolis or alone on a windswept hill. Digging a grave (4-1/2 to 6-1/2 feet deep) in typical soil takes 1d4 hours, while digging a grave in frozen or otherwise harder-than-average soil takes 2d6 hours. Without standard digging equipment, these times are doubled. Climbing out of an open grave usually takes a move action and a successful DC 5 Climb check (plus another move action to stand if the creature started out lying down).</p>
-<p>Careful examination of the surrounding area can reveal the presence of an unmarked grave or provide insight into how long ago a grave was dug. A successful DC 15 Perception check allows a character to notice an area of recently disturbed earth. For every week since the soil was disturbed, and for every day of rain since the soil was disturbed, the DC increases by 1. A successful DC 20 Profession (gardener, gravedigger, or other similar profession) or Survival check allows a character examining a patch of recently disturbed earth to determine roughly how long ago it was disturbed, as long as it was disturbed no more than 1 year ago.</p>
-<p>If a character is buried alive, perhaps by the <Link to="/haunt/buried_alive">buried alive haunt</Link>, the <Link to="/rule/buried_alive">rules suggestions</Link> give an idea of what that character needs to do claw her way out of an early grave.</p>
-<p><strong className="hl">Holy Ground:</strong> When first constructed, most good-aligned churches, temples, and holy sites are consecrated by the religion's clergy in elaborate and expensive blessing ceremonies, culminating in the casting of a <Link to="/spell/hallow">hallow</Link> spell. This effect permanently wards the site with a <Link to="/spell/magic_circle_against_evil">magic circle against evil</Link> effect, bolsters channeled positive energy while reducing the effects of channeled negative energy, and protects interred bodies from turning into undead abominations. The magic circle prevents intrusion by evil summoned creatures, and GMs may rule that other evil creatures refuse to trespass on holy ground. This <em>hallow</em> spell also carries the protection of an additional spell for the first year - most often <Link to="/spell/aid">aid</Link>, <Link to="/spell/bless">bless</Link>, <Link to="/spell/death_ward">death ward</Link>, <Link to="/spell/dimensional_anchor">dimensional anchor</Link>, or <Link to="/spell/zone_of_truth">zone of truth</Link>. The temple's attendants usually renew this spell in a special ceremony each year on the anniversary of the blessing ceremony, but the effect isn't in place for churches that have fallen into disrepair or been abandoned by their faiths. However, the remaining lingering <em>hallow</em> effect in a ruined holy site might still provide sanctuary for those seeking respite from dark forces.</p>
-<p>The lingering presence of evil in or near a holy site can slowly undermine and eventually dispel the <em>hallow</em> effect. This usually takes years or decades, and even a small amount of resistance by pure-hearted attendants can protect the site.</p>
-<p>Evil denominations also perform rituals to increase the power of their unholy sites, but with the exact opposite effects, replacing <em>hallow</em> with <Link to="/spell/unhallow">unhallow</Link>, and providing similar protections against good creatures. Evil clergy are more likely to utilize detrimental additional effects like <Link to="/spell/bane">bane</Link> or <Link to="/spell/cause_fear">cause fear</Link> to discourage trespassers on their unholy ground or even more powerful spells like <em>dimensional anchor</em> to ensure the trespassers will never leave.</p>
-<p><strong className="hl">Lost Halls:</strong> The corridors of some decrepit mansions can mislead those who seek to discover their hidden secrets. Within these lost halls, doors vanish, corridors impossibly twist and turn, staircases climb endlessly, and passages appear and disappear to confuse explorers. Creatures caught in lost halls find themselves temporarily trapped in an extradimensional labyrinth. For each round spent exploring the twisting turns, an affected creature can attempt a DC 20 Intelligence check as a full-round action to find its way back to the point where it originally became lost. During this time, others might hear it calling out, but can't see or detect the lost creature. The phenomenon is short-lived, so if the creature finds itself hopelessly lost, 10 minutes later it finds its way back to the point where it first disappeared. This phenomenon can affect multiple creatures at once, in which case they can hear the disturbing echoes of other lost creatures trying to extract themselves from the twisting halls, but they can't otherwise interact with or assist their allies in any way. Unlike most of the other locations in this section, a lost halls phenomenon is normally harmless, if extremely unsettling, but when populated with creatures that target the separated characters, lost halls can substantially alter the threat of encounters.</p>
-</>};
-const _horror_hazards = {title: "Horror Hazards", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments"], siblings: ["locations","horror_hazards","domains_of_evil","nightmare_dreamscapes"], subtopics: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 154</Link></p>
-<p>The following hazards help build an atmosphere of horror and dread when used separately, but can also be combined with creatures to create truly frightening and memorable encounters (for instance, consider a battle with ogres within an animating fog, such that each ogre that dies rises again as a zombie).</p>
-</>};
-const _animating_fog = {title: "Animating Fog", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Animating Fog (CR 6):</strong> Arising from polluted cemeteries and other recesses of stagnated evil, these areas of heavy, corpse-gray fog reek of rot, and seem to have a strange and malevolent sentience. These fog banks act as <Link to="/rule/fog">normal fog</Link>, but usually have a radius of 1d4 &times; 50 feet and creep along with the wind at a rate of 10 feet per round. When the fog comes into contact with a mostly intact corpse, that corpse is immediately animated as a <Link to="/template/zombie">zombie</Link> and attacks nearby living creatures, as if under the effect of <Link to="/spell/animate_dead">animate dead</Link>. This animation is temporary, ending 1d4 rounds after the zombie leaves the fog. Corpse fogs can animate up to 30 Hit Dice of corpses in this manner at any one time, and they have no limit on the total number of Hit Dice of zombies they can animate over time.</p>
-<p>Some particularly foul and virulent variations of this fog (CR 7 instead of CR 6) produce plague zombies instead of normal zombies. Creatures slain by the plague zombies' zombie rot who rise as zombies don't count against the fog's limit on the number of Hit Dice it can animate, and they remain zombies after the mist passes. Diseased animating fog also exposes every living creature within the fog bank to zombie rot each round as an inhaled disease (Fortitude DC 15 negates).</p>
-</>};
-const _apocalypse_fog = {title: "Apocalypse Fog", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Apocalypse Fog (CR 12):</strong> An apocalypse fog is an augmented and highly dangerous form of <Link to="/rule/animating_fog">animating fog</Link> often called into being by some foul deity. Its radius is 20 times wider than that of an animating fog and has the same ability to animate the mostly intact corpses within itself, but the apocalypse fog can move 10 feet in a direction of its own malign choice, rather than being subject to the whims of the wind. The dread energies that birth the mists bolster the undead within, granting the zombies the benefit of an aligned <Link to="/spell/desecrate">desecrate</Link> spell: a +2 profane bonus on attack rolls, damage rolls, and saving throws, and +2 hit points per Hit Die. Apocalypse fog can animate up to 100 Hit Dice worth of corpses at any one time.</p>
-</>};
-const _bat_colony = {title: "Bat Colony", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Bat Colony (CR 2):</strong> Bats often congregate in large colonies in underground areas. Though bats are mostly harmless and bat colonies generally have little interest in adventurers or humans in general, if they are disturbed, they can prove dangerous to inexperienced adventurers. Any Small or larger creature moving within 30 feet of a bat colony must succeed at a DC 15 Stealth check each round or use wild empathy or a similar ability to keep the bats calm, or else there is a 50% chance the bat colony becomes disturbed. Additionally, each round the bat colony is exposed to normal or brighter light conditions or loud sudden noises, there is a 30% chance the bat colony becomes disturbed.</p>
-<p>If the bat colony is disturbed, the bats begin to fly about, shrieking and milling in an oversized swarm. When disturbed, the colony takes up a 20-foot-radius area. A creature that ends its turn in the area takes 1d6 points of damage, and is affected by the distraction and wounding special abilities of a <Link to="/monster/bat_swarm">bat swarm</Link>. The colony remains disturbed for 1d4+1 rounds (or until the swarm is dispersed by damage), after which the bats either return to their previous position or flee the area, depending on whether they feel a threat is still present.</p>
-</>};
-const _blood_moon = {title: "Blood Moon", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Blood Moon (CR 3):</strong> Two situations give rise to the infamous occurrences known as blood moons: astronomical alignments that result in a calendar month having a second full moon, and atmospheric phenomena when pollution and toxins hang heavy in the air, distorting the rising moon and giving it a blood-red cast and a seemingly larger size. Both types of occurrences are considered bad omens, and are revered as unholy events by worshipers of deities of filth and decay. While the light of a blood moon shines, the DC to resist negative channeled energy increases by 2, and creatures exposed to its light take a -2 penalty on saving throws against diseases, curses, <Link to="/main/corruptions">corruptions</Link>, and <Link to="/rule/madness">madnesses</Link>. Certain foul occult rituals related to such magic must be performed on blood moons. Blood moons caused by astronomical alignments last as long as the moon is risen, while blood moons that result from atmospheric distortions last 1d4 hours, fading as the moon rises higher in the night sky and casts off its ruddy sheen.</p>
-</>};
-const _bottomless_pit = {title: "Bottomless Pit", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Bottomless Pit (CR 9):</strong> A bottomless pit is a yawning chasm that appears to be a perfectly natural fissure in the earth, other than the fact that it appears too deep to see the bottom. In actuality, bottomless pits are entrances to extraplanar spaces filled with nothing but endless empty void. A creature that falls into such a pit (whether it is pushed, runs afoul of a trap that conceals the bottomless pit, willingly dives into it, or enters the pit in some other fashion) falls endlessly in inky darkness at a rate of 500 feet per round. Other than its depth, the extraplanar space's dimensions match those of the pit's entrance, and the falling creature can attempt to catch itself on the wall, using the Climb skill (DC = 20 + the wall's Climb DC, as normal for catching yourself when falling), and can attempt to climb out of the pit from there. The wall's climb DC typically matches the type of terrain the opening was in, so a rocky chasm has a Climb DC of 15, for example. The creature can attempt to catch itself once per round. Because the creature falls endlessly, it can rest and even prepare spells while falling (although it must be careful not to drop any possessions, since it will likely fall at a different speed than the possessions do, causing it to lose them forever). If a campaign uses the <Link to="/rule/sanity">sanity system</Link>, for each hour a creature falls in the bottomless pit, it must succeed at a DC 20 Will save or take 1d4 points of sanity damage.</p>
-</>};
-const _captivating_reflection = {title: "Captivating Reflection", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Captivating Reflection (CR 3):</strong> Some narcissistic people need little encouragement to stop and admire their visage in the surface of the water, but occasionally this behavior comes from the bizarre supernatural influence of the water itself. A creature that sees its reflection in the surface of this captivating water must succeed at a DC 15 Will saving throw or become fascinated by the reflection for 1 minute, after which it can attempt a new saving throw to end the effect and look away. A creature that fails the second saving throw is fascinated for another minute, kneeling by the surface of the water and staring at its reflection, its nose nearly touching the surface. At the end of this time, the creature can attempt a third saving throw to end the effect. If the creature fails this third and final saving throw, it is compelled to plunge its head under the water, at which point the fascination suddenly ends, but the creature is paralyzed for 1 minute, unable to hold its breath because of paralysis and therefore immediately forced to attempt Constitution checks to avoid <Link to="/rule/drowning">drowning</Link>.</p>
-<p>The creature's allies can pull its head from the water, but meet with surprising resistance, and must succeed at a DC 20 Strength check to do so, regardless of the paralyzed creature's own Strength score. If the creature avoids drowning by the end of the third minute, it can thereafter act normally, and is immune to the effects of this particular captivating reflection hazard for 24 hours.</p>
-</>};
-const _corpsefruit_tree = {title: "Corpsefruit Tree", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Corpsefruit Tree (CR 5):</strong> This gnarled, twisted tree grows only from ground containing the corpse of an intelligent creature (a creature with an Intelligence score of 3 or higher), providing an insidious tether that binds that creature's spirit to the world of the living and twists it toward malevolent spite. The tree is shrouded by a veil of illusion, which causes intelligent creatures that see the tree to believe it bears a heavy bounty of ripe, succulent fruits, and such creatures are compelled to eat the tree's fruit unless they succeed at a DC 15 Will save. In fact, the tree's fruits are brown, shriveled, and rotten, and any creature that succeeds at the Will save can plainly see this.</p>
-<p>Creatures that consume the fruit also consume a tiny portion of the spirit of the creature whose corpse nourished the tree, forging a spiritual connection between the deceased and the unfortunate victim. The next time the creature rests, it is affected as though by the <Link to="/spell/nightmare">nightmare</Link> spell (DC 17). The tree is treated as having a body part of the creature's, and the tree uses the appropriate modifier based on the knowledge the spirit that nourished the tree has of the creature: typically none. The victim continues to be affected by <em>nightmare</em> for 3 days, or until it succeeds at a saving throw to resist the spell. Further, if the spirit of the creature whose corpse nourished the tree has become an incorporeal undead of any kind, the creature that consumed the fruit takes a -2 penalty on saving throws to resist the spells and spell-like abilities of that undead creature.</p>
-</>};
-const _exploding_window = {title: "Exploding Window", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Exploding Window (CR 1):</strong> Whether from supernatural influence or simply from more mundane physical forces, windows can sometimes explode in a rain of glass shards. When this occurs, for each 5-foot square containing an exploding window, the shattered glass blasts out in a 15-foot cone that deals 1d6 points of slashing damage to each creature in the area (Reflex DC 12 negates). A creature caught in more than one of these cones (either from multiple simultaneous exploding windows or one large exploding window) takes a cumulative -1 penalty on its saving throw for each cone beyond the first, but attempts only a single saving throw and takes only 1d6 points of damage if it fails, regardless of the number of cones whose areas overlap on the creature's space. Additionally, the glass shards remain on the ground, functioning as <Link to="/eq-misc/caltrops">caltrops</Link> until they are cleared away.</p>
-</>};
-const _field_of_bone = {title: "Field of Bone", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Field of Bone (CR 6):</strong> This supernatural hazard usually plagues those who trespass on old battlefields still littered with the bones of soldiers who have never been laid to proper rest. These 30-foot-radius patches of strewn bones are considered difficult terrain, and they spring to a foul mockery of life 1 round after a living creature enters the area, causing 1d6 <Link to="/template/skeleton">skeletons</Link> to animate and attack, as if subject to an <Link to="/spell/animate_dead">animate dead</Link> spell. A field of bone can animate up to 24 skeletons in this manner from any single instance of trespassing (regardless of how many living creatures trespass into the area at once), at a rate of 1d6 skeletons per round. The skeletons continue to animate until all are destroyed, all living creatures leave the area, or the field of bone reaches its animation limit, whichever of these conditions comes first.</p>
-</>};
-const _gnarled_tree = {title: "Gnarled Tree", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Gnarled Tree (CR 5):</strong> Some trees become poisoned and malignant, tainted by the corrupt land around them, and spring to a macabre semblance of animation to attack those who trespass on their dark realms. Gnarled trees animate in the presence of living creatures, and attack indiscriminately for as long as creatures are within range. The victims' spilled blood seeping into the ground further feeds the trees' corruption. Gnarled trees appear as twisted, or even dead, trees of great age and a variety of species, and they blend in with the surrounding forests. Spotting one as an anomalous growth requires a successful DC 17 Perception check (the DC may be higher, depending on the prevalence and condition of local trees). Though a gnarled tree is stationary and can't move from its rooted spot, it attacks as if it were a <Link to="/monster/treant">treant</Link>. The gnarled tree doesn't gain the treant's animation and rock-throwing abilities, but does have the treant's vulnerability to fire. When all living creatures move more than 30 feet away from the gnarled tree, it immediately returns to its normal, non-animated state, until a potential target appears within range once more and provokes the corrupted tree's ire again.</p>
-</>};
-const _grasping_graves = {title: "Grasping Graves", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Grasping Graves (CR 4):</strong> Treading on the burial sites of the unquiet dead can be treacherous, as the buried dead seek to drag the living down into their restless graves. These patches of shallow graves are often found near sites of mass burials, such as those that follow plagues or famines, and are typically 60 feet across. Once a creature enters the area, rotting, grasping hands rip from the earth, turning the entire patch into difficult terrain and targeting each creature inside with a grapple combat maneuver check each round at the end of that creature's turn. The hands don't provoke attacks of opportunity, and have a CMB of +12 (with a base attack bonus of +8 and a +4 bonus due to their Strength). This check is attempted each round for every creature in the hazardous area.</p>
-<p>If the hands successfully grapple a creature, that creature takes 1d6+4 points of bludgeoning damage, gains the grappled condition, and is unable to move without breaking the grapple first. The grasping claws receive a +5 bonus on grapple checks against creatures they are already grappling, but can't move or pin foes. Each round the grasping claws succeed at a grapple check, they deal 1d6+4 additional points of damage. The skeletal hands have a CMD of 22, hardness 5, and 5 hit points each. The hands take full damage from channeled positive energy (no save). However, destroying a particular set of hands doesn't harm the overall hazard, which generates new skeletal hands to grasp all creatures freed in this way on the following round. The only way to evade the hazard is to move out of the affected area, after which the unquiet spirits that animate the grasping graves become dormant once again.</p>
-</>};
-const _grasping_undergrowth = {title: "Grasping Undergrowth", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Grasping Undergrowth (CR 2):</strong> In many forests, undergrowth is thick and tangled enough that it seems to be attempting to hinder travelers, but in some places, whether due to a malevolent spirit or the ire of nature itself, it actually is. Whenever a creature moves through an area of grasping undergrowth, the grasping undergrowth attempts a trip combat maneuver check (with a CMB of +5) against that creature. Tripped creatures fall prone in the first square of grasping undergrowth that they entered that round, and lose the rest of their movement. Creatures that move through the grasping undergrowth at half their speed (after factoring in any reduced movement speed for being in a forest) gain a +4 bonus to their CMD against trip combat maneuver checks from the grasping undergrowth, and creatures that move through the grasping undergrowth at a quarter of their speed gain a +8 bonus.</p>
-<p>If a creature begins its turn prone in a square of grasping undergrowth, the grasping undergrowth attempts a grapple combat maneuver check against it, dealing 1d6 points of damage on a successful check and preventing the creature from moving from the spot until it breaks free of the grapple. The undergrowth can't move or pin the grappled creature on subsequent rounds, and has a CMD of 17. For their own cryptic reasons, some patches of grasping undergrowth grant safe passage to characters of certain alignments or races.</p>
-</>};
-const _insidious_domicile = {title: "Insidious Domicile", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Insidious Domicile (CR 4):</strong> The dwellings of some powerful evil creatures impose pervasive effects on those who disturb the restless hate that dwells within. These areas are typically single structures - a castle, a tower, or a home - infested with spite and malice. Creatures that enter the structure must succeed at a DC 16 Will save or be infected with overwhelming hate toward another creature, as if under the effects of <Link to="/spell/malicious_spite">malicious spite</Link>. For each day spent within the domicile, the target takes 2 points of Wisdom damage if it doesn't act to subtly and indirectly slander, abuse, blame, extort, or cause mortal violence against the target of its spite. The <em>malicious spite</em> effect ends if the creature leaves the location, but resumes if the creature returns. Affected creatures get a saving throw every 24 hours to negate the effect. If the effect ends, the target remembers the spiteful behavior, but not the motivation for it.</p>
-<p>If a campaign uses the <Link to="/rule/sanity">sanity system</Link>, the target takes 1d6 points of sanity damage instead of taking Wisdom damage.</p>
-</>};
-const _misleading_echoes = {title: "Misleading Echoes", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Misleading Echoes (CR 2):</strong> Some places create supernatural echoes that seem to come from random directions, or even all directions at once. An area suffused with misleading echoes imposes a -4 penalty on hearing-based Perception checks, and a listener must succeed at a DC 15 Wisdom check whenever she detects a noise, or else she believes the noise came from a random direction instead of its actual direction. Further, the misleading echoes can replicate the effects of <Link to="/spell/ghost_sound">ghost sound</Link> (DC 11) once per minute. Any creature that fails a Wisdom check or Will save to resist the effects of the misleading echoes takes a -2 penalty on saving throws to resist fear effects for as long as it remains in the area of the misleading echoes, and for 1 minute thereafter.</p>
-</>};
-const _misleading_path = {title: "Misleading Path", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Misleading Path (CR 3):</strong> When the surrounding trees begin to move and change the paths when creatures aren't looking, and the towering branches above even block out the sun, it can be difficult indeed to stay on track. In other environments, shifting dunes or underground tunnels can have the same effect. The DC for Survival checks to avoid becoming lost within an area of misleading paths increases by 2d6. Characters that become lost either travel in random directions, as normal, or are led by a strange intelligence toward a specific location, at the GM's discretion. Because travelers appear to be on a path as they travel, the DC of the Survival check to identify that they are lost increases to 25.</p>
-</>};
-const _pervasive_gloom = {title: "Pervasive Gloom", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Pervasive Gloom (CR 4):</strong> Some locations ooze dread and foreboding, whether from old evils left to stagnate or the presence of some lingering psychic residue from years of torture or oppression. The locations can be single rooms, entire structures, old cemeteries, or even decaying forest groves. Trespassing creatures find the gloom nibbles away at their mental defenses, and take a -2 penalty on saves against fear effects, effects with the emotion descriptor, the effects of haunts, the progression of corruptions, madnesses, and sanity damage.</p>
-</>};
-const _plague_of_flies = {title: "Plague of Flies", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Plague of Flies (CR 2):</strong> Often harbingers of famine and decay, these swarms of flies spread disease and pestilence wherever their buzzing wings carry them. These insects typically form a cloud 20 feet across, made of tens of thousands of flies. This cloud moves at up to 10 feet per round, and obscures all sight (including darkvision) beyond 5 feet. Creatures 5 feet away have concealment (20% miss chance), and creatures farther away have total concealment (50% miss chance, and the attacker can't use sight to locate the target). Moderate or stronger winds can temporarily disperse the cloud, as per <Link to="/spell/obscuring_mist">obscuring mist</Link>, but the flies reform 1d4+1 rounds later to continue their pursuit of carrion. Spells such as <Link to="/spell/fireball">fireball</Link>, <Link to="/spell/flame_strike">flame strike</Link>, and <Link to="/spell/wall_of_fire">wall of fire</Link>, as well as similar area spells, destroy the cloud of flies if they deal at least 10 points of damage. Creatures that spend at least 1 round in the cloud must succeed at a DC 13 Fortitude save or contract the <Link to="/disease/shakes">shakes</Link>. Some plagues of flies carry other virulent diseases instead, which might affect the CR of the hazard if the DC is significantly higher or lower.</p>
-</>};
-const _rain_of_gore = {title: "Rain of Gore", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Rain of Gore (CR 3):</strong> This unusual and unsettling phenomenon results in the corpses of small animals (ranging from Diminutive to Small) falling from the sky in a localized area. A rain of gore generally covers a 500-foot-radius area, and lasts for 2d4 &times; 10 minutes. During this time, each round that a character remains in the open, it takes 2d6 points of bludgeoning damage unless it succeeds at a DC 13 Reflex save. In the wake of a rain of gore, scores of animal corpses are left strewn about in the area. Sometimes, a rain of gore will deposit animal corpses that are infected with <Link to="/disease/filth_fever">filth fever</Link> or another disease, in which case each time characters take damage from the rain of gore, they risk infection. This version of the hazard has a CR of 4 or higher.</p>
-</>};
-const _sanguinary_cloud = {title: "Sanguinary Cloud", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Sanguinary Cloud (CR 6):</strong> Often found floating over campsites of unfortunate travelers drained of all bodily fluids, these blood-red fog banks can be mistaken for colossal <Link to="/monster/vampiric_mist">vampiric mists</Link>. A sanguinary cloud typically settles over a 60-foot-radius area, obscuring all sight beyond 5 feet, including darkvision, granting concealment (20% miss chance) to all creatures 5 feet away or farther. Creatures caught within a bank of this deadly fog must succeed at a DC 18 Fortitude save each round or take 1d3 points of Constitution damage as their bodily fluids are forcibly extracted from their pores and mucous membranes and drawn into the crimson mist. A severe or greater wind disperses a sanguinary cloud, leaving behind a thin sheen of bloody bile.</p>
-</>};
-const _sour_ground = {title: "Sour Ground", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Sour Ground (CR varies):</strong> These corrupted holy sites usually feature long-toppled standing stones and spiraling rock paths carefully arranged by a forgotten culture to invoke powerful divine magic. On these grounds, divine casters restored life to those who died before their time and buried those whose time indeed was up. However, time, overuse, and trespassers caused the ground's life-giving properties to sour, corrupting the corpses of those whose loved ones are foolhardy enough to lay them to rest within the necropolis's boundaries. Any mostly intact corpse of a creature buried within these ancient cemeteries animates 24 hours later as a <Link to="/template/juju_zombie">juju zombie</Link> and seeks its revenge on those who condemned its corpse to this vile existence. These terrible creatures still retain a semblance of their former personalities and are often barely distinguishable from the living with the exception of cold flesh, slightly sunken features, distracted behavior, and an increasingly foul smell. They lure in mourning loved ones with comforting embraces before engaging in a murderous rampage, perhaps burying the resulting corpses in the same sour ground to increase their numbers and extract more revenge on the living. The CR and the XP reward of sour ground are based on the number of juju zombies that arise.</p>
-</>};
-const _suicide_copse = {title: "Suicide Copse", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Suicide Copse (CR 4):</strong> Certain forests are known for attracting unusual numbers of suicides. The exact cause can vary, and may be the result of mind-altering pollen, strange psychic phenomena, or the work of mournful or malevolent spirits. Whatever the cause, suicide copses don't so much attract suicidal creatures as inspire suicide in those nearby. Each hour a creature spends within the suicide copse, it must succeed at a DC 16 Will save or be affected by the spell <Link to="/spell/terrible_remorse">terrible remorse</Link> (CL 10). A creature that succeeds at this saving throw three consecutive times is immune to this effect for 24 hours. At the GM's discretion, some creatures affected by the suicide copse might be compelled to hang themselves, drown themselves, or kill themselves by other means, rather than being affected by <em>terrible remorse,</em> but such compulsions still last only 1 minute. Though called a copse, this effect can potentially cover entire forests spanning hundreds of square miles.</p>
-</>};
-const _watchful_doll = {title: "Watchful Doll", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Watchful Doll (CR 1):</strong> These porcelain dolls resemble young children, and stare forward with blank, glassy expressions on their stylized yet eerily lifelike faces. Whenever a creature moves within 30 feet of a watchful doll, the doll's head rotates to face the creature, and emits a childlike laugh that echoes as if across a great distance, and can be clearly heard up to 60 feet away. Creatures within 30 feet that hear the laughter must succeed at a Will save (DC 13) or be shaken for 1 minute. Creatures with 4 or fewer Hit Dice that fail their saves are instead frightened. Once triggered, the doll doesn't laugh again for 1 minute, but its head continues to move so its gaze follows the creature that triggered it. The fear from the laughter is a mind-affecting fear effect.</p>
-</>};
-const _well_of_evil = {title: "Well of Evil", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Well of Evil (CR 5):</strong> These places are accursed morasses of depravity, nexuses of lingering hate and festering evil that bode ill for the pure-hearted who trespass upon them. A well of evil is typically a single room, cave, or structure, though it can expand to fill an area with a radius of up to 2d4 &times; 10 feet. Good-aligned creatures can feel the powerful evil presence tainting a well of evil, and such creatures that approach within 30 feet must succeed at a DC 15 Will save or become sickened and refuse to enter the location for 1 hour. A successful Will save negates these unfortunate effects, but if the creature actually enters the location, it becomes sickened with no save. Within a well of evil, the DC to resist negative channeled energy increases by 2, and good-aligned creatures take a -2 penalty on saving throws against curses, corruptions, madnesses, spells with the evil descriptor, and the effects of haunts. Haunts that lurk within wells of evil also gain a +4 bonus on their Initiative checks and to Perception check DCs to notice them.</p>
-</>};
-const _witch_light = {title: "Witch Light", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","horror_hazards"], siblings: ["animating_fog","apocalypse_fog","bat_colony","blood_moon","bottomless_pit","captivating_reflection","corpsefruit_tree","exploding_window","field_of_bone","gnarled_tree","grasping_graves","grasping_undergrowth","insidious_domicile","misleading_echoes","misleading_path","pervasive_gloom","plague_of_flies","rain_of_gore","sanguinary_cloud","sour_ground","suicide_copse","watchful_doll","well_of_evil","witch_light"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<p><strong className="hl">Witch Light (CR 1):</strong> Often confused with <Link to="/monster/will_o_wisp">will-o'-wisps</Link>, these shimmering lights also tend to lead unwary passers-by to their dooms. Witch lights appear as flickering lights resembling lantern or torch flames, but can be seen only with a successful DC 10 Perception check. A result of 30 or higher on the Perception check allows the viewer to identify the witch light as a mirage. The witch light seems to move with the viewer, retreating if the creature moves toward it and following if it moves away. Some witch lights have a mind of their own, or are controlled by malevolent entities, and lead viewers toward specific places - often pits or other hazards, but sometimes treasures or long-buried secrets. Creatures actively following a witch light take a -4 penalty on Perception checks and a -4 penalty on Reflex saves to resist the effects of traps and hazards.</p>
-</>};
-const _domains_of_evil = {title: "Domains of Evil", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments"], siblings: ["locations","horror_hazards","domains_of_evil","nightmare_dreamscapes"], subtopics: ["domain_geography","cursed_domains"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 159</Link></p>
-<p>Some powerful creatures are so corrupted that their malignancy creeps into the land around them, establishing dangerous domains of evil over which they rule. And though some vile lords find themselves trapped within these cursed realms, they also become capable of exerting tremendous influence over the atmosphere and composition of their domains, such that their lands grow to reflect their dark moods and deeds. These dark rulers are described in the <Link to="/template/dread_lord">dread lord template</Link>.</p>
-<p>Domains of evil are dark pockets of supernatural activity embedded in a plane (often the Material Plane) like boils on pockmarked flesh. Most domains are hostile and uninviting at best, full of twisted forests, rough and intractable terrain, and putrid rivers that reek of rot and pollution. Wildlife could be similarly tainted, in which case even the occasional hare or ground squirrel is bony, cancerous, and infested with vermin. Packs of mangy coyotes, pustule-plagued wolves, and murders of molting crows might constantly harass travelers, nipping at their heels, ripping the flanks of their mounts, or snatching at the fingers of careless campers.</p>
-<p>Supernatural creatures might also plague the unwary, as moaning zombies wander wind-blown mountain passes and spectral dead seek to drain the life from the living at every turn. Packs of ghouls roam the lowlands, devouring entire villages, and the gnawed skeletons they leave in their wake animate and attack travelers. Everywhere lurks the foreboding presence of some foul master, who has an uncanny knack for knowing the whereabouts of trespassers and is capable of bending the lands to his will to make them most unwelcome.</p>
-<p>Such domains are not always devoid of humanoid populations - they may harbor villages of fearful and superstitious locals that usually serve as chattel and livestock for the domain's lord. These populations tend to be incredibly insular and suspicious of outsiders and intrusions on their lifestyles, as trespassers into the realm - particularly adventurers - have ways of disrupting the locals' tentative impasse with their lord.</p>
-</>};
-const _domain_geography = {title: "Domain Geography", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","domains_of_evil"], siblings: ["domain_geography","cursed_domains"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 160</Link></p>
-<p>When created, a domain of evil warps reality around it into a foul reflection of its master, with a radius of 5 miles for every Hit Die of its new lord (see the <Link to="/template/dread_lord">dread lord template</Link>). This radius usually centers on an ancient ancestral manse or cursed cairn that housed the dread lord's family or was the scene of a tragedy that led to the domain's creation. Though domains of evil are still located on their original plane (usually the Material Plane), with all the terrain, weather, flora, fauna, structures, and features normal to the area where they were created, their special natures cause them to have <Link to="/rule/planar_traits">planar traits</Link> that alter their physical and magical properties, as well as some features exclusive to them. Domains of evil have the following features, as befits the horrible creatures that preside over these realms.</p>
-<p><strong className="hl">Alignment:</strong> If its master has 10 Hit Dice or fewer, a domain gains the mildly aligned planar alignment trait reflecting the alignment of its master. Domains with masters with more than 10 Hit Dice instead become strongly aligned.</p>
-<p><strong className="hl">Borders:</strong> Some domains are formed simply by the foul presence of an evil that has long inhabited the land, whether it's a nosferatu lord lurking in the shadows or a restless ghost bound to the soil of its unquiet grave. The borders of such a domain are open; creatures can freely enter and leave, and its lord can pass to and from its domain without penalty, though the influence he has over his lands doesn't extend past the domain's established borders. Other domains of evil serve as torturous prisons for their cursed lords (see <Link to="/rule/cursed_domains">Cursed Domains</Link>), who find it impossible to leave the realms to which they are bound, oftentimes hindered by a pervasive bank of dread fog that prevents their egress. These mists resist intrusion into the domain, though the strange whims of dark powers might allow passage through the fog for those who might further trouble or torment the land's lord.</p>
-<p><strong className="hl">Disturbing to Animals:</strong> The overwhelming taint of unnatural presences disturbs animals that are not native to a domain of evil. Animals don't willingly approach the domain's border unless their masters succeed at DC 25 Handle Animal, Ride, or wild empathy checks, and the masters must continue to attempt checks each hour within the domain to prevent their animals from trying to leave the area. The DCs of all other Handle Animal, Ride, and wild empathy checks to influence non-native animals increase by 5 while the animals remain within the domain's border.</p>
-<p><strong className="hl">Hazards:</strong> The domain morphs into a dark and twisted reflection of its lord, with dangerous landmarks and supernatural hazards (such as the ones on in the <Link to="/rule/hazards">Hazards</Link> section) mirroring the master's temperament and personality infesting the landscape. Forests might become darker and more foreboding, full of misleading paths or gnarled oaks that grasp and tear at trespassers. Seemingly sentient fogs drift across the crags and crevices of the land, animating undead in their wakes, while bat colonies infest the domain's caves and ruins. These hazards can shift and change over time as the land reacts to the moods and whims of the dread lord (a slow process that takes at least 24 hours, during which no hazard functions), but the total CR of all hazards found with a lord's domain (that is, the CR of a hypothetical encounter with all of the hazards at once) can't exceed double the dread lord's Hit Dice, and no individual hazard can have a CR that exceeds the dread lord's Hit Dice. If the land is the domain of a cursed lord and bordered by dread fog, the fog's CR value doesn't count against this limit.</p>
-<p><strong className="hl">Magic:</strong> The domain can have the enhanced magic, impeded magic, or wild magic planar trait, as befits the personality and temperament of its lord. If the domain has enhanced, impeded, or limited magic, one type of magic per 5 Hit Dice of its lord can be enhanced, impeded, or limited. The categories of magic that are affected are relatively narrow. For example, an entire school of magic would be too broad, but "effects with the healing descriptor or that restore hit points" or "death spells and spells granted by the <Link to="/domain/death">Death</Link> and <Link to="/domain/repose">Repose</Link> domains" would be appropriate. A type of spell can't be both enhanced and impeded by the same domain.</p>
-<p><strong className="hl">Time:</strong> A domain's time passes at the normal rate by default. In some cases, the lord's powerful whims alter the passage of time, whether replicating the slow churning of years felt by a lich's long existence, or the quickening felt by a blood-sated vampire. This alteration can be temporary or permanent, and the domain can have the erratic time, flowing time (half or double normal time), or timeless trait.</p>
-</>};
-const _cursed_domains = {title: "Cursed Domains", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","domains_of_evil"], siblings: ["domain_geography","cursed_domains"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 161</Link></p>
-<p>Though many dread lords so embrace their inherent evil that they slowly corrupt the lands around them, others perform deeds so horrendous that gods, the universe, fate, or another powerful force curses them to internal imprisonment in a domain. There is no escape for a cursed lord, who is continuously subject to living and spectral reminders of the tragic misdeeds that trapped him (see the <Link to="/template/cursed_lord">cursed lord template</Link>). These realms have all the qualities of domains of evil, with the following additional traits.</p>
-<p><strong className="hl">Dread Fog:</strong> This cloying mist often encapsulates the boundaries of cursed domains, raised by terrible powers to prevent entry into, or escape from, the cursed lands they protect. Like normal fog, these pervasive banks of thick mists obscure all sight, including darkvision, beyond 5 feet, granting <Link to="/rule/concealment">concealment</Link> to all creatures at least 5 feet away (20% miss chance). Navigation and orientation within the mists is treacherous, and creatures usually find themselves easily separated from their companions unless extraordinary means are taken to prevent separation, which can include shackling or binding adjacent creatures to one another with rope. Those within the fog have little hope of navigating the mists and risk becoming hopelessly lost. A creature must succeed at a DC 20 Intelligence check each hour after entering the mist. Creatures that fail continue to wander in the fog until they succeed. Creatures that succeed exit the fog 1d10 &times; 100 feet from the location where they first entered the miasma. Spells and abilities that move a creature within a plane, such as <Link to="/spell/teleport">teleport</Link> and <Link to="/spell/dimension_door">dimension door</Link>, don't help a creature escape this fog, although a <Link to="/spell/plane_shift">plane shift</Link> spell allows the creature to exit at the location it originally entered the fog. Penetrating the fog to actually enter or exit the realm it protects is subject to the GM's discretion. Navigating through might require difficult Knowledge (planes) checks, random happenstance, complicated arcane rituals beseeching favor, or simply the desire of the mysterious entities responsible for the cursed realm's creation to see the torture of their prisoner ended or increased with the intrusion of the adventurers.</p>
-<p>The fog's hopelessness is pervasive, and creatures take 1d6 points of nonlethal damage per hour they are within the fog. The wraiths and geists of those who have perished in the mists might also materialize to drain the life from travelers. Those who lose their lives within this miasma are forever lost, incapable of being restored to life by any means short of direct divine intervention. They often turn into incorporeal undead themselves, their souls feeding the strange boundary's continued existence.</p>
-<p><strong className="hl">Haunted Lands:</strong> Cursed lords are plagued with the spectres of the acts that led to the creation of the domain, which materialize as haunts. The realm of a brutal dictator might be tormented with the haunts of those he tortured to death, reflecting the various violent means by which they were killed. The domain of a lich cursed for sacrificing her entire family to fuel her transformation into undeath may contain the spirits of those she betrayed, who wander the halls of a ruined manse at the core of the land. The cursed lord has no control over these spectral trespassers, placed to remind him of his former misdeeds. When a cursed realm is created, the domain manifests a number of haunts with a total CR value (that is, the CR of a hypothetical encounter with all of the hazards at once) of up to double the cursed lord's Hit Dice, with no single haunt having a CR that exceeds the cursed lord's Hit Dice. These haunts are <Link to="/rule/haunt_templates">chained</Link> to the cursed lord and can't be completely destroyed while the cursed lord still exists. Other haunts not chained to the cursed lord might manifest within the domain of evil, but such haunts don't count against the CR limit.</p>
-</>};
-const _nightmare_dreamscapes = {title: "Nightmare Dreamscapes", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments"], siblings: ["locations","horror_hazards","domains_of_evil","nightmare_dreamscapes"], subtopics: ["naturally_occurring_nightmares","supernatural_nightmares","goal_of_a_nightmare","nightmare_features"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 162</Link></p>
-<p>The following section provides guidelines for creating nightmare dreamscapes: realms of fear and horror within the <Link to="/rule/dimension_of_dreams">Dimension of Dreams</Link>. A nightmare typically has a goal, which the dreamer can complete within the nightmare dreamscape to win freedom from it, and features, which represent the ways in which the dreamer's fears manifest. A nightmare's goal and features might come entirely from the dreamer's own mind or be chosen by the creator of a supernatural effect.</p>
-</>};
-const _naturally_occurring_nightmares = {title: "Naturally Occurring Nightmares", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","nightmare_dreamscapes"], siblings: ["naturally_occurring_nightmares","supernatural_nightmares","goal_of_a_nightmare","nightmare_features"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 162</Link></p>
-<p>Most commonly, nightmares come not from an outside source, but solely from the dreamer's mind. Whenever a creature sleeps, if it experienced any of the following events since the last time it slept, there is a 20% chance it has a naturally occurring nightmare: being reduced to 0 or fewer hit points, being frightened or panicked, being shaken for more than 1 minute, or taking 1 or more points of Wisdom damage or drain. If a campaign uses the <Link to="/rule/sanity">sanity rules</Link>, taking sanity damage also counts.</p>
-<p>A naturally occurring nightmare takes the form of a <Link to="/rule/dimension_of_dreams">frightening dream</Link>. As with other dreams, the nightmare dreamscape has the flowing time, highly morphic, and wild magic planar traits. The exact nature of a naturally occurring nightmare dreamscape is created from the dreamer's unconscious thoughts, and is not under its control. The GM can select the <Link to="/rule/planar_traits">dreamscape's traits</Link>, or determine them randomly using the following tables. It is more difficult for the dreamer to attempt fantastic feats in nightmares, and the DC of Charisma checks to do so increases by 10.</p>
-<h3 id="rule-naturally_occurring_nightmares-plane-gravity">Plane Gravity</h3>
-<ScrollContainer id="rule-naturally_occurring_nightmares--table-0"><table>
-<thead>
-<tr>
-<th>d%</th>
-<th>Gravity</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>01-60</td>
-<td>Normal</td>
-</tr>
-<tr>
-<td>61-65</td>
-<td>Heavy</td>
-</tr>
-<tr>
-<td>66-70</td>
-<td>Light</td>
-</tr>
-<tr>
-<td>71-80</td>
-<td>None</td>
-</tr>
-<tr>
-<td>81-90</td>
-<td>Objective directional</td>
-</tr>
-<tr>
-<td>91-100</td>
-<td>Subjective directional</td>
-</tr>
-</tbody></table></ScrollContainer>
-<h3 id="rule-naturally_occurring_nightmares-plane-size">Plane Size</h3>
-<ScrollContainer id="rule-naturally_occurring_nightmares--table-1"><table>
-<thead>
-<tr>
-<th>d%</th>
-<th>Size and Shape</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>01-30</td>
-<td>Infinite</td>
-</tr>
-<tr>
-<td>31-60</td>
-<td>Finite shape</td>
-</tr>
-<tr>
-<td>61-100</td>
-<td>Self-contained shape</td>
-</tr>
-</tbody></table></ScrollContainer>
-</>};
-const _supernatural_nightmares = {title: "Supernatural Nightmares", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","nightmare_dreamscapes"], siblings: ["naturally_occurring_nightmares","supernatural_nightmares","goal_of_a_nightmare","nightmare_features"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 163</Link></p>
-<p>A supernatural nightmare is similar to a naturally occurring nightmare, but is created deliberately by a malevolent entity. This entity chooses the gravity, size, and shape of the dreamscape, and can also determine the dreamscape's goal and features; the goal must be reasonably accomplished, subject to the GM's discretion. Some supernatural nightmares impose penalties if the goal of the nightmare is not completed, with the most dire cases allowing for death in the dreamscape to cause death in the waking world.</p>
-<p><strong className="hl">Spells:</strong> Certain spells, such as <Link to="/spell/nightmare">nightmare</Link> or <Link to="/spell/night_terrors">night terrors</Link>, can cause their targets to experience nightmares. A caster of the <em>nightmare</em> spell can choose to ensnare her target in a nightmare dreamscape instead of allowing her target a Will save to resist the spell. If so, the caster doesn't have much control over the nightmare dreamscape but can ensure the presence of one <Link to="/rule/nightmare_features">nightmare feature</Link> per 5 caster levels. The caster doesn't select which nightmare features the target experiences. If the target fails to accomplish the goal of the nightmare, it suffers the spell's effects.</p>
-</>};
-const _goal_of_a_nightmare = {title: "Goal of a Nightmare", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","nightmare_dreamscapes"], siblings: ["naturally_occurring_nightmares","supernatural_nightmares","goal_of_a_nightmare","nightmare_features"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 163</Link></p>
-<p>Each nightmare dreamscape has a particular action that can be completed to allow the dreamer to escape the nightmare. This goal may or may not be immediately obvious. If the dreamer is unable to complete the goal in a reasonable period of time (as determined by the GM), the nightmare is considered to have bested the dreamer. The dreamer suffers no ill effects when defeated by a naturally occurring nightmare; however, there might be penalties if the dreamer fails to achieve a supernatural nightmare's goal. The GM can choose a goal or determine one randomly using the table below.</p>
-<ScrollContainer id="rule-goal_of_a_nightmare--table-0"><table>
-<thead>
-<tr>
-<th>d%</th>
-<th>Nightmare Goal</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>01-35</td>
-<td>Reach a creature</td>
-</tr>
-<tr>
-<td>36-80</td>
-<td>Reach a location</td>
-</tr>
-<tr>
-<td>81-100</td>
-<td>Take a test</td>
-</tr>
-</tbody></table></ScrollContainer>
-<p><strong className="hl">Reach a Creature:</strong> The nightmare ends once the dreamer reaches or catches a creature. The creature might actively flee, or could lead the dreamer on a specific path.</p>
-<p><strong className="hl">Reach a Location:</strong> The nightmare ends once the dreamer reaches a particular place.</p>
-<p><strong className="hl">Take a Test:</strong> The nightmare ends once the dreamer completes a test. The nature of the test varies: a cleric might have to endure a test of faith, while a fighter might have to perform difficult combat drills. The GM chooses three to five skill checks or ability checks to represent different aspects of the test, of which the character must succeed at a minimum of half, or devises a series of more complicated encounters, if she desires.</p>
-</>};
-const _nightmare_features = {title: "Nightmare Features", parent_topics: ["gm_specific_campaigns","horror_rules","horror_environments","nightmare_dreamscapes"], siblings: ["naturally_occurring_nightmares","supernatural_nightmares","goal_of_a_nightmare","nightmare_features"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 163</Link></p>
-<p>Each nightmare has one or more nightmare features, which complicate the nightmare in some fashion. For naturally occurring nightmares, roll twice on the table below or simply select which nightmare features to use.</p>
-<ScrollContainer id="rule-nightmare_features--table-0"><table>
-<thead>
-<tr>
-<th>d%</th>
-<th>Nightmare Feature</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>01-20</td>
-<td>Being chased</td>
-</tr>
-<tr>
-<td>21-30</td>
-<td>False awakening</td>
-</tr>
-<tr>
-<td>31-50</td>
-<td>Incompetent</td>
-</tr>
-<tr>
-<td>51-65</td>
-<td>No gear</td>
-</tr>
-<tr>
-<td>66-80</td>
-<td>Unable to move</td>
-</tr>
-<tr>
-<td>81-95</td>
-<td>Unable to speak</td>
-</tr>
-<tr>
-<td>96-100</td>
-<td>Other disadvantage, or roll again twice</td>
-</tr>
-</tbody></table></ScrollContainer>
-<p><strong className="hl">Being Chased:</strong> The dreamer is being stalked or chased by something. The thing should be difficult (or impossible) to defeat in combat, but possible to escape. Either employ the <Link to="/rule/chases">chase rules</Link> or adjudicate the stalking creature's threat in some other way.</p>
-<p><strong className="hl">False Awakening:</strong> When the nightmare ends, the dreamer believes it is awake, but actually enters another nightmare dreamscape. Roll one nightmare feature fewer when determining the nature of this dreamscape.</p>
-<p><strong className="hl">Incompetent:</strong> The dreamer is suddenly unable to do something that it is normally good at. It might lose ranks in an important skill, have its base attack bonus reduced by half, or lose a key class feature or ability for the duration of the dream.</p>
-<p><strong className="hl">No Gear:</strong> The dreamer arrives in the dream naked, without any gear or equipment.</p>
-<p><strong className="hl">Unable to Move:</strong> The dreamer has difficulty traveling. The dreamer could literally be paralyzed, or it might find that no matter where it goes, it always winds up in the same spot. Either way, the inability to move shouldn't render the nightmare's goal impossible.</p>
-<p><strong className="hl">Unable to Speak:</strong> The dreamer either can't speak or can't understand anything said in the dream.</p>
-</>};
-export default {horror_rules:_horror_rules,horror_characters:_horror_characters,playing_a_horror_hero:_playing_a_horror_hero,participating_in_horror_adventures:_participating_in_horror_adventures,building_horror_characters:_building_horror_characters,plan_to_be_frightened:_plan_to_be_frightened,roleplaying_fear:_roleplaying_fear,conspiring_with_the_gm:_conspiring_with_the_gm,aspects_of_horror_heroes:_aspects_of_horror_heroes,fear_ha:_fear_ha,lesser_fear_and_greater_fear:_lesser_fear_and_greater_fear,fear_duration:_fear_duration,adding_fear:_adding_fear,fear_immunity:_fear_immunity,sanity:_sanity,sanity_score_edge_and_thresholds:_sanity_score_edge_and_thresholds,effects_of_sanity_damage:_effects_of_sanity_damage,reducing_sanity_damage:_reducing_sanity_damage,corruption:_corruption,corruption_glossary:_corruption_glossary,contracting_a_corruption:_contracting_a_corruption,manifestations:_manifestations,corruption_variants:_corruption_variants,manifestation_level:_manifestation_level,the_corruptions_progress:_the_corruptions_progress,curses_ha:_curses_ha,curses_in_your_game:_curses_in_your_game,curse_spells:_curse_spells,creating_new_curses:_creating_new_curses,types_of_curses:_types_of_curses,breaking_the_curse:_breaking_the_curse,alternative_means_of_relief:_alternative_means_of_relief,cursed_items_ha:_cursed_items_ha,crafting_cursed_items:_crafting_cursed_items,cursed_land:_cursed_land,curse_templates:_curse_templates,horrific_diseases:_horrific_diseases,disease_templates:_disease_templates,new_diseases:_new_diseases,horror_environments:_horror_environments,locations:_locations,horror_hazards:_horror_hazards,animating_fog:_animating_fog,apocalypse_fog:_apocalypse_fog,bat_colony:_bat_colony,blood_moon:_blood_moon,bottomless_pit:_bottomless_pit,captivating_reflection:_captivating_reflection,corpsefruit_tree:_corpsefruit_tree,exploding_window:_exploding_window,field_of_bone:_field_of_bone,gnarled_tree:_gnarled_tree,grasping_graves:_grasping_graves,grasping_undergrowth:_grasping_undergrowth,insidious_domicile:_insidious_domicile,misleading_echoes:_misleading_echoes,misleading_path:_misleading_path,pervasive_gloom:_pervasive_gloom,plague_of_flies:_plague_of_flies,rain_of_gore:_rain_of_gore,sanguinary_cloud:_sanguinary_cloud,sour_ground:_sour_ground,suicide_copse:_suicide_copse,watchful_doll:_watchful_doll,well_of_evil:_well_of_evil,witch_light:_witch_light,domains_of_evil:_domains_of_evil,domain_geography:_domain_geography,cursed_domains:_cursed_domains,nightmare_dreamscapes:_nightmare_dreamscapes,naturally_occurring_nightmares:_naturally_occurring_nightmares,supernatural_nightmares:_supernatural_nightmares,goal_of_a_nightmare:_goal_of_a_nightmare,nightmare_features:_nightmare_features}
+export default {horror_rules:_horror_rules,horror_characters:_horror_characters,playing_a_horror_hero:_playing_a_horror_hero,participating_in_horror_adventures:_participating_in_horror_adventures,building_horror_characters:_building_horror_characters,plan_to_be_frightened:_plan_to_be_frightened,roleplaying_fear:_roleplaying_fear,conspiring_with_the_gm:_conspiring_with_the_gm,aspects_of_horror_heroes:_aspects_of_horror_heroes,fear_ha:_fear_ha,lesser_fear_and_greater_fear:_lesser_fear_and_greater_fear,fear_duration:_fear_duration,adding_fear:_adding_fear,fear_immunity:_fear_immunity,sanity:_sanity,sanity_score_edge_and_thresholds:_sanity_score_edge_and_thresholds,effects_of_sanity_damage:_effects_of_sanity_damage,reducing_sanity_damage:_reducing_sanity_damage,corruption:_corruption,corruption_glossary:_corruption_glossary,corruption_progression:_corruption_progression,manifestations:_manifestations,corruptions:_corruptions,aboleth:_aboleth,accursed:_accursed,amoral:_amoral,deep_one:_deep_one,demonic:_demonic,ghoul:_ghoul,hellbound:_hellbound,hive:_hive,lich:_lich,lycanthropy:_lycanthropy,plagued:_plagued,possessed:_possessed,promethean:_promethean,psychometabolic:_psychometabolic,shadowbound:_shadowbound,vampirism:_vampirism,corruption_variants:_corruption_variants,curses_ha:_curses_ha,curses_in_your_game:_curses_in_your_game,curse_spells:_curse_spells,creating_new_curses:_creating_new_curses,types_of_curses:_types_of_curses,breaking_the_curse:_breaking_the_curse,alternative_means_of_relief:_alternative_means_of_relief,cursed_items_ha:_cursed_items_ha,crafting_cursed_items:_crafting_cursed_items,cursed_land:_cursed_land,curse_templates:_curse_templates,horrific_diseases:_horrific_diseases,disease_templates:_disease_templates,new_diseases:_new_diseases}

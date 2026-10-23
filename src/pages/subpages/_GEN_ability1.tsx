@@ -1708,7 +1708,7 @@ const _oracle_curses = {title: "Oracle Curses", topLink: ["Oracle","class/oracle
 </tr>
 <tr>
 <td><Link to="/oraclecurse/toxic_blood">Toxic Blood</Link></td>
-<td><Icons id="ability-oracle_curses-down-def-touch-icons" wrapper="prefixIcon" list={["down","def","touch"]} /> Your body is ravaged by a potent, slow-acting poison that resists all treatment.</td>
+<td><Icons id="ability-oracle_curses-down-roll-def-touch-icons" wrapper="prefixIcon" list={["down","roll","def","touch"]} /> Your body is ravaged by a potent, slow-acting poison that resists all treatment.</td>
 <td></td>
 </tr>
 <tr>

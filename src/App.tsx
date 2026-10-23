@@ -81,7 +81,6 @@ const AspectPage = lazy(() => import("./pages/AspectPage"));
 const BlessingPage = lazy(() => import("./pages/BlessingPage"));
 const BloodragerBloodlinePage = lazy(() => import("./pages/BloodragerBloodlinePage"));
 const CompanionPage = lazy(() => import("./pages/CompanionPage"));
-const CorruptionPage = lazy(() => import("./pages/CorruptionPage"));
 const CursePage = lazy(() => import("./pages/OracleCursePage"));
 const DisciplinePage = lazy(() => import("./pages/DisciplinePage"));
 const DomainPage = lazy(() => import("./pages/DomainPage"));
@@ -255,11 +254,6 @@ const App: FC = () => {
 						<Route path="/class/:id">
 							<Suspense fallback={<Loading text="Searching classes..." />}>
 								<ClassPage />
-							</Suspense>
-						</Route>
-						<Route path="/corruption/:id">
-							<Suspense fallback={<Loading text="Discovering corruptions..." />}>
-								<CorruptionPage />
 							</Suspense>
 						</Route>
 						<Route path={/^[/](curse|disease|infestation)[/](?<id>[a-z_0-9]+)[/]?$/}>

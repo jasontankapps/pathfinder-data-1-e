@@ -1040,7 +1040,7 @@ const _heavens = {hasJL:true,title: "Heavens", jsx: <><div className="jumpList" 
 </Ability>
 <Ability id="mantle-of-moonlight-su" icon={["def","touch"]}>
 <Pair single id="mantle-of-moonlight-su">Mantle of Moonlight (Su)</Pair>
-<Pair title="Passive Ability">Your innate understanding of the moon renders you immune to <Link to="/corruption/lycanthropy">lycanthropy</Link>.</Pair>
+<Pair title="Passive Ability">Your innate understanding of the moon renders you immune to <Link to="/rule/lycanthropy">lycanthropy</Link>.</Pair>
 <Pair title="Ability">As a melee touch attack, you may disrupt a <Link to="/template/lycanthrope">lycanthrope's</Link> connection to the moon. This action automatically forces the lycanthrope into its humanoid form, which it must remain in for a number of rounds equal to your oracle level.</Pair>
 <Pair title="At 5th Level">You can use this ability to force others into a <Link to="/spell/rage">rage</Link>, as per the spell, but only a number of times per day equal to <Link to="/misc/one_fifth">one-fifth</Link> of your oracle level. It's still a melee touch attack.</Pair>
 </Ability>
@@ -1451,7 +1451,7 @@ const _lunar = {hasJL:true,title: "Lunar", jsx: <><div className="jumpList" id="
 </Ability>
 <Ability id="mantle-of-moonlight-su" icon={["def","touch"]}>
 <Pair single id="mantle-of-moonlight-su">Mantle of Moonlight (Su)</Pair>
-<Pair title="Passive Ability">Your innate understanding of the moon renders you immune to <Link to="/corruption/lycanthropy">lycanthropy</Link>.</Pair>
+<Pair title="Passive Ability">Your innate understanding of the moon renders you immune to <Link to="/rule/lycanthropy">lycanthropy</Link>.</Pair>
 <Pair title="Ability">As a melee touch attack, you may disrupt a <Link to="/template/lycanthrope">lycanthrope's</Link> connection to the moon. This action automatically forces the lycanthrope into its humanoid form, which it must remain in for a number of rounds equal to your oracle level.</Pair>
 <Pair title="At 5th Level">You can use this ability to force others into a <Link to="/spell/rage">rage</Link>, as per the spell, but only a number of times per day equal to <Link to="/misc/one_fifth">one-fifth</Link> of your oracle level. It's still a melee touch attack.</Pair>
 </Ability>
