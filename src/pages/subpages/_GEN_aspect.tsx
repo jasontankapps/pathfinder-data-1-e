@@ -302,7 +302,7 @@ const _mantis = {title: "Mantis", jsx: <><h2 id="aspect-mantis-mantis">Mantis</h
 <Pair title="Ability">You gain <Link to="/feat/lunge">Lunge</Link> as a bonus feat.</Pair>
 <Pair title="At 12th Level">Your reach increases by 5 feet.</Pair>
 </Ability>
-<Ability id="major-form" icon={["magic","melee","power"]}>
+<Ability id="major-form" icon={["magic","melee","power","roll","boost"]}>
 <Pair single id="major-form">Major Form</Pair>
 <Pair title="Functions As" hl><Link to="/spell/vermin_shape_ii">Vermin Shape II</Link></Pair>
 <Pair title="Ability">Your shape changes to that of a <Link to="/monster/giant_mantis">giant mantis</Link>. While in this form, you gain darkvision with a range of 60 feet, a +2 racial bonus on initiative checks, and two primary <Link to="/umr/claw_attack">claw attacks</Link> (1d6) with the <Link to="/umr/grab">grab</Link> ability.</Pair>

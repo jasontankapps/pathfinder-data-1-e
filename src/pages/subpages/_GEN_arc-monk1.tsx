@@ -512,7 +512,7 @@ const _harrow_warden = {title: "Harrow Warden", jsx: <><h2 id="arc-monk-harrow_w
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Info">The harrow warden is proficient with all simple weapons, as well as with the <Link to="/eq-armor/klar">klar</Link>, <Link to="/eq-weapon/rapier">rapier</Link>, <Link to="/eq-weapon/short_sword">short sword</Link>, and <Link to="/eq-weapon/starknife">starknife</Link>. Additionally, harrow wardens treat starknives as monk weapons.</Pair>
 </Ability>
-<Ability id="idiot-strike-su" icon={["melee"]}>
+<Ability id="idiot-strike-su" icon={["melee","lower","roll"]}>
 <Pair single id="idiot-strike-su">Idiot Strike (Su)</Pair>
 <Pair hl title="Replaces">Stunning fist</Pair>
 <Pair title="Gained">At 1st Level</Pair>

@@ -451,7 +451,7 @@ const _tongues = {title: "Tongues", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _toxic_blood = {title: "Toxic Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex</Link></p>
-<Ability id="toxic-blood" icon={["down","def","touch"]}>
+<Ability id="toxic-blood" icon={["down","roll","def","touch"]}>
 <Pair single id="toxic-blood" flavor="Your body is ravaged by a potent, slow-acting poison that resists all treatment.">Toxic Blood</Pair>
 <Pair title="Penalty">Whenever you must attempt a Fortitude save to resist a poison effect, roll twice and take the lowest result. Additionally, you need one more consecutive successful save to end an ongoing poison. You lose any immunity to poison you have upon receiving this curse, and you become immune to <Link to="/spell/delay_poison">delay poison</Link> and <Link to="/spell/neutralize_poison">neutralize poison</Link>, as well as other attempts to suppress or remove the poison from which you are suffering.</Pair>
 <Pair title="Benefit">You gain the <Link to="/ability/poison_use">poison use</Link> ability.</Pair>

@@ -344,7 +344,7 @@
 			"",
 			"::ab[Minor Form]{icon=power-boost ability=\"You gain ‹feat/Lunge› as a bonus feat.\" imp12=\"Your reach increases by 5 feet.\"}",
 			"",
-			"::ab[Major Form]{order=xa hl=x xFunctions_As=\"‹spell/Vermin Shape II›\" icon=magic-melee-power ability=\"Your shape changes to that of a ‹monster/giant mantis›. While in this form, you gain darkvision with a range of 60 feet, a +2 racial bonus on initiative checks, and two primary ‹umr/claw attack«s› (1d6) with the ‹umr/grab› ability.\" imp8=\"You can always act in the surprise round, but if you fail to notice your foes, you act last, regardless of your initiative result (you act in the normal order in subsequent rounds).\" imp15=\"Whenever you roll for initiative, you can roll three times and use any one of the results.\"}",
+			"::ab[Major Form]{order=xa hl=x xFunctions_As=\"‹spell/Vermin Shape II›\" icon=magic-melee-power-roll-boost ability=\"Your shape changes to that of a ‹monster/giant mantis›. While in this form, you gain darkvision with a range of 60 feet, a +2 racial bonus on initiative checks, and two primary ‹umr/claw attack«s› (1d6) with the ‹umr/grab› ability.\" imp8=\"You can always act in the surprise round, but if you fail to notice your foes, you act last, regardless of your initiative result (you act in the normal order in subsequent rounds).\" imp15=\"Whenever you roll for initiative, you can roll three times and use any one of the results.\"}",
 			"",
 			":::block{size=big}",
 			"",

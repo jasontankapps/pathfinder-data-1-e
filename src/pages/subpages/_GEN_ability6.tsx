@@ -3071,7 +3071,7 @@ const _capstones = {hasJL:true,title: "Alternate Capstones", topLink: ["Classes"
 <Pair title="Prerequisites">Has the <Link to="/ability/channel_energy">channel energy</Link> class feature</Pair>
 <Pair title="At 20th Level">The character can channel energy six additional times per day, and her channel energy dice increase <Link to="/misc/by_one_step">by one step</Link>.</Pair>
 </Ability>
-<Ability id="the-boss-ex" icon={["power"]}>
+<Ability id="the-boss-ex" icon={["power","boost"]}>
 <Pair single id="the-boss-ex">The Boss (Ex)</Pair>
 <Pair title="At 20th Level"><p>The character has become more than just a lone hero - she has become one of the senior figures of her field, with powers and responsibilities to match. The character becomes one of the leading figures in some manner of group or organization, as appropriate to the campaign and the setting. A wizard might become the dean of an arcane university or mages' guild, a fighter could command a mercenary army or a city guard, a cleric might lead a major temple or her own sect, and so forth. The player and the GM should work together to determine the specifics.</p>
 <p>The character gains the <Link to="/feat/leadership">Leadership</Link> feat if she does not already have it, and the number of followers that the feat grants is multiplied by 10 (although depending on the campaign and setting, the position may grant other powers as well). If multiple characters in a party select this capstone, the GM may consider pooling them to grant the players a particularly large and powerful organization, such as a small kingdom.</p>
@@ -3087,7 +3087,7 @@ const _capstones = {hasJL:true,title: "Alternate Capstones", topLink: ["Classes"
 <Pair title="Prerequisites">Prepares spells from a spellbook or familiar</Pair>
 <Pair title="At 20th Level">The character becomes a small, mobile athenaeum of occult scraps and lore. The character adds 100 spell levels' worth of spells to his spellbook or familiar and gains a +4 insight bonus on all Knowledge skills.</Pair>
 </Ability>
-<Ability id="with-this-sword-ex" icon={["boost"]}>
+<Ability id="with-this-sword-ex" icon={["power"]}>
 <Pair single id="with-this-sword-ex">With This Sword (Ex)</Pair>
 <Pair title="At 20th Level">The character's blade has become as well-known as the character herself. The character selects one item she has - preferably something iconic and significant, such as a weapon or arcane bond. The item becomes a <Link to="/rule/artifacts">minor artifact</Link> and gains 100,000 gp worth of new powers. The player and the GM should work together to select the new powers, with an eye towards making something memorable yet campaign-appropriate.</Pair>
 </Ability>

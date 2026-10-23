@@ -2253,7 +2253,7 @@ const _spellscar = {hasJL:true,title: "Spellscar", jsx: <><div className="jumpLi
 <Pair title="At 15th Level">You can change a spell to deal sonic damage, though the damage is halved.</Pair>
 <Pair title="At 20th Level">You can change a spell to deal force damage, though the damage is halved.</Pair>
 </Ability>
-<Ability id="primal-mastery-su" icon={["magic","def"]}>
+<Ability id="primal-mastery-su" icon={["roll","def"]}>
 <Pair single id="primal-mastery-su">Primal Mastery (Su)</Pair>
 <Pair title="Ability">Whenever a spell you cast triggers a primal magic event, or whenever you use a <Link to="/magic-rod/rod_of_wonder">rod of wonder</Link>, roll d% twice when generating the result. You may pick which of the two results actually occurs.</Pair>
 <Pair title="Passive Ability">You gain a +2 bonus on all saving throws made to resist primal magic events or magical effects caused by a rod of wonder.</Pair>

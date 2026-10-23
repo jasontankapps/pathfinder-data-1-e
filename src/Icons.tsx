@@ -64,7 +64,7 @@ const Icons: FC = () => {
 					<Icon incoming={icon} icon="eye-target">Some sort of effect that targets one or more creatures, usually within eyesight, without making an attack roll.</Icon>
 					<Icon incoming={icon} icon="explosion-rays">A <Link to="/misc/burst">burst, emanation, or spread</Link>, usually not centered on the effect's creator.</Icon>
 					<Icon incoming={icon} icon="spell-book">Gain one or more spells known.</Icon>
-					<Icon incoming={icon} icon="rolling-dices">A change to the outcome of a die roll.</Icon>
+					<Icon incoming={icon} icon="rolling-dices">A change to the way dice are rolled when calculating a result.</Icon>
 					<Icon incoming={icon} icon="armor-upgrade">A defensive ability.</Icon>
 					<Icon incoming={icon} icon="shield-reflect">An ability that provides protection to another.</Icon>
 					<Icon incoming={icon} icon="stairs-goal">Gain a new ability or companion.</Icon>

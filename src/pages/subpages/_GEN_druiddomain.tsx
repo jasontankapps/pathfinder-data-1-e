@@ -486,7 +486,7 @@ const _vulture = {title: "Vulture", jsx: <><h2 id="druiddomain-vulture-vulture-d
 <Pair title="At 11th Level">This bonus increases to +6.</Pair>
 <Pair title="At 16th Level">This bonus becomes +8.</Pair>
 </Ability>
-<Ability id="agent-of-rebirth-sp" icon={["magic"]}>
+<Ability id="agent-of-rebirth-sp" icon={["magic","roll"]}>
 <Pair single id="agent-of-rebirth-sp">Agent of Rebirth (Sp)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability"><p>You may expend a quantity of special oils worth 1,000 gp to cast <Link to="/spell/reincarnate">reincarnate</Link> as a spell-like ability usable once per day.</p>

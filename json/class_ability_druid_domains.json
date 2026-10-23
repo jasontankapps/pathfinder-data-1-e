@@ -455,7 +455,7 @@
 			"",
 			"::ab[Death's Companion (Ex)]{icon=def flavor=\"Your totem grants you protection from the harbingers of death.\" immediate=\"You gain a +2 bonus on saving throws against disease, death spells, and death effects that lasts a number of rounds equal to your druid level.\" increment=\"This bonus~1~5~4~2\" useMod=Wisdom3}",
 			"",
-			"::ab[Agent of Rebirth (Sp)]{l=8 icon=magic ability=\"You may expend a quantity of special oils worth 1,000 gp to cast ‹spell/reincarnate› as a spell-like ability usable once per day.~~~Additionally, when using this ability or casting *reincarnate* as a prepared spell, you have some influence over the physical form that the reincarnated spirit will take. When rolling against the spell's incarnation table, you may roll twice and choose between the two results.\"}",
+			"::ab[Agent of Rebirth (Sp)]{l=8 icon=magic-roll ability=\"You may expend a quantity of special oils worth 1,000 gp to cast ‹spell/reincarnate› as a spell-like ability usable once per day.~~~Additionally, when using this ability or casting *reincarnate* as a prepared spell, you have some influence over the physical form that the reincarnated spirit will take. When rolling against the spell's incarnation table, you may roll twice and choose between the two results.\"}",
 			"",
 			"::spelllist[Domain Spells]{all=\"deathwatch~glide~death knell~death ward~breath of life~circle of death~resurrection~finger of death~winds of vengeance\"}"
 		]
