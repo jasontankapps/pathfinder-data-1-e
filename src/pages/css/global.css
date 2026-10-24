@@ -246,7 +246,8 @@ section[data-footnotes] ol li p {
 }
 
 .hlBlock strong,
-:is(strong,div).hl,
+:is(strong,div,th,td).hl,
+div.sideNoteWrap table.hl > :is(tbody,thead,tfoot) > tr > th:not(.normal),
 :is(strong,span).bigHl {
 	color: var(--ion-color-tertiary);
 }
@@ -255,7 +256,9 @@ section[data-footnotes] ol li p {
 	font-size: 1.25em;
 }
 
-:is(.hlBlock strong, strong.hl, div.hl) a,
+.hlBlock strong a,
+:is(strong, div, th, td).hl a,
+div.sideNoteWrap table.hl > :is(tbody,thead,tfoot) > tr > th:not(.normal) a,
 a[data-outgoing] {
 	color: var(--ion-color-secondary);
 }

@@ -8,7 +8,7 @@ type Data = typeof equipment;
 
 type Params = { id?: keyof Data };
 
-const topLink: Hierarchy = ["Alchemical Reagents", "main/equipment_reagents"];
+const topLink: Hierarchy = ["Alchemical Items", "main/equipment_alchemical"];
 
 const EquipmentAlchemicalReagentPage: React.FC = () => {
 

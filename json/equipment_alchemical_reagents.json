@@ -15,29 +15,27 @@
 			"",
 			"‹SOURCE Adventurer's Armory/26›",
 			"",
-			"**Price** 10 gp; **Weight** 1 lb.  ",
-			"**Equipment Page:** ‹eq-weapon/Acid›",
+			"::tabular{format=alchstats a=\"10 gp\" b=\"1 lb.\" c=\"weapon\" d=\"Acid\"}",
 			"",
 			"A common flask of acid has many uses as a power component, particularly with attack spells.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (10 gp); **Spells** ‹spell/acid arrow›, ‹spell/acid fog›, ‹spell/acid splash›, ‹spell/dispel magic›, ‹spell/grease›, ‹spell/wall of ice›  ",
-			"**Effect** Acid can be used as a power component in the following ways:",
+			"::tabular{format=powercomp a=\"1 (10 gp)\" b=\"*acid arrow, acid fog, acid splash, dispel magic, grease, wall of ice*\" c=\"Uses are listed below.\"}",
 			"",
-			"@HL[Acid Arrow (M):] The spell's acid lasts 1 round longer than normal.",
+			"@hll[spell/Acid Arrow] @HL[(M):] The spell's acid lasts 1 round longer than normal.",
 			"",
-			"@HL[Acid Fog (M):] The fog's radius and height increase by 5 feet.",
+			"@hll[spell/Acid Fog] @HL[(M):] The fog's radius and height increase by 5 feet.",
 			"",
-			"@HL[Acid Splash (F):] The spell deals +1 point of damage.",
+			"@hll[spell/Acid Splash] @HL[(F):] The spell deals +1 point of damage.",
 			"",
-			"@HL[Acid Splash (M):] The spell lasts 1 round longer than normal.",
+			"@hll[spell/Acid Splash] @HL[(M):] The spell lasts 1 round longer than normal.",
 			"",
-			"@HL[Dispel Magic (M):] Using acid as a material component while attempting to dispel or counterspell a spell or effect with the earth subtype gives you a +2 bonus on your dispel check. This bonus applies whether you are using *dispel magic,* ‹spell/greater dispel magic›, or some other spell that you can use for counterspelling (for example, if you have the ‹feat/Improved Counterspell› feat).",
+			"@hll[spell/Dispel Magic] @HL[(M):] Using acid as a material component while attempting to dispel or counterspell a spell or effect with the earth subtype gives you a +2 bonus on your dispel check. This bonus applies whether you are using *dispel magic,* ‹spell/greater dispel magic›, or some other spell that you can use for counterspelling (for example, if you have the ‹feat/Improved Counterspell› feat).",
 			"",
-			"@HL[Grease (M):] The grease is acidic and deals 1 point of acid damage per round to any creature in the area or holding the greased object.",
+			"@hll[spell/Grease] @HL[(M):] The grease is acidic and deals 1 point of acid damage per round to any creature in the area or holding the greased object.",
 			"",
-			"@HL[Wall of Ice (M):] For each flask of acid used as a power component, you may designate one 10-foot square of ice wall that, if broken through, deals 1d6 acid damage in addition to the normal cold damage."
+			"@hll[spell/Wall of Ice] @HL[(M):] For each flask of acid used as a power component, you may designate one 10-foot square of ice wall that, if broken through, deals 1d6 acid damage in addition to the normal cold damage."
 		]
 	},
 	"alchemical_grease": {
@@ -48,23 +46,21 @@
 			"",
 			"‹SOURCE Adventurer's Armory/26›",
 			"",
-			"**Price** 5 gp; **Weight** 1 lb.  ",
-			"**Equipment Page:** ‹eq-misc/Alchemical Grease›",
+			"::tabular{format=alchstats a=\"5 gp\" b=\"1 lb.\" c=\"misc\" d=\"Alchemical Grease\"}",
 			"",
 			"This substance is good for augmenting spells affecting or creating surfaces.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (5 gp); **Spells** ‹spell/grease›, ‹spell/sleet storm›, ‹spell/wall of iron›, ‹spell/wall of stone›  ",
-			"**Effect** Alchemical grease can be used as a power component in the following ways:",
+			"::tabular{format=powercomp a=\"1 (5 gp)\" b=\"*grease, sleet storm, wall of iron, wall of stone*\" c=\"Uses are listed below.\"}",
 			"",
-			"@HL[Grease (M):] Increase the Reflex save DC for affected creatures and the Escape Artist bonus for greased armor by 1.",
+			"@hll[spell/Grease] @HL[(M):] Increase the Reflex save DC for affected creatures and the Escape Artist bonus for greased armor by 1.",
 			"",
-			"@HL[Sleet Storm (M):] Increase the Acrobatics DC by 1.",
+			"@hll[spell/Sleet Storm] @HL[(M):] Increase the Acrobatics DC by 1.",
 			"",
-			"@HL[Wall of Iron (M):] For each pot of grease used as a power component, you may designate one 10-foot square of iron wall as being slippery (+5 to Climb DCs).",
+			"@hll[spell/Wall of Iron] @HL[(M):] For each pot of grease used as a power component, you may designate one 10-foot square of iron wall as being slippery (+5 to Climb DCs).",
 			"",
-			"@HL[Wall of Stone (M):] For each pot of grease used as a power component, you may designate one 10-foot square of the spell's stone wall as being slippery (+5 to Climb DCs)."
+			"@hll[spell/Wall of Stone] @HL[(M):] For each pot of grease used as a power component, you may designate one 10-foot square of the spell's stone wall as being slippery (+5 to Climb DCs)."
 		]
 	},
 	"alchemists_fire": {
@@ -75,29 +71,27 @@
 			"",
 			"‹SOURCE Adventurer's Armory/26›",
 			"",
-			"**Price** 20 gp; **Weight** 1 lb.  ",
-			"**Equipment Page:** ‹eq-weapon/Alchemist's Fire›",
+			"::tabular{format=alchstats a=\"20 gp\" b=\"1 lb.\" c=\"weapon\" d=\"Alchemist's Fire\"}",
 			"",
 			"This dwarven favorite can make fire spells last longer.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (20 gp); **Spells** ‹spell/burning hands›, ‹spell/fireball›, ‹spell/flaming sphere›, ‹spell/protection from energy›, ‹spell/resist energy›, ‹spell/scorching ray›  ",
-			"**Effect** Alchemist's fire can be used as a power component in the following ways:",
+			"::tabular{format=powercomp a=\"1 (20 gp)\" b=\"*burning hands, fireball, flaming sphere, protection from energy, resist energy, scorching ray*\" c=\"Uses are listed below.\"}",
 			"",
-			"@HL[Burning Hands (M):] One target that fails its Reflex saving throw (your choice) catches on fire as if it has been struck by alchemist's fire.",
+			"@hll[spell/Burning Hands] @HL[(M):] One target that fails its Reflex saving throw (your choice) catches on fire as if it has been struck by alchemist's fire.",
 			"",
-			"@HL[Fireball (M):] One target per caster level that fails its Reflex saving throw (your choice) catches on fire as if it has been struck by alchemist's fire.",
+			"@hll[spell/Fireball] @HL[(M):] One target per caster level that fails its Reflex saving throw (your choice) catches on fire as if it has been struck by alchemist's fire.",
 			"",
-			"@HL[Flaming Sphere (M):] Any creature damaged by a flaming sphere catches on fire as if it has been struck by alchemist's fire.",
+			"@hll[spell/Flaming Sphere] @HL[(M):] Any creature damaged by a flaming sphere catches on fire as if it has been struck by alchemist's fire.",
 			"",
-			"@HL[Protection from Energy (M):] If cast to ward against cold, increase the amount of cold damage absorbed by 5.",
+			"@hll[spell/Protection from Energy] @HL[(M):] If cast to ward against cold, increase the amount of cold damage absorbed by 5.",
 			"",
-			"@HL[Resist Energy (M):] If cast to ward against cold, increase the cold resistance to 12. At caster level 7th, you may use two flasks of alchemist's fire as a power component to increase the cold resistance to 24. At caster level 11th, you may use three flasks as a power component to increase the cold resistance to 36.",
+			"@hll[spell/Resist Energy] @HL[(M):] If cast to ward against cold, increase the cold resistance to 12. At caster level 7th, you may use two flasks of alchemist's fire as a power component to increase the cold resistance to 24. At caster level 11th, you may use three flasks as a power component to increase the cold resistance to 36.",
 			"",
-			"@HL[Scorching Ray (F):] Add a +1 circumstance bonus on your attack roll with all rays from the spell.",
+			"@hll[spell/Scorching Ray] @HL[(F):] Add a +1 circumstance bonus on your attack roll with all rays from the spell.",
 			"",
-			"@HL[Scorching Ray (M):] Any target damaged by a scorching ray catches on fire as if it has been struck by alchemist's fire."
+			"@hll[spell/Scorching Ray] @HL[(M):] Any target damaged by a scorching ray catches on fire as if it has been struck by alchemist's fire."
 		]
 	},
 	"antiplague": {
@@ -108,19 +102,17 @@
 			"",
 			"‹SOURCE Adventurer's Armory/26›",
 			"",
-			"**Price** 50 gp; **Weight** -  ",
-			"**Equipment Page:** ‹eq-misc/Antiplague›",
+			"::tabular{format=alchstats a=\"50 gp\" b=\"-\" c=\"misc\" d=\"Antiplague\"}",
 			"",
 			"Certain healing spells have greater effects when used with this substance.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (50 gp); **Spells** ‹spell/heroes' feast›, ‹spell/remove disease›  ",
-			"**Effect** Antiplague can be used as a power component in the following ways:",
+			"::tabular{format=powercomp a=\"1 (50 gp)\" b=\"*heroes' feast, remove disease*\" c=\"Uses are listed below.\"}",
 			"",
-			"@HL[Heroes' Feast (M):] For each vial of antiplague used as a power component, one creature eating the feast gains the benefits of antiplague for 12 hours. Antiplague's normally foul taste does not change the taste of the feast.",
+			"@hll[spell/Heroes' Feast] @HL[(M):] For each vial of antiplague used as a power component, one creature eating the feast gains the benefits of antiplague for 12 hours. Antiplague's normally foul taste does not change the taste of the feast.",
 			"",
-			"@HL[Remove Disease (M):] Add +2 on your caster level check to cure diseases on the target."
+			"@hll[spell/Remove Disease] @HL[(M):] Add +2 on your caster level check to cure diseases on the target."
 		]
 	},
 	"antitoxin": {
@@ -131,17 +123,13 @@
 			"",
 			"‹SOURCE Adventurer's Armory/26›",
 			"",
-			"**Price** 50 gp; **Weight** -  ",
-			"**Equipment Page:** ‹eq-misc/Antitoxin›",
+			"::tabular{format=alchstats a=\"50 gp\" b=\"-\" c=\"misc\" d=\"Antitoxin\"}",
 			"",
 			"Like antiplague, this substance can augment certain healing spells.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (50 gp); **Spells** ‹spell/neutralize poison›  ",
-			"**Effect** Antitoxin can be used as a power component in the following ways:",
-			"",
-			"@HL[Neutralize Poison (M):] Add +2 on your caster level check to neutralize poison on a target creature. Antitoxin has no effect when you cast the spell on an object."
+			"::tabular{format=powercomp a=\"1 (50 gp)\" b=\"*neutralize poison (M)*\" c=\"Add +2 on your caster level check to neutralize poison on a target creature. Antitoxin has no effect when you cast the spell on an object.\"}"
 		]
 	},
 	"black_powder": {
@@ -152,15 +140,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/0›",
 			"",
-			"**Price** 10 gp; **Weight** -  ",
-			"**Equipment Page:** ‹eq-weapon/Black Powder›",
+			"::tabular{format=alchstats a=\"10 gp\" b=\"-\" c=\"weapon\" d=\"Black Powder\"}",
 			"",
 			"Black powder is a volatile explosive and is the primary component in fireworks and other explosives.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (10 gp); **Spells** evocation school (M)  ",
-			"**Effect** +1 energy damage"
+			"::tabular{format=powercomp a=\"1 (10 gp)\" b=\"evocation school (M)\" c=\"+1 energy damage\"}"
 		]
 	},
 	"bladeguard": {
@@ -171,17 +157,13 @@
 			"",
 			"‹SOURCE Adventurer's Armory/27›",
 			"",
-			"**Price** 40 gp; **Weight** -  ",
-			"**Equipment Page:** ‹eq-misc/Bladeguard›",
+			"::tabular{format=alchstats a=\"40 gp\" b=\"-\" c=\"misc\" d=\"Bladeguard\"}",
 			"",
 			"Weapons and armor aren't the only things bladeguard protects.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (40 gp); **Spells** ‹spell/wall of iron›  ",
-			"**Effect** Bladeguard can be used as a power component in the following ways:",
-			"",
-			"@HL[Wall of Iron (M):] For each pot of bladeguard used as a power component, you may designate one 10-foot square of iron wall that has acid resistance 10 and immunity to rusting attacks."
+			"::tabular{format=powercomp a=\"1 (40 gp)\" b=\"*wall of iron (M)*\" c=\"For each pot of bladeguard used as a power component, you may designate one 10-foot square of iron wall that has acid resistance 10 and immunity to rusting attacks.\"}"
 		]
 	},
 	"brimstone": {
@@ -192,14 +174,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/0›",
 			"",
-			"**Price** 5 sp; **Weight** -",
+			"::tabular{format=alchstats a=\"5 sp\" b=\"-\"}",
 			"",
 			"Brimstone, also called sulfur, has a distinctive odor and caustic properties.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 2 (1 gp); **Spells** acid descriptor (M)  ",
-			"**Effect** +1 acid damage"
+			"::tabular{format=powercomp a=\"2 (1 gp)\" b=\"acid descriptor (M)\" c=\"+1 acid damage\"}"
 		]
 	},
 	"cold_iron": {
@@ -210,15 +191,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/0›",
 			"",
-			"**Price** 1 gp; **Weight** -  ",
-			"**Equipment Page:** ‹eq-material/Cold Iron›",
+			"::tabular{format=alchstats a=\"1 gp\" b=\"-\" c=\"material\" d=\"Cold Iron\"}",
 			"",
 			"Cold iron is often used to produce alloyed metals, catalysts, and items that interfere with magic.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 5 (5 gp); **Spells** abjuration school (M)  ",
-			"**Effect** +1 caster level for the purpose of caster level and dispel checks"
+			"::tabular{format=powercomp a=\"5 (5 gp)\" b=\"abjuration school (M)\" c=\"+1 caster level for the purpose of caster level and dispel checks\"}"
 		]
 	},
 	"cooperation_crystals": {
@@ -229,14 +208,13 @@
 			"",
 			"‹SOURCE Plane-Hopper's Handbook/10›",
 			"",
-			"**Price** 300 gp; **Weight** -",
+			"::tabular{format=alchstats a=\"300 gp\" b=\"-\"}",
 			"",
 			"This vibrant blue-green crystal is a distillation of the spirit of cooperation characteristic of the chaotic good plane of ‹rule/Elysium›.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (300 gp); **Spells** harmless spells (M or F)  ",
-			"**Effect** When you use a cooperation crystal as a material component or focus for a harmless spell, treat your caster level as 1 higher for the purpose of determining the spell's duration and effect. This increase doesn't stack with other effects that raise the caster level of a spell. (You cannot use this as a material component and a focus for the same spell.)"
+			"::tabular{format=powercomp a=\"1 (300 gp)\" b=\"harmless spells (M or F)\" c=\"When you use a cooperation crystal as a material component or focus for a harmless spell, treat your caster level as 1 higher for the purpose of determining the spell's duration and effect. This increase doesn't stack with other effects that raise the caster level of a spell. (You cannot use this as a material component and a focus for the same spell.)\"}"
 		]
 	},
 	"cytillesh_spores": {
@@ -247,15 +225,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/11›",
 			"",
-			"**Price** 5 gp; **Weight** -  ",
-			"**Equipment Page:** ‹eq-poison/Cytillesh Extract›",
+			"::tabular{format=alchstats a=\"5 gp\" b=\"-\" c=\"poison\" d=\"Cytillesh Extract\"}",
 			"",
 			"The spore of the cytillesh fungus is a versatile reagent, and is often combined with other poisonous elements to create deliriums, hallucinogens, and psychotics.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (5 gp); **Spells** charm or compulsion subschool (M)  ",
-			"**Effect** +1 caster level for the purpose of duration"
+			"::tabular{format=powercomp a=\"1 (5 gp)\" b=\"charm or compulsion subschool (M)\" c=\"+1 caster level for the purpose of duration\"}"
 		]
 	},
 	"darkwood": {
@@ -266,15 +242,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/0›",
 			"",
-			"**Price** 2 gp; **Weight** -  ",
-			"**Equipment Page:** ‹eq-material/Darkwood›",
+			"::tabular{format=alchstats a=\"2 gp\" b=\"-\" c=\"material\" d=\"Darkwood\"}",
 			"",
 			"The bark of the darkwood tree is useful in numerous alchemical applications, especially those that require a light but strong foundation.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 5 (10 gp); **Spells** creation subschool (M)  ",
-			"**Effect** +1 caster level for the purpose of the effect"
+			"::tabular{format=powercomp a=\"5 (10 gp)\" b=\"creation subschool (M)\" c=\"+1 caster level for the purpose of the effect\"}"
 		]
 	},
 	"dew_of_lunary": {
@@ -285,14 +259,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/0›",
 			"",
-			"**Price** 4 gp; **Weight** -",
+			"::tabular{format=alchstats a=\"4 gp\" b=\"-\"}",
 			"",
 			"Dew of lunary is derived from a potent herb. It is commonly used in the creation of medicinal, protective, and divinatory items.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 5 (20 gp); **Spells** divination school (M)  ",
-			"**Effect** +1 caster level for the purpose of effect"
+			"::tabular{format=powercomp a=\"5 (20 gp)\" b=\"divination school (M)\" c=\"+1 caster level for the purpose of effect\"}"
 		]
 	},
 	"dragons_gut": {
@@ -303,21 +276,19 @@
 			"",
 			"‹SOURCE Dragonslayer's Handbook/19›",
 			"",
-			"**Price** 50 gp; **Weight** 1 lb.  ",
-			"**Equipment Page:** ‹eq-misc/Dragon's Gut›",
+			"::tabular{format=alchstats a=\"50 gp\" b=\"1 lb.\" c=\"misc\" d=\"Dragon's Gut\"}",
 			"",
 			"A dragon's stomach contains highly corrosive acid that can be crafted into an alchemical item called dragon's gut.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (50 gp); **Spells** ‹spell/acid arrow›, ‹spell/acid fog›, ‹spell/acidic spray›  ",
-			"**Effect** Dragon's gut has alternate effects when used in place of ‹eq-reagent/acid› as an alchemical power component:",
+			"::tabular{format=powercomp a=\"1 (50 gp)\" b=\"*acid arrow, acid fog, acidic spray*\" c=\"Uses are listed below.\"}",
 			"",
-			"@HL[Acid arrow (M):] The spell lasts 1d3 rounds longer than usual.",
+			"@hll[spell/Acid arrow] @HL[(M):] The spell lasts 1d3 rounds longer than usual.",
 			"",
-			"@HL[Acid fog (M):] The fog takes on a sticky quality and clings to creatures within it. Any creature damaged by the acid fog takes an additional 2d6 points of acid damage on the round after leaving the fog's area of effect. The creature can negate this additional damage by spending a standard action to wipe the clinging acid from its body.",
+			"@hll[spell/Acid fog] @HL[(M):] The fog takes on a sticky quality and clings to creatures within it. Any creature damaged by the acid fog takes an additional 2d6 points of acid damage on the round after leaving the fog's area of effect. The creature can negate this additional damage by spending a standard action to wipe the clinging acid from its body.",
 			"",
-			"@HL[Acidic spray (M):] The spell deals 1d8 points of acid damage per caster level (maximum 15d8) instead of the normal 1d6 per caster level on the round of its casting (Reflex half). It still deals 1d6 points of damage per two caster levels on the following round as normal.",
+			"@hll[spell/Acidic spray] @HL[(M):] The spell deals 1d8 points of acid damage per caster level (maximum 15d8) instead of the normal 1d6 per caster level on the round of its casting (Reflex half). It still deals 1d6 points of damage per two caster levels on the following round as normal.",
 			"",
 			">*Note: The original source doesn't state whether the spells use it as a material or focus cost. The first two have clear parallels with the* acid *entry, but the third is a guess. Consult your GM.*"
 		]
@@ -330,14 +301,13 @@
 			"",
 			"‹SOURCE Plane-Hopper's Handbook/10›",
 			"",
-			"**Price** 350 gp; **Weight** -",
+			"::tabular{format=alchstats a=\"350 gp\" b=\"-\"}",
 			"",
 			"This small, reddish crystal shard flickers with a brilliant, dancing flame - a representation of the ‹rule/Plane of Fire›.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (350 gp); **Spells** fire spells (M or F)  ",
-			"**Effect** When you use a fire fragment as a material component or focus for a spell that deals fire damage, that spell is affected as per the ‹feat/Flaring Spell› metamagic feat (though this does not increase the spell slot that the spell uses), and you treat your caster level as 1 higher for the purpose of determining the spell's damage. (You cannot use this as a material component and a focus for the same spell.)"
+			"::tabular{format=powercomp a=\"1 (350 gp)\" b=\"fire spells (M or F)\" c=\"When you use a fire fragment as a material component or focus for a spell that deals fire damage, that spell is affected as per the ‹feat/Flaring Spell› metamagic feat (though this does not increase the spell slot that the spell uses), and you treat your caster level as 1 higher for the purpose of determining the spell's damage. (You cannot use this as a material component and a focus for the same spell.)\"}"
 		]
 	},
 	"flash_powder": {
@@ -348,19 +318,17 @@
 			"",
 			"‹SOURCE Adventurer's Armory/27›",
 			"",
-			"**Price** 50 gp; **Weight** -  ",
-			"**Equipment Page:** ‹eq-weapon/Flash Powder›",
+			"::tabular{format=alchstats a=\"50 gp\" b=\"-\" c=\"weapon\" d=\"Flash Powder\"}",
 			"",
 			"Useful as a distraction, flash powder makes light-burst spells more dangerous.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (50 gp); **Spells** ‹spell/flare›, ‹spell/pyrotechnics›  ",
-			"**Effect** Flash powder can be used as a power component in the following ways:",
+			"::tabular{format=powercomp a=\"1 (50 gp)\" b=\"*flare, pyrotechnics*\" c=\"Uses are listed below.\"}",
 			"",
-			"@HL[Flare (M):] Increase the saving throw DC of the spell by 2.",
+			"@hll[spell/Flare] @HL[(M):] Increase the saving throw DC of the spell by 2.",
 			"",
-			"@HL[Pyrotechnics (M):] When used to create fireworks, increase the DC by 1 and the blindness duration by 1 round."
+			"@hll[spell/Pyrotechnics] @HL[(M):] When used to create fireworks, increase the DC by 1 and the blindness duration by 1 round."
 		]
 	},
 	"ginger_extract": {
@@ -371,14 +339,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/25›",
 			"",
-			"**Price** 5 sp; **Weight** -",
+			"::tabular{format=alchstats a=\"5 sp\" b=\"-\"}",
 			"",
 			"In addition to serving as a spice and as an alchemical reagent, ginger extract has a wide variety of uses in herbal remedies that treat nausea and pain.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 10 (5 gp); **Spells** transmutation school (M)  ",
-			"**Effect** +1 caster level for the purpose of overcoming spell resistance"
+			"::tabular{format=powercomp a=\"10 (5 gp)\" b=\"transmutation school (M)\" c=\"+1 caster level for the purpose of overcoming spell resistance\"}"
 		]
 	},
 	"gold": {
@@ -389,15 +356,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/0›",
 			"",
-			"**Price** 5 gp; **Weight** -  ",
-			"**Equipment Page:** ‹eq-material/Gold›",
+			"::tabular{format=alchstats a=\"5 gp\" b=\"-\" c=\"material\" d=\"Gold\"}",
 			"",
 			"In its purest form, gold is a dense, non-reactive metal. Its alchemical products are useful in stains and in treating swelling, pain, and infections.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (5 gp); **Spells** healing subschool (M)  ",
-			"**Effect** +1 hit point healed"
+			"::tabular{format=powercomp a=\"1 (5 gp)\" b=\"healing subschool (M)\" c=\"+1 hit point healed\"}"
 		]
 	},
 	"heavenly_quartz": {
@@ -408,14 +373,13 @@
 			"",
 			"‹SOURCE Plane-Hopper's Handbook/11›",
 			"",
-			"**Price** 250 gp; **Weight** -",
+			"::tabular{format=alchstats a=\"250 gp\" b=\"-\"}",
 			"",
 			"This fragment appears to be made of glass and gold and emits gleaming light, reminiscent of the mountain of ‹rule/Heaven›.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (250 gp); **Spells** good or lawful spells with a Will saving throw (M or F)  ",
-			"**Effect** When you use a Heavenly quartz as a material component or focus for a spell with the good or lawful descriptor that requires affected creatures to attempt a Will saving throw, increase the DC of that saving throw by 1; if the spell has both the good and lawful descriptors, treat the spell's caster level as if it were 1 higher for the purpose of caster level checks and dispel checks. (You cannot use this as a material component and a focus for the same spell.)"
+			"::tabular{format=powercomp a=\"1 (250 gp)\" b=\"good or lawful spells with a Will saving throw (M or F)\" c=\"When you use a Heavenly quartz as a material component or focus for a spell with the good or lawful descriptor that requires affected creatures to attempt a Will saving throw, increase the DC of that saving throw by 1; if the spell has both the good and lawful descriptors, treat the spell's caster level as if it were 1 higher for the purpose of caster level checks and dispel checks. (You cannot use this as a material component and a focus for the same spell.)\"}"
 		]
 	},
 	"itching_powder": {
@@ -426,21 +390,19 @@
 			"",
 			"‹SOURCE Adventurer's Armory/27›",
 			"",
-			"**Price** 60 gp; **Weight** 2 lbs.  ",
-			"**Equipment Page:** ‹eq-weapon/Itching Powder›",
+			"::tabular{format=alchstats a=\"60 gp\" b=\"2 lbs.\" c=\"weapon\" d=\"Itching Powder\"}",
 			"",
 			"This powder can make an otherwise innocuous spell especially irritating.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (60 gp); **Spells** ‹spell/glitterdust›, ‹spell/repel vermin›, ‹spell/summon swarm›  ",
-			"**Effect** Itching powder can be used as a power component in the following ways:",
+			"::tabular{format=powercomp a=\"1 (60 gp)\" b=\"*glitterdust, repel vermin, summon swarm*\" c=\"Uses are listed below.\"}",
 			"",
-			"@HL[Glitterdust (M):] For each packet of itching powder used as a power component, you may designate one creature in the area to be affected by itching powder (DC 12).",
+			"@hll[spell/Glitterdust] @HL[(M):] For each packet of itching powder used as a power component, you may designate one creature in the area to be affected by itching powder (DC 12).",
 			"",
-			"@HL[Repel Vermin (M):] The first vermin that enters the emanation is subject to the effects of itching powder (DC 15). Each packet of itching powder beyond the first means the spell affects another vermin that enters the emanation. A swarm of vermin counts as one vermin for the purpose of this effect.",
+			"@hll[spell/Repel Vermin] @HL[(M):] The first vermin that enters the emanation is subject to the effects of itching powder (DC 15). Each packet of itching powder beyond the first means the spell affects another vermin that enters the emanation. A swarm of vermin counts as one vermin for the purpose of this effect.",
 			"",
-			"@HL[Summon Swarm (M):] Increase the swarm's distraction DC by 2."
+			"@hll[spell/Summon Swarm] @HL[(M):] Increase the swarm's distraction DC by 2."
 		]
 	},
 	"liquid_ice": {
@@ -451,27 +413,25 @@
 			"",
 			"‹SOURCE Adventurer's Armory/27›",
 			"",
-			"**Price** 40 gp; **Weight** 2 lbs.  ",
-			"**Equipment Pages:** ‹eq-weapon/Liquid Ice› (weapon), ‹eq-siegeengine/Liquid Ice› (siege engine ammunition)",
+			"::tabular{format=alchstats a=\"40 gp\" b=\"2 lbs.\" e=\"‹eq-weapon/Liquid Ice› (weapon), ‹eq-siegeengine/Liquid Ice› (siege engine ammunition)\"}",
 			"",
 			"This substance augments cold magic.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (40 gp); **Spells** ‹spell/cone of cold›, ‹spell/gentle repose›, ‹spell/ray of frost›, ‹spell/protection from energy›, ‹spell/resist energy›  ",
-			"**Effect** Liquid ice can be used as a power component in the following ways:",
+			"::tabular{format=powercomp a=\"1 (40 gp)\" b=\"*cone of cold, gentle repose, ray of frost, protection from energy, resist energy*\" c=\"Uses are listed below.\"}",
 			"",
-			"@HL[Cone of Cold (M):] The spell deals +1 point of damage per caster level.",
+			"@hll[spell/Cone of Cold] @HL[(M):] The spell deals +1 point of damage per caster level.",
 			"",
-			"@HL[Gentle Repose (M):] The spell's duration increases to 2 days per level.",
+			"@hll[spell/Gentle Repose] @HL[(M):] The spell's duration increases to 2 days per level.",
 			"",
-			"@HL[Ray of Frost (F):] The spell deals +1 point of damage.",
+			"@hll[spell/Ray of Frost] @HL[(F):] The spell deals +1 point of damage.",
 			"",
-			"@HL[Ray of Frost (M):] The spell creates an icicle of frozen water vapor that strikes the target and deals 1d3 points of piercing damage and 1 point of cold damage.",
+			"@hll[spell/Ray of Frost] @HL[(M):] The spell creates an icicle of frozen water vapor that strikes the target and deals 1d3 points of piercing damage and 1 point of cold damage.",
 			"",
-			"@HL[Protection from Energy (M):] If cast to ward against fire, increase the amount of fire damage absorbed by 5.",
+			"@hll[spell/Protection from Energy] @HL[(M):] If cast to ward against fire, increase the amount of fire damage absorbed by 5.",
 			"",
-			"@HL[Resist Energy (M):] If cast to ward against fire, increase the fire resistance to 12. At caster level 7th, you may use two jars of liquid ice as a power component to increase the fire resistance to 24. At caster level 11th, you may use three jars as a power component to increase the fire resistance to 36."
+			"@hll[spell/Resist Energy] @HL[(M):] If cast to ward against fire, increase the fire resistance to 12. At caster level 7th, you may use two jars of liquid ice as a power component to increase the fire resistance to 24. At caster level 11th, you may use three jars as a power component to increase the fire resistance to 36."
 		]
 	},
 	"magnesium": {
@@ -482,14 +442,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/0›",
 			"",
-			"**Price** 1 gp; **Weight** -",
+			"::tabular{format=alchstats a=\"1 gp\" b=\"-\"}",
 			"",
 			"Magnesium is an extremely light and reactive metal that burns brightly when exposed to air. It is important for all living things, especially plants.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 2 (2 gp); **Spells** transmutation school (M)  ",
-			"**Effect** +1 caster level for the purpose of duration"
+			"::tabular{format=powercomp a=\"2 (2 gp)\" b=\"transmutation school (M)\" c=\"+1 caster level for the purpose of duration\"}"
 		]
 	},
 	"mugwort_extract": {
@@ -500,14 +459,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/25›",
 			"",
-			"**Price** 2 gp; **Weight** -",
+			"::tabular{format=alchstats a=\"2 gp\" b=\"-\"}",
 			"",
 			"Many varieties of mugwort exist; some are used in acupuncture, while others are key ingredients in herbal remedies that ward off fatigue, cold, or even supernatural dangers.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 2 (4 gp); **Spells** abjuration school (M)  ",
-			"**Effect** +1 caster level for the purpose of range"
+			"::tabular{format=powercomp a=\"2 (4 gp)\" b=\"abjuration school (M)\" c=\"+1 caster level for the purpose of range\"}"
 		]
 	},
 	"myrrh": {
@@ -518,14 +476,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/0›",
 			"",
-			"**Price** 5 sp; **Weight** -",
+			"::tabular{format=alchstats a=\"5 sp\" b=\"-\"}",
 			"",
 			"Myrrh is an aromatic gum used as a base for alchemical remedies and as a sticky bonding agent.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 4 (2 gp); **Spells** abjuration school (M)  ",
-			"**Effect** +1 caster level for the purpose of caster level checks and dispel checks"
+			"::tabular{format=powercomp a=\"4 (2 gp)\" b=\"abjuration school (M)\" c=\"+1 caster level for the purpose of caster level checks and dispel checks\"}"
 		]
 	},
 	"odor_stalk": {
@@ -536,21 +493,19 @@
 			"",
 			"‹SOURCE Monster Hunter's Handbook/27›",
 			"",
-			"**Price** 70 gp; **Weight** 1/10 lb.  ",
-			"**Equipment Page:** ‹eq-misc/Odor Stalk›",
+			"::tabular{format=alchstats a=\"70 gp\" b=\"1/10 lb.\" c=\"misc\" d=\"Odor Stalk\"}",
 			"",
 			"These alchemically treated ‹eq-misc/incense› sticks contain pheromones that certain creatures find repellent. Each odor stalk is created to irritate a specific creature type.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (70 gp); **Spells** ‹spell/ghoul touch›, ‹spell/repel vermin›, ‹spell/stinking cloud›  ",
-			"**Effect** Odor stalks can be used as a power component in the following ways:",
+			"::tabular{format=powercomp a=\"1 (70 gp)\" b=\"*ghoul touch, repel vermin, stinking cloud*\" c=\"Uses are listed below.\"}",
 			"",
-			"@HL[Ghoul touch:] The stench only affects creatures of the odor stalk's associated creature type.",
+			"@hll[spell/Ghoul touch:] The stench only affects creatures of the odor stalk's associated creature type.",
 			"",
-			"@HL[Repel vermin:] The spell functions as written, but applies to the odor stalk's associated creature type instead of to vermin. The Will save DC is always 12 when using this component.",
+			"@hll[spell/Repel vermin:] The spell functions as written, but applies to the odor stalk's associated creature type instead of to vermin. The Will save DC is always 12 when using this component.",
 			"",
-			"@HL[Stinking cloud:] The Fortitude save DC increases by 1 for creatures of the odor stalk's prescribed type, but decreases by 1 for all other creature types.",
+			"@hll[spell/Stinking cloud:] The Fortitude save DC increases by 1 for creatures of the odor stalk's prescribed type, but decreases by 1 for all other creature types.",
 			"",
 			">*Note: The original source doesn't state whether the spells use it as a material or focus cost. Consult your GM.*"
 		]
@@ -563,15 +518,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/19›",
 			"",
-			"**Price** 15 gp; **Weight** -  ",
-			"**Equipment Pages:** ‹eq-misc/Pesh› (Black Market item), ‹drug/Pesh› (drug)",
+			"::tabular{format=alchstats a=\"15 gp\" b=\"-\" e=\"‹eq-misc/Pesh› (Black Market item), ‹drug/Pesh› (drug)\"}",
 			"",
 			"When used as an alchemical reagent, refined pesh is often sublimated along with other reagents to create new forms of the famous drug.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (15 gp); **Spells** enchantment school (M)  ",
-			"**Effect** +1 caster level for purpose of duration"
+			"::tabular{format=powercomp a=\"1 (15 gp)\" b=\"enchantment school (M)\" c=\"+1 caster level for purpose of duration\"}"
 		]
 	},
 	"phosphorus": {
@@ -582,14 +535,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/33›",
 			"",
-			"**Price** 2 sp; **Weight** -",
+			"::tabular{format=alchstats a=\"2 sp\" b=\"-\"}",
 			"",
 			"Phosphorus is a highly reactive mineral that glows faintly in air. Vital to all life, it is most commonly used by alchemists to create fertilizers, poisons, soaps, and tindertwigs. It is obtained by processing uric acid or bone ash.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 10 (2 gp); **Spells** light descriptor or teleportation subschool (M)  ",
-			"**Effect** +1 caster level for the purpose of range"
+			"::tabular{format=powercomp a=\"10 (2 gp)\" b=\"light descriptor or teleportation subschool (M)\" c=\"+1 caster level for the purpose of range\"}"
 		]
 	},
 	"quicksilver": {
@@ -600,14 +552,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/33›",
 			"",
-			"**Price** 1 gp; **Weight** -",
+			"::tabular{format=alchstats a=\"1 gp\" b=\"-\"}",
 			"",
 			"Quicksilver is a liquid metal with dangerous mental effects on those who handle it. It is most often distilled from crystalline amalgams such as cinnabar and stored in iron flasks.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 3 (3 gp); **Spells** mind-affecting descriptor (M)  ",
-			"**Effect** +1 caster level for the purpose of duration"
+			"::tabular{format=powercomp a=\"3 (3 gp)\" b=\"mind-affecting descriptor (M)\" c=\"+1 caster level for the purpose of duration\"}"
 		]
 	},
 	"realgar": {
@@ -618,14 +569,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/33›",
 			"",
-			"**Price** 3 gp; **Weight** -",
+			"::tabular{format=alchstats a=\"3 gp\" b=\"-\"}",
 			"",
 			"Realgar, also called ruby of arsenic, is a red crystal useful in creating poisons and medicines. It is commonly purified into ‹eq-poison/arsenic›, a crystalline metal known as the \"king of poisons\" for its popularity among nobles seeking to poison their rivals.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (3 gp); **Spells** poison descriptor (M)  ",
-			"**Effect** +2 DC to identify or neutralize the poison with spells or skills"
+			"::tabular{format=powercomp a=\"1 (3 gp)\" b=\"poison descriptor (M)\" c=\"+2 DC to identify or neutralize the poison with spells or skills\"}"
 		]
 	},
 	"salt": {
@@ -636,14 +586,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/33›",
 			"",
-			"**Price** 5 sp; **Weight** -",
+			"::tabular{format=alchstats a=\"5 sp\" b=\"-\"}",
 			"",
 			"Salt is a vital mineral commodity. It is most commonly used as a desiccant and as a catalyst.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 20 (10 gp); **Spells** necromancy school (M)  ",
-			"**Effect** +1 caster level for the purpose of effect"
+			"::tabular{format=powercomp a=\"20 (10 gp)\" b=\"necromancy school (M)\" c=\"+1 caster level for the purpose of effect\"}"
 		]
 	},
 	"saltpeter": {
@@ -654,14 +603,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/33›",
 			"",
-			"**Price** 3 gp; **Weight** -",
+			"::tabular{format=alchstats a=\"3 gp\" b=\"-\"}",
 			"",
 			"Saltpeter is used to create fertilizers, propellants, fireworks, and preservatives.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (1 gp); **Spells** fire descriptor (M)  ",
-			"**Effect** +1 fire damage"
+			"::tabular{format=powercomp a=\"1 (1 gp)\" b=\"fire descriptor (M)\" c=\"+1 fire damage\"}"
 		]
 	},
 	"silver": {
@@ -672,15 +620,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/33›",
 			"",
-			"**Price** 1 gp; **Weight** -  ",
-			"**Equipment Page:** ‹eq-material/Silver›",
+			"::tabular{format=alchstats a=\"1 gp\" b=\"-\" c=\"material\" d=\"Silver\"}",
 			"",
 			"Silver is a lustrous precious metal used in mirrors, disinfectants, electrics, and illusion-creating magic items.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 10 (10 gp); **Spells** illusion school (M)  ",
-			"**Effect** +1 to DC of Will saves to disbelieve"
+			"::tabular{format=powercomp a=\"10 (10 gp)\" b=\"illusion school (M)\" c=\"+1 to DC of Will saves to disbelieve\"}"
 		]
 	},
 	"smokestick": {
@@ -691,21 +637,19 @@
 			"",
 			"‹SOURCE Adventurer's Armory/27›",
 			"",
-			"**Price** 20 gp; **Weight** 1/2 lb.  ",
-			"**Equipment Page:** ‹eq-misc/Smokestick›",
+			"::tabular{format=alchstats a=\"20 gp\" b=\"1/2 lb.\" c=\"misc\" d=\"Smokestick\"}",
 			"",
 			"These items work best with spells that create clouds or smoke.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (20 gp); **Spells** ‹spell/fog cloud›, ‹spell/obscuring mist›, ‹spell/pyrotechnics›  ",
-			"**Effect** Smokesticks can be used as a power component in the following ways:",
+			"::tabular{format=powercomp a=\"1 (20 gp)\" b=\"*fog cloud, obscuring mist, pyrotechnics*\" c=\"Uses are listed below.\"}",
 			"",
-			"@HL[Fog Cloud (M):] Increase the radius of the cloud by 5 feet.",
+			"@hll[spell/Fog Cloud] @HL[(M):] Increase the radius of the cloud by 5 feet.",
 			"",
-			"@HL[Obscuring Mist (M):] The spell creates a smoky haze instead of mist. This haze cannot be dispersed by fire spells and dissipates naturally after 1 minute.",
+			"@hll[spell/Obscuring Mist] @HL[(M):] The spell creates a smoky haze instead of mist. This haze cannot be dispersed by fire spells and dissipates naturally after 1 minute.",
 			"",
-			"@HL[Pyrotechnics (M):] Increase the radius of the cloud by 5 feet and the duration by 2 rounds."
+			"@hll[spell/Pyrotechnics] @HL[(M):] Increase the radius of the cloud by 5 feet and the duration by 2 rounds."
 		]
 	},
 	"spirit_of_wine": {
@@ -716,14 +660,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/33›",
 			"",
-			"**Price** 5 sp; **Weight** -",
+			"::tabular{format=alchstats a=\"5 sp\" b=\"-\"}",
 			"",
 			"Spirit of wine is purified, alchemically active alcohol commonly used as a fuel or solvent in alchemical items, specialized inks, and perfumes. It is too pure to drink alone, but can be used as a reagent to form tinctures and alchemical drinks.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 6 (3 gp); **Spells** calling and summoning subschools (M)  ",
-			"**Effect** +1 caster level for the purpose of duration"
+			"::tabular{format=powercomp a=\"6 (3 gp)\" b=\"calling and summoning subschools (M)\" c=\"+1 caster level for the purpose of duration\"}"
 		]
 	},
 	"tanglefoot_bag": {
@@ -734,21 +677,19 @@
 			"",
 			"‹SOURCE Adventurer's Armory/27›",
 			"",
-			"**Price** 50 gp; **Weight** 4 lbs.  ",
-			"**Equipment Page:** ‹eq-weapon/Tanglefoot Bag›",
+			"::tabular{format=alchstats a=\"50 gp\" b=\"4 lbs.\" c=\"weapon\" d=\"Tanglefoot Bag\"}",
 			"",
 			"These sticky pouches can make a troublesome spell even worse.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (50 gp); **Spells** ‹spell/black tentacles›, ‹spell/slow›, ‹spell/web›  ",
-			"**Effect** Tanglefoot bags can be used as a power component in the following ways:",
+			"::tabular{format=powercomp a=\"1 (50 gp)\" b=\"*black tentacles, slow, web*\" c=\"Uses are listed below.\"}",
 			"",
-			"@HL[Black Tentacles (M):] For each tanglefoot bag used as a power component, you may reroll the tentacles' grapple check against one creature of your choice.",
+			"@hll[spell/Black Tentacles] @HL[(M):] For each tanglefoot bag used as a power component, you may reroll the tentacles' grapple check against one creature of your choice.",
 			"",
-			"@HL[Slow (M):] For each tanglefoot bag used as a power component, you may designate one slowed creature as being affected by a tanglefoot bag.",
+			"@hll[spell/Slow] @HL[(M):] For each tanglefoot bag used as a power component, you may designate one slowed creature as being affected by a tanglefoot bag.",
 			"",
-			"@HL[Web (M):] Increase the DC of breaking free by making a combat maneuver or Escape Artist check by 1."
+			"@hll[spell/Web] @HL[(M):] Increase the DC of breaking free by making a combat maneuver or Escape Artist check by 1."
 		]
 	},
 	"thunderstone": {
@@ -759,19 +700,17 @@
 			"",
 			"‹SOURCE Adventurer's Armory/27›",
 			"",
-			"**Price** 30 gp; **Weight** 1 lb.  ",
-			"**Equipment Page:** ‹eq-weapon/Thunderstone›",
+			"::tabular{format=alchstats a=\"30 gp\" b=\"1 lb.\" c=\"weapon\" d=\"Thunderstone\"}",
 			"",
 			"While they are effective enough on their own, these stones have useful interactions with some spells.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (30 gp); **Spells** ‹spell/alarm›, ‹spell/glyph of warding›  ",
-			"**Effect** Thunderstones can be used as a power component in the following ways:",
+			"::tabular{format=powercomp a=\"1 (30 gp)\" b=\"*alarm, glyph of warding*\" c=\"Uses are listed below.\"}",
 			"",
-			"@HL[Alarm (M):] If cast as a mental alarm, you may have the spell activate a mental and audible alarm. If cast as an audible alarm, the alarm is as loud as a thunderstone and affects creatures in a 10-foot-radius spread as if a thunderstone had detonated there.",
+			"@hll[spell/Alarm] @HL[(M):] If cast as a mental alarm, you may have the spell activate a mental and audible alarm. If cast as an audible alarm, the alarm is as loud as a thunderstone and affects creatures in a 10-foot-radius spread as if a thunderstone had detonated there.",
 			"",
-			"@HL[Glyph of Warding (M):] Creatures that fail their saves against a blast glyph are also ‹misc/deafened› as if by a thunderstone."
+			"@hll[spell/Glyph of Warding] @HL[(M):] Creatures that fail their saves against a blast glyph are also ‹misc/deafened› as if by a thunderstone."
 		]
 	},
 	"urea": {
@@ -782,14 +721,13 @@
 			"",
 			"‹SOURCE Alchemy Manual/33›",
 			"",
-			"**Price** 5 sp; **Weight** -",
+			"::tabular{format=alchstats a=\"5 sp\" b=\"-\"}",
 			"",
 			"Urea is a highly versatile reagent most commonly used in salves and as a stabilizer for particularly volatile alchemical reactions.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 4 (2 gp); **Spells** cold descriptor (M)  ",
-			"**Effect** +1 caster level for the purpose of the effect"
+			"::tabular{format=powercomp a=\"4 (2 gp)\" b=\"cold descriptor (M)\" c=\"+1 caster level for the purpose of the effect\"}"
 		]
 	},
 	"void_shard": {
@@ -800,14 +738,13 @@
 			"",
 			"‹SOURCE Plane-Hopper's Handbook/11›",
 			"",
-			"**Price** 250 gp; **Weight** -",
+			"::tabular{format=alchstats a=\"250 gp\" b=\"-\"}",
 			"",
 			"This shard seems to absorb the light around it, demonstrating the annihilatory power of the ‹rule/Negative Energy Plane›.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (250 gp); **Spells** necromancy school (M or F)  ",
-			"**Effect** When you use a void crystal as a material component or focus for a spell of the necromancy school, the target takes a -2 penalty on saves against the spell. (You cannot use this as a material component and a focus for the same spell.)"
+			"::tabular{format=powercomp a=\"1 (250 gp)\" b=\"necromancy school (M or F)\" c=\"When you use a void crystal as a material component or focus for a spell of the necromancy school, the target takes a -2 penalty on saves against the spell. (You cannot use this as a material component and a focus for the same spell.)\"}"
 		]
 	},
 	"whimsy_star": {
@@ -818,18 +755,17 @@
 			"",
 			"‹SOURCE Plane-Hopper's Handbook/11›",
 			"",
-			"**Price** 200 gp; **Weight** -",
+			"::tabular{format=alchstats a=\"200 gp\" b=\"-\"}",
 			"",
 			"The shimmering, multicolored whimsy star captures the mutability of ‹rule/the First World›.",
 			"",
-			"### Power Component",
+			"::hl3[rule/alchemical_>Power Component<s]",
 			"",
-			"**Doses** 1 (200 gp); **Spells** any (M or F)  ",
-			"**Effect** When you use a whimsy star as a material component or focus for a spell, roll 1d6 and consult the table below. You can't use magic or other abilities to affect the result of this roll. If a result cannot apply to your spell, then the spell resolves normally. Regardless of the result, the spell slot required to cast the spell doesn't change. (You cannot use this as a material component and a focus for the same spell.)",
+			"::tabular{format=powercomp a=\"1 (200 gp)\" b=\"any (M or F)\" c=\"When you use a whimsy star as a material component or focus for a spell, roll 1d6 and consult the table below. You can't use magic or other abilities to affect the result of this roll. If a result cannot apply to your spell, then the spell resolves normally. Regardless of the result, the spell slot required to cast the spell doesn't change. (You cannot use this as a material component and a focus for the same spell.)\"}",
 			"",
 			"| d6 | Result |",
 			"| --- | --- |",
-			"| 1 | The spell fails and you are dazzled for 1d4 rounds. |",
+			"| 1 | The spell fails and you are ‹misc/dazzled› for 1d4 rounds. |",
 			"| 2 | The spell resolves normally. |",
 			"| 3 | The spell is affected as per the ‹feat/Enlarge Spell› metamagic feat. |",
 			"| 4 | The spell is affected as per the ‹feat/Extend Spell› metamagic feat. |",
