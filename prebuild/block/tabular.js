@@ -20,7 +20,7 @@ const makeTabularBlock = ({marked2, convertEncodedInfo, maybeClear, attrs, logEr
 	// ADD OTHER PROPS
 	//
 	Object.entries(etc).forEach(([prop, value]) => {
-		output.push(`${prop}={<>${marked2.parseInline(convertEncodedInfo(value))}</>}`)
+		output.push(`${prop}={<>${marked2.parseInline(convertEncodedInfo(String(value)))}</>}`)
 	});
 	//
 	// TURN ANY PROPS THAT DON'T NEED TO BE FRAGMENTS INTO SIMPLE STRINGS

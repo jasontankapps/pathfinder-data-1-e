@@ -1,6 +1,7 @@
 import { FC, ReactNode, useContext } from 'react';
 import ScrollContainer from './ScrollContainer';
 import Link from './Link';
+import translateGp from './translateGp';
 import { convertTextToLink } from "./convertLinks";
 import { IdContext } from './contexts';
 
@@ -14,12 +15,15 @@ interface BaseProps {
 	f?: ReactNode
 	g?: ReactNode
 	h?: ReactNode
+	i?: ReactNode
+	j?: ReactNode
 }
-type InfoProps = "a" | "b" | "c" | "d" | "e" | "f" | "g" | "h";
+type InfoProps = "a" | "b" | "c" | "d" | "e" | "f" | "g" | "h" | "i" | "j";
 
 interface FormatProps {
 	required: InfoProps[]
 	formatter: (x: BaseProps) => ReactNode
+	postFormatter?: (x: BaseProps) => ReactNode
 	className?: string
 }
 
@@ -60,7 +64,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 	},
 	alchstats: {
 		required: ["a", "b"],
-		className: "lessRound",
+		className: "lessRound tipOnly flatStart",
 		formatter: (props) => {
 			const {id, a, b, c, d, e} = props;
 			const final = (c && d) ? (
@@ -106,6 +110,73 @@ const FormatObject: { [x: string]: FormatProps } = {
 				</tbody></table>
 			);
 		}
+	},
+	armor: {
+		required: ["a", "b"],
+		className: "tipOnly flatStart",
+		formatter: props => {
+			const {id, a, b, c, d, e} = props;
+			// a b c? (d|e)?
+			//
+			// a = cost in gp
+			// b = weight in lbs
+			// c = boolean-like, indicates the above should be rendered verbatim
+			// d = armor bonus
+			// e = shield bonus
+			return (
+				<table><tbody>
+					<tr>
+						<th id={id + "-cost"} className="hl">Cost</th>
+						<td headers={id + "-cost"}>{c ? a : translateGp(Number(a))}</td>
+						<th id={id + "-weight"} className="hl">Weight</th>
+						<td headers={id + "-weight"}>{
+							// Non-strict equality, on purpose
+							c ? b : `${b} lb${b == 1 ? "" : "s"}.`
+						}</td>
+						{(d || e) ? <>
+								<th id={id + "-bonus"}>{d ? "Armor" : "Shield"} Bonus</th>
+								<td headers={id + "-bonus"} className="hl"><b>+{d || e}</b></td>
+						</> : <></>}
+					</tr>
+				</tbody></table>
+			);
+		},
+		postFormatter: props => {
+			const {d, e, f, g, h, i, j} = props;
+			// ((d|e) f g h (i j)?)?
+			//
+			// d = armor bonus
+			// e = shield bonus
+			// f = max dex bonus (or x)
+			// g = armor check penalty (or x)
+			// h = arcane spell failure chance (without the % sign, or x)
+			// i = speed (3020, 2015, or 1510)
+			// j = category (1 = light, 2 = med, 3 = heavy)
+			if(!(d || e)) {
+				return <></>;
+			}
+			return (
+				<ul>
+					<li><b>Max Dex Bonus:</b> {f === "x" ? <>&mdash;</> : `+${f}`}</li>
+					<li><b>Armor Check Penalty:</b> {g === "x" ? <>&mdash;</> : g}</li>
+					<li><b>Arcane Spell Failure Chance:</b> {h === "x" ? <>&mdash;</> : h}%</li>
+					{(i || j) ? (
+						<>
+							<li><b>Speed:</b> {
+								// Non-strict equality, on purpose
+								i == 3020 ? "30 ft./20 ft." : (
+									i == 2015 ? "20 ft./15 ft." : "15 ft/10 ft."
+								)
+							}</li>
+							<li><b>Category:</b> {
+								// Non-strict equality, on purpose
+								j == 1 ? "Light" : (j == 2 ? "Medium" : "Heavy")
+							} Armor</li>
+						</>
+					) : (<></>)}
+				</ul>
+			);
+		}
 	}
 };
 
@@ -118,14 +189,17 @@ interface TabularProps extends BaseProps {
 const Tabular: FC<TabularProps> = (props) => {
 	const {format, id, ...others} = props;
 	const cId = useContext(IdContext) + "-Tabular-" + format + (id ? "-" + id : "");
-	const {required, formatter, className} = FormatObject[format];
+	const {required, formatter, className, postFormatter} = FormatObject[format];
 	if(!required.every(x => others[x] !== undefined)) {
 		return <p><strong>ERROR &lt;Tabular&gt; element missing required prop(s).</strong></p>;
 	}
 	return (
-		<div className={"sideNoteWrap startAlign noIcon" + (className ? " " + className : "")}><ScrollContainer id={cId + "-scrollcontainer"}>
-			{formatter({...others, id: cId})}
-		</ScrollContainer></div>
+		<div className={"sideNoteWrap startAlign noIcon" + (className ? " " + className : "")}>
+			<ScrollContainer id={cId + "-scrollcontainer"}>
+				{formatter({...others, id: cId})}
+			</ScrollContainer>
+			{postFormatter ? postFormatter({...others, id: cId}) : <></>}
+		</div>
 	);
 };
 

@@ -3,17 +3,28 @@
 div.sideNoteWrap {
 	width: 100%;
 	display: flex;
-	flex-flow: row nowrap;
-	align-items: center;
-	justify-content: flex-end;
+	flex-flow: column nowrap;
+	align-items: flex-end;
+	justify-content: center;
 	--radius: 1.5em;
+	--start-start-radius: var(--radius);
+	--start-end-radius: var(--radius);
+	--end-start-radius: var(--radius);
+	--end-end-radius: var(--radius);
 }
 div.sideNoteWrap.lessRound {
 	--radius: 1em;
 }
+div.sideNoteWrap.tipOnly {
+	--start-start-radius: 0;
+	--end-start-radius: 0;
+}
 div.sideNoteWrap.startAlign {
-	justify-content: flex-start;
+	align-items: flex-start;
 	padding-inline-start: 1rem;
+}
+div.sideNoteWrap.flatStart {
+	padding-inline-start: 0;
 }
 div.sideNoteWrap div.tableWrap {
 	max-inline-size: calc(100% - 1.75rem);
@@ -28,7 +39,10 @@ div.sideNoteWrap + div.sideNoteWrap {
 }
 div.sideNoteWrap table {
 	border-width: var(--half-width);
-	border-radius: var(--radius);
+	border-start-start-radius: var(--start-start-radius);
+	border-start-end-radius: var(--start-end-radius);
+	border-end-start-radius: var(--end-start-radius);
+	border-end-end-radius: var(--end-end-radius);
 }
 div.sideNoteWrap table tbody tr th:not([rowSpan]),
 div.sideNoteWrap.singular table tbody tr th {
@@ -40,14 +54,14 @@ div.sideNoteWrap table tbody tr :is(th, td) {
 }
 div.sideNoteWrap table tr:first-of-type th[rowSpan]:first-child,
 div.sideNoteWrap.singular table tr th:first-child {
-	border-start-start-radius: var(--radius);
-	border-end-start-radius: var(--radius);
+	border-start-start-radius: var(--start-start-radius);
+	border-end-start-radius: var(--end-start-radius);
 }
 div.sideNoteWrap.noIcon table tr:first-of-type th:first-child {
-	border-start-start-radius: var(--radius);
+	border-start-start-radius: var(--start-start-radius);
 }
 div.sideNoteWrap.noIcon table tr:last-of-type th:first-child {
-	border-end-start-radius: var(--radius);
+	border-end-start-radius: var(--end-start-radius);
 }
 div.sideNoteWrap table tr:first-of-type th[rowSpan]:first-child ion-icon {
 	font-size: 1.5rem;
@@ -62,10 +76,10 @@ div.sideNoteWrap.singular table tr th:first-child {
 	line-height: 0.5rem;
 }
 div.sideNoteWrap table tr:first-of-type > *:last-child {
-	border-start-end-radius: var(--radius);
+	border-start-end-radius: var(--start-end-radius);
 }
 div.sideNoteWrap table tr:last-of-type > *:last-child {
-	border-end-end-radius: var(--radius);
+	border-end-end-radius: var(--end-end-radius);
 }
 div.sideNoteWrap table tbody th[scope=row],
 div.sideNoteWrap:not(.singular) table tbody th[id] {
@@ -139,4 +153,14 @@ ion-content#main.noElephant :is(div, blockquote).showIfNoElephant {
 div.sideNoteWrap + div.tableWrap,
 div.table + div.sideNoteWrap {
 	margin-block-start: 1rem;
+}
+
+div.sideNoteWrap > ul > li {
+	font-size: 0.875rem;
+}
+div.sideNoteWrap > ul > li + li {
+	margin-block-start: 0.1rem;
+}
+div.sideNoteWrap > ul {
+	margin-block: 0.5rem;
 }

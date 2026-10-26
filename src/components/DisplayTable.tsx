@@ -25,6 +25,7 @@ import TdRouterLink from './displayTable/TdRouterLink';
 import StoreError from './displayTable/StoreError';
 import DisplayTableFilterModal from './displayTable/DisplayTableFilterModal';
 import { FinderContext, IdContext } from './contexts';
+import translateGp from './translateGp';
 import ScrollContainer from './ScrollContainer';
 
 const FINAL_CHAR = String.fromCodePoint(0x10FFFF);
@@ -41,21 +42,6 @@ const validateSortOrder = (incoming: number[], cols: Column[]) => {
 	return incoming.some(n => n >= max) ? false : incoming;
 };
 
-const translateGp = (gp: number, adjustment: boolean = false): string => {
-	if(gp !== gp) {
-		// NaN;
-		return `[NaN]`;
-	}
-	const sign = adjustment && gp >= 0 ? "+" : "";
-	if(Math.floor(gp) === gp) {
-		return `${sign}${gp.toLocaleString()} gp`;
-	}
-	const sp = gp * 10;
-	if(Math.floor(sp) === sp) {
-		return `${sign}${sp} sp`;
-	}
-	return `${sign}${sp * 10} cp`;
-};
 const findSortValue = (item: RawDatum) => {
 	if(item === null || item === "~~") {
 		return {string: FINAL_CHAR};

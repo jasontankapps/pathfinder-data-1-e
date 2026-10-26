@@ -246,10 +246,13 @@ section[data-footnotes] ol li p {
 }
 
 .hlBlock strong,
-:is(strong,div,th,td).hl,
+:is(strong,div).hl,
 div.sideNoteWrap table.hl > :is(tbody,thead,tfoot) > tr > th:not(.normal),
 :is(strong,span).bigHl {
 	color: var(--ion-color-tertiary);
+}
+:is(th,td).hl {
+	color: var(--ion-color-tertiary) !important;
 }
 
 :is(strong,span).bigHl {
