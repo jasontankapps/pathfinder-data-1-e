@@ -168,7 +168,7 @@
 			"",
 			"If you and the target of the spell move out of range of each other, the spell immediately ends.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"shared_suffering": {
@@ -385,7 +385,7 @@
 			"",
 			"You create a disk of sunlight on one arm. Any creature that strikes you with a melee attack deals normal damage, but also takes 1d6 points of damage + 1 point per caster level. Half of this damage is fire damage and half is holy damage (as the spell ‹spell/flame strike›). An undead creature or a creature particularly vulnerable to light that hits you instead takes 2d6 points of damage +1 point per caster level. Creatures with reach weapons are not subject to this damage if they attack you. The shield provides illumination equivalent to a ‹spell/daylight› spell. You can have only one instance of this spell in effect at a time. It does not stack with similar damaging aura spells such as fire shield or shield of the Dawnflower.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"shield_of_the_dawnflower_greater": {
@@ -730,7 +730,7 @@
 			"",
 			"As message, except the only information you can transmit is that you are a worshiper of Sarenrae. Once notified, the target can reply that he understands your sign. The spell transmits meaning, not sound, and transcends language barriers.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"sign_of_wrath": {
@@ -1018,7 +1018,7 @@
 			"",
 			"This spell grants the target the ability to swim through the air. If the target has a swim speed, it can move through the air at that speed. Otherwise, it must succeed at Swim checks to move as normal. Still air is treated as calm water, light or moderate wind is treated as rough water, strong or severe wind is treated as stormy water, and the target cannot swim through stronger winds. This spell does not grant the ability to breathe air to creatures that normally can't.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"skyshroud": {
@@ -1204,7 +1204,7 @@
 			"",
 			"Drawing upon positive energy, you emulate some of a paladin's power to smite undead. Choose one undead creature as your target. Your melee attacks against that target gain a bonus equal to your Charisma or Wisdom modifier, whichever is higher, on your attack rolls, and a bonus equal to your caster level on damage rolls. Your melee attacks also bypass the target's damage reduction. These bonuses do not stack with the bonuses from a paladin's smite.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"smug_narcissism": {
@@ -1635,7 +1635,7 @@
 			"",
 			":::",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"spawn_ward": {
@@ -1845,7 +1845,7 @@
 			"",
 			"You immediately discover some of the spells that the target knows or has prepared. The number of spells revealed to you is equal to your caster level. The target's lowest-level spells are revealed first - ignoring 0-level spells - in a random order. Once all of the target's 1st-level spells are revealed, the spell begins revealing 2nd-level spells, then 3rd-level spells. This spell does not reveal spells of 4th level or higher, nor does it reveal spell-like abilities or other special abilities. If cast on a creature that is not a spellcaster, that has only 0-level spells or spells of 4th level or higher prepared, that has expended all of its spells, or that has not prepared any spells that day, the spell has no effect.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"spell_immunity": {
@@ -1918,7 +1918,7 @@
 			"",
 			"A whip of cracking magical might appears in your hand, allowing you lash spells from the mind of enemy spellcasters. With a lash of bluish-purple energy, you strip many protective spells and effects from a single creature. If the target of this spell is currently under the effects of any harmless spells or effects, it must succeed at a Will save or all of those spells and effects end, stripping the target of the benefit of those spells. If the target is not currently under the effect of least one harmless spell, the target is instead confused for 1d4 rounds.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"spell_turning": {

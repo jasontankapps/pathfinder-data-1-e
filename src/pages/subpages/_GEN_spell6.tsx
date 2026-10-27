@@ -83,7 +83,8 @@ const _ironbeard = {title: "Ironbeard", jsx: <><h2 id="spell-ironbeard-ironbeard
 const _ironbloom_sprouts = {title: "Ironbloom Sprouts", jsx: <><h2 id="spell-ironbloom_sprouts-ironbloom-sprouts">Ironbloom Sprouts</h2>
 <SpellInfo id="1" source="Pathfinder #62: Curse of the Lady's Light/75" school="trans" clr={1} drd={1} hnt={1} orc={1} war={1} faith="Torag" ct="1 standard action" comp="V, S, M (1 gp worth of powdered iron), DF" rTouch targets="2d4 fresh mushrooms touched" dur="1 day/level" save="none" resist="yes" />
 <p>This spell functions like goodberry, except as noted above and that it transforms 2d4 mushrooms into magical ironbloom mushrooms rather than transforming common berries into magical berries. Alternatively, you may create twice as many mushrooms, but each only has the nourishment ability of a goodberry and not the healing properties.</p>
-<Message spelldeity /></>};
+<Message spelldeitynote />
+</>};
 const _ironskin = {title: "Ironskin", jsx: <><h2 id="spell-ironskin-ironskin">Ironskin</h2>
 <SpellInfo id="1" source="Monster Codex/45" school="trans" descriptors={["earth"]} alc={2} ant={2} bld={2} clr={2} drd={2} hnt={2} inv={2} orc={2} pal={2} psy={2} rgr={2} war={2} wit={2} ct="1 standard action" comp="V, S, M/DF (a pinch of forge soot)" rPers target="you" dur="1 minute/level (d; see text)" />
 <p>Your skin hardens and takes on the color and texture of rough iron. You gain a +4 enhancement bonus to your existing natural armor bonus (if you do not have a natural armor bonus, you are considered to have an effective natural armor bonus of +0). This enhancement bonus increases by 1 for every 4 caster levels above 4th, to a maximum of +7 at 15th level.</p>
@@ -487,14 +488,16 @@ const _light_of_iomedae = {title: "Light of Iomedae", jsx: <><h2 id="spell-light
 const _light_prison = {title: "Light Prison", jsx: <><h2 id="spell-light_prison-light-prison">Light Prison</h2>
 <SpellInfo id="1" source="Inner Sea Gods/236" school="evo" descriptors={["light"]} arc={2} brd={2} clr={2} inq={2} mag={2} orc={2} skd={2} sor={2} war={2} wiz={2} faith="Iomedae" ct="1 standard action" comp="V, S" rClose target="one creature/2 levels" dur="1 round/level (D)" save="Reflex negates" resist="yes" />
 <p>Rays of light burst forth from your outstretched hand, encircling each target's space with a cage of light. If a target fails its Reflex save, it becomes enclosed in the light prison. A creature enclosed in a light prison can attack, cast spells, and otherwise act normally as long as it stays within the light prison. However, if a creature passes through the walls of a light prison enclosing it, it takes 1d6 points of damage and is blinded for 1 round. Creatures do not receive saves to negate these effects. Once a creature passes through the walls of a light prison surrounding it, the effect ends for that creature.</p>
-<Message spelldeity /></>};
+<Message spelldeitynote />
+</>};
 const _lighten_object = {title: "Lighten Object", jsx: <><h2 id="spell-lighten_object-lighten-object">Lighten Object</h2>
 <SpellInfo id="1" source="Inner Sea Gods/236;Faiths of Balance/28" school="trans" arc={1} brd={1} clr={1} mag={1} orc={1} rma={1} skd={1} sor={1} sum={1} usm={1} war={1} wiz={1} faith="Gorum" ct="1 standard action" comp="V, M (goose down)" rClose target="1 object of up to 1 cubic ft./level" dur="1 minute/level" save="Will negates (object)" resist="yes (object)" />
 <p>The target's weight decreases by half. If this spell is cast on armor, the armor's armor check penalty decreases by 1, though its categorization as light, medium, or heavy does not change.</p>
 <h3 id="spell-lighten_object-mass-lighten-object">Mass Lighten Object</h3>
 <SpellInfo id="2" source="Inner Sea Gods/236" school="trans" arc={5} clr={5} mag={5} orc={5} sor={5} sum={5} usm={5} war={5} wiz={5} faith="Gorum" ct="1 standard action" comp="V, M (goose down)" rClose targets="multiple objects totaling up to 1 cubic ft./level, no two of which can be more than 30 ft. apart" dur="10 minutes/level" save="Will negates (object)" resist="yes (object)" />
 <p>This spell functions like lighten object, except that it affects a number of objects equal to half your caster level.</p>
-<Message spelldeity /></>};
+<Message spelldeitynote />
+</>};
 const _lightfingers = {title: "Lightfingers", jsx: <><h2 id="spell-lightfingers-lightfingers">Lightfingers</h2>
 <SpellInfo id="1" source="Blood of the Beast/27" school="trans" psy={1} spr={1} wit={1} ct="1 standard action" comp="V, S" rClose target="one creature" dur="instantaneous" save="none" resist="yes" />
 <blockquote>
@@ -746,7 +749,8 @@ const _longstrider = {title: "Longstrider", jsx: <><h2 id="spell-longstrider-lon
 const _lose_the_trail = {title: "Lose the Trail", jsx: <><h2 id="spell-lose_the_trail-lose-the-trail">Lose the Trail</h2>
 <SpellInfo id="1" source="Inner Sea Gods/236;Faiths of Corruption/28" school="ill" subschools={["glamer"]} ant={2} arc={1} hnt={1} rgr={1} rma={1} sor={1} wiz={1} faith="Norgorber" ct="1 standard action" comp="V, S" rClose targets="one creature/level" dur="1 hour/level (D)" save="Will negates (harmless)" resist="yes (harmless)" />
 <p>The target or targets of this spell can obscure their tracks when fleeing from a pursuer. This increases the DC of any Survival checks made to track the spell's targets by 2 per level of the caster.</p>
-<Message spelldeity /></>};
+<Message spelldeitynote />
+</>};
 const _lost_legacy = {title: "Lost Legacy", jsx: <><h2 id="spell-lost_legacy-lost-legacy">Lost Legacy</h2>
 <SpellInfo id="1" source="Magic Tactics Toolbox/22" school="ench" descriptors={["curse","mind"]} arc={7} brd={6} clr={7} inq={6} occ={6} orc={7} psy={7} skd={6} sor={7} wit={6} wiz={7} ct="1 standard action" comp="V, S, F/DF (a holy symbol of a dead or forgotten deity, or flag of a fallen or forgotten nation)" rTouch target="creature touched" dur="permanent" save="Will negates" resist="yes" />
 <p>You inflict a powerful curse on a touched creature that causes others to quickly forget positive aspects of their interactions with the target. The target cannot attempt a Diplomacy (or <Link to="/ability/wild_empathy">wild empathy</Link> or similar ability) check to improve the attitude of other creatures. Any creature that normally has an attitude of friendly or helpful toward the target must succeed at a Will save at the spell's normal saving throw DC each time it interacts with the target, or its attitude becomes indifferent. Once this curse is removed, creatures coming back into contact with the target regain their pleasant memories of it. If their attitudes toward the target have not been reduced from indifferent, their original attitudes are restored.</p>
@@ -795,7 +799,8 @@ const _mad_sultans_melody = {title: "Mad Sultan's Melody", jsx: <><h2 id="spell-
 const _maddening_oubliette = {title: "Maddening Oubliette", jsx: <><h2 id="spell-maddening_oubliette-maddening-oubliette">Maddening Oubliette</h2>
 <SpellInfo id="1" source="Inner Sea Gods/237" school="conj" subschools={["tele"]} arc={7} clr={7} orc={7} sor={7} wit={7} wiz={7} faith="Zon-Kuthon" ct="1 round" comp="V, S, M (the powdered bones of a creature that died in prison)" rClose target="one creature" dur="special; see text" save="Will negates, see text" resist="yes" />
 <p>The target is transported to a dark and dank prison in some unspecified horrific demiplane, where tentacles writhe around, clawed fingers grab at the creature (though they deal no damage), and harsh, whispering voices speak blasphemies and maddening secrets. At the end of each round within this terrifying oubliette, the target can attempt a Will saving throw in order to escape the prison. The saving throw has a penalty equal to the number of rounds the target has spent in the oubliette (minimum -1 and maximum -5). If the target succeeds at its saving throw, it returns to its former space. If that space is occupied or otherwise unavailable, the target is shunted to the nearest available space. When the target returns from the oubliette, it is confused for a number of rounds equal to the number of rounds of imprisonment (minimum 1), unless it was confined in the oubliette for 10 or more rounds, in which case the target is affected as if it were subject to an insanity spell instead.</p>
-<Message spelldeity /></>};
+<Message spelldeitynote />
+</>};
 const _mage_armor = {title: "Mage Armor", jsx: <><h2 id="spell-mage_armor-mage-armor">Mage Armor</h2>
 <SpellInfo id="1" source="PRPG Core Rulebook/306" school="conj" subschools={["creat"]} descriptors={["force"]} arc={1} bld={1} occ={1} psy={1} sor={1} spr={1} sum={1} usm={1} wit={1} wiz={1} ct="1 standard action" comp="V, S, F (a piece of cured leather)" rTouch target="creature touched" dur="1 hour/level (D)" save="Will negates (harmless)" resist="no" />
 <p>An invisible but tangible field of force surrounds the subject of a mage armor spell, providing a +4 armor bonus to AC.</p>

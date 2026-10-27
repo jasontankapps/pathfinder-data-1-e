@@ -21,7 +21,7 @@
 			"",
 			"This spell functions identically to the spell zone of truth, except as noted above. The target momentarily takes on the semblance of a being of perfect order, like an archon or inevitable, so that all who can see the target know it is affected by the spell. This divine guise flickers over the target for only an instant and does not allow it to pass as a member of a different race.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"abeyance": {
@@ -219,7 +219,7 @@
 			"",
 			"Sometimes Irori smiles on his worshipers, granting them a reprieve from physical hunger. This spell magically enhances a handful of simple food, imbuing it with enough nutrition to satisfy a Medium or smaller creature for a full day. The spell does not create food, and thus will not alone prevent someone from starving, but it can extend even limited reserves for lengthy periods.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"absurdity": {
@@ -2356,7 +2356,7 @@
 			"",
 			"You take on an aspect of a nightingale. Your voice becomes clear and pleasant. You gain a +2 competence bonus on Perform (sing) checks and a +2 competence bonus on Diplomacy checks. Once per minute, if you are subject to a charm effect that allows a saving throw, you may roll twice and take the more favorable result.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"aspect_of_the_stag": {

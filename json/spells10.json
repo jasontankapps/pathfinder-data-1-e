@@ -168,7 +168,7 @@
 			"",
 			"You make the affected subjects ready for battle despite their fear. If a target is suffering from a ‹rule/fear «effect<conditions› of any kind, he gains a +2 morale bonus to Strength and Constitution, a +1 morale bonus on Will saves, and a -2 penalty to AC. If the subject is frightened, he remains in place and gains the ‹rule/awareness>confused» condition<s› for the remainder of the fear effect, except he treats all results of \"attack self\" as \"do nothing\" and treats \"attack nearest creature\" as \"act normally.\" If the subject is panicked, he remains in place and gains the confused condition for the duration of the fear effect.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"swarm_of_fangs": {
@@ -623,7 +623,7 @@
 			"",
 			"This spell functions like ‹spell/shield other›, except some of your wounds transfer to the targeted creature rather than some of their wounds transferring to you. For example, you could link yourself to a nearby chained slave so that when you are wounded, some of the damage is transferred to the slave. You must have at least as many hit dice as the target, otherwise the spell fails. A creature can only be under the effects of one instance of this spell at a time.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"sympathy": {
@@ -860,7 +860,7 @@
 			"",
 			"This spell allows you to tap into the natural beauty of your soul and let it shine from your eyes and your speech. While the spell is active, you gain a +2 insight bonus on all Charisma ability checks and Charisma-based skill checks.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"tar_ball": {
@@ -1977,7 +1977,7 @@
 			"",
 			"This spell causes any existing wounds that the target possesses to bleed profusely. If the creature's current total hit points are less than its maximum, this spell causes the creature to take 1 point of bleed damage each round and become exhausted for the duration of the spell. A successful DC 15 Heal check or any spell that cures hit point damage negates the effects of this spell.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"touch_of_combustion": {
@@ -2229,7 +2229,7 @@
 			"",
 			"You gain a supernatural ability to detect tracks and other clues left behind by the target. You treat the DCs of all Survival checks made to track the target as if they were 5 lower than normal, and you gain a +5 bonus on Perception checks made to notice the target if it is using Stealth or recognize it if it is using Disguise.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"trade_items": {
@@ -2265,7 +2265,7 @@
 			"",
 			"This spell creates an illusory trail in the form of a misty and visible scent coming from the rose used as this spell's material component. When you cast this spell, the scent of the rose leaves a faint pink-tinged illusion that ripples and flows in the area. Only you and up to six creatures you designate upon casting the spell can see the illusion. To designate a creature, you must know it well. It is not enough simply to have met that creature once or heard of the creature. When you move, this illusory scent leaves a trail, though there are no telltale signs of which direction you moved if creatures designated by this spell find a middle section of the trail. This is typically used to create backtracking method for the caster's handpicked allies, useful for navigating in and out of mazes or labyrinthine cave complexes without leaving behind an obvious trail.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"transfer_familiar": {
@@ -2550,7 +2550,7 @@
 			"",
 			"This spell functions like arcane eye, except as noted above. Upon casting this spell, you fall asleep for its duration, creating an invisible magic sensor (called a dreamscryer) that is the exact size and shape of your body, is recognizable as you, and cannot pass through spaces that your body cannot enter. Unlike the invisible sensor created by arcane eye, children of any race (no older than the human equivalent of 10) and animals can see your dreamscryer. Sleeping creatures can sense its presence and might incorporate your image into their dreams. Force effects and abjuration spells that ward out creatures (such as ‹spell/magic circle against evil›) are effective barriers against a dreamscryer (regardless of your creature type, alignment, or other specifics). If you dismiss the spell or the dreamscryer is dispelled or destroyed, you awaken.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"treasure_stitching": {

@@ -9,7 +9,7 @@ const checkForSourceLinks = (desc) => {
 	const th = /^::(?:th|minfo)\[[^\]]+\]\{[^\}]*\bsource="([^"}]+)"[^}]+\}?$/;
 	const sp = /^::(?:spell|minfo)\{[^\}]*\bsource="([^"}]+)"[^}]+\}?$/;
 	desc.forEach(line => {
-		if(line === "::spelldeitynote") {
+		if(line === "::msg-spelldeitynote") {
 			// Spell deity notes have a source link to Inner Sea Gods baked in.
 			found.push("inner_sea_gods");
 			return;

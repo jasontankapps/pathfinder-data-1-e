@@ -305,7 +305,7 @@
 			"",
 			"A 4-foot-long, blazing, forked bolt of electricity springs forth from your hand. You wield this spear-like bolt as if it were a trident (you are considered proficient with the bolt). Attacks with Gozreh's trident are melee touch attacks. The bolt deals 1d8 points of electricity damage + 1 point per 2 caster levels (maximum +10). Since the bolt is immaterial, your Strength modifier does not apply to the damage. The bolt can ignite combustible materials such as parchment, straw, dry sticks, and cloth.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"grace": {
@@ -812,7 +812,7 @@
 			"",
 			"With a single touch, you create temporary hairline fractures in a piece of stone or a creature with the earth subtype. If you cast this spell on a section of stone, you reduce its hardness to 5 and its hit points to 10/inch of thickness. If you cast this spell on a creature with the earth subtype, that creature takes a -2 penalty to AC for the spell's duration. Make whole reverses this spell's effect.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"half_blood_extraction": {
@@ -944,7 +944,7 @@
 			"",
 			"Hammer of mending can fix destroyed magic items (items with 0 hit points or fewer), and restores the magic properties of the item if your caster level is at least twice that of the item. Items with charges (such as wands) and single-use items (such as potions and scrolls) cannot be repaired in this way.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"handy_grapnel": {
@@ -1232,7 +1232,7 @@
 			"",
 			"Multiple haze of dreams effects do not stack, nor does this spell's effect stack with slow.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"heal": {
@@ -2479,7 +2479,7 @@
 			"",
 			"When casting this spell, you designate a type or type and subtype of creature (using the ‹class/ranger«'s› ‹ability/favored enemy› categories) and a type of terrain (using the list of ranger's ‹ability/favored terrain› categories). Targets of the spell gain a +2 sacred bonus on Bluff, Perception, Sense Motive, and Survival checks attempted against creatures of the selected type, and a +2 sacred bonus on attack rolls and damage rolls made against creatures of that type. Furthermore, they gain a +2 sacred bonus on initiative checks, Perception, Stealth, and Survival checks while they are in the type of terrain you designate. Lastly, when tracking the designated creature type in the chosen terrain, the targets can follow the tracks of such creatures untrained, even if the DC for the task is 11 or higher.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"hunters_eye": {
@@ -2708,7 +2708,7 @@
 			"",
 			"You create a suit of armor made of ice. While cold to the touch, it does not harm the wearer, especially if worn over normal clothing (though it can hasten the effects of exposure in cold environments). It offers the same protection as a breastplate, except it has hardness 0 and 30 hit points. If the intended wearer is immersed in water when you cast this spell, you may form the armor around the wearer (who may be you); otherwise the wearer must don the armor normally. Attacks against the wearer that create heat or fire degrade the armor, reducing its armor bonus by 1 for every 5 points of fire damage the wearer takes; when the armor's bonus to AC reaches 0, the armor is destroyed and the spell ends. Because the ice is slightly buoyant, the wearer gains a +2 circumstance bonus on Swim checks, except when swimming downward. Druids can wear ice armor without penalty.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"ice_body": {

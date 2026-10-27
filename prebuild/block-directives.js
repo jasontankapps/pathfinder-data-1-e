@@ -313,18 +313,10 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				const marked2 = makeNewMarkedInstance();
 				flags.spellinfo = true;
 				return makeSpellBlock(marked2, parseSOURCE, convertEncodedInfo, maybeClear, attrs, logError);
-			} else if (n === "spelldeitynote") {
+			} else if (n.startsWith("msg-")) {
 				flags.message = true;
-				return `<Message spelldeity />`;
-			} else if (n === "archetypeDesc") {
-				flags.message = true;
-				return `<Message arch />`;
-			} else if (n === "altCapstoneDesc") {
-				flags.message = true;
-				return `<Message capstone />`;
-			} else if (n === "lesserOrders") {
-				flags.message = true;
-				return `<Message lesserOrders />`;
+				const which = n.slice(4);
+				return `<Message ${which} />\n`;
 			} else if (n === "minfo") {
 				churn(n, attrs, [
 					"clear", "source", "xp", "al", "lg", "ln", "le", "ng", "n", "ne", "cg", "cn", "ce",

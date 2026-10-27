@@ -1104,7 +1104,7 @@
 			"",
 			"For example, at a fancy noble's wedding, a jealous former suitor casts this spell on himself before making a speech. Everyone hears his glowing words of praise, but only his allies hear his secret message instructing them to attack the groom.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"secure_shelter": {
@@ -1137,7 +1137,7 @@
 			"",
 			"You gain a bonus on Charisma-based skill checks equal to 1 + 1 for every 4 caster levels you possess (to a maximum of +5), but only when interacting with those who might conceivably find you sexually attractive. You do not gain this bonus against those you or your allies are attacking or threatening.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"see_alignment": {

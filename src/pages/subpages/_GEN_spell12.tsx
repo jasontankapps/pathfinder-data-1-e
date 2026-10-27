@@ -137,7 +137,8 @@ const _beacon_of_guilt = {title: "Beacon of Guilt", jsx: <><h2 id="spell-beacon_
 const _beacon_of_luck = {title: "Beacon of Luck", jsx: <><h2 id="spell-beacon_of_luck-beacon-of-luck">Beacon of Luck</h2>
 <SpellInfo id="1" source="Inner Sea Gods/229" school="div" brd={3} clr={3} inq={4} orc={3} pal={4} skd={3} war={3} faith="Desna" ct="1 standard action" comp="V, S, M/DF (a tuft of rabbit fur)" r="personal; see text" target="you" dur="1 minute/level (D)" />
 <p>You send out a burst of luck with a 30-foot radius centered around you. While the beacon of luck is in effect, you gain a +2 sacred bonus on all saving throws. As an immediate action before a saving throw is made, allies within the area can choose to benefit from this luck, rolling twice for a saving throw and taking the better result. Once a creature benefits from the beacon of luck in this way, it cannot gain the benefit of this spell for 24 hours.</p>
-<Message spelldeity /></>};
+<Message spelldeitynote />
+</>};
 const _beanstalk = {title: "Beanstalk", jsx: <><h2 id="spell-beanstalk-beanstalk">Beanstalk</h2>
 <SpellInfo id="1" source="Pathfinder #91: Battle of Bloodmarch Hills/70" school="conj" subschools={["creat"]} arc={4} sor={4} sum={4} usm={4} wit={4} wiz={4} ct="1 minute" comp="V, S, M (a small handful of beans)" r="0 ft. (see text)" effect="a 5-foot-radius beanstalk that grows to a height of 50 ft./caster level" dur="24 hours" save="none" resist="no" />
 <p>When casting this spell, you must plant the material components in soil. When you do, at the end of casting, a large beanstalk rises up from the ground. It's strong enough to support Huge or smaller creatures weighing no more than 2,000 pounds total, and has enough handholds and footholds that it can be climbed as if it were knotted rope (Climb DC 5). At the end of the spell's duration, the beanstalk withers and dies at an accelerated rate, leaving nothing more than a pile of compost.</p>

@@ -309,7 +309,8 @@ const _order_of_the_coil_minor_order = {title: "Order of the Coil (Minor Order)"
 <Row><Cell>Reckoning</Cell><Cell>Bite your own flesh</Cell></Row>
 <Row><Cell>Analagous Order</Cell><Cell><Link to="/hkorder/order_of_the_nail">Order of the Nail</Link></Cell></Row></Block>
 <p>Among the smallest Hellknight factions, the Order of the Coil maintains holdings near the Sargavan city of Eleder, from where they viciously seek to tame the tribal natives of the country and put an end to their backward pollution of the outside world. Seeing the efforts of scholars and adventurers - particularly Pathfinders - as spreading a disease of savagery by carrying curios from the jungles into the world beyond, the Coil hunts down and destroys such explorers and artifacts, notorious for ending these perceived corruptions with poison and flames.</p>
-<Message lesserOrders /></>};
+<Message lesserOrders />
+</>};
 const _order_of_the_crux_minor_order = {title: "Order of the Crux (Minor Order)", jsx: <><h2 id="hkorder-order_of_the_crux_minor_order-order-of-the-crux-minor-order">Order of the Crux (Minor Order)</h2>
 <p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 53</Link></p>
 <Block size="minimal">
@@ -322,7 +323,8 @@ const _order_of_the_crux_minor_order = {title: "Order of the Crux (Minor Order)"
 <Row><Cell>Reckoning</Cell><Cell>Strike your femur repeatedly</Cell></Row>
 <Row><Cell>Analagous Order</Cell><Cell>None</Cell></Row></Block>
 <p>One of several bands of mercenaries dubbed Hellknights during the Chelish civil war, the skull-clad Order of the Crux refused to disband after the revolution. Hunted down and destroyed by the <Link to="/hkorder/order_of_the_scourge">Order of the Scourge</Link> in 4663, the butchers were slaughtered and their fortress, Citadel Gheisteno, put to the torch. However, 25 years later, three <Link to="/template/graveknight">graveknights</Link> clad in scarred Hellknight armor rose from the ruin. Calling themselves the Order of the Crux and led by the venomous Lictor Shokneir, the undead triune lurks upon the border of Nidal and Molthune, seemingly biding their time.</p>
-<Message lesserOrders /></>};
+<Message lesserOrders />
+</>};
 const _order_of_the_glyph_minor_order = {title: "Order of the Glyph (Minor Order)", jsx: <><h2 id="hkorder-order_of_the_glyph_minor_order-order-of-the-glyph-minor-order">Order of the Glyph (Minor Order)</h2>
 <p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 53</Link></p>
 <Block size="minimal">
@@ -335,7 +337,8 @@ const _order_of_the_glyph_minor_order = {title: "Order of the Glyph (Minor Order
 <Row><Cell>Reckoning</Cell><Cell>Ingest smoldering ashes</Cell></Row>
 <Row><Cell>Analagous Order</Cell><Cell><Link to="/hkorder/order_of_the_pyre">Order of the Pyre</Link></Cell></Row></Block>
 <p>Unofficial Hellknights unsanctioned by the Council of Lictors, the Order of the Glyph was formed in the aftermath of the Chelish civil war by House Thrune. The order was created in order to safeguard the true history of Cheliax, unaugmented by propaganda and the manipulation of fact. Originally a cult of <Link to="/faith/geryon">Geryon</Link> worshipers, the Order of the Glyph has served to both protect Cheliax's histories and further House Thrune's lies ever since.</p>
-<Message lesserOrders /></>};
+<Message lesserOrders />
+</>};
 const _order_of_the_pike_minor_order = {title: "Order of the Pike (Minor Order)", jsx: <><h2 id="hkorder-order_of_the_pike_minor_order-order-of-the-pike-minor-order">Order of the Pike (Minor Order)</h2>
 <p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 54</Link></p>
 <Block size="minimal">
@@ -348,7 +351,8 @@ const _order_of_the_pike_minor_order = {title: "Order of the Pike (Minor Order)"
 <Row><Cell>Reckoning</Cell><Cell>Run a bone knife over your skin</Cell></Row>
 <Row><Cell>Analagous Order</Cell><Cell><Link to="/hkorder/order_of_the_scourge">Order of the Scourge</Link></Cell></Row></Block>
 <p>This small order of Hellknights operates out of the tower of Citadel Ordeial in northeastern Cheliax, where it organizes expeditions to seek out and slay a variety of monsters. The order was disbanded after the Chelish Civil War, but it was officially reinstated 30 years ago thanks to its members' continued efforts to weed out monsters in the Whisperwood and beyond.</p>
-<Message lesserOrders /></>};
+<Message lesserOrders />
+</>};
 const _order_of_the_scar_minor_order = {title: "Order of the Scar (Minor Order)", jsx: <><h2 id="hkorder-order_of_the_scar_minor_order-order-of-the-scar-minor-order">Order of the Scar (Minor Order)</h2>
 <p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 54</Link></p>
 <Block size="minimal">
@@ -361,7 +365,8 @@ const _order_of_the_scar_minor_order = {title: "Order of the Scar (Minor Order)"
 <Row><Cell>Reckoning</Cell><Cell>Shallowly cut your palm or wrist</Cell></Row>
 <Row><Cell>Analagous Order</Cell><Cell><Link to="/hkorder/order_of_the_chain">Order of the Chain</Link></Cell></Row></Block>
 <p>Created during the Chelish civil war, the Order of the Scar was originally formed to protect King Gaspodar from assassins. After more than 40 prevented assassinations, the order nearly dissolved after a successful attempt. Resurfacing in Taldor, the order now has a reputation as mercenary assassin-hunters skilled at creating safe houses and tracking and slaying assassins, snipers, and poisoners.</p>
-<Message lesserOrders /></>};
+<Message lesserOrders />
+</>};
 const _order_of_the_torrent_minor_order = {title: "Order of the Torrent (Minor Order)", jsx: <><h2 id="hkorder-order_of_the_torrent_minor_order-order-of-the-torrent-minor-order">Order of the Torrent (Minor Order)</h2>
 <p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 55</Link>, <Link to="/source/pathfinder_98_turn_of_the_torrent">Pathfinder #98: Turn of the Torrent pg. 67</Link></p>
 <Block size="minimal">
@@ -374,7 +379,8 @@ const _order_of_the_torrent_minor_order = {title: "Order of the Torrent (Minor O
 <Row><Cell>Reckoning</Cell><Cell>Suffer simulated drowning or extreme holding of the breath</Cell></Row>
 <Row><Cell>Analagous Order</Cell><Cell><Link to="/hkorder/order_of_the_scourge">Order of the Scourge</Link></Cell></Row></Block>
 <p>The Hellknights of the Order of the Torrent were mandated in the wake of the Chelish Civil War after the order's founder, Reya Naulvaneti, rescued the abducted son of Kintargo's then lord-mayor. In honor of this accomplishment, the Order of the Torrent has focused itself on rescuing the abducted. The Order of the Torrent appeals to lawful good Hellknights - they have never knowingly had an evil member among their ranks. The order has diminished in recent years to a historic low of 23 members. Most of them are spread throughout Avistan, where they search for the lost and taken throughout the Inner Sea region, but they also often serve as mercenaries aboard ships in waters sailed by slavers.</p>
-<Message lesserOrders /></>};
+<Message lesserOrders />
+</>};
 const _order_of_the_wall_minor_order = {title: "Order of the Wall (Minor Order)", jsx: <><h2 id="hkorder-order_of_the_wall_minor_order-order-of-the-wall-minor-order">Order of the Wall (Minor Order)</h2>
 <p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 55</Link></p>
 <Block size="minimal">
@@ -387,5 +393,6 @@ const _order_of_the_wall_minor_order = {title: "Order of the Wall (Minor Order)"
 <Row><Cell>Reckoning</Cell><Cell>Repeatedly strike bricks or stone</Cell></Row>
 <Row><Cell>Analagous Order</Cell><Cell><Link to="/hkorder/order_of_the_rack">Order of the Rack</Link></Cell></Row></Block>
 <p>During the Chelish civil war, border troops were withdrawn to defend the warring heartlands. Rather than let the southern edge of Cheliax fall to Rahadoumi, 300 Hellknights of the Chain took over the posts and held the border for 30 years. At the civil wars conclusion, a number of the Hellknights stayed on to protect the border, and now the Order of the Wall is charged with defending the boundaries of civilization.</p>
-<Message lesserOrders /></>};
+<Message lesserOrders />
+</>};
 export default {not_found:_not_found,order_of_the_chain:_order_of_the_chain,order_of_the_gate:_order_of_the_gate,order_of_the_godclaw:_order_of_the_godclaw,order_of_the_nail:_order_of_the_nail,order_of_the_pyre:_order_of_the_pyre,order_of_the_rack:_order_of_the_rack,order_of_the_scourge:_order_of_the_scourge,order_of_the_coil_minor_order:_order_of_the_coil_minor_order,order_of_the_crux_minor_order:_order_of_the_crux_minor_order,order_of_the_glyph_minor_order:_order_of_the_glyph_minor_order,order_of_the_pike_minor_order:_order_of_the_pike_minor_order,order_of_the_scar_minor_order:_order_of_the_scar_minor_order,order_of_the_torrent_minor_order:_order_of_the_torrent_minor_order,order_of_the_wall_minor_order:_order_of_the_wall_minor_order}

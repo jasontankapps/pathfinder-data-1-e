@@ -1270,7 +1270,7 @@
 			"",
 			"*Beacon:* You throw or fire the arrow straight up. When it reaches maximum range or a solid surface (such as the roof of a cave) it explodes in a peal of thunder and forms a forked bolt of electricity resembling Erastil's holy symbol, which lingers for 1 round. The thunder and lightning are as loud and bright as natural thunder and lightning, but they do not harm any nearby creatures.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"deadeyes_lore": {
@@ -1652,7 +1652,7 @@
 			"",
 			"You animate a bone with necromantic energy, giving it the power to float near your body and interpose itself against physical attacks. This gives you damage reduction 5/bludgeoning. Once the bone has prevented a total of 5 points of damage per caster level (maximum 50 points), it is destroyed and the spell is discharged. This spell has no effect if you have damage reduction from another source.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"defensive_grace": {

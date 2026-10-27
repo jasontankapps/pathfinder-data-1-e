@@ -207,7 +207,7 @@ Used to make a simple prerequisites block.
     - `sep` is the string that separates the items in the list, defaulting to "~"
 - `other` is text that will be directly shown
 
-#### ::spelldeitynote
+#### ::msg-spelldeitynote
 
 This inserts a simple aside into a spell.
 

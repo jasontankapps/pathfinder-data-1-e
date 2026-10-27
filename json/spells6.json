@@ -181,7 +181,7 @@
 			"",
 			"This spell functions like goodberry, except as noted above and that it transforms 2d4 mushrooms into magical ironbloom mushrooms rather than transforming common berries into magical berries. Alternatively, you may create twice as many mushrooms, but each only has the nourishment ability of a goodberry and not the healing properties.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"ironskin": {
@@ -1223,7 +1223,7 @@
 			"",
 			"Rays of light burst forth from your outstretched hand, encircling each target's space with a cage of light. If a target fails its Reflex save, it becomes enclosed in the light prison. A creature enclosed in a light prison can attack, cast spells, and otherwise act normally as long as it stays within the light prison. However, if a creature passes through the walls of a light prison enclosing it, it takes 1d6 points of damage and is blinded for 1 round. Creatures do not receive saves to negate these effects. Once a creature passes through the walls of a light prison surrounding it, the effect ends for that creature.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"lighten_object": {
@@ -1245,7 +1245,7 @@
 			"",
 			"This spell functions like lighten object, except that it affects a number of objects equal to half your caster level.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"lighten_object_mass": {
@@ -1911,7 +1911,7 @@
 			"",
 			"The target or targets of this spell can obscure their tracks when fleeing from a pursuer. This increases the DC of any Survival checks made to track the spell's targets by 2 per level of the caster.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"lost_legacy": {
@@ -2045,7 +2045,7 @@
 			"",
 			"The target is transported to a dark and dank prison in some unspecified horrific demiplane, where tentacles writhe around, clawed fingers grab at the creature (though they deal no damage), and harsh, whispering voices speak blasphemies and maddening secrets. At the end of each round within this terrifying oubliette, the target can attempt a Will saving throw in order to escape the prison. The saving throw has a penalty equal to the number of rounds the target has spent in the oubliette (minimum -1 and maximum -5). If the target succeeds at its saving throw, it returns to its former space. If that space is occupied or otherwise unavailable, the target is shunted to the nearest available space. When the target returns from the oubliette, it is confused for a number of rounds equal to the number of rounds of imprisonment (minimum 1), unless it was confined in the oubliette for 10 or more rounds, in which case the target is affected as if it were subject to an insanity spell instead.",
 			"",
-			"::spelldeitynote"
+			"::msg-spelldeitynote"
 		]
 	},
 	"mage_armor": {
