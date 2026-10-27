@@ -122,7 +122,9 @@
 			"‹SOURCE Merchant's Manifest/24›  ",
 			"::tabular{format=armor a=500 b=65}",
 			"",
-			"Named after a ferocious unicorn-tiger hybrid, this suit of ‹eq-armor/scale mail› ‹eq-armor/barding› bears a vicious horn on the forehead plate and metal tiger claws protruding from the poitrel. The armor is heavily reinforced to protect a horse's chest and neck. A horse wearing poh armor gains a gore attack as a secondary ‹umr/natural attack› that deals 1d8 points of damage. Additionally, a horse wearing poh armor deals 2d6 points of damage to any foe it knocks ‹rule/prone› when using an ‹rule/overrun› combat maneuver. Poh armor otherwise functions like barding.",
+			"Named after a ferocious unicorn-tiger hybrid, this suit of ‹eq-armor/scale mail› ‹eq-armor/barding› bears a vicious horn on the forehead plate and metal tiger claws protruding from the poitrel. The armor is heavily reinforced to protect a horse's chest and neck.",
+			"",
+			"@I-melee-boost A horse wearing poh armor gains a gore attack as a secondary ‹umr/natural attack› that deals 1d8 points of damage. Additionally, a horse wearing poh armor deals 2d6 points of damage to any foe it knocks ‹rule/prone› when using an ‹rule/overrun› combat maneuver. Poh armor otherwise functions like barding.",
 			"",
 			"The price and weight listed is for poh armor for a Large mount. Poh armor for a Medium mount costs 250 gp and weighs 35 pounds. Poh armor slows a mount with a base speed of 40 feet to 30 feet, 50 feet to 35 feet, or 60 feet to 40 feet."
 		]
@@ -138,7 +140,9 @@
 			"‹SOURCE Adventurer's Guide/96;Path of the Hellknight/63›  ",
 			"::tabular{format=armor a=varies b=varies c=x}",
 			"",
-			"‹rule/Hellknights› often equip their steeds with armor similar to their own. Typical barding for Hellknight steeds is spiked (the spikes are ornamental, however, and cannot deal damage). Such barding is usually designed to look similar to the armor of the horse's rider, or to look skeletal, fiendish, or similar to a nightmare. Hellknight barding can be made from ‹eq-armor/Hellknight leather›, ‹eq-armor/Hellknight plate›, or ‹eq-armor/Hellknight half-plate›; it costs four times as much and weighs twice as much. Hellknight leather barding slows a mount from 40 feet to 30 feet, from 50 feet to 35 feet, or from 60 feet to 40 feet. Hellknight half-plate barding or Hellknight plate barding also slows a mount, and a mount wearing such armor moves at only triple its normal speed when running instead of quadruple."
+			"‹rule/Hellknights› often equip their steeds with armor similar to their own. Typical barding for Hellknight steeds is spiked (the spikes are ornamental, however, and cannot deal damage). Such barding is usually designed to look similar to the armor of the horse's rider, or to look skeletal, fiendish, or similar to a nightmare.",
+			"",
+			"Hellknight barding can be made from ‹eq-armor/Hellknight leather›, ‹eq-armor/Hellknight plate›, or ‹eq-armor/Hellknight half-plate›; it costs four times as much and weighs twice as much. Hellknight leather barding slows a mount from 40 feet to 30 feet, from 50 feet to 35 feet, or from 60 feet to 40 feet. Hellknight half-plate barding or Hellknight plate barding also slows a mount, and a mount wearing such armor moves at only triple its normal speed when ‹rule/run«ning› instead of quadruple."
 		]
 	},
 	"armored_kilt": {
@@ -152,7 +156,9 @@
 			"‹SOURCE Adventurer's Armory/18;Pathfinder Campaign Setting/211›  ",
 			"::tabular{format=armor a=20 b=10 d=1 f=6 g=0 h=0 i=3020 j=1}",
 			"",
-			"Popular among the Keleshite soldiers of Qadira, the armored kilt is made of a thick cloth skirt with bars of steel hanging down from the waist and a ring of horizontal steel plates just above the hem. An armored kilt can be worn separately as light armor, or it can be added to other suits of light or medium armor. Adding an armored kilt increases a suit of armor's armor bonus by +1, but it lowers the maximum Dex bonus by 1, and increases the armor's weight category (from light to medium and from medium to heavy). Adding an armored kilt to heavy armor does not provide an armor bonus increase."
+			"Popular among the Keleshite soldiers of Qadira, the armored kilt is made of a thick cloth skirt with bars of steel hanging down from the waist and a ring of horizontal steel plates just above the hem.",
+			"",
+			"An armored kilt can be worn separately as light armor, or it can be added to other suits of light or medium armor. Adding an armored kilt increases a suit of armor's armor bonus by +1, but it lowers the maximum Dex bonus by 1, and increases the armor's weight category (from light to medium and from medium to heavy). Adding an armored kilt to heavy armor does not provide an armor bonus increase."
 		]
 	},
 	"haramaki": {
@@ -177,7 +183,11 @@
 			"‹SOURCE Merchant's Manifest/11›  ",
 			"::tabular{format=armor a=45 b=5 d=1 f=8 g=0 h=5 i=3020 j=1}",
 			"",
-			"This armor consists of several sections of curved padding held together by an assembly of leather straps. Meant to be worn during martial arts sparring contests, the armor absorbs blows from training weapons and unarmed strikes. The wearer reduces nonlethal damage caused by physical attacks, including natural attacks, by 2 points of damage. The wearer also ignores the first point of lethal bludgeoning damage from natural attacks."
+			"This armor consists of several sections of curved padding held together by an assembly of leather straps. Meant to be worn during martial arts sparring contests, the armor absorbs blows from training weapons and unarmed strikes.",
+			"",
+			"@I-def The wearer reduces nonlethal damage caused by physical attacks, including natural attacks, by 2 points of damage.",
+			"",
+			"@I-def The wearer also ignores the first point of lethal bludgeoning damage from natural attacks."
 		]
 	},
 	"padded": {
@@ -206,7 +216,9 @@
 			"‹SOURCE Ultimate Equipment/9;Advanced Player's Guide/179›  ",
 			"::tabular{format=armor a=100 b=15 d=1 f=8 g=0 h=10 i=3020 j=1}",
 			"",
-			"This enhanced form of padded armor has internal layers specifically designed to trap arrows, bolts, darts, shuriken, thrown daggers, and other small ranged piercing weapons. When these kinds of weapons strike you, they tend to become snagged in these layers and fail to harm you. Wearing quilted cloth armor gives you DR 3/- against attacks of this kind. The special layers of the armor have no effect on other kinds of weapons."
+			"This enhanced form of ‹eq-armor/padded armor› has internal layers specifically designed to trap arrows, bolts, darts, shuriken, thrown daggers, and other small ranged piercing weapons. When these kinds of weapons strike you, they tend to become snagged in these layers and fail to harm you.",
+			"",
+			"@I-def Wearing quilted cloth armor gives you DR 3/- against small ranged piercing weapons. The special layers of the armor have no effect on other kinds of weapons."
 		]
 	},
 	"reinforced_tunic": {
@@ -217,7 +229,9 @@
 			"‹SOURCE Adventurer's Armory 2/6›  ",
 			"::tabular{format=armor a=1 b=5 d=1 f=5 g=0 h=5 i=3020 j=1}",
 			"",
-			"Sometimes called a leine, this belted tunic has thick cords woven through it that cover vital areas. A reinforced tunic's armor bonus is increased by 2 against attack rolls made to confirm critical hits against the wearer."
+			"Sometimes called a leine, this belted tunic has thick cords woven through it that cover vital areas.",
+			"",
+			"@I-def A reinforced tunic's armor bonus is increased by 2 against attack rolls made to confirm critical hits against the wearer."
 		]
 	},
 	"silken_ceremonial": {
@@ -287,7 +301,11 @@
 			"‹SOURCE Adventurer's Armory 2/6›  ",
 			"::tabular{format=armor a=150 b=8 d=2 f=x g=0 h=x i=3020 j=1}",
 			"",
-			"This set of colorful scarves, is made of heavy silk and reinforced with leather straps. As you move, they flutter and flow, obscuring your shape and protecting against enemy attacks. Varisian dancing scarves provide no benefit while you are standing still. Whenever you move at least 10 feet during your turn, you gain a +2 armor bonus to AC until the beginning of your next turn. Varisian dancing scarves add their enhancement bonus to this armor bonus instead of providing a constant benefit; other magical enhancements (such as ‹magic-enh/light fortification›) apply whether or not you are moving. In addition, Varisian dancing scarves provide a +2 circumstance bonus on Bluff checks made to ‹rule/feint› in combat."
+			"This set of colorful scarves is made of heavy silk and reinforced with leather straps. As you move, they flutter and flow, obscuring your shape and protecting against enemy attacks.",
+			"",
+			"@I-def Varisian dancing scarves provide no benefit while you are standing still. Whenever you move at least 10 feet during your turn, you gain a +2 armor bonus to AC until the beginning of your next turn. Varisian dancing scarves add their enhancement bonus to this armor bonus instead of providing a constant benefit; other magical enhancements (such as ‹magic-enh/light fortification›) apply whether or not you are moving.",
+			"",
+			"@I-boost In addition, Varisian dancing scarves provide a +2 circumstance bonus on Bluff checks made to ‹rule/feint› in combat."
 		]
 	},
 	"hellknight_leather": {
@@ -316,7 +334,9 @@
 			"‹SOURCE Varisia, Birthplace of Legends/14;Rise of the Runelords Player's Guide/11;Curse of the Crimson Throne Player's Guide/13›  ",
 			"::tabular{format=armor a=20 b=18 d=3 f=4 g=\"-1\" h=15 i=3020 j=1}",
 			"",
-			"Made from animal hide and giant lizard scales over a shirt of interwoven cords, these chest and shoulder coverings protect Shoanti riders without restricting their mobility. The wearer of a hide shirt can make a DC 15 Strength check as a standard action. If he succeeds, the armor gains the ‹misc/broken› condition and drops to the ground rather than requiring the usual 1 minute it would take to remove it. The armor must be repaired as though it had taken 8 points of damage before it can be used again; a broken hide shirt grants no bonus to Armor Class."
+			"Made from animal hide and giant lizard scales over a shirt of interwoven cords, these chest and shoulder coverings protect Shoanti riders without restricting their mobility.",
+			"",
+			"::ab[Quick Remove]{icon=power-down standard=\"The wearer of a hide shirt can make a DC 15 Strength check. If he succeeds, the armor gains the ‹misc/broken› condition and drops to the ground rather than requiring the usual 1 minute it would take to ‹rule/remove «it<armor›.\" special=\"The armor must be repaired as though it had taken 8 points of damage before it can be used again; a broken hide shirt grants no bonus to Armor Class.\"}"
 		]
 	},
 	"leaf_armor": {
@@ -332,7 +352,7 @@
 			"‹SOURCE Inner Sea World Guide/291;Adventurer's Armory/18;Gallery of Evil/31;Pathfinder Campaign Setting/211›  ",
 			"::tabular{format=armor a=500 b=20 d=3 f=5 g=0 h=15 i=3020 j=1}",
 			"",
-			"Druidic elves use alchemical compounds to treat special leaves used in crafting armor for their warriors. Leaf armor is always of masterwork quality."
+			"Druidic elves use alchemical compounds to treat special leaves used in crafting armor for their warriors. Leaf armor is always of ‹rule/masterwork<_a› quality."
 		]
 	},
 	"parade": {
@@ -346,7 +366,9 @@
 			"‹SOURCE Ultimate Equipment/9;Adventurer's Armory/5›  ",
 			"::tabular{format=armor a=25 b=20 d=3 f=5 g=\"-1\" h=15 i=3020 j=1}",
 			"",
-			"Most wealthy countries with standing armies have a different uniform for use in showy noncombat situations such as parades, coronation ceremonies, and so on. The appearance of this armor varies by the country of origin and the branch of the military, but still provides some protection in case the soldier needs to fight while in parade dress. For example, one country's parade armor may be a chain shirt, tabard, leather greaves, and a winged helm. If you're wearing a country's parade armor, you gain a +2 circumstance bonus on Diplomacy and Intimidate checks to influence a person from that country. Depending on the country, parade armor may be crafted from leather, metal, or a mixture of both."
+			"Most wealthy countries with standing armies have a different uniform for use in showy noncombat situations such as parades, coronation ceremonies, and so on. The appearance of this armor varies by the country of origin and the branch of the military, but still provides some protection in case the soldier needs to fight while in parade dress. For example, one country's parade armor may be a chain shirt, tabard, leather greaves, and a winged helm. Depending on the country, parade armor may be crafted from leather, metal, or a mixture of both.",
+			"",
+			"@I-boost If you're wearing a country's parade armor, you gain a +2 circumstance bonus on ‹skill/Diplomacy› and ‹skill/Intimidate› checks to influence a person from that country."
 		]
 	},
 	"spider_silk_bodysuit": {
@@ -357,7 +379,9 @@
 			"‹SOURCE Adventurer's Armory 2/6›  ",
 			"::tabular{format=armor a=850 b=4 d=3 f=6 g=\"-1\" h=10 i=3020 j=1}",
 			"",
-			"This exotic form-fitting garment is woven entirely from alchemically treated silk harvested from giant spiders or other arachnid creatures. If you have the ‹race/drow«'s› weapon familiarity racial trait, you treat the spider-silk bodysuit's maximum Dexterity bonus as 2 higher."
+			"This exotic form-fitting garment is woven entirely from alchemically treated silk harvested from giant spiders or other arachnid creatures.",
+			"",
+			"@I-boost If you have the ‹race/drow«'s› weapon familiarity racial trait, you treat the spider-silk bodysuit's maximum Dexterity bonus as 2 higher."
 		]
 	},
 	"studded_leather": {
@@ -386,7 +410,9 @@
 			"‹SOURCE Ultimate Equipment/9;Advanced Player's Guide/179›  ",
 			"::tabular{format=armor a=20 b=25 d=3 f=3 g=\"-1\" h=15 i=3020 j=1}",
 			"",
-			"This suit of leather armor has plates of fire-treated wood sewn over vital areas. Though not as effective as metal armor, it offers better protection than leather alone. Unlike metal armor, the wood is slightly buoyant, and the armor check penalty for swimming in this armor is 0."
+			"This suit of leather armor has plates of fire-treated wood sewn over vital areas. Though not as effective as metal armor, it offers better protection than leather alone.",
+			"",
+			"@I-boost Unlike metal armor, the wood is slightly buoyant, and the armor check penalty for swimming in this armor is 0."
 		]
 	},
 	"wooden_armor": { "redirect": "wooden" },
@@ -415,7 +441,7 @@
 			"‹SOURCE Ultimate Equipment/9;Ultimate Combat/128›  ",
 			"::tabular{format=armor a=60 b=25 d=4 f=3 g=\"-2\" h=20 i=3020 j=1}",
 			"",
-			"Lamellar is a type of armor in which small plates of various types of materials are strung together in parallel rows using fine cord. Lamellar plates can be constructed from lacquered leather, horn, or even stone, though suits of iron and steel are the most common. Lamellar armor can be crafted into various shapes, including partial pieces such as breastplates, greaves, or even entire coats. The properties of specific suits and pieces of lamellar armor are determined by their material."
+			"::msg-lamellar"
 		]
 	},
 	"leather_lamellar": { "redirect": "lamellar_leather" },
@@ -430,7 +456,7 @@
 			"‹SOURCE Ultimate Equipment/9;Advanced Player's Guide/179›  ",
 			"::tabular{format=armor a=50 b=20 d=4 f=3 g=\"-2\" h=20 i=2015 j=2}",
 			"",
-			"This sturdy leather coat is reinforced with metal plates sewn into the lining. An armored coat is more cumbersome than light armor but less effective than most medium armors. The advantage of it is that a person can don it or remove it as a move action (there is no \"don hastily\" option for an armored coat). If worn over other armor, use the better AC bonus and worse value in all other categories; an armored coat has no effect if worn with heavy armor. The only magic effects that apply are those of armor, clothing, or items worn on top."
+			"This sturdy leather coat is reinforced with metal plates sewn into the lining. An armored coat is more cumbersome than light armor but less effective than most medium armors. The advantage of it is that a person can ‹rule/don «it or remove it<armor› as a @HL[move action] (there is no \"don hastily\" option for an armored coat). If worn over other armor, use the better AC bonus and worse value in all other categories; an armored coat has no effect if worn with heavy armor. The only magic effects that apply are those of armor, clothing, or items worn on top."
 		]
 	},
 	"chain_coat": {
@@ -441,7 +467,9 @@
 			"‹SOURCE Adventurer's Armory 2/6›  ",
 			"::tabular{format=armor a=75 b=40 d=4 f=5 g=\"-2\" h=30 i=2015 j=2}",
 			"",
-			"This relatively simple armor consists of heavy chains that wrap around your body and limbs. While it weighs more and provides less protection than other medium armors, it is also less of a hindrance. In addition, if you are wielding a ‹eq-weapon/spiked chain›, you can affix it to one hand. This functions as a ‹eq-armorenh/locked gauntlet›, and if you are proficient with spiked chains, you can treat the spiked chain as a one-handed weapon while it is attached. You can affix a spiked chain to each hand this way, but you can't wear locked gauntlets while wearing a chain coat, and you can't attach any weapon to a chain coat except spiked chains."
+			"This relatively simple armor consists of heavy chains that wrap around your body and limbs. While it weighs more and provides less protection than other medium armors, it is also less of a hindrance.",
+			"",
+			"@I-melee In addition, if you are wielding a ‹eq-weapon/spiked chain›, you can affix it to one hand. This functions as a ‹eq-armorenh/locked gauntlet›, and if you are proficient with spiked chains, you can treat the spiked chain as a one-handed weapon while it is attached. You can affix a spiked chain to each hand this way, but you can't wear locked gauntlets while wearing a chain coat, and you can't attach any weapon to a chain coat except spiked chains."
 		]
 	},
 	"erutaki_coat": {
@@ -452,7 +480,11 @@
 			"‹SOURCE Adventurer's Armory 2/6›  ",
 			"::tabular{format=armor a=80 b=24 d=4 f=3 g=\"-2\" h=20 i=2015 j=2}",
 			"",
-			"Used by the Erutaki human tribes and snowcaster elves native to the arctic tundra of the Crown of the World, this heavy parka is treated as an ‹eq-armor/armored coat›. It provides the benefits of a ‹eq-misc/cold-weather outfit›, and it can be donned or removed as a move action. In addition, the fluffy white fur of the parka blends into arctic landscapes, providing a +2 circumstance bonus on Stealth checks in snowy environments."
+			"Used by the Erutaki human tribes and snowcaster elves native to the arctic tundra of the Crown of the World, this heavy parka is treated as an ‹eq-armor/armored coat›.",
+			"",
+			"@I-def-boost It provides the benefits of a ‹eq-misc/cold-weather outfit›, and it can be donned or removed as a @HL[move action].",
+			"",
+			"@I-def In addition, the fluffy white fur of the parka blends into arctic landscapes, providing a +2 circumstance bonus on ‹skill/Stealth› checks in snowy environments."
 		]
 	},
 	"hide": {
@@ -509,7 +541,7 @@
 			"‹SOURCE Ultimate Equipment/9;Ultimate Combat/128›  ",
 			"::tabular{format=armor a=100 b=30 d=5 f=3 g=\"-4\" h=25 i=2015 j=2}",
 			"",
-			"Lamellar is a type of armor in which small plates of various types of materials are strung together in parallel rows using fine cord. Lamellar plates can be constructed from lacquered leather, horn, or even stone, though suits of iron and steel are the most common. Lamellar armor can be crafted into various shapes, including partial pieces such as breastplates, greaves, or even entire coats. The properties of specific suits and pieces of lamellar armor are determined by their material."
+			"::msg-lamellar"
 		]
 	},
 	"horn_lamellar": { "redirect": "lamellar_horn" },
@@ -538,7 +570,9 @@
 			"‹SOURCE Ultimate Equipment/9;Advanced Player's Guide/179›  ",
 			"::tabular{format=armor a=400 b=25 d=6 f=3 g=\"-4\" h=25 i=2015 j=2}",
 			"",
-			"This breastplate is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for Climb checks and Acrobatics checks made to jump is only -1 (‹rule/masterwork<_a› and ‹eq-material/mithral› versions of this armor reduce this penalty as well as the normal penalty)."
+			"This breastplate is specially crafted in a manner that allows extra maneuverability for some physical activities.",
+			"",
+			"@I-boost The armor check penalty for Climb checks and Acrobatics checks made to jump is only -1 (‹rule/masterwork<_a› and ‹eq-material/mithral› versions of this armor reduce this penalty as well as the normal penalty)."
 		]
 	},
 	"breastplate": {
@@ -580,7 +614,7 @@
 			"‹SOURCE Ultimate Equipment/9;Ultimate Combat/128›  ",
 			"::tabular{format=armor a=125 b=45 d=6 f=2 g=\"-5\" h=30 i=2015 j=2}",
 			"",
-			"This armor consists of four plates harnessed together with leather shoulder straps. Two round plates protect your front and back, while two smaller rectangular plates cover the sides of the torso. Four-mirror armor is worn over chainmail to provide added protection, and comes with a spiked helmet with a chainmail hood."
+			"This armor consists of four plates harnessed together with leather shoulder straps. Two round plates protect your front and back, while two smaller rectangular plates cover the sides of the torso. Four-mirror armor is worn over ‹eq-armor/chainmail› to provide added protection, and comes with a spiked helmet with a chainmail hood."
 		]
 	},
 	"lamellar_steel": {
@@ -594,7 +628,7 @@
 			"‹SOURCE Ultimate Equipment/9;Ultimate Combat/128›  ",
 			"::tabular{format=armor a=150 b=35 d=6 f=3 g=\"-5\" h=25 i=2015 j=2}",
 			"",
-			"Lamellar is a type of armor in which small plates of various types of materials are strung together in parallel rows using fine cord. Lamellar plates can be constructed from lacquered leather, horn, or even stone, though suits of iron and steel are the most common. Lamellar armor can be crafted into various shapes, including partial pieces such as breastplates, greaves, or even entire coats. The properties of specific suits and pieces of lamellar armor are determined by their material."
+			"::msg-lamellar"
 		]
 	},
 	"steel_lamellar": { "redirect": "lamellar_steel" },
@@ -666,7 +700,7 @@
 			"‹SOURCE Ultimate Equipment/9;Ultimate Combat/128›  ",
 			"::tabular{format=armor a=200 b=50 d=7 f=0 g=\"-7\" h=40 i=2015 j=3}",
 			"",
-			"Lamellar is a type of armor in which small plates of various types of materials are strung together in parallel rows using fine cord. Lamellar plates can be constructed from lacquered leather, horn, or even stone, though suits of iron and steel are the most common. Lamellar armor can be crafted into various shapes, including partial pieces such as breastplates, greaves, or even entire coats. The properties of specific suits and pieces of lamellar armor are determined by their material."
+			"::msg-lamellar"
 		]
 	},
 	"iron_lamellar": { "redirect": "lamellar_iron" },
@@ -709,7 +743,11 @@
 			"‹SOURCE Ultimate Equipment/9;Advanced Player's Guide/179›  ",
 			"::tabular{format=armor a=850 b=55 d=8 f=0 g=\"-7\" h=40 i=2015 j=3}",
 			"",
-			"This style of ‹eq-armor/half-plate› is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for ‹skill/Climb› checks and ‹skill/jump»<acrobatics› checks is only -4 (‹rule/masterwork<_a› and ‹eq-material/mithral› versions of this armor reduce this penalty as well as the normal penalty). In addition, unlike with most heavy armors, the wearer can still ‹rule/run› at quadruple speed instead of triple speed."
+			"This style of ‹eq-armor/half-plate› is specially crafted in a manner that allows extra maneuverability for some physical activities.",
+			"",
+			"@I-boost The armor check penalty for ‹skill/Climb› checks and ‹skill/jump»<acrobatics› checks is only -4 (‹rule/masterwork<_a› and ‹eq-material/mithral› versions of this armor reduce this penalty as well as the normal penalty).",
+			"",
+			"@I-boost In addition, unlike with most heavy armors, the wearer can still ‹rule/run› at quadruple speed instead of triple speed."
 		]
 	},
 	"alkenstar_fortress_plate": {
@@ -720,7 +758,11 @@
 			"‹SOURCE Adventurer's Armory 2/6›  ",
 			"::tabular{format=armor a=2100 b=75 d=8 f=0 g=\"-7\" h=40 i=2015 j=3}",
 			"",
-			"This ‹race/dwarf›-forged armor features layers of overlapping plates molded to deflect projectiles - especially those from firearms. Whenever you are the target of a ranged weapon attack that would ignore your armor bonus to AC, you add half the fortress plate's armor bonus (including enhancement bonuses) to your AC against that attack. This benefit does not apply to energy attacks or magical touch attacks such as rays. Because the armor is designed with dwarves in mind, If you have the dwarf's weapon familiarity racial trait, you increase this projectile-only bonus by 1. Fortress plate is incredibly bulky, and its armor category can't be reduced by any effect (including by special materials, such as ‹eq-material/mithral›). Fortress plate includes gauntlets and a helm."
+			"This ‹race/dwarf›-forged armor features layers of overlapping plates molded to deflect projectiles - especially those from firearms. Fortress plate is incredibly bulky, and its armor category can't be reduced by any effect (including by special materials, such as ‹eq-material/mithral›). Fortress plate includes gauntlets and a helm.",
+			"",
+			"@I-def Whenever you are the target of a ranged weapon attack that would ignore your armor bonus to AC, you add half the fortress plate's armor bonus (including enhancement bonuses) to your AC against that attack. This benefit does not apply to energy attacks or magical touch attacks such as rays.",
+			"",
+			"@I-def Because the armor is designed with dwarves in mind, if you have the dwarf's *weapon familiarity* racial trait, you increase this projectile-only bonus by 1."
 		]
 	},
 	"half_plate": {
@@ -748,7 +790,9 @@
 			"‹SOURCE Adventurer's Guide/96;Path of the Hellknight/63›  ",
 			"::tabular{format=armor a=850 b=50 d=8 f=0 g=\"-7\" h=40 i=2015 j=3}",
 			"",
-			"The armor worn by a ‹pclass/Hellknight signifer› is a vestment of armored plates, chain, and dark fabric. It functions as ‹eq-armor/half-plate›, but it can be donned and removed as though it were medium armor. Any spellcaster who wears this armor is treated as if he were wearing Hellknight plate for the purposes of any feats and effects that require one to be wearing Hellknight plate. This armor includes a ‹eq-misc/signifer mask›, though signifer masks can be purchased separately."
+			"The armor worn by a ‹pclass/Hellknight signifer› is a vestment of armored plates, chain, and dark fabric. It functions as ‹eq-armor/half-plate›, but it can be ‹rule/don«ned and removed<_armor› as though it were medium armor.",
+			"",
+			"@I-info Any spellcaster who wears this armor is treated as if he were wearing Hellknight plate for the purposes of any feats and effects that require one to be wearing Hellknight plate. This armor includes a ‹eq-misc/signifer mask›, though signifer masks can be purchased separately."
 		]
 	},
 	"lamellar_stone": {
@@ -762,7 +806,25 @@
 			"‹SOURCE Ultimate Equipment/9;Ultimate Combat/128›  ",
 			"::tabular{format=armor a=500 b=45 d=8 f=0 g=\"-7\" h=40 i=2015 j=3}",
 			"",
-			"Lamellar is a type of armor in which small plates of various types of materials are strung together in parallel rows using fine cord. Lamellar plates can be constructed from lacquered leather, horn, or even stone, though suits of iron and steel are the most common. Lamellar armor can be crafted into various shapes, including partial pieces such as breastplates, greaves, or even entire coats. The properties of specific suits and pieces of lamellar armor are determined by their material."
+			"::msg-lamellar"
+		]
+	},
+	"lamellar": {
+		"name": "Lamellar",
+		"disambiguation": true,
+		"description": [
+			"## Lamellar Armor",
+			"",
+			"::msg-lamellar",
+			"",
+			"\"Lamellar Armor\" can refer to any of these specific armors.",
+			"",
+			"1. ‹eq-armor/lamellar horn›",
+			"2. ‹eq-armor/lamellar iron›",
+			"3. ‹eq-armor/lamellar leather›",
+			"    - Also see ‹eq-armor/lamellar cuirass›",
+			"4. ‹eq-armor/lamellar steel›",
+			"5. ‹eq-armor/lamellar stone›"
 		]
 	},
 	"stone_lamellar": { "redirect": "lamellar_stone" },
@@ -777,7 +839,11 @@
 			"‹SOURCE Ultimate Equipment/9;Ultimate Combat/128›  ",
 			"::tabular{format=armor a=1700 b=45 d=8 f=2 g=\"-6\" h=35 i=2015 j=3}",
 			"",
-			"Worn almost exclusively by highranking samurai, o-yoroi - or \"great armor\" - is a heavy combat armor that consists of various supplementary components that include both plate and lamellar elements. Each suit is crafted for a specific individual and displays the owner's aesthetic. Upon completion, the suit is colored and sealed with a final lacquer finish. The centerpiece of o-yoroi is a cuirass consisting of two parts - a separate reinforcement for the right side called a waidate, and a kikko cuirass. The upper part of the waidate consists of a leather-covered iron plate. The cuirass's leather shoulder straps - called watagami - are likewise armored with metal plates. Affixed to the cuirass are a number of supplementary pieces, including wide lamellar shoulder guards, a kikko sleeve for the shield arm, lacquered iron greaves worn over padded silk leggings, and a groin protector. The signature component of each suit of armor is the tiered kabuto helmet and its accompanying ho-ate mask. Ho-ate masks can be made of hardened leather or metal and are fashioned into fearsome visages such as oni, dragons, or other mythical beings."
+			"Worn almost exclusively by highranking samurai, o-yoroi - or \"great armor\" - is a heavy combat armor that consists of various supplementary components that include both plate and lamellar elements. Each suit is crafted for a specific individual and displays the owner's aesthetic. Upon completion, the suit is colored and sealed with a final lacquer finish.",
+			"",
+			"The centerpiece of o-yoroi is a cuirass consisting of two parts - a separate reinforcement for the right side called a waidate, and a kikko cuirass. The upper part of the waidate consists of a leather-covered iron plate. The cuirass's leather shoulder straps - called watagami - are likewise armored with metal plates. Affixed to the cuirass are a number of supplementary pieces, including wide lamellar shoulder guards, a kikko sleeve for the shield arm, lacquered iron greaves worn over padded silk leggings, and a groin protector.",
+			"",
+			"The signature component of each suit of armor is the tiered kabuto helmet and its accompanying ho-ate mask. Ho-ate masks can be made of hardened leather or metal and are fashioned into fearsome visages such as ‹family/oni›, ‹family/dragon«s›, or other mythical beings."
 		]
 	},
 	"full_plate": {
@@ -791,7 +857,7 @@
 			"‹SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151›  ",
 			"::tabular{format=armor a=1500 b=50 d=9 f=1 g=\"-6\" h=35 i=2015 j=3}",
 			"",
-			"This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost of 200 to 800 (2d4 &times; 100) gold pieces."
+			"This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or \"platemail,\" as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost of 200 to 800 (2d4 &times; 100) gold pieces."
 		]
 	},
 	"gray_maiden_plate": {
@@ -846,7 +912,15 @@
 			"‹SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151›  ",
 			"::tabular{format=armor a=5 b=5 e=1 f=x g=\"-1\" h=5}",
 			"",
-			"This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a -1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you lose the buckler's AC bonus until your next turn. You can cast a spell with somatic components using your shield arm, but you lose the buckler's AC bonus until your next turn. You can't make a ‹misc/shield bash› with a buckler."
+			"This small metal shield is worn strapped to your forearm.",
+			"",
+			"@I-power You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a -1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for ‹rule/fighting with two weapons›.",
+			"",
+			"@I-down In any case, if you use a weapon in your off hand, you lose the buckler's AC bonus until your next turn.",
+			"",
+			"@I-down You can cast a spell with somatic components using your shield arm, but you lose the buckler's AC bonus until your next turn.",
+			"",
+			"You can't make a ‹misc/shield bash› with a buckler."
 		]
 	},
 	"poisoners_buckler": {
@@ -857,7 +931,9 @@
 			"‹SOURCE Heroes from the Fringe/23›  ",
 			"::tabular{format=armor a=1505 b=3 e=1 f=x g=x h=x}",
 			"",
-			"Half-drow make these bucklers to allow for quick application of exactly the right poison in the middle of combat. This ‹eq-material/mithral› ‹eq-armor/buckler› is painted black with three deep grooves running over the surface, each fitted with a slot that can hold a vial of poison. As a move action, the user can swipe a weapon over the surface of the buckler, coating it with a single dose of poison. The buckler can hold 3 doses of poison. If the wearer does not have the ‹ability/poison use› ability, she faces the standard risk of poisoning herself."
+			"Half-drow make these bucklers to allow for quick application of exactly the right poison in the middle of combat. This ‹eq-material/mithral› ‹eq-armor/buckler› is painted black with three deep grooves running over the surface, each fitted with a slot that can hold a vial of poison.",
+			"",
+			"::ab[Apply Poison]{icon=power move=\"The user can swipe a weapon over the surface of the buckler, coating it with a single dose of poison. The buckler can hold 3 doses of poison. If the wearer does not have the ‹ability/poison use› ability, she faces the standard risk of ‹rule/poisoning› herself.\"}"
 		]
 	},
 	"light_shield": {
@@ -876,11 +952,9 @@
 			"5. ‹eq-armor/dwarven war shield›",
 			"6. ‹eq-armor/klar›",
 			"",
-			"@HL[Shield Bash Attacks:] You can bash an opponent with a light shield. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
+			"::msg-lightShield",
 			"",
-			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
-			"**Category** Light; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Close; Tribal"
+			"::tabular{format=weap2 c=s1d2m1d3 d=\"&times&2\" e=x f=B h=light i=M j=\"Close; Tribal\"}"
 		],
 		"disambiguation": true
 	},
@@ -900,13 +974,11 @@
 			"‹SOURCE Ultimate Equipment/9;Varisia, Birthplace of Legends/14;Pathfinder Campaign Setting/211;Curse of the Crimson Throne Player's Guide/13;Rise of the Runelords Player's Guide/11;Inner Sea World Guide/291;Adventurer's Armory/18›  ",
 			"::tabular{format=armor a=12 b=6 e=1 f=x g=\"-1\" h=5}",
 			"",
-			"@HL[Shield Bash Attacks:] You can bash an opponent with a light shield. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
+			"The traditional form of this tribal weapon is a short blade bound to the skull of a large horned lizard, but a skilled smith can craft one entirely out of metal. A traditional klar counts as a ‹eq-armor/light wooden shield› with ‹eq-armorenh/armor spikes›; a metal klar counts as a ‹eq-armor/light steel shield› with armor spikes.",
 			"",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** see text  ",
-			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Blades, Heavy; Close",
+			"::msg-lightShield",
 			"",
-			"The traditional form of this tribal weapon is a short blade bound to the skull of a large horned lizard, but a skilled smith can craft one entirely out of metal. A traditional klar counts as a ‹eq-armor/light wooden shield› with ‹eq-armorenh/armor spikes›; a metal klar counts as a ‹eq-armor/light steel shield› with armor spikes."
+			"::tabular{format=weap2 c=s1d4m1d6 d=\"&times&2\" e=x f=S g=\"see text\" h=one i=M j=\"Heavy Blades; Close\"}"
 		]
 	},
 	"light_steel_shield": {
@@ -922,11 +994,9 @@
 			"",
 			"You strap a light steel shield to your forearm and grip it with your hand. A light steel shield's weight lets you carry other items in that hand, although you cannot use weapons with it. Whether wooden or steel, a light shield offers the same basic protection and attack benefits, though the two varieties respond differently to some spells and effects (such as ‹spell/rusting grasp›). A druid can use a ‹eq-armor/light wooden shield›, but not a light steel shield.",
 			"",
-			"@HL[Shield Bash Attacks:] You can bash an opponent with a light shield. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
+			"::msg-lightShield",
 			"",
-			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
-			"**Category** Light; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Close; Tribal"
+			"::tabular{format=weap2 c=s1d2m1d3 d=\"&times&2\" e=x f=B h=light i=M j=\"Close; Tribal\"}"
 		]
 	},
 	"shield_light_steel": { "redirect": "light_steel_shield" },
@@ -941,13 +1011,13 @@
 			"‹SOURCE Ultimate Equipment/9;Advanced Player's Guide/179›  ",
 			"::tabular{format=armor a=59 b=7 e=1 f=x g=\"-2\" h=5}",
 			"",
-			"This light steel shield is specially crafted with a series of straps to allow a character proficient in shields to ready or stow it on her back quickly and easily. If you have a base attack bonus of +1 or higher, you may don or put away a quickdraw shield as a swift action combined with a regular move. If you have the ‹feat/Two-Weapon Fighting› feat, you can draw a light or one-handed weapon with one hand and a quickdraw shield with the other in the time it would normally take you to draw one weapon. If you have the ‹feat/Quick Draw› feat, you may don or put away a quickdraw shield as a free action.",
+			"This light steel shield is specially crafted with a series of straps to allow a character proficient in shields to ready or stow it on her back quickly and easily.",
 			"",
-			"@HL[Shield Bash Attacks:] You can bash an opponent with a light shield. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
+			"::ab[Quickdraw]{icon=boost prereq=\"Base attack bonus of +1 or higher\" swift=\"You may don or put away a quickdraw shield as a swift action combined with a regular move.\" ability=\"If you have the ‹feat/Two-Weapon Fighting› feat, you can draw a light or one-handed weapon with one hand and a quickdraw shield with the other in the time it would normally take you to draw one weapon.\" free=\"If you have the ‹feat/Quick Draw› feat, you may don or put away a quickdraw shield as a free action.\" order=waf}",
 			"",
-			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
-			"**Category** Light; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Close; Tribal"
+			"::msg-lightShield",
+			"",
+			"::tabular{format=weap2 c=s1d2m1d3 d=\"&times&2\" e=x f=B h=light i=M j=\"Close; Tribal\"}"
 		]
 	},
 	"shield_light_steel_quickdraw": { "redirect": "light_steel_quickdraw_shield" },
@@ -964,11 +1034,9 @@
 			"",
 			"A light wooden shield is essentially the same as a ‹eq-armor/light steel shield›, except it responds differently to some spells and effects (such as ‹spell/rusting grasp›). A druid can use a light wooden shield, but not a light steel shield.",
 			"",
-			"@HL[Shield Bash Attacks:] You can bash an opponent with a light shield. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
+			"::msg-lightShield",
 			"",
-			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
-			"**Category** Light; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Close; Tribal"
+			"::tabular{format=weap2 c=s1d2m1d3 d=\"&times&2\" e=x f=B h=light i=M j=\"Close; Tribal\"}"
 		]
 	},
 	"shield_light_wooden": { "redirect": "light_wooden_shield" },
@@ -985,11 +1053,11 @@
 			"",
 			"A wooden quickdraw shield is essentially the same as a ‹eq-armor/light_>steel quickdraw shield›, except it responds differently to some spells and effects (such as ‹spell/rusting grasp›). A druid can use a light wooden quickdraw shield, but not a steel quickdraw shield.",
 			"",
-			"@HL[Shield Bash Attacks:] You can bash an opponent with a light shield. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
+			"::ab[Quickdraw]{icon=boost prereq=\"Base attack bonus of +1 or higher\" swift=\"You may don or put away a quickdraw shield as a swift action combined with a regular move.\" ability=\"If you have the ‹feat/Two-Weapon Fighting› feat, you can draw a light or one-handed weapon with one hand and a quickdraw shield with the other in the time it would normally take you to draw one weapon.\" free=\"If you have the ‹feat/Quick Draw› feat, you may don or put away a quickdraw shield as a free action.\" order=waf}",
 			"",
-			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
-			"**Category** Light; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Close; Tribal"
+			"::msg-lightShield",
+			"",
+			"::tabular{format=weap2 c=s1d2m1d3 d=\"&times&2\" e=x f=B h=light i=M j=\"Close; Tribal\"}"
 		]
 	},
 	"shield_light_wooden_quickdraw": { "redirect": "light_wooden_quickdraw_shield" },
@@ -1005,13 +1073,20 @@
 			"‹SOURCE Ultimate Equipment/9;Adventurer's Armory/5;Legacy of Fire Player's Guide/22›  ",
 			"::tabular{format=armor a=40 b=5 e=1 f=x g=\"-2\" h=5}",
 			"",
-			"The madu is a round, light leather shield with two animal horns - usually from an antelope - extending from opposite edges of the shield. If you are proficient with the madu, you may use it to ‹misc/fight defensively› with a -2 penalty instead of the normal -4, and your attack penalty for using ‹feat/Combat Expertise› improves by +1 (minimum -1 penalty). You cannot hold anything else in the hand that bears a madu. If you are not proficient with the madu, treat it as a ‹eq-armor/light<_wooden> shield› with ‹eq-armorenh/shield_>spikes›. A madu can't be disarmed. While traditional madus are crafted from leather and animal horn, they can be made entirely out of metal. Whether leather or steel, a madu offers the same basic protection and attack benefits, though the two varieties respond differently to some spells and effects (such as ‹spell/rusting grasp›). A druid can use a leather madu, but not a ‹eq-armor/steel madu›.",
+			"The madu is a round, light leather shield with two animal horns - usually from an antelope - extending from opposite edges of the shield.",
 			"",
-			"@HL[Shield Bash Attacks:] You can bash an opponent with a light shield. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
+			"While traditional madus are crafted from leather and animal horn, they can be made entirely out of metal. Whether leather or steel, a madu offers the same basic protection and attack benefits, though the two varieties respond differently to some spells and effects (such as ‹spell/rusting grasp›). A druid can use a leather madu, but not a ‹eq-armor/steel madu›.",
 			"",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** ‹misc/performance›  ",
-			"**Category** Light; **Proficiency** Exotic  ",
-			"**‹ability/Weapon Group<s›** Blades, Light; Close"
+			"@I-boost If you are proficient with the madu, you may use it to ‹misc/fight defensively› with a -2 penalty instead of the normal -4, and your attack penalty for using ‹feat/Combat Expertise› improves by +1 (minimum -1 penalty).",
+			"",
+			"You cannot hold anything else in the hand that bears a madu. If you are not proficient with the madu, treat it as a ‹eq-armor/light<_wooden> shield› with ‹eq-armorenh/shield_>spikes›.",
+			"",
+			"@I-def A madu can't be disarmed.",
+			"",
+			"::clear",
+			"::msg-lightShield",
+			"",
+			"::tabular{format=weap2 c=s1d3m1d4 d=\"&times&2\" e=x f=P g=\"‹misc/performance›\" h=light i=E j=\"Light Blades; Close\"}"
 		]
 	},
 	"leather_madu": { "redirect": "madu_shield_leather" },
@@ -1027,13 +1102,20 @@
 			"‹SOURCE Ultimate Equipment/9;Legacy of Fire Player's Guide/22;Adventurer's Armory/5›  ",
 			"::tabular{format=armor a=50 b=6 e=1 f=x g=\"-2\" h=5}",
 			"",
-			"The madu is a round, light leather shield with two animal horns - usually from an antelope - extending from opposite edges of the shield. If you are proficient with the madu, you may use it to ‹misc/fight defensively› with a -2 penalty instead of the normal -4, and your attack penalty for using ‹feat/Combat Expertise› improves by +1 (minimum -1 penalty). You cannot hold anything else in the hand that bears a madu. If you are not proficient with the madu, treat it as a ‹eq-armor/light<_steel> shield› with ‹eq-armorenh/shield_>spikes›. A madu can't be disarmed. While traditional madus are crafted from leather and animal horn, they can be made entirely out of metal. Whether leather or steel, a madu offers the same basic protection and attack benefits, though the two varieties respond differently to some spells and effects (such as ‹spell/rusting grasp›). A druid can use a ‹eq-armor/leather madu›, but not a steel madu.",
+			"The madu is a round, light leather shield with two animal horns - usually from an antelope - extending from opposite edges of the shield.",
 			"",
-			"@HL[Shield Bash Attacks:] You can bash an opponent with a light shield. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
+			"While traditional madus are crafted from leather and animal horn, they can be made entirely out of metal. Whether leather or steel, a madu offers the same basic protection and attack benefits, though the two varieties respond differently to some spells and effects (such as ‹spell/rusting grasp›). A druid can use a leather madu, but not a ‹eq-armor/steel madu›.",
 			"",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** ‹misc/performance›  ",
-			"**Category** Light; **Proficiency** Exotic  ",
-			"**‹ability/Weapon Group<s›** Blades, Light; Close"
+			"@I-boost If you are proficient with the madu, you may use it to ‹misc/fight defensively› with a -2 penalty instead of the normal -4, and your attack penalty for using ‹feat/Combat Expertise› improves by +1 (minimum -1 penalty).",
+			"",
+			"You cannot hold anything else in the hand that bears a madu. If you are not proficient with the madu, treat it as a ‹eq-armor/light<_steel> shield› with ‹eq-armorenh/shield_>spikes›.",
+			"",
+			"@I-def A madu can't be disarmed.",
+			"",
+			"::clear",
+			"::msg-lightShield",
+			"",
+			"::tabular{format=weap2 c=s1d3m1d4 d=\"&times&2\" e=x f=P g=\"‹misc/performance›\" h=light i=E j=\"Light Blades; Close\"}"
 		]
 	},
 	"steel_madu": { "redirect": "madu_shield_steel" },
@@ -1045,13 +1127,15 @@
 			"‹SOURCE Adventurer's Armory 2/6›  ",
 			"::tabular{format=armor a=50 b=8 e=1 f=x g=\"-1\" h=20}",
 			"",
-			"This shield's sides are cut into jagged angles and honed to razor sharpness. Dwarven skirmishers often wield these shields in pairs, savagely hacking opponents to pieces, while some dwarven scoundrels enjoy the shields' imposing appearance and ease of use. If you have the ‹feat/Two-Weapon Fighting› feat and are wielding two dwarven war-shields, increase the higher of the two shield bonuses by 1. You lose this benefit for 1 round when you make a shield bash with one or both dwarven war-shields (unless you have the ‹feat/Improved Shield Bash› feat or a similar benefit). A hand holding a dwarven warshield can't be used for anything else. A dwarven war-shield gains no benefit from ‹eq-armorenh/shield spikes›.",
+			"This shield's sides are cut into jagged angles and honed to razor sharpness. Dwarven skirmishers often wield these shields in pairs, savagely hacking opponents to pieces, while some dwarven scoundrels enjoy the shields' imposing appearance and ease of use.",
 			"",
-			"@HL[Shield Bash Attacks:] You can bash an opponent with a light shield. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
+			"@I-def If you have the ‹feat/Two-Weapon Fighting› feat and are wielding two dwarven war-shields, increase the higher of the two shield bonuses by 1. You lose this benefit for 1 round when you make a shield bash with one or both dwarven war-shields (unless you have the ‹feat/Improved Shield Bash› feat or a similar benefit).",
 			"",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** see text  ",
-			"**Category** Light; **Proficiency** Exotic  ",
-			"**‹ability/Weapon Group<s›** Close"
+			"@I-down A hand holding a dwarven warshield can't be used for anything else. A dwarven war-shield gains no benefit from ‹eq-armorenh/shield spikes›.",
+			"",
+			"::msg-lightShield",
+			"",
+			"::tabular{format=weap2 c=s1d4m1d6 d=\"&times&2\" e=x f=\"P or S\" g=\"see text\" h=light i=E j=Close}"
 		]
 	},
 	"dwarven_war_shield": { "redirect": "war_shield_dwarven" },
@@ -1067,11 +1151,9 @@
 			"3. ‹eq-armor/wooden snarlshield›",
 			"4. ‹eq-armor/steel snarlshield›",
 			"",
-			"@HL[Shield Bash Attacks:] You can bash an opponent with a heavy shield. Used this way, a heavy shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a heavy shield as a one-handed weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
+			"::msg-heavyShield",
 			"",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
-			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Close; Tribal"
+			"::tabular{format=weap2 c=s1d3m1d4 d=\"&times&2\" e=x f=B h=one i=M j=\"Close; Tribal\"}"
 		],
 		"disambiguation": true
 	},
@@ -1088,11 +1170,9 @@
 			"",
 			"You strap a heavy steel shield to your forearm and grip it with your hand. A heavy steel shield is so heavy that you can't use your shield hand for anything else. Whether wooden or steel, a heavy shield offers the same basic protection and attack benefits, though the two versions respond differently to some spells and effects (such as ‹spell/rusting grasp›). A druid can use a ‹eq-armor/heavy wooden shield›, but not a heavy steel shield.",
 			"",
-			"@HL[Shield Bash Attacks:] You can bash an opponent with a heavy shield. Used this way, a heavy shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a heavy shield as a one-handed weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
+			"::msg-heavyShield",
 			"",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
-			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Close; Tribal"
+			"::tabular{format=weap2 c=s1d3m1d4 d=\"&times&2\" e=x f=B h=one i=M j=\"Close; Tribal\"}"
 		]
 	},
 	"shield_heavy_steel": { "redirect": "heavy_steel_shield" },
@@ -1109,11 +1189,9 @@
 			"",
 			"A heavy wooden shield is essentially the same as a ‹eq-armor/heavy steel shield›, except that it responds differently to some spells and effects (such as ‹spell/rusting grasp›). A druid can use a heavy wooden shield, but not a heavy steel shield.",
 			"",
-			"@HL[Shield Bash Attacks:] You can bash an opponent with a heavy shield. Used this way, a heavy shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a heavy shield as a one-handed weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
+			"::msg-heavyShield",
 			"",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
-			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Close; Tribal"
+			"::tabular{format=weap2 c=s1d3m1d4 d=\"&times&2\" e=x f=B h=one i=M j=\"Close; Tribal\"}"
 		]
 	},
 	"shield_heavy_wooden": { "redirect": "heavy_wooden_shield" },
@@ -1130,11 +1208,9 @@
 			"",
 			"The snarlshield is a heavy shield that features a dozen rods protruding from its surface. When used as a weapon to bash an opponent, a snarlshield has the ‹misc/disarm› quality.",
 			"",
-			"@HL[Shield Bash Attacks:] You can bash an opponent with a heavy shield. Used this way, a heavy shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a heavy shield as a one-handed weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
+			"::msg-heavyShield",
 			"",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
-			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**‹ability/Weapon Group<s›** Close"
+			"::tabular{format=weap2 c=s1d3m1d4 d=\"&times&2\" e=x f=B g=\"‹misc/disarm›\" h=one i=E j=Close}"
 		]
 	},
 	"steel_snarlshield": { "redirect": "snarlshield_steel" },
@@ -1151,11 +1227,9 @@
 			"",
 			"The snarlshield is a heavy shield that features a dozen rods protruding from its surface. When used as a weapon to bash an opponent, a snarlshield has the ‹misc/disarm› quality.",
 			"",
-			"@HL[Shield Bash Attacks:] You can bash an opponent with a heavy shield. Used this way, a heavy shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a heavy shield as a one-handed weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
+			"::msg-heavyShield",
 			"",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
-			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**‹ability/Weapon Group<s›** Close"
+			"::tabular{format=weap2 c=s1d3m1d4 d=\"&times&2\" e=x f=B g=\"‹misc/disarm›\" h=one i=E j=Close}"
 		]
 	},
 	"wooden_snarlshield": { "redirect": "snarlshield_wooden" },
@@ -1170,9 +1244,11 @@
 			"‹SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151›  ",
 			"::tabular{format=armor a=30 b=45 e=4 f=2 g=\"-10\" h=50}",
 			"",
-			"This massive wooden shield is nearly as tall as its user. In most situations, it provides the indicated shield bonus to your AC. As a standard action, however, you can use a tower shield to grant you ‹rule/total »cover› until the beginning of your next turn. When using a tower shield in this way, you must choose one edge of your space. That edge is treated as a solid wall for attacks targeting you only. You gain total cover for attacks that pass through this edge and no cover for attacks that do not pass through this edge (see ‹rule/cover›). The shield does not, however, provide cover against targeted spells; a spellcaster can cast a spell on you by targeting the shield you are holding. You cannot bash with a tower shield, nor can you use your shield hand for anything else.",
+			"This massive wooden shield is nearly as tall as its user.",
 			"",
-			"When employing a tower shield in combat, you take a -2 penalty on attack rolls because of the shield's encumbrance."
+			"@I-def-down In most situations, it provides the indicated shield bonus to your AC. As a @HL[standard action], however, you can use a tower shield to grant you ‹rule/total »cover› until the beginning of your next turn. When using a tower shield in this way, you must choose one edge of your space. That edge is treated as a solid wall for attacks targeting you only. You gain total cover for attacks that pass through this edge and no cover for attacks that do not pass through this edge (see ‹rule/cover›). The shield does not, however, provide cover against targeted spells; a spellcaster can cast a spell on you by targeting the shield you are holding.",
+			"",
+			"@I-down You cannot bash with a tower shield, nor can you use your shield hand for anything else. When employing a tower shield in combat, you take a -2 penalty on attack rolls because of the shield's encumbrance."
 		]
 	},
 	"living_steel_heavy_shield": {
@@ -1184,7 +1260,9 @@
 			"‹SOURCE Ultimate Equipment/132›  ",
 			"::tabular{format=armor a=30 b=15 e=2 f=x g=\"-2\" h=15}",
 			"",
-			"This nonmagical ‹eq-armor/heavy steel shield› is made out of ‹eq-material/living steel›. It has no enhancement bonus, but its material and construction can damage metal weapons that strike it. Whenever the wielder of a metal weapon (other than one made of adamantine) rolls a natural 1 on an attack against a creature wielding this shield, the item must make a DC 20 Fortitude save or gain the ‹misc/broken› condition. If the weapon already has the broken condition, it is instead destroyed."
+			"This nonmagical ‹eq-armor/heavy steel shield› is made out of ‹eq-material/living steel›. It has no enhancement bonus, but its material and construction can damage metal weapons that strike it.",
+			"",
+			"@I-lower Whenever the wielder of a metal weapon (other than one made of adamantine) rolls a natural 1 on an attack against a creature wielding this shield, the item must make a DC 20 Fortitude save or gain the ‹misc/broken› condition. If the weapon already has the broken condition, it is instead destroyed."
 		]
 	},
 	"shield_heavy_living_steel": { "redirect": "living_steel_heavy_shield" },

@@ -3867,6 +3867,7 @@
 		]
 	},
 	"toxin": { "redirect": "poison" },
+	"poisoning": { "redirect": "poison" },
 	"blindsight_and_blindsense": {
 		"name": "Blindsight and Blindsense",
 		"sources": [ "PRPG Core Rulebook" ],

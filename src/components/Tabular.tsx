@@ -177,6 +177,75 @@ const FormatObject: { [x: string]: FormatProps } = {
 				</ul>
 			);
 		}
+	},
+	weap2: {
+		required: ["c","d","e","f","h","i"],
+		formatter: props => {
+			const {id, a, c, d, e, f} = props;
+			// a = if present and true, this is already in a table
+			//
+			// c = damage (s[dmg]m[dmg] format or plain text)
+			// d = critical
+			// e = range (x = none)
+			// f = damage type
+			let damage = c;
+			const m = String(c).match(/^s(.+?)m(.+?)$/);
+			if(m) {
+				damage = m[1] + " (small), " + m[2] + " (medium)";
+			}
+			const core = (<>
+				<tr>
+					<th id={id + "-dmg"} className="hl">Damage</th>
+					<td headers={id + "-dmg"}>{damage}</td>
+					<th id={id + "-crit"} className="hl">Critical</th>
+					<td headers={id + "-crit"}>{d}</td>
+				</tr>
+				<tr>
+					<th id={id + "-range"} className={e === "x" ? undefined : "hl"}>Range</th>
+					<td headers={id + "-type"}>{e === "x" ? <>&mdash;</> : e}</td>
+					<th id={id + "-type"}>Dmg Type</th>
+					<td headers={id + "-type"}>{f}</td>
+				</tr>
+			</>);
+			return a ? core : (
+				<table><tbody>
+					{core}
+				</tbody></table>
+			);
+		},
+		postFormatter: props => {
+			const {g, h, i, j} = props;
+			// g = special (ignored if not present)
+			// h = category (light, one, two, ammo, alch, ?)
+			// i = proficiency (S, M, E, ?)
+			// j = weapon groups (ignored if not present)
+			return (
+				<ul>
+					{ g ? <li><b>Special Qualities:</b> {g}</li> : <></> }
+					<li><b>Weapon Category:</b> {
+						h === "one" ? "One-Handed" : (
+							h === "two" ? "Two-Handed" : (
+								h === "light" ? "Light" : (
+									h === "ammo" ? "Ammunition" : (
+										h === "alch" ? "Alchemical Weapon" : h
+									)
+								)
+							)
+						)
+					}</li>
+					<li><b>Proficiency Type:</b> {
+						i === "E" ? "Exotic" : (
+							i === "M" ? "Martial" : (
+								i === "S" ? "Simple" : i
+							)
+						)
+					}</li>
+					{j ? (
+						<li><b><Link to="/ability/weapon_groups">Fighter Weapon Groups</Link></b> {j}</li>
+					) : (<></>)}
+				</ul>
+			);
+		}
 	}
 };
 

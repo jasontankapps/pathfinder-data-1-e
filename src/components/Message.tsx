@@ -6,10 +6,16 @@ interface MessageProps {
 	altCapstoneDesc?: boolean
 	archetypeDesc?: boolean
 	lesserOrders?: boolean
+	lamellar?: boolean
+	lightShield?: boolean
+	heavyShield?: boolean
 }
 
 const Message: FC<MessageProps> = (props) => {
-	const {spelldeitynote, altCapstoneDesc, archetypeDesc, lesserOrders} = props;
+	const {
+		spelldeitynote, altCapstoneDesc, archetypeDesc,
+		lesserOrders, lamellar, lightShield, heavyShield
+	} = props;
 	if(spelldeitynote) {
 		return <aside>Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- <Link to="/source/inner_sea_gods">Inner Sea Gods pg. 228</Link></aside>;
 	} else if (altCapstoneDesc) {
@@ -25,6 +31,16 @@ const Message: FC<MessageProps> = (props) => {
 			<p>Lesser Hellknight orders usually consist of only a few dozen members. Some are long-lived remnant groups that the major orders have sanctioned. Others are offshoots of the larger orders. Still others are pretenders; they are Hellknights in name only, but consider themselves no less legitimate than any of the other orders. Regardless of their status, lesser orders are not represented in the Council of Lictors unless their leaders are specifically invited to attend, usually to serve a specific advisory or other tertiary role in the gathering. However, despite all of this, the Hellknights of major orders do not look down upon members of minor orders - after all, doing so would show a lack of emotional discipline - but neither do they go out of their way to aid them, as they might assist members of major orders. The Hellknights of major orders often closely watch the members of minor orders, holding them accountable not just for crimes but for deeds that might tarnish the Hellknight name.</p>
 			<p>Each entry notes the major order to which it is most similar. This analogous order does not necessarily share any special relationship with the lesser order, but players who wish to create a character who is a member of a lesser order should look to the corresponding order to fill in specifics that these summaries don't detail, such as the boons accessible through the <Link to="/feat/hellknight_obedience">Hellknight Obedience</Link> feat.</p>
 		</>;
+	} else if (lamellar) {
+		return (
+			<p><Link to="/eq-armor/lamellar">Lamellar</Link> is a type of armor in which small plates of various types of materials are strung together in parallel rows using fine cord. Lamellar plates can be constructed from lacquered leather, horn, or even stone, though suits of iron and steel are the most common. Lamellar armor can be crafted into various shapes, including partial pieces such as breastplates, greaves, or even entire coats. The properties of specific suits and pieces of lamellar armor are determined by their material.</p>
+		);
+	} else if (lightShield || heavyShield) {
+		const size = lightShield ? "light" : "heavy";
+		const type = lightShield ? "light" : "one-handed";
+		return (
+			<p><strong className="hl">Shield Bash Attacks:</strong> You can bash an opponent with a {size} shield. Used this way, a {size} shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a {size} shield as a {type} weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.</p>
+		);
 	}
 	return (
 		<p>MISSING MESSAGE</p>
