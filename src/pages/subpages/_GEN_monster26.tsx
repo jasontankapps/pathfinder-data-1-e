@@ -6,6 +6,7 @@ import Offense from '../../components/monsters/Offense';
 import SpellBlock from '../../components/monsters/SpellBlock';
 import Stats from '../../components/monsters/Stats';
 import Ecology from '../../components/monsters/Ecology';
+import DrugInfo from '../../components/DrugInfo';
 import AffInfo from '../../components/AfflictionInfo';
 const _alraune = {title: "Alraune", jsx: <><p><em>An attractive green-skinned woman sits in the depths of this enormous, sweet-smelling flower.</em></p>
 <Header full><span>Alraune</span><span>CR 13</span></Header>
@@ -1016,8 +1017,7 @@ const _avernus_razorback = {title: "Avernus Razorback", jsx: <><p><em>The coarse
 <p><strong>Avernus Razorback Blood:</strong> The fresh blood of the Avernus razorback seems to keep some of the strange soul energies of the digested for a period of time. As long as a razorback has feasted on a sentient creature within the last month, it can be slaughtered and its blood harvested in place of a blood sacrifice of a sentient and even innocent creature, for up to 1 week after the slaughter occurs.</p>
 <p><strong>Avernus Razorback Tusks:</strong> The tusks of the largest razorback can be fashioned into vicious daggers, and count as 151 gp worth of raw materials needed in the creation of a masterwork dagger. A successful DC 26 Craft (weapons) check and 1d3 days of work are required to create a masterwork dagger from such a tusk.</p>
 <p><strong>Avernus Razorback Meat:</strong> Though it may seem strange given the beasts' diverse, often disgusting, and sometimes morbid eating habits, the meat of the Avernus razorback is a delicacy craved throughout Cheliax, especially in Egorian. Connoisseurs of the infernal flesh say that you can taste the hate of the beast, which adds to its delectable flavor. Not only that, the meat acts as a mild narcotic. See the rules on <Link to="/rule/drugs_and_addiction">drugs and addiction</Link>.</p>
-<Header sub>Avernus Razorback Meat</Header>
-<p><strong>Type</strong> ingested; <strong>Addiction</strong> minor, Fortitude DC 18 Price 100 gp; <strong>Effects</strong> 1 hour; +1 alchemical bonus to Strength and Constitution Damage 1d4 Wisdom damage</p>
+<DrugInfo addict="minor" dc={18} gp={100} type="Ingested" eff1="1 hour; +1 alchemical bonus to Strength and Constitution" dmg={["1d4 Wis"]}>Avernus Razorback Meat</DrugInfo>
 </>};
 const _axe_beak = {title: "Axe Beak", jsx: <><p><em>This stout flightless bird stands upon two long, taloned legs, but it is its axe-shaped beak that looks the most ferocious.</em></p>
 <Header full><span>Axe Beak</span><span>CR 2</span></Header>

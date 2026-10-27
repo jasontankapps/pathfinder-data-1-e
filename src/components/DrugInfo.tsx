@@ -3,6 +3,7 @@ import { PropsWithChildren, FC, useContext, ReactNode } from 'react';
 import { IdContext } from './contexts';
 import Link, { ThLink } from './Link';
 import ScrollContainer from './ScrollContainer';
+import translateGp from './translateGp';
 
 interface DrugInfoProps {
 	start?: boolean
@@ -18,17 +19,7 @@ interface DrugInfoProps {
 export const DrugInfo: FC<PropsWithChildren<DrugInfoProps>> = (props) => {
 	const {start, children, type, addict, dc, gp, eff1, eff2, dmg} = props;
 	const id = useContext(IdContext);
-	let cost = "";
-	if(Math.floor(gp) === gp) {
-		cost = `${gp} gp`;
-	} else {
-		const sp = gp * 10;
-		if (Math.floor(sp) === sp) {
-			cost = `${sp} sp`;
-		} else {
-			cost = `${sp * 10} cp`;
-		}
-	}
+	const cost: ReactNode = gp ? translateGp(Number(gp)) : <>&mdash;</>;
 	const damage = [...dmg];
 	const last = damage.pop()!;
 	let damageLine = "";

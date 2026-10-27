@@ -2201,9 +2201,7 @@
 			"",
 			"**Avernus Razorback Meat:** Though it may seem strange given the beasts' diverse, often disgusting, and sometimes morbid eating habits, the meat of the Avernus razorback is a delicacy craved throughout Cheliax, especially in Egorian. Connoisseurs of the infernal flesh say that you can taste the hate of the beast, which adds to its delectable flavor. Not only that, the meat acts as a mild narcotic. See the rules on ‹rule/drugs and addiction›.",
 			"",
-			"::sh[Avernus Razorback Meat]",
-			"",
-			"**Type** ingested; **Addiction** minor, Fortitude DC 18 Price 100 gp; **Effects** 1 hour; +1 alchemical bonus to Strength and Constitution Damage 1d4 Wisdom damage"
+			"::drug[Avernus Razorback Meat]{type=Ingested minor dc=18 price=100 eff1=\"1 hour; +1 alchemical bonus to Strength and Constitution\" dmgWis=\"1d4\"}"
 		]
 	},
 	"axe_beak": {

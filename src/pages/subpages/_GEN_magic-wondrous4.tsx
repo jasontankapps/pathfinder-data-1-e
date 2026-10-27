@@ -1,6 +1,7 @@
 import Link from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import DrugInfo from '../../components/DrugInfo';
 const _aegis_of_recovery = {title: "Aegis of Recovery", jsx: <><h2 id="magic-wondrous-aegis_of_recovery-aegis-of-recovery">Aegis of Recovery</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 254</Link>, <Link to="/source/rival_guide">Rival Guide pg. 5</Link><br/><strong>Aura</strong> faint (normal) or moderate (greater) abjuration and conjuration; <strong>CL</strong> 3rd (normal), 9th (greater)<br/><strong>Slot</strong> neck; <strong>Price</strong> 1,500 gp (normal), 3,750 gp (greater); <strong>Weight</strong> -</p>
 <p>An <strong className="hl">aegis of recovery</strong> grants its wearer a +2 resistance bonus on all saving throws made to recover from a continuing effect, such as ongoing poison damage, daily saving throws against a disease, a <Link to="/spell/hold_person">hold person</Link> spell, or lingering damage from an attack. This bonus does not help against initial saving throws against such effects. Should the wearer ever drop below 0 hit points, the <em>aegis</em> heals the wearer for 2d8+3 points of damage and then crumbles to dust.</p>
@@ -66,10 +67,7 @@ const _amulet_of_elemental_strife = {title: "Amulet of Elemental Strife", jsx: <
 const _amulet_of_euphoric_healing = {title: "Amulet of Euphoric Healing", jsx: <><h2 id="magic-wondrous-amulet_of_euphoric_healing-amulet-of-euphoric-healing">Amulet of Euphoric Healing</h2>
 <p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption pg. 30</Link><br/><strong>Aura</strong> faint enchantment; <strong>CL</strong> 3rd<br/><strong>Slot</strong> neck; <strong>Price</strong> 12,000 gp; <strong>Weight</strong> 1 lb.</p>
 <p>These glass amulets hold bubbling red liquid and often feature a religion's or deity's holy symbol, most commonly that of <Link to="/faith/asmodeus">Asmodeus</Link> or <Link to="/faith/zon_kuthon">Zon-Kuthon</Link>. While worn, the amulet tinges the user's healing magic with a wash of ecstasy that acts as a magical <Link to="/rule/drugs">drug</Link>, making the recipient of the magical healing susceptible to mental manipulation by the wearer. Anytime the wearer casts a healing spell or uses a spell-like ability on a single target, the recipient of the magical healing additionally must succeed at a DC 13 Fortitude save or become addicted to the wearer's healing spells. The wearer can suppress this effect by shielding the amulet from view with a hand or held item as a free action. The drug has the following statistics.</p>
-<blockquote>
-<h3 id="magic-wondrous-amulet_of_euphoric_healing-euphoric-healing">Euphoric Healing</h3>
-<p><strong>Type</strong> spell <strong>Addiction</strong> minor, Fortitude DC 13 <strong>Effect</strong> 24 hours, -2 penalty against all mind-affecting spells cast by the amulet's wearer <strong>Damage</strong> 1 <Link to="/rule/wis_damage">Wis damage</Link></p>
-</blockquote>
+<DrugInfo addict="minor" dc={13} gp={0} type="spell" eff1="24 hours, -2 penalty against all mind-affecting spells cast by the amulet's wearer" dmg={["1 Wis"]}>Euphoric Healing</DrugInfo>
 <h3 id="magic-wondrous-amulet_of_euphoric_healing-construction">Construction</h3>
 <p><strong>Requirements</strong> <Link to="/feat/craft_wondrous_item">Craft Wondrous Item</Link>, <Link to="/spell/cure_light_wounds">cure light wounds</Link>, <Link to="/spell/enthrall">enthrall</Link>; <strong>Cost</strong> 6,000 gp</p>
 </>};
