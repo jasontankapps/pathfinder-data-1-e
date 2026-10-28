@@ -4,6 +4,7 @@
 		"subtopics": [
 			"bar_fights",
 			"black_markets",
+			"channel_foci",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -39,6 +40,7 @@
 		"siblings": [
 			"bar_fights",
 			"black_markets",
+			"channel_foci",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -215,6 +217,7 @@
 		"siblings": [
 			"bar_fights",
 			"black_markets",
+			"channel_foci",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -1229,6 +1232,50 @@
 			"criminal_downtime_activities"
 		]
 	},
+	"channel_foci": {
+		"name": "Channel Foci",
+		"tags": "channel focus",
+		"sources": [ "Adventurer's Armory" ],
+		"description": [
+			"‹SOURCE Adventurer's Armory/24›",
+			"",
+			"‹eq-misc/Holy symbol«s› (and unholy symbols) represent a covenant between the mortal and the divine. They allow the most pious to call forth the power of the gods themselves. Whether used to smite enemies of the devout or to offer succor to the faithful, holy symbols erase all doubt that the gods have a plan for their mortal children. A channel focus is a garment or other object that incorporates a holy or unholy symbol, and has a special power when a member of that symbol's religion channels energy through it.",
+			"",
+			"@I-power Activating a focus is identical to ‹ability/channel«ing» energy›, but instead of directing the power outward, the cleric (or other appropriate character) directs it into the focus, expending one use of channel energy. This triggers the item's ability; the channel does not have any of its normal effects (for example, a cleric channeling positive energy through her focus would not heal living creatures or harm undead in the area). The cleric must wear or hold the focus, as appropriate. She can still use *channel energy* in the normal way, even while wearing or holding a channel focus.",
+			"",
+			"@I-aura An activated channel focus radiates faint conjuration (positive energy) or necromancy magic (negative energy). An unactivated focus is completely nonmagical; it is a channel for the magical positive or negative energy, but has no magic of its own.",
+			"",
+			"Because a focus includes the holy symbol of a specific religion, in most cases a cleric cannot activate the focus of another faith (though your GM may rule that a member of an allied church can activate another religion's focus). A cleric whose deity allows positive or negative channeling may use either type to activate a focus, though some foci may have different effects depending on what kind of energy activates them. The cleric can use the focus as a holy symbol (whether activated or not), though if it is a worn item rather than a held item she must touch the item with a free hand.",
+			"",
+			"Most channel foci can be found with the ‹main/miscellaneous »equipment<_misc›, except for the ‹eq-armorenh/sanctified shield› (armor enhancement) and ‹eq-weaponenh/consecrated weapon› (weapon enhancement). Some foci can only be used by worshippers of certain deities; this will be noted in their description."
+		],
+		"subtopics": [
+			"consulting_a_guide",
+			"improving_skill_checks",
+			"format_and_gm_tips"
+		],
+		"siblings": [
+			"bar_fights",
+			"black_markets",
+			"channel_foci",
+			"dungeon_guides",
+			"firearms",
+			"foraging",
+			"harvesting_poisons",
+			"herbalism",
+			"idols",
+			"infernal_contracts",
+			"leadership",
+			"pathfinder_chronicles",
+			"pei_zin_herbalism",
+			"salvaging",
+			"siege_engines_uc",
+			"spontaneous_alchemy",
+			"vehicles"
+		],
+		"parent_topics": [ "specific_rulesets" ]
+	},
+	"channel_focus": { "redirect": "channel_foci" },
 	"dungeon_guides": {
 		"name": "Dungeon Guides",
 		"sources": [ "Dungeoneer's Handbook" ],
@@ -1249,6 +1296,7 @@
 		"siblings": [
 			"bar_fights",
 			"black_markets",
+			"channel_foci",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -1380,6 +1428,7 @@
 		"siblings": [
 			"bar_fights",
 			"black_markets",
+			"channel_foci",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -1571,6 +1620,7 @@
 		"siblings": [
 			"bar_fights",
 			"black_markets",
+			"channel_foci",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -1616,6 +1666,7 @@
 		"siblings": [
 			"bar_fights",
 			"black_markets",
+			"channel_foci",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -1696,6 +1747,7 @@
 		"siblings": [
 			"bar_fights",
 			"black_markets",
+			"channel_foci",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -1736,6 +1788,7 @@
 		"siblings": [
 			"bar_fights",
 			"black_markets",
+			"channel_foci",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -1959,6 +2012,7 @@
 		"siblings": [
 			"bar_fights",
 			"black_markets",
+			"channel_foci",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -2295,6 +2349,7 @@
 		"siblings": [
 			"bar_fights",
 			"black_markets",
+			"channel_foci",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
