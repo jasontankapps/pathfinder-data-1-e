@@ -23,6 +23,7 @@ type InfoProps = "a" | "b" | "c" | "d" | "e" | "f" | "g" | "h" | "i" | "j" | "k"
 
 interface FormatProps {
 	required: InfoProps[]
+	possiblyRequired?: InfoProps[]
 	formatter: (x: BaseProps) => ReactNode
 	postFormatter?: (x: BaseProps) => ReactNode
 	className?: string
@@ -121,18 +122,23 @@ const FormatObject: { [x: string]: FormatProps } = {
 			//
 			// a = cost in gp
 			// b = weight in lbs
-			// c = boolean-like, indicates the above should be rendered verbatim
+			// c = 'x' indicates the above should be rendered verbatim,
+			//     'M' indicates this is a modification to a base price
 			// d = armor bonus
 			// e = shield bonus
+			const verbatim = c === "x";
+			const mod = c === "M";
+			const nB = Number(b) || 0;
 			return (
 				<table><tbody>
 					<tr>
-						<th id={id + "-cost"} className="hl">Cost</th>
-						<td headers={id + "-cost"}>{c ? a : translateGp(Number(a))}</td>
+						<th id={id + "-cost"} className="hl">Price</th>
+						<td headers={id + "-cost"}>{verbatim ? a : translateGp(Number(a), mod)}</td>
 						<th id={id + "-weight"} className="hl">Weight</th>
 						<td headers={id + "-weight"}>{
-							// Non-strict equality, on purpose
-							c ? b : `${b} lb${b == 1 ? "" : "s"}.`
+							verbatim ? b : (
+								nB === nB ? `${nB.toLocaleString()} lb${nB === 1 ? "" : "s"}.` : <>&mdash;</>
+							)
 						}</td>
 						{(d || e) ? <>
 								<th id={id + "-bonus"}>{d ? "Armor" : "Shield"} Bonus</th>
@@ -177,6 +183,52 @@ const FormatObject: { [x: string]: FormatProps } = {
 					) : (<></>)}
 				</ul>
 			);
+		}
+	},
+	weap1: {
+		required: ["a", "b"],
+		possiblyRequired: ["d","e","f","g","i","j"],
+		formatter: props => {
+			const {id, a, b, c, d} = props;
+			// a = cost in gp
+			// b = weight in lbs
+			// c = 'x' indicates the above should be rendered verbatim,
+			//     'M' indicates this is a modification to a base price
+			// d..k - if present, we add in weap2
+			const verbatim = c === "x";
+			const price = Number(a) || 0;
+			const weight = Number(b) || 0;
+			const mod = c === "M";
+			return (
+				<table><tbody>
+					<tr>
+						<th id={id + "-cost"} className="hl">Price</th>
+						<td headers={id + "-cost"}>{
+							verbatim ? a : translateGp(price, mod)
+						}</td>
+						<th id={id + "-weight"} className="hl">Weight</th>
+						<td headers={id + "-weight"}>{
+							verbatim ? b : (
+								weight === weight ? (
+									(mod && weight >= 0 ? "+" : "")
+									+ weight.toLocaleString()
+									+ " lb"
+									+ (weight === 1 ? "" : "s")
+									+ "."
+								) : <>&mdash;</>
+							)
+						}</td>
+					</tr>
+					{ d ? FormatObject.weap2.formatter(props) : <></> }
+				</tbody></table>
+			);
+		},
+		postFormatter: props => {
+			// Pass to weap2 if needed
+			if(props.i !== undefined) {
+				return FormatObject.weap2.postFormatter!(props);
+			}
+			return <></>;
 		}
 	},
 	weap2: {
@@ -259,8 +311,16 @@ interface TabularProps extends BaseProps {
 const Tabular: FC<TabularProps> = (props) => {
 	const {format, id, ...others} = props;
 	const cId = useContext(IdContext) + "-Tabular-" + format + (id ? "-" + id : "");
-	const {required, formatter, className, postFormatter} = FormatObject[format];
-	if(!required.every(x => others[x] !== undefined)) {
+	const {required, possiblyRequired, formatter, className, postFormatter} = FormatObject[format];
+	if(
+		!required.every(x => others[x] !== undefined)
+		|| (
+			possiblyRequired && !(
+				possiblyRequired.every(x => others[x] !== undefined)
+				|| possiblyRequired.every(x => others[x] === undefined)
+			)
+		)
+	) {
 		return <p><strong>ERROR &lt;Tabular&gt; element missing required prop(s).</strong></p>;
 	}
 	return (
