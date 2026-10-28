@@ -60,7 +60,8 @@
 		"description": [
 			"## Absinthe",
 			"‹SOURCE Ultimate Equipment/95›  ",
-			"**Price** 30 gp (bottle), 3 gp (glass); **Weight** 1-1/2 lbs. (bottle), - (glass)",
+			"**Price** 30 gp (bottle), 3 gp (glass); **Weight** 1-1/2 lbs. (bottle), - (glass)  ",
+			"**Category** Food/Drink",
 			"",
 			"This green alcoholic drink, made from wormwood, is rumored to enhance creativity, which makes it a favored beverage of artists and eccentrics."
 		]
@@ -329,7 +330,8 @@
 		"description": [
 			"## Alchemical pheromones",
 			"‹SOURCE Ultimate Wilderness/245;Dirty Tactics Toolbox/20›  ",
-			"**Price** 150 gp (aggression), 300 gp (arousal), 1 gp (simple), 300 gp (susceptibility); **Weight** - (aggression), - (arousal), - (simple), - (susceptibility)",
+			"**Price** 150 gp (aggression), 300 gp (arousal), 1 gp (simple), 300 gp (susceptibility); **Weight** - (aggression), - (arousal), - (simple), - (susceptibility)  ",
+			"**Category** Alchemical Tools",
 			"",
 			"Alchemical pheromones are variously colored liquids typically stored in glass vials. These pheromones combine the natural scent of an animal (such as a wolf), humanoid (such as a human), magical beast (such as a unicorn), or vermin (such as a centipede) with alchemical reagents that enhance and refine that scent, making the concoction potent enough to modify the behavior of a creature. A dose of alchemical pheromones must be created for the animal, magical beast, or vermin type or for a single subtype of humanoid; it typically affects only creatures of that type or subtype. The effects of the alchemical pheromone depend on the type.",
 			"",
@@ -497,7 +499,8 @@
 		"description": [
 			"## Ale",
 			"‹SOURCE Ultimate Equipment/95;PRPG Core Rulebook/159›  ",
-			"**Price** 2 sp (gallon), 4 cp (mug); **Weight** 8 lbs. (gallon), 1 lb. (mug)",
+			"**Price** 2 sp (gallon), 4 cp (mug); **Weight** 8 lbs. (gallon), 1 lb. (mug)  ",
+			"**Category** Food/Drink",
 			"",
 			"Ale is a type of beer brewed from malted barley. It has a sweet, full-bodied, and sometimes fruity taste."
 		]
@@ -1205,7 +1208,8 @@
 		"description": [
 			"## Applejack",
 			"‹SOURCE Ultimate Equipment/95›  ",
-			"**Price** 4 sp (gallon), 8 cp (mug); **Weight** 8 lbs. (gallon), 1 lb. (mug)",
+			"**Price** 4 sp (gallon), 8 cp (mug); **Weight** 8 lbs. (gallon), 1 lb. (mug)  ",
+			"**Category** Food/Drink",
 			"",
 			"This even stronger version of hard cider is typically made by allowing hard cider to freeze during the winter cold, then removing the ice to extract much of the water from the cider and concentrate the alcohol."
 		]
@@ -1232,7 +1236,8 @@
 		"description": [
 			"## Aquatic harness",
 			"‹SOURCE Blood of the Sea/18›  ",
-			"**Price** 20 gp (Large), 10 gp (Medium); **Weight** 3 lbs. (Large), 2 lbs. (Medium)",
+			"**Price** 20 gp (Large), 10 gp (Medium); **Weight** 3 lbs. (Large), 2 lbs. (Medium)  ",
+			"**Category** Animal Gear",
 			"",
 			"This waxed leather harness is designed to withstand submersion and is adjustable to fit dolphins, giant eels, giant seahorses, and other aquatic mounts. Undersea races without access to leather often use harnesses woven from special kelp, which has the same price."
 		]
@@ -1445,7 +1450,8 @@
 		"description": [
 			"## Artisan's tools",
 			"‹SOURCE Ultimate Equipment/77;PRPG Core Rulebook/158›  ",
-			"**Price** 5 gp (common), 55 gp (masterwork); **Weight** 5 lbs. (common), 5 lbs. (masterwork)",
+			"**Price** 5 gp (common), 55 gp (masterwork); **Weight** 5 lbs. (common), 5 lbs. (masterwork)  ",
+			"**Category** Tools",
 			"",
 			"These special tools include the items needed to pursue any single craft. Without them, you have to use improvised tools (-2 penalty on Craft checks), if you can do the job at all."
 		]
@@ -1519,7 +1525,8 @@
 		"description": [
 			"## Riding Animals",
 			"‹SOURCE Animal Archive/14›  ",
-			"**Price** Varies; **Weight** -",
+			"**Price** Varies; **Weight** -  ",
+			"**Category** Mounts/Pets",
 			"",
 			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size. In addition, most of these animals can be purchased already trained for combat (see the Combat Training purpose in the list of ‹ability/animal tricks›).",
 			"",
@@ -1763,7 +1770,8 @@
 		"description": [
 			"## Backpack",
 			"‹SOURCE Ultimate Equipment/56;PRPG Core Rulebook/158›  ",
-			"**Price** 25 gp (carrier), 2 gp (common), 40 gp (hydration), 50 gp (masterwork), 25 gp (weaponrack); **Weight** 5 lbs. (carrier), 2 lbs. (common), 4 lbs. (hydration), 4 lbs. (masterwork), 5 lbs. (weaponrack)",
+			"**Price** 25 gp (carrier), 2 gp (common), 40 gp (hydration), 50 gp (masterwork), 25 gp (weaponrack); **Weight** 5 lbs. (carrier), 2 lbs. (common), 4 lbs. (hydration), 4 lbs. (masterwork), 5 lbs. (weaponrack)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"This leather knapsack has one large pocket that closes with a buckled strap and holds about 2 cubic feet of material. Some may have one or more smaller pockets on the sides.",
 			"",
@@ -1870,7 +1878,8 @@
 		"description": [
 			"## Ball",
 			"‹SOURCE Ultimate Equipment/92›  ",
-			"**Price** 6 gp (10 in.), 8 cp (2 in.), 2 sp (5 in.); **Weight** 1 lb. (10 in.), - (2 in.), - (5 in.)",
+			"**Price** 6 gp (10 in.), 8 cp (2 in.), 2 sp (5 in.); **Weight** 1 lb. (10 in.), - (2 in.), - (5 in.)  ",
+			"**Category** Entertainment",
 			"",
 			"This ball may be an inflated animal bladder, carved from light wood, fabric stuffed with cloth or plant fiber and sewn shut."
 		]
@@ -2080,7 +2089,8 @@
 		"description": [
 			"## Bat",
 			"‹SOURCE Ultimate Equipment/80;Adventurer's Armory/19›  ",
-			"**Price** 5 gp, 50 gp (Uskwood); **Weight** 1 lb., 2 lbs. (Uskwood)",
+			"**Price** 5 gp, 50 gp (Uskwood); **Weight** 1 lb., 2 lbs. (Uskwood)  ",
+			"**Category** Mounts/Pets",
 			"",
 			"These Diminutive rodents are nocturnal fliers that eat insects and fruit. They rely primarily on sound to navigate rather than sight. They can be found all over Golarion and are absent only in desert and arctic regions. Some cultures keep bat houses near towns and villages to control insect problems. Bats from the Uskwood in Nidal are noted for their matte black fur and large size."
 		]
@@ -2127,7 +2137,8 @@
 		"description": [
 			"## Bear Trap",
 			"‹SOURCE Adventurer's Armory 2/16›  ",
-			"**Price** 3 gp Bear trap (offset), 1,800 gp Bear trap (sawtooth); **Weight** 10 lbs. Bear trap (offset), 20 lbs. Bear trap (sawtooth)",
+			"**Price** 3 gp Bear trap (offset), 1,800 gp Bear trap (sawtooth); **Weight** 10 lbs. Bear trap (offset), 20 lbs. Bear trap (sawtooth)  ",
+			"**Category** Tools",
 			"",
 			"An **offset** bear trap is a specialized variety of a bear trap constructed with offset jaws coated in resin. It inflicts less damage on captured creatures but holds them more securely, and is therefore primarily used by trappers or bounty hunters who do not want to risk killing their prey. Offset bear traps are almost always secured to the ground by a heavy spike and chain so the captured creature can't wander far.",
 			"",
@@ -2456,7 +2467,8 @@
 		"description": [
 			"## Spices",
 			"‹SOURCE Adventurer's Guide/14›  ",
-			"**Price** 15 gp (Black cumin), 20 gp (Flaming sumac), 30 gp (Golden cardamom), 100 gp (Striped nutmeg), 15 gp (Sunrise cinnamon), 25 gp (Tiger cloves), 5 gp (Violet salt); **Weight** -",
+			"**Price** 15 gp (Black cumin), 20 gp (Flaming sumac), 30 gp (Golden cardamom), 100 gp (Striped nutmeg), 15 gp (Sunrise cinnamon), 25 gp (Tiger cloves), 5 gp (Violet salt); **Weight** -  ",
+			"**Category** Food/Drink",
 			"",
 			"Food spoils more quickly in hot climates, and Qadirans have become experts at using the spices that they trade to help preserve their meals. After importing plants from across the planes, Qadiran druids and alchemists bred and magically adapted unique species with enhanced medicinal properties. ‹rule/Al-Zabriti› tribes generally have supplies of the following spices on hand. To gain the benefits of these spices, a character must consume multiple doses over 1 or more days, as indicated for each spice. Once the benefit is gained, continued consumption at that rate maintains the benefit.",
 			"",
@@ -3100,7 +3112,8 @@
 		"description": [
 			"## Bounty hunter's kit",
 			"‹SOURCE Melee Tactics Toolbox/20›  ",
-			"**Price** 105 gp (common), 380 gp (superior); **Weight** 15 lbs. (common), 24 lbs. (superior)",
+			"**Price** 105 gp (common), 380 gp (superior); **Weight** 15 lbs. (common), 24 lbs. (superior)  ",
+			"**Category** Kits",
 			"",
 			"This kit provides useful tools for bounty hunters. It includes basic maps showing major landmarks, ‹eq-misc/caltrops›, ‹eq-misc/common manacles› with an ‹eq-misc/average lock›, a ‹eq-weapon/net›, a ‹eq-weapon/sap›, and a 10-foot ‹eq-misc/chain›. Bounty hunters are notoriously individualistic, so variant kits are common. One such variant is the superior bounty hunter's kit, which replaces the common manacles with ‹eq-misc/masterwork manacles› and the average lock with a ‹eq-misc/good lock›, and includes a ‹eq-misc/footprint book›, a ‹eq-weapon/tanglefoot bag›, and ‹eq-misc/masterwork thieves' tools›."
 		]
@@ -3149,7 +3162,8 @@
 		"description": [
 			"## Branding iron",
 			"‹SOURCE Adventurer's Guide/96;Path of the Hellknight/63›  ",
-			"**Price** 2 gp (common), 10 gp (custom shape); **Weight** 5 lbs. (common), 5 lbs. (custom shape)",
+			"**Price** 2 gp (common), 10 gp (custom shape); **Weight** 5 lbs. (common), 5 lbs. (custom shape)  ",
+			"**Category** Torture Implements",
 			"",
 			"This length of bare metal is 2 to 4 feet long. One end serves as a handle, while the other forms a simple shape, such as a square or circle. Branding irons with ends that form complex symbols, such as the symbol of a Hellknight order, are much more expensive.",
 			"",
@@ -3379,7 +3393,8 @@
 		"description": [
 			"## Buoy",
 			"‹SOURCE Ultimate Equipment/56;Advanced Player's Guide/181›  ",
-			"**Price** 5 sp (common), 10 gp (superior); **Weight** 16 lbs. (common), 30 lbs. (superior)",
+			"**Price** 5 sp (common), 10 gp (superior); **Weight** 16 lbs. (common), 30 lbs. (superior)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"A buoy is used to mark a specific spot in a lake, river, or similar body of water, making it possible for you to return to that location at a later date. A common buoy includes a float (typically an air-filled bladder or sealed gourd), a 200-foot length of twine, and a 15-pound stone used as an anchor. The float is usually painted a vivid color, and may have a small flag to attract attention. Though anchor buoys prove quite resilient to normal weather and tides, they offer little challenge to intelligent creatures determined to sabotage them. A superior buoy has a spherical or ovoid hollow metal float (typically copper), a length of chain rather than twine, and a metal anchor rather than a weight."
 		]
@@ -3482,7 +3497,8 @@
 		"description": [
 			"## Cage",
 			"‹SOURCE Ultimate Equipment/81;Adventurer's Armory/19;Advanced Player's Guide/185›  ",
-			"**Price** 10 gp (Diminutive or Fine), 2 gp (Tiny), 15 gp (Small or Medium), 30 gp (Large), 60 gp (Huge); **Weight** 2 lbs. (Diminutive or Fine), 5 lbs. (Tiny), 60 lbs. (Small or Medium), 240 lbs. (Large), 960 lbs. (Huge)",
+			"**Price** 10 gp (Diminutive or Fine), 2 gp (Tiny), 15 gp (Small or Medium), 30 gp (Large), 60 gp (Huge); **Weight** 2 lbs. (Diminutive or Fine), 5 lbs. (Tiny), 60 lbs. (Small or Medium), 240 lbs. (Large), 960 lbs. (Huge)  ",
+			"**Category** Animal Gear",
 			"",
 			"This secure, portable enclosure is used to hold creatures - generally animals, but a large enough cage can hold anything. Cages are made from iron, wood, or bamboo, depending on local customs and available materials. One cage holds one animal of that size, or five animals of a smaller size. The weight of the creature adds to the weight of the cage. Cages come in the following sizes: Diminutive or Fine, Tiny, Small, Medium, Large, and Huge.",
 			"",
@@ -3786,7 +3802,8 @@
 		"description": [
 			"## Cane",
 			"‹SOURCE Adventurer's Armory 2/12›  ",
-			"**Price** 1 sp (common), 25 gp (elegant), 2 gp (simple); **Weight** 3 lbs. (common), 4 lbs. (elegant), 3 lbs. (simple)",
+			"**Price** 1 sp (common), 25 gp (elegant), 2 gp (simple); **Weight** 3 lbs. (common), 4 lbs. (elegant), 3 lbs. (simple)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"A cane is a walking stick fashioned from wood. A cane sports either a metal cap or a curved top that's easy to grip. Simple canes are no more than a sturdy branch, while high quality canes are made from fine materials and bear intricate carvings or adornments."
 		]
@@ -4026,7 +4043,8 @@
 		"description": [
 			"## Cat",
 			"‹SOURCE Ultimate Equipment/80;Adventurer's Armory/19›  ",
-			"**Price** 3 cp (common), 6 gp (Osirian wise-eye); **Weight** 8 lbs. (common), 8 lbs. (Osirian wise-eye)",
+			"**Price** 3 cp (common), 6 gp (Osirian wise-eye); **Weight** 8 lbs. (common), 8 lbs. (Osirian wise-eye)  ",
+			"**Category** Mounts/Pets",
 			"",
 			"These Tiny animals are often kept as pets or familiars. Though small, they are excellent hunters. Grain farmers usually keep cats for pest control in crop storage areas, but cats can be found in most regions and strays occupy many cities."
 		]
@@ -4102,7 +4120,8 @@
 		"description": [
 			"## Cauldron",
 			"‹SOURCE Ultimate Equipment/56›  ",
-			"**Price** 1 gp, 2,501 gp (mithral); **Weight** 5 lbs., 2-1/2 lbs. (mithral)",
+			"**Price** 1 gp, 2,501 gp (mithral); **Weight** 5 lbs., 2-1/2 lbs. (mithral)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"This larger version of an iron pot holds approximately 1 gallon - enough to fill the bellies of four hungry humans for one meal. It can also be used for potion-making and similar activities. A mithral cauldron is lighter, and food rarely sticks to it."
 		]
@@ -4444,7 +4463,8 @@
 		"description": [
 			"## Chest",
 			"‹SOURCE Ultimate Equipment/56;Adventurer's Armory/19;Advanced Player's Guide/181›  ",
-			"**Price** 25 gp (huge), 10 gp (large), 5 gp (medium), 2 gp (small); **Weight** 250 lbs. (huge), 100 lbs. (large), 50 lbs. (medium), 25 lbs. (small)",
+			"**Price** 25 gp (huge), 10 gp (large), 5 gp (medium), 2 gp (small); **Weight** 250 lbs. (huge), 100 lbs. (large), 50 lbs. (medium), 25 lbs. (small)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"The common wooden chest comes in several sizes, including small (2 cubic feet, 1 hit point, break DC 17), medium (4 cubic feet, 15 hp, break DC 23), large (6 cubic feet, 30 hit points, break DC 29), and huge (8 cubic feet, 50 hit points, break DC 35). Most include a ‹eq-misc/simple« inset» lock›."
 		]
@@ -4830,7 +4850,8 @@
 		"description": [
 			"## Coffin",
 			"‹SOURCE Ultimate Equipment/56;Adventurer's Armory/19;Pathfinder Campaign Setting/213›  ",
-			"**Price** 10 gp (common), 100 gp (ornate); **Weight** 30 lbs. (common), 50 lbs. (ornate)",
+			"**Price** 10 gp (common), 100 gp (ornate); **Weight** 30 lbs. (common), 50 lbs. (ornate)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"A plain coffin is made of simple wood and has a loose, flat lid that can be nailed onto it. Ornate coffins are favored by aristocratic families for displaying their dead, and include upholstered cloth liners and a hinged lid."
 		]
@@ -4937,7 +4958,8 @@
 		"description": [
 			"## Commissioned broadsheet",
 			"‹SOURCE Merchant's Manifest/5›  ",
-			"**Price** 150 gp (print run (500 broadsheets)), 50 gp (setup and proof print); **Weight** - (print run (500 broadsheets)), - (setup and proof print)",
+			"**Price** 150 gp (print run (500 broadsheets)), 50 gp (setup and proof print); **Weight** - (print run (500 broadsheets)), - (setup and proof print)  ",
+			"**Category** Lodging/Services",
 			"",
 			"It takes 2 to 4 weeks for printers reproducing large images or those who have only engraved-plate printing presses to prepare the plate for a commissioned ‹eq-misc/broadsheet›. Printers with movable-type printing presses can prepare a text-only broadsheet in as little as 4 hours. Once the setup is complete (which includes a proof print), the printer can produce up to 500 copies of the broadsheet daily (about 60 per hour). A commissioned broadsheet can be used to spread a rumor requiring the author to attempt any necessary skill checks. The author takes a -8 penalty on these checks because the broadsheet cannot provide vocal or nonverbal cues, but if he's successful, spreading the rumor takes only 1d4 days (or 1 day, if smaller than a small town). If the broadsheets are delivered by trained criers or others attempting to spread the rumor, use the propaganda check result of either the author or the crier (whichever is higher) with a +2 bonus."
 		]
@@ -5352,7 +5374,8 @@
 			"## Crusader's cross (standard)",
 			"",
 			"‹SOURCE Demon Hunter's Handbook/18›  ",
-			"**Price** PFS Legal 50 gp (masterwork), PFS Legal 1 gp (standard); **Weight** - (masterwork), - (standard)",
+			"**Price** PFS Legal 50 gp (masterwork), PFS Legal 1 gp (standard); **Weight** - (masterwork), - (standard)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"This palm-sized cross has arms of equal length and an emblem etched at the center. When purchased, the bearer's personal emblem or motto is etched on one side, and name, rank, and nation on the other. Common crusader's crosses are typically made of wood, while masterwork crosses - usually reserved for nobles, officers, or gifts to the families of fallen heroes - might be made of silver."
 		]

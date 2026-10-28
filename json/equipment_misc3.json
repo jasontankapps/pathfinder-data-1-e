@@ -241,7 +241,8 @@
 		"description": [
 			"## Pomander",
 			"‹SOURCE Dungeoneer's Handbook/24›  ",
-			"**Price** 12 gp (merchant's), 225 gp (noble's); **Weight** 1/2 lb. (merchant's), 1/2 lb. (noble's)",
+			"**Price** 12 gp (merchant's), 225 gp (noble's); **Weight** 1/2 lb. (merchant's), 1/2 lb. (noble's)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"A pomander is a waxy concoction of resin, flower essence, powdered spices, musk, and ambergris in a walnut-sized cage and hung by a chain from the neck, a belt, or a bracelet. Merchants and adventurers often use pomanders caged in wood or lead, while nobles use ones cased in precious metals and enamel set with gems. When the pomander is carried openly, its powerful scent (Perception DC 0 to notice) fortifies the senses against unpleasant sensations. Anyone within 10 feet of a pomander gains a +2 resistance bonus on Fortitude saves against effects that ‹misc/nauseate› or ‹misc/sicken›, but suffers a -4 penalty on Perception checks made to detect scents other than the pomander's.",
 			"",
@@ -431,7 +432,8 @@
 		"description": [
 			"## Pot",
 			"‹SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158›  ",
-			"**Price** 8 sp (common, iron), 2,001 gp (mithral); **Weight** 4 lbs. (common, iron), 2 lbs. (mithral)",
+			"**Price** 8 sp (common, iron), 2,001 gp (mithral); **Weight** 4 lbs. (common, iron), 2 lbs. (mithral)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"This 8-inch-diameter iron pot is sturdy and has feet, a lid, and a rounded handle. It can hold enough stew to feed one hungry human for one meal. A mithral pot is lighter and food rarely sticks to it."
 		]
@@ -466,7 +468,8 @@
 		"description": [
 			"## Powder ball",
 			"‹SOURCE Castles of the Inner Sea/39›  ",
-			"**Price** 400 gp (empty), 300 gp (fuel); **Weight** 4 lbs. (empty), 1 lb. (fuel)",
+			"**Price** 400 gp (empty), 300 gp (fuel); **Weight** 4 lbs. (empty), 1 lb. (fuel)  ",
+			"**Category** Tools",
 			"",
 			"This steel sphere is about the size of a standard cannon ball, though it's significantly lighter. Small holes pock the surface of the sphere, which can be unscrewed into two hemispherical pieces. By filling the intricate hollows in an opened powder ball with a specific mixture of volatile chemical reagents (which can typically be purchased in Highhelm for around 200 gp) and inserting a proprietary fuse, an individual can use the weapon as a time-delayed explosive device, throwing it as a splash weapon or simply placing it where she wants it to explode. The fuse can be ignited as a move action; 1d4 rounds afterward, the powder ball explodes, dealing 2d6 points of fire damage to anything in a 10-foot-radius ‹misc/burst› (DC 15 for half). A powder ball explodes in this way three times - the second explosion occurs 1d3 rounds after the initial explosion, and the third explosion occurs 1d2 rounds after the second. After the third explosion, the empty powder ball can be refilled and used again."
 		]
@@ -616,7 +619,8 @@
 		"description": [
 			"## Prosthetic",
 			"‹SOURCE Ultimate Equipment/57;Pirates of the Inner Sea/21;Adventurer's Armory/19›  ",
-			"**Price** 10 gp (arm), 1 gp (foot), 1 gp (hand), 20 gp (leg); **Weight** 3 lbs. (arm), 2 lbs. (foot), 1 lb. (hand), 6 lbs. (leg)",
+			"**Price** 10 gp (arm), 1 gp (foot), 1 gp (hand), 20 gp (leg); **Weight** 3 lbs. (arm), 2 lbs. (foot), 1 lb. (hand), 6 lbs. (leg)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"People who lose hands, arms, legs, or feet in combat sometimes replace them with prosthetics: realistic simulations of their missing limbs. Usually carved of wood and painted to match the wearer's skin tone, these items have limited functionality, allowing a legless person to walk at half speed, or enabling an armless person to hold a shield in a fixed position, but little more. Clever individuals have been known to create small compartments in their prosthetics, just large enough to hold very small objects. A prosthetic hand or foot can hold an item with negligible weight, while a prosthetic limb can hold up to 1 or 2 pounds."
 		]
@@ -710,7 +714,8 @@
 		"description": [
 			"## Pulque",
 			"‹SOURCE Ultimate Equipment/95›  ",
-			"**Price** 1 sp (cup), 4 sp (wineskin); **Weight** 1/2 lb. (cup), 2 lbs. (wineskin)",
+			"**Price** 1 sp (cup), 4 sp (wineskin); **Weight** 1/2 lb. (cup), 2 lbs. (wineskin)  ",
+			"**Category** Food/Drink",
 			"",
 			"This nutritious milk-colored alcoholic beverage is fermented from the heart of the agave or century plant."
 		]
@@ -1044,7 +1049,8 @@
 		"description": [
 			"## Rat",
 			"‹SOURCE Adventurer's Armory/19›  ",
-			"**Price** 1 gp (blue), 1 cp (common); **Weight** 1 lb. (blue), 1 lb. (common)",
+			"**Price** 1 gp (blue), 1 cp (common); **Weight** 1 lb. (blue), 1 lb. (common)  ",
+			"**Category** Mounts/Pets",
 			"",
 			"These Tiny rodents live everywhere and eat nearly anything. Despite having a reputation as disease-ridden scavengers, domesticated rats are clean, loyal creatures that make excellent familiars."
 		]
@@ -1260,7 +1266,8 @@
 		"description": [
 			"## Riding bee",
 			"‹SOURCE Ultimate Wilderness/12›  ",
-			"**Price** 12,000 gp (combat-trained queen), 450 gp (combat-trained worker), 8,000 gp (queen), 300 gp (worker); **Weight** 140 lbs. (combat-trained queen), 60 lbs. (combat-trained worker), 140 lbs. (queen), 60 lbs. (worker)",
+			"**Price** 12,000 gp (combat-trained queen), 450 gp (combat-trained worker), 8,000 gp (queen), 300 gp (worker); **Weight** 140 lbs. (combat-trained queen), 60 lbs. (combat-trained worker), 140 lbs. (queen), 60 lbs. (worker)  ",
+			"**Category** Mounts/Pets",
 			"",
 			"‹race/Gathlain«s› have learned to domesticate giant bees, which they use to travel long distances. Extra queens from a hive's brood are saved and trained for hauling heavier equipment or a retinue of gathlains. Bees require an exotic saddle, which is a sort of basket that places the rider underneath the bee's abdomen, where it protects the rider as if he were a bee larva."
 		]
@@ -1290,7 +1297,8 @@
 		"description": [
 			"## Riding kit",
 			"‹SOURCE Ultimate Equipment/57;Pathfinder Society Field Guide/47›  ",
-			"**Price** 16 gp (common), 36 gp (exotic mount); **Weight** 54 lbs. (common), 59 lbs. (exotic mount)",
+			"**Price** 16 gp (common), 36 gp (exotic mount); **Weight** 54 lbs. (common), 59 lbs. (exotic mount)  ",
+			"**Category** Kits",
 			"",
 			"This kit includes a ‹eq-misc/bit and bridle›, a ‹eq-misc/saddle›, a ‹eq-misc/saddle »blanket›, ‹eq-misc/saddlebags›, and 2 days' worth of ‹eq-misc/animal_>feed› for a mount. The weight can be lightened 10 pounds by discarding the feed."
 		]
@@ -1305,7 +1313,8 @@
 		"description": [
 			"## Riding rat",
 			"‹SOURCE Monster Codex/177›  ",
-			"**Price** 75 gp (combat trained), 50 gp (common); **Weight** 50 lbs. (combat trained), 50 lbs. (common)",
+			"**Price** 75 gp (combat trained), 50 gp (common); **Weight** 50 lbs. (combat trained), 50 lbs. (common)  ",
+			"**Category** Mounts/Pets",
 			"",
 			"Horses, ponies, and other draft animals are ill-suited to living underground for long stretches, so the ‹race/ratfolk› bred a particularly strong type of dire rat to assist in pulling their wagons and serving as mounts for caravan scouts. As rodents, riding rats respond favorably to ratfolk's commands, and the animals' hardiness and omnivorous diet make them very easy to care for even on long journeys through inhospitable terrain. Use the statistics for a ‹monster/dire rat› with the ‹template/giant› simple template. A ratfolk with the animal companion, mount, or similar class feature can select a riding rat as her mount."
 		]
@@ -1559,7 +1568,8 @@
 		"description": [
 			"## Saddle",
 			"‹SOURCE Ultimate Equipment/81;PRPG Core Rulebook/159›  ",
-			"**Price** 60 gp (exotic, military), 15 gp (exotic, pack), 30 gp (exotic, riding), 20 gp (military), 5 gp (pack), 10 gp (riding); **Weight** 40 lbs. (exotic, military), 20 lbs. (exotic, pack), 30 lbs. (exotic, riding), 30 lbs. (military), 15 lbs. (pack), 25 lbs. (riding)",
+			"**Price** 60 gp (exotic, military), 15 gp (exotic, pack), 30 gp (exotic, riding), 20 gp (military), 5 gp (pack), 10 gp (riding); **Weight** 40 lbs. (exotic, military), 20 lbs. (exotic, pack), 30 lbs. (exotic, riding), 30 lbs. (military), 15 lbs. (pack), 25 lbs. (riding)  ",
+			"**Category** Animal Gear",
 			"",
 			"Saddles are used to support a rider or supplies on a mount.",
 			"",
@@ -1713,7 +1723,8 @@
 		"description": [
 			"## Scarf",
 			"‹SOURCE Ultimate Equipment/89;Varisia, Birthplace of Legends/15;Adventurer's Armory/19;Pathfinder Campaign Setting/213;Curse of the Crimson Throne Player's Guide/12;Rise of the Runelords Player's Guide/11›  ",
-			"**Price** 8 gp (pocketed), 10 gp (reinforced); **Weight** 1/2 lb. (pocketed), 1 lb. (reinforced)",
+			"**Price** 8 gp (pocketed), 10 gp (reinforced); **Weight** 1/2 lb. (pocketed), 1 lb. (reinforced)  ",
+			"**Category** Clothing",
 			"",
 			"**Pocketed:** An elaborate design disguises several small pockets on one side of this scarf. This scarf grants you a +4 bonus on Sleight of Hand checks made to hide objects on your body. This bonus does not stack with the bonus wearing heavy clothing provides but does stack with bonuses for attempting to hide small objects.",
 			"",
@@ -1868,7 +1879,8 @@
 		"description": [
 			"## Scribe",
 			"‹SOURCE Ultimate Equipment/99›  ",
-			"**Price** 10 gp (map), 1 gp (text); **Weight** - (map), - (text)",
+			"**Price** 10 gp (map), 1 gp (text); **Weight** - (map), - (text)  ",
+			"**Category** Lodging/Services",
 			"",
 			"A scribe is a literate person with clear handwriting who can take dictation or transcribe text documents. You must provide ink and writing materials, though the scribe can acquire these for you at half price. Scribes cannot copy magical writing. A scribe who can accurately copy a map is rare and demands a higher wage. The listed price is per day."
 		]
@@ -2201,7 +2213,8 @@
 		"description": [
 			"## Shears",
 			"‹SOURCE Adventurer's Armory 2/17›  ",
-			"**Price** 3,003 gp (adamantine), 3 gp (lopping), 5 sp (small); **Weight** 8 lbs. (adamantine), 8 lbs. (lopping), 1/2 lb. (small)",
+			"**Price** 3,003 gp (adamantine), 3 gp (lopping), 5 sp (small); **Weight** 8 lbs. (adamantine), 8 lbs. (lopping), 1/2 lb. (small)  ",
+			"**Category** Tools",
 			"",
 			"Shears are used to quickly cut through items by snipping them between two sharp blades fitted with a spring to allow the jaws to open again after closing. Small shears can be used in one hand and are often used to trim hair, cut cloth, or perform other delicate cutting work. Lopping shears are 3 feet long and must be used in two hands; they are commonly used by farmers or gardeners to cut hedges and branches.",
 			"",
@@ -2323,7 +2336,8 @@
 		"description": [
 			"## Shovel or Spade",
 			"‹SOURCE PRPG Core Rulebook/158;Ultimate Equipment/57;Pathfinder #51: The Hungry Storm/67›  ",
-			"**Price** 2 gp (common), 10 gp (folding); **Weight** 8 lbs. (common), 12 lbs. (folding)",
+			"**Price** 2 gp (common), 10 gp (folding); **Weight** 8 lbs. (common), 12 lbs. (folding)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"This tool lets you dig a pit at a rate of 2 cubic feet per minute. If a shovel is used in combat, treat it as a one-handed ‹misc/improvised weapon› that deals bludgeoning damage equal to that of a ‹eq-weapon/club› of its size.",
 			"",
@@ -2601,7 +2615,8 @@
 		"description": [
 			"## Skillet",
 			"‹SOURCE Ultimate Equipment/57›  ",
-			"**Price** 8 sp (common), 2,001 gp (mithral); **Weight** 4 lbs. (common), 2 lbs. (mithral)",
+			"**Price** 8 sp (common), 2,001 gp (mithral); **Weight** 4 lbs. (common), 2 lbs. (mithral)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"This 8-inch-diameter skillet has a long handle and feet so you can rest it on a fire or hot coals. Adventurers prefer models with a hinged handle that folds over the top of the skillet for easier storage and transport. A mithral skillet is lighter and food rarely sticks to it."
 		]
@@ -2672,7 +2687,8 @@
 		"description": [
 			"## Slave",
 			"‹SOURCE Adventurer's Armory/19›  ",
-			"**Price** 75 gp, 100 gp (hard labor), 50 gp (household), 100 gp (slip, halfling), 500 gp (specialized); **Weight** 175 lbs., 200 lbs. (hard labor), 130 lbs. (household), 39 lbs. (slip, halfling), 160 lbs. (specialized)",
+			"**Price** 75 gp, 100 gp (hard labor), 50 gp (household), 100 gp (slip, halfling), 500 gp (specialized); **Weight** 175 lbs., 200 lbs. (hard labor), 130 lbs. (household), 39 lbs. (slip, halfling), 160 lbs. (specialized)  ",
+			"**Category** Black Market",
 			"",
 			"Sentient creatures sold to perform a multitude of tasks all fall under the category of slaves. Most slaves are kept to do menial jobs, but sometimes slaves perform specialized tasks such as spellcasting or teaching. Slaves vary in quality; the price may be half as much for old or infirm slaves, or several times more for healthy, attractive specimens."
 		]
@@ -2978,7 +2994,8 @@
 		"description": [
 			"## Snorkel",
 			"‹SOURCE Ultimate Equipment/57›  ",
-			"**Price** 5 sp (common), 5 gp (masterwork); **Weight** - (common), - (masterwork)",
+			"**Price** 5 sp (common), 5 gp (masterwork); **Weight** - (common), - (masterwork)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"This waterproof wooden tube has a curved end with a mouthpiece. When you hold the mouthpiece in your mouth, the tube extends past your face and toward the back of your head, allowing you to breathe indefinitely when swimming facedown or barely submerged. If you submerge the tip of the snorkel, it floods with water and can't be used to breathe until you clear the water from it (requiring a move action and full access to air). A typical snorkel's length is about 15 inches; any shorter than this and it tends to fill with water when you swim, but any longer and you're not moving enough fresh air through the snorkel to be effective.",
 			"",
@@ -3025,7 +3042,8 @@
 		"description": [
 			"## Snuffbox",
 			"‹SOURCE Advanced Class Guide/205›  ",
-			"**Price** 25 gp (bone or tortoise shell), 300 gp (ivory or precious metal), 5 gp (tin or wood); **Weight** - (bone or tortoise shell), - (ivory or precious metal), - (tin or wood)",
+			"**Price** 25 gp (bone or tortoise shell), 300 gp (ivory or precious metal), 5 gp (tin or wood); **Weight** - (bone or tortoise shell), - (ivory or precious metal), - (tin or wood)  ",
+			"**Category** Black Market",
 			"",
 			"This tiny, ornamented box's hinged lid latches in place to form a tight seal. The box is used to hold various snuffs, powders, tobacco, and similar substances. The box can be made from any number of materials, from wood to ivory to precious metals inlaid with gemstone."
 		]
@@ -3660,7 +3678,8 @@
 		"description": [
 			"## Squirrel",
 			"‹SOURCE Ultimate Equipment/80›  ",
-			"**Price** 1 gp (common), 20 gp (flying); **Weight** 2 lbs. (common), 1 lb. (flying)",
+			"**Price** 1 gp (common), 20 gp (flying); **Weight** 2 lbs. (common), 1 lb. (flying)  ",
+			"**Category** Mounts/Pets",
 			"",
 			"These tiny rodents are as common in the wild as rats are in cities. They typically eat nuts, seeds, and vegetation. Squirrels have the same statistics as rats.",
 			"",
@@ -3809,7 +3828,8 @@
 		"description": [
 			"## Stilts",
 			"‹SOURCE Ultimate Equipment/58›  ",
-			"**Price** 2 sp (common), 5 gp (masterwork); **Weight** 10 lbs. (common), 10 lbs. (masterwork)",
+			"**Price** 2 sp (common), 5 gp (masterwork); **Weight** 10 lbs. (common), 10 lbs. (masterwork)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"This item consists of a pair of wooden poles with a footrest halfway up. By standing on the footrests and holding the tops of the poles you can avoid certain ground-based threats to your feet. For example, you can use stilts to cross water without getting wet, but you would still activate a trap that triggers when you walk in a certain area. Using stilts reduces your base speed from 30 feet to 20 feet, or from 20 feet to 15 feet. You can hop off your stilts as a move action, or as a free action with a successful DC 10 Acrobatics check.",
 			"",
@@ -3941,7 +3961,8 @@
 		"description": [
 			"## Straitjacket",
 			"‹SOURCE Occult Adventures/250›  ",
-			"**Price** 5 gp (common), 50 gp (masterwork); **Weight** 1 lb. (common), 1 lb. (masterwork)",
+			"**Price** 5 gp (common), 50 gp (masterwork); **Weight** 1 lb. (common), 1 lb. (masterwork)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"Fashioned of durable canvas and leather straps, this instrument of restraint prevents its wearer from using his arms entirely. Properly binding a creature in a straitjacket requires 1 minute, and the creature must be willing or helpless. This time can be reduced to 5 rounds, but doing so lowers the DC to escape the restraints by 5. A creature wearing a straitjacket gains the ‹rule/grapple«d» condition<s›, except it is able to move. Escaping from the straitjacket requires a successful DC 28 Escape Artist check (DC 30 for a masterwork straitjacket.)"
 		]
@@ -4015,7 +4036,8 @@
 		"description": [
 			"## Subversive vest",
 			"‹SOURCE Ultimate Intrigue/234›  ",
-			"**Price** 45 gp (vest), 90 gp (vestment); **Weight** 1 lb. (vest), 2 lbs. (vestment)",
+			"**Price** 45 gp (vest), 90 gp (vestment); **Weight** 1 lb. (vest), 2 lbs. (vestment)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"Subversive vests are tailored to the pinnacle of courtly fashion, yet have strategically placed compartments for hiding ‹eq-misc/thieves' tools›. You gain a +2 circumstance bonus on Sleight of Hand checks to conceal thieves' tools within a subversive vest.",
 			"",
@@ -4179,7 +4201,8 @@
 		"description": [
 			"## Sureseal bladder",
 			"‹SOURCE Aquatic Adventures/56›  ",
-			"**Price** 1 sp (mundane), 8 gp (potion); **Weight** 1 lb. (mundane), - (potion)",
+			"**Price** 1 sp (mundane), 8 gp (potion); **Weight** 1 lb. (mundane), - (potion)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"While ‹eq-misc/potion sponge«s› are a reasonable enough method for air-breathers like undines to prepare to bring a potion underwater, aquatic creatures prefer a solution that allows them to prepare potions, beverages, and other liquids underwater to begin with. A sureseal bladder is made of a thin membrane that won't allow liquid through. By passing a solid spout or tube through the membrane, you can fill the bladder without allowing in any ambient seawater, and the membrane seals behind the spout. Once the bladder is full, the drinker can nip on the end of the membrane in order to sip the drink at her leisure, slowly crumpling the bladder for eventual disposal. The cheaper mundane sureseal bladders hold about 2 cups of liquid and work best for enjoying a favorite drink; the listed weight assumes the mundane sureseal bladder is full. Potions rely on drinking the entire dose, so potion sureseal bladders, while much smaller (just large enough for a potion), are pressurized in order to expel the entire potion at once without losing any of it, allowing the drinker to drink them as a standard action just like drinking a potion above the waves. Either type of sureseal bladder can be used only once."
 		]
@@ -4240,7 +4263,8 @@
 		"description": [
 			"## Survival kit",
 			"‹SOURCE Ultimate Equipment/58›  ",
-			"**Price** 5 gp (common), 50 gp (masterwork); **Weight** 4 lbs. (common), 5 lbs. (masterwork)",
+			"**Price** 5 gp (common), 50 gp (masterwork); **Weight** 4 lbs. (common), 5 lbs. (masterwork)  ",
+			"**Category** Kits",
 			"",
 			"A survival kit provides the necessary tools for day-to-day existence in a temperate wilderness. It typically contains a ‹eq-misc/flint and steel›, a ‹eq-misc/mess kit›, two ‹eq-misc/waterskin«s› (enough to hold water for 1 person for 1 day), very basic maps showing major landmarks, and a small utility knife.",
 			"",
@@ -4427,7 +4451,8 @@
 		"description": [
 			"## Tea",
 			"‹SOURCE Ultimate Equipment/95;Adventurer's Armory/19›  ",
-			"**Price** 4 cp (ceremonial, cup), 2 cp (cup); **Weight** 1/2 lb. (ceremonial, cup), 1/2 lb. (cup)",
+			"**Price** 4 cp (ceremonial, cup), 2 cp (cup); **Weight** 1/2 lb. (ceremonial, cup), 1/2 lb. (cup)  ",
+			"**Category** Food/Drink",
 			"",
 			"A popular beverage in many regions, tea may be green or black, depending on when the leaves are picked and how they are prepared. It may be served unadorned, or with milk, sugar, lemon, or spices."
 		]
@@ -4509,7 +4534,8 @@
 		"description": [
 			"## Telescope",
 			"‹SOURCE People of the Stars/27›  ",
-			"**Price** 2,000 gp (&times;10), 8,000 gp (&times;250), 4,000 gp (&times;50); **Weight** 12 lbs. (&times;10), 44 lbs. (&times;250), 23 lbs. (&times;50)",
+			"**Price** 2,000 gp (&times;10), 8,000 gp (&times;250), 4,000 gp (&times;50); **Weight** 12 lbs. (&times;10), 44 lbs. (&times;250), 23 lbs. (&times;50)  ",
+			"**Category** Tools",
 			"",
 			"This basic, semi-portable telescope allows the user to see greater detail on very distant objects. Telescopes can be built to a variety of specifications, but those most often used by adventuring stargazers are listed here. A telescope grants the listed circumstance bonus on Perception checks to discern celestial bodies and on Knowledge (geography) checks to learn about the planets when used at night.",
 			"",
@@ -4559,7 +4585,8 @@
 		"description": [
 			"## Tent",
 			"‹SOURCE Ultimate Equipment/58;Adventurer's Armory/19;Advanced Player's Guide/183;PRPG Core Rulebook/158›  ",
-			"**Price** 30 gp (large), 15 gp (medium), 100 gp (pavilion), 10 gp (small); **Weight** 40 lbs. (large), 30 lbs. (medium), 50 lbs. (pavilion), 20 lbs. (small)",
+			"**Price** 30 gp (large), 15 gp (medium), 100 gp (pavilion), 10 gp (small); **Weight** 40 lbs. (large), 30 lbs. (medium), 50 lbs. (pavilion), 20 lbs. (small)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"Tents come in a variety of sizes and accommodate between one and 10 people. A small tent holds one Medium creature and takes 20 minutes to assemble, a medium tent holds two creatures and takes 30 minutes, a large tent holds four creatures and takes 45 minutes, and a pavilion holds 10 creatures and takes 90 minutes (two Small creatures count as a Medium creature, and one Large creature counts as two Medium creatures). Pavilion tents are large enough to accommodate a small fire in the center. Packing up a tent takes half as long as assembling it."
 		]
@@ -4683,7 +4710,8 @@
 		"description": [
 			"## Thieves' tool extenders",
 			"‹SOURCE Dungeoneer's Handbook/25›  ",
-			"**Price** 70 gp (common), 820 gp (mithral); **Weight** 3 lbs. (common), 1 1/2 lbs. (mithral)",
+			"**Price** 70 gp (common), 820 gp (mithral); **Weight** 3 lbs. (common), 1 1/2 lbs. (mithral)  ",
+			"**Category** Tools",
 			"",
 			"These long-reaching extenders can be attached to or detached from ‹eq-misc/thieves' tools› as a standard action, allowing the user to make Disable Device checks on devices in any space he could reach with a reach weapon. High-quality mirrors on the shafts let him see what he's doing, but he takes a -4 penalty on Disable Device checks when working on a device more than 5 feet away."
 		]
@@ -4701,7 +4729,8 @@
 		"description": [
 			"## Thieves' tools",
 			"‹SOURCE Ultimate Equipment/77;PRPG Core Rulebook/158›  ",
-			"**Price** 30 gp (common), 100 gp (masterwork); **Weight** 1 lb. (common), 2 lbs. (masterwork)",
+			"**Price** 30 gp (common), 100 gp (masterwork); **Weight** 1 lb. (common), 2 lbs. (masterwork)  ",
+			"**Category** Tools",
 			"",
 			"This kit contains lockpicks and other tools you need to use the Disable Device skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.",
 			"",
@@ -4751,7 +4780,8 @@
 		"description": [
 			"## Thumbscrews",
 			"‹SOURCE Horror Adventures/212›  ",
-			"**Price** 15 gp (common), 50 gp (masterwork); **Weight** 1 lb. (common), 1 lb. (masterwork)",
+			"**Price** 15 gp (common), 50 gp (masterwork); **Weight** 1 lb. (common), 1 lb. (masterwork)  ",
+			"**Category** Torture Implements",
 			"",
 			"Both a torture and restraining device, this small, metal armature consists of two parallel, spikestudded bars that close together as the user tightens the frame's screws, crushing a victim's thumbs between them. A victim restrained by a thumbscrew is able to move but can't effectively wield weapons, hold items, or perform any actions or skill checks that require manual dexterity, taking a -5 penalty on all such actions and dealing 1d6 points of nonlethal damage to himself with each attempt (this doesn't include Escape Artist attempts to escape the thumbscrew). Spellcasters bound by thumbscrews are unable to cast spells with somatic components.",
 			"",
@@ -5056,7 +5086,8 @@
 		"description": [
 			"## Trapped item",
 			"‹SOURCE Kobolds of Golarion/28›  ",
-			"**Price** 50 gp (trapped disguise kit), 40 gp (trapped scroll case); **Weight** 8 lbs. (trapped disguise kit), 1 lb. (trapped scroll case)",
+			"**Price** 50 gp (trapped disguise kit), 40 gp (trapped scroll case); **Weight** 8 lbs. (trapped disguise kit), 1 lb. (trapped scroll case)  ",
+			"**Category** Tools",
 			"",
 			"Kobold artisans are constantly looking for new ways to increase the effectiveness of their traps, all while decreasing their setup time. To fit these two needs, kobold inventors have created a series of small and easy-to-use trapped items. These replica items have traps built into them, and can be armed in a standard action. They're self-contained, single-use, and as easily transportable as the items they mimic.",
 			"",

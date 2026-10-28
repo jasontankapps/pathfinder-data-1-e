@@ -152,7 +152,8 @@
 		"description": [
 			"## Decoy trigger",
 			"‹SOURCE Kobolds of Golarion/28›  ",
-			"**Price** 60 gp (decoy pressure switch), 120 gp (decoy trap door), 25 gp (decoy tripwire); **Weight** - (decoy pressure switch), - (decoy trap door), - (decoy tripwire)",
+			"**Price** 60 gp (decoy pressure switch), 120 gp (decoy trap door), 25 gp (decoy tripwire); **Weight** - (decoy pressure switch), - (decoy trap door), - (decoy tripwire)  ",
+			"**Category** Tools",
 			"",
 			"Decoy triggers are misleading mechanisms intended to divert a victim's attention from a real trap by presenting an easily found decoy. Ideally, the victim spots the fake mechanism and, in attempting to disarm or evade it, triggers the real trap.",
 			"",
@@ -363,7 +364,8 @@
 		"description": [
 			"## Dire bat",
 			"‹SOURCE Animal Archive/15›  ",
-			"**Price** 220 gp (common), 300 gp (riding), 450 gp (riding, combat trained); **Weight** - (common), 400 lbs. (riding), 450 lbs. (riding, combat trained)",
+			"**Price** 220 gp (common), 300 gp (riding), 450 gp (riding, combat trained); **Weight** - (common), 400 lbs. (riding), 450 lbs. (riding, combat trained)  ",
+			"**Category** Mounts/Pets",
 			"",
 			"Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt wild empathy or Handle Animal checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts, though the GM may make exceptions at her discretion.",
 			"",
@@ -510,7 +512,7 @@
 			"## Doctor's outfit",
 			"‹SOURCE Adventurer's Armory/19;Pathfinder #8: Seven Days to the Grave/61›  ",
 			"**Price** 150 gp; **Weight** 6 lbs.  ",
-			"**Category** Tools",
+			"**Category** Clothing",
 			"",
 			"Any creature wearing this outfit gains a +2 circumstance bonus on Fortitude saves made to resist contact diseases.",
 			"",
@@ -552,7 +554,8 @@
 		"description": [
 			"## Dog",
 			"‹SOURCE Ultimate Equipment/81;PRPG Core Rulebook/159;Adventurer's Armory/19›  ",
-			"**Price** 25 gp (guard), 15 gp (lap), 150 gp (riding); **Weight** 25 lbs. (guard), 5 lbs. (lap), 50 lbs. (riding)",
+			"**Price** 25 gp (guard), 15 gp (lap), 150 gp (riding); **Weight** 25 lbs. (guard), 5 lbs. (lap), 50 lbs. (riding)  ",
+			"**Category** Mounts/Pets",
 			"",
 			"Most dogs fall into one of the following categories.",
 			"",
@@ -911,7 +914,8 @@
 		"description": [
 			"## Dungeoneering kit",
 			"‹SOURCE Ultimate Equipment/56;Pathfinder Society Field Guide/47›  ",
-			"**Price** 15 gp (common), 130 gp (deluxe); **Weight** 25 lbs. (common), 15 lbs. (deluxe)",
+			"**Price** 15 gp (common), 130 gp (deluxe); **Weight** 25 lbs. (common), 15 lbs. (deluxe)  ",
+			"**Category** Kits",
 			"",
 			"This bundle of essential supplies for exploring ruins and abandoned cities includes two ‹eq-misc/candles›, ‹eq-misc/chalk›, a ‹eq-misc/hammer› and four ‹eq-misc/piton«s›, 50 feet of hemp ‹eq-misc/rope›, a ‹eq-misc/hooded lantern› with 5 flasks of ‹eq-misc/oil›, two ‹eq-misc/sack«s›, two ‹eq-misc/torches›, and four ‹eq-misc/tindertwig«s›. A deluxe dungeoneering kit contains two candles, chalk, a hammer and four pitons, 50 feet of silk rope, two sacks, three ‹eq-misc/sunrod«s›, four tindertwigs, and an ‹eq-misc/everburning torch›."
 		]
@@ -1007,7 +1011,8 @@
 		"description": [
 			"## Ear trumpet",
 			"‹SOURCE Ranged Tactics Toolbox/20›  ",
-			"**Price** 25 gp (common), 100 gp (masterwork); **Weight** 2 lbs. (common), 2 lbs. (masterwork)",
+			"**Price** 25 gp (common), 100 gp (masterwork); **Weight** 2 lbs. (common), 2 lbs. (masterwork)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"This foot-long brass funnel amplifies sounds entering through the broad end for anyone listening at the narrow end. The listener gains a +2 circumstance bonus on sound-based Perception checks but must use one hand to hold the trumpet to the ear in order to gain the benefit. A masterwork ear trumpet's exquisite acoustic properties grant the listener a +4 circumstance bonus instead.",
 			"",
@@ -1528,7 +1533,8 @@
 		"description": [
 			"## False teeth",
 			"‹SOURCE Adventurer's Armory 2/13›  ",
-			"**Price** 100 gp (clockwork), 5 gp (common), 50 gp (masterwork); **Weight** 1/2 lb. (clockwork), - (common), - (masterwork)",
+			"**Price** 100 gp (clockwork), 5 gp (common), 50 gp (masterwork); **Weight** 1/2 lb. (clockwork), - (common), - (masterwork)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"These prosthetics are used as a replacement for lost or missing teeth. False teeth fashioned from wood or animal teeth are more common, while masterwork varieties are sculpted from bone or porcelain. Clockwork false teeth are novelties with mechanisms allowing the teeth to clatter and move on their own. Winding the clockworks is a move action, and the teeth move forward over flat surfaces at a rate of 5 feet per round for 10 rounds after one winding."
 		]
@@ -1775,7 +1781,8 @@
 		"description": [
 			"## Musical instrument",
 			"‹SOURCE Ultimate Equipment/77;PRPG Core Rulebook/158›  ",
-			"**Price** 5 gp (common), 100 gp (masterwork); **Weight** 3 lbs. (common), 3 lbs. (masterwork)",
+			"**Price** 5 gp (common), 100 gp (masterwork); **Weight** 3 lbs. (common), 3 lbs. (masterwork)  ",
+			"**Category** Tools",
 			"",
 			"If you want to perform using a Perform skill associated with a musical instrument (keyboard, percussion, string, or wind), you must have an appropriate musical instrument; otherwise you can't use the skill. The listed cost and weight is for a typical small instrument you could carry by hand, such as a drum, lyre, bell, harp, or flute; larger instruments such as a cello or piano are of course larger and more expensive.",
 			"",
@@ -2296,7 +2303,8 @@
 		"description": [
 			"## Oozing vat",
 			"‹SOURCE Alchemy Manual/23›  ",
-			"**Price** 500 gp (gargantuan), 200 gp (huge), 50 gp (large), 10 gp (medium), 1 gp (small); **Weight** 10,000 lbs. (gargantuan), 2,000 lbs. (huge), 200 lbs. (large), 20 lbs. (medium), 2 lbs. (small)",
+			"**Price** 500 gp (gargantuan), 200 gp (huge), 50 gp (large), 10 gp (medium), 1 gp (small); **Weight** 10,000 lbs. (gargantuan), 2,000 lbs. (huge), 200 lbs. (large), 20 lbs. (medium), 2 lbs. (small)  ",
+			"**Category** Alchemical Tools",
 			"",
 			"These earthenware vats are made from a special clay sludge dredged from Oenopion's central lake and infused with ooze distillates. After being fired in a massive kiln, an oozing vat is typically embedded with glass-fiber tubing designed to carry electrical charges to growing oozes. In order to craft an ooze creature using the ‹feat/Craft Ooze› feat, a creator must have access to an oozing vat large enough to contain the created ooze."
 		]
@@ -2347,7 +2355,8 @@
 		"description": [
 			"## Orrery",
 			"‹SOURCE People of the Stars/26›  ",
-			"**Price** 2,000 gp (calculating grand), 1,500 gp (calculating standard), 200 gp (calculating tellurium), 1,000 gp (grand), 750 gp (standard), 100 gp (tellurium); **Weight** 12 lbs. (calculating grand), 5 lbs. (calculating standard), 2 lbs. (calculating tellurium), 12 lbs. (grand), 5 lbs. (standard), 2 lbs. (tellurium)",
+			"**Price** 2,000 gp (calculating grand), 1,500 gp (calculating standard), 200 gp (calculating tellurium), 1,000 gp (grand), 750 gp (standard), 100 gp (tellurium); **Weight** 12 lbs. (calculating grand), 5 lbs. (calculating standard), 2 lbs. (calculating tellurium), 12 lbs. (grand), 5 lbs. (standard), 2 lbs. (tellurium)  ",
+			"**Category** Tools",
 			"",
 			"This complex mechanism simulates the angles and relative distances between one or more bodies in a solar system in relation to the system's star with marks or spheres on moving gears or arms. Anyone consulting an orrery gains a +2 circumstance bonus on Knowledge (geography) checks involving bodies it models and on Survival checks to navigate the void of space. An orrery can be used in combination with a ‹eq-misc/sextant› on a clear night to determine the time on any of the stellar bodies it models. Any orrery can be used as a focus component for the ‹spell/augury› spell in place of that spell's normal focus.",
 			"",
@@ -2425,7 +2434,8 @@
 		"description": [
 			"## Owl",
 			"‹SOURCE Adventurer's Armory/19›  ",
-			"**Price** 20 gp (common), 20 gp (Verduran); **Weight** 1-3 lbs. (common), 3 lbs. (Verduran)",
+			"**Price** 20 gp (common), 20 gp (Verduran); **Weight** 1-3 lbs. (common), 3 lbs. (Verduran)  ",
+			"**Category** Mounts/Pets",
 			"",
 			"These Tiny birds of prey are mainly nocturnal and are known for their keen eyes and near-silent flight. Owls eat small animals and insects, and can be found in nearly any environment. Some farmers create owl homes near fields and barns to control rodent populations. The smartest owls make excellent familiars."
 		]
@@ -2452,7 +2462,8 @@
 		"description": [
 			"## Pack Animal",
 			"‹SOURCE Adventurer's Armory/19›  ",
-			"**Price** 8 gp Pack animal (donkey/mule), 15 gp Pack animal (ox), 24 gp Pack animal (yak); **Weight** 600 lbs. Pack animal (donkey/mule), 1 ton Pack animal (ox), 2 tons Pack animal (yak)",
+			"**Price** 8 gp Pack animal (donkey/mule), 15 gp Pack animal (ox), 24 gp Pack animal (yak); **Weight** 600 lbs. Pack animal (donkey/mule), 1 ton Pack animal (ox), 2 tons Pack animal (yak)  ",
+			"**Category** Mounts/Pets",
 			"",
 			"Working animals are universal, but the animal type varies according to local availability. Elephants carry goods in much of the Mwangi Expanse. Yaks pull loads in mountainous regions. In many other parts of the Inner Sea, donkeys, mules, and oxen pull carts or plows. The donkey market in Katapesh is particularly brisk."
 		]
@@ -2596,7 +2607,8 @@
 		"description": [
 			"## Parasol",
 			"‹SOURCE Ultimate Equipment/77›  ",
-			"**Price** 1 gp (common), 2 gp (umbrella); **Weight** 2 lbs. (common), 3 lbs. (umbrella)",
+			"**Price** 1 gp (common), 2 gp (umbrella); **Weight** 2 lbs. (common), 3 lbs. (umbrella)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"This folding umbrella is translucent and not waterproof. It cuts down on the heat from direct sunlight. In very hot conditions where the sun is a factor (such as a desert), it gives you a +1 circumstance bonus on your hourly Fortitude saves against ‹rule/heat›, and reduces the damage from a failed save by 1 hit point (minimum 1). It provides insufficient protection in conditions of severe or extreme heat. You must hold a parasol in one hand and use it to shade yourself from the sun. Alternatively, you can hold the parasol and use it to shade another creature of your size or smaller. The listed price is for a simple, functional parasol made of fabric or lacquered paper. A parasol used as a fashion accessory can be far more expensive, depending on the materials used, and can cost from 1 gp to 10 gp.",
 			"",
@@ -2886,7 +2898,8 @@
 		"description": [
 			"## Perfume/Cologne",
 			"‹SOURCE Inner Sea World Guide/293;Pathfinder Campaign Setting/213;Curse of the Crimson Throne Player's Guide/12›  ",
-			"**Price** 1 gp/dose Perfume (common), 100 gp/dose Perfume (exotic), 10 gp/dose Perfume (rare); **Weight** - Perfume (common), - Perfume (exotic), - Perfume (rare)",
+			"**Price** 1 gp/dose Perfume (common), 100 gp/dose Perfume (exotic), 10 gp/dose Perfume (rare); **Weight** - Perfume (common), - Perfume (exotic), - Perfume (rare)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"Perfume and cologne are common accessories for those who hope to avoid offending through scent. Exotic scents are sold in vials containing 10 applications, with a single dose lasting for 24 hours during which its wearer gains a +2 circumstance bonus on all Diplomacy checks (save for those against creatures who, at the GM's discretion, would not be swayed by scent).",
 			"",
@@ -3120,7 +3133,8 @@
 		"description": [
 			"## Pirate clothes",
 			"‹SOURCE Pirates of the Inner Sea/21›  ",
-			"**Price** 1 sp (basic), 30 gp (fancy); **Weight** 2 lbs. (basic), 6 lbs. (fancy)",
+			"**Price** 1 sp (basic), 30 gp (fancy); **Weight** 2 lbs. (basic), 6 lbs. (fancy)  ",
+			"**Category** Clothing",
 			"",
 			"Pirates can appear in a variety of clothing styles, but most wear a basic outfit consisting of a linen shirt, canvas knee-breeches, cotton stockings, and leather shoes (though some pirates prefer to go barefoot at sea). In addition, well-to-do pirates, particularly pirate captains, often add fancy touches to their outfits, such as colorful jackets of velvet or silk done up with brass buttons, tall leather boots, ruffled collars, and plumed hats. Sailors in warmer climates may instead go shirtless and wear nothing but loose pantaloons."
 		]
@@ -3339,7 +3353,8 @@
 		"description": [
 			"## Treasure chest",
 			"‹SOURCE Adventurer's Armory 2/12›  ",
-			"**Price** 7 gp (medium), 37 gp (huge), 15 gp (large), 3 gp (small); **Weight** 50 lbs. (medium), 250 lbs. (huge), 100 lbs. (large), 25 lbs. (small)",
+			"**Price** 7 gp (medium), 37 gp (huge), 15 gp (large), 3 gp (small); **Weight** 50 lbs. (medium), 250 lbs. (huge), 100 lbs. (large), 25 lbs. (small)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"A treasure chest is a common wooden ‹eq-misc/chest› treated with resin to make the wood water-resistant. Metal bands, usually bronze to prevent rusting, are strapped around the treasure chest for extra reinforcement, and the lock is also typically made of bronze. A treasure chest uses the statistics of an ordinary wooden chest, but its hit points increase by 25% and its break DC increases by 2. Treasure chests are waterproof and withstand being buried better than ordinary chests"
 		]
@@ -3917,7 +3932,8 @@
 		"description": [
 			"## Waffle iron",
 			"‹SOURCE Ultimate Equipment/58›  ",
-			"**Price** 1 gp (common), 2,501 gp (mithral); **Weight** 5 lbs. (common), 2-1/2 lbs. (mithral)",
+			"**Price** 1 gp (common), 2,501 gp (mithral); **Weight** 5 lbs. (common), 2-1/2 lbs. (mithral)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"This pair of hinged metal plates is decorated with studs to add texture to the pastry cakes you cook with it. You pour batter on it, close it, and place it on a fire or stove to cook. Some waffle irons have plates that imprint the waffle with a noble's coat of arms, a religious symbol, or a country's flag. A mithral waffle iron almost always bears a specific insignia rather than the generic waffle pattern. As with other mithral cookware, food rarely sticks to a mithral waffle iron."
 		]
@@ -4213,7 +4229,8 @@
 		"description": [
 			"## Weapon blanch",
 			"‹SOURCE Ultimate Equipment/103;Advanced Player's Guide/184›  ",
-			"**Price** 100 gp (adamantine), 20 gp (cold iron), 5 gp (silver); **Weight** 1/2 lb. (adamantine), 1/2 lb. (cold iron), 1/2 lb. (silver)",
+			"**Price** 100 gp (adamantine), 20 gp (cold iron), 5 gp (silver); **Weight** 1/2 lb. (adamantine), 1/2 lb. (cold iron), 1/2 lb. (silver)  ",
+			"**Category** Alchemical Tools",
 			"",
 			"These silver, alchemical powders have a gritty consistency, appearing at first glance to be simple metal shavings. When poured on a weapon and placed over a hot flame for a full round, however, they melt and form a temporary coating on the weapon. The blanching gives the weapon the ability to bypass one kind of material-based damage reduction, such as adamantine, cold iron, or silver. The blanching remains effective until you make a successful attack with the weapon. Each dose of blanching can coat one weapon or up to 10 pieces of ammunition. Only one kind of weapon blanch can be on a weapon at one time, though a weapon made of one special material (such as adamantine) can have a different material blanch (such as silver), and counts as both materials for the first successful hit.",
 			"",
@@ -4374,7 +4391,8 @@
 		"description": [
 			"## Whistle",
 			"‹SOURCE Ultimate Equipment/57;Advanced Player's Guide/183;PRPG Core Rulebook/158;Adventurer's Armory/19›  ",
-			"**Price** 8 sp (signal), 9 sp (silent); **Weight** - (signal), - (silent)",
+			"**Price** 8 sp (signal), 9 sp (silent); **Weight** - (signal), - (silent)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"With a DC 5 Perform (wind) check, you can use a whistle to signal the same sorts of situations as signal horns. A whistle's piercing report can be clearly heard (Perception DC 0) up to a quarter-mile away. For each quarter-mile beyond, Perception checks to hear a whistle take a -2 penalty. Silent whistles that only animals and other creatures with keen hearing can hear also exist."
 		]
@@ -4485,7 +4503,8 @@
 		"description": [
 			"## Wine",
 			"‹SOURCE Ultimate Equipment/95;PRPG Core Rulebook/159›  ",
-			"**Price** 2 sp (common, pitcher), 10 gp (fine, bottle); **Weight** 6 lbs. (common, pitcher), 1-1/2 lbs. (fine, bottle)",
+			"**Price** 2 sp (common, pitcher), 10 gp (fine, bottle); **Weight** 6 lbs. (common, pitcher), 1-1/2 lbs. (fine, bottle)  ",
+			"**Category** Food/Drink",
 			"",
 			"Wine is made from fermented fruit juice, usually grapes, but also sometimes berries, apples, or even rice (sake). The lower listed price is for unremarkable common wine and the higher is for significantly finer wine, though wine from certain vintners (and specific years) may fetch much higher prices. In colder climates, wine is often mulled with fruit, spices, honey, and almonds and served as a warming beverage during the winter."
 		]
@@ -4609,7 +4628,8 @@
 		"description": [
 			"## Wire saw",
 			"‹SOURCE Ultimate Equipment/58›  ",
-			"**Price** 150 gp (adamantine), 30 gp (common); **Weight** - (adamantine), - (common)",
+			"**Price** 150 gp (adamantine), 30 gp (common); **Weight** - (adamantine), - (common)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"This flexible saw consists of an abrasive wire hooked to two metal rings. By feeding the wire around a deadbolt or small door bar, you can use the rings to quietly saw through the obstruction. The saw takes 10 minutes to cut through a 2-inch piece of wood or a 1-inch iron bar. A wire saw can cut through items with hardness 10 or less. After five uses, the abrasive wire is worn smooth and must be replaced (costing 25 gp).",
 			"",
@@ -4683,7 +4703,8 @@
 		"description": [
 			"## Woad painting",
 			"‹SOURCE Advanced Class Guide/208›  ",
-			"**Price** 300 gp (kit), 60 gp (paint, 1 block); **Weight** 1 lb. (kit), - (paint, 1 block)",
+			"**Price** 300 gp (kit), 60 gp (paint, 1 block); **Weight** 1 lb. (kit), - (paint, 1 block)  ",
+			"**Category** Alchemical Tools",
 			"",
 			"Though associated with the woad plant, the alchemical ingredients of this blue paste can vary considerably. When preparing a spell, you can grind the spell's material components and mix them into this paste to paint the components directly onto your flesh, allowing you to cast that spell as if you had applied ‹feat/Eschew Materials›. Additionally, by painting complex woad designs that symbolize gestures for 10 minutes and succeeding at a Spellcraft check with a DC equal to 15 + the spell level, you can also cast the spell as if you had applied ‹feat/Still Spell›. You can have only one spell painted on you in this way at a time, and if you cast the prepared spell or the paint is removed for any reason, the effects of the woad paint are spent.",
 			"",
@@ -4715,7 +4736,8 @@
 		"description": [
 			"## Woolly mammoth",
 			"‹SOURCE Belkzen, Hold of the Orc Hordes/39›  ",
-			"**Price** 4,500 gp (combat-trained), 3,000 gp (normal); **Weight** 6 tons (combat-trained), 6 tons (normal)",
+			"**Price** 4,500 gp (combat-trained), 3,000 gp (normal); **Weight** 6 tons (combat-trained), 6 tons (normal)  ",
+			"**Category** Mounts/Pets",
 			"",
 			"Poached from the Realm of the Mammoth Lords, these hairy pachyderms are used by the orcs of Belkzen as mounts and living siege engines. As if these mounts weren't intimidating enough, the orcs outfit them with spiked metal barding and tusk blades."
 		]
@@ -4832,7 +4854,8 @@
 		"description": [
 			"## Zip-line hook",
 			"‹SOURCE Villain Codex/128›  ",
-			"**Price** 55 gp (masterwork), 5 gp (normal); **Weight** 1 lb. (masterwork), 1 lb. (normal)",
+			"**Price** 55 gp (masterwork), 5 gp (normal); **Weight** 1 lb. (masterwork), 1 lb. (normal)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"This blunt iron hook secures to the user's forearm with a sturdy strap. When this item is hooked onto a rope or a similar object that has been fastened at a downward angle, the owner can use it to climb down the rope at a speed of 30 feet as a move action instead of climbing at her normal speed, but the user must take at least one move action doing so each round or she falls. Using a zip-line hook in this way requires a successful DC 5 Climb check for declinations of 90 degrees (straight down), increasing by 5 for every 15 degrees off that baseline in either direction, to a maximum DC of 30 at a 15- or 165-degree declination. It is impossible to utilize a zip-line hook on a rope without a slope, or to ascend an upward-sloping one.",
 			"",

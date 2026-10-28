@@ -19,7 +19,8 @@
 		"description": [
 			"## Fetters",
 			"‹SOURCE Advanced Race Guide/123›  ",
-			"**Price** 15 gp (common), 50 gp (masterwork); **Weight** 2 lbs. (common), 2 lbs. (masterwork)",
+			"**Price** 15 gp (common), 50 gp (masterwork); **Weight** 2 lbs. (common), 2 lbs. (masterwork)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"Fetters are ‹eq-misc/manacles› fitted around the ankles rather than the wrists, and use the same rules for breaking, escape, and cost relative to size. A creature in fetters is ‹rule/entangled› and can only move at half speed. In addition, a fettered creature must succeed at a DC 15 Acrobatics check to move more than its (reduced) speed in a round. If it fails the check by 5 or more, the creature falls ‹rule/prone›."
 		]
@@ -305,7 +306,8 @@
 			"",
 			"## Flag",
 			"‹SOURCE Pirates of the Inner Sea/21›  ",
-			"**Price** 5 gp (ensign or courtesy, large), 2 gp (ensign or courtesy, small), 10 gp (personal signal, large), 4 gp (personal signal, small); **Weight** 1 lb. (ensign or courtesy, large), - (ensign or courtesy, small), 1 lb. (personal signal, large), - (personal signal, small)",
+			"**Price** 5 gp (ensign or courtesy, large), 2 gp (ensign or courtesy, small), 10 gp (personal signal, large), 4 gp (personal signal, small); **Weight** 1 lb. (ensign or courtesy, large), - (ensign or courtesy, small), 1 lb. (personal signal, large), - (personal signal, small)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"Small nautical flags measure 3 feet by 5 feet, while large ones measure 6 feet by 10 feet. Most ships fly a large national flag (or \"ensign\") and a small courtesy flag (the flag of the nation whose waters it's sailing in) as well as a personal signal, but flag sizes depend on ship size and personal preference.",
 			"",
@@ -415,7 +417,8 @@
 		"description": [
 			"## Fleshgem",
 			"‹SOURCE Advanced Race Guide/147›  ",
-			"**Price** 1 gp (decorative), 50 gp (spikes); **Weight** - (decorative), 5 lbs. (spikes)",
+			"**Price** 1 gp (decorative), 50 gp (spikes); **Weight** - (decorative), 5 lbs. (spikes)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"An ‹race/oread› adventurer discovered these small green gemstones when, after suffering a wound from falling on some jagged stones while exploring a cavern, she noticed pieces of beautiful green crystal growing from her skin. Oread jewelers found that these crystals, dubbed fleshgems, seemed to feed on the elemental energy that permeates an oread's flesh, growing from tiny chips of stone into large, elaborate gemstones. Essentially harmless, implanting fleshgems became a unique racial method of body alteration among oreads, equivalent to tattoos and piercings among other humanoids. Decorative fleshgems cost 1 gp and are merely ornamental. Fleshgem spikes, on the other hand, grow into elaborate crystalline shards that function as ‹eq-armorenh/armor spikes›, but the oread wearing them cannot wear armor over the spikes and even normal clothing requires special holes or seams to allow the spikes to stick out. Implanting a set of fleshgem spikes takes 10 minutes, and the resulting shard takes about a week to grow to full size. Removing a fleshgem takes 1 minute; the person removing the gem must make a successful DC 15 Heal check to avoid dealing 1d4 points of damage to the oread. The fleshgem spikes can be sundered or destroyed as if the growths were a worn object (hardness 1, 5 hp), but unless the embedded root of the fleshgem is removed, the shards grow back 1 week later."
 		]
@@ -469,7 +472,8 @@
 		"description": [
 			"## Flying straps",
 			"‹SOURCE Monster Codex/105›  ",
-			"**Price** 80 gp (masterwork), 10 gp (standard); **Weight** 10 lbs. (masterwork), 10 lbs. (standard)",
+			"**Price** 80 gp (masterwork), 10 gp (standard); **Weight** 10 lbs. (masterwork), 10 lbs. (standard)  ",
+			"**Category** Animal Gear",
 			"",
 			"These crude straps are used to secure a goblin or other small creature to the underside of a dire bat or giant vulture. These straps count as an exotic riding saddle. If the mount fails a Fly check, there's a 50% chance the straps break and the rider falls. Masterwork flying straps count as an exotic military saddle, and don't have a chance to break if the mount fails a Fly check."
 		]
@@ -709,7 +713,8 @@
 		"description": [
 			"## Fortune-teller's deck",
 			"‹SOURCE Ultimate Equipment/77;Advanced Player's Guide/184›  ",
-			"**Price** 1 gp (common), 50 gp (masterwork), 25 gp (quality); **Weight** 1/2 lb. (common), 1 lb. (masterwork), 1 lb. (quality)",
+			"**Price** 1 gp (common), 50 gp (masterwork), 25 gp (quality); **Weight** 1/2 lb. (common), 1 lb. (masterwork), 1 lb. (quality)  ",
+			"**Category** Tools",
 			"",
 			"This deck of illustrated cards is used by those in tune with the spirit world to predict the future - and by charlatans to take money from the gullible. A common deck only has simple drawings on simple wooden plaques. A quality fortune-teller's deck usually consists of wooden plaques with painted color images; it is suitable as a focus for the ‹spell/augury› spell, and provides a +1 circumstance bonus on Profession (fortune-teller), Profession (medium), and similar Profession checks. A masterwork fortune-teller's deck may be wood, ivory, or even metal, with painted or carved images, and is often highlighted with gold inlays or tiny gems; it has all the benefits of a quality deck, except it provides a +2 circumstance bonus on the listed skill checks."
 		]
@@ -917,7 +922,8 @@
 		"description": [
 			"## Gambler's kit",
 			"‹SOURCE Ultimate Equipment/56›  ",
-			"**Price** 300 gp (cheating), 75 gp (common); **Weight** 5 lbs. (cheating), 5 lbs. (common)",
+			"**Price** 300 gp (cheating), 75 gp (common); **Weight** 5 lbs. (cheating), 5 lbs. (common)  ",
+			"**Category** Kits",
 			"",
 			"Particularly useful for travelers moving through areas too small or remote to support a full-time place for gambling, this small, tightly packed suitcase holds ‹eq-misc/deck«s» of cards›, a betting wheel, numbered cloths, colored wooden chips, and a wide variety of other sorts of specialized equipment necessary for many different games of chance. A cheating gambler's kit is very similar, except its cards are marked and its games are rigged, giving a knowledgeable user a +4 circumstance bonus on Profession (gambler) checks when using these materials. A DC 25 Perception or DC 20 Profession (gambler) check exposes the ruse."
 		]
@@ -1005,7 +1011,8 @@
 		"description": [
 			"## Gecko",
 			"‹SOURCE Ultimate Equipment/81;Advanced Race Guide/105›  ",
-			"**Price** 300 gp (riding), 400 gp (riding, combat trained); **Weight** 1,200 lbs. (riding), 1,500 lbs. (riding, combat trained)",
+			"**Price** 300 gp (riding), 400 gp (riding, combat trained); **Weight** 1,200 lbs. (riding), 1,500 lbs. (riding, combat trained)  ",
+			"**Category** Mounts/Pets",
 			"",
 			"Larger than even giant geckos, these mammoth lizards have been specifically bred to be used as mounts. Prized for their ability to run along cave ceilings and sheer walls, they require ‹eq-misc/exotic saddle«s› to ride. A riding gecko has the same statistics as a giant gecko with the ‹template/giant« template›."
 		]
@@ -1073,7 +1080,8 @@
 		"description": [
 			"## Giant seahorse",
 			"‹SOURCE Blood of the Sea/19›  ",
-			"**Price** 500 gp (combat trained), 350 gp (normal); **Weight** 1,200 lbs. (combat trained), 1,100 lbs. (normal)",
+			"**Price** 500 gp (combat trained), 350 gp (normal); **Weight** 1,200 lbs. (combat trained), 1,100 lbs. (normal)  ",
+			"**Category** Mounts/Pets",
 			"",
 			"Giant seahorses are commonly used as mounts and beasts of burden by undersea races such as aquatic elves and tritons. Although they are often dismissed as too skittish to be ridden into a fight, seahorses are clever and, with diligent training, make loyal war steeds. Tritons in particular pride themselves on breeding and training seahorses to fight in battle or to serve as guard animals."
 		]
@@ -1281,7 +1289,8 @@
 		"description": [
 			"## Grappling hook",
 			"‹SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158›  ",
-			"**Price** 1 gp (common), 2,001 gp (mithral); **Weight** 4 lbs. (common), 2 lbs. (mithral)",
+			"**Price** 1 gp (common), 2,001 gp (mithral); **Weight** 4 lbs. (common), 2 lbs. (mithral)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"Throwing a grappling hook requires a ranged attack roll, treating the hook as a thrown weapon with a range increment of 10 feet. Objects with ample places to catch the hook have an AC of 5."
 		]
@@ -1351,7 +1360,8 @@
 		"description": [
 			"## Grog",
 			"‹SOURCE Pirates of the Inner Sea/21›  ",
-			"**Price** 1 cp (cup), 1 sp (gallon), 2 cp (mug); **Weight** 1 lb. (cup), 8 lbs. (gallon), 1/2 lb. (mug)",
+			"**Price** 1 cp (cup), 1 sp (gallon), 2 cp (mug); **Weight** 1 lb. (cup), 8 lbs. (gallon), 1/2 lb. (mug)  ",
+			"**Category** Food/Drink",
 			"",
 			"Sailors, especially on pirate crews, often demand daily rations of alcohol. To prevent hoarding of alcohol (resulting in drunkenness and subsequent hangovers), most captains mix alcohol with water and a bit of lime or lemon juice to make grog. The water dilutes the alcohol and causes it to spoil more quickly, while the citrus juice masks the taste of spoilage and also prevents scurvy."
 		]
@@ -1901,7 +1911,8 @@
 		"description": [
 			"## Hippocampus",
 			"‹SOURCE Aquatic Adventures/56›  ",
-			"**Price** 750 gp (combat-trained), 500 gp (common); **Weight** 1,300 lbs. (combat-trained), 1,000 lbs. (common)",
+			"**Price** 750 gp (combat-trained), 500 gp (common); **Weight** 1,300 lbs. (combat-trained), 1,000 lbs. (common)  ",
+			"**Category** Mounts/Pets",
 			"",
 			"Though somewhat rarer than horses on the surface world, ‹monster/hippocamp«i<us› are roughly as easy to train as horses, despite being magical beasts. Even combat-trained hippocampi rarely wear barding, and even then nothing heavier than leather, as it interferes with their swimming."
 		]
@@ -1944,7 +1955,8 @@
 		"description": [
 			"## Hireling",
 			"‹SOURCE Ultimate Equipment/99;PRPG Core Rulebook/159›  ",
-			"**Price** 3 sp per day (trained), 1 sp per day (untrained); **Weight** - (trained), - (untrained)",
+			"**Price** 3 sp per day (trained), 1 sp per day (untrained); **Weight** - (trained), - (untrained)  ",
+			"**Category** Lodging/Services",
 			"",
 			"This listing is for any other sort of typical employment not covered by another service or job in this section. An untrained hireling is a crier, laborer, maid, mourner, porter, or other menial worker. A trained hireling is a mason, mercenary warrior, carpenter, blacksmith, cook, scribe, painter, teamster, and so on. The listed price represents a minimum wage for an adequately skilled worker, and an expert hireling usually requires significantly higher pay. The listed price is a day's wages (generally 7-10 hours of work per day).",
 			"",
@@ -1961,7 +1973,8 @@
 		"description": [
 			"## Hireling, crier",
 			"‹SOURCE Merchant's Manifest/5›  ",
-			"**Price** 10 gp per day (masterful), 3 gp per day (skilled), 1 gp per day (trained), 3 sp per day (untrained); **Weight** - (masterful), - (skilled), - (trained), - (untrained)",
+			"**Price** 10 gp per day (masterful), 3 gp per day (skilled), 1 gp per day (trained), 3 sp per day (untrained); **Weight** - (masterful), - (skilled), - (trained), - (untrained)  ",
+			"**Category** Lodging/Services",
 			"",
 			"A crier can be hired to spread a rumor. An untrained crier usually has a +0 bonus on propaganda checks. A trained crier usually has a +5 bonus on propaganda checks. A skilled crier usually has a +10 bonus on propaganda checks. A masterful crier is rare and usually has a +12 bonus on propaganda checks. If they are available, multiple criers can be hired to spread a single rumor; they attempt a single propaganda check together and gain a +1 bonus for every doubling of their numbers (+1 for two, +2 for four, +3 for eight, +4 for 16, or a maximum of +5 for 32 criers)."
 		]
@@ -2144,7 +2157,8 @@
 		"description": [
 			"## Holy symbol",
 			"‹SOURCE Ultimate Equipment/57;NPC Codex/56, 58›  ",
-			"**Price** 100 gp (gold), 5 gp (iron), 500 gp (cold iron or platinum), 25 gp (silver), 1 gp (wooden); **Weight** 1 lb. (gold, iron, cold iron, platinum, silver), - (wooden)",
+			"**Price** 100 gp (gold), 5 gp (iron), 500 gp (cold iron or platinum), 25 gp (silver), 1 gp (wooden); **Weight** 1 lb. (gold, iron, cold iron, platinum, silver), - (wooden)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"A holy symbol focuses positive energy and is used by good clerics and paladins (or by neutral clerics who want to cast good spells or channel positive energy). Each religion has its own holy symbol. The material used to make the holy symbol has no effect on its powers, though a religion may place special significance on a particular material.",
 			"",
@@ -2334,7 +2348,8 @@
 		"description": [
 			"## Horse",
 			"‹SOURCE Ultimate Equipment/81;PRPG Core Rulebook/159;Adventurer's Armory/19›  ",
-			"**Price** 200 gp (heavy), 300 gp (heavy, combat trained), 75 gp (light), 110 gp (light, combat trained), 30 gp (pony), 45 gp (pony, combat trained); **Weight** 2,000 lbs. (heavy), 3,000 lbs. (heavy, combat trained), 900 lbs. (light), 1,200 lbs. (light, combat trained), 800 lbs. (pony), 900 lbs. (pony, combat trained)",
+			"**Price** 200 gp (heavy), 300 gp (heavy, combat trained), 75 gp (light), 110 gp (light, combat trained), 30 gp (pony), 45 gp (pony, combat trained); **Weight** 2,000 lbs. (heavy), 3,000 lbs. (heavy, combat trained), 900 lbs. (light), 1,200 lbs. (light, combat trained), 800 lbs. (pony), 900 lbs. (pony, combat trained)  ",
+			"**Category** Mounts/Pets",
 			"",
 			"This Large quadruped is used as a mount and pack animal. Horses can be trained for combat but otherwise are skittish around battle. Many cultures support breeding programs and often consider their horse the best at whatever task they breed it to perform.",
 			"",
@@ -2503,7 +2518,8 @@
 		"description": [
 			"## Hourglass",
 			"‹SOURCE Ultimate Equipment/57;Adventurer's Armory/19;Advanced Player's Guide/181›  ",
-			"**Price** 25 gp (1 hour), 20 gp (1 minute), 10 gp (6 seconds); **Weight** 1 lb. (1 hour), 1/2 lb. (1 minute), - (6 seconds)",
+			"**Price** 25 gp (1 hour), 20 gp (1 minute), 10 gp (6 seconds); **Weight** 1 lb. (1 hour), 1/2 lb. (1 minute), - (6 seconds)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"The standard hourglass takes 1 hour to empty the sand from the upper chamber; smaller ones that mark time more precisely are also readily available, in 1-minute and 6-second sizes. Hourglasses tracking more than an hour are rare."
 		]
@@ -2588,7 +2604,8 @@
 		"description": [
 			"## Hypnotist's locket",
 			"‹SOURCE Occult Adventures/249›  ",
-			"**Price** 15 gp (locket), 250 gp (pocket watch); **Weight** 1 lb. (locket), 1 lb. (pocket watch)",
+			"**Price** 15 gp (locket), 250 gp (pocket watch); **Weight** 1 lb. (locket), 1 lb. (pocket watch)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"A small, elliptical metal case containing a small portrait or keepsake, a hypnotist's locket can be attached to a belt or worn as a pendant. When hanging from a metal chain, a hypnotist's locket grants a +2 circumstance bonus on Diplomacy checks for the ‹skill/hypnotism› occult skill unlock.",
 			"",
@@ -2828,7 +2845,8 @@
 		"description": [
 			"## Inn stay",
 			"‹SOURCE Ultimate Equipment/99;PRPG Core Rulebook/159›  ",
-			"**Price** 5 sp (common), 2 gp (good), 2 sp (poor), 16 gp (suite, average), 32 gp+ (suite, luxurious), 4 gp (suite, small); **Weight** - (common), - (good), - (poor), - (suite, average), - (suite, luxurious), - (suite, small)",
+			"**Price** 5 sp (common), 2 gp (good), 2 sp (poor), 16 gp (suite, average), 32 gp+ (suite, luxurious), 4 gp (suite, small); **Weight** - (common), - (good), - (poor), - (suite, average), - (suite, luxurious), - (suite, small)  ",
+			"**Category** Lodging/Services",
 			"",
 			"The listed price is for a single night's stay at an inn. Poor accommodations at an inn amount to a place on the floor near the hearth. Common accommodations consist of a place on a raised, heated floor and the use of a blanket and a pillow. Good accommodations consist of a small, private room with one bed, some amenities, and a covered chamber pot in the corner.",
 			"",
@@ -2998,7 +3016,8 @@
 		"description": [
 			"## Invisible ink",
 			"‹SOURCE Ultimate Equipment/103;Adventurer's Armory/19›  ",
-			"**Price** 10 gp (average), 25 gp (good), 2 gp (simple), 75 gp (superior); **Weight** - (average), - (good), - (simple), - (superior)",
+			"**Price** 10 gp (average), 25 gp (good), 2 gp (simple), 75 gp (superior); **Weight** - (average), - (good), - (simple), - (superior)  ",
+			"**Category** Alchemical Tools",
 			"",
 			"Invisible ink is a staple of spies, rebels, and secret societies everywhere. Messages written with invisible ink only become visible under specific circumstances. Revealing the secret message with the proper triggering agent is a full-round action per page of text. A successful Craft (alchemy) check reveals the message without the proper trigger and takes 1 hour (the DC varies by ink quality).",
 			"",
@@ -3061,7 +3080,8 @@
 		"description": [
 			"## Iron mask",
 			"‹SOURCE Path of the Hellknight/15›  ",
-			"**Price** 75 gp (common), 150 gp (masterwork); **Weight** 10 lbs. (common), 15 lbs. (masterwork)",
+			"**Price** 75 gp (common), 150 gp (masterwork); **Weight** 10 lbs. (common), 15 lbs. (masterwork)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"This plain but heavy iron helmet covers the entire head and fastens around the neck and shoulders. The wearer becomes difficult to identify, as the mask obscures all facial features. A creature wearing an iron mask is always treated as having made an involuntary Disguise skill check with a result of 10 (with no further modifiers). Additionally, the creature can only apply half its Dexterity modifier to Dexterity checks, Dexterity-based skill checks, initiative checks, and Reflex saving throws. The creature adds only half of its Dexterity modifier to its Armor Class and CMD, and to attack rolls, if applicable. The creature treats all other creatures as if they had ‹rule/concealment› against it.",
 			"",
@@ -3437,7 +3457,8 @@
 		"description": [
 			"## Laundry",
 			"‹SOURCE Ultimate Equipment/99›  ",
-			"**Price** 1 sp, 1 gp (magic); **Weight** -, - (magic)",
+			"**Price** 1 sp, 1 gp (magic); **Weight** -, - (magic)  ",
+			"**Category** Lodging/Services",
 			"",
 			"The listed price is for up to four items (such as trousers, an undergarment, shirt, and jacket or vest). Additional items may be washed for 3 cp each. Laundry is finished the next day unless you bring it to the washer early. Magical laundry service is a mage (typically an apprentice wizard) magically and instantly cleaning your clothes with ‹spell/prestidigitation›."
 		]
@@ -3452,7 +3473,8 @@
 		"description": [
 			"## Lawyer",
 			"‹SOURCE Ultimate Equipment/99›  ",
-			"**Price** 3 gp (competent), 10 gp (experienced), 5 sp (novice); **Weight** - (competent), - (experienced), - (novice)",
+			"**Price** 3 gp (competent), 10 gp (experienced), 5 sp (novice); **Weight** - (competent), - (experienced), - (novice)  ",
+			"**Category** Lodging/Services",
 			"",
 			"A lawyer is a person who knows and practices law. A lawyer writes and interprets contracts, represents clients or the government in civil and criminal trials, gives legal advice, or presides over cases as a judge. An experienced lawyer with a successful history can charge higher fees than a novice or competent but unremarkable one. The listed price is per day."
 		]
@@ -3638,7 +3660,8 @@
 		"description": [
 			"## Linguist's codex",
 			"‹SOURCE Adventurer's Armory 2/16›  ",
-			"**Price** 200 gp (expanded), 50 gp (standard); **Weight** 5 lbs. (expanded), 3 lbs. (standard)",
+			"**Price** 200 gp (expanded), 50 gp (standard); **Weight** 5 lbs. (expanded), 3 lbs. (standard)  ",
+			"**Category** Tools",
 			"",
 			"This leather-bound reference tome contains several alphabets used in the various languages of Golarion, along with extensively cross-referenced and indexed words, phrases, and idioms. As long as you speak at least three languages, consulting a standard linguist's codex grants you a +2 circumstance bonus on Linguistics checks when communicating in a language you do not speak.",
 			"",
@@ -3779,7 +3802,8 @@
 		"description": [
 			"## Lizard",
 			"‹SOURCE Adventurer's Armory/19›  ",
-			"**Price** 5 cp (common), 12 gp (Nex gecko); **Weight** 2 oz. (common), 4 oz. (Nex gecko)",
+			"**Price** 5 cp (common), 12 gp (Nex gecko); **Weight** 2 oz. (common), 4 oz. (Nex gecko)  ",
+			"**Category** Mounts/Pets",
 			"",
 			"These Tiny cold-blooded animals can be found in all warm regions and are often quite colorful. They eat insects and have the ability to walk up walls and hang upside down. Varieties of more intelligent lizards are often selected by wizards as familiars."
 		]
@@ -3798,7 +3822,8 @@
 		"description": [
 			"## Loaded dice",
 			"‹SOURCE Ultimate Equipment/92;Adventurer's Armory/19;Advanced Player's Guide/185›  ",
-			"**Price** 10 gp (average), 50 gp (superior); **Weight** - (average), - (superior)",
+			"**Price** 10 gp (average), 50 gp (superior); **Weight** - (average), - (superior)  ",
+			"**Category** Entertainment",
 			"",
 			"Most loaded dice are weighted, with a heavier substance included opposite the desired number. You can spot this tampering with a DC 15 Appraise or Perception check. Superior dice (such as wooden dice carved around a naturally heavy point) have DCs ranging from 20 to 30."
 		]
@@ -3830,7 +3855,8 @@
 		"description": [
 			"## Lock",
 			"‹SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158›  ",
-			"**Price** 40 gp (average), 80 gp (good), 20 gp (simple), 150 gp (superior); **Weight** 1 lb. (average), 1 lb. (good), 1 lb. (simple), 1 lb. (superior)",
+			"**Price** 40 gp (average), 80 gp (good), 20 gp (simple), 150 gp (superior); **Weight** 1 lb. (average), 1 lb. (good), 1 lb. (simple), 1 lb. (superior)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"This can be a padlock, an inset lock in a door or chest, or any other type of keyed lock. The DC to open a lock with the Disable Device skill depends on the lock's quality: simple (DC 20), average (DC 25), good (DC 30), or superior (DC 40)."
 		]
@@ -4066,7 +4092,8 @@
 		"description": [
 			"## Lure",
 			"‹SOURCE Kobolds of Golarion/28›  ",
-			"**Price** 20 gp (fake area map), 5 gp (fake coins); **Weight** - (fake area map), - (fake coins)",
+			"**Price** 20 gp (fake area map), 5 gp (fake coins); **Weight** - (fake area map), - (fake coins)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"Among Darklanders, the process of luring surface dwellers into danger is known as \"deepbaiting.\" This practice is highly refined in ‹monster/kobold› culture, and requires a substantial amount of psychological subtlety. Many kobold trappers use physical lures to draw victims into such ambushes. These lures are most often replica items, chosen to appeal to the intended prey. Because kobolds have little in-depth contact with the surface-dwelling world, their replicas lack detail, and usually don't stand up to close inspection.",
 			"",
@@ -4156,7 +4183,8 @@
 		"description": [
 			"## Mammoth",
 			"‹SOURCE People of the North/28›  ",
-			"**Price** 2,250 gp (combat-trained), 2,000 gp (common); **Weight** 8 tons (combat-trained), 8 tons (common)",
+			"**Price** 2,250 gp (combat-trained), 2,000 gp (common); **Weight** 8 tons (combat-trained), 8 tons (common)  ",
+			"**Category** Mounts/Pets",
 			"",
 			"This woollier variety of the mastodon is adapted to cold, and is a larger and more powerfully built cousin to the elephant. A favored beast of burden among Kellid tribes, mammoths are more temperamental than elephants. Combat-trained mammoths are used primarily as mounts by the Kellid tribes of the Realm of the Mammoth Lords. Such beasts might be bought from some tribes, but for a more significant cost. Many Kellids sell mammoths only to those they trust to both respect the animals and not turn the powerful beasts back against their tribe. For more information, see the Bestiary."
 		]
@@ -4331,7 +4359,8 @@
 		"description": [
 			"## Marine rope",
 			"‹SOURCE Blood of the Sea/19›  ",
-			"**Price** 10 gp (treated hemp), 20 gp (woven kelp); **Weight** 12 lbs. (treated hemp), 5 lbs. (woven kelp)",
+			"**Price** 10 gp (treated hemp), 20 gp (woven kelp); **Weight** 12 lbs. (treated hemp), 5 lbs. (woven kelp)  ",
+			"**Category** Adventuring Gear",
 			"",
 			"Rope used by surface dwellers breaks down when submerged for long periods, so undersea dwellers make use of rope designed to withstand their environment. Treated hemp rope is usually created by surfacers in the same manner as hemp rope, but it is infused with beeswax or linseed oil to preserve its integrity underwater. This rope is therefore only commonly used by underwater races that trade with land dwellers on a regular basis. Woven kelp rope is crafted from specially grown seaweed by undersea communities and is much more common in insular or deepwater communities.",
 			"",
@@ -4411,7 +4440,8 @@
 		"description": [
 			"## Masking scent",
 			"‹SOURCE Advanced Class Guide/207›  ",
-			"**Price** 25 gp (animal), 50 gp (humanoid), 100 gp (magical beast); **Weight** - (animal), - (humanoid), - (magical beast)",
+			"**Price** 25 gp (animal), 50 gp (humanoid), 100 gp (magical beast); **Weight** - (animal), - (humanoid), - (magical beast)  ",
+			"**Category** Alchemical Tools",
 			"",
 			"This item comes in a variety of scents (matching any one animal, humanoid, or magical beast). One vial applied to a single Medium-sized creature changes its scent to that of the masking scent's creature for 8 hours.",
 			"",
@@ -4424,7 +4454,8 @@
 		"description": [
 			"## Masking scent",
 			"‹SOURCE Advanced Class Guide/207›  ",
-			"**Price** 25 gp (animal), 50 gp (humanoid), 100 gp (magical beast); **Weight** - (animal), - (humanoid), - (magical beast)",
+			"**Price** 25 gp (animal), 50 gp (humanoid), 100 gp (magical beast); **Weight** - (animal), - (humanoid), - (magical beast)  ",
+			"**Category** Alchemical Tools",
 			"",
 			"This item comes in a variety of scents (matching any one animal, humanoid, or magical beast). One vial applied to a single Medium-sized creature changes its scent to that of the masking scent's creature for 8 hours.",
 			"",
@@ -4437,7 +4468,8 @@
 		"description": [
 			"## Masking scent",
 			"‹SOURCE Advanced Class Guide/207›  ",
-			"**Price** 25 gp (animal), 50 gp (humanoid), 100 gp (magical beast); **Weight** - (animal), - (humanoid), - (magical beast)",
+			"**Price** 25 gp (animal), 50 gp (humanoid), 100 gp (magical beast); **Weight** - (animal), - (humanoid), - (magical beast)  ",
+			"**Category** Alchemical Tools",
 			"",
 			"This item comes in a variety of scents (matching any one animal, humanoid, or magical beast). One vial applied to a single Medium-sized creature changes its scent to that of the masking scent's creature for 8 hours.",
 			"",
@@ -4507,7 +4539,8 @@
 		"description": [
 			"## Mead",
 			"‹SOURCE Ultimate Equipment/95›  ",
-			"**Price** 2 gp (gallon), 5 cp (mug); **Weight** 8 lbs. (gallon), 1/2 lb. (mug)",
+			"**Price** 2 gp (gallon), 5 cp (mug); **Weight** 8 lbs. (gallon), 1/2 lb. (mug)  ",
+			"**Category** Food/Drink",
 			"",
 			"This alcoholic beverage is made by fermenting honey and water. It may be flavored with spices, fruit, or hops."
 		]
@@ -4525,7 +4558,8 @@
 		"description": [
 			"## Meal",
 			"‹SOURCE Ultimate Equipment/95;PRPG Core Rulebook/159›  ",
-			"**Price** 3 sp (common, per day), 5 sp (good, per day), 1 sp (poor, per day); **Weight** - (common, per day), - (good, per day), - (poor, per day)",
+			"**Price** 3 sp (common, per day), 5 sp (good, per day), 1 sp (poor, per day); **Weight** - (common, per day), - (good, per day), - (poor, per day)  ",
+			"**Category** Food/Drink",
 			"",
 			"The listed price is for a day's worth of meals. Poor meals might consist of bread, baked turnips, onions, and water. Common meals might consist of bread, chicken stew, carrots, and watered-down ale or wine. Good meals might consist of bread and pastries, beef, peas, and ale or wine."
 		]
@@ -5202,7 +5236,8 @@
 		"description": [
 			"## Monster hunter's kit",
 			"‹SOURCE Monster Hunter's Handbook/27›  ",
-			"**Price** 257 gp (abberation), 224 gp (fey), 232 gp (ooze), 202 gp (regular); **Weight** 15 1/2 lbs. (abberation), 15 1/2 lbs. (fey), 17 lbs. (ooze), 15 lbs. (regular)",
+			"**Price** 257 gp (abberation), 224 gp (fey), 232 gp (ooze), 202 gp (regular); **Weight** 15 1/2 lbs. (abberation), 15 1/2 lbs. (fey), 17 lbs. (ooze), 15 lbs. (regular)  ",
+			"**Category** Kits",
 			"",
 			"This kit includes a ‹eq-misc/bear trap›, a ‹eq-misc/footprint book›, a ‹eq-misc/scent cloak›, and ‹eq-misc/monster bait› and an ‹eq-misc/odor stalk› keyed to a specific creature type. The kit also contains the following additional items if designed to hunt the following creature types.",
 			"",
