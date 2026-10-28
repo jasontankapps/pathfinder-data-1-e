@@ -17,8 +17,9 @@ interface BaseProps {
 	h?: ReactNode
 	i?: ReactNode
 	j?: ReactNode
+	k?: ReactNode
 }
-type InfoProps = "a" | "b" | "c" | "d" | "e" | "f" | "g" | "h" | "i" | "j";
+type InfoProps = "a" | "b" | "c" | "d" | "e" | "f" | "g" | "h" | "i" | "j" | "k";
 
 interface FormatProps {
 	required: InfoProps[]
@@ -179,17 +180,17 @@ const FormatObject: { [x: string]: FormatProps } = {
 		}
 	},
 	weap2: {
-		required: ["c","d","e","f","h","i"],
+		required: ["d","e","f","g","i","j"],
 		formatter: props => {
-			const {id, a, c, d, e, f} = props;
+			const {id, a, d, e, f, g} = props;
 			// a = if present and true, this is already in a table
 			//
-			// c = damage (s[dmg]m[dmg] format or plain text)
-			// d = critical
-			// e = range (x = none)
-			// f = damage type
-			let damage = c;
-			const m = String(c).match(/^s(.+?)m(.+?)$/);
+			// d = damage (s[dmg]m[dmg] format or plain text)
+			// e = critical
+			// f = range (x = none)
+			// g = damage type
+			let damage = d;
+			const m = String(d).match(/^s(.+?)m(.+?)$/);
 			if(m) {
 				damage = m[1] + " (small), " + m[2] + " (medium)";
 			}
@@ -198,13 +199,13 @@ const FormatObject: { [x: string]: FormatProps } = {
 					<th id={id + "-dmg"} className="hl">Damage</th>
 					<td headers={id + "-dmg"}>{damage}</td>
 					<th id={id + "-crit"} className="hl">Critical</th>
-					<td headers={id + "-crit"}>{d}</td>
+					<td headers={id + "-crit"}>{e}</td>
 				</tr>
 				<tr>
-					<th id={id + "-range"} className={e === "x" ? undefined : "hl"}>Range</th>
-					<td headers={id + "-type"}>{e === "x" ? <>&mdash;</> : e}</td>
+					<th id={id + "-range"} className={f === "x" ? undefined : "hl"}>Range</th>
+					<td headers={id + "-type"}>{f === "x" ? <>&mdash;</> : f}</td>
 					<th id={id + "-type"}>Dmg Type</th>
-					<td headers={id + "-type"}>{f}</td>
+					<td headers={id + "-type"}>{g}</td>
 				</tr>
 			</>);
 			return a ? core : (
@@ -214,34 +215,34 @@ const FormatObject: { [x: string]: FormatProps } = {
 			);
 		},
 		postFormatter: props => {
-			const {g, h, i, j} = props;
-			// g = special (ignored if not present)
-			// h = category (light, one, two, ammo, alch, ?)
-			// i = proficiency (S, M, E, ?)
-			// j = weapon groups (ignored if not present)
+			const {h, i, j, k} = props;
+			// h = special (ignored if not present)
+			// i = category (light, one, two, ammo, alch, ?)
+			// j = proficiency (S, M, E, ?)
+			// k = weapon groups (ignored if not present)
 			return (
 				<ul>
-					{ g ? <li><b>Special Qualities:</b> {g}</li> : <></> }
+					{ h ? <li><b>Special Qualities:</b> {h}</li> : <></> }
 					<li><b>Weapon Category:</b> {
-						h === "one" ? "One-Handed" : (
-							h === "two" ? "Two-Handed" : (
-								h === "light" ? "Light" : (
-									h === "ammo" ? "Ammunition" : (
-										h === "alch" ? "Alchemical Weapon" : h
+						i === "one" ? "One-Handed" : (
+							i === "two" ? "Two-Handed" : (
+								i === "light" ? "Light" : (
+									i === "ammo" ? "Ammunition" : (
+										i === "alch" ? "Alchemical Weapon" : i
 									)
 								)
 							)
 						)
 					}</li>
 					<li><b>Proficiency Type:</b> {
-						i === "E" ? "Exotic" : (
-							i === "M" ? "Martial" : (
-								i === "S" ? "Simple" : i
+						j === "E" ? "Exotic" : (
+							j === "M" ? "Martial" : (
+								j === "S" ? "Simple" : j
 							)
 						)
 					}</li>
-					{j ? (
-						<li><b><Link to="/ability/weapon_groups">Fighter Weapon Groups</Link></b> {j}</li>
+					{k ? (
+						<li><b><Link to="/ability/weapon_groups">Fighter Weapon Groups</Link></b> {k}</li>
 					) : (<></>)}
 				</ul>
 			);

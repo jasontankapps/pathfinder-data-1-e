@@ -417,21 +417,21 @@ const _light_shield = {title: "Light Shield", notBookmarkable: true, jsx: <><h2 
 <li><Link to="/eq-armor/klar">klar</Link></li>
 </ol>
 <Message lightShield />
-<Tabular format="weap2" c="s1d2m1d3" d="&times;2" e="x" f="B" h="light" i="M" j="Close; Tribal" />
+<Tabular format="weap2" d="s1d2m1d3" e="&times;2" f="x" g="B" i="light" j="M" k="Close; Tribal" />
 </>};
 const _klar = {title: "Klar", jsx: <><h2 id="eq-armor-klar-klar">Klar</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 9</Link>, <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends pg. 14</Link>, <Link to="/source/pathfinder_campaign_setting">Pathfinder Campaign Setting pg. 211</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide pg. 13</Link>, <Link to="/source/rise_of_the_runelords_players_guide">Rise of the Runelords Player's Guide pg. 11</Link>, <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 291</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 18</Link>  </p>
 <Tabular format="armor" a="12" b="6" e="1" f="x" g="-1" h="5" />
 <p>The traditional form of this tribal weapon is a short blade bound to the skull of a large horned lizard, but a skilled smith can craft one entirely out of metal. A traditional klar counts as a <Link to="/eq-armor/light_wooden_shield">light wooden shield</Link> with <Link to="/eq-armorenh/armor_spikes">armor spikes</Link>; a metal klar counts as a <Link to="/eq-armor/light_steel_shield">light steel shield</Link> with armor spikes.</p>
 <Message lightShield />
-<Tabular format="weap2" c="s1d4m1d6" d="&times;2" e="x" f="S" g="see text" h="one" i="M" j="Heavy Blades; Close" />
+<Tabular format="weap2" d="s1d4m1d6" e="&times;2" f="x" g="S" h="see text" i="one" j="M" k="Heavy Blades; Close" />
 </>};
 const _light_steel_shield = {title: "Light steel shield", jsx: <><h2 id="eq-armor-light_steel_shield-light-steel-shield">Light steel shield</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 9</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 151</Link>  </p>
 <Tabular format="armor" a="9" b="6" e="1" f="x" g="-1" h="5" />
 <p>You strap a light steel shield to your forearm and grip it with your hand. A light steel shield's weight lets you carry other items in that hand, although you cannot use weapons with it. Whether wooden or steel, a light shield offers the same basic protection and attack benefits, though the two varieties respond differently to some spells and effects (such as <Link to="/spell/rusting_grasp">rusting grasp</Link>). A druid can use a <Link to="/eq-armor/light_wooden_shield">light wooden shield</Link>, but not a light steel shield.</p>
 <Message lightShield />
-<Tabular format="weap2" c="s1d2m1d3" d="&times;2" e="x" f="B" h="light" i="M" j="Close; Tribal" />
+<Tabular format="weap2" d="s1d2m1d3" e="&times;2" f="x" g="B" i="light" j="M" k="Close; Tribal" />
 </>};
 const _light_steel_quickdraw_shield = {title: "Light steel quickdraw shield", jsx: <><h2 id="eq-armor-light_steel_quickdraw_shield-light-steel-quickdraw-shield">Light steel quickdraw shield</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 9</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 179</Link>  </p>
@@ -445,14 +445,14 @@ const _light_steel_quickdraw_shield = {title: "Light steel quickdraw shield", js
 <Pair title="Free Action">If you have the <Link to="/feat/quick_draw">Quick Draw</Link> feat, you may don or put away a quickdraw shield as a free action.</Pair>
 </Ability>
 <Message lightShield />
-<Tabular format="weap2" c="s1d2m1d3" d="&times;2" e="x" f="B" h="light" i="M" j="Close; Tribal" />
+<Tabular format="weap2" d="s1d2m1d3" e="&times;2" f="x" g="B" i="light" j="M" k="Close; Tribal" />
 </>};
 const _light_wooden_shield = {title: "Light wooden shield", jsx: <><h2 id="eq-armor-light_wooden_shield-light-wooden-shield">Light wooden shield</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 9</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 151</Link>  </p>
 <Tabular format="armor" a="3" b="5" e="1" f="x" g="-1" h="5" />
 <p>A light wooden shield is essentially the same as a <Link to="/eq-armor/light_steel_shield">light steel shield</Link>, except it responds differently to some spells and effects (such as <Link to="/spell/rusting_grasp">rusting grasp</Link>). A druid can use a light wooden shield, but not a light steel shield.</p>
 <Message lightShield />
-<Tabular format="weap2" c="s1d2m1d3" d="&times;2" e="x" f="B" h="light" i="M" j="Close; Tribal" />
+<Tabular format="weap2" d="s1d2m1d3" e="&times;2" f="x" g="B" i="light" j="M" k="Close; Tribal" />
 </>};
 const _light_wooden_quickdraw_shield = {title: "Light wooden quickdraw shield", jsx: <><h2 id="eq-armor-light_wooden_quickdraw_shield-light-wooden-quickdraw-shield">Light wooden quickdraw shield</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 9</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 179</Link>  </p>
@@ -466,7 +466,7 @@ const _light_wooden_quickdraw_shield = {title: "Light wooden quickdraw shield", 
 <Pair title="Free Action">If you have the <Link to="/feat/quick_draw">Quick Draw</Link> feat, you may don or put away a quickdraw shield as a free action.</Pair>
 </Ability>
 <Message lightShield />
-<Tabular format="weap2" c="s1d2m1d3" d="&times;2" e="x" f="B" h="light" i="M" j="Close; Tribal" />
+<Tabular format="weap2" d="s1d2m1d3" e="&times;2" f="x" g="B" i="light" j="M" k="Close; Tribal" />
 </>};
 const _madu_shield_leather = {title: "Madu shield (leather)", jsx: <><h2 id="eq-armor-madu_shield_leather-madu-shield-leather">Madu shield (leather)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 9</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 5</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide pg. 22</Link>  </p>
@@ -478,7 +478,7 @@ const _madu_shield_leather = {title: "Madu shield (leather)", jsx: <><h2 id="eq-
 <p><Icons id="eq-armor-madu_shield_leather-def-icons" wrapper="prefixIcon" list={["def"]} /> A madu can't be disarmed.</p>
 <div style={{clear:"both"}}></div>
 <Message lightShield />
-<Tabular format="weap2" c="s1d3m1d4" d="&times;2" e="x" f="P" g={<><Link to="/misc/performance">performance</Link></>} h="light" i="E" j="Light Blades; Close" />
+<Tabular format="weap2" d="s1d3m1d4" e="&times;2" f="x" g="P" h={<><Link to="/misc/performance">performance</Link></>} i="light" j="E" k="Light Blades; Close" />
 </>};
 const _madu_shield_steel = {title: "Madu shield (steel)", jsx: <><h2 id="eq-armor-madu_shield_steel-madu-shield-steel">Madu shield (steel)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 9</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide pg. 22</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 5</Link>  </p>
@@ -490,7 +490,7 @@ const _madu_shield_steel = {title: "Madu shield (steel)", jsx: <><h2 id="eq-armo
 <p><Icons id="eq-armor-madu_shield_steel-def-icons" wrapper="prefixIcon" list={["def"]} /> A madu can't be disarmed.</p>
 <div style={{clear:"both"}}></div>
 <Message lightShield />
-<Tabular format="weap2" c="s1d3m1d4" d="&times;2" e="x" f="P" g={<><Link to="/misc/performance">performance</Link></>} h="light" i="E" j="Light Blades; Close" />
+<Tabular format="weap2" d="s1d3m1d4" e="&times;2" f="x" g="P" h={<><Link to="/misc/performance">performance</Link></>} i="light" j="E" k="Light Blades; Close" />
 </>};
 const _war_shield_dwarven = {title: "War-shield, dwarven", jsx: <><h2 id="eq-armor-war_shield_dwarven-war-shield-dwarven">War-shield, dwarven</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 6</Link>  </p>
@@ -499,7 +499,7 @@ const _war_shield_dwarven = {title: "War-shield, dwarven", jsx: <><h2 id="eq-arm
 <p><Icons id="eq-armor-war_shield_dwarven-def-icons" wrapper="prefixIcon" list={["def"]} /> If you have the <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link> feat and are wielding two dwarven war-shields, increase the higher of the two shield bonuses by 1. You lose this benefit for 1 round when you make a shield bash with one or both dwarven war-shields (unless you have the <Link to="/feat/improved_shield_bash">Improved Shield Bash</Link> feat or a similar benefit).</p>
 <p><Icons id="eq-armor-war_shield_dwarven-down-icons" wrapper="prefixIcon" list={["down"]} /> A hand holding a dwarven warshield can't be used for anything else. A dwarven war-shield gains no benefit from <Link to="/eq-armorenh/shield_spikes">shield spikes</Link>.</p>
 <Message lightShield />
-<Tabular format="weap2" c="s1d4m1d6" d="&times;2" e="x" f="P or S" g="see text" h="light" i="E" j="Close" />
+<Tabular format="weap2" d="s1d4m1d6" e="&times;2" f="x" g="P or S" h="see text" i="light" j="E" k="Close" />
 </>};
 const _heavy_shield = {title: "Heavy Shield", notBookmarkable: true, jsx: <><h2 id="eq-armor-heavy_shield-heavy-shield">Heavy Shield</h2>
 <p>"Heavy Shield" can refer to any of these shields.</p>
@@ -510,35 +510,35 @@ const _heavy_shield = {title: "Heavy Shield", notBookmarkable: true, jsx: <><h2 
 <li><Link to="/eq-armor/steel_snarlshield">steel snarlshield</Link></li>
 </ol>
 <Message heavyShield />
-<Tabular format="weap2" c="s1d3m1d4" d="&times;2" e="x" f="B" h="one" i="M" j="Close; Tribal" />
+<Tabular format="weap2" d="s1d3m1d4" e="&times;2" f="x" g="B" i="one" j="M" k="Close; Tribal" />
 </>};
 const _heavy_steel_shield = {title: "Heavy steel shield", jsx: <><h2 id="eq-armor-heavy_steel_shield-heavy-steel-shield">Heavy steel shield</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 9</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 151</Link>  </p>
 <Tabular format="armor" a="20" b="15" e="2" f="x" g="-2" h="15" />
 <p>You strap a heavy steel shield to your forearm and grip it with your hand. A heavy steel shield is so heavy that you can't use your shield hand for anything else. Whether wooden or steel, a heavy shield offers the same basic protection and attack benefits, though the two versions respond differently to some spells and effects (such as <Link to="/spell/rusting_grasp">rusting grasp</Link>). A druid can use a <Link to="/eq-armor/heavy_wooden_shield">heavy wooden shield</Link>, but not a heavy steel shield.</p>
 <Message heavyShield />
-<Tabular format="weap2" c="s1d3m1d4" d="&times;2" e="x" f="B" h="one" i="M" j="Close; Tribal" />
+<Tabular format="weap2" d="s1d3m1d4" e="&times;2" f="x" g="B" i="one" j="M" k="Close; Tribal" />
 </>};
 const _heavy_wooden_shield = {title: "Heavy wooden shield", jsx: <><h2 id="eq-armor-heavy_wooden_shield-heavy-wooden-shield">Heavy wooden shield</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 9</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 151</Link>  </p>
 <Tabular format="armor" a="7" b="10" e="2" f="x" g="-2" h="15" />
 <p>A heavy wooden shield is essentially the same as a <Link to="/eq-armor/heavy_steel_shield">heavy steel shield</Link>, except that it responds differently to some spells and effects (such as <Link to="/spell/rusting_grasp">rusting grasp</Link>). A druid can use a heavy wooden shield, but not a heavy steel shield.</p>
 <Message heavyShield />
-<Tabular format="weap2" c="s1d3m1d4" d="&times;2" e="x" f="B" h="one" i="M" j="Close; Tribal" />
+<Tabular format="weap2" d="s1d3m1d4" e="&times;2" f="x" g="B" i="one" j="M" k="Close; Tribal" />
 </>};
 const _snarlshield_steel = {title: "Snarlshield, steel", jsx: <><h2 id="eq-armor-snarlshield_steel-snarlshield-steel">Snarlshield, steel</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 6</Link>, <Link to="/source/gnomes_of_golarion">Gnomes of Golarion pg. 22</Link>  </p>
 <Tabular format="armor" a="50" b="20" e="2" f="x" g="-3" h="15" />
 <p>The snarlshield is a heavy shield that features a dozen rods protruding from its surface. When used as a weapon to bash an opponent, a snarlshield has the <Link to="/misc/disarm">disarm</Link> quality.</p>
 <Message heavyShield />
-<Tabular format="weap2" c="s1d3m1d4" d="&times;2" e="x" f="B" g={<><Link to="/misc/disarm">disarm</Link></>} h="one" i="E" j="Close" />
+<Tabular format="weap2" d="s1d3m1d4" e="&times;2" f="x" g="B" h={<><Link to="/misc/disarm">disarm</Link></>} i="one" j="E" k="Close" />
 </>};
 const _snarlshield_wooden = {title: "Snarlshield, wooden", jsx: <><h2 id="eq-armor-snarlshield_wooden-snarlshield-wooden">Snarlshield, wooden</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 6</Link>, <Link to="/source/gnomes_of_golarion">Gnomes of Golarion pg. 22</Link>  </p>
 <Tabular format="armor" a="37" b="15" e="2" f="x" g="-3" h="15" />
 <p>The snarlshield is a heavy shield that features a dozen rods protruding from its surface. When used as a weapon to bash an opponent, a snarlshield has the <Link to="/misc/disarm">disarm</Link> quality.</p>
 <Message heavyShield />
-<Tabular format="weap2" c="s1d3m1d4" d="&times;2" e="x" f="B" g={<><Link to="/misc/disarm">disarm</Link></>} h="one" i="E" j="Close" />
+<Tabular format="weap2" d="s1d3m1d4" e="&times;2" f="x" g="B" h={<><Link to="/misc/disarm">disarm</Link></>} i="one" j="E" k="Close" />
 </>};
 const _tower_shield = {title: "Tower shield", jsx: <><h2 id="eq-armor-tower_shield-tower-shield">Tower shield</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 9</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 151</Link>  </p>
