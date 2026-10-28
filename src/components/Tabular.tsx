@@ -242,6 +242,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 			// f = range (x = none)
 			// g = damage type
 			let damage = d;
+			const range = Number(f);
 			const m = String(d).match(/^s(.+?)m(.+?)$/);
 			if(m) {
 				damage = m[1] + " (small), " + m[2] + " (medium)";
@@ -255,7 +256,11 @@ const FormatObject: { [x: string]: FormatProps } = {
 				</tr>
 				<tr>
 					<th id={id + "-range"} className={f === "x" ? undefined : "hl"}>Range</th>
-					<td headers={id + "-type"}>{f === "x" ? <>&mdash;</> : f}</td>
+					<td headers={id + "-type"}>{
+						(f === "x") ? <>&mdash;</> : (
+							range === range ? `${range} ft.` : f
+						)
+					}</td>
 					<th id={id + "-type"}>Dmg Type</th>
 					<td headers={id + "-type"}>{g}</td>
 				</tr>
@@ -269,7 +274,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 		postFormatter: props => {
 			const {h, i, j, k} = props;
 			// h = special (ignored if not present)
-			// i = category (light, one, two, ammo, alch, ?)
+			// i = category (light, one, two, ranged, ammo, alch, ?)
 			// j = proficiency (S, M, E, ?)
 			// k = weapon groups (ignored if not present)
 			return (
@@ -279,8 +284,10 @@ const FormatObject: { [x: string]: FormatProps } = {
 						i === "one" ? "One-Handed" : (
 							i === "two" ? "Two-Handed" : (
 								i === "light" ? "Light" : (
-									i === "ammo" ? "Ammunition" : (
-										i === "alch" ? "Alchemical Weapon" : i
+									i === "ranged" ? "Ranged" : (
+										i === "ammo" ? "Ammunition" : (
+											i === "alch" ? "Alchemical Weapon" : i
+										)
 									)
 								)
 							)
