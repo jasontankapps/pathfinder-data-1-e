@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import Link from './Link';
+import Tabular from './Tabular';
 
 interface MessageProps {
 	spelldeitynote?: boolean
@@ -9,12 +10,14 @@ interface MessageProps {
 	lamellar?: boolean
 	lightShield?: boolean
 	heavyShield?: boolean
+	tearaway?: boolean
 }
 
 const Message: FC<MessageProps> = (props) => {
 	const {
 		spelldeitynote, altCapstoneDesc, archetypeDesc,
-		lesserOrders, lamellar, lightShield, heavyShield
+		lesserOrders, lamellar, lightShield, heavyShield,
+		tearaway
 	} = props;
 	if(spelldeitynote) {
 		return <aside>Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- <Link to="/source/inner_sea_gods">Inner Sea Gods pg. 228</Link></aside>;
@@ -41,6 +44,13 @@ const Message: FC<MessageProps> = (props) => {
 		return (
 			<p><strong className="hl">Shield Bash Attacks:</strong> You can bash an opponent with a {size} shield. Used this way, a {size} shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a {size} shield as a {type} weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.</p>
 		);
+	} else if (tearaway) {
+		return (<>
+			<h3>Tear-Away Clothing</h3>
+			<p><Link to="/source/ultimate_equipment">Ultimate Equipment</Link> pg. 89; <Link to="/source/adventurers_armory">Adventurer's Armory</Link> pg. 19</p>
+			<Tabular format="misc" a={5} b={0} c="M" d="cloth" />
+			<p>Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is generally loose fitting and allows another layer of clothing to be worn underneath. The seams on this clothing are designed to break easily, making it a simple matter (a @HL[standard action]) to remove these items and walk away with none the wiser. Any outfit can be crafted as tear-away clothing for an additional price.</p>
+		</>);
 	}
 	return (
 		<p>MISSING MESSAGE</p>
