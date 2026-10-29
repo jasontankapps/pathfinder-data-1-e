@@ -25,7 +25,7 @@ const _shield_boss_breakaway = {hasJL:true,title: "Shield boss (breakaway)", jsx
 <h3 id="eq-armorenh-shield_boss_breakaway-hooked-boss" data-hash-target>Hooked Boss</h3>
 <Tabular format="armor" a="80" b="10" />
 <p>The struts on this reinforcing boss bear large, sturdy hooks, which can be used to snag an opponent's clothing or armor, causing it to stumble.</p>
-<p><Icons id="eq-armorenh-shield_boss_breakaway-melee-lower-icons" wrapper="prefixIcon" list={["melee","lower"]} /> You can attempt <Link to="/rule/trip">trip</Link> combat maneuver checks with this shield. If the combat maneuver check is successful, the opponent does not fall <Link to="/misc/prone">prone</Link>, but is considered <Link to="/rule/flat_footed">flat-footed</Link> until the beginning of its next turn.</p>
+<p><Icons id="eq-armorenh-shield_boss_breakaway-melee-lower-icons" wrapper="prefixIcon" list={["melee","lower"]} /> You can attempt <Link to="/rule/trip">trip</Link> combat maneuver checks with this shield. If the combat maneuver check is successful, the opponent does not fall <Link to="/rule/prone">prone</Link>, but is considered <Link to="/rule/flat_footed">flat-footed</Link> until the beginning of its next turn.</p>
 <h3 id="eq-armorenh-shield_boss_breakaway-illuminating-boss" data-hash-target>Illuminating Boss</h3>
 <Tabular format="armor" a="35" b="10" />
 <p>The stud at the center of this reinforcing boss contains a covered slot large enough to insert a <Link to="/eq-misc/sunrod">sunrod</Link>. Installing a lit sunrod into an illuminating boss is a <strong className="hl">full-round action</strong>.</p>

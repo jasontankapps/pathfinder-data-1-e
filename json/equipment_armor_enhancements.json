@@ -50,7 +50,7 @@
 			"",
 			"The struts on this reinforcing boss bear large, sturdy hooks, which can be used to snag an opponent's clothing or armor, causing it to stumble.",
 			"",
-			"@I-melee-lower You can attempt ‹rule/trip› combat maneuver checks with this shield. If the combat maneuver check is successful, the opponent does not fall ‹misc/prone›, but is considered ‹rule/flat-footed› until the beginning of its next turn.",
+			"@I-melee-lower You can attempt ‹rule/trip› combat maneuver checks with this shield. If the combat maneuver check is successful, the opponent does not fall ‹rule/prone›, but is considered ‹rule/flat-footed› until the beginning of its next turn.",
 			"",
 			"::h3[Illuminating Boss]{jl}",
 			"",
