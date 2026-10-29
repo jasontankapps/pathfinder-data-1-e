@@ -31,7 +31,7 @@ div.tableWrap {
 div.displayTable { /* Dunno if this is needed, but... */
 	display: contents;
 }
-div:is(.displayTable,.tableWrap) + div:is(.displayTable,.tableWrap) {
+div:is(.displayTable,.tableWrap) + div:is(.displayTable,.tableWrap,.table) {
 	margin-block-start: 1rem;
 }
 div.main.basicContent ion-list ion-item.mainItem.basic ion-label div.tableWrap + :is(h2,h3,h4,h5,h6) {
