@@ -13,7 +13,11 @@ const checkForSourceLinks = (desc) => {
 			// Spell deity notes have a source link to Inner Sea Gods baked in.
 			found.push("inner_sea_gods");
 			return;
-		}
+		} else if(line === "::msg-tearaway") {
+			// Tearaway clothing has source links to Adventurer's Armory and Ultimate Equipment baked in.
+			found.push("adventurers_armory", "ultimate_equipment");
+			return;
+		}//
 		let m = line.match(multi) || line.match(th) || line.match(sp);
 		if(m) {
 			const sources = m[1].split(";");
