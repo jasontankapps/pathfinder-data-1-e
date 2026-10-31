@@ -3,6 +3,7 @@ import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import Tabular from '../../components/Tabular';
 import Message from '../../components/Message';
+import Icons from '../../components/Icons';
 const _planar_travelers_kit = {title: "Planar traveler's kit", jsx: <><h2 id="eq-misc-planar_travelers_kit-planar-travelers-kit">Planar traveler's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook pg. 7</Link>  </p>
 <Tabular format="misc" a="350" b="3" d="kits" />
@@ -656,7 +657,8 @@ const _samsaran_life_wheel = {title: "Samsaran life wheel", jsx: <><h2 id="eq-mi
 const _sanctified_rings_pair = {title: "Sanctified rings (pair)", jsx: <><h2 id="eq-misc-sanctified_rings_pair-sanctified-rings-pair">Sanctified rings (pair)</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 25</Link>  </p>
 <Tabular format="misc" a="5" b="x" d="foci" />
-<p>A single tiny religious symbol adorns each ring in this matched pair. If two people each wear one of the rings and clasp hands, a cleric may activate both rings with one use of <Link to="/ability/channel_energy">channel energy</Link>. If the person wearing one of these rings dies or removes it, the other ring instantly cracks; the wearer of the broken ring knows if it cracked because the other wearer died or the ring was removed.</p>
+<p>A single tiny religious symbol adorns each ring in this matched pair. If two people each wear one of the rings and clasp hands, a cleric may activate both rings with one use of <Link to="/ability/channel_energy">channel energy</Link>.</p>
+<p><Icons id="eq-misc-sanctified_rings_pair-magic-icons" wrapper="prefixIcon" list={["magic"]} /> If the person wearing one of these rings dies or removes it, the other ring instantly cracks; the wearer of the broken ring knows if it cracked because the other wearer died or the ring was removed.</p>
 </>};
 const _sangwine = {title: "Sangwine", jsx: <><h2 id="eq-misc-sangwine-sangwine">Sangwine</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 8</Link>  </p>
@@ -778,7 +780,7 @@ const _second_story_harness = {title: "Second-story harness", jsx: <><h2 id="eq-
 </>};
 const _seeing_slime = {title: "Seeing Slime", jsx: <><h2 id="eq-misc-seeing_slime-seeing-slime">Seeing Slime</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 155</Link>  </p>
-<Tabular format="misc" a="160" b="x" d="herb" e="19" f="1 dose" g="any underground" h="After collecting this rare slime mold from where it naturally occurs in the lightless depths, the herbalist must combine the slime with mineral salts and store it in an airtight container such as a bottle or jar." i="The slime causes mild skin rashes, but it grants darkvision out to a range of 30 feet for 24 hours if applied to the eyes (a full-round action that provokes attacks of opportunity). If the subject already had darkvision, the darkvision's range increases by 30 feet. Frequent use of this herb causes permanent purple blotches on the skin around the user's eyes." />
+<Tabular format="misc" a="160" b="x" d="herb" e="19" f="1 dose" g="any underground" h="After collecting this rare slime mold from where it naturally occurs in the lightless depths, the herbalist must combine the slime with mineral salts and store it in an airtight container such as a bottle or jar." i={<><Icons id="eq-misc-seeing_slime-power-boost-icons" wrapper="prefixIcon" list={["power","boost"]} /> The slime causes mild skin rashes, but it grants darkvision out to a range of 30 feet for 24 hours if applied to the eyes (a <strong className="hl">full-round action</strong> that provokes attacks of opportunity). If the subject already had darkvision, the darkvision's range increases by 30 feet. Frequent use of this herb causes permanent purple blotches on the skin around the user's eyes.</>} />
 <p>This violet slime mold is found only in rock formations containing nodules of agate.</p>
 </>};
 const _semblance_transfusion = {title: "Semblance transfusion", jsx: <><h2 id="eq-misc-semblance_transfusion-semblance-transfusion">Semblance transfusion</h2>
@@ -1587,7 +1589,8 @@ const _spike_hilt = {title: "Spike hilt", jsx: <><h2 id="eq-misc-spike_hilt-spik
 const _spiked_focus_ward = {title: "Spiked focus ward", jsx: <><h2 id="eq-misc-spiked_focus_ward-spiked-focus-ward">Spiked focus ward</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 25</Link>  </p>
 <Tabular format="misc" a="100" b="2" d="foci" />
-<p>This holy symbol has a small nail or spike somewhere along its length, allowing it to be hammered it into a wall, tree, floor, or any hard surface. Once fixed in place and activated, it stores channeled energy until it is touched by a creature of at least Small size or 24 hours pass. If touched, the focus releases the stored power as if you used <Link to="/ability/channel_energy">channel energy</Link>, though it only heals or deals half the normal damage (including all feats and abilities that affect the DC and damage). Good clerics use these items to provide healing in large battles where a cleric may not be nearby; evil clerics often use them as traps.</p>
+<p>This holy symbol has a small nail or spike somewhere along its length, allowing it to be hammered it into a wall, tree, floor, or any hard surface. Once fixed in place and activated, it stores channeled energy until it is touched by a creature of at least Small size or 24 hours pass.</p>
+<p><Icons id="eq-misc-spiked_focus_ward-aid-lower-icons" wrapper="prefixIcon" list={["aid","lower"]} /> If touched, the focus releases the stored power as if you used <Link to="/ability/channel_energy">channel energy</Link>, though it only heals or deals half the normal damage (including all feats and abilities that affect the DC and damage). Good clerics use these items to provide healing in large battles where a cleric may not be nearby; evil clerics often use them as traps.</p>
 </>};
 const _spirit_compass = {title: "Spirit compass", jsx: <><h2 id="eq-misc-spirit_compass-spirit-compass">Spirit compass</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 13</Link>  </p>
@@ -1749,7 +1752,8 @@ const _stilts_common = {hasJL:true,title: "Stilts (common)", jsx: <><div classNa
 const _stinging_whip_calistria = {title: "Stinging whip", jsx: <><h2 id="eq-misc-stinging_whip_calistria-stinging-whip">Stinging whip</h2>
 <p><strong>Sources</strong> <Link to="/source/faiths_of_balance">Faiths of Balance pg. 25</Link>  </p>
 <Tabular format="misc" a="50" b="5" d="foci" e="Calistria" />
-<p>This whip is made from braids of metallic wire. When it is activated, the wielder can expend the power within it to gain a sacred (if activated with positive energy) or profane (if activated with negative energy) bonus on her next disarm or trip combat maneuver with the whip. This bonus is equal to the number of dice of the activating cleric's <Link to="/ability/channel_energy">channel energy</Link> ability. The whip remains charged until its magic is used or 1 hour has passed.</p>
+<p>This <Link to="/eq-weapon/whip">whip</Link> is made from braids of metallic wire.</p>
+<p><Icons id="eq-misc-stinging_whip_calistria-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When it is activated, the wielder can expend the power within it to gain a sacred (if activated with positive energy) or profane (if activated with negative energy) bonus on her next <Link to="/rule/disarm">disarm</Link> or <Link to="/rule/trip">trip</Link> combat maneuver with the whip. This bonus is equal to the number of dice of the activating cleric's <Link to="/ability/channel_energy">channel energy</Link> ability. The whip remains charged until its magic is used or 1 hour has passed.</p>
 </>};
 const _stink_ink_arcane = {title: "Stink ink (arcane)", jsx: <><h2 id="eq-misc-stink_ink_arcane-stink-ink-arcane">Stink ink (arcane)</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 154</Link>  </p>
@@ -1860,7 +1864,8 @@ const _sunderblock = {title: "Sunderblock", jsx: <><h2 id="eq-misc-sunderblock-s
 const _sundered_mask_nethys = {title: "Sundered mask", jsx: <><h2 id="eq-misc-sundered_mask_nethys-sundered-mask">Sundered mask</h2>
 <p><strong>Sources</strong> <Link to="/source/faiths_of_balance">Faiths of Balance pg. 25</Link>  </p>
 <Tabular format="misc" a="250" b="1" d="foci" e="Nethys" />
-<p>This mask is a representation of Nethys's own. Activating the mask charges it with healing power. If a member of Nethys' faith wears the mask when it is activated, the first time the wearer takes damage, the mask releases the stored energy into the wearer, healing a number of hit points equal to the number of dice of the activating cleric's <Link to="/ability/channel_energy">channel energy</Link> ability. The mask heals its wearer regardless of the type of channeled energy used and whether the target is living or undead. This healing does not prevent the wearer from dying because of hit point damage, and is mainly used to provide instant healing when a cleric is occupied or can only channel a harmful kind of energy. The mask remains charged until it heals someone or 24 hours pass.</p>
+<p>This mask is a representation of Nethys's own. Activating the mask charges it with healing power.</p>
+<p><Icons id="eq-misc-sundered_mask_nethys-def-icons" wrapper="prefixIcon" list={["def"]} /> If a member of Nethys' faith wears the mask when it is activated, the first time the wearer takes damage, the mask releases the stored energy into the wearer, healing a number of hit points equal to the number of dice of the activating cleric's <Link to="/ability/channel_energy">channel energy</Link> ability. The mask heals its wearer regardless of the type of channeled energy used and whether the target is living or undead. This healing does not prevent the wearer from dying because of hit point damage, and is mainly used to provide instant healing when a cleric is occupied or can only channel a harmful kind of energy. The mask remains charged until it heals someone or 24 hours pass.</p>
 </>};
 const _sunrod = {title: "Sunrod", jsx: <><h2 id="eq-misc-sunrod-sunrod">Sunrod</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 30</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
@@ -1997,7 +2002,8 @@ const _tea_kelp = {title: "Tea, kelp", jsx: <><h2 id="eq-misc-tea_kelp-tea-kelp"
 const _teaching_staff = {title: "Teaching staff", jsx: <><h2 id="eq-misc-teaching_staff-teaching-staff">Teaching staff</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 25</Link>  </p>
 <Tabular format="misc" a="75" b="5" d="foci" />
-<p>Carved from heartwood and bearing ornate symbols along its length, this staff is used to reveal critical or uplifting information to other members of the faith, usually during a sermon. When activated, all creatures of the cleric's religion gain a sacred (if positive energy) or profane (if negative energy) bonus on Knowledge (religion) checks for 1 minute; this bonus is equal to the number of dice of the cleric's <Link to="/ability/channel_energy">channel energy</Link> ability.</p>
+<p>Carved from heartwood and bearing ornate symbols along its length, this staff is used to reveal critical or uplifting information to other members of the faith, usually during a sermon.</p>
+<p><Icons id="eq-misc-teaching_staff-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When activated, all creatures of the cleric's religion gain a sacred (if positive energy) or profane (if negative energy) bonus on <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> checks for 1 minute; this bonus is equal to the number of dice of the cleric's <Link to="/ability/channel_energy">channel energy</Link> ability.</p>
 </>};
 const _teapot = {title: "Teapot", jsx: <><h2 id="eq-misc-teapot-teapot">Teapot</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>  </p>

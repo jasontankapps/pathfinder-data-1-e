@@ -479,7 +479,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 			);
 		},
 		postFormatter: props => {
-			const {d, g, h, i} = props;
+			const {d, g, h, i, j} = props;
 			switch(d) {
 				case "herb": {
 					return (
@@ -494,7 +494,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 							</Row> : ""}
 							{i ? <Row>
 								<Cell>Use</Cell>
-								<Cell>{i}</Cell>
+								<Cell>{i}{j ? <><br /><br />{j}</> : ""}</Cell>
 							</Row> : ""}
 						</Block>
 					);

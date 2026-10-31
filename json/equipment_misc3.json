@@ -1575,7 +1575,9 @@
 			"‹SOURCE Adventurer's Armory/25›  ",
 			"::tabular{format=misc a=\"5\" b=x d=foci}",
 			"",
-			"A single tiny religious symbol adorns each ring in this matched pair. If two people each wear one of the rings and clasp hands, a cleric may activate both rings with one use of ‹ability/channel energy›. If the person wearing one of these rings dies or removes it, the other ring instantly cracks; the wearer of the broken ring knows if it cracked because the other wearer died or the ring was removed."
+			"A single tiny religious symbol adorns each ring in this matched pair. If two people each wear one of the rings and clasp hands, a cleric may activate both rings with one use of ‹ability/channel energy›.",
+			"",
+			"@I-magic If the person wearing one of these rings dies or removes it, the other ring instantly cracks; the wearer of the broken ring knows if it cracked because the other wearer died or the ring was removed."
 		]
 	},
 	"sangwine": {
@@ -1888,7 +1890,7 @@
 		"description": [
 			"## Seeing Slime",
 			"‹SOURCE Ultimate Wilderness/155›  ",
-			"::tabular{format=misc a=\"160\" b=x d=herb e=19 f=\"1 dose\" g=\"any underground\" h=\"After collecting this rare slime mold from where it naturally occurs in the lightless depths, the herbalist must combine the slime with mineral salts and store it in an airtight container such as a bottle or jar.\" i=\"The slime causes mild skin rashes, but it grants darkvision out to a range of 30 feet for 24 hours if applied to the eyes (a full-round action that provokes attacks of opportunity). If the subject already had darkvision, the darkvision's range increases by 30 feet. Frequent use of this herb causes permanent purple blotches on the skin around the user's eyes.\"}",
+			"::tabular{format=misc a=\"160\" b=x d=herb e=19 f=\"1 dose\" g=\"any underground\" h=\"After collecting this rare slime mold from where it naturally occurs in the lightless depths, the herbalist must combine the slime with mineral salts and store it in an airtight container such as a bottle or jar.\" i=\"@I-power-boost The slime causes mild skin rashes, but it grants darkvision out to a range of 30 feet for 24 hours if applied to the eyes (a @HLfull-round_action that provokes attacks of opportunity). If the subject already had darkvision, the darkvision's range increases by 30 feet. Frequent use of this herb causes permanent purple blotches on the skin around the user's eyes.\"}",
 			"",
 			"This violet slime mold is found only in rock formations containing nodules of agate."
 		]
@@ -3232,7 +3234,9 @@
 			"‹SOURCE Adventurer's Armory/25›  ",
 			"::tabular{format=misc a=100 b=2 d=foci}",
 			"",
-			"This holy symbol has a small nail or spike somewhere along its length, allowing it to be hammered it into a wall, tree, floor, or any hard surface. Once fixed in place and activated, it stores channeled energy until it is touched by a creature of at least Small size or 24 hours pass. If touched, the focus releases the stored power as if you used ‹ability/channel energy›, though it only heals or deals half the normal damage (including all feats and abilities that affect the DC and damage). Good clerics use these items to provide healing in large battles where a cleric may not be nearby; evil clerics often use them as traps."
+			"This holy symbol has a small nail or spike somewhere along its length, allowing it to be hammered it into a wall, tree, floor, or any hard surface. Once fixed in place and activated, it stores channeled energy until it is touched by a creature of at least Small size or 24 hours pass.",
+			"",
+			"@I-aid-lower If touched, the focus releases the stored power as if you used ‹ability/channel energy›, though it only heals or deals half the normal damage (including all feats and abilities that affect the DC and damage). Good clerics use these items to provide healing in large battles where a cleric may not be nearby; evil clerics often use them as traps."
 		]
 	},
 	"spirit_compass": {
@@ -3611,7 +3615,9 @@
 			"‹SOURCE Faiths of Balance/25›  ",
 			"::tabular{format=misc a=50 b=5 d=foci e=Calistria}",
 			"",
-			"This whip is made from braids of metallic wire. When it is activated, the wielder can expend the power within it to gain a sacred (if activated with positive energy) or profane (if activated with negative energy) bonus on her next disarm or trip combat maneuver with the whip. This bonus is equal to the number of dice of the activating cleric's ‹ability/channel energy› ability. The whip remains charged until its magic is used or 1 hour has passed."
+			"This ‹eq-weapon/whip› is made from braids of metallic wire.",
+			"",
+			"@I-boost When it is activated, the wielder can expend the power within it to gain a sacred (if activated with positive energy) or profane (if activated with negative energy) bonus on her next ‹rule/disarm› or ‹rule/trip› combat maneuver with the whip. This bonus is equal to the number of dice of the activating cleric's ‹ability/channel energy› ability. The whip remains charged until its magic is used or 1 hour has passed."
 		]
 	},
 	"stinging_whip": { "redirect": "stinging_whip_calistria" },
@@ -3881,7 +3887,9 @@
 			"‹SOURCE Faiths of Balance/25›  ",
 			"::tabular{format=misc a=250 b=1 d=foci e=Nethys}",
 			"",
-			"This mask is a representation of Nethys's own. Activating the mask charges it with healing power. If a member of Nethys' faith wears the mask when it is activated, the first time the wearer takes damage, the mask releases the stored energy into the wearer, healing a number of hit points equal to the number of dice of the activating cleric's ‹ability/channel energy› ability. The mask heals its wearer regardless of the type of channeled energy used and whether the target is living or undead. This healing does not prevent the wearer from dying because of hit point damage, and is mainly used to provide instant healing when a cleric is occupied or can only channel a harmful kind of energy. The mask remains charged until it heals someone or 24 hours pass."
+			"This mask is a representation of Nethys's own. Activating the mask charges it with healing power.",
+			"",
+			"@I-def If a member of Nethys' faith wears the mask when it is activated, the first time the wearer takes damage, the mask releases the stored energy into the wearer, healing a number of hit points equal to the number of dice of the activating cleric's ‹ability/channel energy› ability. The mask heals its wearer regardless of the type of channeled energy used and whether the target is living or undead. This healing does not prevent the wearer from dying because of hit point damage, and is mainly used to provide instant healing when a cleric is occupied or can only channel a harmful kind of energy. The mask remains charged until it heals someone or 24 hours pass."
 		]
 	},
 	"sundered_mask": { "redirect": "sundered_mask_nethys" },
@@ -4222,7 +4230,9 @@
 			"‹SOURCE Adventurer's Armory/25›  ",
 			"::tabular{format=misc a=75 b=5 d=foci}",
 			"",
-			"Carved from heartwood and bearing ornate symbols along its length, this staff is used to reveal critical or uplifting information to other members of the faith, usually during a sermon. When activated, all creatures of the cleric's religion gain a sacred (if positive energy) or profane (if negative energy) bonus on Knowledge (religion) checks for 1 minute; this bonus is equal to the number of dice of the cleric's ‹ability/channel energy› ability."
+			"Carved from heartwood and bearing ornate symbols along its length, this staff is used to reveal critical or uplifting information to other members of the faith, usually during a sermon.",
+			"",
+			"@I-boost When activated, all creatures of the cleric's religion gain a sacred (if positive energy) or profane (if negative energy) bonus on ‹skill/Knowledge (religion)› checks for 1 minute; this bonus is equal to the number of dice of the cleric's ‹ability/channel energy› ability."
 		]
 	},
 	"teapot": {

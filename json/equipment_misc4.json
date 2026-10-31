@@ -1808,7 +1808,7 @@
 		"description": [
 			"## Nepenthe",
 			"‹SOURCE Ultimate Wilderness/155›  ",
-			"::tabular{format=misc a=400 b=x d=herb e=20 f=\"1 dose\" g=\"warm forests or swamps\" h=\"A dose of pollen must be mixed with alchemical reagents with a successful DC 16 Craft (alchemy) check and then left to sit for 1 hour before it can be used.\" i=\"A dose of nepenthe pollen must be inhaled as a standard action, whereupon the potent vapors act upon unpleasant or unknown thoughts and memories. This grants the creature a new saving throw to immediately end a single mind-affecting effect currently affecting the creature (effects that allow no saving throw cannot be removed in this way). An unwilling creature can be dosed with the pollen as a touch attack that provokes an attack of opportunity. A creature can be affected by a dose of nepenthe only once in a single 24-hour period. This is a poison effect.\"}",
+			"::tabular{format=misc a=400 b=x d=herb e=20 f=\"1 dose\" g=\"warm forests or swamps\" h=\"A dose of pollen must be mixed with alchemical reagents with a successful DC 16 ‹skill/Craft› (alchemy) check and then left to sit for 1 hour before it can be used.\" i=\"@I-def-touch A dose of nepenthe pollen must be inhaled as a @HLstandard_action, whereupon the potent vapors act upon unpleasant or unknown thoughts and memories. This grants the creature a new saving throw to immediately end a single mind-affecting effect currently affecting the creature (effects that allow no saving throw cannot be removed in this way). An unwilling creature can be dosed with the pollen as a touch attack that provokes an attack of opportunity. A creature can be affected by a dose of nepenthe only once in a single 24-hour period. This is a poison effect.\"}",
 			"",
 			"This foot-tall blue-green pitcher plant produces a pollen that smells faintly of mint and lures insects and even small vertebrates toward its dangerous mouth."
 		]
@@ -1845,7 +1845,11 @@
 			"‹SOURCE Heroes of the Wild/10›  ",
 			"::tabular{format=misc a=50 b=x d=herb e=18 g=deserts}",
 			"",
-			"Found most often in lands heavily modified by magic, this bulbous cactus is topped with twilight-blue flowers. The sap from the cactus can be used as an additive when crafting potions, causing all variable numeric effects of the potion to be determined as if the potion's caster level were 1 higher. When processed into a powder with a successful DC 15 Craft (alchemy) check, Nethys's dagger can be used as an additional material component when casting spells, granting the user a +1 alchemical bonus on caster level checks to overcome spell resistance."
+			"Found most often in lands heavily modified by magic, this bulbous cactus is topped with twilight-blue flowers.",
+			"",
+			"@I-boost The sap from the cactus can be used as an additive when crafting potions, causing all variable numeric effects of the potion to be determined as if the potion's caster level were 1 higher.",
+			"",
+			"@I-boost When processed into a powder with a successful DC 15 ‹skill/Craft› (alchemy) check, Nethys's dagger can be used as an additional material component when casting spells, granting the user a +1 alchemical bonus on caster level checks to overcome spell resistance."
 		]
 	},
 	"night_stalkers_tonic": {
@@ -1881,9 +1885,7 @@
 		"description": [
 			"## Nightsage",
 			"‹SOURCE Ultimate Wilderness/155;Heroes of the Wild/10›  ",
-			"::tabular{format=misc a=100 b=x d=herb e=14 f=\"1 dose\" g=\"any jungles\" h=\"A dose of nightsage must be sprinkled with holy water periodically over an 8-hour drying process in natural sunlight; this process requires a successful DC 12 Craft (alchemy) check and one flask of holy water.\" i=\"When dried nightsage is lit on fire (a standard action), it produces a thin but pleasant-smelling smoke almost like that produced by a stick of incense. A dose of nightsage burns for 10 minutes and can be extinguished and reignited for multiple uses (but it is always used in 1 minute increments, regardless of the actual time spent burning).\"}",
-			"",
-			"While nightsage burns, each corporeal undead creature within a 5-foot radius gains a +2 profane bonus on saving throws against positive energy effects (including ‹ability/channel energy› effects). Necromancers are fond of supplying their undead minions with small thuribles containing a burning stick of nightsage that can be worn while carrying out their commands. A moderate or stronger wind extinguishes a burning stick of nightsage.",
+			"::tabular{format=misc a=100 b=x d=herb e=14 f=\"1 dose\" g=\"any jungles\" h=\"A dose of nightsage must be sprinkled with holy water periodically over an 8-hour drying process in natural sunlight; this process requires a successful DC 12 ‹skill/Craft› (alchemy) check and one flask of ‹eq-weapon/holy water›.\" i=\"When dried nightsage is lit on fire (a @HLstandard_action), it produces a thin but pleasant-smelling smoke almost like that produced by a stick of incense. A dose of nightsage burns for 10 minutes and can be extinguished and reignited for multiple uses (but it is always used in 1 minute increments, regardless of the actual time spent burning). A moderate or stronger wind extinguishes a burning stick of nightsage.\" j=\"@I-def While nightsage burns, each corporeal undead creature within a 5-foot radius gains a +2 profane bonus on saving throws against positive energy effects (including ‹ability/channel energy› effects). Necromancers are fond of supplying their undead minions with small thuribles containing a burning stick of nightsage that can be worn while carrying out their commands.\"}",
 			"",
 			"The fragrant purple blossoms of this night-blooming wildflower are so deep in hue that they appear almost black."
 		]
@@ -2486,7 +2488,7 @@
 		"description": [
 			"## Generic Pathfinder Chronicle",
 			"‹SOURCE Adventurer's Guide/147;Inner Sea World Guide/293›  ",
-			"::tabular{format=misc a=50 b=1 d=gear}",
+			"::tabular{format=misc a=50 b=1 d=pc}",
 			"",
 			"Numerous volumes and editions of the Pathfinder Chronicles exist. When used as a reference (an action that takes 1d4 full rounds of searching the text), a Pathfinder Chronicle grants a +2 circumstance bonus on a specific Knowledge check. Each Pathfinder Chronicle grants this bonus to a different type of Knowledge. Regardless of which type that particular chronicle is focused on, the cost of the book remains the same.",
 			"",
@@ -2508,7 +2510,7 @@
 			"‹SOURCE Pathfinder Society Primer/26›  ",
 			"::tabular{format=misc a=200 b=1 d=pc}",
 			"",
-			"The premier Pathfinder Chronicles volume (first published in 4317 AR) features an account of Durvin Gest's exploration of the ruins of Azlant, details of Selmius Foster's race against a marid and an efreeti, and Gregaro Voth's adventures in the Mwangi Expanse.",
+			"The premier Pathfinder Chronicles volume (first published in 4317 AR) features an account of Durvin Gest's exploration of the ruins of Azlant, details of Selmius Foster's race against a ‹monster/marid› and an ‹monster/efreeti›, and Gregaro Voth's adventures in the Mwangi Expanse.",
 			"",
 			"### Skill Bonuses",
 			"",
@@ -4289,7 +4291,9 @@
 			"‹SOURCE Faiths of Balance/25›  ",
 			"::tabular{format=misc a=50 b=x d=foci e=Pharasma}",
 			"",
-			"This amulet is made of a dulled dagger wrapped with feathers. When activated, it protects the wearer against undead creatures. The first time the wearer is subject to an attack from an undead creature that requires a saving throw (such as disease, paralysis, or energy drain), the amulet gives the wearer a sacred (if activated with positive energy) or profane (if activated with negative energy) bonus on her saving throw against that attack. This bonus is equal to the number of dice of the activating cleric's ‹ability/channel energy› ability. The amulet remains charged until its magic is used or 1 hour has passed."
+			"This amulet is made of a dulled dagger wrapped with feathers. When activated, it protects the wearer against undead creatures.",
+			"",
+			"@I-def The first time the wearer is subject to an attack from an undead creature that requires a saving throw (such as disease, paralysis, or energy drain), the amulet gives the wearer a sacred (if activated with positive energy) or profane (if activated with negative energy) bonus on her saving throw against that attack. This bonus is equal to the number of dice of the activating cleric's ‹ability/channel energy› ability. The amulet remains charged until its magic is used or 1 hour has passed."
 		]
 	},
 	"winged_fetish": { "redirect": "winged_fetish_pharasma" },
@@ -4302,7 +4306,7 @@
 		"description": [
 			"## Winterbite",
 			"‹SOURCE Ultimate Wilderness/155;Heroes of the Wild/10›  ",
-			"::tabular{format=misc a=20 b=x d=herb e=11 f=\"1d4 doses\" g=\"any cold\" h=\"A dose of winterbite must be dried near an open flame in which certain alchemically treated sawdust and wood chips are burned. This requires a successful DC 12 Craft (alchemy) check and 1 hour.\" i=\"When held under the nose and crushed (which takes a standard action), a dose of prepared winterbite releases a pungent, sweet odor that clears the sinuses and sharpens the senses. For the next hour, the user of a dose of prepared winterbite gains a +2 alchemical bonus on scent-based Perception checks.\"}",
+			"::tabular{format=misc a=20 b=x d=herb e=11 f=\"1d4 doses\" g=\"any cold\" h=\"A dose of winterbite must be dried near an open flame in which certain alchemically treated sawdust and wood chips are burned. This requires a successful DC 12 ‹skill/Craft› (alchemy) check and 1 hour.\" i=\"@I-boost When held under the nose and crushed (which takes a @HLstandard_action), a dose of prepared winterbite releases a pungent, sweet odor that clears the sinuses and sharpens the senses. For the next hour, the user of a dose of prepared winterbite gains a +2 alchemical bonus on scent-based ‹skill/Perception› checks.\"}",
 			"",
 			"The white-veined leaves of this minty sprig carry a pleasant and soothing scent."
 		]
