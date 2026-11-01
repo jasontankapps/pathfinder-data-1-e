@@ -528,19 +528,19 @@
 			"",
 			"::h3[Guard Dog]{jl}",
 			"",
-			"::tabular{format=misc a=25 b=25 d=pet}",
+			"::tabular{format=misc id=guard a=25 b=25 d=pet}",
 			"",
 			"This Small, combat-trained dog is bred for battle; breeders favor strength, a thick body, and a low center of gravity. Guard dogs are sold in most large cities and some cultures use them for sport fighting or in some armies' special infantry.",
 			"",
 			"::h3[Lap Dog]{jl}",
 			"",
-			"::tabular{format=misc a=15 b=5 d=pet}",
+			"::tabular{format=misc id=lap a=15 b=5 d=pet}",
 			"",
 			"These tiny dogs are commonly kept as pets. They cannot be combat trained, but can serve as noisy-but-skittish watch creatures. Lap dogs have the same statistics as ‹monster/fox«es›.",
 			"",
 			"::h3[Riding Dog]{jl}",
 			"",
-			"::tabular{format=misc a=150 b=50 d=pet}",
+			"::tabular{format=misc id=riding a=150 b=50 d=pet}",
 			"",
 			"This Medium dog is bred for carrying Small riders, and is combat trained. Breeders select dogs with strong backs, endurance, and loyal dispositions and train them for riding and combat before sale. Reputable breeders can be found in major cities.",
 			"",
@@ -900,13 +900,13 @@
 		"description": [
 			"## Dusk lantern",
 			"‹SOURCE Adventurer's Armory 2/12;Adventurer's Armory/19›  ",
-			"::tabular{format=misc a=35 b=4 d=gear}",
+			"::tabular{format=misc id=dusk a=35 b=4 d=gear}",
 			"",
 			"This specialized ‹eq-misc/bullseye lantern› has a ruby lens that covers the original lens, providing a deep crimson hue to the lantern's light, allowing for more stealth when used in areas of darkness. This special lens can be set in place or removed as a swift action. While the ruby lens is in place, the lantern only provides ‹rule/dim light› in a 60-foot cone. A dusk lantern's red light is imperceptible to creatures relying on darkvision as their sole form of sight.",
 			"",
 			"::h3[Waterproof Lantern]{jl}",
 			"",
-			"::tabular{format=misc a=40 b=4 d=gear}",
+			"::tabular{format=misc id=waterproof a=40 b=4 d=gear}",
 			"",
 			"Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark."
 		]
@@ -965,13 +965,13 @@
 		"description": [
 			"## Ear trumpet",
 			"‹SOURCE Ranged Tactics Toolbox/20›  ",
-			"::tabular{format=misc a=\"25 gp (common), 100 gp (masterwork)\" b=\"2 lbs. (common), 2 lbs. (masterwork)\" c=x d=gear}",
+			"::tabular{format=misc id=ear a=\"25 gp (common), 100 gp (masterwork)\" b=\"2 lbs. (common), 2 lbs. (masterwork)\" c=x d=gear}",
 			"",
 			"This foot-long brass funnel amplifies sounds entering through the broad end for anyone listening at the narrow end. The listener gains a +2 circumstance bonus on sound-based Perception checks but must use one hand to hold the trumpet to the ear in order to gain the benefit. A masterwork ear trumpet's exquisite acoustic properties grant the listener a +4 circumstance bonus instead.",
 			"",
 			"## Ear trumpet",
 			"‹SOURCE Ultimate Equipment/56›  ",
-			"::tabular{format=misc a=5 b=2 d=gear}",
+			"::tabular{format=misc id=trumpet a=5 b=2 d=gear}",
 			"",
 			"By holding this specially crafted ear trumpet to your ear and placing the other end against a door or wall, you reduce the DC penalty for listening through a door or wall by 5."
 		]
@@ -1029,7 +1029,7 @@
 		"description": [
 			"## Efreeti cord",
 			"‹SOURCE Ultimate Intrigue/236›  ",
-			"::tabular{format=misc a=50 b=x d=atools}",
+			"::tabular{format=misc id=cord a=50 b=x d=atools}",
 			"",
 			"Originally discovered by dwarven alchemists working with adamantine dust, efreeti cord is a viscid length of string approximately 18 inches long and blue-gray in color. It can be purchased in greater lengths by multiplying the price for every 18 inches or fraction thereof. Flexible and sticky, a length of efreeti cord can be carefully shaped into almost any pattern, draped upon an object, or wrapped around a fixture, and will stay in place until activated. Once activated (using an *efreeti switch*), efreeti cord rapidly heats up, and after 1 round becomes a white-hot cord of fire. In the first round, the cord deals 3d6 points of fire damage to an object. This damage ignores any hardness less than 10, and is not halved for an object. The cord continues to burn for 2 additional rounds, dealing 2d6 points of fire damage the first additional round and 1d6 points the second.",
 			"",
@@ -1037,7 +1037,7 @@
 			"",
 			"## Efreeti switch",
 			"‹SOURCE Ultimate Intrigue/236›  ",
-			"::tabular{format=misc a=25 b=x d=atools}",
+			"::tabular{format=misc id=switch a=25 b=x d=atools}",
 			"",
 			"An efreeti switch is the activation device for *efreeti cord;* it measures approximately 6 inches in length and is made of a supple, red-brown alchemical compound. It is not consumed when activating a length of cord, and it can be used with any length of efreeti cord. It's possible to key lengths of efreeti cord to a specific switch; however, this doubles the price of both the efreeti cord and the switch.",
 			"",
@@ -1665,13 +1665,13 @@
 		"description": [
 			"## Musical instrument",
 			"‹SOURCE Ultimate Equipment/77;PRPG Core Rulebook/158›  ",
-			"::tabular{format=misc a=5 b=3 d=tools}",
+			"::tabular{format=misc id=music a=5 b=3 d=tools}",
 			"",
 			"If you want to perform using a Perform skill associated with a musical instrument (keyboard, percussion, string, or wind), you must have an appropriate musical instrument; otherwise you can't use the skill. The listed cost and weight is for a typical small instrument you could carry by hand, such as a drum, lyre, bell, harp, or flute; larger instruments such as a cello or piano are of course larger and more expensive.",
 			"",
 			"::h3[Masterwork Musical Instrument]{jl}",
 			"",
-			"::tabular{format=misc a=100 b=3 d=tools}",
+			"::tabular{format=misc id=masterwork a=100 b=3 d=tools}",
 			"",
 			"This high-quality instrument grants a +2 circumstance bonus on Perform checks made to perform with the instrument."
 		]
@@ -2428,13 +2428,13 @@
 		"description": [
 			"## Parasol",
 			"‹SOURCE Ultimate Equipment/77›  ",
-			"::tabular{format=misc a=1 b=2 d=gear}",
+			"::tabular{format=misc id=parasol a=1 b=2 d=gear}",
 			"",
 			"This folding umbrella is translucent and not waterproof. It cuts down on the heat from direct sunlight. In very hot conditions where the sun is a factor (such as a desert), it gives you a +1 circumstance bonus on your hourly Fortitude saves against ‹rule/heat›, and reduces the damage from a failed save by 1 hit point (minimum 1). It provides insufficient protection in conditions of severe or extreme heat. You must hold a parasol in one hand and use it to shade yourself from the sun. Alternatively, you can hold the parasol and use it to shade another creature of your size or smaller. The listed price is for a simple, functional parasol made of fabric or lacquered paper. A parasol used as a fashion accessory can be far more expensive, depending on the materials used, and can cost from 1 gp to 10 gp.",
 			"",
 			"::h3[Umbrella]{jl}",
 			"",
-			"::tabular{format=misc a=2 b=3 d=gear}",
+			"::tabular{format=misc id=umbrella a=2 b=3 d=gear}",
 			"",
 			"An umbrella is a heavier, waterproof parasol made of oiled or waxed cloth. It is intended to keep you dry in the rain or snow, but can still protect against sunlight just like a standard parasol."
 		]
@@ -2701,13 +2701,13 @@
 		"description": [
 			"## Perfume/Cologne",
 			"‹SOURCE Inner Sea World Guide/293;Pathfinder Campaign Setting/213;Curse of the Crimson Throne Player's Guide/12›  ",
-			"::tabular{format=misc a=\"1 gp/dose Perfume (common), 100 gp/dose Perfume (exotic), 10 gp/dose Perfume (rare)\" b=\"&mdash& Perfume (common), &mdash& Perfume (exotic), &mdash& Perfume (rare)\" c=x d=gear}",
+			"::tabular{format=misc id=crimson a=\"1 gp/dose Perfume (common), 100 gp/dose Perfume (exotic), 10 gp/dose Perfume (rare)\" b=\"&mdash& Perfume (common), &mdash& Perfume (exotic), &mdash& Perfume (rare)\" c=x d=gear}",
 			"",
 			"Perfume and cologne are common accessories for those who hope to avoid offending through scent. Exotic scents are sold in vials containing 10 applications, with a single dose lasting for 24 hours during which its wearer gains a +2 circumstance bonus on all Diplomacy checks (save for those against creatures who, at the GM's discretion, would not be swayed by scent).",
 			"",
-			"## Perfume/cologne",
+			"## Perfume/Cologne",
 			"‹SOURCE Ultimate Equipment/57;Adventurer's Armory/19›  ",
-			"::tabular{format=misc a=5 b=x d=gear}",
+			"::tabular{format=misc id=armory a=5 b=x d=gear}",
 			"",
 			"Most perfumes and colognes are derived from the essential oils of flowers. Perfume or cologne may (at the GM's discretion) provide a +1 circumstance bonus on several Charisma-based skill checks."
 		]
@@ -3680,26 +3680,26 @@
 			"",
 			"::h3[Light Wagon]{jl}",
 			"",
-			"::tabular{format=misc a=50 f=\"0.02\" d=trans e=Land}",
+			"::tabular{format=misc id=light a=50 f=\"0.02\" d=trans e=Land}",
 			"",
 			"Wagons of this type are most commonly employed by farmers and craftsmen transporting their goods short distances or by venders in and around cities. A light wagon carries up to 1,000 pounds of cargo and requires two Medium creatures or one Large creature to pull it.",
 			"",
 			"::h3[Medium Wagon]{jl}",
 			"",
-			"::tabular{format=misc a=75 f=\"0.02\" d=trans e=Land}",
+			"::tabular{format=misc id=medium a=75 f=\"0.02\" d=trans e=Land}",
 			"",
 			"Wagons of this type are typically employed for heavy duty work, often in agricultural, mining, or construction settings. A medium wagon can carry up to 2,000 pounds of cargo and requires four Medium or two Large creatures to pull it.",
 			"",
 			"::h3[Heavy Wagon]{jl}",
 			"",
-			"::tabular{format=misc a=100 f=\"0.03\" d=trans e=Land}",
+			"::tabular{format=misc id=heavy a=100 f=\"0.03\" d=trans e=Land}",
 			"",
 			"Wagons of this type are large, four-wheeled vehicles primarily used in caravans to transport goods over long stretches of territory. A heavy wagon carries up to 4,000 pounds of cargo, and is pulled by either eight Medium creatures or four Large creatures.",
 			"",
 			"::h3[Wagon]{jl}",
 			"",
 			"‹SOURCE PRPG Core Rulebook/159, 163›  ",
-			"::tabular{format=misc a=35 b=400 d=gear}",
+			"::tabular{format=misc id=basic a=35 b=400 d=gear}",
 			"",
 			"A four-wheeled, open vehicle for transporting heavy loads. Two horses (or other beasts of burden) must draw it. A wagon comes with the harness needed to pull it."
 		]
@@ -4320,13 +4320,13 @@
 		"description": [
 			"## Wire saw",
 			"‹SOURCE Ultimate Equipment/58›  ",
-			"::tabular{format=misc a=30 b=x d=gear}",
+			"::tabular{format=misc id=saw a=30 b=x d=gear}",
 			"",
 			"This flexible saw consists of an abrasive wire hooked to two metal rings. By feeding the wire around a deadbolt or small door bar, you can use the rings to quietly saw through the obstruction. The saw takes 10 minutes to cut through a 2-inch piece of wood or a 1-inch iron bar. A wire saw can cut through items with hardness 10 or less. After five uses, the abrasive wire is worn smooth and must be replaced (costing 25 gp).",
 			"",
 			"::h3[Adamantine Wire Saw]{jl}",
 			"",
-			"::tabular{format=misc a=150 b=x d=gear}",
+			"::tabular{format=misc id=adamant a=150 b=x d=gear}",
 			"",
 			"This works twice as fast as a normal saw when cutting materials with hardness 10 or less, or at normal speed when cutting materials with hardness 11-20. Replacing an adamantine wire saw's wire costs 145 gp."
 		]
@@ -4565,12 +4565,12 @@
 		"description": [
 			"## Gas mask (modern)",
 			"‹SOURCE Pathfinder #71: Rasputin Must Die!/67›  ",
-			"::tabular{format=misc a=25 b=1 d=gear}",
+			"::tabular{format=misc id=areyou a=25 b=1 d=gear}",
 			"",
 			"Gas masks are rubberized-cloth masks fitted with thick glass eyepieces and a charcoal-dust filter in a rectangular canister that screws in near the mouthpiece. A gas mask is worn tightly around the head and face, allowing the user to breathe in hazardous environments. A gas mask grants immunity to inhaled poisons and other nonmagical airborne attacks that require you to breathe them, and a +2 bonus on saving throws against magical cloud or magical gas attacks. Using a gas mask imposes a -2 penalty on hearing- and sight-based Perception checks. A gas mask's filter canister can be used for 8 hours before needing to be replaced.",
 			"",
 			"### Gas mask cannister",
-			"::tabular{format=misc a=5 b=1 d=gear}"
+			"::tabular{format=misc id=mymummy a=5 b=1 d=gear}"
 		]
 	},
 	"curewort": {

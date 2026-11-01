@@ -621,16 +621,16 @@ const _saddle_exotic_military = {hasJL:true,title: "Saddle (exotic, military)", 
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
 <p>Saddles are used to support a rider or supplies on a mount.</p>
 <h3 id="eq-misc-saddle_exotic_military-military-saddle" data-hash-target>Military Saddle</h3>
-<Tabular format="misc" a="20" b="30" d="animgear" />
+<Tabular format="misc" id="mil" a="20" b="30" d="animgear" />
 <p>This saddle braces the rider, providing a +2 circumstance bonus on Ride checks related to staying in the saddle. If the rider is knocked unconscious while in a military saddle, he has a 75% chance to stay in the saddle.</p>
 <h3 id="eq-misc-saddle_exotic_military-pack-saddle" data-hash-target>Pack Saddle</h3>
-<Tabular format="misc" a="250" b="15" d="animgear" />
+<Tabular format="misc" id="pack" a="250" b="15" d="animgear" />
 <p>A pack saddle holds gear and supplies, but not a rider. It holds as much gear as the mount can carry.</p>
 <h3 id="eq-misc-saddle_exotic_military-riding-saddle" data-hash-target>Riding Saddle</h3>
-<Tabular format="misc" a="10" b="25" d="animgear" />
+<Tabular format="misc" id="ride" a="10" b="25" d="animgear" />
 <p>These saddles are the most pervasive type of riding equipment. If the rider is knocked unconscious while in a riding saddle, he has a 50% chance to stay in the saddle.</p>
 <h3 id="eq-misc-saddle_exotic_military-exotic-saddle" data-hash-target>Exotic Saddle</h3>
-<Tabular format="misc" a="60 gp (exotic, military), 15 gp (exotic, pack), 30 gp (exotic, riding)" b="40 lbs. (exotic, military), 20 lbs. (exotic, pack), 30 lbs. (exotic, riding)" c="x" d="animgear" />
+<Tabular format="misc" id="exotic" a="60 gp (exotic, military), 15 gp (exotic, pack), 30 gp (exotic, riding)" b="40 lbs. (exotic, military), 20 lbs. (exotic, pack), 30 lbs. (exotic, riding)" c="x" d="animgear" />
 <p>These saddles are designed for a variety of unusual mounts, each customized for a specific type of beast. Exotic saddles come in military, pack, and riding styles, just as normal saddles do, and have the same traits.</p>
 </>};
 const _saddlebags = {title: "Saddlebags", jsx: <><h2 id="eq-misc-saddlebags-saddlebags">Saddlebags</h2>
@@ -901,10 +901,10 @@ const _shoddy_item = {title: "Shoddy item", jsx: <><h2 id="eq-misc-shoddy_item-s
 </>};
 const _shovel_common = {hasJL:true,title: "Shovel (common)", jsx: <><div className="jumpList" id="eq-misc-shovel_common-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-shovel_common-folding-shovel">Folding Shovel</InnerLink></li></ul></div><h2 id="eq-misc-shovel_common-shovel-or-spade">Shovel or Spade</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link>  </p>
-<Tabular format="misc" a="2" b="8" d="gear" />
+<Tabular format="misc" id="spade" a="2" b="8" d="gear" />
 <p>This tool lets you dig a pit at a rate of 2 cubic feet per minute. If a shovel is used in combat, treat it as a one-handed <Link to="/misc/improvised_weapon">improvised weapon</Link> that deals bludgeoning damage equal to that of a <Link to="/eq-weapon/club">club</Link> of its size.</p>
 <h3 id="eq-misc-shovel_common-folding-shovel" data-hash-target>Folding Shovel</h3>
-<Tabular format="misc" a="10" b="12" d="gear" />
+<Tabular format="misc" id="folding" a="10" b="12" d="gear" />
 <p>A folding shovel is a full-sized shovel with a sturdy sectional handle that folds into pieces no longer than the shovel blade, allowing it to fit in a smaller space such as a backpack. Converting the shovel from its folded state to usable (or vice versa) is 2 full-round actions.</p>
 <blockquote>
 <p><em><Link to="/source/adventurers_armory">Adventurer's Armory pg. 20</Link> lists this as costing 2cp and weighing 3lbs. This is probably an error.</em></p>
@@ -1169,10 +1169,10 @@ const _snake_tongue_concoction = {title: "Snake-tongue concoction", jsx: <><h2 i
 </>};
 const _snorkel_common = {hasJL:true,title: "Snorkel (common)", jsx: <><div className="jumpList" id="eq-misc-snorkel_common-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-snorkel_common-masterwork-snorkel">Masterwork Snorkel</InnerLink></li></ul></div><h2 id="eq-misc-snorkel_common-snorkel">Snorkel</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>  </p>
-<Tabular format="misc" a="0.5" b="x" d="gear" />
+<Tabular format="misc" id="snorkel" a="0.5" b="x" d="gear" />
 <p>This waterproof wooden tube has a curved end with a mouthpiece. When you hold the mouthpiece in your mouth, the tube extends past your face and toward the back of your head, allowing you to breathe indefinitely when swimming facedown or barely submerged. If you submerge the tip of the snorkel, it floods with water and can't be used to breathe until you clear the water from it (requiring a move action and full access to air). A typical snorkel's length is about 15 inches; any shorter than this and it tends to fill with water when you swim, but any longer and you're not moving enough fresh air through the snorkel to be effective.</p>
 <h3 id="eq-misc-snorkel_common-masterwork-snorkel" data-hash-target>Masterwork Snorkel</h3>
-<Tabular format="misc" a="5" b="x" d="gear" />
+<Tabular format="misc" id="masterwork" a="5" b="x" d="gear" />
 <p>This snorkel has a valve at the top to keep out of the water, keeping it from being flooded from splashes or when you submerge. It also has a sump and valve near your mouth, preventing water from reaching your mouth and automatically draining excess water when you surface.</p>
 </>};
 const _snow_goggles = {title: "Snow goggles", jsx: <><h2 id="eq-misc-snow_goggles-snow-goggles">Snow goggles</h2>
@@ -1681,10 +1681,10 @@ const _squires_outfit = {title: "Squire's outfit", jsx: <><h2 id="eq-misc-squire
 </>};
 const _squirrel_common = {hasJL:true,title: "Squirrel (common)", jsx: <><div className="jumpList" id="eq-misc-squirrel_common-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-squirrel_common-flying-squirrel">Flying squirrel</InnerLink></li></ul></div><h2 id="eq-misc-squirrel_common-squirrel">Squirrel</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
-<Tabular format="misc" a="1" b="2" d="pet" />
+<Tabular format="misc" id="squirrel" a="1" b="2" d="pet" />
 <p>These tiny <Link to="/monster/squirrel">rodents</Link> are as common in the wild as rats are in cities. They typically eat nuts, seeds, and vegetation.</p>
 <h3 id="eq-misc-squirrel_common-flying-squirrel" data-hash-target>Flying squirrel</h3>
-<Tabular format="misc" a="20" b="1" d="pet" />
+<Tabular format="misc" id="rocky" a="20" b="1" d="pet" />
 <p>These Tiny squirrels use a membrane of skin between their front and hind legs to glide. They sometimes serve spellcasters as familiars.</p>
 </>};
 const _stabling_per_day = {title: "Stabling (per day)", jsx: <><h2 id="eq-misc-stabling_per_day-stabling-per-day">Stabling (per day)</h2>
@@ -1742,12 +1742,12 @@ const _stillgut_vial = {title: "Stillgut (vial)", jsx: <><h2 id="eq-misc-stillgu
 </>};
 const _stilts_common = {hasJL:true,title: "Stilts (common)", jsx: <><div className="jumpList" id="eq-misc-stilts_common-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-stilts_common-masterwork-stilts">Masterwork Stilts</InnerLink></li></ul></div><h2 id="eq-misc-stilts_common-stilts">Stilts</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>  </p>
-<Tabular format="misc" a="0.2" b="10" d="gear" />
+<Tabular format="misc" id="stilts" a="0.2" b="10" d="gear" />
 <p>This item consists of a pair of wooden poles with a footrest halfway up. By standing on the footrests and holding the tops of the poles you can avoid certain ground-based threats to your feet. For example, you can use stilts to cross water without getting wet, but you would still activate a trap that triggers when you walk in a certain area. Using stilts reduces your base speed from 30 feet to 20 feet, or from 20 feet to 15 feet. You can hop off your stilts as a move action, or as a free action with a successful DC 10 Acrobatics check.</p>
 <p>You must use both your hands to walk with stilts. Walking with stilts requires a DC 5 Acrobatics check for each move. Failing this check means you do not move for that move action; failing by 5 or more means you fall off the stilts. If you want to use one hand for something else while standing on stilts, you must succeed at a DC 10 Acrobatics check or lose the action; if you want to use two hands, the DC increases to 20.</p>
 <p>Stilts for a Medium creature raise you 2 feet above the ground; stilts for a Small creature raise you 1 foot from the ground. You can use taller stilts, but each additional foot of elevation increases the Acrobatics DCs of using stilts by +5. A stilt has hardness 5 and 10 hit points. If you only have one stilt, your speed drops to 5 feet because you can only hop rather than walk.</p>
 <h3 id="eq-misc-stilts_common-masterwork-stilts" data-hash-target>Masterwork Stilts</h3>
-<Tabular format="misc" a="5" b="10" d="gear" />
+<Tabular format="misc" id="masterwork" a="5" b="10" d="gear" />
 <p>These stilts strap to your feet and legs, allowing you to use your hands for other tasks without penalty. Walking on masterwork stilts requires a DC 10 Acrobatics check. Attaching or removing a masterwork stilt is a full-round action.</p>
 </>};
 const _stinging_whip_calistria = {title: "Stinging whip", jsx: <><h2 id="eq-misc-stinging_whip_calistria-stinging-whip">Stinging whip</h2>
@@ -2094,10 +2094,10 @@ const _thieves_tool_extenders_common = {title: "Thieves' tool extenders (common)
 </>};
 const _thieves_tools_common = {hasJL:true,title: "Thieves' tools (common)", jsx: <><div className="jumpList" id="eq-misc-thieves_tools_common-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-thieves_tools_common-masterwork-thieves-tools">Masterwork Thieves' Tools</InnerLink></li></ul></div><h2 id="eq-misc-thieves_tools_common-thieves-tools">Thieves' tools</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
-<Tabular format="misc" a="30" b="1" d="tools" />
+<Tabular format="misc" id="extend" a="30" b="1" d="tools" />
 <p>This kit contains lockpicks and other tools you need to use the Disable Device skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.</p>
 <h3 id="eq-misc-thieves_tools_common-masterwork-thieves-tools" data-hash-target>Masterwork Thieves' Tools</h3>
-<Tabular format="misc" a="100" b="2" d="tools" />
+<Tabular format="misc" id="masterwork" a="100" b="2" d="tools" />
 <p>This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on Disable Device checks.</p>
 </>};
 const _thinkers_tipple = {title: "Thinker's tipple", jsx: <><h2 id="eq-misc-thinkers_tipple-thinkers-tipple">Thinker's tipple</h2>
@@ -2234,11 +2234,11 @@ const _trapped_item_trapped_disguise_kit = {hasJL:true,title: "Trapped item (tra
 <p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion pg. 28</Link>  </p>
 <p>Kobold artisans are constantly looking for new ways to increase the effectiveness of their traps, all while decreasing their setup time. To fit these two needs, kobold inventors have created a series of small and easy-to-use trapped items. These replica items have traps built into them, and can be armed in a standard action. They're self-contained, single-use, and as easily transportable as the items they mimic.</p>
 <h3 id="eq-misc-trapped_item_trapped_disguise_kit-trapped-disguise-kit" data-hash-target>Trapped Disguise Kit</h3>
-<Tabular format="misc" a="50" b="8" d="tools" />
+<Tabular format="misc" id="disguise" a="50" b="8" d="tools" />
 <p>This appears to be a normal disguise kit, except that if any of the makeup or false facial hair is applied, the victim is marked with a strong scent. This scent mark decreases the DC of tracking the victim by scent by 4. The mark can be washed off with vigorous scrubbing, but otherwise fades on its own over several days.</p>
 <p><strong>Trapped Disguise Kit</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 25; <strong>Disable Device</strong> DC 25<br/><strong>Effects</strong><br/><strong>Trigger</strong> touch; <strong>Reset</strong> repair<br/><strong>Effect</strong> scent mark; never miss; onset delay (1 round)</p>
 <h3 id="eq-misc-trapped_item_trapped_disguise_kit-trapped-scroll-case" data-hash-target>Trapped Scroll Case</h3>
-<Tabular format="misc" a="40" b="1" d="tools" />
+<Tabular format="misc" id="case" a="40" b="1" d="tools" />
 <p>This seemingly innocuous scroll case contains a glass pellet filled with gaseous poison. This pellet breaks when the case is opened, filling a 5-foot square with toxic gas. This poisonous cloud disperses after 1 round.</p>
 <p><strong>Trapped Scroll Case</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 20; <strong>Disable Device</strong> DC 20<br/><strong>Effects</strong><br/><strong>Trigger</strong> touch; <strong>Reset</strong> none<br/><strong>Effect</strong> poison gas (Ungol dust)</p>
 </>};

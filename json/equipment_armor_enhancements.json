@@ -26,7 +26,7 @@
 		"description": [
 			"## Shield boss",
 			"‹SOURCE Melee Tactics Toolbox/21›  ",
-			"::tabular{format=armor a=30 b=10}",
+			"::tabular{format=armor id=boss a=30 b=10}",
 			"",
 			"A shield boss is a sturdy steel device that fastens to the front of a shield, providing metal support struts that radiate outward from the center of the shield, reinforcing its structure. A shield boss can be added to a ‹eq-armor/buckler›, ‹eq-armor/light steel<_shield› or ‹eq-armor/light_>wooden shield›, or ‹eq-armor/heavy steel<_shield› or ‹eq-armor/heavy_>wooden shield›. ‹eq-armor/Tower shield«s› are too large for a typical shield boss, though one can be crafted to fit a tower shield for an additional 300 gp. Attaching or removing a shield boss requires 10 minutes of work and a successful DC 15 ‹skill/Craft› (armor) check; on a failure, the shield boss is not successfully attached or removed and the shield takes 1d6 points of damage that bypasses any hardness.",
 			"",
@@ -36,7 +36,7 @@
 			"",
 			"::h3[Breakaway Boss]{jl}",
 			"",
-			"::tabular{format=armor a=120 b=10}",
+			"::tabular{format=armor id=breakaway a=120 b=10}",
 			"",
 			"The metal stud at the center of the reinforcing boss holds a compartment large enough to insert a single splash weapon, such as a vial of ‹eq-weapon/acid› or ‹eq-weapon/alchemist's fire›, as a @HL[full-round action].",
 			"",
@@ -46,7 +46,7 @@
 			"",
 			"::h3[Hooked Boss]{jl}",
 			"",
-			"::tabular{format=armor a=80 b=10}",
+			"::tabular{format=armor id=hooked a=80 b=10}",
 			"",
 			"The struts on this reinforcing boss bear large, sturdy hooks, which can be used to snag an opponent's clothing or armor, causing it to stumble.",
 			"",
@@ -54,7 +54,7 @@
 			"",
 			"::h3[Illuminating Boss]{jl}",
 			"",
-			"::tabular{format=armor a=35 b=10}",
+			"::tabular{format=armor id=illum a=35 b=10}",
 			"",
 			"The stud at the center of this reinforcing boss contains a covered slot large enough to insert a ‹eq-misc/sunrod›. Installing a lit sunrod into an illuminating boss is a @HL[full-round action].",
 			"",
@@ -62,7 +62,7 @@
 			"",
 			"::h3[Masterwork Boss]{jl}",
 			"",
-			"::tabular{format=armor a=50 b=x c=M}",
+			"::tabular{format=armor id=master a=50 b=x c=M}",
 			"",
 			"Any of the bosses listed above, including the basic reinforcing boss, can be masterwork. A masterwork reinforcing boss increases the shield's current and maximum hit points by 15 instead of 10 and doesn't increase the attack roll penalty."
 		]
@@ -174,10 +174,10 @@
 			"@I-def Shield spikes cannot be disarmed.",
 			"",
 			"@HL[Light shield]  ",
-			"::tabular{format=weap2 d=s1d3m1d4 e=\"&times&2\" f=x g=P i=light j=M i=Close}",
+			"::tabular{format=weap2 id=light d=s1d3m1d4 e=\"&times&2\" f=x g=P i=light j=M i=Close}",
 			"",
 			"@HL[Heavy shield]  ",
-			"::tabular{format=weap2 d=s1d4m1d6 e=\"&times&2\" f=x g=P i=one j=M i=Close}"
+			"::tabular{format=weap2 id=heavy d=s1d4m1d6 e=\"&times&2\" f=x g=P i=one j=M i=Close}"
 		]
 	},
 	"burnished": {

@@ -296,13 +296,13 @@ const _dog_guard = {hasJL:true,title: "Dog (guard)", jsx: <><div className="jump
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <p>Most dogs fall into one of the following categories.</p>
 <h3 id="eq-misc-dog_guard-guard-dog" data-hash-target>Guard Dog</h3>
-<Tabular format="misc" a="25" b="25" d="pet" />
+<Tabular format="misc" id="guard" a="25" b="25" d="pet" />
 <p>This Small, combat-trained dog is bred for battle; breeders favor strength, a thick body, and a low center of gravity. Guard dogs are sold in most large cities and some cultures use them for sport fighting or in some armies' special infantry.</p>
 <h3 id="eq-misc-dog_guard-lap-dog" data-hash-target>Lap Dog</h3>
-<Tabular format="misc" a="15" b="5" d="pet" />
+<Tabular format="misc" id="lap" a="15" b="5" d="pet" />
 <p>These tiny dogs are commonly kept as pets. They cannot be combat trained, but can serve as noisy-but-skittish watch creatures. Lap dogs have the same statistics as <Link to="/monster/fox">foxes</Link>.</p>
 <h3 id="eq-misc-dog_guard-riding-dog" data-hash-target>Riding Dog</h3>
-<Tabular format="misc" a="150" b="50" d="pet" />
+<Tabular format="misc" id="riding" a="150" b="50" d="pet" />
 <p>This Medium dog is bred for carrying Small riders, and is combat trained. Breeders select dogs with strong backs, endurance, and loyal dispositions and train them for riding and combat before sale. Reputable breeders can be found in major cities.</p>
 <h3 id="eq-misc-dog_guard-specific-mounts" data-hash-target>Specific Mounts</h3>
 <p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea pg. 33</Link>, <Link to="/source/wilderness_origins">Wilderness Origins pg. 23</Link><br/>Each of the following listings details a specific breed of riding animal and provides a trait that grants an additional boon to the mount or its rider. The trait granted to a mount counts against a character's total maximum number of traits. If a knight replaces his mount, he effectively loses the old trait and gains the new mount's trait.</p>
@@ -445,10 +445,10 @@ const _duo_saw = {title: "Duo saw", jsx: <><h2 id="eq-misc-duo_saw-duo-saw">Duo 
 </>};
 const _dusk_lantern = {hasJL:true,title: "Dusk lantern", jsx: <><div className="jumpList" id="eq-misc-dusk_lantern-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-dusk_lantern-waterproof-lantern">Waterproof Lantern</InnerLink></li></ul></div><h2 id="eq-misc-dusk_lantern-dusk-lantern">Dusk lantern</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 12</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
-<Tabular format="misc" a="35" b="4" d="gear" />
+<Tabular format="misc" id="dusk" a="35" b="4" d="gear" />
 <p>This specialized <Link to="/eq-misc/bullseye_lantern">bullseye lantern</Link> has a ruby lens that covers the original lens, providing a deep crimson hue to the lantern's light, allowing for more stealth when used in areas of darkness. This special lens can be set in place or removed as a swift action. While the ruby lens is in place, the lantern only provides <Link to="/rule/dim_light">dim light</Link> in a 60-foot cone. A dusk lantern's red light is imperceptible to creatures relying on darkvision as their sole form of sight.</p>
 <h3 id="eq-misc-dusk_lantern-waterproof-lantern" data-hash-target>Waterproof Lantern</h3>
-<Tabular format="misc" a="40" b="4" d="gear" />
+<Tabular format="misc" id="waterproof" a="40" b="4" d="gear" />
 <p>Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark.</p>
 </>};
 const _duskeye = {title: "Duskeye", jsx: <><h2 id="eq-misc-duskeye-duskeye">Duskeye</h2>
@@ -469,11 +469,11 @@ const _dwarven_trail_rations = {title: "Dwarven trail rations", jsx: <><h2 id="e
 </>};
 const _ear_trumpet_common = {title: "Ear trumpet (common)", jsx: <><h2 id="eq-misc-ear_trumpet_common-ear-trumpet">Ear trumpet</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 20</Link>  </p>
-<Tabular format="misc" a="25 gp (common), 100 gp (masterwork)" b="2 lbs. (common), 2 lbs. (masterwork)" c="x" d="gear" />
+<Tabular format="misc" id="ear" a="25 gp (common), 100 gp (masterwork)" b="2 lbs. (common), 2 lbs. (masterwork)" c="x" d="gear" />
 <p>This foot-long brass funnel amplifies sounds entering through the broad end for anyone listening at the narrow end. The listener gains a +2 circumstance bonus on sound-based Perception checks but must use one hand to hold the trumpet to the ear in order to gain the benefit. A masterwork ear trumpet's exquisite acoustic properties grant the listener a +4 circumstance bonus instead.</p>
 <h2 id="eq-misc-ear_trumpet_common-ear-trumpet">Ear trumpet</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
-<Tabular format="misc" a="5" b="2" d="gear" />
+<Tabular format="misc" id="trumpet" a="5" b="2" d="gear" />
 <p>By holding this specially crafted ear trumpet to your ear and placing the other end against a door or wall, you reduce the DC penalty for listening through a door or wall by 5.</p>
 </>};
 const _earplugs = {title: "Earplugs", jsx: <><h2 id="eq-misc-earplugs-earplugs">Earplugs</h2>
@@ -494,12 +494,12 @@ const _efficient_tent = {title: "Efficient tent", jsx: <><h2 id="eq-misc-efficie
 </>};
 const _efreeti_cord = {title: "Efreeti cord", jsx: <><h2 id="eq-misc-efreeti_cord-efreeti-cord">Efreeti cord</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 236</Link>  </p>
-<Tabular format="misc" a="50" b="x" d="atools" />
+<Tabular format="misc" id="cord" a="50" b="x" d="atools" />
 <p>Originally discovered by dwarven alchemists working with adamantine dust, efreeti cord is a viscid length of string approximately 18 inches long and blue-gray in color. It can be purchased in greater lengths by multiplying the price for every 18 inches or fraction thereof. Flexible and sticky, a length of efreeti cord can be carefully shaped into almost any pattern, draped upon an object, or wrapped around a fixture, and will stay in place until activated. Once activated (using an <em>efreeti switch</em>), efreeti cord rapidly heats up, and after 1 round becomes a white-hot cord of fire. In the first round, the cord deals 3d6 points of fire damage to an object. This damage ignores any hardness less than 10, and is not halved for an object. The cord continues to burn for 2 additional rounds, dealing 2d6 points of fire damage the first additional round and 1d6 points the second.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 10</p>
 <h2 id="eq-misc-efreeti_cord-efreeti-switch">Efreeti switch</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 236</Link>  </p>
-<Tabular format="misc" a="25" b="x" d="atools" />
+<Tabular format="misc" id="switch" a="25" b="x" d="atools" />
 <p>An efreeti switch is the activation device for <em>efreeti cord;</em> it measures approximately 6 inches in length and is made of a supple, red-brown alchemical compound. It is not consumed when activating a length of cord, and it can be used with any length of efreeti cord. It's possible to key lengths of efreeti cord to a specific switch; however, this doubles the price of both the efreeti cord and the switch.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 10</p>
 </>};
@@ -751,10 +751,10 @@ const _muscle_grout = {title: "Muscle grout", jsx: <><h2 id="eq-misc-muscle_grou
 </>};
 const _musical_instrument_common = {hasJL:true,title: "Musical instrument (common)", jsx: <><div className="jumpList" id="eq-misc-musical_instrument_common-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-musical_instrument_common-masterwork-musical-instrument">Masterwork Musical Instrument</InnerLink></li></ul></div><h2 id="eq-misc-musical_instrument_common-musical-instrument">Musical instrument</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
-<Tabular format="misc" a="5" b="3" d="tools" />
+<Tabular format="misc" id="music" a="5" b="3" d="tools" />
 <p>If you want to perform using a Perform skill associated with a musical instrument (keyboard, percussion, string, or wind), you must have an appropriate musical instrument; otherwise you can't use the skill. The listed cost and weight is for a typical small instrument you could carry by hand, such as a drum, lyre, bell, harp, or flute; larger instruments such as a cello or piano are of course larger and more expensive.</p>
 <h3 id="eq-misc-musical_instrument_common-masterwork-musical-instrument" data-hash-target>Masterwork Musical Instrument</h3>
-<Tabular format="misc" a="100" b="3" d="tools" />
+<Tabular format="misc" id="masterwork" a="100" b="3" d="tools" />
 <p>This high-quality instrument grants a +2 circumstance bonus on Perform checks made to perform with the instrument.</p>
 </>};
 const _musk_kit = {title: "Musk kit", jsx: <><h2 id="eq-misc-musk_kit-musk-kit">Musk kit</h2>
@@ -1056,10 +1056,10 @@ const _paper_underwater_sheet = {title: "Paper, underwater (sheet)", jsx: <><h2 
 </>};
 const _parasol_common = {hasJL:true,title: "Parasol (common)", jsx: <><div className="jumpList" id="eq-misc-parasol_common-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-parasol_common-umbrella">Umbrella</InnerLink></li></ul></div><h2 id="eq-misc-parasol_common-parasol">Parasol</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>  </p>
-<Tabular format="misc" a="1" b="2" d="gear" />
+<Tabular format="misc" id="parasol" a="1" b="2" d="gear" />
 <p>This folding umbrella is translucent and not waterproof. It cuts down on the heat from direct sunlight. In very hot conditions where the sun is a factor (such as a desert), it gives you a +1 circumstance bonus on your hourly Fortitude saves against <Link to="/rule/heat">heat</Link>, and reduces the damage from a failed save by 1 hit point (minimum 1). It provides insufficient protection in conditions of severe or extreme heat. You must hold a parasol in one hand and use it to shade yourself from the sun. Alternatively, you can hold the parasol and use it to shade another creature of your size or smaller. The listed price is for a simple, functional parasol made of fabric or lacquered paper. A parasol used as a fashion accessory can be far more expensive, depending on the materials used, and can cost from 1 gp to 10 gp.</p>
 <h3 id="eq-misc-parasol_common-umbrella" data-hash-target>Umbrella</h3>
-<Tabular format="misc" a="2" b="3" d="gear" />
+<Tabular format="misc" id="umbrella" a="2" b="3" d="gear" />
 <p>An umbrella is a heavier, waterproof parasol made of oiled or waxed cloth. It is intended to keep you dry in the rain or snow, but can still protect against sunlight just like a standard parasol.</p>
 </>};
 const _parchment_sheet = {title: "Parchment (sheet)", jsx: <><h2 id="eq-misc-parchment_sheet-parchment-sheet">Parchment (sheet)</h2>
@@ -1190,11 +1190,11 @@ const _performers_token = {title: "Performer's token", jsx: <><h2 id="eq-misc-pe
 </>};
 const _perfume_common_per_dose = {title: "Perfume (common, per dose)", jsx: <><h2 id="eq-misc-perfume_common_per_dose-perfumecologne">Perfume/Cologne</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 293</Link>, <Link to="/source/pathfinder_campaign_setting">Pathfinder Campaign Setting pg. 213</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide pg. 12</Link>  </p>
-<Tabular format="misc" a="1 gp/dose Perfume (common), 100 gp/dose Perfume (exotic), 10 gp/dose Perfume (rare)" b="&mdash; Perfume (common), &mdash; Perfume (exotic), &mdash; Perfume (rare)" c="x" d="gear" />
+<Tabular format="misc" id="crimson" a="1 gp/dose Perfume (common), 100 gp/dose Perfume (exotic), 10 gp/dose Perfume (rare)" b="&mdash; Perfume (common), &mdash; Perfume (exotic), &mdash; Perfume (rare)" c="x" d="gear" />
 <p>Perfume and cologne are common accessories for those who hope to avoid offending through scent. Exotic scents are sold in vials containing 10 applications, with a single dose lasting for 24 hours during which its wearer gains a +2 circumstance bonus on all Diplomacy checks (save for those against creatures who, at the GM's discretion, would not be swayed by scent).</p>
-<h2 id="eq-misc-perfume_common_per_dose-perfumecologne">Perfume/cologne</h2>
+<h2 id="eq-misc-perfume_common_per_dose-perfumecologne">Perfume/Cologne</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
-<Tabular format="misc" a="5" b="x" d="gear" />
+<Tabular format="misc" id="armory" a="5" b="x" d="gear" />
 <p>Most perfumes and colognes are derived from the essential oils of flowers. Perfume or cologne may (at the GM's discretion) provide a +1 circumstance bonus on several Charisma-based skill checks.</p>
 </>};
 const _perfume_kit = {title: "Perfume kit", jsx: <><h2 id="eq-misc-perfume_kit-perfume-kit">Perfume kit</h2>
@@ -1597,17 +1597,17 @@ const _wagon = {hasJL:true,title: "Wagon", jsx: <><div className="jumpList" id="
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link><br/><strong>Price</strong> 100 gp (heavy), 50 gp (light), 75 gp (medium); <strong>Price of Passage</strong> 3 cp (heavy), 2 cp (light), 2 cp (medium)</p>
 <p>This four-wheeled open vehicle is used for transporting heavy loads. It includes the <Link to="/eq-misc/harness">harness</Link> needed to pull it. There are three common varieties of wagon.</p>
 <h3 id="eq-misc-wagon-light-wagon" data-hash-target>Light Wagon</h3>
-<Tabular format="misc" a="50" f="0.02" d="trans" e="Land" />
+<Tabular format="misc" id="light" a="50" f="0.02" d="trans" e="Land" />
 <p>Wagons of this type are most commonly employed by farmers and craftsmen transporting their goods short distances or by venders in and around cities. A light wagon carries up to 1,000 pounds of cargo and requires two Medium creatures or one Large creature to pull it.</p>
 <h3 id="eq-misc-wagon-medium-wagon" data-hash-target>Medium Wagon</h3>
-<Tabular format="misc" a="75" f="0.02" d="trans" e="Land" />
+<Tabular format="misc" id="medium" a="75" f="0.02" d="trans" e="Land" />
 <p>Wagons of this type are typically employed for heavy duty work, often in agricultural, mining, or construction settings. A medium wagon can carry up to 2,000 pounds of cargo and requires four Medium or two Large creatures to pull it.</p>
 <h3 id="eq-misc-wagon-heavy-wagon" data-hash-target>Heavy Wagon</h3>
-<Tabular format="misc" a="100" f="0.03" d="trans" e="Land" />
+<Tabular format="misc" id="heavy" a="100" f="0.03" d="trans" e="Land" />
 <p>Wagons of this type are large, four-wheeled vehicles primarily used in caravans to transport goods over long stretches of territory. A heavy wagon carries up to 4,000 pounds of cargo, and is pulled by either eight Medium creatures or four Large creatures.</p>
 <h3 id="eq-misc-wagon-wagon" data-hash-target>Wagon</h3>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159, 163</Link>  </p>
-<Tabular format="misc" a="35" b="400" d="gear" />
+<Tabular format="misc" id="basic" a="35" b="400" d="gear" />
 <p>A four-wheeled, open vehicle for transporting heavy loads. Two horses (or other beasts of burden) must draw it. A wagon comes with the harness needed to pull it.</p>
 </>};
 const _wall_hook = {title: "Wall hook", jsx: <><h2 id="eq-misc-wall_hook-wall-hook">Wall hook</h2>
@@ -1843,10 +1843,10 @@ const _winterbite = {title: "Winterbite", jsx: <><h2 id="eq-misc-winterbite-wint
 </>};
 const _wire_saw_adamantine = {hasJL:true,title: "Wire saw (adamantine)", jsx: <><div className="jumpList" id="eq-misc-wire_saw_adamantine-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-wire_saw_adamantine-adamantine-wire-saw">Adamantine Wire Saw</InnerLink></li></ul></div><h2 id="eq-misc-wire_saw_adamantine-wire-saw">Wire saw</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>  </p>
-<Tabular format="misc" a="30" b="x" d="gear" />
+<Tabular format="misc" id="saw" a="30" b="x" d="gear" />
 <p>This flexible saw consists of an abrasive wire hooked to two metal rings. By feeding the wire around a deadbolt or small door bar, you can use the rings to quietly saw through the obstruction. The saw takes 10 minutes to cut through a 2-inch piece of wood or a 1-inch iron bar. A wire saw can cut through items with hardness 10 or less. After five uses, the abrasive wire is worn smooth and must be replaced (costing 25 gp).</p>
 <h3 id="eq-misc-wire_saw_adamantine-adamantine-wire-saw" data-hash-target>Adamantine Wire Saw</h3>
-<Tabular format="misc" a="150" b="x" d="gear" />
+<Tabular format="misc" id="adamant" a="150" b="x" d="gear" />
 <p>This works twice as fast as a normal saw when cutting materials with hardness 10 or less, or at normal speed when cutting materials with hardness 11-20. Replacing an adamantine wire saw's wire costs 145 gp.</p>
 </>};
 const _wire = {title: "Wire", jsx: <><h2 id="eq-misc-wire-wire">Wire</h2>
@@ -1943,10 +1943,10 @@ const _zombie_slayers_kit = {title: "Zombie slayer's kit", jsx: <><h2 id="eq-mis
 </>};
 const _gas_mask = {title: "Gas mask", jsx: <><h2 id="eq-misc-gas_mask-gas-mask-modern">Gas mask (modern)</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_71_rasputin_must_die">Pathfinder #71: Rasputin Must Die! pg. 67</Link>  </p>
-<Tabular format="misc" a="25" b="1" d="gear" />
+<Tabular format="misc" id="areyou" a="25" b="1" d="gear" />
 <p>Gas masks are rubberized-cloth masks fitted with thick glass eyepieces and a charcoal-dust filter in a rectangular canister that screws in near the mouthpiece. A gas mask is worn tightly around the head and face, allowing the user to breathe in hazardous environments. A gas mask grants immunity to inhaled poisons and other nonmagical airborne attacks that require you to breathe them, and a +2 bonus on saving throws against magical cloud or magical gas attacks. Using a gas mask imposes a -2 penalty on hearing- and sight-based Perception checks. A gas mask's filter canister can be used for 8 hours before needing to be replaced.</p>
 <h3 id="eq-misc-gas_mask-gas-mask-cannister">Gas mask cannister</h3>
-<Tabular format="misc" a="5" b="1" d="gear" />
+<Tabular format="misc" id="mymummy" a="5" b="1" d="gear" />
 </>};
 const _curewort = {title: "Curewort", jsx: <><h2 id="eq-misc-curewort-curewort">Curewort</h2>
 <p><strong>Sources</strong> <Link to="/source/elves_of_golarion">Elves of Golarion pg. 6</Link>  </p>

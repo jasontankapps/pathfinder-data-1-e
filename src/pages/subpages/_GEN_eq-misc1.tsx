@@ -141,16 +141,16 @@ const _alchemical_pheromones_aggression = {hasJL:true,title: "Alchemical pheromo
 <p>Alchemical pheromones are variously colored liquids typically stored in glass vials. These pheromones combine the natural scent of an animal (such as a wolf), humanoid (such as a human), magical beast (such as a unicorn), or vermin (such as a centipede) with alchemical reagents that enhance and refine that scent, making the concoction potent enough to modify the behavior of a creature. A dose of alchemical pheromones must be created for the animal, magical beast, or vermin type or for a single subtype of humanoid; it typically affects only creatures of that type or subtype. The effects of the alchemical pheromone depend on the type.</p>
 <p>When it is smeared onto a surface or it is thrown as a splash weapon, the alchemical pheromone fills a 5-foot-radius area with its scent. The scent then remains active for 1 minute. A creature of the targeted type or subtype that enters that area must succeed at a DC 14 Will save or be subject to the effects of the pheromone for 1 round. If the creature remains in the affected area, it must attempt a new saving throw each round as long as the pheromone remains active. All alchemical pheromones are mind-affecting effects, but swarms (as well as any other collection of creatures that acts as a single creature) are not immune to them. Creatures that don't need to breathe are immune to alchemical pheromones, while creatures with the <Link to="/umr/scent">scent</Link> ability take a -4 penalty on saving throws against them.</p>
 <h3 id="eq-misc-alchemical_pheromones_aggression-aggression" data-hash-target>Aggression</h3>
-<Tabular format="misc" a="150" b="x" d="atools" />
+<Tabular format="misc" id="aggro" a="150" b="x" d="atools" />
 <p>Affected creatures are driven into a mindless frenzy, as if affected by simultaneous <Link to="/spell/confusion">confusion</Link> and <Link to="/spell/rage">rage</Link> spells.</p>
 <h3 id="eq-misc-alchemical_pheromones_aggression-arousal" data-hash-target>Arousal</h3>
-<Tabular format="misc" a="300" b="x" d="atools" />
+<Tabular format="misc" id="arousal" a="300" b="x" d="atools" />
 <p>Affected creatures are aroused and distracted, causing them to lose their Dexterity bonus to AC.</p>
 <h3 id="eq-misc-alchemical_pheromones_aggression-simple" data-hash-target>Simple</h3>
-<Tabular format="misc" a="1" b="x" d="atools" />
+<Tabular format="misc" id="simple" a="1" b="x" d="atools" />
 <p>An affected creature is <Link to="/misc/staggered">staggered</Link> for 1 round. Whether the target succeeds at or fails the saving throw, it becomes immune to simple alchemical pheromones for 24 hours.</p>
 <h3 id="eq-misc-alchemical_pheromones_aggression-susceptibility" data-hash-target>Susceptibility</h3>
-<Tabular format="misc" a="300" b="x" d="atools" />
+<Tabular format="misc" id="suscept" a="300" b="x" d="atools" />
 <p>Affected creatures are forced to obey one specific, simple command, as if affected by a <Link to="/spell/command">command</Link> spell. The command is chosen when the pheromone is created, and must be a something simple, such as approach, drop, fall, flee, or halt (as defined by the <em>command</em> spell).</p>
 </>};
 const _alchemical_preserves = {title: "Alchemical preserves", jsx: <><h2 id="eq-misc-alchemical_preserves-alchemical-preserves">Alchemical preserves</h2>
@@ -854,19 +854,19 @@ const _bachelor_snuff = {title: "Bachelor snuff", jsx: <><h2 id="eq-misc-bachelo
 </>};
 const _backpack_common = {hasJL:true,title: "Backpack (common)", jsx: <><div className="jumpList" id="eq-misc-backpack_common-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-backpack_common-masterwork-backpack">Masterwork Backpack</InnerLink></li><li><InnerLink toTop to="eq-misc-backpack_common-carrier-backpack">Carrier Backpack</InnerLink></li><li><InnerLink toTop to="eq-misc-backpack_common-hydration-backpack">Hydration Backpack</InnerLink></li><li><InnerLink toTop to="eq-misc-backpack_common-weaponrack-backpack">Weaponrack Backpack</InnerLink></li></ul></div><h2 id="eq-misc-backpack_common-backpack">Backpack</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
-<Tabular format="misc" a="2" b="2" d="gear" />
+<Tabular format="misc" id="bp" a="2" b="2" d="gear" />
 <p>This leather knapsack has one large pocket that closes with a buckled strap and holds about 2 cubic feet of material. Some may have one or more smaller pockets on the sides.</p>
 <h3 id="eq-misc-backpack_common-masterwork-backpack" data-hash-target>Masterwork Backpack</h3>
-<Tabular format="misc" a="50" b="4" d="gear" />
+<Tabular format="misc" id="masterwork" a="50" b="4" d="gear" />
 <p>This backpack has numerous pockets for storing items that might be needed while adventuring. Hooks are included for attaching items such as canteens, pouches, or even a rolled-up blanket. It has padded bands that strap across the chest and the waist to distribute its weight more evenly. Like a common backpack, it can hold about 2 cubic feet of material in its main container. When wearing a masterwork backpack, treat your Strength score as +1 higher than normal when calculating your <Link to="/rule/carrying_capacity">carrying capacity</Link>.</p>
 <h3 id="eq-misc-backpack_common-carrier-backpack" data-hash-target>Carrier Backpack</h3>
-<Tabular format="misc" a="25" b="5" d="gear" />
+<Tabular format="misc" id="carry" a="25" b="5" d="gear" />
 <p>Reinforced metal bars allow for this leather backpack to withstand a greater degree of stress than a traditional pack. Along with the standard backpack compartment, this pack has an additional pouch and harness at its top. Used together, the harness and pouch can safely contain a Tiny or smaller creature. While harnessed, the creature can't leave the backpack or see outside of it; it takes a full-round action to remove the harness from a carried creature.</p>
 <h3 id="eq-misc-backpack_common-hydration-backpack" data-hash-target>Hydration Backpack</h3>
-<Tabular format="misc" a="40" b="4" d="gear" />
+<Tabular format="misc" id="hydro" a="40" b="4" d="gear" />
 <p>This mostly leather backpack has a series of awkward metallic tubes, which run from the pack over your shoulders, and a small bladder at its base. A hydration backpack has a large pocket identical to that of a regular backpack that holds 2 cubic feet of material, while the bladder holds 1 gallon of liquid. The ends of the metal tubes can be positioned to allow you to easily dispense and drink liquid stored in the attached bladder. Consuming water in this way grants a +2 circumstance bonus on Constitution checks to avoid nonlethal damage during a forced march.</p>
 <h3 id="eq-misc-backpack_common-weaponrack-backpack" data-hash-target>Weaponrack Backpack</h3>
-<Tabular format="misc" a="25" b="5" d="gear" />
+<Tabular format="misc" id="weapon" a="25" b="5" d="gear" />
 <p>This leather backpack includes a small weapons rack. The rack holds up to four weapons, such as battleaxes, longswords, maces, or short swords. Allies adjacent to you can retrieve a weapon from the rack as a move action without provoking attacks of opportunity, as if they were simply drawing a weapon. Like a normal backpack, it can hold 2 cubic feet of material in its main compartment.</p>
 </>};
 const _badger_plush = {title: "Badger plush", jsx: <><h2 id="eq-misc-badger_plush-badger-plush">Badger plush</h2>
@@ -986,13 +986,13 @@ const _battle_mask = {title: "Battle mask", jsx: <><h2 id="eq-misc-battle_mask-b
 const _bear_trap_offset = {title: "Bear trap (offset)", jsx: <><h2 id="eq-misc-bear_trap_offset-bear-traps">Bear Traps</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 16</Link>  </p>
 <h3 id="eq-misc-bear_trap_offset-bear-trap-offset">Bear Trap (offset)</h3>
-<Tabular format="misc" a="3" b="10" d="tools" />
+<Tabular format="misc" id="offset" a="3" b="10" d="tools" />
 <p>An offset bear trap is a specialized variety of a bear trap constructed with offset jaws coated in resin. It inflicts less damage on captured creatures but holds them more securely, and is therefore primarily used by trappers or bounty hunters who do not want to risk killing their prey. Offset bear traps are almost always secured to the ground by a heavy spike and chain so the captured creature can't wander far.</p>
 <blockquote>
 <p><strong>Offset Bear Trap - CR 1/2</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 15; <strong>Disable Device</strong> DC 20<br/><strong>Effects</strong><br/><strong>Trigger</strong> location; <strong>Reset</strong> manual<br/><strong>Effect</strong> Atk +10 melee (1d6+2); jaws spring shut around the creature's ankle and hold the creature immobile; the creature can escape with a DC 20 Disable Device check, DC 24 Escape Artist check, or DC 28 Strength check.</p>
 </blockquote>
 <h3 id="eq-misc-bear_trap_offset-bear-trap-sawtooth">Bear Trap (sawtooth)</h3>
-<Tabular format="misc" a="1800" b="20" d="tools" />
+<Tabular format="misc" id="sawtooth" a="1800" b="20" d="tools" />
 <p>A sawtooth bear trap has vicious jaws and tighter springs. Used primarily against humanoids or monsters rather than animals, sawtooth bear traps are often painted in camouflaged colors to blend in with the trap site. Most include locking plates over the spring mechanisms to prevent tampering by intelligent victims.</p>
 <blockquote>
 <p><strong>Sawtooth Bear Trap - CR 5</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 25; <strong>Disable Device</strong> DC 25<br/><strong>Effects</strong><br/><strong>Trigger</strong> location; <strong>Reset</strong> manual<br/><strong>Effect</strong> Atk +15 melee (3d6+9); serrated jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 25 Disable Device check, DC 28 Escape Artist check, or DC 32 Strength check.</p>
@@ -1113,25 +1113,25 @@ const _black_cumin = {hasJL:true,title: "Black cumin", jsx: <><div className="ju
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 14</Link>  </p>
 <p>Food spoils more quickly in hot climates, and Qadirans have become experts at using the spices that they trade to help preserve their meals. After importing plants from across the planes, Qadiran druids and alchemists bred and magically adapted unique species with enhanced medicinal properties. <Link to="/rule/al_zabriti">Al-Zabriti</Link> tribes generally have supplies of the following spices on hand. To gain the benefits of these spices, a character must consume multiple doses over 1 or more days, as indicated for each spice. Once the benefit is gained, continued consumption at that rate maintains the benefit.</p>
 <h3 id="eq-misc-black_cumin-black-cumin" data-hash-target>Black Cumin</h3>
-<Tabular format="misc" a="15" b="x" d="food" />
+<Tabular format="misc" id="cumin" a="15" b="x" d="food" />
 <p>Cumin is a nutty seasoning used in savory foods. If eaten twice per day for a week, it grants those who consume it a +1 alchemical bonus on Fortitude saves to resist disease for the following 24 hours. An ounce of black cumin sells for 15 gp and seasons 14 meals.</p>
 <h3 id="eq-misc-black_cumin-flaming-sumac" data-hash-target>Flaming Sumac</h3>
-<Tabular format="misc" a="20" b="x" d="food" />
+<Tabular format="misc" id="sumac" a="20" b="x" d="food" />
 <p>A tart spice, sumac allows a character who contracts a natural disease with multiple effects to suffer one fewer effect (determined randomly) each time he fails a saving throw to resist that disease's effects. An individual must consume flaming sumac twice per day for at least 3 days to gain its effects, which last for 24 hours after the last dose is consumed. An ounce of flaming sumac sells for 20 gp and seasons six meals.</p>
 <h3 id="eq-misc-black_cumin-golden-cardamom" data-hash-target>Golden Cardamom</h3>
-<Tabular format="misc" a="30" b="x" d="food" />
+<Tabular format="misc" id="cardamom" a="30" b="x" d="food" />
 <p>This fragrant, sweet powder is made from ground cardamom seeds and is often used as a perfume and tooth cleaner, as well as a seasoning in rice dishes and desserts. When a character takes ability damage from a disease, the actual damage taken is reduced by 1 (to a minimum of 0). Golden cardamom has no effect on ability drain or other effects caused by disease. It must be eaten once per day for 9 days to build up sufficiently within an individual's body to provide this effect. An ounce of golden cardamom seeds sells for 30 gp and seasons nine meals.</p>
 <h3 id="eq-misc-black_cumin-striped-nutmeg" data-hash-target>Striped Nutmeg</h3>
-<Tabular format="misc" a="100" b="x" d="food" />
+<Tabular format="misc" id="nutmeg" a="100" b="x" d="food" />
 <p>Used for both desserts and meats, nutmeg halves any ability damage (but not ability drain) resulting from non-supernatural disease, to a minimum damage of 1. It must be eaten three times per day for at least 4 days to provide this effect. An ounce of ground striped nutmeg sells for 100 gp and seasons 12 meals.</p>
 <h3 id="eq-misc-black_cumin-sunrise-cinnamon" data-hash-target>Sunrise Cinnamon</h3>
-<Tabular format="misc" a="15" b="x" d="food" />
+<Tabular format="misc" id="cinnamon" a="15" b="x" d="food" />
 <p>A warming spice, sunrise cinnamon is used for seasoning both sweet and savory foods. It promotes sweating, and a character who ingests it twice per day for 5 days gains a +4 alchemical bonus on Fortitude saves made to resist the effects of <Link to="/rule/heat_dangers">hot environments</Link>. An ounce of ground sunrise cinnamon sells for 15 gp and seasons 10 meals.</p>
 <h3 id="eq-misc-black_cumin-tiger-cloves" data-hash-target>Tiger Cloves</h3>
-<Tabular format="misc" a="25" b="x" d="food" />
+<Tabular format="misc" id="cloves" a="25" b="x" d="food" />
 <p>Cloves are used in both sweet and savory foods, brewed into teas, and chewed as a breath freshener. When chewed for 1 minute, a dose of tiger cloves removes nauseated or sickened conditions caused by disease or poison effects. When used to season a meal, a dose of tiger cloves grants a +2 alchemical bonus on saving throws to resist the nauseated or sickened conditions for 24 hours after the meal is eaten. A single dose of tiger cloves sells for 25 gp and seasons one meal.</p>
 <h3 id="eq-misc-black_cumin-violet-salt" data-hash-target>Violet Salt</h3>
-<Tabular format="misc" a="5" b="x" d="food" />
+<Tabular format="misc" id="salt" a="5" b="x" d="food" />
 <p>Salt is of vital importance for retaining a body's water. If a dose of Qadiran violet salt is consumed as part of a meal, it grants a +4 alchemical bonus on Constitution checks to resist the effects of ongoing <Link to="/rule/thirst">thirst</Link> for the next 24 hours. A dose of violet salt sells for 5 gp and seasons one meal.</p>
 </>};
 const _black_fester_vial = {title: "Black fester (vial)", jsx: <><h2 id="eq-misc-black_fester_vial-black-fester-vial">Black fester (vial)</h2>
@@ -1463,10 +1463,10 @@ const _bufo_jug = {title: "Bufo (jug)", jsx: <><h2 id="eq-misc-bufo_jug-bufo-jug
 </>};
 const _bullseye_lantern = {hasJL:true,title: "Bullseye lantern", jsx: <><div className="jumpList" id="eq-misc-bullseye_lantern-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-bullseye_lantern-waterproof-bullseye-lantern">Waterproof Bullseye Lantern</InnerLink></li></ul></div><h2 id="eq-misc-bullseye_lantern-bullseye-lantern">Bullseye lantern</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
-<Tabular format="misc" a="12" b="3" d="gear" />
+<Tabular format="misc" id="base" a="12" b="3" d="gear" />
 <p>A bullseye lantern provides normal light in a 60-foot cone and increases the <Link to="/rule/light_level">light level</Link> by one step in the area beyond that, out to a 120-foot cone (darkness becomes dim light and dim light becomes normal light). A bullseye lantern does not increase the light level in normal light or bright light. A lantern burns for 6 hours on 1 pint of <Link to="/eq-misc/oil">oil</Link>. You can carry a lantern in one hand.</p>
 <h3 id="eq-misc-bullseye_lantern-waterproof-bullseye-lantern" data-hash-target>Waterproof Bullseye Lantern</h3>
-<Tabular format="misc" a="17" b="3" d="gear" />
+<Tabular format="misc" id="waterproof" a="17" b="3" d="gear" />
 <p>Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark.</p>
 </>};
 const _bunk = {title: "Bunk", jsx: <><h2 id="eq-misc-bunk-bunk">Bunk</h2>
@@ -1824,13 +1824,13 @@ const _chariot = {hasJL:true,title: "Chariot", jsx: <><div className="jumpList" 
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>  </p>
 <p>This two-wheeled vehicle is drawn by a horse. There are three varieties of chariots.</p>
 <h3 id="eq-misc-chariot-light-chariots" data-hash-target>Light Chariots</h3>
-<Tabular format="misc" a="50" d="trans" e="Land" f="0.02" />
+<Tabular format="misc" id="light" a="50" d="trans" e="Land" f="0.02" />
 <p> These chariots are often used for racing or as the platform for a single archer charging across the battlefield at high speed.</p>
 <h3 id="eq-misc-chariot-medium-chariots" data-hash-target>Medium Chariots</h3>
-<Tabular format="misc" a="100" d="trans" e="Land" f="0.02" />
+<Tabular format="misc" id="medium" a="100" d="trans" e="Land" f="0.02" />
 <p> These chariots are used in battle to break apart infantry formations or as fast-moving fighting platforms.</p>
 <h3 id="eq-misc-chariot-heavy-chariots" data-hash-target>Heavy Chariots</h3>
-<Tabular format="misc" a="200" d="trans" e="Land" f="0.02" />
+<Tabular format="misc" id="heavy" a="200" d="trans" e="Land" f="0.02" />
 <p> This type of chariot is typically used as a fighting platform or for transporting material quickly onto the battlefield.</p>
 </>};
 const _chausses = {title: "Chausses", jsx: <><h2 id="eq-misc-chausses-chausses">Chausses</h2>

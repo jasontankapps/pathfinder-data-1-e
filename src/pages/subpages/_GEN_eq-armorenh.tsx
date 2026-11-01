@@ -13,25 +13,25 @@ const _sanctified_shield = {title: "Sanctified shield", jsx: <><h2 id="eq-armore
 </>};
 const _shield_boss_breakaway = {hasJL:true,title: "Shield boss (breakaway)", jsx: <><div className="jumpList" id="eq-armorenh-shield_boss_breakaway-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-armorenh-shield_boss_breakaway-breakaway-boss">Breakaway Boss</InnerLink></li><li><InnerLink toTop to="eq-armorenh-shield_boss_breakaway-hooked-boss">Hooked Boss</InnerLink></li><li><InnerLink toTop to="eq-armorenh-shield_boss_breakaway-illuminating-boss">Illuminating Boss</InnerLink></li><li><InnerLink toTop to="eq-armorenh-shield_boss_breakaway-masterwork-boss">Masterwork Boss</InnerLink></li></ul></div><h2 id="eq-armorenh-shield_boss_breakaway-shield-boss">Shield boss</h2>
 <p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 21</Link>  </p>
-<Tabular format="armor" a="30" b="10" />
+<Tabular format="armor" id="boss" a="30" b="10" />
 <p>A shield boss is a sturdy steel device that fastens to the front of a shield, providing metal support struts that radiate outward from the center of the shield, reinforcing its structure. A shield boss can be added to a <Link to="/eq-armor/buckler">buckler</Link>, <Link to="/eq-armor/light_steel_shield">light steel</Link> or <Link to="/eq-armor/light_wooden_shield">wooden shield</Link>, or <Link to="/eq-armor/heavy_steel_shield">heavy steel</Link> or <Link to="/eq-armor/heavy_wooden_shield">wooden shield</Link>. <Link to="/eq-armor/tower_shield">Tower shields</Link> are too large for a typical shield boss, though one can be crafted to fit a tower shield for an additional 300 gp. Attaching or removing a shield boss requires 10 minutes of work and a successful DC 15 <Link to="/skill/craft">Craft</Link> (armor) check; on a failure, the shield boss is not successfully attached or removed and the shield takes 1d6 points of damage that bypasses any hardness.</p>
 <p><Icons id="eq-armorenh-shield_boss_breakaway-def-down-icons" wrapper="prefixIcon" list={["def","down"]} /> A <strong className="hl">reinforcing boss</strong> provides extra protection to a shield, increasing the shield's current and maximum hit points by 10. The boss makes the shield 10 pounds heavier and more unwieldy - if the shield imposes a penalty on attack rolls, as do bucklers and tower shields, the penalty increases by 1.</p>
 <p>Common improvements to the basic reinforcing boss include the following.</p>
 <h3 id="eq-armorenh-shield_boss_breakaway-breakaway-boss" data-hash-target>Breakaway Boss</h3>
-<Tabular format="armor" a="120" b="10" />
+<Tabular format="armor" id="breakaway" a="120" b="10" />
 <p>The metal stud at the center of the reinforcing boss holds a compartment large enough to insert a single splash weapon, such as a vial of <Link to="/eq-weapon/acid">acid</Link> or <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link>, as a <strong className="hl">full-round action</strong>.</p>
 <p><Icons id="eq-armorenh-shield_boss_breakaway-melee-icons" wrapper="prefixIcon" list={["melee"]} /> On a successful <Link to="/misc/shield_bash">shield bash</Link> attack, the weapon vial breaks and deals damage to the target as though it were directly hit by the splash weapon. The shield takes the normal amount of splash damage for being adjacent to the target, but no other creatures adjacent to the target take splash damage from this effect.</p>
 <p>A new splash weapon must be inserted into the breakaway boss for it to be used again.</p>
 <h3 id="eq-armorenh-shield_boss_breakaway-hooked-boss" data-hash-target>Hooked Boss</h3>
-<Tabular format="armor" a="80" b="10" />
+<Tabular format="armor" id="hooked" a="80" b="10" />
 <p>The struts on this reinforcing boss bear large, sturdy hooks, which can be used to snag an opponent's clothing or armor, causing it to stumble.</p>
 <p><Icons id="eq-armorenh-shield_boss_breakaway-melee-lower-icons" wrapper="prefixIcon" list={["melee","lower"]} /> You can attempt <Link to="/rule/trip">trip</Link> combat maneuver checks with this shield. If the combat maneuver check is successful, the opponent does not fall <Link to="/rule/prone">prone</Link>, but is considered <Link to="/rule/flat_footed">flat-footed</Link> until the beginning of its next turn.</p>
 <h3 id="eq-armorenh-shield_boss_breakaway-illuminating-boss" data-hash-target>Illuminating Boss</h3>
-<Tabular format="armor" a="35" b="10" />
+<Tabular format="armor" id="illum" a="35" b="10" />
 <p>The stud at the center of this reinforcing boss contains a covered slot large enough to insert a <Link to="/eq-misc/sunrod">sunrod</Link>. Installing a lit sunrod into an illuminating boss is a <strong className="hl">full-round action</strong>.</p>
 <p><Icons id="eq-armorenh-shield_boss_breakaway-power-icons" wrapper="prefixIcon" list={["power"]} /> If you shake the shield firmly as a <strong className="hl">move action</strong>, you can flip a metal flap fitted over the slot to conceal or reveal the sunrod's glow.</p>
 <h3 id="eq-armorenh-shield_boss_breakaway-masterwork-boss" data-hash-target>Masterwork Boss</h3>
-<Tabular format="armor" a="50" b="x" c="M" />
+<Tabular format="armor" id="master" a="50" b="x" c="M" />
 <p>Any of the bosses listed above, including the basic reinforcing boss, can be masterwork. A masterwork reinforcing boss increases the shield's current and maximum hit points by 15 instead of 10 and doesn't increase the attack roll penalty.</p>
 </>};
 const _armor_vents = {title: "Armor vents", jsx: <><h2 id="eq-armorenh-armor_vents-armor-vents">Armor vents</h2>
@@ -67,9 +67,9 @@ const _shield_spikes = {title: "Shield spikes", jsx: <><h2 id="eq-armorenh-shiel
 <p>An enhancement bonus on a spiked shield does not improve the effectiveness of a shield bash made with it, but a spiked shield can be made into a magic weapon in its own right.</p>
 <p><Icons id="eq-armorenh-shield_spikes-def-icons" wrapper="prefixIcon" list={["def"]} /> Shield spikes cannot be disarmed.</p>
 <p><strong className="hl">Light shield</strong>  </p>
-<Tabular format="weap2" d="s1d3m1d4" e="&times;2" f="x" g="P" i="Close" j="M" />
+<Tabular format="weap2" id="light" d="s1d3m1d4" e="&times;2" f="x" g="P" i="Close" j="M" />
 <p><strong className="hl">Heavy shield</strong>  </p>
-<Tabular format="weap2" d="s1d4m1d6" e="&times;2" f="x" g="P" i="Close" j="M" />
+<Tabular format="weap2" id="heavy" d="s1d4m1d6" e="&times;2" f="x" g="P" i="Close" j="M" />
 </>};
 const _burnished = {title: "Burnished", jsx: <><h2 id="eq-armorenh-burnished-burnished">Burnished</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 7</Link>  </p>

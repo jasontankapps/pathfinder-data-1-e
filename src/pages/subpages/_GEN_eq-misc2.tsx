@@ -122,11 +122,11 @@ const _fishing_net = {title: "Fishing net", jsx: <><h2 id="eq-misc-fishing_net-f
 </>};
 const _flag_ensign_or_courtesy_large = {title: "Flag (ensign or courtesy, large)", jsx: <><h2 id="eq-misc-flag_ensign_or_courtesy_large-flag">Flag</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 293</Link>  </p>
-<Tabular format="misc" a="10" b="3" d="gear" />
+<Tabular format="misc" id="simple" a="10" b="3" d="gear" />
 <p>A flag is a colorful banner that bears the heraldry or symbol of a nation or organization. A character with the <Link to="/feat/flagbearer">Flagbearer</Link> feat who bears a flag can grant additional combat bonuses to nearby allies. Carrying a flag in combat requires a free hand.</p>
 <h2 id="eq-misc-flag_ensign_or_courtesy_large-flag">Flag</h2>
 <p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 21</Link>  </p>
-<Tabular format="misc" a="5 gp (ensign or courtesy, large), 2 gp (ensign or courtesy, small), 10 gp (personal signal, large), 4 gp (personal signal, small)" b="1 lb. (ensign or courtesy, large), &mdash; (ensign or courtesy, small), 1 lb. (personal signal, large), &mdash; (personal signal, small)" c="x" d="gear" />
+<Tabular format="misc" id="pirates" a="5 gp (ensign or courtesy, large), 2 gp (ensign or courtesy, small), 10 gp (personal signal, large), 4 gp (personal signal, small)" b="1 lb. (ensign or courtesy, large), &mdash; (ensign or courtesy, small), 1 lb. (personal signal, large), &mdash; (personal signal, small)" c="x" d="gear" />
 <p>Small nautical flags measure 3 feet by 5 feet, while large ones measure 6 feet by 10 feet. Most ships fly a large national flag (or "ensign") and a small courtesy flag (the flag of the nation whose waters it's sailing in) as well as a personal signal, but flag sizes depend on ship size and personal preference.</p>
 <p>Flags can be made out of almost any material. Cotton and silk are common, though any type of cloth degrades quickly at sea. Most captains replace their flags every two or three voyages.</p>
 <p>Ensign and courtesy flags cost less than personal signals, as they can be made in large quantities. Personal signals must be custom ordered.</p>
@@ -914,10 +914,10 @@ const _honey_jar = {title: "Honey (jar)", jsx: <><h2 id="eq-misc-honey_jar-honey
 </>};
 const _hooded_lantern = {hasJL:true,title: "Hooded lantern", jsx: <><div className="jumpList" id="eq-misc-hooded_lantern-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-hooded_lantern-waterproof-lantern">Waterproof Lantern</InnerLink></li></ul></div><h2 id="eq-misc-hooded_lantern-hooded-lantern">Hooded lantern</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
-<Tabular format="misc" a="7" b="2" d="gear" />
+<Tabular format="misc" id="hood" a="7" b="2" d="gear" />
 <p>A hooded lantern sheds normal light in a 30-foot radius and increases the <Link to="/rule/light_level">light level</Link> by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A hooded lantern does not increase the light level in normal light or bright light. A lantern burns for 6 hours on 1 pint of oil. You can carry a lantern in one hand.</p>
 <h3 id="eq-misc-hooded_lantern-waterproof-lantern" data-hash-target>Waterproof Lantern</h3>
-<Tabular format="misc" a="12" b="2" d="gear" />
+<Tabular format="misc" id="waterproof" a="12" b="2" d="gear" />
 <p>Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark.</p>
 </>};
 const _hoodwink_cowl = {title: "Hoodwink cowl", jsx: <><h2 id="eq-misc-hoodwink_cowl-hoodwink-cowl">Hoodwink cowl</h2>
@@ -941,22 +941,22 @@ const _horse_heavy = {hasJL:true,title: "Horse (heavy)", jsx: <><div className="
 <p>This Large quadruped is used as a mount and pack animal. Horses can be trained for combat but otherwise are skittish around battle. Many cultures support breeding programs and often consider their horse the best at whatever task they breed it to perform.</p>
 <p><strong className="hl">Stat blocks:</strong> <Link to="/monster/horse">Horse</Link>, <Link to="/monster/pony">Pony</Link>.</p>
 <h3 id="eq-misc-horse_heavy-heavy-horse" data-hash-target>Heavy Horse</h3>
-<Tabular format="misc" a="200" b="2000" d="pet" />
+<Tabular format="misc" id="heavy" a="200" b="2000" d="pet" />
 <p>These horses are often used as portage animals, pulling significant loads across great distances.</p>
 <h3 id="eq-misc-horse_heavy-heavy-horse-combat-trained" data-hash-target>Heavy Horse (Combat Trained)</h3>
-<Tabular format="misc" a="300" b="3000" d="pet" />
+<Tabular format="misc" id="heavycombat" a="300" b="3000" d="pet" />
 <p>Heavy warhorses are bred and trained for combat. They are often are outfitted with heavy barding, but fight just as fiercely even without the armor.</p>
 <h3 id="eq-misc-horse_heavy-light-horse" data-hash-target>Light Horse</h3>
-<Tabular format="misc" a="75" b="900" d="pet" />
+<Tabular format="misc" id="light" a="75" b="900" d="pet" />
 <p>These horses can be ridden, but often serve as porters or carriage horses.</p>
 <h3 id="eq-misc-horse_heavy-light-horse-combat-trained" data-hash-target>Light Horse (Combat Trained)</h3>
-<Tabular format="misc" a="110" b="1200" d="pet" />
+<Tabular format="misc" id="lightcombat" a="110" b="1200" d="pet" />
 <p>These light warhorses are bred for war and are favored by fast and light cavalry, scouts, and daredevil knights.</p>
 <h3 id="eq-misc-horse_heavy-pony" data-hash-target>Pony</h3>
-<Tabular format="misc" a="30" b="800" d="pet" />
+<Tabular format="misc" id="pony" a="30" b="800" d="pet" />
 <p>These creatures are typically used for carting goods along narrow mountain trails or as steeds for young or Small riders.</p>
 <h3 id="eq-misc-horse_heavy-pony-combat-trained" data-hash-target>Pony (Combat Trained)</h3>
-<Tabular format="misc" a="45" b="900" d="pet" />
+<Tabular format="misc" id="ponycombat" a="45" b="900" d="pet" />
 <p>Ponies can be trained for combat just as effectively as their larger, more mature brethren. Such steeds often serve Small riders that expect to face battle.</p>
 <h3 id="eq-misc-horse_heavy-other-specific-mounts" data-hash-target>Other, Specific Mounts</h3>
 <p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea pg. 33</Link><br/>Each of the following listings details a specific breed of riding animal and provides a trait that grants an additional boon to the mount or its rider. The trait granted to a mount counts against a character's total maximum number of traits. If a knight replaces his mount, he effectively loses the old trait and gains the new mount's trait.</p>
@@ -1120,10 +1120,10 @@ const _inkpen = {title: "Inkpen", jsx: <><h2 id="eq-misc-inkpen-inkpen">Inkpen</
 </>};
 const _inn_stay_common = {hasJL:true,title: "Inn stay (common)", jsx: <><div className="jumpList" id="eq-misc-inn_stay_common-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-inn_stay_common-inn-suite">Inn Suite</InnerLink></li></ul></div><h2 id="eq-misc-inn_stay_common-inn-stay">Inn stay</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 99</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
-<Tabular format="misc" a="5 sp (common), 2 gp (good), 2 sp (poor)" b="&mdash;" c="x" d="lodgserv" />
+<Tabular format="misc" id="inn" a="5 sp (common), 2 gp (good), 2 sp (poor)" b="&mdash;" c="x" d="lodgserv" />
 <p>The listed price is for a single night's stay at an inn. Poor accommodations at an inn amount to a place on the floor near the hearth. Common accommodations consist of a place on a raised, heated floor and the use of a blanket and a pillow. Good accommodations consist of a small, private room with one bed, some amenities, and a covered chamber pot in the corner.</p>
 <h3 id="eq-misc-inn_stay_common-inn-suite" data-hash-target>Inn Suite</h3>
-<Tabular format="misc" a="16 gp (suite, average), 32 gp+ (suite, luxurious), 4 gp (suite, small)" b="&mdash;" c="x" d="lodgserv" />
+<Tabular format="misc" id="suite" a="16 gp (suite, average), 32 gp+ (suite, luxurious), 4 gp (suite, small)" b="&mdash;" c="x" d="lodgserv" />
 <p>Only available in larger and more expensive inns, a suite is a rented bedroom and an attached private room. A small suite includes a fireplace and <Link to="/eq-misc/good_lock">good lock</Link> on the outer door. An average suite includes a fireplace, a <Link to="/eq-misc/superior_lock">superior lock</Link> on the door, and either two bedrooms or one larger bedroom. A luxurious suite includes a fireplace, a superior lock on the outer door, and two large or three or four smaller bedrooms, plus servants on call to clean, cook, help with dressing, or send messages.</p>
 </>};
 const _inquisitors_kit = {title: "Inquisitor's kit", jsx: <><h2 id="eq-misc-inquisitors_kit-inquisitors-kit">Inquisitor's kit</h2>
@@ -1185,16 +1185,16 @@ const _invisible_ink_average = {hasJL:true,title: "Invisible ink (average)", jsx
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <p>Invisible ink is a staple of spies, rebels, and secret societies everywhere. Messages written with invisible ink only become visible under specific circumstances. Revealing the secret message with the proper triggering agent is a full-round action per page of text. A successful <Link to="/skill/craft">Craft</Link> (alchemy) check reveals the message without the proper trigger and takes 1 hour (the DC varies by ink quality).</p>
 <h3 id="eq-misc-invisible_ink_average-simple" data-hash-target>Simple</h3>
-<Tabular format="misc" a="2" b="&mdash;" d="atools" />
+<Tabular format="misc" id="simple" a="2" b="&mdash;" d="atools" />
 <p>This ink is keyed to a single, fairly common trigger, such as heat or vinegar (DC 20 to reveal without the trigger).</p>
 <h3 id="eq-misc-invisible_ink_average-average" data-hash-target>Average</h3>
-<Tabular format="misc" a="10" b="&mdash;" d="atools" />
+<Tabular format="misc" id="average" a="10" b="&mdash;" d="atools" />
 <p>This ink is keyed to either two common triggers or one uncommon trigger, such as blood or acid (DC 25 to reveal without the trigger).</p>
 <h3 id="eq-misc-invisible_ink_average-good" data-hash-target>Good</h3>
-<Tabular format="misc" a="25" b="&mdash;" d="atools" />
+<Tabular format="misc" id="good" a="25" b="&mdash;" d="atools" />
 <p>This ink is keyed to either two uncommon triggers or one rare trigger, such as a specific vintage of wine or a specific kind of monster's blood (DC 30 to reveal without the trigger).</p>
 <h3 id="eq-misc-invisible_ink_average-superior" data-hash-target>Superior</h3>
-<Tabular format="misc" a="75" b="&mdash;" d="atools" />
+<Tabular format="misc" id="superior" a="75" b="&mdash;" d="atools" />
 <p>This ink is keyed to either two rare triggers or one unique trigger, such as the blood of a specific person (DC 35 to reveal without the trigger).</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25 (superior), DC 20 (average, good), DC 15 (simple)</p>
 </>};
@@ -1584,10 +1584,10 @@ const _lure_fake_area_map = {hasJL:true,title: "Lure (fake area map)", jsx: <><d
 <p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion pg. 28</Link>  </p>
 <p>Among Darklanders, the process of luring surface dwellers into danger is known as "deepbaiting." This practice is highly refined in <Link to="/monster/kobold">kobold</Link> culture, and requires a substantial amount of psychological subtlety. Many kobold trappers use physical lures to draw victims into such ambushes. These lures are most often replica items, chosen to appeal to the intended prey. Because kobolds have little in-depth contact with the surface-dwelling world, their replicas lack detail, and usually don't stand up to close inspection.</p>
 <h3 id="eq-misc-lure_fake_area_map-fake-area-map" data-hash-target>Fake Area Map</h3>
-<Tabular format="misc" a="20" b="&mdash;" d="gear" />
+<Tabular format="misc" id="map" a="20" b="&mdash;" d="gear" />
 <p>This faux-distressed piece of parchment is a crude map of the local area, with red circles and arcane gibberish scrawled on it. Intentionally made to look old and worn, it's actually a simple piece of parchment that's been singed, crumpled, and rolled in the dirt. Because the average kobold artisan's knowledge of Common is poor, any literate creature within 5 feet can identify the map as a fake. However, beyond 5 feet, a fake map requires a successful DC 25 Sense Motive check to identify it as phony.</p>
 <h3 id="eq-misc-lure_fake_area_map-fake-coins" data-hash-target>Fake Coins</h3>
-<Tabular format="misc" a="5" b="&mdash;" d="gear" />
+<Tabular format="misc" id="coins" a="5" b="&mdash;" d="gear" />
 <p>These rough-hewn discs of metal are covered in highly reflective, gold-colored plating, which catches the light and causes them to shimmer. At a distance greater than 5 feet, fake coins require a DC 20 Sense Motive check to identify. However, because these "coins" aren't molded and have no embellishment on either side, any creature within 5 feet can clearly identify them as spurious.</p>
 </>};
 const _mages_assistant = {title: "Mage's assistant", jsx: <><h2 id="eq-misc-mages_assistant-mages-assistant">Mage's assistant</h2>
@@ -1703,13 +1703,13 @@ const _masking_scent_animal = {title: "Masking scent (animal)", jsx: <><h2 id="e
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 207</Link>  </p>
 <p>This item comes in a variety of scents (matching any one animal, humanoid, or magical beast). One vial applied to a single Medium-sized creature changes its scent to that of the masking scent's creature for 8 hours.</p>
 <h3 id="eq-misc-masking_scent_animal-animal">Animal</h3>
-<Tabular format="misc" a="25" b="x" d="atools" />
+<Tabular format="misc" id="anim" a="25" b="x" d="atools" />
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 <h3 id="eq-misc-masking_scent_animal-humanoid">Humanoid</h3>
-<Tabular format="misc" a="50" b="x" d="atools" />
+<Tabular format="misc" id="hum" a="50" b="x" d="atools" />
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 <h3 id="eq-misc-masking_scent_animal-magical-beast">Magical Beast</h3>
-<Tabular format="misc" a="100" b="x" d="atools" />
+<Tabular format="misc" id="mb" a="100" b="x" d="atools" />
 <p><strong>Construction:</strong> Craft (Alchemy) DC 30</p>
 </>};
 const _masterwork_flippers = {title: "Masterwork flippers", jsx: <><h2 id="eq-misc-masterwork_flippers-masterwork-flippers">Masterwork flippers</h2>
@@ -1880,10 +1880,10 @@ const _miners_bird = {title: "Miner's bird", jsx: <><h2 id="eq-misc-miners_bird-
 </>};
 const _miners_lantern = {hasJL:true,title: "Miner's lantern", jsx: <><div className="jumpList" id="eq-misc-miners_lantern-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-miners_lantern-waterproof-lantern">Waterproof Lantern</InnerLink></li></ul></div><h2 id="eq-misc-miners_lantern-miners-lantern">Miner's lantern</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 47</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
-<Tabular format="misc" a="15" b="2" d="gear" />
+<Tabular format="misc" id="miner" a="15" b="2" d="gear" />
 <p>A smaller version of the <Link to="/eq-misc/bullseye_lantern">bullseye lantern</Link>, a miner's lantern provides normal light in a 30-foot cone and increases the <Link to="/rule/light_level">light level</Link> by one step in the area beyond that, out to a 60-foot cone (darkness becomes dim light and dim light becomes normal light). A miner's lantern does not increase the light level in normal light or bright light. It burns for 6 hours on 1 pint of <Link to="/eq-misc/oil">oil</Link>. A miner's lantern comes with straps for attachment to a helmet or other piece of sturdy headgear, but it can also be carried in one hand.</p>
 <h3 id="eq-misc-miners_lantern-waterproof-lantern" data-hash-target>Waterproof Lantern</h3>
-<Tabular format="misc" a="20" b="2" d="gear" />
+<Tabular format="misc" id="waterproof" a="20" b="2" d="gear" />
 <p>Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark.</p>
 </>};
 const _miners_pick = {title: "Miner's pick", jsx: <><h2 id="eq-misc-miners_pick-miners-pick">Miner's pick</h2>
