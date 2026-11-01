@@ -471,17 +471,9 @@
 			"",
 			"The following are examples of traps favored by skaprauns.",
 			"",
-			"**Scree Slide Trap - CR 1**  ",
-			"**Type** mechanical; Perception DC 20; Disable Device DC 20  ",
-			"*Effects*  ",
-			"**Trigger** location; **Reset** repair  ",
-			"**Effect** CMB +10 check (vs. target's CMD; target falls prone); multiple targets (all targets in a 10-ft.-square area); for every 5 by which the attack exceeds the CMD, the target also slides 5 ft. down the slope",
+			"::trap[Scree Slide Trap]{cr=1 mechanical pdc=20 dddc=20 trigger=location repair eff=\"CMB +10 check (vs. target's CMD; target falls prone); multiple targets (all targets in a 10-ft.-square area); for every 5 by which the attack exceeds the CMD, the target also slides 5 ft. down the slope\"}",
 			"",
-			"*Rockfall Trap - CR 2*  ",
-			"**Type** mechanical; Perception DC 20; Disable Device DC 20  ",
-			"*Effects*  ",
-			"**Trigger** location; **Reset** repair  ",
-			"**Effect** Atk +10 melee (2d6); multiple targets (all targets in a 10-ft.-square area); affected squares are treated as dense rubble"
+			"::trap[Rockfall Trap]{cr=2 mechanical pdc=20 dddc=20 trigger=location repair eff=\"Atk +10 melee (2d6); multiple targets (all targets in a 10-ft.-square area); affected squares are treated as dense rubble\"}"
 		]
 	},
 	"skeleton_armored_ogre_skeleton": {

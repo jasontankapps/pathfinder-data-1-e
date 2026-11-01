@@ -3,6 +3,7 @@ import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import Tabular from '../../components/Tabular';
 import AffInfo from '../../components/AfflictionInfo';
+import TrapInfo from '../../components/TrapInfo';
 import Message from '../../components/Message';
 import Icons from '../../components/Icons';
 const _fetish_tribal = {title: "Fetish, tribal", jsx: <><h2 id="eq-misc-fetish_tribal-fetish-tribal">Fetish, tribal</h2>
@@ -148,7 +149,7 @@ const _flask_launcher = {title: "Flask launcher", jsx: <><h2 id="eq-misc-flask_l
 <p>This crossbow-style device is modified to throw splash weapons or contact poisons rather than firing bolts. Its trigger connects to a long spool of wire, which can be strung across one or two 5-foot squares within 10 feet. Once set, the flask launcher can be loaded with a thrown splash weapon or vial of contact poison (which must be purchased separately). The flask launcher fires automatically at the first Tiny or larger creature that disturbs its tripwire. Alchemist bombs cannot be fired by a flask launcher.</p>
 <p>The flask launcher isn't designed to be used as a ranged weapon; treat it as an <Link to="/misc/improvised_weapon">improvised weapon</Link> with a 10-foot range increment. Reloading the launcher is a full-round action that requires two hands and provokes an attack of opportunity.</p>
 <p>This can be crafted with a DC 25 Craft (traps) check.</p>
-<p><strong>Flash Launcher Trap</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 15; <strong>Disable Device</strong> DC 15<br/><strong>Effects</strong><br/><strong>Trigger</strong> touch; <strong>Reset</strong> manual<br/><strong>Effect</strong> Atk +5 ranged touch (effects vary by payload)</p>
+<TrapInfo id="flash-launcher-trap-trap" cr="&mdash&" pdc="15" dddc="15" manual trigger="touch" eff="Atk +5 ranged touch (effects vary by payload)">Flash Launcher Trap</TrapInfo>
 </>};
 const _flask = {title: "Flask", jsx: <><h2 id="eq-misc-flask-flask">Flask</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>

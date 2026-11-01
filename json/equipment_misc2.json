@@ -350,11 +350,7 @@
 			"",
 			"This can be crafted with a DC 25 Craft (traps) check.",
 			"",
-			"**Flash Launcher Trap**  ",
-			"**Type** mechanical; **Perception** DC 15; **Disable Device** DC 15  ",
-			"**Effects**  ",
-			"**Trigger** touch; **Reset** manual  ",
-			"**Effect** Atk +5 ranged touch (effects vary by payload)"
+			"::trap[Flash Launcher Trap]{cr=\"&mdash&\" mechanical pdc=15 dddc=15 trigger=touch manual eff=\"Atk +5 ranged touch (effects vary by payload)\"}"
 		]
 	},
 	"flask": {

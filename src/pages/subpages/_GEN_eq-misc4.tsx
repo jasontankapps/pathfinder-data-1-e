@@ -4,6 +4,7 @@ import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import Tabular from '../../components/Tabular';
 import AffInfo from '../../components/AfflictionInfo';
+import TrapInfo from '../../components/TrapInfo';
 import Message from '../../components/Message';
 import Icons from '../../components/Icons';
 const _aquatic_animals = {title: "Aquatic Animals", jsx: <><h2 id="eq-misc-aquatic_animals-aquatic-animals">Aquatic Animals</h2>
@@ -818,7 +819,8 @@ const _net_rigging = {title: "Net rigging", jsx: <><h2 id="eq-misc-net_rigging-n
 <Tabular format="misc" a="250" b="40" d="gear" />
 <p>This large bundle of ropes, pulleys, netting, and latches can be assembled to form two different traps: one to drop a net from above, and another to snag trespassers from below and hoist them into the air. Either configuration requires an overhead structure such as a ceiling, a crossbeam, or a sturdy tree branch to support the trap's mechanisms and counterweights. Net rigging has an effective Strength score of 19 for the purpose of determining how much weight it can lift.</p>
 <p>This can be crafted with a DC 25 Craft (traps) check.</p>
-<p><strong>Falling Net Trap</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 10; <strong>Disable Device</strong> DC 15<br/><strong>Effects</strong><br/><strong>Trigger</strong> touch; <strong>Reset</strong> manual<br/><strong>Effect</strong> net (entangled and tethered by 10-ft. rope); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)<br/><strong>Hoisting Net Trap</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 10; <strong>Disable Device</strong> DC 15<br/><strong>Effects</strong><br/><strong>Trigger</strong> touch; <strong>Reset</strong> manual<br/><strong>Effect</strong> net (entangled and lifted 10 ft. into the air); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)</p>
+<TrapInfo id="falling-net-trap-trap" cr="&mdash&" pdc="10" dddc="15" manual trigger="touch" eff="net (entangled and tethered by 10-ft. rope); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)">Falling Net Trap</TrapInfo>
+<TrapInfo id="hoisting-net-trap-trap" cr="&mdash&" pdc="10" dddc="15" manual trigger="touch" eff="net (entangled and lifted 10 ft. into the air); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)">Hoisting Net Trap</TrapInfo>
 </>};
 const _nethyss_dagger = {title: "Nethys's dagger", jsx: <><h2 id="eq-misc-nethyss_dagger-nethyss-dagger">Nethys's dagger</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 10</Link>  </p>
@@ -1375,7 +1377,7 @@ const _trespassers_boot = {title: "Trespasser's boot", jsx: <><h2 id="eq-misc-tr
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="0.8" b="2" d="tools" />
 <p>Consisting of a small wooden frame with inward-pointing barbed spikes, this trap is placed in a shallow pit just deep enough for a Medium-sized character's lower leg. When someone steps in the square, the boot catches and holds her leg. The target takes damage if she tries to move or if a Disable Device attempt to free her fails by 5 or more.</p>
-<p><strong>Trespasser's Boot - CR 1/2</strong><br/><strong>Type</strong> mechanical; Perception DC 20; Disable Device DC 20<br/><strong>Trigger</strong> location; Reset manual<br/><strong>Effect</strong> pit spikes (Atk +10 melee, 2d4); spikes hold the target in place; the trap can be escaped with a DC 20 Disable Device check, DC 20 Escape Artist check, or DC 24 Strength check</p>
+<TrapInfo id="trespassers-boot-trap" cr="&frac12&" pdc="20" dddc="20" manual trigger="location" eff="pit spikes (Atk +10 melee, 2d4); spikes hold the target in place; the trap can be escaped with a DC 20 Disable Device check, DC 20 Escape Artist check, or DC 24 Strength check">Trespasser's Boot</TrapInfo>
 </>};
 const _tribal_standard = {title: "Tribal standard", jsx: <><h2 id="eq-misc-tribal_standard-tribal-standard">Tribal standard</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 141</Link>  </p>
@@ -1516,7 +1518,7 @@ const _venom_trap = {title: "Venom trap", jsx: <><h2 id="eq-misc-venom_trap-veno
 <p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox pg. 21</Link>  </p>
 <Tabular format="misc" a="300" b="10" d="gear" />
 <p>A venom trap is a special <Link to="/eq-misc/bear_trap">bear trap</Link> that includes a reservoir that can hold up to 3 doses of injury poison, and a pump system designed to recoat the trap as a trapped target struggles to escape it. The spring-loaded, hinged jaws of the trap are attached to a chain, which in turn is secured to a spike driven into the ground to ensure that the victim cannot simply crawl away. Prying open the jaws or pulling the spike from the ground requires a successful DC 21 Strength check. On a failed check, the jaws are coated in a dose of poison from the reservoir and clamp back shut, making another attack against the trapped target. The venom trap can make only one attack each round. The base CR of a venom trap is 2, but the CR varies depending on the poison used.</p>
-<p><strong>Venom Trap - CR varies</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 15; <strong>Disable Device</strong> DC 21<br/><strong>Effects</strong><br/><strong>Trigger</strong> location; <strong>Reset</strong> manual<br/><strong>Effect</strong> Atk +11 melee (2d6+4 plus poison); sharp jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a successful DC 20 Disable Device check, DC 22 Escape Artist check, or DC 26 Strength check.</p>
+<TrapInfo id="venom-trap-trap" cr="Varies" pdc="15" dddc="21" manual trigger="location" eff="Atk +11 melee (2d6+4 plus poison); sharp jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a successful DC 20 Disable Device check, DC 22 Escape Artist check, or DC 26 Strength check">Venom Trap</TrapInfo>
 </>};
 const _venombane_lozenges = {title: "Venombane lozenges", jsx: <><h2 id="eq-misc-venombane_lozenges-venombane-lozenges">Venombane lozenges</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 31</Link>  </p>
@@ -1853,7 +1855,7 @@ const _wire = {title: "Wire", jsx: <><h2 id="eq-misc-wire-wire">Wire</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>  </p>
 <Tabular format="misc" a="5" b="0.5" d="gear" />
 <p>This 6-foot length of copper wire is strong and flexible. By attaching it to two <Link to="/eq-misc/piton">pitons</Link> or <Link to="/eq-misc/iron_spike">iron spikes</Link> across an area, you can create a simple tripwire trap.</p>
-<p><strong>Tripwire Trap - CR 1/3</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 15; <strong>Disable Device</strong> DC 10<br/><strong>Effects</strong><br/><strong>Trigger</strong> location; <strong>Reset</strong> automatic<br/><strong>Effect</strong> trip combat maneuver +5 (+10 if the target is running)</p>
+<TrapInfo id="tripwire-trap-trap" cr="&frac13&" pdc="15" dddc="10" automatic trigger="location" eff="trip combat maneuver +5 (+10 if the target is running)">Tripwire Trap</TrapInfo>
 </>};
 const _wismuth_salix = {title: "Wismuth salix", jsx: <><h2 id="eq-misc-wismuth_salix-wismuth-salix">Wismuth salix</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 101</Link>  </p>

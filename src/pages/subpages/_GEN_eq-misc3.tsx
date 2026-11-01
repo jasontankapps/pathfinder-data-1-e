@@ -2,6 +2,7 @@ import Link from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import Tabular from '../../components/Tabular';
+import TrapInfo from '../../components/TrapInfo';
 import Message from '../../components/Message';
 import Icons from '../../components/Icons';
 const _planar_travelers_kit = {title: "Planar traveler's kit", jsx: <><h2 id="eq-misc-planar_travelers_kit-planar-travelers-kit">Planar traveler's kit</h2>
@@ -41,7 +42,7 @@ const _poison_latch_needle = {title: "Poison latch needle", jsx: <><h2 id="eq-mi
 <Tabular format="misc" a="200" b="x" d="gear" />
 <p>This delicate needle is attached to fine springs and a small reservoir that contracts on itself when the trap is disturbed or grabbed, turning a minor prick into a painful injection. This trap is normally hidden under door latches, drawer handles, and other small openings where it can deliver any injury poison, destroying itself in the process. A roll of natural 1 on the skill check to install the trap exposes its installer to the poison. A poison latch needle cannot be reused.</p>
 <p>This can be crafted with a DC 20 Craft (traps) check.</p>
-<p><strong>Poison Latch Needle Trap</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 20; <strong>Disable Device</strong> DC 20<br/><strong>Effects</strong><br/><strong>Trigger</strong> touch; <strong>Reset</strong> none<br/><strong>Effect</strong> Atk +5 melee (1 damage plus poison)</p>
+<TrapInfo id="poison-latch-needle-trap-trap" cr="&mdash&" pdc="20" dddc="20" trigger="touch" eff="Atk +5 melee (1 damage plus poison)">Poison Latch Needle Trap</TrapInfo>
 </>};
 const _poison_lip_paint = {title: "Poison lip paint", jsx: <><h2 id="eq-misc-poison_lip_paint-poison-lip-paint">Poison lip paint</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 233</Link>  </p>
@@ -133,7 +134,8 @@ const _portable_bolt_trap = {title: "Portable bolt trap", jsx: <><h2 id="eq-misc
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 21</Link>  </p>
 <Tabular format="misc" a="125" b="9" d="gear" />
 <p>This specialized <Link to="/eq-weapon/heavy_crossbow">heavy crossbow</Link> is hooked to a trip line that can be strung across any opening up to 10 feet wide, much like that of a <Link to="/eq-misc/bell_tripwire_trap">bell tripwire trap</Link>. When the line is tripped, the crossbow fires its bolt toward the space where the line was tripped. The crossbow must have line of effect to the target space for the trap to work. Placing a portable bolt trap requires 10 minutes of effort to properly calibrate the shot and conceal the line and crossbow. The trap can be placed in as little as 1 minute, but doing so imposes a -4 penalty on the crossbow's attack roll, and the DC of the Perception check to notice the trap is reduced by 4. The trap has the following statistics.</p>
-<p><strong>Portable Bolt Trap - CR 1/2</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 20; <strong>Disable Device</strong> DC 20<br/><strong>Effects</strong><br/><strong>Trigger</strong> touch; <strong>Reset</strong> manual<br/><strong>Effect</strong> Atk +10 ranged (1d10/19-20); Craft (traps) DC 20</p>
+<p>This can be crafted with a DC 20 Craft (traps) check.</p>
+<TrapInfo id="portable-bolt-trap-trap" cr="&frac12&" pdc="20" dddc="20" manual trigger="touch" eff="Atk +10 ranged (1d10/19-20)">Portable Bolt Trap</TrapInfo>
 </>};
 const _portable_bridge = {title: "Portable bridge", jsx: <><h2 id="eq-misc-portable_bridge-portable-bridge">Portable bridge</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>  </p>
@@ -268,7 +270,7 @@ const _pull_cord_grenade = {title: "Pull-cord grenade", jsx: <><h2 id="eq-misc-p
 <Tabular format="misc" a="150" b="2" d="gear" />
 <p>This clay container resembles a <Link to="/eq-weapon/fuse_grenade">fuse grenade</Link>, but trails a pulley and wire rather than a fuse. Pulling the cord (a move action) sparks a <Link to="/eq-misc/flint_and_steel">flint and steel</Link> within the device, causing the grenade to explode. The pull cord can be attached to a door or drawer within 5 feet, or strung across a 5-foot square, causing the grenade to detonate when its tripwire is disturbed. A pull-cord grenade cannot be reused.</p>
 <p>This can be crafted with a DC 25 Craft (traps) check.</p>
-<p><strong>Type</strong> mechanical; Perception DC 15; Disable Device DC 15<br/><strong>Trigger</strong> touch; Reset none<br/><strong>Effect</strong> explosion (2d6 bludgeoning damage and 1d6 fire damage); Reflex DC 15 half; multiple targets (all targets within 10 feet)</p>
+<TrapInfo id="pull-cord-grenade-trap-trap" cr="&mdash&" pdc="15" dddc="15" trigger="touch" eff="explosion (2d6 bludgeoning damage and 1d6 fire damage); Reflex DC 15 half; multiple targets (all targets within 10 feet)">Pull-cord Grenade Trap</TrapInfo>
 </>};
 const _pulque_cup = {title: "Pulque (cup)", jsx: <><h2 id="eq-misc-pulque_cup-pulque">Pulque</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>  </p>
@@ -2236,11 +2238,11 @@ const _trapped_item_trapped_disguise_kit = {hasJL:true,title: "Trapped item (tra
 <h3 id="eq-misc-trapped_item_trapped_disguise_kit-trapped-disguise-kit" data-hash-target>Trapped Disguise Kit</h3>
 <Tabular format="misc" id="disguise" a="50" b="8" d="tools" />
 <p>This appears to be a normal disguise kit, except that if any of the makeup or false facial hair is applied, the victim is marked with a strong scent. This scent mark decreases the DC of tracking the victim by scent by 4. The mark can be washed off with vigorous scrubbing, but otherwise fades on its own over several days.</p>
-<p><strong>Trapped Disguise Kit</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 25; <strong>Disable Device</strong> DC 25<br/><strong>Effects</strong><br/><strong>Trigger</strong> touch; <strong>Reset</strong> repair<br/><strong>Effect</strong> scent mark; never miss; onset delay (1 round)</p>
+<TrapInfo id="trapped-disguise-kit-trap" cr="&mdash&" pdc="25" dddc="25" repair trigger="touch" eff="scent mark; never miss; onset delay (1 round)">Trapped Disguise Kit</TrapInfo>
 <h3 id="eq-misc-trapped_item_trapped_disguise_kit-trapped-scroll-case" data-hash-target>Trapped Scroll Case</h3>
 <Tabular format="misc" id="case" a="40" b="1" d="tools" />
 <p>This seemingly innocuous scroll case contains a glass pellet filled with gaseous poison. This pellet breaks when the case is opened, filling a 5-foot square with toxic gas. This poisonous cloud disperses after 1 round.</p>
-<p><strong>Trapped Scroll Case</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 20; <strong>Disable Device</strong> DC 20<br/><strong>Effects</strong><br/><strong>Trigger</strong> touch; <strong>Reset</strong> none<br/><strong>Effect</strong> poison gas (Ungol dust)</p>
+<TrapInfo id="trapped-scroll-case-trap" cr="&mdash&" pdc="20" dddc="20" trigger="touch" eff="poison gas">Trapped Scroll Case</TrapInfo>
 </>};
 const _pomander_nobles = {..._pomander_merchants, title: "Pomander (noble's)"};
 const _pot_iron = {..._pot_common, title: "Pot (iron)"};

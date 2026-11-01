@@ -8,6 +8,7 @@ import SpellBlock from '../../components/monsters/SpellBlock';
 import Stats from '../../components/monsters/Stats';
 import Ecology from '../../components/monsters/Ecology';
 import AffInfo from '../../components/AfflictionInfo';
+import TrapInfo from '../../components/TrapInfo';
 const _simurgh = {title: "Simurgh", jsx: <><p><em>This massive creature has the body of a resplendent bird but the head of a regal canine.</em></p>
 <Header full><span>Simurgh</span><span>CR 18</span></Header>
 <div className="reduce">
@@ -228,8 +229,8 @@ const _skapraun = {title: "Skapraun", jsx: <><p><em>This dark-furred creature wi
 <p>On the bottom rung of skapraun society are arkas-outcasts who are allowed to perform only the most menial tasks within a tribe. A skapraun becomes an arka if it loses and cannot recover its weapon. Similarly, a skapraun who for some reason cannot extract its precursor's horns or make a weapon out of them is marked an arka. Rather than facing the shame of not being considered a warrior, it is common for an arka to go on a self-imposed exile. Over time, these lone skaprauns lose their supernatural connection to nature, including their ability to reincarnate. They may find themselves in the company of humanoid creatures, getting along best with dwarves, perhaps because of dwarves' similarly dour dispositions and love of mountains.</p>
 <Header sub>Skapraun Traps</Header>
 <p>The following are examples of traps favored by skaprauns.</p>
-<p><strong>Scree Slide Trap - CR 1</strong><br/><strong>Type</strong> mechanical; Perception DC 20; Disable Device DC 20<br/><em>Effects</em><br/><strong>Trigger</strong> location; <strong>Reset</strong> repair<br/><strong>Effect</strong> CMB +10 check (vs. target's CMD; target falls prone); multiple targets (all targets in a 10-ft.-square area); for every 5 by which the attack exceeds the CMD, the target also slides 5 ft. down the slope</p>
-<p><em>Rockfall Trap - CR 2</em><br/><strong>Type</strong> mechanical; Perception DC 20; Disable Device DC 20<br/><em>Effects</em><br/><strong>Trigger</strong> location; <strong>Reset</strong> repair<br/><strong>Effect</strong> Atk +10 melee (2d6); multiple targets (all targets in a 10-ft.-square area); affected squares are treated as dense rubble</p>
+<TrapInfo id="scree-slide-trap-trap" cr="1" pdc="20" dddc="20" repair trigger="location" eff="CMB +10 check (vs. target's CMD; target falls prone); multiple targets (all targets in a 10-ft.-square area); for every 5 by which the attack exceeds the CMD, the target also slides 5 ft. down the slope">Scree Slide Trap</TrapInfo>
+<TrapInfo id="rockfall-trap-trap" cr="2" pdc="20" dddc="20" repair trigger="location" eff="Atk +10 melee (2d6); multiple targets (all targets in a 10-ft.-square area); affected squares are treated as dense rubble">Rockfall Trap</TrapInfo>
 </>};
 const _skeleton_armored_ogre_skeleton = {title: "Armored Ogre Skeleton", jsx: <><Header full><span>Armored Ogre Skeleton</span><span>CR 2</span></Header>
 <div className="reduce">
