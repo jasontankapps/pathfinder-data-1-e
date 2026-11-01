@@ -435,6 +435,7 @@ const _herd_animal = {title: "Herd Animal", jsx: <><h2 id="family-herd_animal-he
 <li><Link to="/monster/camel">Camel</Link></li>
 <li><Link to="/monster/elk">Elk</Link></li>
 <li><Link to="/monster/giraffe">Giraffe</Link></li>
+<li><Link to="/monster/ox">Ox</Link></li>
 <li><Link to="/monster/ram">Ram</Link></li>
 <li><Link to="/monster/river_elk">River Elk</Link></li>
 <li><Link to="/monster/stag">Stag</Link></li>

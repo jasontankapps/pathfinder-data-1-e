@@ -819,6 +819,7 @@
 			"The imposing blue whale is one of the largest animals in the sea, though it is generally docile toward anything it doesn't perceive as a threat. A filter-feeder, the blue whale does not look at humans or ships as potential meals, instead preferring to eat millions of tiny invertebrates known as krill, which it sucks through its baleen in massive gulps. The most dangerous thing about a blue whale, other than its sheer size, is its powerful tail, which can capsize boats and kill humanoids. These enormous mammals can be found in all of Golarion's oceans and seas. An adult blue whale is 100 feet long and weighs 200 tons."
 		]
 	},
+	"whale_blue": { "redirect": "cetacean_blue_whale" },
 	"blue_whale": { "redirect": "cetacean_blue_whale" },
 	"cetacean_crimson_whale": {
 		"name": "Crimson Whale (Cetacean)",
@@ -854,6 +855,7 @@
 		]
 	},
 	"crimson_whale": { "redirect": "cetacean_crimson_whale" },
+	"whale_crimson": { "redirect": "cetacean_crimson_whale" },
 	"cetacean_narwhal": {
 		"name": "Narwhal (Cetacean)",
 		"sources": [

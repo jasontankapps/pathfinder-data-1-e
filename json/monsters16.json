@@ -1112,6 +1112,7 @@
 		]
 	},
 	"giant_chameleon": { "redirect": "lizard_giant_chameleon" },
+	"chameleon_giant": { "redirect": "lizard_giant_chameleon" },
 	"lizard_giant_gecko": {
 		"name": "Giant Gecko (Lizard)",
 		"sources": [ "Bestiary 3" ],
@@ -1141,6 +1142,7 @@
 			"Smaller humanoids (in particular, goblins) can even use the creatures as mounts, taking advantage of their superior climbing skills to attack from seemingly impossible positions and angles. A giant gecko measures 8 feet from nose to tail and weighs 120 pounds. Coloration among giant geckos can vary wildly, though most are some shade of green."
 		]
 	},
+	"gecko_giant": { "redirect": "lizard_giant_gecko" },
 	"giant_gecko": { "redirect": "lizard_giant_gecko" },
 	"lizard_giant_frilled_lizard": {
 		"name": "Giant Frilled Lizard",
@@ -1175,6 +1177,7 @@
 	},
 	"lizard_giant_frilled": { "redirect": "lizard_giant_frilled_lizard" },
 	"giant_frilled_lizard": { "redirect": "lizard_giant_frilled_lizard" },
+	"lizard_frilled_giant": { "redirect": "lizard_giant_frilled_lizard" },
 	"lizard_monitor_lizard": {
 		"name": "Monitor Lizard",
 		"sources": [ "Pathfinder RPG Bestiary" ],

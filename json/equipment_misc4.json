@@ -11,30 +11,30 @@
 			"",
 			"| Animal | Price |",
 			"| --- | --- |",
-			"| @ripple[monster/Blue Whale] | 12,500 gp |",
-			"| @ripple[monster/Crimson Whale] | 8,000 gp |",
 			"| @ripple[monster/Crocodile] | 55 gp |",
 			"| @ripple[monster/Dolphin] | 105 gp |",
 			"| @ripple[monster/Dwarf Caiman] | 7 gp |",
 			"| @ripple[monster/Electric Eel] | 125 gp |",
+			"| @ripple[monster/Frog, Giant] | 75 gp |",
 			"| @ripple[monster/Gar] | 90 gp |",
-			"| @ripple[monster/Giant Frog] | 75 gp |",
-			"| @ripple[monster/Giant Gar] | 1,200 gp |",
-			"| @ripple[monster/Giant Moray Eel] | 1,000 gp |",
-			"| @ripple[monster/Giant Octopus] | 1,800 gp |",
-			"| @ripple[monster/Giant Squid] | 2,500 gp |",
-			"| @ripple[monster/Giant Toad] | 150 gp |",
-			"| @ripple[monster/Great White Whale] | 12,600 gp |",
+			"| @ripple[monster/Gar, Giant] | 1,200 gp |",
 			"| @ripple[monster/Manta Ray] | 25 gp |",
 			"| Marine Iguana (use dwarf caiman stats) | 6 gp |",
+			"| @ripple[monster/Moray Eel, Giant] | 1,000 gp |",
 			"| @ripple[monster/Narwhal] | 350 gp |",
+			"| @ripple[monster/Octopus, Giant] | 1,800 gp |",
 			"| @ripple[monster/Orca] | 1,350 gp |",
 			"| Sea Krait (use ‹monster/viper› stats) | 5 gp |",
 			"| @ripple[monster/Seal] | 45 gp |",
 			"| @ripple[monster/Shark] | 325 gp |",
 			"| @ripple[monster/Squid] | 25 gp |",
+			"| @ripple[monster/Squid, Giant] | 2,500 gp |",
 			"| @ripple[monster/Stingray] | 18 gp |",
-			"| @ripple[monster/Whale] | 10,000 gp |"
+			"| @ripple[monster/Toad, Giant] | 150 gp |",
+			"| @ripple[monster/Whale] | 10,000 gp |",
+			"| @ripple[monster/Whale, Blue] | 12,500 gp |",
+			"| @ripple[monster/Whale, Crimson] | 8,000 gp |",
+			"| @ripple[monster/Whale, Great White] | 12,600 gp |"
 		]
 	},
 	"blue_whale": {
@@ -283,21 +283,21 @@
 			"‹SOURCE Animal Archive/15›  ",
 			"::tabular{format=misc a=Varies b=x d=pet}",
 			"",
-			"Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt wild empathy or Handle Animal checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts (with the notable exception of the ‹eq-misc/dire bat›), though the GM may make exceptions at her discretion.",
+			"Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt ‹ability/wild empathy› or ‹skill/Handle Animal› checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts (with the notable exception of the ‹eq-misc/dire bat›), though the GM may make exceptions at her discretion.",
 			"",
 			"| Dire Animal | Price |",
 			"| --- | --- |",
-			"| Dire ape | 450 gp |",
-			"| Dire badger | 125 gp |",
-			"| Dire bear | 1,750 gp |",
-			"| Dire boar | 370 gp |",
-			"| Dire crocodile | 2,700 gp |",
-			"| Dire hyena | 250 gp |",
-			"| Dire lion | 1,000 gp |",
-			"| Dire shark | 3,375 gp |",
-			"| Dire tiger | 1,055 gp |",
-			"| Dire wolf | 380 gp |",
-			"| Dire wolverine | 500 gp |"
+			"| @ripple[monster/Dire ape] | 450 gp |",
+			"| @ripple[monster/Dire badger] | 125 gp |",
+			"| @ripple[monster/Dire bear] | 1,750 gp |",
+			"| @ripple[monster/Dire boar] | 370 gp |",
+			"| @ripple[monster/Dire crocodile] | 2,700 gp |",
+			"| @ripple[monster/Dire hyena] | 250 gp |",
+			"| @ripple[monster/Dire lion] | 1,000 gp |",
+			"| @ripple[monster/Dire shark] | 3,375 gp |",
+			"| @ripple[monster/Dire tiger] | 1,055 gp |",
+			"| @ripple[monster/Dire wolf] | 380 gp |",
+			"| @ripple[monster/Dire wolverine] | 500 gp |"
 		]
 	},
 	"dire_ape": {
@@ -352,9 +352,9 @@
 			"‹SOURCE Animal Archive/15›  ",
 			"::tabular{format=misc a=\"220 gp (common), 300 gp (riding), 450 gp (riding, combat trained)\" b=\"&mdash& (common), 400 lbs. (riding), 450 lbs. (riding, combat trained)\" c=x d=pet}",
 			"",
-			"Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt wild empathy or Handle Animal checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts, though the GM may make exceptions at her discretion.",
+			"Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt ‹ability/wild empathy› or ‹skill/Handle Animal› checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts, though the GM may make exceptions at her discretion.",
 			"",
-			"Considered to be the fastest nonmagical transport in cavernous underground realms, dire bats are domesticated in captivity to serve as riding animals. Stables that accommodate these massive creatures are only commonly found in cities built in larger underground caverns, owing to the greater space required for training and exercise, though the outriders of some subterranean races fly them almost to the surface. These creatures require exotic saddles to ride."
+			"Considered to be the fastest nonmagical transport in cavernous underground realms, ‹monster/dire bat«s› are domesticated in captivity to serve as riding animals. Stables that accommodate these massive creatures are only commonly found in cities built in larger underground caverns, owing to the greater space required for training and exercise, though the outriders of some subterranean races fly them almost to the surface. These creatures require ‹eq-misc/exotic saddle«s› to ride."
 		]
 	},
 	"dire_bat_common": {
@@ -610,7 +610,7 @@
 			"‹SOURCE Ultimate Equipment/81›  ",
 			"::tabular{format=misc a=\"8 gp\" b=\"600-800 lbs.\" c=x d=pet}",
 			"",
-			"Donkeys and mules are stolid in the face of danger, hardy, surefooted, and capable of carrying heavy loads over vast distances. Unlike a ‹eq-misc/horse›, a donkey or mule is willing (though not eager) to enter dungeons and other strange or threatening places. Donkeys and mules have the same statistics as ponies."
+			"Donkeys and mules are stolid in the face of danger, hardy, surefooted, and capable of carrying heavy loads over vast distances. Unlike a ‹eq-misc/horse›, a donkey or mule is willing (though not eager) to enter dungeons and other strange or threatening places. [Donkeys and mules](monster/pony) have the same statistics as ponies."
 		]
 	},
 	"mule": { "redirect": "donkey_or_mule" },
@@ -858,7 +858,7 @@
 			"‹SOURCE Ultimate Equipment/81›  ",
 			"::tabular{format=misc a=2 b=3 d=pet}",
 			"",
-			"Farm ducks are used for eggs, meat, and down, while wild ducks are hunted for meat. Ducks have the same statistics as ravens."
+			"Farm ducks are used for eggs, meat, and down, while wild ducks are hunted for meat. Ducks have the same statistics as ‹monster/raven«s›."
 		]
 	},
 	"dungeoneering_kit_common": {
@@ -1093,7 +1093,7 @@
 			"‹SOURCE Ultimate Equipment/81;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"1,000 gp\" b=\"5 tons\" c=x d=pet}",
 			"",
-			"These Huge animals are exceptionally strong and are quick learners. Some cultures train them for battle or labor. Most known elephants come from savannas or vast rainforest regions. They eat so much that housing them outside of their native environment is expensive."
+			"These Huge animals are exceptionally strong and are quick learners. Some cultures train them for battle or labor. Most known ‹monster/elephant«s› come from savannas or vast rainforest regions. They eat so much that housing them outside of their native environment is expensive."
 		]
 	},
 	"elven_prosthetics": {
@@ -1408,7 +1408,9 @@
 			"‹SOURCE Haunted Heroes Handbook/11›  ",
 			"::tabular{format=misc a=2 b=2 d=bm}",
 			"",
-			"Once exposed to air, this greenish alchemical sludge quickly takes on a faint glow. This glow provides dim illumination in the area immediately surrounding the fist-sized lump of false ectoplasm. This glow-in-the-dark effect lasts for 1 hour before the substance begins to decompose into a brownish goo. A successful DC 20 Sleight of Hand check allows a user to open a vial of false ectoplasm and deposit it on an adjacent surface as a move action; a successful opposed Perception check is enough to notice this trickery."
+			"@I-power Once exposed to air, this greenish alchemical sludge quickly takes on a faint glow. This glow provides dim ‹rule/illumination› in the area immediately surrounding the fist-sized lump of false ectoplasm. This glow-in-the-dark effect lasts for 1 hour before the substance begins to decompose into a brownish goo.",
+			"",
+			"A successful DC 20 ‹skill/Sleight of Hand› check allows a user to open a vial of false ectoplasm and deposit it on an adjacent surface as a @HL[move action]; a successful opposed ‹skill/Perception› check is enough to notice this trickery."
 		]
 	},
 	"false_manacles": {
@@ -1873,7 +1875,7 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"0.1\" b=x d=bm}",
 			"",
-			"This frothy tea made from the bone-white, triangular leaves of the night tea plant renders a humanoid female sterile if drunk every day. In high doses, it may be able to end a pregnancy."
+			"@I-aid This frothy tea made from the bone-white, triangular leaves of the night tea plant renders a humanoid female sterile if drunk every day. In high doses, it may be able to end a pregnancy."
 		]
 	},
 	"nightsage": {
@@ -2054,7 +2056,7 @@
 			"‹SOURCE Ultimate Equipment/80›  ",
 			"::tabular{format=misc a=25 b=2 d=pet}",
 			"",
-			"These cunning animals (especially the ‹monster/blue-ringed<_octopus› variety) can be employed as familiars by aquatic spellcasters. If they are kept is pets, they must be kept in water, as they cannot survive out of it."
+			"These cunning animals (especially the ‹monster/blue-ringed<_octopus› variety) can be employed as ‹ability/familiar«s› by aquatic spellcasters. If they are kept is pets, they must be kept in water, as they cannot survive out of it."
 		]
 	},
 	"odor_stalk": {
@@ -2245,7 +2247,7 @@
 			"‹SOURCE Ultimate Equipment/80›  ",
 			"::tabular{format=misc a=20 b=10 d=pet}",
 			"",
-			"These playful water mammals are either used as familiars or trained to perform tricks as pets. They are surprisingly intelligent, and have been known to use rocks as simple tools, such as for opening the shells of mollusks."
+			"These playful [water mammals](monster/otter) are either used as ‹ability/familiar«s› or trained to perform tricks as pets. They are surprisingly intelligent, and have been known to use rocks as simple tools, such as for opening the shells of mollusks."
 		]
 	},
 	"out_of_towners_kit": {
@@ -2267,7 +2269,7 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"20 gp (common), 20 gp (Verduran)\" b=\"1-3 lbs. (common), 3 lbs. (Verduran)\" c=x d=pet}",
 			"",
-			"These Tiny birds of prey are mainly nocturnal and are known for their keen eyes and near-silent flight. Owls eat small animals and insects, and can be found in nearly any environment. Some farmers create owl homes near fields and barns to control rodent populations. The smartest owls make excellent familiars."
+			"These Tiny birds of prey are mainly nocturnal and are known for their keen eyes and near-silent flight. ‹monster/Owl«s› eat small animals and insects, and can be found in nearly any environment. Some farmers create owl homes near fields and barns to control rodent populations. The smartest owls make excellent ‹ability/familiar«s›."
 		]
 	},
 	"owl_common": {
@@ -2282,7 +2284,7 @@
 			"‹SOURCE Pathfinder #51: The Hungry Storm/67›  ",
 			"::tabular{format=misc a=24 b=x d=pet}",
 			"",
-			"These husky, shaggy beasts are sometimes domesticated as pack animals in the Crown of the World. Their statistics are identical to aurochs, but they are immune to cold weather effects (though not severe cold and extreme cold effects). Domesticated musk oxen have the docile special quality (see ‹monster/horse›), and treat their gore attack as a secondary natural weapon. In the polar rim mountains of Tian Xia, yaks are used as pack animals and have identical statistics."
+			"These husky, shaggy beasts are sometimes domesticated as pack animals in the Crown of the World. Their statistics are identical to ‹monster/aurochs›, but they are immune to cold weather effects (though not severe cold and extreme cold effects). Domesticated musk oxen have the *docile* special quality (see ‹monster/horse›), and treat their gore attack as a secondary natural weapon. In the polar rim mountains of Tian Xia, yaks are used as pack animals and have identical statistics."
 		]
 	},
 	"pack_animal_ox": {
@@ -2293,7 +2295,7 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"8 gp Pack animal (donkey/mule), 15 gp Pack animal (ox), 24 gp Pack animal (yak)\" b=\"600 lbs. Pack animal (donkey/mule), 1 ton Pack animal (ox), 2 tons Pack animal (yak)\" c=x d=pet}",
 			"",
-			"Working animals are universal, but the animal type varies according to local availability. Elephants carry goods in much of the Mwangi Expanse. Yaks pull loads in mountainous regions. In many other parts of the Inner Sea, donkeys, mules, and oxen pull carts or plows. The donkey market in Katapesh is particularly brisk."
+			"Working animals are universal, but the animal type varies according to local availability. ‹eq-misc/Elephant«s› carry goods in much of the Mwangi Expanse. ‹monster/Yak«s› pull loads in mountainous regions. In many other parts of the Inner Sea, donkeys, mules, and ‹monster/oxen› pull carts or plows. The donkey market in Katapesh is particularly brisk."
 		]
 	},
 	"pack_animal_donkey_mule": {
@@ -2465,7 +2467,7 @@
 			"‹SOURCE Ultimate Equipment/80›  ",
 			"::tabular{format=misc a=50 b=4 d=pet}",
 			"",
-			"These colorful and intelligent birds can be trained to mimic humanoid voices. They are often kept as pets by the wealthy and those who live in the tropical climates they favor. Parrots have the same statistics as ravens."
+			"These colorful and intelligent birds can be trained to mimic humanoid voices. They are often kept as pets by the wealthy and those who live in the tropical climates they favor. Parrots have the same statistics as ‹monster/raven«s›."
 		]
 	},
 	"patchwork_cloak": {
@@ -2756,16 +2758,17 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=20 b=x d=bm}",
 			"",
-			"The milk of this vibrantly green cactus, when mixed with resins and other ingredients, congeals into sticky, black chunks with an exceedingly sour taste. Though pesh comes in several different varieties, refined pesh is both the most potent and expensive type. Taking refined pesh gives a person 15 temporary hit points for 1 hour, a +2 morale bonus on saves versus fear effects for 1 day, and a -4 penalty to Dexterity and Wisdom for 1 day. ‹drug/Pesh› is addictive (Fortitude DC 10 to resist), and long-term users suffer ‹rule/Dexterity and »Wisdom damage›.",
+			"@I-def-down The milk of this vibrantly green cactus, when mixed with resins and other ingredients, congeals into sticky, black chunks with an exceedingly sour taste. Though pesh comes in several different varieties, refined pesh is both the most potent and expensive type. Taking refined pesh gives a person 15 temporary hit points for 1 hour, a +2 morale bonus on saves versus fear effects for 1 day, and a -4 penalty to Dexterity and Wisdom for 1 day. ‹drug/Pesh› is addictive (Fortitude DC 10 to resist), and long-term users suffer ‹rule/Dexterity and »Wisdom damage›.",
 			"",
-			"**False Pesh**  ",
+			"### False Pesh",
+			"",
 			"‹SOURCE Dark Markets - A Guide to Katapesh/14›",
 			"",
-			"False pesh looks much the same as real pesh, but the genuine plant is a spined cactus that grows in desert areas, while the imposter is a sticky, more bulbous plant that requires extra moisture to flourish. A character can make a DC 15 Knowledge (nature) check to tell the real plant from the fake.",
+			"False pesh looks much the same as real pesh, but the genuine plant is a spined cactus that grows in desert areas, while the imposter is a sticky, more bulbous plant that requires extra moisture to flourish. A character can make a DC 15 ‹skill/Knowledge (nature)› check to tell the real plant from the fake.",
 			"",
-			"Imitation raw pesh formed from the false pesh plant is much harder to differentiate from the real drug. Both appear as milky white, cheese-like blocks; the false pesh has a milder odor and a stickier gloss to its surface, but the differences are minor. A DC 25 Alchemy check discerns true raw pesh from false.",
+			"Imitation raw pesh formed from the false pesh plant is much harder to differentiate from the real drug. Both appear as milky white, cheese-like blocks; the false pesh has a milder odor and a stickier gloss to its surface, but the differences are minor. A DC 25 ‹skill/Craft› (alchemy) check discerns true raw pesh from false.",
 			"",
-			"Anyone ingesting false raw pesh must make a DC 25 Fortitude save or become ‹misc/nauseated› for 10 minutes. After 1 minute they must make another DC 25 Fortitude save or suffer the secondary effect of 1d4 points of Constitution damage. For refined false pesh, the save DC is 30 and the secondary effect is 1d6 points of Constitution damage. The Alchemy check to distinguish it from true refined pesh is DC 30."
+			"Anyone ingesting false raw pesh must make a DC 25 Fortitude save or become ‹misc/nauseated› for 10 minutes. After 1 minute they must make another DC 25 Fortitude save or suffer the secondary effect of 1d4 points of Constitution damage. For refined false pesh, the save DC is 30 and the secondary effect is 1d6 points of Constitution damage. The Craft (alchemy) check to distinguish it from true refined pesh is DC 30."
 		]
 	},
 	"petrified_ooze": {
@@ -2892,7 +2895,7 @@
 			"‹SOURCE Ultimate Equipment/80;Ultimate Equipment/93›  ",
 			"::tabular{format=misc a=\"3-10 gp\" b=\"100-300 lbs.\" c=x d=pet}",
 			"",
-			"Domesticated pigs are the descendents of wild boars, and are raised for their meat and hide, being among the most versatile and common farm animals.",
+			"Domesticated ‹monster/pig«s› are the descendents of wild boars, and are raised for their meat and hide, being among the most versatile and common farm animals.",
 			"",
 			"::h3[Specific Mounts]{jl}",
 			"",
@@ -3023,7 +3026,7 @@
 			"‹SOURCE Alchemy Manual/18›  ",
 			"::tabular{format=misc a=1500 b=4 d=bm}",
 			"",
-			"This portable ‹eq-misc/hookah› can be worn as a backpack, obviating the need to set the hookah down before filling it with water. Up to four creatures (including the wearer and any adjacent creatures) can use a traveler's hookah during the same round. While wearing a traveler's hookah, you can stopper the hookah's bowl valve as an immediate action to prevent unwanted individuals from using it until the valve is reopened as a free action. If you are knocked unconscious or otherwise fall prone while wearing a traveler's hookah, you must succeed at a DC 13 Reflex save or the hookah is smashed during the fall. A traveler's hookah can hold up to 5 doses of a single substance, and has four hoses."
+			"This portable ‹eq-misc/hookah› can be worn as a backpack, obviating the need to set the hookah down before filling it with water. Up to four creatures (including the wearer and any adjacent creatures) can use a traveler's hookah during the same round. While wearing a traveler's hookah, you can stopper the hookah's bowl valve as an @HL[immediate action] to prevent unwanted individuals from using it until the valve is reopened as a @HL[free action]. If you are knocked unconscious or otherwise fall prone while wearing a traveler's hookah, you must succeed at a DC 13 Reflex save or the hookah is smashed during the fall. A traveler's hookah can hold up to 5 doses of a single substance, and has four hoses."
 		]
 	},
 	"travelers_outfit": {
@@ -3151,7 +3154,7 @@
 			"‹SOURCE Horror Adventures/212›  ",
 			"::tabular{format=misc a=20 b=1 d=torture}",
 			"",
-			"This surgical instrument has a serrated, circular blade that is used to bore holes into the skulls of patients to relieve cranial swelling from head trauma or, as some chirurgeons believe, release evil spirits. Use of a trephine takes 10 minutes, and deals 5 points of piercing damage to the subject creature. With a successful DC 25 Heal check, the user can heal up to 1d4 points of ability damage to any one mental ability score caused by physical trauma to the head, such as the critical ‹rule/called shot<s› or debilitating blow called shot, or it can cure the severe brain trauma inflicted by the debilitating blow called shot. If the user fails the check, the subject still takes 5 points of piercing damage. If the user fails the check by 5 or more, the subject instead takes 10 points of piercing damage and 1 point of damage each to its Intelligence, Wisdom, and Charisma scores."
+			"This surgical instrument has a serrated, circular blade that is used to bore holes into the skulls of patients to relieve cranial swelling from head trauma or, as some chirurgeons believe, release evil spirits. Use of a trephine takes 10 minutes, and deals 5 points of piercing damage to the subject creature. With a successful DC 25 ‹skill/Heal› check, the user can heal up to 1d4 points of ‹rule/ability damage› to any one mental ability score caused by physical trauma to the head, such as the *critical* ‹rule/called shot<s› or *debilitating blow* called shot, or it can cure the severe brain trauma inflicted by the *debilitating blow* called shot. If the user fails the check, the subject still takes 5 points of piercing damage. If the user fails the check by 5 or more, the subject instead takes 10 points of piercing damage and 1 point of damage each to its Intelligence, Wisdom, and Charisma scores."
 		]
 	},
 	"trespassers_boot": {
@@ -3265,7 +3268,7 @@
 			"‹SOURCE Ultimate Equipment/80›  ",
 			"::tabular{format=misc a=3 b=4 d=pet}",
 			"",
-			"These reptiles have bony shells that they can retreat into. They are sometimes kept as pets and used as familiars, and in some places their flesh is eaten or used as an ingredient in medicines."
+			"These [reptiles](monster/turtle) have bony shells that they can retreat into. They are sometimes kept as pets and used as ‹ability/familiar«s›, and in some places their flesh is eaten or used as an ingredient in medicines."
 		]
 	},
 	"tusk_blades": {
@@ -4002,7 +4005,7 @@
 			"‹SOURCE Ultimate Equipment/80;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"2 gp\" b=\"8 oz.\" c=x d=pet}",
 			"",
-			"These Tiny animals eat smaller animals and can be found in nearly any environment. They are clever and curious, traits that are magnified when they are kept as familiars. Many varieties of weasel exude a strong musky odor. This description also applies to similar animals, such as ferrets, minks, polecats, and stoats."
+			"These Tiny animals eat smaller animals and can be found in nearly any environment. They are clever and curious, traits that are magnified when they are kept as ‹ability/familiar«s›. Many varieties of ‹monster/weasel› exude a strong musky odor. This description also applies to similar animals, such as ferrets, minks, polecats, and stoats."
 		]
 	},
 	"wet_suit": {
@@ -4424,7 +4427,7 @@
 			"‹SOURCE Belkzen, Hold of the Orc Hordes/39›  ",
 			"::tabular{format=misc a=\"4,500 gp (combat-trained), 3,000 gp (normal)\" b=\"6 tons (combat-trained), 6 tons (normal)\" c=x d=pet}",
 			"",
-			"Poached from the Realm of the Mammoth Lords, these hairy pachyderms are used by the orcs of Belkzen as mounts and living siege engines. As if these mounts weren't intimidating enough, the orcs outfit them with spiked metal barding and tusk blades."
+			"Poached from the Realm of the Mammoth Lords, these [hairy pachyderms](monster/mammoth) are used by the orcs of Belkzen as mounts and living siege engines. As if these mounts weren't intimidating enough, the orcs outfit them with spiked metal barding and tusk blades."
 		]
 	},
 	"woolly_mammoth_normal": {
@@ -4500,7 +4503,7 @@
 			"‹SOURCE Ultimate Equipment/81›  ",
 			"::tabular{format=misc a=24 b=1000 d=pet}",
 			"",
-			"These shaggy-haired relatives to cows are more at home in mountainous terrain where they are frequently used as pack animals and to pull plows. Yaks have the same statistics as bison."
+			"These shaggy-haired [relatives to cows](monster/yak) are more at home in mountainous terrain where they are frequently used as pack animals and to pull plows."
 		]
 	},
 	"yenchaburian_hybrid": {

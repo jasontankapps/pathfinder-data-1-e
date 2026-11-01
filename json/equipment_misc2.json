@@ -379,7 +379,7 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=20 b=x d=bm}",
 			"",
-			"These narrow, rust-colored leaves produce a mildly hallucinogenic smoke that also serves as powerful sedative. Users are immune to pain for 4 hours after smoking flayleaf, but during this time they take a -5 penalty on saves against mind-altering effects."
+			"@I-def-down These narrow, rust-colored leaves produce a mildly hallucinogenic smoke that also serves as powerful sedative. Users are immune to pain for 4 hours after smoking flayleaf, but during this time they take a -5 penalty on saves against mind-altering effects."
 		]
 	},
 	"fleshgem_decorative": {
@@ -698,7 +698,7 @@
 			"‹SOURCE Ultimate Equipment/80›  ",
 			"::tabular{format=misc a=8 b=12 d=pet}",
 			"",
-			"These quick and wily carnivores can be difficult to train, but often make excellent familiars. Many humanoid communities see these canines as a menace to their farming fowl, and some use dogs to track them during recreational hunts."
+			"These quick and wily [carnivores](monster/fox) can be difficult to train, but often make excellent familiars. Many humanoid communities see these canines as a menace to their farming fowl, and some use dogs to track them during recreational hunts."
 		]
 	},
 	"fraudulent_mediums_kit": {
@@ -906,7 +906,7 @@
 			"",
 			"Gaspodar's signet ring still encircles the severed finger of this long-dead king of Cheliax. Clipped from his hand almost a century ago by an unknown assassin, both ring and finger are preserved in a small glass jar of honey that's sealed with solder. The ring itself has a thick gold band, etched into the inside of which is an Azlanti phrase that reads, \"Hail Aroden, Bringer of the Age of Glory.\" The ring's large bezel is engraved with the seal of Cheliax.",
 			"",
-			"The craftsmanship of the signet is so intricate that it's extremely difficult to create a duplicate capable of convincing those familiar with the original. A creature who has closely observed Gaspodar's signet receives a +4 circumstance bonus on any Appraise skill check to detect a forgery of the relic."
+			"The craftsmanship of the signet is so intricate that it's extremely difficult to create a duplicate capable of convincing those familiar with the original. A creature who has closely observed Gaspodar's signet receives a +4 circumstance bonus on any ‹skill/Appraise› skill check to detect a forgery of the relic."
 		]
 	},
 	"gauntlet_magnet": {
@@ -942,7 +942,7 @@
 			"‹SOURCE Ultimate Equipment/81;Advanced Race Guide/105›  ",
 			"::tabular{format=misc a=\"300 gp (riding), 400 gp (riding, combat trained)\" b=\"1,200 lbs. (riding), 1,500 lbs. (riding, combat trained)\" c=x d=pet}",
 			"",
-			"Larger than even giant geckos, these mammoth lizards have been specifically bred to be used as mounts. Prized for their ability to run along cave ceilings and sheer walls, they require ‹eq-misc/exotic saddle«s› to ride. A riding gecko has the same statistics as a giant gecko with the ‹template/giant« template›."
+			"Larger than even giant geckos, these mammoth lizards have been specifically bred to be used as mounts. Prized for their ability to run along cave ceilings and sheer walls, they require ‹eq-misc/exotic saddle«s› to ride. A riding gecko has the same statistics as a ‹monster/giant gecko› with the ‹template/giant« template›."
 		]
 	},
 	"gecko_riding_combat_trained": {
@@ -1006,7 +1006,7 @@
 			"‹SOURCE Blood of the Sea/19›  ",
 			"::tabular{format=misc a=\"500 gp (combat trained), 350 gp (normal)\" b=\"1,200 lbs. (combat trained), 1,100 lbs. (normal)\" c=x d=pet}",
 			"",
-			"Giant seahorses are commonly used as mounts and beasts of burden by undersea races such as aquatic elves and tritons. Although they are often dismissed as too skittish to be ridden into a fight, seahorses are clever and, with diligent training, make loyal war steeds. Tritons in particular pride themselves on breeding and training seahorses to fight in battle or to serve as guard animals."
+			"‹monster/Giant seahorse«s› are commonly used as mounts and beasts of burden by undersea races such as aquatic elves and tritons. Although they are often dismissed as too skittish to be ridden into a fight, seahorses are clever and, with diligent training, make loyal war steeds. ‹monster/Triton«s› in particular pride themselves on breeding and training seahorses to fight in battle or to serve as guard animals."
 		]
 	},
 	"giant_seahorse_normal": {
@@ -1112,7 +1112,7 @@
 			"‹SOURCE Ultimate Equipment/80;Ultimate Equipment/93›  ",
 			"::tabular{format=misc a=\"1-6 gp\" b=\"50 lbs.\" c=x d=pet}",
 			"",
-			"As an agricultural animal, goats provide milk, meat, hair, and hide, and they are sometimes used to clear fields of weeds and shrubbery. Some spellcasters bond with them as familiars.",
+			"As an agricultural animal, ‹monster/goat«s› provide milk, meat, hair, and hide, and they are sometimes used to clear fields of weeds and shrubbery. Some spellcasters bond with them as ‹ability/familiar«s›.",
 			"",
 			"::h3[Specific Mounts]{jl}",
 			"",
@@ -1243,7 +1243,7 @@
 			"‹SOURCE Ultimate Equipment/81›  ",
 			"::tabular{format=misc a=8000 b=500 d=pet}",
 			"",
-			"These deadly but majestic fliers are the favored aerial cavalry of many kingdoms. While griffons can be trained, some good deities consider doing so akin to enacting slavery, insisting that a griffon must come to its rider on its own free will. The price listed is for a trained griffon; free will is bought with different currency (determined by the GM)."
+			"These deadly but majestic fliers are the favored aerial cavalry of many kingdoms. While ‹monster/griffon«s› can be trained, some good deities consider doing so akin to enacting slavery, insisting that a griffon must come to its rider on its own free will. The price listed is for a trained griffon; free will is bought with different currency (determined by the GM)."
 		]
 	},
 	"griffon_egg": {
@@ -1588,7 +1588,7 @@
 			"‹SOURCE Ultimate Equipment/81;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=18 b=2 d=pet}",
 			"",
-			"This Tiny, short-winged raptor is a popular hunting bird, but is utilized more often by lower nobility than by commoners without titles. Hawks are known for their sharp eyesight and powerful aerial dives."
+			"This Tiny, short-winged raptor is a popular hunting bird, but is utilized more often by lower nobility than by commoners without titles. ‹monster/Hawk«s› are known for their sharp eyesight and powerful aerial dives."
 		]
 	},
 	"headscarf": {
@@ -1635,15 +1635,13 @@
 			"‹SOURCE Cities of Golarion/42›  ",
 			"::tabular{format=misc a=10 b=x d=bm}",
 			"",
-			"Others lacking the will to harden themselves appropriately turn to alchemical methods to endure. This purplish paste is made from sea urchin toxins and numbs the user's ability to sense pain. Illegal in Nidal, the drug is used mostly by those attempting to emulate true belief in ‹faith/Zon-Kuthon› or who anticipate great pain. A dose gives the user the ‹feat/Endure Pain› feat for 1 hour, though it also has debilitating side effects and leaves telltale reddish-purple stains around the nostrils for up to one day, easily identified by those familiar with the symptoms. Followers of the Midnight Lord believe using heathensnuff is a sure sign that an individual lacks faith.",
+			"Those lacking the will to harden themselves appropriately turn to alchemical methods to endure. This purplish paste is made from sea urchin toxins and numbs the user's ability to sense pain. Illegal in Nidal, the drug is used mostly by those attempting to emulate true belief in ‹faith/Zon-Kuthon› or who anticipate great pain.",
+			"",
+			"@I-power A dose gives the user the ‹feat/Endure Pain› feat for 1 hour, though it also has debilitating side effects and leaves telltale reddish-purple stains around the nostrils for up to one day, easily identified by those familiar with the symptoms. Followers of the Midnight Lord believe using heathensnuff is a sure sign that an individual lacks faith.",
 			"",
 			"Anyone who takes the drug must make a DC 10 saving throw or become addicted. A snuff addict can stave off withdrawal for 5 days by taking a dose; failure means he must save or take 1d4 Dex and 1d4 ‹rule/Wis damage›. This save DC increases by +5 for every 5 days since the last time the addict had a dose. If the addict makes two of these saves in a row, he is no longer addicted. ‹spell/Remove disease› can cure an addict if the caster's caster level check succeeds against a DC equal to the addict's current withdrawal DC. ‹spell/Greater restoration› or ‹spell/heal› cures the addiction without requiring a roll.",
 			"",
-			"**Type** poison, ingested; **Save** Fortitude DC 13  ",
-			"**Frequency** 1/hour for 4 hours  ",
-			"**Initial Effect** Endure Pain feat for 1 hour (see above)  ",
-			"**Secondary Effect** 1 Con damage; **Cure** 1 save  ",
-			"**Cost** 10 gp"
+			"::aff{poison iconP type=ingested saveF=13 freqH=4 ineffExtra=\"see text above\" seceffCon=1 cure1}"
 		]
 	},
 	"heatstone_desalinator": {
@@ -1679,7 +1677,7 @@
 			"‹SOURCE Ultimate Equipment/80›  ",
 			"::tabular{format=misc a=5 b=3 d=pet}",
 			"",
-			"These spiny mammals roll into a ball when threatened. They are sometimes kept as pets and are favored by some wizards as familiars."
+			"These [spiny mammals](monster/hedgehog) roll into a ball when threatened. They are sometimes kept as pets and are favored by some wizards as ‹ability/familiar«s›."
 		]
 	},
 	"helmet_candle": {
@@ -1707,17 +1705,18 @@
 			"This high conical headpiece ends in a tip that usually has a piece of silk or similar diaphanous material dangling from it. Women of noble birth sometimes wear a hennin to formal or social occasions as a signal of their eligibility, and give the silk part of the headpiece as a token to suitors they favor."
 		]
 	},
-	"heratics_fork": {
-		"name": "Heratic's fork",
+	"heretics_fork": {
+		"name": "Heretic's fork",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"## Heratic's fork",
+			"## Heretic's fork",
 			"‹SOURCE Horror Adventures/212›  ",
 			"::tabular{format=misc a=10 b=1 d=torture}",
 			"",
-			"This device is a sharp, double-ended prong that is approximately 9 inches in length and fitted with a stout leather neckband. This nefarious device is secured on a ‹misc/helpless› target's neck so the prongs pierce both the underside of the victim's chin and the victim's chest, dealing 1d6 points of nonlethal damage when the device is attached and an additional 1d6 points of nonlethal damage if the victim begins to fall asleep, effectively keeping the victim awake indefinitely and subjecting the victim to ‹misc/fatigue› and ‹misc/exhaustion› through sleep deprivation. A successful DC 22 Escape Artist check allows the victim to get free of the prongs without using his arms, though the heretic's fork remains strapped to his neck."
+			"This device is a sharp, double-ended prong that is approximately 9 inches in length and fitted with a stout leather neckband. This nefarious device is secured on a ‹misc/helpless› target's neck so the prongs pierce both the underside of the victim's chin and the victim's chest, dealing 1d6 points of nonlethal damage when the device is attached and an additional 1d6 points of nonlethal damage if the victim begins to fall asleep, effectively keeping the victim awake indefinitely and subjecting the victim to ‹misc/fatigue› and ‹misc/exhaustion› through sleep deprivation. A successful DC 22 ‹skill/Escape Artist› check allows the victim to get free of the prongs without using his arms, though the heretic's fork remains strapped to his neck."
 		]
 	},
+	"heratics_fork": { "redirect": "heretics_fork" },
 	"heritage_book": {
 		"name": "Heritage book",
 		"sources": [ "Ultimate Equipment" ],
@@ -2168,7 +2167,7 @@
 			"‹SOURCE Alchemy Manual/18›  ",
 			"::tabular{format=misc a=400 b=10 d=bm}",
 			"",
-			"The bowl of this glass water pipe can be loaded with any inhalable drug, alchemical powder, or alchemical liquid. You must set down a hookah in a free space (a move action) and fill the water jar with half a gallon of water (another move action) before the hookah can be used. You can consume the contents of an adjacent hookah by sucking on one of the pipe's four hoses as a move action. Up to 5 doses of a single substance can be loaded in the hookah at a time, and up to four adjacent creatures can use the hookah during the same round. Reloading a hookah is a standard action, regardless of the number of doses so reloaded.",
+			"The bowl of this glass water pipe can be loaded with any inhalable drug, alchemical powder, or alchemical liquid. You must set down a hookah in a free space (a @HL[move action]) and fill the water jar with half a gallon of water (another @HL[move action]) before the hookah can be used. You can consume the contents of an adjacent hookah by sucking on one of the pipe's four hoses as a @HL[move action]. Up to 5 doses of a single substance can be loaded in the hookah at a time, and up to four adjacent creatures can use the hookah during the same round. Reloading a hookah is a @HL[standard action], regardless of the number of doses so reloaded.",
 			"",
 			"Substances not intended for bodily consumption can cause harmful or even fatal effects (GM's discretion) if loaded into a hookah and inhaled, and often destroy the hookah in the process."
 		]
@@ -2974,7 +2973,7 @@
 			"‹SOURCE Aquatic Adventures/56›  ",
 			"::tabular{format=misc a=2 b=1 d=pet}",
 			"",
-			"This tiny jellyfish has a crown roughly 4 inches in diameter, and it glows with bioluminescence as brightly as a candle, typically in a blue or green color, but various species allow an array of possible colors (though generally this commands greater prices). When trapped in a container with small holes to allow in the plankton the creature eats, these creatures can serve as living lanterns, especially for creatures with low-light vision. In some places, like Talasantri, they drift freely as mobile light sources. A luminous jellyfish lives up to 1 year in this stage of its life cycle before dying."
+			"This tiny jellyfish has a crown roughly 4 inches in diameter, and it glows with bioluminescence as brightly as a ‹eq-misc/candle›, typically in a blue or green color, but various species allow an array of possible colors (though generally this commands greater prices). When trapped in a container with small holes to allow in the plankton the creature eats, these creatures can serve as living lanterns, especially for creatures with low-light vision. In some places, like Talasantri, they drift freely as mobile light sources. A luminous jellyfish lives up to 1 year in this stage of its life cycle before dying."
 		]
 	},
 	"jetcaster": {
@@ -3369,7 +3368,7 @@
 			"‹SOURCE Lost Treasures/39›  ",
 			"::tabular{format=misc a=500 b=x d=bm}",
 			"",
-			"Leng rubies are red gemstones all identical in size and appearance, distinguishable from ordinary rubies by their complete lack of imperfections or inclusions. Mined on the desolate Plateau of Leng - an outer plane connected to the ever-shifting Dimension of Dreams - these rubies are used as currency by the sinister ‹monster/denizen«s» of Leng›. These denizens travel the planes, bartering Leng rubies for goods, slaves, and assistance in their inscrutable schemes. Possession of these rubies is seen as suspicious and shameful by scholars who understand their origin, as the rubies mark the owner as someone willing to deal with enigmatic foes of light and life.",
+			"Leng rubies are red gemstones all identical in size and appearance, distinguishable from ordinary rubies by their complete lack of imperfections or inclusions. Mined on the desolate ‹rule/Plateau of »Leng› - an outer plane connected to the ever-shifting ‹rule/Dimension of Dreams› - these rubies are used as currency by the sinister ‹monster/denizen«s» of Leng›. These denizens travel the planes, bartering Leng rubies for goods, slaves, and assistance in their inscrutable schemes. Possession of these rubies is seen as suspicious and shameful by scholars who understand their origin, as the rubies mark the owner as someone willing to deal with enigmatic foes of light and life.",
 			"",
 			"A small number of Leng rubies (10%) can be used as the focus of a ‹spell/plane shift› spell, though it is impossible to determine what location a particular ruby is attuned to before the spell is cast. Some Leng rubies are substantially larger than the common size, and can fetch prices of 50,000 gp or more. The denizens of Leng trade these larger rubies for armies of slaves or as part of nation-ending plots."
 		]
@@ -3596,7 +3595,7 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"5 cp (common), 12 gp (Nex gecko)\" b=\"2 oz. (common), 4 oz. (Nex gecko)\" c=x d=pet}",
 			"",
-			"These Tiny cold-blooded animals can be found in all warm regions and are often quite colorful. They eat insects and have the ability to walk up walls and hang upside down. Varieties of more intelligent lizards are often selected by wizards as familiars."
+			"These Tiny cold-blooded animals can be found in all warm regions and are often quite colorful. They eat insects and have the ability to walk up walls and hang upside down. Varieties of more intelligent ‹monster/lizard«s› are often selected by wizards as ‹ability/familiar«s›."
 		]
 	},
 	"lizard_common": {
@@ -3958,7 +3957,7 @@
 			"‹SOURCE People of the North/28›  ",
 			"::tabular{format=misc a=\"2,250 gp (combat-trained), 2,000 gp (common)\" b=\"8 tons (combat-trained, common)\" c=x d=pet}",
 			"",
-			"This woollier variety of the mastodon is adapted to cold, and is a larger and more powerfully built cousin to the elephant. A favored beast of burden among Kellid tribes, mammoths are more temperamental than elephants. Combat-trained mammoths are used primarily as mounts by the Kellid tribes of the Realm of the Mammoth Lords. Such beasts might be bought from some tribes, but for a more significant cost. Many Kellids sell mammoths only to those they trust to both respect the animals and not turn the powerful beasts back against their tribe. For more information, see the Bestiary."
+			"This woollier variety of the ‹eq-misc/mastodon› is adapted to cold, and is a larger and more powerfully built cousin to the elephant. A favored beast of burden among Kellid tribes, ‹monster/mammoth«s› are more temperamental than elephants. Combat-trained mammoths are used primarily as mounts by the Kellid tribes of the Realm of the Mammoth Lords. Such beasts might be bought from some tribes, but for a more significant cost. Many Kellids sell mammoths only to those they trust to both respect the animals and not turn the powerful beasts back against their tribe."
 		]
 	},
 	"mammoth_common": {
@@ -4279,7 +4278,7 @@
 			"‹SOURCE Ultimate Equipment/81›  ",
 			"::tabular{format=misc a=\"2,000 gp\" b=\"8 tons\" c=x d=pet}",
 			"",
-			"These cousins to elephants are larger and more powerfully built. There is a nearly hairless version that dwells in southern climates and a woolly variety adapted to cold. More temperamental than elephants, they are used primarily as mounts."
+			"These [cousins](monster/mastodon) to elephants are larger and more powerfully built. There is a nearly hairless version that dwells in southern climates and a woolly variety adapted to cold. More temperamental than elephants, they are used primarily as mounts."
 		]
 	},
 	"mead_gallon": {
@@ -4476,7 +4475,9 @@
 			"‹SOURCE Lost Treasures/42›  ",
 			"::tabular{format=misc a=6000 b=1 d=bm}",
 			"",
-			"These crystalline fragments are all that remains of an ‹magic-artifact/orb<s> of dragonkind› that was destroyed by the great wyrm gold dragon Mengkare at the outset of his grand experiment. The owner of a shard receives a +2 circumstance bonus on Diplomacy checks with citizens of Hermea. The individual shards are nonmagical, but many believe that were they to be reunited into a complete sphere, the item would regain its powers over gold dragons, including Mengkare himself."
+			"These crystalline fragments are all that remains of an ‹magic-artifact/orb<s> of dragonkind› that was destroyed by the great wyrm gold dragon Mengkare at the outset of his grand experiment.",
+			"",
+			"@I-boost The owner of a shard receives a +2 circumstance bonus on ‹skill/Diplomacy› checks with citizens of Hermea. The individual shards are nonmagical, but many believe that were they to be reunited into a complete sphere, the item would regain its powers over gold dragons, including Mengkare himself."
 		]
 	},
 	"merchants_scale": {
@@ -4606,7 +4607,7 @@
 			"‹SOURCE Haunted Heroes Handbook/11›  ",
 			"::tabular{format=misc a=50 b=x d=bm}",
 			"",
-			"The scent of this light brown incense carries a distinct tang of peppermint oil. Once the incense is lit in a censer or appropriate container, its smoke permeates a 20-foot-by-20-foot area to a height of 10 feet. Living creatures within the area that breathe the incense fumes for more than 1 minute gain a +1 morale bonus on saves against pain effects, while taking a -1 penalty on saves against mind-affecting effects. This effect lasts for as long as the creature remains within the area of the incense, and for an additional minute after leaving. The incense burns for 1 hour before dissipating, unless dispersed before then by wind."
+			"@I-def-down The scent of this light brown incense carries a distinct tang of peppermint oil. Once the incense is lit in a censer or appropriate container, its smoke permeates a 20-foot-by-20-foot area to a height of 10 feet. Living creatures within the area that breathe the incense fumes for more than 1 minute gain a +1 morale bonus on saves against pain effects, while taking a -1 penalty on saves against mind-affecting effects. This effect lasts for as long as the creature remains within the area of the incense, and for an additional minute after leaving. The incense burns for 1 hour before dissipating, unless dispersed before then by wind."
 		]
 	},
 	"miners_bird": {
@@ -4722,7 +4723,9 @@
 			"",
 			"This white sea-bird feather is millennia old and coated with a thin, resinous substance that has rendered the feather as rigid as steel. When the feather is rubbed or struck, its barbs jangle against each other, emitting a curious polytonal hum like that of several tuning forks. The feather is firmly affixed to a jeweled turban pin.",
 			"",
-			"The shaft of the feather is covered with tiny Kelish script. If read - a difficult task without magnification due to the miniscule writing - the text reveals the history of the lands of Qadira before and during the establishment of the Keleshite satrapy at the end of the Age of Destiny. This acts as a [library](rule/research) on the history of Qadira. A character with access to the feather can attempt Knowledge (history) checks about Qadira that have a DC higher than 10, even if untrained in the skill. Characters trained in Knowledge (history) can attempt a second check after studying the feather for an hour if they fail a Knowledge (history) check on such subjects."
+			"The shaft of the feather is covered with tiny Kelish script. If read - a difficult task without magnification due to the miniscule writing - the text reveals the history of the lands of Qadira before and during the establishment of the Keleshite satrapy at the end of the Age of Destiny. This acts as a [library](rule/research) on the history of Qadira.",
+			"",
+			"@I-power A character with access to the feather can attempt ‹skill/Knowledge (history)› checks about Qadira that have a DC higher than 10, even if untrained in the skill. Characters trained in Knowledge (history) can attempt a second check after studying the feather for an hour if they fail a Knowledge (history) check on such subjects."
 		]
 	},
 	"mistletoe": {
@@ -4876,7 +4879,7 @@
 			"‹SOURCE Ultimate Equipment/80;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=3 b=5 d=pet}",
 			"",
-			"These Tiny herbivorous primates can be found in a variety of habitats, but typically favor warm forests and jungles. They can grasp and carry objects that weigh under a pound. They are sometimes used as familiars."
+			"These Tiny herbivorous [primates](monster/monkey) can be found in a variety of habitats, but typically favor warm forests and jungles. They can grasp and carry objects that weigh under a pound. They are sometimes used as ‹ability/familiar«s›."
 		]
 	},
 	"monochrome_camouflage": {

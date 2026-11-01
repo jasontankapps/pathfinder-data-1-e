@@ -18,14 +18,6 @@ const _aquatic_animals = {title: "Aquatic Animals", jsx: <><h2 id="eq-misc-aquat
 </tr>
 </thead>
 <tbody><tr>
-<td className="ion-activatable"><Link to="/monster/blue_whale">Blue Whale<IonRippleEffect /></Link></td>
-<td>12,500 gp</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/monster/crimson_whale">Crimson Whale<IonRippleEffect /></Link></td>
-<td>8,000 gp</td>
-</tr>
-<tr>
 <td className="ion-activatable"><Link to="/monster/crocodile">Crocodile<IonRippleEffect /></Link></td>
 <td>55 gp</td>
 </tr>
@@ -42,36 +34,16 @@ const _aquatic_animals = {title: "Aquatic Animals", jsx: <><h2 id="eq-misc-aquat
 <td>125 gp</td>
 </tr>
 <tr>
+<td className="ion-activatable"><Link to="/monster/frog_giant">Frog, Giant<IonRippleEffect /></Link></td>
+<td>75 gp</td>
+</tr>
+<tr>
 <td className="ion-activatable"><Link to="/monster/gar">Gar<IonRippleEffect /></Link></td>
 <td>90 gp</td>
 </tr>
 <tr>
-<td className="ion-activatable"><Link to="/monster/giant_frog">Giant Frog<IonRippleEffect /></Link></td>
-<td>75 gp</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/monster/giant_gar">Giant Gar<IonRippleEffect /></Link></td>
+<td className="ion-activatable"><Link to="/monster/gar_giant">Gar, Giant<IonRippleEffect /></Link></td>
 <td>1,200 gp</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/monster/giant_moray_eel">Giant Moray Eel<IonRippleEffect /></Link></td>
-<td>1,000 gp</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/monster/giant_octopus">Giant Octopus<IonRippleEffect /></Link></td>
-<td>1,800 gp</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/monster/giant_squid">Giant Squid<IonRippleEffect /></Link></td>
-<td>2,500 gp</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/monster/giant_toad">Giant Toad<IonRippleEffect /></Link></td>
-<td>150 gp</td>
-</tr>
-<tr>
-<td className="ion-activatable"><Link to="/monster/great_white_whale">Great White Whale<IonRippleEffect /></Link></td>
-<td>12,600 gp</td>
 </tr>
 <tr>
 <td className="ion-activatable"><Link to="/monster/manta_ray">Manta Ray<IonRippleEffect /></Link></td>
@@ -82,8 +54,16 @@ const _aquatic_animals = {title: "Aquatic Animals", jsx: <><h2 id="eq-misc-aquat
 <td>6 gp</td>
 </tr>
 <tr>
+<td className="ion-activatable"><Link to="/monster/moray_eel_giant">Moray Eel, Giant<IonRippleEffect /></Link></td>
+<td>1,000 gp</td>
+</tr>
+<tr>
 <td className="ion-activatable"><Link to="/monster/narwhal">Narwhal<IonRippleEffect /></Link></td>
 <td>350 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/octopus_giant">Octopus, Giant<IonRippleEffect /></Link></td>
+<td>1,800 gp</td>
 </tr>
 <tr>
 <td className="ion-activatable"><Link to="/monster/orca">Orca<IonRippleEffect /></Link></td>
@@ -106,12 +86,32 @@ const _aquatic_animals = {title: "Aquatic Animals", jsx: <><h2 id="eq-misc-aquat
 <td>25 gp</td>
 </tr>
 <tr>
+<td className="ion-activatable"><Link to="/monster/squid_giant">Squid, Giant<IonRippleEffect /></Link></td>
+<td>2,500 gp</td>
+</tr>
+<tr>
 <td className="ion-activatable"><Link to="/monster/stingray">Stingray<IonRippleEffect /></Link></td>
 <td>18 gp</td>
 </tr>
 <tr>
+<td className="ion-activatable"><Link to="/monster/toad_giant">Toad, Giant<IonRippleEffect /></Link></td>
+<td>150 gp</td>
+</tr>
+<tr>
 <td className="ion-activatable"><Link to="/monster/whale">Whale<IonRippleEffect /></Link></td>
 <td>10,000 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/whale_blue">Whale, Blue<IonRippleEffect /></Link></td>
+<td>12,500 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/whale_crimson">Whale, Crimson<IonRippleEffect /></Link></td>
+<td>8,000 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/whale_great_white">Whale, Great White<IonRippleEffect /></Link></td>
+<td>12,600 gp</td>
 </tr>
 </tbody></table></ScrollContainer>
 </>};
@@ -174,7 +174,7 @@ const _dilettantes_outfit = {title: "Dilettante's outfit", jsx: <><h2 id="eq-mis
 const _dire_animal = {title: "Dire animal", jsx: <><h2 id="eq-misc-dire_animal-dire-animal">Dire animal</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 15</Link>  </p>
 <Tabular format="misc" a="Varies" b="x" d="pet" />
-<p>Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt wild empathy or Handle Animal checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts (with the notable exception of the <Link to="/eq-misc/dire_bat">dire bat</Link>), though the GM may make exceptions at her discretion.</p>
+<p>Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt <Link to="/ability/wild_empathy">wild empathy</Link> or <Link to="/skill/handle_animal">Handle Animal</Link> checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts (with the notable exception of the <Link to="/eq-misc/dire_bat">dire bat</Link>), though the GM may make exceptions at her discretion.</p>
 <ScrollContainer id="eq-misc-dire_animal--table-0"><table>
 <thead>
 <tr>
@@ -183,47 +183,47 @@ const _dire_animal = {title: "Dire animal", jsx: <><h2 id="eq-misc-dire_animal-d
 </tr>
 </thead>
 <tbody><tr>
-<td>Dire ape</td>
+<td className="ion-activatable"><Link to="/monster/dire_ape">Dire ape<IonRippleEffect /></Link></td>
 <td>450 gp</td>
 </tr>
 <tr>
-<td>Dire badger</td>
+<td className="ion-activatable"><Link to="/monster/dire_badger">Dire badger<IonRippleEffect /></Link></td>
 <td>125 gp</td>
 </tr>
 <tr>
-<td>Dire bear</td>
+<td className="ion-activatable"><Link to="/monster/dire_bear">Dire bear<IonRippleEffect /></Link></td>
 <td>1,750 gp</td>
 </tr>
 <tr>
-<td>Dire boar</td>
+<td className="ion-activatable"><Link to="/monster/dire_boar">Dire boar<IonRippleEffect /></Link></td>
 <td>370 gp</td>
 </tr>
 <tr>
-<td>Dire crocodile</td>
+<td className="ion-activatable"><Link to="/monster/dire_crocodile">Dire crocodile<IonRippleEffect /></Link></td>
 <td>2,700 gp</td>
 </tr>
 <tr>
-<td>Dire hyena</td>
+<td className="ion-activatable"><Link to="/monster/dire_hyena">Dire hyena<IonRippleEffect /></Link></td>
 <td>250 gp</td>
 </tr>
 <tr>
-<td>Dire lion</td>
+<td className="ion-activatable"><Link to="/monster/dire_lion">Dire lion<IonRippleEffect /></Link></td>
 <td>1,000 gp</td>
 </tr>
 <tr>
-<td>Dire shark</td>
+<td className="ion-activatable"><Link to="/monster/dire_shark">Dire shark<IonRippleEffect /></Link></td>
 <td>3,375 gp</td>
 </tr>
 <tr>
-<td>Dire tiger</td>
+<td className="ion-activatable"><Link to="/monster/dire_tiger">Dire tiger<IonRippleEffect /></Link></td>
 <td>1,055 gp</td>
 </tr>
 <tr>
-<td>Dire wolf</td>
+<td className="ion-activatable"><Link to="/monster/dire_wolf">Dire wolf<IonRippleEffect /></Link></td>
 <td>380 gp</td>
 </tr>
 <tr>
-<td>Dire wolverine</td>
+<td className="ion-activatable"><Link to="/monster/dire_wolverine">Dire wolverine<IonRippleEffect /></Link></td>
 <td>500 gp</td>
 </tr>
 </tbody></table></ScrollContainer>
@@ -231,8 +231,8 @@ const _dire_animal = {title: "Dire animal", jsx: <><h2 id="eq-misc-dire_animal-d
 const _dire_bat = {title: "Dire bat", jsx: <><h2 id="eq-misc-dire_bat-dire-bat">Dire bat</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 15</Link>  </p>
 <Tabular format="misc" a="220 gp (common), 300 gp (riding), 450 gp (riding, combat trained)" b="&mdash; (common), 400 lbs. (riding), 450 lbs. (riding, combat trained)" c="x" d="pet" />
-<p>Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt wild empathy or Handle Animal checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts, though the GM may make exceptions at her discretion.</p>
-<p>Considered to be the fastest nonmagical transport in cavernous underground realms, dire bats are domesticated in captivity to serve as riding animals. Stables that accommodate these massive creatures are only commonly found in cities built in larger underground caverns, owing to the greater space required for training and exercise, though the outriders of some subterranean races fly them almost to the surface. These creatures require exotic saddles to ride.</p>
+<p>Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt <Link to="/ability/wild_empathy">wild empathy</Link> or <Link to="/skill/handle_animal">Handle Animal</Link> checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts, though the GM may make exceptions at her discretion.</p>
+<p>Considered to be the fastest nonmagical transport in cavernous underground realms, <Link to="/monster/dire_bat">dire bats</Link> are domesticated in captivity to serve as riding animals. Stables that accommodate these massive creatures are only commonly found in cities built in larger underground caverns, owing to the greater space required for training and exercise, though the outriders of some subterranean races fly them almost to the surface. These creatures require <Link to="/eq-misc/exotic_saddle">exotic saddles</Link> to ride.</p>
 </>};
 const _disguise_kit = {title: "Disguise kit", jsx: <><h2 id="eq-misc-disguise_kit-disguise-kit">Disguise kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -323,7 +323,7 @@ const _dominos = {title: "Dominos", jsx: <><h2 id="eq-misc-dominos-dominos">Domi
 const _donkey_or_mule = {title: "Donkey or mule", jsx: <><h2 id="eq-misc-donkey_or_mule-donkey-or-mule">Donkey or mule</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>  </p>
 <Tabular format="misc" a="8 gp" b="600-800 lbs." c="x" d="pet" />
-<p>Donkeys and mules are stolid in the face of danger, hardy, surefooted, and capable of carrying heavy loads over vast distances. Unlike a <Link to="/eq-misc/horse">horse</Link>, a donkey or mule is willing (though not eager) to enter dungeons and other strange or threatening places. Donkeys and mules have the same statistics as ponies.</p>
+<p>Donkeys and mules are stolid in the face of danger, hardy, surefooted, and capable of carrying heavy loads over vast distances. Unlike a <Link to="/eq-misc/horse">horse</Link>, a donkey or mule is willing (though not eager) to enter dungeons and other strange or threatening places. <Link to="/monster/pony">Donkeys and mules</Link> have the same statistics as ponies.</p>
 </>};
 const _donkey_rat = {title: "Donkey rat", jsx: <><h2 id="eq-misc-donkey_rat-donkey-rat">Donkey rat</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -431,7 +431,7 @@ const _druids_kit = {title: "Druid's kit", jsx: <><h2 id="eq-misc-druids_kit-dru
 const _duck = {title: "Duck", jsx: <><h2 id="eq-misc-duck-duck">Duck</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>  </p>
 <Tabular format="misc" a="2" b="3" d="pet" />
-<p>Farm ducks are used for eggs, meat, and down, while wild ducks are hunted for meat. Ducks have the same statistics as ravens.</p>
+<p>Farm ducks are used for eggs, meat, and down, while wild ducks are hunted for meat. Ducks have the same statistics as <Link to="/monster/raven">ravens</Link>.</p>
 </>};
 const _dungeoneering_kit_common = {title: "Dungeoneering kit (common)", jsx: <><h2 id="eq-misc-dungeoneering_kit_common-dungeoneering-kit">Dungeoneering kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 47</Link>  </p>
@@ -523,7 +523,7 @@ const _elemental_proofing = {title: "Elemental proofing", jsx: <><h2 id="eq-misc
 const _elephant = {title: "Elephant", jsx: <><h2 id="eq-misc-elephant-elephant">Elephant</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="1,000 gp" b="5 tons" c="x" d="pet" />
-<p>These Huge animals are exceptionally strong and are quick learners. Some cultures train them for battle or labor. Most known elephants come from savannas or vast rainforest regions. They eat so much that housing them outside of their native environment is expensive.</p>
+<p>These Huge animals are exceptionally strong and are quick learners. Some cultures train them for battle or labor. Most known <Link to="/monster/elephant">elephants</Link> come from savannas or vast rainforest regions. They eat so much that housing them outside of their native environment is expensive.</p>
 </>};
 const _elven_prosthetics = {title: "Elven Prosthetics", jsx: <><h2 id="eq-misc-elven_prosthetics-elven-prosthetics">Elven Prosthetics</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 22</Link>  </p>
@@ -651,7 +651,8 @@ const _falconry_gauntlet = {title: "Falconry gauntlet", jsx: <><h2 id="eq-misc-f
 const _false_ectoplasm = {title: "False ectoplasm", jsx: <><h2 id="eq-misc-false_ectoplasm-false-ectoplasm">False ectoplasm</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 11</Link>  </p>
 <Tabular format="misc" a="2" b="2" d="bm" />
-<p>Once exposed to air, this greenish alchemical sludge quickly takes on a faint glow. This glow provides dim illumination in the area immediately surrounding the fist-sized lump of false ectoplasm. This glow-in-the-dark effect lasts for 1 hour before the substance begins to decompose into a brownish goo. A successful DC 20 Sleight of Hand check allows a user to open a vial of false ectoplasm and deposit it on an adjacent surface as a move action; a successful opposed Perception check is enough to notice this trickery.</p>
+<p><Icons id="eq-misc-false_ectoplasm-power-icons" wrapper="prefixIcon" list={["power"]} /> Once exposed to air, this greenish alchemical sludge quickly takes on a faint glow. This glow provides dim <Link to="/rule/illumination">illumination</Link> in the area immediately surrounding the fist-sized lump of false ectoplasm. This glow-in-the-dark effect lasts for 1 hour before the substance begins to decompose into a brownish goo.</p>
+<p>A successful DC 20 <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check allows a user to open a vial of false ectoplasm and deposit it on an adjacent surface as a <strong className="hl">move action</strong>; a successful opposed <Link to="/skill/perception">Perception</Link> check is enough to notice this trickery.</p>
 </>};
 const _false_manacles = {title: "False manacles", jsx: <><h2 id="eq-misc-false_manacles-false-manacles">False manacles</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -835,7 +836,7 @@ const _night_stalkers_tonic = {title: "Night stalker's tonic", jsx: <><h2 id="eq
 const _night_tea = {title: "Night tea", jsx: <><h2 id="eq-misc-night_tea-night-tea">Night tea</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="0.1" b="x" d="bm" />
-<p>This frothy tea made from the bone-white, triangular leaves of the night tea plant renders a humanoid female sterile if drunk every day. In high doses, it may be able to end a pregnancy.</p>
+<p><Icons id="eq-misc-night_tea-aid-icons" wrapper="prefixIcon" list={["aid"]} /> This frothy tea made from the bone-white, triangular leaves of the night tea plant renders a humanoid female sterile if drunk every day. In high doses, it may be able to end a pregnancy.</p>
 </>};
 const _nightsage = {title: "Nightsage", jsx: <><h2 id="eq-misc-nightsage-nightsage">Nightsage</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 155</Link>, <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 10</Link>  </p>
@@ -914,7 +915,7 @@ const _occultists_kit = {title: "Occultist's kit", jsx: <><h2 id="eq-misc-occult
 const _octopus = {title: "Octopus", jsx: <><h2 id="eq-misc-octopus-octopus">Octopus</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
 <Tabular format="misc" a="25" b="2" d="pet" />
-<p>These cunning animals (especially the <Link to="/monster/blue_ringed_octopus">blue-ringed</Link> variety) can be employed as familiars by aquatic spellcasters. If they are kept is pets, they must be kept in water, as they cannot survive out of it.</p>
+<p>These cunning animals (especially the <Link to="/monster/blue_ringed_octopus">blue-ringed</Link> variety) can be employed as <Link to="/ability/familiar">familiars</Link> by aquatic spellcasters. If they are kept is pets, they must be kept in water, as they cannot survive out of it.</p>
 </>};
 const _odor_stalk = {title: "Odor stalk", jsx: <><h2 id="eq-misc-odor_stalk-odor-stalk">Odor stalk</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 27</Link>  </p>
@@ -984,7 +985,7 @@ const _ostentatious_garment = {title: "Ostentatious garment", jsx: <><h2 id="eq-
 const _otter = {title: "Otter", jsx: <><h2 id="eq-misc-otter-otter">Otter</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
 <Tabular format="misc" a="20" b="10" d="pet" />
-<p>These playful water mammals are either used as familiars or trained to perform tricks as pets. They are surprisingly intelligent, and have been known to use rocks as simple tools, such as for opening the shells of mollusks.</p>
+<p>These playful <Link to="/monster/otter">water mammals</Link> are either used as <Link to="/ability/familiar">familiars</Link> or trained to perform tricks as pets. They are surprisingly intelligent, and have been known to use rocks as simple tools, such as for opening the shells of mollusks.</p>
 </>};
 const _out_of_towners_kit = {title: "Out-of-towner's kit", jsx: <><h2 id="eq-misc-out_of_towners_kit-out-of-towners-kit">Out-of-towner's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 13</Link>  </p>
@@ -994,17 +995,17 @@ const _out_of_towners_kit = {title: "Out-of-towner's kit", jsx: <><h2 id="eq-mis
 const _owl_verduran = {title: "Owl (verduran)", jsx: <><h2 id="eq-misc-owl_verduran-owl">Owl</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="20 gp (common), 20 gp (Verduran)" b="1-3 lbs. (common), 3 lbs. (Verduran)" c="x" d="pet" />
-<p>These Tiny birds of prey are mainly nocturnal and are known for their keen eyes and near-silent flight. Owls eat small animals and insects, and can be found in nearly any environment. Some farmers create owl homes near fields and barns to control rodent populations. The smartest owls make excellent familiars.</p>
+<p>These Tiny birds of prey are mainly nocturnal and are known for their keen eyes and near-silent flight. <Link to="/monster/owl">Owls</Link> eat small animals and insects, and can be found in nearly any environment. Some farmers create owl homes near fields and barns to control rodent populations. The smartest owls make excellent <Link to="/ability/familiar">familiars</Link>.</p>
 </>};
 const _pack_animal_musk_ox = {title: "Pack animal (musk ox)", jsx: <><h2 id="eq-misc-pack_animal_musk_ox-pack-animal-musk-ox">Pack animal (musk ox)</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link>  </p>
 <Tabular format="misc" a="24" b="x" d="pet" />
-<p>These husky, shaggy beasts are sometimes domesticated as pack animals in the Crown of the World. Their statistics are identical to aurochs, but they are immune to cold weather effects (though not severe cold and extreme cold effects). Domesticated musk oxen have the docile special quality (see <Link to="/monster/horse">horse</Link>), and treat their gore attack as a secondary natural weapon. In the polar rim mountains of Tian Xia, yaks are used as pack animals and have identical statistics.</p>
+<p>These husky, shaggy beasts are sometimes domesticated as pack animals in the Crown of the World. Their statistics are identical to <Link to="/monster/aurochs">aurochs</Link>, but they are immune to cold weather effects (though not severe cold and extreme cold effects). Domesticated musk oxen have the <em>docile</em> special quality (see <Link to="/monster/horse">horse</Link>), and treat their gore attack as a secondary natural weapon. In the polar rim mountains of Tian Xia, yaks are used as pack animals and have identical statistics.</p>
 </>};
 const _pack_animal_ox = {title: "Pack animal (ox)", jsx: <><h2 id="eq-misc-pack_animal_ox-pack-animal">Pack Animal</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="8 gp Pack animal (donkey/mule), 15 gp Pack animal (ox), 24 gp Pack animal (yak)" b="600 lbs. Pack animal (donkey/mule), 1 ton Pack animal (ox), 2 tons Pack animal (yak)" c="x" d="pet" />
-<p>Working animals are universal, but the animal type varies according to local availability. Elephants carry goods in much of the Mwangi Expanse. Yaks pull loads in mountainous regions. In many other parts of the Inner Sea, donkeys, mules, and oxen pull carts or plows. The donkey market in Katapesh is particularly brisk.</p>
+<p>Working animals are universal, but the animal type varies according to local availability. <Link to="/eq-misc/elephant">Elephants</Link> carry goods in much of the Mwangi Expanse. <Link to="/monster/yak">Yaks</Link> pull loads in mountainous regions. In many other parts of the Inner Sea, donkeys, mules, and <Link to="/monster/oxen">oxen</Link> pull carts or plows. The donkey market in Katapesh is particularly brisk.</p>
 </>};
 const _padzahr = {title: "Padzahr", jsx: <><h2 id="eq-misc-padzahr-padzahr">Padzahr</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 101</Link>  </p>
@@ -1069,7 +1070,7 @@ const _parchment_sheet = {title: "Parchment (sheet)", jsx: <><h2 id="eq-misc-par
 const _parrot = {title: "Parrot", jsx: <><h2 id="eq-misc-parrot-parrot">Parrot</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
 <Tabular format="misc" a="50" b="4" d="pet" />
-<p>These colorful and intelligent birds can be trained to mimic humanoid voices. They are often kept as pets by the wealthy and those who live in the tropical climates they favor. Parrots have the same statistics as ravens.</p>
+<p>These colorful and intelligent birds can be trained to mimic humanoid voices. They are often kept as pets by the wealthy and those who live in the tropical climates they favor. Parrots have the same statistics as <Link to="/monster/raven">ravens</Link>.</p>
 </>};
 const _patchwork_cloak = {title: "Patchwork cloak", jsx: <><h2 id="eq-misc-patchwork_cloak-patchwork-cloak">Patchwork cloak</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>  </p>
@@ -1209,11 +1210,12 @@ const _periscope = {title: "Periscope", jsx: <><h2 id="eq-misc-periscope-perisco
 const _pesh = {title: "Pesh", jsx: <><h2 id="eq-misc-pesh-pesh">Pesh</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="20" b="x" d="bm" />
-<p>The milk of this vibrantly green cactus, when mixed with resins and other ingredients, congeals into sticky, black chunks with an exceedingly sour taste. Though pesh comes in several different varieties, refined pesh is both the most potent and expensive type. Taking refined pesh gives a person 15 temporary hit points for 1 hour, a +2 morale bonus on saves versus fear effects for 1 day, and a -4 penalty to Dexterity and Wisdom for 1 day. <Link to="/drug/pesh">Pesh</Link> is addictive (Fortitude DC 10 to resist), and long-term users suffer <Link to="/rule/wisdom_damage">Dexterity and Wisdom damage</Link>.</p>
-<p><strong>False Pesh</strong><br/><strong>Sources</strong> <Link to="/source/dark_markets___a_guide_to_katapesh">Dark Markets - A Guide to Katapesh pg. 14</Link></p>
-<p>False pesh looks much the same as real pesh, but the genuine plant is a spined cactus that grows in desert areas, while the imposter is a sticky, more bulbous plant that requires extra moisture to flourish. A character can make a DC 15 Knowledge (nature) check to tell the real plant from the fake.</p>
-<p>Imitation raw pesh formed from the false pesh plant is much harder to differentiate from the real drug. Both appear as milky white, cheese-like blocks; the false pesh has a milder odor and a stickier gloss to its surface, but the differences are minor. A DC 25 Alchemy check discerns true raw pesh from false.</p>
-<p>Anyone ingesting false raw pesh must make a DC 25 Fortitude save or become <Link to="/misc/nauseated">nauseated</Link> for 10 minutes. After 1 minute they must make another DC 25 Fortitude save or suffer the secondary effect of 1d4 points of Constitution damage. For refined false pesh, the save DC is 30 and the secondary effect is 1d6 points of Constitution damage. The Alchemy check to distinguish it from true refined pesh is DC 30.</p>
+<p><Icons id="eq-misc-pesh-def-down-icons" wrapper="prefixIcon" list={["def","down"]} /> The milk of this vibrantly green cactus, when mixed with resins and other ingredients, congeals into sticky, black chunks with an exceedingly sour taste. Though pesh comes in several different varieties, refined pesh is both the most potent and expensive type. Taking refined pesh gives a person 15 temporary hit points for 1 hour, a +2 morale bonus on saves versus fear effects for 1 day, and a -4 penalty to Dexterity and Wisdom for 1 day. <Link to="/drug/pesh">Pesh</Link> is addictive (Fortitude DC 10 to resist), and long-term users suffer <Link to="/rule/wisdom_damage">Dexterity and Wisdom damage</Link>.</p>
+<h3 id="eq-misc-pesh-false-pesh">False Pesh</h3>
+<p><strong>Sources</strong> <Link to="/source/dark_markets___a_guide_to_katapesh">Dark Markets - A Guide to Katapesh pg. 14</Link></p>
+<p>False pesh looks much the same as real pesh, but the genuine plant is a spined cactus that grows in desert areas, while the imposter is a sticky, more bulbous plant that requires extra moisture to flourish. A character can make a DC 15 <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> check to tell the real plant from the fake.</p>
+<p>Imitation raw pesh formed from the false pesh plant is much harder to differentiate from the real drug. Both appear as milky white, cheese-like blocks; the false pesh has a milder odor and a stickier gloss to its surface, but the differences are minor. A DC 25 <Link to="/skill/craft">Craft</Link> (alchemy) check discerns true raw pesh from false.</p>
+<p>Anyone ingesting false raw pesh must make a DC 25 Fortitude save or become <Link to="/misc/nauseated">nauseated</Link> for 10 minutes. After 1 minute they must make another DC 25 Fortitude save or suffer the secondary effect of 1d4 points of Constitution damage. For refined false pesh, the save DC is 30 and the secondary effect is 1d6 points of Constitution damage. The Craft (alchemy) check to distinguish it from true refined pesh is DC 30.</p>
 </>};
 const _petrified_ooze = {title: "Petrified ooze", jsx: <><h2 id="eq-misc-petrified_ooze-petrified-ooze">Petrified ooze</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 27</Link>  </p>
@@ -1266,7 +1268,7 @@ const _pig_grease = {title: "Pig grease", jsx: <><h2 id="eq-misc-pig_grease-pig-
 const _pig = {hasJL:true,title: "Pig", jsx: <><div className="jumpList" id="eq-misc-pig-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-pig-specific-mounts">Specific Mounts</InnerLink></li></ul></div><h2 id="eq-misc-pig-pig">Pig</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 93</Link>  </p>
 <Tabular format="misc" a="3-10 gp" b="100-300 lbs." c="x" d="pet" />
-<p>Domesticated pigs are the descendents of wild boars, and are raised for their meat and hide, being among the most versatile and common farm animals.</p>
+<p>Domesticated <Link to="/monster/pig">pigs</Link> are the descendents of wild boars, and are raised for their meat and hide, being among the most versatile and common farm animals.</p>
 <h3 id="eq-misc-pig-specific-mounts" data-hash-target>Specific Mounts</h3>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 23</Link><br/>Each of the following listings details a specific breed of riding animal and provides a trait that grants an additional boon to the mount or its rider. The trait granted to a mount counts against a character's total maximum number of traits. If a knight replaces his mount, he effectively loses the old trait and gains the new mount's trait.</p>
 <p><strong className="hl">Warthog:</strong> Hailing from the Mwangi Expanse, these broad-faced boars are considered unusually ugly, with enormous tusks and large "warts" (in truth, these fleshy facial protrusions are protective ridges). Despite that, those who have worked with them find warthogs easier to deal with than the wild boars of more northerly climes, as warthogs are more prone to flight than aggression. <strong className="hl">Associated Trait:</strong> <Link to="/trait/running_pig">Running Pig</Link>.</p>
@@ -1320,7 +1322,7 @@ const _travelers_dictionary = {title: "Traveler's dictionary", jsx: <><h2 id="eq
 const _travelers_hookah = {title: "Traveler's hookah", jsx: <><h2 id="eq-misc-travelers_hookah-travelers-hookah">Traveler's hookah</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 18</Link>  </p>
 <Tabular format="misc" a="1500" b="4" d="bm" />
-<p>This portable <Link to="/eq-misc/hookah">hookah</Link> can be worn as a backpack, obviating the need to set the hookah down before filling it with water. Up to four creatures (including the wearer and any adjacent creatures) can use a traveler's hookah during the same round. While wearing a traveler's hookah, you can stopper the hookah's bowl valve as an immediate action to prevent unwanted individuals from using it until the valve is reopened as a free action. If you are knocked unconscious or otherwise fall prone while wearing a traveler's hookah, you must succeed at a DC 13 Reflex save or the hookah is smashed during the fall. A traveler's hookah can hold up to 5 doses of a single substance, and has four hoses.</p>
+<p>This portable <Link to="/eq-misc/hookah">hookah</Link> can be worn as a backpack, obviating the need to set the hookah down before filling it with water. Up to four creatures (including the wearer and any adjacent creatures) can use a traveler's hookah during the same round. While wearing a traveler's hookah, you can stopper the hookah's bowl valve as an <strong className="hl">immediate action</strong> to prevent unwanted individuals from using it until the valve is reopened as a <strong className="hl">free action</strong>. If you are knocked unconscious or otherwise fall prone while wearing a traveler's hookah, you must succeed at a DC 13 Reflex save or the hookah is smashed during the fall. A traveler's hookah can hold up to 5 doses of a single substance, and has four hoses.</p>
 </>};
 const _travelers_outfit = {title: "Traveler's outfit", jsx: <><h2 id="eq-misc-travelers_outfit-travelers-outfit">Traveler's outfit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
@@ -1367,7 +1369,7 @@ const _trekking_pole = {title: "Trekking pole", jsx: <><h2 id="eq-misc-trekking_
 const _trephine = {title: "Trephine", jsx: <><h2 id="eq-misc-trephine-trephine">Trephine</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 212</Link>  </p>
 <Tabular format="misc" a="20" b="1" d="torture" />
-<p>This surgical instrument has a serrated, circular blade that is used to bore holes into the skulls of patients to relieve cranial swelling from head trauma or, as some chirurgeons believe, release evil spirits. Use of a trephine takes 10 minutes, and deals 5 points of piercing damage to the subject creature. With a successful DC 25 Heal check, the user can heal up to 1d4 points of ability damage to any one mental ability score caused by physical trauma to the head, such as the critical <Link to="/rule/called_shots">called shot</Link> or debilitating blow called shot, or it can cure the severe brain trauma inflicted by the debilitating blow called shot. If the user fails the check, the subject still takes 5 points of piercing damage. If the user fails the check by 5 or more, the subject instead takes 10 points of piercing damage and 1 point of damage each to its Intelligence, Wisdom, and Charisma scores.</p>
+<p>This surgical instrument has a serrated, circular blade that is used to bore holes into the skulls of patients to relieve cranial swelling from head trauma or, as some chirurgeons believe, release evil spirits. Use of a trephine takes 10 minutes, and deals 5 points of piercing damage to the subject creature. With a successful DC 25 <Link to="/skill/heal">Heal</Link> check, the user can heal up to 1d4 points of <Link to="/rule/ability_damage">ability damage</Link> to any one mental ability score caused by physical trauma to the head, such as the <em>critical</em> <Link to="/rule/called_shots">called shot</Link> or <em>debilitating blow</em> called shot, or it can cure the severe brain trauma inflicted by the <em>debilitating blow</em> called shot. If the user fails the check, the subject still takes 5 points of piercing damage. If the user fails the check by 5 or more, the subject instead takes 10 points of piercing damage and 1 point of damage each to its Intelligence, Wisdom, and Charisma scores.</p>
 </>};
 const _trespassers_boot = {title: "Trespasser's boot", jsx: <><h2 id="eq-misc-trespassers_boot-trespassers-boot">Trespasser's boot</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -1416,7 +1418,7 @@ const _tunnel_creeper = {title: "Tunnel creeper", jsx: <><h2 id="eq-misc-tunnel_
 const _turtle = {title: "Turtle", jsx: <><h2 id="eq-misc-turtle-turtle">Turtle</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
 <Tabular format="misc" a="3" b="4" d="pet" />
-<p>These reptiles have bony shells that they can retreat into. They are sometimes kept as pets and used as familiars, and in some places their flesh is eaten or used as an ingredient in medicines.</p>
+<p>These <Link to="/monster/turtle">reptiles</Link> have bony shells that they can retreat into. They are sometimes kept as pets and used as <Link to="/ability/familiar">familiars</Link>, and in some places their flesh is eaten or used as an ingredient in medicines.</p>
 </>};
 const _tusk_blades = {title: "Tusk blades", jsx: <><h2 id="eq-misc-tusk_blades-tusk-blades">Tusk blades</h2>
 <p><strong>Sources</strong> <Link to="/source/belkzen_hold_of_the_orc_hordes">Belkzen, Hold of the Orc Hordes pg. 39</Link>  </p>
@@ -1712,7 +1714,7 @@ const _weapon_cord = {title: "Weapon cord", jsx: <><h2 id="eq-misc-weapon_cord-w
 const _weasel = {title: "Weasel", jsx: <><h2 id="eq-misc-weasel-weasel">Weasel</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="2 gp" b="8 oz." c="x" d="pet" />
-<p>These Tiny animals eat smaller animals and can be found in nearly any environment. They are clever and curious, traits that are magnified when they are kept as familiars. Many varieties of weasel exude a strong musky odor. This description also applies to similar animals, such as ferrets, minks, polecats, and stoats.</p>
+<p>These Tiny animals eat smaller animals and can be found in nearly any environment. They are clever and curious, traits that are magnified when they are kept as <Link to="/ability/familiar">familiars</Link>. Many varieties of <Link to="/monster/weasel">weasel</Link> exude a strong musky odor. This description also applies to similar animals, such as ferrets, minks, polecats, and stoats.</p>
 </>};
 const _wet_suit = {title: "Wet suit", jsx: <><h2 id="eq-misc-wet_suit-wet-suit">Wet suit</h2>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 57</Link>  </p>
@@ -1884,7 +1886,7 @@ const _wolfsbane = {title: "Wolfsbane", jsx: <><h2 id="eq-misc-wolfsbane-wolfsba
 const _woolly_mammoth_combat_trained = {title: "Woolly mammoth (combat-trained)", jsx: <><h2 id="eq-misc-woolly_mammoth_combat_trained-woolly-mammoth">Woolly mammoth</h2>
 <p><strong>Sources</strong> <Link to="/source/belkzen_hold_of_the_orc_hordes">Belkzen, Hold of the Orc Hordes pg. 39</Link>  </p>
 <Tabular format="misc" a="4,500 gp (combat-trained), 3,000 gp (normal)" b="6 tons (combat-trained), 6 tons (normal)" c="x" d="pet" />
-<p>Poached from the Realm of the Mammoth Lords, these hairy pachyderms are used by the orcs of Belkzen as mounts and living siege engines. As if these mounts weren't intimidating enough, the orcs outfit them with spiked metal barding and tusk blades.</p>
+<p>Poached from the Realm of the Mammoth Lords, these <Link to="/monster/mammoth">hairy pachyderms</Link> are used by the orcs of Belkzen as mounts and living siege engines. As if these mounts weren't intimidating enough, the orcs outfit them with spiked metal barding and tusk blades.</p>
 </>};
 const _wranglers_gloves = {title: "Wrangler's gloves", jsx: <><h2 id="eq-misc-wranglers_gloves-wranglers-gloves">Wrangler's gloves</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 27</Link>  </p>
@@ -1915,7 +1917,7 @@ const _wyrms_breath_bitter = {title: "Wyrm's breath bitter", jsx: <><h2 id="eq-m
 const _yak = {title: "Yak", jsx: <><h2 id="eq-misc-yak-yak">Yak</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>  </p>
 <Tabular format="misc" a="24" b="1000" d="pet" />
-<p>These shaggy-haired relatives to cows are more at home in mountainous terrain where they are frequently used as pack animals and to pull plows. Yaks have the same statistics as bison.</p>
+<p>These shaggy-haired <Link to="/monster/yak">relatives to cows</Link> are more at home in mountainous terrain where they are frequently used as pack animals and to pull plows.</p>
 </>};
 const _yenchaburian_hybrid = {title: "Yenchaburian hybrid", jsx: <><h2 id="eq-misc-yenchaburian_hybrid-yenchaburian-hybrid">Yenchaburian hybrid</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 27</Link>  </p>

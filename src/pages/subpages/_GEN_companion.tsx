@@ -3383,8 +3383,8 @@ const _riding_rat = {title: "Riding Rat", jsx: <><h2 id="companion-riding_rat-ri
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 177</Link></p>
 <Block size="simple" hl>
 <Row><Cell>Companion Type</Cell><Cell>Animal</Cell></Row>
-<Row><Cell>Monster Entry</Cell><Cell><Link to="/monster/dire_rat">Dire Rat</Link></Cell></Row></Block>
-<p>This filthy rat is the size of a small dog. It has a coat of coarse fur, a long and scabby tail, and two glittering eyes.</p>
+<Row><Cell>Monster Entry</Cell><Cell><Link to="/monster/dire_rat">Dire Rat</Link> with the <Link to="/template/giant">giant</Link> simple template</Cell></Row></Block>
+<p>This filthy rat is the size of a small dog. It has a coat of coarse fur, a long and scabby tail, and two glittering eyes. A <Link to="/race/ratfolk">ratfolk</Link> can select a riding rat as a mount.</p>
 <Block titled size="simple"><Row><Cell><p>Starting Statistics</p>
 </Cell></Row>
 <Row><Cell>Size</Cell><Cell>Medium</Cell></Row>

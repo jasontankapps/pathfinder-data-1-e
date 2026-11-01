@@ -1274,6 +1274,7 @@
 			"Giant snapping turtles typically grow to diameters of about 35 feet and weigh 20,000 pounds."
 		]
 	},
+	"turtle_snapping_giant": { "redirect": "turtle_giant_snapping_turtle" },
 	"turtle_giant_snapping": { "redirect": "turtle_giant_snapping_turtle" },
 	"giant_snapping_turtle": { "redirect": "turtle_giant_snapping_turtle" },
 	"turtle_snapping_turtle": {

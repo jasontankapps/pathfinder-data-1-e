@@ -209,7 +209,7 @@ const _practice_straitjacket = {title: "Practice straitjacket", jsx: <><h2 id="e
 const _premium_hookah = {title: "Premium hookah", jsx: <><h2 id="eq-misc-premium_hookah-premium-hookah">Premium hookah</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 18</Link>  </p>
 <Tabular format="misc" a="1000" b="15" d="bm" />
-<p>A premium hookah is similar to a standard <Link to="/eq-misc/hookah">hookah</Link>, except it sports enough hoses for up to eight adjacent creatures to use, and the bowl has three separate compartments, each of which can store a different type of inhalable drug, alchemical powder, or alchemical liquid. Each compartment can hold up to 3 doses of an inhalable substance (so a premium hookah can hold up to 9 doses total). Consuming these contents is still a move action. You can reload a single compartment as a move action, or you can reload all three compartments as a full-round action.</p>
+<p>A premium hookah is similar to a standard <Link to="/eq-misc/hookah">hookah</Link>, except it sports enough hoses for up to eight adjacent creatures to use, and the bowl has three separate compartments, each of which can store a different type of inhalable drug, alchemical powder, or alchemical liquid. Each compartment can hold up to 3 doses of an inhalable substance (so a premium hookah can hold up to 9 doses total). Consuming these contents is still a <strong className="hl">move action</strong>. You can reload a single compartment as a move action, or you can reload all three compartments as a <strong className="hl">full-round action</strong>.</p>
 </>};
 const _pressure_pill = {title: "Pressure pill", jsx: <><h2 id="eq-misc-pressure_pill-pressure-pill">Pressure pill</h2>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 56</Link>  </p>
@@ -251,7 +251,7 @@ const _prowlers_palliative = {title: "Prowler's palliative", jsx: <><h2 id="eq-m
 const _pseudodragon = {title: "Pseudodragon", jsx: <><h2 id="eq-misc-pseudodragon-pseudodragon">Pseudodragon</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="200" b="7" d="pet" />
-<p>Found primarily in temperate forests, pseudodragons are intelligent enough that some consider their sale slavery. A handful of pseudodragons offer themselves for hire to adventurers, typically for half their listed price per week of work.</p>
+<p>Found primarily in temperate forests, <Link to="/monster/pseudodragon">pseudodragons</Link> are intelligent enough that some consider their sale slavery. A handful of pseudodragons offer themselves for hire to adventurers, typically for half their listed price per week of work.</p>
 </>};
 const _psychics_kit = {title: "Psychic's kit", jsx: <><h2 id="eq-misc-psychics_kit-psychics-kit">Psychic's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 250</Link>  </p>
@@ -278,7 +278,8 @@ const _pulque_cup = {title: "Pulque (cup)", jsx: <><h2 id="eq-misc-pulque_cup-pu
 const _pump_organ = {title: "Pump organ", jsx: <><h2 id="eq-misc-pump_organ-pump-organ">Pump organ</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 11</Link>  </p>
 <Tabular format="misc" a="2000" b="100" d="bm" />
-<p>This large mobile keyboard instrument resembles a strange chair with several brass tubes jutting from its back and small wheels on the feet for ease of transportation. A pump organ can seat a single Medium creature, which can operate the keyboard and pedals to create haunting melodies out of the brass pipework along the organ's back frame. All pump organs function as <Link to="/eq-misc/masterwork_musical_instrument">masterwork musical instruments</Link> for Perform (keyboard) checks. With 10 minutes of work and a successful DC 15 Perform (keyboard) check, a user can manipulate the pump organ's controls to create a 1-minute long performance that does not require an operator - the pump organ can be set to activate after a preset duration via a timer (up to 24 hours) or to begin when a remote trigger is activated. The trigger can be connected to the pump organ via a set of pulleys and twine normally stored in a compartment under the organ's seat cushion with a successful DC 15 Disable Device check. The remote trigger can be placed up to 60 feet from the pump organ.</p>
+<p>This large mobile keyboard instrument resembles a strange chair with several brass tubes jutting from its back and small wheels on the feet for ease of transportation. A pump organ can seat a single Medium creature, which can operate the keyboard and pedals to create haunting melodies out of the brass pipework along the organ's back frame.</p>
+<p>All pump organs function as <Link to="/eq-misc/masterwork_musical_instrument">masterwork musical instruments</Link> for <Link to="/skill/perform">Perform</Link> (keyboard) checks. With 10 minutes of work and a successful DC 15 Perform (keyboard) check, a user can manipulate the pump organ's controls to create a 1-minute long performance that does not require an operator - the pump organ can be set to activate after a preset duration via a timer (up to 24 hours) or to begin when a remote trigger is activated. The trigger can be connected to the pump organ via a set of pulleys and twine normally stored in a compartment under the organ's seat cushion with a successful DC 15 <Link to="/skill/disable_device">Disable Device</Link> check. The remote trigger can be placed up to 60 feet from the pump organ.</p>
 </>};
 const _pump_water_canister = {title: "Pump water canister", jsx: <><h2 id="eq-misc-pump_water_canister-pump-water-canister">Pump water canister</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -294,7 +295,7 @@ const _purification_pellet = {title: "Purification pellet", jsx: <><h2 id="eq-mi
 const _purity_test = {title: "Purity test", jsx: <><h2 id="eq-misc-purity_test-purity-test">Purity test</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 18</Link>  </p>
 <Tabular format="misc" a="10" b="2" d="bm" />
-<p>This set of special disposable reagents can be used in conjunction with an <Link to="/eq-misc/alchemists_lab">alchemist's lab</Link> to detect whether a drug has been cut with inferior-grade material or <Link to="/eq-misc/bunk">filler</Link>, granting a +5 competence bonus on Craft (alchemy) checks to detect such chicanery.</p>
+<p><Icons id="eq-misc-purity_test-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This set of special disposable reagents can be used in conjunction with an <Link to="/eq-misc/alchemists_lab">alchemist's lab</Link> to detect whether a drug has been cut with inferior-grade material or <Link to="/eq-misc/bunk">filler</Link>, granting a +5 competence bonus on <Link to="/skill/craft">Craft</Link> (alchemy) checks to detect such chicanery.</p>
 </>};
 const _puzzle_box = {title: "Puzzle box", jsx: <><h2 id="eq-misc-puzzle_box-puzzle-box">Puzzle box</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 92</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -384,12 +385,11 @@ const _quicksilver_barometer = {title: "Quicksilver barometer", jsx: <><h2 id="e
 const _quieting_needles = {title: "Quieting needles", jsx: <><h2 id="eq-misc-quieting_needles-quieting-needles">Quieting needles</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_29_mother_of_flies">Pathfinder #29: Mother of Flies pg. 12</Link>  </p>
 <Tabular format="misc" a="25" b="x" d="bm" />
-<p>A set of quieting needles costs 25 gp. Inserted into a corpse's heart, lungs, and other organs, the needles can be well hidden inside a slain body with a minute of work and a Sleight of Hand check - the result of this Sleight of Hand check determines the Heal check DC to notice the use of quieting needles on a corpse. This Heal check gains a cumulative +1 bonus for each day the body has been allowed to decay, as the presence of the needles grows increasingly obvious as the flesh rots away.</p>
+<p>Inserted into a corpse's heart, lungs, and other organs, the needles can be well hidden inside a slain body with a minute of work and a <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check - the result of this Sleight of Hand check determines the <Link to="/skill/heal">Heal</Link> check DC to notice the use of quieting needles on a corpse. This Heal check gains a cumulative +1 bonus for each day the body has been allowed to decay, as the presence of the needles grows increasingly obvious as the flesh rots away.</p>
 <p>A body pierced with quieting needles can be brought back to life as normal via <Link to="/spell/raise_dead">raise dead</Link>, but upon being restored to life, the victim immediately begins suffering from the fact that his major organs are perforated by hidden needles. This grisly fate can even strike someone brought back to life via <Link to="/spell/resurrection">resurrection</Link> or <Link to="/spell/true_resurrection">true resurrection</Link> if the body itself was intact and the needles were thus hidden. (Casting <em>resurrection</em> or <em>true resurrection</em> with only a fragment of the body or no body, forcing the spell to rebuild the body as appropriate, is a surefire way to avoid having the victim come back to life with the needles still inside him.)</p>
 <p>A creature brought back to life with quieting needles inside him is immediately struck with pain and must make a DC 25 Fortitude save each round to avoid being <Link to="/misc/nauseated">nauseated</Link> from the pain and suffering 1d6 points of <Link to="/rule/constitution_damage">Constitution damage</Link>. A successful Fortitude save negates the nauseated condition and reduces the Constitution damage to 1.</p>
 <p>Removing quieting needles from a dead body takes 1d6+6 rounds (and a DC 20 Heal check if the process is to leave the body in a condition where raise dead is still viable). Removing quieting needles from a freshly restored living body causes 2d6 points of damage per round the procedure continues, with a successful DC 25 Heal check reducing damage caused that round to 2.</p>
 <p>The use of quieting needles is relatively uncommon, meant as much to punish enemies for attempting to raise dead allies and force them to waste the resources on such expensive magic as well as to cause the restored creature agonizing pain - using quieting needles is an evil act that is as illegal as murder in most civilized regions.</p>
-<p>A set of quieting needles costs 25 gp.</p>
 </>};
 const _quintain = {title: "Quintain", jsx: <><h2 id="eq-misc-quintain-quintain">Quintain</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 31</Link>  </p>
@@ -399,17 +399,17 @@ const _quintain = {title: "Quintain", jsx: <><h2 id="eq-misc-quintain-quintain">
 const _rabbit = {title: "Rabbit", jsx: <><h2 id="eq-misc-rabbit-rabbit">Rabbit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
 <Tabular format="misc" a="2" b="3" d="pet" />
-<p>Rabbits are often raised or hunted for their meat and skins, though some people keep the skittish mammals as pets. Though they are often confused with hares, rabbits are distinctly different in that they make their homes in burrows beneath the ground, and they are usually smaller than hares. Rabbits have the same statistics as rats.</p>
+<p><Link to="/monster/rabbit">Rabbits</Link> are often raised or hunted for their meat and skins, though some people keep the skittish mammals as pets. Though they are often confused with hares, rabbits are distinctly different in that they make their homes in burrows beneath the ground, and they are usually smaller than hares.</p>
 </>};
 const _raccoon = {title: "Raccoon", jsx: <><h2 id="eq-misc-raccoon-raccoon">Raccoon</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
 <Tabular format="misc" a="5" b="7" d="pet" />
-<p>These nocturnal hunter-scavengers are found primarily in forested terrains, and are noted for their domino mask-like visages, highly dextrous forepaws (which they rely on for their hyper-sensitive sense of touch), and the strangely anthropomorphic tendency to "wash" their food in water before eating it. Raccoons are sometimes kept as pets and used by some spellcasters as familiars.</p>
+<p>These nocturnal hunter-scavengers are found primarily in forested terrains, and are noted for their domino mask-like visages, highly dextrous forepaws (which they rely on for their hyper-sensitive sense of touch), and the strangely anthropomorphic tendency to "wash" their food in water before eating it. <Link to="/monster/raccoon">Raccoons</Link> are sometimes kept as pets and used by some spellcasters as <Link to="/ability/familiar">familiars</Link>.</p>
 </>};
 const _rack = {title: "Rack", jsx: <><h2 id="eq-misc-rack-rack">Rack</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 212</Link>  </p>
 <Tabular format="misc" a="300" b="500" d="torture" />
-<p>The rack is one of the most infamous and feared devices in the torturer's arsenal, capable of inflicting ruinous damage to a victim's body. Helpless victims are splayed across the device's frame, and each limb is lashed to a central windlass. Each turn of the crank deals a cumulative 1d6 points of nonlethal damage, up to 4d6 points of nonlethal damage on the fourth turn. Each subsequent turn after the fourth deals 4d6 points of nonlethal damage and deals 1 point of damage each to the victim's Strength, Dexterity, and Constitution scores as it dislocates limbs, cracks cartilage, and breaks bone. Some racks are fitted with spiked wheels that puncture the victim's body, dealing lethal damage rather than nonlethal damage. Escaping from a rack requires a successful DC 30 Escape Artist check.</p>
+<p>The rack is one of the most infamous and feared devices in the torturer's arsenal, capable of inflicting ruinous damage to a victim's body. Helpless victims are splayed across the device's frame, and each limb is lashed to a central windlass. Each turn of the crank deals a cumulative 1d6 points of nonlethal damage, up to 4d6 points of nonlethal damage on the fourth turn. Each subsequent turn after the fourth deals 4d6 points of nonlethal damage and deals 1 point of <Link to="/rule/ability_damage">damage</Link> each to the victim's Strength, Dexterity, and Constitution scores as it dislocates limbs, cracks cartilage, and breaks bone. Some racks are fitted with spiked wheels that puncture the victim's body, dealing lethal damage rather than nonlethal damage. Escaping from a rack requires a successful DC 30 <Link to="/skill/escape_artist">Escape Artist</Link> check.</p>
 </>};
 const _raft = {title: "Raft", jsx: <><h2 id="eq-misc-raft-raft">Raft</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link><br/><strong>Price</strong> -; <strong>Price of Passage</strong> (per mile) 1 cp  </p>
@@ -436,17 +436,17 @@ const _rangers_kit = {title: "Ranger's kit", jsx: <><h2 id="eq-misc-rangers_kit-
 const _rat_blue = {title: "Rat (blue)", jsx: <><h2 id="eq-misc-rat_blue-rat">Rat</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="1 gp (blue), 1 cp (common)" b="1 lb. (blue), 1 lb. (common)" c="x" d="pet" />
-<p>These Tiny rodents live everywhere and eat nearly anything. Despite having a reputation as disease-ridden scavengers, domesticated rats are clean, loyal creatures that make excellent familiars.</p>
+<p>These Tiny rodents live everywhere and eat nearly anything. Despite having a reputation as disease-ridden scavengers, domesticated <Link to="/monster/rat">rats</Link> are clean, loyal creatures that make excellent <Link to="/ability/familiar">familiars</Link>.</p>
 </>};
 const _rat_dire = {title: "Rat (dire)", jsx: <><h2 id="eq-misc-rat_dire-rat-dire">Rat (dire)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="5" b="50" d="pet" />
-<p>These Small animals are vicious scavengers in the wild. However, dire rats raised in captivity can be trained as loyal pets and protectors. Pet dire rats do not have filth fever.</p>
+<p>These Small animals are vicious scavengers in the wild. However, <Link to="/monster/dire_rat">dire rats</Link> raised in captivity can be trained as loyal pets and protectors. Pet dire rats do not have <Link to="/disease/filth_fever">filth fever</Link>.</p>
 </>};
 const _rat_cage = {title: "Rat cage", jsx: <><h2 id="eq-misc-rat_cage-rat-cage">Rat cage</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 212</Link>  </p>
 <Tabular format="misc" a="5" b="15" d="torture" />
-<p>This specially crafted steel cage can hold up to 20 rats, and includes stout leather straps around its open end and a metal crucible for holding hot charcoal or other fuel on its top end. Torturers tightly strap the open end of the device to a helpless victim's abdomen, insert the rats into the cage, and set the crucible's fuel alight. In 1d10 rounds, the increasing heat causes the rats to gnaw and dig their way through the victim's abdomen to escape, dealing 1 point of piercing damage per rat each round. A victim can wiggle free of a rat cage with a successful DC 20 Escape Artist check, though some of the voracious vermin may continue their consumption in subsequent rounds.</p>
+<p>This specially crafted steel cage can hold up to 20 rats, and includes stout leather straps around its open end and a metal crucible for holding hot charcoal or other fuel on its top end. Torturers tightly strap the open end of the device to a <Link to="/misc/helpless">helpless</Link> victim's abdomen, insert the rats into the cage, and set the crucible's fuel alight. In 1d10 rounds, the increasing heat causes the rats to gnaw and dig their way through the victim's abdomen to escape, dealing 1 point of piercing damage per rat each round. A victim can wiggle free of a rat cage with a successful DC 20 <Link to="/skill/escape_artist">Escape Artist</Link> check, though some of the voracious vermin may continue their consumption in subsequent rounds.</p>
 </>};
 const _rations_space_per_day = {title: "Rations, space (per day)", jsx: <><h2 id="eq-misc-rations_space_per_day-rations-space-per-day">Rations, space (per day)</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars pg. 19</Link>  </p>
@@ -456,7 +456,7 @@ const _rations_space_per_day = {title: "Rations, space (per day)", jsx: <><h2 id
 const _raven = {title: "Raven", jsx: <><h2 id="eq-misc-raven-raven">Raven</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="2" b="3" d="pet" />
-<p>These Tiny birds are known for their intelligence, and even play games with each other in the wild. They eat insects and can be found in surprisingly varied habitats.</p>
+<p>These Tiny birds are known for their intelligence, and even play games with each other in the wild. <Link to="/monster/raven">Ravens</Link> eat insects and can be found in surprisingly varied habitats.</p>
 </>};
 const _reagent_extractor = {title: "Reagent extractor", jsx: <><h2 id="eq-misc-reagent_extractor-reagent-extractor">Reagent extractor</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 17</Link>  </p>
@@ -521,7 +521,7 @@ const _rice_paper_sheet = {title: "Rice paper (sheet)", jsx: <><h2 id="eq-misc-r
 const _riding_bee_combat_trained_queen = {title: "Riding bee (combat-trained queen)", jsx: <><h2 id="eq-misc-riding_bee_combat_trained_queen-riding-bee">Riding bee</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 12</Link>  </p>
 <Tabular format="misc" a="12,000 gp (combat-trained queen), 450 gp (combat-trained worker), 8,000 gp (queen), 300 gp (worker)" b="140 lbs. (combat-trained queen), 60 lbs. (combat-trained worker), 140 lbs. (queen), 60 lbs. (worker)" c="x" d="pet" />
-<p><Link to="/race/gathlain">Gathlains</Link> have learned to domesticate giant bees, which they use to travel long distances. Extra queens from a hive's brood are saved and trained for hauling heavier equipment or a retinue of gathlains. Bees require an exotic saddle, which is a sort of basket that places the rider underneath the bee's abdomen, where it protects the rider as if he were a bee larva.</p>
+<p><Link to="/race/gathlain">Gathlains</Link> have learned to domesticate <Link to="/monster/giant_bee">giant bees</Link>, which they use to travel long distances. Extra queens from a hive's brood are saved and trained for hauling heavier equipment or a retinue of gathlains. Bees require an <Link to="/eq-misc/exotic_saddle">exotic saddle</Link>, which is a sort of basket that places the rider underneath the bee's abdomen, where it protects the rider as if he were a bee larva.</p>
 </>};
 const _riding_kit_common = {title: "Riding kit (common)", jsx: <><h2 id="eq-misc-riding_kit_common-riding-kit">Riding kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 47</Link>  </p>
@@ -531,7 +531,7 @@ const _riding_kit_common = {title: "Riding kit (common)", jsx: <><h2 id="eq-misc
 const _riding_rat_combat_trained = {title: "Riding rat (combat trained)", jsx: <><h2 id="eq-misc-riding_rat_combat_trained-riding-rat">Riding rat</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 177</Link>  </p>
 <Tabular format="misc" a="75 gp (combat trained), 50 gp (common)" b="50 lbs. (combat trained), 50 lbs. (common)" c="x" d="pet" />
-<p>Horses, ponies, and other draft animals are ill-suited to living underground for long stretches, so the <Link to="/race/ratfolk">ratfolk</Link> bred a particularly strong type of dire rat to assist in pulling their wagons and serving as mounts for caravan scouts. As rodents, riding rats respond favorably to ratfolk's commands, and the animals' hardiness and omnivorous diet make them very easy to care for even on long journeys through inhospitable terrain. Use the statistics for a <Link to="/monster/dire_rat">dire rat</Link> with the <Link to="/template/giant">giant</Link> simple template. A ratfolk with the animal companion, mount, or similar class feature can select a riding rat as her mount.</p>
+<p>Horses, ponies, and other draft animals are ill-suited to living underground for long stretches, so the <Link to="/race/ratfolk">ratfolk</Link> bred a particularly strong type of dire rat to assist in pulling their wagons and serving as mounts for caravan scouts. As rodents, riding rats respond favorably to ratfolk's commands, and the animals' hardiness and omnivorous diet make them very easy to care for even on long journeys through inhospitable terrain. Use the statistics for a <Link to="/monster/dire_rat">dire rat</Link> with the <Link to="/template/giant">giant</Link> simple template. A ratfolk with the <em>animal companion, mount,</em> or similar class feature can select a riding rat as her mount.</p>
 </>};
 const _ritual_bell = {title: "Ritual bell", jsx: <><h2 id="eq-misc-ritual_bell-ritual-bell">Ritual bell</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 250</Link>  </p>
@@ -726,7 +726,7 @@ const _scholars_outfit = {title: "Scholar's outfit", jsx: <><h2 id="eq-misc-scho
 const _scorpion_greensting = {title: "Scorpion (greensting)", jsx: <><h2 id="eq-misc-scorpion_greensting-scorpion-greensting">Scorpion (greensting)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
 <Tabular format="misc" a="15 gp" b="9 oz." c="x" d="pet" />
-<p>Typically found in forested areas, these Tiny scorpions sport pincers too small to be dangerous to anything larger than an insect, but they still possess a poisonous stinger. Sometimes they are kept as pets or serve as familiars. Greensting scorpions employed as familiars have an Intelligence score and lose the mindless trait.</p>
+<p>Typically found in forested areas, these Tiny scorpions sport pincers too small to be dangerous to anything larger than an insect, but they still possess a poisonous stinger. Sometimes they are kept as pets or serve as familiars. <Link to="/monster/greensting_scorpion">Greensting scorpions</Link> employed as <Link to="/ability/familiar">familiars</Link> have an Intelligence score and lose the mindless trait.</p>
 </>};
 const _scribe_map = {title: "Scribe (map)", jsx: <><h2 id="eq-misc-scribe_map-scribe">Scribe</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 99</Link>  </p>
@@ -1026,7 +1026,7 @@ const _skis = {title: "Skis", jsx: <><h2 id="eq-misc-skis-skis">Skis</h2>
 const _skunk = {title: "Skunk", jsx: <><h2 id="eq-misc-skunk-skunk">Skunk</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
 <Tabular format="misc" a="10" b="10" d="pet" />
-<p>These creatures are infamous for the overwhelmingly foul odor they produce to ward off predators. Skunks are sometimes kept as pets, though usually only after their scent glands have been removed.</p>
+<p>These creatures are infamous for the overwhelmingly foul odor they produce to ward off predators. <Link to="/monster/skunk">Skunks</Link> are sometimes kept as pets, though usually only after their scent glands have been removed.</p>
 </>};
 const _sky_mine = {title: "Sky mine", jsx: <><h2 id="eq-misc-sky_mine-sky-mine">Sky mine</h2>
 <p><strong>Sources</strong> <Link to="/source/castles_of_the_inner_sea">Castles of the Inner Sea pg. 40</Link>  </p>
@@ -1147,12 +1147,12 @@ const _smugglers_wagon = {title: "Smuggler's wagon", jsx: <><h2 id="eq-misc-smug
 const _snake_constrictor = {title: "Snake (constrictor)", jsx: <><h2 id="eq-misc-snake_constrictor-snake-constrictor">Snake (constrictor)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="5" b="60" d="pet" />
-<p>These Medium reptiles are found chiefly in warm climates. Somewhat aggressive, constrictors squeeze their prey to death before consuming it. Due to their size, these snakes are less popular for traveling spellcasters, but they can be quite helpful in a laboratory.</p>
+<p>These Medium reptiles are found chiefly in warm climates. Somewhat aggressive, <Link to="/monster/snake_constrictor">constrictors</Link> squeeze their prey to death before consuming it. Due to their size, these snakes are less popular for traveling spellcasters, but they can be quite helpful in a laboratory.</p>
 </>};
 const _snake_viper = {title: "Snake (viper)", jsx: <><h2 id="eq-misc-snake_viper-snake-viper">Snake (viper)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="5 gp" b="10 oz." c="x" d="pet" />
-<p>This tiny reptile eats small animals and can be found in most temperate and warm environments. The bite is painful but not especially dangerous to the average adventurer.</p>
+<p>This tiny <Link to="/monster/viper">reptile</Link> eats small animals and can be found in most temperate and warm environments. The bite is painful but not especially dangerous to the average adventurer.</p>
 </>};
 const _snake_oil = {title: "Snake oil", jsx: <><h2 id="eq-misc-snake_oil-snake-oil">Snake oil</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 252</Link>  </p>
@@ -1187,7 +1187,7 @@ const _snowshoes = {title: "Snowshoes", jsx: <><h2 id="eq-misc-snowshoes-snowsho
 </>};
 const _snuffbox_bone_or_tortoise_shell = {title: "Snuffbox (bone or tortoise shell)", jsx: <><h2 id="eq-misc-snuffbox_bone_or_tortoise_shell-snuffbox">Snuffbox</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 205</Link>  </p>
-<Tabular format="misc" a="25 gp (bone or tortoise shell), 300 gp (ivory or precious metal), 5 gp (tin or wood)" b="&mdash; (bone or tortoise shell), &mdash; (ivory or precious metal), &mdash; (tin or wood)" c="x" d="bm" />
+<Tabular format="misc" a="25 gp (bone or tortoise shell), 300 gp (ivory or precious metal), 5 gp (tin or wood)" b="&mdash;" c="x" d="bm" />
 <p>This tiny, ornamented box's hinged lid latches in place to form a tight seal. The box is used to hold various snuffs, powders, tobacco, and similar substances. The box can be made from any number of materials, from wood to ivory to precious metals inlaid with gemstone.</p>
 </>};
 const _soap = {title: "Soap", jsx: <><h2 id="eq-misc-soap-soap">Soap</h2>
@@ -1209,7 +1209,8 @@ const _songs_of_shazathared = {title: "Songs of Shazathared", jsx: <><h2 id="eq-
 <p><strong>Sources</strong> <Link to="/source/lost_treasures">Lost Treasures pg. 54</Link>  </p>
 <Tabular format="misc" a="11000" b="4" d="bm" />
 <p>Nearly 50 ancient tales and songs have been collected on this long scroll. Contrasting with the obvious antiquity of the papyrus, the illuminated images are vivid and the writing is clear (though occasionally difficult to decipher due to elaborate embellishments), as the inks used were infused with <Link to="/magic-wondrous/unguent_of_timelessness">unguent of timelessness</Link>.</p>
-<p>This folio is the most complete extant collection of poems by the legendary marid bard Shazathared. Most of the poems recount the binding of <Link to="/faith/rovagug">Rovagug</Link> by the gods and the fates of his terrible spawn, but several pieces, told from the point of view of a genie princess, speak of defending the princess's home and allies against bandit-kings, tempests, and evil magic. A bard with access to a complete copy of these poems can learn the defensive songs in the folio as the <Link to="/masterpiece/ballad_of_the_warding_princess">"Ballad of the Warding Princess"</Link> masterpiece by paying the normal masterpiece cost.</p>
+<p>This folio is the most complete extant collection of poems by the legendary marid bard Shazathared. Most of the poems recount the binding of <Link to="/faith/rovagug">Rovagug</Link> by the gods and the fates of his terrible spawn, but several pieces, told from the point of view of a genie princess, speak of defending the princess's home and allies against bandit-kings, tempests, and evil magic.</p>
+<p><Icons id="eq-misc-songs_of_shazathared-power-icons" wrapper="prefixIcon" list={["power"]} /> A bard with access to a complete copy of these poems can learn the defensive songs in the folio as the <Link to="/masterpiece/ballad_of_the_warding_princess">"Ballad of the Warding Princess"</Link> masterpiece by paying the normal masterpiece cost.</p>
 </>};
 const _soothe_syrup = {title: "Soothe syrup", jsx: <><h2 id="eq-misc-soothe_syrup-soothe-syrup">Soothe syrup</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 101</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>  </p>
@@ -1681,7 +1682,7 @@ const _squires_outfit = {title: "Squire's outfit", jsx: <><h2 id="eq-misc-squire
 const _squirrel_common = {hasJL:true,title: "Squirrel (common)", jsx: <><div className="jumpList" id="eq-misc-squirrel_common-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-squirrel_common-flying-squirrel">Flying squirrel</InnerLink></li></ul></div><h2 id="eq-misc-squirrel_common-squirrel">Squirrel</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
 <Tabular format="misc" a="1" b="2" d="pet" />
-<p>These tiny rodents are as common in the wild as rats are in cities. They typically eat nuts, seeds, and vegetation. Squirrels have the same statistics as rats.</p>
+<p>These tiny <Link to="/monster/squirrel">rodents</Link> are as common in the wild as rats are in cities. They typically eat nuts, seeds, and vegetation.</p>
 <h3 id="eq-misc-squirrel_common-flying-squirrel" data-hash-target>Flying squirrel</h3>
 <Tabular format="misc" a="20" b="1" d="pet" />
 <p>These Tiny squirrels use a membrane of skin between their front and hind legs to glide. They sometimes serve spellcasters as familiars.</p>
@@ -1769,7 +1770,7 @@ const _stink_ink_common = {title: "Stink ink (common)", jsx: <><h2 id="eq-misc-s
 const _stirge = {title: "Stirge", jsx: <><h2 id="eq-misc-stirge-stirge">Stirge</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="20" b="1" d="pet" />
-<p>These Tiny beasts are allegedly sold for indoor defense to rich clients, but often wind up in exotic blood sports. Despite the popular misconception that stirges are untameable vermin, such creatures are trainable, but they must be fed fresh blood daily to dissuade them from turning on their handlers.</p>
+<p>These Tiny beasts are allegedly sold for indoor defense to rich clients, but often wind up in exotic blood sports. Despite the popular misconception that <Link to="/monster/stirge">stirges</Link> are untameable vermin, such creatures are trainable, but they must be fed fresh blood daily to dissuade them from turning on their handlers.</p>
 </>};
 const _stonechipper_salve = {title: "Stonechipper salve", jsx: <><h2 id="eq-misc-stonechipper_salve-stonechipper-salve">Stonechipper salve</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 147</Link>  </p>
@@ -2108,13 +2109,14 @@ const _thinkers_tipple = {title: "Thinker's tipple", jsx: <><h2 id="eq-misc-thin
 const _thrush = {title: "Thrush", jsx: <><h2 id="eq-misc-thrush-thrush">Thrush</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
 <Tabular format="misc" a="1 sp" b="7 oz." c="x" d="pet" />
-<p>These small plump birds are sometimes kept as pets, but are more often used as familiars for spellcasters. They are known for their beautiful song and their potential for actual speech.</p>
+<p>These small plump <Link to="/monster/thrush">birds</Link> are sometimes kept as pets, but are more often used as <Link to="/ability/familiar">familiars</Link> for spellcasters. They are known for their beautiful song and their potential for actual speech.</p>
 </>};
 const _thumbscrews_common = {title: "Thumbscrews (common)", jsx: <><h2 id="eq-misc-thumbscrews_common-thumbscrews">Thumbscrews</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 212</Link>  </p>
 <Tabular format="misc" a="15 gp (common), 50 gp (masterwork)" b="1 lb. (common), 1 lb. (masterwork)" c="x" d="torture" />
-<p>Both a torture and restraining device, this small, metal armature consists of two parallel, spikestudded bars that close together as the user tightens the frame's screws, crushing a victim's thumbs between them. A victim restrained by a thumbscrew is able to move but can't effectively wield weapons, hold items, or perform any actions or skill checks that require manual dexterity, taking a -5 penalty on all such actions and dealing 1d6 points of nonlethal damage to himself with each attempt (this doesn't include Escape Artist attempts to escape the thumbscrew). Spellcasters bound by thumbscrews are unable to cast spells with somatic components.</p>
-<p>When using a thumbscrew as a torture device, the user can turn the thumbscrew's bolt to deal 1d6 points of nonlethal damage. Escaping from a thumbscrew requires a successful DC 28 Escape Artist check (DC 30 for a masterwork thumbscrew).</p>
+<p>Both a torture and restraining device, this small, metal armature consists of two parallel, spike-studded bars that close together as the user tightens the frame's screws, crushing a victim's thumbs between them.</p>
+<p><Icons id="eq-misc-thumbscrews_common-lower-icons" wrapper="prefixIcon" list={["lower"]} /> A victim restrained by a thumbscrew is able to move but can't effectively wield weapons, hold items, or perform any actions or skill checks that require manual dexterity, taking a -5 penalty on all such actions and dealing 1d6 points of nonlethal damage to himself with each attempt (this doesn't include Escape Artist attempts to escape the thumbscrew). Spellcasters bound by thumbscrews are unable to cast spells with somatic components.</p>
+<p>When using a thumbscrew as a torture device, the user can turn the thumbscrew's bolt to deal 1d6 points of nonlethal damage. Escaping from a thumbscrew requires a successful DC 28 <Link to="/skill/escape_artist">Escape Artist</Link> check (DC 30 for a masterwork thumbscrew).</p>
 </>};
 const _thunder_kettle = {title: "Thunder kettle", jsx: <><h2 id="eq-misc-thunder_kettle-thunder-kettle">Thunder kettle</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements pg. 19</Link>  </p>
@@ -2158,12 +2160,12 @@ const _toad_vision = {title: "Toad (vision)", jsx: <><h2 id="eq-misc-toad_vision
 const _toad = {title: "Toad", jsx: <><h2 id="eq-misc-toad-toad">Toad</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="2 cp" b="7 oz." c="x" d="pet" />
-<p>This Diminutive amphibian is primarily kept as a familiar by spellcasters. Toads live in most temperate and warm environments, and eat insects.</p>
+<p>This Diminutive amphibian is primarily kept as a <Link to="/ability/familiar">familiar</Link> by spellcasters. <Link to="/monster/toad">Toads</Link> live in most temperate and warm environments, and eat insects.</p>
 </>};
 const _tobacco = {title: "Tobacco", jsx: <><h2 id="eq-misc-tobacco-tobacco">Tobacco</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="1" b="2" d="bm" />
-<p>These crushed and shredded leaves range in color from peppery red to black; users can either smoke or chew them. Tobacco users experience a certain level of calm and are more easily able to shrug off hunger pangs. Tobacco is addictive (Fort DC 10 to resist), and long-term users suffer <Link to="/rule/constitution_damage">Constitution damage</Link>.</p>
+<p>These crushed and shredded leaves range in color from peppery red to black; users can either smoke or chew them. Tobacco users experience a certain level of calm and are more easily able to shrug off hunger pangs. Tobacco is <Link to="/rule/drugs">addictive</Link> (Fort DC 10 to resist), and long-term users suffer <Link to="/rule/constitution_damage">Constitution damage</Link>.</p>
 </>};
 const _tome_of_epics = {title: "Tome of epics", jsx: <><h2 id="eq-misc-tome_of_epics-tome-of-epics">Tome of epics</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 206</Link>  </p>

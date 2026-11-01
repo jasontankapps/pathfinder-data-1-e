@@ -1,3 +1,4 @@
+import {IonRippleEffect} from '@ionic/react';
 import Link from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
@@ -216,12 +217,12 @@ const _alkali_salt = {title: "Alkali salt", jsx: <><h2 id="eq-misc-alkali_salt-a
 const _allnight = {title: "Allnight", jsx: <><h2 id="eq-misc-allnight-allnight">Allnight</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="75" b="x" d="bm" />
-<p>This treated wafer dissolves into a chalky paste when placed under the tongue and then gives the imbiber a jolt of restless energy. It eliminates the effects of <Link to="/misc/fatigue">fatigue</Link> for the next 8 hours; when the drug's effect ends, the user is <Link to="/misc/exhausted">exhausted</Link>. Allnight makes its users jittery and unable to focus; they suffer a -2 penalty on all skill checks until its effects wear off.</p>
+<p><Icons id="eq-misc-allnight-aid-down-icons" wrapper="prefixIcon" list={["aid","down"]} /> This treated wafer dissolves into a chalky paste when placed under the tongue and then gives the imbiber a jolt of restless energy. It eliminates the effects of <Link to="/misc/fatigue">fatigue</Link> for the next 8 hours; when the drug's effect ends, the user is <Link to="/misc/exhausted">exhausted</Link>. Allnight makes its users jittery and unable to focus; they suffer a -2 penalty on all skill checks until its effects wear off.</p>
 </>};
 const _dinosaurs_and_megafauna = {title: "Dinosaurs and Megafauna", jsx: <><h2 id="eq-misc-dinosaurs_and_megafauna-dinosaurs-and-megafauna">Dinosaurs and Megafauna</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 14</Link>  </p>
 <Tabular format="misc" a="Varies" b="&mdash;" c="x" d="pet" />
-<p>The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal.</p>
+<p>The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1&frac12; &times; the price of the standard animal.</p>
 <ScrollContainer id="eq-misc-dinosaurs_and_megafauna--table-0"><table>
 <thead>
 <tr>
@@ -230,99 +231,99 @@ const _dinosaurs_and_megafauna = {title: "Dinosaurs and Megafauna", jsx: <><h2 i
 </tr>
 </thead>
 <tbody><tr>
-<td>Allosaurus</td>
+<td className="ion-activatable"><Link to="/monster/allosaurus">Allosaurus<IonRippleEffect /></Link></td>
 <td>3,850 gp</td>
 </tr>
 <tr>
-<td>Ankylosaurus</td>
+<td className="ion-activatable"><Link to="/monster/ankylosaurus">Ankylosaurus<IonRippleEffect /></Link></td>
 <td>3,000 gp</td>
 </tr>
 <tr>
-<td>Archelon</td>
+<td className="ion-activatable"><Link to="/monster/archelon">Archelon<IonRippleEffect /></Link></td>
 <td>1,750 gp</td>
 </tr>
 <tr>
-<td>Arsinoitherium</td>
+<td className="ion-activatable"><Link to="/monster/arsinoitherium">Arsinoitherium<IonRippleEffect /></Link></td>
 <td>3,150 gp</td>
 </tr>
 <tr>
-<td>Baluchitherium</td>
+<td className="ion-activatable"><Link to="/monster/baluchitherium">Baluchitherium<IonRippleEffect /></Link></td>
 <td>4,800 gp</td>
 </tr>
 <tr>
-<td>Basilosaurus</td>
+<td className="ion-activatable"><Link to="/monster/basilosaurus">Basilosaurus<IonRippleEffect /></Link></td>
 <td>10,200 gp</td>
 </tr>
 <tr>
-<td>Brachiosaurus</td>
+<td className="ion-activatable"><Link to="/monster/brachiosaurus">Brachiosaurus<IonRippleEffect /></Link></td>
 <td>9,000 gp</td>
 </tr>
 <tr>
-<td>Compsognathus</td>
+<td className="ion-activatable"><Link to="/monster/compsognathus">Compsognathus<IonRippleEffect /></Link></td>
 <td>25 gp</td>
 </tr>
 <tr>
-<td>Deinonychus</td>
+<td className="ion-activatable"><Link to="/monster/deinonychus">Deinonychus<IonRippleEffect /></Link></td>
 <td>600 gp</td>
 </tr>
 <tr>
-<td>Dimetrodon</td>
+<td className="ion-activatable"><Link to="/monster/dimetrodon">Dimetrodon<IonRippleEffect /></Link></td>
 <td>600 gp</td>
 </tr>
 <tr>
-<td>Elasmosaurus</td>
+<td className="ion-activatable"><Link to="/monster/elasmosaurus">Elasmosaurus<IonRippleEffect /></Link></td>
 <td>3,500 gp</td>
 </tr>
 <tr>
-<td>Glyptodon</td>
+<td className="ion-activatable"><Link to="/monster/glyptodon">Glyptodon<IonRippleEffect /></Link></td>
 <td>2,700 gp</td>
 </tr>
 <tr>
-<td>Iguanodon</td>
+<td className="ion-activatable"><Link to="/monster/iguanodon">Iguanodon<IonRippleEffect /></Link></td>
 <td>2,700 gp</td>
 </tr>
 <tr>
-<td>Megalania</td>
+<td className="ion-activatable"><Link to="/monster/megalania">Megalania<IonRippleEffect /></Link></td>
 <td>3,500 gp</td>
 </tr>
 <tr>
-<td>Megaloceros</td>
+<td className="ion-activatable"><Link to="/monster/megaloceros">Megaloceros<IonRippleEffect /></Link></td>
 <td>800 gp</td>
 </tr>
 <tr>
-<td>Megatherium</td>
+<td className="ion-activatable"><Link to="/monster/megatherium">Megatherium<IonRippleEffect /></Link></td>
 <td>1,750 gp</td>
 </tr>
 <tr>
-<td>Pachycephalosaurus</td>
+<td className="ion-activatable"><Link to="/monster/pachycephalosaurus">Pachycephalosaurus<IonRippleEffect /></Link></td>
 <td>1,000 gp</td>
 </tr>
 <tr>
-<td>Parasaurolophus</td>
+<td className="ion-activatable"><Link to="/monster/parasaurolophus">Parasaurolophus<IonRippleEffect /></Link></td>
 <td>1,200 gp</td>
 </tr>
 <tr>
-<td>Pteranodon</td>
+<td className="ion-activatable"><Link to="/monster/pteranodon">Pteranodon<IonRippleEffect /></Link></td>
 <td>750 gp</td>
 </tr>
 <tr>
-<td>Spinosaurus</td>
+<td className="ion-activatable"><Link to="/monster/spinosaurus">Spinosaurus<IonRippleEffect /></Link></td>
 <td>11,000 gp</td>
 </tr>
 <tr>
-<td>Stegosaurus</td>
+<td className="ion-activatable"><Link to="/monster/stegosaurus">Stegosaurus<IonRippleEffect /></Link></td>
 <td>4,200 gp</td>
 </tr>
 <tr>
-<td>Triceratops</td>
+<td className="ion-activatable"><Link to="/monster/triceratops">Triceratops<IonRippleEffect /></Link></td>
 <td>5,600 gp</td>
 </tr>
 <tr>
-<td>Tylosaurus</td>
+<td className="ion-activatable"><Link to="/monster/tylosaurus">Tylosaurus<IonRippleEffect /></Link></td>
 <td>4,000 gp</td>
 </tr>
 <tr>
-<td>Tyrannosaurus</td>
+<td className="ion-activatable"><Link to="/monster/tyrannosaurus">Tyrannosaurus<IonRippleEffect /></Link></td>
 <td>8,100 gp</td>
 </tr>
 </tbody></table></ScrollContainer>
@@ -377,7 +378,9 @@ const _angelstep = {title: "Angelstep", jsx: <><h2 id="eq-misc-angelstep-angelst
 const _angry_jack = {title: "Angry jack", jsx: <><h2 id="eq-misc-angry_jack-angry-jack">Angry jack</h2>
 <p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox pg. 20</Link>  </p>
 <Tabular format="misc" a="25" b="2" d="bm" />
-<p>Named after a common children's toy, this metal box, typically no larger than 1 cubic foot in volume, possesses a secret compartment large enough to store one flask or vial. When loaded with a splash weapon or a vial of poison (contact or inhaled poisons only) and armed as a full-round action, an angry jack attacks the next creature to open the box, using its spring-loaded interior to launch that item at the target as a ranged touch attack (attack bonus +0). A creature struck by a contact poison in this way is exposed to the poison as normal, but a creature is automatically exposed to a loaded inhalation poison with no attack roll needed. Identifying an angry jack requires a successful a DC 20 Perception check. A character who is trained in the Disable Device skill can spend 10 minutes disguising an armed angry jack, allowing her to roll a Disable Device check and use the result as the Perception DC for others to detect the true nature of the angry jack. The user can't take 10 or 20 on the Disable Device check.</p>
+<p>Named after a common children's toy, this metal box, typically no larger than 1 cubic foot in volume, possesses a secret compartment large enough to store one flask or vial.</p>
+<p><Icons id="eq-misc-angry_jack-zap-icons" wrapper="prefixIcon" list={["zap"]} /> When loaded with a splash weapon or a vial of poison (contact or inhaled poisons only) and armed as a <strong className="hl">full-round action</strong>, an angry jack attacks the next creature to open the box, using its spring-loaded interior to launch that item at the target as a ranged touch attack (attack bonus +0). A creature struck by a contact poison in this way is exposed to the poison as normal, but a creature is automatically exposed to a loaded inhalation poison with no attack roll needed.</p>
+<p>Identifying an angry jack requires a successful a DC 20 <Link to="/skill/perception">Perception</Link> check. A character who is trained in the <Link to="/skill/disable_device">Disable Device</Link> skill can spend 10 minutes disguising an armed angry jack, allowing her to roll a Disable Device check and use the result as the Perception DC for others to detect the true nature of the angry jack. The user can't take 10 or 20 on the Disable Device check.</p>
 </>};
 const _animal_call = {title: "Animal call", jsx: <><h2 id="eq-misc-animal_call-animal-call">Animal call</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 202</Link>  </p>
@@ -418,7 +421,7 @@ const _anointing_oil = {title: "Anointing oil", jsx: <><h2 id="eq-misc-anointing
 const _animals = {title: "Animals", jsx: <><h2 id="eq-misc-animals-animals">Animals</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 15</Link>  </p>
 <Tabular format="misc" a="Varies" b="x" d="pet" />
-<p>These animals may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal.</p>
+<p>These animals may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1&frac12; &times; the price of the standard animal.</p>
 <ScrollContainer id="eq-misc-animals--table-0"><table>
 <thead>
 <tr>
@@ -427,127 +430,127 @@ const _animals = {title: "Animals", jsx: <><h2 id="eq-misc-animals-animals">Anim
 </tr>
 </thead>
 <tbody><tr>
-<td>Antelope</td>
+<td className="ion-activatable"><Link to="/monster/antelope">Antelope<IonRippleEffect /></Link></td>
 <td>45 gp</td>
 </tr>
 <tr>
-<td>Baboon</td>
+<td className="ion-activatable"><Link to="/monster/baboon">Baboon<IonRippleEffect /></Link></td>
 <td>15 gp</td>
 </tr>
 <tr>
-<td>Behemoth hippopotamus</td>
-<td>7,900 gp</td>
-</tr>
-<tr>
-<td>Cheetah</td>
+<td className="ion-activatable"><Link to="/monster/cheetah">Cheetah<IonRippleEffect /></Link></td>
 <td>160 gp</td>
 </tr>
 <tr>
-<td>Constrictor snake</td>
-<td>90 gp</td>
+<td className="ion-activatable"><Link to="/monster/dodo">Dodo<IonRippleEffect /></Link></td>
+<td>5 gp</td>
 </tr>
 <tr>
-<td>Giant porcupine</td>
-<td>135 gp</td>
+<td className="ion-activatable"><Link to="/monster/eagle">Eagle<IonRippleEffect /></Link></td>
+<td>40 gp</td>
 </tr>
 <tr>
-<td>Giant anaconda</td>
-<td>6,300 gp</td>
-</tr>
-<tr>
-<td>Giant skunk</td>
-<td>190 gp</td>
-</tr>
-<tr>
-<td>Giant snapping turtle</td>
-<td>5,200 gp</td>
-</tr>
-<tr>
-<td>Gorilla</td>
+<td className="ion-activatable"><Link to="/monster/gorilla">Gorilla<IonRippleEffect /></Link></td>
 <td>175 gp</td>
 </tr>
 <tr>
-<td>Great horned owl</td>
-<td>22 gp</td>
-</tr>
-<tr>
-<td>Grizzly bear</td>
+<td className="ion-activatable"><Link to="/monster/grizzly_bear">Grizzly bear<IonRippleEffect /></Link></td>
 <td>740 gp</td>
 </tr>
 <tr>
-<td>Hippopotamus</td>
+<td className="ion-activatable"><Link to="/monster/hippopotamus">Hippopotamus<IonRippleEffect /></Link></td>
 <td>1,050 gp</td>
 </tr>
 <tr>
-<td>Hyena</td>
+<td className="ion-activatable"><Link to="/monster/hippopotamus_behemoth">Hippopotamus, Behemoth<IonRippleEffect /></Link></td>
+<td>7,900 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/hyena">Hyena<IonRippleEffect /></Link></td>
 <td>80 gp</td>
 </tr>
 <tr>
-<td>Kangaroo</td>
+<td className="ion-activatable"><Link to="/monster/kangaroo">Kangaroo<IonRippleEffect /></Link></td>
 <td>30 gp</td>
 </tr>
 <tr>
-<td>Leopard</td>
+<td className="ion-activatable"><Link to="/monster/leopard">Leopard<IonRippleEffect /></Link></td>
 <td>100 gp</td>
 </tr>
 <tr>
-<td>Mongoose</td>
+<td>Mongoose (use <Link to="/monster/weasel">weasel</Link> stats)</td>
 <td>4 gp</td>
 </tr>
 <tr>
-<td>Monitor lizard</td>
+<td className="ion-activatable"><Link to="/monster/monitor_lizard">Monitor lizard<IonRippleEffect /></Link></td>
 <td>150 gp</td>
 </tr>
 <tr>
-<td>Poison frog</td>
-<td>60 gp</td>
-</tr>
-<tr>
-<td>Porcupine</td>
-<td>5 gp</td>
-</tr>
-<tr>
-<td>Snail kite</td>
-<td>18 gp</td>
-</tr>
-<tr>
-<td>Snapping turtle</td>
-<td>5 gp</td>
-</tr>
-<tr>
-<td>Thylacine</td>
-<td>18 gp</td>
-</tr>
-<tr>
-<td>Toucan</td>
-<td>40 gp</td>
-</tr>
-<tr>
-<td>Dodo</td>
-<td>5 gp</td>
-</tr>
-<tr>
-<td>Eagle</td>
-<td>40 gp</td>
-</tr>
-<tr>
-<td>Emperor cobra</td>
-<td>1,600 gp</td>
-</tr>
-<tr>
-<td>Osprey</td>
+<td>Osprey (use <Link to="/monster/hawk">hawk</Link> stats)</td>
 <td>45 gp</td>
 </tr>
 <tr>
-<td>Vulture</td>
+<td className="ion-activatable"><Link to="/monster/owl_great_horned">Owl, Great Horned<IonRippleEffect /></Link></td>
+<td>22 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/poison_frog">Poison frog<IonRippleEffect /></Link></td>
+<td>60 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/porcupine">Porcupine<IonRippleEffect /></Link></td>
+<td>5 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/porcupine_giant">Porcupine, Giant<IonRippleEffect /></Link></td>
+<td>135 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/snake_anaconda_giant">Snake, Anaconda, Giant<IonRippleEffect /></Link></td>
+<td>6,300 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/snake_cobra_emperor">Snake, Cobra, Emperor<IonRippleEffect /></Link></td>
+<td>1,600 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/snake_constrictor">Snake, Constrictor<IonRippleEffect /></Link></td>
+<td>90 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/skunk_giant">Skunk, Giant<IonRippleEffect /></Link></td>
+<td>190 gp</td>
+</tr>
+<tr>
+<td>Snail kite (use <Link to="/monster/hawk">hawk</Link> stats)</td>
+<td>18 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/thylacine">Thylacine<IonRippleEffect /></Link></td>
+<td>18 gp</td>
+</tr>
+<tr>
+<td>Toucan (use <Link to="/monster/raven">raven</Link> stats)</td>
+<td>40 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/turtle_snapping">Turtle, Snapping<IonRippleEffect /></Link></td>
+<td>5 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/turtle_snapping_giant">Turtle, Snapping, Giant<IonRippleEffect /></Link></td>
+<td>5,200 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/vulture">Vulture<IonRippleEffect /></Link></td>
 <td>30 gp</td>
 </tr>
 <tr>
-<td>Wolf</td>
+<td className="ion-activatable"><Link to="/monster/wolf">Wolf<IonRippleEffect /></Link></td>
 <td>100 gp</td>
 </tr>
 <tr>
-<td>Wolverine</td>
+<td className="ion-activatable"><Link to="/monster/wolverine">Wolverine<IonRippleEffect /></Link></td>
 <td>125 gp</td>
 </tr>
 </tbody></table></ScrollContainer>
@@ -734,84 +737,84 @@ const _riding_animals = {title: "Riding Animals", jsx: <><h2 id="eq-misc-riding_
 </tr>
 </thead>
 <tbody><tr>
-<td>Aurochs</td>
+<td className="ion-activatable"><Link to="/monster/aurochs">Aurochs<IonRippleEffect /></Link></td>
 <td>300 gp</td>
 <td>450 gp</td>
 </tr>
 <tr>
-<td>Bison</td>
+<td className="ion-activatable"><Link to="/monster/bison">Bison<IonRippleEffect /></Link></td>
 <td>50 gp</td>
 <td>75 gp</td>
 </tr>
 <tr>
-<td>Boar</td>
+<td className="ion-activatable"><Link to="/monster/boar">Boar<IonRippleEffect /></Link></td>
 <td>100 gp</td>
 <td>150 gp</td>
 </tr>
 <tr>
-<td>Elk</td>
-<td>100 gp</td>
-<td>150 gp</td>
-</tr>
-<tr>
-<td>Giant Chameleon</td>
+<td className="ion-activatable"><Link to="/monster/chameleon_giant">Chameleon, Giant<IonRippleEffect /></Link></td>
 <td>300 gp</td>
 <td>450 gp</td>
 </tr>
 <tr>
-<td>Giant Frilled Lizard</td>
-<td>375 gp</td>
-<td>550 gp</td>
-</tr>
-<tr>
-<td>Giant Gecko</td>
+<td className="ion-activatable"><Link to="/monster/elk">Elk<IonRippleEffect /></Link></td>
 <td>100 gp</td>
 <td>150 gp</td>
 </tr>
 <tr>
-<td>Giant Owl</td>
-<td>6,000 gp</td>
-<td>9,000 gp</td>
+<td className="ion-activatable"><Link to="/monster/gecko_giant">Gecko, Giant<IonRippleEffect /></Link></td>
+<td>100 gp</td>
+<td>150 gp</td>
 </tr>
 <tr>
-<td>Giant Vulture</td>
-<td>750 gp</td>
-<td>1,125 gp</td>
-</tr>
-<tr>
-<td>Goblin Dog</td>
+<td className="ion-activatable"><Link to="/monster/goblin_dog">Goblin Dog<IonRippleEffect /></Link></td>
 <td>35 gp</td>
 <td>50 gp</td>
 </tr>
 <tr>
-<td>Lion</td>
+<td className="ion-activatable"><Link to="/monster/lion">Lion<IonRippleEffect /></Link></td>
 <td>200 gp</td>
 <td>300 gp</td>
 </tr>
 <tr>
-<td>Ram</td>
+<td className="ion-activatable"><Link to="/monster/lizard_frilled_giant">Lizard, Frilled, Giant<IonRippleEffect /></Link></td>
+<td>375 gp</td>
+<td>550 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/owl_giant">Owl, Giant<IonRippleEffect /></Link></td>
+<td>6,000 gp</td>
+<td>9,000 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/ram">Ram<IonRippleEffect /></Link></td>
 <td>25 gp</td>
 <td>50 gp</td>
 </tr>
 <tr>
-<td>Rhinoceros</td>
+<td className="ion-activatable"><Link to="/monster/rhinoceros">Rhinoceros<IonRippleEffect /></Link></td>
 <td>1,000 gp</td>
 <td>1,500 gp</td>
 </tr>
 <tr>
-<td>Roc</td>
+<td className="ion-activatable"><Link to="/monster/rhinoceros_woolly">Rhinoceros, Woolly<IonRippleEffect /></Link></td>
+<td>2,000 gp</td>
+<td>3,000 gp</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/monster/roc">Roc<IonRippleEffect /></Link></td>
 <td>7,200 gp</td>
 <td>10,800 gp</td>
 </tr>
 <tr>
-<td>Tiger</td>
+<td className="ion-activatable"><Link to="/monster/tiger">Tiger<IonRippleEffect /></Link></td>
 <td>325 gp</td>
 <td>500 gp</td>
 </tr>
 <tr>
-<td>Woolly Rhinoceros</td>
-<td>2,000 gp</td>
-<td>3,000 gp</td>
+<td className="ion-activatable"><Link to="/monster/vulture_giant">Vulture, Giant<IonRippleEffect /></Link></td>
+<td>750 gp</td>
+<td>1,125 gp</td>
 </tr>
 </tbody></table></ScrollContainer>
 </>};
@@ -837,7 +840,7 @@ const _autosniper_trap = {title: "Autosniper trap", jsx: <><h2 id="eq-misc-autos
 const _axe_beak_combat_trained = {title: "Axe beak (combat trained)", jsx: <><h2 id="eq-misc-axe_beak_combat_trained-axe-beak-combat-trained">Axe beak (combat trained)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>  </p>
 <Tabular format="misc" a="1500" b="500" d="pet" />
-<p>These Large avian predators are sometimes used as hunting animals but are prized as mounts.</p>
+<p>These Large avian <Link to="/monster/axe_beak">predators</Link> are sometimes used as hunting animals but are prized as mounts.</p>
 </>};
 const _axe_beak_egg = {title: "Axe beak egg", jsx: <><h2 id="eq-misc-axe_beak_egg-axe-beak-egg">Axe beak egg</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>  </p>
@@ -847,7 +850,7 @@ const _axe_beak_egg = {title: "Axe beak egg", jsx: <><h2 id="eq-misc-axe_beak_eg
 const _bachelor_snuff = {title: "Bachelor snuff", jsx: <><h2 id="eq-misc-bachelor_snuff-bachelor-snuff">Bachelor snuff</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="1" b="x" d="bm" />
-<p>If inhaled through the nose, this sooty-smelling golden powder renders humanoid males temporarily sterile without otherwise affecting their performance. A dose typically lasts 1-3 days. Long-term users of bachelor snuff tend to develop a slight, but still noticeable, gilded tinge to their teeth and nails.</p>
+<p><Icons id="eq-misc-bachelor_snuff-aid-icons" wrapper="prefixIcon" list={["aid"]} /> If inhaled through the nose, this sooty-smelling golden powder renders humanoid males temporarily sterile without otherwise affecting their performance. A dose typically lasts 1-3 days. Long-term users of bachelor snuff tend to develop a slight, but still noticeable, gilded tinge to their teeth and nails.</p>
 </>};
 const _backpack_common = {hasJL:true,title: "Backpack (common)", jsx: <><div className="jumpList" id="eq-misc-backpack_common-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-backpack_common-masterwork-backpack">Masterwork Backpack</InnerLink></li><li><InnerLink toTop to="eq-misc-backpack_common-carrier-backpack">Carrier Backpack</InnerLink></li><li><InnerLink toTop to="eq-misc-backpack_common-hydration-backpack">Hydration Backpack</InnerLink></li><li><InnerLink toTop to="eq-misc-backpack_common-weaponrack-backpack">Weaponrack Backpack</InnerLink></li></ul></div><h2 id="eq-misc-backpack_common-backpack">Backpack</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -874,7 +877,7 @@ const _badger_plush = {title: "Badger plush", jsx: <><h2 id="eq-misc-badger_plus
 const _badger = {title: "Badger", jsx: <><h2 id="eq-misc-badger-badger">Badger</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
 <Tabular format="misc" a="15" b="20" d="pet" />
-<p>These fierce, burrowing creatures are only rarely kept as pets.</p>
+<p>These fierce, burrowing <Link to="/monster/badger">creatures</Link> are only rarely kept as pets.</p>
 </>};
 const _bag_bear = {title: "Bag, bear", jsx: <><h2 id="eq-misc-bag_bear-bag-bear">Bag, bear</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 27</Link>  </p>
@@ -906,8 +909,8 @@ const _bamboo_palace = {title: "Bamboo palace", jsx: <><h2 id="eq-misc-bamboo_pa
 <p><strong>Sources</strong> <Link to="/source/lost_treasures">Lost Treasures pg. 18</Link>  </p>
 <Tabular format="misc" a="1000" b="10" d="bm" />
 <p>The Bamboo Palace is a bonsai group planting of bamboo that has been shaped to resemble Hwanggot's royal palace in Haseoung. The bonsai is nonmagical, but in its pristine state is a magnificent representation of the art of bonsai. Though the planting is regrettably overgrown, the frame of a brilliant bonsai is still visible to those familiar with the art form. Beneath the shaggy foliage, one can see that the stems part and interweave again to form windows and doors, and the side branches gracefully curve out to mimic tiered roofs. The bonsai sits in a graceful celadon-glazed pot engraved with the seal of the Yeon dynasty.</p>
-<p>The Bamboo Palace's price reflects its current neglected state mixed with its aesthetic potential. If an experienced bonsai gardener tends to it once a week for 1 year, the Bamboo Palace reassumes its earlier manicured form, and its value to a collector increases to 8,000 gp. Restoring it requires successful DC 15 Knowledge (nature) and Knowledge (engineering) checks each week during that time.</p>
-<p>If the Bamboo Palace is restored to its full glory, a character who spends 15 minutes tending to it and succeeds at DC 20 Knowledge (nature) and Knowledge (engineering) checks gains the favor of Upaskuma, the fukujin kami who lives within the bonsai. For 24 hours, whenever the favored character begins a round within 15 feet of the Bamboo Palace, the kami's aura of luck grants the character a +2 luck bonus on all skill checks. Only one character can gain this favor each day.</p>
+<p>The Bamboo Palace's price reflects its current neglected state mixed with its aesthetic potential. If an experienced bonsai gardener tends to it once a week for 1 year, the Bamboo Palace reassumes its earlier manicured form, and its value to a collector increases to 8,000 gp. Restoring it requires successful DC 15 <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> and <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> checks each week during that time.</p>
+<p><Icons id="eq-misc-bamboo_palace-aura-boost-icons" wrapper="prefixIcon" list={["aura","boost"]} /> If the Bamboo Palace is restored to its full glory, a character who spends 15 minutes tending to it and succeeds at DC 20 Knowledge (nature) and Knowledge (engineering) checks gains the favor of Upaskuma, the <Link to="/monster/fukujin">fukujin</Link> kami who lives within the bonsai. For 24 hours, whenever the favored character begins a round within 15 feet of the Bamboo Palace, the kami's aura of luck grants the character a +2 luck bonus on all skill checks. Only one character can gain this favor each day.</p>
 </>};
 const _bandolier = {title: "Bandolier", jsx: <><h2 id="eq-misc-bandolier-bandolier">Bandolier</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
@@ -968,7 +971,7 @@ const _basket = {title: "Basket", jsx: <><h2 id="eq-misc-basket-basket">Basket</
 const _bat = {title: "Bat", jsx: <><h2 id="eq-misc-bat-bat">Bat</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="5 gp, 50 gp (Uskwood)" b="1 lb., 2 lbs. (Uskwood)" c="x" d="pet" />
-<p>These Diminutive rodents are nocturnal fliers that eat insects and fruit. They rely primarily on sound to navigate rather than sight. They can be found all over Golarion and are absent only in desert and arctic regions. Some cultures keep bat houses near towns and villages to control insect problems. Bats from the Uskwood in Nidal are noted for their matte black fur and large size.</p>
+<p>These Diminutive rodents are nocturnal fliers that eat insects and fruit. They rely primarily on sound to navigate rather than sight. <Link to="/monster/bat">Bats</Link> can be found all over Golarion and are absent only in desert and arctic regions. Some cultures keep bat houses near towns and villages to control insect problems. Bats from the Uskwood in Nidal are noted for their matte black fur and large size.</p>
 </>};
 const _bath_hot = {title: "Bath (hot)", jsx: <><h2 id="eq-misc-bath_hot-bath">Bath</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 99</Link>  </p>
@@ -1387,7 +1390,9 @@ const _branding_iron_common = {title: "Branding iron (common)", jsx: <><h2 id="e
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 96</Link>, <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 63</Link>  </p>
 <Tabular format="misc" a="2 gp (common), 10 gp (custom shape)" b="5 lbs. (common), 5 lbs. (custom shape)" c="x" d="torture" />
 <p>This length of bare metal is 2 to 4 feet long. One end serves as a handle, while the other forms a simple shape, such as a square or circle. Branding irons with ends that form complex symbols, such as the symbol of a Hellknight order, are much more expensive.</p>
-<p>If the branding iron is heated in an open fire for 10 minutes or more, it becomes red hot. If it is pressed against wood, leather, skin, or another surface capable of being scorched, it deals 1 point of fire damage, leaving behind a burn mark that becomes a mundane scar of the branding iron's symbol. A willing or <Link to="/misc/helpless">helpless</Link> creature can be marked with a hot branding iron. If employed as an <Link to="/misc/improvised_weapon">improvised weapon</Link> in combat, a hot branding iron deals damage and leaves behind its symbol on any creature struck. If the wielder is trying to mark a particular spot on a target creature, she takes a -4 penalty on her attack roll (in addition to any penalties from using improvised weapons). Creatures immune or resistant to fire damage cannot be marked by a branding iron. A hot branding iron loses its heat quickly. It can mark only one creature within 5 minutes of being removed from a fire before it needs to be reheated.</p>
+<p><Icons id="eq-misc-branding_iron_common-melee-icons" wrapper="prefixIcon" list={["melee"]} /> If the branding iron is heated in an open fire for 10 minutes or more, it becomes red hot. If it is pressed against wood, leather, skin, or another surface capable of being scorched, it deals 1 point of fire damage, leaving behind a burn mark that becomes a mundane scar of the branding iron's symbol.</p>
+<p>A willing or <Link to="/misc/helpless">helpless</Link> creature can be marked with a hot branding iron. If employed as an <Link to="/misc/improvised_weapon">improvised weapon</Link> in combat, a hot branding iron deals damage and leaves behind its symbol on any creature struck. If the wielder is trying to mark a particular spot on a target creature, she takes a -4 penalty on her attack roll (in addition to any penalties from using improvised weapons).</p>
+<p>Creatures immune or resistant to fire damage cannot be marked by a branding iron. A hot branding iron loses its heat quickly. It can mark only one creature within 5 minutes of being removed from a fire before it needs to be reheated.</p>
 </>};
 const _brawlers_brew = {title: "Brawler's brew", jsx: <><h2 id="eq-misc-brawlers_brew-brawlers-brew">Brawler's brew</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 22</Link>  </p>
@@ -1491,7 +1496,8 @@ const _burglars_outfit = {title: "Burglar's outfit", jsx: <><h2 id="eq-misc-burg
 const _burglars_torc = {title: "Burglar's torc", jsx: <><h2 id="eq-misc-burglars_torc-burglars-torc">Burglar's torc</h2>
 <p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox pg. 20</Link>  </p>
 <Tabular format="misc" a="2102" b="5" d="bm" />
-<p>Appearing as a heavy, elaborate neckpiece while worn, a burglar's torc can be removed and disassembled into its component parts in 4 minutes (or in 1 minute if the user is trained in the Disable Device skill). When dismantled, a burglar's torc contains parts that function as a set of <Link to="/eq-material/mithral">mithral</Link> <Link to="/eq-misc/masterwork_thieves_tools">masterwork thieves' tools</Link>, 10 feet of <Link to="/eq-misc/silk_rope">silk rope</Link>, and a <Link to="/eq-misc/mithral_grappling_hook">mithral grappling hook</Link>. Reassembling the torc takes 8 minutes (or 4 minutes if the user is trained in the Disable Device skill). An observer must succeed at a DC 30 Perception check to recognize an assembled burglar's torc for what it is; if the observer handles the torc, the DC for this check decreases to 15.</p>
+<p>Appearing as a heavy, elaborate neckpiece while worn, a burglar's torc can be removed and disassembled into its component parts in 4 minutes (or in 1 minute if the user is trained in the <Link to="/skill/disable_device">Disable Device</Link> skill). When dismantled, a burglar's torc contains parts that function as a set of <Link to="/eq-material/mithral">mithral</Link> <Link to="/eq-misc/masterwork_thieves_tools">masterwork thieves' tools</Link>, 10 feet of <Link to="/eq-misc/silk_rope">silk rope</Link>, and a <Link to="/eq-misc/mithral_grappling_hook">mithral grappling hook</Link>. Reassembling the torc takes 8 minutes (or 4 minutes if the user is trained in the Disable Device skill).</p>
+<p>An observer must succeed at a DC 30 <Link to="/skill/perception">Perception</Link> check to recognize an assembled burglar's torc for what it is; if the observer handles the torc, the DC for this check decreases to 15.</p>
 </>};
 const _burner = {title: "Burner", jsx: <><h2 id="eq-misc-burner-burner">Burner</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands pg. 28</Link>  </p>
@@ -1689,12 +1695,12 @@ const _casting_plaster = {title: "Casting plaster", jsx: <><h2 id="eq-misc-casti
 const _cat_common = {title: "Cat (common)", jsx: <><h2 id="eq-misc-cat_common-cat">Cat</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="3 cp (common), 6 gp (Osirian wise-eye)" b="8 lbs. (common), 8 lbs. (Osirian wise-eye)" c="x" d="pet" />
-<p>These Tiny animals are often kept as pets or familiars. Though small, they are excellent hunters. Grain farmers usually keep cats for pest control in crop storage areas, but cats can be found in most regions and strays occupy many cities.</p>
+<p>These Tiny animals are often kept as pets or <Link to="/ability/familiar">familiars</Link>. Though small, they are excellent hunters. Grain farmers usually keep <Link to="/monster/cat">cats</Link> for pest control in crop storage areas, but cats can be found in most regions and strays occupy many cities.</p>
 </>};
 const _cat_hunting = {title: "Cat (hunting)", jsx: <><h2 id="eq-misc-cat_hunting-cat-hunting">Cat (hunting)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
 <Tabular format="misc" a="100" b="100" d="pet" />
-<p>Rarely, Medium cats such as cheetahs and leopards are trained to hunt for humanoid masters.</p>
+<p>Rarely, Medium cats such as <Link to="/monster/cheetah">cheetahs</Link> and <Link to="/monster/leopard">leopards</Link> are trained to hunt for humanoid masters.</p>
 </>};
 const _cat_burglars_kit = {title: "Cat burglar's kit", jsx: <><h2 id="eq-misc-cat_burglars_kit-cat-burglars-kit">Cat burglar's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 13</Link>  </p>
@@ -1764,7 +1770,7 @@ const _censer = {title: "Censer", jsx: <><h2 id="eq-misc-censer-censer">Censer</
 const _centipede_house = {title: "Centipede (house)", jsx: <><h2 id="eq-misc-centipede_house-centipede-house">Centipede (house)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
 <Tabular format="misc" a="1 cp" b="3 oz." c="x" d="pet" />
-<p>These creatures come in many forms, from the lighter-colored 20-legged variety to the darker 300-legged variety. Typically, these arthropods are what pass for pets in the slums, but the young and eccentric often search for the best specimens to serve as familiars. Centipedes employed as familiars have an Intelligence score and lose the mindless trait.</p>
+<p>These creatures come in many forms, from the lighter-colored 20-legged variety to the darker 300-legged variety. Typically, these arthropods are what pass for pets in the slums, but the young and eccentric often search for the best specimens to serve as <Link to="/ability/familiar">familiars</Link>. Centipedes employed as familiars have an Intelligence score and lose the mindless trait.</p>
 </>};
 const _chain_10_ft = {title: "Chain (10 ft.)", jsx: <><h2 id="eq-misc-chain_10_ft-chain-10-ft">Chain (10 ft.)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -1855,7 +1861,7 @@ const _chest_huge = {title: "Chest (huge)", jsx: <><h2 id="eq-misc-chest_huge-ch
 const _chicken = {title: "Chicken", jsx: <><h2 id="eq-misc-chicken-chicken">Chicken</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 93</Link>  </p>
 <Tabular format="misc" a="1" b="6" d="pet" />
-<p>These domesticated birds are not capable of long distance flights, and are raised for their eggs and meat. Male chickens are kept for mating and occasionally blood sport.</p>
+<p>These domesticated <Link to="/monster/chicken">birds</Link> are not capable of long distance flights, and are raised for their eggs and meat. Male chickens are kept for mating and occasionally blood sport.</p>
 </>};
 const _chill_cream = {title: "Chill cream", jsx: <><h2 id="eq-misc-chill_cream-chill-cream">Chill cream</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
@@ -1906,7 +1912,7 @@ const _clay = {title: "Clay", jsx: <><h2 id="eq-misc-clay-clay">Clay</h2>
 const _clear_ear = {title: "Clear ear", jsx: <><h2 id="eq-misc-clear_ear-clear-ear">Clear ear</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="15" b="x" d="bm" />
-<p>This green gel is poured into the user's ear and takes effect 2 hours later, enhancing senses and memory but increasing irritability. For 6 hours, the user gains a +2 alchemical bonus on Perception and Knowledge checks and a -2 penalty on all Charisma-based checks.</p>
+<p><Icons id="eq-misc-clear_ear-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> This green gel is poured into the user's ear and takes effect 2 hours later, enhancing senses and memory but increasing irritability. For 6 hours, the user gains a +2 alchemical bonus on <Link to="/skill/perception">Perception</Link> and <Link to="/skill/knowledge">Knowledge</Link> checks and a -2 penalty on all Charisma-based checks.</p>
 </>};
 const _cleats = {title: "Cleats", jsx: <><h2 id="eq-misc-cleats-cleats">Cleats</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>, <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link>  </p>
@@ -2158,7 +2164,7 @@ const _covenant_rings = {title: "Covenant rings", jsx: <><h2 id="eq-misc-covenan
 const _crab = {title: "Crab", jsx: <><h2 id="eq-misc-crab-crab">Crab</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
 <Tabular format="misc" a="20 gp" b="5-7 lbs." c="x" d="pet" />
-<p>Aquatic spellcasters often find large ocean crabs to be agreeable familiars. Without the bond of a familiar, however, these crustacean's lack of intelligence makes them dull pets.</p>
+<p>Aquatic spellcasters often find large ocean crabs to be agreeable <Link to="/ability/familiar">familiars</Link>. Without the bond of a familiar, however, these crustacean's lack of intelligence makes them dull pets.</p>
 </>};
 const _croquet_set = {title: "Croquet set", jsx: <><h2 id="eq-misc-croquet_set-croquet-set">Croquet set</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 92</Link>  </p>

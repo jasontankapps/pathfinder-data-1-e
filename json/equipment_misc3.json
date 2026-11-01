@@ -505,7 +505,7 @@
 			"‹SOURCE Alchemy Manual/18›  ",
 			"::tabular{format=misc a=1000 b=15 d=bm}",
 			"",
-			"A premium hookah is similar to a standard ‹eq-misc/hookah›, except it sports enough hoses for up to eight adjacent creatures to use, and the bowl has three separate compartments, each of which can store a different type of inhalable drug, alchemical powder, or alchemical liquid. Each compartment can hold up to 3 doses of an inhalable substance (so a premium hookah can hold up to 9 doses total). Consuming these contents is still a move action. You can reload a single compartment as a move action, or you can reload all three compartments as a full-round action."
+			"A premium hookah is similar to a standard ‹eq-misc/hookah›, except it sports enough hoses for up to eight adjacent creatures to use, and the bowl has three separate compartments, each of which can store a different type of inhalable drug, alchemical powder, or alchemical liquid. Each compartment can hold up to 3 doses of an inhalable substance (so a premium hookah can hold up to 9 doses total). Consuming these contents is still a @HL[move action]. You can reload a single compartment as a move action, or you can reload all three compartments as a @HL[full-round action]."
 		]
 	},
 	"pressure_pill": {
@@ -616,7 +616,7 @@
 			"‹SOURCE Ultimate Equipment/80;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=200 b=7 d=pet}",
 			"",
-			"Found primarily in temperate forests, pseudodragons are intelligent enough that some consider their sale slavery. A handful of pseudodragons offer themselves for hire to adventurers, typically for half their listed price per week of work."
+			"Found primarily in temperate forests, ‹monster/pseudodragon«s› are intelligent enough that some consider their sale slavery. A handful of pseudodragons offer themselves for hire to adventurers, typically for half their listed price per week of work."
 		]
 	},
 	"psychics_kit": {
@@ -681,7 +681,9 @@
 			"‹SOURCE Haunted Heroes Handbook/11›  ",
 			"::tabular{format=misc a=2000 b=100 d=bm}",
 			"",
-			"This large mobile keyboard instrument resembles a strange chair with several brass tubes jutting from its back and small wheels on the feet for ease of transportation. A pump organ can seat a single Medium creature, which can operate the keyboard and pedals to create haunting melodies out of the brass pipework along the organ's back frame. All pump organs function as ‹eq-misc/masterwork musical instrument«s› for Perform (keyboard) checks. With 10 minutes of work and a successful DC 15 Perform (keyboard) check, a user can manipulate the pump organ's controls to create a 1-minute long performance that does not require an operator - the pump organ can be set to activate after a preset duration via a timer (up to 24 hours) or to begin when a remote trigger is activated. The trigger can be connected to the pump organ via a set of pulleys and twine normally stored in a compartment under the organ's seat cushion with a successful DC 15 Disable Device check. The remote trigger can be placed up to 60 feet from the pump organ."
+			"This large mobile keyboard instrument resembles a strange chair with several brass tubes jutting from its back and small wheels on the feet for ease of transportation. A pump organ can seat a single Medium creature, which can operate the keyboard and pedals to create haunting melodies out of the brass pipework along the organ's back frame.",
+			"",
+			"All pump organs function as ‹eq-misc/masterwork musical instrument«s› for ‹skill/Perform› (keyboard) checks. With 10 minutes of work and a successful DC 15 Perform (keyboard) check, a user can manipulate the pump organ's controls to create a 1-minute long performance that does not require an operator - the pump organ can be set to activate after a preset duration via a timer (up to 24 hours) or to begin when a remote trigger is activated. The trigger can be connected to the pump organ via a set of pulleys and twine normally stored in a compartment under the organ's seat cushion with a successful DC 15 ‹skill/Disable Device› check. The remote trigger can be placed up to 60 feet from the pump organ."
 		]
 	},
 	"pump_water_canister": {
@@ -716,7 +718,7 @@
 			"‹SOURCE Alchemy Manual/18›  ",
 			"::tabular{format=misc a=10 b=2 d=bm}",
 			"",
-			"This set of special disposable reagents can be used in conjunction with an ‹eq-misc/alchemist's lab› to detect whether a drug has been cut with inferior-grade material or [filler](eq-misc/bunk), granting a +5 competence bonus on Craft (alchemy) checks to detect such chicanery."
+			"@I-boost This set of special disposable reagents can be used in conjunction with an ‹eq-misc/alchemist's lab› to detect whether a drug has been cut with inferior-grade material or [filler](eq-misc/bunk), granting a +5 competence bonus on ‹skill/Craft› (alchemy) checks to detect such chicanery."
 		]
 	},
 	"puzzle_box": {
@@ -860,7 +862,7 @@
 			"‹SOURCE Pathfinder #29: Mother of Flies/12›  ",
 			"::tabular{format=misc a=\"25\" b=x d=bm}",
 			"",
-			"A set of quieting needles costs 25 gp. Inserted into a corpse's heart, lungs, and other organs, the needles can be well hidden inside a slain body with a minute of work and a Sleight of Hand check - the result of this Sleight of Hand check determines the Heal check DC to notice the use of quieting needles on a corpse. This Heal check gains a cumulative +1 bonus for each day the body has been allowed to decay, as the presence of the needles grows increasingly obvious as the flesh rots away.",
+			"Inserted into a corpse's heart, lungs, and other organs, the needles can be well hidden inside a slain body with a minute of work and a ‹skill/Sleight of Hand› check - the result of this Sleight of Hand check determines the ‹skill/Heal› check DC to notice the use of quieting needles on a corpse. This Heal check gains a cumulative +1 bonus for each day the body has been allowed to decay, as the presence of the needles grows increasingly obvious as the flesh rots away.",
 			"",
 			"A body pierced with quieting needles can be brought back to life as normal via ‹spell/raise dead›, but upon being restored to life, the victim immediately begins suffering from the fact that his major organs are perforated by hidden needles. This grisly fate can even strike someone brought back to life via ‹spell/resurrection› or ‹spell/true resurrection› if the body itself was intact and the needles were thus hidden. (Casting *resurrection* or *true resurrection* with only a fragment of the body or no body, forcing the spell to rebuild the body as appropriate, is a surefire way to avoid having the victim come back to life with the needles still inside him.)",
 			"",
@@ -868,9 +870,7 @@
 			"",
 			"Removing quieting needles from a dead body takes 1d6+6 rounds (and a DC 20 Heal check if the process is to leave the body in a condition where raise dead is still viable). Removing quieting needles from a freshly restored living body causes 2d6 points of damage per round the procedure continues, with a successful DC 25 Heal check reducing damage caused that round to 2.",
 			"",
-			"The use of quieting needles is relatively uncommon, meant as much to punish enemies for attempting to raise dead allies and force them to waste the resources on such expensive magic as well as to cause the restored creature agonizing pain - using quieting needles is an evil act that is as illegal as murder in most civilized regions.",
-			"",
-			"A set of quieting needles costs 25 gp."
+			"The use of quieting needles is relatively uncommon, meant as much to punish enemies for attempting to raise dead allies and force them to waste the resources on such expensive magic as well as to cause the restored creature agonizing pain - using quieting needles is an evil act that is as illegal as murder in most civilized regions."
 		]
 	},
 	"quintain": {
@@ -892,7 +892,7 @@
 			"‹SOURCE Ultimate Equipment/80›  ",
 			"::tabular{format=misc a=2 b=3 d=pet}",
 			"",
-			"Rabbits are often raised or hunted for their meat and skins, though some people keep the skittish mammals as pets. Though they are often confused with hares, rabbits are distinctly different in that they make their homes in burrows beneath the ground, and they are usually smaller than hares. Rabbits have the same statistics as rats."
+			"‹monster/Rabbit«s› are often raised or hunted for their meat and skins, though some people keep the skittish mammals as pets. Though they are often confused with hares, rabbits are distinctly different in that they make their homes in burrows beneath the ground, and they are usually smaller than hares."
 		]
 	},
 	"raccoon": {
@@ -903,7 +903,7 @@
 			"‹SOURCE Ultimate Equipment/80›  ",
 			"::tabular{format=misc a=5 b=7 d=pet}",
 			"",
-			"These nocturnal hunter-scavengers are found primarily in forested terrains, and are noted for their domino mask-like visages, highly dextrous forepaws (which they rely on for their hyper-sensitive sense of touch), and the strangely anthropomorphic tendency to \"wash\" their food in water before eating it. Raccoons are sometimes kept as pets and used by some spellcasters as familiars."
+			"These nocturnal hunter-scavengers are found primarily in forested terrains, and are noted for their domino mask-like visages, highly dextrous forepaws (which they rely on for their hyper-sensitive sense of touch), and the strangely anthropomorphic tendency to \"wash\" their food in water before eating it. ‹monster/Raccoon«s› are sometimes kept as pets and used by some spellcasters as ‹ability/familiar«s›."
 		]
 	},
 	"rack": {
@@ -914,7 +914,7 @@
 			"‹SOURCE Horror Adventures/212›  ",
 			"::tabular{format=misc a=300 b=500 d=torture}",
 			"",
-			"The rack is one of the most infamous and feared devices in the torturer's arsenal, capable of inflicting ruinous damage to a victim's body. Helpless victims are splayed across the device's frame, and each limb is lashed to a central windlass. Each turn of the crank deals a cumulative 1d6 points of nonlethal damage, up to 4d6 points of nonlethal damage on the fourth turn. Each subsequent turn after the fourth deals 4d6 points of nonlethal damage and deals 1 point of damage each to the victim's Strength, Dexterity, and Constitution scores as it dislocates limbs, cracks cartilage, and breaks bone. Some racks are fitted with spiked wheels that puncture the victim's body, dealing lethal damage rather than nonlethal damage. Escaping from a rack requires a successful DC 30 Escape Artist check."
+			"The rack is one of the most infamous and feared devices in the torturer's arsenal, capable of inflicting ruinous damage to a victim's body. Helpless victims are splayed across the device's frame, and each limb is lashed to a central windlass. Each turn of the crank deals a cumulative 1d6 points of nonlethal damage, up to 4d6 points of nonlethal damage on the fourth turn. Each subsequent turn after the fourth deals 4d6 points of nonlethal damage and deals 1 point of ‹rule/ability_>damage› each to the victim's Strength, Dexterity, and Constitution scores as it dislocates limbs, cracks cartilage, and breaks bone. Some racks are fitted with spiked wheels that puncture the victim's body, dealing lethal damage rather than nonlethal damage. Escaping from a rack requires a successful DC 30 ‹skill/Escape Artist› check."
 		]
 	},
 	"raft": {
@@ -978,7 +978,7 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"1 gp (blue), 1 cp (common)\" b=\"1 lb. (blue), 1 lb. (common)\" c=x d=pet}",
 			"",
-			"These Tiny rodents live everywhere and eat nearly anything. Despite having a reputation as disease-ridden scavengers, domesticated rats are clean, loyal creatures that make excellent familiars."
+			"These Tiny rodents live everywhere and eat nearly anything. Despite having a reputation as disease-ridden scavengers, domesticated ‹monster/rat«s› are clean, loyal creatures that make excellent ‹ability/familiar«s›."
 		]
 	},
 	"rat_common": {
@@ -996,7 +996,7 @@
 			"‹SOURCE Ultimate Equipment/80;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=5 b=50 d=pet}",
 			"",
-			"These Small animals are vicious scavengers in the wild. However, dire rats raised in captivity can be trained as loyal pets and protectors. Pet dire rats do not have filth fever."
+			"These Small animals are vicious scavengers in the wild. However, ‹monster/dire rat«s› raised in captivity can be trained as loyal pets and protectors. Pet dire rats do not have ‹disease/filth fever›."
 		]
 	},
 	"rat_cage": {
@@ -1007,7 +1007,7 @@
 			"‹SOURCE Horror Adventures/212›  ",
 			"::tabular{format=misc a=5 b=15 d=torture}",
 			"",
-			"This specially crafted steel cage can hold up to 20 rats, and includes stout leather straps around its open end and a metal crucible for holding hot charcoal or other fuel on its top end. Torturers tightly strap the open end of the device to a helpless victim's abdomen, insert the rats into the cage, and set the crucible's fuel alight. In 1d10 rounds, the increasing heat causes the rats to gnaw and dig their way through the victim's abdomen to escape, dealing 1 point of piercing damage per rat each round. A victim can wiggle free of a rat cage with a successful DC 20 Escape Artist check, though some of the voracious vermin may continue their consumption in subsequent rounds."
+			"This specially crafted steel cage can hold up to 20 rats, and includes stout leather straps around its open end and a metal crucible for holding hot charcoal or other fuel on its top end. Torturers tightly strap the open end of the device to a ‹misc/helpless› victim's abdomen, insert the rats into the cage, and set the crucible's fuel alight. In 1d10 rounds, the increasing heat causes the rats to gnaw and dig their way through the victim's abdomen to escape, dealing 1 point of piercing damage per rat each round. A victim can wiggle free of a rat cage with a successful DC 20 ‹skill/Escape Artist› check, though some of the voracious vermin may continue their consumption in subsequent rounds."
 		]
 	},
 	"rations_space_per_day": {
@@ -1033,7 +1033,7 @@
 			"‹SOURCE Ultimate Equipment/80;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=2 b=3 d=pet}",
 			"",
-			"These Tiny birds are known for their intelligence, and even play games with each other in the wild. They eat insects and can be found in surprisingly varied habitats."
+			"These Tiny birds are known for their intelligence, and even play games with each other in the wild. ‹monster/Raven«s› eat insects and can be found in surprisingly varied habitats."
 		]
 	},
 	"reagent_extractor": {
@@ -1179,7 +1179,7 @@
 			"‹SOURCE Ultimate Wilderness/12›  ",
 			"::tabular{format=misc a=\"12,000 gp (combat-trained queen), 450 gp (combat-trained worker), 8,000 gp (queen), 300 gp (worker)\" b=\"140 lbs. (combat-trained queen), 60 lbs. (combat-trained worker), 140 lbs. (queen), 60 lbs. (worker)\" c=x d=pet}",
 			"",
-			"‹race/Gathlain«s› have learned to domesticate giant bees, which they use to travel long distances. Extra queens from a hive's brood are saved and trained for hauling heavier equipment or a retinue of gathlains. Bees require an exotic saddle, which is a sort of basket that places the rider underneath the bee's abdomen, where it protects the rider as if he were a bee larva."
+			"‹race/Gathlain«s› have learned to domesticate ‹monster/giant bee«s›, which they use to travel long distances. Extra queens from a hive's brood are saved and trained for hauling heavier equipment or a retinue of gathlains. Bees require an ‹eq-misc/exotic saddle›, which is a sort of basket that places the rider underneath the bee's abdomen, where it protects the rider as if he were a bee larva."
 		]
 	},
 	"riding_bee_combat_trained_worker": {
@@ -1224,13 +1224,14 @@
 			"‹SOURCE Monster Codex/177›  ",
 			"::tabular{format=misc a=\"75 gp (combat trained), 50 gp (common)\" b=\"50 lbs. (combat trained), 50 lbs. (common)\" c=x d=pet}",
 			"",
-			"Horses, ponies, and other draft animals are ill-suited to living underground for long stretches, so the ‹race/ratfolk› bred a particularly strong type of dire rat to assist in pulling their wagons and serving as mounts for caravan scouts. As rodents, riding rats respond favorably to ratfolk's commands, and the animals' hardiness and omnivorous diet make them very easy to care for even on long journeys through inhospitable terrain. Use the statistics for a ‹monster/dire rat› with the ‹template/giant› simple template. A ratfolk with the animal companion, mount, or similar class feature can select a riding rat as her mount."
+			"Horses, ponies, and other draft animals are ill-suited to living underground for long stretches, so the ‹race/ratfolk› bred a particularly strong type of dire rat to assist in pulling their wagons and serving as mounts for caravan scouts. As rodents, riding rats respond favorably to ratfolk's commands, and the animals' hardiness and omnivorous diet make them very easy to care for even on long journeys through inhospitable terrain. Use the statistics for a ‹monster/dire rat› with the ‹template/giant› simple template. A ratfolk with the *animal companion, mount,* or similar class feature can select a riding rat as her mount."
 		]
 	},
 	"riding_rat_common": {
 		"name": "Riding rat (common)",
 		"copyof": "riding_rat_combat_trained"
 	},
+	"riding_rat": { "redirect": "riding_rat_combat_trained" },
 	"ritual_bell": {
 		"name": "Ritual bell",
 		"sources": [ "Occult Adventures" ],
@@ -1758,7 +1759,7 @@
 			"‹SOURCE Ultimate Equipment/80›  ",
 			"::tabular{format=misc a=\"15 gp\" b=\"9 oz.\" c=x d=pet}",
 			"",
-			"Typically found in forested areas, these Tiny scorpions sport pincers too small to be dangerous to anything larger than an insect, but they still possess a poisonous stinger. Sometimes they are kept as pets or serve as familiars. Greensting scorpions employed as familiars have an Intelligence score and lose the mindless trait."
+			"Typically found in forested areas, these Tiny scorpions sport pincers too small to be dangerous to anything larger than an insect, but they still possess a poisonous stinger. Sometimes they are kept as pets or serve as familiars. ‹monster/Greensting scorpion«s› employed as ‹ability/familiar«s› have an Intelligence score and lose the mindless trait."
 		]
 	},
 	"scribe_map": {
@@ -2499,7 +2500,7 @@
 			"‹SOURCE Ultimate Equipment/80›  ",
 			"::tabular{format=misc a=10 b=10 d=pet}",
 			"",
-			"These creatures are infamous for the overwhelmingly foul odor they produce to ward off predators. Skunks are sometimes kept as pets, though usually only after their scent glands have been removed."
+			"These creatures are infamous for the overwhelmingly foul odor they produce to ward off predators. ‹monster/Skunk«s› are sometimes kept as pets, though usually only after their scent glands have been removed."
 		]
 	},
 	"sky_mine": {
@@ -2754,7 +2755,7 @@
 			"‹SOURCE Ultimate Equipment/80;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=5 b=60 d=pet}",
 			"",
-			"These Medium reptiles are found chiefly in warm climates. Somewhat aggressive, constrictors squeeze their prey to death before consuming it. Due to their size, these snakes are less popular for traveling spellcasters, but they can be quite helpful in a laboratory."
+			"These Medium reptiles are found chiefly in warm climates. Somewhat aggressive, ‹monster/snake_>constrictor«s› squeeze their prey to death before consuming it. Due to their size, these snakes are less popular for traveling spellcasters, but they can be quite helpful in a laboratory."
 		]
 	},
 	"snake_viper": {
@@ -2768,7 +2769,7 @@
 			"‹SOURCE Ultimate Equipment/80;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"5 gp\" b=\"10 oz.\" c=x d=pet}",
 			"",
-			"This tiny reptile eats small animals and can be found in most temperate and warm environments. The bite is painful but not especially dangerous to the average adventurer."
+			"This tiny [reptile](monster/viper) eats small animals and can be found in most temperate and warm environments. The bite is painful but not especially dangerous to the average adventurer."
 		]
 	},
 	"snake_oil": {
@@ -2856,7 +2857,7 @@
 		"description": [
 			"## Snuffbox",
 			"‹SOURCE Advanced Class Guide/205›  ",
-			"::tabular{format=misc a=\"25 gp (bone or tortoise shell), 300 gp (ivory or precious metal), 5 gp (tin or wood)\" b=\"&mdash& (bone or tortoise shell), &mdash& (ivory or precious metal), &mdash& (tin or wood)\" c=x d=bm}",
+			"::tabular{format=misc a=\"25 gp (bone or tortoise shell), 300 gp (ivory or precious metal), 5 gp (tin or wood)\" b=\"&mdash&\" c=x d=bm}",
 			"",
 			"This tiny, ornamented box's hinged lid latches in place to form a tight seal. The box is used to hold various snuffs, powders, tobacco, and similar substances. The box can be made from any number of materials, from wood to ivory to precious metals inlaid with gemstone."
 		]
@@ -2916,7 +2917,9 @@
 			"",
 			"Nearly 50 ancient tales and songs have been collected on this long scroll. Contrasting with the obvious antiquity of the papyrus, the illuminated images are vivid and the writing is clear (though occasionally difficult to decipher due to elaborate embellishments), as the inks used were infused with ‹magic-wondrous/unguent of timelessness›.",
 			"",
-			"This folio is the most complete extant collection of poems by the legendary marid bard Shazathared. Most of the poems recount the binding of ‹faith/Rovagug› by the gods and the fates of his terrible spawn, but several pieces, told from the point of view of a genie princess, speak of defending the princess's home and allies against bandit-kings, tempests, and evil magic. A bard with access to a complete copy of these poems can learn the defensive songs in the folio as the ‹masterpiece/\"Ballad of the Warding Princess\"› masterpiece by paying the normal masterpiece cost."
+			"This folio is the most complete extant collection of poems by the legendary marid bard Shazathared. Most of the poems recount the binding of ‹faith/Rovagug› by the gods and the fates of his terrible spawn, but several pieces, told from the point of view of a genie princess, speak of defending the princess's home and allies against bandit-kings, tempests, and evil magic.",
+			"",
+			"@I-power A bard with access to a complete copy of these poems can learn the defensive songs in the folio as the ‹masterpiece/\"Ballad of the Warding Princess\"› masterpiece by paying the normal masterpiece cost."
 		]
 	},
 	"soothe_syrup": {
@@ -3447,7 +3450,7 @@
 			"‹SOURCE Ultimate Equipment/80›  ",
 			"::tabular{format=misc a=1 b=2 d=pet}",
 			"",
-			"These tiny rodents are as common in the wild as rats are in cities. They typically eat nuts, seeds, and vegetation. Squirrels have the same statistics as rats.",
+			"These tiny [rodents](monster/squirrel) are as common in the wild as rats are in cities. They typically eat nuts, seeds, and vegetation.",
 			"",
 			"::h3[Flying squirrel]{jl}",
 			"",
@@ -3657,7 +3660,7 @@
 			"‹SOURCE Ultimate Equipment/80;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=20 b=1 d=pet}",
 			"",
-			"These Tiny beasts are allegedly sold for indoor defense to rich clients, but often wind up in exotic blood sports. Despite the popular misconception that stirges are untameable vermin, such creatures are trainable, but they must be fed fresh blood daily to dissuade them from turning on their handlers."
+			"These Tiny beasts are allegedly sold for indoor defense to rich clients, but often wind up in exotic blood sports. Despite the popular misconception that ‹monster/stirge«s› are untameable vermin, such creatures are trainable, but they must be fed fresh blood daily to dissuade them from turning on their handlers."
 		]
 	},
 	"stonechipper_salve": {
@@ -4478,7 +4481,7 @@
 			"‹SOURCE Ultimate Equipment/80›  ",
 			"::tabular{format=misc a=\"1 sp\" b=\"7 oz.\" c=x d=pet}",
 			"",
-			"These small plump birds are sometimes kept as pets, but are more often used as familiars for spellcasters. They are known for their beautiful song and their potential for actual speech."
+			"These small plump [birds](monster/thrush) are sometimes kept as pets, but are more often used as ‹ability/familiar«s› for spellcasters. They are known for their beautiful song and their potential for actual speech."
 		]
 	},
 	"thumbscrews_common": {
@@ -4489,9 +4492,11 @@
 			"‹SOURCE Horror Adventures/212›  ",
 			"::tabular{format=misc a=\"15 gp (common), 50 gp (masterwork)\" b=\"1 lb. (common), 1 lb. (masterwork)\" c=x d=torture}",
 			"",
-			"Both a torture and restraining device, this small, metal armature consists of two parallel, spikestudded bars that close together as the user tightens the frame's screws, crushing a victim's thumbs between them. A victim restrained by a thumbscrew is able to move but can't effectively wield weapons, hold items, or perform any actions or skill checks that require manual dexterity, taking a -5 penalty on all such actions and dealing 1d6 points of nonlethal damage to himself with each attempt (this doesn't include Escape Artist attempts to escape the thumbscrew). Spellcasters bound by thumbscrews are unable to cast spells with somatic components.",
+			"Both a torture and restraining device, this small, metal armature consists of two parallel, spike-studded bars that close together as the user tightens the frame's screws, crushing a victim's thumbs between them.",
 			"",
-			"When using a thumbscrew as a torture device, the user can turn the thumbscrew's bolt to deal 1d6 points of nonlethal damage. Escaping from a thumbscrew requires a successful DC 28 Escape Artist check (DC 30 for a masterwork thumbscrew)."
+			"@I-lower A victim restrained by a thumbscrew is able to move but can't effectively wield weapons, hold items, or perform any actions or skill checks that require manual dexterity, taking a -5 penalty on all such actions and dealing 1d6 points of nonlethal damage to himself with each attempt (this doesn't include Escape Artist attempts to escape the thumbscrew). Spellcasters bound by thumbscrews are unable to cast spells with somatic components.",
+			"",
+			"When using a thumbscrew as a torture device, the user can turn the thumbscrew's bolt to deal 1d6 points of nonlethal damage. Escaping from a thumbscrew requires a successful DC 28 ‹skill/Escape Artist› check (DC 30 for a masterwork thumbscrew)."
 		]
 	},
 	"thumbscrews_masterwork": {
@@ -4606,7 +4611,7 @@
 			"‹SOURCE Ultimate Equipment/80;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"2 cp\" b=\"7 oz.\" c=x d=pet}",
 			"",
-			"This Diminutive amphibian is primarily kept as a familiar by spellcasters. Toads live in most temperate and warm environments, and eat insects."
+			"This Diminutive amphibian is primarily kept as a ‹ability/familiar› by spellcasters. ‹monster/Toad«s› live in most temperate and warm environments, and eat insects."
 		]
 	},
 	"tobacco": {
@@ -4617,7 +4622,7 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=1 b=2 d=bm}",
 			"",
-			"These crushed and shredded leaves range in color from peppery red to black; users can either smoke or chew them. Tobacco users experience a certain level of calm and are more easily able to shrug off hunger pangs. Tobacco is addictive (Fort DC 10 to resist), and long-term users suffer ‹rule/Constitution damage›."
+			"These crushed and shredded leaves range in color from peppery red to black; users can either smoke or chew them. Tobacco users experience a certain level of calm and are more easily able to shrug off hunger pangs. Tobacco is ‹rule/drugs>«addictive› (Fort DC 10 to resist), and long-term users suffer ‹rule/Constitution damage›."
 		]
 	},
 	"tome_of_epics": {
