@@ -2562,6 +2562,7 @@
 			"water_dangers"
 		]
 	},
+	"fall": { "redirect": "falling" },
 	"falling_objects": {
 		"name": "Falling Objects",
 		"subtitle": "Environmental Rules",
