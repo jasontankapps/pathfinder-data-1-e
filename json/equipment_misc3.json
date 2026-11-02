@@ -724,7 +724,9 @@
 			"‹SOURCE Ultimate Equipment/92;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"1 gp-1,000 gp\" b=\"1 lb.-5 lbs.\" c=x d=ent}",
 			"",
-			"This box features moving parts, secret panels, or unusual codes and locking mechanisms. Depending on the box, a Disable Device, Knowledge (engineering), Linguistics, or simple Intelligence check might open it. The DC of the check varies with the complexity of the box, but is typically 15 or 20 (retry once per day). Multiple skill checks might be necessary for different stages of the puzzle. If the puzzle box was constructed with the intention that one specific person should be able to open it, that person gets a +5 circumstance bonus on the check."
+			"This box features moving parts, secret panels, or unusual codes and locking mechanisms. Depending on the box, a ‹skill/Disable Device›, ‹skill/Knowledge (engineering)›, ‹skill/Linguistics›, or simple Intelligence check might open it. The DC of the check varies with the complexity of the box, but is typically 15 or 20 (retry once per day). Multiple skill checks might be necessary for different stages of the puzzle.",
+			"",
+			"@I-boost If the puzzle box was constructed with the intention that one specific person should be able to open it, that person gets a +5 circumstance bonus on the check."
 		]
 	},
 	"puzzle_heel": {
@@ -915,7 +917,6 @@
 		"description": [
 			"## Raft",
 			"‹SOURCE Ultimate Equipment/87›  ",
-			"**Price** -; **Price of Passage** (per mile) 1 cp  ",
 			"::tabular{format=misc a=\"&mdash&\" c=x f=\"0.01\" d=trans e=Sea}",
 			"",
 			"The most basic and primitive type of watercraft, a raft is a simple, flat boat with no hull, often made of logs lashed together. It typically uses two to four ‹eq-misc/oar«s› for propulsion."
@@ -1357,7 +1358,7 @@
 			"‹SOURCE Ultimate Equipment/87;PRPG Core Rulebook/159›  ",
 			"::tabular{format=misc a=50 f=\"0.02\" d=trans e=Sea}",
 			"",
-			"This 8- to 12-foot-long boat with two ‹eq-misc/oar«s› holds two or three Medium passengers, and is either carried on the deck of a larger ship or moored to a dock onshore. A ‹rule/wv_>rowboat› moves about 1-1/2 miles per hour."
+			"This 8- to 12-foot-long boat with two ‹eq-misc/oar«s› holds two or three Medium passengers, and is either carried on the deck of a larger ship or moored to a dock onshore. A ‹rule/wv_>rowboat› moves about 1&frac12; miles per hour."
 		]
 	},
 	"rowboat_travel_per_mile": {
@@ -1525,7 +1526,6 @@
 		"description": [
 			"## Sailing ship",
 			"‹SOURCE Ultimate Equipment/87;PRPG Core Rulebook/159›  ",
-			"**Price** 10,000 gp; **Price of Passage** (per mile) 2 sp  ",
 			"::tabular{format=misc a=10000 f=\"0.2\" d=trans e=Sea}",
 			"",
 			"This large, seaworthy ship is 75 to 90 feet long, 20 feet wide, and has a crew of 20. It can carry 150 tons of cargo. It has square sails on its two masts and can make sea voyages. A ‹rule/wv_>sailing ship› moves about 2 miles per hour."
@@ -1762,7 +1762,7 @@
 			"‹SOURCE Ultimate Equipment/99›  ",
 			"::tabular{format=misc a=\"10 gp (map), 1 gp (text)\" b=\"&mdash& (map), &mdash& (text)\" c=x d=lodgserv}",
 			"",
-			"A scribe is a literate person with clear handwriting who can take dictation or transcribe text documents. You must provide ink and writing materials, though the scribe can acquire these for you at half price. Scribes cannot copy magical writing. A scribe who can accurately copy a map is rare and demands a higher wage. The listed price is per day."
+			"A scribe is a literate person with clear handwriting who can take dictation or transcribe text documents. You must provide ‹eq-misc/ink› and writing materials, though the scribe can acquire these for you at half price. Scribes cannot copy magical writing. A scribe who can accurately copy a map is rare and demands a higher wage. The listed price is per day."
 		]
 	},
 	"scribe_text": {
@@ -2249,7 +2249,11 @@
 			"‹SOURCE Advanced Race Guide/165›  ",
 			"::tabular{format=misc a=5 b=x d=ent}",
 			"",
-			"Though wingless, ‹race/tengu«s› have long cast their thoughts toward the sky and flight. Built from paper glued to bamboo frames, their kites are painted with various colors and pictures. In addition to flying kites as a leisure activity, tengus also fly kites of various shades and patterns to send signal messages. Tengus have developed an extensive code of signals and can use their kites to display complex messages visible at great distances. A signal kite kit includes six small colored kites that can be hooked together in different patterns to facilitate complex messages. The kit also includes a spool and 300 feet of ‹eq-misc/twine›. Sending or interpreting a signal kite's message functions as described in the Bluff skill, but the sender and anyone trying to understand the message must also know Tengu."
+			"Though wingless, ‹race/tengu«s› have long cast their thoughts toward the sky and flight. Built from paper glued to bamboo frames, their kites are painted with various colors and pictures.",
+			"",
+			"In addition to flying kites as a leisure activity, tengus also fly kites of various shades and patterns to send signal messages. Tengus have developed an extensive code of signals and can use their kites to display complex messages visible at great distances. A signal kite kit includes six small colored kites that can be hooked together in different patterns to facilitate complex messages.",
+			"",
+			"The kit also includes a spool and 300 feet of ‹eq-misc/twine›. Sending or interpreting a signal kite's message functions as described in the ‹skill/Bluff› skill, but the sender and anyone trying to understand the message must also know Tengu."
 		]
 	},
 	"signet_ring": {
@@ -2553,7 +2557,7 @@
 			"‹SOURCE PRPG Core Rulebook/159›  ",
 			"::tabular{format=misc a=20 f=x d=trans e=Land}",
 			"",
-			"This is a wagon on runners for snow and ice travel. In general, two horses (or other beasts of burden) draw it. A sled comes with the ‹eq-misc/harness› needed to pull it."
+			"This is a ‹eq-misc/wagon› on runners for snow and ice travel. In general, two ‹eq-misc/horse«s› (or other beasts of burden) draw it. A sled comes with the ‹eq-misc/harness› needed to pull it."
 		]
 	},
 	"sled_travel_per_mile": {
@@ -2593,7 +2597,7 @@
 			"‹SOURCE Ultimate Equipment/87›  ",
 			"::tabular{format=misc a=100 f=\"0.02\" d=trans e=Land}",
 			"",
-			"This wagon has runners, making it an ideal conveyance for snow and ice travel. In general, two horses (or other beasts of burden) are needed to draw it. A sled comes with the ‹eq-misc/harness› required to pull it."
+			"This ‹eq-misc/wagon› has runners, making it an ideal conveyance for snow and ice travel. In general, two ‹eq-misc/horse«s› (or other beasts of burden) are needed to draw it. A sleigh comes with the ‹eq-misc/harness› required to pull it."
 		]
 	},
 	"sleigh_travel_per_mile": {
@@ -2725,7 +2729,7 @@
 			"‹SOURCE Villain Codex/116›  ",
 			"::tabular{format=misc a=Varies f=Varies d=trans e=Land}",
 			"",
-			"A smuggler's wagon functions in most respects exactly like an ordinary wagon, except it contains hidden compartments that allow for cargo to be transported in secret. The price of a smuggler's wagon depends on two factors - the size or type of the original ‹eq-misc/wagon›, and the skill with which the hidden compartments have been constructed. The table below details the prices of such a vehicle (the DC is for a Perception check to successfully locate the hidden compartments during a search of the wagon).",
+			"A smuggler's wagon functions in most respects exactly like an ordinary wagon, except it contains hidden compartments that allow for cargo to be transported in secret. The price of a smuggler's wagon depends on two factors - the size or type of the original ‹eq-misc/wagon›, and the skill with which the hidden compartments have been constructed. The table below details the prices of such a vehicle (the DC is for a ‹skill/Perception› check to successfully locate the hidden compartments during a search of the wagon).",
 			"",
 			"| Size | DC 15 | DC 20 | DC 25 |",
 			"| --- | --- | --- | --- |",
@@ -3094,7 +3098,7 @@
 			"",
 			"The indicated amount is how much it costs to get a spellcaster to cast a spell for you. This price assumes that you can go to the spellcaster and have the spell cast at her convenience (generally at least 24 hours later, so that the spellcaster has time to prepare the spell in question, though you may be lucky enough to find someone who has it prepared that day or a spontaneous caster who knows it). If you want to bring the spellcaster somewhere to cast a spell (for example, to cast ‹spell/dispel magic› on a magical seal in a dungeon) you need to negotiate with her; the default answer to such requests is typically no, since most people don't actually like to go on unexpected life-threatening adventures.",
 			"",
-			"The price given is for any spell that does not require a costly material component. If the spell includes a material component, add the cost of that component to the cost of the spell. If the spell has a focus component (other than a divine focus), add 1/10 the cost of that focus to the cost of the spell.",
+			"The price given is for any spell that does not require a costly material component. If the spell includes a material component, add the cost of that component to the cost of the spell. If the spell has a focus component (other than a divine focus), add &#8530; the cost of that focus to the cost of the spell.",
 			"",
 			"If a spell has dangerous consequences (such as ‹spell/contact other plane›, which has a risk of decreasing the caster's Intelligence and Charisma), the spellcaster will certainly require proof that you can and will pay for dealing with any such consequences (that is, assuming that the spellcaster even agrees to cast such a spell, which isn't certain). If these additional costs put the total spellcasting price above 3,000 gp, the spell is not generally available.",
 			"",
@@ -4359,7 +4363,11 @@
 			"‹SOURCE Advanced Race Guide/165›  ",
 			"::tabular{format=misc a=20 b=x d=ent}",
 			"",
-			"This small kite is usually painted with a fierce face and bright colors and is edged with serrated wooden blades. Its twine is strengthened by soaking it in glue and sometimes with crushed glass to give it a slight cutting edge. The kite has hardness 5 and 3 hit points. Participants in a kite battle make alternating sunder combat maneuvers against each other's kites; each successful maneuver allows a competitor to roll 1d6 points of damage against the opponent's kite. When a kite reaches 0 hit points, it is broken or its string is cut, and its player loses the match. In some matches, points are awarded for touching the kite's top to the opponent's string, with the winner being the first to reach a set point total. Those interested in kite-fighting may select the terror kite as a weapon for the purpose of feats such as ‹feat/Weapon Focus› and ‹feat/Weapon Specialization›, and apply these bonuses on kite damage rolls and on their sunder combat maneuver attempts made while using terror kites."
+			"This small kite is usually painted with a fierce face and bright colors and is edged with serrated wooden blades. Its twine is strengthened by soaking it in glue and sometimes with crushed glass to give it a slight cutting edge. The kite has ‹rule/hardness› 5 and 3 hit points.",
+			"",
+			"Participants in a kite battle make alternating ‹rule/sunder› combat maneuvers against each other's kites; each successful maneuver allows a competitor to roll 1d6 points of damage against the opponent's kite. When a kite reaches 0 hit points, it is broken or its string is cut, and its player loses the match. In some matches, points are awarded for touching the kite's top to the opponent's string, with the winner being the first to reach a set point total.",
+			"",
+			"Those interested in kite-fighting may select the terror kite as a weapon for the purpose of feats such as ‹feat/Weapon Focus› and ‹feat/Weapon Specialization›, and apply these bonuses on kite damage rolls and on their sunder combat maneuver attempts made while using terror kites."
 		]
 	},
 	"the_prophecies_of_kalistrade": {

@@ -459,7 +459,7 @@
 			"‹SOURCE Ultimate Equipment/99›  ",
 			"::tabular{format=misc a=1 b=x d=lodgserv}",
 			"",
-			"A doctor is a person skilled in nonmagical healing and medicine. A typical doctor is a 3rd-level expert with 3 ranks in ‹skill/Heal›, the ‹feat/Skill Focus› (Heal) feat, and ranks in other valuable skills such as ‹skill/Knowledge (nature)› and ‹skill/Knowledge (religion)›. An experienced doctor is up to 5th level, has additional ranks in appropriate skills, and is paid five to 10 times as much; however, these doctors are in high demand and are usually employed full-time by royalty. A doctor generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day."
+			"A doctor is a person skilled in nonmagical healing and medicine. A typical doctor is a 3rd-level ‹npcclass/expert› with 3 ranks in ‹skill/Heal›, the ‹feat/Skill Focus› (Heal) feat, and ranks in other valuable skills such as ‹skill/Knowledge (nature)› and ‹skill/Knowledge (religion)›. An experienced doctor is up to 5th level, has additional ranks in appropriate skills, and is paid five to 10 times as much; however, these doctors are in high demand and are usually employed full-time by royalty. A doctor generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day."
 		]
 	},
 	"doctors_mask": {
@@ -584,7 +584,7 @@
 			"‹SOURCE Ultimate Equipment/87;Adventurer's Armory/19;Advanced Player's Guide/185;Pathfinder #51: The Hungry Storm/67›  ",
 			"::tabular{format=misc a=20 f=\"0.03\" d=trans e=Land}",
 			"",
-			"This sled is designed to be pulled over snow and ice by a team of trained ‹eq-misc/riding dog«s›. Most sleds have runners at the back for a musher to stand on. A dog sled can carry up to the capacity of all the dogs that pull it."
+			"This ‹eq-misc/sled› is designed to be pulled over snow and ice by a team of trained ‹eq-misc/riding dog«s›. Most sleds have runners at the back for a musher to stand on. A dog sled can carry up to the capacity of all the dogs that pull it."
 		]
 	},
 	"dog_sled_travel_per_mile": {
@@ -1939,7 +1939,7 @@
 			"‹SOURCE Ultimate Equipment/99›  ",
 			"::tabular{format=misc a=\"0.7\" b=x d=lodgserv}",
 			"",
-			"A nurse is a person familiar with healing and medicine. A typical nurse is a 1st-level expert with 1 rank in ‹skill/Heal› and the ‹feat/Skill Focus› (Heal) feat. An experienced nurse is 3rd or 4th level, has additional ranks in Heal, and is paid two to three times as much; however, these nurses are in high demand and are normally employed full-time by wealthy merchants or nobles to look after children and elderly family members. A nurse generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day."
+			"A nurse is a person familiar with healing and medicine. A typical nurse is a 1st-level ‹npcclass/expert› with 1 rank in ‹skill/Heal› and the ‹feat/Skill Focus› (Heal) feat. An experienced nurse is 3rd or 4th level, has additional ranks in Heal, and is paid two to three times as much; however, these nurses are in high demand and are normally employed full-time by wealthy merchants or nobles to look after children and elderly family members. A nurse generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day."
 		]
 	},
 	"nushadir": {
@@ -3659,7 +3659,6 @@
 		"description": [
 			"## Wagon",
 			"‹SOURCE Ultimate Equipment/87›  ",
-			"**Price** 100 gp (heavy), 50 gp (light), 75 gp (medium); **Price of Passage** 3 cp (heavy), 2 cp (light), 2 cp (medium)",
 			"",
 			"This four-wheeled open vehicle is used for transporting heavy loads. It includes the ‹eq-misc/harness› needed to pull it. There are three common varieties of wagon.",
 			"",
@@ -3686,7 +3685,7 @@
 			"‹SOURCE PRPG Core Rulebook/159, 163›  ",
 			"::tabular{format=misc id=basic a=35 b=400 d=gear}",
 			"",
-			"A four-wheeled, open vehicle for transporting heavy loads. Two horses (or other beasts of burden) must draw it. A wagon comes with the harness needed to pull it."
+			"A four-wheeled, open vehicle for transporting heavy loads. Two ‹eq-misc/horse«s› (or other beasts of burden) must draw it. A wagon comes with the harness needed to pull it."
 		]
 	},
 	"wagon_heavy_travel_per_mile": {
@@ -3796,7 +3795,7 @@
 			"‹SOURCE Ultimate Equipment/87;PRPG Core Rulebook/159›  ",
 			"::tabular{format=misc a=25000 f=\"0.2\" d=trans e=Sea}",
 			"",
-			"This 100-foot-long ship has a single mast, although oars can also propel it. It has a crew of 60 to 80 rowers. This ‹rule/wv_war>ship› can carry 160 soldiers, but not for long distances, since there isn't room for supplies to support that many people. A warship cannot make sea voyages and sticks to the coast. It is not used for cargo. It moves about 2-1/2 miles per hour when being rowed or under sail."
+			"This 100-foot-long ship has a single mast, although oars can also propel it. It has a crew of 60 to 80 rowers. This ‹rule/wv_war>ship› can carry 160 soldiers, but not for long distances, since there isn't room for supplies to support that many people. A warship cannot make sea voyages and sticks to the coast. It is not used for cargo. It moves about 2&frac12; miles per hour when being rowed or under sail."
 		]
 	},
 	"warship_travel_per_mile": {
@@ -4167,9 +4166,9 @@
 			"",
 			"A wind platform is so-called because it remains at the mercy of the winds, as it has no propulsion system of its own and can therefore not be used as much more than an airborne watchtower or platform for the deployment of siege engines.",
 			"",
-			"The basket of a wind platform can hold as many as six Medium creatures and two Large direct-fire siege engines, or any combination of smaller creatures and siege engines occupying the same space. The platform cannot withstand a carried weight of more than 3,000 lbs.",
+			"The basket of a wind platform can hold as many as six Medium creatures and two Large direct-fire ‹main/equipment_>siege engines›, or any combination of smaller creatures and siege engines occupying the same space. The platform cannot withstand a carried weight of more than 3,000 lbs.",
 			"",
-			"A wind platform has AC 4, harness 5, and 250 hp, and takes double damage from acid and fire attacks. When reduced to half its total hit points (125 hp) the platform begins to descend at a rate of 20 ft. per round. When reduced to one-quarter its total hit points (62 hp), the rate of descent increases to 60 ft. per round. When destroyed, all creatures and items on the wind platform simply fall as normal."
+			"A wind platform has AC 4, ‹umr/hardness› 5, and 250 hp, and takes double damage from acid and fire attacks. When reduced to half its total hit points (125 hp) the platform begins to descend at a rate of 20 ft. per round. When reduced to one-quarter its total hit points (62 hp), the rate of descent increases to 60 ft. per round. When destroyed, all creatures and items on the wind platform simply ‹rule/fall› as normal."
 		]
 	},
 	"windup_music_box": {

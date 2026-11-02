@@ -1325,7 +1325,9 @@ const _book_of_letters = {title: "Book of letters", jsx: <><h2 id="eq-misc-book_
 const _book_of_puzzles = {title: "Book of puzzles", jsx: <><h2 id="eq-misc-book_of_puzzles-book-of-puzzles">Book of puzzles</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 202</Link>  </p>
 <Tabular format="misc" a="50" b="1" d="ent" />
-<p>Each book contains 10 puzzles made to test the mind and stir the intellect. Solving a single puzzle requires at least an hour and a successful DC 10 Intelligence check, though every 5 points by which you exceed the check reduces the amount of time you need to solve the puzzle by 10 minutes (to a minimum of 10 minutes to solve an individual puzzle). Once you solve a puzzle, for the next 24 hours you can choose to roll twice on a single Disable Device, Knowledge, or Sense Motive skill check and take the higher result. Once all the puzzles are solved, the book is useless, though you can purchase another puzzle book with different puzzles.</p>
+<p>Each book contains 10 puzzles made to test the mind and stir the intellect. Solving a single puzzle requires at least an hour and a successful DC 10 Intelligence check, though every 5 points by which you exceed the check reduces the amount of time you need to solve the puzzle by 10 minutes (to a minimum of 10 minutes to solve an individual puzzle).</p>
+<p><Icons id="eq-misc-book_of_puzzles-roll-icons" wrapper="prefixIcon" list={["roll"]} /> Once you solve a puzzle, for the next 24 hours you can choose to roll twice on a single <Link to="/skill/disable_device">Disable Device</Link>, <Link to="/skill/knowledge">Knowledge</Link>, or <Link to="/skill/sense_motive">Sense Motive</Link> skill check and take the higher result.</p>
+<p>Once all the puzzles are solved, the book is useless, though you can purchase another puzzle book with different puzzles.</p>
 </>};
 const _book_of_war_prayers = {title: "Book of war prayers", jsx: <><h2 id="eq-misc-book_of_war_prayers-book-of-war-prayers">Book of war prayers</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 202</Link>  </p>
@@ -1649,7 +1651,9 @@ const _caphorite_dust = {title: "Caphorite dust", jsx: <><h2 id="eq-misc-caphori
 const _caravan_masters_wagon = {title: "Caravan master's wagon", jsx: <><h2 id="eq-misc-caravan_masters_wagon-caravan-masters-wagon">Caravan master's wagon</h2>
 <p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 116</Link>  </p>
 <Tabular format="misc" a="1000" d="trans" e="Land" f="x" />
-<p>The caravan master's wagon is similar in most respects to a high-quality heavy <Link to="/eq-misc/smugglers_wagon">smuggler's wagon</Link>, but it additionally allows for a hidden <Link to="/magic-wondrous/portable_hole">portable hole</Link> (price not included above) secreted within in it. The portable hole rests upon the surface of the wagon bed, with a second layer of wooden planks laid atop it and fastened into place with nuts and bolts so they appear to be a normal part of the wagon. Thus the portable hole sits between the layers of wood like a thin cut of meat between two slices of bread. Those who know about the portable hole can fill it with illicit goods and then fasten the second layer of decking in place and load normal cargo atop it. The wagon weighs no more than it should. This setup allows for the transport of live cargo (rendered suitably silent or unconscious, if necessary), as the planks atop the opening of the portable hole are spaced just far enough apart to allow in breathable air, if the smugglers leave the hole open and attached. Unless someone knows what to look for, a successful DC 30 Perception check is necessary to discover the hidden second layer.</p>
+<p>The caravan master's wagon is similar in most respects to a high-quality heavy <Link to="/eq-misc/smugglers_wagon">smuggler's wagon</Link>, but it additionally allows for a hidden <Link to="/magic-wondrous/portable_hole">portable hole</Link> (price not included above) secreted within in it. The portable hole rests upon the surface of the wagon bed, with a second layer of wooden planks laid atop it and fastened into place with nuts and bolts so they appear to be a normal part of the wagon. Thus the portable hole sits between the layers of wood like a thin cut of meat between two slices of bread.</p>
+<p>Those who know about the portable hole can fill it with illicit goods and then fasten the second layer of decking in place and load normal cargo atop it. The wagon weighs no more than it should. This setup allows for the transport of live cargo (rendered suitably silent or unconscious, if necessary), as the planks atop the opening of the portable hole are spaced just far enough apart to allow in breathable air, if the smugglers leave the hole open and attached.</p>
+<p>Unless someone knows what to look for, a successful DC 30 <Link to="/skill/perception">Perception</Link> check is necessary to discover the hidden second layer.</p>
 </>};
 const _cardice_oil = {title: "Cardice oil", jsx: <><h2 id="eq-misc-cardice_oil-cardice-oil">Cardice oil</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 26</Link>  </p>
@@ -1670,7 +1674,7 @@ const _carnivore_feed_per_day = {title: "Carnivore feed (per day)", jsx: <><h2 i
 const _carriage = {title: "Carriage", jsx: <><h2 id="eq-misc-carriage-carriage">Carriage</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
 <Tabular format="misc" a="100" d="trans" e="Land" f="3" />
-<p>This four-wheeled vehicle can transport as many as four people within an enclosed cab, plus two drivers. In general, two horses (or other beasts of burden) draw it. A carriage comes with the <Link to="/eq-misc/harness">harness</Link> needed to pull it.</p>
+<p>This four-wheeled vehicle can transport as many as four people within an enclosed cab, plus two drivers. In general, two <Link to="/eq-misc/horse">horses</Link> (or other beasts of burden) draw it. A carriage comes with the <Link to="/eq-misc/harness">harness</Link> needed to pull it.</p>
 </>};
 const _carrion_bait = {title: "Carrion bait", jsx: <><h2 id="eq-misc-carrion_bait-carrion-bait">Carrion bait</h2>
 <p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 11</Link>  </p>
@@ -1682,7 +1686,7 @@ const _carrion_bait = {title: "Carrion bait", jsx: <><h2 id="eq-misc-carrion_bai
 const _cart = {title: "Cart", jsx: <><h2 id="eq-misc-cart-cart">Cart</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
 <Tabular format="misc" a="15" f="0.01" d="trans" e="Land" />
-<p>This two-wheeled vehicle can be drawn by a single horse or other beast of burden, and is often used to transport goods across short distances. It comes with a <Link to="/eq-misc/harness">harness</Link>.</p>
+<p>This two-wheeled vehicle can be drawn by a single <Link to="/eq-misc/horse">horse</Link> or other beast of burden, and is often used to transport goods across short distances. It comes with a <Link to="/eq-misc/harness">harness</Link>.</p>
 </>};
 const _casting_plaster = {title: "Casting plaster", jsx: <><h2 id="eq-misc-casting_plaster-casting-plaster">Casting plaster</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>  </p>
@@ -1820,16 +1824,16 @@ const _charda_claws = {title: "Charda claws", jsx: <><h2 id="eq-misc-charda_claw
 </>};
 const _chariot = {hasJL:true,title: "Chariot", jsx: <><div className="jumpList" id="eq-misc-chariot-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-chariot-light-chariots">Light Chariots</InnerLink></li><li><InnerLink toTop to="eq-misc-chariot-medium-chariots">Medium Chariots</InnerLink></li><li><InnerLink toTop to="eq-misc-chariot-heavy-chariots">Heavy Chariots</InnerLink></li></ul></div><h2 id="eq-misc-chariot-chariot">Chariot</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>  </p>
-<p>This two-wheeled vehicle is drawn by a horse. There are three varieties of chariots.</p>
+<p>This two-wheeled vehicle is drawn by a <Link to="/eq-misc/horse">horse</Link>. There are three varieties of chariots.</p>
 <h3 id="eq-misc-chariot-light-chariots" data-hash-target>Light Chariots</h3>
 <Tabular format="misc" id="light" a="50" d="trans" e="Land" f="0.02" />
-<p> These chariots are often used for racing or as the platform for a single archer charging across the battlefield at high speed.</p>
+<p>These chariots are often used for racing or as the platform for a single archer charging across the battlefield at high speed.</p>
 <h3 id="eq-misc-chariot-medium-chariots" data-hash-target>Medium Chariots</h3>
 <Tabular format="misc" id="medium" a="100" d="trans" e="Land" f="0.02" />
-<p> These chariots are used in battle to break apart infantry formations or as fast-moving fighting platforms.</p>
+<p>These chariots are used in battle to break apart infantry formations or as fast-moving fighting platforms.</p>
 <h3 id="eq-misc-chariot-heavy-chariots" data-hash-target>Heavy Chariots</h3>
 <Tabular format="misc" id="heavy" a="200" d="trans" e="Land" f="0.02" />
-<p> This type of chariot is typically used as a fighting platform or for transporting material quickly onto the battlefield.</p>
+<p>This type of chariot is typically used as a fighting platform or for transporting material quickly onto the battlefield.</p>
 </>};
 const _chausses = {title: "Chausses", jsx: <><h2 id="eq-misc-chausses-chausses">Chausses</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 20</Link>  </p>
@@ -2032,8 +2036,9 @@ const _combat_scabbard = {title: "Combat scabbard", jsx: <><h2 id="eq-misc-comba
 </>};
 const _commissioned_broadsheet_setup_and_proof_print = {title: "Commissioned broadsheet (setup and proof print)", jsx: <><h2 id="eq-misc-commissioned_broadsheet_setup_and_proof_print-commissioned-broadsheet">Commissioned broadsheet</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 5</Link>  </p>
-<Tabular format="misc" a="150 gp (print run (500 broadsheets)), 50 gp (setup and proof print)" b="- (print run (500 broadsheets)), - (setup and proof print)" c="x" d="lodgserv" />
-<p>It takes 2 to 4 weeks for printers reproducing large images or those who have only engraved-plate printing presses to prepare the plate for a commissioned <Link to="/eq-misc/broadsheet">broadsheet</Link>. Printers with movable-type printing presses can prepare a text-only broadsheet in as little as 4 hours. Once the setup is complete (which includes a proof print), the printer can produce up to 500 copies of the broadsheet daily (about 60 per hour). A commissioned broadsheet can be used to spread a rumor requiring the author to attempt any necessary skill checks. The author takes a -8 penalty on these checks because the broadsheet cannot provide vocal or nonverbal cues, but if he's successful, spreading the rumor takes only 1d4 days (or 1 day, if smaller than a small town). If the broadsheets are delivered by trained criers or others attempting to spread the rumor, use the propaganda check result of either the author or the crier (whichever is higher) with a +2 bonus.</p>
+<Tabular format="misc" a="150 gp (print run (500 broadsheets)), 50 gp (setup and proof print)" b="&mdash;" c="x" d="lodgserv" />
+<p>It takes 2 to 4 weeks for printers reproducing large images or those who have only engraved-plate printing presses to prepare the plate for a commissioned <Link to="/eq-misc/broadsheet">broadsheet</Link>. Printers with movable-type printing presses can prepare a text-only broadsheet in as little as 4 hours. Once the setup is complete (which includes a proof print), the printer can produce up to 500 copies of the broadsheet daily (about 60 per hour).</p>
+<p><Icons id="eq-misc-commissioned_broadsheet_setup_and_proof_print-power-icons" wrapper="prefixIcon" list={["power"]} /> A commissioned broadsheet can be used to <Link to="/rule/spread_a_rumor">spread a rumor</Link> requiring the author to attempt any necessary skill checks. The author takes a -8 penalty on these checks because the broadsheet cannot provide vocal or nonverbal cues, but if he's successful, spreading the rumor takes only 1d4 days (or 1 day, if smaller than a small town). If the broadsheets are delivered by trained <Link to="/eq-misc/crier">criers</Link> or others attempting to spread the rumor, use the propaganda check result of either the author or the crier (whichever is higher) with a +2 bonus.</p>
 </>};
 const _compact_spellbook = {title: "Compact spellbook", jsx: <><h2 id="eq-misc-compact_spellbook-compact-spellbook">Compact spellbook</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 27</Link>  </p>

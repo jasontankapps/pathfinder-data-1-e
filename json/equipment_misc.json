@@ -2859,7 +2859,11 @@
 			"‹SOURCE Advanced Class Guide/202›  ",
 			"::tabular{format=misc a=50 b=1 d=ent}",
 			"",
-			"Each book contains 10 puzzles made to test the mind and stir the intellect. Solving a single puzzle requires at least an hour and a successful DC 10 Intelligence check, though every 5 points by which you exceed the check reduces the amount of time you need to solve the puzzle by 10 minutes (to a minimum of 10 minutes to solve an individual puzzle). Once you solve a puzzle, for the next 24 hours you can choose to roll twice on a single Disable Device, Knowledge, or Sense Motive skill check and take the higher result. Once all the puzzles are solved, the book is useless, though you can purchase another puzzle book with different puzzles."
+			"Each book contains 10 puzzles made to test the mind and stir the intellect. Solving a single puzzle requires at least an hour and a successful DC 10 Intelligence check, though every 5 points by which you exceed the check reduces the amount of time you need to solve the puzzle by 10 minutes (to a minimum of 10 minutes to solve an individual puzzle).",
+			"",
+			"@I-roll Once you solve a puzzle, for the next 24 hours you can choose to roll twice on a single ‹skill/Disable Device›, ‹skill/Knowledge›, or ‹skill/Sense Motive› skill check and take the higher result.",
+			"",
+			"Once all the puzzles are solved, the book is useless, though you can purchase another puzzle book with different puzzles."
 		]
 	},
 	"book_of_war_prayers": {
@@ -3722,7 +3726,11 @@
 			"‹SOURCE Villain Codex/116›  ",
 			"::tabular{format=misc a=1000 d=trans e=Land f=x}",
 			"",
-			"The caravan master's wagon is similar in most respects to a high-quality heavy ‹eq-misc/smuggler's wagon›, but it additionally allows for a hidden ‹magic-wondrous/portable hole› (price not included above) secreted within in it. The portable hole rests upon the surface of the wagon bed, with a second layer of wooden planks laid atop it and fastened into place with nuts and bolts so they appear to be a normal part of the wagon. Thus the portable hole sits between the layers of wood like a thin cut of meat between two slices of bread. Those who know about the portable hole can fill it with illicit goods and then fasten the second layer of decking in place and load normal cargo atop it. The wagon weighs no more than it should. This setup allows for the transport of live cargo (rendered suitably silent or unconscious, if necessary), as the planks atop the opening of the portable hole are spaced just far enough apart to allow in breathable air, if the smugglers leave the hole open and attached. Unless someone knows what to look for, a successful DC 30 Perception check is necessary to discover the hidden second layer."
+			"The caravan master's wagon is similar in most respects to a high-quality heavy ‹eq-misc/smuggler's wagon›, but it additionally allows for a hidden ‹magic-wondrous/portable hole› (price not included above) secreted within in it. The portable hole rests upon the surface of the wagon bed, with a second layer of wooden planks laid atop it and fastened into place with nuts and bolts so they appear to be a normal part of the wagon. Thus the portable hole sits between the layers of wood like a thin cut of meat between two slices of bread.",
+			"",
+			"Those who know about the portable hole can fill it with illicit goods and then fasten the second layer of decking in place and load normal cargo atop it. The wagon weighs no more than it should. This setup allows for the transport of live cargo (rendered suitably silent or unconscious, if necessary), as the planks atop the opening of the portable hole are spaced just far enough apart to allow in breathable air, if the smugglers leave the hole open and attached.",
+			"",
+			"Unless someone knows what to look for, a successful DC 30 ‹skill/Perception› check is necessary to discover the hidden second layer."
 		]
 	},
 	"cardice_oil": {
@@ -3774,7 +3782,7 @@
 			"‹SOURCE Ultimate Equipment/87;PRPG Core Rulebook/159›  ",
 			"::tabular{format=misc a=100 d=trans e=Land f=3}",
 			"",
-			"This four-wheeled vehicle can transport as many as four people within an enclosed cab, plus two drivers. In general, two horses (or other beasts of burden) draw it. A carriage comes with the ‹eq-misc/harness› needed to pull it."
+			"This four-wheeled vehicle can transport as many as four people within an enclosed cab, plus two drivers. In general, two ‹eq-misc/horse«s› (or other beasts of burden) draw it. A carriage comes with the ‹eq-misc/harness› needed to pull it."
 		]
 	},
 	"carriage_travel_per_mile": {
@@ -3807,7 +3815,7 @@
 			"‹SOURCE Ultimate Equipment/87;PRPG Core Rulebook/159›  ",
 			"::tabular{format=misc a=15 f=\"0.01\" d=trans e=Land}",
 			"",
-			"This two-wheeled vehicle can be drawn by a single horse or other beast of burden, and is often used to transport goods across short distances. It comes with a ‹eq-misc/harness›."
+			"This two-wheeled vehicle can be drawn by a single ‹eq-misc/horse› or other beast of burden, and is often used to transport goods across short distances. It comes with a ‹eq-misc/harness›."
 		]
 	},
 	"cart_travel_per_mile": {
@@ -4147,25 +4155,25 @@
 			"## Chariot",
 			"‹SOURCE Ultimate Equipment/87›  ",
 			"",
-			"This two-wheeled vehicle is drawn by a horse. There are three varieties of chariots.",
+			"This two-wheeled vehicle is drawn by a ‹eq-misc/horse›. There are three varieties of chariots.",
 			"",
 			"::h3[Light Chariots]{jl}",
 			"",
 			"::tabular{format=misc id=light a=50 d=trans e=Land f=\"0.02\"}",
 			"",
-			" These chariots are often used for racing or as the platform for a single archer charging across the battlefield at high speed.",
+			"These chariots are often used for racing or as the platform for a single archer charging across the battlefield at high speed.",
 			"",
 			"::h3[Medium Chariots]{jl}",
 			"",
 			"::tabular{format=misc id=medium a=100 d=trans e=Land f=\"0.02\"}",
 			"",
-			" These chariots are used in battle to break apart infantry formations or as fast-moving fighting platforms.",
+			"These chariots are used in battle to break apart infantry formations or as fast-moving fighting platforms.",
 			"",
 			"::h3[Heavy Chariots]{jl}",
 			"",
 			"::tabular{format=misc id=heavy a=200 d=trans e=Land f=\"0.02\"}",
 			"",
-			" This type of chariot is typically used as a fighting platform or for transporting material quickly onto the battlefield."
+			"This type of chariot is typically used as a fighting platform or for transporting material quickly onto the battlefield."
 		]
 	},
 	"chariot_heavy": {
@@ -4692,9 +4700,11 @@
 		"description": [
 			"## Commissioned broadsheet",
 			"‹SOURCE Merchant's Manifest/5›  ",
-			"::tabular{format=misc a=\"150 gp (print run (500 broadsheets)), 50 gp (setup and proof print)\" b=\"- (print run (500 broadsheets)), - (setup and proof print)\" c=x d=lodgserv}",
+			"::tabular{format=misc a=\"150 gp (print run (500 broadsheets)), 50 gp (setup and proof print)\" b=\"&mdash&\" c=x d=lodgserv}",
 			"",
-			"It takes 2 to 4 weeks for printers reproducing large images or those who have only engraved-plate printing presses to prepare the plate for a commissioned ‹eq-misc/broadsheet›. Printers with movable-type printing presses can prepare a text-only broadsheet in as little as 4 hours. Once the setup is complete (which includes a proof print), the printer can produce up to 500 copies of the broadsheet daily (about 60 per hour). A commissioned broadsheet can be used to spread a rumor requiring the author to attempt any necessary skill checks. The author takes a -8 penalty on these checks because the broadsheet cannot provide vocal or nonverbal cues, but if he's successful, spreading the rumor takes only 1d4 days (or 1 day, if smaller than a small town). If the broadsheets are delivered by trained criers or others attempting to spread the rumor, use the propaganda check result of either the author or the crier (whichever is higher) with a +2 bonus."
+			"It takes 2 to 4 weeks for printers reproducing large images or those who have only engraved-plate printing presses to prepare the plate for a commissioned ‹eq-misc/broadsheet›. Printers with movable-type printing presses can prepare a text-only broadsheet in as little as 4 hours. Once the setup is complete (which includes a proof print), the printer can produce up to 500 copies of the broadsheet daily (about 60 per hour).",
+			"",
+			"@I-power A commissioned broadsheet can be used to ‹rule/spread a rumor› requiring the author to attempt any necessary skill checks. The author takes a -8 penalty on these checks because the broadsheet cannot provide vocal or nonverbal cues, but if he's successful, spreading the rumor takes only 1d4 days (or 1 day, if smaller than a small town). If the broadsheets are delivered by trained ‹eq-misc/crier«s› or others attempting to spread the rumor, use the propaganda check result of either the author or the crier (whichever is higher) with a +2 bonus."
 		]
 	},
 	"commissioned_broadsheet_print_run_500_broadsheets": {

@@ -302,7 +302,8 @@ const _purity_test = {title: "Purity test", jsx: <><h2 id="eq-misc-purity_test-p
 const _puzzle_box = {title: "Puzzle box", jsx: <><h2 id="eq-misc-puzzle_box-puzzle-box">Puzzle box</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 92</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="1 gp-1,000 gp" b="1 lb.-5 lbs." c="x" d="ent" />
-<p>This box features moving parts, secret panels, or unusual codes and locking mechanisms. Depending on the box, a Disable Device, Knowledge (engineering), Linguistics, or simple Intelligence check might open it. The DC of the check varies with the complexity of the box, but is typically 15 or 20 (retry once per day). Multiple skill checks might be necessary for different stages of the puzzle. If the puzzle box was constructed with the intention that one specific person should be able to open it, that person gets a +5 circumstance bonus on the check.</p>
+<p>This box features moving parts, secret panels, or unusual codes and locking mechanisms. Depending on the box, a <Link to="/skill/disable_device">Disable Device</Link>, <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link>, <Link to="/skill/linguistics">Linguistics</Link>, or simple Intelligence check might open it. The DC of the check varies with the complexity of the box, but is typically 15 or 20 (retry once per day). Multiple skill checks might be necessary for different stages of the puzzle.</p>
+<p><Icons id="eq-misc-puzzle_box-boost-icons" wrapper="prefixIcon" list={["boost"]} /> If the puzzle box was constructed with the intention that one specific person should be able to open it, that person gets a +5 circumstance bonus on the check.</p>
 </>};
 const _puzzle_heel = {title: "Puzzle heel", jsx: <><h2 id="eq-misc-puzzle_heel-puzzle-heel">Puzzle heel</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 234</Link>  </p>
@@ -414,7 +415,7 @@ const _rack = {title: "Rack", jsx: <><h2 id="eq-misc-rack-rack">Rack</h2>
 <p>The rack is one of the most infamous and feared devices in the torturer's arsenal, capable of inflicting ruinous damage to a victim's body. Helpless victims are splayed across the device's frame, and each limb is lashed to a central windlass. Each turn of the crank deals a cumulative 1d6 points of nonlethal damage, up to 4d6 points of nonlethal damage on the fourth turn. Each subsequent turn after the fourth deals 4d6 points of nonlethal damage and deals 1 point of <Link to="/rule/ability_damage">damage</Link> each to the victim's Strength, Dexterity, and Constitution scores as it dislocates limbs, cracks cartilage, and breaks bone. Some racks are fitted with spiked wheels that puncture the victim's body, dealing lethal damage rather than nonlethal damage. Escaping from a rack requires a successful DC 30 <Link to="/skill/escape_artist">Escape Artist</Link> check.</p>
 </>};
 const _raft = {title: "Raft", jsx: <><h2 id="eq-misc-raft-raft">Raft</h2>
-<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link><br/><strong>Price</strong> -; <strong>Price of Passage</strong> (per mile) 1 cp  </p>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>  </p>
 <Tabular format="misc" a="&mdash;" c="x" f="0.01" d="trans" e="Sea" />
 <p>The most basic and primitive type of watercraft, a raft is a simple, flat boat with no hull, often made of logs lashed together. It typically uses two to four <Link to="/eq-misc/oar">oars</Link> for propulsion.</p>
 </>};
@@ -589,7 +590,7 @@ const _rounders_gear = {title: "Rounders gear", jsx: <><h2 id="eq-misc-rounders_
 const _rowboat = {title: "Rowboat", jsx: <><h2 id="eq-misc-rowboat-rowboat">Rowboat</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
 <Tabular format="misc" a="50" f="0.02" d="trans" e="Sea" />
-<p>This 8- to 12-foot-long boat with two <Link to="/eq-misc/oar">oars</Link> holds two or three Medium passengers, and is either carried on the deck of a larger ship or moored to a dock onshore. A <Link to="/rule/wv_rowboat">rowboat</Link> moves about 1-1/2 miles per hour.</p>
+<p>This 8- to 12-foot-long boat with two <Link to="/eq-misc/oar">oars</Link> holds two or three Medium passengers, and is either carried on the deck of a larger ship or moored to a dock onshore. A <Link to="/rule/wv_rowboat">rowboat</Link> moves about 1&frac12; miles per hour.</p>
 </>};
 const _royal_outfit = {title: "Royal outfit", jsx: <><h2 id="eq-misc-royal_outfit-royal-outfit">Royal outfit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
@@ -641,7 +642,7 @@ const _saddlebags = {title: "Saddlebags", jsx: <><h2 id="eq-misc-saddlebags-sadd
 <p>These sturdy, weatherproof bags are draped over a saddle to add extra carrying capacity. Each side of a saddlebag can typically carry 20 pound of items that can fit in the bags. Saddlebags do not increase the amount of weight a mount can carry; they merely give riders a place to stow their equipment.</p>
 </>};
 const _sailing_ship = {title: "Sailing ship", jsx: <><h2 id="eq-misc-sailing_ship-sailing-ship">Sailing ship</h2>
-<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link><br/><strong>Price</strong> 10,000 gp; <strong>Price of Passage</strong> (per mile) 2 sp  </p>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
 <Tabular format="misc" a="10000" f="0.2" d="trans" e="Sea" />
 <p>This large, seaworthy ship is 75 to 90 feet long, 20 feet wide, and has a crew of 20. It can carry 150 tons of cargo. It has square sails on its two masts and can make sea voyages. A <Link to="/rule/wv_sailing_ship">sailing ship</Link> moves about 2 miles per hour.</p>
 </>};
@@ -733,7 +734,7 @@ const _scorpion_greensting = {title: "Scorpion (greensting)", jsx: <><h2 id="eq-
 const _scribe_map = {title: "Scribe (map)", jsx: <><h2 id="eq-misc-scribe_map-scribe">Scribe</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 99</Link>  </p>
 <Tabular format="misc" a="10 gp (map), 1 gp (text)" b="&mdash; (map), &mdash; (text)" c="x" d="lodgserv" />
-<p>A scribe is a literate person with clear handwriting who can take dictation or transcribe text documents. You must provide ink and writing materials, though the scribe can acquire these for you at half price. Scribes cannot copy magical writing. A scribe who can accurately copy a map is rare and demands a higher wage. The listed price is per day.</p>
+<p>A scribe is a literate person with clear handwriting who can take dictation or transcribe text documents. You must provide <Link to="/eq-misc/ink">ink</Link> and writing materials, though the scribe can acquire these for you at half price. Scribes cannot copy magical writing. A scribe who can accurately copy a map is rare and demands a higher wage. The listed price is per day.</p>
 </>};
 const _scriveners_kit = {title: "Scrivener's kit", jsx: <><h2 id="eq-misc-scriveners_kit-scriveners-kit">Scrivener's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>  </p>
@@ -931,7 +932,9 @@ const _signal_horn = {title: "Signal horn", jsx: <><h2 id="eq-misc-signal_horn-s
 const _signal_kite_kit = {title: "Signal kite kit", jsx: <><h2 id="eq-misc-signal_kite_kit-signal-kite-kit">Signal kite kit</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 165</Link>  </p>
 <Tabular format="misc" a="5" b="x" d="ent" />
-<p>Though wingless, <Link to="/race/tengu">tengus</Link> have long cast their thoughts toward the sky and flight. Built from paper glued to bamboo frames, their kites are painted with various colors and pictures. In addition to flying kites as a leisure activity, tengus also fly kites of various shades and patterns to send signal messages. Tengus have developed an extensive code of signals and can use their kites to display complex messages visible at great distances. A signal kite kit includes six small colored kites that can be hooked together in different patterns to facilitate complex messages. The kit also includes a spool and 300 feet of <Link to="/eq-misc/twine">twine</Link>. Sending or interpreting a signal kite's message functions as described in the Bluff skill, but the sender and anyone trying to understand the message must also know Tengu.</p>
+<p>Though wingless, <Link to="/race/tengu">tengus</Link> have long cast their thoughts toward the sky and flight. Built from paper glued to bamboo frames, their kites are painted with various colors and pictures.</p>
+<p>In addition to flying kites as a leisure activity, tengus also fly kites of various shades and patterns to send signal messages. Tengus have developed an extensive code of signals and can use their kites to display complex messages visible at great distances. A signal kite kit includes six small colored kites that can be hooked together in different patterns to facilitate complex messages.</p>
+<p>The kit also includes a spool and 300 feet of <Link to="/eq-misc/twine">twine</Link>. Sending or interpreting a signal kite's message functions as described in the <Link to="/skill/bluff">Bluff</Link> skill, but the sender and anyone trying to understand the message must also know Tengu.</p>
 </>};
 const _signet_ring = {title: "Signet ring", jsx: <><h2 id="eq-misc-signet_ring-signet-ring">Signet ring</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -1048,7 +1051,7 @@ const _slayers_kit = {title: "Slayer's kit", jsx: <><h2 id="eq-misc-slayers_kit-
 const _sled = {title: "Sled", jsx: <><h2 id="eq-misc-sled-sled">Sled</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
 <Tabular format="misc" a="20" f="x" d="trans" e="Land" />
-<p>This is a wagon on runners for snow and ice travel. In general, two horses (or other beasts of burden) draw it. A sled comes with the <Link to="/eq-misc/harness">harness</Link> needed to pull it.</p>
+<p>This is a <Link to="/eq-misc/wagon">wagon</Link> on runners for snow and ice travel. In general, two <Link to="/eq-misc/horse">horses</Link> (or other beasts of burden) draw it. A sled comes with the <Link to="/eq-misc/harness">harness</Link> needed to pull it.</p>
 </>};
 const _sledge = {title: "Sledge", jsx: <><h2 id="eq-misc-sledge-sledge">Sledge</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -1063,7 +1066,7 @@ const _sleeve_holster = {title: "Sleeve holster", jsx: <><h2 id="eq-misc-sleeve_
 const _sleigh = {title: "Sleigh", jsx: <><h2 id="eq-misc-sleigh-sleigh">Sleigh</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>  </p>
 <Tabular format="misc" a="100" f="0.02" d="trans" e="Land" />
-<p>This wagon has runners, making it an ideal conveyance for snow and ice travel. In general, two horses (or other beasts of burden) are needed to draw it. A sled comes with the <Link to="/eq-misc/harness">harness</Link> required to pull it.</p>
+<p>This <Link to="/eq-misc/wagon">wagon</Link> has runners, making it an ideal conveyance for snow and ice travel. In general, two <Link to="/eq-misc/horse">horses</Link> (or other beasts of burden) are needed to draw it. A sleigh comes with the <Link to="/eq-misc/harness">harness</Link> required to pull it.</p>
 </>};
 const _slow_heart_concoction = {title: "Slow-heart concoction", jsx: <><h2 id="eq-misc-slow_heart_concoction-slow-heart-concoction">Slow-heart concoction</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 27</Link>  </p>
@@ -1115,7 +1118,7 @@ const _smokestick = {title: "Smokestick", jsx: <><h2 id="eq-misc-smokestick-smok
 const _smugglers_wagon = {title: "Smuggler's wagon", jsx: <><h2 id="eq-misc-smugglers_wagon-smugglers-wagon">Smuggler's wagon</h2>
 <p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 116</Link>  </p>
 <Tabular format="misc" a="Varies" f="Varies" d="trans" e="Land" />
-<p>A smuggler's wagon functions in most respects exactly like an ordinary wagon, except it contains hidden compartments that allow for cargo to be transported in secret. The price of a smuggler's wagon depends on two factors - the size or type of the original <Link to="/eq-misc/wagon">wagon</Link>, and the skill with which the hidden compartments have been constructed. The table below details the prices of such a vehicle (the DC is for a Perception check to successfully locate the hidden compartments during a search of the wagon).</p>
+<p>A smuggler's wagon functions in most respects exactly like an ordinary wagon, except it contains hidden compartments that allow for cargo to be transported in secret. The price of a smuggler's wagon depends on two factors - the size or type of the original <Link to="/eq-misc/wagon">wagon</Link>, and the skill with which the hidden compartments have been constructed. The table below details the prices of such a vehicle (the DC is for a <Link to="/skill/perception">Perception</Link> check to successfully locate the hidden compartments during a search of the wagon).</p>
 <ScrollContainer id="eq-misc-smugglers_wagon--table-0"><table>
 <thead>
 <tr>
@@ -1288,7 +1291,7 @@ const _spellcasting = {title: "Spellcasting", jsx: <><h2 id="eq-misc-spellcastin
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 99</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
 <Tabular format="misc" a="caster level &times; spell level &times; 10 gp" b="&mdash;" c="x" d="lodgserv" />
 <p>The indicated amount is how much it costs to get a spellcaster to cast a spell for you. This price assumes that you can go to the spellcaster and have the spell cast at her convenience (generally at least 24 hours later, so that the spellcaster has time to prepare the spell in question, though you may be lucky enough to find someone who has it prepared that day or a spontaneous caster who knows it). If you want to bring the spellcaster somewhere to cast a spell (for example, to cast <Link to="/spell/dispel_magic">dispel magic</Link> on a magical seal in a dungeon) you need to negotiate with her; the default answer to such requests is typically no, since most people don't actually like to go on unexpected life-threatening adventures.</p>
-<p>The price given is for any spell that does not require a costly material component. If the spell includes a material component, add the cost of that component to the cost of the spell. If the spell has a focus component (other than a divine focus), add 1/10 the cost of that focus to the cost of the spell.</p>
+<p>The price given is for any spell that does not require a costly material component. If the spell includes a material component, add the cost of that component to the cost of the spell. If the spell has a focus component (other than a divine focus), add &#8530; the cost of that focus to the cost of the spell.</p>
 <p>If a spell has dangerous consequences (such as <Link to="/spell/contact_other_plane">contact other plane</Link>, which has a risk of decreasing the caster's Intelligence and Charisma), the spellcaster will certainly require proof that you can and will pay for dealing with any such consequences (that is, assuming that the spellcaster even agrees to cast such a spell, which isn't certain). If these additional costs put the total spellcasting price above 3,000 gp, the spell is not generally available.</p>
 <p>In the case of spells that transport the caster and characters over a distance, you will likely have to pay for two castings of the spell (one for the caster to take you there and one for the caster to return), even if you aren't returning with the caster.</p>
 <p>Not every town or village has a spellcaster of sufficient level to cast any spell. In general, you must travel to <Link to="/rule/the_shape_of_civilization">a small town (or larger settlement)</Link> to be reasonably assured of finding a spellcaster capable of casting 1st-level spells, a large town for 2nd-level spells, a small city for 3rd- or 4th-level spells, a large city for 5th- or 6th-level spells, and a metropolis for 7th- or 8th-level spells. Even a metropolis isn't guaranteed to have a local spellcaster able to cast 9th-level spells.</p>
@@ -2067,7 +2070,9 @@ const _tepache_cup = {title: "Tepache (cup)", jsx: <><h2 id="eq-misc-tepache_cup
 const _terror_kite = {title: "Terror kite", jsx: <><h2 id="eq-misc-terror_kite-terror-kite">Terror kite</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 165</Link>  </p>
 <Tabular format="misc" a="20" b="x" d="ent" />
-<p>This small kite is usually painted with a fierce face and bright colors and is edged with serrated wooden blades. Its twine is strengthened by soaking it in glue and sometimes with crushed glass to give it a slight cutting edge. The kite has hardness 5 and 3 hit points. Participants in a kite battle make alternating sunder combat maneuvers against each other's kites; each successful maneuver allows a competitor to roll 1d6 points of damage against the opponent's kite. When a kite reaches 0 hit points, it is broken or its string is cut, and its player loses the match. In some matches, points are awarded for touching the kite's top to the opponent's string, with the winner being the first to reach a set point total. Those interested in kite-fighting may select the terror kite as a weapon for the purpose of feats such as <Link to="/feat/weapon_focus">Weapon Focus</Link> and <Link to="/feat/weapon_specialization">Weapon Specialization</Link>, and apply these bonuses on kite damage rolls and on their sunder combat maneuver attempts made while using terror kites.</p>
+<p>This small kite is usually painted with a fierce face and bright colors and is edged with serrated wooden blades. Its twine is strengthened by soaking it in glue and sometimes with crushed glass to give it a slight cutting edge. The kite has <Link to="/rule/hardness">hardness</Link> 5 and 3 hit points.</p>
+<p>Participants in a kite battle make alternating <Link to="/rule/sunder">sunder</Link> combat maneuvers against each other's kites; each successful maneuver allows a competitor to roll 1d6 points of damage against the opponent's kite. When a kite reaches 0 hit points, it is broken or its string is cut, and its player loses the match. In some matches, points are awarded for touching the kite's top to the opponent's string, with the winner being the first to reach a set point total.</p>
+<p>Those interested in kite-fighting may select the terror kite as a weapon for the purpose of feats such as <Link to="/feat/weapon_focus">Weapon Focus</Link> and <Link to="/feat/weapon_specialization">Weapon Specialization</Link>, and apply these bonuses on kite damage rolls and on their sunder combat maneuver attempts made while using terror kites.</p>
 </>};
 const _the_prophecies_of_kalistrade = {title: "The Prophecies of Kalistrade", jsx: <><h2 id="eq-misc-the_prophecies_of_kalistrade-the-prophecies-of-kalistrade">The Prophecies of Kalistrade</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>

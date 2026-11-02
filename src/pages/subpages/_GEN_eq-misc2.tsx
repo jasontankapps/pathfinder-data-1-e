@@ -560,7 +560,8 @@ const _half_orc_disguise_kit = {title: "Half-orc disguise kit", jsx: <><h2 id="e
 const _halfling_jugglesticks = {title: "Halfling jugglesticks", jsx: <><h2 id="eq-misc-halfling_jugglesticks-halfling-jugglesticks">Halfling jugglesticks</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 66</Link>  </p>
 <Tabular format="misc" a="25" b="1" d="ent" />
-<p>This group of four brightly colored sticks is adorned with colorful streamers that can be juggled and manipulated to create displays and patterns. Halflings use them to even greater effect, gaining a +2 circumstance bonus on Perform (comedy) checks.</p>
+<p>This group of four brightly colored sticks is adorned with colorful streamers that can be juggled and manipulated to create displays and patterns.</p>
+<p><Icons id="eq-misc-halfling_jugglesticks-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Halflings use them to even greater effect, gaining a +2 circumstance bonus on <Link to="/skill/perform">Perform</Link> (comedy) checks.</p>
 </>};
 const _halfling_trail_rations = {title: "Halfling trail rations", jsx: <><h2 id="eq-misc-halfling_trail_rations-halfling-trail-rations">Halfling trail rations</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>  </p>
@@ -620,7 +621,7 @@ const _harrow_deck = {title: "Harrow deck", jsx: <><h2 id="eq-misc-harrow_deck-h
 <Tabular format="misc" a="100" b="x" d="ent" />
 <p>This is a traditional <Link to="/eq-misc/fortune_telling_deck">fortune-telling deck</Link> of cards used by soothsayers and seers. Some harrow decks are elaborately illustrated, but most are parchment or paper cards with hand-painted images. Harrow decks are often handed down through generations and treated with utmost care by their users as a result.</p>
 <p>Each Harrow deck consists of 54 cards divided into six suits of nine cards. The six suits correspond to the six ability scores (hammer for Strength, key for Dexterity, shield for Constitution, book for Intelligence, star for Wisdom, and crown for Charisma). Each card in a suit further ties in with one of the nine alignments, corresponding to the location of the symbol on the face of the card. In addition, each card has its own unique name, independent of its suit and alignment.</p>
-<p>It takes 2d4 minutes to perform a harrowing (an attempt to divine the future of a specific creature) with a Harrow deck. The exact results of any harrowing should be determined by the GM, who can use an actual Harrow deck (available at paizo.com) to perform the divination.</p>
+<p><Icons id="eq-misc-harrow_deck-power-icons" wrapper="prefixIcon" list={["power"]} /> It takes 2d4 minutes to perform a harrowing (an attempt to divine the future of a specific creature) with a Harrow deck. The exact results of any harrowing should be determined by the GM, who can use an actual Harrow deck (available at paizo.com) to perform the divination.</p>
 <p>If you don't have an actual Harrow deck to draw cards from in game, but you need to determine the suit and/or alignment of a card, you can use dice to determine the result. Roll 1d6 to determine the suit, and 1d10 to determine alignment</p>
 <ScrollContainer id="eq-misc-harrow_deck--table-0"><table>
 <thead>
@@ -706,7 +707,8 @@ const _harrow_deck = {title: "Harrow deck", jsx: <><h2 id="eq-misc-harrow_deck-h
 const _harrow_mat = {title: "Harrow mat", jsx: <><h2 id="eq-misc-harrow_mat-harrow-mat">Harrow mat</h2>
 <p><strong>Sources</strong> <Link to="/source/the_harrow_handbook">The Harrow Handbook pg. 30</Link>  </p>
 <Tabular format="misc" a="80" b="1" d="ent" />
-<p>This thick leather mat is large enough to fit all the cards necessary for a standard harrow reading. If you use a harrow mat as part of a reading, you gain a +4 circumstance bonus on Bluff or Diplomacy checks (harrower's choice) to convince the subjects of your harrowing that your words are true.</p>
+<p>This thick leather mat is large enough to fit all the cards necessary for a standard harrow reading.</p>
+<p><Icons id="eq-misc-harrow_mat-boost-icons" wrapper="prefixIcon" list={["boost"]} /> If you use a harrow mat as part of a reading, you gain a +4 circumstance bonus on <Link to="/skill/bluff">Bluff</Link> or <Link to="/skill/diplomacy">Diplomacy</Link> checks (harrower's choice) to convince the subjects of your harrowing that your words are true.</p>
 </>};
 const _hat = {title: "Hat", jsx: <><h2 id="eq-misc-hat-hat">Hat</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 21</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -821,13 +823,14 @@ const _hippogriff_egg = {title: "Hippogriff egg", jsx: <><h2 id="eq-misc-hippogr
 const _hireling_trained_per_day = {title: "Hireling (trained, per day)", jsx: <><h2 id="eq-misc-hireling_trained_per_day-hireling">Hireling</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 99</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
 <Tabular format="misc" a="3 sp per day (trained), 1 sp per day (untrained)" b="&mdash;" c="x" d="lodgserv" />
-<p>This listing is for any other sort of typical employment not covered by another service or job in this section. An untrained hireling is a crier, laborer, maid, mourner, porter, or other menial worker. A trained hireling is a mason, mercenary warrior, carpenter, blacksmith, cook, scribe, painter, teamster, and so on. The listed price represents a minimum wage for an adequately skilled worker, and an expert hireling usually requires significantly higher pay. The listed price is a day's wages (generally 7-10 hours of work per day).</p>
+<p>This listing is for any other sort of typical employment not covered by another service or job in this section. An untrained hireling is a <Link to="/eq-misc/crier">crier</Link>, laborer, maid, mourner, porter, or other menial worker. A trained hireling is a mason, mercenary warrior, carpenter, blacksmith, cook, scribe, painter, teamster, and so on. The listed price represents a minimum wage for an adequately skilled worker, and an expert hireling usually requires significantly higher pay. The listed price is a day's wages (generally 7-10 hours of work per day).</p>
 <p>Typical equipment for a guard or mercenary warrior is <Link to="/eq-armor/studded_leather_armor">studded leather armor</Link> and a <Link to="/eq-weapon/club">club</Link>, <Link to="/eq-weapon/shortsword">shortsword</Link>, or <Link to="/eq-weapon/shortspear">shortspear</Link>. Most guards are off-duty soldiers or city watchmen, though some are unskilled laborers with a talent for fighting.</p>
 </>};
 const _hireling_crier_masterful_per_day = {title: "Hireling, crier (masterful, per day)", jsx: <><h2 id="eq-misc-hireling_crier_masterful_per_day-hireling-crier">Hireling, crier</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 5</Link>  </p>
 <Tabular format="misc" a="10 gp per day (masterful), 3 gp per day (skilled), 1 gp per day (trained), 3 sp per day (untrained)" b="&mdash;" c="x" d="lodgserv" />
-<p>A crier can be hired to spread a rumor. An untrained crier usually has a +0 bonus on propaganda checks. A trained crier usually has a +5 bonus on propaganda checks. A skilled crier usually has a +10 bonus on propaganda checks. A masterful crier is rare and usually has a +12 bonus on propaganda checks. If they are available, multiple criers can be hired to spread a single rumor; they attempt a single propaganda check together and gain a +1 bonus for every doubling of their numbers (+1 for two, +2 for four, +3 for eight, +4 for 16, or a maximum of +5 for 32 criers).</p>
+<p>A crier can be hired to <Link to="/rule/spread_a_rumor">spread a rumor</Link>. An untrained crier usually has a +0 bonus on propaganda checks. A trained crier usually has a +5 bonus on propaganda checks. A skilled crier usually has a +10 bonus on propaganda checks. A masterful crier is rare and usually has a +12 bonus on propaganda checks.</p>
+<p><Icons id="eq-misc-hireling_crier_masterful_per_day-boost-icons" wrapper="prefixIcon" list={["boost"]} /> If they are available, multiple criers can be hired to spread a single rumor; they attempt a single propaganda check together and gain a +1 bonus for every doubling of their numbers (+1 for two, +2 for four, +3 for eight, +4 for 16, or a maximum of +5 for 32 criers).</p>
 </>};
 const _hobgoblin_war_draught = {title: "Hobgoblin war draught", jsx: <><h2 id="eq-misc-hobgoblin_war_draught-hobgoblin-war-draught">Hobgoblin war draught</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 123</Link>  </p>
@@ -1068,7 +1071,7 @@ const _imperial_conquest = {title: "Imperial conquest", jsx: <><h2 id="eq-misc-i
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 29</Link>  </p>
 <Tabular format="misc" a="250" b="4" d="ent" />
 <p>This strategy <Link to="/eq-misc/board_game">game</Link>, best played with an elaborate ebony board and intricate ivory pieces, follows deceptively simple rules with great strategic depth. While the game can be played with less expensive sets, only a suitably intricate and well-crafted game set can generate the state of mind necessary to gain the tactical benefits of the game. Imperial conquest is a great intellectual pursuit across the breadth of the Padishah Empire, but the game has only recently begun to spread through the Inner Sea region.</p>
-<p>Up to four people can play a game of imperial conquest, which generally takes 1-2 hours (4d20+20 minutes). At the end of an uninterrupted game, each player attempts a DC 20 Intelligence check, with success granting tactical insights. For the next 8 hours, any character who succeeded at the Intelligence check gains a +1 bonus to AC against attacks of opportunity; when two players who succeeded at the Intelligence check flank the same enemy during this time, the bonus on attack rolls from flanking increases by 1.</p>
+<p><Icons id="eq-misc-imperial_conquest-power-def-boost-icons" wrapper="prefixIcon" list={["power","def","boost"]} /> Up to four people can play a game of imperial conquest, which generally takes 1-2 hours (4d20+20 minutes). At the end of an uninterrupted game, each player attempts a DC 20 Intelligence check, with success granting tactical insights. For the next 8 hours, any character who succeeded at the Intelligence check gains a +1 bonus to AC against attacks of opportunity; when two players who succeeded at the Intelligence check <Link to="/rule/flank">flank</Link> the same enemy during this time, the bonus on attack rolls from flanking increases by 1.</p>
 </>};
 const _imposing_war_paint = {title: "Imposing war paint", jsx: <><h2 id="eq-misc-imposing_war_paint-imposing-war-paint">Imposing war paint</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 7</Link>  </p>
@@ -1292,7 +1295,7 @@ const _karazhica = {title: "Karazhica", jsx: <><h2 id="eq-misc-karazhica-karazhi
 <p>The gold standard of coffee in Ular Kel, Karazhica is notable for its acidity and smooth flavor. By drinking two cups of Karazhica coffee, you can walk for an additional hour before you must make a forced march. This additional hour counts as an hour of marching beyond the maximum for the purpose of determining the DC of Constitution checks for a subsequent forced march. You can benefit from Karazhica coffee only once per day.</p>
 </>};
 const _keelboat = {title: "Keelboat", jsx: <><h2 id="eq-misc-keelboat-keelboat">Keelboat</h2>
-<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link><br/><strong>Price</strong> 3,000 gp; <strong>Price of Passage</strong> (per mile) 1 sp  </p>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
 <Tabular format="misc" a="3000" f="0.1" d="trans" e="Sea" />
 <p>This 50- to 75-foot-long ship is 15 to 20 feet wide and has a dozen <Link to="/eq-misc/oar">oars</Link> to supplement its single mast with a square sail. A <Link to="/rule/wv_keelboat">keelboat</Link> requires a crew of 8 to 15 to sail and can carry 40 to 50 tons of cargo or 100 soldiers. It can make sea voyages, as well as sail down rivers (thanks to its flat bottom). It moves about 1 mile per hour.</p>
 </>};
@@ -1491,7 +1494,7 @@ const _lizard_nex_gecko = {title: "Lizard (nex gecko)", jsx: <><h2 id="eq-misc-l
 const _loaded_dice_average = {title: "Loaded dice (average)", jsx: <><h2 id="eq-misc-loaded_dice_average-loaded-dice">Loaded dice</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 92</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>  </p>
 <Tabular format="misc" a="10 gp (average), 50 gp (superior)" b="&mdash; (average, superior)" c="x" d="ent" />
-<p>Most loaded dice are weighted, with a heavier substance included opposite the desired number. You can spot this tampering with a DC 15 Appraise or Perception check. Superior dice (such as wooden dice carved around a naturally heavy point) have DCs ranging from 20 to 30.</p>
+<p>Most loaded dice are weighted, with a heavier substance included opposite the desired number. You can spot this tampering with a DC 15 <Link to="/skill/appraise">Appraise</Link> or <Link to="/skill/perception">Perception</Link> check. Superior dice (such as wooden dice carved around a naturally heavy point) have DCs ranging from 20 to 30.</p>
 </>};
 const _loaded_shell_game_cups = {title: "Loaded shell game cups", jsx: <><h2 id="eq-misc-loaded_shell_game_cups-loaded-shell-game-cups">Loaded shell game cups</h2>
 <p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 236</Link>  </p>
@@ -1682,7 +1685,7 @@ const _marine_rope_treated_hemp = {title: "Marine rope (treated hemp)", jsx: <><
 const _marked_cards = {title: "Marked cards", jsx: <><h2 id="eq-misc-marked_cards-marked-cards">Marked cards</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 92</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="1" b="1" d="ent" />
-<p>Whether bent, colored, or scratched, marked <Link to="/eq-misc/cards">cards</Link> allow an informed user to know what's on the front of the card by viewing the mark on the back. Realizing that the cards are marked requires a DC 25 Perception check or DC 20 Profession (gambler) check. The listed price is for a common paper deck.</p>
+<p>Whether bent, colored, or scratched, marked <Link to="/eq-misc/cards">cards</Link> allow an informed user to know what's on the front of the card by viewing the mark on the back. Realizing that the cards are marked requires a DC 25 <Link to="/skill/perception">Perception</Link> check or DC 20 <Link to="/skill/profession">Profession</Link> (gambler) check. The listed price is for a common paper deck.</p>
 </>};
 const _marker_dye = {title: "Marker dye", jsx: <><h2 id="eq-misc-marker_dye-marker-dye">Marker dye</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/pathfinder_campaign_setting">Pathfinder Campaign Setting pg. 213</Link>  </p>
@@ -1841,7 +1844,9 @@ const _mess_kit = {title: "Mess kit", jsx: <><h2 id="eq-misc-mess_kit-mess-kit">
 const _messenger_per_mile = {title: "Messenger (per mile)", jsx: <><h2 id="eq-misc-messenger_per_mile-messenger">Messenger</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 99</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
 <Tabular format="misc" a="2 cp per mile" b="&mdash;" c="x" d="lodgserv" />
-<p>A messenger carries a written or verbal message to its intended target. Verbal messages must be short enough for the messenger to memorize (typically about 25 words). A few messengers have exceptional memories and charge 5 sp to relay a verbal message of up to 300 words. Most messengers are only willing to travel to locations within the current city or outlying areas. You can pay a messenger the return fee if you want her to wait for the message recipient to reply, just in case the recipient is too miserly or poor to pay for a return message. Depending on the location and the overall wealth in a settlement, a messenger may be a runner or ride a horse. If you can find someone already traveling to a place, she may only charge you half as much to carry your message.</p>
+<p>A messenger carries a written or verbal message to its intended target. Verbal messages must be short enough for the messenger to memorize (typically about 25 words). A few messengers have exceptional memories and charge 5 sp to relay a verbal message of up to 300 words.</p>
+<p>Most messengers are only willing to travel to locations within the current city or outlying areas. You can pay a messenger the return fee if you want her to wait for the message recipient to reply, just in case the recipient is too miserly or poor to pay for a return message.</p>
+<p>Depending on the location and the overall wealth in a settlement, a messenger may be a runner or ride a horse. If you can find someone already traveling to a place, she may only charge you half as much to carry your message.</p>
 </>};
 const _metal_glove = {title: "Metal glove", jsx: <><h2 id="eq-misc-metal_glove-metal-glove">Metal glove</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 24</Link>  </p>

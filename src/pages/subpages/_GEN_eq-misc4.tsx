@@ -274,7 +274,7 @@ const _diving_suit = {title: "Diving suit", jsx: <><h2 id="eq-misc-diving_suit-d
 const _doctor = {title: "Doctor", jsx: <><h2 id="eq-misc-doctor-doctor">Doctor</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 99</Link>  </p>
 <Tabular format="misc" a="1" b="x" d="lodgserv" />
-<p>A doctor is a person skilled in nonmagical healing and medicine. A typical doctor is a 3rd-level expert with 3 ranks in <Link to="/skill/heal">Heal</Link>, the <Link to="/feat/skill_focus">Skill Focus</Link> (Heal) feat, and ranks in other valuable skills such as <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> and <Link to="/skill/knowledge_religion">Knowledge (religion)</Link>. An experienced doctor is up to 5th level, has additional ranks in appropriate skills, and is paid five to 10 times as much; however, these doctors are in high demand and are usually employed full-time by royalty. A doctor generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day.</p>
+<p>A doctor is a person skilled in nonmagical healing and medicine. A typical doctor is a 3rd-level <Link to="/npcclass/expert">expert</Link> with 3 ranks in <Link to="/skill/heal">Heal</Link>, the <Link to="/feat/skill_focus">Skill Focus</Link> (Heal) feat, and ranks in other valuable skills such as <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> and <Link to="/skill/knowledge_religion">Knowledge (religion)</Link>. An experienced doctor is up to 5th level, has additional ranks in appropriate skills, and is paid five to 10 times as much; however, these doctors are in high demand and are usually employed full-time by royalty. A doctor generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day.</p>
 </>};
 const _doctors_mask = {title: "Doctor's mask", jsx: <><h2 id="eq-misc-doctors_mask-doctors-mask">Doctor's mask</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/pathfinder_8_seven_days_to_the_grave">Pathfinder #8: Seven Days to the Grave pg. 61</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide pg. 12</Link>  </p>
@@ -314,7 +314,7 @@ const _dog_guard = {hasJL:true,title: "Dog (guard)", jsx: <><div className="jump
 const _dog_sled = {title: "Dog sled", jsx: <><h2 id="eq-misc-dog_sled-dog-sled">Dog sled</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>, <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link>  </p>
 <Tabular format="misc" a="20" f="0.03" d="trans" e="Land" />
-<p>This sled is designed to be pulled over snow and ice by a team of trained <Link to="/eq-misc/riding_dog">riding dogs</Link>. Most sleds have runners at the back for a musher to stand on. A dog sled can carry up to the capacity of all the dogs that pull it.</p>
+<p>This <Link to="/eq-misc/sled">sled</Link> is designed to be pulled over snow and ice by a team of trained <Link to="/eq-misc/riding_dog">riding dogs</Link>. Most sleds have runners at the back for a musher to stand on. A dog sled can carry up to the capacity of all the dogs that pull it.</p>
 </>};
 const _dominos = {title: "Dominos", jsx: <><h2 id="eq-misc-dominos-dominos">Dominos</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 92</Link>  </p>
@@ -866,7 +866,7 @@ const _nostalgia_oil = {title: "Nostalgia oil", jsx: <><h2 id="eq-misc-nostalgia
 const _nurse = {title: "Nurse", jsx: <><h2 id="eq-misc-nurse-nurse">Nurse</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 99</Link>  </p>
 <Tabular format="misc" a="0.7" b="x" d="lodgserv" />
-<p>A nurse is a person familiar with healing and medicine. A typical nurse is a 1st-level expert with 1 rank in <Link to="/skill/heal">Heal</Link> and the <Link to="/feat/skill_focus">Skill Focus</Link> (Heal) feat. An experienced nurse is 3rd or 4th level, has additional ranks in Heal, and is paid two to three times as much; however, these nurses are in high demand and are normally employed full-time by wealthy merchants or nobles to look after children and elderly family members. A nurse generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day.</p>
+<p>A nurse is a person familiar with healing and medicine. A typical nurse is a 1st-level <Link to="/npcclass/expert">expert</Link> with 1 rank in <Link to="/skill/heal">Heal</Link> and the <Link to="/feat/skill_focus">Skill Focus</Link> (Heal) feat. An experienced nurse is 3rd or 4th level, has additional ranks in Heal, and is paid two to three times as much; however, these nurses are in high demand and are normally employed full-time by wealthy merchants or nobles to look after children and elderly family members. A nurse generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day.</p>
 </>};
 const _nushadir = {title: "Nushadir", jsx: <><h2 id="eq-misc-nushadir-nushadir">Nushadir</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>  </p>
@@ -1596,7 +1596,7 @@ const _waffle_iron_common = {title: "Waffle iron (common)", jsx: <><h2 id="eq-mi
 <p>This pair of hinged metal plates is decorated with studs to add texture to the pastry cakes you cook with it. You pour batter on it, close it, and place it on a fire or stove to cook. Some waffle irons have plates that imprint the waffle with a noble's coat of arms, a religious symbol, or a country's flag. A mithral waffle iron almost always bears a specific insignia rather than the generic waffle pattern. As with other mithral cookware, food rarely sticks to a mithral waffle iron.</p>
 </>};
 const _wagon = {hasJL:true,title: "Wagon", jsx: <><div className="jumpList" id="eq-misc-wagon-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-wagon-light-wagon">Light Wagon</InnerLink></li><li><InnerLink toTop to="eq-misc-wagon-medium-wagon">Medium Wagon</InnerLink></li><li><InnerLink toTop to="eq-misc-wagon-heavy-wagon">Heavy Wagon</InnerLink></li><li><InnerLink toTop to="eq-misc-wagon-wagon">Wagon</InnerLink></li></ul></div><h2 id="eq-misc-wagon-wagon">Wagon</h2>
-<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link><br/><strong>Price</strong> 100 gp (heavy), 50 gp (light), 75 gp (medium); <strong>Price of Passage</strong> 3 cp (heavy), 2 cp (light), 2 cp (medium)</p>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>  </p>
 <p>This four-wheeled open vehicle is used for transporting heavy loads. It includes the <Link to="/eq-misc/harness">harness</Link> needed to pull it. There are three common varieties of wagon.</p>
 <h3 id="eq-misc-wagon-light-wagon" data-hash-target>Light Wagon</h3>
 <Tabular format="misc" id="light" a="50" f="0.02" d="trans" e="Land" />
@@ -1610,7 +1610,7 @@ const _wagon = {hasJL:true,title: "Wagon", jsx: <><div className="jumpList" id="
 <h3 id="eq-misc-wagon-wagon" data-hash-target>Wagon</h3>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159, 163</Link>  </p>
 <Tabular format="misc" id="basic" a="35" b="400" d="gear" />
-<p>A four-wheeled, open vehicle for transporting heavy loads. Two horses (or other beasts of burden) must draw it. A wagon comes with the harness needed to pull it.</p>
+<p>A four-wheeled, open vehicle for transporting heavy loads. Two <Link to="/eq-misc/horse">horses</Link> (or other beasts of burden) must draw it. A wagon comes with the harness needed to pull it.</p>
 </>};
 const _wall_hook = {title: "Wall hook", jsx: <><h2 id="eq-misc-wall_hook-wall-hook">Wall hook</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 19</Link>  </p>
@@ -1647,7 +1647,7 @@ const _warpriests_kit = {title: "Warpriest's kit", jsx: <><h2 id="eq-misc-warpri
 const _warship = {title: "Warship", jsx: <><h2 id="eq-misc-warship-warship">Warship</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
 <Tabular format="misc" a="25000" f="0.2" d="trans" e="Sea" />
-<p>This 100-foot-long ship has a single mast, although oars can also propel it. It has a crew of 60 to 80 rowers. This <Link to="/rule/wv_warship">ship</Link> can carry 160 soldiers, but not for long distances, since there isn't room for supplies to support that many people. A warship cannot make sea voyages and sticks to the coast. It is not used for cargo. It moves about 2-1/2 miles per hour when being rowed or under sail.</p>
+<p>This 100-foot-long ship has a single mast, although oars can also propel it. It has a crew of 60 to 80 rowers. This <Link to="/rule/wv_warship">ship</Link> can carry 160 soldiers, but not for long distances, since there isn't room for supplies to support that many people. A warship cannot make sea voyages and sticks to the coast. It is not used for cargo. It moves about 2&frac12; miles per hour when being rowed or under sail.</p>
 </>};
 const _wasp_metheglin = {title: "Wasp metheglin", jsx: <><h2 id="eq-misc-wasp_metheglin-wasp-metheglin">Wasp metheglin</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 4</Link>  </p>
@@ -1788,8 +1788,8 @@ const _wind_platform = {title: "Wind platform", jsx: <><h2 id="eq-misc-wind_plat
 <Tabular format="misc" a="5000" b="1600" d="trans" e="Air" />
 <p>A rare and dangerous marvel from the strange nation of Alkenstar, this light, airborne device is held aloft by a huge buoyant balloon which is attached by chains to an open-air wicker basket.</p>
 <p>A wind platform is so-called because it remains at the mercy of the winds, as it has no propulsion system of its own and can therefore not be used as much more than an airborne watchtower or platform for the deployment of siege engines.</p>
-<p>The basket of a wind platform can hold as many as six Medium creatures and two Large direct-fire siege engines, or any combination of smaller creatures and siege engines occupying the same space. The platform cannot withstand a carried weight of more than 3,000 lbs.</p>
-<p>A wind platform has AC 4, harness 5, and 250 hp, and takes double damage from acid and fire attacks. When reduced to half its total hit points (125 hp) the platform begins to descend at a rate of 20 ft. per round. When reduced to one-quarter its total hit points (62 hp), the rate of descent increases to 60 ft. per round. When destroyed, all creatures and items on the wind platform simply fall as normal.</p>
+<p>The basket of a wind platform can hold as many as six Medium creatures and two Large direct-fire <Link to="/main/equipment_siege_engines">siege engines</Link>, or any combination of smaller creatures and siege engines occupying the same space. The platform cannot withstand a carried weight of more than 3,000 lbs.</p>
+<p>A wind platform has AC 4, <Link to="/umr/hardness">hardness</Link> 5, and 250 hp, and takes double damage from acid and fire attacks. When reduced to half its total hit points (125 hp) the platform begins to descend at a rate of 20 ft. per round. When reduced to one-quarter its total hit points (62 hp), the rate of descent increases to 60 ft. per round. When destroyed, all creatures and items on the wind platform simply <Link to="/rule/fall">fall</Link> as normal.</p>
 </>};
 const _windup_music_box = {title: "Windup music box", jsx: <><h2 id="eq-misc-windup_music_box-windup-music-box">Windup music box</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 245</Link>  </p>

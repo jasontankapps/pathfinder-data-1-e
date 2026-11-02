@@ -1362,7 +1362,9 @@
 			"‹SOURCE Advanced Race Guide/66›  ",
 			"::tabular{format=misc a=25 b=1 d=ent}",
 			"",
-			"This group of four brightly colored sticks is adorned with colorful streamers that can be juggled and manipulated to create displays and patterns. Halflings use them to even greater effect, gaining a +2 circumstance bonus on Perform (comedy) checks."
+			"This group of four brightly colored sticks is adorned with colorful streamers that can be juggled and manipulated to create displays and patterns.",
+			"",
+			"@I-boost Halflings use them to even greater effect, gaining a +2 circumstance bonus on ‹skill/Perform› (comedy) checks."
 		]
 	},
 	"halfling_trail_rations": {
@@ -1509,7 +1511,7 @@
 			"",
 			"Each Harrow deck consists of 54 cards divided into six suits of nine cards. The six suits correspond to the six ability scores (hammer for Strength, key for Dexterity, shield for Constitution, book for Intelligence, star for Wisdom, and crown for Charisma). Each card in a suit further ties in with one of the nine alignments, corresponding to the location of the symbol on the face of the card. In addition, each card has its own unique name, independent of its suit and alignment.",
 			"",
-			"It takes 2d4 minutes to perform a harrowing (an attempt to divine the future of a specific creature) with a Harrow deck. The exact results of any harrowing should be determined by the GM, who can use an actual Harrow deck (available at paizo.com) to perform the divination.",
+			"@I-power It takes 2d4 minutes to perform a harrowing (an attempt to divine the future of a specific creature) with a Harrow deck. The exact results of any harrowing should be determined by the GM, who can use an actual Harrow deck (available at paizo.com) to perform the divination.",
 			"",
 			"If you don't have an actual Harrow deck to draw cards from in game, but you need to determine the suit and/or alignment of a card, you can use dice to determine the result. Roll 1d6 to determine the suit, and 1d10 to determine alignment",
 			"",
@@ -1544,7 +1546,9 @@
 			"‹SOURCE The Harrow Handbook/30›  ",
 			"::tabular{format=misc a=80 b=1 d=ent}",
 			"",
-			"This thick leather mat is large enough to fit all the cards necessary for a standard harrow reading. If you use a harrow mat as part of a reading, you gain a +4 circumstance bonus on Bluff or Diplomacy checks (harrower's choice) to convince the subjects of your harrowing that your words are true."
+			"This thick leather mat is large enough to fit all the cards necessary for a standard harrow reading.",
+			"",
+			"@I-boost If you use a harrow mat as part of a reading, you gain a +4 circumstance bonus on ‹skill/Bluff› or ‹skill/Diplomacy› checks (harrower's choice) to convince the subjects of your harrowing that your words are true."
 		]
 	},
 	"hat": {
@@ -1816,7 +1820,7 @@
 			"‹SOURCE Ultimate Equipment/99;PRPG Core Rulebook/159›  ",
 			"::tabular{format=misc a=\"3 sp per day (trained), 1 sp per day (untrained)\" b=\"&mdash&\" c=x d=lodgserv}",
 			"",
-			"This listing is for any other sort of typical employment not covered by another service or job in this section. An untrained hireling is a crier, laborer, maid, mourner, porter, or other menial worker. A trained hireling is a mason, mercenary warrior, carpenter, blacksmith, cook, scribe, painter, teamster, and so on. The listed price represents a minimum wage for an adequately skilled worker, and an expert hireling usually requires significantly higher pay. The listed price is a day's wages (generally 7-10 hours of work per day).",
+			"This listing is for any other sort of typical employment not covered by another service or job in this section. An untrained hireling is a ‹eq-misc/crier›, laborer, maid, mourner, porter, or other menial worker. A trained hireling is a mason, mercenary warrior, carpenter, blacksmith, cook, scribe, painter, teamster, and so on. The listed price represents a minimum wage for an adequately skilled worker, and an expert hireling usually requires significantly higher pay. The listed price is a day's wages (generally 7-10 hours of work per day).",
 			"",
 			"Typical equipment for a guard or mercenary warrior is ‹eq-armor/studded leather armor› and a ‹eq-weapon/club›, ‹eq-weapon/shortsword›, or ‹eq-weapon/shortspear›. Most guards are off-duty soldiers or city watchmen, though some are unskilled laborers with a talent for fighting."
 		]
@@ -1833,7 +1837,9 @@
 			"‹SOURCE Merchant's Manifest/5›  ",
 			"::tabular{format=misc a=\"10 gp per day (masterful), 3 gp per day (skilled), 1 gp per day (trained), 3 sp per day (untrained)\" b=\"&mdash&\" c=x d=lodgserv}",
 			"",
-			"A crier can be hired to spread a rumor. An untrained crier usually has a +0 bonus on propaganda checks. A trained crier usually has a +5 bonus on propaganda checks. A skilled crier usually has a +10 bonus on propaganda checks. A masterful crier is rare and usually has a +12 bonus on propaganda checks. If they are available, multiple criers can be hired to spread a single rumor; they attempt a single propaganda check together and gain a +1 bonus for every doubling of their numbers (+1 for two, +2 for four, +3 for eight, +4 for 16, or a maximum of +5 for 32 criers)."
+			"A crier can be hired to ‹rule/spread a rumor›. An untrained crier usually has a +0 bonus on propaganda checks. A trained crier usually has a +5 bonus on propaganda checks. A skilled crier usually has a +10 bonus on propaganda checks. A masterful crier is rare and usually has a +12 bonus on propaganda checks.",
+			"",
+			"@I-boost If they are available, multiple criers can be hired to spread a single rumor; they attempt a single propaganda check together and gain a +1 bonus for every doubling of their numbers (+1 for two, +2 for four, +3 for eight, +4 for 16, or a maximum of +5 for 32 criers)."
 		]
 	},
 	"hireling_crier_skilled_per_day": {
@@ -1848,6 +1854,7 @@
 		"name": "Hireling, crier (untrained, per day)",
 		"copyof": "hireling_crier_masterful_per_day"
 	},
+	"crier": { "redirect": "hireling_crier_untrained_per_day" },
 	"hobgoblin_war_draught": {
 		"name": "Hobgoblin war draught",
 		"sources": [ "Advanced Race Guide" ],
@@ -2538,7 +2545,7 @@
 			"",
 			"This strategy ‹eq-misc/board_>game›, best played with an elaborate ebony board and intricate ivory pieces, follows deceptively simple rules with great strategic depth. While the game can be played with less expensive sets, only a suitably intricate and well-crafted game set can generate the state of mind necessary to gain the tactical benefits of the game. Imperial conquest is a great intellectual pursuit across the breadth of the Padishah Empire, but the game has only recently begun to spread through the Inner Sea region.",
 			"",
-			"Up to four people can play a game of imperial conquest, which generally takes 1-2 hours (4d20+20 minutes). At the end of an uninterrupted game, each player attempts a DC 20 Intelligence check, with success granting tactical insights. For the next 8 hours, any character who succeeded at the Intelligence check gains a +1 bonus to AC against attacks of opportunity; when two players who succeeded at the Intelligence check flank the same enemy during this time, the bonus on attack rolls from flanking increases by 1."
+			"@I-power-def-boost Up to four people can play a game of imperial conquest, which generally takes 1-2 hours (4d20+20 minutes). At the end of an uninterrupted game, each player attempts a DC 20 Intelligence check, with success granting tactical insights. For the next 8 hours, any character who succeeded at the Intelligence check gains a +1 bonus to AC against attacks of opportunity; when two players who succeeded at the Intelligence check ‹rule/flank› the same enemy during this time, the bonus on attack rolls from flanking increases by 1."
 		]
 	},
 	"imposing_war_paint": {
@@ -3133,7 +3140,6 @@
 		"description": [
 			"## Keelboat",
 			"‹SOURCE Ultimate Equipment/87;PRPG Core Rulebook/159›  ",
-			"**Price** 3,000 gp; **Price of Passage** (per mile) 1 sp  ",
 			"::tabular{format=misc a=3000 f=\"0.1\" d=trans e=Sea}",
 			"",
 			"This 50- to 75-foot-long ship is 15 to 20 feet wide and has a dozen ‹eq-misc/oar«s› to supplement its single mast with a square sail. A ‹rule/wv_>keelboat› requires a crew of 8 to 15 to sail and can carry 40 to 50 tons of cargo or 100 soldiers. It can make sea voyages, as well as sail down rivers (thanks to its flat bottom). It moves about 1 mile per hour."
@@ -3610,7 +3616,7 @@
 			"‹SOURCE Ultimate Equipment/92;Adventurer's Armory/19;Advanced Player's Guide/185›  ",
 			"::tabular{format=misc a=\"10 gp (average), 50 gp (superior)\" b=\"&mdash& (average, superior)\" c=x d=ent}",
 			"",
-			"Most loaded dice are weighted, with a heavier substance included opposite the desired number. You can spot this tampering with a DC 15 Appraise or Perception check. Superior dice (such as wooden dice carved around a naturally heavy point) have DCs ranging from 20 to 30."
+			"Most loaded dice are weighted, with a heavier substance included opposite the desired number. You can spot this tampering with a DC 15 ‹skill/Appraise› or ‹skill/Perception› check. Superior dice (such as wooden dice carved around a naturally heavy point) have DCs ranging from 20 to 30."
 		]
 	},
 	"loaded_dice_superior": {
@@ -4143,7 +4149,7 @@
 			"‹SOURCE Ultimate Equipment/92;Advanced Player's Guide/185;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=1 b=1 d=ent}",
 			"",
-			"Whether bent, colored, or scratched, marked ‹eq-misc/cards› allow an informed user to know what's on the front of the card by viewing the mark on the back. Realizing that the cards are marked requires a DC 25 Perception check or DC 20 Profession (gambler) check. The listed price is for a common paper deck."
+			"Whether bent, colored, or scratched, marked ‹eq-misc/cards› allow an informed user to know what's on the front of the card by viewing the mark on the back. Realizing that the cards are marked requires a DC 25 ‹skill/Perception› check or DC 20 ‹skill/Profession› (gambler) check. The listed price is for a common paper deck."
 		]
 	},
 	"marker_dye": {
@@ -4534,7 +4540,11 @@
 			"‹SOURCE Ultimate Equipment/99;PRPG Core Rulebook/159›  ",
 			"::tabular{format=misc a=\"2 cp per mile\" b=\"&mdash&\" c=x d=lodgserv}",
 			"",
-			"A messenger carries a written or verbal message to its intended target. Verbal messages must be short enough for the messenger to memorize (typically about 25 words). A few messengers have exceptional memories and charge 5 sp to relay a verbal message of up to 300 words. Most messengers are only willing to travel to locations within the current city or outlying areas. You can pay a messenger the return fee if you want her to wait for the message recipient to reply, just in case the recipient is too miserly or poor to pay for a return message. Depending on the location and the overall wealth in a settlement, a messenger may be a runner or ride a horse. If you can find someone already traveling to a place, she may only charge you half as much to carry your message."
+			"A messenger carries a written or verbal message to its intended target. Verbal messages must be short enough for the messenger to memorize (typically about 25 words). A few messengers have exceptional memories and charge 5 sp to relay a verbal message of up to 300 words.",
+			"",
+			"Most messengers are only willing to travel to locations within the current city or outlying areas. You can pay a messenger the return fee if you want her to wait for the message recipient to reply, just in case the recipient is too miserly or poor to pay for a return message.",
+			"",
+			"Depending on the location and the overall wealth in a settlement, a messenger may be a runner or ride a horse. If you can find someone already traveling to a place, she may only charge you half as much to carry your message."
 		]
 	},
 	"metal_glove": {
