@@ -77,6 +77,9 @@ const findDisplayValue = (item: RawDatum, nullish: string, col: Column) => {
 		display = item.data || nullish;
 		raw = item.sort;
 		sortInfo = true;
+		if (Array.isArray(display) && (display.length < 3)) {
+			display.push(link);
+		}
 	}
 	switch(type) {
 		case "gp+":
