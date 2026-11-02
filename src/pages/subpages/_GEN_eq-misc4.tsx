@@ -1883,7 +1883,7 @@ const _woad_painting_kit = {title: "Woad painting (kit)", jsx: <><h2 id="eq-misc
 const _wolfsbane = {title: "Wolfsbane", jsx: <><h2 id="eq-misc-wolfsbane-wolfsbane">Wolfsbane</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="0.5" b="x" d="bm" />
-<p>The root of this tall plant with blue flowers is toxic, but herbalists use it in low doses to reduce pain and regulate the heart. Folklore says it can help a victim of <Link to="/rule/lycanthropy">lycanthropy</Link> throw off the curse.</p>
+<p>The root of this tall plant with blue flowers is <Link to="/eq-poison/wolfsbane">toxic</Link>, but herbalists use it in low doses to reduce pain and regulate the heart. Folklore says it can help a victim of <Link to="/rule/lycanthropy">lycanthropy</Link> throw off the curse.</p>
 </>};
 const _woolly_mammoth_combat_trained = {title: "Woolly mammoth (combat-trained)", jsx: <><h2 id="eq-misc-woolly_mammoth_combat_trained-woolly-mammoth">Woolly mammoth</h2>
 <p><strong>Sources</strong> <Link to="/source/belkzen_hold_of_the_orc_hordes">Belkzen, Hold of the Orc Hordes pg. 39</Link>  </p>
