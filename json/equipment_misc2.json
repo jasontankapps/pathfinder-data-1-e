@@ -1938,7 +1938,7 @@
 		"description": [
 			"## Holy symbol (compartment)",
 			"‹SOURCE Ultimate Equipment/57›  ",
-			"::tabular{format=misc a=\"5\" b=\"0\" c=M d=gear}",
+			"::tabular{format=misc a=5 b=0 c=M d=gear}",
 			"",
 			"Designed and approved by a member of the appropriate religion, this modification to a holy symbol creates a secret compartment large enough to hold a potion vial. Detecting the compartment requires a DC 20 Perception check."
 		]
@@ -1970,7 +1970,7 @@
 		"description": [
 			"## Holy symbol (flask)",
 			"‹SOURCE Ultimate Equipment/57›  ",
-			"::tabular{format=misc a=\"10\" b=\"0\" c=M d=gear}",
+			"::tabular{format=misc a=10 b=0 c=M d=gear}",
 			"",
 			"This version of a standard holy symbol is oversized and has a watertight compartment that can hold 1 pint (the same volume as a flask of ‹eq-weapon/holy water›). Adventurers normally use the compartment to hold holy water or alcohol. A holy symbol flask is not meant for you to throw at enemies and is not fragile like a flask or vial. Like using holy water on incorporeal opponent, you unstopper the flask and pour the contents onto an adjacent target. Detecting the compartment requires a successful DC 10 Perception check."
 		]
@@ -2996,7 +2996,7 @@
 		"description": [
 			"## Jewelry",
 			"‹SOURCE Ultimate Equipment/89;Adventurer's Armory/19›  ",
-			"::tabular{format=misc a=\"Varies\" b=\"Varies\" c=x d=cloth}",
+			"::tabular{format=misc a=Varies b=Varies c=x d=cloth}",
 			"",
 			"The price of jewelry varies wildly by its quality. Many cultures, particularly nomads, consciously use jewelry as a form of portable wealth, most notably with belts and bangles made from coins. A commoner's ornaments may only be worth a few copper pieces, an artisan's a few silver pieces, and a merchant's a few gold pieces, while nobles rarely wear jewelry worth less than 100 gp."
 		]
@@ -3536,7 +3536,7 @@
 		"description": [
 			"## Liron Treye's Journal",
 			"‹SOURCE Dungeoneer's Handbook/15›  ",
-			"::tabular{format=misc a=4600 b=x d=guide e=\"6\" f=kr g=25}",
+			"::tabular{format=misc a=4600 b=x d=guide e=6 f=kr g=25}",
 			"",
 			"This long-lost tome contains all of Liron Treye's accounts of the mysterious and terrible things found in Kalexcourt of Ustalav when he explored the haunted burial ground centuries ago.",
 			"",
@@ -3667,7 +3667,7 @@
 		"description": [
 			"## Lock of the saved",
 			"‹SOURCE Adventurer's Armory/25›  ",
-			"::tabular{format=misc a=\"50\" b=\"0\" c=M d=foci}",
+			"::tabular{format=misc a=50 b=0 c=M d=foci}",
 			"",
 			"This sturdy lock may be of any quality; the cost of making it a channel focus is in addition to the normal ‹eq-misc/lock› cost.",
 			"",
@@ -3977,7 +3977,7 @@
 		"description": [
 			"## Manacle barbs",
 			"‹SOURCE Advanced Race Guide/123›  ",
-			"::tabular{format=misc a=\"15\" b=\"1\" c=M d=gear}",
+			"::tabular{format=misc a=15 b=1 c=M d=gear}",
 			"",
 			"Barbs added to these ‹eq-misc/manacles› wound a captive who does more than move slowly and with care. A creature secured in barbed manacles takes 1 point of piercing damage if it takes more than a single move action during a round. Rough movement of any kind, such as being struck in combat or falling prone, likewise causes 1 point of damage. Attempting to break out of barbed manacles with a Strength check deals 1d4 points of piercing damage to the captive regardless of the success of the attempt.",
 			"",

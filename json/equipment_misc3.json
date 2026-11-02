@@ -60,7 +60,7 @@
 		"description": [
 			"## Poison diffuser",
 			"‹SOURCE Alchemy Manual/9›  ",
-			"::tabular{format=misc a=\"200\" b=x d=atools}",
+			"::tabular{format=misc a=200 b=x d=atools}",
 			"",
 			"This compound comes in a tiny eyedropper. When you combine a dose of poison diffuser with a dose of contact or ingested poison, the poison becomes a gas, slowly diffusing into the surrounding air. The poison is treated as an inhaled poison for 3 rounds, after which the poison and the poison diffuser are both expended and become inert. Any creature that passes within 5 feet of a diffused poison while it is active must save against the vaporous toxin.",
 			"",
@@ -76,7 +76,7 @@
 		"description": [
 			"## Poison latch needle",
 			"‹SOURCE Black Markets/21›  ",
-			"::tabular{format=misc a=\"200\" b=x d=gear}",
+			"::tabular{format=misc a=200 b=x d=gear}",
 			"",
 			"This delicate needle is attached to fine springs and a small reservoir that contracts on itself when the trap is disturbed or grabbed, turning a minor prick into a painful injection. This trap is normally hidden under door latches, drawer handles, and other small openings where it can deliver any injury poison, destroying itself in the process. A roll of natural 1 on the skill check to install the trap exposes its installer to the poison. A poison latch needle cannot be reused.",
 			"",
@@ -91,7 +91,7 @@
 		"description": [
 			"## Poison lip paint",
 			"‹SOURCE Ultimate Intrigue/233›  ",
-			"::tabular{format=misc a=\"5\" b=x d=gear}",
+			"::tabular{format=misc a=5 b=x d=gear}",
 			"",
 			"Poison lip paint is a favorite among courtiers who practice the arts of deception and intrigue. It allows the wearer to deliver a dose of contact or ingested poison by means of a kiss. This kiss can be to the hand, cheek, or other exposed skin to deliver a contact poison, but must be on the mouth for an ingested poison. A kiss delivers the full dose of the poison, and that application of poison lip paint then becomes non-poisonous. To use poison lip paint without being exposed to the poison, the wearer must first apply a protective layer of base material. When using an ingested poison, the wearer can instead consume an antidote prior to application. (When the user applies a contact poison, preemptively consuming an antidote results in the wearer's skin harmlessly absorbing the poison, as does immunity to poison.) A kit contains enough base material and lip paint for 10 doses. The poisons must be purchased separately and mixed into the lip paint."
 		]
@@ -102,7 +102,7 @@
 		"description": [
 			"## Poison sealant",
 			"‹SOURCE Aquatic Adventures/56›  ",
-			"::tabular{format=misc a=\"20\" b=x d=atools}",
+			"::tabular{format=misc a=20 b=x d=atools}",
 			"",
 			"Applied poison generally washes off weapons underwater in 1d10 rounds unless the poison is contained inside the weapon and injected, so undersea alchemists developed poison sealant to circumvent this limitation. Applying poison sealant to a poisoned weapon takes the same amount of effort as applying a poison. Once applied, the sealant protects the poison from the elements, keeping the weapon poisoned underwater. Poison sealant dissolves in blood, allowing the poison's delivery (and also meaning that it doesn't prevent accidental poisoning)."
 		]
@@ -124,7 +124,7 @@
 		"description": [
 			"## Poison tattoo",
 			"‹SOURCE Advanced Race Guide/209›  ",
-			"::tabular{format=misc a=\"50\" b=x d=atools}",
+			"::tabular{format=misc a=50 b=x d=atools}",
 			"",
 			"This henna-like paste creates a dark brown tattoo on the hands or feet that fades over the next 2d6 days. The tattoo temporarily boosts the strength of a ‹race/vishkanya«'s› natural poison, increasing the DC of the next weapon envenomed with the vishkanya's blood or saliva by +2 (once used, the tattoo is merely decorative and does not affect the creature's poison). A typical tattoo consists of intricate whorls and spiritual symbols on the hands or feet.",
 			"",
@@ -137,7 +137,7 @@
 		"description": [
 			"## Poison ward salve",
 			"‹SOURCE Advanced Class Guide/206›  ",
-			"::tabular{format=misc a=\"15\" b=x d=rem}",
+			"::tabular{format=misc a=15 b=x d=rem}",
 			"",
 			"This herbal salve can be applied directly to the skin to prevent the effects of contact poisons. If a creature touches a contact poison, but you apply the salve within 1 round of contact, the victim rolls the save twice and uses the higher result.",
 			"",
@@ -150,7 +150,7 @@
 		"description": [
 			"## Poisoned locket",
 			"‹SOURCE Potions and Poisons/29›  ",
-			"::tabular{format=misc a=\"75\" b=x d=tools}",
+			"::tabular{format=misc a=75 b=x d=tools}",
 			"",
 			"This heart-shaped locket is attached to a thin metal chain made of looped strands of gold or silver. Inside the locket is a small, spring-loaded vial that can hold a single dose of powdered poison. Loading the locket with poison carries the same risks as applying poison to a weapon. When the locket is opened, the vial is shattered by a ball bearing, releasing the powder into the air and treating the poison's type as if it were inhaled. The airborne poison affects all creatures within 10 feet of the locket."
 		]
@@ -161,7 +161,7 @@
 		"description": [
 			"## Poisoned quill",
 			"‹SOURCE Potions and Poisons/29›  ",
-			"::tabular{format=misc a=\"30\" b=x d=tools}",
+			"::tabular{format=misc a=30 b=x d=tools}",
 			"",
 			"This long ‹eq-misc/ink>pen› is made from a delicate feather and has a thin and unusually long nib. The quill is typically white in color, though variations that are crimson, onyx, or some combination of these colors also exist. A hidden compartment inside the nib allows the quill to hold a single dose of poison that is dispensable with a small squeeze. Additionally, this provides a +2 circumstance bonus on Sleight of Hand checks to conceal poisons inside the quill. If this quill is used with ‹eq-misc/vector ink›, it increases the DC of a poison mixed with the ink by 1. This quill can be used as a small shiv to deal 1d3 points of damage and deliver its contained poison. However, because of the fragility of the nib, using the quill in this way destroys it."
 		]
@@ -416,7 +416,7 @@
 		"description": [
 			"## Potion sponge",
 			"‹SOURCE Advanced Race Guide/177›  ",
-			"::tabular{format=misc a=\"2\" b=x d=atools}",
+			"::tabular{format=misc a=2 b=x d=atools}",
 			"",
 			"This egg-sized sponge is covered in a layer of waterproof edible wax, designed to absorb 1 dose of a potion. Chewing a potion sponge and swallowing its liquid contents is a full-round action. A creature of at least Large size can swallow the sponge in its entirely; other creatures must spit out the sponge once it's depleted (a free action). Unlike a potion that is drunk from a vial, a potion sponge can be used underwater. A potion can be poured from a vial into a sponge potion (or squeezed from a sponge into a vial) as a full-round action. The potion sponge is immune to attacks that specifically target crystal, glass, ceramic, or porcelain, such as ‹spell/shatter›. It otherwise works like a potion vial.",
 			"",
@@ -508,7 +508,7 @@
 		"description": [
 			"## Pressure pill",
 			"‹SOURCE Aquatic Adventures/56›  ",
-			"::tabular{format=misc a=\"75\" b=x d=atools}",
+			"::tabular{format=misc a=75 b=x d=atools}",
 			"",
 			"When you swallow this marble-shaped alchemical pill as a full-round action, it instantly adjusts your body to the surrounding [water pressure](rule/oceanic_zones), though you take 3 points of nonlethal damage for every 100 feet of adjustment necessary."
 		]
@@ -592,7 +592,7 @@
 		"description": [
 			"## Prowler's palliative",
 			"‹SOURCE Potions and Poisons/23›  ",
-			"::tabular{format=misc a=\"300\" b=x d=tinc}",
+			"::tabular{format=misc a=300 b=x d=tinc}",
 			"",
 			"This pitch-black liquid slows your heart rate, putting you in an almost trance-like state. For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on Stealth checks, you can use Stealth while moving at full speed without penalty, and the DCs for Intimidate checks to demoralize you is 2 higher. The tincture's sedative nature causes you to take a -4 penalty on Strength-based skill checks and a -2 penalty on damage rolls for the same duration.",
 			"",
@@ -695,7 +695,7 @@
 		"description": [
 			"## Purification pellet",
 			"‹SOURCE People of the Sands/28›  ",
-			"::tabular{format=misc a=\"10\" b=x d=rem}",
+			"::tabular{format=misc a=10 b=x d=rem}",
 			"",
 			"This tablet of compressed herbs and potent alchemical reagents can purify tainted, brackish, muddy, or alkaline water in order to make it drinkable. If used to purify water that is diseased or poisonous, each tablet reduces the save DC by 1 (to a maximum reduction of 5) for any disease or poison present in the water. A single purification pellet can affect up to 1 gallon of tainted water.",
 			"",
@@ -783,7 +783,7 @@
 		"description": [
 			"## Questing knight package",
 			"‹SOURCE Adventurer's Armory 2/5›  ",
-			"::tabular{format=misc a=\"1000\" b=\"127.5\" d=kits}",
+			"::tabular{format=misc a=1000 b=\"127.5\" d=kits}",
 			"",
 			"If not descended from nobility, the questing knight certainly looks like he fits the part. This equipment package is useful for cavaliers, fighters, and paladins. If the PC can cast spells, add a ‹eq-misc/spell component pouch› and a ‹eq-misc/holy symbol› (if required). If the PC gains a mount from a class feature, remove the horse from the list below and replace the lance with a masterwork lance.",
 			"",
@@ -806,7 +806,7 @@
 		"description": [
 			"## Quick-change outfit",
 			"‹SOURCE Ultimate Intrigue/234›  ",
-			"::tabular{format=misc a=\"varies\" b=\"5 lbs.\" c=x d=gear}",
+			"::tabular{format=misc a=varies b=\"5 lbs.\" c=x d=gear}",
 			"",
 			"A quick-change outfit is actually two different sets of attire sewn together, one inside the other. The quick-change outfit allows the wearer to rapidly change from one outfit into another by reversing (pulling inside out) the entire outfit. It takes a full-round action to slip out of the quick-change outfit, reverse it, and put it back on. The two different outfits can appear to be of any variety, such as a ‹eq-misc/noble's outfit› on one side and a ‹eq-misc/monk's outfit› on the other. The appearance is only superficial, so the outfits do not grant any special bonuses (such as a ‹eq-misc/cold-weather outfit«'s› benefits against exposure to cold). Anyone paying particular attention to the outfit can notice discrepancies (such as odd seams and unusually thick padding) with a successful DC 20 Perception check. The outfit's price is equal to double the price of the more expensive of the two outfits it mimics."
 		]
@@ -830,7 +830,7 @@
 		"description": [
 			"## Quick-step concoction",
 			"‹SOURCE Adventurer's Armory 2/27›  ",
-			"::tabular{format=misc a=\"75\" b=x d=conc}",
+			"::tabular{format=misc a=75 b=x d=conc}",
 			"",
 			"This minty fluid quickens your feet and improves your balance, granting a +2 alchemical bonus on Acrobatics checks and to your CMD against trip attempts. However, you become easily distracted and take a -2 penalty on Perception checks."
 		]
@@ -852,7 +852,7 @@
 		"description": [
 			"## Quieting needles",
 			"‹SOURCE Pathfinder #29: Mother of Flies/12›  ",
-			"::tabular{format=misc a=\"25\" b=x d=bm}",
+			"::tabular{format=misc a=25 b=x d=bm}",
 			"",
 			"Inserted into a corpse's heart, lungs, and other organs, the needles can be well hidden inside a slain body with a minute of work and a ‹skill/Sleight of Hand› check - the result of this Sleight of Hand check determines the ‹skill/Heal› check DC to notice the use of quieting needles on a corpse. This Heal check gains a cumulative +1 bonus for each day the body has been allowed to decay, as the presence of the needles grows increasingly obvious as the flesh rots away.",
 			"",
@@ -931,7 +931,7 @@
 		"description": [
 			"## Rager's aid",
 			"‹SOURCE Advanced Class Guide/206›  ",
-			"::tabular{format=misc a=\"25\" b=x d=rem}",
+			"::tabular{format=misc a=25 b=x d=rem}",
 			"",
 			"This packet filled with spikey-edged leaves has a pungent scent almost strong enough to make your eyes water. While you chew the leaves, you ignore the effects of ‹misc/fatigue›. The leaves last for 6 rounds, at which point only a wad of pulp remains. When the effect of rager's aid wears off, you are ‹misc/exhausted› instead.",
 			"",
@@ -944,7 +944,7 @@
 		"description": [
 			"## Rake's friend",
 			"‹SOURCE Ultimate Intrigue/236›  ",
-			"::tabular{format=misc a=\"120\" b=x d=atools}",
+			"::tabular{format=misc a=120 b=x d=atools}",
 			"",
 			"You can accept ‹misc/alchemical burn› when you imbibe this draught to gain 1 grit point or 1 panache point. The effects of rake's friend last for 1 hour; if not spent within 1 hour, this point is lost. Rake's friend has no effect if you don't have the ability to use grit or panache.",
 			"",
@@ -1045,7 +1045,7 @@
 		"description": [
 			"## Reagent paper",
 			"‹SOURCE Advanced Class Guide/208›  ",
-			"::tabular{format=misc a=\"1\" b=x d=atools}",
+			"::tabular{format=misc a=1 b=x d=atools}",
 			"",
 			"This slip of paper can aid in the identifying of liquids. Its color changes in accordance to basic traits such as acidity, salinity, or magic. This confers a +2 alchemical bonus on any Craft (alchemy) or Spellcraft check made to identify potions or other liquids.",
 			"",
@@ -1058,7 +1058,7 @@
 		"description": [
 			"## Reanimating fluid",
 			"‹SOURCE Horror Adventures/213›  ",
-			"::tabular{format=misc a=\"100\" b=x d=atools}",
+			"::tabular{format=misc a=100 b=x d=atools}",
 			"",
 			"This viscous, translucent green fluid is typically stored in a large syringe. When injected into a mostly intact corpse of a Medium or smaller creature that has been dead for no more than 1 day (time spent under effects like gentle repose don't count against this time), the fluid gives the corpse a rudimentary semblance of life, reactivating its nerves and muscle tissue. This causes the corpse to reanimate and shamble around erratically for 1 minute. The result is not an undead creature, nor is it a construct. The reanimated corpse remains utterly lifeless and is driven only by muscular spasms that cause it shuffle 20 feet in a random direction each round, gasping and blinking eerily as it goes. When the corpse hits a solid barrier or is attacked, it stops moving. On its next turn, roll 1d8 to determine where it goes next. On a 1, it continues forward in the same direction it had been previously moving (or runs up against the same barrier). On a 2, it turns 45 degrees clockwise and heads in that direction; on a 3, it turns 90 degrees clockwise and heads in that direction; and so on. The corpse can't attack, doesn't defend itself, and - as an object - has AC 10 and 12 hit points. Crafting a syringe of reanimating fluid requires a successful DC 25 Craft (alchemy) check.",
 			"",
@@ -1416,7 +1416,7 @@
 		"description": [
 			"## Rusting powder",
 			"‹SOURCE Ultimate Equipment/103›  ",
-			"::tabular{format=misc a=\"60\" b=x d=atools}",
+			"::tabular{format=misc a=60 b=x d=atools}",
 			"",
 			"This flaky brown powder derived from ‹monster/rust monster› fluids causes iron and similar metals to corrode and fall apart. If you apply a dose of rusting powder to a metal lock or trap as part of using the Disable Device skill, you gain a +5 alchemical bonus to open the lock or disable the trap, but there is a 75% chance that the mechanism is destroyed and cannot be used afterward. If the check fails, the mechanism is destroyed. A destroyed lock cannot be unlocked (but still counts as locked for the purpose opening the locked object). A destroyed trap mechanism immediately triggers the trap. If you fail the DC by 5 or more, the powder also lands on an object in your square (including possibly your armor or weapon), dealing 5 hit points of damage to the object.",
 			"",
@@ -1541,7 +1541,7 @@
 		"description": [
 			"## Salt tablets (10)",
 			"‹SOURCE People of the Sands/28›  ",
-			"::tabular{format=misc a=\"1\" b=x d=rem}",
+			"::tabular{format=misc a=1 b=x d=rem}",
 			"",
 			"These tablets of pressed salt help stave off [dehydration](rule/starvation_and_thirst). Taking a salt tablet once every 24 hours grants you a +2 circumstance bonus on saving throws to avoid ‹rule/heat«stroke<_dangers› and on Constitution checks to avoid thirst.",
 			"",
@@ -1566,7 +1566,7 @@
 		"description": [
 			"## Sanctified rings (pair)",
 			"‹SOURCE Adventurer's Armory/25›  ",
-			"::tabular{format=misc a=\"5\" b=x d=foci}",
+			"::tabular{format=misc a=5 b=x d=foci}",
 			"",
 			"A single tiny religious symbol adorns each ring in this matched pair. If two people each wear one of the rings and clasp hands, a cleric may activate both rings with one use of ‹ability/channel energy›.",
 			"",
@@ -1715,7 +1715,7 @@
 		"description": [
 			"## Scentbane incense",
 			"‹SOURCE Advanced Race Guide/37›  ",
-			"::tabular{format=misc a=\"80\" b=x d=atools}",
+			"::tabular{format=misc a=80 b=x d=atools}",
 			"",
 			"Scentbane incense is a form of ‹eq-misc/smokestick› that also blocks most scents. As long as the smoke lasts, creatures with the ‹umr/scent› special ability must make Perception checks, opposed by the Stealth checks of any creatures within the smoke, to use scent to locate creatures within the smoke. If a creature remains in scentbane incense for 5 rounds or more, the smoke clings to it for 1 round after it leaves, making it similarly difficult to find by scent during that time.",
 			"",
@@ -1787,7 +1787,7 @@
 		"description": [
 			"## Scroll belt",
 			"‹SOURCE Ultimate Intrigue/234›  ",
-			"::tabular{format=misc a=\"3 sp\" b=\"varies\" c=x d=gear}",
+			"::tabular{format=misc a=\"3 sp\" b=varies c=x d=gear}",
 			"",
 			"This garment is specially designed to have a single spell scribed on the inside of its surface, hidden from prying eyes. Infiltrators and spies often use scroll belts to secure extra magical means of escape when the remainder of their equipment is taken during capture. The belt is reusable, though the normal costs and time required to scribe a spell on the belt for each new spell apply. You must remove the belt and hold it in a free hand in order to use the scroll."
 		]
@@ -1883,7 +1883,7 @@
 		"description": [
 			"## Seeing Slime",
 			"‹SOURCE Ultimate Wilderness/155›  ",
-			"::tabular{format=misc a=\"160\" b=x d=herb e=19 f=\"1 dose\" g=\"any underground\" h=\"After collecting this rare slime mold from where it naturally occurs in the lightless depths, the herbalist must combine the slime with mineral salts and store it in an airtight container such as a bottle or jar.\" i=\"@I-power-boost The slime causes mild skin rashes, but it grants darkvision out to a range of 30 feet for 24 hours if applied to the eyes (a @HLfull-round_action that provokes attacks of opportunity). If the subject already had darkvision, the darkvision's range increases by 30 feet. Frequent use of this herb causes permanent purple blotches on the skin around the user's eyes.\"}",
+			"::tabular{format=misc a=160 b=x d=herb e=19 f=\"1 dose\" g=\"any underground\" h=\"After collecting this rare slime mold from where it naturally occurs in the lightless depths, the herbalist must combine the slime with mineral salts and store it in an airtight container such as a bottle or jar.\" i=\"@I-power-boost The slime causes mild skin rashes, but it grants darkvision out to a range of 30 feet for 24 hours if applied to the eyes (a @HLfull-round_action that provokes attacks of opportunity). If the subject already had darkvision, the darkvision's range increases by 30 feet. Frequent use of this herb causes permanent purple blotches on the skin around the user's eyes.\"}",
 			"",
 			"This violet slime mold is found only in rock formations containing nodules of agate."
 		]
@@ -1894,7 +1894,7 @@
 		"description": [
 			"## Semblance transfusion",
 			"‹SOURCE Alchemy Manual/15›  ",
-			"::tabular{format=misc a=\"300\" b=x d=rem}",
+			"::tabular{format=misc a=300 b=x d=rem}",
 			"",
 			"When combined with a drop of a humanoid's blood, this solution allows the ‹monster/homunculus› that drinks it to grow to size Small and assume the likeness of the subject whose blood was used. If the homunculus can speak, its voice changes to resemble that of the subject. The homunculus's space and reach become 5 feet and it loses its bite attack, but otherwise its statistics remain unchanged. This transformation lasts 24 hours. The homunculus gains a +10 circumstance bonus on Disguise checks to appear as the subject, but unless the subject is a halfling, a gnome, a child, or another Small humanoid, the homunculus is likely shorter than the subject.",
 			"",
@@ -2099,7 +2099,7 @@
 		"description": [
 			"## Sherrif's whistle",
 			"‹SOURCE Advanced Race Guide/37›  ",
-			"::tabular{format=misc a=\"1\" b=x d=gear}",
+			"::tabular{format=misc a=1 b=x d=gear}",
 			"",
 			"Used most often by ‹race/gnome› sheriffs and rangers, a sheriff's whistle gives off a piercing shriek that can easily be heard up to 1,000 feet away under ordinary circumstances. However, the frequency of the shriek is such that it can only be heard by badgers, dogs, and gnomes."
 		]
@@ -2161,7 +2161,7 @@
 		"description": [
 			"## Shoddy item",
 			"‹SOURCE Villain Codex/116›  ",
-			"::tabular{format=misc a=\"varies\" b=\"varies\" c=x d=gear}",
+			"::tabular{format=misc a=varies b=varies c=x d=gear}",
 			"",
 			"A shoddy item is any mundane piece of equipment that has been cleverly but poorly crafted such that its materials and workmanship are worse than expected, but the flaws are concealed. Layers of material are thinner than normal, hasps and hinges are only loosely attached, metals are mixed improperly, resulting in softer alloys, and so forth. Shoddy items are sold for the same price as their well-made counterparts. Manufacturing a shoddy item requires the ‹feat/Craft Shoddy Item› feat in order to successfully conceal the poor workmanship. Shoddy items are never masterwork or made of special materials (though they might appear to be made of a special material), and single-use items can never be made as shoddy items.",
 			"",
@@ -2247,7 +2247,7 @@
 		"description": [
 			"## Signal kite kit",
 			"‹SOURCE Advanced Race Guide/165›  ",
-			"::tabular{format=misc a=\"5\" b=x d=ent}",
+			"::tabular{format=misc a=5 b=x d=ent}",
 			"",
 			"Though wingless, ‹race/tengu«s› have long cast their thoughts toward the sky and flight. Built from paper glued to bamboo frames, their kites are painted with various colors and pictures. In addition to flying kites as a leisure activity, tengus also fly kites of various shades and patterns to send signal messages. Tengus have developed an extensive code of signals and can use their kites to display complex messages visible at great distances. A signal kite kit includes six small colored kites that can be hooked together in different patterns to facilitate complex messages. The kit also includes a spool and 300 feet of ‹eq-misc/twine›. Sending or interpreting a signal kite's message functions as described in the Bluff skill, but the sender and anyone trying to understand the message must also know Tengu."
 		]
@@ -2261,7 +2261,7 @@
 		"description": [
 			"## Signet ring",
 			"‹SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158›  ",
-			"::tabular{format=misc a=\"5\" b=x d=gear}",
+			"::tabular{format=misc a=5 b=x d=gear}",
 			"",
 			"This ring has an embossed design, typically a family crest or official icon. You press a signet ring into softened ‹eq-misc/sealing_>wax› to leave an impression of this symbol."
 		]
@@ -2276,7 +2276,7 @@
 		"description": [
 			"## Poison pill signet ring",
 			"‹SOURCE Ultimate Equipment/57;Adventurer's Armory/19;Advanced Player's Guide/181›  ",
-			"::tabular{format=misc a=\"20\" b=\"0\" c=M d=gear}",
+			"::tabular{format=misc a=20 b=0 c=M d=gear}",
 			"",
 			"This ring has a tiny compartment under the setting, typically used to hold poison. Opening and closing a ring is a move action; doing so unseen requires a DC 20 Sleight of Hand check."
 		]
@@ -2357,7 +2357,7 @@
 		"description": [
 			"## Silver drops",
 			"‹SOURCE Blood of the Moon/30›  ",
-			"::tabular{format=misc a=\"180\" b=x d=atools}",
+			"::tabular{format=misc a=180 b=x d=atools}",
 			"",
 			"A creature with DR/silver can swallow these bitter-tasting capsules of a concentrated alchemical silver to convert their damage reduction to DR/- for 2d4 rounds. When this effect ends, the creature is ‹misc/nauseated› for 1 round. A creature can only benefit from silver drops once per 24 hours. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
 			"",
@@ -2370,7 +2370,7 @@
 		"description": [
 			"## Singer's solution",
 			"‹SOURCE Ultimate Intrigue/236›  ",
-			"::tabular{format=misc a=\"120\" b=x d=atools}",
+			"::tabular{format=misc a=120 b=x d=atools}",
 			"",
 			"When you imbibe this draught, you can accept ‹misc/alchemical burn› to gain an additional 4 rounds of bardic performance or raging song for the day. The effects of singer's solution last for 1 hour; if not spent within 1 hour, these additional rounds are lost. Singer's solution has no effect if you don't have the ‹ability/bardic performance› or ‹ability/raging song› class features.",
 			"",
@@ -2423,7 +2423,7 @@
 		"description": [
 			"## Skeleton key",
 			"‹SOURCE Ultimate Equipment/57;Adventurer's Armory/19›  ",
-			"::tabular{format=misc a=\"85\" b=x d=gear}",
+			"::tabular{format=misc a=85 b=x d=gear}",
 			"",
 			"Many door locks have a similar design and thus can be unlocked by a similar key. A skeleton key may be tried on any standard door lock that uses a key, even if you don't have the Disable Device skill. You use the key's Disable Device bonus of +10 rather than your own total; you cannot take 10 when using a skeleton key. The key only gets one roll for any particular lock. If the roll fails, the key is unable to open or close that lock. Inferior skeleton keys may only have a +5 bonus."
 		]
@@ -2606,7 +2606,7 @@
 		"description": [
 			"## Slow-heart concoction",
 			"‹SOURCE Adventurer's Armory 2/27›  ",
-			"::tabular{format=misc a=\"50\" b=x d=conc}",
+			"::tabular{format=misc a=50 b=x d=conc}",
 			"",
 			"This inky concoction slows the flow of blood, reducing any ‹rule/bleed› damage you would suffer by 2 and causing you to automatically stabilize when dying. The concoction dulls your response speed, however, imparting a -1 penalty on your Reflex saving throws."
 		]
@@ -2620,7 +2620,7 @@
 		"description": [
 			"## Smelling salts",
 			"‹SOURCE Ultimate Equipment/101;Advanced Player's Guide/184›  ",
-			"::tabular{format=misc a=\"25\" b=x d=rem}",
+			"::tabular{format=misc a=25 b=x d=rem}",
 			"",
 			"These sharply scented gray crystals cause people inhaling them to regain consciousness. Smelling salts grant you a new saving throw to resist any spell or effect that has already rendered you ‹misc/unconscious› or ‹misc/staggered›. If exposed to smelling salts while ‹misc/dying›, you immediately become conscious and staggered, but must still make stabilization checks each round; if you perform any standard action (or any other strenuous action), you take 1 point of damage after completing the act and fall unconscious again. A container of smelling salts has dozens of uses if stoppered after each use, but depletes in a matter of hours if left open.",
 			"",
@@ -2665,7 +2665,7 @@
 		"description": [
 			"## Smoke pellet",
 			"‹SOURCE Ultimate Equipment/103;Advanced Player's Guide/184;Adventurer's Armory/19›  ",
-			"::tabular{format=misc a=\"25\" b=x d=atools}",
+			"::tabular{format=misc a=25 b=x d=atools}",
 			"",
 			"This small clay sphere contains two alchemical substances separated by a thin barrier. When you break the sphere, the substances mingle and fill a 5-foot square with a cloud of foul but harmless yellow smoke. The smoke pellet acts as a ‹eq-misc/smokestick›, except the smoke only lasts for 1 round before dispersing. You may throw a smoke pellet as a ranged touch attack with a range increment of 10 feet.",
 			"",
@@ -2694,7 +2694,7 @@
 		"description": [
 			"## Smoked goggles",
 			"‹SOURCE Ultimate Equipment/57;Advanced Player's Guide/183›  ",
-			"::tabular{format=misc a=\"10\" b=x d=gear}",
+			"::tabular{format=misc a=10 b=x d=gear}",
 			"",
 			"These spectacles have lenses made of smoked glass that help protect against creatures with ‹umr/gaze› attacks. You are always treated as averting your gaze when dealing with gaze attacks, and you gain a +8 circumstance bonus on saving throws against visual-based attacks (any attack that a ‹misc/blind› creature would be immune to). You take a -4 penalty on Perception checks while wearing the goggles, and all opponents are treated as having ‹rule/concealment› (20% miss chance)."
 		]
@@ -2770,7 +2770,7 @@
 		"description": [
 			"## Snake oil",
 			"‹SOURCE Occult Adventures/252›  ",
-			"::tabular{format=misc a=\"20\" b=x d=atools}",
+			"::tabular{format=misc a=20 b=x d=atools}",
 			"",
 			"This mildly toxic liniment numbs flesh and can soothe injuries. Though the tincture is actually poisonous, an imbiber who avoids becoming poisoned recovers from minor injuries.",
 			"",
@@ -2789,7 +2789,7 @@
 		"description": [
 			"## Snake-tongue concoction",
 			"‹SOURCE Adventurer's Armory 2/27›  ",
-			"::tabular{format=misc a=\"50\" b=x d=conc}",
+			"::tabular{format=misc a=50 b=x d=conc}",
 			"",
 			"This lime-green goo turns your saliva venomous. Once during the concoction's duration, as a swift action, you can lick or spit on a held weapon to apply a dose of black adder venom to the weapon. If you are a ‹race/vishkanya›, you instead apply the poison granted by your toxic racial trait; this does not count against that trait's uses per day. The concoction weakens your physical defenses, imparting a -1 penalty on your Fortitude saving throws."
 		]
@@ -2822,7 +2822,7 @@
 		"description": [
 			"## Snow goggles",
 			"‹SOURCE Pathfinder #51: The Hungry Storm/67›  ",
-			"::tabular{format=misc a=\"12\" b=x d=cloth}",
+			"::tabular{format=misc a=12 b=x d=cloth}",
 			"",
 			"These goggles, carved from bone with a narrow slit opening and held in place with leather straps, work as ‹eq-misc/smoked goggles›. In addition, they provide immunity to polar mirages."
 		]
@@ -2947,7 +2947,7 @@
 		"description": [
 			"## Sorcerer's spirits",
 			"‹SOURCE Potions and Poisons/23›  ",
-			"::tabular{format=misc a=\"300\" b=x d=tinc}",
+			"::tabular{format=misc a=300 b=x d=tinc}",
 			"",
 			"This silvery liquid amplifies magical energies. For 1 hour after drinking this tincture, treat your caster level as 2 higher for the purpose of determining spells' durations and ranges. The liquid unsettles the stomach, imposing a -1 penalty on Fortitude and Reflex saves for the same duration. Whenever you fail a Fortitude or Reflex save while under these effects, you must succeed at a DC 20 Fortitude saving throw or become ‹misc/nauseated› for 1 round.",
 			"",
@@ -2960,7 +2960,7 @@
 		"description": [
 			"## Soul candle",
 			"‹SOURCE Inner Sea Temples/42›  ",
-			"::tabular{format=misc a=\"1\" b=x d=gear}",
+			"::tabular{format=misc a=1 b=x d=gear}",
 			"",
 			"When lit, this spiral-shaped ‹eq-misc/candle› burns for 24 hours, but if a haunt manifests or an undead creature comes within 5 feet of a lit soul candle, the candle goes out in a bright, sizzling flash."
 		]
@@ -2971,7 +2971,7 @@
 		"description": [
 			"## Soul stimulant",
 			"‹SOURCE Ultimate Equipment/101›  ",
-			"::tabular{format=misc a=\"300\" b=x d=rem}",
+			"::tabular{format=misc a=300 b=x d=rem}",
 			"",
 			"This soothing elixir was created to counter the energy-draining effects of vampires, wights, and similar horrible creatures. If you have a negative level (whether temporary or permanent), you can drink a dose of soul stimulant, negating the negative level's penalty for 12 hours. You can only benefit from 1 dose of soul stimulant at a time, though you can continue to take a dose every 12 hours to stave off the negative level's effects.",
 			"",
@@ -3033,7 +3033,7 @@
 		"description": [
 			"## Speech resin",
 			"‹SOURCE Ultimate Intrigue/236›  ",
-			"::tabular{format=misc a=\"410\" b=x d=atools}",
+			"::tabular{format=misc a=410 b=x d=atools}",
 			"",
 			"Chewing this gummy substance grants you 1d4 uses of ‹misc/alchemical inspiration› that can be used only on Charisma-based skill checks. This benefit lasts for 1 hour, during which you must roll all Wisdom-based skill checks twice and take the worse result.",
 			"",
@@ -3148,7 +3148,7 @@
 		"description": [
 			"## Sphere-song concoction",
 			"‹SOURCE Adventurer's Armory 2/27›  ",
-			"::tabular{format=misc a=\"50\" b=x d=conc}",
+			"::tabular{format=misc a=50 b=x d=conc}",
 			"",
 			"This syrupy concoction fills you with a dreamy, peaceful feeling, providing a +1 alchemical bonus on Will saving throws. However, the dreaminess slows your reactions to danger, imparting a -2 penalty on initiative checks."
 		]
@@ -3251,7 +3251,7 @@
 		"description": [
 			"## Spirit of glass",
 			"‹SOURCE Alchemy Manual/9›  ",
-			"::tabular{format=misc a=\"35\" b=x d=atools}",
+			"::tabular{format=misc a=35 b=x d=atools}",
 			"",
 			"This fiber is composed of tiny strands of razor-sharp glass laced with alchemical elements. Anyone who touches it finds her skin irritated by countless tiny abrasions. Though it causes only minor discomfort, it opens the skin enough for poison to seep through, allowing injury poisons to be delivered to the affected creature as if they were contact poisons. The abrasions last for 1 hour or until cleaned and treated with a successful DC 10 Heal check (a full-round action). Poisoners sometimes place spirit of glass in a target's wardrobe or amid her personal effects along with a rag soaked in poison. Spirit of glass is often mistaken for lint or loose cloth, though it and the abrasions it causes can be identified with a successful DC 15 Craft (alchemy) check or DC 17 Heal check. Spirit of glass can be used only once before it is expended.",
 			"",
@@ -3298,7 +3298,7 @@
 		"description": [
 			"## Spirit-vision ink",
 			"‹SOURCE Adventurer's Armory 2/28›  ",
-			"::tabular{format=misc a=\"25\" b=x d=atools}",
+			"::tabular{format=misc a=25 b=x d=atools}",
 			"",
 			"Originally developed by kami-revering priests to write prayer scrolls, this pale ink is now often used by ninjas to mark locations or leave messages. Once spirit-vision ink dries, it becomes completely invisible. To invisible creatures, however, writing in spirit-vision ink shimmers with a rich azure hue.",
 			"",
@@ -3488,7 +3488,7 @@
 		"description": [
 			"## Stalker's oil",
 			"‹SOURCE Potions and Poisons/29›  ",
-			"::tabular{format=misc a=\"50\" b=x d=atools}",
+			"::tabular{format=misc a=50 b=x d=atools}",
 			"",
 			"This is a clear, viscous liquid that is typically kept in a frosted glass vial with an unassuming label and cork. The oil is used to reduce the sound armor and weapons make while moving. Applying this oil to a single piece of equipment takes 1 minute and grants the wearer a +2 circumstance bonus on Stealth checks for 30 minutes. A vial of this oil is enough to coat one Medium piece of equipment, while a Large piece of equipment requires 4 vials. Two pieces of Small equipment can be covered with a single vial of oil. Exposure to or submersion in large amounts of water, such as swimming, immediately ends the effect of the oil."
 		]
@@ -3510,7 +3510,7 @@
 		"description": [
 			"## Starlight juice",
 			"‹SOURCE Potions and Poisons/23›  ",
-			"::tabular{format=misc a=\"300\" b=x d=tinc}",
+			"::tabular{format=misc a=300 b=x d=tinc}",
 			"",
 			"This clear liquid glows with pale light. For 4 hours after drinking this tincture, you emit light as a ‹eq-misc/torch›. You are constantly ‹misc/dazzled› during this time. If any effect would cause you to become dazzled during this time, you are instead ‹misc/blinded›. While under the effect of this tincture, you can intensify your glow as a swift action to that of bright light, as per ‹spell/daylight›, for 1 round. After activating the bright light effect, you emit only dim light with a range of 10 feet for the remainder of the tincture's duration.",
 			"",
@@ -3537,7 +3537,7 @@
 		"description": [
 			"## Stationery",
 			"‹SOURCE Ultimate Equipment/58;Adventurer's Armory/19›  ",
-			"::tabular{format=misc a=\"1\" b=x d=gear}",
+			"::tabular{format=misc a=1 b=x d=gear}",
 			"",
 			"Generally used only by the wealthy, fancy stationery is a finer-quality 9-inch-by-6-inch paper, often embossed or engraved with the owner's personal seal."
 		]
@@ -3570,7 +3570,7 @@
 		"description": [
 			"## Stillgut (vial)",
 			"‹SOURCE Advanced Race Guide/118›  ",
-			"::tabular{format=misc a=\"50\" b=x d=rem}",
+			"::tabular{format=misc a=50 b=x d=rem}",
 			"",
 			"Drinking a vial of this bland, bluish liquid grants you a +5 alchemical bonus on Fortitude saves to avoid ‹misc/nausea› or ‹misc/sickness› for 1 hour. If you are already nauseated, you can drink stillgut as a move action. Drinking it in this fashion grants you a second saving throw (without the +5 bonus). Goblins often use stillgut so they can choke down meat or other foods in advanced stages of rot or decay.",
 			"",
@@ -3622,7 +3622,7 @@
 		"description": [
 			"## Stink ink (arcane)",
 			"‹SOURCE Advanced Race Guide/154›  ",
-			"::tabular{format=misc a=\"special\" b=\"1 lb.\" c=x d=rem}",
+			"::tabular{format=misc a=special b=\"1 lb.\" c=x d=rem}",
 			"",
 			"Most common among ‹race/ratfolk› alchemists, arcane stink ink is used to inscribe formulae or spells into formula books and spellbooks. Like normal ‹eq-misc/stink ink›, the arcane version can only be read by creatures with the ‹umr/scent› ability (although ‹spell/read magic› works normally on spells and arcane formulae inscribed with stink ink). Using arcane stink ink to inscribe a spell or formula into a book costs +10% of the normal amount."
 		]
@@ -3685,7 +3685,7 @@
 		"description": [
 			"## Stout solution",
 			"‹SOURCE Potions and Poisons/23›  ",
-			"::tabular{format=misc a=\"100\" b=x d=tinc}",
+			"::tabular{format=misc a=100 b=x d=tinc}",
 			"",
 			"This highly viscous liquid resembles tree sap and is difficult to swallow. For 2 hours after drinking this tincture, you gain a +2 alchemical bonus to your CMD and you can perform ‹rule/combat maneuvers› as if you were one size category larger. Your skeleton's increased density causes you to be treated as if you were ‹rule/carrying<_capacity› a medium load, or a heavy load if you were already encumbered by a medium load, for the same duration.",
 			"",
@@ -3810,7 +3810,7 @@
 		"description": [
 			"## Sugar glass bottle",
 			"‹SOURCE Advanced Class Guide/206›  ",
-			"::tabular{format=misc a=\"1\" b=x d=tools}",
+			"::tabular{format=misc a=1 b=x d=tools}",
 			"",
 			"This bottle looks like it's made of glass, but is more fragile and doesn't cause damage when it strikes a creature or object. Highly prized by theater performers, sugar glass bottles grant a +2 circumstance bonus on Bluff and Perform checks involving the creation of seemingly realistic fights."
 		]
@@ -3858,7 +3858,7 @@
 		"description": [
 			"## Sunblock kohl",
 			"‹SOURCE Adventurer's Guide/15›  ",
-			"::tabular{format=misc a=\"10\" b=x d=cloth}",
+			"::tabular{format=misc a=10 b=x d=cloth}",
 			"",
 			"Made from ground antimony, this sooty cosmetic is used to line the eyes. It grants the wearer a +2 circumstance bonus on saves against light-based effects that would ‹misc/dazzle<d› or ‹misc/blind› him for 8 hours. A container of kohl holds 10 applications."
 		]
@@ -4036,7 +4036,7 @@
 		"description": [
 			"## Sweet Rest",
 			"‹SOURCE Pathfinder #139: The Dead Road/63›  ",
-			"::tabular{format=misc a=\"75\" b=x d=rem}",
+			"::tabular{format=misc a=75 b=x d=rem}",
 			"",
 			"When imbibed, this effervescent solution causes a heavy warmth to spread from your stomach outward to your limbs, resulting in feelings of security and well-being. If you sleep for at least 1 hour after consuming the solution, the next time within the next 24 hours that you attempt a saving throw to remove a temporary negative level, you can roll the save twice and use the better result. Crafting this item requires a successful DC 20 Craft (alchemy) check.",
 			"",
@@ -4049,7 +4049,7 @@
 		"description": [
 			"## Swift hands tonic",
 			"‹SOURCE Ultimate Intrigue/236›  ",
-			"::tabular{format=misc a=\"250\" b=x d=atools}",
+			"::tabular{format=misc a=250 b=x d=atools}",
 			"",
 			"When imbibed, this bitter, rust-colored concoction grants you 1d4 uses of ‹misc/alchemical inspiration› that can be used only on Disable Device checks and Sleight of Hand checks. These benefits last for 1 hour; during this time, you must roll all Acrobatics checks and Escape Artist checks twice and take the worse result.",
 			"",
@@ -4098,7 +4098,7 @@
 		"description": [
 			"## Synthetic mumia",
 			"‹SOURCE Undead Slayer's Handbook/9›  ",
-			"::tabular{format=misc a=\"150\" b=x d=rem}",
+			"::tabular{format=misc a=150 b=x d=rem}",
 			"",
 			"A laboratory-created version of the expensive and infamous Osirian drug ‹drug/mumia›, synthetic mumia is a mixture of honey, embalming fluids, and various animal organs. The murky liquid comes enclosed in small packets made of intestine. Mumia and synthetic mumia may be taken interchangeably to stave off the effects of addiction to either substance, and is thus used by some mumia junkies hoping to quit their addiction.",
 			"",
@@ -4198,7 +4198,7 @@
 		"description": [
 			"## Tea of transference",
 			"‹SOURCE Alchemy Manual/25›  ",
-			"::tabular{format=misc a=\"40\" b=x d=rem}",
+			"::tabular{format=misc a=40 b=x d=rem}",
 			"",
 			"This foul-tasting green tea allows monks to focus their ki on improving abilities they've gained through other training. By drinking a cup of tea of transference, you can expend 1 point from your ki pool to regain 1 point from your arcane pool, 2 rounds of barbarian rage, 2 rounds of bardic performance, one use of channel energy, 1 grit point, one use of smite evil, one expended extract slot at least 1 level lower than the highest-level extract you can create, or one expended spell slot at least 2 levels lower than the highest-level spell you can cast. You must have the ki pool class feature and the class feature you want to regain uses of in order to benefit from tea of transference.",
 			"",
@@ -4357,7 +4357,7 @@
 		"description": [
 			"## Terror kite",
 			"‹SOURCE Advanced Race Guide/165›  ",
-			"::tabular{format=misc a=\"20\" b=x d=ent}",
+			"::tabular{format=misc a=20 b=x d=ent}",
 			"",
 			"This small kite is usually painted with a fierce face and bright colors and is edged with serrated wooden blades. Its twine is strengthened by soaking it in glue and sometimes with crushed glass to give it a slight cutting edge. The kite has hardness 5 and 3 hit points. Participants in a kite battle make alternating sunder combat maneuvers against each other's kites; each successful maneuver allows a competitor to roll 1d6 points of damage against the opponent's kite. When a kite reaches 0 hit points, it is broken or its string is cut, and its player loses the match. In some matches, points are awarded for touching the kite's top to the opponent's string, with the winner being the first to reach a set point total. Those interested in kite-fighting may select the terror kite as a weapon for the purpose of feats such as ‹feat/Weapon Focus› and ‹feat/Weapon Specialization›, and apply these bonuses on kite damage rolls and on their sunder combat maneuver attempts made while using terror kites."
 		]
@@ -4401,7 +4401,7 @@
 		"description": [
 			"## Thieves' ring",
 			"‹SOURCE Dungeoneer's Handbook/25›  ",
-			"::tabular{format=misc a=\"300\" b=x d=tools}",
+			"::tabular{format=misc a=300 b=x d=tools}",
 			"",
 			"This slightly oversized ring conceals a few lockpicks and other tools coiled inside its band. These discreet tools, made of a metal alloy that springs straight once the tool is removed from the band, are sufficient to attempt Disable Device checks without penalty, and long enough to pick locks on manacles fastened around the wearer's hands (once she slips off the ring). The wearer gains a +2 circumstance bonus on Sleight of Hand checks made to conceal the ring's nature from anyone searching her."
 		]
@@ -4458,7 +4458,7 @@
 		"description": [
 			"## Thinker's tipple",
 			"‹SOURCE Potions and Poisons/23›  ",
-			"::tabular{format=misc a=\"300\" b=x d=tinc}",
+			"::tabular{format=misc a=300 b=x d=tinc}",
 			"",
 			"This orange liquid invigorates the mind. For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on Knowledge checks and can attempt untrained Knowledge checks if the DC is 15 or lower. This saps your energy, imposing a -4 penalty on Fortitude saving throws for the same duration.",
 			"",
@@ -4532,7 +4532,7 @@
 		"description": [
 			"## Tiller's gum",
 			"‹SOURCE Adventurer's Guide/45;Pathfinder #106: For Queen and Empire/75›  ",
-			"::tabular{format=misc a=\"100\" b=x d=atools}",
+			"::tabular{format=misc a=100 b=x d=atools}",
 			"",
 			"This gum has alchemical properties that allow it to soak up magical energy and release it when the gum is chewed. As a standard action, a stick of tiller's gum can be imbued with a spell of up to 3rd level with a casting time of less than 1 minute and that targets one or more creatures, as if the gum were the target of the spell. The gum holds the spell's charge for 1 hour, during which time a creature capable of casting the stored spell can chew the gum as a standard action to gain the spell's effects, expending the stored spell and destroying the gum. The stored spell uses the original caster's level to determine its effects. If the spell-imbued gum isn't used before an hour passes, it is ruined. Crafting a stick of tiller's gum requires a successful DC 20 Craft (alchemy) check.",
 			"",
@@ -4549,7 +4549,7 @@
 		"description": [
 			"## Tindertwig",
 			"‹SOURCE Alchemy Manual/30;Ultimate Equipment/103;PRPG Core Rulebook/158›  ",
-			"::tabular{format=misc a=\"1\" b=x d=atools}",
+			"::tabular{format=misc a=1 b=x d=atools}",
 			"",
 			"The alchemical substance on the end of this small, wooden stick ignites when struck against a rough surface (a move action). Creating a flame with a tindertwig is much faster than creating a flame with tinder and a ‹eq-misc/flint and steel› or magnifying glass. Lighting a torch with a tindertwig is a standard action rather than a full-round action, and lighting any other fire with one is at least a standard action. A tindertwig burns for 1d2 rounds and sheds light as a ‹eq-misc/candle›. Tindertwigs are waterproof, but must be dried before you can strike them.",
 			"",
@@ -4574,7 +4574,7 @@
 		"description": [
 			"## Titan's tonic",
 			"‹SOURCE Potions and Poisons/23›  ",
-			"::tabular{format=misc a=\"200\" b=x d=tinc}",
+			"::tabular{format=misc a=200 b=x d=tinc}",
 			"",
 			"Gravel floats in this umber liquid. For 1 hour after drinking this tincture, you gain a +1 alchemical bonus to natural armor and a +2 alchemical bonus on Strength checks and Strength-based skill checks. The tonic swells your musculature, decreasing your movement speed by 5 feet, to a minimum of 5 feet, and causing you to take a -4 penalty on Reflex saving throws for the same duration.",
 			"",
@@ -4693,7 +4693,7 @@
 		"description": [
 			"## Tracker's snuff",
 			"‹SOURCE Advanced Class Guide/208›  ",
-			"::tabular{format=misc a=\"200\" b=x d=atools}",
+			"::tabular{format=misc a=200 b=x d=atools}",
 			"",
 			"When inhaled, this finely ground, alchemically treated ‹eq-misc/tobacco› greatly enhances your senses, especially your sense of smell. It grants the scent ability and a +2 alchemical bonus on Perception checks for 1 hour. However, once the effect wears off your body is wracked with terrible pain as your joints begin to stiffen and seize, dealing 1d2 points of ‹rule/Dexterity damage› to you.",
 			"",
@@ -4706,7 +4706,7 @@
 		"description": [
 			"## Tracking powder",
 			"‹SOURCE Advanced Class Guide/208›  ",
-			"::tabular{format=misc a=\"30\" b=x d=atools}",
+			"::tabular{format=misc a=30 b=x d=atools}",
 			"",
 			"When you scatter this very fine pale blue powder on the ground, it reveals the tracks of any creatures or individuals that have passed through the area within the last 48 hours. The powder also grants you a +10 alchemical bonus on Survival checks to follow tracks or, if you aren't trained in Survival, instead allows you to track creatures whose prints are revealed by the powder for up to 1 mile using Perception instead of Survival. A single application can cover an area of up to 60 square feet. Tracking powder is sold in small leather pouches that hold 10 applications each.",
 			"",

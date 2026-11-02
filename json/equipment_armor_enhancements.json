@@ -121,7 +121,7 @@
 			"",
 			"@I-boost You can have spikes added to your armor, which allow you to deal extra piercing damage on a successful ‹misc/grapple› attack.",
 			"",
-			"::tabular{format=weap2 d=s1d4m1d6 e=\"&times&2\" f=x g=P i=light j=M k=\"Close\"}",
+			"::tabular{format=weap2 d=s1d4m1d6 e=\"&times&2\" f=x g=P i=light j=M k=Close}",
 			"",
 			"@I-warning The spikes count as a martial weapon. If you are not proficient with them, you take a -4 penalty on grapple checks when you try to use them.",
 			"",
