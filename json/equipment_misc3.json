@@ -1011,7 +1011,9 @@
 			"‹SOURCE People of the Stars/19›  ",
 			"::tabular{format=misc a=1 b=\"0.5\" d=food}",
 			"",
-			"Generally composed of meat, hard cheese, fruits and vegetables, nut and bean pastes, and vital herbs, space rations are dehydrated and then kept extremely dry in order to maximize preservation and storage efficiency. A single serving feeds a Medium character for 1 day, but unless an equal weight of water is added to the rations, the character eating them becomes ‹misc/fatigued› until she drinks enough water."
+			"Generally composed of meat, hard cheese, fruits and vegetables, nut and bean pastes, and vital herbs, space rations are dehydrated and then kept extremely dry in order to maximize preservation and storage efficiency.",
+			"",
+			"@I-warning A single serving feeds a Medium character for 1 day, but unless an equal weight of water is added to the rations, the character eating them becomes ‹misc/fatigued› until she drinks enough water."
 		]
 	},
 	"space_rations": { "redirect": "rations_space_per_day" },
@@ -1581,7 +1583,11 @@
 			"‹SOURCE Merchant's Manifest/8›  ",
 			"::tabular{format=misc a=200 b=2 d=food}",
 			"",
-			"This deep red wine is highly tannic and has notes of currants and cocoa and an aroma of cedar. Sangwine is a favorite of Caliphas's elite, who associate drinking it with long life. Drinking a glass of sangwine takes at least 1 round, though many imbibers take longer to savor the wine's complex flavors. After drinking a glass, the wine gives the drinker's blood a bitter flavor for 1 hour, causing any creature that deals damage using the ‹umr/blood drain› extraordinary ability to become ‹misc/sickened› for a number of rounds equal to the points of Constitution damage dealt (this effect is not subject to the poison immunity of vampires and other undead). Repeated uses of the blood drain ability on a creature that has imbibed at least one glass of sangwine extends the duration of the sickened condition. The price listed is for a bottle, which contains six glasses' worth of sangwine."
+			"This deep red wine is highly tannic and has notes of currants and cocoa and an aroma of cedar. Sangwine is a favorite of Caliphas's elite, who associate drinking it with long life.",
+			"",
+			"@I-def-lower Drinking a glass of sangwine takes at least 1 round, though many imbibers take longer to savor the wine's complex flavors. After drinking a glass, the wine gives the drinker's blood a bitter flavor for 1 hour, causing any creature that deals damage using the ‹umr/blood drain› extraordinary ability to become ‹misc/sickened› for a number of rounds equal to the points of Constitution damage dealt (this effect is not subject to the poison immunity of vampires and other undead). Repeated uses of the blood drain ability on a creature that has imbibed at least one glass of sangwine extends the duration of the sickened condition.",
+			"",
+			"The price listed is for a bottle, which contains six glasses' worth of sangwine."
 		]
 	},
 	"saw": {
@@ -1617,13 +1623,15 @@
 			"",
 			"::tabular{format=misc a=8 b=\"0.5\" d=cloth}",
 			"",
-			"An elaborate design disguises several small pockets on one side of this scarf. This scarf grants you a +4 bonus on Sleight of Hand checks made to hide objects on your body. This bonus does not stack with the bonus wearing heavy clothing provides but does stack with bonuses for attempting to hide small objects.",
+			"@I-def An elaborate design disguises several small pockets on one side of this scarf. This scarf grants you a +4 bonus on ‹skill/Sleight of Hand› checks made to hide objects on your body. This bonus does not stack with the bonus wearing heavy clothing provides but does stack with bonuses for attempting to hide small objects.",
 			"",
 			"::h3[Reinforced]{jl}",
 			"",
 			"::tabular{format=anim a=10 b=1 d=cloth}",
 			"",
-			"One side of this 8-foot-long scarf is reinforced with chain links and metal plates. While not enough to provide a benefit to Armor Class, these versatile scarves can be used like a length of chain to climb short distances or bind an enemy. A reinforced scarf has hardness 10 and 4 hit points. It can be burst with a successful DC 24 Strength check."
+			"One side of this 8-foot-long scarf is reinforced with chain links and metal plates. While not enough to provide a benefit to Armor Class, these versatile scarves can be used like a length of chain to climb short distances or bind an enemy.",
+			"",
+			"A reinforced scarf has ‹rule/hardness› 10 and 4 hit points. It can be burst with a successful DC 24 Strength check."
 		]
 	},
 	"scarf_reinforced": {
@@ -2126,7 +2134,9 @@
 			"‹SOURCE Adventurer's Armory 2/28›  ",
 			"::tabular{format=misc a=50 b=2 d=cloth}",
 			"",
-			"This close-fitting bodysuit of soft, dark fabric is favored by ninja and assassins. When worn, it grants a +2 circumstance bonus on Stealth checks. Wearing armor with a base armor bonus higher than +1 negates this bonus, as does additional heavy clothing or equipment worn under the shinobi shozoku (at the GM's discretion)."
+			"This close-fitting bodysuit of soft, dark fabric is favored by ninja and assassins.",
+			"",
+			"@I-def-warning When worn, it grants a +2 circumstance bonus on ‹skill/Stealth› checks. Wearing armor with a base armor bonus higher than +1 negates this bonus, as does additional heavy clothing or equipment worn under the shinobi shozoku (at the GM's discretion)."
 		]
 	},
 	"ships_boat": {
@@ -2297,7 +2307,9 @@
 			"‹SOURCE Path of the Hellknight/63;Adventurer's Guide/97›  ",
 			"::tabular{format=misc a=75 b=2 d=cloth}",
 			"",
-			"The menacing, eyeless masks of ‹pclass/Hellknight signifer«s› were first created by members of the ‹hkorder/Order of the Gate› and are semi-transparent on the inside. Those who wear them are treated as if they were wearing ‹eq-misc/smoked goggles›. A character with the Hellknight signifer prestige class can see through the mask as normal, but can also adjust her mask as a standard action to function as a pair of smoked goggles once more. Signifer masks are often enhanced, becoming variants of items that take up the head item slot. Additionally, when a character takes levels in the Hellknight signifer prestige class, this mask grants the benefits and capabilities of the signifer mask supernatural ability."
+			"The menacing, eyeless masks of ‹pclass/Hellknight signifer«s› were first created by members of the ‹hkorder/Order of the Gate› and are semi-transparent on the inside. Those who wear them are treated as if they were wearing ‹eq-misc/smoked goggles›.",
+			"",
+			"@I-power A character with the Hellknight signifer prestige class can see through the mask as normal, but can also adjust her mask as a @HL[standard action] to function as a pair of smoked goggles once more. Signifer masks are often enhanced, becoming variants of items that take up the head item slot. Additionally, when a character takes levels in the Hellknight signifer prestige class, this mask grants the benefits and capabilities of the *signifer mask* supernatural ability."
 		]
 	},
 	"silence_dust": {
@@ -2333,7 +2345,9 @@
 			"‹SOURCE Adventurer's Armory 2/28›  ",
 			"::tabular{format=misc a=200 b=5 d=cloth}",
 			"",
-			"This exquisite silken garment is vitally important formal wear for certain social roles in many Tian cultures, including Minkai. Properly donning a kimono requires assistance and a successful DC 15 Knowledge (nobility) check. When dealing with Minkaians or others familiar with the cultural significance of this garment, a properly worn kimono grants a +2 circumstance bonus on Diplomacy checks, as well as on Disguise checks made to appear as a geisha, noble, or other high standing member of Minkai society."
+			"This exquisite silken garment is vitally important formal wear for certain social roles in many Tian cultures, including Minkai. Properly donning a kimono requires assistance and a successful DC 15 ‹skill/Knowledge (nobility)› check.",
+			"",
+			"@I-boost-def When dealing with Minkaians or others familiar with the cultural significance of this garment, a properly worn kimono grants a +2 circumstance bonus on ‹skill/Diplomacy› checks, as well as on ‹skill/Disguise› checks made to appear as a geisha, noble, or other high standing member of Minkai society."
 		]
 	},
 	"silk_rope_50_ft": {
@@ -2413,7 +2427,7 @@
 			"‹SOURCE Pathfinder #51: The Hungry Storm/67›  ",
 			"::tabular{format=misc a=10 b=3 d=cloth}",
 			"",
-			"These honed metal blades are worn on boots to enable swift passage over ice. The wearer may move (but not climb) at her full speed on level icy surfaces. Her speed is halved when moving up an icy slope, but she may run or charge downhill on gentle or steep snowy slopes at quadruple speed. However, any skill check penalties for traversing rough ice while wearing skates are doubled, and the wearer takes a -4 penalty on combat maneuver checks to ‹rule/bull rush›, ‹rule/drag›, or ‹rule/trip›, and to CMD against these maneuvers. Donning or removing skates takes 1 minute.",
+			"@I-boost-down These honed metal blades are worn on boots to enable swift passage over ice. The wearer may move (but not climb) at her full speed on level icy surfaces. Her speed is halved when moving up an icy slope, but she may run or charge downhill on gentle or steep snowy slopes at quadruple speed. However, any skill check penalties for traversing rough ice while wearing skates are doubled, and the wearer takes a -4 penalty on combat maneuver checks to ‹rule/bull rush›, ‹rule/drag›, or ‹rule/trip›, and to CMD against these maneuvers. Donning or removing skates takes 1 minute.",
 			"",
 			"Also see: ‹eq-misc/ice skates›."
 		]
@@ -2483,7 +2497,11 @@
 			"‹SOURCE Ultimate Equipment/89›  ",
 			"::tabular{format=misc a=5 b=20 d=cloth}",
 			"",
-			"Each ski is a flat piece of wood about 5-6 feet long for a Medium wearer, curled up slightly at the front end, with lengthwise grooves along the underside and a wooden or metal bracket with laces on top for holding the wearer's boot in place. Wearing skis allows you to move on snow and ice at normal speed, but your movement is reduced to 5 feet on all other terrain. You normally use a pair of spiked poles to help you move and maintain balance while skiing, but ‹eq-weapon/javelin«s›, ‹eq-weapon/shortspear«s›, or even trimmed-down saplings will do if nothing else more suitable is available. Donning or removing a ski is a full-round action, though the laces can be cut as a move action (which requires repairing or replacing the laces if you want to use the skis again).",
+			"Each ski is a flat piece of wood about 5-6 feet long for a Medium wearer, curled up slightly at the front end, with lengthwise grooves along the underside and a wooden or metal bracket with laces on top for holding the wearer's boot in place.",
+			"",
+			"@I-boost-down Wearing skis allows you to move on snow and ice at normal speed, but your movement is reduced to 5 feet on all other terrain.",
+			"",
+			"You normally use a pair of spiked poles to help you move and maintain balance while skiing, but ‹eq-weapon/javelin«s›, ‹eq-weapon/shortspear«s›, or even trimmed-down saplings will do if nothing else more suitable is available. Donning or removing a ski is a @HL[full-round action], though the laces can be cut as a @HL[move action] (which requires repairing or replacing the laces if you want to use the skis again).",
 			"",
 			"Also see: ‹eq-misc/skis and poles›."
 		]
@@ -2828,7 +2846,7 @@
 			"‹SOURCE Pathfinder #51: The Hungry Storm/67›  ",
 			"::tabular{format=misc a=12 b=x d=cloth}",
 			"",
-			"These goggles, carved from bone with a narrow slit opening and held in place with leather straps, work as ‹eq-misc/smoked goggles›. In addition, they provide immunity to polar mirages."
+			"@I-def These goggles, carved from bone with a narrow slit opening and held in place with leather straps, work as ‹eq-misc/smoked goggles›. In addition, they provide immunity to polar mirages."
 		]
 	},
 	"snowshoes": {
@@ -2844,7 +2862,11 @@
 			"‹SOURCE Ultimate Equipment/89;Pathfinder #51: The Hungry Storm/67;Adventurer's Armory/19;Advanced Player's Guide/185›  ",
 			"::tabular{format=misc a=5 b=4 d=cloth}",
 			"",
-			"These high-tension nets of rope or sinew in wooden frames are lashed to the feet to spread your weight across the snow, making you much less likely to break through the crust and rendering walking much easier. Snowshoes reduce the penalty for walking through heavy snow by 50%; for example, if moving through snow normally costs you 2 squares of movement (1 square plus a 1 square penalty) per square traveled, snowshoes reduce this cost to 1.5 squares per square traveled. Snowshoes may supplement another outfit."
+			"These high-tension nets of rope or sinew in wooden frames are lashed to the feet to spread your weight across the snow, making you much less likely to break through the crust and rendering walking much easier.",
+			"",
+			"@I-boost Snowshoes reduce the penalty for walking through heavy snow by 50%; for example, if moving through snow normally costs you 2 squares of movement (1 square plus a 1 square penalty) per square traveled, snowshoes reduce this cost to 1.5 squares per square traveled.",
+			"",
+			"Snowshoes may supplement another outfit."
 		]
 	},
 	"snuffbox_bone_or_tortoise_shell": {
@@ -2889,7 +2911,9 @@
 			"‹SOURCE Advanced Race Guide/93›  ",
 			"::tabular{format=misc a=25 b=1 d=cloth}",
 			"",
-			"These soft and subtle boots are constructed of silk and specially cured leather. They are specially designed for ‹race/catfolk› feet. They work with the feline structure of the race's feet to soften footfalls and to reduce the imprints of their tracks. While wearing softpaw boots, a catfolk gains a +1 circumstance bonus on Stealth checks. Furthermore, the DC to notice or follow the tracks of a catfolk wearing softpaw boots increases by +2."
+			"These soft and subtle boots are constructed of silk and specially cured leather. They are specially designed for ‹race/catfolk› feet. They work with the feline structure of the race's feet to soften footfalls and to reduce the imprints of their tracks.",
+			"",
+			"@I-def While wearing softpaw boots, a catfolk gains a +1 circumstance bonus on ‹skill/Stealth› checks. Furthermore, the DC to notice or follow the tracks of a catfolk wearing softpaw boots increases by +2."
 		]
 	},
 	"soldiers_uniform": {
@@ -3006,7 +3030,9 @@
 			"‹SOURCE Adventurer's Armory 2/20›  ",
 			"::tabular{format=misc a=35 b=15 d=cloth}",
 			"",
-			"This array of thick, heavily lined pads, including a quilted helmet, rigid shin guards, and a wraparound rib guard, protects you during hand-to-hand training. Sparring gear cannot be worn with armor, but grants DR 2/- against nonlethal damage. Fighting schools often customize their sparring gear to feature prestigious colors or symbols."
+			"This array of thick, heavily lined pads, including a quilted helmet, rigid shin guards, and a wraparound rib guard, protects you during hand-to-hand training. Fighting schools often customize their sparring gear to feature prestigious colors or symbols.",
+			"",
+			"@I-def Sparring gear cannot be worn with armor, but grants DR 2/- against nonlethal damage."
 		]
 	},
 	"speaking_trumpet": {
@@ -3052,7 +3078,11 @@
 			"‹SOURCE Ultimate Wilderness/244›  ",
 			"::tabular{format=misc a=10 b=1 d=cloth}",
 			"",
-			"This sheath is designed to be strapped around your forearm, but it is too bulky to be hidden under a long sleeve. It can hold one forearm-length item, such as a ‹eq-weapon/dagger›, ‹eq-weapon/dart›, potion, scroll containing a single spell, or wand. As a swift action, you can bend your wrist to cause the sheathed item to drop into your hand (provoking attacks of opportunity as normal for retrieving an item). Placing an item in the sheath is a full-round action that provokes attacks of opportunity. You can wear only one ‹eq-misc/wrist sheath› per arm that you have."
+			"This sheath is designed to be strapped around your forearm, but it is too bulky to be hidden under a long sleeve. It can hold one forearm-length item, such as a ‹eq-weapon/dagger›, ‹eq-weapon/dart›, potion, scroll containing a single spell, or wand.",
+			"",
+			"@I-power As a @HL[swift action], you can bend your wrist to cause the sheathed item to drop into your hand (provoking attacks of opportunity as normal for retrieving an item). Placing an item in the sheath is a @HL[full-round action] that provokes attacks of opportunity.",
+			"",
+			"You can wear only one ‹eq-misc/wrist sheath› per arm that you have."
 		]
 	},
 	"spell_component_pouch": {
@@ -3356,7 +3386,7 @@
 			"",
 			"It takes 10 minutes to fully saturate the suit, which increases its weight from 2 pounds to 10 pounds.",
 			"",
-			"When worn, a sponge suit doubles the amount of time a water-dependent creature can spend on dry land before it begins to take damage or suffer other negative effects. When the sponges dry, wearers must submerge themselves in water or resaturate the suit, or else they suffer the consequences of being on dry land."
+			"@I-def When worn, a sponge suit doubles the amount of time a water-dependent creature can spend on dry land before it begins to take damage or suffer other negative effects. When the sponges dry, wearers must submerge themselves in water or resaturate the suit, or else they suffer the consequences of being on dry land."
 		]
 	},
 	"spotlight": {
@@ -3565,7 +3595,9 @@
 			"‹SOURCE Adventurer's Armory 2/20›  ",
 			"::tabular{format=misc a=10 b=1 d=cloth}",
 			"",
-			"The most ostentatious and impractical of footwear, the tall heel attached to these boots adds several inches to your height. This type of boot is popular among Chelish nobles, though the trend has recently caught on among some members of Taldan courts. You can use the heel of a stiletto boot as an ‹misc/improvised weapon›, dealing damage as a ‹eq-weapon/punching dagger›"
+			"The most ostentatious and impractical of footwear, the tall heel attached to these boots adds several inches to your height. This type of boot is popular among Chelish nobles, though the trend has recently caught on among some members of Taldan courts.",
+			"",
+			"@I-melee You can use the heel of a stiletto boot as an ‹misc/improvised weapon›, dealing damage as a ‹eq-weapon/punching dagger›"
 		]
 	},
 	"stillgut_vial": {
@@ -3864,7 +3896,11 @@
 			"‹SOURCE Adventurer's Guide/15›  ",
 			"::tabular{format=misc a=10 b=x d=cloth}",
 			"",
-			"Made from ground antimony, this sooty cosmetic is used to line the eyes. It grants the wearer a +2 circumstance bonus on saves against light-based effects that would ‹misc/dazzle<d› or ‹misc/blind› him for 8 hours. A container of kohl holds 10 applications."
+			"Made from ground antimony, this sooty cosmetic is used to line the eyes.",
+			"",
+			"@I-def It grants the wearer a +2 circumstance bonus on saves against light-based effects that would ‹misc/dazzle<d› or ‹misc/blind› him for 8 hours.",
+			"",
+			"A container of kohl holds 10 applications."
 		]
 	},
 	"sunderblock": {
@@ -3950,6 +3986,7 @@
 		"copyof": "sureseal_bladder_mundane"
 	},
 	"potion_sureseal_bladder": { "redirect": "sureseal_bladder_potion" },
+	"sureseal_bladder": { "redirect": "sureseal_bladder_mundane" },
 	"surge_syrup": {
 		"name": "Surge syrup",
 		"sources": [ "Alchemy Manual" ],
@@ -4079,7 +4116,11 @@
 			"‹SOURCE Merchant's Manifest/6›  ",
 			"::tabular{format=misc a=1 b=1 d=food}",
 			"",
-			"Sylirican lemons make prized preserves when ground, salted, and sealed in jars, adding an intense citrus flavor when sprinkled atop other foods. If, within 8 hours of consuming a meal seasoned with Sylirican lemons, you gain the ‹misc/confused› condition, you can roll 1d6 and subtract the result from the result of your d% roll to determine what action you take for the first round in which you are confused. This benefit does not stack with itself. The price and weight listed represent a jar containing enough preserved lemons to season 10 meals."
+			"Sylirican lemons make prized preserves when ground, salted, and sealed in jars, adding an intense citrus flavor when sprinkled atop other foods.",
+			"",
+			"@I-aid If, within 8 hours of consuming a meal seasoned with Sylirican lemons, you gain the ‹misc/confused› condition, you can roll 1d6 and subtract the result from the result of your d% roll to determine what action you take for the first round in which you are confused. This benefit does not stack with itself.",
+			"",
+			"The price and weight listed represent a jar containing enough preserved lemons to season 10 meals."
 		]
 	},
 	"symptom_kit": {
@@ -4193,7 +4234,7 @@
 			"‹SOURCE Ultimate Equipment/95;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=25 b=5 d=food}",
 			"",
-			"This includes a tray, a teapot, a whisk, a bowl to mix the tea in, four tiny cups, and a decorative box in which to store all of these items. The ceremonial brewing of tea is part of the classical tea ceremony. Knowing the proper steps for preparing and participating in a tea ceremony requires a successful DC 15 Knowledge (nobility) skill check."
+			"This includes a tray, a teapot, a whisk, a bowl to mix the tea in, four tiny cups, and a decorative box in which to store all of these items. The ceremonial brewing of tea is part of the classical tea ceremony. Knowing the proper steps for preparing and participating in a tea ceremony requires a successful DC 15 ‹skill/Knowledge (nobility)› skill check."
 		]
 	},
 	"tea_of_transference": {
@@ -4218,7 +4259,7 @@
 			"‹SOURCE Blood of the Sea/19›  ",
 			"::tabular{format=misc a=\"0.3\" b=x d=food}",
 			"",
-			"Kelp tea is a favorite relaxing drink under the sea, brewed from various rare species of kelp to create over a dozen distinctive flavors. The listed price pays for enough tea to fill a small waterproof bladder such as a sureseal bladder and doesn't include the price of the bladder."
+			"Kelp tea is a favorite relaxing drink under the sea, brewed from various rare species of kelp to create over a dozen distinctive flavors. The listed price pays for enough tea to fill a small waterproof bladder such as a ‹eq-misc/sureseal bladder› and doesn't include the price of the bladder."
 		]
 	},
 	"teaching_staff": {
@@ -4681,7 +4722,9 @@
 			"‹SOURCE Heroes of the Wild/9›  ",
 			"::tabular{format=misc a=8 b=\"0.5\" d=cloth}",
 			"",
-			"These boot attachments consist of wide wooden frames, leather straps, and thin leather soles with no distinguishing marks or texture. They distribute your weight over a larger area and obscure the shape of your footprints. The DC to track you increases by 2, but you also take a -2 penalty on Acrobatics and Stealth checks."
+			"These boot attachments consist of wide wooden frames, leather straps, and thin leather soles with no distinguishing marks or texture. They distribute your weight over a larger area and obscure the shape of your footprints.",
+			"",
+			"@I-def-down The DC to track you increases by 2, but you also take a -2 penalty on ‹skill/Acrobatics› and ‹skill/Stealth› checks."
 		]
 	},
 	"trackers_kit": {

@@ -454,7 +454,8 @@ const _rat_cage = {title: "Rat cage", jsx: <><h2 id="eq-misc-rat_cage-rat-cage">
 const _rations_space_per_day = {title: "Rations, space (per day)", jsx: <><h2 id="eq-misc-rations_space_per_day-rations-space-per-day">Rations, space (per day)</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars pg. 19</Link>  </p>
 <Tabular format="misc" a="1" b="0.5" d="food" />
-<p>Generally composed of meat, hard cheese, fruits and vegetables, nut and bean pastes, and vital herbs, space rations are dehydrated and then kept extremely dry in order to maximize preservation and storage efficiency. A single serving feeds a Medium character for 1 day, but unless an equal weight of water is added to the rations, the character eating them becomes <Link to="/misc/fatigued">fatigued</Link> until she drinks enough water.</p>
+<p>Generally composed of meat, hard cheese, fruits and vegetables, nut and bean pastes, and vital herbs, space rations are dehydrated and then kept extremely dry in order to maximize preservation and storage efficiency.</p>
+<p><Icons id="eq-misc-rations_space_per_day-warning-icons" wrapper="prefixIcon" list={["warning"]} /> A single serving feeds a Medium character for 1 day, but unless an equal weight of water is added to the rations, the character eating them becomes <Link to="/misc/fatigued">fatigued</Link> until she drinks enough water.</p>
 </>};
 const _raven = {title: "Raven", jsx: <><h2 id="eq-misc-raven-raven">Raven</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -666,7 +667,9 @@ const _sanctified_rings_pair = {title: "Sanctified rings (pair)", jsx: <><h2 id=
 const _sangwine = {title: "Sangwine", jsx: <><h2 id="eq-misc-sangwine-sangwine">Sangwine</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 8</Link>  </p>
 <Tabular format="misc" a="200" b="2" d="food" />
-<p>This deep red wine is highly tannic and has notes of currants and cocoa and an aroma of cedar. Sangwine is a favorite of Caliphas's elite, who associate drinking it with long life. Drinking a glass of sangwine takes at least 1 round, though many imbibers take longer to savor the wine's complex flavors. After drinking a glass, the wine gives the drinker's blood a bitter flavor for 1 hour, causing any creature that deals damage using the <Link to="/umr/blood_drain">blood drain</Link> extraordinary ability to become <Link to="/misc/sickened">sickened</Link> for a number of rounds equal to the points of Constitution damage dealt (this effect is not subject to the poison immunity of vampires and other undead). Repeated uses of the blood drain ability on a creature that has imbibed at least one glass of sangwine extends the duration of the sickened condition. The price listed is for a bottle, which contains six glasses' worth of sangwine.</p>
+<p>This deep red wine is highly tannic and has notes of currants and cocoa and an aroma of cedar. Sangwine is a favorite of Caliphas's elite, who associate drinking it with long life.</p>
+<p><Icons id="eq-misc-sangwine-def-lower-icons" wrapper="prefixIcon" list={["def","lower"]} /> Drinking a glass of sangwine takes at least 1 round, though many imbibers take longer to savor the wine's complex flavors. After drinking a glass, the wine gives the drinker's blood a bitter flavor for 1 hour, causing any creature that deals damage using the <Link to="/umr/blood_drain">blood drain</Link> extraordinary ability to become <Link to="/misc/sickened">sickened</Link> for a number of rounds equal to the points of Constitution damage dealt (this effect is not subject to the poison immunity of vampires and other undead). Repeated uses of the blood drain ability on a creature that has imbibed at least one glass of sangwine extends the duration of the sickened condition.</p>
+<p>The price listed is for a bottle, which contains six glasses' worth of sangwine.</p>
 </>};
 const _saw = {title: "Saw", jsx: <><h2 id="eq-misc-saw-saw">Saw</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>  </p>
@@ -677,10 +680,11 @@ const _scarf_pocketed = {hasJL:true,title: "Scarf (pocketed)", jsx: <><div class
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends pg. 15</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/pathfinder_campaign_setting">Pathfinder Campaign Setting pg. 213</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide pg. 12</Link>, <Link to="/source/rise_of_the_runelords_players_guide">Rise of the Runelords Player's Guide pg. 11</Link>  </p>
 <h3 id="eq-misc-scarf_pocketed-pocketed" data-hash-target>Pocketed</h3>
 <Tabular format="misc" a="8" b="0.5" d="cloth" />
-<p>An elaborate design disguises several small pockets on one side of this scarf. This scarf grants you a +4 bonus on Sleight of Hand checks made to hide objects on your body. This bonus does not stack with the bonus wearing heavy clothing provides but does stack with bonuses for attempting to hide small objects.</p>
+<p><Icons id="eq-misc-scarf_pocketed-def-icons" wrapper="prefixIcon" list={["def"]} /> An elaborate design disguises several small pockets on one side of this scarf. This scarf grants you a +4 bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks made to hide objects on your body. This bonus does not stack with the bonus wearing heavy clothing provides but does stack with bonuses for attempting to hide small objects.</p>
 <h3 id="eq-misc-scarf_pocketed-reinforced" data-hash-target>Reinforced</h3>
 <Tabular format="anim" a="10" b="1" d="cloth" />
-<p>One side of this 8-foot-long scarf is reinforced with chain links and metal plates. While not enough to provide a benefit to Armor Class, these versatile scarves can be used like a length of chain to climb short distances or bind an enemy. A reinforced scarf has hardness 10 and 4 hit points. It can be burst with a successful DC 24 Strength check.</p>
+<p>One side of this 8-foot-long scarf is reinforced with chain links and metal plates. While not enough to provide a benefit to Armor Class, these versatile scarves can be used like a length of chain to climb short distances or bind an enemy.</p>
+<p>A reinforced scarf has <Link to="/rule/hardness">hardness</Link> 10 and 4 hit points. It can be burst with a successful DC 24 Strength check.</p>
 </>};
 const _scarf = {title: "Scarf", jsx: <><h2 id="eq-misc-scarf-scarf">Scarf</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends pg. 15</Link>  </p>
@@ -883,7 +887,8 @@ const _shield_sconce = {title: "Shield sconce", jsx: <><h2 id="eq-misc-shield_sc
 const _shinobi_shozoku = {title: "Shinobi shozoku", jsx: <><h2 id="eq-misc-shinobi_shozoku-shinobi-shozoku">Shinobi shozoku</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 28</Link>  </p>
 <Tabular format="misc" a="50" b="2" d="cloth" />
-<p>This close-fitting bodysuit of soft, dark fabric is favored by ninja and assassins. When worn, it grants a +2 circumstance bonus on Stealth checks. Wearing armor with a base armor bonus higher than +1 negates this bonus, as does additional heavy clothing or equipment worn under the shinobi shozoku (at the GM's discretion).</p>
+<p>This close-fitting bodysuit of soft, dark fabric is favored by ninja and assassins.</p>
+<p><Icons id="eq-misc-shinobi_shozoku-def-warning-icons" wrapper="prefixIcon" list={["def","warning"]} /> When worn, it grants a +2 circumstance bonus on <Link to="/skill/stealth">Stealth</Link> checks. Wearing armor with a base armor bonus higher than +1 negates this bonus, as does additional heavy clothing or equipment worn under the shinobi shozoku (at the GM's discretion).</p>
 </>};
 const _ships_boat = {title: "Ship's boat", jsx: <><h2 id="eq-misc-ships_boat-ships-boat">Ship's boat</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>  </p>
@@ -949,7 +954,8 @@ const _poison_pill_signet_ring = {title: "Poison pill signet ring", jsx: <><h2 i
 const _signifer_mask = {title: "Signifer mask", jsx: <><h2 id="eq-misc-signifer_mask-signifer-mask">Signifer mask</h2>
 <p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 63</Link>, <Link to="/source/adventurers_guide">Adventurer's Guide pg. 97</Link>  </p>
 <Tabular format="misc" a="75" b="2" d="cloth" />
-<p>The menacing, eyeless masks of <Link to="/pclass/hellknight_signifer">Hellknight signifers</Link> were first created by members of the <Link to="/hkorder/order_of_the_gate">Order of the Gate</Link> and are semi-transparent on the inside. Those who wear them are treated as if they were wearing <Link to="/eq-misc/smoked_goggles">smoked goggles</Link>. A character with the Hellknight signifer prestige class can see through the mask as normal, but can also adjust her mask as a standard action to function as a pair of smoked goggles once more. Signifer masks are often enhanced, becoming variants of items that take up the head item slot. Additionally, when a character takes levels in the Hellknight signifer prestige class, this mask grants the benefits and capabilities of the signifer mask supernatural ability.</p>
+<p>The menacing, eyeless masks of <Link to="/pclass/hellknight_signifer">Hellknight signifers</Link> were first created by members of the <Link to="/hkorder/order_of_the_gate">Order of the Gate</Link> and are semi-transparent on the inside. Those who wear them are treated as if they were wearing <Link to="/eq-misc/smoked_goggles">smoked goggles</Link>.</p>
+<p><Icons id="eq-misc-signifer_mask-power-icons" wrapper="prefixIcon" list={["power"]} /> A character with the Hellknight signifer prestige class can see through the mask as normal, but can also adjust her mask as a <strong className="hl">standard action</strong> to function as a pair of smoked goggles once more. Signifer masks are often enhanced, becoming variants of items that take up the head item slot. Additionally, when a character takes levels in the Hellknight signifer prestige class, this mask grants the benefits and capabilities of the <em>signifer mask</em> supernatural ability.</p>
 </>};
 const _silence_dust = {title: "Silence dust", jsx: <><h2 id="eq-misc-silence_dust-silence-dust">Silence dust</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 15</Link>  </p>
@@ -965,7 +971,8 @@ const _silent_piton = {title: "Silent piton", jsx: <><h2 id="eq-misc-silent_pito
 const _silk_kimono = {title: "Silk kimono", jsx: <><h2 id="eq-misc-silk_kimono-silk-kimono">Silk kimono</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 28</Link>  </p>
 <Tabular format="misc" a="200" b="5" d="cloth" />
-<p>This exquisite silken garment is vitally important formal wear for certain social roles in many Tian cultures, including Minkai. Properly donning a kimono requires assistance and a successful DC 15 Knowledge (nobility) check. When dealing with Minkaians or others familiar with the cultural significance of this garment, a properly worn kimono grants a +2 circumstance bonus on Diplomacy checks, as well as on Disguise checks made to appear as a geisha, noble, or other high standing member of Minkai society.</p>
+<p>This exquisite silken garment is vitally important formal wear for certain social roles in many Tian cultures, including Minkai. Properly donning a kimono requires assistance and a successful DC 15 <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> check.</p>
+<p><Icons id="eq-misc-silk_kimono-boost-def-icons" wrapper="prefixIcon" list={["boost","def"]} /> When dealing with Minkaians or others familiar with the cultural significance of this garment, a properly worn kimono grants a +2 circumstance bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks, as well as on <Link to="/skill/disguise">Disguise</Link> checks made to appear as a geisha, noble, or other high standing member of Minkai society.</p>
 </>};
 const _silk_rope_50_ft = {title: "Silk rope (50 ft.)", jsx: <><h2 id="eq-misc-silk_rope_50_ft-silk-rope-50-ft">Silk rope (50 ft.)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -998,7 +1005,7 @@ const _skalds_kit = {title: "Skald's kit", jsx: <><h2 id="eq-misc-skalds_kit-ska
 const _skates = {title: "Skates", jsx: <><h2 id="eq-misc-skates-skates">Skates</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link>  </p>
 <Tabular format="misc" a="10" b="3" d="cloth" />
-<p>These honed metal blades are worn on boots to enable swift passage over ice. The wearer may move (but not climb) at her full speed on level icy surfaces. Her speed is halved when moving up an icy slope, but she may run or charge downhill on gentle or steep snowy slopes at quadruple speed. However, any skill check penalties for traversing rough ice while wearing skates are doubled, and the wearer takes a -4 penalty on combat maneuver checks to <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/drag">drag</Link>, or <Link to="/rule/trip">trip</Link>, and to CMD against these maneuvers. Donning or removing skates takes 1 minute.</p>
+<p><Icons id="eq-misc-skates-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> These honed metal blades are worn on boots to enable swift passage over ice. The wearer may move (but not climb) at her full speed on level icy surfaces. Her speed is halved when moving up an icy slope, but she may run or charge downhill on gentle or steep snowy slopes at quadruple speed. However, any skill check penalties for traversing rough ice while wearing skates are doubled, and the wearer takes a -4 penalty on combat maneuver checks to <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/drag">drag</Link>, or <Link to="/rule/trip">trip</Link>, and to CMD against these maneuvers. Donning or removing skates takes 1 minute.</p>
 <p>Also see: <Link to="/eq-misc/ice_skates">ice skates</Link>.</p>
 </>};
 const _skeleton_key = {title: "Skeleton key", jsx: <><h2 id="eq-misc-skeleton_key-skeleton-key">Skeleton key</h2>
@@ -1025,7 +1032,9 @@ const _skis_and_poles = {title: "Skis and poles", jsx: <><h2 id="eq-misc-skis_an
 const _skis = {title: "Skis", jsx: <><h2 id="eq-misc-skis-skis">Skis</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>  </p>
 <Tabular format="misc" a="5" b="20" d="cloth" />
-<p>Each ski is a flat piece of wood about 5-6 feet long for a Medium wearer, curled up slightly at the front end, with lengthwise grooves along the underside and a wooden or metal bracket with laces on top for holding the wearer's boot in place. Wearing skis allows you to move on snow and ice at normal speed, but your movement is reduced to 5 feet on all other terrain. You normally use a pair of spiked poles to help you move and maintain balance while skiing, but <Link to="/eq-weapon/javelin">javelins</Link>, <Link to="/eq-weapon/shortspear">shortspears</Link>, or even trimmed-down saplings will do if nothing else more suitable is available. Donning or removing a ski is a full-round action, though the laces can be cut as a move action (which requires repairing or replacing the laces if you want to use the skis again).</p>
+<p>Each ski is a flat piece of wood about 5-6 feet long for a Medium wearer, curled up slightly at the front end, with lengthwise grooves along the underside and a wooden or metal bracket with laces on top for holding the wearer's boot in place.</p>
+<p><Icons id="eq-misc-skis-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> Wearing skis allows you to move on snow and ice at normal speed, but your movement is reduced to 5 feet on all other terrain.</p>
+<p>You normally use a pair of spiked poles to help you move and maintain balance while skiing, but <Link to="/eq-weapon/javelin">javelins</Link>, <Link to="/eq-weapon/shortspear">shortspears</Link>, or even trimmed-down saplings will do if nothing else more suitable is available. Donning or removing a ski is a <strong className="hl">full-round action</strong>, though the laces can be cut as a <strong className="hl">move action</strong> (which requires repairing or replacing the laces if you want to use the skis again).</p>
 <p>Also see: <Link to="/eq-misc/skis_and_poles">skis and poles</Link>.</p>
 </>};
 const _skunk = {title: "Skunk", jsx: <><h2 id="eq-misc-skunk-skunk">Skunk</h2>
@@ -1183,12 +1192,14 @@ const _snorkel_common = {hasJL:true,title: "Snorkel (common)", jsx: <><div class
 const _snow_goggles = {title: "Snow goggles", jsx: <><h2 id="eq-misc-snow_goggles-snow-goggles">Snow goggles</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link>  </p>
 <Tabular format="misc" a="12" b="x" d="cloth" />
-<p>These goggles, carved from bone with a narrow slit opening and held in place with leather straps, work as <Link to="/eq-misc/smoked_goggles">smoked goggles</Link>. In addition, they provide immunity to polar mirages.</p>
+<p><Icons id="eq-misc-snow_goggles-def-icons" wrapper="prefixIcon" list={["def"]} /> These goggles, carved from bone with a narrow slit opening and held in place with leather straps, work as <Link to="/eq-misc/smoked_goggles">smoked goggles</Link>. In addition, they provide immunity to polar mirages.</p>
 </>};
 const _snowshoes = {title: "Snowshoes", jsx: <><h2 id="eq-misc-snowshoes-snowshoes">Snowshoes</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>  </p>
 <Tabular format="misc" a="5" b="4" d="cloth" />
-<p>These high-tension nets of rope or sinew in wooden frames are lashed to the feet to spread your weight across the snow, making you much less likely to break through the crust and rendering walking much easier. Snowshoes reduce the penalty for walking through heavy snow by 50%; for example, if moving through snow normally costs you 2 squares of movement (1 square plus a 1 square penalty) per square traveled, snowshoes reduce this cost to 1.5 squares per square traveled. Snowshoes may supplement another outfit.</p>
+<p>These high-tension nets of rope or sinew in wooden frames are lashed to the feet to spread your weight across the snow, making you much less likely to break through the crust and rendering walking much easier.</p>
+<p><Icons id="eq-misc-snowshoes-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Snowshoes reduce the penalty for walking through heavy snow by 50%; for example, if moving through snow normally costs you 2 squares of movement (1 square plus a 1 square penalty) per square traveled, snowshoes reduce this cost to 1.5 squares per square traveled.</p>
+<p>Snowshoes may supplement another outfit.</p>
 </>};
 const _snuffbox_bone_or_tortoise_shell = {title: "Snuffbox (bone or tortoise shell)", jsx: <><h2 id="eq-misc-snuffbox_bone_or_tortoise_shell-snuffbox">Snuffbox</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 205</Link>  </p>
@@ -1203,7 +1214,8 @@ const _soap = {title: "Soap", jsx: <><h2 id="eq-misc-soap-soap">Soap</h2>
 const _softpaw_boots = {title: "Softpaw boots", jsx: <><h2 id="eq-misc-softpaw_boots-softpaw-boots">Softpaw boots</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 93</Link>  </p>
 <Tabular format="misc" a="25" b="1" d="cloth" />
-<p>These soft and subtle boots are constructed of silk and specially cured leather. They are specially designed for <Link to="/race/catfolk">catfolk</Link> feet. They work with the feline structure of the race's feet to soften footfalls and to reduce the imprints of their tracks. While wearing softpaw boots, a catfolk gains a +1 circumstance bonus on Stealth checks. Furthermore, the DC to notice or follow the tracks of a catfolk wearing softpaw boots increases by +2.</p>
+<p>These soft and subtle boots are constructed of silk and specially cured leather. They are specially designed for <Link to="/race/catfolk">catfolk</Link> feet. They work with the feline structure of the race's feet to soften footfalls and to reduce the imprints of their tracks.</p>
+<p><Icons id="eq-misc-softpaw_boots-def-icons" wrapper="prefixIcon" list={["def"]} /> While wearing softpaw boots, a catfolk gains a +1 circumstance bonus on <Link to="/skill/stealth">Stealth</Link> checks. Furthermore, the DC to notice or follow the tracks of a catfolk wearing softpaw boots increases by +2.</p>
 </>};
 const _soldiers_uniform = {title: "Soldier's uniform", jsx: <><h2 id="eq-misc-soldiers_uniform-soldiers-uniform">Soldier's uniform</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>  </p>
@@ -1254,7 +1266,8 @@ const _sparkle_smoke = {title: "Sparkle smoke", jsx: <><h2 id="eq-misc-sparkle_s
 const _sparring_gear = {title: "Sparring gear", jsx: <><h2 id="eq-misc-sparring_gear-sparring-gear">Sparring gear</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 20</Link>  </p>
 <Tabular format="misc" a="35" b="15" d="cloth" />
-<p>This array of thick, heavily lined pads, including a quilted helmet, rigid shin guards, and a wraparound rib guard, protects you during hand-to-hand training. Sparring gear cannot be worn with armor, but grants DR 2/- against nonlethal damage. Fighting schools often customize their sparring gear to feature prestigious colors or symbols.</p>
+<p>This array of thick, heavily lined pads, including a quilted helmet, rigid shin guards, and a wraparound rib guard, protects you during hand-to-hand training. Fighting schools often customize their sparring gear to feature prestigious colors or symbols.</p>
+<p><Icons id="eq-misc-sparring_gear-def-icons" wrapper="prefixIcon" list={["def"]} /> Sparring gear cannot be worn with armor, but grants DR 2/- against nonlethal damage.</p>
 </>};
 const _speaking_trumpet = {title: "Speaking trumpet", jsx: <><h2 id="eq-misc-speaking_trumpet-speaking-trumpet">Speaking trumpet</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 21</Link>  </p>
@@ -1275,7 +1288,9 @@ const _speech_resin = {title: "Speech resin", jsx: <><h2 id="eq-misc-speech_resi
 const _speed_sheath = {title: "Speed sheath", jsx: <><h2 id="eq-misc-speed_sheath-speed-sheath">Speed sheath</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 244</Link>  </p>
 <Tabular format="misc" a="10" b="1" d="cloth" />
-<p>This sheath is designed to be strapped around your forearm, but it is too bulky to be hidden under a long sleeve. It can hold one forearm-length item, such as a <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/dart">dart</Link>, potion, scroll containing a single spell, or wand. As a swift action, you can bend your wrist to cause the sheathed item to drop into your hand (provoking attacks of opportunity as normal for retrieving an item). Placing an item in the sheath is a full-round action that provokes attacks of opportunity. You can wear only one <Link to="/eq-misc/wrist_sheath">wrist sheath</Link> per arm that you have.</p>
+<p>This sheath is designed to be strapped around your forearm, but it is too bulky to be hidden under a long sleeve. It can hold one forearm-length item, such as a <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/dart">dart</Link>, potion, scroll containing a single spell, or wand.</p>
+<p><Icons id="eq-misc-speed_sheath-power-icons" wrapper="prefixIcon" list={["power"]} /> As a <strong className="hl">swift action</strong>, you can bend your wrist to cause the sheathed item to drop into your hand (provoking attacks of opportunity as normal for retrieving an item). Placing an item in the sheath is a <strong className="hl">full-round action</strong> that provokes attacks of opportunity.</p>
+<p>You can wear only one <Link to="/eq-misc/wrist_sheath">wrist sheath</Link> per arm that you have.</p>
 </>};
 const _spell_component_pouch = {title: "Spell component pouch", jsx: <><h2 id="eq-misc-spell_component_pouch-spell-component-pouch">Spell component pouch</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -1651,7 +1666,7 @@ const _sponge_suit = {title: "Sponge suit", jsx: <><h2 id="eq-misc-sponge_suit-s
 <Tabular format="misc" a="30 gp" b="2 lbs. (or 10 lbs.)" c="x" d="cloth" />
 <p>Outwardly, this suit of clothing appears to be an ordinary <Link to="/eq-misc/travelers_outfit">traveler's outfit</Link>, albeit cut from thicker-than-normal cloth. The suit's inner lining is made of dozens of thin, flexible sponges. When soaked with water, these sponges can be worn against the skin to maintain the wearer's moisture while traveling out of the water.</p>
 <p>It takes 10 minutes to fully saturate the suit, which increases its weight from 2 pounds to 10 pounds.</p>
-<p>When worn, a sponge suit doubles the amount of time a water-dependent creature can spend on dry land before it begins to take damage or suffer other negative effects. When the sponges dry, wearers must submerge themselves in water or resaturate the suit, or else they suffer the consequences of being on dry land.</p>
+<p><Icons id="eq-misc-sponge_suit-def-icons" wrapper="prefixIcon" list={["def"]} /> When worn, a sponge suit doubles the amount of time a water-dependent creature can spend on dry land before it begins to take damage or suffer other negative effects. When the sponges dry, wearers must submerge themselves in water or resaturate the suit, or else they suffer the consequences of being on dry land.</p>
 </>};
 const _spotlight = {title: "Spotlight", jsx: <><h2 id="eq-misc-spotlight-spotlight">Spotlight</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 27</Link>  </p>
@@ -1737,7 +1752,8 @@ const _statue_disguise_kit = {title: "Statue disguise kit", jsx: <><h2 id="eq-mi
 const _stiletto_boots = {title: "Stiletto boots", jsx: <><h2 id="eq-misc-stiletto_boots-stiletto-boots">Stiletto boots</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 20</Link>  </p>
 <Tabular format="misc" a="10" b="1" d="cloth" />
-<p>The most ostentatious and impractical of footwear, the tall heel attached to these boots adds several inches to your height. This type of boot is popular among Chelish nobles, though the trend has recently caught on among some members of Taldan courts. You can use the heel of a stiletto boot as an <Link to="/misc/improvised_weapon">improvised weapon</Link>, dealing damage as a <Link to="/eq-weapon/punching_dagger">punching dagger</Link></p>
+<p>The most ostentatious and impractical of footwear, the tall heel attached to these boots adds several inches to your height. This type of boot is popular among Chelish nobles, though the trend has recently caught on among some members of Taldan courts.</p>
+<p><Icons id="eq-misc-stiletto_boots-melee-icons" wrapper="prefixIcon" list={["melee"]} /> You can use the heel of a stiletto boot as an <Link to="/misc/improvised_weapon">improvised weapon</Link>, dealing damage as a <Link to="/eq-weapon/punching_dagger">punching dagger</Link></p>
 </>};
 const _stillgut_vial = {title: "Stillgut (vial)", jsx: <><h2 id="eq-misc-stillgut_vial-stillgut-vial">Stillgut (vial)</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 118</Link>  </p>
@@ -1860,7 +1876,9 @@ const _sun_cream = {title: "Sun cream", jsx: <><h2 id="eq-misc-sun_cream-sun-cre
 const _sunblock_kohl = {title: "Sunblock kohl", jsx: <><h2 id="eq-misc-sunblock_kohl-sunblock-kohl">Sunblock kohl</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 15</Link>  </p>
 <Tabular format="misc" a="10" b="x" d="cloth" />
-<p>Made from ground antimony, this sooty cosmetic is used to line the eyes. It grants the wearer a +2 circumstance bonus on saves against light-based effects that would <Link to="/misc/dazzled">dazzle</Link> or <Link to="/misc/blind">blind</Link> him for 8 hours. A container of kohl holds 10 applications.</p>
+<p>Made from ground antimony, this sooty cosmetic is used to line the eyes.</p>
+<p><Icons id="eq-misc-sunblock_kohl-def-icons" wrapper="prefixIcon" list={["def"]} /> It grants the wearer a +2 circumstance bonus on saves against light-based effects that would <Link to="/misc/dazzled">dazzle</Link> or <Link to="/misc/blind">blind</Link> him for 8 hours.</p>
+<p>A container of kohl holds 10 applications.</p>
 </>};
 const _sunderblock = {title: "Sunderblock", jsx: <><h2 id="eq-misc-sunderblock-sunderblock">Sunderblock</h2>
 <p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 21</Link>  </p>
@@ -1948,7 +1966,9 @@ const _swim_fins = {title: "Swim fins", jsx: <><h2 id="eq-misc-swim_fins-swim-fi
 const _sylirican_lemons = {title: "Sylirican lemons", jsx: <><h2 id="eq-misc-sylirican_lemons-sylirican-lemons">Sylirican lemons</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 6</Link>  </p>
 <Tabular format="misc" a="1" b="1" d="food" />
-<p>Sylirican lemons make prized preserves when ground, salted, and sealed in jars, adding an intense citrus flavor when sprinkled atop other foods. If, within 8 hours of consuming a meal seasoned with Sylirican lemons, you gain the <Link to="/misc/confused">confused</Link> condition, you can roll 1d6 and subtract the result from the result of your d% roll to determine what action you take for the first round in which you are confused. This benefit does not stack with itself. The price and weight listed represent a jar containing enough preserved lemons to season 10 meals.</p>
+<p>Sylirican lemons make prized preserves when ground, salted, and sealed in jars, adding an intense citrus flavor when sprinkled atop other foods.</p>
+<p><Icons id="eq-misc-sylirican_lemons-aid-icons" wrapper="prefixIcon" list={["aid"]} /> If, within 8 hours of consuming a meal seasoned with Sylirican lemons, you gain the <Link to="/misc/confused">confused</Link> condition, you can roll 1d6 and subtract the result from the result of your d% roll to determine what action you take for the first round in which you are confused. This benefit does not stack with itself.</p>
+<p>The price and weight listed represent a jar containing enough preserved lemons to season 10 meals.</p>
 </>};
 const _symptom_kit = {title: "Symptom kit", jsx: <><h2 id="eq-misc-symptom_kit-symptom-kit">Symptom kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>  </p>
@@ -1992,7 +2012,7 @@ const _tea_ceremonial_cup = {title: "Tea (ceremonial, cup)", jsx: <><h2 id="eq-m
 const _tea_ceremony_set = {title: "Tea ceremony set", jsx: <><h2 id="eq-misc-tea_ceremony_set-tea-ceremony-set">Tea ceremony set</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="25" b="5" d="food" />
-<p>This includes a tray, a teapot, a whisk, a bowl to mix the tea in, four tiny cups, and a decorative box in which to store all of these items. The ceremonial brewing of tea is part of the classical tea ceremony. Knowing the proper steps for preparing and participating in a tea ceremony requires a successful DC 15 Knowledge (nobility) skill check.</p>
+<p>This includes a tray, a teapot, a whisk, a bowl to mix the tea in, four tiny cups, and a decorative box in which to store all of these items. The ceremonial brewing of tea is part of the classical tea ceremony. Knowing the proper steps for preparing and participating in a tea ceremony requires a successful DC 15 <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> skill check.</p>
 </>};
 const _tea_of_transference = {title: "Tea of transference", jsx: <><h2 id="eq-misc-tea_of_transference-tea-of-transference">Tea of transference</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 25</Link>  </p>
@@ -2003,7 +2023,7 @@ const _tea_of_transference = {title: "Tea of transference", jsx: <><h2 id="eq-mi
 const _tea_kelp = {title: "Tea, kelp", jsx: <><h2 id="eq-misc-tea_kelp-tea-kelp">Tea, kelp</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 19</Link>  </p>
 <Tabular format="misc" a="0.3" b="x" d="food" />
-<p>Kelp tea is a favorite relaxing drink under the sea, brewed from various rare species of kelp to create over a dozen distinctive flavors. The listed price pays for enough tea to fill a small waterproof bladder such as a sureseal bladder and doesn't include the price of the bladder.</p>
+<p>Kelp tea is a favorite relaxing drink under the sea, brewed from various rare species of kelp to create over a dozen distinctive flavors. The listed price pays for enough tea to fill a small waterproof bladder such as a <Link to="/eq-misc/sureseal_bladder">sureseal bladder</Link> and doesn't include the price of the bladder.</p>
 </>};
 const _teaching_staff = {title: "Teaching staff", jsx: <><h2 id="eq-misc-teaching_staff-teaching-staff">Teaching staff</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 25</Link>  </p>
@@ -2197,7 +2217,8 @@ const _toxic_censer = {title: "Toxic censer", jsx: <><h2 id="eq-misc-toxic_cense
 const _track_obscuring_soles = {title: "Track-obscuring soles", jsx: <><h2 id="eq-misc-track_obscuring_soles-track-obscuring-soles">Track-obscuring soles</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 9</Link>  </p>
 <Tabular format="misc" a="8" b="0.5" d="cloth" />
-<p>These boot attachments consist of wide wooden frames, leather straps, and thin leather soles with no distinguishing marks or texture. They distribute your weight over a larger area and obscure the shape of your footprints. The DC to track you increases by 2, but you also take a -2 penalty on Acrobatics and Stealth checks.</p>
+<p>These boot attachments consist of wide wooden frames, leather straps, and thin leather soles with no distinguishing marks or texture. They distribute your weight over a larger area and obscure the shape of your footprints.</p>
+<p><Icons id="eq-misc-track_obscuring_soles-def-down-icons" wrapper="prefixIcon" list={["def","down"]} /> The DC to track you increases by 2, but you also take a -2 penalty on <Link to="/skill/acrobatics">Acrobatics</Link> and <Link to="/skill/stealth">Stealth</Link> checks.</p>
 </>};
 const _trackers_kit = {title: "Tracker's kit", jsx: <><h2 id="eq-misc-trackers_kit-trackers-kit">Tracker's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 7</Link>  </p>

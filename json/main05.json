@@ -3277,6 +3277,7 @@
 					[ [ "longbeard lambic", "longbeard_lambic" ], "remedy", 20, 1 ],
 					[ [ "loping ointment", "loping_ointment" ], "remedy", 60, 1 ],
 					[ [ "loyalty transfusion", "loyalty_transfusion" ], "remedy", 625, 0 ],
+					[ [ "lover's breath", "lovers_breath" ], "tool", 200, 0 ],
 					[ [ "lozenge of the songbird", "lozenge_of_the_songbird" ], "tool", 50, 0 ],
 					[ [ "mage's assistant", "mages_assistant" ], "tincture", 150, 0 ],
 					[ [ "magnesium", "magnesium", "eq-reagent" ], "power component", 1, 0 ],

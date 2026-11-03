@@ -1118,7 +1118,9 @@
 			"‹SOURCE Merchant's Manifest/7›  ",
 			"::tabular{format=misc a=3 b=x d=food}",
 			"",
-			"Although Anulites make great use of foreign spices, Anulite paprika is perhaps the most popular in the city, especially among the wealthy. This bright red seasoning is used in all manner of seafood and vegetable dishes, imparting the heat greatly treasured in Anulite cuisine. Consuming a meal seasoned with Anulite paprika grants you some resistance against flames, reducing the amount of damage taken each round when you have caught on fire by 1. This benefit lasts for 8 hours and does not stack with itself.",
+			"Although Anulites make great use of foreign spices, Anulite paprika is perhaps the most popular in the city, especially among the wealthy. This bright red seasoning is used in all manner of seafood and vegetable dishes, imparting the heat greatly treasured in Anulite cuisine.",
+			"",
+			"@I-def Consuming a meal seasoned with Anulite paprika grants you some resistance against flames, reducing the amount of damage taken each round when you have ‹rule/ca<tch>«ught» on fire› by 1. This benefit lasts for 8 hours and does not stack with itself.",
 			"",
 			"The price and weight listed represent a jar containing enough paprika to season 10 meals."
 		]
@@ -2033,7 +2035,9 @@
 			"‹SOURCE Advanced Race Guide/141›  ",
 			"::tabular{format=misc a=50 b=2 d=cloth}",
 			"",
-			"Made from wood, bone, or similar materials, this mask covers its wearer's actual appearance and identity by depicting a hateful, leering face instead. Because of a battle mask's excellent craftsmanship and exquisite details, the wearer gains a +1 bonus on Intimidate checks made to demoralize an opponent."
+			"Made from wood, bone, or similar materials, this mask covers its wearer's actual appearance and identity by depicting a hateful, leering face instead.",
+			"",
+			"@I-boost Because of a battle mask's excellent craftsmanship and exquisite details, the wearer gains a +1 bonus on ‹skill/Intimidate› checks made to demoralize an opponent."
 		]
 	},
 	"bear_trap_offset": {
@@ -2271,7 +2275,13 @@
 			"‹SOURCE Advanced Race Guide/65›  ",
 			"::tabular{format=misc a=100 b=4 d=cloth}",
 			"",
-			"This silk cape is constructed of many carefully arranged overlapping layers that are loosely stitched together. When exposed to a sudden influx of air, like that caused by falling, the cloak unfolds like a crude parachute. When falling, a creature wearing a billow cape is treated as if he had deliberately jumped from the height. When worn in areas of strong wind or greater, a billow cape hampers movement. In such wind conditions, the wearer treats all terrain as ‹rule/difficult terrain› and takes a -4 penalty on Fly checks. Because of the strange and somewhat fragile construction of this cape, only Small or smaller billow capes function properly. Larger billow capes take all the penalties resulting from high winds, but grant none of the benefits when the wearer falls."
+			"This silk cape is constructed of many carefully arranged overlapping layers that are loosely stitched together. When exposed to a sudden influx of air, like that caused by falling, the cloak unfolds like a crude parachute.",
+			"",
+			"@I-boost When ‹rule/falling›, a creature wearing a billow cape is treated as if he had deliberately jumped from the height.",
+			"",
+			"@I-down When worn in areas of strong wind or greater, a billow cape hampers movement. In such wind conditions, the wearer treats all terrain as ‹rule/difficult terrain› and takes a -4 penalty on ‹skill/Fly› checks.",
+			"",
+			"@I-warning Because of the strange and somewhat fragile construction of this cape, only Small or smaller billow capes function properly. Larger billow capes take all the penalties resulting from high winds, but grant none of the benefits when the wearer falls."
 		]
 	},
 	"billy_ten_bells": {
@@ -2346,43 +2356,43 @@
 			"",
 			"::tabular{format=misc id=cumin a=15 b=x d=food}",
 			"",
-			"Cumin is a nutty seasoning used in savory foods. If eaten twice per day for a week, it grants those who consume it a +1 alchemical bonus on Fortitude saves to resist disease for the following 24 hours. An ounce of black cumin sells for 15 gp and seasons 14 meals.",
+			"@I-def Cumin is a nutty seasoning used in savory foods. If eaten twice per day for a week, it grants those who consume it a +1 alchemical bonus on Fortitude saves to resist disease for the following 24 hours. An ounce of black cumin sells for 15 gp and seasons 14 meals.",
 			"",
 			"::h3[Flaming Sumac]{jl}",
 			"",
 			"::tabular{format=misc id=sumac a=20 b=x d=food}",
 			"",
-			"A tart spice, sumac allows a character who contracts a natural disease with multiple effects to suffer one fewer effect (determined randomly) each time he fails a saving throw to resist that disease's effects. An individual must consume flaming sumac twice per day for at least 3 days to gain its effects, which last for 24 hours after the last dose is consumed. An ounce of flaming sumac sells for 20 gp and seasons six meals.",
+			"@I-def A tart spice, sumac allows a character who contracts a natural disease with multiple effects to suffer one fewer effect (determined randomly) each time he fails a saving throw to resist that disease's effects. An individual must consume flaming sumac twice per day for at least 3 days to gain its effects, which last for 24 hours after the last dose is consumed. An ounce of flaming sumac sells for 20 gp and seasons six meals.",
 			"",
 			"::h3[Golden Cardamom]{jl}",
 			"",
 			"::tabular{format=misc id=cardamom a=30 b=x d=food}",
 			"",
-			"This fragrant, sweet powder is made from ground cardamom seeds and is often used as a perfume and tooth cleaner, as well as a seasoning in rice dishes and desserts. When a character takes ability damage from a disease, the actual damage taken is reduced by 1 (to a minimum of 0). Golden cardamom has no effect on ability drain or other effects caused by disease. It must be eaten once per day for 9 days to build up sufficiently within an individual's body to provide this effect. An ounce of golden cardamom seeds sells for 30 gp and seasons nine meals.",
+			"@I-def This fragrant, sweet powder is made from ground cardamom seeds and is often used as a perfume and tooth cleaner, as well as a seasoning in rice dishes and desserts. When a character takes ‹rule/ability damage› from a disease, the actual damage taken is reduced by 1 (to a minimum of 0). Golden cardamom has no effect on ability drain or other effects caused by disease. It must be eaten once per day for 9 days to build up sufficiently within an individual's body to provide this effect. An ounce of golden cardamom seeds sells for 30 gp and seasons nine meals.",
 			"",
 			"::h3[Striped Nutmeg]{jl}",
 			"",
 			"::tabular{format=misc id=nutmeg a=100 b=x d=food}",
 			"",
-			"Used for both desserts and meats, nutmeg halves any ability damage (but not ability drain) resulting from non-supernatural disease, to a minimum damage of 1. It must be eaten three times per day for at least 4 days to provide this effect. An ounce of ground striped nutmeg sells for 100 gp and seasons 12 meals.",
+			"@I-def Used for both desserts and meats, nutmeg halves any ability damage (but not ability drain) resulting from non-supernatural disease, to a minimum damage of 1. It must be eaten three times per day for at least 4 days to provide this effect. An ounce of ground striped nutmeg sells for 100 gp and seasons 12 meals.",
 			"",
 			"::h3[Sunrise Cinnamon]{jl}",
 			"",
 			"::tabular{format=misc id=cinnamon a=15 b=x d=food}",
 			"",
-			"A warming spice, sunrise cinnamon is used for seasoning both sweet and savory foods. It promotes sweating, and a character who ingests it twice per day for 5 days gains a +4 alchemical bonus on Fortitude saves made to resist the effects of [hot environments](rule/heat_dangers). An ounce of ground sunrise cinnamon sells for 15 gp and seasons 10 meals.",
+			"@I-def A warming spice, sunrise cinnamon is used for seasoning both sweet and savory foods. It promotes sweating, and a character who ingests it twice per day for 5 days gains a +4 alchemical bonus on Fortitude saves made to resist the effects of [hot environments](rule/heat_dangers). An ounce of ground sunrise cinnamon sells for 15 gp and seasons 10 meals.",
 			"",
 			"::h3[Tiger Cloves]{jl}",
 			"",
 			"::tabular{format=misc id=cloves a=25 b=x d=food}",
 			"",
-			"Cloves are used in both sweet and savory foods, brewed into teas, and chewed as a breath freshener. When chewed for 1 minute, a dose of tiger cloves removes nauseated or sickened conditions caused by disease or poison effects. When used to season a meal, a dose of tiger cloves grants a +2 alchemical bonus on saving throws to resist the nauseated or sickened conditions for 24 hours after the meal is eaten. A single dose of tiger cloves sells for 25 gp and seasons one meal.",
+			"@I-aid-def Cloves are used in both sweet and savory foods, brewed into teas, and chewed as a breath freshener. When chewed for 1 minute, a dose of tiger cloves removes ‹misc/nauseated› or ‹misc/sickened› conditions caused by disease or poison effects. When used to season a meal, a dose of tiger cloves grants a +2 alchemical bonus on saving throws to resist the nauseated or sickened conditions for 24 hours after the meal is eaten. A single dose of tiger cloves sells for 25 gp and seasons one meal.",
 			"",
 			"::h3[Violet Salt]{jl}",
 			"",
 			"::tabular{format=misc id=salt a=5 b=x d=food}",
 			"",
-			"Salt is of vital importance for retaining a body's water. If a dose of Qadiran violet salt is consumed as part of a meal, it grants a +4 alchemical bonus on Constitution checks to resist the effects of ongoing ‹rule/thirst› for the next 24 hours. A dose of violet salt sells for 5 gp and seasons one meal."
+			"@I-def Salt is of vital importance for retaining a body's water. If a dose of Qadiran violet salt is consumed as part of a meal, it grants a +4 alchemical bonus on Constitution checks to resist the effects of ongoing ‹rule/thirst› for the next 24 hours. A dose of violet salt sells for 5 gp and seasons one meal."
 		]
 	},
 	"flaming_sumac": {
@@ -2751,7 +2761,9 @@
 			"‹SOURCE Merchant's Manifest/9›  ",
 			"::tabular{format=misc a=250 b=\"0.5\" d=cloth}",
 			"",
-			"These sandals have blackwood soles and leather straps that wrap around the wearer's feet. The sandals are waterproof and are thus popular among individuals who tread the harsh locales of the swamps and wastelands beyond Cassomir proper - especially those who are in such environments for long periods of time without access to the comforts of a skilled cobbler. The sandals' design also allows the wearer to [move through shallow bogs](rule/marsh_terrain) normally and to treat deep bogs as if they were shallow bogs. The sandals do not affect the penalty on ‹skill/Acrobatics› checks while in bogs, and creatures wearing the sandals cannot gain ‹rule/cover› from deep bogs."
+			"These sandals have ‹eq-material/blackwood› soles and leather straps that wrap around the wearer's feet. The sandals are waterproof and are thus popular among individuals who tread the harsh locales of the swamps and wastelands beyond Cassomir proper - especially those who are in such environments for long periods of time without access to the comforts of a skilled cobbler.",
+			"",
+			"@I-boost The sandals' design also allows the wearer to [move through shallow bogs](rule/marsh_terrain) normally and to treat deep bogs as if they were shallow bogs. The sandals do not affect the penalty on ‹skill/Acrobatics› checks while in bogs, and creatures wearing the sandals cannot gain ‹rule/cover› from deep bogs."
 		]
 	},
 	"boline": {
@@ -3182,7 +3194,9 @@
 			"‹SOURCE Ultimate Equipment/95›  ",
 			"::tabular{format=misc a=1 b=2 d=food}",
 			"",
-			"This drink is a favorite of goblins, boggards, and other primitive humanoids. It is made by soaking a poisonous toad or frog (or its eggs) in weak beer, or by \"milking\" these animals for their poison and mixing it with the beer (which allows the animal to be used over and over again). Some tribes use wide-mouthed jugs and leave the dead animal inside as a crunchy treat for eating once the drink is gone. A creature drunk on bufo has the ‹misc/dazzled› condition in addition to the normal intoxication effect."
+			"This drink is a favorite of goblins, boggards, and other primitive humanoids. It is made by soaking a poisonous toad or frog (or its eggs) in weak beer, or by \"milking\" these animals for their poison and mixing it with the beer (which allows the animal to be used over and over again). Some tribes use wide-mouthed jugs and leave the dead animal inside as a crunchy treat for eating once the drink is gone.",
+			"",
+			"@I-down A creature drunk on bufo has the ‹misc/dazzled› condition in addition to the normal intoxication effect."
 		]
 	},
 	"bullseye_lantern": {
@@ -3584,7 +3598,9 @@
 			"‹SOURCE Merchant's Manifest/26›  ",
 			"::tabular{format=misc a=\"0.7\" b=1 d=food}",
 			"",
-			"This long, oily, salted fish comes strung on a wick similar to that found in a candle. The fish can be cooked and eaten as a tasty trail ration, with the listed price buying a fish big enough for one day's worth of food for a single creature. As long as the fish stays dry, it can go for months without spoiling. Sections of the candlefish can also be burned as a candle. One day's worth of candlefish is equivalent to six candles. Once used as a candle, a candlefish can no longer be eaten."
+			"This long, oily, salted fish comes strung on a wick similar to that found in a ‹eq-misc/candle›. The fish can be cooked and eaten as a tasty trail ration, with the listed price buying a fish big enough for one day's worth of food for a single creature.",
+			"",
+			"As long as the fish stays dry, it can go for months without spoiling. Sections of the candlefish can also be burned as a candle. One day's worth of candlefish is equivalent to six candles. Once used as a candle, a candlefish can no longer be eaten."
 		]
 	},
 	"candlerod": {
@@ -3957,7 +3973,9 @@
 			"‹SOURCE Ultimate Equipment/95›  ",
 			"::tabular{format=misc a=50 b=x d=food}",
 			"",
-			"These translucent, salty fish eggs are a delicacy. They are usually eaten as a spread on crackers, boiled eggs, bread, pastries, or vegetables. They tend to spoil quickly and are rare outside of the coastal areas where they are harvested. Purists only consider sturgeon eggs to be true caviar, but others are more relaxed about the definition and include salmon, trout, and whitefish eggs as caviar. In some countries, the roe of larger exotic fish and sea creatures (such as ‹monster/chuul›, ‹monster/giant gar›, and ‹monster/reefclaw«s›) are eaten as caviar, though at much higher prices."
+			"These translucent, salty fish eggs are a delicacy. They are usually eaten as a spread on crackers, boiled eggs, bread, pastries, or vegetables. They tend to spoil quickly and are rare outside of the coastal areas where they are harvested.",
+			"",
+			"Purists only consider sturgeon eggs to be true caviar, but others are more relaxed about the definition and include salmon, trout, and whitefish eggs as caviar. In some countries, the roe of larger exotic fish and sea creatures (such as ‹monster/chuul›, ‹monster/giant gar›, and ‹monster/reefclaw«s›) are eaten as caviar, though at much higher prices."
 		]
 	},
 	"caydenbrew_mug": {
@@ -4001,7 +4019,9 @@
 			"‹SOURCE Merchant's Manifest/21›  ",
 			"::tabular{format=misc a=500 b=1 d=food}",
 			"",
-			"This bizarre fruit appears to be carved from stone, though it has a lovely aroma and is easily consumed. Stone fruits occasionally sprout from the strange tree-like monument known as the Celwynvian Charge, where they are gathered by licensed vendors and sold to travelers. Eating a stone fruit hardens flesh and restores vitality. When a creature eats the fruit as a full-round action that provokes attacks of opportunity, it immediately recovers 2d6 hit points and gains a +2 enhancement bonus to its natural armor for 1 minute."
+			"This bizarre fruit appears to be carved from stone, though it has a lovely aroma and is easily consumed. Stone fruits occasionally sprout from the strange tree-like monument known as the Celwynvian Charge, where they are gathered by licensed vendors and sold to travelers.",
+			"",
+			"@I-aid-def Eating a stone fruit hardens flesh and restores vitality. When a creature eats the fruit as a @HL[full-round action] that provokes attacks of opportunity, it immediately recovers 2d6 hit points and gains a +2 enhancement bonus to its natural armor for 1 minute."
 		]
 	},
 	"censer": {
@@ -4052,7 +4072,9 @@
 			"‹SOURCE Advanced Race Guide/177›  ",
 			"::tabular{format=misc a=15 b=\"0.25\" d=cloth}",
 			"",
-			"While ‹race/undine«s› dress sparingly, they often wear 10-foot-long belts of fine linked chain about their waists. The belts contain hinged links to which the wearer can affix various objects such as tools, small weapons, and other valuables, including links of silver and platinum, or small hammered plates of gold set with gems. If worn properly, the belt can hold up to 30 pounds of small items. A swimming undine can unwrap the belt as swift action if she needs to remove it to decrease her weight load."
+			"While ‹race/undine«s› dress sparingly, they often wear 10-foot-long belts of fine linked chain about their waists. The belts contain hinged links to which the wearer can affix various objects such as tools, small weapons, and other valuables, including links of silver and platinum, or small hammered plates of gold set with gems.",
+			"",
+			"@I-power If worn properly, the belt can hold up to 30 pounds of small items. A swimming undine can unwrap the belt as @HL[swift action] if she needs to remove it to decrease her weight load."
 		]
 	},
 	"chains_of_contrition": {
@@ -4412,7 +4434,9 @@
 			"‹SOURCE Ultimate Equipment/89;Adventurer's Armory/19;Advanced Player's Guide/185;Pathfinder #51: The Hungry Storm/67›  ",
 			"::tabular{format=misc a=5 b=2 d=cloth}",
 			"",
-			"Cleats reduce the penalty for walking over slick surfaces by 50%. For example, walking across ice normally costs 2 squares of movement (1 square plus a 1 square penalty) for every square of movement, but with cleats it costs only 1.5 squares for every square. Cleats cause damage to any type of finished flooring. They may supplement another outfit."
+			"@I-boost Cleats reduce the penalty for walking over slick surfaces by 50%. For example, walking across ice normally costs 2 squares of movement (1 square plus a 1 square penalty) for every square of movement, but with cleats it costs only 1.5 squares for every square.",
+			"",
+			"Cleats cause damage to any type of finished flooring. They may supplement another outfit."
 		]
 	},
 	"clerics_kit": {
@@ -4578,7 +4602,7 @@
 			"‹SOURCE Ultimate Equipment/95;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"0.01\" b=\"0.5\" d=food}",
 			"",
-			"This drink is brewed by pouring boiling water through crushed, roasted coffee beans. Two cups is potent enough to reduce the penalties from the ‹misc/fatigued› condition from -2 to -1 for 1 hour.",
+			"@I-aid This drink is brewed by pouring boiling water through crushed, roasted coffee beans. Two cups is potent enough to reduce the penalties from the ‹misc/fatigued› condition from -2 to -1 for 1 hour.",
 			"",
 			"Brewing your own coffee requires ground coffee beans (5 cp for 1 pound of coffee beans, or 8 cp for 1 pound of ground beans) and a cooking device. You can boil the grounds in a pot, then pour the liquid after allowing the solids to settle, or filter the drink by pouring it through a sieve or cloth. Many travelers prefer the convenience of using a ‹eq-misc/coffee pot›."
 		]
@@ -4627,7 +4651,9 @@
 			"‹SOURCE Ultimate Equipment/89;Pathfinder #51: The Hungry Storm/67;PRPG Core Rulebook/159›  ",
 			"::tabular{format=misc a=8 b=7 d=cloth}",
 			"",
-			"This outfit is designed for mountaineering or hunting and traveling in icy climates. It includes a coat of wool or thick animal fur, a linen shirt, a wool cap, a heavy cloak, a heavy skirt or pants, and waterproof leather boots. In some regions, the outfit may be composed primarily of fur and animal pelts. This outfit grants a +5 circumstance bonus on Fortitude saving throws against exposure to ‹rule/cold« weather›.",
+			"This outfit is designed for mountaineering or hunting and traveling in icy climates. It includes a coat of wool or thick animal fur, a linen shirt, a wool cap, a heavy cloak, a heavy skirt or pants, and waterproof leather boots. In some regions, the outfit may be composed primarily of fur and animal pelts.",
+			"",
+			"@I-def This outfit grants a +5 circumstance bonus on Fortitude saving throws against exposure to ‹rule/cold« weather›.",
 			"",
 			"::msg-tearaway"
 		]
@@ -4913,7 +4939,11 @@
 			"‹SOURCE Advanced Class Guide/203›  ",
 			"::tabular{format=misc a=25 b=1 d=cloth}",
 			"",
-			"This fabric vest contains pockets full of cork, providing the wearer additional buoyancy. Originally worn by fishers and sailors, it protects against drowning. While wearing a cork vest, you take a -2 penalty on Dexterity and Swim checks, but instead of going underwater after failing the check by 5 or more, you go underwater only if you fail by 10 or more. Additionally, you gain a +4 bonus on Swim checks to avoid damage from fatigue. The cork vest can be worn under armor."
+			"This fabric vest contains pockets full of cork, providing the wearer additional buoyancy. Originally worn by fishers and sailors, it protects against drowning.",
+			"",
+			"@I-down-def While wearing a cork vest, you take a -2 penalty on Dexterity and ‹skill/Swim› checks, but instead of going underwater after failing the check by 5 or more, you go underwater only if you fail by 10 or more.",
+			"",
+			"@I-boost Additionally, you gain a +4 bonus on Swim checks to avoid damage from fatigue. The cork vest can be worn under armor."
 		]
 	},
 	"corset": {
@@ -4924,7 +4954,9 @@
 			"‹SOURCE Adventurer's Armory 2/20›  ",
 			"::tabular{format=misc a=\"1 sp-200 gp\" b=\"3 lbs.\" c=x d=cloth}",
 			"",
-			"Sewn-in boning and laces allow this bodice to adjust your waist size in a way considered alluring by some cultures. The restrictive nature of this garment makes it a poor choice for combat or other athletic exertions, but you can easily conceal a thin knife in the corset's boning. The price varies greatly depending on the corset's quality; the cheapest corsets are made of simple cloth and cost mere silver pieces, while the most expensive feature silk brocade and are decorated with pearls or other costly adornments."
+			"Sewn-in boning and laces allow this bodice to adjust your waist size in a way considered alluring by some cultures. The restrictive nature of this garment makes it a poor choice for combat or other athletic exertions, but you can easily conceal a thin knife in the corset's boning.",
+			"",
+			"The price varies greatly depending on the corset's quality; the cheapest corsets are made of simple cloth and cost mere silver pieces, while the most expensive feature silk brocade and are decorated with pearls or other costly adornments."
 		]
 	},
 	"cosmogram": {
@@ -4972,7 +5004,7 @@
 			"‹SOURCE Adventurer's Armory 2/20›  ",
 			"::tabular{format=misc a=8 b=4 d=cloth}",
 			"",
-			"This outfit includes fine silk or satin garments tailored to complement your figure. In addition, the outfit contains a loose shawl or robe with several discreet pockets for items such as perfume, massage oils, or even a small dagger.",
+			"This outfit includes fine silk or satin garments tailored to complement your figure. In addition, the outfit contains a loose shawl or robe with several discreet pockets for items such as ‹eq-misc/perfume›, massage oils, or even a small ‹eq-weapon/dagger›.",
 			"",
 			"::msg-tearaway"
 		]
@@ -4993,7 +5025,9 @@
 			"‹SOURCE Ultimate Equipment/89;PRPG Core Rulebook/159›  ",
 			"::tabular{format=misc a=30 b=6 d=cloth}",
 			"",
-			"This outfit includes tailored clothes in whatever fashion happens to be current in noble courts of that region. Anyone trying to influence nobles or courtiers while wearing street dress will have a hard time of it (-2 penalty on Charisma-based skill checks to influence such individuals). If you wear this outfit without jewelry (costing an additional 50 gp), you look like an out-of-place commoner.",
+			"This outfit includes tailored clothes in whatever fashion happens to be current in noble courts of that region.",
+			"",
+			"@I-info Anyone trying to influence nobles or courtiers while wearing street dress will have a hard time of it (-2 penalty on Charisma-based skill checks to influence such individuals). If you wear this outfit without jewelry (costing an additional 50 gp), you look like an out-of-place commoner.",
 			"",
 			"::msg-tearaway"
 		]
@@ -5010,7 +5044,9 @@
 			"‹SOURCE Merchant's Manifest/21›  ",
 			"::tabular{format=misc a=100 b=x d=cloth}",
 			"",
-			"These silver rings are always sold in uniquely crafted pairs - usually one made in a Varisian style and one in an old Korvosan style. Originally made to celebrate the uniting of the Korvosan dissidents and Varisian locals at the city's outset, they are now commonly sought by young lovers, very close friends, and other intimate pairs. When two emotionally intimate creatures each wear one of the rings in a set, both wearers gain a +1 bonus on saving throws against fear effects. This bonus ends if the creatures' emotional bond is severed (at the GM's discretion), one of the creatures removes a ring and returns it to the other creature, or a bonded creature is no longer wearing the ring (or is no longer alive or on the same plane)."
+			"These silver rings are always sold in uniquely crafted pairs - usually one made in a Varisian style and one in an old Korvosan style. Originally made to celebrate the uniting of the Korvosan dissidents and Varisian locals at the city's outset, they are now commonly sought by young lovers, very close friends, and other intimate pairs.",
+			"",
+			"@I-def When two emotionally intimate creatures each wear one of the rings in a set, both wearers gain a +1 bonus on saving throws against fear effects. This bonus ends if the creatures' emotional bond is severed (at the GM's discretion), one of the creatures removes a ring and returns it to the other creature, or a bonded creature is no longer wearing the ring (or is no longer alive or on the same plane)."
 		]
 	},
 	"crab": {
@@ -5144,7 +5180,7 @@
 			"‹SOURCE Ultimate Wilderness/243›  ",
 			"::tabular{format=misc a=\"0.5\" b=x d=cloth}",
 			"",
-			"These rubber boot or shoe inserts cushion your feet and improve your gait, granting you a +1 circumstance bonus on Constitution checks to continue running and to avoid nonlethal damage from a forced march."
+			"@I-boost-def These rubber boot or shoe inserts cushion your feet and improve your gait, granting you a +1 circumstance bonus on Constitution checks to continue running and to avoid nonlethal damage from a forced march."
 		]
 	},
 	"cypher_books": {
@@ -5194,7 +5230,9 @@
 			"‹SOURCE Adventurer's Armory 2/29›  ",
 			"::tabular{format=misc a=100 b=5 d=cloth}",
 			"",
-			"This combination of loose-fitting sashes, veils, and ornamentation accentuates a dancer's form and movements. Dancer's garb provides a +2 circumstance bonus on Perform (dance) checks, similar to that provided by masterwork instruments for other Perform skills, but does not grant this benefit when worn with armor or other concealing clothing."
+			"This combination of loose-fitting sashes, veils, and ornamentation accentuates a dancer's form and movements.",
+			"",
+			"@I-boost Dancer's garb provides a +2 circumstance bonus on ‹skill/Perform› (dance) checks, similar to that provided by masterwork instruments for other Perform skills, but does not grant this benefit when worn with armor or other concealing clothing."
 		]
 	},
 	"dancers_garb_silver": {
@@ -5205,7 +5243,9 @@
 			"‹SOURCE Adventurer's Armory 2/29›  ",
 			"::tabular{format=misc a=200 b=5 d=cloth}",
 			"",
-			"In addition to granting the same bonus on Perform (dance) checks as regular dancer's garb, silver dancer's garb is considered a silver instrument for ‹arc-bard/silver balladeer› bards. Silver dancer's garb can be made of ‹eq-material/sunsilver›; sunsilver dancer's garb costs an additional 3,000 gp and grants the same benefits as armor made of sunsilver. As with the bonus on Perform (dance) checks, this benefit functions only when no other armor or concealing clothing is worn."
+			"@I-power In addition to granting the same bonus on ‹skill/Perform› (dance) checks as regular ‹eq-misc/dancer's garb›, silver dancer's garb is considered a silver instrument for ‹arc-bard/silver balladeer› bards.",
+			"",
+			"Silver dancer's garb can be made of ‹eq-material/sunsilver›; sunsilver dancer's garb costs an additional 3,000 gp and grants the same benefits as armor made of sunsilver. As with the bonus on Perform (dance) checks, this benefit functions only when no other armor or concealing clothing is worn."
 		]
 	},
 	"silver_dancers_garb": { "redirect": "dancers_garb_silver" },

@@ -798,7 +798,7 @@ const _silksworn = {title: "Silksworn", jsx: <><h2 id="arc-occultist-silksworn-s
 <Ability id="implements" icon={["info","warning"]}>
 <Pair single id="implements">Implements</Pair>
 <Pair hl title="Alters">Implements</Pair>
-<Pair title="Info">When a silksworn chooses an implement school, he does not choose a specific object. Instead, a silksworn must be wearing an ostentatious garment or magic item worth 10 gp or more of the appropriate type and in the appropriate slot: abjuration (wrists), conjuration (shoulders), divination (eyes), enchantment (neck), evocation (hands), illusion (head), necromancy (chest), and transmutation (feet). A silksworn who does not meet this requirement is treated as lacking the appropriate implement for the purpose of his class features, including spellcasting.</Pair>
+<Pair title="Info">When a silksworn chooses an implement school, he does not choose a specific object. Instead, a silksworn must be wearing an <Link to="/eq-misc/ostentatious_garment">ostentatious garment</Link> or magic item worth 10 gp or more of the appropriate type and in the appropriate slot: abjuration (wrists), conjuration (shoulders), divination (eyes), enchantment (neck), evocation (hands), illusion (head), necromancy (chest), and transmutation (feet). A silksworn who does not meet this requirement is treated as lacking the appropriate implement for the purpose of his class features, including spellcasting.</Pair>
 </Ability>
 <Ability id="cantrips" icon={["learn"]}>
 <Pair single id="cantrips">Cantrips</Pair>

@@ -169,7 +169,8 @@ const _dice = {title: "Dice", jsx: <><h2 id="eq-misc-dice-dice">Dice</h2>
 const _dilettantes_outfit = {title: "Dilettante's outfit", jsx: <><h2 id="eq-misc-dilettantes_outfit-dilettantes-outfit">Dilettante's outfit</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 36</Link>  </p>
 <Tabular format="misc" a="20" b="8" d="cloth" />
-<p>These clothes are favored by gnome inventors and wanderers, and consist of sturdy boots, a pair of stout linen pants or skirt, a cloth shirt, leather gloves, a hat and cloak, and numerous belts, straps, and accessories (such as scarves, a vest, bits of rope or twine, and bandoleers). These items are generally mismatched, each having been selected as "superior" from some other set of clothing, and are rife with pockets and small hidey-holes. It the wearer a +2 circumstance bonus on Sleight of Hand checks made to conceal a small object on her body.</p>
+<p>These clothes are favored by gnome inventors and wanderers, and consist of sturdy boots, a pair of stout linen pants or skirt, a cloth shirt, leather gloves, a hat and cloak, and numerous belts, straps, and accessories (such as scarves, a vest, bits of rope or twine, and bandoleers). These items are generally mismatched, each having been selected as "superior" from some other set of clothing, and are rife with pockets and small hidey-holes.</p>
+<p><Icons id="eq-misc-dilettantes_outfit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> It gives the wearer a +2 circumstance bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks made to conceal a small object on her body.</p>
 <Message tearaway />
 </>};
 const _dire_animal = {title: "Dire animal", jsx: <><h2 id="eq-misc-dire_animal-dire-animal">Dire animal</h2>
@@ -269,7 +270,8 @@ const _divers_kit = {title: "Diver's kit", jsx: <><h2 id="eq-misc-divers_kit-div
 const _diving_suit = {title: "Diving suit", jsx: <><h2 id="eq-misc-diving_suit-diving-suit">Diving suit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>  </p>
 <Tabular format="misc" a="10" b="2" d="cloth" />
-<p>This one-piece suit of clothing reduces one's drag in the water, making swimming easier. It provides a +1 circumstance bonus on Swim checks. The suit only grants this bonus if it is the outermost garment, and has no effect if worn over bulky clothes or armor or with cumbersome gear (such as a backpack, large weapons, and so on). Damage to the suit (such as from several rounds of combat against slashing and piercing attacks) negates the suit's bonus until it is repaired.</p>
+<p>This one-piece suit of clothing reduces one's drag in the water, making swimming easier.</p>
+<p><Icons id="eq-misc-diving_suit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> It provides a +1 circumstance bonus on <Link to="/skill/swim">Swim</Link> checks. The suit only grants this bonus if it is the outermost garment, and has no effect if worn over bulky clothes or armor or with cumbersome gear (such as a backpack, large weapons, and so on). Damage to the suit (such as from several rounds of combat against slashing and piercing attacks) negates the suit's bonus until it is repaired.</p>
 </>};
 const _doctor = {title: "Doctor", jsx: <><h2 id="eq-misc-doctor-doctor">Doctor</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 99</Link>  </p>
@@ -284,7 +286,7 @@ const _doctors_mask = {title: "Doctor's mask", jsx: <><h2 id="eq-misc-doctors_ma
 const _doctors_outfit = {title: "Doctor's outfit", jsx: <><h2 id="eq-misc-doctors_outfit-doctors-outfit">Doctor's outfit</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/pathfinder_8_seven_days_to_the_grave">Pathfinder #8: Seven Days to the Grave pg. 61</Link>  </p>
 <Tabular format="misc" a="150" b="6" d="cloth" />
-<p>Any creature wearing this outfit gains a +2 circumstance bonus on Fortitude saves made to resist contact diseases.</p>
+<p><Icons id="eq-misc-doctors_outfit-def-icons" wrapper="prefixIcon" list={["def"]} /> Any creature wearing this outfit gains a +2 circumstance bonus on Fortitude saves made to resist contact diseases.</p>
 <Message tearaway />
 </>};
 const _dodgers_draught = {title: "Dodger's draught", jsx: <><h2 id="eq-misc-dodgers_draught-dodgers-draught">Dodger's draught</h2>
@@ -348,7 +350,8 @@ const _draconic_perfume = {title: "Draconic perfume", jsx: <><h2 id="eq-misc-dra
 const _dragon_punch_whiskey_cup = {title: "Dragon Punch Whiskey (cup)", jsx: <><h2 id="eq-misc-dragon_punch_whiskey_cup-dragon-punch-whiskey">Dragon Punch Whiskey</h2>
 <p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion pg. 10</Link>  </p>
 <Tabular format="misc" a="10 gp/cup" b="&mdash;" c="x" d="food" />
-<p>Non-halflings do not receive any bonus from this drink. According to legend, the inventor of this dark and harsh liquor actually did attack a dragon bare handed (and presumably lived to pass on the recipe). <Link to="/race/halfling">Halflings</Link> who drink four cups of Dragon Punch Whiskey in the space of an hour take a -4 penalty to Dexterity but gain a +4 alchemical bonus on saves against fear for the next 10 minutes.</p>
+<p>Non-halflings do not receive any bonus from this drink. According to legend, the inventor of this dark and harsh liquor actually did attack a dragon bare handed (and presumably lived to pass on the recipe).</p>
+<p><Icons id="eq-misc-dragon_punch_whiskey_cup-down-boost-icons" wrapper="prefixIcon" list={["down","boost"]} /> <Link to="/race/halfling">Halflings</Link> who drink four cups of Dragon Punch Whiskey in the space of an hour take a -4 penalty to Dexterity but gain a +4 alchemical bonus on saves against fear for the next 10 minutes.</p>
 </>};
 const _dragon_rose = {title: "Dragon Rose", jsx: <><h2 id="eq-misc-dragon_rose-dragon-rose">Dragon Rose</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 153</Link>  </p>
@@ -364,7 +367,7 @@ const _dragon_muzzle = {title: "Dragon muzzle", jsx: <><h2 id="eq-misc-dragon_mu
 const _dragons_blend = {title: "Dragon's blend", jsx: <><h2 id="eq-misc-dragons_blend-dragons-blend">Dragon's blend</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 27</Link>  </p>
 <Tabular format="misc" a="1" b="x" d="food" />
-<p>This aromatic blend fills the belly with the sensation of fire, warming the drinker's body. By drinking two cups of dragon's blend coffee, you gain cold resistance 5 for 1 hour. Once the coffee has prevented 5 points of cold damage, the effect ends. You can benefit from dragon's blend coffee only once per day.</p>
+<p><Icons id="eq-misc-dragons_blend-def-icons" wrapper="prefixIcon" list={["def"]} /> This aromatic blend fills the belly with the sensation of fire, warming the drinker's body. By drinking two cups of dragon's blend coffee, you gain cold resistance 5 for 1 hour. Once the coffee has prevented 5 points of cold damage, the effect ends. You can benefit from dragon's blend coffee only once per day.</p>
 </>};
 const _dragons_blood = {title: "Dragon's blood", jsx: <><h2 id="eq-misc-dragons_blood-dragons-blood">Dragon's blood</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 19</Link>  </p>
@@ -466,7 +469,8 @@ const _dwarven_stout_mug = {title: "Dwarven stout (mug)", jsx: <><h2 id="eq-misc
 const _dwarven_trail_rations = {title: "Dwarven trail rations", jsx: <><h2 id="eq-misc-dwarven_trail_rations-dwarven-trail-rations">Dwarven trail rations</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>  </p>
 <Tabular format="misc" a="2" b="1.5" d="food" />
-<p>Dwarven trail rations consist of smoked sausages and salted meat, rounded out with hard biscuits and dried vegetables. If you are a <Link to="/race/dwarf">dwarf</Link> who subsists on nothing but these rations for at least 1 week, you can hustle or make a forced march for an additional hour without ill effects, but cannot do both in the same day. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.</p>
+<p>Dwarven trail rations consist of smoked sausages and salted meat, rounded out with hard biscuits and dried vegetables.</p>
+<p><Icons id="eq-misc-dwarven_trail_rations-boost-icons" wrapper="prefixIcon" list={["boost"]} /> If you are a <Link to="/race/dwarf">dwarf</Link> who subsists on nothing but these rations for at least 1 week, you can hustle or make a forced march for an additional hour without ill effects, but cannot do both in the same day. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.</p>
 </>};
 const _ear_trumpet_common = {title: "Ear trumpet (common)", jsx: <><h2 id="eq-misc-ear_trumpet_common-ear-trumpet">Ear trumpet</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 20</Link>  </p>
@@ -529,12 +533,14 @@ const _elephant = {title: "Elephant", jsx: <><h2 id="eq-misc-elephant-elephant">
 const _elven_prosthetics = {title: "Elven Prosthetics", jsx: <><h2 id="eq-misc-elven_prosthetics-elven-prosthetics">Elven Prosthetics</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 22</Link>  </p>
 <Tabular format="misc" a="250" b="1" d="cloth" />
-<p>The canny <Link to="/race/half_elf">half-elf</Link> sometimes needs a little something extra to look like a full elf. Ear extensions make somewhat elongated half-elf ears look like sharp elf ears, and colored lenses make a half-elf's human-like eyes look like elven eyes. These accessories give a half-elf a +6 circumstance bonus on Disguise checks to resemble an elf and can be used only by a half-elf.</p>
+<p>The canny <Link to="/race/half_elf">half-elf</Link> sometimes needs a little something extra to look like a full elf. Ear extensions make somewhat elongated half-elf ears look like sharp elf ears, and colored lenses make a half-elf's human-like eyes look like elven eyes.</p>
+<p><Icons id="eq-misc-elven_prosthetics-boost-icons" wrapper="prefixIcon" list={["boost"]} /> These accessories give a half-elf a +6 circumstance bonus on <Link to="/skill/disguise">Disguise</Link> checks to resemble an elf and can be used only by a half-elf.</p>
 </>};
 const _elven_trail_rations = {title: "Elven trail rations", jsx: <><h2 id="eq-misc-elven_trail_rations-elven-trail-rations">Elven trail rations</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>  </p>
 <Tabular format="misc" a="2" b="1" d="food" />
-<p>Elves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened with honey. They supplement this trail bread with dried fruits and nuts. If you are an <Link to="/race/elf">elf</Link> who subsists on nothing but these rations for at least 1 week, you receive a +2 bonus on checks and saves that benefit from the <Link to="/feat/endurance">Endurance</Link> feat. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.</p>
+<p>Elves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened with honey. They supplement this trail bread with dried fruits and nuts.</p>
+<p><Icons id="eq-misc-elven_trail_rations-boost-def-icons" wrapper="prefixIcon" list={["boost","def"]} /> If you are an <Link to="/race/elf">elf</Link> who subsists on nothing but these rations for at least 1 week, you receive a +2 bonus on checks and saves that benefit from the <Link to="/feat/endurance">Endurance</Link> feat. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.</p>
 </>};
 const _embalming_fluid = {title: "Embalming fluid", jsx: <><h2 id="eq-misc-embalming_fluid-embalming-fluid">Embalming fluid</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
@@ -705,7 +711,8 @@ const _fangfile = {title: "Fangfile", jsx: <><h2 id="eq-misc-fangfile-fangfile">
 const _fashionable_accessories = {title: "Fashionable accessories", jsx: <><h2 id="eq-misc-fashionable_accessories-fashionable-accessories">Fashionable accessories</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 13</Link>  </p>
 <Tabular format="misc" a="20" b="5" d="cloth" />
-<p>These accessories allow a courtier's, entertainer's, or noble's outfit to match the height of style in a particular city for 2d4 months. You gain a +2 circumstance bonus on Diplomacy checks to make requests of denizens of that city while wearing the accessories and an appropriate outfit. The bonus also applies on Bluff and Disguise checks to convince others that you hail from that city.</p>
+<p>These accessories allow a courtier's, entertainer's, or noble's outfit to match the height of style in a particular city for 2d4 months.</p>
+<p><Icons id="eq-misc-fashionable_accessories-boost-icons" wrapper="prefixIcon" list={["boost"]} /> You gain a +2 circumstance bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to make requests of denizens of that city while wearing the accessories and an appropriate outfit. The bonus also applies on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/disguise">Disguise</Link> checks to convince others that you hail from that city.</p>
 </>};
 const _fear_killer_concoction = {title: "Fear-killer concoction", jsx: <><h2 id="eq-misc-fear_killer_concoction-fear-killer-concoction">Fear-killer concoction</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 27</Link>  </p>
@@ -732,7 +739,9 @@ const _fervor_juice = {title: "Fervor juice", jsx: <><h2 id="eq-misc-fervor_juic
 const _monster_mask = {title: "Monster mask", jsx: <><h2 id="eq-misc-monster_mask-monster-mask">Monster mask</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>  </p>
 <Tabular format="misc" a="5-10 gp" b="1 lb." c="x" d="cloth" />
-<p>This articulated mask resembles a specific type of humanoid monster, such as a bugbear, goblin, orc, or hobgoblin. The mouth opens and closes when you move your jaw and its skin is actually carefully-painted cloth. Though such masks are usually intended for theater performances where an actor plays the role of a monster, adventurers have been known to use them to help blend in with monsters of the appropriate type. The mask negates the -2 Disguise DC for disguising yourself as a different race, but only at a distance of at least 20 feet or when you have <Link to="/rule/concealment">concealment</Link>; closer than this distance or in clearer circumstances, the mask is obviously a false representation. It only covers your face and is normally worn with a wig or helmet to disguise or cover the rest of your head. Each mask is most suitable for a wearer of a particular size, though some size and monster combinations are less believable than others (a Small creature in an orc mask may be able to pass as an orc child, but a Medium creature in a goblin mask at best looks like a deformed hobgoblin).</p>
+<p>This articulated mask resembles a specific type of humanoid monster, such as a bugbear, goblin, orc, or hobgoblin. The mouth opens and closes when you move your jaw and its skin is actually carefully-painted cloth. Though such masks are usually intended for theater performances where an actor plays the role of a monster, adventurers have been known to use them to help blend in with monsters of the appropriate type.</p>
+<p><Icons id="eq-misc-monster_mask-boost-icons" wrapper="prefixIcon" list={["boost"]} /> The mask negates the -2 <Link to="/skill/disguise">Disguise</Link> DC for disguising yourself as a different race, but only at a distance of at least 20 feet or when you have <Link to="/rule/concealment">concealment</Link>; closer than this distance or in clearer circumstances, the mask is obviously a false representation. It only covers your face and is normally worn with a wig or helmet to disguise or cover the rest of your head.</p>
+<p>Each mask is most suitable for a wearer of a particular size, though some size and monster combinations are less believable than others (a Small creature in an orc mask may be able to pass as an orc child, but a Medium creature in a goblin mask at best looks like a deformed hobgoblin).</p>
 </>};
 const _moonrod = {title: "Moonrod", jsx: <><h2 id="eq-misc-moonrod-moonrod">Moonrod</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 37</Link>  </p>
@@ -792,7 +801,8 @@ const _nautical_chart = {title: "Nautical chart", jsx: <><h2 id="eq-misc-nautica
 const _neck_guard = {title: "Neck guard", jsx: <><h2 id="eq-misc-neck_guard-neck-guard">Neck guard</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 99</Link>  </p>
 <Tabular format="misc" a="10" b="0.25" d="cloth" />
-<p>Made from hardened leather reinforced with a band of metal, this collar protects the wearer against <Link to="/template/vampire">vampire</Link> bites when worn around the throat. It provides a +1 armor bonus to AC against vampire bites or similar attacks that specifically target the wearer's throat. Unlike most armor bonuses, the neck guard's +1 bonus stacks with the armor bonus of light or medium armor, but it provides no additional bonus when worn with heavy armor.</p>
+<p>Made from hardened leather reinforced with a band of metal, this collar protects the wearer against <Link to="/template/vampire">vampire</Link> bites when worn around the throat.</p>
+<p><Icons id="eq-misc-neck_guard-def-icons" wrapper="prefixIcon" list={["def"]} /> It provides a +1 armor bonus to AC against vampire bites or similar attacks that specifically target the wearer's throat. Unlike most armor bonuses, the neck guard's +1 bonus stacks with the armor bonus of light or medium armor, but it provides no additional bonus when worn with heavy armor.</p>
 </>};
 const _necrobane_formaldehyde = {title: "Necrobane formaldehyde", jsx: <><h2 id="eq-misc-necrobane_formaldehyde-necrobane-formaldehyde">Necrobane formaldehyde</h2>
 <p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 11</Link>  </p>
@@ -965,7 +975,8 @@ const _oracles_kit = {title: "Oracle's kit", jsx: <><h2 id="eq-misc-oracles_kit-
 const _orc_trail_rations = {title: "Orc trail rations", jsx: <><h2 id="eq-misc-orc_trail_rations-orc-trail-rations">Orc trail rations</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>  </p>
 <Tabular format="misc" a="1" b="1" d="food" />
-<p>A typical orc trail ration consists of coarse black bread, thin sausages as hard as leather that must be chewed slowly to soften them, dried meat of uncertain origin, and pungent peppers. If you are an <Link to="/race/orc">orc</Link> or <Link to="/race/half_orc">half-orc</Link> who subsists on nothing but these rations for at least 1 week, you add +2 to the DC to resist any Intimidate checks you make. This bonus lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.</p>
+<p>A typical orc trail ration consists of coarse black bread, thin sausages as hard as leather that must be chewed slowly to soften them, dried meat of uncertain origin, and pungent peppers.</p>
+<p><Icons id="eq-misc-orc_trail_rations-boost-icons" wrapper="prefixIcon" list={["boost"]} /> If you are an <Link to="/race/orc">orc</Link> or <Link to="/race/half_orc">half-orc</Link> who subsists on nothing but these rations for at least 1 week, you add +2 to the DC to resist any <Link to="/skill/intimidate">Intimidate</Link> checks you make. This bonus lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.</p>
 </>};
 const _orrery = {title: "Orrery", jsx: <><h2 id="eq-misc-orrery-orrery">Orrery</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars pg. 26</Link>  </p>
@@ -982,7 +993,7 @@ const _orrery = {title: "Orrery", jsx: <><h2 id="eq-misc-orrery-orrery">Orrery</
 const _ostentatious_garment = {title: "Ostentatious garment", jsx: <><h2 id="eq-misc-ostentatious_garment-ostentatious-garment">Ostentatious garment</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 28</Link>  </p>
 <Tabular format="misc" a="10" b="1" d="cloth" />
-<p>This term covers items not listed elsewhere, such as elaborate wigs, silk-lined cloaks, and ruffled blouses. While such garments usually offers no benefit beyond fashion, a silksworn occultist must wear several such garments of suitable quality to access her magic.</p>
+<p>This term covers items not listed elsewhere, such as elaborate wigs, silk-lined cloaks, and ruffled blouses. While such garments usually offers no benefit beyond fashion, a <Link to="/arc-occultist/silksworn">silksworn</Link> occultist must wear several such garments of suitable quality to access her magic.</p>
 </>};
 const _otter = {title: "Otter", jsx: <><h2 id="eq-misc-otter-otter">Otter</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
@@ -1082,7 +1093,8 @@ const _patchwork_cloak = {title: "Patchwork cloak", jsx: <><h2 id="eq-misc-patch
 const _pathfinder_chronicle = {title: "Pathfinder Chronicle (Generic)", jsx: <><h2 id="eq-misc-pathfinder_chronicle-generic-pathfinder-chronicle">Generic Pathfinder Chronicle</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 147</Link>, <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 293</Link>  </p>
 <Tabular format="misc" a="50" b="1" d="pc" />
-<p>Numerous volumes and editions of the Pathfinder Chronicles exist. When used as a reference (an action that takes 1d4 full rounds of searching the text), a Pathfinder Chronicle grants a +2 circumstance bonus on a specific Knowledge check. Each Pathfinder Chronicle grants this bonus to a different type of Knowledge. Regardless of which type that particular chronicle is focused on, the cost of the book remains the same.</p>
+<p>Numerous volumes and editions of the Pathfinder Chronicles exist.</p>
+<p><Icons id="eq-misc-pathfinder_chronicle-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When used as a reference (an action that takes 1d4 full rounds of searching the text), a Pathfinder Chronicle grants a +2 circumstance bonus on a specific <Link to="/skill/knowledge">Knowledge</Link> check. Each Pathfinder Chronicle grants this bonus to a different type of Knowledge. Regardless of which type that particular chronicle is focused on, the cost of the book remains the same.</p>
 <h3 id="eq-misc-pathfinder_chronicle-specific-volumes">Specific Volumes</h3>
 <ul>
 <li><Link to="/eq-misc/pathfinder_chronicles___volume_1">Volume 1</Link></li>
@@ -1249,12 +1261,14 @@ const _pickle_extractor = {title: "Pickle extractor", jsx: <><h2 id="eq-misc-pic
 const _pickles_goblin_1_jar = {title: "Pickles, goblin (1 jar)", jsx: <><h2 id="eq-misc-pickles_goblin_1_jar-pickles-goblin-1-jar">Pickles, Goblin (1 jar)</h2>
 <p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion pg. 12</Link>  </p>
 <Tabular format="misc" a="0.4" b="1" d="food" />
-<p>Goblins pickle everything, and thus goblin pickles can be composed of almost anything. Their only shared characteristic is that they're mostly edible. At the GM's discretion, a non-goblin who eats a goblin pickle must make a DC 10 Fortitude save to avoid being <Link to="/misc/sickened">sickened</Link> for 1 hour. A single jar of goblin pickles provides a goblin enough nourishment for a day.</p>
+<p>Goblins pickle everything, and thus goblin pickles can be composed of almost anything. Their only shared characteristic is that they're mostly edible.</p>
+<p><Icons id="eq-misc-pickles_goblin_1_jar-down-icons" wrapper="prefixIcon" list={["down"]} /> At the GM's discretion, a non-goblin who eats a goblin pickle must make a DC 10 Fortitude save to avoid being <Link to="/misc/sickened">sickened</Link> for 1 hour.</p>
+<p>A single jar of goblin pickles provides a goblin enough nourishment for a day.</p>
 </>};
 const _pickpockets_outfit = {title: "Pickpocket's outfit", jsx: <><h2 id="eq-misc-pickpockets_outfit-pickpockets-outfit">Pickpocket's outfit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="5" b="3" d="cloth" />
-<p>Outfitted with concealed pockets, this clothing gives you a +2 bonus when hiding small objects on your person.</p>
+<p><Icons id="eq-misc-pickpockets_outfit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Outfitted with concealed pockets, this clothing gives you a +2 bonus when hiding small objects on your person.</p>
 <Message tearaway />
 </>};
 const _piecemeal_weapon = {title: "Piecemeal weapon", jsx: <><h2 id="eq-misc-piecemeal_weapon-piecemeal-weapon">Piecemeal weapon</h2>
@@ -1512,7 +1526,8 @@ const _vector_ink = {title: "Vector ink", jsx: <><h2 id="eq-misc-vector_ink-vect
 const _veil = {title: "Veil", jsx: <><h2 id="eq-misc-veil-veil">Veil</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 28</Link>, <Link to="/source/people_of_the_sands">People of the Sands pg. 29</Link>  </p>
 <Tabular format="misc" a="40" b="x" d="cloth" />
-<p>Whether made of sheer gauze or thicker material, a veil is useful for hiding one's facial expressions. While worn, a veil grants a +2 circumstance bonus on Bluff checks; however, the wearer treats all other creatures as having <Link to="/rule/concealment">concealment</Link>. The wearer has a 50% chance to avoid <Link to="/umr/gaze">gaze</Link> attacks, as if averting his eyes.</p>
+<p>Whether made of sheer gauze or thicker material, a veil is useful for hiding one's facial expressions.</p>
+<p><Icons id="eq-misc-veil-boost-down-def-icons" wrapper="prefixIcon" list={["boost","down","def"]} /> While worn, a veil grants a +2 circumstance bonus on <Link to="/skill/bluff">Bluff</Link> checks; however, the wearer treats all other creatures as having <Link to="/rule/concealment">concealment</Link>. The wearer has a 50% chance to avoid <Link to="/umr/gaze">gaze</Link> attacks, as if averting his eyes.</p>
 </>};
 const _venom_trap = {title: "Venom trap", jsx: <><h2 id="eq-misc-venom_trap-venom-trap">Venom trap</h2>
 <p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox pg. 21</Link>  </p>
@@ -1588,7 +1603,8 @@ const _vomit_capsule = {title: "Vomit capsule", jsx: <><h2 id="eq-misc-vomit_cap
 const _wading_boots = {title: "Wading boots", jsx: <><h2 id="eq-misc-wading_boots-wading-boots">Wading boots</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 245</Link>  </p>
 <Tabular format="misc" a="50" b="2" d="cloth" />
-<p>These waterproof boots are felt lined and have a thin layer of metal around the soles. The top of each boot ends just before the knee, with a cord for tying the top shut over clothing or exposed skin. These boots assist in prolonged hikes through deep mud or shallow pools, granting the wearer a +1 circumstance bonus on Profession (fisher) checks while fishing in shallow water.</p>
+<p>These waterproof boots are felt lined and have a thin layer of metal around the soles. The top of each boot ends just before the knee, with a cord for tying the top shut over clothing or exposed skin.</p>
+<p><Icons id="eq-misc-wading_boots-boost-icons" wrapper="prefixIcon" list={["boost"]} /> These boots assist in prolonged hikes through deep mud or shallow pools, granting the wearer a +1 circumstance bonus on <Link to="/skill/profession">Profession</Link> (fisher) checks while fishing in shallow water.</p>
 </>};
 const _waffle_iron_common = {title: "Waffle iron (common)", jsx: <><h2 id="eq-misc-waffle_iron_common-waffle-iron">Waffle iron</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>  </p>
@@ -1620,7 +1636,7 @@ const _wall_hook = {title: "Wall hook", jsx: <><h2 id="eq-misc-wall_hook-wall-ho
 const _wandermeal_per_day = {title: "Wandermeal (per day)", jsx: <><h2 id="eq-misc-wandermeal_per_day-wandermeal-per-day">Wandermeal (per day)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="0.01" b="0.5" d="food" />
-<p>This tough, dried cake is a halfling invention made from flour, water, and spices. Wandermeal keeps for months without spoiling, travels well, and fills the belly. However, eating it for over a week without other nutrients requires the eater to make a daily Fortitude saving throw (DC 15 + 1 for each additional day) or be <Link to="/misc/sickened">sickened</Link>. The effect ends 1 day after more nutritious food is eaten. The listed price is for a day's worth of food.</p>
+<p><Icons id="eq-misc-wandermeal_per_day-warning-icons" wrapper="prefixIcon" list={["warning"]} /> This tough, dried cake is a halfling invention made from flour, water, and spices. Wandermeal keeps for months without spoiling, travels well, and fills the belly. However, eating it for over a week without other nutrients requires the eater to make a daily Fortitude saving throw (DC 15 + 1 for each additional day) or be <Link to="/misc/sickened">sickened</Link>. The effect ends 1 day after more nutritious food is eaten. The listed price is for a day's worth of food.</p>
 </>};
 const _war_spirit_pouch = {title: "War spirit pouch", jsx: <><h2 id="eq-misc-war_spirit_pouch-war-spirit-pouch">War spirit pouch</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 141</Link>  </p>
@@ -1652,7 +1668,9 @@ const _warship = {title: "Warship", jsx: <><h2 id="eq-misc-warship-warship">Wars
 const _wasp_metheglin = {title: "Wasp metheglin", jsx: <><h2 id="eq-misc-wasp_metheglin-wasp-metheglin">Wasp metheglin</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 4</Link>  </p>
 <Tabular format="misc" a="400" b="2" d="food" />
-<p>A rare breed of wasp produces the honey used to make this spiced, mead-like drink. For 1 hour after consuming a glass of wasp metheglin (this takes 1 round), the drinker is quick to respond to harm, gaining a +1 alchemical bonus on attack rolls against any creature that has damaged her with an attack within the previous round. This bonus does not stack with itself. A typical bottle holds four glasses' worth of metheglin.</p>
+<p>A rare breed of wasp produces the honey used to make this spiced, mead-like drink.</p>
+<p><Icons id="eq-misc-wasp_metheglin-boost-icons" wrapper="prefixIcon" list={["boost"]} /> For 1 hour after consuming a glass of wasp metheglin (this takes 1 round), the drinker is quick to respond to harm, gaining a +1 alchemical bonus on attack rolls against any creature that has damaged her with an attack within the previous round. This bonus does not stack with itself.</p>
+<p>A typical bottle holds four glasses' worth of metheglin.</p>
 </>};
 const _waspguts = {title: "Waspguts", jsx: <><h2 id="eq-misc-waspguts-waspguts">Waspguts</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 50</Link>  </p>
@@ -1799,12 +1817,16 @@ const _windup_music_box = {title: "Windup music box", jsx: <><h2 id="eq-misc-win
 const _wine_common_pitcher = {title: "Wine (common, pitcher)", jsx: <><h2 id="eq-misc-wine_common_pitcher-wine">Wine</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
 <Tabular format="misc" a="2 sp (common, pitcher), 10 gp (fine, bottle)" b="6 lbs. (common, pitcher), 1&frac12; lbs. (fine, bottle)" c="x" d="food" />
-<p>Wine is made from fermented fruit juice, usually grapes, but also sometimes berries, apples, or even rice (sake). The lower listed price is for unremarkable common wine and the higher is for significantly finer wine, though wine from certain vintners (and specific years) may fetch much higher prices. In colder climates, wine is often mulled with fruit, spices, honey, and almonds and served as a warming beverage during the winter.</p>
+<p>Wine is made from fermented fruit juice, usually grapes, but also sometimes berries, apples, or even rice (sake). The lower listed price is for unremarkable common wine and the higher is for significantly finer wine, though wine from certain vintners (and specific years) may fetch much higher prices.</p>
+<p>In colder climates, wine is often mulled with fruit, spices, honey, and almonds and served as a warming beverage during the winter.</p>
 </>};
 const _wing_cloak = {title: "Wing cloak", jsx: <><h2 id="eq-misc-wing_cloak-wing-cloak">Wing cloak</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 159</Link>  </p>
 <Tabular format="misc" a="1200" b="1" d="cloth" />
-<p>This strange piece of equipment only works for <Link to="/race/sylph">sylphs</Link> and similar creatures, whose light, airy bodies can be borne upon the winds. Looking like a fine silk traveler's cloak, a wing cloak is secretly reinforced with a series of wooden struts that, when locked into place, stretch the cloak's fabric into a rudimentary wing. Arranging the struts into a wing or reversing the change is a move action. When the cloak is shaped into a wing, the wearer can make a DC 15 Fly check to fall safely from any height without taking falling damage, as if using <Link to="/spell/feather_fall">feather fall</Link>. When falling, the wearer may make an additional DC 15 Fly check to glide, moving 5 feet laterally for every 20 feet she falls. Readying and using a wing cloak requires two hands and provokes an attack of opportunity. A wing cloak has hardness 0 and 5 hit points. If the wing cloak is broken, the Fly DCs to use it increase by +10.</p>
+<p>This strange piece of equipment only works for <Link to="/race/sylph">sylphs</Link> and similar creatures, whose light, airy bodies can be borne upon the winds. Looking like a fine silk traveler's cloak, a wing cloak is secretly reinforced with a series of wooden struts that, when locked into place, stretch the cloak's fabric into a rudimentary wing.</p>
+<p><Icons id="eq-misc-wing_cloak-power-def-icons" wrapper="prefixIcon" list={["power","def"]} /> Arranging the struts into a wing or reversing the change is a <strong className="hl">move action</strong>. When the cloak is shaped into a wing, the wearer can make a DC 15 <Link to="/skill/fly">Fly</Link> check to <Link to="/rule/fall">fall</Link> safely from any height without taking falling damage, as if using <Link to="/spell/feather_fall">feather fall</Link>.</p>
+<p><Icons id="eq-misc-wing_cloak-power-icons" wrapper="prefixIcon" list={["power"]} /> When falling, the wearer may make an additional DC 15 Fly check to glide, moving 5 feet laterally for every 20 feet she falls.</p>
+<p>Readying and using a wing cloak requires two hands and provokes an attack of opportunity. A wing cloak has <Link to="/rule/hardness">hardness</Link> 0 and 5 hit points. If the wing cloak is broken, the Fly DCs to use it increase by +10.</p>
 </>};
 const _wing_hobble = {title: "Wing hobble", jsx: <><h2 id="eq-misc-wing_hobble-wing-hobble">Wing hobble</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 27</Link>  </p>
@@ -1893,7 +1915,9 @@ const _woolly_mammoth_combat_trained = {title: "Woolly mammoth (combat-trained)"
 const _wranglers_gloves = {title: "Wrangler's gloves", jsx: <><h2 id="eq-misc-wranglers_gloves-wranglers-gloves">Wrangler's gloves</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 27</Link>  </p>
 <Tabular format="misc" a="20" b="6" d="cloth" />
-<p>Fine plates of articulated steel reinforce these elbow-length leather gloves, which are designed to allow animal handlers and animal hunters alike to confront beasts with natural defenses like spines and quills. While wearing the gloves, you gain DR 2/magic against attacks of opportunity provoked when you attempt a combat maneuver check to <Link to="/rule/grapple">grapple</Link> a creature. You also gain this damage reduction and a +1 circumstance bonus on Reflex saves against defensive abilities that deal damage when you strike a creature with a non-reach weapon, unarmed strike, or natural attack. The thick gloves restrict your movement, imposing a -2 penalty on precision-based skill checks that involve your hands (such as using Disable Device to pick a lock)</p>
+<p>Fine plates of articulated steel reinforce these elbow-length leather gloves, which are designed to allow animal handlers and animal hunters alike to confront beasts with natural defenses like spines and quills.</p>
+<p><Icons id="eq-misc-wranglers_gloves-def-icons" wrapper="prefixIcon" list={["def"]} /> While wearing the gloves, you gain DR 2/magic against attacks of opportunity provoked when you attempt a combat maneuver check to <Link to="/rule/grapple">grapple</Link> a creature. You also gain this damage reduction and a +1 circumstance bonus on Reflex saves against defensive abilities that deal damage when you strike a creature with a non-reach weapon, unarmed strike, or natural attack.</p>
+<p><Icons id="eq-misc-wranglers_gloves-down-icons" wrapper="prefixIcon" list={["down"]} /> The thick gloves restrict your movement, imposing a -2 penalty on precision-based skill checks that involve your hands (such as using <Link to="/skill/disable_device">Disable Device</Link> to pick a lock)</p>
 </>};
 const _wrist_sheath_spring_loaded = {title: "Wrist sheath (spring loaded)", jsx: <><h2 id="eq-misc-wrist_sheath_spring_loaded-wrist-sheath-spring-loaded">Wrist sheath (spring loaded)</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -1924,7 +1948,8 @@ const _yak = {title: "Yak", jsx: <><h2 id="eq-misc-yak-yak">Yak</h2>
 const _yenchaburian_hybrid = {title: "Yenchaburian hybrid", jsx: <><h2 id="eq-misc-yenchaburian_hybrid-yenchaburian-hybrid">Yenchaburian hybrid</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 27</Link>  </p>
 <Tabular format="misc" a="1" b="x" d="food" />
-<p>This bitter coffee cultivar increases the drinker's alertness to nearby threats. For 1 hour after drinking two cups of Yenchaburian hybrid coffee, you gain a +2 competence bonus on Perception checks to notice a creature that is using Stealth. You can benefit from yenchaburian hybrid coffee only once per day.</p>
+<p>This bitter coffee cultivar increases the drinker's alertness to nearby threats.</p>
+<p><Icons id="eq-misc-yenchaburian_hybrid-boost-icons" wrapper="prefixIcon" list={["boost"]} /> For 1 hour after drinking two cups of Yenchaburian hybrid coffee, you gain a +2 competence bonus on <Link to="/skill/perception">Perception</Link> checks to notice a creature that is using Stealth. You can benefit from yenchaburian hybrid coffee only once per day.</p>
 </>};
 const _yogurt = {title: "Yogurt", jsx: <><h2 id="eq-misc-yogurt-yogurt">Yogurt</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>  </p>

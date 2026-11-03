@@ -596,7 +596,8 @@ const _antivenom = {title: "Antivenom", jsx: <><h2 id="eq-misc-antivenom-antiven
 const _anulite_paprika = {title: "Anulite paprika", jsx: <><h2 id="eq-misc-anulite_paprika-anulite-paprika">Anulite paprika</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 7</Link>  </p>
 <Tabular format="misc" a="3" b="x" d="food" />
-<p>Although Anulites make great use of foreign spices, Anulite paprika is perhaps the most popular in the city, especially among the wealthy. This bright red seasoning is used in all manner of seafood and vegetable dishes, imparting the heat greatly treasured in Anulite cuisine. Consuming a meal seasoned with Anulite paprika grants you some resistance against flames, reducing the amount of damage taken each round when you have caught on fire by 1. This benefit lasts for 8 hours and does not stack with itself.</p>
+<p>Although Anulites make great use of foreign spices, Anulite paprika is perhaps the most popular in the city, especially among the wealthy. This bright red seasoning is used in all manner of seafood and vegetable dishes, imparting the heat greatly treasured in Anulite cuisine.</p>
+<p><Icons id="eq-misc-anulite_paprika-def-icons" wrapper="prefixIcon" list={["def"]} /> Consuming a meal seasoned with Anulite paprika grants you some resistance against flames, reducing the amount of damage taken each round when you have <Link to="/rule/catch_on_fire">caught on fire</Link> by 1. This benefit lasts for 8 hours and does not stack with itself.</p>
 <p>The price and weight listed represent a jar containing enough paprika to season 10 meals.</p>
 </>};
 const _anvil = {title: "Anvil", jsx: <><h2 id="eq-misc-anvil-anvil">Anvil</h2>
@@ -982,7 +983,8 @@ const _bath_hot = {title: "Bath (hot)", jsx: <><h2 id="eq-misc-bath_hot-bath">Ba
 const _battle_mask = {title: "Battle mask", jsx: <><h2 id="eq-misc-battle_mask-battle-mask">Battle mask</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 141</Link>  </p>
 <Tabular format="misc" a="50" b="2" d="cloth" />
-<p>Made from wood, bone, or similar materials, this mask covers its wearer's actual appearance and identity by depicting a hateful, leering face instead. Because of a battle mask's excellent craftsmanship and exquisite details, the wearer gains a +1 bonus on Intimidate checks made to demoralize an opponent.</p>
+<p>Made from wood, bone, or similar materials, this mask covers its wearer's actual appearance and identity by depicting a hateful, leering face instead.</p>
+<p><Icons id="eq-misc-battle_mask-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Because of a battle mask's excellent craftsmanship and exquisite details, the wearer gains a +1 bonus on <Link to="/skill/intimidate">Intimidate</Link> checks made to demoralize an opponent.</p>
 </>};
 const _bear_trap_offset = {title: "Bear trap (offset)", jsx: <><h2 id="eq-misc-bear_trap_offset-bear-traps">Bear Traps</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 16</Link>  </p>
@@ -1080,7 +1082,10 @@ const _billiards_gear = {title: "Billiards gear", jsx: <><h2 id="eq-misc-billiar
 const _billow_cape = {title: "Billow cape", jsx: <><h2 id="eq-misc-billow_cape-billow-cape">Billow cape</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 65</Link>  </p>
 <Tabular format="misc" a="100" b="4" d="cloth" />
-<p>This silk cape is constructed of many carefully arranged overlapping layers that are loosely stitched together. When exposed to a sudden influx of air, like that caused by falling, the cloak unfolds like a crude parachute. When falling, a creature wearing a billow cape is treated as if he had deliberately jumped from the height. When worn in areas of strong wind or greater, a billow cape hampers movement. In such wind conditions, the wearer treats all terrain as <Link to="/rule/difficult_terrain">difficult terrain</Link> and takes a -4 penalty on Fly checks. Because of the strange and somewhat fragile construction of this cape, only Small or smaller billow capes function properly. Larger billow capes take all the penalties resulting from high winds, but grant none of the benefits when the wearer falls.</p>
+<p>This silk cape is constructed of many carefully arranged overlapping layers that are loosely stitched together. When exposed to a sudden influx of air, like that caused by falling, the cloak unfolds like a crude parachute.</p>
+<p><Icons id="eq-misc-billow_cape-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When <Link to="/rule/falling">falling</Link>, a creature wearing a billow cape is treated as if he had deliberately jumped from the height.</p>
+<p><Icons id="eq-misc-billow_cape-down-icons" wrapper="prefixIcon" list={["down"]} /> When worn in areas of strong wind or greater, a billow cape hampers movement. In such wind conditions, the wearer treats all terrain as <Link to="/rule/difficult_terrain">difficult terrain</Link> and takes a -4 penalty on <Link to="/skill/fly">Fly</Link> checks.</p>
+<p><Icons id="eq-misc-billow_cape-warning-icons" wrapper="prefixIcon" list={["warning"]} /> Because of the strange and somewhat fragile construction of this cape, only Small or smaller billow capes function properly. Larger billow capes take all the penalties resulting from high winds, but grant none of the benefits when the wearer falls.</p>
 </>};
 const _billy_ten_bells = {title: "Billy Ten-Bells", jsx: <><h2 id="eq-misc-billy_ten_bells-billy-ten-bells">Billy Ten-Bells</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 30</Link>  </p>
@@ -1112,25 +1117,25 @@ const _black_cumin = {hasJL:true,title: "Black cumin", jsx: <><div className="ju
 <p>Food spoils more quickly in hot climates, and Qadirans have become experts at using the spices that they trade to help preserve their meals. After importing plants from across the planes, Qadiran druids and alchemists bred and magically adapted unique species with enhanced medicinal properties. <Link to="/rule/al_zabriti">Al-Zabriti</Link> tribes generally have supplies of the following spices on hand. To gain the benefits of these spices, a character must consume multiple doses over 1 or more days, as indicated for each spice. Once the benefit is gained, continued consumption at that rate maintains the benefit.</p>
 <h3 id="eq-misc-black_cumin-black-cumin" data-hash-target>Black Cumin</h3>
 <Tabular format="misc" id="cumin" a="15" b="x" d="food" />
-<p>Cumin is a nutty seasoning used in savory foods. If eaten twice per day for a week, it grants those who consume it a +1 alchemical bonus on Fortitude saves to resist disease for the following 24 hours. An ounce of black cumin sells for 15 gp and seasons 14 meals.</p>
+<p><Icons id="eq-misc-black_cumin-def-icons" wrapper="prefixIcon" list={["def"]} /> Cumin is a nutty seasoning used in savory foods. If eaten twice per day for a week, it grants those who consume it a +1 alchemical bonus on Fortitude saves to resist disease for the following 24 hours. An ounce of black cumin sells for 15 gp and seasons 14 meals.</p>
 <h3 id="eq-misc-black_cumin-flaming-sumac" data-hash-target>Flaming Sumac</h3>
 <Tabular format="misc" id="sumac" a="20" b="x" d="food" />
-<p>A tart spice, sumac allows a character who contracts a natural disease with multiple effects to suffer one fewer effect (determined randomly) each time he fails a saving throw to resist that disease's effects. An individual must consume flaming sumac twice per day for at least 3 days to gain its effects, which last for 24 hours after the last dose is consumed. An ounce of flaming sumac sells for 20 gp and seasons six meals.</p>
+<p><Icons id="eq-misc-black_cumin-def-icons" wrapper="prefixIcon" list={["def"]} /> A tart spice, sumac allows a character who contracts a natural disease with multiple effects to suffer one fewer effect (determined randomly) each time he fails a saving throw to resist that disease's effects. An individual must consume flaming sumac twice per day for at least 3 days to gain its effects, which last for 24 hours after the last dose is consumed. An ounce of flaming sumac sells for 20 gp and seasons six meals.</p>
 <h3 id="eq-misc-black_cumin-golden-cardamom" data-hash-target>Golden Cardamom</h3>
 <Tabular format="misc" id="cardamom" a="30" b="x" d="food" />
-<p>This fragrant, sweet powder is made from ground cardamom seeds and is often used as a perfume and tooth cleaner, as well as a seasoning in rice dishes and desserts. When a character takes ability damage from a disease, the actual damage taken is reduced by 1 (to a minimum of 0). Golden cardamom has no effect on ability drain or other effects caused by disease. It must be eaten once per day for 9 days to build up sufficiently within an individual's body to provide this effect. An ounce of golden cardamom seeds sells for 30 gp and seasons nine meals.</p>
+<p><Icons id="eq-misc-black_cumin-def-icons" wrapper="prefixIcon" list={["def"]} /> This fragrant, sweet powder is made from ground cardamom seeds and is often used as a perfume and tooth cleaner, as well as a seasoning in rice dishes and desserts. When a character takes <Link to="/rule/ability_damage">ability damage</Link> from a disease, the actual damage taken is reduced by 1 (to a minimum of 0). Golden cardamom has no effect on ability drain or other effects caused by disease. It must be eaten once per day for 9 days to build up sufficiently within an individual's body to provide this effect. An ounce of golden cardamom seeds sells for 30 gp and seasons nine meals.</p>
 <h3 id="eq-misc-black_cumin-striped-nutmeg" data-hash-target>Striped Nutmeg</h3>
 <Tabular format="misc" id="nutmeg" a="100" b="x" d="food" />
-<p>Used for both desserts and meats, nutmeg halves any ability damage (but not ability drain) resulting from non-supernatural disease, to a minimum damage of 1. It must be eaten three times per day for at least 4 days to provide this effect. An ounce of ground striped nutmeg sells for 100 gp and seasons 12 meals.</p>
+<p><Icons id="eq-misc-black_cumin-def-icons" wrapper="prefixIcon" list={["def"]} /> Used for both desserts and meats, nutmeg halves any ability damage (but not ability drain) resulting from non-supernatural disease, to a minimum damage of 1. It must be eaten three times per day for at least 4 days to provide this effect. An ounce of ground striped nutmeg sells for 100 gp and seasons 12 meals.</p>
 <h3 id="eq-misc-black_cumin-sunrise-cinnamon" data-hash-target>Sunrise Cinnamon</h3>
 <Tabular format="misc" id="cinnamon" a="15" b="x" d="food" />
-<p>A warming spice, sunrise cinnamon is used for seasoning both sweet and savory foods. It promotes sweating, and a character who ingests it twice per day for 5 days gains a +4 alchemical bonus on Fortitude saves made to resist the effects of <Link to="/rule/heat_dangers">hot environments</Link>. An ounce of ground sunrise cinnamon sells for 15 gp and seasons 10 meals.</p>
+<p><Icons id="eq-misc-black_cumin-def-icons" wrapper="prefixIcon" list={["def"]} /> A warming spice, sunrise cinnamon is used for seasoning both sweet and savory foods. It promotes sweating, and a character who ingests it twice per day for 5 days gains a +4 alchemical bonus on Fortitude saves made to resist the effects of <Link to="/rule/heat_dangers">hot environments</Link>. An ounce of ground sunrise cinnamon sells for 15 gp and seasons 10 meals.</p>
 <h3 id="eq-misc-black_cumin-tiger-cloves" data-hash-target>Tiger Cloves</h3>
 <Tabular format="misc" id="cloves" a="25" b="x" d="food" />
-<p>Cloves are used in both sweet and savory foods, brewed into teas, and chewed as a breath freshener. When chewed for 1 minute, a dose of tiger cloves removes nauseated or sickened conditions caused by disease or poison effects. When used to season a meal, a dose of tiger cloves grants a +2 alchemical bonus on saving throws to resist the nauseated or sickened conditions for 24 hours after the meal is eaten. A single dose of tiger cloves sells for 25 gp and seasons one meal.</p>
+<p><Icons id="eq-misc-black_cumin-aid-def-icons" wrapper="prefixIcon" list={["aid","def"]} /> Cloves are used in both sweet and savory foods, brewed into teas, and chewed as a breath freshener. When chewed for 1 minute, a dose of tiger cloves removes <Link to="/misc/nauseated">nauseated</Link> or <Link to="/misc/sickened">sickened</Link> conditions caused by disease or poison effects. When used to season a meal, a dose of tiger cloves grants a +2 alchemical bonus on saving throws to resist the nauseated or sickened conditions for 24 hours after the meal is eaten. A single dose of tiger cloves sells for 25 gp and seasons one meal.</p>
 <h3 id="eq-misc-black_cumin-violet-salt" data-hash-target>Violet Salt</h3>
 <Tabular format="misc" id="salt" a="5" b="x" d="food" />
-<p>Salt is of vital importance for retaining a body's water. If a dose of Qadiran violet salt is consumed as part of a meal, it grants a +4 alchemical bonus on Constitution checks to resist the effects of ongoing <Link to="/rule/thirst">thirst</Link> for the next 24 hours. A dose of violet salt sells for 5 gp and seasons one meal.</p>
+<p><Icons id="eq-misc-black_cumin-def-icons" wrapper="prefixIcon" list={["def"]} /> Salt is of vital importance for retaining a body's water. If a dose of Qadiran violet salt is consumed as part of a meal, it grants a +4 alchemical bonus on Constitution checks to resist the effects of ongoing <Link to="/rule/thirst">thirst</Link> for the next 24 hours. A dose of violet salt sells for 5 gp and seasons one meal.</p>
 </>};
 const _black_fester_vial = {title: "Black fester (vial)", jsx: <><h2 id="eq-misc-black_fester_vial-black-fester-vial">Black fester (vial)</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 56</Link>  </p>
@@ -1277,7 +1282,8 @@ const _bodybalm = {title: "Bodybalm", jsx: <><h2 id="eq-misc-bodybalm-bodybalm">
 const _bogwalking_sandals = {title: "Bogwalking sandals", jsx: <><h2 id="eq-misc-bogwalking_sandals-bogwalking-sandals">Bogwalking sandals</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 9</Link>  </p>
 <Tabular format="misc" a="250" b="0.5" d="cloth" />
-<p>These sandals have blackwood soles and leather straps that wrap around the wearer's feet. The sandals are waterproof and are thus popular among individuals who tread the harsh locales of the swamps and wastelands beyond Cassomir proper - especially those who are in such environments for long periods of time without access to the comforts of a skilled cobbler. The sandals' design also allows the wearer to <Link to="/rule/marsh_terrain">move through shallow bogs</Link> normally and to treat deep bogs as if they were shallow bogs. The sandals do not affect the penalty on <Link to="/skill/acrobatics">Acrobatics</Link> checks while in bogs, and creatures wearing the sandals cannot gain <Link to="/rule/cover">cover</Link> from deep bogs.</p>
+<p>These sandals have <Link to="/eq-material/blackwood">blackwood</Link> soles and leather straps that wrap around the wearer's feet. The sandals are waterproof and are thus popular among individuals who tread the harsh locales of the swamps and wastelands beyond Cassomir proper - especially those who are in such environments for long periods of time without access to the comforts of a skilled cobbler.</p>
+<p><Icons id="eq-misc-bogwalking_sandals-boost-icons" wrapper="prefixIcon" list={["boost"]} /> The sandals' design also allows the wearer to <Link to="/rule/marsh_terrain">move through shallow bogs</Link> normally and to treat deep bogs as if they were shallow bogs. The sandals do not affect the penalty on <Link to="/skill/acrobatics">Acrobatics</Link> checks while in bogs, and creatures wearing the sandals cannot gain <Link to="/rule/cover">cover</Link> from deep bogs.</p>
 </>};
 const _boline = {title: "Boline", jsx: <><h2 id="eq-misc-boline-boline">Boline</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 16</Link>  </p>
@@ -1459,7 +1465,8 @@ const _bucket = {title: "Bucket", jsx: <><h2 id="eq-misc-bucket-bucket">Bucket</
 const _bufo_jug = {title: "Bufo (jug)", jsx: <><h2 id="eq-misc-bufo_jug-bufo-jug">Bufo (jug)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>  </p>
 <Tabular format="misc" a="1" b="2" d="food" />
-<p>This drink is a favorite of goblins, boggards, and other primitive humanoids. It is made by soaking a poisonous toad or frog (or its eggs) in weak beer, or by "milking" these animals for their poison and mixing it with the beer (which allows the animal to be used over and over again). Some tribes use wide-mouthed jugs and leave the dead animal inside as a crunchy treat for eating once the drink is gone. A creature drunk on bufo has the <Link to="/misc/dazzled">dazzled</Link> condition in addition to the normal intoxication effect.</p>
+<p>This drink is a favorite of goblins, boggards, and other primitive humanoids. It is made by soaking a poisonous toad or frog (or its eggs) in weak beer, or by "milking" these animals for their poison and mixing it with the beer (which allows the animal to be used over and over again). Some tribes use wide-mouthed jugs and leave the dead animal inside as a crunchy treat for eating once the drink is gone.</p>
+<p><Icons id="eq-misc-bufo_jug-down-icons" wrapper="prefixIcon" list={["down"]} /> A creature drunk on bufo has the <Link to="/misc/dazzled">dazzled</Link> condition in addition to the normal intoxication effect.</p>
 </>};
 const _bullseye_lantern = {hasJL:true,title: "Bullseye lantern", jsx: <><div className="jumpList" id="eq-misc-bullseye_lantern-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-bullseye_lantern-waterproof-bullseye-lantern">Waterproof Bullseye Lantern</InnerLink></li></ul></div><h2 id="eq-misc-bullseye_lantern-bullseye-lantern">Bullseye lantern</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -1599,7 +1606,8 @@ const _candle = {title: "Candle", jsx: <><h2 id="eq-misc-candle-candle">Candle</
 const _candlefish = {title: "Candlefish", jsx: <><h2 id="eq-misc-candlefish-candlefish">Candlefish</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 26</Link>  </p>
 <Tabular format="misc" a="0.7" b="1" d="food" />
-<p>This long, oily, salted fish comes strung on a wick similar to that found in a candle. The fish can be cooked and eaten as a tasty trail ration, with the listed price buying a fish big enough for one day's worth of food for a single creature. As long as the fish stays dry, it can go for months without spoiling. Sections of the candlefish can also be burned as a candle. One day's worth of candlefish is equivalent to six candles. Once used as a candle, a candlefish can no longer be eaten.</p>
+<p>This long, oily, salted fish comes strung on a wick similar to that found in a <Link to="/eq-misc/candle">candle</Link>. The fish can be cooked and eaten as a tasty trail ration, with the listed price buying a fish big enough for one day's worth of food for a single creature.</p>
+<p>As long as the fish stays dry, it can go for months without spoiling. Sections of the candlefish can also be burned as a candle. One day's worth of candlefish is equivalent to six candles. Once used as a candle, a candlefish can no longer be eaten.</p>
 </>};
 const _candlerod = {title: "Candlerod", jsx: <><h2 id="eq-misc-candlerod-candlerod">Candlerod</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
@@ -1742,7 +1750,8 @@ const _cave_whistle = {title: "Cave whistle", jsx: <><h2 id="eq-misc-cave_whistl
 const _caviar = {title: "Caviar", jsx: <><h2 id="eq-misc-caviar-caviar">Caviar</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>  </p>
 <Tabular format="misc" a="50" b="x" d="food" />
-<p>These translucent, salty fish eggs are a delicacy. They are usually eaten as a spread on crackers, boiled eggs, bread, pastries, or vegetables. They tend to spoil quickly and are rare outside of the coastal areas where they are harvested. Purists only consider sturgeon eggs to be true caviar, but others are more relaxed about the definition and include salmon, trout, and whitefish eggs as caviar. In some countries, the roe of larger exotic fish and sea creatures (such as <Link to="/monster/chuul">chuul</Link>, <Link to="/monster/giant_gar">giant gar</Link>, and <Link to="/monster/reefclaw">reefclaws</Link>) are eaten as caviar, though at much higher prices.</p>
+<p>These translucent, salty fish eggs are a delicacy. They are usually eaten as a spread on crackers, boiled eggs, bread, pastries, or vegetables. They tend to spoil quickly and are rare outside of the coastal areas where they are harvested.</p>
+<p>Purists only consider sturgeon eggs to be true caviar, but others are more relaxed about the definition and include salmon, trout, and whitefish eggs as caviar. In some countries, the roe of larger exotic fish and sea creatures (such as <Link to="/monster/chuul">chuul</Link>, <Link to="/monster/giant_gar">giant gar</Link>, and <Link to="/monster/reefclaw">reefclaws</Link>) are eaten as caviar, though at much higher prices.</p>
 </>};
 const _caydenbrew_mug = {title: "Caydenbrew (mug)", jsx: <><h2 id="eq-misc-caydenbrew_mug-caydenbrew">Caydenbrew</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -1762,7 +1771,8 @@ const _celestial_lamp = {title: "Celestial lamp", jsx: <><h2 id="eq-misc-celesti
 const _celwynvian_stone_fruit = {title: "Celwynvian stone fruit", jsx: <><h2 id="eq-misc-celwynvian_stone_fruit-celwynvian-stone-fruit">Celwynvian stone fruit</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 21</Link>  </p>
 <Tabular format="misc" a="500" b="1" d="food" />
-<p>This bizarre fruit appears to be carved from stone, though it has a lovely aroma and is easily consumed. Stone fruits occasionally sprout from the strange tree-like monument known as the Celwynvian Charge, where they are gathered by licensed vendors and sold to travelers. Eating a stone fruit hardens flesh and restores vitality. When a creature eats the fruit as a full-round action that provokes attacks of opportunity, it immediately recovers 2d6 hit points and gains a +2 enhancement bonus to its natural armor for 1 minute.</p>
+<p>This bizarre fruit appears to be carved from stone, though it has a lovely aroma and is easily consumed. Stone fruits occasionally sprout from the strange tree-like monument known as the Celwynvian Charge, where they are gathered by licensed vendors and sold to travelers.</p>
+<p><Icons id="eq-misc-celwynvian_stone_fruit-aid-def-icons" wrapper="prefixIcon" list={["aid","def"]} /> Eating a stone fruit hardens flesh and restores vitality. When a creature eats the fruit as a <strong className="hl">full-round action</strong> that provokes attacks of opportunity, it immediately recovers 2d6 hit points and gains a +2 enhancement bonus to its natural armor for 1 minute.</p>
 </>};
 const _censer = {title: "Censer", jsx: <><h2 id="eq-misc-censer-censer">Censer</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 248</Link>  </p>
@@ -1782,7 +1792,8 @@ const _chain_10_ft = {title: "Chain (10 ft.)", jsx: <><h2 id="eq-misc-chain_10_f
 const _chain_belt = {title: "Chain belt", jsx: <><h2 id="eq-misc-chain_belt-chain-belt">Chain belt</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 177</Link>  </p>
 <Tabular format="misc" a="15" b="0.25" d="cloth" />
-<p>While <Link to="/race/undine">undines</Link> dress sparingly, they often wear 10-foot-long belts of fine linked chain about their waists. The belts contain hinged links to which the wearer can affix various objects such as tools, small weapons, and other valuables, including links of silver and platinum, or small hammered plates of gold set with gems. If worn properly, the belt can hold up to 30 pounds of small items. A swimming undine can unwrap the belt as swift action if she needs to remove it to decrease her weight load.</p>
+<p>While <Link to="/race/undine">undines</Link> dress sparingly, they often wear 10-foot-long belts of fine linked chain about their waists. The belts contain hinged links to which the wearer can affix various objects such as tools, small weapons, and other valuables, including links of silver and platinum, or small hammered plates of gold set with gems.</p>
+<p><Icons id="eq-misc-chain_belt-power-icons" wrapper="prefixIcon" list={["power"]} /> If worn properly, the belt can hold up to 30 pounds of small items. A swimming undine can unwrap the belt as <strong className="hl">swift action</strong> if she needs to remove it to decrease her weight load.</p>
 </>};
 const _chains_of_contrition = {title: "Chains of contrition", jsx: <><h2 id="eq-misc-chains_of_contrition-chains-of-contrition">Chains of contrition</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 24</Link>  </p>
@@ -1919,7 +1930,8 @@ const _clear_ear = {title: "Clear ear", jsx: <><h2 id="eq-misc-clear_ear-clear-e
 const _cleats = {title: "Cleats", jsx: <><h2 id="eq-misc-cleats-cleats">Cleats</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>, <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link>  </p>
 <Tabular format="misc" a="5" b="2" d="cloth" />
-<p>Cleats reduce the penalty for walking over slick surfaces by 50%. For example, walking across ice normally costs 2 squares of movement (1 square plus a 1 square penalty) for every square of movement, but with cleats it costs only 1.5 squares for every square. Cleats cause damage to any type of finished flooring. They may supplement another outfit.</p>
+<p><Icons id="eq-misc-cleats-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Cleats reduce the penalty for walking over slick surfaces by 50%. For example, walking across ice normally costs 2 squares of movement (1 square plus a 1 square penalty) for every square of movement, but with cleats it costs only 1.5 squares for every square.</p>
+<p>Cleats cause damage to any type of finished flooring. They may supplement another outfit.</p>
 </>};
 const _clerics_kit = {title: "Cleric's kit", jsx: <><h2 id="eq-misc-clerics_kit-clerics-kit">Cleric's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
@@ -1990,7 +2002,7 @@ const _code_rod = {title: "Code rod", jsx: <><h2 id="eq-misc-code_rod-code-rod">
 const _coffee_cup = {title: "Coffee (cup)", jsx: <><h2 id="eq-misc-coffee_cup-coffee-cup">Coffee (cup)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="0.01" b="0.5" d="food" />
-<p>This drink is brewed by pouring boiling water through crushed, roasted coffee beans. Two cups is potent enough to reduce the penalties from the <Link to="/misc/fatigued">fatigued</Link> condition from -2 to -1 for 1 hour.</p>
+<p><Icons id="eq-misc-coffee_cup-aid-icons" wrapper="prefixIcon" list={["aid"]} /> This drink is brewed by pouring boiling water through crushed, roasted coffee beans. Two cups is potent enough to reduce the penalties from the <Link to="/misc/fatigued">fatigued</Link> condition from -2 to -1 for 1 hour.</p>
 <p>Brewing your own coffee requires ground coffee beans (5 cp for 1 pound of coffee beans, or 8 cp for 1 pound of ground beans) and a cooking device. You can boil the grounds in a pot, then pour the liquid after allowing the solids to settle, or filter the drink by pouring it through a sieve or cloth. Many travelers prefer the convenience of using a <Link to="/eq-misc/coffee_pot">coffee pot</Link>.</p>
 </>};
 const _coffee_pot = {title: "Coffee pot", jsx: <><h2 id="eq-misc-coffee_pot-coffee-pot">Coffee pot</h2>
@@ -2006,7 +2018,8 @@ const _coffin_common = {title: "Coffin (common)", jsx: <><h2 id="eq-misc-coffin_
 const _cold_weather_outfit = {title: "Cold-weather outfit", jsx: <><h2 id="eq-misc-cold_weather_outfit-cold-weather-outfit">Cold-weather outfit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
 <Tabular format="misc" a="8" b="7" d="cloth" />
-<p>This outfit is designed for mountaineering or hunting and traveling in icy climates. It includes a coat of wool or thick animal fur, a linen shirt, a wool cap, a heavy cloak, a heavy skirt or pants, and waterproof leather boots. In some regions, the outfit may be composed primarily of fur and animal pelts. This outfit grants a +5 circumstance bonus on Fortitude saving throws against exposure to <Link to="/rule/cold">cold weather</Link>.</p>
+<p>This outfit is designed for mountaineering or hunting and traveling in icy climates. It includes a coat of wool or thick animal fur, a linen shirt, a wool cap, a heavy cloak, a heavy skirt or pants, and waterproof leather boots. In some regions, the outfit may be composed primarily of fur and animal pelts.</p>
+<p><Icons id="eq-misc-cold_weather_outfit-def-icons" wrapper="prefixIcon" list={["def"]} /> This outfit grants a +5 circumstance bonus on Fortitude saving throws against exposure to <Link to="/rule/cold">cold weather</Link>.</p>
 <Message tearaway />
 </>};
 const _collapsible_bathtub = {title: "Collapsible bathtub", jsx: <><h2 id="eq-misc-collapsible_bathtub-collapsible-bathtub">Collapsible bathtub</h2>
@@ -2125,12 +2138,15 @@ const _corentyn_wine_bottle = {title: "Corentyn wine (bottle)", jsx: <><h2 id="e
 const _cork_vest = {title: "Cork vest", jsx: <><h2 id="eq-misc-cork_vest-cork-vest">Cork vest</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 203</Link>  </p>
 <Tabular format="misc" a="25" b="1" d="cloth" />
-<p>This fabric vest contains pockets full of cork, providing the wearer additional buoyancy. Originally worn by fishers and sailors, it protects against drowning. While wearing a cork vest, you take a -2 penalty on Dexterity and Swim checks, but instead of going underwater after failing the check by 5 or more, you go underwater only if you fail by 10 or more. Additionally, you gain a +4 bonus on Swim checks to avoid damage from fatigue. The cork vest can be worn under armor.</p>
+<p>This fabric vest contains pockets full of cork, providing the wearer additional buoyancy. Originally worn by fishers and sailors, it protects against drowning.</p>
+<p><Icons id="eq-misc-cork_vest-down-def-icons" wrapper="prefixIcon" list={["down","def"]} /> While wearing a cork vest, you take a -2 penalty on Dexterity and <Link to="/skill/swim">Swim</Link> checks, but instead of going underwater after failing the check by 5 or more, you go underwater only if you fail by 10 or more.</p>
+<p><Icons id="eq-misc-cork_vest-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Additionally, you gain a +4 bonus on Swim checks to avoid damage from fatigue. The cork vest can be worn under armor.</p>
 </>};
 const _corset = {title: "Corset", jsx: <><h2 id="eq-misc-corset-corset">Corset</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 20</Link>  </p>
 <Tabular format="misc" a="1 sp-200 gp" b="3 lbs." c="x" d="cloth" />
-<p>Sewn-in boning and laces allow this bodice to adjust your waist size in a way considered alluring by some cultures. The restrictive nature of this garment makes it a poor choice for combat or other athletic exertions, but you can easily conceal a thin knife in the corset's boning. The price varies greatly depending on the corset's quality; the cheapest corsets are made of simple cloth and cost mere silver pieces, while the most expensive feature silk brocade and are decorated with pearls or other costly adornments.</p>
+<p>Sewn-in boning and laces allow this bodice to adjust your waist size in a way considered alluring by some cultures. The restrictive nature of this garment makes it a poor choice for combat or other athletic exertions, but you can easily conceal a thin knife in the corset's boning.</p>
+<p>The price varies greatly depending on the corset's quality; the cheapest corsets are made of simple cloth and cost mere silver pieces, while the most expensive feature silk brocade and are decorated with pearls or other costly adornments.</p>
 </>};
 const _cosmogram = {title: "Cosmogram", jsx: <><h2 id="eq-misc-cosmogram-cosmogram">Cosmogram</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars pg. 26</Link>  </p>
@@ -2150,19 +2166,21 @@ const _courtesans_kit = {title: "Courtesan's kit", jsx: <><h2 id="eq-misc-courte
 const _courtesans_outfit = {title: "Courtesan's outfit", jsx: <><h2 id="eq-misc-courtesans_outfit-courtesans-outfit">Courtesan's outfit</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 20</Link>  </p>
 <Tabular format="misc" a="8" b="4" d="cloth" />
-<p>This outfit includes fine silk or satin garments tailored to complement your figure. In addition, the outfit contains a loose shawl or robe with several discreet pockets for items such as perfume, massage oils, or even a small dagger.</p>
+<p>This outfit includes fine silk or satin garments tailored to complement your figure. In addition, the outfit contains a loose shawl or robe with several discreet pockets for items such as <Link to="/eq-misc/perfume">perfume</Link>, massage oils, or even a small <Link to="/eq-weapon/dagger">dagger</Link>.</p>
 <Message tearaway />
 </>};
 const _courtiers_outfit = {title: "Courtier's outfit", jsx: <><h2 id="eq-misc-courtiers_outfit-courtiers-outfit">Courtier's outfit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
 <Tabular format="misc" a="30" b="6" d="cloth" />
-<p>This outfit includes tailored clothes in whatever fashion happens to be current in noble courts of that region. Anyone trying to influence nobles or courtiers while wearing street dress will have a hard time of it (-2 penalty on Charisma-based skill checks to influence such individuals). If you wear this outfit without jewelry (costing an additional 50 gp), you look like an out-of-place commoner.</p>
+<p>This outfit includes tailored clothes in whatever fashion happens to be current in noble courts of that region.</p>
+<p><Icons id="eq-misc-courtiers_outfit-info-icons" wrapper="prefixIcon" list={["info"]} /> Anyone trying to influence nobles or courtiers while wearing street dress will have a hard time of it (-2 penalty on Charisma-based skill checks to influence such individuals). If you wear this outfit without jewelry (costing an additional 50 gp), you look like an out-of-place commoner.</p>
 <Message tearaway />
 </>};
 const _covenant_rings = {title: "Covenant rings", jsx: <><h2 id="eq-misc-covenant_rings-covenant-rings">Covenant rings</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 21</Link>  </p>
 <Tabular format="misc" a="100" b="x" d="cloth" />
-<p>These silver rings are always sold in uniquely crafted pairs - usually one made in a Varisian style and one in an old Korvosan style. Originally made to celebrate the uniting of the Korvosan dissidents and Varisian locals at the city's outset, they are now commonly sought by young lovers, very close friends, and other intimate pairs. When two emotionally intimate creatures each wear one of the rings in a set, both wearers gain a +1 bonus on saving throws against fear effects. This bonus ends if the creatures' emotional bond is severed (at the GM's discretion), one of the creatures removes a ring and returns it to the other creature, or a bonded creature is no longer wearing the ring (or is no longer alive or on the same plane).</p>
+<p>These silver rings are always sold in uniquely crafted pairs - usually one made in a Varisian style and one in an old Korvosan style. Originally made to celebrate the uniting of the Korvosan dissidents and Varisian locals at the city's outset, they are now commonly sought by young lovers, very close friends, and other intimate pairs.</p>
+<p><Icons id="eq-misc-covenant_rings-def-icons" wrapper="prefixIcon" list={["def"]} /> When two emotionally intimate creatures each wear one of the rings in a set, both wearers gain a +1 bonus on saving throws against fear effects. This bonus ends if the creatures' emotional bond is severed (at the GM's discretion), one of the creatures removes a ring and returns it to the other creature, or a bonded creature is no longer wearing the ring (or is no longer alive or on the same plane).</p>
 </>};
 const _crab = {title: "Crab", jsx: <><h2 id="eq-misc-crab-crab">Crab</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
@@ -2218,7 +2236,7 @@ const _curative_myrrh = {title: "Curative myrrh", jsx: <><h2 id="eq-misc-curativ
 const _cushion_inserts = {title: "Cushion inserts", jsx: <><h2 id="eq-misc-cushion_inserts-cushion-inserts">Cushion inserts</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 243</Link>  </p>
 <Tabular format="misc" a="0.5" b="x" d="cloth" />
-<p>These rubber boot or shoe inserts cushion your feet and improve your gait, granting you a +1 circumstance bonus on Constitution checks to continue running and to avoid nonlethal damage from a forced march.</p>
+<p><Icons id="eq-misc-cushion_inserts-boost-def-icons" wrapper="prefixIcon" list={["boost","def"]} /> These rubber boot or shoe inserts cushion your feet and improve your gait, granting you a +1 circumstance bonus on Constitution checks to continue running and to avoid nonlethal damage from a forced march.</p>
 </>};
 const _cypher_books = {title: "Cypher books", jsx: <><h2 id="eq-misc-cypher_books-cypher-books">Cypher books</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
@@ -2241,12 +2259,14 @@ const _dampening_ointment = {title: "Dampening Ointment", jsx: <><h2 id="eq-misc
 const _dancers_garb = {title: "Dancer's garb", jsx: <><h2 id="eq-misc-dancers_garb-dancers-garb">Dancer's garb</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 29</Link>  </p>
 <Tabular format="misc" a="100" b="5" d="cloth" />
-<p>This combination of loose-fitting sashes, veils, and ornamentation accentuates a dancer's form and movements. Dancer's garb provides a +2 circumstance bonus on Perform (dance) checks, similar to that provided by masterwork instruments for other Perform skills, but does not grant this benefit when worn with armor or other concealing clothing.</p>
+<p>This combination of loose-fitting sashes, veils, and ornamentation accentuates a dancer's form and movements.</p>
+<p><Icons id="eq-misc-dancers_garb-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Dancer's garb provides a +2 circumstance bonus on <Link to="/skill/perform">Perform</Link> (dance) checks, similar to that provided by masterwork instruments for other Perform skills, but does not grant this benefit when worn with armor or other concealing clothing.</p>
 </>};
 const _dancers_garb_silver = {title: "Dancer's garb, silver", jsx: <><h2 id="eq-misc-dancers_garb_silver-dancers-garb-silver">Dancer's garb, silver</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 29</Link>  </p>
 <Tabular format="misc" a="200" b="5" d="cloth" />
-<p>In addition to granting the same bonus on Perform (dance) checks as regular dancer's garb, silver dancer's garb is considered a silver instrument for <Link to="/arc-bard/silver_balladeer">silver balladeer</Link> bards. Silver dancer's garb can be made of <Link to="/eq-material/sunsilver">sunsilver</Link>; sunsilver dancer's garb costs an additional 3,000 gp and grants the same benefits as armor made of sunsilver. As with the bonus on Perform (dance) checks, this benefit functions only when no other armor or concealing clothing is worn.</p>
+<p><Icons id="eq-misc-dancers_garb_silver-power-icons" wrapper="prefixIcon" list={["power"]} /> In addition to granting the same bonus on <Link to="/skill/perform">Perform</Link> (dance) checks as regular <Link to="/eq-misc/dancers_garb">dancer's garb</Link>, silver dancer's garb is considered a silver instrument for <Link to="/arc-bard/silver_balladeer">silver balladeer</Link> bards.</p>
+<p>Silver dancer's garb can be made of <Link to="/eq-material/sunsilver">sunsilver</Link>; sunsilver dancer's garb costs an additional 3,000 gp and grants the same benefits as armor made of sunsilver. As with the bonus on Perform (dance) checks, this benefit functions only when no other armor or concealing clothing is worn.</p>
 </>};
 const _dandy_brush = {title: "Dandy brush", jsx: <><h2 id="eq-misc-dandy_brush-dandy-brush">Dandy brush</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 12</Link>  </p>

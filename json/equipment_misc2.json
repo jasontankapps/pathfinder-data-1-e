@@ -104,7 +104,9 @@
 			"‹SOURCE Ultimate Wilderness/243›  ",
 			"::tabular{format=misc a=5 b=x d=cloth}",
 			"",
-			"Made of heavy material, this scarf filters out dust, sand, smoke, and other airborne contaminants. When worn over your nose and mouth, this scarf grants you a +1 resistance bonus on saving throws against inhaled poisons and other airborne effects that require breathing."
+			"Made of heavy material, this scarf filters out dust, sand, smoke, and other airborne contaminants.",
+			"",
+			"@I-def When worn over your nose and mouth, this scarf grants you a +1 resistance bonus on saving throws against inhaled poisons and other airborne effects that require breathing."
 		]
 	},
 	"filter": {
@@ -185,7 +187,11 @@
 			"‹SOURCE Ultimate Equipment/89›  ",
 			"::tabular{format=misc a=20 b=2 d=cloth}",
 			"",
-			"These heavy leather boots contain a layer of brick dust that protects your feet from heat. You gain fire resistance 2 against fire attacks directed at or under your feet, such as walking across hot coals. Repeat or prolonged exposure to fire damage eventually burns the outer leather of the boots, ruining them (typically after about 1d10+20 rounds of exposure)."
+			"These heavy leather boots contain a layer of brick dust that protects your feet from heat.",
+			"",
+			"@I-def You gain fire ‹umr/resistance› 2 against fire attacks directed at or under your feet, such as walking across hot coals.",
+			"",
+			"Repeat or prolonged exposure to fire damage eventually burns the outer leather of the boots, ruining them (typically after about 1d10+20 rounds of exposure)."
 		]
 	},
 	"firearm_oil": {
@@ -320,7 +326,9 @@
 			"‹SOURCE Ultimate Wilderness/243›  ",
 			"::tabular{format=misc a=50 b=10 d=cloth}",
 			"",
-			"Constructed to resist the effects of [hot environments](rule/heat_dangers) (such as forest fires and areas of volcanic activity), this set of overlapping, heavy leather clothing includes a pair of ‹eq-misc/fire-resistant boots›. The outfit grants fire resistance 1, but exposure to fire damage ruins the outfit after 20 rounds."
+			"Constructed to resist the effects of [hot environments](rule/heat_dangers) (such as forest fires and areas of volcanic activity), this set of overlapping, heavy leather clothing includes a pair of ‹eq-misc/fire-resistant boots›.",
+			"",
+			"@I-def The outfit grants fire resistance 1, but exposure to fire damage ruins the outfit after 20 rounds."
 		]
 	},
 	"flash_seeds": {
@@ -787,7 +795,11 @@
 			"‹SOURCE Ultimate Equipment/89;Pathfinder #51: The Hungry Storm/67;Advanced Player's Guide/185;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=12 b=5 d=cloth}",
 			"",
-			"The most basic of cold-weather gear, animal furs serve to keep their wearers warm. Wearing enough fur to cover the body provides a +2 bonus on Fortitude saves to resist ‹rule/cold« weather›. This does not stack with any bonuses gained from the Survival skill. Furs may supplement another outfit."
+			"The most basic of cold-weather gear, animal furs serve to keep their wearers warm.",
+			"",
+			"@I-def Wearing enough fur to cover the body provides a +2 bonus on Fortitude saves to resist ‹rule/cold« weather›. This does not stack with any bonuses gained from the ‹skill/Survival› skill.",
+			"",
+			"Furs may supplement another outfit."
 		]
 	},
 	"fury_drops": {
@@ -953,7 +965,9 @@
 			"‹SOURCE Giant Hunter's Handbook/25›  ",
 			"::tabular{format=misc a=300 b=1 d=cloth}",
 			"",
-			"The palms and fingers of these leather gloves are covered in small hair-like bristles, resembling those found on the feet of geckos, that aid you when climbing. Gecko gloves grant you a +1 circumstance bonus on Climb checks. They also enable you to climb with only one hand; doing so imposes a -5 penalty on your Climb checks."
+			"The palms and fingers of these leather gloves are covered in small hair-like bristles, resembling those found on the feet of geckos, that aid you when climbing.",
+			"",
+			"@I-boost-power Gecko gloves grant you a +1 circumstance bonus on ‹skill/Climb› checks. They also enable you to climb with only one hand; doing so imposes a -5 penalty on your Climb checks."
 		]
 	},
 	"ghost_hunters_kit": {
@@ -1094,7 +1108,9 @@
 			"‹SOURCE Ultimate Equipment/95›  ",
 			"::tabular{format=misc a=2 b=1 d=food}",
 			"",
-			"Almost any preserved food can be found in gnome ‹eq-misc/trail rations›, which are designed to keep a wandering ‹race/gnome› from needing to dine on the same meal twice in a week. If you are a gnome who subsists on nothing but these rations for at least 1 week, you are treated as being 1 Hit Die higher for the purposes of spells and supernatural abilities that have variable effects based on Hit Dice, such as ‹spell/color spray› and ‹spell/sleep›. This does not actually improve your caster level, character level, or Hit Dice in any other way. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
+			"Almost any preserved food can be found in gnome ‹eq-misc/trail rations›, which are designed to keep a wandering ‹race/gnome› from needing to dine on the same meal twice in a week.",
+			"",
+			"@I-def-boost If you are a gnome who subsists on nothing but these rations for at least 1 week, you are treated as being 1 Hit Die higher for the purposes of spells and supernatural abilities that have variable effects based on Hit Dice, such as ‹spell/color spray› and ‹spell/sleep›. This does not actually improve your caster level, character level, or Hit Dice in any other way. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
 		]
 	},
 	"goat": {
@@ -1340,7 +1356,7 @@
 			"‹SOURCE Ultimate Equipment/95›  ",
 			"::tabular{format=misc a=\"0.1\" b=\"1.5\" d=food}",
 			"",
-			"This dish is a meaty pudding made of sheep organs (mainly heart, liver, and lungs) minced with onion, oats, fat, spices, and salt, wrapped in a sheep stomach and slow-cooked. Though its ingredients discourage cautious eaters, fans of haggis consider it a hearty meal with a wonderful texture. It is usually served with turnips, potatoes, and whiskey."
+			"This dish is a meaty pudding made of sheep organs (mainly heart, liver, and lungs) minced with onion, oats, fat, spices, and salt, wrapped in a sheep stomach and slow-cooked. Though its ingredients discourage cautious eaters, fans of haggis consider it a hearty meal with a wonderful texture. It is usually served with turnips, potatoes, and ‹eq-misc/whiskey›."
 		]
 	},
 	"half_orc_disguise_kit": {
@@ -1375,7 +1391,9 @@
 			"‹SOURCE Ultimate Equipment/95›  ",
 			"::tabular{format=misc a=2 b=\"0.5\" d=food}",
 			"",
-			"A day's worth of ‹race/halfling› ‹eq-misc/trail rations› is actually more than what a typical adventuring halfling eats in a day - a full belly strengthens a halfling's resolve. Common foods include sweetened dried fruit, aged sausage, hard sharp cheese, honey cakes, and a mixture of roasted grains, nuts, and molasses. If you are a halfling who subsists on nothing but these rations for at least 1 week, you reduce the penalty for the ‹misc/shaken› condition from -2 to -1. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
+			"A day's worth of ‹race/halfling› ‹eq-misc/trail rations› is actually more than what a typical adventuring halfling eats in a day - a full belly strengthens a halfling's resolve. Common foods include sweetened dried fruit, aged sausage, hard sharp cheese, honey cakes, and a mixture of roasted grains, nuts, and molasses.",
+			"",
+			"@I-boost If you are a halfling who subsists on nothing but these rations for at least 1 week, you reduce the penalty for the ‹misc/shaken› condition from -2 to -1. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
 		]
 	},
 	"hallowed_chalice": {
@@ -1563,7 +1581,9 @@
 			"‹SOURCE Ultimate Equipment/89;Pirates of the Inner Sea/21;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"1 sp-50 gp\" b=\"&frac12& lb.-2 lbs.\" c=x d=cloth}",
 			"",
-			"Hats of various styles appear in all cultures. Ranging from the turban to the tricorne to the furred cap, a hat can be a simple covering for the head. Particular hats are sometimes mandatory for social or religious sects. A utilitarian hat such as a tricorne typically costs 2 sp."
+			"Hats of various styles appear in all cultures. Ranging from the turban to the tricorne to the furred cap, a hat can be a simple covering for the head. Particular hats are sometimes mandatory for social or religious sects.",
+			"",
+			"A utilitarian hat such as a tricorne typically costs 2 sp."
 		]
 	},
 	"haunt_detector": {
@@ -1624,7 +1644,11 @@
 			"‹SOURCE Merchant's Manifest/13›  ",
 			"::tabular{format=misc a=2 b=1 d=cloth}",
 			"",
-			"These thick, fur-lined gloves have several internal pockets containing segmented packets of alchemical reagents that produce heat for 4 hours when broken and mixed. The wearer can massage the gloves to activate these heat packets as a full-round action. While the heat packets last, the wearer ignores the Strength and Dexterity penalties from the ‹misc/fatigued› condition when performing Climb, Disable Device, and Sleight of Hand checks. Replacement heat packets cost 1 gp, and the heat packets in the gloves can be replaced with 1 minute of uninterrupted work."
+			"@I-power These thick, fur-lined gloves have several internal pockets containing segmented packets of alchemical reagents that produce heat for 4 hours when broken and mixed. The wearer can massage the gloves to activate these heat packets as a @HL[full-round action].",
+			"",
+			"@I-boost While the heat packets last, the wearer ignores the Strength and Dexterity penalties from the ‹misc/fatigued› condition when performing ‹skill/Climb›, ‹skill/Disable Device›, and ‹skill/Sleight of Hand› checks.",
+			"",
+			"Replacement heat packets cost 1 gp, and the heat packets in the gloves can be replaced with 1 minute of uninterrupted work."
 		]
 	},
 	"heathensnuff": {
@@ -1900,7 +1924,9 @@
 			"‹SOURCE Heroes of the Streets/13›  ",
 			"::tabular{format=misc a=10 b=1 d=cloth}",
 			"",
-			"This boot contains a hollow that grants a +4 bonus on Sleight of Hand checks to conceal items within the boot while wearing it. The hollow can hold up to 8 cubic inches. Putting on or removing the boot is a standard action, as is retrieving or storing an item from the hollow when the boot is in hand. Adding an item to or removing one from the boot while it is worn is a full-round action."
+			"@I-def This boot contains a hollow that grants a +4 bonus on ‹skill/Sleight of Hand› checks to conceal items within the boot while wearing it. The hollow can hold up to 8 cubic inches.",
+			"",
+			"Putting on or removing the boot is a @HL[standard action], as is retrieving or storing an item from the hollow when the boot is in hand. Adding an item to or removing one from the boot while it is worn is a @HL[full-round action]."
 		]
 	},
 	"hollowed_pommel": {
@@ -2334,7 +2360,9 @@
 			"‹SOURCE Ultimate Equipment/89;Adventurer's Armory/19;Advanced Player's Guide/185›  ",
 			"::tabular{format=misc a=8 b=4 d=cloth}",
 			"",
-			"Covering your body from head to foot in light, airy cloth keeps you cooler than baring your skin to the sun. This outfit typically consists of a loose linen robe and either a turban or loose head covering and veil. The outfit provides a +2 bonus on Fortitude saves to resist [warm or hot weather](rule/heat_dangers). This does not stack with any bonuses gained from the Survival skill.",
+			"Covering your body from head to foot in light, airy cloth keeps you cooler than baring your skin to the sun. This outfit typically consists of a loose linen robe and either a turban or loose head covering and veil.",
+			"",
+			"@I-def The outfit provides a +2 bonus on Fortitude saves to resist [warm or hot weather](rule/heat_dangers). This does not stack with any bonuses gained from the ‹skill/Survival› skill.",
 			"",
 			"::msg-tearaway"
 		]
@@ -2490,7 +2518,11 @@
 			"‹SOURCE Ultimate Equipment/89›  ",
 			"::tabular{format=misc a=1 b=2 d=cloth}",
 			"",
-			"Each of these calf-high boots bears a vertical blade on the bottom, allowing you to travel swiftly on ice. Wearing ice skates allows you to move on ice at normal speed with a successful DC 5 Acrobatics check (including running and charging), but your movement is reduced to half speed on all other terrain. Donning or removing an ice skate is a full-round action. Skating with only one is possible, but the DC of the Acrobatics check rises to 15.",
+			"Each of these calf-high boots bears a vertical blade on the bottom, allowing you to travel swiftly on ice.",
+			"",
+			"@I-power-down Wearing ice skates allows you to move on ice at normal speed with a successful DC 5 ‹skill/Acrobatics› check (including running and charging), but your movement is reduced to half speed on all other terrain.",
+			"",
+			"Donning or removing an ice skate is a @HL[full-round action]. Skating with only one is possible, but the DC of the Acrobatics check rises to 15.",
 			"",
 			"Also see: ‹eq-misc/skates›."
 		]
@@ -2737,7 +2769,7 @@
 			"‹SOURCE Ultimate Wilderness/243›  ",
 			"::tabular{format=misc a=4 b=x d=cloth}",
 			"",
-			"This is an extra pocket sewn on the inside of a piece of clothing. You gain a +2 circumstance bonus on Sleight of Hand checks to conceal an item in an inside pocket. Detecting the compartment requires a successful DC 15 Perception check at minimum (DC 20 if empty), even if you aren't trained in Sleight of Hand.",
+			"@I-def This is an extra pocket sewn on the inside of a piece of clothing. You gain a +2 circumstance bonus on ‹skill/Sleight of Hand› checks to conceal an item in an inside pocket. Detecting the compartment requires a successful DC 15 ‹skill/Perception› check at minimum (DC 20 if empty), even if you aren't trained in Sleight of Hand.",
 			"",
 			"The inside pocket is 1 inch deep. Different styles open from the top or from the side, and some have button flaps to secure the contents."
 		]
@@ -3108,6 +3140,7 @@
 	},
 	"kahve_cup": {
 		"name": "Kahve (cup)",
+		"tags": "coffee",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -3122,13 +3155,16 @@
 	},
 	"karazhica": {
 		"name": "Karazhica",
+		"tags": "coffee",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Karazhica",
 			"‹SOURCE Merchant's Manifest/27›  ",
 			"::tabular{format=misc a=1 b=x d=food}",
 			"",
-			"The gold standard of coffee in Ular Kel, Karazhica is notable for its acidity and smooth flavor. By drinking two cups of Karazhica coffee, you can walk for an additional hour before you must make a forced march. This additional hour counts as an hour of marching beyond the maximum for the purpose of determining the DC of Constitution checks for a subsequent forced march. You can benefit from Karazhica coffee only once per day."
+			"The gold standard of coffee in Ular Kel, Karazhica is notable for its acidity and smooth flavor.",
+			"",
+			"@I-boost By drinking two cups of Karazhica coffee, you can walk for an additional hour before you must make a forced march. This additional hour counts as an hour of marching beyond the maximum for the purpose of determining the DC of Constitution checks for a subsequent forced march. You can benefit from Karazhica coffee only once per day."
 		]
 	},
 	"keelboat": {
@@ -3560,7 +3596,9 @@
 			"‹SOURCE Halflings of Golarion/10›  ",
 			"::tabular{format=misc a=\"10 gp/cup\" b=\"&mdash&\" c=x d=food}",
 			"",
-			"Non-halflings do not receive any bonus from this drink. This mild sedative is normally used to treat insomnia, making the drinker reluctant to take hasty actions but adept at remaining still or silent. One cup of the tonic gives a ‹race/halfling› a -4 penalty on initiative checks for 10 minutes and a +2 alchemical bonus on Stealth checks for that time."
+			"Non-halflings do not receive any bonus from this drink. This mild sedative is normally used to treat insomnia, making the drinker reluctant to take hasty actions but adept at remaining still or silent.",
+			"",
+			"@I-down-def One cup of the tonic gives a ‹race/halfling› a -4 penalty on initiative checks for 10 minutes and a +2 alchemical bonus on ‹skill/Stealth› checks for that time."
 		]
 	},
 	"litchina": {
@@ -3573,7 +3611,7 @@
 			"",
 			"Though Taramai is long dead, and that first Keleshite invasion now little more than scattered stone foundations crumbling amid the grass, his legacy remains a point of great cultural pride among the Kara, with several leaders since having claimed to be his reincarnation. Taramai also pioneered the now-standard Kara practice of wearing the litchina - a metal face mask sculpted to match a given warrior's face, so that the enemy can never read any fear or pain in a Kara's expression. Each warrior must earn his or her litchina in battle, and most Kara would sooner fight naked than go without theirs.",
 			"",
-			"To be worn properly, a litchina must be attached to a helm or headpiece of some sort (usually via small hooks). While worn in this manner, it grants the wearer a +1 competence bonus to Intimidate. A magically enhanced litchina can count as occupying either the head, headband, or eyes slot (determined at the time of item creation). A standard litchina costs 100 gp and weighs 2 pounds."
+			"@I-boost To be worn properly, a litchina must be attached to a helm or headpiece of some sort (usually via small hooks). While worn in this manner, it grants the wearer a +1 competence bonus to ‹skill/Intimidate›. A magically enhanced litchina can count as occupying either the head, headband, or eyes slot (determined at the time of item creation). A standard litchina costs 100 gp and weighs 2 pounds."
 		]
 	},
 	"litmus_strip": {
@@ -3702,7 +3740,9 @@
 			"",
 			"The soles of these tough boots include lodestones that have been augmented through alchemical processes to be very strong. While climbing a rope, you can pinch the rope between the boots to prevent yourself from falling; you can release the boots' grip by carefully twisting them apart. The boots also stick to steel, iron, and other magnetizable surfaces.",
 			"",
-			"You gain a +4 circumstance bonus on your Climb checks while using the boots' magnetism to help you climb a rope or magnetic surface. While standing on a magnetic surface, the boots grant you a +4 circumstance bonus on Strength checks and Fortitude saving throws to avoid being blown away by winds. Leaving a square when the boots are attached to a magnetic surface requires an additional 5 feet of movement, as your overland speed is effectively reduced in exchange for the boots' assistance in climbing."
+			"@I-boost You gain a +4 circumstance bonus on your ‹skill/Climb› checks while using the boots' magnetism to help you climb a rope or magnetic surface.",
+			"",
+			"@I-boost-def-down While standing on a magnetic surface, the boots grant you a +4 circumstance bonus on Strength checks and Fortitude saving throws to avoid being blown away by winds. Leaving a square when the boots are attached to a magnetic surface requires an additional 5 feet of movement, as your overland speed is effectively reduced in exchange for the boots' assistance in climbing."
 		]
 	},
 	"long_gloves": {
@@ -3713,7 +3753,9 @@
 			"‹SOURCE Heroes of the High Court/28›  ",
 			"::tabular{format=misc a=15 b=x d=cloth}",
 			"",
-			"These full-length gloves of layered silk are popular among Kalistocrats and others who disdain physical contact. The wearer gains a +4 circumstance bonus on saving throws against contact poisons on objects he touches."
+			"These full-length gloves of layered silk are popular among Kalistocrats and others who disdain physical contact.",
+			"",
+			"@I-def The wearer gains a +4 circumstance bonus on saving throws against contact poisons on objects he touches."
 		]
 	},
 	"longbeard_lambic": {
@@ -3756,7 +3798,7 @@
 			"‹SOURCE Merchant's Manifest/6›  ",
 			"::tabular{format=misc a=1 b=\"0.5\" d=food}",
 			"",
-			"Every spring, the waters south of Iblydos fill with the newly hatched young of the archipelago's immense lonoma eels, which fishermen harvest and brine to preserve for year-round consumption. Traditionally consumed as sailors' meals before long voyages to regain one's sea legs, lonoma eel grants a +2 competence bonus on ‹rule/concentration› checks required for vigorous or violent motion for 8 hours.",
+			"@I-boost Every spring, the waters south of Iblydos fill with the newly hatched young of the archipelago's immense lonoma eels, which fishermen harvest and brine to preserve for year-round consumption. Traditionally consumed as sailors' meals before long voyages to regain one's sea legs, lonoma eel grants a +2 competence bonus on ‹rule/concentration› checks required for vigorous or violent motion for 8 hours.",
 			"",
 			"The price listed is for a single serving of lonoma eel."
 		]
@@ -3810,9 +3852,11 @@
 		"description": [
 			"## Lover's breath",
 			"‹SOURCE Heroes of the High Court/28›  ",
-			"::tabular{format=misc a=200 b=x d=cloth}",
+			"::tabular{format=misc a=200 b=x d=atools}",
 			"",
-			"This alchemical perfume is distilled from a blend of humanoid pheromones and fey sweat. When applied as a full-round action, it grants the wearer a +2 circumstance bonus on all Charisma checks and Charisma-based skill checks for 1 hour. During this time, the wearer takes a -2 penalty on saving throws against charm and fascination effects originating from fey.",
+			"This alchemical perfume is distilled from a blend of humanoid pheromones and fey sweat.",
+			"",
+			"@I-boost-down When applied as a @HL[full-round action], it grants the wearer a +2 circumstance bonus on all Charisma checks and Charisma-based skill checks for 1 hour. During this time, the wearer takes a -2 penalty on saving throws against charm and fascination effects originating from fey.",
 			"",
 			"Long-term use of lover's breath eventually results in physical changes, causing the user to vaguely resemble a fey creature such as a ‹monster/nymph› or ‹monster/dryad›, although these changes are only cosmetic."
 		]
@@ -3852,7 +3896,9 @@
 			"‹SOURCE Halflings of Golarion/10›  ",
 			"::tabular{format=misc a=\"1 gp/gallon, 4 sp/mug\" b=\"&mdash&\" c=x d=food}",
 			"",
-			"Non-halflings do not receive any bonus from this drink. Most races find this pale and frothy beer too salty to swallow, but halflings simply consider it an acquired taste. Drinking three or more cups of Luglurch in a 1-minute span gives a halfling a -2 penalty on Perception checks and a +1 bonus on Reflex saves and Acrobatics checks for 10 minutes."
+			"Non-halflings do not receive any bonus from this drink. Most races find this pale and frothy beer too salty to swallow, but halflings simply consider it an acquired taste.",
+			"",
+			"@I-down-def-boost Drinking three or more cups of Luglurch in a 1-minute span gives a halfling a -2 penalty on Perception checks and a +1 bonus on Reflex saves and Acrobatics checks for 10 minutes."
 		]
 	},
 	"luglurch_ale_mug": {
@@ -4309,7 +4355,7 @@
 			"‹SOURCE Ultimate Equipment/95;PRPG Core Rulebook/159›  ",
 			"::tabular{format=misc a=\"3 sp (common, per day), 5 sp (good, per day), 1 sp (poor, per day)\" b=\"&mdash&\" c=x d=food}",
 			"",
-			"The listed price is for a day's worth of meals. Poor meals might consist of bread, baked turnips, onions, and water. Common meals might consist of bread, chicken stew, carrots, and watered-down ale or wine. Good meals might consist of bread and pastries, beef, peas, and ale or wine."
+			"The listed price is for a day's worth of meals. Poor meals might consist of ‹eq-misc/bread›, baked turnips, onions, and water. Common meals might consist of bread, chicken stew, carrots, and watered-down ‹eq-misc/ale<_mug› or ‹eq-misc/wine›. Good meals might consist of bread and pastries, beef, peas, and ale or wine."
 		]
 	},
 	"meal_good_per_day": {
@@ -4405,7 +4451,11 @@
 			"‹SOURCE Merchant's Manifest/6›  ",
 			"::tabular{format=misc a=5 b=x d=food}",
 			"",
-			"Honey collectors harvest the immense combs created by the giant bees in the foothills of Pol-Ptirmeios. Local confectioners ferment this honey for several weeks before mixing it with flour and spices and cutting it into chewy cubes. Once reserved for hero-gods to enhance their longevity, mekainae is now served as a rare treat on important anniversaries and birthdays. Eating a serving of mekainae limits the reduction in a creature's current and total hit points to only 3 for each negative level it has (instead of the normal 5-point reduction in current and total hit points); other penalties imposed by negative levels remain unchanged Additionally, you gain a +1 resistance bonus on saving throws to remove negative levels. Both effects last 24 hours. The price listed is for a single serving of mekainae."
+			"Honey collectors harvest the immense combs created by the giant bees in the foothills of Pol-Ptirmeios. Local confectioners ferment this honey for several weeks before mixing it with flour and spices and cutting it into chewy cubes.",
+			"",
+			"@I-aid-def Once reserved for hero-gods to enhance their longevity, mekainae is now served as a rare treat on important anniversaries and birthdays. Eating a serving of mekainae limits the reduction in a creature's current and total hit points to only 3 for each negative level it has (instead of the normal 5-point reduction in current and total hit points); other penalties imposed by negative levels remain unchanged Additionally, you gain a +1 resistance bonus on saving throws to remove negative levels. Both effects last 24 hours.",
+			"",
+			"The price listed is for a single serving of mekainae."
 		]
 	},
 	"melee_contingency_kit": {
@@ -4555,7 +4605,13 @@
 			"‹SOURCE Dungeoneer's Handbook/24›  ",
 			"::tabular{format=misc a=120 b=10 d=cloth}",
 			"",
-			"This thick iron gauntlet is more an encasing than a piece of armor. It has only a few moving joints, and the position of its fingers and wrist must be adjusted and locked into place before the wielder can properly slip it over her arm. When wearing a metal glove, it is impossible to manipulate one's digits (meaning the wearer cannot hold anything in that hand), but that hand and forearm are completely protected from injury, making it easy to reach into a trapped hole or a deadly animal's cage. Any trap or creature attempting to damage an arm wearing a metal glove must break through the glove before reaching the wearer. Heavy objects that would normally crush the wearer's hand rest harmlessly on the glove instead, likely trapping the item but allowing her to pull her hand out as normal. A metal glove has hardness 10 and 15 hit points, and can withstand 2,000 pounds of pressure before crumpling. It does not protect the wearer from injury to other parts of her body."
+			"This thick iron gauntlet is more an encasing than a piece of armor. It has only a few moving joints, and the position of its fingers and wrist must be adjusted and locked into place before the wielder can properly slip it over her arm.",
+			"",
+			"When wearing a metal glove, it is impossible to manipulate one's digits (meaning the wearer cannot hold anything in that hand), but that hand and forearm are completely protected from injury, making it easy to reach into a trapped hole or a deadly animal's cage.",
+			"",
+			"@I-def Any trap or creature attempting to damage an arm wearing a metal glove must break through the glove before reaching the wearer. Heavy objects that would normally crush the wearer's hand rest harmlessly on the glove instead, likely trapping the item but allowing her to pull her hand out as normal.",
+			"",
+			"A metal glove has ‹rule/hardness› 10 and 15 hit points, and can withstand 2,000 pounds of pressure before crumpling. It does not protect the wearer from injury to other parts of her body."
 		]
 	},
 	"midwifes_kit": {

@@ -266,7 +266,9 @@
 			"‹SOURCE Advanced Race Guide/36›  ",
 			"::tabular{format=misc a=20 b=8 d=cloth}",
 			"",
-			"These clothes are favored by gnome inventors and wanderers, and consist of sturdy boots, a pair of stout linen pants or skirt, a cloth shirt, leather gloves, a hat and cloak, and numerous belts, straps, and accessories (such as scarves, a vest, bits of rope or twine, and bandoleers). These items are generally mismatched, each having been selected as \"superior\" from some other set of clothing, and are rife with pockets and small hidey-holes. It the wearer a +2 circumstance bonus on Sleight of Hand checks made to conceal a small object on her body.",
+			"These clothes are favored by gnome inventors and wanderers, and consist of sturdy boots, a pair of stout linen pants or skirt, a cloth shirt, leather gloves, a hat and cloak, and numerous belts, straps, and accessories (such as scarves, a vest, bits of rope or twine, and bandoleers). These items are generally mismatched, each having been selected as \"superior\" from some other set of clothing, and are rife with pockets and small hidey-holes.",
+			"",
+			"@I-boost It gives the wearer a +2 circumstance bonus on ‹skill/Sleight of Hand› checks made to conceal a small object on her body.",
 			"",
 			"::msg-tearaway"
 		]
@@ -448,7 +450,9 @@
 			"‹SOURCE Ultimate Equipment/89›  ",
 			"::tabular{format=misc a=10 b=2 d=cloth}",
 			"",
-			"This one-piece suit of clothing reduces one's drag in the water, making swimming easier. It provides a +1 circumstance bonus on Swim checks. The suit only grants this bonus if it is the outermost garment, and has no effect if worn over bulky clothes or armor or with cumbersome gear (such as a backpack, large weapons, and so on). Damage to the suit (such as from several rounds of combat against slashing and piercing attacks) negates the suit's bonus until it is repaired."
+			"This one-piece suit of clothing reduces one's drag in the water, making swimming easier.",
+			"",
+			"@I-boost It provides a +1 circumstance bonus on ‹skill/Swim› checks. The suit only grants this bonus if it is the outermost garment, and has no effect if worn over bulky clothes or armor or with cumbersome gear (such as a backpack, large weapons, and so on). Damage to the suit (such as from several rounds of combat against slashing and piercing attacks) negates the suit's bonus until it is repaired."
 		]
 	},
 	"doctor": {
@@ -489,7 +493,7 @@
 			"‹SOURCE Adventurer's Armory/19;Pathfinder #8: Seven Days to the Grave/61›  ",
 			"::tabular{format=misc a=150 b=6 d=cloth}",
 			"",
-			"Any creature wearing this outfit gains a +2 circumstance bonus on Fortitude saves made to resist contact diseases.",
+			"@I-def Any creature wearing this outfit gains a +2 circumstance bonus on Fortitude saves made to resist contact diseases.",
 			"",
 			"::msg-tearaway"
 		]
@@ -667,7 +671,9 @@
 			"‹SOURCE Halflings of Golarion/10›  ",
 			"::tabular{format=misc a=\"10 gp/cup\" b=\"&mdash&\" c=x d=food}",
 			"",
-			"Non-halflings do not receive any bonus from this drink. According to legend, the inventor of this dark and harsh liquor actually did attack a dragon bare handed (and presumably lived to pass on the recipe). ‹race/Halfling«s› who drink four cups of Dragon Punch Whiskey in the space of an hour take a -4 penalty to Dexterity but gain a +4 alchemical bonus on saves against fear for the next 10 minutes."
+			"Non-halflings do not receive any bonus from this drink. According to legend, the inventor of this dark and harsh liquor actually did attack a dragon bare handed (and presumably lived to pass on the recipe).",
+			"",
+			"@I-down-boost ‹race/Halfling«s› who drink four cups of Dragon Punch Whiskey in the space of an hour take a -4 penalty to Dexterity but gain a +4 alchemical bonus on saves against fear for the next 10 minutes."
 		]
 	},
 	"dragon_rose": {
@@ -696,13 +702,14 @@
 	},
 	"dragons_blend": {
 		"name": "Dragon's blend",
+		"tags": "coffee",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Dragon's blend",
 			"‹SOURCE Merchant's Manifest/27›  ",
 			"::tabular{format=misc a=1 b=x d=food}",
 			"",
-			"This aromatic blend fills the belly with the sensation of fire, warming the drinker's body. By drinking two cups of dragon's blend coffee, you gain cold resistance 5 for 1 hour. Once the coffee has prevented 5 points of cold damage, the effect ends. You can benefit from dragon's blend coffee only once per day."
+			"@I-def This aromatic blend fills the belly with the sensation of fire, warming the drinker's body. By drinking two cups of dragon's blend coffee, you gain cold resistance 5 for 1 hour. Once the coffee has prevented 5 points of cold damage, the effect ends. You can benefit from dragon's blend coffee only once per day."
 		]
 	},
 	"dragons_blood": {
@@ -953,7 +960,9 @@
 			"‹SOURCE Ultimate Equipment/95›  ",
 			"::tabular{format=misc a=2 b=\"1.5\" d=food}",
 			"",
-			"Dwarven trail rations consist of smoked sausages and salted meat, rounded out with hard biscuits and dried vegetables. If you are a ‹race/dwarf› who subsists on nothing but these rations for at least 1 week, you can hustle or make a forced march for an additional hour without ill effects, but cannot do both in the same day. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
+			"Dwarven trail rations consist of smoked sausages and salted meat, rounded out with hard biscuits and dried vegetables.",
+			"",
+			"@I-boost If you are a ‹race/dwarf› who subsists on nothing but these rations for at least 1 week, you can hustle or make a forced march for an additional hour without ill effects, but cannot do both in the same day. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
 		]
 	},
 	"ear_trumpet_common": {
@@ -1104,7 +1113,9 @@
 			"‹SOURCE Heroes from the Fringe/22›  ",
 			"::tabular{format=misc a=250 b=1 d=cloth}",
 			"",
-			"The canny ‹race/half-elf› sometimes needs a little something extra to look like a full elf. Ear extensions make somewhat elongated half-elf ears look like sharp elf ears, and colored lenses make a half-elf's human-like eyes look like elven eyes. These accessories give a half-elf a +6 circumstance bonus on Disguise checks to resemble an elf and can be used only by a half-elf."
+			"The canny ‹race/half-elf› sometimes needs a little something extra to look like a full elf. Ear extensions make somewhat elongated half-elf ears look like sharp elf ears, and colored lenses make a half-elf's human-like eyes look like elven eyes.",
+			"",
+			"@I-boost These accessories give a half-elf a +6 circumstance bonus on ‹skill/Disguise› checks to resemble an elf and can be used only by a half-elf."
 		]
 	},
 	"elven_trail_rations": {
@@ -1115,7 +1126,9 @@
 			"‹SOURCE Ultimate Equipment/95›  ",
 			"::tabular{format=misc a=2 b=1 d=food}",
 			"",
-			"Elves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened with honey. They supplement this trail bread with dried fruits and nuts. If you are an ‹race/elf› who subsists on nothing but these rations for at least 1 week, you receive a +2 bonus on checks and saves that benefit from the ‹feat/Endurance› feat. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
+			"Elves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened with honey. They supplement this trail bread with dried fruits and nuts.",
+			"",
+			"@I-boost-def If you are an ‹race/elf› who subsists on nothing but these rations for at least 1 week, you receive a +2 bonus on checks and saves that benefit from the ‹feat/Endurance› feat. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
 		]
 	},
 	"embalming_fluid": {
@@ -1549,7 +1562,9 @@
 			"‹SOURCE Heroes of the Streets/13›  ",
 			"::tabular{format=misc a=20 b=5 d=cloth}",
 			"",
-			"These accessories allow a courtier's, entertainer's, or noble's outfit to match the height of style in a particular city for 2d4 months. You gain a +2 circumstance bonus on Diplomacy checks to make requests of denizens of that city while wearing the accessories and an appropriate outfit. The bonus also applies on Bluff and Disguise checks to convince others that you hail from that city."
+			"These accessories allow a courtier's, entertainer's, or noble's outfit to match the height of style in a particular city for 2d4 months.",
+			"",
+			"@I-boost You gain a +2 circumstance bonus on ‹skill/Diplomacy› checks to make requests of denizens of that city while wearing the accessories and an appropriate outfit. The bonus also applies on ‹skill/Bluff› and ‹skill/Disguise› checks to convince others that you hail from that city."
 		]
 	},
 	"fear_killer_concoction": {
@@ -1612,7 +1627,11 @@
 			"‹SOURCE Ultimate Equipment/89›  ",
 			"::tabular{format=misc a=\"5-10 gp\" b=\"1 lb.\" c=x d=cloth}",
 			"",
-			"This articulated mask resembles a specific type of humanoid monster, such as a bugbear, goblin, orc, or hobgoblin. The mouth opens and closes when you move your jaw and its skin is actually carefully-painted cloth. Though such masks are usually intended for theater performances where an actor plays the role of a monster, adventurers have been known to use them to help blend in with monsters of the appropriate type. The mask negates the -2 Disguise DC for disguising yourself as a different race, but only at a distance of at least 20 feet or when you have ‹rule/concealment›; closer than this distance or in clearer circumstances, the mask is obviously a false representation. It only covers your face and is normally worn with a wig or helmet to disguise or cover the rest of your head. Each mask is most suitable for a wearer of a particular size, though some size and monster combinations are less believable than others (a Small creature in an orc mask may be able to pass as an orc child, but a Medium creature in a goblin mask at best looks like a deformed hobgoblin)."
+			"This articulated mask resembles a specific type of humanoid monster, such as a bugbear, goblin, orc, or hobgoblin. The mouth opens and closes when you move your jaw and its skin is actually carefully-painted cloth. Though such masks are usually intended for theater performances where an actor plays the role of a monster, adventurers have been known to use them to help blend in with monsters of the appropriate type.",
+			"",
+			"@I-boost The mask negates the -2 ‹skill/Disguise› DC for disguising yourself as a different race, but only at a distance of at least 20 feet or when you have ‹rule/concealment›; closer than this distance or in clearer circumstances, the mask is obviously a false representation. It only covers your face and is normally worn with a wig or helmet to disguise or cover the rest of your head.",
+			"",
+			"Each mask is most suitable for a wearer of a particular size, though some size and monster combinations are less believable than others (a Small creature in an orc mask may be able to pass as an orc child, but a Medium creature in a goblin mask at best looks like a deformed hobgoblin)."
 		]
 	},
 	"moonrod": {
@@ -1769,7 +1788,9 @@
 			"‹SOURCE Advanced Race Guide/99›  ",
 			"::tabular{format=misc a=10 b=\"0.25\" d=cloth}",
 			"",
-			"Made from hardened leather reinforced with a band of metal, this collar protects the wearer against ‹template/vampire› bites when worn around the throat. It provides a +1 armor bonus to AC against vampire bites or similar attacks that specifically target the wearer's throat. Unlike most armor bonuses, the neck guard's +1 bonus stacks with the armor bonus of light or medium armor, but it provides no additional bonus when worn with heavy armor."
+			"Made from hardened leather reinforced with a band of metal, this collar protects the wearer against ‹template/vampire› bites when worn around the throat.",
+			"",
+			"@I-def It provides a +1 armor bonus to AC against vampire bites or similar attacks that specifically target the wearer's throat. Unlike most armor bonuses, the neck guard's +1 bonus stacks with the armor bonus of light or medium armor, but it provides no additional bonus when worn with heavy armor."
 		]
 	},
 	"necrobane_formaldehyde": {
@@ -2175,7 +2196,9 @@
 			"‹SOURCE Ultimate Equipment/95›  ",
 			"::tabular{format=misc a=1 b=1 d=food}",
 			"",
-			"A typical orc trail ration consists of coarse black bread, thin sausages as hard as leather that must be chewed slowly to soften them, dried meat of uncertain origin, and pungent peppers. If you are an ‹race/orc› or ‹race/half-orc› who subsists on nothing but these rations for at least 1 week, you add +2 to the DC to resist any Intimidate checks you make. This bonus lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
+			"A typical orc trail ration consists of coarse black bread, thin sausages as hard as leather that must be chewed slowly to soften them, dried meat of uncertain origin, and pungent peppers.",
+			"",
+			"@I-boost If you are an ‹race/orc› or ‹race/half-orc› who subsists on nothing but these rations for at least 1 week, you add +2 to the DC to resist any ‹skill/Intimidate› checks you make. This bonus lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
 		]
 	},
 	"orrery": {
@@ -2228,7 +2251,7 @@
 			"‹SOURCE Heroes of the High Court/28›  ",
 			"::tabular{format=misc a=10 b=1 d=cloth}",
 			"",
-			"This term covers items not listed elsewhere, such as elaborate wigs, silk-lined cloaks, and ruffled blouses. While such garments usually offers no benefit beyond fashion, a silksworn occultist must wear several such garments of suitable quality to access her magic."
+			"This term covers items not listed elsewhere, such as elaborate wigs, silk-lined cloaks, and ruffled blouses. While such garments usually offers no benefit beyond fashion, a ‹arc-occultist/silksworn› occultist must wear several such garments of suitable quality to access her magic."
 		]
 	},
 	"otter": {
@@ -2484,7 +2507,9 @@
 			"‹SOURCE Adventurer's Guide/147;Inner Sea World Guide/293›  ",
 			"::tabular{format=misc a=50 b=1 d=pc}",
 			"",
-			"Numerous volumes and editions of the Pathfinder Chronicles exist. When used as a reference (an action that takes 1d4 full rounds of searching the text), a Pathfinder Chronicle grants a +2 circumstance bonus on a specific Knowledge check. Each Pathfinder Chronicle grants this bonus to a different type of Knowledge. Regardless of which type that particular chronicle is focused on, the cost of the book remains the same.",
+			"Numerous volumes and editions of the Pathfinder Chronicles exist.",
+			"",
+			"@I-boost When used as a reference (an action that takes 1d4 full rounds of searching the text), a Pathfinder Chronicle grants a +2 circumstance bonus on a specific ‹skill/Knowledge› check. Each Pathfinder Chronicle grants this bonus to a different type of Knowledge. Regardless of which type that particular chronicle is focused on, the cost of the book remains the same.",
 			"",
 			"### Specific Volumes",
 			"",
@@ -2830,7 +2855,11 @@
 			"‹SOURCE Goblins of Golarion/12›  ",
 			"::tabular{format=misc a=\"0.4\" b=1 d=food}",
 			"",
-			"Goblins pickle everything, and thus goblin pickles can be composed of almost anything. Their only shared characteristic is that they're mostly edible. At the GM's discretion, a non-goblin who eats a goblin pickle must make a DC 10 Fortitude save to avoid being ‹misc/sickened› for 1 hour. A single jar of goblin pickles provides a goblin enough nourishment for a day."
+			"Goblins pickle everything, and thus goblin pickles can be composed of almost anything. Their only shared characteristic is that they're mostly edible.",
+			"",
+			"@I-down At the GM's discretion, a non-goblin who eats a goblin pickle must make a DC 10 Fortitude save to avoid being ‹misc/sickened› for 1 hour.",
+			"",
+			"A single jar of goblin pickles provides a goblin enough nourishment for a day."
 		]
 	},
 	"pickles_goblin_one_jar": { "redirect": "pickles_goblin_1_jar" },
@@ -2845,7 +2874,7 @@
 			"‹SOURCE Ultimate Equipment/89;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=5 b=3 d=cloth}",
 			"",
-			"Outfitted with concealed pockets, this clothing gives you a +2 bonus when hiding small objects on your person.",
+			"@I-boost Outfitted with concealed pockets, this clothing gives you a +2 bonus when hiding small objects on your person.",
 			"",
 			"::msg-tearaway"
 		]
@@ -3466,7 +3495,9 @@
 			"‹SOURCE Heroes of the High Court/28;People of the Sands/29›  ",
 			"::tabular{format=misc a=40 b=x d=cloth}",
 			"",
-			"Whether made of sheer gauze or thicker material, a veil is useful for hiding one's facial expressions. While worn, a veil grants a +2 circumstance bonus on Bluff checks; however, the wearer treats all other creatures as having ‹rule/concealment›. The wearer has a 50% chance to avoid ‹umr/gaze› attacks, as if averting his eyes."
+			"Whether made of sheer gauze or thicker material, a veil is useful for hiding one's facial expressions.",
+			"",
+			"@I-boost-down-def While worn, a veil grants a +2 circumstance bonus on ‹skill/Bluff› checks; however, the wearer treats all other creatures as having ‹rule/concealment›. The wearer has a 50% chance to avoid ‹umr/gaze› attacks, as if averting his eyes."
 		]
 	},
 	"venom_trap": {
@@ -3632,7 +3663,9 @@
 			"‹SOURCE Ultimate Wilderness/245›  ",
 			"::tabular{format=misc a=50 b=2 d=cloth}",
 			"",
-			"These waterproof boots are felt lined and have a thin layer of metal around the soles. The top of each boot ends just before the knee, with a cord for tying the top shut over clothing or exposed skin. These boots assist in prolonged hikes through deep mud or shallow pools, granting the wearer a +1 circumstance bonus on Profession (fisher) checks while fishing in shallow water."
+			"These waterproof boots are felt lined and have a thin layer of metal around the soles. The top of each boot ends just before the knee, with a cord for tying the top shut over clothing or exposed skin.",
+			"",
+			"@I-boost These boots assist in prolonged hikes through deep mud or shallow pools, granting the wearer a +1 circumstance bonus on ‹skill/Profession› (fisher) checks while fishing in shallow water."
 		]
 	},
 	"waffle_iron_common": {
@@ -3733,7 +3766,7 @@
 			"‹SOURCE Ultimate Equipment/95;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"0.01\" b=\"0.5\" d=food}",
 			"",
-			"This tough, dried cake is a halfling invention made from flour, water, and spices. Wandermeal keeps for months without spoiling, travels well, and fills the belly. However, eating it for over a week without other nutrients requires the eater to make a daily Fortitude saving throw (DC 15 + 1 for each additional day) or be ‹misc/sickened›. The effect ends 1 day after more nutritious food is eaten. The listed price is for a day's worth of food."
+			"@I-warning This tough, dried cake is a halfling invention made from flour, water, and spices. Wandermeal keeps for months without spoiling, travels well, and fills the belly. However, eating it for over a week without other nutrients requires the eater to make a daily Fortitude saving throw (DC 15 + 1 for each additional day) or be ‹misc/sickened›. The effect ends 1 day after more nutritious food is eaten. The listed price is for a day's worth of food."
 		]
 	},
 	"war_spirit_pouch": {
@@ -3810,7 +3843,11 @@
 			"‹SOURCE Merchant's Manifest/4›  ",
 			"::tabular{format=misc a=400 b=2 d=food}",
 			"",
-			"A rare breed of wasp produces the honey used to make this spiced, mead-like drink. For 1 hour after consuming a glass of wasp metheglin (this takes 1 round), the drinker is quick to respond to harm, gaining a +1 alchemical bonus on attack rolls against any creature that has damaged her with an attack within the previous round. This bonus does not stack with itself. A typical bottle holds four glasses' worth of metheglin."
+			"A rare breed of wasp produces the honey used to make this spiced, mead-like drink.",
+			"",
+			"@I-boost For 1 hour after consuming a glass of wasp metheglin (this takes 1 round), the drinker is quick to respond to harm, gaining a +1 alchemical bonus on attack rolls against any creature that has damaged her with an attack within the previous round. This bonus does not stack with itself.",
+			"",
+			"A typical bottle holds four glasses' worth of metheglin."
 		]
 	},
 	"waspguts": {
@@ -4193,7 +4230,9 @@
 			"‹SOURCE Ultimate Equipment/95;PRPG Core Rulebook/159›  ",
 			"::tabular{format=misc a=\"2 sp (common, pitcher), 10 gp (fine, bottle)\" b=\"6 lbs. (common, pitcher), 1&frac12& lbs. (fine, bottle)\" c=x d=food}",
 			"",
-			"Wine is made from fermented fruit juice, usually grapes, but also sometimes berries, apples, or even rice (sake). The lower listed price is for unremarkable common wine and the higher is for significantly finer wine, though wine from certain vintners (and specific years) may fetch much higher prices. In colder climates, wine is often mulled with fruit, spices, honey, and almonds and served as a warming beverage during the winter."
+			"Wine is made from fermented fruit juice, usually grapes, but also sometimes berries, apples, or even rice (sake). The lower listed price is for unremarkable common wine and the higher is for significantly finer wine, though wine from certain vintners (and specific years) may fetch much higher prices.",
+			"",
+			"In colder climates, wine is often mulled with fruit, spices, honey, and almonds and served as a warming beverage during the winter."
 		]
 	},
 	"wine_fine_bottle": {
@@ -4210,7 +4249,13 @@
 			"‹SOURCE Advanced Race Guide/159›  ",
 			"::tabular{format=misc a=1200 b=1 d=cloth}",
 			"",
-			"This strange piece of equipment only works for ‹race/sylph«s› and similar creatures, whose light, airy bodies can be borne upon the winds. Looking like a fine silk traveler's cloak, a wing cloak is secretly reinforced with a series of wooden struts that, when locked into place, stretch the cloak's fabric into a rudimentary wing. Arranging the struts into a wing or reversing the change is a move action. When the cloak is shaped into a wing, the wearer can make a DC 15 Fly check to fall safely from any height without taking falling damage, as if using ‹spell/feather fall›. When falling, the wearer may make an additional DC 15 Fly check to glide, moving 5 feet laterally for every 20 feet she falls. Readying and using a wing cloak requires two hands and provokes an attack of opportunity. A wing cloak has hardness 0 and 5 hit points. If the wing cloak is broken, the Fly DCs to use it increase by +10."
+			"This strange piece of equipment only works for ‹race/sylph«s› and similar creatures, whose light, airy bodies can be borne upon the winds. Looking like a fine silk traveler's cloak, a wing cloak is secretly reinforced with a series of wooden struts that, when locked into place, stretch the cloak's fabric into a rudimentary wing.",
+			"",
+			"@I-power-def Arranging the struts into a wing or reversing the change is a @HL[move action]. When the cloak is shaped into a wing, the wearer can make a DC 15 ‹skill/Fly› check to ‹rule/fall› safely from any height without taking falling damage, as if using ‹spell/feather fall›.",
+			"",
+			"@I-power When falling, the wearer may make an additional DC 15 Fly check to glide, moving 5 feet laterally for every 20 feet she falls.",
+			"",
+			"Readying and using a wing cloak requires two hands and provokes an attack of opportunity. A wing cloak has ‹rule/hardness› 0 and 5 hit points. If the wing cloak is broken, the Fly DCs to use it increase by +10."
 		]
 	},
 	"wing_hobble": {
@@ -4422,7 +4467,11 @@
 			"‹SOURCE Monster Hunter's Handbook/27›  ",
 			"::tabular{format=misc a=20 b=6 d=cloth}",
 			"",
-			"Fine plates of articulated steel reinforce these elbow-length leather gloves, which are designed to allow animal handlers and animal hunters alike to confront beasts with natural defenses like spines and quills. While wearing the gloves, you gain DR 2/magic against attacks of opportunity provoked when you attempt a combat maneuver check to ‹rule/grapple› a creature. You also gain this damage reduction and a +1 circumstance bonus on Reflex saves against defensive abilities that deal damage when you strike a creature with a non-reach weapon, unarmed strike, or natural attack. The thick gloves restrict your movement, imposing a -2 penalty on precision-based skill checks that involve your hands (such as using Disable Device to pick a lock)"
+			"Fine plates of articulated steel reinforce these elbow-length leather gloves, which are designed to allow animal handlers and animal hunters alike to confront beasts with natural defenses like spines and quills.",
+			"",
+			"@I-def While wearing the gloves, you gain DR 2/magic against attacks of opportunity provoked when you attempt a combat maneuver check to ‹rule/grapple› a creature. You also gain this damage reduction and a +1 circumstance bonus on Reflex saves against defensive abilities that deal damage when you strike a creature with a non-reach weapon, unarmed strike, or natural attack.",
+			"",
+			"@I-down The thick gloves restrict your movement, imposing a -2 penalty on precision-based skill checks that involve your hands (such as using ‹skill/Disable Device› to pick a lock)"
 		]
 	},
 	"wrist_sheath_spring_loaded": {
@@ -4494,7 +4543,9 @@
 			"‹SOURCE Merchant's Manifest/27›  ",
 			"::tabular{format=misc a=1 b=x d=food}",
 			"",
-			"This bitter coffee cultivar increases the drinker's alertness to nearby threats. For 1 hour after drinking two cups of Yenchaburian hybrid coffee, you gain a +2 competence bonus on Perception checks to notice a creature that is using Stealth. You can benefit from yenchaburian hybrid coffee only once per day."
+			"This bitter coffee cultivar increases the drinker's alertness to nearby threats.",
+			"",
+			"@I-boost For 1 hour after drinking two cups of Yenchaburian hybrid coffee, you gain a +2 competence bonus on ‹skill/Perception› checks to notice a creature that is using Stealth. You can benefit from yenchaburian hybrid coffee only once per day."
 		]
 	},
 	"yogurt": {

@@ -50,7 +50,8 @@ const _filter_mask = {title: "Filter mask", jsx: <><h2 id="eq-misc-filter_mask-f
 const _filter_scarf = {title: "Filter scarf", jsx: <><h2 id="eq-misc-filter_scarf-filter-scarf">Filter scarf</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 243</Link>  </p>
 <Tabular format="misc" a="5" b="x" d="cloth" />
-<p>Made of heavy material, this scarf filters out dust, sand, smoke, and other airborne contaminants. When worn over your nose and mouth, this scarf grants you a +1 resistance bonus on saving throws against inhaled poisons and other airborne effects that require breathing.</p>
+<p>Made of heavy material, this scarf filters out dust, sand, smoke, and other airborne contaminants.</p>
+<p><Icons id="eq-misc-filter_scarf-def-icons" wrapper="prefixIcon" list={["def"]} /> When worn over your nose and mouth, this scarf grants you a +1 resistance bonus on saving throws against inhaled poisons and other airborne effects that require breathing.</p>
 </>};
 const _filter = {title: "Filter", jsx: <><h2 id="eq-misc-filter-filter">Filter</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 5</Link>  </p>
@@ -87,7 +88,9 @@ const _fire_ward_gel = {title: "Fire ward gel", jsx: <><h2 id="eq-misc-fire_ward
 const _fire_resistant_boots = {title: "Fire-resistant boots", jsx: <><h2 id="eq-misc-fire_resistant_boots-fire-resistant-boots">Fire-resistant boots</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>  </p>
 <Tabular format="misc" a="20" b="2" d="cloth" />
-<p>These heavy leather boots contain a layer of brick dust that protects your feet from heat. You gain fire resistance 2 against fire attacks directed at or under your feet, such as walking across hot coals. Repeat or prolonged exposure to fire damage eventually burns the outer leather of the boots, ruining them (typically after about 1d10+20 rounds of exposure).</p>
+<p>These heavy leather boots contain a layer of brick dust that protects your feet from heat.</p>
+<p><Icons id="eq-misc-fire_resistant_boots-def-icons" wrapper="prefixIcon" list={["def"]} /> You gain fire <Link to="/umr/resistance">resistance</Link> 2 against fire attacks directed at or under your feet, such as walking across hot coals.</p>
+<p>Repeat or prolonged exposure to fire damage eventually burns the outer leather of the boots, ruining them (typically after about 1d10+20 rounds of exposure).</p>
 </>};
 const _firearm_oil = {title: "Firearm oil", jsx: <><h2 id="eq-misc-firearm_oil-firearm-oil">Firearm oil</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes pg. 14</Link>  </p>
@@ -135,7 +138,8 @@ const _flag_ensign_or_courtesy_large = {title: "Flag (ensign or courtesy, large)
 const _flame_retardant_outfit = {title: "Flame-retardant outfit", jsx: <><h2 id="eq-misc-flame_retardant_outfit-flame-retardant-outfit">Flame-retardant outfit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 243</Link>  </p>
 <Tabular format="misc" a="50" b="10" d="cloth" />
-<p>Constructed to resist the effects of <Link to="/rule/heat_dangers">hot environments</Link> (such as forest fires and areas of volcanic activity), this set of overlapping, heavy leather clothing includes a pair of <Link to="/eq-misc/fire_resistant_boots">fire-resistant boots</Link>. The outfit grants fire resistance 1, but exposure to fire damage ruins the outfit after 20 rounds.</p>
+<p>Constructed to resist the effects of <Link to="/rule/heat_dangers">hot environments</Link> (such as forest fires and areas of volcanic activity), this set of overlapping, heavy leather clothing includes a pair of <Link to="/eq-misc/fire_resistant_boots">fire-resistant boots</Link>.</p>
+<p><Icons id="eq-misc-flame_retardant_outfit-def-icons" wrapper="prefixIcon" list={["def"]} /> The outfit grants fire resistance 1, but exposure to fire damage ruins the outfit after 20 rounds.</p>
 </>};
 const _flash_seeds = {title: "Flash seeds", jsx: <><h2 id="eq-misc-flash_seeds-flash-seeds">Flash seeds</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 236</Link>  </p>
@@ -327,7 +331,9 @@ const _fuel_pellet_10 = {title: "Fuel pellet (10)", jsx: <><h2 id="eq-misc-fuel_
 const _furs = {title: "Furs", jsx: <><h2 id="eq-misc-furs-furs">Furs</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="12" b="5" d="cloth" />
-<p>The most basic of cold-weather gear, animal furs serve to keep their wearers warm. Wearing enough fur to cover the body provides a +2 bonus on Fortitude saves to resist <Link to="/rule/cold">cold weather</Link>. This does not stack with any bonuses gained from the Survival skill. Furs may supplement another outfit.</p>
+<p>The most basic of cold-weather gear, animal furs serve to keep their wearers warm.</p>
+<p><Icons id="eq-misc-furs-def-icons" wrapper="prefixIcon" list={["def"]} /> Wearing enough fur to cover the body provides a +2 bonus on Fortitude saves to resist <Link to="/rule/cold">cold weather</Link>. This does not stack with any bonuses gained from the <Link to="/skill/survival">Survival</Link> skill.</p>
+<p>Furs may supplement another outfit.</p>
 </>};
 const _fury_drops = {title: "Fury drops", jsx: <><h2 id="eq-misc-fury_drops-fury-drops">Fury drops</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 13</Link>  </p>
@@ -393,7 +399,8 @@ const _gecko_riding = {title: "Gecko (riding)", jsx: <><h2 id="eq-misc-gecko_rid
 const _gecko_gloves = {title: "Gecko gloves", jsx: <><h2 id="eq-misc-gecko_gloves-gecko-gloves">Gecko gloves</h2>
 <p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook pg. 25</Link>  </p>
 <Tabular format="misc" a="300" b="1" d="cloth" />
-<p>The palms and fingers of these leather gloves are covered in small hair-like bristles, resembling those found on the feet of geckos, that aid you when climbing. Gecko gloves grant you a +1 circumstance bonus on Climb checks. They also enable you to climb with only one hand; doing so imposes a -5 penalty on your Climb checks.</p>
+<p>The palms and fingers of these leather gloves are covered in small hair-like bristles, resembling those found on the feet of geckos, that aid you when climbing.</p>
+<p><Icons id="eq-misc-gecko_gloves-boost-power-icons" wrapper="prefixIcon" list={["boost","power"]} /> Gecko gloves grant you a +1 circumstance bonus on <Link to="/skill/climb">Climb</Link> checks. They also enable you to climb with only one hand; doing so imposes a -5 penalty on your Climb checks.</p>
 </>};
 const _ghost_hunters_kit = {title: "Ghost hunter's kit", jsx: <><h2 id="eq-misc-ghost_hunters_kit-ghost-hunters-kit">Ghost hunter's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 13</Link>  </p>
@@ -453,7 +460,8 @@ const _glue_paper = {title: "Glue paper", jsx: <><h2 id="eq-misc-glue_paper-glue
 const _gnome_trail_rations = {title: "Gnome trail rations", jsx: <><h2 id="eq-misc-gnome_trail_rations-gnome-trail-rations">Gnome trail rations</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>  </p>
 <Tabular format="misc" a="2" b="1" d="food" />
-<p>Almost any preserved food can be found in gnome <Link to="/eq-misc/trail_rations">trail rations</Link>, which are designed to keep a wandering <Link to="/race/gnome">gnome</Link> from needing to dine on the same meal twice in a week. If you are a gnome who subsists on nothing but these rations for at least 1 week, you are treated as being 1 Hit Die higher for the purposes of spells and supernatural abilities that have variable effects based on Hit Dice, such as <Link to="/spell/color_spray">color spray</Link> and <Link to="/spell/sleep">sleep</Link>. This does not actually improve your caster level, character level, or Hit Dice in any other way. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.</p>
+<p>Almost any preserved food can be found in gnome <Link to="/eq-misc/trail_rations">trail rations</Link>, which are designed to keep a wandering <Link to="/race/gnome">gnome</Link> from needing to dine on the same meal twice in a week.</p>
+<p><Icons id="eq-misc-gnome_trail_rations-def-boost-icons" wrapper="prefixIcon" list={["def","boost"]} /> If you are a gnome who subsists on nothing but these rations for at least 1 week, you are treated as being 1 Hit Die higher for the purposes of spells and supernatural abilities that have variable effects based on Hit Dice, such as <Link to="/spell/color_spray">color spray</Link> and <Link to="/spell/sleep">sleep</Link>. This does not actually improve your caster level, character level, or Hit Dice in any other way. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.</p>
 </>};
 const _goat = {hasJL:true,title: "Goat", jsx: <><div className="jumpList" id="eq-misc-goat-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-goat-specific-mounts">Specific Mounts</InnerLink></li></ul></div><h2 id="eq-misc-goat-goat">Goat</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 93</Link>  </p>
@@ -550,7 +558,7 @@ const _gunsmiths_kit = {title: "Gunsmith's kit", jsx: <><h2 id="eq-misc-gunsmith
 const _haggis = {title: "Haggis", jsx: <><h2 id="eq-misc-haggis-haggis">Haggis</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>  </p>
 <Tabular format="misc" a="0.1" b="1.5" d="food" />
-<p>This dish is a meaty pudding made of sheep organs (mainly heart, liver, and lungs) minced with onion, oats, fat, spices, and salt, wrapped in a sheep stomach and slow-cooked. Though its ingredients discourage cautious eaters, fans of haggis consider it a hearty meal with a wonderful texture. It is usually served with turnips, potatoes, and whiskey.</p>
+<p>This dish is a meaty pudding made of sheep organs (mainly heart, liver, and lungs) minced with onion, oats, fat, spices, and salt, wrapped in a sheep stomach and slow-cooked. Though its ingredients discourage cautious eaters, fans of haggis consider it a hearty meal with a wonderful texture. It is usually served with turnips, potatoes, and <Link to="/eq-misc/whiskey">whiskey</Link>.</p>
 </>};
 const _half_orc_disguise_kit = {title: "Half-orc disguise kit", jsx: <><h2 id="eq-misc-half_orc_disguise_kit-half-orc-disguise-kit">Half-orc disguise kit</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 56</Link>  </p>
@@ -566,7 +574,8 @@ const _halfling_jugglesticks = {title: "Halfling jugglesticks", jsx: <><h2 id="e
 const _halfling_trail_rations = {title: "Halfling trail rations", jsx: <><h2 id="eq-misc-halfling_trail_rations-halfling-trail-rations">Halfling trail rations</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>  </p>
 <Tabular format="misc" a="2" b="0.5" d="food" />
-<p>A day's worth of <Link to="/race/halfling">halfling</Link> <Link to="/eq-misc/trail_rations">trail rations</Link> is actually more than what a typical adventuring halfling eats in a day - a full belly strengthens a halfling's resolve. Common foods include sweetened dried fruit, aged sausage, hard sharp cheese, honey cakes, and a mixture of roasted grains, nuts, and molasses. If you are a halfling who subsists on nothing but these rations for at least 1 week, you reduce the penalty for the <Link to="/misc/shaken">shaken</Link> condition from -2 to -1. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.</p>
+<p>A day's worth of <Link to="/race/halfling">halfling</Link> <Link to="/eq-misc/trail_rations">trail rations</Link> is actually more than what a typical adventuring halfling eats in a day - a full belly strengthens a halfling's resolve. Common foods include sweetened dried fruit, aged sausage, hard sharp cheese, honey cakes, and a mixture of roasted grains, nuts, and molasses.</p>
+<p><Icons id="eq-misc-halfling_trail_rations-boost-icons" wrapper="prefixIcon" list={["boost"]} /> If you are a halfling who subsists on nothing but these rations for at least 1 week, you reduce the penalty for the <Link to="/misc/shaken">shaken</Link> condition from -2 to -1. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.</p>
 </>};
 const _hallowed_chalice = {title: "Hallowed chalice", jsx: <><h2 id="eq-misc-hallowed_chalice-hallowed-chalice">Hallowed chalice</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 24</Link>  </p>
@@ -713,7 +722,8 @@ const _harrow_mat = {title: "Harrow mat", jsx: <><h2 id="eq-misc-harrow_mat-harr
 const _hat = {title: "Hat", jsx: <><h2 id="eq-misc-hat-hat">Hat</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 21</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="1 sp-50 gp" b="&frac12; lb.-2 lbs." c="x" d="cloth" />
-<p>Hats of various styles appear in all cultures. Ranging from the turban to the tricorne to the furred cap, a hat can be a simple covering for the head. Particular hats are sometimes mandatory for social or religious sects. A utilitarian hat such as a tricorne typically costs 2 sp.</p>
+<p>Hats of various styles appear in all cultures. Ranging from the turban to the tricorne to the furred cap, a hat can be a simple covering for the head. Particular hats are sometimes mandatory for social or religious sects.</p>
+<p>A utilitarian hat such as a tricorne typically costs 2 sp.</p>
 </>};
 const _haunt_detector = {title: "Haunt detector", jsx: <><h2 id="eq-misc-haunt_detector-haunt-detector">Haunt detector</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 12</Link>  </p>
@@ -738,7 +748,9 @@ const _healers_kit = {title: "Healer's kit", jsx: <><h2 id="eq-misc-healers_kit-
 const _heated_gloves = {title: "Heated gloves", jsx: <><h2 id="eq-misc-heated_gloves-heated-gloves">Heated gloves</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 13</Link>  </p>
 <Tabular format="misc" a="2" b="1" d="cloth" />
-<p>These thick, fur-lined gloves have several internal pockets containing segmented packets of alchemical reagents that produce heat for 4 hours when broken and mixed. The wearer can massage the gloves to activate these heat packets as a full-round action. While the heat packets last, the wearer ignores the Strength and Dexterity penalties from the <Link to="/misc/fatigued">fatigued</Link> condition when performing Climb, Disable Device, and Sleight of Hand checks. Replacement heat packets cost 1 gp, and the heat packets in the gloves can be replaced with 1 minute of uninterrupted work.</p>
+<p><Icons id="eq-misc-heated_gloves-power-icons" wrapper="prefixIcon" list={["power"]} /> These thick, fur-lined gloves have several internal pockets containing segmented packets of alchemical reagents that produce heat for 4 hours when broken and mixed. The wearer can massage the gloves to activate these heat packets as a <strong className="hl">full-round action</strong>.</p>
+<p><Icons id="eq-misc-heated_gloves-boost-icons" wrapper="prefixIcon" list={["boost"]} /> While the heat packets last, the wearer ignores the Strength and Dexterity penalties from the <Link to="/misc/fatigued">fatigued</Link> condition when performing <Link to="/skill/climb">Climb</Link>, <Link to="/skill/disable_device">Disable Device</Link>, and <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks.</p>
+<p>Replacement heat packets cost 1 gp, and the heat packets in the gloves can be replaced with 1 minute of uninterrupted work.</p>
 </>};
 const _heathensnuff = {title: "Heathensnuff", jsx: <><h2 id="eq-misc-heathensnuff-heathensnuff">Heathensnuff</h2>
 <p><strong>Sources</strong> <Link to="/source/cities_of_golarion">Cities of Golarion pg. 42</Link>  </p>
@@ -852,7 +864,8 @@ const _hollow_caltrops = {title: "Hollow caltrops", jsx: <><h2 id="eq-misc-hollo
 const _hollow_heeled_boot = {title: "Hollow-heeled boot", jsx: <><h2 id="eq-misc-hollow_heeled_boot-hollow-heeled-boot">Hollow-heeled boot</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 13</Link>  </p>
 <Tabular format="misc" a="10" b="1" d="cloth" />
-<p>This boot contains a hollow that grants a +4 bonus on Sleight of Hand checks to conceal items within the boot while wearing it. The hollow can hold up to 8 cubic inches. Putting on or removing the boot is a standard action, as is retrieving or storing an item from the hollow when the boot is in hand. Adding an item to or removing one from the boot while it is worn is a full-round action.</p>
+<p><Icons id="eq-misc-hollow_heeled_boot-def-icons" wrapper="prefixIcon" list={["def"]} /> This boot contains a hollow that grants a +4 bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks to conceal items within the boot while wearing it. The hollow can hold up to 8 cubic inches.</p>
+<p>Putting on or removing the boot is a <strong className="hl">standard action</strong>, as is retrieving or storing an item from the hollow when the boot is in hand. Adding an item to or removing one from the boot while it is worn is a <strong className="hl">full-round action</strong>.</p>
 </>};
 const _hollowed_pommel = {title: "Hollowed pommel", jsx: <><h2 id="eq-misc-hollowed_pommel-hollowed-pommel">Hollowed pommel</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -986,7 +999,8 @@ const _horseshoes_game = {title: "Horseshoes game", jsx: <><h2 id="eq-misc-horse
 const _hot_weather_outfit = {title: "Hot weather outfit", jsx: <><h2 id="eq-misc-hot_weather_outfit-hot-weather-outfit">Hot weather outfit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>  </p>
 <Tabular format="misc" a="8" b="4" d="cloth" />
-<p>Covering your body from head to foot in light, airy cloth keeps you cooler than baring your skin to the sun. This outfit typically consists of a loose linen robe and either a turban or loose head covering and veil. The outfit provides a +2 bonus on Fortitude saves to resist <Link to="/rule/heat_dangers">warm or hot weather</Link>. This does not stack with any bonuses gained from the Survival skill.</p>
+<p>Covering your body from head to foot in light, airy cloth keeps you cooler than baring your skin to the sun. This outfit typically consists of a loose linen robe and either a turban or loose head covering and veil.</p>
+<p><Icons id="eq-misc-hot_weather_outfit-def-icons" wrapper="prefixIcon" list={["def"]} /> The outfit provides a +2 bonus on Fortitude saves to resist <Link to="/rule/heat_dangers">warm or hot weather</Link>. This does not stack with any bonuses gained from the <Link to="/skill/survival">Survival</Link> skill.</p>
 <Message tearaway />
 </>};
 const _hounds_blood_vial = {title: "Hound's blood (vial)", jsx: <><h2 id="eq-misc-hounds_blood_vial-hounds-blood-vial">Hound's blood (vial)</h2>
@@ -1046,7 +1060,9 @@ const _ice_cream = {title: "Ice cream", jsx: <><h2 id="eq-misc-ice_cream-ice-cre
 const _ice_skates = {title: "Ice skates", jsx: <><h2 id="eq-misc-ice_skates-ice-skates">Ice skates</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>  </p>
 <Tabular format="misc" a="1" b="2" d="cloth" />
-<p>Each of these calf-high boots bears a vertical blade on the bottom, allowing you to travel swiftly on ice. Wearing ice skates allows you to move on ice at normal speed with a successful DC 5 Acrobatics check (including running and charging), but your movement is reduced to half speed on all other terrain. Donning or removing an ice skate is a full-round action. Skating with only one is possible, but the DC of the Acrobatics check rises to 15.</p>
+<p>Each of these calf-high boots bears a vertical blade on the bottom, allowing you to travel swiftly on ice.</p>
+<p><Icons id="eq-misc-ice_skates-power-down-icons" wrapper="prefixIcon" list={["power","down"]} /> Wearing ice skates allows you to move on ice at normal speed with a successful DC 5 <Link to="/skill/acrobatics">Acrobatics</Link> check (including running and charging), but your movement is reduced to half speed on all other terrain.</p>
+<p>Donning or removing an ice skate is a <strong className="hl">full-round action</strong>. Skating with only one is possible, but the DC of the Acrobatics check rises to 15.</p>
 <p>Also see: <Link to="/eq-misc/skates">skates</Link>.</p>
 </>};
 const _icecap_ale = {title: "Icecap ale", jsx: <><h2 id="eq-misc-icecap_ale-icecap-ale">Icecap ale</h2>
@@ -1138,7 +1154,7 @@ const _inquisitors_kit = {title: "Inquisitor's kit", jsx: <><h2 id="eq-misc-inqu
 const _inside_pocket = {title: "Inside pocket", jsx: <><h2 id="eq-misc-inside_pocket-inside-pocket">Inside pocket</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 243</Link>  </p>
 <Tabular format="misc" a="4" b="x" d="cloth" />
-<p>This is an extra pocket sewn on the inside of a piece of clothing. You gain a +2 circumstance bonus on Sleight of Hand checks to conceal an item in an inside pocket. Detecting the compartment requires a successful DC 15 Perception check at minimum (DC 20 if empty), even if you aren't trained in Sleight of Hand.</p>
+<p><Icons id="eq-misc-inside_pocket-def-icons" wrapper="prefixIcon" list={["def"]} /> This is an extra pocket sewn on the inside of a piece of clothing. You gain a +2 circumstance bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks to conceal an item in an inside pocket. Detecting the compartment requires a successful DC 15 <Link to="/skill/perception">Perception</Link> check at minimum (DC 20 if empty), even if you aren't trained in Sleight of Hand.</p>
 <p>The inside pocket is 1 inch deep. Different styles open from the top or from the side, and some have button flaps to secure the contents.</p>
 </>};
 const _insight_leaves = {title: "Insight leaves", jsx: <><h2 id="eq-misc-insight_leaves-insight-leaves">Insight leaves</h2>
@@ -1292,7 +1308,8 @@ const _kahve_cup = {title: "Kahve (cup)", jsx: <><h2 id="eq-misc-kahve_cup-kahve
 const _karazhica = {title: "Karazhica", jsx: <><h2 id="eq-misc-karazhica-karazhica">Karazhica</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 27</Link>  </p>
 <Tabular format="misc" a="1" b="x" d="food" />
-<p>The gold standard of coffee in Ular Kel, Karazhica is notable for its acidity and smooth flavor. By drinking two cups of Karazhica coffee, you can walk for an additional hour before you must make a forced march. This additional hour counts as an hour of marching beyond the maximum for the purpose of determining the DC of Constitution checks for a subsequent forced march. You can benefit from Karazhica coffee only once per day.</p>
+<p>The gold standard of coffee in Ular Kel, Karazhica is notable for its acidity and smooth flavor.</p>
+<p><Icons id="eq-misc-karazhica-boost-icons" wrapper="prefixIcon" list={["boost"]} /> By drinking two cups of Karazhica coffee, you can walk for an additional hour before you must make a forced march. This additional hour counts as an hour of marching beyond the maximum for the purpose of determining the DC of Constitution checks for a subsequent forced march. You can benefit from Karazhica coffee only once per day.</p>
 </>};
 const _keelboat = {title: "Keelboat", jsx: <><h2 id="eq-misc-keelboat-keelboat">Keelboat</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
@@ -1472,13 +1489,14 @@ const _liron_treyes_journal = {title: "Liron Treye's Journal", jsx: <><h2 id="eq
 const _liskens_medicinal_tonic_cup = {title: "Lisken's medicinal tonic (cup)", jsx: <><h2 id="eq-misc-liskens_medicinal_tonic_cup-liskens-medicinal-tonic">Lisken's Medicinal Tonic</h2>
 <p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion pg. 10</Link>  </p>
 <Tabular format="misc" a="10 gp/cup" b="&mdash;" c="x" d="food" />
-<p>Non-halflings do not receive any bonus from this drink. This mild sedative is normally used to treat insomnia, making the drinker reluctant to take hasty actions but adept at remaining still or silent. One cup of the tonic gives a <Link to="/race/halfling">halfling</Link> a -4 penalty on initiative checks for 10 minutes and a +2 alchemical bonus on Stealth checks for that time.</p>
+<p>Non-halflings do not receive any bonus from this drink. This mild sedative is normally used to treat insomnia, making the drinker reluctant to take hasty actions but adept at remaining still or silent.</p>
+<p><Icons id="eq-misc-liskens_medicinal_tonic_cup-down-def-icons" wrapper="prefixIcon" list={["down","def"]} /> One cup of the tonic gives a <Link to="/race/halfling">halfling</Link> a -4 penalty on initiative checks for 10 minutes and a +2 alchemical bonus on <Link to="/skill/stealth">Stealth</Link> checks for that time.</p>
 </>};
 const _litchina = {title: "Litchina", jsx: <><h2 id="eq-misc-litchina-litchina">Litchina</h2>
 <p><strong>Sources</strong> <Link to="/source/distant_shores">Distant Shores pg. 63</Link>  </p>
 <Tabular format="misc" a="100" b="2" d="cloth" />
 <p>Though Taramai is long dead, and that first Keleshite invasion now little more than scattered stone foundations crumbling amid the grass, his legacy remains a point of great cultural pride among the Kara, with several leaders since having claimed to be his reincarnation. Taramai also pioneered the now-standard Kara practice of wearing the litchina - a metal face mask sculpted to match a given warrior's face, so that the enemy can never read any fear or pain in a Kara's expression. Each warrior must earn his or her litchina in battle, and most Kara would sooner fight naked than go without theirs.</p>
-<p>To be worn properly, a litchina must be attached to a helm or headpiece of some sort (usually via small hooks). While worn in this manner, it grants the wearer a +1 competence bonus to Intimidate. A magically enhanced litchina can count as occupying either the head, headband, or eyes slot (determined at the time of item creation). A standard litchina costs 100 gp and weighs 2 pounds.</p>
+<p><Icons id="eq-misc-litchina-boost-icons" wrapper="prefixIcon" list={["boost"]} /> To be worn properly, a litchina must be attached to a helm or headpiece of some sort (usually via small hooks). While worn in this manner, it grants the wearer a +1 competence bonus to <Link to="/skill/intimidate">Intimidate</Link>. A magically enhanced litchina can count as occupying either the head, headband, or eyes slot (determined at the time of item creation). A standard litchina costs 100 gp and weighs 2 pounds.</p>
 </>};
 const _litmus_strip = {title: "Litmus strip", jsx: <><h2 id="eq-misc-litmus_strip-litmus-strip">Litmus strip</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 26</Link>  </p>
@@ -1517,12 +1535,14 @@ const _lodestone_boots = {title: "Lodestone boots", jsx: <><h2 id="eq-misc-lodes
 <p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook pg. 25</Link>  </p>
 <Tabular format="misc" a="60" b="4" d="cloth" />
 <p>The soles of these tough boots include lodestones that have been augmented through alchemical processes to be very strong. While climbing a rope, you can pinch the rope between the boots to prevent yourself from falling; you can release the boots' grip by carefully twisting them apart. The boots also stick to steel, iron, and other magnetizable surfaces.</p>
-<p>You gain a +4 circumstance bonus on your Climb checks while using the boots' magnetism to help you climb a rope or magnetic surface. While standing on a magnetic surface, the boots grant you a +4 circumstance bonus on Strength checks and Fortitude saving throws to avoid being blown away by winds. Leaving a square when the boots are attached to a magnetic surface requires an additional 5 feet of movement, as your overland speed is effectively reduced in exchange for the boots' assistance in climbing.</p>
+<p><Icons id="eq-misc-lodestone_boots-boost-icons" wrapper="prefixIcon" list={["boost"]} /> You gain a +4 circumstance bonus on your <Link to="/skill/climb">Climb</Link> checks while using the boots' magnetism to help you climb a rope or magnetic surface.</p>
+<p><Icons id="eq-misc-lodestone_boots-boost-def-down-icons" wrapper="prefixIcon" list={["boost","def","down"]} /> While standing on a magnetic surface, the boots grant you a +4 circumstance bonus on Strength checks and Fortitude saving throws to avoid being blown away by winds. Leaving a square when the boots are attached to a magnetic surface requires an additional 5 feet of movement, as your overland speed is effectively reduced in exchange for the boots' assistance in climbing.</p>
 </>};
 const _long_gloves = {title: "Long gloves", jsx: <><h2 id="eq-misc-long_gloves-long-gloves">Long gloves</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 28</Link>  </p>
 <Tabular format="misc" a="15" b="x" d="cloth" />
-<p>These full-length gloves of layered silk are popular among Kalistocrats and others who disdain physical contact. The wearer gains a +4 circumstance bonus on saving throws against contact poisons on objects he touches.</p>
+<p>These full-length gloves of layered silk are popular among Kalistocrats and others who disdain physical contact.</p>
+<p><Icons id="eq-misc-long_gloves-def-icons" wrapper="prefixIcon" list={["def"]} /> The wearer gains a +4 circumstance bonus on saving throws against contact poisons on objects he touches.</p>
 </>};
 const _longbeard_lambic = {title: "Longbeard lambic", jsx: <><h2 id="eq-misc-longbeard_lambic-longbeard-lambic">Longbeard lambic</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 13</Link>  </p>
@@ -1538,7 +1558,7 @@ const _longship = {title: "Longship", jsx: <><h2 id="eq-misc-longship-longship">
 const _lonoma_eel = {title: "Lonoma eel", jsx: <><h2 id="eq-misc-lonoma_eel-lonoma-eel">Lonoma eel</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 6</Link>  </p>
 <Tabular format="misc" a="1" b="0.5" d="food" />
-<p>Every spring, the waters south of Iblydos fill with the newly hatched young of the archipelago's immense lonoma eels, which fishermen harvest and brine to preserve for year-round consumption. Traditionally consumed as sailors' meals before long voyages to regain one's sea legs, lonoma eel grants a +2 competence bonus on <Link to="/rule/concentration">concentration</Link> checks required for vigorous or violent motion for 8 hours.</p>
+<p><Icons id="eq-misc-lonoma_eel-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Every spring, the waters south of Iblydos fill with the newly hatched young of the archipelago's immense lonoma eels, which fishermen harvest and brine to preserve for year-round consumption. Traditionally consumed as sailors' meals before long voyages to regain one's sea legs, lonoma eel grants a +2 competence bonus on <Link to="/rule/concentration">concentration</Link> checks required for vigorous or violent motion for 8 hours.</p>
 <p>The price listed is for a single serving of lonoma eel.</p>
 </>};
 const _loping_ointment = {title: "Loping ointment", jsx: <><h2 id="eq-misc-loping_ointment-loping-ointment">Loping ointment</h2>
@@ -1563,8 +1583,9 @@ const _love_in_idleness = {title: "Love-In-Idleness", jsx: <><h2 id="eq-misc-lov
 </>};
 const _lovers_breath = {title: "Lover's breath", jsx: <><h2 id="eq-misc-lovers_breath-lovers-breath">Lover's breath</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 28</Link>  </p>
-<Tabular format="misc" a="200" b="x" d="cloth" />
-<p>This alchemical perfume is distilled from a blend of humanoid pheromones and fey sweat. When applied as a full-round action, it grants the wearer a +2 circumstance bonus on all Charisma checks and Charisma-based skill checks for 1 hour. During this time, the wearer takes a -2 penalty on saving throws against charm and fascination effects originating from fey.</p>
+<Tabular format="misc" a="200" b="x" d="atools" />
+<p>This alchemical perfume is distilled from a blend of humanoid pheromones and fey sweat.</p>
+<p><Icons id="eq-misc-lovers_breath-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> When applied as a <strong className="hl">full-round action</strong>, it grants the wearer a +2 circumstance bonus on all Charisma checks and Charisma-based skill checks for 1 hour. During this time, the wearer takes a -2 penalty on saving throws against charm and fascination effects originating from fey.</p>
 <p>Long-term use of lover's breath eventually results in physical changes, causing the user to vaguely resemble a fey creature such as a <Link to="/monster/nymph">nymph</Link> or <Link to="/monster/dryad">dryad</Link>, although these changes are only cosmetic.</p>
 </>};
 const _loyalty_transfusion = {title: "Loyalty transfusion", jsx: <><h2 id="eq-misc-loyalty_transfusion-loyalty-transfusion">Loyalty transfusion</h2>
@@ -1582,7 +1603,8 @@ const _lozenge_of_the_songbird = {title: "Lozenge of the songbird", jsx: <><h2 i
 const _luglurch_ale_gallon = {title: "Luglurch ale (gallon)", jsx: <><h2 id="eq-misc-luglurch_ale_gallon-luglurch-ale">Luglurch Ale</h2>
 <p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion pg. 10</Link>  </p>
 <Tabular format="misc" a="1 gp/gallon, 4 sp/mug" b="&mdash;" c="x" d="food" />
-<p>Non-halflings do not receive any bonus from this drink. Most races find this pale and frothy beer too salty to swallow, but halflings simply consider it an acquired taste. Drinking three or more cups of Luglurch in a 1-minute span gives a halfling a -2 penalty on Perception checks and a +1 bonus on Reflex saves and Acrobatics checks for 10 minutes.</p>
+<p>Non-halflings do not receive any bonus from this drink. Most races find this pale and frothy beer too salty to swallow, but halflings simply consider it an acquired taste.</p>
+<p><Icons id="eq-misc-luglurch_ale_gallon-down-def-boost-icons" wrapper="prefixIcon" list={["down","def","boost"]} /> Drinking three or more cups of Luglurch in a 1-minute span gives a halfling a -2 penalty on Perception checks and a +1 bonus on Reflex saves and Acrobatics checks for 10 minutes.</p>
 </>};
 const _lure_fake_area_map = {hasJL:true,title: "Lure (fake area map)", jsx: <><div className="jumpList" id="eq-misc-lure_fake_area_map-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-lure_fake_area_map-fake-area-map">Fake Area Map</InnerLink></li><li><InnerLink toTop to="eq-misc-lure_fake_area_map-fake-coins">Fake Coins</InnerLink></li></ul></div><h2 id="eq-misc-lure_fake_area_map-lure">Lure</h2>
 <p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion pg. 28</Link>  </p>
@@ -1747,7 +1769,7 @@ const _mead_gallon = {title: "Mead (gallon)", jsx: <><h2 id="eq-misc-mead_gallon
 const _meal_common_per_day = {title: "Meal (common, per day)", jsx: <><h2 id="eq-misc-meal_common_per_day-meal">Meal</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
 <Tabular format="misc" a="3 sp (common, per day), 5 sp (good, per day), 1 sp (poor, per day)" b="&mdash;" c="x" d="food" />
-<p>The listed price is for a day's worth of meals. Poor meals might consist of bread, baked turnips, onions, and water. Common meals might consist of bread, chicken stew, carrots, and watered-down ale or wine. Good meals might consist of bread and pastries, beef, peas, and ale or wine.</p>
+<p>The listed price is for a day's worth of meals. Poor meals might consist of <Link to="/eq-misc/bread">bread</Link>, baked turnips, onions, and water. Common meals might consist of bread, chicken stew, carrots, and watered-down <Link to="/eq-misc/ale_mug">ale</Link> or <Link to="/eq-misc/wine">wine</Link>. Good meals might consist of bread and pastries, beef, peas, and ale or wine.</p>
 </>};
 const _measuring_cord_10_ft = {title: "Measuring cord, 10 ft.", jsx: <><h2 id="eq-misc-measuring_cord_10_ft-measuring-cord-10-ft">Measuring cord, 10 ft.</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 48</Link>  </p>
@@ -1785,7 +1807,9 @@ const _meels = {title: "Meels", jsx: <><h2 id="eq-misc-meels-meels">Meels</h2>
 const _mekainae = {title: "Mekainae", jsx: <><h2 id="eq-misc-mekainae-mekainae">Mekainae</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 6</Link>  </p>
 <Tabular format="misc" a="5" b="x" d="food" />
-<p>Honey collectors harvest the immense combs created by the giant bees in the foothills of Pol-Ptirmeios. Local confectioners ferment this honey for several weeks before mixing it with flour and spices and cutting it into chewy cubes. Once reserved for hero-gods to enhance their longevity, mekainae is now served as a rare treat on important anniversaries and birthdays. Eating a serving of mekainae limits the reduction in a creature's current and total hit points to only 3 for each negative level it has (instead of the normal 5-point reduction in current and total hit points); other penalties imposed by negative levels remain unchanged Additionally, you gain a +1 resistance bonus on saving throws to remove negative levels. Both effects last 24 hours. The price listed is for a single serving of mekainae.</p>
+<p>Honey collectors harvest the immense combs created by the giant bees in the foothills of Pol-Ptirmeios. Local confectioners ferment this honey for several weeks before mixing it with flour and spices and cutting it into chewy cubes.</p>
+<p><Icons id="eq-misc-mekainae-aid-def-icons" wrapper="prefixIcon" list={["aid","def"]} /> Once reserved for hero-gods to enhance their longevity, mekainae is now served as a rare treat on important anniversaries and birthdays. Eating a serving of mekainae limits the reduction in a creature's current and total hit points to only 3 for each negative level it has (instead of the normal 5-point reduction in current and total hit points); other penalties imposed by negative levels remain unchanged Additionally, you gain a +1 resistance bonus on saving throws to remove negative levels. Both effects last 24 hours.</p>
+<p>The price listed is for a single serving of mekainae.</p>
 </>};
 const _melee_contingency_kit = {title: "Melee contingency kit", jsx: <><h2 id="eq-misc-melee_contingency_kit-melee-contingency-kit">Melee contingency kit</h2>
 <p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 20</Link>  </p>
@@ -1851,7 +1875,10 @@ const _messenger_per_mile = {title: "Messenger (per mile)", jsx: <><h2 id="eq-mi
 const _metal_glove = {title: "Metal glove", jsx: <><h2 id="eq-misc-metal_glove-metal-glove">Metal glove</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 24</Link>  </p>
 <Tabular format="misc" a="120" b="10" d="cloth" />
-<p>This thick iron gauntlet is more an encasing than a piece of armor. It has only a few moving joints, and the position of its fingers and wrist must be adjusted and locked into place before the wielder can properly slip it over her arm. When wearing a metal glove, it is impossible to manipulate one's digits (meaning the wearer cannot hold anything in that hand), but that hand and forearm are completely protected from injury, making it easy to reach into a trapped hole or a deadly animal's cage. Any trap or creature attempting to damage an arm wearing a metal glove must break through the glove before reaching the wearer. Heavy objects that would normally crush the wearer's hand rest harmlessly on the glove instead, likely trapping the item but allowing her to pull her hand out as normal. A metal glove has hardness 10 and 15 hit points, and can withstand 2,000 pounds of pressure before crumpling. It does not protect the wearer from injury to other parts of her body.</p>
+<p>This thick iron gauntlet is more an encasing than a piece of armor. It has only a few moving joints, and the position of its fingers and wrist must be adjusted and locked into place before the wielder can properly slip it over her arm.</p>
+<p>When wearing a metal glove, it is impossible to manipulate one's digits (meaning the wearer cannot hold anything in that hand), but that hand and forearm are completely protected from injury, making it easy to reach into a trapped hole or a deadly animal's cage.</p>
+<p><Icons id="eq-misc-metal_glove-def-icons" wrapper="prefixIcon" list={["def"]} /> Any trap or creature attempting to damage an arm wearing a metal glove must break through the glove before reaching the wearer. Heavy objects that would normally crush the wearer's hand rest harmlessly on the glove instead, likely trapping the item but allowing her to pull her hand out as normal.</p>
+<p>A metal glove has <Link to="/rule/hardness">hardness</Link> 10 and 15 hit points, and can withstand 2,000 pounds of pressure before crumpling. It does not protect the wearer from injury to other parts of her body.</p>
 </>};
 const _midwifes_kit = {title: "Midwife's kit", jsx: <><h2 id="eq-misc-midwifes_kit-midwifes-kit">Midwife's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>  </p>
