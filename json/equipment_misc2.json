@@ -45,7 +45,7 @@
 		"description": [
 			"## Fiendgore unguent",
 			"‹SOURCE Advanced Race Guide/172›  ",
-			"::tabular{format=misc a=75 b=1 d=atools}",
+			"::tabular{format=misc a=75 b=1 d=atool}",
 			"",
 			"When this unguent - prepared with vile alchemical reagents and the gore of fiends - is applied to a wounded tiefling or evil outsider (not currently at maximum hit points), it momentarily transforms the essence of the target into something even more fearsome and demonic. While under the effects of a fiendgore unguent, a tiefling or an evil outsider gains a +2 circumstance bonus on Intimidate checks and a +1 circumstance bonus to the DC of all spells with the fear descriptor that they cast. Applying the unguent is a delicate process, requiring a full-round action, and can only be properly applied to a willing or helpless creature. If applied to a creature other than a tiefling or an evil outsider, it ‹misc/sicken«s› the creature instead. The unguent's effects (either beneficial or harmful) last for 1 minute.",
 			"",
@@ -115,7 +115,7 @@
 		"description": [
 			"## Filter",
 			"‹SOURCE Alchemy Manual/5›  ",
-			"::tabular{format=misc a=\"0.5\" b=\"0.5\" d=atools}",
+			"::tabular{format=misc a=\"0.5\" b=\"0.5\" d=atool}",
 			"",
 			"A specialized paper filter is used in alchemy because it can be adjusted to capture different substances according to the type of reagents used to prime it. Alchemical filters are single-use only."
 		]
@@ -148,7 +148,7 @@
 		"description": [
 			"## Fire ink",
 			"‹SOURCE Advanced Race Guide/129›  ",
-			"::tabular{format=misc a=1 b=x d=atools}",
+			"::tabular{format=misc a=1 b=x d=atool}",
 			"",
 			"This rich yellow ink reacts with a creature's body heat to create a flickering, flame-like glow. It takes 10 minutes to apply fire ink, and 1 dose covers an approximately hand-sized area. Once applied, the ink glows as a ‹eq-misc/candle› for 24 hours. Four or more doses applied to the same part of the body glow as a ‹eq-misc/torch› for 24 hours. The alchemical reaction of the ink to the target's skin and body heat is painful and irritating, giving the target the ‹misc/sickened› condition while the glow lasts. A DC 15 Heal check can temporarily soothe these sensations, negating the sickened condition for 1 hour. Creatures immune or resistant to fire are immune to this sickening effect. ‹race/Ifrit«s› are especially known for their fondness for fire ink, and ifrit fire-dancers often decorate their skin with flaming designs before performing. A concentrated version of the ink costs 10 times as much and can be used to make permanently glowing tattoos.",
 			"",
@@ -200,7 +200,7 @@
 		"description": [
 			"## Firearm oil",
 			"‹SOURCE People of the Wastes/14›  ",
-			"::tabular{format=misc a=260 b=1 d=atools}",
+			"::tabular{format=misc a=260 b=1 d=atool}",
 			"",
 			"This clear, viscous oil comes in a squat bottle with a dropper that dispenses one drop of oil at a time. When applied to an early or advanced firearm, it seeps into the weapon's inner workings and protects the gun from powder residue and everyday wear and tear. Applying firearm oil takes 1 minute; once applied, it reduces the misfire value of the firearm by 1 for 1 hour or until the firearm is discharged. Firearm oil can't reduce a firearm's misfire value to lower than 1. A single bottle contains enough oil for 20 applications on one-handed firearms (or 10 applications on two-handed firearms). Crafting firearm oil requires a successful DC 15 Craft (alchemy) check.",
 			"",
@@ -213,7 +213,7 @@
 		"description": [
 			"## Fireskin elixir",
 			"‹SOURCE Blood of the Elements/27›  ",
-			"::tabular{format=misc a=100 b=x d=atools}",
+			"::tabular{format=misc a=100 b=x d=atool}",
 			"",
 			"This elixir turns its imbiber fiery red, making it easier to pass as an ‹monster/efreeti›. Unscrupulous efreet can sell fireskin elixir to guests who have been barred from citizen-only districts and must rely on disguises. Fireskin is [highly addictive](drug/fireskin_elixir). Many once-savvy merchants have fallen into destitution as they scrambled to maintain efreet favor and secure a steady supply of the drug.",
 			"",
@@ -337,7 +337,7 @@
 		"description": [
 			"## Flash seeds",
 			"‹SOURCE Ultimate Intrigue/236›  ",
-			"::tabular{format=misc a=35 b=\"0.5\" d=atools}",
+			"::tabular{format=misc a=35 b=\"0.5\" d=atool}",
 			"",
 			"These alchemical beads function as ‹eq-misc/sentry seeds›, but are also filled with an alchemical gas that explodes on contact with the air. This explosion is louder and flashier than the pop of normal sentry seeds (Perception DC 0). Creatures within 5 feet of the beads when they break must succeed at a DC 11 Fortitude save or be ‹misc/blinded› for 1 round.",
 			"",
@@ -459,7 +459,7 @@
 		"description": [
 			"## Foaming powder",
 			"‹SOURCE Ultimate Equipment/103›  ",
-			"::tabular{format=misc a=10 b=1 d=atools}",
+			"::tabular{format=misc a=10 b=1 d=atool}",
 			"",
 			"When you add this 1-pound bag of green powder to a gallon of water, the two combine to form 50 cubic feet of thick green foam. Unless contained, in 1 round the foam fills a 5-foot-square to a depth of 2 feet. When multiple pounds of powder are used, the foam expands at a rate of one 5-foot square per round. Ground covered with the foam is treated as ‹rule/difficult terrain›, but is otherwise harmless. After 1 hour, the foam hardens to form a buoyant material roughly the density of honeycomb. The cured foam is easy to cut, with hardness 0 and 5 hit points per foot of thickness. The cured foam breaks down over a few days, and even faster if exposed to water. Casting ‹spell/transmute mud to rock› on uncured foam converts it into a soft, pumice-like stone (hardness 2, 5 hit points per inch of thickness).",
 			"",
@@ -472,7 +472,7 @@
 		"description": [
 			"## Focus chew",
 			"‹SOURCE Heroes of the Darklands/28›  ",
-			"::tabular{format=misc a=40 b=x d=atools}",
+			"::tabular{format=misc a=40 b=x d=atool}",
 			"",
 			"When chewed, this spongy gum releases mild stimulants that heighten your focus. Derros use focus chew in an effort to improve their experiments, though spellcasters from other Darklands cultures have adopted their recipe for use in research. For up to 1 hour while chewing focus chew, you gain a +2 alchemical bonus on ‹rule/concentration› checks and a +1 alchemical bonus on Intelligence-based skill checks."
 		]
@@ -533,7 +533,7 @@
 		"description": [
 			"## Fool's glow",
 			"‹SOURCE Pathfinder #106: For Queen and Empire/75›  ",
-			"::tabular{format=misc a=45 b=1 d=atools}",
+			"::tabular{format=misc a=45 b=1 d=atool}",
 			"",
 			"A greasy paste of beeswax, pyrite, and various monster fluids, fool's glow reacts with light to confuse magical senses. For 12 hours after being smeared over an object or creature (a process requiring 1 minute), the fool's glow detects as faintly magical if examined with a ‹spell/detect magic› or ‹spell/arcane sight› spell, though no school or specific spell can be identified. With a successful DC 21 Craft (alchemy) or Spellcraft check, a character identifies the coating for what it is. A single jar of fool's glow can coat one Medium, two Small, or four Tiny or smaller objects. Crafting a jar of fool's glow requires a successful DC 20 Craft (alchemy) check.",
 			"",
@@ -724,7 +724,7 @@
 		"description": [
 			"## Frightful war paint",
 			"‹SOURCE Alchemy Manual/7›  ",
-			"::tabular{format=misc a=300 b=1 d=atools}",
+			"::tabular{format=misc a=300 b=1 d=atool}",
 			"",
 			"This bone-white paste makes your face appear skeletal and emotionless, like a visage of death itself. When you apply frightful war paint to yourself (or to a willing adjacent creature) as a full-round action, attempt a Disguise or Charisma check. Living creatures within 30 feet of the wearer must succeed at a Will save (DC equal to the result of your Disguise or Charisma check, maximum DC 20) or become ‹misc/shaken› for 1d4 rounds. Blind creatures and creatures out of line of sight are unaffected. A creature that succeeds at its check becomes immune to this frightful war paint for 24 hours. Frightful war paint can be worn indefinitely, but it contains quicksilver and realgar, which have deleterious mental effects. If you wear frightful war paint for more than 1 minute per day (whether as a single use of it or as multiple uses over several periods of time), you take 1 point of ‹rule/Constitution damage›, plus 1 point of Wisdom damage for every minute you wear the paint that day after the first.",
 			"",
@@ -773,7 +773,7 @@
 		"description": [
 			"## Fuel pellet (10)",
 			"‹SOURCE People of the Sands/28›  ",
-			"::tabular{format=misc a=\"0.3\" b=x d=atools}",
+			"::tabular{format=misc a=\"0.3\" b=x d=atool}",
 			"",
 			"Small nuggets of compressed fibers, resins, and dung, fuel pellets give off very little smoke when burned. Each pellet burns for 10 minutes, providing enough heat to boil water, and can be lit as a move action.",
 			"",
@@ -884,7 +884,7 @@
 		"description": [
 			"## Garlic tablets",
 			"‹SOURCE Undead Slayer's Handbook/9›  ",
-			"::tabular{format=misc a=20 b=\"0.5\" d=atools}",
+			"::tabular{format=misc a=20 b=\"0.5\" d=atool}",
 			"",
 			"These small gray-white tablets are made of dehydrated and condensed garlic bulbs. One hour after you eat a garlic tablet, you begin to stink as the essence of the tablet seeps out of your pores. This state lasts for 4 hours. Subsequent doses of garlic tablets reset this duration. During this time, you can keep a ‹template/vampire› at bay as a free action without need of a holy symbol or mirror. The vampire must succeed at a DC 25 Will save to overcome its natural revulsion to garlic; failure means it must stay at least 5 feet away from you and cannot touch you or make melee attacks against you. However, unlike while keeping a vampire at bay with a mirror or holy symbol, once the vampire succeeds at its save against the garlic tablets, it's no longer affected by that creature's odor and may act normally without need of further saving throws.",
 			"",
@@ -990,7 +990,7 @@
 		"description": [
 			"## Ghost ink",
 			"‹SOURCE Adventurer's Armory 2/24;Seekers of Secrets/43›  ",
-			"::tabular{format=misc a=25 b=x d=atools}",
+			"::tabular{format=misc a=25 b=x d=atool}",
 			"",
 			"Pale blue when wet, ghost ink dries to near-transparency 1 minute after application. Ghost ink is used to subtly mark trails and locations. The pigment glows red under the light shed by ‹monster/fire beetle› glands and ‹eq-misc/sunrod«s›; otherwise, a successful DC 25 Perception check is required to notice a mark in ghost ink. One vial of ghost ink is sufficient for writing a page's worth of characters.",
 			"",
@@ -1053,7 +1053,7 @@
 		"description": [
 			"## Gloom sight goggles",
 			"‹SOURCE Advanced Race Guide/111›  ",
-			"::tabular{format=misc a=200 b=x d=atools}",
+			"::tabular{format=misc a=200 b=x d=atool}",
 			"",
 			"These nonmagical goggles are set with a piece of alchemically treated, black, obsidian-like stone found in the mountainous regions of the Shadow Plane. Gloom sight goggles interact with the unique eyes of ‹race/fetchling«s› in such a way that when the goggles are worn over both eyes, they expand the range of a fetchling's darkvision to 90 feet, but the fetchling also gains the ‹umr/light sensitivity› weakness. Other races cannot see through the lenses of these goggles, and they have no affect on fetchlings whose eyes have been modified by the ‹feat/Gloom Sight› feat. Though they are alchemical rather than magical in nature, these goggles take up the magic item eye slot.",
 			"",
@@ -1066,7 +1066,7 @@
 		"description": [
 			"## Gloomstick",
 			"‹SOURCE Adventurer's Armory 2/24›  ",
-			"::tabular{format=misc a=25 b=1 d=atools}",
+			"::tabular{format=misc a=25 b=1 d=atool}",
 			"",
 			"This variant ‹eq-misc/sunrod› was developed by ‹race/fetchling› ‹class/alchemist«s›. When twisted as a standard action, a gloomstick begins drawing in light from the surrounding area, reducing the ‹rule/light level› by one step (to a minimum of dim light) in a 20-foot radius. A gloomstick remains active for 1 minute before crumbling to dust.",
 			"",
@@ -1082,7 +1082,7 @@
 		"description": [
 			"## Glowing ink",
 			"‹SOURCE Ultimate Equipment/103;Adventurer's Armory/19›  ",
-			"::tabular{format=misc a=5 b=x d=atools}",
+			"::tabular{format=misc a=5 b=x d=atool}",
 			"",
 			"Often extracted from phosphorescent insects, tiny marine plants, or subterranean fungi, glowing ink emits a faint but steady light (typically red or green) that allows you to read it in normal darkness - this includes darkness created by spells like ‹spell/darkness›, but not the supernatural darkness created by ‹spell/deeper darkness›. If there is glowing ink on an object, you have a +2 bonus on Perception checks to locate it. Mixing glowing ink with ‹eq-misc/marker dye› makes the dye glow in the dark until it fades.",
 			"",
@@ -1173,7 +1173,7 @@
 		"description": [
 			"## Golden maple leaves",
 			"‹SOURCE Advanced Race Guide/46›  ",
-			"::tabular{format=misc a=50 b=\"0.5\" d=atools}",
+			"::tabular{format=misc a=50 b=\"0.5\" d=atool}",
 			"",
 			"These potent additives can only be culled from a rare maple tree known to grow exclusively in urban areas. These small, elaborately twisting trees are extremely slow to grow and mature - the leaves reach maturity only once every 3 years - and they are almost always grown and cultivated by half-elves. Additionally, half-elves are keenly aware of the effort put into the leaves' growth and normally only sell the products of their labors to others of their kind. When the golden maple's delicate, five-pointed leaves finally take on their namesake's color, they can be cut, dried, and then ground into a fine powder, a process that requires a DC 15 Knowledge (nature) or Profession (herbalist) check. When used in conjunction with the Craft (alchemy) skill to create special substances and items like alchemical grease or tanglefoot bags, golden maple leaves reduce the Craft DC by 5 and add +1 to the DC of any save required by the alchemical item. A single dose of golden maple leaf powder is sufficient to augment the crafting of three alchemical items."
 		]
@@ -1240,7 +1240,7 @@
 		"description": [
 			"## Gravelly tonic",
 			"‹SOURCE Advanced Class Guide/207›  ",
-			"::tabular{format=misc a=50 b=x d=atools}",
+			"::tabular{format=misc a=50 b=x d=atool}",
 			"",
 			"This tonic is sludgy, and its scent resembles the tang of iron shavings. Drinking gravelly tonic causes your voice to deepen and become more grating for 1 hour, granting you a +5 alchemical bonus on Intimidate checks.",
 			"",
@@ -1316,7 +1316,7 @@
 		"description": [
 			"## Gum rope",
 			"‹SOURCE Giant Hunter's Handbook/25›  ",
-			"::tabular{format=misc a=30 b=1 d=atools}",
+			"::tabular{format=misc a=30 b=1 d=atool}",
 			"",
 			"This small tacky blue pellet is deceptively dense. When the pellet is broken, an alchemical reaction causes it to grow suddenly into a 30-foot-long spongy rope as strong as a normal hemp rope. It dissolves 8 hours thereafter.",
 			"",
@@ -1493,7 +1493,7 @@
 		"description": [
 			"## Harpy musk",
 			"‹SOURCE Varisia, Birthplace of Legends/15;Mythical Monsters Revisited/24;Rise of the Runelords Player's Guide/11›  ",
-			"::tabular{format=misc a=20 b=1 d=atools}",
+			"::tabular{format=misc a=20 b=1 d=atool}",
 			"",
 			"For all their cowardice and cruelty, goblins have a keen sense of what can kill them, and harpies number among goblins' most feared predators. Using this knowledge to their advantage, Varisian alchemists have devised ways to recreate or distill the musk of harpies into a potent concoction. If smeared on a surface or used as a thrown weapon, harpy musk fills a 30-foot area for 10 minutes before dispersing. Any goblin who enters the area must succeed at a DC 14 Will save or be ‹misc/shaken› for 1 minute. Harpy musk affect only goblins - bugbears and hobgoblins are unaffected. Harpy musk can be created with a successful DC 20 Craft (alchemy) check.",
 			"",
@@ -1885,7 +1885,7 @@
 		"description": [
 			"## Hobgoblin war draught",
 			"‹SOURCE Advanced Race Guide/123›  ",
-			"::tabular{format=misc a=10 b=1 d=atools}",
+			"::tabular{format=misc a=10 b=1 d=atool}",
 			"",
 			"**Craft DC** 15 for hobgoblins.",
 			"",
@@ -2129,7 +2129,7 @@
 		"description": [
 			"## Homunculus clay",
 			"‹SOURCE Alchemy Manual/15›  ",
-			"::tabular{format=misc a=2250 b=5 d=atools}",
+			"::tabular{format=misc a=2250 b=5 d=atool}",
 			"",
 			"This thick clay mixture comes in a jar stamped with a silhouette of whatever creature can be created using its contents. By adding a drop of blood to a scoop of homunculus clay, you can create a temporary ‹monster/homunculus› that hardens and becomes fully animate in just 1 round. The character whose blood is used is treated as the homunculus's master. After 1 hour, a clay homunculus withers and dies, rapidly decaying into a viscous slime. The listed price is for a jar containing 3 doses of homunculus clay.",
 			"",
@@ -2377,7 +2377,7 @@
 		"description": [
 			"## Hound's blood (vial)",
 			"‹SOURCE Advanced Race Guide/36›  ",
-			"::tabular{format=misc a=110 b=x d=atools}",
+			"::tabular{format=misc a=110 b=x d=atool}",
 			"",
 			"If you apply the thick, red paste known as hound's blood to your nostrils or upper lip, it greatly enhances your sense of smell. For most creatures, this grants a +2 alchemical bonus on Perception checks for 1 hour. For gnomes, it briefly grants a super-heightened sense of smell, granting the ‹umr/scent› ability for 5 minutes, before the potency is reduced to a +2 alchemical bonus on Perception checks for an additional 1 hour.",
 			"",
@@ -2390,7 +2390,7 @@
 		"description": [
 			"## Houndbane dust",
 			"‹SOURCE Pathfinder #106: For Queen and Empire/75›  ",
-			"::tabular{format=misc a=75 b=3 d=atools}",
+			"::tabular{format=misc a=75 b=3 d=atool}",
 			"",
 			"A blend of finely ground plaster, burning spices, and insect secretions, houndbane dust deters tracking animals. A single pouch can be spread over a 5-foot area as a standard action. For 24 hours thereafter, any creature with the ‹umr/scent› ability that enters that square takes 1d2 points of damage and loses its sense of smell for 24 hours. Creatures that succeed at a DC 15 Fortitude saving throw take no damage and lose their sense of smell for only 3d6 minutes. Crafting a pouch of houndbane dust requires a successful DC 25 Craft (alchemy) check.",
 			"",
@@ -2547,7 +2547,7 @@
 		"description": [
 			"## Ifrit's blood",
 			"‹SOURCE Advanced Race Guide/129›  ",
-			"::tabular{format=misc a=50 b=1 d=atools}",
+			"::tabular{format=misc a=50 b=1 d=atool}",
 			"",
 			"‹race/Ifrit› ‹class/alchemist«s› claim to make this thick red oil from their own blood - hence the morbid name - but this claim is almost certainly false. Ifrit's blood ignites upon contact with air, but burns slowly and is unsuitable for use as a splash weapon. A creature can apply a flask of ifrit's blood to a weapon as a standard action, wreathing the weapon in vibrant red flames for 1 minute. The oil deals 1 point of fire damage on each successful attack with the weapon and deals 1 point of fire damage to the weapon itself, bypassing the weapon's hardness if any part of it is made of wood. If the oil is applied to a creature's natural weapons or unarmed strikes, the creature takes 1 point of fire damage each round (though its fire immunity or resistance still applies).",
 			"",
@@ -2560,7 +2560,7 @@
 		"description": [
 			"## Impact foam",
 			"‹SOURCE Ultimate Equipment/103›  ",
-			"::tabular{format=misc a=25 b=1 d=atools}",
+			"::tabular{format=misc a=25 b=1 d=atool}",
 			"",
 			"This milky white liquid bubbles into a 1-foot-thick semi-solid sheet of foam when splashed across the ground. You can spend a minute to apply a flask of impact foam to a 10-foot-radius area, or you can throw the flask as a splash weapon. The foam does not interfere with movement, but reacts strongly to sudden force. A creature that falls onto a sheet of impact foam ignores the first 1d6 points of falling damage and converts the second 1d6 points of falling damage into nonlethal damage. A sheet of impact foam dissolves after 10 minutes or when exposed to at least a gallon of water.",
 			"",
@@ -2586,7 +2586,7 @@
 		"description": [
 			"## Imposing war paint",
 			"‹SOURCE Alchemy Manual/7›  ",
-			"::tabular{format=misc a=70 b=\"0.5\" d=atools}",
+			"::tabular{format=misc a=70 b=\"0.5\" d=atool}",
 			"",
 			"This gritty red paste makes you appear as if you were covered in dried blood. When you apply imposing war paint as a full-round action, you gain a +4 alchemical bonus on Intimidate checks and the duration of any fear effects you create increases by 50% as long as you wear the war paint. Unfortunately, imposing war paint is made with realgar, which is toxic to living creatures. If you wear imposing war paint for more than 1 minute per day, you take 1 point of ‹rule/Constitution damage›, plus 1 point of Constitution damage for every minute you wear the paint that day after the first.",
 			"",
@@ -2600,7 +2600,7 @@
 		"description": [
 			"## Incense of divinity",
 			"‹SOURCE Alchemy Manual/27›  ",
-			"::tabular{format=misc a=200 b=\"0.5\" d=atools}",
+			"::tabular{format=misc a=200 b=\"0.5\" d=atool}",
 			"",
 			"@HL[Mythic:] If you are a mythic divine spellcaster and burn this incense while preparing spells, you can expend two uses of mythic power to prepare any one spell as a mythic spell (but not as an augmented mythic spell), even if you're normally unable to cast the mythic version of that spell. Incense of divinity burns for 1 hour; you can prepare as many mythic spells as you are able to during this time, but you must expend two uses of mythic power for each mythic spell so prepared.",
 			"",
@@ -2654,7 +2654,7 @@
 		"description": [
 			"## Ink of stolen secrets",
 			"‹SOURCE Antihero's Handbook/28›  ",
-			"::tabular{format=misc a=50 b=1 d=atools}",
+			"::tabular{format=misc a=50 b=1 d=atool}",
 			"",
 			"This alchemically concocted black ink can be attuned to a standard sheet of parchment. Anything inscribed using the ink (anywhere on the same plane of existence) appears on the attuned parchment in a sparkling blue script that lasts 1 hour. There is enough ink in one vial to fill one sheet of parchment. The ink cannot duplicate any written magical effects, such as a ‹spell/symbol of death› (as per the spell of the same name). Crafting a vial of ink of stolen secrets requires a successful DC 15 Craft (alchemy) check."
 		]
@@ -2794,7 +2794,7 @@
 		"description": [
 			"## Instant fertilizer",
 			"‹SOURCE Alchemy Manual/11›  ",
-			"::tabular{format=misc a=20 b=4 d=atools}",
+			"::tabular{format=misc a=20 b=4 d=atool}",
 			"",
 			"This ruby-red earth can be sprinkled over a 5-foot patch of ground as a standard action that provokes attacks of opportunity. Non-creature plants and fungi in the area grow with alarming speed, and the ground becomes weedy, ‹rule/difficult terrain› for non-plant creatures. Any non-plant creature in the square must succeed at a DC 15 Reflex save or it becomes ‹rule/entangled› by the surging plants. Any plant creature in the affected square is healed of 1d6 points of damage.",
 			"",
@@ -2843,7 +2843,7 @@
 		"description": [
 			"## Intuition serum",
 			"‹SOURCE Ultimate Intrigue/236›  ",
-			"::tabular{format=misc a=190 b=x d=atools}",
+			"::tabular{format=misc a=190 b=x d=atool}",
 			"",
 			"By drinking this clear, fizzy liquid, you gain 1d4 uses of ‹misc/alchemical inspiration› that can be used only on Sense Motive checks. The benefits of intuition serum last for 1 hour; during this time, you must roll all Bluff checks twice and take the worse result.",
 			"",
@@ -2886,25 +2886,25 @@
 			"",
 			"::h3[Simple]{jl}",
 			"",
-			"::tabular{format=misc id=simple a=2 b=\"&mdash&\" d=atools}",
+			"::tabular{format=misc id=simple a=2 b=\"&mdash&\" c=x d=atool}",
 			"",
 			"This ink is keyed to a single, fairly common trigger, such as heat or vinegar (DC 20 to reveal without the trigger).",
 			"",
 			"::h3[Average]{jl}",
 			"",
-			"::tabular{format=misc id=average a=10 b=\"&mdash&\" d=atools}",
+			"::tabular{format=misc id=average a=10 b=\"&mdash&\" c=x d=atool}",
 			"",
 			"This ink is keyed to either two common triggers or one uncommon trigger, such as blood or acid (DC 25 to reveal without the trigger).",
 			"",
 			"::h3[Good]{jl}",
 			"",
-			"::tabular{format=misc id=good a=25 b=\"&mdash&\" d=atools}",
+			"::tabular{format=misc id=good a=25 b=\"&mdash&\" c=x d=atool}",
 			"",
 			"This ink is keyed to either two uncommon triggers or one rare trigger, such as a specific vintage of wine or a specific kind of monster's blood (DC 30 to reveal without the trigger).",
 			"",
 			"::h3[Superior]{jl}",
 			"",
-			"::tabular{format=misc id=superior a=75 b=\"&mdash&\" d=atools}",
+			"::tabular{format=misc id=superior a=75 b=\"&mdash&\" c=x d=atool}",
 			"",
 			"This ink is keyed to either two rare triggers or one unique trigger, such as the blood of a specific person (DC 35 to reveal without the trigger).",
 			"",
@@ -3131,7 +3131,7 @@
 		"description": [
 			"## Kaava musk",
 			"‹SOURCE Sargava, the Lost Colony/24;Adventurer's Armory/19›  ",
-			"::tabular{format=misc a=40 b=\"0.5\" d=atools}",
+			"::tabular{format=misc a=40 b=\"0.5\" d=atool}",
 			"",
 			"This emerald-colored adhesive is made from animal glands, urine, and other powerful scents that are difficult to wash off. A target splashed with it smells like weak prey to predators. Creatures with the ‹umr/scent› ability can detect a marked creature at five times the normal range, note its direction as a free action, pinpoint it when it is within 25 feet, and track it by scent with a +5 bonus on their Survival checks. Immersion in water within 1 round of exposure washes the musk off; otherwise the effect decreases by 1 range increment per day (four times normal range after 1 day, three times normal range after 2 days, and so on) until the creature is again at normal scent levels. One dose of Kaava musk costs 40 gp and weighs &frac12& lb.; the Craft (alchemy) DC to create Kaava musk is 20.",
 			"",
@@ -3431,7 +3431,7 @@
 		"description": [
 			"## Light detector",
 			"‹SOURCE Ultimate Equipment/103;Advanced Player's Guide/184›  ",
-			"::tabular{format=misc a=1 b=x d=atools}",
+			"::tabular{format=misc a=1 b=x d=atool}",
 			"",
 			"This hand-sized metal plate is covered with a thin layer of light-sensitive transparent paste. If exposed to light, the paste darkens and becomes opaque, depending on the amount of light. Bright light causes it to fully darken in 1 round, normal light in 3 rounds, and ‹rule/dim light› in 10 rounds. It is mainly used by creatures with darkvision to determine whether creatures carrying light have recently passed through an area. The plate is sold wrapped in a thick black cloth to prevent accidental light exposure from ruining the plate.",
 			"",
@@ -3444,7 +3444,7 @@
 		"description": [
 			"## Light fire ink",
 			"‹SOURCE Advanced Class Guide/207›  ",
-			"::tabular{format=misc a=40 b=x d=atools}",
+			"::tabular{format=misc a=40 b=x d=atool}",
 			"",
 			"This alchemically infused ink ensures secret messages destroy themselves after being read. If light strikes the ink after it has dried, chemicals cause it to spontaneously combust within about a minute. The combustion is small - not significant enough to ignite anything but paper. Ink used on other materials such as stone or wood simply vanishes, leaving no trace of the writing. A vial of this ink holds enough to write 10 brief messages of no more than 50 words each.",
 			"",
@@ -3468,7 +3468,7 @@
 		"description": [
 			"## Light of Axtarr",
 			"‹SOURCE Elemental Master's Handbook/31›  ",
-			"::tabular{format=misc a=180 b=\"0.5\" d=atools}",
+			"::tabular{format=misc a=180 b=\"0.5\" d=atool}",
 			"",
 			"Originally brewed from waters adjacent to one of the Plane of Water's subaquatic suns, a vial of light of Axtarr glows like a ‹eq-misc/candle› until expended. A vial of light of Axtarr that is emptied underwater as a move action forms a small orb that sheds light like a ‹eq-misc/sunrod› for 1d6 hours, after which the item is expended. Such an underwater orb remains suspended in place, not sinking, floating, or drifting away unless moved by a creature. Above water, shaking a vial of light of Axtarr as a move action also makes it shed light like a sunrod for 1d6 hours, after which it is expended. Any area of normal light created by light of Axtarr protects creatures within it from cold temperatures as per ‹spell/endure elements›. Alternatively, a spellcaster holding an unused vial of light of Axtarr can expend it as a free action to automatically succeed at a caster level check to cast a fire spell underwater. (Fire spells successfully cast underwater produce steam that still deals fire damage.) This alternative use does not cause the light of Axtarr to produce light. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
 			"",
@@ -3481,7 +3481,7 @@
 		"description": [
 			"## Light-killer's grease",
 			"‹SOURCE Monster Codex/33›  ",
-			"::tabular{format=misc a=25 b=x d=atools}",
+			"::tabular{format=misc a=25 b=x d=atool}",
 			"",
 			"Keenly aware of their vulnerability to light and to those who wield it as a weapon, the drow have pioneered many ways to defend themselves against light-magic or otherwise. Light-killer's grease is a pungent, oily alchemical substance harvested from underground fungus and mixed with powdered minerals common in the deep earth.",
 			"",
@@ -3517,7 +3517,7 @@
 		"description": [
 			"## Liniment",
 			"‹SOURCE Ultimate Wilderness/246›  ",
-			"::tabular{format=misc a=15 b=x d=atools}",
+			"::tabular{format=misc a=15 b=x d=atool}",
 			"",
 			"This lotion is made from soothing herbs and oils. When rubbed on your skin, liniment relieves pain, allowing you to ignore the effects of 2 points of ability damage caused by a single disease you have. The benefits of the liniment last for 30 minutes, and it does not cure, prevent, or otherwise protect you from the effects of diseases. You cannot benefit from the effects of liniment more than once in a 24-hour period."
 		]
@@ -3530,7 +3530,7 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"5 cp/mug\" b=\"&frac12& lb.\" c=x d=food}",
 			"",
-			"The favorite drink of the Ulfen, this honey mead has traveled with them into the southern lands. It is sweet and strong and, according to Ulfen bards, is an indisputable aid to singing."
+			"The favorite drink of the Ulfen, this honey ‹eq-misc/mead<_mug› has traveled with them into the southern lands. It is sweet and strong and, according to Ulfen bards, is an indisputable aid to singing."
 		]
 	},
 	"liquid_breeze": {
@@ -3565,7 +3565,7 @@
 		"description": [
 			"## Liquid traction",
 			"‹SOURCE Advanced Class Guide/207›  ",
-			"::tabular{format=misc a=25 b=1 d=atools}",
+			"::tabular{format=misc a=25 b=1 d=atool}",
 			"",
 			"This glass bottle is filled with sticky goo prized by sailors for the additional traction it grants on ship decks. When applied to the soles of footwear and allowed to dry for 1 hour, liquid traction grants a +2 alchemical bonus on Acrobatics checks to keep your balance and a +2 bonus to CMD against ‹rule/bull rush›. Liquid traction has no effect when it comes into contact with very slick or unnaturally slick surfaces such as ice or grease.",
 			"",
@@ -3620,7 +3620,7 @@
 		"description": [
 			"## Litmus strip",
 			"‹SOURCE Dungeoneer's Handbook/26›  ",
-			"::tabular{format=misc a=15 b=x d=atools}",
+			"::tabular{format=misc a=15 b=x d=atool}",
 			"",
 			"This white paper strip treated with dyes extracted from common lichen is used to quickly test the composition of any water-based solution. The user dips the end of the strip in the liquid and waits 1 round for the chemical reaction to change the color of the strip. If the strip turns purple, then the water contains poisonous toxins and must be purified before consumption. The darker purple the strip turns, the more toxic the substance. If the strip remains white, the solution is poison-free. Though it's not useful for testing oils, slimes, or gases, a strip can be invaluable in determining whether a water source or beverage is tainted.",
 			"",
@@ -3852,7 +3852,7 @@
 		"description": [
 			"## Lover's breath",
 			"‹SOURCE Heroes of the High Court/28›  ",
-			"::tabular{format=misc a=200 b=x d=atools}",
+			"::tabular{format=misc a=200 b=x d=atool}",
 			"",
 			"This alchemical perfume is distilled from a blend of humanoid pheromones and fey sweat.",
 			"",
@@ -3881,7 +3881,7 @@
 		"description": [
 			"## Lozenge of the songbird",
 			"‹SOURCE Advanced Class Guide/207›  ",
-			"::tabular{format=misc a=50 b=x d=atools}",
+			"::tabular{format=misc a=50 b=x d=atool}",
 			"",
 			"This honey-coated candy is made of soothing reagents. If eaten, it takes 1 round to begin working, then grants a +2 alchemical bonus on all Perform (sing) checks for 1 hour.",
 			"",
@@ -3965,7 +3965,7 @@
 		"description": [
 			"## Magnetized paper",
 			"‹SOURCE Occult Adventures/252›  ",
-			"::tabular{format=misc a=11 b=1 d=atools}",
+			"::tabular{format=misc a=11 b=1 d=atool}",
 			"",
 			"These specially charged pieces of parchment come in small packages containing seven sheets. Psychically attuned to the specific magnetic fluids a living creature needs to part the ethereal veil, these sheets add a 5% bonus to the chance of creating meaningful writing for the ‹skill/automatic writing› occult skill unlock. This use consumes one sheet of the paper, and only one sheet can be used per attempt.",
 			"",
@@ -4208,7 +4208,7 @@
 		"description": [
 			"## Marker dye",
 			"‹SOURCE Ultimate Equipment/103;Adventurer's Armory/19;Pathfinder Campaign Setting/213›  ",
-			"::tabular{format=misc a=15 b=1 d=atools}",
+			"::tabular{format=misc a=15 b=1 d=atool}",
 			"",
 			"This dye (available in several colors) creates an obvious stain wherever it is splashed. Washing has no effect for the first 72 hours (though magic can erase it), but it fades completely after 2 weeks. You can throw it as a ‹rule/splash weapon›.",
 			"",
@@ -4251,19 +4251,19 @@
 			"",
 			"### Animal",
 			"",
-			"::tabular{format=misc id=anim a=25 b=x d=atools}",
+			"::tabular{format=misc id=anim a=25 b=x d=atool}",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20",
 			"",
 			"### Humanoid",
 			"",
-			"::tabular{format=misc id=hum a=50 b=x d=atools}",
+			"::tabular{format=misc id=hum a=50 b=x d=atool}",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25",
 			"",
 			"### Magical Beast",
 			"",
-			"::tabular{format=misc id=mb a=100 b=x d=atools}",
+			"::tabular{format=misc id=mb a=100 b=x d=atool}",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -4337,7 +4337,7 @@
 			"‹SOURCE Ultimate Equipment/95›  ",
 			"::tabular{format=misc a=\"2 gp (gallon), 5 cp (mug)\" b=\"8 lbs. (gallon), &frac12& lb. (mug)\" c=x d=food}",
 			"",
-			"This alcoholic beverage is made by fermenting honey and water. It may be flavored with spices, fruit, or hops."
+			"This alcoholic beverage is made by fermenting ‹eq-misc/honey<_jar› and water. It may be flavored with spices, fruit, or hops."
 		]
 	},
 	"mead_mug": {
@@ -4392,7 +4392,7 @@
 			"",
 			"This is a chunk of meat big enough to be a meal. In most temperate locations, it is meat from a fish (or other seafood), pig (bacon, ham, or pork), sheep (lamb or mutton), chicken, quail, duck, goose, goat (chevon), rabbit, deer (venison), cow (beef), or horse. In other climates and cultures it may instead be meat from a moose, seal, whale, walrus, caribou, reindeer, dog, cat, alpaca, snake, rat, guinea pig, lizard, frog, or insect.",
 			"",
-			"Inns with frequent adventurer clientele may have more exotic meats on the menu such as the meat of basilisks, dinosaurs, dire animals, giant scorpions, girallons, hydras, or shocker lizards, costing anywhere from 1-100 gp per meal depending on the danger and rarity of the creature."
+			"Inns with frequent adventurer clientele may have more exotic meats on the menu such as the meat of ‹monster/basilisk«s›, ‹family/dinosaur«s›, ‹family/dire« animals›, ‹monster/giant scorpion«s›, ‹monster/girallon«s›, ‹monster/hydra«s›, or ‹monster/shocker lizard«s›, costing anywhere from 1-100 gp per meal depending on the danger and rarity of the creature."
 		]
 	},
 	"meditation_crystal": {
@@ -4512,7 +4512,7 @@
 		"description": [
 			"## Mending paste",
 			"‹SOURCE Ultimate Equipment/103›  ",
-			"::tabular{format=misc a=25 b=\"0.5\" d=atools}",
+			"::tabular{format=misc a=25 b=\"0.5\" d=atool}",
 			"",
 			"You can use this smelly, silvery paste to temporarily repair metal objects. It is sold in a sealed flask and reacts with air, turning solid in 1d6+4 minutes. You must make an appropriate DC 20 Craft check to repair a metal item with the ‹misc/broken› condition; success means the object loses the broken condition but gains the ‹misc/fragile› condition. Increase the DC by +5 if the broken object is a magic item or by +5 if it is a firearm (add both modifiers if the item is a magical firearm). If the check fails, the mending paste is consumed but you may try again with another flask or conventional repair methods.",
 			"",
@@ -4653,7 +4653,7 @@
 		"description": [
 			"## Mimic fibers",
 			"‹SOURCE Alchemy Manual/11›  ",
-			"::tabular{format=misc a=30 b=x d=atools}",
+			"::tabular{format=misc a=30 b=x d=atool}",
 			"",
 			"These alchemically prepared fungal spores are suspended in a thick green ichor. They grow in patterns that match any plant or fungal material they touch, even dead wood, causing any cuts or breaks in the matter to mend as if it had never been damaged. When applied as a full-round action, mimic fibers heal 1d10+10 points of damage to one object made of wood, paper, earth, or other living or once-living material. Even a destroyed item can be repaired (treat as if at 0 hit points) as long as the item is in no more than two pieces and is held together at the break as the spores are applied.",
 			"",
@@ -4730,7 +4730,7 @@
 		"description": [
 			"## Minkaian ceremonial tea",
 			"‹SOURCE Adventurer's Armory 2/28›  ",
-			"::tabular{format=misc a=900 b=x d=atools}",
+			"::tabular{format=misc a=900 b=x d=atool}",
 			"",
 			"This tea is extremely rare and expensive, requiring several years to grow and prepare. A ‹arc-bard/geisha› bard who uses this tea as part of her tea ceremony to inspire courage increases the bonuses granted by 1. A ‹arc-bard/lotus geisha› bard who drinks this tea increases the bonus granted by her enrapturing performance ability by 1; this effect lasts for 24 hours.",
 			"",
@@ -4847,7 +4847,7 @@
 		"description": [
 			"## Mithralbane sap",
 			"‹SOURCE Dirty Tactics Toolbox/21›  ",
-			"::tabular{format=misc a=50 b=1 d=atools}",
+			"::tabular{format=misc a=50 b=1 d=atool}",
 			"",
 			"This black alchemical concoction reacts when it comes into contact with metal, rapidly expanding into a sticky, inflexible substance that temporarily renders armor more difficult to use. When the sap is smeared onto metal armor or thrown at a creature wearing metal armor (as a ranged touch attack with a range increment of 10 feet), that armor is considered one category heavier for the purposes of movement (heavy armor is still treated as heavy). This increase does not apply to proficiency in wearing the armor. Additionally, the arcane spell failure chance of armor affected by mithralbane sap increases by 10%, its maximum Dexterity bonus decreases by 2 (to a minimum of 0), and its armor check penalty increases by 3. These effects last for 1 minute, after which the grease hardens and crumbles away. Armor that's not primarily made of metal and metal items such as weapons and shields are not meaningfully affected by mithralbane sap. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 			"",
@@ -4950,7 +4950,7 @@
 		"description": [
 			"## Monochrome Camouflage",
 			"‹SOURCE Heroes of the Darklands/28›  ",
-			"::tabular{format=misc a=40 b=1 d=atools}",
+			"::tabular{format=misc a=40 b=1 d=atool}",
 			"",
 			"This slimy gray unguent distorts wavelengths of light beyond of the normal visual spectrum, causing you to appear blurry to creatures using darkvision. Applying the camouflage takes 1 minute and provides a +4 alchemical bonus on Stealth checks against creatures relying on darkvision to see. One dose of monochrome camouflage lasts for 1 hour."
 		]

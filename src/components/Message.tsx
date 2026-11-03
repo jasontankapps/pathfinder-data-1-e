@@ -47,9 +47,9 @@ const Message: FC<MessageProps> = (props) => {
 	} else if (tearaway) {
 		return (<>
 			<h3>Tear-Away Clothing</h3>
-			<p><Link to="/source/ultimate_equipment">Ultimate Equipment</Link> pg. 89; <Link to="/source/adventurers_armory">Adventurer's Armory</Link> pg. 19</p>
+			<p><b>Sources</b> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>; <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link></p>
 			<Tabular format="misc" a={5} b={0} c="M" d="cloth" />
-			<p>Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is generally loose fitting and allows another layer of clothing to be worn underneath. The seams on this clothing are designed to break easily, making it a simple matter (a @HL[standard action]) to remove these items and walk away with none the wiser. Any outfit can be crafted as tear-away clothing for an additional price.</p>
+			<p>Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is generally loose fitting and allows another layer of clothing to be worn underneath. The seams on this clothing are designed to break easily, making it a simple matter (a <strong className="hl">standard action</strong>) to remove these items and walk away with none the wiser. Any outfit can be crafted as tear-away clothing for an additional price.</p>
 		</>);
 	}
 	return (

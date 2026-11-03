@@ -186,7 +186,7 @@
 		"description": [
 			"## Deep breath",
 			"‹SOURCE Heroes of the Darklands/28›  ",
-			"::tabular{format=misc a=100 b=1 d=atools}",
+			"::tabular{format=misc a=100 b=1 d=atool}",
 			"",
 			"Darklands explorers who frequently run afoul of ‹monster/troglodyte«s›, pockets of natural gas, and toxic fumes from magma flows use this dense flask to ease their breathing. You can open the flask as a standard action or throw it as a splash weapon. When opened or broken, the flask releases a burst of cleansing, breathable air in a 10-foot-radius ‹misc/burst›, providing a +4 alchemical bonus on saving throws against gases, inhaled poisons, or other breathable hazards. The cloud of fresh air lasts for 1d4 rounds. If you hit a creature that has the ‹umr/stench› ability with a thrown flask of deep breath, the DC of its stench is reduced by 4 for the duration of the cloud."
 		]
@@ -197,7 +197,7 @@
 		"description": [
 			"## Defoliant",
 			"‹SOURCE Ultimate Equipment/103›  ",
-			"::tabular{format=misc a=30 b=x d=atools}",
+			"::tabular{format=misc a=30 b=x d=atool}",
 			"",
 			"This milky fluid can be mixed with water to quickly kill light and medium vegetation. One flask of defoliant kills light brush and small trees in 50 5-foot squares. Light vegetation (anything but trees) dies within 1 hour and can be cleared at a rate of 10 minutes per 5-foot square (representing uprooting dead plants and breaking stumps into gravel-sized pieces), leaving barren ground. Medium vegetation (anything but massive trees) dies in 2 hours and can be cleared at a rate of 1 hour per 5-foot square. Massive trees can usually survive a single dose of defoliant, and using defoliant doesn't make clearing them any easier. Defoliant can be used as a ‹rule/splash weapon› against plant creatures. A direct hit with the undiluted fluid deals 1d6 hit points of damage, 1 point of ‹rule/Strength damage›, and 1 point of Constitution damage (Fortitude DC 20 negates the Strength and Constitution damage); plant creatures within 5 feet of the target take 1 hit point of damage.",
 			"",
@@ -210,7 +210,7 @@
 		"description": [
 			"## Deodorizing agent (vial)",
 			"‹SOURCE Animal Archive/13›  ",
-			"::tabular{format=misc a=30 b=x d=atools}",
+			"::tabular{format=misc a=30 b=x d=atool}",
 			"",
 			"Coating a creature in a vial of this milky, odorless substance takes 1 minute and renders it scentless for 1d3 hours. Creatures that rely on scent for locating creatures do not gain the benefit of this ability against a creature affected by a dose of deodorizing agent.",
 			"",
@@ -709,7 +709,7 @@
 			"‹SOURCE Merchant's Manifest/27›  ",
 			"::tabular{format=misc a=1 b=x d=food}",
 			"",
-			"@I-def This aromatic blend fills the belly with the sensation of fire, warming the drinker's body. By drinking two cups of dragon's blend coffee, you gain cold resistance 5 for 1 hour. Once the coffee has prevented 5 points of cold damage, the effect ends. You can benefit from dragon's blend coffee only once per day."
+			"@I-def This aromatic blend fills the belly with the sensation of fire, warming the drinker's body. By drinking two cups of dragon's blend coffee, you gain cold ‹umr/resistance› 5 for 1 hour. Once the coffee has prevented 5 points of cold damage, the effect ends. You can benefit from dragon's blend coffee only once per day."
 		]
 	},
 	"dragons_blood": {
@@ -830,7 +830,7 @@
 		"description": [
 			"## Drought powder",
 			"‹SOURCE Heroes of the Darklands/28›  ",
-			"::tabular{format=misc a=5 b=x d=atools}",
+			"::tabular{format=misc a=5 b=x d=atool}",
 			"",
 			"This unique, salty alchemical powder is crafted in Darklands communities where fresh water is either scarce or guarded by dangerous predators. Consuming 1 dose allows you to go without water for 3 days instead of 1, in growing discomfort but without any negative effects. After this time, you must attempt a Constitution check once every 6 hours instead of once per hour to avoid taking nonlethal damage. One dose of drought powder functions for 1 week, after which penalties for ‹rule/thirst› accrue at their normal pace."
 		]
@@ -931,7 +931,7 @@
 		"description": [
 			"## Duskeye",
 			"‹SOURCE Heroes of the Wild/9›  ",
-			"::tabular{format=misc a=50 b=x d=atools}",
+			"::tabular{format=misc a=50 b=x d=atool}",
 			"",
 			"This liquid makes the eyes more receptive to light for 4 hours. The user gains low-light vision, but also suffers from ‹umr/light sensitivity› for the duration. Crafting duskeye requires a successful DC 16 Craft (alchemy) check.",
 			"",
@@ -1014,7 +1014,7 @@
 		"description": [
 			"## Ectoplasmic tracer",
 			"‹SOURCE Undead Slayer's Handbook/13›  ",
-			"::tabular{format=misc a=100 b=7 d=atools}",
+			"::tabular{format=misc a=100 b=7 d=atool}",
 			"",
 			"This small canister has a hand pump, allowing it to forcefully eject the semi-ethereal green concoction held within. Spraying a creature with ectoplasmic tracer is a ranged touch attack with a range increment of 10 feet. A single canister holds enough ectoplasmic tracer to coat one Medium or smaller incorporeal creature. When coated with ectoplasmic tracer, an incorporeal creature leaves behind a trail of vibrant mucus that allows it to be tracked by mundane means. Calculate the Survival DC to track an incorporeal creature covered in ectoplasmic tracer as though you were following tracks left on soft ground. Once discharged, ectoplasmic tracer dissolves after 1d4 days. Ectoplasmic tracer has no effect when sprayed on a corporeal creature. Crafting this item requires a successful DC 20 Craft (alchemy) check.",
 			"",
@@ -1038,7 +1038,7 @@
 		"description": [
 			"## Efreeti cord",
 			"‹SOURCE Ultimate Intrigue/236›  ",
-			"::tabular{format=misc id=cord a=50 b=x d=atools}",
+			"::tabular{format=misc id=cord a=50 b=x d=atool}",
 			"",
 			"Originally discovered by dwarven alchemists working with adamantine dust, efreeti cord is a viscid length of string approximately 18 inches long and blue-gray in color. It can be purchased in greater lengths by multiplying the price for every 18 inches or fraction thereof. Flexible and sticky, a length of efreeti cord can be carefully shaped into almost any pattern, draped upon an object, or wrapped around a fixture, and will stay in place until activated. Once activated (using an *efreeti switch*), efreeti cord rapidly heats up, and after 1 round becomes a white-hot cord of fire. In the first round, the cord deals 3d6 points of fire damage to an object. This damage ignores any hardness less than 10, and is not halved for an object. The cord continues to burn for 2 additional rounds, dealing 2d6 points of fire damage the first additional round and 1d6 points the second.",
 			"",
@@ -1046,7 +1046,7 @@
 			"",
 			"## Efreeti switch",
 			"‹SOURCE Ultimate Intrigue/236›  ",
-			"::tabular{format=misc id=switch a=25 b=x d=atools}",
+			"::tabular{format=misc id=switch a=25 b=x d=atool}",
 			"",
 			"An efreeti switch is the activation device for *efreeti cord;* it measures approximately 6 inches in length and is made of a supple, red-brown alchemical compound. It is not consumed when activating a length of cord, and it can be used with any length of efreeti cord. It's possible to key lengths of efreeti cord to a specific switch; however, this doubles the price of both the efreeti cord and the switch.",
 			"",
@@ -1060,7 +1060,7 @@
 		"description": [
 			"## Elemental breath",
 			"‹SOURCE Advanced Race Guide/159›  ",
-			"::tabular{format=misc a=80 b=\"0.5\" d=atools}",
+			"::tabular{format=misc a=80 b=\"0.5\" d=atool}",
 			"",
 			"This vial at first seems to be empty, but when it's opened, a rush of wind issues forth from within. When elemental breath is inhaled (as drinking a potion) by an air-breathing creature, that creature does not need to breathe air for 10 rounds. A vial of elemental breath must be inhaled on the round it was opened to gain this effect. If it is not, the item is wasted.",
 			"",
@@ -1084,7 +1084,7 @@
 		"description": [
 			"## Elemental proofing",
 			"‹SOURCE Dragonslayer's Handbook/26›  ",
-			"::tabular{format=misc a=100 b=1 d=atools}",
+			"::tabular{format=misc a=100 b=1 d=atool}",
 			"",
 			"This alchemical gel comes in a large vial with a brush built into the stopper. It's used to coat the surface of objects, protecting them from a specific type of energy damage. Though elemental proofing is not harmful to the objects it coats, it acts as a contact poison to living creatures. Touching elemental proofing directly causes 1d4 points of damage and 1d4 rounds of ‹misc/sickness› (a DC 14 Fortitude save negates the latter effect). Creatures immune to poison are likewise immune to the effects of contacting elemental proofing but gain no benefits from its application. When applied to weapons or armor, elemental proofing confers resistances to the coated object, but none to the wearer.",
 			"",
@@ -1137,7 +1137,7 @@
 		"description": [
 			"## Embalming fluid",
 			"‹SOURCE Ultimate Equipment/103›  ",
-			"::tabular{format=misc a=50 b=10 d=atools}",
+			"::tabular{format=misc a=50 b=10 d=atool}",
 			"",
 			"This fluid is used to preserve corpses, whether for later dissection, taxidermy, necromancy, or magic such as ‹spell/raise dead›. Embalming fluid is technically a poison, and using it makes a corpse unpalatable to most animals and vermin, though corpse-eating undead don't mind the taste. Treating a corpse with embalming fluid takes 1 hour and a successful DC 25 Heal check. The embalmed corpse decays at half the normal rate (each day dead counts as half a day for the purpose of raise dead).",
 			"",
@@ -1275,7 +1275,7 @@
 		"description": [
 			"## Exemplar weapon salve",
 			"‹SOURCE Melee Tactics Toolbox/20›  ",
-			"::tabular{format=misc a=350 b=1 d=atools}",
+			"::tabular{format=misc a=350 b=1 d=atool}",
 			"",
 			"This alchemical salve strengthens the material of a weapon, improves its balance, gives it greater flexibility without sacrificing resilience, and enhances its ability to hold an edge or point and survive an impact. An application turns a typical nonmagical melee weapon into a ‹rule/masterwork weapon<s›. A double weapon requires 2 doses of exemplar weapon salve, and 50 arrows, bolts, or similar ammunition can be enhanced by a single application."
 		]
@@ -1523,7 +1523,7 @@
 		"description": [
 			"## Falsehood fizz",
 			"‹SOURCE Ultimate Intrigue/236›  ",
-			"::tabular{format=misc a=190 b=x d=atools}",
+			"::tabular{format=misc a=190 b=x d=atool}",
 			"",
 			"When imbibed, this cloudy, pink liquid grants you 1d4 uses of ‹misc/alchemical inspiration› that can be used only on Bluff checks to lie or to deliver secret messages. Additionally, you can spend two uses of *alchemical inspiration* to gain inspiration on a saving throw against truth-detecting or truth-forcing magic (such as discern lies or zone of truth).",
 			"",
@@ -1599,7 +1599,7 @@
 		"description": [
 			"## Fellowship film",
 			"‹SOURCE Ultimate Intrigue/236›  ",
-			"::tabular{format=misc a=190 b=x d=atools}",
+			"::tabular{format=misc a=190 b=x d=atool}",
 			"",
 			"By eating this thin sheet of glossy gelatin, you gain 1d4 uses of ‹misc/alchemical inspiration› that can be used only on Diplomacy checks. The benefits of fellowship film last for 1 hour, during which you must roll all Intimidate checks twice and take the worse result.",
 			"",
@@ -1612,7 +1612,7 @@
 		"description": [
 			"## Fervor juice",
 			"‹SOURCE Monster Codex/117›  ",
-			"::tabular{format=misc a=50 b=x d=atools}",
+			"::tabular{format=misc a=50 b=x d=atool}",
 			"",
 			"This foul-tasting alchemical concoction grants those that imbibe it ferocity for a short period of time. This functions as the [universal monster rule of the same name](umr/ferocity), and lasts for 1 hour from the time you ingest the solution. Crafting this item requires a successful DC 20 Craft (alchemy) check.",
 			"",
@@ -1640,7 +1640,7 @@
 		"description": [
 			"## Moonrod",
 			"‹SOURCE Advanced Race Guide/37›  ",
-			"::tabular{format=misc a=10 b=1 d=atools}",
+			"::tabular{format=misc a=10 b=1 d=atool}",
 			"",
 			"This 1-foot-long, silver-tipped tin rod glows dimly when struck as a standard action. It sheds dim light in a 30-foot radius. However, the light given off by a moonrod is particularly easily to perceive for creatures with low-light vision. For such creatures, a moonrod increases the ‹rule/light level› by one step (to a maximum of normal) for a 60-foot radius. It glows for 6 hours, after which the silver tip is burned out and worthless.",
 			"",
@@ -1799,7 +1799,7 @@
 		"description": [
 			"## Necrobane formaldehyde",
 			"‹SOURCE Undead Slayer's Handbook/11›  ",
-			"::tabular{format=misc a=60 b=3 d=atools}",
+			"::tabular{format=misc a=60 b=3 d=atool}",
 			"",
 			"This form of the common embalming agent comes in a glass beaker with a thick rubber stopper, and is employed in regions such as Ustalav, where alchemy is prized as a viable defense against the depredations of necromancers. When introduced into a dead body, necrobane formaldehyde slows the process of decay, keeping the corpse from stinking and rotting for 1d6 days after death. Treating a body with necrobane formaldehyde takes 1 hour and requires a successful DC 25 Heal check. A corpse injected with necrobane formaldehyde is more difficult to resurrect as an undead creature for 1d6 days after injection. Anyone attempting to seed unlife in a corpse treated in this substance must succeed at a DC 14 caster level check to complete the process or the spell fails and its components are wasted. This is also the case for creatures that ingest necrobane formaldehyde and subsequently die before the effect's duration has expired.",
 			"",
@@ -1818,7 +1818,7 @@
 		"description": [
 			"## Necrosalt",
 			"‹SOURCE Undead Slayer's Handbook/15›  ",
-			"::tabular{format=misc a=150 b=\"0.5\" d=atools}",
+			"::tabular{format=misc a=150 b=\"0.5\" d=atool}",
 			"",
 			"The powder in this minute glass vial is made of caustic soda treated with consecrated ashes, and is harmless to living flesh but dangerous to the deceased. Necrosalt can be ‹rule/throw«n as a» splash weapon› with a range increment of 5 feet. On a successful ranged touch attack, 1 dose of necrosalt deals 1d4 points of damage to a struck corporeal undead creature. For 3 rounds afterward, it deals an additional 1d4 points of damage to its victim at the beginning of the victim's turn. Intelligent undead creatures can brush necrosalt off their bodies and end its effect as a move action. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
 			"",
@@ -1873,7 +1873,7 @@
 		"description": [
 			"## Night stalker's tonic",
 			"‹SOURCE Ultimate Intrigue/236›  ",
-			"::tabular{format=misc a=200 b=x d=atools}",
+			"::tabular{format=misc a=200 b=x d=atool}",
 			"",
 			"Once you imbibe this metallic-tasting liquid, its effects last for 1 hour. During this time, you can accept ‹misc/alchemical burn› to increase your sneak attack damage by 1d6 points or your hidden strike damage by 1d4 or 1d8 points (as appropriate) for 1 round. If you don't possess the sneak attack or hidden strike abilities, imbibing this tonic has no effect.",
 			"",
@@ -1972,7 +1972,7 @@
 		"description": [
 			"## Nushadir",
 			"‹SOURCE Ultimate Equipment/103;Advanced Player's Guide/184›  ",
-			"::tabular{format=misc a=10 b=1 d=atools}",
+			"::tabular{format=misc a=10 b=1 d=atool}",
 			"",
 			"This reagent is often stored in the form of small, salty pellets in a dry container, though it can also be mixed with a flask of water and carried that way. Nushadir neutralizes ‹eq-weapon/acid›; a vial of pellets or a flask of nushadir-water is enough to render a cubic foot of acid safe to touch in 1 minute, though this is usually too slow to prevent damage from a thrown vial of acid or the contents of a large monster's gullet. Nushadir vapors are slightly irritating to the eyes, nose, and mouth, causing nausea for 1d4 rounds after close exposure (Fortitude DC 10 negates).",
 			"",
@@ -2078,7 +2078,7 @@
 		"description": [
 			"## Odor stalk",
 			"‹SOURCE Monster Hunter's Handbook/27›  ",
-			"::tabular{format=misc a=70 b=\"0.1\" d=atools}",
+			"::tabular{format=misc a=70 b=\"0.1\" d=atool}",
 			"",
 			"These alchemically treated ‹eq-misc/incense› sticks contain pheromones that certain creatures find repellent. Each odor stalk is created to irritate a specific creature type. After burning for 1 round, an odor stalk fills a 10-foot square with a clear gas that causes any living creature of the prescribed type to become ‹misc/nauseated› for 1 round, then ‹misc/sickened› for as long as it remains in the area. On a successful DC 12 Fortitude save, the creature negates the nauseated condition but not the sickened condition. This is a poison effect. The cloud lasts for 10 minutes, but can be dispersed like ‹spell/obscuring mist›."
 		]
@@ -2089,7 +2089,7 @@
 		"description": [
 			"## Oil of the masters",
 			"‹SOURCE Advanced Class Guide/207›  ",
-			"::tabular{format=misc a=50 b=\"0.5\" d=atools}",
+			"::tabular{format=misc a=50 b=\"0.5\" d=atool}",
 			"",
 			"This gold-tinted oil smells of wood shavings. When you apply it to the strings of a stringed instrument or the body of a woodwind, it improves the quality of the instrument's sound. For 1 hour, anyone playing the instrument gains a +2 alchemical bonus on the appropriate Perform check.",
 			"",
@@ -2132,7 +2132,7 @@
 		"description": [
 			"## Ooze attractant",
 			"‹SOURCE Heroes of the Darklands/29›  ",
-			"::tabular{format=misc a=100 b=1 d=atools}",
+			"::tabular{format=misc a=100 b=1 d=atool}",
 			"",
 			"Drow alchemists of House Tracinoa developed this mixture to function as a lure for mindless oozes. You can throw a flask of ooze attractant as a ‹rule/splash weapon›. On a direct hit, each mindless ooze within 60 feet must succeed at a DC 12 Will save or be compelled to approach the target for the next 1d4+1 rounds. On a miss, an ooze still attempts a Will save, but on a failure it instead approaches the square in which the flask landed. Once an ooze moves adjacent to the targeted creature or into the targeted square, it resumes its normal behavior. An ooze can be affected by ooze attractant only once in a 24-hour period."
 		]
@@ -2143,7 +2143,7 @@
 		"description": [
 			"## Ooze grease",
 			"‹SOURCE Dungeon Denizens Revisited/19›  ",
-			"::tabular{format=misc a=50 b=1 d=atools}",
+			"::tabular{format=misc a=50 b=1 d=atool}",
 			"",
 			"This alchemical concoction can be spread over a Medium or Small creature's body as a full-round action. It provides a +5 alchemical bonus on Escape Artist checks, grapple checks to avoid a grapple, and Reflex saves to avoid an ooze's improved ‹umr/grab› or ‹umr/engulf› abilities, but gives a -5 penalty to disarm checks, grapple checks to start or maintain a grapple or pin, and other checks that may be hindered by a loose grip (such as Climb). One application lasts for up to 1 hour and can be removed with soap and water.",
 			"",
@@ -2156,7 +2156,7 @@
 		"description": [
 			"## Oozing vat",
 			"‹SOURCE Alchemy Manual/23›  ",
-			"::tabular{format=misc a=\"500 gp (gargantuan), 200 gp (huge), 50 gp (large), 10 gp (medium), 1 gp (small)\" b=\"10,000 lbs. (gargantuan), 2,000 lbs. (huge), 200 lbs. (large), 20 lbs. (medium), 2 lbs. (small)\" c=x d=atools}",
+			"::tabular{format=misc a=\"500 gp (gargantuan), 200 gp (huge), 50 gp (large), 10 gp (medium), 1 gp (small)\" b=\"10,000 lbs. (gargantuan), 2,000 lbs. (huge), 200 lbs. (large), 20 lbs. (medium), 2 lbs. (small)\" c=x d=atool}",
 			"",
 			"These earthenware vats are made from a special clay sludge dredged from Oenopion's central lake and infused with ooze distillates. After being fired in a massive kiln, an oozing vat is typically embedded with glass-fiber tubing designed to carry electrical charges to growing oozes. In order to craft an ooze creature using the ‹feat/Craft Ooze› feat, a creator must have access to an oozing vat large enough to contain the created ooze."
 		]
@@ -2364,7 +2364,7 @@
 		"description": [
 			"## Pallid suspension",
 			"‹SOURCE Villain Codex/69›  ",
-			"::tabular{format=misc a=324 b=x d=atools}",
+			"::tabular{format=misc a=324 b=x d=atool}",
 			"",
 			"This small vial contains an alchemical suspension that preserves a sample of pallid gift. This functions like ‹eq-weapon/plague powder› for ‹disease/pallid gift› (DC 20), allowing the user to apply pallid gift to a weapon (a standard action, or whatever action the character normally takes to apply poison to a weapon if that is better) and deliver it as with an injury poison. Just as for plague powder, the creation of a pallid suspension exposes the crafter to the disease on each day of crafting."
 		]
@@ -2417,7 +2417,7 @@
 		"description": [
 			"## Paper wall paste",
 			"‹SOURCE Kobolds of Golarion/29›  ",
-			"::tabular{format=misc a=10 b=2 d=atools}",
+			"::tabular{format=misc a=10 b=2 d=atool}",
 			"",
 			"This jar of thick, gritty paste is made from coarsely ground plant matter, weak epoxy, and bat guano. When exposed to air, the moldable substance quickly creates a thin, paper-like surface, which is ideal for creating false earthen walls. Creating a 5-foot-by-5-foot section of paper wall requires a full-round action. Though this false wall is easy to punch through, it requires a successful DC 13 Perception check to identify the wall as a fake. If the creator of the paper wall spends an additional full-round action disguising the wall with dirt and pebbles, the DC increases by 2. Crafting this item requires a successful DC 15 Craft (alchemy) check.",
 			"",
@@ -2642,7 +2642,7 @@
 		"description": [
 			"## Pathstones",
 			"‹SOURCE Advanced Class Guide/208›  ",
-			"::tabular{format=misc a=50 b=1 d=atools}",
+			"::tabular{format=misc a=50 b=1 d=atool}",
 			"",
 			"Similar to ‹eq-misc/sunrod«s›, these small white pebbles are alchemically treated so that they shed a soft light once activated by striking them together. The glow is faint - just barely enough to illuminate the stone. Though not bright enough to serve as an effective light source, they can be placed in patterns to create messages or laid out in a path, marking it for others to follow.",
 			"",
@@ -2794,7 +2794,7 @@
 		"description": [
 			"## Petrified ooze",
 			"‹SOURCE Dungeoneer's Handbook/27›  ",
-			"::tabular{format=misc a=80 b=\"0.5\" d=atools}",
+			"::tabular{format=misc a=80 b=\"0.5\" d=atool}",
 			"",
 			"This tiny blob of ooze looks like a small disc of green stone when inactive, and is stored in a circular dish with an airtight cover. When the cover is removed and the ooze is exposed to air, the user has 1 minute to handle the rapidly softening ooze before it regains its former viscosity (as well as toxicity) and springs back to life. Although much smaller than an actual ooze creature, this coin-sized blob still deals 1d6 points of acid damage to anything it comes in contact with. Due to its unpredictable nature, petrified ooze is typically only good for breaking or melting whatever object or device on which the user originally sets the ooze, after which the blob quickly scurries into the nearest corner or crevice so it can feed on particles of dust and diminutive prey. Once restored to its viscous form, a petrified ooze moves at a rate of 60 feet per round, and any creature that comes in contact with the ooze must succeed at a DC 12 Reflex save to avoid taking acid damage from it.",
 			"",
@@ -2818,7 +2818,7 @@
 		"description": [
 			"## Phosphorescent gel",
 			"‹SOURCE Dungeoneer's Handbook/27›  ",
-			"::tabular{format=misc a=45 b=\"0.5\" d=atools}",
+			"::tabular{format=misc a=45 b=\"0.5\" d=atool}",
 			"",
 			"This sealed vial contains 1 ounce of milky white gel. Once the vial's seal is broken, the liquid reacts with the surrounding air and begins to rapidly heat up, glowing like a ‹eq-misc/candle› for 1 hour. After that hour, the oxidization of the chemical agent is complete, and the gel dissolves in a white-hot flash, dealing 3d6 points of fire damage to anything directly in contact with it. A single dose of phosphorescent gel can coat 6 square inches of a surface. Multiple doses of phosphorescent gel can be used to coat larger surfaces, but the amount of damage dealt does not stack. The conflagration occurs in an instant, and the fire generated doesn't spread, though it can be used to ignite a larger explosive such as a ‹eq-weapon/fuse grenade› or pot of ‹eq-misc/oil›.",
 			"",
@@ -2981,7 +2981,7 @@
 		"description": [
 			"## Planar alchemical catalyst",
 			"‹SOURCE Blood of the Elements/21›  ",
-			"::tabular{format=misc a=200 b=2 d=atools}",
+			"::tabular{format=misc a=200 b=2 d=atool}",
 			"",
 			"This vibrant, variegated gemstone is found naturally on the Elemental Plane of Earth but can also be artificially reproduced, albeit with a fair amount of difficulty. The catalyst is highly sought for its remarkable ability to enhance and alter alchemical tools and weapons.",
 			"",
@@ -3270,7 +3270,7 @@
 		"description": [
 			"## Tunnel creeper",
 			"‹SOURCE Alchemy Manual/11›  ",
-			"::tabular{format=misc a=280 b=1 d=atools}",
+			"::tabular{format=misc a=280 b=1 d=atool}",
 			"",
 			"This fist-sized cluster of aggressive fungus grows rapidly when placed against a solid surface and exposed to water, and can quietly bore a 5-foot-tall, 10-foot-deep tunnel in a straight line. The tunnel is supported by sturdy fungal tubes. A tunnel creeper cannot eat through metal or any material denser than common stone. A tunnel creeper takes 10 minutes to carve a tunnel through stone, or 5 minutes to carve through wood, after which the fungus withers and falls to the ground.",
 			"",
@@ -3385,7 +3385,7 @@
 		"description": [
 			"## Unstable accelerant",
 			"‹SOURCE Advanced Race Guide/123›  ",
-			"::tabular{format=misc a=50 b=\"0.5\" d=atools}",
+			"::tabular{format=misc a=50 b=\"0.5\" d=atool}",
 			"",
 			"A volatile mix of incendiary reagents, unstable accelerant can be thrown just like ‹eq-weapon/alchemist's fire›. In the hands of an ‹class/alchemist›, a flask of unstable accelerant can be used as part of creating a bomb, increasing its fire damage by +1d6 points. It has no effect on bombs that do not deal fire damage. If the bomb lasts for more than an instant, the extra damage only applies to the first round's damage.",
 			"",
@@ -3476,7 +3476,7 @@
 		"description": [
 			"## Vector ink",
 			"‹SOURCE Alchemy Manual/9›  ",
-			"::tabular{format=misc a=60 b=x d=atools}",
+			"::tabular{format=misc a=60 b=x d=atool}",
 			"",
 			"This specialized ‹eq-misc/ink› can be mixed with a contact poison to make the poison last longer on paper. Once applied to a sheet of paper, the ink remains slightly tacky and keeps the poison effective for up to 1 week. Any creature that touches the writing (such as while opening a closed book or unraveling a scroll) must save against the contact poison. Once a creature has come in contact with the vector ink, the ink is expended. A single vial of vector ink is enough to write a single page of text on standard-sized parchment.",
 			"",
@@ -3621,7 +3621,7 @@
 		"description": [
 			"## Vine tube",
 			"‹SOURCE Legacy of the First World/7›  ",
-			"::tabular{format=misc a=40 b=x d=atools}",
+			"::tabular{format=misc a=40 b=x d=atool}",
 			"",
 			"This sealed copper tube contains a packet of alchemical fertilizer and several sprouted seedlings from the First World. Once shaken and opened as a standard action, the tube exudes a multitude of vines that spill into an adjacent square for 3 rounds. Left alone, these vines create an area of ‹rule/difficult terrain› in the square, but a creature holding the tube can shape the vines as they emerge into a crude tool, piece of furniture, or other object of wood or rope weighing 20 pounds or less with a successful DC 10 Craft (baskets or carpentry) check. The vine construct lasts for 10 minutes before crumbling to pieces. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 			"",
@@ -3648,7 +3648,7 @@
 		"description": [
 			"## Vomit capsule",
 			"‹SOURCE Advanced Class Guide/208›  ",
-			"::tabular{format=misc a=12 b=x d=atools}",
+			"::tabular{format=misc a=12 b=x d=atool}",
 			"",
 			"These small capsules consist of a concentrated mix of nausea-inducing herbs. To use a capsule, you bite down and ingest its contents, which almost immediately cause you to projectile vomit. The vomiting lasts 1 full round, during which you can take no other actions. The following round you recover fully, and suffer no other ill effects. These capsules are most often used by rogues working in teams to create distractions and spectacles in order to draw people's attention away from their activities, as well as by those interested in faking illness, such as pugilists trying to throw fights or criminals seeking to create chaos during an arrest.",
 			"",
@@ -3788,7 +3788,7 @@
 		"description": [
 			"## Warding ash",
 			"‹SOURCE Undead Slayer's Handbook/15›  ",
-			"::tabular{format=misc a=100 b=\"0.5\" d=atools}",
+			"::tabular{format=misc a=100 b=\"0.5\" d=atool}",
 			"",
 			"This flaky compound of blessed ashes is steeped in juniper berries, giving it a warm, chestnut color. Unintelligent undead instinctively recoil upon touching warding ash. If an unintelligent undead creature moves into a space covered in warding ash, it must immediately end its movement in that space (Reflex DC 14 negates). A singe dose of warding ash is enough to cover a 5-foot-square space. Applying warding ash is a move action that provokes attacks of opportunity. The warding ash becomes inert 1 minute after being laid, or after the ash is disturbed in any way (such as being stepped on by a creature). Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 			"",
@@ -3856,7 +3856,7 @@
 		"description": [
 			"## Waspguts",
 			"‹SOURCE Inner Sea Intrigue/50›  ",
-			"::tabular{format=misc a=100 b=2 d=atools}",
+			"::tabular{format=misc a=100 b=2 d=atool}",
 			"",
 			"This golden, oily alchemical reagent can be applied to any surface or delivered as a touch attack (the wielder exposes herself unless she uses a glove and disposes of it afterward). A creature or object marked with waspguts attracts angry insects. Vermin within 30 feet attack the target over other available creatures. Wasps are affected at a range of up to 1 mile; in most environments where wasps live, the target is stung by at least one wild wasp per hour. The effect lasts 8 hours or until washed or scraped off (a full-round action). Waspguts can also be thrown as a splash weapon. A direct hit deals no damage, but exposes the target to the waspguts' effects. Crafting waspguts requires a successful DC 20 Craft (alchemy) check.",
 			"",
@@ -3910,7 +3910,7 @@
 		"description": [
 			"## Water purification sponge",
 			"‹SOURCE Ultimate Equipment/103;Adventurer's Armory/19›  ",
-			"::tabular{format=misc a=25 b=1 d=atools}",
+			"::tabular{format=misc a=25 b=1 d=atool}",
 			"",
 			"This fist-sized blue sponge absorbs up to 1 pint of water; squeezing the water out of the sponge filters and purifies it, making it safe for drinking, washing, and similar activities. Filling and emptying the sponge is a full-round action. The filtration is enough to remove mundane impurities and common diseases, but does nothing to protect against poisons, magic, and other exotic threats. Each sponge can cleanse 25 pints of water before deteriorating and becoming useless.",
 			"",
@@ -3972,7 +3972,7 @@
 		"description": [
 			"## Weapon blanch",
 			"‹SOURCE Ultimate Equipment/103;Advanced Player's Guide/184›  ",
-			"::tabular{format=misc a=\"100 gp (adamantine), 20 gp (cold iron), 5 gp (silver)\" b=\"&frac12& lb.\" c=x d=atools}",
+			"::tabular{format=misc a=\"100 gp (adamantine), 20 gp (cold iron), 5 gp (silver)\" b=\"&frac12& lb.\" c=x d=atool}",
 			"",
 			"These silver, alchemical powders have a gritty consistency, appearing at first glance to be simple metal shavings. When poured on a weapon and placed over a hot flame for a full round, however, they melt and form a temporary coating on the weapon. The blanching gives the weapon the ability to bypass one kind of material-based damage reduction, such as adamantine, cold iron, or silver. The blanching remains effective until you make a successful attack with the weapon. Each dose of blanching can coat one weapon or up to 10 pieces of ammunition. Only one kind of weapon blanch can be on a weapon at one time, though a weapon made of one special material (such as adamantine) can have a different material blanch (such as silver), and counts as both materials for the first successful hit.",
 			"",
@@ -3990,7 +3990,7 @@
 		"description": [
 			"## Weapon blanch (ghost salt)",
 			"‹SOURCE Pathfinder Society Field Guide/48›  ",
-			"::tabular{format=misc a=200 b=\"0.5\" d=atools}",
+			"::tabular{format=misc a=200 b=\"0.5\" d=atool}",
 			"",
 			"This gritty alchemical powder is made from exotic minerals mixed with an infusion crafted from the ectoplasmic remains of destroyed incorporeal undead. When rubbed onto a weapon that is then placed over a hot flame for a full round, ghost salt melts and forms a temporary coating on the weapon. The blanching gives the weapon the ability to do full damage to incorporeal creatures, even if the weapon itself is nonmagical. An application of ghost salt remains effective until the weapon makes a successful attack. Each dose of weapon blanch can coat one weapon or up to 10 pieces of ammunition. Only one kind of ‹eq-misc/weapon blanch<_adamantine› can be on a weapon at one time."
 		]
@@ -4419,7 +4419,7 @@
 		"description": [
 			"## Woad painting",
 			"‹SOURCE Advanced Class Guide/208›  ",
-			"::tabular{format=misc a=\"300 gp (kit), 60 gp (paint, 1 block)\" b=\"1 lb. (kit), &mdash& (paint, 1 block)\" c=x d=atools}",
+			"::tabular{format=misc a=\"300 gp (kit), 60 gp (paint, 1 block)\" b=\"1 lb. (kit), &mdash& (paint, 1 block)\" c=x d=atool}",
 			"",
 			"Though associated with the woad plant, the alchemical ingredients of this blue paste can vary considerably. When preparing a spell, you can grind the spell's material components and mix them into this paste to paint the components directly onto your flesh, allowing you to cast that spell as if you had applied ‹feat/Eschew Materials›. Additionally, by painting complex woad designs that symbolize gestures for 10 minutes and succeeding at a Spellcraft check with a DC equal to 15 + the spell level, you can also cast the spell as if you had applied ‹feat/Still Spell›. You can have only one spell painted on you in this way at a time, and if you cast the prepared spell or the paint is removed for any reason, the effects of the woad paint are spent.",
 			"",
@@ -4496,7 +4496,7 @@
 			"‹SOURCE Ultimate Equipment/58;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=1 b=1 d=gear}",
 			"",
-			"This is a sheath designed to be strapped to your forearm and hidden under a long sleeve. The sheath can hold one forearmlength item, such as a ‹eq-weapon/dagger›, ‹eq-weapon/dart›, or wand, or up to five arrows or crossbow bolts. As a move action, you can bend your wrist to cause some or all of these items to drop into your hand (provoking attacks of opportunity as normal). You have a +2 bonus on Sleight of Hand checks made to oppose the Perception check of someone observing or frisking you to determine items in the sheath. You can only wear one wrist sheath per arm."
+			"This is a sheath designed to be strapped to your forearm and hidden under a long sleeve. The sheath can hold one forearm-length item, such as a ‹eq-weapon/dagger›, ‹eq-weapon/dart›, or wand, or up to five arrows or crossbow bolts. As a move action, you can bend your wrist to cause some or all of these items to drop into your hand (provoking attacks of opportunity as normal). You have a +2 bonus on Sleight of Hand checks made to oppose the Perception check of someone observing or frisking you to determine items in the sheath. You can only wear one wrist sheath per arm."
 		]
 	},
 	"wyrm_pesh": {
