@@ -28,7 +28,9 @@ const _abacus = {title: "Abacus", jsx: <><h2 id="eq-misc-abacus-abacus">Abacus</
 const _aboleth_mucus_extract = {title: "Aboleth Mucus Extract", jsx: <><h2 id="eq-misc-aboleth_mucus_extract-aboleth-mucus-extract">Aboleth Mucus Extract</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_123_the_flooded_cathedral">Pathfinder #123: The Flooded Cathedral pg. 30</Link>  </p>
 <Tabular format="misc" a="100" b="0.5" d="atool" />
-<p>This jar contains 6 ounces of alchemically preserved <Link to="/monster/aboleth">aboleth</Link> mucus. When 1 ounce of the extract is applied to a living creature's mouth, nose, and throat (a full-round action), the target loses its ability to breathe air but gains the ability to breathe water for 1 hour. An unwilling target can attempt a DC 14 Fortitude save to negate the effect. If additional doses are applied to the same creature, the duration of the effect extends by 1 hour for each ounce used, to a maximum of 3 hours.</p>
+<p>This jar contains 6 ounces of alchemically preserved <Link to="/monster/aboleth">aboleth</Link> mucus.</p>
+<p><Icons id="eq-misc-aboleth_mucus_extract-power-icons" wrapper="prefixIcon" list={["power"]} /> When 1 ounce of the extract is applied to a living creature's mouth, nose, and throat (a <strong className="hl">full-round action</strong>), the target loses its ability to breathe air but gains the ability to breathe water for 1 hour. An unwilling target can attempt a DC 14 Fortitude save to negate the effect.</p>
+<p>If additional doses are applied to the same creature, the duration of the effect extends by 1 hour for each ounce used, to a maximum of 3 hours.</p>
 </>};
 const _absinthe_bottle = {title: "Absinthe (bottle)", jsx: <><h2 id="eq-misc-absinthe_bottle-absinthe">Absinthe</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>  </p>
@@ -38,7 +40,8 @@ const _absinthe_bottle = {title: "Absinthe (bottle)", jsx: <><h2 id="eq-misc-abs
 const _accuracy_lozenge = {title: "Accuracy lozenge", jsx: <><h2 id="eq-misc-accuracy_lozenge-accuracy-lozenge">Accuracy lozenge</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 235</Link>  </p>
 <Tabular format="misc" a="330" b="x" d="atool" />
-<p>The effects of this gray-green pill last for 5 minutes after consumption. During this time, when making a full attack, you can accept <Link to="/misc/alchemical_burn">alchemical burn</Link> to make your second attack at your full base attack bonus instead of the attack bonus for your second attack. An accuracy lozenge gives no benefit on attacks beyond the second, nor does it provide a second attack if you don't already have one.</p>
+<p><Icons id="eq-misc-accuracy_lozenge-boost-icons" wrapper="prefixIcon" list={["boost"]} /> The effects of this gray-green pill last for 5 minutes after consumption. During this time, when making a full attack, you can accept <Link to="/misc/alchemical_burn">alchemical burn</Link> to make your second attack at your full base attack bonus instead of the attack bonus for your second attack.</p>
+<p>An accuracy lozenge gives no benefit on attacks beyond the second, nor does it provide a second attack if you don't already have one.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _acrobats_pillar = {title: "Acrobat's pillar", jsx: <><h2 id="eq-misc-acrobats_pillar-acrobats-pillar">Acrobat's pillar</h2>
@@ -55,7 +58,9 @@ const _adamantine_chain_10_ft = {title: "Adamantine chain (10 ft.)", jsx: <><h2 
 const _adhesive_strip = {title: "Adhesive strip", jsx: <><h2 id="eq-misc-adhesive_strip-adhesive-strip">Adhesive strip</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 245</Link>  </p>
 <Tabular format="misc" a="5" b="0.5" d="atool" />
-<p>This 3-foot-long strip of extremely thin hide can be cut into different lengths. When moistened and applied across surfaces or between objects, it creates a bond requiring a DC 15 Strength check to pull apart. Once applied, an adhesive strip takes 1 minute to set. If applied to an item with the <Link to="/misc/broken">broken</Link> condition, it suppresses the effects of that broken condition for as long as the item remains repaired by the strip - though the item does not regain hit points and is still broken. The uses for an adhesive strip are many; it can be used to bind prisoners, mend clothing, patch holes, and so on.</p>
+<p>This 3-foot-long strip of extremely thin hide can be cut into different lengths. When moistened and applied across surfaces or between objects, it creates a bond requiring a DC 15 Strength check to pull apart. Once applied, an adhesive strip takes 1 minute to set.</p>
+<p><Icons id="eq-misc-adhesive_strip-aid-icons" wrapper="prefixIcon" list={["aid"]} /> If applied to an item with the <Link to="/misc/broken">broken</Link> condition, it suppresses the effects of that broken condition for as long as the item remains repaired by the strip - though the item does not regain hit points and is still broken.</p>
+<p>The uses for an adhesive strip are many; it can be used to bind prisoners, mend clothing, patch holes, and so on.</p>
 </>};
 const _adventurers_sash = {title: "Adventurer's sash", jsx: <><h2 id="eq-misc-adventurers_sash-adventurers-sash">Adventurer's sash</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 12</Link>, <Link to="/source/seekers_of_secrets">Seekers of Secrets pg. 42</Link>  </p>
@@ -65,7 +70,8 @@ const _adventurers_sash = {title: "Adventurer's sash", jsx: <><h2 id="eq-misc-ad
 const _age_ointment = {title: "Age ointment", jsx: <><h2 id="eq-misc-age_ointment-age-ointment">Age ointment</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 235</Link>  </p>
 <Tabular format="misc" a="80" b="x" d="atool" />
-<p>This white, waxy ointment allows you to appear older or younger, and is useful for both people who need disguises and the vain. When mixed with an equal amount of sealing wax, it forms a gray paste that discolors and relaxes your skin, reducing the penalty on Disguise checks to appear older than you are by 2. When mixed with an equal amount of <Link to="/eq-misc/soap">soap</Link>, it forms a rosy paste that clarifies and tightens your skin, reducing the penalty on Disguise checks to appear younger than you are by 2. An application of age ointment lasts for 1d4+1 days. Age ointment can be used once, and the price includes the required amounts of sealing wax and soap.</p>
+<p><Icons id="eq-misc-age_ointment-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This white, waxy ointment allows you to appear older or younger, and is useful for both people who need disguises and the vain. When mixed with an equal amount of sealing wax, it forms a gray paste that discolors and relaxes your skin, reducing the penalty on <Link to="/skill/disguise">Disguise</Link> checks to appear older than you are by 2. When mixed with an equal amount of <Link to="/eq-misc/soap">soap</Link>, it forms a rosy paste that clarifies and tightens your skin, reducing the penalty on Disguise checks to appear younger than you are by 2.</p>
+<p>An application of age ointment lasts for 1d4+1 days. Age ointment can be used once, and the price includes the required amounts of sealing wax and soap.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
 </>};
 const _air_bladder = {title: "Air bladder", jsx: <><h2 id="eq-misc-air_bladder-air-bladder">Air bladder</h2>
@@ -76,7 +82,8 @@ const _air_bladder = {title: "Air bladder", jsx: <><h2 id="eq-misc-air_bladder-a
 const _air_crystals = {title: "Air crystals", jsx: <><h2 id="eq-misc-air_crystals-air-crystals">Air crystals</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 48</Link>  </p>
 <Tabular format="misc" a="50" b="x" d="rem" />
-<p>These unpleasant-tasting, alchemically grown crystals release breathable air when chewed. A pouch of air crystals provides 1 minute of breathable air. Placing air crystals in your mouth takes a standard action; chewing them each round is a free action. Any attempt to speak while chewing air crystals negates any remaining duration.</p>
+<p><Icons id="eq-misc-air_crystals-aid-icons" wrapper="prefixIcon" list={["aid"]} /> These unpleasant-tasting, alchemically grown crystals release breathable air when chewed. A pouch of air crystals provides 1 minute of breathable air. Placing air crystals in your mouth takes a <strong className="hl">standard action</strong>; chewing them each round is a <strong className="hl">free action</strong>.</p>
+<p><Icons id="eq-misc-air_crystals-warning-icons" wrapper="prefixIcon" list={["warning"]} /> Any attempt to speak while chewing air crystals negates any remaining duration.</p>
 </>};
 const _air_tank_per_gallon = {title: "Air tank (per gallon)", jsx: <><h2 id="eq-misc-air_tank_per_gallon-air-tank">Air tank</h2>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 56</Link>  </p>
@@ -91,79 +98,90 @@ const _air_tank_pressurized = {title: "Air tank, pressurized", jsx: <><h2 id="eq
 const _alchemical_blood = {title: "Alchemical blood", jsx: <><h2 id="eq-misc-alchemical_blood-alchemical-blood">Alchemical blood</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 237</Link>  </p>
 <Tabular format="misc" a="40" b="1" d="rem" />
-<p>This flask of red liquid is enough to for 1 day stave off a vampire's hunger for blood. Few <Link to="/template/vampire">vampires</Link> enjoy it; most describe it as tasting stale and artificial. Some, particularly weaker or newer ones, feel that it interferes with the unholy magic keeping their bodies animated. However, it's an option utilized by vampires that are running for their unlives and attempting to stay hidden from vampire hunters. Crafting this item requires a successful DC 40 Craft (alchemy) check.</p>
+<p><Icons id="eq-misc-alchemical_blood-aid-icons" wrapper="prefixIcon" list={["aid"]} /> This flask of red liquid is enough to for 1 day stave off a vampire's hunger for blood. Few <Link to="/template/vampire">vampires</Link> enjoy it; most describe it as tasting stale and artificial. Some, particularly weaker or newer ones, feel that it interferes with the unholy magic keeping their bodies animated. However, it's an option utilized by vampires that are running for their unlives and attempting to stay hidden from vampire hunters.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 40</p>
 </>};
 const _alchemical_candle_wax = {title: "Alchemical candle wax", jsx: <><h2 id="eq-misc-alchemical_candle_wax-alchemical-candle-wax">Alchemical candle wax</h2>
 <p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox pg. 20</Link>  </p>
 <Tabular format="misc" a="150" b="1" d="atool" />
-<p>As malleable as ordinary wax, alchemical candle wax produces an aromatic scent when burned. A candle made from alchemical candle wax normally possesses a sweet, honey-like smell, but a character who is trained in Craft (alchemy) can infuse the wax with nearly any scent available to her. A character trained in both Craft (alchemy) and Craft (poison) can infuse one candle's worth of wax with any alchemical substance that requires inhalation, such as a vial of <Link to="/eq-misc/alchemical_pheromones_aggression">alchemical pheromones</Link> or a dose of inhaled poison. When infusing the wax with poison, the normal rules for exposing oneself to poison apply. Only one kind of alchemical substance can be infused into a single candle at a time, though a single candle can hold up to 3 doses of a substance. A single lump of alchemical candle wax is enough to create one candle.</p>
-<p>After burning for 1 minute, the alchemical candle releases the chosen alchemical substance as a colorless haze that lingers in a 5-foot radius centered on the candle for up to 1 hour, plus 30 minutes for each dose or vial of a substance infused into the candle wax beyond the first. A moderate wind (11+ mph) disperses the haze in 2 rounds; a strong or stronger wind (21+ mph) disperses the haze immediately. Alchemical candle wax can be created with a successful DC 20 Craft (alchemy) check.</p>
+<p>As malleable as ordinary wax, alchemical candle wax produces an aromatic scent when burned. A candle made from alchemical candle wax normally possesses a sweet, honey-like smell, but a character who is trained in <Link to="/skill/craft">Craft</Link> (alchemy) can infuse the wax with nearly any scent available to her.</p>
+<p><Icons id="eq-misc-alchemical_candle_wax-power-icons" wrapper="prefixIcon" list={["power"]} /> A character trained in both Craft (alchemy) and Craft (poison) can infuse one candle's worth of wax with any alchemical substance that requires inhalation, such as a vial of <Link to="/eq-misc/alchemical_pheromones_aggression">alchemical pheromones</Link> or a dose of inhaled poison. When infusing the wax with poison, the normal rules for exposing oneself to poison apply.</p>
+<p>Only one kind of alchemical substance can be infused into a single candle at a time, though a single candle can hold up to 3 doses of a substance. A single lump of alchemical candle wax is enough to create one candle.</p>
+<p><Icons id="eq-misc-alchemical_candle_wax-aura-icons" wrapper="prefixIcon" list={["aura"]} /> After burning for 1 minute, the alchemical candle releases the chosen alchemical substance as a colorless haze that lingers in a 5-foot radius centered on the candle for up to 1 hour, plus 30 minutes for each dose or vial of a substance infused into the candle wax beyond the first. A moderate wind (11+ mph) disperses the haze in 2 rounds; a strong or stronger wind (21+ mph) disperses the haze immediately.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _alchemical_cement = {title: "Alchemical cement", jsx: <><h2 id="eq-misc-alchemical_cement-alchemical-cement">Alchemical cement</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
 <Tabular format="misc" a="5" b="2" d="atool" />
-<p>You mix this fine gray powder with water and a cubic foot of sand or gravel to form a durable stone-like material. Until it cures, it has the consistency of thick mud, and you must hold it in place (typically with a frame of earth or wood) if you want it to harden in a specific shape. It takes 1d10+10 minutes for the cement to partially cure, gaining hardness 2 and 5 hit points per inch of thickness. After 1d6 hours the cement is fully cured and as hard as true stone.</p>
+<p>You mix this fine gray powder with water and a cubic foot of sand or gravel to form a durable stone-like material. Until it cures, it has the consistency of thick mud, and you must hold it in place (typically with a frame of earth or wood) if you want it to harden in a specific shape. It takes 1d10+10 minutes for the cement to partially cure, gaining <Link to="/rule/hardness">hardness</Link> 2 and 5 hit points per inch of thickness. After 1d6 hours the cement is fully cured and as hard as true stone.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
 </>};
 const _alchemical_cleaner = {title: "Alchemical cleaner", jsx: <><h2 id="eq-misc-alchemical_cleaner-alchemical-cleaner">Alchemical cleaner</h2>
 <p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 44</Link>  </p>
 <Tabular format="misc" a="300" b="1" d="atool" />
-<p>This caustic alchemical solution dissolves blood, hair, and small pieces of flesh. Distributing it over a 5-foot square takes one full-round action and increases the DC of Perception checks to find such materials by 20. (A creature that fails the Perception check to find such materials by 5 or less realizes the area has been unnaturally cleared of them.) This applies only to the original Perception DC, not a substituted skill check like those from the cleaner or traceless archetypes. One pot of alchemical cleaner contains enough liquid to cover nine 5-foot squares. A pot of alchemical cleaner can be thrown as a splash weapon and functions as an <Link to="/eq-weapon/alkali_flask">alkali flask</Link> when thrown. Crafting alchemical cleaner requires a successful DC 25 Craft (alchemy) check.</p>
+<p><Icons id="eq-misc-alchemical_cleaner-def-icons" wrapper="prefixIcon" list={["def"]} /> This caustic alchemical solution dissolves blood, hair, and small pieces of flesh. Distributing it over a 5-foot square takes one <strong className="hl">full-round action</strong> and increases the DC of <Link to="/skill/perception">Perception</Link> checks to find such materials by 20. (A creature that fails the Perception check to find such materials by 5 or less realizes the area has been unnaturally cleared of them.) This applies only to the original Perception DC, not a substituted skill check like those from the cleaner or traceless archetypes.</p>
+<p>One pot of alchemical cleaner contains enough liquid to cover nine 5-foot squares. A pot of alchemical cleaner can be thrown as a <Link to="/rule/splash_weapon">splash weapon</Link> and functions as an <Link to="/eq-weapon/alkali_flask">alkali flask</Link> when thrown.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _alchemical_dye_kit = {title: "Alchemical dye kit", jsx: <><h2 id="eq-misc-alchemical_dye_kit-alchemical-dye-kit">Alchemical dye kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 236</Link>  </p>
 <Tabular format="misc" a="160" b="6" d="atool" />
-<p>This kit provides a variety of creamy liquids in glass jars, and allows you to temporarily change the color of your hair or skin to match that of a creature of any humanoid race. This includes exotic and unusual hues, such as gnome hair colors. If used as part of a Disguise check, this kit reduces the time required to create the disguise by 1d6 minutes (to a minimum of a full-round action), and halves the penalty to disguise yourself as a different race whenever such recoloration is necessary. Each use of the kit changes either hair or skin color. If you need to change both your hair color and your skin color, you must spend two uses of the kit to gain the benefit. Each dye takes 1 minute to apply (thus requiring 2 minutes to change both hair and skin color). Once applied, the colors are waterproof, and can't be rubbed or burned away. An application of dye fades after 1d4+1 days unless removed earlier by magical means. Applying a new application of alchemical dye immediately covers and replaces a previous application. An alchemical dye kit is exhausted after 10 uses.</p>
+<p>This kit provides a variety of creamy liquids in glass jars, and allows you to temporarily change the color of your hair or skin to match that of a creature of any humanoid race. This includes exotic and unusual hues, such as gnome hair colors.</p>
+<p><Icons id="eq-misc-alchemical_dye_kit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> If used as part of a Disguise check, this kit reduces the time required to create the disguise by 1d6 minutes (to a minimum of a full-round action), and halves the penalty to disguise yourself as a different race whenever such recoloration is necessary.</p>
+<p>Each use of the kit changes either hair or skin color. If you need to change both your hair color and your skin color, you must spend two uses of the kit to gain the benefit. Each dye takes 1 minute to apply (thus requiring 2 minutes to change both hair and skin color). Once applied, the colors are waterproof, and can't be rubbed or burned away.</p>
+<p>An application of dye fades after 1d4+1 days unless removed earlier by magical means. Applying a new application of alchemical dye immediately covers and replaces a previous application. An alchemical dye kit is exhausted after 10 uses.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _alchemical_glue_accelerant = {title: "Alchemical glue accelerant", jsx: <><h2 id="eq-misc-alchemical_glue_accelerant-alchemical-glue-accelerant">Alchemical glue accelerant</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
 <Tabular format="misc" a="25" b="x" d="atool" />
-<p>This tiny dropper contains a liquid that speeds up the cure time of <Link to="/eq-misc/alchemical_glue">alchemical glue</Link>. Applying the accelerant is a standard action. Accelerated glue is tacky after 1 round and fully cured in 1 minute. The dropper contains 20 doses; each dose is sufficient to cure one small application of alchemical glue. The entire dropper must be used to cure a full square foot of glue.</p>
+<p><Icons id="eq-misc-alchemical_glue_accelerant-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This tiny dropper contains a liquid that speeds up the cure time of <Link to="/eq-misc/alchemical_glue">alchemical glue</Link>. Applying the accelerant is a <strong className="hl">standard action</strong>. Accelerated glue is tacky after 1 round and fully cured in 1 minute. The dropper contains 20 doses; each dose is sufficient to cure one small application of alchemical glue. The entire dropper must be used to cure a full square foot of glue.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _alchemical_glue = {title: "Alchemical glue", jsx: <><h2 id="eq-misc-alchemical_glue-alchemical-glue">Alchemical glue</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
 <Tabular format="misc" a="20" b="0.5" d="atool" />
-<p>This glue is stored as two flasks of syrupy liquid. When mixed together and allowed to cure, they form a strong bond. The glue is sufficient to coat 1 square foot of surface, or (because of waste, spills, and inaccurate mixing) up to 20 smaller applications of approximately 2 square inches each. The glue is tacky after 1 minute and fully cured after 1 hour. Pulling apart a large glued surface (at least 1 square foot) requires a DC 20 Strength check for tacky glue or DC 25 for cured glue. Pulling apart a small glued surface (anything less than 1 square foot) is a DC 15 Strength check for tacky glue or DC 20 for cured glue.</p>
+<p>This glue is stored as two flasks of syrupy liquid. When mixed together and allowed to cure, they form a strong bond. The glue is sufficient to coat 1 square foot of surface, or (because of waste, spills, and inaccurate mixing) up to 20 smaller applications of approximately 2 square inches each. The glue is tacky after 1 minute and fully cured after 1 hour.</p>
+<p>Pulling apart a large glued surface (at least 1 square foot) requires a DC 20 Strength check for tacky glue or DC 25 for cured glue. Pulling apart a small glued surface (anything less than 1 square foot) is a DC 15 Strength check for tacky glue or DC 20 for cured glue.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _alchemical_grease = {title: "Alchemical grease", jsx: <><h2 id="eq-misc-alchemical_grease-alchemical-grease">Alchemical grease</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 101</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="5" b="1" d="rem" />
-<p>Each pot of this slick black goo has sufficient contents to cover one Medium creature or two Small ones. If you coat yourself in alchemical grease, you gain a +5 alchemical bonus on Escape Artist checks, on combat maneuver checks made to escape a grapple, and to your CMD to avoid being grappled; this lasts 4 hours or until you wash it off.</p>
+<p>Each pot of this slick black goo has sufficient contents to cover one Medium creature or two Small ones.</p>
+<p><Icons id="eq-misc-alchemical_grease-def-icons" wrapper="prefixIcon" list={["def"]} /> If you coat yourself in alchemical grease, you gain a +5 alchemical bonus on <Link to="/skill/escape_artist">Escape Artist</Link> checks, on combat maneuver checks made to escape a <Link to="/rule/grapple">grapple</Link>, and to your CMD to avoid being grappled; this lasts 4 hours or until you wash it off.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
 </>};
 const _alchemical_pheromones_aggression = {hasJL:true,title: "Alchemical pheromones (aggression)", jsx: <><div className="jumpList" id="eq-misc-alchemical_pheromones_aggression-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-alchemical_pheromones_aggression-aggression">Aggression</InnerLink></li><li><InnerLink toTop to="eq-misc-alchemical_pheromones_aggression-arousal">Arousal</InnerLink></li><li><InnerLink toTop to="eq-misc-alchemical_pheromones_aggression-simple">Simple</InnerLink></li><li><InnerLink toTop to="eq-misc-alchemical_pheromones_aggression-susceptibility">Susceptibility</InnerLink></li></ul></div><h2 id="eq-misc-alchemical_pheromones_aggression-alchemical-pheromones">Alchemical pheromones</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 245</Link>, <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox pg. 20</Link>  </p>
 <p>Alchemical pheromones are variously colored liquids typically stored in glass vials. These pheromones combine the natural scent of an animal (such as a wolf), humanoid (such as a human), magical beast (such as a unicorn), or vermin (such as a centipede) with alchemical reagents that enhance and refine that scent, making the concoction potent enough to modify the behavior of a creature. A dose of alchemical pheromones must be created for the animal, magical beast, or vermin type or for a single subtype of humanoid; it typically affects only creatures of that type or subtype. The effects of the alchemical pheromone depend on the type.</p>
-<p>When it is smeared onto a surface or it is thrown as a splash weapon, the alchemical pheromone fills a 5-foot-radius area with its scent. The scent then remains active for 1 minute. A creature of the targeted type or subtype that enters that area must succeed at a DC 14 Will save or be subject to the effects of the pheromone for 1 round. If the creature remains in the affected area, it must attempt a new saving throw each round as long as the pheromone remains active. All alchemical pheromones are mind-affecting effects, but swarms (as well as any other collection of creatures that acts as a single creature) are not immune to them. Creatures that don't need to breathe are immune to alchemical pheromones, while creatures with the <Link to="/umr/scent">scent</Link> ability take a -4 penalty on saving throws against them.</p>
+<p><Icons id="eq-misc-alchemical_pheromones_aggression-aura-icons" wrapper="prefixIcon" list={["aura"]} /> When it is smeared onto a surface or it is thrown as a <Link to="/rule/splash_weapon">splash weapon</Link>, the alchemical pheromone fills a 5-foot-radius area with its scent. The scent then remains active for 1 minute. A creature of the targeted type or subtype that enters that area must succeed at a DC 14 Will save or be subject to the effects of the pheromone for 1 round. If the creature remains in the affected area, it must attempt a new saving throw each round as long as the pheromone remains active.</p>
+<p>All alchemical pheromones are mind-affecting effects, but swarms (as well as any other collection of creatures that acts as a single creature) are not immune to them. Creatures that don't need to breathe are immune to alchemical pheromones, while creatures with the <Link to="/umr/scent">scent</Link> ability take a -4 penalty on saving throws against them.</p>
 <h3 id="eq-misc-alchemical_pheromones_aggression-aggression" data-hash-target>Aggression</h3>
 <Tabular format="misc" id="aggro" a="150" b="x" d="atool" />
-<p>Affected creatures are driven into a mindless frenzy, as if affected by simultaneous <Link to="/spell/confusion">confusion</Link> and <Link to="/spell/rage">rage</Link> spells.</p>
+<p><Icons id="eq-misc-alchemical_pheromones_aggression-lower-icons" wrapper="prefixIcon" list={["lower"]} /> Affected creatures are driven into a mindless frenzy, as if affected by simultaneous <Link to="/spell/confusion">confusion</Link> and <Link to="/spell/rage">rage</Link> spells.</p>
 <h3 id="eq-misc-alchemical_pheromones_aggression-arousal" data-hash-target>Arousal</h3>
 <Tabular format="misc" id="arousal" a="300" b="x" d="atool" />
-<p>Affected creatures are aroused and distracted, causing them to lose their Dexterity bonus to AC.</p>
+<p><Icons id="eq-misc-alchemical_pheromones_aggression-lower-icons" wrapper="prefixIcon" list={["lower"]} /> Affected creatures are aroused and distracted, causing them to lose their Dexterity bonus to AC.</p>
 <h3 id="eq-misc-alchemical_pheromones_aggression-simple" data-hash-target>Simple</h3>
 <Tabular format="misc" id="simple" a="1" b="x" d="atool" />
-<p>An affected creature is <Link to="/misc/staggered">staggered</Link> for 1 round. Whether the target succeeds at or fails the saving throw, it becomes immune to simple alchemical pheromones for 24 hours.</p>
+<p><Icons id="eq-misc-alchemical_pheromones_aggression-lower-icons" wrapper="prefixIcon" list={["lower"]} /> An affected creature is <Link to="/misc/staggered">staggered</Link> for 1 round. Whether the target succeeds at or fails the saving throw, it becomes immune to simple alchemical pheromones for 24 hours.</p>
 <h3 id="eq-misc-alchemical_pheromones_aggression-susceptibility" data-hash-target>Susceptibility</h3>
 <Tabular format="misc" id="suscept" a="300" b="x" d="atool" />
-<p>Affected creatures are forced to obey one specific, simple command, as if affected by a <Link to="/spell/command">command</Link> spell. The command is chosen when the pheromone is created, and must be a something simple, such as approach, drop, fall, flee, or halt (as defined by the <em>command</em> spell).</p>
+<p><Icons id="eq-misc-alchemical_pheromones_aggression-magic-icons" wrapper="prefixIcon" list={["magic"]} /> Affected creatures are forced to obey one specific, simple command, as if affected by a <Link to="/spell/command">command</Link> spell. The command is chosen when the pheromone is created, and must be a something simple, such as approach, drop, fall, flee, or halt (as defined by the <em>command</em> spell).</p>
 </>};
 const _alchemical_preserves = {title: "Alchemical preserves", jsx: <><h2 id="eq-misc-alchemical_preserves-alchemical-preserves">Alchemical preserves</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 65</Link>  </p>
 <Tabular format="misc" a="50" b="x" d="rem" />
-<p>Each small tin of this specially treated jam contains just enough of the gooey stuff to provide a <Link to="/race/halfling">halfling</Link> with a single serving of revitalizing nourishment. While any creature can eat these preserves as a standard action, it only affects halflings in a beneficial way. Halflings who eat the preserves recover from <Link to="/misc/fatigue">fatigue</Link>. Non-halflings who eat alchemical preserves become <Link to="/misc/sickened">sickened</Link> for 1 round.</p>
+<p>Each small tin of this specially treated jam contains just enough of the gooey stuff to provide a <Link to="/race/halfling">halfling</Link> with a single serving of revitalizing nourishment.</p>
+<p><Icons id="eq-misc-alchemical_preserves-aid-down-icons" wrapper="prefixIcon" list={["aid","down"]} /> While any creature can eat these preserves as a <strong className="hl">standard action</strong>, it only affects halflings in a beneficial way. Halflings who eat the preserves recover from <Link to="/misc/fatigue">fatigue</Link>. Non-halflings who eat alchemical preserves become <Link to="/misc/sickened">sickened</Link> for 1 round.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _alchemical_resin = {title: "Alchemical resin", jsx: <><h2 id="eq-misc-alchemical_resin-alchemical-resin">Alchemical resin</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 246</Link>  </p>
 <Tabular format="misc" a="100" b="x" d="atool" />
-<p>When applied to your hands, this clear, sticky substance made from alchemically prepared pine sap provides a +2 alchemical bonus to your CMD against disarm attempts, on combat maneuver checks to grapple, and on Climb checks; it also functions underwater. Applying the resin is a standard action, and it wears off 1 hour after being applied.</p>
+<p><Icons id="eq-misc-alchemical_resin-def-boost-icons" wrapper="prefixIcon" list={["def","boost"]} /> When applied to your hands, this clear, sticky substance made from alchemically prepared pine sap provides a +2 alchemical bonus to your CMD against <Link to="/rule/disarm">disarm</Link> attempts, on combat maneuver checks to <Link to="/rule/grapple">grapple</Link>, and on <Link to="/skill/climb">Climb</Link> checks; it also functions underwater.</p>
+<p>Applying the resin is a <strong className="hl">standard action</strong>, and it wears off 1 hour after being applied.</p>
 </>};
 const _alchemical_sling_bullet = {title: "Alchemical sling bullet", jsx: <><h2 id="eq-misc-alchemical_sling_bullet-alchemical-sling-bullet">Alchemical sling bullet</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 117</Link>  </p>
@@ -186,7 +204,7 @@ const _alchemical_tar_paper = {title: "Alchemical tar paper", jsx: <><h2 id="eq-
 const _alchemists_kindness = {title: "Alchemist's kindness", jsx: <><h2 id="eq-misc-alchemists_kindness-alchemists-kindness">Alchemist's kindness</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 101</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link>  </p>
 <Tabular format="misc" a="1" b="x" d="rem" />
-<p>Favored by young rakes and other well-to-do inebriates, this crystalline powder resembles salt. Mixed with water, it makes a fizzing cocktail that eliminates the effects of a hangover within 10 minutes of drinking it.</p>
+<p><Icons id="eq-misc-alchemists_kindness-aid-icons" wrapper="prefixIcon" list={["aid"]} /> Favored by young rakes and other well-to-do inebriates, this crystalline powder resembles salt. Mixed with water, it makes a fizzing cocktail that eliminates the effects of a hangover within 10 minutes of drinking it.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _alchemists_kit = {title: "Alchemist's kit", jsx: <><h2 id="eq-misc-alchemists_kit-alchemists-kit">Alchemist's kit</h2>
@@ -212,7 +230,7 @@ const _ale_gallon = {title: "Ale (gallon)", jsx: <><h2 id="eq-misc-ale_gallon-al
 const _alkali_salt = {title: "Alkali salt", jsx: <><h2 id="eq-misc-alkali_salt-alkali-salt">Alkali salt</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeon_denizens_revisited">Dungeon Denizens Revisited pg. 19</Link>  </p>
 <Tabular format="misc" a="30" b="x" d="atool" />
-<p>These tiny granules can be dissolved in water, creating a slimy material used to coat metallic items such as weapons or armor. Such a coating neutralizes the metal-eating acid of <Link to="/monster/black_pudding">black puddings</Link> and <Link to="/monster/gray_ooze">gray oozes</Link>, protecting the item from 1d3 contacts with an ooze's acidic touch.</p>
+<p><Icons id="eq-misc-alkali_salt-def-icons" wrapper="prefixIcon" list={["def"]} /> These tiny granules can be dissolved in water, creating a slimy material used to coat metallic items such as weapons or armor. Such a coating neutralizes the metal-eating acid of <Link to="/monster/black_pudding">black puddings</Link> and <Link to="/monster/gray_ooze">gray oozes</Link>, protecting the item from 1d3 contacts with an ooze's acidic touch.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _allnight = {title: "Allnight", jsx: <><h2 id="eq-misc-allnight-allnight">Allnight</h2>
@@ -332,19 +350,21 @@ const _dinosaurs_and_megafauna = {title: "Dinosaurs and Megafauna", jsx: <><h2 i
 const _alluring_philter = {title: "Alluring philter", jsx: <><h2 id="eq-misc-alluring_philter-alluring-philter">Alluring philter</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 22</Link>  </p>
 <Tabular format="misc" a="150" b="x" d="tinc" />
-<p>This simple, rosy liquid smells of fresh flowers and perfume. For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on Diplomacy checks, and if you fail a Diplomacy check to shift a creature's attitude by 5 or more, the creature's attitude toward you doesn't worsen. The increased pheromone production makes it difficult to think, causing you take a -2 penalty on Intelligence-based skill checks for the same duration. Additionally, creatures with the <Link to="/umr/scent">scent</Link> ability can detect you from twice as far away for the same duration.</p>
+<p>This simple, rosy liquid smells of fresh flowers and perfume.</p>
+<p><Icons id="eq-misc-alluring_philter-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on Diplomacy checks, and if you fail a Diplomacy check to shift a creature's attitude by 5 or more, the creature's attitude toward you doesn't worsen. The increased pheromone production makes it difficult to think, causing you take a -2 penalty on Intelligence-based skill checks for the same duration. Additionally, creatures with the <Link to="/umr/scent">scent</Link> ability can detect you from twice as far away for the same duration.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _ambrosia_vial = {title: "Ambrosia (vial)", jsx: <><h2 id="eq-misc-ambrosia_vial-ambrosia-vial">Ambrosia (vial)</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 87</Link>  </p>
 <Tabular format="misc" a="100" b="1" d="rem" />
-<p>Upon consumption, this heavenly elixir, brewed from holy water and blessed herbs, grants a +2 sacred bonus on saving throws against negative energy, energy drain, and death effects for 1 hour, including saves to remove negative levels. Ambrosia affects undead and evil outsiders as <Link to="/eq-weapon/holy_water">holy water</Link>.</p>
+<p><Icons id="eq-misc-ambrosia_vial-defupon-icons" wrapper="prefixIcon" list={["defUpon"]} /> consumption, this heavenly elixir, brewed from holy water and blessed herbs, grants a +2 sacred bonus on saving throws against negative energy, <Link to="/rule/energy_drain">energy drain</Link>, and death effects for 1 hour, including saves to remove negative levels. Ambrosia affects undead and evil outsiders as <Link to="/eq-weapon/holy_water">holy water</Link>.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _amp = {title: "Amp", jsx: <><h2 id="eq-misc-amp-amp">Amp</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 19</Link>  </p>
 <Tabular format="misc" a="30" b="x" d="atool" />
-<p>This liquid intensifier can be added to a drug as a move action no more than 1 round before the drug is taken. Amp increases all numeric effects of a drug by 50%, including any bonuses, penalties, and ability damage inflicted by the drug. Using amp with a drug increases the save DC to avoid becoming addicted to that drug by 2 for 1d4 days; this increase stacks. If a drug combined with amp is not consumed within 1 round, the amp spoils and the drug becomes tainted, as if cut with <Link to="/eq-misc/bunk">bunk</Link>.</p>
+<p><Icons id="eq-misc-amp-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> This liquid intensifier can be added to a drug as a <strong className="hl">move action</strong> no more than 1 round before the drug is taken. Amp increases all numeric effects of a drug by 50%, including any bonuses, penalties, and ability damage inflicted by the drug. Using amp with a drug increases the save DC to avoid becoming addicted to that drug by 2 for 1d4 days; this increase stacks.</p>
+<p>If a drug combined with amp is not consumed within 1 round, the amp spoils and the drug becomes tainted, as if cut with <Link to="/eq-misc/bunk">bunk</Link>.</p>
 <p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (6 quicksilver + 10 realgar)/distillation; <strong>Craft DC</strong> 20<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/retort">retort</Link>; <strong>Type</strong> alchemical tool</p>
 </>};
 const _anchoring_balloon = {title: "Anchoring balloon", jsx: <><h2 id="eq-misc-anchoring_balloon-anchoring-balloon">Anchoring balloon</h2>
@@ -355,20 +375,24 @@ const _anchoring_balloon = {title: "Anchoring balloon", jsx: <><h2 id="eq-misc-a
 const _anderos_salve_and_mulibrous_tincture = {title: "Anderos salve and mulibrous tincture", jsx: <><h2 id="eq-misc-anderos_salve_and_mulibrous_tincture-anderos-salve-and-mulibrous-tincture">Anderos salve and mulibrous tincture</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 168</Link>  </p>
 <Tabular format="misc" a="5" b="x" d="rem" />
-<p>Anderos salve and mulibrous tincture are two very different alchemical concoctions with contrary but similar goals: refining the mortal body and quieting mental stresses. Anderos salve is a gray paste applied to the arms or chest that helps restore youthful vigor, while mulibrous tincture is a bitter, minty tea that eases pain and softens skin. If a dose of anderos salve is applied at least twice per week over a period of months, the user's feminine secondary sex characteristics are gradually reduced and masculine ones develop; imbibing mulibrous tincture in this way reduces the drinker's masculine secondary sex characteristics and feminine ones develop. Taking a dose of each concoction every week instead softens all secondary sex characteristics, causing the user to take on an androgynous appearance. After a period of 6 months, the transformation is permanent, with no further doses required to maintain the new form.</p>
+<p>Anderos salve and mulibrous tincture are two very different alchemical concoctions with contrary but similar goals: refining the mortal body and quieting mental stresses. Anderos salve is a gray paste applied to the arms or chest that helps restore youthful vigor, while mulibrous tincture is a bitter, minty tea that eases pain and softens skin.</p>
+<p>If a dose of anderos salve is applied at least twice per week over a period of months, the user's feminine secondary sex characteristics are gradually reduced and masculine ones develop; imbibing mulibrous tincture in this way reduces the drinker's masculine secondary sex characteristics and feminine ones develop. Taking a dose of each concoction every week instead softens all secondary sex characteristics, causing the user to take on an androgynous appearance. After a period of 6 months, the transformation is permanent, with no further doses required to maintain the new form.</p>
 <p>While these alchemical solutions do not cause as swift or extensive a change as magical alternatives, they are far more affordable, especially among the <Link to="/rule/rivethun">Rivethun</Link>, who often teach the process of their creation to their disciples.</p>
 </>};
 const _anesthetic_wine = {title: "Anesthetic wine", jsx: <><h2 id="eq-misc-anesthetic_wine-anesthetic-wine">Anesthetic wine</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 29</Link>  </p>
 <Tabular format="misc" a="50" b="1" d="rem" />
-<p>This alchemical anesthetic, developed from ancient recipes for Sarenite sacred wine, grants a powerful resistance to pain. For 1 hour after drinking anesthetic wine, you gain a +5 bonus on saving throws against pain effects, and when you would take nonlethal damage, reduce the amount of damage taken by 1.</p>
+<p>This alchemical anesthetic, developed from ancient recipes for Sarenite sacred wine, grants a powerful resistance to pain.</p>
+<p><Icons id="eq-misc-anesthetic_wine-def-icons" wrapper="prefixIcon" list={["def"]} /> For 1 hour after drinking anesthetic wine, you gain a +5 bonus on saving throws against pain effects, and when you would take nonlethal damage, reduce the amount of damage taken by 1.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _angel_quill_arrowhead = {title: "Angel quill arrowhead", jsx: <><h2 id="eq-misc-angel_quill_arrowhead-angel-quill-arrowhead">Angel quill arrowhead</h2>
 <p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook pg. 18</Link>  </p>
 <Tabular format="misc" a="10" b="x" d="atool" />
-<p>This barbed, <Link to="/eq-material/cold_iron">cold iron</Link> arrowhead is alchemically treated to inflict additional harm while embedded in creatures that are vulnerable to cold iron. For every angel quill arrowhead that damages a target with DR/cold iron, the target's damage reduction decreases by 1. Up to five angel quill arrowheads can affect a single target at any one time, reducing the target's DR/cold iron by up to 5 (additional arrowheads have no effect aside from dealing damage as normal). An affected target can pull out a number of arrowheads equal to her Dexterity modifier (minimum 1) as a full-round action with a successful DC 15 Heal check. Alternatively, the application of any magical healing causes all angel quill arrowheads embedded in the creature to instantly fall out.</p>
-<p>Angel quill arrowheads of silver and adamantine are also available for the same price, and affect creatures with DR/silver or DR/adamantine, respectively. Crafting any type of angel quill arrowhead requires a successful DC 25 Craft (alchemy) check.</p>
+<p>This barbed, <Link to="/eq-material/cold_iron">cold iron</Link> arrowhead is alchemically treated to inflict additional harm while embedded in creatures that are vulnerable to cold iron.</p>
+<p><Icons id="eq-misc-angel_quill_arrowhead-lower-icons" wrapper="prefixIcon" list={["lower"]} /> For every angel quill arrowhead that damages a target with DR/cold iron, the target's damage reduction decreases by 1. Up to five angel quill arrowheads can affect a single target at any one time, reducing the target's DR/cold iron by up to 5 (additional arrowheads have no effect aside from dealing damage as normal).</p>
+<p>An affected target can pull out a number of arrowheads equal to her Dexterity modifier (minimum 1) as a <strong className="hl">full-round action</strong> with a successful DC 15 <Link to="/skill/heal">Heal</Link> check. Alternatively, the application of any magical healing causes all angel quill arrowheads embedded in the creature to instantly fall out.</p>
+<p>Angel quill arrowheads of <Link to="/eq-material/silver">silver</Link> and <Link to="/eq-material/adamantine">adamantine</Link> are also available for the same price, and affect creatures with DR/silver or DR/adamantine, respectively.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _angelstep = {title: "Angelstep", jsx: <><h2 id="eq-misc-angelstep-angelstep">Angelstep</h2>
@@ -416,7 +440,7 @@ const _animal_repellant_sack = {title: "Animal-repellant sack", jsx: <><h2 id="e
 const _anointing_oil = {title: "Anointing oil", jsx: <><h2 id="eq-misc-anointing_oil-anointing-oil">Anointing oil</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 87</Link>  </p>
 <Tabular format="misc" a="25" b="1" d="atool" />
-<p>This sacred oil, infused with aromatic spices and distilled <Link to="/eq-weapon/holy_water">holy water</Link>, may be applied to a creature while casting a harmless divine spell with a range of touch, increasing the casting time to a full-round action but also increasing the caster's effective caster level by +1 for that spell.</p>
+<p><Icons id="eq-misc-anointing_oil-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This sacred oil, infused with aromatic spices and distilled <Link to="/eq-weapon/holy_water">holy water</Link>, may be applied to a creature while casting a harmless divine spell with a range of touch, increasing the casting time to a full-round action but also increasing the caster's effective caster level by +1 for that spell.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _animals = {title: "Animals", jsx: <><h2 id="eq-misc-animals-animals">Animals</h2>
@@ -564,33 +588,43 @@ const _antidote_kit = {title: "Antidote kit", jsx: <><h2 id="eq-misc-antidote_ki
 const _antidote = {title: "Antidote", jsx: <><h2 id="eq-misc-antidote-antidote">Antidote</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 50</Link>  </p>
 <Tabular format="misc" a="varies" b="&mdash;" c="x" d="rem" />
-<p>Generally stored in a glass vial, an antidote is formulated to counteract a specific poison chosen at the time of the antidote's creation. Drinking the antidote grants a +10 alchemical bonus on saving throws against that poison for 4 hours. If the imbiber succeeds at a saving throw with this bonus, she is automatically cured even if she would not normally be cured by successful saving throws or the number required to cure her has not been met yet. However, the antidote has no effect against other poisons. An antidote's price is half that of the poison it counteracts. An antidote has no effect against a magical poison. The Craft (alchemy) DC to create an antidote is equal to the save DC of the poison.</p>
+<p>Generally stored in a glass vial, an antidote is formulated to counteract a specific poison chosen at the time of the antidote's creation.</p>
+<p><Icons id="eq-misc-antidote-def-icons" wrapper="prefixIcon" list={["def"]} /> Drinking the antidote grants a +10 alchemical bonus on saving throws against that poison for 4 hours. If the imbiber succeeds at a saving throw with this bonus, she is automatically cured even if she would not normally be cured by successful saving throws or the number required to cure her has not been met yet. However, the antidote has no effect against other poisons.</p>
+<p>An antidote's price is half that of the poison it counteracts. An antidote has no effect against a magical poison.</p>
+<p>The Craft (alchemy) DC to create an antidote is equal to the save DC of the poison.</p>
 </>};
 const _antiemetic_snuff = {title: "Antiemetic snuff", jsx: <><h2 id="eq-misc-antiemetic_snuff-antiemetic-snuff">Antiemetic snuff</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 206</Link>  </p>
 <Tabular format="misc" a="50" b="x" d="rem" />
-<p>This snuff can be used to shake off the effects of nausea. If you take it before being exposed to an effect that would give you the <Link to="/misc/nauseated">nauseated</Link> condition and allows a saving throw, you attempt two saving throws against the effect and take the higher result. A single dose provides this benefit for 1 hour.</p>
+<p>This snuff can be used to shake off the effects of nausea.</p>
+<p><Icons id="eq-misc-antiemetic_snuff-roll-icons" wrapper="prefixIcon" list={["roll"]} /> If you take it before being exposed to an effect that would give you the <Link to="/misc/nauseated">nauseated</Link> condition and allows a saving throw, you attempt two saving throws against the effect and take the higher result. A single dose provides this benefit for 1 hour.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _antiplague = {title: "Antiplague", jsx: <><h2 id="eq-misc-antiplague-antiplague">Antiplague</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 101</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="50" b="x" d="rem" />
-<p>If you drink a vial of this foul-tasting, milky tonic, you gain a +5 alchemical bonus on Fortitude saving throws against disease for the next hour. If already infected, you may also make two saving throws (without the +5 bonus) that day and use the better result.</p>
+<p><Icons id="eq-misc-antiplague-def-roll-icons" wrapper="prefixIcon" list={["def","roll"]} /> If you drink a vial of this foul-tasting, milky tonic, you gain a +5 alchemical bonus on Fortitude saving throws against disease for the next hour. If already infected, you may also make two saving throws (without the +5 bonus) that day and use the better result.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _antitoxin = {title: "Antitoxin", jsx: <><h2 id="eq-misc-antitoxin-antitoxin">Antitoxin</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 30</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 101</Link>  </p>
 <Tabular format="misc" a="50" b="x" d="rem" />
-<p>This substance counteracts a specific toxin. If you drink a vial of antitoxin, you gain a +5 alchemical bonus on Fortitude saving throws against poison for 1 hour.</p>
+<p><Icons id="eq-misc-antitoxin-def-icons" wrapper="prefixIcon" list={["def"]} /> This substance counteracts a specific toxin. If you drink a vial of antitoxin, you gain a +5 alchemical bonus on Fortitude saving throws against poison for 1 hour.</p>
 <p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (7 gold + 17 myrrh + 23 urea)/ceration; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/crucible">crucible</Link>; <strong>Type</strong> alchemical remedy</p>
 </>};
 const _antivenom = {title: "Antivenom", jsx: <><h2 id="eq-misc-antivenom-antivenom">Antivenom</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 143</Link>  </p>
 <Tabular format="misc" a="varies" b="&mdash;" c="x" d="rem" />
-<p>While antitoxin presents a generalized tool for protecting oneself from poison, more specialized antivenoms can provide even greater protection against specific poisons. Creating a dose of antivenom requires a dose of the specific poison that the antivenom is designed to protect against.</p>
-<p><strong className="hl">Antivenom Effects:</strong> A single dose of antivenom automatically neutralizes the first exposure of the specific poison it is made to combat and provides a +8 alchemical bonus on saving throws against additional exposure to that specific poison; this bonus decreases by 1 every hour, until the effect ends after 8 hours.</p>
-<p><strong className="hl">Crafting Antivenom:</strong> To create a dose of antivenom, a living creature must first be exposed to a half dose of the poison in question. The creature suffers the poison's effects normally, except the saving throw DC to resist the poison is reduced by 2. In order to be able to produce antivenom, the creature must succeed at the necessary saving throws to be cured of the poison. If the poison's duration expires without the creature being cured, no antivenom can be harvested. Once the creature has resisted the poison's effects, a viable sample of the creature's blood can be extracted with a successful DC 20 Craft (alchemy) or Heal check. This blood must then be refined to extract the natural antibodies that combat the poison in a process that takes 1 hour and requires a successful Craft (alchemy) check (DC = 5 + the poison's saving throw DC). Success yields 1 dose of antivenom. Antivenom can also be harvested in the same fashion from a creature that has been afflicted by a full dose of poison, rather than a creature deliberately given a half dose for this purpose. Regardless of how much poison the creature is exposed to, the antibodies in its system can be harvested only for 24 hours after it has recovered from the poison.</p>
-<p><strong className="hl">Purchasing Antivenom:</strong> Antivenom is not particularly expensive, but because it is highly specialized, it can be difficult to find. A dose of antivenom has a market price equal to half the market price of a dose of the poison in question, but it is treated as though its price were five times the market price of the poison for the purposes of determining its availability in any given settlement. Alternatively, if 1 or more doses of the poison in question can be provided, most alchemists will supply as much antivenom as they can produce from the doses for a fee of 10% of the market price of the poison.</p>
+<p>While <Link to="/eq-misc/antitoxin">antitoxin</Link> presents a generalized tool for protecting oneself from poison, more specialized antivenoms can provide even greater protection against specific poisons. Creating a dose of antivenom requires a dose of the specific poison that the antivenom is designed to protect against.</p>
+<p><Icons id="eq-misc-antivenom-aid-def-icons" wrapper="prefixIcon" list={["aid","def"]} /> A single dose of antivenom automatically neutralizes the first exposure of the specific poison it is made to combat and provides a +8 alchemical bonus on saving throws against additional exposure to that specific poison; this bonus decreases by 1 every hour, until the effect ends after 8 hours.</p>
+<h3 id="eq-misc-antivenom-crafting">Crafting</h3>
+<p>To create a dose of antivenom, a living creature must first be exposed to a half dose of the poison in question. The creature suffers the poison's effects normally, except the saving throw DC to resist the poison is reduced by 2.</p>
+<p>In order to be able to produce antivenom, the creature must succeed at the necessary saving throws to be cured of the poison. If the poison's duration expires without the creature being cured, no antivenom can be harvested.</p>
+<p>Once the creature has resisted the poison's effects, a viable sample of the creature's blood can be extracted with a successful DC 20 <Link to="/skill/craft">Craft</Link> (alchemy) or <Link to="/skill/heal">Heal</Link> check. This blood must then be refined to extract the natural antibodies that combat the poison in a process that takes 1 hour and requires a successful Craft (alchemy) check (DC = 5 + the poison's saving throw DC). Success yields 1 dose of antivenom.</p>
+<p>Antivenom can also be harvested in the same fashion from a creature that has been afflicted by a full dose of poison, rather than a creature deliberately given a half dose for this purpose. Regardless of how much poison the creature is exposed to, the antibodies in its system can be harvested only for 24 hours after it has recovered from the poison.</p>
+<h3 id="eq-misc-antivenom-purchasing-antivenom">Purchasing Antivenom</h3>
+<p>Antivenom is not particularly expensive, but because it is highly specialized, it can be difficult to find. A dose of antivenom has a market price equal to half the market price of a dose of the poison in question, but it is treated as though its price were five times the market price of the poison for the purposes of determining its availability in any given settlement.</p>
+<p>Alternatively, if 1 or more doses of the poison in question can be provided, most alchemists will supply as much antivenom as they can produce from the doses for a fee of 10% of the market price of the poison.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC varies</p>
 </>};
 const _anulite_paprika = {title: "Anulite paprika", jsx: <><h2 id="eq-misc-anulite_paprika-anulite-paprika">Anulite paprika</h2>
@@ -608,7 +642,7 @@ const _anvil = {title: "Anvil", jsx: <><h2 id="eq-misc-anvil-anvil">Anvil</h2>
 const _applecheek = {title: "Applecheek", jsx: <><h2 id="eq-misc-applecheek-applecheek">Applecheek</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 44</Link>, <Link to="/source/pathfinder_106_for_queen_and_empire">Pathfinder #106: For Queen and Empire pg. 75</Link>  </p>
 <Tabular format="misc" a="10" b="1" d="rem" />
-<p>This sticky-sweet syrup is distilled from ivy and rabbit musk, and causes a mild allergic reaction in <Link to="/race/halfling">halflings</Link>. The slight swelling - especially in the face - and mild redness it induces makes the face seem younger, granting a halfling who drinks a dose of applecheek a +2 alchemical bonus on Disguise checks to look like an elven, half-elven, or human child. The effects of a dose of applecheek persist for 24 hours. Crafting a dose of applecheek requires a successful DC 15 Craft (alchemy) check.</p>
+<p><Icons id="eq-misc-applecheek-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This sticky-sweet syrup is distilled from ivy and rabbit musk, and causes a mild allergic reaction in <Link to="/race/halfling">halflings</Link>. The slight swelling - especially in the face - and mild redness it induces makes the face seem younger, granting a halfling who drinks a dose of applecheek a +2 alchemical bonus on <Link to="/skill/disguise">Disguise</Link> checks to look like an elven, half-elven, or human child. The effects of a dose of applecheek persist for 24 hours.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
 </>};
 const _applejack_gallon = {title: "Applejack (gallon)", jsx: <><h2 id="eq-misc-applejack_gallon-applejack">Applejack</h2>
@@ -634,7 +668,9 @@ const _aquatic_pinger = {title: "Aquatic pinger", jsx: <><h2 id="eq-misc-aquatic
 const _aquemir = {title: "Aquemir", jsx: <><h2 id="eq-misc-aquemir-aquemir">Aquemir</h2>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 31</Link>  </p>
 <Tabular format="misc" a="150" b="x" d="rem" />
-<p>A popular export from the Forest of Oils - a field of massive oil bubbles on the Elemental Plane of Water - aquemir is a transparent substance extracted from the skins of autonomous oil orbs and refined into a useful alchemical reagent. As a standard action, aquemir can be mixed with an alchemical remedy, extract, or potion to delay the start of its effects by 2 minutes when it is imbibed. Administering a potion or extract that's properly infused with aquemir requires 1 dose of aquemir per spell level to function in this way, whereas an alchemical remedy only requires 1 dose. If not enough aquemir is mixed with a potion or extract, the potion or extract's effects are not delayed at all. A creature can internally store only one substance that uses aquemir; further attempts waste all imbibed substances (and immediately render inert all potions, extracts, alchemical remedies, and so on) and cause the creature to become <Link to="/misc/nauseated">nauseated</Link> for 1d4 rounds. Crafting this item requires a successful DC 30 Craft (alchemy) check.</p>
+<p>A popular export from the Forest of Oils - a field of massive oil bubbles on the Elemental Plane of Water - aquemir is a transparent substance extracted from the skins of autonomous oil orbs and refined into a useful alchemical reagent.</p>
+<p><Icons id="eq-misc-aquemir-power-icons" wrapper="prefixIcon" list={["power"]} /> As a <strong className="hl">standard action</strong>, aquemir can be mixed with an alchemical remedy, extract, or potion to delay the start of its effects by 2 minutes when it is imbibed. Administering a potion or extract that's properly infused with aquemir requires 1 dose of aquemir per spell level to function in this way, whereas an alchemical remedy only requires 1 dose. If not enough aquemir is mixed with a potion or extract, the potion or extract's effects are not delayed at all.</p>
+<p><Icons id="eq-misc-aquemir-warning-icons" wrapper="prefixIcon" list={["warning"]} /> A creature can internally store only one substance that uses aquemir; further attempts waste all imbibed substances (and immediately render inert all potions, extracts, alchemical remedies, and so on) and cause the creature to become <Link to="/misc/nauseated">nauseated</Link> for 1d4 rounds.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 30</p>
 </>};
 const _arcane_adept_package = {title: "Arcane adept package", jsx: <><h2 id="eq-misc-arcane_adept_package-arcane-adept-package">Arcane adept package</h2>
@@ -669,7 +705,7 @@ const _area_map = {title: "Area map", jsx: <><h2 id="eq-misc-area_map-area-map">
 const _armor_ointment = {title: "Armor ointment", jsx: <><h2 id="eq-misc-armor_ointment-armor-ointment">Armor ointment</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
 <Tabular format="misc" a="30" b="1" d="atool" />
-<p>This thick lubricant makes the joints of armor move more freely. Applying the ointment takes 1 minute and reduces your armor's armor check penalty by 1 (to a minimum of -1) for 8 hours.</p>
+<p><Icons id="eq-misc-armor_ointment-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This thick lubricant makes the joints of armor move more freely. Applying the ointment takes 1 minute and reduces your armor's armor check penalty by 1 (to a minimum of -1) for 8 hours.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
 </>};
 const _armor_truss = {title: "Armor truss", jsx: <><h2 id="eq-misc-armor_truss-armor-truss">Armor truss</h2>
@@ -713,7 +749,8 @@ const _artists_poster = {title: "Artist's poster", jsx: <><h2 id="eq-misc-artist
 const _artistic_ale = {title: "Artistic ale", jsx: <><h2 id="eq-misc-artistic_ale-artistic-ale">Artistic ale</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 22</Link>  </p>
 <Tabular format="misc" a="300" b="x" d="tinc" />
-<p>Favored by performers of all kinds, this tincture is a blend of alchemically enhanced herbs and spices mixed into a pint of ale. For 6 hours after drinking this tincture, you gain a +2 alchemical bonus on Bluff and Perform checks, and you treat your level as 1 higher for the purpose of determining the effects of a <Link to="/ability/bardic_performance">bardic performance</Link> or a <Link to="/ability/raging_song">raging song</Link>. The potent drink causes you take a -2 penalty on Acrobatics, Intimidate, Knowledge, Sense Motive, and Spellcraft checks for the same duration.</p>
+<p>Favored by performers of all kinds, this tincture is a blend of alchemically enhanced herbs and spices mixed into a pint of <Link to="/eq-misc/ale_mug">ale</Link>.</p>
+<p><Icons id="eq-misc-artistic_ale-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> For 6 hours after drinking this tincture, you gain a +2 alchemical bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/perform">Perform</Link> checks, and you treat your level as 1 higher for the purpose of determining the effects of a <Link to="/ability/bardic_performance">bardic performance</Link> or a <Link to="/ability/raging_song">raging song</Link>. The potent drink causes you take a -2 penalty on <Link to="/skill/acrobatics">Acrobatics</Link>, <Link to="/skill/intimidate">Intimidate</Link>, <Link to="/skill/knowledge">Knowledge</Link>, <Link to="/skill/sense_motive">Sense Motive</Link>, and <Link to="/skill/spellcraft">Spellcraft</Link> checks for the same duration.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _astrolabe = {title: "Astrolabe", jsx: <><h2 id="eq-misc-astrolabe-astrolabe">Astrolabe</h2>
@@ -932,7 +969,9 @@ const _banquet_per_person = {title: "Banquet (per person)", jsx: <><h2 id="eq-mi
 const _barbarian_chew = {title: "Barbarian chew", jsx: <><h2 id="eq-misc-barbarian_chew-barbarian-chew">Barbarian chew</h2>
 <p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends pg. 15</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide pg. 12</Link>, <Link to="/source/rise_of_the_runelords_players_guide">Rise of the Runelords Player's Guide pg. 11</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="25" b="1" d="atool" />
-<p>The Shoanti of the Cinderlands combine lime, crimson galtroot leaves, and some say horse blood to create this invigorating chew. Aside from staining the teeth a bloody shade, barbarian chew causes the user to feel stronger, but also angrier. One use of barbarian chew grants a barbarian +1 additional round of rage. This additional round is used first when a barbarian begins raging. If a barbarian does not rage within 1 hour of using the chew, this additional round of rage is lost. This benefit can be gained only once per day; consuming multiple doses in a 24-hour period has no additional effects. Barbarian chew can be created with a successful DC 20 Craft (alchemy) check.</p>
+<p>The Shoanti of the Cinderlands combine lime, crimson galtroot leaves, and some say horse blood to create this invigorating chew. Aside from staining the teeth a bloody shade, barbarian chew causes the user to feel stronger, but also angrier.</p>
+<p><Icons id="eq-misc-barbarian_chew-boost-icons" wrapper="prefixIcon" list={["boost"]} /> One use of barbarian chew grants a barbarian +1 additional round of rage. This additional round is used first when a barbarian begins raging. If a barbarian does not rage within 1 hour of using the chew, this additional round of rage is lost.</p>
+<p>This benefit can be gained only once per day; consuming multiple doses in a 24-hour period has no additional effects.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _barbarians_kit = {title: "Barbarian's kit", jsx: <><h2 id="eq-misc-barbarians_kit-barbarians-kit">Barbarian's kit</h2>
@@ -1023,8 +1062,10 @@ const _beast_hunter_whistle = {title: "Beast-hunter whistle", jsx: <><h2 id="eq-
 const _beast_scent = {title: "Beast-scent", jsx: <><h2 id="eq-misc-beast_scent-beast-scent">Beast-scent</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 24</Link>, <Link to="/source/seekers_of_secrets">Seekers of Secrets pg. 42</Link>  </p>
 <Tabular format="misc" a="75" b="0.5" d="atool" />
-<p>This mixture of scent-gland extracts and aromatic herbs serves as both attractor and olfactory camouflage. It masks the natural scent of a creature with a pungent musk that is alluring to animals. Beast-scent provides a +2 circumstance bonus on Handle Animal and wild empathy checks and a -5 penalty on attempts to track the wearer by his original scent. If the tracking creature is following the smell of beast-scent itself, Survival checks to track gain a +10 circumstance bonus instead.</p>
-<p>A single vial of beast-scent masks the scent of one Medium creature or two smaller creatures; larger creatures require proportionally more to gain the benefits. Beast-scent becomes inert after 1 hour of exposure to air. Applying a vial is a full-round action that provokes attacks of opportunity.</p>
+<p>This mixture of scent-gland extracts and aromatic herbs serves as both attractor and olfactory camouflage. It masks the natural scent of a creature with a pungent musk that is alluring to animals.</p>
+<p><Icons id="eq-misc-beast_scent-boost-def-icons" wrapper="prefixIcon" list={["boost","def"]} /> Beast-scent provides a +2 circumstance bonus on <Link to="/skill/handle_animal">Handle Animal</Link> and <Link to="/ability/wild_empathy">wild empathy</Link> checks and a -5 penalty on attempts to track the wearer by his original scent.</p>
+<p><Icons id="eq-misc-beast_scent-warning-icons" wrapper="prefixIcon" list={["warning"]} /> If the tracking creature is following the smell of beast-scent itself, <Link to="/skill/survival">Survival</Link> checks to track gain a +10 circumstance bonus instead.</p>
+<p>A single vial of beast-scent masks the scent of one Medium creature or two smaller creatures; larger creatures require proportionally more to gain the benefits. Beast-scent becomes inert after 1 hour of exposure to air. Applying a vial is a <strong className="hl">full-round action</strong> that provokes attacks of opportunity.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _beast_training_kit = {title: "Beast-training kit", jsx: <><h2 id="eq-misc-beast_training_kit-beast-training-kit">Beast-training kit</h2>
@@ -1140,36 +1181,37 @@ const _black_cumin = {hasJL:true,title: "Black cumin", jsx: <><div className="ju
 const _black_fester_vial = {title: "Black fester (vial)", jsx: <><h2 id="eq-misc-black_fester_vial-black-fester-vial">Black fester (vial)</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 56</Link>  </p>
 <Tabular format="misc" a="30" b="x" d="atool" />
-<p>This black paste is often applied on orc weapons before going on raids to stymie an enemy's healing magic. Like a poison, black fester stays on a weapon until the first time it strikes an opponent. It remains in the target's body for 1 hour. A creature exposed to black fester resists magical healing; a creature trying to magically heal the target must make a DC 10 caster level check to restore any hit points to the target.</p>
+<p>This black paste is often applied on orc weapons before going on raids to stymie an enemy's healing magic. Like a poison, black fester stays on a weapon until the first time it strikes an opponent. It remains in the target's body for 1 hour.</p>
+<p><Icons id="eq-misc-black_fester_vial-lower-icons" wrapper="prefixIcon" list={["lower"]} /> A creature exposed to black fester resists magical healing; a creature trying to magically heal the target must make a DC 10 caster level check to restore any hit points to the target.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _blackfingers_paste = {title: "Blackfingers paste", jsx: <><h2 id="eq-misc-blackfingers_paste-blackfingers-paste">Blackfingers paste</h2>
 <p><strong>Sources</strong> <Link to="/source/rival_guide">Rival Guide pg. 53</Link>  </p>
 <Tabular format="misc" a="50" b="x" d="atool" />
-<p>Developed by followers of Norgorber, this inky paste aids unskilled poison-users. When smeared on the fingers, a dose of blackfingers paste prevents accidental poisoning while applying poison to a weapon, as if the user possessed the <Link to="/ability/poison_use">poison use</Link> ability. A single dose of blackfingers paste lasts for 1d6 hours, but the black stains the stuff creates on the user's fingers lasts for days. A single dose of this alchemical item costs 50 gp.</p>
+<p><Icons id="eq-misc-blackfingers_paste-def-icons" wrapper="prefixIcon" list={["def"]} /> Developed by followers of <Link to="/faith/norgorber">Norgorber</Link>, this inky paste aids unskilled poison-users. When smeared on the fingers, a dose of blackfingers paste prevents accidental poisoning while applying poison to a weapon, as if the user possessed the <Link to="/ability/poison_use">poison use</Link> ability. A single dose of blackfingers paste lasts for 1d6 hours, but the black stains the stuff creates on the user's fingers lasts for days. A single dose of this alchemical item costs 50 gp.</p>
 </>};
 const _blackfire_clay = {title: "Blackfire clay", jsx: <><h2 id="eq-misc-blackfire_clay-blackfire-clay">Blackfire clay</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
 <Tabular format="misc" a="20" b="10" d="atool" />
-<p>This pliant black clay is always pleasantly warm to the touch. Working blackfire clay in your hands for a full round causes the clay to grow much warmer, granting you a +4 alchemical bonus on saving throws made to resist <Link to="/rule/cold">cold weather</Link>. You can combine five blocks of clay over the course of a minute to produce a source of warmth equivalent to a small campfire, allowing you to heat a campsite and cook food.</p>
+<p><Icons id="eq-misc-blackfire_clay-def-power-icons" wrapper="prefixIcon" list={["def","power"]} /> This pliant black clay is always pleasantly warm to the touch. Working blackfire clay in your hands for a full round causes the clay to grow much warmer, granting you a +4 alchemical bonus on saving throws made to resist <Link to="/rule/cold">cold weather</Link>. You can combine five blocks of clay over the course of a minute to produce a source of warmth equivalent to a small campfire, allowing you to heat a campsite and cook food.</p>
 <p>Blackfire clay only produces heat, never light, smoke, or odor. The clay emits warmth for 1 hour before hardening into an unusable lump. A newly created brick of blackfire clay is composed of 10 blocks.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _blackwood_figurehead = {title: "Blackwood figurehead", jsx: <><h2 id="eq-misc-blackwood_figurehead-blackwood-figurehead">Blackwood figurehead</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 9</Link>  </p>
 <Tabular format="misc" a="650" b="25" d="tools" />
-<p>Carved in the likeness of a sea creature or another form desired by the one commissioning it, this item grants its ship's crew a +2 morale bonus on Profession (sailor) checks while on board.</p>
+<p>Carved in the likeness of a sea creature or another form desired by the one commissioning it, this item grants its ship's crew a +2 morale bonus on <Link to="/skill/profession">Profession</Link> (sailor) checks while on board.</p>
 </>};
 const _bladeguard = {title: "Bladeguard", jsx: <><h2 id="eq-misc-bladeguard-bladeguard">Bladeguard</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 101</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="40" b="x" d="rem" />
-<p>This clear resin protects a weapon from harmful attacks made by oozes and <Link to="/monster/rust_monster">rust monsters</Link>, as well as from similar effects that corrode or melt weapons, rendering the weapon immune for 24 hours. One pot can coat one two-handed weapon, two one-handed or light weapons, or 50 ammunition items. Applying it takes 1 full round per pot. Immersing the weapon in water or similar liquid washes it off.</p>
+<p><Icons id="eq-misc-bladeguard-def-icons" wrapper="prefixIcon" list={["def"]} /> This clear resin protects a weapon from harmful attacks made by oozes and <Link to="/monster/rust_monster">rust monsters</Link>, as well as from similar effects that corrode or melt weapons, rendering the weapon immune for 24 hours. One pot can coat one two-handed weapon, two one-handed or light weapons, or 50 ammunition items. Applying it takes 1 full round per pot. Immersing the weapon in water or similar liquid washes it off.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
 </>};
 const _blain_bane = {title: "Blain bane", jsx: <><h2 id="eq-misc-blain_bane-blain-bane">Blain bane</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 9</Link>  </p>
 <Tabular format="misc" a="10" b="x" d="rem" />
-<p>This alchemically infused wax is spread over exposed skin to protect it from chapping, cold, dry winds, heat, and the loss of moisture. Applying it takes 5 minutes; once applied, it reduces any nonlethal damage taken from <Link to="/rule/cold">cold</Link> or <Link to="/rule/heat_dangers">hot</Link> environments by 1 point for 6 hours. Crafting blain bane requires a successful DC 19 Craft (alchemy) check.</p>
+<p><Icons id="eq-misc-blain_bane-def-icons" wrapper="prefixIcon" list={["def"]} /> This alchemically infused wax is spread over exposed skin to protect it from chapping, cold, dry winds, heat, and the loss of moisture. Applying it takes 5 minutes; once applied, it reduces any nonlethal damage taken from <Link to="/rule/cold">cold</Link> or <Link to="/rule/heat_dangers">hot</Link> environments by 1 point for 6 hours.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 19</p>
 </>};
 const _blanket = {title: "Blanket", jsx: <><h2 id="eq-misc-blanket-blanket">Blanket</h2>
@@ -1180,20 +1222,23 @@ const _blanket = {title: "Blanket", jsx: <><h2 id="eq-misc-blanket-blanket">Blan
 const _blasting_jelly = {title: "Blasting jelly", jsx: <><h2 id="eq-misc-blasting_jelly-blasting-jelly">Blasting jelly</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 28</Link>  </p>
 <Tabular format="misc" a="45" b="0.5" d="atool" />
-<p>This volatile gray paste sticks to solid surfaces and creates a concentrated blast when exposed to fire, making it a valuable excavation tool. You can apply 1 dose of blasting jelly to a 5-foot square as a standard action. The paste can be ignited with another standard action by striking it from an adjacent square with a metal weapon or object. When thus ignited or otherwise exposed to fire, the jelly explodes, dealing 2d6 points of fire damage to creatures and unattended objects within the treated square. If the ignited square is adjacent to another square containing blasting jelly, that square ignites as well. Blasting jelly deals full damage to objects made of stone or softer material. Blasting jelly decays relatively quickly when exposed to air, becoming inert after 4 hours if not ignited.</p>
+<p>This volatile gray paste sticks to solid surfaces and creates a concentrated blast when exposed to fire, making it a valuable excavation tool.</p>
+<p><Icons id="eq-misc-blasting_jelly-power-icons" wrapper="prefixIcon" list={["power"]} /> You can apply 1 dose of blasting jelly to a 5-foot square as a <strong className="hl">standard action</strong>. The paste can be ignited with another standard action by striking it from an adjacent square with a metal weapon or object. When thus ignited or otherwise exposed to fire, the jelly explodes, dealing 2d6 points of fire damage to creatures and unattended objects within the treated square. If the ignited square is adjacent to another square containing blasting jelly, that square ignites as well.</p>
+<p>Blasting jelly deals full damage to objects made of stone or softer material. Blasting jelly decays relatively quickly when exposed to air, becoming inert after 4 hours if not ignited.</p>
 </>};
 const _blight_tonic = {title: "Blight tonic", jsx: <><h2 id="eq-misc-blight_tonic-blight-tonic">Blight tonic</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 153</Link>  </p>
 <Tabular format="misc" a="150" b="1" d="atool" />
-<p>Blight tonic increases the potency of a creature's disease attack transmitted by physical contact, such as a <Link to="/monster/dire_rat">dire rat's</Link> <Link to="/disease/filth_fever">filth fever</Link>. The next time a creature must save against the drinker's disease save DC, the DC for the initial infection increases by +2. The tonic lasts for 10 minutes or until the next time a creature must save against the drinker's disease DC, whichever comes first.</p>
+<p>Blight tonic increases the potency of a creature's disease attack transmitted by physical contact, such as a <Link to="/monster/dire_rat">dire rat's</Link> <Link to="/disease/filth_fever">filth fever</Link>.</p>
+<p><Icons id="eq-misc-blight_tonic-lower-icons" wrapper="prefixIcon" list={["lower"]} /> The next time a creature must save against the drinker's disease save DC, the DC for the initial infection increases by +2. The tonic lasts for 10 minutes or until the next time a creature must save against the drinker's disease DC, whichever comes first.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _blightburn_paste = {title: "Blightburn paste", jsx: <><h2 id="eq-misc-blightburn_paste-blightburn-paste">Blightburn paste</h2>
 <p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion pg. 29</Link>  </p>
 <Tabular format="misc" a="5000" b="45" d="atool" />
-<p>This heavy stone box measures 2 feet to a side, and the tiny compartment inside is lined with lead. Inside the compartment is a half-ounce of deep green paste. This paste is made of animal fat mixed with groundup <Link to="/eq-material/blightburn">blightburn</Link>. Once the box is opened, blightburn paste limits teleportation within 60 feet and irradiates anyone within 60 feet, afflicting them with <Link to="/disease/blightburn_sickness">blightburn sickness</Link>. Any creature that touches the paste is afflicted with blightburn sickness (no save), and takes 2d6 points of fire damage per round until the paste is cleaned away with a successful DC 15 Heal check. Crafting this item requires a successful DC 30 Craft (alchemy) check.</p>
-<h3 id="eq-misc-blightburn_paste-blightburn">Blightburn</h3>
-<p>The mineral blightburn is the deadliest radioactive substance in the Darklands. The green-glowing crystal burns anyone who touches it, dealing 2d6 points of fire damage per round of contact, and its radiation causes blightburn sickness. The substance also limits teleportation. Anyone casting a teleportation spell in or teleporting to a cavern with blightburn in its walls must succeed at a DC 30 caster level check.</p>
+<p>This heavy stone box measures 2 feet to a side, and the tiny compartment inside is lined with lead. Inside the compartment is a half-ounce of deep green paste. This paste is made of animal fat mixed with ground-up <Link to="/eq-material/blightburn">blightburn</Link>.</p>
+<p><Icons id="eq-misc-blightburn_paste-aura-def-down-icons" wrapper="prefixIcon" list={["aura","def","down"]} /> Once the box is opened, blightburn paste limits teleportation within 60 feet and irradiates anyone within 60 feet, afflicting them with <Link to="/disease/blightburn_sickness">blightburn sickness</Link>. Any creature that touches the paste is afflicted with blightburn sickness (no save), and takes 2d6 points of fire damage per round until the paste is cleaned away with a successful DC 15 Heal check.</p>
+<p>Crafting this item requires a successful DC 30 <Link to="/skill/craft">Craft</Link> (alchemy) check.</p>
 </>};
 const _blightburn_reader = {title: "Blightburn reader", jsx: <><h2 id="eq-misc-blightburn_reader-blightburn-reader">Blightburn reader</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 8</Link>  </p>
@@ -1208,37 +1253,44 @@ const _block_and_tackle = {title: "Block and tackle", jsx: <><h2 id="eq-misc-blo
 const _blood_neutralizer = {title: "Blood neutralizer", jsx: <><h2 id="eq-misc-blood_neutralizer-blood-neutralizer">Blood neutralizer</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 18</Link>  </p>
 <Tabular format="misc" a="25" b="1" d="atool" />
-<p>When you release this vial of alchemical particles into the water as a standard action, the particles immediately neutralize the scent of exposed blood within 20 feet, rendering the blood undetectable by <Link to="/umr/scent">scent</Link> (to a hunting shark, for example). Blood neutralizer has no effect on any blood that enters the area after the particles have been used. Blood neutralizer can be crafted with a successful DC 25 Craft (alchemy) skill check.</p>
+<p><Icons id="eq-misc-blood_neutralizer-aura-def-icons" wrapper="prefixIcon" list={["aura","def"]} /> When you release this vial of alchemical particles into the water as a <strong className="hl">standard action</strong>, the particles immediately neutralize the scent of exposed blood within 20 feet, rendering the blood undetectable by <Link to="/umr/scent">scent</Link> (to a hunting shark, for example). Blood neutralizer has no effect on any blood that enters the area after the particles have been used.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _blood_boiling_pill = {title: "Blood-boiling pill", jsx: <><h2 id="eq-misc-blood_boiling_pill-blood-boiling-pill">Blood-boiling pill</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 24</Link>  </p>
 <Tabular format="misc" a="75" b="x" d="rem" />
-<p>Swallowing this dark black-red tea pill causes your blood to heat up, granting you a +2 alchemical bonus on initiative checks and on saving throws against cold effects for 8 hours. However, any damage you take from <Link to="/rule/bleed">bleed</Link> effects during this time is multiplied by 1-1/2 (rounded up). Swallowing a <Link to="/eq-misc/blood_chilling_pill">blood-chilling pill</Link> while under the effects of a blood-boiling pill negates the effects of both pills.</p>
+<p><Icons id="eq-misc-blood_boiling_pill-boost-def-down-icons" wrapper="prefixIcon" list={["boost","def","down"]} /> Swallowing this dark black-red tea pill causes your blood to heat up, granting you a +2 alchemical bonus on initiative checks and on saving throws against cold effects for 8 hours. However, any damage you take from <Link to="/rule/bleed">bleed</Link> effects during this time is multiplied by 1&frac12; (rounded up).</p>
+<p>Swallowing a <Link to="/eq-misc/blood_chilling_pill">blood-chilling pill</Link> while under the effects of a blood-boiling pill negates the effects of both pills.</p>
 <p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (30 ginger extract + 8 gold + 15 mugwort extract)/ceration; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/crucible">crucible</Link>; <strong>Type</strong> alchemical remedy</p>
 </>};
 const _blood_chilling_pill = {title: "Blood-chilling pill", jsx: <><h2 id="eq-misc-blood_chilling_pill-blood-chilling-pill">Blood-chilling pill</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 25</Link>  </p>
 <Tabular format="misc" a="75" b="x" d="rem" />
-<p>Swallowing this pale green tea pill causes your blood to slow and chill, allowing you to ignore the first 20 points of <Link to="/rule/bleed">bleed</Link> damage you take during the following 8 hours. In addition, you gain a +2 alchemical bonus on saving throws against fire effects during this time. However, you take a -2 penalty on initiative checks. Swallowing a <Link to="/eq-misc/blood_boiling_pill">blood-boiling pill</Link> while under the effects of a blood-chilling pill negates the effects of both pills.</p>
+<p><Icons id="eq-misc-blood_chilling_pill-def-down-icons" wrapper="prefixIcon" list={["def","down"]} /> Swallowing this pale green tea pill causes your blood to slow and chill, allowing you to ignore the first 20 points of <Link to="/rule/bleed">bleed</Link> damage you take during the following 8 hours. In addition, you gain a +2 alchemical bonus on saving throws against fire effects during this time. However, you take a -2 penalty on initiative checks.</p>
+<p>Swallowing a <Link to="/eq-misc/blood_boiling_pill">blood-boiling pill</Link> while under the effects of a blood-chilling pill negates the effects of both pills.</p>
 <p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (15 ginger extract + 40 myrrh + 30 mugwort extract)/filtration; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/filter">filter</Link>; <strong>Type</strong> alchemical remedy</p>
 </>};
 const _blood_clotter_salve = {title: "Blood-clotter salve", jsx: <><h2 id="eq-misc-blood_clotter_salve-blood-clotter-salve">Blood-clotter salve</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 206</Link>  </p>
 <Tabular format="misc" a="30" b="x" d="rem" />
-<p>Applying this herbal salve to a <Link to="/rule/bleed">bleeding</Link> wound cures 1 point of damage and prevents additional damage from bleeding for 1 hour per application. After an hour, if the bleed effect hasn't been properly treated, the injury resumes bleeding and more salve must be applied. Though blood-clotter salve can be applied successively to the same injury, applying multiple doses doesn't cure additional damage.</p>
+<p><Icons id="eq-misc-blood_clotter_salve-aid-icons" wrapper="prefixIcon" list={["aid"]} /> Applying this herbal salve to a <Link to="/rule/bleed">bleeding</Link> wound cures 1 point of damage and prevents additional damage from bleeding for 1 hour per application. After an hour, if the bleed effect hasn't been properly treated, the injury resumes bleeding and more salve must be applied.</p>
+<p>Though blood-clotter salve can be applied successively to the same injury, applying multiple doses doesn't cure additional damage.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _bloodblock = {title: "Bloodblock", jsx: <><h2 id="eq-misc-bloodblock-bloodblock">Bloodblock</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>  </p>
 <Tabular format="misc" a="25" b="x" d="atool" />
-<p>This gooey, pinkish substance helps treat wounds. Using a dose gives you a +5 alchemical bonus on Heal checks for providing first aid, treating wounds made by <Link to="/eq-misc/caltrops">caltrops</Link> or similar objects, or treating deadly wounds. A dose of bloodblock ends a <Link to="/rule/bleed">bleed</Link> effect as if you had made a DC 15 Heal check. When treating deadly wounds, using a dose of bloodblock counts as one use of a <Link to="/eq-misc/healers_kit">healer's kit</Link> (and grants the +5 bonus stated above).</p>
+<p>This gooey, pinkish substance helps treat wounds.</p>
+<p><Icons id="eq-misc-bloodblock-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Using a dose gives you a +5 alchemical bonus on <Link to="/skill/heal">Heal</Link> checks for providing first aid, treating wounds made by <Link to="/eq-misc/caltrops">caltrops</Link> or similar objects, or treating deadly wounds.</p>
+<p><Icons id="eq-misc-bloodblock-aid-icons" wrapper="prefixIcon" list={["aid"]} /> A dose of bloodblock ends a <Link to="/rule/bleed">bleed</Link> effect as if you had made a DC 15 Heal check.</p>
+<p><Icons id="eq-misc-bloodblock-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When treating deadly wounds, using a dose of bloodblock counts as one use of a <Link to="/eq-misc/healers_kit">healer's kit</Link> (and grants the +5 bonus stated above).</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _bloodgorge = {title: "Bloodgorge", jsx: <><h2 id="eq-misc-bloodgorge-bloodgorge">Bloodgorge</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 6</Link>  </p>
 <Tabular format="misc" a="40" b="0.5" d="rem" />
-<p>When you imbibe this syrupy black serum, your blood thins dramatically and gushes forth from even minor wounds. Anytime you take <Link to="/rule/bleed">bleed</Link> damage, any creatures adjacent to you must succeed at a Fortitude save (DC 10 + the amount of bleed damage taken) or be <Link to="/misc/nauseated">nauseated</Link> for 1 round. A dose of bloodgorge lasts for 1 hour.</p>
+<p>When you imbibe this syrupy black serum, your blood thins dramatically and gushes forth from even minor wounds.</p>
+<p><Icons id="eq-misc-bloodgorge-lower-icons" wrapper="prefixIcon" list={["lower"]} /> Anytime you take <Link to="/rule/bleed">bleed</Link> damage, any creatures adjacent to you must succeed at a Fortitude save (DC 10 + the amount of bleed damage taken) or be <Link to="/misc/nauseated">nauseated</Link> for 1 round. A dose of bloodgorge lasts for 1 hour.</p>
 <p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (5 cold iron + 10 dew of lunary)/filtration; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/filter">filter</Link>; <strong>Type</strong> alchemical remedy</p>
 </>};
 const _bloodragers_kit = {title: "Bloodrager's kit", jsx: <><h2 id="eq-misc-bloodragers_kit-bloodragers-kit">Bloodrager's kit</h2>
@@ -1249,7 +1301,8 @@ const _bloodragers_kit = {title: "Bloodrager's kit", jsx: <><h2 id="eq-misc-bloo
 const _bloodvine_rope = {title: "Bloodvine rope", jsx: <><h2 id="eq-misc-bloodvine_rope-bloodvine-rope">Bloodvine rope</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 207</Link>  </p>
 <Tabular format="misc" a="200" b="5" d="atool" />
-<p>This 50-foot length of tough, lightweight rope is made from alchemically treated bloodvine, a rare scarlet-colored vine that grows only in warm jungle environments. Though prized by climbers for its durability, bloodvine can also be used to bind creatures. Bloodvine rope has a hardness of 5 and 10 hit points, and can be broken with a DC 30 Strength check. A creature bound by bloodvine rope can escape with a DC 35 Escape Artist check or a DC 30 Strength check.</p>
+<p>This 50-foot length of tough, lightweight rope is made from alchemically treated bloodvine, a rare scarlet-colored vine that grows only in warm jungle environments.</p>
+<p>Though prized by climbers for its durability, bloodvine can also be used to bind creatures. Bloodvine rope has a <Link to="/rule/hardness">hardness</Link> of 5 and 10 hit points, and can be broken with a DC 30 Strength check. A creature bound by bloodvine rope can escape with a DC 35 <Link to="/skill/escape_artist">Escape Artist</Link> check or a DC 30 Strength check.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 30</p>
 </>};
 const _bloody_mandrake = {title: "Bloody Mandrake", jsx: <><h2 id="eq-misc-bloody_mandrake-bloody-mandrake">Bloody Mandrake</h2>
@@ -1265,7 +1318,8 @@ const _blue_book = {title: "Blue book", jsx: <><h2 id="eq-misc-blue_book-blue-bo
 const _boars_bellow = {title: "Boar's bellow", jsx: <><h2 id="eq-misc-boars_bellow-boars-bellow">Boar's bellow</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 236</Link>  </p>
 <Tabular format="misc" a="190" b="x" d="atool" />
-<p>When imbibed, this bitter, rust-colored concoction grants you 1d4 uses of <Link to="/misc/alchemical_inspiration">alchemical inspiration</Link> that can be used only on Intimidate checks. The benefits of boar's bellow last for 1 hour; during this time, you must roll all Diplomacy checks twice and take the worse result.</p>
+<p><Icons id="eq-misc-boars_bellow-power-icons" wrapper="prefixIcon" list={["power"]} /> When imbibed, this bitter, rust-colored concoction grants you 1d4 uses of <Link to="/misc/alchemical_inspiration">alchemical inspiration</Link> that can be used only on <Link to="/skill/intimidate">Intimidate</Link> checks.</p>
+<p><Icons id="eq-misc-boars_bellow-roll-down-icons" wrapper="prefixIcon" list={["roll","down"]} /> The benefits of boar's bellow last for 1 hour; during this time, you must roll all Diplomacy checks twice and take the worse result.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
 </>};
 const _board_game = {title: "Board game", jsx: <><h2 id="eq-misc-board_game-board-game">Board game</h2>
@@ -1276,7 +1330,7 @@ const _board_game = {title: "Board game", jsx: <><h2 id="eq-misc-board_game-boar
 const _bodybalm = {title: "Bodybalm", jsx: <><h2 id="eq-misc-bodybalm-bodybalm">Bodybalm</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="25" b="x" d="atool" />
-<p>When this pungent yellow powder is boiled in water and given to a creature to drink, it provides the attending healer a +5 alchemical bonus on <Link to="/skill/heal">Heal</Link> checks for providing long-term care, treating poison, and treating disease.</p>
+<p><Icons id="eq-misc-bodybalm-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When this pungent yellow powder is boiled in water and given to a creature to drink, it provides the attending healer a +5 alchemical bonus on <Link to="/skill/heal">Heal</Link> checks for providing long-term care, treating poison, and treating disease.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _bogwalking_sandals = {title: "Bogwalking sandals", jsx: <><h2 id="eq-misc-bogwalking_sandals-bogwalking-sandals">Bogwalking sandals</h2>
@@ -1293,7 +1347,8 @@ const _boline = {title: "Boline", jsx: <><h2 id="eq-misc-boline-boline">Boline</
 const _bomb_launcher = {title: "Bomb launcher", jsx: <><h2 id="eq-misc-bomb_launcher-bomb-launcher">Bomb launcher</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 117</Link>  </p>
 <Tabular format="misc" a="10" b="0.5" d="atool" />
-<p>These odd looking, egg-shaped contraptions have cleverly placed fins that improve bombs' accuracy. Goblin alchemists use these special containers to make their bombs more accurate when thrown long distances. Using a bomb launcher when throwing a bomb increases the bomb's range increment to 30 feet (or increases the range increment of a bomb with the <Link to="/discovery/rocket_bomb">rocket bomb</Link> discovery to 70 feet). Bomb launchers are destroyed when used.</p>
+<p>These odd looking, egg-shaped contraptions have cleverly placed fins that improve bombs' accuracy. Goblin <Link to="/class/alchemist">alchemists</Link> use these special containers to make their bombs more accurate when thrown long distances.</p>
+<p><Icons id="eq-misc-bomb_launcher-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Using a bomb launcher when throwing a bomb increases the bomb's range increment to 30 feet (or increases the range increment of a bomb with the <Link to="/discovery/rocket_bomb">rocket bomb</Link> discovery to 70 feet). Bomb launchers are destroyed when used.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _bombchucker = {title: "Bombchucker", jsx: <><h2 id="eq-misc-bombchucker-bombchucker">Bombchucker</h2>
@@ -1309,13 +1364,18 @@ const _bone_reed = {title: "Bone Reed", jsx: <><h2 id="eq-misc-bone_reed-bone-re
 const _bone_paste = {title: "Bone paste", jsx: <><h2 id="eq-misc-bone_paste-bone-paste">Bone paste</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 26</Link>  </p>
 <Tabular format="misc" a="75" b="1" d="atool" />
-<p>Typically stored in an airtight leather wineskin cured with rare preservative unguents, bone paste is a powerful alchemical sealant with special deteriorative properties. When squeezed out of its container and exposed to air, bone paste quickly hardens, so in order to apply it to a surface or object one must typically squeeze the paste directly onto the material to be affected. Once applied, bone paste cements itself to the object in just seconds, and hardens into a flaky cast. If applied to any unattended organic material or surface (such as wood, paper, hide, or rope), after 1 hour, bone paste undergoes another alchemical reaction and begins to eat away at the material, dealing 1d4 points of damage each round for 1d6+1 rounds, eating away first at the part of the object to which it was applied and spreading briefly to other parts of the object before dissipating and leaving a small amount of residual dust. Bone paste ignores an organic object's hardness, and does not deal damage to inorganic objects or surfaces (such as metal, stone, or ceramic). One pouch of bone paste is enough to cover 1 square foot of surface, or (because of waste and spills) up to 20 smaller applications of approximately 2 square inches each.</p>
+<p>Typically stored in an airtight leather wineskin cured with rare preservative unguents, bone paste is a powerful alchemical sealant with special deteriorative properties.</p>
+<p>When squeezed out of its container and exposed to air, bone paste quickly hardens, so in order to apply it to a surface or object one must typically squeeze the paste directly onto the material to be affected. Once applied, bone paste cements itself to the object in just seconds, and hardens into a flaky cast.</p>
+<p>If applied to any unattended organic material or surface (such as wood, paper, hide, or rope), after 1 hour, bone paste undergoes another alchemical reaction and begins to eat away at the material, dealing 1d4 points of damage each round for 1d6+1 rounds, eating away first at the part of the object to which it was applied and spreading briefly to other parts of the object before dissipating and leaving a small amount of residual dust.</p>
+<p>Bone paste ignores an organic object's hardness, and does not deal damage to inorganic objects or surfaces (such as metal, stone, or ceramic). One pouch of bone paste is enough to cover 1 square foot of surface, or (because of waste and spills) up to 20 smaller applications of approximately 2 square inches each.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _boniface_paint = {title: "Boniface paint", jsx: <><h2 id="eq-misc-boniface_paint-boniface-paint">Boniface paint</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 44</Link>, <Link to="/source/pathfinder_106_for_queen_and_empire">Pathfinder #106: For Queen and Empire pg. 75</Link>  </p>
 <Tabular format="misc" a="15" b="5" d="atool" />
-<p>This thick whitewash is laced with exotic oils, and it dries to a lovely finish run through with subtle swirls. Difficult to notice, these patterns help obscure seams and details in whatever the paint coats; the <Link to="/skill/perception">Perception</Link> DC to find a secret door or hidden compartment on a surface covered in boniface paint increases by 5. One bucket of boniface paint covers up to a 10-foot-by-10-foot area, and its concealing effects last for 1 year. Crafting a bucket of boniface paint requires a successful DC 20 Craft (alchemy) check.</p>
+<p>This thick whitewash is laced with exotic oils, and it dries to a lovely finish run through with subtle swirls.</p>
+<p><Icons id="eq-misc-boniface_paint-def-icons" wrapper="prefixIcon" list={["def"]} /> Difficult to notice, these patterns help obscure seams and details in whatever the paint coats; the <Link to="/skill/perception">Perception</Link> DC to find a secret door or hidden compartment on a surface covered in boniface paint increases by 5.</p>
+<p>One bucket of boniface paint covers up to a 10-foot-by-10-foot area, and its concealing effects last for 1 year.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _book_lariat = {title: "Book lariat", jsx: <><h2 id="eq-misc-book_lariat-book-lariat">Book lariat</h2>
@@ -1343,7 +1403,9 @@ const _book_of_war_prayers = {title: "Book of war prayers", jsx: <><h2 id="eq-mi
 const _bore_brush = {title: "Bore brush", jsx: <><h2 id="eq-misc-bore_brush-bore-brush">Bore brush</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes pg. 14</Link>  </p>
 <Tabular format="misc" a="75" b="1" d="atool" />
-<p>This spiraled metal rod has alchemically treated bristles that can be used in the barrel of an early or advanced firearm to liquefy grime and bullet fouling while leaving a thin protective film in the bore. Using this brush is a standard action, and the protective film grants a 5-foot alchemical bonus to the firearm's first range increment and a +1 alchemical bonus on attack rolls. These effects last for 1 hour or until the firearm is fired. A newly crafted bore brush contains 5 applications. Crafting a bore brush requires a successful DC 15 Craft (alchemy) check.</p>
+<p>This spiraled metal rod has alchemically treated bristles that can be used in the barrel of an early or advanced firearm to liquefy grime and bullet fouling while leaving a thin protective film in the bore.</p>
+<p><Icons id="eq-misc-bore_brush-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Using this brush is a <strong className="hl">standard action</strong>, and the protective film grants a 5-foot alchemical bonus to the firearm's first range increment and a +1 alchemical bonus on attack rolls. These effects last for 1 hour or until the firearm is fired.</p>
+<p>A newly crafted bore brush contains 5 applications.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
 </>};
 const _bottle = {title: "Bottle", jsx: <><h2 id="eq-misc-bottle-bottle">Bottle</h2>
@@ -1354,16 +1416,20 @@ const _bottle = {title: "Bottle", jsx: <><h2 id="eq-misc-bottle-bottle">Bottle</
 const _bottled_musk = {title: "Bottled musk", jsx: <><h2 id="eq-misc-bottled_musk-bottled-musk">Bottled musk</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 26</Link>  </p>
 <Tabular format="misc" a="25" b="0.5" d="atool" />
-<p>This glass vial contains alchemically preserved musk from a single variety of creature. Sniffing bottled musk provides a +4 circumstance bonus on Survival checks to track creatures of the same variety by <Link to="/umr/scent">scent</Link>. Additionally, bottled musk can be used as an additional spell component for the following spells to modify the spell's effects.</p>
-<blockquote>
-<p><strong>Detect undead:</strong> Functions as written, but detects creatures of the musk's associated creature type.</p>
-<p><strong>Locate creature:</strong> Detects the same variety of creature as the musk (for example, using bison musk detects only bison, not all herd animals or animals), and provides a +2 bonus on caster level checks to overcome nondetection.</p>
-</blockquote>
+<p>This glass vial contains alchemically preserved musk from a single variety of creature.</p>
+<p><Icons id="eq-misc-bottled_musk-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Sniffing bottled musk provides a +4 circumstance bonus on <Link to="/skill/survival">Survival</Link> checks to track creatures of the same variety by <Link to="/umr/scent">scent</Link>.</p>
+<p><Icons id="eq-misc-bottled_musk-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Additionally, bottled musk can be used as an additional spell component for the following spells to modify the spell's effects.</p>
+<ul>
+<li><strong><Link to="/spell/detect_undead">Detect undead:</Link></strong> Functions as written, but detects creatures of the musk's associated creature type.</li>
+<li><strong><Link to="/spell/locate_creature">Locate creature:</Link></strong> Detects the same variety of creature as the musk (for example, using bison musk detects only bison, not all herd animals or animals), and provides a +2 bonus on caster level checks to overcome <Link to="/spell/nondetection">nondetection</Link>.</li>
+</ul>
 </>};
 const _bottled_sunlight = {title: "Bottled sunlight", jsx: <><h2 id="eq-misc-bottled_sunlight-bottled-sunlight">Bottled sunlight</h2>
 <p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 13</Link>  </p>
 <Tabular format="misc" a="200" b="2" d="atool" />
-<p>As a standard action, this ornate rectangular jar can be vigorously shaken to cause its contents to mix and activate. Once shaken, the contents of the jar shed light as a <Link to="/eq-misc/sunrod">sunrod</Link> for 6 hours. A jar of activated bottled sunlight can be thrown as a splash weapon with a range increment of 10 feet. Upon striking a solid object, the bottled sunlight creates a 30-foot-radius <Link to="/misc/burst">burst</Link> of natural sunlight that persists for 1 round, after which all light from the jar fades. Throwing an inactive jar of bottled sunlight destroys the item, leaving only a smoldering pile of ashes where it struck. Crafting this item requires a successful DC 30 Craft (alchemy) check.</p>
+<p><Icons id="eq-misc-bottled_sunlight-power-icons" wrapper="prefixIcon" list={["power"]} /> As a <strong className="hl">standard action</strong>, this ornate rectangular jar can be vigorously shaken to cause its contents to mix and activate. Once shaken, the contents of the jar shed light as a <Link to="/eq-misc/sunrod">sunrod</Link> for 6 hours.</p>
+<p><Icons id="eq-misc-bottled_sunlight-boom-icons" wrapper="prefixIcon" list={["boom"]} /> A jar of activated bottled sunlight can be thrown as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet. Upon striking a solid object, the bottled sunlight creates a 30-foot-radius <Link to="/misc/burst">burst</Link> of natural sunlight that persists for 1 round, after which all light from the jar fades.</p>
+<p>Throwing an inactive jar of bottled sunlight destroys the item, leaving only a smoldering pile of ashes where it struck.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 30</p>
 </>};
 const _bottom_walkers_anchor = {title: "Bottom-walker's anchor", jsx: <><h2 id="eq-misc-bottom_walkers_anchor-bottom-walkers-anchor">Bottom-walker's anchor</h2>
@@ -1374,7 +1440,8 @@ const _bottom_walkers_anchor = {title: "Bottom-walker's anchor", jsx: <><h2 id="
 const _boulderhead_bock = {title: "Boulderhead bock", jsx: <><h2 id="eq-misc-boulderhead_bock-boulderhead-bock">Boulderhead bock</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 13</Link>  </p>
 <Tabular format="misc" a="25" b="2" d="rem" />
-<p>This malty ale has a legendarily thick, creamy head. It creates a pleasant buzz and sense of euphoria that dull the effects of pain and concussions, granting the drinker a +1 alchemical bonus on saving throws to avoid becoming dazed, staggered, or stunned, or against any effect with the pain descriptor for 1 hour. In addition, a dose of boulderhead bock grants the drinker 1d6 temporary hit points that apply exclusively against nonlethal damage. Multiple doses of boulderhead bock stack, to a maximum alchemical bonus of +5 and a maximum of 20 temporary hit points.</p>
+<p><Icons id="eq-misc-boulderhead_bock-def-icons" wrapper="prefixIcon" list={["def"]} /> This malty <Link to="/eq-misc/ale_mug">ale</Link> has a legendarily thick, creamy head. It creates a pleasant buzz and sense of euphoria that dull the effects of pain and concussions, granting the drinker a +1 alchemical bonus on saving throws to avoid becoming dazed, staggered, or stunned, or against any effect with the pain descriptor for 1 hour. In addition, a dose of boulderhead bock grants the drinker 1d6 temporary hit points that apply exclusively against nonlethal damage.</p>
+<p>Multiple doses of boulderhead bock stack, to a maximum alchemical bonus of +5 and a maximum of 20 temporary hit points.</p>
 <p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (4 gold + 15 spirit of wine)/fermentation; <strong>Craft DC</strong> 19<br/><strong>Time</strong> 1 week; <strong>Tools</strong> <Link to="/eq-misc/brewers_kit">brewer's kit</Link>; <strong>Type</strong> alcohol</p>
 </>};
 const _bounty_hunters_kit_common = {title: "Bounty hunter's kit (common)", jsx: <><h2 id="eq-misc-bounty_hunters_kit_common-bounty-hunters-kit">Bounty hunter's kit</h2>
@@ -1403,7 +1470,8 @@ const _branding_iron_common = {title: "Branding iron (common)", jsx: <><h2 id="e
 const _brawlers_brew = {title: "Brawler's brew", jsx: <><h2 id="eq-misc-brawlers_brew-brawlers-brew">Brawler's brew</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 22</Link>  </p>
 <Tabular format="misc" a="150" b="x" d="tinc" />
-<p>This tincture is made of thick syrup dissolved in potent alcohol. For 1 hour after drinking this tincture, you gain DR 1/slashing or piercing and can ignore pain effects. This numbing of your body causes you to take a -2 penalty on Fortitude saving throws for the same duration.</p>
+<p>This tincture is made of thick syrup dissolved in potent alcohol.</p>
+<p><Icons id="eq-misc-brawlers_brew-def-down-icons" wrapper="prefixIcon" list={["def","down"]} /> For 1 hour after drinking this tincture, you gain DR 1/slashing or piercing and can ignore pain effects. This numbing of your body causes you to take a -2 penalty on Fortitude saving throws for the same duration.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _brawlers_kit = {title: "Brawler's kit", jsx: <><h2 id="eq-misc-brawlers_kit-brawlers-kit">Brawler's kit</h2>
@@ -1439,7 +1507,8 @@ const _brewers_kit = {title: "Brewer's kit", jsx: <><h2 id="eq-misc-brewers_kit-
 const _brewers_kit_masterwork = {title: "Brewer's kit, masterwork", jsx: <><h2 id="eq-misc-brewers_kit_masterwork-brewers-kit-masterwork">Brewer's kit, masterwork</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 13</Link>  </p>
 <Tabular format="misc" a="75" b="50" d="atool" />
-<p>This exceptionally crafted kit provides extra spices, a wider variety of herbs, and higher quality tools than a normal brewer's kit. A masterwork brewer's kit grants a +2 circumstance bonus on Craft (alchemy) checks to produce alcoholic beverages.</p>
+<p>This exceptionally crafted kit provides extra spices, a wider variety of herbs, and higher quality tools than a normal brewer's kit.</p>
+<p><Icons id="eq-misc-brewers_kit_masterwork-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A masterwork brewer's kit grants a +2 circumstance bonus on <Link to="/skill/craft">Craft</Link> (alchemy) checks to produce alcoholic beverages.</p>
 </>};
 const _broadsheet = {title: "Broadsheet", jsx: <><h2 id="eq-misc-broadsheet-broadsheet">Broadsheet</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 50</Link>  </p>
@@ -1479,8 +1548,8 @@ const _bullseye_lantern = {hasJL:true,title: "Bullseye lantern", jsx: <><div cla
 const _bunk = {title: "Bunk", jsx: <><h2 id="eq-misc-bunk-bunk">Bunk</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 19</Link>  </p>
 <Tabular format="misc" a="0.05" b="x" d="atool" />
-<p>Bunk is a slang term for fillers used to dilute drugs that are proffered as pure-grade narcotics. A drug mixed with bunk is less potent; its effects last 1d6 &times; 10 minutes for each hour they would normally last. The presence of bunk can be detected with a successful Craft (alchemy) check (DC equal to the drug manufacturer's Craft [alchemy] check - 10).</p>
-<p>The duration and intensity of the drug's harmful after-effects and ability damage are not reduced, as the additives in bunk are often toxic or dangerous in their own right. When a creature takes a dose of a drug containing bunk, the creature must attempt a Fortitude save (DC 10 + 1d10). Failure causes the creature to become <Link to="/misc/sickened">sickened</Link> for 1d4 hours and take 1d2 points of ability damage to a random ability score.</p>
+<p><Icons id="eq-misc-bunk-lower-icons" wrapper="prefixIcon" list={["lower"]} /> Bunk is a slang term for fillers used to dilute drugs that are proffered as pure-grade narcotics. A drug mixed with bunk is less potent; its effects last 1d6 &times; 10 minutes for each hour they would normally last. The presence of bunk can be detected with a successful <Link to="/skill/craft">Craft</Link> (alchemy) check (DC equal to the drug manufacturer's Craft [alchemy] check - 10).</p>
+<p><Icons id="eq-misc-bunk-lower-icons" wrapper="prefixIcon" list={["lower"]} /> The duration and intensity of the drug's harmful after-effects and ability damage are not reduced, as the additives in bunk are often toxic or dangerous in their own right. When a creature takes a dose of a drug containing bunk, the creature must attempt a Fortitude save (DC 10 + 1d10). Failure causes the creature to become <Link to="/misc/sickened">sickened</Link> for 1d4 hours and take 1d2 points of <Link to="/rule/ability_damage">ability damage</Link> to a random ability score.</p>
 <p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (1 salt + 1 urea)/filtration; <strong>Craft DC</strong> 15<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/filter">filter</Link>; <strong>Type</strong> alchemical tool</p>
 </>};
 const _buoy_common = {title: "Buoy (common)", jsx: <><h2 id="eq-misc-buoy_common-buoy">Buoy</h2>
@@ -1491,7 +1560,9 @@ const _buoy_common = {title: "Buoy (common)", jsx: <><h2 id="eq-misc-buoy_common
 const _buoyant_balloon = {title: "Buoyant balloon", jsx: <><h2 id="eq-misc-buoyant_balloon-buoyant-balloon">Buoyant balloon</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
 <Tabular format="misc" a="10" b="1" d="atool" />
-<p>This fist-sized alchemically treated animal bladder is tightly sealed around a small wooden grip. By giving the handle a sharp twist you break a tiny glass ampoule just inside the bladder, filling the bag with buoyant gas and causing it to swell into a 3-foot-diameter sphere. Inflating the balloon is a move action. Once filled, the balloon floats upward at a speed of 60 feet per round. The balloon can lift up to 20 pounds of weight as it rises, though carrying more than 10 pounds reduces its speed to 30 feet per round. Multiple balloons attached to a single object add their carrying capacities together when determining how much weight they can lift. If a balloon is not held or bound in place in some manner, it continues to rise until it reaches a height of 600 feet, or until 10 minutes have passed, after which it pops or deflates and is destroyed.</p>
+<p>This fist-sized alchemically treated animal bladder is tightly sealed around a small wooden grip. By giving the handle a sharp twist you break a tiny glass ampoule just inside the bladder, filling the bag with buoyant gas and causing it to swell into a 3-foot-diameter sphere.</p>
+<p><Icons id="eq-misc-buoyant_balloon-power-icons" wrapper="prefixIcon" list={["power"]} /> Inflating the balloon is a <strong className="hl">move action</strong>. Once filled, the balloon floats upward at a speed of 60 feet per round. The balloon can lift up to 20 pounds of weight as it rises, though carrying more than 10 pounds reduces its speed to 30 feet per round. Multiple balloons attached to a single object add their carrying capacities together when determining how much weight they can lift.</p>
+<p>If a balloon is not held or bound in place in some manner, it continues to rise until it reaches a height of 600 feet, or until 10 minutes have passed, after which it pops or deflates and is destroyed.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
 </>};
 const _burglars_outfit = {title: "Burglar's outfit", jsx: <><h2 id="eq-misc-burglars_outfit-burglars-outfit">Burglar's outfit</h2>
@@ -1509,7 +1580,8 @@ const _burglars_torc = {title: "Burglar's torc", jsx: <><h2 id="eq-misc-burglars
 const _burner = {title: "Burner", jsx: <><h2 id="eq-misc-burner-burner">Burner</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands pg. 28</Link>  </p>
 <Tabular format="misc" a="3" b="1" d="atool" />
-<p>A burner is a metal or ceramic cylinder, open at the top and perforated with air holes along the sides, often with sliding vents to open or close these apertures as the fire inside requires. A burner is used to burn fuel pellets at night without giving off light that would reveal the user's position to unfriendly eyes in the wide, empty desert lands. In places where charcoal is a popular fuel, burners are made of heavier-gauge metal. Lit coals can be banked with ashes and kept hot, either for later ignition or simply so the burner can serve as an improvised radiant heater.</p>
+<p>A burner is a metal or ceramic cylinder, open at the top and perforated with air holes along the sides, often with sliding vents to open or close these apertures as the fire inside requires.</p>
+<p><Icons id="eq-misc-burner-power-icons" wrapper="prefixIcon" list={["power"]} /> A burner is used to burn fuel pellets at night without giving off light that would reveal the user's position to unfriendly eyes in the wide, empty desert lands. In places where charcoal is a popular fuel, burners are made of heavier-gauge metal. Lit coals can be banked with ashes and kept hot, either for later ignition or simply so the burner can serve as an improvised radiant heater.</p>
 </>};
 const _butterfly_net = {title: "Butterfly net", jsx: <><h2 id="eq-misc-butterfly_net-butterfly-net">Butterfly net</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 181</Link>  </p>
@@ -1525,7 +1597,7 @@ const _cage = {title: "Cage", jsx: <><h2 id="eq-misc-cage-cage">Cage</h2>
 const _calistrias_kindness = {title: "Calistria's kindness", jsx: <><h2 id="eq-misc-calistrias_kindness-calistrias-kindness">Calistria's kindness</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 50</Link>  </p>
 <Tabular format="misc" a="3" b="x" d="rem" />
-<p>This tonic reduces menstrual pains and dramatically reduces the chances of conception during sexual intercourse if taken daily for 1 month. The effects last as long as it is taken daily thereafter. Each bottle contains 30 doses. Crafting it requires a successful DC 20 Craft (alchemy) check.</p>
+<p><Icons id="eq-misc-calistrias_kindness-aid-icons" wrapper="prefixIcon" list={["aid"]} /> This tonic reduces menstrual pains and dramatically reduces the chances of conception during sexual intercourse if taken daily for 1 month. The effects last as long as it is taken daily thereafter. Each bottle contains 30 doses.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _caltrops = {title: "Caltrops", jsx: <><h2 id="eq-misc-caltrops-caltrops">Caltrops</h2>
@@ -1568,7 +1640,9 @@ const _camouflage_blanket = {title: "Camouflage blanket", jsx: <><h2 id="eq-misc
 const _camouflage_lichen = {title: "Camouflage lichen", jsx: <><h2 id="eq-misc-camouflage_lichen-camouflage-lichen">Camouflage lichen</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 147</Link>  </p>
 <Tabular format="misc" a="100" b="x" d="atool" />
-<p>Though <Link to="/race/oread">oreads</Link> with obviously stony features are rare, almost all oreads have an essentially earthen quality to their skin that makes it perfect for cultivating plant life. Where other races would be appalled at the thought of plants taking root in their flesh, oreads see it as a natural and healthy extension of their elemental nature. For this reason, oread herbalists developed several strains of moss and lichen specifically adapted to grow on their bodies. Camouflage lichen is the most common variety of these oread plants. It takes 1 minute to apply a paste of camouflage lichen spores to the skin, and an additional 24 hours for the fungus to sprout. After this time, the oread is covered in a thin green layer of living plant matter, granting her a +4 bonus on Stealth checks made in green forest and jungle environments. Red-orange and white varieties exist, providing bonuses in appropriately colored environments (red-orange among autumn leaves or in red deserts, white in snow, and so on). Camouflage lichen has a short lifespan; it withers and dies 3 days after being applied, crumbling away into harmless powder. This item only works on oreads and other creatures with rock-like bodies.</p>
+<p>Though <Link to="/race/oread">oreads</Link> with obviously stony features are rare, almost all oreads have an essentially earthen quality to their skin that makes it perfect for cultivating plant life. Where other races would be appalled at the thought of plants taking root in their flesh, oreads see it as a natural and healthy extension of their elemental nature. For this reason, oread herbalists developed several strains of moss and lichen specifically adapted to grow on their bodies. Camouflage lichen is the most common variety of these oread plants.</p>
+<p><Icons id="eq-misc-camouflage_lichen-def-icons" wrapper="prefixIcon" list={["def"]} /> It takes 1 minute to apply a paste of camouflage lichen spores to the skin, and an additional 24 hours for the fungus to sprout. After this time, the oread is covered in a thin green layer of living plant matter, granting her a +4 bonus on <Link to="/skill/stealth">Stealth</Link> checks made in green forest and jungle environments. Red-orange and white varieties exist, providing bonuses in appropriately colored environments (red-orange among autumn leaves or in red deserts, white in snow, and so on).</p>
+<p>Camouflage lichen has a short lifespan; it withers and dies 3 days after being applied, crumbling away into harmless powder. This item only works on oreads and other creatures with rock-like bodies.</p>
 </>};
 const _camouflage_netting = {title: "Camouflage netting", jsx: <><h2 id="eq-misc-camouflage_netting-camouflage-netting">Camouflage netting</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
@@ -1612,7 +1686,7 @@ const _candlefish = {title: "Candlefish", jsx: <><h2 id="eq-misc-candlefish-cand
 const _candlerod = {title: "Candlerod", jsx: <><h2 id="eq-misc-candlerod-candlerod">Candlerod</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
 <Tabular format="misc" a="1" b="1" d="atool" />
-<p>Similar to but weaker than a <Link to="/eq-misc/sunrod">sunrod</Link>, this stick glows like a candle when struck and lasts for 12 hours.</p>
+<p><Icons id="eq-misc-candlerod-power-icons" wrapper="prefixIcon" list={["power"]} /> Similar to but weaker than a <Link to="/eq-misc/sunrod">sunrod</Link>, this stick glows like a <Link to="/eq-misc/candle">candle</Link> when struck and lasts for 12 hours.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _candlestick = {title: "Candlestick", jsx: <><h2 id="eq-misc-candlestick-candlestick">Candlestick</h2>
@@ -1653,7 +1727,9 @@ const _caparison = {title: "Caparison", jsx: <><h2 id="eq-misc-caparison-caparis
 const _caphorite_dust = {title: "Caphorite dust", jsx: <><h2 id="eq-misc-caphorite_dust-caphorite-dust">Caphorite dust</h2>
 <p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion pg. 29</Link>  </p>
 <Tabular format="misc" a="25" b="0.5" d="atool" />
-<p>This small leather pouch is filled with a faintly radioactive ore called <Link to="/eq-material/caphorite">caphorite</Link>, with a small percentage of reactants that activate the dust. When used, caphorite dust must be sprinkled in a 5-foot square, which then becomes the center of the dust's effect. All bright or normal light within 30 feet of the activated dust is reduced to <Link to="/rule/dim_light">dim light</Link>, and any creature attempting to cast a spell with the light descriptor in this area must succeed at a DC 15 caster level check or have spell's effect be negated. If caphorite is exposed to sunlight, it immediately becomes permanently inert. Each pouch contains enough dust for two applications. Crafting this item requires a successful DC 25 Craft (alchemy) check.</p>
+<p>This small leather pouch is filled with a faintly radioactive ore called <Link to="/eq-material/caphorite">caphorite</Link>, with a small percentage of reactants that activate the dust.</p>
+<p><Icons id="eq-misc-caphorite_dust-power-aura-lower-icons" wrapper="prefixIcon" list={["power","aura","lower"]} /> When used, caphorite dust must be sprinkled in a 5-foot square, which then becomes the center of the dust's effect. All bright or normal light within 30 feet of the activated dust is reduced to <Link to="/rule/dim_light">dim light</Link>, and any creature attempting to cast a spell with the light descriptor in this area must succeed at a DC 15 caster level check or have spell's effect be negated.</p>
+<p>If caphorite is exposed to sunlight, it immediately becomes permanently inert. Each pouch contains enough dust for two applications.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _caravan_masters_wagon = {title: "Caravan master's wagon", jsx: <><h2 id="eq-misc-caravan_masters_wagon-caravan-masters-wagon">Caravan master's wagon</h2>
@@ -1666,7 +1742,9 @@ const _caravan_masters_wagon = {title: "Caravan master's wagon", jsx: <><h2 id="
 const _cardice_oil = {title: "Cardice oil", jsx: <><h2 id="eq-misc-cardice_oil-cardice-oil">Cardice oil</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 26</Link>  </p>
 <Tabular format="misc" a="50" b="1" d="atool" />
-<p>This bottle of viscous blue oil sublimates slightly when exposed to air. When poured over water, the oil pools on the surface and takes 1 round to spread out from the point of origin in a 20-foot radius. At the end of this round, the cardice oil flash-freezes the surface of the water, creating an ice sheet over the affected area. Any 5-foot square of this ice can support up to 200 pounds of weight. Weight in excess of this amount causes the entire sheet to crack and quickly break up. This ice sheet becomes unstable and breaks up on its own after 1 hour, or 20 minutes in a hot climate. Any creature whose bare skin comes in contact with cardice oil takes 1d6 points of nonlethal damage each round because of the chemical's volatile nature, but the oil is ineffective as a splash weapon.</p>
+<p>This bottle of viscous blue oil sublimates slightly when exposed to air.</p>
+<p><Icons id="eq-misc-cardice_oil-power-icons" wrapper="prefixIcon" list={["power"]} /> When poured over water, the oil pools on the surface and takes 1 round to spread out from the point of origin in a 20-foot radius. At the end of this round, the cardice oil flash-freezes the surface of the water, creating an ice sheet over the affected area. Any 5-foot square of this ice can support up to 200 pounds of weight. Weight in excess of this amount causes the entire sheet to crack and quickly break up.</p>
+<p><Icons id="eq-misc-cardice_oil-warning-icons" wrapper="prefixIcon" list={["warning"]} /> This ice sheet becomes unstable and breaks up on its own after 1 hour, or 20 minutes in a hot climate. Any creature whose bare skin comes in contact with cardice oil takes 1d6 points of nonlethal damage each round because of the chemical's volatile nature, but the oil is ineffective as a splash weapon.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _cards = {title: "Cards", jsx: <><h2 id="eq-misc-cards-cards">Cards</h2>
@@ -1687,8 +1765,10 @@ const _carriage = {title: "Carriage", jsx: <><h2 id="eq-misc-carriage-carriage">
 const _carrion_bait = {title: "Carrion bait", jsx: <><h2 id="eq-misc-carrion_bait-carrion-bait">Carrion bait</h2>
 <p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 11</Link>  </p>
 <Tabular format="misc" a="25" b="2" d="atool" />
-<p>This large glass jar is vacuum-sealed with an airtight wax plug. Inside, festering chunks of monkey meat are covered in fungal mycelium and seeded with fly eggs, though the mixture's potency is not evident until it's exposed to air. Once the jar is opened (a standard action), the stench quickly becomes overpowering as the jar's contents swell and rot at an accelerated rate. Any living creature within 15 feet of the jar when it is opened must succeed at a DC 12 Fortitude save or be <Link to="/misc/sickened">sickened</Link> for 1d4 rounds.</p>
-<p>Vermin and undead have a hard time distinguishing carrion bait from rotten human flesh, but intelligent undead that succeed at a DC 15 Perception check realize the difference. Regardless, any creature that spends more than 1 round eating the carrion bait quickly realizes its error, since the bait continues to swell and grow even as it's digested. One round after eating carrion bait, an affected undead or vermin becomes <Link to="/misc/staggered">staggered</Link> for 1d4 rounds as its belly bulges to incredible proportions (other creature types cannot stomach carrion bait and instead are <Link to="/misc/nauseated">nauseated</Link> for 2d4 rounds). If the affected creature is already staggered, its movement speed instead decreases by 10 feet for the duration of the carrion bait's effect. Crafting carrion bait requires a successful DC 19 Craft (alchemy) check.</p>
+<p>This large glass jar is vacuum-sealed with an airtight wax plug. Inside, festering chunks of monkey meat are covered in fungal mycelium and seeded with fly eggs, though the mixture's potency is not evident until it's exposed to air.</p>
+<p><Icons id="eq-misc-carrion_bait-aura-lower-icons" wrapper="prefixIcon" list={["aura","lower"]} /> Once the jar is opened (a <strong className="hl">standard action</strong>), the stench quickly becomes overpowering as the jar's contents swell and rot at an accelerated rate. Any living creature within 15 feet of the jar when it is opened must succeed at a DC 12 Fortitude save or be <Link to="/misc/sickened">sickened</Link> for 1d4 rounds.</p>
+<p>Vermin and undead have a hard time distinguishing carrion bait from rotten human flesh, but intelligent undead that succeed at a DC 15 <Link to="/skill/perception">Perception</Link> check realize the difference. Regardless, any creature that spends more than 1 round eating the carrion bait quickly realizes its error, since the bait continues to swell and grow even as it's digested.</p>
+<p><Icons id="eq-misc-carrion_bait-lower-icons" wrapper="prefixIcon" list={["lower"]} /> One round after eating carrion bait, an affected undead or vermin becomes <Link to="/misc/staggered">staggered</Link> for 1d4 rounds as its belly bulges to incredible proportions (other creature types cannot stomach carrion bait and instead are <Link to="/misc/nauseated">nauseated</Link> for 2d4 rounds). If the affected creature is already staggered, its movement speed instead decreases by 10 feet for the duration of the carrion bait's effect.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 19</p>
 </>};
 const _cart = {title: "Cart", jsx: <><h2 id="eq-misc-cart-cart">Cart</h2>
@@ -1699,7 +1779,8 @@ const _cart = {title: "Cart", jsx: <><h2 id="eq-misc-cart-cart">Cart</h2>
 const _casting_plaster = {title: "Casting plaster", jsx: <><h2 id="eq-misc-casting_plaster-casting-plaster">Casting plaster</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>  </p>
 <Tabular format="misc" a="0.5" b="5" d="atool" />
-<p>This white, dry powder mixes with water to form a paste, which hardens over the course of an hour to create a solid material. It can be used to make casts of footprints or carvings, fill in gaps or cracks in walls, or (if applied over a cloth wrapping) create a cast for a broken bone. Hardened plaster has hardness 1 and 5 hit points per inch of thickness. A 5-pound clay pot of plaster can cover about 5 square feet of flat space to a depth of 1 inch, five Medium forearm or lower-leg casts, two Medium full-arm or full-leg casts, or twice as many casts for a Small creature.</p>
+<p>This white, dry powder mixes with water to form a paste, which hardens over the course of an hour to create a solid material. It can be used to make casts of footprints or carvings, fill in gaps or cracks in walls, or (if applied over a cloth wrapping) create a cast for a broken bone.</p>
+<p>Hardened plaster has <Link to="/rule/hardness">hardness</Link> 1 and 5 hit points per inch of thickness. A 5-pound clay pot of plaster can cover about 5 square feet of flat space to a depth of 1 inch, five Medium forearm or lower-leg casts, two Medium full-arm or full-leg casts, or twice as many casts for a Small creature.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _cat_common = {title: "Cat (common)", jsx: <><h2 id="eq-misc-cat_common-cat">Cat</h2>
@@ -1814,13 +1895,13 @@ const _chalkboard = {title: "Chalkboard", jsx: <><h2 id="eq-misc-chalkboard-chal
 const _chameleon_ointment = {title: "Chameleon ointment", jsx: <><h2 id="eq-misc-chameleon_ointment-chameleon-ointment">Chameleon ointment</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 15</Link>  </p>
 <Tabular format="misc" a="20" b="x" d="rem" />
-<p>When applied to a <Link to="/monster/homunculus">homunculus's</Link> skin (which takes 1 minute), this ointment causes the creature's flesh to shift color and pattern reflexively to match its surroundings. The homunculus gains a +4 circumstance bonus on Stealth checks for 24 hours. The ointment can also be applied to other creatures as long as they are Medium or smaller and wear no clothing or armor to obstruct their skin, but the bonus is reduced to +2.</p>
+<p><Icons id="eq-misc-chameleon_ointment-def-icons" wrapper="prefixIcon" list={["def"]} /> When applied to a <Link to="/monster/homunculus">homunculus's</Link> skin (which takes 1 minute), this ointment causes the creature's flesh to shift color and pattern reflexively to match its surroundings. The homunculus gains a +4 circumstance bonus on <Link to="/skill/stealth">Stealth</Link> checks for 24 hours. The ointment can also be applied to other creatures as long as they are Medium or smaller and wear no clothing or armor to obstruct their skin, but the bonus is reduced to +2.</p>
 <p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (1 gold + 12 silver + 12 urea)/ceration; <strong>Craft DC</strong> 20<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/crucible">crucible</Link>; <strong>Type</strong> alchemical remedy</p>
 </>};
 const _chameleon_pill = {title: "Chameleon pill", jsx: <><h2 id="eq-misc-chameleon_pill-chameleon-pill">Chameleon pill</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 50</Link>  </p>
 <Tabular format="misc" a="100" b="x" d="atool" />
-<p>This pill causes the imbiber's skin to shift colors and patterns to match whatever is behind her. As long as a significant portion of her skin is exposed (her head and forearms, for example), the imbiber gains a +4 circumstance bonus on Stealth checks for 4 hours. This bonus doesn't stack with that granted by <Link to="/spell/invisibility">invisibility</Link>, <Link to="/spell/vanish">vanish</Link>, or similar magical effects. Crafting a chameleon pill requires a successful DC 15 Craft (alchemy) check.</p>
+<p><Icons id="eq-misc-chameleon_pill-def-icons" wrapper="prefixIcon" list={["def"]} /> This pill causes the imbiber's skin to shift colors and patterns to match whatever is behind her. As long as a significant portion of her skin is exposed (her head and forearms, for example), the imbiber gains a +4 circumstance bonus on <Link to="/skill/stealth">Stealth</Link> checks for 4 hours. This bonus doesn't stack with that granted by <Link to="/spell/invisibility">invisibility</Link>, <Link to="/spell/vanish">vanish</Link>, or similar magical effects.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
 </>};
 const _charcoal = {title: "Charcoal", jsx: <><h2 id="eq-misc-charcoal-charcoal">Charcoal</h2>
@@ -1864,7 +1945,8 @@ const _cheese = {title: "Cheese", jsx: <><h2 id="eq-misc-cheese-cheese">Cheese</
 const _chemical_ward = {title: "Chemical ward", jsx: <><h2 id="eq-misc-chemical_ward-chemical-ward">Chemical ward</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 26</Link>  </p>
 <Tabular format="misc" a="25" b="1" d="atool" />
-<p>This gray paste congeals when spread onto a surface, gradually changing color to match its surroundings. When applied, its reagents bond with chemicals in the environment, exuding a magnified aura that can fool <Link to="/umr/blindsight">blindsight</Link> and <Link to="/umr/blindsense">blindsense</Link>. This affects only blindsight or blindsense based on smell, taste, vibration, and similar senses; it does not affect extraordinary sight, hearing, or <Link to="/umr/tremorsense">tremorsense</Link>. Applying a flask of chemical ward to the edge of a 5-foot square takes a full-round action, creating an opaque barrier against blindsense and blindsight that lasts for 1 hour. A creature can sense through the barrier with a successful Perception check (DC 15 for blindsight, 20 for blindsense), although individuals on the opposite side of the barrier can attempt Stealth checks against the creature's blindsight or blindsense as though they had <Link to="/rule/concealment">concealment</Link>. The barrier does not inhibit movement.</p>
+<p><Icons id="eq-misc-chemical_ward-def-icons" wrapper="prefixIcon" list={["def"]} /> This gray paste congeals when spread onto a surface, gradually changing color to match its surroundings. When applied, its reagents bond with chemicals in the environment, exuding a magnified aura that can fool <Link to="/umr/blindsight">blindsight</Link> and <Link to="/umr/blindsense">blindsense</Link>. This affects only blindsight or blindsense based on smell, taste, vibration, and similar senses; it does not affect extraordinary sight, hearing, or <Link to="/umr/tremorsense">tremorsense</Link>.</p>
+<p>Applying a flask of chemical ward to the edge of a 5-foot square takes a <strong className="hl">full-round action</strong>, creating an opaque barrier against blindsense and blindsight that lasts for 1 hour. A creature can sense through the barrier with a successful <Link to="/skill/perception">Perception</Link> check (DC 15 for blindsight, 20 for blindsense), although individuals on the opposite side of the barrier can attempt <Link to="/skill/stealth">Stealth</Link> checks against the creature's blindsight or blindsense as though they had <Link to="/rule/concealment">concealment</Link>. The barrier does not inhibit movement.</p>
 </>};
 const _chest_huge = {title: "Chest (huge)", jsx: <><h2 id="eq-misc-chest_huge-chest">Chest</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 181</Link>  </p>
@@ -1879,7 +1961,9 @@ const _chicken = {title: "Chicken", jsx: <><h2 id="eq-misc-chicken-chicken">Chic
 const _chill_cream = {title: "Chill cream", jsx: <><h2 id="eq-misc-chill_cream-chill-cream">Chill cream</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
 <Tabular format="misc" a="15" b="1" d="atool" />
-<p>This sticky light blue paste grows pleasantly cool to the touch whenever it is exposed to light. Spreading a dose on your face and hands takes a full-round action and grants you a +2 alchemical bonus on saves to resist <Link to="/rule/heat_dangers">hot weather</Link>. In areas of bright light this bonus increases to +4, while in areas of <Link to="/rule/dim_light">dim light</Link> or darkness it is negated. A dose of chill cream lasts for 1 hour after being applied. A newly crafted bottle of chill cream holds 5 doses.</p>
+<p>This sticky light blue paste grows pleasantly cool to the touch whenever it is exposed to light.</p>
+<p><Icons id="eq-misc-chill_cream-def-icons" wrapper="prefixIcon" list={["def"]} /> Spreading a dose on your face and hands takes a <strong className="hl">full-round action</strong> and grants you a +2 alchemical bonus on saves to resist <Link to="/rule/heat_dangers">hot weather</Link>. In areas of bright light this bonus increases to +4, while in areas of <Link to="/rule/dim_light">dim light</Link> or darkness it is negated.</p>
+<p>A dose of chill cream lasts for 1 hour after being applied. A newly crafted bottle of chill cream holds 5 doses.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
 </>};
 const _chirurgeons_kit = {title: "Chirurgeon's kit", jsx: <><h2 id="eq-misc-chirurgeons_kit-chirurgeons-kit">Chirurgeon's kit</h2>
@@ -1910,7 +1994,9 @@ const _city_map = {title: "City map", jsx: <><h2 id="eq-misc-city_map-city-map">
 const _clatterstone = {title: "Clatterstone", jsx: <><h2 id="eq-misc-clatterstone-clatterstone">Clatterstone</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 28</Link>  </p>
 <Tabular format="misc" a="30" b="2" d="atool" />
-<p>Comprising several chunks of magnetized ore connected by twine, a clatterstone creates an intense racket when it strikes a solid surface. The combination of magnetic disturbances, noise, and vibrations interferes with <Link to="/umr/blindsight">blindsight</Link>. A creature using blindsight perceives a detonated clatterstone as a Medium target until it attempts to interact with the perceived "creature" or identifies it with some other sense, such as darkvision. You can throw a clatterstone as a ranged attack with a range increment of 20 feet, and it remains active for 1d4+1 rounds before becoming inert.</p>
+<p>Comprising several chunks of magnetized ore connected by twine, a clatterstone creates an intense racket when it strikes a solid surface. The combination of magnetic disturbances, noise, and vibrations interferes with <Link to="/umr/blindsight">blindsight</Link>.</p>
+<p><Icons id="eq-misc-clatterstone-power-icons" wrapper="prefixIcon" list={["power"]} /> A creature using blindsight perceives a detonated clatterstone as a Medium target until it attempts to interact with the perceived "creature" or identifies it with some other sense, such as darkvision.</p>
+<p><Icons id="eq-misc-clatterstone-zap-icons" wrapper="prefixIcon" list={["zap"]} /> You can throw a clatterstone as a ranged attack with a range increment of 20 feet, and it remains active for 1d4+1 rounds before becoming inert.</p>
 </>};
 const _clay_whippoorwill = {title: "Clay whippoorwill", jsx: <><h2 id="eq-misc-clay_whippoorwill-clay-whippoorwill">Clay whippoorwill</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_temples">Inner Sea Temples pg. 42</Link>  </p>
@@ -1972,12 +2058,16 @@ const _clockwork_oar = {title: "Clockwork oar", jsx: <><h2 id="eq-misc-clockwork
 const _clockwork_prowler_advanced = {title: "Clockwork prowler (advanced)", jsx: <><h2 id="eq-misc-clockwork_prowler_advanced-clockwork-prowler-advanced">Clockwork prowler (advanced)</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 48</Link>  </p>
 <Tabular format="misc" a="1500" b="30" d="atool" />
-<p>A more advanced version of the <Link to="/eq-misc/clockwork_prowler">clockwork prowler</Link>, this device is more metal than wood. It moves at a speed of 20 feet and can be programmed with up to four right-angle turns. Each turn requires 1 round to program along with a DC 15 Disable Device check. If this check is failed, roll d% each time the prowler attempts to turn. On a result of 1-10, it fails to turn. On a result of 11-20, it instead turns on the next round. An advanced clockwork prowler can carry up to 60 pounds of weight at full speed, or up to 120 pounds at a speed of 10 feet. It has hardness 10, 150 hit points, and when in motion has AC 15 (a motionless advanced clockwork prowler has AC 8).</p>
+<p><Icons id="eq-misc-clockwork_prowler_advanced-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A more advanced version of the <Link to="/eq-misc/clockwork_prowler">clockwork prowler</Link>, this device is more metal than wood. It moves at a speed of 20 feet and can be programmed with up to four right-angle turns. Each turn requires 1 round to program along with a DC 15 <Link to="/skill/disable_device">Disable Device</Link> check. If this check is failed, roll d% each time the prowler attempts to turn. On a result of 1-10, it fails to turn. On a result of 11-20, it instead turns on the next round.</p>
+<p>An advanced clockwork prowler can carry up to 60 pounds of weight at full speed, or up to 120 pounds at a speed of 10 feet. It has <Link to="/rule/hardness">hardness</Link> 10, 150 hit points, and when in motion has AC 15 (a motionless advanced clockwork prowler has AC 8).</p>
 </>};
 const _clockwork_prowler = {title: "Clockwork prowler", jsx: <><h2 id="eq-misc-clockwork_prowler-clockwork-prowler">Clockwork prowler</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 48</Link>  </p>
 <Tabular format="misc" a="500" b="25" d="atool" />
-<p>This 2-foot-tall wooden clockwork automaton is shaped roughly like a short-backed, wheeled chair. When wound up with the folding handle at its side, the clockwork prowler trundles forward at a speed of 15 feet per round for up to 2 minutes. A clockwork prowler cannot move through <Link to="/rule/difficult_terrain">difficult terrain</Link>. Each round of vigorous winding powers 2 rounds of movement. If its brake is not released immediately after winding, the prowler loses 1 round of movement for every 2 rounds it sits idle. The clockwork prowler can carry up to 20 pounds of weight at full speed, or up to 50 pounds at a speed of 10 feet. Higher weights prevent the prowler from moving. A clockwork prowler has hardness 5 and 90 hit points, and when in motion has AC 12 (a motionless clockwork prowler has AC 5).</p>
+<p><Icons id="eq-misc-clockwork_prowler-power-icons" wrapper="prefixIcon" list={["power"]} /> This 2-foot-tall wooden clockwork automaton is shaped roughly like a short-backed, wheeled chair. When wound up with the folding handle at its side, the clockwork prowler trundles forward at a speed of 15 feet per round for up to 2 minutes. A clockwork prowler cannot move through <Link to="/rule/difficult_terrain">difficult terrain</Link>.</p>
+<p>Each round of vigorous winding powers 2 rounds of movement. If its brake is not released immediately after winding, the prowler loses 1 round of movement for every 2 rounds it sits idle.</p>
+<p>The clockwork prowler can carry up to 20 pounds of weight at full speed, or up to 50 pounds at a speed of 10 feet. Higher weights prevent the prowler from moving.</p>
+<p>A clockwork prowler has <Link to="/rule/hardness">hardness</Link> 5 and 90 hit points, and when in motion has AC 12 (a motionless clockwork prowler has AC 5).</p>
 </>};
 const _cloud_puff = {title: "Cloud Puff", jsx: <><h2 id="eq-misc-cloud_puff-cloud-puff">Cloud Puff</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 153</Link>  </p>
@@ -2111,7 +2201,9 @@ const _cooking_kit = {title: "Cooking kit", jsx: <><h2 id="eq-misc-cooking_kit-c
 const _cooking_powder = {title: "Cooking powder", jsx: <><h2 id="eq-misc-cooking_powder-cooking-powder">Cooking powder</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 44</Link>, <Link to="/source/pathfinder_106_for_queen_and_empire">Pathfinder #106: For Queen and Empire pg. 75</Link>  </p>
 <Tabular format="misc" a="2" b="1" d="atool" />
-<p>By boiling certain seeds with handfuls of rust, <Link to="/race/halfling">halfling</Link> <Link to="/class/alchemist">alchemists</Link> create these red flakes, which smolder slowly when touched by a spark or flame. If sprinkled over food and lit, a handful of cooking powder can cook meat or vegetables in 20 minutes without light or significant heat, though it lends a metallic flavor to any foods. If held to a living creature's flesh, smoldering cooking powder deals 1 point of fire damage per minute for 20 minutes. One jar of cooking powder is enough to cook up to 5 pounds of food in 1-pound increments. Crafting a jar of cooking powder requires a successful DC 15 Craft (alchemy) check.</p>
+<p>By boiling certain seeds with handfuls of rust, <Link to="/race/halfling">halfling</Link> <Link to="/class/alchemist">alchemists</Link> create these red flakes, which smolder slowly when touched by a spark or flame.</p>
+<p>If sprinkled over food and lit, a handful of cooking powder can cook meat or vegetables in 20 minutes without light or significant heat, though it lends a metallic flavor to any foods. If held to a living creature's flesh, smoldering cooking powder deals 1 point of fire damage per minute for 20 minutes.</p>
+<p>One jar of cooking powder is enough to cook up to 5 pounds of food in 1-pound increments.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
 </>};
 const _cooler_chest = {title: "Cooler chest", jsx: <><h2 id="eq-misc-cooler_chest-cooler-chest">Cooler chest</h2>
@@ -2127,7 +2219,9 @@ const _copy_of_a_key = {title: "Copy of a key", jsx: <><h2 id="eq-misc-copy_of_a
 const _coral_boulder = {title: "Coral boulder", jsx: <><h2 id="eq-misc-coral_boulder-coral-boulder">Coral boulder</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 26</Link>  </p>
 <Tabular format="misc" a="50" b="x" d="atool" />
-<p>This sponge-sized brick is actually a desiccated chunk of living coral. When exposed to at least 1 gallon of water, it expands into a full-sized boulder within 1 minute. A fully expanded coral boulder is an irregular sphere 3 feet in diameter. An expanded boulder has a hardness of 7, has 55 hit points, and weighs 8 pounds. The water in a coral boulder slowly evaporates if it's left in a dry environment, and the boulder shrinks back to its original size in about a week. If dropped in water, a coral boulder sinks straight down, and is not moved by tides or flowing water.</p>
+<p>This sponge-sized brick is actually a desiccated chunk of living coral. When exposed to at least 1 gallon of water, it expands into a full-sized boulder within 1 minute.</p>
+<p>A fully expanded coral boulder is an irregular sphere 3 feet in diameter. An expanded boulder has a <Link to="/rule/hardness">hardness</Link> of 7, has 55 hit points, and weighs 8 pounds.</p>
+<p>The water in a coral boulder slowly evaporates if it's left in a dry environment, and the boulder shrinks back to its original size in about a week. If dropped in water, a coral boulder sinks straight down, and is not moved by tides or flowing water.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _corentyn_wine_bottle = {title: "Corentyn wine (bottle)", jsx: <><h2 id="eq-misc-corentyn_wine_bottle-corentyn-wine">Corentyn wine</h2>
@@ -2205,7 +2299,8 @@ const _crowbar = {title: "Crowbar", jsx: <><h2 id="eq-misc-crowbar-crowbar">Crow
 const _crucible = {title: "Crucible", jsx: <><h2 id="eq-misc-crucible-crucible">Crucible</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 5</Link>  </p>
 <Tabular format="misc" a="20" b="30" d="atool" />
-<p>A crucible is a type of vessel that can be heated to extreme temperatures for the purpose of inducing special alchemical reactions. A portable crucible is a cylinder 12 inches tall and 18 inches in diameter that weighs 3 pounds; it has the same price as a full-sized crucible. Use of a crucible requires a heat source.</p>
+<p>A crucible is a type of vessel that can be heated to extreme temperatures for the purpose of inducing special alchemical reactions.</p>
+<p>A portable crucible is a cylinder 12 inches tall and 18 inches in diameter that weighs 3 pounds; it has the same price as a full-sized crucible. Use of a crucible requires a heat source.</p>
 </>};
 const _crusaders_cross_standard = {title: "Crusader's cross (standard)", jsx: <><h2 id="eq-misc-crusaders_cross_standard-crusaders-cross-standard">Crusader's cross (standard)</h2>
 <p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook pg. 18</Link>  </p>
@@ -2225,12 +2320,12 @@ const _cryptography_book = {title: "Cryptography book", jsx: <><h2 id="eq-misc-c
 const _crystal_sweet_concoction = {title: "Crystal-sweet concoction", jsx: <><h2 id="eq-misc-crystal_sweet_concoction-crystal-sweet-concoction">Crystal-sweet concoction</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 25</Link>  </p>
 <Tabular format="misc" a="50" b="x" d="conc" />
-<p>This sugary blue drink, often cut with mint to reduce the cloying sweetness, brightens your demeanor and sweetens your voice, granting a +2 alchemical bonus on Diplomacy checks. It renders you naive and perilously trusting, however, imparting a -4 penalty on your Sense Motive checks.</p>
+<p><Icons id="eq-misc-crystal_sweet_concoction-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> This sugary blue drink, often cut with mint to reduce the cloying sweetness, brightens your demeanor and sweetens your voice, granting a +2 alchemical bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks. It renders you naive and perilously trusting, however, imparting a -4 penalty on your <Link to="/skill/sense_motive">Sense Motive</Link> checks.</p>
 </>};
 const _curative_myrrh = {title: "Curative myrrh", jsx: <><h2 id="eq-misc-curative_myrrh-curative-myrrh">Curative myrrh</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 29</Link>, <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East pg. 19</Link>  </p>
 <Tabular format="misc" a="50" b="x" d="rem" />
-<p>When you burn this powerful resin, it fills eight contiguous 10-foot cubes with faint smoke that persists for 8 hours. Creatures resting or receiving long-term care in the smoke from curative myrrh regain 1 additional hit point per level. Multiple uses of curative myrrh in a 24-hour period do not stack.</p>
+<p><Icons id="eq-misc-curative_myrrh-aid-icons" wrapper="prefixIcon" list={["aid"]} /> When you burn this powerful resin, it fills eight contiguous 10-foot cubes with faint smoke that persists for 8 hours. Creatures resting or receiving long-term care in the smoke from curative myrrh regain 1 additional hit point per level. Multiple uses of curative myrrh in a 24-hour period do not stack.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _cushion_inserts = {title: "Cushion inserts", jsx: <><h2 id="eq-misc-cushion_inserts-cushion-inserts">Cushion inserts</h2>
@@ -2253,7 +2348,8 @@ const _dahaks_fire = {title: "Dahak's fire", jsx: <><h2 id="eq-misc-dahaks_fire-
 const _dampening_ointment = {title: "Dampening Ointment", jsx: <><h2 id="eq-misc-dampening_ointment-dampening-ointment">Dampening Ointment</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_139_the_dead_road">Pathfinder #139: The Dead Road pg. 63</Link>  </p>
 <Tabular format="misc" a="250" b="0.5" d="atool" />
-<p>This pale salve is always cool to the touch, regardless of the surrounding temperature. When spread on your skin, it subtly alters your aura, making you more difficult for some creatures to detect. For 1 hour after applying the ointment to your skin, you can attempt a Stealth check to hide from any creature attempting to perceive you using <Link to="/umr/lifesense">lifesense</Link> or spiritsense (see the <Link to="/subtype/psychopomp">psychopomp</Link> subtype), even if you are clearly in that creature's perceptual field. Crafting this item requires a successful DC 25 Craft (alchemy) check.</p>
+<p>This pale salve is always cool to the touch, regardless of the surrounding temperature. When spread on your skin, it subtly alters your aura, making you more difficult for some creatures to detect.</p>
+<p><Icons id="eq-misc-dampening_ointment-def-icons" wrapper="prefixIcon" list={["def"]} /> For 1 hour after applying the ointment to your skin, you can attempt a <Link to="/skill/stealth">Stealth</Link> check to hide from any creature attempting to perceive you using <Link to="/umr/lifesense">lifesense</Link> or spiritsense (see the <Link to="/subtype/psychopomp">psychopomp</Link> subtype), even if you are clearly in that creature's perceptual field.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _dancers_garb = {title: "Dancer's garb", jsx: <><h2 id="eq-misc-dancers_garb-dancers-garb">Dancer's garb</h2>
@@ -2306,12 +2402,14 @@ const _dartboard_set = {title: "Dartboard set", jsx: <><h2 id="eq-misc-dartboard
 const _darting_eye_concoction = {title: "Darting-eye concoction", jsx: <><h2 id="eq-misc-darting_eye_concoction-darting-eye-concoction">Darting-eye concoction</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 26</Link>  </p>
 <Tabular format="misc" a="50" b="x" d="conc" />
-<p>This effervescent concoction improves your sensory reaction time, providing a +2 alchemical bonus on Perception checks. However, the mental hyperactivity it creates imparts a -1 penalty on your Will saving throws.</p>
+<p><Icons id="eq-misc-darting_eye_concoction-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> This effervescent concoction improves your sensory reaction time, providing a +2 alchemical bonus on <Link to="/skill/perception">Perception</Link> checks. However, the mental hyperactivity it creates imparts a -1 penalty on your Will saving throws.</p>
 </>};
 const _dead_air_vial = {title: "Dead air vial", jsx: <><h2 id="eq-misc-dead_air_vial-dead-air-vial">Dead air vial</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements pg. 19</Link>  </p>
 <Tabular format="misc" a="200" b="x" d="atool" />
-<p>Within this corked vial is a tiny sample of what is known as "dead air." Heavy, still, and of unknown origin, pockets of dead air becalm airships and smother crews in remote parts of the Plane of Air. When you open a dead air vial, invisible dead air fills a 20-foot-radius area centered on you. The affected area becomes devoid of breathable air. Creatures that breathe air must <Link to="/misc/hold_their_breath">hold their breath</Link> or <Link to="/rule/suffocate">suffocate</Link> in an area of dead air, though sound, fire, and other effects that rely on a stable atmosphere are unaffected. Undisturbed, the dead air dissipates in 1 minute. A moderate wind (11+ mph) disperses the dead air in 4 rounds; a strong wind (21+ mph) disperses the dead air in 1 round. This item can be crafted with a successful DC 25 Craft (alchemy) check.</p>
+<p>Within this corked vial is a tiny sample of what is known as "dead air." Heavy, still, and of unknown origin, pockets of dead air becalm airships and smother crews in remote parts of the Plane of Air.</p>
+<p><Icons id="eq-misc-dead_air_vial-aura-lower-icons" wrapper="prefixIcon" list={["aura","lower"]} /> When you open a dead air vial, invisible dead air fills a 20-foot-radius area centered on you. The affected area becomes devoid of breathable air. Creatures that breathe air must <Link to="/misc/hold_their_breath">hold their breath</Link> or <Link to="/rule/suffocate">suffocate</Link> in an area of dead air, though sound, fire, and other effects that rely on a stable atmosphere are unaffected.</p>
+<p>Undisturbed, the dead air dissipates in 1 minute. A moderate wind (11+ mph) disperses the dead air in 4 rounds; a strong wind (21+ mph) disperses the dead air in 1 round.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _absinthe_glass = {..._absinthe_bottle, title: "Absinthe (glass)"};
