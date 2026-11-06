@@ -766,8 +766,7 @@
 			"",
 			"@I-warning *Frightful war paint* can be worn indefinitely, but it contains quicksilver and realgar, which have deleterious mental effects. If you wear *frightful war paint* for more than 1 minute per day (whether as a single use of it or as multiple uses over several periods of time), you take 1 point of ‹rule/Constitution damage›, plus 1 point of Wisdom damage for every minute you wear the *paint* that day after the first.",
 			"",
-			"**‹rule/Spontaneous Alchemy› Recipe** (40 dew of lunary + 40 quicksilver + 50 realgar)/earth; **Craft DC** 30  ",
-			"**Time** 10 minutes; **Tools** -; **Type** alchemical tool"
+			"::tabular{format=spontalch a=\"lunary40/qs40/real50\" b=earth c=30 d=\"10 minutes\" g=tool}"
 		]
 	},
 	"frost_giant_hunters_kit": {
@@ -2201,8 +2200,7 @@
 			"",
 			"This thick clay mixture comes in a jar stamped with a silhouette of whatever creature can be created using its contents. By adding a drop of blood to a scoop of homunculus clay, you can create a temporary ‹monster/homunculus› that hardens and becomes fully animate in just 1 round. The character whose blood is used is treated as the homunculus's master. After 1 hour, a clay homunculus withers and dies, rapidly decaying into a viscous slime. The listed price is for a jar containing 3 doses of homunculus clay.",
 			"",
-			"**‹rule/Spontaneous Alchemy› Recipe** (450 darkwood + 350 dew of lunary + 400 myrrh)/fermentation; **Craft DC** 30  ",
-			"**Time** 1 day; **Tools** heat source; **Type** alchemical tool"
+			"::tabular{format=spontalch a=\"dw450/lunary350/myrrh400\" b=fermentation c=30 d=\"1 day\" e=\"heat source\" g=tool}"
 		]
 	},
 	"honey_jar": {
@@ -2613,8 +2611,7 @@
 			"",
 			"Additional doses of *icecap ale* imbibed during the hour following an initial dose cause the drinker to become ‹misc/sickened› for 1 minute (instead of gaining a bonus to Strength and Constitution) and to suffer all the negative effects of *icecap ale.*",
 			"",
-			"**‹rule/Spontaneous Alchemy› Recipe** (50 spirit of wine + 40 urea)/distillation; **Craft DC** 20  ",
-			"**Time** 1 week; **Tools** ‹eq-misc/brewer's kit›; **Type** alcohol"
+			"::tabular{format=spontalch a=\"wine50/urea40\" b=distillation c=20 d=\"1 week\" f=\"brewer's kit\" g=alcohol}"
 		]
 	},
 	"ifrits_blood": {
@@ -2678,8 +2675,7 @@
 			"",
 			"@I-warning Unfortunately, *imposing war paint* is made with realgar, which is toxic to living creatures. If you wear *imposing war paint* for more than 1 minute per day, you take 1 point of ‹rule/Constitution damage›, plus 1 point of Constitution damage for every minute you wear the *paint* that day after the first.",
 			"",
-			"**‹rule/Spontaneous Alchemy› Recipe** (12 dew of lunary + 10 realgar)/earth; **Craft DC** 25  ",
-			"**Time** 10 minutes; **Tools** -; **Type** alchemical tool"
+			"::tabular{format=spontalch a=\"lunary12/real10\" b=earth c=25 d=\"10 minutes\" g=tool}"
 		]
 	},
 	"incense_of_divinity": {
@@ -2692,8 +2688,7 @@
 			"",
 			"@HL[Mythic:] If you are a mythic divine spellcaster and burn this incense while preparing spells, you can expend two uses of mythic power to prepare any one spell as a mythic spell (but not as an augmented mythic spell), even if you're normally unable to cast the mythic version of that spell. *Incense of divinity* burns for 1 hour; you can prepare as many mythic spells as you are able to during this time, but you must expend two uses of mythic power for each mythic spell so prepared.",
 			"",
-			"**‹rule/Spontaneous Alchemy› Recipe** (50 dew of lunary + 150 phosphorus)/exposure; **Craft DC** 30  ",
-			"**Time** 1 hour; **Tools** ‹eq-misc/filter›; **Type** alchemical tool"
+			"::tabular{format=spontalch a=\"lunary50/phos150\" b=exposure c=30 d=\"1 hour\" f=filter g=tool}"
 		]
 	},
 	"incense": {
@@ -2882,8 +2877,7 @@
 			"",
 			"@I-boost After 8 hours of uninterrupted rest, you can attempt a previously failed ‹skill/Knowledge› check with a +2 alchemical bonus.",
 			"",
-			"**‹rule/Spontaneous Alchemy› Recipe** (10 dew of lunary + 5 mugwort extract + 20 spirit of wine)/fermentation; **Craft DC** 25  ",
-			"**Time** 1 day; **Tools** heat source; **Type** alchemical remedy"
+			"::tabular{format=spontalch a=\"lunary10/mw5/wine20\" b=fermentation c=25 d=\"1 day\" e=\"heat source\" g=remedy}"
 		]
 	},
 	"instant_fertilizer": {
@@ -2898,8 +2892,7 @@
 			"",
 			"@I-down-aid Any non-plant creature in the square must succeed at a DC 15 Reflex save or it becomes ‹rule/entangled› by the surging plants. Any plant creature in the affected square is healed of 1d6 points of damage.",
 			"",
-			"**‹rule/Spontaneous Alchemy› Recipe** (15 magnesium + 20 phosphorus + 10 salt)/calcination; **Craft DC** 20  ",
-			"**Time** 1 hour; **Tools** ‹eq-misc/crucible›; **Type** alchemical tool"
+			"::tabular{format=spontalch a=\"mag15/phos20/salt10\" b=calcination c=20 d=\"1 hour\" f=crucible g=tool}"
 		]
 	},
 	"instrument_of_the_divine": {
@@ -3894,8 +3887,7 @@
 			"",
 			"@I-warning If you consume a second *longbeard lambic* within 1 minute of the previous dose, you must succeed at a DC 15 Fortitude save or be ‹misc/nauseated› for 1d4 rounds. The DC increases by 5 for each dose imbibed within the same time span. Dwarves gain a +5 racial bonus on this saving throw.",
 			"",
-			"**‹rule/Spontaneous Alchemy› Recipe** (3 gold + 5 quicksilver + 4 spirit of wine)/fermentation; **Craft DC** 18  ",
-			"**Time** 1 week; **Tools** ‹eq-misc/brewer's kit›; **Type** alcohol"
+			"::tabular{format=spontalch a=\"gold3/qs5/wine4\" b=fermentation c=18 d=\"1 week\" f=\"brewer's kit\" g=alcohol}"
 		]
 	},
 	"longship": {
@@ -4001,8 +3993,7 @@
 			"",
 			"This serum transfers a ‹monster/homunculus«'s› loyalty from one master to another. In order for this to work, the homunculus's current master and its master-to-be must each place a drop of their blood into the serum. When an appropriate homunculus drinks this concoction, it thereafter treats the master-to-be as its master. The change in ownership also causes the homunculus's alignment to change to match that of its new owner.",
 			"",
-			"**‹rule/Spontaneous Alchemy› Recipe** (200 quicksilver + 150 realgar + 200 spirit of wine)/distillation; **Craft DC** 30  ",
-			"**Time** 1 day; **Tools** ‹eq-misc/retort›; **Type** alchemical remedy"
+			"::tabular{format=spontalch a=\"qs200/real150/wine200\" b=distillation c=30 d=\"1 day\" f=retort g=remedy}"
 		]
 	},
 	"lozenge_of_the_songbird": {
@@ -4797,8 +4788,7 @@
 			"",
 			"@I-aid When applied as a @HL[full-round action], mimic fibers heal 1d10+10 points of damage to one object made of wood, paper, earth, or other living or once-living material. Even a destroyed item can be repaired (treat as if at 0 hit points) as long as the item is in no more than two pieces and is held together at the break as the spores are applied.",
 			"",
-			"**‹rule/Spontaneous Alchemy› Recipe** (6 magnesium + 6 cytillesh spores)/filtration; **Craft DC** 20  ",
-			"**Time** 10 minutes; **Tools** ‹eq-misc/filter›; **Type** alchemical tool"
+			"::tabular{format=spontalch a=\"mag6/cs6\" b=filtration c=20 d=\"10 minutes\" f=filter g=tool}"
 		]
 	},
 	"mindburn_incense": {

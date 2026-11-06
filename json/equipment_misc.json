@@ -724,8 +724,7 @@
 			"",
 			"If a drug combined with *amp* is not consumed within 1 round, the *amp* spoils and the drug becomes tainted, as if cut with ‹eq-misc/bunk›.",
 			"",
-			"**‹rule/Spontaneous Alchemy› Recipe** (6 quicksilver + 10 realgar)/distillation; **Craft DC** 20  ",
-			"**Time** 10 minutes; **Tools** ‹eq-misc/retort›; **Type** alchemical tool"
+			"::tabular{format=spontalch a=\"qs6/real10\" b=distillation c=20 d=\"10 minutes\" f=retort g=tool}"
 		]
 	},
 	"anchoring_balloon": {
@@ -1143,8 +1142,7 @@
 			"",
 			"@I-def This substance counteracts a specific toxin. If you drink a vial of *antitoxin,* you gain a +5 alchemical bonus on Fortitude saving throws against poison for 1 hour.",
 			"",
-			"**‹rule/Spontaneous Alchemy› Recipe** (7 gold + 17 myrrh + 23 urea)/ceration; **Craft DC** 25  ",
-			"**Time** 10 minutes; **Tools** ‹eq-misc/crucible›; **Type** alchemical remedy"
+			"::tabular{format=spontalch a=\"gold7/myrrh17/urea23\" b=ceration c=25 d=\"10 minutes\" f=crucible g=remedy}"
 		]
 	},
 	"antivenom": {
@@ -2697,8 +2695,7 @@
 			"",
 			"Swallowing a ‹eq-misc/blood-chilling pill› while under the effects of a *blood-boiling pill* negates the effects of both pills.",
 			"",
-			"**‹rule/Spontaneous Alchemy› Recipe** (30 ginger extract + 8 gold + 15 mugwort extract)/ceration; **Craft DC** 25  ",
-			"**Time** 10 minutes; **Tools** ‹eq-misc/crucible›; **Type** alchemical remedy"
+			"::tabular{format=spontalch a=\"ge30/gold8/mw15\" b=ceration c=25 d=\"10 minutes\" f=crucible g=remedy}"
 		]
 	},
 	"blood_chilling_pill": {
@@ -2713,8 +2710,7 @@
 			"",
 			"Swallowing a ‹eq-misc/blood-boiling pill› while under the effects of a *blood-chilling pill* negates the effects of both pills.",
 			"",
-			"**‹rule/Spontaneous Alchemy› Recipe** (15 ginger extract + 40 myrrh + 30 mugwort extract)/filtration; **Craft DC** 25  ",
-			"**Time** 10 minutes; **Tools** ‹eq-misc/filter›; **Type** alchemical remedy"
+			"::tabular{format=spontalch a=\"ge15/myrrh40/mw30\" b=filtration c=25 d=\"10 minutes\" f=filter g=remedy}"
 		]
 	},
 	"blood_clotter_salve": {
@@ -2767,8 +2763,7 @@
 			"",
 			"@I-lower Anytime you take ‹rule/bleed› damage, any creatures adjacent to you must succeed at a Fortitude save (DC 10 + the amount of bleed damage taken) or be ‹misc/nauseated› for 1 round. A dose of *bloodgorge* lasts for 1 hour.",
 			"",
-			"**‹rule/Spontaneous Alchemy› Recipe** (5 cold iron + 10 dew of lunary)/filtration; **Craft DC** 25  ",
-			"**Time** 10 minutes; **Tools** ‹eq-misc/filter›; **Type** alchemical remedy"
+			"::tabular{format=spontalch a=\"ci5/lunary10\" b=filtration c=25 d=\"10 minutes\" f=filter g=remedy}"
 		]
 	},
 	"bloodragers_kit": {
@@ -3099,8 +3094,7 @@
 			"",
 			"Multiple doses of *boulderhead bock* stack, to a maximum alchemical bonus of +5 and a maximum of 20 temporary hit points.",
 			"",
-			"**‹rule/Spontaneous Alchemy› Recipe** (4 gold + 15 spirit of wine)/fermentation; **Craft DC** 19  ",
-			"**Time** 1 week; **Tools** ‹eq-misc/brewer's kit›; **Type** alcohol"
+			"::tabular{format=spontalch a=\"gold4/wine15\" b=fermentation c=19 d=\"1 week\" f=\"brewer's kit\" g=alcohol}"
 		]
 	},
 	"bounty_hunters_kit_common": {
@@ -3373,8 +3367,7 @@
 			"",
 			"@I-lower The duration and intensity of the drug's harmful after-effects and ability damage are not reduced, as the additives in *bunk* are often toxic or dangerous in their own right. When a creature takes a dose of a drug containing *bunk,* the creature must attempt a Fortitude save (DC 10 + 1d10). Failure causes the creature to become ‹misc/sickened› for 1d4 hours and take 1d2 points of ‹rule/ability damage› to a random ability score.",
 			"",
-			"**‹rule/Spontaneous Alchemy› Recipe** (1 salt + 1 urea)/filtration; **Craft DC** 15  ",
-			"**Time** 10 minutes; **Tools** ‹eq-misc/filter›; **Type** alchemical tool"
+			"::tabular{format=spontalch a=\"salt1/urea1\" b=filtration c=15 d=\"10 minutes\" f=filter g=tool}"
 		]
 	},
 	"buoy_common": {
@@ -4289,8 +4282,7 @@
 			"",
 			"@I-def When applied to a ‹monster/homunculus«'s› skin (which takes 1 minute), this ointment causes the creature's flesh to shift color and pattern reflexively to match its surroundings. The homunculus gains a +4 circumstance bonus on ‹skill/Stealth› checks for 24 hours. The ointment can also be applied to other creatures as long as they are Medium or smaller and wear no clothing or armor to obstruct their skin, but the bonus is reduced to +2.",
 			"",
-			"**‹rule/Spontaneous Alchemy› Recipe** (1 gold + 12 silver + 12 urea)/ceration; **Craft DC** 20  ",
-			"**Time** 10 minutes; **Tools** ‹eq-misc/crucible›; **Type** alchemical remedy"
+			"::tabular{format=spontalch a=\"gold1/silv12/urea12\" b=ceration c=20 d=\"10 minutes\" f=crucible g=remedy}"
 		]
 	},
 	"chameleon_pill": {

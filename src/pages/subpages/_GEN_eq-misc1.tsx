@@ -365,7 +365,7 @@ const _amp = {title: "Amp", jsx: <><h2 id="eq-misc-amp-amp">Amp</h2>
 <Tabular format="misc" a="30" b="x" d="atool" />
 <p><Icons id="eq-misc-amp-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> This liquid intensifier can be added to a drug as a <strong className="hl">move action</strong> no more than 1 round before the drug is taken. <em>Amp</em> increases all numeric effects of a drug by 50%, including any bonuses, penalties, and ability damage inflicted by the drug. Using <em>amp</em> with a drug increases the save DC to avoid becoming addicted to that drug by 2 for 1d4 days; this increase stacks.</p>
 <p>If a drug combined with <em>amp</em> is not consumed within 1 round, the <em>amp</em> spoils and the drug becomes tainted, as if cut with <Link to="/eq-misc/bunk">bunk</Link>.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (6 quicksilver + 10 realgar)/distillation; <strong>Craft DC</strong> 20<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/retort">retort</Link>; <strong>Type</strong> alchemical tool</p>
+<Tabular format="spontalch" a="qs6/real10" b="distillation" c="20" d="10 minutes" f="retort" g="tool" />
 </>};
 const _anchoring_balloon = {title: "Anchoring balloon", jsx: <><h2 id="eq-misc-anchoring_balloon-anchoring-balloon">Anchoring balloon</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars pg. 19</Link>  </p>
@@ -610,7 +610,7 @@ const _antitoxin = {title: "Antitoxin", jsx: <><h2 id="eq-misc-antitoxin-antitox
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 30</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 101</Link>  </p>
 <Tabular format="misc" a="50" b="x" d="rem" />
 <p><Icons id="eq-misc-antitoxin-def-icons" wrapper="prefixIcon" list={["def"]} /> This substance counteracts a specific toxin. If you drink a vial of <em>antitoxin,</em> you gain a +5 alchemical bonus on Fortitude saving throws against poison for 1 hour.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (7 gold + 17 myrrh + 23 urea)/ceration; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/crucible">crucible</Link>; <strong>Type</strong> alchemical remedy</p>
+<Tabular format="spontalch" a="gold7/myrrh17/urea23" b="ceration" c="25" d="10 minutes" f="crucible" g="remedy" />
 </>};
 const _antivenom = {title: "Antivenom", jsx: <><h2 id="eq-misc-antivenom-antivenom">Antivenom</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 143</Link>  </p>
@@ -1260,15 +1260,15 @@ const _blood_boiling_pill = {title: "Blood-boiling pill", jsx: <><h2 id="eq-misc
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 24</Link>  </p>
 <Tabular format="misc" a="75" b="x" d="rem" />
 <p><Icons id="eq-misc-blood_boiling_pill-boost-def-down-icons" wrapper="prefixIcon" list={["boost","def","down"]} /> Swallowing this dark black-red tea pill causes your blood to heat up, granting you a +2 alchemical bonus on initiative checks and on saving throws against cold effects for 8 hours. However, any damage you take from <Link to="/rule/bleed">bleed</Link> effects during this time is multiplied by 1&frac12; (rounded up).</p>
-<p><Icons id="eq-misc-antitoxin-def-icons" wrapper="prefixIcon" list={["def"]} /> This substance counteracts a specific toxin. If you drink a vial of <em>antitoxin,</em> you gain a +5 alchemical bonus on Fortitude saving throws against poison for 1 hour.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (30 ginger extract + 8 gold + 15 mugwort extract)/ceration; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/crucible">crucible</Link>; <strong>Type</strong> alchemical remedy</p>
+<p>Swallowing a <Link to="/eq-misc/blood_chilling_pill">blood-chilling pill</Link> while under the effects of a <em>blood-boiling pill</em> negates the effects of both pills.</p>
+<Tabular format="spontalch" a="ge30/gold8/mw15" b="ceration" c="25" d="10 minutes" f="crucible" g="remedy" />
 </>};
 const _blood_chilling_pill = {title: "Blood-chilling pill", jsx: <><h2 id="eq-misc-blood_chilling_pill-blood-chilling-pill">Blood-chilling pill</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 25</Link>  </p>
 <Tabular format="misc" a="75" b="x" d="rem" />
 <p><Icons id="eq-misc-blood_chilling_pill-def-down-icons" wrapper="prefixIcon" list={["def","down"]} /> Swallowing this pale green tea pill causes your blood to slow and chill, allowing you to ignore the first 20 points of <Link to="/rule/bleed">bleed</Link> damage you take during the following 8 hours. In addition, you gain a +2 alchemical bonus on saving throws against fire effects during this time. However, you take a -2 penalty on initiative checks.</p>
 <p>Swallowing a <Link to="/eq-misc/blood_boiling_pill">blood-boiling pill</Link> while under the effects of a <em>blood-chilling pill</em> negates the effects of both pills.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (15 ginger extract + 40 myrrh + 30 mugwort extract)/filtration; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/filter">filter</Link>; <strong>Type</strong> alchemical remedy</p>
+<Tabular format="spontalch" a="ge15/myrrh40/mw30" b="filtration" c="25" d="10 minutes" f="filter" g="remedy" />
 </>};
 const _blood_clotter_salve = {title: "Blood-clotter salve", jsx: <><h2 id="eq-misc-blood_clotter_salve-blood-clotter-salve">Blood-clotter salve</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 206</Link>  </p>
@@ -1291,7 +1291,7 @@ const _bloodgorge = {title: "Bloodgorge", jsx: <><h2 id="eq-misc-bloodgorge-bloo
 <Tabular format="misc" a="40" b="0.5" d="rem" />
 <p>When you imbibe this syrupy black serum, your blood thins dramatically and gushes forth from even minor wounds.</p>
 <p><Icons id="eq-misc-bloodgorge-lower-icons" wrapper="prefixIcon" list={["lower"]} /> Anytime you take <Link to="/rule/bleed">bleed</Link> damage, any creatures adjacent to you must succeed at a Fortitude save (DC 10 + the amount of bleed damage taken) or be <Link to="/misc/nauseated">nauseated</Link> for 1 round. A dose of <em>bloodgorge</em> lasts for 1 hour.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (5 cold iron + 10 dew of lunary)/filtration; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/filter">filter</Link>; <strong>Type</strong> alchemical remedy</p>
+<Tabular format="spontalch" a="ci5/lunary10" b="filtration" c="25" d="10 minutes" f="filter" g="remedy" />
 </>};
 const _bloodragers_kit = {title: "Bloodrager's kit", jsx: <><h2 id="eq-misc-bloodragers_kit-bloodragers-kit">Bloodrager's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 202</Link>  </p>
@@ -1442,7 +1442,7 @@ const _boulderhead_bock = {title: "Boulderhead bock", jsx: <><h2 id="eq-misc-bou
 <Tabular format="misc" a="25" b="2" d="rem" />
 <p><Icons id="eq-misc-boulderhead_bock-def-icons" wrapper="prefixIcon" list={["def"]} /> This malty <Link to="/eq-misc/ale_mug">ale</Link> has a legendarily thick, creamy head. It creates a pleasant buzz and sense of euphoria that dull the effects of pain and concussions, granting the drinker a +1 alchemical bonus on saving throws to avoid becoming dazed, staggered, or stunned, or against any effect with the pain descriptor for 1 hour. In addition, a dose of <em>boulderhead bock</em> grants the drinker 1d6 temporary hit points that apply exclusively against nonlethal damage.</p>
 <p>Multiple doses of <em>boulderhead bock</em> stack, to a maximum alchemical bonus of +5 and a maximum of 20 temporary hit points.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (4 gold + 15 spirit of wine)/fermentation; <strong>Craft DC</strong> 19<br/><strong>Time</strong> 1 week; <strong>Tools</strong> <Link to="/eq-misc/brewers_kit">brewer's kit</Link>; <strong>Type</strong> alcohol</p>
+<Tabular format="spontalch" a="gold4/wine15" b="fermentation" c="19" d="1 week" f="brewer's kit" g="alcohol" />
 </>};
 const _bounty_hunters_kit_common = {title: "Bounty hunter's kit (common)", jsx: <><h2 id="eq-misc-bounty_hunters_kit_common-bounty-hunters-kit">Bounty hunter's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 20</Link>  </p>
@@ -1550,7 +1550,7 @@ const _bunk = {title: "Bunk", jsx: <><h2 id="eq-misc-bunk-bunk">Bunk</h2>
 <Tabular format="misc" a="0.05" b="x" d="atool" />
 <p><Icons id="eq-misc-bunk-lower-icons" wrapper="prefixIcon" list={["lower"]} /> <em>Bunk</em> is a slang term for fillers used to dilute drugs that are proffered as pure-grade narcotics. A drug mixed with <em>bunk</em> is less potent; its effects last 1d6 &times; 10 minutes for each hour they would normally last. The presence of <em>bunk</em> can be detected with a successful <Link to="/skill/craft">Craft</Link> (alchemy) check (DC equal to the drug manufacturer's Craft [alchemy] check - 10).</p>
 <p><Icons id="eq-misc-bunk-lower-icons" wrapper="prefixIcon" list={["lower"]} /> The duration and intensity of the drug's harmful after-effects and ability damage are not reduced, as the additives in <em>bunk</em> are often toxic or dangerous in their own right. When a creature takes a dose of a drug containing <em>bunk,</em> the creature must attempt a Fortitude save (DC 10 + 1d10). Failure causes the creature to become <Link to="/misc/sickened">sickened</Link> for 1d4 hours and take 1d2 points of <Link to="/rule/ability_damage">ability damage</Link> to a random ability score.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (1 salt + 1 urea)/filtration; <strong>Craft DC</strong> 15<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/filter">filter</Link>; <strong>Type</strong> alchemical tool</p>
+<Tabular format="spontalch" a="salt1/urea1" b="filtration" c="15" d="10 minutes" f="filter" g="tool" />
 </>};
 const _buoy_common = {title: "Buoy (common)", jsx: <><h2 id="eq-misc-buoy_common-buoy">Buoy</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 181</Link>  </p>
@@ -1896,7 +1896,7 @@ const _chameleon_ointment = {title: "Chameleon ointment", jsx: <><h2 id="eq-misc
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 15</Link>  </p>
 <Tabular format="misc" a="20" b="x" d="rem" />
 <p><Icons id="eq-misc-chameleon_ointment-def-icons" wrapper="prefixIcon" list={["def"]} /> When applied to a <Link to="/monster/homunculus">homunculus's</Link> skin (which takes 1 minute), this ointment causes the creature's flesh to shift color and pattern reflexively to match its surroundings. The homunculus gains a +4 circumstance bonus on <Link to="/skill/stealth">Stealth</Link> checks for 24 hours. The ointment can also be applied to other creatures as long as they are Medium or smaller and wear no clothing or armor to obstruct their skin, but the bonus is reduced to +2.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (1 gold + 12 silver + 12 urea)/ceration; <strong>Craft DC</strong> 20<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/crucible">crucible</Link>; <strong>Type</strong> alchemical remedy</p>
+<Tabular format="spontalch" a="gold1/silv12/urea12" b="ceration" c="20" d="10 minutes" f="crucible" g="remedy" />
 </>};
 const _chameleon_pill = {title: "Chameleon pill", jsx: <><h2 id="eq-misc-chameleon_pill-chameleon-pill">Chameleon pill</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 50</Link>  </p>

@@ -35,7 +35,7 @@ const _poison_diffuser = {title: "Poison diffuser", jsx: <><h2 id="eq-misc-poiso
 <Tabular format="misc" a="200" b="x" d="atool" />
 <p>This compound comes in a tiny eyedropper. When you combine a dose of poison diffuser with a dose of contact or ingested poison, the poison becomes a gas, slowly diffusing into the surrounding air. The poison is treated as an inhaled poison for 3 rounds, after which the poison and the poison diffuser are both expended and become inert. Any creature that passes within 5 feet of a diffused poison while it is active must save against the vaporous toxin.</p>
 <p>If you are using <Link to="/rule/spontaneous_alchemy">spontaneous alchemy</Link>, adding urea to the alchemical recipe delays a poison diffuser's activation time. For every 20 doses of urea (worth a total of 10 gp) incorporated into the alchemical creation process, the time from which the diffuser is added to the poison to the time the poison begins spreading into the air increases by 1 round.</p>
-<p><strong>Spontaneous Alchemy Recipe</strong> (100 brimstone + 180 salt + 180 spirit of wine)/fermentation; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 1 day; <strong>Tools</strong> heat source; <strong>Type</strong> alchemical tool</p>
+<Tabular format="spontalch" a="brim100/salt180/wine180" b="fermentation" c="25" d="1 day" e="heat source" g="tool" />
 </>};
 const _poison_latch_needle = {title: "Poison latch needle", jsx: <><h2 id="eq-misc-poison_latch_needle-poison-latch-needle">Poison latch needle</h2>
 <p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets pg. 21</Link>  </p>
@@ -794,7 +794,7 @@ const _semblance_transfusion = {title: "Semblance transfusion", jsx: <><h2 id="e
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 15</Link>  </p>
 <Tabular format="misc" a="300" b="x" d="rem" />
 <p>When combined with a drop of a humanoid's blood, this solution allows the <Link to="/monster/homunculus">homunculus</Link> that drinks it to grow to size Small and assume the likeness of the subject whose blood was used. If the homunculus can speak, its voice changes to resemble that of the subject. The homunculus's space and reach become 5 feet and it loses its bite attack, but otherwise its statistics remain unchanged. This transformation lasts 24 hours. The homunculus gains a +10 circumstance bonus on Disguise checks to appear as the subject, but unless the subject is a halfling, a gnome, a child, or another Small humanoid, the homunculus is likely shorter than the subject.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (110 magnesium + 200 silver + 100 spirit of wine)/distillation; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 1 day; <strong>Tools</strong> <Link to="/eq-misc/retort">retort</Link>; <strong>Type</strong> alchemical remedy</p>
+<Tabular format="spontalch" a="mag110/silv200/wine100" b="distillation" c="25" d="1 day" f="retort" g="remedy" />
 </>};
 const _sentry_mannequin_masterwork = {title: "Sentry mannequin (masterwork)", jsx: <><h2 id="eq-misc-sentry_mannequin_masterwork-sentry-mannequin-masterwork">Sentry mannequin (masterwork)</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 21</Link>  </p>
@@ -856,7 +856,7 @@ const _shamans_paint = {title: "Shaman's paint", jsx: <><h2 id="eq-misc-shamans_
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 7</Link>  </p>
 <Tabular format="misc" a="90" b="0.5" d="atool" />
 <p>The ground carcasses of goldbelly stinkbugs - insects native to the Mindspin Mountains - give this paint its characteristic yellow hue. When applied as a full-round action, this fine paste makes your head glow as though with an unearthly halo. You gain a +2 alchemical bonus to your caster level for any spells you cast that target one or more of your allies. The quicksilver in shaman's paint is harmful to living creatures. If you wear shaman's paint for more than 1 minute per day, you take 1 point of <Link to="/rule/wisdom_damage">Wisdom damage</Link>, plus 1 point of Wisdom damage for every minute you wear the paint that day after the first.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (30 quicksilver + 25 saltpeter)/earth; <strong>Craft DC</strong> 20<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> -; <strong>Type</strong> alchemical tool</p>
+<Tabular format="spontalch" a="qs30/sp25" b="earth" c="20" d="10 minutes" g="tool" />
 </>};
 const _shaving_kit = {title: "Shaving kit", jsx: <><h2 id="eq-misc-shaving_kit-shaving-kit">Shaving kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -961,7 +961,7 @@ const _silence_dust = {title: "Silence dust", jsx: <><h2 id="eq-misc-silence_dus
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 15</Link>  </p>
 <Tabular format="misc" a="60" b="1" d="atool" />
 <p>This ashen powder can be thrown as a splash weapon, muffling all sound within a 15-foot-radius sphere centered on the point of impact. Perception checks to notice sound emanating from or passing through the cloud take a -10 penalty. Alternatively, applying a dose of silence dust to your feet as a standard action grants you a +5 circumstance bonus on Stealth checks to avoid being heard while walking. The dust is effective for 1 minute before it disperses.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (12 dew of lunary + 40 myrrh)/calcination; <strong>Craft DC</strong> 20<br/><strong>Time</strong> 1 hour; <strong>Tools</strong> <Link to="/eq-misc/crucible">crucible</Link>; <strong>Type</strong> alchemical tool</p>
+<Tabular format="spontalch" a="lunary12/myrrh40" b="calcination" c="20" d="1 hour" f="crucible" g="tool" />
 </>};
 const _silent_piton = {title: "Silent piton", jsx: <><h2 id="eq-misc-silent_piton-silent-piton">Silent piton</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 244</Link>  </p>
@@ -1122,7 +1122,7 @@ const _smokestick = {title: "Smokestick", jsx: <><h2 id="eq-misc-smokestick-smok
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 30</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
 <Tabular format="misc" a="20" b="0.5" d="atool" />
 <p>This alchemically treated wooden stick instantly creates thick, opaque smoke when burned. The smoke fills a 10-foot cube (treat the effect as a <Link to="/spell/fog_cloud">fog cloud</Link> spell, except that a moderate or stronger wind dissipates the smoke in 1 round). The stick is consumed after 1 round, and the smoke dissipates naturally after 1 minute.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (4 darkwood + 5 saltpeter)/calcination; <strong>Craft DC</strong> 20<br/><strong>Time</strong> 1 hour; <strong>Tools</strong> <Link to="/eq-misc/crucible">crucible</Link>; <strong>Type</strong> alchemical tool</p>
+<Tabular format="spontalch" a="dw4/sp5" b="calcination" c="20" d="1 hour" f="crucible" g="tool" />
 </>};
 const _smugglers_wagon = {title: "Smuggler's wagon", jsx: <><h2 id="eq-misc-smugglers_wagon-smugglers-wagon">Smuggler's wagon</h2>
 <p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 116</Link>  </p>
@@ -1622,7 +1622,7 @@ const _spirit_of_glass = {title: "Spirit of glass", jsx: <><h2 id="eq-misc-spiri
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 9</Link>  </p>
 <Tabular format="misc" a="35" b="x" d="atool" />
 <p>This fiber is composed of tiny strands of razor-sharp glass laced with alchemical elements. Anyone who touches it finds her skin irritated by countless tiny abrasions. Though it causes only minor discomfort, it opens the skin enough for poison to seep through, allowing injury poisons to be delivered to the affected creature as if they were contact poisons. The abrasions last for 1 hour or until cleaned and treated with a successful DC 10 Heal check (a full-round action). Poisoners sometimes place spirit of glass in a target's wardrobe or amid her personal effects along with a rag soaked in poison. Spirit of glass is often mistaken for lint or loose cloth, though it and the abrasions it causes can be identified with a successful DC 15 Craft (alchemy) check or DC 17 Heal check. Spirit of glass can be used only once before it is expended.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (2 cold iron + 7 darkwood + 5 gold)/calcination; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 1 hour; <strong>Tools</strong> <Link to="/eq-misc/crucible">crucible</Link>; <strong>Type</strong> alchemical tool</p>
+<Tabular format="spontalch" a="ci2/dw7/gold5" b="calcination" c="25" d="1 hour" f="crucible" g="tool" />
 </>};
 const _spirit_offerings = {title: "Spirit offerings", jsx: <><h2 id="eq-misc-spirit_offerings-spirit-offerings">Spirit offerings</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 23</Link>  </p>
@@ -1895,7 +1895,7 @@ const _sunrod = {title: "Sunrod", jsx: <><h2 id="eq-misc-sunrod-sunrod">Sunrod</
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 30</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
 <Tabular format="misc" a="2" b="1" d="atool" />
 <p>This 1-foot-long, gold-tipped iron rod glows brightly when struck (a standard action). It sheds normal light in a 30-foot radius and increases the <Link to="/rule/light_level">light level</Link> by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A sunrod does not increase the light level in normal light or bright light. It glows for 6 hours, after which the gold tip is burned out and worthless.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (2 magnesium + 2 phosphorus)/ceration; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/crucible">crucible</Link>; <strong>Type</strong> alchemical tool</p>
+<Tabular format="spontalch" a="mag2/phos2" b="ceration" c="25" d="10 minutes" f="crucible" g="tool" />
 </>};
 const _sunsoil = {title: "Sunsoil", jsx: <><h2 id="eq-misc-sunsoil-sunsoil">Sunsoil</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 29</Link>  </p>
@@ -1917,7 +1917,7 @@ const _surge_syrup = {title: "Surge syrup", jsx: <><h2 id="eq-misc-surge_syrup-s
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 27</Link>  </p>
 <Tabular format="misc" a="80" b="1" d="rem" />
 <p><strong className="hl">Mythic:</strong> Consuming a vial of surge syrup grants you a +1d4 alchemical bonus on your next mythic surge roll. Every round after you consume surge syrup that you don't use your surge ability, the bonus provided by this item decreases by 1 (minimum 0).</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (12 dew of lunary + 40 spirit of wine + 40 urea)/congelation; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/alchemists_lab">alchemist's lab</Link>; <strong>Type</strong> alchemical remedy</p>
+<Tabular format="spontalch" a="lunary12/wine40/urea40" b="congelation" c="25" d="10 minutes" f="alchemist's lab" g="remedy" />
 </>};
 const _surgeons_tools = {title: "Surgeon's tools", jsx: <><h2 id="eq-misc-surgeons_tools-surgeons-tools">Surgeon's tools</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/pathfinder_8_seven_days_to_the_grave">Pathfinder #8: Seven Days to the Grave pg. 61</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -2018,7 +2018,7 @@ const _tea_of_transference = {title: "Tea of transference", jsx: <><h2 id="eq-mi
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 25</Link>  </p>
 <Tabular format="misc" a="40" b="x" d="rem" />
 <p>This foul-tasting green tea allows monks to focus their ki on improving abilities they've gained through other training. By drinking a cup of tea of transference, you can expend 1 point from your ki pool to regain 1 point from your arcane pool, 2 rounds of barbarian rage, 2 rounds of bardic performance, one use of channel energy, 1 grit point, one use of smite evil, one expended extract slot at least 1 level lower than the highest-level extract you can create, or one expended spell slot at least 2 levels lower than the highest-level spell you can cast. You must have the ki pool class feature and the class feature you want to regain uses of in order to benefit from tea of transference.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (5 gold + 5 realgar + 15 spirit of wine)/sublimation; <strong>Craft DC</strong> 20<br/><strong>Time</strong> 1 day; <strong>Tools</strong> <Link to="/eq-misc/retort">retort</Link>; <strong>Type</strong> alchemical remedy</p>
+<Tabular format="spontalch" a="gold5/real5/wine15" b="sublimation" c="20" d="1 day" f="retort" g="remedy" />
 </>};
 const _tea_kelp = {title: "Tea, kelp", jsx: <><h2 id="eq-misc-tea_kelp-tea-kelp">Tea, kelp</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 19</Link>  </p>
@@ -2166,7 +2166,7 @@ const _tindertwig = {title: "Tindertwig", jsx: <><h2 id="eq-misc-tindertwig-tind
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 30</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
 <Tabular format="misc" a="1" b="x" d="atool" />
 <p>The alchemical substance on the end of this small, wooden stick ignites when struck against a rough surface (a move action). Creating a flame with a tindertwig is much faster than creating a flame with tinder and a <Link to="/eq-misc/flint_and_steel">flint and steel</Link> or magnifying glass. Lighting a torch with a tindertwig is a standard action rather than a full-round action, and lighting any other fire with one is at least a standard action. A tindertwig burns for 1d2 rounds and sheds light as a <Link to="/eq-misc/candle">candle</Link>. Tindertwigs are waterproof, but must be dried before you can strike them.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (2 brimstone + 1 phosphorus)/ceration; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/crucible">crucible</Link>; <strong>Type</strong> alchemical tool</p>
+<Tabular format="spontalch" a="brim2/phos1" b="ceration" c="25" d="10 minutes" f="crucible" g="tool" />
 </>};
 const _tinkers_cap = {title: "Tinker's cap", jsx: <><h2 id="eq-misc-tinkers_cap-tinkers-cap">Tinker's cap</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 25</Link>  </p>

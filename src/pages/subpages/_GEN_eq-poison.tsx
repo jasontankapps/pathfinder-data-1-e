@@ -1,5 +1,6 @@
 import Link from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
+import Tabular from '../../components/Tabular';
 import AffInfo from '../../components/AfflictionInfo';
 const _not_found = {title: "Unknown", jsx: <><h2 id="eq-poison-not_found-error">Error</h2>
 <p>Unable to find the requested poison.</p>
@@ -128,13 +129,13 @@ const _vampires_kiss = {title: "Vampire's kiss", jsx: <><h2 id="eq-poison-vampir
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 9</Link></p>
 <p><strong>Price</strong> 75 gp; <strong>Weight</strong> &mdash;</p>
 <AffInfo start type="Injury" save="Fort 15" freq="1/round for 2 rounds" cure1 icon="p" />
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (6 gold + 50 myrrh + 30 quicksilver)/distillation; <strong>Craft</strong> DC 15<br/><strong>Time</strong> 1 day; <strong>Tools</strong> <Link to="/eq-misc/retort">retort</Link>; <strong>Type</strong> poison</p>
+<Tabular format="spontalch" a="gold6/myrrh50/qs30" b="distillation" c="15" d="1 day" f="retort" g="poison" />
 </>};
 const _confabulation_powder = {title: "Confabulation powder", jsx: <><h2 id="eq-poison-confabulation_powder-confabulation-powder">Confabulation powder</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 11</Link></p>
 <p><strong>Price</strong> 80 gp; <strong>Weight</strong> &mdash;</p>
 <AffInfo start type="Inhaled" save="Fort 18" freq="1/minute for 2 minutes" eff1={<><Link to="/misc/staggered">staggered</Link> for 1 minute</>} eff2={<>If already staggered, <Link to="/misc/stunned">stunned</Link>, or <Link to="/misc/unconscious">unconscious</Link>, the victim becomes highly suggestible. If an event (whether true or false) is described to him, he unconsciously fabricates a detailed memory of the event, filling in any gaps in the description with his own best guesses. The confabulated memory can be disbelieved with a successful DC 18 Will save the first time it is recalled, but if the save fails, the victim treats it as completely genuine thereafter. All confabulated memories can be removed with a restoration or heal spell</>} cure1 icon="p" />
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (20 quicksilver + 15 cytillesh spores)/digestion; <strong>Craft</strong> DC 18<br/><strong>Time</strong> 1 day; <strong>Tools</strong> heat source; <strong>Type</strong> poison</p>
+<Tabular format="spontalch" a="qs20/cs15" b="digestion" c="18" d="1 day" e="heat source" g="poison" />
 </>};
 const _baneberry = {title: "Baneberry", jsx: <><h2 id="eq-poison-baneberry-baneberry">Baneberry</h2>
 <p><strong>Sources</strong> <Link to="/source/guide_to_the_river_kingdoms">Guide to the River Kingdoms pg. 14</Link></p>
@@ -216,7 +217,7 @@ const _liquid_persuasion = {title: "Liquid persuasion", jsx: <><h2 id="eq-poison
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 9</Link></p>
 <p><strong>Price</strong> 120 gp; <strong>Weight</strong> &mdash;</p>
 <AffInfo start type="Ingested" save="Fort 11" freq="1/minute for 5 minutes" onset="10 minutes" eff={<>1 <Link to="/rule/wis_damage">Wis damage</Link>, and for the duration of the poison, the next time the victim's attitude toward another creature would shift one or more steps toward helpful as a result of a successful Diplomacy or Intimidate check or other effect, the victim's attitude also shifts one additional step. For example, if the victim's attitude would shift from indifferent to friendly (one step better), it shifts to helpful instead (two steps better)</>} cure1 icon="p" />
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (20 dew of lunary + 20 quicksilver + 80 spirit of wine)/distillation; <strong>Craft</strong> DC 11<br/><strong>Time</strong> 1 day; <strong>Tools</strong> <Link to="/eq-misc/retort">retort</Link>; <strong>Type</strong> poison</p>
+<Tabular format="spontalch" a="lunary20/qs20/wine80" b="distillation" c="11" d="1 day" f="retort" g="poison" />
 </>};
 const _goblinvine_oil = {title: "Goblinvine oil", jsx: <><h2 id="eq-poison-goblinvine_oil-goblinvine-oil">Goblinvine oil</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 20</Link></p>
@@ -256,7 +257,7 @@ const _alchemical_isolation = {title: "Alchemical isolation", jsx: <><h2 id="eq-
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 9</Link></p>
 <p><strong>Price</strong> 175 gp; <strong>Weight</strong> 1 lb.</p>
 <AffInfo start type="Inhaled" save="Fort 13" freq="1/minute for 2 minutes" eff1={<><Link to="/misc/deafened">deafened</Link> for 10 minutes</>} eff2={<><Link to="/misc/blinded">blinded</Link> for 10 minutes</>} cure1 icon="p" />
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (150 brimstone + 20 dew of lunary + 80 spirit of wine)/fermentation; <strong>Craft</strong> DC 13<br/><strong>Time</strong> 1 day; <strong>Tools</strong> heat source; <strong>Type</strong> poison</p>
+<Tabular format="spontalch" a="brim150/lunary20/wine80" b="fermentation" c="13" d="1 day" e="heat source" g="poison" />
 </>};
 const _insecticide = {title: "Insecticide", jsx: <><h2 id="eq-poison-insecticide-insecticide">Insecticide</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 24</Link></p>
@@ -354,7 +355,7 @@ const _count_ambrass_punishment = {title: "Count Ambras's punishment", jsx: <><h
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 9</Link></p>
 <p><strong>Price</strong> 350 gp; <strong>Weight</strong> &mdash;</p>
 <AffInfo start type="Contact" save="Fort 16" freq="1/minute for 6 minutes" onset="1 minute" cure1 icon="p" />
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (70 dew of lunary + 35 realgar + 70 urea)/digestion; <strong>Craft</strong> DC 16<br/><strong>Time</strong> 1 day; <strong>Tools</strong> heat source; <strong>Type</strong> poison</p>
+<Tabular format="spontalch" a="lunary70/real35/urea70" b="digestion" c="16" d="1 day" e="heat source" g="poison" />
 </>};
 const _ossivane = {title: "Ossivane", jsx: <><h2 id="eq-poison-ossivane-ossivane">Ossivane</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 25</Link></p>
@@ -473,7 +474,7 @@ const _smell_of_fear = {title: "Smell of fear", jsx: <><h2 id="eq-poison-smell_o
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 7</Link></p>
 <p><strong>Price</strong> 600 gp; <strong>Weight</strong> 1/2 lb.</p>
 <AffInfo start type="Inhaled" save="Fort 17" freq="1/minute for 6 minutes" eff={<>1d2 <Link to="/rule/wis_damage">Wis damage</Link> and if the victim would become <Link to="/misc/shaken">shaken</Link> during the next 1 minute, she becomes <Link to="/misc/frightened">frightened</Link> instead</>} cure2 icon="p" />
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (170 quicksilver + 170 realgar)/fermentation; <strong>Craft</strong> DC 17<br/><strong>Time</strong> 1 day; <strong>Tools</strong> heat source; <strong>Type</strong> poison</p>
+<Tabular format="spontalch" a="qs170/real170" b="fermentation" c="17" d="1 day" e="heat source" g="poison" />
 </>};
 const _tears_of_perfection = {title: "Tears of perfection", jsx: <><h2 id="eq-poison-tears_of_perfection-tears-of-perfection">Tears of perfection</h2>
 <p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide pg. 55</Link></p>
@@ -569,7 +570,7 @@ const _cytillesh_extract = {title: "Cytillesh extract", jsx: <><h2 id="eq-poison
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 11</Link>, <Link to="/source/classic_horrors_revisited">Classic Horrors Revisited pg. 8</Link>, <Link to="/source/pathfinder_61_shards_of_sin">Pathfinder #61: Shards of Sin pg. 64</Link>, <Link to="/source/no_response_from_deepmar">No Response from Deepmar pg. 21</Link></p>
 <p><strong>Price</strong> 800 gp; <strong>Weight</strong> &mdash;</p>
 <AffInfo start type="Ingested" save="Fort 18" freq="1/hour for 8 hours" eff={<>The victim loses all memory of events that took place in the previous hour and can't form new memories for 8 hours. These lost and prevented memories might return later in the form of dreams, and can be returned with a <Link to="/spell/restoration">restoration</Link> or <Link to="/spell/heal">heal</Link> spell</>} cure2 icon="p" />
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (115 realgar + 115 cytillesh spores)/calcination; <strong>Craft</strong> DC 18<br/><strong>Time</strong> 1 hour; <strong>Tools</strong> <Link to="/eq-misc/crucible">crucible</Link>; <strong>Type</strong> poison</p>
+<Tabular format="spontalch" a="real115/cs115" b="calcination" c="18" d="1 hour" f="crucible" g="poison" />
 </>};
 const _dark_reaver_powder = {title: "Dark Reaver Powder", jsx: <><h2 id="eq-poison-dark_reaver_powder-dark-reaver-powder">Dark Reaver Powder</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 558</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 111</Link></p>
@@ -586,13 +587,13 @@ const _flaming_doom = {title: "Flaming doom", jsx: <><h2 id="eq-poison-flaming_d
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 7</Link></p>
 <p><strong>Price</strong> 900 gp; <strong>Weight</strong> &mdash;</p>
 <AffInfo start type="Injury" save="Fort 18" freq="1/round for 6 rounds" eff="1d6 fire damage and victim possibly catches on fire" cure2 icon="p" />
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (200 magnesium + 200 phosphorus + 250 saltpeter)/distillation; <strong>Craft</strong> DC 18<br/><strong>Time</strong> 1 day; <strong>Tools</strong> <Link to="/eq-misc/retort">retort</Link>; <strong>Type</strong> poison</p>
+<Tabular format="spontalch" a="mag200/phos200/sp250" b="distillation" c="18" d="1 day" f="retort" g="poison" />
 </>};
 const _fury_gas = {title: "Fury gas", jsx: <><h2 id="eq-poison-fury_gas-fury-gas">Fury gas</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 7</Link></p>
 <p><strong>Price</strong> 900 gp; <strong>Weight</strong> 1/2 lb.</p>
 <AffInfo start type="Inhaled" save="Fort 16" freq="1/minute for 4 minutes" eff={<>Non-orcs are <Link to="/misc/blinded">blinded</Link> for 1 minute. Orcs rage for 1 minute, gaining a +2 alchemical bonus to Strength and Dexterity, a +1 alchemical bonus on Will saves, and a -2 penalty to AC. This poison's effects are otherwise similar to a <Link to="/class/barbarian">barbarian's</Link> rage, except that affected orcs are unable to discern friend from foe - attacking the nearest creature each round - and they are not fatigued afterward</>} cure2 icon="p" />
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (180 brimstone + 80 quicksilver + 60 saltpeter)/fermentation; <strong>Craft</strong> DC 16<br/><strong>Time</strong> 1 day; <strong>Tools</strong> heat source; <strong>Type</strong> poison</p>
+<Tabular format="spontalch" a="brim180/qs80/sp60" b="fermentation" c="16" d="1 day" e="heat source" g="poison" />
 </>};
 const _nights_eye_dust = {title: "Nights-eye dust", jsx: <><h2 id="eq-poison-nights_eye_dust-nights-eye-dust">Nights-eye dust</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 18</Link></p>

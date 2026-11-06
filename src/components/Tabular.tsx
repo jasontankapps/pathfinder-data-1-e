@@ -58,6 +58,7 @@ const translateWeight = (x: number) => {
 const FormatObject: { [x: string]: FormatProps } = {
 	conmod: {
 		required: ["a", "b", "c", "d"],
+		className: "startAlign",
 		formatter: (props) => {
 			const {id, a, b, c, d} = props;
 			return (
@@ -76,6 +77,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 	},
 	reqcost: {
 		required: ["a", "b"],
+		className: "startAlign",
 		formatter: (props) => {
 			const {id, a, b} = props;
 			return (
@@ -92,7 +94,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 	},
 	alchstats: {
 		required: ["a", "b"],
-		className: "lessRound tipOnly flatStart",
+		className: "lessRound tipOnly flatStart startAlign",
 		formatter: (props) => {
 			const {id, a, b, c, d, e} = props;
 			const final = (c && d) ? (
@@ -121,6 +123,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 	},
 	powercomp: {
 		required: ["a", "b", "c"],
+		className: "startAlign",
 		formatter: (props) => {
 			const {id, a, b, c} = props;
 			return (
@@ -141,7 +144,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 	},
 	armor: {
 		required: ["a", "b"],
-		className: "tipOnly flatStart",
+		className: "tipOnly flatStart startAlign",
 		formatter: props => {
 			const {id, a, b, c, d, e} = props;
 			// a b c? (d|e)?
@@ -213,6 +216,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 	},
 	weap1: {
 		required: ["a", "b"],
+		className: "startAlign",
 		possiblyRequired: ["d","e","f","g","i","j"],
 		formatter: props => {
 			const {id, a, b, c, d} = props;
@@ -259,6 +263,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 	},
 	weap2: {
 		required: ["d","e","f","g","i","j"],
+		className: "startAlign",
 		formatter: props => {
 			const {id, a, d, e, f, g} = props;
 			// a = if present and true, this is already in a table
@@ -335,6 +340,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 	},
 	misc: {
 		required: [],
+		className: "startAlign",
 		formatter: props => {
 			const {id: ID, a, b, c, d, e, f, g} = props;
 			const cat = (() => {
@@ -502,6 +508,89 @@ const FormatObject: { [x: string]: FormatProps } = {
 			}
 			return <></>;
 		}
+	},
+	spontalch: {
+		required: ["a", "b", "c", "d", "g"],
+		className: "lessRound",
+		formatter: props => {
+			// a - recipe bits; b - /process; c - DC; d - time; e - tools text; f - tools eq-misc link; g - type
+			// brim|lunary|phos|gold|salt|urea|myrrh|wine|real|mag|qs|dw|ci|bp|ge|mw|cs|silv|sp
+			const {id: ID, a, b, c, d, e, f, g} = props;
+			const id = ID + "-" + d + c + `${ID}-${d}-${c}-${g}`;
+			const component = (d: string) => {
+				switch(d) {
+					case "brim":
+						return "brimstone";
+					case "lunary":
+						return "dew of lunary";
+					case "phos":
+						return "phosphorus";
+					case "wine":
+						return "spirit of wine";
+					case "real":
+						return "realgar";
+					case "mag":
+						return "magnesium";
+					case "qs":
+						return "quicksilver";
+					case "dw":
+						return "darkwood";
+					case "ci":
+						return "cold iron";
+					case "bp":
+						return "black powder";
+					case "ge":
+						return "ginger extract";
+					case "mw":
+						return "mugwort extract";
+					case "cs":
+						return "cytillesh spores";
+					case "silv":
+						return "silver";
+					case "sp":
+						return "saltpeter";
+				}
+				return d;
+			};
+			const type = (() => {
+				switch (g) {
+					case "weapon":
+					case "tool":
+					case "remedy":
+						return "alchemical " + g;
+				}
+				return g;
+			})();
+			const components = String(a).split("/").map((bit => {
+				const [ , what, amount ] = bit.match(/(brim|lunary|phos|gold|salt|urea|myrrh|wine|real|mag|qs|dw|ci|bp|ge|mw|cs|silv|sp)([0-9]+)/) || ["ERROR", "0"];
+				return `${amount} ${component(what)}`;
+			})).join(" + ");
+			const tools = e || f ? (
+				<Link to={"/eq-misc/" + convertTextToLink(String(f))}>{f}</Link>
+			) : <>&mdash;</>;
+			return (
+				<table><tbody>
+					<tr>
+						<th scope="col" className="hl" colSpan={4}><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</th>
+					</tr>
+					<tr>
+						<td className="ion-text-center" colSpan={4}>{components} / {b}</td>
+					</tr>
+					<tr>
+						<th id={id + "-dc"} className="hl">Craft DC</th>
+						<td headers={id + "-dc"}>{c}</td>
+						<th id={id + "tools"}>Tools</th>
+						<td headers={id + "-tools"}>{tools}</td>
+					</tr>
+					<tr>
+						<th id={id + "-time"}>Time</th>
+						<td headers={id + "-time"}>{d}</td>
+						<th id={id + "type"} className="hl">Type</th>
+						<td headers={id + "-type"}>{type}</td>
+					</tr>
+				</tbody></table>
+			);
+		}
 	}
 };
 
@@ -527,7 +616,7 @@ const Tabular: FC<TabularProps> = (props) => {
 		return <p><strong>ERROR &lt;Tabular&gt; element missing required prop(s).</strong></p>;
 	}
 	return (
-		<div className={"sideNoteWrap startAlign noIcon" + (className ? " " + className : "")}>
+		<div className={"sideNoteWrap noIcon" + (className ? " " + className : "")}>
 			<ScrollContainer id={cId + "-scrollcontainer"}>
 				{formatter({...others, id: cId})}
 			</ScrollContainer>

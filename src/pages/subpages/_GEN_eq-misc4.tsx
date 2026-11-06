@@ -583,7 +583,7 @@ const _essence_of_independence = {title: "Essence of independence", jsx: <><h2 i
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 15</Link>  </p>
 <Tabular format="misc" a="80" b="x" d="rem" />
 <p>When ingested, this thin serum awakens your potential for independent action. If you are under the influence of a mind-affecting effect, you receive a new saving throw with a +4 alchemical bonus to break the effect (you can gain this benefit only once per day). If the serum is ingested by a bonded creature such as a familiar, animal companion, bonded mount, or homunculus, the creature ceases to be bound to its master's will for 10 minutes. It gains a +2 morale bonus on attack rolls, saving throws, skill checks, and ability checks, and becomes interested in finding its own way of doing things. Its attitude toward its master might change drastically during this time, depending on how the master has treated it in the past. As soon as the duration of this effect ends, the creature becomes bound to its master's will again.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (8 dew of lunary + 10 gold + 22 spirit of wine)/sublimation; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 1 day; <strong>Tools</strong> <Link to="/eq-misc/retort">retort</Link>; <strong>Type</strong> alchemical remedy</p>
+<Tabular format="spontalch" a="lunary8/gold10/wine22" b="sublimation" c="25" d="1 day" f="retort" g="remedy" />
 </>};
 const _everburning_torch = {title: "Everburning torch", jsx: <><h2 id="eq-misc-everburning_torch-everburning-torch">Everburning torch</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -622,7 +622,7 @@ const _eye_drops_of_the_unseen_master = {title: "Eye drops of the unseen master"
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 15</Link>  </p>
 <Tabular format="misc" a="150" b="x" d="rem" />
 <p>This bright pink liquid can be added to the eyes of a willing <Link to="/monster/homunculus">homunculus</Link> as a standard action. If you are the homunculus's master, you gain the ability to see through the homunculus's eyes by closing yours and concentrating, and the homunculus can see through yours in the same fashion. The eye drops also extend the range of the homunculus's telepathic link to 1 mile. The effects of the eye drops fade after 1 day.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (20 dew of lunary + 20 saltpeter + 80 spirit of wine)/distillation; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 1 day; <strong>Tools</strong> <Link to="/eq-misc/retort">retort</Link>; <strong>Type</strong> alchemical remedy</p>
+<Tabular format="spontalch" a="lunary20/sp20/wine80" b="distillation" c="25" d="1 day" f="retort" g="remedy" />
 </>};
 const _eye_patch = {title: "Eye patch", jsx: <><h2 id="eq-misc-eye_patch-eye-patch">Eye patch</h2>
 <p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 21</Link>  </p>
@@ -1429,7 +1429,7 @@ const _tunnel_creeper = {title: "Tunnel creeper", jsx: <><h2 id="eq-misc-tunnel_
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 11</Link>  </p>
 <Tabular format="misc" a="280" b="1" d="atool" />
 <p>This fist-sized cluster of aggressive fungus grows rapidly when placed against a solid surface and exposed to water, and can quietly bore a 5-foot-tall, 10-foot-deep tunnel in a straight line. The tunnel is supported by sturdy fungal tubes. A tunnel creeper cannot eat through metal or any material denser than common stone. A tunnel creeper takes 10 minutes to carve a tunnel through stone, or 5 minutes to carve through wood, after which the fungus withers and falls to the ground.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (100 brimstone + 90 magnesium + 35 cytillesh spores)/fermentation; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 1 day; <strong>Tools</strong> heat source; <strong>Type</strong> alchemical tool</p>
+<Tabular format="spontalch" a="brim100/mag90/cs35" b="fermentation" c="25" d="1 day" e="heat source" g="tool" />
 </>};
 const _turtle = {title: "Turtle", jsx: <><h2 id="eq-misc-turtle-turtle">Turtle</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
@@ -1497,7 +1497,7 @@ const _vapors_of_easy_breath = {title: "Vapors of easy breath", jsx: <><h2 id="e
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 25</Link>  </p>
 <Tabular format="misc" a="75" b="3" d="rem" />
 <p>This waxy ball of resin and herbs is stored in a large glass jar or other airtight container. When the jar is opened, it instantly evaporates into a soothing vapor that renders the lungs of any adjacent creatures resistant to inhaled poisons, diseases, and irritants such as choking smoke. Each creature within 5 feet of the jar when it is opened gains a +5 alchemical bonus on saving throws against such effects for the next 10 minutes. If already affected by an airborne affliction, an affected creature can immediately attempt another saving throw against the effect (with the +5 bonus); a creature can attempt only one such additional saving throw in a 24-hour period.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (60 myrrh + 50 salt + 60 ginger extract)/congelation; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/alchemists_lab">alchemist's lab</Link>; <strong>Type</strong> alchemical remedy</p>
+<Tabular format="spontalch" a="myrrh60/salt50/ge60" b="congelation" c="25" d="10 minutes" f="alchemist's lab" g="remedy" />
 </>};
 const _varisian_idol = {title: "Varisian idol", jsx: <><h2 id="eq-misc-varisian_idol-varisian-idol">Varisian idol</h2>
 <p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends pg. 15</Link>, <Link to="/source/rise_of_the_runelords_players_guide">Rise of the Runelords Player's Guide pg. 11</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide pg. 12</Link>  </p>
@@ -1521,7 +1521,7 @@ const _vector_ink = {title: "Vector ink", jsx: <><h2 id="eq-misc-vector_ink-vect
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 9</Link>  </p>
 <Tabular format="misc" a="60" b="x" d="atool" />
 <p>This specialized <Link to="/eq-misc/ink">ink</Link> can be mixed with a contact poison to make the poison last longer on paper. Once applied to a sheet of paper, the ink remains slightly tacky and keeps the poison effective for up to 1 week. Any creature that touches the writing (such as while opening a closed book or unraveling a scroll) must save against the contact poison. Once a creature has come in contact with the vector ink, the ink is expended. A single vial of vector ink is enough to write a single page of text on standard-sized parchment.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (7 dew of lunary + 7 gold + 6 urea)/digestion; <strong>Craft DC</strong> 20<br/><strong>Time</strong> 1 day; <strong>Tools</strong> heat source; <strong>Type</strong> alchemical tool</p>
+<Tabular format="spontalch" a="lunary7/gold7/urea6" b="digestion" c="20" d="1 day" e="heat source" g="tool" />
 </>};
 const _veil = {title: "Veil", jsx: <><h2 id="eq-misc-veil-veil">Veil</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 28</Link>, <Link to="/source/people_of_the_sands">People of the Sands pg. 29</Link>  </p>
@@ -1592,7 +1592,7 @@ const _vivifying_moxibustion_needles = {title: "Vivifying moxibustion needles", 
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 25</Link>  </p>
 <Tabular format="misc" a="85" b="x" d="rem" />
 <p>These needles of dried and augmented mugwort ignite at one end when removed from the alcohol in which they are stored. A set of vivifying moxibustion needles can be used to perform a healing procedure on a willing or helpless creature with a successful DC 15 Heal check and 1 hour of effort. Failing the check by 4 or less indicates that nothing happens, while failure by 5 or more deals 1d4 points of damage to the subject. If the procedure is performed successfully, the subject gains a +2 alchemical bonus on Fortitude saves against diseases, cold effects, and effects that deal Dexterity or Strength damage for the next 24 hours. If the patient is affected by an ongoing effect that can be resisted with a successful Fortitude save, he can attempt an immediate saving throw to end the effect (using the +2 alchemical bonus if applicable); this final benefit can be gained only once per day.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (20 phosphorus + 60 ginger extract + 30 mugwort extract)/filtration; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/filter">filter</Link>; <strong>Type</strong> alchemical remedy</p>
+<Tabular format="spontalch" a="phos20/ge60/mw30" b="filtration" c="25" d="10 minutes" f="filter" g="remedy" />
 </>};
 const _vomit_capsule = {title: "Vomit capsule", jsx: <><h2 id="eq-misc-vomit_capsule-vomit-capsule">Vomit capsule</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 208</Link>  </p>
@@ -1938,7 +1938,7 @@ const _wyrms_breath_bitter = {title: "Wyrm's breath bitter", jsx: <><h2 id="eq-m
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 13</Link>  </p>
 <Tabular format="misc" a="30" b="1" d="rem" />
 <p>This green-tinged brew has a pungent, bitter bite. It's flavored with a variety of foul-smelling herbs and is intensely carbonated through a unique fermentation process. Sometimes given to visitors as a prank, wyrm's breath bitter causes the drinker to become <Link to="/misc/sickened">sickened</Link> for 1d6 minutes (Fortitude DC 12 negates); dwarves gain a +5 racial bonus on this saving throw. After drinking a dose of wyrm's breath bitter, the drinker can, as a move action, unleash a thunderous and noxious belch in either a 5-foot-radius <Link to="/misc/spread">spread</Link> or a 10-foot cone. Creatures in the area are <Link to="/misc/deafened">deafened</Link> and sickened for 1 round (Fortitude DC 12 negates). The drinker must wait 1d4 rounds before belching again, but can belch as often as desired for up to 10 minutes after drinking a wyrm's breath bitter.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (2 black powder + 10 brimstone + 20 spirit of wine)/digestion; <strong>Craft DC</strong> 21<br/><strong>Time</strong> 1 week; <strong>Tools</strong> <Link to="/eq-misc/brewers_kit">brewer's kit</Link>; <strong>Type</strong> alcohol</p>
+<Tabular format="spontalch" a="bp2/brim10/wine20" b="digestion" c="21" d="1 week" f="brewer's kit" g="alcohol" />
 </>};
 const _yak = {title: "Yak", jsx: <><h2 id="eq-misc-yak-yak">Yak</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>  </p>

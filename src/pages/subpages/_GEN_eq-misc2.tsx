@@ -323,7 +323,7 @@ const _frightful_war_paint = {title: "Frightful war paint", jsx: <><h2 id="eq-mi
 <p>This bone-white paste makes your face appear skeletal and emotionless, like a visage of death itself.</p>
 <p><Icons id="eq-misc-frightful_war_paint-aura-lower-icons" wrapper="prefixIcon" list={["aura","lower"]} /> When you apply <em>frightful war paint</em> to yourself (or to a willing adjacent creature) as a <strong className="hl">full-round action</strong>, attempt a <Link to="/skill/disguise">Disguise</Link> or Charisma check. Living creatures within 30 feet of the wearer must succeed at a Will save (DC equal to the result of your Disguise or Charisma check, maximum DC 20) or become <Link to="/misc/shaken">shaken</Link> for 1d4 rounds. Blind creatures and creatures out of line of sight are unaffected. A creature that succeeds at its check becomes immune to this <em>frightful war paint</em> for 24 hours.</p>
 <p><Icons id="eq-misc-frightful_war_paint-warning-icons" wrapper="prefixIcon" list={["warning"]} /> <em>Frightful war paint</em> can be worn indefinitely, but it contains quicksilver and realgar, which have deleterious mental effects. If you wear <em>frightful war paint</em> for more than 1 minute per day (whether as a single use of it or as multiple uses over several periods of time), you take 1 point of <Link to="/rule/constitution_damage">Constitution damage</Link>, plus 1 point of Wisdom damage for every minute you wear the <em>paint</em> that day after the first.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (40 dew of lunary + 40 quicksilver + 50 realgar)/earth; <strong>Craft DC</strong> 30<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> -; <strong>Type</strong> alchemical tool</p>
+<Tabular format="spontalch" a="lunary40/qs40/real50" b="earth" c="30" d="10 minutes" g="tool" />
 </>};
 const _frost_giant_hunters_kit = {title: "Frost giant hunter's kit", jsx: <><h2 id="eq-misc-frost_giant_hunters_kit-frost-giant-hunters-kit">Frost giant hunter's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook pg. 25</Link>  </p>
@@ -956,7 +956,7 @@ const _homunculus_clay = {title: "Homunculus clay", jsx: <><h2 id="eq-misc-homun
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 15</Link>  </p>
 <Tabular format="misc" a="2250" b="5" d="atool" />
 <p>This thick clay mixture comes in a jar stamped with a silhouette of whatever creature can be created using its contents. By adding a drop of blood to a scoop of homunculus clay, you can create a temporary <Link to="/monster/homunculus">homunculus</Link> that hardens and becomes fully animate in just 1 round. The character whose blood is used is treated as the homunculus's master. After 1 hour, a clay homunculus withers and dies, rapidly decaying into a viscous slime. The listed price is for a jar containing 3 doses of homunculus clay.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (450 darkwood + 350 dew of lunary + 400 myrrh)/fermentation; <strong>Craft DC</strong> 30<br/><strong>Time</strong> 1 day; <strong>Tools</strong> heat source; <strong>Type</strong> alchemical tool</p>
+<Tabular format="spontalch" a="dw450/lunary350/myrrh400" b="fermentation" c="30" d="1 day" e="heat source" g="tool" />
 </>};
 const _honey_jar = {title: "Honey (jar)", jsx: <><h2 id="eq-misc-honey_jar-honey-jar">Honey (jar)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>  </p>
@@ -1106,8 +1106,8 @@ const _icecap_ale = {title: "Icecap ale", jsx: <><h2 id="eq-misc-icecap_ale-icec
 <Tabular format="misc" a="40" b="0.5" d="rem" />
 <p>This rare and unusual brew is fortified by a process of repeated partial freezing, during which the ice is continually skimmed off, resulting in a draught with more than 10 times the alcohol content of ordinary ale.</p>
 <p><Icons id="eq-misc-icecap_ale-boost-def-down-icons" wrapper="prefixIcon" list={["boost","def","down"]} /> <em>Icecap ale</em> grants a +2 alchemical bonus to the drinker's Strength and Constitution for 1 minute, as well as a +4 alchemical bonus on saving throws against compulsions and fear. However, after this initial surge of energy, the drinker becomes <Link to="/misc/fatigued">fatigued</Link> and takes a -4 penalty on Dexterity- and Strength-based skill checks for 1 hour. In addition, the drinker loses all memory of events that transpired during the 1d4 minutes directly following consumption of a draught of <em>icecap ale;</em> a successful DC 20 Fortitude save negates this memory loss.</p>
-<p>Additional doses of <em>icecap ale</em> imbibed during the hour following an initial dose cause the drinker to become <Link to="/misc/sickened">sickened</Link> for 1 minute (instead of gaining a bonus to Strength and Constitution) and to suffer all the negative effects of icecap ale.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (50 spirit of wine + 40 urea)/distillation; <strong>Craft DC</strong> 20<br/><strong>Time</strong> 1 week; <strong>Tools</strong> <Link to="/eq-misc/brewers_kit">brewer's kit</Link>; <strong>Type</strong> alcohol</p>
+<p>Additional doses of <em>icecap ale</em> imbibed during the hour following an initial dose cause the drinker to become <Link to="/misc/sickened">sickened</Link> for 1 minute (instead of gaining a bonus to Strength and Constitution) and to suffer all the negative effects of <em>icecap ale.</em></p>
+<Tabular format="spontalch" a="wine50/urea40" b="distillation" c="20" d="1 week" f="brewer's kit" g="alcohol" />
 </>};
 const _ifrits_blood = {title: "Ifrit's blood", jsx: <><h2 id="eq-misc-ifrits_blood-ifrits-blood">Ifrit's blood</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 129</Link>  </p>
@@ -1137,13 +1137,13 @@ const _imposing_war_paint = {title: "Imposing war paint", jsx: <><h2 id="eq-misc
 <p>This gritty red paste makes you appear as if you were covered in dried blood.</p>
 <p><Icons id="eq-misc-imposing_war_paint-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When you apply <em>imposing war paint</em> as a <strong className="hl">full-round action</strong>, you gain a +4 alchemical bonus on Intimidate checks and the duration of any fear effects you create increases by 50% as long as you wear the <em>war paint.</em></p>
 <p><Icons id="eq-misc-imposing_war_paint-warning-icons" wrapper="prefixIcon" list={["warning"]} /> Unfortunately, <em>imposing war paint</em> is made with realgar, which is toxic to living creatures. If you wear <em>imposing war paint</em> for more than 1 minute per day, you take 1 point of <Link to="/rule/constitution_damage">Constitution damage</Link>, plus 1 point of Constitution damage for every minute you wear the <em>paint</em> that day after the first.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (12 dew of lunary + 10 realgar)/earth; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> -; <strong>Type</strong> alchemical tool</p>
+<Tabular format="spontalch" a="lunary12/real10" b="earth" c="25" d="10 minutes" g="tool" />
 </>};
 const _incense_of_divinity = {title: "Incense of divinity", jsx: <><h2 id="eq-misc-incense_of_divinity-incense-of-divinity">Incense of divinity</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 27</Link>  </p>
 <Tabular format="misc" a="200" b="0.5" d="atool" />
 <p><strong className="hl">Mythic:</strong> If you are a mythic divine spellcaster and burn this incense while preparing spells, you can expend two uses of mythic power to prepare any one spell as a mythic spell (but not as an augmented mythic spell), even if you're normally unable to cast the mythic version of that spell. <em>Incense of divinity</em> burns for 1 hour; you can prepare as many mythic spells as you are able to during this time, but you must expend two uses of mythic power for each mythic spell so prepared.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (50 dew of lunary + 150 phosphorus)/exposure; <strong>Craft DC</strong> 30<br/><strong>Time</strong> 1 hour; <strong>Tools</strong> <Link to="/eq-misc/filter">filter</Link>; <strong>Type</strong> alchemical tool</p>
+<Tabular format="spontalch" a="lunary50/phos150" b="exposure" c="30" d="1 hour" f="filter" g="tool" />
 </>};
 const _incense = {title: "Incense", jsx: <><h2 id="eq-misc-incense-incense">Incense</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 249</Link>, <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 87</Link>  </p>
@@ -1210,14 +1210,14 @@ const _insight_leaves = {title: "Insight leaves", jsx: <><h2 id="eq-misc-insight
 <Tabular format="misc" a="50" b="x" d="rem" />
 <p>You steep these herbs in hot water, then drink the resulting tisane while it's still warm before going to bed. While you sleep, you experience vivid hallucinations that offer insight into matters with which you previously had only limited familiarity.</p>
 <p><Icons id="eq-misc-insight_leaves-boost-icons" wrapper="prefixIcon" list={["boost"]} /> After 8 hours of uninterrupted rest, you can attempt a previously failed <Link to="/skill/knowledge">Knowledge</Link> check with a +2 alchemical bonus.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (10 dew of lunary + 5 mugwort extract + 20 spirit of wine)/fermentation; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 1 day; <strong>Tools</strong> heat source; <strong>Type</strong> alchemical remedy</p>
+<Tabular format="spontalch" a="lunary10/mw5/wine20" b="fermentation" c="25" d="1 day" e="heat source" g="remedy" />
 </>};
 const _instant_fertilizer = {title: "Instant fertilizer", jsx: <><h2 id="eq-misc-instant_fertilizer-instant-fertilizer">Instant fertilizer</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 11</Link>  </p>
 <Tabular format="misc" a="20" b="4" d="atool" />
 <p>This ruby-red earth can be sprinkled over a 5-foot patch of ground as a <strong className="hl">standard action</strong> that provokes attacks of opportunity. Non-creature plants and fungi in the area grow with alarming speed, and the ground becomes weedy, <Link to="/rule/difficult_terrain">difficult terrain</Link> for non-plant creatures.</p>
 <p><Icons id="eq-misc-instant_fertilizer-down-aid-icons" wrapper="prefixIcon" list={["down","aid"]} /> Any non-plant creature in the square must succeed at a DC 15 Reflex save or it becomes <Link to="/rule/entangled">entangled</Link> by the surging plants. Any plant creature in the affected square is healed of 1d6 points of damage.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (15 magnesium + 20 phosphorus + 10 salt)/calcination; <strong>Craft DC</strong> 20<br/><strong>Time</strong> 1 hour; <strong>Tools</strong> <Link to="/eq-misc/crucible">crucible</Link>; <strong>Type</strong> alchemical tool</p>
+<Tabular format="spontalch" a="mag15/phos20/salt10" b="calcination" c="20" d="1 hour" f="crucible" g="tool" />
 </>};
 const _instrument_of_the_divine = {title: "Instrument of the divine", jsx: <><h2 id="eq-misc-instrument_of_the_divine-instrument-of-the-divine">Instrument of the divine</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 25</Link>  </p>
@@ -1611,7 +1611,7 @@ const _longbeard_lambic = {title: "Longbeard lambic", jsx: <><h2 id="eq-misc-lon
 <p>One of the oldest known dwarven ales, <em>longbeard lambic</em> is fermented with wild airborne yeasts and cultures, especially those that proliferate in the dank caves where it has been brewed since long before the Quest for Sky began.</p>
 <p><Icons id="eq-misc-longbeard_lambic-boost-icons" wrapper="prefixIcon" list={["boost"]} /> <em>Longbeard lambic</em> has a bracing effect that shocks the system. If the drinker is <Link to="/misc/fatigued">fatigued</Link>, <Link to="/misc/shaken">shaken</Link>, or <Link to="/misc/staggered">staggered</Link>, she can ignore these conditions for 1d4 rounds after imbibing <em>longbeard lambic.</em> In addition, a dose of <em>longbeard lambic</em> can reduce the <Link to="/misc/exhausted">exhausted</Link> condition to fatigued or the <Link to="/misc/frightened">frightened</Link> condition to shaken (drinker's choice) for the same duration.</p>
 <p><Icons id="eq-misc-longbeard_lambic-warning-icons" wrapper="prefixIcon" list={["warning"]} /> If you consume a second <em>longbeard lambic</em> within 1 minute of the previous dose, you must succeed at a DC 15 Fortitude save or be <Link to="/misc/nauseated">nauseated</Link> for 1d4 rounds. The DC increases by 5 for each dose imbibed within the same time span. Dwarves gain a +5 racial bonus on this saving throw.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (3 gold + 5 quicksilver + 4 spirit of wine)/fermentation; <strong>Craft DC</strong> 18<br/><strong>Time</strong> 1 week; <strong>Tools</strong> <Link to="/eq-misc/brewers_kit">brewer's kit</Link>; <strong>Type</strong> alcohol</p>
+<Tabular format="spontalch" a="gold3/qs5/wine4" b="fermentation" c="18" d="1 week" f="brewer's kit" g="alcohol" />
 </>};
 const _longship = {title: "Longship", jsx: <><h2 id="eq-misc-longship-longship">Longship</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
@@ -1657,7 +1657,7 @@ const _loyalty_transfusion = {title: "Loyalty transfusion", jsx: <><h2 id="eq-mi
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 15</Link>  </p>
 <Tabular format="misc" a="625" b="x" d="rem" />
 <p>This serum transfers a <Link to="/monster/homunculus">homunculus's</Link> loyalty from one master to another. In order for this to work, the homunculus's current master and its master-to-be must each place a drop of their blood into the serum. When an appropriate homunculus drinks this concoction, it thereafter treats the master-to-be as its master. The change in ownership also causes the homunculus's alignment to change to match that of its new owner.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (200 quicksilver + 150 realgar + 200 spirit of wine)/distillation; <strong>Craft DC</strong> 30<br/><strong>Time</strong> 1 day; <strong>Tools</strong> <Link to="/eq-misc/retort">retort</Link>; <strong>Type</strong> alchemical remedy</p>
+<Tabular format="spontalch" a="qs200/real150/wine200" b="distillation" c="30" d="1 day" f="retort" g="remedy" />
 </>};
 const _lozenge_of_the_songbird = {title: "Lozenge of the songbird", jsx: <><h2 id="eq-misc-lozenge_of_the_songbird-lozenge-of-the-songbird">Lozenge of the songbird</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 207</Link>  </p>
@@ -1969,7 +1969,7 @@ const _mimic_fibers = {title: "Mimic fibers", jsx: <><h2 id="eq-misc-mimic_fiber
 <Tabular format="misc" a="30" b="x" d="atool" />
 <p>These alchemically prepared fungal spores are suspended in a thick green ichor. They grow in patterns that match any plant or fungal material they touch, even dead wood, causing any cuts or breaks in the matter to mend as if it had never been damaged.</p>
 <p><Icons id="eq-misc-mimic_fibers-aid-icons" wrapper="prefixIcon" list={["aid"]} /> When applied as a <strong className="hl">full-round action</strong>, mimic fibers heal 1d10+10 points of damage to one object made of wood, paper, earth, or other living or once-living material. Even a destroyed item can be repaired (treat as if at 0 hit points) as long as the item is in no more than two pieces and is held together at the break as the spores are applied.</p>
-<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (6 magnesium + 6 cytillesh spores)/filtration; <strong>Craft DC</strong> 20<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/filter">filter</Link>; <strong>Type</strong> alchemical tool</p>
+<Tabular format="spontalch" a="mag6/cs6" b="filtration" c="20" d="10 minutes" f="filter" g="tool" />
 </>};
 const _mindburn_incense = {title: "Mindburn incense", jsx: <><h2 id="eq-misc-mindburn_incense-mindburn-incense">Mindburn incense</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 11</Link>  </p>
