@@ -936,7 +936,7 @@
 	},
 	"magic_items_on_the_body": {
 		"name": "Magic Items on the Body",
-		"tags": "slots, item slots",
+		"tags": "slots, item slots, magic item slots",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"‹SOURCE PRPG Core Rulebook/459›",
@@ -1004,6 +1004,7 @@
 	"wrist_slot": { "redirect": "magic_items_on_the_body" },
 	"neck_slot": { "redirect": "magic_items_on_the_body" },
 	"body_slot": { "redirect": "magic_items_on_the_body" },
+	"eyes_slot": { "redirect": "magic_items_on_the_body" },
 	"saving_throws_against_magic_item_powers": {
 		"name": "Saving Throws Against Magic Item Powers",
 		"sources": [ "PRPG Core Rulebook" ],

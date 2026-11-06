@@ -79,7 +79,7 @@
 			"",
 			"@I-boost The effects of this gray-green pill last for 5 minutes after consumption. During this time, when making a full attack, you can accept ‹misc/alchemical burn› to make your second attack at your full base attack bonus instead of the attack bonus for your second attack.",
 			"",
-			"An accuracy lozenge gives no benefit on attacks beyond the second, nor does it provide a second attack if you don't already have one.",
+			"An *accuracy lozenge* gives no benefit on attacks beyond the second, nor does it provide a second attack if you don't already have one.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -118,11 +118,11 @@
 			"‹SOURCE Ultimate Wilderness/245›  ",
 			"::tabular{format=misc a=5 b=\"0.5\" d=atool}",
 			"",
-			"This 3-foot-long strip of extremely thin hide can be cut into different lengths. When moistened and applied across surfaces or between objects, it creates a bond requiring a DC 15 Strength check to pull apart. Once applied, an adhesive strip takes 1 minute to set.",
+			"This 3-foot-long strip of extremely thin hide can be cut into different lengths. When moistened and applied across surfaces or between objects, it creates a bond requiring a DC 15 Strength check to pull apart. Once applied, an *adhesive strip* takes 1 minute to set.",
 			"",
 			"@I-aid If applied to an item with the ‹misc/broken› condition, it suppresses the effects of that broken condition for as long as the item remains repaired by the strip - though the item does not regain hit points and is still broken.",
 			"",
-			"The uses for an adhesive strip are many; it can be used to bind prisoners, mend clothing, patch holes, and so on."
+			"The uses for an *adhesive strip* are many; it can be used to bind prisoners, mend clothing, patch holes, and so on."
 		]
 	},
 	"adventurers_sash": {
@@ -149,7 +149,7 @@
 			"",
 			"@I-boost This white, waxy ointment allows you to appear older or younger, and is useful for both people who need disguises and the vain. When mixed with an equal amount of sealing wax, it forms a gray paste that discolors and relaxes your skin, reducing the penalty on ‹skill/Disguise› checks to appear older than you are by 2. When mixed with an equal amount of ‹eq-misc/soap›, it forms a rosy paste that clarifies and tightens your skin, reducing the penalty on Disguise checks to appear younger than you are by 2.",
 			"",
-			"An application of age ointment lasts for 1d4+1 days. Age ointment can be used once, and the price includes the required amounts of sealing wax and soap.",
+			"An application of *age ointment* lasts for 1d4+1 days. *Age ointment* can be used once, and the price includes the required amounts of sealing wax and soap.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -173,9 +173,9 @@
 			"‹SOURCE Pathfinder Society Field Guide/48›  ",
 			"::tabular{format=misc a=50 b=x d=rem}",
 			"",
-			"@I-aid These unpleasant-tasting, alchemically grown crystals release breathable air when chewed. A pouch of air crystals provides 1 minute of breathable air. Placing air crystals in your mouth takes a @HL[standard action]; chewing them each round is a @HL[free action].",
+			"@I-aid These unpleasant-tasting, alchemically grown crystals release breathable air when chewed. A pouch of *air crystals* provides 1 minute of breathable air. Placing *air crystals* in your mouth takes a @HL[standard action]; chewing them each round is a @HL[free action].",
 			"",
-			"@I-warning Any attempt to speak while chewing air crystals negates any remaining duration."
+			"@I-warning Any attempt to speak while chewing *air crystals* negates any remaining duration."
 		]
 	},
 	"air_tank_per_gallon": {
@@ -223,11 +223,11 @@
 			"‹SOURCE Dirty Tactics Toolbox/20›  ",
 			"::tabular{format=misc a=150 b=1 d=atool}",
 			"",
-			"As malleable as ordinary wax, alchemical candle wax produces an aromatic scent when burned. A candle made from alchemical candle wax normally possesses a sweet, honey-like smell, but a character who is trained in ‹skill/Craft› (alchemy) can infuse the wax with nearly any scent available to her.",
+			"As malleable as ordinary wax, *alchemical candle wax* produces an aromatic scent when burned. A candle made from *alchemical candle wax* normally possesses a sweet, honey-like smell, but a character who is trained in ‹skill/Craft› (alchemy) can infuse the wax with nearly any scent available to her.",
 			"",
 			"@I-power A character trained in both Craft (alchemy) and Craft (poison) can infuse one candle's worth of wax with any alchemical substance that requires inhalation, such as a vial of ‹eq-misc/alchemical pheromones<_aggression› or a dose of inhaled poison. When infusing the wax with poison, the normal rules for exposing oneself to poison apply.",
 			"",
-			"Only one kind of alchemical substance can be infused into a single candle at a time, though a single candle can hold up to 3 doses of a substance. A single lump of alchemical candle wax is enough to create one candle.",
+			"Only one kind of alchemical substance can be infused into a single candle at a time, though a single candle can hold up to 3 doses of a substance. A single lump of *alchemical candle wax* is enough to create one candle.",
 			"",
 			"@I-aura After burning for 1 minute, the alchemical candle releases the chosen alchemical substance as a colorless haze that lingers in a 5-foot radius centered on the candle for up to 1 hour, plus 30 minutes for each dose or vial of a substance infused into the candle wax beyond the first. A moderate wind (11+ mph) disperses the haze in 2 rounds; a strong or stronger wind (21+ mph) disperses the haze immediately.",
 			"",
@@ -257,7 +257,7 @@
 			"",
 			"@I-def This caustic alchemical solution dissolves blood, hair, and small pieces of flesh. Distributing it over a 5-foot square takes one @HL[full-round action] and increases the DC of ‹skill/Perception› checks to find such materials by 20. (A creature that fails the Perception check to find such materials by 5 or less realizes the area has been unnaturally cleared of them.) This applies only to the original Perception DC, not a substituted skill check like those from the cleaner or traceless archetypes.",
 			"",
-			"One pot of alchemical cleaner contains enough liquid to cover nine 5-foot squares. A pot of alchemical cleaner can be thrown as a ‹rule/splash weapon› and functions as an ‹eq-weapon/alkali flask› when thrown.",
+			"One pot of *alchemical cleaner* contains enough liquid to cover nine 5-foot squares. A pot of *alchemical cleaner* can be thrown as a ‹rule/splash weapon› and functions as an ‹eq-weapon/alkali flask› when thrown.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -276,7 +276,7 @@
 			"",
 			"Each use of the kit changes either hair or skin color. If you need to change both your hair color and your skin color, you must spend two uses of the kit to gain the benefit. Each dye takes 1 minute to apply (thus requiring 2 minutes to change both hair and skin color). Once applied, the colors are waterproof, and can't be rubbed or burned away.",
 			"",
-			"An application of dye fades after 1d4+1 days unless removed earlier by magical means. Applying a new application of alchemical dye immediately covers and replaces a previous application. An alchemical dye kit is exhausted after 10 uses.",
+			"An application of dye fades after 1d4+1 days unless removed earlier by magical means. Applying a new application of alchemical dye immediately covers and replaces a previous application. An *alchemical dye kit* is exhausted after 10 uses.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -323,7 +323,7 @@
 			"",
 			"Each pot of this slick black goo has sufficient contents to cover one Medium creature or two Small ones.",
 			"",
-			"@I-def If you coat yourself in alchemical grease, you gain a +5 alchemical bonus on ‹skill/Escape Artist› checks, on combat maneuver checks made to escape a ‹rule/grapple›, and to your CMD to avoid being grappled; this lasts 4 hours or until you wash it off.",
+			"@I-def If you coat yourself in *alchemical grease,* you gain a +5 alchemical bonus on ‹skill/Escape Artist› checks, on combat maneuver checks made to escape a ‹rule/grapple›, and to your CMD to avoid being grappled; this lasts 4 hours or until you wash it off.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -360,7 +360,7 @@
 			"",
 			"::tabular{format=misc id=simple a=1 b=x d=atool}",
 			"",
-			"@I-lower An affected creature is ‹misc/staggered› for 1 round. Whether the target succeeds at or fails the saving throw, it becomes immune to simple alchemical pheromones for 24 hours.",
+			"@I-lower An affected creature is ‹misc/staggered› for 1 round. Whether the target succeeds at or fails the saving throw, it becomes immune to simple *alchemical pheromones* for 24 hours.",
 			"",
 			"::h3[Susceptibility]{jl}",
 			"",
@@ -391,7 +391,7 @@
 			"",
 			"Each small tin of this specially treated jam contains just enough of the gooey stuff to provide a ‹race/halfling› with a single serving of revitalizing nourishment.",
 			"",
-			"@I-aid-down While any creature can eat these preserves as a @HL[standard action], it only affects halflings in a beneficial way. Halflings who eat the preserves recover from ‹misc/fatigue›. Non-halflings who eat alchemical preserves become ‹misc/sickened› for 1 round.",
+			"@I-aid-down While any creature can eat these preserves as a @HL[standard action], it only affects halflings in a beneficial way. Halflings who eat the preserves recover from ‹misc/fatigue›. Non-halflings who eat *alchemical preserves* become ‹misc/sickened› for 1 round.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -547,7 +547,7 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=75 b=x d=bm}",
 			"",
-			"@I-aid-down This treated wafer dissolves into a chalky paste when placed under the tongue and then gives the imbiber a jolt of restless energy. It eliminates the effects of ‹misc/fatigue› for the next 8 hours; when the drug's effect ends, the user is ‹misc/exhausted›. Allnight makes its users jittery and unable to focus; they suffer a -2 penalty on all skill checks until its effects wear off."
+			"@I-aid-down This treated wafer dissolves into a chalky paste when placed under the tongue and then gives the imbiber a jolt of restless energy. It eliminates the effects of ‹misc/fatigue› for the next 8 hours; when the drug's effect ends, the user is ‹misc/exhausted›. *Allnight* makes its users jittery and unable to focus; they suffer a -2 penalty on all skill checks until its effects wear off."
 		]
 	},
 	"dinosaurs_and_megafauna": {
@@ -707,7 +707,7 @@
 			"‹SOURCE Advanced Race Guide/87›  ",
 			"::tabular{format=misc a=100 b=1 d=rem}",
 			"",
-			"@I-defUpon consumption, this heavenly elixir, brewed from holy water and blessed herbs, grants a +2 sacred bonus on saving throws against negative energy, ‹rule/energy drain›, and death effects for 1 hour, including saves to remove negative levels. Ambrosia affects undead and evil outsiders as ‹eq-weapon/holy water›.",
+			"@I-def Upon consumption, this heavenly elixir, brewed from holy water and blessed herbs, grants a +2 sacred bonus on saving throws against negative energy, ‹rule/energy drain›, and death effects for 1 hour, including saves to remove negative levels. *Ambrosia* affects undead and evil outsiders as ‹eq-weapon/holy water›.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -720,9 +720,9 @@
 			"‹SOURCE Alchemy Manual/19›  ",
 			"::tabular{format=misc a=30 b=x d=atool}",
 			"",
-			"@I-boost-down This liquid intensifier can be added to a drug as a @HL[move action] no more than 1 round before the drug is taken. Amp increases all numeric effects of a drug by 50%, including any bonuses, penalties, and ability damage inflicted by the drug. Using amp with a drug increases the save DC to avoid becoming addicted to that drug by 2 for 1d4 days; this increase stacks.",
+			"@I-boost-down This liquid intensifier can be added to a drug as a @HL[move action] no more than 1 round before the drug is taken. *Amp* increases all numeric effects of a drug by 50%, including any bonuses, penalties, and ability damage inflicted by the drug. Using *amp* with a drug increases the save DC to avoid becoming addicted to that drug by 2 for 1d4 days; this increase stacks.",
 			"",
-			"If a drug combined with amp is not consumed within 1 round, the amp spoils and the drug becomes tainted, as if cut with ‹eq-misc/bunk›.",
+			"If a drug combined with *amp* is not consumed within 1 round, the *amp* spoils and the drug becomes tainted, as if cut with ‹eq-misc/bunk›.",
 			"",
 			"**‹rule/Spontaneous Alchemy› Recipe** (6 quicksilver + 10 realgar)/distillation; **Craft DC** 20  ",
 			"**Time** 10 minutes; **Tools** ‹eq-misc/retort›; **Type** alchemical tool"
@@ -766,7 +766,7 @@
 			"",
 			"This alchemical anesthetic, developed from ancient recipes for Sarenite sacred wine, grants a powerful resistance to pain.",
 			"",
-			"@I-def For 1 hour after drinking anesthetic wine, you gain a +5 bonus on saving throws against pain effects, and when you would take nonlethal damage, reduce the amount of damage taken by 1.",
+			"@I-def For 1 hour after drinking *anesthetic wine,* you gain a +5 bonus on saving throws against pain effects, and when you would take nonlethal damage, reduce the amount of damage taken by 1.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -781,11 +781,11 @@
 			"",
 			"This barbed, ‹eq-material/cold iron› arrowhead is alchemically treated to inflict additional harm while embedded in creatures that are vulnerable to cold iron.",
 			"",
-			"@I-lower For every angel quill arrowhead that damages a target with DR/cold iron, the target's damage reduction decreases by 1. Up to five angel quill arrowheads can affect a single target at any one time, reducing the target's DR/cold iron by up to 5 (additional arrowheads have no effect aside from dealing damage as normal).",
+			"@I-lower For every *angel quill arrowhead* that damages a target with DR/cold iron, the target's damage reduction decreases by 1. Up to five *angel quill arrowheads* can affect a single target at any one time, reducing the target's DR/cold iron by up to 5 (additional arrowheads have no effect aside from dealing damage as normal).",
 			"",
-			"An affected target can pull out a number of arrowheads equal to her Dexterity modifier (minimum 1) as a @HL[full-round action] with a successful DC 15 ‹skill/Heal› check. Alternatively, the application of any magical healing causes all angel quill arrowheads embedded in the creature to instantly fall out.",
+			"An affected target can pull out a number of arrowheads equal to her Dexterity modifier (minimum 1) as a @HL[full-round action] with a successful DC 15 ‹skill/Heal› check. Alternatively, the application of any magical healing causes all *angel quill arrowheads* embedded in the creature to instantly fall out.",
 			"",
-			"Angel quill arrowheads of ‹eq-material/silver› and ‹eq-material/adamantine› are also available for the same price, and affect creatures with DR/silver or DR/adamantine, respectively.",
+			"*Angel quill arrowheads* of ‹eq-material/silver› and ‹eq-material/adamantine› are also available for the same price, and affect creatures with DR/silver or DR/adamantine, respectively.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -811,9 +811,9 @@
 			"",
 			"Named after a common children's toy, this metal box, typically no larger than 1 cubic foot in volume, possesses a secret compartment large enough to store one flask or vial.",
 			"",
-			"@I-zap When loaded with a splash weapon or a vial of poison (contact or inhaled poisons only) and armed as a @HL[full-round action], an angry jack attacks the next creature to open the box, using its spring-loaded interior to launch that item at the target as a ranged touch attack (attack bonus +0). A creature struck by a contact poison in this way is exposed to the poison as normal, but a creature is automatically exposed to a loaded inhalation poison with no attack roll needed.",
+			"@I-zap When loaded with a splash weapon or a vial of poison (contact or inhaled poisons only) and armed as a @HL[full-round action], an *angry jack* attacks the next creature to open the box, using its spring-loaded interior to launch that item at the target as a ranged touch attack (attack bonus +0). A creature struck by a contact poison in this way is exposed to the poison as normal, but a creature is automatically exposed to a loaded inhalation poison with no attack roll needed.",
 			"",
-			"Identifying an angry jack requires a successful a DC 20 ‹skill/Perception› check. A character who is trained in the ‹skill/Disable Device› skill can spend 10 minutes disguising an armed angry jack, allowing her to roll a Disable Device check and use the result as the Perception DC for others to detect the true nature of the angry jack. The user can't take 10 or 20 on the Disable Device check."
+			"Identifying an *angry jack* requires a successful a DC 20 ‹skill/Perception› check. A character who is trained in the ‹skill/Disable Device› skill can spend 10 minutes disguising an armed *angry jack,* allowing her to roll a Disable Device check and use the result as the Perception DC for others to detect the true nature of the *angry jack.* The user can't take 10 or 20 on the Disable Device check."
 		]
 	},
 	"animal_call": {
@@ -1088,13 +1088,13 @@
 			"‹SOURCE Inner Sea Intrigue/50›  ",
 			"::tabular{format=misc a=varies b=\"&mdash&\" c=x d=rem}",
 			"",
-			"Generally stored in a glass vial, an antidote is formulated to counteract a specific poison chosen at the time of the antidote's creation.",
+			"Generally stored in a glass vial, an *antidote* is formulated to counteract a specific poison chosen at the time of the *antidote's* creation.",
 			"",
-			"@I-def Drinking the antidote grants a +10 alchemical bonus on saving throws against that poison for 4 hours. If the imbiber succeeds at a saving throw with this bonus, she is automatically cured even if she would not normally be cured by successful saving throws or the number required to cure her has not been met yet. However, the antidote has no effect against other poisons.",
+			"@I-def Drinking the *antidote* grants a +10 alchemical bonus on saving throws against that poison for 4 hours. If the imbiber succeeds at a saving throw with this bonus, she is automatically cured even if she would not normally be cured by successful saving throws or the number required to cure her has not been met yet. However, the *antidote* has no effect against other poisons.",
 			"",
-			"An antidote's price is half that of the poison it counteracts. An antidote has no effect against a magical poison.",
+			"An *antidote's* price is half that of the poison it counteracts. An *antidote* has no effect against a magical poison.",
 			"",
-			"The Craft (alchemy) DC to create an antidote is equal to the save DC of the poison."
+			"The Craft (alchemy) DC to create an *antidote* is equal to the save DC of the poison."
 		]
 	},
 	"antiemetic_snuff": {
@@ -1141,7 +1141,7 @@
 			"‹SOURCE Alchemy Manual/30;PRPG Core Rulebook/158;Ultimate Equipment/101›  ",
 			"::tabular{format=misc a=50 b=x d=rem}",
 			"",
-			"@I-def This substance counteracts a specific toxin. If you drink a vial of antitoxin, you gain a +5 alchemical bonus on Fortitude saving throws against poison for 1 hour.",
+			"@I-def This substance counteracts a specific toxin. If you drink a vial of *antitoxin,* you gain a +5 alchemical bonus on Fortitude saving throws against poison for 1 hour.",
 			"",
 			"**‹rule/Spontaneous Alchemy› Recipe** (7 gold + 17 myrrh + 23 urea)/ceration; **Craft DC** 25  ",
 			"**Time** 10 minutes; **Tools** ‹eq-misc/crucible›; **Type** alchemical remedy"
@@ -1155,25 +1155,25 @@
 			"‹SOURCE Ultimate Wilderness/143›  ",
 			"::tabular{format=misc a=varies b=\"&mdash&\" c=x d=rem}",
 			"",
-			"While ‹eq-misc/antitoxin› presents a generalized tool for protecting oneself from poison, more specialized antivenoms can provide even greater protection against specific poisons. Creating a dose of antivenom requires a dose of the specific poison that the antivenom is designed to protect against.",
+			"While ‹eq-misc/antitoxin› presents a generalized tool for protecting oneself from poison, more specialized *antivenoms* can provide even greater protection against specific poisons. Creating a dose of *antivenom* requires a dose of the specific poison that the *antivenom* is designed to protect against.",
 			"",
-			"@I-aid-def A single dose of antivenom automatically neutralizes the first exposure of the specific poison it is made to combat and provides a +8 alchemical bonus on saving throws against additional exposure to that specific poison; this bonus decreases by 1 every hour, until the effect ends after 8 hours.",
+			"@I-aid-def A single dose of *antivenom* automatically neutralizes the first exposure of the specific poison it is made to combat and provides a +8 alchemical bonus on saving throws against additional exposure to that specific poison; this bonus decreases by 1 every hour, until the effect ends after 8 hours.",
 			"",
 			"### Crafting",
 			"",
-			"To create a dose of antivenom, a living creature must first be exposed to a half dose of the poison in question. The creature suffers the poison's effects normally, except the saving throw DC to resist the poison is reduced by 2.",
+			"To create a dose of *antivenom,* a living creature must first be exposed to a half dose of the poison in question. The creature suffers the poison's effects normally, except the saving throw DC to resist the poison is reduced by 2.",
 			"",
-			"In order to be able to produce antivenom, the creature must succeed at the necessary saving throws to be cured of the poison. If the poison's duration expires without the creature being cured, no antivenom can be harvested.",
+			"In order to be able to produce *antivenom,* the creature must succeed at the necessary saving throws to be cured of the poison. If the poison's duration expires without the creature being cured, no *antivenom* can be harvested.",
 			"",
-			"Once the creature has resisted the poison's effects, a viable sample of the creature's blood can be extracted with a successful DC 20 ‹skill/Craft› (alchemy) or ‹skill/Heal› check. This blood must then be refined to extract the natural antibodies that combat the poison in a process that takes 1 hour and requires a successful Craft (alchemy) check (DC = 5 + the poison's saving throw DC). Success yields 1 dose of antivenom.",
+			"Once the creature has resisted the poison's effects, a viable sample of the creature's blood can be extracted with a successful DC 20 ‹skill/Craft› (alchemy) or ‹skill/Heal› check. This blood must then be refined to extract the natural antibodies that combat the poison in a process that takes 1 hour and requires a successful Craft (alchemy) check (DC = 5 + the poison's saving throw DC). Success yields 1 dose of *antivenom.*",
 			"",
 			"Antivenom can also be harvested in the same fashion from a creature that has been afflicted by a full dose of poison, rather than a creature deliberately given a half dose for this purpose. Regardless of how much poison the creature is exposed to, the antibodies in its system can be harvested only for 24 hours after it has recovered from the poison.",
 			"",
 			"### Purchasing Antivenom",
 			"",
-			"Antivenom is not particularly expensive, but because it is highly specialized, it can be difficult to find. A dose of antivenom has a market price equal to half the market price of a dose of the poison in question, but it is treated as though its price were five times the market price of the poison for the purposes of determining its availability in any given settlement.",
+			"Antivenom is not particularly expensive, but because it is highly specialized, it can be difficult to find. A dose of *antivenom* has a market price equal to half the market price of a dose of the poison in question, but it is treated as though its price were five times the market price of the poison for the purposes of determining its availability in any given settlement.",
 			"",
-			"Alternatively, if 1 or more doses of the poison in question can be provided, most alchemists will supply as much antivenom as they can produce from the doses for a fee of 10% of the market price of the poison.",
+			"Alternatively, if 1 or more doses of the poison in question can be provided, most alchemists will supply as much *antivenom* as they can produce from the doses for a fee of 10% of the market price of the poison.",
 			"",
 			"**Construction:** Craft (Alchemy) DC varies"
 		]
@@ -1219,7 +1219,7 @@
 			"‹SOURCE Adventurer's Guide/44;Pathfinder #106: For Queen and Empire/75›  ",
 			"::tabular{format=misc a=10 b=1 d=rem}",
 			"",
-			"@I-boost This sticky-sweet syrup is distilled from ivy and rabbit musk, and causes a mild allergic reaction in ‹race/halfling«s›. The slight swelling - especially in the face - and mild redness it induces makes the face seem younger, granting a halfling who drinks a dose of applecheek a +2 alchemical bonus on ‹skill/Disguise› checks to look like an elven, half-elven, or human child. The effects of a dose of applecheek persist for 24 hours.",
+			"@I-boost This sticky-sweet syrup is distilled from ivy and rabbit musk, and causes a mild allergic reaction in ‹race/halfling«s›. The slight swelling - especially in the face - and mild redness it induces makes the face seem younger, granting a halfling who drinks a dose of *applecheek* a +2 alchemical bonus on ‹skill/Disguise› checks to look like an elven, half-elven, or human child. The effects of a dose of *applecheek* persist for 24 hours.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -1284,11 +1284,11 @@
 			"‹SOURCE Elemental Master's Handbook/31›  ",
 			"::tabular{format=misc a=150 b=x d=rem}",
 			"",
-			"A popular export from the Forest of Oils - a field of massive oil bubbles on the Elemental Plane of Water - aquemir is a transparent substance extracted from the skins of autonomous oil orbs and refined into a useful alchemical reagent.",
+			"A popular export from the Forest of Oils - a field of massive oil bubbles on the Elemental Plane of Water - *aquemir* is a transparent substance extracted from the skins of autonomous oil orbs and refined into a useful alchemical reagent.",
 			"",
-			"@I-power As a @HL[standard action], aquemir can be mixed with an alchemical remedy, extract, or potion to delay the start of its effects by 2 minutes when it is imbibed. Administering a potion or extract that's properly infused with aquemir requires 1 dose of aquemir per spell level to function in this way, whereas an alchemical remedy only requires 1 dose. If not enough aquemir is mixed with a potion or extract, the potion or extract's effects are not delayed at all.",
+			"@I-power As a @HL[standard action], *aquemir* can be mixed with an alchemical remedy, extract, or potion to delay the start of its effects by 2 minutes when it is imbibed. Administering a potion or extract that's properly infused with *aquemir* requires 1 dose of *aquemir* per spell level to function in this way, whereas an alchemical remedy only requires 1 dose. If not enough *aquemir* is mixed with a potion or extract, the potion or extract's effects are not delayed at all.",
 			"",
-			"@I-warning A creature can internally store only one substance that uses aquemir; further attempts waste all imbibed substances (and immediately render inert all potions, extracts, alchemical remedies, and so on) and cause the creature to become ‹misc/nauseated› for 1d4 rounds.",
+			"@I-warning A creature can internally store only one substance that uses *aquemir;* further attempts waste all imbibed substances (and immediately render inert all potions, extracts, alchemical remedies, and so on) and cause the creature to become ‹misc/nauseated› for 1d4 rounds.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -1750,7 +1750,7 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=1 b=x d=bm}",
 			"",
-			"@I-aid If inhaled through the nose, this sooty-smelling golden powder renders humanoid males temporarily sterile without otherwise affecting their performance. A dose typically lasts 1-3 days. Long-term users of bachelor snuff tend to develop a slight, but still noticeable, gilded tinge to their teeth and nails."
+			"@I-aid If inhaled through the nose, this sooty-smelling golden powder renders humanoid males temporarily sterile without otherwise affecting their performance. A dose typically lasts 1-3 days. Long-term users of *bachelor snuff* tend to develop a slight, but still noticeable, gilded tinge to their teeth and nails."
 		]
 	},
 	"backpack_common": {
@@ -1917,11 +1917,11 @@
 			"‹SOURCE Lost Treasures/18›  ",
 			"::tabular{format=misc a=1000 b=10 d=bm}",
 			"",
-			"The Bamboo Palace is a bonsai group planting of bamboo that has been shaped to resemble Hwanggot's royal palace in Haseoung. The bonsai is nonmagical, but in its pristine state is a magnificent representation of the art of bonsai. Though the planting is regrettably overgrown, the frame of a brilliant bonsai is still visible to those familiar with the art form. Beneath the shaggy foliage, one can see that the stems part and interweave again to form windows and doors, and the side branches gracefully curve out to mimic tiered roofs. The bonsai sits in a graceful celadon-glazed pot engraved with the seal of the Yeon dynasty.",
+			"The *Bamboo Palace* is a bonsai group planting of bamboo that has been shaped to resemble Hwanggot's royal palace in Haseoung. The bonsai is nonmagical, but in its pristine state is a magnificent representation of the art of bonsai. Though the planting is regrettably overgrown, the frame of a brilliant bonsai is still visible to those familiar with the art form. Beneath the shaggy foliage, one can see that the stems part and interweave again to form windows and doors, and the side branches gracefully curve out to mimic tiered roofs. The bonsai sits in a graceful celadon-glazed pot engraved with the seal of the Yeon dynasty.",
 			"",
-			"The Bamboo Palace's price reflects its current neglected state mixed with its aesthetic potential. If an experienced bonsai gardener tends to it once a week for 1 year, the Bamboo Palace reassumes its earlier manicured form, and its value to a collector increases to 8,000 gp. Restoring it requires successful DC 15 ‹skill/Knowledge (nature)› and ‹skill/Knowledge (engineering)› checks each week during that time.",
+			"The *Bamboo Palace's* price reflects its current neglected state mixed with its aesthetic potential. If an experienced bonsai gardener tends to it once a week for 1 year, the *Bamboo Palace* reassumes its earlier manicured form, and its value to a collector increases to 8,000 gp. Restoring it requires successful DC 15 ‹skill/Knowledge (nature)› and ‹skill/Knowledge (engineering)› checks each week during that time.",
 			"",
-			"@I-aura-boost If the Bamboo Palace is restored to its full glory, a character who spends 15 minutes tending to it and succeeds at DC 20 Knowledge (nature) and Knowledge (engineering) checks gains the favor of Upaskuma, the ‹monster/fukujin› kami who lives within the bonsai. For 24 hours, whenever the favored character begins a round within 15 feet of the Bamboo Palace, the kami's aura of luck grants the character a +2 luck bonus on all skill checks. Only one character can gain this favor each day."
+			"@I-aura-boost If the *Bamboo Palace* is restored to its full glory, a character who spends 15 minutes tending to it and succeeds at DC 20 Knowledge (nature) and Knowledge (engineering) checks gains the favor of Upaskuma, the ‹monster/fukujin› kami who lives within the bonsai. For 24 hours, whenever the favored character begins a round within 15 feet of the *Bamboo Palace,* the kami's aura of luck grants the character a +2 luck bonus on all skill checks. Only one character can gain this favor each day."
 		]
 	},
 	"bandolier": {
@@ -1973,9 +1973,9 @@
 			"‹SOURCE Varisia, Birthplace of Legends/15;Curse of the Crimson Throne Player's Guide/12;Rise of the Runelords Player's Guide/11;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=25 b=1 d=atool}",
 			"",
-			"The Shoanti of the Cinderlands combine lime, crimson galtroot leaves, and some say horse blood to create this invigorating chew. Aside from staining the teeth a bloody shade, barbarian chew causes the user to feel stronger, but also angrier.",
+			"The Shoanti of the Cinderlands combine lime, crimson galtroot leaves, and some say horse blood to create this invigorating chew. Aside from staining the teeth a bloody shade, *barbarian chew* causes the user to feel stronger, but also angrier.",
 			"",
-			"@I-boost One use of barbarian chew grants a barbarian +1 additional round of rage. This additional round is used first when a barbarian begins raging. If a barbarian does not rage within 1 hour of using the chew, this additional round of rage is lost.",
+			"@I-boost One use of *barbarian chew* grants a barbarian +1 additional round of rage. This additional round is used first when a barbarian begins raging. If a barbarian does not rage within 1 hour of using the chew, this additional round of rage is lost.",
 			"",
 			"This benefit can be gained only once per day; consuming multiple doses in a 24-hour period has no additional effects.",
 			"",
@@ -2213,11 +2213,11 @@
 			"",
 			"This mixture of scent-gland extracts and aromatic herbs serves as both attractor and olfactory camouflage. It masks the natural scent of a creature with a pungent musk that is alluring to animals.",
 			"",
-			"@I-boost-def Beast-scent provides a +2 circumstance bonus on ‹skill/Handle Animal› and ‹ability/wild empathy› checks and a -5 penalty on attempts to track the wearer by his original scent.",
+			"@I-boost-def *Beast-scent* provides a +2 circumstance bonus on ‹skill/Handle Animal› and ‹ability/wild empathy› checks and a -5 penalty on attempts to track the wearer by his original scent.",
 			"",
-			"@I-warning If the tracking creature is following the smell of beast-scent itself, ‹skill/Survival› checks to track gain a +10 circumstance bonus instead.",
+			"@I-warning If the tracking creature is following the smell of *beast-scent* itself, ‹skill/Survival› checks to track gain a +10 circumstance bonus instead.",
 			"",
-			"A single vial of beast-scent masks the scent of one Medium creature or two smaller creatures; larger creatures require proportionally more to gain the benefits. Beast-scent becomes inert after 1 hour of exposure to air. Applying a vial is a @HL[full-round action] that provokes attacks of opportunity.",
+			"A single vial of *beast-scent* masks the scent of one Medium creature or two smaller creatures; larger creatures require proportionally more to gain the benefits. *Beast-scent* becomes inert after 1 hour of exposure to air. Applying a vial is a @HL[full-round action] that provokes attacks of opportunity.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -2509,9 +2509,9 @@
 			"‹SOURCE Advanced Race Guide/56›  ",
 			"::tabular{format=misc a=30 b=x d=atool}",
 			"",
-			"This black paste is often applied on orc weapons before going on raids to stymie an enemy's healing magic. Like a poison, black fester stays on a weapon until the first time it strikes an opponent. It remains in the target's body for 1 hour.",
+			"This black paste is often applied on orc weapons before going on raids to stymie an enemy's healing magic. Like a poison, *black fester* stays on a weapon until the first time it strikes an opponent. It remains in the target's body for 1 hour.",
 			"",
-			"@I-lower A creature exposed to black fester resists magical healing; a creature trying to magically heal the target must make a DC 10 caster level check to restore any hit points to the target.",
+			"@I-lower A creature exposed to *black fester* resists magical healing; a creature trying to magically heal the target must make a DC 10 caster level check to restore any hit points to the target.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -2525,7 +2525,7 @@
 			"‹SOURCE Rival Guide/53›  ",
 			"::tabular{format=misc a=50 b=x d=atool}",
 			"",
-			"@I-def Developed by followers of ‹faith/Norgorber›, this inky paste aids unskilled poison-users. When smeared on the fingers, a dose of blackfingers paste prevents accidental poisoning while applying poison to a weapon, as if the user possessed the ‹ability/poison use› ability. A single dose of blackfingers paste lasts for 1d6 hours, but the black stains the stuff creates on the user's fingers lasts for days. A single dose of this alchemical item costs 50 gp."
+			"@I-def Developed by followers of ‹faith/Norgorber›, this inky paste aids unskilled poison-users. When smeared on the fingers, a dose of *blackfingers paste* prevents accidental poisoning while applying poison to a weapon, as if the user possessed the ‹ability/poison use› ability. A single dose of *blackfingers paste* lasts for 1d6 hours, but the black stains the stuff creates on the user's fingers lasts for days. A single dose of this alchemical item costs 50 gp."
 		]
 	},
 	"blackfire_clay": {
@@ -2536,9 +2536,9 @@
 			"‹SOURCE Ultimate Equipment/103›  ",
 			"::tabular{format=misc a=20 b=10 d=atool}",
 			"",
-			"@I-def-power This pliant black clay is always pleasantly warm to the touch. Working blackfire clay in your hands for a full round causes the clay to grow much warmer, granting you a +4 alchemical bonus on saving throws made to resist ‹rule/cold« weather›. You can combine five blocks of clay over the course of a minute to produce a source of warmth equivalent to a small campfire, allowing you to heat a campsite and cook food.",
+			"@I-def-power This pliant black clay is always pleasantly warm to the touch. Working *blackfire clay* in your hands for a full round causes the clay to grow much warmer, granting you a +4 alchemical bonus on saving throws made to resist ‹rule/cold« weather›. You can combine five blocks of clay over the course of a minute to produce a source of warmth equivalent to a small campfire, allowing you to heat a campsite and cook food.",
 			"",
-			"Blackfire clay only produces heat, never light, smoke, or odor. The clay emits warmth for 1 hour before hardening into an unusable lump. A newly created brick of blackfire clay is composed of 10 blocks.",
+			"Blackfire clay only produces heat, never light, smoke, or odor. The clay emits warmth for 1 hour before hardening into an unusable lump. A newly created brick of *blackfire clay* is composed of 10 blocks.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -2610,9 +2610,9 @@
 			"",
 			"This volatile gray paste sticks to solid surfaces and creates a concentrated blast when exposed to fire, making it a valuable excavation tool.",
 			"",
-			"@I-power You can apply 1 dose of blasting jelly to a 5-foot square as a @HL[standard action]. The paste can be ignited with another standard action by striking it from an adjacent square with a metal weapon or object. When thus ignited or otherwise exposed to fire, the jelly explodes, dealing 2d6 points of fire damage to creatures and unattended objects within the treated square. If the ignited square is adjacent to another square containing blasting jelly, that square ignites as well.",
+			"@I-power You can apply 1 dose of *blasting jelly* to a 5-foot square as a @HL[standard action]. The paste can be ignited with another standard action by striking it from an adjacent square with a metal weapon or object. When thus ignited or otherwise exposed to fire, the jelly explodes, dealing 2d6 points of fire damage to creatures and unattended objects within the treated square. If the ignited square is adjacent to another square containing *blasting jelly,* that square ignites as well.",
 			"",
-			"Blasting jelly deals full damage to objects made of stone or softer material. Blasting jelly decays relatively quickly when exposed to air, becoming inert after 4 hours if not ignited."
+			"Blasting jelly deals full damage to objects made of stone or softer material. *Blasting jelly* decays relatively quickly when exposed to air, becoming inert after 4 hours if not ignited."
 		]
 	},
 	"blight_tonic": {
@@ -2640,7 +2640,7 @@
 			"",
 			"This heavy stone box measures 2 feet to a side, and the tiny compartment inside is lined with lead. Inside the compartment is a half-ounce of deep green paste. This paste is made of animal fat mixed with ground-up ‹eq-material/blightburn›.",
 			"",
-			"@I-aura-def-down Once the box is opened, blightburn paste limits teleportation within 60 feet and irradiates anyone within 60 feet, afflicting them with ‹disease/blightburn sickness›. Any creature that touches the paste is afflicted with blightburn sickness (no save), and takes 2d6 points of fire damage per round until the paste is cleaned away with a successful DC 15 Heal check.",
+			"@I-aura-def-down Once the box is opened, *blightburn paste* limits teleportation within 60 feet and irradiates anyone within 60 feet, afflicting them with ‹disease/blightburn sickness›. Any creature that touches the paste is afflicted with blightburn sickness (no save), and takes 2d6 points of fire damage per round until the paste is cleaned away with a successful DC 15 Heal check.",
 			"",
 			"Crafting this item requires a successful DC 30 ‹skill/Craft› (alchemy) check."
 		]
@@ -2680,7 +2680,7 @@
 			"‹SOURCE Blood of the Sea/18›  ",
 			"::tabular{format=misc a=25 b=1 d=atool}",
 			"",
-			"@I-aura-def When you release this vial of alchemical particles into the water as a @HL[standard action], the particles immediately neutralize the scent of exposed blood within 20 feet, rendering the blood undetectable by ‹umr/scent› (to a hunting shark, for example). Blood neutralizer has no effect on any blood that enters the area after the particles have been used.",
+			"@I-aura-def When you release this vial of alchemical particles into the water as a @HL[standard action], the particles immediately neutralize the scent of exposed blood within 20 feet, rendering the blood undetectable by ‹umr/scent› (to a hunting shark, for example). *Blood neutralizer* has no effect on any blood that enters the area after the particles have been used.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -2695,7 +2695,7 @@
 			"",
 			"@I-boost-def-down Swallowing this dark black-red tea pill causes your blood to heat up, granting you a +2 alchemical bonus on initiative checks and on saving throws against cold effects for 8 hours. However, any damage you take from ‹rule/bleed› effects during this time is multiplied by 1&frac12; (rounded up).",
 			"",
-			"Swallowing a ‹eq-misc/blood-chilling pill› while under the effects of a blood-boiling pill negates the effects of both pills.",
+			"Swallowing a ‹eq-misc/blood-chilling pill› while under the effects of a *blood-boiling pill* negates the effects of both pills.",
 			"",
 			"**‹rule/Spontaneous Alchemy› Recipe** (30 ginger extract + 8 gold + 15 mugwort extract)/ceration; **Craft DC** 25  ",
 			"**Time** 10 minutes; **Tools** ‹eq-misc/crucible›; **Type** alchemical remedy"
@@ -2711,7 +2711,7 @@
 			"",
 			"@I-def-down Swallowing this pale green tea pill causes your blood to slow and chill, allowing you to ignore the first 20 points of ‹rule/bleed› damage you take during the following 8 hours. In addition, you gain a +2 alchemical bonus on saving throws against fire effects during this time. However, you take a -2 penalty on initiative checks.",
 			"",
-			"Swallowing a ‹eq-misc/blood-boiling pill› while under the effects of a blood-chilling pill negates the effects of both pills.",
+			"Swallowing a ‹eq-misc/blood-boiling pill› while under the effects of a *blood-chilling pill* negates the effects of both pills.",
 			"",
 			"**‹rule/Spontaneous Alchemy› Recipe** (15 ginger extract + 40 myrrh + 30 mugwort extract)/filtration; **Craft DC** 25  ",
 			"**Time** 10 minutes; **Tools** ‹eq-misc/filter›; **Type** alchemical remedy"
@@ -2727,7 +2727,7 @@
 			"",
 			"@I-aid Applying this herbal salve to a ‹rule/bleed«ing› wound cures 1 point of damage and prevents additional damage from bleeding for 1 hour per application. After an hour, if the bleed effect hasn't been properly treated, the injury resumes bleeding and more salve must be applied.",
 			"",
-			"Though blood-clotter salve can be applied successively to the same injury, applying multiple doses doesn't cure additional damage.",
+			"Though *blood-clotter salve* can be applied successively to the same injury, applying multiple doses doesn't cure additional damage.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -2748,9 +2748,9 @@
 			"",
 			"@I-boost Using a dose gives you a +5 alchemical bonus on ‹skill/Heal› checks for providing first aid, treating wounds made by ‹eq-misc/caltrops› or similar objects, or treating deadly wounds.",
 			"",
-			"@I-aid A dose of bloodblock ends a ‹rule/bleed› effect as if you had made a DC 15 Heal check.",
+			"@I-aid A dose of *bloodblock* ends a ‹rule/bleed› effect as if you had made a DC 15 Heal check.",
 			"",
-			"@I-boost When treating deadly wounds, using a dose of bloodblock counts as one use of a ‹eq-misc/healer's kit› (and grants the +5 bonus stated above).",
+			"@I-boost When treating deadly wounds, using a dose of *bloodblock* counts as one use of a ‹eq-misc/healer's kit› (and grants the +5 bonus stated above).",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -2765,7 +2765,7 @@
 			"",
 			"When you imbibe this syrupy black serum, your blood thins dramatically and gushes forth from even minor wounds.",
 			"",
-			"@I-lower Anytime you take ‹rule/bleed› damage, any creatures adjacent to you must succeed at a Fortitude save (DC 10 + the amount of bleed damage taken) or be ‹misc/nauseated› for 1 round. A dose of bloodgorge lasts for 1 hour.",
+			"@I-lower Anytime you take ‹rule/bleed› damage, any creatures adjacent to you must succeed at a Fortitude save (DC 10 + the amount of bleed damage taken) or be ‹misc/nauseated› for 1 round. A dose of *bloodgorge* lasts for 1 hour.",
 			"",
 			"**‹rule/Spontaneous Alchemy› Recipe** (5 cold iron + 10 dew of lunary)/filtration; **Craft DC** 25  ",
 			"**Time** 10 minutes; **Tools** ‹eq-misc/filter›; **Type** alchemical remedy"
@@ -2792,7 +2792,7 @@
 			"",
 			"This 50-foot length of tough, lightweight rope is made from alchemically treated bloodvine, a rare scarlet-colored vine that grows only in warm jungle environments.",
 			"",
-			"Though prized by climbers for its durability, bloodvine can also be used to bind creatures. Bloodvine rope has a ‹rule/hardness› of 5 and 10 hit points, and can be broken with a DC 30 Strength check. A creature bound by bloodvine rope can escape with a DC 35 ‹skill/Escape Artist› check or a DC 30 Strength check.",
+			"Though prized by climbers for its durability, bloodvine can also be used to bind creatures. *Bloodvine rope* has a ‹rule/hardness› of 5 and 10 hit points, and can be broken with a DC 30 Strength check. A creature bound by *bloodvine rope* can escape with a DC 35 ‹skill/Escape Artist› check or a DC 30 Strength check.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -2829,7 +2829,7 @@
 			"",
 			"@I-power When imbibed, this bitter, rust-colored concoction grants you 1d4 uses of ‹misc/alchemical inspiration› that can be used only on ‹skill/Intimidate› checks.",
 			"",
-			"@I-roll-down The benefits of boar's bellow last for 1 hour; during this time, you must roll all Diplomacy checks twice and take the worse result.",
+			"@I-roll-down The benefits of *boar's bellow* last for 1 hour; during this time, you must roll all Diplomacy checks twice and take the worse result.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -2930,13 +2930,13 @@
 			"‹SOURCE Dungeoneer's Handbook/26›  ",
 			"::tabular{format=misc a=75 b=1 d=atool}",
 			"",
-			"Typically stored in an airtight leather wineskin cured with rare preservative unguents, bone paste is a powerful alchemical sealant with special deteriorative properties.",
+			"Typically stored in an airtight leather wineskin cured with rare preservative unguents, *bone paste* is a powerful alchemical sealant with special deteriorative properties.",
 			"",
-			"When squeezed out of its container and exposed to air, bone paste quickly hardens, so in order to apply it to a surface or object one must typically squeeze the paste directly onto the material to be affected. Once applied, bone paste cements itself to the object in just seconds, and hardens into a flaky cast.",
+			"When squeezed out of its container and exposed to air, *bone paste* quickly hardens, so in order to apply it to a surface or object one must typically squeeze the paste directly onto the material to be affected. Once applied, *bone paste* cements itself to the object in just seconds, and hardens into a flaky cast.",
 			"",
-			"If applied to any unattended organic material or surface (such as wood, paper, hide, or rope), after 1 hour, bone paste undergoes another alchemical reaction and begins to eat away at the material, dealing 1d4 points of damage each round for 1d6+1 rounds, eating away first at the part of the object to which it was applied and spreading briefly to other parts of the object before dissipating and leaving a small amount of residual dust.",
+			"If applied to any unattended organic material or surface (such as wood, paper, hide, or rope), after 1 hour, *bone paste* undergoes another alchemical reaction and begins to eat away at the material, dealing 1d4 points of damage each round for 1d6+1 rounds, eating away first at the part of the object to which it was applied and spreading briefly to other parts of the object before dissipating and leaving a small amount of residual dust.",
 			"",
-			"Bone paste ignores an organic object's hardness, and does not deal damage to inorganic objects or surfaces (such as metal, stone, or ceramic). One pouch of bone paste is enough to cover 1 square foot of surface, or (because of waste and spills) up to 20 smaller applications of approximately 2 square inches each.",
+			"Bone paste ignores an organic object's hardness, and does not deal damage to inorganic objects or surfaces (such as metal, stone, or ceramic). One pouch of *bone paste* is enough to cover 1 square foot of surface, or (because of waste and spills) up to 20 smaller applications of approximately 2 square inches each.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -2954,9 +2954,9 @@
 			"",
 			"This thick whitewash is laced with exotic oils, and it dries to a lovely finish run through with subtle swirls.",
 			"",
-			"@I-def Difficult to notice, these patterns help obscure seams and details in whatever the paint coats; the ‹skill/Perception› DC to find a secret door or hidden compartment on a surface covered in boniface paint increases by 5.",
+			"@I-def Difficult to notice, these patterns help obscure seams and details in whatever the paint coats; the ‹skill/Perception› DC to find a secret door or hidden compartment on a surface covered in *boniface paint* increases by 5.",
 			"",
-			"One bucket of boniface paint covers up to a 10-foot-by-10-foot area, and its concealing effects last for 1 year.",
+			"One bucket of *boniface paint* covers up to a 10-foot-by-10-foot area, and its concealing effects last for 1 year.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -3021,7 +3021,7 @@
 			"",
 			"@I-boost Using this brush is a @HL[standard action], and the protective film grants a 5-foot alchemical bonus to the firearm's first range increment and a +1 alchemical bonus on attack rolls. These effects last for 1 hour or until the firearm is fired.",
 			"",
-			"A newly crafted bore brush contains 5 applications.",
+			"A newly crafted *bore brush* contains 5 applications.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -3051,9 +3051,9 @@
 			"",
 			"This glass vial contains alchemically preserved musk from a single variety of creature.",
 			"",
-			"@I-boost Sniffing bottled musk provides a +4 circumstance bonus on ‹skill/Survival› checks to track creatures of the same variety by ‹umr/scent›.",
+			"@I-boost Sniffing *bottled musk* provides a +4 circumstance bonus on ‹skill/Survival› checks to track creatures of the same variety by ‹umr/scent›.",
 			"",
-			"@I-boost Additionally, bottled musk can be used as an additional spell component for the following spells to modify the spell's effects.",
+			"@I-boost Additionally, *bottled musk* can be used as an additional spell component for the following spells to modify the spell's effects.",
 			"",
 			"- **‹spell/Detect undead:›** Functions as written, but detects creatures of the musk's associated creature type.",
 			"- **‹spell/Locate creature:›** Detects the same variety of creature as the musk (for example, using bison musk detects only bison, not all herd animals or animals), and provides a +2 bonus on caster level checks to overcome ‹spell/nondetection›."
@@ -3069,9 +3069,9 @@
 			"",
 			"@I-power As a @HL[standard action], this ornate rectangular jar can be vigorously shaken to cause its contents to mix and activate. Once shaken, the contents of the jar shed light as a ‹eq-misc/sunrod› for 6 hours.",
 			"",
-			"@I-boom A jar of activated bottled sunlight can be thrown as a ‹rule/splash weapon› with a range increment of 10 feet. Upon striking a solid object, the bottled sunlight creates a 30-foot-radius ‹misc/burst› of natural sunlight that persists for 1 round, after which all light from the jar fades.",
+			"@I-boom A jar of activated *bottled sunlight* can be thrown as a ‹rule/splash weapon› with a range increment of 10 feet. Upon striking a solid object, the *bottled sunlight* creates a 30-foot-radius ‹misc/burst› of natural sunlight that persists for 1 round, after which all light from the jar fades.",
 			"",
-			"Throwing an inactive jar of bottled sunlight destroys the item, leaving only a smoldering pile of ashes where it struck.",
+			"Throwing an inactive jar of *bottled sunlight* destroys the item, leaving only a smoldering pile of ashes where it struck.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -3095,9 +3095,9 @@
 			"‹SOURCE Alchemy Manual/13›  ",
 			"::tabular{format=misc a=25 b=2 d=rem}",
 			"",
-			"@I-def This malty ‹eq-misc/ale<_mug› has a legendarily thick, creamy head. It creates a pleasant buzz and sense of euphoria that dull the effects of pain and concussions, granting the drinker a +1 alchemical bonus on saving throws to avoid becoming dazed, staggered, or stunned, or against any effect with the pain descriptor for 1 hour. In addition, a dose of boulderhead bock grants the drinker 1d6 temporary hit points that apply exclusively against nonlethal damage.",
+			"@I-def This malty ‹eq-misc/ale<_mug› has a legendarily thick, creamy head. It creates a pleasant buzz and sense of euphoria that dull the effects of pain and concussions, granting the drinker a +1 alchemical bonus on saving throws to avoid becoming dazed, staggered, or stunned, or against any effect with the pain descriptor for 1 hour. In addition, a dose of *boulderhead bock* grants the drinker 1d6 temporary hit points that apply exclusively against nonlethal damage.",
 			"",
-			"Multiple doses of boulderhead bock stack, to a maximum alchemical bonus of +5 and a maximum of 20 temporary hit points.",
+			"Multiple doses of *boulderhead bock* stack, to a maximum alchemical bonus of +5 and a maximum of 20 temporary hit points.",
 			"",
 			"**‹rule/Spontaneous Alchemy› Recipe** (4 gold + 15 spirit of wine)/fermentation; **Craft DC** 19  ",
 			"**Time** 1 week; **Tools** ‹eq-misc/brewer's kit›; **Type** alcohol"
@@ -3111,7 +3111,7 @@
 			"‹SOURCE Melee Tactics Toolbox/20›  ",
 			"::tabular{format=misc a=\"105 gp (common), 380 gp (superior)\" b=\"15 lbs. (common), 24 lbs. (superior)\" c=x d=kits}",
 			"",
-			"This kit provides useful tools for bounty hunters. It includes basic maps showing major landmarks, ‹eq-misc/caltrops›, ‹eq-misc/common manacles› with an ‹eq-misc/average lock›, a ‹eq-weapon/net›, a ‹eq-weapon/sap›, and a 10-foot ‹eq-misc/chain›. Bounty hunters are notoriously individualistic, so variant kits are common. One such variant is the superior bounty hunter's kit, which replaces the common manacles with ‹eq-misc/masterwork manacles› and the average lock with a ‹eq-misc/good lock›, and includes a ‹eq-misc/footprint book›, a ‹eq-weapon/tanglefoot bag›, and ‹eq-misc/masterwork thieves' tools›."
+			"This kit provides useful tools for bounty hunters. It includes basic maps showing major landmarks, ‹eq-misc/caltrops›, ‹eq-misc/common manacles› with an ‹eq-misc/average lock›, a ‹eq-weapon/net›, a ‹eq-weapon/sap›, and a 10-foot ‹eq-misc/chain›. Bounty hunters are notoriously individualistic, so variant kits are common. One such variant is the superior *bounty hunter's kit,* which replaces the common manacles with ‹eq-misc/masterwork manacles› and the average lock with a ‹eq-misc/good lock›, and includes a ‹eq-misc/footprint book›, a ‹eq-weapon/tanglefoot bag›, and ‹eq-misc/masterwork thieves' tools›."
 		]
 	},
 	"bounty_hunters_kit_superior": {
@@ -3256,7 +3256,7 @@
 			"‹SOURCE Alchemy Manual/13›  ",
 			"::tabular{format=misc a=25 b=50 d=atool}",
 			"",
-			"A brewer's kit includes a mash tun, as well as copper kettles and piping for boiling and cooling before casking it and allowing it to ferment. It also includes a variety of dried hops and spices for flavoring."
+			"A *brewer's kit* includes a mash tun, as well as copper kettles and piping for boiling and cooling before casking it and allowing it to ferment. It also includes a variety of dried hops and spices for flavoring."
 		]
 	},
 	"brewers_kit_masterwork": {
@@ -3369,9 +3369,9 @@
 			"‹SOURCE Alchemy Manual/19›  ",
 			"::tabular{format=misc a=\"0.05\" b=x d=atool}",
 			"",
-			"@I-lower Bunk is a slang term for fillers used to dilute drugs that are proffered as pure-grade narcotics. A drug mixed with bunk is less potent; its effects last 1d6 &times; 10 minutes for each hour they would normally last. The presence of bunk can be detected with a successful ‹skill/Craft› (alchemy) check (DC equal to the drug manufacturer's Craft [alchemy] check - 10).",
+			"@I-lower *Bunk* is a slang term for fillers used to dilute drugs that are proffered as pure-grade narcotics. A drug mixed with *bunk* is less potent; its effects last 1d6 &times; 10 minutes for each hour they would normally last. The presence of *bunk* can be detected with a successful ‹skill/Craft› (alchemy) check (DC equal to the drug manufacturer's Craft [alchemy] check - 10).",
 			"",
-			"@I-lower The duration and intensity of the drug's harmful after-effects and ability damage are not reduced, as the additives in bunk are often toxic or dangerous in their own right. When a creature takes a dose of a drug containing bunk, the creature must attempt a Fortitude save (DC 10 + 1d10). Failure causes the creature to become ‹misc/sickened› for 1d4 hours and take 1d2 points of ‹rule/ability damage› to a random ability score.",
+			"@I-lower The duration and intensity of the drug's harmful after-effects and ability damage are not reduced, as the additives in *bunk* are often toxic or dangerous in their own right. When a creature takes a dose of a drug containing *bunk,* the creature must attempt a Fortitude save (DC 10 + 1d10). Failure causes the creature to become ‹misc/sickened› for 1d4 hours and take 1d2 points of ‹rule/ability damage› to a random ability score.",
 			"",
 			"**‹rule/Spontaneous Alchemy› Recipe** (1 salt + 1 urea)/filtration; **Craft DC** 15  ",
 			"**Time** 10 minutes; **Tools** ‹eq-misc/filter›; **Type** alchemical tool"
@@ -3445,9 +3445,9 @@
 			"‹SOURCE Dirty Tactics Toolbox/20›  ",
 			"::tabular{format=misc a=2102 b=5 d=bm}",
 			"",
-			"Appearing as a heavy, elaborate neckpiece while worn, a burglar's torc can be removed and disassembled into its component parts in 4 minutes (or in 1 minute if the user is trained in the ‹skill/Disable Device› skill). When dismantled, a burglar's torc contains parts that function as a set of ‹eq-material/mithral› ‹eq-misc/masterwork thieves' tools›, 10 feet of ‹eq-misc/silk rope›, and a ‹eq-misc/mithral grappling hook›. Reassembling the torc takes 8 minutes (or 4 minutes if the user is trained in the Disable Device skill).",
+			"Appearing as a heavy, elaborate neckpiece while worn, a *burglar's torc* can be removed and disassembled into its component parts in 4 minutes (or in 1 minute if the user is trained in the ‹skill/Disable Device› skill). When dismantled, a *burglar's torc* contains parts that function as a set of ‹eq-material/mithral› ‹eq-misc/masterwork thieves' tools›, 10 feet of ‹eq-misc/silk rope›, and a ‹eq-misc/mithral grappling hook›. Reassembling the torc takes 8 minutes (or 4 minutes if the user is trained in the Disable Device skill).",
 			"",
-			"An observer must succeed at a DC 30 ‹skill/Perception› check to recognize an assembled burglar's torc for what it is; if the observer handles the torc, the DC for this check decreases to 15."
+			"An observer must succeed at a DC 30 ‹skill/Perception› check to recognize an assembled *burglar's torc* for what it is; if the observer handles the torc, the DC for this check decreases to 15."
 		]
 	},
 	"burner": {
@@ -3654,9 +3654,9 @@
 			"‹SOURCE Advanced Race Guide/147›  ",
 			"::tabular{format=misc a=100 b=x d=atool}",
 			"",
-			"Though ‹race/oread«s› with obviously stony features are rare, almost all oreads have an essentially earthen quality to their skin that makes it perfect for cultivating plant life. Where other races would be appalled at the thought of plants taking root in their flesh, oreads see it as a natural and healthy extension of their elemental nature. For this reason, oread herbalists developed several strains of moss and lichen specifically adapted to grow on their bodies. Camouflage lichen is the most common variety of these oread plants.",
+			"Though ‹race/oread«s› with obviously stony features are rare, almost all oreads have an essentially earthen quality to their skin that makes it perfect for cultivating plant life. Where other races would be appalled at the thought of plants taking root in their flesh, oreads see it as a natural and healthy extension of their elemental nature. For this reason, oread herbalists developed several strains of moss and lichen specifically adapted to grow on their bodies. *Camouflage lichen* is the most common variety of these oread plants.",
 			"",
-			"@I-def It takes 1 minute to apply a paste of camouflage lichen spores to the skin, and an additional 24 hours for the fungus to sprout. After this time, the oread is covered in a thin green layer of living plant matter, granting her a +4 bonus on ‹skill/Stealth› checks made in green forest and jungle environments. Red-orange and white varieties exist, providing bonuses in appropriately colored environments (red-orange among autumn leaves or in red deserts, white in snow, and so on).",
+			"@I-def It takes 1 minute to apply a paste of *camouflage lichen* spores to the skin, and an additional 24 hours for the fungus to sprout. After this time, the oread is covered in a thin green layer of living plant matter, granting her a +4 bonus on ‹skill/Stealth› checks made in green forest and jungle environments. Red-orange and white varieties exist, providing bonuses in appropriately colored environments (red-orange among autumn leaves or in red deserts, white in snow, and so on).",
 			"",
 			"Camouflage lichen has a short lifespan; it withers and dies 3 days after being applied, crumbling away into harmless powder. This item only works on oreads and other creatures with rock-like bodies."
 		]
@@ -3878,7 +3878,7 @@
 			"",
 			"This small leather pouch is filled with a faintly radioactive ore called ‹eq-material/caphorite›, with a small percentage of reactants that activate the dust.",
 			"",
-			"@I-power-aura-lower When used, caphorite dust must be sprinkled in a 5-foot square, which then becomes the center of the dust's effect. All bright or normal light within 30 feet of the activated dust is reduced to ‹rule/dim light›, and any creature attempting to cast a spell with the light descriptor in this area must succeed at a DC 15 caster level check or have spell's effect be negated.",
+			"@I-power-aura-lower When used, *caphorite dust* must be sprinkled in a 5-foot square, which then becomes the center of the dust's effect. All bright or normal light within 30 feet of the activated dust is reduced to ‹rule/dim light›, and any creature attempting to cast a spell with the light descriptor in this area must succeed at a DC 15 caster level check or have spell's effect be negated.",
 			"",
 			"If caphorite is exposed to sunlight, it immediately becomes permanently inert. Each pouch contains enough dust for two applications.",
 			"",
@@ -3910,9 +3910,9 @@
 			"",
 			"This bottle of viscous blue oil sublimates slightly when exposed to air.",
 			"",
-			"@I-power When poured over water, the oil pools on the surface and takes 1 round to spread out from the point of origin in a 20-foot radius. At the end of this round, the cardice oil flash-freezes the surface of the water, creating an ice sheet over the affected area. Any 5-foot square of this ice can support up to 200 pounds of weight. Weight in excess of this amount causes the entire sheet to crack and quickly break up.",
+			"@I-power When poured over water, the oil pools on the surface and takes 1 round to spread out from the point of origin in a 20-foot radius. At the end of this round, the *cardice oil* flash-freezes the surface of the water, creating an ice sheet over the affected area. Any 5-foot square of this ice can support up to 200 pounds of weight. Weight in excess of this amount causes the entire sheet to crack and quickly break up.",
 			"",
-			"@I-warning This ice sheet becomes unstable and breaks up on its own after 1 hour, or 20 minutes in a hot climate. Any creature whose bare skin comes in contact with cardice oil takes 1d6 points of nonlethal damage each round because of the chemical's volatile nature, but the oil is ineffective as a splash weapon.",
+			"@I-warning This ice sheet becomes unstable and breaks up on its own after 1 hour, or 20 minutes in a hot climate. Any creature whose bare skin comes in contact with *cardice oil* takes 1d6 points of nonlethal damage each round because of the chemical's volatile nature, but the oil is ineffective as a splash weapon.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -3972,9 +3972,9 @@
 			"",
 			"@I-aura-lower Once the jar is opened (a @HL[standard action]), the stench quickly becomes overpowering as the jar's contents swell and rot at an accelerated rate. Any living creature within 15 feet of the jar when it is opened must succeed at a DC 12 Fortitude save or be ‹misc/sickened› for 1d4 rounds.",
 			"",
-			"Vermin and undead have a hard time distinguishing carrion bait from rotten human flesh, but intelligent undead that succeed at a DC 15 ‹skill/Perception› check realize the difference. Regardless, any creature that spends more than 1 round eating the carrion bait quickly realizes its error, since the bait continues to swell and grow even as it's digested.",
+			"Vermin and undead have a hard time distinguishing *carrion bait* from rotten human flesh, but intelligent undead that succeed at a DC 15 ‹skill/Perception› check realize the difference. Regardless, any creature that spends more than 1 round eating the *carrion bait* quickly realizes its error, since the bait continues to swell and grow even as it's digested.",
 			"",
-			"@I-lower One round after eating carrion bait, an affected undead or vermin becomes ‹misc/staggered› for 1d4 rounds as its belly bulges to incredible proportions (other creature types cannot stomach carrion bait and instead are ‹misc/nauseated› for 2d4 rounds). If the affected creature is already staggered, its movement speed instead decreases by 10 feet for the duration of the carrion bait's effect.",
+			"@I-lower One round after eating *carrion bait,* an affected undead or vermin becomes ‹misc/staggered› for 1d4 rounds as its belly bulges to incredible proportions (other creature types cannot stomach *carrion bait* and instead are ‹misc/nauseated› for 2d4 rounds). If the affected creature is already staggered, its movement speed instead decreases by 10 feet for the duration of the *carrion bait's* effect.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 19"
 		]
@@ -4421,7 +4421,7 @@
 			"",
 			"@I-def This gray paste congeals when spread onto a surface, gradually changing color to match its surroundings. When applied, its reagents bond with chemicals in the environment, exuding a magnified aura that can fool ‹umr/blindsight› and ‹umr/blindsense›. This affects only blindsight or blindsense based on smell, taste, vibration, and similar senses; it does not affect extraordinary sight, hearing, or ‹umr/tremorsense›.",
 			"",
-			"Applying a flask of chemical ward to the edge of a 5-foot square takes a @HL[full-round action], creating an opaque barrier against blindsense and blindsight that lasts for 1 hour. A creature can sense through the barrier with a successful ‹skill/Perception› check (DC 15 for blindsight, 20 for blindsense), although individuals on the opposite side of the barrier can attempt ‹skill/Stealth› checks against the creature's blindsight or blindsense as though they had ‹rule/concealment›. The barrier does not inhibit movement."
+			"Applying a flask of *chemical ward* to the edge of a 5-foot square takes a @HL[full-round action], creating an opaque barrier against blindsense and blindsight that lasts for 1 hour. A creature can sense through the barrier with a successful ‹skill/Perception› check (DC 15 for blindsight, 20 for blindsense), although individuals on the opposite side of the barrier can attempt ‹skill/Stealth› checks against the creature's blindsight or blindsense as though they had ‹rule/concealment›. The barrier does not inhibit movement."
 		]
 	},
 	"chest_huge": {
@@ -4478,7 +4478,7 @@
 			"",
 			"@I-def Spreading a dose on your face and hands takes a @HL[full-round action] and grants you a +2 alchemical bonus on saves to resist [hot weather](rule/heat_dangers). In areas of bright light this bonus increases to +4, while in areas of ‹rule/dim light› or darkness it is negated.",
 			"",
-			"A dose of chill cream lasts for 1 hour after being applied. A newly crafted bottle of chill cream holds 5 doses.",
+			"A dose of *chill cream* lasts for 1 hour after being applied. A newly crafted bottle of *chill cream* holds 5 doses.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -4552,11 +4552,11 @@
 			"‹SOURCE Heroes of the Darklands/28›  ",
 			"::tabular{format=misc a=30 b=2 d=atool}",
 			"",
-			"Comprising several chunks of magnetized ore connected by twine, a clatterstone creates an intense racket when it strikes a solid surface. The combination of magnetic disturbances, noise, and vibrations interferes with ‹umr/blindsight›.",
+			"Comprising several chunks of magnetized ore connected by twine, a *clatterstone* creates an intense racket when it strikes a solid surface. The combination of magnetic disturbances, noise, and vibrations interferes with ‹umr/blindsight›.",
 			"",
-			"@I-power A creature using blindsight perceives a detonated clatterstone as a Medium target until it attempts to interact with the perceived \"creature\" or identifies it with some other sense, such as darkvision.",
+			"@I-power A creature using blindsight perceives a detonated *clatterstone* as a Medium target until it attempts to interact with the perceived \"creature\" or identifies it with some other sense, such as darkvision.",
 			"",
-			"@I-zap You can throw a clatterstone as a ranged attack with a range increment of 20 feet, and it remains active for 1d4+1 rounds before becoming inert."
+			"@I-zap You can throw a *clatterstone* as a ranged attack with a range increment of 20 feet, and it remains active for 1d4+1 rounds before becoming inert."
 		]
 	},
 	"clay_whippoorwill": {
@@ -4706,7 +4706,7 @@
 			"",
 			"@I-boost A more advanced version of the ‹eq-misc/clockwork prowler›, this device is more metal than wood. It moves at a speed of 20 feet and can be programmed with up to four right-angle turns. Each turn requires 1 round to program along with a DC 15 ‹skill/Disable Device› check. If this check is failed, roll d% each time the prowler attempts to turn. On a result of 1-10, it fails to turn. On a result of 11-20, it instead turns on the next round.",
 			"",
-			"An advanced clockwork prowler can carry up to 60 pounds of weight at full speed, or up to 120 pounds at a speed of 10 feet. It has ‹rule/hardness› 10, 150 hit points, and when in motion has AC 15 (a motionless advanced clockwork prowler has AC 8)."
+			"An advanced *clockwork prowler* can carry up to 60 pounds of weight at full speed, or up to 120 pounds at a speed of 10 feet. It has ‹rule/hardness› 10, 150 hit points, and when in motion has AC 15 (a motionless advanced *clockwork prowler* has AC 8)."
 		]
 	},
 	"clockwork_prowler": {
@@ -4717,13 +4717,13 @@
 			"‹SOURCE Pathfinder Society Field Guide/48›  ",
 			"::tabular{format=misc a=500 b=25 d=atool}",
 			"",
-			"@I-power This 2-foot-tall wooden clockwork automaton is shaped roughly like a short-backed, wheeled chair. When wound up with the folding handle at its side, the clockwork prowler trundles forward at a speed of 15 feet per round for up to 2 minutes. A clockwork prowler cannot move through ‹rule/difficult terrain›.",
+			"@I-power This 2-foot-tall wooden clockwork automaton is shaped roughly like a short-backed, wheeled chair. When wound up with the folding handle at its side, the *clockwork prowler* trundles forward at a speed of 15 feet per round for up to 2 minutes. A *clockwork prowler* cannot move through ‹rule/difficult terrain›.",
 			"",
 			"Each round of vigorous winding powers 2 rounds of movement. If its brake is not released immediately after winding, the prowler loses 1 round of movement for every 2 rounds it sits idle.",
 			"",
-			"The clockwork prowler can carry up to 20 pounds of weight at full speed, or up to 50 pounds at a speed of 10 feet. Higher weights prevent the prowler from moving.",
+			"The *clockwork prowler* can carry up to 20 pounds of weight at full speed, or up to 50 pounds at a speed of 10 feet. Higher weights prevent the prowler from moving.",
 			"",
-			"A clockwork prowler has ‹rule/hardness› 5 and 90 hit points, and when in motion has AC 12 (a motionless clockwork prowler has AC 5)."
+			"A *clockwork prowler* has ‹rule/hardness› 5 and 90 hit points, and when in motion has AC 12 (a motionless *clockwork prowler* has AC 5)."
 		]
 	},
 	"cloud_puff": {
@@ -5058,9 +5058,9 @@
 			"",
 			"By boiling certain seeds with handfuls of rust, ‹race/halfling› ‹class/alchemist«s› create these red flakes, which smolder slowly when touched by a spark or flame.",
 			"",
-			"If sprinkled over food and lit, a handful of cooking powder can cook meat or vegetables in 20 minutes without light or significant heat, though it lends a metallic flavor to any foods. If held to a living creature's flesh, smoldering cooking powder deals 1 point of fire damage per minute for 20 minutes.",
+			"If sprinkled over food and lit, a handful of *cooking powder* can cook meat or vegetables in 20 minutes without light or significant heat, though it lends a metallic flavor to any foods. If held to a living creature's flesh, smoldering *cooking powder* deals 1 point of fire damage per minute for 20 minutes.",
 			"",
-			"One jar of cooking powder is enough to cook up to 5 pounds of food in 1-pound increments.",
+			"One jar of *cooking powder* is enough to cook up to 5 pounds of food in 1-pound increments.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -5100,9 +5100,9 @@
 			"",
 			"This sponge-sized brick is actually a desiccated chunk of living coral. When exposed to at least 1 gallon of water, it expands into a full-sized boulder within 1 minute.",
 			"",
-			"A fully expanded coral boulder is an irregular sphere 3 feet in diameter. An expanded boulder has a ‹rule/hardness› of 7, has 55 hit points, and weighs 8 pounds.",
+			"A fully expanded *coral boulder* is an irregular sphere 3 feet in diameter. An expanded boulder has a ‹rule/hardness› of 7, has 55 hit points, and weighs 8 pounds.",
 			"",
-			"The water in a coral boulder slowly evaporates if it's left in a dry environment, and the boulder shrinks back to its original size in about a week. If dropped in water, a coral boulder sinks straight down, and is not moved by tides or flowing water.",
+			"The water in a *coral boulder* slowly evaporates if it's left in a dry environment, and the boulder shrinks back to its original size in about a week. If dropped in water, a *coral boulder* sinks straight down, and is not moved by tides or flowing water.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -5356,7 +5356,7 @@
 			"‹SOURCE Adventurer's Armory 2/29;Qadira, Gateway to the East/19›  ",
 			"::tabular{format=misc a=50 b=x d=rem}",
 			"",
-			"@I-aid When you burn this powerful resin, it fills eight contiguous 10-foot cubes with faint smoke that persists for 8 hours. Creatures resting or receiving long-term care in the smoke from curative myrrh regain 1 additional hit point per level. Multiple uses of curative myrrh in a 24-hour period do not stack.",
+			"@I-aid When you burn this powerful resin, it fills eight contiguous 10-foot cubes with faint smoke that persists for 8 hours. Creatures resting or receiving long-term care in the smoke from *curative myrrh* regain 1 additional hit point per level. Multiple uses of *curative myrrh* in a 24-hour period do not stack.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -5391,11 +5391,11 @@
 			"‹SOURCE Dragonslayer's Handbook/18›  ",
 			"::tabular{format=misc a=50 b=\"0.5\" d=dragon}",
 			"",
-			"Made with dragon's gall, which is harvested from a recently deceased dragon's liver, Dahak's fire is a volatile alchemical reagent. Though inherently inert, the substance ignites when it comes into contact with fast-moving air, which makes it ideal for application to blades or arrows.",
+			"Made with dragon's gall, which is harvested from a recently deceased dragon's liver, *Dahak's fire* is a volatile alchemical reagent. Though inherently inert, the substance ignites when it comes into contact with fast-moving air, which makes it ideal for application to blades or arrows.",
 			"",
 			"@I-boost When applied to a weapon or piece of ammunition as a @HL[standard action], the weapon deals an extra 2d6 points of fire damage on the next successful hit.",
 			"",
-			"The ‹feat/Dragoncrafting› feat and a successful DC 20 ‹skill/Craft› (alchemy) check are required to convert 1 vial of dragon's gall into 1 application of Dahak's fire."
+			"The ‹feat/Dragoncrafting› feat and a successful DC 20 ‹skill/Craft› (alchemy) check are required to convert 1 vial of dragon's gall into 1 application of *Dahak's fire.*"
 		]
 	},
 	"dampening_ointment": {
@@ -5480,7 +5480,7 @@
 			"‹SOURCE Advanced Race Guide/111›  ",
 			"::tabular{format=misc a=20 b=3 d=atool}",
 			"",
-			"This lantern does not burn oil, but instead burns ‹eq-weapon/shadowcloy<_flask›. When shadowcloy is used as its fuel, this lantern creates a strange, hazy darkness that decreases the light level for 30 feet around it by one step. Unlike when shadowcloy is thrown at a single target, this haze does not decrease natural darkness to supernatural darkness. One flask of shadowcloy fuels a darklight lantern for 1 minute."
+			"This lantern does not burn oil, but instead burns ‹eq-weapon/shadowcloy<_flask›. When *shadowcloy* is used as its fuel, this lantern creates a strange, hazy darkness that decreases the light level for 30 feet around it by one step. Unlike when *shadowcloy* is thrown at a single target, this haze does not decrease natural darkness to supernatural darkness. One flask of *shadowcloy* fuels a *darklight lantern* for 1 minute."
 		]
 	},
 	"darkwood_mwagni_harp": {
@@ -5537,7 +5537,7 @@
 			"",
 			"Within this corked vial is a tiny sample of what is known as \"dead air.\" Heavy, still, and of unknown origin, pockets of dead air becalm airships and smother crews in remote parts of the Plane of Air.",
 			"",
-			"@I-aura-lower When you open a dead air vial, invisible dead air fills a 20-foot-radius area centered on you. The affected area becomes devoid of breathable air. Creatures that breathe air must ‹misc/hold their breath› or ‹rule/suffocate› in an area of dead air, though sound, fire, and other effects that rely on a stable atmosphere are unaffected.",
+			"@I-aura-lower When you open a *dead air vial,* invisible dead air fills a 20-foot-radius area centered on you. The affected area becomes devoid of breathable air. Creatures that breathe air must ‹misc/hold their breath› or ‹rule/suffocate› in an area of dead air, though sound, fire, and other effects that rely on a stable atmosphere are unaffected.",
 			"",
 			"Undisturbed, the dead air dissipates in 1 minute. A moderate wind (11+ mph) disperses the dead air in 4 rounds; a strong wind (21+ mph) disperses the dead air in 1 round.",
 			"",

@@ -238,9 +238,9 @@
 			"",
 			"Clerics of ‹faith/Desna› claim that the Great Dreamer planted the first seed of this flower with her own hand.",
 			"",
-			"@I-boost When the orange petals are cured and left to steep in hot water, the leaves of Desna's star make a mild, aromatic tea that facilitates restful sleep. When taken before sleeping, this tea grants the drinker the benefits of a full 8 hours of uninterrupted sleep in only 6 hours.",
+			"@I-boost When the orange petals are cured and left to steep in hot water, the leaves of *Desna's star* make a mild, aromatic tea that facilitates restful sleep. When taken before sleeping, this tea grants the drinker the benefits of a full 8 hours of uninterrupted sleep in only 6 hours.",
 			"",
-			"One dose of Desna's star makes enough tea to serve six."
+			"One dose of *Desna's star* makes enough tea to serve six."
 		]
 	},
 	"dice": {
@@ -652,7 +652,7 @@
 			"‹SOURCE Dragonslayer's Handbook/18›  ",
 			"::tabular{format=misc a=75 b=\"0.5\" d=dragon}",
 			"",
-			"This exclusive perfume is produced using dragon musk, which is integral to draconic mating rituals. Dragon musk is secreted in dragons' oil glands, and harvesting it is a very delicate procedure. Though only mildly fragrant, dragon musk can elicit a variety of effects when added to perfume. The effect depends largely on the other ingredients in the perfume, but a single application of draconic perfume lasts only 1 hour, regardless of its specific properties. Some of the more common additives are listed below.",
+			"This exclusive perfume is produced using dragon musk, which is integral to draconic mating rituals. Dragon musk is secreted in dragons' oil glands, and harvesting it is a very delicate procedure. Though only mildly fragrant, dragon musk can elicit a variety of effects when added to perfume. The effect depends largely on the other ingredients in the perfume, but a single application of *draconic perfume* lasts only 1 hour, regardless of its specific properties. Some of the more common additives are listed below.",
 			"",
 			"@I-boost @HL[Rosewood and myrrh:] This concoction is an aphrodisiac, and any creature wearing this perfume gains a +2 circumstance bonus on ‹skill/Diplomacy› checks and increases the DCs of any charm subschool spells cast during this time by 2.",
 			"",
@@ -660,7 +660,7 @@
 			"",
 			"@I-boost @HL[Sulfur and honeycomb:] This aroma is sometimes called \"Hell's Smell.\" Any creature wearing this scent gains a +2 circumstance bonus on ‹skill/Bluff› checks and increases the DC of any compulsion subschool spells cast during this time by 2.",
 			"",
-			"Each vial of draconic perfume contains 1 application of the scent. Producing draconic perfume requires 1 vial of musk, the ‹feat/Dragoncrafting› feat, and a successful DC 20 ‹skill/Craft› (alchemy) check."
+			"Each vial of *draconic perfume* contains 1 application of the scent. Producing *draconic perfume* requires 1 vial of musk, the ‹feat/Dragoncrafting› feat, and a successful DC 20 ‹skill/Craft› (alchemy) check."
 		]
 	},
 	"dragon_punch_whiskey_cup": {
@@ -684,7 +684,7 @@
 			"‹SOURCE Ultimate Wilderness/153›  ",
 			"::tabular{format=misc a=25 b=x d=herb e=18 f=\"1 dose\" g=\"any forests or mountains\" h=\"The petals of a dragon rose must be delicately removed from the stem and then soaked in a mixture brewed from the flower stalk's sap for 2 hours; this requires a successful DC 15 ‹skill/Craft› (alchemy) check.\" i=\"@I-boost A dose of prepared dragon rose petals crushed in the hand and then smeared on a weapon (this is a @HLstandard_action) infuses the weapon with a magic aura. For 1 hour, the weapon can bypass DR/magic, although it doesn't gain any bonus on attack or damage rolls.\"}",
 			"",
-			"The vivid and thorny dragon rose is admired for its hardiness but is difficult to cultivate."
+			"The vivid and thorny *dragon rose* is admired for its hardiness but is difficult to cultivate."
 		]
 	},
 	"dragon_muzzle": {
@@ -737,11 +737,11 @@
 			"‹SOURCE Dragonslayer's Handbook/19›  ",
 			"::tabular{format=misc a=50 b=1 d=dragon}",
 			"",
-			"A dragon's stomach contains highly corrosive acid that can be crafted into an alchemical item called dragon's gut.",
+			"A dragon's stomach contains highly corrosive acid that can be crafted into an alchemical item called *dragon's gut.*",
 			"",
-			"@I-ranged When used as a ‹rule/throw«n» splash weapon›, dragon's gut deals 2d4 points of acid damage plus, on a direct hit, an additional 1d4 points of acid damage the following round, and it deals 1 point of acid damage to all creatures within 5 feet of the impact point as normal splash damage.",
+			"@I-ranged When used as a ‹rule/throw«n» splash weapon›, *dragon's gut* deals 2d4 points of acid damage plus, on a direct hit, an additional 1d4 points of acid damage the following round, and it deals 1 point of acid damage to all creatures within 5 feet of the impact point as normal splash damage.",
 			"",
-			"The ‹feat/Dragoncrafting› feat and a successful DC 20 ‹skill/Craft› (alchemy) check are required to convert 1 vial of stomach acid into 1 vial of dragon's gut."
+			"The ‹feat/Dragoncrafting› feat and a successful DC 20 ‹skill/Craft› (alchemy) check are required to convert 1 vial of stomach acid into 1 vial of *dragon's gut.*"
 		]
 	},
 	"dragoncrafting_kit": {
@@ -1367,7 +1367,7 @@
 		"description": [
 			"## Fairy Cap",
 			"‹SOURCE Ultimate Wilderness/153›  ",
-			"::tabular{format=misc a=250 b=x d=herb e=20 f=\"1 dose\" g=\"anywhere near ley lines\" h=\"A fairy cap must be gently simmered (not boiled) in a mixture of water and other natural ingredients for 1 hour; this requires a successful DC 20 ‹skill/Craft› (alchemy) check. At the end of this preparation time, the yellow spots' color changes to bright orange or dark brown - there's a 50% chance of either development.\" i=\"@I-warning-magic When eaten without proper preparation, a fairy cap is mildly poisonous (see below), but when properly prepared, it takes on a notunpleasant tangy flavor. The final color of a properly prepared fairy cap's spots determines its effect when consumed. A cap with orange spots causes a Large or smaller creature to grow one size category, while one with brown spots causes the eater to shrink one size category. These effects function as per ‹spell/enlarge person› or ‹spell/reduce person›, except they can affect any Large or smaller living creature; the effects persist for 10 minutes in either case. Whether or not it is prepared, a fairy cap is quite chewy, and eating it is a @HLfull-round_action.\"}",
+			"::tabular{format=misc a=250 b=x d=herb e=20 f=\"1 dose\" g=\"anywhere near ley lines\" h=\"A *fairy cap* must be gently simmered (not boiled) in a mixture of water and other natural ingredients for 1 hour; this requires a successful DC 20 ‹skill/Craft› (alchemy) check. At the end of this preparation time, the yellow spots' color changes to bright orange or dark brown - there's a 50% chance of either development.\" i=\"@I-warning-magic When eaten without proper preparation, a *fairy cap* is mildly poisonous (see below), but when properly prepared, it takes on a notunpleasant tangy flavor. The final color of a properly prepared *fairy cap's* spots determines its effect when consumed. A *cap* with orange spots causes a Large or smaller creature to grow one size category, while one with brown spots causes the eater to shrink one size category. These effects function as per ‹spell/enlarge person› or ‹spell/reduce person›, except they can affect any Large or smaller living creature; the effects persist for 10 minutes in either case. Whether or not it is prepared, a *fairy cap* is quite chewy, and eating it is a @HLfull-round_action.\"}",
 			"",
 			"::aff[Fairy Cap]{iconP type=Ingested saveF=13 onset=\"1 minute\" freqM=6 eff=\"‹misc/nauseated› for 1 minute\" cure1}",
 			"",
@@ -1421,9 +1421,9 @@
 			"‹SOURCE Haunted Heroes Handbook/11›  ",
 			"::tabular{format=misc a=2 b=2 d=bm}",
 			"",
-			"@I-power Once exposed to air, this greenish alchemical sludge quickly takes on a faint glow. This glow provides dim ‹rule/illumination› in the area immediately surrounding the fist-sized lump of false ectoplasm. This glow-in-the-dark effect lasts for 1 hour before the substance begins to decompose into a brownish goo.",
+			"@I-power Once exposed to air, this greenish alchemical sludge quickly takes on a faint glow. This glow provides dim ‹rule/illumination› in the area immediately surrounding the fist-sized lump of *false ectoplasm.* This glow-in-the-dark effect lasts for 1 hour before the substance begins to decompose into a brownish goo.",
 			"",
-			"A successful DC 20 ‹skill/Sleight of Hand› check allows a user to open a vial of false ectoplasm and deposit it on an adjacent surface as a @HL[move action]; a successful opposed ‹skill/Perception› check is enough to notice this trickery."
+			"A successful DC 20 ‹skill/Sleight of Hand› check allows a user to open a vial of *false ectoplasm* and deposit it on an adjacent surface as a @HL[move action]; a successful opposed ‹skill/Perception› check is enough to notice this trickery."
 		]
 	},
 	"false_manacles": {
@@ -1864,7 +1864,7 @@
 			"",
 			"@I-boost The sap from the cactus can be used as an additive when crafting potions, causing all variable numeric effects of the potion to be determined as if the potion's caster level were 1 higher.",
 			"",
-			"@I-boost When processed into a powder with a successful DC 15 ‹skill/Craft› (alchemy) check, Nethys's dagger can be used as an additional material component when casting spells, granting the user a +1 alchemical bonus on caster level checks to overcome spell resistance."
+			"@I-boost When processed into a powder with a successful DC 15 ‹skill/Craft› (alchemy) check, *Nethys's dagger* can be used as an additional material component when casting spells, granting the user a +1 alchemical bonus on caster level checks to overcome spell resistance."
 		]
 	},
 	"night_stalkers_tonic": {
@@ -1888,7 +1888,7 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"0.1\" b=x d=bm}",
 			"",
-			"@I-aid This frothy tea made from the bone-white, triangular leaves of the night tea plant renders a humanoid female sterile if drunk every day. In high doses, it may be able to end a pregnancy."
+			"@I-aid This frothy tea made from the bone-white, triangular leaves of the *night tea* plant renders a humanoid female sterile if drunk every day. In high doses, it may be able to end a pregnancy."
 		]
 	},
 	"nightsage": {
@@ -2507,9 +2507,9 @@
 			"‹SOURCE Adventurer's Guide/147;Inner Sea World Guide/293›  ",
 			"::tabular{format=misc a=50 b=1 d=pc}",
 			"",
-			"Numerous volumes and editions of the Pathfinder Chronicles exist.",
+			"Numerous volumes and editions of the *Pathfinder Chronicles* exist.",
 			"",
-			"@I-boost When used as a reference (an action that takes 1d4 full rounds of searching the text), a Pathfinder Chronicle grants a +2 circumstance bonus on a specific ‹skill/Knowledge› check. Each Pathfinder Chronicle grants this bonus to a different type of Knowledge. Regardless of which type that particular chronicle is focused on, the cost of the book remains the same.",
+			"@I-boost When used as a reference (an action that takes 1d4 full rounds of searching the text), a *Pathfinder Chronicle* grants a +2 circumstance bonus on a specific ‹skill/Knowledge› check. Each *Pathfinder Chronicle* grants this bonus to a different type of Knowledge. Regardless of which type that particular chronicle is focused on, the cost of the book remains the same.",
 			"",
 			"### Specific Volumes",
 			"",
@@ -4612,7 +4612,7 @@
 			"‹SOURCE Elves of Golarion/6›  ",
 			"::tabular{format=misc a=25 b=x d=elfherb}",
 			"",
-			"@I-aid Chewing a dose of dried curewort root heals 1d8 points of damage. Retrieving a dose from a container is a @HL[standard action] that provokes an attack of opportunity; chewing a dose is a @HL[standard action] that does not provoke an attack of opportunity. A character may combine these two actions into a @HL[full-round action] that provokes an attack of opportunity; interrupting the action stops the retrieval part of the action.",
+			"@I-aid Chewing a dose of dried *curewort* root heals 1d8 points of damage. Retrieving a dose from a container is a @HL[standard action] that provokes an attack of opportunity; chewing a dose is a @HL[standard action] that does not provoke an attack of opportunity. A character may combine these two actions into a @HL[full-round action] that provokes an attack of opportunity; interrupting the action stops the retrieval part of the action.",
 			"",
 			"Typical price per dose is 25 gp; a single plant's root is enough for 2-3 doses.",
 			"",
@@ -4629,7 +4629,7 @@
 			"‹SOURCE Elves of Golarion/6›  ",
 			"::tabular{format=misc a=20 b=x d=elfherb}",
 			"",
-			"Though the flowers on seerbloom are beautiful and wondrous, the roots of this plant are even more valuable.",
+			"Though the flowers on *seerbloom* are beautiful and wondrous, the roots of this plant are even more valuable.",
 			"",
 			"@I-boost When ingested, the psychotropic root doubles the duration of any 1st, 2nd, or 3rd-level divination magic (up to 1 hour extra) used by the taker.",
 			"",
@@ -4648,11 +4648,11 @@
 			"‹SOURCE Elves of Golarion/6›  ",
 			"::tabular{format=misc a=35 b=x d=elfherb}",
 			"",
-			"@I-lower The scent of freshly crushed sootheweed leaves makes animals and some magical beasts become docile after 1 full round of exposure to the plant's fragrance. When used within 30 feet of an animal or magical beast with Intelligence 1 or 2, the DC of ‹skill/Handle Animal› and ‹ability/wild empathy› checks to influence that animal decreases by 5.",
+			"@I-lower The scent of freshly crushed *sootheweed* leaves makes animals and some magical beasts become docile after 1 full round of exposure to the plant's fragrance. When used within 30 feet of an animal or magical beast with Intelligence 1 or 2, the DC of ‹skill/Handle Animal› and ‹ability/wild empathy› checks to influence that animal decreases by 5.",
 			"",
-			"@I-protect If such a creature is under the influence of an enchantment or confusion effect, exposure to sootheweed's scent gives these creatures one new saving throw to overcome the effect; failure means additional exposure to the plant has no effect.",
+			"@I-protect If such a creature is under the influence of an enchantment or confusion effect, exposure to *sootheweed's* scent gives these creatures one new saving throw to overcome the effect; failure means additional exposure to the plant has no effect.",
 			"",
-			"Once crushed, sootheweed's scent lasts 10 minutes. One dose (a handful of leaves) typically sells for 35 gp. An herbalist can gather one dose's worth of leaves per month per square yard of a sootheweed garden; leaves require a month of growth to have the proper medicinal effect, and stripping too many leaves kills the plants (but yields up to double a normal harvest).",
+			"Once crushed, *sootheweed's* scent lasts 10 minutes. One dose (a handful of leaves) typically sells for 35 gp. An herbalist can gather one dose's worth of leaves per month per square yard of a *sootheweed* garden; leaves require a month of growth to have the proper medicinal effect, and stripping too many leaves kills the plants (but yields up to double a normal harvest).",
 			"",
 			"### Fireani Flora",
 			"",
@@ -4669,13 +4669,13 @@
 			"",
 			"This seed casing reacts to its user's physical condition.",
 			"",
-			"@I-aid When crushed in a ‹misc/nauseated› target's face, the sickly-sweet smell of tintalviel seeds cures the target's nausea.",
+			"@I-aid When crushed in a ‹misc/nauseated› target's face, the sickly-sweet smell of *tintalviel* seeds cures the target's nausea.",
 			"",
 			"@I-lower If used on a non-nauseated target, the creature must succeed at a DC 15 Fortitude save or be nauseated for 1d4 rounds. If the target is hostile, the user must succeed at a touch attack, which provokes an attack of opportunity from the target.",
 			"",
 			"@I-aid The seed casing can also be brewed into a tea to combat nausea (and is a favorite of wealthy pregnant women because of this), though if the brewer is not nauseated he must take care to not inhale too strongly when making it.",
 			"",
-			"A casing usually sells for 50 gp. The seeds from a broken casing are enough to fill a small spoon and sell for 10 gp per spoonful; a spoonful is enough to brew 1-3 cups of tea depending on the severity of symptoms. A tintalviel plant blooms once or twice a year, with 1d4+1 seed casings produced per blooming cycle.",
+			"A casing usually sells for 50 gp. The seeds from a broken casing are enough to fill a small spoon and sell for 10 gp per spoonful; a spoonful is enough to brew 1-3 cups of tea depending on the severity of symptoms. A *tintalviel* plant blooms once or twice a year, with 1d4+1 seed casings produced per blooming cycle.",
 			"",
 			"### Fireani Flora",
 			"",

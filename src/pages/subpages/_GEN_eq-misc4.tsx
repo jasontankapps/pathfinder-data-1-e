@@ -158,8 +158,8 @@ const _desnas_star = {title: "Desna's star", jsx: <><h2 id="eq-misc-desnas_star-
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 10</Link>  </p>
 <Tabular format="misc" a="5" b="x" d="herb" e="13" g="forests or plains" />
 <p>Clerics of <Link to="/faith/desna">Desna</Link> claim that the Great Dreamer planted the first seed of this flower with her own hand.</p>
-<p><Icons id="eq-misc-desnas_star-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When the orange petals are cured and left to steep in hot water, the leaves of Desna's star make a mild, aromatic tea that facilitates restful sleep. When taken before sleeping, this tea grants the drinker the benefits of a full 8 hours of uninterrupted sleep in only 6 hours.</p>
-<p>One dose of Desna's star makes enough tea to serve six.</p>
+<p><Icons id="eq-misc-desnas_star-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When the orange petals are cured and left to steep in hot water, the leaves of <em>Desna's star</em> make a mild, aromatic tea that facilitates restful sleep. When taken before sleeping, this tea grants the drinker the benefits of a full 8 hours of uninterrupted sleep in only 6 hours.</p>
+<p>One dose of <em>Desna's star</em> makes enough tea to serve six.</p>
 </>};
 const _dice = {title: "Dice", jsx: <><h2 id="eq-misc-dice-dice">Dice</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 92</Link>  </p>
@@ -341,11 +341,11 @@ const _dowsing_rod = {title: "Dowsing rod", jsx: <><h2 id="eq-misc-dowsing_rod-d
 const _draconic_perfume = {title: "Draconic perfume", jsx: <><h2 id="eq-misc-draconic_perfume-draconic-perfume">Draconic perfume</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 18</Link>  </p>
 <Tabular format="misc" a="75" b="0.5" d="dragon" />
-<p>This exclusive perfume is produced using dragon musk, which is integral to draconic mating rituals. Dragon musk is secreted in dragons' oil glands, and harvesting it is a very delicate procedure. Though only mildly fragrant, dragon musk can elicit a variety of effects when added to perfume. The effect depends largely on the other ingredients in the perfume, but a single application of draconic perfume lasts only 1 hour, regardless of its specific properties. Some of the more common additives are listed below.</p>
+<p>This exclusive perfume is produced using dragon musk, which is integral to draconic mating rituals. Dragon musk is secreted in dragons' oil glands, and harvesting it is a very delicate procedure. Though only mildly fragrant, dragon musk can elicit a variety of effects when added to perfume. The effect depends largely on the other ingredients in the perfume, but a single application of <em>draconic perfume</em> lasts only 1 hour, regardless of its specific properties. Some of the more common additives are listed below.</p>
 <p><Icons id="eq-misc-draconic_perfume-boost-icons" wrapper="prefixIcon" list={["boost"]} /> <strong className="hl">Rosewood and myrrh:</strong> This concoction is an aphrodisiac, and any creature wearing this perfume gains a +2 circumstance bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks and increases the DCs of any charm subschool spells cast during this time by 2.</p>
 <p><Icons id="eq-misc-draconic_perfume-boost-icons" wrapper="prefixIcon" list={["boost"]} /> <strong className="hl">Sage, bergamot, and cedar ash:</strong> his pungent aroma has an imposing effect. Any creature wearing this perfume gains a +2 circumstance bonus on <Link to="/skill/intimidate">Intimidate</Link> checks and does not take any penalties for attempting to Intimidate a larger opponent.</p>
 <p><Icons id="eq-misc-draconic_perfume-boost-icons" wrapper="prefixIcon" list={["boost"]} /> <strong className="hl">Sulfur and honeycomb:</strong> This aroma is sometimes called "Hell's Smell." Any creature wearing this scent gains a +2 circumstance bonus on <Link to="/skill/bluff">Bluff</Link> checks and increases the DC of any compulsion subschool spells cast during this time by 2.</p>
-<p>Each vial of draconic perfume contains 1 application of the scent. Producing draconic perfume requires 1 vial of musk, the <Link to="/feat/dragoncrafting">Dragoncrafting</Link> feat, and a successful DC 20 <Link to="/skill/craft">Craft</Link> (alchemy) check.</p>
+<p>Each vial of <em>draconic perfume</em> contains 1 application of the scent. Producing <em>draconic perfume</em> requires 1 vial of musk, the <Link to="/feat/dragoncrafting">Dragoncrafting</Link> feat, and a successful DC 20 <Link to="/skill/craft">Craft</Link> (alchemy) check.</p>
 </>};
 const _dragon_punch_whiskey_cup = {title: "Dragon Punch Whiskey (cup)", jsx: <><h2 id="eq-misc-dragon_punch_whiskey_cup-dragon-punch-whiskey">Dragon Punch Whiskey</h2>
 <p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion pg. 10</Link>  </p>
@@ -356,7 +356,7 @@ const _dragon_punch_whiskey_cup = {title: "Dragon Punch Whiskey (cup)", jsx: <><
 const _dragon_rose = {title: "Dragon Rose", jsx: <><h2 id="eq-misc-dragon_rose-dragon-rose">Dragon Rose</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 153</Link>  </p>
 <Tabular format="misc" a="25" b="x" d="herb" e="18" f="1 dose" g="any forests or mountains" h={<>The petals of a dragon rose must be delicately removed from the stem and then soaked in a mixture brewed from the flower stalk's sap for 2 hours; this requires a successful DC 15 <Link to="/skill/craft">Craft</Link> (alchemy) check.</>} i={<><Icons id="eq-misc-dragon_rose-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A dose of prepared dragon rose petals crushed in the hand and then smeared on a weapon (this is a <strong className="hl">standard action</strong>) infuses the weapon with a magic aura. For 1 hour, the weapon can bypass DR/magic, although it doesn't gain any bonus on attack or damage rolls.</>} />
-<p>The vivid and thorny dragon rose is admired for its hardiness but is difficult to cultivate.</p>
+<p>The vivid and thorny <em>dragon rose</em> is admired for its hardiness but is difficult to cultivate.</p>
 </>};
 const _dragon_muzzle = {title: "Dragon muzzle", jsx: <><h2 id="eq-misc-dragon_muzzle-dragon-muzzle">Dragon muzzle</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 26</Link>  </p>
@@ -380,9 +380,9 @@ const _dragons_blood = {title: "Dragon's blood", jsx: <><h2 id="eq-misc-dragons_
 const _dragons_gut = {title: "Dragon's gut", jsx: <><h2 id="eq-misc-dragons_gut-dragons-gut">Dragon's gut</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 19</Link>  </p>
 <Tabular format="misc" a="50" b="1" d="dragon" />
-<p>A dragon's stomach contains highly corrosive acid that can be crafted into an alchemical item called dragon's gut.</p>
-<p><Icons id="eq-misc-dragons_gut-ranged-icons" wrapper="prefixIcon" list={["ranged"]} /> When used as a <Link to="/rule/throw_splash_weapon">thrown splash weapon</Link>, dragon's gut deals 2d4 points of acid damage plus, on a direct hit, an additional 1d4 points of acid damage the following round, and it deals 1 point of acid damage to all creatures within 5 feet of the impact point as normal splash damage.</p>
-<p>The <Link to="/feat/dragoncrafting">Dragoncrafting</Link> feat and a successful DC 20 <Link to="/skill/craft">Craft</Link> (alchemy) check are required to convert 1 vial of stomach acid into 1 vial of dragon's gut.</p>
+<p>A dragon's stomach contains highly corrosive acid that can be crafted into an alchemical item called <em>dragon's gut.</em></p>
+<p><Icons id="eq-misc-dragons_gut-ranged-icons" wrapper="prefixIcon" list={["ranged"]} /> When used as a <Link to="/rule/throw_splash_weapon">thrown splash weapon</Link>, <em>dragon's gut</em> deals 2d4 points of acid damage plus, on a direct hit, an additional 1d4 points of acid damage the following round, and it deals 1 point of acid damage to all creatures within 5 feet of the impact point as normal splash damage.</p>
+<p>The <Link to="/feat/dragoncrafting">Dragoncrafting</Link> feat and a successful DC 20 <Link to="/skill/craft">Craft</Link> (alchemy) check are required to convert 1 vial of stomach acid into 1 vial of <em>dragon's gut.</em></p>
 </>};
 const _dragoncrafting_kit = {title: "Dragoncrafting kit", jsx: <><h2 id="eq-misc-dragoncrafting_kit-dragoncrafting-kit">Dragoncrafting kit</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 26</Link>  </p>
@@ -636,7 +636,7 @@ const _eyeglasses = {title: "Eyeglasses", jsx: <><h2 id="eq-misc-eyeglasses-eyeg
 </>};
 const _fairy_cap = {title: "Fairy Cap", jsx: <><h2 id="eq-misc-fairy_cap-fairy-cap">Fairy Cap</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 153</Link>  </p>
-<Tabular format="misc" a="250" b="x" d="herb" e="20" f="1 dose" g="anywhere near ley lines" h={<>A fairy cap must be gently simmered (not boiled) in a mixture of water and other natural ingredients for 1 hour; this requires a successful DC 20 <Link to="/skill/craft">Craft</Link> (alchemy) check. At the end of this preparation time, the yellow spots' color changes to bright orange or dark brown - there's a 50% chance of either development.</>} i={<><Icons id="eq-misc-fairy_cap-warning-magic-icons" wrapper="prefixIcon" list={["warning","magic"]} /> When eaten without proper preparation, a fairy cap is mildly poisonous (see below), but when properly prepared, it takes on a notunpleasant tangy flavor. The final color of a properly prepared fairy cap's spots determines its effect when consumed. A cap with orange spots causes a Large or smaller creature to grow one size category, while one with brown spots causes the eater to shrink one size category. These effects function as per <Link to="/spell/enlarge_person">enlarge person</Link> or <Link to="/spell/reduce_person">reduce person</Link>, except they can affect any Large or smaller living creature; the effects persist for 10 minutes in either case. Whether or not it is prepared, a fairy cap is quite chewy, and eating it is a <strong className="hl">full-round action</strong>.</>} />
+<Tabular format="misc" a="250" b="x" d="herb" e="20" f="1 dose" g="anywhere near ley lines" h={<>A <em>fairy cap</em> must be gently simmered (not boiled) in a mixture of water and other natural ingredients for 1 hour; this requires a successful DC 20 <Link to="/skill/craft">Craft</Link> (alchemy) check. At the end of this preparation time, the yellow spots' color changes to bright orange or dark brown - there's a 50% chance of either development.</>} i={<><Icons id="eq-misc-fairy_cap-warning-magic-icons" wrapper="prefixIcon" list={["warning","magic"]} /> When eaten without proper preparation, a <em>fairy cap</em> is mildly poisonous (see below), but when properly prepared, it takes on a notunpleasant tangy flavor. The final color of a properly prepared <em>fairy cap's</em> spots determines its effect when consumed. A <em>cap</em> with orange spots causes a Large or smaller creature to grow one size category, while one with brown spots causes the eater to shrink one size category. These effects function as per <Link to="/spell/enlarge_person">enlarge person</Link> or <Link to="/spell/reduce_person">reduce person</Link>, except they can affect any Large or smaller living creature; the effects persist for 10 minutes in either case. Whether or not it is prepared, a <em>fairy cap</em> is quite chewy, and eating it is a <strong className="hl">full-round action</strong>.</>} />
 <AffInfo type="Ingested" save="Fort 13" freq="1/minute for 6 minutes" onset="1 minute" eff={<><Link to="/misc/nauseated">nauseated</Link> for 1 minute</>} cure1 icon="p">Fairy Cap</AffInfo>
 <p>This toadstool's pale-gray cap is stippled with yellow spots. Its presence often indicates ley lines or fey bowers nearby.</p>
 </>};
@@ -658,8 +658,8 @@ const _falconry_gauntlet = {title: "Falconry gauntlet", jsx: <><h2 id="eq-misc-f
 const _false_ectoplasm = {title: "False ectoplasm", jsx: <><h2 id="eq-misc-false_ectoplasm-false-ectoplasm">False ectoplasm</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 11</Link>  </p>
 <Tabular format="misc" a="2" b="2" d="bm" />
-<p><Icons id="eq-misc-false_ectoplasm-power-icons" wrapper="prefixIcon" list={["power"]} /> Once exposed to air, this greenish alchemical sludge quickly takes on a faint glow. This glow provides dim <Link to="/rule/illumination">illumination</Link> in the area immediately surrounding the fist-sized lump of false ectoplasm. This glow-in-the-dark effect lasts for 1 hour before the substance begins to decompose into a brownish goo.</p>
-<p>A successful DC 20 <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check allows a user to open a vial of false ectoplasm and deposit it on an adjacent surface as a <strong className="hl">move action</strong>; a successful opposed <Link to="/skill/perception">Perception</Link> check is enough to notice this trickery.</p>
+<p><Icons id="eq-misc-false_ectoplasm-power-icons" wrapper="prefixIcon" list={["power"]} /> Once exposed to air, this greenish alchemical sludge quickly takes on a faint glow. This glow provides dim <Link to="/rule/illumination">illumination</Link> in the area immediately surrounding the fist-sized lump of <em>false ectoplasm.</em> This glow-in-the-dark effect lasts for 1 hour before the substance begins to decompose into a brownish goo.</p>
+<p>A successful DC 20 <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check allows a user to open a vial of <em>false ectoplasm</em> and deposit it on an adjacent surface as a <strong className="hl">move action</strong>; a successful opposed <Link to="/skill/perception">Perception</Link> check is enough to notice this trickery.</p>
 </>};
 const _false_manacles = {title: "False manacles", jsx: <><h2 id="eq-misc-false_manacles-false-manacles">False manacles</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -837,7 +837,7 @@ const _nethyss_dagger = {title: "Nethys's dagger", jsx: <><h2 id="eq-misc-nethys
 <Tabular format="misc" a="50" b="x" d="herb" e="18" g="deserts" />
 <p>Found most often in lands heavily modified by magic, this bulbous cactus is topped with twilight-blue flowers.</p>
 <p><Icons id="eq-misc-nethyss_dagger-boost-icons" wrapper="prefixIcon" list={["boost"]} /> The sap from the cactus can be used as an additive when crafting potions, causing all variable numeric effects of the potion to be determined as if the potion's caster level were 1 higher.</p>
-<p><Icons id="eq-misc-nethyss_dagger-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When processed into a powder with a successful DC 15 <Link to="/skill/craft">Craft</Link> (alchemy) check, Nethys's dagger can be used as an additional material component when casting spells, granting the user a +1 alchemical bonus on caster level checks to overcome spell resistance.</p>
+<p><Icons id="eq-misc-nethyss_dagger-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When processed into a powder with a successful DC 15 <Link to="/skill/craft">Craft</Link> (alchemy) check, <em>Nethys's dagger</em> can be used as an additional material component when casting spells, granting the user a +1 alchemical bonus on caster level checks to overcome spell resistance.</p>
 </>};
 const _night_stalkers_tonic = {title: "Night stalker's tonic", jsx: <><h2 id="eq-misc-night_stalkers_tonic-night-stalkers-tonic">Night stalker's tonic</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 236</Link>  </p>
@@ -848,7 +848,7 @@ const _night_stalkers_tonic = {title: "Night stalker's tonic", jsx: <><h2 id="eq
 const _night_tea = {title: "Night tea", jsx: <><h2 id="eq-misc-night_tea-night-tea">Night tea</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="0.1" b="x" d="bm" />
-<p><Icons id="eq-misc-night_tea-aid-icons" wrapper="prefixIcon" list={["aid"]} /> This frothy tea made from the bone-white, triangular leaves of the night tea plant renders a humanoid female sterile if drunk every day. In high doses, it may be able to end a pregnancy.</p>
+<p><Icons id="eq-misc-night_tea-aid-icons" wrapper="prefixIcon" list={["aid"]} /> This frothy tea made from the bone-white, triangular leaves of the <em>night tea</em> plant renders a humanoid female sterile if drunk every day. In high doses, it may be able to end a pregnancy.</p>
 </>};
 const _nightsage = {title: "Nightsage", jsx: <><h2 id="eq-misc-nightsage-nightsage">Nightsage</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 155</Link>, <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 10</Link>  </p>
@@ -1093,8 +1093,8 @@ const _patchwork_cloak = {title: "Patchwork cloak", jsx: <><h2 id="eq-misc-patch
 const _pathfinder_chronicle = {title: "Pathfinder Chronicle (Generic)", jsx: <><h2 id="eq-misc-pathfinder_chronicle-generic-pathfinder-chronicle">Generic Pathfinder Chronicle</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 147</Link>, <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 293</Link>  </p>
 <Tabular format="misc" a="50" b="1" d="pc" />
-<p>Numerous volumes and editions of the Pathfinder Chronicles exist.</p>
-<p><Icons id="eq-misc-pathfinder_chronicle-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When used as a reference (an action that takes 1d4 full rounds of searching the text), a Pathfinder Chronicle grants a +2 circumstance bonus on a specific <Link to="/skill/knowledge">Knowledge</Link> check. Each Pathfinder Chronicle grants this bonus to a different type of Knowledge. Regardless of which type that particular chronicle is focused on, the cost of the book remains the same.</p>
+<p>Numerous volumes and editions of the <em>Pathfinder Chronicles</em> exist.</p>
+<p><Icons id="eq-misc-pathfinder_chronicle-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When used as a reference (an action that takes 1d4 full rounds of searching the text), a <em>Pathfinder Chronicle</em> grants a +2 circumstance bonus on a specific <Link to="/skill/knowledge">Knowledge</Link> check. Each <em>Pathfinder Chronicle</em> grants this bonus to a different type of Knowledge. Regardless of which type that particular chronicle is focused on, the cost of the book remains the same.</p>
 <h3 id="eq-misc-pathfinder_chronicle-specific-volumes">Specific Volumes</h3>
 <ul>
 <li><Link to="/eq-misc/pathfinder_chronicles___volume_1">Volume 1</Link></li>
@@ -1978,7 +1978,7 @@ const _gas_mask = {title: "Gas mask", jsx: <><h2 id="eq-misc-gas_mask-gas-mask-m
 const _curewort = {title: "Curewort", jsx: <><h2 id="eq-misc-curewort-curewort">Curewort</h2>
 <p><strong>Sources</strong> <Link to="/source/elves_of_golarion">Elves of Golarion pg. 6</Link>  </p>
 <Tabular format="misc" a="25" b="x" d="elfherb" />
-<p><Icons id="eq-misc-curewort-aid-icons" wrapper="prefixIcon" list={["aid"]} /> Chewing a dose of dried curewort root heals 1d8 points of damage. Retrieving a dose from a container is a <strong className="hl">standard action</strong> that provokes an attack of opportunity; chewing a dose is a <strong className="hl">standard action</strong> that does not provoke an attack of opportunity. A character may combine these two actions into a <strong className="hl">full-round action</strong> that provokes an attack of opportunity; interrupting the action stops the retrieval part of the action.</p>
+<p><Icons id="eq-misc-curewort-aid-icons" wrapper="prefixIcon" list={["aid"]} /> Chewing a dose of dried <em>curewort</em> root heals 1d8 points of damage. Retrieving a dose from a container is a <strong className="hl">standard action</strong> that provokes an attack of opportunity; chewing a dose is a <strong className="hl">standard action</strong> that does not provoke an attack of opportunity. A character may combine these two actions into a <strong className="hl">full-round action</strong> that provokes an attack of opportunity; interrupting the action stops the retrieval part of the action.</p>
 <p>Typical price per dose is 25 gp; a single plant's root is enough for 2-3 doses.</p>
 <h3 id="eq-misc-curewort-fireani-flora">Fireani Flora</h3>
 <p>Poachers and opportunists often risk elven wrath just to partake of the wild flora found within Kyonin. With proper equipment and space, a successful DC 20 <Link to="/skill/profession">Profession</Link> (herbalist) check allows cultivation of any of these plants from seeds or sprouts. Herbalists charge varied but expensive prices for their wares.</p>
@@ -1986,7 +1986,7 @@ const _curewort = {title: "Curewort", jsx: <><h2 id="eq-misc-curewort-curewort">
 const _seerbloom = {title: "Seerbloom", jsx: <><h2 id="eq-misc-seerbloom-seerbloom">Seerbloom</h2>
 <p><strong>Sources</strong> <Link to="/source/elves_of_golarion">Elves of Golarion pg. 6</Link>  </p>
 <Tabular format="misc" a="20" b="x" d="elfherb" />
-<p>Though the flowers on seerbloom are beautiful and wondrous, the roots of this plant are even more valuable.</p>
+<p>Though the flowers on <em>seerbloom</em> are beautiful and wondrous, the roots of this plant are even more valuable.</p>
 <p><Icons id="eq-misc-seerbloom-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When ingested, the psychotropic root doubles the duration of any 1st, 2nd, or 3rd-level divination magic (up to 1 hour extra) used by the taker.</p>
 <p>Typical price per dose is 20 gp; a single plant's branching root is enough for 1-3 doses.</p>
 <h3 id="eq-misc-seerbloom-fireani-flora">Fireani Flora</h3>
@@ -1995,9 +1995,9 @@ const _seerbloom = {title: "Seerbloom", jsx: <><h2 id="eq-misc-seerbloom-seerblo
 const _sootheweed = {title: "Sootheweed", jsx: <><h2 id="eq-misc-sootheweed-sootheweed">Sootheweed</h2>
 <p><strong>Sources</strong> <Link to="/source/elves_of_golarion">Elves of Golarion pg. 6</Link>  </p>
 <Tabular format="misc" a="35" b="x" d="elfherb" />
-<p><Icons id="eq-misc-sootheweed-lower-icons" wrapper="prefixIcon" list={["lower"]} /> The scent of freshly crushed sootheweed leaves makes animals and some magical beasts become docile after 1 full round of exposure to the plant's fragrance. When used within 30 feet of an animal or magical beast with Intelligence 1 or 2, the DC of <Link to="/skill/handle_animal">Handle Animal</Link> and <Link to="/ability/wild_empathy">wild empathy</Link> checks to influence that animal decreases by 5.</p>
-<p><Icons id="eq-misc-sootheweed-protect-icons" wrapper="prefixIcon" list={["protect"]} /> If such a creature is under the influence of an enchantment or confusion effect, exposure to sootheweed's scent gives these creatures one new saving throw to overcome the effect; failure means additional exposure to the plant has no effect.</p>
-<p>Once crushed, sootheweed's scent lasts 10 minutes. One dose (a handful of leaves) typically sells for 35 gp. An herbalist can gather one dose's worth of leaves per month per square yard of a sootheweed garden; leaves require a month of growth to have the proper medicinal effect, and stripping too many leaves kills the plants (but yields up to double a normal harvest).</p>
+<p><Icons id="eq-misc-sootheweed-lower-icons" wrapper="prefixIcon" list={["lower"]} /> The scent of freshly crushed <em>sootheweed</em> leaves makes animals and some magical beasts become docile after 1 full round of exposure to the plant's fragrance. When used within 30 feet of an animal or magical beast with Intelligence 1 or 2, the DC of <Link to="/skill/handle_animal">Handle Animal</Link> and <Link to="/ability/wild_empathy">wild empathy</Link> checks to influence that animal decreases by 5.</p>
+<p><Icons id="eq-misc-sootheweed-protect-icons" wrapper="prefixIcon" list={["protect"]} /> If such a creature is under the influence of an enchantment or confusion effect, exposure to <em>sootheweed's</em> scent gives these creatures one new saving throw to overcome the effect; failure means additional exposure to the plant has no effect.</p>
+<p>Once crushed, <em>sootheweed's</em> scent lasts 10 minutes. One dose (a handful of leaves) typically sells for 35 gp. An herbalist can gather one dose's worth of leaves per month per square yard of a <em>sootheweed</em> garden; leaves require a month of growth to have the proper medicinal effect, and stripping too many leaves kills the plants (but yields up to double a normal harvest).</p>
 <h3 id="eq-misc-sootheweed-fireani-flora">Fireani Flora</h3>
 <p>Poachers and opportunists often risk elven wrath just to partake of the wild flora found within Kyonin. With proper equipment and space, a successful DC 20 <Link to="/skill/profession">Profession</Link> (herbalist) check allows cultivation of any of these plants from seeds or sprouts. Herbalists charge varied but expensive prices for their wares.</p>
 </>};
@@ -2005,10 +2005,10 @@ const _tintalviel = {title: "Tintalviel", jsx: <><h2 id="eq-misc-tintalviel-tint
 <p><strong>Sources</strong> <Link to="/source/elves_of_golarion">Elves of Golarion pg. 6</Link>  </p>
 <Tabular format="misc" a="50" b="x" d="elfherb" />
 <p>This seed casing reacts to its user's physical condition.</p>
-<p><Icons id="eq-misc-tintalviel-aid-icons" wrapper="prefixIcon" list={["aid"]} /> When crushed in a <Link to="/misc/nauseated">nauseated</Link> target's face, the sickly-sweet smell of tintalviel seeds cures the target's nausea.</p>
+<p><Icons id="eq-misc-tintalviel-aid-icons" wrapper="prefixIcon" list={["aid"]} /> When crushed in a <Link to="/misc/nauseated">nauseated</Link> target's face, the sickly-sweet smell of <em>tintalviel</em> seeds cures the target's nausea.</p>
 <p><Icons id="eq-misc-tintalviel-lower-icons" wrapper="prefixIcon" list={["lower"]} /> If used on a non-nauseated target, the creature must succeed at a DC 15 Fortitude save or be nauseated for 1d4 rounds. If the target is hostile, the user must succeed at a touch attack, which provokes an attack of opportunity from the target.</p>
 <p><Icons id="eq-misc-tintalviel-aid-icons" wrapper="prefixIcon" list={["aid"]} /> The seed casing can also be brewed into a tea to combat nausea (and is a favorite of wealthy pregnant women because of this), though if the brewer is not nauseated he must take care to not inhale too strongly when making it.</p>
-<p>A casing usually sells for 50 gp. The seeds from a broken casing are enough to fill a small spoon and sell for 10 gp per spoonful; a spoonful is enough to brew 1-3 cups of tea depending on the severity of symptoms. A tintalviel plant blooms once or twice a year, with 1d4+1 seed casings produced per blooming cycle.</p>
+<p>A casing usually sells for 50 gp. The seeds from a broken casing are enough to fill a small spoon and sell for 10 gp per spoonful; a spoonful is enough to brew 1-3 cups of tea depending on the severity of symptoms. A <em>tintalviel</em> plant blooms once or twice a year, with 1d4+1 seed casings produced per blooming cycle.</p>
 <h3 id="eq-misc-tintalviel-fireani-flora">Fireani Flora</h3>
 <p>Poachers and opportunists often risk elven wrath just to partake of the wild flora found within Kyonin. With proper equipment and space, a successful DC 20 <Link to="/skill/profession">Profession</Link> (herbalist) check allows cultivation of any of these plants from seeds or sprouts. Herbalists charge varied but expensive prices for their wares.</p>
 </>};
