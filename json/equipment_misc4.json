@@ -207,7 +207,7 @@
 			"",
 			"@I-lower Defoliant can be used as a ‹rule/splash weapon› against plant creatures. A direct hit with the undiluted fluid deals 1d6 hit points of damage, 1 point of ‹rule/Strength damage›, and 1 point of Constitution damage (Fortitude DC 20 negates the Strength and Constitution damage); plant creatures within 5 feet of the target take 1 hit point of damage.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"deodorizing_agent_vial": {
@@ -220,7 +220,7 @@
 			"",
 			"@I-def Coating a creature in a vial of this milky, odorless substance takes 1 minute and renders it scentless for 1d3 hours. Creatures that rely on ‹umr/scent› for locating creatures do not gain the benefit of this ability against a creature affected by a dose of *deodorizing agent.*",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"desert_kit": {
@@ -434,7 +434,7 @@
 			"",
 			"@I-aura-def-down When first opened, this sealed jar releases such an overwhelmingly antiseptic odor that it covers other smells until it disperses (1d6 rounds after opening). Creatures within 20 feet of the jar get a +5 alchemical bonus on all saves against scent-based attacks while the sap's odor remains, but they automatically fail any scent-based ‹skill/Perception› checks during that time.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 15"
+			"::tabular{format=craftalch a=15}"
 		]
 	},
 	"divers_kit": {
@@ -518,7 +518,7 @@
 			"",
 			"@I-def-down This dark green liquid has a pungent odor. For 1 hour after you drink this tincture, your muscles instinctively react to danger and you gain a +2 dodge bonus to AC. Your involuntary muscle movement causes you to take a -2 penalty on attack rolls for the same duration.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"dog_guard": {
@@ -941,7 +941,7 @@
 			"",
 			"@I-power-down This liquid makes the eyes more receptive to light for 4 hours. The user gains low-light vision, but also suffers from ‹umr/light sensitivity› for the duration.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 16"
+			"::tabular{format=craftalch a=16}"
 		]
 	},
 	"dwarven_stout_mug": {
@@ -1030,7 +1030,7 @@
 			"",
 			"Once discharged, *ectoplasmic tracer* dissolves after 1d4 days. *Ectoplasmic tracer* has no effect when sprayed on a corporeal creature.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"efficient_tent": {
@@ -1056,7 +1056,7 @@
 			"",
 			"Flexible and sticky, a length of *efreeti cord* can be carefully shaped into almost any pattern, draped upon an object, or wrapped around a fixture, and will stay in place until activated. Once activated (using an *efreeti switch*), *efreeti cord* rapidly heats up, and after 1 round becomes a white-hot *cord* of fire. In the first round, the *cord* deals 3d6 points of fire damage to an object. This damage ignores any ‹rule/hardness› less than 10, and is not halved for an object. The *cord* continues to burn for 2 additional rounds, dealing 2d6 points of fire damage the first additional round and 1d6 points the second.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 10",
+			"::tabular{format=craftalch a=10}",
 			"",
 			"## Efreeti switch",
 			"‹SOURCE Ultimate Intrigue/236›  ",
@@ -1064,7 +1064,7 @@
 			"",
 			"An *efreeti switch* is the activation device for *efreeti cord;* it measures approximately 6 inches in length and is made of a supple, red-brown alchemical compound. It is not consumed when activating a length of *cord,* and it can be used with any length of *efreeti cord.* It's possible to key lengths of *efreeti cord* to a specific *switch;* however, this doubles the price of both the *efreeti cord* and the *switch.*",
 			"",
-			"**Construction:** Craft (Alchemy) DC 10"
+			"::tabular{format=craftalch a=10}"
 		]
 	},
 	"efreeti_switch": { "redirect": "efreeti_cord" },
@@ -1078,7 +1078,7 @@
 			"",
 			"@I-def This vial at first seems to be empty, but when it's opened, a rush of wind issues forth from within. When *elemental breath* is inhaled (as drinking a potion) by an air-breathing creature, that creature does not need to breathe air for 10 rounds. A vial of *elemental breath* must be inhaled on the round it was opened to gain this effect. If it is not, the item is wasted.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"elemental_explorers_kit": {
@@ -1161,7 +1161,7 @@
 			"",
 			"This fluid is used to preserve corpses, whether for later dissection, taxidermy, necromancy, or magic such as ‹spell/raise dead›. *Embalming fluid* is technically a poison, and using it makes a corpse unpalatable to most animals and vermin, though corpse-eating undead don't mind the taste. Treating a corpse with *embalming fluid* takes 1 hour and a successful DC 25 ‹skill/Heal› check. The embalmed corpse decays at half the normal rate (each day dead counts as half a day for the purpose of raise dead).",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"ember_pot": {
@@ -1328,7 +1328,7 @@
 			"",
 			"@I-def-down For 6 hours after drinking the tincture, you gain a +5 alchemical bonus on Fortitude saving throws to resist the effects of the chosen temperature. The tincture interferes with blood flow, causing you to take a -2 penalty on all other Fortitude saving throws for the same duration.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"explorers_outfit": {
@@ -1557,7 +1557,7 @@
 			"",
 			"@I-down The benefits of *falsehood fizz* last for 1 hour. During this time, you must roll ‹skill/Sense Motive› checks twice and take the worse result.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 15"
+			"::tabular{format=craftalch a=15}"
 		]
 	},
 	"familiar_satchel": {
@@ -1631,7 +1631,7 @@
 			"",
 			"@I-boost-down By eating this thin sheet of glossy gelatin, you gain 1d4 uses of ‹misc/alchemical inspiration› that can be used only on ‹skill/Diplomacy› checks. The benefits of fellowship film last for 1 hour, during which you must roll all ‹skill/Intimidate› checks twice and take the worse result.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 15"
+			"::tabular{format=craftalch a=15}"
 		]
 	},
 	"fervor_juice": {
@@ -1644,7 +1644,7 @@
 			"",
 			"@I-power This foul-tasting alchemical concoction grants those that imbibe it ferocity for a short period of time. This functions as the [universal monster rule of the same name](umr/ferocity), and lasts for 1 hour from the time you ingest the solution.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"monster_mask": {
@@ -1672,7 +1672,7 @@
 			"",
 			"@I-power This 1-foot-long, silver-tipped tin rod glows dimly when struck as a @HL[standard action]. It sheds dim light in a 30-foot radius. However, the light given off by a moonrod is particularly easily to perceive for creatures with low-light vision. For such creatures, a moonrod increases the ‹rule/light level› by one step (to a maximum of normal) for a 60-foot radius. It glows for 6 hours, after which the silver tip is burned out and worthless.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"mug_tankard": {
@@ -1841,7 +1841,7 @@
 			"",
 			"@I-down When ingested by a living creature, *necrobane formaldehyde* ‹misc/nauseate«s<d› the imbiber for 1d6 rounds and deals 1d4 points of ‹rule/Constitution damage›. A successful DC 14 Fortitude save reduces the nauseated effect to ‹misc/sickened› and halves the Constitution damage (minimum 1). This is a poison effect, though the pungent aroma and unmistakably toxic taste of *necrobane formaldehyde* makes it difficult to use as a surreptitious weapon.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 23"
+			"::tabular{format=craftalch a=23}"
 		]
 	},
 	"necrosalt": {
@@ -1856,7 +1856,7 @@
 			"",
 			"@I-zap-lower *Necrosalt* can be ‹rule/throw«n as a» splash weapon› with a range increment of 5 feet. On a successful ranged touch attack, 1 dose of *necrosalt* deals 1d4 points of damage to a struck corporeal undead creature. For 3 rounds afterward, it deals an additional 1d4 points of damage to its victim at the beginning of the victim's turn. Intelligent undead creatures can brush *necrosalt* off their bodies and end its effect as a @HL[move action].",
 			"",
-			"**Construction:** Craft (Alchemy) DC 30"
+			"::tabular{format=craftalch a=30}"
 		]
 	},
 	"nepenthe": {
@@ -1911,7 +1911,7 @@
 			"",
 			"@I-boost Once you imbibe this metallic-tasting liquid, its effects last for 1 hour. During this time, you can accept ‹misc/alchemical burn› to increase your ‹ability/sneak attack› damage by 1d6 points or your [hidden strike](class/vigilante) damage by 1d4 or 1d8 points (as appropriate) for 1 round. If you don't possess the *sneak attack* or *hidden strike* abilities, imbibing this tonic has no effect.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"night_tea": {
@@ -1949,7 +1949,7 @@
 			"",
 			"@I-boost-def-down This runny green liquid increases your heart rate. For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on initiative checks and Reflex saves. This causes trembling, and you take a -2 penalty on Dexterity-based skill checks for the same duration.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"nobles_outfit": {
@@ -2020,7 +2020,7 @@
 			"",
 			"@I-down *Nushadir* vapors are slightly irritating to the eyes, nose, and mouth, causing nausea for 1d4 rounds after close exposure (Fortitude DC 10 negates).",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"oar": {
@@ -2141,7 +2141,7 @@
 			"",
 			"@I-boost This gold-tinted oil smells of wood shavings. When you apply it to the strings of a stringed instrument or the body of a woodwind, it improves the quality of the instrument's sound. For 1 hour, anyone playing the instrument gains a +2 alchemical bonus on the appropriate ‹skill/Perform› check.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"oil": {
@@ -2199,7 +2199,7 @@
 			"",
 			"@I-def-down This alchemical concoction can be spread over a Medium or Small creature's body as a @HL[full-round action]. It provides a +5 alchemical bonus on @HL[Escape Artist] checks, grapple checks to avoid a grapple, and Reflex saves to avoid an ooze's improved ‹umr/grab› or ‹umr/engulf› abilities, but gives a -5 penalty to ‹rule/disarm› checks, grapple checks to start or maintain a grapple or pin, and other checks that may be hindered by a loose grip (such as ‹skill/Climb›). One application lasts for up to 1 hour and can be removed with soap and water.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"oozing_vat_gargantuan": {
@@ -2389,7 +2389,7 @@
 			"",
 			"@I-aid Resting for 1 hour after drinking a vial heals you of 1 point of ‹rule/Constitution damage› as if you had benefited from a full night's rest. Taking multiple doses in an hour does not increase the rate of healing; you must take each individually, followed by an hour of rest, for it to have any effect. Using more than 4 doses of *padzahr* in 1 day has no effect.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"pain_wheel": {
@@ -2477,7 +2477,7 @@
 			"",
 			"This jar of thick, gritty paste is made from coarsely ground plant matter, weak epoxy, and bat guano. When exposed to air, the moldable substance quickly creates a thin, paper-like surface, which is ideal for creating false earthen walls. Creating a 5-foot-by-5-foot section of paper wall requires a @HL[full-round action]. Though this false wall is easy to punch through, it requires a successful DC 13 ‹skill/Perception› check to identify the wall as a fake. If the creator of the paper wall spends an additional full-round action disguising the wall with dirt and pebbles, the DC increases by 2.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 15"
+			"::tabular{format=craftalch a=15}"
 		]
 	},
 	"paper_underwater_sheet": {
@@ -2702,7 +2702,7 @@
 			"",
 			"Similar to ‹eq-misc/sunrod«s›, these small white pebbles are alchemically treated so that they shed a soft light once activated by striking them together. The glow is faint - just barely enough to illuminate the stone. Though not bright enough to serve as an effective light source, they can be placed in patterns to create messages or laid out in a path, marking it for others to follow.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"peasants_outfit": {
@@ -2858,7 +2858,7 @@
 			"",
 			"Once restored to its viscous form, a petrified ooze moves at a rate of 60 feet per round, and any creature that comes in contact with the ooze must succeed at a DC 12 Reflex save to avoid taking acid damage from it.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"phantom_ash": {
@@ -2884,7 +2884,7 @@
 			"",
 			"A single dose of *phosphorescent gel* can coat 6 square inches of a surface. Multiple doses of *phosphorescent gel* can be used to coat larger surfaces, but the amount of damage dealt does not stack. The conflagration occurs in an instant, and the fire generated doesn't spread, though it can be used to ignite a larger explosive such as a ‹eq-weapon/fuse grenade› or pot of ‹eq-misc/oil›.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"phrenologists_kit": {
@@ -3289,7 +3289,7 @@
 			"",
 			"@I-def-aid This crimson liquid is viscous and tastes foul. If you drink it, for the next hour you automatically ‹misc/stabilize› when reduced to negative hit points (unless the damage is sufficient to instantly kill you) and have a 50% chance each round to end any ‹rule/bleed› effect on you. If you take fire or acid damage, the benefits of troll oil are suspended for 1 round.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 30"
+			"::tabular{format=craftalch a=30}"
 		]
 	},
 	"troll_slayers_kit": {
@@ -3318,7 +3318,7 @@
 			"",
 			"@I-aid-down When applied directly to wounds, this jar of paste grants a living creature ‹umr/fast healing› 2 for 2d4 rounds. While active, the *styptic* also closes any open wounds the subject receives, negating any ‹rule/bleed› effects that would affect the target. This is a painful cure, and the target must succeed at a DC 15 Fortitude save or be ‹misc/sickened› for the *styptic's* duration.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"tropical_kit": {
@@ -3377,7 +3377,7 @@
 			"",
 			"@I-def This thick syrup is extracted from bitter herbs and enhanced by alchemy to ward against sleep, paralysis, and the ‹misc/staggered› condition. If you drink *twitch tonic,* you gain a +2 alchemical bonus on saving throws made against these effects for the next hour. If you drink *twitch tonic* while suffering from any of these effects, you may immediately roll another saving throw against the effect (with the +2 bonus); you may gain this particular benefit only once per day. You can administer *twitch tonic* to an unconscious or paralyzed creature as a @HL[full-round action], similar to administering a potion.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"undead_slayers_kit": {
@@ -3456,7 +3456,7 @@
 			"",
 			"@I-boost A volatile mix of incendiary reagents, *unstable accelerant* can be thrown just like ‹eq-weapon/alchemist's fire›. In the hands of an ‹class/alchemist›, a flask of *unstable accelerant* can be used as part of creating a bomb, increasing its fire damage by +1d6 points. It has no effect on bombs that do not deal fire damage. If the bomb lasts for more than an instant, the extra damage only applies to the first round's damage.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"valet": {
@@ -3621,7 +3621,7 @@
 			"",
 			"@I-down *Vermin repellent* counts as a strong scent, allowing creatures with the ‹umr/scent› ability to detect it at a greater range.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"vest": {
@@ -3696,7 +3696,7 @@
 			"",
 			"This sealed copper tube contains a packet of alchemical fertilizer and several sprouted seedlings from the First World. Once shaken and opened as a @HL[standard action], the tube exudes a multitude of vines that spill into an adjacent square for 3 rounds. Left alone, these vines create an area of ‹rule/difficult terrain› in the square, but a creature holding the tube can shape the vines as they emerge into a crude tool, piece of furniture, or other object of wood or rope weighing 20 pounds or less with a successful DC 10 ‹skill/Craft› (baskets or carpentry) check. The vine construct lasts for 10 minutes before crumbling to pieces.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"vivifying_moxibustion_needles": {
@@ -3726,7 +3726,7 @@
 			"",
 			"These capsules are most often used by rogues working in teams to create distractions and spectacles in order to draw people's attention away from their activities, as well as by those interested in faking illness, such as pugilists trying to throw fights or criminals seeking to create chaos during an arrest.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 15"
+			"::tabular{format=craftalch a=15}"
 		]
 	},
 	"wading_boots": {
@@ -3855,7 +3855,7 @@
 			"",
 			"@I-def By crushing the *pouch* as a @HL[standard action], an ‹race/orc› (or a creature from a suitably warlike culture) gains 1d4+1 temporary hit points. These temporary hit points go away after 10 minutes. A creature can only benefit from 1 *spirit pouch* at a time. Once used, the *spirit pouch* is destroyed.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"warding_ash": {
@@ -3872,7 +3872,7 @@
 			"",
 			"A singe dose of *warding ash* is enough to cover a 5-foot-square space. Applying *warding ash* is a @HL[move action] that provokes attacks of opportunity. The *warding ash* becomes inert 1 minute after being laid, or after the *ash* is disturbed in any way (such as being stepped on by a creature).",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"warka_jar": {
@@ -3944,7 +3944,7 @@
 			"",
 			"@I-zap Waspguts can also be thrown as a ‹rule/splash weapon›. A direct hit deals no damage, but exposes the target to the *waspguts'* effects.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"waster": {
@@ -3998,7 +3998,7 @@
 			"",
 			"This fist-sized blue sponge absorbs up to 1 pint of water; squeezing the water out of the *sponge* filters and purifies it, making it safe for drinking, washing, and similar activities. Filling and emptying the *sponge* is a @HL[full-round action]. The filtration is enough to remove mundane impurities and common diseases, but does nothing to protect against poisons, magic, and other exotic threats. Each *sponge* can cleanse 25 pints of water before deteriorating and becoming useless.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 15"
+			"::tabular{format=craftalch a=15}"
 		]
 	},
 	"waterproof_bag": {
@@ -4062,7 +4062,7 @@
 			"",
 			"The blanching remains effective until you make a successful attack with the weapon. Each dose of blanching can coat one weapon or up to 10 pieces of ammunition. Only one kind of weapon blanch can be on a weapon at one time, though a weapon made of one special material (such as adamantine) can have a different material blanch (such as silver), and counts as both materials for the first successful hit.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25 (adamantine), DC 20 (cold iron or silver)"
+			"::tabular{format=craftalch a=\"25 (adamantine), DC 20 (cold iron or silver)\"}"
 		]
 	},
 	"weapon_blanch_cold_iron": {
@@ -4378,7 +4378,7 @@
 			"",
 			"@I-def ‹race/Tengu«s› mix special salves to protect their feathers from the elements. A one-ounce vial of *wing oil* gives a feathered creature a +1 bonus on all saving throws to resist the effects of ‹rule/cold« weather›. Its effects last 24 hours.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"wing_sheaths": {
@@ -4482,7 +4482,7 @@
 			"",
 			"Drinking a vial of *wismuth salix* (whether over the course of a day or all at once) usually turns your tongue black for about a day, though this is a harmless side effect.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"witchs_kit": {
@@ -4525,7 +4525,7 @@
 			"",
 			"Woad paint is sold in small, concentrated blocks (costing 60 gp each) that must be ground into paste on a wooden or stone pallet with a small amount of water and material spell components. A typical kit contains a pallet and 5 small blocks of paint. One block produces enough paint for 10 component designs or one stilled spell design. Woad paint has no benefit for a non-spellcaster.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 30"
+			"::tabular{format=craftalch a=30}"
 		]
 	},
 	"woad_painting_paint_1_block": {

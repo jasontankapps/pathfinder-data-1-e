@@ -21,9 +21,9 @@ const _alchemical_coal_blinding_cinders = {title: "Alchemical coal (blinding cin
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 135</Link><br/><strong>Price</strong> 100 gp (blinding cinders), 50 gp (choking smoke); <strong>Weight</strong> - (blinding cinders), - (choking smoke)</p>
 <p>A kobold who chews and swallows this alchemically treated piece of coal (a full-round action) can make one breath weapon attack during the next minute. If the kobold fails to make a breath attack before this minute expires, it is <Link to="/misc/sickened">sickened</Link> for 1 hour. Other humanoid creatures that eat alchemical coal are sickened for 1 hour (though certain other creatures may be able to use them, at the GM's discretion). Creatures that are immune to poison are immune to the sickened effect. The type of breath weapon depends on the type of alchemical coal that is chewed by the kobold.</p>
 <p><strong>Blinding Cinders:</strong> This jagged bit of dusty red coal allows a kobold to breathe a 30-foot line of coarse cinders. The breath weapon deals 1d6 points of fire damage and blinds creatures in the area for 1 round. A creature that succeeds at a DC 15 Reflex saving throw takes half damage and is not blinded.</p>
+<Tabular format="craftalch" a="25" />
 <p><strong>Choking Smoke:</strong> This crumbling chunk of chalky white coal allows a kobold to breathe a 15-foot cone of foul vapor that deals 1d6 points of acid damage and sickens a creature for 1d4 rounds. A creature that succeeds at a DC 15 Reflex saving throw takes half damage and is not sickened.</p>
-<h3 id="eq-weapon-alchemical_coal_blinding_cinders-construction">Construction</h3>
-<p>Blinding cinders: Craft (Alchemy) DC 25<br/>Choking smoke: Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _alchemists_fire = {title: "Alchemist's fire", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-alchemists_fire-alchemists-fire">Alchemist's fire</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 30</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 20 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -34,8 +34,7 @@ const _alchemists_fire = {title: "Alchemist's fire", topLink: ["Alchemical Weapo
 const _alkali_flask = {title: "Alkali flask", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-alkali_flask-alkali-flask">Alkali flask</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link>, <Link to="/source/dungeon_denizens_revisited">Dungeon Denizens Revisited pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link><br/><strong>Price</strong> 15 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This flask of caustic liquid reacts with an ooze's natural acids. You can throw an alkali flask as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet. Against non-ooze creatures, an alkali flask functions as a normal flask of <Link to="/eq-weapon/acid">acid</Link>. Against oozes and other acid-based creatures, the alkali flask inflicts double damage. Crafting this item is a DC 20 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-alkali_flask-construction">Construction</h3>
-<p>Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _arrow_bleeding = {title: "Arrow (bleeding)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-arrow_bleeding-arrow-bleeding">Arrow (bleeding)</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 20</Link>, <Link to="/source/elves_of_golarion">Elves of Golarion pg. 22</Link><br/><strong>Price</strong> 160 gp; <strong>Weight</strong> 0.15 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -70,8 +69,7 @@ const _arrow_pheromone = {title: "Arrow (pheromone)", topLink: ["Alchemical Weap
 const _arrow_raining = {title: "Arrow (raining)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-arrow_raining-arrow-raining">Arrow (raining)</h2>
 <p><strong>Sources</strong> <Link to="/source/daughters_of_fury">Daughters of Fury pg. 13</Link>, <Link to="/source/elves_of_golarion">Elves of Golarion pg. 23</Link>, <Link to="/source/alchemy_manual">Alchemy Manual pg. 21</Link><br/><strong>Price</strong> 30 gp; <strong>Weight</strong> 0.3 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This thick-shafted arrow contains a reservoir of <Link to="/eq-weapon/holy_water">holy water</Link> and is designed to burst upon impact. A raining arrow damages the target as normal, and also treats the target as though it had been struck by a direct hit from a thrown vial of holy water; adjacent creatures take splash damage from this effect. A raining arrow imparts a -2 penalty on attack rolls because of its weight. A raining arrow costs 30 gp, and can be crafted with a successful DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-arrow_raining-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 <p><strong>Note:</strong> Weight is based on 20 normal <Link to="/eq-weapon/arrows">arrows</Link> weighing three pounds and assuming these arrows (that have a -2 penalty to attack) weigh double. The source material lists weight as &mdash;.</p>
 </>};
 const _arrow_slow_burn = {title: "Arrow (slow burn)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-arrow_slow_burn-arrow-slow-burn">Arrow (slow burn)</h2>
@@ -119,60 +117,51 @@ const _bloating_solution = {title: "Bloating solution", topLink: ["Alchemical We
 const _bolt_acid = {title: "Bolt, acid", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-bolt_acid-bolt-acid">Bolt, acid</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 24</Link>, <Link to="/source/pathfinder_15_the_armageddon_echo">Pathfinder #15: The Armageddon Echo pg. 18</Link><br/><strong>Price</strong> 40 gp; <strong>Weight</strong> 0.2 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>These metal crossbow bolts have a glass section in the middle filled with acid. On a hit, an acid bolt deals 1d4 points of acid damage in addition to its normal damage. Acid bolts do not cause splash damage.</p>
-<h3 id="eq-weapon-bolt_acid-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 <p><strong>Note:</strong> Weight is based on 10 normal crossbow bolts weighing one pound and assuming these acid-filled bolts weigh double that. The source material lists weight as &mdash;.</p>
 </>};
 const _bolt_alchemical_fire = {title: "Bolt, alchemical fire", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-bolt_alchemical_fire-bolt-alchemical-fire">Bolt, alchemical fire</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 24</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 0.2 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>These carefully crafted wooden crossbow bolts have a hollow core filled with alchemist's fire. On a hit, an alchemical fire bolt deals 1d4 points of fire damage in addition to its normal damage. Alchemical fire bolts do not cause splash damage, and they do not set targets on fire unless a target is particularly flammable.</p>
-<h3 id="eq-weapon-bolt_alchemical_fire-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 <p><strong>Note:</strong> Weight is based on 10 normal crossbow bolts weighing one pound and assuming these liquid-filled bolts weigh double that. The source material lists weight as &mdash;.</p>
 </>};
 const _bolt_liquid_ice = {title: "Bolt, liquid ice", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-bolt_liquid_ice-bolt-liquid-ice">Bolt, liquid ice</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 24</Link><br/><strong>Price</strong> 40 gp; <strong>Weight</strong> 0.2 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>These metal crossbow bolts have a glass section in the middle filled with <Link to="/eq-weapon/liquid_ice">liquid ice</Link>. On a hit, it deals 1d4 points of cold damage in addition to its normal damage. Liquid ice bolts do not cause splash damage.</p>
-<h3 id="eq-weapon-bolt_liquid_ice-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 <p><strong>Note:</strong> Weight is based on 10 normal crossbow bolts weighing one pound and assuming these liquid-filled bolts weigh double that. The source material lists weight as &mdash;.</p>
 </>};
 const _bolt_poison = {title: "Bolt, poison", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-bolt_poison-bolt-poison">Bolt, poison</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 25</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 0.1 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>These iron crossbow bolts have resin tips that break when the bolts strike their targets; inside the tip is a dose of injury or contact poison. In addition to dealing damage normally, anyone struck by a poison bolt is exposed to the poison. When using a poison bolt, you do not risk poisoning yourself, but the tip affects the bolt's accuracy; double all range increment penalties when using poison bolts. The bolt's cost does not include the cost of the poison, which must be included during creation.</p>
-<h3 id="eq-weapon-bolt_poison-construction">Construction</h3>
-<p>Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 <p><strong>Note:</strong> Weight is based on 10 normal crossbow bolts weighing one pound. The source material lists weight as &mdash;.</p>
 </>};
 const _bone_burn = {title: "Bone Burn", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-bone_burn-bone-burn">Bone Burn</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_139_the_dead_road">Pathfinder #139: The Dead Road pg. 63</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
-<p>This flask of volatile chemicals contains traces of graveyard dirt and a few drops of blood from a righteous creature. You can throw a bone burn flask as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet. Against non-undead creatures, a bone burn flask functions as a normal flask of <Link to="/eq-weapon/acid">acid</Link>. Against undead creatures, the bone burn flask deals double damage. On the round following a direct hit, a skeletal undead damaged by a bone burn flask takes 1d6 additional points of damage (Reflex DC 15 negates). Crafting this item requires a successful DC 20 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-bone_burn-construction">Construction</h3>
-<p>Craft (Alchemy) DC 20</p>
+<p>This flask of volatile chemicals contains traces of graveyard dirt and a few drops of blood from a righteous creature. You can throw a bone burn flask as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet. Against non-undead creatures, a bone burn flask functions as a normal flask of <Link to="/eq-weapon/acid">acid</Link>. Against undead creatures, the bone burn flask deals double damage. On the round following a direct hit, a skeletal undead damaged by a bone burn flask takes 1d6 additional points of damage (Reflex DC 15 negates).</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _bottled_lightning = {title: "Bottled lightning", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-bottled_lightning-bottled-lightning">Bottled lightning</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link><br/><strong>Price</strong> 40 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>Electricity crackles along a metal filament inside this small glass bottle. You can open the bottle as a standard action, unleashing a small bolt of lightning toward an enemy within 20 feet of you. This is a ranged touch attack that deals 1d8 points of electricity damage. Any creature in a line between you and the target (including the target) takes 1 point of sonic damage from the terrific clap of thunder the bolt generates (Reflex DC 15 negates). Crafting bottled lightning is a DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-bottled_lightning-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _brewed_reek = {title: "Brewed reek", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-brewed_reek-brewed-reek">Brewed reek</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 123</Link><br/><strong>Price</strong> 40 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>Animal musk, spoiled meat, pungent plants, and any other foul-smelling substances on hand go into a batch of brewed reek. When boiled, this mixture becomes a thick alchemical slime that adheres to anything it touches. You can hurl brewed reek as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet. A creature struck with a direct hit must succeed at a DC 15 Fortitude save or be sickened for 2d6 rounds. If the target fails its save, it must make a second Fortitude save or be <Link to="/misc/nauseated">nauseated</Link> for 1 round. Creatures in the splash area must make a Fortitude save or be <Link to="/misc/sickened">sickened</Link> for 1 round. A creature that drinks brewed reek does not get a saving throw and is sickened for 2d6 rounds and nauseated for 1 round.</p>
-<h3 id="eq-weapon-brewed_reek-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _burst_jar = {title: "Burst jar", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-burst_jar-burst-jar">Burst jar</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link><br/><strong>Price</strong> 35 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This simple clay pot has two sealed, airtight inner chambers containing alchemical liquids. The jar is thrown as a <Link to="/rule/splash_weapon">splash weapon</Link>. It shatters on impact, covering the target with a mixture of the two liquids. One round later on your turn, the liquids react and explode with concussive force. The target takes 1 point of sonic damage, is <Link to="/misc/deafened">deafened</Link> for 1d4 rounds, and must make a DC 12 Fortitude save or be <Link to="/misc/stunned">stunned</Link> for 1 round. Creatures within 5 feet of the explosion take 1 point of sonic damage. The target can use a full-round action to scrape or wash off the liquid before it detonates, depositing the material in its square or an adjacent square; the material detonates as normal, though the original target only takes damage as if it were within 5 feet of the explosion. Crafting this item is a DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-burst_jar-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _chroma_grenade = {title: "Chroma grenade", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-chroma_grenade-chroma-grenade">Chroma grenade</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 7</Link><br/><strong>Price</strong> 75 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
-<p>This metal canister contains alchemical reactants separated by parchment and a slow-burning fuse. Lighting the fuse is a move action; 1d3 rounds later, the chroma grenade explodes, spewing luminescent sparks and gases that fill a 10-foot-radius area. Creatures in the area are <Link to="/misc/dazzled">dazzled</Link> and take a -2 penalty on saving throws against illusion (pattern) spells for 3 rounds (DC 15 Will negates). A chroma grenade can be thrown as though it were a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet. Crafting this item requires a successful DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-chroma_grenade-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<p>This metal canister contains alchemical reactants separated by parchment and a slow-burning fuse. Lighting the fuse is a move action; 1d3 rounds later, the chroma grenade explodes, spewing luminescent sparks and gases that fill a 10-foot-radius area. Creatures in the area are <Link to="/misc/dazzled">dazzled</Link> and take a -2 penalty on saving throws against illusion (pattern) spells for 3 rounds (DC 15 Will negates). A chroma grenade can be thrown as though it were a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet.</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _congealer_spray = {title: "Congealer spray", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-congealer_spray-congealer-spray">Congealer spray</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 23</Link><br/><strong>Price</strong> 15 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -181,33 +170,28 @@ const _congealer_spray = {title: "Congealer spray", topLink: ["Alchemical Weapon
 </>};
 const _consecrated_salts = {title: "Consecrated Salts", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-consecrated_salts-consecrated-salts">Consecrated Salts</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_139_the_dead_road">Pathfinder #139: The Dead Road pg. 63</Link><br/><strong>Price</strong> 300 gp; <strong>Weight</strong> 0.5 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
-<p>The powdered salts in this stoppered glass sphere contains reagents blessed by a cleric or another divine authority. You can throw a sphere of consecrated salts as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet. Consecrated salts deal damage to evil outsiders, <Link to="/rule/haunts">haunts</Link>, and undead as if they were a flask of <Link to="/eq-weapon/holy_water">holy water</Link>. Additionally, if a haunt or rejuvenating undead such as a <Link to="/template/ghost">ghost</Link> is reduced to 0 hp within 1 minute of being damaged by consecrated salts, its reset time (in the case of a haunt) or rejuvenation is delayed by 1 day. This delay can also be achieved by sprinkling consecrated salts on the earthly remains of a ghost or the affected area of a haunt. Crafting this item requires a successful DC 30 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-consecrated_salts-construction">Construction</h3>
-<p>Craft (Alchemy) DC 30</p>
+<p>The powdered salts in this stoppered glass sphere contains reagents blessed by a cleric or another divine authority. You can throw a sphere of consecrated salts as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet. Consecrated salts deal damage to evil outsiders, <Link to="/rule/haunts">haunts</Link>, and undead as if they were a flask of <Link to="/eq-weapon/holy_water">holy water</Link>. Additionally, if a haunt or rejuvenating undead such as a <Link to="/template/ghost">ghost</Link> is reduced to 0 hp within 1 minute of being damaged by consecrated salts, its reset time (in the case of a haunt) or rejuvenation is delayed by 1 day. This delay can also be achieved by sprinkling consecrated salts on the earthly remains of a ghost or the affected area of a haunt.</p>
+<Tabular format="craftalch" a="30" />
 </>};
 const _corrosenze = {title: "Corrosenze", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-corrosenze-corrosenze">Corrosenze</h2>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 31</Link><br/><strong>Price</strong> 90 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
-<p>This gritty sand bonds to surfaces that resist energy damage, corroding the protection. Corrosenze can be applied to a weapon as if it were a poison. A creature struck with a weapon coated with corrosenze has its energy resistance reduced by 5 for 5 minutes (no saving throw), with the energy type correlating with the corrosenze's color: rust-colored corrosenze affects acid resistance, salt-colored affects cold, granite-colored affects electricity, and ash-colored affects fire. As a full-round action, the target can attempt a DC 15 Reflex saving throw to scrape off the corrosenze and regain its lost energy resistance. Crafting this item requires a successful DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-corrosenze-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<p>This gritty sand bonds to surfaces that resist energy damage, corroding the protection. Corrosenze can be applied to a weapon as if it were a poison. A creature struck with a weapon coated with corrosenze has its energy resistance reduced by 5 for 5 minutes (no saving throw), with the energy type correlating with the corrosenze's color: rust-colored corrosenze affects acid resistance, salt-colored affects cold, granite-colored affects electricity, and ash-colored affects fire. As a full-round action, the target can attempt a DC 15 Reflex saving throw to scrape off the corrosenze and regain its lost energy resistance.</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _cytillesh_stun_vial = {title: "Cytillesh stun vial", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-cytillesh_stun_vial-cytillesh-stun-vial">Cytillesh stun vial</h2>
 <p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion pg. 29</Link><br/><strong>Price</strong> 75 gp; <strong>Weight</strong> 0.5 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
-<p>Harvested from the cytillesh fungus commonly found in the Darklands, these small vials emit a bright blue glow, and are commonly used in intertribal kobold disputes. When broken, a cytillesh stun vial releases a flash of blue light consisting of bright light in a 10-foot radius and <Link to="/rule/dim_light">dim light</Link> in a 20-foot radius. All creatures within the flash area must make a Will save (DC 20). Creatures that fail are <Link to="/misc/stunned">stunned</Link> for 1d2 rounds if they're in the area of bright light, or are <Link to="/misc/confused">confused</Link> for 1 round if in the area of dim light. Crafting this item requires a successful DC 30 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-cytillesh_stun_vial-construction">Construction</h3>
-<p>Craft (Alchemy) DC 30</p>
+<p>Harvested from the cytillesh fungus commonly found in the Darklands, these small vials emit a bright blue glow, and are commonly used in intertribal kobold disputes. When broken, a cytillesh stun vial releases a flash of blue light consisting of bright light in a 10-foot radius and <Link to="/rule/dim_light">dim light</Link> in a 20-foot radius. All creatures within the flash area must make a Will save (DC 20). Creatures that fail are <Link to="/misc/stunned">stunned</Link> for 1d2 rounds if they're in the area of bright light, or are <Link to="/misc/confused">confused</Link> for 1 round if in the area of dim light.</p>
+<Tabular format="craftalch" a="30" />
 </>};
 const _darkflare = {title: "Darkflare", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-darkflare-darkflare">Darkflare</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 25</Link>, <Link to="/source/faction_guide">Faction Guide pg. 55</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This alchemical flare explodes in black sparks 1 round after lighting. Any creature with darkvision in the same square as a darkflare when it explodes must succeed at a DC 15 Fortitude save or lose its darkvision for 1d10 rounds. Affected creatures can still use other vision (such as normal vision and low-light vision) with no penalty.</p>
-<h3 id="eq-weapon-darkflare-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _deadground_dust = {title: "Deadground dust", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-deadground_dust-deadground-dust">Deadground dust</h2>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 31</Link><br/><strong>Price</strong> 70 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
-<p>Concocted from samples of elemental earth drained of vitality, this fine powder damages creatures with the earth subtype, as well as constructs made from earth, stone, or precious metals (brass, bronze, copper, gold, mithral, or silver), like <Link to="/eq-weapon/holy_water">holy water</Link> damages undead. Deadground dust can also be applied to a stone door to reduce its break DC by 10 (multiple doses don't further lower the DC), and it affects devices and mechanisms made from precious metals or stone like rusting powder does. Crafting this item requires a successful DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-deadground_dust-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<p>Concocted from samples of elemental earth drained of vitality, this fine powder damages creatures with the earth subtype, as well as constructs made from earth, stone, or precious metals (brass, bronze, copper, gold, mithral, or silver), like <Link to="/eq-weapon/holy_water">holy water</Link> damages undead. Deadground dust can also be applied to a stone door to reduce its break DC by 10 (multiple doses don't further lower the DC), and it affects devices and mechanisms made from precious metals or stone like rusting powder does.</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _desiccating_lubricant = {title: "Desiccating lubricant", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-desiccating_lubricant-desiccating-lubricant">Desiccating lubricant</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 23</Link><br/><strong>Price</strong> 30 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -216,23 +200,21 @@ const _desiccating_lubricant = {title: "Desiccating lubricant", topLink: ["Alche
 </>};
 const _dung_grenade = {title: "Dung grenade", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-dung_grenade-dung-grenade">Dung grenade</h2>
 <p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook pg. 28</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
-<p>The casing of this modified <Link to="/eq-weapon/fuse_grenade">fuse grenade</Link> is partially filled with animal dung or guano. You can throw a dung grenade as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet. Any creature directly hit by a dung grenade or in its splash radius takes 1d6 points of fire damage and is covered with the grenade's malodorous contents, becoming <Link to="/misc/sickened">sickened</Link> for 1d4 rounds. A target can attempt a DC 15 Reflex saving throw to halve the damage and the duration of the sickened condition. Crafting a dung grenade requires a successful DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-dung_grenade-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<p>The casing of this modified <Link to="/eq-weapon/fuse_grenade">fuse grenade</Link> is partially filled with animal dung or guano. You can throw a dung grenade as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet. Any creature directly hit by a dung grenade or in its splash radius takes 1d6 points of fire damage and is covered with the grenade's malodorous contents, becoming <Link to="/misc/sickened">sickened</Link> for 1d4 rounds. A target can attempt a DC 15 Reflex saving throw to halve the damage and the duration of the sickened condition.</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _dust_knuckles = {title: "Dust knuckles", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-dust_knuckles-dust-knuckles">Dust knuckles</h2>
-<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 209</Link><br/><strong>Price</strong> 1.25 gp, 25 gp (diamond dust vial), 25 gp (gloves); <strong>Weight</strong> - (1 vial), - (diamond dust vial), 0.5 lb. (gloves)</p>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 209</Link><br/><strong>Price</strong> 125 cp (one vial), 25 gp (diamond dust vial), 25 gp (gloves); <strong>Weight</strong> - (1 vial), - (diamond dust vial), &frac12; lb. (gloves)</p>
 <p>This fingerless leather glove includes four small pouches along the knuckle line into which you can insert tiny glass vials. You can fill the vials with poison or ground minerals. When you punch someone in the face, the vials shatter, releasing their contents into the target's face and eyes. Together, the four vials hold 1 dose of poison or ground minerals; there is no effect unless all four are full.</p>
+<Tabular format="craftalch" a="15 (4 vials), DC 20 (gloves)" />
 <p><strong>Diamond Dust Vials (25 gp):</strong> These vials are filled with finely ground mineral crystals. When you shatter a vial with your punch, the target you hit must succeed at a DC 20 Reflex save to shield its eyes or be temporarily <Link to="/misc/blinded">blinded</Link> for 1 round.</p>
-<h3 id="eq-weapon-dust_knuckles-construction">Construction</h3>
-<p><em>4 vials:</em> Craft (Alchemy) DC 15<br/><em>Gloves:</em> Craft (Alchemy) DC 20<br/><em>Diamond dust vial:</em> Craft (Alchemy) DC 25</p>
-<p><strong>Note:</strong> Stats are extrapolation from the original quantity of 4.</p>
+<Tabular format="craftalch" a="25" />
+<p><strong className="hl">Note:</strong> Prices are an extrapolation from the original quantity of 4.</p>
 </>};
 const _ectoplasmic_residue = {title: "Ectoplasmic residue", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-ectoplasmic_residue-ectoplasmic-residue">Ectoplasmic residue</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 251</Link><br/><strong>Price</strong> 20 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This flask is filled with the detritus of minor ectoplasmic phantoms and similar creatures. You can throw a flask of ectoplasmic residue as a <Link to="/rule/splash_weapon">splash weapon</Link>. Treat this attack as a ranged touch attack with a range increment of 10 feet. A direct hit deals no damage, but the target must succeed at a DC 13 Will save or be <Link to="/misc/shaken">shaken</Link> for 1d4 rounds. Every creature within 5 feet of the point where the flask hits must succeed at a DC 13 Will save or be shaken for 1 round. This is a mind-affecting fear effect.</p>
-<h3 id="eq-weapon-ectoplasmic_residue-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _elemental_brine = {title: "Elemental brine", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-elemental_brine-elemental-brine">Elemental brine</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements pg. 25</Link><br/><strong>Price</strong> 500 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -244,14 +226,12 @@ const _elemental_brine = {title: "Elemental brine", topLink: ["Alchemical Weapon
 const _elemental_flux_flask = {title: "Elemental flux (flask)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-elemental_flux_flask-elemental-flux-flask">Elemental flux (flask)</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 203</Link><br/><strong>Price</strong> 20 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This flask of alchemical powder reacts to the elemental power in suli blood. Adding at least 1 hit point worth of suli blood to it creates an alchemical <Link to="/rule/splash_weapon">splash weapon</Link>. The splash weapon works like a flask of acid, except the damage is a random energy type (acid, cold, electricity, or fire). A DC 10 Craft (alchemy) check identifies what energy type the activated flask has. The activated flux retains its power for 24 hours before becoming inert material. The Craft (alchemy) DC to create this is 20.</p>
-<h3 id="eq-weapon-elemental_flux_flask-construction">Construction</h3>
-<p>Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _fiery_boulder = {title: "Fiery boulder", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-fiery_boulder-fiery-boulder">Fiery boulder</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_91_battle_of_bloodmarch_hills">Pathfinder #91: Battle of Bloodmarch Hills pg. 72</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 10 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>A fiery boulder is a large, roughly boulder-shaped version of <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link> favored by giants. A direct hit from this <Link to="/rule/greater_splash_weapon">greater splash weapon</Link> deals 2d6 points of fire damage and 5 points of fire damage to every creature affected by its splash damage. All creatures affected by a fiery boulder's direct damage take an additional 2d6 points of fire damage the following round; affected creatures can use a full-round action to attempt to extinguish the flames before taking this additional damage.</p>
-<h3 id="eq-weapon-fiery_boulder-construction">Construction</h3>
-<p>Craft (Alchemy) DC 30</p>
+<Tabular format="craftalch" a="30" />
 </>};
 const _fireworks = {title: "Fireworks", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], notBookmarkable: true, jsx: <><h2 id="eq-weapon-fireworks-fireworks">Fireworks</h2>
 <p>"Fireworks" can refer to seventeen different types of firework.</p>
@@ -278,14 +258,12 @@ const _fireworks = {title: "Fireworks", topLink: ["Alchemical Weapons","main/equ
 const _firework_banshee_ballerina = {title: "Firework (banshee ballerina)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-firework_banshee_ballerina-firework-banshee-ballerina">Firework (banshee ballerina)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link><br/><strong>Price</strong> 75 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This small firework burns brightly and makes a loud, eerie whistling sound. It can be thrown to target an intersection as a <Link to="/rule/splash_weapon">splash weapon</Link>. Any creatures within 5 feet of the noise are effectively <Link to="/misc/deafened">deafened</Link> while they remain in the area, as even the loudest sounds they make are drowned out by the piercing sound. A banshee ballerina firework burns for 1d4+1 rounds before extinguishing itself with a quiet puff of smoke. Crafting this item is a DC 30 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-firework_banshee_ballerina-construction">Construction</h3>
-<p>Craft (Alchemy) DC 30</p>
+<Tabular format="craftalch" a="30" />
 </>};
 const _firework_coughing_dragon = {title: "Firework (coughing dragon)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-firework_coughing_dragon-firework-coughing-dragon">Firework (coughing dragon)</h2>
 <p><strong>Sources</strong> <Link to="/source/ships_of_the_inner_sea">Ships of the Inner Sea pg. 29</Link><br/><strong>Price</strong> 40 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>When lit, this foot-long wooden tube begins to hiss and emit puffs of smoke. One round later it takes flight, moving in a straight line at a speed of 90 feet for 1d6 rounds before exploding in a burst of thick, colorful smoke. Each square the firework passes through during its flight fills with smoke (treat the effect as a <Link to="/spell/fog_cloud">fog cloud</Link> spell, except a moderate or stronger wind dissipates the smoke in 1 round), as does an area in a 15-foot radius surrounding the point at which the rocket exploded. This smoke stings the eyes and inflames the lungs, and a creature that begins its turn in a square filled with smoke must succeed at a DC 15 Fortitude saving throw or be <Link to="/misc/sickened">sickened</Link> for 1d4 rounds.</p>
-<h3 id="eq-weapon-firework_coughing_dragon-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _firework_dancing_peonies = {title: "Firework (dancing peonies)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-firework_dancing_peonies-firework-dancing-peonies">Firework (dancing peonies)</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 29</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 0.5 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -295,8 +273,7 @@ const _firework_dancing_peonies = {title: "Firework (dancing peonies)", topLink:
 const _firework_fire_wheel = {title: "Firework (fire wheel)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-firework_fire_wheel-firework-fire-wheel">Firework (fire wheel)</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 20</Link><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>Once its fuse has been lit, this hoop-shaped firework emits colorful sparks from a series of outward-angled wooden tubes. It can then be rolled along the ground or thrown as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 30 feet. One round after being lit, a fire wheel firework explodes in a spectacular 5-foot-tall cylindrical blast with a 20-foot radius. All creatures in the area take 3d6 points of fire damage and are <Link to="/misc/blinded">blinded</Link> for 1 minute (Reflex DC 16 halves damage, negates blindness).</p>
-<h3 id="eq-weapon-firework_fire_wheel-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _firework_firecracker = {title: "Firework (firecracker)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-firework_firecracker-firework-firecracker">Firework (firecracker)</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 29</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -312,21 +289,18 @@ const _firework_flame_fountain = {title: "Firework (flame fountain)", topLink: [
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This hollow metal or wooden tube contains slow-burning powder. When you light the fuse (a move action), it creates a 3-foot-long, blazing fountain of red-hot fiery sparks. You wield this fountain of sparks as if it were a <Link to="/eq-weapon/heavy_mace">heavy mace</Link>. Attacks with the fountain are melee touch attacks. The fountain deals 1d8 points of fire damage (your Strength modifier does not apply to the damage).</p>
 <p>The fountain sheds light as a <Link to="/eq-misc/torch">torch</Link> and can ignite combustible materials such as parchment, straw, dry sticks, and cloth. Once ignited, it lasts for 1 minute. If extinguished before this time, the remaining duration is wasted. Crafting this item is a DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-firework_flame_fountain-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _firework_flashing_fiend = {title: "Firework (flashing fiend)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-firework_flashing_fiend-firework-flashing-fiend">Firework (flashing fiend)</h2>
 <p><strong>Sources</strong> <Link to="/source/ships_of_the_inner_sea">Ships of the Inner Sea pg. 29</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>When lit, this small conical firework emits bright white sparks that illuminate the area as a <Link to="/eq-misc/candle">candle</Link>. It can be thrown to target an intersection as a <Link to="/rule/splash_weapon">splash weapon</Link>. One round later, it begins to emit pulses of extremely bright light for 1d6 rounds. Any creature that begins its turn within 15 feet of the firework must succeed at a DC 12 Reflex saving throw or be <Link to="/misc/blinded">blinded</Link> for 1d4 rounds.</p>
-<h3 id="eq-weapon-firework_flashing_fiend-construction">Construction</h3>
-<p>Craft (Alchemy) DC 30</p>
+<Tabular format="craftalch" a="30" />
 </>};
 const _firework_holy_fountain = {title: "Firework (holy fountain)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-firework_holy_fountain-firework-holy-fountain">Firework (holy fountain)</h2>
 <p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook pg. 18</Link><br/><strong>Price</strong> 110 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This hollow metal cylinder is etched with various religious symbols and contains a reservoir of <Link to="/eq-weapon/holy_water">holy water</Link>. When you light its fuse (a move action), a holy fountain firework fills a 10-foot-radius <Link to="/misc/burst">burst</Link> with holy water and bright light for as long as it burns. Any creature in the affected area is treated as though it had been struck with a flask of holy water, except a holy fountain firework only deals 1d4 points of damage and does not harm creatures in spaces adjacent to the affected area. Once ignited, the firework lasts for 1 minute.</p>
-<p>As a standard action, the firework can be extinguished before this time by being fully submerged or forcing its tip into the ground or a similar surface, but the remaining duration is wasted. A lit holy fountain firework can be picked up and moved, but the fountain's burst of holy water and light doesn't function during this time and the creature carrying the lit firework takes 1d4 points of fire damage each round she holds it. Crafting this item requires a successful DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-firework_holy_fountain-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<p>As a standard action, the firework can be extinguished before this time by being fully submerged or forcing its tip into the ground or a similar surface, but the remaining duration is wasted. A lit holy fountain firework can be picked up and moved, but the fountain's burst of holy water and light doesn't function during this time and the creature carrying the lit firework takes 1d4 points of fire damage each round she holds it.</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _firework_jumping_jenny = {title: "Firework (jumping jenny)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-firework_jumping_jenny-firework-jumping-jenny">Firework (jumping jenny)</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 29</Link><br/><strong>Price</strong> 15 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -336,14 +310,12 @@ const _firework_jumping_jenny = {title: "Firework (jumping jenny)", topLink: ["A
 const _firework_paper_candle = {title: "Firework (paper candle)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-firework_paper_candle-firework-paper-candle">Firework (paper candle)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This finger-sized explosive detonates noisily 1 round after lighting. Anyone in the same square as a paper candle when it explodes must make a DC 15 Fortitude save or be <Link to="/misc/dazzled">dazzled</Link> for 1d4 rounds. Crafting this item is a DC 20 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-firework_paper_candle-construction">Construction</h3>
-<p>Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _firework_signal_rocket = {title: "Firework (signal rocket)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-firework_signal_rocket-firework-signal-rocket">Firework (signal rocket)</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 117</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 3 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
-<p>You can use this rocket can deliver simple auditory and visual signals to an army from a distance. When used during mass combat, a signal rocket allows a commander to change <Link to="/rule/strategy_track">strategy track</Link> with a higher degree of success than normal. A commander can launch a signal rocket while changing a strategy track by more than 1 step to grant his army a +5 circumstance bonus on its Morale check to implement his orders. Crafting this item requires a successful DC 15 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-firework_signal_rocket-construction">Construction</h3>
-<p>Craft (Alchemy) DC 15</p>
+<p>You can use this rocket can deliver simple auditory and visual signals to an army from a distance. When used during mass combat, a signal rocket allows a commander to change <Link to="/rule/strategy_track">strategy track</Link> with a higher degree of success than normal. A commander can launch a signal rocket while changing a strategy track by more than 1 step to grant his army a +5 circumstance bonus on its Morale check to implement his orders.</p>
+<Tabular format="craftalch" a="15" />
 </>};
 const _firework_skydragon = {title: "Firework (skydragon)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-firework_skydragon-firework-skydragon">Firework (skydragon)</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 29</Link><br/><strong>Price</strong> 300 gp; <strong>Weight</strong> 10 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -353,8 +325,7 @@ const _firework_skydragon = {title: "Firework (skydragon)", topLink: ["Alchemica
 const _firework_skyrocket = {title: "Firework (skyrocket)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-firework_skyrocket-firework-skyrocket">Firework (skyrocket)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>When lit, this foot-long wooden tube begins to shake and emit a handful of white sparks, shedding light as a <Link to="/eq-misc/torch">torch</Link>. One round later it takes flight, moving at a speed of 90 feet for 1d6 rounds before loudly exploding in a burst of light and sound, dealing 2d6 points of fire damage in a 10-foot-radius <Link to="/misc/burst">burst</Link> (Reflex DC 15 halves). Anyone who takes damage from the explosion is either <Link to="/misc/blinded">blinded</Link> or <Link to="/misc/deafened">deafened</Link> (50% chance of either) for 1 round. Crafting this item is a DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-firework_skyrocket-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _firework_sparking_pinwheel = {title: "Firework (sparking pinwheel)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-firework_sparking_pinwheel-firework-sparking-pinwheel">Firework (sparking pinwheel)</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 29</Link><br/><strong>Price</strong> 60 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -365,38 +336,32 @@ const _firework_star_candle = {title: "Firework (star candle)", topLink: ["Alche
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
 <p><em>Originally known as "Desnan Candle Firework".</em></p>
 <p>When lit, this foot-long wooden tube launches a flaming pyrotechnic "candle" every round for 4 rounds. The projectiles deal 1 point of nonlethal damage and 1 point of fire damage if they hit; on a critical hit, the target is also <Link to="/misc/blinded">blinded</Link> for 1 round. The projectiles shed light as <Link to="/eq-misc/candles">candles</Link> for 1 round and have a range increment of 5 feet. Attacking with a star candle is a ranged touch attack and always has a -4 nonproficiency penalty. Crafting this item is a DC 20 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-firework_star_candle-construction">Construction</h3>
-<p>Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _firework_starfountain = {title: "Firework (starfountain)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-firework_starfountain-firework-starfountain">Firework (starfountain)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 500 gp; <strong>Weight</strong> 100 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This tree stump-sized bundle of tubes immediately begins to emit arcs of multi-colored sparks when lit. Starting 1d6 rounds after lighting, it loudly releases brightly colored streaks of tiny flaming particles for 4 rounds. Outdoors, these particles soar far up into the sky before dispersing. Indoors or in a closed area, the ricocheting fireworks deal 1d6 points of fire damage each round in a 20-foot-radius <Link to="/misc/spread">spread</Link> (Reflex DC 15 halves). Creatures who fail their save are <Link to="/misc/blinded">blinded</Link> for 1d4 rounds and <Link to="/misc/deafened">deafened</Link> for 1 hour. Crafting this item is a DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-firework_starfountain-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _flash_powder = {title: "Flash powder", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-flash_powder-flash-powder">Flash powder</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This coarse gray powder ignites and burns almost instantly if exposed to flame, significant friction, or even simple force such as throwing it against a floor (a standard action). Creatures within a 10-foot-radius <Link to="/misc/burst">burst</Link> are <Link to="/misc/blinded">blinded</Link> for 1 round (Fortitude DC 13 negates). Crafting this item is a DC 20 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-flash_powder-construction">Construction</h3>
-<p>Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _fuse_grenade = {title: "Fuse grenade", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-fuse_grenade-fuse-grenade">Fuse grenade</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This hollow clay container holds a small charge of black powder and a slow-burning fuse. Lighting the fuse is a move action; 1d3 rounds later the grenade explodes, dealing 2d6 points of bludgeoning damage and 1d6 points of fire damage in a 10-foot-radius <Link to="/misc/burst">burst</Link> (Reflex DC 15 halves). You throw a fuse grenade as if it were a <Link to="/rule/splash_weapon">splash weapon</Link>. Crafting this item is a DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-fuse_grenade-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _ghast_retch_flask = {title: "Ghast retch flask", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-ghast_retch_flask-ghast-retch-flask">Ghast retch flask</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>Harvested and concentrated from the remains of slain <Link to="/monster/ghast">ghasts</Link>, this foul-smelling powder is kept in tightly sealed flasks. It is thrown as a <Link to="/rule/splash_weapon">splash weapon</Link> and the flask breaks on impact, releasing noxious dust. The target is <Link to="/misc/nauseated">nauseated</Link> for 1 round and <Link to="/misc/sickened">sickened</Link> for 3 rounds after that. A successful DC 12 Fortitude save prevents the nauseated condition, but not the sickened condition. Creatures within 5 feet of where the flask hits are sickened for 1 round. This is a poison effect. Crafting this item is a DC 20 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-ghast_retch_flask-construction">Construction</h3>
-<p>Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _hellfire_sparkler = {title: "Hellfire sparkler", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-hellfire_sparkler-hellfire-sparkler">Hellfire sparkler</h2>
 <p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook pg. 28</Link><br/><strong>Price</strong> 250 gp; <strong>Weight</strong> 50 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
-<p>This large barrel-shaped sparkler is imbued with mysterious, hellish forces. The fuse can be lit as a standard action; 1d4 rounds later, the sparkler crackles violently with sickly-green sparks that take the form of an army of ferocious devils. Creatures within a 10-foot-radius <Link to="/misc/burst">burst</Link> take 3d6 points of fire damage and become <Link to="/misc/shaken">shaken</Link> for 2 rounds; a target can attempt a DC 15 Will save to halve the damage and the duration of the shaken condition. Crafting a hellfire sparkler requires a successful DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-hellfire_sparkler-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<p>This large barrel-shaped sparkler is imbued with mysterious, hellish forces. The fuse can be lit as a standard action; 1d4 rounds later, the sparkler crackles violently with sickly-green sparks that take the form of an army of ferocious devils. Creatures within a 10-foot-radius <Link to="/misc/burst">burst</Link> take 3d6 points of fire damage and become <Link to="/misc/shaken">shaken</Link> for 2 rounds; a target can attempt a DC 15 Will save to halve the damage and the duration of the shaken condition.</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _holy_water = {title: "Holy water", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-holy_water-holy-water">Holy water</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -410,51 +375,43 @@ const _holy_water = {title: "Holy water", topLink: ["Alchemical Weapons","main/e
 const _holy_weapon_balm = {title: "Holy weapon balm", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-holy_weapon_balm-holy-weapon-balm">Holy weapon balm</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 209</Link><br/><strong>Price</strong> 30 gp; <strong>Weight</strong> 0.5 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This violet balm comes in a small ceramic pot. When applied to a weapon as a standard action, it forms a transparent coating. Weapons coated in this balm deal an additional 2d4 points of damage to undead or evil outsiders. A creature affected by the balm must succeed at a DC 10 Reflex save or take an additional 1d4 points of damage the following round. Any nonmagical weapon coated with the balm affects incorporeal undead or evil outsiders as if it were a magic weapon. Any magic weapon coated with the balm affects incorporeal undead or evil outsiders as if the weapon had the <Link to="/magic-enh/ghost_touch">ghost touch</Link> special ability. The balm remains effective until you make a successful attack with the weapon or until 1 minute has passed, whichever is sooner. Each dose of balm can coat one weapon or 10 pieces of ammunition.</p>
-<h3 id="eq-weapon-holy_weapon_balm-construction">Construction</h3>
-<p>Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _incendiary_catalyst = {title: "Incendiary catalyst", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-incendiary_catalyst-incendiary-catalyst">Incendiary catalyst</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_115_trail_of_the_hunted">Pathfinder #115: Trail of the Hunted pg. 74</Link><br/><strong>Price</strong> 40 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
-<p>Incendiary catalyst can be thrown at a creature as a ranged touch attack with a range increment of 10 feet. On a hit, the target is doused with accelerants that give the target vulnerability to fire for 1 round. Incendiary catalyst does not affect creatures that are already vulnerable to fire, and the target's fire immunity and resistances apply as normal. Crafting this item requires a successful DC 20 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-incendiary_catalyst-construction">Construction</h3>
-<p>Craft (Alchemy) DC 20</p>
+<p>Incendiary catalyst can be thrown at a creature as a ranged touch attack with a range increment of 10 feet. On a hit, the target is doused with accelerants that give the target vulnerability to fire for 1 round. Incendiary catalyst does not affect creatures that are already vulnerable to fire, and the target's fire immunity and resistances apply as normal.</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _insomnia_powder = {title: "Insomnia powder", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-insomnia_powder-insomnia-powder">Insomnia powder</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 26</Link><br/><strong>Price</strong> 60 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This fine white powder is a powerful stimulant that affects the nervous systems of any creatures that inhale or ingest it, preventing them from sleeping for 24 hours. A packet of insomnia powder can be thrown as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet. A creature struck by a direct hit must succeed at a DC 12 Fortitude save to avoid the effect, while those in the splash radius must succeed at DC 8 Fortitude saves. This is a poison effect.</p>
 <p>Although it causes no severe damage, insomnia can cause a creature to be more prone to fatigue or exhaustion. Though it prevents sleep (and thus prevents wizards and some other spellcasters from regaining their spells), insomnia powder does not prevent a creature from meditating or praying. The effects of insomnia powder can be countered by <Link to="/spell/sleep">sleep</Link>, <Link to="/spell/neutralize_poison">neutralize poison</Link>, or similar effects.</p>
-<h3 id="eq-weapon-insomnia_powder-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _itching_powder = {title: "Itching powder", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-itching_powder-itching-powder">Itching powder</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 60 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This fine gray powder causes targets to suffer from uncontrollable itching until they spend at least 1 round washing it off. Throwing a packet of itching powder is a <Link to="/rule/throw_splash_weapon">splash attack</Link> with a range increment of 10 feet. Anyone standing on the square of impact must succeed at a DC 12 Fortitude save to resist the powder, while those in adjacent squares must make a DC 8 Fortitude save. Creatures that fail the save take a -2 penalty on attack rolls, saving throws, skill checks, and ability checks until they wash the powder off. This is a poison effect. Crafting this item is a DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-itching_powder-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _keros_oil = {title: "Keros oil", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-keros_oil-keros-oil">Keros oil</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>Also known as firebreather's oil, this bitter liquid is harder to ignite than common <Link to="/eq-misc/oil">oil</Link> but burns quickly at a low temperature, making it ideal for exotic performers such as fire-spinners and flame-spitters. You may spit a mouthful of keros oil past an open flame (such as a <Link to="/eq-misc/candle">candle</Link>, <Link to="/eq-misc/tindertwig">tindertwig</Link>, or <Link to="/eq-misc/torch">torch</Link>) to ignite it, creating a brief burst of fire. If you use it to attack, the attack is a ranged touch attack with a maximum range of 5 feet that deals 1d3 points of fire damage. If you roll a 1 on your attack roll, you accidentally inhale or swallow some of the burning fuel; you take 1d6 points of fire damage and are <Link to="/misc/nauseated">nauseated</Link> for 1 round. A bottle of keros oil holds enough for 10 mouthfuls; taking a mouthful from the bottle is a standard action (the <Link to="/feat/rapid_reload">Rapid Reload</Link> feat reduces this to a move action). Crafting this item is a DC 15 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-keros_oil-construction">Construction</h3>
-<p>Craft (Alchemy) DC 15</p>
+<Tabular format="craftalch" a="15" />
 </>};
 const _kitumus_ire = {title: "Kitumu's ire", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-kitumus_ire-kitumus-ire">Kitumu's ire</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 25</Link><br/><strong>Price</strong> 75 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>Named after a malevolent <Link to="/faith/kitumu">Mwangi goddess</Link>, this sack of luminous paste is made from crushed jungle flowers. You can throw Kitumu's ire as a ranged touch attack with a range increment of 10 feet; on a hit, the target is coated with the paste. A target coated with the paste draws the attention of any swarm within 30 feet, causing it to seek out and attack the target over any other creature. In addition, an affected creature takes a -2 penalty on saving throws against swarms' distraction ability. Kitumu's ire lasts for 1 hour or until washed away with at least a gallon of alcohol.</p>
-<h3 id="eq-weapon-kitumus_ire-construction">Construction</h3>
-<p>Craft (Alchemy) DC 30</p>
+<Tabular format="craftalch" a="30" />
 </>};
 const _liquid_blade = {title: "Liquid blade", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-liquid_blade-liquid-blade">Liquid blade</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link><br/><strong>Price</strong> 40 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>You can empty the contents of this palm-sized metal tube with a quick flick of your wrist (a move action), causing the bubbling transparent liquid within to instantly solidify into a jagged crystalline blade. By holding the tube, you can then use the crystalline blade as if it were a Medium <Link to="/eq-weapon/short_sword">short sword</Link> with the <Link to="/misc/fragile">fragile</Link> quality. The blade lasts for 10 minutes, after which it evaporates, leaving nothing behind but the tube. You can add one dose of poison to the liquid in the bottle, which acts like applying a dose of poison to a weapon except it is a full-round action; when the liquid turns into a solid blade, the weapon includes one application of that poison. When the blade evaporates, the poison does so as well. Crafting a liquid blade is a DC 15 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-liquid_blade-construction">Construction</h3>
-<p>Craft (Alchemy) DC 15</p>
+<Tabular format="craftalch" a="15" />
 </>};
 const _liquid_ice = {title: "Liquid ice", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-liquid_ice-liquid-ice">Liquid ice</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 40 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>Also known as "alchemist's ice," this sealed jar contains crystalline blue fluid that immediately starts to hiss and evaporate once opened. During the 1d6 rounds after it is opened but before it evaporates completely, you can use it to freeze a liquid or to coat an object in a thin layer of ice. You can also throw liquid ice as a <Link to="/rule/splash_weapon">splash weapon</Link>. A direct hit deals 1d6 points of cold damage; creatures within 5 feet of where it hits take 1 point of cold damage from the splash. Crafting this item is a DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-liquid_ice-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _lyddric_essence = {title: "Lyddric essence", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-lyddric_essence-lyddric-essence">Lyddric essence</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 11</Link><br/><strong>Price</strong> 20 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -463,9 +420,8 @@ const _lyddric_essence = {title: "Lyddric essence", topLink: ["Alchemical Weapon
 </>};
 const _mineral_acid = {title: "Mineral acid", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-mineral_acid-mineral-acid">Mineral acid</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes pg. 14</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
-<p>This sealed vial contains a highly potent indigo liquid and is an essential item for Dongun Hold miners, who often keep such vials handy for use against hostile subterranean creatures. The vial can be thrown as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet. A direct hit deals 2d6 points of acid damage; this damage is doubled against creatures made of crystal, earth, or metal. Every creature within 5 feet of the impact takes 1 point of acid damage. Crafting mineral acid requires a successful DC 20 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-mineral_acid-construction">Construction</h3>
-<p>Craft (Alchemy) DC 20</p>
+<p>This sealed vial contains a highly potent indigo liquid and is an essential item for Dongun Hold miners, who often keep such vials handy for use against hostile subterranean creatures. The vial can be thrown as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet. A direct hit deals 2d6 points of acid damage; this damage is doubled against creatures made of crystal, earth, or metal. Every creature within 5 feet of the impact takes 1 point of acid damage.</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _mu_spore_secretions = {title: "Mu spore secretions", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-mu_spore_secretions-mu-spore-secretions">Mu spore secretions</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 19</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -474,57 +430,48 @@ const _mu_spore_secretions = {title: "Mu spore secretions", topLink: ["Alchemica
 const _noxious_aromatic_flask = {title: "Noxious aromatic (flask)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-noxious_aromatic_flask-noxious-aromatic-flask">Noxious aromatic (flask)</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 13</Link><br/><strong>Price</strong> 15 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This glass container of foul-smelling oil shatters easily upon impact. You can throw a vial of noxious aromatic as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet. If a creature with the <Link to="/umr/scent">scent</Link> sense is standing in the square of impact, it must succeed at a DC 14 Fortitude save or be <Link to="/misc/nauseated">nauseated</Link> for 1d4+1 rounds. Any creature with scent in an adjacent square must succeed at a DC 12 Fortitude save or be <Link to="/misc/sickened">sickened</Link> for 1 round. Creatures without the scent ability are not affected by noxious aromatic.</p>
-<h3 id="eq-weapon-noxious_aromatic_flask-construction">Construction</h3>
-<p>Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _noxious_pig = {title: "Noxious pig", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-noxious_pig-noxious-pig">Noxious pig</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_91_battle_of_bloodmarch_hills">Pathfinder #91: Battle of Bloodmarch Hills pg. 72</Link><br/><strong>Price</strong> 150 gp; <strong>Weight</strong> 25 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>Giant alchemists make these items by manipulating the controlled decomposition of a dead hog. This <Link to="/rule/greater_splash_weapon">greater splash weapon</Link> deals no damage, but those within its primary area of effect - the target and those within 5 feet of the target or those within 5 feet of the intersection - must succeed at a DC 20 Fortitude save or be <Link to="/misc/nauseated">nauseated</Link> for 1d4 rounds.</p>
-<h3 id="eq-weapon-noxious_pig-construction">Construction</h3>
-<p>Craft (Alchemy) DC 35</p>
+<Tabular format="craftalch" a="35" />
 </>};
 const _pellet_grenade = {title: "Pellet grenade", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-pellet_grenade-pellet-grenade">Pellet grenade</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link><br/><strong>Price</strong> 150 gp (adamantine), 100 gp (cold iron), 50 gp (iron), 70 gp (silver); <strong>Weight</strong> 1 lb. (adamantine), 1 lb. (cold iron), 1 lb. (iron), 1 lb. (silver)</p>
 <p>This variant of a <Link to="/eq-weapon/fuse_grenade">fuse grenade</Link> has most of the black powder replaced with metal pellets. When it explodes, it deals 1d6 points of bludgeoning damage, 1d6 points of piercing damage, and 1d6 points of fire damage in a 10-foot-radius <Link to="/misc/burst">burst</Link> (Reflex DC 15 halves). A typical pellet grenade uses iron pellets, but they can instead be packed with silver, cold iron, or adamantine, bypassing damage reduction as appropriate to that material type. Like ammunition, the pellets are destroyed after one use. Crafting a pellet grenade is a DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-pellet_grenade-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _perfect_ice = {title: "Perfect ice", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-perfect_ice-perfect-ice">Perfect ice</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 21</Link><br/><strong>Price</strong> 1,500 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This vial contains a large snowflake that melts only at temperatures of 140 degrees Fahrenheit or above. Perfect ice is an alchemically engineered form of water that briefly converts any moisture it touches into a similar state. When a flask of perfect ice is opened or broken (such as by being thrown as a <Link to="/rule/splash_weapon">splash weapon</Link>), the snowflake within expands rapidly, forming a layer of ice and snow with a 60-foot radius along any nearby surface. Any living creature that touches an area of perfect ice or starts its turn in a space of perfect ice takes 4d6 points of damage from desiccation as some of the water in its body crystallizes (Fortitude DC 18 half). Creatures with the water subtype take half again as much damage (150%) and receive no saving throw. The ice crystals that form along flat surfaces are large and strong, and are treated as <Link to="/eq-misc/caltrops">caltrops</Link>. The ice persists for 10 minutes, after which it vaporizes or reverts to a normal state for its temperature. To avoid the hazards of its large area of effect, many users propel the vial from a <Link to="/eq-weapon/launching_crossbow">launching crossbow</Link> or use similar means to extend their throwing range.</p>
-<h3 id="eq-weapon-perfect_ice-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _plague_powder = {title: "Plague powder", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-plague_powder-plague-powder">Plague powder</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 213</Link><br/><strong>Price</strong> varies; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This ash-gray powder is refined from the crushed bones of creatures that died of virulent diseases, illegally produced by nefarious alchemists, and sold on the black market to those seeking to spread illness and death. The application of the powder depends on the disease from which it is refined. Someone using powder made from diseases contracted by ingestion must apply it to food (a full-round action) for the victim to consume. Those using powder made from diseases contracted by injury must apply the powder to weapons (a standard action, as per the <Link to="/rule/poison">poison application</Link> rules) and deal damage to victims to subject them to the contagion. Diseases contracted by inhalation require the user to disperse the powder by throwing it into the air. Throwing a handful of plague powder is a <Link to="/rule/throw_splash_weapon">splash attack</Link> with a range increment of 5 feet. Anyone standing in the square of impact must succeed at a save with a DC equal to that of the disease from which the powder is made to avoid contracting the illness, while those in adjacent squares must attempt the same save with a +4 bonus. Diseases spread through contact can use any of the three manners of application.</p>
-<p>The most common disease refined for these powders is <Link to="/disease/filth_fever">filth fever</Link>, costing 144 gp, but refined plague powders of other diseases are available, with a price equal to the base save DC of the disease squared. Making a plague powder always requires access to a sample of the disease and exposes the creator to the disease in question each day of crafting. Crafting a dose of plague powder requires a successful DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-plague_powder-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<p>The most common disease refined for these powders is <Link to="/disease/filth_fever">filth fever</Link>, costing 144 gp, but refined plague powders of other diseases are available, with a price equal to the base save DC of the disease squared. Making a plague powder always requires access to a sample of the disease and exposes the creator to the disease in question each day of crafting.</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _portable_hive = {title: "Portable hive", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-portable_hive-portable-hive">Portable hive</h2>
 <p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook pg. 28</Link><br/><strong>Price</strong> 300 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
-<p>This large flask holds a swarm of angry wasps. A portable hive can be thrown as a <Link to="/rule/splash_weapon">splash weapon</Link>, and when it hits a grid intersection or a creature, a <Link to="/monster/wasp_swarm">wasp swarm</Link> appears in a 10-foot-by-10-foot square at the point of impact. This swarm does not have the distraction or poison special abilities, and it disperses after 1d4 rounds. Crafting a portable hive requires a successful DC 25 Craft (alchemy) check</p>
-<h3 id="eq-weapon-portable_hive-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<p>This large flask holds a swarm of angry wasps. A portable hive can be thrown as a <Link to="/rule/splash_weapon">splash weapon</Link>, and when it hits a grid intersection or a creature, a <Link to="/monster/wasp_swarm">wasp swarm</Link> appears in a 10-foot-by-10-foot square at the point of impact. This swarm does not have the distraction or poison special abilities, and it disperses after 1d4 rounds.</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _pox_burster = {title: "Pox burster", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-pox_burster-pox-burster">Pox burster</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 154</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>A pox burster is an alchemically preserved animal bladder or gourd that has been filled with toxic, rotting materials. You can throw a pox burster as a <Link to="/rule/splash_weapon">splash weapon</Link>. Treat this attack as a ranged touch attack with a range increment of 10 feet. A direct hit forces a target to immediately make a DC 13 Fortitude save or contract <Link to="/disease/filth_fever">filth fever</Link>. Every space adjacent to the target square of the pox burster is covered in disease-causing filth. For the next minute, any creature that is injured while in one of these spaces must also make a DC 9 Fortitude save or contract filth fever.</p>
-<h3 id="eq-weapon-pox_burster-construction">Construction</h3>
-<p>Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _shadowcloy_flask = {title: "Shadowcloy flask", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-shadowcloy_flask-shadowcloy-flask">Shadowcloy flask</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 111</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This thin black liquid is stored in airtight flasks because it evaporates quickly when exposed to air. Its cloying vapors cling to a target, obscuring vision for a short period of time. You can throw a shadowcloy flask as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet. A direct hit means the target treats the <Link to="/rule/vision_and_light">ambient light</Link> as one category darker than normal, with a creature already in natural darkness treating it as supernatural darkness. This effect lasts for 1 round. A thrown shadowcloy flask has no effect on adjacent creatures or if it misses.</p>
-<h3 id="eq-weapon-shadowcloy_flask-construction">Construction</h3>
-<p>Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _shard_gel = {title: "Shard gel", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-shard_gel-shard-gel">Shard gel</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This vivid green gel instantly crystallizes into needle-like shards upon contact with the air. You can throw a flask of shard gel as a <Link to="/rule/splash_weapon">splash weapon</Link>. A direct hit deals 1d4 points of piercing damage as the shards penetrate the target's flesh. The target's square and each square adjacent to it are covered in shards that function like <Link to="/eq-misc/caltrops">caltrops</Link>. The caltrops last for 5 rounds before dissolving into harmless green sludge. Any effect that deals sonic damage to an area (such as <Link to="/spell/sound_burst">sound burst</Link> or <Link to="/spell/shout">shout</Link>) immediately destroys all gel shards in that area. Crafting a flask of shard gel is a DC 20 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-shard_gel-construction">Construction</h3>
-<p>Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _shriek_bomb = {title: "Shriek bomb", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-shriek_bomb-shriek-bomb">Shriek bomb</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 7</Link><br/><strong>Price</strong> 45 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -533,9 +480,8 @@ const _shriek_bomb = {title: "Shriek bomb", topLink: ["Alchemical Weapons","main
 </>};
 const _silvercloud_oil = {title: "Silvercloud oil", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-silvercloud_oil-silvercloud-oil">Silvercloud oil</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon pg. 30</Link><br/><strong>Price</strong> 60 gp; <strong>Weight</strong> 0.5 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
-<p>The viscous turquoise oil in this fine glass vial bursts into a pearlescent, silvery mist when exposed to air. You can throw a vial of silvercloud oil as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet. A direct hit allows the mist to enter the body of a target with DR/silver and eat away at the victim's defenses, reducing its DR/silver by 1 per round for 1d4+1 rounds (to a minimum of 0). Once the duration of this effect ends, the target fully regains its damage reduction. Each creature with DR/silver within 5 feet of the point where the vial struck takes a -1 penalty to its DR/silver for 1 round. Crafting this item requires a successful DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-silvercloud_oil-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<p>The viscous turquoise oil in this fine glass vial bursts into a pearlescent, silvery mist when exposed to air. You can throw a vial of silvercloud oil as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet. A direct hit allows the mist to enter the body of a target with DR/silver and eat away at the victim's defenses, reducing its DR/silver by 1 per round for 1d4+1 rounds (to a minimum of 0). Once the duration of this effect ends, the target fully regains its damage reduction. Each creature with DR/silver within 5 feet of the point where the vial struck takes a -1 penalty to its DR/silver for 1 round.</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _slime_grenade = {title: "Slime grenade", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-slime_grenade-slime-grenade">Slime grenade</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 23</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 3 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -544,29 +490,25 @@ const _slime_grenade = {title: "Slime grenade", topLink: ["Alchemical Weapons","
 </>};
 const _slime_slow = {title: "Slime slow", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-slime_slow-slime-slow">Slime slow</h2>
 <p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook pg. 19</Link><br/><strong>Price</strong> 15 gp; <strong>Weight</strong> 0.5 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
-<p>Dark blue crystals are suspended at various points in this chunky mixture of icy liquid. When the liquid inside is exposed to open air, a vial of slow slime has a unique congealing effect on amorphous bodies. The wielder can throw a vial of slime slow as a <Link to="/rule/splash_weapon">splash weapon</Link>. If a creature with the <Link to="/umr/amorphous">amorphous</Link> special quality suffers a direct hit, that creature must succeed at a DC 20 Fortitude save or lose the benefits of being amorphous for 1d4 rounds. Amorphous creatures indirectly hit by slime slow must attempt the same Fortitude save, but only risk losing the benefits of being amorphous for 1 round. Crafting a vial of slime slow requires a successful DC 20 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-slime_slow-construction">Construction</h3>
-<p>Craft (Alchemy) DC 20</p>
+<p>Dark blue crystals are suspended at various points in this chunky mixture of icy liquid. When the liquid inside is exposed to open air, a vial of slow slime has a unique congealing effect on amorphous bodies. The wielder can throw a vial of slime slow as a <Link to="/rule/splash_weapon">splash weapon</Link>. If a creature with the <Link to="/umr/amorphous">amorphous</Link> special quality suffers a direct hit, that creature must succeed at a DC 20 Fortitude save or lose the benefits of being amorphous for 1d4 rounds. Amorphous creatures indirectly hit by slime slow must attempt the same Fortitude save, but only risk losing the benefits of being amorphous for 1 round.</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _sneezing_powder = {title: "Sneezing powder", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-sneezing_powder-sneezing-powder">Sneezing powder</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 60 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This coarse yellowish-red powder is a <Link to="/rule/splash_weapon">splash weapon</Link> that causes uncontrollable sneezing for 1d4+1 rounds. Anyone standing in the square of impact must succeed at a DC 12 Fortitude save to resist the powder, while those in adjacent squares must make DC 8 Fortitude saves. Creatures affected by sneezing powder must make a DC 10 Fortitude save every round for the duration or be <Link to="/misc/staggered">staggered</Link> until their next turn. This is a poison effect. Crafting this item is a DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-sneezing_powder-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _somnigrip = {title: "Somnigrip", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-somnigrip-somnigrip">Somnigrip</h2>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 31</Link><br/><strong>Price</strong> 45 gp; <strong>Weight</strong> 3 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
-<p>This tacky paste is peppered with flakes of glass created using materials from the Elemental Planes, and this glass effectively limits underground movement. When you throw somnigrip at a creature (this requires a ranged touch attack with a range increment of 10 feet) and strike your target, the creature must succeed at a DC 20 Strength check each round. If the creature succeeds, it can burrow or use <Link to="/umr/earth_glide">earth glide</Link> (if it has that ability) at half its burrow speed that round. If it fails, the creature cannot burrow or use earth glide at all that round, although it can still move using its other speeds as normal. Somnigrip dissolves and stops affecting a creature's movement after 1 minute. Crafting this item requires a successful DC 20 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-somnigrip-construction">Construction</h3>
-<p>Craft (Alchemy) DC 20</p>
+<p>This tacky paste is peppered with flakes of glass created using materials from the Elemental Planes, and this glass effectively limits underground movement. When you throw somnigrip at a creature (this requires a ranged touch attack with a range increment of 10 feet) and strike your target, the creature must succeed at a DC 20 Strength check each round. If the creature succeeds, it can burrow or use <Link to="/umr/earth_glide">earth glide</Link> (if it has that ability) at half its burrow speed that round. If it fails, the creature cannot burrow or use earth glide at all that round, although it can still move using its other speeds as normal. Somnigrip dissolves and stops affecting a creature's movement after 1 minute.</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _specialty_smoke_pellet_pepper = {title: "Specialty smoke pellet (pepper)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-specialty_smoke_pellet_pepper-specialty-smoke-pellet-pepper">Specialty smoke pellet (Pepper)</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 27</Link><br/><strong>Price</strong> 60 gp (Pepper), 40 gp (Smog); <strong>Weight</strong> - (Pepper), - (Smog)</p>
 <p>Like standard <Link to="/eq-misc/smoke_pellet">smoke pellets</Link>, these specialty pellets fill a single 5-foot square with opaque smoke for 1 round when broken. They can also be thrown as a ranged touch attack with a range increment of 10 feet. However, unlike standard smoke pellets, these pellets produce smoke that confers additional effects.</p>
 <p><strong>Pepper Pellet:</strong> The smoke from a pepper pellet is an ocular and respiratory irritant, and creatures that are hit by a pepper pellet or pass through the smoke must succeed at a DC 12 Fortitude save or be sickened for 1 round.</p>
 <p><strong>Smog Pellet:</strong> The smoke from a smog pellet is oily, and creatures that are hit by a smog pellet or pass through the smoke are covered in thick residue. This residue makes invisible creatures visible for 1d4 rounds.</p>
-<h3 id="eq-weapon-specialty_smoke_pellet_pepper-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _spore_dehiscent = {title: "Spore dehiscent", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-spore_dehiscent-spore-dehiscent">Spore dehiscent</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 29</Link><br/><strong>Price</strong> 30 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -578,9 +520,8 @@ const _stench_gas_bladder = {title: "Stench-gas bladder", topLink: ["Alchemical 
 </>};
 const _sting_grenade = {title: "Sting grenade", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-sting_grenade-sting-grenade">Sting grenade</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_115_trail_of_the_hunted">Pathfinder #115: Trail of the Hunted pg. 74</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
-<p>This hollow clay container holds black powder, a slow-burning fuse, and rock salt or hard beads of resin or rubber. Lighting the fuse is a move action; 1d3 rounds later, the sting grenade explodes, dealing 2d6 points of nonlethal damage and 1d6 points of fire damage in a 10-foot-radius <Link to="/misc/burst">burst</Link> (Reflex DC 15 half). A sting grenade is treated as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet. Crafting this item requires a successful DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-sting_grenade-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<p>This hollow clay container holds black powder, a slow-burning fuse, and rock salt or hard beads of resin or rubber. Lighting the fuse is a move action; 1d3 rounds later, the sting grenade explodes, dealing 2d6 points of nonlethal damage and 1d6 points of fire damage in a 10-foot-radius <Link to="/misc/burst">burst</Link> (Reflex DC 15 half). A sting grenade is treated as a <Link to="/rule/splash_weapon">splash weapon</Link> with a range increment of 10 feet.</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _stormstone = {title: "Stormstone", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-stormstone-stormstone">Stormstone</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 27</Link><br/><strong>Price</strong> 150 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -597,8 +538,7 @@ const _suffocating_powder = {title: "Suffocating powder", topLink: ["Alchemical 
 const _tangleburn_bag = {title: "Tangleburn bag", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-tangleburn_bag-tangleburn-bag">Tangleburn bag</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link><br/><strong>Price</strong> 150 gp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This sack contains tanglefoot bag materials and alchemical powders that burn at a high temperature. It functions like a <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bag</Link>, plus a direct hit on a creature deals 1d6 points of fire damage, and the creature must make a DC 20 Reflex save or catch on fire. If it catches on fire, for the next 2 rounds extinguishing the flames is a DC 25 Reflex save instead of a DC 15 save, and using water to extinguish the flames creates a burst of burning material equivalent to <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link> making a direct hit on the target (including splash damage). After the initial 2 rounds, the flames may be extinguished as normal. Crafting this item is a DC 30 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-tangleburn_bag-construction">Construction</h3>
-<p>Craft (Alchemy) DC 30</p>
+<Tabular format="craftalch" a="30" />
 </>};
 const _tanglefoot_bag = {title: "Tanglefoot bag", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-tanglefoot_bag-tanglefoot-bag">Tanglefoot bag</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 31</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 4 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -609,21 +549,18 @@ const _tanglefoot_bag = {title: "Tanglefoot bag", topLink: ["Alchemical Weapons"
 const _tanglefoot_bundle = {title: "Tanglefoot bundle", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-tanglefoot_bundle-tanglefoot-bundle">Tanglefoot bundle</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_91_battle_of_bloodmarch_hills">Pathfinder #91: Battle of Bloodmarch Hills pg. 72</Link><br/><strong>Price</strong> 250 gp; <strong>Weight</strong> 20 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This <Link to="/rule/greater_splash_weapon">larger version</Link> of a <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bag</Link> entangles its target as normal and requires a successful DC 20 Reflex saving throw to avoid being stuck to the floor. In addition, it can affect Huge and smaller creatures, and has a range increment of 60 feet. A creature that is glued to the floor can break free by succeeding at a DC 30 Strength check or by dealing 25 points of damage to the goo with a slashing weapon.</p>
-<h3 id="eq-weapon-tanglefoot_bundle-construction">Construction</h3>
-<p>Craft (Alchemy) DC 35</p>
+<Tabular format="craftalch" a="35" />
 </>};
 const _tar_bomb = {title: "Tar bomb", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-tar_bomb-tar-bomb">Tar bomb</h2>
 <p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 21</Link><br/><strong>Price</strong> 15 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>A tar bomb is an easy weapon to make, and devastating in use. A head-sized lump of tar is wrapped around a rope and set on fire. You use the rope to lob the burning tar onto an enemy's deck, where it sticks and sets the ship alight. In many ways, a tar bomb functions as a less potent version of <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link>, as it deals less damage and lacks the splash damage of the more expensive substance. Treat this attack as a ranged touch attack with a range increment of 10 feet. Lighting a tar bomb is a move action.</p>
 <p>A hit with a tar bomb deals 1d4 points of fire damage and has the potential to set the struck object or creature on fire, causing an additional 1d6 points of fire damage each round unless the target or an adjacent creature makes a DC 15 Reflex save to extinguish the flames as a full-round action. Knocking the tar bomb or the burning creature or object into a body of water or magically extinguishing the flames automatically smothers the fire.</p>
-<h3 id="eq-weapon-tar_bomb-construction">Construction</h3>
-<p>Craft (Alchemy) DC 15</p>
+<Tabular format="craftalch" a="15" />
 </>};
 const _thunderclap_charge = {title: "Thunderclap charge", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-thunderclap_charge-thunderclap-charge">Thunderclap charge</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes pg. 14</Link><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> 10 lbs.<br/><strong>Category</strong> Alchemical Weapons</p>
-<p>Used by the dwarves of Dongun Hold to excavate precious crystals from deep underground, this heavy ceramic canister is packed with inert fibers surrounding a large alchemically infused black powder charge with a fuse. Lighting the fuse is a move action; 1d3 rounds after the fuse is lit, the charge explodes, dealing 2d6 points of bludgeoning damage and 2d6 points of sonic damage in a 10-foot-radius <Link to="/misc/burst">burst</Link> (Reflex DC 15 half). Creatures in the area of effect are knocked <Link to="/rule/prone">prone</Link> and <Link to="/misc/deafened">deafened</Link> (a successful saving throw negates being knocked prone and reduces the deafened condition to 1 round). Crafting a thunderclap charge requires a successful DC 25 Craft (alchemy) check.</p>
-<h3 id="eq-weapon-thunderclap_charge-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<p>Used by the dwarves of Dongun Hold to excavate precious crystals from deep underground, this heavy ceramic canister is packed with inert fibers surrounding a large alchemically infused black powder charge with a fuse. Lighting the fuse is a move action; 1d3 rounds after the fuse is lit, the charge explodes, dealing 2d6 points of bludgeoning damage and 2d6 points of sonic damage in a 10-foot-radius <Link to="/misc/burst">burst</Link> (Reflex DC 15 half). Creatures in the area of effect are knocked <Link to="/rule/prone">prone</Link> and <Link to="/misc/deafened">deafened</Link> (a successful saving throw negates being knocked prone and reduces the deafened condition to 1 round).</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _thunderstone = {title: "Thunderstone", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-thunderstone-thunderstone">Thunderstone</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 31</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 107</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 30 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Weapons</p>
@@ -634,8 +571,7 @@ const _thunderstone = {title: "Thunderstone", topLink: ["Alchemical Weapons","ma
 const _tress_tincture = {title: "Tress tincture", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-tress_tincture-tress-tincture">Tress tincture</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 25</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This tincture is used to counteract hair loss and guarantee luxurious locks, but alchemists have developed a concentrated form for use in combat. You can throw tress tincture as a ranged touch attack with a range increment of 10 feet. On a hit, the target's hair grows long and thick, partly blocking the target's vision. The affected creature treats all other creatures as if they had <Link to="/rule/concealment">concealment</Link>. As a swift action, the affected creature can brush or toss its hair aside, negating this concealment for 1 round. As a full-round action that provokes an attack of opportunity, the affected creature can hack off enough hair to end the concealment effect; this requires a light or one-handed slashing weapon. Creatures incapable of growing hair are unaffected by tress tincture.</p>
-<h3 id="eq-weapon-tress_tincture-construction">Construction</h3>
-<p>Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _venomblock = {title: "Venomblock", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-venomblock-venomblock">Venomblock</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 27</Link><br/><strong>Price</strong> 60 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>

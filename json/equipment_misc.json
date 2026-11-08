@@ -81,7 +81,7 @@
 			"",
 			"An *accuracy lozenge* gives no benefit on attacks beyond the second, nor does it provide a second attack if you don't already have one.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"acrobats_pillar": {
@@ -151,7 +151,7 @@
 			"",
 			"An application of *age ointment* lasts for 1d4+1 days. *Age ointment* can be used once, and the price includes the required amounts of sealing wax and soap.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 15"
+			"::tabular{format=craftalch a=15}"
 		]
 	},
 	"air_bladder": {
@@ -212,7 +212,7 @@
 			"",
 			"@I-aid This flask of red liquid is enough to for 1 day stave off a vampire's hunger for blood. Few ‹template/vampire«s› enjoy it; most describe it as tasting stale and artificial. Some, particularly weaker or newer ones, feel that it interferes with the unholy magic keeping their bodies animated. However, it's an option utilized by vampires that are running for their unlives and attempting to stay hidden from vampire hunters.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 40"
+			"::tabular{format=craftalch a=40}"
 		]
 	},
 	"alchemical_candle_wax": {
@@ -231,7 +231,7 @@
 			"",
 			"@I-aura After burning for 1 minute, the alchemical candle releases the chosen alchemical substance as a colorless haze that lingers in a 5-foot radius centered on the candle for up to 1 hour, plus 30 minutes for each dose or vial of a substance infused into the candle wax beyond the first. A moderate wind (11+ mph) disperses the haze in 2 rounds; a strong or stronger wind (21+ mph) disperses the haze immediately.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"alchemical_cement": {
@@ -244,7 +244,7 @@
 			"",
 			"You mix this fine gray powder with water and a cubic foot of sand or gravel to form a durable stone-like material. Until it cures, it has the consistency of thick mud, and you must hold it in place (typically with a frame of earth or wood) if you want it to harden in a specific shape. It takes 1d10+10 minutes for the cement to partially cure, gaining ‹rule/hardness› 2 and 5 hit points per inch of thickness. After 1d6 hours the cement is fully cured and as hard as true stone.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 15"
+			"::tabular{format=craftalch a=15}"
 		]
 	},
 	"alchemical_cleaner": {
@@ -259,7 +259,7 @@
 			"",
 			"One pot of *alchemical cleaner* contains enough liquid to cover nine 5-foot squares. A pot of *alchemical cleaner* can be thrown as a ‹rule/splash weapon› and functions as an ‹eq-weapon/alkali flask› when thrown.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"alchemical_dye_kit": {
@@ -278,7 +278,7 @@
 			"",
 			"An application of dye fades after 1d4+1 days unless removed earlier by magical means. Applying a new application of alchemical dye immediately covers and replaces a previous application. An *alchemical dye kit* is exhausted after 10 uses.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"alchemical_glue_accelerant": {
@@ -291,7 +291,7 @@
 			"",
 			"@I-boost This tiny dropper contains a liquid that speeds up the cure time of ‹eq-misc/alchemical glue›. Applying the accelerant is a @HL[standard action]. Accelerated glue is tacky after 1 round and fully cured in 1 minute. The dropper contains 20 doses; each dose is sufficient to cure one small application of alchemical glue. The entire dropper must be used to cure a full square foot of glue.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"alchemical_glue": {
@@ -306,7 +306,7 @@
 			"",
 			"Pulling apart a large glued surface (at least 1 square foot) requires a DC 20 Strength check for tacky glue or DC 25 for cured glue. Pulling apart a small glued surface (anything less than 1 square foot) is a DC 15 Strength check for tacky glue or DC 20 for cured glue.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"alchemical_grease": {
@@ -325,7 +325,7 @@
 			"",
 			"@I-def If you coat yourself in *alchemical grease,* you gain a +5 alchemical bonus on ‹skill/Escape Artist› checks, on combat maneuver checks made to escape a ‹rule/grapple›, and to your CMD to avoid being grappled; this lasts 4 hours or until you wash it off.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 15"
+			"::tabular{format=craftalch a=15}"
 		]
 	},
 	"alchemical_pheromones_aggression": {
@@ -393,7 +393,7 @@
 			"",
 			"@I-aid-down While any creature can eat these preserves as a @HL[standard action], it only affects halflings in a beneficial way. Halflings who eat the preserves recover from ‹misc/fatigue›. Non-halflings who eat *alchemical preserves* become ‹misc/sickened› for 1 round.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"alchemical_resin": {
@@ -436,7 +436,7 @@
 			"",
 			"This bubbling purple gel eats through adhesives. Each vial can cover a single 5-foot square. It destroys most normal adhesives (such as tar, tree sap, or glue) in a single round but takes 1d4+1 rounds to deal with more powerful adhesives (‹eq-misc/alchemical glue›, ‹eq-weapon/tanglefoot bag«s›, spider webbing, and so on). It has no affect on fully magical adhesives, such as ‹magic-wondrous/sovereign glue›.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"alchemical_tar_paper": {
@@ -465,7 +465,7 @@
 			"",
 			"@I-aid Favored by young rakes and other well-to-do inebriates, this crystalline powder resembles salt. Mixed with water, it makes a fizzing cocktail that eliminates the effects of a hangover within 10 minutes of drinking it.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"alchemists_kit": {
@@ -536,7 +536,7 @@
 			"",
 			"@I-def These tiny granules can be dissolved in water, creating a slimy material used to coat metallic items such as weapons or armor. Such a coating neutralizes the metal-eating acid of ‹monster/black pudding«s› and ‹monster/gray ooze«s›, protecting the item from 1d3 contacts with an ooze's acidic touch.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"allnight": {
@@ -696,7 +696,7 @@
 			"",
 			"@I-boost-down For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on Diplomacy checks, and if you fail a Diplomacy check to shift a creature's attitude by 5 or more, the creature's attitude toward you doesn't worsen. The increased pheromone production makes it difficult to think, causing you take a -2 penalty on Intelligence-based skill checks for the same duration. Additionally, creatures with the ‹umr/scent› ability can detect you from twice as far away for the same duration.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"ambrosia_vial": {
@@ -709,7 +709,7 @@
 			"",
 			"@I-def Upon consumption, this heavenly elixir, brewed from holy water and blessed herbs, grants a +2 sacred bonus on saving throws against negative energy, ‹rule/energy drain›, and death effects for 1 hour, including saves to remove negative levels. *Ambrosia* affects undead and evil outsiders as ‹eq-weapon/holy water›.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"amp": {
@@ -767,7 +767,7 @@
 			"",
 			"@I-def For 1 hour after drinking *anesthetic wine,* you gain a +5 bonus on saving throws against pain effects, and when you would take nonlethal damage, reduce the amount of damage taken by 1.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"angel_quill_arrowhead": {
@@ -786,7 +786,7 @@
 			"",
 			"*Angel quill arrowheads* of ‹eq-material/silver› and ‹eq-material/adamantine› are also available for the same price, and affect creatures with DR/silver or DR/adamantine, respectively.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"angelstep": {
@@ -874,7 +874,7 @@
 			"",
 			"Leshys and other plant creatures have to be wary of hungry herbivorous animals. A dose of animal repellent makes a plant creature smell unappetizing for 24 hours. Animals do not attempt to consume a plant creature coated in animal repellent if there are other food sources available, and in combat prefer to use natural attacks that are not bite attacks against such a creature if they can. Animal repellent counts as a strong scent, allowing creatures with the ‹umr/scent› ability to detect it at a greater range. Animal repellent does not work on ‹race/ghoran«s› with the delicious racial trait.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"animal_repellant_sack": {
@@ -898,7 +898,7 @@
 			"",
 			"@I-boost This sacred oil, infused with aromatic spices and distilled ‹eq-weapon/holy water›, may be applied to a creature while casting a harmless divine spell with a range of touch, increasing the casting time to a full-round action but also increasing the caster's effective caster level by +1 for that spell.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"animals": {
@@ -1110,7 +1110,7 @@
 			"",
 			"@I-roll If you take it before being exposed to an effect that would give you the ‹misc/nauseated› condition and allows a saving throw, you attempt two saving throws against the effect and take the higher result. A single dose provides this benefit for 1 hour.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"antiplague": {
@@ -1127,7 +1127,7 @@
 			"",
 			"@I-def-roll If you drink a vial of this foul-tasting, milky tonic, you gain a +5 alchemical bonus on Fortitude saving throws against disease for the next hour. If already infected, you may also make two saving throws (without the +5 bonus) that day and use the better result.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"antitoxin": {
@@ -1175,7 +1175,7 @@
 			"",
 			"Alternatively, if 1 or more doses of the poison in question can be provided, most alchemists will supply as much *antivenom* as they can produce from the doses for a fee of 10% of the market price of the poison.",
 			"",
-			"**Construction:** Craft (Alchemy) DC varies"
+			"::tabular{format=craftalch a=\"varies\"}"
 		]
 	},
 	"anulite_paprika": {
@@ -1221,7 +1221,7 @@
 			"",
 			"@I-boost This sticky-sweet syrup is distilled from ivy and rabbit musk, and causes a mild allergic reaction in ‹race/halfling«s›. The slight swelling - especially in the face - and mild redness it induces makes the face seem younger, granting a halfling who drinks a dose of *applecheek* a +2 alchemical bonus on ‹skill/Disguise› checks to look like an elven, half-elven, or human child. The effects of a dose of *applecheek* persist for 24 hours.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 15"
+			"::tabular{format=craftalch a=15}"
 		]
 	},
 	"applejack_gallon": {
@@ -1290,7 +1290,7 @@
 			"",
 			"@I-warning A creature can internally store only one substance that uses *aquemir;* further attempts waste all imbibed substances (and immediately render inert all potions, extracts, alchemical remedies, and so on) and cause the creature to become ‹misc/nauseated› for 1d4 rounds.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 30"
+			"::tabular{format=craftalch a=30}"
 		]
 	},
 	"arcane_adept_package": {
@@ -1369,7 +1369,7 @@
 			"",
 			"@I-boost This thick lubricant makes the joints of armor move more freely. Applying the ointment takes 1 minute and reduces your armor's armor check penalty by 1 (to a minimum of -1) for 8 hours.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 15"
+			"::tabular{format=craftalch a=15}"
 		]
 	},
 	"armor_truss": {
@@ -1490,7 +1490,7 @@
 			"",
 			"@I-boost-down For 6 hours after drinking this tincture, you gain a +2 alchemical bonus on ‹skill/Bluff› and ‹skill/Perform› checks, and you treat your level as 1 higher for the purpose of determining the effects of a ‹ability/bardic performance› or a ‹ability/raging song›. The potent drink causes you take a -2 penalty on ‹skill/Acrobatics›, ‹skill/Intimidate›, ‹skill/Knowledge›, ‹skill/Sense Motive›, and ‹skill/Spellcraft› checks for the same duration.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"astrolabe": {
@@ -1979,7 +1979,7 @@
 			"",
 			"This benefit can be gained only once per day; consuming multiple doses in a 24-hour period has no additional effects.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"barbarians_kit": {
@@ -2173,7 +2173,7 @@
 			"",
 			"This light brown oil works similar to ‹eq-misc/Kaava musk› but attracts one specific kind of creature (dogs, giant bees, and so on).",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"beast_whistle": {
@@ -2219,7 +2219,7 @@
 			"",
 			"A single vial of *beast-scent* masks the scent of one Medium creature or two smaller creatures; larger creatures require proportionally more to gain the benefits. *Beast-scent* becomes inert after 1 hour of exposure to air. Applying a vial is a @HL[full-round action] that provokes attacks of opportunity.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"beast_training_kit": {
@@ -2513,7 +2513,7 @@
 			"",
 			"@I-lower A creature exposed to *black fester* resists magical healing; a creature trying to magically heal the target must make a DC 10 caster level check to restore any hit points to the target.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"black_fester": { "redirect": "black_fester_vial" },
@@ -2540,7 +2540,7 @@
 			"",
 			"Blackfire clay only produces heat, never light, smoke, or odor. The clay emits warmth for 1 hour before hardening into an unusable lump. A newly created brick of *blackfire clay* is composed of 10 blocks.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"blackwood_figurehead": {
@@ -2568,7 +2568,7 @@
 			"",
 			"@I-def This clear resin protects a weapon from harmful attacks made by oozes and ‹monster/rust monster«s›, as well as from similar effects that corrode or melt weapons, rendering the weapon immune for 24 hours. One pot can coat one two-handed weapon, two one-handed or light weapons, or 50 ammunition items. Applying it takes 1 full round per pot. Immersing the weapon in water or similar liquid washes it off.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 15"
+			"::tabular{format=craftalch a=15}"
 		]
 	},
 	"blain_bane": {
@@ -2581,7 +2581,7 @@
 			"",
 			"@I-def This alchemically infused wax is spread over exposed skin to protect it from chapping, cold, dry winds, heat, and the loss of moisture. Applying it takes 5 minutes; once applied, it reduces any nonlethal damage taken from ‹rule/cold› or [hot](rule/heat_dangers) environments by 1 point for 6 hours.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 19"
+			"::tabular{format=craftalch a=19}"
 		]
 	},
 	"blanket": {
@@ -2627,7 +2627,7 @@
 			"",
 			"@I-lower The next time a creature must save against the drinker's disease save DC, the DC for the initial infection increases by +2. The tonic lasts for 10 minutes or until the next time a creature must save against the drinker's disease DC, whichever comes first.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"blightburn_paste": {
@@ -2682,7 +2682,7 @@
 			"",
 			"@I-aura-def When you release this vial of alchemical particles into the water as a @HL[standard action], the particles immediately neutralize the scent of exposed blood within 20 feet, rendering the blood undetectable by ‹umr/scent› (to a hunting shark, for example). *Blood neutralizer* has no effect on any blood that enters the area after the particles have been used.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"blood_boiling_pill": {
@@ -2727,7 +2727,7 @@
 			"",
 			"Though *blood-clotter salve* can be applied successively to the same injury, applying multiple doses doesn't cure additional damage.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"bloodblock": {
@@ -2750,7 +2750,7 @@
 			"",
 			"@I-boost When treating deadly wounds, using a dose of *bloodblock* counts as one use of a ‹eq-misc/healer's kit› (and grants the +5 bonus stated above).",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"bloodgorge": {
@@ -2791,7 +2791,7 @@
 			"",
 			"Though prized by climbers for its durability, bloodvine can also be used to bind creatures. *Bloodvine rope* has a ‹rule/hardness› of 5 and 10 hit points, and can be broken with a DC 30 Strength check. A creature bound by *bloodvine rope* can escape with a DC 35 ‹skill/Escape Artist› check or a DC 30 Strength check.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 30"
+			"::tabular{format=craftalch a=30}"
 		]
 	},
 	"bloody_mandrake": {
@@ -2828,7 +2828,7 @@
 			"",
 			"@I-roll-down The benefits of *boar's bellow* last for 1 hour; during this time, you must roll all Diplomacy checks twice and take the worse result.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 15"
+			"::tabular{format=craftalch a=15}"
 		]
 	},
 	"board_game": {
@@ -2855,7 +2855,7 @@
 			"",
 			"@I-boost When this pungent yellow powder is boiled in water and given to a creature to drink, it provides the attending healer a +5 alchemical bonus on ‹skill/Heal› checks for providing long-term care, treating poison, and treating disease.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"bogwalking_sandals": {
@@ -2894,7 +2894,7 @@
 			"",
 			"@I-boost Using a bomb launcher when throwing a bomb increases the bomb's range increment to 30 feet (or increases the range increment of a bomb with the ‹discovery/rocket bomb› discovery to 70 feet). Bomb launchers are destroyed when used.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"bombchucker": {
@@ -2935,7 +2935,7 @@
 			"",
 			"Bone paste ignores an organic object's hardness, and does not deal damage to inorganic objects or surfaces (such as metal, stone, or ceramic). One pouch of *bone paste* is enough to cover 1 square foot of surface, or (because of waste and spills) up to 20 smaller applications of approximately 2 square inches each.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"boniface_paint": {
@@ -2955,7 +2955,7 @@
 			"",
 			"One bucket of *boniface paint* covers up to a 10-foot-by-10-foot area, and its concealing effects last for 1 year.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"book_lariat": {
@@ -3020,7 +3020,7 @@
 			"",
 			"A newly crafted *bore brush* contains 5 applications.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 15"
+			"::tabular{format=craftalch a=15}"
 		]
 	},
 	"bottle": {
@@ -3070,7 +3070,7 @@
 			"",
 			"Throwing an inactive jar of *bottled sunlight* destroys the item, leaving only a smoldering pile of ashes where it struck.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 30"
+			"::tabular{format=craftalch a=30}"
 		]
 	},
 	"bottom_walkers_anchor": {
@@ -3180,7 +3180,7 @@
 			"",
 			"@I-def-down For 1 hour after drinking this tincture, you gain DR 1/slashing or piercing and can ignore pain effects. This numbing of your body causes you to take a -2 penalty on Fortitude saving throws for the same duration.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"brawlers_kit": {
@@ -3408,7 +3408,7 @@
 			"",
 			"If a balloon is not held or bound in place in some manner, it continues to rise until it reaches a height of 600 feet, or until 10 minutes have passed, after which it pops or deflates and is destroyed.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 15"
+			"::tabular{format=craftalch a=15}"
 		]
 	},
 	"burglars_outfit": {
@@ -3544,7 +3544,7 @@
 			"",
 			"@I-aid This tonic reduces menstrual pains and dramatically reduces the chances of conception during sexual intercourse if taken daily for 1 month. The effects last as long as it is taken daily thereafter. Each bottle contains 30 doses.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"caltrops": {
@@ -3761,7 +3761,7 @@
 			"",
 			"@I-power Similar to but weaker than a ‹eq-misc/sunrod›, this stick glows like a ‹eq-misc/candle› when struck and lasts for 12 hours.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"candlestick": {
@@ -3883,7 +3883,7 @@
 			"",
 			"If caphorite is exposed to sunlight, it immediately becomes permanently inert. Each pouch contains enough dust for two applications.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"caravan_masters_wagon": {
@@ -3915,7 +3915,7 @@
 			"",
 			"@I-warning This ice sheet becomes unstable and breaks up on its own after 1 hour, or 20 minutes in a hot climate. Any creature whose bare skin comes in contact with *cardice oil* takes 1d6 points of nonlethal damage each round because of the chemical's volatile nature, but the oil is ineffective as a splash weapon.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"cards": {
@@ -3977,7 +3977,7 @@
 			"",
 			"@I-lower One round after eating *carrion bait,* an affected undead or vermin becomes ‹misc/staggered› for 1d4 rounds as its belly bulges to incredible proportions (other creature types cannot stomach *carrion bait* and instead are ‹misc/nauseated› for 2d4 rounds). If the affected creature is already staggered, its movement speed instead decreases by 10 feet for the duration of the *carrion bait's* effect.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 19"
+			"::tabular{format=craftalch a=19}"
 		]
 	},
 	"cart": {
@@ -4013,7 +4013,7 @@
 			"",
 			"Hardened plaster has ‹rule/hardness› 1 and 5 hit points per inch of thickness. A 5-pound clay pot of plaster can cover about 5 square feet of flat space to a depth of 1 inch, five Medium forearm or lower-leg casts, two Medium full-arm or full-leg casts, or twice as many casts for a Small creature.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"cat_common": {
@@ -4303,7 +4303,7 @@
 			"",
 			"@I-def This pill causes the imbiber's skin to shift colors and patterns to match whatever is behind her. As long as a significant portion of her skin is exposed (her head and forearms, for example), the imbiber gains a +4 circumstance bonus on ‹skill/Stealth› checks for 4 hours. This bonus doesn't stack with that granted by ‹spell/invisibility›, ‹spell/vanish›, or similar magical effects.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 15"
+			"::tabular{format=craftalch a=15}"
 		]
 	},
 	"charcoal": {
@@ -4480,7 +4480,7 @@
 			"",
 			"A dose of *chill cream* lasts for 1 hour after being applied. A newly crafted bottle of *chill cream* holds 5 doses.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 15"
+			"::tabular{format=craftalch a=15}"
 		]
 	},
 	"chirurgeons_kit": {
@@ -5062,7 +5062,7 @@
 			"",
 			"One jar of *cooking powder* is enough to cook up to 5 pounds of food in 1-pound increments.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 15"
+			"::tabular{format=craftalch a=15}"
 		]
 	},
 	"cooler_chest": {
@@ -5104,7 +5104,7 @@
 			"",
 			"The water in a *coral boulder* slowly evaporates if it's left in a dry environment, and the boulder shrinks back to its original size in about a week. If dropped in water, a *coral boulder* sinks straight down, and is not moved by tides or flowing water.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"corentyn_wine_bottle": {
@@ -5358,7 +5358,7 @@
 			"",
 			"@I-aid When you burn this powerful resin, it fills eight contiguous 10-foot cubes with faint smoke that persists for 8 hours. Creatures resting or receiving long-term care in the smoke from *curative myrrh* regain 1 additional hit point per level. Multiple uses of *curative myrrh* in a 24-hour period do not stack.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 20"
+			"::tabular{format=craftalch a=20}"
 		]
 	},
 	"cushion_inserts": {
@@ -5410,7 +5410,7 @@
 			"",
 			"@I-def For 1 hour after applying the ointment to your skin, you can attempt a ‹skill/Stealth› check to hide from any creature attempting to perceive you using ‹umr/lifesense› or spiritsense (see the ‹subtype/psychopomp› subtype), even if you are clearly in that creature's perceptual field.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	},
 	"dancers_garb": {
@@ -5541,7 +5541,7 @@
 			"",
 			"Undisturbed, the dead air dissipates in 1 minute. A moderate wind (11+ mph) disperses the dead air in 4 rounds; a strong wind (21+ mph) disperses the dead air in 1 round.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 25"
+			"::tabular{format=craftalch a=25}"
 		]
 	}
 }

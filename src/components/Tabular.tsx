@@ -591,6 +591,21 @@ const FormatObject: { [x: string]: FormatProps } = {
 				</tbody></table>
 			);
 		}
+	},
+	craftalch: {
+		required: [ "a" ],
+		className: "backOnly",
+		formatter: (props) => {
+			const {a} = props;
+			return (
+				<table><tbody>
+					<tr>
+						<th scope="row">Construction</th>
+						<td><Link to="/skills/craft">Craft (Alchemy)</Link> DC {a}</td>
+					</tr>
+				</tbody></table>
+			);
+		}
 	}
 };
 

@@ -65,13 +65,13 @@ const _poison_tattoo = {title: "Poison tattoo", jsx: <><h2 id="eq-misc-poison_ta
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 209</Link>  </p>
 <Tabular format="misc" a="50" b="x" d="atool" />
 <p><Icons id="eq-misc-poison_tattoo-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This henna-like paste creates a dark brown tattoo on the hands or feet that fades over the next 2d6 days. The tattoo temporarily boosts the strength of a <Link to="/race/vishkanya">vishkanya's</Link> natural poison, increasing the DC of the next weapon envenomed with the vishkanya's blood or saliva by +2 (once used, the tattoo is merely decorative and does not affect the creature's poison). A typical tattoo consists of intricate whorls and spiritual symbols on the hands or feet.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _poison_ward_salve = {title: "Poison ward salve", jsx: <><h2 id="eq-misc-poison_ward_salve-poison-ward-salve">Poison ward salve</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 206</Link>  </p>
 <Tabular format="misc" a="15" b="x" d="rem" />
 <p><Icons id="eq-misc-poison_ward_salve-def-roll-icons" wrapper="prefixIcon" list={["def","roll"]} /> This herbal salve can be applied directly to the skin to prevent the effects of contact poisons. If a creature touches a contact poison, but you apply the salve within 1 round of contact, the victim rolls the save twice and uses the higher result.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+<Tabular format="craftalch" a="15" />
 </>};
 const _poisoned_locket = {title: "Poisoned locket", jsx: <><h2 id="eq-misc-poisoned_locket-poisoned-locket">Poisoned locket</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 29</Link>  </p>
@@ -185,7 +185,7 @@ const _potion_sponge = {title: "Potion sponge", jsx: <><h2 id="eq-misc-potion_sp
 <p>This egg-sized sponge is covered in a layer of waterproof edible wax, designed to absorb 1 dose of a potion.</p>
 <p><Icons id="eq-misc-potion_sponge-power-icons" wrapper="prefixIcon" list={["power"]} /> Chewing a potion sponge and swallowing its liquid contents is a <strong className="hl">full-round action</strong>. A creature of at least Large size can swallow the sponge in its entirely; other creatures must spit out the sponge once it's depleted (a <strong className="hl">free action</strong>). Unlike a potion that is drunk from a vial, a potion sponge can be used underwater.</p>
 <p><Icons id="eq-misc-potion_sponge-info-icons" wrapper="prefixIcon" list={["info"]} /> A potion can be poured from a vial into a sponge potion (or squeezed from a sponge into a vial) as a <strong className="hl">full-round action</strong>. The potion sponge is immune to attacks that specifically target crystal, glass, ceramic, or porcelain, such as <Link to="/spell/shatter">shatter</Link>. It otherwise works like a potion vial.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+<Tabular format="craftalch" a="15" />
 </>};
 const _powder_ball_empty = {title: "Powder ball (empty)", jsx: <><h2 id="eq-misc-powder_ball_empty-powder-ball">Powder ball</h2>
 <p><strong>Sources</strong> <Link to="/source/castles_of_the_inner_sea">Castles of the Inner Sea pg. 39</Link>  </p>
@@ -253,7 +253,7 @@ const _prowlers_palliative = {title: "Prowler's palliative", jsx: <><h2 id="eq-m
 <Tabular format="misc" a="300" b="x" d="tinc" />
 <p>This pitch-black liquid slows your heart rate, putting you in an almost trance-like state.</p>
 <p><Icons id="eq-misc-prowlers_palliative-def-down-icons" wrapper="prefixIcon" list={["def","down"]} /> For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on <Link to="/skill/stealth">Stealth</Link> checks, you can use Stealth while moving at full speed without penalty, and the DCs for <Link to="/skill/intimidate">Intimidate</Link> checks to demoralize you is 2 higher. The tincture's sedative nature causes you to take a -4 penalty on Strength-based skill checks and a -2 penalty on damage rolls for the same duration.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _pseudodragon = {title: "Pseudodragon", jsx: <><h2 id="eq-misc-pseudodragon-pseudodragon">Pseudodragon</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -297,7 +297,7 @@ const _purification_pellet = {title: "Purification pellet", jsx: <><h2 id="eq-mi
 <p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands pg. 28</Link>  </p>
 <Tabular format="misc" a="10" b="x" d="rem" />
 <p><Icons id="eq-misc-purification_pellet-def-icons" wrapper="prefixIcon" list={["def"]} /> This tablet of compressed herbs and potent alchemical reagents can purify tainted, brackish, muddy, or alkaline water in order to make it drinkable. If used to purify water that is diseased or poisonous, each tablet reduces the save DC by 1 (to a maximum reduction of 5) for any disease or poison present in the water. A single <em>purification pellet</em> can affect up to 1 gallon of tainted water.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _purity_test = {title: "Purity test", jsx: <><h2 id="eq-misc-purity_test-purity-test">Purity test</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 18</Link>  </p>
@@ -428,13 +428,13 @@ const _ragers_aid = {title: "Rager's aid", jsx: <><h2 id="eq-misc-ragers_aid-rag
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 206</Link>  </p>
 <Tabular format="misc" a="25" b="x" d="rem" />
 <p>This packet filled with spikey-edged leaves has a pungent scent almost strong enough to make your eyes water. While you chew the leaves, you ignore the effects of <Link to="/misc/fatigue">fatigue</Link>. The leaves last for 6 rounds, at which point only a wad of pulp remains. When the effect of rager's aid wears off, you are <Link to="/misc/exhausted">exhausted</Link> instead.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _rakes_friend = {title: "Rake's friend", jsx: <><h2 id="eq-misc-rakes_friend-rakes-friend">Rake's friend</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 236</Link>  </p>
 <Tabular format="misc" a="120" b="x" d="atool" />
 <p><Icons id="eq-misc-rakes_friend-boost-icons" wrapper="prefixIcon" list={["boost"]} /> You can accept <Link to="/misc/alchemical_burn">alchemical burn</Link> when you imbibe this draught to gain 1 <Link to="/class/gunslinger">grit point</Link> or 1 <Link to="/class/swashbuckler">panache point</Link>. The effects of <em>rake's friend</em> last for 1 hour; if not spent within 1 hour, this point is lost. <em>Rake's friend</em> has no effect if you don't have the ability to use grit or panache.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+<Tabular format="craftalch" a="15" />
 </>};
 const _rangers_kit = {title: "Ranger's kit", jsx: <><h2 id="eq-misc-rangers_kit-rangers-kit">Ranger's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>  </p>
@@ -476,7 +476,7 @@ const _reagent_paper = {title: "Reagent paper", jsx: <><h2 id="eq-misc-reagent_p
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 208</Link>  </p>
 <Tabular format="misc" a="1" b="x" d="atool" />
 <p><Icons id="eq-misc-reagent_paper-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This slip of paper can aid in the identifying of liquids. Its color changes in accordance to basic traits such as acidity, salinity, or magic. This confers a +2 alchemical bonus on any <Link to="/skill/craft">Craft</Link> (alchemy) or <Link to="/skill/spellcraft">Spellcraft</Link> check made to identify potions or other liquids.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+<Tabular format="craftalch" a="15" />
 </>};
 const _reanimating_fluid = {title: "Reanimating fluid", jsx: <><h2 id="eq-misc-reanimating_fluid-reanimating-fluid">Reanimating fluid</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 213</Link>  </p>
@@ -485,7 +485,7 @@ const _reanimating_fluid = {title: "Reanimating fluid", jsx: <><h2 id="eq-misc-r
 <p><Icons id="eq-misc-reanimating_fluid-power-icons" wrapper="prefixIcon" list={["power"]} /> When injected into a mostly intact corpse of a Medium or smaller creature that has been dead for no more than 1 day (time spent under effects like gentle repose don't count against this time), the fluid gives the corpse a rudimentary semblance of life, reactivating its nerves and muscle tissue. This causes the corpse to reanimate and shamble around erratically for 1 minute. The result is not an undead creature, nor is it a construct. The reanimated corpse remains utterly lifeless and is driven only by muscular spasms that cause it shuffle 20 feet in a random direction each round, gasping and blinking eerily as it goes.</p>
 <p>When the corpse hits a solid barrier or is attacked, it stops moving. On its next turn, roll 1d8 to determine where it goes next. On a 1, it continues forward in the same direction it had been previously moving (or runs up against the same barrier). On a 2, it turns 45 degrees clockwise and heads in that direction; on a 3, it turns 90 degrees clockwise and heads in that direction; and so on.</p>
 <p>The corpse can't attack, doesn't defend itself, and - as an object - has AC 10 and 12 hit points.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _red_flame_torch = {title: "Red flame torch", jsx: <><h2 id="eq-misc-red_flame_torch-red-flame-torch">Red flame torch</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 246</Link>  </p>
@@ -524,7 +524,7 @@ const _rhinarium_paste = {title: "Rhinarium paste", jsx: <><h2 id="eq-misc-rhina
 <Tabular format="misc" a="75" b="0.5" d="atool" />
 <p>When applied to the nose as a <strong className="hl">standard action</strong>, this alchemical paste traps airborne particles and sharpens your olfactory receptors, heightening your sense of smell.</p>
 <p><Icons id="eq-misc-rhinarium_paste-power-boost-icons" wrapper="prefixIcon" list={["power","boost"]} /> You gain the <Link to="/umr/scent">scent</Link> ability, except you can detect creatures and odors at only half the distance. If you already have the scent ability, <em>rhinarium paste</em> increases the range at which you can detect creatures by 50%. <em>Rhinarium paste's</em> effects lasts for 1 hour.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _rice_paper_sheet = {title: "Rice paper (sheet)", jsx: <><h2 id="eq-misc-rice_paper_sheet-rice-paper-sheet">Rice paper (sheet)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -625,7 +625,7 @@ const _rusting_powder = {title: "Rusting powder", jsx: <><h2 id="eq-misc-rusting
 <p>This flaky brown powder derived from <Link to="/monster/rust_monster">rust monster</Link> fluids causes iron and similar metals to corrode and fall apart.</p>
 <p><Icons id="eq-misc-rusting_powder-boost-warning-icons" wrapper="prefixIcon" list={["boost","warning"]} /> If you apply a dose of <em>rusting powder</em> to a metal lock or trap as part of using the <Link to="/skill/disable_device">Disable Device</Link> skill, you gain a +5 alchemical bonus to open the lock or disable the trap, but there is a 75% chance that the mechanism is destroyed and cannot be used afterward. If the check fails, the mechanism is destroyed. A destroyed lock cannot be unlocked (but still counts as locked for the purpose opening the locked object). A destroyed trap mechanism immediately triggers the trap. If you fail the DC by 5 or more, the <em>powder</em> also lands on an object in your square (including possibly your armor or weapon), dealing 5 hit points of damage to the object.</p>
 <p><em>Rusting powder</em> is sold in a paper tube; you apply it by tearing the ends off the tube and blowing the flakes into the target device. <em>Rusting powder</em> does not affect <Link to="/eq-material/gold">gold</Link>, <Link to="/eq-material/silver">silver</Link>, copper, <Link to="/eq-material/bronze">bronze</Link>, brass, or <Link to="/eq-material/mithral">mithral</Link>, but easily affects iron, steel, and <Link to="/eq-material/adamantine">adamantine</Link>.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 30</p>
+<Tabular format="craftalch" a="30" />
 </>};
 const _sack = {title: "Sack", jsx: <><h2 id="eq-misc-sack-sack">Sack</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -662,7 +662,7 @@ const _salt_tablets_10 = {title: "Salt tablets (10)", jsx: <><h2 id="eq-misc-sal
 <p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands pg. 28</Link>  </p>
 <Tabular format="misc" a="1" b="x" d="rem" />
 <p><Icons id="eq-misc-salt_tablets_10-def-icons" wrapper="prefixIcon" list={["def"]} /> These tablets of pressed salt help stave off <Link to="/rule/starvation_and_thirst">dehydration</Link>. Taking a salt tablet once every 24 hours grants you a +2 circumstance bonus on saving throws to avoid <Link to="/rule/heat_dangers">heatstroke</Link> and on Constitution checks to avoid thirst.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 10</p>
+<Tabular format="craftalch" a="10" />
 </>};
 const _samsaran_life_wheel = {title: "Samsaran life wheel", jsx: <><h2 id="eq-misc-samsaran_life_wheel-samsaran-life-wheel">Samsaran life wheel</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 199</Link>  </p>
@@ -717,13 +717,13 @@ const _scent_blocker = {title: "Scent blocker", jsx: <><h2 id="eq-misc-scent_blo
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 9</Link>  </p>
 <Tabular format="misc" a="80" b="0.5" d="atool" />
 <p><Icons id="eq-misc-scent_blocker-def-icons" wrapper="prefixIcon" list={["def"]} /> This alchemical oil takes 1 minute to apply and completely masks your odor for 6 hours. Creatures can't use the <Link to="/umr/scent">scent</Link> ability to track you, detect your presence, or pinpoint your location. A single dose of <em>scent blocker</em> covers a Medium or smaller creature. For each size category larger than Medium a creature is, double the number of doses (and application time) required.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 23</p>
+<Tabular format="craftalch" a="23" />
 </>};
 const _scent_cloak = {title: "Scent cloak", jsx: <><h2 id="eq-misc-scent_cloak-scent-cloak">Scent cloak</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="20" b="2" d="atool" />
 <p><Icons id="eq-misc-scent_cloak-def-icons" wrapper="prefixIcon" list={["def"]} /> This collection of coarsely ground spices, seeds, musk, and alchemical reagents are meant to be rubbed into your skin and clothes in order to override your scent, increasing the DC of tracking you by scent by +10 for 24 hours. Because you still have a smell, creatures with <Link to="/umr/scent">scent</Link> can still detect and pinpoint you if you are cloaked; they just can't identify your smell as something unique. Washing for 1 full round removes the scent cloak.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _scent_salts = {title: "Scent salts", jsx: <><h2 id="eq-misc-scent_salts-scent-salts">Scent salts</h2>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 56</Link>  </p>
@@ -734,7 +734,7 @@ const _scentbane_incense = {title: "Scentbane incense", jsx: <><h2 id="eq-misc-s
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 37</Link>  </p>
 <Tabular format="misc" a="80" b="x" d="atool" />
 <p><Icons id="eq-misc-scentbane_incense-def-icons" wrapper="prefixIcon" list={["def"]} /> <em>Scentbane</em> incense is a form of <Link to="/eq-misc/smokestick">smokestick</Link> that also blocks most scents. As long as the smoke lasts, creatures with the <Link to="/umr/scent">scent</Link> special ability must make <Link to="/skill/perception">Perception</Link> checks, opposed by the <Link to="/skill/stealth">Stealth</Link> checks of any creatures within the smoke, to use scent to locate creatures within the smoke. If a creature remains in <em>scentbane</em> incense for 5 rounds or more, the smoke clings to it for 1 round after it leaves, making it similarly difficult to find by scent during that time.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _scholars_outfit = {title: "Scholar's outfit", jsx: <><h2 id="eq-misc-scholars_outfit-scholars-outfit">Scholar's outfit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
@@ -828,7 +828,7 @@ const _serpent_line = {title: "Serpent line", jsx: <><h2 id="eq-misc-serpent_lin
 <p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands pg. 28</Link>  </p>
 <Tabular format="misc" a="12" b="5" d="atool" />
 <p><Icons id="eq-misc-serpent_line-def-icons" wrapper="prefixIcon" list={["def"]} /> This 30-foot length of rope is braided with musk-cured strips of snakeskin from a variety of desert serpents, and is typically laid out in a 5-foot-radius circle around the edge of a tent or around a sleeping creature. When it's laid out in this way, common snakes crawling across the desert floor often mistake the serpent line for another snake and shy away from crossing it. Ordinary venomous snakes approaching a serpent line must succeed at a DC 10 Will save or turn away from it, though if they notice potential prey within the serpent line, they may continue to lurk nearby. At the GM's discretion, an exceptionally aggressive or hungry snake may gain a +2 circumstance bonus on its saving throw. Snakes that are magically controlled ignore a serpent line.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _serrated_caltrops = {title: "Serrated caltrops", jsx: <><h2 id="eq-misc-serrated_caltrops-serrated-caltrops">Serrated caltrops</h2>
 <p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox pg. 21</Link>  </p>
@@ -946,7 +946,7 @@ const _shrieking_paste = {title: "Shrieking paste", jsx: <><h2 id="eq-misc-shrie
 <Tabular format="misc" a="35" b="2" d="atool" />
 <p>Created by suspending the spores of a <Link to="/rule/slimes_molds_and_fungi">shrieker</Link> mushroom in a thick mixture of wheat paste and vermiculite, this thick sludge comes in a soundproof, stone container. <em>Shrieking paste</em> creates an obnoxious piercing noise when exposed to even minute amounts of movement or light. This makes applying the paste a very noisy endeavor at best. However, once the paste is applied and left alone for several rounds, it once again becomes silent. Thereafter, any light source or movement within 10 feet of the paste causes it to shriek for 1d3 rounds.</p>
 <p>A single container contains enough shrieking paste to coat 1 square foot of a surface. If left undisturbed for several weeks in a dank, lightless setting, shrieking paste might eventually grow into a colony of shrieker mushrooms.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _signal_horn = {title: "Signal horn", jsx: <><h2 id="eq-misc-signal_horn-signal-horn">Signal horn</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link>  </p>
@@ -1003,13 +1003,13 @@ const _silver_drops = {title: "Silver drops", jsx: <><h2 id="eq-misc-silver_drop
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon pg. 30</Link>  </p>
 <Tabular format="misc" a="180" b="x" d="atool" />
 <p><Icons id="eq-misc-silver_drops-def-down-icons" wrapper="prefixIcon" list={["def","down"]} /> A creature with DR/silver can swallow these bitter-tasting capsules of a concentrated alchemical silver to convert their damage reduction to DR/- for 2d4 rounds. When this effect ends, the creature is <Link to="/misc/nauseated">nauseated</Link> for 1 round. A creature can only benefit from silver drops once per 24 hours.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 30</p>
+<Tabular format="craftalch" a="30" />
 </>};
 const _singers_solution = {title: "Singer's solution", jsx: <><h2 id="eq-misc-singers_solution-singers-solution">Singer's solution</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 236</Link>  </p>
 <Tabular format="misc" a="120" b="x" d="atool" />
 <p><Icons id="eq-misc-singers_solution-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When you imbibe this draught, you can accept <Link to="/misc/alchemical_burn">alchemical burn</Link> to gain an additional 4 rounds of bardic performance or raging song for the day. The effects of singer's solution last for 1 hour; if not spent within 1 hour, these additional rounds are lost. Singer's solution has no effect if you don't have the <Link to="/ability/bardic_performance">bardic performance</Link> or <Link to="/ability/raging_song">raging song</Link> class features.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+<Tabular format="craftalch" a="15" />
 </>};
 const _siphon_ray = {title: "Siphon ray", jsx: <><h2 id="eq-misc-siphon_ray-siphon-ray">Siphon ray</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 6</Link>  </p>
@@ -1108,7 +1108,7 @@ const _smelling_salts = {title: "Smelling salts", jsx: <><h2 id="eq-misc-smellin
 <p>These sharply scented gray crystals cause people inhaling them to regain consciousness.</p>
 <p><Icons id="eq-misc-smelling_salts-def-icons" wrapper="prefixIcon" list={["def"]} /> Smelling salts grant you a new saving throw to resist any spell or effect that has already rendered you <Link to="/misc/unconscious">unconscious</Link> or <Link to="/misc/staggered">staggered</Link>. If exposed to smelling salts while <Link to="/misc/dying">dying</Link>, you immediately become conscious and staggered, but must still make stabilization checks each round; if you perform any standard action (or any other strenuous action), you take 1 point of damage after completing the act and fall unconscious again.</p>
 <p>A container of smelling salts has dozens of uses if stoppered after each use, but depletes in a matter of hours if left open.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _smoke_bomb = {title: "Smoke Bomb", jsx: <><h2 id="eq-misc-smoke_bomb-smoke-bomb">Smoke Bomb</h2>
 <p><strong>Sources</strong> <Link to="/source/curse_of_the_crimson_throne">Curse of the Crimson Throne pg. 432</Link>  </p>
@@ -1116,7 +1116,7 @@ const _smoke_bomb = {title: "Smoke Bomb", jsx: <><h2 id="eq-misc-smoke_bomb-smok
 <p>A <em>smoke bomb</em> appears as a polished ceramic sphere that can be held comfortably in one hand. Many crafters of these alchemical weapons take pride in painting or etching these bombs with complex scenes, or even making them look like small humanoid skulls, despite the fact that the bombs shatter when thrown.</p>
 <p><Icons id="eq-misc-smoke_bomb-boom-lower-icons" wrapper="prefixIcon" list={["boom","lower"]} /> When thrown as a <Link to="/rule/splash_weapon">splash weapon</Link>, a <em>smoke bomb</em> bursts and fills the 5-foot square it detonates in with a cloud of thick, foul-smelling gray smoke (treat this area as if affected by a <Link to="/spell/fog_cloud">fog cloud</Link> spell, except that the cloud lasts only 1 round before dissipating). A creature that is struck by a <em>smoke bomb</em> or that passes through the cloud a bomb creates must succeed at a DC 12 Fortitude save or be <Link to="/misc/nauseated">nauseated</Link> for 1 round and <Link to="/misc/sickened">sickened</Link> for 3 rounds after that. Creatures within 5 feet of where the flask hits are sickened for 1 round if they fail this saving throw.</p>
 <p>This is a poison effect.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 22</p>
+<Tabular format="craftalch" a="22" />
 </>};
 const _smoke_cover = {title: "Smoke cover", jsx: <><h2 id="eq-misc-smoke_cover-smoke-cover">Smoke cover</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 26</Link>  </p>
@@ -1130,13 +1130,13 @@ const _smoke_pellet = {title: "Smoke pellet", jsx: <><h2 id="eq-misc-smoke_pelle
 <Tabular format="misc" a="25" b="x" d="atool" />
 <p>This small clay sphere contains two alchemical substances separated by a thin barrier. When you break the sphere, the substances mingle and fill a 5-foot square with a cloud of foul but harmless yellow smoke. The smoke pellet acts as a <Link to="/eq-misc/smokestick">smokestick</Link>, except the smoke only lasts for 1 round before dispersing.</p>
 <p><Icons id="eq-misc-smoke_pellet-zap-icons" wrapper="prefixIcon" list={["zap"]} /> You may throw a smoke pellet as a ranged touch attack with a range increment of 10 feet.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _smoke_signal = {title: "Smoke signal", jsx: <><h2 id="eq-misc-smoke_signal-smoke-signal">Smoke signal</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands pg. 28</Link>  </p>
 <Tabular format="misc" a="5" b="1" d="atool" />
 <p>This alchemically fused powder ball creates a plume of brightly colored smoke when lit. While the smoke is not thick enough to significantly impair vision, it is clearly visible up to 1d6 miles away under average conditions, and may be visible at greater distances in ideal conditions. Many desert clans use particular signature colors of smoke to indicate their allegiance, or use smoke signals with specific colors or in a pattern of sequential colors to convey coded messages.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+<Tabular format="craftalch" a="15" />
 </>};
 const _smoked_goggles = {title: "Smoked goggles", jsx: <><h2 id="eq-misc-smoked_goggles-smoked-goggles">Smoked goggles</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link>  </p>
@@ -1198,7 +1198,7 @@ const _snake_oil = {title: "Snake oil", jsx: <><h2 id="eq-misc-snake_oil-snake-o
 <Tabular format="misc" a="20" b="x" d="atool" />
 <p>This mildly toxic liniment numbs flesh and can soothe injuries. Though the tincture is actually poisonous, an imbiber who avoids becoming poisoned recovers from minor injuries.</p>
 <AffInfo type="Poison; contact" save="Fort 12" freq="1/minute for 5 minutes" onset="1 round" eff="On a failed save, snake oil deals 1 point of nonlethal damage. However, on a successful save, the toxin heals 1d6 points of nonlethal damage." cure1 icon="p">Snake Oil</AffInfo>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _snake_tongue_concoction = {title: "Snake-tongue concoction", jsx: <><h2 id="eq-misc-snake_tongue_concoction-snake-tongue-concoction">Snake-tongue concoction</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 27</Link>  </p>
@@ -1258,7 +1258,7 @@ const _soothe_syrup = {title: "Soothe syrup", jsx: <><h2 id="eq-misc-soothe_syru
 <Tabular format="misc" a="25" b="0.5" d="rem" />
 <p>This sweet and wholesome-tasting blue liquid creates a sense of warmth and comfort. <em>Soothe syrup</em> coats your stomach and makes it much more difficult for you to succumb to queasiness.</p>
 <p><Icons id="eq-misc-soothe_syrup-def-icons" wrapper="prefixIcon" list={["def"]} /> For 1 hour after drinking <em>soothe syrup,</em> you gain a +5 alchemical bonus on saving throws made to resist effects that would make you <Link to="/misc/nauseated">nauseated</Link> or <Link to="/misc/sickened">sickened</Link>.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+<Tabular format="craftalch" a="15" />
 </>};
 const _sorcerers_kit = {title: "Sorcerer's kit", jsx: <><h2 id="eq-misc-sorcerers_kit-sorcerers-kit">Sorcerer's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>  </p>
@@ -1269,7 +1269,7 @@ const _sorcerers_spirits = {title: "Sorcerer's spirits", jsx: <><h2 id="eq-misc-
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 23</Link>  </p>
 <Tabular format="misc" a="300" b="x" d="tinc" />
 <p><Icons id="eq-misc-sorcerers_spirits-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> This silvery liquid amplifies magical energies. For 1 hour after drinking this tincture, treat your caster level as 2 higher for the purpose of determining spells' durations and ranges. The liquid unsettles the stomach, imposing a -1 penalty on Fortitude and Reflex saves for the same duration. Whenever you fail a Fortitude or Reflex save while under these effects, you must succeed at a DC 20 Fortitude saving throw or become <Link to="/misc/nauseated">nauseated</Link> for 1 round.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 30</p>
+<Tabular format="craftalch" a="30" />
 </>};
 const _soul_candle = {title: "Soul candle", jsx: <><h2 id="eq-misc-soul_candle-soul-candle">Soul candle</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_temples">Inner Sea Temples pg. 42</Link>  </p>
@@ -1281,14 +1281,14 @@ const _soul_stimulant = {title: "Soul stimulant", jsx: <><h2 id="eq-misc-soul_st
 <Tabular format="misc" a="300" b="x" d="rem" />
 <p>This soothing elixir was created to counter the energy-draining effects of vampires, wights, and similar horrible creatures.</p>
 <p><Icons id="eq-misc-soul_stimulant-aid-icons" wrapper="prefixIcon" list={["aid"]} /> If you have a negative level (whether temporary or permanent), you can drink a dose of soul stimulant, negating the negative level's penalty for 12 hours. You can only benefit from 1 dose of soul stimulant at a time, though you can continue to take a dose every 12 hours to stave off the negative level's effects.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 30</p>
+<Tabular format="craftalch" a="30" />
 </>};
 const _sparkle_smoke = {title: "Sparkle smoke", jsx: <><h2 id="eq-misc-sparkle_smoke-sparkle-smoke">Sparkle smoke</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 45</Link>, <Link to="/source/pathfinder_106_for_queen_and_empire">Pathfinder #106: For Queen and Empire pg. 75</Link>  </p>
 <Tabular format="misc" a="25" b="1" d="atool" />
 <p>When inhaled, this incense causes creatures to see dazzling auras around light sources, drawing their attention to such illumination as the moon or stars and away from other nearby creatures.</p>
 <p><Icons id="eq-misc-sparkle_smoke-lower-icons" wrapper="prefixIcon" list={["lower"]} /> Any creature inhaling <em>sparkle smoke</em> that fails a DC 15 Fortitude saving throw takes a -4 penalty on <Link to="/skill/perception">Perception</Link> checks to notice creatures smaller than itself in areas of at least <Link to="/rule/dim_light">dim light</Link> for 1 hour.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+<Tabular format="craftalch" a="15" />
 </>};
 const _sparring_gear = {title: "Sparring gear", jsx: <><h2 id="eq-misc-sparring_gear-sparring-gear">Sparring gear</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 20</Link>  </p>
@@ -1310,7 +1310,7 @@ const _speech_resin = {title: "Speech resin", jsx: <><h2 id="eq-misc-speech_resi
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 236</Link>  </p>
 <Tabular format="misc" a="410" b="x" d="atool" />
 <p><Icons id="eq-misc-speech_resin-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> Chewing this gummy substance grants you 1d4 uses of <Link to="/misc/alchemical_inspiration">alchemical inspiration</Link> that can be used only on Charisma-based skill checks. This benefit lasts for 1 hour, during which you must roll all Wisdom-based skill checks twice and take the worse result.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _speed_sheath = {title: "Speed sheath", jsx: <><h2 id="eq-misc-speed_sheath-speed-sheath">Speed sheath</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 244</Link>  </p>
@@ -1612,7 +1612,7 @@ const _spider_sac = {title: "Spider sac", jsx: <><h2 id="eq-misc-spider_sac-spid
 <p><Icons id="eq-misc-spider_sac-power-icons" wrapper="prefixIcon" list={["power"]} /> When squeezed, a <em>spider sac's</em> adhesive shoots out to a maximum range of 10 feet and sticks to whatever it strikes, whereupon the strand dries instantly into a durable fibrous rope. For the purposes of climbing, treat a <em>spider sac</em> as a <Link to="/eq-misc/grappling_hook">grappling hook</Link> except that all surfaces are AC 5.</p>
 <p><Icons id="eq-misc-spider_sac-melee-icons" wrapper="prefixIcon" list={["melee"]} /> A <em>spider sac</em> can also be used as a <Link to="/eq-weapon/lasso">lasso</Link> except with AC 10, 4 hit points, and a DC 24 Strength check to burst.</p>
 <p>A <em>spider sac</em> is a single-use item.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _spider = {title: "Spider", jsx: <><h2 id="eq-misc-spider-spider">Spider</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
@@ -1630,7 +1630,7 @@ const _spiderdraw = {title: "Spiderdraw", jsx: <><h2 id="eq-misc-spiderdraw-spid
 <p>This alchemical fluid is viscous and clear, and it emits a strong chemical smell when exposed to air. Vermin are attracted to it and perceive anything marked with it as prey.</p>
 <p><Icons id="eq-misc-spiderdraw-lower-icons" wrapper="prefixIcon" list={["lower"]} /> Spiders, insects, and similar vermin gain a +5 bonus on <Link to="/skill/perception">Perception</Link> checks and attack rolls against a creature marked with <em>spiderdraw;</em> if these creatures have the <Link to="/umr/scent">scent</Link> ability, they can detect a marked creature at five times the normal range, note its direction as a <strong className="hl">free action</strong>, and pinpoint it when it is within 25 feet.</p>
 <p>Drow sometimes use <em>spiderdraw</em> as a contact poison or <Link to="/rule/splash_weapon">splash weapon</Link> against opponents, allowing vermin to focus on the marked targets while the drow retreat, regroup, or move to a more advantageous position. Washing off the <em>spiderdraw</em> is a <strong className="hl">full-round action</strong> requiring at least a gallon of water or other suitable washing liquid; otherwise, the effects last for 1 hour.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _spike_hilt = {title: "Spike hilt", jsx: <><h2 id="eq-misc-spike_hilt-spike-hilt">Spike hilt</h2>
 <p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox pg. 21</Link>  </p>
@@ -1674,13 +1674,13 @@ const _spirit_vision_ink = {title: "Spirit-vision ink", jsx: <><h2 id="eq-misc-s
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 28</Link>  </p>
 <Tabular format="misc" a="25" b="x" d="atool" />
 <p>Originally developed by <Link to="/family/kami">kami</Link>-revering priests to write prayer scrolls, this pale ink is now often used by <Link to="/class/ninja">ninjas</Link> to mark locations or leave messages. Once <em>spirit-vision ink</em> dries, it becomes completely invisible. To invisible creatures, however, writing in <em>spirit-vision ink</em> shimmers with a rich azure hue.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 30</p>
+<Tabular format="craftalch" a="30" />
 </>};
 const _spiritbane_spike = {title: "Spiritbane spike", jsx: <><h2 id="eq-misc-spiritbane_spike-spiritbane-spike">Spiritbane spike</h2>
 <p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 13</Link>  </p>
 <Tabular format="misc" a="300" b="1" d="atool" />
 <p><Icons id="eq-misc-spiritbane_spike-melee-down-icons" wrapper="prefixIcon" list={["melee","down"]} /> When you slash this alchemically treated iron spike against your flesh - a <strong className="hl">move action</strong> that deals 1d6 points of damage - the <em>spike</em> extends and becomes a <Link to="/eq-weapon/short_sword">short sword</Link> with the <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon special ability. The <em>spike</em> reverts to its old form after 10 minutes, corroded and useless. Should a <em>spiritbane spike</em> rematerialize within a corporeal body, it is shunted to the nearest empty space without effect.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _spiritual_leaders_vestments = {title: "Spiritual leader's vestments", jsx: <><h2 id="eq-misc-spiritual_leaders_vestments-spiritual-leaders-vestments">Spiritual leader's vestments</h2>
 <p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine pg. 28</Link>  </p>
@@ -1749,7 +1749,7 @@ const _stagnant_fog_sack = {title: "Stagnant fog sack", jsx: <><h2 id="eq-misc-s
 <p>Gathered within this tightly woven, alchemically treated canvas sack is a sample of the pervasive fetid fog that looms near the border of the Plane of Air and the Plane of Water.</p>
 <p><Icons id="eq-misc-stagnant_fog_sack-aura-icons" wrapper="prefixIcon" list={["aura"]} /> When opened, the fog billows out in a 30-foot-radius area. Sight is extremely limited in an area of <em>stagnant fog.</em> A creature within 15 feet has <Link to="/rule/concealment">concealment</Link> (20% miss chance), while creatures farther away have total concealment (50% miss chance, and the attacker can't use sight to locate the target). In addition, creatures that end their turn within the cloud must succeed at a DC 14 Fortitude save or become <Link to="/misc/sickened">sickened</Link> for 1 round.</p>
 <p><em>Stagnant fog</em> dissipates naturally after 1 minute. A moderate wind (11+ mph) disperses the <em>stagnant fog</em> in 1 round.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _stalkers_oil = {title: "Stalker's oil", jsx: <><h2 id="eq-misc-stalkers_oil-stalkers-oil">Stalker's oil</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 29</Link>  </p>
@@ -1766,7 +1766,7 @@ const _starlight_juice = {title: "Starlight juice", jsx: <><h2 id="eq-misc-starl
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 23</Link>  </p>
 <Tabular format="misc" a="300" b="x" d="tinc" />
 <p><Icons id="eq-misc-starlight_juice-power-down-icons" wrapper="prefixIcon" list={["power","down"]} /> This clear liquid glows with pale light. For 4 hours after drinking this tincture, you emit light as a <Link to="/eq-misc/torch">torch</Link>. You are constantly <Link to="/misc/dazzled">dazzled</Link> during this time. If any effect would cause you to become dazzled during this time, you are instead <Link to="/misc/blinded">blinded</Link>. While under the effect of this tincture, you can intensify your glow as a <strong className="hl">swift action</strong> to that of bright light, as per <Link to="/spell/daylight">daylight</Link>, for 1 round. After activating the bright light effect, you emit only dim light with a range of 10 feet for the remainder of the tincture's duration.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 30</p>
+<Tabular format="craftalch" a="30" />
 </>};
 const _static_wool = {title: "Static wool", jsx: <><h2 id="eq-misc-static_wool-static-wool">Static wool</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 27</Link>  </p>
@@ -1796,7 +1796,7 @@ const _stillgut_vial = {title: "Stillgut (vial)", jsx: <><h2 id="eq-misc-stillgu
 <Tabular format="misc" a="50" b="x" d="rem" />
 <p><Icons id="eq-misc-stillgut_vial-def-icons" wrapper="prefixIcon" list={["def"]} /> Drinking a vial of this bland, bluish liquid grants you a +5 alchemical bonus on Fortitude saves to avoid <Link to="/misc/nausea">nausea</Link> or <Link to="/misc/sickness">sickness</Link> for 1 hour. If you are already nauseated, you can drink <em>stillgut</em> as a <strong className="hl">move action</strong>. Drinking it in this fashion grants you a second saving throw (without the +5 bonus).</p>
 <p>Goblins often use <em>stillgut</em> so they can choke down meat or other foods in advanced stages of rot or decay.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _stilts_common = {hasJL:true,title: "Stilts (common)", jsx: <><div className="jumpList" id="eq-misc-stilts_common-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-stilts_common-masterwork-stilts">Masterwork Stilts</InnerLink></li></ul></div><h2 id="eq-misc-stilts_common-stilts">Stilts</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>  </p>
@@ -1823,7 +1823,7 @@ const _stink_ink_common = {title: "Stink ink (common)", jsx: <><h2 id="eq-misc-s
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 154</Link>  </p>
 <Tabular format="misc" a="5" b="1" d="rem" />
 <p><em>Stink ink</em> is a special, pungent, musk-based ink that allows its user to encode information with smell rather than visually. <em>Stink ink</em> dries clear but its sharp, extremely localized smell can be picked out by those with sensitive enough noses to make it possible to read by sense of smell. Only creatures with the <em>keen senses</em> trait or <Link to="/umr/scent">scent</Link> ability can read <em>stink ink</em> without aid of some form of magic. Reading or writing something with <em>stink ink</em> takes twice as long as going through the same amount of information written in normal ink.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+<Tabular format="craftalch" a="15" />
 </>};
 const _stirge = {title: "Stirge", jsx: <><h2 id="eq-misc-stirge-stirge">Stirge</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -1835,7 +1835,7 @@ const _stonechipper_salve = {title: "Stonechipper salve", jsx: <><h2 id="eq-misc
 <Tabular format="misc" a="150" b="1" d="atool" />
 <p>This gritty, gray ointment weakens rocky materials.</p>
 <p>When applied to an object made of stone, it reduces the object's <Link to="/rule/hardness">hardness</Link> by 3 for 10 minutes. As a <strong className="hl">standard action</strong>, a creature can apply the paste to affect one 5-foot-square or a Medium or smaller creature. The paste only affects hardness, not damage reduction or similar defenses.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _storm_glass = {title: "Storm glass", jsx: <><h2 id="eq-misc-storm_glass-storm-glass">Storm glass</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 13</Link>  </p>
@@ -1847,7 +1847,7 @@ const _stout_solution = {title: "Stout solution", jsx: <><h2 id="eq-misc-stout_s
 <Tabular format="misc" a="100" b="x" d="tinc" />
 <p>This highly viscous liquid resembles tree sap and is difficult to swallow.</p>
 <p><Icons id="eq-misc-stout_solution-def-boost-down-icons" wrapper="prefixIcon" list={["def","boost","down"]} /> For 2 hours after drinking this tincture, you gain a +2 alchemical bonus to your CMD and you can perform <Link to="/rule/combat_maneuvers">combat maneuvers</Link> as if you were one size category larger. Your skeleton's increased density causes you to be treated as if you were <Link to="/rule/carrying_capacity">carrying</Link> a medium load, or a heavy load if you were already encumbered by a medium load, for the same duration.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+<Tabular format="craftalch" a="15" />
 </>};
 const _stove_can = {title: "Stove can", jsx: <><h2 id="eq-misc-stove_can-stove-can">Stove can</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -1906,13 +1906,13 @@ const _sun_cinder = {title: "Sun cinder", jsx: <><h2 id="eq-misc-sun_cinder-sun-
 <p><em>Sun cinder</em> is a fine powder that glows faintly when exposed to light. One bag of this alchemically created talc contains 5 uses.</p>
 <p><Icons id="eq-misc-sun_cinder-power-boost-icons" wrapper="prefixIcon" list={["power","boost"]} /> When opened, it shines like a <Link to="/eq-misc/candle">candle</Link>. If sprinkled on a <Link to="/eq-misc/torch">torch</Link> or similar flame, 1 dose of <em>sun cinder</em> increases the <Link to="/rule/light_level">light level</Link> of the area that flame illuminates by one additional step, up to bright light. This increased illumination lasts for 1 minute.</p>
 <p>Multiple doses of <em>sun cinder</em> can be used to further increase the light shed by the same source. A single dose of <em>sun cinder</em> does not affect flames larger than a torch. <em>Sun cinder</em> doesn't affect a light source's ability to penetrate magical darkness.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _sun_cream = {title: "Sun cream", jsx: <><h2 id="eq-misc-sun_cream-sun-cream">Sun cream</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands pg. 28</Link>  </p>
 <Tabular format="misc" a="10" b="0.5" d="rem" />
 <p><Icons id="eq-misc-sun_cream-aid-icons" wrapper="prefixIcon" list={["aid"]} /> Each application of this alchemical solution, typically compounded from substances found in desert flowers, fruits, and roots, heals 1d4 points of nonlethal damage that the target has taken from <Link to="/rule/heat">heat exposure</Link>. If you succeed at a DC 20 <Link to="/skill/heal">Heal</Link> check while applying sun cream, you may add your Wisdom modifier to the nonlethal damage healed. A creature cannot benefit from more than one application of sun cream in a 24-hour period.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _sunblock_kohl = {title: "Sunblock kohl", jsx: <><h2 id="eq-misc-sunblock_kohl-sunblock-kohl">Sunblock kohl</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 15</Link>  </p>
@@ -1973,7 +1973,7 @@ const _surgical_jelly = {title: "Surgical jelly", jsx: <><h2 id="eq-misc-surgica
 <Tabular format="misc" a="300" b="1" d="rem" />
 <p>When ingested, this thick red gelatinous substance seeks out and surgically eliminates invasive threats to the body.</p>
 <p><Icons id="eq-misc-surgical_jelly-aid-icons" wrapper="prefixIcon" list={["aid"]} /> Consuming <em>surgical jelly</em> immediately ends any <Link to="/rule/infestations">infestations</Link> (such as <Link to="/infestation/rot_grubs">rot grubs</Link>), implanted eggs (such as those implanted by <Link to="/monster/xill">xills</Link>), or other non-disease effects that can be cured by <Link to="/spell/remove_disease">remove disease</Link>, so long as such a cure does not require a caster level check. Consuming a pot of <em>surgical jelly</em> is a <strong className="hl">full-round action</strong>.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _survival_kit_common = {title: "Survival kit (common)", jsx: <><h2 id="eq-misc-survival_kit_common-survival-kit">Survival kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>  </p>
@@ -1995,13 +1995,13 @@ const _sweet_rest = {title: "Sweet Rest", jsx: <><h2 id="eq-misc-sweet_rest-swee
 <p><strong>Sources</strong> <Link to="/source/pathfinder_139_the_dead_road">Pathfinder #139: The Dead Road pg. 63</Link>  </p>
 <Tabular format="misc" a="75" b="x" d="rem" />
 <p><Icons id="eq-misc-sweet_rest-roll-def-icons" wrapper="prefixIcon" list={["roll","def"]} /> When imbibed, this effervescent solution causes a heavy warmth to spread from your stomach outward to your limbs, resulting in feelings of security and well-being. If you sleep for at least 1 hour after consuming the solution, the next time within the next 24 hours that you attempt a saving throw to remove a temporary negative level, you can roll the save twice and use the better result.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _swift_hands_tonic = {title: "Swift hands tonic", jsx: <><h2 id="eq-misc-swift_hands_tonic-swift-hands-tonic">Swift hands tonic</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 236</Link>  </p>
 <Tabular format="misc" a="250" b="x" d="atool" />
 <p><Icons id="eq-misc-swift_hands_tonic-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> When imbibed, this bitter, rust-colored concoction grants you 1d4 uses of <Link to="/misc/alchemical_inspiration">alchemical inspiration</Link> that can be used only on <Link to="/skill/disable_device">Disable Device</Link> checks and <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks. These benefits last for 1 hour; during this time, you must roll all <Link to="/skill/acrobatics">Acrobatics</Link> checks and <Link to="/skill/escape_artist">Escape Artist</Link> checks twice and take the worse result.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _swim_fins = {title: "Swim fins", jsx: <><h2 id="eq-misc-swim_fins-swim-fins">Swim fins</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -2024,7 +2024,7 @@ const _synthetic_mumia = {title: "Synthetic mumia", jsx: <><h2 id="eq-misc-synth
 <p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 9</Link>  </p>
 <Tabular format="misc" a="150" b="x" d="rem" />
 <p>A laboratory-created version of the expensive and infamous Osirian drug <Link to="/drug/mumia">mumia</Link>, <em>synthetic mumia</em> is a mixture of honey, embalming fluids, and various animal organs. The murky liquid comes enclosed in small packets made of intestine. <em>Mumia</em> and <em>synthetic mumia</em> may be taken interchangeably to stave off the effects of addiction to either substance, and is thus used by some <em>mumia</em> junkies hoping to quit their addiction.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 14</p>
+<Tabular format="craftalch" a="14" />
 </>};
 const _tabard = {title: "Tabard", jsx: <><h2 id="eq-misc-tabard-tabard">Tabard</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>  </p>
@@ -2177,7 +2177,7 @@ const _thinkers_tipple = {title: "Thinker's tipple", jsx: <><h2 id="eq-misc-thin
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 23</Link>  </p>
 <Tabular format="misc" a="300" b="x" d="tinc" />
 <p><Icons id="eq-misc-thinkers_tipple-boost-power-down-icons" wrapper="prefixIcon" list={["boost","power","down"]} /> This orange liquid invigorates the mind. For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on <Link to="/skill/knowledge">Knowledge</Link> checks and can attempt untrained Knowledge checks if the DC is 15 or lower. This saps your energy, imposing a -4 penalty on Fortitude saving throws for the same duration.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _thrush = {title: "Thrush", jsx: <><h2 id="eq-misc-thrush-thrush">Thrush</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
@@ -2196,7 +2196,7 @@ const _thunder_kettle = {title: "Thunder kettle", jsx: <><h2 id="eq-misc-thunder
 <Tabular format="misc" a="275" b="3" d="atool" />
 <p>This intricate glass and metal jug vibrates gently, and contains a light cloud of white vapor and crackling blue electricity. Djinn of the Plane of Air use <em>thunder kettles</em> to capture the essence of air and lightning elementals within planar super storms.</p>
 <p><Icons id="eq-misc-thunder_kettle-aura-lower-icons" wrapper="prefixIcon" list={["aura","lower"]} /> When uncorked as a <strong className="hl">standard action</strong>, a <em>thunder kettle</em> releases a rumbling cacophony of thunder in a 10-foot-radius <Link to="/misc/burst">burst</Link>. Creatures in the area must succeed at a DC 16 Fortitude save or take 1d6 points of sonic damage and become <Link to="/misc/staggered">staggered</Link> for 1 round. A successful save halves the damage and negates the staggered condition.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _thurible = {title: "Thurible", jsx: <><h2 id="eq-misc-thurible-thurible">Thurible</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/pathfinder_8_seven_days_to_the_grave">Pathfinder #8: Seven Days to the Grave pg. 61</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -2209,7 +2209,7 @@ const _tillers_gum = {title: "Tiller's gum", jsx: <><h2 id="eq-misc-tillers_gum-
 <p>This gum has alchemical properties that allow it to soak up magical energy and release it when the gum is chewed.</p>
 <p><Icons id="eq-misc-tillers_gum-magic-icons" wrapper="prefixIcon" list={["magic"]} /> As a <strong className="hl">standard action</strong>, a stick of tiller's gum can be imbued with a spell of up to 3rd level with a casting time of less than 1 minute and that targets one or more creatures, as if the gum were the target of the spell. The gum holds the spell's charge for 1 hour, during which time a creature capable of casting the stored spell can chew the gum as a <strong className="hl">standard action</strong> to gain the spell's effects, expending the stored spell and destroying the gum. The stored spell uses the original caster's level to determine its effects.</p>
 <p>If the spell-imbued gum isn't used before an hour passes, it is ruined.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+<Tabular format="craftalch" a="20" />
 </>};
 const _tindertwig = {title: "Tindertwig", jsx: <><h2 id="eq-misc-tindertwig-tindertwig">Tindertwig</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 30</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -2226,7 +2226,7 @@ const _titans_tonic = {title: "Titan's tonic", jsx: <><h2 id="eq-misc-titans_ton
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 23</Link>  </p>
 <Tabular format="misc" a="200" b="x" d="tinc" />
 <p><Icons id="eq-misc-titans_tonic-def-boost-down-icons" wrapper="prefixIcon" list={["def","boost","down"]} /> Gravel floats in this umber liquid. For 1 hour after drinking this tincture, you gain a +1 alchemical bonus to natural armor and a +2 alchemical bonus on Strength checks and Strength-based skill checks. The tonic swells your musculature, decreasing your movement speed by 5 feet, to a minimum of 5 feet, and causing you to take a -4 penalty on Reflex saving throws for the same duration.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _toad_vision = {title: "Toad (vision)", jsx: <><h2 id="eq-misc-toad_vision-toad-vision">Toad (vision)</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -2278,14 +2278,14 @@ const _trackers_snuff = {title: "Tracker's snuff", jsx: <><h2 id="eq-misc-tracke
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 208</Link>  </p>
 <Tabular format="misc" a="200" b="x" d="atool" />
 <p><Icons id="eq-misc-trackers_snuff-power-boost-down-icons" wrapper="prefixIcon" list={["power","boost","down"]} /> When inhaled, this finely ground, alchemically treated <Link to="/eq-misc/tobacco">tobacco</Link> greatly enhances your senses, especially your sense of smell. It grants the <Link to="/umr/scent">scent</Link> ability and a +2 alchemical bonus on <Link to="/skill/perception">Perception</Link> checks for 1 hour. However, once the effect wears off your body is wracked with terrible pain as your joints begin to stiffen and seize, dealing 1d2 points of <Link to="/rule/dexterity_damage">Dexterity damage</Link> to you.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 30</p>
+<Tabular format="craftalch" a="30" />
 </>};
 const _tracking_powder = {title: "Tracking powder", jsx: <><h2 id="eq-misc-tracking_powder-tracking-powder">Tracking powder</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 208</Link>  </p>
 <Tabular format="misc" a="30" b="x" d="atool" />
 <p><Icons id="eq-misc-tracking_powder-magic-boost-icons" wrapper="prefixIcon" list={["magic","boost"]} /> When you scatter this very fine pale blue powder on the ground, it reveals the tracks of any creatures or individuals that have passed through the area within the last 48 hours. The powder also grants you a +10 alchemical bonus on <Link to="/skill/survival">Survival</Link> checks to follow tracks or, if you aren't trained in Survival, instead allows you to track creatures whose prints are revealed by the powder for up to 1 mile using <Link to="/skill/perception">Perception</Link> instead of Survival.</p>
 <p>A single application can cover an area of up to 60 square feet. Tracking powder is sold in small leather pouches that hold 10 applications each.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _trail_rations = {title: "Trail rations", jsx: <><h2 id="eq-misc-trail_rations-trail-rations">Trail rations</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -2299,7 +2299,7 @@ const _trailscent_kit = {title: "Trailscent kit", jsx: <><h2 id="eq-misc-trailsc
 <p>Given a minute, a catfolk can create a scent mixture and apply it to a solid object, such as a tree, a wall, or even a smaller item such as a weapon or potion vial. When the catfolk does this, it leaves one of the following <em>scent impressions: danger, food, shelter,</em> or <em>possession.</em> The <em>possession impression</em> is always keyed to the specific catfolk using the kit, and signifies that she owns the territory or item. Other races can attempt to use this kit to create the <em>danger, food,</em> or <em>shelter impression,</em> but doing so requires a successful DC 20 <Link to="/skill/craft">Craft</Link> (alchemy) check.</p>
 <p>A catfolk can detect a particular scent applied with a trailscent kit from 30 feet away. If the scent is upwind, the range at which a catfolk can detect the scent increases to 60 feet; if it is downwind, the range drops to 15 feet. A catfolk with the <em>scent</em> racial quality doubles those distances.</p>
 <p>A <em>scent impression</em> lasts for 1 year or until it is washed away. Each kit has 10 uses.</p>
-<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+<Tabular format="craftalch" a="25" />
 </>};
 const _training_harness = {title: "Training harness", jsx: <><h2 id="eq-misc-training_harness-training-harness">Training harness</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 76</Link>  </p>
