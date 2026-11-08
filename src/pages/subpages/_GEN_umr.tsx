@@ -957,7 +957,7 @@ const _mistsight = {title: "Mistsight", jsx: <><h2 id="umr-mistsight-mistsight-e
 <Row><Cell>Location</Cell><Cell>Senses</Cell></Row></Block>
 </>};
 const _ferocity = {title: "Ferocity", jsx: <><h2 id="umr-ferocity-ferocity-ex">Ferocity (Ex)</h2>
-<p><strong>Sources</strong> <Link to="/source/bestiary_5">Bestiary 5 pg. 293</Link><br/>The creature remains conscious and can continue fighting even if its hit point total is below 0. The creature is still staggered and loses 1 hit point each round. A creature with ferocity still dies when its hit point total reaches a negative amount equal to its Constitution score.</p>
+<p><strong>Sources</strong> <Link to="/source/bestiary_5">Bestiary 5 pg. 293</Link><br/>The creature remains conscious and can continue fighting even if its hit point total is below 0. The creature is still <Link to="/misc/staggered">staggered</Link> and loses 1 hit point each round. A creature with ferocity still dies when its hit point total reaches a negative amount equal to its Constitution score.</p>
 <Block size="simple" hl>
 <Row><Cell>Format</Cell><Cell>ferocity</Cell></Row>
 <Row><Cell>Location</Cell><Cell>Defensive Abilities</Cell></Row></Block>

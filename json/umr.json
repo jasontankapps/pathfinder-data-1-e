@@ -1862,7 +1862,7 @@
 			"## Ferocity (Ex)",
 			"",
 			"‹SOURCE Bestiary 5/293›  ",
-			"The creature remains conscious and can continue fighting even if its hit point total is below 0. The creature is still staggered and loses 1 hit point each round. A creature with ferocity still dies when its hit point total reaches a negative amount equal to its Constitution score.",
+			"The creature remains conscious and can continue fighting even if its hit point total is below 0. The creature is still ‹misc/staggered› and loses 1 hit point each round. A creature with ferocity still dies when its hit point total reaches a negative amount equal to its Constitution score.",
 			"",
 			":::block{size=simple hl}",
 			"::row[Format]{info=ferocity}",
