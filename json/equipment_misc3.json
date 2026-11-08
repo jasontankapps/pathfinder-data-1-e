@@ -62,9 +62,11 @@
 			"‹SOURCE Alchemy Manual/9›  ",
 			"::tabular{format=misc a=200 b=x d=atool}",
 			"",
-			"This compound comes in a tiny eyedropper. When you combine a dose of poison diffuser with a dose of contact or ingested poison, the poison becomes a gas, slowly diffusing into the surrounding air. The poison is treated as an inhaled poison for 3 rounds, after which the poison and the poison diffuser are both expended and become inert. Any creature that passes within 5 feet of a diffused poison while it is active must save against the vaporous toxin.",
+			"This compound comes in a tiny eyedropper.",
 			"",
-			"If you are using ‹rule/spontaneous alchemy›, adding urea to the alchemical recipe delays a poison diffuser's activation time. For every 20 doses of urea (worth a total of 10 gp) incorporated into the alchemical creation process, the time from which the diffuser is added to the poison to the time the poison begins spreading into the air increases by 1 round.",
+			"@I-power When you combine a dose of *poison diffuser* with a dose of contact or ingested poison, the poison becomes a gas, slowly diffusing into the surrounding air. The poison is treated as an inhaled poison for 3 rounds, after which the poison and the *poison diffuser* are both expended and become inert. Any creature that passes within 5 feet of a diffused poison while it is active must save against the vaporous toxin.",
+			"",
+			"If you are using ‹rule/spontaneous alchemy›, adding urea to the alchemical recipe delays a *poison diffuser's* activation time. For every 20 doses of urea (worth a total of 10 gp) incorporated into the alchemical creation process, the time from which the *diffuser* is added to the poison to the time the poison begins spreading into the air increases by 1 round.",
 			"",
 			"::tabular{format=spontalch a=\"brim100/salt180/wine180\" b=fermentation c=25 d=\"1 day\" e=\"heat source\" g=tool}"
 		]
@@ -103,7 +105,7 @@
 			"‹SOURCE Aquatic Adventures/56›  ",
 			"::tabular{format=misc a=20 b=x d=atool}",
 			"",
-			"Applied poison generally washes off weapons underwater in 1d10 rounds unless the poison is contained inside the weapon and injected, so undersea alchemists developed poison sealant to circumvent this limitation. Applying poison sealant to a poisoned weapon takes the same amount of effort as applying a poison. Once applied, the sealant protects the poison from the elements, keeping the weapon poisoned underwater. Poison sealant dissolves in blood, allowing the poison's delivery (and also meaning that it doesn't prevent accidental poisoning)."
+			"Applied poison generally washes off weapons underwater in 1d10 rounds unless the poison is contained inside the weapon and injected, so undersea alchemists developed *poison sealant* to circumvent this limitation. Applying *poison sealant* to a poisoned weapon takes the same amount of effort as applying a poison. Once applied, the *sealant* protects the poison from the elements, keeping the weapon poisoned underwater. *Poison sealant* dissolves in blood, allowing the poison's delivery (and also meaning that it doesn't prevent accidental poisoning)."
 		]
 	},
 	"poison_sponge": {
@@ -125,7 +127,7 @@
 			"‹SOURCE Advanced Race Guide/209›  ",
 			"::tabular{format=misc a=50 b=x d=atool}",
 			"",
-			"This henna-like paste creates a dark brown tattoo on the hands or feet that fades over the next 2d6 days. The tattoo temporarily boosts the strength of a ‹race/vishkanya«'s› natural poison, increasing the DC of the next weapon envenomed with the vishkanya's blood or saliva by +2 (once used, the tattoo is merely decorative and does not affect the creature's poison). A typical tattoo consists of intricate whorls and spiritual symbols on the hands or feet.",
+			"@I-boost This henna-like paste creates a dark brown tattoo on the hands or feet that fades over the next 2d6 days. The tattoo temporarily boosts the strength of a ‹race/vishkanya«'s› natural poison, increasing the DC of the next weapon envenomed with the vishkanya's blood or saliva by +2 (once used, the tattoo is merely decorative and does not affect the creature's poison). A typical tattoo consists of intricate whorls and spiritual symbols on the hands or feet.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -138,7 +140,7 @@
 			"‹SOURCE Advanced Class Guide/206›  ",
 			"::tabular{format=misc a=15 b=x d=rem}",
 			"",
-			"This herbal salve can be applied directly to the skin to prevent the effects of contact poisons. If a creature touches a contact poison, but you apply the salve within 1 round of contact, the victim rolls the save twice and uses the higher result.",
+			"@I-def-roll This herbal salve can be applied directly to the skin to prevent the effects of contact poisons. If a creature touches a contact poison, but you apply the salve within 1 round of contact, the victim rolls the save twice and uses the higher result.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -417,7 +419,11 @@
 			"‹SOURCE Advanced Race Guide/177›  ",
 			"::tabular{format=misc a=2 b=x d=atool}",
 			"",
-			"This egg-sized sponge is covered in a layer of waterproof edible wax, designed to absorb 1 dose of a potion. Chewing a potion sponge and swallowing its liquid contents is a full-round action. A creature of at least Large size can swallow the sponge in its entirely; other creatures must spit out the sponge once it's depleted (a free action). Unlike a potion that is drunk from a vial, a potion sponge can be used underwater. A potion can be poured from a vial into a sponge potion (or squeezed from a sponge into a vial) as a full-round action. The potion sponge is immune to attacks that specifically target crystal, glass, ceramic, or porcelain, such as ‹spell/shatter›. It otherwise works like a potion vial.",
+			"This egg-sized sponge is covered in a layer of waterproof edible wax, designed to absorb 1 dose of a potion.",
+			"",
+			"@I-power Chewing a potion sponge and swallowing its liquid contents is a @HL[full-round action]. A creature of at least Large size can swallow the sponge in its entirely; other creatures must spit out the sponge once it's depleted (a @HL[free action]). Unlike a potion that is drunk from a vial, a potion sponge can be used underwater.",
+			"",
+			"@I-info A potion can be poured from a vial into a sponge potion (or squeezed from a sponge into a vial) as a @HL[full-round action]. The potion sponge is immune to attacks that specifically target crystal, glass, ceramic, or porcelain, such as ‹spell/shatter›. It otherwise works like a potion vial.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -509,7 +515,7 @@
 			"‹SOURCE Aquatic Adventures/56›  ",
 			"::tabular{format=misc a=75 b=x d=atool}",
 			"",
-			"When you swallow this marble-shaped alchemical pill as a full-round action, it instantly adjusts your body to the surrounding [water pressure](rule/oceanic_zones), though you take 3 points of nonlethal damage for every 100 feet of adjustment necessary."
+			"@I-def When you swallow this marble-shaped alchemical pill as a @HL[full-round action], it instantly adjusts your body to the surrounding [water pressure](rule/oceanic_zones), though you take 3 points of nonlethal damage for every 100 feet of adjustment necessary."
 		]
 	},
 	"printing_press_1_page": {
@@ -593,7 +599,9 @@
 			"‹SOURCE Potions and Poisons/23›  ",
 			"::tabular{format=misc a=300 b=x d=tinc}",
 			"",
-			"This pitch-black liquid slows your heart rate, putting you in an almost trance-like state. For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on Stealth checks, you can use Stealth while moving at full speed without penalty, and the DCs for Intimidate checks to demoralize you is 2 higher. The tincture's sedative nature causes you to take a -4 penalty on Strength-based skill checks and a -2 penalty on damage rolls for the same duration.",
+			"This pitch-black liquid slows your heart rate, putting you in an almost trance-like state.",
+			"",
+			"@I-def-down For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on ‹skill/Stealth› checks, you can use Stealth while moving at full speed without penalty, and the DCs for ‹skill/Intimidate› checks to demoralize you is 2 higher. The tincture's sedative nature causes you to take a -4 penalty on Strength-based skill checks and a -2 penalty on damage rolls for the same duration.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -696,7 +704,7 @@
 			"‹SOURCE People of the Sands/28›  ",
 			"::tabular{format=misc a=10 b=x d=rem}",
 			"",
-			"This tablet of compressed herbs and potent alchemical reagents can purify tainted, brackish, muddy, or alkaline water in order to make it drinkable. If used to purify water that is diseased or poisonous, each tablet reduces the save DC by 1 (to a maximum reduction of 5) for any disease or poison present in the water. A single purification pellet can affect up to 1 gallon of tainted water.",
+			"@I-def This tablet of compressed herbs and potent alchemical reagents can purify tainted, brackish, muddy, or alkaline water in order to make it drinkable. If used to purify water that is diseased or poisonous, each tablet reduces the save DC by 1 (to a maximum reduction of 5) for any disease or poison present in the water. A single *purification pellet* can affect up to 1 gallon of tainted water.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -833,7 +841,7 @@
 			"‹SOURCE Adventurer's Armory 2/27›  ",
 			"::tabular{format=misc a=75 b=x d=conc}",
 			"",
-			"This minty fluid quickens your feet and improves your balance, granting a +2 alchemical bonus on Acrobatics checks and to your CMD against trip attempts. However, you become easily distracted and take a -2 penalty on Perception checks."
+			"@I-boost-def-down This minty fluid quickens your feet and improves your balance, granting a +2 alchemical bonus on ‹skill/Acrobatics› checks and to your CMD against ‹rule/trip› attempts. However, you become easily distracted and take a -2 penalty on ‹skill/Perception› checks."
 		]
 	},
 	"quicksilver_barometer": {
@@ -946,7 +954,7 @@
 			"‹SOURCE Ultimate Intrigue/236›  ",
 			"::tabular{format=misc a=120 b=x d=atool}",
 			"",
-			"You can accept ‹misc/alchemical burn› when you imbibe this draught to gain 1 grit point or 1 panache point. The effects of rake's friend last for 1 hour; if not spent within 1 hour, this point is lost. Rake's friend has no effect if you don't have the ability to use grit or panache.",
+			"@I-boost You can accept ‹misc/alchemical burn› when you imbibe this draught to gain 1 [grit point](class/gunslinger) or 1 [panache point](class/swashbuckler). The effects of *rake's friend* last for 1 hour; if not spent within 1 hour, this point is lost. *Rake's friend* has no effect if you don't have the ability to use grit or panache.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -1049,7 +1057,7 @@
 			"‹SOURCE Advanced Class Guide/208›  ",
 			"::tabular{format=misc a=1 b=x d=atool}",
 			"",
-			"This slip of paper can aid in the identifying of liquids. Its color changes in accordance to basic traits such as acidity, salinity, or magic. This confers a +2 alchemical bonus on any Craft (alchemy) or Spellcraft check made to identify potions or other liquids.",
+			"@I-boost This slip of paper can aid in the identifying of liquids. Its color changes in accordance to basic traits such as acidity, salinity, or magic. This confers a +2 alchemical bonus on any ‹skill/Craft› (alchemy) or ‹skill/Spellcraft› check made to identify potions or other liquids.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -1062,7 +1070,13 @@
 			"‹SOURCE Horror Adventures/213›  ",
 			"::tabular{format=misc a=100 b=x d=atool}",
 			"",
-			"This viscous, translucent green fluid is typically stored in a large syringe. When injected into a mostly intact corpse of a Medium or smaller creature that has been dead for no more than 1 day (time spent under effects like gentle repose don't count against this time), the fluid gives the corpse a rudimentary semblance of life, reactivating its nerves and muscle tissue. This causes the corpse to reanimate and shamble around erratically for 1 minute. The result is not an undead creature, nor is it a construct. The reanimated corpse remains utterly lifeless and is driven only by muscular spasms that cause it shuffle 20 feet in a random direction each round, gasping and blinking eerily as it goes. When the corpse hits a solid barrier or is attacked, it stops moving. On its next turn, roll 1d8 to determine where it goes next. On a 1, it continues forward in the same direction it had been previously moving (or runs up against the same barrier). On a 2, it turns 45 degrees clockwise and heads in that direction; on a 3, it turns 90 degrees clockwise and heads in that direction; and so on. The corpse can't attack, doesn't defend itself, and - as an object - has AC 10 and 12 hit points. Crafting a syringe of reanimating fluid requires a successful DC 25 Craft (alchemy) check.",
+			"This viscous, translucent green fluid is typically stored in a large syringe.",
+			"",
+			"@I-power When injected into a mostly intact corpse of a Medium or smaller creature that has been dead for no more than 1 day (time spent under effects like gentle repose don't count against this time), the fluid gives the corpse a rudimentary semblance of life, reactivating its nerves and muscle tissue. This causes the corpse to reanimate and shamble around erratically for 1 minute. The result is not an undead creature, nor is it a construct. The reanimated corpse remains utterly lifeless and is driven only by muscular spasms that cause it shuffle 20 feet in a random direction each round, gasping and blinking eerily as it goes.",
+			"",
+			"When the corpse hits a solid barrier or is attacked, it stops moving. On its next turn, roll 1d8 to determine where it goes next. On a 1, it continues forward in the same direction it had been previously moving (or runs up against the same barrier). On a 2, it turns 45 degrees clockwise and heads in that direction; on a 3, it turns 90 degrees clockwise and heads in that direction; and so on.",
+			"",
+			"The corpse can't attack, doesn't defend itself, and - as an object - has AC 10 and 12 hit points.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -1145,7 +1159,9 @@
 			"‹SOURCE Monster Codex/177›  ",
 			"::tabular{format=misc a=75 b=\"0.5\" d=atool}",
 			"",
-			"When applied to the nose as a standard action, this alchemical paste traps airborne particles and sharpens your olfactory receptors, heightening your sense of smell. You gain the ‹umr/scent› ability, except you can detect creatures and odors at only half the distance. If you already have the scent ability, rhinarium paste increases the range at which you can detect creatures by 50%. Rhinarium paste's effects lasts for 1 hour. Crafting this item requires a successful DC 20 Craft (alchemy) check.",
+			"When applied to the nose as a @HL[standard action], this alchemical paste traps airborne particles and sharpens your olfactory receptors, heightening your sense of smell.",
+			"",
+			"@I-power-boost You gain the ‹umr/scent› ability, except you can detect creatures and odors at only half the distance. If you already have the scent ability, *rhinarium paste* increases the range at which you can detect creatures by 50%. *Rhinarium paste's* effects lasts for 1 hour.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -1282,9 +1298,11 @@
 			"‹SOURCE Melee Tactics Toolbox/21›  ",
 			"::tabular{format=misc a=50 b=25 d=atool}",
 			"",
-			"Two separate compartments make up this black glass canister the size of a helmet. The large lower compartment contains hundreds of jagged shards of obsidian. The upper airtight chamber contains a sticky resin that hardens immediately upon contact with air. When you strike the canister with a bludgeoning melee weapon as a standard action, both compartments shatter, causing the obsidian shards to adhere to the weapon. The weapon deals piercing damage rather than bludgeoning damage for 10 minutes, at which point the resin dries and the shards fall off, or until you roll a natural 1 on an attack roll, which causes the shards to break off prematurely. If the weapon is made of a special material, the special properties of its material are suppressed while the obsidian shards adhere to the weapon.",
+			"Two separate compartments make up this black glass canister the size of a helmet. The large lower compartment contains hundreds of jagged shards of obsidian. The upper airtight chamber contains a sticky resin that hardens immediately upon contact with air.",
 			"",
-			"If you use a rockshard canister to coat an unarmed strike or natural weapon, you take 2d6 points of piercing damage when shattering the canister to apply the shards. For unarmed attacks, this can be avoided by carefully applying thick leather or rope straps to your hands and feet, which requires 5 minutes of work, prior to smashing the canister."
+			"@I-melee When you strike the canister with a bludgeoning melee weapon as a @HL[standard action], both compartments shatter, causing the obsidian shards to adhere to the weapon. The weapon deals piercing damage rather than bludgeoning damage for 10 minutes, at which point the resin dries and the shards fall off, or until you roll a natural 1 on an attack roll, which causes the shards to break off prematurely. If the weapon is made of a special material, the special properties of its material are suppressed while the obsidian shards adhere to the weapon.",
+			"",
+			"@I-warning If you use a *rockshard canister* to coat an unarmed strike or natural weapon, you take 2d6 points of piercing damage when shattering the canister to apply the shards. For unarmed attacks, this can be avoided by carefully applying thick leather or rope straps to your hands and feet, which requires 5 minutes of work, prior to smashing the canister."
 		]
 	},
 	"rogues_kit": {
@@ -1420,9 +1438,11 @@
 			"‹SOURCE Ultimate Equipment/103›  ",
 			"::tabular{format=misc a=60 b=x d=atool}",
 			"",
-			"This flaky brown powder derived from ‹monster/rust monster› fluids causes iron and similar metals to corrode and fall apart. If you apply a dose of rusting powder to a metal lock or trap as part of using the Disable Device skill, you gain a +5 alchemical bonus to open the lock or disable the trap, but there is a 75% chance that the mechanism is destroyed and cannot be used afterward. If the check fails, the mechanism is destroyed. A destroyed lock cannot be unlocked (but still counts as locked for the purpose opening the locked object). A destroyed trap mechanism immediately triggers the trap. If you fail the DC by 5 or more, the powder also lands on an object in your square (including possibly your armor or weapon), dealing 5 hit points of damage to the object.",
+			"This flaky brown powder derived from ‹monster/rust monster› fluids causes iron and similar metals to corrode and fall apart.",
 			"",
-			"Rusting powder is sold in a paper tube; you apply it by tearing the ends off the tube and blowing the flakes into the target device. Rusting powder does not affect ‹eq-material/gold›, silver, copper, ‹eq-material/bronze›, brass, or ‹eq-material/mithral›, but easily affects iron, steel, and ‹eq-material/adamantine›.",
+			"@I-boost-warning If you apply a dose of *rusting powder* to a metal lock or trap as part of using the ‹skill/Disable Device› skill, you gain a +5 alchemical bonus to open the lock or disable the trap, but there is a 75% chance that the mechanism is destroyed and cannot be used afterward. If the check fails, the mechanism is destroyed. A destroyed lock cannot be unlocked (but still counts as locked for the purpose opening the locked object). A destroyed trap mechanism immediately triggers the trap. If you fail the DC by 5 or more, the *powder* also lands on an object in your square (including possibly your armor or weapon), dealing 5 hit points of damage to the object.",
+			"",
+			"*Rusting powder* is sold in a paper tube; you apply it by tearing the ends off the tube and blowing the flakes into the target device. *Rusting powder* does not affect ‹eq-material/gold›, ‹eq-material/silver›, copper, ‹eq-material/bronze›, brass, or ‹eq-material/mithral›, but easily affects iron, steel, and ‹eq-material/adamantine›.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -1544,7 +1564,7 @@
 			"‹SOURCE People of the Sands/28›  ",
 			"::tabular{format=misc a=1 b=x d=rem}",
 			"",
-			"These tablets of pressed salt help stave off [dehydration](rule/starvation_and_thirst). Taking a salt tablet once every 24 hours grants you a +2 circumstance bonus on saving throws to avoid ‹rule/heat«stroke<_dangers› and on Constitution checks to avoid thirst.",
+			"@I-def These tablets of pressed salt help stave off [dehydration](rule/starvation_and_thirst). Taking a salt tablet once every 24 hours grants you a +2 circumstance bonus on saving throws to avoid ‹rule/heat«stroke<_dangers› and on Constitution checks to avoid thirst.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 10"
 		]
@@ -1662,7 +1682,9 @@
 			"‹SOURCE Adventurer's Guide/84›  ",
 			"::tabular{format=misc a=10 b=1 d=rem}",
 			"",
-			"This alchemical substance, originally developed by secretive worshipers of ‹faith/Zon-Kuthon› to hide the marks of their devotion, has become popular among former ‹rule/Gray Maidens›. When applied to scarred areas of the body, scarsalve causes those scars to fade from view for 1 day. A character who gains benefits from having visible scars loses those benefits while under the effects of scarsalve, but she also gains a +2 alchemical bonus on Disguise checks."
+			"This alchemical substance, originally developed by secretive worshipers of ‹faith/Zon-Kuthon› to hide the marks of their devotion, has become popular among former ‹rule/Gray Maidens›. When applied to scarred areas of the body, *scarsalve* causes those scars to fade from view for 1 day.",
+			"",
+			"@I-info A character who gains benefits from having visible scars loses those benefits while under the effects of *scarsalve,* but she also gains a +2 alchemical bonus on ‹skill/Disguise› checks."
 		]
 	},
 	"scavenger_beetle_colony": {
@@ -1684,7 +1706,7 @@
 			"‹SOURCE Heroes of the Wild/9›  ",
 			"::tabular{format=misc a=80 b=\"0.5\" d=atool}",
 			"",
-			"This alchemical oil takes 1 minute to apply and completely masks your odor for 6 hours. Creatures can't use the ‹umr/scent› ability to track you, detect your presence, or pinpoint your location. A single dose of scent blocker covers a Medium or smaller creature. For each size category larger than Medium a creature is, double the number of doses (and application time) required. Crafting scent blocker requires a successful DC 23 Craft (alchemy) check.",
+			"@I-def This alchemical oil takes 1 minute to apply and completely masks your odor for 6 hours. Creatures can't use the ‹umr/scent› ability to track you, detect your presence, or pinpoint your location. A single dose of *scent blocker* covers a Medium or smaller creature. For each size category larger than Medium a creature is, double the number of doses (and application time) required.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 23"
 		]
@@ -1700,7 +1722,7 @@
 			"‹SOURCE Ultimate Equipment/103;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=20 b=2 d=atool}",
 			"",
-			"This collection of coarsely ground spices, seeds, musk, and alchemical reagents are meant to be rubbed into your skin and clothes in order to override your scent, increasing the DC of tracking you by scent by +10 for 24 hours. Because you still have a smell, creatures with ‹umr/scent› can still detect and pinpoint you if you are cloaked; they just can't identify your smell as something unique. Washing for 1 full round removes the scent cloak.",
+			"@I-def This collection of coarsely ground spices, seeds, musk, and alchemical reagents are meant to be rubbed into your skin and clothes in order to override your scent, increasing the DC of tracking you by scent by +10 for 24 hours. Because you still have a smell, creatures with ‹umr/scent› can still detect and pinpoint you if you are cloaked; they just can't identify your smell as something unique. Washing for 1 full round removes the scent cloak.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -1724,7 +1746,7 @@
 			"‹SOURCE Advanced Race Guide/37›  ",
 			"::tabular{format=misc a=80 b=x d=atool}",
 			"",
-			"Scentbane incense is a form of ‹eq-misc/smokestick› that also blocks most scents. As long as the smoke lasts, creatures with the ‹umr/scent› special ability must make Perception checks, opposed by the Stealth checks of any creatures within the smoke, to use scent to locate creatures within the smoke. If a creature remains in scentbane incense for 5 rounds or more, the smoke clings to it for 1 round after it leaves, making it similarly difficult to find by scent during that time.",
+			"@I-def *Scentbane* incense is a form of ‹eq-misc/smokestick› that also blocks most scents. As long as the smoke lasts, creatures with the ‹umr/scent› special ability must make ‹skill/Perception› checks, opposed by the ‹skill/Stealth› checks of any creatures within the smoke, to use scent to locate creatures within the smoke. If a creature remains in *scentbane* incense for 5 rounds or more, the smoke clings to it for 1 round after it leaves, making it similarly difficult to find by scent during that time.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -1903,7 +1925,9 @@
 			"‹SOURCE Alchemy Manual/15›  ",
 			"::tabular{format=misc a=300 b=x d=rem}",
 			"",
-			"When combined with a drop of a humanoid's blood, this solution allows the ‹monster/homunculus› that drinks it to grow to size Small and assume the likeness of the subject whose blood was used. If the homunculus can speak, its voice changes to resemble that of the subject. The homunculus's space and reach become 5 feet and it loses its bite attack, but otherwise its statistics remain unchanged. This transformation lasts 24 hours. The homunculus gains a +10 circumstance bonus on Disguise checks to appear as the subject, but unless the subject is a halfling, a gnome, a child, or another Small humanoid, the homunculus is likely shorter than the subject.",
+			"@I-power When combined with a drop of a humanoid's blood, this solution allows the ‹monster/homunculus› that drinks it to grow to size Small and assume the likeness of the subject whose blood was used. If the homunculus can speak, its voice changes to resemble that of the subject. The homunculus's space and reach become 5 feet and it loses its bite attack, but otherwise its statistics remain unchanged. This transformation lasts 24 hours.",
+			"",
+			"@I-boost The homunculus gains a +10 circumstance bonus on ‹skill/Disguise› checks to appear as the subject, but unless the subject is a halfling, a gnome, a child, or another Small humanoid, the homunculus is likely shorter than the subject.",
 			"",
 			"::tabular{format=spontalch a=\"mag110/silv200/wine100\" b=distillation c=25 d=\"1 day\" f=retort g=remedy}"
 		]
@@ -1949,7 +1973,7 @@
 			"‹SOURCE People of the Sands/28›  ",
 			"::tabular{format=misc a=12 b=5 d=atool}",
 			"",
-			"This 30-foot length of rope is braided with musk-cured strips of snakeskin from a variety of desert serpents, and is typically laid out in a 5-foot-radius circle around the edge of a tent or around a sleeping creature. When it's laid out in this way, common snakes crawling across the desert floor often mistake the serpent line for another snake and shy away from crossing it. Ordinary venomous snakes approaching a serpent line must succeed at a DC 10 Will save or turn away from it, though if they notice potential prey within the serpent line, they may continue to lurk nearby. At the GM's discretion, an exceptionally aggressive or hungry snake may gain a +2 circumstance bonus on its saving throw. Snakes that are magically controlled ignore a serpent line.",
+			"@I-def This 30-foot length of rope is braided with musk-cured strips of snakeskin from a variety of desert serpents, and is typically laid out in a 5-foot-radius circle around the edge of a tent or around a sleeping creature. When it's laid out in this way, common snakes crawling across the desert floor often mistake the serpent line for another snake and shy away from crossing it. Ordinary venomous snakes approaching a serpent line must succeed at a DC 10 Will save or turn away from it, though if they notice potential prey within the serpent line, they may continue to lurk nearby. At the GM's discretion, an exceptionally aggressive or hungry snake may gain a +2 circumstance bonus on its saving throw. Snakes that are magically controlled ignore a serpent line.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -1962,7 +1986,13 @@
 			"‹SOURCE Dirty Tactics Toolbox/21›  ",
 			"::tabular{format=misc a=451 b=2 d=gear}",
 			"",
-			"Often used by ogres, bugbears, and other creatures that delight in causing excruciating pain to others, these caltrops have serrated edges that leave rough wounds that are difficult to heal. Serrated caltrops work just like normal ‹eq-misc/caltrops›, except they are considered ‹rule/masterwork weapons› (+1 bonus on attack rolls), deal 1 point of ‹rule/bleed› damage on a successful hit in addition to the caltrop's usual damage, and possess a critical threat range of 19-20. On a confirmed critical hit, the bleed damage increases to 1d2 points. A successful DC 15 Heal check or any amount of magical healing ends the bleeding as well as the normal movement penalty a caltrop causes. Serrated caltrops can be further enchanted as per melee weapons, treating one 2-pound bag as a single melee weapon. If any of the magic caltrops are lost, all the caltrops lose any magic abilities until the missing caltrops are returned or replaced. Serrated caltrops can't have the ‹eq-misc/hollow<_caltrops› special feature or the ‹eq-misc/shrapnel<_caltrops› special feature."
+			"Often used by ogres, bugbears, and other creatures that delight in causing excruciating pain to others, these caltrops have serrated edges that leave rough wounds that are difficult to heal.",
+			"",
+			"@I-boost *Serrated caltrops* work just like normal ‹eq-misc/caltrops›, except they are considered ‹rule/masterwork weapons› (+1 bonus on attack rolls), deal 1 point of ‹rule/bleed› damage on a successful hit in addition to the caltrop's usual damage, and possess a critical threat range of 19-20. On a confirmed critical hit, the bleed damage increases to 1d2 points. A successful DC 15 ‹skill/Heal› check or any amount of magical healing ends the bleeding as well as the normal movement penalty a caltrop causes.",
+			"",
+			"@I-info *Serrated caltrops* can be further enchanted as per melee weapons, treating one 2-pound bag as a single melee weapon. If any of the magic caltrops are lost, all the caltrops lose any magic abilities until the missing caltrops are returned or replaced.",
+			"",
+			"*Serrated caltrops* can't have the ‹eq-misc/hollow<_caltrops› special feature or the ‹eq-misc/shrapnel<_caltrops› special feature."
 		]
 	},
 	"sewing_needle": {
@@ -2046,7 +2076,11 @@
 			"‹SOURCE Alchemy Manual/7›  ",
 			"::tabular{format=misc a=90 b=\"0.5\" d=atool}",
 			"",
-			"The ground carcasses of goldbelly stinkbugs - insects native to the Mindspin Mountains - give this paint its characteristic yellow hue. When applied as a full-round action, this fine paste makes your head glow as though with an unearthly halo. You gain a +2 alchemical bonus to your caster level for any spells you cast that target one or more of your allies. The quicksilver in shaman's paint is harmful to living creatures. If you wear shaman's paint for more than 1 minute per day, you take 1 point of ‹rule/Wisdom damage›, plus 1 point of Wisdom damage for every minute you wear the paint that day after the first.",
+			"The ground carcasses of goldbelly stinkbugs - insects native to the Mindspin Mountains - give this paint its characteristic yellow hue.",
+			"",
+			"@I-boost When applied as a @HL[full-round action], this fine paste makes your head glow as though with an unearthly halo. You gain a +2 alchemical bonus to your caster level for any spells you cast that target one or more of your allies.",
+			"",
+			"@I-warning The quicksilver in shaman's paint is harmful to living creatures. If you wear shaman's paint for more than 1 minute per day, you take 1 point of ‹rule/Wisdom damage›, plus 1 point of Wisdom damage for every minute you wear the paint that day after the first.",
 			"",
 			"::tabular{format=spontalch a=\"qs30/sp25\" b=earth c=20 d=\"10 minutes\" g=tool}"
 		]
@@ -2228,7 +2262,9 @@
 			"‹SOURCE Dungeoneer's Handbook/27›  ",
 			"::tabular{format=misc a=35 b=2 d=atool}",
 			"",
-			"Created by suspending the spores of a [shrieker](rule/slimes_molds_and_fungi) mushroom in a thick mixture of wheat paste and vermiculite, this thick sludge comes in a soundproof, stone container. Shrieking paste creates an obnoxious piercing noise when exposed to even minute amounts of movement or light. This makes applying the paste a very noisy endeavor at best. However, once the paste is applied and left alone for several rounds, it once again becomes silent. Thereafter, any light source or movement within 10 feet of the paste causes it to shriek for 1d3 rounds. A single container contains enough shrieking paste to coat 1 square foot of a surface. If left undisturbed for several weeks in a dank, lightless setting, shrieking paste might eventually grow into a colony of shrieker mushrooms.",
+			"Created by suspending the spores of a [shrieker](rule/slimes_molds_and_fungi) mushroom in a thick mixture of wheat paste and vermiculite, this thick sludge comes in a soundproof, stone container. *Shrieking paste* creates an obnoxious piercing noise when exposed to even minute amounts of movement or light. This makes applying the paste a very noisy endeavor at best. However, once the paste is applied and left alone for several rounds, it once again becomes silent. Thereafter, any light source or movement within 10 feet of the paste causes it to shriek for 1d3 rounds.",
+			"",
+			"A single container contains enough shrieking paste to coat 1 square foot of a surface. If left undisturbed for several weeks in a dank, lightless setting, shrieking paste might eventually grow into a colony of shrieker mushrooms.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -2317,7 +2353,9 @@
 			"‹SOURCE Alchemy Manual/15›  ",
 			"::tabular{format=misc a=60 b=1 d=atool}",
 			"",
-			"This ashen powder can be thrown as a splash weapon, muffling all sound within a 15-foot-radius sphere centered on the point of impact. Perception checks to notice sound emanating from or passing through the cloud take a -10 penalty. Alternatively, applying a dose of silence dust to your feet as a standard action grants you a +5 circumstance bonus on Stealth checks to avoid being heard while walking. The dust is effective for 1 minute before it disperses.",
+			"@I-boom This ashen powder can be thrown as a ‹rule/splash weapon›, muffling all sound within a 15-foot-radius sphere centered on the point of impact. ‹skill/Perception› checks to notice sound emanating from or passing through the cloud take a -10 penalty.",
+			"",
+			"@I-def Alternatively, applying a dose of *silence dust* to your feet as a @HL[standard action] grants you a +5 circumstance bonus on Stealth checks to avoid being heard while walking. The dust is effective for 1 minute before it disperses.",
 			"",
 			"::tabular{format=spontalch a=\"lunary12/myrrh40\" b=calcination c=20 d=\"1 hour\" f=crucible g=tool}"
 		]
@@ -2373,7 +2411,7 @@
 			"‹SOURCE Blood of the Moon/30›  ",
 			"::tabular{format=misc a=180 b=x d=atool}",
 			"",
-			"A creature with DR/silver can swallow these bitter-tasting capsules of a concentrated alchemical silver to convert their damage reduction to DR/- for 2d4 rounds. When this effect ends, the creature is ‹misc/nauseated› for 1 round. A creature can only benefit from silver drops once per 24 hours. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
+			"@I-def-down A creature with DR/silver can swallow these bitter-tasting capsules of a concentrated alchemical silver to convert their damage reduction to DR/- for 2d4 rounds. When this effect ends, the creature is ‹misc/nauseated› for 1 round. A creature can only benefit from silver drops once per 24 hours.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -2386,7 +2424,7 @@
 			"‹SOURCE Ultimate Intrigue/236›  ",
 			"::tabular{format=misc a=120 b=x d=atool}",
 			"",
-			"When you imbibe this draught, you can accept ‹misc/alchemical burn› to gain an additional 4 rounds of bardic performance or raging song for the day. The effects of singer's solution last for 1 hour; if not spent within 1 hour, these additional rounds are lost. Singer's solution has no effect if you don't have the ‹ability/bardic performance› or ‹ability/raging song› class features.",
+			"@I-boost When you imbibe this draught, you can accept ‹misc/alchemical burn› to gain an additional 4 rounds of bardic performance or raging song for the day. The effects of singer's solution last for 1 hour; if not spent within 1 hour, these additional rounds are lost. Singer's solution has no effect if you don't have the ‹ability/bardic performance› or ‹ability/raging song› class features.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -2626,7 +2664,7 @@
 			"‹SOURCE Adventurer's Armory 2/27›  ",
 			"::tabular{format=misc a=50 b=x d=conc}",
 			"",
-			"This inky concoction slows the flow of blood, reducing any ‹rule/bleed› damage you would suffer by 2 and causing you to automatically stabilize when dying. The concoction dulls your response speed, however, imparting a -1 penalty on your Reflex saving throws."
+			"@I-def-down This inky concoction slows the flow of blood, reducing any ‹rule/bleed› damage you would suffer by 2 and causing you to automatically stabilize when dying. The concoction dulls your response speed, however, imparting a -1 penalty on your Reflex saving throws."
 		]
 	},
 	"smelling_salts": {
@@ -2640,7 +2678,11 @@
 			"‹SOURCE Ultimate Equipment/101;Advanced Player's Guide/184›  ",
 			"::tabular{format=misc a=25 b=x d=rem}",
 			"",
-			"These sharply scented gray crystals cause people inhaling them to regain consciousness. Smelling salts grant you a new saving throw to resist any spell or effect that has already rendered you ‹misc/unconscious› or ‹misc/staggered›. If exposed to smelling salts while ‹misc/dying›, you immediately become conscious and staggered, but must still make stabilization checks each round; if you perform any standard action (or any other strenuous action), you take 1 point of damage after completing the act and fall unconscious again. A container of smelling salts has dozens of uses if stoppered after each use, but depletes in a matter of hours if left open.",
+			"These sharply scented gray crystals cause people inhaling them to regain consciousness.",
+			"",
+			"@I-def Smelling salts grant you a new saving throw to resist any spell or effect that has already rendered you ‹misc/unconscious› or ‹misc/staggered›. If exposed to smelling salts while ‹misc/dying›, you immediately become conscious and staggered, but must still make stabilization checks each round; if you perform any standard action (or any other strenuous action), you take 1 point of damage after completing the act and fall unconscious again.",
+			"",
+			"A container of smelling salts has dozens of uses if stoppered after each use, but depletes in a matter of hours if left open.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -2653,7 +2695,11 @@
 			"‹SOURCE Curse of the Crimson Throne/432›  ",
 			"::tabular{format=misc a=100 b=1 d=atool}",
 			"",
-			"A smoke bomb appears as a polished ceramic sphere that can be held comfortably in one hand. Many crafters of these alchemical weapons take pride in painting or etching these bombs with complex scenes, or even making them look like small humanoid skulls, despite the fact that the bombs shatter when thrown. When thrown as a splash weapon, a smoke bomb bursts and fills the 5-foot square it detonates in with a cloud of thick, foul-smelling gray smoke (treat this area as if affected by a ‹spell/fog cloud› spell, except that the cloud lasts only 1 round before dissipating). A creature that is struck by a smoke bomb or that passes through the cloud a bomb creates must succeed at a DC 12 Fortitude save or be ‹misc/nauseated› for 1 round and ‹misc/sickened› for 3 rounds after that. Creatures within 5 feet of where the flask hits are sickened for 1 round if they fail this saving throw. This is a poison effect. Crafting a smoke bomb requires a successful DC 22 Craft (alchemy) check.",
+			"A *smoke bomb* appears as a polished ceramic sphere that can be held comfortably in one hand. Many crafters of these alchemical weapons take pride in painting or etching these bombs with complex scenes, or even making them look like small humanoid skulls, despite the fact that the bombs shatter when thrown.",
+			"",
+			"@I-boom-lower When thrown as a ‹rule/splash weapon›, a *smoke bomb* bursts and fills the 5-foot square it detonates in with a cloud of thick, foul-smelling gray smoke (treat this area as if affected by a ‹spell/fog cloud› spell, except that the cloud lasts only 1 round before dissipating). A creature that is struck by a *smoke bomb* or that passes through the cloud a bomb creates must succeed at a DC 12 Fortitude save or be ‹misc/nauseated› for 1 round and ‹misc/sickened› for 3 rounds after that. Creatures within 5 feet of where the flask hits are sickened for 1 round if they fail this saving throw.",
+			"",
+			"This is a poison effect.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 22"
 		]
@@ -2685,7 +2731,9 @@
 			"‹SOURCE Ultimate Equipment/103;Advanced Player's Guide/184;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=25 b=x d=atool}",
 			"",
-			"This small clay sphere contains two alchemical substances separated by a thin barrier. When you break the sphere, the substances mingle and fill a 5-foot square with a cloud of foul but harmless yellow smoke. The smoke pellet acts as a ‹eq-misc/smokestick›, except the smoke only lasts for 1 round before dispersing. You may throw a smoke pellet as a ranged touch attack with a range increment of 10 feet.",
+			"This small clay sphere contains two alchemical substances separated by a thin barrier. When you break the sphere, the substances mingle and fill a 5-foot square with a cloud of foul but harmless yellow smoke. The smoke pellet acts as a ‹eq-misc/smokestick›, except the smoke only lasts for 1 round before dispersing.",
+			"",
+			"@I-zap You may throw a smoke pellet as a ranged touch attack with a range increment of 10 feet.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -2791,11 +2839,7 @@
 			"",
 			"This mildly toxic liniment numbs flesh and can soothe injuries. Though the tincture is actually poisonous, an imbiber who avoids becoming poisoned recovers from minor injuries.",
 			"",
-			"### Snake Oil",
-			"",
-			"**Type** poison (contact); **Save** Fortitude DC 12  ",
-			"**Onset** 1 round; **Frequency** 1/minute for 5 minutes  ",
-			"**Effect** On a failed save, snake oil deals 1 point of nonlethal damage. However, on a successful save, the toxin heals 1d6 points of nonlethal damage; **Cure** 1 save",
+			"::aff[Snake Oil]{iconP poison type=contact saveF=12 onset=\"1 round\" freqM=5 eff=\"On a failed save, snake oil deals 1 point of nonlethal damage. However, on a successful save, the toxin heals 1d6 points of nonlethal damage.\" cure1}",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -2808,7 +2852,7 @@
 			"‹SOURCE Adventurer's Armory 2/27›  ",
 			"::tabular{format=misc a=50 b=x d=conc}",
 			"",
-			"This lime-green goo turns your saliva venomous. Once during the concoction's duration, as a swift action, you can lick or spit on a held weapon to apply a dose of black adder venom to the weapon. If you are a ‹race/vishkanya›, you instead apply the poison granted by your toxic racial trait; this does not count against that trait's uses per day. The concoction weakens your physical defenses, imparting a -1 penalty on your Fortitude saving throws."
+			"@I-power-down This lime-green goo turns your saliva venomous. Once during the concoction's duration, as a @HL[swift action], you can lick or spit on a held weapon to apply a dose of ‹eq-poison/black adder venom› to the weapon. If you are a ‹race/vishkanya›, you instead apply the poison granted by your *toxic* racial trait; this does not count against that trait's uses per day. The concoction weakens your physical defenses, imparting a -1 penalty on your Fortitude saving throws."
 		]
 	},
 	"snorkel_common": {
@@ -2948,7 +2992,9 @@
 			"‹SOURCE Ultimate Equipment/101;Advanced Player's Guide/184›  ",
 			"::tabular{format=misc a=25 b=\"0.5\" d=rem}",
 			"",
-			"This sweet and wholesome-tasting blue liquid creates a sense of warmth and comfort. Soothe syrup coats your stomach and makes it much more difficult for you to succumb to queasiness. For 1 hour after drinking soothe syrup, you gain a +5 alchemical bonus on saving throws made to resist effects that would make you nauseated or sickened.",
+			"This sweet and wholesome-tasting blue liquid creates a sense of warmth and comfort. *Soothe syrup* coats your stomach and makes it much more difficult for you to succumb to queasiness.",
+			"",
+			"@I-def For 1 hour after drinking *soothe syrup,* you gain a +5 alchemical bonus on saving throws made to resist effects that would make you ‹misc/nauseated› or ‹misc/sickened›.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -2972,7 +3018,7 @@
 			"‹SOURCE Potions and Poisons/23›  ",
 			"::tabular{format=misc a=300 b=x d=tinc}",
 			"",
-			"This silvery liquid amplifies magical energies. For 1 hour after drinking this tincture, treat your caster level as 2 higher for the purpose of determining spells' durations and ranges. The liquid unsettles the stomach, imposing a -1 penalty on Fortitude and Reflex saves for the same duration. Whenever you fail a Fortitude or Reflex save while under these effects, you must succeed at a DC 20 Fortitude saving throw or become ‹misc/nauseated› for 1 round.",
+			"@I-boost-down This silvery liquid amplifies magical energies. For 1 hour after drinking this tincture, treat your caster level as 2 higher for the purpose of determining spells' durations and ranges. The liquid unsettles the stomach, imposing a -1 penalty on Fortitude and Reflex saves for the same duration. Whenever you fail a Fortitude or Reflex save while under these effects, you must succeed at a DC 20 Fortitude saving throw or become ‹misc/nauseated› for 1 round.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -2996,7 +3042,9 @@
 			"‹SOURCE Ultimate Equipment/101›  ",
 			"::tabular{format=misc a=300 b=x d=rem}",
 			"",
-			"This soothing elixir was created to counter the energy-draining effects of vampires, wights, and similar horrible creatures. If you have a negative level (whether temporary or permanent), you can drink a dose of soul stimulant, negating the negative level's penalty for 12 hours. You can only benefit from 1 dose of soul stimulant at a time, though you can continue to take a dose every 12 hours to stave off the negative level's effects.",
+			"This soothing elixir was created to counter the energy-draining effects of vampires, wights, and similar horrible creatures.",
+			"",
+			"@I-aid If you have a negative level (whether temporary or permanent), you can drink a dose of soul stimulant, negating the negative level's penalty for 12 hours. You can only benefit from 1 dose of soul stimulant at a time, though you can continue to take a dose every 12 hours to stave off the negative level's effects.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -3012,7 +3060,9 @@
 			"‹SOURCE Adventurer's Guide/45;Pathfinder #106: For Queen and Empire/75›  ",
 			"::tabular{format=misc a=25 b=1 d=atool}",
 			"",
-			"When inhaled, this incense causes creatures to see dazzling auras around light sources, drawing their attention to such illumination as the moon or stars and away from other nearby creatures. Any creature inhaling sparkle smoke that fails a DC 15 Fortitude saving throw takes a -4 penalty on Perception checks to notice creatures smaller than itself in areas of at least ‹rule/dim light› for 1 hour. Crafting a dose of sparkle smoke requires a successful DC 15 Craft (alchemy) check.",
+			"When inhaled, this incense causes creatures to see dazzling auras around light sources, drawing their attention to such illumination as the moon or stars and away from other nearby creatures.",
+			"",
+			"@I-lower Any creature inhaling *sparkle smoke* that fails a DC 15 Fortitude saving throw takes a -4 penalty on ‹skill/Perception› checks to notice creatures smaller than itself in areas of at least ‹rule/dim light› for 1 hour.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -3060,7 +3110,7 @@
 			"‹SOURCE Ultimate Intrigue/236›  ",
 			"::tabular{format=misc a=410 b=x d=atool}",
 			"",
-			"Chewing this gummy substance grants you 1d4 uses of ‹misc/alchemical inspiration› that can be used only on Charisma-based skill checks. This benefit lasts for 1 hour, during which you must roll all Wisdom-based skill checks twice and take the worse result.",
+			"@I-boost-down Chewing this gummy substance grants you 1d4 uses of ‹misc/alchemical inspiration› that can be used only on Charisma-based skill checks. This benefit lasts for 1 hour, during which you must roll all Wisdom-based skill checks twice and take the worse result.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -3179,7 +3229,7 @@
 			"‹SOURCE Adventurer's Armory 2/27›  ",
 			"::tabular{format=misc a=50 b=x d=conc}",
 			"",
-			"This syrupy concoction fills you with a dreamy, peaceful feeling, providing a +1 alchemical bonus on Will saving throws. However, the dreaminess slows your reactions to danger, imparting a -2 penalty on initiative checks."
+			"@I-def-down This syrupy concoction fills you with a dreamy, peaceful feeling, providing a +1 alchemical bonus on Will saving throws. However, the dreaminess slows your reactions to danger, imparting a -2 penalty on initiative checks."
 		]
 	},
 	"spider_sac": {
@@ -3190,7 +3240,13 @@
 			"‹SOURCE Advanced Race Guide/105›  ",
 			"::tabular{format=misc a=30 b=1 d=atool}",
 			"",
-			"Despite their name, spider sacs have nothing to do with spiders but rather are alchemical devices with a unique delivery system. Used for climbing as well as combat, these grayish, gourd-like pouches are made of a specially grown fungus with a tough but rubbery exterior. The fungoid is carefully harvested, pierced at one end, hollowed out, and then injected with a strong alchemical adhesive that hardens to a fibrous material almost instantly when exposed to air. When squeezed, a spider sac's adhesive shoots out to a maximum range of 10 feet and sticks to whatever it strikes, whereupon the strand dries instantly into a durable fibrous rope. For the purposes of climbing, treat a spider sac as a grappling hook except that all surfaces are AC 5. A spider sac can also be used as a lasso except with AC 10, 4 hit points, and a DC 24 Strength check to burst. A spider sac is a single-use item.",
+			"Despite their name, *spider sacs* have nothing to do with spiders but rather are alchemical devices with a unique delivery system. Used for climbing as well as combat, these grayish, gourd-like pouches are made of a specially grown fungus with a tough but rubbery exterior. The fungoid is carefully harvested, pierced at one end, hollowed out, and then injected with a strong alchemical adhesive that hardens to a fibrous material almost instantly when exposed to air.",
+			"",
+			"@I-power When squeezed, a *spider sac's* adhesive shoots out to a maximum range of 10 feet and sticks to whatever it strikes, whereupon the strand dries instantly into a durable fibrous rope. For the purposes of climbing, treat a *spider sac* as a ‹eq-misc/grappling hook› except that all surfaces are AC 5.",
+			"",
+			"@I-melee A *spider sac* can also be used as a ‹eq-weapon/lasso› except with AC 10, 4 hit points, and a DC 24 Strength check to burst.",
+			"",
+			"A *spider sac* is a single-use item.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -3230,11 +3286,11 @@
 			"‹SOURCE Monster Codex/33›  ",
 			"::tabular{format=misc a=40 b=\"0.5\" d=atool}",
 			"",
-			"This alchemical fluid is viscous and clear, and it emits a strong chemical smell when exposed to air. Vermin are attracted to it and perceive anything marked with it as prey. Spiders, insects, and similar vermin gain a +5 bonus on Perception checks and attack rolls against a creature marked with spiderdraw; if these creatures have the scent ability, they can detect a marked creature at five times the normal range, note its direction as a free action, and pinpoint it when it is within 25 feet.",
+			"This alchemical fluid is viscous and clear, and it emits a strong chemical smell when exposed to air. Vermin are attracted to it and perceive anything marked with it as prey.",
 			"",
-			"Drow sometimes use spiderdraw as a contact poison or splash weapon against opponents, allowing vermin to focus on the marked targets while the drow retreat, regroup, or move to a more advantageous position. Washing off the spiderdraw is a full-round action requiring at least a gallon of water or other suitable washing liquid; otherwise, the effects last for 1 hour.",
+			"@I-lower Spiders, insects, and similar vermin gain a +5 bonus on ‹skill/Perception› checks and attack rolls against a creature marked with *spiderdraw;* if these creatures have the ‹umr/scent› ability, they can detect a marked creature at five times the normal range, note its direction as a @HL[free action], and pinpoint it when it is within 25 feet.",
 			"",
-			"Crafting spiderdraw requires a successful DC 20 Craft (alchemy) check.",
+			"Drow sometimes use *spiderdraw* as a contact poison or ‹rule/splash weapon› against opponents, allowing vermin to focus on the marked targets while the drow retreat, regroup, or move to a more advantageous position. Washing off the *spiderdraw* is a @HL[full-round action] requiring at least a gallon of water or other suitable washing liquid; otherwise, the effects last for 1 hour.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -3282,7 +3338,9 @@
 			"‹SOURCE Alchemy Manual/9›  ",
 			"::tabular{format=misc a=35 b=x d=atool}",
 			"",
-			"This fiber is composed of tiny strands of razor-sharp glass laced with alchemical elements. Anyone who touches it finds her skin irritated by countless tiny abrasions. Though it causes only minor discomfort, it opens the skin enough for poison to seep through, allowing injury poisons to be delivered to the affected creature as if they were contact poisons. The abrasions last for 1 hour or until cleaned and treated with a successful DC 10 Heal check (a full-round action). Poisoners sometimes place spirit of glass in a target's wardrobe or amid her personal effects along with a rag soaked in poison. Spirit of glass is often mistaken for lint or loose cloth, though it and the abrasions it causes can be identified with a successful DC 15 Craft (alchemy) check or DC 17 Heal check. Spirit of glass can be used only once before it is expended.",
+			"@I-lower This fiber is composed of tiny strands of razor-sharp glass laced with alchemical elements. Anyone who touches it finds her skin irritated by countless tiny abrasions. Though it causes only minor discomfort, it opens the skin enough for poison to seep through, allowing injury poisons to be delivered to the affected creature as if they were contact poisons. The abrasions last for 1 hour or until cleaned and treated with a successful DC 10 ‹skill/Heal› check (a @HL[full-round action]).",
+			"",
+			"Poisoners sometimes place *spirit of glass* in a target's wardrobe or amid her personal effects along with a rag soaked in poison. *Spirit of glass* is often mistaken for lint or loose cloth, though it and the abrasions it causes can be identified with a successful DC 15 ‹skill/Craft› (alchemy) check or DC 17 Heal check. *Spirit of glass* can be used only once before it is expended.",
 			"",
 			"::tabular{format=spontalch a=\"ci2/dw7/gold5\" b=calcination c=25 d=\"1 hour\" f=crucible g=tool}"
 		]
@@ -3328,7 +3386,7 @@
 			"‹SOURCE Adventurer's Armory 2/28›  ",
 			"::tabular{format=misc a=25 b=x d=atool}",
 			"",
-			"Originally developed by kami-revering priests to write prayer scrolls, this pale ink is now often used by ninjas to mark locations or leave messages. Once spirit-vision ink dries, it becomes completely invisible. To invisible creatures, however, writing in spirit-vision ink shimmers with a rich azure hue.",
+			"Originally developed by ‹family/kami›-revering priests to write prayer scrolls, this pale ink is now often used by ‹class/ninja«s› to mark locations or leave messages. Once *spirit-vision ink* dries, it becomes completely invisible. To invisible creatures, however, writing in *spirit-vision ink* shimmers with a rich azure hue.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -3341,7 +3399,7 @@
 			"‹SOURCE Undead Slayer's Handbook/13›  ",
 			"::tabular{format=misc a=300 b=1 d=atool}",
 			"",
-			"When you slash this alchemically treated iron spike against your flesh - a move action that deals 1d6 points of damage - the spike extends and becomes a ‹eq-weapon/short sword› with the ‹magic-enh/ghost touch› weapon special ability. The spike reverts to its old form after 10 minutes, corroded and useless. Should a spiritbane spike rematerialize within a corporeal body, it is shunted to the nearest empty space without effect. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
+			"@I-melee-down When you slash this alchemically treated iron spike against your flesh - a @HL[move action] that deals 1d6 points of damage - the *spike* extends and becomes a ‹eq-weapon/short sword› with the ‹magic-enh/ghost touch› weapon special ability. The *spike* reverts to its old form after 10 minutes, corroded and useless. Should a *spiritbane spike* rematerialize within a corporeal body, it is shunted to the nearest empty space without effect.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -3505,7 +3563,11 @@
 			"‹SOURCE Blood of the Elements/19›  ",
 			"::tabular{format=misc a=80 b=1 d=atool}",
 			"",
-			"Gathered within this tightly woven, alchemically treated canvas sack is a sample of the pervasive fetid fog that looms near the border of the Plane of Air and the Plane of Water. When opened, the fog billows out in a 30-foot-radius area. Sight is extremely limited in an area of stagnant fog. A creature within 15 feet has ‹rule/concealment› (20% miss chance), while creatures farther away have total concealment (50% miss chance, and the attacker can't use sight to locate the target). In addition, creatures that end their turn within the cloud must succeed at a DC 14 Fortitude save or become ‹misc/sickened› for 1 round. Stagnant fog dissipates naturally after 1 minute. A moderate wind (11+ mph) disperses the stagnant fog in 1 round. This item can be crafted with a successful DC 20 Craft (alchemy) check.",
+			"Gathered within this tightly woven, alchemically treated canvas sack is a sample of the pervasive fetid fog that looms near the border of the Plane of Air and the Plane of Water.",
+			"",
+			"@I-aura When opened, the fog billows out in a 30-foot-radius area. Sight is extremely limited in an area of *stagnant fog.* A creature within 15 feet has ‹rule/concealment› (20% miss chance), while creatures farther away have total concealment (50% miss chance, and the attacker can't use sight to locate the target). In addition, creatures that end their turn within the cloud must succeed at a DC 14 Fortitude save or become ‹misc/sickened› for 1 round.",
+			"",
+			"*Stagnant fog* dissipates naturally after 1 minute. A moderate wind (11+ mph) disperses the *stagnant fog* in 1 round.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -3518,7 +3580,9 @@
 			"‹SOURCE Potions and Poisons/29›  ",
 			"::tabular{format=misc a=50 b=x d=atool}",
 			"",
-			"This is a clear, viscous liquid that is typically kept in a frosted glass vial with an unassuming label and cork. The oil is used to reduce the sound armor and weapons make while moving. Applying this oil to a single piece of equipment takes 1 minute and grants the wearer a +2 circumstance bonus on Stealth checks for 30 minutes. A vial of this oil is enough to coat one Medium piece of equipment, while a Large piece of equipment requires 4 vials. Two pieces of Small equipment can be covered with a single vial of oil. Exposure to or submersion in large amounts of water, such as swimming, immediately ends the effect of the oil."
+			"This is a clear, viscous liquid that is typically kept in a frosted glass vial with an unassuming label and cork. The oil is used to reduce the sound armor and weapons make while moving.",
+			"",
+			"@I-def Applying this oil to a single piece of equipment takes 1 minute and grants the wearer a +2 circumstance bonus on ‹skill/Stealth› checks for 30 minutes. A vial of this oil is enough to coat one Medium piece of equipment, while a Large piece of equipment requires 4 vials. Two pieces of Small equipment can be covered with a single vial of oil. Exposure to or submersion in large amounts of water, such as swimming, immediately ends the effect of the oil."
 		]
 	},
 	"star_charts": {
@@ -3540,7 +3604,7 @@
 			"‹SOURCE Potions and Poisons/23›  ",
 			"::tabular{format=misc a=300 b=x d=tinc}",
 			"",
-			"This clear liquid glows with pale light. For 4 hours after drinking this tincture, you emit light as a ‹eq-misc/torch›. You are constantly ‹misc/dazzled› during this time. If any effect would cause you to become dazzled during this time, you are instead ‹misc/blinded›. While under the effect of this tincture, you can intensify your glow as a swift action to that of bright light, as per ‹spell/daylight›, for 1 round. After activating the bright light effect, you emit only dim light with a range of 10 feet for the remainder of the tincture's duration.",
+			"@I-power-down This clear liquid glows with pale light. For 4 hours after drinking this tincture, you emit light as a ‹eq-misc/torch›. You are constantly ‹misc/dazzled› during this time. If any effect would cause you to become dazzled during this time, you are instead ‹misc/blinded›. While under the effect of this tincture, you can intensify your glow as a @HL[swift action] to that of bright light, as per ‹spell/daylight›, for 1 round. After activating the bright light effect, you emit only dim light with a range of 10 feet for the remainder of the tincture's duration.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -3553,7 +3617,11 @@
 			"‹SOURCE Monster Hunter's Handbook/27›  ",
 			"::tabular{format=misc a=100 b=\"0.5\" d=atool}",
 			"",
-			"Alchemical compounds in this square of jagged, metallic fibers store and transfer electricity into clothing when rubbed against the fabric for 1 minute. When you are grappled within the next 10 minutes while wearing this electrically charged clothing, as well as light armor or no armor, the electricity discharges. This deals 1 point of nonlethal electricity damage to the grappling creature, and if it takes damage from the effect, it must succeed at a DC 20 combat maneuver check to grapple or immediately release you. The DC increases to 22 against a creature with the ‹umr/grab› ability. A single square of static wool can be used five times before expending its alchemical compounds."
+			"Alchemical compounds in this square of jagged, metallic fibers store and transfer electricity into clothing when rubbed against the fabric for 1 minute.",
+			"",
+			"@I-def When you are ‹rule/grappled› within the next 10 minutes while wearing this electrically charged clothing, as well as light armor or no armor, the electricity discharges. This deals 1 point of nonlethal electricity damage to the grappling creature, and if it takes damage from the effect, it must succeed at a DC 20 combat maneuver check to grapple or immediately release you. The DC increases to 22 against a creature with the ‹umr/grab› ability.",
+			"",
+			"A single square of static wool can be used five times before expending its alchemical compounds."
 		]
 	},
 	"stationery": {
@@ -3602,7 +3670,9 @@
 			"‹SOURCE Advanced Race Guide/118›  ",
 			"::tabular{format=misc a=50 b=x d=rem}",
 			"",
-			"Drinking a vial of this bland, bluish liquid grants you a +5 alchemical bonus on Fortitude saves to avoid ‹misc/nausea› or ‹misc/sickness› for 1 hour. If you are already nauseated, you can drink stillgut as a move action. Drinking it in this fashion grants you a second saving throw (without the +5 bonus). Goblins often use stillgut so they can choke down meat or other foods in advanced stages of rot or decay.",
+			"@I-def Drinking a vial of this bland, bluish liquid grants you a +5 alchemical bonus on Fortitude saves to avoid ‹misc/nausea› or ‹misc/sickness› for 1 hour. If you are already nauseated, you can drink *stillgut* as a @HL[move action]. Drinking it in this fashion grants you a second saving throw (without the +5 bonus).",
+			"",
+			"Goblins often use *stillgut* so they can choke down meat or other foods in advanced stages of rot or decay.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -3654,7 +3724,7 @@
 			"‹SOURCE Advanced Race Guide/154›  ",
 			"::tabular{format=misc a=special b=\"1 lb.\" c=x d=rem}",
 			"",
-			"Most common among ‹race/ratfolk› alchemists, arcane stink ink is used to inscribe formulae or spells into formula books and spellbooks. Like normal ‹eq-misc/stink ink›, the arcane version can only be read by creatures with the ‹umr/scent› ability (although ‹spell/read magic› works normally on spells and arcane formulae inscribed with stink ink). Using arcane stink ink to inscribe a spell or formula into a book costs +10% of the normal amount."
+			"Most common among ‹race/ratfolk› alchemists, *arcane stink ink* is used to inscribe formulae or spells into formula books and spellbooks. Like normal ‹eq-misc/stink ink›, the *arcane* version can only be read by creatures with the ‹umr/scent› ability (although ‹spell/read magic› works normally on spells and arcane formulae inscribed with stink ink). Using *arcane stink ink* to inscribe a spell or formula into a book costs +10% of the normal amount."
 		]
 	},
 	"stink_ink_common": {
@@ -3665,7 +3735,7 @@
 			"‹SOURCE Advanced Race Guide/154›  ",
 			"::tabular{format=misc a=5 b=1 d=rem}",
 			"",
-			"Stink ink is a special, pungent, musk-based ink that allows its user to encode information with smell rather than visually. Stink ink dries clear but its sharp, extremely localized smell can be picked out by those with sensitive enough noses to make it possible to read by sense of smell. Only creatures with the keen senses trait or ‹umr/scent› ability can read stink ink without aid of some form of magic. Reading or writing something with stink ink takes twice as long as going through the same amount of information written in normal ink.",
+			"*Stink ink* is a special, pungent, musk-based ink that allows its user to encode information with smell rather than visually. *Stink ink* dries clear but its sharp, extremely localized smell can be picked out by those with sensitive enough noses to make it possible to read by sense of smell. Only creatures with the *keen senses* trait or ‹umr/scent› ability can read *stink ink* without aid of some form of magic. Reading or writing something with *stink ink* takes twice as long as going through the same amount of information written in normal ink.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -3693,7 +3763,9 @@
 			"‹SOURCE Advanced Race Guide/147›  ",
 			"::tabular{format=misc a=150 b=1 d=atool}",
 			"",
-			"This gritty, gray ointment weakens rocky materials. When applied to an object made of stone, it reduces the object's hardness by 3 for 10 minutes. As a standard action, a creature can apply the paste to affect one 5-foot-square or a Medium or smaller creature. The paste only affects hardness, not damage reduction or similar defenses.",
+			"This gritty, gray ointment weakens rocky materials.",
+			"",
+			"When applied to an object made of stone, it reduces the object's ‹rule/hardness› by 3 for 10 minutes. As a @HL[standard action], a creature can apply the paste to affect one 5-foot-square or a Medium or smaller creature. The paste only affects hardness, not damage reduction or similar defenses.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -3717,7 +3789,9 @@
 			"‹SOURCE Potions and Poisons/23›  ",
 			"::tabular{format=misc a=100 b=x d=tinc}",
 			"",
-			"This highly viscous liquid resembles tree sap and is difficult to swallow. For 2 hours after drinking this tincture, you gain a +2 alchemical bonus to your CMD and you can perform ‹rule/combat maneuvers› as if you were one size category larger. Your skeleton's increased density causes you to be treated as if you were ‹rule/carrying<_capacity› a medium load, or a heavy load if you were already encumbered by a medium load, for the same duration.",
+			"This highly viscous liquid resembles tree sap and is difficult to swallow.",
+			"",
+			"@I-def-boost-down For 2 hours after drinking this tincture, you gain a +2 alchemical bonus to your CMD and you can perform ‹rule/combat maneuvers› as if you were one size category larger. Your skeleton's increased density causes you to be treated as if you were ‹rule/carrying<_capacity› a medium load, or a heavy load if you were already encumbered by a medium load, for the same duration.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -3864,7 +3938,11 @@
 			"‹SOURCE Demon Hunter's Handbook/19›  ",
 			"::tabular{format=misc a=25 b=1 d=atool}",
 			"",
-			"Sun cinder is a fine powder that glows faintly when exposed to light. One bag of this alchemically created talc contains 5 uses. When opened, it shines like a ‹eq-misc/candle›. If sprinkled on a ‹eq-misc/torch› or similar flame, 1 dose of sun cinder increases the light level of the area that flame illuminates by one additional step, up to bright light. This increased illumination lasts for 1 minute. Multiple doses of sun cinder can be used to further increase the light shed by the same source. A single dose of sun cinder does not affect flames larger than a torch. Sun cinder doesn't affect a light source's ability to penetrate magical darkness. Crafting 5 doses of sun cinder requires a successful DC 20 Craft (alchemy) check.",
+			"*Sun cinder* is a fine powder that glows faintly when exposed to light. One bag of this alchemically created talc contains 5 uses.",
+			"",
+			"@I-power-boost When opened, it shines like a ‹eq-misc/candle›. If sprinkled on a ‹eq-misc/torch› or similar flame, 1 dose of *sun cinder* increases the ‹rule/light level› of the area that flame illuminates by one additional step, up to bright light. This increased illumination lasts for 1 minute.",
+			"",
+			"Multiple doses of *sun cinder* can be used to further increase the light shed by the same source. A single dose of *sun cinder* does not affect flames larger than a torch. *Sun cinder* doesn't affect a light source's ability to penetrate magical darkness.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -3877,7 +3955,7 @@
 			"‹SOURCE People of the Sands/28›  ",
 			"::tabular{format=misc a=10 b=\"0.5\" d=rem}",
 			"",
-			"Each application of this alchemical solution, typically compounded from substances found in desert flowers, fruits, and roots, heals 1d4 points of nonlethal damage that the target has taken from ‹rule/heat« exposure›. If you succeed at a DC 20 Heal check while applying sun cream, you may add your Wisdom modifier to the nonlethal damage healed. A creature cannot benefit from more than one application of sun cream in a 24-hour period.",
+			"@I-aid Each application of this alchemical solution, typically compounded from substances found in desert flowers, fruits, and roots, heals 1d4 points of nonlethal damage that the target has taken from ‹rule/heat« exposure›. If you succeed at a DC 20 ‹skill/Heal› check while applying sun cream, you may add your Wisdom modifier to the nonlethal damage healed. A creature cannot benefit from more than one application of sun cream in a 24-hour period.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -3905,7 +3983,9 @@
 			"‹SOURCE Melee Tactics Toolbox/21›  ",
 			"::tabular{format=misc a=35 b=2 d=atool}",
 			"",
-			"This lumpy, lard-like, alchemical substance is designed to protect armor and weapons from dents and cracks that commonly develop in close-combat equipment. When liberally applied to armor or weapons, the material provides a greasy surface that blunts impacts, causes blades to slide aside, and strengthens the gear it is applied to. A single container holds enough sunderblock to coat a single weapon or suit of armor as a full-round action. The effects aren't pronounced enough to increase the Armor Class bonus of a suit of armor, but the hardness of armors and weapons coated with sunderblock increases by 5. This bonus lasts for 12 hours, at which point the greasy substance dries and flakes away."
+			"This lumpy, lard-like, alchemical substance is designed to protect armor and weapons from dents and cracks that commonly develop in close-combat equipment. When liberally applied to armor or weapons, the material provides a greasy surface that blunts impacts, causes blades to slide aside, and strengthens the gear it is applied to.",
+			"",
+			"@I-def A single container holds enough *sunderblock* to coat a single weapon or suit of armor as a @HL[full-round action]. The effects aren't pronounced enough to increase the Armor Class bonus of a suit of armor, but the ‹rule/hardness› of armors and weapons coated with sunderblock increases by 5. This bonus lasts for 12 hours, at which point the greasy substance dries and flakes away."
 		]
 	},
 	"sundered_mask_nethys": {
@@ -3934,7 +4014,7 @@
 			"‹SOURCE Alchemy Manual/30;PRPG Core Rulebook/158;Ultimate Equipment/103›  ",
 			"::tabular{format=misc a=2 b=1 d=atool}",
 			"",
-			"This 1-foot-long, gold-tipped iron rod glows brightly when struck (a standard action). It sheds normal light in a 30-foot radius and increases the ‹rule/light level› by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A sunrod does not increase the light level in normal light or bright light. It glows for 6 hours, after which the gold tip is burned out and worthless.",
+			"@I-power This 1-foot-long, gold-tipped iron rod glows brightly when struck (a @HL[standard action]). It sheds normal light in a 30-foot radius and increases the ‹rule/light level› by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A *sunrod* does not increase the light level in normal light or bright light. It glows for 6 hours, after which the gold tip is burned out and worthless.",
 			"",
 			"::tabular{format=spontalch a=\"mag2/phos2\" b=ceration c=25 d=\"10 minutes\" f=crucible g=tool}"
 		]
@@ -3947,7 +4027,11 @@
 			"‹SOURCE Heroes of the Darklands/29›  ",
 			"::tabular{format=misc a=50 b=1 d=atool}",
 			"",
-			"Created by dwarves after the Quest for Sky, this faintly glowing collection of minerals allows photosynthetic plants to grow in underground environments without sunlight. Sunsoil has since spread to a handful of agricultural communities throughout the Darklands, particularly among duergar plantations and svirfneblin enclaves. One pound of sunsoil covers a 20-foot by 20-foot area of regular earth and takes 1 minute to distribute evenly. A treated area allows plants to grow without sunlight for 4 months. Light-based spells and magical effects trigger an alchemical reaction in sunsoil. Any spell with the light descriptor cast on a pound of sunsoil causes all areas covered in the soil to be treated as areas of bright light for 1 round. This light counts as natural sunlight for creatures vulnerable to such effects. After being subjected to such an effect, sunsoil immediately becomes normal dirt."
+			"Created by dwarves after the Quest for Sky, this faintly glowing collection of minerals allows photosynthetic plants to grow in underground environments without sunlight. *Sunsoil* has since spread to a handful of agricultural communities throughout the Darklands, particularly among ‹monster/duergar› plantations and ‹monster/svirfneblin› enclaves.",
+			"",
+			"@I-power One pound of *sunsoil* covers a 20-foot by 20-foot area of regular earth and takes 1 minute to distribute evenly. A treated area allows plants to grow without sunlight for 4 months.",
+			"",
+			"@I-magic Light-based spells and magical effects trigger an alchemical reaction in *sunsoil.* Any spell with the light descriptor cast on a pound of *sunsoil* causes all areas covered in the soil to be treated as areas of bright light for 1 round. This light counts as natural sunlight for creatures vulnerable to such effects. After being subjected to such an effect, *sunsoil* immediately becomes normal dirt."
 		]
 	},
 	"surefoot_training_blocks": {
@@ -3988,7 +4072,7 @@
 			"‹SOURCE Alchemy Manual/27›  ",
 			"::tabular{format=misc a=80 b=1 d=rem}",
 			"",
-			"@HL[Mythic:] Consuming a vial of surge syrup grants you a +1d4 alchemical bonus on your next mythic surge roll. Every round after you consume surge syrup that you don't use your surge ability, the bonus provided by this item decreases by 1 (minimum 0).",
+			"@HL[Mythic:] Consuming a vial of *surge syrup* grants you a +1d4 alchemical bonus on your next mythic surge roll. Every round after you consume *surge syrup* that you don't use your surge ability, the bonus provided by this item decreases by 1 (minimum 0).",
 			"",
 			"::tabular{format=spontalch a=\"lunary12/wine40/urea40\" b=congelation c=25 d=\"10 minutes\" f=\"alchemist's lab\" g=remedy}"
 		]
@@ -4016,7 +4100,9 @@
 			"‹SOURCE Adventurer's Armory 2/24›  ",
 			"::tabular{format=misc a=300 b=1 d=rem}",
 			"",
-			"When ingested, this thick red gelatinous substance seeks out and surgically eliminates invasive threats to the body. Consuming surgical jelly immediately ends any ‹rule/infestations› (such as ‹infestation/rot grubs›), implanted eggs (such as those implanted by ‹monster/xill«s›), or other non-disease effects that can be cured by ‹spell/remove disease›, so long as such a cure does not require a caster level check. Consuming a pot of surgical jelly is a full-round action.",
+			"When ingested, this thick red gelatinous substance seeks out and surgically eliminates invasive threats to the body.",
+			"",
+			"@I-aid Consuming *surgical jelly* immediately ends any ‹rule/infestations› (such as ‹infestation/rot grubs›), implanted eggs (such as those implanted by ‹monster/xill«s›), or other non-disease effects that can be cured by ‹spell/remove disease›, so long as such a cure does not require a caster level check. Consuming a pot of *surgical jelly* is a @HL[full-round action].",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -4071,7 +4157,7 @@
 			"‹SOURCE Pathfinder #139: The Dead Road/63›  ",
 			"::tabular{format=misc a=75 b=x d=rem}",
 			"",
-			"When imbibed, this effervescent solution causes a heavy warmth to spread from your stomach outward to your limbs, resulting in feelings of security and well-being. If you sleep for at least 1 hour after consuming the solution, the next time within the next 24 hours that you attempt a saving throw to remove a temporary negative level, you can roll the save twice and use the better result. Crafting this item requires a successful DC 20 Craft (alchemy) check.",
+			"@I-roll-def When imbibed, this effervescent solution causes a heavy warmth to spread from your stomach outward to your limbs, resulting in feelings of security and well-being. If you sleep for at least 1 hour after consuming the solution, the next time within the next 24 hours that you attempt a saving throw to remove a temporary negative level, you can roll the save twice and use the better result.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -4084,7 +4170,7 @@
 			"‹SOURCE Ultimate Intrigue/236›  ",
 			"::tabular{format=misc a=250 b=x d=atool}",
 			"",
-			"When imbibed, this bitter, rust-colored concoction grants you 1d4 uses of ‹misc/alchemical inspiration› that can be used only on Disable Device checks and Sleight of Hand checks. These benefits last for 1 hour; during this time, you must roll all Acrobatics checks and Escape Artist checks twice and take the worse result.",
+			"@I-boost-down When imbibed, this bitter, rust-colored concoction grants you 1d4 uses of ‹misc/alchemical inspiration› that can be used only on ‹skill/Disable Device› checks and ‹skill/Sleight of Hand› checks. These benefits last for 1 hour; during this time, you must roll all ‹skill/Acrobatics› checks and ‹skill/Escape Artist› checks twice and take the worse result.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -4137,7 +4223,7 @@
 			"‹SOURCE Undead Slayer's Handbook/9›  ",
 			"::tabular{format=misc a=150 b=x d=rem}",
 			"",
-			"A laboratory-created version of the expensive and infamous Osirian drug ‹drug/mumia›, synthetic mumia is a mixture of honey, embalming fluids, and various animal organs. The murky liquid comes enclosed in small packets made of intestine. Mumia and synthetic mumia may be taken interchangeably to stave off the effects of addiction to either substance, and is thus used by some mumia junkies hoping to quit their addiction.",
+			"A laboratory-created version of the expensive and infamous Osirian drug ‹drug/mumia›, *synthetic mumia* is a mixture of honey, embalming fluids, and various animal organs. The murky liquid comes enclosed in small packets made of intestine. *Mumia* and *synthetic mumia* may be taken interchangeably to stave off the effects of addiction to either substance, and is thus used by some *mumia* junkies hoping to quit their addiction.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 14"
 		]
@@ -4237,7 +4323,9 @@
 			"‹SOURCE Alchemy Manual/25›  ",
 			"::tabular{format=misc a=40 b=x d=rem}",
 			"",
-			"This foul-tasting green tea allows monks to focus their ki on improving abilities they've gained through other training. By drinking a cup of tea of transference, you can expend 1 point from your ki pool to regain 1 point from your arcane pool, 2 rounds of barbarian rage, 2 rounds of bardic performance, one use of channel energy, 1 grit point, one use of smite evil, one expended extract slot at least 1 level lower than the highest-level extract you can create, or one expended spell slot at least 2 levels lower than the highest-level spell you can cast. You must have the ki pool class feature and the class feature you want to regain uses of in order to benefit from tea of transference.",
+			"This foul-tasting green tea allows monks to focus their ki on improving abilities they've gained through other training.",
+			"",
+			"@I-power By drinking a cup of *tea of transference,* you can expend 1 point from your ki pool to regain 1 point from your [arcane pool](class/magus), 2 rounds of ‹class/barbarian› rage, 2 rounds of ‹ability/bardic performance›, one use of ‹ability/channel energy›, 1 [grit](class/gunslinger) point, one use of [smite evil](class/paladin), one expended extract slot at least 1 level lower than the highest-level extract you can create, or one expended spell slot at least 2 levels lower than the highest-level spell you can cast. You must have the *ki pool* class feature and the class feature you want to regain uses of in order to benefit from *tea of transference.*",
 			"",
 			"::tabular{format=spontalch a=\"gold5/real5/wine15\" b=sublimation c=20 d=\"1 day\" f=retort g=remedy}"
 		]
@@ -4500,7 +4588,7 @@
 			"‹SOURCE Potions and Poisons/23›  ",
 			"::tabular{format=misc a=300 b=x d=tinc}",
 			"",
-			"This orange liquid invigorates the mind. For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on Knowledge checks and can attempt untrained Knowledge checks if the DC is 15 or lower. This saps your energy, imposing a -4 penalty on Fortitude saving throws for the same duration.",
+			"@I-boost-power-down This orange liquid invigorates the mind. For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on ‹skill/Knowledge› checks and can attempt untrained Knowledge checks if the DC is 15 or lower. This saps your energy, imposing a -4 penalty on Fortitude saving throws for the same duration.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -4543,7 +4631,9 @@
 			"‹SOURCE Blood of the Elements/19›  ",
 			"::tabular{format=misc a=275 b=3 d=atool}",
 			"",
-			"This intricate glass and metal jug vibrates gently, and contains a light cloud of white vapor and crackling blue electricity. Djinn of the Plane of Air use thunder kettles to capture the essence of air and lightning elementals within planar super storms. When uncorked as a standard action, a thunder kettle releases a rumbling cacophony of thunder in a 10-foot-radius ‹misc/burst›. Creatures in the area must succeed at a DC 16 Fortitude save or take 1d6 points of sonic damage and become ‹misc/staggered› for 1 round. A successful save halves the damage and negates the staggered condition. This item can be crafted with a successful DC 25 Craft (alchemy) check.",
+			"This intricate glass and metal jug vibrates gently, and contains a light cloud of white vapor and crackling blue electricity. Djinn of the Plane of Air use *thunder kettles* to capture the essence of air and lightning elementals within planar super storms.",
+			"",
+			"@I-aura-lower When uncorked as a @HL[standard action], a *thunder kettle* releases a rumbling cacophony of thunder in a 10-foot-radius ‹misc/burst›. Creatures in the area must succeed at a DC 16 Fortitude save or take 1d6 points of sonic damage and become ‹misc/staggered› for 1 round. A successful save halves the damage and negates the staggered condition.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -4574,7 +4664,11 @@
 			"‹SOURCE Adventurer's Guide/45;Pathfinder #106: For Queen and Empire/75›  ",
 			"::tabular{format=misc a=100 b=x d=atool}",
 			"",
-			"This gum has alchemical properties that allow it to soak up magical energy and release it when the gum is chewed. As a standard action, a stick of tiller's gum can be imbued with a spell of up to 3rd level with a casting time of less than 1 minute and that targets one or more creatures, as if the gum were the target of the spell. The gum holds the spell's charge for 1 hour, during which time a creature capable of casting the stored spell can chew the gum as a standard action to gain the spell's effects, expending the stored spell and destroying the gum. The stored spell uses the original caster's level to determine its effects. If the spell-imbued gum isn't used before an hour passes, it is ruined. Crafting a stick of tiller's gum requires a successful DC 20 Craft (alchemy) check.",
+			"This gum has alchemical properties that allow it to soak up magical energy and release it when the gum is chewed.",
+			"",
+			"@I-magic As a @HL[standard action], a stick of tiller's gum can be imbued with a spell of up to 3rd level with a casting time of less than 1 minute and that targets one or more creatures, as if the gum were the target of the spell. The gum holds the spell's charge for 1 hour, during which time a creature capable of casting the stored spell can chew the gum as a @HL[standard action] to gain the spell's effects, expending the stored spell and destroying the gum. The stored spell uses the original caster's level to determine its effects.",
+			"",
+			"If the spell-imbued gum isn't used before an hour passes, it is ruined.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -4591,7 +4685,7 @@
 			"‹SOURCE Alchemy Manual/30;Ultimate Equipment/103;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc a=1 b=x d=atool}",
 			"",
-			"The alchemical substance on the end of this small, wooden stick ignites when struck against a rough surface (a move action). Creating a flame with a tindertwig is much faster than creating a flame with tinder and a ‹eq-misc/flint and steel› or magnifying glass. Lighting a torch with a tindertwig is a standard action rather than a full-round action, and lighting any other fire with one is at least a standard action. A tindertwig burns for 1d2 rounds and sheds light as a ‹eq-misc/candle›. Tindertwigs are waterproof, but must be dried before you can strike them.",
+			"The alchemical substance on the end of this small, wooden stick ignites when struck against a rough surface (a @HL[move action]). Creating a flame with a tindertwig is much faster than creating a flame with tinder and a ‹eq-misc/flint and steel› or magnifying glass. Lighting a torch with a tindertwig is a @HL[standard action] rather than a full-round action, and lighting any other fire with one is at least a standard action. A tindertwig burns for 1d2 rounds and sheds light as a ‹eq-misc/candle›. Tindertwigs are waterproof, but must be dried before you can strike them.",
 			"",
 			"::tabular{format=spontalch a=\"brim2/phos1\" b=ceration c=25 d=\"10 minutes\" f=crucible g=tool}"
 		]
@@ -4615,7 +4709,7 @@
 			"‹SOURCE Potions and Poisons/23›  ",
 			"::tabular{format=misc a=200 b=x d=tinc}",
 			"",
-			"Gravel floats in this umber liquid. For 1 hour after drinking this tincture, you gain a +1 alchemical bonus to natural armor and a +2 alchemical bonus on Strength checks and Strength-based skill checks. The tonic swells your musculature, decreasing your movement speed by 5 feet, to a minimum of 5 feet, and causing you to take a -4 penalty on Reflex saving throws for the same duration.",
+			"@I-def-boost-down Gravel floats in this umber liquid. For 1 hour after drinking this tincture, you gain a +1 alchemical bonus to natural armor and a +2 alchemical bonus on Strength checks and Strength-based skill checks. The tonic swells your musculature, decreasing your movement speed by 5 feet, to a minimum of 5 feet, and causing you to take a -4 penalty on Reflex saving throws for the same duration.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -4736,7 +4830,7 @@
 			"‹SOURCE Advanced Class Guide/208›  ",
 			"::tabular{format=misc a=200 b=x d=atool}",
 			"",
-			"When inhaled, this finely ground, alchemically treated ‹eq-misc/tobacco› greatly enhances your senses, especially your sense of smell. It grants the scent ability and a +2 alchemical bonus on Perception checks for 1 hour. However, once the effect wears off your body is wracked with terrible pain as your joints begin to stiffen and seize, dealing 1d2 points of ‹rule/Dexterity damage› to you.",
+			"@I-power-boost-down When inhaled, this finely ground, alchemically treated ‹eq-misc/tobacco› greatly enhances your senses, especially your sense of smell. It grants the ‹umr/scent› ability and a +2 alchemical bonus on ‹skill/Perception› checks for 1 hour. However, once the effect wears off your body is wracked with terrible pain as your joints begin to stiffen and seize, dealing 1d2 points of ‹rule/Dexterity damage› to you.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -4749,7 +4843,9 @@
 			"‹SOURCE Advanced Class Guide/208›  ",
 			"::tabular{format=misc a=30 b=x d=atool}",
 			"",
-			"When you scatter this very fine pale blue powder on the ground, it reveals the tracks of any creatures or individuals that have passed through the area within the last 48 hours. The powder also grants you a +10 alchemical bonus on Survival checks to follow tracks or, if you aren't trained in Survival, instead allows you to track creatures whose prints are revealed by the powder for up to 1 mile using Perception instead of Survival. A single application can cover an area of up to 60 square feet. Tracking powder is sold in small leather pouches that hold 10 applications each.",
+			"@I-magic-boost When you scatter this very fine pale blue powder on the ground, it reveals the tracks of any creatures or individuals that have passed through the area within the last 48 hours. The powder also grants you a +10 alchemical bonus on ‹skill/Survival› checks to follow tracks or, if you aren't trained in Survival, instead allows you to track creatures whose prints are revealed by the powder for up to 1 mile using ‹skill/Perception› instead of Survival.",
+			"",
+			"A single application can cover an area of up to 60 square feet. Tracking powder is sold in small leather pouches that hold 10 applications each.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -4776,7 +4872,13 @@
 			"‹SOURCE Advanced Race Guide/93›  ",
 			"::tabular{format=misc a=10 b=5 d=atool}",
 			"",
-			"This small box of specially prepared ‹race/catfolk› pheromones and alchemical reagents can be used to leave a small group of subtle but long-lasting scents that only catfolk can smell and decipher. Given a minute, a catfolk can create a scent mixture and apply it to a solid object, such as a tree, a wall, or even a smaller item such as a weapon or potion vial. When the catfolk does this, it leaves one of the following scent impressions: danger, food, shelter, or possession. The possession impression is always keyed to the specific catfolk using the kit, and signifies that she owns the territory or item. Other races can attempt to use this kit to create the danger, food, or shelter impression, but doing so requires a successful DC 20 Craft (alchemy) check. A catfolk can detect a particular scent applied with a trailscent kit from 30 feet away. If the scent is upwind, the range at which a catfolk can detect the scent increases to 60 feet; if it is downwind, the range drops to 15 feet. A catfolk with the scent racial quality doubles those distances. A scent impression lasts for 1 year or until it is washed away. Each kit has 10 uses.",
+			"This small box of specially prepared ‹race/catfolk› pheromones and alchemical reagents can be used to leave a small group of subtle but long-lasting scents that only catfolk can smell and decipher.",
+			"",
+			"Given a minute, a catfolk can create a scent mixture and apply it to a solid object, such as a tree, a wall, or even a smaller item such as a weapon or potion vial. When the catfolk does this, it leaves one of the following *scent impressions: danger, food, shelter,* or *possession.* The *possession impression* is always keyed to the specific catfolk using the kit, and signifies that she owns the territory or item. Other races can attempt to use this kit to create the *danger, food,* or *shelter impression,* but doing so requires a successful DC 20 ‹skill/Craft› (alchemy) check.",
+			"",
+			"A catfolk can detect a particular scent applied with a trailscent kit from 30 feet away. If the scent is upwind, the range at which a catfolk can detect the scent increases to 60 feet; if it is downwind, the range drops to 15 feet. A catfolk with the *scent* racial quality doubles those distances.",
+			"",
+			"A *scent impression* lasts for 1 year or until it is washed away. Each kit has 10 uses.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]

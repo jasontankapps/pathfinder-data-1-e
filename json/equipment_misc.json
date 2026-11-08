@@ -872,7 +872,9 @@
 			"‹SOURCE Ultimate Wilderness/24›  ",
 			"::tabular{format=misc a=15 b=x d=animgear}",
 			"",
-			"Leshys and other plant creatures have to be wary of hungry herbivorous animals. A dose of animal repellent makes a plant creature smell unappetizing for 24 hours. Animals do not attempt to consume a plant creature coated in animal repellent if there are other food sources available, and in combat prefer to use natural attacks that are not bite attacks against such a creature if they can. Animal repellent counts as a strong scent, allowing creatures with the ‹umr/scent› ability to detect it at a greater range. Animal repellent does not work on ‹race/ghoran«s› with the delicious racial trait. Crafting this item requires a successful DC 20 Craft (alchemy) check."
+			"Leshys and other plant creatures have to be wary of hungry herbivorous animals. A dose of animal repellent makes a plant creature smell unappetizing for 24 hours. Animals do not attempt to consume a plant creature coated in animal repellent if there are other food sources available, and in combat prefer to use natural attacks that are not bite attacks against such a creature if they can. Animal repellent counts as a strong scent, allowing creatures with the ‹umr/scent› ability to detect it at a greater range. Animal repellent does not work on ‹race/ghoran«s› with the delicious racial trait.",
+			"",
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"animal_repellant_sack": {
@@ -3560,7 +3562,13 @@
 			"",
 			"Each time a creature moves into an area covered by caltrops (or spends a round fighting while standing in such an area), it runs the risk of stepping on one. Make an attack roll for the caltrops (base attack bonus +0) against the creature. For this attack, the creature's shield, armor, and deflection bonuses do not count. If the creature is wearing shoes or other footwear, it gets a +2 armor bonus to AC. If the attack succeeds, the creature has stepped on a caltrop. The caltrop deals 1 point of damage, and the creature's speed is reduced by half because its foot is wounded. This movement penalty lasts for 24 hours, until the creature is successfully treated with a DC 15 Heal check, or until it receives at least 1 point of magical healing. A charging or running creature must immediately stop if it steps on a caltrop. Any creature moving at half speed or slower can pick its way through a bed of caltrops with no trouble.",
 			"",
-			"Caltrops may not work against unusual opponents."
+			"Caltrops may not work against unusual opponents.",
+			"",
+			"Also see:",
+			"",
+			"- ‹eq-misc/Hollow caltrops›",
+			"- ‹eq-misc/Serrated caltrops›",
+			"- ‹eq-misc/Shrapnel caltrops›"
 		]
 	},
 	"caltrops_cold_iron": {

@@ -1048,7 +1048,6 @@ const _houndbane_dust = {title: "Houndbane dust", jsx: <><h2 id="eq-misc-houndba
 <Tabular format="misc" a="75" b="3" d="atool" />
 <p>A blend of finely ground plaster, burning spices, and insect secretions, <em>houndbane dust</em> deters tracking animals.</p>
 <p><Icons id="eq-misc-houndbane_dust-lower-icons" wrapper="prefixIcon" list={["lower"]} /> A single pouch can be spread over a 5-foot area as a <strong className="hl">standard action</strong>. For 24 hours thereafter, any creature with the <Link to="/umr/scent">scent</Link> ability that enters that square takes 1d2 points of damage and loses its sense of smell for 24 hours. Creatures that succeed at a DC 15 Fortitude saving throw take no damage and lose their sense of smell for only 3d6 minutes.</p>
-<p>Crafting a pouch of houndbane dust requires a successful DC 25 Craft (alchemy) check.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
 const _hourglass_1_hour = {title: "Hourglass (1 hour)", jsx: <><h2 id="eq-misc-hourglass_1_hour-hourglass">Hourglass</h2>
@@ -1532,7 +1531,7 @@ const _liquid_traction = {title: "Liquid traction", jsx: <><h2 id="eq-misc-liqui
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 207</Link>  </p>
 <Tabular format="misc" a="25" b="1" d="atool" />
 <p>This glass bottle is filled with sticky goo prized by sailors for the additional traction it grants on ship decks.</p>
-<p><Icons id="eq-misc-liquid_traction-boost-def-icons" wrapper="prefixIcon" list={["boost","def"]} /> When applied to the soles of footwear and allowed to dry for 1 hour, liquid traction grants a +2 alchemical bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks to keep your balance and a +2 bonus to CMD against <Link to="/rule/bull_rush">bull rush</Link>. Liquid traction has no effect when it comes into contact with very slick or unnaturally slick surfaces such as ice or grease.</p>
+<p><Icons id="eq-misc-liquid_traction-boost-def-icons" wrapper="prefixIcon" list={["boost","def"]} /> When applied to the soles of footwear and allowed to dry for 1 hour, <em>liquid traction</em> grants a +2 alchemical bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks to keep your balance and a +2 bonus to CMD against <Link to="/rule/bull_rush">bull rush</Link>. <em>Liquid traction</em> has no effect when it comes into contact with very slick or unnaturally slick surfaces such as ice or grease.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _liron_treyes_journal = {title: "Liron Treye's Journal", jsx: <><h2 id="eq-misc-liron_treyes_journal-liron-treyes-journal">Liron Treye's Journal</h2>
@@ -1643,7 +1642,7 @@ const _lore_seeker_package = {title: "Lore seeker package", jsx: <><h2 id="eq-mi
 </>};
 const _love_in_idleness = {title: "Love-In-Idleness", jsx: <><h2 id="eq-misc-love_in_idleness-love-in-idleness">Love-In-Idleness</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 154</Link>  </p>
-<Tabular format="misc" a="150" b="x" d="herb" e="20" f="1 dose" g="any forests" h={<>A dose of this flower's nectar must be extracted and stored in an alchemically prepared vial with a successful DC 14 <Link to="/skill/craft">Craft</Link> (alchemy) check and 1 hour's worth of work.</>} i={<><Icons id="eq-misc-love_in_idleness-lower-icons" wrapper="prefixIcon" list={["lower"]} /> As a <strong className="hl">full-round action</strong>, a dose of love-in-idleness nectar can be drizzled into the ears of a <Link to="/misc/helpless">helpless</Link> or willing animal or humanoid. This causes the subject to become much more susceptible to the power of suggestion and mind-affecting effects, taking a -2 penalty on Sense Motive checks and a -1 penalty on saving throws against mind-affecting effects for the next 2d4 hours. This is a poison effect.</>} />
+<Tabular format="misc" a="150" b="x" d="herb" e="20" f="1 dose" g="any forests" h={<>A dose of this flower's nectar must be extracted and stored in an alchemically prepared vial with a successful DC 14 <Link to="/skill/craft">Craft</Link> (alchemy) check and 1 hour's worth of work.</>} i={<><Icons id="eq-misc-love_in_idleness-lower-icons" wrapper="prefixIcon" list={["lower"]} /> As a <strong className="hl">full-round action</strong>, a dose of <em>love-in-idleness</em> nectar can be drizzled into the ears of a <Link to="/misc/helpless">helpless</Link> or willing animal or humanoid. This causes the subject to become much more susceptible to the power of suggestion and mind-affecting effects, taking a -2 penalty on Sense Motive checks and a -1 penalty on saving throws against mind-affecting effects for the next 2d4 hours. This is a poison effect.</>} />
 <p>The deep-red flower has rich nectar with a honey-like scent.</p>
 </>};
 const _lovers_breath = {title: "Lover's breath", jsx: <><h2 id="eq-misc-lovers_breath-lovers-breath">Lover's breath</h2>
@@ -1651,7 +1650,7 @@ const _lovers_breath = {title: "Lover's breath", jsx: <><h2 id="eq-misc-lovers_b
 <Tabular format="misc" a="200" b="x" d="atool" />
 <p>This alchemical perfume is distilled from a blend of humanoid pheromones and fey sweat.</p>
 <p><Icons id="eq-misc-lovers_breath-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> When applied as a <strong className="hl">full-round action</strong>, it grants the wearer a +2 circumstance bonus on all Charisma checks and Charisma-based skill checks for 1 hour. During this time, the wearer takes a -2 penalty on saving throws against charm and fascination effects originating from fey.</p>
-<p><Icons id="eq-misc-lovers_breath-warning-icons" wrapper="prefixIcon" list={["warning"]} /> Long-term use of lover's breath eventually results in physical changes, causing the user to vaguely resemble a fey creature such as a <Link to="/monster/nymph">nymph</Link> or <Link to="/monster/dryad">dryad</Link>, although these changes are only cosmetic.</p>
+<p><Icons id="eq-misc-lovers_breath-warning-icons" wrapper="prefixIcon" list={["warning"]} /> Long-term use of <em>lover's breath</em> eventually results in physical changes, causing the user to vaguely resemble a fey creature such as a <Link to="/monster/nymph">nymph</Link> or <Link to="/monster/dryad">dryad</Link>, although these changes are only cosmetic.</p>
 </>};
 const _loyalty_transfusion = {title: "Loyalty transfusion", jsx: <><h2 id="eq-misc-loyalty_transfusion-loyalty-transfusion">Loyalty transfusion</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 15</Link>  </p>
@@ -1968,7 +1967,7 @@ const _mimic_fibers = {title: "Mimic fibers", jsx: <><h2 id="eq-misc-mimic_fiber
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 11</Link>  </p>
 <Tabular format="misc" a="30" b="x" d="atool" />
 <p>These alchemically prepared fungal spores are suspended in a thick green ichor. They grow in patterns that match any plant or fungal material they touch, even dead wood, causing any cuts or breaks in the matter to mend as if it had never been damaged.</p>
-<p><Icons id="eq-misc-mimic_fibers-aid-icons" wrapper="prefixIcon" list={["aid"]} /> When applied as a <strong className="hl">full-round action</strong>, mimic fibers heal 1d10+10 points of damage to one object made of wood, paper, earth, or other living or once-living material. Even a destroyed item can be repaired (treat as if at 0 hit points) as long as the item is in no more than two pieces and is held together at the break as the spores are applied.</p>
+<p><Icons id="eq-misc-mimic_fibers-aid-icons" wrapper="prefixIcon" list={["aid"]} /> When applied as a <strong className="hl">full-round action</strong>, <em>mimic fibers</em> heal 1d10+10 points of damage to one object made of wood, paper, earth, or other living or once-living material. Even a destroyed item can be repaired (treat as if at 0 hit points) as long as the item is in no more than two pieces and is held together at the break as the spores are applied.</p>
 <Tabular format="spontalch" a="mag6/cs6" b="filtration" c="20" d="10 minutes" f="filter" g="tool" />
 </>};
 const _mindburn_incense = {title: "Mindburn incense", jsx: <><h2 id="eq-misc-mindburn_incense-mindburn-incense">Mindburn incense</h2>
@@ -2094,7 +2093,7 @@ const _monochrome_camouflage = {title: "Monochrome Camouflage", jsx: <><h2 id="e
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 28</Link>  </p>
 <Tabular format="misc" a="40" b="1" d="atool" />
 <p>This slimy gray unguent distorts wavelengths of light beyond of the normal visual spectrum, causing you to appear blurry to creatures using darkvision.</p>
-<p><Icons id="eq-misc-monochrome_camouflage-def-icons" wrapper="prefixIcon" list={["def"]} /> Applying the camouflage takes 1 minute and provides a +4 alchemical bonus on <Link to="/skill/stealth">Stealth</Link> checks against creatures relying on darkvision to see. One dose of <em>monochrome camouflage</em> lasts for 1 hour.</p>
+<p><Icons id="eq-misc-monochrome_camouflage-def-icons" wrapper="prefixIcon" list={["def"]} /> Applying the <em>camouflage</em> takes 1 minute and provides a +4 alchemical bonus on <Link to="/skill/stealth">Stealth</Link> checks against creatures relying on darkvision to see. One dose of <em>monochrome camouflage</em> lasts for 1 hour.</p>
 </>};
 const _monster_bait = {title: "Monster bait", jsx: <><h2 id="eq-misc-monster_bait-monster-bait">Monster bait</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 26</Link>  </p>

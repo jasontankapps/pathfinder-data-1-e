@@ -430,7 +430,8 @@ const _animal_harness = {title: "Animal harness", jsx: <><h2 id="eq-misc-animal_
 const _animal_repellent = {title: "Animal repellent", jsx: <><h2 id="eq-misc-animal_repellent-animal-repellent">Animal repellent</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 24</Link>  </p>
 <Tabular format="misc" a="15" b="x" d="animgear" />
-<p>Leshys and other plant creatures have to be wary of hungry herbivorous animals. A dose of animal repellent makes a plant creature smell unappetizing for 24 hours. Animals do not attempt to consume a plant creature coated in animal repellent if there are other food sources available, and in combat prefer to use natural attacks that are not bite attacks against such a creature if they can. Animal repellent counts as a strong scent, allowing creatures with the <Link to="/umr/scent">scent</Link> ability to detect it at a greater range. Animal repellent does not work on <Link to="/race/ghoran">ghorans</Link> with the delicious racial trait. Crafting this item requires a successful DC 20 Craft (alchemy) check.</p>
+<p>Leshys and other plant creatures have to be wary of hungry herbivorous animals. A dose of animal repellent makes a plant creature smell unappetizing for 24 hours. Animals do not attempt to consume a plant creature coated in animal repellent if there are other food sources available, and in combat prefer to use natural attacks that are not bite attacks against such a creature if they can. Animal repellent counts as a strong scent, allowing creatures with the <Link to="/umr/scent">scent</Link> ability to detect it at a greater range. Animal repellent does not work on <Link to="/race/ghoran">ghorans</Link> with the delicious racial trait.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _animal_repellant_sack = {title: "Animal-repellant sack", jsx: <><h2 id="eq-misc-animal_repellant_sack-animal-repellant-sack">Animal-repellant sack</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 242</Link>  </p>
@@ -1606,6 +1607,12 @@ const _caltrops = {title: "Caltrops", jsx: <><h2 id="eq-misc-caltrops-caltrops">
 <p>A caltrop is a four-pronged metal spike crafted so that one prong always faces up no matter how the caltrop comes to rest. You scatter caltrops on the ground in the hope that your enemies step on them or are at least forced to slow down to avoid them. One 2-pound bag of caltrops covers an area 5 feet square.</p>
 <p>Each time a creature moves into an area covered by caltrops (or spends a round fighting while standing in such an area), it runs the risk of stepping on one. Make an attack roll for the caltrops (base attack bonus +0) against the creature. For this attack, the creature's shield, armor, and deflection bonuses do not count. If the creature is wearing shoes or other footwear, it gets a +2 armor bonus to AC. If the attack succeeds, the creature has stepped on a caltrop. The caltrop deals 1 point of damage, and the creature's speed is reduced by half because its foot is wounded. This movement penalty lasts for 24 hours, until the creature is successfully treated with a DC 15 Heal check, or until it receives at least 1 point of magical healing. A charging or running creature must immediately stop if it steps on a caltrop. Any creature moving at half speed or slower can pick its way through a bed of caltrops with no trouble.</p>
 <p>Caltrops may not work against unusual opponents.</p>
+<p>Also see:</p>
+<ul>
+<li><Link to="/eq-misc/hollow_caltrops">Hollow caltrops</Link></li>
+<li><Link to="/eq-misc/serrated_caltrops">Serrated caltrops</Link></li>
+<li><Link to="/eq-misc/shrapnel_caltrops">Shrapnel caltrops</Link></li>
+</ul>
 </>};
 const _caltrops_cold_iron = {title: "Caltrops, cold iron", jsx: <><h2 id="eq-misc-caltrops_cold_iron-caltrops-cold-iron">Caltrops, cold iron</h2>
 <p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook pg. 18</Link>  </p>
