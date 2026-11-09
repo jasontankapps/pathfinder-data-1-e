@@ -6,7 +6,7 @@ div.sideNoteWrap {
 	flex-flow: column nowrap;
 	align-items: flex-end;
 	justify-content: center;
-	--radius: 1.5em;
+	--radius: 1.5rem;
 	--start-start-radius: var(--radius);
 	--start-end-radius: var(--radius);
 	--end-start-radius: var(--radius);

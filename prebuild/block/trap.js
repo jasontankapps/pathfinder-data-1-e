@@ -21,7 +21,8 @@ const makeTrapBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, text
 		logError("---> Missing trap CR");
 	}
 	magic && output.push(" magic");
-	output.push(` cr="${cr}"`);
+	const CR = typeof cr === "string" ? convertEncodedInfo(cr) : cr;
+	output.push(` cr="${CR}"`);
 	//
 	// CREATE ASSOCIATED TERRAINS
 	//

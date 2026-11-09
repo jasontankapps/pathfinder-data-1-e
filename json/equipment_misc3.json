@@ -4398,6 +4398,7 @@
 	},
 	"telescope_times50": { "redirect": "telescope_x50" },
 	"telescope_50": { "redirect": "telescope_x50" },
+	"telescope": { "redirect": "telescope_x10" },
 	"tennis_gear": {
 		"name": "Tennis gear",
 		"sources": [ "Ultimate Equipment" ],

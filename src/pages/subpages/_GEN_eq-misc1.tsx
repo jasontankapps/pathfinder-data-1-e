@@ -875,7 +875,7 @@ const _autosniper_trap = {title: "Autosniper trap", jsx: <><h2 id="eq-misc-autos
 <p>This framework consists of a small tripod, a spool of wire, and a series of levels. As part of the action to set up the trap, the autosniper is attached to any Small or Medium crossbow and its wire strung across one or two 5-foot squares within 10 feet. Once set, the autosniper fires the attached crossbow automatically at the first Tiny or larger creature that disturbs its tripwire. An autosniper cannot reload the crossbow to which it is attached.</p>
 <p>The general bulkiness of an autosniper's framework imposes a -2 penalty on any attempts to use its attached crossbow as a ranged weapon. An autosniper can be removed from a crossbow with 1 minute of work.</p>
 <p>This can be crafted with a DC 25 Craft (traps) check.</p>
-<TrapInfo id="autosniper-trap-trap" cr="&mdash&" pdc="15" dddc="15" manual trigger="touch" eff="Atk +5 ranged (damage varies by crossbow)">Autosniper Trap</TrapInfo>
+<TrapInfo id="autosniper-trap-trap" cr="&mdash;" pdc="15" dddc="15" manual trigger="touch" eff="Atk +5 ranged (damage varies by crossbow)">Autosniper Trap</TrapInfo>
 </>};
 const _axe_beak_combat_trained = {title: "Axe beak (combat trained)", jsx: <><h2 id="eq-misc-axe_beak_combat_trained-axe-beak-combat-trained">Axe beak (combat trained)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>  </p>
@@ -1031,7 +1031,7 @@ const _bear_trap_offset = {title: "Bear trap (offset)", jsx: <><h2 id="eq-misc-b
 <h3 id="eq-misc-bear_trap_offset-bear-trap-offset">Bear Trap (offset)</h3>
 <Tabular format="misc" id="offset" a="3" b="10" d="tools" />
 <p>An offset bear trap is a specialized variety of a bear trap constructed with offset jaws coated in resin. It inflicts less damage on captured creatures but holds them more securely, and is therefore primarily used by trappers or bounty hunters who do not want to risk killing their prey. Offset bear traps are almost always secured to the ground by a heavy spike and chain so the captured creature can't wander far.</p>
-<TrapInfo id="offset-bear-trap-trap" cr="&frac12&" pdc="15" dddc="20" manual trigger="location" eff="Atk +10 melee (1d6+2); jaws spring shut around the creature's ankle and hold the creature immobile; the creature can escape with a DC 20 Disable Device check, DC 24 Escape Artist check, or DC 28 Strength check">Offset Bear Trap</TrapInfo>
+<TrapInfo id="offset-bear-trap-trap" cr="&frac12;" pdc="15" dddc="20" manual trigger="location" eff="Atk +10 melee (1d6+2); jaws spring shut around the creature's ankle and hold the creature immobile; the creature can escape with a DC 20 Disable Device check, DC 24 Escape Artist check, or DC 28 Strength check">Offset Bear Trap</TrapInfo>
 <h3 id="eq-misc-bear_trap_offset-bear-trap-sawtooth">Bear Trap (sawtooth)</h3>
 <Tabular format="misc" id="sawtooth" a="1800" b="20" d="tools" />
 <p>A sawtooth bear trap has vicious jaws and tighter springs. Used primarily against humanoids or monsters rather than animals, sawtooth bear traps are often painted in camouflaged colors to blend in with the trap site. Most include locking plates over the spring mechanisms to prevent tampering by intelligent victims.</p>
@@ -1089,7 +1089,7 @@ const _bell_tripwire_trap = {title: "Bell tripwire trap", jsx: <><h2 id="eq-misc
 <Tabular format="misc" a="2" b="2" d="gear" />
 <p>This fine, 10-foot-long tripwire is attached to a loud bell and comes with pitons to fix the trap in place. The trap can be set across doorways, hallways, or narrow passes or between trees or rocks. Arming the trap properly takes 5 minutes; it can be set up in as little as 1 minute, but doing so reduces the DC to notice and disarm the trap by 5. The trap has the following statistics.</p>
 <p>This can be crafted with a DC 15 Craft (traps) check.</p>
-<TrapInfo id="bell-tripwire-trap-trap" cr="&mdash&" pdc="20" dddc="20" manual trigger="touch" eff="bell rings (Perception DC 0 to hear)">Bell Tripwire Trap</TrapInfo>
+<TrapInfo id="bell-tripwire-trap-trap" cr="&mdash;" pdc="20" dddc="20" manual trigger="touch" eff="bell rings (Perception DC 0 to hear)">Bell Tripwire Trap</TrapInfo>
 </>};
 const _bell = {title: "Bell", jsx: <><h2 id="eq-misc-bell-bell">Bell</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>

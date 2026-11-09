@@ -1,6 +1,11 @@
 import checkForEncodedLink, { convertTextToLink } from './tests/checkForEncodedLink.js';
 import makeAbilityBlock from './block/ab.js';
 
+const convertEntities = (input) => {
+	return (input)
+		.replace(/&(times|quot|emsp|[nm]dash|frac(?:1[24]|34)|deg|amp|shy|[dD]agger|[aeiou](?:acute|grave|circ|uml)|#[0-9]+|#x[0-9a-fA-F]+)&/g, "&$1;");
+};
+
 const convertEncodedInfo = (input) => {
 	let m;
 	let test = input.replace(/\n/g, "-=NR=-");
@@ -10,9 +15,7 @@ const convertEncodedInfo = (input) => {
 		output += `${pre}[${text}](${link})`;
 		test = post;
 	}
-	return (output + test)
-		.replace(/&(times|quot|emsp|[nm]dash|frac1[23456]|deg|amp|shy|[dD]agger|[aeiou](?:acute|grave|circ|uml)|#[0-9]+|#x[0-9a-fA-F]+)&/g, "&$1;")
-		.replace(/-=NR=-/g, "\n");
+	return convertEntities(output + test).replaceAll("-=NR=-", "\n");
 };
 
 const convertLinks = (input) => {
@@ -26,11 +29,6 @@ const convertLinks = (input) => {
 	}
 	return (output + test)
 		.replaceAll("-=NR=-", "\n");
-};
-
-const convertEntities = (input) => {
-	return (input)
-		.replace(/&(times|quot|emsp|[nm]dash|frac1[23456]|deg|amp|shy|[dD]agger|[aeiou](?:acute|grave|circ|uml)|#[0-9]+|#x[0-9a-fA-F]+)&/g, "&$1;");
 };
 
 const getContainerDirectives = (globalVariable, marker = ":::") => {

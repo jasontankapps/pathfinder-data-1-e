@@ -43,7 +43,7 @@ const translateWeight = (x: number) => {
 			case 0.25:
 				return <>&frac14;</>;
 			case 0.33:
-				return <>&frac13;</>;
+				return <>&#8531;</>;
 			case 0.75:
 				return <>&frac34;</>;
 			case 0.1:
@@ -616,7 +616,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 			return (
 				<table><tbody>
 					<tr><th scope="col" className="headerLike hl" colSpan={6}>{a}</th></tr>
-					<tr><td colSpan={6}><b>{b}</b></td></tr>
+					<tr><td colSpan={6} className="ion-text-center"><b>{b}</b></td></tr>
 					<tr>
 						<th id={id + "diameter"}>Diameter</th>
 						<td headers={id + "-diameter"}>&times;{d}</td>

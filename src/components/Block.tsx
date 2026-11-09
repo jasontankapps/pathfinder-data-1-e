@@ -50,7 +50,7 @@ export const Row: FC<{children?: ReactNode}> = (props) => {
 export const Cell: FC<PropsWithChildren<CellProps>> = (props) => {
 	const {children, className, link, id} = props;
 	const cId = useContext(IdContext) + id;
-	const content = link ? <Link to={"/" + link}></Link> : children;
+	const content = link ? <Link to={link}>{children}</Link> : children;
 	return (
 		<div data-hash-target className={"td" + (className ? " " + className : "")} id={cId}>
 			{content}

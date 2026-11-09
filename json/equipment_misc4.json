@@ -1475,7 +1475,7 @@
 		"description": [
 			"## False teeth",
 			"‹SOURCE Adventurer's Armory 2/13›  ",
-			"::tabular{format=misc a=\"100 gp (clockwork), 5 gp (common), 50 gp (masterwork)\" b=\"&frac12 lb. (clockwork), &mdash& (common), &mdash& (masterwork)\" c=x d=gear}",
+			"::tabular{format=misc a=\"100 gp (clockwork), 5 gp (common), 50 gp (masterwork)\" b=\"&frac12& lb. (clockwork), &mdash& (common), &mdash& (masterwork)\" c=x d=gear}",
 			"",
 			"These prosthetics are used as a replacement for lost or missing teeth. False teeth fashioned from wood or animal teeth are more common, while masterwork varieties are sculpted from bone or porcelain. Clockwork false teeth are novelties with mechanisms allowing the teeth to clatter and move on their own. Winding the clockworks is a move action, and the teeth move forward over flat surfaces at a rate of 5 feet per round for 10 rounds after one winding."
 		]
@@ -2273,6 +2273,7 @@
 			"- A *calculating orrery* is an orrery that indicates with rotating numerals on each arm the current distance between each body and its star (or its planet, in the case of moons), increasing the circumstance bonus on relevant skill checks to +4."
 		]
 	},
+	"orreries": { "redirect": "orrery" },
 	"orrery_calculating_grand": {
 		"name": "Orrery (calculating grand)",
 		"copyof": "orrery"
@@ -3049,7 +3050,7 @@
 			"",
 			"As a @HL[move action], you can apply the *catalyst* to one of the following items to enhance or alter the alchemical item's effects. If the item is not used within 3 rounds, the benefit of the enhanced alchemical item is lost and the item reverts to normal. Once applied to an item, a *planar alchemical catalyst* is expended.",
 			"",
-			":::block",
+			":::block{hl}",
 			"",
 			"::row[Alchemist's Fire]{link=eq-weapon info=\"The type of energy damage changes to acid, cold, or electricity (user's choice).\"}",
 			"",
@@ -4463,7 +4464,7 @@
 			"",
 			"This 6-foot length of copper wire is strong and flexible. By attaching it to two ‹eq-misc/piton«s› or ‹eq-misc/iron spike«s› across an area, you can create a simple tripwire trap.",
 			"",
-			"::trap[Tripwire Trap]{cr=\"&frac13&\" mechanical pdc=15 dddc=10 trigger=location automatic eff=\"trip combat maneuver +5 (+10 if the target is running)\"}"
+			"::trap[Tripwire Trap]{cr=\"&#8531&\" mechanical pdc=15 dddc=10 trigger=location automatic eff=\"trip combat maneuver +5 (+10 if the target is running)\"}"
 		]
 	},
 	"wismuth_salix": {

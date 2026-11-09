@@ -684,7 +684,7 @@ const _false_manacles = {title: "False manacles", jsx: <><h2 id="eq-misc-false_m
 </>};
 const _false_teeth_clockwork = {title: "False teeth (clockwork)", jsx: <><h2 id="eq-misc-false_teeth_clockwork-false-teeth">False teeth</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 13</Link>  </p>
-<Tabular format="misc" a="100 gp (clockwork), 5 gp (common), 50 gp (masterwork)" b="&amp;frac12 lb. (clockwork), &mdash; (common), &mdash; (masterwork)" c="x" d="gear" />
+<Tabular format="misc" a="100 gp (clockwork), 5 gp (common), 50 gp (masterwork)" b="&frac12; lb. (clockwork), &mdash; (common), &mdash; (masterwork)" c="x" d="gear" />
 <p>These prosthetics are used as a replacement for lost or missing teeth. False teeth fashioned from wood or animal teeth are more common, while masterwork varieties are sculpted from bone or porcelain. Clockwork false teeth are novelties with mechanisms allowing the teeth to clatter and move on their own. Winding the clockworks is a move action, and the teeth move forward over flat surfaces at a rate of 5 feet per round for 10 rounds after one winding.</p>
 </>};
 const _false_bottomed_chest = {title: "False-bottomed chest", jsx: <><h2 id="eq-misc-false_bottomed_chest-false-bottomed-chest">False-bottomed chest</h2>
@@ -848,8 +848,8 @@ const _net_rigging = {title: "Net rigging", jsx: <><h2 id="eq-misc-net_rigging-n
 <Tabular format="misc" a="250" b="40" d="gear" />
 <p>This large bundle of ropes, pulleys, netting, and latches can be assembled to form two different traps: one to drop a net from above, and another to snag trespassers from below and hoist them into the air. Either configuration requires an overhead structure such as a ceiling, a crossbeam, or a sturdy tree branch to support the trap's mechanisms and counterweights. Net rigging has an effective Strength score of 19 for the purpose of determining how much weight it can lift.</p>
 <p>This can be crafted with a DC 25 Craft (traps) check.</p>
-<TrapInfo id="falling-net-trap-trap" cr="&mdash&" pdc="10" dddc="15" manual trigger="touch" eff="net (entangled and tethered by 10-ft. rope); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)">Falling Net Trap</TrapInfo>
-<TrapInfo id="hoisting-net-trap-trap" cr="&mdash&" pdc="10" dddc="15" manual trigger="touch" eff="net (entangled and lifted 10 ft. into the air); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)">Hoisting Net Trap</TrapInfo>
+<TrapInfo id="falling-net-trap-trap" cr="&mdash;" pdc="10" dddc="15" manual trigger="touch" eff="net (entangled and tethered by 10-ft. rope); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)">Falling Net Trap</TrapInfo>
+<TrapInfo id="hoisting-net-trap-trap" cr="&mdash;" pdc="10" dddc="15" manual trigger="touch" eff="net (entangled and lifted 10 ft. into the air); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)">Hoisting Net Trap</TrapInfo>
 </>};
 const _nethyss_dagger = {title: "Nethys's dagger", jsx: <><h2 id="eq-misc-nethyss_dagger-nethyss-dagger">Nethys's dagger</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 10</Link>  </p>
@@ -1343,7 +1343,7 @@ const _planar_alchemical_catalyst = {title: "Planar alchemical catalyst", jsx: <
 <Tabular format="misc" a="200" b="2" d="atool" />
 <p>This vibrant, variegated gemstone is found naturally on the Elemental Plane of Earth but can also be artificially reproduced, albeit with a fair amount of difficulty. The <em>catalyst</em> is highly sought for its remarkable ability to enhance and alter alchemical tools and weapons.</p>
 <p>As a <strong className="hl">move action</strong>, you can apply the <em>catalyst</em> to one of the following items to enhance or alter the alchemical item's effects. If the item is not used within 3 rounds, the benefit of the enhanced alchemical item is lost and the item reverts to normal. Once applied to an item, a <em>planar alchemical catalyst</em> is expended.</p>
-<Block>
+<Block hl>
 <Row><Cell link="/eq-weapon/alchemists_fire">Alchemist's Fire</Cell><Cell>The type of energy damage changes to acid, cold, or electricity (user's choice).</Cell></Row>
 <Row><Cell link="/eq-weapon/flash_powder">Flash Powder</Cell><Cell>The DC of the Fortitude save increases to 15, and targets are <Link to="/misc/dazzled">dazzled</Link> for 1d4+1 rounds whether or not they succeed at their saving throw.</Cell></Row>
 <Row><Cell link="/eq-weapon/holy_water">Holy Water</Cell><Cell>The splash area becomes <Link to="/rule/difficult_terrain">difficult terrain</Link> for undead and evil outsiders, and undead or evil outsiders that end their turn in the affected area take 2 points of damage. Both of these effects last 3 rounds.</Cell></Row>
@@ -1425,7 +1425,7 @@ const _trespassers_boot = {title: "Trespasser's boot", jsx: <><h2 id="eq-misc-tr
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="0.8" b="2" d="tools" />
 <p>Consisting of a small wooden frame with inward-pointing barbed spikes, this trap is placed in a shallow pit just deep enough for a Medium-sized character's lower leg. When someone steps in the square, the boot catches and holds her leg. The target takes damage if she tries to move or if a Disable Device attempt to free her fails by 5 or more.</p>
-<TrapInfo id="trespassers-boot-trap" cr="&frac12&" pdc="20" dddc="20" manual trigger="location" eff="pit spikes (Atk +10 melee, 2d4); spikes hold the target in place; the trap can be escaped with a DC 20 Disable Device check, DC 20 Escape Artist check, or DC 24 Strength check">Trespasser's Boot</TrapInfo>
+<TrapInfo id="trespassers-boot-trap" cr="&frac12;" pdc="20" dddc="20" manual trigger="location" eff="pit spikes (Atk +10 melee, 2d4); spikes hold the target in place; the trap can be escaped with a DC 20 Disable Device check, DC 20 Escape Artist check, or DC 24 Strength check">Trespasser's Boot</TrapInfo>
 </>};
 const _tribal_standard = {title: "Tribal standard", jsx: <><h2 id="eq-misc-tribal_standard-tribal-standard">Tribal standard</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 141</Link>  </p>
@@ -1924,7 +1924,7 @@ const _wire = {title: "Wire", jsx: <><h2 id="eq-misc-wire-wire">Wire</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>  </p>
 <Tabular format="misc" a="5" b="0.5" d="gear" />
 <p>This 6-foot length of copper wire is strong and flexible. By attaching it to two <Link to="/eq-misc/piton">pitons</Link> or <Link to="/eq-misc/iron_spike">iron spikes</Link> across an area, you can create a simple tripwire trap.</p>
-<TrapInfo id="tripwire-trap-trap" cr="&frac13&" pdc="15" dddc="10" automatic trigger="location" eff="trip combat maneuver +5 (+10 if the target is running)">Tripwire Trap</TrapInfo>
+<TrapInfo id="tripwire-trap-trap" cr="&#8531;" pdc="15" dddc="10" automatic trigger="location" eff="trip combat maneuver +5 (+10 if the target is running)">Tripwire Trap</TrapInfo>
 </>};
 const _wismuth_salix = {title: "Wismuth salix", jsx: <><h2 id="eq-misc-wismuth_salix-wismuth-salix">Wismuth salix</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 101</Link>  </p>
