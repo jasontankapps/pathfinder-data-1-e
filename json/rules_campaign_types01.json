@@ -5,6 +5,7 @@
 			"aquatic_adventures_aa",
 			"caravans",
 			"horror_rules",
+			"interstellar_adventures",
 			"intrigue_systems",
 			"kingdoms_and_war",
 			"militias",
@@ -38,6 +39,7 @@
 			"aquatic_adventures_aa",
 			"caravans",
 			"horror_rules",
+			"interstellar_adventures",
 			"intrigue_systems",
 			"kingdoms_and_war",
 			"militias",
@@ -436,6 +438,7 @@
 			"aquatic_adventures_aa",
 			"caravans",
 			"horror_rules",
+			"interstellar_adventures",
 			"intrigue_systems",
 			"kingdoms_and_war",
 			"militias",
@@ -1454,6 +1457,847 @@
 			"caravan_events_cr_10_to_15"
 		]
 	},
+	"interstellar_adventures": {
+		"name": "Interstellar Adventures",
+		"sources": [
+			"People of the Stars",
+			"Distant Worlds"
+		],
+		"description": [
+			"‹SOURCE People of the Stars/18;Distant Worlds/53›",
+			"",
+			"The void of space is an exceptionally dangerous place to adventure, which is the primary reason interplanetary exploration remains rare.",
+			"",
+			"In many ways, adventuring on other planets is similar to adventuring in unexplored parts of Golarion. There are still monsters to fight, locals to talk to, and treasures to be looted from ancient ruins. Yet while many of the worlds presented are relatively hospitable to terrestrial life, there are some regions - such as the vacuum of space - that are extremely dangerous, and a planet-hopping campaign has certain fundamental differences that a GM should consider before removing PCs from their homeworld.",
+			"",
+			"@HL[Note:] Astronomical equipment like ‹eq-misc/cosmogram«s›, ‹eq-misc/orreries›, and ‹eq-misc/telescope«s› is often used to avoid becoming lost. Characters can use ‹skill/Knowledge (geography)› to recall information about space and the other planets."
+		],
+		"parent_topics": [ "gm_specific_campaigns" ],
+		"subtopics": [
+			"interstellar_travel",
+			"environment",
+			"aliens",
+			"the_solar_system"
+		],
+		"siblings": [
+			"aquatic_adventures_aa",
+			"caravans",
+			"horror_rules",
+			"interstellar_adventures",
+			"intrigue_systems",
+			"kingdoms_and_war",
+			"militias",
+			"mythic_rules",
+			"occult_rules",
+			"planar_adventures",
+			"the_first_world",
+			"seafaring_and_piracy_rules",
+			"technological_equipment"
+		]
+	},
+	"interstellar_travel": {
+		"name": "Interstellar Travel",
+		"sources": [ "Distant Worlds" ],
+		"description": [
+			"‹SOURCE Distant Worlds/53›",
+			"",
+			"Though it may seem like Golarion's solar system is crowded with life, the truth is that the worlds presented here are separated by near-unimaginable expanses of empty space, without even air to breathe. Most creatures and even magic-users cannot simply fly up into space without asphyxiating or running out of atmosphere to support their wings or mechanical conveyances. Only the most powerful magic or technology is capable of bridging the gap between worlds, and those few privy to such secrets guard them well. Of all the options available for interplanetary travel, most fall into one of the following categories."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures"
+		],
+		"subtopics": [
+			"portals",
+			"ia_spells",
+			"vessels"
+		],
+		"siblings": [
+			"interstellar_travel",
+			"environment",
+			"aliens",
+			"the_solar_system"
+		]
+	},
+	"portals": {
+		"name": "Portals",
+		"subtitle": "Interstellar Travel",
+		"sources": [ "Distant Worlds" ],
+		"description": [
+			"‹SOURCE Distant Worlds/53›",
+			"",
+			"Nearly everyone on Golarion has heard of the great elven exodus before the fall of the Starstone, in which all of elven society gathered together in Kyonin to step through a portal into the mysterious refuge of Sovyrian. Few realize, however, that the portal binding Golarion to Sovyrian was not one of their legendary ‹magic-artifact/aiudara› (or \"elf gates\") which link locations on a single world, but rather one of a network of interplanetary portals that predate the elves' existence - and indeed, may predate all life in the solar system. These ancient passageways link all the system's planets save for Aucturn, and though knowledge of how to operate them remains scarce, the warrior-scholars of Castrovel long ago learned how to use the portals to step between their own world and the red planet of Akiton, giving those two worlds the most contact of any in the system. And just as the elves have their gate between Sovyrian and Kyonin, so have Akiton's ‹monster/Contemplative«s› of Ashok managed to create their own portal to Golarion's Mwangi Expanse, though this gate - the Doorway to the Red Star - has to date brought the Contemplatives nothing but disappointment.",
+			"",
+			"Who built the original portal network remains a mystery, but a strange gateway left behind on Apostae is believed by many to be a test - a puzzle that, when solved, will grant passage to whatever faraway star or galaxy houses the gateways' original creators. So far, no one appears close to solving the mystery. Yet in recent years, portals across the system have begun winking on seemingly at random and with increasing frequency, offering brief windows during which those brave or foolish enough can pass through to another world, and suggesting that perhaps a time of greater connection between the planets is at hand.",
+			"",
+			"From a game perspective, portals are the easiest means of travel for GMs to manage, as it allows them to control when such travel is possible and where on a given world a party appears, as well as creating natural adventure hooks. Whether they've been carefully searching for such a gateway or simply stumble upon it in the center of a dungeon, it's hard for PCs to resist stepping through a portal and seeing what's on the other side."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures",
+			"interstellar_travel"
+		],
+		"siblings": [
+			"portals",
+			"ia_spells",
+			"vessels"
+		]
+	},
+	"ia_spells": {
+		"name": "Spells",
+		"subtitle": "Interstellar Travel",
+		"sources": [ "Distant Worlds" ],
+		"description": [
+			"‹SOURCE Distant Worlds/53›",
+			"",
+			"Many wizards believe that spells like ‹spell/greater teleport› and ‹spell/scrying› have no range limitations, but those who have tried to use them to reach the stars know better. Some attribute the resulting difficulties to the mortal mind's inability to truly envision the distances involved, others to the speed with which celestial bodies move through the blackness, and still others to the lack of any sort of ether for the magic to travel through. Whatever the case, the truth is that it's easier for most spellcasters to shift between planes than to observe or travel to other planets.",
+			"",
+			"For those spellcasters determined to reach Golarion's sister worlds, the spell ‹spell/interplanetary teleport› makes it possible, as do spells such as ‹spell/wish› and ‹spell/miracle›, though individual GMs may decide that even these may not be enough without specific items or creatures to focus the energies on. The latter spells also make scrying possible, though ‹spell/greater scrying› can sometimes be used to observe creatures on another world, albeit with the same DC penalties associated with viewing a creature on another plane. In many cases, the magics required may necessitate the possession (or construction) of great artifacts, some of which can still be found abandoned by their creators on planets like Golarion.",
+			"",
+			"### The Planes",
+			"",
+			"As all planets exist on the Material Plane, all of them are equidistant from the planes of the Great Beyond. That means that all of them are equally susceptible to the predations of outsiders, and that magic-users on different worlds are equally able to travel to other planes or contact them (though local magical traditions may vary considerably). In theory, a magic-user should be able to shift to a plane like ‹rule/Axis› from one planet, only to hop back to the Material Plane and arrive on a different planet, thus neatly avoiding the need for space travel. In practice, however, magic doesn't usually work this way - without a direct focus related to the point at which the spellcaster wishes to arrive, he's liable to return to the planet he knows best. After all, most of the Material Plane is empty space, and spellcasters who make a point of hopping between worlds without careful preparation usually end up asphyxiating in the darkness, the silent void swallowing their screams and futile attempts at verbal spell components.",
+			"",
+			"‹rule/The« fey» First World› and the ‹rule/Plane of Shadow›, being coterminous with the Material Plane, are somewhat different. Since both effectively exist \"behind\" the Material Plane and correspond to real points on it, it's possible to use their unique and mutable properties to accelerate travel between the worlds. Yet even then, such shortcuts are a risky and difficult game, as the Shadow Plane mimics the Material enough that travelers on that plane would still need a way to cross the shadowy version of space's void, and those who think to walk from planet to planet by way of the First World's shifting landscape run the risk of exiting at the wrong point and finding themselves in vacuum's cold grasp, or incinerated in the burning heart of a star."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures",
+			"interstellar_travel"
+		],
+		"siblings": [
+			"portals",
+			"ia_spells",
+			"vessels"
+		]
+	},
+	"vessels": {
+		"name": "Vessels",
+		"subtitle": "Interstellar Travel",
+		"sources": [ "Distant Worlds" ],
+		"description": [
+			"‹SOURCE Distant Worlds/53›",
+			"",
+			"By far the most terrifying and dangerous means of interplanetary travel is the use of starships. Over the course of the system's history, several cultures have attempted to build ships capable of crossing the void, yet only a few have succeeded. Most common are the great metal dirigibles of Verces, which several times have set sail from their needlelike space elevators to trade with Akiton or explore the Diaspora, sometimes merely observing other cultures through thick portholes, other times making peaceful contact - or going rogue and becoming the space pirates who make their coves within asteroids or on the dark sides of moons. Though the sarcesians of the Diaspora may do more regular traveling of the void than any other race, theirs is not via great ships, but as individuals on wings of light, sailing between asteroids or diving toward Eox on missions of vengeance. The Bone Sages of Eox, for their part, are already dead, and thus have an easier time than most civilizations in constructing spacecraft, with their warships of steel spines and gushing flame often airless and left open to the void.",
+			"",
+			"For interplanetary colonization, no race can boast better success than the ‹monster/Brethedan«s›, whose vessels are merely the largest of their jovian herd animals, colossi spurred beyond the bounds of the planet's gravitational pull with bellies full of carefully adapted Brethedans. Many of these great beastships have died out since Bretheda seeded Liavara, as the Brethedans have little interest in the system's rocky worlds, yet the smaller descendant race known as ‹monster/oma› can still be found skimming the atmospheres of the gas giants. Other creatures capable of crossing the reaches of space, such as ‹monster/shantak«s›, have been used as mounts by powerful adventurers from more humanoid worlds.",
+			"",
+			"Yet not every ship found in the solar system needs to be a product of one of the native races. The great capital ship that crashed in Numeria, for instance, is obviously beyond the technological capability of any current races - presumably coming from some other star, dimension, or era - and there may yet be other equally alien crafts out there waiting to be discovered. Once the PCs stumble upon a ship of any sort, it's up to the GM to decide how difficult it is to operate, what role magic (especially divination spells) plays in deciphering its mechanisms, and whether travel between the planets takes days, months, or generations."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures",
+			"interstellar_travel"
+		],
+		"siblings": [
+			"portals",
+			"ia_spells",
+			"vessels"
+		]
+	},
+	"environment": {
+		"name": "Interstellar Environments",
+		"tags": "spellcasting in vacuum, atmospheres",
+		"sources": [
+			"Distant Worlds",
+			"People of the Stars"
+		],
+		"description": [
+			"‹SOURCE Distant Worlds/54›  ",
+			"Once they reach another planet, PCs must be prepared for a number of fundamental differences.",
+			"",
+			"### Atmosphere and Vacuum",
+			"",
+			"One of the greatest threats on any world is its atmosphere. While certain spells fortify characters against even the dangers of hard vacuum, the unprepared may find themselves in dire peril. A character introduced to hard vacuum, such as all of outer space, immediately begins to ‹rule/suffocate›. Characters introduced to a planet where the atmosphere isn't rich enough in oxygen may use the same rules, or else the modified rules for slow suffocation if the oxygen quotient is almost sufficient. Some planets, such as Aucturn, may even have poisonous atmospheres, which can use the stats for any inhaled ‹main/equipment_>poison<s› and affect any breathing creatures, even if the planet otherwise has enough oxygen to sustain them.",
+			"",
+			"Vacuum also presents another danger: decompression. A character suddenly transitioned from a normally pressured environment to pure vacuum, such as by being flung out of an airlock, takes 3d6 points of damage (no save) in addition to any suffocation damage. Sound is muffled in thin atmospheres, mimicking the effects of a ‹spell/silence› spell.",
+			"",
+			"### Spellcasting in Vacuum",
+			"",
+			"‹SOURCE People of the Stars/18›  ",
+			"Vacuum presents particular difficulties to spellcasters. Vacuum uses the same rules as ‹rule/underwater<_combat›, except instead of creating steam, fire effects last long enough to deal damage instantaneously before dissipating. Airless environments require ‹feat/Silent Spell› or other forms of voiceless spellcasting. Spellcasters can also have trouble timing their preparation of spells; a ‹eq-misc/traveler's pocket watch›, or an ‹eq-misc/orrery› combined with a ‹eq-misc/sextant›, can be used to determine time by Golarion reckoning.",
+			"",
+			"GMs are encouraged to adjust environmental rules as appropriate for each campaign, and players should work with their GM to clarify ambiguities."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures"
+		],
+		"subtopics": [
+			"gravity",
+			"temperature_and_time"
+		],
+		"siblings": [
+			"interstellar_travel",
+			"environment",
+			"aliens",
+			"the_solar_system"
+		]
+	},
+	"gravity": {
+		"name": "Gravity",
+		"subtitle": "Interstellar Adventures",
+		"sources": [
+			"Distant Worlds",
+			"People of the Stars"
+		],
+		"description": [
+			"‹SOURCE People of the Stars/18;Distant Worlds/54›",
+			"",
+			"Gravitational differences between planets have the potential to cripple characters or make them superheroes - and sometimes both at the same time. For many planets, the gravity is similar enough to Golarion's that trying to arbitrate the difference isn't worth the time. Yet others require special consideration. For planets with significantly different gravities than Golarion, the game effects are proportional, so a planet with half Golarion's gravity allows players to jump twice as high, whereas one with twice Golarion's gravity cuts jump heights in half (see below). In all cases, effects may be more severe and problematic for PCs when they first arrive, and they may take additional penalties to hit or to movement until they adjust.",
+			"",
+			"@HL[Standard Gravity (&times;1):] The gravity mimics that of Golarion.",
+			"",
+			"@HL[Low Gravity:] Low-gravity worlds are PC playgrounds, in which characters' hyperdeveloped Golarion muscles are far more effective than normal. On a world like Akiton, with only a third of Golarion's gravity, PCs can jump three times as high and as far and lift three times as much. (Movement speed, however, stays the same, as moving in great bounds is awkward and difficult to control.) Projectiles have their range categories tripled.",
+			"",
+			"@HL[High Gravity:] On high-gravity worlds, characters are literally crushed to the planet's surface by their increased weight, and their physical abilities are affected accordingly. For example, on Aucturn, where the gravity is twice as strong as on Golarion, a character weighs twice as much as he does on Golarion, but has only the same amount of strength. Such characters move at half speed, can only jump half as high or as far, and can only lift half as much. Their projectiles (though not those of natives) have their ranges cut in half as they fall to earth more rapidly. Personal effects (modifications to running, jumping, lifting, etc.) can be negated by spells such as ‹spell/freedom of movement›, but projectiles remain affected. Characters who remain in a high-gravity environment for long periods often become ‹misc/fatigued›.",
+			"",
+			"@HL[No Gravity (&times;0):] A lack of gravity is not the same as flight. Movement is difficult, and creatures without something to push off from often find themselves floating helplessly. When a creature does manage to find something to propel itself off of, it can move in any direction, but at half speed. Double-moves and ‹rule/charge«s› are still possible, but ‹rule/run«ning› is not. If provided with sufficient handholds, a creature with a climb speed can move along a wall at full speed, as can any PC who makes a DC 20 ‹skill/Climb› check (adding in her Dexterity bonus).",
+			"",
+			"Note as well that a creature that moves in a given direction continues to move in that direction at the same speed each round (without the cost of a move action) unless it is able to change its motion by latching on to an object or creature, pushing off in a new direction, or creating thrust of some kind (all of which are considered move actions).",
+			"",
+			"Creatures that fly using physical means, such as wings or jet propulsion, are affected by these same rules while in vacuum - in atmosphere, they may recover and get their bearings within 2d6 rounds, after which they can fly normally. Magical flight is not affected.",
+			"",
+			"A character in a weightless environment can lift and carry 10 times her normal amount. Projectile weapons have their range categories multiplied by 10. In addition, ranged weapons no longer have a maximum number of range increments - their wielders simply continue to accrue penalties the farther away the target is."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures",
+			"environment"
+		],
+		"siblings": [
+			"gravity",
+			"temperature_and_time"
+		]
+	},
+	"temperature_and_time": {
+		"name": "Temperature and Time",
+		"subtitle": "Interstellar Adventures",
+		"sources": [
+			"Distant Worlds",
+			"People of the Stars"
+		],
+		"description": [
+			"‹SOURCE People of the Stars/18;Distant Worlds/55›",
+			"",
+			"Even habitable planets can vary wildly in temperature. Some are close enough to Golarion standard that their effects can be mitigated by spells like ‹spell/endure elements›, whereas others are more extreme and require greater magic, such as ‹spell/planetary adaptation›. On human-friendly worlds such as Castrovel, Akiton, and Triaxus, most of the planet is an endurable temperature, with the extremes represented by the ‹rule/cold› and ‹rule/heat dangers›. On blistering worlds like Aballon or the alternately frigid and searing sides of Verces, however, such rules may not be adequate, and the precise amounts of temperature damage are left up to the GM to adjudicate (so as to drive the environmental effects home for parties of all levels without necessarily killing them outright). In general, planets with less atmosphere are colder, as more heat escapes into space.",
+			"",
+			"While time itself does not change on different worlds, its measurement may. GMs are free to ignore such issues if they choose, as game effects tied to time may create difficulties. For instance, on a planet with a slower rotational speed, such as Aballon, a \"day\" may take 48 Golarion hours - meaning that spellcasters need to either sleep and study again during the middle of each \"day\" or make do with half their normal spells, and priests who always pray at dawn may need to get creative with regard to what exactly that means to them. In many cases, the easiest option is simply to have spells and abilities recharge at the same rate as they do on Golarion - including for natives of the new planet. Similarly, a planet with multiple moons or none at all may play havoc with lycanthropes. Such potential issues are endless, and what a GM chooses to do is between her and her players, yet GMs are encouraged to evaluate each issue as it arises and decide whether playing it up would be a hassle or an excellent adventure hook and opportunity to drive home the world's alien nature."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures",
+			"environment"
+		],
+		"siblings": [
+			"gravity",
+			"temperature_and_time"
+		]
+	},
+	"aliens": {
+		"name": "Aliens",
+		"subtitle": "Interstellar Adventures",
+		"sources": [ "Distant Worlds" ],
+		"description": [
+			"‹SOURCE Distant Worlds/57›",
+			"",
+			"A solar system is defined by its residents. The strangeness of encountering new life forms and understanding what they can do or attempting to decipher the cultural mores and taboos of an alien society is usually at the heart of any campaign that deals with outer space. Yet the sheer scale involved in creating worlds can be overwhelming.",
+			"",
+			"Though [Pathfinder] presents several new monsters, these are not necessarily the ones most important to your particular campaign. Nor are those monsters - many intentionally left vague for GMs to flesh out - the only new creatures for those planets, or even the only intelligent ones. Together, the worlds presented in [Pathfinder] host millions of new organisms and cultures. While this [sourcebook] spotlights the most significant races for each world, this is simply a starting point - detailing the rest is up to you.",
+			"",
+			"An easy solution to this challenge is to simply \"reskin\" monsters - use the statistics for a familiar monster, but describe it in a different way. Change a ‹monster/succubus› to a strange spore-maiden, make an ‹monster/otyugh› tall and skinny and well spoken, or make the ‹monster/giant octopus› a space-faring creature with light-sensing pseudopods and a taste for the energy produced by starship engines. As long as you change the way you describe a monster, your players will never know any better. Most of the new races discussed [in this sourcebook] can be modeled in this same fashion - an Ilee is not an ‹template/advanced› ‹monster/mongrelman›, and the bird-men of Qidel are not quite ‹monster/strix›, but your players don't need to know that.",
+			"",
+			"In addition to the new monsters created for this book, many familiar monsters found on Golarion originally came from other worlds, or have direct counterparts there.",
+			"",
+			":::block{size=simple hl}",
+			"::row[Aballonian]{link=monster info=\"(CR 7) Aballonians are intelligent, self-modifying constructs.\"}",
+			"::row[Akata]{link=monster info=\"(CR 1) These beasts originally come from the Diaspora, but can also be found on Eox and sometimes on the other inner worlds.\"}",
+			"::row[Ankheg]{link=monster info=\"(CR 3) These are common on many worlds, but especially the Liavaran hive-moon of Nchak.\"}",
+			"::row[Behir]{link=monster info=\"(CR 8) Behirs are almost as common on Akiton as they are on Golarion.\"}",
+			"::row[Brethedan]{link=monster info=\"(CR 5) Brethedans are an adaptive race of floating, telepathic blimp-creatures that live on gas giant worlds.\"}",
+			"::row[Carnivorous Blob]{link=monster info=\"(CR 13) These deadly oozes ride on meteors, and are also found on Eox.\"}",
+			"::row[Cerebric Fungus]{link=monster info=\"(CR 3) Known for their complex and seemingly incomprehensible thoughts, these fungi are commonly encountered on Castrovel and the Liavaran hive-moon of Nchak.\"}",
+			"::row[Contemplative]{link=monster info=\"(CR 2) Native to Akiton, these floating creatures are mostly pulsating brain-sac, with the bodies beneath them somewhere between that of an insect and a human fetus.\"}",
+			"::row[Crysmal]{link=monster info=\"(CR 3) These crystalline scorpion creatures exist in great numbers on Dykon.\"}",
+			"::row[Death Worm]{link=monster info=\"(CR 6) The great sand worms of Akiton are extremely dangerous.\"}",
+			"::row[Denizen of Leng]{link=monster info=\"(CR 8) These mysterious traders are free to walk all the worlds - even Aucturn.\"}",
+			"::row[Dragonkin]{link=monster info=\"(CR 8) Somewhere between true dragons and brute drakes lie the dragonkin, natives of Triaxus.\"}",
+			"::row[Elder Thing]{link=monster info=\"(CR 5) These entities may be found hibernating on any world, but especially on Akiton near the southern pole.\"}",
+			"::row[Flumph]{link=monster info=\"(CR 1) Come from beyond the stars to warn of the dangers of the Dark Tapestry, flumphs can be found on most of the system's inhabited worlds.\"}",
+			"::row[Frost Worm]{link=monster info=\"(CR 12) These are common wintertime predators on Triaxus.\"}",
+			"::row[Girallon]{link=monster info=\"(CR 6) Girallons are common on Akiton, and because of the apes' four-armed forms, many scholars think the beasts evolved there.\"}",
+			"::row[Grick]{link=monster info=\"(CR 3) Gricks dwell on rocky worlds, shunning the sun in favor of dark tunnels.\"}",
+			"::row[Gug]{link=monster info=\"(CR 10) These toothy abominations are common on Aucturn.\"}",
+			"::row[Intellect Devourer]{link=monster info=\"(CR 8) These horrors originally come from the Dark Tapestry and can be found on Aucturn, as well as the dark places of other worlds.\"}",
+			"::row[Lich]{link=template info=\"(CR 12) Liches can be found everywhere, but only Eox is home to a large population.\"}",
+			"::row[Mobat]{link=monster info=\"(CR 3) Mobats are most common on Castrovel and in the Diaspora.\"}",
+			"::row[Mongrelman]{link=monster info=\"(CR 1) These creatures are prevalent on worlds where crossbreeding is common.\"}",
+			"::row[Moonflower]{link=monster info=\"(CR 8) These are common on Castrovel, Triaxus, and Golarion's moon.\"}",
+			"::row[Morlock]{link=monster info=\"(CR 2) These creatures are often the result of prolonged inbreeding in small, isolated settlements.\"}",
+			"::row[Neh-Thalggu]{link=monster info=\"(CR 8) These come from a different solar system entirely, and are found on worlds populated by humanoids.\"}",
+			"::row[Plasma Ooze]{link=monster info=\"(CR 16) Plasma oozes hail from the fiery depths of the sun.\"}",
+			"::row[Ratfolk]{link=monster info=\"(CR 1/3) On Akiton, ratfolk are known as Ysoki; their representatives may be found on Castrovel as well.\"}",
+			"::row[Shantak]{link=monster info=\"(CR 8) As one of the few creatures capable of carrying a rider between worlds, these creatures are found somewhere on almost every world in the system.\"}",
+			"::row[Shoggoth]{link=monster info=\"(CR 19) These horrors exist on several worlds, especially Aucturn and Akiton's south pole.\"}",
+			"::row[Tzitzimitl]{link=monster info=\"(CR 19) Originally created by the liches of Eox, these undead starfarers travel through the blackness to bring ruin and destruction to living worlds.\"}",
+			"::row[Witchwyrd]{link=monster info=\"(CR 6) Long ago, an ancient race on Akiton was split in two by the pressures of a great war. The branch that wanted to keep fighting went on to become the Shobhad-neh, while the other left the world to become traders and manipulators throughout the universe. The latter are known today as witchwyrds, and several can be found on Golarion as the masked Pactmasters of Katapesh.\"}",
+			"::row[Worm That Walks]{link=template info=\"(CR 14) These are found on both Eox and Aucturn.\"}",
+			"::row[Xorn]{link=monster info=\"(CR 6) Xorns can be found on any world rich with gems and ores, especially crystalline Dykon.\"}",
+			":::"
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures"
+		],
+		"siblings": [
+			"interstellar_travel",
+			"environment",
+			"aliens",
+			"the_solar_system"
+		]
+	},
+	"the_solar_system": {
+		"name": "The Solar System",
+		"subtitle": "Interstellar Adventures",
+		"sources": [ "Distant Worlds" ],
+		"description": [
+			"‹SOURCE Distant Worlds/2›",
+			"",
+			"Each subtopic below starts with a stat block noting the world's diameter, mass, gravity, and atmosphere as compared to Golarion's - a diameter of &times;100 means \"100 times as large as Golarion's,\" a diameter of &times;&#8530; means \"a tenth the size of Golarion's,\" and so on. While the first two comparisons are meant only to give a sense of scale, a planet's @HL[gravity] and @HL[atmosphere] can impose important in-game effects on creatures visiting another world. An orbit entry gives the length of a planetary year (one complete revolution around the sun) as measured in Golarion's days. In addition, each planet has its primary name and its most common appellation in Golarion's mythology (such as \"the Horse\")."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures"
+		],
+		"subtopics": [
+			"the_sun",
+			"aballon",
+			"castrovel",
+			"akiton",
+			"verces",
+			"the_diaspora",
+			"eox",
+			"triaxus",
+			"liavara",
+			"bretheda",
+			"apostae",
+			"aucturn"
+		],
+		"siblings": [
+			"interstellar_travel",
+			"environment",
+			"aliens",
+			"the_solar_system"
+		]
+	},
+	"the_sun": {
+		"name": "The Sun",
+		"subtitle": "Interstellar Adventures",
+		"sources": [ "Distant Worlds" ],
+		"description": [
+			"‹SOURCE Distant Worlds/5›",
+			"",
+			"::tabular{format=planet a=\"The Sun\" b=\"The Burning Mother\" d=100 c=\"300,000\" g=28 e=none f=none}",
+			"",
+			"Golarion's sun is an almost incomprehensibly huge and inhospitable place. More than a million worlds the size of Golarion could fit inside the burning star without filling it up, and its coolest sections are still more than twice the temperature necessary to vaporize steel. Yet despite the harshness of its environs, the sun is still host to organic life. Within its fiery depths, massive dolphin-like ‹monster/fire elemental«s› are spontaneously born, rolling and diving in the seas of flame. Deeper down, where the heat and pressure grow so great that the combusting gases change into plasma, some of this strange energy takes on a life of its own. The resulting ‹monster/plasma ooze«s› are shimmering entities ranging in size from that of terrestrial elephants to blistering mountains, and the mindless giants slither endlessly through the flaming murk.",
+			"",
+			"Not all residents of the sun are native to it. Because of the massive amounts of energy being created within the sun, the fabric of existence regularly gives way, creating temporary portals to the Plane of Fire. Creatures from ‹monster/salamander«s› to ‹monster/efreet<i› often pass through these portals, and thanks to the sun's tremendous size, whole empires can rise and fall without encountering each other. Of course, this vastness and lack of landmarks means that there's also little here to interest intelligent beings beyond solitude and the aesthetic beauty of solar flares.",
+			"",
+			"### Adventuring",
+			"",
+			"The sun should be avoided by all but the most powerful adventurers. In the face of the star's nuclear fires, spells such as ‹spell/resist energy›, ‹spell/protection from energy›, and ‹spell/planetary adaptation› are useless - only complete ‹umr/immunity› to fire allows a creature to survive the immense heat (see spells such as ‹spell/fiery body›). Any creatures or items not immune to fire are instantly and utterly consumed down to the molecular level - only spells such as ‹spell/wish› or ‹spell/true resurrection› can bring back such victims.",
+			"",
+			"Flame, however, is only one of the sun's dangers. Travelers must also contend with the fact that while the sun has various layers organized by density, it has no true surface to stand on. As such, only creatures with the ability to fly via magic can navigate its wastes, with all others drawn straight down into the flames. Lacking an atmosphere, the sun offers nothing to breathe. And it has so much more mass than Golarion that its gravity is literally crushing - while amorphous creatures may not have to worry, mundane life forms find that blood ceases to flow, lungs are too weak to inflate, and bodies implode like breached submarines. Because of poorly understood magical connections between the sun and the Plane of Fire, however, creatures native to that realm do not seem to suffer from any of these additional effects, and can often swim and dive in the sun's crushing plasma as easily as marine animals in a terrestrial sea.",
+			"",
+			"Creatures from Golarion who manage to visit the sun safely typically use powerful magic such as *wish* to create temporary magic diving bells similar to ‹magic-wondrous/cube«s» of force› but immune to fire and crushing damage, or transform themselves into creatures native to the Plane of Fire and thus gain those creatures' immunities."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures",
+			"the_solar_system"
+		],
+		"siblings": [
+			"the_sun",
+			"aballon",
+			"castrovel",
+			"akiton",
+			"verces",
+			"the_diaspora",
+			"eox",
+			"triaxus",
+			"liavara",
+			"bretheda",
+			"apostae",
+			"aucturn"
+		]
+	},
+	"aballon": {
+		"name": "Aballon",
+		"subtitle": "Interstellar Adventures",
+		"sources": [ "Distant Worlds" ],
+		"description": [
+			"‹SOURCE Distant Worlds/6›",
+			"",
+			"::tabular{format=planet a=Aballon b=\"The Horse\" d=\"&#8531&\" c=\"&#185&&#8260&&#8322&&#8320&\" g=\"&#8531&\" e=\"Trace amounts\" f=\"90 days\"}",
+			"",
+			"The rocky world called Aballon is the closest planet to the sun, and often referred to as \"the Horse\" for the speed with which it races across the sky. A relatively tiny world compared to Golarion, Aballon is composed primarily of iron and other dense, heavy metals encased in a crust of rock and silicate dust. While splashes of color and weird rock formations are not unknown, most of Aballon's surface is drab desert and sharp-edged hills, all pockmarked and scarred by countless meteorite impacts, some of which created craters with miles-high mountain ranges surrounding their rims. With no atmosphere to speak of - those little bits it attempts to hold on to are regularly blasted away and replenished by the solar wind - the planet has nothing to help it regulate temperature, so conditions can reach 800 degrees Fahrenheit in the full brunt of the sun and drop below –300 degrees in the shadow, resulting in baking badlands matched by large quantities of ice in deep craters and sheltered polar valleys.",
+			"",
+			"The main inhabitants of the planet are the ‹monster/aballonian«s›, a society of robotic lifeforms abandoned by their creators millennia ago.",
+			"",
+			"### Adventuring",
+			"",
+			"Biological organisms face many challenges on Aballon. While the tiny, half-frozen jungles of its sheltered valleys are often temperate enough for humans and similar races to survive in without magic, the temperatures on the surface are too extreme for all but the most powerful magics, and the lack of atmosphere poses an even greater problem. Food and water can be found in the valleys, but always in limited supply, and those who've eaten of the plants and animals there note that their flesh tastes of metal and sand.",
+			"",
+			"Collectively, the machines of Aballon are neutral toward outsiders, though their sometimes inscrutable motivations can make them dangerous to interact with. Some of the beastlike models are inclined to hunt and devour new organisms for the materials and energy they contain, while more sophisticated models may seek conversation. As the robots do not possess souls, they have access only to their advanced science and arcane magic, and are particularly fascinated by divine casting.",
+			"",
+			"Aballon rotates faster than Golarion, resulting in days and nights that are roughly half as long. The lack of atmosphere also means that sound is frequently muffled on the surface (as if by a permanent ‹spell/silence› spell), and thus most of the planet's residents communicate through sign language or mechanical, wave-based telepathy."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures",
+			"the_solar_system"
+		],
+		"siblings": [
+			"the_sun",
+			"aballon",
+			"castrovel",
+			"akiton",
+			"verces",
+			"the_diaspora",
+			"eox",
+			"triaxus",
+			"liavara",
+			"bretheda",
+			"apostae",
+			"aucturn"
+		]
+	},
+	"castrovel": {
+		"name": "Castrovel",
+		"subtitle": "Interstellar Adventures",
+		"sources": [ "Distant Worlds" ],
+		"description": [
+			"‹SOURCE Distant Worlds/6›",
+			"",
+			"::tabular{format=planet a=Castrovel b=\"The Green\" d=1 c=1 g=1 e=\"Breathable\" f=\"Half a year\"}",
+			"",
+			"The world of Castrovel is the complete opposite of Aballon. Where the Horse is rocky and bare, Castrovel is humid and humming with life, its thick blanket of atmosphere trapping the sun's energy and making the surface a lush, steamy paradise. Jungles abound here, full of great broad-leafed trees that sometimes stretch several hundred feet into the air, with branches large enough to support a house, or else cluster in masses so thick that the sun can barely penetrate to the floor of strange and primeval swamps, where gnarled mangrove-like roots form whorls and hollows housing all manner of creatures. Oceans of colored mist and gas vie with more conventional seas to provide habitats for innumerable species, from cannibalistic ‹monster/selkie«s› and schools of semi-intelligent fish to the elephantine isopods that trundle across the sea bottom, the cracks in their glowing armor providing safe havens for delicate seahorse-like symbiotes. Given the sheer amount and variety of life on Castrovel, it's small wonder that legends of \"the Green Star\" often associate the world with lust and fertility.",
+			"",
+			"There are additional reasons for the world's amorous associations, however. The women of the ‹race/lashunta›, Castrovel's most prominent race, are often cited as the most beautiful humanoids in the solar system. Tall and lithe, the creatures appear to be perfect specimens of elven or human women, save for the thin and twitching antennae that rise up from their foreheads. Combined with the planet-wide tendency to forsake all but the most functional clothing to mitigate the constant heat and humidity, it's understandable how the first human explorers to reach Castrovel might have thought themselves arrived in Heaven itself. Yet despite their beauty, the women of the lashunta are not merely objects of lust. Educated, civilized, and matriarchal, the rulers of the lashunta city-states maneuver for political position from the backs of their terrible lizard steeds, fighting each other when necessary but more often banding together to protect their settlements from the verdant planet's dangerous fauna and their traditional enemies, the insectile ‹family/formian«s›.",
+			"",
+			"Strangely enough, for all the females' beauty, the lashunta men are proportionally ugly - half the height of their female counterparts and twice as broad, the hairy lashunta males are rugged, fierce, and warlike. Yet even the men are ultimately civilized, with their prowess in battle matched only by their thirst for knowledge. Both sexes pursue mental perfection and espouse unlocking the brain's full potential as the noblest goal, with the women's ability to form empathic bonds with their saurian mounts only the least of their achievements. As a result, Castrovel is a fertile breeding ground for psions and telepaths.",
+			"",
+			"After the lashunta, the most populous race on Castrovel is, strangely enough, ‹race/elves› - those same elves who helped populate Golarion, and who returned to it from their mysterious sojourn more than 2,000 years ago. Just before the fall of the Starstone that darkened Golarion's skies and brought about an age of suffering, most of Golarion's elves fled through portals to the mysterious realm of Sovyrian, only to return millennia later when the demon ‹monster/Treerazer› attempted to corrupt the portal system the elves had used to evacuate. Yet what few scholars - even elven scholars - on Golarion realize is that the legendary refuge of Sovyrian lies not on some magical plane, but on Castrovel.",
+			"",
+			"The elven nation of Sovyrian occupies one of the smaller continents on Castrovel, separated from the lands of the lashunta and most other intelligent creatures by a wide and treacherous ocean. So wracked is this oceanic moat by tropical storms that the elves who live in Sovyrian rarely attempt to cross it by physical means, perhaps prompting the creation of the original portals known as ‹magic-artifact/aiudara›, or \"elf gates.\" For most residents, however, the continent of Sovyrian may as well be the entire world. While even the greatest historians can't say for certain whether the elves evolved on Sovyrian and then immigrated to Golarion or vice versa, the elves' physical similarities to the lashunta - tall, idealized humanoids with sharp minds and a propensity for magic - make a compelling case for the fair folk being natives of the Green Planet. This idea is naturally popular with those elves who reside on Castrovel, most of whom find the notion that their race might have arisen on the comparatively barbaric world of Golarion highly insulting.",
+			"",
+			"### Adventuring",
+			"",
+			"Environmentally, Castrovel is a welcoming world to most civilized races from Golarion, with its tropical climates, familiar gravity, and rich, breathable atmosphere. Food is never a problem, as the jungles, rivers, and mountain valleys are bursting with edible plants and animals - yet it's this same fertility that makes adventuring here so dangerous. Because of the seemingly endless supply of consumables and the oxygen-rich environment, both plants and animals tend to grow larger here than on Golarion. From enormous saurian horrors and segmented centipede ticks to bug-eyed mountain eels and the poison-beaked sky fishers, Castrovel boasts countless megafauna predators easily capable of consuming a humanoid. Even the environment itself can be a predator: a closer, larger moon means that tides and ocean waves are more extreme, and the high-pressure atmosphere means that winds can be far stronger than those on Golarion. In addition to great hurricanes and other storms capable of scouring the landscape at hundreds of miles per hour, the wet wind is also conducive to moldstorms, in which fields of voracious molds and fungi release their spores into the air, creating a roiling cloud of decay that coats and consumes all organic matter in its path.",
+			"",
+			"Adventurers from other worlds are not common on Castrovel, but neither are they unheard of, as both the lashunta and the elves are consummate scholars, and certain of their cities maintain active trade with Akiton and Golarion's elven kingdoms. The regular use of elf gates to step thousands of miles also makes settlements more accepting of unfamiliar faces, though this ability to travel is generally restricted to the planet's two primary races, and the various intelligent magical creatures or races of more savage beast-men that live in the deep jungles or isolated mountain dells are less used to outsiders."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures",
+			"the_solar_system"
+		],
+		"siblings": [
+			"the_sun",
+			"aballon",
+			"castrovel",
+			"akiton",
+			"verces",
+			"the_diaspora",
+			"eox",
+			"triaxus",
+			"liavara",
+			"bretheda",
+			"apostae",
+			"aucturn"
+		]
+	},
+	"akiton": {
+		"name": "Akiton",
+		"subtitle": "Interstellar Adventures",
+		"sources": [ "Distant Worlds" ],
+		"description": [
+			"‹SOURCE Distant Worlds/14›",
+			"",
+			"::tabular{format=planet a=Akiton b=\"The Red\" d=\"&frac12&\" c=\"&#8530&\" g=\"&#8531&\" e=\"Thin but breathable\" f=\"2 years\"}",
+			"",
+			"For millennia, the people of Golarion have looked to the world of Akiton as a harbinger of war, seeing in the Red Star's bloody hue a martial blessing and portent of coming battles. Yet few have ever realized how close their stories come to the truth.",
+			"",
+			"Akiton is a harsh world. With only a thin layer of breathable atmosphere to support life and keep the planet insulated, it is mostly cold desert, the planet's red color stemming from the vast plains of iron-rich sand and stone that cover much of its surface, with strange plateaus and weirdly organic rock formations rising from the drifting sands. In places, the sides of knife-edged canyons reveal layers of sediment containing the strange skeletons of colossal creatures from a lost era, their bones crafted into ornaments and weapons by savage desert tribes who still tell stories of a time when the land was rife with seas and monsters, racial memories of an epoch before the planet's slow decline.",
+			"",
+			"Just as Akiton is less forgiving than Golarion environmentally, so too are its people harder. While the planet hosts a significant population of red-skinned humanoids that are exceptionally similar to Golarion's humans, even to the point of being able to interbreed, these city folk and desert barbarians are rarely what people think of in conjunction with the Red Planet. Rather, the iconic image of Akiton is that of the ‹monster/Shobhad«s›: 12-foot-tall, gray-skinned warriors with four arms, each muscular limb bearing a sword, lance, or deadly flechette longrifle capable of firing nearly to the horizon.",
+			"",
+			"Although the four-armed giants may be the most immediately arresting citizens of Akiton, they're not the only strange race to go bounding across its landscape. Timid and crafty, the Ysoki [rat-men](race/ratfolk) make their way equally well in the open desert, the mysterious honeycomb caves sometimes found in the deepest trenches, and the slums of the great cities, where they are master traders as well as skilled pickpockets. Though weak individually, the Ysoki are notorious for their pack loyalty, and anyone who thinks to take advantage of a lone rat-man or dispute a fair trade may find himself bled to death by the Ysoki's 10 nearest relatives.",
+			"",
+			"The red-skinned ‹monster/lizardfolk› of the deep desert are less common, primarily because of their discomfort in cities, yet they birth fighters every bit as fierce as the Shobhadneh. Instead of warring with each other, however, the iguana-faced lizardfolk tend to reserve their ferocity for nature itself, eking out an existence in the planet's harshest climates and hunting the great sand serpents with nothing more than crude spears and their teeth.",
+			"",
+			"Perhaps most alien of the civilized races of Akiton are the mysterious ‹monster/Contemplative«s› of Ashok. Composed primarily of soft and throbbing brain-sacs, with only the most rudimentary limbs to move them around and assist in their casting and experimentation, the Contemplatives are creatures of the mind, into whose engorged, swollen forms the ether occasionally whispers secrets of things that have been or are yet to come.",
+			"",
+			"### Adventuring",
+			"",
+			"While Akiton is colder and less forgiving than Golarion, with a thin atmosphere that often leaves Golarion-born humanoids short of breath, its environment is no more dangerous than Golarion's great deserts or mountainous reaches. In fact, creatures from Golarion often find themselves at a distinct advantage on Akiton because of the significantly lower gravity, in which they can make tremendous leaps, send projectiles three times farther, lift three times their normal amount, and perform other great feats of speed and strength. At the same time, the lower gravity also means that the structures and natural features on Akiton can be much taller and more delicate than those on Golarion, with loose sand dunes the size of hills and thin rock spires or city towers that would collapse immediately on a world with greater gravity.",
+			"",
+			"Though not precisely the same as Golarion humans, the red-skinned humans of Akiton are more of a different ethnicity than true aliens, and the planet as a whole has seen enough visitors from the geologically and culturally younger world that larger cities generally know of the other humans' existence, and may even have a few in residence at any given time. Elves are relatively familiar to Akitonians, thanks to the planet's connection to Castrovel and Sovyrian, but smaller races such as halflings, dwarves, and gnomes tend to be regarded with unguarded fascination or derision."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures",
+			"the_solar_system"
+		],
+		"siblings": [
+			"the_sun",
+			"aballon",
+			"castrovel",
+			"akiton",
+			"verces",
+			"the_diaspora",
+			"eox",
+			"triaxus",
+			"liavara",
+			"bretheda",
+			"apostae",
+			"aucturn"
+		]
+	},
+	"verces": {
+		"name": "Verces",
+		"subtitle": "Interstellar Adventures",
+		"sources": [ "Distant Worlds" ],
+		"description": [
+			"‹SOURCE Distant Worlds/20›",
+			"",
+			"::tabular{format=planet a=Verces b=\"The Line\" d=1 c=1 g=1 e=\"Breathable\" f=\"3 years\"}",
+			"",
+			"Verces, also known as \"the Line,\" draws its name from the fact that it is tidally locked, with the same hemisphere always facing the sun. With one side of the planet baking in the constant light and radiation, and the other losing its heat to the darkness of space, the thin atmosphere of Verces is unable to fully distribute the energy, resulting in one side that's blistering hot and another that's freezing cold. Only along the terminator line, the narrow band where day meets night, are temperatures favorable to conventional animal life, and it is here that Verces' civilization has flourished, encircling the planet in a bustle of activity. Steamy jungles and tiny tropical seas populate the sunward side of the band, filled with cold-blooded reptilian creatures that bask in the eternal afternoon sun, while farms and fields occupy the majority of the sunset, and warm-blooded predators stalk the twilight of the opposite side, becoming steadily more alien as they pass beyond humanoid-held lands and into the true black of Darkside.",
+			"",
+			"Verces's several distinct environments support a wide variety of monsters and magical beasts ranging from simple brutes to weird savants with thought processes far beyond those of human ken, yet the indisputable masters of the planet are the Vercites, the only race responsible for a planet-wide civilization. Physiologically, the Vercites are surprisingly similar to the humanoid races of Golarion, standing 8 feet tall with delicate features and legs that seem a touch too long. Their most striking differences from humans or elves are their eyes - shining black half-globes that protrude from their heads like those of a mouse - and the ability of their inhumanly smooth and perfect skin to change color at will, an adaptation likely spawned by a need to regulate the amount of radiation absorbed when passing from one sun-climate to another. Vercites wear only as much clothing as is functional, instead preferring to decorate themselves with brilliant patterns on their skin.",
+			"",
+			"### Adventuring",
+			"",
+			"PCs adventuring in the nations of the Ring have little to fear in terms of environmental hazards, as the land there is similar in climate to the temperate swaths of Golarion, with the intimidating metallic cities surrounded by relatively pastoral fields of crops. Far more confusing is the collection of sometimes bizarre local customs. Still, Vercites are no more predatory than people anywhere, and those who get over the initial shock of meeting outsiders are likely to greet them with curiosity and hospitality.",
+			"",
+			"Away from the terminator, however, things quickly become dangerous. Temperatures soar or drop depending on which direction one travels, approaching and soon surpassing the range of what can safely be handled with a simple ‹spell/endure elements› spell. Even most Augmented Vercites know better than to travel too deep into either Darkside or the Fullbright without special protective suits, syntheses of magic and machinery that defend against the elements and sometimes include both physical assistance and increased combat abilities. Such ‹magic-wondrous/pressure_>suit«s› are expensive and bulky, but relatively common, given the number of excursions necessary to hunt the bizarre creatures that live in either environment, or to mine the crystals and metals used as components in the Ring's monolithic factories."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures",
+			"the_solar_system"
+		],
+		"siblings": [
+			"the_sun",
+			"aballon",
+			"castrovel",
+			"akiton",
+			"verces",
+			"the_diaspora",
+			"eox",
+			"triaxus",
+			"liavara",
+			"bretheda",
+			"apostae",
+			"aucturn"
+		]
+	},
+	"the_diaspora": {
+		"name": "The Diaspora",
+		"subtitle": "Interstellar Adventures",
+		"sources": [ "Distant Worlds" ],
+		"description": [
+			"‹SOURCE Distant Worlds/24›",
+			"",
+			"::tabular{format=planet a=\"The Diaspora\" b=\"The Lost Ones\" d=\"Millions of asteroids up to 600 miles across\" c=\"2 total (less than &times&&#185&/&#8321&&#8320&&#8320& for any single asteroid)\" g=Varies e=Varies f=Varies}",
+			"",
+			"Today, Golarion's solar system has 11 planets, but this was not always the case. Modern astronomers have long been fascinated by the fact that the writings of ancient Azlanti scholars reference two more worlds: the Twins, Damiar and Iovo, orbiting at a point between Verces and Eox. Damiar and Iovo were close enough that the planets spun around each other in the course of their orbits, and their residents were likely the first sentient races in the system to achieve interplanetary communication and trade.",
+			"",
+			"And then something went wrong. The writings of the Azlanti and other planetary scholars record a day when the Twins flared into a single light bright enough to match the noon sun - then were gone. In their place was a expanding field of debris that stretched across the sky, quickly filling the entirety of the planets' former orbit. For centuries afterward, nearby worlds were regularly bombarded by meteorites - some small, some devastatingly large - as detritus was cast out by momentum and gravitational forces. Slowly, the carnage stabilized, coming to occupy a vast ring of space.",
+			"",
+			"Unlike an asteroid belt formed normally during a solar system's birth, the Diaspora still holds many traces of its violent birth. While most of the asteroids and dwarf planets contained within its shifting mass are nondescript, lopsided rocks of stone, metal, and ice, some still bear identifiable traces of the civilizations that were destroyed in their formation. Individual asteroids might contain a few chiseled words or chunks of a ruined city block, while whole fields of crumbled buildings and other artifacts might spin together in a mass, mysteriously spared by the cataclysm that ripped the worlds apart.",
+			"",
+			"The most civilized and populous creatures of the Diaspora are the sarcesians. Believing themselves to be the only descendents of the lost peoples of the Twins, the sarcesians have adapted to life in hard vacuum. Averaging 10 to 15 feet tall, sarcesians are humanoid in shape, but stretched long and bird-thin, their pale bodies designed for life in the absence of gravity. Able to suspend respiration indefinitely, these gentle aliens soar between asteroids on moth wings of pure energy, riding the solar wind and reflected light like birds on a thermal.",
+			"",
+			"### Adventuring",
+			"",
+			"The vast and rocky spray of the Diaspora is almost as inhospitable as the void of space itself. Except for a select few sarcesian creche worlds, none of the asteroids are capable of maintaining a significant atmosphere. Temperatures are extremely cold, typically around –100 degrees Fahrenheit. Though a fair number of the irregular, misshapen rocks that make up the asteroid belt are large enough to exert noticeable gravitational pulls on Medium-sized creatures, this is barely enough to keep one's feet on the ground. Creatures on these asteroids can carry tremendous amounts or make enormous leaps with minimal effort - perhaps 10 or 20 times their normal height - but may run the risk of flinging themselves completely off the surface if they jump too hard or run too fast. Smaller asteroids require creatures to hang on to maintain contact in the zero-gravity dance of space.",
+			"",
+			"By far the safest method of traveling through the Diaspora is via teleportation magic, with spells like ‹spell/teleport› and ‹spell/greater teleport› being sufficient to carry parties between various bodies within the belt, and scrying magic or high-powered telescopes often proving useful for surveying destinations. Other options include magical flight, sailing the solar wind via energy wings modeled off the sarcesians' natural appendages, or any methods sufficient for interplanetary travel."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures",
+			"the_solar_system"
+		],
+		"siblings": [
+			"the_sun",
+			"aballon",
+			"castrovel",
+			"akiton",
+			"verces",
+			"the_diaspora",
+			"eox",
+			"triaxus",
+			"liavara",
+			"bretheda",
+			"apostae",
+			"aucturn"
+		]
+	},
+	"eox": {
+		"name": "Eox",
+		"subtitle": "Interstellar Adventures",
+		"sources": [ "Distant Worlds" ],
+		"description": [
+			"‹SOURCE Distant Worlds/28›",
+			"",
+			"::tabular{format=planet a=Eox b=\"The Dead\" d=\"&#8532&\" c=\"&#8532&\" g=1 e=Unbreathable f=\"5 years\"}",
+			"",
+			"For millennia, Golarion's astrologers have seen something sinister and prophetic in Eox's retrograde orbit. Though their reasoning may be more superstitious than scientific, in this instance they are correct, for Eox is indeed a dead world - yet one that still seethes with malignant activity.",
+			"",
+			"Long ago, Eox was a lush world, filled with vibrant forests and fertile golden seas. Its primary race was the most similar of any extraterrestrial race to the humans of Golarion, and it's often been posited that humanity itself may have been some long-lost cousin or wayward child. Averaging 6 feet tall and with almost translucently pale skin that soaked up the light of the distant sun, Eoxians also differed from humanity in having slightly larger craniums, their foreheads distended with the great masses of their larger brains.",
+			"",
+			"While their powerful intellects gave them many boons - cities that would defy any architectural schools on Golarion, machines capable of reaching the sky and stars, wizards capable of bending space and time to their whims - it also brought hubris and an innate sense of superiority. As a race, the Eoxians turned bitter and petty, constantly striving for new discoveries, abandoning weaker concerns such as love and morality. The greatest among them may even have ascended to godhood through arcane means, forming their own pantheon. Yet despite their achievements, the Eoxians knew no peace, only a ceaseless desire for more.",
+			"",
+			"The calamity that destroyed Eox's bounty is a mystery, and even the gods remain strangely reticent about the matter. Most residents of Eox were killed instantly in the cataclysm. For the few thousand who survived in self-contained environments and secure bunkers, it was the beginning of a new era. With no atmosphere, a critically low population, and most inhabitants sterilized or worse by the wash of radiation that accompanied the catastrophic blast, the inhabitants of Eox found themselves unable to rebuild the civilization they had once known. Left with no other choice, the remaining residents of Eox turned to undeath. Though this mass transformation into ‹template/lich›-like beings permanently capped their population, the new existence allowed them to do away with unnecessary and distracting biological processes such as breathing and breeding. In honor of their new phase of existence, the people of Eox renamed themselves, and when the planet-wide fires finally burned themselves out, the first of the bone sages stepped out to greet their new world.",
+			"",
+			"### Adventuring",
+			"",
+			"As a world for living travelers, Eox is almost as uninviting as the Diaspora (or much worse, given the planet's ghoulish inhabitants). With all oxygen and other easily combustible gases long since burned away, what's left of the planet's atmosphere is unbreathable by most beings, though it retains enough atmospheric insulation to transmit sound and keep the planet from freezing over entirely. Even thousands of years after the cataclysm, certain irradiated regions and magical scars cause mutations or death in living creatures moving past their invisible borders, and in certain areas great electromagical storms can rage suddenly and destructively in the otherwise night-black sky. While a few scrubby plants have managed to recover and adjust to the new environment, for the most part the surface of Eox is a blasted waste, drab and burnt.",
+			"",
+			"Harsh as it is, the environmental dangers of Eox are still secondary to those presented by its residents. Despite their undead status, the bone sages don't consider themselves evil - rather, they consider the concepts of \"good\" and \"evil\" to be hopelessly backward, with the true measure of a method's worth being its effectiveness. Naturally, such a utilitarian perspective frequently leads them to decisions that most other civilized beings would consider evil. This complete lack of regard for other beings would be bad enough, but in this case it's also partnered with extreme megalomania and the paranoid belief that any advances made by others make them more able to someday challenge the sages' supremacy. Still, despite these complications, the bone sages remain indisputably intelligent, and as such can be reasoned and even bargained with, provided a petitioner has something worthwhile to offer."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures",
+			"the_solar_system"
+		],
+		"siblings": [
+			"the_sun",
+			"aballon",
+			"castrovel",
+			"akiton",
+			"verces",
+			"the_diaspora",
+			"eox",
+			"triaxus",
+			"liavara",
+			"bretheda",
+			"apostae",
+			"aucturn"
+		]
+	},
+	"triaxus": {
+		"name": "Triaxus",
+		"subtitle": "Interstellar Adventures",
+		"sources": [ "Distant Worlds" ],
+		"description": [
+			"‹SOURCE Distant Worlds/32›",
+			"",
+			"::tabular{format=planet a=Triaxus b=\"The Wanderer\" d=1 c=1 g=1 e=Breathable f=\"317 years\"}",
+			"",
+			"In many ways, Triaxus is actually two worlds. Dubbed \"the Wanderer\" because of its extremely eccentric orbit, Triaxus's distance from the sun varies greatly as it traces its slow path through the heavens. At its farthest point from the system's center, out past the great gas giants, the sun is little more than a bright spot in the sky, and the world is covered by glaciers and vast snowfields. At its closest point, however, Triaxus comes even closer to the sun than steamy Castrovel, transforming into a world of vibrant forests, rushing rivers, and fertile earth. Because of this extreme seasonal shift, Triaxus has two distinct ecologies, each of which changes or goes dormant while the other is ascendant.",
+			"",
+			"The ‹race/triaxian«s› resemble humans in many ways, with the biggest difference being cyclical changes in their physiology tied to the seasons. While many creatures on Triaxus go dormant or lay eggs capable of surviving through whichever season they find themselves unsuited for, the Triaxians have evolved to match the planet's orbit. Summerborn individuals tend to have dark skin and relatively little hair, the better to regulate heat and protect against harmful solar radiation. Yet the children and grandchildren of these people are inevitably and progressively born with lighter skin and more hair, until in just a few generations the Winterborn's bodies are coated in fine, white fur, their eyes narrowing and elongating to protect against snowblindness. Strangely enough, this reproductive cycle seems to match environmental conditions but is not dependent on them - Triaxians raised on other worlds continue their several-hundred-year cycle.",
+			"",
+			"### Adventuring",
+			"",
+			"Triaxus is relatively friendly to visitors from Golarion, with similar gravity and a breathable atmosphere. Even at its hottest and coldest, the planet still stays within ranges habitable to humans - if only just barely - and the required adventuring gear for a given season is similar to that needed for arctic or tropical regions on Golarion. Instead, the greatest dangers on Triaxus come from the planet's residents.",
+			"",
+			"While creatures from other worlds have visited the planet before, such travelers are rare, and likely little more than fairy tales to the average Triaxian. The reception undisguised aliens might receive varies greatly from city to city and nation to nation. In some places, the PCs would undoubtedly be brought before an overlord as prisoners, while a scholarly location would find the PCs a font of knowledge about their homeworld, and the decadent nobles of a monarchy would immediately incorporate the PCs into their games of status and prestige. Though almost all of the classes are represented somewhere on Triaxus, spellcasters and alchemists from Golarion are likely to find numerous differences between their own magic and that of local practitioners, and both sides could learn much from each other."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures",
+			"the_solar_system"
+		],
+		"siblings": [
+			"the_sun",
+			"aballon",
+			"castrovel",
+			"akiton",
+			"verces",
+			"the_diaspora",
+			"eox",
+			"triaxus",
+			"liavara",
+			"bretheda",
+			"apostae",
+			"aucturn"
+		]
+	},
+	"liavara": {
+		"name": "Liavara",
+		"subtitle": "Interstellar Adventures",
+		"sources": [ "Distant Worlds" ],
+		"description": [
+			"‹SOURCE Distant Worlds/32›",
+			"",
+			"::tabular{format=planet a=Liavara b=\"The Dreamer\" d=10 c=100 g=\"1 (at &quot&surface&quot&)\" e=Unbreathable f=\"12 years\"}",
+			"",
+			"Past Eox and wandering Triaxus, the familiar rocky worlds of the system's interior give way to a new type of planet: the two titanic gas giants. So large are these goliaths that some of the many moons held fast by the giants' massive gravitational pulls are nearly the size of planets themselves. Liavara is the closer of the two, with the major differences between it and its larger counterpart, Bretheda, being its peach-colored complexion, its smaller number of significant moons, and its bright rings of dust, which are so massive as to be visible from Golarion through a basic telescope. In addition to the rings and their myriad shepherd moons - some no larger than a house - the planet also has several populated moons.",
+			"",
+			"Yet life around Liavara is not restricted to its moons. In the great orange-white seas of gas that make up the planet's outer atmosphere, strange creatures totally unlike any terrestrial animals wheel and dive, feeding upon the floating plants and giant bacteria that make up the foundation of the planet's food chain. As numerous and varied as those of any jungle, the fauna of the outer layers take a variety of forms, from birdlike fliers whose skin is both eye and digestive apparatus, to great cloud-skates that glide through the skies via a form of jet propulsion, to dangerous swarms of floating keji and the utterly transparent tarenake, whose great bulks are discernible only by the shapes they displace in the thick gases. Farther down, the pressure of the atmosphere increases, and creatures take on a more piscine aspect, with massive predators swimming slowly through the dense atmosphere, feeding on the young of higher-flying creatures. Many of the creatures in the upper layers of the planet's atmosphere must drop their eggs down into the depths to reproduce. The eggs gestate in the sacred, lightless layers where they finally achieve neutral buoyancy, held there until the hatching and the newborn's reflexive quest for the light and safety of the upper atmosphere.",
+			"",
+			"### Adventuring",
+			"",
+			"Even setting aside the issue of local flora and fauna, the gas jungles of Liavara are a difficult destination for terrestrial travelers to survive in, for two main reasons. First is the lack of breathable atmosphere - while Liavara has plenty of gas to go around, its atmosphere is composed almost entirely of hydrogen and helium, neither of which is helpful to creatures that evolved on Golarion-like worlds, which will need to enact powerful magic or bring great stores of bottled air in order to keep from asphyxiating. Even more complicated, however, is the fact that Liavara has no \"ground\" as terrestrial creatures understand it. Instead, Liavara is an enormous ball of gas, with the density and pressure increasing as one travels toward the core, not unlike the increase in pressure when diving in an ocean. Creatures with the ability to fly, either magically or via wings, should be able to ply the skies easily enough, yet anyone who loses this ability for even a moment finds himself falling toward the planet's center as quickly as a dropped stone on Golarion, and a character whose flying spell fails may be lost from view by the time he manages to get the magic recast. So large is Liavara that a character who falls without any ability to check himself continues to do so for days, gradually working his way down through the various density layers of the atmosphere until he is eventually burned up or crushed to death by the heat and pressure of the planet's core.",
+			"",
+			"Once the problems of maneuverability and atmosphere have been addressed, adventuring on Liavara becomes significantly easier, but still far from safe. Unlike Bretheda, Liavara is a wild place - perhaps even a sort of planet-wide wildlife preserve maintained by the Dreamers, who act as its stewards. Most of its creatures expect to eat or be eaten in any given encounter, and are drawn to the heat, psychic emanations, or obvious nutrition evident in a party of adventurers. As many of the creatures are soft-bodied or full of gas (the better to ride out the planet's storms and doldrums), teeth and claws are less common weapons among predators than digestive acid, vampiric tentacles, suckers, magical holding fields, and other methods that ensure prey won't simply fall away as soon as it's lost the fight."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures",
+			"the_solar_system"
+		],
+		"siblings": [
+			"the_sun",
+			"aballon",
+			"castrovel",
+			"akiton",
+			"verces",
+			"the_diaspora",
+			"eox",
+			"triaxus",
+			"liavara",
+			"bretheda",
+			"apostae",
+			"aucturn"
+		]
+	},
+	"bretheda": {
+		"name": "Bretheda",
+		"subtitle": "Interstellar Adventures",
+		"sources": [ "Distant Worlds" ],
+		"description": [
+			"‹SOURCE Distant Worlds/40›",
+			"",
+			"::tabular{format=planet a=Bretheda b=\"The Cradle\" d=11 c=320 g=\"2&frac12& (at &quot&surface&quot&)\" e=Unbreathable f=\"30 years\"}",
+			"",
+			"Bretheda is far and away the largest planet in Golarion's system. Huge and swirling, with blue and purple clouds, it hangs in space surrounded by the dozens of moons that make up its \"children.\" A gas giant, it has no true ground, only countless miles of drifting atmosphere and gas seas that gradually condense as one falls lower into their swirling torrents. Yet despite this lack of terra firma, Bretheda is inhabited by some of the most distinctive and widely varying beings in the solar system.",
+			"",
+			"The ‹monster/Brethedan«s› - vulgarly called \"floaters\" by some - are more of a family classification than a specific species of creature. While some of the gas giant's gently drifting inhabitants are little more than brute beasts riding the air currents, those strains gifted with intelligence have long since banded together to create a far-reaching and highly advanced society, one both alien to human thought and bereft of conventional technology. Rather than seeing each biological organism as a distinct entity separate from its peers, the Brethedans see themselves as components meant to be combined for maximum efficiency. Floating through Bretheda's upper atmosphere like enormous, contented blimps, the jellyfish-bodied aliens possess highly creative intellects that combine to form temporary and localized hive minds with whichever other individuals happen to be around them, each combination giving birth to a new and slightly different personality that lasts only as long as is convenient before the individual component creatures drift apart and go their own ways. As a result of this constant birth and retirement, Brethedan society is gentle and communal, with the violent egotism and lonely individuality of terrestrial races as alien to them as their amorphous forms are to humanoids.",
+			"",
+			"In addition to their strange collaborative intellects, Brethedans are notable for their physical versatility and ability to consciously shape their own forms. To a Brethedan, adaptation and evolution is the proper response to any situation, whether it means binding together into a single massive entity to defend against a threat or hardening their bodies against the vacuum of space in order to visit other worlds. It's this latter ability, combined with some unknown impetus in the dim mists of time, that led the Brethedans to colonize the neighboring world of Liavara, through both their own adaptation and the use of their titanic cousins, the beastships known as ‹monster/oma›. At rest, however, most Brethedans prefer to maintain their amorphous forms as they slide through the gas seas, trilling songs or swooping down on prey with surprising grace and agility.",
+			"",
+			"### Adventuring",
+			"",
+			"As with its smaller sister, Liavara, Bretheda has no firm surface outside of whatever superheated mass makes up the planet's core. Instead, it is both sea and sky, a roiling atmosphere of blue- and purple-tinted gases that increase in density the deeper one goes. Adventurers on either gas giant must contend with the unbreathable atmosphere, a total lack of solid ground, and temperatures that range from nearly absolute zero in the planet's outer atmosphere to a blistering celestial furnace in the planet's core, so hot and pressurized that hydrogen itself becomes metallic.",
+			"",
+			"The chief difference between the two worlds is their weather. While Liavara tends to be fairly placid, with gentle winds and currents, Bretheda is anything but calm. Here thunderheads larger than Golarion itself face off in massive confrontations, blasting each other with some of the most powerful lightning bolts in the solar system. In addition to constantly rotating weather systems called \"jets\" that striate the planet in opposing equatorial bands, winds caused by convection between the planet's cool outer layers and hot inner layers can easily reach hundreds of miles per hour. Along with fronts of shredding crystals of ammonia ice and blistering upwellings of boiling gas, the planet's system is also prone to enormous cyclones and hurricanes capable of lasting for hundreds of years, storms large enough to see from Golarion. Given the implacable nature of these powerful natural forces, it's not surprising that the creatures of Bretheda have evolved to be supremely adaptable, riding each challenge and opportunity to the best of their ability."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures",
+			"the_solar_system"
+		],
+		"siblings": [
+			"the_sun",
+			"aballon",
+			"castrovel",
+			"akiton",
+			"verces",
+			"the_diaspora",
+			"eox",
+			"triaxus",
+			"liavara",
+			"bretheda",
+			"apostae",
+			"aucturn"
+		]
+	},
+	"apostae": {
+		"name": "Apostae",
+		"subtitle": "Interstellar Adventures",
+		"sources": [ "Distant Worlds" ],
+		"description": [
+			"‹SOURCE Distant Worlds/44›",
+			"",
+			"::tabular{format=planet a=Apostae b=\"The Messenger\" d=\"&#8533&\" c=\"&#185&&#8260&&#8321&&#8320&&#8320& (at most)\" g=\"&#8530&\" e=\"None (outside), breathable (inside)\" f=\"243 years\"}",
+			"",
+			"The rocky planetoid known as Apostae is tiny compared to the other worlds of the solar system, and immediately establishes itself as an anomaly by orbiting the sun at an angle far out of the ecliptic, almost perpendicular to Golarion's own path. Both of these suggest that the planet is in fact a captured object, something formed elsewhere which drifted through the system and was drawn in by the sun's gravitational well. What keeps the world from being written off as simply another captive asteroid is not Apostae's size, but its mystery.",
+			"",
+			"From the outside, Apostae is a barren and rocky world with no atmosphere and no unnatural markings or points of interest save for two. The first is a lonely arch similar in many ways to the portals that connect the various planets, yet with markings totally unique and indecipherable. Though it stands near a circle of working portals connecting Apostae's surface to most of the other worlds in the system, this portal was clearly set apart from the others. Those few powerful spellcasters from other worlds who have dared to leave bootprints on Apostae's dusty face have tried any number of means to activate the mystery portal, with no success. Nevertheless, their extensive tests seem to indicate that the activated portal would not connect to any of the known portals on other worlds. Some scholars posit that this arch was left here as a test, with its architects waiting for the younger races to mature enough to decipher its workings and make contact. While speculative, this theory is supported by the world's other distinguishing characteristic: miles-wide metal doors set flush with the stone in several places around Apostae's surface. Ornate and covered in equally strange symbols, these doors have so far resisted all attempts to open them - both magical and mundane - and make it unclear to outsiders whether this planet is inhabited by a reclusive race of subterranean creatures, or is perhaps itself some sort of automated emissary from beyond the solar system (hence the sobriquet of \"the Messenger\"). ",
+			"",
+			"As it turns out, both theories are correct. Unknown to the races looking on from other worlds, the dead shell of Apostae hides a twisted but thriving community beneath its great blast doors, one that strives for freedom even as it struggles to understand itself. For Apostae is not a world, but a single vast starship, crewed by a people who have long since lost all knowledge of who they are or what their original mission was - if indeed they ever knew it.",
+			"",
+			"The primary inhabitants of Apostae call themselves the Ilee, yet to call them a race is to overextend the word's definition, for the Ilee possess no universally shared traits, nor do they reproduce in any way known to saner worlds. One Ilee may resemble a huge-eyed centaur, while another might be a headless insect-thing with a hundred gossamer wings, and another might be a blind and limbless worm with great colored frills and antennae. Yet all are intelligent, and invariably find means of communicating with each other. The secret of this strange heterogeneousness lies in the fact that, while a few of the forms may have semicompatible sex organs, all actual reproduction is handled in the Chamber of Life, where Apostae itself decides what form a desired child will take, with only passing attention given to the physiognomy of the \"parents.\"",
+			"",
+			"### Adventuring",
+			"",
+			"Apostae is the most isolated world of any in Golarion's system. While even mysterious Aucturn has some effect on the lives of creatures on other planets, Apostae is a completely sealed environment, with little on its surface to give away the wonders waiting inside. The energy shell that forms the ship's hull and keeps the Ilee from simply tunneling around the massive doors is a seemingly insurmountable barrier, stopping even teleportation magic and interplanar travel. Even the gods themselves seem unable to penetrate it more than a fraction - devoted clerics are virtually unknown among the Ilee, and most of their healing coming from bards or those divine casters like oracles who come to their powers through more roundabout means. (PCs who manage to enter, of course, may inadvertently create a channel for their own gods to exploit.) As a result, religion is a strange affair among the Ilee, based solely on faith rather than direct miracles from the gods, and often incorporating worship of the ship-world itself and the machines that maintain it.",
+			"",
+			"The Ilee know nothing of the world outside, yet their own multitude of forms means that non-Ilee are not immediately recognizable on their own. Rather, Ilee encountering a group of PCs are more likely to be startled and frightened not by their differences, but by the eerie similarities between all the humanoid characters. Reactions in such instances might vary wildly, from open curiosity to murder of the heretics who claim to come from beyond the doors.",
+			"",
+			"The interior of Apostae is remarkably habitable, with breathable air and consumables like food and water available either at the small oases and lakes or mechanical feeding stations provided by the ship. Beyond the settled zones of the Ilee, the insides are significantly more barren, and prowled by dangerous beasts and rogue machines that may be more or less of a threat than the Ilee themselves, depending on the PCs' interactions."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures",
+			"the_solar_system"
+		],
+		"siblings": [
+			"the_sun",
+			"aballon",
+			"castrovel",
+			"akiton",
+			"verces",
+			"the_diaspora",
+			"eox",
+			"triaxus",
+			"liavara",
+			"bretheda",
+			"apostae",
+			"aucturn"
+		]
+	},
+	"aucturn": {
+		"name": "Aucturn",
+		"subtitle": "Interstellar Adventures",
+		"sources": [ "Distant Worlds" ],
+		"description": [
+			"‹SOURCE Distant Worlds/48›",
+			"",
+			"::tabular{format=planet a=Aucturn b=\"The Stranger\" d=Varies c=2 g=2 e=Poisonous f=\"500 years\"}",
+			"",
+			"Aucturn is an enigma, a dark mystery to even the greatest of planetary scholars. Unreachable by all but the most powerful magic, Aucturn is the only world in the system not connected to any others by the interplanetary portal network, thus adding to its sinister legend. Some say that it is a world of monsters, or the home of an ancient god just now waking from a million years of dark slumber. Historical writings seem to link it to the spaces between the stars known as the Dark Tapestry, or the mysterious and terrifying beings collectively called the Dominion of the Black. Perhaps Aucturn does not even exist entirely in this dimension, and acts as a link between this universe and others. Whatever the truth, for thousands of years the planet has unnerved astronomers who, peering at it through their telescopes and scrying spells, all report very different descriptions, from a terrestrial world with atmosphere to a ringed gas giant to a dark and lifeless rock - even when observing it through the same shared telescope.",
+			"",
+			"Despite its reputation, Aucturn is no figment of scholars' imaginations. It is a real place, a dark globe hanging out beyond all but the faintest reaches of the sun. Its atmosphere is poisonous, and swathes the planet so thickly in yellowg-reen clouds that, even without its strange shrouding magic, its surface remains invisible from orbit. On the ground, it is a mostly dead world, with only stunted trees and skinless beasts that hunt each other constantly, their exposed muscles weeping pus into the misty air. Though roughly twice the size of Golarion, and with the horribly enervating pressure of twice Golarion's gravity constantly bearing down on visitors, the planet seems to have no set diameter, shifting by a slight but significant margin at regular intervals. Combined with the fact that those who drill down far enough into the rubbery soil eventually strike veins of black, acidic muck, this inevitably leads to one conclusion: that Aucturn is in fact one enormous, slowly breathing entity - a blind and planet-sized god-thing of unknown intelligence and unknowable motives.",
+			"",
+			"Nor is Aucturn's life limited to mere beasts that slink or flap through its soupy atmosphere. Those who wander its suppurating wastelands invariably come across the ruins of great temples and strongholds built from blocks of quarried flesh-stone and abandoned to rot. Whether these were built by immigrants or whatever original inhabitants Aucturn may have carried, none can say, but today these structures are inhabited primarily by ghostly half-creatures. Sometimes these apparitions - thin and humanoid, or incomprehensible swirls of light and eyes - reveal something of their physical forms to intruders, while other times they are simply a presence that slowly makes itself known, planting seeds deep in the minds of visitors, sowing discord and murder in the adventurers' hearts.",
+			"",
+			"In addition to these half-seen denizens - which may be actual ghosts, creatures calling out from the next dimension over, or poorly understood echoes of a different time - Aucturn also plays home to a small but significant population of Old Cult worshipers drawn by the call of the Dark Tapestry and the Old Ones and Outer Gods that rest beyond the edge of the sun's light. Often imbued with unholy powers, these dark spellcasters raise up purulent cities from Aucturn's face, warring with each other or communing with the planet while staring out into the stars, eager for the next wave of madness to show them the horrible face of reality.",
+			"",
+			"### Adventuring",
+			"",
+			"In addition to animalistic predators resembling skinless versions of more recognizable animals, Aucturn also hosts stranger things: flopping tendons and corporeal gas, or needle-faced mosquito-things that burrow into the planet's surface to drink its black ichors. The atmosphere functions as a variety of poisons, and those who travel here should be treated as having been dosed with a random ‹main/equipment_>poison<s› for each hour that they remain, as well as every time they consume native creatures or water.",
+			"",
+			"Given enough time, Aucturn warps newcomers as well. For each day that a PC spends on Aucturn's surface, she must make a DC 20 Fortitude save or begin to twist and mutate. Roll 1d6 to determine which ability score is affected, then roll 1d4 - the latter is how many points the ability score permanently increases or decreases (50% chance of either). These alterations can take whatever aesthetic form you choose, such as thickening skin, fingers falling off, expanding skulls, or muscles bursting through skin, and may have additional game effects at your option. Each time a PC fails a mutation save, the DC for the next save increases by 5, with the number not resetting until the mutations have been magically cured. ‹spell/Remove curse› or a more powerful spell removes all mutations on a target (even beneficial ones).",
+			"",
+			"For alternative mutation effects, see the ‹family/protean› *warpwave* effects, or feel free to create your own."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"interstellar_adventures",
+			"the_solar_system"
+		],
+		"siblings": [
+			"the_sun",
+			"aballon",
+			"castrovel",
+			"akiton",
+			"verces",
+			"the_diaspora",
+			"eox",
+			"triaxus",
+			"liavara",
+			"bretheda",
+			"apostae",
+			"aucturn"
+		]
+	},
 	"intrigue_systems": {
 		"name": "Intrigue Systems",
 		"sources": [ "Ultimate Intrigue" ],
@@ -1487,6 +2331,7 @@
 			"aquatic_adventures_aa",
 			"caravans",
 			"horror_rules",
+			"interstellar_adventures",
 			"intrigue_systems",
 			"kingdoms_and_war",
 			"militias",
@@ -1813,6 +2658,7 @@
 			"aquatic_adventures_aa",
 			"caravans",
 			"horror_rules",
+			"interstellar_adventures",
 			"intrigue_systems",
 			"kingdoms_and_war",
 			"militias",

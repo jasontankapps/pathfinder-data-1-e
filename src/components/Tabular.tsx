@@ -606,6 +606,34 @@ const FormatObject: { [x: string]: FormatProps } = {
 				</tbody></table>
 			);
 		}
+	},
+	planet: {
+		required: [ "a", "b", "c", "d", "e", "f", "g" ],
+		className: "tipOnly flatStart startAlign",
+		formatter: (props) => {
+			const {id, a, b, c, d, e, f, g} = props;
+			// a=name b=title c=mass d=diameter g=gravity e=atmosphere f=orbit
+			return (
+				<table><tbody>
+					<tr><th scope="col" className="headerLike hl" colSpan={6}>{a}</th></tr>
+					<tr><td colSpan={6}><b>{b}</b></td></tr>
+					<tr>
+						<th id={id + "diameter"}>Diameter</th>
+						<td headers={id + "-diameter"}>&times;{d}</td>
+						<th id={id + "-mass"}>Mass</th>
+						<td headers={id + "-mass"}>&times;{c}</td>
+						<th id={id + "grav"}>Gravity</th>
+						<td headers={id + "-grav"}>&times;{g}</td>
+					</tr>
+					<tr>
+						<th id={id + "atmosphere"} colSpan={2}>Atmosphere</th>
+						<td headers={id + "-atmosphere"}>{e}</td>
+						<th id={id + "-orbit"}>Orbit</th>
+						<td headers={id + "-orbit"} colSpan={2}>{f}</td>
+					</tr>
+				</tbody></table>
+			);
+		}
 	}
 };
 
