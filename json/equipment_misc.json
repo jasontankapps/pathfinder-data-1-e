@@ -94,7 +94,7 @@
 			"",
 			"This training contraption consists of a stout, 7-foot-tall wooden pillar with spring-powered wood and brass arms jutting sideways at different heights. When the springs are wound, the arms wave erratically through the area within 10 feet of the pillar. The arms don't swing with sufficient force to cause damage, but you can practice your acrobatic technique by moving up to and around the pillar while the arms are in motion, attempting to avoid being tagged. The mechanism operates for 10 minutes before winding down. The entire contraption can be dismantled and stowed in a chest the size of a large foot locker for transport.",
 			"",
-			"Using the pillar to hone your acrobatic techniques requires 1 hour of practice and a DC 20 Acrobatics check. If you succeed at the check, you gain a +2 circumstance bonus on Acrobatics checks to avoid attacks of opportunity provoked by moving out of or through an opponent's threatened area. This bonus lasts for 24 hours or until you fail an Acrobatics check."
+			"@I-def Using the pillar to hone your acrobatic techniques requires 1 hour of practice and a DC 20 ‹skill/Acrobatics› check. If you succeed at the check, you gain a +2 circumstance bonus on Acrobatics checks to avoid attacks of opportunity provoked by moving out of or through an opponent's threatened area. This bonus lasts for 24 hours or until you fail an Acrobatics check."
 		]
 	},
 	"adamantine_chain_10_ft": {
@@ -417,9 +417,9 @@
 			"‹SOURCE Monster Codex/117›  ",
 			"::tabular{format=misc a=5 b=1 d=tools}",
 			"",
-			"Used by ‹race/hobgoblin› ‹class/alchemist«s› to equip their comrades, these spherical glass vials can each be filled with 1 dose of an alchemical splash weapon, allowing them to be used as ammunition for a sling. On a hit, an alchemical sling bullet shatters, affecting the target with the alchemical solution within. This deals only the splash weapon's damage (if any), not the damage a sling bullet would normally deal. This attack resolves against the target's normal AC (rather than touch AC) as with a standard sling bullet, and uses the sling's range. An alchemical sling bullet does not deal splash damage to squares adjacent to the target. If an attack roll with an alchemical sling bullet misses, the bullet and its alchemical contents are destroyed, and do not risk detonating in another square.",
+			"Used by ‹race/hobgoblin› ‹class/alchemist«s› to equip their comrades, these spherical glass vials can each be filled with 1 dose of an alchemical splash weapon, allowing them to be used as ammunition for a ‹eq-weapon/sling›. On a hit, an alchemical sling bullet shatters, affecting the target with the alchemical solution within. This deals only the splash weapon's damage (if any), not the damage a sling bullet would normally deal. This attack resolves against the target's normal AC (rather than touch AC) as with a standard sling bullet, and uses the sling's range. An alchemical sling bullet does not deal splash damage to squares adjacent to the target. If an attack roll with an alchemical sling bullet misses, the bullet and its alchemical contents are destroyed, and do not risk detonating in another square.",
 			"",
-			"Filling an alchemical sling bullet is a standard action that provokes attacks of opportunity, and you must succeed at a DC 15 Craft (alchemy) or Sleight of Hand check to avoid spilling the alchemical item on yourself. On a failed check, the splash weapon explodes in your square as though you were targeted by the item (including any splash effects on adjacent squares)."
+			"Filling an alchemical sling bullet is a @HL[standard action] that provokes attacks of opportunity, and you must succeed at a DC 15 ‹skill/Craft› (alchemy) or ‹skill/Sleight of Hand› check to avoid spilling the alchemical item on yourself. On a failed check, the splash weapon explodes in your square as though you were targeted by the item (including any splash effects on adjacent squares)."
 		]
 	},
 	"alchemical_solvent": {
@@ -493,7 +493,7 @@
 			"‹SOURCE Ultimate Equipment/77;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc a=200 b=40 d=tools}",
 			"",
-			"This lab is used for making alchemical items, and provides a +2 circumstance bonus on Craft (alchemy) checks. It has no bearing on the costs related to the Craft (alchemy) skill. Without this lab, a character with the Craft (alchemy) skill is assumed to have enough tools to use the skill but not enough to get the +2 bonus that the lab provides."
+			"@I-boost-info This lab is used for making alchemical items, and provides a +2 circumstance bonus on ‹skill/Craft› (alchemy) checks. It has no bearing on the costs related to the Craft (alchemy) skill. Without this lab, a character with the Craft (alchemy) skill is assumed to have enough tools to use the skill but not enough to get the +2 bonus that the lab provides."
 		]
 	},
 	"alchemy_crafting_kit": {
@@ -505,7 +505,7 @@
 			"‹SOURCE Ultimate Equipment/77›  ",
 			"::tabular{format=misc a=25 b=5 d=tools}",
 			"",
-			"An alchemist with an alchemy crafting kit is assumed to have all the material components needed for his extracts, mutagens, and bombs, except for those components that have a specific cost. An alchemy crafting kit provides no bonuses on Craft (alchemy) checks. (This item was called an \"alchemist's kit\" in the *Advanced Player's Guide,* and was renamed to avoid confusion with the pre-selected set of adventuring gear in *Ultimate Equipment* called an ‹eq-misc/\"alchemist's kit.\"›)"
+			"An alchemist with an alchemy crafting kit is assumed to have all the material components needed for his extracts, mutagens, and bombs, except for those components that have a specific cost. An alchemy crafting kit provides no bonuses on ‹skill/Craft› (alchemy) checks. (This item was called an \"alchemist's kit\" in the *Advanced Player's Guide,* and was renamed to avoid confusion with the pre-selected set of adventuring gear in *Ultimate Equipment* called an ‹eq-misc/\"alchemist's kit.\"›)"
 		]
 	},
 	"ale_gallon": {
@@ -735,7 +735,9 @@
 			"‹SOURCE People of the Stars/19›  ",
 			"::tabular{format=misc a=300 b=25 d=tools}",
 			"",
-			"An anchoring balloon is a single-use alchemical device designed to provide a standing platform on a gaseous planet. When a cord is pulled as a standard action, an alchemical reaction fills the balloon with hydrogen gas almost instantly. Twenty-foot-long ropes attach the balloon to a lightweight, collapsible 10-foot-square steel basket with 5-foot-high sides. The inflated balloon is a Gargantuan object. Although it moves with the wind horizontally, the basket maintains its initial altitude to within a few feet so long as its load is less than 2,000 pounds (divided by the planet's gravity multiplier). Beyond that weight limit, the balloon may sink or the basket may break (at the GM's discretion). The balloon remains inflated for 24 hours before its seals fail."
+			"An anchoring balloon is a single-use alchemical device designed to provide a standing platform on a gaseous planet. When a cord is pulled as a @HL[standard action], an alchemical reaction fills the balloon with hydrogen gas almost instantly. Twenty-foot-long ropes attach the balloon to a lightweight, collapsible 10-foot-square steel basket with 5-foot-high sides. The inflated balloon is a Gargantuan object.",
+			"",
+			"Although it moves with the wind horizontally, the basket maintains its initial altitude to within a few feet so long as its load is less than 2,000 pounds (divided by the planet's gravity multiplier). Beyond that weight limit, the balloon may sink or the basket may break (at the GM's discretion). The balloon remains inflated for 24 hours before its seals fail."
 		]
 	},
 	"anderos_salve_and_mulibrous_tincture": {
@@ -834,7 +836,11 @@
 			"‹SOURCE Blood of the Moon/30›  ",
 			"::tabular{format=misc a=100 b=8 d=tools}",
 			"",
-			"This leather pouch contains dyes, odorous balsams, colorchanging eye drops, reversible collars, and a host of other tools to disguise one animal as another. The kit grants a +4 circumstance bonus on Disguise checks to disguise an animal as another specific animal of the same species, and a +2 circumstance bonus on Disguise checks to disguise an animal as an animal of a different species. An animal disguise kit is exhausted after 10 uses."
+			"This leather pouch contains dyes, odorous balsams, colorchanging eye drops, reversible collars, and a host of other tools to disguise one animal as another.",
+			"",
+			"@I-boost The kit grants a +4 circumstance bonus on ‹skill/Disguise› checks to disguise an animal as another specific animal of the same species, and a +2 circumstance bonus on Disguise checks to disguise an animal as an animal of a different species.",
+			"",
+			"An animal disguise kit is exhausted after 10 uses."
 		]
 	},
 	"animal_glue": {
@@ -1078,7 +1084,7 @@
 			"‹SOURCE Ultimate Equipment/77›  ",
 			"::tabular{format=misc a=100 b=3 d=tools}",
 			"",
-			"This small box contains a wide variety of remedies and treatments against not only specific poisons but also their most common methods of delivery, including such things as purgatives to eliminate ingested toxins. It grants a +3 circumstance bonus on Heal checks made to treat poison. An antidote kit is exhausted after 10 uses."
+			"@I-boost This small box contains a wide variety of remedies and treatments against not only specific poisons but also their most common methods of delivery, including such things as purgatives to eliminate ingested toxins. It grants a +3 circumstance bonus on ‹skill/Heal› checks made to treat poison. An antidote kit is exhausted after 10 uses."
 		]
 	},
 	"antidote": {
@@ -1320,7 +1326,9 @@
 			"‹SOURCE Advanced Race Guide/27›  ",
 			"::tabular{format=misc a=300 b=3 d=tools}",
 			"",
-			"The elven predilection for becoming wizards and the social benefits that elven wizards enjoy often encourages families to dedicate themselves to wizardly studies for multiple generations. Older elven wizards take note of their own insights into the secrets of arcane magic and compile these thoughts with the ideas of earlier generations to form family workbooks. When used as a reference (an action that typically takes 1d4 full rounds of searching the text), an arcane family workbook grants a +2 circumstance bonus on a Spellcraft checks. This bonus increases to +4 if 1d4 hours are spent referencing the book."
+			"The elven predilection for becoming wizards and the social benefits that elven wizards enjoy often encourages families to dedicate themselves to wizardly studies for multiple generations. Older elven wizards take note of their own insights into the secrets of arcane magic and compile these thoughts with the ideas of earlier generations to form family workbooks.",
+			"",
+			"@I-boost When used as a reference (an action that typically takes 1d4 full rounds of searching the text), an arcane family workbook grants a +2 circumstance bonus on a ‹skill/Spellcraft› checks. This bonus increases to +4 if 1d4 hours are spent referencing the book."
 		]
 	},
 	"arcanists_kit": {
@@ -1380,7 +1388,9 @@
 			"‹SOURCE Melee Tactics Toolbox/20›  ",
 			"::tabular{format=misc a=30 b=10 d=tools}",
 			"",
-			"This collection of flexible strips of wood, durable shims, and thin cords allows you to prop open the buckles, padding, and plates of armor for easy entry. If you take at least 15 minutes preparing an empty suit of armor with an armor truss, you are considered to have help in putting on the armor and can don the armor in the time it usually takes to don the armor hastily without worsening armor check penalties or decreasing armor bonuses."
+			"This collection of flexible strips of wood, durable shims, and thin cords allows you to prop open the buckles, padding, and plates of armor for easy entry.",
+			"",
+			"@I-boost-def If you take at least 15 minutes preparing an empty suit of armor with an armor truss, you are considered to have help in putting on the armor and can ‹rule/don« the» armor› in the time it usually takes to don the armor hastily without worsening armor check penalties or decreasing armor bonuses."
 		]
 	},
 	"arrow_grappling": {
@@ -1422,7 +1432,9 @@
 			"‹SOURCE Advanced Race Guide/27›  ",
 			"::tabular{format=misc a=300 b=40 d=tools}",
 			"",
-			"The portable artificer's lab contains everything needed to create magic items, though many of the tools and implements are of only the most basic type. This lab allows the artificer to spend 4 hours crafting each night while out adventuring, and net 3 hours' worth of work (instead of 2). However, because the tools are all designed to fulfill multiple functions and the portable lab lacks the space and quiet that provide ideal circumstances for creating magic items, the skill check to complete a magic item that had any of its work done using a portable lab takes a -5 penalty."
+			"The portable artificer's lab contains everything needed to create magic items, though many of the tools and implements are of only the most basic type.",
+			"",
+			"@I-power-down This lab allows the artificer to spend 4 hours crafting each night while out adventuring, and net 3 hours' worth of work (instead of 2). However, because the tools are all designed to fulfill multiple functions and the portable lab lacks the space and quiet that provide ideal circumstances for creating magic items, the skill check to complete a magic item that had any of its work done using a portable lab takes a -5 penalty."
 		]
 	},
 	"artisans_outfit": {
@@ -1871,7 +1883,9 @@
 			"‹SOURCE Ultimate Equipment/77;Advanced Player's Guide/184;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"0.8\" b=12 d=tools}",
 			"",
-			"This flexible pole can be anywhere from 15 to 30 feet in length. When used properly, it helps you keep your balance when crossing narrow walkways. Using a balancing pole grants you a +1 circumstance bonus on Acrobatics checks made to traverse a narrow surface."
+			"This flexible pole can be anywhere from 15 to 30 feet in length. When used properly, it helps you keep your balance when crossing narrow walkways.",
+			"",
+			"@I-boost Using a balancing pole grants you a +1 circumstance bonus on ‹skill/Acrobatics› checks made to traverse a narrow surface."
 		]
 	},
 	"ball_10_in": {
@@ -2001,7 +2015,11 @@
 			"‹SOURCE Monster Codex/225›  ",
 			"::tabular{format=misc a=20 b=4 d=tools}",
 			"",
-			"These metal sheaths slide onto the claws of a ‹family/troll›. When a troll hits with a claw attack while wearing the sheaths, it can either keep the sheaths on its hand (in which case the claw attack deals 1 extra point of damage) or allow the four sheaths on that hand to slide off and become embedded in the wound (in which case the claw attack deals 1 point of ‹rule/bleed› damage). The listed price is for a set of 8 sheaths (one for each claw on both of a troll's four-fingered hands)."
+			"These metal sheaths slide onto the claws of a ‹family/troll›.",
+			"",
+			"@I-melee When a troll hits with a claw attack while wearing the sheaths, it can either keep the sheaths on its hand (in which case the claw attack deals 1 extra point of damage) or allow the four sheaths on that hand to slide off and become embedded in the wound (in which case the claw attack deals 1 point of ‹rule/bleed› damage).",
+			"",
+			"The listed price is for a set of 8 sheaths (one for each claw on both of a troll's four-fingered hands)."
 		]
 	},
 	"barbed_vest": {
@@ -2129,9 +2147,9 @@
 			"",
 			"::tabular{format=misc id=offset a=3 b=10 d=tools}",
 			"",
-			"An offset bear trap is a specialized variety of a bear trap constructed with offset jaws coated in resin. It inflicts less damage on captured creatures but holds them more securely, and is therefore primarily used by trappers or bounty hunters who do not want to risk killing their prey. Offset bear traps are almost always secured to the ground by a heavy spike and chain so the captured creature can't wander far.",
+			"An offset bear trap is a specialized variety of a ‹eq-misc/bear trap› constructed with offset jaws coated in resin. It inflicts less damage on captured creatures but holds them more securely, and is therefore primarily used by trappers or bounty hunters who do not want to risk killing their prey. Offset bear traps are almost always secured to the ground by a heavy spike and chain so the captured creature can't wander far.",
 			"",
-			"::trap[Offset Bear Trap]{cr=\"&frac12&\" mechanical pdc=15 dddc=20 trigger=location manual eff=\"Atk +10 melee (1d6+2); jaws spring shut around the creature's ankle and hold the creature immobile; the creature can escape with a DC 20 Disable Device check, DC 24 Escape Artist check, or DC 28 Strength check\"}",
+			"::trap[Offset Bear Trap]{cr=\"&frac12&\" mechanical pdc=15 dddc=20 trigger=location manual eff=\"Atk +10 melee (1d6+2); jaws spring shut around the creature's ankle and hold the creature immobile; the creature can escape with a DC 20 ‹skill/Disable Device› check, DC 24 ‹skill/Escape Artist› check, or DC 28 Strength check\"}",
 			"",
 			"### Bear Trap (sawtooth)",
 			"",
@@ -2160,7 +2178,7 @@
 			"",
 			"Although intended for trapping large animals, bear traps work as well for trapping humanoids or monsters. The hinged jaws of the trap are attached to a chain, which in turn is secured to a spike driven into the ground to ensure that the victim cannot simply crawl away. Prying open the jaws or pulling the spike from the ground requires a DC 20 Strength check.",
 			"",
-			"::trap[Bear Trap]{cr=1 mechanical pdc=15 dddc=20 trigger=location manual eff=\"Atk +10 melee (2d6+3); sharp jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 20 Disable Device check, DC 22 Escape Artist check, or DC 26 Strength check\"}"
+			"::trap[Bear Trap]{cr=1 mechanical pdc=15 dddc=20 trigger=location manual eff=\"Atk +10 melee (2d6+3); sharp jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 20 ‹skill/Disable Device› check, DC 22 ‹skill/Escape Artist› check, or DC 26 Strength check\"}"
 		]
 	},
 	"beast_lure": {
@@ -2306,7 +2324,9 @@
 			"‹SOURCE Martial Arts Handbook/30›  ",
 			"::tabular{format=misc a=30 b=12 d=tools}",
 			"",
-			"This form-fitting garment is strung all around with dozens of small bells. You can practice your sneaking technique by donning a belled catsuit and then attempting to move without letting any of the bells ring. Old thieves sometimes call a belled catsuit a Billy-Jacket. Training with a belled catsuit requires 1 hour of practice and a DC 25 Stealth check. If you succeed at the check, you gain a +2 circumstance bonus on Stealth checks to hide. This bonus lasts for 24 hours or until you fail a Stealth check."
+			"This form-fitting garment is strung all around with dozens of small bells. You can practice your sneaking technique by donning a belled catsuit and then attempting to move without letting any of the bells ring. Old thieves sometimes call a belled catsuit a Billy-Jacket.",
+			"",
+			"@I-def Training with a belled catsuit requires 1 hour of practice and a DC 25 ‹skill/Stealth› check. If you succeed at the check, you gain a +2 circumstance bonus on Stealth checks to hide. This bonus lasts for 24 hours or until you fail a Stealth check."
 		]
 	},
 	"bellows": {
@@ -2321,7 +2341,7 @@
 			"‹SOURCE Ultimate Equipment/77;Advanced Player's Guide/184;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=1 b=3 d=tools}",
 			"",
-			"Bellows are useful for starting fires, providing a +1 circumstance bonus on Survival checks to start or maintain fires."
+			"@I-boost Bellows are useful for starting fires, providing a +1 circumstance bonus on ‹skill/Survival› checks to start or maintain fires."
 		]
 	},
 	"belt_pouch": {
@@ -2374,7 +2394,9 @@
 			"‹SOURCE Martial Arts Handbook/30›  ",
 			"::tabular{format=misc a=50 b=6 d=tools}",
 			"",
-			"Bearing a marked resemblance to an anthropomorphic wind chime, this complicated arrangement of strings, sticks, and bells is hung from a ceiling or branch and has a purse or money-pouch deep inside. The trick is to silently steal a coin from Billy Ten-Bells, as the slightest movement will set the bells ringing. Veteran thieves sometimes decorate Billy with scraps of stolen clothing for good luck. Training with Billy Ten-Bells requires 1 hour of practice and a DC 20 Sleight of Hand check. If you succeed at the check, you gain a +2 circumstance bonus on Sleight of Hand checks to pick pockets. This bonus lasts for 24 hours or until you fail a Sleight of Hand check."
+			"Bearing a marked resemblance to an anthropomorphic wind chime, this complicated arrangement of strings, sticks, and bells is hung from a ceiling or branch and has a purse or money-pouch deep inside. The trick is to silently steal a coin from Billy Ten-Bells, as the slightest movement will set the bells ringing. Veteran thieves sometimes decorate Billy with scraps of stolen clothing for good luck.",
+			"",
+			"@I-boost Training with Billy Ten-Bells requires 1 hour of practice and a DC 20 ‹skill/Sleight of Hand› check. If you succeed at the check, you gain a +2 circumstance bonus on Sleight of Hand checks to pick pockets. This bonus lasts for 24 hours or until you fail a Sleight of Hand check."
 		]
 	},
 	"bird_feed_per_day": {
@@ -2551,7 +2573,7 @@
 			"‹SOURCE Merchant's Manifest/9›  ",
 			"::tabular{format=misc a=650 b=25 d=tools}",
 			"",
-			"Carved in the likeness of a sea creature or another form desired by the one commissioning it, this item grants its ship's crew a +2 morale bonus on ‹skill/Profession› (sailor) checks while on board."
+			"@I-boost Carved in the likeness of a sea creature or another form desired by the one commissioning it, this item grants its ship's crew a +2 morale bonus on ‹skill/Profession› (sailor) checks while on board."
 		]
 	},
 	"bladeguard": {
@@ -2879,7 +2901,9 @@
 			"‹SOURCE Adventurer's Armory 2/16›  ",
 			"::tabular{format=misc a=10 b=2 d=tools}",
 			"",
-			"Bolines are hook-shaped knives commonly used by herbalists and spellcasters to harvest ingredients for their craft. A boline's blade is typically 5 inches long, and is too small and irregular to use as a weapon. You can use a boline to finely slice the herbs in a ‹eq-misc/healer's kit›, so you can treat deadly wounds with only a single use from a healer's kit rather than two uses."
+			"Bolines are hook-shaped knives commonly used by herbalists and spellcasters to harvest ingredients for their craft. A boline's blade is typically 5 inches long, and is too small and irregular to use as a weapon.",
+			"",
+			"@I-boost You can use a boline to finely slice the herbs in a ‹eq-misc/healer's kit›, so you can treat deadly wounds with only a single use from a healer's kit rather than two uses."
 		]
 	},
 	"bomb_launcher": {
@@ -2905,7 +2929,9 @@
 			"‹SOURCE Monster Codex/117›  ",
 			"::tabular{format=misc a=12 b=1 d=tools}",
 			"",
-			"This curved wicker basket is worn like a glove over one hand. The basket extends approximately 2 feet in a steady curve, allowing you to launch a thrown splash weapon at incredible speeds and over long distances. Using a bombchucker increases the range increment of any thrown splash weapon by 10 feet. Loading a bombchucker requires a free hand, as the hand wielding the bombchucker can't be used for any other purpose. A bombchucker doesn't get in the way of preparing and throwing a bomb created with the bomb class feature."
+			"This curved wicker basket is worn like a glove over one hand. The basket extends approximately 2 feet in a steady curve, allowing you to launch a thrown splash weapon at incredible speeds and over long distances.",
+			"",
+			"@I-boost Using a bombchucker increases the range increment of any thrown splash weapon by 10 feet. Loading a bombchucker requires a free hand, as the hand wielding the bombchucker can't be used for any other purpose. A bombchucker doesn't get in the way of preparing and throwing a bomb created with the *bomb* class feature."
 		]
 	},
 	"bone_reed": {
@@ -4159,7 +4185,7 @@
 			"‹SOURCE Advanced Race Guide/87›  ",
 			"::tabular{format=misc a=50 b=3 d=tools}",
 			"",
-			"This blessed thurible holds up to 10 pieces of ‹eq-misc/incense›, and burns at a rate of 1 stick per hour. If a ‹eq-misc/smokestick› is added to the incense in the ‹eq-misc/censer› while it burns, creatures with the evil subtype are ‹misc/dazzled› for as long as they remain within the area of the resulting smoke."
+			"@I-aura-lower This blessed thurible holds up to 10 pieces of ‹eq-misc/incense›, and burns at a rate of 1 stick per hour. If a ‹eq-misc/smokestick› is added to the incense in the ‹eq-misc/censer› while it burns, creatures with the evil subtype are ‹misc/dazzled› for as long as they remain within the area of the resulting smoke."
 		]
 	},
 	"celestial_lamp": {
@@ -4170,7 +4196,9 @@
 			"‹SOURCE Advanced Race Guide/87›  ",
 			"::tabular{format=misc a=300 b=2 d=tools}",
 			"",
-			"This polished lantern contains a continual flame and sheds light as a common ‹eq-misc/lamp›. If its font of consecrated crystal and metalwork is filled with holy water, the lamp's light is sanctified for 24 hours, adding a +1 bonus to the save DC of channeled positive energy or energy channeled to harm evil outsiders within a 30-foot radius."
+			"This polished lantern contains a ‹spell/continual flame› and sheds light as a common ‹eq-misc/lamp›.",
+			"",
+			"@I-aura-boost If its font of consecrated crystal and metalwork is filled with ‹eq-weapon/holy water›, the lamp's light is sanctified for 24 hours, adding a +1 bonus to the save DC of channeled positive energy or energy channeled to harm evil outsiders within a 30-foot radius."
 		]
 	},
 	"celwynvian_stone_fruit": {
@@ -4394,7 +4422,9 @@
 			"‹SOURCE Advanced Class Guide/203›  ",
 			"::tabular{format=misc a=100 b=2 d=tools}",
 			"",
-			"This ornate leather sheath is covered in tables of magical notation and arcane formulae, as well as common spell triggers and reagents. Referring to these handy bits of notation grants you a +2 circumstance bonus on Spellcraft checks made to learn a spell from a spellbook or scroll, prepare a spell from a borrowed spellbook, identify the properties of a magic item using ‹spell/detect magic›, or decipher a scroll."
+			"This ornate leather sheath is covered in tables of magical notation and arcane formulae, as well as common spell triggers and reagents.",
+			"",
+			"@I-boost Referring to these handy bits of notation grants you a +2 circumstance bonus on ‹skill/Spellcraft› checks made to learn a spell from a spellbook or scroll, prepare a spell from a borrowed spellbook, identify the properties of a magic item using ‹spell/detect magic›, or decipher a scroll."
 		]
 	},
 	"cheese": {
@@ -4657,7 +4687,7 @@
 			"‹SOURCE Ultimate Equipment/77;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc a=80 b=5 d=tools}",
 			"",
-			"These crampons, pitons, ropes, and other tools give you a +2 circumstance bonus on Climb checks."
+			"@I-boost These crampons, pitons, ropes, and other tools give you a +2 circumstance bonus on Climb checks."
 		]
 	},
 	"climbers_plank": {
@@ -4973,7 +5003,7 @@
 			"‹SOURCE People of the Stars/19›  ",
 			"::tabular{format=misc a=50 b=10 d=tools}",
 			"",
-			"Longer lasting than an air bladder, a jar of compressed air comes with a breathing apparatus that can be strapped over the mouth with a leather cord and provides enough air for a Medium character to breathe normally for 10 minutes (20 minutes for a Small character)."
+			"Longer lasting than an ‹eq-misc/air bladder›, a jar of compressed air comes with a breathing apparatus that can be strapped over the mouth with a leather cord and provides enough air for a Medium character to breathe normally for 10 minutes (20 minutes for a Small character)."
 		]
 	},
 	"concealable_thieves_tools": {
@@ -5154,7 +5184,11 @@
 			"‹SOURCE People of the Stars/26›  ",
 			"::tabular{format=misc a=200 b=\"0.5\" d=tools}",
 			"",
-			"This eldritch chart describes part of the unfathomably vast shape of the physical universe and the subtler motions of the stars. A cosmogram grants a +1 circumstance bonus on Knowledge (geography) checks relating to stars and on Survival checks to navigate the void of space between star systems. A cosmogram can be consulted while using an ‹eq-misc/orrery› as a focus for ‹spell/augury›. Doing so increases the chance of a successful reading by 2%."
+			"This eldritch chart describes part of the unfathomably vast shape of the physical universe and the subtler motions of the stars.",
+			"",
+			"@I-boost A cosmogram grants a +1 circumstance bonus on ‹skill/Knowledge (geography)› checks relating to stars and on ‹skill/Survival› checks to navigate the void of space between star systems.",
+			"",
+			"@I-boost A cosmogram can be consulted while using an ‹eq-misc/orrery› as a focus for ‹spell/augury›. Doing so increases the chance of a successful reading by 2%."
 		]
 	},
 	"cot": {
@@ -5491,7 +5525,9 @@
 			"‹SOURCE Merchant's Manifest/20›  ",
 			"::tabular{format=misc a=130 b=\"1.5\" d=tools}",
 			"",
-			"Musicians in the Mwangi Expanse make frequent use of carved harps strung with strings made from natural materials. These harps often feature ornately detailed soundboards and necks shaped like creatures that inhabit the region. Harps crafted from ‹eq-material/darkwood› are very light compared to similar instruments, yet they retain the resonance and tonal quality demanded by the pickiest of musicians. A darkwood Mwangi harp is a ‹eq-misc/masterwork musical instrument› that grants you a +2 circumstance bonus on Perform checks when using it."
+			"Musicians in the Mwangi Expanse make frequent use of carved harps strung with strings made from natural materials. These harps often feature ornately detailed soundboards and necks shaped like creatures that inhabit the region. Harps crafted from ‹eq-material/darkwood› are very light compared to similar instruments, yet they retain the resonance and tonal quality demanded by the pickiest of musicians.",
+			"",
+			"@I-boost A darkwood Mwangi harp is a ‹eq-misc/masterwork musical instrument› that grants you a +2 circumstance bonus on ‹skill/Perform› checks when using it."
 		]
 	},
 	"darkwood_ancestry_plank": {

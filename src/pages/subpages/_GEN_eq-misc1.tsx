@@ -48,7 +48,7 @@ const _acrobats_pillar = {title: "Acrobat's pillar", jsx: <><h2 id="eq-misc-acro
 <p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 20</Link>  </p>
 <Tabular format="misc" a="50" b="40" d="tools" />
 <p>This training contraption consists of a stout, 7-foot-tall wooden pillar with spring-powered wood and brass arms jutting sideways at different heights. When the springs are wound, the arms wave erratically through the area within 10 feet of the pillar. The arms don't swing with sufficient force to cause damage, but you can practice your acrobatic technique by moving up to and around the pillar while the arms are in motion, attempting to avoid being tagged. The mechanism operates for 10 minutes before winding down. The entire contraption can be dismantled and stowed in a chest the size of a large foot locker for transport.</p>
-<p>Using the pillar to hone your acrobatic techniques requires 1 hour of practice and a DC 20 Acrobatics check. If you succeed at the check, you gain a +2 circumstance bonus on Acrobatics checks to avoid attacks of opportunity provoked by moving out of or through an opponent's threatened area. This bonus lasts for 24 hours or until you fail an Acrobatics check.</p>
+<p><Icons id="eq-misc-acrobats_pillar-def-icons" wrapper="prefixIcon" list={["def"]} /> Using the pillar to hone your acrobatic techniques requires 1 hour of practice and a DC 20 <Link to="/skill/acrobatics">Acrobatics</Link> check. If you succeed at the check, you gain a +2 circumstance bonus on Acrobatics checks to avoid attacks of opportunity provoked by moving out of or through an opponent's threatened area. This bonus lasts for 24 hours or until you fail an Acrobatics check.</p>
 </>};
 const _adamantine_chain_10_ft = {title: "Adamantine chain (10 ft.)", jsx: <><h2 id="eq-misc-adamantine_chain_10_ft-adamantine-chain-10-ft">Adamantine chain (10 ft.)</h2>
 <p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook pg. 25</Link>  </p>
@@ -186,8 +186,8 @@ const _alchemical_resin = {title: "Alchemical resin", jsx: <><h2 id="eq-misc-alc
 const _alchemical_sling_bullet = {title: "Alchemical sling bullet", jsx: <><h2 id="eq-misc-alchemical_sling_bullet-alchemical-sling-bullet">Alchemical sling bullet</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 117</Link>  </p>
 <Tabular format="misc" a="5" b="1" d="tools" />
-<p>Used by <Link to="/race/hobgoblin">hobgoblin</Link> <Link to="/class/alchemist">alchemists</Link> to equip their comrades, these spherical glass vials can each be filled with 1 dose of an alchemical splash weapon, allowing them to be used as ammunition for a sling. On a hit, an alchemical sling bullet shatters, affecting the target with the alchemical solution within. This deals only the splash weapon's damage (if any), not the damage a sling bullet would normally deal. This attack resolves against the target's normal AC (rather than touch AC) as with a standard sling bullet, and uses the sling's range. An alchemical sling bullet does not deal splash damage to squares adjacent to the target. If an attack roll with an alchemical sling bullet misses, the bullet and its alchemical contents are destroyed, and do not risk detonating in another square.</p>
-<p>Filling an alchemical sling bullet is a standard action that provokes attacks of opportunity, and you must succeed at a DC 15 Craft (alchemy) or Sleight of Hand check to avoid spilling the alchemical item on yourself. On a failed check, the splash weapon explodes in your square as though you were targeted by the item (including any splash effects on adjacent squares).</p>
+<p>Used by <Link to="/race/hobgoblin">hobgoblin</Link> <Link to="/class/alchemist">alchemists</Link> to equip their comrades, these spherical glass vials can each be filled with 1 dose of an alchemical splash weapon, allowing them to be used as ammunition for a <Link to="/eq-weapon/sling">sling</Link>. On a hit, an alchemical sling bullet shatters, affecting the target with the alchemical solution within. This deals only the splash weapon's damage (if any), not the damage a sling bullet would normally deal. This attack resolves against the target's normal AC (rather than touch AC) as with a standard sling bullet, and uses the sling's range. An alchemical sling bullet does not deal splash damage to squares adjacent to the target. If an attack roll with an alchemical sling bullet misses, the bullet and its alchemical contents are destroyed, and do not risk detonating in another square.</p>
+<p>Filling an alchemical sling bullet is a <strong className="hl">standard action</strong> that provokes attacks of opportunity, and you must succeed at a DC 15 <Link to="/skill/craft">Craft</Link> (alchemy) or <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check to avoid spilling the alchemical item on yourself. On a failed check, the splash weapon explodes in your square as though you were targeted by the item (including any splash effects on adjacent squares).</p>
 </>};
 const _alchemical_solvent = {title: "Alchemical solvent", jsx: <><h2 id="eq-misc-alchemical_solvent-alchemical-solvent">Alchemical solvent</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -215,12 +215,12 @@ const _alchemists_kit = {title: "Alchemist's kit", jsx: <><h2 id="eq-misc-alchem
 const _alchemists_lab = {title: "Alchemist's lab", jsx: <><h2 id="eq-misc-alchemists_lab-alchemists-lab">Alchemist's lab</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
 <Tabular format="misc" a="200" b="40" d="tools" />
-<p>This lab is used for making alchemical items, and provides a +2 circumstance bonus on Craft (alchemy) checks. It has no bearing on the costs related to the Craft (alchemy) skill. Without this lab, a character with the Craft (alchemy) skill is assumed to have enough tools to use the skill but not enough to get the +2 bonus that the lab provides.</p>
+<p><Icons id="eq-misc-alchemists_lab-boost-info-icons" wrapper="prefixIcon" list={["boost","info"]} /> This lab is used for making alchemical items, and provides a +2 circumstance bonus on <Link to="/skill/craft">Craft</Link> (alchemy) checks. It has no bearing on the costs related to the Craft (alchemy) skill. Without this lab, a character with the Craft (alchemy) skill is assumed to have enough tools to use the skill but not enough to get the +2 bonus that the lab provides.</p>
 </>};
 const _alchemy_crafting_kit = {title: "Alchemy crafting kit", jsx: <><h2 id="eq-misc-alchemy_crafting_kit-alchemy-crafting-kit">Alchemy crafting kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>  </p>
 <Tabular format="misc" a="25" b="5" d="tools" />
-<p>An alchemist with an alchemy crafting kit is assumed to have all the material components needed for his extracts, mutagens, and bombs, except for those components that have a specific cost. An alchemy crafting kit provides no bonuses on Craft (alchemy) checks. (This item was called an "alchemist's kit" in the <em>Advanced Player's Guide,</em> and was renamed to avoid confusion with the pre-selected set of adventuring gear in <em>Ultimate Equipment</em> called an <Link to="/eq-misc/alchemists_kit">"alchemist's kit."</Link>)</p>
+<p>An alchemist with an alchemy crafting kit is assumed to have all the material components needed for his extracts, mutagens, and bombs, except for those components that have a specific cost. An alchemy crafting kit provides no bonuses on <Link to="/skill/craft">Craft</Link> (alchemy) checks. (This item was called an "alchemist's kit" in the <em>Advanced Player's Guide,</em> and was renamed to avoid confusion with the pre-selected set of adventuring gear in <em>Ultimate Equipment</em> called an <Link to="/eq-misc/alchemists_kit">"alchemist's kit."</Link>)</p>
 </>};
 const _ale_gallon = {title: "Ale (gallon)", jsx: <><h2 id="eq-misc-ale_gallon-ale">Ale</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
@@ -370,7 +370,8 @@ const _amp = {title: "Amp", jsx: <><h2 id="eq-misc-amp-amp">Amp</h2>
 const _anchoring_balloon = {title: "Anchoring balloon", jsx: <><h2 id="eq-misc-anchoring_balloon-anchoring-balloon">Anchoring balloon</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars pg. 19</Link>  </p>
 <Tabular format="misc" a="300" b="25" d="tools" />
-<p>An anchoring balloon is a single-use alchemical device designed to provide a standing platform on a gaseous planet. When a cord is pulled as a standard action, an alchemical reaction fills the balloon with hydrogen gas almost instantly. Twenty-foot-long ropes attach the balloon to a lightweight, collapsible 10-foot-square steel basket with 5-foot-high sides. The inflated balloon is a Gargantuan object. Although it moves with the wind horizontally, the basket maintains its initial altitude to within a few feet so long as its load is less than 2,000 pounds (divided by the planet's gravity multiplier). Beyond that weight limit, the balloon may sink or the basket may break (at the GM's discretion). The balloon remains inflated for 24 hours before its seals fail.</p>
+<p>An anchoring balloon is a single-use alchemical device designed to provide a standing platform on a gaseous planet. When a cord is pulled as a <strong className="hl">standard action</strong>, an alchemical reaction fills the balloon with hydrogen gas almost instantly. Twenty-foot-long ropes attach the balloon to a lightweight, collapsible 10-foot-square steel basket with 5-foot-high sides. The inflated balloon is a Gargantuan object.</p>
+<p>Although it moves with the wind horizontally, the basket maintains its initial altitude to within a few feet so long as its load is less than 2,000 pounds (divided by the planet's gravity multiplier). Beyond that weight limit, the balloon may sink or the basket may break (at the GM's discretion). The balloon remains inflated for 24 hours before its seals fail.</p>
 </>};
 const _anderos_salve_and_mulibrous_tincture = {title: "Anderos salve and mulibrous tincture", jsx: <><h2 id="eq-misc-anderos_salve_and_mulibrous_tincture-anderos-salve-and-mulibrous-tincture">Anderos salve and mulibrous tincture</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 168</Link>  </p>
@@ -415,7 +416,9 @@ const _animal_call = {title: "Animal call", jsx: <><h2 id="eq-misc-animal_call-a
 const _animal_disguise_kit = {title: "Animal disguise kit", jsx: <><h2 id="eq-misc-animal_disguise_kit-animal-disguise-kit">Animal disguise kit</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon pg. 30</Link>  </p>
 <Tabular format="misc" a="100" b="8" d="tools" />
-<p>This leather pouch contains dyes, odorous balsams, colorchanging eye drops, reversible collars, and a host of other tools to disguise one animal as another. The kit grants a +4 circumstance bonus on Disguise checks to disguise an animal as another specific animal of the same species, and a +2 circumstance bonus on Disguise checks to disguise an animal as an animal of a different species. An animal disguise kit is exhausted after 10 uses.</p>
+<p>This leather pouch contains dyes, odorous balsams, colorchanging eye drops, reversible collars, and a host of other tools to disguise one animal as another.</p>
+<p><Icons id="eq-misc-animal_disguise_kit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> The kit grants a +4 circumstance bonus on <Link to="/skill/disguise">Disguise</Link> checks to disguise an animal as another specific animal of the same species, and a +2 circumstance bonus on Disguise checks to disguise an animal as an animal of a different species.</p>
+<p>An animal disguise kit is exhausted after 10 uses.</p>
 </>};
 const _animal_glue = {title: "Animal glue", jsx: <><h2 id="eq-misc-animal_glue-animal-glue">Animal glue</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
@@ -584,7 +587,7 @@ const _animals = {title: "Animals", jsx: <><h2 id="eq-misc-animals-animals">Anim
 const _antidote_kit = {title: "Antidote kit", jsx: <><h2 id="eq-misc-antidote_kit-antidote-kit">Antidote kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>  </p>
 <Tabular format="misc" a="100" b="3" d="tools" />
-<p>This small box contains a wide variety of remedies and treatments against not only specific poisons but also their most common methods of delivery, including such things as purgatives to eliminate ingested toxins. It grants a +3 circumstance bonus on Heal checks made to treat poison. An antidote kit is exhausted after 10 uses.</p>
+<p><Icons id="eq-misc-antidote_kit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This small box contains a wide variety of remedies and treatments against not only specific poisons but also their most common methods of delivery, including such things as purgatives to eliminate ingested toxins. It grants a +3 circumstance bonus on <Link to="/skill/heal">Heal</Link> checks made to treat poison. An antidote kit is exhausted after 10 uses.</p>
 </>};
 const _antidote = {title: "Antidote", jsx: <><h2 id="eq-misc-antidote-antidote">Antidote</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 50</Link>  </p>
@@ -686,7 +689,8 @@ const _arcane_adept_package = {title: "Arcane adept package", jsx: <><h2 id="eq-
 const _arcane_family_workbook = {title: "Arcane family workbook", jsx: <><h2 id="eq-misc-arcane_family_workbook-arcane-family-workbook">Arcane family workbook</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 27</Link>  </p>
 <Tabular format="misc" a="300" b="3" d="tools" />
-<p>The elven predilection for becoming wizards and the social benefits that elven wizards enjoy often encourages families to dedicate themselves to wizardly studies for multiple generations. Older elven wizards take note of their own insights into the secrets of arcane magic and compile these thoughts with the ideas of earlier generations to form family workbooks. When used as a reference (an action that typically takes 1d4 full rounds of searching the text), an arcane family workbook grants a +2 circumstance bonus on a Spellcraft checks. This bonus increases to +4 if 1d4 hours are spent referencing the book.</p>
+<p>The elven predilection for becoming wizards and the social benefits that elven wizards enjoy often encourages families to dedicate themselves to wizardly studies for multiple generations. Older elven wizards take note of their own insights into the secrets of arcane magic and compile these thoughts with the ideas of earlier generations to form family workbooks.</p>
+<p><Icons id="eq-misc-arcane_family_workbook-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When used as a reference (an action that typically takes 1d4 full rounds of searching the text), an arcane family workbook grants a +2 circumstance bonus on a <Link to="/skill/spellcraft">Spellcraft</Link> checks. This bonus increases to +4 if 1d4 hours are spent referencing the book.</p>
 </>};
 const _arcanists_kit = {title: "Arcanist's kit", jsx: <><h2 id="eq-misc-arcanists_kit-arcanists-kit">Arcanist's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 202</Link>  </p>
@@ -712,7 +716,8 @@ const _armor_ointment = {title: "Armor ointment", jsx: <><h2 id="eq-misc-armor_o
 const _armor_truss = {title: "Armor truss", jsx: <><h2 id="eq-misc-armor_truss-armor-truss">Armor truss</h2>
 <p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 20</Link>  </p>
 <Tabular format="misc" a="30" b="10" d="tools" />
-<p>This collection of flexible strips of wood, durable shims, and thin cords allows you to prop open the buckles, padding, and plates of armor for easy entry. If you take at least 15 minutes preparing an empty suit of armor with an armor truss, you are considered to have help in putting on the armor and can don the armor in the time it usually takes to don the armor hastily without worsening armor check penalties or decreasing armor bonuses.</p>
+<p>This collection of flexible strips of wood, durable shims, and thin cords allows you to prop open the buckles, padding, and plates of armor for easy entry.</p>
+<p><Icons id="eq-misc-armor_truss-boost-def-icons" wrapper="prefixIcon" list={["boost","def"]} /> If you take at least 15 minutes preparing an empty suit of armor with an armor truss, you are considered to have help in putting on the armor and can <Link to="/rule/don_armor">don the armor</Link> in the time it usually takes to don the armor hastily without worsening armor check penalties or decreasing armor bonuses.</p>
 </>};
 const _arrow_grappling = {title: "Arrow (grappling)", jsx: <><h2 id="eq-misc-arrow_grappling-arrow-grappling">Arrow (grappling)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -729,7 +734,8 @@ const _artifical_gills = {title: "Artifical gills", jsx: <><h2 id="eq-misc-artif
 const _artificers_lab_portable = {title: "Artificer's lab (portable)", jsx: <><h2 id="eq-misc-artificers_lab_portable-artificers-lab-portable">Artificer's lab (portable)</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 27</Link>  </p>
 <Tabular format="misc" a="300" b="40" d="tools" />
-<p>The portable artificer's lab contains everything needed to create magic items, though many of the tools and implements are of only the most basic type. This lab allows the artificer to spend 4 hours crafting each night while out adventuring, and net 3 hours' worth of work (instead of 2). However, because the tools are all designed to fulfill multiple functions and the portable lab lacks the space and quiet that provide ideal circumstances for creating magic items, the skill check to complete a magic item that had any of its work done using a portable lab takes a -5 penalty.</p>
+<p>The portable artificer's lab contains everything needed to create magic items, though many of the tools and implements are of only the most basic type.</p>
+<p><Icons id="eq-misc-artificers_lab_portable-power-down-icons" wrapper="prefixIcon" list={["power","down"]} /> This lab allows the artificer to spend 4 hours crafting each night while out adventuring, and net 3 hours' worth of work (instead of 2). However, because the tools are all designed to fulfill multiple functions and the portable lab lacks the space and quiet that provide ideal circumstances for creating magic items, the skill check to complete a magic item that had any of its work done using a portable lab takes a -5 penalty.</p>
 </>};
 const _artisans_outfit = {title: "Artisan's outfit", jsx: <><h2 id="eq-misc-artisans_outfit-artisans-outfit">Artisan's outfit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
@@ -932,7 +938,8 @@ const _baijiu_bottle = {title: "Baijiu (bottle)", jsx: <><h2 id="eq-misc-baijiu_
 const _balancing_pole = {title: "Balancing pole", jsx: <><h2 id="eq-misc-balancing_pole-balancing-pole">Balancing pole</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="0.8" b="12" d="tools" />
-<p>This flexible pole can be anywhere from 15 to 30 feet in length. When used properly, it helps you keep your balance when crossing narrow walkways. Using a balancing pole grants you a +1 circumstance bonus on Acrobatics checks made to traverse a narrow surface.</p>
+<p>This flexible pole can be anywhere from 15 to 30 feet in length. When used properly, it helps you keep your balance when crossing narrow walkways.</p>
+<p><Icons id="eq-misc-balancing_pole-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Using a balancing pole grants you a +1 circumstance bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks made to traverse a narrow surface.</p>
 </>};
 const _ball_10_in = {title: "Ball (10 in.)", jsx: <><h2 id="eq-misc-ball_10_in-ball">Ball</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 92</Link>  </p>
@@ -983,7 +990,9 @@ const _barbarians_kit = {title: "Barbarian's kit", jsx: <><h2 id="eq-misc-barbar
 const _barbed_troll_claws = {title: "Barbed troll claws", jsx: <><h2 id="eq-misc-barbed_troll_claws-barbed-troll-claws">Barbed troll claws</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 225</Link>  </p>
 <Tabular format="misc" a="20" b="4" d="tools" />
-<p>These metal sheaths slide onto the claws of a <Link to="/family/troll">troll</Link>. When a troll hits with a claw attack while wearing the sheaths, it can either keep the sheaths on its hand (in which case the claw attack deals 1 extra point of damage) or allow the four sheaths on that hand to slide off and become embedded in the wound (in which case the claw attack deals 1 point of <Link to="/rule/bleed">bleed</Link> damage). The listed price is for a set of 8 sheaths (one for each claw on both of a troll's four-fingered hands).</p>
+<p>These metal sheaths slide onto the claws of a <Link to="/family/troll">troll</Link>.</p>
+<p><Icons id="eq-misc-barbed_troll_claws-melee-icons" wrapper="prefixIcon" list={["melee"]} /> When a troll hits with a claw attack while wearing the sheaths, it can either keep the sheaths on its hand (in which case the claw attack deals 1 extra point of damage) or allow the four sheaths on that hand to slide off and become embedded in the wound (in which case the claw attack deals 1 point of <Link to="/rule/bleed">bleed</Link> damage).</p>
+<p>The listed price is for a set of 8 sheaths (one for each claw on both of a troll's four-fingered hands).</p>
 </>};
 const _barbed_vest = {title: "Barbed vest", jsx: <><h2 id="eq-misc-barbed_vest-barbed-vest">Barbed vest</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 181</Link>  </p>
@@ -1030,8 +1039,8 @@ const _bear_trap_offset = {title: "Bear trap (offset)", jsx: <><h2 id="eq-misc-b
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 16</Link>  </p>
 <h3 id="eq-misc-bear_trap_offset-bear-trap-offset">Bear Trap (offset)</h3>
 <Tabular format="misc" id="offset" a="3" b="10" d="tools" />
-<p>An offset bear trap is a specialized variety of a bear trap constructed with offset jaws coated in resin. It inflicts less damage on captured creatures but holds them more securely, and is therefore primarily used by trappers or bounty hunters who do not want to risk killing their prey. Offset bear traps are almost always secured to the ground by a heavy spike and chain so the captured creature can't wander far.</p>
-<TrapInfo id="offset-bear-trap-trap" cr="&frac12;" pdc="15" dddc="20" manual trigger="location" eff="Atk +10 melee (1d6+2); jaws spring shut around the creature's ankle and hold the creature immobile; the creature can escape with a DC 20 Disable Device check, DC 24 Escape Artist check, or DC 28 Strength check">Offset Bear Trap</TrapInfo>
+<p>An offset bear trap is a specialized variety of a <Link to="/eq-misc/bear_trap">bear trap</Link> constructed with offset jaws coated in resin. It inflicts less damage on captured creatures but holds them more securely, and is therefore primarily used by trappers or bounty hunters who do not want to risk killing their prey. Offset bear traps are almost always secured to the ground by a heavy spike and chain so the captured creature can't wander far.</p>
+<TrapInfo id="offset-bear-trap-trap" cr="&frac12;" pdc="15" dddc="20" manual trigger="location" eff={<>Atk +10 melee (1d6+2); jaws spring shut around the creature's ankle and hold the creature immobile; the creature can escape with a DC 20 <Link to="/skill/disable_device">Disable Device</Link> check, DC 24 <Link to="/skill/escape_artist">Escape Artist</Link> check, or DC 28 Strength check</>}>Offset Bear Trap</TrapInfo>
 <h3 id="eq-misc-bear_trap_offset-bear-trap-sawtooth">Bear Trap (sawtooth)</h3>
 <Tabular format="misc" id="sawtooth" a="1800" b="20" d="tools" />
 <p>A sawtooth bear trap has vicious jaws and tighter springs. Used primarily against humanoids or monsters rather than animals, sawtooth bear traps are often painted in camouflaged colors to blend in with the trap site. Most include locking plates over the spring mechanisms to prevent tampering by intelligent victims.</p>
@@ -1041,7 +1050,7 @@ const _bear_trap = {title: "Bear trap", jsx: <><h2 id="eq-misc-bear_trap-bear-tr
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="2" b="10" d="tools" />
 <p>Although intended for trapping large animals, bear traps work as well for trapping humanoids or monsters. The hinged jaws of the trap are attached to a chain, which in turn is secured to a spike driven into the ground to ensure that the victim cannot simply crawl away. Prying open the jaws or pulling the spike from the ground requires a DC 20 Strength check.</p>
-<TrapInfo id="bear-trap-trap" cr="1" pdc="15" dddc="20" manual trigger="location" eff="Atk +10 melee (2d6+3); sharp jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 20 Disable Device check, DC 22 Escape Artist check, or DC 26 Strength check">Bear Trap</TrapInfo>
+<TrapInfo id="bear-trap-trap" cr="1" pdc="15" dddc="20" manual trigger="location" eff={<>Atk +10 melee (2d6+3); sharp jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 20 <Link to="/skill/disable_device">Disable Device</Link> check, DC 22 <Link to="/skill/escape_artist">Escape Artist</Link> check, or DC 26 Strength check</>}>Bear Trap</TrapInfo>
 </>};
 const _beast_lure = {title: "Beast lure", jsx: <><h2 id="eq-misc-beast_lure-beast-lure">Beast lure</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -1104,12 +1113,13 @@ const _belladonna = {title: "Belladonna", jsx: <><h2 id="eq-misc-belladonna-bell
 const _belled_catsuit = {title: "Belled Catsuit", jsx: <><h2 id="eq-misc-belled_catsuit-belled-catsuit">Belled Catsuit</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 30</Link>  </p>
 <Tabular format="misc" a="30" b="12" d="tools" />
-<p>This form-fitting garment is strung all around with dozens of small bells. You can practice your sneaking technique by donning a belled catsuit and then attempting to move without letting any of the bells ring. Old thieves sometimes call a belled catsuit a Billy-Jacket. Training with a belled catsuit requires 1 hour of practice and a DC 25 Stealth check. If you succeed at the check, you gain a +2 circumstance bonus on Stealth checks to hide. This bonus lasts for 24 hours or until you fail a Stealth check.</p>
+<p>This form-fitting garment is strung all around with dozens of small bells. You can practice your sneaking technique by donning a belled catsuit and then attempting to move without letting any of the bells ring. Old thieves sometimes call a belled catsuit a Billy-Jacket.</p>
+<p><Icons id="eq-misc-belled_catsuit-def-icons" wrapper="prefixIcon" list={["def"]} /> Training with a belled catsuit requires 1 hour of practice and a DC 25 <Link to="/skill/stealth">Stealth</Link> check. If you succeed at the check, you gain a +2 circumstance bonus on Stealth checks to hide. This bonus lasts for 24 hours or until you fail a Stealth check.</p>
 </>};
 const _bellows = {title: "Bellows", jsx: <><h2 id="eq-misc-bellows-bellows">Bellows</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="1" b="3" d="tools" />
-<p>Bellows are useful for starting fires, providing a +1 circumstance bonus on Survival checks to start or maintain fires.</p>
+<p><Icons id="eq-misc-bellows-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Bellows are useful for starting fires, providing a +1 circumstance bonus on <Link to="/skill/survival">Survival</Link> checks to start or maintain fires.</p>
 </>};
 const _belt_pouch = {title: "Belt pouch", jsx: <><h2 id="eq-misc-belt_pouch-belt-pouch">Belt pouch</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -1132,7 +1142,8 @@ const _billow_cape = {title: "Billow cape", jsx: <><h2 id="eq-misc-billow_cape-b
 const _billy_ten_bells = {title: "Billy Ten-Bells", jsx: <><h2 id="eq-misc-billy_ten_bells-billy-ten-bells">Billy Ten-Bells</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 30</Link>  </p>
 <Tabular format="misc" a="50" b="6" d="tools" />
-<p>Bearing a marked resemblance to an anthropomorphic wind chime, this complicated arrangement of strings, sticks, and bells is hung from a ceiling or branch and has a purse or money-pouch deep inside. The trick is to silently steal a coin from Billy Ten-Bells, as the slightest movement will set the bells ringing. Veteran thieves sometimes decorate Billy with scraps of stolen clothing for good luck. Training with Billy Ten-Bells requires 1 hour of practice and a DC 20 Sleight of Hand check. If you succeed at the check, you gain a +2 circumstance bonus on Sleight of Hand checks to pick pockets. This bonus lasts for 24 hours or until you fail a Sleight of Hand check.</p>
+<p>Bearing a marked resemblance to an anthropomorphic wind chime, this complicated arrangement of strings, sticks, and bells is hung from a ceiling or branch and has a purse or money-pouch deep inside. The trick is to silently steal a coin from Billy Ten-Bells, as the slightest movement will set the bells ringing. Veteran thieves sometimes decorate Billy with scraps of stolen clothing for good luck.</p>
+<p><Icons id="eq-misc-billy_ten_bells-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Training with Billy Ten-Bells requires 1 hour of practice and a DC 20 <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check. If you succeed at the check, you gain a +2 circumstance bonus on Sleight of Hand checks to pick pockets. This bonus lasts for 24 hours or until you fail a Sleight of Hand check.</p>
 </>};
 const _bird_feed_per_day = {title: "Bird feed (per day)", jsx: <><h2 id="eq-misc-bird_feed_per_day-bird-feed-per-day">Bird feed (per day)</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 12</Link>  </p>
@@ -1201,7 +1212,7 @@ const _blackfire_clay = {title: "Blackfire clay", jsx: <><h2 id="eq-misc-blackfi
 const _blackwood_figurehead = {title: "Blackwood figurehead", jsx: <><h2 id="eq-misc-blackwood_figurehead-blackwood-figurehead">Blackwood figurehead</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 9</Link>  </p>
 <Tabular format="misc" a="650" b="25" d="tools" />
-<p>Carved in the likeness of a sea creature or another form desired by the one commissioning it, this item grants its ship's crew a +2 morale bonus on <Link to="/skill/profession">Profession</Link> (sailor) checks while on board.</p>
+<p><Icons id="eq-misc-blackwood_figurehead-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Carved in the likeness of a sea creature or another form desired by the one commissioning it, this item grants its ship's crew a +2 morale bonus on <Link to="/skill/profession">Profession</Link> (sailor) checks while on board.</p>
 </>};
 const _bladeguard = {title: "Bladeguard", jsx: <><h2 id="eq-misc-bladeguard-bladeguard">Bladeguard</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 101</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -1343,7 +1354,8 @@ const _bogwalking_sandals = {title: "Bogwalking sandals", jsx: <><h2 id="eq-misc
 const _boline = {title: "Boline", jsx: <><h2 id="eq-misc-boline-boline">Boline</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 16</Link>  </p>
 <Tabular format="misc" a="10" b="2" d="tools" />
-<p>Bolines are hook-shaped knives commonly used by herbalists and spellcasters to harvest ingredients for their craft. A boline's blade is typically 5 inches long, and is too small and irregular to use as a weapon. You can use a boline to finely slice the herbs in a <Link to="/eq-misc/healers_kit">healer's kit</Link>, so you can treat deadly wounds with only a single use from a healer's kit rather than two uses.</p>
+<p>Bolines are hook-shaped knives commonly used by herbalists and spellcasters to harvest ingredients for their craft. A boline's blade is typically 5 inches long, and is too small and irregular to use as a weapon.</p>
+<p><Icons id="eq-misc-boline-boost-icons" wrapper="prefixIcon" list={["boost"]} /> You can use a boline to finely slice the herbs in a <Link to="/eq-misc/healers_kit">healer's kit</Link>, so you can treat deadly wounds with only a single use from a healer's kit rather than two uses.</p>
 </>};
 const _bomb_launcher = {title: "Bomb launcher", jsx: <><h2 id="eq-misc-bomb_launcher-bomb-launcher">Bomb launcher</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 117</Link>  </p>
@@ -1355,7 +1367,8 @@ const _bomb_launcher = {title: "Bomb launcher", jsx: <><h2 id="eq-misc-bomb_laun
 const _bombchucker = {title: "Bombchucker", jsx: <><h2 id="eq-misc-bombchucker-bombchucker">Bombchucker</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 117</Link>  </p>
 <Tabular format="misc" a="12" b="1" d="tools" />
-<p>This curved wicker basket is worn like a glove over one hand. The basket extends approximately 2 feet in a steady curve, allowing you to launch a thrown splash weapon at incredible speeds and over long distances. Using a bombchucker increases the range increment of any thrown splash weapon by 10 feet. Loading a bombchucker requires a free hand, as the hand wielding the bombchucker can't be used for any other purpose. A bombchucker doesn't get in the way of preparing and throwing a bomb created with the bomb class feature.</p>
+<p>This curved wicker basket is worn like a glove over one hand. The basket extends approximately 2 feet in a steady curve, allowing you to launch a thrown splash weapon at incredible speeds and over long distances.</p>
+<p><Icons id="eq-misc-bombchucker-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Using a bombchucker increases the range increment of any thrown splash weapon by 10 feet. Loading a bombchucker requires a free hand, as the hand wielding the bombchucker can't be used for any other purpose. A bombchucker doesn't get in the way of preparing and throwing a bomb created with the <em>bomb</em> class feature.</p>
 </>};
 const _bone_reed = {title: "Bone Reed", jsx: <><h2 id="eq-misc-bone_reed-bone-reed">Bone Reed</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 153</Link>  </p>
@@ -1849,12 +1862,13 @@ const _caydenbrew_mug = {title: "Caydenbrew (mug)", jsx: <><h2 id="eq-misc-cayde
 const _celestial_censer = {title: "Celestial censer", jsx: <><h2 id="eq-misc-celestial_censer-celestial-censer">Celestial censer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 87</Link>  </p>
 <Tabular format="misc" a="50" b="3" d="tools" />
-<p>This blessed thurible holds up to 10 pieces of <Link to="/eq-misc/incense">incense</Link>, and burns at a rate of 1 stick per hour. If a <Link to="/eq-misc/smokestick">smokestick</Link> is added to the incense in the <Link to="/eq-misc/censer">censer</Link> while it burns, creatures with the evil subtype are <Link to="/misc/dazzled">dazzled</Link> for as long as they remain within the area of the resulting smoke.</p>
+<p><Icons id="eq-misc-celestial_censer-aura-lower-icons" wrapper="prefixIcon" list={["aura","lower"]} /> This blessed thurible holds up to 10 pieces of <Link to="/eq-misc/incense">incense</Link>, and burns at a rate of 1 stick per hour. If a <Link to="/eq-misc/smokestick">smokestick</Link> is added to the incense in the <Link to="/eq-misc/censer">censer</Link> while it burns, creatures with the evil subtype are <Link to="/misc/dazzled">dazzled</Link> for as long as they remain within the area of the resulting smoke.</p>
 </>};
 const _celestial_lamp = {title: "Celestial lamp", jsx: <><h2 id="eq-misc-celestial_lamp-celestial-lamp">Celestial lamp</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 87</Link>  </p>
 <Tabular format="misc" a="300" b="2" d="tools" />
-<p>This polished lantern contains a continual flame and sheds light as a common <Link to="/eq-misc/lamp">lamp</Link>. If its font of consecrated crystal and metalwork is filled with holy water, the lamp's light is sanctified for 24 hours, adding a +1 bonus to the save DC of channeled positive energy or energy channeled to harm evil outsiders within a 30-foot radius.</p>
+<p>This polished lantern contains a <Link to="/spell/continual_flame">continual flame</Link> and sheds light as a common <Link to="/eq-misc/lamp">lamp</Link>.</p>
+<p><Icons id="eq-misc-celestial_lamp-aura-boost-icons" wrapper="prefixIcon" list={["aura","boost"]} /> If its font of consecrated crystal and metalwork is filled with <Link to="/eq-weapon/holy_water">holy water</Link>, the lamp's light is sanctified for 24 hours, adding a +1 bonus to the save DC of channeled positive energy or energy channeled to harm evil outsiders within a 30-foot radius.</p>
 </>};
 const _celwynvian_stone_fruit = {title: "Celwynvian stone fruit", jsx: <><h2 id="eq-misc-celwynvian_stone_fruit-celwynvian-stone-fruit">Celwynvian stone fruit</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 21</Link>  </p>
@@ -1942,7 +1956,8 @@ const _chausses = {title: "Chausses", jsx: <><h2 id="eq-misc-chausses-chausses">
 const _cheat_sheath = {title: "Cheat sheath", jsx: <><h2 id="eq-misc-cheat_sheath-cheat-sheath">Cheat sheath</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 203</Link>  </p>
 <Tabular format="misc" a="100" b="2" d="tools" />
-<p>This ornate leather sheath is covered in tables of magical notation and arcane formulae, as well as common spell triggers and reagents. Referring to these handy bits of notation grants you a +2 circumstance bonus on Spellcraft checks made to learn a spell from a spellbook or scroll, prepare a spell from a borrowed spellbook, identify the properties of a magic item using <Link to="/spell/detect_magic">detect magic</Link>, or decipher a scroll.</p>
+<p>This ornate leather sheath is covered in tables of magical notation and arcane formulae, as well as common spell triggers and reagents.</p>
+<p><Icons id="eq-misc-cheat_sheath-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Referring to these handy bits of notation grants you a +2 circumstance bonus on <Link to="/skill/spellcraft">Spellcraft</Link> checks made to learn a spell from a spellbook or scroll, prepare a spell from a borrowed spellbook, identify the properties of a magic item using <Link to="/spell/detect_magic">detect magic</Link>, or decipher a scroll.</p>
 </>};
 const _cheese = {title: "Cheese", jsx: <><h2 id="eq-misc-cheese-cheese">Cheese</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
@@ -2044,7 +2059,7 @@ const _click_claw = {title: "Click-claw", jsx: <><h2 id="eq-misc-click_claw-clic
 const _climbers_kit = {title: "Climber's kit", jsx: <><h2 id="eq-misc-climbers_kit-climbers-kit">Climber's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
 <Tabular format="misc" a="80" b="5" d="tools" />
-<p>These crampons, pitons, ropes, and other tools give you a +2 circumstance bonus on Climb checks.</p>
+<p><Icons id="eq-misc-climbers_kit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> These crampons, pitons, ropes, and other tools give you a +2 circumstance bonus on Climb checks.</p>
 </>};
 const _climbers_plank = {title: "Climber's plank", jsx: <><h2 id="eq-misc-climbers_plank-climbers-plank">Climber's plank</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 12</Link>  </p>
@@ -2173,7 +2188,7 @@ const _compass = {title: "Compass", jsx: <><h2 id="eq-misc-compass-compass">Comp
 const _compressed_air = {title: "Compressed air", jsx: <><h2 id="eq-misc-compressed_air-compressed-air">Compressed air</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars pg. 19</Link>  </p>
 <Tabular format="misc" a="50" b="10" d="tools" />
-<p>Longer lasting than an air bladder, a jar of compressed air comes with a breathing apparatus that can be strapped over the mouth with a leather cord and provides enough air for a Medium character to breathe normally for 10 minutes (20 minutes for a Small character).</p>
+<p>Longer lasting than an <Link to="/eq-misc/air_bladder">air bladder</Link>, a jar of compressed air comes with a breathing apparatus that can be strapped over the mouth with a leather cord and provides enough air for a Medium character to breathe normally for 10 minutes (20 minutes for a Small character).</p>
 </>};
 const _concealable_thieves_tools = {title: "Concealable thieves' tools", jsx: <><h2 id="eq-misc-concealable_thieves_tools-concealable-thieves-tools">Concealable thieves' tools</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 233</Link>  </p>
@@ -2252,7 +2267,9 @@ const _corset = {title: "Corset", jsx: <><h2 id="eq-misc-corset-corset">Corset</
 const _cosmogram = {title: "Cosmogram", jsx: <><h2 id="eq-misc-cosmogram-cosmogram">Cosmogram</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars pg. 26</Link>  </p>
 <Tabular format="misc" a="200" b="0.5" d="tools" />
-<p>This eldritch chart describes part of the unfathomably vast shape of the physical universe and the subtler motions of the stars. A cosmogram grants a +1 circumstance bonus on Knowledge (geography) checks relating to stars and on Survival checks to navigate the void of space between star systems. A cosmogram can be consulted while using an <Link to="/eq-misc/orrery">orrery</Link> as a focus for <Link to="/spell/augury">augury</Link>. Doing so increases the chance of a successful reading by 2%.</p>
+<p>This eldritch chart describes part of the unfathomably vast shape of the physical universe and the subtler motions of the stars.</p>
+<p><Icons id="eq-misc-cosmogram-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A cosmogram grants a +1 circumstance bonus on <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> checks relating to stars and on <Link to="/skill/survival">Survival</Link> checks to navigate the void of space between star systems.</p>
+<p><Icons id="eq-misc-cosmogram-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A cosmogram can be consulted while using an <Link to="/eq-misc/orrery">orrery</Link> as a focus for <Link to="/spell/augury">augury</Link>. Doing so increases the chance of a successful reading by 2%.</p>
 </>};
 const _cot = {title: "Cot", jsx: <><h2 id="eq-misc-cot-cot">Cot</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
@@ -2394,7 +2411,8 @@ const _darklight_lantern = {title: "Darklight lantern", jsx: <><h2 id="eq-misc-d
 const _darkwood_mwagni_harp = {title: "Darkwood Mwagni harp", jsx: <><h2 id="eq-misc-darkwood_mwagni_harp-darkwood-mwagni-harp">Darkwood Mwagni harp</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 20</Link>  </p>
 <Tabular format="misc" a="130" b="1.5" d="tools" />
-<p>Musicians in the Mwangi Expanse make frequent use of carved harps strung with strings made from natural materials. These harps often feature ornately detailed soundboards and necks shaped like creatures that inhabit the region. Harps crafted from <Link to="/eq-material/darkwood">darkwood</Link> are very light compared to similar instruments, yet they retain the resonance and tonal quality demanded by the pickiest of musicians. A darkwood Mwangi harp is a <Link to="/eq-misc/masterwork_musical_instrument">masterwork musical instrument</Link> that grants you a +2 circumstance bonus on Perform checks when using it.</p>
+<p>Musicians in the Mwangi Expanse make frequent use of carved harps strung with strings made from natural materials. These harps often feature ornately detailed soundboards and necks shaped like creatures that inhabit the region. Harps crafted from <Link to="/eq-material/darkwood">darkwood</Link> are very light compared to similar instruments, yet they retain the resonance and tonal quality demanded by the pickiest of musicians.</p>
+<p><Icons id="eq-misc-darkwood_mwagni_harp-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A darkwood Mwangi harp is a <Link to="/eq-misc/masterwork_musical_instrument">masterwork musical instrument</Link> that grants you a +2 circumstance bonus on <Link to="/skill/perform">Perform</Link> checks when using it.</p>
 </>};
 const _darkwood_ancestry_plank = {title: "Darkwood ancestry plank", jsx: <><h2 id="eq-misc-darkwood_ancestry_plank-darkwood-ancestry-plank">Darkwood ancestry plank</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 20</Link>  </p>

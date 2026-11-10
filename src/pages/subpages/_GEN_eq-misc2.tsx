@@ -9,7 +9,8 @@ import Icons from '../../components/Icons';
 const _fetish_tribal = {title: "Fetish, tribal", jsx: <><h2 id="eq-misc-fetish_tribal-fetish-tribal">Fetish, tribal</h2>
 <p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion pg. 12</Link>  </p>
 <Tabular format="misc" a="5" b="x" d="tools" />
-<p>Tribal fetishes vary from tribe to tribe, but are generally small, carved wooden or stone religious symbols, luck tokens, or curious naturally occurring objects specially carved to resemble something of significance (such as an acorn with a wolf fangs, a dried mushroom with skull-shaped blotches, or a stone with a lizard carved on it). A <Link to="/race/goblin">goblin</Link> divine spellcaster can use a tribal fetish as a divine focus for spellcasting.</p>
+<p>Tribal fetishes vary from tribe to tribe, but are generally small, carved wooden or stone religious symbols, luck tokens, or curious naturally occurring objects specially carved to resemble something of significance (such as an acorn with a wolf fangs, a dried mushroom with skull-shaped blotches, or a stone with a lizard carved on it).</p>
+<p><Icons id="eq-misc-fetish_tribal-power-icons" wrapper="prefixIcon" list={["power"]} /> A <Link to="/race/goblin">goblin</Link> divine spellcaster can use a tribal fetish as a divine focus for spellcasting.</p>
 </>};
 const _fetters_common = {title: "Fetters (common)", jsx: <><h2 id="eq-misc-fetters_common-fetters">Fetters</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 123</Link>  </p>
@@ -64,7 +65,8 @@ const _filter = {title: "Filter", jsx: <><h2 id="eq-misc-filter-filter">Filter</
 const _fire_carrier = {title: "Fire carrier", jsx: <><h2 id="eq-misc-fire_carrier-fire-carrier">Fire carrier</h2>
 <p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion pg. 12</Link>  </p>
 <Tabular format="misc" a="0.1" b="1" d="tools" />
-<p>A fire carrier is a conical device made of thickly insulated leather and wood designed to carry a live coal under a layer of ash. A fire carrier can keep a coal red hot for 24 hours and allows anyone to light a fire in normal conditions without having to resort to Survival checks, alchemical devices, or magic.</p>
+<p>A fire carrier is a conical device made of thickly insulated leather and wood designed to carry a live coal under a layer of ash.</p>
+<p><Icons id="eq-misc-fire_carrier-power-icons" wrapper="prefixIcon" list={["power"]} /> A fire carrier can keep a coal red hot for 24 hours and allows anyone to light a fire in normal conditions without having to resort to <Link to="/skill/survival">Survival</Link> checks, alchemical devices, or magic.</p>
 </>};
 const _fire_giant_hunters_kit = {title: "Fire giant hunter's kit", jsx: <><h2 id="eq-misc-fire_giant_hunters_kit-fire-giant-hunters-kit">Fire giant hunter's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook pg. 25</Link>  </p>
@@ -194,7 +196,7 @@ const _flint_and_steel = {title: "Flint and steel", jsx: <><h2 id="eq-misc-flint
 const _flotation_device = {title: "Flotation device", jsx: <><h2 id="eq-misc-flotation_device-flotation-device">Flotation device</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="1" b="2" d="tools" />
-<p>Usually composed of an inflated animal bladder sealed with pitch, a held flotation device adds a +1 circumstance bonus on Swim checks.</p>
+<p><Icons id="eq-misc-flotation_device-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Usually composed of an inflated animal bladder sealed with pitch, a held flotation device adds a +1 circumstance bonus on <Link to="/skill/swim">Swim</Link> checks.</p>
 </>};
 const _flying_straps_masterwork = {title: "Flying straps (masterwork)", jsx: <><h2 id="eq-misc-flying_straps_masterwork-flying-straps">Flying straps</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 105</Link>  </p>
@@ -251,17 +253,20 @@ const _footman = {title: "Footman", jsx: <><h2 id="eq-misc-footman-footman">Foot
 const _footprint_book = {title: "Footprint book", jsx: <><h2 id="eq-misc-footprint_book-footprint-book">Footprint book</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>  </p>
 <Tabular format="misc" a="50" b="3" d="tools" />
-<p>This 50-page tome contains accurate drawings of common animal, humanoid, and monster tracks, as well as notes on stride length, tread depth, and similarly useful information. The book gives you a +2 circumstance bonus to identify a creature by its tracks, though the use of shoes makes identifying many humanoids difficult or impossible. Though the book can't help you identify unique individuals, it can help you tell an ogre's footprint from a troll's footprint, or an elf's track from an orc's. Books sold in different areas may have different footprints, depending on what creatures are common to that location.</p>
+<p>This 50-page tome contains accurate drawings of common animal, humanoid, and monster tracks, as well as notes on stride length, tread depth, and similarly useful information.</p>
+<p><Icons id="eq-misc-footprint_book-boost-icons" wrapper="prefixIcon" list={["boost"]} /> The book gives you a +2 circumstance bonus to <Link to="/skill/survival">identify a creature by its tracks</Link>, though the use of shoes makes identifying many humanoids difficult or impossible. Though the book can't help you identify unique individuals, it can help you tell an ogre's footprint from a troll's footprint, or an elf's track from an orc's.</p>
+<p>Books sold in different areas may have different footprints, depending on what creatures are common to that location.</p>
 </>};
 const _footprint_cast = {title: "Footprint cast", jsx: <><h2 id="eq-misc-footprint_cast-footprint-cast">Footprint cast</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 204</Link>  </p>
 <Tabular format="misc" a="2" b="1" d="tools" />
-<p>This quick-drying cast is perfect for preserving a set of footprints in order to examine them later. By spending 1 minute setting the cast and waiting for it to dry, you can copy footprints, allowing others to examine them without traveling to the scene, and preventing the DC of the Survival check to analyze them from increasing because of time or weather.</p>
+<p>This quick-drying cast is perfect for preserving a set of footprints in order to examine them later. By spending 1 minute setting the cast and waiting for it to dry, you can copy footprints, allowing others to examine them without traveling to the scene, and preventing the DC of the <Link to="/skill/survival">Survival</Link> check to analyze them from increasing because of time or weather.</p>
 </>};
 const _forecast_station = {title: "Forecast station", jsx: <><h2 id="eq-misc-forecast_station-forecast-station">Forecast station</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 9</Link>  </p>
 <Tabular format="misc" a="150" b="2" d="tools" />
-<p>This wooden box contains a simple anemometer and three tubes filled with alchemical fluids that expand and contract with changes in air temperature, humidity, and pressure. A forecast station grants a +5 bonus on Survival checks to predict weather.</p>
+<p>This wooden box contains a simple anemometer and three tubes filled with alchemical fluids that expand and contract with changes in air temperature, humidity, and pressure.</p>
+<p><Icons id="eq-misc-forecast_station-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A forecast station grants a +5 bonus on <Link to="/skill/survival">Survival</Link> checks to predict weather.</p>
 </>};
 const _forest_kit = {title: "Forest kit", jsx: <><h2 id="eq-misc-forest_kit-forest-kit">Forest kit</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 9</Link>  </p>
@@ -271,12 +276,14 @@ const _forest_kit = {title: "Forest kit", jsx: <><h2 id="eq-misc-forest_kit-fore
 const _forgers_kit = {title: "Forger's kit", jsx: <><h2 id="eq-misc-forgers_kit-forgers-kit">Forger's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>  </p>
 <Tabular format="misc" a="200" b="6" d="tools" />
-<p>These inks, pens, papers, templates for certificates, and tools for modifying or copying official seals facilitates the creation of counterfeit documents. It grants a +2 circumstance bonus on Linguistics checks made for the purpose of making forgeries.</p>
+<p>These inks, pens, papers, templates for certificates, and tools for modifying or copying official seals facilitates the creation of counterfeit documents.</p>
+<p><Icons id="eq-misc-forgers_kit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> It grants a +2 circumstance bonus on <Link to="/skill/linguistics">Linguistics</Link> checks made for the purpose of making forgeries.</p>
 </>};
 const _formula_book = {title: "Formula book", jsx: <><h2 id="eq-misc-formula_book-formula-book">Formula book</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>  </p>
 <Tabular format="misc" a="15" b="3" d="tools" />
-<p>A formula book has 100 pages of parchment, and each alchemical extract formula takes up one page per extract level. A newly purchased formula book contains no extract formulas. An alchemist character begins play with a formula book containing the extract formulae he knows. This is the alchemist equivalent of a spellbook for wizards (a <Link to="/eq-misc/spellbook">spellbook</Link> and a formula book are essentially the same item).</p>
+<p>A formula book has 100 pages of parchment, and each alchemical extract formula takes up one page per extract level. A newly purchased formula book contains no extract formulas.</p>
+<p>An <Link to="/class/alchemist">alchemist</Link> character begins play with a formula book containing the extract formulae he knows. This is the alchemist equivalent of a spellbook for wizards (a <Link to="/eq-misc/spellbook">spellbook</Link> and a formula book are essentially the same item).</p>
 </>};
 const _fortifying_brew = {title: "Fortifying brew", jsx: <><h2 id="eq-misc-fortifying_brew-fortifying-brew">Fortifying brew</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 206</Link>  </p>
@@ -297,9 +304,14 @@ const _fortune_cookie = {title: "Fortune cookie", jsx: <><h2 id="eq-misc-fortune
 <p>This twist of hard, baked pastry surrounds a slip of paper that contains cryptic advice.</p>
 </>};
 const _fortune_tellers_deck_common = {title: "Fortune-teller's deck (common)", jsx: <><h2 id="eq-misc-fortune_tellers_deck_common-fortune-tellers-deck">Fortune-teller's deck</h2>
-<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>  </p>
-<Tabular format="misc" a="1 gp (common), 50 gp (masterwork), 25 gp (quality)" b="&frac12; lb. (common), 1 lb. (masterwork), 1 lb. (quality)" c="x" d="tools" />
-<p>This deck of illustrated cards is used by those in tune with the spirit world to predict the future - and by charlatans to take money from the gullible. A common deck only has simple drawings on simple wooden plaques. A quality fortune-teller's deck usually consists of wooden plaques with painted color images; it is suitable as a focus for the <Link to="/spell/augury">augury</Link> spell, and provides a +1 circumstance bonus on Profession (fortune-teller), Profession (medium), and similar Profession checks. A masterwork fortune-teller's deck may be wood, ivory, or even metal, with painted or carved images, and is often highlighted with gold inlays or tiny gems; it has all the benefits of a quality deck, except it provides a +2 circumstance bonus on the listed skill checks.</p>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link></p>
+<p>This deck of illustrated cards is used by those in tune with the spirit world to predict the future - and by charlatans to take money from the gullible.</p>
+<Tabular format="misc" a="1" b="0.5" d="tools" />
+<p>A common deck only has simple drawings on simple wooden plaques.</p>
+<Tabular format="misc" a="25" b="1" d="tools" />
+<p><Icons id="eq-misc-fortune_tellers_deck_common-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A quality fortune-teller's deck usually consists of wooden plaques with painted color images; it is suitable as a focus for the <Link to="/spell/augury">augury</Link> spell, and provides a +1 circumstance bonus on <Link to="/skill/profession">Profession</Link> (fortune-teller), Profession (medium), and similar Profession checks.</p>
+<Tabular format="misc" a="50" b="1" d="tools" />
+<p><Icons id="eq-misc-fortune_tellers_deck_common-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A masterwork fortune-teller's deck may be wood, ivory, or even metal, with painted or carved images, and is often highlighted with gold inlays or tiny gems; it has all the benefits of a quality deck, except it provides a +2 circumstance bonus on the listed skill checks.</p>
 </>};
 const _founderflame_torch = {title: "Founderflame torch", jsx: <><h2 id="eq-misc-founderflame_torch-founderflame-torch">Founderflame torch</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 21</Link>  </p>
@@ -365,9 +377,10 @@ const _fury_drops = {title: "Fury drops", jsx: <><h2 id="eq-misc-fury_drops-fury
 const _gabion = {title: "Gabion", jsx: <><h2 id="eq-misc-gabion-gabion">Gabion</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 20</Link>  </p>
 <Tabular format="misc" a="1" b="2" d="tools" />
-<p>This tough wickerwork cylinder is typically 3 feet tall and 2 feet wide. It has no top or bottom, and can be filled with about 10 cubic feet of earth, stone, or other heavy materials while standing upright to provide substantial <Link to="/rule/cover">cover</Link>. Filling a gabion with earth using a shovel generally requires 4 minutes of work for a Medium character or 8 minutes of work for a Small character. One gabion provides cover for a Small character and might provide partial cover for a Medium character, at the GM's discretion. Two gabions together can provide cover to a Medium character, although if they aren't stacked atop each other, they can form only a low obstacle depending on the character's height.</p>
+<p>This tough wickerwork cylinder is typically 3 feet tall and 2 feet wide. It has no top or bottom, and can be filled with about 10 cubic feet of earth, stone, or other heavy materials while standing upright to provide substantial <Link to="/rule/cover">cover</Link>.</p>
+<p>Filling a gabion with earth using a shovel generally requires 4 minutes of work for a Medium character or 8 minutes of work for a Small character. One gabion provides cover for a Small character and might provide partial cover for a Medium character, at the GM's discretion. Two gabions together can provide cover to a Medium character, although if they aren't stacked atop each other, they can form only a low obstacle depending on the character's height.</p>
 <p>Gabions can be made of different materials, but the type described here is one of the most common varieties.</p>
-<p>Craft (traps) DC 10</p>
+<p><strong>Construction:</strong> Craft (traps) DC 10</p>
 </>};
 const _galley = {title: "Galley", jsx: <><h2 id="eq-misc-galley-galley">Galley</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
@@ -526,7 +539,8 @@ const _gorthek_saddle = {title: "Gorthek saddle", jsx: <><h2 id="eq-misc-gorthek
 const _grapplers_grease = {title: "Grappler's grease", jsx: <><h2 id="eq-misc-grapplers_grease-grapplers-grease">Grappler's grease</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 204</Link>  </p>
 <Tabular format="misc" a="5" b="0.5" d="tools" />
-<p>When applied to your body, this pale grease made from animal fat makes you more difficult to grapple. While covered in the grease, you gain a +4 bonus to CMD against <Link to="/rule/grapple">grapple</Link> combat maneuvers. Applying the grease takes 1 minute, and once applied, its effects last for 10 minutes. You can't be wearing armor to gain the benefit of grappler's grease. Grappler's grease is usually sold in small clay jars that hold five applications.</p>
+<p>When applied to your body, this pale grease made from animal fat makes you more difficult to grapple.</p>
+<p><Icons id="eq-misc-grapplers_grease-def-icons" wrapper="prefixIcon" list={["def"]} /> While covered in the grease, you gain a +4 bonus to CMD against <Link to="/rule/grapple">grapple</Link> combat maneuvers. Applying the grease takes 1 minute, and once applied, its effects last for 10 minutes. You can't be wearing armor to gain the benefit of <em>grappler's grease. Grappler's grease</em> is usually sold in small clay jars that hold five applications.</p>
 </>};
 const _grappling_hook_common = {title: "Grappling hook (common)", jsx: <><h2 id="eq-misc-grappling_hook_common-grappling-hook">Grappling hook</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -594,7 +608,8 @@ const _haggis = {title: "Haggis", jsx: <><h2 id="eq-misc-haggis-haggis">Haggis</
 const _half_orc_disguise_kit = {title: "Half-orc disguise kit", jsx: <><h2 id="eq-misc-half_orc_disguise_kit-half-orc-disguise-kit">Half-orc disguise kit</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 56</Link>  </p>
 <Tabular format="misc" a="75" b="1" d="tools" />
-<p>This specifically designed kit was put together by half-orcs to help them appear more human. It includes skin cream to disguise green-gray skin color and other items designed to conceal or draw attention away from typical half-orc physical characteristics. Using this kit on a half-orc grants a +3 bonus on Disguise checks to appear human. Used on an orc, it only grants a +1 bonus on these checks. A half-orc disguise kit is exhausted after 10 uses.</p>
+<p>This specifically designed kit was put together by <Link to="/race/half_orc">half-orcs</Link> to help them appear more human. It includes skin cream to disguise green-gray skin color and other items designed to conceal or draw attention away from typical half-orc physical characteristics.</p>
+<p><Icons id="eq-misc-half_orc_disguise_kit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Using this kit on a half-orc grants a +3 bonus on <Link to="/skill/disguise">Disguise</Link> checks to appear human. Used on an orc, it only grants a +1 bonus on these checks. A half-orc disguise kit is exhausted after 10 uses.</p>
 </>};
 const _halfling_jugglesticks = {title: "Halfling jugglesticks", jsx: <><h2 id="eq-misc-halfling_jugglesticks-halfling-jugglesticks">Halfling jugglesticks</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 66</Link>  </p>
@@ -618,7 +633,8 @@ const _hallowed_chalice = {title: "Hallowed chalice", jsx: <><h2 id="eq-misc-hal
 const _halteres = {title: "Halteres", jsx: <><h2 id="eq-misc-halteres-halteres">Halteres</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 30</Link>  </p>
 <Tabular format="misc" a="8" b="24" d="tools" />
-<p>These paired stone or metal weights look like a pair of curved stones with handles. An athlete can take one weight in each hand and swing them back and forth before jumping, using the momentum to gain greater distance when taking off. Training with halteres requires 1 hour of practice and a DC 16 Acrobatics check. If you succeed at the check, you gain a +2 circumstance bonus on Acrobatics checks to make long jumps. This bonus lasts for 24 hours or until you fail an Acrobatics check.</p>
+<p>These paired stone or metal weights look like a pair of curved stones with handles. An athlete can take one weight in each hand and swing them back and forth before jumping, using the momentum to gain greater distance when taking off.</p>
+<p><Icons id="eq-misc-halteres-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Training with halteres requires 1 hour of practice and a DC 16 <Link to="/skill/acrobatics">Acrobatics</Link> check. If you succeed at the check, you gain a +2 circumstance bonus on Acrobatics checks to make long jumps. This bonus lasts for 24 hours or until you fail an Acrobatics check.</p>
 </>};
 const _hammer = {title: "Hammer", jsx: <><h2 id="eq-misc-hammer-hammer">Hammer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -638,12 +654,15 @@ const _hand_rotary_quern = {title: "Hand rotary quern", jsx: <><h2 id="eq-misc-h
 const _handle_harness = {title: "Handle harness", jsx: <><h2 id="eq-misc-handle_harness-handle-harness">Handle harness</h2>
 <p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 20</Link>  </p>
 <Tabular format="misc" a="25" b="10" d="tools" />
-<p>This wood-and-leather harness fits over clothing or armor and provides small handles and footrests across your back and along the sides of your legs and arms. While wearing a handle harness, you automatically succeed at checks to aid an adjacent ally of your size or smaller with Climb or Ride checks, or Acrobatics checks to balance on narrow surfaces or uneven ground. A handle harness's ungainly construction gives you a -2 penalty on Escape Artist checks.</p>
+<p>This wood-and-leather harness fits over clothing or armor and provides small handles and footrests across your back and along the sides of your legs and arms.</p>
+<p><Icons id="eq-misc-handle_harness-boost-icons" wrapper="prefixIcon" list={["boost"]} /> While wearing a handle harness, you automatically succeed at checks to <Link to="/rule/aid_another">aid</Link> an adjacent ally of your size or smaller with <Link to="/skill/climb">Climb</Link> or <Link to="/skill/ride">Ride</Link> checks, or <Link to="/skill/acrobatics">Acrobatics</Link> checks to balance on narrow surfaces or uneven ground.</p>
+<p><Icons id="eq-misc-handle_harness-down-icons" wrapper="prefixIcon" list={["down"]} /> A handle harness's ungainly construction gives you a -2 penalty on <Link to="/skill/escape_artist">Escape Artist</Link> checks.</p>
 </>};
 const _hanging_board = {title: "Hanging board", jsx: <><h2 id="eq-misc-hanging_board-hanging-board">Hanging board</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 14</Link>  </p>
 <Tabular format="misc" a="75" b="7" d="tools" />
-<p>This wooden board bears a number of narrow, thin holes large enough to hold by the fingertips. The board mounts to a wall, allowing climbers to practice their technique and improve their grip by hanging from the board. Using a hanging board to improve your grip requires 1 hour of practice and a DC 18 Climb check. If you succeed at the check, you gain a +10 circumstance bonus on Climb checks to catch yourself while falling and a +5 bonus to catch a falling character while climbing. This bonus lasts for 24 hours.</p>
+<p>This wooden board bears a number of narrow, thin holes large enough to hold by the fingertips. The board mounts to a wall, allowing climbers to practice their technique and improve their grip by hanging from the board.</p>
+<p><Icons id="eq-misc-hanging_board-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Using a hanging board to improve your grip requires 1 hour of practice and a DC 18 <Link to="/skill/climb">Climb</Link> check. If you succeed at the check, you gain a +10 circumstance bonus on Climb checks to catch yourself while <Link to="/rule/falling">falling</Link> and a +5 bonus to catch a falling character while climbing. This bonus lasts for 24 hours.</p>
 </>};
 const _harpy_musk = {title: "Harpy musk", jsx: <><h2 id="eq-misc-harpy_musk-harpy-musk">Harpy musk</h2>
 <p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends pg. 15</Link>, <Link to="/source/mythical_monsters_revisited">Mythical Monsters Revisited pg. 24</Link>, <Link to="/source/rise_of_the_runelords_players_guide">Rise of the Runelords Player's Guide pg. 11</Link>  </p>
@@ -775,7 +794,7 @@ const _headscarf = {title: "Headscarf", jsx: <><h2 id="eq-misc-headscarf-headsca
 const _healers_kit = {title: "Healer's kit", jsx: <><h2 id="eq-misc-healers_kit-healers-kit">Healer's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
 <Tabular format="misc" a="50" b="1" d="tools" />
-<p>This collection of bandages and herbs provides a +2 circumstance bonus on Heal checks. A healer's kit is exhausted after 10 uses.</p>
+<p><Icons id="eq-misc-healers_kit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This collection of bandages and herbs provides a +2 circumstance bonus on <Link to="/skill/heal">Heal</Link> checks. A healer's kit is exhausted after 10 uses.</p>
 </>};
 const _heated_gloves = {title: "Heated gloves", jsx: <><h2 id="eq-misc-heated_gloves-heated-gloves">Heated gloves</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 13</Link>  </p>
@@ -1074,7 +1093,8 @@ const _hunters_manual = {title: "Hunter's manual", jsx: <><h2 id="eq-misc-hunter
 const _hunters_sight = {title: "Hunter's sight", jsx: <><h2 id="eq-misc-hunters_sight-hunters-sight">Hunter's sight</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 204</Link>  </p>
 <Tabular format="misc" a="100" b="x" d="tools" />
-<p>This complicated lens fits over one eye and takes up the eyes slot when in use. When using it in conjunction with a ranged weapon, you reduce any range penalty on your attacks by 2. Objects within 100 feet become difficult to see, however, and you take a -2 penalty on Perception checks based on sight while wearing the hunter's sight.</p>
+<p>This complicated lens fits over one eye and takes up the <Link to="/rule/eyes_slot">eyes slot</Link> when in use.</p>
+<p><Icons id="eq-misc-hunters_sight-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> When using it in conjunction with a ranged weapon, you reduce any range penalty on your attacks by 2. Objects within 100 feet become difficult to see, however, and you take a -2 penalty on <Link to="/skill/perception">Perception</Link> checks based on sight while wearing the <em>hunter's sight.</em></p>
 </>};
 const _hunters_stand = {title: "Hunter's stand", jsx: <><h2 id="eq-misc-hunters_stand-hunters-stand">Hunter's stand</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 243</Link>  </p>
@@ -1326,7 +1346,7 @@ const _jug = {title: "Jug", jsx: <><h2 id="eq-misc-jug-jug">Jug</h2>
 const _jugglers_kit = {title: "Juggler's kit", jsx: <><h2 id="eq-misc-jugglers_kit-jugglers-kit">Juggler's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="15" b="10" d="tools" />
-<p>This kit includes multiple sets of well-balanced objects, such as balls, clubs, knives, rings, and torches. It provides a +1 bonus on Perform (act or comedy) checks and checks involving juggling.</p>
+<p><Icons id="eq-misc-jugglers_kit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This kit includes multiple sets of well-balanced objects, such as balls, clubs, knives, rings, and torches. It provides a +1 bonus on <Link to="/skill/perform">Perform</Link> (act or comedy) checks and checks involving juggling.</p>
 </>};
 const _jungle_coffee_cup = {title: "Jungle coffee (cup)", jsx: <><h2 id="eq-misc-jungle_coffee_cup-jungle-coffee-cup">Jungle coffee (cup)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>  </p>
@@ -1439,7 +1459,8 @@ const _leapers_libation = {title: "Leaper's libation", jsx: <><h2 id="eq-misc-le
 const _leeching_kit = {title: "Leeching kit", jsx: <><h2 id="eq-misc-leeching_kit-leeching-kit">Leeching kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>  </p>
 <Tabular format="misc" a="5" b="5" d="tools" />
-<p>This sturdy ceramic jar has a heavy lid with a few tiny holes to let air in. It is normally half-filled with water and contains four adult leeches, each about 6 inches long. A leeching kit grants you a +2 circumstance bonus on Heal checks to treat poison. Used for medicinal bloodletting, a leech can survive for 6 months between feedings.</p>
+<p>This sturdy ceramic jar has a heavy lid with a few tiny holes to let air in. It is normally half-filled with water and contains four adult leeches, each about 6 inches long.</p>
+<p><Icons id="eq-misc-leeching_kit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A leeching kit grants you a +2 circumstance bonus on <Link to="/skill/heal">Heal</Link> checks to treat poison. Used for medicinal bloodletting, a leech can survive for 6 months between feedings.</p>
 </>};
 const _leechwort = {title: "Leechwort", jsx: <><h2 id="eq-misc-leechwort-leechwort">Leechwort</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 154</Link>, <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 10</Link>  </p>
@@ -1449,7 +1470,9 @@ const _leechwort = {title: "Leechwort", jsx: <><h2 id="eq-misc-leechwort-leechwo
 const _leg_stabilizers_pair = {title: "Leg stabilizers (pair)", jsx: <><h2 id="eq-misc-leg_stabilizers_pair-leg-stabilizers-pair">Leg stabilizers (pair)</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars pg. 19</Link>  </p>
 <Tabular format="misc" a="1000" b="2" d="tools" />
-<p>These devices strap onto a character's legs in order to allow for easier movement in low- or high-gravity environments. A character wearing leg stabilizers can move and attempt Acrobatics checks in gravity between &times;1 and &times;3 as if in gravity &times;1. A character wearing them in gravity stronger than &times;1/3 but weaker than &times;1 gains a foot circumstance bonus to his land speed. This device has no effect on other actions. Attaching or removing leg stabilizers is a full-round action.</p>
+<p>These devices strap onto a character's legs in order to allow for easier movement in low- or high-<Link to="/rule/gravity">gravity</Link> environments.</p>
+<p><Icons id="eq-misc-leg_stabilizers_pair-power-icons" wrapper="prefixIcon" list={["power"]} /> A character wearing <em>leg stabilizers</em> can move and attempt <Link to="/skill/acrobatics">Acrobatics</Link> checks in gravity between &times;1 and &times;3 as if in gravity &times;1. A character wearing them in gravity stronger than &times;&#8531; but weaker than &times;1 gains a +10-foot circumstance bonus to his land speed. This device has no effect on other actions.</p>
+<p>Attaching or removing <em>leg stabilizers</em> is a <strong className="hl">full-round action</strong>.</p>
 </>};
 const _leng_ruby = {title: "Leng ruby", jsx: <><h2 id="eq-misc-leng_ruby-leng-ruby">Leng ruby</h2>
 <p><strong>Sources</strong> <Link to="/source/lost_treasures">Lost Treasures pg. 39</Link>  </p>
@@ -1500,8 +1523,9 @@ const _light_killers_grease = {title: "Light-killer's grease", jsx: <><h2 id="eq
 const _linguists_codex_expanded = {title: "Linguist's codex (expanded)", jsx: <><h2 id="eq-misc-linguists_codex_expanded-linguists-codex">Linguist's codex</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 16</Link>  </p>
 <Tabular format="misc" a="200 gp (expanded), 50 gp (standard)" b="5 lbs. (expanded), 3 lbs. (standard)" c="x" d="tools" />
-<p>This leather-bound reference tome contains several alphabets used in the various languages of Golarion, along with extensively cross-referenced and indexed words, phrases, and idioms. As long as you speak at least three languages, consulting a standard linguist's codex grants you a +2 circumstance bonus on Linguistics checks when communicating in a language you do not speak.</p>
-<p>An expanded linguist's codex has far more phrases and guidance, including instructions to pronounce the sounds in a correct and pleasing manner. These codices provide a +2 circumstance bonus on Diplomacy checks when communicating in a language you do not speak.</p>
+<p>This leather-bound reference tome contains several alphabets used in the various languages of Golarion, along with extensively cross-referenced and indexed words, phrases, and idioms.</p>
+<p><Icons id="eq-misc-linguists_codex_expanded-boost-icons" wrapper="prefixIcon" list={["boost"]} /> As long as you speak at least three languages, consulting a standard linguist's codex grants you a +2 circumstance bonus on <Link to="/skill/linguistics">Linguistics</Link> checks when communicating in a language you do not speak.</p>
+<p><Icons id="eq-misc-linguists_codex_expanded-boost-icons" wrapper="prefixIcon" list={["boost"]} /> An expanded linguist's codex has far more phrases and guidance, including instructions to pronounce the sounds in a correct and pleasing manner. These codices provide a +2 circumstance bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks when communicating in a language you do not speak.</p>
 </>};
 const _liniment = {title: "Liniment", jsx: <><h2 id="eq-misc-liniment-liniment">Liniment</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 246</Link>  </p>
@@ -1755,7 +1779,8 @@ const _maple_syrup_jar = {title: "Maple syrup (jar)", jsx: <><h2 id="eq-misc-map
 const _mapmakers_kit = {title: "Mapmaker's kit", jsx: <><h2 id="eq-misc-mapmakers_kit-mapmakers-kit">Mapmaker's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>, <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link>  </p>
 <Tabular format="misc" a="10" b="2" d="tools" />
-<p>This small kit contains a simple slate with a grid carved into its surface and a number of differently colored pieces of <Link to="/eq-misc/chalk">chalk</Link>. If you use this kit to draw a map as you travel, you receive a +2 circumstance bonus on Survival skill checks to avoid becoming lost.</p>
+<p>This small kit contains a simple slate with a grid carved into its surface and a number of differently colored pieces of <Link to="/eq-misc/chalk">chalk</Link>.</p>
+<p><Icons id="eq-misc-mapmakers_kit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> If you use this kit to draw a map as you travel, you receive a +2 circumstance bonus on <Link to="/skill/survival">Survival</Link> skill checks to avoid <Link to="/rule/becoming_lost">becoming lost</Link>.</p>
 </>};
 const _marbles = {title: "Marbles", jsx: <><h2 id="eq-misc-marbles-marbles">Marbles</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 181</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -1782,7 +1807,8 @@ const _marker_dye = {title: "Marker dye", jsx: <><h2 id="eq-misc-marker_dye-mark
 const _marlinspike = {title: "Marlinspike", jsx: <><h2 id="eq-misc-marlinspike-marlinspike">Marlinspike</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 204</Link>  </p>
 <Tabular format="misc" a="0.8" b="0.5" d="tools" />
-<p>These polished metal spikes can aid you in performing a variety of rope work, including tying and untying knots, untangling things, splicing rope, or tensioning ropes. A typical spike is somewhere between 6 inches to a foot in length, has a slender and almost needle-like taper, and is blunted at both ends. Smaller spikes are worn on lanyards while a larger spike is kept in a sheath. A marlinspike grants you a +2 circumstance bonus on Skill checks involving the use of a rope.</p>
+<p>These polished metal spikes can aid you in performing a variety of rope work, including tying and untying knots, untangling things, splicing rope, or tensioning ropes. A typical spike is somewhere between 6 inches to a foot in length, has a slender and almost needle-like taper, and is blunted at both ends. Smaller spikes are worn on lanyards while a larger spike is kept in a sheath.</p>
+<p><Icons id="eq-misc-marlinspike-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A marlinspike grants you a +2 circumstance bonus on skill checks involving the use of a rope.</p>
 </>};
 const _mask = {title: "Mask", jsx: <><h2 id="eq-misc-mask-mask">Mask</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -1805,15 +1831,15 @@ const _masking_scent_animal = {title: "Masking scent (animal)", jsx: <><h2 id="e
 const _masterwork_flippers = {title: "Masterwork flippers", jsx: <><h2 id="eq-misc-masterwork_flippers-masterwork-flippers">Masterwork flippers</h2>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 56</Link>  </p>
 <Tabular format="misc" a="50" b="1" d="tools" />
-<p>These sleek and aquadynamic flippers grant their wearer a +2 circumstance bonus on Swim checks to perform complex maneuvers underwater or swim through rough waters. This bonus doesn't stack with racial bonuses on Swim checks from having a swim speed.</p>
+<p><Icons id="eq-misc-masterwork_flippers-boost-info-icons" wrapper="prefixIcon" list={["boost","info"]} /> These sleek and aquadynamic flippers grant their wearer a +2 circumstance bonus on <Link to="/skill/swim">Swim</Link> checks to perform complex maneuvers underwater or swim through rough waters. This bonus doesn't stack with racial bonuses on Swim checks from having a swim speed.</p>
 </>};
 const _masterwork_tool = {title: "Masterwork tool", jsx: <><h2 id="eq-misc-masterwork_tool-masterwork-tool">Masterwork tool</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
 <Tabular format="misc" a="50" b="1" d="tools" />
-<p>This tool is perfect for its intended job. It grants a +2 circumstance bonus on a related skill check (if any). The bonuses provided by multiple masterwork items do not stack.</p>
-<p>Several common items already count as masterwork tools for particular skills. These are the <Link to="/eq-misc/alchemists_lab">alchemist's lab</Link>, <Link to="/eq-misc/climbers_kit">climber's kit</Link>, <Link to="/eq-misc/disguise_kit">disguise kit</Link>, <Link to="/eq-misc/healers_kit">healer's kit</Link>, <Link to="/eq-misc/masterwork_musical_instrument">masterwork musical instrument</Link>, and <Link to="/eq-misc/masterwork_thieves_tools">masterwork thieves' tools</Link>. Therefore, there is no masterwork climber's kit, masterwork healer's kit, and so on - those items are already the best available for general checks with the relevant skill.</p>
-<p>Some skills have no appropriate tool or masterwork tool; no nonmagical item exists that grants a bonus for all uses of that skill. For example, just because a certain perfume is favored by local nobles (granting a +2 circumstance bonus on Diplomacy checks to influence them) doesn't mean that perfume has the same effect on a member of the thieves' guild, a foreign berserker, or a medusa. Likewise, just because a fake beard woven by dwarves out of the beards of famous dwarves may grant a +2 circumstance bonus on Use Magic Device checks to emulate the dwarven race doesn't mean the beard has any effect on using that skill to activate elven items or paladin items, or to decipher a written spell.</p>
-<p>Individual GMs may want to allow masterwork tools for other skills at the listed cost. The circumstance bonus for such a tool should never be more than +2. The tool should either have a limited number of uses (such as the disguise and healer's kits) or only apply to certain aspects of the skill (such as the balancing pole's bonus on Acrobatics checks to traverse a narrow surface or the magnifying glass's bonus on Appraise checks for detailed items).</p>
+<p><Icons id="eq-misc-masterwork_tool-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This tool is perfect for its intended job. It grants a +2 circumstance bonus on a related skill check (if any). The bonuses provided by multiple masterwork items do not stack.</p>
+<p>Several common items already count as masterwork tools for particular skills. These are the <Link to="/eq-misc/alchemists_lab">alchemist's lab</Link>, <Link to="/eq-misc/climbers_kit">climber's kit</Link>, <Link to="/eq-misc/disguise_kit">disguise kit</Link>, <Link to="/eq-misc/healers_kit">healer's kit</Link>, <Link to="/eq-misc/masterwork_musical_instrument">masterwork musical instrument</Link>, and <Link to="/eq-misc/masterwork_thieves_tools">masterwork thieves' tools</Link>. Therefore, there is no <em>masterwork climber's kit, masterwork healer's kit,</em> and so on - those items are already the best available for general checks with the relevant skill.</p>
+<p>Some skills have no appropriate tool or masterwork tool; no nonmagical item exists that grants a bonus for all uses of that skill. For example, just because a certain perfume is favored by local nobles (granting a +2 circumstance bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to influence them) doesn't mean that perfume has the same effect on a member of the thieves' guild, a foreign berserker, or a <Link to="/monster/medusa">medusa</Link>. Likewise, just because a fake beard woven by dwarves out of the beards of famous dwarves may grant a +2 circumstance bonus on <Link to="/skill/use_magic_device">Use Magic Device</Link> checks to emulate the dwarven race doesn't mean the beard has any effect on using that skill to activate elven items or paladin items, or to decipher a written spell.</p>
+<p><Icons id="eq-misc-masterwork_tool-info-icons" wrapper="prefixIcon" list={["info"]} /> Individual GMs may want to allow masterwork tools for other skills at the listed cost. The circumstance bonus for such a tool should never be more than +2. The tool should either have a limited number of uses (such as the <em>disguise</em> and <em>healer's kits</em>) or only apply to certain aspects of the skill (such as the <Link to="/eq-misc/balancing_pole">balancing pole's</Link> bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks to traverse a narrow surface or the <Link to="/eq-misc/magnifying_glass">magnifying glass's</Link> bonus on <Link to="/skill/appraise">Appraise</Link> checks for detailed items).</p>
 </>};
 const _mastodon_brush = {title: "Mastodon brush", jsx: <><h2 id="eq-misc-mastodon_brush-mastodon-brush">Mastodon brush</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 12</Link>  </p>
@@ -1866,7 +1892,8 @@ const _mediums_kit = {title: "Medium's kit", jsx: <><h2 id="eq-misc-mediums_kit-
 const _meels = {title: "Meels", jsx: <><h2 id="eq-misc-meels-meels">Meels</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 31</Link>  </p>
 <Tabular format="misc" a="10" b="30" d="tools" />
-<p>Also called Vudrani clubs, meels are heavily weighted clubs used to train one's strength. They range in size from only a few pounds to specially crafted lead or stone meels which weigh as much as a human. This set contains three wooden meels of more common dimensions. Athletes practice with meels by taking a club in each hand and swinging them in a rhythmic fashion around the body. Training with a set of meels requires 1 hour of practice and a DC 10 Strength check. If you succeed at the check, you gain a +2 circumstance bonus on Strength checks and treat your Strength score as 1 higher for the purpose of determining your carrying capacity. This bonus lasts for 24 hours.</p>
+<p>Also called Vudrani clubs, meels are heavily weighted clubs used to train one's strength. They range in size from only a few pounds to specially crafted lead or stone meels which weigh as much as a human. This set contains three wooden meels of more common dimensions.</p>
+<p><Icons id="eq-misc-meels-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Athletes practice with meels by taking a club in each hand and swinging them in a rhythmic fashion around the body. Training with a set of meels requires 1 hour of practice and a DC 10 Strength check. If you succeed at the check, you gain a +2 circumstance bonus on Strength checks and treat your Strength score as 1 higher for the purpose of determining your <Link to="/rule/carrying_capacity">carrying capacity</Link>. This bonus lasts for 24 hours.</p>
 </>};
 const _mekainae = {title: "Mekainae", jsx: <><h2 id="eq-misc-mekainae-mekainae">Mekainae</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 6</Link>  </p>
@@ -1898,7 +1925,9 @@ const _memory_incense = {title: "Memory incense", jsx: <><h2 id="eq-misc-memory_
 const _mending_kit = {title: "Mending kit", jsx: <><h2 id="eq-misc-mending_kit-mending-kit">Mending kit</h2>
 <p><strong>Sources</strong> <Link to="/source/cohorts_and_companions">Cohorts and Companions pg. 17</Link>  </p>
 <Tabular format="misc" a="5" b="10" d="tools" />
-<p>This leather packet contains tools and materials for repairing items created with one specific Craft skill. Using a mending kit grants a +2 circumstance bonus on Craft checks made to repair a damaged item of the appropriate type. By spending 1 hour, the user can make a Craft check, dividing the result by 10 to determine how many points of damage are repaired. A mending kit can be used 10 times before needing replacement.</p>
+<p>This leather packet contains tools and materials for repairing items created with one specific <Link to="/skill/craft">Craft</Link> skill.</p>
+<p><Icons id="eq-misc-mending_kit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Using a mending kit grants a +2 circumstance bonus on Craft checks made to repair a damaged item of the appropriate type. By spending 1 hour, the user can make a Craft check, dividing the result by 10 to determine how many points of damage are repaired.</p>
+<p>A mending kit can be used 10 times before needing replacement.</p>
 </>};
 const _mending_paste = {title: "Mending paste", jsx: <><h2 id="eq-misc-mending_paste-mending-paste">Mending paste</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
@@ -1916,7 +1945,7 @@ const _mengkares_shards = {title: "Mengkare's shards", jsx: <><h2 id="eq-misc-me
 const _merchants_scale = {title: "Merchant's scale", jsx: <><h2 id="eq-misc-merchants_scale-merchants-scale">Merchant's scale</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
 <Tabular format="misc" a="2" b="1" d="tools" />
-<p>A merchant's scale is a simple lever on a fulcrum, from which two trays hang. It grants a +2 circumstance bonus on Appraise checks involving items that are valued by weight, including anything made of precious metals.</p>
+<p><Icons id="eq-misc-merchants_scale-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A merchant's scale is a simple lever on a fulcrum, from which two trays hang. It grants a +2 circumstance bonus on <Link to="/skill/appraise">Appraise</Link> checks involving items that are valued by weight, including anything made of precious metals.</p>
 </>};
 const _merfolks_comb = {title: "Merfolk's Comb", jsx: <><h2 id="eq-misc-merfolks_comb-merfolks-comb">Merfolk's Comb</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 154</Link>  </p>
@@ -1951,7 +1980,9 @@ const _metal_glove = {title: "Metal glove", jsx: <><h2 id="eq-misc-metal_glove-m
 const _midwifes_kit = {title: "Midwife's kit", jsx: <><h2 id="eq-misc-midwifes_kit-midwifes-kit">Midwife's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>  </p>
 <Tabular format="misc" a="10" b="2" d="tools" />
-<p>This kit is used by midwives to care for pregnant women and to deliver babies. Each kit contains herbs to treat common conditions during pregnancy, salves for aches and distended skin, swaddling cloths, a small but sharp knife for cutting an umbilical cord, powder for cleaning the newborn, bandages, a needle, and thread. Using the kit gives you a +4 circumstance bonus on Heal checks when dealing with humanoid pregnancy or birth. You may use it for other kinds pregnant or birthing creatures (such as animals or monstrous humanoids), but it only gives a +2 bonus on such Heal checks. A midwife's kit is exhausted after 10 uses.</p>
+<p>This kit is used by midwives to care for pregnant women and to deliver babies. Each kit contains herbs to treat common conditions during pregnancy, salves for aches and distended skin, swaddling cloths, a small but sharp knife for cutting an umbilical cord, powder for cleaning the newborn, bandages, a needle, and thread.</p>
+<p><Icons id="eq-misc-midwifes_kit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Using the kit gives you a +4 circumstance bonus on <Link to="/skill/heal">Heal</Link> checks when dealing with humanoid pregnancy or birth. You may use it for other kinds pregnant or birthing creatures (such as animals or monstrous humanoids), but it only gives a +2 bonus on such Heal checks.</p>
+<p>A midwife's kit is exhausted after 10 uses.</p>
 </>};
 const _milk = {title: "Milk", jsx: <><h2 id="eq-misc-milk-milk">Milk</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>  </p>
@@ -2106,7 +2137,9 @@ const _monster_bait = {title: "Monster bait", jsx: <><h2 id="eq-misc-monster_bai
 const _monster_dummy = {title: "Monster dummy", jsx: <><h2 id="eq-misc-monster_dummy-monster-dummy">Monster dummy</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 26</Link>  </p>
 <Tabular format="misc" a="10" b="40" d="tools" />
-<p>This is a straw-stuffed wire frame of a monstrous creature, wrapped in burlap and coated in the musk of that particular creature. When using the Handle Animal skill to teach the attack trick, having a monster dummy present allows the trainer to add whatever creature type the dummy represents to the list of creatures the animal will attack. The dummy also provides a +2 bonus on Handle Animal checks to teach animals to attack all kinds of creatures.</p>
+<p>This is a straw-stuffed wire frame of a monstrous creature, wrapped in burlap and coated in the musk of that particular creature.</p>
+<p><Icons id="eq-misc-monster_dummy-power-icons" wrapper="prefixIcon" list={["power"]} /> When using the <Link to="/skill/handle_animal">Handle Animal</Link> skill to teach the <Link to="/ability/animal_tricks">attack trick</Link>, having a monster dummy present allows the trainer to add whatever creature type the dummy represents to the list of creatures the animal will attack.</p>
+<p><Icons id="eq-misc-monster_dummy-boost-icons" wrapper="prefixIcon" list={["boost"]} /> The dummy also provides a +2 bonus on Handle Animal checks to teach animals to attack all kinds of creatures.</p>
 </>};
 const _monster_hunters_kit_abberation = {title: "Monster hunter's kit (abberation)", jsx: <><h2 id="eq-misc-monster_hunters_kit_abberation-monster-hunters-kit">Monster hunter's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 27</Link>  </p>

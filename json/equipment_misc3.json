@@ -18,7 +18,11 @@
 			"‹SOURCE Pathfinder #112: The Whisper Out of Time/73›  ",
 			"::tabular{format=misc a=2000 b=10 d=tools}",
 			"",
-			"These strange books are fashioned from a metallic alloy, the crafting of which is known only to ‹monster/yithian«s› and a very few others. Supposedly taken from the same collection as the fabled Pnakotic Manuscripts and traded throughout the multiverse, these books are collections of notes recorded by visitors to the yithians' cities. Each book is written in multiple languages and provides a vast array of information on a specifc topic, but the information it contains is often oddly specifc and lacks context. A single Pnakotic record focuses on a single subject within the confnes of a single Knowledge skill, such as a presentation on the nature of deep one religious practices in worshiping Cthulhu (Knowledge [religion]), the mechanics of a shoggoth's biology (Knowledge [dungeoneering]), or the methods of creating portals between worlds (Knowledge [arcana]). By studying a Pnakotic record for 8 hours, a reader can attempt a single Knowledge check of the appropriate type when researching the book's corresponding subject to gain a +10 circumstance bonus on the check."
+			"These strange books are fashioned from a metallic alloy, the crafting of which is known only to ‹monster/yithian«s› and a very few others. Supposedly taken from the same collection as the fabled Pnakotic Manuscripts and traded throughout the multiverse, these books are collections of notes recorded by visitors to the yithians' cities. Each book is written in multiple languages and provides a vast array of information on a specifc topic, but the information it contains is often oddly specifc and lacks context.",
+			"",
+			"A single *Pnakotic record* focuses on a single subject within the confnes of a single Knowledge skill, such as a presentation on the nature of ‹monster/deep one› religious practices in worshiping ‹faith/Cthulhu› (‹skill/Knowledge (religion)›), the mechanics of a ‹monster/shoggoth«'s› biology (‹skill/Knowledge (dungeoneering)›), or the methods of creating portals between worlds (‹skill/Knowledge (arcana)›).",
+			"",
+			"@I-boost By studying a *Pnakotic record* for 8 hours, a reader can attempt a single Knowledge check of the appropriate type when researching the book's corresponding subject to gain a +10 circumstance bonus on the check."
 		]
 	},
 	"pocket_watch": {
@@ -40,7 +44,9 @@
 			"‹SOURCE Alchemy Manual/6›  ",
 			"::tabular{format=misc a=50 b=\"0.5\" d=tools}",
 			"",
-			"Loading this long bronze tube with a dose of ingested poison and 10 gp worth of gold dust is a standard action. When you blow on a poison belcher like a blowgun, it sprays the poison out the other end. The poison belcher is a simple weapon that strikes as a ranged touch attack with a range increment of 10 feet and a maximum range of 30 feet. If hit, the target must save against the poison as if it had been ingested."
+			"Loading this long bronze tube with a dose of ingested poison and 10 gp worth of gold dust is a @HL[standard action]. When you blow on a *poison belcher* like a blowgun, it sprays the poison out the other end.",
+			"",
+			"@I-zap The *poison belcher* is a simple weapon that strikes as a ranged touch attack with a range increment of 10 feet and a maximum range of 30 feet. If hit, the target must save against the poison as if it had been ingested."
 		]
 	},
 	"poison_caps": {
@@ -116,7 +122,9 @@
 			"‹SOURCE Monster Hunter's Handbook/27›  ",
 			"::tabular{format=misc a=150 b=1 d=tools}",
 			"",
-			"This spongy sac has a permeable membrane that can absorb, distill, and store toxins. When harvesting parts (see the ‹feat/Harvest Parts› feat) from a poisonous creature, you can use a poison sponge to harvest and store one dose of the creature's poison instead. The DC to harvest poison is equal to 20 + the creature's CR, and the poison retains its potency for 3 days. A successful check stores a single dose of the creature's poison in the sponge, which you can then apply like any poison. Poison sponges become saturated over time, imposing a cumulative -2 penalty on checks to harvest poison each subsequent time they are used."
+			"@I-power This spongy sac has a permeable membrane that can absorb, distill, and store toxins. When harvesting parts (see the ‹feat/Harvest Parts› feat) from a poisonous creature, you can use a poison sponge to harvest and store one dose of the creature's poison instead. The DC to harvest poison is equal to 20 + the creature's CR, and the poison retains its potency for 3 days. A successful check stores a single dose of the creature's poison in the sponge, which you can then apply like any poison.",
+			"",
+			"@I-down Poison sponges become saturated over time, imposing a cumulative -2 penalty on checks to harvest poison each subsequent time they are used."
 		]
 	},
 	"poison_tattoo": {
@@ -153,7 +161,9 @@
 			"‹SOURCE Potions and Poisons/29›  ",
 			"::tabular{format=misc a=75 b=x d=tools}",
 			"",
-			"This heart-shaped locket is attached to a thin metal chain made of looped strands of gold or silver. Inside the locket is a small, spring-loaded vial that can hold a single dose of powdered poison. Loading the locket with poison carries the same risks as applying poison to a weapon. When the locket is opened, the vial is shattered by a ball bearing, releasing the powder into the air and treating the poison's type as if it were inhaled. The airborne poison affects all creatures within 10 feet of the locket."
+			"This heart-shaped locket is attached to a thin metal chain made of looped strands of gold or silver. Inside the locket is a small, spring-loaded vial that can hold a single dose of powdered poison. Loading the locket with poison carries the same risks as applying poison to a weapon.",
+			"",
+			"@I-aura When the locket is opened, the vial is shattered by a ball bearing, releasing the powder into the air and treating the poison's type as if it were inhaled. The airborne poison affects all creatures within 10 feet of the locket."
 		]
 	},
 	"poisoned_quill": {
@@ -164,7 +174,13 @@
 			"‹SOURCE Potions and Poisons/29›  ",
 			"::tabular{format=misc a=30 b=x d=tools}",
 			"",
-			"This long ‹eq-misc/ink>pen› is made from a delicate feather and has a thin and unusually long nib. The quill is typically white in color, though variations that are crimson, onyx, or some combination of these colors also exist. A hidden compartment inside the nib allows the quill to hold a single dose of poison that is dispensable with a small squeeze. Additionally, this provides a +2 circumstance bonus on Sleight of Hand checks to conceal poisons inside the quill. If this quill is used with ‹eq-misc/vector ink›, it increases the DC of a poison mixed with the ink by 1. This quill can be used as a small shiv to deal 1d3 points of damage and deliver its contained poison. However, because of the fragility of the nib, using the quill in this way destroys it."
+			"This long ‹eq-misc/ink>pen› is made from a delicate feather and has a thin and unusually long nib. The quill is typically white in color, though variations that are crimson, onyx, or some combination of these colors also exist.",
+			"",
+			"@I-power-boost A hidden compartment inside the nib allows the quill to hold a single dose of poison that is dispensable with a small squeeze. Additionally, this provides a +2 circumstance bonus on ‹skill/Sleight of Hand› checks to conceal poisons inside the quill.",
+			"",
+			"@I-boost If this quill is used with ‹eq-misc/vector ink›, it increases the DC of a poison mixed with the ink by 1.",
+			"",
+			"@I-melee This quill can be used as a small shiv to deal 1d3 points of damage and deliver its contained poison. However, because of the fragility of the nib, using the quill in this way destroys it."
 		]
 	},
 	"poisoners_goblet": {
@@ -175,7 +191,7 @@
 			"‹SOURCE Potions and Poisons/29›  ",
 			"::tabular{format=misc a=100 b=2 d=tools}",
 			"",
-			"This is an elegantly styled, gem-encrusted drinking chalice made of smooth jade, obsidian, or a burnished fine metal. The chalice has a hidden compartment in the stem that allows for the insertion of a single vial of poison. The user doesn't risk poisoning himself when inserting the vial. Inside the compartment is a needle that siphons the poison from the vial and injects it into the bowl of the goblet. A hidden button (DC 20 Perception to locate) on the side of the stem begins the transfer of poison into the bowl. The transfer process takes 1 minute to complete, after which the hidden poison is emptied into the goblet."
+			"This is an elegantly styled, gem-encrusted drinking chalice made of smooth jade, obsidian, or a burnished fine metal. The chalice has a hidden compartment in the stem that allows for the insertion of a single vial of poison. The user doesn't risk poisoning himself when inserting the vial. Inside the compartment is a needle that siphons the poison from the vial and injects it into the bowl of the goblet. A hidden button (DC 20 ‹skill/Perception› to locate) on the side of the stem begins the transfer of poison into the bowl. The transfer process takes 1 minute to complete, after which the hidden poison is emptied into the goblet."
 		]
 	},
 	"poisoning_sheath": {
@@ -254,7 +270,7 @@
 			"‹SOURCE Ultimate Equipment/77;Adventurer's Armory/19;Advanced Player's Guide/184›  ",
 			"::tabular{format=misc a=75 b=20 d=tools}",
 			"",
-			"This compact version of a full-sized ‹eq-misc/alchemist's lab› provides a +1 circumstance bonus on Craft (alchemy) checks."
+			"@I-boost This compact version of a full-sized ‹eq-misc/alchemist's lab› provides a +1 circumstance bonus on ‹skill/Craft› (alchemy) checks."
 		]
 	},
 	"portable_altar_masterwork": {
@@ -267,11 +283,34 @@
 			"",
 			"Consecrated to one of Golarion's many deities, this intricately etched case contains numerous candles, stands, scented herbs, dishes, silks, small cups, containers, and similar ceremonial tools all bearing colors and iconography sacred to the associated deity. The sturdy container features a padded interior with numerous straps and compartments so that the items within aren't damaged in transport. The altar's surface prominently features a deity's holy symbol, and it's sturdy enough that it can support up to 300 pounds of weight, enough to serve as a makeshift pulpit.",
 			"",
-			"Among the items found within the altar are the tools and materials necessary to perform not just ceremonies, but also jobs and professions the related deity deems sacred, as well as holy texts written to inspire greatness in the deity's followers. The user can expend some of the materials within the altar to gain a +2 circumstance bonus on the next Craft check of the specified type.",
+			"@I-boost Among the items found within the altar are the tools and materials necessary to perform not just ceremonies, but also jobs and professions the related deity deems sacred, as well as holy texts written to inspire greatness in the deity's followers. The user can expend some of the materials within the altar to gain a +2 circumstance bonus on the next ‹skill/Craft› check of the specified type (see below).",
 			"",
-			"In addition, after spending 1 hour praying and reading the holy scriptures within the altar, the user gains a +2 circumstance bonus on a single skill check. Which deity this altar is dedicated to determines the skill to which this bonus applies. The user must attempt this skill check within an hour of praying and reading the altar's scriptures or lose the bonus - the mantras and inspiration provided by the texts having drifted from her mind. This hour of prayer and scripture reading can be integrated with the time a cleric uses to prepare her spells. Regardless, using the masterwork portable altar in this manner expends the altar's materials in the same way that using the normal altar to bolster a Craft check does.",
+			"@I-boost In addition, after spending 1 hour praying and reading the holy scriptures within the altar, the user gains a +2 circumstance bonus on a single skill check. Which deity this altar is dedicated to determines the skill to which this bonus applies (see below). The user must attempt this skill check within an hour of praying and reading the altar's scriptures or lose the bonus - the mantras and inspiration provided by the texts having drifted from her mind. This hour of prayer and scripture reading can be integrated with the time a cleric uses to prepare her spells. Regardless, using the masterwork portable altar in this manner expends the altar's materials in the same way that using the normal altar to bolster a Craft check does.",
 			"",
-			"A masterwork portable altar can be used multiple times, but after 20 uses, it must be restocked with 50 gp worth of sanctified materials - preferably purchased from a temple of the associated deity. The altar grants no bonuses on skill checks if used while its materials are depleted, though it can still be employed as a normal portable altar."
+			"A masterwork portable altar can be used multiple times, but after 20 uses, it must be restocked with 50 gp worth of sanctified materials - preferably purchased from a temple of the associated deity. The altar grants no bonuses on skill checks if used while its materials are depleted, though it can still be employed as a normal portable altar.",
+			"",
+			"| Deity | Favored Craft | Aided Skill |",
+			"| --- | --- | --- |",
+			"| ‹faith/Abadar› | Craft (jewelry) | ‹skill/Appraise› |",
+			"| ‹faith/Asmodeus› | Craft (calligraphy) | ‹skill/Diplomacy› |",
+			"| ‹faith/Calistria› | Craft (traps) | ‹skill/Bluff› |",
+			"| ‹faith/Cayden Cailean› | Craft (leather) | ‹skill/Ride› |",
+			"| ‹faith/Desna› | Craft (clothing) | ‹skill/Perception› |",
+			"| ‹faith/Erastil› | Craft (bows) | ‹skill/Survival› |",
+			"| ‹faith/Gorum› | Craft (armor) | ‹skill/Intimidate› |",
+			"| ‹faith/Gozreh› | Craft (ships) | ‹skill/Handle Animal› |",
+			"| ‹faith/Iomedae› | Craft (armor) | Diplomacy |",
+			"| ‹faith/Irori› | Craft (books) | ‹skill/Acrobatics› |",
+			"| ‹faith/Lamashtu› | Craft (traps) | Intimidate |",
+			"| ‹faith/Nethys› | Craft (books) | ‹skill/Spellcraft› |",
+			"| ‹faith/Norgorber› | Craft (alchemy) | ‹skill/Stealth› |",
+			"| ‹faith/Pharasma› | Craft (pottery) | Perception |",
+			"| ‹faith/Rovagug› | Craft (weapons) | Intimidate |",
+			"| ‹faith/Sarenrae› | Craft (weapons) | ‹skill/Heal› |",
+			"| ‹faith/Shelyn› | Craft (any art) | ‹skill/Perform« (any)› |",
+			"| ‹faith/Torag› | Craft (stonemasonry) | ‹skill/Climb› |",
+			"| ‹faith/Urgathoa› | Craft (alchemy) | ‹skill/Disguise› |",
+			"| ‹faith/Zon-Kuthon› | Craft (locks) | Stealth |"
 		]
 	},
 	"portable_altar": {
@@ -348,7 +387,9 @@
 			"‹SOURCE Occult Adventures/249›  ",
 			"::tabular{format=misc a=800 b=35 d=tools}",
 			"",
-			"This long, wooden case contains a complicated framework of brass armatures, balance weights, a foldable mat, and purplehued lenses of various shapes and sizes. When assembled, the case becomes a small bed over which looms a complicated, slowly revolving array of lenses that filter sunlight onto the mat below. Only usable on bright, sunny days, the solarium has enough room for one Medium or two Small creatures to recline beneath its lens array and bask in the healing rays of the filtered natural light. The solarium can be used in conjunction with the long-term care use of the Heal skill. Subjects who bask in the filtered light for an 8-hour rest period recover 1 additional hit point per level or 1 additional ability score point if their caregivers succeed at the required Heal check."
+			"This long, wooden case contains a complicated framework of brass armatures, balance weights, a foldable mat, and purple-hued lenses of various shapes and sizes. When assembled, the case becomes a small bed over which looms a complicated, slowly revolving array of lenses that filter sunlight onto the mat below. Only usable on bright, sunny days, the solarium has enough room for one Medium or two Small creatures to recline beneath its lens array and bask in the healing rays of the filtered natural light.",
+			"",
+			"@I-aid The solarium can be used in conjunction with the long-term care use of the ‹skill/Heal› skill. Subjects who bask in the filtered light for an 8-hour rest period recover 1 additional hit point per level or 1 additional ability score point if their caregivers succeed at the required Heal check."
 		]
 	},
 	"portable_sweat_lodge": {
@@ -359,7 +400,9 @@
 			"‹SOURCE Occult Adventures/250›  ",
 			"::tabular{format=misc a=25 b=25 d=tools}",
 			"",
-			"This large leather wrap contains a foldable wooden framework that sits on stilts, pliable slats of birch bark, additional leather rolls, and consecrated stones. When assembled, the resulting hut is a small dome, suitable as a tent shelter and large enough to fit two crouching Medium humanoids or four Small humanoids. When the stones are heated and water is poured over them to create a thick steam, the hut becomes a sweat lodge for healing ceremonies, and provides a +2 circumstance bonus on Heal checks for the faith healing occult skill unlock."
+			"This large leather wrap contains a foldable wooden framework that sits on stilts, pliable slats of birch bark, additional leather rolls, and consecrated stones. When assembled, the resulting hut is a small dome, suitable as a tent shelter and large enough to fit two crouching Medium humanoids or four Small humanoids.",
+			"",
+			"@I-boost When the stones are heated and water is poured over them to create a thick steam, the hut becomes a sweat lodge for healing ceremonies, and provides a +2 circumstance bonus on ‹skill/Heal› checks for the *faith healing* occult skill unlock."
 		]
 	},
 	"portable_terrarium": {
@@ -370,7 +413,9 @@
 			"‹SOURCE Adventurer's Armory 2/16›  ",
 			"::tabular{format=misc a=100 b=4 d=tools}",
 			"",
-			"This small glass enclosure is 1 foot wide, 1 foot tall, and reinforced with a wooden or metal frame. Tiny air holes in the lid allow living creatures inside the portable terrarium to breathe, and the interior can be outfitted with a variety of substrates and other materials the creatures might require. A portable terrarium is usually fitted with straps so it can be tied to a pack. Diminutive and smaller creatures, such as some familiars, can be safely carried within a portable terrarium and have total ‹rule/cover› while inside it. Healers and botanists often store living plants in these containers; a successful DC 12 Knowledge (nature) check is required to transplant a plant into a portable terrarium, and most plants can live in a portable terrarium indefinitely so long as they are properly tended."
+			"This small glass enclosure is 1 foot wide, 1 foot tall, and reinforced with a wooden or metal frame. Tiny air holes in the lid allow living creatures inside the portable terrarium to breathe, and the interior can be outfitted with a variety of substrates and other materials the creatures might require. A portable terrarium is usually fitted with straps so it can be tied to a pack.",
+			"",
+			"Diminutive and smaller creatures, such as some familiars, can be safely carried within a portable terrarium and have total ‹rule/cover› while inside it. Healers and botanists often store living plants in these containers; a successful DC 12 ‹skill/Knowledge (nature)› check is required to transplant a plant into a portable terrarium, and most plants can live in a portable terrarium indefinitely so long as they are properly tended."
 		]
 	},
 	"portrait_book": {
@@ -436,7 +481,9 @@
 			"‹SOURCE Castles of the Inner Sea/39›  ",
 			"::tabular{format=misc a=\"400 gp (empty), 300 gp (fuel)\" b=\"4 lbs. (empty), 1 lb. (fuel)\" c=x d=tools}",
 			"",
-			"This steel sphere is about the size of a standard cannon ball, though it's significantly lighter. Small holes pock the surface of the sphere, which can be unscrewed into two hemispherical pieces. By filling the intricate hollows in an opened powder ball with a specific mixture of volatile chemical reagents (which can typically be purchased in Highhelm for around 200 gp) and inserting a proprietary fuse, an individual can use the weapon as a time-delayed explosive device, throwing it as a splash weapon or simply placing it where she wants it to explode. The fuse can be ignited as a move action; 1d4 rounds afterward, the powder ball explodes, dealing 2d6 points of fire damage to anything in a 10-foot-radius ‹misc/burst› (DC 15 for half). A powder ball explodes in this way three times - the second explosion occurs 1d3 rounds after the initial explosion, and the third explosion occurs 1d2 rounds after the second. After the third explosion, the empty powder ball can be refilled and used again."
+			"This steel sphere is about the size of a standard cannon ball, though it's significantly lighter. Small holes pock the surface of the sphere, which can be unscrewed into two hemispherical pieces. By filling the intricate hollows in an opened powder ball with a specific mixture of volatile chemical reagents (which can typically be purchased in Highhelm for around 200 gp) and inserting a proprietary fuse, an individual can use the weapon as a time-delayed explosive device, throwing it as a ‹rule/splash weapon› or simply placing it where she wants it to explode.",
+			"",
+			"@I-boom The fuse can be ignited as a @HL[move action]; 1d4 rounds afterward, the powder ball explodes, dealing 2d6 points of fire damage to anything in a 10-foot-radius ‹misc/burst› (DC 15 for half). A powder ball explodes in this way three times - the second explosion occurs 1d3 rounds after the initial explosion, and the third explosion occurs 1d2 rounds after the second. After the third explosion, the empty powder ball can be refilled and used again."
 		]
 	},
 	"powder_ball_fuel": {
@@ -493,7 +540,9 @@
 			"‹SOURCE Adventurer's Armory 2/14›  ",
 			"::tabular{format=misc a=100 b=2 d=tools}",
 			"",
-			"This straitjacket is designed for use by a single person. The leather straps and arm restraints are accessible in such a way as to be tightened by the wearer. Restraining or releasing oneself through these mechanisms requires 1 minute of work. Once restrained, the wearer can attempt to escape from the straitjacket as normal (that is, without using the built-in releases). Using a practice straitjacket to train for escape requires 1 hour of practice and a DC 20 Escape Artist check. If you succeed at the check, you gain a +2 circumstance bonus on Escape Artist checks to escape from bindings, a grapple, a net, rope, or similar restraints. This bonus lasts for 24 hours."
+			"This straitjacket is designed for use by a single person. The leather straps and arm restraints are accessible in such a way as to be tightened by the wearer. Restraining or releasing oneself through these mechanisms requires 1 minute of work. Once restrained, the wearer can attempt to escape from the straitjacket as normal (that is, without using the built-in releases).",
+			"",
+			"@I-def Using a practice straitjacket to train for escape requires 1 hour of practice and a DC 20 ‹skill/Escape Artist› check. If you succeed at the check, you gain a +2 circumstance bonus on Escape Artist checks to escape from bindings, a ‹rule/grapple›, a net, rope, or similar restraints. This bonus lasts for 24 hours."
 		]
 	},
 	"premium_hookah": {
@@ -559,7 +608,11 @@
 			"‹SOURCE Occult Adventures/250›  ",
 			"::tabular{format=misc a=30 b=3 d=tools}",
 			"",
-			"This small but thick booklet contains information on a specific form of folk divination, such as cartomancy, cheiromancy, crystallomancy, or horoscopy. Using such a book while reading a creature's fortune reduces the time needed to read that fortune by 2 minutes. When used as part of a ‹skill/Sense Motive› check for the ‹skill/prognostication› occult skill unlock, this book grants a +2 circumstance bonus. If the fortune-telling method requires a particular item, such as a deck of cards for cartomancy or animal bones for osteomancy, that item provides a +2 circumstance bonus that doesn't stack with the bonus provided by the prognostication manual.",
+			"This small but thick booklet contains information on a specific form of folk divination, such as cartomancy, cheiromancy, crystallomancy, or horoscopy.",
+			"",
+			"@I-boost Using such a book while reading a creature's fortune reduces the time needed to read that fortune by 2 minutes. When used as part of a ‹skill/Sense Motive› check for the ‹skill/prognostication› occult skill unlock, this book grants a +2 circumstance bonus.",
+			"",
+			"@I-boost If the fortune-telling method requires a particular item, such as a deck of cards for cartomancy or animal bones for osteomancy, that item provides a +2 circumstance bonus that doesn't stack with the bonus provided by the prognostication manual.",
 			"",
 			"A prognostication manual is useful primarily for cheiromancy (palm reading), horoscopy, and other methods that don't require special equipment."
 		]
@@ -639,7 +692,9 @@
 			"‹SOURCE Occult Adventures/250›  ",
 			"::tabular{format=misc a=10 b=5 d=tools}",
 			"",
-			"These layered lambskin gloves are specially designed and psychically attuned to increase the tactile sensitivity of the wearer's hands. To provide any benefit, the gloves must be worn for 8 uninterrupted hours. All Dexterity skill checks requiring the use of the hands take a -2 penalty as long as the gloves remain on. After this 8-hour period, the user can remove the gloves to gain a +2 circumstance bonus on Appraise checks for the ‹skill/psychometry› occult skill unlock. This benefit fades after 1 hour."
+			"@I-down These layered lambskin gloves are specially designed and psychically attuned to increase the tactile sensitivity of the wearer's hands. To provide any benefit, the gloves must be worn for 8 uninterrupted hours. All Dexterity skill checks requiring the use of the hands take a -2 penalty as long as the gloves remain on.",
+			"",
+			"@I-boost After this 8-hour period, the user can remove the gloves to gain a +2 circumstance bonus on ‹skill/Appraise› checks for the ‹skill/psychometry› occult skill unlock. This benefit fades after 1 hour."
 		]
 	},
 	"pull_cord_grenade": {
@@ -882,7 +937,9 @@
 			"‹SOURCE Martial Arts Handbook/31›  ",
 			"::tabular{format=misc a=40 b=30 d=tools}",
 			"",
-			"At its simplest, a quintain is a swiveling pole with a pair of arms, although permanent quintains are more elaborate and often look like armored mannequins. One arm holds a wooden board shaped like a shield. The other arm has a padded flail attached. In a routine originally used to train knights, a user rides past a quintain and tries to hit the board with a weapon, and then get out of the way before the quintain swings around to strike him with its flail in retaliation. Training with a quintain requires 1 hour of practice and a DC 15 Ride check. If you succeed at the check, you gain a +2 circumstance bonus on Ride checks to stay in the saddle, guide with your knees, and control a combat-trained mount. This bonus lasts for 24 hours or until you fail a Ride check."
+			"At its simplest, a quintain is a swiveling pole with a pair of arms, although permanent quintains are more elaborate and often look like armored mannequins. One arm holds a wooden board shaped like a shield. The other arm has a padded flail attached. In a routine originally used to train knights, a user rides past a quintain and tries to hit the board with a weapon, and then get out of the way before the quintain swings around to strike him with its flail in retaliation.",
+			"",
+			"@I-boost Training with a quintain requires 1 hour of practice and a DC 15 ‹skill/Ride› check. If you succeed at the check, you gain a +2 circumstance bonus on Ride checks to stay in the saddle, guide with your knees, and control a combat-trained mount. This bonus lasts for 24 hours or until you fail a Ride check."
 		]
 	},
 	"rabbit": {
@@ -1046,7 +1103,11 @@
 			"‹SOURCE Merchant's Manifest/17›  ",
 			"::tabular{format=misc a=1000 b=10 d=tools}",
 			"",
-			"These connected glass-and-copper apparatuses have ‹eq-misc/heatstone«s› and other components installed at the base of each container to break down magic liquids placed within. Any potion placed within the extractor is distilled down to its component parts over the course of 4 hours; this destroys the potion. The extracted essences can then be used to brew a new potion as long as the new potion is of the same spell level or lower than the distilled potion. Using the extractor in this way does not change the requirements for brewing a potion, but it does remove the need to use fresh and unused ingredients and materials to brew the new potion, and this waives the new potion's base cost (but not the requirement to provide any costly material component or focus that the new potion's spell requires). Essences extracted from a potion using a reagent extractor must be used to create a new potion within 24 hours; after this time, they become inert."
+			"These connected glass-and-copper apparatuses have ‹eq-misc/heatstone«s› and other components installed at the base of each container to break down magic liquids placed within.",
+			"",
+			"@I-power Any potion placed within the extractor is distilled down to its component parts over the course of 4 hours; this destroys the potion. The extracted essences can then be used to brew a new potion as long as the new potion is of the same spell level or lower than the distilled potion. Using the extractor in this way does not change the requirements for brewing a potion, but it does remove the need to use fresh and unused ingredients and materials to brew the new potion, and this waives the new potion's base cost (but not the requirement to provide any costly material component or focus that the new potion's spell requires).",
+			"",
+			"Essences extracted from a potion using a reagent extractor must be used to create a new potion within 24 hours; after this time, they become inert."
 		]
 	},
 	"reagent_paper": {
@@ -1287,7 +1348,11 @@
 			"‹SOURCE Advanced Race Guide/66›  ",
 			"::tabular{format=misc a=15 b=1 d=tools}",
 			"",
-			"This thin length of rope has many oddly shaped bits of hollow metal fixed along its length. As a standard action, a creature can swing a roar cord over its head to generate a variety of eerie noises. For the next round, any creature within 60 feet of the roar cord takes a -2 penalty on Perception checks that rely on sound and a -1 penalty on saving throws against fear effects. The roar cord can be used as a bardic instrument (string) that grants the bard a +2 bonus on Perform checks when using the ‹performance/countersong› bardic performance."
+			"This thin length of rope has many oddly shaped bits of hollow metal fixed along its length.",
+			"",
+			"@I-aura-lower As a @HL[standard action], a creature can swing a roar cord over its head to generate a variety of eerie noises. For the next round, any creature within 60 feet of the roar cord takes a -2 penalty on ‹skill/Perception› checks that rely on sound and a -1 penalty on saving throws against fear effects.",
+			"",
+			"@I-boost The roar cord can be used as a bardic instrument (string) that grants the bard a +2 bonus on Perform checks when using the ‹performance/countersong› bardic performance."
 		]
 	},
 	"rockshard_canister": {
@@ -1352,7 +1417,9 @@
 			"‹SOURCE Advanced Class Guide/205›  ",
 			"::tabular{format=misc a=50 b=3 d=tools}",
 			"",
-			"You can place this metal contraption onto a taut section of a ‹eq-misc/rope› connecting a high point to a lower one, allowing you to slide down the length of the rope with ease. Using a roperunner requires only one hand, leaving the other hand free during the descent. Attaching the roperunner to a rope is a move action. Beginning the descent is a swift action. You slide down the rope at a rate of 60 feet per round. This requires no action on your part, but you must move along the length of the rope in the downward direction. Retrieving the roperunner once you have come to a stop at the end of the rope is a move action. You can let go of the roperunner as a free action."
+			"You can place this metal contraption onto a taut section of a ‹eq-misc/rope› connecting a high point to a lower one, allowing you to slide down the length of the rope with ease. Using a roperunner requires only one hand, leaving the other hand free during the descent.",
+			"",
+			"Attaching the roperunner to a rope is a @HL[move action]. Beginning the descent is a @HL[swift action]. You slide down the rope at a rate of 60 feet per round. This requires no action on your part, but you must move along the length of the rope in the downward direction. Retrieving the roperunner once you have come to a stop at the end of the rope is a @HL[move action]. You can let go of the roperunner as a @HL[free action]."
 		]
 	},
 	"rounders_gear": {
@@ -1427,7 +1494,7 @@
 			"‹SOURCE Cohorts and Companions/17›  ",
 			"::tabular{format=misc a=25 b=2 d=tools}",
 			"",
-			"This waxy paste preserves metal objects against rust. One application coats a Medium or smaller metal object or creature and lasts 24 hours, granting it a +2 circumstance bonus on saving throws against rusting effects and reduces amount of damage dealt by rusting attacks by 5. A jar of rust repellent contains 5 applications."
+			"@I-def This waxy paste preserves metal objects against rust. One application coats a Medium or smaller metal object or creature and lasts 24 hours, granting it a +2 circumstance bonus on saving throws against rusting effects and reduces amount of damage dealt by rusting attacks by 5. A jar of rust repellent contains 5 applications."
 		]
 	},
 	"rusting_powder": {
@@ -1578,7 +1645,9 @@
 			"‹SOURCE Advanced Race Guide/199›  ",
 			"::tabular{format=misc a=25 b=\"0.5\" d=tools}",
 			"",
-			"This handheld wooden spool spins freely within a box-like housing. Inscribed upon the exterior of the spool are dozens of samsaran prayers along with names or symbols associated with a samsaran's past lives. ‹race/Samsaran«s› believe that spinning the wheel during meditation strengthens the spiritual connections between their former lives. If a samsaran meditates with her wheel for at least 10 minutes about a Knowledge (history) question relating to her own history or the histories of her past lives, she gains a +1 insight bonus on the check."
+			"This handheld wooden spool spins freely within a box-like housing. Inscribed upon the exterior of the spool are dozens of samsaran prayers along with names or symbols associated with a samsaran's past lives. ‹race/Samsaran«s› believe that spinning the wheel during meditation strengthens the spiritual connections between their former lives.",
+			"",
+			"@I-boost If a samsaran meditates with her wheel for at least 10 minutes about a ‹skill/Knowledge (history)› question relating to her own history or the histories of her past lives, she gains a +1 insight bonus on the check."
 		]
 	},
 	"sanctified_rings_pair": {

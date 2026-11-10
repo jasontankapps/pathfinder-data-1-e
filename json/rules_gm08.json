@@ -1215,6 +1215,8 @@
 			"aquatic_terrain"
 		]
 	},
+	"becoming_lost": { "redirect": "getting_lost" },
+	"lost": { "redirect": "getting_lost" },
 	"forest_terrain": {
 		"name": "Forest Terrain",
 		"subtitle": "Wilderness",

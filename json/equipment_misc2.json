@@ -7,7 +7,9 @@
 			"‹SOURCE Goblins of Golarion/12›  ",
 			"::tabular{format=misc a=5 b=x d=tools}",
 			"",
-			"Tribal fetishes vary from tribe to tribe, but are generally small, carved wooden or stone religious symbols, luck tokens, or curious naturally occurring objects specially carved to resemble something of significance (such as an acorn with a wolf fangs, a dried mushroom with skull-shaped blotches, or a stone with a lizard carved on it). A ‹race/goblin› divine spellcaster can use a tribal fetish as a divine focus for spellcasting."
+			"Tribal fetishes vary from tribe to tribe, but are generally small, carved wooden or stone religious symbols, luck tokens, or curious naturally occurring objects specially carved to resemble something of significance (such as an acorn with a wolf fangs, a dried mushroom with skull-shaped blotches, or a stone with a lizard carved on it).",
+			"",
+			"@I-power A ‹race/goblin› divine spellcaster can use a tribal fetish as a divine focus for spellcasting."
 		]
 	},
 	"tribal_fetish": { "redirect": "fetish_tribal" },
@@ -134,7 +136,9 @@
 			"‹SOURCE Goblins of Golarion/12›  ",
 			"::tabular{format=misc a=\"0.1\" b=1 d=tools}",
 			"",
-			"A fire carrier is a conical device made of thickly insulated leather and wood designed to carry a live coal under a layer of ash. A fire carrier can keep a coal red hot for 24 hours and allows anyone to light a fire in normal conditions without having to resort to Survival checks, alchemical devices, or magic."
+			"A fire carrier is a conical device made of thickly insulated leather and wood designed to carry a live coal under a layer of ash.",
+			"",
+			"@I-power A fire carrier can keep a coal red hot for 24 hours and allows anyone to light a fire in normal conditions without having to resort to ‹skill/Survival› checks, alchemical devices, or magic."
 		]
 	},
 	"fire_giant_hunters_kit": {
@@ -456,7 +460,7 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=1 b=2 d=tools}",
 			"",
-			"Usually composed of an inflated animal bladder sealed with pitch, a held flotation device adds a +1 circumstance bonus on Swim checks."
+			"@I-boost Usually composed of an inflated animal bladder sealed with pitch, a held flotation device adds a +1 circumstance bonus on ‹skill/Swim› checks."
 		]
 	},
 	"flying_straps_masterwork": {
@@ -594,7 +598,11 @@
 			"‹SOURCE Ultimate Equipment/77;Advanced Player's Guide/184›  ",
 			"::tabular{format=misc a=50 b=3 d=tools}",
 			"",
-			"This 50-page tome contains accurate drawings of common animal, humanoid, and monster tracks, as well as notes on stride length, tread depth, and similarly useful information. The book gives you a +2 circumstance bonus to identify a creature by its tracks, though the use of shoes makes identifying many humanoids difficult or impossible. Though the book can't help you identify unique individuals, it can help you tell an ogre's footprint from a troll's footprint, or an elf's track from an orc's. Books sold in different areas may have different footprints, depending on what creatures are common to that location."
+			"This 50-page tome contains accurate drawings of common animal, humanoid, and monster tracks, as well as notes on stride length, tread depth, and similarly useful information.",
+			"",
+			"@I-boost The book gives you a +2 circumstance bonus to [identify a creature by its tracks](skill/survival), though the use of shoes makes identifying many humanoids difficult or impossible. Though the book can't help you identify unique individuals, it can help you tell an ogre's footprint from a troll's footprint, or an elf's track from an orc's.",
+			"",
+			"Books sold in different areas may have different footprints, depending on what creatures are common to that location."
 		]
 	},
 	"footprint_cast": {
@@ -605,7 +613,7 @@
 			"‹SOURCE Advanced Class Guide/204›  ",
 			"::tabular{format=misc a=2 b=1 d=tools}",
 			"",
-			"This quick-drying cast is perfect for preserving a set of footprints in order to examine them later. By spending 1 minute setting the cast and waiting for it to dry, you can copy footprints, allowing others to examine them without traveling to the scene, and preventing the DC of the Survival check to analyze them from increasing because of time or weather."
+			"This quick-drying cast is perfect for preserving a set of footprints in order to examine them later. By spending 1 minute setting the cast and waiting for it to dry, you can copy footprints, allowing others to examine them without traveling to the scene, and preventing the DC of the ‹skill/Survival› check to analyze them from increasing because of time or weather."
 		]
 	},
 	"forecast_station": {
@@ -616,7 +624,9 @@
 			"‹SOURCE Heroes of the Wild/9›  ",
 			"::tabular{format=misc a=150 b=2 d=tools}",
 			"",
-			"This wooden box contains a simple anemometer and three tubes filled with alchemical fluids that expand and contract with changes in air temperature, humidity, and pressure. A forecast station grants a +5 bonus on Survival checks to predict weather."
+			"This wooden box contains a simple anemometer and three tubes filled with alchemical fluids that expand and contract with changes in air temperature, humidity, and pressure.",
+			"",
+			"@I-boost A forecast station grants a +5 bonus on ‹skill/Survival› checks to predict weather."
 		]
 	},
 	"forest_kit": {
@@ -638,7 +648,9 @@
 			"‹SOURCE Ultimate Equipment/77›  ",
 			"::tabular{format=misc a=200 b=6 d=tools}",
 			"",
-			"These inks, pens, papers, templates for certificates, and tools for modifying or copying official seals facilitates the creation of counterfeit documents. It grants a +2 circumstance bonus on Linguistics checks made for the purpose of making forgeries."
+			"These inks, pens, papers, templates for certificates, and tools for modifying or copying official seals facilitates the creation of counterfeit documents.",
+			"",
+			"@I-boost It grants a +2 circumstance bonus on ‹skill/Linguistics› checks made for the purpose of making forgeries."
 		]
 	},
 	"formula_book": {
@@ -649,7 +661,9 @@
 			"‹SOURCE Ultimate Equipment/77›  ",
 			"::tabular{format=misc a=15 b=3 d=tools}",
 			"",
-			"A formula book has 100 pages of parchment, and each alchemical extract formula takes up one page per extract level. A newly purchased formula book contains no extract formulas. An alchemist character begins play with a formula book containing the extract formulae he knows. This is the alchemist equivalent of a spellbook for wizards (a ‹eq-misc/spellbook› and a formula book are essentially the same item)."
+			"A formula book has 100 pages of parchment, and each alchemical extract formula takes up one page per extract level. A newly purchased formula book contains no extract formulas.",
+			"",
+			"An ‹class/alchemist› character begins play with a formula book containing the extract formulae he knows. This is the alchemist equivalent of a spellbook for wizards (a ‹eq-misc/spellbook› and a formula book are essentially the same item)."
 		]
 	},
 	"fortifying_brew": {
@@ -699,10 +713,21 @@
 		],
 		"description": [
 			"## Fortune-teller's deck",
-			"‹SOURCE Ultimate Equipment/77;Advanced Player's Guide/184›  ",
-			"::tabular{format=misc a=\"1 gp (common), 50 gp (masterwork), 25 gp (quality)\" b=\"&frac12& lb. (common), 1 lb. (masterwork), 1 lb. (quality)\" c=x d=tools}",
+			"‹SOURCE Ultimate Equipment/77;Advanced Player's Guide/184›",
 			"",
-			"This deck of illustrated cards is used by those in tune with the spirit world to predict the future - and by charlatans to take money from the gullible. A common deck only has simple drawings on simple wooden plaques. A quality fortune-teller's deck usually consists of wooden plaques with painted color images; it is suitable as a focus for the ‹spell/augury› spell, and provides a +1 circumstance bonus on Profession (fortune-teller), Profession (medium), and similar Profession checks. A masterwork fortune-teller's deck may be wood, ivory, or even metal, with painted or carved images, and is often highlighted with gold inlays or tiny gems; it has all the benefits of a quality deck, except it provides a +2 circumstance bonus on the listed skill checks."
+			"This deck of illustrated cards is used by those in tune with the spirit world to predict the future - and by charlatans to take money from the gullible.",
+			"",
+			"::tabular{format=misc a=1 b=\"0.5\" d=tools}",
+			"",
+			"A common deck only has simple drawings on simple wooden plaques.",
+			"",
+			"::tabular{format=misc a=25 b=1 d=tools}",
+			"",
+			"@I-boost A quality fortune-teller's deck usually consists of wooden plaques with painted color images; it is suitable as a focus for the ‹spell/augury› spell, and provides a +1 circumstance bonus on ‹skill/Profession› (fortune-teller), Profession (medium), and similar Profession checks.",
+			"",
+			"::tabular{format=misc a=50 b=1 d=tools}",
+			"",
+			"@I-boost A masterwork fortune-teller's deck may be wood, ivory, or even metal, with painted or carved images, and is often highlighted with gold inlays or tiny gems; it has all the benefits of a quality deck, except it provides a +2 circumstance bonus on the listed skill checks."
 		]
 	},
 	"fortune_tellers_deck_masterwork": {
@@ -864,11 +889,13 @@
 			"‹SOURCE Ranged Tactics Toolbox/20›  ",
 			"::tabular{format=misc a=1 b=2 d=tools}",
 			"",
-			"This tough wickerwork cylinder is typically 3 feet tall and 2 feet wide. It has no top or bottom, and can be filled with about 10 cubic feet of earth, stone, or other heavy materials while standing upright to provide substantial ‹rule/cover›. Filling a gabion with earth using a shovel generally requires 4 minutes of work for a Medium character or 8 minutes of work for a Small character. One gabion provides cover for a Small character and might provide partial cover for a Medium character, at the GM's discretion. Two gabions together can provide cover to a Medium character, although if they aren't stacked atop each other, they can form only a low obstacle depending on the character's height.",
+			"This tough wickerwork cylinder is typically 3 feet tall and 2 feet wide. It has no top or bottom, and can be filled with about 10 cubic feet of earth, stone, or other heavy materials while standing upright to provide substantial ‹rule/cover›.",
+			"",
+			"Filling a gabion with earth using a shovel generally requires 4 minutes of work for a Medium character or 8 minutes of work for a Small character. One gabion provides cover for a Small character and might provide partial cover for a Medium character, at the GM's discretion. Two gabions together can provide cover to a Medium character, although if they aren't stacked atop each other, they can form only a low obstacle depending on the character's height.",
 			"",
 			"Gabions can be made of different materials, but the type described here is one of the most common varieties.",
 			"",
-			"Craft (traps) DC 10"
+			"**Construction:** Craft (traps) DC 10"
 		]
 	},
 	"galley": {
@@ -1256,7 +1283,9 @@
 			"‹SOURCE Advanced Class Guide/204›  ",
 			"::tabular{format=misc a=5 b=\"0.5\" d=tools}",
 			"",
-			"When applied to your body, this pale grease made from animal fat makes you more difficult to grapple. While covered in the grease, you gain a +4 bonus to CMD against ‹rule/grapple› combat maneuvers. Applying the grease takes 1 minute, and once applied, its effects last for 10 minutes. You can't be wearing armor to gain the benefit of grappler's grease. Grappler's grease is usually sold in small clay jars that hold five applications."
+			"When applied to your body, this pale grease made from animal fat makes you more difficult to grapple.",
+			"",
+			"@I-def While covered in the grease, you gain a +4 bonus to CMD against ‹rule/grapple› combat maneuvers. Applying the grease takes 1 minute, and once applied, its effects last for 10 minutes. You can't be wearing armor to gain the benefit of *grappler's grease. Grappler's grease* is usually sold in small clay jars that hold five applications."
 		]
 	},
 	"grappling_hook_common": {
@@ -1428,7 +1457,9 @@
 			"‹SOURCE Advanced Race Guide/56›  ",
 			"::tabular{format=misc a=75 b=1 d=tools}",
 			"",
-			"This specifically designed kit was put together by half-orcs to help them appear more human. It includes skin cream to disguise green-gray skin color and other items designed to conceal or draw attention away from typical half-orc physical characteristics. Using this kit on a half-orc grants a +3 bonus on Disguise checks to appear human. Used on an orc, it only grants a +1 bonus on these checks. A half-orc disguise kit is exhausted after 10 uses."
+			"This specifically designed kit was put together by ‹race/half-orc«s› to help them appear more human. It includes skin cream to disguise green-gray skin color and other items designed to conceal or draw attention away from typical half-orc physical characteristics.",
+			"",
+			"@I-boost Using this kit on a half-orc grants a +3 bonus on ‹skill/Disguise› checks to appear human. Used on an orc, it only grants a +1 bonus on these checks. A half-orc disguise kit is exhausted after 10 uses."
 		]
 	},
 	"halfling_jugglesticks": {
@@ -1480,7 +1511,9 @@
 			"‹SOURCE Martial Arts Handbook/30›  ",
 			"::tabular{format=misc a=8 b=24 d=tools}",
 			"",
-			"These paired stone or metal weights look like a pair of curved stones with handles. An athlete can take one weight in each hand and swing them back and forth before jumping, using the momentum to gain greater distance when taking off. Training with halteres requires 1 hour of practice and a DC 16 Acrobatics check. If you succeed at the check, you gain a +2 circumstance bonus on Acrobatics checks to make long jumps. This bonus lasts for 24 hours or until you fail an Acrobatics check."
+			"These paired stone or metal weights look like a pair of curved stones with handles. An athlete can take one weight in each hand and swing them back and forth before jumping, using the momentum to gain greater distance when taking off.",
+			"",
+			"@I-boost Training with halteres requires 1 hour of practice and a DC 16 ‹skill/Acrobatics› check. If you succeed at the check, you gain a +2 circumstance bonus on Acrobatics checks to make long jumps. This bonus lasts for 24 hours or until you fail an Acrobatics check."
 		]
 	},
 	"hammer": {
@@ -1530,7 +1563,11 @@
 			"‹SOURCE Melee Tactics Toolbox/20›  ",
 			"::tabular{format=misc a=25 b=10 d=tools}",
 			"",
-			"This wood-and-leather harness fits over clothing or armor and provides small handles and footrests across your back and along the sides of your legs and arms. While wearing a handle harness, you automatically succeed at checks to aid an adjacent ally of your size or smaller with Climb or Ride checks, or Acrobatics checks to balance on narrow surfaces or uneven ground. A handle harness's ungainly construction gives you a -2 penalty on Escape Artist checks."
+			"This wood-and-leather harness fits over clothing or armor and provides small handles and footrests across your back and along the sides of your legs and arms.",
+			"",
+			"@I-boost While wearing a handle harness, you automatically succeed at checks to ‹rule/aid<_another› an adjacent ally of your size or smaller with ‹skill/Climb› or ‹skill/Ride› checks, or ‹skill/Acrobatics› checks to balance on narrow surfaces or uneven ground.",
+			"",
+			"@I-down A handle harness's ungainly construction gives you a -2 penalty on ‹skill/Escape Artist› checks."
 		]
 	},
 	"hanging_board": {
@@ -1541,7 +1578,9 @@
 			"‹SOURCE Adventurer's Armory 2/14›  ",
 			"::tabular{format=misc a=75 b=7 d=tools}",
 			"",
-			"This wooden board bears a number of narrow, thin holes large enough to hold by the fingertips. The board mounts to a wall, allowing climbers to practice their technique and improve their grip by hanging from the board. Using a hanging board to improve your grip requires 1 hour of practice and a DC 18 Climb check. If you succeed at the check, you gain a +10 circumstance bonus on Climb checks to catch yourself while falling and a +5 bonus to catch a falling character while climbing. This bonus lasts for 24 hours."
+			"This wooden board bears a number of narrow, thin holes large enough to hold by the fingertips. The board mounts to a wall, allowing climbers to practice their technique and improve their grip by hanging from the board.",
+			"",
+			"@I-boost Using a hanging board to improve your grip requires 1 hour of practice and a DC 18 ‹skill/Climb› check. If you succeed at the check, you gain a +10 circumstance bonus on Climb checks to catch yourself while ‹rule/falling› and a +5 bonus to catch a falling character while climbing. This bonus lasts for 24 hours."
 		]
 	},
 	"harpy_musk": {
@@ -1696,7 +1735,7 @@
 			"‹SOURCE Ultimate Equipment/77;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc a=50 b=1 d=tools}",
 			"",
-			"This collection of bandages and herbs provides a +2 circumstance bonus on Heal checks. A healer's kit is exhausted after 10 uses."
+			"@I-boost This collection of bandages and herbs provides a +2 circumstance bonus on ‹skill/Heal› checks. A healer's kit is exhausted after 10 uses."
 		]
 	},
 	"heated_gloves": {
@@ -2535,7 +2574,9 @@
 			"‹SOURCE Advanced Class Guide/204›  ",
 			"::tabular{format=misc a=100 b=x d=tools}",
 			"",
-			"This complicated lens fits over one eye and takes up the eyes slot when in use. When using it in conjunction with a ranged weapon, you reduce any range penalty on your attacks by 2. Objects within 100 feet become difficult to see, however, and you take a -2 penalty on Perception checks based on sight while wearing the hunter's sight."
+			"This complicated lens fits over one eye and takes up the ‹rule/eyes slot› when in use.",
+			"",
+			"@I-boost-down When using it in conjunction with a ranged weapon, you reduce any range penalty on your attacks by 2. Objects within 100 feet become difficult to see, however, and you take a -2 penalty on ‹skill/Perception› checks based on sight while wearing the *hunter's sight.*"
 		]
 	},
 	"hunters_stand": {
@@ -3172,7 +3213,7 @@
 			"‹SOURCE Ultimate Equipment/77;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=15 b=10 d=tools}",
 			"",
-			"This kit includes multiple sets of well-balanced objects, such as balls, clubs, knives, rings, and torches. It provides a +1 bonus on Perform (act or comedy) checks and checks involving juggling."
+			"@I-boost This kit includes multiple sets of well-balanced objects, such as balls, clubs, knives, rings, and torches. It provides a +1 bonus on ‹skill/Perform› (act or comedy) checks and checks involving juggling."
 		]
 	},
 	"jungle_coffee_cup": {
@@ -3467,7 +3508,9 @@
 			"‹SOURCE Ultimate Equipment/77;Advanced Player's Guide/184›  ",
 			"::tabular{format=misc a=5 b=5 d=tools}",
 			"",
-			"This sturdy ceramic jar has a heavy lid with a few tiny holes to let air in. It is normally half-filled with water and contains four adult leeches, each about 6 inches long. A leeching kit grants you a +2 circumstance bonus on Heal checks to treat poison. Used for medicinal bloodletting, a leech can survive for 6 months between feedings."
+			"This sturdy ceramic jar has a heavy lid with a few tiny holes to let air in. It is normally half-filled with water and contains four adult leeches, each about 6 inches long.",
+			"",
+			"@I-boost A leeching kit grants you a +2 circumstance bonus on ‹skill/Heal› checks to treat poison. Used for medicinal bloodletting, a leech can survive for 6 months between feedings."
 		]
 	},
 	"leechwort": {
@@ -3492,7 +3535,11 @@
 			"‹SOURCE People of the Stars/19›  ",
 			"::tabular{format=misc a=1000 b=2 d=tools}",
 			"",
-			"These devices strap onto a character's legs in order to allow for easier movement in low- or high-gravity environments. A character wearing leg stabilizers can move and attempt Acrobatics checks in gravity between &times;1 and &times;3 as if in gravity &times;1. A character wearing them in gravity stronger than &times;1/3 but weaker than &times;1 gains a foot circumstance bonus to his land speed. This device has no effect on other actions. Attaching or removing leg stabilizers is a full-round action."
+			"These devices strap onto a character's legs in order to allow for easier movement in low- or high-‹rule/gravity› environments.",
+			"",
+			"@I-power A character wearing *leg stabilizers* can move and attempt ‹skill/Acrobatics› checks in gravity between &times;1 and &times;3 as if in gravity &times;1. A character wearing them in gravity stronger than &times;&#8531; but weaker than &times;1 gains a +10-foot circumstance bonus to his land speed. This device has no effect on other actions.",
+			"",
+			"Attaching or removing *leg stabilizers* is a @HL[full-round action]."
 		]
 	},
 	"leng_ruby": {
@@ -3605,9 +3652,11 @@
 			"‹SOURCE Adventurer's Armory 2/16›  ",
 			"::tabular{format=misc a=\"200 gp (expanded), 50 gp (standard)\" b=\"5 lbs. (expanded), 3 lbs. (standard)\" c=x d=tools}",
 			"",
-			"This leather-bound reference tome contains several alphabets used in the various languages of Golarion, along with extensively cross-referenced and indexed words, phrases, and idioms. As long as you speak at least three languages, consulting a standard linguist's codex grants you a +2 circumstance bonus on Linguistics checks when communicating in a language you do not speak.",
+			"This leather-bound reference tome contains several alphabets used in the various languages of Golarion, along with extensively cross-referenced and indexed words, phrases, and idioms.",
 			"",
-			"An expanded linguist's codex has far more phrases and guidance, including instructions to pronounce the sounds in a correct and pleasing manner. These codices provide a +2 circumstance bonus on Diplomacy checks when communicating in a language you do not speak."
+			"@I-boost As long as you speak at least three languages, consulting a standard linguist's codex grants you a +2 circumstance bonus on ‹skill/Linguistics› checks when communicating in a language you do not speak.",
+			"",
+			"@I-boost An expanded linguist's codex has far more phrases and guidance, including instructions to pronounce the sounds in a correct and pleasing manner. These codices provide a +2 circumstance bonus on ‹skill/Diplomacy› checks when communicating in a language you do not speak."
 		]
 	},
 	"linguists_codex_standard": {
@@ -4265,7 +4314,9 @@
 			"‹SOURCE Ultimate Equipment/77;Advanced Player's Guide/185;Pathfinder #51: The Hungry Storm/67›  ",
 			"::tabular{format=misc a=10 b=2 d=tools}",
 			"",
-			"This small kit contains a simple slate with a grid carved into its surface and a number of differently colored pieces of ‹eq-misc/chalk›. If you use this kit to draw a map as you travel, you receive a +2 circumstance bonus on Survival skill checks to avoid becoming lost."
+			"This small kit contains a simple slate with a grid carved into its surface and a number of differently colored pieces of ‹eq-misc/chalk›.",
+			"",
+			"@I-boost If you use this kit to draw a map as you travel, you receive a +2 circumstance bonus on ‹skill/Survival› skill checks to avoid ‹rule/becoming lost›."
 		]
 	},
 	"marbles": {
@@ -4342,7 +4393,9 @@
 			"‹SOURCE Advanced Class Guide/204›  ",
 			"::tabular{format=misc a=\"0.8\" b=\"0.5\" d=tools}",
 			"",
-			"These polished metal spikes can aid you in performing a variety of rope work, including tying and untying knots, untangling things, splicing rope, or tensioning ropes. A typical spike is somewhere between 6 inches to a foot in length, has a slender and almost needle-like taper, and is blunted at both ends. Smaller spikes are worn on lanyards while a larger spike is kept in a sheath. A marlinspike grants you a +2 circumstance bonus on Skill checks involving the use of a rope."
+			"These polished metal spikes can aid you in performing a variety of rope work, including tying and untying knots, untangling things, splicing rope, or tensioning ropes. A typical spike is somewhere between 6 inches to a foot in length, has a slender and almost needle-like taper, and is blunted at both ends. Smaller spikes are worn on lanyards while a larger spike is kept in a sheath.",
+			"",
+			"@I-boost A marlinspike grants you a +2 circumstance bonus on skill checks involving the use of a rope."
 		]
 	},
 	"mask": {
@@ -4403,7 +4456,7 @@
 			"‹SOURCE Aquatic Adventures/56›  ",
 			"::tabular{format=misc a=50 b=1 d=tools}",
 			"",
-			"These sleek and aquadynamic flippers grant their wearer a +2 circumstance bonus on Swim checks to perform complex maneuvers underwater or swim through rough waters. This bonus doesn't stack with racial bonuses on Swim checks from having a swim speed."
+			"@I-boost-info These sleek and aquadynamic flippers grant their wearer a +2 circumstance bonus on ‹skill/Swim› checks to perform complex maneuvers underwater or swim through rough waters. This bonus doesn't stack with racial bonuses on Swim checks from having a swim speed."
 		]
 	},
 	"masterwork_tool": {
@@ -4417,13 +4470,13 @@
 			"‹SOURCE Ultimate Equipment/77;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc a=50 b=1 d=tools}",
 			"",
-			"This tool is perfect for its intended job. It grants a +2 circumstance bonus on a related skill check (if any). The bonuses provided by multiple masterwork items do not stack.",
+			"@I-boost This tool is perfect for its intended job. It grants a +2 circumstance bonus on a related skill check (if any). The bonuses provided by multiple masterwork items do not stack.",
 			"",
-			"Several common items already count as masterwork tools for particular skills. These are the ‹eq-misc/alchemist's lab›, ‹eq-misc/climber's kit›, ‹eq-misc/disguise kit›, ‹eq-misc/healer's kit›, ‹eq-misc/masterwork musical instrument›, and ‹eq-misc/masterwork thieves' tools›. Therefore, there is no masterwork climber's kit, masterwork healer's kit, and so on - those items are already the best available for general checks with the relevant skill.",
+			"Several common items already count as masterwork tools for particular skills. These are the ‹eq-misc/alchemist's lab›, ‹eq-misc/climber's kit›, ‹eq-misc/disguise kit›, ‹eq-misc/healer's kit›, ‹eq-misc/masterwork musical instrument›, and ‹eq-misc/masterwork thieves' tools›. Therefore, there is no *masterwork climber's kit, masterwork healer's kit,* and so on - those items are already the best available for general checks with the relevant skill.",
 			"",
-			"Some skills have no appropriate tool or masterwork tool; no nonmagical item exists that grants a bonus for all uses of that skill. For example, just because a certain perfume is favored by local nobles (granting a +2 circumstance bonus on Diplomacy checks to influence them) doesn't mean that perfume has the same effect on a member of the thieves' guild, a foreign berserker, or a medusa. Likewise, just because a fake beard woven by dwarves out of the beards of famous dwarves may grant a +2 circumstance bonus on Use Magic Device checks to emulate the dwarven race doesn't mean the beard has any effect on using that skill to activate elven items or paladin items, or to decipher a written spell.",
+			"Some skills have no appropriate tool or masterwork tool; no nonmagical item exists that grants a bonus for all uses of that skill. For example, just because a certain perfume is favored by local nobles (granting a +2 circumstance bonus on ‹skill/Diplomacy› checks to influence them) doesn't mean that perfume has the same effect on a member of the thieves' guild, a foreign berserker, or a ‹monster/medusa›. Likewise, just because a fake beard woven by dwarves out of the beards of famous dwarves may grant a +2 circumstance bonus on ‹skill/Use Magic Device› checks to emulate the dwarven race doesn't mean the beard has any effect on using that skill to activate elven items or paladin items, or to decipher a written spell.",
 			"",
-			"Individual GMs may want to allow masterwork tools for other skills at the listed cost. The circumstance bonus for such a tool should never be more than +2. The tool should either have a limited number of uses (such as the disguise and healer's kits) or only apply to certain aspects of the skill (such as the balancing pole's bonus on Acrobatics checks to traverse a narrow surface or the magnifying glass's bonus on Appraise checks for detailed items)."
+			"@I-info Individual GMs may want to allow masterwork tools for other skills at the listed cost. The circumstance bonus for such a tool should never be more than +2. The tool should either have a limited number of uses (such as the *disguise* and *healer's kits*) or only apply to certain aspects of the skill (such as the ‹eq-misc/balancing pole«'s› bonus on ‹skill/Acrobatics› checks to traverse a narrow surface or the ‹eq-misc/magnifying glass«'s› bonus on ‹skill/Appraise› checks for detailed items)."
 		]
 	},
 	"mastodon_brush": {
@@ -4559,7 +4612,9 @@
 			"‹SOURCE Martial Arts Handbook/31›  ",
 			"::tabular{format=misc a=10 b=30 d=tools}",
 			"",
-			"Also called Vudrani clubs, meels are heavily weighted clubs used to train one's strength. They range in size from only a few pounds to specially crafted lead or stone meels which weigh as much as a human. This set contains three wooden meels of more common dimensions. Athletes practice with meels by taking a club in each hand and swinging them in a rhythmic fashion around the body. Training with a set of meels requires 1 hour of practice and a DC 10 Strength check. If you succeed at the check, you gain a +2 circumstance bonus on Strength checks and treat your Strength score as 1 higher for the purpose of determining your carrying capacity. This bonus lasts for 24 hours."
+			"Also called Vudrani clubs, meels are heavily weighted clubs used to train one's strength. They range in size from only a few pounds to specially crafted lead or stone meels which weigh as much as a human. This set contains three wooden meels of more common dimensions.",
+			"",
+			"@I-boost Athletes practice with meels by taking a club in each hand and swinging them in a rhythmic fashion around the body. Training with a set of meels requires 1 hour of practice and a DC 10 Strength check. If you succeed at the check, you gain a +2 circumstance bonus on Strength checks and treat your Strength score as 1 higher for the purpose of determining your ‹rule/carrying capacity›. This bonus lasts for 24 hours."
 		]
 	},
 	"mekainae": {
@@ -4628,7 +4683,11 @@
 			"‹SOURCE Cohorts and Companions/17›  ",
 			"::tabular{format=misc a=5 b=10 d=tools}",
 			"",
-			"This leather packet contains tools and materials for repairing items created with one specific Craft skill. Using a mending kit grants a +2 circumstance bonus on Craft checks made to repair a damaged item of the appropriate type. By spending 1 hour, the user can make a Craft check, dividing the result by 10 to determine how many points of damage are repaired. A mending kit can be used 10 times before needing replacement."
+			"This leather packet contains tools and materials for repairing items created with one specific ‹skill/Craft› skill.",
+			"",
+			"@I-boost Using a mending kit grants a +2 circumstance bonus on Craft checks made to repair a damaged item of the appropriate type. By spending 1 hour, the user can make a Craft check, dividing the result by 10 to determine how many points of damage are repaired.",
+			"",
+			"A mending kit can be used 10 times before needing replacement."
 		]
 	},
 	"mending_paste": {
@@ -4670,7 +4729,7 @@
 			"‹SOURCE Ultimate Equipment/77;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc a=2 b=1 d=tools}",
 			"",
-			"A merchant's scale is a simple lever on a fulcrum, from which two trays hang. It grants a +2 circumstance bonus on Appraise checks involving items that are valued by weight, including anything made of precious metals."
+			"@I-boost A merchant's scale is a simple lever on a fulcrum, from which two trays hang. It grants a +2 circumstance bonus on ‹skill/Appraise› checks involving items that are valued by weight, including anything made of precious metals."
 		]
 	},
 	"merfolks_comb": {
@@ -4749,7 +4808,11 @@
 			"‹SOURCE Ultimate Equipment/77›  ",
 			"::tabular{format=misc a=10 b=2 d=tools}",
 			"",
-			"This kit is used by midwives to care for pregnant women and to deliver babies. Each kit contains herbs to treat common conditions during pregnancy, salves for aches and distended skin, swaddling cloths, a small but sharp knife for cutting an umbilical cord, powder for cleaning the newborn, bandages, a needle, and thread. Using the kit gives you a +4 circumstance bonus on Heal checks when dealing with humanoid pregnancy or birth. You may use it for other kinds pregnant or birthing creatures (such as animals or monstrous humanoids), but it only gives a +2 bonus on such Heal checks. A midwife's kit is exhausted after 10 uses."
+			"This kit is used by midwives to care for pregnant women and to deliver babies. Each kit contains herbs to treat common conditions during pregnancy, salves for aches and distended skin, swaddling cloths, a small but sharp knife for cutting an umbilical cord, powder for cleaning the newborn, bandages, a needle, and thread.",
+			"",
+			"@I-boost Using the kit gives you a +4 circumstance bonus on ‹skill/Heal› checks when dealing with humanoid pregnancy or birth. You may use it for other kinds pregnant or birthing creatures (such as animals or monstrous humanoids), but it only gives a +2 bonus on such Heal checks.",
+			"",
+			"A midwife's kit is exhausted after 10 uses."
 		]
 	},
 	"milk": {
@@ -5114,7 +5177,11 @@
 			"‹SOURCE Monster Hunter's Handbook/26›  ",
 			"::tabular{format=misc a=10 b=40 d=tools}",
 			"",
-			"This is a straw-stuffed wire frame of a monstrous creature, wrapped in burlap and coated in the musk of that particular creature. When using the Handle Animal skill to teach the attack trick, having a monster dummy present allows the trainer to add whatever creature type the dummy represents to the list of creatures the animal will attack. The dummy also provides a +2 bonus on Handle Animal checks to teach animals to attack all kinds of creatures."
+			"This is a straw-stuffed wire frame of a monstrous creature, wrapped in burlap and coated in the musk of that particular creature.",
+			"",
+			"@I-power When using the ‹skill/Handle Animal› skill to teach the ‹ability/animal>attack» trick<s›, having a monster dummy present allows the trainer to add whatever creature type the dummy represents to the list of creatures the animal will attack.",
+			"",
+			"@I-boost The dummy also provides a +2 bonus on Handle Animal checks to teach animals to attack all kinds of creatures."
 		]
 	},
 	"monster_hunters_kit_abberation": {

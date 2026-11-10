@@ -14,7 +14,9 @@ const _planar_travelers_kit = {title: "Planar traveler's kit", jsx: <><h2 id="eq
 const _pnakotic_record = {title: "Pnakotic record", jsx: <><h2 id="eq-misc-pnakotic_record-pnakotic-record">Pnakotic record</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_112_the_whisper_out_of_time">Pathfinder #112: The Whisper Out of Time pg. 73</Link>  </p>
 <Tabular format="misc" a="2000" b="10" d="tools" />
-<p>These strange books are fashioned from a metallic alloy, the crafting of which is known only to <Link to="/monster/yithian">yithians</Link> and a very few others. Supposedly taken from the same collection as the fabled Pnakotic Manuscripts and traded throughout the multiverse, these books are collections of notes recorded by visitors to the yithians' cities. Each book is written in multiple languages and provides a vast array of information on a specifc topic, but the information it contains is often oddly specifc and lacks context. A single Pnakotic record focuses on a single subject within the confnes of a single Knowledge skill, such as a presentation on the nature of deep one religious practices in worshiping Cthulhu (Knowledge [religion]), the mechanics of a shoggoth's biology (Knowledge [dungeoneering]), or the methods of creating portals between worlds (Knowledge [arcana]). By studying a Pnakotic record for 8 hours, a reader can attempt a single Knowledge check of the appropriate type when researching the book's corresponding subject to gain a +10 circumstance bonus on the check.</p>
+<p>These strange books are fashioned from a metallic alloy, the crafting of which is known only to <Link to="/monster/yithian">yithians</Link> and a very few others. Supposedly taken from the same collection as the fabled Pnakotic Manuscripts and traded throughout the multiverse, these books are collections of notes recorded by visitors to the yithians' cities. Each book is written in multiple languages and provides a vast array of information on a specifc topic, but the information it contains is often oddly specifc and lacks context.</p>
+<p>A single <em>Pnakotic record</em> focuses on a single subject within the confnes of a single Knowledge skill, such as a presentation on the nature of <Link to="/monster/deep_one">deep one</Link> religious practices in worshiping <Link to="/faith/cthulhu">Cthulhu</Link> (<Link to="/skill/knowledge_religion">Knowledge (religion)</Link>), the mechanics of a <Link to="/monster/shoggoth">shoggoth's</Link> biology (<Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link>), or the methods of creating portals between worlds (<Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link>).</p>
+<p><Icons id="eq-misc-pnakotic_record-boost-icons" wrapper="prefixIcon" list={["boost"]} /> By studying a <em>Pnakotic record</em> for 8 hours, a reader can attempt a single Knowledge check of the appropriate type when researching the book's corresponding subject to gain a +10 circumstance bonus on the check.</p>
 </>};
 const _pocket_watch = {title: "Pocket watch", jsx: <><h2 id="eq-misc-pocket_watch-pocket-watch">Pocket watch</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -24,7 +26,8 @@ const _pocket_watch = {title: "Pocket watch", jsx: <><h2 id="eq-misc-pocket_watc
 const _poison_belcher = {title: "Poison belcher", jsx: <><h2 id="eq-misc-poison_belcher-poison-belcher">Poison belcher</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 6</Link>  </p>
 <Tabular format="misc" a="50" b="0.5" d="tools" />
-<p>Loading this long bronze tube with a dose of ingested poison and 10 gp worth of gold dust is a standard action. When you blow on a poison belcher like a blowgun, it sprays the poison out the other end. The poison belcher is a simple weapon that strikes as a ranged touch attack with a range increment of 10 feet and a maximum range of 30 feet. If hit, the target must save against the poison as if it had been ingested.</p>
+<p>Loading this long bronze tube with a dose of ingested poison and 10 gp worth of gold dust is a <strong className="hl">standard action</strong>. When you blow on a <em>poison belcher</em> like a blowgun, it sprays the poison out the other end.</p>
+<p><Icons id="eq-misc-poison_belcher-zap-icons" wrapper="prefixIcon" list={["zap"]} /> The <em>poison belcher</em> is a simple weapon that strikes as a ranged touch attack with a range increment of 10 feet and a maximum range of 30 feet. If hit, the target must save against the poison as if it had been ingested.</p>
 </>};
 const _poison_caps = {title: "Poison caps", jsx: <><h2 id="eq-misc-poison_caps-poison-caps">Poison caps</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 12</Link>  </p>
@@ -59,7 +62,8 @@ const _poison_sealant = {title: "Poison sealant", jsx: <><h2 id="eq-misc-poison_
 const _poison_sponge = {title: "Poison sponge", jsx: <><h2 id="eq-misc-poison_sponge-poison-sponge">Poison sponge</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 27</Link>  </p>
 <Tabular format="misc" a="150" b="1" d="tools" />
-<p>This spongy sac has a permeable membrane that can absorb, distill, and store toxins. When harvesting parts (see the <Link to="/feat/harvest_parts">Harvest Parts</Link> feat) from a poisonous creature, you can use a poison sponge to harvest and store one dose of the creature's poison instead. The DC to harvest poison is equal to 20 + the creature's CR, and the poison retains its potency for 3 days. A successful check stores a single dose of the creature's poison in the sponge, which you can then apply like any poison. Poison sponges become saturated over time, imposing a cumulative -2 penalty on checks to harvest poison each subsequent time they are used.</p>
+<p><Icons id="eq-misc-poison_sponge-power-icons" wrapper="prefixIcon" list={["power"]} /> This spongy sac has a permeable membrane that can absorb, distill, and store toxins. When harvesting parts (see the <Link to="/feat/harvest_parts">Harvest Parts</Link> feat) from a poisonous creature, you can use a poison sponge to harvest and store one dose of the creature's poison instead. The DC to harvest poison is equal to 20 + the creature's CR, and the poison retains its potency for 3 days. A successful check stores a single dose of the creature's poison in the sponge, which you can then apply like any poison.</p>
+<p><Icons id="eq-misc-poison_sponge-down-icons" wrapper="prefixIcon" list={["down"]} /> Poison sponges become saturated over time, imposing a cumulative -2 penalty on checks to harvest poison each subsequent time they are used.</p>
 </>};
 const _poison_tattoo = {title: "Poison tattoo", jsx: <><h2 id="eq-misc-poison_tattoo-poison-tattoo">Poison tattoo</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 209</Link>  </p>
@@ -76,17 +80,21 @@ const _poison_ward_salve = {title: "Poison ward salve", jsx: <><h2 id="eq-misc-p
 const _poisoned_locket = {title: "Poisoned locket", jsx: <><h2 id="eq-misc-poisoned_locket-poisoned-locket">Poisoned locket</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 29</Link>  </p>
 <Tabular format="misc" a="75" b="x" d="tools" />
-<p>This heart-shaped locket is attached to a thin metal chain made of looped strands of gold or silver. Inside the locket is a small, spring-loaded vial that can hold a single dose of powdered poison. Loading the locket with poison carries the same risks as applying poison to a weapon. When the locket is opened, the vial is shattered by a ball bearing, releasing the powder into the air and treating the poison's type as if it were inhaled. The airborne poison affects all creatures within 10 feet of the locket.</p>
+<p>This heart-shaped locket is attached to a thin metal chain made of looped strands of gold or silver. Inside the locket is a small, spring-loaded vial that can hold a single dose of powdered poison. Loading the locket with poison carries the same risks as applying poison to a weapon.</p>
+<p><Icons id="eq-misc-poisoned_locket-aura-icons" wrapper="prefixIcon" list={["aura"]} /> When the locket is opened, the vial is shattered by a ball bearing, releasing the powder into the air and treating the poison's type as if it were inhaled. The airborne poison affects all creatures within 10 feet of the locket.</p>
 </>};
 const _poisoned_quill = {title: "Poisoned quill", jsx: <><h2 id="eq-misc-poisoned_quill-poisoned-quill">Poisoned quill</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 29</Link>  </p>
 <Tabular format="misc" a="30" b="x" d="tools" />
-<p>This long <Link to="/eq-misc/inkpen">pen</Link> is made from a delicate feather and has a thin and unusually long nib. The quill is typically white in color, though variations that are crimson, onyx, or some combination of these colors also exist. A hidden compartment inside the nib allows the quill to hold a single dose of poison that is dispensable with a small squeeze. Additionally, this provides a +2 circumstance bonus on Sleight of Hand checks to conceal poisons inside the quill. If this quill is used with <Link to="/eq-misc/vector_ink">vector ink</Link>, it increases the DC of a poison mixed with the ink by 1. This quill can be used as a small shiv to deal 1d3 points of damage and deliver its contained poison. However, because of the fragility of the nib, using the quill in this way destroys it.</p>
+<p>This long <Link to="/eq-misc/inkpen">pen</Link> is made from a delicate feather and has a thin and unusually long nib. The quill is typically white in color, though variations that are crimson, onyx, or some combination of these colors also exist.</p>
+<p><Icons id="eq-misc-poisoned_quill-power-boost-icons" wrapper="prefixIcon" list={["power","boost"]} /> A hidden compartment inside the nib allows the quill to hold a single dose of poison that is dispensable with a small squeeze. Additionally, this provides a +2 circumstance bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks to conceal poisons inside the quill.</p>
+<p><Icons id="eq-misc-poisoned_quill-boost-icons" wrapper="prefixIcon" list={["boost"]} /> If this quill is used with <Link to="/eq-misc/vector_ink">vector ink</Link>, it increases the DC of a poison mixed with the ink by 1.</p>
+<p><Icons id="eq-misc-poisoned_quill-melee-icons" wrapper="prefixIcon" list={["melee"]} /> This quill can be used as a small shiv to deal 1d3 points of damage and deliver its contained poison. However, because of the fragility of the nib, using the quill in this way destroys it.</p>
 </>};
 const _poisoners_goblet = {title: "Poisoner's goblet", jsx: <><h2 id="eq-misc-poisoners_goblet-poisoners-goblet">Poisoner's goblet</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 29</Link>  </p>
 <Tabular format="misc" a="100" b="2" d="tools" />
-<p>This is an elegantly styled, gem-encrusted drinking chalice made of smooth jade, obsidian, or a burnished fine metal. The chalice has a hidden compartment in the stem that allows for the insertion of a single vial of poison. The user doesn't risk poisoning himself when inserting the vial. Inside the compartment is a needle that siphons the poison from the vial and injects it into the bowl of the goblet. A hidden button (DC 20 Perception to locate) on the side of the stem begins the transfer of poison into the bowl. The transfer process takes 1 minute to complete, after which the hidden poison is emptied into the goblet.</p>
+<p>This is an elegantly styled, gem-encrusted drinking chalice made of smooth jade, obsidian, or a burnished fine metal. The chalice has a hidden compartment in the stem that allows for the insertion of a single vial of poison. The user doesn't risk poisoning himself when inserting the vial. Inside the compartment is a needle that siphons the poison from the vial and injects it into the bowl of the goblet. A hidden button (DC 20 <Link to="/skill/perception">Perception</Link> to locate) on the side of the stem begins the transfer of poison into the bowl. The transfer process takes 1 minute to complete, after which the hidden poison is emptied into the goblet.</p>
 </>};
 const _poisoning_sheath = {title: "Poisoning sheath", jsx: <><h2 id="eq-misc-poisoning_sheath-poisoning-sheath">Poisoning sheath</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>  </p>
@@ -117,15 +125,124 @@ const _poncho = {title: "Poncho", jsx: <><h2 id="eq-misc-poncho-poncho">Poncho</
 const _portable_alchemists_lab = {title: "Portable alchemist's lab", jsx: <><h2 id="eq-misc-portable_alchemists_lab-portable-alchemists-lab">Portable alchemist's lab</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>  </p>
 <Tabular format="misc" a="75" b="20" d="tools" />
-<p>This compact version of a full-sized <Link to="/eq-misc/alchemists_lab">alchemist's lab</Link> provides a +1 circumstance bonus on Craft (alchemy) checks.</p>
+<p><Icons id="eq-misc-portable_alchemists_lab-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This compact version of a full-sized <Link to="/eq-misc/alchemists_lab">alchemist's lab</Link> provides a +1 circumstance bonus on <Link to="/skill/craft">Craft</Link> (alchemy) checks.</p>
 </>};
 const _portable_altar_masterwork = {title: "Portable altar (masterwork)", jsx: <><h2 id="eq-misc-portable_altar_masterwork-portable-altar-masterwork">Portable altar (masterwork)</h2>
 <p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook pg. 18</Link>  </p>
 <Tabular format="misc" a="400" b="40" d="tools" />
 <p>Consecrated to one of Golarion's many deities, this intricately etched case contains numerous candles, stands, scented herbs, dishes, silks, small cups, containers, and similar ceremonial tools all bearing colors and iconography sacred to the associated deity. The sturdy container features a padded interior with numerous straps and compartments so that the items within aren't damaged in transport. The altar's surface prominently features a deity's holy symbol, and it's sturdy enough that it can support up to 300 pounds of weight, enough to serve as a makeshift pulpit.</p>
-<p>Among the items found within the altar are the tools and materials necessary to perform not just ceremonies, but also jobs and professions the related deity deems sacred, as well as holy texts written to inspire greatness in the deity's followers. The user can expend some of the materials within the altar to gain a +2 circumstance bonus on the next Craft check of the specified type.</p>
-<p>In addition, after spending 1 hour praying and reading the holy scriptures within the altar, the user gains a +2 circumstance bonus on a single skill check. Which deity this altar is dedicated to determines the skill to which this bonus applies. The user must attempt this skill check within an hour of praying and reading the altar's scriptures or lose the bonus - the mantras and inspiration provided by the texts having drifted from her mind. This hour of prayer and scripture reading can be integrated with the time a cleric uses to prepare her spells. Regardless, using the masterwork portable altar in this manner expends the altar's materials in the same way that using the normal altar to bolster a Craft check does.</p>
+<p><Icons id="eq-misc-portable_altar_masterwork-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Among the items found within the altar are the tools and materials necessary to perform not just ceremonies, but also jobs and professions the related deity deems sacred, as well as holy texts written to inspire greatness in the deity's followers. The user can expend some of the materials within the altar to gain a +2 circumstance bonus on the next <Link to="/skill/craft">Craft</Link> check of the specified type (see below).</p>
+<p><Icons id="eq-misc-portable_altar_masterwork-boost-icons" wrapper="prefixIcon" list={["boost"]} /> In addition, after spending 1 hour praying and reading the holy scriptures within the altar, the user gains a +2 circumstance bonus on a single skill check. Which deity this altar is dedicated to determines the skill to which this bonus applies (see below). The user must attempt this skill check within an hour of praying and reading the altar's scriptures or lose the bonus - the mantras and inspiration provided by the texts having drifted from her mind. This hour of prayer and scripture reading can be integrated with the time a cleric uses to prepare her spells. Regardless, using the masterwork portable altar in this manner expends the altar's materials in the same way that using the normal altar to bolster a Craft check does.</p>
 <p>A masterwork portable altar can be used multiple times, but after 20 uses, it must be restocked with 50 gp worth of sanctified materials - preferably purchased from a temple of the associated deity. The altar grants no bonuses on skill checks if used while its materials are depleted, though it can still be employed as a normal portable altar.</p>
+<ScrollContainer id="eq-misc-portable_altar_masterwork--table-0"><table>
+<thead>
+<tr>
+<th>Deity</th>
+<th>Favored Craft</th>
+<th>Aided Skill</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><Link to="/faith/abadar">Abadar</Link></td>
+<td>Craft (jewelry)</td>
+<td><Link to="/skill/appraise">Appraise</Link></td>
+</tr>
+<tr>
+<td><Link to="/faith/asmodeus">Asmodeus</Link></td>
+<td>Craft (calligraphy)</td>
+<td><Link to="/skill/diplomacy">Diplomacy</Link></td>
+</tr>
+<tr>
+<td><Link to="/faith/calistria">Calistria</Link></td>
+<td>Craft (traps)</td>
+<td><Link to="/skill/bluff">Bluff</Link></td>
+</tr>
+<tr>
+<td><Link to="/faith/cayden_cailean">Cayden Cailean</Link></td>
+<td>Craft (leather)</td>
+<td><Link to="/skill/ride">Ride</Link></td>
+</tr>
+<tr>
+<td><Link to="/faith/desna">Desna</Link></td>
+<td>Craft (clothing)</td>
+<td><Link to="/skill/perception">Perception</Link></td>
+</tr>
+<tr>
+<td><Link to="/faith/erastil">Erastil</Link></td>
+<td>Craft (bows)</td>
+<td><Link to="/skill/survival">Survival</Link></td>
+</tr>
+<tr>
+<td><Link to="/faith/gorum">Gorum</Link></td>
+<td>Craft (armor)</td>
+<td><Link to="/skill/intimidate">Intimidate</Link></td>
+</tr>
+<tr>
+<td><Link to="/faith/gozreh">Gozreh</Link></td>
+<td>Craft (ships)</td>
+<td><Link to="/skill/handle_animal">Handle Animal</Link></td>
+</tr>
+<tr>
+<td><Link to="/faith/iomedae">Iomedae</Link></td>
+<td>Craft (armor)</td>
+<td>Diplomacy</td>
+</tr>
+<tr>
+<td><Link to="/faith/irori">Irori</Link></td>
+<td>Craft (books)</td>
+<td><Link to="/skill/acrobatics">Acrobatics</Link></td>
+</tr>
+<tr>
+<td><Link to="/faith/lamashtu">Lamashtu</Link></td>
+<td>Craft (traps)</td>
+<td>Intimidate</td>
+</tr>
+<tr>
+<td><Link to="/faith/nethys">Nethys</Link></td>
+<td>Craft (books)</td>
+<td><Link to="/skill/spellcraft">Spellcraft</Link></td>
+</tr>
+<tr>
+<td><Link to="/faith/norgorber">Norgorber</Link></td>
+<td>Craft (alchemy)</td>
+<td><Link to="/skill/stealth">Stealth</Link></td>
+</tr>
+<tr>
+<td><Link to="/faith/pharasma">Pharasma</Link></td>
+<td>Craft (pottery)</td>
+<td>Perception</td>
+</tr>
+<tr>
+<td><Link to="/faith/rovagug">Rovagug</Link></td>
+<td>Craft (weapons)</td>
+<td>Intimidate</td>
+</tr>
+<tr>
+<td><Link to="/faith/sarenrae">Sarenrae</Link></td>
+<td>Craft (weapons)</td>
+<td><Link to="/skill/heal">Heal</Link></td>
+</tr>
+<tr>
+<td><Link to="/faith/shelyn">Shelyn</Link></td>
+<td>Craft (any art)</td>
+<td><Link to="/skill/perform">Perform (any)</Link></td>
+</tr>
+<tr>
+<td><Link to="/faith/torag">Torag</Link></td>
+<td>Craft (stonemasonry)</td>
+<td><Link to="/skill/climb">Climb</Link></td>
+</tr>
+<tr>
+<td><Link to="/faith/urgathoa">Urgathoa</Link></td>
+<td>Craft (alchemy)</td>
+<td><Link to="/skill/disguise">Disguise</Link></td>
+</tr>
+<tr>
+<td><Link to="/faith/zon_kuthon">Zon-Kuthon</Link></td>
+<td>Craft (locks)</td>
+<td>Stealth</td>
+</tr>
+</tbody></table></ScrollContainer>
 </>};
 const _portable_altar = {title: "Portable altar", jsx: <><h2 id="eq-misc-portable_altar-portable-altar">Portable altar</h2>
 <p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook pg. 18</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>  </p>
@@ -157,17 +274,20 @@ const _portable_ram = {title: "Portable ram", jsx: <><h2 id="eq-misc-portable_ra
 const _portable_solarium = {title: "Portable solarium", jsx: <><h2 id="eq-misc-portable_solarium-portable-solarium">Portable solarium</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 249</Link>  </p>
 <Tabular format="misc" a="800" b="35" d="tools" />
-<p>This long, wooden case contains a complicated framework of brass armatures, balance weights, a foldable mat, and purplehued lenses of various shapes and sizes. When assembled, the case becomes a small bed over which looms a complicated, slowly revolving array of lenses that filter sunlight onto the mat below. Only usable on bright, sunny days, the solarium has enough room for one Medium or two Small creatures to recline beneath its lens array and bask in the healing rays of the filtered natural light. The solarium can be used in conjunction with the long-term care use of the Heal skill. Subjects who bask in the filtered light for an 8-hour rest period recover 1 additional hit point per level or 1 additional ability score point if their caregivers succeed at the required Heal check.</p>
+<p>This long, wooden case contains a complicated framework of brass armatures, balance weights, a foldable mat, and purple-hued lenses of various shapes and sizes. When assembled, the case becomes a small bed over which looms a complicated, slowly revolving array of lenses that filter sunlight onto the mat below. Only usable on bright, sunny days, the solarium has enough room for one Medium or two Small creatures to recline beneath its lens array and bask in the healing rays of the filtered natural light.</p>
+<p><Icons id="eq-misc-portable_solarium-aid-icons" wrapper="prefixIcon" list={["aid"]} /> The solarium can be used in conjunction with the long-term care use of the <Link to="/skill/heal">Heal</Link> skill. Subjects who bask in the filtered light for an 8-hour rest period recover 1 additional hit point per level or 1 additional ability score point if their caregivers succeed at the required Heal check.</p>
 </>};
 const _portable_sweat_lodge = {title: "Portable sweat lodge", jsx: <><h2 id="eq-misc-portable_sweat_lodge-portable-sweat-lodge">Portable sweat lodge</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 250</Link>  </p>
 <Tabular format="misc" a="25" b="25" d="tools" />
-<p>This large leather wrap contains a foldable wooden framework that sits on stilts, pliable slats of birch bark, additional leather rolls, and consecrated stones. When assembled, the resulting hut is a small dome, suitable as a tent shelter and large enough to fit two crouching Medium humanoids or four Small humanoids. When the stones are heated and water is poured over them to create a thick steam, the hut becomes a sweat lodge for healing ceremonies, and provides a +2 circumstance bonus on Heal checks for the faith healing occult skill unlock.</p>
+<p>This large leather wrap contains a foldable wooden framework that sits on stilts, pliable slats of birch bark, additional leather rolls, and consecrated stones. When assembled, the resulting hut is a small dome, suitable as a tent shelter and large enough to fit two crouching Medium humanoids or four Small humanoids.</p>
+<p><Icons id="eq-misc-portable_sweat_lodge-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When the stones are heated and water is poured over them to create a thick steam, the hut becomes a sweat lodge for healing ceremonies, and provides a +2 circumstance bonus on <Link to="/skill/heal">Heal</Link> checks for the <em>faith healing</em> occult skill unlock.</p>
 </>};
 const _portable_terrarium = {title: "Portable terrarium", jsx: <><h2 id="eq-misc-portable_terrarium-portable-terrarium">Portable terrarium</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 16</Link>  </p>
 <Tabular format="misc" a="100" b="4" d="tools" />
-<p>This small glass enclosure is 1 foot wide, 1 foot tall, and reinforced with a wooden or metal frame. Tiny air holes in the lid allow living creatures inside the portable terrarium to breathe, and the interior can be outfitted with a variety of substrates and other materials the creatures might require. A portable terrarium is usually fitted with straps so it can be tied to a pack. Diminutive and smaller creatures, such as some familiars, can be safely carried within a portable terrarium and have total <Link to="/rule/cover">cover</Link> while inside it. Healers and botanists often store living plants in these containers; a successful DC 12 Knowledge (nature) check is required to transplant a plant into a portable terrarium, and most plants can live in a portable terrarium indefinitely so long as they are properly tended.</p>
+<p>This small glass enclosure is 1 foot wide, 1 foot tall, and reinforced with a wooden or metal frame. Tiny air holes in the lid allow living creatures inside the portable terrarium to breathe, and the interior can be outfitted with a variety of substrates and other materials the creatures might require. A portable terrarium is usually fitted with straps so it can be tied to a pack.</p>
+<p>Diminutive and smaller creatures, such as some familiars, can be safely carried within a portable terrarium and have total <Link to="/rule/cover">cover</Link> while inside it. Healers and botanists often store living plants in these containers; a successful DC 12 <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> check is required to transplant a plant into a portable terrarium, and most plants can live in a portable terrarium indefinitely so long as they are properly tended.</p>
 </>};
 const _portrait_book = {title: "Portrait book", jsx: <><h2 id="eq-misc-portrait_book-portrait-book">Portrait book</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>  </p>
@@ -190,7 +310,8 @@ const _potion_sponge = {title: "Potion sponge", jsx: <><h2 id="eq-misc-potion_sp
 const _powder_ball_empty = {title: "Powder ball (empty)", jsx: <><h2 id="eq-misc-powder_ball_empty-powder-ball">Powder ball</h2>
 <p><strong>Sources</strong> <Link to="/source/castles_of_the_inner_sea">Castles of the Inner Sea pg. 39</Link>  </p>
 <Tabular format="misc" a="400 gp (empty), 300 gp (fuel)" b="4 lbs. (empty), 1 lb. (fuel)" c="x" d="tools" />
-<p>This steel sphere is about the size of a standard cannon ball, though it's significantly lighter. Small holes pock the surface of the sphere, which can be unscrewed into two hemispherical pieces. By filling the intricate hollows in an opened powder ball with a specific mixture of volatile chemical reagents (which can typically be purchased in Highhelm for around 200 gp) and inserting a proprietary fuse, an individual can use the weapon as a time-delayed explosive device, throwing it as a splash weapon or simply placing it where she wants it to explode. The fuse can be ignited as a move action; 1d4 rounds afterward, the powder ball explodes, dealing 2d6 points of fire damage to anything in a 10-foot-radius <Link to="/misc/burst">burst</Link> (DC 15 for half). A powder ball explodes in this way three times - the second explosion occurs 1d3 rounds after the initial explosion, and the third explosion occurs 1d2 rounds after the second. After the third explosion, the empty powder ball can be refilled and used again.</p>
+<p>This steel sphere is about the size of a standard cannon ball, though it's significantly lighter. Small holes pock the surface of the sphere, which can be unscrewed into two hemispherical pieces. By filling the intricate hollows in an opened powder ball with a specific mixture of volatile chemical reagents (which can typically be purchased in Highhelm for around 200 gp) and inserting a proprietary fuse, an individual can use the weapon as a time-delayed explosive device, throwing it as a <Link to="/rule/splash_weapon">splash weapon</Link> or simply placing it where she wants it to explode.</p>
+<p><Icons id="eq-misc-powder_ball_empty-boom-icons" wrapper="prefixIcon" list={["boom"]} /> The fuse can be ignited as a <strong className="hl">move action</strong>; 1d4 rounds afterward, the powder ball explodes, dealing 2d6 points of fire damage to anything in a 10-foot-radius <Link to="/misc/burst">burst</Link> (DC 15 for half). A powder ball explodes in this way three times - the second explosion occurs 1d3 rounds after the initial explosion, and the third explosion occurs 1d2 rounds after the second. After the third explosion, the empty powder ball can be refilled and used again.</p>
 </>};
 const _powder_horn = {title: "Powder horn", jsx: <><h2 id="eq-misc-powder_horn-powder-horn">Powder horn</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/ultimate_combat">Ultimate Combat pg. 141</Link>, <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 293</Link>  </p>
@@ -210,7 +331,8 @@ const _powdered_milk = {title: "Powdered milk", jsx: <><h2 id="eq-misc-powdered_
 const _practice_straitjacket = {title: "Practice straitjacket", jsx: <><h2 id="eq-misc-practice_straitjacket-practice-straitjacket">Practice straitjacket</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 14</Link>  </p>
 <Tabular format="misc" a="100" b="2" d="tools" />
-<p>This straitjacket is designed for use by a single person. The leather straps and arm restraints are accessible in such a way as to be tightened by the wearer. Restraining or releasing oneself through these mechanisms requires 1 minute of work. Once restrained, the wearer can attempt to escape from the straitjacket as normal (that is, without using the built-in releases). Using a practice straitjacket to train for escape requires 1 hour of practice and a DC 20 Escape Artist check. If you succeed at the check, you gain a +2 circumstance bonus on Escape Artist checks to escape from bindings, a grapple, a net, rope, or similar restraints. This bonus lasts for 24 hours.</p>
+<p>This straitjacket is designed for use by a single person. The leather straps and arm restraints are accessible in such a way as to be tightened by the wearer. Restraining or releasing oneself through these mechanisms requires 1 minute of work. Once restrained, the wearer can attempt to escape from the straitjacket as normal (that is, without using the built-in releases).</p>
+<p><Icons id="eq-misc-practice_straitjacket-def-icons" wrapper="prefixIcon" list={["def"]} /> Using a practice straitjacket to train for escape requires 1 hour of practice and a DC 20 <Link to="/skill/escape_artist">Escape Artist</Link> check. If you succeed at the check, you gain a +2 circumstance bonus on Escape Artist checks to escape from bindings, a <Link to="/rule/grapple">grapple</Link>, a net, rope, or similar restraints. This bonus lasts for 24 hours.</p>
 </>};
 const _premium_hookah = {title: "Premium hookah", jsx: <><h2 id="eq-misc-premium_hookah-premium-hookah">Premium hookah</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 18</Link>  </p>
@@ -240,7 +362,9 @@ const _privacy_shelter = {title: "Privacy shelter", jsx: <><h2 id="eq-misc-priva
 const _prognostication_manual = {title: "Prognostication manual", jsx: <><h2 id="eq-misc-prognostication_manual-prognostication-manual">Prognostication manual</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 250</Link>  </p>
 <Tabular format="misc" a="30" b="3" d="tools" />
-<p>This small but thick booklet contains information on a specific form of folk divination, such as cartomancy, cheiromancy, crystallomancy, or horoscopy. Using such a book while reading a creature's fortune reduces the time needed to read that fortune by 2 minutes. When used as part of a <Link to="/skill/sense_motive">Sense Motive</Link> check for the <Link to="/skill/prognostication">prognostication</Link> occult skill unlock, this book grants a +2 circumstance bonus. If the fortune-telling method requires a particular item, such as a deck of cards for cartomancy or animal bones for osteomancy, that item provides a +2 circumstance bonus that doesn't stack with the bonus provided by the prognostication manual.</p>
+<p>This small but thick booklet contains information on a specific form of folk divination, such as cartomancy, cheiromancy, crystallomancy, or horoscopy.</p>
+<p><Icons id="eq-misc-prognostication_manual-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Using such a book while reading a creature's fortune reduces the time needed to read that fortune by 2 minutes. When used as part of a <Link to="/skill/sense_motive">Sense Motive</Link> check for the <Link to="/skill/prognostication">prognostication</Link> occult skill unlock, this book grants a +2 circumstance bonus.</p>
+<p><Icons id="eq-misc-prognostication_manual-boost-icons" wrapper="prefixIcon" list={["boost"]} /> If the fortune-telling method requires a particular item, such as a deck of cards for cartomancy or animal bones for osteomancy, that item provides a +2 circumstance bonus that doesn't stack with the bonus provided by the prognostication manual.</p>
 <p>A prognostication manual is useful primarily for cheiromancy (palm reading), horoscopy, and other methods that don't require special equipment.</p>
 </>};
 const _prosthetic_arm = {title: "Prosthetic (arm)", jsx: <><h2 id="eq-misc-prosthetic_arm-prosthetic">Prosthetic</h2>
@@ -268,7 +392,8 @@ const _psychics_kit = {title: "Psychic's kit", jsx: <><h2 id="eq-misc-psychics_k
 const _psychometrists_gloves = {title: "Psychometrist's gloves", jsx: <><h2 id="eq-misc-psychometrists_gloves-psychometrists-gloves">Psychometrist's gloves</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 250</Link>  </p>
 <Tabular format="misc" a="10" b="5" d="tools" />
-<p>These layered lambskin gloves are specially designed and psychically attuned to increase the tactile sensitivity of the wearer's hands. To provide any benefit, the gloves must be worn for 8 uninterrupted hours. All Dexterity skill checks requiring the use of the hands take a -2 penalty as long as the gloves remain on. After this 8-hour period, the user can remove the gloves to gain a +2 circumstance bonus on Appraise checks for the <Link to="/skill/psychometry">psychometry</Link> occult skill unlock. This benefit fades after 1 hour.</p>
+<p><Icons id="eq-misc-psychometrists_gloves-down-icons" wrapper="prefixIcon" list={["down"]} /> These layered lambskin gloves are specially designed and psychically attuned to increase the tactile sensitivity of the wearer's hands. To provide any benefit, the gloves must be worn for 8 uninterrupted hours. All Dexterity skill checks requiring the use of the hands take a -2 penalty as long as the gloves remain on.</p>
+<p><Icons id="eq-misc-psychometrists_gloves-boost-icons" wrapper="prefixIcon" list={["boost"]} /> After this 8-hour period, the user can remove the gloves to gain a +2 circumstance bonus on <Link to="/skill/appraise">Appraise</Link> checks for the <Link to="/skill/psychometry">psychometry</Link> occult skill unlock. This benefit fades after 1 hour.</p>
 </>};
 const _pull_cord_grenade = {title: "Pull-cord grenade", jsx: <><h2 id="eq-misc-pull_cord_grenade-pull-cord-grenade">Pull-cord grenade</h2>
 <p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets pg. 21</Link>  </p>
@@ -402,7 +527,8 @@ const _quieting_needles = {title: "Quieting needles", jsx: <><h2 id="eq-misc-qui
 const _quintain = {title: "Quintain", jsx: <><h2 id="eq-misc-quintain-quintain">Quintain</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 31</Link>  </p>
 <Tabular format="misc" a="40" b="30" d="tools" />
-<p>At its simplest, a quintain is a swiveling pole with a pair of arms, although permanent quintains are more elaborate and often look like armored mannequins. One arm holds a wooden board shaped like a shield. The other arm has a padded flail attached. In a routine originally used to train knights, a user rides past a quintain and tries to hit the board with a weapon, and then get out of the way before the quintain swings around to strike him with its flail in retaliation. Training with a quintain requires 1 hour of practice and a DC 15 Ride check. If you succeed at the check, you gain a +2 circumstance bonus on Ride checks to stay in the saddle, guide with your knees, and control a combat-trained mount. This bonus lasts for 24 hours or until you fail a Ride check.</p>
+<p>At its simplest, a quintain is a swiveling pole with a pair of arms, although permanent quintains are more elaborate and often look like armored mannequins. One arm holds a wooden board shaped like a shield. The other arm has a padded flail attached. In a routine originally used to train knights, a user rides past a quintain and tries to hit the board with a weapon, and then get out of the way before the quintain swings around to strike him with its flail in retaliation.</p>
+<p><Icons id="eq-misc-quintain-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Training with a quintain requires 1 hour of practice and a DC 15 <Link to="/skill/ride">Ride</Link> check. If you succeed at the check, you gain a +2 circumstance bonus on Ride checks to stay in the saddle, guide with your knees, and control a combat-trained mount. This bonus lasts for 24 hours or until you fail a Ride check.</p>
 </>};
 const _rabbit = {title: "Rabbit", jsx: <><h2 id="eq-misc-rabbit-rabbit">Rabbit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
@@ -470,7 +596,9 @@ const _raven = {title: "Raven", jsx: <><h2 id="eq-misc-raven-raven">Raven</h2>
 const _reagent_extractor = {title: "Reagent extractor", jsx: <><h2 id="eq-misc-reagent_extractor-reagent-extractor">Reagent extractor</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 17</Link>  </p>
 <Tabular format="misc" a="1000" b="10" d="tools" />
-<p>These connected glass-and-copper apparatuses have <Link to="/eq-misc/heatstone">heatstones</Link> and other components installed at the base of each container to break down magic liquids placed within. Any potion placed within the extractor is distilled down to its component parts over the course of 4 hours; this destroys the potion. The extracted essences can then be used to brew a new potion as long as the new potion is of the same spell level or lower than the distilled potion. Using the extractor in this way does not change the requirements for brewing a potion, but it does remove the need to use fresh and unused ingredients and materials to brew the new potion, and this waives the new potion's base cost (but not the requirement to provide any costly material component or focus that the new potion's spell requires). Essences extracted from a potion using a reagent extractor must be used to create a new potion within 24 hours; after this time, they become inert.</p>
+<p>These connected glass-and-copper apparatuses have <Link to="/eq-misc/heatstone">heatstones</Link> and other components installed at the base of each container to break down magic liquids placed within.</p>
+<p><Icons id="eq-misc-reagent_extractor-power-icons" wrapper="prefixIcon" list={["power"]} /> Any potion placed within the extractor is distilled down to its component parts over the course of 4 hours; this destroys the potion. The extracted essences can then be used to brew a new potion as long as the new potion is of the same spell level or lower than the distilled potion. Using the extractor in this way does not change the requirements for brewing a potion, but it does remove the need to use fresh and unused ingredients and materials to brew the new potion, and this waives the new potion's base cost (but not the requirement to provide any costly material component or focus that the new potion's spell requires).</p>
+<p>Essences extracted from a potion using a reagent extractor must be used to create a new potion within 24 hours; after this time, they become inert.</p>
 </>};
 const _reagent_paper = {title: "Reagent paper", jsx: <><h2 id="eq-misc-reagent_paper-reagent-paper">Reagent paper</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 208</Link>  </p>
@@ -564,7 +692,9 @@ const _road_or_gate_toll = {title: "Road or gate toll", jsx: <><h2 id="eq-misc-r
 const _roar_cord = {title: "Roar cord", jsx: <><h2 id="eq-misc-roar_cord-roar-cord">Roar cord</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 66</Link>  </p>
 <Tabular format="misc" a="15" b="1" d="tools" />
-<p>This thin length of rope has many oddly shaped bits of hollow metal fixed along its length. As a standard action, a creature can swing a roar cord over its head to generate a variety of eerie noises. For the next round, any creature within 60 feet of the roar cord takes a -2 penalty on Perception checks that rely on sound and a -1 penalty on saving throws against fear effects. The roar cord can be used as a bardic instrument (string) that grants the bard a +2 bonus on Perform checks when using the <Link to="/performance/countersong">countersong</Link> bardic performance.</p>
+<p>This thin length of rope has many oddly shaped bits of hollow metal fixed along its length.</p>
+<p><Icons id="eq-misc-roar_cord-aura-lower-icons" wrapper="prefixIcon" list={["aura","lower"]} /> As a <strong className="hl">standard action</strong>, a creature can swing a roar cord over its head to generate a variety of eerie noises. For the next round, any creature within 60 feet of the roar cord takes a -2 penalty on <Link to="/skill/perception">Perception</Link> checks that rely on sound and a -1 penalty on saving throws against fear effects.</p>
+<p><Icons id="eq-misc-roar_cord-boost-icons" wrapper="prefixIcon" list={["boost"]} /> The roar cord can be used as a bardic instrument (string) that grants the bard a +2 bonus on Perform checks when using the <Link to="/performance/countersong">countersong</Link> bardic performance.</p>
 </>};
 const _rockshard_canister = {title: "Rockshard canister", jsx: <><h2 id="eq-misc-rockshard_canister-rockshard-canister">Rockshard canister</h2>
 <p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 21</Link>  </p>
@@ -591,7 +721,8 @@ const _rope_recaller = {title: "Rope recaller", jsx: <><h2 id="eq-misc-rope_reca
 const _roperunner = {title: "Roperunner", jsx: <><h2 id="eq-misc-roperunner-roperunner">Roperunner</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 205</Link>  </p>
 <Tabular format="misc" a="50" b="3" d="tools" />
-<p>You can place this metal contraption onto a taut section of a <Link to="/eq-misc/rope">rope</Link> connecting a high point to a lower one, allowing you to slide down the length of the rope with ease. Using a roperunner requires only one hand, leaving the other hand free during the descent. Attaching the roperunner to a rope is a move action. Beginning the descent is a swift action. You slide down the rope at a rate of 60 feet per round. This requires no action on your part, but you must move along the length of the rope in the downward direction. Retrieving the roperunner once you have come to a stop at the end of the rope is a move action. You can let go of the roperunner as a free action.</p>
+<p>You can place this metal contraption onto a taut section of a <Link to="/eq-misc/rope">rope</Link> connecting a high point to a lower one, allowing you to slide down the length of the rope with ease. Using a roperunner requires only one hand, leaving the other hand free during the descent.</p>
+<p>Attaching the roperunner to a rope is a <strong className="hl">move action</strong>. Beginning the descent is a <strong className="hl">swift action</strong>. You slide down the rope at a rate of 60 feet per round. This requires no action on your part, but you must move along the length of the rope in the downward direction. Retrieving the roperunner once you have come to a stop at the end of the rope is a <strong className="hl">move action</strong>. You can let go of the roperunner as a <strong className="hl">free action</strong>.</p>
 </>};
 const _rounders_gear = {title: "Rounders gear", jsx: <><h2 id="eq-misc-rounders_gear-rounders-gear">Rounders gear</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 92</Link>  </p>
@@ -617,7 +748,7 @@ const _rumboozle_cup = {title: "Rumboozle (cup)", jsx: <><h2 id="eq-misc-rumbooz
 const _rust_repellent = {title: "Rust repellent", jsx: <><h2 id="eq-misc-rust_repellent-rust-repellent">Rust repellent</h2>
 <p><strong>Sources</strong> <Link to="/source/cohorts_and_companions">Cohorts and Companions pg. 17</Link>  </p>
 <Tabular format="misc" a="25" b="2" d="tools" />
-<p>This waxy paste preserves metal objects against rust. One application coats a Medium or smaller metal object or creature and lasts 24 hours, granting it a +2 circumstance bonus on saving throws against rusting effects and reduces amount of damage dealt by rusting attacks by 5. A jar of rust repellent contains 5 applications.</p>
+<p><Icons id="eq-misc-rust_repellent-def-icons" wrapper="prefixIcon" list={["def"]} /> This waxy paste preserves metal objects against rust. One application coats a Medium or smaller metal object or creature and lasts 24 hours, granting it a +2 circumstance bonus on saving throws against rusting effects and reduces amount of damage dealt by rusting attacks by 5. A jar of rust repellent contains 5 applications.</p>
 </>};
 const _rusting_powder = {title: "Rusting powder", jsx: <><h2 id="eq-misc-rusting_powder-rusting-powder">Rusting powder</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
@@ -667,7 +798,8 @@ const _salt_tablets_10 = {title: "Salt tablets (10)", jsx: <><h2 id="eq-misc-sal
 const _samsaran_life_wheel = {title: "Samsaran life wheel", jsx: <><h2 id="eq-misc-samsaran_life_wheel-samsaran-life-wheel">Samsaran life wheel</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 199</Link>  </p>
 <Tabular format="misc" a="25" b="0.5" d="tools" />
-<p>This handheld wooden spool spins freely within a box-like housing. Inscribed upon the exterior of the spool are dozens of samsaran prayers along with names or symbols associated with a samsaran's past lives. <Link to="/race/samsaran">Samsarans</Link> believe that spinning the wheel during meditation strengthens the spiritual connections between their former lives. If a samsaran meditates with her wheel for at least 10 minutes about a Knowledge (history) question relating to her own history or the histories of her past lives, she gains a +1 insight bonus on the check.</p>
+<p>This handheld wooden spool spins freely within a box-like housing. Inscribed upon the exterior of the spool are dozens of samsaran prayers along with names or symbols associated with a samsaran's past lives. <Link to="/race/samsaran">Samsarans</Link> believe that spinning the wheel during meditation strengthens the spiritual connections between their former lives.</p>
+<p><Icons id="eq-misc-samsaran_life_wheel-boost-icons" wrapper="prefixIcon" list={["boost"]} /> If a samsaran meditates with her wheel for at least 10 minutes about a <Link to="/skill/knowledge_history">Knowledge (history)</Link> question relating to her own history or the histories of her past lives, she gains a +1 insight bonus on the check.</p>
 </>};
 const _sanctified_rings_pair = {title: "Sanctified rings (pair)", jsx: <><h2 id="eq-misc-sanctified_rings_pair-sanctified-rings-pair">Sanctified rings (pair)</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 25</Link>  </p>
