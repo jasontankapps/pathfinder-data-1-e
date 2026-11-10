@@ -1167,7 +1167,7 @@ const _worg_winter_wolf = {title: "Winter Wolf (Worg)", jsx: <><p><em>This bear-
 <p>Winter wolves are larger, smarter, more ferocious variants of worgs with white fur and a deadly breath weapon.</p>
 <p>A typical winter wolf is 8 feet long, stands 4-1/2 feet tall at the shoulder, and weighs about 450 pounds. Winter wolves will often ally themselves with frost giants, hill giants, and other large humanoids, serving entire tribes of giants as both scouts and guards.</p>
 </>};
-const _woundwyrm = {title: "Woundwyrm", jsx: <><p><em>This massive, eyeless draconic creature is covered in purplehued scales and sharp, spiky protrusions.</em></p>
+const _woundwyrm = {title: "Woundwyrm", jsx: <><p><em>This massive, eyeless draconic creature is covered in purple-hued scales and sharp, spiky protrusions.</em></p>
 <Header full><span>Woundwyrm</span><span>CR 15</span></Header>
 <div className="reduce">
 <Info source={[["Inner Sea Bestiary",61]]} xp="51,200" ce huge dragon subs={["chaotic","evil"]} init={5} blindsight={60} pcp={22} />

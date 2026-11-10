@@ -61,6 +61,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 		className: "startAlign",
 		formatter: (props) => {
 			const {id, a, b, c, d} = props;
+			// a=type b=price c=requirements d=CR increase
 			return (
 				<table><tbody>
 					<tr>
@@ -80,6 +81,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 		className: "startAlign",
 		formatter: (props) => {
 			const {id, a, b} = props;
+			// a=requirements b=price
 			return (
 				<table><tbody>
 					<tr>
@@ -97,6 +99,10 @@ const FormatObject: { [x: string]: FormatProps } = {
 		className: "lessRound tipOnly flatStart startAlign",
 		formatter: (props) => {
 			const {id, a, b, c, d, e} = props;
+			// a=price b=weight
+			// c=eq- link type (misc or weapon)
+			// d=equipment link text (‹link› format)
+			// e=text of an equipment link
 			const final = (c && d) ? (
 				<tr>
 					<th scope="row" colSpan={3}>Equipment Link</th>
@@ -126,6 +132,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 		className: "startAlign",
 		formatter: (props) => {
 			const {id, a, b, c} = props;
+			// a=doses needed b=spells it affects c=effects
 			return (
 				<table><tbody>
 					<tr>
@@ -343,6 +350,13 @@ const FormatObject: { [x: string]: FormatProps } = {
 		className: "startAlign",
 		formatter: props => {
 			const {id: ID, a, b, c, d, e, f, g} = props;
+			// a=price b=weight c=verbatim/modifier flag d=type of object
+			//   e=accuracy (pathfinder guide) or deity (channel foci) or gather DC (herbalism)
+			//   f=associated skill (pathfinder guide) or price of passage (transport) or yield (herbalism)
+			//   g=DC of skill (pathfinder guide) or terrain (herbalism)
+			//   h=preparation (herbalism)
+			//   i=use (herbalism)
+			//   j=use 2nd paragraph (herbalism)
 			const cat = (() => {
 				switch(d) {
 					case "tools":
@@ -597,6 +611,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 		className: "backOnly",
 		formatter: (props) => {
 			const {a} = props;
+			// a=craft alchemy DC
 			return (
 				<table><tbody>
 					<tr>
@@ -612,7 +627,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 		className: "tipOnly flatStart startAlign",
 		formatter: (props) => {
 			const {id, a, b, c, d, e, f, g} = props;
-			// a=name b=title c=mass d=diameter g=gravity e=atmosphere f=orbit
+			// a=name b=flavorful title d=diameter c=mass g=gravity e=atmosphere f=orbit
 			return (
 				<table><tbody>
 					<tr><th scope="col" className="headerLike hl" colSpan={6}>{a}</th></tr>

@@ -978,7 +978,7 @@
 					[ [ "Taniniver", "taniniver" ], 18, null, { "sort": 6, "data": "huge" }, { "sort": 5, "data": "NE" }, "This legless, winged, white-eyed dragon is covered in patches of diseased flesh, squirming with maggots and oozing pus." ],
 					[ [ "Tatzlwyrm", "tatzlwyrm" ], 2, null, { "sort": 4, "data": "medium" }, { "sort": 4, "data": "N" }, "This serpentine creature has the head of a ferocious dragon and two relatively small forearms that end in tiny claws." ],
 					[ [ "Vishap", "vishap" ], 19, "extraplanar", { "sort": 8, "data": "colossal" }, { "sort": 4, "data": "N" }, "This slender dragon is covered in vivid cerulean scales with four powerful wings to match." ],
-					[ [ "Woundwyrm", "woundwyrm" ], 15, "chaotic, evil", { "sort": 6, "data": "huge" }, { "sort": 8, "data": "CE" }, "This massive, eyeless draconic creature is covered in purplehued scales and sharp, spiky protrusions." ],
+					[ [ "Woundwyrm", "woundwyrm" ], 15, "chaotic, evil", { "sort": 6, "data": "huge" }, { "sort": 8, "data": "CE" }, "This massive, eyeless draconic creature is covered in purple-hued scales and sharp, spiky protrusions." ],
 					[ [ "Wyvaran", "wyvaran" ], { "sort": -2, "data": "1/2" }, null, { "sort": 4, "data": "medium" }, { "sort": 1, "data": "LN" }, "This dragon-like humanoid brandishes its spear, spreads its wings, and shows its fangs in an angry snarl." ],
 					[ [ "Wyvern", "wyvern" ], 6, null, { "sort": 5, "data": "large" }, { "sort": 4, "data": "N" }, "A dark blue dragon, its wings immense and its tail tipped with a hooked stinger, lands on two taloned feet and roars a challenge." ]
 				],
