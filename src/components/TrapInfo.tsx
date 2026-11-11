@@ -17,17 +17,19 @@ interface TrapInfoProps {
 	repair?: boolean
 	manual?: boolean
 	start?: boolean
+	fake?: boolean
 }
 
 export const TrapInfo: FC<PropsWithChildren<TrapInfoProps>> = (props) => {
 	const {
-		start, children, id, eff, trigger, pdc, dddc, terrain, cr,
+		start, fake, children, id, eff, trigger, pdc, dddc, terrain, cr,
 		magic, automatic, repair, manual
 	} = props;
 	const rows = 4 + (children ? 1 : 0) + (terrain ? 1 : 0);
 	const icon = <ThLink scope="row" rowSpan={rows} to="/rule/elements_of_a_trap"><IonIcon aria-label="Trap" icon="/icons/wolf-trap.svg" /></ThLink>;
 	const cId = useContext(IdContext) + id;
 	const reset = automatic ? "automatic" : (repair ? "repair" : (manual ? "manual" : "none"));
+	const skill = fake ? "Sense Motive" : "Disable Device";
 	return (
 		<div className={"sideNoteWrap" + (start ? " startAlign" : "")}><ScrollContainer id={cId + "-trap-scrollwrap"}>
 			<table><tbody>
@@ -39,7 +41,7 @@ export const TrapInfo: FC<PropsWithChildren<TrapInfoProps>> = (props) => {
 				{terrain ? <tr><th scope="row">Terrain</th><td colSpan={3}>{terrain}</td></tr> : ""}
 				<tr>
 					<th id={cId + "-pdc"}>Perception DC</th><td headers={cId + "-pdc"}>{pdc}</td>
-					<th id={cId + "-dddc"}>Disable Device DC</th><td headers={cId + "-dddc"}>{dddc}</td>
+					<th id={cId + "-dddc"}>{skill} DC</th><td headers={cId + "-dddc"}>{dddc}</td>
 				</tr>
 				<tr>
 					<th id={cId + "-trigger"}>Trigger</th><td headers={cId + "-trigger"}>{trigger}</td>

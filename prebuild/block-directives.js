@@ -265,7 +265,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"cr", "magic", "mechanical", "terrain",
 					"pdc", "dddc", "trigger",
 					"manual", "automatic", "repair", "eff",
-					"start", "clear"
+					"start", "fake", "clear"
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				const id = makeValidID(text + "-trap");

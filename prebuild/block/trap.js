@@ -3,6 +3,7 @@ const makeTrapBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, text
 		cr, magic, mechanical, terrain,
 		pdc, dddc, trigger,
 		manual, automatic, repair, eff,
+		fake,
 		start
 	} = attrs;
 	//
@@ -35,11 +36,15 @@ const makeTrapBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, text
 	output.push(
 		` pdc="${pdc}" dddc="${dddc}"`
 	);
+	fake && output.push(" fake");
 	//
 	// CREATE TRIGGER AND RESET
 	//
 	const reset = automatic || manual || repair;
 	reset && output.push(" " + reset);
+	if(trigger === undefined) {
+		logError("---> Missing trap Trigger");
+	}
 	output.push(
 		` trigger=${JSON.stringify(trigger)}`
 	);
