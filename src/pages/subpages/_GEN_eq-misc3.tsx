@@ -944,12 +944,12 @@ const _semblance_transfusion = {title: "Semblance transfusion", jsx: <><h2 id="e
 const _sentry_mannequin_masterwork = {title: "Sentry mannequin (masterwork)", jsx: <><h2 id="eq-misc-sentry_mannequin_masterwork-sentry-mannequin-masterwork">Sentry mannequin (masterwork)</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 21</Link>  </p>
 <Tabular format="misc" a="80" b="35" d="tools" />
-<p>This sentry mannequin is designed to seem more lifelike than its common counterpart. After 5 minutes of assembly and coverage with the included loose hood and baggy clothing, this wire frame looks like a vigilant humanoid figure. It has pivoted joints with counterweights that move it in ways reminiscent of an alert guard every few rounds for 8 hours after it's set up. Creatures more than 30 feet from the mannequin must succeed at a DC 15 Perception check to realize it's not someone standing watch.</p>
+<p>This sentry mannequin is designed to seem more lifelike than its common counterpart. After 5 minutes of assembly and coverage with the included loose hood and baggy clothing, this wire frame looks like a vigilant humanoid figure. It has pivoted joints with counterweights that move it in ways reminiscent of an alert guard every few rounds for 8 hours after it's set up. Creatures more than 30 feet from the mannequin must succeed at a DC 15 <Link to="/skill/perception">Perception</Link> check to realize it's not someone standing watch.</p>
 </>};
 const _sentry_mannequin = {title: "Sentry mannequin", jsx: <><h2 id="eq-misc-sentry_mannequin-sentry-mannequin">Sentry mannequin</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>  </p>
 <Tabular format="misc" a="30" b="35" d="gear" />
-<p>After 5 minutes of assembly and coverage with the included loose hood and baggy clothing, this wooden frame looks like a vigilant humanoid figure. Creatures more than 30 feet distant from it must succeed at a DC 10 Perception check in order to realize it is not someone standing watch.</p>
+<p>After 5 minutes of assembly and coverage with the included loose hood and baggy clothing, this wooden frame looks like a vigilant humanoid figure. Creatures more than 30 feet distant from it must succeed at a DC 10 <Link to="/skill/perception">Perception</Link> check in order to realize it is not someone standing watch.</p>
 </>};
 const _sentry_seeds = {title: "Sentry seeds", jsx: <><h2 id="eq-misc-sentry_seeds-sentry-seeds">Sentry seeds</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 234</Link>  </p>
@@ -983,7 +983,8 @@ const _sextant = {title: "Sextant", jsx: <><h2 id="eq-misc-sextant-sextant">Sext
 const _shadow_stencil_set = {title: "Shadow stencil set", jsx: <><h2 id="eq-misc-shadow_stencil_set-shadow-stencil-set">Shadow stencil set</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 211</Link>  </p>
 <Tabular format="misc" a="30" b="2" d="tools" />
-<p>This set of 10 elaborate metal stencils are used in shadow puppetry to cast shadows of highly stylized figures and objects. If used to aid in the creation of any type of shadow spell or effect (including <Link to="/arc-bard/shadow_puppeteer">shadow puppet</Link> bardic performances), a <Link to="/race/wayang">wayang</Link> adds a +1 competence bonus to her saving throw DC. Using a shadow stencil requires one hand.</p>
+<p>This set of 10 elaborate metal stencils are used in shadow puppetry to cast shadows of highly stylized figures and objects.</p>
+<p><Icons id="eq-misc-shadow_stencil_set-boost-icons" wrapper="prefixIcon" list={["boost"]} /> If used to aid in the creation of any type of shadow spell or effect (including <Link to="/arc-bard/shadow_puppeteer">shadow puppet</Link> bardic performances), a <Link to="/race/wayang">wayang</Link> adds a +1 competence bonus to her saving throw DC. Using a shadow stencil requires one hand.</p>
 </>};
 const _shadowy_stalker_package = {title: "Shadowy stalker package", jsx: <><h2 id="eq-misc-shadowy_stalker_package-shadowy-stalker-package">Shadowy stalker package</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 5</Link>  </p>
@@ -1017,7 +1018,7 @@ const _shears_adamantine = {title: "Shears (adamantine)", jsx: <><h2 id="eq-misc
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 17</Link>  </p>
 <Tabular format="misc" a="3,003 gp (adamantine), 3 gp (lopping), 5 sp (small)" b="8 lbs. (adamantine), 8 lbs. (lopping), &frac12; lb. (small)" c="x" d="tools" />
 <p>Shears are used to quickly cut through items by snipping them between two sharp blades fitted with a spring to allow the jaws to open again after closing. Small shears can be used in one hand and are often used to trim hair, cut cloth, or perform other delicate cutting work. Lopping shears are 3 feet long and must be used in two hands; they are commonly used by farmers or gardeners to cut hedges and branches.</p>
-<p>Adamantine shears are lopping shears with sharpened <Link to="/eq-material/adamantine">adamantine</Link> blades that can snip through nearly any material. You can use adamantine shears to cut through bars, chains, grates, or similar items, dealing damage to such objects as though using a <Link to="/eq-weapon/scimitar">scimitar</Link> and bypassing hardness less than 20. On any item the adamantine shears can fit around (such as a chain or iron bar, but not an iron door), using adamantine shears provides a +10 bonus on your Strength check to break or burst it.</p>
+<p><Icons id="eq-misc-shears_adamantine-power-boost-icons" wrapper="prefixIcon" list={["power","boost"]} /> Adamantine shears are lopping shears with sharpened <Link to="/eq-material/adamantine">adamantine</Link> blades that can snip through nearly any material. You can use adamantine shears to cut through bars, chains, grates, or similar items, dealing damage to such objects as though using a <Link to="/eq-weapon/scimitar">scimitar</Link> and bypassing hardness less than 20. On any item the adamantine shears can fit around (such as a chain or iron bar, but not an iron door), using adamantine shears provides a +10 bonus on your Strength check to break or burst it.</p>
 </>};
 const _sheep = {title: "Sheep", jsx: <><h2 id="eq-misc-sheep-sheep">Sheep</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 93</Link>  </p>
@@ -1178,7 +1179,8 @@ const _skillet_common = {title: "Skillet (common)", jsx: <><h2 id="eq-misc-skill
 const _skis_and_poles = {title: "Skis and poles", jsx: <><h2 id="eq-misc-skis_and_poles-skis-and-poles">Skis and poles</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link>  </p>
 <Tabular format="misc" a="15" b="6" d="tools" />
-<p>These polished wooden slats enable the wearer to glide across level snowy surfaces at his full speed. His speed is halved when moving up a snowy slope, but he may run or charge downhill on gentle or steep snowy slopes at quadruple speed. Any skill check penalties for traversing rough snowy terrain while wearing skis are doubled, and the wearer takes a -4 penalty on combat maneuver checks to <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/drag">drag</Link>, or <Link to="/rule/trip">trip</Link>, and to CMD against these maneuvers. Characters cannot climb while wearing skis. Donning or removing skis takes 1 minute.</p>
+<p><Icons id="eq-misc-skis_and_poles-down-boost-icons" wrapper="prefixIcon" list={["down","boost"]} /> These polished wooden slats enable the wearer to glide across level snowy surfaces at his full speed. His speed is halved when moving up a snowy slope, but he may <Link to="/rule/run">run</Link> or <Link to="/rule/charge">charge</Link> downhill on gentle or steep snowy slopes at quadruple speed.</p>
+<p><Icons id="eq-misc-skis_and_poles-down-icons" wrapper="prefixIcon" list={["down"]} /> Any skill check penalties for traversing rough snowy terrain while wearing skis are doubled, and the wearer takes a -4 penalty on combat maneuver checks to <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/drag">drag</Link>, or <Link to="/rule/trip">trip</Link>, and to CMD against these maneuvers. Characters cannot climb while wearing skis. Donning or removing skis takes 1 minute.</p>
 <p>Also see: <Link to="/eq-misc/skis">skis</Link>.</p>
 </>};
 const _skis = {title: "Skis", jsx: <><h2 id="eq-misc-skis-skis">Skis</h2>
@@ -1197,7 +1199,9 @@ const _skunk = {title: "Skunk", jsx: <><h2 id="eq-misc-skunk-skunk">Skunk</h2>
 const _sky_mine = {title: "Sky mine", jsx: <><h2 id="eq-misc-sky_mine-sky-mine">Sky mine</h2>
 <p><strong>Sources</strong> <Link to="/source/castles_of_the_inner_sea">Castles of the Inner Sea pg. 40</Link>  </p>
 <Tabular format="misc" a="1000" b="500" d="tools" />
-<p>The dwarves of Highhelm fill these 20-foot-diameter cloth balloons with a secret and highly flammable gas (included in the price) and then release them into the sky over their enemies. To transform the balloons into decoys, dwarven siege warriors place dummies in cargo baskets beneath the balloons to look like balloonist scouts or snipers. Whoever releases the balloon can attempt a DC 15 Profession (driver), Knowledge (nature), or Wisdom check; if the check is successful, the balloon can be guided out to a maximum range of 300 feet, a far enough distance for archers to safely shoot the balloon with flaming arrows, causing it to explode in a devastating ball of fire. A detonated sky mine creates a 50-foot-radius <Link to="/misc/burst">burst</Link> of flame that deals 10d6 points of fire damage to anything in the area.</p>
+<p>The dwarves of Highhelm fill these 20-foot-diameter cloth balloons with a secret and highly flammable gas (included in the price) and then release them into the sky over their enemies. To transform the balloons into decoys, dwarven siege warriors place dummies in cargo baskets beneath the balloons to look like balloonist scouts or snipers.</p>
+<p>Whoever releases the balloon can attempt a DC 15 <Link to="/skill/profession">Profession</Link> (driver), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link>, or Wisdom check; if the check is successful, the balloon can be guided out to a maximum range of 300 feet, a far enough distance for archers to safely shoot the balloon with flaming arrows, causing it to explode in a devastating ball of fire.</p>
+<p><Icons id="eq-misc-sky_mine-boom-icons" wrapper="prefixIcon" list={["boom"]} /> A detonated sky mine creates a 50-foot-radius <Link to="/misc/burst">burst</Link> of flame that deals 10d6 points of fire damage to anything in the area.</p>
 </>};
 const _slave_hard_labor = {title: "Slave (hard labor)", jsx: <><h2 id="eq-misc-slave_hard_labor-slave">Slave</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -1222,7 +1226,8 @@ const _sledge = {title: "Sledge", jsx: <><h2 id="eq-misc-sledge-sledge">Sledge</
 const _sleeve_holster = {title: "Sleeve holster", jsx: <><h2 id="eq-misc-sleeve_holster-sleeve-holster">Sleeve holster</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 205</Link>  </p>
 <Tabular format="misc" a="100" b="1" d="tools" />
-<p>When worn inside voluminous sleeves, this leather holster allows you to draw a concealed <Link to="/eq-weapon/hand_crossbow">hand crossbow</Link> or <Link to="/eq-weapon/coat_pistol">coat pistol</Link> as a move action. The weapon sits on sliders and is drawn directly into the hand. Unlike a <Link to="/eq-misc/wrist_sheath">wrist sheath</Link>, a sleeve holster is bulky enough that it is obvious on close inspection, though under a loose enough garment it might not provoke a reactive Perception check. An individual sleeve holster fits for either a hand crossbow or a coat pistol, but not both.</p>
+<p><Icons id="eq-misc-sleeve_holster-power-icons" wrapper="prefixIcon" list={["power"]} /> When worn inside voluminous sleeves, this leather holster allows you to draw a concealed <Link to="/eq-weapon/hand_crossbow">hand crossbow</Link> or <Link to="/eq-weapon/coat_pistol">coat pistol</Link> as a <strong className="hl">move action</strong>. The weapon sits on sliders and is drawn directly into the hand.</p>
+<p>Unlike a <Link to="/eq-misc/wrist_sheath">wrist sheath</Link>, a sleeve holster is bulky enough that it is obvious on close inspection, though under a loose enough garment it might not provoke a reactive <Link to="/skill/perception">Perception</Link> check. An individual sleeve holster fits for either a hand crossbow or a coat pistol, but not both.</p>
 </>};
 const _sleigh = {title: "Sleigh", jsx: <><h2 id="eq-misc-sleigh-sleigh">Sleigh</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>  </p>
@@ -1431,7 +1436,7 @@ const _sparring_gear = {title: "Sparring gear", jsx: <><h2 id="eq-misc-sparring_
 const _speaking_trumpet = {title: "Speaking trumpet", jsx: <><h2 id="eq-misc-speaking_trumpet-speaking-trumpet">Speaking trumpet</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 21</Link>  </p>
 <Tabular format="misc" a="6" b="2" d="tools" />
-<p>This large animal horn is hollowed out to amplify sounds that enter through the narrow end. The DC of Perception checks to hear a speaker using a speaking trumpet is reduced by 5.</p>
+<p><Icons id="eq-misc-speaking_trumpet-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This large animal horn is hollowed out to amplify sounds that enter through the narrow end. The DC of Perception checks to hear a speaker using a speaking trumpet is reduced by 5.</p>
 </>};
 const _spear_thrower = {title: "Spear-thrower", jsx: <><h2 id="eq-misc-spear_thrower-spear-thrower">Spear-thrower</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -1892,7 +1897,8 @@ const _stalkers_oil = {title: "Stalker's oil", jsx: <><h2 id="eq-misc-stalkers_o
 const _star_charts = {title: "Star charts", jsx: <><h2 id="eq-misc-star_charts-star-charts">Star charts</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 46</Link>  </p>
 <Tabular format="misc" a="200" b="0.5" d="tools" />
-<p>Many half-elves live in large cities or communities where they find it difficult to commune with nature. While some go on long sojourns to the wilderness, others spend their evenings on high, lonely rooftops, gazing at the stars. These lonely souls use star charts to track the movement of the stars and other celestial bodies. Anyone referencing one of these charts on a clear night can attempt a DC 20 Knowledge (geography) check to determine her approximate location and the month. In addition, these charts grant a +2 circumstance bonus on Survival checks made to avoid getting lost at night with a clear sky.</p>
+<p>Many half-elves live in large cities or communities where they find it difficult to commune with nature. While some go on long sojourns to the wilderness, others spend their evenings on high, lonely rooftops, gazing at the stars. These lonely souls use star charts to track the movement of the stars and other celestial bodies.</p>
+<p><Icons id="eq-misc-star_charts-power-boost-icons" wrapper="prefixIcon" list={["power","boost"]} /> Anyone referencing one of these charts on a clear night can attempt a DC 20 <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> check to determine her approximate location and the month. In addition, these charts grant a +2 circumstance bonus on <Link to="/skill/survival">Survival</Link> checks made to avoid getting lost at night with a clear sky.</p>
 </>};
 const _starlight_juice = {title: "Starlight juice", jsx: <><h2 id="eq-misc-starlight_juice-starlight-juice">Starlight juice</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 23</Link>  </p>
@@ -1915,7 +1921,7 @@ const _stationery = {title: "Stationery", jsx: <><h2 id="eq-misc-stationery-stat
 const _statue_disguise_kit = {title: "Statue disguise kit", jsx: <><h2 id="eq-misc-statue_disguise_kit-statue-disguise-kit">Statue disguise kit</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 13</Link>  </p>
 <Tabular format="misc" a="50" b="8" d="tools" />
-<p>This disguise kit includes metallic or stone-colored makeup and cloth that you can apply to appear to be a statue; it grants a +2 bonus only on Disguise checks to resemble metal, stone, or similar materials. You take a -5 penalty on Disguise checks when impersonating an inanimate object. A viewer can attempt a single Perception check opposed by your Disguise check upon viewing you, and an additional check each time a creature interacts with you. This kit is exhausted after 10 uses.</p>
+<p>This disguise kit includes metallic or stone-colored makeup and cloth that you can apply to appear to be a statue; it grants a +2 bonus only on <Link to="/skill/disguise">Disguise</Link> checks to resemble metal, stone, or similar materials. You take a -5 penalty on Disguise checks when impersonating an inanimate object. A viewer can attempt a single <Link to="/skill/perception">Perception</Link> check opposed by your Disguise check upon viewing you, and an additional check each time a creature interacts with you. This kit is exhausted after 10 uses.</p>
 </>};
 const _stiletto_boots = {title: "Stiletto boots", jsx: <><h2 id="eq-misc-stiletto_boots-stiletto-boots">Stiletto boots</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 20</Link>  </p>
@@ -2025,7 +2031,7 @@ const _suckers_barrel = {title: "Sucker's barrel", jsx: <><h2 id="eq-misc-sucker
 const _sugar_glass_bottle = {title: "Sugar glass bottle", jsx: <><h2 id="eq-misc-sugar_glass_bottle-sugar-glass-bottle">Sugar glass bottle</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 206</Link>  </p>
 <Tabular format="misc" a="1" b="x" d="tools" />
-<p>This bottle looks like it's made of glass, but is more fragile and doesn't cause damage when it strikes a creature or object. Highly prized by theater performers, sugar glass bottles grant a +2 circumstance bonus on Bluff and Perform checks involving the creation of seemingly realistic fights.</p>
+<p><Icons id="eq-misc-sugar_glass_bottle-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This bottle looks like it's made of glass, but is more fragile and doesn't cause damage when it strikes a creature or object. Highly prized by theater performers, sugar glass bottles grant a +2 circumstance bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/perform">Perform</Link> checks involving the creation of seemingly realistic fights.</p>
 </>};
 const _summoners_kit = {title: "Summoner's kit", jsx: <><h2 id="eq-misc-summoners_kit-summoners-kit">Summoner's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>  </p>
@@ -2082,7 +2088,7 @@ const _surefoot_training_blocks = {title: "Surefoot training blocks", jsx: <><h2
 <p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 21</Link>  </p>
 <Tabular format="misc" a="50" b="25" d="tools" />
 <p>This collection of eight heavy wooden or metal cones, cylinders, and spheres fills an ordinary backpack. None of the shapes is precisely regular, and when stacked atop each other, they teeter precariously and easily topple. Acrobats practice by stacking these blocks in unstable configurations and attempting to balance while standing upon them.</p>
-<p>Using surefoot training blocks to improve your balance requires 1 hour of practice and a DC 15 Acrobatics check. If you succeed at the check, you gain a +2 circumstance bonus on Climb checks and on Acrobatics checks to balance on narrow surfaces or uneven ground. This bonus lasts for 24 hours or until you fail a Climb or Acrobatics check.</p>
+<p><Icons id="eq-misc-surefoot_training_blocks-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Using surefoot training blocks to improve your balance requires 1 hour of practice and a DC 15 <Link to="/skill/acrobatics">Acrobatics</Link> check. If you succeed at the check, you gain a +2 circumstance bonus on <Link to="/skill/climb">Climb</Link> checks and on Acrobatics checks to balance on narrow surfaces or uneven ground. This bonus lasts for 24 hours or until you fail a Climb or Acrobatics check.</p>
 </>};
 const _sureseal_bladder_mundane = {title: "Sureseal bladder (mundane)", jsx: <><h2 id="eq-misc-sureseal_bladder_mundane-sureseal-bladder">Sureseal bladder</h2>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 56</Link>  </p>
@@ -2098,7 +2104,7 @@ const _surge_syrup = {title: "Surge syrup", jsx: <><h2 id="eq-misc-surge_syrup-s
 const _surgeons_tools = {title: "Surgeon's tools", jsx: <><h2 id="eq-misc-surgeons_tools-surgeons-tools">Surgeon's tools</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/pathfinder_8_seven_days_to_the_grave">Pathfinder #8: Seven Days to the Grave pg. 61</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="20" b="5" d="tools" />
-<p>When used in conjunction with a <Link to="/eq-misc/healers_kit">healer's kit</Link>, surgeon's tools raise the kit's bonus to a +3 circumstance bonus on Heal checks to treat wounds or deadly wounds.</p>
+<p><Icons id="eq-misc-surgeons_tools-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When used in conjunction with a <Link to="/eq-misc/healers_kit">healer's kit</Link>, surgeon's tools raise the kit's bonus to a +3 circumstance bonus on <Link to="/skill/heal">Heal</Link> checks to treat wounds or deadly wounds.</p>
 </>};
 const _surgical_jelly = {title: "Surgical jelly", jsx: <><h2 id="eq-misc-surgical_jelly-surgical-jelly">Surgical jelly</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 24</Link>  </p>
@@ -2138,7 +2144,7 @@ const _swift_hands_tonic = {title: "Swift hands tonic", jsx: <><h2 id="eq-misc-s
 const _swim_fins = {title: "Swim fins", jsx: <><h2 id="eq-misc-swim_fins-swim-fins">Swim fins</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="0.1" b="5" d="tools" />
-<p>Swim fins add 10 feet to your swimming speed but reduce your base speed to 5 feet. Donning or doffing swim fins requires 5 rounds.</p>
+<p><Icons id="eq-misc-swim_fins-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> Swim fins add 10 feet to your swimming speed but reduce your base speed to 5 feet. Donning or doffing swim fins requires 5 rounds.</p>
 </>};
 const _sylirican_lemons = {title: "Sylirican lemons", jsx: <><h2 id="eq-misc-sylirican_lemons-sylirican-lemons">Sylirican lemons</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 6</Link>  </p>
@@ -2150,7 +2156,8 @@ const _sylirican_lemons = {title: "Sylirican lemons", jsx: <><h2 id="eq-misc-syl
 const _symptom_kit = {title: "Symptom kit", jsx: <><h2 id="eq-misc-symptom_kit-symptom-kit">Symptom kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>  </p>
 <Tabular format="misc" a="25" b="5" d="tools" />
-<p>This small wooden box has many tiny compartments filled with items useful if you want to feign a sickness, as well as a handy reference book outlining common indicators for some of the more feared virulent diseases. The kit includes such things as false pustules, pills that cause the person chewing them to foam at the mouth, and herbal concoctions designed to induce fevers or vomiting. Using a symptom kit grants you a +5 circumstances bonus on Disguise checks made for the purpose of simulating illness. A symptom kit is exhausted after 10 uses.</p>
+<p>This small wooden box has many tiny compartments filled with items useful if you want to feign a sickness, as well as a handy reference book outlining common indicators for some of the more feared virulent diseases. The kit includes such things as false pustules, pills that cause the person chewing them to foam at the mouth, and herbal concoctions designed to induce fevers or vomiting.</p>
+<p>Using a symptom kit grants you a +5 circumstances bonus on <Link to="/skill/disguise">Disguise</Link> checks made for the purpose of simulating illness. A symptom kit is exhausted after 10 uses.</p>
 </>};
 const _synthetic_mumia = {title: "Synthetic mumia", jsx: <><h2 id="eq-misc-synthetic_mumia-synthetic-mumia">Synthetic mumia</h2>
 <p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 9</Link>  </p>
@@ -2217,7 +2224,7 @@ const _teapot = {title: "Teapot", jsx: <><h2 id="eq-misc-teapot-teapot">Teapot</
 const _telescope_x10 = {title: "Telescope (&times;10)", jsx: <><h2 id="eq-misc-telescope_x10-telescope">Telescope</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars pg. 27</Link>  </p>
 <Tabular format="misc" a="2,000 gp (&times;10), 8,000 gp (&times;250), 4,000 gp (&times;50)" b="12 lbs. (&times;10), 44 lbs. (&times;250), 23 lbs. (&times;50)" c="x" d="tools" />
-<p>This basic, semi-portable telescope allows the user to see greater detail on very distant objects. Telescopes can be built to a variety of specifications, but those most often used by adventuring stargazers are listed here. A telescope grants the listed circumstance bonus on Perception checks to discern celestial bodies and on Knowledge (geography) checks to learn about the planets when used at night.</p>
+<p>This basic, semi-portable telescope allows the user to see greater detail on very distant objects. Telescopes can be built to a variety of specifications, but those most often used by adventuring stargazers are listed here. A telescope grants the listed circumstance bonus on <Link to="/skill/perception">Perception</Link> checks to discern celestial bodies and on <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> checks to learn about the planets when used at night.</p>
 <p>A telescope can be used to look at either terrestrial or celestial objects. Distance penalties on Perception checks for viewing objects through the telescope are divided by the telescope's magnification. Assembling, disassembling, or significantly moving a telescope takes 1 minute.</p>
 <ScrollContainer id="eq-misc-telescope_x10--table-0"><table>
 <thead>
@@ -2285,25 +2292,27 @@ const _thermometer = {title: "Thermometer", jsx: <><h2 id="eq-misc-thermometer-t
 const _thief_trainer = {title: "Thief trainer", jsx: <><h2 id="eq-misc-thief_trainer-thief-trainer">Thief trainer</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 14</Link>  </p>
 <Tabular format="misc" a="200" b="4" d="tools" />
-<p>This small box is covered with varying gears, locks, panels, and other mechanisms. Thieves practice their mechanical skills by attempting to undo or unlock the various mechanisms to reach the box's center. The mechanisms shift and rearrange, allowing for a multitude of combinations to keep the box from opening. Once unlocked, the box resets itself and provides a reordered set of mechanisms, starting the process over. Using a thief trainer to improve your skills requires 1 hour and a DC 25 Disable Device check. If you succeed at the check, you reduce the time required to complete a Disable Device check by 2 rounds (minimum 1 round). This bonus lasts for 24 hours.</p>
+<p>This small box is covered with varying gears, locks, panels, and other mechanisms. Thieves practice their mechanical skills by attempting to undo or unlock the various mechanisms to reach the box's center. The mechanisms shift and rearrange, allowing for a multitude of combinations to keep the box from opening. Once unlocked, the box resets itself and provides a reordered set of mechanisms, starting the process over.</p>
+<p><Icons id="eq-misc-thief_trainer-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Using a thief trainer to improve your skills requires 1 hour and a DC 25 <Link to="/skill/disable_device">Disable Device</Link> check. If you succeed at the check, you reduce the time required to complete a Disable Device check by 2 rounds (minimum 1 round). This bonus lasts for 24 hours.</p>
 </>};
 const _thieves_ring = {title: "Thieves' ring", jsx: <><h2 id="eq-misc-thieves_ring-thieves-ring">Thieves' ring</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 25</Link>  </p>
 <Tabular format="misc" a="300" b="x" d="tools" />
-<p>This slightly oversized ring conceals a few lockpicks and other tools coiled inside its band. These discreet tools, made of a metal alloy that springs straight once the tool is removed from the band, are sufficient to attempt Disable Device checks without penalty, and long enough to pick locks on manacles fastened around the wearer's hands (once she slips off the ring). The wearer gains a +2 circumstance bonus on Sleight of Hand checks made to conceal the ring's nature from anyone searching her.</p>
+<p>This slightly oversized ring conceals a few lockpicks and other tools coiled inside its band. These discreet tools, made of a metal alloy that springs straight once the tool is removed from the band, are sufficient to attempt <Link to="/skill/disable_device">Disable Device</Link> checks without penalty, and long enough to pick locks on <Link to="/eq-misc/manacles">manacles</Link> fastened around the wearer's hands (once she slips off the ring).</p>
+<p><Icons id="eq-misc-thieves_ring-def-icons" wrapper="prefixIcon" list={["def"]} /> The wearer gains a +2 circumstance bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks made to conceal the ring's nature from anyone searching her.</p>
 </>};
 const _thieves_tool_extenders_common = {title: "Thieves' tool extenders (common)", jsx: <><h2 id="eq-misc-thieves_tool_extenders_common-thieves-tool-extenders">Thieves' tool extenders</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 25</Link>  </p>
 <Tabular format="misc" a="70 gp (common), 820 gp (mithral)" b="3 lbs. (common), 1&frac12; lbs. (mithral)" c="x" d="tools" />
-<p>These long-reaching extenders can be attached to or detached from <Link to="/eq-misc/thieves_tools">thieves' tools</Link> as a standard action, allowing the user to make Disable Device checks on devices in any space he could reach with a reach weapon. High-quality mirrors on the shafts let him see what he's doing, but he takes a -4 penalty on Disable Device checks when working on a device more than 5 feet away.</p>
+<p><Icons id="eq-misc-thieves_tool_extenders_common-power-down-icons" wrapper="prefixIcon" list={["power","down"]} /> These long-reaching extenders can be attached to or detached from <Link to="/eq-misc/thieves_tools">thieves' tools</Link> as a <strong className="hl">standard action</strong>, allowing the user to make <Link to="/skill/disable_device">Disable Device</Link> checks on devices in any space he could reach with a reach weapon. High-quality mirrors on the shafts let him see what he's doing, but he takes a -4 penalty on Disable Device checks when working on a device more than 5 feet away.</p>
 </>};
 const _thieves_tools_common = {hasJL:true,title: "Thieves' tools (common)", jsx: <><div className="jumpList" id="eq-misc-thieves_tools_common-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-thieves_tools_common-masterwork-thieves-tools">Masterwork Thieves' Tools</InnerLink></li></ul></div><h2 id="eq-misc-thieves_tools_common-thieves-tools">Thieves' tools</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
 <Tabular format="misc" id="extend" a="30" b="1" d="tools" />
-<p>This kit contains lockpicks and other tools you need to use the Disable Device skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.</p>
+<p><Icons id="eq-misc-thieves_tools_common-info-icons" wrapper="prefixIcon" list={["info"]} /> This kit contains lockpicks and other tools you need to use the <Link to="/skill/disable_device">Disable Device</Link> skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.</p>
 <h3 id="eq-misc-thieves_tools_common-masterwork-thieves-tools" data-hash-target>Masterwork Thieves' Tools</h3>
 <Tabular format="misc" id="masterwork" a="100" b="2" d="tools" />
-<p>This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on Disable Device checks.</p>
+<p><Icons id="eq-misc-thieves_tools_common-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on Disable Device checks.</p>
 </>};
 const _thinkers_tipple = {title: "Thinker's tipple", jsx: <><h2 id="eq-misc-thinkers_tipple-thinkers-tipple">Thinker's tipple</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 23</Link>  </p>
@@ -2352,7 +2361,9 @@ const _tindertwig = {title: "Tindertwig", jsx: <><h2 id="eq-misc-tindertwig-tind
 const _tinkers_cap = {title: "Tinker's cap", jsx: <><h2 id="eq-misc-tinkers_cap-tinkers-cap">Tinker's cap</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 25</Link>  </p>
 <Tabular format="misc" a="200" b="4" d="tools" />
-<p>This expertly crafted helmet has several small arms that hold magnifying lenses near the wearer's face. They're kept in place by locking hinges and crude gyroscopes that compensate for normal head movements. While the lenses are properly aligned, the wearer gains a +2 circumstance bonus on Appraise and Craft checks involving items that are small or highly detailed and on sight-based Perception checks when she uses an action to inspect something within 5 feet. However, the arms become misaligned if the wearer falls prone or is grappled, or if the helmet is damaged (hardness 5, 2 hit points). If the arms are misaligned, they lose their usefulness until readjusted (a full-round action that provokes attacks of opportunity).</p>
+<p>This expertly crafted helmet has several small arms that hold magnifying lenses near the wearer's face. They're kept in place by locking hinges and crude gyroscopes that compensate for normal head movements.</p>
+<p><Icons id="eq-misc-tinkers_cap-boost-icons" wrapper="prefixIcon" list={["boost"]} /> While the lenses are properly aligned, the wearer gains a +2 circumstance bonus on <Link to="/skill/appraise">Appraise</Link> and <Link to="/skill/craft">Craft</Link> checks involving items that are small or highly detailed and on sight-based <Link to="/skill/perception">Perception</Link> checks when she uses an action to inspect something within 5 feet.</p>
+<p>However, the arms become misaligned if the wearer falls <Link to="/rule/prone">prone</Link> or is <Link to="/rule/grappled">grappled</Link>, or if the helmet is damaged (<Link to="/rule/hardness">hardness</Link> 5, 2 hit points). If the arms are misaligned, they lose their usefulness until readjusted (a <strong className="hl">full-round action</strong> that provokes attacks of opportunity).</p>
 </>};
 const _titans_tonic = {title: "Titan's tonic", jsx: <><h2 id="eq-misc-titans_tonic-titans-tonic">Titan's tonic</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 23</Link>  </p>
@@ -2378,7 +2389,8 @@ const _tobacco = {title: "Tobacco", jsx: <><h2 id="eq-misc-tobacco-tobacco">Toba
 const _tome_of_epics = {title: "Tome of epics", jsx: <><h2 id="eq-misc-tome_of_epics-tome-of-epics">Tome of epics</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 206</Link>  </p>
 <Tabular format="misc" a="50" b="3" d="tools" />
-<p>This hefty book is bound in oilskin and decorated with scenes of glorious combat between ancient heroes and ferocious monsters. It contains several tales of valor, defeat, and victory, all with brightly colored illustrations. After consulting the book for 1 hour, for the next 24 hours you gain a +2 circumstance bonus on Perform (oratory) and Perform (sing) checks and a +2 circumstance bonus on Knowledge (nobility) checks pertaining to heroic lineages.</p>
+<p>This hefty book is bound in oilskin and decorated with scenes of glorious combat between ancient heroes and ferocious monsters. It contains several tales of valor, defeat, and victory, all with brightly colored illustrations.</p>
+<p><Icons id="eq-misc-tome_of_epics-boost-icons" wrapper="prefixIcon" list={["boost"]} /> After consulting the book for 1 hour, for the next 24 hours you gain a +2 circumstance bonus on <Link to="/skill/perform">Perform</Link> (oratory) and Perform (sing) checks and a +2 circumstance bonus on <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> checks pertaining to heroic lineages.</p>
 </>};
 const _torch = {title: "Torch", jsx: <><h2 id="eq-misc-torch-torch">Torch</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -2388,12 +2400,13 @@ const _torch = {title: "Torch", jsx: <><h2 id="eq-misc-torch-torch">Torch</h2>
 const _tossglove = {title: "Tossglove", jsx: <><h2 id="eq-misc-tossglove-tossglove">Tossglove</h2>
 <p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion pg. 12</Link>  </p>
 <Tabular format="misc" a="0.1" b="1" d="tools" />
-<p>A tossglove is a hefty leather and metal glove made for holding and throwing an insect, snake, or other tiny creature that would otherwise bite the goblin. Those who don't use a tossglove when attempting to sling such creatures provoke an attack of opportunity from the animal they attempt to throw or stash. The glove has overlapping plates that cover the goblin's arm up to the elbow. It's a full-round action to put on or take off a tossglove, and while it's worn, that hand can't be used to perform acts of fine manipulation (such as making a Disable Device check or firing an arrow). The gloved hand can still wield a melee weapon.</p>
+<p>A <em>tossglove</em> is a hefty leather and metal glove made for holding and throwing an insect, snake, or other tiny creature that would otherwise bite the goblin. Those who don't use a <em>tossglove</em> when attempting to sling such creatures provoke an attack of opportunity from the animal they attempt to throw or stash.</p>
+<p><Icons id="eq-misc-tossglove-info-icons" wrapper="prefixIcon" list={["info"]} /> The glove has overlapping plates that cover the goblin's arm up to the elbow. It's a <strong className="hl">full-round action</strong> to put on or take off a <em>tossglove,</em> and while it's worn, that hand can't be used to perform acts of fine manipulation (such as making a <Link to="/skill/disable_device">Disable Device</Link> check or firing an arrow). The gloved hand can still wield a melee weapon.</p>
 </>};
 const _toxic_censer = {title: "Toxic censer", jsx: <><h2 id="eq-misc-toxic_censer-toxic-censer">Toxic censer</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 29</Link>  </p>
 <Tabular format="misc" a="115" b="1" d="tools" />
-<p>This ornately etched <Link to="/eq-misc/censer">censer</Link> has a small hidden compartment under the heat source that can hold 1 dose of poison. When in use, the censer's heat source indirectly heats the poison, causing it to mix with the burning <Link to="/eq-misc/incense">incense</Link> and allow the poison to permeate the air, filling a 20-foot radius centered on the censer. The poison's type changes to inhaled, and it is effective for 5 minutes before it is entirely burned off.</p>
+<p><Icons id="eq-misc-toxic_censer-aura-icons" wrapper="prefixIcon" list={["aura"]} /> This ornately etched <Link to="/eq-misc/censer">censer</Link> has a small hidden compartment under the heat source that can hold 1 dose of poison. When in use, the censer's heat source indirectly heats the poison, causing it to mix with the burning <Link to="/eq-misc/incense">incense</Link> and allow the poison to permeate the air, filling a 20-foot radius centered on the censer. The poison's type changes to inhaled, and it is effective for 5 minutes before it is entirely burned off.</p>
 </>};
 const _track_obscuring_soles = {title: "Track-obscuring soles", jsx: <><h2 id="eq-misc-track_obscuring_soles-track-obscuring-soles">Track-obscuring soles</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 9</Link>  </p>
@@ -2448,11 +2461,11 @@ const _trapped_item_trapped_disguise_kit = {hasJL:true,title: "Trapped item (tra
 <p>Kobold artisans are constantly looking for new ways to increase the effectiveness of their traps, all while decreasing their setup time. To fit these two needs, kobold inventors have created a series of small and easy-to-use trapped items. These replica items have traps built into them, and can be armed in a standard action. They're self-contained, single-use, and as easily transportable as the items they mimic.</p>
 <h3 id="eq-misc-trapped_item_trapped_disguise_kit-trapped-disguise-kit" data-hash-target>Trapped Disguise Kit</h3>
 <Tabular format="misc" id="disguise" a="50" b="8" d="tools" />
-<p>This appears to be a normal disguise kit, except that if any of the makeup or false facial hair is applied, the victim is marked with a strong scent. This scent mark decreases the DC of tracking the victim by scent by 4. The mark can be washed off with vigorous scrubbing, but otherwise fades on its own over several days.</p>
+<p><Icons id="eq-misc-trapped_item_trapped_disguise_kit-lower-icons" wrapper="prefixIcon" list={["lower"]} /> This appears to be a normal <Link to="/eq-misc/disguise_kit">disguise kit</Link>, except that if any of the makeup or false facial hair is applied, the victim is marked with a strong scent. This scent mark decreases the DC of tracking the victim by scent by 4. The mark can be washed off with vigorous scrubbing, but otherwise fades on its own over several days.</p>
 <TrapInfo id="trapped-disguise-kit-trap" cr="&mdash;" pdc="25" dddc="25" repair trigger="touch" eff="scent mark; never miss; onset delay (1 round)">Trapped Disguise Kit</TrapInfo>
 <h3 id="eq-misc-trapped_item_trapped_disguise_kit-trapped-scroll-case" data-hash-target>Trapped Scroll Case</h3>
 <Tabular format="misc" id="case" a="40" b="1" d="tools" />
-<p>This seemingly innocuous scroll case contains a glass pellet filled with gaseous poison. This pellet breaks when the case is opened, filling a 5-foot square with toxic gas. This poisonous cloud disperses after 1 round.</p>
+<p><Icons id="eq-misc-trapped_item_trapped_disguise_kit-aura-icons" wrapper="prefixIcon" list={["aura"]} /> This seemingly innocuous <Link to="/eq-misc/scroll_case">scroll case</Link> contains a glass pellet filled with gaseous poison. This pellet breaks when the case is opened, filling a 5-foot square with toxic gas. This poisonous cloud disperses after 1 round.</p>
 <TrapInfo id="trapped-scroll-case-trap" cr="&mdash;" pdc="20" dddc="20" trigger="touch" eff="poison gas">Trapped Scroll Case</TrapInfo>
 </>};
 const _pomander_nobles = {..._pomander_merchants, title: "Pomander (noble's)"};

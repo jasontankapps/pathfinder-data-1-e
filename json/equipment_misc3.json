@@ -2009,7 +2009,7 @@
 			"‹SOURCE Ranged Tactics Toolbox/21›  ",
 			"::tabular{format=misc a=80 b=35 d=tools}",
 			"",
-			"This sentry mannequin is designed to seem more lifelike than its common counterpart. After 5 minutes of assembly and coverage with the included loose hood and baggy clothing, this wire frame looks like a vigilant humanoid figure. It has pivoted joints with counterweights that move it in ways reminiscent of an alert guard every few rounds for 8 hours after it's set up. Creatures more than 30 feet from the mannequin must succeed at a DC 15 Perception check to realize it's not someone standing watch."
+			"This sentry mannequin is designed to seem more lifelike than its common counterpart. After 5 minutes of assembly and coverage with the included loose hood and baggy clothing, this wire frame looks like a vigilant humanoid figure. It has pivoted joints with counterweights that move it in ways reminiscent of an alert guard every few rounds for 8 hours after it's set up. Creatures more than 30 feet from the mannequin must succeed at a DC 15 ‹skill/Perception› check to realize it's not someone standing watch."
 		]
 	},
 	"sentry_mannequin": {
@@ -2020,7 +2020,7 @@
 			"‹SOURCE Ultimate Equipment/57›  ",
 			"::tabular{format=misc a=30 b=35 d=gear}",
 			"",
-			"After 5 minutes of assembly and coverage with the included loose hood and baggy clothing, this wooden frame looks like a vigilant humanoid figure. Creatures more than 30 feet distant from it must succeed at a DC 10 Perception check in order to realize it is not someone standing watch."
+			"After 5 minutes of assembly and coverage with the included loose hood and baggy clothing, this wooden frame looks like a vigilant humanoid figure. Creatures more than 30 feet distant from it must succeed at a DC 10 ‹skill/Perception› check in order to realize it is not someone standing watch."
 		]
 	},
 	"sentry_seeds": {
@@ -2102,7 +2102,9 @@
 			"‹SOURCE Advanced Race Guide/211›  ",
 			"::tabular{format=misc a=30 b=2 d=tools}",
 			"",
-			"This set of 10 elaborate metal stencils are used in shadow puppetry to cast shadows of highly stylized figures and objects. If used to aid in the creation of any type of shadow spell or effect (including ‹arc-bard/shadow puppet<eer› bardic performances), a ‹race/wayang› adds a +1 competence bonus to her saving throw DC. Using a shadow stencil requires one hand."
+			"This set of 10 elaborate metal stencils are used in shadow puppetry to cast shadows of highly stylized figures and objects.",
+			"",
+			"@I-boost If used to aid in the creation of any type of shadow spell or effect (including ‹arc-bard/shadow puppet<eer› bardic performances), a ‹race/wayang› adds a +1 competence bonus to her saving throw DC. Using a shadow stencil requires one hand."
 		]
 	},
 	"shadowy_stalker_package": {
@@ -2178,7 +2180,7 @@
 			"",
 			"Shears are used to quickly cut through items by snipping them between two sharp blades fitted with a spring to allow the jaws to open again after closing. Small shears can be used in one hand and are often used to trim hair, cut cloth, or perform other delicate cutting work. Lopping shears are 3 feet long and must be used in two hands; they are commonly used by farmers or gardeners to cut hedges and branches.",
 			"",
-			"Adamantine shears are lopping shears with sharpened ‹eq-material/adamantine› blades that can snip through nearly any material. You can use adamantine shears to cut through bars, chains, grates, or similar items, dealing damage to such objects as though using a ‹eq-weapon/scimitar› and bypassing hardness less than 20. On any item the adamantine shears can fit around (such as a chain or iron bar, but not an iron door), using adamantine shears provides a +10 bonus on your Strength check to break or burst it."
+			"@I-power-boost Adamantine shears are lopping shears with sharpened ‹eq-material/adamantine› blades that can snip through nearly any material. You can use adamantine shears to cut through bars, chains, grates, or similar items, dealing damage to such objects as though using a ‹eq-weapon/scimitar› and bypassing hardness less than 20. On any item the adamantine shears can fit around (such as a chain or iron bar, but not an iron door), using adamantine shears provides a +10 bonus on your Strength check to break or burst it."
 		]
 	},
 	"shears_lopping": {
@@ -2587,7 +2589,9 @@
 			"‹SOURCE Pathfinder #51: The Hungry Storm/67›  ",
 			"::tabular{format=misc a=15 b=6 d=tools}",
 			"",
-			"These polished wooden slats enable the wearer to glide across level snowy surfaces at his full speed. His speed is halved when moving up a snowy slope, but he may run or charge downhill on gentle or steep snowy slopes at quadruple speed. Any skill check penalties for traversing rough snowy terrain while wearing skis are doubled, and the wearer takes a -4 penalty on combat maneuver checks to ‹rule/bull rush›, ‹rule/drag›, or ‹rule/trip›, and to CMD against these maneuvers. Characters cannot climb while wearing skis. Donning or removing skis takes 1 minute.",
+			"@I-down-boost These polished wooden slats enable the wearer to glide across level snowy surfaces at his full speed. His speed is halved when moving up a snowy slope, but he may ‹rule/run› or ‹rule/charge› downhill on gentle or steep snowy slopes at quadruple speed.",
+			"",
+			"@I-down Any skill check penalties for traversing rough snowy terrain while wearing skis are doubled, and the wearer takes a -4 penalty on combat maneuver checks to ‹rule/bull rush›, ‹rule/drag›, or ‹rule/trip›, and to CMD against these maneuvers. Characters cannot climb while wearing skis. Donning or removing skis takes 1 minute.",
 			"",
 			"Also see: ‹eq-misc/skis›."
 		]
@@ -2628,7 +2632,11 @@
 			"‹SOURCE Castles of the Inner Sea/40›  ",
 			"::tabular{format=misc a=1000 b=500 d=tools}",
 			"",
-			"The dwarves of Highhelm fill these 20-foot-diameter cloth balloons with a secret and highly flammable gas (included in the price) and then release them into the sky over their enemies. To transform the balloons into decoys, dwarven siege warriors place dummies in cargo baskets beneath the balloons to look like balloonist scouts or snipers. Whoever releases the balloon can attempt a DC 15 Profession (driver), Knowledge (nature), or Wisdom check; if the check is successful, the balloon can be guided out to a maximum range of 300 feet, a far enough distance for archers to safely shoot the balloon with flaming arrows, causing it to explode in a devastating ball of fire. A detonated sky mine creates a 50-foot-radius ‹misc/burst› of flame that deals 10d6 points of fire damage to anything in the area."
+			"The dwarves of Highhelm fill these 20-foot-diameter cloth balloons with a secret and highly flammable gas (included in the price) and then release them into the sky over their enemies. To transform the balloons into decoys, dwarven siege warriors place dummies in cargo baskets beneath the balloons to look like balloonist scouts or snipers.",
+			"",
+			"Whoever releases the balloon can attempt a DC 15 ‹skill/Profession› (driver), ‹skill/Knowledge (nature)›, or Wisdom check; if the check is successful, the balloon can be guided out to a maximum range of 300 feet, a far enough distance for archers to safely shoot the balloon with flaming arrows, causing it to explode in a devastating ball of fire.",
+			"",
+			"@I-boom A detonated sky mine creates a 50-foot-radius ‹misc/burst› of flame that deals 10d6 points of fire damage to anything in the area."
 		]
 	},
 	"slave_hard_labor": {
@@ -2707,7 +2715,9 @@
 			"‹SOURCE Advanced Class Guide/205›  ",
 			"::tabular{format=misc a=100 b=1 d=tools}",
 			"",
-			"When worn inside voluminous sleeves, this leather holster allows you to draw a concealed ‹eq-weapon/hand crossbow› or ‹eq-weapon/coat pistol› as a move action. The weapon sits on sliders and is drawn directly into the hand. Unlike a ‹eq-misc/wrist sheath›, a sleeve holster is bulky enough that it is obvious on close inspection, though under a loose enough garment it might not provoke a reactive Perception check. An individual sleeve holster fits for either a hand crossbow or a coat pistol, but not both."
+			"@I-power When worn inside voluminous sleeves, this leather holster allows you to draw a concealed ‹eq-weapon/hand crossbow› or ‹eq-weapon/coat pistol› as a @HL[move action]. The weapon sits on sliders and is drawn directly into the hand.",
+			"",
+			"Unlike a ‹eq-misc/wrist sheath›, a sleeve holster is bulky enough that it is obvious on close inspection, though under a loose enough garment it might not provoke a reactive ‹skill/Perception› check. An individual sleeve holster fits for either a hand crossbow or a coat pistol, but not both."
 		]
 	},
 	"sleigh": {
@@ -3157,7 +3167,7 @@
 			"‹SOURCE Ranged Tactics Toolbox/21›  ",
 			"::tabular{format=misc a=6 b=2 d=tools}",
 			"",
-			"This large animal horn is hollowed out to amplify sounds that enter through the narrow end. The DC of Perception checks to hear a speaker using a speaking trumpet is reduced by 5."
+			"@I-boost This large animal horn is hollowed out to amplify sounds that enter through the narrow end. The DC of Perception checks to hear a speaker using a speaking trumpet is reduced by 5."
 		]
 	},
 	"spear_thrower": {
@@ -3662,7 +3672,9 @@
 			"‹SOURCE Advanced Race Guide/46›  ",
 			"::tabular{format=misc a=200 b=\"0.5\" d=tools}",
 			"",
-			"Many half-elves live in large cities or communities where they find it difficult to commune with nature. While some go on long sojourns to the wilderness, others spend their evenings on high, lonely rooftops, gazing at the stars. These lonely souls use star charts to track the movement of the stars and other celestial bodies. Anyone referencing one of these charts on a clear night can attempt a DC 20 Knowledge (geography) check to determine her approximate location and the month. In addition, these charts grant a +2 circumstance bonus on Survival checks made to avoid getting lost at night with a clear sky."
+			"Many half-elves live in large cities or communities where they find it difficult to commune with nature. While some go on long sojourns to the wilderness, others spend their evenings on high, lonely rooftops, gazing at the stars. These lonely souls use star charts to track the movement of the stars and other celestial bodies.",
+			"",
+			"@I-power-boost Anyone referencing one of these charts on a clear night can attempt a DC 20 ‹skill/Knowledge (geography)› check to determine her approximate location and the month. In addition, these charts grant a +2 circumstance bonus on ‹skill/Survival› checks made to avoid getting lost at night with a clear sky."
 		]
 	},
 	"starlight_juice": {
@@ -3715,7 +3727,7 @@
 			"‹SOURCE Heroes of the Streets/13›  ",
 			"::tabular{format=misc a=50 b=8 d=tools}",
 			"",
-			"This disguise kit includes metallic or stone-colored makeup and cloth that you can apply to appear to be a statue; it grants a +2 bonus only on Disguise checks to resemble metal, stone, or similar materials. You take a -5 penalty on Disguise checks when impersonating an inanimate object. A viewer can attempt a single Perception check opposed by your Disguise check upon viewing you, and an additional check each time a creature interacts with you. This kit is exhausted after 10 uses."
+			"This disguise kit includes metallic or stone-colored makeup and cloth that you can apply to appear to be a statue; it grants a +2 bonus only on ‹skill/Disguise› checks to resemble metal, stone, or similar materials. You take a -5 penalty on Disguise checks when impersonating an inanimate object. A viewer can attempt a single ‹skill/Perception› check opposed by your Disguise check upon viewing you, and an additional check each time a creature interacts with you. This kit is exhausted after 10 uses."
 		]
 	},
 	"stiletto_boots": {
@@ -3985,7 +3997,7 @@
 			"‹SOURCE Advanced Class Guide/206›  ",
 			"::tabular{format=misc a=1 b=x d=tools}",
 			"",
-			"This bottle looks like it's made of glass, but is more fragile and doesn't cause damage when it strikes a creature or object. Highly prized by theater performers, sugar glass bottles grant a +2 circumstance bonus on Bluff and Perform checks involving the creation of seemingly realistic fights."
+			"@I-boost This bottle looks like it's made of glass, but is more fragile and doesn't cause damage when it strikes a creature or object. Highly prized by theater performers, sugar glass bottles grant a +2 circumstance bonus on ‹skill/Bluff› and ‹skill/Perform› checks involving the creation of seemingly realistic fights."
 		]
 	},
 	"summoners_kit": {
@@ -4113,7 +4125,7 @@
 			"",
 			"This collection of eight heavy wooden or metal cones, cylinders, and spheres fills an ordinary backpack. None of the shapes is precisely regular, and when stacked atop each other, they teeter precariously and easily topple. Acrobats practice by stacking these blocks in unstable configurations and attempting to balance while standing upon them.",
 			"",
-			"Using surefoot training blocks to improve your balance requires 1 hour of practice and a DC 15 Acrobatics check. If you succeed at the check, you gain a +2 circumstance bonus on Climb checks and on Acrobatics checks to balance on narrow surfaces or uneven ground. This bonus lasts for 24 hours or until you fail a Climb or Acrobatics check."
+			"@I-boost Using surefoot training blocks to improve your balance requires 1 hour of practice and a DC 15 ‹skill/Acrobatics› check. If you succeed at the check, you gain a +2 circumstance bonus on ‹skill/Climb› checks and on Acrobatics checks to balance on narrow surfaces or uneven ground. This bonus lasts for 24 hours or until you fail a Climb or Acrobatics check."
 		]
 	},
 	"sureseal_bladder_mundane": {
@@ -4158,7 +4170,7 @@
 			"‹SOURCE Ultimate Equipment/77;Pathfinder #8: Seven Days to the Grave/61;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=20 b=5 d=tools}",
 			"",
-			"When used in conjunction with a ‹eq-misc/healer's kit›, surgeon's tools raise the kit's bonus to a +3 circumstance bonus on Heal checks to treat wounds or deadly wounds."
+			"@I-boost When used in conjunction with a ‹eq-misc/healer's kit›, surgeon's tools raise the kit's bonus to a +3 circumstance bonus on ‹skill/Heal› checks to treat wounds or deadly wounds."
 		]
 	},
 	"surgical_jelly": {
@@ -4252,7 +4264,7 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"0.1\" b=5 d=tools}",
 			"",
-			"Swim fins add 10 feet to your swimming speed but reduce your base speed to 5 feet. Donning or doffing swim fins requires 5 rounds."
+			"@I-boost-down Swim fins add 10 feet to your swimming speed but reduce your base speed to 5 feet. Donning or doffing swim fins requires 5 rounds."
 		]
 	},
 	"sylirican_lemons": {
@@ -4281,7 +4293,9 @@
 			"‹SOURCE Ultimate Equipment/77;Advanced Player's Guide/185›  ",
 			"::tabular{format=misc a=25 b=5 d=tools}",
 			"",
-			"This small wooden box has many tiny compartments filled with items useful if you want to feign a sickness, as well as a handy reference book outlining common indicators for some of the more feared virulent diseases. The kit includes such things as false pustules, pills that cause the person chewing them to foam at the mouth, and herbal concoctions designed to induce fevers or vomiting. Using a symptom kit grants you a +5 circumstances bonus on Disguise checks made for the purpose of simulating illness. A symptom kit is exhausted after 10 uses."
+			"This small wooden box has many tiny compartments filled with items useful if you want to feign a sickness, as well as a handy reference book outlining common indicators for some of the more feared virulent diseases. The kit includes such things as false pustules, pills that cause the person chewing them to foam at the mouth, and herbal concoctions designed to induce fevers or vomiting.",
+			"",
+			"Using a symptom kit grants you a +5 circumstances bonus on ‹skill/Disguise› checks made for the purpose of simulating illness. A symptom kit is exhausted after 10 uses."
 		]
 	},
 	"synthetic_mumia": {
@@ -4442,7 +4456,7 @@
 			"‹SOURCE People of the Stars/27›  ",
 			"::tabular{format=misc a=\"2,000 gp (&times&10), 8,000 gp (&times&250), 4,000 gp (&times&50)\" b=\"12 lbs. (&times&10), 44 lbs. (&times&250), 23 lbs. (&times&50)\" c=x d=tools}",
 			"",
-			"This basic, semi-portable telescope allows the user to see greater detail on very distant objects. Telescopes can be built to a variety of specifications, but those most often used by adventuring stargazers are listed here. A telescope grants the listed circumstance bonus on Perception checks to discern celestial bodies and on Knowledge (geography) checks to learn about the planets when used at night.",
+			"This basic, semi-portable telescope allows the user to see greater detail on very distant objects. Telescopes can be built to a variety of specifications, but those most often used by adventuring stargazers are listed here. A telescope grants the listed circumstance bonus on ‹skill/Perception› checks to discern celestial bodies and on ‹skill/Knowledge (geography)› checks to learn about the planets when used at night.",
 			"",
 			"A telescope can be used to look at either terrestrial or celestial objects. Distance penalties on Perception checks for viewing objects through the telescope are divided by the telescope's magnification. Assembling, disassembling, or significantly moving a telescope takes 1 minute.",
 			"",
@@ -4590,7 +4604,9 @@
 			"‹SOURCE Adventurer's Armory 2/14›  ",
 			"::tabular{format=misc a=200 b=4 d=tools}",
 			"",
-			"This small box is covered with varying gears, locks, panels, and other mechanisms. Thieves practice their mechanical skills by attempting to undo or unlock the various mechanisms to reach the box's center. The mechanisms shift and rearrange, allowing for a multitude of combinations to keep the box from opening. Once unlocked, the box resets itself and provides a reordered set of mechanisms, starting the process over. Using a thief trainer to improve your skills requires 1 hour and a DC 25 Disable Device check. If you succeed at the check, you reduce the time required to complete a Disable Device check by 2 rounds (minimum 1 round). This bonus lasts for 24 hours."
+			"This small box is covered with varying gears, locks, panels, and other mechanisms. Thieves practice their mechanical skills by attempting to undo or unlock the various mechanisms to reach the box's center. The mechanisms shift and rearrange, allowing for a multitude of combinations to keep the box from opening. Once unlocked, the box resets itself and provides a reordered set of mechanisms, starting the process over.",
+			"",
+			"@I-boost Using a thief trainer to improve your skills requires 1 hour and a DC 25 ‹skill/Disable Device› check. If you succeed at the check, you reduce the time required to complete a Disable Device check by 2 rounds (minimum 1 round). This bonus lasts for 24 hours."
 		]
 	},
 	"thieves_ring": {
@@ -4601,7 +4617,9 @@
 			"‹SOURCE Dungeoneer's Handbook/25›  ",
 			"::tabular{format=misc a=300 b=x d=tools}",
 			"",
-			"This slightly oversized ring conceals a few lockpicks and other tools coiled inside its band. These discreet tools, made of a metal alloy that springs straight once the tool is removed from the band, are sufficient to attempt Disable Device checks without penalty, and long enough to pick locks on manacles fastened around the wearer's hands (once she slips off the ring). The wearer gains a +2 circumstance bonus on Sleight of Hand checks made to conceal the ring's nature from anyone searching her."
+			"This slightly oversized ring conceals a few lockpicks and other tools coiled inside its band. These discreet tools, made of a metal alloy that springs straight once the tool is removed from the band, are sufficient to attempt ‹skill/Disable Device› checks without penalty, and long enough to pick locks on ‹eq-misc/manacles› fastened around the wearer's hands (once she slips off the ring).",
+			"",
+			"@I-def The wearer gains a +2 circumstance bonus on ‹skill/Sleight of Hand› checks made to conceal the ring's nature from anyone searching her."
 		]
 	},
 	"thieves_tool_extenders_common": {
@@ -4612,7 +4630,7 @@
 			"‹SOURCE Dungeoneer's Handbook/25›  ",
 			"::tabular{format=misc a=\"70 gp (common), 820 gp (mithral)\" b=\"3 lbs. (common), 1&frac12& lbs. (mithral)\" c=x d=tools}",
 			"",
-			"These long-reaching extenders can be attached to or detached from ‹eq-misc/thieves' tools› as a standard action, allowing the user to make Disable Device checks on devices in any space he could reach with a reach weapon. High-quality mirrors on the shafts let him see what he's doing, but he takes a -4 penalty on Disable Device checks when working on a device more than 5 feet away."
+			"@I-power-down These long-reaching extenders can be attached to or detached from ‹eq-misc/thieves' tools› as a @HL[standard action], allowing the user to make ‹skill/Disable Device› checks on devices in any space he could reach with a reach weapon. High-quality mirrors on the shafts let him see what he's doing, but he takes a -4 penalty on Disable Device checks when working on a device more than 5 feet away."
 		]
 	},
 	"thieves_tool_extenders_mithral": {
@@ -4630,13 +4648,13 @@
 			"‹SOURCE Ultimate Equipment/77;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc id=extend a=30 b=1 d=tools}",
 			"",
-			"This kit contains lockpicks and other tools you need to use the Disable Device skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.",
+			"@I-info This kit contains lockpicks and other tools you need to use the ‹skill/Disable Device› skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.",
 			"",
 			"::h3[Masterwork Thieves' Tools]{jl}",
 			"",
 			"::tabular{format=misc id=masterwork a=100 b=2 d=tools}",
 			"",
-			"This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on Disable Device checks."
+			"@I-boost This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on Disable Device checks."
 		]
 	},
 	"thieves_tools": {
@@ -4768,7 +4786,11 @@
 			"‹SOURCE Dungeoneer's Handbook/25›  ",
 			"::tabular{format=misc a=200 b=4 d=tools}",
 			"",
-			"This expertly crafted helmet has several small arms that hold magnifying lenses near the wearer's face. They're kept in place by locking hinges and crude gyroscopes that compensate for normal head movements. While the lenses are properly aligned, the wearer gains a +2 circumstance bonus on Appraise and Craft checks involving items that are small or highly detailed and on sight-based Perception checks when she uses an action to inspect something within 5 feet. However, the arms become misaligned if the wearer falls prone or is grappled, or if the helmet is damaged (hardness 5, 2 hit points). If the arms are misaligned, they lose their usefulness until readjusted (a full-round action that provokes attacks of opportunity)."
+			"This expertly crafted helmet has several small arms that hold magnifying lenses near the wearer's face. They're kept in place by locking hinges and crude gyroscopes that compensate for normal head movements.",
+			"",
+			"@I-boost While the lenses are properly aligned, the wearer gains a +2 circumstance bonus on ‹skill/Appraise› and ‹skill/Craft› checks involving items that are small or highly detailed and on sight-based ‹skill/Perception› checks when she uses an action to inspect something within 5 feet.",
+			"",
+			"However, the arms become misaligned if the wearer falls ‹rule/prone› or is ‹rule/grappled›, or if the helmet is damaged (‹rule/hardness› 5, 2 hit points). If the arms are misaligned, they lose their usefulness until readjusted (a @HL[full-round action] that provokes attacks of opportunity)."
 		]
 	},
 	"titans_tonic": {
@@ -4828,7 +4850,9 @@
 			"‹SOURCE Advanced Class Guide/206›  ",
 			"::tabular{format=misc a=50 b=3 d=tools}",
 			"",
-			"This hefty book is bound in oilskin and decorated with scenes of glorious combat between ancient heroes and ferocious monsters. It contains several tales of valor, defeat, and victory, all with brightly colored illustrations. After consulting the book for 1 hour, for the next 24 hours you gain a +2 circumstance bonus on Perform (oratory) and Perform (sing) checks and a +2 circumstance bonus on Knowledge (nobility) checks pertaining to heroic lineages."
+			"This hefty book is bound in oilskin and decorated with scenes of glorious combat between ancient heroes and ferocious monsters. It contains several tales of valor, defeat, and victory, all with brightly colored illustrations.",
+			"",
+			"@I-boost After consulting the book for 1 hour, for the next 24 hours you gain a +2 circumstance bonus on ‹skill/Perform› (oratory) and Perform (sing) checks and a +2 circumstance bonus on ‹skill/Knowledge (nobility)› checks pertaining to heroic lineages."
 		]
 	},
 	"torch": {
@@ -4854,7 +4878,9 @@
 			"‹SOURCE Goblins of Golarion/12›  ",
 			"::tabular{format=misc a=\"0.1\" b=1 d=tools}",
 			"",
-			"A tossglove is a hefty leather and metal glove made for holding and throwing an insect, snake, or other tiny creature that would otherwise bite the goblin. Those who don't use a tossglove when attempting to sling such creatures provoke an attack of opportunity from the animal they attempt to throw or stash. The glove has overlapping plates that cover the goblin's arm up to the elbow. It's a full-round action to put on or take off a tossglove, and while it's worn, that hand can't be used to perform acts of fine manipulation (such as making a Disable Device check or firing an arrow). The gloved hand can still wield a melee weapon."
+			"A *tossglove* is a hefty leather and metal glove made for holding and throwing an insect, snake, or other tiny creature that would otherwise bite the goblin. Those who don't use a *tossglove* when attempting to sling such creatures provoke an attack of opportunity from the animal they attempt to throw or stash.",
+			"",
+			"@I-info The glove has overlapping plates that cover the goblin's arm up to the elbow. It's a @HL[full-round action] to put on or take off a *tossglove,* and while it's worn, that hand can't be used to perform acts of fine manipulation (such as making a ‹skill/Disable Device› check or firing an arrow). The gloved hand can still wield a melee weapon."
 		]
 	},
 	"toxic_censer": {
@@ -4865,7 +4891,7 @@
 			"‹SOURCE Potions and Poisons/29›  ",
 			"::tabular{format=misc a=115 b=1 d=tools}",
 			"",
-			"This ornately etched ‹eq-misc/censer› has a small hidden compartment under the heat source that can hold 1 dose of poison. When in use, the censer's heat source indirectly heats the poison, causing it to mix with the burning ‹eq-misc/incense› and allow the poison to permeate the air, filling a 20-foot radius centered on the censer. The poison's type changes to inhaled, and it is effective for 5 minutes before it is entirely burned off."
+			"@I-aura This ornately etched ‹eq-misc/censer› has a small hidden compartment under the heat source that can hold 1 dose of poison. When in use, the censer's heat source indirectly heats the poison, causing it to mix with the burning ‹eq-misc/incense› and allow the poison to permeate the air, filling a 20-foot radius centered on the censer. The poison's type changes to inhaled, and it is effective for 5 minutes before it is entirely burned off."
 		]
 	},
 	"track_obscuring_soles": {
@@ -4988,7 +5014,7 @@
 			"",
 			"::tabular{format=misc id=disguise a=50 b=8 d=tools}",
 			"",
-			"This appears to be a normal disguise kit, except that if any of the makeup or false facial hair is applied, the victim is marked with a strong scent. This scent mark decreases the DC of tracking the victim by scent by 4. The mark can be washed off with vigorous scrubbing, but otherwise fades on its own over several days.",
+			"@I-lower This appears to be a normal ‹eq-misc/disguise kit›, except that if any of the makeup or false facial hair is applied, the victim is marked with a strong scent. This scent mark decreases the DC of tracking the victim by scent by 4. The mark can be washed off with vigorous scrubbing, but otherwise fades on its own over several days.",
 			"",
 			"::trap[Trapped Disguise Kit]{cr=\"&mdash&\" mechanical pdc=25 dddc=25 trigger=touch repair eff=\"scent mark; never miss; onset delay (1 round)\"}",
 			"",
@@ -4996,7 +5022,7 @@
 			"",
 			"::tabular{format=misc id=case a=40 b=1 d=tools}",
 			"",
-			"This seemingly innocuous scroll case contains a glass pellet filled with gaseous poison. This pellet breaks when the case is opened, filling a 5-foot square with toxic gas. This poisonous cloud disperses after 1 round.",
+			"@I-aura This seemingly innocuous ‹eq-misc/scroll case› contains a glass pellet filled with gaseous poison. This pellet breaks when the case is opened, filling a 5-foot square with toxic gas. This poisonous cloud disperses after 1 round.",
 			"",
 			"::trap[Trapped Scroll Case]{cr=\"&mdash&\" mechanical pdc=20 dddc=20 trigger=touch eff=\"poison gas\"}"
 		]

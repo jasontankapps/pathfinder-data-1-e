@@ -154,22 +154,15 @@
 			"",
 			"Decoy triggers are misleading mechanisms intended to divert a victim's attention from a real trap by presenting an easily found decoy. Ideally, the victim spots the fake mechanism and, in attempting to disarm or evade it, triggers the real trap.",
 			"",
-			"A decoy trigger grants a bonus to the Perception DC of any trap it accessorizes - the decoy itself has an intentionally low Perception DC. Though a decoy trigger increases the CR of the trap it augments, as a standalone accessory it doesn't increase the trap's Craft DC. Instead of a Disable Device DC, decoy triggers have a Sense Motive DC. If a creature succeeds at the decoy's Sense Motive check, it immediately recognizes the decoy trigger as a fake, and the real trap loses the bonus to its Perception DC. All decoy triggers are single-use only.",
+			"@I-boost A decoy trigger grants a bonus to the Perception DC of any trap it accessorizes - the decoy itself has an intentionally low Perception DC. Though a decoy trigger increases the CR of the trap it augments, as a standalone accessory it doesn't increase the trap's Craft DC.",
 			"",
-			">**Decoy Pressure Switch**  ",
-			">**Type** mechanical; **Perception** DC 12; **Sense Motive** DC 24  ",
-			">**Effects**  ",
-			">**Trap Perception** DC +6, CR Modifier: +2",
-			">",
-			">**Decoy Trap Door**  ",
-			">**Type** mechanical; **Perception** DC 10; **Sense Motive** DC 28  ",
-			">**Effects**  ",
-			">**Trap Perception** DC +9, CR Modifier: +3",
-			">",
-			">**Decoy Tripwire**  ",
-			">**Type** mechanical; **Perception** DC 15; **Sense Motive** DC 20  ",
-			">**Effects**  ",
-			">**Trap Perception** DC +3, CR Modifier: +1"
+			"@I-info Instead of a Disable Device DC, decoy triggers have a ‹skill/Sense Motive› DC. If a creature succeeds at the decoy's Sense Motive check, it immediately recognizes the decoy trigger as a fake, and the real trap loses the bonus to its Perception DC. All decoy triggers are single-use only.",
+			"",
+			"::trap[Decoy Pressure Switch]{start mechanical fake pdc=12 dddc=24 eff=\"Increases associated trap's Perception DC by +6 and its CR by +2.\" cr=\"&mdash&\" trigger=None}",
+			"",
+			"::trap[Decoy Trap Door]{start mechanical fake pdc=10 dddc=28 eff=\"Increases associated trap's Perception DC by +9 and its CR by +3.\" cr=\"&mdash&\" trigger=None}",
+			"",
+			"::trap[Decoy Tripwire]{start mechanical fake pdc=15 dddc=20 eff=\"Increases associated trap's Perception DC by +3 and its CR by +1.\" cr=\"&mdash&\" trigger=None}"
 		]
 	},
 	"decoy_trigger_decoy_trap_door": {
@@ -388,7 +381,7 @@
 			"‹SOURCE Ultimate Equipment/77;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc a=50 b=8 d=tools}",
 			"",
-			"This kit contains tools like makeup and fake facial hair, and provides a +2 circumstance bonus on Disguise checks. A disguise kit is exhausted after 10 uses."
+			"@I-boost This kit contains tools like makeup and fake facial hair, and provides a +2 circumstance bonus on Disguise checks. A disguise kit is exhausted after 10 uses."
 		]
 	},
 	"disguised_holy_text": {
@@ -421,7 +414,13 @@
 			"‹SOURCE Adventurer's Armory 2/16›  ",
 			"::tabular{format=misc a=150 b=6 d=tools}",
 			"",
-			"This large wood-and-canvas fan is 2 feet wide and ideal for quickly dispersing smoke or other harmful gases. While waving a dissipating fan, you gain a +2 circumstance bonus on Fortitude saving throws to avoid taking nonlethal damage from heat exposure and to avoid the effects of [smoke inhalation](rule/forest_fires). You can use a dissipating fan to clear nonmagical smoke, fog, or similar vapors from your square or an adjacent square as a full-round action - although dense smoke or fog in the surrounding area eventually refills the space (how long this takes depends on the source and the size of the area, at the GM's discretion). When folded and closed, a dissipating fan is the size of a thick walking stick. Some dissipating fans are decorated with paint or elaborate embroidery, and have a higher price to reflect their adornment."
+			"This large wood-and-canvas fan is 2 feet wide and ideal for quickly dispersing smoke or other harmful gases.",
+			"",
+			"@I-def While waving a dissipating fan, you gain a +2 circumstance bonus on Fortitude saving throws to avoid taking nonlethal damage from ‹rule/heat« exposure› and to avoid the effects of [smoke inhalation](rule/forest_fires).",
+			"",
+			"@I-power You can use a dissipating fan to clear nonmagical smoke, fog, or similar vapors from your square or an adjacent square as a @HL[full-round action] - although dense smoke or fog in the surrounding area eventually refills the space (how long this takes depends on the source and the size of the area, at the GM's discretion).",
+			"",
+			"When folded and closed, a dissipating fan is the size of a thick walking stick. Some dissipating fans are decorated with paint or elaborate embroidery, and have a higher price to reflect their adornment."
 		]
 	},
 	"distilled_terrap_sap": {
@@ -484,7 +483,7 @@
 			"‹SOURCE Adventurer's Armory/19;Pathfinder #8: Seven Days to the Grave/61;Curse of the Crimson Throne Player's Guide/12›  ",
 			"::tabular{format=misc a=50 b=2 d=tools}",
 			"",
-			"This protective mask gives you a +1 circumstance bonus on Fortitude saves made against airborne toxins and scent-based effects. In Korvosa, it is a minor crime to wear a doctor's mask in public if you are not a healer or physician."
+			"@I-def This protective mask gives you a +1 circumstance bonus on Fortitude saves made against airborne toxins and scent-based effects. In Korvosa, it is a minor crime to wear a doctor's mask in public if you are not a healer or physician."
 		]
 	},
 	"doctors_outfit": {
@@ -758,7 +757,7 @@
 			"‹SOURCE Dragonslayer's Handbook/26›  ",
 			"::tabular{format=misc a=40 b=4 d=tools}",
 			"",
-			"This kit contains all the butchers' tools, preservatives, and desiccants necessary to turn a dragon corpse into usable items. It provides the user with a +2 circumstance bonus on all Heal and Craft skill checks made to harvest dragoncraft materials and create dragoncraft items."
+			"@I-boost This kit contains all the butchers' tools, preservatives, and desiccants necessary to turn a dragon corpse into usable items. It provides the user with a +2 circumstance bonus on all ‹skill/Heal› and ‹skill/Craft› skill checks made to harvest dragoncraft materials and create dragoncraft items."
 		]
 	},
 	"dragonskin_grip": {
@@ -849,7 +848,9 @@
 			"‹SOURCE Adventurer's Armory 2/14›  ",
 			"::tabular{format=misc a=35 b=10 d=tools}",
 			"",
-			"This metal helmet sports an open top and a tightly sealed collar that closes securely around the neck. Water is poured into the open top, filling the helmet and forcing you to ‹misc/hold your breath›. A safety lever allows you to release the water at any time. Training with the drowner's helm requires 1 hour of practice and a DC 15 Constitution check. If you succeed at the check, you treat your Constitution score as 5 higher when determining how long you can hold your breath. This bonus lasts for 24 hours."
+			"This metal helmet sports an open top and a tightly sealed collar that closes securely around the neck. Water is poured into the open top, filling the helmet and forcing you to ‹misc/hold your breath›. A safety lever allows you to release the water at any time.",
+			"",
+			"@I-def Training with the *drowner's helm* requires 1 hour of practice and a DC 15 Constitution check. If you succeed at the check, you treat your Constitution score as 5 higher when determining how long you can hold your breath. This bonus lasts for 24 hours."
 		]
 	},
 	"druids_kit": {
@@ -1718,13 +1719,13 @@
 			"‹SOURCE Ultimate Equipment/77;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc id=music a=5 b=3 d=tools}",
 			"",
-			"If you want to perform using a Perform skill associated with a musical instrument (keyboard, percussion, string, or wind), you must have an appropriate musical instrument; otherwise you can't use the skill. The listed cost and weight is for a typical small instrument you could carry by hand, such as a drum, lyre, bell, harp, or flute; larger instruments such as a cello or piano are of course larger and more expensive.",
+			"If you want to perform using a ‹skill/Perform› skill associated with a musical instrument (keyboard, percussion, string, or wind), you must have an appropriate musical instrument; otherwise you can't use the skill. The listed cost and weight is for a typical small instrument you could carry by hand, such as a drum, lyre, bell, harp, or flute; larger instruments such as a cello or piano are of course larger and more expensive.",
 			"",
 			"::h3[Masterwork Musical Instrument]{jl}",
 			"",
 			"::tabular{format=misc id=masterwork a=100 b=3 d=tools}",
 			"",
-			"This high-quality instrument grants a +2 circumstance bonus on Perform checks made to perform with the instrument."
+			"@I-boost This high-quality instrument grants a +2 circumstance bonus on Perform checks made to perform with the instrument."
 		]
 	},
 	"musical_instrument": { "redirect": "musical_instrument_common" },
@@ -1795,7 +1796,9 @@
 			"‹SOURCE Ultimate Wilderness/244›  ",
 			"::tabular{format=misc a=60 b=4 d=tools}",
 			"",
-			"A nature climbing harness is a series of buckles, straps, and trusses that can be worn over clothing or light armor. As a standard action, you can secure yourself in place on a vertical surface so that both your hands are free. You can remain in this position without needing to attempt additional Climb checks, and you don't lose your Dexterity bonus to your AC as long as you remain anchored. As long as you are anchored in this way, you cannot move, but you gain a +5 circumstance bonus on Climb checks to avoid falling whenever you take damage. You can release yourself to start moving again as a move action."
+			"A *nature climbing harness* is a series of buckles, straps, and trusses that can be worn over clothing or light armor.",
+			"",
+			"@I-power-def-down As a @HL[standard action], you can secure yourself in place on a vertical surface so that both your hands are free. You can remain in this position without needing to attempt additional ‹skill/Climb› checks, and you don't lose your Dexterity bonus to your AC as long as you remain anchored. As long as you are anchored in this way, you cannot move, but you gain a +5 circumstance bonus on Climb checks to avoid falling whenever you take damage. You can release yourself to start moving again as a move action."
 		]
 	},
 	"nautical_chart": {
@@ -2069,7 +2072,7 @@
 			"‹SOURCE Advanced Race Guide/37›  ",
 			"::tabular{format=misc a=25 b=1 d=tools}",
 			"",
-			"Gnomes use these small books to record information about their obsessions. When a ‹race/gnome› consults her obsession log (taking 1 minute), she gains a +2 circumstance bonus on the next Craft or Profession check she makes, as long as that skill was the one chosen for her obsessive racial trait."
+			"@I-boost Gnomes use these small books to record information about their obsessions. When a ‹race/gnome› consults her obsession log (taking 1 minute), she gains a +2 circumstance bonus on the next ‹skill/Craft› or ‹skill/Profession› check she makes, as long as that skill was the one chosen for her *obsessive* racial trait."
 		]
 	},
 	"occult_reference_material": {
@@ -2080,7 +2083,9 @@
 			"‹SOURCE Occult Adventures/249›  ",
 			"::tabular{format=misc a=80 b=1 d=tools}",
 			"",
-			"These books come in all manner of shapes and sizes, from hardbound, illustrated manuscripts to collections of journals, notes, and scrolls from multiple authors. When used as a reference (an action that typically requires 1d4 minutes of searching the text), occult reference material grants a +2 circumstance bonus on Knowledge checks related to the occult topic covered by that manual. Some common topics for occult reference materials include astral projection, auras, dreams, ley lines, medium spirits, and rituals. Occult reference materials devoted to general subjects - such as spirits as a whole - provide an overview but don't give enough detail to grant a skill bonus."
+			"@I-boost These books come in all manner of shapes and sizes, from hardbound, illustrated manuscripts to collections of journals, notes, and scrolls from multiple authors. When used as a reference (an action that typically requires 1d4 minutes of searching the text), occult reference material grants a +2 circumstance bonus on ‹skill/Knowledge› checks related to the occult topic covered by that manual.",
+			"",
+			"Some common topics for occult reference materials include astral projection, auras, dreams, ley lines, medium spirits, and rituals. Occult reference materials devoted to general subjects - such as spirits as a whole - provide an overview but don't give enough detail to grant a skill bonus."
 		]
 	},
 	"occultists_implement": {
@@ -2091,7 +2096,9 @@
 			"‹SOURCE Occult Adventures/249›  ",
 			"::tabular{format=misc a=10 b=\"0.5\" d=tools}",
 			"",
-			"This bauble, bit of clothing, or relic has some minor historical significance. Though not especially valuable, it's useful to an ‹class/occultist›, who can use it as an implement. Any such item is nonmagical, even if it appears to be a rod or wand. Implements that already have a mundane version with a price higher than 10 gp (such as armor, shields, weapons, and harrow decks) use their normal item entries instead of this catch-all."
+			"This bauble, bit of clothing, or relic has some minor historical significance. Though not especially valuable, it's useful to an ‹class/occultist›, who can use it as an *implement.* Any such item is nonmagical, even if it appears to be a rod or wand.",
+			"",
+			"@I-info Implements that already have a mundane version with a price higher than 10 gp (such as armor, shields, weapons, and ‹eq-misc/harrow deck«s›) use their normal item entries instead of this catch-all."
 		]
 	},
 	"occultists_kit": {
@@ -2263,14 +2270,18 @@
 			"‹SOURCE People of the Stars/26›  ",
 			"::tabular{format=misc a=\"2,000 gp (calculating grand), 1,500 gp (calculating standard), 200 gp (calculating tellurium), 1,000 gp (grand), 750 gp (standard), 100 gp (tellurium)\" b=\"12 lbs. (calculating grand), 5 lbs. (calculating standard), 2 lbs. (calculating tellurium), 12 lbs. (grand), 5 lbs. (standard), 2 lbs. (tellurium)\" c=x d=tools}",
 			"",
-			"This complex mechanism simulates the angles and relative distances between one or more bodies in a solar system in relation to the system's star with marks or spheres on moving gears or arms. Anyone consulting an orrery gains a +2 circumstance bonus on Knowledge (geography) checks involving bodies it models and on Survival checks to navigate the void of space. An orrery can be used in combination with a ‹eq-misc/sextant› on a clear night to determine the time on any of the stellar bodies it models. Any orrery can be used as a focus component for the ‹spell/augury› spell in place of that spell's normal focus.",
+			"This complex mechanism simulates the angles and relative distances between one or more bodies in a solar system in relation to the system's star with marks or spheres on moving gears or arms.",
+			"",
+			"@I-boost Anyone consulting an orrery gains a +2 circumstance bonus on ‹skill/Knowledge (geography)› checks involving bodies it models and on ‹skill/Survival› checks to navigate the void of space.",
+			"",
+			"@I-power An orrery can be used in combination with a ‹eq-misc/sextant› on a clear night to determine the time on any of the stellar bodies it models. Any orrery can be used as a focus component for the ‹spell/augury› spell in place of that spell's normal focus.",
 			"",
 			"Orreries come in many shapes and sizes and with a variety of functions in mind.",
 			"",
-			"- A *tellurion* models a single planet and any moons it may have.",
-			"- A *standard orrery* tracks the inner planets of a system (Aballon, Castrovel, Golarion, Verces, Eox, and Triaxus) and their moons.",
-			"- A *grand orrery* tracks all the known planets of a system (including the outer planets: Liavara, Bretheda, Apostae, and Aucturn) and their moons.",
-			"- A *calculating orrery* is an orrery that indicates with rotating numerals on each arm the current distance between each body and its star (or its planet, in the case of moons), increasing the circumstance bonus on relevant skill checks to +4."
+			"- A @HL[tellurion] models a single planet and any moons it may have.",
+			"- A @HL[standard orrery] tracks the inner planets of a system (‹rule/Aballon›, ‹rule/Castrovel›, Golarion, ‹rule/Verces›, ‹rule/Eox›, and ‹rule/Triaxus›) and their moons.",
+			"- A @HL[grand orrery] tracks all the known planets of a system (including the outer planets: ‹rule/Liavara›, ‹rule/Bretheda›, ‹rule/Apostae›, and ‹rule/Aucturn›) and their moons.",
+			"- @I-boost A @HL[calculating orrery] is an orrery that indicates with rotating numerals on each arm the current distance between each body and its star (or its planet, in the case of moons), increasing the circumstance bonus on relevant skill checks to +4."
 		]
 	},
 	"orreries": { "redirect": "orrery" },
@@ -2401,7 +2412,13 @@
 			"‹SOURCE Alchemy Manual/6›  ",
 			"::tabular{format=misc a=50 b=\"0.5\" d=tools}",
 			"",
-			"Pain wheels are used by orc marauders to blight the lands of their foes and despoil the earth for generations to come. When you whirl this cruel weapon above your head as a standard action, it scatters salt in a 5-foot radius centered on your space. Creatures in the affected area (including you) that have fewer than their maximum number of hit points must succeed at a DC 11 Fortitude save or be ‹misc/sickened› by pain for 1d6 rounds. Creatures affected by ‹rule/bleed› effects take a -5 penalty on their saves. A successful DC 11 Heal check ends the sickened condition, as does the application of any effect that heals hit point damage. A pain wheel must be loaded with a pound of salt (a move action) before it can be used. You can also load a dose of ‹eq-weapon/itching powder› or another alchemical powder normally used as a ‹rule/splash weapon«s› into a pain wheel; when a pain wheel is used this way, the affected area (including your square) is treated as the splash radius for the purpose of determining the powder's effects, and there is no way to deal a direct hit with the powder."
+			"Pain wheels are used by ‹monster/orc› marauders to blight the lands of their foes and despoil the earth for generations to come.",
+			"",
+			"@I-power-aura-lower-down When you whirl this cruel weapon above your head as a @HL[standard action], it scatters salt in a 5-foot radius centered on your space. Creatures in the affected area (including you) that have fewer than their maximum number of hit points must succeed at a DC 11 Fortitude save or be ‹misc/sickened› by pain for 1d6 rounds. Creatures affected by ‹rule/bleed› effects take a -5 penalty on their saves.",
+			"",
+			"A successful DC 11 ‹skill/Heal› check ends the sickened condition, as does the application of any effect that heals hit point damage. A pain wheel must be loaded with a pound of salt (a @HL[move action]) before it can be used.",
+			"",
+			"@I-info You can also load a dose of ‹eq-weapon/itching powder› or another alchemical powder normally used as a ‹rule/splash weapon«s› into a pain wheel; when a pain wheel is used this way, the affected area (including your square) is treated as the splash radius for the purpose of determining the powder's effects, and there is no way to deal a direct hit with the powder."
 		]
 	},
 	"paladins_kit": {
@@ -2434,7 +2451,7 @@
 			"‹SOURCE Blood of the Moon/30›  ",
 			"::tabular{format=misc a=80 b=2 d=tools}",
 			"",
-			"These pouch-like boots come in sets of four, and can be placed on an animal's paws and fastened with a drawstring. The soles are sewn with treated leather shaped like human footprints that allow the wearer to leave human tracks. A successful DC 20 Survival or Knowledge (nature) check allows an individual to recognize the tracks as fake but gives no clue as to the identity of the real perpetrator."
+			"@I-protect These pouch-like boots come in sets of four, and can be placed on an animal's paws and fastened with a drawstring. The soles are sewn with treated leather shaped like human footprints that allow the wearer to leave human tracks. A successful DC 20 ‹skill/Survival› or ‹skill/Knowledge (nature)› check allows an individual to recognize the tracks as fake but gives no clue as to the identity of the real perpetrator."
 		]
 	},
 	"pantograph": {
@@ -2965,7 +2982,9 @@
 			"‹SOURCE Goblins of Golarion/12›  ",
 			"::tabular{format=misc a=\"0.1\" b=1 d=tools}",
 			"",
-			"Maybe it's the wide heads, but more likely it's the lack of common sense that causes goblins to so often get stuck in narrow spaces. In such cases, a dose of pig grease is really helpful. An application of pig grease applied to the body grants a +2 circumstance bonus on all Escape Artist checks for 1 hour."
+			"Maybe it's the wide heads, but more likely it's the lack of common sense that causes goblins to so often get stuck in narrow spaces. In such cases, a dose of pig grease is really helpful.",
+			"",
+			"@I-def An application of pig grease applied to the body grants a +2 circumstance bonus on all ‹skill/Escape Artist› checks for 1 hour."
 		]
 	},
 	"pig": {
@@ -3253,7 +3272,7 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"0.8\" b=2 d=tools}",
 			"",
-			"Consisting of a small wooden frame with inward-pointing barbed spikes, this trap is placed in a shallow pit just deep enough for a Medium-sized character's lower leg. When someone steps in the square, the boot catches and holds her leg. The target takes damage if she tries to move or if a Disable Device attempt to free her fails by 5 or more.",
+			"@I-lower Consisting of a small wooden frame with inward-pointing barbed spikes, this trap is placed in a shallow pit just deep enough for a Medium-sized character's lower leg. When someone steps in the square, the boot catches and holds her leg. The target takes damage if she tries to move or if a ‹skill/Disable Device› attempt to free her fails by 5 or more.",
 			"",
 			"::trap[Trespasser's Boot]{cr=\"&frac12&\" mechanical pdc=20 dddc=20 trigger=location manual eff=\"pit spikes (Atk +10 melee, 2d4); spikes hold the target in place; the trap can be escaped with a DC 20 Disable Device check, DC 20 Escape Artist check, or DC 24 Strength check\"}"
 		]
@@ -3266,7 +3285,11 @@
 			"‹SOURCE Advanced Race Guide/141›  ",
 			"::tabular{format=misc a=50 b=20 d=tools}",
 			"",
-			"Mounted on a sturdy 15-foot pole, this flag inspires all orcs belonging to the tribe it represents. As long as they are within 60 feet and can see the standard, they gain a +1 morale bonus on saving throws against fear effects. The standard must be carried in one hand by a member of the tribe to have any effect (it provides no bonus if hung on a wall, draped over a throne, and so on). If the standard is brought low (such as by its bearer dropping it in the mud), defiled, destroyed, or captured, the tribe's members take a -1 penalty on attack rolls and saving throws versus fear effects for the next hour. If the orcs reclaim a captured standard, the penalties end and the bonus is restored."
+			"Mounted on a sturdy 15-foot pole, this flag inspires all orcs belonging to the tribe it represents.",
+			"",
+			"@I-aura-protect As long as they are within 60 feet and can see the standard, they gain a +1 morale bonus on saving throws against fear effects. The standard must be carried in one hand by a member of the tribe to have any effect (it provides no bonus if hung on a wall, draped over a throne, and so on).",
+			"",
+			"@I-warning If the standard is brought low (such as by its bearer dropping it in the mud), defiled, destroyed, or captured, the tribe's members take a -1 penalty on attack rolls and saving throws versus fear effects for the next hour. If the orcs reclaim a captured standard, the penalties end and the bonus is restored."
 		]
 	},
 	"tricksters_kit": {
@@ -3644,7 +3667,7 @@
 			"‹SOURCE Ultimate Equipment/77›  ",
 			"::tabular{format=misc a=25 b=1 d=tools}",
 			"",
-			"This item is the equivalent of a healer's kit, except its materials are especially suitable for treating common animals (cats, dogs, goats, oxen, sheep, and so on). It provides a +3 circumstance bonus on Heal checks to treat animals, but only a +1 circumstance bonus on Heal checks on other creatures. A veterinarian's kit is exhausted after 10 uses."
+			"@I-boost This item is the equivalent of a ‹eq-misc/healer's kit›, except its materials are especially suitable for treating common animals (cats, dogs, goats, oxen, sheep, and so on). It provides a +3 circumstance bonus on ‹skill/Heal› checks to treat animals, but only a +1 circumstance bonus on Heal checks on other creatures. A veterinarian's kit is exhausted after 10 uses."
 		]
 	},
 	"vial": {
@@ -3669,11 +3692,13 @@
 			"‹SOURCE Dungeoneer's Handbook/25›  ",
 			"::tabular{format=misc a=400 b=4 d=tools}",
 			"",
-			"A vigil cap is built like a ‹eq-misc/tinker's cap›, but with shades and wideview mirrors instead of magnifying lenses. The helmet's arms can be adjusted (as a full-round action that provokes attacks of opportunity) into one of the following modes at a given time:",
+			"A vigil cap is built like a ‹eq-misc/tinker's cap›, but with shades and wideview mirrors instead of magnifying lenses. The helmet's arms can be adjusted (as a @HL[full-round action] that provokes attacks of opportunity) into one of the following modes at a given time:",
 			"",
-			"- **All-Around Perspective:** When properly angled, the mirrors grant the wearer a better view of his surroundings and attacking foes. In this mode, the helmet grants a +2 circumstance bonus on reactive sight-based Perception checks.",
-			"- **Indirect Observation:** Intended to protect against ‹umr/gaze› attacks, this mode combines shades positioned to block forward vision with mirrors angled to let the wearer see around him. Any time he would normally have to attempt a saving throw against a gaze attack, there is a 75% chance he doesn't need to attempt the save. Because of the wearer's obscured vision, however, all foes gain partial ‹rule/concealment› (10% miss chance) against him.",
-			"- **Shades:** With the mirrors tucked aside, the shades provide a +2 circumstance bonus on saving throws against effects that blind or dazzle."
+			">@I-boost @HL[All-Around Perspective:] When properly angled, the mirrors grant the wearer a better view of his surroundings and attacking foes. In this mode, the helmet grants a +2 circumstance bonus on reactive sight-based ‹skill/Perception› checks.",
+			">",
+			">@I-def-down @HL[Indirect Observation:] Intended to protect against ‹umr/gaze› attacks, this mode combines shades positioned to block forward vision with mirrors angled to let the wearer see around him. Any time he would normally have to attempt a saving throw against a gaze attack, there is a 75% chance he doesn't need to attempt the save. Because of the wearer's obscured vision, however, all foes gain partial ‹rule/concealment› (10% miss chance) against him.",
+			">",
+			">@I-def @HL[Shades:] With the mirrors tucked aside, the shades provide a +2 circumstance bonus on saving throws against effects that blind or dazzle."
 		]
 	},
 	"vigilantes_kit": {
@@ -3956,9 +3981,9 @@
 			"‹SOURCE Melee Tactics Toolbox/21›  ",
 			"::tabular{format=misc a=\"1 gp\" b=varies c=x d=tools}",
 			"",
-			"A waster is a heavily weighted wooden practice weapon, used as a way to build endurance and expertise with a specific weapon. All wasters are designed to emulate a specific melee weapon (such as a kukri waster or a greatsword waster), and weigh twice as much as the weapons they emulate.",
+			"A *waster* is a heavily weighted wooden practice weapon, used as a way to build endurance and expertise with a specific weapon. All wasters are designed to emulate a specific melee weapon (such as a ‹eq-weapon/kukri› *waster* or a ‹eq-weapon/greatsword› *waster*), and weigh twice as much as the weapons they emulate.",
 			"",
-			"Using a waster to hone your combat techniques requires 1 hour of practice and a DC 15 combat maneuver check. If you succeed at the check, you gain a +2 circumstance bonus to your CMD against combat maneuvers targeting weapons you wield that match the waster your practiced with. This bonus lasts for 24 hours."
+			"@I-def Using a *waster* to hone your combat techniques requires 1 hour of practice and a DC 15 combat maneuver check. If you succeed at the check, you gain a +2 circumstance bonus to your CMD against combat maneuvers targeting weapons you wield that match the *waster* your practiced with. This bonus lasts for 24 hours."
 		]
 	},
 	"watchmans_kit": {
@@ -4366,7 +4391,9 @@
 			"‹SOURCE Ultimate Wilderness/13›  ",
 			"::tabular{format=misc a=150 b=2 d=tools}",
 			"",
-			"These wooden braces hook on to a ‹race/gathlain«'s› wings to help in clinging to ivy, tree limbs, or other surfaces with significant handholds. Many wing hooks are decorated with intricate carvings. A gathlain wearing wing hooks can cling to a surface with a Climb DC of 10 or lower without effort, and can safely sleep there. The wing hooks leave the gathlain's arms free while attempting Climb checks on such surfaces."
+			"These wooden braces hook on to a ‹race/gathlain«'s› wings to help in clinging to ivy, tree limbs, or other surfaces with significant handholds. Many wing hooks are decorated with intricate carvings.",
+			"",
+			"@I-power A gathlain wearing wing hooks can cling to a surface with a Climb DC of 10 or lower without effort, and can safely sleep there. The wing hooks leave the gathlain's arms free while attempting ‹skill/Climb› checks on such surfaces."
 		]
 	},
 	"wing_oil": {

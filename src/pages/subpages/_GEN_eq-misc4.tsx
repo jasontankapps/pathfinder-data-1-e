@@ -126,12 +126,11 @@ const _decoy_trigger_decoy_pressure_switch = {title: "Decoy trigger (decoy press
 <p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion pg. 28</Link>  </p>
 <Tabular format="misc" a="60 gp (decoy pressure switch), 120 gp (decoy trap door), 25 gp (decoy tripwire)" b="&mdash; (decoy pressure switch), &mdash; (decoy trap door), &mdash; (decoy tripwire)" c="x" d="tools" />
 <p>Decoy triggers are misleading mechanisms intended to divert a victim's attention from a real trap by presenting an easily found decoy. Ideally, the victim spots the fake mechanism and, in attempting to disarm or evade it, triggers the real trap.</p>
-<p>A decoy trigger grants a bonus to the Perception DC of any trap it accessorizes - the decoy itself has an intentionally low Perception DC. Though a decoy trigger increases the CR of the trap it augments, as a standalone accessory it doesn't increase the trap's Craft DC. Instead of a Disable Device DC, decoy triggers have a Sense Motive DC. If a creature succeeds at the decoy's Sense Motive check, it immediately recognizes the decoy trigger as a fake, and the real trap loses the bonus to its Perception DC. All decoy triggers are single-use only.</p>
-<blockquote>
-<p><strong>Decoy Pressure Switch</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 12; <strong>Sense Motive</strong> DC 24<br/><strong>Effects</strong><br/><strong>Trap Perception</strong> DC +6, CR Modifier: +2</p>
-<p><strong>Decoy Trap Door</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 10; <strong>Sense Motive</strong> DC 28<br/><strong>Effects</strong><br/><strong>Trap Perception</strong> DC +9, CR Modifier: +3</p>
-<p><strong>Decoy Tripwire</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 15; <strong>Sense Motive</strong> DC 20<br/><strong>Effects</strong><br/><strong>Trap Perception</strong> DC +3, CR Modifier: +1</p>
-</blockquote>
+<p><Icons id="eq-misc-decoy_trigger_decoy_pressure_switch-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A decoy trigger grants a bonus to the Perception DC of any trap it accessorizes - the decoy itself has an intentionally low Perception DC. Though a decoy trigger increases the CR of the trap it augments, as a standalone accessory it doesn't increase the trap's Craft DC.</p>
+<p><Icons id="eq-misc-decoy_trigger_decoy_pressure_switch-info-icons" wrapper="prefixIcon" list={["info"]} /> Instead of a Disable Device DC, decoy triggers have a <Link to="/skill/sense_motive">Sense Motive</Link> DC. If a creature succeeds at the decoy's Sense Motive check, it immediately recognizes the decoy trigger as a fake, and the real trap loses the bonus to its Perception DC. All decoy triggers are single-use only.</p>
+<TrapInfo start id="decoy-pressure-switch-trap" cr="&mdash;" pdc="12" dddc="24" fake trigger="None" eff="Increases associated trap's Perception DC by +6 and its CR by +2.">Decoy Pressure Switch</TrapInfo>
+<TrapInfo start id="decoy-trap-door-trap" cr="&mdash;" pdc="10" dddc="28" fake trigger="None" eff="Increases associated trap's Perception DC by +9 and its CR by +3.">Decoy Trap Door</TrapInfo>
+<TrapInfo start id="decoy-tripwire-trap" cr="&mdash;" pdc="15" dddc="20" fake trigger="None" eff="Increases associated trap's Perception DC by +3 and its CR by +1.">Decoy Tripwire</TrapInfo>
 </>};
 const _deep_breath = {title: "Deep breath", jsx: <><h2 id="eq-misc-deep_breath-deep-breath">Deep breath</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 28</Link>  </p>
@@ -243,7 +242,7 @@ const _dire_bat = {title: "Dire bat", jsx: <><h2 id="eq-misc-dire_bat-dire-bat">
 const _disguise_kit = {title: "Disguise kit", jsx: <><h2 id="eq-misc-disguise_kit-disguise-kit">Disguise kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
 <Tabular format="misc" a="50" b="8" d="tools" />
-<p>This kit contains tools like makeup and fake facial hair, and provides a +2 circumstance bonus on Disguise checks. A disguise kit is exhausted after 10 uses.</p>
+<p><Icons id="eq-misc-disguise_kit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This kit contains tools like makeup and fake facial hair, and provides a +2 circumstance bonus on Disguise checks. A disguise kit is exhausted after 10 uses.</p>
 </>};
 const _disguised_holy_text = {title: "Disguised holy text", jsx: <><h2 id="eq-misc-disguised_holy_text-disguised-holy-text">Disguised holy text</h2>
 <p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine pg. 28</Link>  </p>
@@ -258,7 +257,10 @@ const _display_stand = {title: "Display stand", jsx: <><h2 id="eq-misc-display_s
 const _dissipating_fan = {title: "Dissipating fan", jsx: <><h2 id="eq-misc-dissipating_fan-dissipating-fan">Dissipating fan</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 16</Link>  </p>
 <Tabular format="misc" a="150" b="6" d="tools" />
-<p>This large wood-and-canvas fan is 2 feet wide and ideal for quickly dispersing smoke or other harmful gases. While waving a dissipating fan, you gain a +2 circumstance bonus on Fortitude saving throws to avoid taking nonlethal damage from heat exposure and to avoid the effects of <Link to="/rule/forest_fires">smoke inhalation</Link>. You can use a dissipating fan to clear nonmagical smoke, fog, or similar vapors from your square or an adjacent square as a full-round action - although dense smoke or fog in the surrounding area eventually refills the space (how long this takes depends on the source and the size of the area, at the GM's discretion). When folded and closed, a dissipating fan is the size of a thick walking stick. Some dissipating fans are decorated with paint or elaborate embroidery, and have a higher price to reflect their adornment.</p>
+<p>This large wood-and-canvas fan is 2 feet wide and ideal for quickly dispersing smoke or other harmful gases.</p>
+<p><Icons id="eq-misc-dissipating_fan-def-icons" wrapper="prefixIcon" list={["def"]} /> While waving a dissipating fan, you gain a +2 circumstance bonus on Fortitude saving throws to avoid taking nonlethal damage from <Link to="/rule/heat">heat exposure</Link> and to avoid the effects of <Link to="/rule/forest_fires">smoke inhalation</Link>.</p>
+<p><Icons id="eq-misc-dissipating_fan-power-icons" wrapper="prefixIcon" list={["power"]} /> You can use a dissipating fan to clear nonmagical smoke, fog, or similar vapors from your square or an adjacent square as a <strong className="hl">full-round action</strong> - although dense smoke or fog in the surrounding area eventually refills the space (how long this takes depends on the source and the size of the area, at the GM's discretion).</p>
+<p>When folded and closed, a dissipating fan is the size of a thick walking stick. Some dissipating fans are decorated with paint or elaborate embroidery, and have a higher price to reflect their adornment.</p>
 </>};
 const _distilled_terrap_sap = {title: "Distilled terrap sap", jsx: <><h2 id="eq-misc-distilled_terrap_sap-distilled-terrap-sap">Distilled terrap sap</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -285,7 +287,7 @@ const _doctor = {title: "Doctor", jsx: <><h2 id="eq-misc-doctor-doctor">Doctor</
 const _doctors_mask = {title: "Doctor's mask", jsx: <><h2 id="eq-misc-doctors_mask-doctors-mask">Doctor's mask</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/pathfinder_8_seven_days_to_the_grave">Pathfinder #8: Seven Days to the Grave pg. 61</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide pg. 12</Link>  </p>
 <Tabular format="misc" a="50" b="2" d="tools" />
-<p>This protective mask gives you a +1 circumstance bonus on Fortitude saves made against airborne toxins and scent-based effects. In Korvosa, it is a minor crime to wear a doctor's mask in public if you are not a healer or physician.</p>
+<p><Icons id="eq-misc-doctors_mask-def-icons" wrapper="prefixIcon" list={["def"]} /> This protective mask gives you a +1 circumstance bonus on Fortitude saves made against airborne toxins and scent-based effects. In Korvosa, it is a minor crime to wear a doctor's mask in public if you are not a healer or physician.</p>
 </>};
 const _doctors_outfit = {title: "Doctor's outfit", jsx: <><h2 id="eq-misc-doctors_outfit-doctors-outfit">Doctor's outfit</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/pathfinder_8_seven_days_to_the_grave">Pathfinder #8: Seven Days to the Grave pg. 61</Link>  </p>
@@ -391,7 +393,7 @@ const _dragons_gut = {title: "Dragon's gut", jsx: <><h2 id="eq-misc-dragons_gut-
 const _dragoncrafting_kit = {title: "Dragoncrafting kit", jsx: <><h2 id="eq-misc-dragoncrafting_kit-dragoncrafting-kit">Dragoncrafting kit</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 26</Link>  </p>
 <Tabular format="misc" a="40" b="4" d="tools" />
-<p>This kit contains all the butchers' tools, preservatives, and desiccants necessary to turn a dragon corpse into usable items. It provides the user with a +2 circumstance bonus on all Heal and Craft skill checks made to harvest dragoncraft materials and create dragoncraft items.</p>
+<p><Icons id="eq-misc-dragoncrafting_kit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This kit contains all the butchers' tools, preservatives, and desiccants necessary to turn a dragon corpse into usable items. It provides the user with a +2 circumstance bonus on all <Link to="/skill/heal">Heal</Link> and <Link to="/skill/craft">Craft</Link> skill checks made to harvest dragoncraft materials and create dragoncraft items.</p>
 </>};
 const _dragonskin_grip = {title: "Dragonskin grip", jsx: <><h2 id="eq-misc-dragonskin_grip-dragonskin-grip">Dragonskin grip</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 19</Link>  </p>
@@ -429,7 +431,8 @@ const _drought_powder = {title: "Drought powder", jsx: <><h2 id="eq-misc-drought
 const _drowners_helm = {title: "Drowner's helm", jsx: <><h2 id="eq-misc-drowners_helm-drowners-helm">Drowner's helm</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 14</Link>  </p>
 <Tabular format="misc" a="35" b="10" d="tools" />
-<p>This metal helmet sports an open top and a tightly sealed collar that closes securely around the neck. Water is poured into the open top, filling the helmet and forcing you to <Link to="/misc/hold_your_breath">hold your breath</Link>. A safety lever allows you to release the water at any time. Training with the drowner's helm requires 1 hour of practice and a DC 15 Constitution check. If you succeed at the check, you treat your Constitution score as 5 higher when determining how long you can hold your breath. This bonus lasts for 24 hours.</p>
+<p>This metal helmet sports an open top and a tightly sealed collar that closes securely around the neck. Water is poured into the open top, filling the helmet and forcing you to <Link to="/misc/hold_your_breath">hold your breath</Link>. A safety lever allows you to release the water at any time.</p>
+<p><Icons id="eq-misc-drowners_helm-def-icons" wrapper="prefixIcon" list={["def"]} /> Training with the <em>drowner's helm</em> requires 1 hour of practice and a DC 15 Constitution check. If you succeed at the check, you treat your Constitution score as 5 higher when determining how long you can hold your breath. This bonus lasts for 24 hours.</p>
 </>};
 const _druids_kit = {title: "Druid's kit", jsx: <><h2 id="eq-misc-druids_kit-druids-kit">Druid's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
@@ -780,10 +783,10 @@ const _muscle_grout = {title: "Muscle grout", jsx: <><h2 id="eq-misc-muscle_grou
 const _musical_instrument_common = {hasJL:true,title: "Musical instrument (common)", jsx: <><div className="jumpList" id="eq-misc-musical_instrument_common-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-musical_instrument_common-masterwork-musical-instrument">Masterwork Musical Instrument</InnerLink></li></ul></div><h2 id="eq-misc-musical_instrument_common-musical-instrument">Musical instrument</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
 <Tabular format="misc" id="music" a="5" b="3" d="tools" />
-<p>If you want to perform using a Perform skill associated with a musical instrument (keyboard, percussion, string, or wind), you must have an appropriate musical instrument; otherwise you can't use the skill. The listed cost and weight is for a typical small instrument you could carry by hand, such as a drum, lyre, bell, harp, or flute; larger instruments such as a cello or piano are of course larger and more expensive.</p>
+<p>If you want to perform using a <Link to="/skill/perform">Perform</Link> skill associated with a musical instrument (keyboard, percussion, string, or wind), you must have an appropriate musical instrument; otherwise you can't use the skill. The listed cost and weight is for a typical small instrument you could carry by hand, such as a drum, lyre, bell, harp, or flute; larger instruments such as a cello or piano are of course larger and more expensive.</p>
 <h3 id="eq-misc-musical_instrument_common-masterwork-musical-instrument" data-hash-target>Masterwork Musical Instrument</h3>
 <Tabular format="misc" id="masterwork" a="100" b="3" d="tools" />
-<p>This high-quality instrument grants a +2 circumstance bonus on Perform checks made to perform with the instrument.</p>
+<p><Icons id="eq-misc-musical_instrument_common-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This high-quality instrument grants a +2 circumstance bonus on Perform checks made to perform with the instrument.</p>
 </>};
 const _musk_kit = {title: "Musk kit", jsx: <><h2 id="eq-misc-musk_kit-musk-kit">Musk kit</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 205</Link>  </p>
@@ -809,7 +812,8 @@ const _mystic_guide_package = {title: "Mystic guide package", jsx: <><h2 id="eq-
 const _nature_climbing_harness = {title: "Nature climbing harness", jsx: <><h2 id="eq-misc-nature_climbing_harness-nature-climbing-harness">Nature climbing harness</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 244</Link>  </p>
 <Tabular format="misc" a="60" b="4" d="tools" />
-<p>A nature climbing harness is a series of buckles, straps, and trusses that can be worn over clothing or light armor. As a standard action, you can secure yourself in place on a vertical surface so that both your hands are free. You can remain in this position without needing to attempt additional Climb checks, and you don't lose your Dexterity bonus to your AC as long as you remain anchored. As long as you are anchored in this way, you cannot move, but you gain a +5 circumstance bonus on Climb checks to avoid falling whenever you take damage. You can release yourself to start moving again as a move action.</p>
+<p>A <em>nature climbing harness</em> is a series of buckles, straps, and trusses that can be worn over clothing or light armor.</p>
+<p><Icons id="eq-misc-nature_climbing_harness-power-def-down-icons" wrapper="prefixIcon" list={["power","def","down"]} /> As a <strong className="hl">standard action</strong>, you can secure yourself in place on a vertical surface so that both your hands are free. You can remain in this position without needing to attempt additional <Link to="/skill/climb">Climb</Link> checks, and you don't lose your Dexterity bonus to your AC as long as you remain anchored. As long as you are anchored in this way, you cannot move, but you gain a +5 circumstance bonus on Climb checks to avoid falling whenever you take damage. You can release yourself to start moving again as a move action.</p>
 </>};
 const _nautical_chart = {title: "Nautical chart", jsx: <><h2 id="eq-misc-nautical_chart-nautical-chart">Nautical chart</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 13</Link>, <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 21</Link>  </p>
@@ -931,17 +935,19 @@ const _observations_of_oagon = {title: "Observations of Oagon", jsx: <><h2 id="e
 const _obsession_log = {title: "Obsession log", jsx: <><h2 id="eq-misc-obsession_log-obsession-log">Obsession log</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 37</Link>  </p>
 <Tabular format="misc" a="25" b="1" d="tools" />
-<p>Gnomes use these small books to record information about their obsessions. When a <Link to="/race/gnome">gnome</Link> consults her obsession log (taking 1 minute), she gains a +2 circumstance bonus on the next Craft or Profession check she makes, as long as that skill was the one chosen for her obsessive racial trait.</p>
+<p><Icons id="eq-misc-obsession_log-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Gnomes use these small books to record information about their obsessions. When a <Link to="/race/gnome">gnome</Link> consults her obsession log (taking 1 minute), she gains a +2 circumstance bonus on the next <Link to="/skill/craft">Craft</Link> or <Link to="/skill/profession">Profession</Link> check she makes, as long as that skill was the one chosen for her <em>obsessive</em> racial trait.</p>
 </>};
 const _occult_reference_material = {title: "Occult reference material", jsx: <><h2 id="eq-misc-occult_reference_material-occult-reference-material">Occult reference material</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 249</Link>  </p>
 <Tabular format="misc" a="80" b="1" d="tools" />
-<p>These books come in all manner of shapes and sizes, from hardbound, illustrated manuscripts to collections of journals, notes, and scrolls from multiple authors. When used as a reference (an action that typically requires 1d4 minutes of searching the text), occult reference material grants a +2 circumstance bonus on Knowledge checks related to the occult topic covered by that manual. Some common topics for occult reference materials include astral projection, auras, dreams, ley lines, medium spirits, and rituals. Occult reference materials devoted to general subjects - such as spirits as a whole - provide an overview but don't give enough detail to grant a skill bonus.</p>
+<p><Icons id="eq-misc-occult_reference_material-boost-icons" wrapper="prefixIcon" list={["boost"]} /> These books come in all manner of shapes and sizes, from hardbound, illustrated manuscripts to collections of journals, notes, and scrolls from multiple authors. When used as a reference (an action that typically requires 1d4 minutes of searching the text), occult reference material grants a +2 circumstance bonus on <Link to="/skill/knowledge">Knowledge</Link> checks related to the occult topic covered by that manual.</p>
+<p>Some common topics for occult reference materials include astral projection, auras, dreams, ley lines, medium spirits, and rituals. Occult reference materials devoted to general subjects - such as spirits as a whole - provide an overview but don't give enough detail to grant a skill bonus.</p>
 </>};
 const _occultists_implement = {title: "Occultist's implement", jsx: <><h2 id="eq-misc-occultists_implement-occultists-implement">Occultist's implement</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 249</Link>  </p>
 <Tabular format="misc" a="10" b="0.5" d="tools" />
-<p>This bauble, bit of clothing, or relic has some minor historical significance. Though not especially valuable, it's useful to an <Link to="/class/occultist">occultist</Link>, who can use it as an implement. Any such item is nonmagical, even if it appears to be a rod or wand. Implements that already have a mundane version with a price higher than 10 gp (such as armor, shields, weapons, and harrow decks) use their normal item entries instead of this catch-all.</p>
+<p>This bauble, bit of clothing, or relic has some minor historical significance. Though not especially valuable, it's useful to an <Link to="/class/occultist">occultist</Link>, who can use it as an <em>implement.</em> Any such item is nonmagical, even if it appears to be a rod or wand.</p>
+<p><Icons id="eq-misc-occultists_implement-info-icons" wrapper="prefixIcon" list={["info"]} /> Implements that already have a mundane version with a price higher than 10 gp (such as armor, shields, weapons, and <Link to="/eq-misc/harrow_deck">harrow decks</Link>) use their normal item entries instead of this catch-all.</p>
 </>};
 const _occultists_kit = {title: "Occultist's kit", jsx: <><h2 id="eq-misc-occultists_kit-occultists-kit">Occultist's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 249</Link>  </p>
@@ -1010,13 +1016,15 @@ const _orc_trail_rations = {title: "Orc trail rations", jsx: <><h2 id="eq-misc-o
 const _orrery = {title: "Orrery", jsx: <><h2 id="eq-misc-orrery-orrery">Orrery</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars pg. 26</Link>  </p>
 <Tabular format="misc" a="2,000 gp (calculating grand), 1,500 gp (calculating standard), 200 gp (calculating tellurium), 1,000 gp (grand), 750 gp (standard), 100 gp (tellurium)" b="12 lbs. (calculating grand), 5 lbs. (calculating standard), 2 lbs. (calculating tellurium), 12 lbs. (grand), 5 lbs. (standard), 2 lbs. (tellurium)" c="x" d="tools" />
-<p>This complex mechanism simulates the angles and relative distances between one or more bodies in a solar system in relation to the system's star with marks or spheres on moving gears or arms. Anyone consulting an orrery gains a +2 circumstance bonus on Knowledge (geography) checks involving bodies it models and on Survival checks to navigate the void of space. An orrery can be used in combination with a <Link to="/eq-misc/sextant">sextant</Link> on a clear night to determine the time on any of the stellar bodies it models. Any orrery can be used as a focus component for the <Link to="/spell/augury">augury</Link> spell in place of that spell's normal focus.</p>
+<p>This complex mechanism simulates the angles and relative distances between one or more bodies in a solar system in relation to the system's star with marks or spheres on moving gears or arms.</p>
+<p><Icons id="eq-misc-orrery-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Anyone consulting an orrery gains a +2 circumstance bonus on <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> checks involving bodies it models and on <Link to="/skill/survival">Survival</Link> checks to navigate the void of space.</p>
+<p><Icons id="eq-misc-orrery-power-icons" wrapper="prefixIcon" list={["power"]} /> An orrery can be used in combination with a <Link to="/eq-misc/sextant">sextant</Link> on a clear night to determine the time on any of the stellar bodies it models. Any orrery can be used as a focus component for the <Link to="/spell/augury">augury</Link> spell in place of that spell's normal focus.</p>
 <p>Orreries come in many shapes and sizes and with a variety of functions in mind.</p>
 <ul>
-<li>A <em>tellurion</em> models a single planet and any moons it may have.</li>
-<li>A <em>standard orrery</em> tracks the inner planets of a system (Aballon, Castrovel, Golarion, Verces, Eox, and Triaxus) and their moons.</li>
-<li>A <em>grand orrery</em> tracks all the known planets of a system (including the outer planets: Liavara, Bretheda, Apostae, and Aucturn) and their moons.</li>
-<li>A <em>calculating orrery</em> is an orrery that indicates with rotating numerals on each arm the current distance between each body and its star (or its planet, in the case of moons), increasing the circumstance bonus on relevant skill checks to +4.</li>
+<li>A <strong className="hl">tellurion</strong> models a single planet and any moons it may have.</li>
+<li>A <strong className="hl">standard orrery</strong> tracks the inner planets of a system (<Link to="/rule/aballon">Aballon</Link>, <Link to="/rule/castrovel">Castrovel</Link>, Golarion, <Link to="/rule/verces">Verces</Link>, <Link to="/rule/eox">Eox</Link>, and <Link to="/rule/triaxus">Triaxus</Link>) and their moons.</li>
+<li>A <strong className="hl">grand orrery</strong> tracks all the known planets of a system (including the outer planets: <Link to="/rule/liavara">Liavara</Link>, <Link to="/rule/bretheda">Bretheda</Link>, <Link to="/rule/apostae">Apostae</Link>, and <Link to="/rule/aucturn">Aucturn</Link>) and their moons.</li>
+<li><Icons id="eq-misc-orrery-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A <strong className="hl">calculating orrery</strong> is an orrery that indicates with rotating numerals on each arm the current distance between each body and its star (or its planet, in the case of moons), increasing the circumstance bonus on relevant skill checks to +4.</li>
 </ul>
 </>};
 const _ostentatious_garment = {title: "Ostentatious garment", jsx: <><h2 id="eq-misc-ostentatious_garment-ostentatious-garment">Ostentatious garment</h2>
@@ -1059,7 +1067,10 @@ const _padzahr = {title: "Padzahr", jsx: <><h2 id="eq-misc-padzahr-padzahr">Padz
 const _pain_wheel = {title: "Pain wheel", jsx: <><h2 id="eq-misc-pain_wheel-pain-wheel">Pain wheel</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 6</Link>  </p>
 <Tabular format="misc" a="50" b="0.5" d="tools" />
-<p>Pain wheels are used by orc marauders to blight the lands of their foes and despoil the earth for generations to come. When you whirl this cruel weapon above your head as a standard action, it scatters salt in a 5-foot radius centered on your space. Creatures in the affected area (including you) that have fewer than their maximum number of hit points must succeed at a DC 11 Fortitude save or be <Link to="/misc/sickened">sickened</Link> by pain for 1d6 rounds. Creatures affected by <Link to="/rule/bleed">bleed</Link> effects take a -5 penalty on their saves. A successful DC 11 Heal check ends the sickened condition, as does the application of any effect that heals hit point damage. A pain wheel must be loaded with a pound of salt (a move action) before it can be used. You can also load a dose of <Link to="/eq-weapon/itching_powder">itching powder</Link> or another alchemical powder normally used as a <Link to="/rule/splash_weapon">splash weapons</Link> into a pain wheel; when a pain wheel is used this way, the affected area (including your square) is treated as the splash radius for the purpose of determining the powder's effects, and there is no way to deal a direct hit with the powder.</p>
+<p>Pain wheels are used by <Link to="/monster/orc">orc</Link> marauders to blight the lands of their foes and despoil the earth for generations to come.</p>
+<p><Icons id="eq-misc-pain_wheel-power-aura-lower-down-icons" wrapper="prefixIcon" list={["power","aura","lower","down"]} /> When you whirl this cruel weapon above your head as a <strong className="hl">standard action</strong>, it scatters salt in a 5-foot radius centered on your space. Creatures in the affected area (including you) that have fewer than their maximum number of hit points must succeed at a DC 11 Fortitude save or be <Link to="/misc/sickened">sickened</Link> by pain for 1d6 rounds. Creatures affected by <Link to="/rule/bleed">bleed</Link> effects take a -5 penalty on their saves.</p>
+<p>A successful DC 11 <Link to="/skill/heal">Heal</Link> check ends the sickened condition, as does the application of any effect that heals hit point damage. A pain wheel must be loaded with a pound of salt (a <strong className="hl">move action</strong>) before it can be used.</p>
+<p><Icons id="eq-misc-pain_wheel-info-icons" wrapper="prefixIcon" list={["info"]} /> You can also load a dose of <Link to="/eq-weapon/itching_powder">itching powder</Link> or another alchemical powder normally used as a <Link to="/rule/splash_weapon">splash weapons</Link> into a pain wheel; when a pain wheel is used this way, the affected area (including your square) is treated as the splash radius for the purpose of determining the powder's effects, and there is no way to deal a direct hit with the powder.</p>
 </>};
 const _paladins_kit = {title: "Paladin's kit", jsx: <><h2 id="eq-misc-paladins_kit-paladins-kit">Paladin's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>  </p>
@@ -1074,7 +1085,7 @@ const _pallid_suspension = {title: "Pallid suspension", jsx: <><h2 id="eq-misc-p
 const _palm_paws = {title: "Palm paws", jsx: <><h2 id="eq-misc-palm_paws-palm-paws">Palm paws</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon pg. 30</Link>  </p>
 <Tabular format="misc" a="80" b="2" d="tools" />
-<p>These pouch-like boots come in sets of four, and can be placed on an animal's paws and fastened with a drawstring. The soles are sewn with treated leather shaped like human footprints that allow the wearer to leave human tracks. A successful DC 20 Survival or Knowledge (nature) check allows an individual to recognize the tracks as fake but gives no clue as to the identity of the real perpetrator.</p>
+<p><Icons id="eq-misc-palm_paws-protect-icons" wrapper="prefixIcon" list={["protect"]} /> These pouch-like boots come in sets of four, and can be placed on an animal's paws and fastened with a drawstring. The soles are sewn with treated leather shaped like human footprints that allow the wearer to leave human tracks. A successful DC 20 <Link to="/skill/survival">Survival</Link> or <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> check allows an individual to recognize the tracks as fake but gives no clue as to the identity of the real perpetrator.</p>
 </>};
 const _pantograph = {title: "Pantograph", jsx: <><h2 id="eq-misc-pantograph-pantograph">Pantograph</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 13</Link>, <Link to="/source/seekers_of_secrets">Seekers of Secrets pg. 42</Link>  </p>
@@ -1312,7 +1323,8 @@ const _piecemeal_weapon = {title: "Piecemeal weapon", jsx: <><h2 id="eq-misc-pie
 const _pig_grease = {title: "Pig grease", jsx: <><h2 id="eq-misc-pig_grease-pig-grease">Pig grease</h2>
 <p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion pg. 12</Link>  </p>
 <Tabular format="misc" a="0.1" b="1" d="tools" />
-<p>Maybe it's the wide heads, but more likely it's the lack of common sense that causes goblins to so often get stuck in narrow spaces. In such cases, a dose of pig grease is really helpful. An application of pig grease applied to the body grants a +2 circumstance bonus on all Escape Artist checks for 1 hour.</p>
+<p>Maybe it's the wide heads, but more likely it's the lack of common sense that causes goblins to so often get stuck in narrow spaces. In such cases, a dose of pig grease is really helpful.</p>
+<p><Icons id="eq-misc-pig_grease-def-icons" wrapper="prefixIcon" list={["def"]} /> An application of pig grease applied to the body grants a +2 circumstance bonus on all <Link to="/skill/escape_artist">Escape Artist</Link> checks for 1 hour.</p>
 </>};
 const _pig = {hasJL:true,title: "Pig", jsx: <><div className="jumpList" id="eq-misc-pig-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-pig-specific-mounts">Specific Mounts</InnerLink></li></ul></div><h2 id="eq-misc-pig-pig">Pig</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 93</Link>  </p>
@@ -1424,13 +1436,15 @@ const _trephine = {title: "Trephine", jsx: <><h2 id="eq-misc-trephine-trephine">
 const _trespassers_boot = {title: "Trespasser's boot", jsx: <><h2 id="eq-misc-trespassers_boot-trespassers-boot">Trespasser's boot</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="0.8" b="2" d="tools" />
-<p>Consisting of a small wooden frame with inward-pointing barbed spikes, this trap is placed in a shallow pit just deep enough for a Medium-sized character's lower leg. When someone steps in the square, the boot catches and holds her leg. The target takes damage if she tries to move or if a Disable Device attempt to free her fails by 5 or more.</p>
+<p><Icons id="eq-misc-trespassers_boot-lower-icons" wrapper="prefixIcon" list={["lower"]} /> Consisting of a small wooden frame with inward-pointing barbed spikes, this trap is placed in a shallow pit just deep enough for a Medium-sized character's lower leg. When someone steps in the square, the boot catches and holds her leg. The target takes damage if she tries to move or if a <Link to="/skill/disable_device">Disable Device</Link> attempt to free her fails by 5 or more.</p>
 <TrapInfo id="trespassers-boot-trap" cr="&frac12;" pdc="20" dddc="20" manual trigger="location" eff="pit spikes (Atk +10 melee, 2d4); spikes hold the target in place; the trap can be escaped with a DC 20 Disable Device check, DC 20 Escape Artist check, or DC 24 Strength check">Trespasser's Boot</TrapInfo>
 </>};
 const _tribal_standard = {title: "Tribal standard", jsx: <><h2 id="eq-misc-tribal_standard-tribal-standard">Tribal standard</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 141</Link>  </p>
 <Tabular format="misc" a="50" b="20" d="tools" />
-<p>Mounted on a sturdy 15-foot pole, this flag inspires all orcs belonging to the tribe it represents. As long as they are within 60 feet and can see the standard, they gain a +1 morale bonus on saving throws against fear effects. The standard must be carried in one hand by a member of the tribe to have any effect (it provides no bonus if hung on a wall, draped over a throne, and so on). If the standard is brought low (such as by its bearer dropping it in the mud), defiled, destroyed, or captured, the tribe's members take a -1 penalty on attack rolls and saving throws versus fear effects for the next hour. If the orcs reclaim a captured standard, the penalties end and the bonus is restored.</p>
+<p>Mounted on a sturdy 15-foot pole, this flag inspires all orcs belonging to the tribe it represents.</p>
+<p><Icons id="eq-misc-tribal_standard-aura-protect-icons" wrapper="prefixIcon" list={["aura","protect"]} /> As long as they are within 60 feet and can see the standard, they gain a +1 morale bonus on saving throws against fear effects. The standard must be carried in one hand by a member of the tribe to have any effect (it provides no bonus if hung on a wall, draped over a throne, and so on).</p>
+<p><Icons id="eq-misc-tribal_standard-warning-icons" wrapper="prefixIcon" list={["warning"]} /> If the standard is brought low (such as by its bearer dropping it in the mud), defiled, destroyed, or captured, the tribe's members take a -1 penalty on attack rolls and saving throws versus fear effects for the next hour. If the orcs reclaim a captured standard, the penalties end and the bonus is restored.</p>
 </>};
 const _tricksters_kit = {title: "Trickster's kit", jsx: <><h2 id="eq-misc-tricksters_kit-tricksters-kit">Trickster's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 7</Link>  </p>
@@ -1598,7 +1612,7 @@ const _vest = {title: "Vest", jsx: <><h2 id="eq-misc-vest-vest">Vest</h2>
 const _veterinarians_kit = {title: "Veterinarian's kit", jsx: <><h2 id="eq-misc-veterinarians_kit-veterinarians-kit">Veterinarian's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>  </p>
 <Tabular format="misc" a="25" b="1" d="tools" />
-<p>This item is the equivalent of a healer's kit, except its materials are especially suitable for treating common animals (cats, dogs, goats, oxen, sheep, and so on). It provides a +3 circumstance bonus on Heal checks to treat animals, but only a +1 circumstance bonus on Heal checks on other creatures. A veterinarian's kit is exhausted after 10 uses.</p>
+<p><Icons id="eq-misc-veterinarians_kit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This item is the equivalent of a <Link to="/eq-misc/healers_kit">healer's kit</Link>, except its materials are especially suitable for treating common animals (cats, dogs, goats, oxen, sheep, and so on). It provides a +3 circumstance bonus on <Link to="/skill/heal">Heal</Link> checks to treat animals, but only a +1 circumstance bonus on Heal checks on other creatures. A veterinarian's kit is exhausted after 10 uses.</p>
 </>};
 const _vial = {title: "Vial", jsx: <><h2 id="eq-misc-vial-vial">Vial</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -1608,12 +1622,12 @@ const _vial = {title: "Vial", jsx: <><h2 id="eq-misc-vial-vial">Vial</h2>
 const _vigil_cap = {title: "Vigil cap", jsx: <><h2 id="eq-misc-vigil_cap-vigil-cap">Vigil cap</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 25</Link>  </p>
 <Tabular format="misc" a="400" b="4" d="tools" />
-<p>A vigil cap is built like a <Link to="/eq-misc/tinkers_cap">tinker's cap</Link>, but with shades and wideview mirrors instead of magnifying lenses. The helmet's arms can be adjusted (as a full-round action that provokes attacks of opportunity) into one of the following modes at a given time:</p>
-<ul>
-<li><strong>All-Around Perspective:</strong> When properly angled, the mirrors grant the wearer a better view of his surroundings and attacking foes. In this mode, the helmet grants a +2 circumstance bonus on reactive sight-based Perception checks.</li>
-<li><strong>Indirect Observation:</strong> Intended to protect against <Link to="/umr/gaze">gaze</Link> attacks, this mode combines shades positioned to block forward vision with mirrors angled to let the wearer see around him. Any time he would normally have to attempt a saving throw against a gaze attack, there is a 75% chance he doesn't need to attempt the save. Because of the wearer's obscured vision, however, all foes gain partial <Link to="/rule/concealment">concealment</Link> (10% miss chance) against him.</li>
-<li><strong>Shades:</strong> With the mirrors tucked aside, the shades provide a +2 circumstance bonus on saving throws against effects that blind or dazzle.</li>
-</ul>
+<p>A vigil cap is built like a <Link to="/eq-misc/tinkers_cap">tinker's cap</Link>, but with shades and wideview mirrors instead of magnifying lenses. The helmet's arms can be adjusted (as a <strong className="hl">full-round action</strong> that provokes attacks of opportunity) into one of the following modes at a given time:</p>
+<blockquote>
+<p><Icons id="eq-misc-vigil_cap-boost-icons" wrapper="prefixIcon" list={["boost"]} /> <strong className="hl">All-Around Perspective:</strong> When properly angled, the mirrors grant the wearer a better view of his surroundings and attacking foes. In this mode, the helmet grants a +2 circumstance bonus on reactive sight-based <Link to="/skill/perception">Perception</Link> checks.</p>
+<p><Icons id="eq-misc-vigil_cap-def-down-icons" wrapper="prefixIcon" list={["def","down"]} /> <strong className="hl">Indirect Observation:</strong> Intended to protect against <Link to="/umr/gaze">gaze</Link> attacks, this mode combines shades positioned to block forward vision with mirrors angled to let the wearer see around him. Any time he would normally have to attempt a saving throw against a gaze attack, there is a 75% chance he doesn't need to attempt the save. Because of the wearer's obscured vision, however, all foes gain partial <Link to="/rule/concealment">concealment</Link> (10% miss chance) against him.</p>
+<p><Icons id="eq-misc-vigil_cap-def-icons" wrapper="prefixIcon" list={["def"]} /> <strong className="hl">Shades:</strong> With the mirrors tucked aside, the shades provide a +2 circumstance bonus on saving throws against effects that blind or dazzle.</p>
+</blockquote>
 </>};
 const _vigilantes_kit = {title: "Vigilante's kit", jsx: <><h2 id="eq-misc-vigilantes_kit-vigilantes-kit">Vigilante's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 234</Link>  </p>
@@ -1726,8 +1740,8 @@ const _waspguts = {title: "Waspguts", jsx: <><h2 id="eq-misc-waspguts-waspguts">
 const _waster = {title: "Waster", jsx: <><h2 id="eq-misc-waster-waster">Waster</h2>
 <p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 21</Link>  </p>
 <Tabular format="misc" a="1 gp" b="varies" c="x" d="tools" />
-<p>A waster is a heavily weighted wooden practice weapon, used as a way to build endurance and expertise with a specific weapon. All wasters are designed to emulate a specific melee weapon (such as a kukri waster or a greatsword waster), and weigh twice as much as the weapons they emulate.</p>
-<p>Using a waster to hone your combat techniques requires 1 hour of practice and a DC 15 combat maneuver check. If you succeed at the check, you gain a +2 circumstance bonus to your CMD against combat maneuvers targeting weapons you wield that match the waster your practiced with. This bonus lasts for 24 hours.</p>
+<p>A <em>waster</em> is a heavily weighted wooden practice weapon, used as a way to build endurance and expertise with a specific weapon. All wasters are designed to emulate a specific melee weapon (such as a <Link to="/eq-weapon/kukri">kukri</Link> <em>waster</em> or a <Link to="/eq-weapon/greatsword">greatsword</Link> <em>waster</em>), and weigh twice as much as the weapons they emulate.</p>
+<p><Icons id="eq-misc-waster-def-icons" wrapper="prefixIcon" list={["def"]} /> Using a <em>waster</em> to hone your combat techniques requires 1 hour of practice and a DC 15 combat maneuver check. If you succeed at the check, you gain a +2 circumstance bonus to your CMD against combat maneuvers targeting weapons you wield that match the <em>waster</em> your practiced with. This bonus lasts for 24 hours.</p>
 </>};
 const _watchmans_kit = {title: "Watchman's kit", jsx: <><h2 id="eq-misc-watchmans_kit-watchmans-kit">Watchman's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 13</Link>  </p>
@@ -1883,7 +1897,8 @@ const _wing_hobble = {title: "Wing hobble", jsx: <><h2 id="eq-misc-wing_hobble-w
 const _wing_hooks = {title: "Wing hooks", jsx: <><h2 id="eq-misc-wing_hooks-wing-hooks">Wing hooks</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 13</Link>  </p>
 <Tabular format="misc" a="150" b="2" d="tools" />
-<p>These wooden braces hook on to a <Link to="/race/gathlain">gathlain's</Link> wings to help in clinging to ivy, tree limbs, or other surfaces with significant handholds. Many wing hooks are decorated with intricate carvings. A gathlain wearing wing hooks can cling to a surface with a Climb DC of 10 or lower without effort, and can safely sleep there. The wing hooks leave the gathlain's arms free while attempting Climb checks on such surfaces.</p>
+<p>These wooden braces hook on to a <Link to="/race/gathlain">gathlain's</Link> wings to help in clinging to ivy, tree limbs, or other surfaces with significant handholds. Many wing hooks are decorated with intricate carvings.</p>
+<p><Icons id="eq-misc-wing_hooks-power-icons" wrapper="prefixIcon" list={["power"]} /> A gathlain wearing wing hooks can cling to a surface with a Climb DC of 10 or lower without effort, and can safely sleep there. The wing hooks leave the gathlain's arms free while attempting <Link to="/skill/climb">Climb</Link> checks on such surfaces.</p>
 </>};
 const _wing_oil = {title: "Wing oil", jsx: <><h2 id="eq-misc-wing_oil-wing-oil">Wing oil</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 165</Link>  </p>
