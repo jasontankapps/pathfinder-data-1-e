@@ -19,8 +19,23 @@ interface BaseProps {
 	i?: ReactNode
 	j?: ReactNode
 	k?: ReactNode
+	l?: ReactNode
+	m?: ReactNode
+	n?: ReactNode
+	o?: ReactNode
+	p?: ReactNode
+	q?: ReactNode
+	r?: ReactNode
+	s?: ReactNode
+	t?: ReactNode
+	u?: ReactNode
+	v?: ReactNode
+	w?: ReactNode
+	x?: ReactNode
+	y?: ReactNode
+	z?: ReactNode
 }
-type InfoProps = "a" | "b" | "c" | "d" | "e" | "f" | "g" | "h" | "i" | "j" | "k";
+type InfoProps = "a" | "b" | "c" | "d" | "e" | "f" | "g" | "h" | "i" | "j" | "k" | "l" | "m" | "n" | "o" | "p" | "q" | "r" | "s" | "t" | "u" | "v" | "w" | "x" | "y" | "z";
 
 interface FormatProps {
 	required: InfoProps[]
