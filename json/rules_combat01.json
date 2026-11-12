@@ -2605,6 +2605,7 @@
 		]
 	},
 	"combat_trained": { "redirect": "mounted_combat" },
+	"mounted": { "redirect": "mounted_combat" },
 	"throw_splash_weapon": {
 		"name": "Throw Splash Weapon",
 		"sources": [ "PRPG Core Rulebook" ],

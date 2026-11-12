@@ -34,7 +34,9 @@ const _poison_belcher = {title: "Poison belcher", jsx: <><h2 id="eq-misc-poison_
 const _poison_caps = {title: "Poison caps", jsx: <><h2 id="eq-misc-poison_caps-poison-caps">Poison caps</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 12</Link>  </p>
 <Tabular format="misc" a="25" b="0.5" d="animgear" />
-<p>These small rubber cones attach to a creature's fangs and allow it to potentially poison those it bites. Poison caps must be filled with an injury poison, and must be attached to a creature's teeth prior to use. A creature equipped with poison caps deals bite damage as a creature <Link to="/misc/one_size_smaller">one size smaller</Link> than usual, but the next time the creature makes a successful bite attack, it also injects the poison from the caps into its target. The price and weight listed above are for a pair of poison caps; both must be used simultaneously in order to be effective. A pair of poison caps can only be used once; they are effectively destroyed after a successful bite attack. The cost of the poison is not included in the cost of the poison caps.</p>
+<p>These small rubber cones attach to a creature's fangs and allow it to potentially poison those it bites. Poison caps must be filled with an injury poison, and must be attached to a creature's teeth prior to use.</p>
+<p>A creature equipped with poison caps deals bite damage as a creature <Link to="/misc/one_size_smaller">one size smaller</Link> than usual, but the next time the creature makes a successful bite attack, it also injects the poison from the caps into its target.</p>
+<p>The price and weight listed above are for a pair of poison caps; both must be used simultaneously in order to be effective. A pair of poison caps can only be used once; they are effectively destroyed after a successful bite attack. The cost of the poison is not included in the cost of the poison caps.</p>
 </>};
 const _poison_diffuser = {title: "Poison diffuser", jsx: <><h2 id="eq-misc-poison_diffuser-poison-diffuser">Poison diffuser</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 9</Link>  </p>
@@ -484,7 +486,8 @@ const _pyrography_kit = {title: "Pyrography kit", jsx: <><h2 id="eq-misc-pyrogra
 const _qadiran_saddle = {title: "Qadiran saddle", jsx: <><h2 id="eq-misc-qadiran_saddle-qadiran-saddle">Qadiran saddle</h2>
 <p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East pg. 57</Link>  </p>
 <Tabular format="misc" a="200" b="5" d="animgear" />
-<p>Developed by <Link to="/rule/al_zabriti">Al-Zabriti</Link> riders, a Qadiran saddle is sturdy but minimal, allowing horse and rider to communicate through slight muscle shifts and delicate balance adjustments. A Qadiran saddle gives a rider a +2 circumstance bonus on Ride checks, and it allows a rider to ignore the AC penalty from a charge when she is mounted and her mount charges.</p>
+<p>Developed by <Link to="/rule/al_zabriti">Al-Zabriti</Link> riders, a Qadiran saddle is sturdy but minimal, allowing horse and rider to communicate through slight muscle shifts and delicate balance adjustments.</p>
+<p><Icons id="eq-misc-qadiran_saddle-boost-def-icons" wrapper="prefixIcon" list={["boost","def"]} /> A Qadiran saddle gives a rider a +2 circumstance bonus on <Link to="/skill/ride">Ride</Link> checks, and it allows a rider to ignore the AC penalty from a charge when she is mounted and her mount charges.</p>
 </>};
 const _questing_knight_package = {title: "Questing knight package", jsx: <><h2 id="eq-misc-questing_knight_package-questing-knight-package">Questing knight package</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 5</Link>  </p>
@@ -772,13 +775,13 @@ const _saddle_exotic_military = {hasJL:true,title: "Saddle (exotic, military)", 
 <p>Saddles are used to support a rider or supplies on a mount.</p>
 <h3 id="eq-misc-saddle_exotic_military-military-saddle" data-hash-target>Military Saddle</h3>
 <Tabular format="misc" id="mil" a="20" b="30" d="animgear" />
-<p>This saddle braces the rider, providing a +2 circumstance bonus on Ride checks related to staying in the saddle. If the rider is knocked unconscious while in a military saddle, he has a 75% chance to stay in the saddle.</p>
+<p><Icons id="eq-misc-saddle_exotic_military-def-icons" wrapper="prefixIcon" list={["def"]} /> This saddle braces the rider, providing a +2 circumstance bonus on <Link to="/skill/ride">Ride</Link> checks related to staying in the saddle. If the rider is knocked unconscious while in a military saddle, he has a 75% chance to stay in the saddle.</p>
 <h3 id="eq-misc-saddle_exotic_military-pack-saddle" data-hash-target>Pack Saddle</h3>
 <Tabular format="misc" id="pack" a="250" b="15" d="animgear" />
 <p>A pack saddle holds gear and supplies, but not a rider. It holds as much gear as the mount can carry.</p>
 <h3 id="eq-misc-saddle_exotic_military-riding-saddle" data-hash-target>Riding Saddle</h3>
 <Tabular format="misc" id="ride" a="10" b="25" d="animgear" />
-<p>These saddles are the most pervasive type of riding equipment. If the rider is knocked unconscious while in a riding saddle, he has a 50% chance to stay in the saddle.</p>
+<p><Icons id="eq-misc-saddle_exotic_military-def-icons" wrapper="prefixIcon" list={["def"]} /> These saddles are the most pervasive type of riding equipment. If the rider is knocked unconscious while in a riding saddle, he has a 50% chance to stay in the saddle.</p>
 <h3 id="eq-misc-saddle_exotic_military-exotic-saddle" data-hash-target>Exotic Saddle</h3>
 <Tabular format="misc" id="exotic" a="60 gp (exotic, military), 15 gp (exotic, pack), 30 gp (exotic, riding)" b="40 lbs. (exotic, military), 20 lbs. (exotic, pack), 30 lbs. (exotic, riding)" c="x" d="animgear" />
 <p>These saddles are designed for a variety of unusual mounts, each customized for a specific type of beast. Exotic saddles come in military, pack, and riding styles, just as normal saddles do, and have the same traits.</p>
@@ -2455,12 +2458,12 @@ const _trailscent_kit = {title: "Trailscent kit", jsx: <><h2 id="eq-misc-trailsc
 const _training_harness = {title: "Training harness", jsx: <><h2 id="eq-misc-training_harness-training-harness">Training harness</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 76</Link>  </p>
 <Tabular format="misc" a="10" b="10" d="animgear" />
-<p>This specialized gear must be tailored to a specific type of animal. A training harness provides a +2 bonus on Handle Animal checks made with an animal wearing it.</p>
+<p><Icons id="eq-misc-training_harness-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This specialized gear must be tailored to a specific type of animal. A training harness provides a +2 bonus on <Link to="/skill/handle_animal">Handle Animal</Link> checks made with an animal wearing it.</p>
 </>};
 const _training_sleeve = {title: "Training sleeve", jsx: <><h2 id="eq-misc-training_sleeve-training-sleeve">Training sleeve</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 12</Link>  </p>
 <Tabular format="misc" a="100" b="5" d="animgear" />
-<p>This thick, heavily padded sleeve fits over the wearer's arm and serves as a target for animals being trained to attack. When used in conjunction with the Handle Animal skill to train an animal for a general purpose, this item grants the user a +5 competence bonus on her Handle Animal check to successfully combat train an animal.</p>
+<p><Icons id="eq-misc-training_sleeve-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This thick, heavily padded sleeve fits over the wearer's arm and serves as a target for animals being trained to attack. When used in conjunction with the <Link to="/skill/handle_animal">Handle Animal</Link> skill to train an animal for a general purpose, this item grants the user a +5 competence bonus on her Handle Animal check to successfully combat train an animal.</p>
 </>};
 const _trapped_item_trapped_disguise_kit = {hasJL:true,title: "Trapped item (trapped disguise kit)", jsx: <><div className="jumpList" id="eq-misc-trapped_item_trapped_disguise_kit-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-trapped_item_trapped_disguise_kit-trapped-disguise-kit">Trapped Disguise Kit</InnerLink></li><li><InnerLink toTop to="eq-misc-trapped_item_trapped_disguise_kit-trapped-scroll-case">Trapped Scroll Case</InnerLink></li></ul></div><h2 id="eq-misc-trapped_item_trapped_disguise_kit-trapped-item">Trapped item</h2>
 <p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion pg. 28</Link>  </p>

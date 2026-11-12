@@ -700,7 +700,7 @@
 			"‹SOURCE Dragonslayer's Handbook/26›  ",
 			"::tabular{format=misc a=20 b=2 d=animgear}",
 			"",
-			"This large leather muzzle is reinforced with steel chains, and is specifically shaped for a dragon's snout. The muzzle is also treated with one type of ‹eq-misc/elemental proofing› to prevent it from being destroyed by the dragon's breath weapon. The muzzle has hardness 10, 40 hp, and a break DC of 30.",
+			"This large leather muzzle is reinforced with steel chains, and is specifically shaped for a dragon's snout. The muzzle is also treated with one type of ‹eq-misc/elemental proofing› to prevent it from being destroyed by the dragon's breath weapon. The muzzle has ‹rule/hardness› 10, 40 hp, and a break DC of 30.",
 			"",
 			"A dragon muzzle can be fitted on a dragon using the rules to tie up a ‹rule/pin«ned› creature. A standard dragon muzzle can be resized to fit dragons from size Tiny to Large. For larger versions, the weight increases by a factor of 4 and the price doubles for each size increase."
 		]
@@ -3192,7 +3192,7 @@
 			"",
 			"These straw baskets provide a portable home for bees. They are dome shaped, with a hole in the top that a smaller woven basket covers as a cap. This hole allows for the harvesting of small amounts of honey without destroying the entire hive. Believing that certain bees provide for a superior crop yield, some farmers pay beekeepers to travel to their farms with the bees.",
 			"",
-			"Destroying a traveling bee hive causes the bees to swarm, creating a 5-foot-radius cloud. A creature is ‹misc/blinded› and for as long as it remains in the cloud, and must succeed at a DC 12 Fortitude saving throw or become ‹misc/sickened› for 1 minute. The sickened condition is a poison effect."
+			"@I-warning Destroying a traveling bee hive causes the bees to swarm, creating a 5-foot-radius cloud. A creature is ‹misc/blinded› and for as long as it remains in the cloud, and must succeed at a DC 12 Fortitude saving throw or become ‹misc/sickened› for 1 minute. The sickened condition is a poison effect."
 		]
 	},
 	"traveling_formula_book": {
@@ -3404,7 +3404,7 @@
 			"‹SOURCE Belkzen, Hold of the Orc Hordes/39›  ",
 			"::tabular{format=misc a=50 b=10 d=animgear}",
 			"",
-			"These metal caps must be specially fitted to a creature's horns or tusks; a blade reminiscent of a sword or axe head projects from each cap. If the creature makes a gore attack (including as part of a powerful charge), the attack deals both piercing and slashing damage, and has a critical threat range of 19-20 (this range can be increased by other effects). Tusk blades can be enhanced as melee weapons; the enhancement is applied to the creature's gore attack."
+			"These metal caps must be specially fitted to a creature's horns or tusks; a blade reminiscent of a sword or axe head projects from each cap. If the creature makes a gore attack (including as part of a ‹umr/powerful charge›), the attack deals both piercing and slashing damage, and has a critical threat range of 19-20 (this range can be increased by other effects). Tusk blades can be enhanced as melee weapons; the enhancement is applied to the creature's gore attack."
 		]
 	},
 	"twitch_tonic": {
@@ -4208,7 +4208,9 @@
 			"‹SOURCE Animal Archive/12›  ",
 			"::tabular{format=misc a=\"0.1\" b=2 d=animgear}",
 			"",
-			"This hardened mixture of animal marrow and minerals is shaped into a long bone. When chewed upon by a creature for no fewer than 15 minutes, a whet bone grants the creature a +1 bonus on its next damage roll the first time it hits with a bite attack. This only works on nonmagical bite attacks."
+			"This hardened mixture of animal marrow and minerals is shaped into a long bone.",
+			"",
+			"@I-boost When chewed upon by a creature for no fewer than 15 minutes, a whet bone grants the creature a +1 bonus on its next damage roll the first time it hits with a bite attack. This only works on nonmagical bite attacks."
 		]
 	},
 	"whetstone": {
@@ -4234,7 +4236,9 @@
 			"‹SOURCE Advanced Race Guide/76›  ",
 			"::tabular{format=misc a=5 b=2 d=animgear}",
 			"",
-			"This short lash has a reach of only 10 feet, but is otherwise identical to a normal ‹eq-weapon/whip›. The wielder gains a +2 circumstance bonus on ‹skill/Handle Animal› checks to push a trained animal and on Intimidate checks made to demoralize any animal as long as the animal is within the whip's reach. When using the whip to demoralize a trained animal, the wielder may choose to ‹misc/fascinate<d› the animal rather than causing it to become shaken for the same duration as the shaken condition, but the fascinate effect ends if line of sight between the wielder and the animal is broken."
+			"This short lash has a reach of only 10 feet, but is otherwise identical to a normal ‹eq-weapon/whip›.",
+			"",
+			"@I-boost The wielder gains a +2 circumstance bonus on ‹skill/Handle Animal› checks to *push* a trained animal and on ‹skill/Intimidate› checks made to demoralize any animal as long as the animal is within the whip's reach. When using the whip to demoralize a trained animal, the wielder may choose to ‹misc/fascinate<d› the animal rather than causing it to become shaken for the same duration as the shaken condition, but the fascinate effect ends if line of sight between the wielder and the animal is broken."
 		]
 	},
 	"training_whip": { "redirect": "whip_training" },

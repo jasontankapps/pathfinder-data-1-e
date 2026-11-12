@@ -1005,6 +1005,7 @@
 	"neck_slot": { "redirect": "magic_items_on_the_body" },
 	"body_slot": { "redirect": "magic_items_on_the_body" },
 	"eyes_slot": { "redirect": "magic_items_on_the_body" },
+	"shoulders_slot": { "redirect": "magic_items_on_the_body" },
 	"saving_throws_against_magic_item_powers": {
 		"name": "Saving Throws Against Magic Item Powers",
 		"sources": [ "PRPG Core Rulebook" ],

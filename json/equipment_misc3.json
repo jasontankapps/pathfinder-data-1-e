@@ -59,7 +59,11 @@
 			"‹SOURCE Animal Archive/12›  ",
 			"::tabular{format=misc a=25 b=\"0.5\" d=animgear}",
 			"",
-			"These small rubber cones attach to a creature's fangs and allow it to potentially poison those it bites. Poison caps must be filled with an injury poison, and must be attached to a creature's teeth prior to use. A creature equipped with poison caps deals bite damage as a creature ‹misc/one size smaller› than usual, but the next time the creature makes a successful bite attack, it also injects the poison from the caps into its target. The price and weight listed above are for a pair of poison caps; both must be used simultaneously in order to be effective. A pair of poison caps can only be used once; they are effectively destroyed after a successful bite attack. The cost of the poison is not included in the cost of the poison caps."
+			"These small rubber cones attach to a creature's fangs and allow it to potentially poison those it bites. Poison caps must be filled with an injury poison, and must be attached to a creature's teeth prior to use.",
+			"",
+			"A creature equipped with poison caps deals bite damage as a creature ‹misc/one size smaller› than usual, but the next time the creature makes a successful bite attack, it also injects the poison from the caps into its target.",
+			"",
+			"The price and weight listed above are for a pair of poison caps; both must be used simultaneously in order to be effective. A pair of poison caps can only be used once; they are effectively destroyed after a successful bite attack. The cost of the poison is not included in the cost of the poison caps."
 		]
 	},
 	"poison_diffuser": {
@@ -842,7 +846,9 @@
 			"‹SOURCE Qadira, Jewel of the East/57›  ",
 			"::tabular{format=misc a=200 b=5 d=animgear}",
 			"",
-			"Developed by ‹rule/Al-Zabriti› riders, a Qadiran saddle is sturdy but minimal, allowing horse and rider to communicate through slight muscle shifts and delicate balance adjustments. A Qadiran saddle gives a rider a +2 circumstance bonus on Ride checks, and it allows a rider to ignore the AC penalty from a charge when she is mounted and her mount charges."
+			"Developed by ‹rule/Al-Zabriti› riders, a Qadiran saddle is sturdy but minimal, allowing horse and rider to communicate through slight muscle shifts and delicate balance adjustments.",
+			"",
+			"@I-boost-def A Qadiran saddle gives a rider a +2 circumstance bonus on ‹skill/Ride› checks, and it allows a rider to ignore the AC penalty from a charge when she is mounted and her mount charges."
 		]
 	},
 	"questing_knight_package": {
@@ -1552,7 +1558,7 @@
 			"",
 			"::tabular{format=misc id=mil a=20 b=30 d=animgear}",
 			"",
-			"This saddle braces the rider, providing a +2 circumstance bonus on Ride checks related to staying in the saddle. If the rider is knocked unconscious while in a military saddle, he has a 75% chance to stay in the saddle.",
+			"@I-def This saddle braces the rider, providing a +2 circumstance bonus on ‹skill/Ride› checks related to staying in the saddle. If the rider is knocked unconscious while in a military saddle, he has a 75% chance to stay in the saddle.",
 			"",
 			"::h3[Pack Saddle]{jl}",
 			"",
@@ -1564,7 +1570,7 @@
 			"",
 			"::tabular{format=misc id=ride a=10 b=25 d=animgear}",
 			"",
-			"These saddles are the most pervasive type of riding equipment. If the rider is knocked unconscious while in a riding saddle, he has a 50% chance to stay in the saddle.",
+			"@I-def These saddles are the most pervasive type of riding equipment. If the rider is knocked unconscious while in a riding saddle, he has a 50% chance to stay in the saddle.",
 			"",
 			"::h3[Exotic Saddle]{jl}",
 			"",
@@ -1583,6 +1589,7 @@
 		"copyof": "saddle_exotic_military"
 	},
 	"exotic_saddle": { "redirect": "saddle_exotic_riding" },
+	"exotic_riding_saddle": { "redirect": "saddle_exotic_riding" },
 	"military_saddle": {
 		"name": "Saddle (military)",
 		"copyof": "saddle_exotic_military"
@@ -5001,7 +5008,7 @@
 			"‹SOURCE Advanced Race Guide/76›  ",
 			"::tabular{format=misc a=10 b=10 d=animgear}",
 			"",
-			"This specialized gear must be tailored to a specific type of animal. A training harness provides a +2 bonus on Handle Animal checks made with an animal wearing it."
+			"@I-boost This specialized gear must be tailored to a specific type of animal. A training harness provides a +2 bonus on ‹skill/Handle Animal› checks made with an animal wearing it."
 		]
 	},
 	"training_sleeve": {
@@ -5012,7 +5019,7 @@
 			"‹SOURCE Animal Archive/12›  ",
 			"::tabular{format=misc a=100 b=5 d=animgear}",
 			"",
-			"This thick, heavily padded sleeve fits over the wearer's arm and serves as a target for animals being trained to attack. When used in conjunction with the Handle Animal skill to train an animal for a general purpose, this item grants the user a +5 competence bonus on her Handle Animal check to successfully combat train an animal."
+			"@I-boost This thick, heavily padded sleeve fits over the wearer's arm and serves as a target for animals being trained to attack. When used in conjunction with the ‹skill/Handle Animal› skill to train an animal for a general purpose, this item grants the user a +5 competence bonus on her Handle Animal check to successfully combat train an animal."
 		]
 	},
 	"trapped_item_trapped_disguise_kit": {

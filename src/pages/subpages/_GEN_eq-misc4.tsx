@@ -367,7 +367,7 @@ const _dragon_rose = {title: "Dragon Rose", jsx: <><h2 id="eq-misc-dragon_rose-d
 const _dragon_muzzle = {title: "Dragon muzzle", jsx: <><h2 id="eq-misc-dragon_muzzle-dragon-muzzle">Dragon muzzle</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 26</Link>  </p>
 <Tabular format="misc" a="20" b="2" d="animgear" />
-<p>This large leather muzzle is reinforced with steel chains, and is specifically shaped for a dragon's snout. The muzzle is also treated with one type of <Link to="/eq-misc/elemental_proofing">elemental proofing</Link> to prevent it from being destroyed by the dragon's breath weapon. The muzzle has hardness 10, 40 hp, and a break DC of 30.</p>
+<p>This large leather muzzle is reinforced with steel chains, and is specifically shaped for a dragon's snout. The muzzle is also treated with one type of <Link to="/eq-misc/elemental_proofing">elemental proofing</Link> to prevent it from being destroyed by the dragon's breath weapon. The muzzle has <Link to="/rule/hardness">hardness</Link> 10, 40 hp, and a break DC of 30.</p>
 <p>A dragon muzzle can be fitted on a dragon using the rules to tie up a <Link to="/rule/pin">pinned</Link> creature. A standard dragon muzzle can be resized to fit dragons from size Tiny to Large. For larger versions, the weight increases by a factor of 4 and the price doubles for each size increase.</p>
 </>};
 const _dragons_blend = {title: "Dragon's blend", jsx: <><h2 id="eq-misc-dragons_blend-dragons-blend">Dragon's blend</h2>
@@ -1407,7 +1407,7 @@ const _traveling_bee_hive = {title: "Traveling bee hive", jsx: <><h2 id="eq-misc
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 206</Link>  </p>
 <Tabular format="misc" a="10" b="10" d="animgear" />
 <p>These straw baskets provide a portable home for bees. They are dome shaped, with a hole in the top that a smaller woven basket covers as a cap. This hole allows for the harvesting of small amounts of honey without destroying the entire hive. Believing that certain bees provide for a superior crop yield, some farmers pay beekeepers to travel to their farms with the bees.</p>
-<p>Destroying a traveling bee hive causes the bees to swarm, creating a 5-foot-radius cloud. A creature is <Link to="/misc/blinded">blinded</Link> and for as long as it remains in the cloud, and must succeed at a DC 12 Fortitude saving throw or become <Link to="/misc/sickened">sickened</Link> for 1 minute. The sickened condition is a poison effect.</p>
+<p><Icons id="eq-misc-traveling_bee_hive-warning-icons" wrapper="prefixIcon" list={["warning"]} /> Destroying a traveling bee hive causes the bees to swarm, creating a 5-foot-radius cloud. A creature is <Link to="/misc/blinded">blinded</Link> and for as long as it remains in the cloud, and must succeed at a DC 12 Fortitude saving throw or become <Link to="/misc/sickened">sickened</Link> for 1 minute. The sickened condition is a poison effect.</p>
 </>};
 const _traveling_formula_book = {title: "Traveling formula book", jsx: <><h2 id="eq-misc-traveling_formula_book-traveling-formula-book">Traveling formula book</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>  </p>
@@ -1495,7 +1495,7 @@ const _turtle = {title: "Turtle", jsx: <><h2 id="eq-misc-turtle-turtle">Turtle</
 const _tusk_blades = {title: "Tusk blades", jsx: <><h2 id="eq-misc-tusk_blades-tusk-blades">Tusk blades</h2>
 <p><strong>Sources</strong> <Link to="/source/belkzen_hold_of_the_orc_hordes">Belkzen, Hold of the Orc Hordes pg. 39</Link>  </p>
 <Tabular format="misc" a="50" b="10" d="animgear" />
-<p>These metal caps must be specially fitted to a creature's horns or tusks; a blade reminiscent of a sword or axe head projects from each cap. If the creature makes a gore attack (including as part of a powerful charge), the attack deals both piercing and slashing damage, and has a critical threat range of 19-20 (this range can be increased by other effects). Tusk blades can be enhanced as melee weapons; the enhancement is applied to the creature's gore attack.</p>
+<p>These metal caps must be specially fitted to a creature's horns or tusks; a blade reminiscent of a sword or axe head projects from each cap. If the creature makes a gore attack (including as part of a <Link to="/umr/powerful_charge">powerful charge</Link>), the attack deals both piercing and slashing damage, and has a critical threat range of 19-20 (this range can be increased by other effects). Tusk blades can be enhanced as melee weapons; the enhancement is applied to the creature's gore attack.</p>
 </>};
 const _twitch_tonic = {title: "Twitch tonic", jsx: <><h2 id="eq-misc-twitch_tonic-twitch-tonic">Twitch tonic</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 101</Link>  </p>
@@ -1825,7 +1825,8 @@ const _wheelchair = {title: "Wheelchair", jsx: <><h2 id="eq-misc-wheelchair-whee
 const _whet_bone = {title: "Whet bone", jsx: <><h2 id="eq-misc-whet_bone-whet-bone">Whet bone</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 12</Link>  </p>
 <Tabular format="misc" a="0.1" b="2" d="animgear" />
-<p>This hardened mixture of animal marrow and minerals is shaped into a long bone. When chewed upon by a creature for no fewer than 15 minutes, a whet bone grants the creature a +1 bonus on its next damage roll the first time it hits with a bite attack. This only works on nonmagical bite attacks.</p>
+<p>This hardened mixture of animal marrow and minerals is shaped into a long bone.</p>
+<p><Icons id="eq-misc-whet_bone-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When chewed upon by a creature for no fewer than 15 minutes, a whet bone grants the creature a +1 bonus on its next damage roll the first time it hits with a bite attack. This only works on nonmagical bite attacks.</p>
 </>};
 const _whetstone = {title: "Whetstone", jsx: <><h2 id="eq-misc-whetstone-whetstone">Whetstone</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -1835,7 +1836,8 @@ const _whetstone = {title: "Whetstone", jsx: <><h2 id="eq-misc-whetstone-whetsto
 const _whip_training = {title: "Whip, training", jsx: <><h2 id="eq-misc-whip_training-whip-training">Whip, training</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 76</Link>  </p>
 <Tabular format="misc" a="5" b="2" d="animgear" />
-<p>This short lash has a reach of only 10 feet, but is otherwise identical to a normal <Link to="/eq-weapon/whip">whip</Link>. The wielder gains a +2 circumstance bonus on <Link to="/skill/handle_animal">Handle Animal</Link> checks to push a trained animal and on Intimidate checks made to demoralize any animal as long as the animal is within the whip's reach. When using the whip to demoralize a trained animal, the wielder may choose to <Link to="/misc/fascinated">fascinate</Link> the animal rather than causing it to become shaken for the same duration as the shaken condition, but the fascinate effect ends if line of sight between the wielder and the animal is broken.</p>
+<p>This short lash has a reach of only 10 feet, but is otherwise identical to a normal <Link to="/eq-weapon/whip">whip</Link>.</p>
+<p><Icons id="eq-misc-whip_training-boost-icons" wrapper="prefixIcon" list={["boost"]} /> The wielder gains a +2 circumstance bonus on <Link to="/skill/handle_animal">Handle Animal</Link> checks to <em>push</em> a trained animal and on <Link to="/skill/intimidate">Intimidate</Link> checks made to demoralize any animal as long as the animal is within the whip's reach. When using the whip to demoralize a trained animal, the wielder may choose to <Link to="/misc/fascinated">fascinate</Link> the animal rather than causing it to become shaken for the same duration as the shaken condition, but the fascinate effect ends if line of sight between the wielder and the animal is broken.</p>
 </>};
 const _whiskey_cup = {title: "Whiskey (cup)", jsx: <><h2 id="eq-misc-whiskey_cup-whiskey-cup">Whiskey (cup)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>  </p>

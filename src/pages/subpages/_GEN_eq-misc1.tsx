@@ -411,12 +411,12 @@ const _angry_jack = {title: "Angry jack", jsx: <><h2 id="eq-misc-angry_jack-angr
 </>};
 const _animal_call = {title: "Animal call", jsx: <><h2 id="eq-misc-animal_call-animal-call">Animal call</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 202</Link>  </p>
-<Tabular format="misc" a="0.1" b="x" d="animgear" />
+<Tabular format="misc" a="0.1" b="x" d="tools" />
 <p>These reed or bamboo whistles mimic the calls of various wild animals. Each whistle is keyed to a specific type of animal and a specific call (usually signaling the availability of food or a mate to draw the animal closer). Using the correct whistle gives you a +2 bonus on Survival checks to track animals of the specific animal type or to get along in the wild.</p>
 </>};
 const _animal_disguise_kit = {title: "Animal disguise kit", jsx: <><h2 id="eq-misc-animal_disguise_kit-animal-disguise-kit">Animal disguise kit</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon pg. 30</Link>  </p>
-<Tabular format="misc" a="100" b="8" d="tools" />
+<Tabular format="misc" a="100" b="8" d="animgear" />
 <p>This leather pouch contains dyes, odorous balsams, colorchanging eye drops, reversible collars, and a host of other tools to disguise one animal as another.</p>
 <p><Icons id="eq-misc-animal_disguise_kit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> The kit grants a +4 circumstance bonus on <Link to="/skill/disguise">Disguise</Link> checks to disguise an animal as another specific animal of the same species, and a +2 circumstance bonus on Disguise checks to disguise an animal as an animal of a different species.</p>
 <p>An animal disguise kit is exhausted after 10 uses.</p>
@@ -429,12 +429,14 @@ const _animal_glue = {title: "Animal glue", jsx: <><h2 id="eq-misc-animal_glue-a
 const _animal_harness = {title: "Animal harness", jsx: <><h2 id="eq-misc-animal_harness-animal-harness">Animal harness</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="2" b="2" d="animgear" />
-<p>This leather or hemp harness allows a holder to restrain and control a domesticated animal. A harness is standard equipment for anyone trying to teach an animal tricks with the Handle Animal skill. Ready-made harnesses are available in most markets for common domesticated animals such as cats, dogs, horses, and oxen, but harnesses can be made for nearly any creature.</p>
+<p>This leather or hemp harness allows a holder to restrain and control a domesticated animal. A harness is standard equipment for anyone trying to teach an animal tricks with the <Link to="/skill/handle_animal">Handle Animal</Link> skill. Ready-made harnesses are available in most markets for common domesticated animals such as cats, dogs, horses, and oxen, but harnesses can be made for nearly any creature.</p>
 </>};
 const _animal_repellent = {title: "Animal repellent", jsx: <><h2 id="eq-misc-animal_repellent-animal-repellent">Animal repellent</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 24</Link>  </p>
 <Tabular format="misc" a="15" b="x" d="animgear" />
-<p>Leshys and other plant creatures have to be wary of hungry herbivorous animals. A dose of animal repellent makes a plant creature smell unappetizing for 24 hours. Animals do not attempt to consume a plant creature coated in animal repellent if there are other food sources available, and in combat prefer to use natural attacks that are not bite attacks against such a creature if they can. Animal repellent counts as a strong scent, allowing creatures with the <Link to="/umr/scent">scent</Link> ability to detect it at a greater range. Animal repellent does not work on <Link to="/race/ghoran">ghorans</Link> with the delicious racial trait.</p>
+<p>Leshys and other plant creatures have to be wary of hungry herbivorous animals.</p>
+<p><Icons id="eq-misc-animal_repellent-def-icons" wrapper="prefixIcon" list={["def"]} /> A dose of animal repellent makes a plant creature smell unappetizing for 24 hours. Animals do not attempt to consume a plant creature coated in animal repellent if there are other food sources available, and in combat prefer to use natural attacks that are not bite attacks against such a creature if they can.</p>
+<p><Icons id="eq-misc-animal_repellent-down-icons" wrapper="prefixIcon" list={["down"]} /> Animal repellent counts as a strong scent, allowing creatures with the <Link to="/umr/scent">scent</Link> ability to detect it at a greater range. Animal repellent does not work on <Link to="/race/ghoran">ghorans</Link> with the <em>delicious</em> racial trait.</p>
 <Tabular format="craftalch" a="20" />
 </>};
 const _animal_repellant_sack = {title: "Animal-repellant sack", jsx: <><h2 id="eq-misc-animal_repellant_sack-animal-repellant-sack">Animal-repellant sack</h2>
@@ -668,7 +670,7 @@ const _aquatic_harness_large = {title: "Aquatic harness (large)", jsx: <><h2 id=
 const _aquatic_pinger = {title: "Aquatic pinger", jsx: <><h2 id="eq-misc-aquatic_pinger-aquatic-pinger">Aquatic pinger</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 12</Link>  </p>
 <Tabular format="misc" a="6" b="0.5" d="animgear" />
-<p>This small chime is designed to be used in aquatic environs. After submerging the pinger in water, the user can lower a miniature mallet into the dry hollow of the chime from above and ring the instrument with a successful DC 5 Perform (percussion) check. An aquatic pinger can be heard clearly from up to a half-mile away by underwater creatures (Perception DC 0). For each half-mile beyond, Perception checks to hear an aquatic pinger take a -2 penalty.</p>
+<p>This small chime is designed to be used in aquatic environs. After submerging the pinger in water, the user can lower a miniature mallet into the dry hollow of the chime from above and ring the instrument with a successful DC 5 <Link to="/skill/perform">Perform</Link> (percussion) check. An aquatic pinger can be heard clearly from up to a half-mile away by underwater creatures (<Link to="/skill/perception">Perception</Link> DC 0). For each half-mile beyond, Perception checks to hear an aquatic pinger take a -2 penalty.</p>
 </>};
 const _aquemir = {title: "Aquemir", jsx: <><h2 id="eq-misc-aquemir-aquemir">Aquemir</h2>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 31</Link>  </p>
@@ -1009,7 +1011,9 @@ const _bards_kit = {title: "Bard's kit", jsx: <><h2 id="eq-misc-bards_kit-bards-
 const _barding_stitches = {title: "Barding stitches", jsx: <><h2 id="eq-misc-barding_stitches-barding-stitches">Barding stitches</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 12</Link>  </p>
 <Tabular format="misc" a="50" b="1" d="animgear" />
-<p>This thin, specially treated wire can be used to attach barding to creatures whose body types cannot normally accommodate armor, such as piscine, serpentine, and verminous animals, by delicately and thoroughly sewing the equipment directly to the creature's flesh. Equipping a creature with barding using barding stitches takes 10 times as long as the figures given in <Link to="/rule/getting_into_and_out_of_armor">Getting Into and Out of Armor</Link>, and a successful DC 25 Heal check is required to attach or remove the stitches. The creature must be helpless or willing to be equipped with barding stitches, and must have at least a +1 natural armor bonus to AC. An armored creature with barding stitches takes a -2 penalty on Strength- and Dexterity-based skill checks (in addition to any penalties from the barding itself), Fortitude and Reflex saves, and saves against effects with the pain descriptor (these penalties stack). These penalties persist for as long as the creature is equipped with barding stitches.</p>
+<p>This thin, specially treated wire can be used to attach barding to creatures whose body types cannot normally accommodate armor, such as piscine, serpentine, and verminous animals, by delicately and thoroughly sewing the equipment directly to the creature's flesh.</p>
+<p><Icons id="eq-misc-barding_stitches-info-warning-icons" wrapper="prefixIcon" list={["info","warning"]} /> Equipping a creature with barding using barding stitches takes 10 times as long as the figures given in <Link to="/rule/getting_into_and_out_of_armor">Getting Into and Out of Armor</Link>, and a successful DC 25 <Link to="/skill/heal">Heal</Link> check is required to attach or remove the stitches. The creature must be helpless or willing to be equipped with barding stitches, and must have at least a +1 natural armor bonus to AC.</p>
+<p><Icons id="eq-misc-barding_stitches-down-icons" wrapper="prefixIcon" list={["down"]} /> An armored creature with barding stitches takes a -2 penalty on Strength- and Dexterity-based skill checks (in addition to any penalties from the barding itself), Fortitude and Reflex saves, and saves against effects with the pain descriptor (these penalties stack). These penalties persist for as long as the creature is equipped with barding stitches.</p>
 </>};
 const _barrel = {title: "Barrel", jsx: <><h2 id="eq-misc-barrel-barrel">Barrel</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -1745,7 +1749,7 @@ const _canvas_sq_yd = {title: "Canvas (sq. yd.)", jsx: <><h2 id="eq-misc-canvas_
 const _caparison = {title: "Caparison", jsx: <><h2 id="eq-misc-caparison-caparison">Caparison</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 14</Link>  </p>
 <Tabular format="misc" a="2" b="4" d="animgear" />
-<p>A caparison is a sizable cloth covering laid over a mount or other four-legged creature. It serves many of the same purposes a cloak does for a humanoid creature, occupies the shoulder slot, and can be enchanted in the same manner. Caparisons are sometimes made of precious materials or crafted with delicate artistry - this does not increase their practicality, but can significantly increase their price as art objects.</p>
+<p>A caparison is a sizable cloth covering laid over a mount or other four-legged creature. It serves many of the same purposes a cloak does for a humanoid creature, occupies the <Link to="/rule/shoulders_slot">shoulders slot</Link>, and can be enchanted in the same manner. Caparisons are sometimes made of precious materials or crafted with delicate artistry - this does not increase their practicality, but can significantly increase their price as art objects.</p>
 </>};
 const _caphorite_dust = {title: "Caphorite dust", jsx: <><h2 id="eq-misc-caphorite_dust-caphorite-dust">Caphorite dust</h2>
 <p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion pg. 29</Link>  </p>

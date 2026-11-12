@@ -823,7 +823,7 @@
 		"description": [
 			"## Animal call",
 			"‹SOURCE Advanced Class Guide/202›  ",
-			"::tabular{format=misc a=\"0.1\" b=x d=animgear}",
+			"::tabular{format=misc a=\"0.1\" b=x d=tools}",
 			"",
 			"These reed or bamboo whistles mimic the calls of various wild animals. Each whistle is keyed to a specific type of animal and a specific call (usually signaling the availability of food or a mate to draw the animal closer). Using the correct whistle gives you a +2 bonus on Survival checks to track animals of the specific animal type or to get along in the wild."
 		]
@@ -834,7 +834,7 @@
 		"description": [
 			"## Animal disguise kit",
 			"‹SOURCE Blood of the Moon/30›  ",
-			"::tabular{format=misc a=100 b=8 d=tools}",
+			"::tabular{format=misc a=100 b=8 d=animgear}",
 			"",
 			"This leather pouch contains dyes, odorous balsams, colorchanging eye drops, reversible collars, and a host of other tools to disguise one animal as another.",
 			"",
@@ -866,7 +866,7 @@
 			"‹SOURCE Ultimate Equipment/81;Advanced Player's Guide/185;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=2 b=2 d=animgear}",
 			"",
-			"This leather or hemp harness allows a holder to restrain and control a domesticated animal. A harness is standard equipment for anyone trying to teach an animal tricks with the Handle Animal skill. Ready-made harnesses are available in most markets for common domesticated animals such as cats, dogs, horses, and oxen, but harnesses can be made for nearly any creature."
+			"This leather or hemp harness allows a holder to restrain and control a domesticated animal. A harness is standard equipment for anyone trying to teach an animal tricks with the ‹skill/Handle Animal› skill. Ready-made harnesses are available in most markets for common domesticated animals such as cats, dogs, horses, and oxen, but harnesses can be made for nearly any creature."
 		]
 	},
 	"harness": { "redirect": "animal_harness" },
@@ -878,7 +878,11 @@
 			"‹SOURCE Ultimate Wilderness/24›  ",
 			"::tabular{format=misc a=15 b=x d=animgear}",
 			"",
-			"Leshys and other plant creatures have to be wary of hungry herbivorous animals. A dose of animal repellent makes a plant creature smell unappetizing for 24 hours. Animals do not attempt to consume a plant creature coated in animal repellent if there are other food sources available, and in combat prefer to use natural attacks that are not bite attacks against such a creature if they can. Animal repellent counts as a strong scent, allowing creatures with the ‹umr/scent› ability to detect it at a greater range. Animal repellent does not work on ‹race/ghoran«s› with the delicious racial trait.",
+			"Leshys and other plant creatures have to be wary of hungry herbivorous animals.",
+			"",
+			"@I-def A dose of animal repellent makes a plant creature smell unappetizing for 24 hours. Animals do not attempt to consume a plant creature coated in animal repellent if there are other food sources available, and in combat prefer to use natural attacks that are not bite attacks against such a creature if they can.",
+			"",
+			"@I-down Animal repellent counts as a strong scent, allowing creatures with the ‹umr/scent› ability to detect it at a greater range. Animal repellent does not work on ‹race/ghoran«s› with the *delicious* racial trait.",
 			"",
 			"::tabular{format=craftalch a=20}"
 		]
@@ -1279,7 +1283,7 @@
 			"‹SOURCE Animal Archive/12›  ",
 			"::tabular{format=misc a=6 b=\"0.5\" d=animgear}",
 			"",
-			"This small chime is designed to be used in aquatic environs. After submerging the pinger in water, the user can lower a miniature mallet into the dry hollow of the chime from above and ring the instrument with a successful DC 5 Perform (percussion) check. An aquatic pinger can be heard clearly from up to a half-mile away by underwater creatures (Perception DC 0). For each half-mile beyond, Perception checks to hear an aquatic pinger take a -2 penalty."
+			"This small chime is designed to be used in aquatic environs. After submerging the pinger in water, the user can lower a miniature mallet into the dry hollow of the chime from above and ring the instrument with a successful DC 5 ‹skill/Perform› (percussion) check. An aquatic pinger can be heard clearly from up to a half-mile away by underwater creatures (‹skill/Perception› DC 0). For each half-mile beyond, Perception checks to hear an aquatic pinger take a -2 penalty."
 		]
 	},
 	"aquemir": {
@@ -2059,7 +2063,11 @@
 			"‹SOURCE Animal Archive/12›  ",
 			"::tabular{format=misc a=50 b=1 d=animgear}",
 			"",
-			"This thin, specially treated wire can be used to attach barding to creatures whose body types cannot normally accommodate armor, such as piscine, serpentine, and verminous animals, by delicately and thoroughly sewing the equipment directly to the creature's flesh. Equipping a creature with barding using barding stitches takes 10 times as long as the figures given in ‹rule/Getting Into and Out of Armor›, and a successful DC 25 Heal check is required to attach or remove the stitches. The creature must be helpless or willing to be equipped with barding stitches, and must have at least a +1 natural armor bonus to AC. An armored creature with barding stitches takes a -2 penalty on Strength- and Dexterity-based skill checks (in addition to any penalties from the barding itself), Fortitude and Reflex saves, and saves against effects with the pain descriptor (these penalties stack). These penalties persist for as long as the creature is equipped with barding stitches."
+			"This thin, specially treated wire can be used to attach barding to creatures whose body types cannot normally accommodate armor, such as piscine, serpentine, and verminous animals, by delicately and thoroughly sewing the equipment directly to the creature's flesh.",
+			"",
+			"@I-info-warning Equipping a creature with barding using barding stitches takes 10 times as long as the figures given in ‹rule/Getting Into and Out of Armor›, and a successful DC 25 ‹skill/Heal› check is required to attach or remove the stitches. The creature must be helpless or willing to be equipped with barding stitches, and must have at least a +1 natural armor bonus to AC.",
+			"",
+			"@I-down An armored creature with barding stitches takes a -2 penalty on Strength- and Dexterity-based skill checks (in addition to any penalties from the barding itself), Fortitude and Reflex saves, and saves against effects with the pain descriptor (these penalties stack). These penalties persist for as long as the creature is equipped with barding stitches."
 		]
 	},
 	"barrel": {
@@ -2200,6 +2208,7 @@
 	},
 	"beast_whistle": {
 		"name": "Beast whistle",
+		"tags": "dog whistle",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"## Beast whistle",
@@ -3898,7 +3907,7 @@
 			"‹SOURCE Adventurer's Guide/14›  ",
 			"::tabular{format=misc a=2 b=4 d=animgear}",
 			"",
-			"A caparison is a sizable cloth covering laid over a mount or other four-legged creature. It serves many of the same purposes a cloak does for a humanoid creature, occupies the shoulder slot, and can be enchanted in the same manner. Caparisons are sometimes made of precious materials or crafted with delicate artistry - this does not increase their practicality, but can significantly increase their price as art objects."
+			"A caparison is a sizable cloth covering laid over a mount or other four-legged creature. It serves many of the same purposes a cloak does for a humanoid creature, occupies the ‹rule/shoulders slot›, and can be enchanted in the same manner. Caparisons are sometimes made of precious materials or crafted with delicate artistry - this does not increase their practicality, but can significantly increase their price as art objects."
 		]
 	},
 	"caphorite_dust": {

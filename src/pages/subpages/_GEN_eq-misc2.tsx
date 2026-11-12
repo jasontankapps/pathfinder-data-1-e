@@ -203,7 +203,8 @@ const _flotation_device = {title: "Flotation device", jsx: <><h2 id="eq-misc-flo
 const _flying_straps_masterwork = {title: "Flying straps (masterwork)", jsx: <><h2 id="eq-misc-flying_straps_masterwork-flying-straps">Flying straps</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 105</Link>  </p>
 <Tabular format="misc" a="80 gp (masterwork), 10 gp (standard)" b="10 lbs. (masterwork), 10 lbs. (standard)" c="x" d="animgear" />
-<p>These crude straps are used to secure a goblin or other small creature to the underside of a dire bat or giant vulture. These straps count as an exotic riding saddle. If the mount fails a Fly check, there's a 50% chance the straps break and the rider falls. Masterwork flying straps count as an exotic military saddle, and don't have a chance to break if the mount fails a Fly check.</p>
+<p>These crude straps are used to secure a goblin or other small creature to the underside of a dire bat or giant vulture. These straps count as an <Link to="/eq-misc/exotic_riding_saddle">exotic riding saddle</Link>. If the mount fails a <Link to="/skill/fly">Fly</Link> check, there's a 50% chance the straps break and the rider falls.</p>
+<p>Masterwork flying straps count as an <Link to="/eq-misc/exotic_military_saddle">exotic military saddle</Link>, and don't have a chance to break if the mount fails a Fly check.</p>
 </>};
 const _foaming_powder = {title: "Foaming powder", jsx: <><h2 id="eq-misc-foaming_powder-foaming-powder">Foaming powder</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
@@ -537,7 +538,7 @@ const _golden_maple_leaves = {title: "Golden maple leaves", jsx: <><h2 id="eq-mi
 const _gorthek_saddle = {title: "Gorthek saddle", jsx: <><h2 id="eq-misc-gorthek_saddle-gorthek-saddle">Gorthek saddle</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 164</Link>  </p>
 <Tabular format="misc" a="50" b="75" d="animgear" />
-<p>This unusual seat is designed so that an orc handler can sit astride a gorthek mount. Large leather straps loop around the beast's chest and neck to hold the seat in place. The saddle includes straps that drape over the orc's shoulders to help her stay mounted during violent collisions.</p>
+<p>This unusual seat is designed so that an orc handler can sit astride a <Link to="/monster/gorthek">gorthek</Link> mount. Large leather straps loop around the beast's chest and neck to hold the seat in place. The saddle includes straps that drape over the orc's shoulders to help her stay mounted during violent collisions.</p>
 </>};
 const _grapplers_grease = {title: "Grappler's grease", jsx: <><h2 id="eq-misc-grapplers_grease-grapplers-grease">Grappler's grease</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 204</Link>  </p>
@@ -858,7 +859,7 @@ const _hide_dye = {title: "Hide dye", jsx: <><h2 id="eq-misc-hide_dye-hide-dye">
 <p><strong>Sources</strong> <Link to="/source/familiar_folio">Familiar Folio pg. 20</Link>  </p>
 <Tabular format="misc" a="20" b="1" d="animgear" />
 <p>This thick, murky liquid comes in a large earthenware jug, and can be purchased in a variety of colors. Hide dye can be applied to the feathers, fur, scales, or skin of most types of animals and magical beasts, allowing creatures a measure of camouflage. Hide dye comes in a variety of colors and shades matching the following different kinds of terrain: cold (including ice, glaciers, snow, and tundra), desert, forest, jungle, mountain (including hills), plains, swamp, underground, urban, and water.</p>
-<p>One jar of hide dye can be applied to a Small or smaller animal or magical beast in 1 hour. Thereafter, the dyed creature gains a +2 circumstance bonus on Stealth checks in the associated terrain. If the Environment entry in a creature's statistics indicates that the creature can typically be found in a specific type of terrain (such as an owl's environment of temperate forests) and the creature is adorned with hide dye of a matching type, the bonus on Stealth checks increases to +4. Applying a new color of dye immediately covers and replaces the previous dye.</p>
+<p><Icons id="eq-misc-hide_dye-protect-icons" wrapper="prefixIcon" list={["protect"]} /> One jar of hide dye can be applied to a Small or smaller animal or magical beast in 1 hour. Thereafter, the dyed creature gains a +2 circumstance bonus on <Link to="/skill/stealth">Stealth</Link> checks in the associated terrain. If the Environment entry in a creature's statistics indicates that the creature can typically be found in a specific type of terrain (such as an <Link to="/monster/owl">owl's</Link> environment of temperate forests) and the creature is adorned with hide dye of a matching type, the bonus on Stealth checks increases to +4. Applying a new color of dye immediately covers and replaces the previous dye.</p>
 <p>Hide dye doesn't adhere to clothing or humanoid flesh, and grants no benefit to creatures other than animals or magical beasts. Once applied, hide dye is waterproof and can't be rubbed or burned away. It fades after 1d4+1 days unless it's removed earlier by magical means.</p>
 </>};
 const _hip_flask = {title: "Hip flask", jsx: <><h2 id="eq-misc-hip_flask-hip-flask">Hip flask</h2>
@@ -1003,7 +1004,8 @@ const _hookah = {title: "Hookah", jsx: <><h2 id="eq-misc-hookah-hookah">Hookah</
 const _horn_harness = {title: "Horn harness", jsx: <><h2 id="eq-misc-horn_harness-horn-harness">Horn harness</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 164</Link>  </p>
 <Tabular format="misc" a="30" b="20" d="animgear" />
-<p>This simple harness, basically just a leather lash, straps a combatant's arm to the tusk or horn of a Huge or larger animal such as a <Link to="/monster/gorthek">gorthek</Link>. Engaging or disengaging a horn harness is a standard action that provokes attacks of opportunity. A horn harness includes a quiver that typically holds up to 12 <Link to="/eq-weapon/javelin">javelins</Link>. A creature in a horn harness gains all the bonuses and takes all the penalties for engaging in combat or casting spells while mounted, but also can't do anything that requires using the hand lashed to the mount. If the mount falls in battle, the creature in the horn harness remains attached, but can attempt a DC 25 Ride check to make a soft fall. If the creature in the horn harness falls unconscious, it remains strapped in, but takes an amount of damage equal to the mount's trample damage (if any) each round the monster moves.</p>
+<p>This simple harness, basically just a leather lash, straps a combatant's arm to the tusk or horn of a Huge or larger animal such as a <Link to="/monster/gorthek">gorthek</Link>. Engaging or disengaging a horn harness is a <strong className="hl">standard action</strong> that provokes attacks of opportunity. A horn harness includes a quiver that typically holds up to 12 <Link to="/eq-weapon/javelin">javelins</Link>.</p>
+<p><Icons id="eq-misc-horn_harness-warning-icons" wrapper="prefixIcon" list={["warning"]} /> A creature in a horn harness gains all the bonuses and takes all the penalties for engaging in combat or casting spells while <Link to="/rule/mounted">mounted</Link>, but also can't do anything that requires using the hand lashed to the mount. If the mount falls in battle, the creature in the horn harness remains attached, but can attempt a DC 25 <Link to="/skill/ride">Ride</Link> check to make a soft fall. If the creature in the horn harness falls unconscious, it remains strapped in, but takes an amount of damage equal to the mount's trample damage (if any) each round the monster moves.</p>
 </>};
 const _horse_heavy = {hasJL:true,title: "Horse (heavy)", jsx: <><div className="jumpList" id="eq-misc-horse_heavy-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-horse_heavy-heavy-horse">Heavy Horse</InnerLink></li><li><InnerLink toTop to="eq-misc-horse_heavy-heavy-horse-combat-trained">Heavy Horse (Combat Trained)</InnerLink></li><li><InnerLink toTop to="eq-misc-horse_heavy-light-horse">Light Horse</InnerLink></li><li><InnerLink toTop to="eq-misc-horse_heavy-light-horse-combat-trained">Light Horse (Combat Trained)</InnerLink></li><li><InnerLink toTop to="eq-misc-horse_heavy-pony">Pony</InnerLink></li><li><InnerLink toTop to="eq-misc-horse_heavy-pony-combat-trained">Pony (Combat Trained)</InnerLink></li><li><InnerLink toTop to="eq-misc-horse_heavy-other-specific-mounts">Other, Specific Mounts</InnerLink></li></ul></div><h2 id="eq-misc-horse_heavy-horse">Horse</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -1076,7 +1078,7 @@ const _hourglass_1_hour = {title: "Hourglass (1 hour)", jsx: <><h2 id="eq-misc-h
 const _howdah = {title: "Howdah", jsx: <><h2 id="eq-misc-howdah-howdah">Howdah</h2>
 <p><strong>Sources</strong> <Link to="/source/belkzen_hold_of_the_orc_hordes">Belkzen, Hold of the Orc Hordes pg. 39</Link>  </p>
 <Tabular format="misc" a="500" b="250" d="animgear" />
-<p>This wooden platform is tied like a saddle to a Huge creature's back. The platform is 10 feet square and enclosed by a low wall and sometimes a roof. The howdah has room for four Medium creatures (usually armed with bows or longspears), or two Medium creatures and a light ballista or light catapult. Occupants of the howdah have <Link to="/rule/cover">cover</Link> against attackers from below and are considered mounted for the purposes of making attacks.</p>
+<p>This wooden platform is tied like a saddle to a Huge creature's back. The platform is 10 feet square and enclosed by a low wall and sometimes a roof. The howdah has room for four Medium creatures (usually armed with bows or longspears), or two Medium creatures and a light ballista or light catapult. Occupants of the howdah have <Link to="/rule/cover">cover</Link> against attackers from below and are considered <Link to="/rule/mounted">mounted</Link> for the purposes of making attacks.</p>
 </>};
 const _hunters_kit = {title: "Hunter's kit", jsx: <><h2 id="eq-misc-hunters_kit-hunters-kit">Hunter's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 204</Link>  </p>
@@ -1740,7 +1742,8 @@ const _mammoth_combat_trained = {title: "Mammoth (combat-trained)", jsx: <><h2 i
 const _mammoth_goad = {title: "Mammoth goad", jsx: <><h2 id="eq-misc-mammoth_goad-mammoth-goad">Mammoth goad</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North pg. 28</Link>  </p>
 <Tabular format="misc" a="5" b="10" d="animgear" />
-<p>Used in the Realm of the Mammoth Lords to train and direct domesticated megafauna, this goad is a sturdy wooden pole 10 to 15 feet long with a prod of polished bone, ivory, or soapstone on one end. The goad grants a +2 bonus on all Handle Animal checks made against mammoths and other megafauna.</p>
+<p>Used in the Realm of the Mammoth Lords to train and direct domesticated megafauna, this goad is a sturdy wooden pole 10 to 15 feet long with a prod of polished bone, ivory, or soapstone on one end.</p>
+<p><Icons id="eq-misc-mammoth_goad-boost-icons" wrapper="prefixIcon" list={["boost"]} /> The goad grants a +2 bonus on all <Link to="/skill/handle_animal">Handle Animal</Link> checks made against mammoths and other megafauna.</p>
 </>};
 const _manacles_with_barbs_common = {title: "Manacles with barbs (common)", jsx: <><h2 id="eq-misc-manacles_with_barbs_common-manacle-barbs">Manacle barbs</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 123</Link>  </p>
@@ -2067,14 +2070,15 @@ const _mithral_chain_10_ft = {title: "Mithral chain (10 ft.)", jsx: <><h2 id="eq
 const _mithral_horseshoes = {title: "Mithral horseshoes", jsx: <><h2 id="eq-misc-mithral_horseshoes-mithral-horseshoes">Mithral horseshoes</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 14</Link>  </p>
 <Tabular format="misc" a="550" b="4" d="animgear" />
-<p>These four thin horseshoes shield a horse's feet as well as steel, allowing it to gallop with confidence, but <Link to="/eq-material/mithral">mithral</Link> horseshoes are far lighter than steel. Horses shod with mithral horseshoes treat their hoof attacks as if they were silver for the purposes of overcoming damage reduction.</p>
+<p>These four thin horseshoes shield a horse's feet as well as steel, allowing it to gallop with confidence, but <Link to="/eq-material/mithral">mithral</Link> horseshoes are far lighter than steel.</p>
+<p><Icons id="eq-misc-mithral_horseshoes-boost-icons" wrapper="prefixIcon" list={["boost"]} /> <Link to="/monster/horse">Horses</Link> shod with mithral horseshoes treat their hoof attacks as if they were silver for the purposes of overcoming damage reduction.</p>
 </>};
 const _horseshoes = {title: "Horseshoes", jsx: <><h2 id="eq-misc-horseshoes-horseshoes">Horseshoes</h2>
 <p><strong>Source</strong> (none)  </p>
 <Tabular format="misc" a="50" b="8" d="animgear" />
 <p>This item is based on <Link to="/eq-misc/mithral_horseshoes">mithral horseshoes</Link>. There are no official rules for horsehoes. Consult your GM.</p>
 <p>Per the rules for <Link to="/eq-material/mithral">mithral</Link>, the weight listed should be accurate, but the price of the mithral item doesn't line up (a 4-pound mithral item should be 2000gp, not 550gp). A 1-pound <Link to="/eq-misc/mithral_chain_10_ft">mithral chain</Link> seems to treat the mithal as a +500gp bonus to the regular <Link to="/eq-misc/chain">chain's</Link> price, but that lines up with a 1-pound item. Nevertheless, this entry treats the mithral as a simple +500gp cost.</p>
-<p>Making horseshoes would likely fall under Profession (blacksmithing or farrier), so using a <Link to="/eq-misc/hireling_trained_per_day">trained hireling</Link> may be a better way to obtain normal horsehoes.</p>
+<p>Making horseshoes would likely fall under <Link to="/skill/profession">Profession</Link> (blacksmithing or farrier), so using a <Link to="/eq-misc/hireling_trained_per_day">trained hireling</Link> may be a better way to obtain normal horsehoes.</p>
 <p><strong>Also note</strong> that a <Link to="/eq-misc/horseshoes_game">horseshoes game</Link> is only 5sp, and it includes 4 horseshoes and two iron stakes. It's possible that these are inferior-quality horseshoes that cannot be used on actual mounts, but your GM may disagree.</p>
 </>};
 const _mithralbane_sap = {title: "Mithralbane sap", jsx: <><h2 id="eq-misc-mithralbane_sap-mithralbane-sap">Mithralbane sap</h2>

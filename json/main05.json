@@ -2575,7 +2575,7 @@
 				],
 				"initialColumn": 0,
 				"data": [
-					[ [ "animal call", "animal_call" ], 0.1, 0 ],
+					[ [ "animal disguise kit", "animal_disguise_kit" ], 100, 8 ],
 					[ [ "animal harness", "animal_harness" ], 2, 2 ],
 					[ [ "animal repellent", "animal_repellent" ], 15, 0 ],
 					[ [ "aquarium ball", "aquarium_ball" ], 80, 20 ],
@@ -2803,7 +2803,7 @@
 					[ [ "alchemist's lab", "alchemists_lab" ], 200, 40 ],
 					[ [ "alchemy crafting kit", "alchemy_crafting_kit" ], 25, 5 ],
 					[ [ "anchoring balloon", "anchoring_balloon" ], 300, 25 ],
-					[ [ "animal disguise kit", "animal_disguise_kit" ], 100, 8 ],
+					[ [ "animal call", "animal_call" ], 0.1, 0 ],
 					[ [ "antidote kit", "antidote_kit" ], 100, 3 ],
 					[ [ "anvil", "anvil" ], 5, { "sort": 10, "data": "10 - 100 lbs." } ],
 					[ [ "arcane family workbook", "arcane_family_workbook" ], 300, 3 ],
